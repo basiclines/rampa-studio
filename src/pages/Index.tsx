@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { Plus, Download, Trash2, Copy, Settings, Eye, EyeOff, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -31,6 +30,7 @@ interface ColorRampConfig {
   saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
+  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
   lockedColors: { [index: number]: string };
 }
 
