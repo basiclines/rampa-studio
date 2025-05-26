@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { Plus, Download, Trash2, Copy, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -436,12 +435,11 @@ const Index = () => {
                               type="number"
                               value={ramp.saturationStart || 20}
                               onChange={(e) => {
-                                const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 20));
-                                updateColorRamp(ramp.id, { saturationStart: value });
+                                const value = parseFloat(e.target.value);
+                                if (!isNaN(value)) {
+                                  updateColorRamp(ramp.id, { saturationStart: value });
+                                }
                               }}
-                              min={0}
-                              max={100}
-                              step={1}
                               className="text-center text-xs"
                             />
                           </div>
@@ -451,12 +449,11 @@ const Index = () => {
                               type="number"
                               value={ramp.saturationEnd || 80}
                               onChange={(e) => {
-                                const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 80));
-                                updateColorRamp(ramp.id, { saturationEnd: value });
+                                const value = parseFloat(e.target.value);
+                                if (!isNaN(value)) {
+                                  updateColorRamp(ramp.id, { saturationEnd: value });
+                                }
                               }}
-                              min={0}
-                              max={100}
-                              step={1}
                               className="text-center text-xs"
                             />
                           </div>
