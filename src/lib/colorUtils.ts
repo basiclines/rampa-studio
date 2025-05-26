@@ -1,18 +1,14 @@
-
 import chroma from 'chroma-js';
 
 interface ColorRampConfig {
   id: string;
   name: string;
   baseColor: string;
-  stepsUp: number;
-  stepsDown: number;
+  totalSteps: number;
   lightnessRange: number;
   chromaRange: number;
   saturationRange: number;
-  lockStepsUp: boolean;
-  lockStepsDown: boolean;
-  lockedColors: { [index: number]: string }; // New property for locked colors
+  lockedColors: { [index: number]: string };
 }
 
 interface ColorRampData {
@@ -31,21 +27,23 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
     const baseSaturation = s || 0;
     const baseLightness = l || 0;
     
+    // Calculate the middle index (base color position)
+    const middleIndex = Math.floor(config.totalSteps / 2);
+    
     // Calculate step sizes
-    const totalSteps = config.stepsUp + config.stepsDown + 1;
-    const lightnessStep = (config.lightnessRange / 100) / (totalSteps - 1);
-    const hueStep = config.chromaRange / (totalSteps - 1);
-    const saturationStep = (config.saturationRange / 100) / (totalSteps - 1);
+    const lightnessStep = (config.lightnessRange / 100) / (config.totalSteps - 1);
+    const hueStep = config.chromaRange / (config.totalSteps - 1);
+    const saturationStep = (config.saturationRange / 100) / (config.totalSteps - 1);
     
     // Generate colors from darkest to lightest
-    for (let i = 0; i < totalSteps; i++) {
+    for (let i = 0; i < config.totalSteps; i++) {
       // Check if this color index is locked
       if (config.lockedColors && config.lockedColors[i]) {
         colors.push(config.lockedColors[i]);
         continue;
       }
       
-      const position = i - config.stepsDown;
+      const position = i - middleIndex;
       
       // Calculate adjustments based on position
       const lightnessAdjustment = position * lightnessStep;
@@ -71,10 +69,9 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
   } catch (error) {
     console.error('Error generating color ramp:', error);
     // Return a fallback grayscale ramp
-    const totalSteps = config.stepsUp + config.stepsDown + 1;
     const fallbackColors: string[] = [];
-    for (let i = 0; i < totalSteps; i++) {
-      const lightness = (i / (totalSteps - 1)) * 0.8 + 0.1;
+    for (let i = 0; i < config.totalSteps; i++) {
+      const lightness = (i / (config.totalSteps - 1)) * 0.8 + 0.1;
       fallbackColors.push(chroma.hsl(0, 0, lightness).hex());
     }
     return fallbackColors;

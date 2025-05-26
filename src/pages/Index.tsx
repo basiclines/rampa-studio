@@ -1,12 +1,11 @@
 
 import React, { useState, useCallback } from 'react';
-import { Plus, Download, Trash2, Lock, Unlock } from 'lucide-react';
+import { Plus, Download, Trash2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
-import { Switch } from '@/components/ui/switch';
 import ColorRamp from '@/components/ColorRamp';
 import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
 import { useToast } from '@/hooks/use-toast';
@@ -15,13 +14,10 @@ interface ColorRampConfig {
   id: string;
   name: string;
   baseColor: string;
-  stepsUp: number;
-  stepsDown: number;
+  totalSteps: number;
   lightnessRange: number;
   chromaRange: number;
   saturationRange: number;
-  lockStepsUp: boolean;
-  lockStepsDown: boolean;
   lockedColors: { [index: number]: string };
 }
 
@@ -32,26 +28,20 @@ const Index = () => {
       id: '1',
       name: 'Primary',
       baseColor: '#3b82f6',
-      stepsUp: 5,
-      stepsDown: 5,
+      totalSteps: 11,
       lightnessRange: 80,
       chromaRange: 0,
       saturationRange: 40,
-      lockStepsUp: false,
-      lockStepsDown: false,
       lockedColors: {},
     },
     {
       id: '2',
       name: 'Secondary',
       baseColor: '#10b981',
-      stepsUp: 4,
-      stepsDown: 4,
+      totalSteps: 9,
       lightnessRange: 70,
       chromaRange: 15,
       saturationRange: 30,
-      lockStepsUp: false,
-      lockStepsDown: false,
       lockedColors: {},
     },
   ]);
@@ -61,13 +51,10 @@ const Index = () => {
       id: Date.now().toString(),
       name: `Ramp ${colorRamps.length + 1}`,
       baseColor: '#6366f1',
-      stepsUp: 5,
-      stepsDown: 5,
+      totalSteps: 11,
       lightnessRange: 80,
       chromaRange: 60,
       saturationRange: 40,
-      lockStepsUp: false,
-      lockStepsDown: false,
       lockedColors: {},
     };
     setColorRamps(prev => [...prev, newRamp]);
@@ -167,7 +154,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="space-y-6">
                 {/* Base Color and Steps */}
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
                     <div className="flex gap-2">
@@ -188,46 +175,14 @@ const Index = () => {
                   </div>
                   
                   <div className="space-y-2">
-                    <div className="flex items-center justify-between">
-                      <Label>Steps Up: {ramp.stepsUp}</Label>
-                      <div className="flex items-center gap-2">
-                        {ramp.lockStepsUp ? <Lock className="w-4 h-4 text-blue-600" /> : <Unlock className="w-4 h-4 text-gray-400" />}
-                        <Switch
-                          checked={ramp.lockStepsUp}
-                          onCheckedChange={(checked) => updateColorRamp(ramp.id, { lockStepsUp: checked })}
-                        />
-                      </div>
-                    </div>
+                    <Label>Total Steps: {ramp.totalSteps}</Label>
                     <Slider
-                      value={[ramp.stepsUp]}
-                      onValueChange={([value]) => !ramp.lockStepsUp && updateColorRamp(ramp.id, { stepsUp: value })}
-                      max={10}
-                      min={1}
-                      step={1}
-                      className={`w-full ${ramp.lockStepsUp ? 'opacity-50 pointer-events-none' : ''}`}
-                      disabled={ramp.lockStepsUp}
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <div className="flex items-center justify-between">
-                      <Label>Steps Down: {ramp.stepsDown}</Label>
-                      <div className="flex items-center gap-2">
-                        {ramp.lockStepsDown ? <Lock className="w-4 h-4 text-blue-600" /> : <Unlock className="w-4 h-4 text-gray-400" />}
-                        <Switch
-                          checked={ramp.lockStepsDown}
-                          onCheckedChange={(checked) => updateColorRamp(ramp.id, { lockStepsDown: checked })}
-                        />
-                      </div>
-                    </div>
-                    <Slider
-                      value={[ramp.stepsDown]}
-                      onValueChange={([value]) => !ramp.lockStepsDown && updateColorRamp(ramp.id, { stepsDown: value })}
-                      max={10}
-                      min={1}
-                      step={1}
-                      className={`w-full ${ramp.lockStepsDown ? 'opacity-50 pointer-events-none' : ''}`}
-                      disabled={ramp.lockStepsDown}
+                      value={[ramp.totalSteps]}
+                      onValueChange={([value]) => updateColorRamp(ramp.id, { totalSteps: value })}
+                      max={21}
+                      min={3}
+                      step={2}
+                      className="w-full"
                     />
                   </div>
                 </div>
