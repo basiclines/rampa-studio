@@ -93,7 +93,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
       >
         {/* Start point */}
         <div
-          className="absolute w-6 h-3 bg-blue-500 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-blue-600 transition-colors z-10"
+          className="absolute w-6 h-3 bg-black border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-gray-800 transition-colors z-10"
           style={{ 
             left: '50%',
             top: `${startPosition}%`
@@ -103,7 +103,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
         
         {/* End point */}
         <div
-          className="absolute w-6 h-3 bg-red-500 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-red-600 transition-colors z-10"
+          className="absolute w-6 h-3 bg-gray-500 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-gray-600 transition-colors z-10"
           style={{ 
             left: '50%',
             top: `${endPosition}%`
@@ -113,7 +113,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
         
         {/* Gradient line between points */}
         <div
-          className="absolute w-1 bg-gradient-to-t from-blue-500 to-red-500 left-1/2 transform -translate-x-1/2 opacity-60"
+          className="absolute w-1 bg-gradient-to-t from-black to-gray-500 left-1/2 transform -translate-x-1/2 opacity-60"
           style={{
             top: `${Math.min(startPosition, endPosition)}%`,
             height: `${Math.abs(endPosition - startPosition)}%`
@@ -123,8 +123,8 @@ const GradientControl: React.FC<GradientControlProps> = ({
       
       {/* Value display */}
       <div className="text-xs text-center space-y-1">
-        <div className="text-red-600">End: {formatValue(endValue)}</div>
-        <div className="text-blue-600">Start: {formatValue(startValue)}</div>
+        <div className="text-gray-600">End: {formatValue(endValue)}</div>
+        <div className="text-black">Start: {formatValue(startValue)}</div>
       </div>
     </div>
   );
