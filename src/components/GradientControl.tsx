@@ -85,8 +85,11 @@ const GradientControl: React.FC<GradientControlProps> = ({
       <div className="text-xs font-medium text-gray-700 text-center">{label}</div>
       <div 
         ref={containerRef}
-        className="relative w-8 h-32 rounded border border-gray-300 mx-auto cursor-pointer select-none"
-        style={{ background: gradientBackground }}
+        className="relative w-8 rounded border border-gray-300 mx-auto cursor-pointer select-none"
+        style={{ 
+          background: gradientBackground,
+          height: 'calc(100% - 4rem)' // Account for label and value display
+        }}
       >
         {/* Start point */}
         <div

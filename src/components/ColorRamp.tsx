@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Lock } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
@@ -158,100 +159,103 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         </Button>
       </div>
       
-      {/* Gradient Controls - Only show when advanced mode is enabled */}
-      {(config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
-        <div className="flex gap-4 justify-center bg-gray-50 p-3 rounded-lg">
-          {config.lightnessAdvanced && (
-            <GradientControl
-              label="Lightness"
-              startValue={config.lightnessStart ?? 10}
-              endValue={config.lightnessEnd ?? 90}
-              min={0}
-              max={100}
-              onValuesChange={handleLightnessGradient}
-              formatValue={(v) => `${Math.round(v)}%`}
-              gradientColors={generateParameterGradient('lightness')}
-            />
-          )}
-          
-          {config.chromaAdvanced && (
-            <GradientControl
-              label="Hue"
-              startValue={config.chromaStart ?? -30}
-              endValue={config.chromaEnd ?? 30}
-              min={-180}
-              max={180}
-              onValuesChange={handleHueGradient}
-              formatValue={(v) => `${Math.round(v)}°`}
-              gradientColors={generateParameterGradient('hue')}
-            />
-          )}
-          
-          {config.saturationAdvanced && (
-            <GradientControl
-              label="Saturation"
-              startValue={config.saturationStart ?? 20}
-              endValue={config.saturationEnd ?? 80}
-              min={0}
-              max={100}
-              onValuesChange={handleSaturationGradient}
-              formatValue={(v) => `${Math.round(v)}%`}
-              gradientColors={generateParameterGradient('saturation')}
-            />
-          )}
-        </div>
-      )}
-      
-      <div className="flex flex-col gap-1">
-        {colors.map((color, index) => {
-          const isLocked = config.lockedColors && config.lockedColors[index];
-          
-          return (
-            <div key={index} className="space-y-1">
-              <div
-                className="group relative w-full h-12 rounded-md border border-gray-200 overflow-hidden"
-                style={{ backgroundColor: color }}
-              >
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className={`absolute top-1 right-1 w-6 h-6 p-0 transition-all duration-200 z-10 ${
-                    isLocked 
-                      ? 'bg-black bg-opacity-60 text-yellow-400 opacity-100' 
-                      : 'bg-black bg-opacity-0 text-white opacity-0 group-hover:opacity-100 group-hover:bg-opacity-60'
-                  }`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    toggleLockColor(index, color);
-                  }}
+      <div className="flex gap-4">
+        {/* Color Ramp */}
+        <div className="flex flex-col gap-1 flex-1">
+          {colors.map((color, index) => {
+            const isLocked = config.lockedColors && config.lockedColors[index];
+            
+            return (
+              <div key={index} className="space-y-1">
+                <div
+                  className="group relative w-full h-12 rounded-md border border-gray-200 overflow-hidden"
+                  style={{ backgroundColor: color }}
                 >
-                  <Lock className="w-3 h-3" />
-                </Button>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className={`absolute top-1 right-1 w-6 h-6 p-0 transition-all duration-200 z-10 ${
+                      isLocked 
+                        ? 'bg-black bg-opacity-60 text-yellow-400 opacity-100' 
+                        : 'bg-black bg-opacity-0 text-white opacity-0 group-hover:opacity-100 group-hover:bg-opacity-60'
+                    }`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      toggleLockColor(index, color);
+                    }}
+                  >
+                    <Lock className="w-3 h-3" />
+                  </Button>
+                </div>
+                
+                <div className="flex gap-1 items-center">
+                  <Input
+                    type="color"
+                    value={color}
+                    onChange={(e) => handleColorChange(index, e.target.value)}
+                    className="w-8 h-6 border border-gray-300 rounded cursor-pointer p-0"
+                  />
+                  <Input
+                    type="text"
+                    value={color}
+                    onChange={(e) => {
+                      const newColor = e.target.value;
+                      if (/^#[0-9A-F]{6}$/i.test(newColor) || /^#[0-9A-F]{3}$/i.test(newColor)) {
+                        handleColorChange(index, newColor);
+                      }
+                    }}
+                    className="flex-1 text-xs h-6"
+                    placeholder="#000000"
+                  />
+                </div>
               </div>
-              
-              <div className="flex gap-1 items-center">
-                <Input
-                  type="color"
-                  value={color}
-                  onChange={(e) => handleColorChange(index, e.target.value)}
-                  className="w-8 h-6 border border-gray-300 rounded cursor-pointer p-0"
-                />
-                <Input
-                  type="text"
-                  value={color}
-                  onChange={(e) => {
-                    const newColor = e.target.value;
-                    if (/^#[0-9A-F]{6}$/i.test(newColor) || /^#[0-9A-F]{3}$/i.test(newColor)) {
-                      handleColorChange(index, newColor);
-                    }
-                  }}
-                  className="flex-1 text-xs h-6"
-                  placeholder="#000000"
-                />
-              </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
+
+        {/* Gradient Controls - Side by side */}
+        {(config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
+          <div className="flex gap-2">
+            {config.lightnessAdvanced && (
+              <GradientControl
+                label="Lightness"
+                startValue={config.lightnessStart ?? 10}
+                endValue={config.lightnessEnd ?? 90}
+                min={0}
+                max={100}
+                onValuesChange={handleLightnessGradient}
+                formatValue={(v) => `${Math.round(v)}%`}
+                gradientColors={generateParameterGradient('lightness')}
+              />
+            )}
+            
+            {config.chromaAdvanced && (
+              <GradientControl
+                label="Hue"
+                startValue={config.chromaStart ?? -30}
+                endValue={config.chromaEnd ?? 30}
+                min={-180}
+                max={180}
+                onValuesChange={handleHueGradient}
+                formatValue={(v) => `${Math.round(v)}°`}
+                gradientColors={generateParameterGradient('hue')}
+              />
+            )}
+            
+            {config.saturationAdvanced && (
+              <GradientControl
+                label="Saturation"
+                startValue={config.saturationStart ?? 20}
+                endValue={config.saturationEnd ?? 80}
+                min={0}
+                max={100}
+                onValuesChange={handleSaturationGradient}
+                formatValue={(v) => `${Math.round(v)}%`}
+                gradientColors={generateParameterGradient('saturation')}
+              />
+            )}
+          </div>
+        )}
       </div>
       
       <div className="text-xs text-gray-500 text-center">
