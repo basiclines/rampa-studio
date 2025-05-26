@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Lock } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
@@ -101,7 +101,8 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     });
   };
 
-    // Generate gradient colors for each parameter
+  // Generate gradient colors for each parameter - memoized and only dependent on base color
+  const parameterGradients = useMemo(() => {
     const generateParameterGradient = (parameter: 'lightness' | 'hue' | 'saturation') => {
       const gradientSteps = 20;
       const gradientColors: string[] = [];
@@ -116,23 +117,21 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
           
           switch (parameter) {
             case 'lightness': {
-              const startL = (config.lightnessStart ?? 10) / 100;
-              const endL = (config.lightnessEnd ?? 90) / 100;
-              const lightness = startL + (endL - startL) * position;
+              // Full lightness spectrum from 0% to 100%
+              const lightness = position;
               newColor = chroma.hsl(h || 0, s || 0, lightness);
               break;
             }
             case 'hue': {
-              const startH = (h || 0) + (config.chromaStart ?? -30);
-              const endH = (h || 0) + (config.chromaEnd ?? 30);
-              const hue = startH + (endH - startH) * position;
+              // Full hue spectrum from -180° to +180° relative to base hue
+              const hueShift = -180 + (360 * position);
+              const hue = (h || 0) + hueShift;
               newColor = chroma.hsl(hue, s || 0, l || 0.5);
               break;
             }
             case 'saturation': {
-              const startS = (config.saturationStart ?? 20) / 100;
-              const endS = (config.saturationEnd ?? 80) / 100;
-              const saturation = startS + (endS - startS) * position;
+              // Full saturation spectrum from 0% to 100%
+              const saturation = position;
               newColor = chroma.hsl(h || 0, saturation, l || 0.5);
               break;
             }
@@ -151,6 +150,13 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
       
       return gradientColors;
     };
+
+    return {
+      lightness: generateParameterGradient('lightness'),
+      hue: generateParameterGradient('hue'),
+      saturation: generateParameterGradient('saturation')
+    };
+  }, [config.baseColor]); // Only regenerate when base color changes
 
   return (
     <div className="space-y-4 min-w-[120px]">
@@ -227,7 +233,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 max={100}
                 onValuesChange={handleLightnessGradient}
                 formatValue={(v) => `${Math.round(v)}%`}
-                gradientColors={generateParameterGradient('lightness')}
+                gradientColors={parameterGradients.lightness}
               />
             )}
             
@@ -240,7 +246,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 max={180}
                 onValuesChange={handleHueGradient}
                 formatValue={(v) => `${Math.round(v)}°`}
-                gradientColors={generateParameterGradient('hue')}
+                gradientColors={parameterGradients.hue}
               />
             )}
             
@@ -253,7 +259,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 max={100}
                 onValuesChange={handleSaturationGradient}
                 formatValue={(v) => `${Math.round(v)}%`}
-                gradientColors={generateParameterGradient('saturation')}
+                gradientColors={parameterGradients.saturation}
               />
             )}
           </div>
