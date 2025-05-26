@@ -31,7 +31,7 @@ const Index = () => {
       stepsUp: 5,
       stepsDown: 5,
       lightnessRange: 80,
-      chromaRange: 60,
+      chromaRange: 0, // Changed default to 0 degrees
       saturationRange: 40,
     },
     {
@@ -41,7 +41,7 @@ const Index = () => {
       stepsUp: 4,
       stepsDown: 4,
       lightnessRange: 70,
-      chromaRange: 50,
+      chromaRange: 15, // Example with positive hue shift
       saturationRange: 30,
     },
   ]);
@@ -111,7 +111,7 @@ const Index = () => {
             Color Palette Generator
           </h1>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Create and edit multiple color ramps with precise control over lightness, chroma, and saturation
+            Create and edit multiple color ramps with precise control over lightness, hue shifts, and saturation
           </p>
         </div>
 
@@ -214,12 +214,12 @@ const Index = () => {
                   </div>
                   
                   <div className="space-y-2">
-                    <Label>Chroma Range: {ramp.chromaRange}%</Label>
+                    <Label>Hue Shift: {ramp.chromaRange}°</Label>
                     <Slider
                       value={[ramp.chromaRange]}
                       onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
-                      max={100}
-                      min={10}
+                      max={180}
+                      min={-180}
                       step={5}
                       className="w-full"
                     />

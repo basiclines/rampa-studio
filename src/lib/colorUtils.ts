@@ -31,7 +31,7 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
     // Calculate step sizes
     const totalSteps = config.stepsUp + config.stepsDown + 1;
     const lightnessStep = (config.lightnessRange / 100) / (totalSteps - 1);
-    const chromaStep = (config.chromaRange / 100) / (totalSteps - 1);
+    const hueStep = config.chromaRange / (totalSteps - 1); // Now using chromaRange as hue degrees
     const saturationStep = (config.saturationRange / 100) / (totalSteps - 1);
     
     // Generate colors from darkest to lightest
@@ -40,11 +40,13 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
       
       // Calculate adjustments based on position
       const lightnessAdjustment = position * lightnessStep;
-      const chromaAdjustment = Math.abs(position) * chromaStep;
+      const hueAdjustment = position * hueStep; // Hue adjustment in degrees
       const saturationAdjustment = Math.abs(position) * saturationStep;
       
       // Apply adjustments
       let newLightness = baseLightness + lightnessAdjustment;
+      let newHue = (baseHue + hueAdjustment) % 360; // Wrap around at 360 degrees
+      if (newHue < 0) newHue += 360; // Handle negative values
       let newSaturation = baseSaturation - saturationAdjustment;
       
       // Clamp values to valid ranges
@@ -52,7 +54,7 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
       newSaturation = Math.max(0.1, Math.min(1, newSaturation));
       
       // Create the new color
-      const newColor = chroma.hsl(baseHue, newSaturation, newLightness);
+      const newColor = chroma.hsl(newHue, newSaturation, newLightness);
       colors.push(newColor.hex());
     }
     
