@@ -12,6 +12,7 @@ interface GradientControlProps {
   formatValue?: (value: number) => string;
   className?: string;
   gradientColors?: string[]; // Array of colors representing the gradient
+  referenceValue?: number; // Optional reference value to mark on the gradient
 }
 
 const GradientControl: React.FC<GradientControlProps> = ({
@@ -23,7 +24,8 @@ const GradientControl: React.FC<GradientControlProps> = ({
   onValuesChange,
   formatValue = (v) => v.toString(),
   className,
-  gradientColors
+  gradientColors,
+  referenceValue
 }) => {
   const [isDragging, setIsDragging] = useState<'start' | 'end' | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -74,6 +76,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
 
   const startPosition = valueToPosition(startValue); // Remove inversion
   const endPosition = valueToPosition(endValue);
+  const referencePosition = referenceValue !== undefined ? valueToPosition(referenceValue) : null;
 
   // Create gradient background based on gradientColors or fallback to gray
   const gradientBackground = gradientColors && gradientColors.length > 0 
@@ -91,6 +94,17 @@ const GradientControl: React.FC<GradientControlProps> = ({
           height: 'calc(100% - 4rem)' // Account for label and value display
         }}
       >
+        {/* Reference line (for base color hue) */}
+        {referencePosition !== null && (
+          <div
+            className="absolute w-full border-t-2 border-red-500 z-20"
+            style={{ 
+              top: `${referencePosition}%`,
+              transform: 'translateY(-1px)'
+            }}
+          />
+        )}
+
         {/* Start point */}
         <div
           className="absolute w-6 h-3 bg-black border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-gray-800 transition-colors z-10"

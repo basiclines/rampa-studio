@@ -158,6 +158,18 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     };
   }, [config.baseColor]); // Only regenerate when base color changes
 
+  // Get base color hue for reference line
+  const baseColorHue = useMemo(() => {
+    try {
+      const baseColor = chroma(config.baseColor);
+      const [h] = baseColor.hsl();
+      return h || 0;
+    } catch (error) {
+      console.error('Error getting base color hue:', error);
+      return 0;
+    }
+  }, [config.baseColor]);
+
   return (
     <div className="space-y-4 min-w-[120px]">
       <div className="text-center space-y-2">
@@ -257,6 +269,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 onValuesChange={handleHueGradient}
                 formatValue={(v) => `${Math.round(v)}°`}
                 gradientColors={parameterGradients.hue}
+                referenceValue={0} // Base hue is at 0 position (no shift)
               />
             )}
             
