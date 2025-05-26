@@ -48,7 +48,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
     const rect = containerRef.current.getBoundingClientRect();
     const y = e.clientY - rect.top;
     const position = Math.max(0, Math.min(100, (y / rect.height) * 100));
-    const newValue = positionToValue(100 - position); // Invert because top = max value
+    const newValue = positionToValue(position); // Remove inversion - now top = min value
 
     if (isDragging === 'start') {
       onValuesChange(newValue, endValue);
@@ -72,13 +72,13 @@ const GradientControl: React.FC<GradientControlProps> = ({
     }
   }, [isDragging, handleMouseMove, handleMouseUp]);
 
-  const startPosition = 100 - valueToPosition(startValue); // Invert for visual representation
-  const endPosition = 100 - valueToPosition(endValue);
+  const startPosition = valueToPosition(startValue); // Remove inversion
+  const endPosition = valueToPosition(endValue);
 
   // Create gradient background based on gradientColors or fallback to gray
   const gradientBackground = gradientColors && gradientColors.length > 0 
-    ? `linear-gradient(to top, ${gradientColors.join(', ')})`
-    : 'linear-gradient(to top, #e5e7eb, #374151)';
+    ? `linear-gradient(to bottom, ${gradientColors.join(', ')})` // Change to bottom direction
+    : 'linear-gradient(to bottom, #374151, #e5e7eb)'; // Change to bottom direction
 
   return (
     <div className={cn("space-y-2", className)}>
@@ -113,7 +113,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
         
         {/* Gradient line between points */}
         <div
-          className="absolute w-1 bg-gradient-to-t from-black to-gray-500 left-1/2 transform -translate-x-1/2 opacity-60"
+          className="absolute w-1 bg-gradient-to-b from-black to-gray-500 left-1/2 transform -translate-x-1/2 opacity-60"
           style={{
             top: `${Math.min(startPosition, endPosition)}%`,
             height: `${Math.abs(endPosition - startPosition)}%`
@@ -123,8 +123,8 @@ const GradientControl: React.FC<GradientControlProps> = ({
       
       {/* Value display */}
       <div className="text-xs text-center space-y-1">
-        <div className="text-gray-600">End: {formatValue(endValue)}</div>
         <div className="text-black">Start: {formatValue(startValue)}</div>
+        <div className="text-gray-600">End: {formatValue(endValue)}</div>
       </div>
     </div>
   );
