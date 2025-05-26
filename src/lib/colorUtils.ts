@@ -66,7 +66,7 @@ const applyBlendMode = (baseColor: chroma.Color, tintColor: chroma.Color, opacit
   }
   
   // Apply opacity by mixing with original color
-  const blendedColor = chroma.rgb(blendedRgb);
+  const blendedColor = chroma.rgb(...blendedRgb);
   return chroma.mix(baseColor, blendedColor, opacity, 'rgb');
 };
 
