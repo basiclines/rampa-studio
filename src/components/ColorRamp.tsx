@@ -158,41 +158,49 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         </Button>
       </div>
       
-      {/* Gradient Controls */}
-      <div className="flex gap-4 justify-center bg-gray-50 p-3 rounded-lg">
-        <GradientControl
-          label="Lightness"
-          startValue={config.lightnessStart ?? 10}
-          endValue={config.lightnessEnd ?? 90}
-          min={0}
-          max={100}
-          onValuesChange={handleLightnessGradient}
-          formatValue={(v) => `${Math.round(v)}%`}
-          gradientColors={generateParameterGradient('lightness')}
-        />
-        
-        <GradientControl
-          label="Hue"
-          startValue={config.chromaStart ?? -30}
-          endValue={config.chromaEnd ?? 30}
-          min={-180}
-          max={180}
-          onValuesChange={handleHueGradient}
-          formatValue={(v) => `${Math.round(v)}°`}
-          gradientColors={generateParameterGradient('hue')}
-        />
-        
-        <GradientControl
-          label="Saturation"
-          startValue={config.saturationStart ?? 20}
-          endValue={config.saturationEnd ?? 80}
-          min={0}
-          max={100}
-          onValuesChange={handleSaturationGradient}
-          formatValue={(v) => `${Math.round(v)}%`}
-          gradientColors={generateParameterGradient('saturation')}
-        />
-      </div>
+      {/* Gradient Controls - Only show when advanced mode is enabled */}
+      {(config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
+        <div className="flex gap-4 justify-center bg-gray-50 p-3 rounded-lg">
+          {config.lightnessAdvanced && (
+            <GradientControl
+              label="Lightness"
+              startValue={config.lightnessStart ?? 10}
+              endValue={config.lightnessEnd ?? 90}
+              min={0}
+              max={100}
+              onValuesChange={handleLightnessGradient}
+              formatValue={(v) => `${Math.round(v)}%`}
+              gradientColors={generateParameterGradient('lightness')}
+            />
+          )}
+          
+          {config.chromaAdvanced && (
+            <GradientControl
+              label="Hue"
+              startValue={config.chromaStart ?? -30}
+              endValue={config.chromaEnd ?? 30}
+              min={-180}
+              max={180}
+              onValuesChange={handleHueGradient}
+              formatValue={(v) => `${Math.round(v)}°`}
+              gradientColors={generateParameterGradient('hue')}
+            />
+          )}
+          
+          {config.saturationAdvanced && (
+            <GradientControl
+              label="Saturation"
+              startValue={config.saturationStart ?? 20}
+              endValue={config.saturationEnd ?? 80}
+              min={0}
+              max={100}
+              onValuesChange={handleSaturationGradient}
+              formatValue={(v) => `${Math.round(v)}%`}
+              gradientColors={generateParameterGradient('saturation')}
+            />
+          )}
+        </div>
+      )}
       
       <div className="flex flex-col gap-1">
         {colors.map((color, index) => {
