@@ -22,6 +22,7 @@ interface ColorRampConfig {
   saturationRange: number;
   lockStepsUp: boolean;
   lockStepsDown: boolean;
+  lockedColors: { [index: number]: string };
 }
 
 const Index = () => {
@@ -34,10 +35,11 @@ const Index = () => {
       stepsUp: 5,
       stepsDown: 5,
       lightnessRange: 80,
-      chromaRange: 0, // Changed default to 0 degrees
+      chromaRange: 0,
       saturationRange: 40,
       lockStepsUp: false,
       lockStepsDown: false,
+      lockedColors: {},
     },
     {
       id: '2',
@@ -46,10 +48,11 @@ const Index = () => {
       stepsUp: 4,
       stepsDown: 4,
       lightnessRange: 70,
-      chromaRange: 15, // Example with positive hue shift
+      chromaRange: 15,
       saturationRange: 30,
       lockStepsUp: false,
       lockStepsDown: false,
+      lockedColors: {},
     },
   ]);
 
@@ -65,6 +68,7 @@ const Index = () => {
       saturationRange: 40,
       lockStepsUp: false,
       lockStepsDown: false,
+      lockedColors: {},
     };
     setColorRamps(prev => [...prev, newRamp]);
   }, [colorRamps.length]);
@@ -268,7 +272,10 @@ const Index = () => {
                 </div>
 
                 {/* Color Ramp Preview */}
-                <ColorRamp config={ramp} />
+                <ColorRamp 
+                  config={ramp} 
+                  onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
+                />
               </CardContent>
             </Card>
           ))}

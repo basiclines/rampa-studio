@@ -12,6 +12,7 @@ interface ColorRampConfig {
   saturationRange: number;
   lockStepsUp: boolean;
   lockStepsDown: boolean;
+  lockedColors: { [index: number]: string }; // New property for locked colors
 }
 
 interface ColorRampData {
@@ -33,22 +34,28 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
     // Calculate step sizes
     const totalSteps = config.stepsUp + config.stepsDown + 1;
     const lightnessStep = (config.lightnessRange / 100) / (totalSteps - 1);
-    const hueStep = config.chromaRange / (totalSteps - 1); // Now using chromaRange as hue degrees
+    const hueStep = config.chromaRange / (totalSteps - 1);
     const saturationStep = (config.saturationRange / 100) / (totalSteps - 1);
     
     // Generate colors from darkest to lightest
     for (let i = 0; i < totalSteps; i++) {
+      // Check if this color index is locked
+      if (config.lockedColors && config.lockedColors[i]) {
+        colors.push(config.lockedColors[i]);
+        continue;
+      }
+      
       const position = i - config.stepsDown;
       
       // Calculate adjustments based on position
       const lightnessAdjustment = position * lightnessStep;
-      const hueAdjustment = position * hueStep; // Hue adjustment in degrees
+      const hueAdjustment = position * hueStep;
       const saturationAdjustment = Math.abs(position) * saturationStep;
       
       // Apply adjustments
       let newLightness = baseLightness + lightnessAdjustment;
-      let newHue = (baseHue + hueAdjustment) % 360; // Wrap around at 360 degrees
-      if (newHue < 0) newHue += 360; // Handle negative values
+      let newHue = (baseHue + hueAdjustment) % 360;
+      if (newHue < 0) newHue += 360;
       let newSaturation = baseSaturation - saturationAdjustment;
       
       // Clamp values to valid ranges
