@@ -45,7 +45,10 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     });
   };
 
-  const toggleColorLock = (index: number, color: string) => {
+  const toggleColorLock = (index: number, color: string, event: React.MouseEvent) => {
+    event.stopPropagation();
+    event.preventDefault();
+    
     const lockedColors = { ...config.lockedColors };
     
     if (lockedColors[index]) {
@@ -80,16 +83,14 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
           return (
             <div
               key={index}
-              className="group relative aspect-square rounded-lg border-2 border-gray-200 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg"
+              className="group relative aspect-square rounded-lg border-2 border-gray-200 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
               style={{ backgroundColor: color }}
+              onClick={() => copyColor(color)}
             >
               {/* Lock button */}
               <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  toggleColorLock(index, color);
-                }}
-                className={`absolute top-1 right-1 p-1 rounded-full transition-all duration-200 ${
+                onClick={(e) => toggleColorLock(index, color, e)}
+                className={`absolute top-1 right-1 p-1 rounded-full transition-all duration-200 z-10 ${
                   isLocked 
                     ? 'bg-blue-500 text-white shadow-md' 
                     : 'bg-white/80 text-gray-600 opacity-0 group-hover:opacity-100'
@@ -99,10 +100,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
               </button>
 
               {/* Copy overlay */}
-              <div 
-                className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200 flex items-center justify-center cursor-pointer"
-                onClick={() => copyColor(color)}
-              >
+              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200 flex items-center justify-center">
                 <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                   Copy
                 </span>
