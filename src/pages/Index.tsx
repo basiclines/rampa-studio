@@ -128,7 +128,7 @@ const Index = () => {
         </div>
 
         {/* Layout with Controls and Color Ramps */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-4 gap-8">
           {/* Controls Panel */}
           <div className="lg:col-span-1 space-y-6">
             {colorRamps.map((ramp) => (
@@ -233,21 +233,23 @@ const Index = () => {
           </div>
 
           {/* Color Ramps Display */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="lg:col-span-3">
             <Card className="shadow-lg border-0 bg-white/70 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-xl font-semibold text-gray-800">
                   Color Ramps Comparison
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-6">
-                {colorRamps.map((ramp) => (
-                  <ColorRamp 
-                    key={ramp.id}
-                    config={ramp} 
-                    onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
-                  />
-                ))}
+              <CardContent>
+                <div className="flex gap-6 overflow-x-auto pb-4">
+                  {colorRamps.map((ramp) => (
+                    <ColorRamp 
+                      key={ramp.id}
+                      config={ramp} 
+                      onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
+                    />
+                  ))}
+                </div>
               </CardContent>
             </Card>
           </div>

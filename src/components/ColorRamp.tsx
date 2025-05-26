@@ -3,7 +3,6 @@ import React from 'react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
-import { Lock, Unlock } from 'lucide-react';
 
 interface ColorRampConfig {
   id: string;
@@ -42,78 +41,40 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     });
   };
 
-  const toggleColorLock = (index: number, color: string, event: React.MouseEvent) => {
-    event.stopPropagation();
-    event.preventDefault();
-    
-    const lockedColors = { ...config.lockedColors };
-    
-    if (lockedColors[index]) {
-      // Unlock the color
-      delete lockedColors[index];
-    } else {
-      // Lock the color
-      lockedColors[index] = color;
-    }
-    
-    onUpdateConfig({ lockedColors });
-    
-    toast({
-      title: lockedColors[index] ? "Color Locked" : "Color Unlocked",
-      description: `Color at position ${index + 1} has been ${lockedColors[index] ? 'locked' : 'unlocked'}.`,
-    });
-  };
-
   return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
+    <div className="space-y-4 min-w-[120px]">
+      <div className="text-center space-y-2">
         <h3 className="text-lg font-medium text-gray-700">{config.name}</h3>
         <Button variant="outline" size="sm" onClick={copyAllColors}>
-          Copy All Colors
+          Copy All
         </Button>
       </div>
       
-      <div className="flex gap-2 overflow-x-auto pb-2">
-        {colors.map((color, index) => {
-          const isLocked = config.lockedColors && config.lockedColors[index];
-          
-          return (
-            <div
-              key={index}
-              className="group relative flex-shrink-0 w-16 h-16 rounded-lg border-2 border-gray-200 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
-              style={{ backgroundColor: color }}
-              onClick={() => copyColor(color)}
-            >
-              {/* Lock button */}
-              <button
-                onClick={(e) => toggleColorLock(index, color, e)}
-                className={`absolute top-1 right-1 p-1 rounded-full transition-all duration-200 z-10 ${
-                  isLocked 
-                    ? 'bg-blue-500 text-white shadow-md' 
-                    : 'bg-white/80 text-gray-600 opacity-0 group-hover:opacity-100'
-                }`}
-              >
-                {isLocked ? <Lock className="w-3 h-3" /> : <Unlock className="w-3 h-3" />}
-              </button>
-
-              {/* Copy overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200 flex items-center justify-center">
-                <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                  Copy
-                </span>
-              </div>
-
-              {/* Color value */}
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 text-white text-xs p-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                {color}
-              </div>
+      <div className="flex flex-col gap-1">
+        {colors.map((color, index) => (
+          <div
+            key={index}
+            className="group relative w-full h-12 rounded-md border border-gray-200 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
+            style={{ backgroundColor: color }}
+            onClick={() => copyColor(color)}
+          >
+            {/* Copy overlay */}
+            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200 flex items-center justify-center">
+              <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                Copy
+              </span>
             </div>
-          );
-        })}
+
+            {/* Color value */}
+            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 text-white text-xs p-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+              {color}
+            </div>
+          </div>
+        ))}
       </div>
       
-      <div className="text-sm text-gray-500 text-center">
-        Click any color to copy its hex value • Click the lock icon to freeze a color
+      <div className="text-xs text-gray-500 text-center">
+        Click any color to copy
       </div>
     </div>
   );
