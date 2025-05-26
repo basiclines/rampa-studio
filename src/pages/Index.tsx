@@ -101,25 +101,16 @@ const Index = () => {
       }));
       
       const svgContent = exportToSvg(allColors);
-      const blob = new Blob([svgContent], { type: 'image/svg+xml' });
-      const url = URL.createObjectURL(blob);
-      
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'color-palette.svg';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
+      navigator.clipboard.writeText(svgContent);
       
       toast({
-        title: "SVG Exported",
-        description: "Your color palette has been downloaded as an SVG file.",
+        title: "SVG Copied",
+        description: "Your color palette SVG code has been copied to your clipboard.",
       });
     } catch (error) {
       toast({
-        title: "Export Failed",
-        description: "There was an error exporting your palette.",
+        title: "Copy Failed",
+        description: "There was an error copying your palette.",
         variant: "destructive",
       });
     }
