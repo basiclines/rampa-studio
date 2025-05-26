@@ -1,4 +1,3 @@
-
 import React, { useMemo, useState } from 'react';
 import { Lock, Clipboard } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
@@ -289,14 +288,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
               />
             )}
           </div>
-        )}
-      </div>
-      
-      <div className="text-xs text-gray-500 text-center">
-        {isHovered && (config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) ? (
-          "Drag gradient controls • Edit color to lock • Click lock to toggle"
-        ) : (
-          "Hover to show gradient controls • Edit color to lock • Click lock to toggle"
         )}
       </div>
     </div>
