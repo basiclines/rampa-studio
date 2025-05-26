@@ -1,13 +1,12 @@
-
 import React, { useState, useCallback } from 'react';
 import { Plus, Download, Trash2, Copy, Settings, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Separator } from '@/components/ui/separator';
+import { ScrollArea } from '@/components/ui/scroll-area';
 import ColorRamp from '@/components/ColorRamp';
 import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
 import { useToast } from '@/hooks/use-toast';
@@ -32,7 +31,7 @@ interface ColorRampConfig {
   saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'darken' | 'multiply' | 'plus-darker' | 'color-burn' | 'lighten' | 'screen' | 'plus-lighter' | 'color-dodge' | 'overlay' | 'soft-light' | 'hard-light' | 'difference' | 'exclusion' | 'hue' | 'saturation' | 'color' | 'luminosity';
+  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
   lockedColors: { [index: number]: string };
 }
 
@@ -120,19 +119,19 @@ const Index = () => {
         case 'lightness':
           updates.lightnessRange = 0;
           updates.lightnessAdvanced = false;
-          updates.lightnessStart = (l || 0.5) * 100; // Convert to percentage
+          updates.lightnessStart = (l || 0.5) * 100;
           updates.lightnessEnd = (l || 0.5) * 100;
           break;
         case 'hue':
           updates.chromaRange = 0;
           updates.chromaAdvanced = false;
-          updates.chromaStart = 0; // Hue shift of 0
+          updates.chromaStart = 0;
           updates.chromaEnd = 0;
           break;
         case 'saturation':
           updates.saturationRange = 0;
           updates.saturationAdvanced = false;
-          updates.saturationStart = (s || 0.5) * 100; // Convert to percentage
+          updates.saturationStart = (s || 0.5) * 100;
           updates.saturationEnd = (s || 0.5) * 100;
           break;
       }
@@ -178,479 +177,463 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-[#F5F5F5] flex">
       {/* Sidebar */}
-      <div className="w-80 bg-white border-r border-gray-200 overflow-y-auto">
-        <div className="p-6">
-          <div className="space-y-4 mb-6">
-            <h1 className="text-2xl font-bold text-gray-800">
-              Color Palette Generator
-            </h1>
-            <p className="text-gray-600 text-sm">
-              Create and edit multiple color ramps with precise control over lightness, hue shifts, and saturation
-            </p>
-          </div>
+      <div className="w-80 bg-white border-r border-gray-200">
+        <ScrollArea className="h-screen">
+          <div className="p-6">
+            <div className="space-y-4 mb-6">
+              <h1 className="text-2xl font-bold text-gray-800">
+                Color Palette Generator
+              </h1>
+              <p className="text-gray-600 text-sm">
+                Create and edit multiple color ramps with precise control over lightness, hue shifts, and saturation
+              </p>
+            </div>
 
-          <div className="flex flex-col gap-3 mb-6">
-            <Button onClick={addColorRamp} className="gap-2 w-full">
-              <Plus className="w-4 h-4" />
-              Add Color Ramp
-            </Button>
-            <Button onClick={handleExportSvg} variant="outline" className="gap-2 w-full">
-              <Download className="w-4 h-4" />
-              Export to Figma
-            </Button>
-          </div>
+            <div className="flex flex-col gap-3 mb-6">
+              <Button onClick={addColorRamp} className="gap-2 w-full">
+                <Plus className="w-4 h-4" />
+                Add Color Ramp
+              </Button>
+              <Button onClick={handleExportSvg} variant="outline" className="gap-2 w-full">
+                <Download className="w-4 h-4" />
+                Export to Figma
+              </Button>
+            </div>
 
-          <Separator className="my-6" />
+            <Separator className="my-6" />
 
-          {/* Configuration Controls */}
-          <div className="space-y-8">
-            {colorRamps.map((ramp, index) => (
-              <div key={ramp.id}>
-                {index > 0 && <Separator className="mb-8" />}
-                <div className="space-y-6">
-                  <div className="flex items-center justify-between">
-                    <Input
-                      value={ramp.name}
-                      onChange={(e) => updateColorRamp(ramp.id, { name: e.target.value })}
-                      className="border-none p-0 text-lg font-semibold bg-transparent focus-visible:ring-0 flex-1"
-                    />
-                    <div className="flex gap-1">
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        onClick={() => duplicateColorRamp(ramp)}
-                        className="text-blue-500 hover:text-blue-700"
-                      >
-                        <Copy className="w-4 h-4" />
-                      </Button>
-                      {colorRamps.length > 1 && (
+            {/* Configuration Controls */}
+            <div className="space-y-8">
+              {colorRamps.map((ramp, index) => (
+                <div key={ramp.id}>
+                  {index > 0 && <Separator className="mb-8" />}
+                  <div className="space-y-6">
+                    <div className="flex items-center justify-between">
+                      <Input
+                        value={ramp.name}
+                        onChange={(e) => updateColorRamp(ramp.id, { name: e.target.value })}
+                        className="border-none p-0 text-lg font-semibold bg-transparent focus-visible:ring-0 flex-1"
+                      />
+                      <div className="flex gap-1">
                         <Button
                           variant="ghost"
                           size="sm"
-                          onClick={() => removeColorRamp(ramp.id)}
-                          className="text-red-500 hover:text-red-700"
+                          onClick={() => duplicateColorRamp(ramp)}
+                          className="text-blue-500 hover:text-blue-700"
                         >
-                          <Trash2 className="w-4 h-4" />
+                          <Copy className="w-4 h-4" />
                         </Button>
-                      )}
-                    </div>
-                  </div>
-
-                  {/* Base Color and Steps */}
-                  <div className="space-y-4">
-                    <div className="space-y-2">
-                      <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
-                      <div className="flex gap-2">
-                        <Input
-                          id={`base-color-${ramp.id}`}
-                          type="color"
-                          value={ramp.baseColor}
-                          onChange={(e) => updateColorRamp(ramp.id, { baseColor: e.target.value })}
-                          className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
-                        />
-                        <Input
-                          value={ramp.baseColor}
-                          onChange={(e) => updateColorRamp(ramp.id, { baseColor: e.target.value })}
-                          className="flex-1"
-                          placeholder="#3b82f6"
-                        />
-                      </div>
-                    </div>
-                    
-                    <div className="space-y-2">
-                      <Label>Total Steps: {ramp.totalSteps}</Label>
-                      <div className="flex gap-2 items-center">
-                        <Slider
-                          value={[ramp.totalSteps]}
-                          onValueChange={([value]) => updateColorRamp(ramp.id, { totalSteps: value })}
-                          max={21}
-                          min={3}
-                          step={1}
-                          className="flex-1"
-                        />
-                        <Input
-                          type="number"
-                          value={ramp.totalSteps}
-                          onChange={(e) => {
-                            const value = Math.max(3, Math.min(21, parseInt(e.target.value) || 3));
-                            updateColorRamp(ramp.id, { totalSteps: value });
-                          }}
-                          min={3}
-                          max={21}
-                          className="w-16 text-center"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Tint Color Controls */}
-                  <div className="space-y-4">
-                    <div className="space-y-2">
-                      <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
-                      <div className="flex gap-2">
-                        <Input
-                          id={`tint-color-${ramp.id}`}
-                          type="color"
-                          value={ramp.tintColor || '#000000'}
-                          onChange={(e) => updateColorRamp(ramp.id, { tintColor: e.target.value })}
-                          className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
-                        />
-                        <Input
-                          value={ramp.tintColor || '#000000'}
-                          onChange={(e) => updateColorRamp(ramp.id, { tintColor: e.target.value })}
-                          className="flex-1"
-                          placeholder="#000000"
-                        />
-                      </div>
-                    </div>
-                    
-                    <div className="space-y-2">
-                      <Label>Tint Opacity: {ramp.tintOpacity || 0}%</Label>
-                      <div className="flex gap-2 items-center">
-                        <Slider
-                          value={[ramp.tintOpacity || 0]}
-                          onValueChange={([value]) => updateColorRamp(ramp.id, { tintOpacity: value })}
-                          max={100}
-                          min={0}
-                          step={1}
-                          className="flex-1"
-                        />
-                        <Input
-                          type="number"
-                          value={ramp.tintOpacity || 0}
-                          onChange={(e) => {
-                            const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 0));
-                            updateColorRamp(ramp.id, { tintOpacity: value });
-                          }}
-                          min={0}
-                          max={100}
-                          className="w-16 text-center"
-                        />
+                        {colorRamps.length > 1 && (
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => removeColorRamp(ramp.id)}
+                            className="text-red-500 hover:text-red-700"
+                          >
+                            <Trash2 className="w-4 h-4" />
+                          </Button>
+                        )}
                       </div>
                     </div>
 
-                    {/* Blend Mode Selection */}
-                    {ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0 && (
+                    {/* Base Color and Steps */}
+                    <div className="space-y-4">
                       <div className="space-y-2">
-                        <Label>Blend Mode</Label>
-                        <Select
-                          value={ramp.tintBlendMode || 'normal'}
-                          onValueChange={(value: ColorRampConfig['tintBlendMode']) => 
-                            updateColorRamp(ramp.id, { tintBlendMode: value })
-                          }
-                        >
-                          <SelectTrigger className="h-10">
-                            <SelectValue placeholder="Select blend mode" />
-                          </SelectTrigger>
-                          <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
-                            <SelectItem value="normal">Normal</SelectItem>
-                            <SelectItem value="darken">Darken</SelectItem>
-                            <SelectItem value="multiply">Multiply</SelectItem>
-                            <SelectItem value="plus-darker">Plus Darker</SelectItem>
-                            <SelectItem value="color-burn">Color Burn</SelectItem>
-                            <SelectItem value="lighten">Lighten</SelectItem>
-                            <SelectItem value="screen">Screen</SelectItem>
-                            <SelectItem value="plus-lighter">Plus Lighter</SelectItem>
-                            <SelectItem value="color-dodge">Color Dodge</SelectItem>
-                            <SelectItem value="overlay">Overlay</SelectItem>
-                            <SelectItem value="soft-light">Soft Light</SelectItem>
-                            <SelectItem value="hard-light">Hard Light</SelectItem>
-                            <SelectItem value="difference">Difference</SelectItem>
-                            <SelectItem value="exclusion">Exclusion</SelectItem>
-                            <SelectItem value="hue">Hue</SelectItem>
-                            <SelectItem value="saturation">Saturation</SelectItem>
-                            <SelectItem value="color">Color</SelectItem>
-                            <SelectItem value="luminosity">Luminosity</SelectItem>
-                          </SelectContent>
-                        </Select>
+                        <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
+                        <div className="flex gap-2">
+                          <Input
+                            id={`base-color-${ramp.id}`}
+                            type="color"
+                            value={ramp.baseColor}
+                            onChange={(e) => updateColorRamp(ramp.id, { baseColor: e.target.value })}
+                            className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
+                          />
+                          <Input
+                            value={ramp.baseColor}
+                            onChange={(e) => updateColorRamp(ramp.id, { baseColor: e.target.value })}
+                            className="flex-1"
+                            placeholder="#3b82f6"
+                          />
+                        </div>
                       </div>
-                    )}
-                  </div>
+                      
+                      <div className="space-y-2">
+                        <Label>Total Steps: {ramp.totalSteps}</Label>
+                        <div className="flex gap-2 items-center">
+                          <Slider
+                            value={[ramp.totalSteps]}
+                            onValueChange={([value]) => updateColorRamp(ramp.id, { totalSteps: value })}
+                            max={21}
+                            min={3}
+                            step={1}
+                            className="flex-1"
+                          />
+                          <Input
+                            type="number"
+                            value={ramp.totalSteps}
+                            onChange={(e) => {
+                              const value = Math.max(3, Math.min(21, parseInt(e.target.value) || 3));
+                              updateColorRamp(ramp.id, { totalSteps: value });
+                            }}
+                            min={3}
+                            max={21}
+                            className="w-16 text-center"
+                          />
+                        </div>
+                      </div>
+                    </div>
 
-                  {/* Color Adjustment Controls */}
-                  <div className="space-y-4">
-                    {/* Lightness Controls */}
-                    <div className="space-y-2">
-                      <div className="flex items-center justify-between">
-                        <Label>
-                          {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${ramp.lightnessRange}%`}
-                        </Label>
-                        <div className="flex gap-1">
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            onClick={() => resetAttribute(ramp.id, 'lightness')}
-                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                          >
-                            <RotateCcw className="w-3 h-3" />
-                          </Button>
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            onClick={() => {
-                              const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
-                              if (!ramp.lightnessAdvanced) {
-                                // Set default start/end values when enabling advanced mode (as percentages)
-                                updates.lightnessStart = 10;
-                                updates.lightnessEnd = 90;
-                              }
-                              updateColorRamp(ramp.id, updates);
-                            }}
-                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                          >
-                            <Settings className="w-3 h-3" />
-                          </Button>
+                    {/* Tint Color Controls */}
+                    <div className="space-y-4">
+                      <div className="space-y-2">
+                        <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
+                        <div className="flex gap-2">
+                          <Input
+                            id={`tint-color-${ramp.id}`}
+                            type="color"
+                            value={ramp.tintColor || '#000000'}
+                            onChange={(e) => updateColorRamp(ramp.id, { tintColor: e.target.value })}
+                            className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
+                          />
+                          <Input
+                            value={ramp.tintColor || '#000000'}
+                            onChange={(e) => updateColorRamp(ramp.id, { tintColor: e.target.value })}
+                            className="flex-1"
+                            placeholder="#000000"
+                          />
                         </div>
                       </div>
                       
-                      {ramp.lightnessAdvanced ? (
-                        <div className="grid grid-cols-2 gap-2">
-                          <div>
-                            <Label className="text-xs">Start (%)</Label>
-                            <Input
-                              type="number"
-                              value={ramp.lightnessStart || 10}
-                              onChange={(e) => {
-                                const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 10));
-                                updateColorRamp(ramp.id, { lightnessStart: value });
-                              }}
-                              min={0}
-                              max={100}
-                              step={1}
-                              className="text-center text-xs"
-                            />
-                          </div>
-                          <div>
-                            <Label className="text-xs">End (%)</Label>
-                            <Input
-                              type="number"
-                              value={ramp.lightnessEnd || 90}
-                              onChange={(e) => {
-                                const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 90));
-                                updateColorRamp(ramp.id, { lightnessEnd: value });
-                              }}
-                              min={0}
-                              max={100}
-                              step={1}
-                              className="text-center text-xs"
-                            />
-                          </div>
-                        </div>
-                      ) : (
+                      <div className="space-y-2">
+                        <Label>Tint Opacity: {ramp.tintOpacity || 0}%</Label>
                         <div className="flex gap-2 items-center">
                           <Slider
-                            value={[ramp.lightnessRange]}
-                            onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
+                            value={[ramp.tintOpacity || 0]}
+                            onValueChange={([value]) => updateColorRamp(ramp.id, { tintOpacity: value })}
                             max={100}
                             min={0}
-                            step={0.5}
+                            step={1}
                             className="flex-1"
                           />
                           <Input
                             type="number"
-                            value={ramp.lightnessRange}
+                            value={ramp.tintOpacity || 0}
                             onChange={(e) => {
-                              const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                              updateColorRamp(ramp.id, { lightnessRange: value });
+                              const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 0));
+                              updateColorRamp(ramp.id, { tintOpacity: value });
                             }}
                             min={0}
                             max={100}
-                            step={0.5}
                             className="w-16 text-center"
                           />
+                        </div>
+                      </div>
+
+                      {/* Blend Mode Selection */}
+                      {ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0 && (
+                        <div className="space-y-2">
+                          <Label>Blend Mode</Label>
+                          <Select
+                            value={ramp.tintBlendMode || 'normal'}
+                            onValueChange={(value: ColorRampConfig['tintBlendMode']) => 
+                              updateColorRamp(ramp.id, { tintBlendMode: value })
+                            }
+                          >
+                            <SelectTrigger className="h-10">
+                              <SelectValue placeholder="Select blend mode" />
+                            </SelectTrigger>
+                            <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
+                              <SelectItem value="normal">Normal</SelectItem>
+                              <SelectItem value="multiply">Multiply</SelectItem>
+                              <SelectItem value="overlay">Overlay</SelectItem>
+                            </SelectContent>
+                          </Select>
                         </div>
                       )}
                     </div>
-                    
-                    {/* Hue Shift Controls */}
-                    <div className="space-y-2">
-                      <div className="flex items-center justify-between">
-                        <Label>
-                          {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${ramp.chromaRange}°`}
-                        </Label>
-                        <div className="flex gap-1">
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            onClick={() => resetAttribute(ramp.id, 'hue')}
-                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                          >
-                            <RotateCcw className="w-3 h-3" />
-                          </Button>
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            onClick={() => {
-                              const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
-                              if (!ramp.chromaAdvanced) {
-                                // Set default start/end values when enabling advanced mode
-                                updates.chromaStart = -30;
-                                updates.chromaEnd = 30;
-                              }
-                              updateColorRamp(ramp.id, updates);
-                            }}
-                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                          >
-                            <Settings className="w-3 h-3" />
-                          </Button>
+
+                    {/* Color Adjustment Controls */}
+                    <div className="space-y-4">
+                      {/* Lightness Controls */}
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <Label>
+                            {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${ramp.lightnessRange}%`}
+                          </Label>
+                          <div className="flex gap-1">
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => resetAttribute(ramp.id, 'lightness')}
+                              className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                            >
+                              <RotateCcw className="w-3 h-3" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => {
+                                const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
+                                if (!ramp.lightnessAdvanced) {
+                                  updates.lightnessStart = 10;
+                                  updates.lightnessEnd = 90;
+                                }
+                                updateColorRamp(ramp.id, updates);
+                              }}
+                              className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                            >
+                              <Settings className="w-3 h-3" />
+                            </Button>
+                          </div>
                         </div>
+                        
+                        {ramp.lightnessAdvanced ? (
+                          <div className="grid grid-cols-2 gap-2">
+                            <div>
+                              <Label className="text-xs">Start (%)</Label>
+                              <Input
+                                type="number"
+                                value={ramp.lightnessStart || 10}
+                                onChange={(e) => {
+                                  const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 10));
+                                  updateColorRamp(ramp.id, { lightnessStart: value });
+                                }}
+                                min={0}
+                                max={100}
+                                step={1}
+                                className="text-center text-xs"
+                              />
+                            </div>
+                            <div>
+                              <Label className="text-xs">End (%)</Label>
+                              <Input
+                                type="number"
+                                value={ramp.lightnessEnd || 90}
+                                onChange={(e) => {
+                                  const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 90));
+                                  updateColorRamp(ramp.id, { lightnessEnd: value });
+                                }}
+                                min={0}
+                                max={100}
+                                step={1}
+                                className="text-center text-xs"
+                              />
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="flex gap-2 items-center">
+                            <Slider
+                              value={[ramp.lightnessRange]}
+                              onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
+                              max={100}
+                              min={0}
+                              step={0.5}
+                              className="flex-1"
+                            />
+                            <Input
+                              type="number"
+                              value={ramp.lightnessRange}
+                              onChange={(e) => {
+                                const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
+                                updateColorRamp(ramp.id, { lightnessRange: value });
+                              }}
+                              min={0}
+                              max={100}
+                              step={0.5}
+                              className="w-16 text-center"
+                            />
+                          </div>
+                        )}
                       </div>
                       
-                      {ramp.chromaAdvanced ? (
-                        <div className="grid grid-cols-2 gap-2">
-                          <div>
-                            <Label className="text-xs">Start</Label>
+                      {/* Hue Shift Controls */}
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <Label>
+                            {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${ramp.chromaRange}°`}
+                          </Label>
+                          <div className="flex gap-1">
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => resetAttribute(ramp.id, 'hue')}
+                              className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                            >
+                              <RotateCcw className="w-3 h-3" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => {
+                                const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
+                                if (!ramp.chromaAdvanced) {
+                                  updates.chromaStart = -30;
+                                  updates.chromaEnd = 30;
+                                }
+                                updateColorRamp(ramp.id, updates);
+                              }}
+                              className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                            >
+                              <Settings className="w-3 h-3" />
+                            </Button>
+                          </div>
+                        </div>
+                        
+                        {ramp.chromaAdvanced ? (
+                          <div className="grid grid-cols-2 gap-2">
+                            <div>
+                              <Label className="text-xs">Start</Label>
+                              <Input
+                                type="number"
+                                value={ramp.chromaStart ?? -30}
+                                onChange={(e) => {
+                                  const value = parseFloat(e.target.value);
+                                  if (!isNaN(value)) {
+                                    updateColorRamp(ramp.id, { chromaStart: value });
+                                  }
+                                }}
+                                className="text-center text-xs"
+                              />
+                            </div>
+                            <div>
+                              <Label className="text-xs">End</Label>
+                              <Input
+                                type="number"
+                                value={ramp.chromaEnd ?? 30}
+                                onChange={(e) => {
+                                  const value = parseFloat(e.target.value);
+                                  if (!isNaN(value)) {
+                                    updateColorRamp(ramp.id, { chromaEnd: value });
+                                  }
+                                }}
+                                className="text-center text-xs"
+                              />
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="flex gap-2 items-center">
+                            <Slider
+                              value={[ramp.chromaRange]}
+                              onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
+                              max={180}
+                              min={-180}
+                              step={0.5}
+                              className="flex-1"
+                            />
                             <Input
                               type="number"
-                              value={ramp.chromaStart ?? -30}
+                              value={ramp.chromaRange}
                               onChange={(e) => {
                                 const value = parseFloat(e.target.value);
-                                if (!isNaN(value)) {
-                                  updateColorRamp(ramp.id, { chromaStart: value });
+                                if (!isNaN(value) && value >= -180 && value <= 180) {
+                                  updateColorRamp(ramp.id, { chromaRange: value });
                                 }
                               }}
-                              className="text-center text-xs"
+                              min={-180}
+                              max={180}
+                              step={0.5}
+                              className="w-16 text-center"
                             />
                           </div>
-                          <div>
-                            <Label className="text-xs">End</Label>
-                            <Input
-                              type="number"
-                              value={ramp.chromaEnd ?? 30}
-                              onChange={(e) => {
-                                const value = parseFloat(e.target.value);
-                                if (!isNaN(value)) {
-                                  updateColorRamp(ramp.id, { chromaEnd: value });
-                                }
-                              }}
-                              className="text-center text-xs"
-                            />
-                          </div>
-                        </div>
-                      ) : (
-                        <div className="flex gap-2 items-center">
-                          <Slider
-                            value={[ramp.chromaRange]}
-                            onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
-                            max={180}
-                            min={-180}
-                            step={0.5}
-                            className="flex-1"
-                          />
-                          <Input
-                            type="number"
-                            value={ramp.chromaRange}
-                            onChange={(e) => {
-                              const value = parseFloat(e.target.value);
-                              if (!isNaN(value) && value >= -180 && value <= 180) {
-                                updateColorRamp(ramp.id, { chromaRange: value });
-                              }
-                            }}
-                            min={-180}
-                            max={180}
-                            step={0.5}
-                            className="w-16 text-center"
-                          />
-                        </div>
-                      )}
-                    </div>
-                    
-                    {/* Saturation Controls */}
-                    <div className="space-y-2">
-                      <div className="flex items-center justify-between">
-                        <Label>
-                          {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${ramp.saturationRange}%`}
-                        </Label>
-                        <div className="flex gap-1">
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            onClick={() => resetAttribute(ramp.id, 'saturation')}
-                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                          >
-                            <RotateCcw className="w-3 h-3" />
-                          </Button>
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            onClick={() => {
-                              const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
-                              if (!ramp.saturationAdvanced) {
-                                // Set default start/end values when enabling advanced mode (as percentages)
-                                updates.saturationStart = 20;
-                                updates.saturationEnd = 80;
-                              }
-                              updateColorRamp(ramp.id, updates);
-                            }}
-                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                          >
-                            <Settings className="w-3 h-3" />
-                          </Button>
-                        </div>
+                        )}
                       </div>
                       
-                      {ramp.saturationAdvanced ? (
-                        <div className="grid grid-cols-2 gap-2">
-                          <div>
-                            <Label className="text-xs">Start (%)</Label>
-                            <Input
-                              type="number"
-                              value={ramp.saturationStart || 20}
-                              onChange={(e) => {
-                                const value = parseFloat(e.target.value);
-                                if (!isNaN(value)) {
-                                  updateColorRamp(ramp.id, { saturationStart: value });
+                      {/* Saturation Controls */}
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <Label>
+                            {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${ramp.saturationRange}%`}
+                          </Label>
+                          <div className="flex gap-1">
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => resetAttribute(ramp.id, 'saturation')}
+                              className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                            >
+                              <RotateCcw className="w-3 h-3" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => {
+                                const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
+                                if (!ramp.saturationAdvanced) {
+                                  updates.saturationStart = 20;
+                                  updates.saturationEnd = 80;
                                 }
+                                updateColorRamp(ramp.id, updates);
                               }}
-                              className="text-center text-xs"
-                            />
-                          </div>
-                          <div>
-                            <Label className="text-xs">End (%)</Label>
-                            <Input
-                              type="number"
-                              value={ramp.saturationEnd || 80}
-                              onChange={(e) => {
-                                const value = parseFloat(e.target.value);
-                                if (!isNaN(value)) {
-                                  updateColorRamp(ramp.id, { saturationEnd: value });
-                                }
-                              }}
-                              className="text-center text-xs"
-                            />
+                              className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                            >
+                              <Settings className="w-3 h-3" />
+                            </Button>
                           </div>
                         </div>
-                      ) : (
-                        <div className="flex gap-2 items-center">
-                          <Slider
-                            value={[ramp.saturationRange]}
-                            onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
-                            max={100}
-                            min={0}
-                            step={0.5}
-                            className="flex-1"
-                          />
-                          <Input
-                            type="number"
-                            value={ramp.saturationRange}
-                            onChange={(e) => {
-                              const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                              updateColorRamp(ramp.id, { saturationRange: value });
-                            }}
-                            min={0}
-                            max={100}
-                            step={0.5}
-                            className="w-16 text-center"
-                          />
-                        </div>
-                      )}
+                        
+                        {ramp.saturationAdvanced ? (
+                          <div className="grid grid-cols-2 gap-2">
+                            <div>
+                              <Label className="text-xs">Start (%)</Label>
+                              <Input
+                                type="number"
+                                value={ramp.saturationStart || 20}
+                                onChange={(e) => {
+                                  const value = parseFloat(e.target.value);
+                                  if (!isNaN(value)) {
+                                    updateColorRamp(ramp.id, { saturationStart: value });
+                                  }
+                                }}
+                                className="text-center text-xs"
+                              />
+                            </div>
+                            <div>
+                              <Label className="text-xs">End (%)</Label>
+                              <Input
+                                type="number"
+                                value={ramp.saturationEnd || 80}
+                                onChange={(e) => {
+                                  const value = parseFloat(e.target.value);
+                                  if (!isNaN(value)) {
+                                    updateColorRamp(ramp.id, { saturationEnd: value });
+                                  }
+                                }}
+                                className="text-center text-xs"
+                              />
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="flex gap-2 items-center">
+                            <Slider
+                              value={[ramp.saturationRange]}
+                              onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
+                              max={100}
+                              min={0}
+                              step={0.5}
+                              className="flex-1"
+                            />
+                            <Input
+                              type="number"
+                              value={ramp.saturationRange}
+                              onChange={(e) => {
+                                const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
+                                updateColorRamp(ramp.id, { saturationRange: value });
+                              }}
+                              min={0}
+                              max={100}
+                              step={0.5}
+                              className="w-16 text-center"
+                            />
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
+        </ScrollArea>
       </div>
 
       {/* Main Content */}
