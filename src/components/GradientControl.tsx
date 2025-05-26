@@ -11,6 +11,7 @@ interface GradientControlProps {
   onValuesChange: (start: number, end: number) => void;
   formatValue?: (value: number) => string;
   className?: string;
+  gradientColors?: string[]; // Array of colors representing the gradient
 }
 
 const GradientControl: React.FC<GradientControlProps> = ({
@@ -21,7 +22,8 @@ const GradientControl: React.FC<GradientControlProps> = ({
   max,
   onValuesChange,
   formatValue = (v) => v.toString(),
-  className
+  className,
+  gradientColors
 }) => {
   const [isDragging, setIsDragging] = useState<'start' | 'end' | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -73,12 +75,18 @@ const GradientControl: React.FC<GradientControlProps> = ({
   const startPosition = 100 - valueToPosition(startValue); // Invert for visual representation
   const endPosition = 100 - valueToPosition(endValue);
 
+  // Create gradient background based on gradientColors or fallback to gray
+  const gradientBackground = gradientColors && gradientColors.length > 0 
+    ? `linear-gradient(to top, ${gradientColors.join(', ')})`
+    : 'linear-gradient(to top, #e5e7eb, #374151)';
+
   return (
     <div className={cn("space-y-2", className)}>
       <div className="text-xs font-medium text-gray-700 text-center">{label}</div>
       <div 
         ref={containerRef}
-        className="relative w-8 h-32 bg-gradient-to-t from-gray-200 to-gray-800 rounded border border-gray-300 mx-auto cursor-pointer select-none"
+        className="relative w-8 h-32 rounded border border-gray-300 mx-auto cursor-pointer select-none"
+        style={{ background: gradientBackground }}
       >
         {/* Start point */}
         <div

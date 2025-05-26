@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Lock } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
@@ -6,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
 import GradientControl from './GradientControl';
+import chroma from 'chroma-js';
 
 interface ColorRampConfig {
   id: string;
@@ -98,6 +98,57 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     });
   };
 
+    // Generate gradient colors for each parameter
+    const generateParameterGradient = (parameter: 'lightness' | 'hue' | 'saturation') => {
+      const gradientSteps = 20;
+      const gradientColors: string[] = [];
+      
+      try {
+        const baseColor = chroma(config.baseColor);
+        const [h, s, l] = baseColor.hsl();
+        
+        for (let i = 0; i < gradientSteps; i++) {
+          const position = i / (gradientSteps - 1);
+          let newColor;
+          
+          switch (parameter) {
+            case 'lightness': {
+              const startL = (config.lightnessStart ?? 10) / 100;
+              const endL = (config.lightnessEnd ?? 90) / 100;
+              const lightness = startL + (endL - startL) * position;
+              newColor = chroma.hsl(h || 0, s || 0, lightness);
+              break;
+            }
+            case 'hue': {
+              const startH = (h || 0) + (config.chromaStart ?? -30);
+              const endH = (h || 0) + (config.chromaEnd ?? 30);
+              const hue = startH + (endH - startH) * position;
+              newColor = chroma.hsl(hue, s || 0, l || 0.5);
+              break;
+            }
+            case 'saturation': {
+              const startS = (config.saturationStart ?? 20) / 100;
+              const endS = (config.saturationEnd ?? 80) / 100;
+              const saturation = startS + (endS - startS) * position;
+              newColor = chroma.hsl(h || 0, saturation, l || 0.5);
+              break;
+            }
+          }
+          
+          gradientColors.push(newColor.hex());
+        }
+      } catch (error) {
+        console.error('Error generating parameter gradient:', error);
+        // Fallback to gray gradient
+        for (let i = 0; i < gradientSteps; i++) {
+          const lightness = i / (gradientSteps - 1);
+          gradientColors.push(chroma.hsl(0, 0, lightness).hex());
+        }
+      }
+      
+      return gradientColors;
+    };
+
   return (
     <div className="space-y-4 min-w-[120px]">
       <div className="text-center space-y-2">
@@ -117,6 +168,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
           max={100}
           onValuesChange={handleLightnessGradient}
           formatValue={(v) => `${Math.round(v)}%`}
+          gradientColors={generateParameterGradient('lightness')}
         />
         
         <GradientControl
@@ -127,6 +179,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
           max={180}
           onValuesChange={handleHueGradient}
           formatValue={(v) => `${Math.round(v)}°`}
+          gradientColors={generateParameterGradient('hue')}
         />
         
         <GradientControl
@@ -137,6 +190,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
           max={100}
           onValuesChange={handleSaturationGradient}
           formatValue={(v) => `${Math.round(v)}%`}
+          gradientColors={generateParameterGradient('saturation')}
         />
       </div>
       
