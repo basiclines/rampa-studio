@@ -3,6 +3,7 @@ import { Lock } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
 import GradientControl from './GradientControl';
 import chroma from 'chroma-js';
@@ -26,6 +27,7 @@ interface ColorRampConfig {
   saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
+  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
   lockedColors: { [index: number]: string };
 }
 
@@ -156,7 +158,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
       hue: generateParameterGradient('hue'),
       saturation: generateParameterGradient('saturation')
     };
-  }, [config.baseColor]); // Only regenerate when base color changes
+  }, [config.baseColor]);
 
   // Get base color hue for reference line
   const baseColorHue = useMemo(() => {
@@ -177,6 +179,28 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         <Button variant="outline" size="sm" onClick={copyAllColors}>
           Copy All
         </Button>
+        
+        {/* Tint Blend Mode Selection */}
+        {config.tintColor && config.tintOpacity && config.tintOpacity > 0 && (
+          <div className="space-y-2">
+            <label className="text-xs font-medium text-gray-600">Blend Mode</label>
+            <Select
+              value={config.tintBlendMode || 'normal'}
+              onValueChange={(value: 'normal' | 'multiply' | 'overlay') => 
+                onUpdateConfig({ tintBlendMode: value })
+              }
+            >
+              <SelectTrigger className="h-8 text-xs">
+                <SelectValue placeholder="Select blend mode" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="normal">Normal</SelectItem>
+                <SelectItem value="multiply">Multiply</SelectItem>
+                <SelectItem value="overlay">Overlay</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+        )}
       </div>
       
       <div 
@@ -241,7 +265,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         {/* Floating Gradient Controls - Positioned right next to the ramp */}
         {isHovered && (config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
           <div 
-            className="absolute left-full top-0 bottom-0 flex gap-2 transition-all duration-200 animate-fade-in bg-white border border-gray-200 rounded-lg shadow-lg p-3"
+            className="absolute left-full top-0 bottom-0 flex gap-2 transition-all duration-200 animate-fade-in bg-white border border-gray-200 rounded-lg shadow-lg p-3 ml-0"
             style={{ zIndex: 1001 }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}

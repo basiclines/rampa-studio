@@ -20,6 +20,7 @@ interface ColorRampConfig {
   saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
+  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
   lockedColors: { [index: number]: string };
 }
 
@@ -27,6 +28,47 @@ interface ColorRampData {
   name: string;
   colors: string[];
 }
+
+// Helper function to apply blending modes
+const applyBlendMode = (baseColor: chroma.Color, tintColor: chroma.Color, opacity: number, blendMode: 'normal' | 'multiply' | 'overlay'): chroma.Color => {
+  const baseRgb = baseColor.rgb();
+  const tintRgb = tintColor.rgb();
+  
+  let blendedRgb: [number, number, number];
+  
+  switch (blendMode) {
+    case 'multiply':
+      blendedRgb = [
+        (baseRgb[0] * tintRgb[0]) / 255,
+        (baseRgb[1] * tintRgb[1]) / 255,
+        (baseRgb[2] * tintRgb[2]) / 255
+      ];
+      break;
+    
+    case 'overlay':
+      blendedRgb = baseRgb.map((base, i) => {
+        const tint = tintRgb[i];
+        const baseNorm = base / 255;
+        const tintNorm = tint / 255;
+        
+        if (baseNorm < 0.5) {
+          return 2 * baseNorm * tintNorm * 255;
+        } else {
+          return (1 - 2 * (1 - baseNorm) * (1 - tintNorm)) * 255;
+        }
+      }) as [number, number, number];
+      break;
+    
+    case 'normal':
+    default:
+      // Normal blending is just regular mixing
+      return chroma.mix(baseColor, tintColor, opacity, 'rgb');
+  }
+  
+  // Apply opacity by mixing with original color
+  const blendedColor = chroma.rgb(blendedRgb);
+  return chroma.mix(baseColor, blendedColor, opacity, 'rgb');
+};
 
 export const generateColorRamp = (config: ColorRampConfig): string[] => {
   try {
@@ -107,8 +149,10 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
       if (config.tintColor && config.tintOpacity && config.tintOpacity > 0) {
         const tintColorChroma = chroma(config.tintColor);
         const opacity = config.tintOpacity / 100;
-        // Mix the generated color with the tint color based on opacity
-        newColor = chroma.mix(newColor, tintColorChroma, opacity, 'rgb');
+        const blendMode = config.tintBlendMode || 'normal';
+        
+        // Apply the specified blending mode
+        newColor = applyBlendMode(newColor, tintColorChroma, opacity, blendMode);
       }
       
       colors.push(newColor.hex());
