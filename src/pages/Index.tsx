@@ -127,113 +127,130 @@ const Index = () => {
           </Button>
         </div>
 
-        {/* Color Ramps */}
-        <div className="grid gap-8">
-          {colorRamps.map((ramp) => (
-            <Card key={ramp.id} className="shadow-lg border-0 bg-white/70 backdrop-blur-sm">
-              <CardHeader className="pb-4">
-                <div className="flex items-center justify-between">
-                  <CardTitle className="text-xl font-semibold text-gray-800">
-                    <Input
-                      value={ramp.name}
-                      onChange={(e) => updateColorRamp(ramp.id, { name: e.target.value })}
-                      className="border-none p-0 text-xl font-semibold bg-transparent focus-visible:ring-0"
-                    />
-                  </CardTitle>
-                  {colorRamps.length > 1 && (
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      onClick={() => removeColorRamp(ramp.id)}
-                      className="text-red-500 hover:text-red-700"
-                    >
-                      <Trash2 className="w-4 h-4" />
-                    </Button>
-                  )}
-                </div>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                {/* Base Color and Steps */}
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="space-y-2">
-                    <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
-                    <div className="flex gap-2">
+        {/* Layout with Controls and Color Ramps */}
+        <div className="grid lg:grid-cols-3 gap-8">
+          {/* Controls Panel */}
+          <div className="lg:col-span-1 space-y-6">
+            {colorRamps.map((ramp) => (
+              <Card key={ramp.id} className="shadow-lg border-0 bg-white/70 backdrop-blur-sm">
+                <CardHeader className="pb-4">
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-xl font-semibold text-gray-800">
                       <Input
-                        id={`base-color-${ramp.id}`}
-                        type="color"
-                        value={ramp.baseColor}
-                        onChange={(e) => updateColorRamp(ramp.id, { baseColor: e.target.value })}
-                        className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
+                        value={ramp.name}
+                        onChange={(e) => updateColorRamp(ramp.id, { name: e.target.value })}
+                        className="border-none p-0 text-xl font-semibold bg-transparent focus-visible:ring-0"
                       />
-                      <Input
-                        value={ramp.baseColor}
-                        onChange={(e) => updateColorRamp(ramp.id, { baseColor: e.target.value })}
-                        className="flex-1"
-                        placeholder="#3b82f6"
+                    </CardTitle>
+                    {colorRamps.length > 1 && (
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => removeColorRamp(ramp.id)}
+                        className="text-red-500 hover:text-red-700"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </Button>
+                    )}
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  {/* Base Color and Steps */}
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
+                      <div className="flex gap-2">
+                        <Input
+                          id={`base-color-${ramp.id}`}
+                          type="color"
+                          value={ramp.baseColor}
+                          onChange={(e) => updateColorRamp(ramp.id, { baseColor: e.target.value })}
+                          className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
+                        />
+                        <Input
+                          value={ramp.baseColor}
+                          onChange={(e) => updateColorRamp(ramp.id, { baseColor: e.target.value })}
+                          className="flex-1"
+                          placeholder="#3b82f6"
+                        />
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label>Total Steps: {ramp.totalSteps}</Label>
+                      <Slider
+                        value={[ramp.totalSteps]}
+                        onValueChange={([value]) => updateColorRamp(ramp.id, { totalSteps: value })}
+                        max={21}
+                        min={3}
+                        step={2}
+                        className="w-full"
                       />
                     </div>
                   </div>
-                  
-                  <div className="space-y-2">
-                    <Label>Total Steps: {ramp.totalSteps}</Label>
-                    <Slider
-                      value={[ramp.totalSteps]}
-                      onValueChange={([value]) => updateColorRamp(ramp.id, { totalSteps: value })}
-                      max={21}
-                      min={3}
-                      step={2}
-                      className="w-full"
-                    />
-                  </div>
-                </div>
 
-                {/* Color Adjustment Controls */}
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div className="space-y-2">
-                    <Label>Lightness Range: {ramp.lightnessRange}%</Label>
-                    <Slider
-                      value={[ramp.lightnessRange]}
-                      onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
-                      max={100}
-                      min={10}
-                      step={5}
-                      className="w-full"
-                    />
+                  {/* Color Adjustment Controls */}
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      <Label>Lightness Range: {ramp.lightnessRange}%</Label>
+                      <Slider
+                        value={[ramp.lightnessRange]}
+                        onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
+                        max={100}
+                        min={10}
+                        step={5}
+                        className="w-full"
+                      />
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label>Hue Shift: {ramp.chromaRange}°</Label>
+                      <Slider
+                        value={[ramp.chromaRange]}
+                        onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
+                        max={180}
+                        min={-180}
+                        step={5}
+                        className="w-full"
+                      />
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label>Saturation Range: {ramp.saturationRange}%</Label>
+                      <Slider
+                        value={[ramp.saturationRange]}
+                        onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
+                        max={100}
+                        min={10}
+                        step={5}
+                        className="w-full"
+                      />
+                    </div>
                   </div>
-                  
-                  <div className="space-y-2">
-                    <Label>Hue Shift: {ramp.chromaRange}°</Label>
-                    <Slider
-                      value={[ramp.chromaRange]}
-                      onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
-                      max={180}
-                      min={-180}
-                      step={5}
-                      className="w-full"
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label>Saturation Range: {ramp.saturationRange}%</Label>
-                    <Slider
-                      value={[ramp.saturationRange]}
-                      onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
-                      max={100}
-                      min={10}
-                      step={5}
-                      className="w-full"
-                    />
-                  </div>
-                </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
 
-                {/* Color Ramp Preview */}
-                <ColorRamp 
-                  config={ramp} 
-                  onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
-                />
+          {/* Color Ramps Display */}
+          <div className="lg:col-span-2 space-y-6">
+            <Card className="shadow-lg border-0 bg-white/70 backdrop-blur-sm">
+              <CardHeader>
+                <CardTitle className="text-xl font-semibold text-gray-800">
+                  Color Ramps Comparison
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                {colorRamps.map((ramp) => (
+                  <ColorRamp 
+                    key={ramp.id}
+                    config={ramp} 
+                    onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
+                  />
+                ))}
               </CardContent>
             </Card>
-          ))}
+          </div>
         </div>
       </div>
     </div>

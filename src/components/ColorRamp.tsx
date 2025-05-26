@@ -9,13 +9,10 @@ interface ColorRampConfig {
   id: string;
   name: string;
   baseColor: string;
-  stepsUp: number;
-  stepsDown: number;
+  totalSteps: number;
   lightnessRange: number;
   chromaRange: number;
   saturationRange: number;
-  lockStepsUp: boolean;
-  lockStepsDown: boolean;
   lockedColors: { [index: number]: string };
 }
 
@@ -70,20 +67,20 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <h3 className="text-lg font-medium text-gray-700">Color Ramp Preview</h3>
+        <h3 className="text-lg font-medium text-gray-700">{config.name}</h3>
         <Button variant="outline" size="sm" onClick={copyAllColors}>
           Copy All Colors
         </Button>
       </div>
       
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3">
+      <div className="flex gap-2 overflow-x-auto pb-2">
         {colors.map((color, index) => {
           const isLocked = config.lockedColors && config.lockedColors[index];
           
           return (
             <div
               key={index}
-              className="group relative aspect-square rounded-lg border-2 border-gray-200 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
+              className="group relative flex-shrink-0 w-16 h-16 rounded-lg border-2 border-gray-200 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
               style={{ backgroundColor: color }}
               onClick={() => copyColor(color)}
             >
