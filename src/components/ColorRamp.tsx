@@ -26,14 +26,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
   const { toast } = useToast();
   const colors = generateColorRamp(config);
 
-  const copyColor = (color: string) => {
-    navigator.clipboard.writeText(color);
-    toast({
-      title: "Color Copied",
-      description: `${color} has been copied to your clipboard.`,
-    });
-  };
-
   const copyAllColors = () => {
     const colorString = colors.join('\n');
     navigator.clipboard.writeText(colorString);
@@ -92,7 +84,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
             <div key={index} className="space-y-1">
               {/* Color swatch */}
               <div
-                className="group relative w-full h-12 rounded-md border border-gray-200 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg"
+                className="group relative w-full h-12 rounded-md border border-gray-200 overflow-hidden"
                 style={{ backgroundColor: color }}
               >
                 {/* Lock button */}
@@ -111,25 +103,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 >
                   <Lock className="w-3 h-3" />
                 </Button>
-
-                {/* Copy area - excluding the lock button area */}
-                <div 
-                  className="absolute inset-0 cursor-pointer"
-                  style={{ right: '32px' }} // Exclude the lock button area
-                  onClick={() => copyColor(color)}
-                >
-                  {/* Copy overlay */}
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200 flex items-center justify-center">
-                    <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                      Copy
-                    </span>
-                  </div>
-                </div>
-
-                {/* Color value - spans full width */}
-                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 text-white text-xs p-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
-                  {color}
-                </div>
               </div>
               
               {/* Color input field */}
@@ -160,7 +133,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
       </div>
       
       <div className="text-xs text-gray-500 text-center">
-        Click swatch to copy • Edit color to lock • Click lock to toggle
+        Edit color to lock • Click lock to toggle
       </div>
     </div>
   );
