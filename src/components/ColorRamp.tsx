@@ -1,5 +1,6 @@
+
 import React, { useMemo, useState } from 'react';
-import { Lock } from 'lucide-react';
+import { Lock, Clipboard } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -177,7 +178,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
       <div className="text-center space-y-2">
         <h3 className="text-lg font-medium text-gray-700">{config.name}</h3>
         <Button variant="outline" size="sm" onClick={copyAllColors}>
-          Copy All
+          <Clipboard className="w-4 h-4" />
         </Button>
       </div>
       
@@ -195,7 +196,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
             return (
               <div key={index} className="space-y-1">
                 <div
-                  className="group relative w-full h-12 rounded-md border border-gray-200 overflow-hidden"
+                  className="group relative w-full h-12 border border-gray-200 overflow-hidden"
                   style={{ backgroundColor: color }}
                 >
                   <Button
@@ -220,7 +221,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                     type="color"
                     value={color}
                     onChange={(e) => handleColorChange(index, e.target.value)}
-                    className="w-8 h-6 border border-gray-300 rounded cursor-pointer p-0"
+                    className="w-8 h-6 border border-gray-300 cursor-pointer p-0"
                   />
                   <Input
                     type="text"
