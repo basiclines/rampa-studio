@@ -13,6 +13,8 @@ interface ColorRampConfig {
   lightnessRange: number;
   chromaRange: number;
   saturationRange: number;
+  lockStepsUp: boolean;
+  lockStepsDown: boolean;
 }
 
 interface ColorRampProps {
