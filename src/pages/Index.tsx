@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Plus, Download, Trash2 } from 'lucide-react';
+import { Plus, Download, Trash2, Copy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -58,6 +58,15 @@ const Index = () => {
     };
     setColorRamps(prev => [...prev, newRamp]);
   }, [colorRamps.length]);
+
+  const duplicateColorRamp = useCallback((ramp: ColorRampConfig) => {
+    const duplicatedRamp: ColorRampConfig = {
+      ...ramp,
+      id: Date.now().toString(),
+      name: `${ramp.name} Copy`,
+    };
+    setColorRamps(prev => [...prev, duplicatedRamp]);
+  }, []);
 
   const removeColorRamp = useCallback((id: string) => {
     setColorRamps(prev => prev.filter(ramp => ramp.id !== id));
@@ -141,16 +150,26 @@ const Index = () => {
                         className="border-none p-0 text-xl font-semibold bg-transparent focus-visible:ring-0"
                       />
                     </CardTitle>
-                    {colorRamps.length > 1 && (
+                    <div className="flex gap-1">
                       <Button
                         variant="ghost"
                         size="sm"
-                        onClick={() => removeColorRamp(ramp.id)}
-                        className="text-red-500 hover:text-red-700"
+                        onClick={() => duplicateColorRamp(ramp)}
+                        className="text-blue-500 hover:text-blue-700"
                       >
-                        <Trash2 className="w-4 h-4" />
+                        <Copy className="w-4 h-4" />
                       </Button>
-                    )}
+                      {colorRamps.length > 1 && (
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => removeColorRamp(ramp.id)}
+                          className="text-red-500 hover:text-red-700"
+                        >
+                          <Trash2 className="w-4 h-4" />
+                        </Button>
+                      )}
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-6">
