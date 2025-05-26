@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react';
 import { Plus, Download, Trash2, Copy, Settings, Eye, EyeOff, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -5,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import ColorRamp from '@/components/ColorRamp';
 import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
 import { useToast } from '@/hooks/use-toast';
@@ -363,6 +365,28 @@ const Index = () => {
                         />
                       </div>
                     </div>
+
+                    {/* Blend Mode Selection - Now positioned right after tint opacity */}
+                    {ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0 && (
+                      <div className="space-y-2">
+                        <Label>Blend Mode</Label>
+                        <Select
+                          value={ramp.tintBlendMode || 'normal'}
+                          onValueChange={(value: 'normal' | 'multiply' | 'overlay') => 
+                            updateColorRamp(ramp.id, { tintBlendMode: value })
+                          }
+                        >
+                          <SelectTrigger className="h-10">
+                            <SelectValue placeholder="Select blend mode" />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="normal">Normal</SelectItem>
+                            <SelectItem value="multiply">Multiply</SelectItem>
+                            <SelectItem value="overlay">Overlay</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    )}
                   </div>
 
                   {/* Color Adjustment Controls */}
