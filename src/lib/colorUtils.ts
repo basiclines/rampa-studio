@@ -56,7 +56,10 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
       
       // Calculate lightness
       if (config.lightnessAdvanced && config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
-        newLightness = config.lightnessStart + (config.lightnessEnd - config.lightnessStart) * position;
+        // Convert percentage values to 0-1 range
+        const startLightness = config.lightnessStart / 100;
+        const endLightness = config.lightnessEnd / 100;
+        newLightness = startLightness + (endLightness - startLightness) * position;
       } else {
         const lightnessStep = (config.lightnessRange / 100) / (config.totalSteps - 1);
         const positionFromMiddle = i - middleIndex;
@@ -77,7 +80,10 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
       
       // Calculate saturation
       if (config.saturationAdvanced && config.saturationStart !== undefined && config.saturationEnd !== undefined) {
-        newSaturation = config.saturationStart + (config.saturationEnd - config.saturationStart) * position;
+        // Convert percentage values to 0-1 range
+        const startSaturation = config.saturationStart / 100;
+        const endSaturation = config.saturationEnd / 100;
+        newSaturation = startSaturation + (endSaturation - startSaturation) * position;
       } else {
         const saturationStep = (config.saturationRange / 100) / (config.totalSteps - 1);
         const positionFromMiddle = i - middleIndex;

@@ -250,9 +250,9 @@ const Index = () => {
                           onClick={() => {
                             const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
                             if (!ramp.lightnessAdvanced) {
-                              // Set default start/end values when enabling advanced mode
-                              updates.lightnessStart = 0.1;
-                              updates.lightnessEnd = 0.9;
+                              // Set default start/end values when enabling advanced mode (as percentages)
+                              updates.lightnessStart = 10;
+                              updates.lightnessEnd = 90;
                             }
                             updateColorRamp(ramp.id, updates);
                           }}
@@ -265,32 +265,32 @@ const Index = () => {
                       {ramp.lightnessAdvanced ? (
                         <div className="grid grid-cols-2 gap-2">
                           <div>
-                            <Label className="text-xs">Start</Label>
+                            <Label className="text-xs">Start (%)</Label>
                             <Input
                               type="number"
-                              value={ramp.lightnessStart || 0.1}
+                              value={ramp.lightnessStart || 10}
                               onChange={(e) => {
-                                const value = Math.max(0, Math.min(1, parseFloat(e.target.value) || 0.1));
+                                const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 10));
                                 updateColorRamp(ramp.id, { lightnessStart: value });
                               }}
                               min={0}
-                              max={1}
-                              step={0.01}
+                              max={100}
+                              step={1}
                               className="text-center text-xs"
                             />
                           </div>
                           <div>
-                            <Label className="text-xs">End</Label>
+                            <Label className="text-xs">End (%)</Label>
                             <Input
                               type="number"
-                              value={ramp.lightnessEnd || 0.9}
+                              value={ramp.lightnessEnd || 90}
                               onChange={(e) => {
-                                const value = Math.max(0, Math.min(1, parseFloat(e.target.value) || 0.9));
+                                const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 90));
                                 updateColorRamp(ramp.id, { lightnessEnd: value });
                               }}
                               min={0}
-                              max={1}
-                              step={0.01}
+                              max={100}
+                              step={1}
                               className="text-center text-xs"
                             />
                           </div>
@@ -416,9 +416,9 @@ const Index = () => {
                           onClick={() => {
                             const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
                             if (!ramp.saturationAdvanced) {
-                              // Set default start/end values when enabling advanced mode
-                              updates.saturationStart = 0.2;
-                              updates.saturationEnd = 0.8;
+                              // Set default start/end values when enabling advanced mode (as percentages)
+                              updates.saturationStart = 20;
+                              updates.saturationEnd = 80;
                             }
                             updateColorRamp(ramp.id, updates);
                           }}
@@ -431,32 +431,32 @@ const Index = () => {
                       {ramp.saturationAdvanced ? (
                         <div className="grid grid-cols-2 gap-2">
                           <div>
-                            <Label className="text-xs">Start</Label>
+                            <Label className="text-xs">Start (%)</Label>
                             <Input
                               type="number"
-                              value={ramp.saturationStart || 0.2}
+                              value={ramp.saturationStart || 20}
                               onChange={(e) => {
-                                const value = Math.max(0, Math.min(1, parseFloat(e.target.value) || 0.2));
+                                const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 20));
                                 updateColorRamp(ramp.id, { saturationStart: value });
                               }}
                               min={0}
-                              max={1}
-                              step={0.01}
+                              max={100}
+                              step={1}
                               className="text-center text-xs"
                             />
                           </div>
                           <div>
-                            <Label className="text-xs">End</Label>
+                            <Label className="text-xs">End (%)</Label>
                             <Input
                               type="number"
-                              value={ramp.saturationEnd || 0.8}
+                              value={ramp.saturationEnd || 80}
                               onChange={(e) => {
-                                const value = Math.max(0, Math.min(1, parseFloat(e.target.value) || 0.8));
+                                const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 80));
                                 updateColorRamp(ramp.id, { saturationEnd: value });
                               }}
                               min={0}
-                              max={1}
-                              step={0.01}
+                              max={100}
+                              step={1}
                               className="text-center text-xs"
                             />
                           </div>
