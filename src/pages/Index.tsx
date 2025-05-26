@@ -397,14 +397,18 @@ const Index = () => {
                               <Label className="text-xs">Start (%)</Label>
                               <Input
                                 type="number"
-                                value={ramp.lightnessStart || 10}
+                                value={ramp.lightnessStart ?? 10}
                                 onChange={(e) => {
-                                  const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 10));
-                                  updateColorRamp(ramp.id, { lightnessStart: value });
+                                  const inputValue = e.target.value;
+                                  if (inputValue === '') return;
+                                  const value = Math.max(0, Math.min(100, parseFloat(inputValue)));
+                                  if (!isNaN(value)) {
+                                    updateColorRamp(ramp.id, { lightnessStart: value });
+                                  }
                                 }}
                                 min={0}
                                 max={100}
-                                step={1}
+                                step={0.1}
                                 className="text-center text-xs"
                               />
                             </div>
@@ -412,14 +416,18 @@ const Index = () => {
                               <Label className="text-xs">End (%)</Label>
                               <Input
                                 type="number"
-                                value={ramp.lightnessEnd || 90}
+                                value={ramp.lightnessEnd ?? 90}
                                 onChange={(e) => {
-                                  const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 90));
-                                  updateColorRamp(ramp.id, { lightnessEnd: value });
+                                  const inputValue = e.target.value;
+                                  if (inputValue === '') return;
+                                  const value = Math.max(0, Math.min(100, parseFloat(inputValue)));
+                                  if (!isNaN(value)) {
+                                    updateColorRamp(ramp.id, { lightnessEnd: value });
+                                  }
                                 }}
                                 min={0}
                                 max={100}
-                                step={1}
+                                step={0.1}
                                 className="text-center text-xs"
                               />
                             </div>
@@ -491,11 +499,14 @@ const Index = () => {
                                 type="number"
                                 value={ramp.chromaStart ?? -30}
                                 onChange={(e) => {
-                                  const value = parseFloat(e.target.value);
+                                  const inputValue = e.target.value;
+                                  if (inputValue === '') return;
+                                  const value = parseFloat(inputValue);
                                   if (!isNaN(value)) {
                                     updateColorRamp(ramp.id, { chromaStart: value });
                                   }
                                 }}
+                                step={0.1}
                                 className="text-center text-xs"
                               />
                             </div>
@@ -505,11 +516,14 @@ const Index = () => {
                                 type="number"
                                 value={ramp.chromaEnd ?? 30}
                                 onChange={(e) => {
-                                  const value = parseFloat(e.target.value);
+                                  const inputValue = e.target.value;
+                                  if (inputValue === '') return;
+                                  const value = parseFloat(inputValue);
                                   if (!isNaN(value)) {
                                     updateColorRamp(ramp.id, { chromaEnd: value });
                                   }
                                 }}
+                                step={0.1}
                                 className="text-center text-xs"
                               />
                             </div>
@@ -558,7 +572,7 @@ const Index = () => {
                               <RotateCcw className="w-3 h-3" />
                             </Button>
                             <Button
-                              variant="ghost"
+                              variant="ghost",
                               size="sm"
                               onClick={() => {
                                 const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
@@ -581,13 +595,16 @@ const Index = () => {
                               <Label className="text-xs">Start (%)</Label>
                               <Input
                                 type="number"
-                                value={ramp.saturationStart || 20}
+                                value={ramp.saturationStart ?? 20}
                                 onChange={(e) => {
-                                  const value = parseFloat(e.target.value);
+                                  const inputValue = e.target.value;
+                                  if (inputValue === '') return;
+                                  const value = parseFloat(inputValue);
                                   if (!isNaN(value)) {
                                     updateColorRamp(ramp.id, { saturationStart: value });
                                   }
                                 }}
+                                step={0.1}
                                 className="text-center text-xs"
                               />
                             </div>
@@ -595,13 +612,16 @@ const Index = () => {
                               <Label className="text-xs">End (%)</Label>
                               <Input
                                 type="number"
-                                value={ramp.saturationEnd || 80}
+                                value={ramp.saturationEnd ?? 80}
                                 onChange={(e) => {
-                                  const value = parseFloat(e.target.value);
+                                  const inputValue = e.target.value;
+                                  if (inputValue === '') return;
+                                  const value = parseFloat(inputValue);
                                   if (!isNaN(value)) {
                                     updateColorRamp(ramp.id, { saturationEnd: value });
                                   }
                                 }}
+                                step={0.1}
                                 className="text-center text-xs"
                               />
                             </div>
