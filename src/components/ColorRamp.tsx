@@ -84,7 +84,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
               <Button
                 variant="ghost"
                 size="sm"
-                className={`absolute top-1 right-1 w-6 h-6 p-0 transition-all duration-200 ${
+                className={`absolute top-1 right-1 w-6 h-6 p-0 transition-all duration-200 z-10 ${
                   isLocked 
                     ? 'bg-black bg-opacity-60 text-yellow-400 opacity-100' 
                     : 'bg-black bg-opacity-0 text-white opacity-0 group-hover:opacity-100 group-hover:bg-opacity-60'
@@ -97,9 +97,10 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 <Lock className="w-3 h-3" />
               </Button>
 
-              {/* Copy area */}
+              {/* Copy area - excluding the lock button area */}
               <div 
                 className="absolute inset-0 cursor-pointer"
+                style={{ right: '32px' }} // Exclude the lock button area
                 onClick={() => copyColor(color)}
               >
                 {/* Copy overlay */}
@@ -108,11 +109,11 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                     Copy
                   </span>
                 </div>
+              </div>
 
-                {/* Color value */}
-                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 text-white text-xs p-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                  {color}
-                </div>
+              {/* Color value - spans full width */}
+              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 text-white text-xs p-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                {color}
               </div>
             </div>
           );
