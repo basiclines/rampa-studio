@@ -1,6 +1,6 @@
 
 import React, { useState, useCallback } from 'react';
-import { Plus, Download, Trash2, Copy } from 'lucide-react';
+import { Plus, Download, Trash2, Copy, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -16,8 +16,17 @@ interface ColorRampConfig {
   baseColor: string;
   totalSteps: number;
   lightnessRange: number;
+  lightnessStart?: number;
+  lightnessEnd?: number;
+  lightnessAdvanced?: boolean;
   chromaRange: number;
+  chromaStart?: number;
+  chromaEnd?: number;
+  chromaAdvanced?: boolean;
   saturationRange: number;
+  saturationStart?: number;
+  saturationEnd?: number;
+  saturationAdvanced?: boolean;
   lockedColors: { [index: number]: string };
 }
 
@@ -30,8 +39,11 @@ const Index = () => {
       baseColor: '#3b82f6',
       totalSteps: 11,
       lightnessRange: 80,
+      lightnessAdvanced: false,
       chromaRange: 0,
+      chromaAdvanced: false,
       saturationRange: 40,
+      saturationAdvanced: false,
       lockedColors: {},
     },
     {
@@ -40,8 +52,11 @@ const Index = () => {
       baseColor: '#10b981',
       totalSteps: 9,
       lightnessRange: 70,
+      lightnessAdvanced: false,
       chromaRange: 15,
+      chromaAdvanced: false,
       saturationRange: 30,
+      saturationAdvanced: false,
       lockedColors: {},
     },
   ]);
@@ -223,82 +238,253 @@ const Index = () => {
 
                   {/* Color Adjustment Controls */}
                   <div className="space-y-4">
+                    {/* Lightness Controls */}
                     <div className="space-y-2">
-                      <Label>Lightness Range: {ramp.lightnessRange}%</Label>
-                      <div className="flex gap-2 items-center">
-                        <Slider
-                          value={[ramp.lightnessRange]}
-                          onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
-                          max={100}
-                          min={0}
-                          step={0.5}
-                          className="flex-1"
-                        />
-                        <Input
-                          type="number"
-                          value={ramp.lightnessRange}
-                          onChange={(e) => {
-                            const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                            updateColorRamp(ramp.id, { lightnessRange: value });
+                      <div className="flex items-center justify-between">
+                        <Label>
+                          {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${ramp.lightnessRange}%`}
+                        </Label>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => {
+                            const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
+                            if (!ramp.lightnessAdvanced) {
+                              // Set default start/end values when enabling advanced mode
+                              updates.lightnessStart = 0.1;
+                              updates.lightnessEnd = 0.9;
+                            }
+                            updateColorRamp(ramp.id, updates);
                           }}
-                          min={0}
-                          max={100}
-                          step={0.5}
-                          className="w-16 text-center"
-                        />
+                          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                        >
+                          <Settings className="w-3 h-3" />
+                        </Button>
                       </div>
+                      
+                      {ramp.lightnessAdvanced ? (
+                        <div className="grid grid-cols-2 gap-2">
+                          <div>
+                            <Label className="text-xs">Start</Label>
+                            <Input
+                              type="number"
+                              value={ramp.lightnessStart || 0.1}
+                              onChange={(e) => {
+                                const value = Math.max(0, Math.min(1, parseFloat(e.target.value) || 0.1));
+                                updateColorRamp(ramp.id, { lightnessStart: value });
+                              }}
+                              min={0}
+                              max={1}
+                              step={0.01}
+                              className="text-center text-xs"
+                            />
+                          </div>
+                          <div>
+                            <Label className="text-xs">End</Label>
+                            <Input
+                              type="number"
+                              value={ramp.lightnessEnd || 0.9}
+                              onChange={(e) => {
+                                const value = Math.max(0, Math.min(1, parseFloat(e.target.value) || 0.9));
+                                updateColorRamp(ramp.id, { lightnessEnd: value });
+                              }}
+                              min={0}
+                              max={1}
+                              step={0.01}
+                              className="text-center text-xs"
+                            />
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="flex gap-2 items-center">
+                          <Slider
+                            value={[ramp.lightnessRange]}
+                            onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
+                            max={100}
+                            min={0}
+                            step={0.5}
+                            className="flex-1"
+                          />
+                          <Input
+                            type="number"
+                            value={ramp.lightnessRange}
+                            onChange={(e) => {
+                              const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
+                              updateColorRamp(ramp.id, { lightnessRange: value });
+                            }}
+                            min={0}
+                            max={100}
+                            step={0.5}
+                            className="w-16 text-center"
+                          />
+                        </div>
+                      )}
                     </div>
                     
+                    {/* Hue Shift Controls */}
                     <div className="space-y-2">
-                      <Label>Hue Shift: {ramp.chromaRange}°</Label>
-                      <div className="flex gap-2 items-center">
-                        <Slider
-                          value={[ramp.chromaRange]}
-                          onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
-                          max={180}
-                          min={-180}
-                          step={0.5}
-                          className="flex-1"
-                        />
-                        <Input
-                          type="number"
-                          value={ramp.chromaRange}
-                          onChange={(e) => {
-                            const value = Math.max(-180, Math.min(180, parseFloat(e.target.value) || 0));
-                            updateColorRamp(ramp.id, { chromaRange: value });
+                      <div className="flex items-center justify-between">
+                        <Label>
+                          {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${ramp.chromaRange}°`}
+                        </Label>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => {
+                            const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
+                            if (!ramp.chromaAdvanced) {
+                              // Set default start/end values when enabling advanced mode
+                              updates.chromaStart = -30;
+                              updates.chromaEnd = 30;
+                            }
+                            updateColorRamp(ramp.id, updates);
                           }}
-                          min={-180}
-                          max={180}
-                          step={0.5}
-                          className="w-16 text-center"
-                        />
+                          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                        >
+                          <Settings className="w-3 h-3" />
+                        </Button>
                       </div>
+                      
+                      {ramp.chromaAdvanced ? (
+                        <div className="grid grid-cols-2 gap-2">
+                          <div>
+                            <Label className="text-xs">Start</Label>
+                            <Input
+                              type="number"
+                              value={ramp.chromaStart || -30}
+                              onChange={(e) => {
+                                const value = Math.max(-180, Math.min(180, parseFloat(e.target.value) || -30));
+                                updateColorRamp(ramp.id, { chromaStart: value });
+                              }}
+                              min={-180}
+                              max={180}
+                              step={1}
+                              className="text-center text-xs"
+                            />
+                          </div>
+                          <div>
+                            <Label className="text-xs">End</Label>
+                            <Input
+                              type="number"
+                              value={ramp.chromaEnd || 30}
+                              onChange={(e) => {
+                                const value = Math.max(-180, Math.min(180, parseFloat(e.target.value) || 30));
+                                updateColorRamp(ramp.id, { chromaEnd: value });
+                              }}
+                              min={-180}
+                              max={180}
+                              step={1}
+                              className="text-center text-xs"
+                            />
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="flex gap-2 items-center">
+                          <Slider
+                            value={[ramp.chromaRange]}
+                            onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
+                            max={180}
+                            min={-180}
+                            step={0.5}
+                            className="flex-1"
+                          />
+                          <Input
+                            type="number"
+                            value={ramp.chromaRange}
+                            onChange={(e) => {
+                              const value = Math.max(-180, Math.min(180, parseFloat(e.target.value) || 0));
+                              updateColorRamp(ramp.id, { chromaRange: value });
+                            }}
+                            min={-180}
+                            max={180}
+                            step={0.5}
+                            className="w-16 text-center"
+                          />
+                        </div>
+                      )}
                     </div>
                     
+                    {/* Saturation Controls */}
                     <div className="space-y-2">
-                      <Label>Saturation Range: {ramp.saturationRange}%</Label>
-                      <div className="flex gap-2 items-center">
-                        <Slider
-                          value={[ramp.saturationRange]}
-                          onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
-                          max={100}
-                          min={0}
-                          step={0.5}
-                          className="flex-1"
-                        />
-                        <Input
-                          type="number"
-                          value={ramp.saturationRange}
-                          onChange={(e) => {
-                            const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                            updateColorRamp(ramp.id, { saturationRange: value });
+                      <div className="flex items-center justify-between">
+                        <Label>
+                          {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${ramp.saturationRange}%`}
+                        </Label>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => {
+                            const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
+                            if (!ramp.saturationAdvanced) {
+                              // Set default start/end values when enabling advanced mode
+                              updates.saturationStart = 0.2;
+                              updates.saturationEnd = 0.8;
+                            }
+                            updateColorRamp(ramp.id, updates);
                           }}
-                          min={0}
-                          max={100}
-                          step={0.5}
-                          className="w-16 text-center"
-                        />
+                          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                        >
+                          <Settings className="w-3 h-3" />
+                        </Button>
                       </div>
+                      
+                      {ramp.saturationAdvanced ? (
+                        <div className="grid grid-cols-2 gap-2">
+                          <div>
+                            <Label className="text-xs">Start</Label>
+                            <Input
+                              type="number"
+                              value={ramp.saturationStart || 0.2}
+                              onChange={(e) => {
+                                const value = Math.max(0, Math.min(1, parseFloat(e.target.value) || 0.2));
+                                updateColorRamp(ramp.id, { saturationStart: value });
+                              }}
+                              min={0}
+                              max={1}
+                              step={0.01}
+                              className="text-center text-xs"
+                            />
+                          </div>
+                          <div>
+                            <Label className="text-xs">End</Label>
+                            <Input
+                              type="number"
+                              value={ramp.saturationEnd || 0.8}
+                              onChange={(e) => {
+                                const value = Math.max(0, Math.min(1, parseFloat(e.target.value) || 0.8));
+                                updateColorRamp(ramp.id, { saturationEnd: value });
+                              }}
+                              min={0}
+                              max={1}
+                              step={0.01}
+                              className="text-center text-xs"
+                            />
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="flex gap-2 items-center">
+                          <Slider
+                            value={[ramp.saturationRange]}
+                            onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
+                            max={100}
+                            min={0}
+                            step={0.5}
+                            className="flex-1"
+                          />
+                          <Input
+                            type="number"
+                            value={ramp.saturationRange}
+                            onChange={(e) => {
+                              const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
+                              updateColorRamp(ramp.id, { saturationRange: value });
+                            }}
+                            min={0}
+                            max={100}
+                            step={0.5}
+                            className="w-16 text-center"
+                          />
+                        </div>
+                      )}
                     </div>
                   </div>
                 </CardContent>

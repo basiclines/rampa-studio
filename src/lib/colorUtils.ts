@@ -1,3 +1,4 @@
+
 import chroma from 'chroma-js';
 
 interface ColorRampConfig {
@@ -6,8 +7,17 @@ interface ColorRampConfig {
   baseColor: string;
   totalSteps: number;
   lightnessRange: number;
+  lightnessStart?: number;
+  lightnessEnd?: number;
+  lightnessAdvanced?: boolean;
   chromaRange: number;
+  chromaStart?: number;
+  chromaEnd?: number;
+  chromaAdvanced?: boolean;
   saturationRange: number;
+  saturationStart?: number;
+  saturationEnd?: number;
+  saturationAdvanced?: boolean;
   lockedColors: { [index: number]: string };
 }
 
@@ -30,11 +40,6 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
     // Calculate the middle index (base color position)
     const middleIndex = Math.floor(config.totalSteps / 2);
     
-    // Calculate step sizes
-    const lightnessStep = (config.lightnessRange / 100) / (config.totalSteps - 1);
-    const hueStep = config.chromaRange / (config.totalSteps - 1);
-    const saturationStep = (config.saturationRange / 100) / (config.totalSteps - 1);
-    
     // Generate colors from darkest to lightest
     for (let i = 0; i < config.totalSteps; i++) {
       // Check if this color index is locked
@@ -43,22 +48,49 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
         continue;
       }
       
-      const position = i - middleIndex;
+      const position = i / (config.totalSteps - 1); // 0 to 1
       
-      // Calculate adjustments based on position
-      const lightnessAdjustment = position * lightnessStep;
-      const hueAdjustment = position * hueStep;
-      const saturationAdjustment = Math.abs(position) * saturationStep;
+      let newLightness: number;
+      let newHue: number;
+      let newSaturation: number;
       
-      // Apply adjustments
-      let newLightness = baseLightness + lightnessAdjustment;
-      let newHue = (baseHue + hueAdjustment) % 360;
+      // Calculate lightness
+      if (config.lightnessAdvanced && config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
+        newLightness = config.lightnessStart + (config.lightnessEnd - config.lightnessStart) * position;
+      } else {
+        const lightnessStep = (config.lightnessRange / 100) / (config.totalSteps - 1);
+        const positionFromMiddle = i - middleIndex;
+        const lightnessAdjustment = positionFromMiddle * lightnessStep;
+        newLightness = baseLightness + lightnessAdjustment;
+      }
+      
+      // Calculate hue
+      if (config.chromaAdvanced && config.chromaStart !== undefined && config.chromaEnd !== undefined) {
+        const hueRange = config.chromaEnd - config.chromaStart;
+        newHue = (baseHue + config.chromaStart + hueRange * position) % 360;
+      } else {
+        const hueStep = config.chromaRange / (config.totalSteps - 1);
+        const positionFromMiddle = i - middleIndex;
+        const hueAdjustment = positionFromMiddle * hueStep;
+        newHue = (baseHue + hueAdjustment) % 360;
+      }
+      
+      // Calculate saturation
+      if (config.saturationAdvanced && config.saturationStart !== undefined && config.saturationEnd !== undefined) {
+        newSaturation = config.saturationStart + (config.saturationEnd - config.saturationStart) * position;
+      } else {
+        const saturationStep = (config.saturationRange / 100) / (config.totalSteps - 1);
+        const positionFromMiddle = i - middleIndex;
+        const saturationAdjustment = Math.abs(positionFromMiddle) * saturationStep;
+        newSaturation = baseSaturation - saturationAdjustment;
+      }
+      
+      // Ensure hue is positive
       if (newHue < 0) newHue += 360;
-      let newSaturation = baseSaturation - saturationAdjustment;
       
       // Clamp values to valid ranges
-      newLightness = Math.max(0.05, Math.min(0.95, newLightness));
-      newSaturation = Math.max(0.1, Math.min(1, newSaturation));
+      newLightness = Math.max(0, Math.min(1, newLightness));
+      newSaturation = Math.max(0, Math.min(1, newSaturation));
       
       // Create the new color
       const newColor = chroma.hsl(newHue, newSaturation, newLightness);
