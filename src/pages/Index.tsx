@@ -351,14 +351,13 @@ const Index = () => {
                             <Label className="text-xs">Start</Label>
                             <Input
                               type="number"
-                              value={ramp.chromaStart || -30}
+                              value={ramp.chromaStart ?? -30}
                               onChange={(e) => {
-                                const value = Math.max(-180, Math.min(180, parseFloat(e.target.value) || -30));
-                                updateColorRamp(ramp.id, { chromaStart: value });
+                                const value = parseFloat(e.target.value);
+                                if (!isNaN(value)) {
+                                  updateColorRamp(ramp.id, { chromaStart: value });
+                                }
                               }}
-                              min={-180}
-                              max={180}
-                              step={1}
                               className="text-center text-xs"
                             />
                           </div>
@@ -366,14 +365,13 @@ const Index = () => {
                             <Label className="text-xs">End</Label>
                             <Input
                               type="number"
-                              value={ramp.chromaEnd || 30}
+                              value={ramp.chromaEnd ?? 30}
                               onChange={(e) => {
-                                const value = Math.max(-180, Math.min(180, parseFloat(e.target.value) || 30));
-                                updateColorRamp(ramp.id, { chromaEnd: value });
+                                const value = parseFloat(e.target.value);
+                                if (!isNaN(value)) {
+                                  updateColorRamp(ramp.id, { chromaEnd: value });
+                                }
                               }}
-                              min={-180}
-                              max={180}
-                              step={1}
                               className="text-center text-xs"
                             />
                           </div>
@@ -392,8 +390,10 @@ const Index = () => {
                             type="number"
                             value={ramp.chromaRange}
                             onChange={(e) => {
-                              const value = Math.max(-180, Math.min(180, parseFloat(e.target.value) || 0));
-                              updateColorRamp(ramp.id, { chromaRange: value });
+                              const value = parseFloat(e.target.value);
+                              if (!isNaN(value) && value >= -180 && value <= 180) {
+                                updateColorRamp(ramp.id, { chromaRange: value });
+                              }
                             }}
                             min={-180}
                             max={180}
