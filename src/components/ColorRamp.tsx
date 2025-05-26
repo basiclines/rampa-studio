@@ -5,6 +5,7 @@ import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
+import GradientControl from './GradientControl';
 
 interface ColorRampConfig {
   id: string;
@@ -12,8 +13,17 @@ interface ColorRampConfig {
   baseColor: string;
   totalSteps: number;
   lightnessRange: number;
+  lightnessStart?: number;
+  lightnessEnd?: number;
+  lightnessAdvanced?: boolean;
   chromaRange: number;
+  chromaStart?: number;
+  chromaEnd?: number;
+  chromaAdvanced?: boolean;
   saturationRange: number;
+  saturationStart?: number;
+  saturationEnd?: number;
+  saturationAdvanced?: boolean;
   lockedColors: { [index: number]: string };
 }
 
@@ -39,10 +49,8 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     const newLockedColors = { ...config.lockedColors };
     
     if (newLockedColors[index]) {
-      // Unlock the color
       delete newLockedColors[index];
     } else {
-      // Lock the color
       newLockedColors[index] = color;
     }
     
@@ -55,7 +63,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
   };
 
   const handleColorChange = (index: number, newColor: string) => {
-    // Automatically lock the color when manually edited
     const newLockedColors = { ...config.lockedColors };
     newLockedColors[index] = newColor;
     
@@ -64,6 +71,30 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     toast({
       title: "Color Updated & Locked",
       description: `Color has been changed to ${newColor} and automatically locked.`,
+    });
+  };
+
+  const handleLightnessGradient = (start: number, end: number) => {
+    onUpdateConfig({
+      lightnessAdvanced: true,
+      lightnessStart: start,
+      lightnessEnd: end
+    });
+  };
+
+  const handleHueGradient = (start: number, end: number) => {
+    onUpdateConfig({
+      chromaAdvanced: true,
+      chromaStart: start,
+      chromaEnd: end
+    });
+  };
+
+  const handleSaturationGradient = (start: number, end: number) => {
+    onUpdateConfig({
+      saturationAdvanced: true,
+      saturationStart: start,
+      saturationEnd: end
     });
   };
 
@@ -76,18 +107,49 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         </Button>
       </div>
       
+      {/* Gradient Controls */}
+      <div className="flex gap-4 justify-center bg-gray-50 p-3 rounded-lg">
+        <GradientControl
+          label="Lightness"
+          startValue={config.lightnessStart ?? 10}
+          endValue={config.lightnessEnd ?? 90}
+          min={0}
+          max={100}
+          onValuesChange={handleLightnessGradient}
+          formatValue={(v) => `${Math.round(v)}%`}
+        />
+        
+        <GradientControl
+          label="Hue"
+          startValue={config.chromaStart ?? -30}
+          endValue={config.chromaEnd ?? 30}
+          min={-180}
+          max={180}
+          onValuesChange={handleHueGradient}
+          formatValue={(v) => `${Math.round(v)}°`}
+        />
+        
+        <GradientControl
+          label="Saturation"
+          startValue={config.saturationStart ?? 20}
+          endValue={config.saturationEnd ?? 80}
+          min={0}
+          max={100}
+          onValuesChange={handleSaturationGradient}
+          formatValue={(v) => `${Math.round(v)}%`}
+        />
+      </div>
+      
       <div className="flex flex-col gap-1">
         {colors.map((color, index) => {
           const isLocked = config.lockedColors && config.lockedColors[index];
           
           return (
             <div key={index} className="space-y-1">
-              {/* Color swatch */}
               <div
                 className="group relative w-full h-12 rounded-md border border-gray-200 overflow-hidden"
                 style={{ backgroundColor: color }}
               >
-                {/* Lock button */}
                 <Button
                   variant="ghost"
                   size="sm"
@@ -105,7 +167,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 </Button>
               </div>
               
-              {/* Color input field */}
               <div className="flex gap-1 items-center">
                 <Input
                   type="color"
@@ -118,7 +179,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                   value={color}
                   onChange={(e) => {
                     const newColor = e.target.value;
-                    // Validate hex color format
                     if (/^#[0-9A-F]{6}$/i.test(newColor) || /^#[0-9A-F]{3}$/i.test(newColor)) {
                       handleColorChange(index, newColor);
                     }
@@ -133,7 +193,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
       </div>
       
       <div className="text-xs text-gray-500 text-center">
-        Edit color to lock • Click lock to toggle
+        Drag gradient controls • Edit color to lock • Click lock to toggle
       </div>
     </div>
   );
