@@ -25,6 +25,8 @@ interface ColorRampConfig {
   saturationStart?: number;
   saturationEnd?: number;
   saturationAdvanced?: boolean;
+  tintColor?: string;
+  tintOpacity?: number;
   lockedColors: { [index: number]: string };
 }
 

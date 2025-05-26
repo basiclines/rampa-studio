@@ -26,6 +26,8 @@ interface ColorRampConfig {
   saturationStart?: number;
   saturationEnd?: number;
   saturationAdvanced?: boolean;
+  tintColor?: string;
+  tintOpacity?: number;
   lockedColors: { [index: number]: string };
 }
 
@@ -43,6 +45,8 @@ const Index = () => {
       chromaAdvanced: false,
       saturationRange: 40,
       saturationAdvanced: false,
+      tintColor: '#000000',
+      tintOpacity: 0,
       lockedColors: {},
     },
     {
@@ -56,6 +60,8 @@ const Index = () => {
       chromaAdvanced: false,
       saturationRange: 30,
       saturationAdvanced: false,
+      tintColor: '#000000',
+      tintOpacity: 0,
       lockedColors: {},
     },
   ]);
@@ -69,6 +75,8 @@ const Index = () => {
       lightnessRange: 80,
       chromaRange: 60,
       saturationRange: 40,
+      tintColor: '#000000',
+      tintOpacity: 0,
       lockedColors: {},
     };
     setColorRamps(prev => [...prev, newRamp]);
@@ -257,6 +265,53 @@ const Index = () => {
                           }}
                           min={3}
                           max={21}
+                          className="w-16 text-center"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Tint Color Controls */}
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
+                      <div className="flex gap-2">
+                        <Input
+                          id={`tint-color-${ramp.id}`}
+                          type="color"
+                          value={ramp.tintColor || '#000000'}
+                          onChange={(e) => updateColorRamp(ramp.id, { tintColor: e.target.value })}
+                          className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
+                        />
+                        <Input
+                          value={ramp.tintColor || '#000000'}
+                          onChange={(e) => updateColorRamp(ramp.id, { tintColor: e.target.value })}
+                          className="flex-1"
+                          placeholder="#000000"
+                        />
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label>Tint Opacity: {ramp.tintOpacity || 0}%</Label>
+                      <div className="flex gap-2 items-center">
+                        <Slider
+                          value={[ramp.tintOpacity || 0]}
+                          onValueChange={([value]) => updateColorRamp(ramp.id, { tintOpacity: value })}
+                          max={100}
+                          min={0}
+                          step={1}
+                          className="flex-1"
+                        />
+                        <Input
+                          type="number"
+                          value={ramp.tintOpacity || 0}
+                          onChange={(e) => {
+                            const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 0));
+                            updateColorRamp(ramp.id, { tintOpacity: value });
+                          }}
+                          min={0}
+                          max={100}
                           className="w-16 text-center"
                         />
                       </div>

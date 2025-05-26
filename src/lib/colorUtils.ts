@@ -18,6 +18,8 @@ interface ColorRampConfig {
   saturationStart?: number;
   saturationEnd?: number;
   saturationAdvanced?: boolean;
+  tintColor?: string;
+  tintOpacity?: number;
   lockedColors: { [index: number]: string };
 }
 
@@ -99,7 +101,16 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
       newSaturation = Math.max(0, Math.min(1, newSaturation));
       
       // Create the new color
-      const newColor = chroma.hsl(newHue, newSaturation, newLightness);
+      let newColor = chroma.hsl(newHue, newSaturation, newLightness);
+      
+      // Apply tint if configured
+      if (config.tintColor && config.tintOpacity && config.tintOpacity > 0) {
+        const tintColorChroma = chroma(config.tintColor);
+        const opacity = config.tintOpacity / 100;
+        // Mix the generated color with the tint color based on opacity
+        newColor = chroma.mix(newColor, tintColorChroma, opacity, 'rgb');
+      }
+      
       colors.push(newColor.hex());
     }
     
