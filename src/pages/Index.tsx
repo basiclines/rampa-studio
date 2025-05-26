@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Plus, Download, Trash2, Copy, Settings, Eye, EyeOff } from 'lucide-react';
+import { Plus, Download, Trash2, Copy, Settings, Eye, EyeOff, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -8,6 +8,7 @@ import { Slider } from '@/components/ui/slider';
 import ColorRamp from '@/components/ColorRamp';
 import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
 import { useToast } from '@/hooks/use-toast';
+import chroma from 'chroma-js';
 
 interface ColorRampConfig {
   id: string;
@@ -100,6 +101,52 @@ const Index = () => {
       ramp.id === id ? { ...ramp, ...updates } : ramp
     ));
   }, []);
+
+  const resetAttribute = useCallback((id: string, attribute: 'lightness' | 'hue' | 'saturation') => {
+    const ramp = colorRamps.find(r => r.id === id);
+    if (!ramp) return;
+
+    try {
+      const baseColor = chroma(ramp.baseColor);
+      const [h, s, l] = baseColor.hsl();
+      
+      const updates: Partial<ColorRampConfig> = {};
+      
+      switch (attribute) {
+        case 'lightness':
+          updates.lightnessRange = 0;
+          updates.lightnessAdvanced = false;
+          updates.lightnessStart = (l || 0.5) * 100; // Convert to percentage
+          updates.lightnessEnd = (l || 0.5) * 100;
+          break;
+        case 'hue':
+          updates.chromaRange = 0;
+          updates.chromaAdvanced = false;
+          updates.chromaStart = 0; // Hue shift of 0
+          updates.chromaEnd = 0;
+          break;
+        case 'saturation':
+          updates.saturationRange = 0;
+          updates.saturationAdvanced = false;
+          updates.saturationStart = (s || 0.5) * 100; // Convert to percentage
+          updates.saturationEnd = (s || 0.5) * 100;
+          break;
+      }
+      
+      updateColorRamp(id, updates);
+      
+      toast({
+        title: `${attribute.charAt(0).toUpperCase() + attribute.slice(1)} Reset`,
+        description: `${attribute} has been reset to base color values.`,
+      });
+    } catch (error) {
+      toast({
+        title: "Reset Failed",
+        description: "Could not reset the attribute values.",
+        variant: "destructive",
+      });
+    }
+  }, [colorRamps, updateColorRamp, toast]);
 
   const toggleAllAdvancedModes = useCallback(() => {
     const hasAnyAdvanced = colorRamps.some(ramp => 
@@ -326,22 +373,32 @@ const Index = () => {
                         <Label>
                           {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${ramp.lightnessRange}%`}
                         </Label>
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          onClick={() => {
-                            const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
-                            if (!ramp.lightnessAdvanced) {
-                              // Set default start/end values when enabling advanced mode (as percentages)
-                              updates.lightnessStart = 10;
-                              updates.lightnessEnd = 90;
-                            }
-                            updateColorRamp(ramp.id, updates);
-                          }}
-                          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                        >
-                          <Settings className="w-3 h-3" />
-                        </Button>
+                        <div className="flex gap-1">
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => resetAttribute(ramp.id, 'lightness')}
+                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                          >
+                            <RotateCcw className="w-3 h-3" />
+                          </Button>
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => {
+                              const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
+                              if (!ramp.lightnessAdvanced) {
+                                // Set default start/end values when enabling advanced mode (as percentages)
+                                updates.lightnessStart = 10;
+                                updates.lightnessEnd = 90;
+                              }
+                              updateColorRamp(ramp.id, updates);
+                            }}
+                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                          >
+                            <Settings className="w-3 h-3" />
+                          </Button>
+                        </div>
                       </div>
                       
                       {ramp.lightnessAdvanced ? (
@@ -409,22 +466,32 @@ const Index = () => {
                         <Label>
                           {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${ramp.chromaRange}°`}
                         </Label>
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          onClick={() => {
-                            const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
-                            if (!ramp.chromaAdvanced) {
-                              // Set default start/end values when enabling advanced mode
-                              updates.chromaStart = -30;
-                              updates.chromaEnd = 30;
-                            }
-                            updateColorRamp(ramp.id, updates);
-                          }}
-                          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                        >
-                          <Settings className="w-3 h-3" />
-                        </Button>
+                        <div className="flex gap-1">
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => resetAttribute(ramp.id, 'hue')}
+                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                          >
+                            <RotateCcw className="w-3 h-3" />
+                          </Button>
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => {
+                              const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
+                              if (!ramp.chromaAdvanced) {
+                                // Set default start/end values when enabling advanced mode
+                                updates.chromaStart = -30;
+                                updates.chromaEnd = 30;
+                              }
+                              updateColorRamp(ramp.id, updates);
+                            }}
+                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                          >
+                            <Settings className="w-3 h-3" />
+                          </Button>
+                        </div>
                       </div>
                       
                       {ramp.chromaAdvanced ? (
@@ -492,22 +559,32 @@ const Index = () => {
                         <Label>
                           {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${ramp.saturationRange}%`}
                         </Label>
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          onClick={() => {
-                            const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
-                            if (!ramp.saturationAdvanced) {
-                              // Set default start/end values when enabling advanced mode (as percentages)
-                              updates.saturationStart = 20;
-                              updates.saturationEnd = 80;
-                            }
-                            updateColorRamp(ramp.id, updates);
-                          }}
-                          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                        >
-                          <Settings className="w-3 h-3" />
-                        </Button>
+                        <div className="flex gap-1">
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => resetAttribute(ramp.id, 'saturation')}
+                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                          >
+                            <RotateCcw className="w-3 h-3" />
+                          </Button>
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => {
+                              const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
+                              if (!ramp.saturationAdvanced) {
+                                // Set default start/end values when enabling advanced mode (as percentages)
+                                updates.saturationStart = 20;
+                                updates.saturationEnd = 80;
+                              }
+                              updateColorRamp(ramp.id, updates);
+                            }}
+                            className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                          >
+                            <Settings className="w-3 h-3" />
+                          </Button>
+                        </div>
                       </div>
                       
                       {ramp.saturationAdvanced ? (
