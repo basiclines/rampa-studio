@@ -197,14 +197,27 @@ const Index = () => {
                     
                     <div className="space-y-2">
                       <Label>Total Steps: {ramp.totalSteps}</Label>
-                      <Slider
-                        value={[ramp.totalSteps]}
-                        onValueChange={([value]) => updateColorRamp(ramp.id, { totalSteps: value })}
-                        max={21}
-                        min={3}
-                        step={1}
-                        className="w-full"
-                      />
+                      <div className="flex gap-2 items-center">
+                        <Slider
+                          value={[ramp.totalSteps]}
+                          onValueChange={([value]) => updateColorRamp(ramp.id, { totalSteps: value })}
+                          max={21}
+                          min={3}
+                          step={1}
+                          className="flex-1"
+                        />
+                        <Input
+                          type="number"
+                          value={ramp.totalSteps}
+                          onChange={(e) => {
+                            const value = Math.max(3, Math.min(21, parseInt(e.target.value) || 3));
+                            updateColorRamp(ramp.id, { totalSteps: value });
+                          }}
+                          min={3}
+                          max={21}
+                          className="w-16 text-center"
+                        />
+                      </div>
                     </div>
                   </div>
 
@@ -212,38 +225,80 @@ const Index = () => {
                   <div className="space-y-4">
                     <div className="space-y-2">
                       <Label>Lightness Range: {ramp.lightnessRange}%</Label>
-                      <Slider
-                        value={[ramp.lightnessRange]}
-                        onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
-                        max={100}
-                        min={0}
-                        step={0.5}
-                        className="w-full"
-                      />
+                      <div className="flex gap-2 items-center">
+                        <Slider
+                          value={[ramp.lightnessRange]}
+                          onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
+                          max={100}
+                          min={0}
+                          step={0.5}
+                          className="flex-1"
+                        />
+                        <Input
+                          type="number"
+                          value={ramp.lightnessRange}
+                          onChange={(e) => {
+                            const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
+                            updateColorRamp(ramp.id, { lightnessRange: value });
+                          }}
+                          min={0}
+                          max={100}
+                          step={0.5}
+                          className="w-16 text-center"
+                        />
+                      </div>
                     </div>
                     
                     <div className="space-y-2">
                       <Label>Hue Shift: {ramp.chromaRange}°</Label>
-                      <Slider
-                        value={[ramp.chromaRange]}
-                        onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
-                        max={180}
-                        min={-180}
-                        step={0.5}
-                        className="w-full"
-                      />
+                      <div className="flex gap-2 items-center">
+                        <Slider
+                          value={[ramp.chromaRange]}
+                          onValueChange={([value]) => updateColorRamp(ramp.id, { chromaRange: value })}
+                          max={180}
+                          min={-180}
+                          step={0.5}
+                          className="flex-1"
+                        />
+                        <Input
+                          type="number"
+                          value={ramp.chromaRange}
+                          onChange={(e) => {
+                            const value = Math.max(-180, Math.min(180, parseFloat(e.target.value) || 0));
+                            updateColorRamp(ramp.id, { chromaRange: value });
+                          }}
+                          min={-180}
+                          max={180}
+                          step={0.5}
+                          className="w-16 text-center"
+                        />
+                      </div>
                     </div>
                     
                     <div className="space-y-2">
                       <Label>Saturation Range: {ramp.saturationRange}%</Label>
-                      <Slider
-                        value={[ramp.saturationRange]}
-                        onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
-                        max={100}
-                        min={0}
-                        step={0.5}
-                        className="w-full"
-                      />
+                      <div className="flex gap-2 items-center">
+                        <Slider
+                          value={[ramp.saturationRange]}
+                          onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
+                          max={100}
+                          min={0}
+                          step={0.5}
+                          className="flex-1"
+                        />
+                        <Input
+                          type="number"
+                          value={ramp.saturationRange}
+                          onChange={(e) => {
+                            const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
+                            updateColorRamp(ramp.id, { saturationRange: value });
+                          }}
+                          min={0}
+                          max={100}
+                          step={0.5}
+                          className="w-16 text-center"
+                        />
+                      </div>
                     </div>
                   </div>
                 </CardContent>
