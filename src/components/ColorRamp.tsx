@@ -179,28 +179,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         <Button variant="outline" size="sm" onClick={copyAllColors}>
           Copy All
         </Button>
-        
-        {/* Tint Blend Mode Selection */}
-        {config.tintColor && config.tintOpacity && config.tintOpacity > 0 && (
-          <div className="space-y-2">
-            <label className="text-xs font-medium text-gray-600">Blend Mode</label>
-            <Select
-              value={config.tintBlendMode || 'normal'}
-              onValueChange={(value: 'normal' | 'multiply' | 'overlay') => 
-                onUpdateConfig({ tintBlendMode: value })
-              }
-            >
-              <SelectTrigger className="h-8 text-xs">
-                <SelectValue placeholder="Select blend mode" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="normal">Normal</SelectItem>
-                <SelectItem value="multiply">Multiply</SelectItem>
-                <SelectItem value="overlay">Overlay</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
-        )}
       </div>
       
       <div 
