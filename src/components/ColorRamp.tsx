@@ -1,5 +1,5 @@
 
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Lock } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
@@ -37,6 +37,7 @@ interface ColorRampProps {
 
 const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
   const { toast } = useToast();
+  const [isHovered, setIsHovered] = useState(false);
   const colors = generateColorRamp(config);
 
   const copyAllColors = () => {
@@ -167,7 +168,11 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         </Button>
       </div>
       
-      <div className="flex gap-4">
+      <div 
+        className="flex gap-4"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         {/* Color Ramp */}
         <div className="flex flex-col gap-1 flex-1">
           {colors.map((color, index) => {
@@ -221,9 +226,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
           })}
         </div>
 
-        {/* Gradient Controls - Side by side */}
-        {(config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
-          <div className="flex gap-2">
+        {/* Gradient Controls - Only show on hover and when advanced modes are enabled */}
+        {isHovered && (config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
+          <div className="flex gap-2 transition-all duration-200 animate-fade-in">
             {config.lightnessAdvanced && (
               <GradientControl
                 label="Lightness"
@@ -267,7 +272,11 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
       </div>
       
       <div className="text-xs text-gray-500 text-center">
-        Drag gradient controls • Edit color to lock • Click lock to toggle
+        {isHovered && (config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) ? (
+          "Drag gradient controls • Edit color to lock • Click lock to toggle"
+        ) : (
+          "Hover to show gradient controls • Edit color to lock • Click lock to toggle"
+        )}
       </div>
     </div>
   );
