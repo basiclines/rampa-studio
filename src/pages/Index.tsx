@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Plus, Download, Trash2, Copy, Settings, RotateCcw } from 'lucide-react';
+import { Plus, Download, Trash2, Copy, Settings, RotateCcw, Edit3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -209,11 +209,15 @@ const Index = () => {
                   {index > 0 && <Separator className="mb-8" />}
                   <div className="space-y-6">
                     <div className="flex items-center justify-between">
-                      <Input
-                        value={ramp.name}
-                        onChange={(e) => updateColorRamp(ramp.id, { name: e.target.value })}
-                        className="border-none p-0 text-lg font-semibold bg-transparent focus-visible:ring-0 flex-1"
-                      />
+                      <div className="flex items-center gap-2 flex-1">
+                        <Edit3 className="w-4 h-4 text-gray-400" />
+                        <Input
+                          value={ramp.name}
+                          onChange={(e) => updateColorRamp(ramp.id, { name: e.target.value })}
+                          className="border border-gray-200 p-2 text-lg font-semibold bg-white focus-visible:ring-2 focus-visible:ring-blue-500 flex-1"
+                          placeholder="Color ramp name"
+                        />
+                      </div>
                       <div className="flex gap-1">
                         <Button
                           variant="ghost"
