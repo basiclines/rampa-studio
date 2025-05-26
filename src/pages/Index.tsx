@@ -30,7 +30,7 @@ interface ColorRampConfig {
   saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
+  tintBlendMode?: 'normal' | 'darken' | 'multiply' | 'plus-darker' | 'color-burn' | 'lighten' | 'screen' | 'plus-lighter' | 'color-dodge' | 'overlay' | 'soft-light' | 'hard-light' | 'difference' | 'exclusion' | 'hue' | 'saturation' | 'color' | 'luminosity';
   lockedColors: { [index: number]: string };
 }
 
@@ -372,17 +372,32 @@ const Index = () => {
                         <Label>Blend Mode</Label>
                         <Select
                           value={ramp.tintBlendMode || 'normal'}
-                          onValueChange={(value: 'normal' | 'multiply' | 'overlay') => 
+                          onValueChange={(value: ColorRampConfig['tintBlendMode']) => 
                             updateColorRamp(ramp.id, { tintBlendMode: value })
                           }
                         >
                           <SelectTrigger className="h-10">
                             <SelectValue placeholder="Select blend mode" />
                           </SelectTrigger>
-                          <SelectContent>
+                          <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
                             <SelectItem value="normal">Normal</SelectItem>
+                            <SelectItem value="darken">Darken</SelectItem>
                             <SelectItem value="multiply">Multiply</SelectItem>
+                            <SelectItem value="plus-darker">Plus Darker</SelectItem>
+                            <SelectItem value="color-burn">Color Burn</SelectItem>
+                            <SelectItem value="lighten">Lighten</SelectItem>
+                            <SelectItem value="screen">Screen</SelectItem>
+                            <SelectItem value="plus-lighter">Plus Lighter</SelectItem>
+                            <SelectItem value="color-dodge">Color Dodge</SelectItem>
                             <SelectItem value="overlay">Overlay</SelectItem>
+                            <SelectItem value="soft-light">Soft Light</SelectItem>
+                            <SelectItem value="hard-light">Hard Light</SelectItem>
+                            <SelectItem value="difference">Difference</SelectItem>
+                            <SelectItem value="exclusion">Exclusion</SelectItem>
+                            <SelectItem value="hue">Hue</SelectItem>
+                            <SelectItem value="saturation">Saturation</SelectItem>
+                            <SelectItem value="color">Color</SelectItem>
+                            <SelectItem value="luminosity">Luminosity</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
