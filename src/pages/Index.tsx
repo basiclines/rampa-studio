@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Plus, Download, Trash2, Copy, Settings } from 'lucide-react';
+import { Plus, Download, Trash2, Copy, Settings, Eye, EyeOff } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -93,6 +93,35 @@ const Index = () => {
     ));
   }, []);
 
+  const toggleAllAdvancedModes = useCallback(() => {
+    const hasAnyAdvanced = colorRamps.some(ramp => 
+      ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced
+    );
+    
+    const newAdvancedState = !hasAnyAdvanced;
+    
+    setColorRamps(prev => prev.map(ramp => ({
+      ...ramp,
+      lightnessAdvanced: newAdvancedState,
+      chromaAdvanced: newAdvancedState,
+      saturationAdvanced: newAdvancedState,
+      // Set default values when enabling
+      ...(newAdvancedState && {
+        lightnessStart: ramp.lightnessStart ?? 10,
+        lightnessEnd: ramp.lightnessEnd ?? 90,
+        chromaStart: ramp.chromaStart ?? -30,
+        chromaEnd: ramp.chromaEnd ?? 30,
+        saturationStart: ramp.saturationStart ?? 20,
+        saturationEnd: ramp.saturationEnd ?? 80,
+      })
+    })));
+    
+    toast({
+      title: newAdvancedState ? "Advanced Controls Shown" : "Advanced Controls Hidden",
+      description: `All start/end controls have been ${newAdvancedState ? 'enabled' : 'disabled'}.`,
+    });
+  }, [colorRamps, toast]);
+
   const handleExportSvg = useCallback(() => {
     try {
       const allColors = colorRamps.map(ramp => ({
@@ -116,6 +145,10 @@ const Index = () => {
     }
   }, [colorRamps, toast]);
 
+  const hasAnyAdvanced = colorRamps.some(ramp => 
+    ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced
+  );
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 p-4">
       <div className="max-w-7xl mx-auto space-y-8">
@@ -134,6 +167,10 @@ const Index = () => {
           <Button onClick={addColorRamp} className="gap-2">
             <Plus className="w-4 h-4" />
             Add Color Ramp
+          </Button>
+          <Button onClick={toggleAllAdvancedModes} variant="outline" className="gap-2">
+            {hasAnyAdvanced ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+            {hasAnyAdvanced ? 'Hide All' : 'Show All'}
           </Button>
           <Button onClick={handleExportSvg} variant="outline" className="gap-2">
             <Download className="w-4 h-4" />
