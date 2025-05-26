@@ -1,3 +1,4 @@
+
 import React, { useMemo, useState } from 'react';
 import { Lock } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
@@ -171,6 +172,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         className="relative isolate"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        style={{ zIndex: isHovered ? 1000 : 1 }}
       >
         {/* Color Ramp */}
         <div className="flex flex-col gap-1">
@@ -228,7 +230,8 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         {/* Floating Gradient Controls - Absolute positioning relative to parent */}
         {isHovered && (config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
           <div 
-            className="absolute left-full top-0 bottom-0 ml-4 flex gap-2 transition-all duration-200 animate-fade-in bg-white border border-gray-200 rounded-lg shadow-lg p-3 z-50"
+            className="absolute left-full top-0 bottom-0 ml-4 flex gap-2 transition-all duration-200 animate-fade-in bg-white border border-gray-200 rounded-lg shadow-lg p-3"
+            style={{ zIndex: 1001 }}
           >
             {config.lightnessAdvanced && (
               <GradientControl
