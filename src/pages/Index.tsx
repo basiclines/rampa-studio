@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react';
 import { Plus, Download, Trash2, Copy, Settings, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -6,6 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Separator } from '@/components/ui/separator';
 import ColorRamp from '@/components/ColorRamp';
 import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
 import { useToast } from '@/hooks/use-toast';
@@ -174,45 +176,44 @@ const Index = () => {
   }, [colorRamps, toast]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 p-4">
-      <div className="max-w-7xl mx-auto space-y-8">
-        {/* Header */}
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Color Palette Generator
-          </h1>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Create and edit multiple color ramps with precise control over lightness, hue shifts, and saturation
-          </p>
-        </div>
+    <div className="min-h-screen bg-[#F5F5F5] flex">
+      {/* Sidebar */}
+      <div className="w-80 bg-white border-r border-gray-200 overflow-y-auto">
+        <div className="p-6">
+          <div className="space-y-4 mb-6">
+            <h1 className="text-2xl font-bold text-gray-800">
+              Color Palette Generator
+            </h1>
+            <p className="text-gray-600 text-sm">
+              Create and edit multiple color ramps with precise control over lightness, hue shifts, and saturation
+            </p>
+          </div>
 
-        {/* Controls */}
-        <div className="flex flex-wrap gap-4 justify-center">
-          <Button onClick={addColorRamp} className="gap-2">
-            <Plus className="w-4 h-4" />
-            Add Color Ramp
-          </Button>
-          <Button onClick={handleExportSvg} variant="outline" className="gap-2">
-            <Download className="w-4 h-4" />
-            Export to Figma
-          </Button>
-        </div>
+          <div className="flex flex-col gap-3 mb-6">
+            <Button onClick={addColorRamp} className="gap-2 w-full">
+              <Plus className="w-4 h-4" />
+              Add Color Ramp
+            </Button>
+            <Button onClick={handleExportSvg} variant="outline" className="gap-2 w-full">
+              <Download className="w-4 h-4" />
+              Export to Figma
+            </Button>
+          </div>
 
-        {/* Layout with Controls and Color Ramps */}
-        <div className="grid lg:grid-cols-4 gap-8">
-          {/* Controls Panel */}
-          <div className="lg:col-span-1 space-y-6">
-            {colorRamps.map((ramp) => (
-              <Card key={ramp.id} className="shadow-lg border-0 bg-white/70 backdrop-blur-sm">
-                <CardHeader className="pb-4">
+          <Separator className="my-6" />
+
+          {/* Configuration Controls */}
+          <div className="space-y-8">
+            {colorRamps.map((ramp, index) => (
+              <div key={ramp.id}>
+                {index > 0 && <Separator className="mb-8" />}
+                <div className="space-y-6">
                   <div className="flex items-center justify-between">
-                    <CardTitle className="text-xl font-semibold text-gray-800">
-                      <Input
-                        value={ramp.name}
-                        onChange={(e) => updateColorRamp(ramp.id, { name: e.target.value })}
-                        className="border-none p-0 text-xl font-semibold bg-transparent focus-visible:ring-0"
-                      />
-                    </CardTitle>
+                    <Input
+                      value={ramp.name}
+                      onChange={(e) => updateColorRamp(ramp.id, { name: e.target.value })}
+                      className="border-none p-0 text-lg font-semibold bg-transparent focus-visible:ring-0 flex-1"
+                    />
                     <div className="flex gap-1">
                       <Button
                         variant="ghost"
@@ -234,8 +235,7 @@ const Index = () => {
                       )}
                     </div>
                   </div>
-                </CardHeader>
-                <CardContent className="space-y-6">
+
                   {/* Base Color and Steps */}
                   <div className="space-y-4">
                     <div className="space-y-2">
@@ -329,7 +329,7 @@ const Index = () => {
                       </div>
                     </div>
 
-                    {/* Blend Mode Selection - Now positioned right after tint opacity */}
+                    {/* Blend Mode Selection */}
                     {ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0 && (
                       <div className="space-y-2">
                         <Label>Blend Mode</Label>
@@ -646,31 +646,33 @@ const Index = () => {
                       )}
                     </div>
                   </div>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             ))}
           </div>
+        </div>
+      </div>
 
-          {/* Color Ramps Display */}
-          <div className="lg:col-span-3">
-            <Card className="shadow-lg border-0 bg-white/70 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="text-xl font-semibold text-gray-800">
-                  Color Ramps Comparison
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="flex gap-6 overflow-x-auto pb-4">
-                  {colorRamps.map((ramp) => (
-                    <ColorRamp 
-                      key={ramp.id}
-                      config={ramp} 
-                      onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
-                    />
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+      {/* Main Content */}
+      <div className="flex-1 p-8">
+        <div className="max-w-none">
+          <div className="mb-6">
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">
+              Color Ramps Preview
+            </h2>
+            <p className="text-gray-600">
+              Preview and compare your color ramps
+            </p>
+          </div>
+          
+          <div className="flex gap-6 overflow-x-auto pb-4">
+            {colorRamps.map((ramp) => (
+              <ColorRamp 
+                key={ramp.id}
+                config={ramp} 
+                onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
+              />
+            ))}
           </div>
         </div>
       </div>
