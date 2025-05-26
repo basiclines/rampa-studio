@@ -1,4 +1,3 @@
-
 import React, { useMemo, useState } from 'react';
 import { Lock } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
@@ -226,16 +225,10 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
           })}
         </div>
 
-        {/* Floating Gradient Controls - Fixed positioning to prevent layout shift */}
+        {/* Floating Gradient Controls - Absolute positioning relative to parent */}
         {isHovered && (config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
           <div 
-            className="fixed ml-4 flex gap-2 transition-all duration-200 animate-fade-in bg-white border border-gray-200 rounded-lg shadow-lg p-3 z-50"
-            style={{
-              left: 'calc(100% + 1rem)',
-              top: '0',
-              height: '100%',
-              minHeight: '400px'
-            }}
+            className="absolute left-full top-0 bottom-0 ml-4 flex gap-2 transition-all duration-200 animate-fade-in bg-white border border-gray-200 rounded-lg shadow-lg p-3 z-50"
           >
             {config.lightnessAdvanced && (
               <GradientControl
