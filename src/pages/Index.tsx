@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react';
 import { Plus, Download, Trash2, Copy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -215,7 +216,7 @@ const Index = () => {
                         value={[ramp.lightnessRange]}
                         onValueChange={([value]) => updateColorRamp(ramp.id, { lightnessRange: value })}
                         max={100}
-                        min={10}
+                        min={0}
                         step={0.5}
                         className="w-full"
                       />
@@ -239,7 +240,7 @@ const Index = () => {
                         value={[ramp.saturationRange]}
                         onValueChange={([value]) => updateColorRamp(ramp.id, { saturationRange: value })}
                         max={100}
-                        min={10}
+                        min={0}
                         step={0.5}
                         className="w-full"
                       />
