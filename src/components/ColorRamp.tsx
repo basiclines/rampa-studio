@@ -169,7 +169,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
       </div>
       
       <div 
-        className="relative"
+        className="relative isolate"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -226,9 +226,17 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
           })}
         </div>
 
-        {/* Floating Gradient Controls */}
+        {/* Floating Gradient Controls - Fixed positioning to prevent layout shift */}
         {isHovered && (config.lightnessAdvanced || config.chromaAdvanced || config.saturationAdvanced) && (
-          <div className="absolute left-full top-0 ml-4 flex gap-2 transition-all duration-200 animate-fade-in bg-white border border-gray-200 rounded-lg shadow-lg p-3 z-20">
+          <div 
+            className="fixed ml-4 flex gap-2 transition-all duration-200 animate-fade-in bg-white border border-gray-200 rounded-lg shadow-lg p-3 z-50"
+            style={{
+              left: 'calc(100% + 1rem)',
+              top: '0',
+              height: '100%',
+              minHeight: '400px'
+            }}
+          >
             {config.lightnessAdvanced && (
               <GradientControl
                 label="Lightness"
