@@ -329,7 +329,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                     const value = parseFloat(inputValue);
                     if (!isNaN(value) && value >= 0 && value <= 100) {
-                      onUpdate({ lightnessStart: value });
+                      const roundedValue = Math.round(value * 10) / 10;
+                      onUpdate({ lightnessStart: roundedValue });
                     }
                   }}
                   min={0}
@@ -351,7 +352,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                     const value = parseFloat(inputValue);
                     if (!isNaN(value) && value >= 0 && value <= 100) {
-                      onUpdate({ lightnessEnd: value });
+                      const roundedValue = Math.round(value * 10) / 10;
+                      onUpdate({ lightnessEnd: roundedValue });
                     }
                   }}
                   min={0}
@@ -365,10 +367,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
             <div className="flex gap-2 items-center">
               <Slider
                 value={[ramp.lightnessRange]}
-                onValueChange={([value]) => onUpdate({ lightnessRange: value })}
+                onValueChange={([value]) => {
+                  const roundedValue = Math.round(value * 10) / 10;
+                  onUpdate({ lightnessRange: roundedValue });
+                }}
                 max={100}
                 min={0}
-                step={0.5}
+                step={0.1}
                 className="flex-1"
               />
               <Input
@@ -376,11 +381,12 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 value={ramp.lightnessRange}
                 onChange={(e) => {
                   const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                  onUpdate({ lightnessRange: value });
+                  const roundedValue = Math.round(value * 10) / 10;
+                  onUpdate({ lightnessRange: roundedValue });
                 }}
                 min={0}
                 max={100}
-                step={0.5}
+                step={0.1}
                 className="w-16 text-center"
               />
             </div>
@@ -437,7 +443,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                     const value = parseFloat(inputValue);
                     if (!isNaN(value)) {
-                      onUpdate({ chromaStart: value });
+                      const roundedValue = Math.round(value * 10) / 10;
+                      onUpdate({ chromaStart: roundedValue });
                     }
                   }}
                   step={0.1}
@@ -457,7 +464,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                     const value = parseFloat(inputValue);
                     if (!isNaN(value)) {
-                      onUpdate({ chromaEnd: value });
+                      const roundedValue = Math.round(value * 10) / 10;
+                      onUpdate({ chromaEnd: roundedValue });
                     }
                   }}
                   step={0.1}
@@ -469,10 +477,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
             <div className="flex gap-2 items-center">
               <Slider
                 value={[ramp.chromaRange]}
-                onValueChange={([value]) => onUpdate({ chromaRange: value })}
+                onValueChange={([value]) => {
+                  const roundedValue = Math.round(value * 10) / 10;
+                  onUpdate({ chromaRange: roundedValue });
+                }}
                 max={180}
                 min={-180}
-                step={0.5}
+                step={0.1}
                 className="flex-1"
               />
               <Input
@@ -481,12 +492,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 onChange={(e) => {
                   const value = parseFloat(e.target.value);
                   if (!isNaN(value) && value >= -180 && value <= 180) {
-                    onUpdate({ chromaRange: value });
+                    const roundedValue = Math.round(value * 10) / 10;
+                    onUpdate({ chromaRange: roundedValue });
                   }
                 }}
                 min={-180}
                 max={180}
-                step={0.5}
+                step={0.1}
                 className="w-16 text-center"
               />
             </div>
@@ -543,7 +555,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                     const value = parseFloat(inputValue);
                     if (!isNaN(value)) {
-                      onUpdate({ saturationStart: value });
+                      const roundedValue = Math.round(value * 10) / 10;
+                      onUpdate({ saturationStart: roundedValue });
                     }
                   }}
                   step={0.1}
@@ -563,7 +576,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                     const value = parseFloat(inputValue);
                     if (!isNaN(value)) {
-                      onUpdate({ saturationEnd: value });
+                      const roundedValue = Math.round(value * 10) / 10;
+                      onUpdate({ saturationEnd: roundedValue });
                     }
                   }}
                   step={0.1}
@@ -575,10 +589,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
             <div className="flex gap-2 items-center">
               <Slider
                 value={[ramp.saturationRange]}
-                onValueChange={([value]) => onUpdate({ saturationRange: value })}
+                onValueChange={([value]) => {
+                  const roundedValue = Math.round(value * 10) / 10;
+                  onUpdate({ saturationRange: roundedValue });
+                }}
                 max={100}
                 min={0}
-                step={0.5}
+                step={0.1}
                 className="flex-1"
               />
               <Input
@@ -586,11 +603,12 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 value={ramp.saturationRange}
                 onChange={(e) => {
                   const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                  onUpdate({ saturationRange: value });
+                  const roundedValue = Math.round(value * 10) / 10;
+                  onUpdate({ saturationRange: roundedValue });
                 }}
                 min={0}
                 max={100}
-                step={0.5}
+                step={0.1}
                 className="w-16 text-center"
               />
             </div>
