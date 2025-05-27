@@ -49,21 +49,6 @@ const Index = () => {
       tintOpacity: 0,
       lockedColors: {},
     },
-    {
-      id: '2',
-      name: 'Secondary',
-      baseColor: '#10b981',
-      totalSteps: 10,
-      lightnessRange: 70,
-      lightnessAdvanced: false,
-      chromaRange: 15,
-      chromaAdvanced: false,
-      saturationRange: 30,
-      saturationAdvanced: false,
-      tintColor: '#000000',
-      tintOpacity: 0,
-      lockedColors: {},
-    },
   ]);
 
   const addColorRamp = useCallback(() => {
