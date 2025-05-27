@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Edit3, Copy, Trash2, RotateCcw, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -92,6 +91,45 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
     }
   };
 
+  // Calculate default advanced values based on current basic mode settings
+  const calculateAdvancedDefaults = (attribute: 'lightness' | 'hue' | 'saturation') => {
+    try {
+      const baseColor = chroma(ramp.baseColor);
+      const [h, s, l] = baseColor.hsl();
+      
+      switch (attribute) {
+        case 'lightness': {
+          const baseLightness = (l || 0.5) * 100;
+          const range = ramp.lightnessRange;
+          return {
+            start: Math.max(0, Math.min(100, baseLightness - range / 2)),
+            end: Math.max(0, Math.min(100, baseLightness + range / 2))
+          };
+        }
+        case 'hue': {
+          const range = ramp.chromaRange;
+          return {
+            start: -range / 2,
+            end: range / 2
+          };
+        }
+        case 'saturation': {
+          const baseSaturation = (s || 0.5) * 100;
+          const range = ramp.saturationRange;
+          return {
+            start: Math.max(0, Math.min(100, baseSaturation - range / 2)),
+            end: Math.max(0, Math.min(100, baseSaturation + range / 2))
+          };
+        }
+        default:
+          return { start: 0, end: 0 };
+      }
+    } catch (error) {
+      console.error('Error calculating advanced defaults:', error);
+      return { start: 0, end: 0 };
+    }
+  };
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
@@ -126,7 +164,6 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         </div>
       </div>
 
-      {/* Base Color and Steps */}
       <div className="space-y-4">
         <div className="space-y-2">
           <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
@@ -173,7 +210,6 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         </div>
       </div>
 
-      {/* Tint Color Controls */}
       <div className="space-y-4">
         <div className="space-y-2">
           <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
@@ -219,7 +255,6 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           </div>
         </div>
 
-        {/* Blend Mode Selection */}
         {ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0 && (
           <div className="space-y-2">
             <Label>Blend Mode</Label>
@@ -265,8 +300,10 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 onClick={() => {
                   const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
                   if (!ramp.lightnessAdvanced) {
-                    updates.lightnessStart = 10;
-                    updates.lightnessEnd = 90;
+                    // Only set defaults if not already set by user
+                    const defaults = calculateAdvancedDefaults('lightness');
+                    updates.lightnessStart = ramp.lightnessStart ?? defaults.start;
+                    updates.lightnessEnd = ramp.lightnessEnd ?? defaults.end;
                   }
                   onUpdate(updates);
                 }}
@@ -283,7 +320,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 <Label className="text-xs">Start (%)</Label>
                 <Input
                   type="number"
-                  value={ramp.lightnessStart ?? 10}
+                  value={ramp.lightnessStart ?? calculateAdvancedDefaults('lightness').start}
                   onChange={(e) => {
                     const inputValue = e.target.value;
                     if (inputValue === '') {
@@ -305,7 +342,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 <Label className="text-xs">End (%)</Label>
                 <Input
                   type="number"
-                  value={ramp.lightnessEnd ?? 90}
+                  value={ramp.lightnessEnd ?? calculateAdvancedDefaults('lightness').end}
                   onChange={(e) => {
                     const inputValue = e.target.value;
                     if (inputValue === '') {
@@ -371,8 +408,10 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 onClick={() => {
                   const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
                   if (!ramp.chromaAdvanced) {
-                    updates.chromaStart = -30;
-                    updates.chromaEnd = 30;
+                    // Only set defaults if not already set by user
+                    const defaults = calculateAdvancedDefaults('hue');
+                    updates.chromaStart = ramp.chromaStart ?? defaults.start;
+                    updates.chromaEnd = ramp.chromaEnd ?? defaults.end;
                   }
                   onUpdate(updates);
                 }}
@@ -389,7 +428,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 <Label className="text-xs">Start</Label>
                 <Input
                   type="number"
-                  value={ramp.chromaStart ?? -30}
+                  value={ramp.chromaStart ?? calculateAdvancedDefaults('hue').start}
                   onChange={(e) => {
                     const inputValue = e.target.value;
                     if (inputValue === '') {
@@ -409,7 +448,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 <Label className="text-xs">End</Label>
                 <Input
                   type="number"
-                  value={ramp.chromaEnd ?? 30}
+                  value={ramp.chromaEnd ?? calculateAdvancedDefaults('hue').end}
                   onChange={(e) => {
                     const inputValue = e.target.value;
                     if (inputValue === '') {
@@ -475,8 +514,10 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 onClick={() => {
                   const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
                   if (!ramp.saturationAdvanced) {
-                    updates.saturationStart = 20;
-                    updates.saturationEnd = 80;
+                    // Only set defaults if not already set by user
+                    const defaults = calculateAdvancedDefaults('saturation');
+                    updates.saturationStart = ramp.saturationStart ?? defaults.start;
+                    updates.saturationEnd = ramp.saturationEnd ?? defaults.end;
                   }
                   onUpdate(updates);
                 }}
@@ -493,7 +534,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 <Label className="text-xs">Start (%)</Label>
                 <Input
                   type="number"
-                  value={ramp.saturationStart ?? 20}
+                  value={ramp.saturationStart ?? calculateAdvancedDefaults('saturation').start}
                   onChange={(e) => {
                     const inputValue = e.target.value;
                     if (inputValue === '') {
@@ -513,7 +554,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 <Label className="text-xs">End (%)</Label>
                 <Input
                   type="number"
-                  value={ramp.saturationEnd ?? 80}
+                  value={ramp.saturationEnd ?? calculateAdvancedDefaults('saturation').end}
                   onChange={(e) => {
                     const inputValue = e.target.value;
                     if (inputValue === '') {
