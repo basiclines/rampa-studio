@@ -119,13 +119,13 @@ const GradientControl: React.FC<GradientControlProps> = ({
         {/* Reference line (for base color value) */}
         {referencePosition !== null && (
           <div
-            className="absolute w-full border-t-2 border-white z-20"
+            className="absolute w-full z-20"
             style={{ 
               top: `${referencePosition}%`,
-              transform: 'translateY(-1px)',
+              transform: 'translateY(-2px)',
               backgroundColor: referenceColor,
-              height: '3px',
-              boxShadow: '0 0 0 1px white'
+              height: '4px',
+              border: '2px solid white'
             }}
           />
         )}
