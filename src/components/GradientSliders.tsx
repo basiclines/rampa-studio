@@ -110,18 +110,18 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
       const [h, , l] = baseColor.hsl();
       const colors: string[] = [];
       
-      // From completely desaturated base color to base color (saturation 0 to 100%)
+      // From completely desaturated base color to base color (saturation 0 to 100%) - INVERTED
       for (let i = 0; i <= 10; i++) {
-        const saturation = i / 10;
+        const saturation = (10 - i) / 10; // Invert the saturation values
         colors.push(chroma.hsl(h || 0, saturation, l || 0.5).hex());
       }
       return colors;
     } catch (error) {
       console.error('Error generating saturation gradient:', error);
-      // Fallback to grayscale to color
+      // Fallback to grayscale to color - INVERTED
       const colors: string[] = [];
       for (let i = 0; i <= 10; i++) {
-        const saturation = i / 10;
+        const saturation = (10 - i) / 10; // Invert the saturation values
         colors.push(chroma.hsl(0, saturation, 0.5).hex());
       }
       return colors;
