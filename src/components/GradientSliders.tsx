@@ -70,14 +70,29 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
     }
   };
 
-  // Generate fixed gradient scales for each attribute
+  // Generate gradient scales based on the base color
   const generateLightnessGradient = () => {
-    const colors: string[] = [];
-    for (let i = 0; i <= 10; i++) {
-      const lightness = i / 10;
-      colors.push(chroma.hsl(0, 0, lightness).hex());
+    try {
+      const baseColor = chroma(ramp.baseColor);
+      const [h, s] = baseColor.hsl();
+      const colors: string[] = [];
+      
+      // From base color to white (lightness 0 to 100%)
+      for (let i = 0; i <= 10; i++) {
+        const lightness = i / 10;
+        colors.push(chroma.hsl(h || 0, s || 0, lightness).hex());
+      }
+      return colors;
+    } catch (error) {
+      console.error('Error generating lightness gradient:', error);
+      // Fallback to grayscale
+      const colors: string[] = [];
+      for (let i = 0; i <= 10; i++) {
+        const lightness = i / 10;
+        colors.push(chroma.hsl(0, 0, lightness).hex());
+      }
+      return colors;
     }
-    return colors;
   };
 
   const generateHueGradient = () => {
@@ -90,12 +105,27 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
   };
 
   const generateSaturationGradient = () => {
-    const colors: string[] = [];
-    for (let i = 0; i <= 10; i++) {
-      const saturation = i / 10;
-      colors.push(chroma.hsl(0, saturation, 0.5).hex());
+    try {
+      const baseColor = chroma(ramp.baseColor);
+      const [h, , l] = baseColor.hsl();
+      const colors: string[] = [];
+      
+      // From completely desaturated base color to base color (saturation 0 to 100%)
+      for (let i = 0; i <= 10; i++) {
+        const saturation = i / 10;
+        colors.push(chroma.hsl(h || 0, saturation, l || 0.5).hex());
+      }
+      return colors;
+    } catch (error) {
+      console.error('Error generating saturation gradient:', error);
+      // Fallback to grayscale to color
+      const colors: string[] = [];
+      for (let i = 0; i <= 10; i++) {
+        const saturation = i / 10;
+        colors.push(chroma.hsl(0, saturation, 0.5).hex());
+      }
+      return colors;
     }
-    return colors;
   };
 
   const hasAdvancedMode = ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced;
