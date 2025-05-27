@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react';
 import { Plus, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -131,13 +132,6 @@ const Index = () => {
       <div className={`${sidebarWidth} bg-white border-r border-gray-200 transition-all duration-300`}>
         <ScrollArea className="h-screen">
           <div className="p-6">
-            <div className="flex flex-col gap-3 mb-6">
-              <Button onClick={addColorRamp} className="gap-2 w-full">
-                <Plus className="w-4 h-4" />
-                Add Color Ramp
-              </Button>
-            </div>
-
             {/* Configuration Controls */}
             <div className="space-y-8">
               {colorRamps.map((ramp, index) => (
@@ -169,7 +163,7 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="flex gap-6 overflow-x-auto pb-4">
+          <div className="flex gap-6 items-start overflow-x-auto pb-4">
             {colorRamps.map((ramp) => (
               <ColorRamp 
                 key={ramp.id}
@@ -177,6 +171,16 @@ const Index = () => {
                 onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
               />
             ))}
+            
+            {/* Add Color Ramp Button */}
+            <Button 
+              onClick={addColorRamp} 
+              variant="outline" 
+              size="icon"
+              className="w-12 h-12 rounded-full bg-white border-2 border-dashed border-gray-300 hover:border-gray-400 hover:bg-gray-50 flex-shrink-0"
+            >
+              <Plus className="w-5 h-5 text-gray-600" />
+            </Button>
           </div>
         </div>
       </div>
