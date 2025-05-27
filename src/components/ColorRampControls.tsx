@@ -102,23 +102,23 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           const baseLightness = (l || 0.5) * 100;
           const range = ramp.lightnessRange;
           return {
-            start: Math.max(0, Math.min(100, baseLightness - range / 2)),
-            end: Math.max(0, Math.min(100, baseLightness + range / 2))
+            start: Math.round((Math.max(0, Math.min(100, baseLightness - range / 2))) * 10) / 10,
+            end: Math.round((Math.max(0, Math.min(100, baseLightness + range / 2))) * 10) / 10
           };
         }
         case 'hue': {
           const range = ramp.chromaRange;
           return {
-            start: -range / 2,
-            end: range / 2
+            start: Math.round((-range / 2) * 10) / 10,
+            end: Math.round((range / 2) * 10) / 10
           };
         }
         case 'saturation': {
           const baseSaturation = (s || 0.5) * 100;
           const range = ramp.saturationRange;
           return {
-            start: Math.max(0, Math.min(100, baseSaturation - range / 2)),
-            end: Math.max(0, Math.min(100, baseSaturation + range / 2))
+            start: Math.round((Math.max(0, Math.min(100, baseSaturation - range / 2))) * 10) / 10,
+            end: Math.round((Math.max(0, Math.min(100, baseSaturation + range / 2))) * 10) / 10
           };
         }
         default:
