@@ -50,7 +50,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
     const rect = containerRef.current.getBoundingClientRect();
     const y = e.clientY - rect.top;
     const position = Math.max(0, Math.min(100, (y / rect.height) * 100));
-    const newValue = positionToValue(position); // Remove inversion - now top = min value
+    const newValue = positionToValue(position);
 
     if (isDragging === 'start') {
       onValuesChange(newValue, endValue);
@@ -74,24 +74,24 @@ const GradientControl: React.FC<GradientControlProps> = ({
     }
   }, [isDragging, handleMouseMove, handleMouseUp]);
 
-  const startPosition = valueToPosition(startValue); // Remove inversion
+  const startPosition = valueToPosition(startValue);
   const endPosition = valueToPosition(endValue);
   const referencePosition = referenceValue !== undefined ? valueToPosition(referenceValue) : null;
 
   // Create gradient background based on gradientColors or fallback to gray
   const gradientBackground = gradientColors && gradientColors.length > 0 
-    ? `linear-gradient(to bottom, ${gradientColors.join(', ')})` // Change to bottom direction
-    : 'linear-gradient(to bottom, #374151, #e5e7eb)'; // Change to bottom direction
+    ? `linear-gradient(to bottom, ${gradientColors.join(', ')})` 
+    : 'linear-gradient(to bottom, #374151, #e5e7eb)';
 
   return (
-    <div className={cn("space-y-2", className)}>
-      <div className="text-xs font-medium text-gray-700 text-center">{label}</div>
+    <div className={cn("flex flex-col h-full", className)}>
+      <div className="text-xs font-medium text-gray-700 text-center mb-2">{label}</div>
       <div 
         ref={containerRef}
-        className="relative w-8 rounded border border-gray-300 mx-auto cursor-pointer select-none"
+        className="relative w-8 rounded border border-gray-300 mx-auto cursor-pointer select-none flex-1"
         style={{ 
           background: gradientBackground,
-          height: 'calc(100% - 4rem)' // Account for label and value display
+          minHeight: '200px'
         }}
       >
         {/* Reference line (for base color value) */}
@@ -136,7 +136,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
       </div>
       
       {/* Value display */}
-      <div className="text-xs text-center space-y-1">
+      <div className="text-xs text-center space-y-1 mt-2">
         <div className="text-black">Start: {formatValue(startValue)}</div>
         <div className="text-gray-600">End: {formatValue(endValue)}</div>
       </div>

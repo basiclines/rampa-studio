@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { Plus, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -125,10 +124,18 @@ const Index = () => {
     }
   }, [colorRamps, toast]);
 
+  // Check if any ramp has advanced mode enabled
+  const hasAdvancedMode = colorRamps.some(ramp => 
+    ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced
+  );
+
+  // Calculate sidebar width based on advanced mode usage
+  const sidebarWidth = hasAdvancedMode ? 'w-[600px]' : 'w-80';
+
   return (
     <div className="min-h-screen bg-[#F5F5F5] flex">
       {/* Sidebar */}
-      <div className="w-80 bg-white border-r border-gray-200">
+      <div className={`${sidebarWidth} bg-white border-r border-gray-200 transition-all duration-300`}>
         <ScrollArea className="h-screen">
           <div className="p-6">
             <div className="space-y-4 mb-6">

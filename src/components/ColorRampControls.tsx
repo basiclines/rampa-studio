@@ -7,6 +7,8 @@ import { Slider } from '@/components/ui/slider';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import chroma from 'chroma-js';
 import { useToast } from '@/hooks/use-toast';
+import GradientControl from '@/components/GradientControl';
+import { generateColorRamp } from '@/lib/colorUtils';
 
 interface ColorRampConfig {
   id: string;
@@ -130,8 +132,25 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
     }
   };
 
+  // Generate gradient colors for the sliders
+  const generateGradientColors = () => {
+    try {
+      const colors = generateColorRamp(ramp);
+      return colors;
+    } catch (error) {
+      console.error('Error generating gradient colors:', error);
+      return [];
+    }
+  };
+
+  const gradientColors = generateGradientColors();
+
+  // Check if any advanced mode is enabled
+  const hasAdvancedMode = ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced;
+
   return (
     <div className="space-y-6">
+      {/* Header with name and actions */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 flex-1">
           <Edit3 className="w-4 h-4 text-gray-400" />
@@ -164,6 +183,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         </div>
       </div>
 
+      {/* Base color and steps */}
       <div className="space-y-4">
         <div className="space-y-2">
           <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
@@ -210,6 +230,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         </div>
       </div>
 
+      {/* Tint controls */}
       <div className="space-y-4">
         <div className="space-y-2">
           <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
@@ -277,343 +298,415 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         )}
       </div>
 
-      {/* Color Adjustment Controls */}
-      <div className="space-y-4">
-        {/* Lightness Controls */}
-        <div className="space-y-2">
-          <div className="flex items-center justify-between">
-            <Label>
-              {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${Math.round(ramp.lightnessRange * 10) / 10}%`}
-            </Label>
-            <div className="flex gap-1">
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => resetAttribute('lightness')}
-                className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-              >
-                <RotateCcw className="w-3 h-3" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => {
-                  const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
-                  if (!ramp.lightnessAdvanced) {
-                    // Only set defaults if not already set by user
-                    const defaults = calculateAdvancedDefaults('lightness');
-                    updates.lightnessStart = ramp.lightnessStart ?? defaults.start;
-                    updates.lightnessEnd = ramp.lightnessEnd ?? defaults.end;
-                  }
-                  onUpdate(updates);
-                }}
-                className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-              >
-                <Settings className="w-3 h-3" />
-              </Button>
+      {/* Color Adjustment Controls with integrated gradient sliders */}
+      <div className={`flex gap-4 ${hasAdvancedMode ? 'min-h-[300px]' : ''}`}>
+        {/* Main controls column */}
+        <div className="flex-1 space-y-4">
+          {/* Lightness Controls */}
+          <div className="space-y-2">
+            <div className="flex items-center justify-between">
+              <Label>
+                {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${Math.round(ramp.lightnessRange * 10) / 10}%`}
+              </Label>
+              <div className="flex gap-1">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => resetAttribute('lightness')}
+                  className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                >
+                  <RotateCcw className="w-3 h-3" />
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => {
+                    const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
+                    if (!ramp.lightnessAdvanced) {
+                      const defaults = calculateAdvancedDefaults('lightness');
+                      updates.lightnessStart = ramp.lightnessStart ?? defaults.start;
+                      updates.lightnessEnd = ramp.lightnessEnd ?? defaults.end;
+                    }
+                    onUpdate(updates);
+                  }}
+                  className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                >
+                  <Settings className="w-3 h-3" />
+                </Button>
+              </div>
             </div>
-          </div>
-          
-          {ramp.lightnessAdvanced ? (
-            <div className="grid grid-cols-2 gap-2">
-              <div>
-                <Label className="text-xs">Start (%)</Label>
+            
+            {ramp.lightnessAdvanced ? (
+              <div className="grid grid-cols-2 gap-2">
+                <div>
+                  <Label className="text-xs">Start (%)</Label>
+                  <Input
+                    type="number"
+                    value={ramp.lightnessStart ?? calculateAdvancedDefaults('lightness').start}
+                    onChange={(e) => {
+                      const inputValue = e.target.value;
+                      if (inputValue === '') {
+                        onUpdate({ lightnessStart: 0 });
+                        return;
+                      }
+                      const value = parseFloat(inputValue);
+                      if (!isNaN(value) && value >= 0 && value <= 100) {
+                        const roundedValue = Math.round(value * 10) / 10;
+                        onUpdate({ lightnessStart: roundedValue });
+                      }
+                    }}
+                    min={0}
+                    max={100}
+                    step={0.1}
+                    className="text-center text-xs"
+                  />
+                </div>
+                <div>
+                  <Label className="text-xs">End (%)</Label>
+                  <Input
+                    type="number"
+                    value={ramp.lightnessEnd ?? calculateAdvancedDefaults('lightness').end}
+                    onChange={(e) => {
+                      const inputValue = e.target.value;
+                      if (inputValue === '') {
+                        onUpdate({ lightnessEnd: 0 });
+                        return;
+                      }
+                      const value = parseFloat(inputValue);
+                      if (!isNaN(value) && value >= 0 && value <= 100) {
+                        const roundedValue = Math.round(value * 10) / 10;
+                        onUpdate({ lightnessEnd: roundedValue });
+                      }
+                    }}
+                    min={0}
+                    max={100}
+                    step={0.1}
+                    className="text-center text-xs"
+                  />
+                </div>
+              </div>
+            ) : (
+              <div className="flex gap-2 items-center">
+                <Slider
+                  value={[ramp.lightnessRange]}
+                  onValueChange={([value]) => {
+                    const roundedValue = Math.round(value * 10) / 10;
+                    onUpdate({ lightnessRange: roundedValue });
+                  }}
+                  max={100}
+                  min={0}
+                  step={1}
+                  className="flex-1"
+                />
                 <Input
                   type="number"
-                  value={ramp.lightnessStart ?? calculateAdvancedDefaults('lightness').start}
+                  value={Math.round(ramp.lightnessRange * 10) / 10}
                   onChange={(e) => {
-                    const inputValue = e.target.value;
-                    if (inputValue === '') {
-                      onUpdate({ lightnessStart: 0 });
-                      return;
-                    }
-                    const value = parseFloat(inputValue);
-                    if (!isNaN(value) && value >= 0 && value <= 100) {
-                      const roundedValue = Math.round(value * 10) / 10;
-                      onUpdate({ lightnessStart: roundedValue });
-                    }
+                    const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
+                    const roundedValue = Math.round(value * 10) / 10;
+                    onUpdate({ lightnessRange: roundedValue });
                   }}
                   min={0}
                   max={100}
                   step={0.1}
-                  className="text-center text-xs"
+                  className="w-16 text-center"
                 />
               </div>
-              <div>
-                <Label className="text-xs">End (%)</Label>
-                <Input
-                  type="number"
-                  value={ramp.lightnessEnd ?? calculateAdvancedDefaults('lightness').end}
-                  onChange={(e) => {
-                    const inputValue = e.target.value;
-                    if (inputValue === '') {
-                      onUpdate({ lightnessEnd: 0 });
-                      return;
-                    }
-                    const value = parseFloat(inputValue);
-                    if (!isNaN(value) && value >= 0 && value <= 100) {
-                      const roundedValue = Math.round(value * 10) / 10;
-                      onUpdate({ lightnessEnd: roundedValue });
-                    }
-                  }}
-                  min={0}
-                  max={100}
-                  step={0.1}
-                  className="text-center text-xs"
-                />
-              </div>
-            </div>
-          ) : (
-            <div className="flex gap-2 items-center">
-              <Slider
-                value={[ramp.lightnessRange]}
-                onValueChange={([value]) => {
-                  const roundedValue = Math.round(value * 10) / 10;
-                  onUpdate({ lightnessRange: roundedValue });
-                }}
-                max={100}
-                min={0}
-                step={1}
-                className="flex-1"
-              />
-              <Input
-                type="number"
-                value={Math.round(ramp.lightnessRange * 10) / 10}
-                onChange={(e) => {
-                  const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                  const roundedValue = Math.round(value * 10) / 10;
-                  onUpdate({ lightnessRange: roundedValue });
-                }}
-                min={0}
-                max={100}
-                step={0.1}
-                className="w-16 text-center"
-              />
-            </div>
-          )}
-        </div>
-        
-        {/* Hue Shift Controls */}
-        <div className="space-y-2">
-          <div className="flex items-center justify-between">
-            <Label>
-              {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${Math.round(ramp.chromaRange)}°`}
-            </Label>
-            <div className="flex gap-1">
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => resetAttribute('hue')}
-                className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-              >
-                <RotateCcw className="w-3 h-3" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => {
-                  const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
-                  if (!ramp.chromaAdvanced) {
-                    // Only set defaults if not already set by user
-                    const defaults = calculateAdvancedDefaults('hue');
-                    updates.chromaStart = ramp.chromaStart ?? defaults.start;
-                    updates.chromaEnd = ramp.chromaEnd ?? defaults.end;
-                  }
-                  onUpdate(updates);
-                }}
-                className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-              >
-                <Settings className="w-3 h-3" />
-              </Button>
-            </div>
+            )}
           </div>
           
-          {ramp.chromaAdvanced ? (
-            <div className="grid grid-cols-2 gap-2">
-              <div>
-                <Label className="text-xs">Start</Label>
-                <Input
-                  type="number"
-                  value={ramp.chromaStart ?? calculateAdvancedDefaults('hue').start}
-                  onChange={(e) => {
-                    const inputValue = e.target.value;
-                    if (inputValue === '') {
-                      onUpdate({ chromaStart: 0 });
-                      return;
+          {/* Hue Shift Controls */}
+          <div className="space-y-2">
+            <div className="flex items-center justify-between">
+              <Label>
+                {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${Math.round(ramp.chromaRange)}°`}
+              </Label>
+              <div className="flex gap-1">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => resetAttribute('hue')}
+                  className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                >
+                  <RotateCcw className="w-3 h-3" />
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => {
+                    const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
+                    if (!ramp.chromaAdvanced) {
+                      const defaults = calculateAdvancedDefaults('hue');
+                      updates.chromaStart = ramp.chromaStart ?? defaults.start;
+                      updates.chromaEnd = ramp.chromaEnd ?? defaults.end;
                     }
-                    const value = parseFloat(inputValue);
-                    if (!isNaN(value)) {
-                      const roundedValue = Math.round(value);
-                      onUpdate({ chromaStart: roundedValue });
-                    }
+                    onUpdate(updates);
                   }}
-                  step={1}
-                  className="text-center text-xs"
-                />
-              </div>
-              <div>
-                <Label className="text-xs">End</Label>
-                <Input
-                  type="number"
-                  value={ramp.chromaEnd ?? calculateAdvancedDefaults('hue').end}
-                  onChange={(e) => {
-                    const inputValue = e.target.value;
-                    if (inputValue === '') {
-                      onUpdate({ chromaEnd: 0 });
-                      return;
-                    }
-                    const value = parseFloat(inputValue);
-                    if (!isNaN(value)) {
-                      const roundedValue = Math.round(value);
-                      onUpdate({ chromaEnd: roundedValue });
-                    }
-                  }}
-                  step={1}
-                  className="text-center text-xs"
-                />
+                  className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                >
+                  <Settings className="w-3 h-3" />
+                </Button>
               </div>
             </div>
-          ) : (
-            <div className="flex gap-2 items-center">
-              <Slider
-                value={[ramp.chromaRange]}
-                onValueChange={([value]) => {
-                  const roundedValue = Math.round(value);
-                  onUpdate({ chromaRange: roundedValue });
-                }}
-                max={180}
-                min={-180}
-                step={1}
-                className="flex-1"
-              />
-              <Input
-                type="number"
-                value={Math.round(ramp.chromaRange)}
-                onChange={(e) => {
-                  const value = parseFloat(e.target.value);
-                  if (!isNaN(value) && value >= -180 && value <= 180) {
+            
+            {ramp.chromaAdvanced ? (
+              <div className="grid grid-cols-2 gap-2">
+                <div>
+                  <Label className="text-xs">Start</Label>
+                  <Input
+                    type="number"
+                    value={ramp.chromaStart ?? calculateAdvancedDefaults('hue').start}
+                    onChange={(e) => {
+                      const inputValue = e.target.value;
+                      if (inputValue === '') {
+                        onUpdate({ chromaStart: 0 });
+                        return;
+                      }
+                      const value = parseFloat(inputValue);
+                      if (!isNaN(value)) {
+                        const roundedValue = Math.round(value);
+                        onUpdate({ chromaStart: roundedValue });
+                      }
+                    }}
+                    step={1}
+                    className="text-center text-xs"
+                  />
+                </div>
+                <div>
+                  <Label className="text-xs">End</Label>
+                  <Input
+                    type="number"
+                    value={ramp.chromaEnd ?? calculateAdvancedDefaults('hue').end}
+                    onChange={(e) => {
+                      const inputValue = e.target.value;
+                      if (inputValue === '') {
+                        onUpdate({ chromaEnd: 0 });
+                        return;
+                      }
+                      const value = parseFloat(inputValue);
+                      if (!isNaN(value)) {
+                        const roundedValue = Math.round(value);
+                        onUpdate({ chromaEnd: roundedValue });
+                      }
+                    }}
+                    step={1}
+                    className="text-center text-xs"
+                  />
+                </div>
+              </div>
+            ) : (
+              <div className="flex gap-2 items-center">
+                <Slider
+                  value={[ramp.chromaRange]}
+                  onValueChange={([value]) => {
                     const roundedValue = Math.round(value);
                     onUpdate({ chromaRange: roundedValue });
-                  }
-                }}
-                min={-180}
-                max={180}
-                step={1}
-                className="w-16 text-center"
-              />
-            </div>
-          )}
-        </div>
-        
-        {/* Saturation Controls */}
-        <div className="space-y-2">
-          <div className="flex items-center justify-between">
-            <Label>
-              {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${Math.round(ramp.saturationRange * 10) / 10}%`}
-            </Label>
-            <div className="flex gap-1">
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => resetAttribute('saturation')}
-                className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-              >
-                <RotateCcw className="w-3 h-3" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => {
-                  const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
-                  if (!ramp.saturationAdvanced) {
-                    // Only set defaults if not already set by user
-                    const defaults = calculateAdvancedDefaults('saturation');
-                    updates.saturationStart = ramp.saturationStart ?? defaults.start;
-                    updates.saturationEnd = ramp.saturationEnd ?? defaults.end;
-                  }
-                  onUpdate(updates);
-                }}
-                className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-              >
-                <Settings className="w-3 h-3" />
-              </Button>
-            </div>
+                  }}
+                  max={180}
+                  min={-180}
+                  step={1}
+                  className="flex-1"
+                />
+                <Input
+                  type="number"
+                  value={Math.round(ramp.chromaRange)}
+                  onChange={(e) => {
+                    const value = parseFloat(e.target.value);
+                    if (!isNaN(value) && value >= -180 && value <= 180) {
+                      const roundedValue = Math.round(value);
+                      onUpdate({ chromaRange: roundedValue });
+                    }
+                  }}
+                  min={-180}
+                  max={180}
+                  step={1}
+                  className="w-16 text-center"
+                />
+              </div>
+            )}
           </div>
           
-          {ramp.saturationAdvanced ? (
-            <div className="grid grid-cols-2 gap-2">
-              <div>
-                <Label className="text-xs">Start (%)</Label>
-                <Input
-                  type="number"
-                  value={ramp.saturationStart ?? calculateAdvancedDefaults('saturation').start}
-                  onChange={(e) => {
-                    const inputValue = e.target.value;
-                    if (inputValue === '') {
-                      onUpdate({ saturationStart: 0 });
-                      return;
+          {/* Saturation Controls */}
+          <div className="space-y-2">
+            <div className="flex items-center justify-between">
+              <Label>
+                {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${Math.round(ramp.saturationRange * 10) / 10}%`}
+              </Label>
+              <div className="flex gap-1">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => resetAttribute('saturation')}
+                  className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                >
+                  <RotateCcw className="w-3 h-3" />
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => {
+                    const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
+                    if (!ramp.saturationAdvanced) {
+                      const defaults = calculateAdvancedDefaults('saturation');
+                      updates.saturationStart = ramp.saturationStart ?? defaults.start;
+                      updates.saturationEnd = ramp.saturationEnd ?? defaults.end;
                     }
-                    const value = parseFloat(inputValue);
-                    if (!isNaN(value)) {
-                      const roundedValue = Math.round(value * 10) / 10;
-                      onUpdate({ saturationStart: roundedValue });
-                    }
+                    onUpdate(updates);
                   }}
-                  step={0.1}
-                  className="text-center text-xs"
-                />
-              </div>
-              <div>
-                <Label className="text-xs">End (%)</Label>
-                <Input
-                  type="number"
-                  value={ramp.saturationEnd ?? calculateAdvancedDefaults('saturation').end}
-                  onChange={(e) => {
-                    const inputValue = e.target.value;
-                    if (inputValue === '') {
-                      onUpdate({ saturationEnd: 0 });
-                      return;
-                    }
-                    const value = parseFloat(inputValue);
-                    if (!isNaN(value)) {
-                      const roundedValue = Math.round(value * 10) / 10;
-                      onUpdate({ saturationEnd: roundedValue });
-                    }
-                  }}
-                  step={0.1}
-                  className="text-center text-xs"
-                />
+                  className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
+                >
+                  <Settings className="w-3 h-3" />
+                </Button>
               </div>
             </div>
-          ) : (
-            <div className="flex gap-2 items-center">
-              <Slider
-                value={[ramp.saturationRange]}
-                onValueChange={([value]) => {
-                  const roundedValue = Math.round(value * 10) / 10;
-                  onUpdate({ saturationRange: roundedValue });
-                }}
-                max={100}
-                min={0}
-                step={1}
-                className="flex-1"
-              />
-              <Input
-                type="number"
-                value={Math.round(ramp.saturationRange * 10) / 10}
-                onChange={(e) => {
-                  const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                  const roundedValue = Math.round(value * 10) / 10;
-                  onUpdate({ saturationRange: roundedValue });
-                }}
-                min={0}
-                max={100}
-                step={0.1}
-                className="w-16 text-center"
-              />
-            </div>
-          )}
+            
+            {ramp.saturationAdvanced ? (
+              <div className="grid grid-cols-2 gap-2">
+                <div>
+                  <Label className="text-xs">Start (%)</Label>
+                  <Input
+                    type="number"
+                    value={ramp.saturationStart ?? calculateAdvancedDefaults('saturation').start}
+                    onChange={(e) => {
+                      const inputValue = e.target.value;
+                      if (inputValue === '') {
+                        onUpdate({ saturationStart: 0 });
+                        return;
+                      }
+                      const value = parseFloat(inputValue);
+                      if (!isNaN(value)) {
+                        const roundedValue = Math.round(value * 10) / 10;
+                        onUpdate({ saturationStart: roundedValue });
+                      }
+                    }}
+                    step={0.1}
+                    className="text-center text-xs"
+                  />
+                </div>
+                <div>
+                  <Label className="text-xs">End (%)</Label>
+                  <Input
+                    type="number"
+                    value={ramp.saturationEnd ?? calculateAdvancedDefaults('saturation').end}
+                    onChange={(e) => {
+                      const inputValue = e.target.value;
+                      if (inputValue === '') {
+                        onUpdate({ saturationEnd: 0 });
+                        return;
+                      }
+                      const value = parseFloat(inputValue);
+                      if (!isNaN(value)) {
+                        const roundedValue = Math.round(value * 10) / 10;
+                        onUpdate({ saturationEnd: roundedValue });
+                      }
+                    }}
+                    step={0.1}
+                    className="text-center text-xs"
+                  />
+                </div>
+              </div>
+            ) : (
+              <div className="flex gap-2 items-center">
+                <Slider
+                  value={[ramp.saturationRange]}
+                  onValueChange={([value]) => {
+                    const roundedValue = Math.round(value * 10) / 10;
+                    onUpdate({ saturationRange: roundedValue });
+                  }}
+                  max={100}
+                  min={0}
+                  step={1}
+                  className="flex-1"
+                />
+                <Input
+                  type="number"
+                  value={Math.round(ramp.saturationRange * 10) / 10}
+                  onChange={(e) => {
+                    const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
+                    const roundedValue = Math.round(value * 10) / 10;
+                    onUpdate({ saturationRange: roundedValue });
+                  }}
+                  min={0}
+                  max={100}
+                  step={0.1}
+                  className="w-16 text-center"
+                />
+              </div>
+            )}
+          </div>
         </div>
+
+        {/* Gradient sliders column - only show when advanced mode is enabled */}
+        {hasAdvancedMode && (
+          <div className="flex gap-2 h-full min-h-[280px]">
+            {ramp.lightnessAdvanced && (
+              <div className="flex flex-col h-full">
+                <GradientControl
+                  label="Lightness"
+                  startValue={ramp.lightnessStart ?? calculateAdvancedDefaults('lightness').start}
+                  endValue={ramp.lightnessEnd ?? calculateAdvancedDefaults('lightness').end}
+                  min={0}
+                  max={100}
+                  onValuesChange={(start, end) => onUpdate({ lightnessStart: start, lightnessEnd: end })}
+                  formatValue={(v) => `${Math.round(v * 10) / 10}%`}
+                  gradientColors={gradientColors}
+                  referenceValue={(() => {
+                    try {
+                      const baseColor = chroma(ramp.baseColor);
+                      const [, , l] = baseColor.hsl();
+                      return (l || 0.5) * 100;
+                    } catch {
+                      return 50;
+                    }
+                  })()}
+                  className="h-full flex-1"
+                />
+              </div>
+            )}
+            
+            {ramp.chromaAdvanced && (
+              <div className="flex flex-col h-full">
+                <GradientControl
+                  label="Hue"
+                  startValue={ramp.chromaStart ?? calculateAdvancedDefaults('hue').start}
+                  endValue={ramp.chromaEnd ?? calculateAdvancedDefaults('hue').end}
+                  min={-180}
+                  max={180}
+                  onValuesChange={(start, end) => onUpdate({ chromaStart: start, chromaEnd: end })}
+                  formatValue={(v) => `${Math.round(v)}°`}
+                  gradientColors={gradientColors}
+                  referenceValue={0}
+                  className="h-full flex-1"
+                />
+              </div>
+            )}
+            
+            {ramp.saturationAdvanced && (
+              <div className="flex flex-col h-full">
+                <GradientControl
+                  label="Saturation"
+                  startValue={ramp.saturationStart ?? calculateAdvancedDefaults('saturation').start}
+                  endValue={ramp.saturationEnd ?? calculateAdvancedDefaults('saturation').end}
+                  min={0}
+                  max={100}
+                  onValuesChange={(start, end) => onUpdate({ saturationStart: start, saturationEnd: end })}
+                  formatValue={(v) => `${Math.round(v * 10) / 10}%`}
+                  gradientColors={gradientColors}
+                  referenceValue={(() => {
+                    try {
+                      const baseColor = chroma(ramp.baseColor);
+                      const [, s] = baseColor.hsl();
+                      return (s || 0.5) * 100;
+                    } catch {
+                      return 50;
+                    }
+                  })()}
+                  className="h-full flex-1"
+                />
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
