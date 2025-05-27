@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react';
 import { Plus, Download, Trash2, Copy, Settings, RotateCcw, Edit3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -400,9 +401,12 @@ const Index = () => {
                                 value={ramp.lightnessStart ?? 10}
                                 onChange={(e) => {
                                   const inputValue = e.target.value;
-                                  if (inputValue === '') return;
-                                  const value = Math.max(0, Math.min(100, parseFloat(inputValue)));
-                                  if (!isNaN(value)) {
+                                  if (inputValue === '') {
+                                    updateColorRamp(ramp.id, { lightnessStart: 0 });
+                                    return;
+                                  }
+                                  const value = parseFloat(inputValue);
+                                  if (!isNaN(value) && value >= 0 && value <= 100) {
                                     updateColorRamp(ramp.id, { lightnessStart: value });
                                   }
                                 }}
@@ -419,9 +423,12 @@ const Index = () => {
                                 value={ramp.lightnessEnd ?? 90}
                                 onChange={(e) => {
                                   const inputValue = e.target.value;
-                                  if (inputValue === '') return;
-                                  const value = Math.max(0, Math.min(100, parseFloat(inputValue)));
-                                  if (!isNaN(value)) {
+                                  if (inputValue === '') {
+                                    updateColorRamp(ramp.id, { lightnessEnd: 0 });
+                                    return;
+                                  }
+                                  const value = parseFloat(inputValue);
+                                  if (!isNaN(value) && value >= 0 && value <= 100) {
                                     updateColorRamp(ramp.id, { lightnessEnd: value });
                                   }
                                 }}
@@ -500,7 +507,10 @@ const Index = () => {
                                 value={ramp.chromaStart ?? -30}
                                 onChange={(e) => {
                                   const inputValue = e.target.value;
-                                  if (inputValue === '') return;
+                                  if (inputValue === '') {
+                                    updateColorRamp(ramp.id, { chromaStart: 0 });
+                                    return;
+                                  }
                                   const value = parseFloat(inputValue);
                                   if (!isNaN(value)) {
                                     updateColorRamp(ramp.id, { chromaStart: value });
@@ -517,7 +527,10 @@ const Index = () => {
                                 value={ramp.chromaEnd ?? 30}
                                 onChange={(e) => {
                                   const inputValue = e.target.value;
-                                  if (inputValue === '') return;
+                                  if (inputValue === '') {
+                                    updateColorRamp(ramp.id, { chromaEnd: 0 });
+                                    return;
+                                  }
                                   const value = parseFloat(inputValue);
                                   if (!isNaN(value)) {
                                     updateColorRamp(ramp.id, { chromaEnd: value });
@@ -572,7 +585,7 @@ const Index = () => {
                               <RotateCcw className="w-3 h-3" />
                             </Button>
                             <Button
-                              variant="ghost",
+                              variant="ghost"
                               size="sm"
                               onClick={() => {
                                 const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
@@ -598,7 +611,10 @@ const Index = () => {
                                 value={ramp.saturationStart ?? 20}
                                 onChange={(e) => {
                                   const inputValue = e.target.value;
-                                  if (inputValue === '') return;
+                                  if (inputValue === '') {
+                                    updateColorRamp(ramp.id, { saturationStart: 0 });
+                                    return;
+                                  }
                                   const value = parseFloat(inputValue);
                                   if (!isNaN(value)) {
                                     updateColorRamp(ramp.id, { saturationStart: value });
@@ -615,7 +631,10 @@ const Index = () => {
                                 value={ramp.saturationEnd ?? 80}
                                 onChange={(e) => {
                                   const inputValue = e.target.value;
-                                  if (inputValue === '') return;
+                                  if (inputValue === '') {
+                                    updateColorRamp(ramp.id, { saturationEnd: 0 });
+                                    return;
+                                  }
                                   const value = parseFloat(inputValue);
                                   if (!isNaN(value)) {
                                     updateColorRamp(ramp.id, { saturationEnd: value });
