@@ -245,12 +245,14 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
         newHue = (baseHue + hueAdjustment) % 360;
       }
       
-      // Calculate saturation
+      // Calculate saturation - INVERTED logic
       if (config.saturationAdvanced && config.saturationStart !== undefined && config.saturationEnd !== undefined) {
         // Convert percentage values to 0-1 range
         const startSaturation = config.saturationStart / 100;
         const endSaturation = config.saturationEnd / 100;
-        newSaturation = startSaturation + (endSaturation - startSaturation) * position;
+        // Invert the position so bottom of ramp (position 0) gets lower saturation
+        const invertedPosition = 1 - position;
+        newSaturation = startSaturation + (endSaturation - startSaturation) * invertedPosition;
       } else {
         const saturationStep = (config.saturationRange / 100) / (config.totalSteps - 1);
         const positionFromMiddle = i - middleIndex;
