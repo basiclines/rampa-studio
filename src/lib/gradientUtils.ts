@@ -1,6 +1,10 @@
 
 import chroma from 'chroma-js';
 
+const roundToOneDecimal = (value: number): number => {
+  return Math.round(value * 10) / 10;
+};
+
 export const generateLightnessGradient = (baseColor: string): string[] => {
   try {
     const color = chroma(baseColor);
@@ -86,21 +90,21 @@ export const calculateAdvancedDefaults = (
       case 'lightness': {
         const baseLightness = (l || 0.5) * 100;
         return {
-          start: Math.round((Math.max(0, Math.min(100, baseLightness - range / 2))) * 10) / 10,
-          end: Math.round((Math.max(0, Math.min(100, baseLightness + range / 2))) * 10) / 10
+          start: roundToOneDecimal(Math.max(0, Math.min(100, baseLightness - range / 2))),
+          end: roundToOneDecimal(Math.max(0, Math.min(100, baseLightness + range / 2)))
         };
       }
       case 'hue': {
         return {
-          start: Math.round((-range / 2) * 10) / 10,
-          end: Math.round((range / 2) * 10) / 10
+          start: roundToOneDecimal(-range / 2),
+          end: roundToOneDecimal(range / 2)
         };
       }
       case 'saturation': {
         const baseSaturation = (s || 0.5) * 100;
         return {
-          start: Math.round((Math.max(0, Math.min(100, baseSaturation - range / 2))) * 10) / 10,
-          end: Math.round((Math.max(0, Math.min(100, baseSaturation + range / 2))) * 10) / 10
+          start: roundToOneDecimal(Math.max(0, Math.min(100, baseSaturation - range / 2))),
+          end: roundToOneDecimal(Math.max(0, Math.min(100, baseSaturation + range / 2)))
         };
       }
       default:

@@ -16,6 +16,10 @@ interface SaturationSliderProps {
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
 }
 
+const roundToOneDecimal = (value: number): number => {
+  return Math.round(value * 10) / 10;
+};
+
 const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'saturation', ramp.saturationRange);
   
@@ -23,7 +27,7 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) =
     try {
       const baseColor = chroma(ramp.baseColor);
       const [, s] = baseColor.hsl();
-      return (s || 0.5) * 100;
+      return roundToOneDecimal((s || 0.5) * 100);
     } catch {
       return 50;
     }
@@ -33,12 +37,15 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) =
     <div className="flex flex-col h-full">
       <GradientControl
         label="Saturation"
-        startValue={ramp.saturationStart ?? defaults.start}
-        endValue={ramp.saturationEnd ?? defaults.end}
+        startValue={roundToOneDecimal(ramp.saturationStart ?? defaults.start)}
+        endValue={roundToOneDecimal(ramp.saturationEnd ?? defaults.end)}
         min={0}
         max={100}
-        onValuesChange={(start, end) => onUpdate({ saturationStart: start, saturationEnd: end })}
-        formatValue={(v) => `${Math.round(v * 10) / 10}%`}
+        onValuesChange={(start, end) => onUpdate({ 
+          saturationStart: roundToOneDecimal(start), 
+          saturationEnd: roundToOneDecimal(end) 
+        })}
+        formatValue={(v) => `${roundToOneDecimal(v)}%`}
         gradientColors={generateSaturationGradient(ramp.baseColor)}
         referenceValue={getReferenceValue()}
         referenceColor={ramp.baseColor}

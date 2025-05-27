@@ -17,6 +17,10 @@ interface GradientControlProps {
   invertValues?: boolean; // New prop to invert the value mapping
 }
 
+const roundToOneDecimal = (value: number): number => {
+  return Math.round(value * 10) / 10;
+};
+
 const GradientControl: React.FC<GradientControlProps> = ({
   label,
   startValue,
@@ -46,10 +50,10 @@ const GradientControl: React.FC<GradientControlProps> = ({
     if (invertValues) {
       // For inverted sliders, map position in reverse
       const value = max - (position / 100) * (max - min);
-      return Math.max(min, Math.min(max, value));
+      return roundToOneDecimal(Math.max(min, Math.min(max, value)));
     }
     const value = min + (position / 100) * (max - min);
-    return Math.max(min, Math.min(max, value));
+    return roundToOneDecimal(Math.max(min, Math.min(max, value)));
   }, [min, max, invertValues]);
 
   const handleMouseDown = (type: 'start' | 'end') => (e: React.MouseEvent) => {
@@ -163,8 +167,8 @@ const GradientControl: React.FC<GradientControlProps> = ({
       
       {/* Value display */}
       <div className="text-xs text-center space-y-1 mt-2">
-        <div className="text-black">Start: {formatValue(startValue)}</div>
-        <div className="text-gray-600">End: {formatValue(endValue)}</div>
+        <div className="text-black">Start: {formatValue(roundToOneDecimal(startValue))}</div>
+        <div className="text-gray-600">End: {formatValue(roundToOneDecimal(endValue))}</div>
       </div>
     </div>
   );

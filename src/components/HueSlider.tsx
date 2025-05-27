@@ -16,6 +16,10 @@ interface HueSliderProps {
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
 }
 
+const roundToOneDecimal = (value: number): number => {
+  return Math.round(value * 10) / 10;
+};
+
 const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'hue', ramp.chromaRange);
   
@@ -25,7 +29,7 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
       const [h] = baseColor.hsl();
       const baseHue = h || 0;
       // Map the 0-360 hue to the gradient position (0-360 scale)
-      return baseHue;
+      return roundToOneDecimal(baseHue);
     } catch {
       return 0;
     }
@@ -35,12 +39,15 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
     <div className="flex flex-col h-full">
       <GradientControl
         label="Hue"
-        startValue={ramp.chromaStart ?? defaults.start}
-        endValue={ramp.chromaEnd ?? defaults.end}
+        startValue={roundToOneDecimal(ramp.chromaStart ?? defaults.start)}
+        endValue={roundToOneDecimal(ramp.chromaEnd ?? defaults.end)}
         min={-180}
         max={180}
-        onValuesChange={(start, end) => onUpdate({ chromaStart: start, chromaEnd: end })}
-        formatValue={(v) => `${Math.round(v)}°`}
+        onValuesChange={(start, end) => onUpdate({ 
+          chromaStart: roundToOneDecimal(start), 
+          chromaEnd: roundToOneDecimal(end) 
+        })}
+        formatValue={(v) => `${roundToOneDecimal(v)}°`}
         gradientColors={generateHueGradient(ramp.baseColor)}
         referenceValue={getReferenceValue()}
         referenceColor={ramp.baseColor}

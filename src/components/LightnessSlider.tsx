@@ -16,6 +16,10 @@ interface LightnessSliderProps {
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
 }
 
+const roundToOneDecimal = (value: number): number => {
+  return Math.round(value * 10) / 10;
+};
+
 const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'lightness', ramp.lightnessRange);
   
@@ -23,7 +27,7 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => 
     try {
       const baseColor = chroma(ramp.baseColor);
       const [, , l] = baseColor.hsl();
-      return (l || 0.5) * 100;
+      return roundToOneDecimal((l || 0.5) * 100);
     } catch {
       return 50;
     }
@@ -33,12 +37,15 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => 
     <div className="flex flex-col h-full">
       <GradientControl
         label="Lightness"
-        startValue={ramp.lightnessStart ?? defaults.start}
-        endValue={ramp.lightnessEnd ?? defaults.end}
+        startValue={roundToOneDecimal(ramp.lightnessStart ?? defaults.start)}
+        endValue={roundToOneDecimal(ramp.lightnessEnd ?? defaults.end)}
         min={0}
         max={100}
-        onValuesChange={(start, end) => onUpdate({ lightnessStart: start, lightnessEnd: end })}
-        formatValue={(v) => `${Math.round(v * 10) / 10}%`}
+        onValuesChange={(start, end) => onUpdate({ 
+          lightnessStart: roundToOneDecimal(start), 
+          lightnessEnd: roundToOneDecimal(end) 
+        })}
+        formatValue={(v) => `${roundToOneDecimal(v)}%`}
         gradientColors={generateLightnessGradient(ramp.baseColor)}
         referenceValue={getReferenceValue()}
         referenceColor={ramp.baseColor}
