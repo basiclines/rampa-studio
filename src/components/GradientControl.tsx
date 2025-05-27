@@ -94,10 +94,10 @@ const GradientControl: React.FC<GradientControlProps> = ({
           height: 'calc(100% - 4rem)' // Account for label and value display
         }}
       >
-        {/* Reference line (for base color hue) */}
+        {/* Reference line (for base color value) */}
         {referencePosition !== null && (
           <div
-            className="absolute w-full border-t-2 border-red-500 z-20"
+            className="absolute w-full border-t-2 border-orange-500 z-20"
             style={{ 
               top: `${referencePosition}%`,
               transform: 'translateY(-1px)'
