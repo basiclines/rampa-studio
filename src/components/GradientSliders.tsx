@@ -2,7 +2,6 @@
 import React from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
-import { generateColorRamp } from '@/lib/colorUtils';
 
 interface ColorRampConfig {
   id: string;
@@ -71,17 +70,34 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
     }
   };
 
-  const generateGradientColors = () => {
-    try {
-      const colors = generateColorRamp(ramp);
-      return colors;
-    } catch (error) {
-      console.error('Error generating gradient colors:', error);
-      return [];
+  // Generate fixed gradient scales for each attribute
+  const generateLightnessGradient = () => {
+    const colors: string[] = [];
+    for (let i = 0; i <= 10; i++) {
+      const lightness = i / 10;
+      colors.push(chroma.hsl(0, 0, lightness).hex());
     }
+    return colors;
   };
 
-  const gradientColors = generateGradientColors();
+  const generateHueGradient = () => {
+    const colors: string[] = [];
+    for (let i = 0; i <= 10; i++) {
+      const hue = (i / 10) * 360;
+      colors.push(chroma.hsl(hue, 1, 0.5).hex());
+    }
+    return colors;
+  };
+
+  const generateSaturationGradient = () => {
+    const colors: string[] = [];
+    for (let i = 0; i <= 10; i++) {
+      const saturation = i / 10;
+      colors.push(chroma.hsl(0, saturation, 0.5).hex());
+    }
+    return colors;
+  };
+
   const hasAdvancedMode = ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced;
 
   if (!hasAdvancedMode) {
@@ -100,7 +116,7 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
             max={100}
             onValuesChange={(start, end) => onUpdate({ lightnessStart: start, lightnessEnd: end })}
             formatValue={(v) => `${Math.round(v * 10) / 10}%`}
-            gradientColors={gradientColors}
+            gradientColors={generateLightnessGradient()}
             referenceValue={(() => {
               try {
                 const baseColor = chroma(ramp.baseColor);
@@ -125,7 +141,7 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
             max={180}
             onValuesChange={(start, end) => onUpdate({ chromaStart: start, chromaEnd: end })}
             formatValue={(v) => `${Math.round(v)}°`}
-            gradientColors={gradientColors}
+            gradientColors={generateHueGradient()}
             referenceValue={0}
             className="h-full flex-1"
           />
@@ -142,7 +158,7 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
             max={100}
             onValuesChange={(start, end) => onUpdate({ saturationStart: start, saturationEnd: end })}
             formatValue={(v) => `${Math.round(v * 10) / 10}%`}
-            gradientColors={gradientColors}
+            gradientColors={generateSaturationGradient()}
             referenceValue={(() => {
               try {
                 const baseColor = chroma(ramp.baseColor);
