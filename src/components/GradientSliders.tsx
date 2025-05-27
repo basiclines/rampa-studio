@@ -96,12 +96,27 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
   };
 
   const generateHueGradient = () => {
-    const colors: string[] = [];
-    for (let i = 0; i <= 10; i++) {
-      const hue = (i / 10) * 360;
-      colors.push(chroma.hsl(hue, 1, 0.5).hex());
+    try {
+      const baseColor = chroma(ramp.baseColor);
+      const [, s, l] = baseColor.hsl();
+      const colors: string[] = [];
+      
+      // Use base color's saturation and lightness for the hue gradient
+      for (let i = 0; i <= 10; i++) {
+        const hue = (i / 10) * 360;
+        colors.push(chroma.hsl(hue, s || 0.5, l || 0.5).hex());
+      }
+      return colors;
+    } catch (error) {
+      console.error('Error generating hue gradient:', error);
+      // Fallback to standard hue wheel
+      const colors: string[] = [];
+      for (let i = 0; i <= 10; i++) {
+        const hue = (i / 10) * 360;
+        colors.push(chroma.hsl(hue, 1, 0.5).hex());
+      }
+      return colors;
     }
-    return colors;
   };
 
   const generateSaturationGradient = () => {
@@ -172,7 +187,18 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
             onValuesChange={(start, end) => onUpdate({ chromaStart: start, chromaEnd: end })}
             formatValue={(v) => `${Math.round(v)}°`}
             gradientColors={generateHueGradient()}
-            referenceValue={0}
+            referenceValue={(() => {
+              try {
+                const baseColor = chroma(ramp.baseColor);
+                const [h] = baseColor.hsl();
+                // Convert the base hue to the -180 to 180 range (relative to 0)
+                const baseHue = h || 0;
+                // Map the 0-360 hue to -180 to 180 scale for display purposes
+                return 0; // Always show reference at center since we're showing hue shifts relative to base
+              } catch {
+                return 0;
+              }
+            })()}
             className="h-full flex-1"
           />
         </div>
