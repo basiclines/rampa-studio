@@ -119,31 +119,24 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-[#F5F5F5] flex">
+      {/* Export Button - Fixed in top right */}
+      <div className="fixed top-4 right-4 z-50">
+        <Button onClick={handleExportSvg} variant="outline" className="gap-2 bg-white shadow-md">
+          <Download className="w-4 h-4" />
+          Export to Figma
+        </Button>
+      </div>
+
       {/* Sidebar */}
       <div className={`${sidebarWidth} bg-white border-r border-gray-200 transition-all duration-300`}>
         <ScrollArea className="h-screen">
           <div className="p-6">
-            <div className="space-y-4 mb-6">
-              <h1 className="text-2xl font-bold text-gray-800">
-                Color Palette Generator
-              </h1>
-              <p className="text-gray-600 text-sm">
-                Create and edit multiple color ramps with precise control over lightness, hue shifts, and saturation
-              </p>
-            </div>
-
             <div className="flex flex-col gap-3 mb-6">
               <Button onClick={addColorRamp} className="gap-2 w-full">
                 <Plus className="w-4 h-4" />
                 Add Color Ramp
               </Button>
-              <Button onClick={handleExportSvg} variant="outline" className="gap-2 w-full">
-                <Download className="w-4 h-4" />
-                Export to Figma
-              </Button>
             </div>
-
-            <Separator className="my-6" />
 
             {/* Configuration Controls */}
             <div className="space-y-8">
