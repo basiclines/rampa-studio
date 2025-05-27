@@ -199,6 +199,7 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
               }
             })()}
             className="h-full flex-1"
+            invertValues={true}
           />
         </div>
       )}

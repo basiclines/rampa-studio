@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useCallback } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -13,6 +12,7 @@ interface GradientControlProps {
   className?: string;
   gradientColors?: string[]; // Array of colors representing the gradient
   referenceValue?: number; // Optional reference value to mark on the gradient
+  invertValues?: boolean; // New prop to invert the value mapping
 }
 
 const GradientControl: React.FC<GradientControlProps> = ({
@@ -25,19 +25,29 @@ const GradientControl: React.FC<GradientControlProps> = ({
   formatValue = (v) => v.toString(),
   className,
   gradientColors,
-  referenceValue
+  referenceValue,
+  invertValues = false
 }) => {
   const [isDragging, setIsDragging] = useState<'start' | 'end' | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const valueToPosition = useCallback((value: number) => {
+    if (invertValues) {
+      // For inverted sliders, map values in reverse
+      return ((max - value) / (max - min)) * 100;
+    }
     return ((value - min) / (max - min)) * 100;
-  }, [min, max]);
+  }, [min, max, invertValues]);
 
   const positionToValue = useCallback((position: number) => {
+    if (invertValues) {
+      // For inverted sliders, map position in reverse
+      const value = max - (position / 100) * (max - min);
+      return Math.max(min, Math.min(max, value));
+    }
     const value = min + (position / 100) * (max - min);
     return Math.max(min, Math.min(max, value));
-  }, [min, max]);
+  }, [min, max, invertValues]);
 
   const handleMouseDown = (type: 'start' | 'end') => (e: React.MouseEvent) => {
     e.preventDefault();
