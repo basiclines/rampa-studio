@@ -1,3 +1,4 @@
+
 import React, { useState, useRef, useCallback } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -86,7 +87,16 @@ const GradientControl: React.FC<GradientControlProps> = ({
 
   const startPosition = valueToPosition(startValue);
   const endPosition = valueToPosition(endValue);
-  const referencePosition = referenceValue !== undefined ? valueToPosition(referenceValue) : null;
+  
+  // Special handling for hue slider reference value
+  const referencePosition = referenceValue !== undefined ? (() => {
+    if (label === 'Hue' && min === -180 && max === 180) {
+      // For hue slider, referenceValue is 0-360 but slider is -180 to 180
+      // Map 0-360 to 0-100% position on the gradient
+      return (referenceValue / 360) * 100;
+    }
+    return valueToPosition(referenceValue);
+  })() : null;
 
   // Create gradient background based on gradientColors or fallback to gray
   const gradientBackground = gradientColors && gradientColors.length > 0 

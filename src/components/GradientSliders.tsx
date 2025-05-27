@@ -1,4 +1,3 @@
-
 import React from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
@@ -191,10 +190,9 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
               try {
                 const baseColor = chroma(ramp.baseColor);
                 const [h] = baseColor.hsl();
-                // Convert the base hue to the -180 to 180 range (relative to 0)
                 const baseHue = h || 0;
-                // Map the 0-360 hue to -180 to 180 scale for display purposes
-                return 0; // Always show reference at center since we're showing hue shifts relative to base
+                // Map the 0-360 hue to the gradient position (0-360 scale)
+                return baseHue;
               } catch {
                 return 0;
               }
