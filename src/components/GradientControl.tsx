@@ -13,6 +13,7 @@ interface GradientControlProps {
   className?: string;
   gradientColors?: string[]; // Array of colors representing the gradient
   referenceValue?: number; // Optional reference value to mark on the gradient
+  referenceColor?: string; // Color to use for the reference indicator
   invertValues?: boolean; // New prop to invert the value mapping
 }
 
@@ -27,6 +28,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
   className,
   gradientColors,
   referenceValue,
+  referenceColor = '#f97316', // Default to orange if no color provided
   invertValues = false
 }) => {
   const [isDragging, setIsDragging] = useState<'start' | 'end' | null>(null);
@@ -117,10 +119,13 @@ const GradientControl: React.FC<GradientControlProps> = ({
         {/* Reference line (for base color value) */}
         {referencePosition !== null && (
           <div
-            className="absolute w-full border-t-2 border-orange-500 z-20"
+            className="absolute w-full border-t-2 border-white z-20"
             style={{ 
               top: `${referencePosition}%`,
-              transform: 'translateY(-1px)'
+              transform: 'translateY(-1px)',
+              backgroundColor: referenceColor,
+              height: '3px',
+              boxShadow: '0 0 0 1px white'
             }}
           />
         )}

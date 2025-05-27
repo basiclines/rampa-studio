@@ -1,3 +1,4 @@
+
 import React from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
@@ -170,6 +171,7 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
                 return 50;
               }
             })()}
+            referenceColor={ramp.baseColor}
             className="h-full flex-1"
           />
         </div>
@@ -197,6 +199,7 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
                 return 0;
               }
             })()}
+            referenceColor={ramp.baseColor}
             className="h-full flex-1"
           />
         </div>
@@ -222,6 +225,7 @@ const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => 
                 return 50;
               }
             })()}
+            referenceColor={ramp.baseColor}
             className="h-full flex-1"
             invertValues={true}
           />
