@@ -1,3 +1,4 @@
+
 import React, { useMemo, useState } from 'react';
 import { Lock, Clipboard } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
@@ -96,10 +97,11 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
   };
 
   const handleSaturationGradient = (start: number, end: number) => {
+    // Invert the saturation values since the gradient is now inverted
     onUpdateConfig({
       saturationAdvanced: true,
-      saturationStart: start,
-      saturationEnd: end
+      saturationStart: 100 - end, // Invert end to start
+      saturationEnd: 100 - start   // Invert start to end
     });
   };
 
@@ -132,8 +134,8 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
               break;
             }
             case 'saturation': {
-              // Full saturation spectrum from 0% to 100%
-              const saturation = position;
+              // Invert saturation spectrum: top = high saturation (100%), bottom = low saturation (0%)
+              const saturation = 1 - position; // Invert the position
               newColor = chroma.hsl(h || 0, saturation, l || 0.5);
               break;
             }
@@ -160,15 +162,19 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     };
   }, [config.baseColor]);
 
-  // Get base color hue for reference line
-  const baseColorHue = useMemo(() => {
+  // Get base color values for reference lines
+  const baseColorValues = useMemo(() => {
     try {
       const baseColor = chroma(config.baseColor);
-      const [h] = baseColor.hsl();
-      return h || 0;
+      const [h, s, l] = baseColor.hsl();
+      return {
+        hue: 0, // Base hue is at 0 position (no shift)
+        lightness: (l || 0.5) * 100,
+        saturation: 100 - ((s || 0.5) * 100) // Invert saturation reference for inverted gradient
+      };
     } catch (error) {
-      console.error('Error getting base color hue:', error);
-      return 0;
+      console.error('Error getting base color values:', error);
+      return { hue: 0, lightness: 50, saturation: 50 };
     }
   }, [config.baseColor]);
 
@@ -256,8 +262,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 min={0}
                 max={100}
                 onValuesChange={handleLightnessGradient}
-                formatValue={(v) => `${Math.round(v)}%`}
+                formatValue={(v) => `${Math.round(v * 10) / 10}%`}
                 gradientColors={parameterGradients.lightness}
+                referenceValue={baseColorValues.lightness}
               />
             )}
             
@@ -269,22 +276,23 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                 min={-180}
                 max={180}
                 onValuesChange={handleHueGradient}
-                formatValue={(v) => `${Math.round(v)}°`}
+                formatValue={(v) => `${Math.round(v * 10) / 10}°`}
                 gradientColors={parameterGradients.hue}
-                referenceValue={0} // Base hue is at 0 position (no shift)
+                referenceValue={baseColorValues.hue}
               />
             )}
             
             {config.saturationAdvanced && (
               <GradientControl
                 label="Saturation"
-                startValue={config.saturationStart ?? 20}
-                endValue={config.saturationEnd ?? 80}
+                startValue={100 - (config.saturationEnd ?? 20)} // Display inverted values
+                endValue={100 - (config.saturationStart ?? 80)}   // Display inverted values
                 min={0}
                 max={100}
                 onValuesChange={handleSaturationGradient}
-                formatValue={(v) => `${Math.round(v)}%`}
+                formatValue={(v) => `${Math.round(v * 10) / 10}%`}
                 gradientColors={parameterGradients.saturation}
+                referenceValue={baseColorValues.saturation}
               />
             )}
           </div>
