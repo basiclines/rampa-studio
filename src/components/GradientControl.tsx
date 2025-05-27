@@ -125,7 +125,8 @@ const GradientControl: React.FC<GradientControlProps> = ({
               transform: 'translateY(-4px)',
               backgroundColor: referenceColor,
               height: '8px',
-              border: '2px solid white'
+              border: '2px solid white',
+              pointerEvents: 'none'
             }}
           />
         )}
