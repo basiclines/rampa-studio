@@ -122,9 +122,9 @@ const GradientControl: React.FC<GradientControlProps> = ({
             className="absolute w-full z-20"
             style={{ 
               top: `${referencePosition}%`,
-              transform: 'translateY(-2px)',
+              transform: 'translateY(-4px)',
               backgroundColor: referenceColor,
-              height: '4px',
+              height: '8px',
               border: '2px solid white'
             }}
           />
