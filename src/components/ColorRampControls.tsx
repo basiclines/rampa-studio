@@ -189,7 +189,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <div className="flex gap-2 items-center">
             <Slider
               value={[ramp.totalSteps]}
-              onValueChange={([value]) => onUpdate({ totalSteps: value })}
+              onValueChange={([value]) => onUpdate({ totalSteps: Math.round(value) })}
               max={21}
               min={3}
               step={1}
@@ -283,7 +283,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         <div className="space-y-2">
           <div className="flex items-center justify-between">
             <Label>
-              {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${ramp.lightnessRange}%`}
+              {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${Math.round(ramp.lightnessRange * 10) / 10}%`}
             </Label>
             <div className="flex gap-1">
               <Button
@@ -373,12 +373,12 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 }}
                 max={100}
                 min={0}
-                step={0.1}
+                step={1}
                 className="flex-1"
               />
               <Input
                 type="number"
-                value={ramp.lightnessRange}
+                value={Math.round(ramp.lightnessRange * 10) / 10}
                 onChange={(e) => {
                   const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
                   const roundedValue = Math.round(value * 10) / 10;
@@ -397,7 +397,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         <div className="space-y-2">
           <div className="flex items-center justify-between">
             <Label>
-              {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${ramp.chromaRange}°`}
+              {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${Math.round(ramp.chromaRange)}°`}
             </Label>
             <div className="flex gap-1">
               <Button
@@ -443,11 +443,11 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                     const value = parseFloat(inputValue);
                     if (!isNaN(value)) {
-                      const roundedValue = Math.round(value * 10) / 10;
+                      const roundedValue = Math.round(value);
                       onUpdate({ chromaStart: roundedValue });
                     }
                   }}
-                  step={0.1}
+                  step={1}
                   className="text-center text-xs"
                 />
               </div>
@@ -464,11 +464,11 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                     const value = parseFloat(inputValue);
                     if (!isNaN(value)) {
-                      const roundedValue = Math.round(value * 10) / 10;
+                      const roundedValue = Math.round(value);
                       onUpdate({ chromaEnd: roundedValue });
                     }
                   }}
-                  step={0.1}
+                  step={1}
                   className="text-center text-xs"
                 />
               </div>
@@ -478,27 +478,27 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               <Slider
                 value={[ramp.chromaRange]}
                 onValueChange={([value]) => {
-                  const roundedValue = Math.round(value * 10) / 10;
+                  const roundedValue = Math.round(value);
                   onUpdate({ chromaRange: roundedValue });
                 }}
                 max={180}
                 min={-180}
-                step={0.1}
+                step={1}
                 className="flex-1"
               />
               <Input
                 type="number"
-                value={ramp.chromaRange}
+                value={Math.round(ramp.chromaRange)}
                 onChange={(e) => {
                   const value = parseFloat(e.target.value);
                   if (!isNaN(value) && value >= -180 && value <= 180) {
-                    const roundedValue = Math.round(value * 10) / 10;
+                    const roundedValue = Math.round(value);
                     onUpdate({ chromaRange: roundedValue });
                   }
                 }}
                 min={-180}
                 max={180}
-                step={0.1}
+                step={1}
                 className="w-16 text-center"
               />
             </div>
@@ -509,7 +509,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         <div className="space-y-2">
           <div className="flex items-center justify-between">
             <Label>
-              {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${ramp.saturationRange}%`}
+              {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${Math.round(ramp.saturationRange * 10) / 10}%`}
             </Label>
             <div className="flex gap-1">
               <Button
@@ -595,12 +595,12 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 }}
                 max={100}
                 min={0}
-                step={0.1}
+                step={1}
                 className="flex-1"
               />
               <Input
                 type="number"
-                value={ramp.saturationRange}
+                value={Math.round(ramp.saturationRange * 10) / 10}
                 onChange={(e) => {
                   const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
                   const roundedValue = Math.round(value * 10) / 10;
