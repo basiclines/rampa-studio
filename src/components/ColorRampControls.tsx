@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Edit3, Copy, Trash2, RotateCcw, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -29,7 +28,7 @@ interface ColorRampConfig {
   saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
+  tintBlendMode?: 'normal' | 'darken' | 'multiply' | 'plus-darker' | 'color-burn' | 'lighten' | 'screen' | 'plus-lighter' | 'color-dodge' | 'overlay' | 'soft-light' | 'hard-light' | 'difference' | 'exclusion' | 'hue' | 'saturation' | 'color' | 'luminosity';
   lockedColors: { [index: number]: string };
 }
 
@@ -329,6 +328,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                       onMouseLeave={() => onPreviewBlendMode?.(undefined)}
                     >
                       Screen
+                    </SelectItem>
+                    <SelectItem 
+                      value="plus-lighter"
+                      onMouseEnter={() => onPreviewBlendMode?.('plus-lighter')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Plus Lighter
                     </SelectItem>
                     <SelectItem 
                       value="overlay"
