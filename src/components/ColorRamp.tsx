@@ -1,6 +1,6 @@
 
 import React, { useMemo, useState } from 'react';
-import { Lock, Clipboard } from 'lucide-react';
+import { Lock, Clipboard, Copy, Trash2 } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
@@ -9,11 +9,20 @@ import { ColorRampConfig } from '@/types/colorRamp';
 interface ColorRampProps {
   config: ColorRampConfig;
   onUpdateConfig: (updates: Partial<ColorRampConfig>) => void;
+  onDuplicate?: () => void;
+  onDelete?: () => void;
   previewBlendMode?: string;
   isSelected?: boolean;
 }
 
-const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig, previewBlendMode, isSelected = false }) => {
+const ColorRamp: React.FC<ColorRampProps> = ({ 
+  config, 
+  onUpdateConfig, 
+  onDuplicate,
+  onDelete,
+  previewBlendMode, 
+  isSelected = false 
+}) => {
   const { toast } = useToast();
   const [isHovered, setIsHovered] = useState(false);
   
@@ -55,9 +64,27 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig, previewBl
     });
   };
 
+  const handleDuplicate = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    onDuplicate?.();
+    toast({
+      title: "Color Ramp Duplicated",
+      description: `${config.name} has been duplicated.`,
+    });
+  };
+
+  const handleDelete = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    onDelete?.();
+    toast({
+      title: "Color Ramp Deleted",
+      description: `${config.name} has been deleted.`,
+    });
+  };
+
   return (
     <div 
-      className={`space-y-4 min-w-[120px] cursor-pointer transition-all duration-300 p-3 rounded-lg ${
+      className={`space-y-4 min-w-[120px] cursor-pointer transition-all duration-300 p-3 rounded-lg relative ${
         isSelected 
           ? 'bg-blue-50 ring-2 ring-blue-200 shadow-lg' 
           : 'hover:bg-gray-50 hover:shadow-md hover:scale-105'
@@ -65,25 +92,46 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig, previewBl
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
+      {/* Hover Actions */}
+      {isHovered && (
+        <div className="absolute top-2 right-2 z-30 flex gap-1">
+          <Button 
+            variant="outline" 
+            size="sm" 
+            onClick={copyAllColors}
+            className="h-8 w-8 p-0 bg-white shadow-md"
+          >
+            <Clipboard className="w-3 h-3" />
+          </Button>
+          {onDuplicate && (
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={handleDuplicate}
+              className="h-8 w-8 p-0 bg-white shadow-md"
+            >
+              <Copy className="w-3 h-3" />
+            </Button>
+          )}
+          {onDelete && (
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={handleDelete}
+              className="h-8 w-8 p-0 bg-white shadow-md hover:bg-red-50 hover:border-red-300"
+            >
+              <Trash2 className="w-3 h-3" />
+            </Button>
+          )}
+        </div>
+      )}
+
       <div className="text-center space-y-2">
         <h3 className={`text-lg font-medium transition-colors ${
           isSelected ? 'text-blue-700' : 'text-gray-700'
         }`}>
           {config.name}
         </h3>
-        <Button 
-          variant="outline" 
-          size="sm" 
-          onClick={(e) => {
-            e.stopPropagation();
-            copyAllColors();
-          }}
-          className={`transition-colors ${
-            isSelected ? 'border-blue-300 hover:border-blue-400' : ''
-          }`}
-        >
-          <Clipboard className="w-4 h-4" />
-        </Button>
       </div>
       
       <div className="relative isolate">

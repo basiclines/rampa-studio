@@ -172,6 +172,8 @@ const Index = () => {
                 <ColorRamp 
                   config={ramp} 
                   onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
+                  onDuplicate={() => duplicateColorRamp(ramp)}
+                  onDelete={colorRamps.length > 1 ? () => removeColorRamp(ramp.id) : undefined}
                   previewBlendMode={previewBlendModes[ramp.id]}
                   isSelected={selectedRampId === ramp.id}
                 />
