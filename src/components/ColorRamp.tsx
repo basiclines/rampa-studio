@@ -1,6 +1,6 @@
 
 import React, { useMemo, useState } from 'react';
-import { Lock, Clipboard, Copy, Trash2, Edit2, Check, X } from 'lucide-react';
+import { Lock, Clipboard, Copy, Trash2, Edit2 } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -161,31 +161,14 @@ const ColorRamp: React.FC<ColorRampProps> = ({
 
       <div className="text-center space-y-2">
         {isEditingName ? (
-          <div className="flex items-center gap-1">
-            <Input
-              value={editedName}
-              onChange={(e) => setEditedName(e.target.value)}
-              onKeyDown={handleKeyDown}
-              className="text-center text-lg font-medium h-8 px-2"
-              autoFocus
-            />
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={saveName}
-              className="h-6 w-6 p-0 text-green-600 hover:text-green-700"
-            >
-              <Check className="w-3 h-3" />
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={cancelEditing}
-              className="h-6 w-6 p-0 text-red-600 hover:text-red-700"
-            >
-              <X className="w-3 h-3" />
-            </Button>
-          </div>
+          <Input
+            value={editedName}
+            onChange={(e) => setEditedName(e.target.value)}
+            onKeyDown={handleKeyDown}
+            onBlur={saveName}
+            className="text-center text-lg font-medium h-8 px-2"
+            autoFocus
+          />
         ) : (
           <div className="group flex items-center justify-center gap-2">
             <h3 className={`text-lg font-medium transition-colors ${
