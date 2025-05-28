@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Edit3, Copy, Trash2, RotateCcw, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -8,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import chroma from 'chroma-js';
 import { useToast } from '@/hooks/use-toast';
 import GradientSliders from '@/components/GradientSliders';
-import { ColorRampConfig } from '@/types/colorRamp';
+import { ColorRampConfig, BlendMode } from '@/types/colorRamp';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -250,7 +251,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 <Label>Blend Mode</Label>
                 <Select
                   value={ramp.tintBlendMode || 'normal'}
-                  onValueChange={(value: ColorRampConfig['tintBlendMode']) => 
+                  onValueChange={(value: BlendMode) => 
                     onUpdate({ tintBlendMode: value })
                   }
                 >

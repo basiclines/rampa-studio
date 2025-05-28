@@ -1,4 +1,24 @@
 
+export type BlendMode = 
+  | 'normal' 
+  | 'darken' 
+  | 'multiply' 
+  | 'plus-darker' 
+  | 'color-burn' 
+  | 'lighten' 
+  | 'screen' 
+  | 'plus-lighter' 
+  | 'color-dodge' 
+  | 'overlay' 
+  | 'soft-light' 
+  | 'hard-light' 
+  | 'difference' 
+  | 'exclusion' 
+  | 'hue' 
+  | 'saturation' 
+  | 'color' 
+  | 'luminosity';
+
 export interface ColorRampConfig {
   id: string;
   name: string;
@@ -18,6 +38,6 @@ export interface ColorRampConfig {
   saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'darken' | 'multiply' | 'plus-darker' | 'color-burn' | 'lighten' | 'screen' | 'plus-lighter' | 'color-dodge' | 'overlay' | 'soft-light' | 'hard-light' | 'difference' | 'exclusion' | 'hue' | 'saturation' | 'color' | 'luminosity';
+  tintBlendMode?: BlendMode;
   lockedColors: { [index: number]: string };
 }

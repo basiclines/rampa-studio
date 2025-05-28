@@ -1,5 +1,5 @@
 import chroma from 'chroma-js';
-import { ColorRampConfig } from '@/types/colorRamp';
+import { ColorRampConfig, BlendMode } from '@/types/colorRamp';
 
 interface ColorRampData {
   name: string;
@@ -10,7 +10,7 @@ interface ColorRampData {
 const clamp = (value: number): number => Math.max(0, Math.min(255, value));
 
 // Helper function to apply blending modes
-const applyBlendMode = (baseColor: chroma.Color, tintColor: chroma.Color, opacity: number, blendMode: string): chroma.Color => {
+const applyBlendMode = (baseColor: chroma.Color, tintColor: chroma.Color, opacity: number, blendMode: BlendMode): chroma.Color => {
   const baseRgb = baseColor.rgb();
   const tintRgb = tintColor.rgb();
   
