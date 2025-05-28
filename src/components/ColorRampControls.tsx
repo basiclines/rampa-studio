@@ -289,6 +289,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                       Normal
                     </SelectItem>
                     <SelectItem 
+                      value="darken"
+                      onMouseEnter={() => onPreviewBlendMode?.('darken')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Darken
+                    </SelectItem>
+                    <SelectItem 
                       value="multiply"
                       onMouseEnter={() => onPreviewBlendMode?.('multiply')}
                       onMouseLeave={() => onPreviewBlendMode?.(undefined)}
