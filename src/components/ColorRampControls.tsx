@@ -95,8 +95,12 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <GradientControl 
             startValue={ramp.lightnessStart ?? 0}
             endValue={ramp.lightnessEnd ?? 100}
-            onStartChange={(start) => onUpdate({ lightnessStart: start })}
-            onEndChange={(end) => onUpdate({ lightnessEnd: end })}
+            onChange={(start, end) => {
+              onUpdate({ 
+                lightnessStart: start,
+                lightnessEnd: end
+              });
+            }}
           />
         ) : (
           <Slider
@@ -123,8 +127,12 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <GradientControl 
             startValue={ramp.chromaStart ?? 0}
             endValue={ramp.chromaEnd ?? 100}
-            onStartChange={(start) => onUpdate({ chromaStart: start })}
-            onEndChange={(end) => onUpdate({ chromaEnd: end })}
+            onChange={(start, end) => {
+              onUpdate({ 
+                chromaStart: start,
+                chromaEnd: end
+              });
+            }}
           />
         ) : (
           <Slider
@@ -151,8 +159,12 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <GradientControl 
             startValue={ramp.saturationStart ?? 0}
             endValue={ramp.saturationEnd ?? 100}
-            onStartChange={(start) => onUpdate({ saturationStart: start })}
-            onEndChange={(end) => onUpdate({ saturationEnd: end })}
+            onChange={(start, end) => {
+              onUpdate({ 
+                saturationStart: start,
+                saturationEnd: end
+              });
+            }}
           />
         ) : (
           <Slider
