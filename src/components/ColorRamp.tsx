@@ -88,19 +88,19 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
             
             return (
               <div key={index} className="relative">
-                {/* Hex value on top - only visible when hovering the entire ramp */}
-                {isHovered && (
-                  <div className="absolute -top-6 left-0 right-0 text-center z-20">
-                    <span className="text-xs text-gray-600 bg-white px-1 rounded shadow-sm">
-                      {color}
-                    </span>
-                  </div>
-                )}
-                
                 <div
                   className="group relative w-full h-12 border border-gray-200 overflow-hidden"
                   style={{ backgroundColor: color }}
                 >
+                  {/* Hex value on bottom-right - only visible when hovering the entire ramp */}
+                  {isHovered && (
+                    <div className="absolute bottom-1 right-1 z-20">
+                      <span className="text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-1.5 py-0.5 rounded">
+                        {color}
+                      </span>
+                    </div>
+                  )}
+                  
                   <Button
                     variant="ghost"
                     size="sm"
