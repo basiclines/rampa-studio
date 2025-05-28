@@ -343,6 +343,62 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     >
                       Overlay
                     </SelectItem>
+                    <SelectItem 
+                      value="soft-light"
+                      onMouseEnter={() => onPreviewBlendMode?.('soft-light')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Soft Light
+                    </SelectItem>
+                    <SelectItem 
+                      value="hard-light"
+                      onMouseEnter={() => onPreviewBlendMode?.('hard-light')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Hard Light
+                    </SelectItem>
+                    <SelectItem 
+                      value="difference"
+                      onMouseEnter={() => onPreviewBlendMode?.('difference')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Difference
+                    </SelectItem>
+                    <SelectItem 
+                      value="exclusion"
+                      onMouseEnter={() => onPreviewBlendMode?.('exclusion')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Exclusion
+                    </SelectItem>
+                    <SelectItem 
+                      value="hue"
+                      onMouseEnter={() => onPreviewBlendMode?.('hue')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Hue
+                    </SelectItem>
+                    <SelectItem 
+                      value="saturation"
+                      onMouseEnter={() => onPreviewBlendMode?.('saturation')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Saturation
+                    </SelectItem>
+                    <SelectItem 
+                      value="color"
+                      onMouseEnter={() => onPreviewBlendMode?.('color')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Color
+                    </SelectItem>
+                    <SelectItem 
+                      value="luminosity"
+                      onMouseEnter={() => onPreviewBlendMode?.('luminosity')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Luminosity
+                    </SelectItem>
                   </SelectContent>
                 </Select>
               </div>
