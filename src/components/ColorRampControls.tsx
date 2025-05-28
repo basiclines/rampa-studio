@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Edit3, Copy, Trash2, RotateCcw, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -321,6 +322,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                       onMouseLeave={() => onPreviewBlendMode?.(undefined)}
                     >
                       Lighten
+                    </SelectItem>
+                    <SelectItem 
+                      value="screen"
+                      onMouseEnter={() => onPreviewBlendMode?.('screen')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Screen
                     </SelectItem>
                     <SelectItem 
                       value="overlay"
