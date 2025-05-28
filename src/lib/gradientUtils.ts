@@ -1,4 +1,3 @@
-
 import chroma from 'chroma-js';
 
 const roundToOneDecimal = (value: number): number => {
@@ -88,23 +87,26 @@ export const calculateAdvancedDefaults = (
     
     switch (attribute) {
       case 'lightness': {
-        const baseLightness = (l || 0.5) * 100;
+        const baseLightness = roundToOneDecimal((l || 0.5) * 100);
+        const halfRange = roundToOneDecimal(range / 2);
         return {
-          start: roundToOneDecimal(Math.max(0, Math.min(100, baseLightness - range / 2))),
-          end: roundToOneDecimal(Math.max(0, Math.min(100, baseLightness + range / 2)))
+          start: roundToOneDecimal(Math.max(0, Math.min(100, baseLightness - halfRange))),
+          end: roundToOneDecimal(Math.max(0, Math.min(100, baseLightness + halfRange)))
         };
       }
       case 'hue': {
+        const halfRange = roundToOneDecimal(range / 2);
         return {
-          start: roundToOneDecimal(-range / 2),
-          end: roundToOneDecimal(range / 2)
+          start: roundToOneDecimal(-halfRange),
+          end: roundToOneDecimal(halfRange)
         };
       }
       case 'saturation': {
-        const baseSaturation = (s || 0.5) * 100;
+        const baseSaturation = roundToOneDecimal((s || 0.5) * 100);
+        const halfRange = roundToOneDecimal(range / 2);
         return {
-          start: roundToOneDecimal(Math.max(0, Math.min(100, baseSaturation - range / 2))),
-          end: roundToOneDecimal(Math.max(0, Math.min(100, baseSaturation + range / 2)))
+          start: roundToOneDecimal(Math.max(0, Math.min(100, baseSaturation - halfRange))),
+          end: roundToOneDecimal(Math.max(0, Math.min(100, baseSaturation + halfRange)))
         };
       }
       default:
