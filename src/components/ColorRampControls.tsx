@@ -303,6 +303,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                       Multiply
                     </SelectItem>
                     <SelectItem 
+                      value="plus-darker"
+                      onMouseEnter={() => onPreviewBlendMode?.('plus-darker')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Plus Darker
+                    </SelectItem>
+                    <SelectItem 
                       value="overlay"
                       onMouseEnter={() => onPreviewBlendMode?.('overlay')}
                       onMouseLeave={() => onPreviewBlendMode?.(undefined)}
