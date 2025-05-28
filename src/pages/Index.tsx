@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react';
 import { Plus, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -27,7 +28,7 @@ interface ColorRampConfig {
   saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
+  tintBlendMode?: 'normal' | 'darken' | 'multiply' | 'plus-darker' | 'color-burn' | 'lighten' | 'screen' | 'plus-lighter' | 'color-dodge' | 'overlay' | 'soft-light' | 'hard-light' | 'difference' | 'exclusion' | 'hue' | 'saturation' | 'color' | 'luminosity';
   lockedColors: { [index: number]: string };
 }
 
