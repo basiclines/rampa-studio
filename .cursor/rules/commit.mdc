@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# GIT Actions
+
+## DO
+1. Check via git diff current working dir and overall changes
+2. Make separated commits as needed to have an ordered log of changes
+3. All commits start with: FIX:, ADD:, REMOVE: or UPDATE:
+4. You can only use git, cd, ls commands
+5. If new images are added, make sure to call [optimize-images.mdc](mdc:.cursor/rules/optimize-images.mdc) before committing
+
+## DONT'S
+* NEVER push unless is asked to do so
+* NEVER restore/stash changes without additional confirmation from the user
+* NEVER make changes on the code before commiting
+

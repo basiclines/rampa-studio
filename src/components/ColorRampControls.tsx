@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Edit3, Copy, Trash2, RotateCcw, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -116,37 +115,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
 
   return (
     <div className="space-y-6">
-      {/* Header with name and actions */}
+      {/* Header with actions (no name input, no duplicate/delete) */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 flex-1">
           <Edit3 className="w-4 h-4 text-gray-400" />
-          <Input
-            value={ramp.name}
-            onChange={(e) => onUpdate({ name: e.target.value })}
-            className="border border-gray-200 p-2 text-lg font-semibold bg-white focus-visible:ring-2 focus-visible:ring-blue-500 flex-1"
-            placeholder="Color ramp name"
-          />
+          {/* Name input removed */}
         </div>
-        <div className="flex gap-1">
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={onDuplicate}
-            className="text-blue-500 hover:text-blue-700"
-          >
-            <Copy className="w-4 h-4" />
-          </Button>
-          {canDelete && (
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={onDelete}
-              className="text-red-500 hover:text-red-700"
-            >
-              <Trash2 className="w-4 h-4" />
-            </Button>
-          )}
-        </div>
+        {/* Duplicate and delete buttons removed */}
       </div>
 
       {/* Main layout: Controls and Gradient Sliders side by side */}

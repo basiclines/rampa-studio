@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { Plus, Download, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -157,16 +156,7 @@ const Index = () => {
       {/* Main Content */}
       <div className="flex-1 p-8">
         <div className="max-w-none">
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">
-              Color Ramps Preview
-            </h2>
-            <p className="text-gray-600">
-              Click on a color ramp to edit it
-            </p>
-          </div>
-          
-          <div className="flex gap-6 items-start overflow-x-auto pb-4">
+          <div className="flex gap-6 justify-center pb-4 flex-wrap">
             {colorRamps.map((ramp) => (
               <div key={ramp.id} onClick={() => handleColorRampClick(ramp.id)}>
                 <ColorRamp 

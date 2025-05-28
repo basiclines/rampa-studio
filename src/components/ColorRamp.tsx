@@ -1,10 +1,10 @@
-
 import React, { useMemo, useState } from 'react';
 import { Lock, Clipboard, Copy, Trash2 } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
 import { ColorRampConfig } from '@/types/colorRamp';
+import { Input } from '@/components/ui/input';
 
 interface ColorRampProps {
   config: ColorRampConfig;
@@ -127,11 +127,21 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       )}
 
       <div className="text-center space-y-2">
-        <h3 className={`text-lg font-medium transition-colors ${
-          isSelected ? 'text-blue-700' : 'text-gray-700'
-        }`}>
-          {config.name}
-        </h3>
+        {isSelected ? (
+          <Input
+            value={config.name}
+            onChange={e => onUpdateConfig({ name: e.target.value })}
+            className="border border-gray-200 p-2 text-lg font-semibold bg-white focus-visible:ring-2 focus-visible:ring-blue-500 text-center"
+            placeholder="Color ramp name"
+            autoFocus
+          />
+        ) : (
+          <h3 className={`text-lg font-medium transition-colors ${
+            isSelected ? 'text-blue-700' : 'text-gray-700'
+          }`}>
+            {config.name}
+          </h3>
+        )}
       </div>
       
       <div className="relative isolate">

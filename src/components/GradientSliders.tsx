@@ -1,31 +1,8 @@
-
 import React from 'react';
 import LightnessSlider from '@/components/LightnessSlider';
 import HueSlider from '@/components/HueSlider';
 import SaturationSlider from '@/components/SaturationSlider';
-
-interface ColorRampConfig {
-  id: string;
-  name: string;
-  baseColor: string;
-  totalSteps: number;
-  lightnessRange: number;
-  lightnessStart?: number;
-  lightnessEnd?: number;
-  lightnessAdvanced?: boolean;
-  chromaRange: number;
-  chromaStart?: number;
-  chromaEnd?: number;
-  chromaAdvanced?: boolean;
-  saturationRange: number;
-  saturationStart?: number;
-  saturationEnd?: number;
-  saturationAdvanced?: boolean;
-  tintColor?: string;
-  tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
-  lockedColors: { [index: number]: string };
-}
+import { ColorRampConfig } from '@/types/colorRamp';
 
 interface GradientSlidersProps {
   ramp: ColorRampConfig;
