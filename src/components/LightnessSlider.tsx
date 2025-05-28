@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateLightnessGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
@@ -22,6 +22,16 @@ const roundToOneDecimal = (value: number): number => {
 
 const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'lightness', ramp.lightnessRange);
+  
+  // Clear advanced values when range changes to force recalculation
+  useEffect(() => {
+    if (ramp.lightnessStart !== undefined || ramp.lightnessEnd !== undefined) {
+      onUpdate({ 
+        lightnessStart: undefined, 
+        lightnessEnd: undefined 
+      });
+    }
+  }, [ramp.lightnessRange]);
   
   const getReferenceValue = () => {
     try {

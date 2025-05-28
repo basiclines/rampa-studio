@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateHueGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
@@ -22,6 +22,16 @@ const roundToOneDecimal = (value: number): number => {
 
 const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'hue', ramp.chromaRange);
+  
+  // Clear advanced values when range changes to force recalculation
+  useEffect(() => {
+    if (ramp.chromaStart !== undefined || ramp.chromaEnd !== undefined) {
+      onUpdate({ 
+        chromaStart: undefined, 
+        chromaEnd: undefined 
+      });
+    }
+  }, [ramp.chromaRange]);
   
   const getReferenceValue = () => {
     try {

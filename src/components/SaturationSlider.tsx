@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateSaturationGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
@@ -22,6 +22,16 @@ const roundToOneDecimal = (value: number): number => {
 
 const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'saturation', ramp.saturationRange);
+  
+  // Clear advanced values when range changes to force recalculation
+  useEffect(() => {
+    if (ramp.saturationStart !== undefined || ramp.saturationEnd !== undefined) {
+      onUpdate({ 
+        saturationStart: undefined, 
+        saturationEnd: undefined 
+      });
+    }
+  }, [ramp.saturationRange]);
   
   const getReferenceValue = () => {
     try {
