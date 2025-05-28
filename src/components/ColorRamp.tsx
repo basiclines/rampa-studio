@@ -25,6 +25,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
 }) => {
   const { toast } = useToast();
   const [isHovered, setIsHovered] = useState(false);
+  const [isEditing, setIsEditing] = useState(false);
   
   // Generate colors with preview blend mode if provided
   const colors = useMemo(() => {
@@ -84,57 +85,81 @@ const ColorRamp: React.FC<ColorRampProps> = ({
 
   return (
     <div 
-      className={`space-y-4 min-w-[120px] cursor-pointer transition-all duration-300 p-3 rounded-lg relative ${
-        isSelected 
-          ? 'bg-blue-50 ring-2 ring-blue-200 shadow-lg' 
-          : 'hover:bg-gray-50 hover:shadow-md hover:scale-105'
-      }`}
+      className={`space-y-4 flex-shrink-0 cursor-pointer transition-all duration-300 rounded-lg relative
+        ${isSelected ? 'bg-blue-50 ring-2 ring-blue-200 shadow-lg' : 'hover:bg-gray-50 hover:shadow-md'}
+      `}
+      style={{
+        padding: 0,
+        boxSizing: 'border-box',
+        height: 'calc(100vh - 96px)',
+        margin: 0,
+        maxHeight: 'calc(100vh - 96px)',
+        width: 240,
+        minWidth: 200,
+        maxWidth: 320,
+        transition: 'background 0.2s, box-shadow 0.2s, border-color 0.2s',
+      }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       {/* Hover Actions */}
-      {isHovered && (
-        <div className="absolute top-2 right-2 z-30 flex gap-1">
-          <Button 
-            variant="outline" 
-            size="sm" 
-            onClick={copyAllColors}
-            className="h-8 w-8 p-0 bg-white shadow-md"
-          >
-            <Clipboard className="w-3 h-3" />
-          </Button>
-          {onDuplicate && (
+      <div className="pointer-events-none">
+        {isHovered && (
+          <div className="absolute top-2 right-2 z-30 flex gap-1 pointer-events-auto">
             <Button 
               variant="outline" 
               size="sm" 
-              onClick={handleDuplicate}
+              onClick={copyAllColors}
               className="h-8 w-8 p-0 bg-white shadow-md"
+              style={{ pointerEvents: 'auto' }}
             >
-              <Copy className="w-3 h-3" />
+              <Clipboard className="w-3 h-3" />
             </Button>
-          )}
-          {onDelete && (
-            <Button 
-              variant="outline" 
-              size="sm" 
-              onClick={handleDelete}
-              className="h-8 w-8 p-0 bg-white shadow-md hover:bg-red-50 hover:border-red-300"
-            >
-              <Trash2 className="w-3 h-3" />
-            </Button>
-          )}
-        </div>
-      )}
+            {onDuplicate && (
+              <Button 
+                variant="outline" 
+                size="sm" 
+                onClick={handleDuplicate}
+                className="h-8 w-8 p-0 bg-white shadow-md"
+                style={{ pointerEvents: 'auto' }}
+              >
+                <Copy className="w-3 h-3" />
+              </Button>
+            )}
+            {onDelete && (
+              <Button 
+                variant="outline" 
+                size="sm" 
+                onClick={handleDelete}
+                className="h-8 w-8 p-0 bg-white shadow-md hover:bg-red-50 hover:border-red-300"
+                style={{ pointerEvents: 'auto' }}
+              >
+                <Trash2 className="w-3 h-3" />
+              </Button>
+            )}
+          </div>
+        )}
+      </div>
 
-      <div className="text-center space-y-2">
+      <div className="text-center space-y-2" style={{ paddingTop: 24, paddingLeft: 24, paddingRight: 24 }}>
         {isSelected ? (
-          <Input
-            value={config.name}
-            onChange={e => onUpdateConfig({ name: e.target.value })}
-            className="border border-gray-200 p-2 text-lg font-semibold bg-white focus-visible:ring-2 focus-visible:ring-blue-500 text-center"
-            placeholder="Color ramp name"
-            autoFocus
-          />
+          <div
+            className="relative"
+            onMouseEnter={() => setIsEditing(true)}
+            onMouseLeave={() => setIsEditing(false)}
+          >
+            <Input
+              value={config.name}
+              onChange={e => onUpdateConfig({ name: e.target.value })}
+              className={`text-lg font-semibold text-center transition-all duration-150
+                ${isEditing ? 'border border-gray-200 p-2 bg-white focus-visible:ring-2 focus-visible:ring-blue-500' : 'border-none bg-transparent p-0 focus-visible:ring-0 cursor-pointer'}`}
+              placeholder="Color ramp name"
+              spellCheck={false}
+              tabIndex={0}
+              onFocus={() => setIsEditing(true)}
+              onBlur={() => setIsEditing(false)}
+            />
+          </div>
         ) : (
           <h3 className={`text-lg font-medium transition-colors ${
             isSelected ? 'text-blue-700' : 'text-gray-700'
@@ -144,16 +169,15 @@ const ColorRamp: React.FC<ColorRampProps> = ({
         )}
       </div>
       
-      <div className="relative isolate">
+      <div className="relative isolate" style={{ paddingLeft: 24, paddingRight: 24, paddingBottom: 24, height: 'calc(100% - 56px)' }}>
         {/* Color Ramp */}
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1" style={{ height: '100%' }}>
           {colors.map((color, index) => {
             const isLocked = config.lockedColors && config.lockedColors[index];
-            
             return (
-              <div key={index} className="relative">
+              <div key={index} className="relative flex-1 min-h-0">
                 <div
-                  className="group relative w-full h-12 border border-gray-200 overflow-hidden transition-all duration-200 hover:border-gray-300"
+                  className="group relative w-full h-full border border-gray-200 overflow-hidden transition-all duration-200 hover:border-gray-300 flex items-stretch"
                   style={{ backgroundColor: color }}
                 >
                   {/* Hex value on bottom-right - only visible when hovering the entire ramp */}
@@ -164,7 +188,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       </span>
                     </div>
                   )}
-                  
                   <Button
                     variant="ghost"
                     size="sm"

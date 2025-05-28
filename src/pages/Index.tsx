@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useRef, useEffect } from 'react';
 import { Plus, Download, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
@@ -30,6 +30,8 @@ const Index = () => {
       lockedColors: {},
     },
   ]);
+  const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
+  const [sidebarPos, setSidebarPos] = useState<{ top: number; left: number; side: 'left' | 'right' } | null>(null);
 
   const selectedRamp = colorRamps.find(ramp => ramp.id === selectedRampId);
 
@@ -114,8 +116,80 @@ const Index = () => {
     selectedRamp.lightnessAdvanced || selectedRamp.chromaAdvanced || selectedRamp.saturationAdvanced
   );
 
-  // Calculate sidebar width based on advanced mode usage
-  const sidebarWidth = hasAdvancedMode ? 'w-[600px]' : 'w-80';
+  useEffect(() => {
+    if (!selectedRampId) {
+      setSidebarPos(null);
+      return;
+    }
+    const rampNode = rampRefs.current[selectedRampId];
+    if (!rampNode) return;
+    const rect = rampNode.getBoundingClientRect();
+    const sidebarWidth = hasAdvancedMode ? 600 : 320;
+    const gap = 24;
+    const windowWidth = window.innerWidth;
+    // Prefer left if both sides have space
+    const hasSpaceRight = rect.right + sidebarWidth + gap <= windowWidth;
+    const hasSpaceLeft = rect.left - sidebarWidth - gap >= 0;
+    let left = rect.right + gap;
+    let side: 'left' | 'right' = 'right';
+    if (hasSpaceLeft && hasSpaceRight) {
+      left = rect.left - sidebarWidth - gap;
+      side = 'left';
+    } else if (hasSpaceLeft) {
+      left = rect.left - sidebarWidth - gap;
+      side = 'left';
+    } else if (hasSpaceRight) {
+      left = rect.right + gap;
+      side = 'right';
+    }
+    setSidebarPos({
+      top: rect.top + window.scrollY,
+      left: left + window.scrollX,
+      side,
+    });
+  }, [selectedRampId, hasAdvancedMode]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (selectedRampId) {
+        setSidebarPos(null);
+        setTimeout(() => {
+          const rampNode = rampRefs.current[selectedRampId];
+          if (!rampNode) return;
+          const rect = rampNode.getBoundingClientRect();
+          const sidebarWidth = hasAdvancedMode ? 600 : 320;
+          const gap = 24;
+          const windowWidth = window.innerWidth;
+          // Prefer left if both sides have space
+          const hasSpaceRight = rect.right + sidebarWidth + gap <= windowWidth;
+          const hasSpaceLeft = rect.left - sidebarWidth - gap >= 0;
+          let left = rect.right + gap;
+          let side: 'left' | 'right' = 'right';
+          if (hasSpaceLeft && hasSpaceRight) {
+            left = rect.left - sidebarWidth - gap;
+            side = 'left';
+          } else if (hasSpaceLeft) {
+            left = rect.left - sidebarWidth - gap;
+            side = 'left';
+          } else if (hasSpaceRight) {
+            left = rect.right + gap;
+            side = 'right';
+          }
+          setSidebarPos({
+            top: rect.top + window.scrollY,
+            left: left + window.scrollX,
+            side,
+          });
+        }, 0);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('scroll', handleResize, true);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', handleResize, true);
+    };
+  }, [selectedRampId, hasAdvancedMode]);
 
   return (
     <div className="min-h-screen bg-[#F5F5F5] flex">
@@ -127,9 +201,22 @@ const Index = () => {
         </Button>
       </div>
 
-      {/* Sidebar - Only shown when a ramp is selected */}
-      {selectedRamp && (
-        <div className={`${sidebarWidth} bg-white border-r border-gray-200 transition-all duration-300`}>
+      {/* Floating Sidebar - Only shown when a ramp is selected */}
+      {selectedRamp && sidebarPos && (
+        <div
+          style={{
+            position: 'absolute',
+            top: sidebarPos.top,
+            left: sidebarPos.left,
+            width: hasAdvancedMode ? 600 : 320,
+            zIndex: 40,
+            boxShadow: '0 4px 32px 0 rgba(0,0,0,0.10)',
+            borderRadius: 16,
+            background: 'white',
+            border: '1px solid #e5e7eb',
+            transition: 'left 0.2s, top 0.2s',
+          }}
+        >
           <ScrollArea className="h-screen">
             <div className="p-6">
               {/* Close button */}
@@ -139,7 +226,6 @@ const Index = () => {
                   <X className="w-4 h-4" />
                 </Button>
               </div>
-              
               <ColorRampControls
                 ramp={selectedRamp}
                 canDelete={colorRamps.length > 1}
@@ -154,11 +240,16 @@ const Index = () => {
       )}
 
       {/* Main Content */}
-      <div className="flex-1 p-8">
+      <div className="flex-1 p-8" style={{ paddingLeft: 48, paddingRight: 48 }}>
         <div className="max-w-none">
-          <div className="flex gap-6 justify-center pb-4 flex-wrap">
+          <div className="flex gap-6 pb-4 overflow-x-auto flex-nowrap justify-center mx-auto" style={{ WebkitOverflowScrolling: 'touch', maxWidth: '100%' }}>
             {colorRamps.map((ramp) => (
-              <div key={ramp.id} onClick={() => handleColorRampClick(ramp.id)}>
+              <div
+                key={ramp.id}
+                ref={el => (rampRefs.current[ramp.id] = el)}
+                onClick={() => handleColorRampClick(ramp.id)}
+                className="flex-shrink-0" style={{ width: 240, minWidth: 200, maxWidth: 320 }}
+              >
                 <ColorRamp 
                   config={ramp} 
                   onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
@@ -169,13 +260,13 @@ const Index = () => {
                 />
               </div>
             ))}
-            
             {/* Add Color Ramp Button */}
             <Button 
               onClick={addColorRamp} 
               variant="outline" 
               size="icon"
               className="w-12 h-12 rounded-full bg-white border-2 border-dashed border-gray-300 hover:border-gray-400 hover:bg-gray-50 flex-shrink-0"
+              style={{ minWidth: 48 }}
             >
               <Plus className="w-5 h-5 text-gray-600" />
             </Button>
