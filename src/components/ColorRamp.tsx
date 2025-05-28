@@ -34,12 +34,24 @@ interface ColorRampConfig {
 interface ColorRampProps {
   config: ColorRampConfig;
   onUpdateConfig: (updates: Partial<ColorRampConfig>) => void;
+  previewBlendMode?: string;
 }
 
-const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
+const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig, previewBlendMode }) => {
   const { toast } = useToast();
   const [isHovered, setIsHovered] = useState(false);
-  const colors = generateColorRamp(config);
+  
+  // Generate colors with preview blend mode if provided
+  const colors = useMemo(() => {
+    if (previewBlendMode && previewBlendMode !== config.tintBlendMode) {
+      const previewConfig = {
+        ...config,
+        tintBlendMode: previewBlendMode as any
+      };
+      return generateColorRamp(previewConfig);
+    }
+    return generateColorRamp(config);
+  }, [config, previewBlendMode]);
 
   const copyAllColors = () => {
     const colorString = colors.join('\n');
