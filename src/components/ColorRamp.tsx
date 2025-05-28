@@ -3,33 +3,8 @@ import React, { useMemo, useState } from 'react';
 import { Lock, Clipboard } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
-import chroma from 'chroma-js';
-
-interface ColorRampConfig {
-  id: string;
-  name: string;
-  baseColor: string;
-  totalSteps: number;
-  lightnessRange: number;
-  lightnessStart?: number;
-  lightnessEnd?: number;
-  lightnessAdvanced?: boolean;
-  chromaRange: number;
-  chromaStart?: number;
-  chromaEnd?: number;
-  chromaAdvanced?: boolean;
-  saturationRange: number;
-  saturationStart?: number;
-  saturationEnd?: number;
-  saturationAdvanced?: boolean;
-  tintColor?: string;
-  tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'multiply' | 'overlay';
-  lockedColors: { [index: number]: string };
-}
+import { ColorRampConfig } from '@/types/colorRamp';
 
 interface ColorRampProps {
   config: ColorRampConfig;
