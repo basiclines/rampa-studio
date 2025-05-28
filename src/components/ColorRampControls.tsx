@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from 'react';
 import { Trash2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -15,7 +16,6 @@ interface ColorRampControlsProps {
   ramp: ColorRampConfig;
   canDelete: boolean;
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
-  onDuplicate: () => void;
   onDelete: () => void;
   onPreviewBlendMode: (blendMode: string | undefined) => void;
 }
@@ -24,7 +24,6 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   ramp,
   canDelete,
   onUpdate,
-  onDuplicate,
   onDelete,
   onPreviewBlendMode,
 }) => {
@@ -33,33 +32,17 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   const [isChromaAdvanced, setIsChromaAdvanced] = useState(ramp.chromaAdvanced || false);
   const [isSaturationAdvanced, setIsSaturationAdvanced] = useState(ramp.saturationAdvanced || false);
 
-  const handleDuplicate = useCallback(() => {
-    onDuplicate();
-    toast({
-      title: "Color Ramp Duplicated",
-      description: `${ramp.name} has been duplicated.`,
-    });
-  }, [onDuplicate, ramp.name, toast]);
-
   return (
     <div className="space-y-6">
-      {/* Header with name and delete button */}
+      {/* Header with delete button */}
       <div className="flex justify-between items-center">
-        <div className="flex-1">
-          <Label htmlFor="name">Name</Label>
-          <Input
-            id="name"
-            value={ramp.name}
-            onChange={(e) => onUpdate({ name: e.target.value })}
-            className="mt-1"
-          />
-        </div>
+        <h3 className="text-lg font-medium">Edit: {ramp.name}</h3>
         {canDelete && (
           <Button
             variant="outline"
             size="sm"
             onClick={onDelete}
-            className="ml-3 text-red-600 hover:text-red-700 hover:bg-red-50"
+            className="text-red-600 hover:text-red-700 hover:bg-red-50"
           >
             <Trash2 className="w-4 h-4" />
           </Button>
@@ -112,7 +95,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <GradientControl 
             startValue={ramp.lightnessStart ?? 0}
             endValue={ramp.lightnessEnd ?? 100}
-            onUpdate={(start, end) => {
+            onChange={(start, end) => {
               onUpdate({ 
                 lightnessStart: start,
                 lightnessEnd: end
@@ -144,7 +127,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <GradientControl 
             startValue={ramp.chromaStart ?? 0}
             endValue={ramp.chromaEnd ?? 100}
-            onUpdate={(start, end) => {
+            onChange={(start, end) => {
               onUpdate({ 
                 chromaStart: start,
                 chromaEnd: end
@@ -176,7 +159,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <GradientControl 
             startValue={ramp.saturationStart ?? 0}
             endValue={ramp.saturationEnd ?? 100}
-            onUpdate={(start, end) => {
+            onChange={(start, end) => {
               onUpdate({ 
                 saturationStart: start,
                 saturationEnd: end
