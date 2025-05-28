@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { Plus, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -34,6 +33,7 @@ interface ColorRampConfig {
 
 const Index = () => {
   const { toast } = useToast();
+  const [previewBlendModes, setPreviewBlendModes] = useState<{ [rampId: string]: string | undefined }>({});
   const [colorRamps, setColorRamps] = useState<ColorRampConfig[]>([
     {
       id: '1',
@@ -110,6 +110,13 @@ const Index = () => {
     }
   }, [colorRamps, toast]);
 
+  const handlePreviewBlendMode = useCallback((rampId: string, blendMode: string | undefined) => {
+    setPreviewBlendModes(prev => ({
+      ...prev,
+      [rampId]: blendMode
+    }));
+  }, []);
+
   // Check if any ramp has advanced mode enabled
   const hasAdvancedMode = colorRamps.some(ramp => 
     ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced
@@ -143,6 +150,7 @@ const Index = () => {
                     onUpdate={(updates) => updateColorRamp(ramp.id, updates)}
                     onDuplicate={() => duplicateColorRamp(ramp)}
                     onDelete={() => removeColorRamp(ramp.id)}
+                    onPreviewBlendMode={(blendMode) => handlePreviewBlendMode(ramp.id, blendMode)}
                   />
                 </div>
               ))}
@@ -169,6 +177,7 @@ const Index = () => {
                 key={ramp.id}
                 config={ramp} 
                 onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
+                previewBlendMode={previewBlendModes[ramp.id]}
               />
             ))}
             

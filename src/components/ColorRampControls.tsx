@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 import { Edit3, Copy, Trash2, RotateCcw, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -38,6 +39,7 @@ interface ColorRampControlsProps {
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
   onDuplicate: () => void;
   onDelete: () => void;
+  onPreviewBlendMode?: (blendMode: string | undefined) => void;
 }
 
 const ColorRampControls: React.FC<ColorRampControlsProps> = ({
@@ -46,6 +48,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   onUpdate,
   onDuplicate,
   onDelete,
+  onPreviewBlendMode,
 }) => {
   const { toast } = useToast();
 
@@ -278,9 +281,27 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     <SelectValue placeholder="Select blend mode" />
                   </SelectTrigger>
                   <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
-                    <SelectItem value="normal">Normal</SelectItem>
-                    <SelectItem value="multiply">Multiply</SelectItem>
-                    <SelectItem value="overlay">Overlay</SelectItem>
+                    <SelectItem 
+                      value="normal"
+                      onMouseEnter={() => onPreviewBlendMode?.('normal')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Normal
+                    </SelectItem>
+                    <SelectItem 
+                      value="multiply"
+                      onMouseEnter={() => onPreviewBlendMode?.('multiply')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Multiply
+                    </SelectItem>
+                    <SelectItem 
+                      value="overlay"
+                      onMouseEnter={() => onPreviewBlendMode?.('overlay')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Overlay
+                    </SelectItem>
                   </SelectContent>
                 </Select>
               </div>
