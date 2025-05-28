@@ -1,5 +1,6 @@
+
 import React, { useState, useCallback } from 'react';
-import { Plus, Download } from 'lucide-react';
+import { Plus, Download, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -12,6 +13,7 @@ import { ColorRampConfig } from '@/types/colorRamp';
 const Index = () => {
   const { toast } = useToast();
   const [previewBlendModes, setPreviewBlendModes] = useState<{ [rampId: string]: string | undefined }>({});
+  const [selectedRampId, setSelectedRampId] = useState<string | null>(null);
   const [colorRamps, setColorRamps] = useState<ColorRampConfig[]>([
     {
       id: '1',
@@ -29,6 +31,8 @@ const Index = () => {
       lockedColors: {},
     },
   ]);
+
+  const selectedRamp = colorRamps.find(ramp => ramp.id === selectedRampId);
 
   const addColorRamp = useCallback(() => {
     const newRamp: ColorRampConfig = {
@@ -57,7 +61,10 @@ const Index = () => {
 
   const removeColorRamp = useCallback((id: string) => {
     setColorRamps(prev => prev.filter(ramp => ramp.id !== id));
-  }, []);
+    if (selectedRampId === id) {
+      setSelectedRampId(null);
+    }
+  }, [selectedRampId]);
 
   const updateColorRamp = useCallback((id: string, updates: Partial<ColorRampConfig>) => {
     setColorRamps(prev => prev.map(ramp => 
@@ -95,9 +102,17 @@ const Index = () => {
     }));
   }, []);
 
+  const handleColorRampClick = useCallback((rampId: string) => {
+    setSelectedRampId(rampId);
+  }, []);
+
+  const closeSidebar = useCallback(() => {
+    setSelectedRampId(null);
+  }, []);
+
   // Check if any ramp has advanced mode enabled
-  const hasAdvancedMode = colorRamps.some(ramp => 
-    ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced
+  const hasAdvancedMode = selectedRamp && (
+    selectedRamp.lightnessAdvanced || selectedRamp.chromaAdvanced || selectedRamp.saturationAdvanced
   );
 
   // Calculate sidebar width based on advanced mode usage
@@ -113,29 +128,31 @@ const Index = () => {
         </Button>
       </div>
 
-      {/* Sidebar */}
-      <div className={`${sidebarWidth} bg-white border-r border-gray-200 transition-all duration-300`}>
-        <ScrollArea className="h-screen">
-          <div className="p-6">
-            {/* Configuration Controls */}
-            <div className="space-y-8">
-              {colorRamps.map((ramp, index) => (
-                <div key={ramp.id}>
-                  {index > 0 && <Separator className="mb-8" />}
-                  <ColorRampControls
-                    ramp={ramp}
-                    canDelete={colorRamps.length > 1}
-                    onUpdate={(updates) => updateColorRamp(ramp.id, updates)}
-                    onDuplicate={() => duplicateColorRamp(ramp)}
-                    onDelete={() => removeColorRamp(ramp.id)}
-                    onPreviewBlendMode={(blendMode) => handlePreviewBlendMode(ramp.id, blendMode)}
-                  />
-                </div>
-              ))}
+      {/* Sidebar - Only shown when a ramp is selected */}
+      {selectedRamp && (
+        <div className={`${sidebarWidth} bg-white border-r border-gray-200 transition-all duration-300`}>
+          <ScrollArea className="h-screen">
+            <div className="p-6">
+              {/* Close button */}
+              <div className="flex justify-between items-center mb-6">
+                <h2 className="text-lg font-semibold">Edit Color Ramp</h2>
+                <Button variant="ghost" size="sm" onClick={closeSidebar}>
+                  <X className="w-4 h-4" />
+                </Button>
+              </div>
+              
+              <ColorRampControls
+                ramp={selectedRamp}
+                canDelete={colorRamps.length > 1}
+                onUpdate={(updates) => updateColorRamp(selectedRamp.id, updates)}
+                onDuplicate={() => duplicateColorRamp(selectedRamp)}
+                onDelete={() => removeColorRamp(selectedRamp.id)}
+                onPreviewBlendMode={(blendMode) => handlePreviewBlendMode(selectedRamp.id, blendMode)}
+              />
             </div>
-          </div>
-        </ScrollArea>
-      </div>
+          </ScrollArea>
+        </div>
+      )}
 
       {/* Main Content */}
       <div className="flex-1 p-8">
@@ -145,18 +162,20 @@ const Index = () => {
               Color Ramps Preview
             </h2>
             <p className="text-gray-600">
-              Preview and compare your color ramps
+              Click on a color ramp to edit it
             </p>
           </div>
           
           <div className="flex gap-6 items-start overflow-x-auto pb-4">
             {colorRamps.map((ramp) => (
-              <ColorRamp 
-                key={ramp.id}
-                config={ramp} 
-                onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
-                previewBlendMode={previewBlendModes[ramp.id]}
-              />
+              <div key={ramp.id} onClick={() => handleColorRampClick(ramp.id)}>
+                <ColorRamp 
+                  config={ramp} 
+                  onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
+                  previewBlendMode={previewBlendModes[ramp.id]}
+                  isSelected={selectedRampId === ramp.id}
+                />
+              </div>
             ))}
             
             {/* Add Color Ramp Button */}

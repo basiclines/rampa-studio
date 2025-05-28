@@ -35,9 +35,10 @@ interface ColorRampProps {
   config: ColorRampConfig;
   onUpdateConfig: (updates: Partial<ColorRampConfig>) => void;
   previewBlendMode?: string;
+  isSelected?: boolean;
 }
 
-const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig, previewBlendMode }) => {
+const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig, previewBlendMode, isSelected = false }) => {
   const { toast } = useToast();
   const [isHovered, setIsHovered] = useState(false);
   
@@ -80,19 +81,37 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig, previewBl
   };
 
   return (
-    <div className="space-y-4 min-w-[120px]">
+    <div 
+      className={`space-y-4 min-w-[120px] cursor-pointer transition-all duration-300 p-3 rounded-lg ${
+        isSelected 
+          ? 'bg-blue-50 ring-2 ring-blue-200 shadow-lg' 
+          : 'hover:bg-gray-50 hover:shadow-md hover:scale-105'
+      }`}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <div className="text-center space-y-2">
-        <h3 className="text-lg font-medium text-gray-700">{config.name}</h3>
-        <Button variant="outline" size="sm" onClick={copyAllColors}>
+        <h3 className={`text-lg font-medium transition-colors ${
+          isSelected ? 'text-blue-700' : 'text-gray-700'
+        }`}>
+          {config.name}
+        </h3>
+        <Button 
+          variant="outline" 
+          size="sm" 
+          onClick={(e) => {
+            e.stopPropagation();
+            copyAllColors();
+          }}
+          className={`transition-colors ${
+            isSelected ? 'border-blue-300 hover:border-blue-400' : ''
+          }`}
+        >
           <Clipboard className="w-4 h-4" />
         </Button>
       </div>
       
-      <div 
-        className="relative isolate"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
+      <div className="relative isolate">
         {/* Color Ramp */}
         <div className="flex flex-col gap-1">
           {colors.map((color, index) => {
@@ -101,7 +120,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig, previewBl
             return (
               <div key={index} className="relative">
                 <div
-                  className="group relative w-full h-12 border border-gray-200 overflow-hidden"
+                  className="group relative w-full h-12 border border-gray-200 overflow-hidden transition-all duration-200 hover:border-gray-300"
                   style={{ backgroundColor: color }}
                 >
                   {/* Hex value on bottom-right - only visible when hovering the entire ramp */}
