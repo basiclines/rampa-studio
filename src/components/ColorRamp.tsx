@@ -38,6 +38,7 @@ interface ColorRampProps {
 
 const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
   const { toast } = useToast();
+  const [isHovered, setIsHovered] = useState(false);
   const colors = generateColorRamp(config);
 
   const copyAllColors = () => {
@@ -66,18 +67,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
     });
   };
 
-  const handleColorChange = (index: number, newColor: string) => {
-    const newLockedColors = { ...config.lockedColors };
-    newLockedColors[index] = newColor;
-    
-    onUpdateConfig({ lockedColors: newLockedColors });
-    
-    toast({
-      title: "Color Updated & Locked",
-      description: `Color has been changed to ${newColor} and automatically locked.`,
-    });
-  };
-
   return (
     <div className="space-y-4 min-w-[120px]">
       <div className="text-center space-y-2">
@@ -87,14 +76,27 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
         </Button>
       </div>
       
-      <div className="relative isolate">
+      <div 
+        className="relative isolate"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         {/* Color Ramp */}
         <div className="flex flex-col gap-1">
           {colors.map((color, index) => {
             const isLocked = config.lockedColors && config.lockedColors[index];
             
             return (
-              <div key={index} className="space-y-1">
+              <div key={index} className="relative">
+                {/* Hex value on top - only visible when hovering the entire ramp */}
+                {isHovered && (
+                  <div className="absolute -top-6 left-0 right-0 text-center z-20">
+                    <span className="text-xs text-gray-600 bg-white px-1 rounded shadow-sm">
+                      {color}
+                    </span>
+                  </div>
+                )}
+                
                 <div
                   className="group relative w-full h-12 border border-gray-200 overflow-hidden"
                   style={{ backgroundColor: color }}
@@ -114,27 +116,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({ config, onUpdateConfig }) => {
                   >
                     <Lock className="w-3 h-3" />
                   </Button>
-                </div>
-                
-                <div className="flex gap-1 items-center">
-                  <Input
-                    type="color"
-                    value={color}
-                    onChange={(e) => handleColorChange(index, e.target.value)}
-                    className="w-8 h-6 border border-gray-300 cursor-pointer p-0"
-                  />
-                  <Input
-                    type="text"
-                    value={color}
-                    onChange={(e) => {
-                      const newColor = e.target.value;
-                      if (/^#[0-9A-F]{6}$/i.test(newColor) || /^#[0-9A-F]{3}$/i.test(newColor)) {
-                        handleColorChange(index, newColor);
-                      }
-                    }}
-                    className="flex-1 text-xs h-6"
-                    placeholder="#000000"
-                  />
                 </div>
               </div>
             );
