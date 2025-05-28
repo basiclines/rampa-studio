@@ -25,8 +25,6 @@ const Index = () => {
       chromaAdvanced: false,
       saturationRange: 40,
       saturationAdvanced: false,
-      tintColor: '#000000',
-      tintOpacity: 0,
       lockedColors: {},
     },
   ]);
@@ -44,8 +42,6 @@ const Index = () => {
       lightnessRange: 80,
       chromaRange: 60,
       saturationRange: 40,
-      tintColor: '#000000',
-      tintOpacity: 0,
       lockedColors: {},
     };
     setColorRamps(prev => [...prev, newRamp]);

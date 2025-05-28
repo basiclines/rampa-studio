@@ -19,6 +19,26 @@ interface ColorRampControlsProps {
   onPreviewBlendMode?: (blendMode: string | undefined) => void;
 }
 
+const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient' | 'proportional', onChange: (v: 'simple' | 'gradient' | 'proportional') => void }) => (
+  <div className="inline-flex rounded-md border border-gray-200 bg-white overflow-hidden text-xs">
+    <button
+      className={`px-2 py-1 ${value === 'simple' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('simple')}
+      type="button"
+    >Simple</button>
+    <button
+      className={`px-2 py-1 ${value === 'gradient' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('gradient')}
+      type="button"
+    >Gradient</button>
+    <button
+      className="px-2 py-1 text-gray-400 bg-gray-50 cursor-not-allowed"
+      disabled
+      type="button"
+    >Proportional</button>
+  </div>
+);
+
 const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   ramp,
   canDelete,
@@ -28,6 +48,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   onPreviewBlendMode,
 }) => {
   const { toast } = useToast();
+
+  const [showTint, setShowTint] = useState(!!ramp.tintColor);
 
   const resetAttribute = (attribute: 'lightness' | 'hue' | 'saturation') => {
     try {
@@ -149,13 +171,38 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               </div>
             </div>
             
+            {!showTint && (
+              <div>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="mt-2"
+                  onClick={() => {
+                    setShowTint(true);
+                    const updates: Partial<ColorRampConfig> = {};
+                    if (!ramp.tintColor) {
+                      updates.tintColor = '#000000';
+                    }
+                    if (!ramp.tintOpacity) {
+                      updates.tintOpacity = 10;
+                    }
+                    if (Object.keys(updates).length > 0) {
+                      onUpdate(updates);
+                    }
+                  }}
+                >
+                  Add tint color
+                </Button>
+              </div>
+            )}
+            
             <div className="space-y-2">
               <Label>Total Steps: {ramp.totalSteps}</Label>
               <div className="flex gap-2 items-center">
                 <Slider
                   value={[ramp.totalSteps]}
                   onValueChange={([value]) => onUpdate({ totalSteps: Math.round(value) })}
-                  max={21}
+                  max={100}
                   min={3}
                   step={1}
                   className="flex-1"
@@ -164,207 +211,208 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   type="number"
                   value={ramp.totalSteps}
                   onChange={(e) => {
-                    const value = Math.max(3, Math.min(21, parseInt(e.target.value) || 3));
+                    const value = Math.max(3, Math.min(100, parseInt(e.target.value) || 3));
                     onUpdate({ totalSteps: value });
                   }}
                   min={3}
-                  max={21}
+                  max={100}
                   className="w-16 text-center"
                 />
               </div>
             </div>
           </div>
 
-          {/* Tint controls */}
-          <div className="space-y-4">
-            <div className="space-y-2">
-              <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
-              <div className="flex gap-2">
-                <Input
-                  id={`tint-color-${ramp.id}`}
-                  type="color"
-                  value={ramp.tintColor || '#000000'}
-                  onChange={(e) => onUpdate({ tintColor: e.target.value })}
-                  className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
-                />
-                <Input
-                  value={ramp.tintColor || '#000000'}
-                  onChange={(e) => onUpdate({ tintColor: e.target.value })}
-                  className="flex-1"
-                  placeholder="#000000"
-                />
-              </div>
-            </div>
-            
-            <div className="space-y-2">
-              <Label>Tint Opacity: {ramp.tintOpacity || 0}%</Label>
-              <div className="flex gap-2 items-center">
-                <Slider
-                  value={[ramp.tintOpacity || 0]}
-                  onValueChange={([value]) => onUpdate({ tintOpacity: value })}
-                  max={100}
-                  min={0}
-                  step={1}
-                  className="flex-1"
-                />
-                <Input
-                  type="number"
-                  value={ramp.tintOpacity || 0}
-                  onChange={(e) => {
-                    const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 0));
-                    onUpdate({ tintOpacity: value });
-                  }}
-                  min={0}
-                  max={100}
-                  className="w-16 text-center"
-                />
-              </div>
-            </div>
-
-            {ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0 && (
+          {/* Tint controls (hidden by default, shown if showTint is true or a tint is set) */}
+          {showTint && (
+            <div className="space-y-4">
               <div className="space-y-2">
-                <Label>Blend Mode</Label>
-                <Select
-                  value={ramp.tintBlendMode || 'normal'}
-                  onValueChange={(value: BlendMode) => 
-                    onUpdate({ tintBlendMode: value })
-                  }
-                >
-                  <SelectTrigger className="h-10">
-                    <SelectValue placeholder="Select blend mode" />
-                  </SelectTrigger>
-                  <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
-                    <SelectItem 
-                      value="normal"
-                      onMouseEnter={() => onPreviewBlendMode?.('normal')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Normal
-                    </SelectItem>
-                    <SelectItem 
-                      value="darken"
-                      onMouseEnter={() => onPreviewBlendMode?.('darken')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Darken
-                    </SelectItem>
-                    <SelectItem 
-                      value="multiply"
-                      onMouseEnter={() => onPreviewBlendMode?.('multiply')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Multiply
-                    </SelectItem>
-                    <SelectItem 
-                      value="plus-darker"
-                      onMouseEnter={() => onPreviewBlendMode?.('plus-darker')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Plus Darker
-                    </SelectItem>
-                    <SelectItem 
-                      value="color-burn"
-                      onMouseEnter={() => onPreviewBlendMode?.('color-burn')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Color Burn
-                    </SelectItem>
-                    <SelectItem 
-                      value="lighten"
-                      onMouseEnter={() => onPreviewBlendMode?.('lighten')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Lighten
-                    </SelectItem>
-                    <SelectItem 
-                      value="screen"
-                      onMouseEnter={() => onPreviewBlendMode?.('screen')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Screen
-                    </SelectItem>
-                    <SelectItem 
-                      value="plus-lighter"
-                      onMouseEnter={() => onPreviewBlendMode?.('plus-lighter')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Plus Lighter
-                    </SelectItem>
-                    <SelectItem 
-                      value="color-dodge"
-                      onMouseEnter={() => onPreviewBlendMode?.('color-dodge')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Color Dodge
-                    </SelectItem>
-                    <SelectItem 
-                      value="overlay"
-                      onMouseEnter={() => onPreviewBlendMode?.('overlay')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Overlay
-                    </SelectItem>
-                    <SelectItem 
-                      value="soft-light"
-                      onMouseEnter={() => onPreviewBlendMode?.('soft-light')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Soft Light
-                    </SelectItem>
-                    <SelectItem 
-                      value="hard-light"
-                      onMouseEnter={() => onPreviewBlendMode?.('hard-light')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Hard Light
-                    </SelectItem>
-                    <SelectItem 
-                      value="difference"
-                      onMouseEnter={() => onPreviewBlendMode?.('difference')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Difference
-                    </SelectItem>
-                    <SelectItem 
-                      value="exclusion"
-                      onMouseEnter={() => onPreviewBlendMode?.('exclusion')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Exclusion
-                    </SelectItem>
-                    <SelectItem 
-                      value="hue"
-                      onMouseEnter={() => onPreviewBlendMode?.('hue')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Hue
-                    </SelectItem>
-                    <SelectItem 
-                      value="saturation"
-                      onMouseEnter={() => onPreviewBlendMode?.('saturation')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Saturation
-                    </SelectItem>
-                    <SelectItem 
-                      value="color"
-                      onMouseEnter={() => onPreviewBlendMode?.('color')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Color
-                    </SelectItem>
-                    <SelectItem 
-                      value="luminosity"
-                      onMouseEnter={() => onPreviewBlendMode?.('luminosity')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Luminosity
-                    </SelectItem>
-                  </SelectContent>
-                </Select>
+                <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
+                <div className="flex gap-2">
+                  <Input
+                    id={`tint-color-${ramp.id}`}
+                    type="color"
+                    value={ramp.tintColor || '#000000'}
+                    onChange={(e) => onUpdate({ tintColor: e.target.value })}
+                    className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
+                  />
+                  <Input
+                    value={ramp.tintColor || '#000000'}
+                    onChange={(e) => onUpdate({ tintColor: e.target.value })}
+                    className="flex-1"
+                    placeholder="#000000"
+                  />
+                  <Button variant="ghost" size="sm" onClick={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }} className="ml-2">Remove</Button>
+                </div>
               </div>
-            )}
-          </div>
+              <div className="space-y-2">
+                <Label>Tint Opacity: {ramp.tintOpacity || 0}%</Label>
+                <div className="flex gap-2 items-center">
+                  <Slider
+                    value={[ramp.tintOpacity || 0]}
+                    onValueChange={([value]) => onUpdate({ tintOpacity: value })}
+                    max={100}
+                    min={0}
+                    step={1}
+                    className="flex-1"
+                  />
+                  <Input
+                    type="number"
+                    value={ramp.tintOpacity || 0}
+                    onChange={(e) => {
+                      const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 0));
+                      onUpdate({ tintOpacity: value });
+                    }}
+                    min={0}
+                    max={100}
+                    className="w-16 text-center"
+                  />
+                </div>
+              </div>
+              {ramp.tintOpacity && ramp.tintOpacity > 0 && (
+                <div className="space-y-2">
+                  <Label>Blend Mode</Label>
+                  <Select
+                    value={ramp.tintBlendMode || 'normal'}
+                    onValueChange={(value: BlendMode) => 
+                      onUpdate({ tintBlendMode: value })
+                    }
+                  >
+                    <SelectTrigger className="h-10">
+                      <SelectValue placeholder="Select blend mode" />
+                    </SelectTrigger>
+                    <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
+                      <SelectItem 
+                        value="normal"
+                        onMouseEnter={() => onPreviewBlendMode?.('normal')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Normal
+                      </SelectItem>
+                      <SelectItem 
+                        value="darken"
+                        onMouseEnter={() => onPreviewBlendMode?.('darken')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Darken
+                      </SelectItem>
+                      <SelectItem 
+                        value="multiply"
+                        onMouseEnter={() => onPreviewBlendMode?.('multiply')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Multiply
+                      </SelectItem>
+                      <SelectItem 
+                        value="plus-darker"
+                        onMouseEnter={() => onPreviewBlendMode?.('plus-darker')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Plus Darker
+                      </SelectItem>
+                      <SelectItem 
+                        value="color-burn"
+                        onMouseEnter={() => onPreviewBlendMode?.('color-burn')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Color Burn
+                      </SelectItem>
+                      <SelectItem 
+                        value="lighten"
+                        onMouseEnter={() => onPreviewBlendMode?.('lighten')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Lighten
+                      </SelectItem>
+                      <SelectItem 
+                        value="screen"
+                        onMouseEnter={() => onPreviewBlendMode?.('screen')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Screen
+                      </SelectItem>
+                      <SelectItem 
+                        value="plus-lighter"
+                        onMouseEnter={() => onPreviewBlendMode?.('plus-lighter')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Plus Lighter
+                      </SelectItem>
+                      <SelectItem 
+                        value="color-dodge"
+                        onMouseEnter={() => onPreviewBlendMode?.('color-dodge')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Color Dodge
+                      </SelectItem>
+                      <SelectItem 
+                        value="overlay"
+                        onMouseEnter={() => onPreviewBlendMode?.('overlay')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Overlay
+                      </SelectItem>
+                      <SelectItem 
+                        value="soft-light"
+                        onMouseEnter={() => onPreviewBlendMode?.('soft-light')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Soft Light
+                      </SelectItem>
+                      <SelectItem 
+                        value="hard-light"
+                        onMouseEnter={() => onPreviewBlendMode?.('hard-light')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Hard Light
+                      </SelectItem>
+                      <SelectItem 
+                        value="difference"
+                        onMouseEnter={() => onPreviewBlendMode?.('difference')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Difference
+                      </SelectItem>
+                      <SelectItem 
+                        value="exclusion"
+                        onMouseEnter={() => onPreviewBlendMode?.('exclusion')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Exclusion
+                      </SelectItem>
+                      <SelectItem 
+                        value="hue"
+                        onMouseEnter={() => onPreviewBlendMode?.('hue')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Hue
+                      </SelectItem>
+                      <SelectItem 
+                        value="saturation"
+                        onMouseEnter={() => onPreviewBlendMode?.('saturation')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Saturation
+                      </SelectItem>
+                      <SelectItem 
+                        value="color"
+                        onMouseEnter={() => onPreviewBlendMode?.('color')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Color
+                      </SelectItem>
+                      <SelectItem 
+                        value="luminosity"
+                        onMouseEnter={() => onPreviewBlendMode?.('luminosity')}
+                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                      >
+                        Luminosity
+                      </SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Color Adjustment Controls */}
           <div className="space-y-4">
@@ -383,22 +431,20 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   >
                     <RotateCcw className="w-3 h-3" />
                   </Button>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => {
-                      const updates: Partial<ColorRampConfig> = { lightnessAdvanced: !ramp.lightnessAdvanced };
-                      if (!ramp.lightnessAdvanced) {
+                  <SegmentedControl
+                    value={ramp.lightnessAdvanced ? 'gradient' : 'simple'}
+                    onChange={(mode) => {
+                      if (mode === 'simple') {
+                        onUpdate({ lightnessAdvanced: false });
+                      } else if (mode === 'gradient') {
+                        const updates: Partial<ColorRampConfig> = { lightnessAdvanced: true };
                         const defaults = calculateAdvancedDefaults('lightness');
                         updates.lightnessStart = ramp.lightnessStart ?? defaults.start;
                         updates.lightnessEnd = ramp.lightnessEnd ?? defaults.end;
+                        onUpdate(updates);
                       }
-                      onUpdate(updates);
                     }}
-                    className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                  >
-                    <Settings className="w-3 h-3" />
-                  </Button>
+                  />
                 </div>
               </div>
               
@@ -496,22 +542,20 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   >
                     <RotateCcw className="w-3 h-3" />
                   </Button>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => {
-                      const updates: Partial<ColorRampConfig> = { chromaAdvanced: !ramp.chromaAdvanced };
-                      if (!ramp.chromaAdvanced) {
+                  <SegmentedControl
+                    value={ramp.chromaAdvanced ? 'gradient' : 'simple'}
+                    onChange={(mode) => {
+                      if (mode === 'simple') {
+                        onUpdate({ chromaAdvanced: false });
+                      } else if (mode === 'gradient') {
+                        const updates: Partial<ColorRampConfig> = { chromaAdvanced: true };
                         const defaults = calculateAdvancedDefaults('hue');
                         updates.chromaStart = ramp.chromaStart ?? defaults.start;
                         updates.chromaEnd = ramp.chromaEnd ?? defaults.end;
+                        onUpdate(updates);
                       }
-                      onUpdate(updates);
                     }}
-                    className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                  >
-                    <Settings className="w-3 h-3" />
-                  </Button>
+                  />
                 </div>
               </div>
               
@@ -607,22 +651,20 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   >
                     <RotateCcw className="w-3 h-3" />
                   </Button>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => {
-                      const updates: Partial<ColorRampConfig> = { saturationAdvanced: !ramp.saturationAdvanced };
-                      if (!ramp.saturationAdvanced) {
+                  <SegmentedControl
+                    value={ramp.saturationAdvanced ? 'gradient' : 'simple'}
+                    onChange={(mode) => {
+                      if (mode === 'simple') {
+                        onUpdate({ saturationAdvanced: false });
+                      } else if (mode === 'gradient') {
+                        const updates: Partial<ColorRampConfig> = { saturationAdvanced: true };
                         const defaults = calculateAdvancedDefaults('saturation');
                         updates.saturationStart = ramp.saturationStart ?? defaults.start;
                         updates.saturationEnd = ramp.saturationEnd ?? defaults.end;
+                        onUpdate(updates);
                       }
-                      onUpdate(updates);
                     }}
-                    className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                  >
-                    <Settings className="w-3 h-3" />
-                  </Button>
+                  />
                 </div>
               </div>
               
