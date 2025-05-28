@@ -8,29 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import chroma from 'chroma-js';
 import { useToast } from '@/hooks/use-toast';
 import GradientSliders from '@/components/GradientSliders';
-
-interface ColorRampConfig {
-  id: string;
-  name: string;
-  baseColor: string;
-  totalSteps: number;
-  lightnessRange: number;
-  lightnessStart?: number;
-  lightnessEnd?: number;
-  lightnessAdvanced?: boolean;
-  chromaRange: number;
-  chromaStart?: number;
-  chromaEnd?: number;
-  chromaAdvanced?: boolean;
-  saturationRange: number;
-  saturationStart?: number;
-  saturationEnd?: number;
-  saturationAdvanced?: boolean;
-  tintColor?: string;
-  tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'darken' | 'multiply' | 'plus-darker' | 'color-burn' | 'lighten' | 'screen' | 'plus-lighter' | 'color-dodge' | 'overlay' | 'soft-light' | 'hard-light' | 'difference' | 'exclusion' | 'hue' | 'saturation' | 'color' | 'luminosity';
-  lockedColors: { [index: number]: string };
-}
+import { ColorRampConfig } from '@/types/colorRamp';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -335,6 +313,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                       onMouseLeave={() => onPreviewBlendMode?.(undefined)}
                     >
                       Plus Lighter
+                    </SelectItem>
+                    <SelectItem 
+                      value="color-dodge"
+                      onMouseEnter={() => onPreviewBlendMode?.('color-dodge')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Color Dodge
                     </SelectItem>
                     <SelectItem 
                       value="overlay"

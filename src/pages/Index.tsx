@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { Plus, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -8,29 +7,7 @@ import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
 import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
 import { useToast } from '@/hooks/use-toast';
-
-interface ColorRampConfig {
-  id: string;
-  name: string;
-  baseColor: string;
-  totalSteps: number;
-  lightnessRange: number;
-  lightnessStart?: number;
-  lightnessEnd?: number;
-  lightnessAdvanced?: boolean;
-  chromaRange: number;
-  chromaStart?: number;
-  chromaEnd?: number;
-  chromaAdvanced?: boolean;
-  saturationRange: number;
-  saturationStart?: number;
-  saturationEnd?: number;
-  saturationAdvanced?: boolean;
-  tintColor?: string;
-  tintOpacity?: number;
-  tintBlendMode?: 'normal' | 'darken' | 'multiply' | 'plus-darker' | 'color-burn' | 'lighten' | 'screen' | 'plus-lighter' | 'color-dodge' | 'overlay' | 'soft-light' | 'hard-light' | 'difference' | 'exclusion' | 'hue' | 'saturation' | 'color' | 'luminosity';
-  lockedColors: { [index: number]: string };
-}
+import { ColorRampConfig } from '@/types/colorRamp';
 
 const Index = () => {
   const { toast } = useToast();
