@@ -35,12 +35,16 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
     }
   };
 
+  // Ensure all values are properly rounded
+  const startValue = roundToOneDecimal(ramp.chromaStart ?? defaults.start);
+  const endValue = roundToOneDecimal(ramp.chromaEnd ?? defaults.end);
+
   return (
     <div className="flex flex-col h-full">
       <GradientControl
         label="Hue"
-        startValue={roundToOneDecimal(ramp.chromaStart ?? defaults.start)}
-        endValue={roundToOneDecimal(ramp.chromaEnd ?? defaults.end)}
+        startValue={startValue}
+        endValue={endValue}
         min={-180}
         max={180}
         onValuesChange={(start, end) => onUpdate({ 

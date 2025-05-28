@@ -33,12 +33,16 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => 
     }
   };
 
+  // Ensure all values are properly rounded
+  const startValue = roundToOneDecimal(ramp.lightnessStart ?? defaults.start);
+  const endValue = roundToOneDecimal(ramp.lightnessEnd ?? defaults.end);
+
   return (
     <div className="flex flex-col h-full">
       <GradientControl
         label="Lightness"
-        startValue={roundToOneDecimal(ramp.lightnessStart ?? defaults.start)}
-        endValue={roundToOneDecimal(ramp.lightnessEnd ?? defaults.end)}
+        startValue={startValue}
+        endValue={endValue}
         min={0}
         max={100}
         onValuesChange={(start, end) => onUpdate({ 

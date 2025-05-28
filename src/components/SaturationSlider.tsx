@@ -33,12 +33,16 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) =
     }
   };
 
+  // Ensure all values are properly rounded
+  const startValue = roundToOneDecimal(ramp.saturationStart ?? defaults.start);
+  const endValue = roundToOneDecimal(ramp.saturationEnd ?? defaults.end);
+
   return (
     <div className="flex flex-col h-full">
       <GradientControl
         label="Saturation"
-        startValue={roundToOneDecimal(ramp.saturationStart ?? defaults.start)}
-        endValue={roundToOneDecimal(ramp.saturationEnd ?? defaults.end)}
+        startValue={startValue}
+        endValue={endValue}
         min={0}
         max={100}
         onValuesChange={(start, end) => onUpdate({ 
