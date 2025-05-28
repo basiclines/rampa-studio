@@ -1,3 +1,4 @@
+
 import chroma from 'chroma-js';
 
 const roundToOneDecimal = (value: number): number => {
@@ -85,17 +86,22 @@ export const calculateAdvancedDefaults = (
     const color = chroma(baseColor);
     const [h, s, l] = color.hsl();
     
+    // Round the range first to ensure clean calculations
+    const cleanRange = roundToOneDecimal(range);
+    
     switch (attribute) {
       case 'lightness': {
         const baseLightness = roundToOneDecimal((l || 0.5) * 100);
-        const halfRange = roundToOneDecimal(range / 2);
+        const halfRange = roundToOneDecimal(cleanRange / 2);
+        const start = roundToOneDecimal(baseLightness - halfRange);
+        const end = roundToOneDecimal(baseLightness + halfRange);
         return {
-          start: roundToOneDecimal(Math.max(0, Math.min(100, baseLightness - halfRange))),
-          end: roundToOneDecimal(Math.max(0, Math.min(100, baseLightness + halfRange)))
+          start: roundToOneDecimal(Math.max(0, Math.min(100, start))),
+          end: roundToOneDecimal(Math.max(0, Math.min(100, end)))
         };
       }
       case 'hue': {
-        const halfRange = roundToOneDecimal(range / 2);
+        const halfRange = roundToOneDecimal(cleanRange / 2);
         return {
           start: roundToOneDecimal(-halfRange),
           end: roundToOneDecimal(halfRange)
@@ -103,10 +109,12 @@ export const calculateAdvancedDefaults = (
       }
       case 'saturation': {
         const baseSaturation = roundToOneDecimal((s || 0.5) * 100);
-        const halfRange = roundToOneDecimal(range / 2);
+        const halfRange = roundToOneDecimal(cleanRange / 2);
+        const start = roundToOneDecimal(baseSaturation - halfRange);
+        const end = roundToOneDecimal(baseSaturation + halfRange);
         return {
-          start: roundToOneDecimal(Math.max(0, Math.min(100, baseSaturation - halfRange))),
-          end: roundToOneDecimal(Math.max(0, Math.min(100, baseSaturation + halfRange)))
+          start: roundToOneDecimal(Math.max(0, Math.min(100, start))),
+          end: roundToOneDecimal(Math.max(0, Math.min(100, end)))
         };
       }
       default:
