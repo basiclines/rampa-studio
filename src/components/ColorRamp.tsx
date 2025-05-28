@@ -1,9 +1,8 @@
 
 import React, { useMemo, useState } from 'react';
-import { Lock, Clipboard, Copy, Trash2, Edit2, Check, X } from 'lucide-react';
+import { Lock, Clipboard, Copy, Trash2 } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
 import { ColorRampConfig } from '@/types/colorRamp';
 
@@ -26,8 +25,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
 }) => {
   const { toast } = useToast();
   const [isHovered, setIsHovered] = useState(false);
-  const [isEditingName, setIsEditingName] = useState(false);
-  const [editedName, setEditedName] = useState(config.name);
   
   // Generate colors with preview blend mode if provided
   const colors = useMemo(() => {
@@ -85,36 +82,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
     });
   };
 
-  const startEditingName = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    setIsEditingName(true);
-    setEditedName(config.name);
-  };
-
-  const saveName = () => {
-    if (editedName.trim() && editedName !== config.name) {
-      onUpdateConfig({ name: editedName.trim() });
-      toast({
-        title: "Name Updated",
-        description: `Color ramp renamed to "${editedName.trim()}".`,
-      });
-    }
-    setIsEditingName(false);
-  };
-
-  const cancelEditing = () => {
-    setIsEditingName(false);
-    setEditedName(config.name);
-  };
-
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      saveName();
-    } else if (e.key === 'Escape') {
-      cancelEditing();
-    }
-  };
-
   return (
     <div 
       className={`space-y-4 min-w-[120px] cursor-pointer transition-all duration-300 p-3 rounded-lg relative ${
@@ -126,7 +93,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       onMouseLeave={() => setIsHovered(false)}
     >
       {/* Hover Actions */}
-      {isHovered && !isEditingName && (
+      {isHovered && (
         <div className="absolute top-2 right-2 z-30 flex gap-1">
           <Button 
             variant="outline" 
@@ -160,51 +127,11 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       )}
 
       <div className="text-center space-y-2">
-        {isEditingName ? (
-          <div className="flex items-center gap-1">
-            <Input
-              value={editedName}
-              onChange={(e) => setEditedName(e.target.value)}
-              onKeyDown={handleKeyDown}
-              className="text-center text-lg font-medium h-8 px-2"
-              autoFocus
-            />
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={saveName}
-              className="h-6 w-6 p-0 text-green-600 hover:text-green-700"
-            >
-              <Check className="w-3 h-3" />
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={cancelEditing}
-              className="h-6 w-6 p-0 text-red-600 hover:text-red-700"
-            >
-              <X className="w-3 h-3" />
-            </Button>
-          </div>
-        ) : (
-          <div className="group flex items-center justify-center gap-2">
-            <h3 className={`text-lg font-medium transition-colors ${
-              isSelected ? 'text-blue-700' : 'text-gray-700'
-            }`}>
-              {config.name}
-            </h3>
-            {isHovered && (
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={startEditingName}
-                className="h-6 w-6 p-0 opacity-0 group-hover:opacity-100 transition-opacity"
-              >
-                <Edit2 className="w-3 h-3" />
-              </Button>
-            )}
-          </div>
-        )}
+        <h3 className={`text-lg font-medium transition-colors ${
+          isSelected ? 'text-blue-700' : 'text-gray-700'
+        }`}>
+          {config.name}
+        </h3>
       </div>
       
       <div className="relative isolate">
