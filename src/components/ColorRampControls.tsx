@@ -316,6 +316,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                       Color Burn
                     </SelectItem>
                     <SelectItem 
+                      value="lighten"
+                      onMouseEnter={() => onPreviewBlendMode?.('lighten')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Lighten
+                    </SelectItem>
+                    <SelectItem 
                       value="overlay"
                       onMouseEnter={() => onPreviewBlendMode?.('overlay')}
                       onMouseLeave={() => onPreviewBlendMode?.(undefined)}
