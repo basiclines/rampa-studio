@@ -19,7 +19,7 @@ interface ColorRampControlsProps {
   onPreviewBlendMode?: (blendMode: string | undefined) => void;
 }
 
-const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient' | 'proportional', onChange: (v: 'simple' | 'gradient' | 'proportional') => void }) => (
+const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient', onChange: (v: 'simple' | 'gradient') => void }) => (
   <div className="inline-flex rounded-md border border-gray-200 bg-white overflow-hidden text-xs">
     <button
       className={`px-2 py-1 ${value === 'simple' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
@@ -31,13 +31,31 @@ const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient' | 
       onClick={() => onChange('gradient')}
       type="button"
     >Gradient</button>
-    <button
-      className="px-2 py-1 text-gray-400 bg-gray-50 cursor-not-allowed"
-      disabled
-      type="button"
-    >Proportional</button>
   </div>
 );
+
+// Add scale types in English
+const SCALE_TYPES = [
+  { value: 'linear', label: 'Linear' },
+  { value: 'geometric', label: 'Geometric' },
+  { value: 'fibonacci', label: 'Fibonacci' },
+  { value: 'golden-ratio', label: 'Golden Ratio' },
+  { value: 'logarithmic', label: 'Logarithmic' },
+  { value: 'powers-of-2', label: 'Powers of 2' },
+  { value: 'musical-ratio', label: 'Musical Ratio' },
+  { value: 'cielab-uniform', label: 'CIELAB Uniform Steps' },
+  { value: 'ease-in', label: 'Ease-in' },
+  { value: 'ease-out', label: 'Ease-out' },
+  { value: 'ease-in-out', label: 'Ease-in-out' },
+  { value: 'exponential', label: 'Exponential' },
+  { value: 'sine', label: 'Sine' },
+  { value: 'cubic-bezier', label: 'Cubic-bezier' },
+  { value: 'back', label: 'Back' },
+  { value: 'elastic', label: 'Elastic' },
+];
+
+// Track implemented scale types
+const IMPLEMENTED_SCALES = ['linear', 'geometric', 'fibonacci', 'golden-ratio', 'logarithmic', 'powers-of-2', 'musical-ratio', 'cielab-uniform', 'ease-in', 'ease-out'];
 
 const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   ramp,
@@ -50,6 +68,9 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   const { toast } = useToast();
 
   const [showTint, setShowTint] = useState(!!ramp.tintColor);
+  const [lightnessScale, setLightnessScale] = useState('linear');
+  const [hueScale, setHueScale] = useState('linear');
+  const [saturationScale, setSaturationScale] = useState('linear');
 
   const resetAttribute = (attribute: 'lightness' | 'hue' | 'saturation') => {
     try {
@@ -442,54 +463,71 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               </div>
               
               {ramp.lightnessAdvanced ? (
-                <div className="grid grid-cols-2 gap-2">
-                  <div>
-                    <Label className="text-xs">Start (%)</Label>
-                    <Input
-                      type="number"
-                      value={ramp.lightnessStart ?? calculateAdvancedDefaults('lightness').start}
-                      onChange={(e) => {
-                        const inputValue = e.target.value;
-                        if (inputValue === '') {
-                          onUpdate({ lightnessStart: 0 });
-                          return;
-                        }
-                        const value = parseFloat(inputValue);
-                        if (!isNaN(value) && value >= 0 && value <= 100) {
-                          const roundedValue = Math.round(value * 10) / 10;
-                          onUpdate({ lightnessStart: roundedValue });
-                        }
-                      }}
-                      min={0}
-                      max={100}
-                      step={0.1}
-                      className="text-center text-xs"
-                    />
+                <>
+                  <div className="grid grid-cols-2 gap-2">
+                    <div>
+                      <Label className="text-xs">Start (%)</Label>
+                      <Input
+                        type="number"
+                        value={ramp.lightnessStart ?? calculateAdvancedDefaults('lightness').start}
+                        onChange={(e) => {
+                          const inputValue = e.target.value;
+                          if (inputValue === '') {
+                            onUpdate({ lightnessStart: 0 });
+                            return;
+                          }
+                          const value = parseFloat(inputValue);
+                          if (!isNaN(value) && value >= 0 && value <= 100) {
+                            const roundedValue = Math.round(value * 10) / 10;
+                            onUpdate({ lightnessStart: roundedValue });
+                          }
+                        }}
+                        min={0}
+                        max={100}
+                        step={0.1}
+                        className="text-center text-xs"
+                      />
+                    </div>
+                    <div>
+                      <Label className="text-xs">End (%)</Label>
+                      <Input
+                        type="number"
+                        value={ramp.lightnessEnd ?? calculateAdvancedDefaults('lightness').end}
+                        onChange={(e) => {
+                          const inputValue = e.target.value;
+                          if (inputValue === '') {
+                            onUpdate({ lightnessEnd: 0 });
+                            return;
+                          }
+                          const value = parseFloat(inputValue);
+                          if (!isNaN(value) && value >= 0 && value <= 100) {
+                            const roundedValue = Math.round(value * 10) / 10;
+                            onUpdate({ lightnessEnd: roundedValue });
+                          }
+                        }}
+                        min={0}
+                        max={100}
+                        step={0.1}
+                        className="text-center text-xs"
+                      />
+                    </div>
                   </div>
-                  <div>
-                    <Label className="text-xs">End (%)</Label>
-                    <Input
-                      type="number"
-                      value={ramp.lightnessEnd ?? calculateAdvancedDefaults('lightness').end}
-                      onChange={(e) => {
-                        const inputValue = e.target.value;
-                        if (inputValue === '') {
-                          onUpdate({ lightnessEnd: 0 });
-                          return;
-                        }
-                        const value = parseFloat(inputValue);
-                        if (!isNaN(value) && value >= 0 && value <= 100) {
-                          const roundedValue = Math.round(value * 10) / 10;
-                          onUpdate({ lightnessEnd: roundedValue });
-                        }
+                  <div className="mt-2">
+                    <Label className="text-xs">Scale Type</Label>
+                    <select
+                      className="w-full border rounded px-2 py-1 text-xs mt-1"
+                      value={lightnessScale}
+                      onChange={e => {
+                        setLightnessScale(e.target.value);
+                        onUpdate({ lightnessScaleType: e.target.value });
                       }}
-                      min={0}
-                      max={100}
-                      step={0.1}
-                      className="text-center text-xs"
-                    />
+                    >
+                      {SCALE_TYPES.map(type => (
+                        <option key={type.value} value={type.value}>{type.label}{!IMPLEMENTED_SCALES.includes(type.value) ? ' (soon)' : ''}</option>
+                      ))}
+                    </select>
                   </div>
-                </div>
+                </>
               ) : (
                 <div className="flex gap-2 items-center">
                   <Slider
@@ -553,50 +591,67 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               </div>
               
               {ramp.chromaAdvanced ? (
-                <div className="grid grid-cols-2 gap-2">
-                  <div>
-                    <Label className="text-xs">Start</Label>
-                    <Input
-                      type="number"
-                      value={ramp.chromaStart ?? calculateAdvancedDefaults('hue').start}
-                      onChange={(e) => {
-                        const inputValue = e.target.value;
-                        if (inputValue === '') {
-                          onUpdate({ chromaStart: 0 });
-                          return;
-                        }
-                        const value = parseFloat(inputValue);
-                        if (!isNaN(value)) {
-                          const roundedValue = Math.round(value);
-                          onUpdate({ chromaStart: roundedValue });
-                        }
-                      }}
-                      step={1}
-                      className="text-center text-xs"
-                    />
+                <>
+                  <div className="grid grid-cols-2 gap-2">
+                    <div>
+                      <Label className="text-xs">Start</Label>
+                      <Input
+                        type="number"
+                        value={ramp.chromaStart ?? calculateAdvancedDefaults('hue').start}
+                        onChange={(e) => {
+                          const inputValue = e.target.value;
+                          if (inputValue === '') {
+                            onUpdate({ chromaStart: 0 });
+                            return;
+                          }
+                          const value = parseFloat(inputValue);
+                          if (!isNaN(value)) {
+                            const roundedValue = Math.round(value);
+                            onUpdate({ chromaStart: roundedValue });
+                          }
+                        }}
+                        step={1}
+                        className="text-center text-xs"
+                      />
+                    </div>
+                    <div>
+                      <Label className="text-xs">End</Label>
+                      <Input
+                        type="number"
+                        value={ramp.chromaEnd ?? calculateAdvancedDefaults('hue').end}
+                        onChange={(e) => {
+                          const inputValue = e.target.value;
+                          if (inputValue === '') {
+                            onUpdate({ chromaEnd: 0 });
+                            return;
+                          }
+                          const value = parseFloat(inputValue);
+                          if (!isNaN(value)) {
+                            const roundedValue = Math.round(value);
+                            onUpdate({ chromaEnd: roundedValue });
+                          }
+                        }}
+                        step={1}
+                        className="text-center text-xs"
+                      />
+                    </div>
                   </div>
-                  <div>
-                    <Label className="text-xs">End</Label>
-                    <Input
-                      type="number"
-                      value={ramp.chromaEnd ?? calculateAdvancedDefaults('hue').end}
-                      onChange={(e) => {
-                        const inputValue = e.target.value;
-                        if (inputValue === '') {
-                          onUpdate({ chromaEnd: 0 });
-                          return;
-                        }
-                        const value = parseFloat(inputValue);
-                        if (!isNaN(value)) {
-                          const roundedValue = Math.round(value);
-                          onUpdate({ chromaEnd: roundedValue });
-                        }
+                  <div className="mt-2">
+                    <Label className="text-xs">Scale Type</Label>
+                    <select
+                      className="w-full border rounded px-2 py-1 text-xs mt-1"
+                      value={hueScale}
+                      onChange={e => {
+                        setHueScale(e.target.value);
+                        onUpdate({ hueScaleType: e.target.value });
                       }}
-                      step={1}
-                      className="text-center text-xs"
-                    />
+                    >
+                      {SCALE_TYPES.map(type => (
+                        <option key={type.value} value={type.value}>{type.label}{!IMPLEMENTED_SCALES.includes(type.value) ? ' (soon)' : ''}</option>
+                      ))}
+                    </select>
                   </div>
-                </div>
+                </>
               ) : (
                 <div className="flex gap-2 items-center">
                   <Slider
@@ -662,50 +717,67 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               </div>
               
               {ramp.saturationAdvanced ? (
-                <div className="grid grid-cols-2 gap-2">
-                  <div>
-                    <Label className="text-xs">Start (%)</Label>
-                    <Input
-                      type="number"
-                      value={ramp.saturationStart ?? calculateAdvancedDefaults('saturation').start}
-                      onChange={(e) => {
-                        const inputValue = e.target.value;
-                        if (inputValue === '') {
-                          onUpdate({ saturationStart: 0 });
-                          return;
-                        }
-                        const value = parseFloat(inputValue);
-                        if (!isNaN(value)) {
-                          const roundedValue = Math.round(value * 10) / 10;
-                          onUpdate({ saturationStart: roundedValue });
-                        }
-                      }}
-                      step={0.1}
-                      className="text-center text-xs"
-                    />
+                <>
+                  <div className="grid grid-cols-2 gap-2">
+                    <div>
+                      <Label className="text-xs">Start (%)</Label>
+                      <Input
+                        type="number"
+                        value={ramp.saturationStart ?? calculateAdvancedDefaults('saturation').start}
+                        onChange={(e) => {
+                          const inputValue = e.target.value;
+                          if (inputValue === '') {
+                            onUpdate({ saturationStart: 0 });
+                            return;
+                          }
+                          const value = parseFloat(inputValue);
+                          if (!isNaN(value)) {
+                            const roundedValue = Math.round(value * 10) / 10;
+                            onUpdate({ saturationStart: roundedValue });
+                          }
+                        }}
+                        step={0.1}
+                        className="text-center text-xs"
+                      />
+                    </div>
+                    <div>
+                      <Label className="text-xs">End (%)</Label>
+                      <Input
+                        type="number"
+                        value={ramp.saturationEnd ?? calculateAdvancedDefaults('saturation').end}
+                        onChange={(e) => {
+                          const inputValue = e.target.value;
+                          if (inputValue === '') {
+                            onUpdate({ saturationEnd: 0 });
+                            return;
+                          }
+                          const value = parseFloat(inputValue);
+                          if (!isNaN(value)) {
+                            const roundedValue = Math.round(value * 10) / 10;
+                            onUpdate({ saturationEnd: roundedValue });
+                          }
+                        }}
+                        step={0.1}
+                        className="text-center text-xs"
+                      />
+                    </div>
                   </div>
-                  <div>
-                    <Label className="text-xs">End (%)</Label>
-                    <Input
-                      type="number"
-                      value={ramp.saturationEnd ?? calculateAdvancedDefaults('saturation').end}
-                      onChange={(e) => {
-                        const inputValue = e.target.value;
-                        if (inputValue === '') {
-                          onUpdate({ saturationEnd: 0 });
-                          return;
-                        }
-                        const value = parseFloat(inputValue);
-                        if (!isNaN(value)) {
-                          const roundedValue = Math.round(value * 10) / 10;
-                          onUpdate({ saturationEnd: roundedValue });
-                        }
+                  <div className="mt-2">
+                    <Label className="text-xs">Scale Type</Label>
+                    <select
+                      className="w-full border rounded px-2 py-1 text-xs mt-1"
+                      value={saturationScale}
+                      onChange={e => {
+                        setSaturationScale(e.target.value);
+                        onUpdate({ saturationScaleType: e.target.value });
                       }}
-                      step={0.1}
-                      className="text-center text-xs"
-                    />
+                    >
+                      {SCALE_TYPES.map(type => (
+                        <option key={type.value} value={type.value}>{type.label}{!IMPLEMENTED_SCALES.includes(type.value) ? ' (soon)' : ''}</option>
+                      ))}
+                    </select>
                   </div>
-                </div>
+                </>
               ) : (
                 <div className="flex gap-2 items-center">
                   <Slider
