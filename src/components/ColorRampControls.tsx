@@ -137,14 +137,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
 
   return (
     <div className="space-y-6">
-      {/* Header with actions (no name input, no duplicate/delete) */}
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2 flex-1">
-          <Edit3 className="w-4 h-4 text-gray-400" />
-          {/* Name input removed */}
-        </div>
-        {/* Duplicate and delete buttons removed */}
-      </div>
+      {/* Header removed as requested */}
 
       {/* Main layout: Controls and Gradient Sliders side by side */}
       <div className={`flex gap-4 ${hasAdvancedMode ? 'h-[400px]' : ''}`}>

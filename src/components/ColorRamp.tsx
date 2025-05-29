@@ -1,10 +1,24 @@
 import React, { useMemo, useState } from 'react';
-import { Lock, Clipboard, Copy, Trash2 } from 'lucide-react';
+import { Lock, Clipboard, Copy, Trash2, Plus } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
 import { ColorRampConfig } from '@/types/colorRamp';
 import { Input } from '@/components/ui/input';
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+} from '@/components/ui/dropdown-menu';
+import {
+  getAnalogousColors,
+  getTriadColors,
+  getComplementaryColors,
+  getSplitComplementaryColors,
+  getSquareColors,
+  getCompoundColors,
+} from '@/lib/colorUtils';
 
 interface ColorRampProps {
   config: ColorRampConfig;
@@ -13,6 +27,8 @@ interface ColorRampProps {
   onDelete?: () => void;
   previewBlendMode?: string;
   isSelected?: boolean;
+  colorRamps: ColorRampConfig[];
+  setColorRamps: React.Dispatch<React.SetStateAction<ColorRampConfig[]>>;
 }
 
 const ColorRamp: React.FC<ColorRampProps> = ({ 
@@ -21,11 +37,14 @@ const ColorRamp: React.FC<ColorRampProps> = ({
   onDuplicate,
   onDelete,
   previewBlendMode, 
-  isSelected = false 
+  isSelected = false,
+  colorRamps,
+  setColorRamps
 }) => {
   const { toast } = useToast();
   const [isHovered, setIsHovered] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   
   // Generate colors with preview blend mode if provided
   const colors = useMemo(() => {
@@ -137,6 +156,255 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                 <Trash2 className="w-3 h-3" />
               </Button>
             )}
+            {/* Add Color Ramp Button (Dropdown, open on hover) */}
+            <div
+              onMouseEnter={() => setMenuOpen(true)}
+              onMouseLeave={() => setMenuOpen(false)}
+              style={{ display: 'inline-block' }}
+            >
+              <DropdownMenu open={menuOpen} onOpenChange={setMenuOpen}>
+                <DropdownMenuTrigger asChild>
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="h-8 w-8 p-0 bg-white shadow-md border-dashed border-2 border-gray-300 hover:border-gray-400 hover:bg-gray-50"
+                    aria-label="Add color ramp"
+                  >
+                    <Plus className="w-4 h-4 text-gray-600" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem
+                    onSelect={() => {
+                      const last = config;
+                      const bases = getAnalogousColors(last.baseColor, 2).slice(1); // +1
+                      setColorRamps(prev => {
+                        const idx = prev.findIndex(r => r.id === config.id);
+                        const newRamps = bases.map((base, i) => ({
+                          ...last,
+                          id: Date.now().toString() + '-a' + i,
+                          name: `Analogue ${i + 1}`,
+                          baseColor: base,
+                          lockedColors: {},
+                        }));
+                        return [
+                          ...prev.slice(0, idx + 1),
+                          ...newRamps,
+                          ...prev.slice(idx + 1),
+                        ];
+                      });
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
+                      <span>Analogue</span>
+                      <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                        {getAnalogousColors(config.baseColor, 2).slice(1).map((color, i) => (
+                          <span key={i} style={{
+                            display: 'inline-block',
+                            width: 24,
+                            height: 24,
+                            borderRadius: '50%',
+                            background: color,
+                            marginRight: i !== getAnalogousColors(config.baseColor, 2).slice(1).length - 1 ? 4 : 0,
+                            border: '1.5px solid #e5e7eb',
+                          }} />
+                        ))}
+                      </span>
+                    </div>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem
+                    onSelect={() => {
+                      const last = config;
+                      const bases = getTriadColors(last.baseColor).slice(1); // +2
+                      setColorRamps(prev => {
+                        const idx = prev.findIndex(r => r.id === config.id);
+                        const newRamps = bases.map((base, i) => ({
+                          ...last,
+                          id: Date.now().toString() + '-t' + i,
+                          name: `Triad ${i + 1}`,
+                          baseColor: base,
+                          lockedColors: {},
+                        }));
+                        return [
+                          ...prev.slice(0, idx + 1),
+                          ...newRamps,
+                          ...prev.slice(idx + 1),
+                        ];
+                      });
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
+                      <span>Triade</span>
+                      <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                        {getTriadColors(config.baseColor).slice(1).map((color, i) => (
+                          <span key={i} style={{
+                            display: 'inline-block',
+                            width: 24,
+                            height: 24,
+                            borderRadius: '50%',
+                            background: color,
+                            marginRight: i !== getTriadColors(config.baseColor).slice(1).length - 1 ? 4 : 0,
+                            border: '1.5px solid #e5e7eb',
+                          }} />
+                        ))}
+                      </span>
+                    </div>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem
+                    onSelect={() => {
+                      const last = config;
+                      const bases = getComplementaryColors(last.baseColor).slice(1); // +1
+                      setColorRamps(prev => {
+                        const idx = prev.findIndex(r => r.id === config.id);
+                        const newRamps = bases.map((base, i) => ({
+                          ...last,
+                          id: Date.now().toString() + '-c' + i,
+                          name: `Complementary ${i + 1}`,
+                          baseColor: base,
+                          lockedColors: {},
+                        }));
+                        return [
+                          ...prev.slice(0, idx + 1),
+                          ...newRamps,
+                          ...prev.slice(idx + 1),
+                        ];
+                      });
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
+                      <span>Complementary</span>
+                      <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                        {getComplementaryColors(config.baseColor).slice(1).map((color, i) => (
+                          <span key={i} style={{
+                            display: 'inline-block',
+                            width: 24,
+                            height: 24,
+                            borderRadius: '50%',
+                            background: color,
+                            marginRight: i !== getComplementaryColors(config.baseColor).slice(1).length - 1 ? 4 : 0,
+                            border: '1.5px solid #e5e7eb',
+                          }} />
+                        ))}
+                      </span>
+                    </div>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem
+                    onSelect={() => {
+                      const last = config;
+                      const bases = getSplitComplementaryColors(last.baseColor).slice(1); // +2
+                      setColorRamps(prev => {
+                        const idx = prev.findIndex(r => r.id === config.id);
+                        const newRamps = bases.map((base, i) => ({
+                          ...last,
+                          id: Date.now().toString() + '-sc' + i,
+                          name: `Split Comp. ${i + 1}`,
+                          baseColor: base,
+                          lockedColors: {},
+                        }));
+                        return [
+                          ...prev.slice(0, idx + 1),
+                          ...newRamps,
+                          ...prev.slice(idx + 1),
+                        ];
+                      });
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
+                      <span>Split Complementary</span>
+                      <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                        {getSplitComplementaryColors(config.baseColor).slice(1).map((color, i) => (
+                          <span key={i} style={{
+                            display: 'inline-block',
+                            width: 24,
+                            height: 24,
+                            borderRadius: '50%',
+                            background: color,
+                            marginRight: i !== getSplitComplementaryColors(config.baseColor).slice(1).length - 1 ? 4 : 0,
+                            border: '1.5px solid #e5e7eb',
+                          }} />
+                        ))}
+                      </span>
+                    </div>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem
+                    onSelect={() => {
+                      const last = config;
+                      const bases = getSquareColors(last.baseColor).slice(1); // +3
+                      setColorRamps(prev => {
+                        const idx = prev.findIndex(r => r.id === config.id);
+                        const newRamps = bases.map((base, i) => ({
+                          ...last,
+                          id: Date.now().toString() + '-sq' + i,
+                          name: `Square ${i + 1}`,
+                          baseColor: base,
+                          lockedColors: {},
+                        }));
+                        return [
+                          ...prev.slice(0, idx + 1),
+                          ...newRamps,
+                          ...prev.slice(idx + 1),
+                        ];
+                      });
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
+                      <span>Square</span>
+                      <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                        {getSquareColors(config.baseColor).slice(1).map((color, i) => (
+                          <span key={i} style={{
+                            display: 'inline-block',
+                            width: 24,
+                            height: 24,
+                            borderRadius: '50%',
+                            background: color,
+                            marginRight: i !== getSquareColors(config.baseColor).slice(1).length - 1 ? 4 : 0,
+                            border: '1.5px solid #e5e7eb',
+                          }} />
+                        ))}
+                      </span>
+                    </div>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem
+                    onSelect={() => {
+                      const last = config;
+                      const bases = getCompoundColors(last.baseColor).slice(1); // +3
+                      setColorRamps(prev => {
+                        const idx = prev.findIndex(r => r.id === config.id);
+                        const newRamps = bases.map((base, i) => ({
+                          ...last,
+                          id: Date.now().toString() + '-cp' + i,
+                          name: `Compound ${i + 1}`,
+                          baseColor: base,
+                          lockedColors: {},
+                        }));
+                        return [
+                          ...prev.slice(0, idx + 1),
+                          ...newRamps,
+                          ...prev.slice(idx + 1),
+                        ];
+                      });
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
+                      <span>Compound</span>
+                      <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                        {getCompoundColors(config.baseColor).slice(1).map((color, i) => (
+                          <span key={i} style={{
+                            display: 'inline-block',
+                            width: 24,
+                            height: 24,
+                            borderRadius: '50%',
+                            background: color,
+                            marginRight: i !== getCompoundColors(config.baseColor).slice(1).length - 1 ? 4 : 0,
+                            border: '1.5px solid #e5e7eb',
+                          }} />
+                        ))}
+                      </span>
+                    </div>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
           </div>
         )}
       </div>
