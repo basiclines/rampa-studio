@@ -163,35 +163,32 @@ const Index = () => {
   useEffect(() => {
     const handleResize = () => {
       if (selectedRampId) {
-        setSidebarPos(null);
-        setTimeout(() => {
-          const rampNode = rampRefs.current[selectedRampId];
-          if (!rampNode) return;
-          const rect = rampNode.getBoundingClientRect();
-          const sidebarWidth = hasAdvancedMode ? 600 : 320;
-          const gap = 24;
-          const windowWidth = window.innerWidth;
-          // Prefer left if both sides have space
-          const hasSpaceRight = rect.right + sidebarWidth + gap <= windowWidth;
-          const hasSpaceLeft = rect.left - sidebarWidth - gap >= 0;
-          let left = rect.right + gap;
-          let side: 'left' | 'right' = 'right';
-          if (hasSpaceLeft && hasSpaceRight) {
-            left = rect.left - sidebarWidth - gap;
-            side = 'left';
-          } else if (hasSpaceLeft) {
-            left = rect.left - sidebarWidth - gap;
-            side = 'left';
-          } else if (hasSpaceRight) {
-            left = rect.right + gap;
-            side = 'right';
-          }
-          setSidebarPos({
-            top: rect.top + window.scrollY,
-            left: left + window.scrollX,
-            side,
-          });
-        }, 0);
+        const rampNode = rampRefs.current[selectedRampId];
+        if (!rampNode) return;
+        const rect = rampNode.getBoundingClientRect();
+        const sidebarWidth = hasAdvancedMode ? 600 : 320;
+        const gap = 24;
+        const windowWidth = window.innerWidth;
+        // Prefer left if both sides have space
+        const hasSpaceRight = rect.right + sidebarWidth + gap <= windowWidth;
+        const hasSpaceLeft = rect.left - sidebarWidth - gap >= 0;
+        let left = rect.right + gap;
+        let side: 'left' | 'right' = 'right';
+        if (hasSpaceLeft && hasSpaceRight) {
+          left = rect.left - sidebarWidth - gap;
+          side = 'left';
+        } else if (hasSpaceLeft) {
+          left = rect.left - sidebarWidth - gap;
+          side = 'left';
+        } else if (hasSpaceRight) {
+          left = rect.right + gap;
+          side = 'right';
+        }
+        setSidebarPos({
+          top: rect.top + window.scrollY,
+          left: left + window.scrollX,
+          side,
+        });
       }
     };
     window.addEventListener('resize', handleResize);
