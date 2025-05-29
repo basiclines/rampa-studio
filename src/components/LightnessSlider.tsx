@@ -2,15 +2,7 @@ import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateLightnessGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
-
-interface ColorRampConfig {
-  baseColor: string;
-  lightnessRange: number;
-  lightnessStart?: number;
-  lightnessEnd?: number;
-  totalSteps: number;
-  lightnessScaleType: string;
-}
+import { ColorRampConfig } from '@/types/colorRamp';
 
 interface LightnessSliderProps {
   ramp: ColorRampConfig;

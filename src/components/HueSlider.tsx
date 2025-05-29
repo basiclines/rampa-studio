@@ -2,15 +2,7 @@ import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateHueGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
-
-interface ColorRampConfig {
-  baseColor: string;
-  chromaRange: number;
-  chromaStart?: number;
-  chromaEnd?: number;
-  totalSteps: number;
-  hueScaleType: string;
-}
+import { ColorRampConfig } from '@/types/colorRamp';
 
 interface HueSliderProps {
   ramp: ColorRampConfig;

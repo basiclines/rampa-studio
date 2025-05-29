@@ -2,15 +2,7 @@ import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateSaturationGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
-
-interface ColorRampConfig {
-  baseColor: string;
-  saturationRange: number;
-  saturationStart?: number;
-  saturationEnd?: number;
-  totalSteps: number;
-  saturationScaleType: string;
-}
+import { ColorRampConfig } from '@/types/colorRamp';
 
 interface SaturationSliderProps {
   ramp: ColorRampConfig;
