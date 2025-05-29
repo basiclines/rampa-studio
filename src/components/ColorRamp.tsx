@@ -102,10 +102,34 @@ const ColorRamp: React.FC<ColorRampProps> = ({
     });
   };
 
+  // Add a function to lock/unlock all colors
+  const allLocked = colors.length > 0 && colors.every((color, i) => config.lockedColors && config.lockedColors[i]);
+  const handleLockAll = () => {
+    if (allLocked) {
+      // Unlock all
+      onUpdateConfig({ lockedColors: {} });
+      toast({
+        title: 'All Colors Unlocked',
+        description: 'All colors have been unlocked.'
+      });
+    } else {
+      // Lock all
+      const newLockedColors: Record<number, string> = {};
+      colors.forEach((color, i) => {
+        newLockedColors[i] = color;
+      });
+      onUpdateConfig({ lockedColors: newLockedColors });
+      toast({
+        title: 'All Colors Locked',
+        description: 'All colors have been locked.'
+      });
+    }
+  };
+
   return (
     <div 
       className={`space-y-4 flex-shrink-0 cursor-pointer transition-all duration-300 rounded-lg relative
-        ${isSelected ? 'bg-blue-50 ring-2 ring-blue-200 shadow-lg' : 'hover:bg-gray-50 hover:shadow-md'}
+        ${isSelected ? 'bg-blue-50 ring-2 ring-blue-200' : ''}
       `}
       style={{
         padding: 0,
@@ -129,10 +153,21 @@ const ColorRamp: React.FC<ColorRampProps> = ({
               variant="outline" 
               size="sm" 
               onClick={copyAllColors}
-              className="h-8 w-8 p-0 bg-white shadow-md"
+              className="h-8 w-8 p-0 bg-white"
               style={{ pointerEvents: 'auto' }}
             >
               <Clipboard className="w-3 h-3" />
+            </Button>
+            {/* Lock/Unlock All Colors Button */}
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleLockAll}
+              className="h-8 w-8 p-0 bg-white"
+              style={{ pointerEvents: 'auto' }}
+              title={allLocked ? 'Unlock all colors' : 'Lock all colors'}
+            >
+              <Lock className="w-3 h-3" fill={allLocked ? 'currentColor' : 'none'} />
             </Button>
             {onDuplicate && (
               <Button 
@@ -169,13 +204,16 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     size="icon"
                     className="h-8 w-8 p-0 bg-white shadow-md border-dashed border-2 border-gray-300 hover:border-gray-400 hover:bg-gray-50"
                     aria-label="Add color ramp"
+                    onClick={e => e.stopPropagation()}
                   >
                     <Plus className="w-4 h-4 text-gray-600" />
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
+                <DropdownMenuContent align="end" onClick={e => e.stopPropagation()}>
                   <DropdownMenuItem
-                    onSelect={() => {
+                    onSelect={e => {
+                      e?.preventDefault();
+                      e?.stopPropagation();
                       const last = config;
                       const bases = getAnalogousColors(last.baseColor, 2).slice(1); // +1
                       setColorRamps(prev => {
@@ -213,7 +251,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     </div>
                   </DropdownMenuItem>
                   <DropdownMenuItem
-                    onSelect={() => {
+                    onSelect={e => {
+                      e?.preventDefault();
+                      e?.stopPropagation();
                       const last = config;
                       const bases = getTriadColors(last.baseColor).slice(1); // +2
                       setColorRamps(prev => {
@@ -251,7 +291,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     </div>
                   </DropdownMenuItem>
                   <DropdownMenuItem
-                    onSelect={() => {
+                    onSelect={e => {
+                      e?.preventDefault();
+                      e?.stopPropagation();
                       const last = config;
                       const bases = getComplementaryColors(last.baseColor).slice(1); // +1
                       setColorRamps(prev => {
@@ -289,7 +331,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     </div>
                   </DropdownMenuItem>
                   <DropdownMenuItem
-                    onSelect={() => {
+                    onSelect={e => {
+                      e?.preventDefault();
+                      e?.stopPropagation();
                       const last = config;
                       const bases = getSplitComplementaryColors(last.baseColor).slice(1); // +2
                       setColorRamps(prev => {
@@ -327,7 +371,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     </div>
                   </DropdownMenuItem>
                   <DropdownMenuItem
-                    onSelect={() => {
+                    onSelect={e => {
+                      e?.preventDefault();
+                      e?.stopPropagation();
                       const last = config;
                       const bases = getSquareColors(last.baseColor).slice(1); // +3
                       setColorRamps(prev => {
@@ -365,7 +411,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     </div>
                   </DropdownMenuItem>
                   <DropdownMenuItem
-                    onSelect={() => {
+                    onSelect={e => {
+                      e?.preventDefault();
+                      e?.stopPropagation();
                       const last = config;
                       const bases = getCompoundColors(last.baseColor).slice(1); // +3
                       setColorRamps(prev => {
@@ -437,7 +485,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
         )}
       </div>
       
-      <div className="relative isolate" style={{ paddingLeft: 24, paddingRight: 24, paddingBottom: 24, height: 'calc(100% - 56px)' }}>
+      <div className="relative isolate" style={{ height: 'calc(100% - 56px)' }}>
         {/* Color Ramp */}
         <div className="flex flex-col gap-1" style={{ height: '100%' }}>
           {colors.map((color, index) => {
