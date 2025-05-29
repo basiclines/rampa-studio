@@ -55,7 +55,7 @@ const SCALE_TYPES = [
 ];
 
 // Track implemented scale types
-const IMPLEMENTED_SCALES = ['linear', 'geometric', 'fibonacci', 'golden-ratio', 'logarithmic', 'powers-of-2', 'musical-ratio', 'cielab-uniform', 'ease-in', 'ease-out'];
+const IMPLEMENTED_SCALES = ['linear', 'geometric', 'fibonacci', 'golden-ratio', 'logarithmic', 'powers-of-2', 'musical-ratio', 'cielab-uniform', 'ease-in', 'ease-out', 'ease-in-out'];
 
 const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   ramp,

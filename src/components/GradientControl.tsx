@@ -197,6 +197,13 @@ const GradientControl: React.FC<GradientControlProps> = ({
       return 1 - (1 - t) * (1 - t);
     });
   }
+  function easeInOutPositions(steps: number): number[] {
+    // Quadratic ease-in-out
+    return Array.from({ length: steps }, (_, i) => {
+      const t = i / (steps - 1);
+      return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    });
+  }
 
   return (
     <div className={cn("flex flex-col h-full", className)}>
@@ -231,6 +238,8 @@ const GradientControl: React.FC<GradientControlProps> = ({
             t = easeInPositions(totalSteps)[step];
           } else if (scaleType === 'ease-out') {
             t = easeOutPositions(totalSteps)[step];
+          } else if (scaleType === 'ease-in-out') {
+            t = easeInOutPositions(totalSteps)[step];
           }
           const value = startValue + ((endValue - startValue) * t);
           const percent = valueToPosition(value);
