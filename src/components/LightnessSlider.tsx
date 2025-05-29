@@ -9,6 +9,7 @@ interface ColorRampConfig {
   lightnessStart?: number;
   lightnessEnd?: number;
   totalSteps: number;
+  lightnessScaleType: string;
 }
 
 interface LightnessSliderProps {
@@ -65,6 +66,7 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => 
         referenceColor={ramp.baseColor}
         className="h-full flex-1"
         totalSteps={ramp.totalSteps}
+        scaleType={ramp.lightnessScaleType}
       />
     </div>
   );
