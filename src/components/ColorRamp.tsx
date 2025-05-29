@@ -169,17 +169,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
             >
               <Lock className="w-3 h-3" fill={allLocked ? 'currentColor' : 'none'} />
             </Button>
-            {onDuplicate && (
-              <Button 
-                variant="outline" 
-                size="sm" 
-                onClick={handleDuplicate}
-                className="h-8 w-8 p-0 bg-white shadow-md"
-                style={{ pointerEvents: 'auto' }}
-              >
-                <Copy className="w-3 h-3" />
-              </Button>
-            )}
             {onDelete && (
               <Button 
                 variant="outline" 
@@ -203,13 +192,46 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     variant="outline"
                     size="icon"
                     className="h-8 w-8 p-0 bg-white shadow-md border-dashed border-2 border-gray-300 hover:border-gray-400 hover:bg-gray-50"
-                    aria-label="Add color ramp"
+                    aria-label="Ramp actions"
                     onClick={e => e.stopPropagation()}
                   >
-                    <Plus className="w-4 h-4 text-gray-600" />
+                    <Copy className="w-4 h-4 text-gray-600" />
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" onClick={e => e.stopPropagation()}>
+                  <DropdownMenuItem
+                    onSelect={e => {
+                      e?.preventDefault();
+                      e?.stopPropagation();
+                      if (onDuplicate) {
+                        onDuplicate();
+                      } else {
+                        // fallback: duplicate ramp here
+                        setColorRamps(prev => {
+                          const idx = prev.findIndex(r => r.id === config.id);
+                          const duplicatedRamp = {
+                            ...config,
+                            id: Date.now().toString(),
+                            name: `${config.name} Copy`,
+                          };
+                          return [
+                            ...prev.slice(0, idx + 1),
+                            duplicatedRamp,
+                            ...prev.slice(idx + 1),
+                          ];
+                        });
+                      }
+                      toast({
+                        title: "Color Ramp Duplicated",
+                        description: `${config.name} has been duplicated.`,
+                      });
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
+                      <span>Duplicate</span>
+                      <span style={{ display: 'inline-block', width: 24, height: 24, borderRadius: '50%', background: config.baseColor, border: '1.5px solid #e5e7eb' }} />
+                    </div>
+                  </DropdownMenuItem>
                   <DropdownMenuItem
                     onSelect={e => {
                       e?.preventDefault();
