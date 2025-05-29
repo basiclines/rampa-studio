@@ -1,4 +1,3 @@
-
 export type BlendMode = 
   | 'normal' 
   | 'darken' 
@@ -40,4 +39,7 @@ export interface ColorRampConfig {
   tintOpacity?: number;
   tintBlendMode?: BlendMode;
   lockedColors: { [index: number]: string };
+  lightnessScaleType?: string;
+  hueScaleType?: string;
+  saturationScaleType?: string;
 }
