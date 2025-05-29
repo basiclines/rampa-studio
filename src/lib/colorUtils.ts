@@ -184,6 +184,46 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
     // Calculate the middle index (base color position)
     const middleIndex = Math.floor(config.totalSteps / 2);
     
+    // Determine scale type for each attribute
+    const lightnessScale = config.lightnessScaleType || 'linear';
+    const hueScale = config.hueScaleType || 'linear';
+    const saturationScale = config.saturationScaleType || 'linear';
+
+    // Helper for geometric progression (0 to 1)
+    function geometricPosition(i: number, steps: number) {
+      // ratio chosen so last step is 1, first is 0
+      const ratio = 3; // geometric ratio, more dramatic for demo
+      if (steps <= 1) return 0;
+      const min = 1;
+      const max = Math.pow(ratio, steps - 1);
+      return (Math.pow(ratio, i) - min) / (max - min);
+    }
+
+    // Fibonacci scale helper
+    function fibonacciPositions(steps: number): number[] {
+      // Generate the first N Fibonacci numbers
+      const fibs = [0, 1];
+      for (let i = 2; i < steps; i++) {
+        fibs.push(fibs[i - 1] + fibs[i - 2]);
+      }
+      // Normalize to 0-1
+      const min = fibs[0];
+      const max = fibs[fibs.length - 1];
+      return fibs.map(f => (f - min) / (max - min));
+    }
+
+    // Golden Ratio scale helper
+    function goldenRatioPositions(steps: number): number[] {
+      const phi = 1.61803398875;
+      const vals = [];
+      for (let i = 0; i < steps; i++) {
+        vals.push(Math.pow(phi, i));
+      }
+      const min = vals[0];
+      const max = vals[vals.length - 1];
+      return vals.map(v => (v - min) / (max - min));
+    }
+
     // Generate colors from darkest to lightest
     for (let i = 0; i < config.totalSteps; i++) {
       // Check if this color index is locked
@@ -192,8 +232,30 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
         continue;
       }
       
-      const position = i / (config.totalSteps - 1); // 0 to 1
-      
+      // Precompute all positions for Fibonacci if needed
+      const linearPosition = i / (config.totalSteps - 1);
+      const geometricPos = geometricPosition(i, config.totalSteps);
+      const fibPositions = fibonacciPositions(config.totalSteps);
+      const fibPos = fibPositions[i];
+      const goldenPositions = goldenRatioPositions(config.totalSteps);
+      const goldenPos = goldenPositions[i];
+      // Apply scale type to each attribute
+      const positionLightness =
+        lightnessScale === 'geometric' ? geometricPos :
+        lightnessScale === 'fibonacci' ? fibPos :
+        lightnessScale === 'golden-ratio' ? goldenPos :
+        linearPosition;
+      const positionHue =
+        hueScale === 'geometric' ? geometricPos :
+        hueScale === 'fibonacci' ? fibPos :
+        hueScale === 'golden-ratio' ? goldenPos :
+        linearPosition;
+      const positionSaturation =
+        saturationScale === 'geometric' ? geometricPos :
+        saturationScale === 'fibonacci' ? fibPos :
+        saturationScale === 'golden-ratio' ? goldenPos :
+        linearPosition;
+
       let newLightness: number;
       let newHue: number;
       let newSaturation: number;
@@ -203,7 +265,7 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
         // Convert percentage values to 0-1 range
         const startLightness = config.lightnessStart / 100;
         const endLightness = config.lightnessEnd / 100;
-        newLightness = startLightness + (endLightness - startLightness) * position;
+        newLightness = startLightness + (endLightness - startLightness) * positionLightness;
       } else {
         const lightnessStep = (config.lightnessRange / 100) / (config.totalSteps - 1);
         const positionFromMiddle = i - middleIndex;
@@ -214,7 +276,7 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
       // Calculate hue
       if (config.chromaAdvanced && config.chromaStart !== undefined && config.chromaEnd !== undefined) {
         const hueRange = config.chromaEnd - config.chromaStart;
-        newHue = (baseHue + config.chromaStart + hueRange * position) % 360;
+        newHue = (baseHue + config.chromaStart + hueRange * positionHue) % 360;
       } else {
         const hueStep = config.chromaRange / (config.totalSteps - 1);
         const positionFromMiddle = i - middleIndex;
@@ -228,7 +290,7 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
         const startSaturation = config.saturationStart / 100;
         const endSaturation = config.saturationEnd / 100;
         // Invert the position so bottom of ramp (position 0) gets lower saturation
-        const invertedPosition = 1 - position;
+        const invertedPosition = 1 - positionSaturation;
         newSaturation = startSaturation + (endSaturation - startSaturation) * invertedPosition;
       } else {
         const saturationStep = (config.saturationRange / 100) / (config.totalSteps - 1);
