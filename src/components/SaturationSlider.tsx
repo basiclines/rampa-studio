@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
@@ -9,6 +8,7 @@ interface ColorRampConfig {
   saturationRange: number;
   saturationStart?: number;
   saturationEnd?: number;
+  totalSteps: number;
 }
 
 interface SaturationSliderProps {
@@ -65,6 +65,7 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) =
         referenceColor={ramp.baseColor}
         className="h-full flex-1"
         invertValues={true}
+        totalSteps={ramp.totalSteps}
       />
     </div>
   );

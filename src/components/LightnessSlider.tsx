@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
@@ -9,6 +8,7 @@ interface ColorRampConfig {
   lightnessRange: number;
   lightnessStart?: number;
   lightnessEnd?: number;
+  totalSteps: number;
 }
 
 interface LightnessSliderProps {
@@ -64,6 +64,7 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => 
         referenceValue={getReferenceValue()}
         referenceColor={ramp.baseColor}
         className="h-full flex-1"
+        totalSteps={ramp.totalSteps}
       />
     </div>
   );

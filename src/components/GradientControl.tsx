@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useCallback } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -15,6 +14,7 @@ interface GradientControlProps {
   referenceValue?: number; // Optional reference value to mark on the gradient
   referenceColor?: string; // Color to use for the reference indicator
   invertValues?: boolean; // New prop to invert the value mapping
+  totalSteps?: number; // Number of steps to show as indicators
 }
 
 const roundToOneDecimal = (value: number): number => {
@@ -33,7 +33,8 @@ const GradientControl: React.FC<GradientControlProps> = ({
   gradientColors,
   referenceValue,
   referenceColor = '#f97316', // Default to orange if no color provided
-  invertValues = false
+  invertValues = false,
+  totalSteps
 }) => {
   const [isDragging, setIsDragging] = useState<'start' | 'end' | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -120,6 +121,21 @@ const GradientControl: React.FC<GradientControlProps> = ({
           minHeight: '200px'
         }}
       >
+        {/* Step indicators */}
+        {totalSteps && totalSteps > 1 && Array.from({ length: totalSteps - 2 }).map((_, i) => {
+          const step = i + 1;
+          // Interpolate between startValue and endValue
+          const value = startValue + ((endValue - startValue) * (step / (totalSteps - 1)));
+          const percent = valueToPosition(value);
+          return (
+            <div
+              key={step}
+              className="absolute left-0 w-full h-px bg-white/70 z-10 pointer-events-none"
+              style={{ top: `${percent}%` }}
+            />
+          );
+        })}
+
         {/* Reference line (for base color value) */}
         {referencePosition !== null && (
           <div

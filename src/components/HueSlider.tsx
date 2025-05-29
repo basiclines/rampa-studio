@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
@@ -9,6 +8,7 @@ interface ColorRampConfig {
   chromaRange: number;
   chromaStart?: number;
   chromaEnd?: number;
+  totalSteps: number;
 }
 
 interface HueSliderProps {
@@ -66,6 +66,7 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
         referenceValue={getReferenceValue()}
         referenceColor={ramp.baseColor}
         className="h-full flex-1"
+        totalSteps={ramp.totalSteps}
       />
     </div>
   );
