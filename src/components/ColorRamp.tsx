@@ -474,6 +474,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
               tabIndex={0}
               onFocus={() => setIsEditing(true)}
               onBlur={() => setIsEditing(false)}
+              onKeyDown={e => { if (e.key === 'Enter') e.currentTarget.blur(); }}
             />
           </div>
         ) : (
