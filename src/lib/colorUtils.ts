@@ -340,12 +340,12 @@ export const exportToSvg = (colorRamps: ColorRampData[]): string => {
   const swatchGap = 4;
   const rampGap = 40;
   const labelHeight = 24;
-  
-  // Calculate dimensions
+
+  // Calculate dimensions for vertical layout
   const maxRampLength = Math.max(...colorRamps.map(ramp => ramp.colors.length));
-  const totalWidth = maxRampLength * (swatchSize + swatchGap) - swatchGap + 40; // 40 for padding
-  const totalHeight = colorRamps.length * (swatchSize + labelHeight + rampGap) - rampGap + 40; // 40 for padding
-  
+  const totalWidth = colorRamps.length * (swatchSize + rampGap) - rampGap + 40; // 40 for padding
+  const totalHeight = maxRampLength * (swatchSize + swatchGap) - swatchGap + labelHeight + 40; // 40 for padding
+
   let svgContent = `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="${totalWidth}" height="${totalHeight}" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -358,21 +358,18 @@ export const exportToSvg = (colorRamps: ColorRampData[]): string => {
 `;
 
   colorRamps.forEach((ramp, rampIndex) => {
-    const rampY = 20 + rampIndex * (swatchSize + labelHeight + rampGap);
-    
-    // Add ramp label
-    svgContent += `  <text x="20" y="${rampY + 18}" class="ramp-label">${ramp.name}</text>\n`;
-    
-    // Add color swatches
+    const rampX = 20 + rampIndex * (swatchSize + rampGap);
+    // Add ramp label (centered above column)
+    svgContent += `  <text x="${rampX + swatchSize / 2}" y="${labelHeight}" text-anchor="middle" class="ramp-label">${ramp.name}</text>\n`;
+
+    // Add color swatches (stacked vertically)
     ramp.colors.forEach((color, colorIndex) => {
-      const x = 20 + colorIndex * (swatchSize + swatchGap);
-      const y = rampY + labelHeight + 4;
-      
+      const x = rampX;
+      const y = labelHeight + 8 + colorIndex * (swatchSize + swatchGap);
       svgContent += `  <rect x="${x}" y="${y}" width="${swatchSize}" height="${swatchSize}" fill="${color}" rx="4"/>\n`;
-      svgContent += `  <text x="${x + swatchSize / 2}" y="${y + swatchSize + 14}" text-anchor="middle" class="color-label">${color}</text>\n`;
     });
   });
-  
+
   svgContent += '</svg>';
   return svgContent;
 };
