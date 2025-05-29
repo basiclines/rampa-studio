@@ -277,17 +277,15 @@ const GradientControl: React.FC<GradientControlProps> = ({
           onMouseDown={handleMouseDown('start')}
         />
         
-        {/* End point (hide for non-linear scales) */}
-        {scaleType === 'linear' && (
-          <div
-            className="absolute w-6 h-3 bg-gray-500 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-gray-600 transition-colors z-10"
-            style={{ 
-              left: '50%',
-              top: `${endPosition}%`
-            }}
-            onMouseDown={handleMouseDown('end')}
-          />
-        )}
+        {/* End point (always show) */}
+        <div
+          className="absolute w-6 h-3 bg-gray-500 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-gray-600 transition-colors z-10"
+          style={{ 
+            left: '50%',
+            top: `${endPosition}%`
+          }}
+          onMouseDown={handleMouseDown('end')}
+        />
         
         {/* Gradient line between points */}
         <div
