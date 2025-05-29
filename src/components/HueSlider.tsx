@@ -9,6 +9,7 @@ interface ColorRampConfig {
   chromaStart?: number;
   chromaEnd?: number;
   totalSteps: number;
+  hueScaleType: string;
 }
 
 interface HueSliderProps {
@@ -67,6 +68,7 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
         referenceColor={ramp.baseColor}
         className="h-full flex-1"
         totalSteps={ramp.totalSteps}
+        scaleType={ramp.hueScaleType}
       />
     </div>
   );
