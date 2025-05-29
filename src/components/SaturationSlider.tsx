@@ -9,6 +9,7 @@ interface ColorRampConfig {
   saturationStart?: number;
   saturationEnd?: number;
   totalSteps: number;
+  saturationScaleType: string;
 }
 
 interface SaturationSliderProps {
@@ -66,6 +67,7 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) =
         className="h-full flex-1"
         invertValues={true}
         totalSteps={ramp.totalSteps}
+        scaleType={ramp.saturationScaleType}
       />
     </div>
   );
