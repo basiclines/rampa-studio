@@ -187,32 +187,23 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 onChange={(format) => onUpdate({ colorFormat: format })}
               />
               <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
-              <div className="flex gap-2">
-                <Input
-                  id={`base-color-${ramp.id}`}
-                  type="color"
-                  value={ramp.baseColor}
-                  onChange={(e) => onUpdate({ baseColor: e.target.value })}
-                  className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
-                />
-                <Input
-                  value={ramp.colorFormat === 'hsl' 
-                    ? chroma(ramp.baseColor).hsl().slice(0, 3).map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
-                    : ramp.baseColor
-                  }
-                  onChange={(e) => {
-                    if (ramp.colorFormat === 'hsl') {
-                      const [h, s, l] = e.target.value.split(',').map(v => parseFloat(v.trim()));
-                      if (!isNaN(h) && !isNaN(s) && !isNaN(l)) {
-                        onUpdate({ baseColor: chroma.hsl(h, s/100, l/100).hex() });
-                      }
-                    } else {
-                      onUpdate({ baseColor: e.target.value });
+              <div className="space-y-2">
+                <div className="relative w-full h-12 rounded-lg overflow-hidden cursor-pointer border border-gray-200" onClick={() => document.getElementById(`base-color-picker-${ramp.id}`)?.click()} style={{ background: ramp.baseColor }}>
+                  <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
+                    {ramp.colorFormat === 'hsl'
+                      ? chroma(ramp.baseColor).hsl().slice(0, 3).map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
+                      : ramp.baseColor
                     }
-                  }}
-                  className="flex-1"
-                  placeholder={ramp.colorFormat === 'hsl' ? "0, 100, 50" : "#3b82f6"}
-                />
+                  </span>
+                  <input
+                    id={`base-color-picker-${ramp.id}`}
+                    type="color"
+                    value={ramp.baseColor}
+                    onChange={(e) => onUpdate({ baseColor: e.target.value })}
+                    className="absolute w-0 h-0 opacity-0 pointer-events-none"
+                    tabIndex={-1}
+                  />
+                </div>
               </div>
             </div>
             
@@ -272,38 +263,30 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
             <div className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
-                <div className="flex gap-2">
-                  <Input
-                    id={`tint-color-${ramp.id}`}
-                    type="color"
-                    value={ramp.tintColor || '#000000'}
-                    onChange={(e) => onUpdate({ tintColor: e.target.value })}
-                    className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
-                  />
-                  <Input
-                    value={ramp.colorFormat === 'hsl' 
-                      ? (() => {
-                          const hsl = chroma(ramp.tintColor || '#000000').hsl().slice(0, 3);
-                          const safeH = isNaN(hsl[0]) ? 0 : Math.round(hsl[0]);
-                          const safeS = Math.round(hsl[1] * 100);
-                          const safeL = Math.round(hsl[2] * 100);
-                          return `${safeH}, ${safeS}, ${safeL}`;
-                        })()
-                      : (ramp.tintColor || '#000000')
-                    }
-                    onChange={(e) => {
-                      if (ramp.colorFormat === 'hsl') {
-                        const [h, s, l] = e.target.value.split(',').map(v => parseFloat(v.trim()));
-                        if (!isNaN(h) && !isNaN(s) && !isNaN(l)) {
-                          onUpdate({ tintColor: chroma.hsl(h, s/100, l/100).hex() });
-                        }
-                      } else {
-                        onUpdate({ tintColor: e.target.value });
+                <div className="space-y-2">
+                  <div className="relative w-full h-12 rounded-lg overflow-hidden cursor-pointer border border-gray-200" onClick={() => document.getElementById(`tint-color-picker-${ramp.id}`)?.click()} 
+                    style={{ background: chroma(ramp.tintColor || '#000000').alpha((ramp.tintOpacity || 0) / 100).css() }}>
+                    <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
+                      {ramp.colorFormat === 'hsl'
+                        ? (() => {
+                            const hsl = chroma(ramp.tintColor || '#000000').hsl().slice(0, 3);
+                            const safeH = isNaN(hsl[0]) ? 0 : Math.round(hsl[0]);
+                            const safeS = Math.round(hsl[1] * 100);
+                            const safeL = Math.round(hsl[2] * 100);
+                            return `${safeH}, ${safeS}, ${safeL}`;
+                          })()
+                        : (ramp.tintColor || '#000000')
                       }
-                    }}
-                    className="flex-1"
-                    placeholder={ramp.colorFormat === 'hsl' ? "0, 0, 0" : "#000000"}
-                  />
+                    </span>
+                    <input
+                      id={`tint-color-picker-${ramp.id}`}
+                      type="color"
+                      value={ramp.tintColor || '#000000'}
+                      onChange={(e) => onUpdate({ tintColor: e.target.value })}
+                      className="absolute w-0 h-0 opacity-0 pointer-events-none"
+                      tabIndex={-1}
+                    />
+                  </div>
                   <Button variant="ghost" size="sm" onClick={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }} className="ml-2">Remove</Button>
                 </div>
               </div>
