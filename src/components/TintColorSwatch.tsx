@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { BlendMode } from '@/types/colorRamp';
+import LabeledSlider from './LabeledSlider';
 
 interface TintColorSwatchProps {
   color: string;
@@ -33,7 +34,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
 }) => {
   return (
     <div className="space-y-2">
-      <div className="relative w-full h-12 rounded-lg overflow-hidden cursor-pointer border border-gray-200" onClick={() => document.getElementById(id || 'tint-color-picker')?.click()} style={{ background: chroma(color || '#000000').alpha((opacity || 0) / 100).css() }}>
+      <div className="relative w-full h-20 rounded-lg overflow-hidden cursor-pointer border border-gray-200 group" onClick={() => document.getElementById(id || 'tint-color-picker')?.click()} style={{ background: chroma(color || '#000000').alpha((opacity || 0) / 100).css() }}>
         <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
           {colorFormat === 'hsl'
             ? (() => {
@@ -54,38 +55,34 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
           className="absolute w-0 h-0 opacity-0 pointer-events-none"
           tabIndex={-1}
         />
+        <div
+          className="absolute bottom-0 left-0 right-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 cursor-pointer select-none"
+          onClick={e => { e.stopPropagation(); onRemove(); }}
+        >
+          <span className="block w-full py-2 bg-black/50 backdrop-blur text-white text-xs font-medium text-center">
+            Remove
+          </span>
+        </div>
       </div>
       <div className="flex gap-2 items-center">
-        <label className="text-xs">Opacity: {opacity || 0}%</label>
-        <Slider
-          value={[opacity || 0]}
-          onValueChange={([value]) => onOpacityChange(value)}
-          max={100}
-          min={0}
-          step={1}
-          className="flex-1"
-        />
-        <Input
-          type="number"
+        <LabeledSlider
           value={opacity || 0}
-          onChange={e => {
-            const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 0));
-            onOpacityChange(value);
-          }}
+          onChange={onOpacityChange}
           min={0}
           max={100}
-          className="w-16 text-center"
+          step={1}
+          formatValue={v => `${v}%`}
+          ariaLabel="Tint Opacity"
         />
       </div>
       {opacity > 0 && (
         <div className="space-y-2">
-          <label className="text-xs">Blend Mode</label>
           <Select
             value={blendMode || 'normal'}
             onValueChange={value => onBlendModeChange(value as BlendMode)}
           >
-            <SelectTrigger className="h-10">
-              <SelectValue placeholder="Select blend mode" />
+            <SelectTrigger className="h-10 border border-transparent hover:border-gray-300 focus:border-gray-300 text-center text-gray-600">
+              <SelectValue placeholder="Select blend mode" className="text-center text-gray-600" />
             </SelectTrigger>
             <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
               {['normal','darken','multiply','plus-darker','color-burn','lighten','screen','plus-lighter','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'].map(mode => (
@@ -102,7 +99,6 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
           </Select>
         </div>
       )}
-      <Button variant="ghost" size="sm" onClick={onRemove} className="ml-2">Remove</Button>
     </div>
   );
 };
