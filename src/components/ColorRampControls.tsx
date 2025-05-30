@@ -186,24 +186,48 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 value={ramp.colorFormat || 'hex'}
                 onChange={(format) => onUpdate({ colorFormat: format })}
               />
+            </div>
+            <div className="space-y-2">
+              <Label>Total Steps: {ramp.totalSteps}</Label>
+              <div className="flex gap-2 items-center">
+                <Slider
+                  value={[ramp.totalSteps]}
+                  onValueChange={([value]) => onUpdate({ totalSteps: Math.round(value) })}
+                  max={100}
+                  min={3}
+                  step={1}
+                  className="flex-1"
+                />
+                <Input
+                  type="number"
+                  value={ramp.totalSteps}
+                  onChange={(e) => {
+                    const value = Math.max(3, Math.min(100, parseInt(e.target.value) || 3));
+                    onUpdate({ totalSteps: value });
+                  }}
+                  min={3}
+                  max={100}
+                  className="w-16 text-center"
+                />
+              </div>
+            </div>
+            <div className="space-y-2">
               <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
-              <div className="space-y-2">
-                <div className="relative w-full h-12 rounded-lg overflow-hidden cursor-pointer border border-gray-200" onClick={() => document.getElementById(`base-color-picker-${ramp.id}`)?.click()} style={{ background: ramp.baseColor }}>
-                  <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
-                    {ramp.colorFormat === 'hsl'
-                      ? chroma(ramp.baseColor).hsl().slice(0, 3).map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
-                      : ramp.baseColor
-                    }
-                  </span>
-                  <input
-                    id={`base-color-picker-${ramp.id}`}
-                    type="color"
-                    value={ramp.baseColor}
-                    onChange={(e) => onUpdate({ baseColor: e.target.value })}
-                    className="absolute w-0 h-0 opacity-0 pointer-events-none"
-                    tabIndex={-1}
-                  />
-                </div>
+              <div className="relative w-full h-12 rounded-lg overflow-hidden cursor-pointer border border-gray-200" onClick={() => document.getElementById(`base-color-picker-${ramp.id}`)?.click()} style={{ background: ramp.baseColor }}>
+                <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
+                  {ramp.colorFormat === 'hsl'
+                    ? chroma(ramp.baseColor).hsl().slice(0, 3).map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
+                    : ramp.baseColor
+                  }
+                </span>
+                <input
+                  id={`base-color-picker-${ramp.id}`}
+                  type="color"
+                  value={ramp.baseColor}
+                  onChange={(e) => onUpdate({ baseColor: e.target.value })}
+                  className="absolute w-0 h-0 opacity-0 pointer-events-none"
+                  tabIndex={-1}
+                />
               </div>
             </div>
             
@@ -232,33 +256,152 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               </div>
             )}
             
-            <div className="space-y-2">
-              <Label>Total Steps: {ramp.totalSteps}</Label>
-              <div className="flex gap-2 items-center">
-                <Slider
-                  value={[ramp.totalSteps]}
-                  onValueChange={([value]) => onUpdate({ totalSteps: Math.round(value) })}
-                  max={100}
-                  min={3}
-                  step={1}
-                  className="flex-1"
-                />
-                <Input
-                  type="number"
-                  value={ramp.totalSteps}
-                  onChange={(e) => {
-                    const value = Math.max(3, Math.min(100, parseInt(e.target.value) || 3));
-                    onUpdate({ totalSteps: value });
-                  }}
-                  min={3}
-                  max={100}
-                  className="w-16 text-center"
-                />
+            {ramp.tintOpacity && ramp.tintOpacity > 0 && (
+              <div className="space-y-2">
+                <Label>Blend Mode</Label>
+                <Select
+                  value={ramp.tintBlendMode || 'normal'}
+                  onValueChange={(value: BlendMode) => 
+                    onUpdate({ tintBlendMode: value })
+                  }
+                >
+                  <SelectTrigger className="h-10">
+                    <SelectValue placeholder="Select blend mode" />
+                  </SelectTrigger>
+                  <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
+                    <SelectItem 
+                      value="normal"
+                      onMouseEnter={() => onPreviewBlendMode?.('normal')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Normal
+                    </SelectItem>
+                    <SelectItem 
+                      value="darken"
+                      onMouseEnter={() => onPreviewBlendMode?.('darken')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Darken
+                    </SelectItem>
+                    <SelectItem 
+                      value="multiply"
+                      onMouseEnter={() => onPreviewBlendMode?.('multiply')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Multiply
+                    </SelectItem>
+                    <SelectItem 
+                      value="plus-darker"
+                      onMouseEnter={() => onPreviewBlendMode?.('plus-darker')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Plus Darker
+                    </SelectItem>
+                    <SelectItem 
+                      value="color-burn"
+                      onMouseEnter={() => onPreviewBlendMode?.('color-burn')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Color Burn
+                    </SelectItem>
+                    <SelectItem 
+                      value="lighten"
+                      onMouseEnter={() => onPreviewBlendMode?.('lighten')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Lighten
+                    </SelectItem>
+                    <SelectItem 
+                      value="screen"
+                      onMouseEnter={() => onPreviewBlendMode?.('screen')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Screen
+                    </SelectItem>
+                    <SelectItem 
+                      value="plus-lighter"
+                      onMouseEnter={() => onPreviewBlendMode?.('plus-lighter')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Plus Lighter
+                    </SelectItem>
+                    <SelectItem 
+                      value="color-dodge"
+                      onMouseEnter={() => onPreviewBlendMode?.('color-dodge')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Color Dodge
+                    </SelectItem>
+                    <SelectItem 
+                      value="overlay"
+                      onMouseEnter={() => onPreviewBlendMode?.('overlay')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Overlay
+                    </SelectItem>
+                    <SelectItem 
+                      value="soft-light"
+                      onMouseEnter={() => onPreviewBlendMode?.('soft-light')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Soft Light
+                    </SelectItem>
+                    <SelectItem 
+                      value="hard-light"
+                      onMouseEnter={() => onPreviewBlendMode?.('hard-light')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Hard Light
+                    </SelectItem>
+                    <SelectItem 
+                      value="difference"
+                      onMouseEnter={() => onPreviewBlendMode?.('difference')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Difference
+                    </SelectItem>
+                    <SelectItem 
+                      value="exclusion"
+                      onMouseEnter={() => onPreviewBlendMode?.('exclusion')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Exclusion
+                    </SelectItem>
+                    <SelectItem 
+                      value="hue"
+                      onMouseEnter={() => onPreviewBlendMode?.('hue')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Hue
+                    </SelectItem>
+                    <SelectItem 
+                      value="saturation"
+                      onMouseEnter={() => onPreviewBlendMode?.('saturation')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Saturation
+                    </SelectItem>
+                    <SelectItem 
+                      value="color"
+                      onMouseEnter={() => onPreviewBlendMode?.('color')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Color
+                    </SelectItem>
+                    <SelectItem 
+                      value="luminosity"
+                      onMouseEnter={() => onPreviewBlendMode?.('luminosity')}
+                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
+                    >
+                      Luminosity
+                    </SelectItem>
+                  </SelectContent>
+                </Select>
               </div>
-            </div>
+            )}
           </div>
 
-          {/* Tint controls (hidden by default, shown if showTint is true or a tint is set) */}
+          {/* Tint controls (hidden by default, shown if showTint is true) */}
           {showTint && (
             <div className="space-y-4">
               <div className="space-y-2">
