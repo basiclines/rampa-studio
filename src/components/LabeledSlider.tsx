@@ -1,5 +1,7 @@
 import React from 'react';
 
+const SLIDER_LABEL_THRESHOLD = 20;
+
 interface LabeledSliderProps {
   value: number;
   onChange: (value: number) => void;
@@ -64,10 +66,15 @@ const LabeledSlider: React.FC<LabeledSliderProps> = ({ value, onChange, min, max
         {/* Value label on hover, positioned at the end of the filled bar */}
         <div
           className="absolute"
-          style={{ right: `calc(100% - ${percent}%)`, top: '0', bottom: '0', zIndex: 2 }}
+          style={{ 
+            [percent < SLIDER_LABEL_THRESHOLD ? 'left' : 'right']: percent < SLIDER_LABEL_THRESHOLD ? `${percent}%` : `calc(100% - ${percent}%)`, 
+            top: '0', 
+            bottom: '0', 
+            zIndex: 2 
+          }}
         >
           <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 h-full">
-            <div className="px-2 text-white text-xs font-semibold h-full">
+            <div className={`px-2 text-xs font-semibold h-full ${percent < SLIDER_LABEL_THRESHOLD ? 'text-gray-800' : 'text-white'}`}>
               {formatValue ? formatValue(value) : value}
             </div>
           </div>
