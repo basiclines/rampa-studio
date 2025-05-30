@@ -233,10 +233,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
             
             {!showTint && (
               <div>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="mt-2"
+                <span
+                  className="mt-2 text-blue-600 hover:underline cursor-pointer text-sm"
                   onClick={() => {
                     setShowTint(true);
                     const updates: Partial<ColorRampConfig> = {};
@@ -251,152 +249,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                   }}
                 >
-                  Add tint color
-                </Button>
-              </div>
-            )}
-            
-            {ramp.tintOpacity && ramp.tintOpacity > 0 && (
-              <div className="space-y-2">
-                <Label>Blend Mode</Label>
-                <Select
-                  value={ramp.tintBlendMode || 'normal'}
-                  onValueChange={(value: BlendMode) => 
-                    onUpdate({ tintBlendMode: value })
-                  }
-                >
-                  <SelectTrigger className="h-10">
-                    <SelectValue placeholder="Select blend mode" />
-                  </SelectTrigger>
-                  <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
-                    <SelectItem 
-                      value="normal"
-                      onMouseEnter={() => onPreviewBlendMode?.('normal')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Normal
-                    </SelectItem>
-                    <SelectItem 
-                      value="darken"
-                      onMouseEnter={() => onPreviewBlendMode?.('darken')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Darken
-                    </SelectItem>
-                    <SelectItem 
-                      value="multiply"
-                      onMouseEnter={() => onPreviewBlendMode?.('multiply')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Multiply
-                    </SelectItem>
-                    <SelectItem 
-                      value="plus-darker"
-                      onMouseEnter={() => onPreviewBlendMode?.('plus-darker')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Plus Darker
-                    </SelectItem>
-                    <SelectItem 
-                      value="color-burn"
-                      onMouseEnter={() => onPreviewBlendMode?.('color-burn')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Color Burn
-                    </SelectItem>
-                    <SelectItem 
-                      value="lighten"
-                      onMouseEnter={() => onPreviewBlendMode?.('lighten')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Lighten
-                    </SelectItem>
-                    <SelectItem 
-                      value="screen"
-                      onMouseEnter={() => onPreviewBlendMode?.('screen')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Screen
-                    </SelectItem>
-                    <SelectItem 
-                      value="plus-lighter"
-                      onMouseEnter={() => onPreviewBlendMode?.('plus-lighter')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Plus Lighter
-                    </SelectItem>
-                    <SelectItem 
-                      value="color-dodge"
-                      onMouseEnter={() => onPreviewBlendMode?.('color-dodge')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Color Dodge
-                    </SelectItem>
-                    <SelectItem 
-                      value="overlay"
-                      onMouseEnter={() => onPreviewBlendMode?.('overlay')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Overlay
-                    </SelectItem>
-                    <SelectItem 
-                      value="soft-light"
-                      onMouseEnter={() => onPreviewBlendMode?.('soft-light')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Soft Light
-                    </SelectItem>
-                    <SelectItem 
-                      value="hard-light"
-                      onMouseEnter={() => onPreviewBlendMode?.('hard-light')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Hard Light
-                    </SelectItem>
-                    <SelectItem 
-                      value="difference"
-                      onMouseEnter={() => onPreviewBlendMode?.('difference')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Difference
-                    </SelectItem>
-                    <SelectItem 
-                      value="exclusion"
-                      onMouseEnter={() => onPreviewBlendMode?.('exclusion')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Exclusion
-                    </SelectItem>
-                    <SelectItem 
-                      value="hue"
-                      onMouseEnter={() => onPreviewBlendMode?.('hue')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Hue
-                    </SelectItem>
-                    <SelectItem 
-                      value="saturation"
-                      onMouseEnter={() => onPreviewBlendMode?.('saturation')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Saturation
-                    </SelectItem>
-                    <SelectItem 
-                      value="color"
-                      onMouseEnter={() => onPreviewBlendMode?.('color')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Color
-                    </SelectItem>
-                    <SelectItem 
-                      value="luminosity"
-                      onMouseEnter={() => onPreviewBlendMode?.('luminosity')}
-                      onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                    >
-                      Luminosity
-                    </SelectItem>
-                  </SelectContent>
-                </Select>
+                  Add color
+                </span>
               </div>
             )}
           </div>
