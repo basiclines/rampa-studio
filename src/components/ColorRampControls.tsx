@@ -14,6 +14,7 @@ import TintColorSwatch from './TintColorSwatch';
 import LightnessControl from './LightnessControl';
 import HueControl from './HueControl';
 import SaturationControl from './SaturationControl';
+import LabeledSlider from './LabeledSlider';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -184,52 +185,33 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
       <div className={`flex gap-4 ${hasAdvancedMode ? 'h-[400px]' : ''}`}>
         {/* Controls Column */}
         <div className="flex-1 space-y-6">
-          {/* Base color and steps */}
-          <div className="space-y-4">
-            <div className="space-y-2">
-              <ColorFormatControl
-                value={ramp.colorFormat || 'hex'}
-                onChange={(format) => onUpdate({ colorFormat: format })}
-              />
-            </div>
-            <div className="space-y-2">
+          {/* Main config section */}
+          <div className="pb-6 mb-6 border-b border-gray-200">
+            <ColorFormatControl
+              value={ramp.colorFormat || 'hex'}
+              onChange={(format) => onUpdate({ colorFormat: format })}
+            />
+            <div className="space-y-2 mt-4">
               <Label>Steps</Label>
-              <div className="flex gap-2 items-center">
-                <Slider
-                  value={[ramp.totalSteps]}
-                  onValueChange={([value]) => onUpdate({ totalSteps: Math.round(value) })}
-                  max={100}
-                  min={3}
-                  step={1}
-                  className="flex-1"
-                />
-                <Input
-                  type="number"
-                  value={ramp.totalSteps}
-                  onChange={(e) => {
-                    const value = Math.max(3, Math.min(100, parseInt(e.target.value) || 3));
-                    onUpdate({ totalSteps: value });
-                  }}
-                  min={3}
-                  max={100}
-                  className="w-16 text-center"
-                />
-              </div>
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor={`base-color-${ramp.id}`}>Color mix</Label>
-              <BaseColorSwatch
-                color={ramp.baseColor}
-                colorFormat={ramp.colorFormat || 'hex'}
-                onChange={color => onUpdate({ baseColor: color })}
-                id={`base-color-picker-${ramp.id}`}
+              <LabeledSlider
+                value={ramp.totalSteps}
+                onChange={value => onUpdate({ totalSteps: Math.round(value) })}
+                min={3}
+                max={100}
+                step={1}
+                formatValue={v => `${v}`}
+                ariaLabel="Steps"
               />
             </div>
-            
-            {!showTint && (
-              <div>
+          </div>
+
+          {/* Color mix section */}
+          <div className="pb-6 mb-6 border-b border-gray-200">
+            <div className="flex items-center justify-between mb-2">
+              <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">Color mix</div>
+              {!showTint && (
                 <span
-                  className="mt-2 text-blue-600 hover:underline cursor-pointer text-sm"
+                  className="text-blue-600 hover:underline cursor-pointer text-sm"
                   onClick={() => {
                     setShowTint(true);
                     const updates: Partial<ColorRampConfig> = {};
@@ -246,58 +228,71 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 >
                   Add color
                 </span>
-              </div>
-            )}
+              )}
+            </div>
+            <div className="space-y-2">
+              {showTint && (
+                <TintColorSwatch
+                  color={ramp.tintColor || '#000000'}
+                  colorFormat={ramp.colorFormat || 'hex'}
+                  opacity={ramp.tintOpacity || 0}
+                  blendMode={ramp.tintBlendMode}
+                  onColorChange={color => onUpdate({ tintColor: color })}
+                  onOpacityChange={opacity => onUpdate({ tintOpacity: opacity })}
+                  onBlendModeChange={blendMode => onUpdate({ tintBlendMode: blendMode })}
+                  onRemove={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }}
+                  id={`tint-color-picker-${ramp.id}`}
+                  onPreviewBlendMode={onPreviewBlendMode}
+                />
+              )}
+              <BaseColorSwatch
+                color={ramp.baseColor}
+                colorFormat={ramp.colorFormat || 'hex'}
+                onChange={color => onUpdate({ baseColor: color })}
+                id={`base-color-picker-${ramp.id}`}
+              />
+            </div>
           </div>
 
-          {/* Tint controls (hidden by default, shown if showTint is true) */}
-          {showTint && (
-            <TintColorSwatch
-              color={ramp.tintColor || '#000000'}
-              colorFormat={ramp.colorFormat || 'hex'}
-              opacity={ramp.tintOpacity || 0}
-              blendMode={ramp.tintBlendMode}
-              onColorChange={color => onUpdate({ tintColor: color })}
-              onOpacityChange={opacity => onUpdate({ tintOpacity: opacity })}
-              onBlendModeChange={blendMode => onUpdate({ tintBlendMode: blendMode })}
-              onRemove={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }}
-              id={`tint-color-picker-${ramp.id}`}
-              onPreviewBlendMode={onPreviewBlendMode}
-            />
-          )}
-
-          {/* Color Adjustment Controls */}
-          <div className="space-y-4">
-            <LightnessControl
-              ramp={ramp}
-              onUpdate={onUpdate}
-              calculateAdvancedDefaults={calculateAdvancedDefaults}
-              resetAttribute={resetAttribute}
-              setLightnessScale={setLightnessScale}
-              lightnessScale={lightnessScale}
-              IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
-              SCALE_TYPES={SCALE_TYPES}
-            />
-            <HueControl
-              ramp={ramp}
-              onUpdate={onUpdate}
-              calculateAdvancedDefaults={calculateAdvancedDefaults}
-              resetAttribute={resetAttribute}
-              setHueScale={setHueScale}
-              hueScale={hueScale}
-              IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
-              SCALE_TYPES={SCALE_TYPES}
-            />
-            <SaturationControl
-              ramp={ramp}
-              onUpdate={onUpdate}
-              calculateAdvancedDefaults={calculateAdvancedDefaults}
-              resetAttribute={resetAttribute}
-              setSaturationScale={setSaturationScale}
-              saturationScale={saturationScale}
-              IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
-              SCALE_TYPES={SCALE_TYPES}
-            />
+          {/* Properties section */}
+          <div className="pb-6 mb-6 border-b border-gray-200">
+            <div className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">Properties</div>
+            <div className="mb-6">
+              <LightnessControl
+                ramp={ramp}
+                onUpdate={onUpdate}
+                calculateAdvancedDefaults={calculateAdvancedDefaults}
+                resetAttribute={resetAttribute}
+                setLightnessScale={setLightnessScale}
+                lightnessScale={lightnessScale}
+                IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
+                SCALE_TYPES={SCALE_TYPES}
+              />
+            </div>
+            <div className="mb-6">
+              <HueControl
+                ramp={ramp}
+                onUpdate={onUpdate}
+                calculateAdvancedDefaults={calculateAdvancedDefaults}
+                resetAttribute={resetAttribute}
+                setHueScale={setHueScale}
+                hueScale={hueScale}
+                IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
+                SCALE_TYPES={SCALE_TYPES}
+              />
+            </div>
+            <div>
+              <SaturationControl
+                ramp={ramp}
+                onUpdate={onUpdate}
+                calculateAdvancedDefaults={calculateAdvancedDefaults}
+                resetAttribute={resetAttribute}
+                setSaturationScale={setSaturationScale}
+                saturationScale={saturationScale}
+                IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
+                SCALE_TYPES={SCALE_TYPES}
+              />
+            </div>
           </div>
         </div>
 
