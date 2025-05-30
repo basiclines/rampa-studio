@@ -129,7 +129,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
   return (
     <div 
       className={`space-y-4 flex-shrink-0 cursor-pointer transition-all duration-300 rounded-lg relative
-        ${isSelected ? 'bg-blue-50 ring-2 ring-blue-200' : ''}
+        ${isSelected ? '' : ''}
       `}
       style={{
         padding: 0,
@@ -489,7 +489,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
             <Input
               value={config.name}
               onChange={e => onUpdateConfig({ name: e.target.value })}
-              className={`text-lg font-semibold text-center transition-all duration-150
+              className={`text-base font-medium text-center transition-all duration-150
                 ${isEditing ? 'border border-gray-200 p-2 bg-white focus-visible:ring-2 focus-visible:ring-blue-500' : 'border-none bg-transparent p-0 focus-visible:ring-0 cursor-pointer'}`}
               placeholder="Color ramp name"
               spellCheck={false}
@@ -500,9 +500,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
             />
           </div>
         ) : (
-          <h3 className={`text-lg font-medium transition-colors ${
-            isSelected ? 'text-blue-700' : 'text-gray-700'
-          }`}>
+          <h3 className="text-base font-medium text-gray-700">
             {config.name}
           </h3>
         )}
