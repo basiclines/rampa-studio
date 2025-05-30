@@ -9,6 +9,11 @@ import chroma from 'chroma-js';
 import { useToast } from '@/hooks/use-toast';
 import GradientSliders from '@/components/GradientSliders';
 import { ColorRampConfig, BlendMode } from '@/types/colorRamp';
+import BaseColorSwatch from './BaseColorSwatch';
+import TintColorSwatch from './TintColorSwatch';
+import LightnessControl from './LightnessControl';
+import HueControl from './HueControl';
+import SaturationControl from './SaturationControl';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -188,7 +193,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               />
             </div>
             <div className="space-y-2">
-              <Label>Total Steps: {ramp.totalSteps}</Label>
+              <Label>Steps</Label>
               <div className="flex gap-2 items-center">
                 <Slider
                   value={[ramp.totalSteps]}
@@ -212,23 +217,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               </div>
             </div>
             <div className="space-y-2">
-              <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
-              <div className="relative w-full h-12 rounded-lg overflow-hidden cursor-pointer border border-gray-200" onClick={() => document.getElementById(`base-color-picker-${ramp.id}`)?.click()} style={{ background: ramp.baseColor }}>
-                <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
-                  {ramp.colorFormat === 'hsl'
-                    ? chroma(ramp.baseColor).hsl().slice(0, 3).map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
-                    : ramp.baseColor
-                  }
-                </span>
-                <input
-                  id={`base-color-picker-${ramp.id}`}
-                  type="color"
-                  value={ramp.baseColor}
-                  onChange={(e) => onUpdate({ baseColor: e.target.value })}
-                  className="absolute w-0 h-0 opacity-0 pointer-events-none"
-                  tabIndex={-1}
-                />
-              </div>
+              <Label htmlFor={`base-color-${ramp.id}`}>Color mix</Label>
+              <BaseColorSwatch
+                color={ramp.baseColor}
+                colorFormat={ramp.colorFormat || 'hex'}
+                onChange={color => onUpdate({ baseColor: color })}
+                id={`base-color-picker-${ramp.id}`}
+              />
             </div>
             
             {!showTint && (
@@ -257,585 +252,52 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
 
           {/* Tint controls (hidden by default, shown if showTint is true) */}
           {showTint && (
-            <div className="space-y-4">
-              <div className="space-y-2">
-                <Label htmlFor={`tint-color-${ramp.id}`}>Tint Color</Label>
-                <div className="space-y-2">
-                  <div className="relative w-full h-12 rounded-lg overflow-hidden cursor-pointer border border-gray-200" onClick={() => document.getElementById(`tint-color-picker-${ramp.id}`)?.click()} 
-                    style={{ background: chroma(ramp.tintColor || '#000000').alpha((ramp.tintOpacity || 0) / 100).css() }}>
-                    <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
-                      {ramp.colorFormat === 'hsl'
-                        ? (() => {
-                            const hsl = chroma(ramp.tintColor || '#000000').hsl().slice(0, 3);
-                            const safeH = isNaN(hsl[0]) ? 0 : Math.round(hsl[0]);
-                            const safeS = Math.round(hsl[1] * 100);
-                            const safeL = Math.round(hsl[2] * 100);
-                            return `${safeH}, ${safeS}, ${safeL}`;
-                          })()
-                        : (ramp.tintColor || '#000000')
-                      }
-                    </span>
-                    <input
-                      id={`tint-color-picker-${ramp.id}`}
-                      type="color"
-                      value={ramp.tintColor || '#000000'}
-                      onChange={(e) => onUpdate({ tintColor: e.target.value })}
-                      className="absolute w-0 h-0 opacity-0 pointer-events-none"
-                      tabIndex={-1}
-                    />
-                  </div>
-                  <Button variant="ghost" size="sm" onClick={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }} className="ml-2">Remove</Button>
-                </div>
-              </div>
-              <div className="space-y-2">
-                <Label>Tint Opacity: {ramp.tintOpacity || 0}%</Label>
-                <div className="flex gap-2 items-center">
-                  <Slider
-                    value={[ramp.tintOpacity || 0]}
-                    onValueChange={([value]) => onUpdate({ tintOpacity: value })}
-                    max={100}
-                    min={0}
-                    step={1}
-                    className="flex-1"
-                  />
-                  <Input
-                    type="number"
-                    value={ramp.tintOpacity || 0}
-                    onChange={(e) => {
-                      const value = Math.max(0, Math.min(100, parseInt(e.target.value) || 0));
-                      onUpdate({ tintOpacity: value });
-                    }}
-                    min={0}
-                    max={100}
-                    className="w-16 text-center"
-                  />
-                </div>
-              </div>
-              {ramp.tintOpacity && ramp.tintOpacity > 0 && (
-                <div className="space-y-2">
-                  <Label>Blend Mode</Label>
-                  <Select
-                    value={ramp.tintBlendMode || 'normal'}
-                    onValueChange={(value: BlendMode) => 
-                      onUpdate({ tintBlendMode: value })
-                    }
-                  >
-                    <SelectTrigger className="h-10">
-                      <SelectValue placeholder="Select blend mode" />
-                    </SelectTrigger>
-                    <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
-                      <SelectItem 
-                        value="normal"
-                        onMouseEnter={() => onPreviewBlendMode?.('normal')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Normal
-                      </SelectItem>
-                      <SelectItem 
-                        value="darken"
-                        onMouseEnter={() => onPreviewBlendMode?.('darken')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Darken
-                      </SelectItem>
-                      <SelectItem 
-                        value="multiply"
-                        onMouseEnter={() => onPreviewBlendMode?.('multiply')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Multiply
-                      </SelectItem>
-                      <SelectItem 
-                        value="plus-darker"
-                        onMouseEnter={() => onPreviewBlendMode?.('plus-darker')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Plus Darker
-                      </SelectItem>
-                      <SelectItem 
-                        value="color-burn"
-                        onMouseEnter={() => onPreviewBlendMode?.('color-burn')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Color Burn
-                      </SelectItem>
-                      <SelectItem 
-                        value="lighten"
-                        onMouseEnter={() => onPreviewBlendMode?.('lighten')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Lighten
-                      </SelectItem>
-                      <SelectItem 
-                        value="screen"
-                        onMouseEnter={() => onPreviewBlendMode?.('screen')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Screen
-                      </SelectItem>
-                      <SelectItem 
-                        value="plus-lighter"
-                        onMouseEnter={() => onPreviewBlendMode?.('plus-lighter')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Plus Lighter
-                      </SelectItem>
-                      <SelectItem 
-                        value="color-dodge"
-                        onMouseEnter={() => onPreviewBlendMode?.('color-dodge')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Color Dodge
-                      </SelectItem>
-                      <SelectItem 
-                        value="overlay"
-                        onMouseEnter={() => onPreviewBlendMode?.('overlay')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Overlay
-                      </SelectItem>
-                      <SelectItem 
-                        value="soft-light"
-                        onMouseEnter={() => onPreviewBlendMode?.('soft-light')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Soft Light
-                      </SelectItem>
-                      <SelectItem 
-                        value="hard-light"
-                        onMouseEnter={() => onPreviewBlendMode?.('hard-light')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Hard Light
-                      </SelectItem>
-                      <SelectItem 
-                        value="difference"
-                        onMouseEnter={() => onPreviewBlendMode?.('difference')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Difference
-                      </SelectItem>
-                      <SelectItem 
-                        value="exclusion"
-                        onMouseEnter={() => onPreviewBlendMode?.('exclusion')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Exclusion
-                      </SelectItem>
-                      <SelectItem 
-                        value="hue"
-                        onMouseEnter={() => onPreviewBlendMode?.('hue')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Hue
-                      </SelectItem>
-                      <SelectItem 
-                        value="saturation"
-                        onMouseEnter={() => onPreviewBlendMode?.('saturation')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Saturation
-                      </SelectItem>
-                      <SelectItem 
-                        value="color"
-                        onMouseEnter={() => onPreviewBlendMode?.('color')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Color
-                      </SelectItem>
-                      <SelectItem 
-                        value="luminosity"
-                        onMouseEnter={() => onPreviewBlendMode?.('luminosity')}
-                        onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                      >
-                        Luminosity
-                      </SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-              )}
-            </div>
+            <TintColorSwatch
+              color={ramp.tintColor || '#000000'}
+              colorFormat={ramp.colorFormat || 'hex'}
+              opacity={ramp.tintOpacity || 0}
+              blendMode={ramp.tintBlendMode}
+              onColorChange={color => onUpdate({ tintColor: color })}
+              onOpacityChange={opacity => onUpdate({ tintOpacity: opacity })}
+              onBlendModeChange={blendMode => onUpdate({ tintBlendMode: blendMode })}
+              onRemove={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }}
+              id={`tint-color-picker-${ramp.id}`}
+              onPreviewBlendMode={onPreviewBlendMode}
+            />
           )}
 
           {/* Color Adjustment Controls */}
           <div className="space-y-4">
-            {/* Lightness Controls */}
-            <div className="space-y-2">
-              <div className="flex items-center justify-between">
-                <Label>
-                  {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${Math.round(ramp.lightnessRange * 10) / 10}%`}
-                </Label>
-                <div className="flex gap-1">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => resetAttribute('lightness')}
-                    className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                  >
-                    <RotateCcw className="w-3 h-3" />
-                  </Button>
-                  <SegmentedControl
-                    value={ramp.lightnessAdvanced ? 'gradient' : 'simple'}
-                    onChange={(mode) => {
-                      if (mode === 'simple') {
-                        onUpdate({ lightnessAdvanced: false });
-                      } else if (mode === 'gradient') {
-                        const updates: Partial<ColorRampConfig> = { lightnessAdvanced: true };
-                        const defaults = calculateAdvancedDefaults('lightness');
-                        updates.lightnessStart = ramp.lightnessStart ?? defaults.start;
-                        updates.lightnessEnd = ramp.lightnessEnd ?? defaults.end;
-                        onUpdate(updates);
-                      }
-                    }}
-                  />
-                </div>
-              </div>
-              
-              {ramp.lightnessAdvanced ? (
-                <>
-                  <div className="grid grid-cols-2 gap-2">
-                    <div>
-                      <Label className="text-xs">Start (%)</Label>
-                      <Input
-                        type="number"
-                        value={ramp.lightnessStart ?? calculateAdvancedDefaults('lightness').start}
-                        onChange={(e) => {
-                          const inputValue = e.target.value;
-                          if (inputValue === '') {
-                            onUpdate({ lightnessStart: 0 });
-                            return;
-                          }
-                          const value = parseFloat(inputValue);
-                          if (!isNaN(value) && value >= 0 && value <= 100) {
-                            const roundedValue = Math.round(value * 10) / 10;
-                            onUpdate({ lightnessStart: roundedValue });
-                          }
-                        }}
-                        min={0}
-                        max={100}
-                        step={0.1}
-                        className="text-center text-xs"
-                      />
-                    </div>
-                    <div>
-                      <Label className="text-xs">End (%)</Label>
-                      <Input
-                        type="number"
-                        value={ramp.lightnessEnd ?? calculateAdvancedDefaults('lightness').end}
-                        onChange={(e) => {
-                          const inputValue = e.target.value;
-                          if (inputValue === '') {
-                            onUpdate({ lightnessEnd: 0 });
-                            return;
-                          }
-                          const value = parseFloat(inputValue);
-                          if (!isNaN(value) && value >= 0 && value <= 100) {
-                            const roundedValue = Math.round(value * 10) / 10;
-                            onUpdate({ lightnessEnd: roundedValue });
-                          }
-                        }}
-                        min={0}
-                        max={100}
-                        step={0.1}
-                        className="text-center text-xs"
-                      />
-                    </div>
-                  </div>
-                  <div className="mt-2">
-                    <Label className="text-xs">Scale Type</Label>
-                    <select
-                      className="w-full border rounded px-2 py-1 text-xs mt-1"
-                      value={lightnessScale}
-                      onChange={e => {
-                        setLightnessScale(e.target.value);
-                        onUpdate({ lightnessScaleType: e.target.value });
-                      }}
-                    >
-                      {SCALE_TYPES.map(type => (
-                        <option key={type.value} value={type.value}>{type.label}{!IMPLEMENTED_SCALES.includes(type.value) ? ' (soon)' : ''}</option>
-                      ))}
-                    </select>
-                  </div>
-                </>
-              ) : (
-                <div className="flex gap-2 items-center">
-                  <Slider
-                    value={[ramp.lightnessRange]}
-                    onValueChange={([value]) => {
-                      const roundedValue = Math.round(value * 10) / 10;
-                      onUpdate({ lightnessRange: roundedValue });
-                    }}
-                    max={100}
-                    min={0}
-                    step={1}
-                    className="flex-1"
-                  />
-                  <Input
-                    type="number"
-                    value={Math.round(ramp.lightnessRange * 10) / 10}
-                    onChange={(e) => {
-                      const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                      const roundedValue = Math.round(value * 10) / 10;
-                      onUpdate({ lightnessRange: roundedValue });
-                    }}
-                    min={0}
-                    max={100}
-                    step={0.1}
-                    className="w-16 text-center"
-                  />
-                </div>
-              )}
-            </div>
-            
-            {/* Hue Shift Controls */}
-            <div className="space-y-2">
-              <div className="flex items-center justify-between">
-                <Label>
-                  {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${Math.round(ramp.chromaRange)}°`}
-                </Label>
-                <div className="flex gap-1">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => resetAttribute('hue')}
-                    className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                  >
-                    <RotateCcw className="w-3 h-3" />
-                  </Button>
-                  <SegmentedControl
-                    value={ramp.chromaAdvanced ? 'gradient' : 'simple'}
-                    onChange={(mode) => {
-                      if (mode === 'simple') {
-                        onUpdate({ chromaAdvanced: false });
-                      } else if (mode === 'gradient') {
-                        const updates: Partial<ColorRampConfig> = { chromaAdvanced: true };
-                        const defaults = calculateAdvancedDefaults('hue');
-                        updates.chromaStart = ramp.chromaStart ?? defaults.start;
-                        updates.chromaEnd = ramp.chromaEnd ?? defaults.end;
-                        onUpdate(updates);
-                      }
-                    }}
-                  />
-                </div>
-              </div>
-              
-              {ramp.chromaAdvanced ? (
-                <>
-                  <div className="grid grid-cols-2 gap-2">
-                    <div>
-                      <Label className="text-xs">Start</Label>
-                      <Input
-                        type="number"
-                        value={ramp.chromaStart ?? calculateAdvancedDefaults('hue').start}
-                        onChange={(e) => {
-                          const inputValue = e.target.value;
-                          if (inputValue === '') {
-                            onUpdate({ chromaStart: 0 });
-                            return;
-                          }
-                          const value = parseFloat(inputValue);
-                          if (!isNaN(value)) {
-                            const roundedValue = Math.round(value);
-                            onUpdate({ chromaStart: roundedValue });
-                          }
-                        }}
-                        step={1}
-                        className="text-center text-xs"
-                      />
-                    </div>
-                    <div>
-                      <Label className="text-xs">End</Label>
-                      <Input
-                        type="number"
-                        value={ramp.chromaEnd ?? calculateAdvancedDefaults('hue').end}
-                        onChange={(e) => {
-                          const inputValue = e.target.value;
-                          if (inputValue === '') {
-                            onUpdate({ chromaEnd: 0 });
-                            return;
-                          }
-                          const value = parseFloat(inputValue);
-                          if (!isNaN(value)) {
-                            const roundedValue = Math.round(value);
-                            onUpdate({ chromaEnd: roundedValue });
-                          }
-                        }}
-                        step={1}
-                        className="text-center text-xs"
-                      />
-                    </div>
-                  </div>
-                  <div className="mt-2">
-                    <Label className="text-xs">Scale Type</Label>
-                    <select
-                      className="w-full border rounded px-2 py-1 text-xs mt-1"
-                      value={hueScale}
-                      onChange={e => {
-                        setHueScale(e.target.value);
-                        onUpdate({ hueScaleType: e.target.value });
-                      }}
-                    >
-                      {SCALE_TYPES.map(type => (
-                        <option key={type.value} value={type.value}>{type.label}{!IMPLEMENTED_SCALES.includes(type.value) ? ' (soon)' : ''}</option>
-                      ))}
-                    </select>
-                  </div>
-                </>
-              ) : (
-                <div className="flex gap-2 items-center">
-                  <Slider
-                    value={[ramp.chromaRange]}
-                    onValueChange={([value]) => {
-                      const roundedValue = Math.round(value);
-                      onUpdate({ chromaRange: roundedValue });
-                    }}
-                    max={180}
-                    min={-180}
-                    step={1}
-                    className="flex-1"
-                  />
-                  <Input
-                    type="number"
-                    value={Math.round(ramp.chromaRange)}
-                    onChange={(e) => {
-                      const value = parseFloat(e.target.value);
-                      if (!isNaN(value) && value >= -180 && value <= 180) {
-                        const roundedValue = Math.round(value);
-                        onUpdate({ chromaRange: roundedValue });
-                      }
-                    }}
-                    min={-180}
-                    max={180}
-                    step={1}
-                    className="w-16 text-center"
-                  />
-                </div>
-              )}
-            </div>
-            
-            {/* Saturation Controls */}
-            <div className="space-y-2">
-              <div className="flex items-center justify-between">
-                <Label>
-                  {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${Math.round(ramp.saturationRange * 10) / 10}%`}
-                </Label>
-                <div className="flex gap-1">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => resetAttribute('saturation')}
-                    className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-                  >
-                    <RotateCcw className="w-3 h-3" />
-                  </Button>
-                  <SegmentedControl
-                    value={ramp.saturationAdvanced ? 'gradient' : 'simple'}
-                    onChange={(mode) => {
-                      if (mode === 'simple') {
-                        onUpdate({ saturationAdvanced: false });
-                      } else if (mode === 'gradient') {
-                        const updates: Partial<ColorRampConfig> = { saturationAdvanced: true };
-                        const defaults = calculateAdvancedDefaults('saturation');
-                        updates.saturationStart = ramp.saturationStart ?? defaults.start;
-                        updates.saturationEnd = ramp.saturationEnd ?? defaults.end;
-                        onUpdate(updates);
-                      }
-                    }}
-                  />
-                </div>
-              </div>
-              
-              {ramp.saturationAdvanced ? (
-                <>
-                  <div className="grid grid-cols-2 gap-2">
-                    <div>
-                      <Label className="text-xs">Start (%)</Label>
-                      <Input
-                        type="number"
-                        value={ramp.saturationStart ?? calculateAdvancedDefaults('saturation').start}
-                        onChange={(e) => {
-                          const inputValue = e.target.value;
-                          if (inputValue === '') {
-                            onUpdate({ saturationStart: 0 });
-                            return;
-                          }
-                          const value = parseFloat(inputValue);
-                          if (!isNaN(value)) {
-                            const roundedValue = Math.round(value * 10) / 10;
-                            onUpdate({ saturationStart: roundedValue });
-                          }
-                        }}
-                        step={0.1}
-                        className="text-center text-xs"
-                      />
-                    </div>
-                    <div>
-                      <Label className="text-xs">End (%)</Label>
-                      <Input
-                        type="number"
-                        value={ramp.saturationEnd ?? calculateAdvancedDefaults('saturation').end}
-                        onChange={(e) => {
-                          const inputValue = e.target.value;
-                          if (inputValue === '') {
-                            onUpdate({ saturationEnd: 0 });
-                            return;
-                          }
-                          const value = parseFloat(inputValue);
-                          if (!isNaN(value)) {
-                            const roundedValue = Math.round(value * 10) / 10;
-                            onUpdate({ saturationEnd: roundedValue });
-                          }
-                        }}
-                        step={0.1}
-                        className="text-center text-xs"
-                      />
-                    </div>
-                  </div>
-                  <div className="mt-2">
-                    <Label className="text-xs">Scale Type</Label>
-                    <select
-                      className="w-full border rounded px-2 py-1 text-xs mt-1"
-                      value={saturationScale}
-                      onChange={e => {
-                        setSaturationScale(e.target.value);
-                        onUpdate({ saturationScaleType: e.target.value });
-                      }}
-                    >
-                      {SCALE_TYPES.map(type => (
-                        <option key={type.value} value={type.value}>{type.label}{!IMPLEMENTED_SCALES.includes(type.value) ? ' (soon)' : ''}</option>
-                      ))}
-                    </select>
-                  </div>
-                </>
-              ) : (
-                <div className="flex gap-2 items-center">
-                  <Slider
-                    value={[ramp.saturationRange]}
-                    onValueChange={([value]) => {
-                      const roundedValue = Math.round(value * 10) / 10;
-                      onUpdate({ saturationRange: roundedValue });
-                    }}
-                    max={100}
-                    min={0}
-                    step={1}
-                    className="flex-1"
-                  />
-                  <Input
-                    type="number"
-                    value={Math.round(ramp.saturationRange * 10) / 10}
-                    onChange={(e) => {
-                      const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-                      const roundedValue = Math.round(value * 10) / 10;
-                      onUpdate({ saturationRange: roundedValue });
-                    }}
-                    min={0}
-                    max={100}
-                    step={0.1}
-                    className="w-16 text-center"
-                  />
-                </div>
-              )}
-            </div>
+            <LightnessControl
+              ramp={ramp}
+              onUpdate={onUpdate}
+              calculateAdvancedDefaults={calculateAdvancedDefaults}
+              resetAttribute={resetAttribute}
+              setLightnessScale={setLightnessScale}
+              lightnessScale={lightnessScale}
+              IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
+              SCALE_TYPES={SCALE_TYPES}
+            />
+            <HueControl
+              ramp={ramp}
+              onUpdate={onUpdate}
+              calculateAdvancedDefaults={calculateAdvancedDefaults}
+              resetAttribute={resetAttribute}
+              setHueScale={setHueScale}
+              hueScale={hueScale}
+              IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
+              SCALE_TYPES={SCALE_TYPES}
+            />
+            <SaturationControl
+              ramp={ramp}
+              onUpdate={onUpdate}
+              calculateAdvancedDefaults={calculateAdvancedDefaults}
+              resetAttribute={resetAttribute}
+              setSaturationScale={setSaturationScale}
+              saturationScale={saturationScale}
+              IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
+              SCALE_TYPES={SCALE_TYPES}
+            />
           </div>
         </div>
 
