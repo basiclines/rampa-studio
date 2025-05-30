@@ -5,6 +5,7 @@ import { Slider } from '@/components/ui/slider';
 import { Label } from '@/components/ui/label';
 import SegmentedControl from './SegmentedControl';
 import { ColorRampConfig } from '@/types/colorRamp';
+import LabeledSlider from './LabeledSlider';
 
 const SaturationControl = ({
   ramp,
@@ -19,18 +20,9 @@ const SaturationControl = ({
   <div className="space-y-2">
     <div className="flex items-center justify-between">
       <Label>
-        {ramp.saturationAdvanced ? 'Saturation Range' : `Saturation Range: ${Math.round(ramp.saturationRange * 10) / 10}%`}
+        Saturation
       </Label>
       <div className="flex gap-1">
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={() => resetAttribute('saturation')}
-          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-        >
-          <span className="sr-only">Reset</span>
-          ↺
-        </Button>
         <SegmentedControl
           value={ramp.saturationAdvanced ? 'gradient' : 'simple'}
           onChange={mode => {
@@ -111,29 +103,14 @@ const SaturationControl = ({
       </>
     ) : (
       <div className="flex gap-2 items-center">
-        <Slider
-          value={[ramp.saturationRange]}
-          onValueChange={([value]) => {
-            const roundedValue = Math.round(value * 10) / 10;
-            onUpdate({ saturationRange: roundedValue });
-          }}
-          max={100}
-          min={0}
-          step={1}
-          className="flex-1"
-        />
-        <Input
-          type="number"
+        <LabeledSlider
           value={Math.round(ramp.saturationRange * 10) / 10}
-          onChange={e => {
-            const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-            const roundedValue = Math.round(value * 10) / 10;
-            onUpdate({ saturationRange: roundedValue });
-          }}
+          onChange={value => onUpdate({ saturationRange: value })}
           min={0}
           max={100}
           step={0.1}
-          className="w-16 text-center"
+          formatValue={v => `${v}%`}
+          ariaLabel="Saturation Range"
         />
       </div>
     )}

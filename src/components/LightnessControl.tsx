@@ -5,6 +5,7 @@ import { Slider } from '@/components/ui/slider';
 import { Label } from '@/components/ui/label';
 import SegmentedControl from './SegmentedControl';
 import { ColorRampConfig } from '@/types/colorRamp';
+import LabeledSlider from './LabeledSlider';
 
 const LightnessControl = ({
   ramp,
@@ -19,18 +20,9 @@ const LightnessControl = ({
   <div className="space-y-2">
     <div className="flex items-center justify-between">
       <Label>
-        {ramp.lightnessAdvanced ? 'Lightness Range' : `Lightness Range: ${Math.round(ramp.lightnessRange * 10) / 10}%`}
+        Lightness
       </Label>
       <div className="flex gap-1">
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={() => resetAttribute('lightness')}
-          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-        >
-          <span className="sr-only">Reset</span>
-          ↺
-        </Button>
         <SegmentedControl
           value={ramp.lightnessAdvanced ? 'gradient' : 'simple'}
           onChange={mode => {
@@ -115,29 +107,14 @@ const LightnessControl = ({
       </>
     ) : (
       <div className="flex gap-2 items-center">
-        <Slider
-          value={[ramp.lightnessRange]}
-          onValueChange={([value]) => {
-            const roundedValue = Math.round(value * 10) / 10;
-            onUpdate({ lightnessRange: roundedValue });
-          }}
-          max={100}
-          min={0}
-          step={1}
-          className="flex-1"
-        />
-        <Input
-          type="number"
+        <LabeledSlider
           value={Math.round(ramp.lightnessRange * 10) / 10}
-          onChange={e => {
-            const value = Math.max(0, Math.min(100, parseFloat(e.target.value) || 0));
-            const roundedValue = Math.round(value * 10) / 10;
-            onUpdate({ lightnessRange: roundedValue });
-          }}
+          onChange={value => onUpdate({ lightnessRange: value })}
           min={0}
           max={100}
           step={0.1}
-          className="w-16 text-center"
+          formatValue={v => `${v}%`}
+          ariaLabel="Lightness Range"
         />
       </div>
     )}

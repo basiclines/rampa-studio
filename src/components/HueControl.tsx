@@ -5,6 +5,7 @@ import { Slider } from '@/components/ui/slider';
 import { Label } from '@/components/ui/label';
 import SegmentedControl from './SegmentedControl';
 import { ColorRampConfig } from '@/types/colorRamp';
+import LabeledSlider from './LabeledSlider';
 
 const HueControl = ({
   ramp,
@@ -19,18 +20,9 @@ const HueControl = ({
   <div className="space-y-2">
     <div className="flex items-center justify-between">
       <Label>
-        {ramp.chromaAdvanced ? 'Hue Range' : `Hue Shift: ${Math.round(ramp.chromaRange)}°`}
+        Hue
       </Label>
       <div className="flex gap-1">
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={() => resetAttribute('hue')}
-          className="h-6 w-6 p-0 text-gray-500 hover:text-gray-700"
-        >
-          <span className="sr-only">Reset</span>
-          ↺
-        </Button>
         <SegmentedControl
           value={ramp.chromaAdvanced ? 'gradient' : 'simple'}
           onChange={mode => {
@@ -111,31 +103,14 @@ const HueControl = ({
       </>
     ) : (
       <div className="flex gap-2 items-center">
-        <Slider
-          value={[ramp.chromaRange]}
-          onValueChange={([value]) => {
-            const roundedValue = Math.round(value);
-            onUpdate({ chromaRange: roundedValue });
-          }}
-          max={180}
-          min={-180}
-          step={1}
-          className="flex-1"
-        />
-        <Input
-          type="number"
+        <LabeledSlider
           value={Math.round(ramp.chromaRange)}
-          onChange={e => {
-            const value = parseFloat(e.target.value);
-            if (!isNaN(value) && value >= -180 && value <= 180) {
-              const roundedValue = Math.round(value);
-              onUpdate({ chromaRange: roundedValue });
-            }
-          }}
+          onChange={value => onUpdate({ chromaRange: value })}
           min={-180}
           max={180}
           step={1}
-          className="w-16 text-center"
+          formatValue={v => `${v}°`}
+          ariaLabel="Hue Shift"
         />
       </div>
     )}
