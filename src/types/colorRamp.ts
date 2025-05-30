@@ -42,4 +42,5 @@ export interface ColorRampConfig {
   lightnessScaleType?: string;
   hueScaleType?: string;
   saturationScaleType?: string;
+  colorFormat?: 'hex' | 'hsl';
 }

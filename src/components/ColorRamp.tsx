@@ -19,6 +19,7 @@ import {
   getSquareColors,
   getCompoundColors,
 } from '@/lib/colorUtils';
+import chroma from 'chroma-js';
 
 interface ColorRampProps {
   config: ColorRampConfig;
@@ -521,7 +522,10 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                   {isHovered && (
                     <div className="absolute bottom-1 right-1 z-20">
                       <span className="text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-1.5 py-0.5 rounded">
-                        {color}
+                        {config.colorFormat === 'hsl' 
+                          ? chroma(color).hsl().map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
+                          : color
+                        }
                       </span>
                     </div>
                   )}

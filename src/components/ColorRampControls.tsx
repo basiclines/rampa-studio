@@ -19,7 +19,7 @@ interface ColorRampControlsProps {
   onPreviewBlendMode?: (blendMode: string | undefined) => void;
 }
 
-const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient', onChange: (v: 'simple' | 'gradient') => void }) => (
+const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient' | 'hex' | 'hsl', onChange: (v: 'simple' | 'gradient' | 'hex' | 'hsl') => void }) => (
   <div className="inline-flex rounded-md border border-gray-200 bg-white overflow-hidden text-xs">
     <button
       className={`px-2 py-1 ${value === 'simple' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
@@ -31,6 +31,21 @@ const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient', o
       onClick={() => onChange('gradient')}
       type="button"
     >Gradient</button>
+  </div>
+);
+
+const ColorFormatControl = ({ value, onChange }: { value: 'hex' | 'hsl', onChange: (v: 'hex' | 'hsl') => void }) => (
+  <div className="inline-flex w-full rounded-md border border-gray-200 bg-white overflow-hidden text-xs">
+    <button
+      className={`flex-1 px-2 py-1 ${value === 'hex' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('hex')}
+      type="button"
+    >HEX</button>
+    <button
+      className={`flex-1 px-2 py-1 ${value === 'hsl' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('hsl')}
+      type="button"
+    >HSL</button>
   </div>
 );
 
@@ -167,6 +182,10 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           {/* Base color and steps */}
           <div className="space-y-4">
             <div className="space-y-2">
+              <ColorFormatControl
+                value={ramp.colorFormat || 'hex'}
+                onChange={(format) => onUpdate({ colorFormat: format })}
+              />
               <Label htmlFor={`base-color-${ramp.id}`}>Base Color</Label>
               <div className="flex gap-2">
                 <Input
@@ -177,10 +196,22 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
                 />
                 <Input
-                  value={ramp.baseColor}
-                  onChange={(e) => onUpdate({ baseColor: e.target.value })}
+                  value={ramp.colorFormat === 'hsl' 
+                    ? chroma(ramp.baseColor).hsl().slice(0, 3).map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
+                    : ramp.baseColor
+                  }
+                  onChange={(e) => {
+                    if (ramp.colorFormat === 'hsl') {
+                      const [h, s, l] = e.target.value.split(',').map(v => parseFloat(v.trim()));
+                      if (!isNaN(h) && !isNaN(s) && !isNaN(l)) {
+                        onUpdate({ baseColor: chroma.hsl(h, s/100, l/100).hex() });
+                      }
+                    } else {
+                      onUpdate({ baseColor: e.target.value });
+                    }
+                  }}
                   className="flex-1"
-                  placeholder="#3b82f6"
+                  placeholder={ramp.colorFormat === 'hsl' ? "0, 100, 50" : "#3b82f6"}
                 />
               </div>
             </div>
@@ -250,10 +281,28 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     className="w-16 h-10 border-2 border-gray-200 rounded-lg cursor-pointer"
                   />
                   <Input
-                    value={ramp.tintColor || '#000000'}
-                    onChange={(e) => onUpdate({ tintColor: e.target.value })}
+                    value={ramp.colorFormat === 'hsl' 
+                      ? (() => {
+                          const hsl = chroma(ramp.tintColor || '#000000').hsl().slice(0, 3);
+                          const safeH = isNaN(hsl[0]) ? 0 : Math.round(hsl[0]);
+                          const safeS = Math.round(hsl[1] * 100);
+                          const safeL = Math.round(hsl[2] * 100);
+                          return `${safeH}, ${safeS}, ${safeL}`;
+                        })()
+                      : (ramp.tintColor || '#000000')
+                    }
+                    onChange={(e) => {
+                      if (ramp.colorFormat === 'hsl') {
+                        const [h, s, l] = e.target.value.split(',').map(v => parseFloat(v.trim()));
+                        if (!isNaN(h) && !isNaN(s) && !isNaN(l)) {
+                          onUpdate({ tintColor: chroma.hsl(h, s/100, l/100).hex() });
+                        }
+                      } else {
+                        onUpdate({ tintColor: e.target.value });
+                      }
+                    }}
                     className="flex-1"
-                    placeholder="#000000"
+                    placeholder={ramp.colorFormat === 'hsl' ? "0, 0, 0" : "#000000"}
                   />
                   <Button variant="ghost" size="sm" onClick={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }} className="ml-2">Remove</Button>
                 </div>
