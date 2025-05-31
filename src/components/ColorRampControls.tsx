@@ -216,10 +216,10 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     setShowTint(true);
                     const updates: Partial<ColorRampConfig> = {};
                     if (!ramp.tintColor) {
-                      updates.tintColor = '#000000';
+                      updates.tintColor = '#FE0000';
                     }
                     if (!ramp.tintOpacity) {
-                      updates.tintOpacity = 10;
+                      updates.tintOpacity = 12;
                     }
                     if (Object.keys(updates).length > 0) {
                       onUpdate(updates);

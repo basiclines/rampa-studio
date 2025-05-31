@@ -34,23 +34,23 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
 }) => {
   return (
     <div className="space-y-2">
-      <div className="relative w-full h-20 rounded-lg overflow-hidden cursor-pointer border border-gray-200 group" onClick={() => document.getElementById(id || 'tint-color-picker')?.click()} style={{ background: chroma(color || '#000000').alpha((opacity || 0) / 100).css() }}>
+      <div className="relative w-full h-20 overflow-hidden cursor-pointer group" onClick={() => document.getElementById(id || 'tint-color-picker')?.click()} style={{ background: chroma(color || '#FE0000').alpha((opacity || 0) / 100).css() }}>
         <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
           {colorFormat === 'hsl'
             ? (() => {
-                const hsl = chroma(color || '#000000').hsl().slice(0, 3);
+                const hsl = chroma(color || '#FE0000').hsl().slice(0, 3);
                 const safeH = isNaN(hsl[0]) ? 0 : Math.round(hsl[0]);
                 const safeS = Math.round(hsl[1] * 100);
                 const safeL = Math.round(hsl[2] * 100);
                 return `${safeH}, ${safeS}, ${safeL}`;
               })()
-            : (color || '#000000')
+            : (color || '#FE0000')
           }
         </span>
         <input
           id={id || 'tint-color-picker'}
           type="color"
-          value={color || '#000000'}
+          value={color || '#FE0000'}
           onChange={e => onColorChange(e.target.value)}
           className="absolute w-0 h-0 opacity-0 pointer-events-none"
           tabIndex={-1}

@@ -129,9 +129,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
 
   return (
     <div 
-      className={`space-y-4 flex-shrink-0 cursor-pointer transition-all duration-300 rounded-lg relative
-        ${isSelected ? '' : ''}
-      `}
+      className="space-y-4 flex-shrink-0 cursor-pointer transition-all duration-300 rounded-lg relative"
       style={{
         padding: 0,
         boxSizing: 'border-box',
@@ -148,7 +146,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
     >
       {/* Hover Actions */}
       <div className="pointer-events-none">
-        {isHovered && (
+        {(isHovered || isSelected) && (
           <div className="absolute top-2 right-2 z-30 flex gap-1 pointer-events-auto">
             <Button 
               variant="outline" 
@@ -481,7 +479,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       </div>
 
       <div className="text-center space-y-2" style={{ paddingTop: 24, paddingLeft: 24, paddingRight: 24 }}>
-        {isSelected ? (
           <div
             className="relative"
             onMouseEnter={() => setIsEditing(true)}
@@ -500,11 +497,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
               onKeyDown={e => { if (e.key === 'Enter') e.currentTarget.blur(); }}
             />
           </div>
-        ) : (
-          <h3 className="text-base font-medium text-gray-700">
-            {config.name}
-          </h3>
-        )}
       </div>
       
       <div className="relative isolate" style={{ height: 'calc(100% - 56px)' }}>
@@ -519,7 +511,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                   style={{ backgroundColor: color }}
                 >
                   {/* Hex value on bottom-right - only visible when hovering the entire ramp */}
-                  {isHovered && (
+                  {(isHovered || isSelected) && (
                     <div className="absolute bottom-1 right-1 z-20">
                       <span className="text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-1.5 py-0.5 rounded">
                         {config.colorFormat === 'hsl' 
