@@ -35,7 +35,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
   return (
     <div className="space-y-2">
       <div className="relative w-full h-20 overflow-hidden cursor-pointer group" onClick={() => document.getElementById(id || 'tint-color-picker')?.click()} style={{ background: chroma(color || '#FE0000').alpha((opacity || 0) / 100).css() }}>
-        <span className="absolute left-2 top-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
+        <span className="absolute right-2 bottom-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
           {colorFormat === 'hsl'
             ? (() => {
                 const hsl = chroma(color || '#FE0000').hsl().slice(0, 3);

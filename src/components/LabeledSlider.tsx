@@ -43,13 +43,12 @@ const LabeledSlider: React.FC<LabeledSliderProps> = ({ value, onChange, min, max
       <div className="absolute left-0 top-1/2 w-full h-1 group-hover:h-4 transition-all duration-200 -translate-y-1/2 flex items-center">
         {/* Filled bar */}
         <div
-          className="bg-gray-500"
-          style={{ width: `${percent}%`, height: '100%', borderRadius: 0, zIndex: 1 }}
+          style={{ width: `${percent}%`, height: '100%', borderRadius: 0, zIndex: 1, backgroundColor: 'rgba(0, 0, 0, 0.3)' }}
         />
         {/* Track bar */}
         <div
-          className="absolute left-0 top-0 w-full bg-gray-200"
-          style={{ height: '100%', borderRadius: 0, zIndex: 0 }}
+          className="absolute left-0 top-0 w-full"
+          style={{ height: '100%', borderRadius: 0, zIndex: 0, backgroundColor: 'rgba(0, 0, 0, 0.1)' }}
         />
         {/* Input range (transparent) */}
         <input
@@ -74,7 +73,11 @@ const LabeledSlider: React.FC<LabeledSliderProps> = ({ value, onChange, min, max
           }}
         >
           <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 h-full">
-            <div className={`px-2 text-xs font-semibold h-full ${percent < SLIDER_LABEL_THRESHOLD ? 'text-gray-800' : 'text-white'}`}>
+            <div
+              className={`px-2 text-xs font-semibold h-full`}
+              style={{
+                color: percent < SLIDER_LABEL_THRESHOLD ? 'rgba(0, 0, 0, 0.7)' : 'rgba(255, 255, 255, 0.95)',
+              }}>
               {formatValue ? formatValue(value) : value}
             </div>
           </div>

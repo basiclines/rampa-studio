@@ -149,6 +149,7 @@ const Index = () => {
             flexDirection: 'column',
             backdropFilter: 'blur(100px)',
             backgroundColor: 'rgba(255, 255, 255, 0.95)',
+            borderRight: '1px solid rgba(0, 0, 0, 0.12)',
           }}
         >
           <div style={{ flex: 1, overflowY: 'auto' }}>

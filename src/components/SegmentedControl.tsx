@@ -8,12 +8,12 @@ interface SegmentedControlProps {
 const SegmentedControl: React.FC<SegmentedControlProps> = ({ value, onChange }) => (
   <div className="inline-flex text-xs">
     <button
-      className={`${value === 'simple' ? 'text-blue-700 font-semibold' : 'text-gray-700 hover:text-blue-700'} px-2 py-1 transition-colors`}
+      style={{ color: value === 'simple' ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.5)', marginRight: '8px' }}
       onClick={() => onChange('simple')}
       type="button"
     >Simple</button>
     <button
-      className={`${value === 'gradient' ? 'text-blue-700 font-semibold' : 'text-gray-700 hover:text-blue-700'} px-2 py-1 transition-colors`}
+      style={{ color: value === 'gradient' ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.5)' }}
       onClick={() => onChange('gradient')}
       type="button"
     >Gradient</button>
