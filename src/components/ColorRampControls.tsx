@@ -15,6 +15,7 @@ import LightnessControl from './LightnessControl';
 import HueControl from './HueControl';
 import SaturationControl from './SaturationControl';
 import LabeledSlider from './LabeledSlider';
+import HSLPropertiesControl from './HSLPropertiesControl';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -182,7 +183,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
       {/* Header removed as requested */}
 
       {/* Main layout: Controls and Gradient Sliders side by side */}
-      <div className={`flex gap-4 ${hasAdvancedMode ? 'h-[400px]' : ''}`}>
+      <div className={`flex gap-4`}>
         {/* Controls Column */}
         <div className="flex-1 space-y-6">
           {/* Main config section */}
@@ -265,49 +266,17 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           </div>
 
           {/* Properties section */}
-          <div className="pb-6 mb-6 border-b border-gray-200">
-            <div className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">Properties</div>
-            <div className="mb-6">
-              <LightnessControl
-                ramp={ramp}
-                onUpdate={onUpdate}
-                calculateAdvancedDefaults={calculateAdvancedDefaults}
-                resetAttribute={resetAttribute}
-                setLightnessScale={setLightnessScale}
-                lightnessScale={lightnessScale}
-                IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
-                SCALE_TYPES={SCALE_TYPES}
-              />
-            </div>
-            <div className="mb-6">
-              <HueControl
-                ramp={ramp}
-                onUpdate={onUpdate}
-                calculateAdvancedDefaults={calculateAdvancedDefaults}
-                resetAttribute={resetAttribute}
-                setHueScale={setHueScale}
-                hueScale={hueScale}
-                IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
-                SCALE_TYPES={SCALE_TYPES}
-              />
-            </div>
-            <div>
-              <SaturationControl
-                ramp={ramp}
-                onUpdate={onUpdate}
-                calculateAdvancedDefaults={calculateAdvancedDefaults}
-                resetAttribute={resetAttribute}
-                setSaturationScale={setSaturationScale}
-                saturationScale={saturationScale}
-                IMPLEMENTED_SCALES={IMPLEMENTED_SCALES}
-                SCALE_TYPES={SCALE_TYPES}
-              />
-            </div>
-          </div>
+          <HSLPropertiesControl
+            ramp={ramp}
+            onUpdate={onUpdate}
+            lightnessScale={lightnessScale}
+            setLightnessScale={setLightnessScale}
+            hueScale={hueScale}
+            setHueScale={setHueScale}
+            saturationScale={saturationScale}
+            setSaturationScale={setSaturationScale}
+          />
         </div>
-
-        {/* Gradient Sliders Column */}
-        <GradientSliders ramp={ramp} onUpdate={onUpdate} />
       </div>
     </div>
   );
