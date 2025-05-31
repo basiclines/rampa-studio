@@ -139,15 +139,16 @@ const Index = () => {
       {/* Fixed Sidebar - Only shown when a ramp is selected */}
       {selectedRamp && (
         <div
-          className="fixed top-0 left-0 z-40 bg-white border-r border-gray-200 shadow-xl"
+          className="fixed top-0 left-0 z-40"
           style={{
             width: hasAdvancedMode ? 600 : 320,
             height: '100vh',
             transition: 'width 0.2s',
             borderRadius: 0,
-            boxShadow: '0 4px 32px 0 rgba(0,0,0,0.10)',
             display: 'flex',
             flexDirection: 'column',
+            backdropFilter: 'blur(100px)',
+            backgroundColor: 'rgba(255, 255, 255, 0.95)',
           }}
         >
           <div style={{ flex: 1, overflowY: 'auto' }}>
