@@ -209,7 +209,17 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <div className="pb-6 mb-6 border-b border-gray-200">
             <div className="flex items-center justify-between mb-2">
               <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">Color mix</div>
-              {!showTint && (
+              {showTint ? (
+                <span
+                  className="text-red-600 hover:underline cursor-pointer text-sm"
+                  onClick={() => {
+                    onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined });
+                    setShowTint(false);
+                  }}
+                >
+                  Remove tint
+                </span>
+              ) : (
                 <span
                   className="text-blue-600 hover:underline cursor-pointer text-sm"
                   onClick={() => {
@@ -226,7 +236,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     }
                   }}
                 >
-                  Add color
+                  Add tint
                 </span>
               )}
             </div>
