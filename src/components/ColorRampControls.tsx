@@ -182,131 +182,127 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
 
   return (
     <div
-          className="fixed top-0 left-0 z-40"
-          style={{
-            width: 320,
-            height: '100vh',
-            transition: 'width 0.2s',
-            borderRadius: 0,
-            display: 'flex',
-            flexDirection: 'column',
-            backdropFilter: 'blur(100px)',
-            backgroundColor: 'rgba(255, 255, 255, 0.95)',
-            borderRight: '1px solid rgba(0, 0, 0, 0.12)',
-          }}
-        >
-          <div style={{ flex: 1, overflowY: 'auto' }}>
-            <div className="p-6 h-full">
-              {/* Close button */}
-              <div className="flex justify-between items-center mb-6">
-                <Button variant="ghost" size="sm" onClick={closeSidebar}>
-                  <X className="w-4 h-4" />
-                </Button>
-              </div>
-                        
-              <div className="space-y-6 h-full flex flex-col">
-                {/* Main layout: Controls and Gradient Sliders side by side */}
-                <div className="flex gap-4 h-full">
-                  {/* Controls Column */}
-                  <div className="flex-1 flex flex-col h-full min-h-0">
-                    {/* Main config section */}
-                    <div className="pb-6 mb-6 border-b border-gray-200 flex-shrink-0">
-                      <ColorFormatControl
-                        value={ramp.colorFormat || 'hex'}
-                        onChange={(format) => onUpdate({ colorFormat: format })}
-                      />
-                      <div className="space-y-2 mt-4">
-                        <Label>Steps</Label>
-                        <LabeledSlider
-                          value={ramp.totalSteps}
-                          onChange={value => onUpdate({ totalSteps: Math.round(value) })}
-                          min={3}
-                          max={100}
-                          step={1}
-                          formatValue={v => `${v}`}
-                          ariaLabel="Steps"
-                        />
-                      </div>
-                    </div>
+      className="fixed top-0 left-0 z-40"
+      style={{
+        width: 320,
+        height: '100vh',
+        transition: 'width 0.2s',
+        borderRadius: 0,
+        display: 'flex',
+        flexDirection: 'column',
+        backdropFilter: 'blur(100px)',
+        backgroundColor: 'rgba(255, 255, 255, 0.95)',
+        borderRight: '1px solid rgba(0, 0, 0, 0.12)',
+      }}
+    >
+      {/* Close button */}
+      <div className="flex justify-between items-center mb-6 p-6 pb-0">
+        <Button variant="ghost" size="sm" onClick={closeSidebar}>
+          <X className="w-4 h-4" />
+        </Button>
+      </div>
 
-                    {/* Color mix section */}
-                    <div className="pb-6 mb-6 border-b border-gray-200 flex-shrink-0">
-                      <div className="flex items-center justify-between mb-2">
-                        <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">Color mix</div>
-                        {showTint ? (
-                          <span
-                            className="text-red-600 hover:underline cursor-pointer text-sm"
-                            onClick={() => {
-                              onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined });
-                              setShowTint(false);
-                            }}
-                          >
-                            Remove tint
-                          </span>
-                        ) : (
-                          <span
-                            className="text-blue-600 hover:underline cursor-pointer text-sm"
-                            onClick={() => {
-                              setShowTint(true);
-                              const updates: Partial<ColorRampConfig> = {};
-                              if (!ramp.tintColor) {
-                                updates.tintColor = '#FE0000';
-                              }
-                              if (!ramp.tintOpacity) {
-                                updates.tintOpacity = 12;
-                              }
-                              if (Object.keys(updates).length > 0) {
-                                onUpdate(updates);
-                              }
-                            }}
-                          >
-                            Add tint
-                          </span>
-                        )}
-                      </div>
-                      <div className="space-y-2">
-                        {showTint && (
-                          <TintColorSwatch
-                            color={ramp.tintColor || '#000000'}
-                            colorFormat={ramp.colorFormat || 'hex'}
-                            opacity={ramp.tintOpacity || 0}
-                            blendMode={ramp.tintBlendMode}
-                            onColorChange={color => onUpdate({ tintColor: color })}
-                            onOpacityChange={opacity => onUpdate({ tintOpacity: opacity })}
-                            onBlendModeChange={blendMode => onUpdate({ tintBlendMode: blendMode })}
-                            onRemove={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }}
-                            id={`tint-color-picker-${ramp.id}`}
-                            onPreviewBlendMode={onPreviewBlendMode}
-                          />
-                        )}
-                        <BaseColorSwatch
-                          color={ramp.baseColor}
-                          colorFormat={ramp.colorFormat || 'hex'}
-                          onChange={color => onUpdate({ baseColor: color })}
-                          id={`base-color-picker-${ramp.id}`}
-                        />
-                      </div>
-                    </div>
-
-                    {/* Properties section */}
-                    <div className={hasAdvancedMode ? 'flex-1 min-h-0 flex flex-col' : 'flex-shrink-0'}>
-                      <HSLPropertiesControl
-                        ramp={ramp}
-                        onUpdate={onUpdate}
-                        lightnessScale={lightnessScale}
-                        setLightnessScale={setLightnessScale}
-                        hueScale={hueScale}
-                        setHueScale={setHueScale}
-                        saturationScale={saturationScale}
-                        setSaturationScale={setSaturationScale}
-                      />
-                    </div>
-                  </div>
-                </div>
+      <div className="flex-1 overflow-y-auto p-6 pt-0 flex flex-col">
+        {/* Main layout: Controls and Gradient Sliders side by side */}
+        <div className="flex gap-4 h-full flex-1">
+          {/* Controls Column */}
+          <div className={`flex-1 flex flex-col h-full min-h-0`}>
+            {/* Main config section */}
+            <div className="pb-6 mb-6 border-b border-gray-200 flex-shrink-0">
+              <ColorFormatControl
+                value={ramp.colorFormat || 'hex'}
+                onChange={(format) => onUpdate({ colorFormat: format })}
+              />
+              <div className="space-y-2 mt-4">
+                <Label>Steps</Label>
+                <LabeledSlider
+                  value={ramp.totalSteps}
+                  onChange={value => onUpdate({ totalSteps: Math.round(value) })}
+                  min={3}
+                  max={100}
+                  step={1}
+                  formatValue={v => `${v}`}
+                  ariaLabel="Steps"
+                />
               </div>
+            </div>
+
+            {/* Color mix section */}
+            <div className="pb-6 mb-6 border-b border-gray-200 flex-shrink-0">
+              <div className="flex items-center justify-between mb-2">
+                <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">Color mix</div>
+                {showTint ? (
+                  <span
+                    className="text-red-600 hover:underline cursor-pointer text-sm"
+                    onClick={() => {
+                      onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined });
+                      setShowTint(false);
+                    }}
+                  >
+                    Remove tint
+                  </span>
+                ) : (
+                  <span
+                    className="text-blue-600 hover:underline cursor-pointer text-sm"
+                    onClick={() => {
+                      setShowTint(true);
+                      const updates: Partial<ColorRampConfig> = {};
+                      if (!ramp.tintColor) {
+                        updates.tintColor = '#FE0000';
+                      }
+                      if (!ramp.tintOpacity) {
+                        updates.tintOpacity = 12;
+                      }
+                      if (Object.keys(updates).length > 0) {
+                        onUpdate(updates);
+                      }
+                    }}
+                  >
+                    Add tint
+                  </span>
+                )}
+              </div>
+              <div className="space-y-2">
+                {showTint && (
+                  <TintColorSwatch
+                    color={ramp.tintColor || '#000000'}
+                    colorFormat={ramp.colorFormat || 'hex'}
+                    opacity={ramp.tintOpacity || 0}
+                    blendMode={ramp.tintBlendMode}
+                    onColorChange={color => onUpdate({ tintColor: color })}
+                    onOpacityChange={opacity => onUpdate({ tintOpacity: opacity })}
+                    onBlendModeChange={blendMode => onUpdate({ tintBlendMode: blendMode })}
+                    onRemove={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }}
+                    id={`tint-color-picker-${ramp.id}`}
+                    onPreviewBlendMode={onPreviewBlendMode}
+                  />
+                )}
+                <BaseColorSwatch
+                  color={ramp.baseColor}
+                  colorFormat={ramp.colorFormat || 'hex'}
+                  onChange={color => onUpdate({ baseColor: color })}
+                  id={`base-color-picker-${ramp.id}`}
+                />
+              </div>
+            </div>
+
+            {/* Properties section */}
+            <div className={hasAdvancedMode ? 'flex-1 min-h-0 flex flex-col' : 'flex-shrink-0'}>
+              <HSLPropertiesControl
+                ramp={ramp}
+                onUpdate={onUpdate}
+                lightnessScale={lightnessScale}
+                setLightnessScale={setLightnessScale}
+                hueScale={hueScale}
+                setHueScale={setHueScale}
+                saturationScale={saturationScale}
+                setSaturationScale={setSaturationScale}
+              />
             </div>
           </div>
         </div>
+      </div>
+    </div>
   );
 };
 
