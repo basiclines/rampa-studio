@@ -48,7 +48,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   };
 
   return (
-    <div className="pb-6 mb-6 border-b border-gray-200 flex flex-col h-full">
+    <div className="pb-6 flex flex-col h-full">
       <div className="flex items-center justify-between mb-2">
         <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">Properties</div>
         <SegmentedControl value={isAdvanced ? 'gradient' : 'simple'} onChange={handleModeChange} />
