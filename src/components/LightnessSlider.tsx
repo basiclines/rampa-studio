@@ -3,17 +3,19 @@ import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateLightnessGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
 import { ColorRampConfig } from '@/types/colorRamp';
+import { cn } from '@/lib/utils';
 
 interface LightnessSliderProps {
   ramp: ColorRampConfig;
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
+  className?: string;
 }
 
 const roundToOneDecimal = (value: number): number => {
   return Math.round(value * 10) / 10;
 };
 
-const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => {
+const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate, className }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'lightness', ramp.lightnessRange);
   
   // Clear advanced values when range changes to force recalculation
@@ -41,7 +43,7 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate }) => 
   const endValue = roundToOneDecimal(ramp.lightnessEnd ?? defaults.end);
 
   return (
-    <div className="flex flex-col h-full">
+    <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
         label="Lightness"
         startValue={startValue}

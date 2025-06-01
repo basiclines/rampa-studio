@@ -3,17 +3,19 @@ import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateHueGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
 import { ColorRampConfig } from '@/types/colorRamp';
+import { cn } from '@/lib/utils';
 
 interface HueSliderProps {
   ramp: ColorRampConfig;
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
+  className?: string;
 }
 
 const roundToOneDecimal = (value: number): number => {
   return Math.round(value * 10) / 10;
 };
 
-const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
+const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate, className }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'hue', ramp.chromaRange);
   
   // Clear advanced values when range changes to force recalculation
@@ -43,7 +45,7 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate }) => {
   const endValue = roundToOneDecimal(ramp.chromaEnd ?? defaults.end);
 
   return (
-    <div className="flex flex-col h-full">
+    <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
         label="Hue"
         startValue={startValue}

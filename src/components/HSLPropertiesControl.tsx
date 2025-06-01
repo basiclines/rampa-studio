@@ -48,31 +48,19 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   };
 
   return (
-    <div className="pb-6 mb-6 border-b border-gray-200">
+    <div className="pb-6 mb-6 border-b border-gray-200 flex flex-col h-full">
       <div className="flex items-center justify-between mb-2">
         <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">Properties</div>
         <SegmentedControl value={isAdvanced ? 'gradient' : 'simple'} onChange={handleModeChange} />
       </div>
       {isAdvanced ? (
-        <div className="flex flex-row gap-2 w-full">
-          <LightnessSlider ramp={ramp} onUpdate={onUpdate} />
-          <HueSlider ramp={ramp} onUpdate={onUpdate} />
-          <SaturationSlider ramp={ramp} onUpdate={onUpdate} />
+        <div className="flex flex-row w-full flex-1 h-0">
+          <HueSlider ramp={ramp} onUpdate={onUpdate} className="flex-1 h-full" />
+          <SaturationSlider ramp={ramp} onUpdate={onUpdate} className="flex-1 h-full" />
+          <LightnessSlider ramp={ramp} onUpdate={onUpdate} className="flex-1 h-full" />
         </div>
       ) : (
         <div className="flex flex-col gap-4">
-          <div>
-            <Label className="mb-1 block">Lightness</Label>
-            <LabeledSlider
-              value={Math.round((ramp.lightnessRange || 0) * 10) / 10}
-              onChange={value => onUpdate({ lightnessRange: value })}
-              min={0}
-              max={100}
-              step={0.1}
-              formatValue={v => `${v}%`}
-              ariaLabel="Lightness Range"
-            />
-          </div>
           <div>
             <Label className="mb-1 block">Hue</Label>
             <LabeledSlider
@@ -95,6 +83,18 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
               step={0.1}
               formatValue={v => `${v}%`}
               ariaLabel="Saturation Range"
+            />
+          </div>
+          <div>
+            <Label className="mb-1 block">Lightness</Label>
+            <LabeledSlider
+              value={Math.round((ramp.lightnessRange || 0) * 10) / 10}
+              onChange={value => onUpdate({ lightnessRange: value })}
+              min={0}
+              max={100}
+              step={0.1}
+              formatValue={v => `${v}%`}
+              ariaLabel="Lightness Range"
             />
           </div>
         </div>

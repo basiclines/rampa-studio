@@ -3,17 +3,19 @@ import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateSaturationGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
 import { ColorRampConfig } from '@/types/colorRamp';
+import { cn } from '@/lib/utils';
 
 interface SaturationSliderProps {
   ramp: ColorRampConfig;
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
+  className?: string;
 }
 
 const roundToOneDecimal = (value: number): number => {
   return Math.round(value * 10) / 10;
 };
 
-const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) => {
+const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate, className }) => {
   const defaults = calculateAdvancedDefaults(ramp.baseColor, 'saturation', ramp.saturationRange);
   
   // Clear advanced values when range changes to force recalculation
@@ -41,7 +43,7 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate }) =
   const endValue = roundToOneDecimal(ramp.saturationEnd ?? defaults.end);
 
   return (
-    <div className="flex flex-col h-full">
+    <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
         label="Saturation"
         startValue={startValue}
