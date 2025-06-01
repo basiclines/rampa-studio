@@ -138,39 +138,15 @@ const Index = () => {
 
       {/* Fixed Sidebar - Only shown when a ramp is selected */}
       {selectedRamp && (
-        <div
-          className="fixed top-0 left-0 z-40"
-          style={{
-            width: hasAdvancedMode ? 600 : 320,
-            height: '100vh',
-            transition: 'width 0.2s',
-            borderRadius: 0,
-            display: 'flex',
-            flexDirection: 'column',
-            backdropFilter: 'blur(100px)',
-            backgroundColor: 'rgba(255, 255, 255, 0.95)',
-            borderRight: '1px solid rgba(0, 0, 0, 0.12)',
-          }}
-        >
-          <div style={{ flex: 1, overflowY: 'auto' }}>
-            <div className="p-6">
-              {/* Close button */}
-              <div className="flex justify-between items-center mb-6">
-                <Button variant="ghost" size="sm" onClick={closeSidebar}>
-                  <X className="w-4 h-4" />
-                </Button>
-              </div>
-              <ColorRampControls
-                ramp={selectedRamp}
-                canDelete={colorRamps.length > 1}
-                onUpdate={(updates) => updateColorRamp(selectedRamp.id, updates)}
-                onDuplicate={() => duplicateColorRamp(selectedRamp)}
-                onDelete={() => removeColorRamp(selectedRamp.id)}
-                onPreviewBlendMode={(blendMode) => handlePreviewBlendMode(selectedRamp.id, blendMode)}
-              />
-            </div>
-          </div>
-        </div>
+        <ColorRampControls
+          ramp={selectedRamp}
+          canDelete={colorRamps.length > 1}
+          onUpdate={(updates) => updateColorRamp(selectedRamp.id, updates)}
+          onDuplicate={() => duplicateColorRamp(selectedRamp)}
+          onDelete={() => removeColorRamp(selectedRamp.id)}
+          onPreviewBlendMode={(blendMode) => handlePreviewBlendMode(selectedRamp.id, blendMode)}
+          closeSidebar={closeSidebar}
+        />
       )}
 
       {/* Main Content */}
