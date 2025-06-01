@@ -64,7 +64,7 @@ const LabeledSlider: React.FC<LabeledSliderProps> = ({ value, onChange, min, max
         />
         {/* Value label on hover, positioned at the end of the filled bar */}
         <div
-          className="absolute"
+          className="absolute overflow-hidden"
           style={{ 
             [percent < SLIDER_LABEL_THRESHOLD ? 'left' : 'right']: percent < SLIDER_LABEL_THRESHOLD ? `${percent}%` : `calc(100% - ${percent}%)`, 
             top: '0', 

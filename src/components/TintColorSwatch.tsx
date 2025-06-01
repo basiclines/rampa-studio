@@ -55,14 +55,6 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
           className="absolute w-0 h-0 opacity-0 pointer-events-none"
           tabIndex={-1}
         />
-        <div
-          className="absolute bottom-0 left-0 right-0 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 cursor-pointer select-none"
-          onClick={e => { e.stopPropagation(); onRemove(); }}
-        >
-          <span className="block w-full py-2 bg-black/50 backdrop-blur text-white text-xs font-medium text-center">
-            Remove
-          </span>
-        </div>
       </div>
       <div className="flex gap-2 items-center">
         <LabeledSlider

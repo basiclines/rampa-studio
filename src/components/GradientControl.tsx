@@ -212,10 +212,9 @@ const GradientControl: React.FC<GradientControlProps> = ({
       <div className="text-xs font-medium text-gray-700 text-center mb-2">{label}</div>
       <div 
         ref={containerRef}
-        className="relative w-8 rounded border border-gray-300 mx-auto cursor-pointer select-none flex-1"
+        className="relative w-8 mx-auto cursor-pointer select-none flex-1"
         style={{ 
-          background: gradientBackground,
-          minHeight: '200px'
+          background: gradientBackground
         }}
       >
         {/* Step indicators */}
