@@ -313,16 +313,12 @@ const GradientControl: React.FC<GradientControlProps> = ({
         {swapHandlerColors ? (
           <>
             <div className="text-black">Start: {formatValue(roundToOneDecimal(endValue))}</div>
-            {scaleType === 'linear' && (
-              <div className="text-gray-600">End: {formatValue(roundToOneDecimal(startValue))}</div>
-            )}
+            <div className="text-gray-600">End: {formatValue(roundToOneDecimal(startValue))}</div>
           </>
         ) : (
           <>
             <div className="text-black">Start: {formatValue(roundToOneDecimal(startValue))}</div>
-            {scaleType === 'linear' && (
-              <div className="text-gray-600">End: {formatValue(roundToOneDecimal(endValue))}</div>
-            )}
+            <div className="text-gray-600">End: {formatValue(roundToOneDecimal(endValue))}</div>
           </>
         )}
       </div>
