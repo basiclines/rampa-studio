@@ -191,8 +191,7 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
 
     // Helper for geometric progression (0 to 1)
     function geometricPosition(i: number, steps: number) {
-      // ratio chosen so last step is 1, first is 0
-      const ratio = 3; // geometric ratio, more dramatic for demo
+      const ratio = 3;
       if (steps <= 1) return 0;
       const min = 1;
       const max = Math.pow(ratio, steps - 1);
@@ -201,12 +200,10 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
 
     // Fibonacci scale helper
     function fibonacciPositions(steps: number): number[] {
-      // Generate the first N Fibonacci numbers
       const fibs = [0, 1];
       for (let i = 2; i < steps; i++) {
         fibs.push(fibs[i - 1] + fibs[i - 2]);
       }
-      // Normalize to 0-1
       const min = fibs[0];
       const max = fibs[fibs.length - 1];
       return fibs.map(f => (f - min) / (max - min));
@@ -224,6 +221,60 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
       return vals.map(v => (v - min) / (max - min));
     }
 
+    // Logarithmic scale helper
+    function logarithmicPosition(i: number, steps: number) {
+      const min = 1;
+      const max = steps;
+      const logMin = Math.log(min);
+      const logMax = Math.log(max);
+      const x = i + 1;
+      return (Math.log(x) - logMin) / (logMax - logMin);
+    }
+
+    // Powers of 2 scale helper
+    function powersOf2Position(i: number, steps: number) {
+      const min = 1;
+      const max = Math.pow(2, steps - 1);
+      return (Math.pow(2, i) - min) / (max - min);
+    }
+
+    // Musical ratio scale helper
+    function musicalRatioPosition(i: number, steps: number) {
+      const ratios = [1, 16/15, 9/8, 6/5, 5/4, 4/3, 45/32, 3/2, 8/5, 5/3, 15/8, 2];
+      let seq = [];
+      if (steps <= ratios.length) {
+        seq = ratios.slice(0, steps);
+      } else {
+        for (let j = 0; j < steps; j++) {
+          seq.push(1 * Math.pow(2, j / (steps - 1)));
+        }
+      }
+      const min = seq[0];
+      const max = seq[seq.length - 1];
+      return (seq[i] - min) / (max - min);
+    }
+
+    // CIELAB uniform (placeholder: linear)
+    function cielabUniformPosition(i: number, steps: number) {
+      return i / (steps - 1);
+    }
+
+    // Ease-in
+    function easeInPosition(i: number, steps: number) {
+      const t = i / (steps - 1);
+      return t * t;
+    }
+    // Ease-out
+    function easeOutPosition(i: number, steps: number) {
+      const t = i / (steps - 1);
+      return 1 - (1 - t) * (1 - t);
+    }
+    // Ease-in-out
+    function easeInOutPosition(i: number, steps: number) {
+      const t = i / (steps - 1);
+      return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    }
+
     // Generate colors from darkest to lightest
     for (let i = 0; i < config.totalSteps; i++) {
       // Check if this color index is locked
@@ -231,29 +282,57 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
         colors.push(config.lockedColors[i]);
         continue;
       }
-      
-      // Precompute all positions for Fibonacci if needed
+      // Precompute all positions for Fibonacci, Golden Ratio, etc.
       const linearPosition = i / (config.totalSteps - 1);
       const geometricPos = geometricPosition(i, config.totalSteps);
       const fibPositions = fibonacciPositions(config.totalSteps);
       const fibPos = fibPositions[i];
       const goldenPositions = goldenRatioPositions(config.totalSteps);
       const goldenPos = goldenPositions[i];
+      const logPos = logarithmicPosition(i, config.totalSteps);
+      const pow2Pos = powersOf2Position(i, config.totalSteps);
+      const musicalPos = musicalRatioPosition(i, config.totalSteps);
+      const cielabPos = cielabUniformPosition(i, config.totalSteps);
+      const easeInPos = easeInPosition(i, config.totalSteps);
+      const easeOutPos = easeOutPosition(i, config.totalSteps);
+      const easeInOutPos = easeInOutPosition(i, config.totalSteps);
+
       // Apply scale type to each attribute
       const positionLightness =
         lightnessScale === 'geometric' ? geometricPos :
         lightnessScale === 'fibonacci' ? fibPos :
         lightnessScale === 'golden-ratio' ? goldenPos :
+        lightnessScale === 'logarithmic' ? logPos :
+        lightnessScale === 'powers-of-2' ? pow2Pos :
+        lightnessScale === 'musical-ratio' ? musicalPos :
+        lightnessScale === 'cielab-uniform' ? cielabPos :
+        lightnessScale === 'ease-in' ? easeInPos :
+        lightnessScale === 'ease-out' ? easeOutPos :
+        lightnessScale === 'ease-in-out' ? easeInOutPos :
         linearPosition;
       const positionHue =
         hueScale === 'geometric' ? geometricPos :
         hueScale === 'fibonacci' ? fibPos :
         hueScale === 'golden-ratio' ? goldenPos :
+        hueScale === 'logarithmic' ? logPos :
+        hueScale === 'powers-of-2' ? pow2Pos :
+        hueScale === 'musical-ratio' ? musicalPos :
+        hueScale === 'cielab-uniform' ? cielabPos :
+        hueScale === 'ease-in' ? easeInPos :
+        hueScale === 'ease-out' ? easeOutPos :
+        hueScale === 'ease-in-out' ? easeInOutPos :
         linearPosition;
       const positionSaturation =
         saturationScale === 'geometric' ? geometricPos :
         saturationScale === 'fibonacci' ? fibPos :
         saturationScale === 'golden-ratio' ? goldenPos :
+        saturationScale === 'logarithmic' ? logPos :
+        saturationScale === 'powers-of-2' ? pow2Pos :
+        saturationScale === 'musical-ratio' ? musicalPos :
+        saturationScale === 'cielab-uniform' ? cielabPos :
+        saturationScale === 'ease-in' ? easeInPos :
+        saturationScale === 'ease-out' ? easeOutPos :
+        saturationScale === 'ease-in-out' ? easeInOutPos :
         linearPosition;
 
       let newLightness: number;
