@@ -5,19 +5,30 @@ interface SegmentedControlProps {
   onChange: (v: 'simple' | 'gradient') => void;
 }
 
-const SegmentedControl: React.FC<SegmentedControlProps> = ({ value, onChange }) => (
-  <div className="inline-flex text-xs">
+const SegmentedControl: React.FC<SegmentedControlProps> = ({ value, onChange }) => {
+  const isActive = value === 'gradient';
+  return (
     <button
-      style={{ color: value === 'simple' ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.5)', marginRight: '8px' }}
-      onClick={() => onChange('simple')}
       type="button"
-    >Simple</button>
-    <button
-      style={{ color: value === 'gradient' ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.5)' }}
-      onClick={() => onChange('gradient')}
-      type="button"
-    >Gradient</button>
-  </div>
-);
+      onClick={() => onChange(isActive ? 'simple' : 'gradient')}
+      style={{
+        color: isActive ? 'rgba(0,0,0,0.9)' : 'rgba(0,0,0,0.6)',
+        background: isActive ? 'rgba(0,0,0,0.05)' : 'transparent',
+        borderRadius: '3px',
+        padding: '2px 6px',
+        fontSize: '12px',
+        textTransform: 'uppercase',
+        fontWeight: 500,
+        transition: 'background 0.15s, color 0.15s',
+        border: 'none',
+        outline: 'none',
+        cursor: 'pointer',
+      }}
+      aria-pressed={isActive}
+    >
+      Gradient
+    </button>
+  );
+};
 
 export default SegmentedControl; 
