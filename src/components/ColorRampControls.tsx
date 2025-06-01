@@ -264,7 +264,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 )}
               </div>
               {/* Two-circle layout */}
-              <div className="flex items-center justify-center gap-0 relative h-32 mb-2 w-full" style={{ minHeight: 180 }}>
+              <div className="flex items-center justify-center gap-0 relative h-32 mb-2 w-full" style={{ minHeight: 160 }}>
                 {/* Base color circle */}
                 <BaseColorSwatch
                   color={ramp.baseColor}
@@ -295,7 +295,19 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   <BaseColorSwatch
                     color={ramp.baseColor}
                     colorFormat={ramp.colorFormat || 'hex'}
-                    onChange={() => {}}
+                    onChange={() => {
+                      setShowTint(true);
+                      const updates: Partial<ColorRampConfig> = {};
+                      if (!ramp.tintColor) {
+                        updates.tintColor = '#FE0000';
+                      }
+                      if (!ramp.tintOpacity) {
+                        updates.tintOpacity = 12;
+                      }
+                      if (Object.keys(updates).length > 0) {
+                        onUpdate(updates);
+                      }
+                    }}
                     id={`empty-tint-circle-${ramp.id}`}
                     className="z-0"
                     style={{ borderColor: '#d1d5db', background: 'transparent', position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
@@ -320,7 +332,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     value={ramp.tintBlendMode || 'normal'}
                     onValueChange={value => onUpdate({ tintBlendMode: value as BlendMode })}
                   >
-                    <SelectTrigger className="h-10 border border-transparent hover:border-gray-300 focus:border-gray-300 text-center text-gray-600">
+                    <SelectTrigger className="h-10 border border-gray-300 focus:border-blue-500 text-center text-gray-600 shadow-sm">
                       <SelectValue placeholder="Select blend mode" className="text-center text-gray-600" />
                     </SelectTrigger>
                     <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">

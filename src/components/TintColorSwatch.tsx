@@ -18,6 +18,11 @@ interface TintColorSwatchProps {
   onRemove: () => void;
   id?: string;
   onPreviewBlendMode?: (blendMode: string | undefined) => void;
+  className?: string;
+  style?: React.CSSProperties;
+  borderStyle?: 'solid' | 'dashed';
+  empty?: boolean;
+  overlap?: boolean;
 }
 
 const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
@@ -31,11 +36,35 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
   onRemove,
   id,
   onPreviewBlendMode,
+  className = '',
+  style = {},
+  borderStyle = 'solid',
+  empty = false,
+  overlap = false,
 }) => {
   return (
-    <div className="space-y-2">
-      <div className="relative w-full h-20 overflow-hidden cursor-pointer group" onClick={() => document.getElementById(id || 'tint-color-picker')?.click()} style={{ background: chroma(color || '#FE0000').alpha((opacity || 0) / 100).css() }}>
-        <span className="absolute right-2 bottom-2 text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-2 py-0.5 rounded">
+    <div className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer border-2 ${borderStyle === 'dashed' ? 'border-dashed border-black border-opacity-20' : 'border-solid border-transparent'} ${className}`}
+      onClick={() => document.getElementById(id || 'tint-color-picker')?.click()}
+      style={{
+        background: empty ? 'transparent' : chroma(color || '#FE0000').alpha((opacity || 0) / 100).css(),
+        mixBlendMode: overlap && blendMode && [
+          'normal','darken','multiply','color-burn','lighten','screen','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'
+        ].includes(blendMode)
+          ? (blendMode as React.CSSProperties['mixBlendMode'])
+          : undefined,
+        ...style
+      }}
+    >
+      {!empty && (
+        <span className="absolute text-xs text-black text-opacity-80"
+        style={{
+          marginTop: 16,
+          top: '100%',
+          left: 0,
+          right: 0,
+          textAlign: 'center',
+          textTransform: 'uppercase'
+        }}>
           {colorFormat === 'hsl'
             ? (() => {
                 const hsl = chroma(color || '#FE0000').hsl().slice(0, 3);
@@ -47,50 +76,15 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
             : (color || '#FE0000')
           }
         </span>
-        <input
-          id={id || 'tint-color-picker'}
-          type="color"
-          value={color || '#FE0000'}
-          onChange={e => onColorChange(e.target.value)}
-          className="absolute w-0 h-0 opacity-0 pointer-events-none"
-          tabIndex={-1}
-        />
-      </div>
-      <div className="flex gap-2 items-center">
-        <LabeledSlider
-          value={opacity || 0}
-          onChange={onOpacityChange}
-          min={0}
-          max={100}
-          step={1}
-          formatValue={v => `${v}%`}
-          ariaLabel="Tint Opacity"
-        />
-      </div>
-      {opacity > 0 && (
-        <div className="space-y-2">
-          <Select
-            value={blendMode || 'normal'}
-            onValueChange={value => onBlendModeChange(value as BlendMode)}
-          >
-            <SelectTrigger className="h-10 border border-transparent hover:border-gray-300 focus:border-gray-300 text-center text-gray-600">
-              <SelectValue placeholder="Select blend mode" className="text-center text-gray-600" />
-            </SelectTrigger>
-            <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
-              {['normal','darken','multiply','plus-darker','color-burn','lighten','screen','plus-lighter','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'].map(mode => (
-                <SelectItem
-                  key={mode}
-                  value={mode}
-                  onMouseEnter={() => onPreviewBlendMode?.(mode)}
-                  onMouseLeave={() => onPreviewBlendMode?.(undefined)}
-                >
-                  {mode.charAt(0).toUpperCase() + mode.slice(1).replace(/-/g, ' ')}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
       )}
+      <input
+        id={id || 'tint-color-picker'}
+        type="color"
+        value={color || '#FE0000'}
+        onChange={e => onColorChange(e.target.value)}
+        className="absolute w-0 h-0 opacity-0 pointer-events-none"
+        tabIndex={-1}
+      />
     </div>
   );
 };

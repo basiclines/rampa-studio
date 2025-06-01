@@ -507,7 +507,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
             return (
               <div key={index} className="relative flex-1 min-h-0">
                 <div
-                  className="group relative w-full h-full border border-gray-200 overflow-hidden transition-all duration-200 hover:border-gray-300 flex items-stretch"
+                  className="group relative w-full h-full overflow-hidden transition-all duration-200 flex items-stretch"
                   style={{ backgroundColor: color }}
                 >
                   {/* Hex value on bottom-right - only visible when hovering the entire ramp */}
