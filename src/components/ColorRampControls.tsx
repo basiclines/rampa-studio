@@ -95,6 +95,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   const [lightnessScale, setLightnessScale] = useState('linear');
   const [hueScale, setHueScale] = useState('linear');
   const [saturationScale, setSaturationScale] = useState('linear');
+  const [previewBlendMode, setPreviewBlendMode] = useState<BlendMode | undefined>(undefined);
 
   const resetAttribute = (attribute: 'lightness' | 'hue' | 'saturation') => {
     try {
@@ -262,28 +263,81 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   </span>
                 )}
               </div>
-              <div className="space-y-2">
-                {showTint && (
-                  <TintColorSwatch
-                    color={ramp.tintColor || '#000000'}
-                    colorFormat={ramp.colorFormat || 'hex'}
-                    opacity={ramp.tintOpacity || 0}
-                    blendMode={ramp.tintBlendMode}
-                    onColorChange={color => onUpdate({ tintColor: color })}
-                    onOpacityChange={opacity => onUpdate({ tintOpacity: opacity })}
-                    onBlendModeChange={blendMode => onUpdate({ tintBlendMode: blendMode })}
-                    onRemove={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }}
-                    id={`tint-color-picker-${ramp.id}`}
-                    onPreviewBlendMode={onPreviewBlendMode}
-                  />
-                )}
+              {/* Two-circle layout */}
+              <div className="flex items-center justify-center gap-0 relative h-32 mb-2 w-full" style={{ minHeight: 180 }}>
+                {/* Base color circle */}
                 <BaseColorSwatch
                   color={ramp.baseColor}
                   colorFormat={ramp.colorFormat || 'hex'}
                   onChange={color => onUpdate({ baseColor: color })}
                   id={`base-color-picker-${ramp.id}`}
+                  className="z-10"
+                  style={{ position: 'absolute', left: '30%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
                 />
+                {/* Tint circle (empty or filled/overlap) */}
+                {showTint ? (
+                  <TintColorSwatch
+                    color={ramp.tintColor || '#FE0000'}
+                    colorFormat={ramp.colorFormat || 'hex'}
+                    opacity={ramp.tintOpacity || 0}
+                    blendMode={['normal','darken','multiply','color-burn','lighten','screen','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'].includes((previewBlendMode || ramp.tintBlendMode) || '') ? (previewBlendMode || ramp.tintBlendMode) : 'normal'}
+                    onColorChange={color => onUpdate({ tintColor: color })}
+                    onOpacityChange={opacity => onUpdate({ tintOpacity: opacity })}
+                    onBlendModeChange={blendMode => onUpdate({ tintBlendMode: blendMode })}
+                    onRemove={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }}
+                    id={`tint-color-picker-${ramp.id}`}
+                    onPreviewBlendMode={(blendMode) => setPreviewBlendMode(blendMode as BlendMode | undefined)}
+                    className="z-20"
+                    style={{ position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
+                    overlap={true}
+                  />
+                ) : (
+                  <BaseColorSwatch
+                    color={ramp.baseColor}
+                    colorFormat={ramp.colorFormat || 'hex'}
+                    onChange={() => {}}
+                    id={`empty-tint-circle-${ramp.id}`}
+                    className="z-0"
+                    style={{ borderColor: '#d1d5db', background: 'transparent', position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
+                    borderStyle="dashed"
+                    empty={true}
+                  />
+                )}
               </div>
+              {/* Blend mode and opacity controls below circles if tint is active */}
+              {showTint && (
+                <div className="space-y-2 mt-2">
+                  <LabeledSlider
+                    value={ramp.tintOpacity || 0}
+                    onChange={opacity => onUpdate({ tintOpacity: opacity })}
+                    min={0}
+                    max={100}
+                    step={1}
+                    formatValue={v => `${v}%`}
+                    ariaLabel="Tint Opacity"
+                  />
+                  <Select
+                    value={ramp.tintBlendMode || 'normal'}
+                    onValueChange={value => onUpdate({ tintBlendMode: value as BlendMode })}
+                  >
+                    <SelectTrigger className="h-10 border border-transparent hover:border-gray-300 focus:border-gray-300 text-center text-gray-600">
+                      <SelectValue placeholder="Select blend mode" className="text-center text-gray-600" />
+                    </SelectTrigger>
+                    <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
+                      {['normal','darken','multiply','plus-darker','color-burn','lighten','screen','plus-lighter','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'].map(mode => (
+                        <SelectItem
+                          key={mode}
+                          value={mode}
+                          onMouseEnter={() => setPreviewBlendMode(mode as BlendMode)}
+                          onMouseLeave={() => setPreviewBlendMode(undefined)}
+                        >
+                          {mode.charAt(0).toUpperCase() + mode.slice(1).replace(/-/g, ' ')}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
             </div>
 
             {/* Properties section */}
