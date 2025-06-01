@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Label } from '@/components/ui/label';
 import SegmentedControl from './SegmentedControl';
 import LabeledSlider from './LabeledSlider';
@@ -6,6 +6,13 @@ import LightnessSlider from './LightnessSlider';
 import HueSlider from './HueSlider';
 import SaturationSlider from './SaturationSlider';
 import { ColorRampConfig } from '@/types/colorRamp';
+import {
+  Select,
+  SelectTrigger,
+  SelectContent,
+  SelectItem,
+  SelectValue,
+} from './ui/select';
 
 interface HSLPropertiesControlProps {
   ramp: ColorRampConfig;
@@ -16,7 +23,23 @@ interface HSLPropertiesControlProps {
   setHueScale: (scale: string) => void;
   saturationScale: string;
   setSaturationScale: (scale: string) => void;
+  previewScaleType?: string | null;
+  setPreviewScaleType?: (type: string | null) => void;
 }
+
+const SCALE_TYPES = [
+  { value: 'linear', label: 'Linear' },
+  { value: 'geometric', label: 'Geometric' },
+  { value: 'fibonacci', label: 'Fibonacci' },
+  { value: 'golden-ratio', label: 'Golden Ratio' },
+  { value: 'logarithmic', label: 'Logarithmic' },
+  { value: 'powers-of-2', label: 'Powers of 2' },
+  { value: 'musical-ratio', label: 'Musical Ratio' },
+  { value: 'cielab-uniform', label: 'CIELAB Uniform Steps' },
+  { value: 'ease-in', label: 'Ease-in' },
+  { value: 'ease-out', label: 'Ease-out' },
+  { value: 'ease-in-out', label: 'Ease-in-out' },
+];
 
 const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   ramp,
@@ -27,9 +50,26 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   setHueScale,
   saturationScale,
   setSaturationScale,
+  previewScaleType,
+  setPreviewScaleType,
 }) => {
   // Unified advanced mode: if any advanced is on, all are on
   const isAdvanced = ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced;
+
+  // Use a single value for all three scale types (default to lightness or linear)
+  const unifiedScaleType = ramp.lightnessScaleType || ramp.hueScaleType || ramp.saturationScaleType || 'linear';
+
+  // The scale type to use for preview (hovered or actual)
+  const previewType = previewScaleType || unifiedScaleType;
+
+  const handleScaleTypeChange = (value: string) => {
+    onUpdate({
+      lightnessScaleType: value,
+      hueScaleType: value,
+      saturationScaleType: value,
+    });
+    setPreviewScaleType && setPreviewScaleType(null); // clear preview after selection
+  };
 
   const handleModeChange = (mode: 'simple' | 'gradient') => {
     if (mode === 'simple') {
@@ -54,11 +94,54 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
         <SegmentedControl value={isAdvanced ? 'gradient' : 'simple'} onChange={handleModeChange} />
       </div>
       {isAdvanced ? (
-        <div className="flex flex-row w-full flex-1 h-0">
-          <HueSlider ramp={ramp} onUpdate={onUpdate} className="flex-1 h-full" />
-          <SaturationSlider ramp={ramp} onUpdate={onUpdate} className="flex-1 h-full" />
-          <LightnessSlider ramp={ramp} onUpdate={onUpdate} className="flex-1 h-full" />
-        </div>
+        <>
+          {/* Unified scale type selector with hover preview */}
+          <div className="mb-4">
+            <Select
+              value={unifiedScaleType}
+              onValueChange={handleScaleTypeChange}
+              onOpenChange={open => {
+                if (!open && setPreviewScaleType) setPreviewScaleType(null);
+              }}
+            >
+              <SelectTrigger className="w-full h-10 border border-gray-300 focus:border-blue-500 text-center text-gray-600 shadow-sm">
+                <SelectValue placeholder="Select scale type" className="text-center text-gray-600" />
+              </SelectTrigger>
+              <SelectContent
+                className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50"
+                onPointerLeave={() => setPreviewScaleType && setPreviewScaleType(null)}
+              >
+                {SCALE_TYPES.map(type => (
+                  <SelectItem
+                    key={type.value}
+                    value={type.value}
+                    onPointerEnter={() => setPreviewScaleType && setPreviewScaleType(type.value)}
+                  >
+                    {type.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+          {/* Sliders */}
+          <div className="flex flex-row w-full flex-1 h-0">
+            <HueSlider
+              ramp={{ ...ramp, hueScaleType: previewType }}
+              onUpdate={onUpdate}
+              className="flex-1 h-full"
+            />
+            <SaturationSlider
+              ramp={{ ...ramp, saturationScaleType: previewType }}
+              onUpdate={onUpdate}
+              className="flex-1 h-full"
+            />
+            <LightnessSlider
+              ramp={{ ...ramp, lightnessScaleType: previewType }}
+              onUpdate={onUpdate}
+              className="flex-1 h-full"
+            />
+          </div>
+        </>
       ) : (
         <div className="flex flex-col gap-4">
           <div>

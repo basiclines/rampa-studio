@@ -16,6 +16,7 @@ import HueControl from './HueControl';
 import SaturationControl from './SaturationControl';
 import LabeledSlider from './LabeledSlider';
 import HSLPropertiesControl from './HSLPropertiesControl';
+import ColorRamp from './ColorRamp';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -25,6 +26,8 @@ interface ColorRampControlsProps {
   onDelete: () => void;
   onPreviewBlendMode?: (blendMode: string | undefined) => void;
   closeSidebar: () => void;
+  previewScaleType?: string | null;
+  setPreviewScaleType?: (type: string | null) => void;
 }
 
 const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient' | 'hex' | 'hsl', onChange: (v: 'simple' | 'gradient' | 'hex' | 'hsl') => void }) => (
@@ -88,6 +91,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   onDelete,
   onPreviewBlendMode,
   closeSidebar,
+  previewScaleType,
+  setPreviewScaleType,
 }) => {
   const { toast } = useToast();
 
@@ -180,6 +185,22 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
 
   // Check if any advanced mode is enabled
   const hasAdvancedMode = ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced;
+
+  // Helper to get the config for preview
+  const getPreviewConfig = () => {
+    if (previewScaleType) {
+      return {
+        ...ramp,
+        lightnessScaleType: previewScaleType,
+        hueScaleType: previewScaleType,
+        saturationScaleType: previewScaleType,
+      };
+    }
+    return ramp;
+  };
+
+  // Add dummy colorRamps and setColorRamps if not available
+  const noop = () => {};
 
   return (
     <div
@@ -363,6 +384,8 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 setHueScale={setHueScale}
                 saturationScale={saturationScale}
                 setSaturationScale={setSaturationScale}
+                previewScaleType={previewScaleType}
+                setPreviewScaleType={setPreviewScaleType}
               />
             </div>
           </div>

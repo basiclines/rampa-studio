@@ -44,6 +44,7 @@ const Index = () => {
   ]);
   const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
   const [menuOpen, setMenuOpen] = useState(false);
+  const [previewScaleType, setPreviewScaleType] = useState<string | null>(null);
 
   const selectedRamp = colorRamps.find(ramp => ramp.id === selectedRampId);
 
@@ -146,6 +147,8 @@ const Index = () => {
           onDelete={() => removeColorRamp(selectedRamp.id)}
           onPreviewBlendMode={(blendMode) => handlePreviewBlendMode(selectedRamp.id, blendMode)}
           closeSidebar={closeSidebar}
+          previewScaleType={previewScaleType}
+          setPreviewScaleType={setPreviewScaleType}
         />
       )}
 
@@ -160,25 +163,36 @@ const Index = () => {
       >
         <div className="max-w-none">
           <div className="flex gap-6 pb-4 overflow-x-auto flex-nowrap justify-center mx-auto" style={{ WebkitOverflowScrolling: 'touch', maxWidth: '100%' }}>
-            {colorRamps.map((ramp) => (
-              <div
-                key={ramp.id}
-                ref={el => (rampRefs.current[ramp.id] = el)}
-                onClick={() => handleColorRampClick(ramp.id)}
-                className="flex-shrink-0" style={{ width: 240, minWidth: 200, maxWidth: 320 }}
-              >
-                <ColorRamp 
-                  config={ramp} 
-                  onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
-                  onDuplicate={() => duplicateColorRamp(ramp)}
-                  onDelete={colorRamps.length > 1 ? () => removeColorRamp(ramp.id) : undefined}
-                  previewBlendMode={previewBlendModes[ramp.id]}
-                  isSelected={selectedRampId === ramp.id}
-                  colorRamps={colorRamps}
-                  setColorRamps={setColorRamps}
-                />
-              </div>
-            ))}
+            {colorRamps.map((ramp) => {
+              const isSelected = selectedRampId === ramp.id;
+              const config = (isSelected && previewScaleType)
+                ? {
+                    ...ramp,
+                    lightnessScaleType: previewScaleType,
+                    hueScaleType: previewScaleType,
+                    saturationScaleType: previewScaleType,
+                  }
+                : ramp;
+              return (
+                <div
+                  key={ramp.id}
+                  ref={el => (rampRefs.current[ramp.id] = el)}
+                  onClick={() => handleColorRampClick(ramp.id)}
+                  className="flex-shrink-0" style={{ width: 240, minWidth: 200, maxWidth: 320 }}
+                >
+                  <ColorRamp 
+                    config={config} 
+                    onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
+                    onDuplicate={() => duplicateColorRamp(ramp)}
+                    onDelete={colorRamps.length > 1 ? () => removeColorRamp(ramp.id) : undefined}
+                    previewBlendMode={previewBlendModes[ramp.id]}
+                    isSelected={isSelected}
+                    colorRamps={colorRamps}
+                    setColorRamps={setColorRamps}
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
