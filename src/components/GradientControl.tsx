@@ -16,6 +16,7 @@ interface GradientControlProps {
   invertValues?: boolean; // New prop to invert the value mapping
   totalSteps?: number; // Number of steps to show as indicators
   scaleType?: string; // linear, geometric, fibonacci, etc
+  swapHandlerColors?: boolean; // If true, swap the colors of the start/end handlers
 }
 
 const roundToOneDecimal = (value: number): number => {
@@ -37,6 +38,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
   invertValues = false,
   totalSteps,
   scaleType = 'linear',
+  swapHandlerColors = false,
 }) => {
   const [isDragging, setIsDragging] = useState<'start' | 'end' | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -269,7 +271,12 @@ const GradientControl: React.FC<GradientControlProps> = ({
 
         {/* Start point */}
         <div
-          className="absolute w-6 h-3 bg-black border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-gray-800 transition-colors z-10"
+          className={cn(
+            "absolute w-6 h-3 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10",
+            swapHandlerColors
+              ? "bg-gray-500 hover:bg-gray-600"
+              : "bg-black hover:bg-gray-800"
+          )}
           style={{ 
             left: '50%',
             top: `${startPosition}%`
@@ -279,7 +286,12 @@ const GradientControl: React.FC<GradientControlProps> = ({
         
         {/* End point (always show) */}
         <div
-          className="absolute w-6 h-3 bg-gray-500 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 hover:bg-gray-600 transition-colors z-10"
+          className={cn(
+            "absolute w-6 h-3 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10",
+            swapHandlerColors
+              ? "bg-black hover:bg-gray-800"
+              : "bg-gray-500 hover:bg-gray-600"
+          )}
           style={{ 
             left: '50%',
             top: `${endPosition}%`
@@ -299,9 +311,20 @@ const GradientControl: React.FC<GradientControlProps> = ({
       
       {/* Value display */}
       <div className="text-xs text-center space-y-1 mt-2">
-        <div className="text-black">Start: {formatValue(roundToOneDecimal(startValue))}</div>
-        {scaleType === 'linear' && (
-          <div className="text-gray-600">End: {formatValue(roundToOneDecimal(endValue))}</div>
+        {swapHandlerColors ? (
+          <>
+            <div className="text-black">Start: {formatValue(roundToOneDecimal(endValue))}</div>
+            {scaleType === 'linear' && (
+              <div className="text-gray-600">End: {formatValue(roundToOneDecimal(startValue))}</div>
+            )}
+          </>
+        ) : (
+          <>
+            <div className="text-black">Start: {formatValue(roundToOneDecimal(startValue))}</div>
+            {scaleType === 'linear' && (
+              <div className="text-gray-600">End: {formatValue(roundToOneDecimal(endValue))}</div>
+            )}
+          </>
         )}
       </div>
     </div>
