@@ -2,7 +2,6 @@ import React, { useMemo, useState } from 'react';
 import { Lock, Clipboard, Copy, Trash2, Plus } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
-import { useToast } from '@/hooks/use-toast';
 import { ColorRampConfig } from '@/entities/ColorRamp';
 import { Input } from '@/components/ui/input';
 import {
@@ -44,7 +43,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
   previewBlendMode, 
   isSelected = false,
 }) => {
-  const { toast } = useToast();
   const [isHovered, setIsHovered] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -71,47 +69,22 @@ const ColorRamp: React.FC<ColorRampProps> = ({
 
   const handleCopyAllColors = () => {
     const copiedColors = copyAllColors(config);
-    toast({
-      title: "All Colors Copied",
-      description: `${copiedColors.length} colors have been copied to your clipboard.`,
-    });
   };
 
   const toggleLockColor = (index: number, color: string) => {
     lockRampColor(config.id, index, color);
     const isLocked = config.swatches && config.swatches[index]?.locked;
-    toast({
-      title: isLocked ? "Color Unlocked" : "Color Locked",
-      description: `Color ${color} has been ${isLocked ? 'unlocked' : 'locked'}.`,
-    });
-  };
-
-  const handleDuplicate = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    onDuplicate?.();
-    toast({
-      title: "Color Ramp Duplicated",
-      description: `${config.name} has been duplicated.`,
-    });
   };
 
   const handleDelete = (e: React.MouseEvent) => {
     e.stopPropagation();
     onDelete?.();
-    toast({
-      title: "Color Ramp Deleted",
-      description: `${config.name} has been deleted.`,
-    });
   };
 
   // Add a function to lock/unlock all colors
   const allLocked = config.swatches.length > 0 && config.swatches.every(swatch => swatch.locked);
   const handleLockAll = () => {
     lockAllRampColors(config.id, colors, !allLocked);
-    toast({
-      title: allLocked ? 'All Colors Unlocked' : 'All Colors Locked',
-      description: allLocked ? 'All colors have been unlocked.' : 'All colors have been locked.'
-    });
   };
 
   const handleHarmonyRamp = (harmonyType: 'analogous' | 'triad' | 'complementary' | 'split-complementary' | 'square' | 'compound') => {
@@ -120,10 +93,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
 
   const handleFallbackDuplicate = () => {
     duplicateColorRamp(config);
-    toast({
-      title: "Color Ramp Duplicated",
-      description: `${config.name} has been duplicated.`,
-    });
   };
 
   return (
@@ -206,10 +175,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       } else {
                         handleFallbackDuplicate();
                       }
-                      toast({
-                        title: "Color Ramp Duplicated",
-                        description: `${config.name} has been duplicated.`,
-                      });
                     }}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>

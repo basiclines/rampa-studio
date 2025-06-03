@@ -3,7 +3,6 @@ import { Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
-import { useToast } from '@/hooks/use-toast';
 
 import { useSelectColorRamp } from '@/usecases/SelectColorRamp';
 import { useSaveColorRamp } from '@/usecases/SaveColorRamp';
@@ -15,7 +14,6 @@ import { usePreviewBlendModes } from '@/usecases/PreviewBlendModes';
 import { usePreviewScaleTypes } from '@/usecases/PreviewScaleTypes';
 
 const Index = () => {
-  const { toast } = useToast();
   const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
 
   // State from usecases
@@ -35,16 +33,8 @@ const Index = () => {
   const handleExportSvg = () => {
     try {
       exportToSvg();
-      toast({
-        title: "Color ramps in the clipboard",
-        description: "Now just paste them in Figma",
-      });
     } catch (error) {
-      toast({
-        title: "Copy Failed",
-        description: "There was an error copying your palette.",
-        variant: "destructive",
-      });
+      // Handle error
     }
   };
 
