@@ -1,18 +1,16 @@
 import React from 'react';
 import chroma from 'chroma-js';
+import { formatColorValues } from '@/lib/colorUtils';
 
 interface BaseColorSwatchProps {
   color: string;
   colorFormat: 'hex' | 'hsl';
   onChange: (color: string) => void;
   id?: string;
-  className?: string;
-  style?: React.CSSProperties;
-  borderStyle?: 'solid' | 'dashed';
   empty?: boolean;
 }
 
-const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, onChange, id, className = '', style = {}, borderStyle = 'solid', empty = false }) => {
+const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, onChange, id, empty = false }) => {
   const handleClick = () => {
     if (empty) {
       onChange(color);
@@ -22,9 +20,16 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
   };
   return (
     <div
-      className={`relative w-24 h-24 rounded-full flex items-center justify-center cursor-pointer border-2 ${borderStyle === 'dashed' ? 'border-dashed border-gray-400' : 'border-solid border-white'} ${className}`}
+      className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer border-2 ${empty ? 'border-dashed border-gray-400' : 'border-solid border-white'}`}
       onClick={handleClick}
-      style={{ background: empty ? 'transparent' : color, ...style }}
+      style={{
+        background: empty ? 'transparent' : color,
+        position: 'absolute',
+        left: empty ? '70%' : '30%',
+        top: '5%',
+        transform: 'translate(-50%, 0%)',
+        width: 128,
+        height: 128 }}
     >
       {!empty && (
         <span
@@ -38,10 +43,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
             textTransform: 'uppercase'
           }}
           >
-          {colorFormat === 'hsl'
-            ? chroma(color).hsl().slice(0, 3).map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
-            : color
-          }
+          {formatColorValues(color, colorFormat)}
         </span>
       )}
       <input

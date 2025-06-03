@@ -523,3 +523,20 @@ export function getCompoundColors(baseColor: string): string[] {
     chroma.hsl((h + 210) % 360, s, l).hex(),
   ];
 }
+
+/**
+ * Formats a color string as either hex or HSL (rounded values).
+ * @param color - The color string (hex or any chroma-js compatible input)
+ * @param format - 'hex' or 'hsl'
+ * @returns Formatted color string
+ */
+export function formatColorValues(color: string, format: 'hex' | 'hsl'): string {
+  if (format === 'hsl') {
+    const hsl = chroma(color).hsl().slice(0, 3);
+    const h = isNaN(hsl[0]) ? 0 : Math.round(hsl[0]);
+    const s = Math.round(hsl[1] * 100);
+    const l = Math.round(hsl[2] * 100);
+    return `${h}, ${s}, ${l}`;
+  }
+  return color;
+}

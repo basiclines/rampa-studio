@@ -197,8 +197,6 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   colorFormat={ramp.colorFormat || 'hex'}
                   onChange={color => onUpdate({ baseColor: color })}
                   id={`base-color-picker-${ramp.id}`}
-                  className="z-10"
-                  style={{ position: 'absolute', left: '30%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
                 />
                 {/* Tint circle (empty or filled/overlap) */}
                 {showTint ? (
@@ -223,9 +221,6 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     colorFormat={ramp.colorFormat || 'hex'}
                     onChange={handleAddTint}
                     id={`empty-tint-circle-${ramp.id}`}
-                    className="z-0"
-                    style={{ borderColor: '#d1d5db', background: 'transparent', position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
-                    borderStyle="dashed"
                     empty={true}
                   />
                 )}
