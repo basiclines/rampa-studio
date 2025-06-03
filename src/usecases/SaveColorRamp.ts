@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { ColorRampConfig } from '@/entities/ColorRamp';
 import { ColorSwatch } from '@/entities/ColorSwatch';
+import { DEFAULT_COLOR_RAMP_VALUES } from '@/config/DefaultColorRampValues';
 
 interface State {
   colorRamps: ColorRampConfig[];
@@ -16,18 +17,18 @@ export const useSaveColorRamp = create<State & Actions>((set) => ({
     {
       id: '1',
       name: 'Primary',
-      baseColor: '#3b82f6',
-      totalSteps: 10,
-      lightnessRange: 80,
-      lightnessAdvanced: false,
-      chromaRange: 0,
-      chromaAdvanced: false,
-      saturationRange: 40,
-      saturationAdvanced: false,
-      swatches: Array.from({ length: 10 }, (_, i) => ({
-        color: '#3b82f6',
+      baseColor: DEFAULT_COLOR_RAMP_VALUES.baseColor,
+      totalSteps: DEFAULT_COLOR_RAMP_VALUES.totalSteps,
+      lightnessRange: DEFAULT_COLOR_RAMP_VALUES.lightnessRange,
+      lightnessAdvanced: DEFAULT_COLOR_RAMP_VALUES.lightnessAdvanced,
+      chromaRange: DEFAULT_COLOR_RAMP_VALUES.chromaRange,
+      chromaAdvanced: DEFAULT_COLOR_RAMP_VALUES.chromaAdvanced,
+      saturationRange: DEFAULT_COLOR_RAMP_VALUES.saturationRange,
+      saturationAdvanced: DEFAULT_COLOR_RAMP_VALUES.saturationAdvanced,
+      swatches: Array.from({ length: DEFAULT_COLOR_RAMP_VALUES.totalSteps }, (_, i): ColorSwatch => ({
+        color: DEFAULT_COLOR_RAMP_VALUES.baseColor,
         index: i,
-        locked: false
+        locked: false,
       })),
     },
   ],

@@ -9,6 +9,7 @@ import {
   getCompoundColors,
 } from '@/lib/colorUtils';
 import { ColorSwatch } from '@/entities/ColorSwatch';
+import { DEFAULT_NEW_RAMP_VALUES } from '@/config/DefaultColorRampValues';
 
 export type HarmonyType = 'analogous' | 'triad' | 'complementary' | 'split-complementary' | 'square' | 'compound';
 
