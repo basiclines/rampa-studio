@@ -4,6 +4,7 @@ import GradientControl from '@/components/GradientControl';
 import { generateHueGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
 import { ColorRampConfig } from '@/entities/ColorRamp';
 import { cn } from '@/lib/utils';
+import { useSetChromaGradient } from '@/usecases/SetChromaGradient';
 
 interface HueSliderProps {
   ramp: ColorRampConfig;
@@ -44,6 +45,8 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate, className }) => {
   const startValue = roundToOneDecimal(ramp.chromaStart ?? defaults.start);
   const endValue = roundToOneDecimal(ramp.chromaEnd ?? defaults.end);
 
+  const setChromaGradient = useSetChromaGradient();
+
   return (
     <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
@@ -52,10 +55,7 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate, className }) => {
         endValue={endValue}
         min={-180}
         max={180}
-        onValuesChange={(start, end) => onUpdate({ 
-          chromaStart: roundToOneDecimal(start), 
-          chromaEnd: roundToOneDecimal(end) 
-        })}
+        onValuesChange={(start, end) => setChromaGradient(ramp.id, roundToOneDecimal(start), roundToOneDecimal(end))}
         formatValue={(v) => `${roundToOneDecimal(v)}°`}
         gradientColors={generateHueGradient(ramp.baseColor)}
         referenceValue={getReferenceValue()}

@@ -4,6 +4,7 @@ import GradientControl from '@/components/GradientControl';
 import { generateSaturationGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
 import { ColorRampConfig } from '@/entities/ColorRamp';
 import { cn } from '@/lib/utils';
+import { useSetSaturationGradient } from '@/usecases/SetSaturationGradient';
 
 interface SaturationSliderProps {
   ramp: ColorRampConfig;
@@ -42,6 +43,8 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate, cla
   const startValue = roundToOneDecimal(ramp.saturationStart ?? defaults.start);
   const endValue = roundToOneDecimal(ramp.saturationEnd ?? defaults.end);
 
+  const setSaturationGradient = useSetSaturationGradient();
+
   return (
     <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
@@ -50,10 +53,7 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate, cla
         endValue={endValue}
         min={0}
         max={100}
-        onValuesChange={(start, end) => onUpdate({ 
-          saturationStart: roundToOneDecimal(start), 
-          saturationEnd: roundToOneDecimal(end) 
-        })}
+        onValuesChange={(start, end) => setSaturationGradient(ramp.id, roundToOneDecimal(start), roundToOneDecimal(end))}
         formatValue={(v) => `${roundToOneDecimal(v)}%`}
         gradientColors={generateSaturationGradient(ramp.baseColor)}
         referenceValue={getReferenceValue()}

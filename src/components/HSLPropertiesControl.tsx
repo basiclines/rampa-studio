@@ -13,6 +13,9 @@ import {
   SelectItem,
   SelectValue,
 } from './ui/select';
+import { useSetLightnessRange } from '@/usecases/SetLightnessRange';
+import { useSetChromaRange } from '@/usecases/SetChromaRange';
+import { useSetSaturationRange } from '@/usecases/SetSaturationRange';
 
 interface HSLPropertiesControlProps {
   ramp: ColorRampConfig;
@@ -85,6 +88,10 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
     }
   };
 
+  const handleSetLightnessRange = useSetLightnessRange();
+  const handleSetChromaRange = useSetChromaRange();
+  const handleSetSaturationRange = useSetSaturationRange();
+
   return (
     <div className="pb-6 flex flex-col h-full">
       <div className="flex items-center justify-between mb-2">
@@ -146,7 +153,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
             <Label className="mb-1 block">Hue</Label>
             <LabeledSlider
               value={Math.round((ramp.chromaRange || 0))}
-              onChange={value => onUpdate({ chromaRange: value })}
+              onChange={value => handleSetChromaRange(ramp.id, value)}
               min={-180}
               max={180}
               step={1}
@@ -158,7 +165,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
             <Label className="mb-1 block">Saturation</Label>
             <LabeledSlider
               value={Math.round((ramp.saturationRange || 0) * 10) / 10}
-              onChange={value => onUpdate({ saturationRange: value })}
+              onChange={value => handleSetSaturationRange(ramp.id, value)}
               min={0}
               max={100}
               step={0.1}
@@ -170,7 +177,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
             <Label className="mb-1 block">Lightness</Label>
             <LabeledSlider
               value={Math.round((ramp.lightnessRange || 0) * 10) / 10}
-              onChange={value => onUpdate({ lightnessRange: value })}
+              onChange={value => handleSetLightnessRange(ramp.id, value)}
               min={0}
               max={100}
               step={0.1}

@@ -4,6 +4,7 @@ import GradientControl from '@/components/GradientControl';
 import { generateLightnessGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
 import { ColorRampConfig } from '@/entities/ColorRamp';
 import { cn } from '@/lib/utils';
+import { useSetLightnessGradient } from '@/usecases/SetLightnessGradient';
 
 interface LightnessSliderProps {
   ramp: ColorRampConfig;
@@ -42,6 +43,8 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate, class
   const startValue = roundToOneDecimal(ramp.lightnessStart ?? defaults.start);
   const endValue = roundToOneDecimal(ramp.lightnessEnd ?? defaults.end);
 
+  const setLightnessGradient = useSetLightnessGradient();
+
   return (
     <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
@@ -50,10 +53,7 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate, class
         endValue={endValue}
         min={0}
         max={100}
-        onValuesChange={(start, end) => onUpdate({ 
-          lightnessStart: roundToOneDecimal(start), 
-          lightnessEnd: roundToOneDecimal(end) 
-        })}
+        onValuesChange={(start, end) => setLightnessGradient(ramp.id, roundToOneDecimal(start), roundToOneDecimal(end))}
         formatValue={(v) => `${roundToOneDecimal(v)}%`}
         gradientColors={generateLightnessGradient(ramp.baseColor)}
         referenceValue={getReferenceValue()}
