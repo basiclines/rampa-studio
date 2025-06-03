@@ -1,7 +1,7 @@
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 
 export function useSetColorRampScale() {
-  const updateColorRamps = useColorRampsStore(state => state.updateColorRamps);
+  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
 
   return (id: string, scaleType: string) => {
     updateColorRamps(prev =>

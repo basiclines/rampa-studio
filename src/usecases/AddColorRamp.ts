@@ -1,10 +1,10 @@
 import { ColorRampConfig } from '@/entities/ColorRamp';
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 import { ColorSwatch } from '@/entities/ColorSwatch';
 
 export function useAddColorRamp() {
-  const updateColorRamps = useColorRampsStore(state => state.updateColorRamps);
-  const colorRamps = useColorRampsStore(state => state.colorRamps);
+  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+  const colorRamps = useSaveColorRamp(state => state.colorRamps);
 
   return () => {
     const totalSteps = 10;

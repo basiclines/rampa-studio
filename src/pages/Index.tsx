@@ -6,7 +6,7 @@ import ColorRampControls from '@/components/ColorRampControls';
 import { useToast } from '@/hooks/use-toast';
 
 import { useSelectColorRamp } from '@/usecases/SelectColorRamp';
-import { useColorRampsStore } from '@/usecases/ColorRampsStore';
+import { useSaveColorRamp } from '@/usecases/SaveColorRamp';
 import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
 import { useRemoveColorRamp } from '@/usecases/RemoveColorRamp';
 import { useUpdateColorRamp } from '@/usecases/UpdateColorRamp';
@@ -19,7 +19,7 @@ const Index = () => {
   const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
 
   // State from usecases
-  const colorRamps = useColorRampsStore(state => state.colorRamps);
+  const colorRamps = useSaveColorRamp(state => state.colorRamps);
   const { selectedRampId, selectColorRamp } = useSelectColorRamp();
   const { previewBlendModes, setPreviewBlendMode } = usePreviewBlendModes();
   const { previewScaleType, setPreviewScaleType } = usePreviewScaleTypes();

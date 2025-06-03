@@ -1,7 +1,7 @@
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 
 export function useLockRampColor() {
-  const updateColorRamps = useColorRampsStore(state => state.updateColorRamps);
+  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
 
   return (id: string, colorIndex: number, color: string) => {
     updateColorRamps(prev =>

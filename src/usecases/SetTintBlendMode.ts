@@ -1,8 +1,8 @@
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 import { BlendMode } from '@/entities/BlendMode';
 
 export function useSetTintBlendMode() {
-  const updateColorRamps = useColorRampsStore(state => state.updateColorRamps);
+  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
 
   return (id: string, tintBlendMode: BlendMode) => {
     updateColorRamps(prev =>

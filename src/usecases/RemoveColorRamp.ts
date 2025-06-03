@@ -1,8 +1,8 @@
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 import { useSelectColorRamp } from './SelectColorRamp';
 
 export function useRemoveColorRamp() {
-  const updateColorRamps = useColorRampsStore(state => state.updateColorRamps);
+  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
   const { selectedRampId, selectColorRamp } = useSelectColorRamp();
 
   return (id: string) => {

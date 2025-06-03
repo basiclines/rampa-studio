@@ -1,7 +1,7 @@
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 
 export function useSetRampBaseColor() {
-  const updateColorRamps = useColorRampsStore(state => state.updateColorRamps);
+  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
 
   return (id: string, baseColor: string) => {
     updateColorRamps(prev =>

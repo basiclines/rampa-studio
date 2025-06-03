@@ -1,5 +1,5 @@
 import { ColorRampConfig } from '@/entities/ColorRamp';
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 import {
   getAnalogousColors,
   getTriadColors,
@@ -13,7 +13,7 @@ import { ColorSwatch } from '@/entities/ColorSwatch';
 export type HarmonyType = 'analogous' | 'triad' | 'complementary' | 'split-complementary' | 'square' | 'compound';
 
 export function useCreateHarmonyRamps() {
-  const updateColorRamps = useColorRampsStore(state => state.updateColorRamps);
+  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
 
   return (baseRamp: ColorRampConfig, harmonyType: HarmonyType) => {
     let harmonyColors: string[] = [];

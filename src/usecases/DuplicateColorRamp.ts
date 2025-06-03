@@ -1,8 +1,8 @@
 import { ColorRampConfig } from '@/entities/ColorRamp';
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 
 export function useDuplicateColorRamp() {
-  const updateColorRamps = useColorRampsStore(state => state.updateColorRamps);
+  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
 
   return (ramp: ColorRampConfig) => {
     const duplicatedRamp: ColorRampConfig = {

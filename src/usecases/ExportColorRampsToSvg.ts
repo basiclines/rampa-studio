@@ -1,8 +1,8 @@
-import { useColorRampsStore } from './ColorRampsStore';
+import { useSaveColorRamp } from './SaveColorRamp';
 import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
 
 export function useExportColorRampsToSvg() {
-  const colorRamps = useColorRampsStore(state => state.colorRamps);
+  const colorRamps = useSaveColorRamp(state => state.colorRamps);
 
   return () => {
     const allColors = colorRamps.map(ramp => ({
