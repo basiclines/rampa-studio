@@ -1,0 +1,26 @@
+---
+description: best practices for Usecases and business logic
+globs: 
+alwaysApply: false
+---
+### 1. Usecase Responsibilities
+- **All business logic** goes in usecases
+- Usecases should be **hooks** that return functions
+- Use Zustand stores for state management within usecases
+- Call `@/lib/colorUtils` for color manipulation, never implement color logic in usecases
+
+### 2. Usecase Naming
+- Use descriptive action names: `useEditColorRampName`, `useLockRampColor`
+- Don't add "Usecase" suffix - it's implicit from the directory
+- Use verbs that describe the action: `Add`, `Remove`, `Update`, `Edit`, `Lock`, etc.
+
+### 4. State Management in Usecases
+- Use **Zustand** for all shared state
+- Create specific stores for different concerns
+- Use `updateColorRamps` helper for array mutations
+- Keep preview state separate from main data state
+
+### 5. Color Logic Location
+- **All color manipulation** goes in `@/lib/colorUtils`
+- Never implement color logic in components or usecases
+- Keep color functions **pure** (no side effects)

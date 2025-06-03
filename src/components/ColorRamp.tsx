@@ -3,7 +3,7 @@ import { Lock, Clipboard, Copy, Trash2, Plus } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
-import { ColorRampConfig } from '@/types/colorRamp';
+import { ColorRampConfig } from '@/entities/ColorRamp';
 import { Input } from '@/components/ui/input';
 import {
   DropdownMenu,
@@ -20,6 +20,12 @@ import {
   getCompoundColors,
 } from '@/lib/colorUtils';
 import chroma from 'chroma-js';
+import { useEditColorRampName } from '@/usecases/EditColorRampName';
+import { useLockRampColor } from '@/usecases/LockRampColor';
+import { useLockAllRampColors } from '@/usecases/LockAllRampColors';
+import { useCopyAllColors } from '@/usecases/CopyAllColors';
+import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
+import { useCreateHarmonyRamps } from '@/usecases/CreateHarmonyRamps';
 
 interface ColorRampProps {
   config: ColorRampConfig;
@@ -28,8 +34,6 @@ interface ColorRampProps {
   onDelete?: () => void;
   previewBlendMode?: string;
   isSelected?: boolean;
-  colorRamps: ColorRampConfig[];
-  setColorRamps: React.Dispatch<React.SetStateAction<ColorRampConfig[]>>;
 }
 
 const ColorRamp: React.FC<ColorRampProps> = ({ 
@@ -39,13 +43,19 @@ const ColorRamp: React.FC<ColorRampProps> = ({
   onDelete,
   previewBlendMode, 
   isSelected = false,
-  colorRamps,
-  setColorRamps
 }) => {
   const { toast } = useToast();
   const [isHovered, setIsHovered] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  
+  // Usecases
+  const editColorRampName = useEditColorRampName();
+  const lockRampColor = useLockRampColor();
+  const lockAllRampColors = useLockAllRampColors();
+  const copyAllColors = useCopyAllColors();
+  const duplicateColorRamp = useDuplicateColorRamp();
+  const createHarmonyRamps = useCreateHarmonyRamps();
   
   // Generate colors with preview blend mode if provided
   const colors = useMemo(() => {
@@ -59,29 +69,20 @@ const ColorRamp: React.FC<ColorRampProps> = ({
     return generateColorRamp(config);
   }, [config, previewBlendMode]);
 
-  const copyAllColors = () => {
-    const colorString = colors.join('\n');
-    navigator.clipboard.writeText(colorString);
+  const handleCopyAllColors = () => {
+    const copiedColors = copyAllColors(config);
     toast({
       title: "All Colors Copied",
-      description: `${colors.length} colors have been copied to your clipboard.`,
+      description: `${copiedColors.length} colors have been copied to your clipboard.`,
     });
   };
 
   const toggleLockColor = (index: number, color: string) => {
-    const newLockedColors = { ...config.lockedColors };
-    
-    if (newLockedColors[index]) {
-      delete newLockedColors[index];
-    } else {
-      newLockedColors[index] = color;
-    }
-    
-    onUpdateConfig({ lockedColors: newLockedColors });
-    
+    lockRampColor(config.id, index, color);
+    const isLocked = config.swatches && config.swatches[index]?.locked;
     toast({
-      title: newLockedColors[index] ? "Color Locked" : "Color Unlocked",
-      description: `Color ${color} has been ${newLockedColors[index] ? 'locked' : 'unlocked'}.`,
+      title: isLocked ? "Color Unlocked" : "Color Locked",
+      description: `Color ${color} has been ${isLocked ? 'unlocked' : 'locked'}.`,
     });
   };
 
@@ -104,27 +105,25 @@ const ColorRamp: React.FC<ColorRampProps> = ({
   };
 
   // Add a function to lock/unlock all colors
-  const allLocked = colors.length > 0 && colors.every((color, i) => config.lockedColors && config.lockedColors[i]);
+  const allLocked = config.swatches.length > 0 && config.swatches.every(swatch => swatch.locked);
   const handleLockAll = () => {
-    if (allLocked) {
-      // Unlock all
-      onUpdateConfig({ lockedColors: {} });
-      toast({
-        title: 'All Colors Unlocked',
-        description: 'All colors have been unlocked.'
-      });
-    } else {
-      // Lock all
-      const newLockedColors: Record<number, string> = {};
-      colors.forEach((color, i) => {
-        newLockedColors[i] = color;
-      });
-      onUpdateConfig({ lockedColors: newLockedColors });
-      toast({
-        title: 'All Colors Locked',
-        description: 'All colors have been locked.'
-      });
-    }
+    lockAllRampColors(config.id, colors, !allLocked);
+    toast({
+      title: allLocked ? 'All Colors Unlocked' : 'All Colors Locked',
+      description: allLocked ? 'All colors have been unlocked.' : 'All colors have been locked.'
+    });
+  };
+
+  const handleHarmonyRamp = (harmonyType: 'analogous' | 'triad' | 'complementary' | 'split-complementary' | 'square' | 'compound') => {
+    createHarmonyRamps(config, harmonyType);
+  };
+
+  const handleFallbackDuplicate = () => {
+    duplicateColorRamp(config);
+    toast({
+      title: "Color Ramp Duplicated",
+      description: `${config.name} has been duplicated.`,
+    });
   };
 
   return (
@@ -151,7 +150,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
             <Button 
               variant="outline" 
               size="sm" 
-              onClick={copyAllColors}
+              onClick={handleCopyAllColors}
               className="h-8 w-8 p-0 bg-white"
               style={{ pointerEvents: 'auto' }}
             >
@@ -205,20 +204,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       if (onDuplicate) {
                         onDuplicate();
                       } else {
-                        // fallback: duplicate ramp here
-                        setColorRamps(prev => {
-                          const idx = prev.findIndex(r => r.id === config.id);
-                          const duplicatedRamp = {
-                            ...config,
-                            id: Date.now().toString(),
-                            name: `${config.name} Copy`,
-                          };
-                          return [
-                            ...prev.slice(0, idx + 1),
-                            duplicatedRamp,
-                            ...prev.slice(idx + 1),
-                          ];
-                        });
+                        handleFallbackDuplicate();
                       }
                       toast({
                         title: "Color Ramp Duplicated",
@@ -231,29 +217,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       <span style={{ display: 'inline-block', width: 24, height: 24, borderRadius: '50%', background: config.baseColor, border: '1.5px solid #e5e7eb' }} />
                     </div>
                   </DropdownMenuItem>
-                  <DropdownMenuItem
-                    onSelect={e => {
-                      e?.preventDefault();
-                      e?.stopPropagation();
-                      const last = config;
-                      const bases = getAnalogousColors(last.baseColor, 2).slice(1); // +1
-                      setColorRamps(prev => {
-                        const idx = prev.findIndex(r => r.id === config.id);
-                        const newRamps = bases.map((base, i) => ({
-                          ...last,
-                          id: Date.now().toString() + '-a' + i,
-                          name: `Analogue ${i + 1}`,
-                          baseColor: base,
-                          lockedColors: {},
-                        }));
-                        return [
-                          ...prev.slice(0, idx + 1),
-                          ...newRamps,
-                          ...prev.slice(idx + 1),
-                        ];
-                      });
-                    }}
-                  >
+                  <DropdownMenuItem onSelect={e => { e?.preventDefault(); e?.stopPropagation(); handleHarmonyRamp('analogous'); }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
                       <span>Analogue</span>
                       <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -271,29 +235,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       </span>
                     </div>
                   </DropdownMenuItem>
-                  <DropdownMenuItem
-                    onSelect={e => {
-                      e?.preventDefault();
-                      e?.stopPropagation();
-                      const last = config;
-                      const bases = getTriadColors(last.baseColor).slice(1); // +2
-                      setColorRamps(prev => {
-                        const idx = prev.findIndex(r => r.id === config.id);
-                        const newRamps = bases.map((base, i) => ({
-                          ...last,
-                          id: Date.now().toString() + '-t' + i,
-                          name: `Triad ${i + 1}`,
-                          baseColor: base,
-                          lockedColors: {},
-                        }));
-                        return [
-                          ...prev.slice(0, idx + 1),
-                          ...newRamps,
-                          ...prev.slice(idx + 1),
-                        ];
-                      });
-                    }}
-                  >
+                  <DropdownMenuItem onSelect={e => { e?.preventDefault(); e?.stopPropagation(); handleHarmonyRamp('triad'); }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
                       <span>Triade</span>
                       <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -311,29 +253,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       </span>
                     </div>
                   </DropdownMenuItem>
-                  <DropdownMenuItem
-                    onSelect={e => {
-                      e?.preventDefault();
-                      e?.stopPropagation();
-                      const last = config;
-                      const bases = getComplementaryColors(last.baseColor).slice(1); // +1
-                      setColorRamps(prev => {
-                        const idx = prev.findIndex(r => r.id === config.id);
-                        const newRamps = bases.map((base, i) => ({
-                          ...last,
-                          id: Date.now().toString() + '-c' + i,
-                          name: `Complementary ${i + 1}`,
-                          baseColor: base,
-                          lockedColors: {},
-                        }));
-                        return [
-                          ...prev.slice(0, idx + 1),
-                          ...newRamps,
-                          ...prev.slice(idx + 1),
-                        ];
-                      });
-                    }}
-                  >
+                  <DropdownMenuItem onSelect={e => { e?.preventDefault(); e?.stopPropagation(); handleHarmonyRamp('complementary'); }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
                       <span>Complementary</span>
                       <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -351,29 +271,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       </span>
                     </div>
                   </DropdownMenuItem>
-                  <DropdownMenuItem
-                    onSelect={e => {
-                      e?.preventDefault();
-                      e?.stopPropagation();
-                      const last = config;
-                      const bases = getSplitComplementaryColors(last.baseColor).slice(1); // +2
-                      setColorRamps(prev => {
-                        const idx = prev.findIndex(r => r.id === config.id);
-                        const newRamps = bases.map((base, i) => ({
-                          ...last,
-                          id: Date.now().toString() + '-sc' + i,
-                          name: `Split Comp. ${i + 1}`,
-                          baseColor: base,
-                          lockedColors: {},
-                        }));
-                        return [
-                          ...prev.slice(0, idx + 1),
-                          ...newRamps,
-                          ...prev.slice(idx + 1),
-                        ];
-                      });
-                    }}
-                  >
+                  <DropdownMenuItem onSelect={e => { e?.preventDefault(); e?.stopPropagation(); handleHarmonyRamp('split-complementary'); }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
                       <span>Split Complementary</span>
                       <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -391,29 +289,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       </span>
                     </div>
                   </DropdownMenuItem>
-                  <DropdownMenuItem
-                    onSelect={e => {
-                      e?.preventDefault();
-                      e?.stopPropagation();
-                      const last = config;
-                      const bases = getSquareColors(last.baseColor).slice(1); // +3
-                      setColorRamps(prev => {
-                        const idx = prev.findIndex(r => r.id === config.id);
-                        const newRamps = bases.map((base, i) => ({
-                          ...last,
-                          id: Date.now().toString() + '-sq' + i,
-                          name: `Square ${i + 1}`,
-                          baseColor: base,
-                          lockedColors: {},
-                        }));
-                        return [
-                          ...prev.slice(0, idx + 1),
-                          ...newRamps,
-                          ...prev.slice(idx + 1),
-                        ];
-                      });
-                    }}
-                  >
+                  <DropdownMenuItem onSelect={e => { e?.preventDefault(); e?.stopPropagation(); handleHarmonyRamp('square'); }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
                       <span>Square</span>
                       <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -431,29 +307,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       </span>
                     </div>
                   </DropdownMenuItem>
-                  <DropdownMenuItem
-                    onSelect={e => {
-                      e?.preventDefault();
-                      e?.stopPropagation();
-                      const last = config;
-                      const bases = getCompoundColors(last.baseColor).slice(1); // +3
-                      setColorRamps(prev => {
-                        const idx = prev.findIndex(r => r.id === config.id);
-                        const newRamps = bases.map((base, i) => ({
-                          ...last,
-                          id: Date.now().toString() + '-cp' + i,
-                          name: `Compound ${i + 1}`,
-                          baseColor: base,
-                          lockedColors: {},
-                        }));
-                        return [
-                          ...prev.slice(0, idx + 1),
-                          ...newRamps,
-                          ...prev.slice(idx + 1),
-                        ];
-                      });
-                    }}
-                  >
+                  <DropdownMenuItem onSelect={e => { e?.preventDefault(); e?.stopPropagation(); handleHarmonyRamp('compound'); }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: 220 }}>
                       <span>Compound</span>
                       <span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -486,7 +340,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
           >
             <Input
               value={config.name}
-              onChange={e => onUpdateConfig({ name: e.target.value })}
+              onChange={e => editColorRampName(config.id, e.target.value)}
               className={`text-base font-medium text-center transition-all duration-150
                 ${isEditing ? 'border border-gray-200 p-2 bg-white focus-visible:ring-2 focus-visible:ring-blue-500' : 'border-none bg-transparent p-0 focus-visible:ring-0 cursor-pointer'}`}
               placeholder="Color ramp name"
@@ -503,7 +357,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
         {/* Color Ramp */}
         <div className="flex flex-col gap-1" style={{ height: '100%' }}>
           {colors.map((color, index) => {
-            const isLocked = config.lockedColors && config.lockedColors[index];
+            const isLocked = config.swatches && config.swatches[index]?.locked;
             return (
               <div key={index} className="relative flex-1 min-h-0">
                 <div

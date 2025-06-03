@@ -1,22 +1,5 @@
-export type BlendMode = 
-  | 'normal' 
-  | 'darken' 
-  | 'multiply' 
-  | 'plus-darker' 
-  | 'color-burn' 
-  | 'lighten' 
-  | 'screen' 
-  | 'plus-lighter' 
-  | 'color-dodge' 
-  | 'overlay' 
-  | 'soft-light' 
-  | 'hard-light' 
-  | 'difference' 
-  | 'exclusion' 
-  | 'hue' 
-  | 'saturation' 
-  | 'color' 
-  | 'luminosity';
+import { BlendMode } from './BlendMode';
+import { ColorSwatch } from './ColorSwatch';
 
 export interface ColorRampConfig {
   id: string;
@@ -38,9 +21,9 @@ export interface ColorRampConfig {
   tintColor?: string;
   tintOpacity?: number;
   tintBlendMode?: BlendMode;
-  lockedColors: { [index: number]: string };
+  swatches: ColorSwatch[];
   lightnessScaleType?: string;
   hueScaleType?: string;
   saturationScaleType?: string;
   colorFormat?: 'hex' | 'hsl';
-}
+} 

@@ -1,99 +1,40 @@
-import React, { useState, useCallback, useRef, useEffect } from 'react';
-import { Plus, Download, X } from 'lucide-react';
+import React, { useRef } from 'react';
+import { Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/separator';
-import { ScrollArea } from '@/components/ui/scroll-area';
 import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
-import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
 import { useToast } from '@/hooks/use-toast';
-import { ColorRampConfig } from '@/types/colorRamp';
-import {
-  DropdownMenu,
-  DropdownMenuTrigger,
-  DropdownMenuContent,
-  DropdownMenuItem,
-} from '@/components/ui/dropdown-menu';
-import {
-  getAnalogousColors,
-  getTriadColors,
-  getComplementaryColors,
-  getSplitComplementaryColors,
-  getSquareColors,
-  getCompoundColors,
-} from '@/lib/colorUtils';
+
+import { useSelectColorRamp } from '@/usecases/SelectColorRamp';
+import { useColorRampsStore } from '@/usecases/ColorRampsStore';
+import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
+import { useRemoveColorRamp } from '@/usecases/RemoveColorRamp';
+import { useUpdateColorRamp } from '@/usecases/UpdateColorRamp';
+import { useExportColorRampsToSvg } from '@/usecases/ExportColorRampsToSvg';
+import { usePreviewBlendModes } from '@/usecases/PreviewBlendModes';
+import { usePreviewScaleTypes } from '@/usecases/PreviewScaleTypes';
 
 const Index = () => {
   const { toast } = useToast();
-  const [previewBlendModes, setPreviewBlendModes] = useState<{ [rampId: string]: string | undefined }>({});
-  const [selectedRampId, setSelectedRampId] = useState<string | null>(null);
-  const [colorRamps, setColorRamps] = useState<ColorRampConfig[]>([
-    {
-      id: '1',
-      name: 'Primary',
-      baseColor: '#3b82f6',
-      totalSteps: 10,
-      lightnessRange: 80,
-      lightnessAdvanced: false,
-      chromaRange: 0,
-      chromaAdvanced: false,
-      saturationRange: 40,
-      saturationAdvanced: false,
-      lockedColors: {},
-    },
-  ]);
   const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [previewScaleType, setPreviewScaleType] = useState<string | null>(null);
+
+  // State from usecases
+  const colorRamps = useColorRampsStore(state => state.colorRamps);
+  const { selectedRampId, selectColorRamp } = useSelectColorRamp();
+  const { previewBlendModes, setPreviewBlendMode } = usePreviewBlendModes();
+  const { previewScaleType, setPreviewScaleType } = usePreviewScaleTypes();
+
+  // Actions from usecases
+  const duplicateColorRamp = useDuplicateColorRamp();
+  const removeColorRamp = useRemoveColorRamp();
+  const updateColorRamp = useUpdateColorRamp();
+  const exportToSvg = useExportColorRampsToSvg();
 
   const selectedRamp = colorRamps.find(ramp => ramp.id === selectedRampId);
 
-  const addColorRamp = useCallback(() => {
-    const newRamp: ColorRampConfig = {
-      id: Date.now().toString(),
-      name: `Ramp ${colorRamps.length + 1}`,
-      baseColor: '#6366f1',
-      totalSteps: 10,
-      lightnessRange: 80,
-      chromaRange: 60,
-      saturationRange: 40,
-      lockedColors: {},
-    };
-    setColorRamps(prev => [...prev, newRamp]);
-  }, [colorRamps.length]);
-
-  const duplicateColorRamp = useCallback((ramp: ColorRampConfig) => {
-    const duplicatedRamp: ColorRampConfig = {
-      ...ramp,
-      id: Date.now().toString(),
-      name: `${ramp.name} Copy`,
-    };
-    setColorRamps(prev => [...prev, duplicatedRamp]);
-  }, []);
-
-  const removeColorRamp = useCallback((id: string) => {
-    setColorRamps(prev => prev.filter(ramp => ramp.id !== id));
-    if (selectedRampId === id) {
-      setSelectedRampId(null);
-    }
-  }, [selectedRampId]);
-
-  const updateColorRamp = useCallback((id: string, updates: Partial<ColorRampConfig>) => {
-    setColorRamps(prev => prev.map(ramp => 
-      ramp.id === id ? { ...ramp, ...updates } : ramp
-    ));
-  }, []);
-
-  const handleExportSvg = useCallback(() => {
+  const handleExportSvg = () => {
     try {
-      const allColors = colorRamps.map(ramp => ({
-        name: ramp.name,
-        colors: generateColorRamp(ramp),
-      }));
-      
-      const svgContent = exportToSvg(allColors);
-      navigator.clipboard.writeText(svgContent);
-      
+      exportToSvg();
       toast({
         title: "Color ramps in the clipboard",
         description: "Now just paste them in Figma",
@@ -105,27 +46,19 @@ const Index = () => {
         variant: "destructive",
       });
     }
-  }, [colorRamps, toast]);
+  };
 
-  const handlePreviewBlendMode = useCallback((rampId: string, blendMode: string | undefined) => {
-    setPreviewBlendModes(prev => ({
-      ...prev,
-      [rampId]: blendMode
-    }));
-  }, []);
+  const handlePreviewBlendMode = (rampId: string, blendMode: string | undefined) => {
+    setPreviewBlendMode(rampId, blendMode);
+  };
 
-  const handleColorRampClick = useCallback((rampId: string) => {
-    setSelectedRampId(rampId);
-  }, []);
+  const handleColorRampClick = (rampId: string) => {
+    selectColorRamp(rampId);
+  };
 
-  const closeSidebar = useCallback(() => {
-    setSelectedRampId(null);
-  }, []);
-
-  // Check if any ramp has advanced mode enabled
-  const hasAdvancedMode = selectedRamp && (
-    selectedRamp.lightnessAdvanced || selectedRamp.chromaAdvanced || selectedRamp.saturationAdvanced
-  );
+  const closeSidebar = () => {
+    selectColorRamp(null);
+  };
 
   return (
     <div className="min-h-screen bg-[#F5F5F5] flex">
@@ -187,8 +120,6 @@ const Index = () => {
                     onDelete={colorRamps.length > 1 ? () => removeColorRamp(ramp.id) : undefined}
                     previewBlendMode={previewBlendModes[ramp.id]}
                     isSelected={isSelected}
-                    colorRamps={colorRamps}
-                    setColorRamps={setColorRamps}
                   />
                 </div>
               );

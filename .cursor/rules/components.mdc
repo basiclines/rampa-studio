@@ -1,0 +1,20 @@
+---
+description: UI Components best practices
+globs: 
+alwaysApply: false
+---
+### 1. Component Responsibilities
+- Components should be **presentational only**
+- Business logic belongs in **usecases**, not components
+- Use usecases hooks to interact with state
+- Keep local state minimal (only trivial UI state like hover, focus)
+
+### 2. Component Props
+- Prefer passing IDs over full objects when possible
+- Avoid prop drilling - use usecases for shared state
+- Don't pass `setColorRamps` or similar setters as props
+
+### 3. Color Logic Location
+- **All color manipulation** goes in `@/lib/colorUtils`
+- Never implement color logic in components or usecases
+- Keep color functions **pure** (no side effects)

@@ -1,5 +1,6 @@
 import chroma from 'chroma-js';
-import { ColorRampConfig, BlendMode } from '@/types/colorRamp';
+import { ColorRampConfig } from '@/entities/ColorRamp';
+import { BlendMode } from '@/entities/BlendMode';
 
 interface ColorRampData {
   name: string;
@@ -277,9 +278,9 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
 
     // Generate colors from darkest to lightest
     for (let i = 0; i < config.totalSteps; i++) {
-      // Check if this color index is locked
-      if (config.lockedColors && config.lockedColors[i]) {
-        colors.push(config.lockedColors[i]);
+      // Check if this color index is locked (swatch)
+      if (config.swatches && config.swatches[i]?.locked) {
+        colors.push(config.swatches[i].color);
         continue;
       }
       // Precompute all positions for Fibonacci, Golden Ratio, etc.

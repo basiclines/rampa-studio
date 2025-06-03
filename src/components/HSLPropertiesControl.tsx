@@ -5,7 +5,7 @@ import LabeledSlider from './LabeledSlider';
 import LightnessSlider from './LightnessSlider';
 import HueSlider from './HueSlider';
 import SaturationSlider from './SaturationSlider';
-import { ColorRampConfig } from '@/types/colorRamp';
+import { ColorRampConfig } from '@/entities/ColorRamp';
 import {
   Select,
   SelectTrigger,
@@ -17,6 +17,7 @@ import {
 interface HSLPropertiesControlProps {
   ramp: ColorRampConfig;
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
+  onScaleTypeChange: (scaleType: string) => void;
   lightnessScale: string;
   setLightnessScale: (scale: string) => void;
   hueScale: string;
@@ -44,6 +45,7 @@ const SCALE_TYPES = [
 const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   ramp,
   onUpdate,
+  onScaleTypeChange,
   lightnessScale,
   setLightnessScale,
   hueScale,
@@ -63,11 +65,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   const previewType = previewScaleType || unifiedScaleType;
 
   const handleScaleTypeChange = (value: string) => {
-    onUpdate({
-      lightnessScaleType: value,
-      hueScaleType: value,
-      saturationScaleType: value,
-    });
+    onScaleTypeChange(value);
     setPreviewScaleType && setPreviewScaleType(null); // clear preview after selection
   };
 

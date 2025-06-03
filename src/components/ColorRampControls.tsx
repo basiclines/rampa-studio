@@ -1,22 +1,20 @@
 import React, { useState } from 'react';
-import { Edit3, Copy, Trash2, RotateCcw, Settings, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Slider } from '@/components/ui/slider';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import chroma from 'chroma-js';
-import { useToast } from '@/hooks/use-toast';
-import GradientSliders from '@/components/GradientSliders';
-import { ColorRampConfig, BlendMode } from '@/types/colorRamp';
+import { X } from 'lucide-react';
+import { ColorRampConfig } from '@/entities/ColorRamp';
+import { BlendMode } from '@/entities/BlendMode';
 import BaseColorSwatch from './BaseColorSwatch';
 import TintColorSwatch from './TintColorSwatch';
-import LightnessControl from './LightnessControl';
-import HueControl from './HueControl';
-import SaturationControl from './SaturationControl';
 import LabeledSlider from './LabeledSlider';
 import HSLPropertiesControl from './HSLPropertiesControl';
-import ColorRamp from './ColorRamp';
+import { useSetTintColor } from '@/usecases/SetTintColor';
+import { useSetTintOpacity } from '@/usecases/SetTintOpacity';
+import { useSetTintBlendMode } from '@/usecases/SetTintBlendMode';
+import { useSetTotalSteps } from '@/usecases/SetTotalSteps';
+import { useSetColorFormat } from '@/usecases/SetColorFormat';
+import { useSetColorRampScale } from '@/usecases/SetColorRampScale';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -85,16 +83,18 @@ const IMPLEMENTED_SCALES = ['linear', 'geometric', 'fibonacci', 'golden-ratio', 
 
 const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   ramp,
-  canDelete,
   onUpdate,
-  onDuplicate,
-  onDelete,
-  onPreviewBlendMode,
   closeSidebar,
   previewScaleType,
   setPreviewScaleType,
 }) => {
-  const { toast } = useToast();
+  // Tint usecases
+  const setTintColor = useSetTintColor();
+  const setTintOpacity = useSetTintOpacity();
+  const setTintBlendMode = useSetTintBlendMode();
+  const setTotalSteps = useSetTotalSteps();
+  const setColorFormat = useSetColorFormat();
+  const setColorRampScale = useSetColorRampScale();
 
   const [showTint, setShowTint] = useState(!!ramp.tintColor);
   const [lightnessScale, setLightnessScale] = useState('linear');
@@ -102,105 +102,25 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   const [saturationScale, setSaturationScale] = useState('linear');
   const [previewBlendMode, setPreviewBlendMode] = useState<BlendMode | undefined>(undefined);
 
-  const resetAttribute = (attribute: 'lightness' | 'hue' | 'saturation') => {
-    try {
-      const baseColor = chroma(ramp.baseColor);
-      const [h, s, l] = baseColor.hsl();
-      
-      const updates: Partial<ColorRampConfig> = {};
-      
-      switch (attribute) {
-        case 'lightness':
-          updates.lightnessRange = 0;
-          updates.lightnessAdvanced = false;
-          updates.lightnessStart = (l || 0.5) * 100;
-          updates.lightnessEnd = (l || 0.5) * 100;
-          break;
-        case 'hue':
-          updates.chromaRange = 0;
-          updates.chromaAdvanced = false;
-          updates.chromaStart = 0;
-          updates.chromaEnd = 0;
-          break;
-        case 'saturation':
-          updates.saturationRange = 0;
-          updates.saturationAdvanced = false;
-          updates.saturationStart = (s || 0.5) * 100;
-          updates.saturationEnd = (s || 0.5) * 100;
-          break;
-      }
-      
-      onUpdate(updates);
-      
-      toast({
-        title: `${attribute.charAt(0).toUpperCase() + attribute.slice(1)} Reset`,
-        description: `${attribute} has been reset to base color values.`,
-      });
-    } catch (error) {
-      toast({
-        title: "Reset Failed",
-        description: "Could not reset the attribute values.",
-        variant: "destructive",
-      });
-    }
-  };
-
-  const calculateAdvancedDefaults = (attribute: 'lightness' | 'hue' | 'saturation') => {
-    try {
-      const baseColor = chroma(ramp.baseColor);
-      const [h, s, l] = baseColor.hsl();
-      
-      switch (attribute) {
-        case 'lightness': {
-          const baseLightness = (l || 0.5) * 100;
-          const range = ramp.lightnessRange;
-          return {
-            start: Math.round((Math.max(0, Math.min(100, baseLightness - range / 2))) * 10) / 10,
-            end: Math.round((Math.max(0, Math.min(100, baseLightness + range / 2))) * 10) / 10
-          };
-        }
-        case 'hue': {
-          const range = ramp.chromaRange;
-          return {
-            start: Math.round((-range / 2) * 10) / 10,
-            end: Math.round((range / 2) * 10) / 10
-          };
-        }
-        case 'saturation': {
-          const baseSaturation = (s || 0.5) * 100;
-          const range = ramp.saturationRange;
-          return {
-            start: Math.round((Math.max(0, Math.min(100, baseSaturation - range / 2))) * 10) / 10,
-            end: Math.round((Math.max(0, Math.min(100, baseSaturation + range / 2))) * 10) / 10
-          };
-        }
-        default:
-          return { start: 0, end: 0 };
-      }
-    } catch (error) {
-      console.error('Error calculating advanced defaults:', error);
-      return { start: 0, end: 0 };
-    }
-  };
-
   // Check if any advanced mode is enabled
   const hasAdvancedMode = ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced;
 
-  // Helper to get the config for preview
-  const getPreviewConfig = () => {
-    if (previewScaleType) {
-      return {
-        ...ramp,
-        lightnessScaleType: previewScaleType,
-        hueScaleType: previewScaleType,
-        saturationScaleType: previewScaleType,
-      };
-    }
-    return ramp;
+  const handleRemoveTint = () => {
+    setTintColor(ramp.id, '');
+    setTintOpacity(ramp.id, 0);
+    setTintBlendMode(ramp.id, 'normal');
+    setShowTint(false);
   };
 
-  // Add dummy colorRamps and setColorRamps if not available
-  const noop = () => {};
+  const handleAddTint = () => {
+    setShowTint(true);
+    if (!ramp.tintColor) {
+      setTintColor(ramp.id, '#FE0000');
+    }
+    if (!ramp.tintOpacity) {
+      setTintOpacity(ramp.id, 12);
+    }
+  };
 
   return (
     <div
@@ -233,13 +153,13 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
             <div className="pb-6 mb-6 border-b border-gray-200 flex-shrink-0">
               <ColorFormatControl
                 value={ramp.colorFormat || 'hex'}
-                onChange={(format) => onUpdate({ colorFormat: format })}
+                onChange={(format) => setColorFormat(ramp.id, format)}
               />
               <div className="space-y-2 mt-4">
                 <Label>Steps</Label>
                 <LabeledSlider
                   value={ramp.totalSteps}
-                  onChange={value => onUpdate({ totalSteps: Math.round(value) })}
+                  onChange={value => setTotalSteps(ramp.id, Math.round(value))}
                   min={3}
                   max={100}
                   step={1}
@@ -256,29 +176,14 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 {showTint ? (
                   <span
                     className="text-red-600 hover:underline cursor-pointer text-sm"
-                    onClick={() => {
-                      onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined });
-                      setShowTint(false);
-                    }}
+                    onClick={handleRemoveTint}
                   >
                     Remove tint
                   </span>
                 ) : (
                   <span
                     className="text-blue-600 hover:underline cursor-pointer text-sm"
-                    onClick={() => {
-                      setShowTint(true);
-                      const updates: Partial<ColorRampConfig> = {};
-                      if (!ramp.tintColor) {
-                        updates.tintColor = '#FE0000';
-                      }
-                      if (!ramp.tintOpacity) {
-                        updates.tintOpacity = 12;
-                      }
-                      if (Object.keys(updates).length > 0) {
-                        onUpdate(updates);
-                      }
-                    }}
+                    onClick={handleAddTint}
                   >
                     Add tint
                   </span>
@@ -302,10 +207,10 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     colorFormat={ramp.colorFormat || 'hex'}
                     opacity={ramp.tintOpacity || 0}
                     blendMode={['normal','darken','multiply','color-burn','lighten','screen','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'].includes((previewBlendMode || ramp.tintBlendMode) || '') ? (previewBlendMode || ramp.tintBlendMode) : 'normal'}
-                    onColorChange={color => onUpdate({ tintColor: color })}
-                    onOpacityChange={opacity => onUpdate({ tintOpacity: opacity })}
-                    onBlendModeChange={blendMode => onUpdate({ tintBlendMode: blendMode })}
-                    onRemove={() => { onUpdate({ tintColor: undefined, tintOpacity: 0, tintBlendMode: undefined }); setShowTint(false); }}
+                    onColorChange={color => setTintColor(ramp.id, color)}
+                    onOpacityChange={opacity => setTintOpacity(ramp.id, opacity)}
+                    onBlendModeChange={blendMode => setTintBlendMode(ramp.id, blendMode)}
+                    onRemove={handleRemoveTint}
                     id={`tint-color-picker-${ramp.id}`}
                     onPreviewBlendMode={(blendMode) => setPreviewBlendMode(blendMode as BlendMode | undefined)}
                     className="z-20"
@@ -316,19 +221,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   <BaseColorSwatch
                     color={ramp.baseColor}
                     colorFormat={ramp.colorFormat || 'hex'}
-                    onChange={() => {
-                      setShowTint(true);
-                      const updates: Partial<ColorRampConfig> = {};
-                      if (!ramp.tintColor) {
-                        updates.tintColor = '#FE0000';
-                      }
-                      if (!ramp.tintOpacity) {
-                        updates.tintOpacity = 12;
-                      }
-                      if (Object.keys(updates).length > 0) {
-                        onUpdate(updates);
-                      }
-                    }}
+                    onChange={handleAddTint}
                     id={`empty-tint-circle-${ramp.id}`}
                     className="z-0"
                     style={{ borderColor: '#d1d5db', background: 'transparent', position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
@@ -342,7 +235,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 <div className="space-y-2 mt-2">
                   <LabeledSlider
                     value={ramp.tintOpacity || 0}
-                    onChange={opacity => onUpdate({ tintOpacity: opacity })}
+                    onChange={opacity => setTintOpacity(ramp.id, opacity)}
                     min={0}
                     max={100}
                     step={1}
@@ -351,7 +244,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   />
                   <Select
                     value={ramp.tintBlendMode || 'normal'}
-                    onValueChange={value => onUpdate({ tintBlendMode: value as BlendMode })}
+                    onValueChange={value => setTintBlendMode(ramp.id, value as BlendMode)}
                   >
                     <SelectTrigger className="h-10 border border-gray-300 focus:border-blue-500 text-center text-gray-600 shadow-sm">
                       <SelectValue placeholder="Select blend mode" className="text-center text-gray-600" />
@@ -378,6 +271,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               <HSLPropertiesControl
                 ramp={ramp}
                 onUpdate={onUpdate}
+                onScaleTypeChange={(scaleType) => setColorRampScale(ramp.id, scaleType)}
                 lightnessScale={lightnessScale}
                 setLightnessScale={setLightnessScale}
                 hueScale={hueScale}

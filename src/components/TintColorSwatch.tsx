@@ -1,11 +1,6 @@
 import React from 'react';
 import chroma from 'chroma-js';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { Slider } from '@/components/ui/slider';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { BlendMode } from '@/types/colorRamp';
-import LabeledSlider from './LabeledSlider';
+import { BlendMode } from '@/entities/BlendMode';
 
 interface TintColorSwatchProps {
   color: string;
@@ -31,11 +26,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
   opacity,
   blendMode,
   onColorChange,
-  onOpacityChange,
-  onBlendModeChange,
-  onRemove,
   id,
-  onPreviewBlendMode,
   className = '',
   style = {},
   borderStyle = 'solid',
