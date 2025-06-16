@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { Lock, Clipboard, Copy, Trash2, Plus } from 'lucide-react';
+import { Lock, Unlock, Copy, Trash2, Plus, LockKeyholeOpen } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
 import { ColorRampConfig } from '@/entities/ColorRamp';
@@ -116,15 +116,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       <div className="pointer-events-none">
         {(isHovered || isSelected) && (
           <div className="absolute top-2 right-2 z-30 flex gap-1 pointer-events-auto">
-            <Button 
-              variant="outline" 
-              size="sm" 
-              onClick={handleCopyAllColors}
-              className="h-8 w-8 p-0 bg-white"
-              style={{ pointerEvents: 'auto' }}
-            >
-              <Clipboard className="w-3 h-3" />
-            </Button>
             {/* Lock/Unlock All Colors Button */}
             <Button
               variant="outline"
@@ -134,7 +125,11 @@ const ColorRamp: React.FC<ColorRampProps> = ({
               style={{ pointerEvents: 'auto' }}
               title={allLocked ? 'Unlock all colors' : 'Lock all colors'}
             >
-              <Lock className="w-3 h-3" fill={allLocked ? 'currentColor' : 'none'} />
+              {allLocked ? (
+                <Lock className="w-3 h-3" />
+              ) : (
+                <Unlock className="w-3 h-3" />
+              )}
             </Button>
             {onDelete && (
               <Button 

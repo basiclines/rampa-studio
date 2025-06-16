@@ -1,8 +1,15 @@
 import React, { useRef } from 'react';
-import { Download } from 'lucide-react';
+import { Copy, Info } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from '@/components/ui/dialog';
 
 import { useSelectColorRamp } from '@/usecases/SelectColorRamp';
 import { useSaveColorRamp } from '@/usecases/SaveColorRamp';
@@ -15,6 +22,7 @@ import { usePreviewScaleTypes } from '@/usecases/PreviewScaleTypes';
 
 const Index = () => {
   const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
+  const [showAbout, setShowAbout] = React.useState(false);
 
   // State from usecases
   const colorRamps = useSaveColorRamp(state => state.colorRamps);
@@ -53,12 +61,30 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-[#F5F5F5] flex">
       {/* Export Button - Fixed in top right */}
-      <div className="fixed top-4 right-4 z-50">
+      <div className="fixed top-4 right-4 z-50 flex gap-2">
         <Button onClick={handleExportSvg} variant="outline" className="gap-2 bg-white shadow-md">
-          <Download className="w-4 h-4" />
-          Export to Figma
+          <Copy className="w-4 h-4" />
+          Copy SVG
+        </Button>
+        <Button onClick={() => setShowAbout(true)} variant="outline" className="gap-2 bg-white shadow-md">
+          <Info className="w-4 h-4" />
+          About
         </Button>
       </div>
+
+      {/* About Dialog */}
+      <Dialog open={showAbout} onOpenChange={setShowAbout}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>About Rampa</DialogTitle>
+            <DialogDescription>
+              Rampa is built by <a href="https://ismael.fyi" target="_blank" rel="noopener noreferrer" className="text-blue-500">ismael.fyi</a>
+              <br />
+              Any feedback is welcome, just reach out at ismael@secture.com
+            </DialogDescription>
+          </DialogHeader>
+        </DialogContent>
+      </Dialog>
 
       {/* Fixed Sidebar - Only shown when a ramp is selected */}
       {selectedRamp && (
