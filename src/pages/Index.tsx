@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Copy, Info } from 'lucide-react';
+import { Copy, Info, FileJson } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
@@ -17,6 +17,7 @@ import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
 import { useRemoveColorRamp } from '@/usecases/RemoveColorRamp';
 import { useUpdateColorRamp } from '@/usecases/UpdateColorRamp';
 import { useExportColorRampsToSvg } from '@/usecases/ExportColorRampsToSvg';
+import { useExportColorRampsToJson } from '@/usecases/ExportColorRampsToJson';
 import { usePreviewBlendModes } from '@/usecases/PreviewBlendModes';
 import { usePreviewScaleTypes } from '@/usecases/PreviewScaleTypes';
 
@@ -35,12 +36,21 @@ const Index = () => {
   const removeColorRamp = useRemoveColorRamp();
   const updateColorRamp = useUpdateColorRamp();
   const exportToSvg = useExportColorRampsToSvg();
+  const exportToJson = useExportColorRampsToJson();
 
   const selectedRamp = colorRamps.find(ramp => ramp.id === selectedRampId);
 
   const handleExportSvg = () => {
     try {
       exportToSvg();
+    } catch (error) {
+      // Handle error
+    }
+  };
+
+  const handleExportJson = () => {
+    try {
+      exportToJson();
     } catch (error) {
       // Handle error
     }
@@ -65,6 +75,10 @@ const Index = () => {
         <Button onClick={handleExportSvg} variant="outline" className="gap-2 bg-white shadow-md">
           <Copy className="w-4 h-4" />
           Copy SVG
+        </Button>
+        <Button onClick={handleExportJson} variant="outline" className="gap-2 bg-white shadow-md">
+          <FileJson className="w-4 h-4" />
+          Copy JSON
         </Button>
         <Button onClick={() => setShowAbout(true)} variant="outline" className="gap-2 bg-white shadow-md">
           <Info className="w-4 h-4" />
