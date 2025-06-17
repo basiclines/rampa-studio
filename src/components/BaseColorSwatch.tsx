@@ -4,7 +4,7 @@ import { formatColorValues } from '@/lib/colorUtils';
 
 interface BaseColorSwatchProps {
   color: string;
-  colorFormat: 'hex' | 'hsl';
+  colorFormat: 'hex' | 'hsl' | 'oklch';
   onChange: (color: string) => void;
   id?: string;
   empty?: boolean;
@@ -18,6 +18,18 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
       document.getElementById(id || 'base-color-picker')?.click();
     }
   };
+
+  const formatColor = (color: string, format: 'hex' | 'hsl' | 'oklch') => {
+    if (format === 'hsl') {
+      const hsl = chroma(color).hsl();
+      return hsl.map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ');
+    } else if (format === 'oklch') {
+      const oklch = chroma(color).oklch();
+      return oklch.map((v, i) => i === 0 ? Math.round(v * 100) : Math.round(v)).join(', ');
+    }
+    return color;
+  };
+
   return (
     <div
       className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer border-2 ${empty ? 'border-dashed border-gray-400' : 'border-solid border-white'}`}
@@ -43,7 +55,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
             textTransform: 'uppercase'
           }}
           >
-          {formatColorValues(color, colorFormat)}
+          {formatColor(color, colorFormat)}
         </span>
       )}
       <input

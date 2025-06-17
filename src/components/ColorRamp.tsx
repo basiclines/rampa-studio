@@ -330,6 +330,8 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       <span className="text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-1.5 py-0.5 rounded">
                         {config.colorFormat === 'hsl' 
                           ? chroma(color).hsl().map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
+                          : config.colorFormat === 'oklch'
+                          ? chroma(color).oklch().map((v, i) => i === 0 ? Math.round(v * 100) : Math.round(v)).join(', ')
                           : color
                         }
                       </span>

@@ -3,7 +3,7 @@ import { useSaveColorRamp } from './SaveColorRamp';
 export function useSetColorFormat() {
   const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
 
-  return (id: string, colorFormat: 'hex' | 'hsl') => {
+  return (id: string, colorFormat: 'hex' | 'hsl' | 'oklch') => {
     updateColorRamps(prev =>
       prev.map(ramp =>
         ramp.id === id

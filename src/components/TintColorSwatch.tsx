@@ -4,7 +4,7 @@ import { BlendMode } from '@/entities/BlendMode';
 
 interface TintColorSwatchProps {
   color: string;
-  colorFormat: 'hex' | 'hsl';
+  colorFormat: 'hex' | 'hsl' | 'oklch';
   opacity: number;
   blendMode?: BlendMode;
   onColorChange: (color: string) => void;
@@ -33,6 +33,17 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
   empty = false,
   overlap = false,
 }) => {
+  const formatColor = (color: string, format: 'hex' | 'hsl' | 'oklch') => {
+    if (format === 'hsl') {
+      const hsl = chroma(color).hsl();
+      return hsl.map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ');
+    } else if (format === 'oklch') {
+      const oklch = chroma(color).oklch();
+      return oklch.map((v, i) => i === 0 ? Math.round(v * 100) : Math.round(v)).join(', ');
+    }
+    return color;
+  };
+
   return (
     <div className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer border-2 ${borderStyle === 'dashed' ? 'border-dashed border-black border-opacity-20' : 'border-solid border-transparent'} ${className}`}
       onClick={() => document.getElementById(id || 'tint-color-picker')?.click()}
@@ -56,16 +67,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
           textAlign: 'center',
           textTransform: 'uppercase'
         }}>
-          {colorFormat === 'hsl'
-            ? (() => {
-                const hsl = chroma(color || '#FE0000').hsl().slice(0, 3);
-                const safeH = isNaN(hsl[0]) ? 0 : Math.round(hsl[0]);
-                const safeS = Math.round(hsl[1] * 100);
-                const safeL = Math.round(hsl[2] * 100);
-                return `${safeH}, ${safeS}, ${safeL}`;
-              })()
-            : (color || '#FE0000')
-          }
+          {formatColor(color || '#FE0000', colorFormat)}
         </span>
       )}
       <input

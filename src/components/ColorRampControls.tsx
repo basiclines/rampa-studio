@@ -16,6 +16,8 @@ import { useSetTotalSteps } from '@/usecases/SetTotalSteps';
 import { useSetColorFormat } from '@/usecases/SetColorFormat';
 import { useSetColorRampScale } from '@/usecases/SetColorRampScale';
 
+type ColorFormat = 'hex' | 'hsl' | 'oklch';
+
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
   canDelete: boolean;
@@ -43,7 +45,7 @@ const SegmentedControl = ({ value, onChange }: { value: 'simple' | 'gradient' | 
   </div>
 );
 
-const ColorFormatControl = ({ value, onChange }: { value: 'hex' | 'hsl', onChange: (v: 'hex' | 'hsl') => void }) => (
+const ColorFormatControl = ({ value, onChange }: { value: ColorFormat, onChange: (v: ColorFormat) => void }) => (
   <div className="inline-flex w-full rounded-md border border-gray-200 bg-white overflow-hidden text-xs">
     <button
       className={`flex-1 px-2 py-1 ${value === 'hex' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
@@ -55,6 +57,11 @@ const ColorFormatControl = ({ value, onChange }: { value: 'hex' | 'hsl', onChang
       onClick={() => onChange('hsl')}
       type="button"
     >HSL</button>
+    <button
+      className={`flex-1 px-2 py-1 ${value === 'oklch' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('oklch')}
+      type="button"
+    >OKLCH</button>
   </div>
 );
 
