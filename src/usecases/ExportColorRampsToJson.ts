@@ -1,10 +1,32 @@
 import { useSaveColorRamp } from './SaveColorRamp';
+import chroma from 'chroma-js';
+
+function formatColor(color: string, format: 'hex' | 'hsl' | 'oklch') {
+  if (format === 'hsl') {
+    const [h, s, l] = chroma(color).hsl();
+    return `hsl(${Math.round(h)}, ${Math.round(s * 100)}%, ${Math.round(l * 100)}%)`;
+  } else if (format === 'oklch') {
+    const [l, c, h] = chroma(color).oklch();
+    return `oklch(${l.toFixed(3)} ${c.toFixed(3)} ${Math.round(h)})`;
+  }
+  return chroma(color).hex();
+}
 
 export function useExportColorRampsToJson() {
   const colorRamps = useSaveColorRamp(state => state.colorRamps);
 
   return () => {
-    const jsonContent = JSON.stringify(colorRamps, null, 2);
+    const rampsWithFormattedColors = colorRamps.map(ramp => {
+      const colorFormat = ramp.colorFormat || 'hex';
+      return {
+        ...ramp,
+        swatches: ramp.swatches.map(swatch => ({
+          ...swatch,
+          color: formatColor(swatch.color, colorFormat)
+        }))
+      };
+    });
+    const jsonContent = JSON.stringify(rampsWithFormattedColors, null, 2);
     navigator.clipboard.writeText(jsonContent);
     return jsonContent;
   };
