@@ -1,6 +1,6 @@
 import chroma from 'chroma-js';
-import { ColorRampConfig } from '@/entities/ColorRamp';
-import { BlendMode } from '@/entities/BlendMode';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { BlendMode } from '@/entities/BlendModeEntity';
 
 interface ColorRampData {
   name: string;

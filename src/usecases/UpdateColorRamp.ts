@@ -1,4 +1,4 @@
-import { ColorRampConfig } from '@/entities/ColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { useSaveColorRamp } from './SaveColorRamp';
 
 export function useUpdateColorRamp() {

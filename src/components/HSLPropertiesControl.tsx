@@ -5,7 +5,7 @@ import LabeledSlider from './LabeledSlider';
 import LightnessSlider from './LightnessSlider';
 import HueSlider from './HueSlider';
 import SaturationSlider from './SaturationSlider';
-import { ColorRampConfig } from '@/entities/ColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import {
   Select,
   SelectTrigger,

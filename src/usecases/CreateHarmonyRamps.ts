@@ -1,4 +1,4 @@
-import { ColorRampConfig } from '@/entities/ColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { useSaveColorRamp } from './SaveColorRamp';
 import {
   getAnalogousColors,
@@ -8,7 +8,7 @@ import {
   getSquareColors,
   getCompoundColors,
 } from '@/lib/colorUtils';
-import { ColorSwatch } from '@/entities/ColorSwatch';
+import { ColorSwatch } from '@/entities/ColorSwatchEntity';
 import { DEFAULT_NEW_RAMP_VALUES } from '@/config/DefaultColorRampValues';
 
 export type HarmonyType = 'analogous' | 'triad' | 'complementary' | 'split-complementary' | 'square' | 'compound';

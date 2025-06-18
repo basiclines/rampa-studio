@@ -2,7 +2,7 @@ import React from 'react';
 import LightnessSlider from '@/components/LightnessSlider';
 import HueSlider from '@/components/HueSlider';
 import SaturationSlider from '@/components/SaturationSlider';
-import { ColorRampConfig } from '@/entities/ColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
 
 interface GradientSlidersProps {
   ramp: ColorRampConfig;

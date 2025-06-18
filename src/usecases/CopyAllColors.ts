@@ -1,5 +1,5 @@
 import { generateColorRamp } from '@/lib/colorUtils';
-import { ColorRampConfig } from '@/entities/ColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
 
 export function useCopyAllColors() {
   return (ramp: ColorRampConfig) => {

@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { Lock, Unlock, Copy, Trash2, Plus, LockKeyholeOpen } from 'lucide-react';
 import { generateColorRamp } from '@/lib/colorUtils';
 import { Button } from '@/components/ui/button';
-import { ColorRampConfig } from '@/entities/ColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { Input } from '@/components/ui/input';
 import {
   DropdownMenu,

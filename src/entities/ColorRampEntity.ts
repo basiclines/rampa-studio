@@ -1,5 +1,5 @@
-import { BlendMode } from './BlendMode';
-import { ColorSwatch } from './ColorSwatch';
+import { BlendMode } from './BlendModeEntity';
+import { ColorSwatch } from './ColorSwatchEntity';
 
 export interface ColorRampConfig {
   id: string;

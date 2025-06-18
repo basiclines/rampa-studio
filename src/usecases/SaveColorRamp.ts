@@ -1,6 +1,6 @@
 import { create } from 'zustand';
-import { ColorRampConfig } from '@/entities/ColorRamp';
-import { ColorSwatch } from '@/entities/ColorSwatch';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { ColorSwatch } from '@/entities/ColorSwatchEntity';
 import { DEFAULT_COLOR_RAMP_VALUES } from '@/config/DefaultColorRampValues';
 
 interface State {

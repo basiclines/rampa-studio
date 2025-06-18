@@ -1,6 +1,6 @@
 import React from 'react';
 import chroma from 'chroma-js';
-import { BlendMode } from '@/entities/BlendMode';
+import { BlendMode } from '@/entities/BlendModeEntity';
 
 interface TintColorSwatchProps {
   color: string;

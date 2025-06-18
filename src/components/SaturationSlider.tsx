@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
 import { generateSaturationGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
-import { ColorRampConfig } from '@/entities/ColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { cn } from '@/lib/utils';
 import { useSetSaturationGradient } from '@/usecases/SetSaturationGradient';
 
