@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react';
-import { cn } from '@/lib/utils';
+import { cn } from '@/engine/utils';
 
 interface GradientControlProps {
   label: string;

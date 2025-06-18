@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { Lock, Unlock, Copy, Trash2, Plus, LockKeyholeOpen } from 'lucide-react';
-import { generateColorRamp } from '@/lib/colorUtils';
+import { generateColorRamp } from '@/engine/colorUtils';
 import { Button } from '@/components/ui/button';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { Input } from '@/components/ui/input';
@@ -17,7 +17,7 @@ import {
   getSplitComplementaryColors,
   getSquareColors,
   getCompoundColors,
-} from '@/lib/colorUtils';
+} from '@/engine/colorUtils';
 import chroma from 'chroma-js';
 import { useEditColorRampName } from '@/usecases/EditColorRampName';
 import { useLockRampColor } from '@/usecases/LockRampColor';
@@ -317,6 +317,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
         {/* Color Ramp */}
         <div className="flex flex-col gap-1" style={{ height: '100%' }}>
           {colors.map((color, index) => {
+            console.log(color);
             const isLocked = config.swatches && config.swatches[index]?.locked;
             return (
               <div key={index} className="relative flex-1 min-h-0">

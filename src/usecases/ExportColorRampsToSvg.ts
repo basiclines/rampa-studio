@@ -1,5 +1,6 @@
 import { useSaveColorRamp } from './SaveColorRamp';
-import { generateColorRamp, exportToSvg } from '@/lib/colorUtils';
+import { generateColorRamp } from '@/engine/colorUtils';
+import { ExportEngine } from '@/engine/ExportEngine';
 
 export function useExportColorRampsToSvg() {
   const colorRamps = useSaveColorRamp(state => state.colorRamps);
@@ -10,7 +11,7 @@ export function useExportColorRampsToSvg() {
       colors: generateColorRamp(ramp),
     }));
     
-    const svgContent = exportToSvg(allColors);
+    const svgContent = ExportEngine.exportToSvg(allColors);
     navigator.clipboard.writeText(svgContent);
     
     return svgContent;

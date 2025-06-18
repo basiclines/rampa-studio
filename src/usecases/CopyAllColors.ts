@@ -1,4 +1,4 @@
-import { generateColorRamp } from '@/lib/colorUtils';
+import { generateColorRamp } from '@/engine/colorUtils';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 
 export function useCopyAllColors() {

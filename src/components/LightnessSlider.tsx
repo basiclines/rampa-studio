@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
-import { generateLightnessGradient, calculateAdvancedDefaults } from '@/lib/gradientUtils';
+import { generateLightnessGradient, calculateAdvancedDefaults } from '@/engine/gradientUtils';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
-import { cn } from '@/lib/utils';
+import { cn } from '@/engine/utils';
 import { useSetLightnessGradient } from '@/usecases/SetLightnessGradient';
 
 interface LightnessSliderProps {

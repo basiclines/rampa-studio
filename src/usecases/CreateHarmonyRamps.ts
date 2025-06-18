@@ -7,7 +7,7 @@ import {
   getSplitComplementaryColors,
   getSquareColors,
   getCompoundColors,
-} from '@/lib/colorUtils';
+} from '@/engine/colorUtils';
 import { ColorSwatch } from '@/entities/ColorSwatchEntity';
 import { DEFAULT_NEW_RAMP_VALUES } from '@/config/DefaultColorRampValues';
 
