@@ -16,7 +16,7 @@ import { useSetTotalSteps } from '@/usecases/SetTotalSteps';
 import { useSetColorFormat } from '@/usecases/SetColorFormat';
 import { useSetColorRampScale } from '@/usecases/SetColorRampScale';
 
-type ColorFormat = 'hex' | 'hsl' | 'oklch';
+type ColorFormat = 'hex' | 'hsl';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -53,15 +53,12 @@ const ColorFormatControl = ({ value, onChange }: { value: ColorFormat, onChange:
       type="button"
     >HEX</button>
     <button
+      key="hsl"
       className={`flex-1 px-2 py-1 ${value === 'hsl' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
       onClick={() => onChange('hsl')}
-      type="button"
-    >HSL</button>
-    <button
-      className={`flex-1 px-2 py-1 ${value === 'oklch' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
-      onClick={() => onChange('oklch')}
-      type="button"
-    >OKLCH</button>
+    >
+      HSL
+    </button>
   </div>
 );
 

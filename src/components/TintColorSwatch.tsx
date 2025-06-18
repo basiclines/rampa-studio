@@ -4,7 +4,7 @@ import { BlendMode } from '@/entities/BlendModeEntity';
 
 interface TintColorSwatchProps {
   color: string;
-  colorFormat: 'hex' | 'hsl' | 'oklch';
+  colorFormat: 'hex' | 'hsl';
   opacity: number;
   blendMode?: BlendMode;
   onColorChange: (color: string) => void;
@@ -33,13 +33,10 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
   empty = false,
   overlap = false,
 }) => {
-  const formatColor = (color: string, format: 'hex' | 'hsl' | 'oklch') => {
+  const formatColor = (color: string, format: 'hex' | 'hsl') => {
     if (format === 'hsl') {
       const hsl = chroma(color).hsl();
       return hsl.map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ');
-    } else if (format === 'oklch') {
-      const oklch = chroma(color).oklch();
-      return oklch.map((v, i) => i === 0 ? Math.round(v * 100) : Math.round(v)).join(', ');
     }
     return color;
   };

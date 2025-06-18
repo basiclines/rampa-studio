@@ -4,7 +4,7 @@ import { formatColorValues } from '@/lib/colorUtils';
 
 interface BaseColorSwatchProps {
   color: string;
-  colorFormat: 'hex' | 'hsl' | 'oklch';
+  colorFormat: 'hex' | 'hsl';
   onChange: (color: string) => void;
   id?: string;
   empty?: boolean;
@@ -19,13 +19,10 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
     }
   };
 
-  const formatColor = (color: string, format: 'hex' | 'hsl' | 'oklch') => {
+  const formatColor = (color: string, format: 'hex' | 'hsl') => {
     if (format === 'hsl') {
       const hsl = chroma(color).hsl();
       return hsl.map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ');
-    } else if (format === 'oklch') {
-      const oklch = chroma(color).oklch();
-      return oklch.map((v, i) => i === 0 ? Math.round(v * 100) : Math.round(v)).join(', ');
     }
     return color;
   };
