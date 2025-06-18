@@ -1,5 +1,5 @@
 import { useSaveColorRamp } from './SaveColorRamp';
-import { generateColorRamp } from '@/engine/colorUtils';
+import { generateColorRamp } from '@/engine/ColorEngine';
 
 export function useExportColorRampsToJson() {
   const colorRamps = useSaveColorRamp(state => state.colorRamps);

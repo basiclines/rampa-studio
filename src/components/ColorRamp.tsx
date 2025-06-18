@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { Lock, Unlock, Copy, Trash2, Plus, LockKeyholeOpen } from 'lucide-react';
-import { generateColorRamp } from '@/engine/colorUtils';
+import { generateColorRamp } from '@/engine/ColorEngine';
 import { Button } from '@/components/ui/button';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { Input } from '@/components/ui/input';
@@ -17,7 +17,7 @@ import {
   getSplitComplementaryColors,
   getSquareColors,
   getCompoundColors,
-} from '@/engine/colorUtils';
+} from '@/engine/ColorEngine';
 import chroma from 'chroma-js';
 import { useEditColorRampName } from '@/usecases/EditColorRampName';
 import { useLockRampColor } from '@/usecases/LockRampColor';

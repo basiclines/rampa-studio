@@ -1,6 +1,6 @@
 import React from 'react';
 import chroma from 'chroma-js';
-import { formatColorValues } from '@/engine/colorUtils';
+import { formatColorValues } from '@/engine/ColorEngine';
 
 interface BaseColorSwatchProps {
   color: string;
