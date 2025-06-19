@@ -7,7 +7,7 @@ import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { BlendMode } from '@/entities/BlendModeEntity';
 import BaseColorSwatch from './BaseColorSwatch';
 import TintColorSwatch from './TintColorSwatch';
-import LabeledSlider from './LabeledSlider';
+import LabeledSlider from './ui/LabeledSlider';
 import HSLPropertiesControl from './HSLPropertiesControl';
 import { useSetTintColor } from '@/usecases/SetTintColor';
 import { useSetTintOpacity } from '@/usecases/SetTintOpacity';
@@ -15,6 +15,7 @@ import { useSetTintBlendMode } from '@/usecases/SetTintBlendMode';
 import { useSetTotalSteps } from '@/usecases/SetTotalSteps';
 import { useSetColorFormat } from '@/usecases/SetColorFormat';
 import { useSetColorRampScale } from '@/usecases/SetColorRampScale';
+import StepSlider from './ui/StepSlider';
 
 type ColorFormat = 'hex' | 'hsl';
 
@@ -241,26 +242,32 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     formatValue={v => `${v}%`}
                     ariaLabel="Tint Opacity"
                   />
-                  <Select
+                  <StepSlider
+                    options={[
+                      { value: 'normal', label: 'Normal' },
+                      { value: 'darken', label: 'Darken' },
+                      { value: 'multiply', label: 'Multiply' },
+                      { value: 'plus-darker', label: 'Plus Darker' },
+                      { value: 'color-burn', label: 'Color Burn' },
+                      { value: 'lighten', label: 'Lighten' },
+                      { value: 'screen', label: 'Screen' },
+                      { value: 'plus-lighter', label: 'Plus Lighter' },
+                      { value: 'color-dodge', label: 'Color Dodge' },
+                      { value: 'overlay', label: 'Overlay' },
+                      { value: 'soft-light', label: 'Soft Light' },
+                      { value: 'hard-light', label: 'Hard Light' },
+                      { value: 'difference', label: 'Difference' },
+                      { value: 'exclusion', label: 'Exclusion' },
+                      { value: 'hue', label: 'Hue' },
+                      { value: 'saturation', label: 'Saturation' },
+                      { value: 'color', label: 'Color' },
+                      { value: 'luminosity', label: 'Luminosity' },
+                    ]}
                     value={ramp.tintBlendMode || 'normal'}
-                    onValueChange={value => setTintBlendMode(ramp.id, value as BlendMode)}
-                  >
-                    <SelectTrigger className="h-10 border border-gray-300 focus:border-blue-500 text-center text-gray-600 shadow-sm">
-                      <SelectValue placeholder="Select blend mode" className="text-center text-gray-600" />
-                    </SelectTrigger>
-                    <SelectContent className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50">
-                      {['normal','darken','multiply','plus-darker','color-burn','lighten','screen','plus-lighter','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'].map(mode => (
-                        <SelectItem
-                          key={mode}
-                          value={mode}
-                          onMouseEnter={() => setPreviewBlendMode(mode as BlendMode)}
-                          onMouseLeave={() => setPreviewBlendMode(undefined)}
-                        >
-                          {mode.charAt(0).toUpperCase() + mode.slice(1).replace(/-/g, ' ')}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
+                    onChange={mode => setTintBlendMode(ramp.id, mode)}
+                    onPreview={mode => setPreviewBlendMode(mode as BlendMode | undefined)}
+                    ariaLabel="Blend Mode"
+                  />
                 </div>
               )}
             </div>

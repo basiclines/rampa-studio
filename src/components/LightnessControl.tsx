@@ -1,6 +1,6 @@
 import React from 'react';
 import { Label } from '@/components/ui/label';
-import LabeledSlider from './LabeledSlider';
+import LabeledSlider from './ui/LabeledSlider';
 
 const LightnessControl = ({ ramp, onUpdate }) => (
   <div>

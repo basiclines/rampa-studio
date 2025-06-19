@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Label } from '@/components/ui/label';
 import SegmentedControl from './SegmentedControl';
-import LabeledSlider from './LabeledSlider';
+import LabeledSlider from './ui/LabeledSlider';
 import LightnessSlider from './LightnessSlider';
 import HueSlider from './HueSlider';
 import SaturationSlider from './SaturationSlider';
@@ -95,7 +95,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   return (
     <div className="pb-6 flex flex-col h-full">
       <div className="flex items-center justify-between mb-2">
-        <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">Properties</div>
+        <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">Distribution</div>
         <SegmentedControl value={isAdvanced ? 'gradient' : 'simple'} onChange={handleModeChange} />
       </div>
       {isAdvanced ? (
