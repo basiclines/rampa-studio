@@ -317,22 +317,19 @@ const ColorRamp: React.FC<ColorRampProps> = ({
         {/* Color Ramp */}
         <div className="flex flex-col gap-1" style={{ height: '100%' }}>
           {colors.map((color, index) => {
-            console.log(color);
             const isLocked = config.swatches && config.swatches[index]?.locked;
             return (
               <div key={index} className="relative flex-1 min-h-0">
                 <div
                   className="group relative w-full h-full overflow-hidden transition-all duration-200 flex items-stretch"
                   style={{ backgroundColor: color }}
+                  /* React convers any color format to rgb() format on render */
                 >
                   {/* Hex value on bottom-right - only visible when hovering the entire ramp */}
                   {(isHovered || isSelected) && (
                     <div className="absolute bottom-1 right-1 z-20">
                       <span className="text-xs text-white text-opacity-90 bg-black bg-opacity-50 backdrop-blur-sm px-1.5 py-0.5 rounded">
-                        {config.colorFormat === 'hsl' 
-                          ? chroma(color).hsl().map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ')
-                          : color
-                        }
+                       {color}
                       </span>
                     </div>
                   )}
