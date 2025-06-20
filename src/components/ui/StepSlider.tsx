@@ -38,9 +38,6 @@ function StepSlider<T extends string | number>({
   // Mouse/touch event handlers
   const handlePointerDown = (e: React.MouseEvent | React.TouchEvent) => {
     setDragging(true);
-    let clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
-    const idx = getStepFromPosition(clientX);
-    onChange(options[idx].value);
     window.addEventListener('mousemove', handlePointerMove as any);
     window.addEventListener('touchmove', handlePointerMove as any, { passive: false });
     window.addEventListener('mouseup', handlePointerUp as any);
@@ -96,9 +93,9 @@ function StepSlider<T extends string | number>({
           <div
             className="absolute z-20 h-full"
             style={{
-              left: `calc(${(currentIdx / options.length) * 100}% + ${(50 / options.length)}%)`,
-              top: '50%',
-              transform: 'translate(-50%, -50%)',
+              left: `calc(${(currentIdx / options.length) * 100}%)`,
+              top: '0',
+              marginLeft: '2px',
               pointerEvents: 'none',
             }}
           >
