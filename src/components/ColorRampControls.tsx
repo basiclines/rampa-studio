@@ -92,6 +92,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   closeSidebar,
   previewScaleType,
   setPreviewScaleType,
+  onPreviewBlendMode,
 }) => {
   // Tint usecases
   const setTintColor = useSetTintColor();
@@ -269,7 +270,10 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     ]}
                     value={ramp.tintBlendMode || 'normal'}
                     onChange={mode => setTintBlendMode(ramp.id, mode)}
-                    onPreview={mode => setPreviewBlendMode(mode as BlendMode | undefined)}
+                    onPreview={mode => {
+                      setPreviewBlendMode(mode as BlendMode | undefined);
+                      onPreviewBlendMode?.(mode);
+                    }}
                     ariaLabel="Blend Mode"
                   />
                 </div>
