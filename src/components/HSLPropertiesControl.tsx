@@ -6,13 +6,7 @@ import LightnessSlider from './LightnessSlider';
 import HueSlider from './HueSlider';
 import SaturationSlider from './SaturationSlider';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
-import {
-  Select,
-  SelectTrigger,
-  SelectContent,
-  SelectItem,
-  SelectValue,
-} from './ui/select';
+import StepSlider from './ui/StepSlider';
 import { useSetLightnessRange } from '@/usecases/SetLightnessRange';
 import { useSetChromaRange } from '@/usecases/SetChromaRange';
 import { useSetSaturationRange } from '@/usecases/SetSaturationRange';
@@ -102,31 +96,13 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
         <>
           {/* Unified scale type selector with hover preview */}
           <div className="mb-4">
-            <Select
+            <StepSlider
+              options={SCALE_TYPES}
               value={unifiedScaleType}
-              onValueChange={handleScaleTypeChange}
-              onOpenChange={open => {
-                if (!open && setPreviewScaleType) setPreviewScaleType(null);
-              }}
-            >
-              <SelectTrigger className="w-full h-10 border border-gray-300 focus:border-blue-500 text-center text-gray-600 shadow-sm">
-                <SelectValue placeholder="Select scale type" className="text-center text-gray-600" />
-              </SelectTrigger>
-              <SelectContent
-                className="bg-white border border-gray-200 shadow-lg max-h-64 overflow-y-auto z-50"
-                onPointerLeave={() => setPreviewScaleType && setPreviewScaleType(null)}
-              >
-                {SCALE_TYPES.map(type => (
-                  <SelectItem
-                    key={type.value}
-                    value={type.value}
-                    onPointerEnter={() => setPreviewScaleType && setPreviewScaleType(type.value)}
-                  >
-                    {type.label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+              onChange={handleScaleTypeChange}
+              onPreview={setPreviewScaleType}
+              ariaLabel="Scale Type"
+            />
           </div>
           {/* Sliders */}
           <div className="flex flex-row w-full flex-1 h-0">
