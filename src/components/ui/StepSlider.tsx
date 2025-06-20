@@ -29,7 +29,7 @@ function StepSlider<T extends string | number>({
     const rect = containerRef.current?.getBoundingClientRect();
     if (!rect) return currentIdx;
     const x = clientX - rect.left;
-    const stepWidth = rect.width / (options.length - 1);
+    const stepWidth = rect.width / options.length;
     let idx = Math.round(x / stepWidth);
     idx = Math.max(0, Math.min(options.length - 1, idx));
     return idx;
@@ -73,9 +73,6 @@ function StepSlider<T extends string | number>({
     };
   }, []);
 
-  // Calculate left position for a given index (0 to N-1)
-  const getLeftPercent = (idx: number) => (options.length === 1 ? 0 : (idx / (options.length - 1)) * 100);
-
   return (
     <div
       ref={containerRef}
@@ -83,68 +80,76 @@ function StepSlider<T extends string | number>({
       aria-label={ariaLabel}
       onMouseDown={handlePointerDown}
       onTouchStart={handlePointerDown}
-      style={{ userSelect: 'none', WebkitUserSelect: 'none', height: 80, paddingTop: 24 }}
+      style={{ userSelect: 'none', WebkitUserSelect: 'none', height: 48, paddingTop: 24 }}
     >
-      {/* Track */}
-      <div className="absolute left-0 right-0 top-1/2 h-1 bg-gray-200 rounded-full -translate-y-1/2 z-0" />
-      {/* Steps */}
-      {options.map((option, idx) => {
-        const isActive = value === option.value;
-        const isHovered = hovered === option.value;
-        const left = `calc(${getLeftPercent(idx)}% - ${100 / (2 * (options.length - 1))}%)`;
-        const width = `calc(100% / ${options.length - 1})`;
-        return (
+      {/* Steps as flex children */}
+      <div className="relative flex flex-row w-full h-full z-10">
+        
+        {/* Track */}
+        <div
+          className="absolute left-0 right-0 top-1/2 h-1 -translate-y-1/2 z-0"
+          style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}
+          />
+        
+        {/* Thumb */}
+        {currentIdx >= 0 && (
           <div
-            key={option.value}
-            className="absolute flex flex-col items-center z-10 cursor-pointer"
-            style={{ left, top: '50%', transform: 'translateY(-50%)', width, height: '100%' }}
-            onMouseEnter={() => {
-              setHovered(option.value);
-              onPreview && onPreview(option.value);
-            }}
-            onMouseLeave={() => {
-              setHovered(undefined);
-              onPreview && onPreview(undefined);
-            }}
-            onClick={e => {
-              e.stopPropagation();
-              onChange(option.value);
+            className="absolute z-20 h-full"
+            style={{
+              left: `calc(${(currentIdx / options.length) * 100}% + ${(50 / options.length)}%)`,
+              top: '50%',
+              transform: 'translate(-50%, -50%)',
+              pointerEvents: 'none',
             }}
           >
-            {/* Step vertical line centered in the step area */}
-            <div
-              className={`w-0.5 h-4 rounded transition-all duration-150 ${
-                isActive
-                  ? 'bg-blue-600 scale-110 shadow-lg'
-                  : isHovered
-                  ? 'bg-blue-300'
-                  : 'bg-gray-300'
-              }`}
-              style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)' }}
-            />
-            {/* Label (only on hover or active) */}
-            <div
-              className={`absolute top-0 left-1/2 -translate-x-1/2 px-2 py-1 rounded bg-black text-white text-xs whitespace-nowrap pointer-events-none transition-opacity duration-150 ${
-                isHovered ? 'opacity-100' : 'opacity-0'
-              }`}
-              style={{ zIndex: 10 }}
-            >
-              {option.label}
-            </div>
+            <div className="w-3 h-full border-2 border-white rounded shadow-md bg-black" />
           </div>
-        );
-      })}
-      {/* Thumb */}
-      <div
-        className="absolute z-20"
-        style={{
-          left: `calc(${getLeftPercent(currentIdx)}% - 6px)`,
-          top: '50%',
-          transform: 'translateY(-50%)',
-          pointerEvents: 'none',
-        }}
-      >
-        <div className="w-3 h-6 border-2 border-white rounded shadow-md bg-black" />
+        )}
+
+        {options.map((option, idx) => {
+          const isActive = value === option.value;
+          const isHovered = hovered === option.value;
+          return (
+            <div
+              key={option.value}
+              className="flex-1 flex flex-col items-center justify-center cursor-pointer h-full relative"
+              onMouseEnter={() => {
+                setHovered(option.value);
+                onPreview && onPreview(option.value);
+              }}
+              onMouseLeave={() => {
+                setHovered(undefined);
+                onPreview && onPreview(undefined);
+              }}
+              onClick={e => {
+                e.stopPropagation();
+                onChange(option.value);
+              }}
+              style={{ minWidth: 0 }}
+            >
+              {/* Step vertical line centered in the step area */}
+              <div
+                className={`rounded transition-all duration-150`}
+                style={{
+                  position: 'absolute', left: '50%', top: '50%',
+                  width: 4,
+                  height: 4,
+                  transform: `translate(-50%, -50%) ${isActive || isHovered ? 'scale(2)' : 'scale(1)'}`,
+                  backgroundColor: (isActive || isHovered) ? 'rgba(0, 0, 0, 0.5)' : 'rgba(0, 0, 0, 0.3)',
+                }}
+              />
+              {/* Label (only on hover or active) */}
+              <div
+                className={`absolute left-1/2 -translate-x-1/2 rounded text-black text-xs whitespace-nowrap pointer-events-none transition-opacity duration-150 ${
+                  isHovered ? 'opacity-100' : 'opacity-0'
+                }`}
+                style={{ zIndex: 10, bottom: "100%", marginBottom: 8 }}
+              >
+                {option.label}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
