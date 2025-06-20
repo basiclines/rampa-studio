@@ -205,7 +205,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   id={`base-color-picker-${ramp.id}`}
                 />
                 {/* Tint color circle border */}
-                <div className="relative w-full h-full z-20"
+                <div className="relative w-full h-full z-20 pointer-events-none"
                 style={{ position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
                 >
                   <div
