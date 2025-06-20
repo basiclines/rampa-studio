@@ -1,6 +1,5 @@
 import React from 'react';
 import chroma from 'chroma-js';
-import { formatColorValues } from '@/engine/ColorEngine';
 
 interface BaseColorSwatchProps {
   color: string;
@@ -29,7 +28,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
 
   return (
     <div
-      className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer border-2 ${empty ? 'border-dashed border-gray-400' : 'border-solid border-white'}`}
+      className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer`}
       onClick={handleClick}
       style={{
         background: empty ? 'transparent' : color,

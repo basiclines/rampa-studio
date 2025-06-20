@@ -203,8 +203,22 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   onChange={color => onUpdate({ baseColor: color })}
                   id={`base-color-picker-${ramp.id}`}
                 />
+                {/* Tint color circle border */}
+                <div className="relative w-full h-full z-20"
+                style={{ position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
+                >
+                  <div
+                    className={`absolute rounded-full pointer-events-none border-2 ${showTint ? 'border-solid border-white' : 'border-dashed border-black border-opacity-20' }`}
+                    style={{
+                      left: '-2px',
+                      top: '-2px',
+                      right: '-2px',
+                      bottom: '-2px',
+                    }}
+                  ></div>
+                </div>
                 {/* Tint circle (empty or filled/overlap) */}
-                {showTint ? (
+                {showTint && (
                   <TintColorSwatch
                     color={ramp.tintColor || '#FE0000'}
                     colorFormat={ramp.colorFormat || 'hex'}
@@ -216,17 +230,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     onRemove={handleRemoveTint}
                     id={`tint-color-picker-${ramp.id}`}
                     onPreviewBlendMode={(blendMode) => setPreviewBlendMode(blendMode as BlendMode | undefined)}
-                    className="z-20"
-                    style={{ position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
                     overlap={true}
-                  />
-                ) : (
-                  <BaseColorSwatch
-                    color={ramp.baseColor}
-                    colorFormat={ramp.colorFormat || 'hex'}
-                    onChange={handleAddTint}
-                    id={`empty-tint-circle-${ramp.id}`}
-                    empty={true}
                   />
                 )}
               </div>

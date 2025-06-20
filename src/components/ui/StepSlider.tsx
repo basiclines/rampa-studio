@@ -30,7 +30,7 @@ function StepSlider<T extends string | number>({
     if (!rect) return currentIdx;
     const x = clientX - rect.left;
     const stepWidth = rect.width / options.length;
-    let idx = Math.round(x / stepWidth);
+    let idx = Math.floor(x / stepWidth);
     idx = Math.max(0, Math.min(options.length - 1, idx));
     return idx;
   };
@@ -106,6 +106,7 @@ function StepSlider<T extends string | number>({
         {options.map((option, idx) => {
           const isActive = value === option.value;
           const isHovered = hovered === option.value;
+          const isActiveAndResting = (isActive && hovered === undefined);
           return (
             <div
               key={option.value}
@@ -138,7 +139,7 @@ function StepSlider<T extends string | number>({
               {/* Label (only on hover or active) */}
               <div
                 className={`absolute left-1/2 -translate-x-1/2 rounded text-black text-xs whitespace-nowrap pointer-events-none transition-opacity duration-150 ${
-                  isHovered ? 'opacity-100' : 'opacity-0'
+                  (isHovered || isActiveAndResting) ? 'opacity-100' : 'opacity-0'
                 }`}
                 style={{ zIndex: 10, bottom: "100%", marginBottom: 8 }}
               >

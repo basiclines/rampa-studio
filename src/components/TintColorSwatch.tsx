@@ -27,9 +27,6 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
   blendMode,
   onColorChange,
   id,
-  className = '',
-  style = {},
-  borderStyle = 'solid',
   empty = false,
   overlap = false,
 }) => {
@@ -40,18 +37,17 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
     }
     return color;
   };
-
   return (
-    <div className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer border-2 ${borderStyle === 'dashed' ? 'border-dashed border-black border-opacity-20' : 'border-solid border-transparent'} ${className}`}
+    <div className={`relative w-full h-full rounded-full flex items-center justify-center cursor-pointer`}
       onClick={() => document.getElementById(id || 'tint-color-picker')?.click()}
       style={{
+        position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128,
         background: empty ? 'transparent' : chroma(color || '#FE0000').alpha((opacity || 0) / 100).css(),
         mixBlendMode: overlap && blendMode && [
           'normal','darken','multiply','color-burn','lighten','screen','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'
         ].includes(blendMode)
           ? (blendMode as React.CSSProperties['mixBlendMode'])
           : undefined,
-        ...style
       }}
     >
       {!empty && (
