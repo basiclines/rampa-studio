@@ -93,13 +93,20 @@ function StepSlider<T extends string | number>({
           <div
             className="absolute z-20 h-full"
             style={{
-              left: `calc(${(currentIdx + 0.2) / options.length * 100}%)`,
-              top: '50%',
-              marginTop: '-6px',
+              left: `calc(${(currentIdx) / options.length * 100}%)`,
+              width: `calc(${1 / options.length * 100}%)`,
+              top: '0',
               pointerEvents: 'none',
             }}
           >
-            <div className="w-3 h-3 rounded-full r-material r-slider-thumb" />
+            <div className="w-3 h-3 absolute rounded-full r-material r-slider-thumb"
+              style={{
+                left: '50%',
+                top: '50%',
+                marginTop: '-6px',
+                marginLeft: '-6px',
+              }}
+            />
           </div>
         )}
 
