@@ -10,6 +10,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from '@/components/ui/dialog';
+import { CopyButton } from '@/components/ui/CopyButton';
 
 import { useSelectColorRamp } from '@/usecases/SelectColorRamp';
 import { useSaveColorRamp } from '@/usecases/SaveColorRamp';
@@ -72,14 +73,22 @@ const Index = () => {
     <div className="min-h-screen bg-[#F5F5F5] flex">
       {/* Export Button - Fixed in top right */}
       <div className="fixed top-4 right-4 z-50 flex gap-2">
-        <Button onClick={handleExportSvg} variant="outline" className="gap-2 bg-white shadow-md">
+        <CopyButton
+          onCopy={handleExportSvg}
+          variant="outline"
+          className="gap-2 bg-white shadow-md"
+        >
           <Copy className="w-4 h-4" />
           Copy SVG
-        </Button>
-        <Button onClick={handleExportJson} variant="outline" className="gap-2 bg-white shadow-md">
+        </CopyButton>
+        <CopyButton
+          onCopy={handleExportJson}
+          variant="outline"
+          className="gap-2 bg-white shadow-md"
+        >
           <FileJson className="w-4 h-4" />
           Copy JSON
-        </Button>
+        </CopyButton>
         <Button onClick={() => setShowAbout(true)} variant="outline" className="gap-2 bg-white shadow-md">
           <Info className="w-4 h-4" />
           About
