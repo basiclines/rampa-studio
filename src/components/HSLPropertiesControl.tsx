@@ -15,12 +15,6 @@ interface HSLPropertiesControlProps {
   ramp: ColorRampConfig;
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
   onScaleTypeChange: (scaleType: string) => void;
-  lightnessScale: string;
-  setLightnessScale: (scale: string) => void;
-  hueScale: string;
-  setHueScale: (scale: string) => void;
-  saturationScale: string;
-  setSaturationScale: (scale: string) => void;
   previewScaleType?: string | null;
   setPreviewScaleType?: (type: string | null) => void;
 }
@@ -29,11 +23,9 @@ const SCALE_TYPES = [
   { value: 'linear', label: 'Linear' },
   { value: 'geometric', label: 'Geometric' },
   { value: 'fibonacci', label: 'Fibonacci' },
-  { value: 'golden-ratio', label: 'Golden Ratio' },
   { value: 'logarithmic', label: 'Logarithmic' },
   { value: 'powers-of-2', label: 'Powers of 2' },
   { value: 'musical-ratio', label: 'Musical Ratio' },
-  { value: 'cielab-uniform', label: 'CIELAB Uniform Steps' },
   { value: 'ease-in', label: 'Ease-in' },
   { value: 'ease-out', label: 'Ease-out' },
   { value: 'ease-in-out', label: 'Ease-in-out' },
@@ -43,12 +35,6 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   ramp,
   onUpdate,
   onScaleTypeChange,
-  lightnessScale,
-  setLightnessScale,
-  hueScale,
-  setHueScale,
-  saturationScale,
-  setSaturationScale,
   previewScaleType,
   setPreviewScaleType,
 }) => {
