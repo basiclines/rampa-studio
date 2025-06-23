@@ -1,5 +1,6 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { cn } from '@/engine/utils';
+import { calculateScalePosition } from '@/engine/HarmonyEngine';
 
 interface GradientControlProps {
   label: string;
@@ -114,99 +115,6 @@ const GradientControl: React.FC<GradientControlProps> = ({
     ? `linear-gradient(to bottom, ${gradientColors.join(', ')})` 
     : 'linear-gradient(to bottom, #374151, #e5e7eb)';
 
-  // Step position helpers
-  function geometricPosition(i: number, steps: number) {
-    const ratio = 3;
-    if (steps <= 1) return 0;
-    const min = 1;
-    const max = Math.pow(ratio, steps - 1);
-    return (Math.pow(ratio, i) - min) / (max - min);
-  }
-  function fibonacciPositions(steps: number): number[] {
-    const fibs = [0, 1];
-    for (let i = 2; i < steps; i++) {
-      fibs.push(fibs[i - 1] + fibs[i - 2]);
-    }
-    const min = fibs[0];
-    const max = fibs[fibs.length - 1];
-    return fibs.map(f => (f - min) / (max - min));
-  }
-  function goldenRatioPositions(steps: number): number[] {
-    // Golden ratio phi
-    const phi = (1 + Math.sqrt(5)) / 2;
-    // Generate a sequence where each step is phi^i
-    const seq = [];
-    for (let i = 0; i < steps; i++) {
-      seq.push(Math.pow(phi, i));
-    }
-    const min = seq[0];
-    const max = seq[seq.length - 1];
-    return seq.map(v => (v - min) / (max - min));
-  }
-  function logarithmicPositions(steps: number): number[] {
-    // Avoid log(0) by starting at 1
-    const min = 1;
-    const max = steps;
-    const logMin = Math.log(min);
-    const logMax = Math.log(max);
-    return Array.from({ length: steps }, (_, i) => {
-      const x = i + 1;
-      return (Math.log(x) - logMin) / (logMax - logMin);
-    });
-  }
-  function powersOf2Positions(steps: number): number[] {
-    // Generate a sequence where each step is 2^i
-    const seq = [];
-    for (let i = 0; i < steps; i++) {
-      seq.push(Math.pow(2, i));
-    }
-    const min = seq[0];
-    const max = seq[seq.length - 1];
-    return seq.map(v => (v - min) / (max - min));
-  }
-  function musicalRatioPositions(steps: number): number[] {
-    // Use a set of common musical ratios (just intonation, normalized)
-    // If more steps are needed, interpolate linearly between them
-    const ratios = [1, 16/15, 9/8, 6/5, 5/4, 4/3, 45/32, 3/2, 8/5, 5/3, 15/8, 2];
-    let seq = [];
-    if (steps <= ratios.length) {
-      seq = ratios.slice(0, steps);
-    } else {
-      // Interpolate between 1 and 2 for extra steps
-      for (let i = 0; i < steps; i++) {
-        seq.push(1 * Math.pow(2, i / (steps - 1)));
-      }
-    }
-    const min = seq[0];
-    const max = seq[seq.length - 1];
-    return seq.map(v => (v - min) / (max - min));
-  }
-  function cielabUniformPositions(steps: number): number[] {
-    // Placeholder: uniform linear distribution (true CIELAB would require color math)
-    return Array.from({ length: steps }, (_, i) => i / (steps - 1));
-  }
-  function easeInPositions(steps: number): number[] {
-    // Quadratic ease-in: t^2
-    return Array.from({ length: steps }, (_, i) => {
-      const t = i / (steps - 1);
-      return t * t;
-    });
-  }
-  function easeOutPositions(steps: number): number[] {
-    // Quadratic ease-out: 1 - (1-t)^2
-    return Array.from({ length: steps }, (_, i) => {
-      const t = i / (steps - 1);
-      return 1 - (1 - t) * (1 - t);
-    });
-  }
-  function easeInOutPositions(steps: number): number[] {
-    // Quadratic ease-in-out
-    return Array.from({ length: steps }, (_, i) => {
-      const t = i / (steps - 1);
-      return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
-    });
-  }
-
   return (
     <div className={cn("flex flex-col h-full", className)}>
       <div className="text-xs font-medium text-gray-700 text-center mb-2">{label}</div>
@@ -214,34 +122,14 @@ const GradientControl: React.FC<GradientControlProps> = ({
         ref={containerRef}
         className="relative w-8 mx-auto cursor-pointer select-none flex-1"
         style={{ 
-          background: gradientBackground
+          background: gradientBackground,
+          border: "1px solid rgba(0, 0, 0, 0.1)"
         }}
       >
         {/* Step indicators */}
         {totalSteps && totalSteps > 1 && Array.from({ length: totalSteps - 2 }).map((_, i) => {
           const step = i + 1;
-          let t = step / (totalSteps - 1);
-          if (scaleType === 'geometric') {
-            t = geometricPosition(step, totalSteps);
-          } else if (scaleType === 'fibonacci') {
-            t = fibonacciPositions(totalSteps)[step];
-          } else if (scaleType === 'golden-ratio') {
-            t = goldenRatioPositions(totalSteps)[step];
-          } else if (scaleType === 'logarithmic') {
-            t = logarithmicPositions(totalSteps)[step];
-          } else if (scaleType === 'powers-of-2') {
-            t = powersOf2Positions(totalSteps)[step];
-          } else if (scaleType === 'musical-ratio') {
-            t = musicalRatioPositions(totalSteps)[step];
-          } else if (scaleType === 'cielab-uniform') {
-            t = cielabUniformPositions(totalSteps)[step];
-          } else if (scaleType === 'ease-in') {
-            t = easeInPositions(totalSteps)[step];
-          } else if (scaleType === 'ease-out') {
-            t = easeOutPositions(totalSteps)[step];
-          } else if (scaleType === 'ease-in-out') {
-            t = easeInOutPositions(totalSteps)[step];
-          }
+          const t = calculateScalePosition(step, totalSteps, scaleType);
           const value = startValue + ((endValue - startValue) * t);
           const percent = valueToPosition(value);
           return (
@@ -271,10 +159,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
         {/* Start point */}
         <div
           className={cn(
-            "absolute w-6 h-3 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10",
-            swapHandlerColors
-              ? "bg-gray-500 hover:bg-gray-600"
-              : "bg-black hover:bg-gray-800"
+            "absolute w-6 h-3 r-material r-slider-thumb cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10"
           )}
           style={{ 
             left: '50%',
@@ -286,10 +171,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
         {/* End point (always show) */}
         <div
           className={cn(
-            "absolute w-6 h-3 border-2 border-white rounded shadow-md cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10",
-            swapHandlerColors
-              ? "bg-black hover:bg-gray-800"
-              : "bg-gray-500 hover:bg-gray-600"
+            "absolute w-6 h-3 r-material r-slider-thumb  cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10"
           )}
           style={{ 
             left: '50%',
@@ -312,13 +194,13 @@ const GradientControl: React.FC<GradientControlProps> = ({
       <div className="text-xs text-center space-y-1 mt-2">
         {swapHandlerColors ? (
           <>
-            <div className="text-black">Start: {formatValue(roundToOneDecimal(endValue))}</div>
-            <div className="text-gray-600">End: {formatValue(roundToOneDecimal(startValue))}</div>
+            <div className="text-black">{formatValue(roundToOneDecimal(endValue))}</div>
+            <div className="text-gray-600">{formatValue(roundToOneDecimal(startValue))}</div>
           </>
         ) : (
           <>
-            <div className="text-black">Start: {formatValue(roundToOneDecimal(startValue))}</div>
-            <div className="text-gray-600">End: {formatValue(roundToOneDecimal(endValue))}</div>
+            <div className="text-black">{formatValue(roundToOneDecimal(startValue))}</div>
+            <div className="text-gray-600">{formatValue(roundToOneDecimal(endValue))}</div>
           </>
         )}
       </div>
