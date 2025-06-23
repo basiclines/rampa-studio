@@ -284,12 +284,6 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 ramp={ramp}
                 onUpdate={onUpdate}
                 onScaleTypeChange={(scaleType) => setColorRampScale(ramp.id, scaleType)}
-                lightnessScale={lightnessScale}
-                setLightnessScale={setLightnessScale}
-                hueScale={hueScale}
-                setHueScale={setHueScale}
-                saturationScale={saturationScale}
-                setSaturationScale={setSaturationScale}
                 previewScaleType={previewScaleType}
                 setPreviewScaleType={setPreviewScaleType}
               />

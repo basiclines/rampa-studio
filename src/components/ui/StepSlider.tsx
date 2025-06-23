@@ -98,7 +98,7 @@ function StepSlider<T extends string | number>({
               pointerEvents: 'none',
             }}
           >
-            <div className="w-3 h-3 absolute rounded-full r-material r-slider-thumb"
+            <div className="w-3 h-3 absolute rounded-full r-material-light-gradient r-slider-thumb"
               style={{
                 left: '50%',
                 top: '50%',
