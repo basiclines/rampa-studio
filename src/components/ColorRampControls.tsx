@@ -130,7 +130,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
 
   return (
     <div
-      className="fixed top-0 left-0 z-40"
+      className="fixed top-0 left-0 z-40 r-material-light"
       style={{
         width: 320,
         height: '100vh',
@@ -138,9 +138,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
         borderRadius: 0,
         display: 'flex',
         flexDirection: 'column',
-        backdropFilter: 'blur(100px)',
-        backgroundColor: 'rgba(255, 255, 255, 0.95)',
-        borderRight: '1px solid rgba(0, 0, 0, 0.12)',
+        borderRight: '1px solid rgba(0, 0, 0, 0.12)'
       }}
     >
       {/* Close button */}

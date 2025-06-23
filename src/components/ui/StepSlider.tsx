@@ -84,8 +84,7 @@ function StepSlider<T extends string | number>({
         
         {/* Track */}
         <div
-          className="absolute left-0 right-0 top-1/2 h-1 -translate-y-1/2 z-0"
-          style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}
+          className="absolute left-0 right-0 top-1/2 h-1 -translate-y-1/2 z-0 r-material-dark-thin"
           />
         
         {/* Thumb */}
@@ -134,13 +133,12 @@ function StepSlider<T extends string | number>({
             >
               {/* Step vertical line centered in the step area */}
               <div
-                className={`rounded transition-all duration-150`}
+                className={`rounded transition-all duration-150 r-material-dark`}
                 style={{
                   position: 'absolute', left: '50%', top: '50%',
                   width: 4,
                   height: 4,
-                  transform: `translate(-50%, -50%) ${isActive || isHovered ? 'scale(2)' : 'scale(1)'}`,
-                  backgroundColor: (isActive || isHovered) ? 'rgba(0, 0, 0, 0.5)' : 'rgba(0, 0, 0, 0.3)',
+                  transform: `translate(-50%, -50%) ${isActive || isHovered ? 'scale(2)' : 'scale(1)'}`
                 }}
               />
               {/* Label (only on hover or active) */}

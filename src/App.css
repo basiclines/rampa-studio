@@ -1,6 +1,19 @@
-.r-material {
+.r-material-light {
+  backdrop-filter: blur(100px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.r-material-light-gradient {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.65));
   backdrop-filter: blur(10px);
+}
+
+.r-material-dark {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.r-material-dark-thin {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .r-slider-thumb {
