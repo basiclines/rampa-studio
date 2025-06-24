@@ -9,7 +9,9 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "deploy": "netlify deploy",
-    "deploy:prod": "netlify deploy --prod"
+    "deploy:prod": "netlify deploy --prod",
+    "test": "bun test",
+    "test:watch": "bun test --watch"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
