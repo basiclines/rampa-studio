@@ -1,16 +1,17 @@
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
-import { useSaveColorRamp } from './SaveColorRamp';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useDuplicateColorRamp() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
-
-  return (ramp: ColorRampConfig) => {
-    const duplicatedRamp: ColorRampConfig = {
-      ...ramp,
-      id: Date.now().toString(),
-      name: `${ramp.name} Copy`,
-    };
-    
-    updateColorRamps(prev => [...prev, duplicatedRamp]);
+export function duplicateColorRamp(
+  colorRamps: ColorRampConfig[],
+  ramp: ColorRampConfig
+): ColorRampConfig[] {
+  const duplicatedRamp: ColorRampConfig = {
+    ...ramp,
+    id: Date.now().toString(),
+    name: `${ramp.name} Copy`,
   };
-} 
+  
+  return [...colorRamps, duplicatedRamp];
+}
+
+export const useDuplicateColorRamp = () => SaveColorRampState(duplicateColorRamp); 

@@ -18,11 +18,9 @@ import {
   getSquareColors,
   getCompoundColors,
 } from '@/engine/ColorEngine';
-import chroma from 'chroma-js';
 import { useEditColorRampName } from '@/usecases/EditColorRampName';
 import { useLockRampColor } from '@/usecases/LockRampColor';
 import { useLockAllRampColors } from '@/usecases/LockAllRampColors';
-import { useCopyAllColors } from '@/usecases/CopyAllColors';
 import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
 import { useCreateHarmonyRamps } from '@/usecases/CreateHarmonyRamps';
 
@@ -51,7 +49,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
   const editColorRampName = useEditColorRampName();
   const lockRampColor = useLockRampColor();
   const lockAllRampColors = useLockAllRampColors();
-  const copyAllColors = useCopyAllColors();
   const duplicateColorRamp = useDuplicateColorRamp();
   const createHarmonyRamps = useCreateHarmonyRamps();
   
@@ -66,10 +63,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
     }
     return generateColorRamp(config);
   }, [config, previewBlendMode]);
-
-  const handleCopyAllColors = () => {
-    const copiedColors = copyAllColors(config);
-  };
 
   const toggleLockColor = (index: number, color: string) => {
     lockRampColor(config.id, index, color);

@@ -1,15 +1,14 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useSetTintOpacity() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function setTintOpacity(
+  colorRamps: ColorRampConfig[],
+  id: string,
+  tintOpacity: number
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id ? { ...ramp, tintOpacity } : ramp
+  );
+}
 
-  return (id: string, tintOpacity: number) => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id
-          ? { ...ramp, tintOpacity }
-          : ramp
-      )
-    );
-  };
-} 
+export const useSetTintOpacity = () => SaveColorRampState(setTintOpacity); 

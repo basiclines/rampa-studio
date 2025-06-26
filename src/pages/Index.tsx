@@ -13,7 +13,7 @@ import {
 import { CopyButton } from '@/components/ui/CopyButton';
 
 import { useSelectColorRamp } from '@/usecases/SelectColorRamp';
-import { useSaveColorRamp } from '@/usecases/SaveColorRamp';
+import { useSaveColorRamp } from '@/state/SaveColorRampState';
 import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
 import { useRemoveColorRamp } from '@/usecases/RemoveColorRamp';
 import { useUpdateColorRamp } from '@/usecases/UpdateColorRamp';

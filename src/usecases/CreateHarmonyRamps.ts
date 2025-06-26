@@ -1,5 +1,5 @@
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
-import { useSaveColorRamp } from './SaveColorRamp';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 import {
   getAnalogousColors,
   getTriadColors,
@@ -13,62 +13,62 @@ import { DEFAULT_NEW_RAMP_VALUES } from '@/config/DefaultColorRampValues';
 
 export type HarmonyType = 'analogous' | 'triad' | 'complementary' | 'split-complementary' | 'square' | 'compound';
 
-export function useCreateHarmonyRamps() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function createHarmonyRamps(
+  colorRamps: ColorRampConfig[],
+  baseRamp: ColorRampConfig,
+  harmonyType: HarmonyType
+): ColorRampConfig[] {
+  let harmonyColors: string[] = [];
+  let namePrefix = '';
 
-  return (baseRamp: ColorRampConfig, harmonyType: HarmonyType) => {
-    let harmonyColors: string[] = [];
-    let namePrefix = '';
+  switch (harmonyType) {
+    case 'analogous':
+      harmonyColors = getAnalogousColors(baseRamp.baseColor, 2).slice(1);
+      namePrefix = 'Analogue';
+      break;
+    case 'triad':
+      harmonyColors = getTriadColors(baseRamp.baseColor).slice(1);
+      namePrefix = 'Triad';
+      break;
+    case 'complementary':
+      harmonyColors = getComplementaryColors(baseRamp.baseColor).slice(1);
+      namePrefix = 'Complementary';
+      break;
+    case 'split-complementary':
+      harmonyColors = getSplitComplementaryColors(baseRamp.baseColor).slice(1);
+      namePrefix = 'Split Comp.';
+      break;
+    case 'square':
+      harmonyColors = getSquareColors(baseRamp.baseColor).slice(1);
+      namePrefix = 'Square';
+      break;
+    case 'compound':
+      harmonyColors = getCompoundColors(baseRamp.baseColor).slice(1);
+      namePrefix = 'Compound';
+      break;
+  }
 
-    switch (harmonyType) {
-      case 'analogous':
-        harmonyColors = getAnalogousColors(baseRamp.baseColor, 2).slice(1);
-        namePrefix = 'Analogue';
-        break;
-      case 'triad':
-        harmonyColors = getTriadColors(baseRamp.baseColor).slice(1);
-        namePrefix = 'Triad';
-        break;
-      case 'complementary':
-        harmonyColors = getComplementaryColors(baseRamp.baseColor).slice(1);
-        namePrefix = 'Complementary';
-        break;
-      case 'split-complementary':
-        harmonyColors = getSplitComplementaryColors(baseRamp.baseColor).slice(1);
-        namePrefix = 'Split Comp.';
-        break;
-      case 'square':
-        harmonyColors = getSquareColors(baseRamp.baseColor).slice(1);
-        namePrefix = 'Square';
-        break;
-      case 'compound':
-        harmonyColors = getCompoundColors(baseRamp.baseColor).slice(1);
-        namePrefix = 'Compound';
-        break;
-    }
+  const baseIndex = colorRamps.findIndex(r => r.id === baseRamp.id);
+  const newRamps = harmonyColors.map((color, i) => {
+    const swatches: ColorSwatch[] = Array.from({ length: baseRamp.totalSteps }, (_, idx) => ({
+      color,
+      index: idx,
+      locked: false
+    }));
+    return {
+      ...baseRamp,
+      id: Date.now().toString() + '-' + harmonyType.charAt(0) + i,
+      name: `${namePrefix} ${i + 1}`,
+      baseColor: color,
+      swatches,
+    };
+  });
 
-    updateColorRamps(prev => {
-      const baseIndex = prev.findIndex(r => r.id === baseRamp.id);
-      const newRamps = harmonyColors.map((color, i) => {
-        const swatches: ColorSwatch[] = Array.from({ length: baseRamp.totalSteps }, (_, idx) => ({
-          color,
-          index: idx,
-          locked: false
-        }));
-        return {
-          ...baseRamp,
-          id: Date.now().toString() + '-' + harmonyType.charAt(0) + i,
-          name: `${namePrefix} ${i + 1}`,
-          baseColor: color,
-          swatches,
-        };
-      });
+  return [
+    ...colorRamps.slice(0, baseIndex + 1),
+    ...newRamps,
+    ...colorRamps.slice(baseIndex + 1),
+  ];
+}
 
-      return [
-        ...prev.slice(0, baseIndex + 1),
-        ...newRamps,
-        ...prev.slice(baseIndex + 1),
-      ];
-    });
-  };
-} 
+export const useCreateHarmonyRamps = () => SaveColorRampState(createHarmonyRamps); 

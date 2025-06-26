@@ -1,15 +1,15 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useSetChromaGradient() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function setChromaGradient(
+  colorRamps: ColorRampConfig[],
+  id: string,
+  chromaStart: number,
+  chromaEnd: number
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id ? { ...ramp, chromaStart, chromaEnd } : ramp
+  );
+}
 
-  return (id: string, chromaStart: number, chromaEnd: number) => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id
-          ? { ...ramp, chromaStart, chromaEnd }
-          : ramp
-      )
-    );
-  };
-} 
+export const useSetChromaGradient = () => SaveColorRampState(setChromaGradient); 

@@ -1,15 +1,14 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useSetColorFormat() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function setColorFormat(
+  colorRamps: ColorRampConfig[],
+  id: string,
+  colorFormat: 'hex' | 'hsl'
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id ? { ...ramp, colorFormat } : ramp
+  );
+}
 
-  return (id: string, colorFormat: 'hex' | 'hsl') => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id
-          ? { ...ramp, colorFormat }
-          : ramp
-      )
-    );
-  };
-} 
+export const useSetColorFormat = () => SaveColorRampState(setColorFormat); 

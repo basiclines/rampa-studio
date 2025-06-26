@@ -1,15 +1,14 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useSetLightnessRange() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function setLightnessRange(
+  colorRamps: ColorRampConfig[],
+  id: string,
+  lightnessRange: number
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id ? { ...ramp, lightnessRange } : ramp
+  );
+}
 
-  return (id: string, lightnessRange: number) => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id
-          ? { ...ramp, lightnessRange }
-          : ramp
-      )
-    );
-  };
-} 
+export const useSetLightnessRange = () => SaveColorRampState(setLightnessRange); 

@@ -1,15 +1,14 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useSetTotalSteps() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function setTotalSteps(
+  colorRamps: ColorRampConfig[], 
+  id: string, 
+  totalSteps: number
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id ? { ...ramp, totalSteps } : ramp
+  );
+}
 
-  return (id: string, totalSteps: number) => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id
-          ? { ...ramp, totalSteps }
-          : ramp
-      )
-    );
-  };
-} 
+export const useSetTotalSteps = () => SaveColorRampState(setTotalSteps); 

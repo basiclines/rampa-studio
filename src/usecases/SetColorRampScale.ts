@@ -1,20 +1,21 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useSetColorRampScale() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function setColorRampScale(
+  colorRamps: ColorRampConfig[],
+  id: string,
+  scaleType: string
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id
+      ? { 
+          ...ramp, 
+          lightnessScaleType: scaleType,
+          hueScaleType: scaleType,
+          saturationScaleType: scaleType
+        }
+      : ramp
+  );
+}
 
-  return (id: string, scaleType: string) => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id
-          ? { 
-              ...ramp, 
-              lightnessScaleType: scaleType,
-              hueScaleType: scaleType,
-              saturationScaleType: scaleType
-            }
-          : ramp
-      )
-    );
-  };
-} 
+export const useSetColorRampScale = () => SaveColorRampState(setColorRampScale); 

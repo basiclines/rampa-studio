@@ -1,5 +1,5 @@
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
-import { useSaveColorRamp } from './SaveColorRamp';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
 export function setRampBaseColor(
   colorRamps: ColorRampConfig[], 
@@ -11,10 +11,4 @@ export function setRampBaseColor(
   );
 }
 
-export function useSetRampBaseColor() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
-
-  return (id: string, baseColor: string) => {
-    updateColorRamps(prev => setRampBaseColor(prev, id, baseColor));
-  };
-} 
+export const useSetRampBaseColor = () => SaveColorRampState(setRampBaseColor); 

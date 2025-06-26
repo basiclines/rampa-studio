@@ -1,6 +1,5 @@
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
-import { useSaveColorRamp } from './SaveColorRamp';
-
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
 export function lockRampColor(
   colorRamps: ColorRampConfig[], 
@@ -19,10 +18,4 @@ export function lockRampColor(
   });
 }
 
-export function useLockRampColor() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
-
-  return (id: string, colorIndex: number, color: string) => {
-    updateColorRamps(prev => lockRampColor(prev, id, colorIndex, color));
-  };
-} 
+export const useLockRampColor = () => SaveColorRampState(lockRampColor); 

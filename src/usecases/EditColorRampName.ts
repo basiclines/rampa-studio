@@ -1,13 +1,14 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useEditColorRampName() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function editColorRampName(
+  colorRamps: ColorRampConfig[],
+  id: string,
+  name: string
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id ? { ...ramp, name } : ramp
+  );
+}
 
-  return (id: string, name: string) => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id ? { ...ramp, name } : ramp
-      )
-    );
-  };
-} 
+export const useEditColorRampName = () => SaveColorRampState(editColorRampName); 

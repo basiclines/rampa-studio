@@ -1,15 +1,14 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useSetSaturationRange() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function setSaturationRange(
+  colorRamps: ColorRampConfig[],
+  id: string,
+  saturationRange: number
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id ? { ...ramp, saturationRange } : ramp
+  );
+}
 
-  return (id: string, saturationRange: number) => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id
-          ? { ...ramp, saturationRange }
-          : ramp
-      )
-    );
-  };
-} 
+export const useSetSaturationRange = () => SaveColorRampState(setSaturationRange); 

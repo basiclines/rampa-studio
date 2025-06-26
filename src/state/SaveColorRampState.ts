@@ -12,7 +12,7 @@ interface Actions {
   updateColorRamps: (updater: (ramps: ColorRampConfig[]) => ColorRampConfig[]) => void;
 }
 
-export const useSaveColorRamp = create<State & Actions>((set) => ({
+const useSaveApplicationState = create<State & Actions>((set) => ({
   colorRamps: [
     {
       id: '1',
@@ -34,4 +34,22 @@ export const useSaveColorRamp = create<State & Actions>((set) => ({
   ],
   setColorRamps: (ramps) => set({ colorRamps: ramps }),
   updateColorRamps: (updater) => set((state) => ({ colorRamps: updater(state.colorRamps) })),
-})); 
+}));
+
+/**
+ * Generic hook factory for color ramp actions.
+ * Takes a pure function and returns a hook that applies it to the color ramps state.
+ * This is the single entry point for all color ramp state modifications.
+ */
+export function SaveColorRampState<T extends any[]>(
+  action: (colorRamps: ColorRampConfig[], ...args: T) => ColorRampConfig[]
+) {
+  const updateColorRamps = useSaveApplicationState(state => state.updateColorRamps);
+  
+  return (...args: T) => {
+    updateColorRamps(prev => action(prev, ...args));
+  };
+}
+
+// Export the store hook for read-only access (for components that need to read state)
+export const useSaveColorRamp = useSaveApplicationState; 

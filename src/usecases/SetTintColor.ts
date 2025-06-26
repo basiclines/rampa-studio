@@ -1,15 +1,14 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 
-export function useSetTintColor() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+export function setTintColor(
+  colorRamps: ColorRampConfig[],
+  id: string,
+  tintColor: string
+): ColorRampConfig[] {
+  return colorRamps.map(ramp =>
+    ramp.id === id ? { ...ramp, tintColor } : ramp
+  );
+}
 
-  return (id: string, tintColor: string) => {
-    updateColorRamps(prev =>
-      prev.map(ramp =>
-        ramp.id === id
-          ? { ...ramp, tintColor }
-          : ramp
-      )
-    );
-  };
-} 
+export const useSetTintColor = () => SaveColorRampState(setTintColor); 

@@ -1,12 +1,20 @@
-import { useSaveColorRamp } from './SaveColorRamp';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { SaveColorRampState } from '@/state/SaveColorRampState';
 import { useSelectColorRamp } from './SelectColorRamp';
 
+export function removeColorRamp(
+  colorRamps: ColorRampConfig[],
+  id: string
+): ColorRampConfig[] {
+  return colorRamps.filter(ramp => ramp.id !== id);
+}
+
 export function useRemoveColorRamp() {
-  const updateColorRamps = useSaveColorRamp(state => state.updateColorRamps);
+  const removeRamp = SaveColorRampState(removeColorRamp);
   const { selectedRampId, selectColorRamp } = useSelectColorRamp();
 
   return (id: string) => {
-    updateColorRamps(prev => prev.filter(ramp => ramp.id !== id));
+    removeRamp(id);
     
     if (selectedRampId === id) {
       selectColorRamp(null);
