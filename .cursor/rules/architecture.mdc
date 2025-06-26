@@ -8,7 +8,7 @@ This application follows a clean, domain-driven architecture with clear separati
 - **UI Components**: Presentational only, minimal logic
 - **Usecases**: Business logic and state management
 - **Entities**: Data models and types
-- **Utilities**: Pure functions for color manipulation
+- **Engine**: Pure functions for color/harmony manipulation
 
 ## When Adding New Features
 
@@ -30,14 +30,14 @@ This application follows a clean, domain-driven architecture with clear separati
 - ✅ Business logic in usecases
 - ✅ Use usecase hooks in components
 - ✅ Shared state in Zustand stores
-- ✅ Color functions in `colorUtils`
+- ✅ Color functions in `@/engine`
 - ✅ Import from `@/entities/`
 - ✅ Hooks that return functions for actions
 
 ## When reviewing code, ensure:
 - [ ] Components are lightweight and presentational
 - [ ] Business logic is in usecases, not components
-- [ ] Color manipulation uses `colorUtils` functions
+- [ ] Color manipulation uses `@/engine` functions
 - [ ] Imports use correct paths (`@/entities/`, `@/usecases/`)
 - [ ] State management uses Zustand stores
 - [ ] No deprecated patterns (pure functions for state, prop drilling)

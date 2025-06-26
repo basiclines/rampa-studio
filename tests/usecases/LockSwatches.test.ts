@@ -50,4 +50,35 @@ describe('Lock colors suite', () => {
     expect(newColors[indexToLock]).toBe(colorToLock);
   });
 
+  it('Lock all swatchs and verify it persists after config change', () => {
+    const config: ColorRampConfig = {
+      id: "1",
+      name: "Primary",
+      baseColor: "#3b82f6",
+      totalSteps: 10,
+      lightnessRange: 100,
+      lightnessAdvanced: false,
+      chromaRange: 0,
+      chromaAdvanced: false,
+      saturationRange: 100,
+      saturationAdvanced: false,
+      colorFormat: 'hex',
+      swatches: []  
+    };
+
+    const initialColors = generateColorRamp(config);
+    let lastConfig = config;
+    
+    initialColors.forEach((color, index) => {
+      const updatedRamps = lockRampColor([config], "1", index, color);
+      const configWithLock = updatedRamps[0];
+      lastConfig = configWithLock;
+    });
+
+    lastConfig.swatches.forEach((swatch) => {
+      expect(swatch.color).toBe(initialColors[swatch.index]);
+      expect(swatch.locked).toBe(true);
+    });
+  });
+
 }); 

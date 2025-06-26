@@ -1,20 +1,55 @@
 ---
-description: UI Components best practices
+description: How to create dumb ui components and more complex application related logic components
 globs: 
 alwaysApply: false
 ---
-### 1. Component Responsibilities
-- Components should be **presentational only**
-- Business logic belongs in **usecases**, not components
-- Use usecases hooks to interact with state
-- Keep local state minimal (only trivial UI state like hover, focus)
+# Component Architecture Guide
 
-### 2. Component Props
-- Prefer passing IDs over full objects when possible
-- Avoid prop drilling - use usecases for shared state
-- Don't pass `setColorRamps` or similar setters as props
+This application follows a two-tier component architecture that separates generic UI patterns from application-specific behavior.
 
-### 3. Color Logic Location
-- **All color manipulation** goes in `@/lib/colorUtils`
-- Never implement color logic in components or usecases
-- Keep color functions **pure** (no side effects)
+## @/components/ui/ - Generic UI Components
+
+**Purpose**: Dumb, reusable UI components for generic patterns
+**State**: May contain local state for simple interactions (open/close, hover, focus)
+**Dependencies**: Zero application dependencies
+
+### Characteristics:
+- ✅ Stateless or simple local state only
+- ✅ Reusable across different applications
+- ✅ Props-driven behavior
+- ✅ No business logic
+- ✅ No usecase dependencies
+
+## @/components/ - Application Components
+
+**Purpose**: Application-specific components that implement business features
+**State**: Use usecases for all application state
+**Dependencies**: Import and use usecases, never modify state directly
+
+### Characteristics:
+- ✅ Use usecase hooks for all business logic
+- ✅ Never directly modify application state
+- ✅ Explicit about behavior through usecase usage
+- ✅ Avoid prop drilling of state setters
+- ✅ Composed of @/components/ui/ components
+
+## Key Principles
+
+### 1. Clear Separation
+- **UI components**: Generic, reusable, no application knowledge
+- **Application components**: Feature-specific, usecase-driven
+
+### 2. State Management
+- **UI components**: Local state for UI interactions only
+- **Application components**: All business state through usecases
+
+### 3. Composition
+- **Application components** are built using **UI components**
+- **UI components** never import from application layer
+
+### 4. Explicit Behavior
+- No prop drilling of complex state or setters
+- Each component clearly shows what business operations it performs
+- Usecases make component behavior explicit and testable
+
+This architecture ensures components are testable, maintainable, and follow clear responsibility boundaries. 
