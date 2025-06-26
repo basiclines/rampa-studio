@@ -2,7 +2,7 @@ import { describe, it, expect } from 'bun:test';
 import { generateColorRamp } from '@/engine/ColorEngine';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 
-describe('generateColorRamp', () => {
+describe('Color ramp generation suite', () => {
   
   it('Generate the default color ramp', () => {
     const config: ColorRampConfig = {
@@ -164,5 +164,4 @@ describe('generateColorRamp', () => {
       expect(generatedColors[index]).toBe(expectedColor);
     });
   });
-
 }); 

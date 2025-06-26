@@ -1,26 +1,17 @@
 ---
-description: best practices for Usecases and business logic
+description: Creating, editing, refactoring usecases
 globs: 
 alwaysApply: false
 ---
-### 1. Usecase Responsibilities
-- **All business logic** goes in usecases
-- Usecases should be **hooks** that return functions
-- Use Zustand stores for state management within usecases
-- Call `@/lib/colorUtils` for color manipulation, never implement color logic in usecases
+# Usecase Development Guide
 
-### 2. Usecase Naming
-- Use descriptive action names: `useEditColorRampName`, `useLockRampColor`
-- Don't add "Usecase" suffix - it's implicit from the directory
-- Use verbs that describe the action: `Add`, `Remove`, `Update`, `Edit`, `Lock`, etc.
+## Architecture
+Usecases follow a clean architecture pattern that separates pure business logic from state management. Each usecase consists of:
+- **Pure Function**: Zero-dependency business logic that's easily testable
+- **React Hook**: Zustand integration for UI components
 
-### 4. State Management in Usecases
-- Use **Zustand** for all shared state
-- Create specific stores for different concerns
-- Use `updateColorRamps` helper for array mutations
-- Keep preview state separate from main data state
-
-### 5. Color Logic Location
-- **All color manipulation** goes in `@/lib/colorUtils`
-- Never implement color logic in components or usecases
-- Keep color functions **pure** (no side effects)
+## Goals
+- **Testability**: Pure functions work with any test runner (Bun, Jest, Vitest)
+- **Reusability**: Business logic can be used in different contexts
+- **Maintainability**: Clear separation between business logic and framework code
+- **Predictability**: Same input always produces same output
