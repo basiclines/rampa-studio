@@ -20,17 +20,33 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
   height = 150 
 }) => {
   const [oklch, setOklch] = useState<OklchColor>(() => convertToOklch(color));
+  const [isInternalChange, setIsInternalChange] = useState(false);
 
-  // Update internal state when external color changes
+  // Update internal state when external color changes (but not from our own changes)
   useEffect(() => {
-    const newOklch = convertToOklch(color);
-    setOklch(newOklch);
-  }, [color]);
+    if (!isInternalChange) {
+      const newOklch = convertToOklch(color);
+      
+      // Only update if the values are significantly different (prevent rounding oscillations)
+      const threshold = 0.001;
+      const lDiff = Math.abs(newOklch.l - oklch.l);
+      const cDiff = Math.abs(newOklch.c - oklch.c);
+      const hDiff = Math.abs(newOklch.h - oklch.h);
+      
+      if (lDiff > threshold || cDiff > threshold || hDiff > threshold) {
+        setOklch(newOklch);
+      }
+    }
+    setIsInternalChange(false);
+  }, [color, isInternalChange, oklch]);
 
   const handleOklchChange = (newOklch: OklchColor, complete = false) => {
     // Constrain values to valid ranges with smooth gamut clamping
     const constrainedOklch = constrainOklchValues(newOklch);
     setOklch(constrainedOklch);
+    
+    // Mark as internal change to prevent useEffect from overriding
+    setIsInternalChange(true);
     
     // Convert back to hex for compatibility with existing system
     const hexColor = convertFromOklch(constrainedOklch);
@@ -51,10 +67,20 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
 
   const handleHueChange = (h: number, complete = false) => {
     // For hue changes, preserve L,C exactly and only change H
-    // Don't apply constrainOklchValues since we want to preserve user's L,C intent
-    const newOklch = { ...oklch, h };
+    // Keep the original L,C values to prevent oscillations from conversion roundtrips
+    const newOklch = { 
+      ...oklch, 
+      h,
+      // Explicitly preserve original L,C to avoid conversion artifacts
+      l: oklch.l,
+      c: oklch.c
+    };
     setOklch(newOklch);
     
+    // Mark as internal change to prevent useEffect from overriding our precise L,C values
+    setIsInternalChange(true);
+    
+    // Convert to hex for external interface, but don't let it affect our internal OKLCH state
     const hexColor = convertFromOklch(newOklch);
     onChange(hexColor);
     
@@ -68,7 +94,16 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
   };
 
   const handleInputChange = (newOklch: OklchColor) => {
-    handleOklchChange(newOklch, true);
+    // Input changes should also preserve precise values
+    setOklch(newOklch);
+    setIsInternalChange(true);
+    
+    const hexColor = convertFromOklch(newOklch);
+    onChange(hexColor);
+    
+    if (onChangeComplete) {
+      onChangeComplete(hexColor);
+    }
   };
 
   return (
