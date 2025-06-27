@@ -20,3 +20,7 @@
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4);
   border-radius: 2px;
 }
+
+.sketch-picker > div:nth-child(3) {
+  display: none !important;
+}

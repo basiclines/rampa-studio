@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import chroma from 'chroma-js';
+import { SketchPicker, ColorResult } from 'react-color';
 
 interface BaseColorSwatchProps {
   color: string;
@@ -10,13 +11,61 @@ interface BaseColorSwatchProps {
 }
 
 const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, onChange, id, empty = false }) => {
+  const [showPicker, setShowPicker] = useState(false);
+  const pickerRef = useRef<HTMLDivElement>(null);
+
   const handleClick = () => {
     if (empty) {
       onChange(color);
     } else {
-      document.getElementById(id || 'base-color-picker')?.click();
+      setShowPicker(!showPicker);
     }
   };
+
+  const handleColorChange = (colorResult: ColorResult) => {
+    onChange(colorResult.hex);
+  };
+
+  const handleClose = () => {
+    setShowPicker(false);
+  };
+
+  // Handle escape key press
+  useEffect(() => {
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && showPicker) {
+        setShowPicker(false);
+      }
+    };
+
+    if (showPicker) {
+      document.addEventListener('keydown', handleEscape);
+      // Prevent body scroll when picker is open
+      document.body.style.overflow = 'hidden';
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+      document.body.style.overflow = 'unset';
+    };
+  }, [showPicker]);
+
+  // Handle click outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (pickerRef.current && !pickerRef.current.contains(event.target as Node)) {
+        setShowPicker(false);
+      }
+    };
+
+    if (showPicker) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showPicker]);
 
   const formatColor = (color: string, format: 'hex' | 'hsl') => {
     if (format === 'hsl') {
@@ -27,43 +76,70 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
   };
 
   return (
-    <div
-      className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer`}
-      onClick={handleClick}
-      style={{
-        background: empty ? 'transparent' : color,
-        position: 'absolute',
-        left: empty ? '70%' : '30%',
-        top: '5%',
-        transform: 'translate(-50%, 0%)',
-        width: 128,
-        height: 128 }}
-    >
-      {!empty && (
-        <span
-          className="absolute text-xs text-black text-opacity-80"
+    <>
+      <div
+        className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer`}
+        onClick={handleClick}
+        style={{
+          background: empty ? 'transparent' : color,
+          position: 'absolute',
+          left: empty ? '70%' : '30%',
+          top: '5%',
+          transform: 'translate(-50%, 0%)',
+          width: 128,
+          height: 128 }}
+      >
+        {!empty && (
+          <span
+            className="absolute text-xs text-black text-opacity-80"
+            style={{
+              marginTop: 16,
+              top: '100%',
+              left: 0,
+              right: 0,
+              textAlign: 'center',
+              textTransform: 'uppercase'
+            }}
+            >
+            {formatColor(color, colorFormat)}
+          </span>
+        )}
+      </div>
+      
+      {showPicker && !empty && (
+        <div
+          ref={pickerRef}
           style={{
-            marginTop: 16,
-            top: '100%',
+            position: 'fixed',
+            top: 0,
             left: 0,
             right: 0,
-            textAlign: 'center',
-            textTransform: 'uppercase'
+            bottom: 0,
+            zIndex: 9999,
+            backgroundColor: 'transparent',
           }}
+          onClick={handleClose}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              left: '50%',
+              top: '50%',
+              transform: 'translate(-50%, -50%)',
+            }}
+            onClick={(e) => e.stopPropagation()}
           >
-          {formatColor(color, colorFormat)}
-        </span>
+            <SketchPicker
+              color={color}
+              onChange={handleColorChange}
+              onChangeComplete={handleColorChange}
+              disableAlpha={true}
+              className="sketch-picker"
+            />
+          </div>
+        </div>
       )}
-      <input
-        id={id || 'base-color-picker'}
-        type="color"
-        value={color}
-        onChange={e => onChange(e.target.value)}
-        className="absolute w-0 h-0 opacity-0 pointer-events-none"
-        tabIndex={-1}
-        disabled={empty}
-      />
-    </div>
+    </>
   );
 };
 
