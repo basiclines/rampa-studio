@@ -3,9 +3,16 @@ import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { BlendMode } from '@/entities/BlendModeEntity';
 import { calculatePositions } from './HarmonyEngine';
 import { applyBlendMode } from './BlendingEngine';
+import { 
+  convertToOklch, 
+  convertFromOklch, 
+  formatOklchString, 
+  constrainOklchValues,
+  type OklchColor 
+} from './OklchEngine';
 
 // Color formatting helper with validation
-const formatColor = (color: chroma.Color, colorFormat: 'hex' | 'hsl'): string => {
+const formatColor = (color: chroma.Color, colorFormat: 'hex' | 'hsl' | 'oklch'): string => {
   try {
     if (colorFormat === 'hsl') {
       const [h, s, l] = color.hsl();
@@ -16,12 +23,17 @@ const formatColor = (color: chroma.Color, colorFormat: 'hex' | 'hsl'): string =>
       const validL = clampValue(l, 0, 1);
       
       return `hsl(${Math.round(validH)}, ${Math.round(validS * 100)}%, ${Math.round(validL * 100)}%)`;
+    } else if (colorFormat === 'oklch') {
+      // Convert to OKLCH and format natively
+      const hexColor = color.hex();
+      const oklchColor = convertToOklch(hexColor);
+      return formatOklchString(oklchColor);
     }
     return color.hex();
   } catch (error) {
     console.error('Error formatting color:', error);
     // Fallback to a safe color
-    return '#000000';
+    return colorFormat === 'oklch' ? 'oklch(0.5 0 0)' : '#000000';
   }
 };
 
@@ -122,6 +134,95 @@ const calculateSaturation = (
   }
 };
 
+// OKLCH-native color generation helper
+const generateSingleColorOklch = (
+  config: ColorRampConfig,
+  i: number,
+  baseOklch: OklchColor,
+  middleIndex: number
+): string => {
+  try {
+    const positions = calculatePositions(i, config);
+
+    // Calculate new OKLCH values based on position
+    let newL: number;
+    let newC: number; 
+    let newH: number;
+
+    // Lightness calculation
+    if (config.lightnessAdvanced && config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
+      const startL = config.lightnessStart / 100;
+      const endL = config.lightnessEnd / 100;
+      newL = startL + (endL - startL) * positions.lightness;
+    } else {
+      const lightnessStep = (config.lightnessRange / 100) / (config.totalSteps - 1);
+      const positionFromMiddle = i - middleIndex;
+      const lightnessAdjustment = positionFromMiddle * lightnessStep;
+      newL = baseOklch.l + lightnessAdjustment;
+    }
+
+    // Chroma calculation (using chromaRange for chroma in OKLCH)
+    if (config.saturationAdvanced && config.saturationStart !== undefined && config.saturationEnd !== undefined) {
+      const startC = (config.saturationStart / 100) * baseOklch.c;
+      const endC = (config.saturationEnd / 100) * baseOklch.c;
+      const invertedPosition = 1 - positions.saturation;
+      newC = startC + (endC - startC) * invertedPosition;
+    } else {
+      const chromaStep = (config.saturationRange / 100) / (config.totalSteps - 1);
+      const positionFromMiddle = i - middleIndex;
+      const chromaAdjustment = Math.abs(positionFromMiddle) * chromaStep * baseOklch.c;
+      newC = baseOklch.c - chromaAdjustment;
+    }
+
+    // Hue calculation
+    if (config.chromaAdvanced && config.chromaStart !== undefined && config.chromaEnd !== undefined) {
+      const hueRange = config.chromaEnd - config.chromaStart;
+      newH = (baseOklch.h + config.chromaStart + hueRange * positions.hue) % 360;
+    } else {
+      const hueStep = config.chromaRange / (config.totalSteps - 1);
+      const positionFromMiddle = i - middleIndex;
+      const hueAdjustment = positionFromMiddle * hueStep;
+      newH = (baseOklch.h + hueAdjustment) % 360;
+    }
+
+    // Ensure hue is positive
+    while (newH < 0) newH += 360;
+
+    // Create the new OKLCH color and constrain to valid ranges
+    let newOklch: OklchColor = {
+      l: clampValue(newL, 0, 1),
+      c: Math.max(0, newC),
+      h: newH,
+      alpha: baseOklch.alpha
+    };
+
+    newOklch = constrainOklchValues(newOklch);
+
+    // Apply tint if configured (convert to chroma for blending, then back)
+    if (config.tintColor && config.tintOpacity && config.tintOpacity > 0) {
+      try {
+        const hexColor = convertFromOklch(newOklch);
+        const chromaColor = chroma(hexColor);
+        const tintColorChroma = chroma(config.tintColor);
+        const opacity = config.tintOpacity / 100;
+        const blendMode = config.tintBlendMode || 'normal';
+        
+        const blendedColor = applyBlendMode(chromaColor, tintColorChroma, opacity, blendMode);
+        const blendedHex = blendedColor.hex();
+        newOklch = convertToOklch(blendedHex);
+      } catch (error) {
+        console.error('Error applying tint in OKLCH:', error);
+        // Continue without tint if there's an error
+      }
+    }
+
+    return formatOklchString(newOklch);
+  } catch (error) {
+    console.error('Error generating single OKLCH color:', error);
+    return 'oklch(0.5 0 0)'; // Safe fallback
+  }
+};
+
 // Color generation helper with validation
 const generateSingleColor = (
   config: ColorRampConfig,
@@ -177,29 +278,54 @@ const generateFallbackColors = (config: ColorRampConfig): string[] => {
   const fallbackColors: string[] = [];
   for (let i = 0; i < config.totalSteps; i++) {
     const lightness = (i / (config.totalSteps - 1)) * 0.8 + 0.1;
-    const fallbackColor = chroma.hsl(0, 0, lightness);
-    const formattedColor = formatColor(fallbackColor, config.colorFormat);
-    fallbackColors.push(formattedColor);
+    
+    if (config.colorFormat === 'oklch') {
+      // Generate fallback in OKLCH space
+      const oklchColor: OklchColor = { l: lightness, c: 0, h: 0 };
+      fallbackColors.push(formatOklchString(oklchColor));
+    } else {
+      // Traditional fallback
+      const fallbackColor = chroma.hsl(0, 0, lightness);
+      const formattedColor = formatColor(fallbackColor, config.colorFormat as 'hex' | 'hsl');
+      fallbackColors.push(formattedColor);
+    }
   }
   return fallbackColors;
 };
 
 export const generateColorRamp = (config: ColorRampConfig): string[] => {
   try {
-    const baseColor = chroma(config.baseColor);
     const colors: string[] = [];
     const middleIndex = Math.floor(config.totalSteps / 2);
     
-    // Generate colors from darkest to lightest
-    for (let i = 0; i < config.totalSteps; i++) {
-      // Check if this color index is locked (swatch)
-      if (config.swatches && config.swatches[i]?.locked) {
-        colors.push(config.swatches[i].color);
-        continue;
-      }
+    if (config.colorFormat === 'oklch') {
+      // Native OKLCH generation
+      const baseOklch = convertToOklch(config.baseColor);
       
-      const color = generateSingleColor(config, i, baseColor, middleIndex);
-      colors.push(color);
+      for (let i = 0; i < config.totalSteps; i++) {
+        // Check if this color index is locked (swatch)
+        if (config.swatches && config.swatches[i]?.locked) {
+          colors.push(config.swatches[i].color);
+          continue;
+        }
+        
+        const color = generateSingleColorOklch(config, i, baseOklch, middleIndex);
+        colors.push(color);
+      }
+    } else {
+      // Traditional HSL-based generation for hex/hsl formats
+      const baseColor = chroma(config.baseColor);
+      
+      for (let i = 0; i < config.totalSteps; i++) {
+        // Check if this color index is locked (swatch)
+        if (config.swatches && config.swatches[i]?.locked) {
+          colors.push(config.swatches[i].color);
+          continue;
+        }
+        
+        const color = generateSingleColor(config, i, baseColor, middleIndex);
+        colors.push(color);
+      }
     }
     
     return colors;

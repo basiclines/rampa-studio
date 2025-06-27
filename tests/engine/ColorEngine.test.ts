@@ -164,4 +164,34 @@ describe('Color ramp generation suite', () => {
       expect(generatedColors[index]).toBe(expectedColor);
     });
   });
+
+  it('Generate color ramp in native OKLCH format', () => {
+    const config: ColorRampConfig = {
+      id: "1",
+      name: "Primary",
+      baseColor: "#3b82f6",
+      totalSteps: 5,
+      lightnessRange: 80,
+      lightnessAdvanced: false,
+      chromaRange: 0,
+      chromaAdvanced: false,
+      saturationRange: 60,
+      saturationAdvanced: false,
+      colorFormat: 'oklch',
+      swatches: []
+    };
+
+    const generatedColors = generateColorRamp(config);
+    expect(generatedColors).toHaveLength(5);
+
+    // Check that all colors are in OKLCH format
+    generatedColors.forEach((color, index) => {
+      expect(color).toMatch(/^oklch\(/);
+      expect(color).toMatch(/oklch\([0-9.]+\s+[0-9.]+\s+[0-9.]+\)$/);
+    });
+
+    // Check that base color (middle) has reasonable OKLCH values
+    const baseColorOklch = generatedColors[2]; // Middle color
+    expect(baseColorOklch).toMatch(/oklch\(0\.[0-9]+\s+0\.[0-9]+\s+[0-9.]+\)/);
+  });
 }); 
