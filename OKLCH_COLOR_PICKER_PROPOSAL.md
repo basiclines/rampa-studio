@@ -28,158 +28,151 @@ Based on analysis of the [OKLCH picker repository](https://github.com/evilmartia
 4. **No Hue Shift**: Unlike LCH, OKLCH avoids hue shifts when adjusting chroma
 5. **Future-Proof**: Native CSS support and growing browser adoption
 
-## Proposed Architecture
+## MVP Architecture - OKLCH Integration
 
-### 1. OKLCH Engine Layer (`@/engine/OklchEngine.ts`)
+### 1. Extend Existing Types
+
+#### Update ColorFormat in ColorRampControls.tsx
+```typescript
+type ColorFormat = 'hex' | 'hsl' | 'oklch'; // Add 'oklch'
+
+// Update ColorFormatControl component
+const ColorFormatControl = ({ value, onChange }: { value: ColorFormat, onChange: (v: ColorFormat) => void }) => (
+  <div className="inline-flex w-full rounded-md border border-gray-200 bg-white overflow-hidden text-xs">
+    <button className={`flex-1 px-2 py-1 ${value === 'hex' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('hex')}>HEX</button>
+    <button className={`flex-1 px-2 py-1 ${value === 'hsl' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('hsl')}>HSL</button>
+    <button className={`flex-1 px-2 py-1 ${value === 'oklch' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('oklch')}>OKLCH</button>
+  </div>
+);
+```
+
+#### Update ColorRampEntity
+```typescript
+export interface ColorRampConfig {
+  // ... existing fields
+  colorFormat?: 'hex' | 'hsl' | 'oklch'; // Add 'oklch' option
+}
+```
+
+### 2. OKLCH Engine (MVP) (`@/engine/OklchEngine.ts`)
 
 ```typescript
 interface OklchColor {
   l: number;    // 0-1 (lightness)
-  c: number;    // 0-0.4+ (chroma)
+  c: number;    // 0-0.4+ (chroma)  
   h: number;    // 0-360 (hue)
   alpha?: number; // 0-1 (opacity)
 }
 
-interface OklchGamutInfo {
-  space: 'srgb' | 'p3' | 'rec2020' | 'out-of-gamut';
-  inGamut: boolean;
-  clampedColor?: OklchColor;
-}
-
-// Core functions
-- convertToOklch(color: string): OklchColor
-- convertFromOklch(oklch: OklchColor): string
-- getGamutInfo(oklch: OklchColor): OklchGamutInfo
-- clampToGamut(oklch: OklchColor, targetGamut: 'srgb' | 'p3' | 'rec2020'): OklchColor
-- getMaxChromaForLH(l: number, h: number): number
+// MVP Core functions
+export function convertToOklch(color: string): OklchColor;
+export function convertFromOklch(oklch: OklchColor): string;
+export function formatOklchString(oklch: OklchColor): string; // "oklch(0.7 0.15 180)"
+export function isValidOklch(oklch: OklchColor): boolean;
+export function clampOklchToSrgb(oklch: OklchColor): OklchColor; // Basic sRGB clamping
 ```
 
-### 2. OKLCH Entity (`@/entities/OklchColorEntity.ts`)
+### 3. Enhanced Existing Components
 
+#### Modify BaseColorSwatch.tsx
 ```typescript
-export interface OklchColorEntity {
-  l: number;
-  c: number; 
-  h: number;
-  alpha: number;
-  colorSpace: 'srgb' | 'p3' | 'rec2020';
-}
-
-export interface OklchColorPickerState {
-  currentColor: OklchColorEntity;
-  pickerMode: 'lc' | 'lh' | 'ch'; // Which 2D plane to show
-  showGamutWarnings: boolean;
-  targetColorSpace: 'srgb' | 'p3' | 'rec2020';
+// Add OKLCH picker mode
+const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, onChange, id, empty = false }) => {
+  // ... existing logic
+  
+  // New: Choose picker based on colorFormat  
+  const renderPicker = () => {
+    if (colorFormat === 'oklch') {
+      return <OklchPicker color={color} onChange={onChange} />;
+    }
+    // Default to existing SketchPicker for hex/hsl
+    return <SketchPicker color={color} onChange={handleColorChange} />;
+  };
+  
+  const formatColor = (color: string, format: 'hex' | 'hsl' | 'oklch') => {
+    if (format === 'oklch') {
+      const oklch = convertToOklch(color);
+      return formatOklchString(oklch);
+    }
+    // ... existing hex/hsl logic
+  };
 }
 ```
 
-### 3. OKLCH Components
+### 4. New OKLCH Picker Component (`@/components/OklchPicker.tsx`)
 
-#### Core Picker Component (`@/components/OklchColorPicker.tsx`)
 ```typescript
-interface OklchColorPickerProps {
-  color: OklchColorEntity;
-  onChange: (color: OklchColorEntity) => void;
-  onChangeComplete?: (color: OklchColorEntity) => void;
-  mode?: 'lc' | 'lh' | 'ch';
-  showGamutWarnings?: boolean;
-  targetColorSpace?: 'srgb' | 'p3' | 'rec2020';
+interface OklchPickerProps {
+  color: string;           // Current color (any format)
+  onChange: (color: string) => void; // Returns hex for compatibility
   width?: number;
   height?: number;
 }
+
+// MVP: Simple LC field + H slider + numeric inputs
+const OklchPicker: React.FC<OklchPickerProps> = ({ color, onChange }) => {
+  const [oklch, setOklch] = useState(() => convertToOklch(color));
+  
+  const handleOklchChange = (newOklch: OklchColor) => {
+    setOklch(newOklch);
+    const hexColor = convertFromOklch(newOklch);
+    onChange(hexColor);
+  };
+  
+  return (
+    <div className="oklch-picker">
+      <OklchField oklch={oklch} onChange={handleOklchChange} />
+      <OklchHueSlider hue={oklch.h} onChange={(h) => handleOklchChange({...oklch, h})} />
+      <OklchInputs oklch={oklch} onChange={handleOklchChange} />
+    </div>
+  );
+};
 ```
 
-#### Sub-components:
-- **OklchField.tsx**: 2D color field (LC, LH, or CH plane)
-- **OklchSlider.tsx**: 1D slider for third dimension
-- **OklchInputs.tsx**: Numeric input fields with validation
-- **GamutIndicator.tsx**: Visual feedback for color space limits
-- **ColorSpaceSelector.tsx**: Toggle between sRGB/P3/Rec2020
+### 5. MVP Sub-components
 
-### 4. OKLCH Usecases
+- **OklchField.tsx**: Canvas-based LC plane with crosshair
+- **OklchHueSlider.tsx**: 360° hue gradient slider  
+- **OklchInputs.tsx**: L, C, H numeric input fields
 
-```typescript
-// @/usecases/SetOklchColor.ts
-export function useSetOklchColor() {
-  return (rampId: string, oklchColor: OklchColorEntity) => {
-    // Convert to hex/hsl for compatibility with existing system
-    const hexColor = convertFromOklch(oklchColor);
-    // Update color ramp with new base color
-  };
-}
+## MVP Implementation Plan (3 Weeks)
 
-// @/usecases/ConvertColorToOklch.ts
-export function useConvertColorToOklch() {
-  return (color: string): OklchColorEntity => {
-    return convertToOklch(color);
-  };
-}
-```
-
-### 5. Enhanced Color Swatches
-
-#### OklchBaseColorSwatch.tsx
-- Replaces BaseColorSwatch with OKLCH picker
-- Maintains same interface for backward compatibility
-- Shows color space indicators
-
-#### OklchTintColorSwatch.tsx  
-- Replaces TintColorSwatch with OKLCH capabilities
-- Enhanced gamut handling for blend operations
-
-## Implementation Plan
-
-### Phase 1: Foundation (Week 1-2)
+### Phase 1: Foundation & Integration (Week 1)
 1. **OKLCH Engine Development**
    - Create `OklchEngine.ts` with core conversion functions
-   - Integrate `culori` library (used by OKLCH picker) for color space operations
-   - Implement gamut detection and clamping functions
-   - Add comprehensive unit tests
+   - Integrate `culori` library for color space operations
+   - Basic gamut detection (sRGB only for MVP)
 
-2. **Entity & Type Definitions**
-   - Create `OklchColorEntity.ts`
-   - Define interfaces for picker state management
-   - Update existing entities to support OKLCH where needed
+2. **ColorFormat Extension**
+   - Update `ColorFormat` type: `'hex' | 'hsl' | 'oklch'`
+   - Extend `ColorFormatControl` to include OKLCH option
+   - Update `ColorRampEntity` to support OKLCH format
 
-### Phase 2: Core Components (Week 3-4)
-1. **2D Color Field Component**
-   - Canvas-based implementation for LC/LH/CH planes
-   - Mouse/touch interaction handling
-   - Real-time gamut feedback
-   - Performance optimization with Web Workers (like OKLCH picker)
+### Phase 2: Core OKLCH Components (Week 2)
+1. **Basic OKLCH Picker**
+   - Simple 2D color field for Lightness/Chroma plane
+   - Hue slider (360° range)
+   - Basic mouse interaction
+   - Numeric inputs for L, C, H values
 
-2. **1D Slider Components**
-   - Lightness slider with perceptual accuracy
-   - Chroma slider with gamut-aware max values
-   - Hue slider with full 360° range
-   - Alpha slider integration
+2. **Swatch Integration**
+   - Modify `BaseColorSwatch` to use OKLCH when format is 'oklch'
+   - Modify `TintColorSwatch` to support OKLCH
+   - Maintain existing interface for seamless integration
 
-3. **Input Components**
-   - Numeric inputs with proper validation
-   - Live preview during typing
-   - Support for different notation formats
+### Phase 3: Polish & Testing (Week 3)
+1. **Integration Testing**
+   - Ensure OKLCH works with existing color ramp generation
+   - Test all three format modes work correctly
+   - Fix edge cases and color conversion issues
 
-### Phase 3: Integration (Week 5)
-1. **Swatch Component Updates**
-   - Create OKLCH versions of existing swatches
-   - Maintain backward compatibility
-   - Add feature flags for gradual rollout
-
-2. **Usecase Integration**
-   - Update color manipulation usecases
-   - Ensure compatibility with existing color ramp generation
-
-### Phase 4: Enhancement & Polish (Week 6)
-1. **Advanced Features**
-   - Gamut visualization
-   - Color space conversion UI
-   - Keyboard navigation
-   - Accessibility improvements
-
-2. **Performance Optimization**
-   - Canvas rendering optimization
-   - Debounced updates
-   - Memory management
+2. **Basic UI Polish**
+   - Visual consistency with existing design
+   - Proper color display formatting
+   - Basic error handling for out-of-gamut colors
 
 ## Technical Implementation Details
 
@@ -192,30 +185,23 @@ export function useConvertColorToOklch() {
 }
 ```
 
-### Key Files to Create
+### Key Files for MVP
 ```
 src/
 ├── engine/
-│   ├── OklchEngine.ts              # Core OKLCH functions
-│   └── OklchGamutEngine.ts         # Gamut detection & clamping
+│   └── OklchEngine.ts              # Core OKLCH conversion functions
 ├── entities/
-│   ├── OklchColorEntity.ts         # OKLCH color type definitions
-│   └── OklchPickerEntity.ts        # Picker state definitions
+│   └── ColorRampEntity.ts          # MODIFY: Add 'oklch' to ColorFormat
 ├── components/
-│   ├── OklchColorPicker.tsx        # Main picker component
-│   ├── OklchField.tsx              # 2D color field
-│   ├── OklchSlider.tsx             # 1D sliders
-│   ├── OklchInputs.tsx             # Numeric inputs
-│   ├── GamutIndicator.tsx          # Gamut feedback
-│   ├── OklchBaseColorSwatch.tsx    # Enhanced base swatch
-│   └── OklchTintColorSwatch.tsx    # Enhanced tint swatch
-├── usecases/
-│   ├── SetOklchColor.ts            # OKLCH color updates
-│   ├── ConvertColorToOklch.ts      # Color space conversion
-│   └── ValidateOklchGamut.ts       # Gamut validation
-└── hooks/
-    ├── useOklchPicker.ts           # Picker state management
-    └── useGamutDetection.ts        # Real-time gamut checking
+│   ├── BaseColorSwatch.tsx         # MODIFY: Add OKLCH picker support
+│   ├── TintColorSwatch.tsx         # MODIFY: Add OKLCH picker support  
+│   ├── ColorRampControls.tsx       # MODIFY: Add OKLCH to ColorFormatControl
+│   ├── OklchPicker.tsx             # NEW: Main OKLCH picker component
+│   ├── OklchField.tsx              # NEW: 2D LC color field
+│   ├── OklchHueSlider.tsx          # NEW: Hue slider
+│   └── OklchInputs.tsx             # NEW: L, C, H numeric inputs
+└── usecases/
+    └── SetColorFormat.ts           # MODIFY: Handle 'oklch' format
 ```
 
 ## Potential Blockers & Solutions
@@ -277,22 +263,23 @@ src/
 - Gamut visualization correctness
 - UI consistency across color spaces
 
-## Success Metrics
+## MVP Success Metrics
 
 1. **Functional**
-   - 100% feature parity with existing pickers
-   - <100ms response time for color updates
-   - Accurate color space detection (>99%)
+   - OKLCH format works alongside HEX and HSL in ColorRampControls
+   - Color conversion accuracy between OKLCH ↔ HEX/HSL
+   - Basic color picker interaction (field + slider + inputs)
+   - Integration with existing color ramp generation
 
-2. **User Experience**
-   - No increase in user errors during color selection
-   - Maintained or improved color selection efficiency
-   - Positive user feedback on color accuracy
+2. **User Experience**  
+   - Seamless switching between HEX/HSL/OKLCH formats
+   - No breaking changes to existing workflows
+   - OKLCH values display correctly in color swatches
 
 3. **Technical**
-   - <5MB bundle size increase
-   - Compatible with all target browsers
-   - No memory leaks during extended usage
+   - <2MB bundle size increase for MVP
+   - No performance regression in existing functionality
+   - Basic sRGB gamut handling without errors
 
 ## Future Enhancements
 
@@ -313,10 +300,10 @@ src/
 
 ## Conclusion
 
-This OKLCH color picker implementation will provide:
-- **Superior color accuracy** through perceptual uniformity
-- **Future-proof architecture** supporting wide color gamuts  
-- **Seamless integration** with existing clean architecture
-- **Progressive enhancement** without breaking existing functionality
+This MVP OKLCH integration will provide:
+- **OKLCH as a third option** alongside existing HEX/HSL formats in ColorRampControls
+- **Superior perceptual color accuracy** for professional color work
+- **Zero breaking changes** to existing workflows and components  
+- **Foundation for future enhancements** like wide gamut support and advanced features
 
-The implementation follows the established patterns in the codebase while leveraging proven techniques from the Evil Martians OKLCH picker for optimal performance and accuracy.
+The MVP approach ensures quick delivery while maintaining the clean architecture patterns already established in the codebase. Users can choose OKLCH when they need perceptual accuracy, while keeping HEX/HSL for familiar workflows.
