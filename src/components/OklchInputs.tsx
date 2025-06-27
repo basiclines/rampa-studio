@@ -72,7 +72,6 @@ const OklchInputs: React.FC<OklchInputsProps> = ({ oklch, onChange }) => {
   };
 
   const maxChroma = getMaxChromaForLH(oklch.l, oklch.h);
-  const isChromaAtMax = chroma >= maxChroma * 0.95;
 
   return (
     <div className="oklch-inputs space-y-3">
@@ -97,7 +96,7 @@ const OklchInputs: React.FC<OklchInputsProps> = ({ oklch, onChange }) => {
       {/* Chroma */}
       <div className="space-y-1">
         <Label htmlFor="oklch-chroma" className="text-xs font-medium text-gray-700">
-          Chroma {isChromaAtMax && <span className="text-orange-500">(max)</span>}
+          Chroma
         </Label>
         <Input
           id="oklch-chroma"
@@ -107,7 +106,7 @@ const OklchInputs: React.FC<OklchInputsProps> = ({ oklch, onChange }) => {
           step="0.001"
           value={chroma}
           onChange={(e) => handleChromaChange(e.target.value)}
-          className={`text-xs h-8 ${isChromaAtMax ? 'border-orange-300' : ''}`}
+          className="text-xs h-8"
           placeholder={`0.0 - ${maxChroma.toFixed(3)}`}
         />
       </div>

@@ -167,10 +167,10 @@ const handleLightnessChange = (newL: number) => {
 ```
 
 #### 2. Visual Feedback Systems
-- **Chroma slider**: Dynamic max value based on current L,H
-- **LC field**: Gray out invalid areas beyond gamut boundary
-- **Input fields**: Show warning when at maximum chroma
-- **Color preview**: Subtle indicator when color is gamut-clamped
+- **Hue slider**: Fade out impossible hues when L,C make them unreachable
+- **LC field**: Fade out invalid areas beyond gamut boundary
+- **Real-time gamut visualization**: Show what's possible, not what's impossible
+- **No error messages**: Visual guidance instead of confusing warnings
 
 #### 3. Smooth Clamping Behavior
 ```typescript
@@ -186,10 +186,11 @@ export function clampChromaSmooth(oklch: OklchColor): OklchColor {
 }
 ```
 
-#### 4. User Education
-- **Tooltip**: "Chroma limited by current lightness" when at boundary
-- **Visual guide**: Show approximate gamut shape in LC field
-- **Contextual help**: Brief explanation of OKLCH constraints
+#### 4. Intuitive User Education
+- **Visual gamut feedback**: Immediately see which hues/combinations are possible
+- **Faded impossible areas**: Gray out unreachable color combinations
+- **Real-time constraints**: Dynamic visual feedback as you adjust values
+- **No cognitive load**: Understand limits through visual exploration, not text
 
 ### Implementation Priority
 1. **Core gamut calculation** (Week 1)

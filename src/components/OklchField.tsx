@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { convertFromOklch, getMaxChromaForLH } from '@/engine/OklchEngine';
+import { convertFromOklch, getMaxChromaForLH, isInSrgbGamut } from '@/engine/OklchEngine';
 
 interface OklchFieldProps {
   lightness: number;    // 0-1
@@ -39,19 +39,31 @@ const OklchField: React.FC<OklchFieldProps> = ({
         const maxChroma = getMaxChromaForLH(l, hue);
         const c = (x / width) * maxChroma; // X axis: 0 (gray) at left, max chroma at right
 
+        // Check if this L,C,H combination is achievable
+        const testColor = { l, c, h: hue };
+        const isAchievable = isInSrgbGamut(testColor);
+
         // Get RGB color for this L,C,H combination
-        const hexColor = convertFromOklch({ l, c, h: hue });
+        const hexColor = convertFromOklch(testColor);
         
         // Parse hex to RGB
-        const r = parseInt(hexColor.slice(1, 3), 16);
-        const g = parseInt(hexColor.slice(3, 5), 16);
-        const b = parseInt(hexColor.slice(5, 7), 16);
+        let r = parseInt(hexColor.slice(1, 3), 16);
+        let g = parseInt(hexColor.slice(3, 5), 16);
+        let b = parseInt(hexColor.slice(5, 7), 16);
+
+        // If not achievable, fade it out
+        if (!isAchievable) {
+          const gray = Math.round(0.299 * r + 0.587 * g + 0.114 * b);
+          r = Math.round(r * 0.4 + gray * 0.6); // Mix with gray
+          g = Math.round(g * 0.4 + gray * 0.6);
+          b = Math.round(b * 0.4 + gray * 0.6);
+        }
 
         const pixelIndex = (y * width + x) * 4;
         data[pixelIndex] = r;     // Red
         data[pixelIndex + 1] = g; // Green
         data[pixelIndex + 2] = b; // Blue
-        data[pixelIndex + 3] = 255; // Alpha
+        data[pixelIndex + 3] = isAchievable ? 255 : 100; // Reduce alpha for unachievable areas
       }
     }
 
