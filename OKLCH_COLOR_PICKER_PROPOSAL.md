@@ -73,6 +73,11 @@ export function convertFromOklch(oklch: OklchColor): string;
 export function formatOklchString(oklch: OklchColor): string; // "oklch(0.7 0.15 180)"
 export function isValidOklch(oklch: OklchColor): boolean;
 export function clampOklchToSrgb(oklch: OklchColor): OklchColor; // Basic sRGB clamping
+
+// Dynamic gamut handling
+export function getMaxChromaForLH(l: number, h: number): number; // Real-time max chroma
+export function clampChromaSmooth(oklch: OklchColor): OklchColor; // Smooth clamping
+export function isChromaAtMax(l: number, c: number, h: number): boolean; // UI feedback
 ```
 
 ### 3. Enhanced Existing Components
@@ -134,9 +139,63 @@ const OklchPicker: React.FC<OklchPickerProps> = ({ color, onChange }) => {
 
 ### 5. MVP Sub-components
 
-- **OklchField.tsx**: Canvas-based LC plane with crosshair
+- **OklchField.tsx**: Canvas-based LC plane with crosshair + gamut boundary
 - **OklchHueSlider.tsx**: 360° hue gradient slider  
-- **OklchInputs.tsx**: L, C, H numeric input fields
+- **OklchInputs.tsx**: L, C, H numeric inputs with dynamic constraints
+
+## Dynamic Gamut Handling Strategy
+
+### The Challenge
+In OKLCH, changing lightness or hue affects the maximum available chroma:
+- **Light colors** (L > 0.9): Very limited chroma range
+- **Dark colors** (L < 0.1): Also limited chroma  
+- **Different hues**: Some colors (like bright yellows) have higher max chroma than others (like blues)
+- **Sweet spot**: Mid-lightness (~0.6-0.7) typically allows highest chroma
+
+### MVP Solution Approach
+
+#### 1. Real-time Constraint Updates
+```typescript
+// When lightness or hue changes, update chroma constraints
+const handleLightnessChange = (newL: number) => {
+  const maxChroma = getMaxChromaForLH(newL, oklch.h);
+  const clampedChroma = Math.min(oklch.c, maxChroma);
+  
+  setOklch({ ...oklch, l: newL, c: clampedChroma });
+  setChromaSliderMax(maxChroma); // Update UI constraint
+};
+```
+
+#### 2. Visual Feedback Systems
+- **Chroma slider**: Dynamic max value based on current L,H
+- **LC field**: Gray out invalid areas beyond gamut boundary
+- **Input fields**: Show warning when at maximum chroma
+- **Color preview**: Subtle indicator when color is gamut-clamped
+
+#### 3. Smooth Clamping Behavior
+```typescript
+// Gradual reduction instead of hard cuts
+export function clampChromaSmooth(oklch: OklchColor): OklchColor {
+  const maxChroma = getMaxChromaForLH(oklch.l, oklch.h);
+  
+  if (oklch.c > maxChroma) {
+    // Smooth transition to max available chroma
+    return { ...oklch, c: maxChroma };
+  }
+  return oklch;
+}
+```
+
+#### 4. User Education
+- **Tooltip**: "Chroma limited by current lightness" when at boundary
+- **Visual guide**: Show approximate gamut shape in LC field
+- **Contextual help**: Brief explanation of OKLCH constraints
+
+### Implementation Priority
+1. **Core gamut calculation** (Week 1)
+2. **Dynamic slider constraints** (Week 2) 
+3. **Visual feedback** (Week 2-3)
+4. **User education tooltips** (Week 3)
 
 ## MVP Implementation Plan (3 Weeks)
 
@@ -221,28 +280,34 @@ src/
 - Memoization of expensive operations
 - Canvas rendering optimization techniques
 
-### 3. Color Space Complexity
+### 3. Dynamic Gamut Constraints
+**Issue**: OKLCH chroma range changes dramatically based on L,H values
+**Solution**:
+- Real-time max chroma calculation using culori's gamut functions
+- Dynamic UI constraint updates (slider max values)
+- Smooth clamping behavior instead of hard cuts
+- Clear visual feedback when colors are gamut-limited
+
+### 4. Color Space Complexity
 **Issue**: Managing multiple color spaces adds complexity
 **Solution**:
 - Clear separation of concerns in engine layer
-- Comprehensive testing across color spaces
+- Start with sRGB-only for MVP, expand later
 - User education through UI feedback
 
-### 4. Integration Complexity
+### 5. Integration Complexity
 **Issue**: Existing color ramp system uses different color model
 **Solution**:
-- Gradual migration approach
-- Dual support during transition
-- Feature flags for controlled rollout
+- Seamless conversion layer (OKLCH ↔ HEX for compatibility)
+- No changes to existing ColorRampConfig structure
 - Extensive testing of edge cases
 
-### 5. Learning Curve
+### 6. Learning Curve
 **Issue**: OKLCH is unfamiliar to many users
 **Solution**:
-- Progressive disclosure of advanced features
-- Helpful tooltips and guidance
-- Option to toggle between traditional and OKLCH modes
-- Educational content integration
+- OKLCH as opt-in third choice alongside familiar HEX/HSL
+- Helpful tooltips explaining gamut constraints
+- Clear visual feedback for invalid color combinations
 
 ## Testing Strategy
 
