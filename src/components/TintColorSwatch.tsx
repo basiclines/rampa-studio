@@ -2,10 +2,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import chroma from 'chroma-js';
 import { SketchPicker, ColorResult } from 'react-color';
 import { BlendMode } from '@/entities/BlendModeEntity';
+import { convertToOklch, formatOklchString } from '@/engine/OklchEngine';
+import OklchPicker from './OklchPicker';
 
 interface TintColorSwatchProps {
   color: string;
-  colorFormat: 'hex' | 'hsl';
+  colorFormat: 'hex' | 'hsl' | 'oklch';
   opacity: number;
   blendMode?: BlendMode;
   onColorChange: (color: string) => void;
@@ -83,10 +85,19 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
     };
   }, [showPicker]);
 
-  const formatColor = (color: string, format: 'hex' | 'hsl') => {
+  const formatColor = (color: string, format: 'hex' | 'hsl' | 'oklch') => {
     if (format === 'hsl') {
       const hsl = chroma(color).hsl();
       return hsl.map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ');
+    }
+    if (format === 'oklch') {
+      try {
+        const oklch = convertToOklch(color);
+        return formatOklchString(oklch);
+      } catch (error) {
+        console.error('Error formatting OKLCH color:', error);
+        return color; // Fallback to original color
+      }
     }
     return color;
   };
@@ -143,13 +154,23 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <SketchPicker
-              color={color || '#FE0000'}
-              onChange={handleColorChange}
-              onChangeComplete={handleColorChange}
-              disableAlpha={true}
-              className="sketch-picker"
-            />
+            {colorFormat === 'oklch' ? (
+              <OklchPicker
+                color={color || '#FE0000'}
+                onChange={onColorChange}
+                onChangeComplete={onColorChange}
+                width={250}
+                height={150}
+              />
+            ) : (
+              <SketchPicker
+                color={color || '#FE0000'}
+                onChange={handleColorChange}
+                onChangeComplete={handleColorChange}
+                disableAlpha={true}
+                className="sketch-picker"
+              />
+            )}
           </div>
         </div>
       )}
