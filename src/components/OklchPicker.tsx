@@ -50,7 +50,17 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
   };
 
   const handleHueChange = (h: number, complete = false) => {
-    handleOklchChange({ ...oklch, h }, complete);
+    // For hue changes, preserve L,C exactly and only change H
+    // Don't apply constrainOklchValues since we want to preserve user's L,C intent
+    const newOklch = { ...oklch, h };
+    setOklch(newOklch);
+    
+    const hexColor = convertFromOklch(newOklch);
+    onChange(hexColor);
+    
+    if (complete && onChangeComplete) {
+      onChangeComplete(hexColor);
+    }
   };
 
   const handleFieldChange = (l: number, c: number, complete = false) => {

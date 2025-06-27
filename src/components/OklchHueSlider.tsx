@@ -103,8 +103,15 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
     // Convert pixel to hue (0-360)
     const newHue = (x / width) * 360;
     
-    onChange(newHue, event.type === 'mouseup');
-  }, [width, onChange]);
+    // Check if this hue is achievable with current lightness and chroma
+    const testColor = { l: lightness, c: chroma, h: newHue };
+    const isAchievable = isInSrgbGamut(testColor);
+    
+    // Only allow selection of achievable hues
+    if (isAchievable) {
+      onChange(newHue, event.type === 'mouseup');
+    }
+  }, [width, lightness, chroma, onChange]);
 
   const handleMouseDown = (event: React.MouseEvent<HTMLCanvasElement>) => {
     setIsDragging(true);
@@ -112,6 +119,18 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
   };
 
   const handleMouseMove = (event: React.MouseEvent<HTMLCanvasElement>) => {
+    // Update cursor based on whether this position is selectable
+    const canvas = canvasRef.current;
+    if (canvas) {
+      const rect = canvas.getBoundingClientRect();
+      const x = Math.max(0, Math.min(width, event.clientX - rect.left));
+      const newHue = (x / width) * 360;
+      const testColor = { l: lightness, c: chroma, h: newHue };
+      const isAchievable = isInSrgbGamut(testColor);
+      
+      canvas.style.cursor = isAchievable ? 'pointer' : 'not-allowed';
+    }
+
     if (isDragging) {
       handleMouseEvent(event);
     }
@@ -126,6 +145,11 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
 
   const handleMouseLeave = () => {
     setIsDragging(false);
+    // Reset cursor when leaving
+    const canvas = canvasRef.current;
+    if (canvas) {
+      canvas.style.cursor = 'pointer';
+    }
   };
 
   return (
@@ -137,12 +161,12 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
         ref={canvasRef}
         width={width}
         height={height}
-        className="cursor-pointer border border-gray-300 rounded"
+        className="border border-gray-300 rounded"
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseLeave}
-        style={{ display: 'block' }}
+        style={{ display: 'block', cursor: 'pointer' }}
       />
     </div>
   );
