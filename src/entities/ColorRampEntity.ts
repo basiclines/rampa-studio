@@ -1,10 +1,13 @@
 import { BlendMode } from './BlendModeEntity';
 import { ColorSwatch } from './ColorSwatchEntity';
 
+export type ColorFormat = 'hex' | 'hsl' | 'oklch';
+
 export interface ColorRampConfig {
   id: string;
   name: string;
   baseColor: string;
+  colorFormat: ColorFormat; // Make required, not optional
   totalSteps: number;
   lightnessRange: number;
   lightnessStart?: number;
@@ -25,5 +28,4 @@ export interface ColorRampConfig {
   lightnessScaleType?: string;
   hueScaleType?: string;
   saturationScaleType?: string;
-  colorFormat?: 'hex' | 'hsl';
 } 

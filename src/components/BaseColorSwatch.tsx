@@ -1,10 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import chroma from 'chroma-js';
 import { SketchPicker, ColorResult } from 'react-color';
+import { convertToOklch, formatOklchString } from '@/engine/OklchEngine';
+import { ColorFormat } from '@/entities/ColorRampEntity';
+import OklchPicker from './OklchPicker';
 
 interface BaseColorSwatchProps {
   color: string;
-  colorFormat: 'hex' | 'hsl';
+  colorFormat: ColorFormat;
   onChange: (color: string) => void;
   id?: string;
   empty?: boolean;
@@ -23,7 +26,17 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
   };
 
   const handleColorChange = (colorResult: ColorResult) => {
-    onChange(colorResult.hex);
+    if (colorFormat === 'hsl') {
+      const [h, s, l] = chroma(colorResult.hex).hsl();
+      const hslString = `hsl(${Math.round(h || 0)}, ${Math.round((s || 0) * 100)}%, ${Math.round((l || 0) * 100)}%)`;
+      onChange(hslString);
+    } else {
+      onChange(colorResult.hex);
+    }
+  };
+
+  const handleOklchChange = (oklchColor: string) => {
+    onChange(oklchColor);
   };
 
   const handleClose = () => {
@@ -67,12 +80,21 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
     };
   }, [showPicker]);
 
-  const formatColor = (color: string, format: 'hex' | 'hsl') => {
-    if (format === 'hsl') {
-      const hsl = chroma(color).hsl();
-      return hsl.map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ');
+  const formatColor = (color: string, format: ColorFormat) => {
+    try {
+      if (format === 'hsl') {
+        const hsl = chroma(color).hsl();
+        return hsl.map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ');
+      }
+      if (format === 'oklch') {
+        const oklch = convertToOklch(color);
+        return formatOklchString(oklch);
+      }
+      return color; // hex format
+    } catch (error) {
+      console.error('Error formatting color:', error);
+      return color; // Fallback to original color
     }
-    return color;
   };
 
   return (
@@ -109,33 +131,35 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
       {showPicker && !empty && (
         <div
           ref={pickerRef}
-          style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            zIndex: 9999,
-            backgroundColor: 'transparent',
-          }}
           onClick={handleClose}
         >
           <div
             style={{
               position: 'absolute',
-              left: '50%',
-              top: '50%',
-              transform: 'translate(-50%, -50%)',
+              left: '0%',
+              top: '100%',
+              marginTop: 12,
+              zIndex: 1000,
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <SketchPicker
-              color={color}
-              onChange={handleColorChange}
-              onChangeComplete={handleColorChange}
-              disableAlpha={true}
-              className="sketch-picker"
-            />
+            {colorFormat === 'oklch' ? (
+              <OklchPicker
+                color={color}
+                onChange={handleOklchChange}
+                onChangeComplete={handleOklchChange}
+                width={250}
+                height={150}
+              />
+            ) : (
+              <SketchPicker
+                color={color}
+                onChange={handleColorChange}
+                onChangeComplete={handleColorChange}
+                disableAlpha={true}
+                className="sketch-picker"
+              />
+            )}
           </div>
         </div>
       )}

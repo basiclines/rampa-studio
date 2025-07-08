@@ -1,11 +1,12 @@
 import chroma from 'chroma-js';
-import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { ColorRampConfig, ColorFormat } from '@/entities/ColorRampEntity';
 import { BlendMode } from '@/entities/BlendModeEntity';
 import { calculatePositions } from './HarmonyEngine';
 import { applyBlendMode } from './BlendingEngine';
+import { convertFromOklch, convertToOklch, formatOklchString } from './OklchEngine';
 
 // Color formatting helper with validation
-const formatColor = (color: chroma.Color, colorFormat: 'hex' | 'hsl'): string => {
+const formatColor = (color: chroma.Color, colorFormat: ColorFormat): string => {
   try {
     if (colorFormat === 'hsl') {
       const [h, s, l] = color.hsl();
@@ -17,6 +18,13 @@ const formatColor = (color: chroma.Color, colorFormat: 'hex' | 'hsl'): string =>
       
       return `hsl(${Math.round(validH)}, ${Math.round(validS * 100)}%, ${Math.round(validL * 100)}%)`;
     }
+    
+    if (colorFormat === 'oklch') {
+      const hexColor = color.hex();
+      const oklchColor = convertToOklch(hexColor);
+      return formatOklchString(oklchColor);
+    }
+    
     return color.hex();
   } catch (error) {
     console.error('Error formatting color:', error);
@@ -278,3 +286,31 @@ export function getCompoundColors(baseColor: string): string[] {
     chroma.hsl((h + 210) % 360, s, l).hex(),
   ];
 }
+
+// Color format conversion utility
+export const convertColorFormat = (color: string, fromFormat: ColorFormat, toFormat: ColorFormat): string => {
+  try {
+    if (fromFormat === toFormat) {
+      return color;
+    }
+    
+    // Convert to chroma.js color object first
+    let chromaColor: chroma.Color;
+    
+    if (fromFormat === 'oklch') {
+      // Convert OKLCH to hex first, then to chroma
+      const oklchColor = convertToOklch(color);
+      const hexColor = convertFromOklch(oklchColor);
+      chromaColor = chroma(hexColor);
+    } else {
+      // For hex and hsl, chroma.js can handle them directly
+      chromaColor = chroma(color);
+    }
+    
+    // Format to target format
+    return formatColor(chromaColor, toFormat);
+  } catch (error) {
+    console.error('Error converting color format:', error);
+    return color; // Return original if conversion fails
+  }
+};

@@ -12,6 +12,7 @@ export function lockAllRampColors(
     const newSwatches = ramp.swatches.map((swatch, i) => ({
       ...swatch,
       color: colors[i],
+      colorFormat: ramp.colorFormat,
       locked: lock
     }));
     return { ...ramp, swatches: newSwatches };

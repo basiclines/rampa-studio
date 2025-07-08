@@ -9,7 +9,9 @@ export function exportColorRampsToJson(colorRamps: ColorRampConfig[]): string {
       ...ramp,
       swatches: ramp.swatches.map((swatch, index) => ({
         ...swatch,
-        color: generatedColors[index]
+        // For locked swatches, preserve the native color value
+        // For unlocked swatches, use the generated color
+        color: swatch.locked ? swatch.color : generatedColors[index]
       }))
     };
   });

@@ -64,9 +64,21 @@ const ColorRamp: React.FC<ColorRampProps> = ({
     return generateColorRamp(config);
   }, [config, previewBlendMode]);
 
+  // Use raw colors from swatches when available, generated colors otherwise
+  const displayColors = useMemo(() => {
+    return colors.map((generatedColor, index) => {
+      const swatch = config.swatches[index];
+      // If swatch exists and is locked, use its raw color value
+      if (swatch && swatch.locked) {
+        return swatch.color;
+      }
+      // Otherwise use the generated color
+      return generatedColor;
+    });
+  }, [colors, config.swatches]);
+
   const toggleLockColor = (index: number, color: string) => {
     lockRampColor(config.id, index, color);
-    const isLocked = config.swatches && config.swatches[index]?.locked;
   };
 
   const handleDelete = (e: React.MouseEvent) => {
@@ -309,7 +321,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       <div className="relative isolate" style={{ height: 'calc(100% - 56px)' }}>
         {/* Color Ramp */}
         <div className="flex flex-col gap-1" style={{ height: '100%' }}>
-          {colors.map((color, index) => {
+          {displayColors.map((color, index) => {
             const isLocked = config.swatches && config.swatches[index]?.locked;
             return (
               <div key={index} className="relative flex-1 min-h-0">

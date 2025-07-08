@@ -11,7 +11,7 @@ export function lockRampColor(
     if (ramp.id !== id) return ramp;
     const newSwatches = ramp.swatches.map((swatch, i) =>
       i === colorIndex
-        ? { ...swatch, color, locked: !swatch.locked }
+        ? { ...swatch, color, colorFormat: ramp.colorFormat, locked: !swatch.locked }
         : swatch
     );
     return { ...ramp, swatches: newSwatches };

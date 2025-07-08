@@ -8,8 +8,10 @@ export function addColorRamp(
 ): ColorRampConfig[] {
   const totalSteps = DEFAULT_NEW_RAMP_VALUES.totalSteps;
   const baseColor = DEFAULT_NEW_RAMP_VALUES.baseColor;
+  const colorFormat = DEFAULT_NEW_RAMP_VALUES.colorFormat;
   const swatches: ColorSwatch[] = Array.from({ length: totalSteps }, (_, i) => ({
     color: baseColor,
+    colorFormat: colorFormat,
     index: i,
     locked: false
   }));
@@ -17,6 +19,7 @@ export function addColorRamp(
     id: Date.now().toString(),
     name: `Ramp ${colorRamps.length + 1}`,
     baseColor,
+    colorFormat,
     totalSteps,
     lightnessRange: DEFAULT_NEW_RAMP_VALUES.lightnessRange,
     chromaRange: DEFAULT_NEW_RAMP_VALUES.chromaRange,

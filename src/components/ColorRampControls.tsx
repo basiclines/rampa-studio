@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { X } from 'lucide-react';
-import { ColorRampConfig } from '@/entities/ColorRampEntity';
+import { ColorRampConfig, ColorFormat } from '@/entities/ColorRampEntity';
 import { BlendMode } from '@/entities/BlendModeEntity';
 import BaseColorSwatch from './BaseColorSwatch';
 import TintColorSwatch from './TintColorSwatch';
@@ -16,8 +16,6 @@ import { useSetTotalSteps } from '@/usecases/SetTotalSteps';
 import { useSetColorFormat } from '@/usecases/SetColorFormat';
 import { useSetColorRampScale } from '@/usecases/SetColorRampScale';
 import StepSlider from './ui/StepSlider';
-
-type ColorFormat = 'hex' | 'hsl';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -54,12 +52,15 @@ const ColorFormatControl = ({ value, onChange }: { value: ColorFormat, onChange:
       type="button"
     >HEX</button>
     <button
-      key="hsl"
       className={`flex-1 px-2 py-1 ${value === 'hsl' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
       onClick={() => onChange('hsl')}
-    >
-      HSL
-    </button>
+      type="button"
+    >HSL</button>
+    <button
+      className={`flex-1 px-2 py-1 ${value === 'oklch' ? 'bg-blue-100 text-blue-700' : 'hover:bg-gray-100 text-gray-700'}`}
+      onClick={() => onChange('oklch')}
+      type="button"
+    >OKLCH</button>
   </div>
 );
 

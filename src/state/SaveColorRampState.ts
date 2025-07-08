@@ -18,6 +18,7 @@ const useSaveApplicationState = create<State & Actions>((set) => ({
       id: '1',
       name: 'Primary',
       baseColor: DEFAULT_COLOR_RAMP_VALUES.baseColor,
+      colorFormat: DEFAULT_COLOR_RAMP_VALUES.colorFormat,
       totalSteps: DEFAULT_COLOR_RAMP_VALUES.totalSteps,
       lightnessRange: DEFAULT_COLOR_RAMP_VALUES.lightnessRange,
       lightnessAdvanced: DEFAULT_COLOR_RAMP_VALUES.lightnessAdvanced,
@@ -27,6 +28,7 @@ const useSaveApplicationState = create<State & Actions>((set) => ({
       saturationAdvanced: DEFAULT_COLOR_RAMP_VALUES.saturationAdvanced,
       swatches: Array.from({ length: DEFAULT_COLOR_RAMP_VALUES.totalSteps }, (_, i): ColorSwatch => ({
         color: DEFAULT_COLOR_RAMP_VALUES.baseColor,
+        colorFormat: DEFAULT_COLOR_RAMP_VALUES.colorFormat,
         index: i,
         locked: false,
       })),
