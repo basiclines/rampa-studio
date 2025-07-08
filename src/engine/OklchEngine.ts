@@ -30,6 +30,61 @@ export interface OklchColor {
 }
 
 /**
+ * Centralized OKLCH rounding function for consistent precision across the app
+ * 
+ * **Use this for:**
+ * - Display values (UI text, exports, user-facing strings)
+ * - Final output formatting
+ * - Reducing visual noise in the interface
+ * 
+ * **Precision:**
+ * - L and C: 2 decimal places (0.68) - reduces visual noise
+ * - H: Whole numbers (265) - sufficient for hue precision
+ * - Alpha: 2 decimal places (0.85)
+ * 
+ * @param oklchColor - The OKLCH color to round
+ * @returns Rounded OKLCH color optimized for display
+ */
+export function roundOklch(oklchColor: OklchColor): OklchColor {
+  const { l, c, h, alpha } = oklchColor;
+  
+  return {
+    l: Math.round(l * 100) / 100,      // 2 decimal places
+    c: Math.round(c * 100) / 100,      // 2 decimal places  
+    h: Math.round(h),                  // Whole numbers
+    alpha: alpha !== undefined ? Math.round(alpha * 100) / 100 : alpha  // 2 decimal places
+  };
+}
+
+/**
+ * Higher precision rounding for internal calculations
+ * 
+ * **Use this for:**
+ * - Intermediate calculations
+ * - Gamut clamping operations
+ * - Precision stabilization during transformations
+ * - Internal state management
+ * 
+ * **Precision:**
+ * - L and C: 3 decimal places (0.678) - better intermediate precision
+ * - H: Whole numbers (265)
+ * - Alpha: 3 decimal places (0.854)
+ * 
+ * @param oklchColor - The OKLCH color to round with higher precision
+ * @returns Rounded OKLCH color optimized for calculations
+ */
+export function roundOklchPrecise(oklchColor: OklchColor): OklchColor {
+  const { l, c, h, alpha } = oklchColor;
+  
+  return {
+    l: Math.round(l * 1000) / 1000,    // 3 decimal places
+    c: Math.round(c * 1000) / 1000,    // 3 decimal places  
+    h: Math.round(h),                  // Whole numbers
+    alpha: alpha !== undefined ? Math.round(alpha * 1000) / 1000 : alpha  // 3 decimal places
+  };
+}
+
+/**
  * Convert any color string (hex, hsl, rgb, etc.) to OKLCH
  */
 export function convertToOklch(color: string): OklchColor {
@@ -88,19 +143,14 @@ export function convertFromOklch(oklchColor: OklchColor): string {
  * Format OKLCH color as CSS string
  */
 export function formatOklchString(oklchColor: OklchColor): string {
-  const { l, c, h, alpha } = oklchColor;
-  
-  // Round values for display
-  const roundedL = Math.round(l * 1000) / 1000;
-  const roundedC = Math.round(c * 1000) / 1000;
-  const roundedH = Math.round(h);
+  const rounded = roundOklch(oklchColor);
+  const { l, c, h, alpha } = rounded;
   
   if (alpha !== undefined && alpha < 1) {
-    const roundedAlpha = Math.round(alpha * 100) / 100;
-    return `oklch(${roundedL} ${roundedC} ${roundedH} / ${roundedAlpha})`;
+    return `oklch(${l} ${c} ${h} / ${alpha})`;
   }
   
-  return `oklch(${roundedL} ${roundedC} ${roundedH})`;
+  return `oklch(${l} ${c} ${h})`;
 }
 
 /**
@@ -235,7 +285,7 @@ export function isChromaAtMax(l: number, c: number, h: number): boolean {
 /**
  * Constrain OKLCH values to valid ranges with smooth fallbacks
  */
-export function constrainOklchValues(oklchColor: OklchColor): OklchColor {
+export function constrainOklchValues(oklchColor: OklchColor, preserveLC: boolean = false): OklchColor {
   let { l, c, h, alpha } = oklchColor;
   
   // Constrain lightness
@@ -247,6 +297,18 @@ export function constrainOklchValues(oklchColor: OklchColor): OklchColor {
   // Constrain alpha
   if (alpha !== undefined) {
     alpha = Math.max(0, Math.min(1, alpha));
+  }
+  
+  // If we're only changing hue and want to preserve L,C as much as possible
+  if (preserveLC) {
+    // Add precision stabilization to prevent floating-point drift
+    const stabilized = roundOklchPrecise({ l, c, h, alpha });
+    
+    // Only clamp chroma, don't apply full gamut clamping which might affect lightness
+    const maxChroma = getMaxChromaForLH(stabilized.l, stabilized.h);
+    const clampedC = Math.min(stabilized.c, maxChroma);
+    
+    return { ...stabilized, c: clampedC };
   }
   
   // Apply smooth chroma clamping

@@ -87,6 +87,11 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
         return hsl.map((v, i) => i === 0 ? Math.round(v) : Math.round(v * 100)).join(', ');
       }
       if (format === 'oklch') {
+        // If the color is already in OKLCH format, return it as-is to avoid precision loss
+        if (color.startsWith('oklch(')) {
+          return color;
+        }
+        // Otherwise, convert to OKLCH
         const oklch = convertToOklch(color);
         return formatOklchString(oklch);
       }

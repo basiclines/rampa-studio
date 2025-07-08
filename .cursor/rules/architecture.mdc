@@ -9,6 +9,7 @@ This application follows a clean, domain-driven architecture with clear separati
 - **Usecases**: Business logic and state management
 - **Entities**: Data models and types
 - **Engine**: Pure functions for color/harmony manipulation
+- **tests**: Unit tests for usecases using bun test suite
 
 ## When Adding New Features
 

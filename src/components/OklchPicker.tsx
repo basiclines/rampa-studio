@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { convertToOklch, convertFromOklch, constrainOklchValues, formatOklchString, type OklchColor } from '@/engine/OklchEngine';
+import { convertToOklch, convertFromOklch, constrainOklchValues, formatOklchString, parseOklchString, roundOklch, type OklchColor } from '@/engine/OklchEngine';
 import OklchField from './OklchField';
 import OklchHueSlider from './OklchHueSlider';
 
@@ -18,11 +18,25 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
   width = 200,
   height = 150 
 }) => {
-  const [oklch, setOklch] = useState<OklchColor>(() => convertToOklch(color));
+  const [oklch, setOklch] = useState<OklchColor>(() => {
+    // Avoid unnecessary conversion if color is already OKLCH
+    if (color.startsWith('oklch(')) {
+      const parsed = parseOklchString(color);
+      return parsed || convertToOklch(color);
+    }
+    return convertToOklch(color);
+  });
 
   // Update internal state when external color changes
   useEffect(() => {
-    const newOklch = convertToOklch(color);
+    // Avoid unnecessary conversion if color is already OKLCH
+    let newOklch: OklchColor;
+    if (color.startsWith('oklch(')) {
+      const parsed = parseOklchString(color);
+      newOklch = parsed || convertToOklch(color);
+    } else {
+      newOklch = convertToOklch(color);
+    }
     setOklch(newOklch);
   }, [color]);
 
@@ -49,12 +63,13 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
   };
 
   const handleHueChange = (h: number, complete = false) => {
-    // For hue changes, preserve L,C exactly and only change H
-    // Don't apply constrainOklchValues since we want to preserve user's L,C intent
+    // For hue changes, we need to apply gamut clamping because different hues
+    // have different maximum chroma values. Use preserveLC to avoid lightness drift.
     const newOklch = { ...oklch, h };
-    setOklch(newOklch);
+    const constrainedOklch = constrainOklchValues(newOklch, true); // preserveLC = true
+    setOklch(constrainedOklch);
     
-    const oklchString = formatOklchString(newOklch);
+    const oklchString = formatOklchString(constrainedOklch);
     onChange(oklchString);
     
     if (complete && onChangeComplete) {
