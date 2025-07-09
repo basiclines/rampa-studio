@@ -12,15 +12,12 @@ export interface ColorRampConfig {
   lightnessRange: number;
   lightnessStart?: number;
   lightnessEnd?: number;
-  lightnessAdvanced?: boolean;
   chromaRange: number;
   chromaStart?: number;
   chromaEnd?: number;
-  chromaAdvanced?: boolean;
   saturationRange: number;
   saturationStart?: number;
   saturationEnd?: number;
-  saturationAdvanced?: boolean;
   tintColor?: string;
   tintOpacity?: number;
   tintBlendMode?: BlendMode;

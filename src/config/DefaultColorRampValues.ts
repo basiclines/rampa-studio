@@ -5,11 +5,8 @@ export const DEFAULT_COLOR_RAMP_VALUES = {
   colorFormat: 'hex' as ColorFormat,
   totalSteps: 10,
   lightnessRange: 100,
-  lightnessAdvanced: false,
   chromaRange: 0,
-  chromaAdvanced: false,
   saturationRange: 100,
-  saturationAdvanced: false,
 } as const;
 
 export const DEFAULT_NEW_RAMP_VALUES = {
@@ -17,9 +14,6 @@ export const DEFAULT_NEW_RAMP_VALUES = {
   colorFormat: 'hex' as ColorFormat,
   totalSteps: 10,
   lightnessRange: 100,
-  lightnessAdvanced: false,
   chromaRange: 0,
-  chromaAdvanced: false,
   saturationRange: 100,
-  saturationAdvanced: false,
 } as const; 

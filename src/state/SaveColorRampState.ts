@@ -21,11 +21,8 @@ const useSaveApplicationState = create<State & Actions>((set) => ({
       colorFormat: DEFAULT_COLOR_RAMP_VALUES.colorFormat,
       totalSteps: DEFAULT_COLOR_RAMP_VALUES.totalSteps,
       lightnessRange: DEFAULT_COLOR_RAMP_VALUES.lightnessRange,
-      lightnessAdvanced: DEFAULT_COLOR_RAMP_VALUES.lightnessAdvanced,
       chromaRange: DEFAULT_COLOR_RAMP_VALUES.chromaRange,
-      chromaAdvanced: DEFAULT_COLOR_RAMP_VALUES.chromaAdvanced,
       saturationRange: DEFAULT_COLOR_RAMP_VALUES.saturationRange,
-      saturationAdvanced: DEFAULT_COLOR_RAMP_VALUES.saturationAdvanced,
       swatches: Array.from({ length: DEFAULT_COLOR_RAMP_VALUES.totalSteps }, (_, i): ColorSwatch => ({
         color: DEFAULT_COLOR_RAMP_VALUES.baseColor,
         colorFormat: DEFAULT_COLOR_RAMP_VALUES.colorFormat,

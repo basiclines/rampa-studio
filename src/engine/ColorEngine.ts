@@ -54,7 +54,7 @@ const calculateLightness = (
   try {
     let newLightness: number;
     
-    if (config.lightnessAdvanced && config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
+    if (config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
       const startLightness = config.lightnessStart / 100;
       const endLightness = config.lightnessEnd / 100;
       newLightness = startLightness + (endLightness - startLightness) * position;
@@ -82,7 +82,7 @@ const calculateHue = (
   try {
     let newHue: number;
     
-    if (config.chromaAdvanced && config.chromaStart !== undefined && config.chromaEnd !== undefined) {
+    if (config.chromaStart !== undefined && config.chromaEnd !== undefined) {
       const hueRange = config.chromaEnd - config.chromaStart;
       newHue = (baseHue + config.chromaStart + hueRange * position) % 360;
     } else {
@@ -111,7 +111,7 @@ const calculateSaturation = (
   try {
     let newSaturation: number;
     
-    if (config.saturationAdvanced && config.saturationStart !== undefined && config.saturationEnd !== undefined) {
+    if (config.saturationStart !== undefined && config.saturationEnd !== undefined) {
       const startSaturation = config.saturationStart / 100;
       const endSaturation = config.saturationEnd / 100;
       const invertedPosition = 1 - position;
@@ -141,7 +141,7 @@ const calculateOklchLightness = (
   try {
     let newLightness: number;
     
-    if (config.lightnessAdvanced && config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
+    if (config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
       const startLightness = config.lightnessStart / 100;
       const endLightness = config.lightnessEnd / 100;
       newLightness = startLightness + (endLightness - startLightness) * position;
@@ -169,7 +169,7 @@ const calculateOklchHue = (
   try {
     let newHue: number;
     
-    if (config.chromaAdvanced && config.chromaStart !== undefined && config.chromaEnd !== undefined) {
+    if (config.chromaStart !== undefined && config.chromaEnd !== undefined) {
       const hueRange = config.chromaEnd - config.chromaStart;
       newHue = (baseHue + config.chromaStart + hueRange * position) % 360;
     } else {
@@ -198,7 +198,7 @@ const calculateOklchChroma = (
   try {
     let newChroma: number;
     
-    if (config.saturationAdvanced && config.saturationStart !== undefined && config.saturationEnd !== undefined) {
+    if (config.saturationStart !== undefined && config.saturationEnd !== undefined) {
       // For OKLCH, we interpret saturation controls as chroma controls
       const startChroma = (config.saturationStart / 100) * baseChroma;
       const endChroma = (config.saturationEnd / 100) * baseChroma;

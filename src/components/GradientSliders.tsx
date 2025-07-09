@@ -10,25 +10,11 @@ interface GradientSlidersProps {
 }
 
 const GradientSliders: React.FC<GradientSlidersProps> = ({ ramp, onUpdate }) => {
-  const hasAdvancedMode = ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced;
-
-  if (!hasAdvancedMode) {
-    return null;
-  }
-
   return (
     <div className="flex gap-2 h-full min-h-[400px]">
-      {ramp.lightnessAdvanced && (
-        <LightnessSlider ramp={ramp} onUpdate={onUpdate} />
-      )}
-      
-      {ramp.chromaAdvanced && (
-        <HueSlider ramp={ramp} onUpdate={onUpdate} />
-      )}
-      
-      {ramp.saturationAdvanced && (
-        <SaturationSlider ramp={ramp} onUpdate={onUpdate} />
-      )}
+      <LightnessSlider ramp={ramp} onUpdate={onUpdate} />
+      <HueSlider ramp={ramp} onUpdate={onUpdate} />
+      <SaturationSlider ramp={ramp} onUpdate={onUpdate} />
     </div>
   );
 };

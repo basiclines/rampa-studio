@@ -109,9 +109,6 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   const [saturationScale, setSaturationScale] = useState('linear');
   const [previewBlendMode, setPreviewBlendMode] = useState<BlendMode | undefined>(undefined);
 
-  // Check if any advanced mode is enabled
-  const hasAdvancedMode = ramp.lightnessAdvanced || ramp.chromaAdvanced || ramp.saturationAdvanced;
-
   const handleRemoveTint = () => {
     setTintColor(ramp.id, '');
     setTintOpacity(ramp.id, 0);
@@ -280,7 +277,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
             </div>
 
             {/* Properties section */}
-            <div className={hasAdvancedMode ? 'flex-1 min-h-0 flex flex-col' : 'flex-shrink-0'}>
+            <div className='flex-1 min-h-0 flex flex-col'>
               <HSLPropertiesControl
                 ramp={ramp}
                 onUpdate={onUpdate}

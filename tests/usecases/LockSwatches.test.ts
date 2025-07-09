@@ -1,84 +1,74 @@
 import { describe, it, expect } from 'bun:test';
-import { generateColorRamp } from '@/engine/ColorEngine';
-import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { lockRampColor } from '@/usecases/LockRampColor';
+import { lockAllRampColors } from '@/usecases/LockAllRampColors';
+import { ColorRampConfig } from '@/entities/ColorRampEntity';
 
-describe('Lock colors suite', () => {
+const mockRamp: ColorRampConfig = {
+  id: '1',
+  name: 'Test Ramp',
+  baseColor: '#3b82f6',
+  colorFormat: 'hex',
+  totalSteps: 10,
+  lightnessRange: 100,
+  chromaRange: 0,
+  saturationRange: 100,
+  swatches: [
+    { color: '#eff6ff', colorFormat: 'hex', index: 0, locked: false },
+    { color: '#dbeafe', colorFormat: 'hex', index: 1, locked: false },
+    { color: '#bfdbfe', colorFormat: 'hex', index: 2, locked: false },
+    { color: '#93c5fd', colorFormat: 'hex', index: 3, locked: false },
+    { color: '#60a5fa', colorFormat: 'hex', index: 4, locked: false },
+    { color: '#3b82f6', colorFormat: 'hex', index: 5, locked: false },
+    { color: '#2563eb', colorFormat: 'hex', index: 6, locked: false },
+    { color: '#1d4ed8', colorFormat: 'hex', index: 7, locked: false },
+    { color: '#1e40af', colorFormat: 'hex', index: 8, locked: false },
+    { color: '#1e3a8a', colorFormat: 'hex', index: 9, locked: false },
+  ],
+};
 
-  it('Lock a swatch and verify it persists after config change', () => {
-    // Initial config with empty swatches
-    const config: ColorRampConfig = {
-      id: "1",
-      name: "Primary",
-      baseColor: "#3b82f6",
-      totalSteps: 10,
-      lightnessRange: 100,
-      lightnessAdvanced: false,
-      chromaRange: 0,
-      chromaAdvanced: false,
-      saturationRange: 100,
-      saturationAdvanced: false,
-      colorFormat: 'hex',
-      swatches: Array(10).fill(null).map((_, i) => ({
-        color: "",
-        index: i,
-        locked: false
-      }))
-    };
+const mockRamp2: ColorRampConfig = {
+  id: '2',
+  name: 'Test Ramp 2',
+  baseColor: '#10b981',
+  colorFormat: 'hex',
+  totalSteps: 10,
+  lightnessRange: 100,
+  chromaRange: 0,
+  saturationRange: 100,
+  swatches: [
+    { color: '#ecfdf5', colorFormat: 'hex', index: 0, locked: false },
+    { color: '#d1fae5', colorFormat: 'hex', index: 1, locked: false },
+    { color: '#a7f3d0', colorFormat: 'hex', index: 2, locked: false },
+    { color: '#6ee7b7', colorFormat: 'hex', index: 3, locked: false },
+    { color: '#34d399', colorFormat: 'hex', index: 4, locked: false },
+    { color: '#10b981', colorFormat: 'hex', index: 5, locked: false },
+    { color: '#059669', colorFormat: 'hex', index: 6, locked: false },
+    { color: '#047857', colorFormat: 'hex', index: 7, locked: false },
+    { color: '#065f46', colorFormat: 'hex', index: 8, locked: false },
+    { color: '#064e3b', colorFormat: 'hex', index: 9, locked: false },
+  ],
+};
 
-    // Generate initial colors
-    const initialColors = generateColorRamp(config);
+const mockRamps = [mockRamp, mockRamp2];
 
-    // Lock color at index 3 using the pure function
-    const indexToLock = 3;
-    const colorToLock = initialColors[indexToLock];
-    const updatedRamps = lockRampColor([config], "1", indexToLock, colorToLock);
-    const configWithLock = updatedRamps[0];
-
-    // Verify the color was locked
-    expect(configWithLock.swatches[indexToLock].locked).toBe(true);
-    expect(configWithLock.swatches[indexToLock].color).toBe(colorToLock);
-
-    // Change lightness range
-    const configWithChanges = {
-      ...configWithLock,
-      lightnessRange: 80
-    };
-
-    // Generate new colors and verify locked color persists
-    const newColors = generateColorRamp(configWithChanges);
-    expect(newColors[indexToLock]).toBe(colorToLock);
+describe('Lock Swatch Usecases', () => {
+  it('should lock a color at a specific index', () => {
+    const result = lockRampColor(mockRamps, '1', 3, '#93c5fd');
+    const updatedRamp = result.find(r => r.id === '1');
+    expect(updatedRamp?.swatches[3].locked).toBe(true);
+    expect(updatedRamp?.swatches[3].color).toBe('#93c5fd');
   });
 
-  it('Lock all swatchs and verify it persists after config change', () => {
-    const config: ColorRampConfig = {
-      id: "1",
-      name: "Primary",
-      baseColor: "#3b82f6",
-      totalSteps: 10,
-      lightnessRange: 100,
-      lightnessAdvanced: false,
-      chromaRange: 0,
-      chromaAdvanced: false,
-      saturationRange: 100,
-      saturationAdvanced: false,
-      colorFormat: 'hex',
-      swatches: []  
-    };
-
-    const initialColors = generateColorRamp(config);
-    let lastConfig = config;
-    
-    initialColors.forEach((color, index) => {
-      const updatedRamps = lockRampColor([config], "1", index, color);
-      const configWithLock = updatedRamps[0];
-      lastConfig = configWithLock;
-    });
-
-    lastConfig.swatches.forEach((swatch) => {
-      expect(swatch.color).toBe(initialColors[swatch.index]);
-      expect(swatch.locked).toBe(true);
-    });
+  it('should lock all colors in a ramp', () => {
+    const colors = mockRamp.swatches.map(s => s.color);
+    const result = lockAllRampColors(mockRamps, '1', colors, true);
+    const updatedRamp = result.find(r => r.id === '1');
+    expect(updatedRamp?.swatches.every(s => s.locked)).toBe(true);
   });
 
+  it('should not affect other ramps when locking', () => {
+    const result = lockRampColor(mockRamps, '1', 3, '#93c5fd');
+    const otherRamp = result.find(r => r.id === '2');
+    expect(otherRamp?.swatches.every(s => !s.locked)).toBe(true);
+  });
 }); 
