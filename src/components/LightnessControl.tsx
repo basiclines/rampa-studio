@@ -1,8 +1,15 @@
 import React from 'react';
 import { Label } from '@/components/ui/label';
+import { ColorFormat } from '@/entities/ColorRampEntity';
 import LabeledSlider from './ui/LabeledSlider';
 
-const LightnessControl = ({ ramp, onUpdate }) => (
+interface LightnessControlProps {
+  ramp: any;
+  onUpdate: (updates: any) => void;
+  colorFormat?: ColorFormat;
+}
+
+const LightnessControl: React.FC<LightnessControlProps> = ({ ramp, onUpdate, colorFormat = 'hex' }) => (
   <div>
     <Label className="mb-1 block">Lightness</Label>
     <LabeledSlider

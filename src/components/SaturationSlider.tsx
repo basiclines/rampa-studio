@@ -48,7 +48,7 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate, cla
   return (
     <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
-        label="Saturation"
+        label={ramp.colorFormat === 'oklch' ? 'Chroma' : 'Saturation'}
         startValue={startValue}
         endValue={endValue}
         min={0}

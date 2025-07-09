@@ -124,7 +124,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
             />
           </div>
           <div>
-            <Label className="mb-1 block">Saturation</Label>
+            <Label className="mb-1 block">{ramp.colorFormat === 'oklch' ? 'Chroma' : 'Saturation'}</Label>
             <LabeledSlider
               value={Math.round((ramp.saturationRange || 0) * 10) / 10}
               onChange={value => handleSetSaturationRange(ramp.id, value)}
@@ -132,7 +132,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
               max={100}
               step={0.1}
               formatValue={v => `${v}%`}
-              ariaLabel="Saturation Range"
+              ariaLabel={ramp.colorFormat === 'oklch' ? 'Chroma Range' : 'Saturation Range'}
             />
           </div>
           <div>

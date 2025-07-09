@@ -1,8 +1,15 @@
 import React from 'react';
 import { Label } from '@/components/ui/label';
+import { ColorFormat } from '@/entities/ColorRampEntity';
 import LabeledSlider from './ui/LabeledSlider';
 
-const HueControl = ({ ramp, onUpdate }) => (
+interface HueControlProps {
+  ramp: any;
+  onUpdate: (updates: any) => void;
+  colorFormat?: ColorFormat;
+}
+
+const HueControl: React.FC<HueControlProps> = ({ ramp, onUpdate, colorFormat = 'hex' }) => (
   <div>
     <Label className="mb-1 block">Hue</Label>
     <LabeledSlider
