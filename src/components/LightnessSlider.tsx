@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
-import { generateLightnessGradient, calculateAdvancedDefaults } from '@/engine/GradientEngine';
+import { generateLightnessGradient } from '@/engine/GradientEngine';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
-import { cn } from '@/engine/utils';
+import { cn, roundToOneDecimal } from '@/engine/utils';
 import { useSetLightnessGradient } from '@/usecases/SetLightnessGradient';
 
 interface LightnessSliderProps {
@@ -12,23 +12,7 @@ interface LightnessSliderProps {
   className?: string;
 }
 
-const roundToOneDecimal = (value: number): number => {
-  return Math.round(value * 10) / 10;
-};
-
 const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate, className }) => {
-  const defaults = calculateAdvancedDefaults(ramp.baseColor, 'lightness', ramp.lightnessRange);
-  
-  // Clear advanced values when range changes to force recalculation
-  useEffect(() => {
-    if (ramp.lightnessStart !== undefined || ramp.lightnessEnd !== undefined) {
-      onUpdate({ 
-        lightnessStart: undefined, 
-        lightnessEnd: undefined 
-      });
-    }
-  }, [ramp.lightnessRange]);
-  
   const getReferenceValue = () => {
     try {
       const baseColor = chroma(ramp.baseColor);
@@ -39,18 +23,14 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate, class
     }
   };
 
-  // Ensure all values are properly rounded
-  const startValue = roundToOneDecimal(ramp.lightnessStart ?? defaults.start);
-  const endValue = roundToOneDecimal(ramp.lightnessEnd ?? defaults.end);
-
   const setLightnessGradient = useSetLightnessGradient();
 
   return (
     <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
         label="Lightness"
-        startValue={startValue}
-        endValue={endValue}
+        startValue={roundToOneDecimal(ramp.lightnessStart)}
+        endValue={roundToOneDecimal(ramp.lightnessEnd)}
         min={0}
         max={100}
         onValuesChange={(start, end) => setLightnessGradient(ramp.id, roundToOneDecimal(start), roundToOneDecimal(end))}

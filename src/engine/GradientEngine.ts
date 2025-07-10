@@ -1,9 +1,6 @@
 
 import chroma from 'chroma-js';
-
-const roundToOneDecimal = (value: number): number => {
-  return Math.round(value * 10) / 10;
-};
+import { roundToOneDecimal } from './utils';
 
 export const generateLightnessGradient = (baseColor: string): string[] => {
   try {
@@ -74,54 +71,5 @@ export const generateSaturationGradient = (baseColor: string): string[] => {
       colors.push(chroma.hsl(0, saturation, 0.5).hex());
     }
     return colors;
-  }
-};
-
-export const calculateAdvancedDefaults = (
-  baseColor: string,
-  attribute: 'lightness' | 'hue' | 'saturation',
-  range: number
-) => {
-  try {
-    const color = chroma(baseColor);
-    const [h, s, l] = color.hsl();
-    
-    // Round the range first to ensure clean calculations
-    const cleanRange = roundToOneDecimal(range);
-    
-    switch (attribute) {
-      case 'lightness': {
-        const baseLightness = roundToOneDecimal((l || 0.5) * 100);
-        const halfRange = roundToOneDecimal(cleanRange / 2);
-        const start = roundToOneDecimal(baseLightness - halfRange);
-        const end = roundToOneDecimal(baseLightness + halfRange);
-        return {
-          start: roundToOneDecimal(Math.max(0, Math.min(100, start))),
-          end: roundToOneDecimal(Math.max(0, Math.min(100, end)))
-        };
-      }
-      case 'hue': {
-        const halfRange = roundToOneDecimal(cleanRange / 2);
-        return {
-          start: roundToOneDecimal(-halfRange),
-          end: roundToOneDecimal(halfRange)
-        };
-      }
-      case 'saturation': {
-        const baseSaturation = roundToOneDecimal((s || 0.5) * 100);
-        const halfRange = roundToOneDecimal(cleanRange / 2);
-        const start = roundToOneDecimal(baseSaturation - halfRange);
-        const end = roundToOneDecimal(baseSaturation + halfRange);
-        return {
-          start: roundToOneDecimal(Math.max(0, Math.min(100, start))),
-          end: roundToOneDecimal(Math.max(0, Math.min(100, end)))
-        };
-      }
-      default:
-        return { start: 0, end: 0 };
-    }
-  } catch (error) {
-    console.error('Error calculating advanced defaults:', error);
-    return { start: 0, end: 0 };
   }
 };

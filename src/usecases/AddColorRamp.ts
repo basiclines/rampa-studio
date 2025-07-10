@@ -21,9 +21,12 @@ export function addColorRamp(
     baseColor,
     colorFormat,
     totalSteps,
-    lightnessRange: DEFAULT_NEW_RAMP_VALUES.lightnessRange,
-    chromaRange: DEFAULT_NEW_RAMP_VALUES.chromaRange,
-    saturationRange: DEFAULT_NEW_RAMP_VALUES.saturationRange,
+    lightnessStart: DEFAULT_NEW_RAMP_VALUES.lightnessStart,
+    lightnessEnd: DEFAULT_NEW_RAMP_VALUES.lightnessEnd,
+    chromaStart: DEFAULT_NEW_RAMP_VALUES.chromaStart,
+    chromaEnd: DEFAULT_NEW_RAMP_VALUES.chromaEnd,
+    saturationStart: DEFAULT_NEW_RAMP_VALUES.saturationStart,
+    saturationEnd: DEFAULT_NEW_RAMP_VALUES.saturationEnd,
     swatches,
   };
   return [...colorRamps, newRamp];

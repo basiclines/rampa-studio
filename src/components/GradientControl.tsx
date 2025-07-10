@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react';
-import { cn } from '@/engine/utils';
+import { cn, roundToOneDecimal } from '@/engine/utils';
 import { calculateScalePosition } from '@/engine/HarmonyEngine';
 
 interface GradientControlProps {
@@ -19,10 +19,6 @@ interface GradientControlProps {
   scaleType?: string; // linear, geometric, fibonacci, etc
   swapHandlerColors?: boolean; // If true, swap the colors of the start/end handlers
 }
-
-const roundToOneDecimal = (value: number): number => {
-  return Math.round(value * 10) / 10;
-};
 
 const GradientControl: React.FC<GradientControlProps> = ({
   label,

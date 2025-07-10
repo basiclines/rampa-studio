@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import chroma from 'chroma-js';
 import GradientControl from '@/components/GradientControl';
-import { generateHueGradient, calculateAdvancedDefaults } from '@/engine/GradientEngine';
+import { generateHueGradient } from '@/engine/GradientEngine';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
-import { cn } from '@/engine/utils';
+import { cn, roundToOneDecimal } from '@/engine/utils';
 import { useSetChromaGradient } from '@/usecases/SetChromaGradient';
 
 interface HueSliderProps {
@@ -12,38 +12,17 @@ interface HueSliderProps {
   className?: string;
 }
 
-const roundToOneDecimal = (value: number): number => {
-  return Math.round(value * 10) / 10;
-};
-
 const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate, className }) => {
-  const defaults = calculateAdvancedDefaults(ramp.baseColor, 'hue', ramp.chromaRange);
-  
-  // Clear advanced values when range changes to force recalculation
-  useEffect(() => {
-    if (ramp.chromaStart !== undefined || ramp.chromaEnd !== undefined) {
-      onUpdate({ 
-        chromaStart: undefined, 
-        chromaEnd: undefined 
-      });
-    }
-  }, [ramp.chromaRange]);
-  
   const getReferenceValue = () => {
     try {
       const baseColor = chroma(ramp.baseColor);
       const [h] = baseColor.hsl();
       const baseHue = h || 0;
-      // Map the 0-360 hue to the gradient position (0-360 scale)
       return roundToOneDecimal(baseHue);
     } catch {
       return 0;
     }
   };
-
-  // Ensure all values are properly rounded
-  const startValue = roundToOneDecimal(ramp.chromaStart ?? defaults.start);
-  const endValue = roundToOneDecimal(ramp.chromaEnd ?? defaults.end);
 
   const setChromaGradient = useSetChromaGradient();
 
@@ -51,8 +30,8 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate, className }) => {
     <div className={cn("flex flex-col h-full", className)}>
       <GradientControl
         label="Hue"
-        startValue={startValue}
-        endValue={endValue}
+        startValue={roundToOneDecimal(ramp.chromaStart)}
+        endValue={roundToOneDecimal(ramp.chromaEnd)}
         min={-180}
         max={180}
         onValuesChange={(start, end) => setChromaGradient(ramp.id, roundToOneDecimal(start), roundToOneDecimal(end))}

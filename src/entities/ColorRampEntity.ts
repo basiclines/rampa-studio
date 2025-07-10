@@ -7,17 +7,14 @@ export interface ColorRampConfig {
   id: string;
   name: string;
   baseColor: string;
-  colorFormat: ColorFormat; // Make required, not optional
+  colorFormat: ColorFormat;
   totalSteps: number;
-  lightnessRange: number;
-  lightnessStart?: number;
-  lightnessEnd?: number;
-  chromaRange: number;
-  chromaStart?: number;
-  chromaEnd?: number;
-  saturationRange: number;
-  saturationStart?: number;
-  saturationEnd?: number;
+  lightnessStart: number;
+  lightnessEnd: number;
+  chromaStart: number;
+  chromaEnd: number;
+  saturationStart: number;
+  saturationEnd: number;
   tintColor?: string;
   tintOpacity?: number;
   tintBlendMode?: BlendMode;

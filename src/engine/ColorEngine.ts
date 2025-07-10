@@ -52,18 +52,9 @@ const calculateLightness = (
   i: number
 ): number => {
   try {
-    let newLightness: number;
-    
-    if (config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
-      const startLightness = config.lightnessStart / 100;
-      const endLightness = config.lightnessEnd / 100;
-      newLightness = startLightness + (endLightness - startLightness) * position;
-    } else {
-      const lightnessStep = (config.lightnessRange / 100) / (config.totalSteps - 1);
-      const positionFromMiddle = i - middleIndex;
-      const lightnessAdjustment = positionFromMiddle * lightnessStep;
-      newLightness = baseLightness + lightnessAdjustment;
-    }
+    const startLightness = config.lightnessStart / 100;
+    const endLightness = config.lightnessEnd / 100;
+    const newLightness = startLightness + (endLightness - startLightness) * position;
     
     return clampValue(newLightness, 0, 1);
   } catch (error) {
@@ -80,17 +71,8 @@ const calculateHue = (
   i: number
 ): number => {
   try {
-    let newHue: number;
-    
-    if (config.chromaStart !== undefined && config.chromaEnd !== undefined) {
-      const hueRange = config.chromaEnd - config.chromaStart;
-      newHue = (baseHue + config.chromaStart + hueRange * position) % 360;
-    } else {
-      const hueStep = config.chromaRange / (config.totalSteps - 1);
-      const positionFromMiddle = i - middleIndex;
-      const hueAdjustment = positionFromMiddle * hueStep;
-      newHue = (baseHue + hueAdjustment) % 360;
-    }
+    const hueRange = config.chromaEnd - config.chromaStart;
+    let newHue = (baseHue + config.chromaStart + hueRange * position) % 360;
     
     // Ensure hue is positive and valid
     while (newHue < 0) newHue += 360;
@@ -109,19 +91,10 @@ const calculateSaturation = (
   i: number
 ): number => {
   try {
-    let newSaturation: number;
-    
-    if (config.saturationStart !== undefined && config.saturationEnd !== undefined) {
-      const startSaturation = config.saturationStart / 100;
-      const endSaturation = config.saturationEnd / 100;
-      const invertedPosition = 1 - position;
-      newSaturation = startSaturation + (endSaturation - startSaturation) * invertedPosition;
-    } else {
-      const saturationStep = (config.saturationRange / 100) / (config.totalSteps - 1);
-      const positionFromMiddle = i - middleIndex;
-      const saturationAdjustment = Math.abs(positionFromMiddle) * saturationStep;
-      newSaturation = baseSaturation - saturationAdjustment;
-    }
+    const startSaturation = config.saturationStart / 100;
+    const endSaturation = config.saturationEnd / 100;
+    const invertedPosition = 1 - position;
+    const newSaturation = startSaturation + (endSaturation - startSaturation) * invertedPosition;
     
     return clampValue(newSaturation, 0, 1);
   } catch (error) {
@@ -139,18 +112,9 @@ const calculateOklchLightness = (
   i: number
 ): number => {
   try {
-    let newLightness: number;
-    
-    if (config.lightnessStart !== undefined && config.lightnessEnd !== undefined) {
-      const startLightness = config.lightnessStart / 100;
-      const endLightness = config.lightnessEnd / 100;
-      newLightness = startLightness + (endLightness - startLightness) * position;
-    } else {
-      const lightnessStep = (config.lightnessRange / 100) / (config.totalSteps - 1);
-      const positionFromMiddle = i - middleIndex;
-      const lightnessAdjustment = positionFromMiddle * lightnessStep;
-      newLightness = baseLightness + lightnessAdjustment;
-    }
+    const startLightness = config.lightnessStart / 100;
+    const endLightness = config.lightnessEnd / 100;
+    const newLightness = startLightness + (endLightness - startLightness) * position;
     
     return clampValue(newLightness, 0, 1);
   } catch (error) {
@@ -167,17 +131,8 @@ const calculateOklchHue = (
   i: number
 ): number => {
   try {
-    let newHue: number;
-    
-    if (config.chromaStart !== undefined && config.chromaEnd !== undefined) {
-      const hueRange = config.chromaEnd - config.chromaStart;
-      newHue = (baseHue + config.chromaStart + hueRange * position) % 360;
-    } else {
-      const hueStep = config.chromaRange / (config.totalSteps - 1);
-      const positionFromMiddle = i - middleIndex;
-      const hueAdjustment = positionFromMiddle * hueStep;
-      newHue = (baseHue + hueAdjustment) % 360;
-    }
+    const hueRange = config.chromaEnd - config.chromaStart;
+    let newHue = (baseHue + config.chromaStart + hueRange * position) % 360;
     
     // Ensure hue is positive and valid
     while (newHue < 0) newHue += 360;
@@ -196,21 +151,11 @@ const calculateOklchChroma = (
   i: number
 ): number => {
   try {
-    let newChroma: number;
-    
-    if (config.saturationStart !== undefined && config.saturationEnd !== undefined) {
-      // For OKLCH, we interpret saturation controls as chroma controls
-      const startChroma = (config.saturationStart / 100) * baseChroma;
-      const endChroma = (config.saturationEnd / 100) * baseChroma;
-      const invertedPosition = 1 - position;
-      newChroma = startChroma + (endChroma - startChroma) * invertedPosition;
-    } else {
-      // saturationRange becomes chromaRange in OKLCH context
-      const chromaStep = (config.saturationRange / 100) / (config.totalSteps - 1);
-      const positionFromMiddle = i - middleIndex;
-      const chromaAdjustment = Math.abs(positionFromMiddle) * chromaStep;
-      newChroma = baseChroma - (baseChroma * chromaAdjustment);
-    }
+    // For OKLCH, we interpret saturation controls as chroma controls
+    const startChroma = (config.saturationStart / 100) * baseChroma;
+    const endChroma = (config.saturationEnd / 100) * baseChroma;
+    const invertedPosition = 1 - position;
+    const newChroma = startChroma + (endChroma - startChroma) * invertedPosition;
     
     return Math.max(0, newChroma); // Chroma cannot be negative
   } catch (error) {
