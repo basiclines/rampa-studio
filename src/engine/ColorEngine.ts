@@ -312,73 +312,125 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
 };
 
 // Color harmony helpers for ramp creation
-export function getAnalogousColors(baseColor: string, count: number = 2): string[] {
-  // Returns baseColor plus count-1 analogous colors (±30° steps)
-  const color = chroma(baseColor);
-  const [h, s, l] = color.hsl();
-  const step = 30;
-  const colors = [baseColor];
-  for (let i = 1; i < count; i++) {
-    const angle = h + step * i;
-    colors.push(chroma.hsl((angle + 360) % 360, s, l).hex());
+
+export function getAnalogousColors(baseColor: string, count: number = 2, mode: 'hsl' | 'oklch' = 'hsl'): string[] {
+  if (mode === 'oklch') {
+    const oklch = convertToOklch(baseColor);
+    const step = 30;
+    const colors = [formatOklchString(oklch)];
+    for (let i = 1; i < count; i++) {
+      const newHue = (oklch.h + step * i) % 360;
+      colors.push(formatOklchString({ ...oklch, h: newHue }));
+    }
+    return colors;
+  } else {
+    const color = chroma(baseColor);
+    const [h, s, l] = color.hsl();
+    const step = 30;
+    const colors = [baseColor];
+    for (let i = 1; i < count; i++) {
+      const angle = h + step * i;
+      colors.push(chroma.hsl((angle + 360) % 360, s, l).hex());
+    }
+    return colors;
   }
-  return colors;
 }
 
-export function getTriadColors(baseColor: string): string[] {
-  // Returns baseColor plus two triadic colors (±120°)
-  const color = chroma(baseColor);
-  const [h, s, l] = color.hsl();
-  return [
-    baseColor,
-    chroma.hsl((h + 120) % 360, s, l).hex(),
-    chroma.hsl((h + 240) % 360, s, l).hex(),
-  ];
+export function getTriadColors(baseColor: string, mode: 'hsl' | 'oklch' = 'hsl'): string[] {
+  if (mode === 'oklch') {
+    const oklch = convertToOklch(baseColor);
+    return [
+      formatOklchString(oklch),
+      formatOklchString({ ...oklch, h: (oklch.h + 120) % 360 }),
+      formatOklchString({ ...oklch, h: (oklch.h + 240) % 360 }),
+    ];
+  } else {
+    const color = chroma(baseColor);
+    const [h, s, l] = color.hsl();
+    return [
+      baseColor,
+      chroma.hsl((h + 120) % 360, s, l).hex(),
+      chroma.hsl((h + 240) % 360, s, l).hex(),
+    ];
+  }
 }
 
-export function getComplementaryColors(baseColor: string): string[] {
-  // Returns baseColor and its complement (180° apart)
-  const color = chroma(baseColor);
-  const [h, s, l] = color.hsl();
-  return [
-    baseColor,
-    chroma.hsl((h + 180) % 360, s, l).hex(),
-  ];
+export function getComplementaryColors(baseColor: string, mode: 'hsl' | 'oklch' = 'hsl'): string[] {
+  if (mode === 'oklch') {
+    const oklch = convertToOklch(baseColor);
+    return [
+      formatOklchString(oklch),
+      formatOklchString({ ...oklch, h: (oklch.h + 180) % 360 }),
+    ];
+  } else {
+    const color = chroma(baseColor);
+    const [h, s, l] = color.hsl();
+    return [
+      baseColor,
+      chroma.hsl((h + 180) % 360, s, l).hex(),
+    ];
+  }
 }
 
-export function getSplitComplementaryColors(baseColor: string): string[] {
-  // Returns baseColor and two split complements (±150°, ±210°)
-  const color = chroma(baseColor);
-  const [h, s, l] = color.hsl();
-  return [
-    baseColor,
-    chroma.hsl((h + 150) % 360, s, l).hex(),
-    chroma.hsl((h + 210) % 360, s, l).hex(),
-  ];
+export function getSplitComplementaryColors(baseColor: string, mode: 'hsl' | 'oklch' = 'hsl'): string[] {
+  if (mode === 'oklch') {
+    const oklch = convertToOklch(baseColor);
+    return [
+      formatOklchString(oklch),
+      formatOklchString({ ...oklch, h: (oklch.h + 150) % 360 }),
+      formatOklchString({ ...oklch, h: (oklch.h + 210) % 360 }),
+    ];
+  } else {
+    const color = chroma(baseColor);
+    const [h, s, l] = color.hsl();
+    return [
+      baseColor,
+      chroma.hsl((h + 150) % 360, s, l).hex(),
+      chroma.hsl((h + 210) % 360, s, l).hex(),
+    ];
+  }
 }
 
-export function getSquareColors(baseColor: string): string[] {
-  // Returns baseColor and three others at 90° intervals
-  const color = chroma(baseColor);
-  const [h, s, l] = color.hsl();
-  return [
-    baseColor,
-    chroma.hsl((h + 90) % 360, s, l).hex(),
-    chroma.hsl((h + 180) % 360, s, l).hex(),
-    chroma.hsl((h + 270) % 360, s, l).hex(),
-  ];
+export function getSquareColors(baseColor: string, mode: 'hsl' | 'oklch' = 'hsl'): string[] {
+  if (mode === 'oklch') {
+    const oklch = convertToOklch(baseColor);
+    return [
+      formatOklchString(oklch),
+      formatOklchString({ ...oklch, h: (oklch.h + 90) % 360 }),
+      formatOklchString({ ...oklch, h: (oklch.h + 180) % 360 }),
+      formatOklchString({ ...oklch, h: (oklch.h + 270) % 360 }),
+    ];
+  } else {
+    const color = chroma(baseColor);
+    const [h, s, l] = color.hsl();
+    return [
+      baseColor,
+      chroma.hsl((h + 90) % 360, s, l).hex(),
+      chroma.hsl((h + 180) % 360, s, l).hex(),
+      chroma.hsl((h + 270) % 360, s, l).hex(),
+    ];
+  }
 }
 
-export function getCompoundColors(baseColor: string): string[] {
-  // Compound: base, complement, and two near-complements (±150°, ±210°)
-  const color = chroma(baseColor);
-  const [h, s, l] = color.hsl();
-  return [
-    baseColor,
-    chroma.hsl((h + 180) % 360, s, l).hex(),
-    chroma.hsl((h + 150) % 360, s, l).hex(),
-    chroma.hsl((h + 210) % 360, s, l).hex(),
-  ];
+export function getCompoundColors(baseColor: string, mode: 'hsl' | 'oklch' = 'hsl'): string[] {
+  if (mode === 'oklch') {
+    const oklch = convertToOklch(baseColor);
+    return [
+      formatOklchString(oklch),
+      formatOklchString({ ...oklch, h: (oklch.h + 180) % 360 }),
+      formatOklchString({ ...oklch, h: (oklch.h + 150) % 360 }),
+      formatOklchString({ ...oklch, h: (oklch.h + 210) % 360 }),
+    ];
+  } else {
+    const color = chroma(baseColor);
+    const [h, s, l] = color.hsl();
+    return [
+      baseColor,
+      chroma.hsl((h + 180) % 360, s, l).hex(),
+      chroma.hsl((h + 150) % 360, s, l).hex(),
+      chroma.hsl((h + 210) % 360, s, l).hex(),
+    ];
+  }
 }
 
 // Color format conversion utility

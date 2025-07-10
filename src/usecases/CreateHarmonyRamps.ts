@@ -20,30 +20,31 @@ export function createHarmonyRamps(
 ): ColorRampConfig[] {
   let harmonyColors: string[] = [];
   let namePrefix = '';
+  const mode = baseRamp.colorFormat === 'oklch' ? 'oklch' : 'hsl';
 
   switch (harmonyType) {
     case 'analogous':
-      harmonyColors = getAnalogousColors(baseRamp.baseColor, 2).slice(1);
+      harmonyColors = getAnalogousColors(baseRamp.baseColor, 2, mode).slice(1);
       namePrefix = 'Analogue';
       break;
     case 'triad':
-      harmonyColors = getTriadColors(baseRamp.baseColor).slice(1);
+      harmonyColors = getTriadColors(baseRamp.baseColor, mode).slice(1);
       namePrefix = 'Triad';
       break;
     case 'complementary':
-      harmonyColors = getComplementaryColors(baseRamp.baseColor).slice(1);
+      harmonyColors = getComplementaryColors(baseRamp.baseColor, mode).slice(1);
       namePrefix = 'Complementary';
       break;
     case 'split-complementary':
-      harmonyColors = getSplitComplementaryColors(baseRamp.baseColor).slice(1);
+      harmonyColors = getSplitComplementaryColors(baseRamp.baseColor, mode).slice(1);
       namePrefix = 'Split Comp.';
       break;
     case 'square':
-      harmonyColors = getSquareColors(baseRamp.baseColor).slice(1);
+      harmonyColors = getSquareColors(baseRamp.baseColor, mode).slice(1);
       namePrefix = 'Square';
       break;
     case 'compound':
-      harmonyColors = getCompoundColors(baseRamp.baseColor).slice(1);
+      harmonyColors = getCompoundColors(baseRamp.baseColor, mode).slice(1);
       namePrefix = 'Compound';
       break;
   }
@@ -52,6 +53,7 @@ export function createHarmonyRamps(
   const newRamps = harmonyColors.map((color, i) => {
     const swatches: ColorSwatch[] = Array.from({ length: baseRamp.totalSteps }, (_, idx) => ({
       color,
+      colorFormat: baseRamp.colorFormat,
       index: idx,
       locked: false
     }));
