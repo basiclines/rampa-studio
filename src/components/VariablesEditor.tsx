@@ -1,0 +1,128 @@
+import React, { useState, useRef, useEffect } from 'react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Code } from 'lucide-react';
+import Editor from '@monaco-editor/react';
+import { useSyncCSSVariables } from '@/usecases/SyncCSSVariables';
+import { useGetCSSVariables } from '@/usecases/GetCSSVariables';
+import { useUpdateMonacoCompletions } from '@/usecases/UpdateVariablesEditorCompletions';
+import * as monaco from 'monaco-editor';
+
+const VariablesEditor: React.FC = () => {
+  const [cssCode, setCssCode] = useState(`/* CSS for your custom components */
+/* Use CSS variables from your color ramps with autocomplete support */
+.custom-button {
+  background-color: #3b82f6; /* Try typing 'var(' to see your color ramp variables */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.custom-button:hover {
+  background-color: #2563eb; /* Replace with var(--your-ramp-name-20) */
+}
+
+.custom-card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+}
+
+.custom-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1f2937;
+  font-size: 1.125rem;
+  font-weight: 600;
+}`);
+
+  // Sync CSS variables with color ramps
+  useSyncCSSVariables();
+  
+  // Get CSS variables and generated CSS code
+  const cssVariables = useGetCSSVariables();
+  
+  // Variables Editor integration
+  const variablesEditorRef = useRef<typeof monaco | null>(null);
+  const completionProviderRef = useRef<monaco.IDisposable | null>(null);
+  const updateVariablesEditorCompletions = useUpdateMonacoCompletions();
+
+  const handleEditorChange = (value: string | undefined) => {
+    if (value !== undefined) {
+      setCssCode(value);
+    }
+  };
+
+  const handleEditorDidMount = (editor: monaco.editor.IStandaloneCodeEditor, monacoInstance: typeof monaco) => {
+    variablesEditorRef.current = monacoInstance;
+    
+    // Update Variables Editor with CSS variables for autocomplete
+    if (completionProviderRef.current) {
+      completionProviderRef.current.dispose();
+    }
+    completionProviderRef.current = updateVariablesEditorCompletions(cssVariables, monacoInstance);
+  };
+
+  // Update Variables Editor completions when CSS variables change
+  useEffect(() => {
+    if (variablesEditorRef.current && cssVariables.length > 0) {
+      if (completionProviderRef.current) {
+        completionProviderRef.current.dispose();
+      }
+      completionProviderRef.current = updateVariablesEditorCompletions(cssVariables, variablesEditorRef.current);
+    }
+  }, [cssVariables, updateVariablesEditorCompletions]);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      if (completionProviderRef.current) {
+        completionProviderRef.current.dispose();
+      }
+    };
+  }, []);
+
+  return (
+    <Card className="h-full flex flex-col">
+      <CardHeader className="pb-4">
+        <CardTitle className="flex items-center gap-2 text-lg">
+          <Code className="w-5 h-5" />
+          Variables Editor
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="flex-1 p-0">
+        <div className="h-[calc(100vh-200px)] border rounded-md overflow-hidden">
+          <Editor
+            height="100%"
+            defaultLanguage="css"
+            value={cssCode}
+            onChange={handleEditorChange}
+            onMount={handleEditorDidMount}
+            theme="vs-dark"
+            options={{
+              minimap: { enabled: false },
+              fontSize: 14,
+              lineNumbers: 'on',
+              roundedSelection: false,
+              scrollBeyondLastLine: false,
+              automaticLayout: true,
+              tabSize: 2,
+              insertSpaces: true,
+              wordWrap: 'on',
+              suggest: {
+                showKeywords: true,
+                showSnippets: true,
+              },
+            }}
+          />
+        </div>
+      </CardContent>
+    </Card>
+  );
+};
+
+export default VariablesEditor;

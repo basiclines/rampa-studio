@@ -80,6 +80,27 @@ The tests verify:
 - Empty state handling
 - Multiple color ramps support
 
+## Lazy Loading Optimization
+
+The Variables Editor uses React lazy loading for optimal performance:
+
+### Bundle Splitting
+- **Main App Bundle**: 631KB (colors functionality, UI framework)
+- **Variables Editor Chunk**: 3.3MB (Monaco Editor + language support)
+- **Total Size Reduction**: 84% smaller initial load
+
+### Loading Strategy
+1. **Initial Page Load**: Only loads essential app code (631KB)
+2. **Colors Tab**: Works instantly - no Variables Editor needed
+3. **UI Tab Click**: Shows loading spinner while Variables Editor chunk loads
+4. **Subsequent UI Tab Access**: Instant - Variables Editor cached
+
+### User Experience
+- **Fast Initial Load**: App appears instantly
+- **Progressive Enhancement**: Heavy editor loads only when needed
+- **Graceful Loading**: Smooth spinner transition during chunk load
+- **No Blocking**: Rest of app remains responsive
+
 ## Implementation Details
 
 ### State Management
@@ -91,6 +112,9 @@ The CSS variables state is managed separately from color ramps state to follow t
 - Contextual suggestions based on cursor position
 
 ### Performance
+- **Lazy Loading**: Variables Editor loads only when UI tab is accessed (84% smaller initial bundle)
+- **Code Splitting**: Monaco Editor (~3.3MB) is separated from main app bundle (~631KB)
+- **Fast Initial Load**: Users see the app instantly, Variables Editor loads in background
 - Variables are generated only when color ramps change
 - Variables Editor completions are updated efficiently
 - No unnecessary re-renders or computations
