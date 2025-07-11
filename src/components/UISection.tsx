@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Code, Eye } from 'lucide-react';
 import { useGetCSSVariables, useGetCSSCode } from '@/usecases/GetCSSVariables';
 import LazyVariablesEditor from './LazyVariablesEditor';
+import ComponentsPlayground from './ComponentsPlayground';
 
 const UISection: React.FC = () => {
   // Get CSS variables and generated CSS code for display
@@ -54,17 +55,9 @@ const UISection: React.FC = () => {
                 Component Preview
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex-1 flex items-center justify-center bg-gray-50 rounded-md">
-              <div className="text-center text-gray-500">
-                <Eye className="w-12 h-12 mx-auto mb-4 opacity-50" />
-                <p className="text-lg font-medium">Live Preview</p>
-                <p className="text-sm mt-2">
-                  This area will show the preview<br />
-                  of your custom components
-                </p>
-                <div className="mt-4 text-xs text-gray-400">
-                  Preview functionality coming soon...
-                </div>
+            <CardContent className="flex-1 p-0">
+              <div className="h-[calc(50vh-100px)] overflow-auto">
+                <ComponentsPlayground />
               </div>
             </CardContent>
           </Card>
