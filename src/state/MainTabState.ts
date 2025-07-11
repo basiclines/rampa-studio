@@ -2,12 +2,15 @@ import { create } from 'zustand';
 
 export type MainTabType = 'colors' | 'ui';
 
-interface MainTabState {
+type State = {
   activeTab: MainTabType;
-  setActiveTab: (tab: MainTabType) => void;
-}
+};
 
-export const useMainTabState = create<MainTabState>((set) => ({
+type Actions = {
+  setActiveTab: (tab: MainTabType) => void;
+};
+
+export const useMainTabStore = create<State & Actions>((set) => ({
   activeTab: 'colors',
   setActiveTab: (tab) => set({ activeTab: tab }),
 }));
