@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Button } from '@/components/uiproviders/button';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/uiproviders/select';
-import { Badge } from '@/components/uiproviders/badge';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/uiproviders/card';
-import { Separator } from '@/components/uiproviders/separator';
+import { Button } from '@/uiproviders/shadcn/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/uiproviders/shadcn/select';
+import { Badge } from '@/uiproviders/shadcn/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '@/uiproviders/shadcn/card';
+import { Separator } from '@/uiproviders/shadcn/separator';
 
 const ComponentsPlayground: React.FC = () => {
   const [selectedVariant, setSelectedVariant] = useState<string>('default');
@@ -175,7 +175,7 @@ const ComponentsPlayground: React.FC = () => {
             <div>
               <p className="text-sm font-medium text-blue-900">Pro Tip</p>
               <p className="text-sm text-blue-700">
-                All components are imported from <code className="bg-blue-100 px-1 rounded">@/components/uiproviders</code> 
+                All components are imported from <code className="bg-blue-100 px-1 rounded">@/uiproviders/shadcn</code> 
                 and can be styled with CSS variables from your color ramps!
               </p>
             </div>
