@@ -4,7 +4,7 @@ import { Code, Eye } from 'lucide-react';
 import Editor from '@monaco-editor/react';
 import { useSyncCSSVariables } from '@/usecases/SyncCSSVariables';
 import { useGetCSSVariables, useGetCSSCode } from '@/usecases/GetCSSVariables';
-import { useUpdateMonacoCompletions } from '@/usecases/UpdateMonacoCompletions';
+import { useUpdateMonacoCompletions } from '@/usecases/UpdateVariablesEditorCompletions';
 import * as monaco from 'monaco-editor';
 
 const UISection: React.FC = () => {
@@ -47,10 +47,10 @@ const UISection: React.FC = () => {
   const cssVariables = useGetCSSVariables();
   const generatedCSSCode = useGetCSSCode();
   
-  // Monaco Editor integration
-  const monacoRef = useRef<typeof monaco | null>(null);
+  // Variables Editor integration
+  const variablesEditorRef = useRef<typeof monaco | null>(null);
   const completionProviderRef = useRef<monaco.IDisposable | null>(null);
-  const updateMonacoCompletions = useUpdateMonacoCompletions();
+  const updateVariablesEditorCompletions = useUpdateMonacoCompletions();
 
   const handleEditorChange = (value: string | undefined) => {
     if (value !== undefined) {
@@ -59,24 +59,24 @@ const UISection: React.FC = () => {
   };
 
   const handleEditorDidMount = (editor: monaco.editor.IStandaloneCodeEditor, monacoInstance: typeof monaco) => {
-    monacoRef.current = monacoInstance;
+    variablesEditorRef.current = monacoInstance;
     
-    // Update Monaco with CSS variables for autocomplete
+    // Update Variables Editor with CSS variables for autocomplete
     if (completionProviderRef.current) {
       completionProviderRef.current.dispose();
     }
-    completionProviderRef.current = updateMonacoCompletions(cssVariables, monacoInstance);
+    completionProviderRef.current = updateVariablesEditorCompletions(cssVariables, monacoInstance);
   };
 
-  // Update Monaco completions when CSS variables change
+  // Update Variables Editor completions when CSS variables change
   useEffect(() => {
-    if (monacoRef.current && cssVariables.length > 0) {
+    if (variablesEditorRef.current && cssVariables.length > 0) {
       if (completionProviderRef.current) {
         completionProviderRef.current.dispose();
       }
-      completionProviderRef.current = updateMonacoCompletions(cssVariables, monacoRef.current);
+      completionProviderRef.current = updateVariablesEditorCompletions(cssVariables, variablesEditorRef.current);
     }
-  }, [cssVariables, updateMonacoCompletions]);
+  }, [cssVariables, updateVariablesEditorCompletions]);
 
   // Cleanup on unmount
   useEffect(() => {
@@ -94,10 +94,10 @@ const UISection: React.FC = () => {
         <div className="w-3/5">
           <Card className="h-full flex flex-col">
             <CardHeader className="pb-4">
-              <CardTitle className="flex items-center gap-2 text-lg">
-                <Code className="w-5 h-5" />
-                CSS Editor
-              </CardTitle>
+                          <CardTitle className="flex items-center gap-2 text-lg">
+              <Code className="w-5 h-5" />
+              Variables Editor
+            </CardTitle>
             </CardHeader>
             <CardContent className="flex-1 p-0">
               <div className="h-[calc(100vh-200px)] border rounded-md overflow-hidden">

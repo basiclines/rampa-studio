@@ -2,9 +2,9 @@ import { CSSVariable } from '@/state/CSSVariablesState';
 import * as monaco from 'monaco-editor';
 
 /**
- * Pure function to convert CSS variables to Monaco completion items
+ * Pure function to convert CSS variables to Variables Editor completion items
  */
-export function createMonacoCompletionItems(variables: CSSVariable[]): Omit<monaco.languages.CompletionItem, 'range'>[] {
+export function createVariablesEditorCompletionItems(variables: CSSVariable[]): Omit<monaco.languages.CompletionItem, 'range'>[] {
   return variables.map((variable) => ({
     label: variable.name,
     kind: monaco.languages.CompletionItemKind.Variable,
@@ -16,12 +16,12 @@ export function createMonacoCompletionItems(variables: CSSVariable[]): Omit<mona
 }
 
 /**
- * Usecase to update Monaco Editor with CSS variable completions
+ * Usecase to update Variables Editor with CSS variable completions
  */
 export function useUpdateMonacoCompletions() {
   return (variables: CSSVariable[], monacoInstance?: typeof monaco) => {
     if (!monacoInstance) {
-      // If Monaco is not available, we'll handle this in the component
+      // If Variables Editor is not available, we'll handle this in the component
       return;
     }
 
@@ -36,7 +36,7 @@ export function useUpdateMonacoCompletions() {
           endColumn: word.endColumn,
         };
 
-        const suggestions = createMonacoCompletionItems(variables).map(item => ({
+        const suggestions = createVariablesEditorCompletionItems(variables).map(item => ({
           ...item,
           range: range,
         }));
