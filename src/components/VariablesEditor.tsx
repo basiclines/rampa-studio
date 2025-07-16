@@ -13,8 +13,10 @@ import * as monaco from 'monaco-editor';
 
 const DEFAULT_CSS_TEMPLATE = `/* CSS for your custom components */
 /* Use CSS variables from your color ramps with autocomplete support */
+/* Try typing 'var(' to see your available color ramp variables */
+
 .custom-button {
-  background-color: #3b82f6; /* Try typing 'var(' to see your color ramp variables */
+  background-color: #3b82f6;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.375rem;
@@ -25,7 +27,7 @@ const DEFAULT_CSS_TEMPLATE = `/* CSS for your custom components */
 }
 
 .custom-button:hover {
-  background-color: #2563eb; /* Replace with var(--your-ramp-name-20) */
+  background-color: #2563eb;
 }
 
 .custom-card {

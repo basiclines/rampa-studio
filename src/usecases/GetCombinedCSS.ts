@@ -21,11 +21,7 @@ export function useGetCombinedCSS() {
  * This should be used to populate the editor when it first loads
  */
 export function useGetInitialCSS() {
-  const generatedCSS = useGetCSSCode();
   const userCSS = useGetUserCSS();
-  const isUserModified = useIsUserCSSModified();
   
-  // If user has modifications, use their custom CSS
-  // Otherwise, use the auto-generated CSS as starting point
-  return isUserModified && userCSS ? userCSS : generatedCSS;
+  return userCSS;
 } 
