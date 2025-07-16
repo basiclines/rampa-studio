@@ -1,5 +1,6 @@
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { CSSVariable, useCSSVariablesStore } from '@/state/CSSVariablesState';
+import { generateColorRamp } from '@/engine/ColorEngine';
 
 /**
  * Pure function to generate CSS variables from color ramps
@@ -16,13 +17,20 @@ export function generateCSSVariables(colorRamps: ColorRampConfig[]): CSSVariable
       .replace(/\s+/g, '-')
       .replace(/[^a-z0-9-]/g, '');
     
-    ramp.swatches.forEach((swatch) => {
-      const stepNumber = swatch.index * 10;
+    // Generate the actual colors using the color engine
+    const generatedColors = generateColorRamp(ramp);
+    
+    generatedColors.forEach((color, index) => {
+      const stepNumber = index * 10;
       const variableName = `--${sanitizedRampName}-${stepNumber}`;
+      
+      // Use locked color if available, otherwise use generated color
+      const swatch = ramp.swatches[index];
+      const finalColor = (swatch && swatch.locked) ? swatch.color : color;
       
       variables.push({
         name: variableName,
-        value: swatch.color,
+        value: finalColor,
         rampName: sanitizedRampName,
         stepNumber: stepNumber,
       });

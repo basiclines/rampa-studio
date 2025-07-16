@@ -13,7 +13,7 @@ export function useSyncCSSVariables() {
   useEffect(() => {
     // Generate CSS variables whenever color ramps change
     generateCSSVariables(colorRamps);
-  }, [colorRamps, generateCSSVariables]);
+  }, [colorRamps]);
   
   return {
     colorRamps,
