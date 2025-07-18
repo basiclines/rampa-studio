@@ -9,41 +9,11 @@ import { useUpdateMonacoCompletions } from '@/usecases/UpdateVariablesEditorComp
 import { useGetInitialCSS } from '@/usecases/GetCombinedCSS';
 import { useSetUserCSS, useResetUserCSS } from '@/usecases/SetUserCSS';
 import { useIsUserCSSModified } from '@/usecases/GetUserCSS';
+import { useComponentProviderState } from '@/state/ComponentProviderState';
+import { useGetProviderDefaultCSS } from '@/usecases/GetProviderDefaultCSS';
 import * as monaco from 'monaco-editor';
 
-const DEFAULT_CSS_TEMPLATE = `/* CSS for your custom components */
-/* Use CSS variables from your color ramps with autocomplete support */
-/* Try typing 'var(' to see your available color ramp variables */
-
-.custom-button {
-  background-color: #3b82f6;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  transition: background-color 0.2s;
-}
-
-.custom-button:hover {
-  background-color: #2563eb;
-}
-
-.custom-card {
-  background: white;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  border: 1px solid #e5e7eb;
-}
-
-.custom-card h3 {
-  margin: 0 0 0.5rem 0;
-  color: #1f2937;
-  font-size: 1.125rem;
-  font-weight: 600;
-}`;
+const DEFAULT_CSS_TEMPLATE = ``;
 
 const VariablesEditor: React.FC = () => {
   // Sync CSS variables with color ramps
@@ -53,6 +23,10 @@ const VariablesEditor: React.FC = () => {
   const cssVariables = useGetCSSVariables();
   const initialCSS = useGetInitialCSS();
   const isUserModified = useIsUserCSSModified();
+  
+  // Get provider state and default CSS
+  const { selectedProvider } = useComponentProviderState();
+  const providerDefaultCSS = useGetProviderDefaultCSS(selectedProvider);
   
   // User CSS state actions
   const setUserCSS = useSetUserCSS();
@@ -69,7 +43,8 @@ const VariablesEditor: React.FC = () => {
     if (initialCSS && initialCSS.trim()) {
       return initialCSS;
     }
-    return DEFAULT_CSS_TEMPLATE;
+    // Combine provider default CSS with the default template
+    return providerDefaultCSS + DEFAULT_CSS_TEMPLATE;
   };
 
   const handleEditorChange = (value: string | undefined) => {
@@ -103,7 +78,7 @@ const VariablesEditor: React.FC = () => {
         editorRef.current.setValue(newContent);
       }
     }
-  }, [initialCSS, isUserModified]);
+  }, [initialCSS, isUserModified, providerDefaultCSS]);
 
   // Update Variables Editor completions when CSS variables change
   useEffect(() => {
