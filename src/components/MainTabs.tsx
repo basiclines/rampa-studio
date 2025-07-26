@@ -1,10 +1,14 @@
 import React from 'react';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useGetActiveTab } from '@/usecases/GetActiveTab';
 import { useShowColorTab } from '@/usecases/ShowColorTab';
 import { useShowUITab } from '@/usecases/ShowUITab';
 import ColorsSection from './ColorsSection';
 import UISection from './UISection';
+import AmplitudeTracker from '@/utilities/AmplitudeTracker';
+
+const amplitudeTracker = AmplitudeTracker.getInstance()
+const TABS_ENABLED = (amplitudeTracker.getVariant('components_editor') == 'on')
 
 const MainTabs: React.FC = () => {
   const activeTab = useGetActiveTab();
@@ -14,7 +18,7 @@ const MainTabs: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       {/* Top Navigation Tabs */}
-      <div className="flex justify-center pt-6 pb-4">
+      <div className={`flex justify-center pt-6 pb-4 ${TABS_ENABLED ? '' : 'hidden'}`}>
         <Tabs 
           value={activeTab} 
           onValueChange={(value) => {
