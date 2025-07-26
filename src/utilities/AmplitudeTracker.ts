@@ -16,6 +16,7 @@ export default class AmplitudeTracker {
 
   constructor() {
     if (IS_DEBUG) return
+    
     amplitude.init(AMPLITUDE_API_KEY, {
       autocapture: true
     })
@@ -37,12 +38,14 @@ export default class AmplitudeTracker {
 
   track(event: string, properties: Record<string, any>) {
     if (IS_DEBUG) return console.log('track', event, properties)
+
     const sessionReplayProperties = sessionReplay.getSessionReplayProperties();
     amplitude.track(event, {...properties, ...sessionReplayProperties})
   }
 
   getVariant(flag: string) {
     if (IS_DEBUG) return 'on'
+
     return this.experiment.variant(flag)
   }
 
