@@ -304,7 +304,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
   // Render HEX input
   const renderHexInput = () => (
     <div className="flex items-center">
-      <span className="text-black text-opacity-80">#</span>
+      <span className="r-text-primary">#</span>
               <input
           ref={hexInputRef}
           type="text"
@@ -334,7 +334,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e)}
-          className="bg-transparent border-none outline-none text-black text-opacity-80 text-xs min-w-0 w-16 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-16 cursor-text"
           maxLength={6}
           readOnly={!isEditing}
         />
@@ -347,7 +347,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     
     return (
       <div className="flex items-center gap-1">
-        <span className="text-black text-opacity-80">hsl(</span>
+        <span className="r-text-primary">hsl(</span>
         <input
           ref={hslRefs.hue}
           type="text"
@@ -383,11 +383,11 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'hue', false)}
-          className="bg-transparent border-none outline-none text-black text-opacity-80 text-xs min-w-0 w-8 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-8 cursor-text"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="text-black text-opacity-80">, </span>
+        <span className="r-text-primary">, </span>
         <input
           ref={hslRefs.saturation}
           type="text"
@@ -423,11 +423,11 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'saturation', false)}
-          className="bg-transparent border-none outline-none text-black text-opacity-80 text-xs min-w-0 w-8 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-8 cursor-text"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="text-black text-opacity-80">, </span>
+        <span className="r-text-primary">, </span>
         <input
           ref={hslRefs.lightness}
           type="text"
@@ -463,11 +463,11 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'lightness', false)}
-          className="bg-transparent border-none outline-none text-black text-opacity-80 text-xs min-w-0 w-8 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-8 cursor-text"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="text-black text-opacity-80">)</span>
+        <span className="r-text-primary">)</span>
       </div>
     );
   };
@@ -479,7 +479,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     
     return (
       <div className="flex items-center gap-1">
-        <span className="text-black text-opacity-80">oklch(</span>
+        <span className="r-text-primary">oklch(</span>
         <input
           ref={oklchRefs.lightness}
           type="text"
@@ -517,10 +517,10 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'lightness', true)}
-          className="bg-transparent border-none outline-none text-black text-opacity-80 text-xs min-w-0 w-12 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-12 cursor-text"
           readOnly={!isEditing}
         />
-        <span className="text-black text-opacity-80">, </span>
+        <span className="r-text-primary">, </span>
         <input
           ref={oklchRefs.chroma}
           type="text"
@@ -558,10 +558,10 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'chroma', true)}
-          className="bg-transparent border-none outline-none text-black text-opacity-80 text-xs min-w-0 w-12 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-12 cursor-text"
           readOnly={!isEditing}
         />
-        <span className="text-black text-opacity-80">, </span>
+        <span className="r-text-primary">, </span>
         <input
           ref={oklchRefs.hue}
           type="text"
@@ -599,19 +599,19 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'hue', true)}
-          className="bg-transparent border-none outline-none text-black text-opacity-80 text-xs min-w-0 w-8 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-8 cursor-text"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="text-black text-opacity-80">)</span>
+        <span className="r-text-primary">)</span>
       </div>
     );
   };
 
   return (
     <div
-      className={`text-xs text-black text-opacity-80 text-center uppercase ${className} ${
-        isHovered || isEditing ? 'bg-white bg-opacity-20 rounded border border-white border-opacity-40 px-1' : 'px-1'
+      className={`text-xs r-text-primary text-center uppercase px-1 ${className} ${
+        isHovered || isEditing ? 'active ' : ''
       }`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
