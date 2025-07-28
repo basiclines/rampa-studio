@@ -5,6 +5,7 @@ import { BlendMode } from '@/entities/BlendModeEntity';
 import { convertToOklch, formatOklchString } from '@/engine/OklchEngine';
 import { ColorFormat } from '@/entities/ColorRampEntity';
 import OklchPicker from './OklchPicker';
+import EditableColorValue from './EditableColorValue';
 
 interface TintColorSwatchProps {
   color: string;
@@ -16,6 +17,7 @@ interface TintColorSwatchProps {
   onBlendModeChange: (blendMode: BlendMode) => void;
   onRemove: () => void;
   id?: string;
+  rampId?: string;
   onPreviewBlendMode?: (blendMode: string | undefined) => void;
   className?: string;
   style?: React.CSSProperties;
@@ -31,6 +33,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
   blendMode,
   onColorChange,
   id,
+  rampId,
   empty = false,
   overlap = false,
 }) => {
@@ -132,7 +135,25 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
             : undefined,
         }}
       >
-        {!empty && (
+        {!empty && rampId && (
+          <div
+            className="absolute"
+            style={{
+              marginTop: 16,
+              top: '100%',
+              left: 0,
+              right: 0,
+            }}
+          >
+            <EditableColorValue
+              color={color || '#FE0000'}
+              colorFormat={colorFormat}
+              rampId={rampId}
+              colorType="tint"
+            />
+          </div>
+        )}
+        {!empty && !rampId && (
           <span className="absolute text-xs text-black text-opacity-80"
           style={{
             marginTop: 16,

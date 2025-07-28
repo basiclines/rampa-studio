@@ -1,3 +1,7 @@
+.r-text-primary { color: rgba(0, 0, 0, 0.9) }
+.r-text-secondary { color: rgba(0, 0, 0, 0.6) }
+.r-text-tertiary { color: rgba(0, 0, 0, 0.4) }
+
 .r-material-light {
   backdrop-filter: blur(100px);
   background-color: rgba(255, 255, 255, 0.95);

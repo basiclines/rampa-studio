@@ -199,6 +199,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                   colorFormat={ramp.colorFormat || 'hex'}
                   onChange={color => onUpdate({ baseColor: color })}
                   id={`base-color-picker-${ramp.id}`}
+                  rampId={ramp.id}
                 />
                 {/* Tint color circle border */}
                 <div className="relative w-full h-full z-20 pointer-events-none"
@@ -226,6 +227,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                     onBlendModeChange={blendMode => setTintBlendMode(ramp.id, blendMode)}
                     onRemove={handleRemoveTint}
                     id={`tint-color-picker-${ramp.id}`}
+                    rampId={ramp.id}
                     onPreviewBlendMode={(blendMode) => setPreviewBlendMode(blendMode as BlendMode | undefined)}
                     overlap={true}
                   />

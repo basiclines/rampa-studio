@@ -4,16 +4,18 @@ import { SketchPicker, ColorResult } from 'react-color';
 import { convertToOklch, formatOklchString } from '@/engine/OklchEngine';
 import { ColorFormat } from '@/entities/ColorRampEntity';
 import OklchPicker from './OklchPicker';
+import EditableColorValue from './EditableColorValue';
 
 interface BaseColorSwatchProps {
   color: string;
   colorFormat: ColorFormat;
   onChange: (color: string) => void;
   id?: string;
+  rampId?: string;
   empty?: boolean;
 }
 
-const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, onChange, id, empty = false }) => {
+const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, onChange, id, rampId, empty = false }) => {
   const [showPicker, setShowPicker] = useState(false);
   const pickerRef = useRef<HTMLDivElement>(null);
 
@@ -116,7 +118,25 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
           width: 128,
           height: 128 }}
       >
-        {!empty && (
+        {!empty && rampId && (
+          <div
+            className="absolute"
+            style={{
+              marginTop: 16,
+              top: '100%',
+              left: 0,
+              right: 0,
+            }}
+          >
+            <EditableColorValue
+              color={color}
+              colorFormat={colorFormat}
+              rampId={rampId}
+              colorType="base"
+            />
+          </div>
+        )}
+        {!empty && !rampId && (
           <span
             className="absolute text-xs text-black text-opacity-80"
             style={{
