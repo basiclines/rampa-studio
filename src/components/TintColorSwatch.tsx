@@ -139,7 +139,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
           <div
             className="absolute"
             style={{
-              marginTop: 16,
+              marginTop: 8,
               top: '100%',
               left: 0,
               right: 0,
@@ -153,6 +153,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
               colorType="tint"
               onBlur={() => setShowPicker(false)}
               onShowPicker={() => setShowPicker(true)}
+              pickerRef={pickerRef}
             />
           </div>
         )}

@@ -19,6 +19,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
   const [showPicker, setShowPicker] = useState(false);
   const pickerRef = useRef<HTMLDivElement>(null);
 
+
   const handleClick = () => {
     if (empty) {
       onChange(color);
@@ -122,7 +123,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
           <div
             className="absolute"
             style={{
-              marginTop: 16,
+              marginTop: 8,
               top: '100%',
               left: 0,
               right: 0,
@@ -136,6 +137,8 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
               colorType="base"
               onBlur={() => setShowPicker(false)}
               onShowPicker={() => setShowPicker(true)}
+              pickerRef={pickerRef}
+
             />
           </div>
         )}
@@ -160,6 +163,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
         <div
           ref={pickerRef}
           onClick={handleClose}
+
         >
           <div
             style={{

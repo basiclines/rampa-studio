@@ -19,6 +19,7 @@ interface EditableColorValueProps {
   className?: string;
   onBlur?: () => void;
   onShowPicker?: () => void;
+  pickerRef?: React.RefObject<HTMLDivElement>;
 }
 
 const EditableColorValue: React.FC<EditableColorValueProps> = ({
@@ -28,7 +29,8 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
   colorType,
   className = '',
   onBlur,
-  onShowPicker
+  onShowPicker,
+  pickerRef
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
@@ -42,6 +44,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
       hue?: string;
     };
   }>({});
+
 
   // Refs for input elements
   const hexInputRef = useRef<HTMLInputElement>(null);
@@ -127,19 +130,19 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     }
   }, [colorFormat, editValues, rampId, colorType, setHEXColorValue, setHSLColorValue, setOKLCHColorValue]);
 
-  // Handle finishing edit mode
-  const handleFinishEditing = useCallback(() => {
+    // Handle finishing edit mode - don't close picker from blur
+  const handleFinishEditing = useCallback((e?: React.FocusEvent) => {
     if (!isEditing) return;
 
     handleValidation();
     setIsEditing(false);
     setEditValues({});
     
-    // Hide color picker when finishing edit
-    if (onBlur) {
-      onBlur();
-    }
-  }, [isEditing, handleValidation, onBlur]);
+    // Don't close the picker on blur - let the existing click-outside logic handle it
+    // This allows users to click on the picker without it immediately disappearing
+  }, [isEditing, handleValidation]);
+
+
 
   // Handle arrow key increments
   const handleArrowIncrement = useCallback((
@@ -259,7 +262,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           setTimeout(() => handleValidation(), 0);
         }}
         onFocus={(e) => handleStartEditing(e)}
-        onBlur={handleFinishEditing}
+        onBlur={(e) => handleFinishEditing(e)}
         onKeyDown={(e) => handleKeyDown(e)}
         className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-12 cursor-text"
         maxLength={6}
@@ -299,7 +302,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
-          onBlur={handleFinishEditing}
+          onBlur={(e) => handleFinishEditing(e)}
           onKeyDown={(e) => handleKeyDown(e, 'hue', false)}
           className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-6 cursor-text text-right"
           maxLength={3}
@@ -329,7 +332,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
-          onBlur={handleFinishEditing}
+          onBlur={(e) => handleFinishEditing(e)}
           onKeyDown={(e) => handleKeyDown(e, 'saturation', false)}
           className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-6 cursor-text text-right"
           maxLength={3}
@@ -359,7 +362,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
-          onBlur={handleFinishEditing}
+          onBlur={(e) => handleFinishEditing(e)}
           onKeyDown={(e) => handleKeyDown(e, 'lightness', false)}
           className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-6 cursor-text text-right"
           maxLength={3}
@@ -404,7 +407,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
-          onBlur={handleFinishEditing}
+          onBlur={(e) => handleFinishEditing(e)}
           onKeyDown={(e) => handleKeyDown(e, 'lightness', true)}
           className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text text-right"
           readOnly={!isEditing}
@@ -435,7 +438,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
-          onBlur={handleFinishEditing}
+          onBlur={(e) => handleFinishEditing(e)}
           onKeyDown={(e) => handleKeyDown(e, 'chroma', true)}
           className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text text-right"
           readOnly={!isEditing}
@@ -466,7 +469,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
-          onBlur={handleFinishEditing}
+          onBlur={(e) => handleFinishEditing(e)}
           onKeyDown={(e) => handleKeyDown(e, 'hue', true)}
           className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text text-right"
           maxLength={3}
