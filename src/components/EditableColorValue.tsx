@@ -154,28 +154,34 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     
     e.preventDefault();
     
+    // Check if Shift key is pressed for larger increments (10x bigger steps)
+    const biggerSteps = e.shiftKey;
+    
     if (isOklch && editValues.oklch) {
       const current = editValues.oklch;
       let newValue: number;
       
       if (fieldType === 'lightness') {
-        const increment = isUp ? 0.01 : -0.01;
+        const baseIncrement = biggerSteps ? 0.1 : 0.01;
+        const increment = isUp ? baseIncrement : -baseIncrement;
         newValue = Math.min(1, Math.max(0, current.lightness + increment));
-        const roundedValue = parseFloat(newValue.toFixed(3));
+        const roundedValue = parseFloat(newValue.toFixed(biggerSteps ? 1 : 3));
         setEditValues({
           oklch: { ...current, lightness: roundedValue },
           oklchStrings: { ...editValues.oklchStrings, lightness: roundedValue.toString() }
         });
       } else if (fieldType === 'chroma') {
-        const increment = isUp ? 0.01 : -0.01;
+        const baseIncrement = biggerSteps ? 0.1 : 0.01;
+        const increment = isUp ? baseIncrement : -baseIncrement;
         newValue = Math.min(0.5, Math.max(0, current.chroma + increment));
-        const roundedValue = parseFloat(newValue.toFixed(3));
+        const roundedValue = parseFloat(newValue.toFixed(biggerSteps ? 1 : 3));
         setEditValues({
           oklch: { ...current, chroma: roundedValue },
           oklchStrings: { ...editValues.oklchStrings, chroma: roundedValue.toString() }
         });
       } else if (fieldType === 'hue') {
-        const increment = isUp ? 1 : -1;
+        const baseIncrement = biggerSteps ? 10 : 1;
+        const increment = isUp ? baseIncrement : -baseIncrement;
         newValue = (current.hue + increment + 360) % 360;
         const roundedValue = Math.round(newValue);
         setEditValues({
@@ -185,23 +191,27 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
       }
     } else if (!isOklch && editValues.hsl) {
       const current = editValues.hsl;
-      const increment = isUp ? 1 : -1;
+      const baseIncrement = biggerSteps ? 10 : 1;
+      const increment = isUp ? baseIncrement : -baseIncrement;
       let newValue: number;
       
       if (fieldType === 'hue') {
         newValue = (current.hue + increment + 360) % 360;
+        const roundedValue = Math.round(newValue);
         setEditValues({
-          hsl: { ...current, hue: newValue }
+          hsl: { ...current, hue: roundedValue }
         });
       } else if (fieldType === 'saturation') {
         newValue = Math.min(100, Math.max(0, current.saturation + increment));
+        const roundedValue = Math.round(newValue);
         setEditValues({
-          hsl: { ...current, saturation: newValue }
+          hsl: { ...current, saturation: roundedValue }
         });
       } else if (fieldType === 'lightness') {
         newValue = Math.min(100, Math.max(0, current.lightness + increment));
+        const roundedValue = Math.round(newValue);
         setEditValues({
-          hsl: { ...current, lightness: newValue }
+          hsl: { ...current, lightness: roundedValue }
         });
       }
     }
@@ -231,7 +241,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
   // Render HEX input
   const renderHexInput = () => (
     <div className={`r-input inline-flex items-center ${isEditing ? 'focus' : ''}`} style={{ marginLeft: "-8px", gap: "0" }}>
-      <span className="r-text-secondary">#</span>
+      <span className={`r-text-secondary ${isHovered || isEditing ? '' : 'invisible'}`} style={{ fontSize: "10px", fontWeight: "500", marginTop: "1px" }}>#</span>
       <input
         ref={hexInputRef}
         type="text"
@@ -264,7 +274,8 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     
     return (
       <div className={`r-input inline-flex items-center ${isEditing ? 'focus' : ''}`} style={{ marginLeft: "-28px", gap: "2px" }}>
-        <span className="r-text-secondary">hsl(</span>
+        <span className={`r-text-secondary ${isHovered || isEditing ? '' : 'invisible'}`} style={{ fontSize: "10px", fontWeight: "500", marginTop: "1px" }}>hsl</span>
+        <span className={`r-text-secondary ${isHovered || isEditing ? '' : 'invisible'}`}>(</span>
         <input
           ref={hslRefs.hue}
           type="text"
@@ -290,7 +301,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'hue', false)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-5 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-6 cursor-text text-right"
           maxLength={3}
           readOnly={!isEditing}
         />
@@ -320,7 +331,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'saturation', false)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-4 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-6 cursor-text text-right"
           maxLength={3}
           readOnly={!isEditing}
         />
@@ -350,11 +361,11 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'lightness', false)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-4 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-6 cursor-text text-right"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="r-text-secondary">)</span>
+        <span className={`r-text-secondary ${isHovered || isEditing ? '' : 'invisible'}`}>)</span>
       </div>
     );
   };
@@ -366,7 +377,8 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     
     return (
       <div className={`r-input inline-flex items-center ${isEditing ? 'focus' : ''}`} style={{ marginLeft: "-44px", gap: "2px" }}>
-        <span className="r-text-secondary">oklch(</span>
+        <span className={`r-text-secondary ${isHovered || isEditing ? '' : 'invisible'}`} style={{ fontSize: "10px", fontWeight: "500", marginTop: "1px" }}>oklch</span>
+        <span className={`r-text-secondary ${isHovered || isEditing ? '' : 'invisible'}`}>(</span>
         <input
           ref={oklchRefs.lightness}
           type="text"
@@ -394,7 +406,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'lightness', true)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text text-right"
           readOnly={!isEditing}
         />
         <span className="r-text-secondary">, </span>
@@ -425,7 +437,7 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'chroma', true)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text text-right"
           readOnly={!isEditing}
         />
         <span className="r-text-secondary">, </span>
@@ -456,11 +468,11 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'hue', true)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text text-right"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="r-text-secondary">)</span>
+        <span className={`r-text-secondary ${isHovered || isEditing ? '' : 'invisible'}`}>)</span>
       </div>
     );
   };

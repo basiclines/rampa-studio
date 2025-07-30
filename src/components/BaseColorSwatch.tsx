@@ -166,7 +166,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
               position: 'absolute',
               left: '0%',
               top: '100%',
-              marginTop: 12,
+              marginTop: 24,
               zIndex: 1000,
             }}
             onClick={(e) => e.stopPropagation()}

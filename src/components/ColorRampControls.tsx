@@ -235,7 +235,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
               </div>
               {/* Blend mode and opacity controls below circles if tint is active */}
               {showTint && (
-                <div className="space-y-2 mt-2">
+                <div className="space-y-2" style={{ marginTop: "12px" }}>
                   <LabeledSlider
                     value={ramp.tintOpacity || 0}
                     onChange={opacity => setTintOpacity(ramp.id, opacity)}

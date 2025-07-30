@@ -181,7 +181,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
               position: 'absolute',
               left: '25%',
               top: '100%',
-              marginTop: 12,
+              marginTop: 24,
               zIndex: 1000,
             }}
             onClick={(e) => e.stopPropagation()}
