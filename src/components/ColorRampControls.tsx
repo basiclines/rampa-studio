@@ -130,7 +130,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
     <div
       className="fixed top-0 left-0 z-40 r-material-light"
       style={{
-        width: 320,
+        width: 332,
         height: '100vh',
         transition: 'width 0.2s',
         borderRadius: 0,
