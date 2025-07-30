@@ -143,6 +143,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
               top: '100%',
               left: 0,
               right: 0,
+              textAlign: 'center',
             }}
           >
             <EditableColorValue
@@ -150,6 +151,8 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
               colorFormat={colorFormat}
               rampId={rampId}
               colorType="tint"
+              onBlur={() => setShowPicker(false)}
+              onShowPicker={() => setShowPicker(true)}
             />
           </div>
         )}

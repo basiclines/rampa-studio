@@ -25,6 +25,20 @@
   border-radius: 2px;
 }
 
+
+.r-input { border-radius: 3px; padding: 3px 6px; cursor: text; }
+
+.r-input:hover {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.r-input.focus {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+
+
 .sketch-picker > div:nth-child(3) {
   display: none !important;
 }

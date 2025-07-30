@@ -126,6 +126,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
               top: '100%',
               left: 0,
               right: 0,
+              textAlign: 'center',
             }}
           >
             <EditableColorValue
@@ -133,6 +134,8 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
               colorFormat={colorFormat}
               rampId={rampId}
               colorType="base"
+              onBlur={() => setShowPicker(false)}
+              onShowPicker={() => setShowPicker(true)}
             />
           </div>
         )}

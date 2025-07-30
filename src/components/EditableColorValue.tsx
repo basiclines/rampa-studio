@@ -17,6 +17,8 @@ interface EditableColorValueProps {
   rampId: string;
   colorType: 'base' | 'tint';
   className?: string;
+  onBlur?: () => void;
+  onShowPicker?: () => void;
 }
 
 const EditableColorValue: React.FC<EditableColorValueProps> = ({
@@ -24,7 +26,9 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
   colorFormat,
   rampId,
   colorType,
-  className = ''
+  className = '',
+  onBlur,
+  onShowPicker
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
@@ -38,8 +42,6 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
       hue?: string;
     };
   }>({});
-  const [debounceTimeout, setDebounceTimeout] = useState<NodeJS.Timeout | null>(null);
-  const [lastInputLength, setLastInputLength] = useState<{[key: string]: number}>({});
 
   // Refs for input elements
   const hexInputRef = useRef<HTMLInputElement>(null);
@@ -66,22 +68,12 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
       const parsed = parseColorForEditing(color, colorFormat);
       setEditValues(parsed);
       
-      // Initialize input length tracking when starting to edit
-      if (colorFormat === 'hex') {
-        setLastInputLength(prev => ({ ...prev, hex: (parsed.hex || '').length }));
-      } else if (colorFormat === 'hsl' && parsed.hsl) {
-        setLastInputLength(prev => ({
-          ...prev,
-          'hsl-hue': parsed.hsl!.hue.toString().length,
-          'hsl-saturation': parsed.hsl!.saturation.toString().length,
-          'hsl-lightness': parsed.hsl!.lightness.toString().length
-        }));
-      } else if (colorFormat === 'oklch' && parsed.oklch) {
+      // Initialize string values for OKLCH editing
+      if (colorFormat === 'oklch' && parsed.oklch) {
         const lightnessStr = parsed.oklch.lightness.toString();
         const chromaStr = parsed.oklch.chroma.toString();
         const hueStr = parsed.oklch.hue.toString();
         
-        // Initialize string values for editing
         setEditValues(prev => ({
           ...prev,
           oklchStrings: {
@@ -90,36 +82,9 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             hue: hueStr
           }
         }));
-        
-        setLastInputLength(prev => ({
-          ...prev,
-          'oklch-lightness': lightnessStr.length,
-          'oklch-chroma': chromaStr.length,
-          'oklch-hue': hueStr.length
-        }));
       }
-    } else if (!isEditing) {
-      // Reset input length tracking when exiting edit mode
-      setLastInputLength({});
     }
   }, [color, colorFormat, isEditing, editValues]);
-
-  // Cleanup timeout on unmount or when editing ends
-  useEffect(() => {
-    return () => {
-      if (debounceTimeout) {
-        clearTimeout(debounceTimeout);
-      }
-    };
-  }, [debounceTimeout]);
-
-  // Clear timeout when exiting edit mode
-  useEffect(() => {
-    if (!isEditing && debounceTimeout) {
-      clearTimeout(debounceTimeout);
-      setDebounceTimeout(null);
-    }
-  }, [isEditing, debounceTimeout]);
 
   // Handle starting edit mode
   const handleStartEditing = useCallback((e?: React.FocusEvent) => {
@@ -134,51 +99,9 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     }
   }, [isEditing]);
 
-  // Debounced validation function
-  const handleDebouncedValidation = useCallback(() => {
-    if (debounceTimeout) {
-      clearTimeout(debounceTimeout);
-    }
-    
-    const timeout = setTimeout(() => {
-      // Apply the changes based on format
-      if (colorFormat === 'hex' && editValues.hex) {
-        setHEXColorValue({
-          id: rampId,
-          hexValue: editValues.hex,
-          colorType
-        });
-      } else if (colorFormat === 'hsl' && editValues.hsl) {
-        setHSLColorValue({
-          id: rampId,
-          hue: editValues.hsl.hue.toString(),
-          saturation: editValues.hsl.saturation.toString(),
-          lightness: editValues.hsl.lightness.toString(),
-          colorType
-        });
-      } else if (colorFormat === 'oklch' && editValues.oklch) {
-        setOKLCHColorValue({
-          id: rampId,
-          lightness: editValues.oklch.lightness.toString(),
-          chroma: editValues.oklch.chroma.toString(),
-          hue: editValues.oklch.hue.toString(),
-          colorType
-        });
-      }
-         }, 300); // Increased from 100ms to prevent interference with ongoing typing
-    
-    setDebounceTimeout(timeout);
-  }, [debounceTimeout, colorFormat, editValues, rampId, colorType, setHEXColorValue, setHSLColorValue, setOKLCHColorValue]);
-
-  // Apply immediate validation (used for blur, arrow keys, and paste)
-  const handleImmediateValidation = useCallback(() => {
-    // Clear any pending debounced validation
-    if (debounceTimeout) {
-      clearTimeout(debounceTimeout);
-      setDebounceTimeout(null);
-    }
-
-    // Apply the changes immediately
+  // Apply validation (used for blur and paste)
+  const handleValidation = useCallback(() => {
+    // Apply the changes based on format
     if (colorFormat === 'hex' && editValues.hex) {
       setHEXColorValue({
         id: rampId,
@@ -202,16 +125,21 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
         colorType
       });
     }
-  }, [debounceTimeout, colorFormat, editValues, rampId, colorType, setHEXColorValue, setHSLColorValue, setOKLCHColorValue]);
+  }, [colorFormat, editValues, rampId, colorType, setHEXColorValue, setHSLColorValue, setOKLCHColorValue]);
 
   // Handle finishing edit mode
   const handleFinishEditing = useCallback(() => {
     if (!isEditing) return;
 
-    handleImmediateValidation();
+    handleValidation();
     setIsEditing(false);
     setEditValues({});
-  }, [isEditing, handleImmediateValidation]);
+    
+    // Hide color picker when finishing edit
+    if (onBlur) {
+      onBlur();
+    }
+  }, [isEditing, handleValidation, onBlur]);
 
   // Handle arrow key increments
   const handleArrowIncrement = useCallback((
@@ -278,10 +206,11 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
       }
     }
     
-    // Trigger debounced validation after arrow key increment to avoid state interference
-    handleDebouncedValidation();
+    // Validate and apply changes immediately for arrow keys
+    handleValidation();
+    
     return true;
-  }, [editValues, handleDebouncedValidation]);
+  }, [editValues, handleValidation]);
 
   // Handle key events
   const handleKeyDown = useCallback((
@@ -299,45 +228,33 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     }
   }, [handleFinishEditing, handleArrowIncrement, colorFormat]);
 
-
-
   // Render HEX input
   const renderHexInput = () => (
-    <div className="flex items-center">
-      <span className="r-text-primary">#</span>
-              <input
-          ref={hexInputRef}
-          type="text"
-          value={isEditing ? (editValues.hex || '') : color.replace('#', '').toUpperCase()}
-          onChange={(e) => {
-            const filtered = filterHexInput(e.target.value);
-            const currentLength = filtered.length;
-            const previousLength = lastInputLength['hex'] || 0;
-            const isDeletion = currentLength < previousLength;
-            
-            setEditValues({ hex: filtered });
-            setLastInputLength(prev => ({ ...prev, hex: currentLength }));
-            
-            // Skip debounced validation if user is deleting (incomplete values)
-            if (!isDeletion) {
-              handleDebouncedValidation();
-            }
-          }}
-          onPaste={(e) => {
-            e.preventDefault();
-            const pastedText = e.clipboardData.getData('text');
-            const filtered = filterHexInput(pastedText);
-            setEditValues({ hex: filtered });
-            // Use immediate validation for paste
-            setTimeout(() => handleImmediateValidation(), 0);
-          }}
-          onFocus={(e) => handleStartEditing(e)}
-          onBlur={handleFinishEditing}
-          onKeyDown={(e) => handleKeyDown(e)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-16 cursor-text"
-          maxLength={6}
-          readOnly={!isEditing}
-        />
+    <div className={`r-input inline-flex items-center ${isEditing ? 'focus' : ''}`} style={{ marginLeft: "-8px", gap: "0" }}>
+      <span className="r-text-secondary">#</span>
+      <input
+        ref={hexInputRef}
+        type="text"
+        value={isEditing ? (editValues.hex || '') : color.replace('#', '').toUpperCase()}
+        onChange={(e) => {
+          const filtered = filterHexInput(e.target.value);
+          setEditValues({ hex: filtered });
+        }}
+        onPaste={(e) => {
+          e.preventDefault();
+          const pastedText = e.clipboardData.getData('text');
+          const filtered = filterHexInput(pastedText);
+          setEditValues({ hex: filtered });
+          // Use validation for paste
+          setTimeout(() => handleValidation(), 0);
+        }}
+        onFocus={(e) => handleStartEditing(e)}
+        onBlur={handleFinishEditing}
+        onKeyDown={(e) => handleKeyDown(e)}
+        className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-12 cursor-text"
+        maxLength={6}
+        readOnly={!isEditing}
+      />
     </div>
   );
 
@@ -346,28 +263,18 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     const currentValues = isEditing ? editValues.hsl : parseColorForEditing(color, colorFormat).hsl;
     
     return (
-      <div className="flex items-center gap-1">
-        <span className="r-text-primary">hsl(</span>
+      <div className={`r-input inline-flex items-center ${isEditing ? 'focus' : ''}`} style={{ marginLeft: "-28px", gap: "2px" }}>
+        <span className="r-text-secondary">hsl(</span>
         <input
           ref={hslRefs.hue}
           type="text"
           value={currentValues?.hue?.toString() || ''}
           onChange={(e) => {
             const filtered = filterNumericInput(e.target.value, false);
-            const currentLength = filtered.length;
-            const previousLength = lastInputLength['hsl-hue'] || 0;
-            const isDeletion = currentLength < previousLength;
-            
             const value = Math.min(360, Math.max(0, parseInt(filtered) || 0));
             setEditValues({
               hsl: { ...editValues.hsl!, hue: value }
             });
-            setLastInputLength(prev => ({ ...prev, 'hsl-hue': currentLength }));
-            
-            // Skip debounced validation if user is deleting (incomplete values)
-            if (!isDeletion) {
-              handleDebouncedValidation();
-            }
           }}
           onPaste={(e) => {
             e.preventDefault();
@@ -377,37 +284,27 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setEditValues({
               hsl: { ...editValues.hsl!, hue: value }
             });
-            // Use immediate validation for paste
-            setTimeout(() => handleImmediateValidation(), 0);
+            // Use validation for paste
+            setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'hue', false)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-8 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-5 cursor-text"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="r-text-primary">, </span>
+        <span className="r-text-secondary">, </span>
         <input
           ref={hslRefs.saturation}
           type="text"
           value={currentValues?.saturation?.toString() || ''}
           onChange={(e) => {
             const filtered = filterNumericInput(e.target.value, false);
-            const currentLength = filtered.length;
-            const previousLength = lastInputLength['hsl-saturation'] || 0;
-            const isDeletion = currentLength < previousLength;
-            
             const value = Math.min(100, Math.max(0, parseInt(filtered) || 0));
             setEditValues({
               hsl: { ...editValues.hsl!, saturation: value }
             });
-            setLastInputLength(prev => ({ ...prev, 'hsl-saturation': currentLength }));
-            
-            // Skip debounced validation if user is deleting (incomplete values)
-            if (!isDeletion) {
-              handleDebouncedValidation();
-            }
           }}
           onPaste={(e) => {
             e.preventDefault();
@@ -417,37 +314,27 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setEditValues({
               hsl: { ...editValues.hsl!, saturation: value }
             });
-            // Use immediate validation for paste
-            setTimeout(() => handleImmediateValidation(), 0);
+            // Use validation for paste
+            setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'saturation', false)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-8 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-4 cursor-text"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="r-text-primary">, </span>
+        <span className="r-text-secondary">, </span>
         <input
           ref={hslRefs.lightness}
           type="text"
           value={currentValues?.lightness?.toString() || ''}
           onChange={(e) => {
             const filtered = filterNumericInput(e.target.value, false);
-            const currentLength = filtered.length;
-            const previousLength = lastInputLength['hsl-lightness'] || 0;
-            const isDeletion = currentLength < previousLength;
-            
             const value = Math.min(100, Math.max(0, parseInt(filtered) || 0));
             setEditValues({
               hsl: { ...editValues.hsl!, lightness: value }
             });
-            setLastInputLength(prev => ({ ...prev, 'hsl-lightness': currentLength }));
-            
-            // Skip debounced validation if user is deleting (incomplete values)
-            if (!isDeletion) {
-              handleDebouncedValidation();
-            }
           }}
           onPaste={(e) => {
             e.preventDefault();
@@ -457,17 +344,17 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
             setEditValues({
               hsl: { ...editValues.hsl!, lightness: value }
             });
-            // Use immediate validation for paste
-            setTimeout(() => handleImmediateValidation(), 0);
+            // Use validation for paste
+            setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'lightness', false)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-8 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-4 cursor-text"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="r-text-primary">)</span>
+        <span className="r-text-secondary">)</span>
       </div>
     );
   };
@@ -478,29 +365,19 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
     const currentStrings = isEditing ? editValues.oklchStrings : undefined;
     
     return (
-      <div className="flex items-center gap-1">
-        <span className="r-text-primary">oklch(</span>
+      <div className={`r-input inline-flex items-center ${isEditing ? 'focus' : ''}`} style={{ marginLeft: "-44px", gap: "2px" }}>
+        <span className="r-text-secondary">oklch(</span>
         <input
           ref={oklchRefs.lightness}
           type="text"
           value={isEditing ? (currentStrings?.lightness || '') : (currentValues?.lightness?.toString() || '')}
           onChange={(e) => {
             const filtered = filterNumericInput(e.target.value, true);
-            const currentLength = filtered.length;
-            const previousLength = lastInputLength['oklch-lightness'] || 0;
-            const isDeletion = currentLength < previousLength;
-            
             const parsedValue = Math.min(1, Math.max(0, parseFloat(filtered) || 0));
             setEditValues({
               oklch: { ...editValues.oklch!, lightness: parsedValue },
               oklchStrings: { ...editValues.oklchStrings, lightness: filtered }
             });
-            setLastInputLength(prev => ({ ...prev, 'oklch-lightness': currentLength }));
-            
-            // Skip debounced validation if user is deleting (incomplete values)
-            if (!isDeletion) {
-              handleDebouncedValidation();
-            }
           }}
           onPaste={(e) => {
             e.preventDefault();
@@ -511,37 +388,27 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
               oklch: { ...editValues.oklch!, lightness: parsedValue },
               oklchStrings: { ...editValues.oklchStrings, lightness: filtered }
             });
-            // Use immediate validation for paste
-            setTimeout(() => handleImmediateValidation(), 0);
+            // Use validation for paste
+            setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'lightness', true)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-12 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text"
           readOnly={!isEditing}
         />
-        <span className="r-text-primary">, </span>
+        <span className="r-text-secondary">, </span>
         <input
           ref={oklchRefs.chroma}
           type="text"
           value={isEditing ? (currentStrings?.chroma || '') : (currentValues?.chroma?.toString() || '')}
           onChange={(e) => {
             const filtered = filterNumericInput(e.target.value, true);
-            const currentLength = filtered.length;
-            const previousLength = lastInputLength['oklch-chroma'] || 0;
-            const isDeletion = currentLength < previousLength;
-            
             const parsedValue = Math.min(0.5, Math.max(0, parseFloat(filtered) || 0));
             setEditValues({
               oklch: { ...editValues.oklch!, chroma: parsedValue },
               oklchStrings: { ...editValues.oklchStrings, chroma: filtered }
             });
-            setLastInputLength(prev => ({ ...prev, 'oklch-chroma': currentLength }));
-            
-            // Skip debounced validation if user is deleting (incomplete values)
-            if (!isDeletion) {
-              handleDebouncedValidation();
-            }
           }}
           onPaste={(e) => {
             e.preventDefault();
@@ -552,37 +419,27 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
               oklch: { ...editValues.oklch!, chroma: parsedValue },
               oklchStrings: { ...editValues.oklchStrings, chroma: filtered }
             });
-            // Use immediate validation for paste
-            setTimeout(() => handleImmediateValidation(), 0);
+            // Use validation for paste
+            setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'chroma', true)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-12 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text"
           readOnly={!isEditing}
         />
-        <span className="r-text-primary">, </span>
+        <span className="r-text-secondary">, </span>
         <input
           ref={oklchRefs.hue}
           type="text"
           value={isEditing ? (currentStrings?.hue || '') : (currentValues?.hue?.toString() || '')}
           onChange={(e) => {
             const filtered = filterNumericInput(e.target.value, false);
-            const currentLength = filtered.length;
-            const previousLength = lastInputLength['oklch-hue'] || 0;
-            const isDeletion = currentLength < previousLength;
-            
             const parsedValue = Math.min(360, Math.max(0, parseInt(filtered) || 0));
             setEditValues({
               oklch: { ...editValues.oklch!, hue: parsedValue },
               oklchStrings: { ...editValues.oklchStrings, hue: filtered }
             });
-            setLastInputLength(prev => ({ ...prev, 'oklch-hue': currentLength }));
-            
-            // Skip debounced validation if user is deleting (incomplete values)
-            if (!isDeletion) {
-              handleDebouncedValidation();
-            }
           }}
           onPaste={(e) => {
             e.preventDefault();
@@ -593,28 +450,46 @@ const EditableColorValue: React.FC<EditableColorValueProps> = ({
               oklch: { ...editValues.oklch!, hue: parsedValue },
               oklchStrings: { ...editValues.oklchStrings, hue: filtered }
             });
-            // Use immediate validation for paste
-            setTimeout(() => handleImmediateValidation(), 0);
+            // Use validation for paste
+            setTimeout(() => handleValidation(), 0);
           }}
           onFocus={(e) => handleStartEditing(e)}
           onBlur={handleFinishEditing}
           onKeyDown={(e) => handleKeyDown(e, 'hue', true)}
-          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-8 cursor-text"
+          className="bg-transparent border-none outline-none r-text-primary text-xs min-w-0 w-7 cursor-text"
           maxLength={3}
           readOnly={!isEditing}
         />
-        <span className="r-text-primary">)</span>
+        <span className="r-text-secondary">)</span>
       </div>
     );
   };
 
   return (
     <div
-      className={`text-xs r-text-primary text-center uppercase px-1 ${className} ${
-        isHovered || isEditing ? 'active ' : ''
-      }`}
+      className={`inline-block text-xs r-text-primary text-center uppercase`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={(e) => {
+        
+        
+        // If not editing, show color picker and focus input
+        if (!isEditing) {
+          // Show color picker
+          if (onShowPicker) {
+            onShowPicker();
+          }
+          
+          // Focus the appropriate first input based on color format
+          if (colorFormat === 'hex') {
+            hexInputRef.current?.focus();
+          } else if (colorFormat === 'hsl') {
+            hslRefs.hue.current?.focus();
+          } else if (colorFormat === 'oklch') {
+            oklchRefs.lightness.current?.focus();
+          }
+        }
+      }}
     >
       {colorFormat === 'hex' && renderHexInput()}
       {colorFormat === 'hsl' && renderHslInputs()}
