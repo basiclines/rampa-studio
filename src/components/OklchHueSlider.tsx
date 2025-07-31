@@ -20,7 +20,7 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
   const [isDragging, setIsDragging] = useState(false);
   const height = 10; // Fixed height for hue slider
 
-  // Render the hue gradient with gamut-aware fading
+  // Render the hue gradient with hardcoded L/C but gamut-aware fading
   const renderHueGradient = useCallback(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -31,23 +31,28 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
     const imageData = ctx.createImageData(width, height);
     const data = imageData.data;
 
+    // Use fixed lightness and chroma for the visual gradient (like SketchPicker)
+    const displayLightness = 0.65;  // Fixed bright lightness for vibrant colors
+    const displayChroma = 0.2;    // Fixed moderate chroma for visible colors
+
     for (let x = 0; x < width; x++) {
       // Map pixel to hue (0-360)
       const currentHue = (x / width) * 360;
       
-      // Check if this L,C,H combination is achievable in sRGB
-      const testColor = { l: lightness, c: chroma, h: currentHue };
-      const isAchievable = isInSrgbGamut(testColor);
-      
-      // Get color at current lightness and chroma for this hue
-      const hexColor = convertFromOklch(testColor);
+      // Use fixed L/C for display colors
+      const displayColor = { l: displayLightness, c: displayChroma, h: currentHue };
+      const hexColor = convertFromOklch(displayColor);
       
       // Parse hex to RGB
       let r = parseInt(hexColor.slice(1, 3), 16);
       let g = parseInt(hexColor.slice(3, 5), 16);
       let b = parseInt(hexColor.slice(5, 7), 16);
       
-      // If not achievable, fade it out by desaturating and reducing opacity
+      // Check if this hue is achievable with CURRENT lightness and chroma
+      const currentColor = { l: lightness, c: chroma, h: currentHue };
+      const isAchievable = isInSrgbGamut(currentColor);
+      
+      // If not achievable with current L/C, fade it out
       if (!isAchievable) {
         // Convert to grayscale and reduce opacity
         const gray = Math.round(0.299 * r + 0.587 * g + 0.114 * b);
