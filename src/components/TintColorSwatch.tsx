@@ -192,7 +192,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
                 color={color || '#FE0000'}
                 onChange={handleOklchChange}
                 onChangeComplete={handleOklchChange}
-                width={250}
+                width={200}
                 height={150}
               />
             ) : (

@@ -180,7 +180,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
                 color={color}
                 onChange={handleOklchChange}
                 onChangeComplete={handleOklchChange}
-                width={250}
+                width={200}
                 height={150}
               />
             ) : (

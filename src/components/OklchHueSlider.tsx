@@ -137,7 +137,7 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
   const indicatorX = Math.round((hue / 360) * width);
 
   return (
-    <div className="oklch-hue-slider relative">
+    <div className="oklch-hue-slider relative" style={{ margin: '5px 0' }}>
       <canvas
         ref={canvasRef}
         width={width}
