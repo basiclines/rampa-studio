@@ -4,6 +4,7 @@ import { SketchPicker, ColorResult } from 'react-color';
 import { BlendMode } from '@/entities/BlendModeEntity';
 import { convertToOklch, formatOklchString } from '@/engine/OklchEngine';
 import { ColorFormat } from '@/entities/ColorRampEntity';
+import { DEFAULT_HEX_SWATCHES } from '@/config/DefaultColorSwatches';
 import OklchPicker from './OklchPicker';
 import EditableColorValue from './EditableColorValue';
 
@@ -201,6 +202,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
                 onChange={handleColorChange}
                 onChangeComplete={handleColorChange}
                 disableAlpha={true}
+                presetColors={DEFAULT_HEX_SWATCHES}
                 className="sketch-picker"
               />
             )}
