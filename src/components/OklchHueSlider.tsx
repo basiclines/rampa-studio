@@ -18,7 +18,7 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isDragging, setIsDragging] = useState(false);
-  const height = 20; // Fixed height for hue slider
+  const height = 10; // Fixed height for hue slider
 
   // Render the hue gradient with gamut-aware fading
   const renderHueGradient = useCallback(() => {
@@ -154,14 +154,11 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
 
   return (
     <div className="oklch-hue-slider">
-      <div className="text-xs text-gray-700 mb-2 font-medium">
-        Hue: {Math.round(hue)}°
-      </div>
       <canvas
         ref={canvasRef}
         width={width}
         height={height}
-        className="border border-gray-300 rounded"
+        className=""
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}

@@ -142,16 +142,13 @@ const OklchField: React.FC<OklchFieldProps> = ({
         ref={canvasRef}
         width={width}
         height={height}
-        className="cursor-crosshair border border-gray-300 rounded"
+        className="cursor-crosshair"
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseLeave}
         style={{ display: 'block' }}
       />
-      <div className="text-xs text-gray-500 mt-1 text-center">
-        Lightness ↑ · Chroma →
-      </div>
     </div>
   );
 };

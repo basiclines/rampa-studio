@@ -82,9 +82,9 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
   };
 
   return (
-    <div className="oklch-picker bg-white border border-gray-200 rounded-lg shadow-lg p-4" style={{ width: width + 32 }}>
+    <div className="oklch-picker r-popover p-3" style={{ width: width + 32 }}>
       {/* 2D Lightness/Chroma field */}
-      <div className="mb-4">
+      <div className="mb-2">
         <OklchField 
           lightness={oklch.l}
           chroma={oklch.c}
@@ -95,16 +95,13 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
         />
       </div>
       
-      {/* Hue slider */}
-      <div className="mb-4">
-        <OklchHueSlider 
-          hue={oklch.h}
-          lightness={oklch.l}
-          chroma={oklch.c}
-          width={width}
-          onChange={handleHueChange}
-        />
-      </div>
+      <OklchHueSlider 
+        hue={oklch.h}
+        lightness={oklch.l}
+        chroma={oklch.c}
+        width={width}
+        onChange={handleHueChange}
+      />
     </div>
   );
 };
