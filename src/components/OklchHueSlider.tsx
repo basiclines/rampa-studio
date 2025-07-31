@@ -67,26 +67,7 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
     }
 
     ctx.putImageData(imageData, 0, 0);
-
-    // Draw indicator for current hue
-    const currentX = Math.round((hue / 360) * width);
-    
-    ctx.strokeStyle = '#000000';
-    ctx.lineWidth = 2;
-    ctx.fillStyle = '#ffffff';
-    
-    // Draw white circle with black border
-    ctx.beginPath();
-    ctx.arc(currentX, height / 2, 6, 0, 2 * Math.PI);
-    ctx.fill();
-    ctx.stroke();
-    
-    // Draw small inner circle
-    ctx.fillStyle = '#000000';
-    ctx.beginPath();
-    ctx.arc(currentX, height / 2, 2, 0, 2 * Math.PI);
-    ctx.fill();
-  }, [hue, lightness, chroma, width, height]);
+  }, [lightness, chroma, width, height]);
 
   // Re-render when values change
   useEffect(() => {
@@ -152,8 +133,11 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
     }
   };
 
+  // Calculate indicator position
+  const indicatorX = Math.round((hue / 360) * width);
+
   return (
-    <div className="oklch-hue-slider">
+    <div className="oklch-hue-slider relative">
       <canvas
         ref={canvasRef}
         width={width}
@@ -165,6 +149,18 @@ const OklchHueSlider: React.FC<OklchHueSliderProps> = ({
         onMouseLeave={handleMouseLeave}
         style={{ display: 'block', cursor: 'pointer' }}
       />
+      
+      {/* HTML indicator element */}
+      <div
+        className="oklch-hue-indicator absolute pointer-events-none"
+        style={{
+          left: `${indicatorX}px`,
+          top: `${height / 2}px`,
+          transform: 'translate(-50%, -50%)',
+        }}
+      >
+        <div style={{ width: 4, borderRadius: 1, height: 8, boxShadow: 'rgba(0, 0, 0, 0.6) 0px 0px 2px', background: 'rgb(255, 255, 255)', transform: 'translateX(-2px)' }}></div>
+      </div>
     </div>
   );
 };

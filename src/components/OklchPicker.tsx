@@ -82,9 +82,9 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
   };
 
   return (
-    <div className="oklch-picker r-popover p-3" style={{ width: width + 32 }}>
+    <div className="oklch-picker r-popover" style={{ padding: 10, width: width + 32 }}>
       {/* 2D Lightness/Chroma field */}
-      <div className="mb-2">
+      <div style={{ marginBottom: 8 }}>
         <OklchField 
           lightness={oklch.l}
           chroma={oklch.c}
