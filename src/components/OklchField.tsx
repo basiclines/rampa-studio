@@ -20,6 +20,7 @@ const OklchField: React.FC<OklchFieldProps> = ({
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isDragging, setIsDragging] = useState(false);
+  const [mousePos, setMousePos] = useState<{x: number, y: number} | null>(null);
 
   // Render the LC color field
   const renderField = useCallback(() => {
@@ -68,30 +69,7 @@ const OklchField: React.FC<OklchFieldProps> = ({
     }
 
     ctx.putImageData(imageData, 0, 0);
-
-    // Draw crosshair for current position
-    const currentX = Math.round((chroma / Math.max(getMaxChromaForLH(lightness, hue), 0.001)) * width);
-    const currentY = Math.round((1 - lightness) * height);
-
-    ctx.strokeStyle = lightness > 0.5 ? '#000000' : '#ffffff';
-    ctx.lineWidth = 2;
-    ctx.beginPath();
-    
-    // Horizontal line
-    ctx.moveTo(currentX - 10, currentY);
-    ctx.lineTo(currentX + 10, currentY);
-    
-    // Vertical line
-    ctx.moveTo(currentX, currentY - 10);
-    ctx.lineTo(currentX, currentY + 10);
-    
-    ctx.stroke();
-
-    // Draw circle around crosshair
-    ctx.beginPath();
-    ctx.arc(currentX, currentY, 6, 0, 2 * Math.PI);
-    ctx.stroke();
-  }, [lightness, chroma, hue, width, height]);
+  }, [hue, width, height]);
 
   // Re-render when values change
   useEffect(() => {
@@ -105,6 +83,9 @@ const OklchField: React.FC<OklchFieldProps> = ({
     const rect = canvas.getBoundingClientRect();
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
+
+    // Track mouse position for accurate crosshair positioning
+    setMousePos({ x, y });
 
     // Convert pixel coordinates to L,C values
     const newLightness = Math.max(0, Math.min(1, 1 - (y / height)));
@@ -129,15 +110,32 @@ const OklchField: React.FC<OklchFieldProps> = ({
     if (isDragging) {
       setIsDragging(false);
       handleMouseEvent(event);
+      // Clear mouse position tracking after interaction ends
+      setMousePos(null);
     }
   };
 
   const handleMouseLeave = () => {
     setIsDragging(false);
+    setMousePos(null);
   };
 
+  // Calculate crosshair position - use tracked mouse position when available for precision
+  let currentX, currentY;
+  
+  if (mousePos) {
+    // Use exact mouse coordinates during interaction
+    currentX = mousePos.x;
+    currentY = mousePos.y;
+  } else {
+    // Calculate from lightness/chroma values when not interacting
+    const maxChromaForCurrentLH = getMaxChromaForLH(lightness, hue);
+    currentX = maxChromaForCurrentLH > 0 ? (chroma / maxChromaForCurrentLH) * width : 0;
+    currentY = (1 - lightness) * height;
+  }
+  
   return (
-    <div className="oklch-field">
+    <div className="oklch-field relative">
       <canvas
         ref={canvasRef}
         width={width}
@@ -147,8 +145,24 @@ const OklchField: React.FC<OklchFieldProps> = ({
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseLeave}
-        style={{ display: 'block' }}
+        style={{ 
+          display: 'block',
+          margin: 0,
+          padding: 0,
+          border: 'none'
+        }}
       />
+      
+      {/* HTML crosshair element */}
+      <div
+        className="oklch-crosshair absolute pointer-events-none"
+        style={{
+          left: `${currentX}px`,
+          top: `${currentY}px`,
+        }}
+      >
+        <div style={{ width: 4, height: 4, boxShadow: 'rgb(255, 255, 255) 0px 0px 0px 1.5px, rgba(0, 0, 0, 0.3) 0px 0px 1px 1px inset, rgba(0, 0, 0, 0.4) 0px 0px 1px 2px', borderRadius: '50%', transform: 'translate(-2px, -2px)' }}></div>
+      </div>
     </div>
   );
 };
