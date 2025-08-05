@@ -6,7 +6,7 @@ import './index.css'
 
 
 async function initAmplitude() {
-  new AmplitudeTracker()
+  AmplitudeTracker.init()
 }
 
 function initDOM() {

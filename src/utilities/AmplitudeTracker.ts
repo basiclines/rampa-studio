@@ -2,9 +2,9 @@ import * as amplitude from '@amplitude/analytics-browser'
 import * as sessionReplay from "@amplitude/session-replay-browser";
 import { Experiment, ExperimentClient } from '@amplitude/experiment-js-client';
 import { AMPLITUDE_API_KEY, IS_DEBUG } from '@/config/AppConfig.ts'
-import { v4 as uuidv4 } from 'uuid';
 
 let ExperimentInstance: ExperimentClient | null = null
+let isInitialized = false
 
 export default class AmplitudeTracker {
 
@@ -14,9 +14,7 @@ export default class AmplitudeTracker {
     amplitude.init(AMPLITUDE_API_KEY, {
       autocapture: true
     }).promise.then((res) => {
-
       ExperimentInstance = Experiment.initializeWithAmplitudeAnalytics(AMPLITUDE_API_KEY)
-
       Promise.all([
         ExperimentInstance.fetch(),
         amplitude.getDeviceId(),
@@ -27,6 +25,7 @@ export default class AmplitudeTracker {
           sessionId: sessionId,
           sampleRate: 100
         });
+        isInitialized = true
       })
     }).catch((err) => {
       console.error('amplitude.init()', err)
@@ -46,7 +45,11 @@ export default class AmplitudeTracker {
       return 'on'
     }
 
-    return ExperimentInstance.variant(flag)
+    if (!isInitialized) {
+      return 'off'
+    } else {
+      return ExperimentInstance.variant(flag)
+    }
   }
 
 }

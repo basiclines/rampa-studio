@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useGetActiveTab } from '@/usecases/GetActiveTab';
 import { useShowColorTab } from '@/usecases/ShowColorTab';
