@@ -7,8 +7,7 @@ import ColorsSection from './ColorsSection';
 import UISection from './UISection';
 import AmplitudeTracker from '@/utilities/AmplitudeTracker';
 
-const amplitudeTracker = AmplitudeTracker.getInstance()
-const TABS_ENABLED = (amplitudeTracker.getVariant('components_editor') == 'on')
+const TABS_ENABLED = (AmplitudeTracker.getVariant('components_editor') == 'on')
 
 const MainTabs: React.FC = () => {
   const activeTab = useGetActiveTab();
