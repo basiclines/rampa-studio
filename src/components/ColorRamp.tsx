@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { Lock, Unlock, Copy, Trash2, Plus, LockKeyholeOpen } from 'lucide-react';
+import { LockClosedIcon, LockOpen1Icon, CopyIcon, TrashIcon } from '@radix-ui/react-icons';
 import { generateColorRamp } from '@/engine/ColorEngine';
 import { Button } from '@/components/ui/button';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
@@ -131,9 +131,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({
               title={allLocked ? 'Unlock all colors' : 'Lock all colors'}
             >
               {allLocked ? (
-                <Lock className="w-3 h-3" />
+                <LockClosedIcon className="w-3 h-3" />
               ) : (
-                <Unlock className="w-3 h-3" />
+                <LockOpen1Icon className="w-3 h-3" />
               )}
             </Button>
             {onDelete && (
@@ -144,7 +144,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                 className="h-8 w-8 p-0 bg-white shadow-md hover:bg-red-50 hover:border-red-300"
                 style={{ pointerEvents: 'auto' }}
               >
-                <Trash2 className="w-3 h-3" />
+                <TrashIcon className="w-3 h-3" />
               </Button>
             )}
             {/* Add Color Ramp Button (Dropdown, open on hover) */}
@@ -162,7 +162,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     aria-label="Ramp actions"
                     onClick={e => e.stopPropagation()}
                   >
-                    <Copy className="w-4 h-4 text-gray-600" />
+                    <CopyIcon className="w-4 h-4 text-gray-600" />
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" onClick={e => e.stopPropagation()}>
@@ -320,7 +320,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       
       <div className="relative isolate" style={{ height: 'calc(100% - 56px)' }}>
         {/* Color Ramp */}
-        <div className="flex flex-col gap-1" style={{ height: '100%' }}>
+        <div className="flex flex-col gap-0" style={{ height: '100%' }}>
           {displayColors.map((color, index) => {
             const isLocked = config.swatches && config.swatches[index]?.locked;
             return (
@@ -351,7 +351,11 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       toggleLockColor(index, color);
                     }}
                   >
-                    <Lock className="w-3 h-3" />
+                    {isLocked ? (
+                      <LockClosedIcon className="w-3 h-3" />
+                    ) : (
+                      <LockOpen1Icon className="w-3 h-3" />
+                    )}
                   </Button>
                 </div>
               </div>

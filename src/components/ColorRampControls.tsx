@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { X } from 'lucide-react';
+import { Cross1Icon } from '@radix-ui/react-icons';
 import { ColorRampConfig, ColorFormat } from '@/entities/ColorRampEntity';
 import { BlendMode } from '@/entities/BlendModeEntity';
 import BaseColorSwatch from './BaseColorSwatch';
@@ -142,7 +142,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
       {/* Close button */}
       <div className="flex justify-between items-center mb-6 p-6 pb-0">
         <Button variant="ghost" size="sm" onClick={closeSidebar}>
-          <X className="w-4 h-4" />
+          <Cross1Icon className="w-4 h-4" />
         </Button>
       </div>
 
