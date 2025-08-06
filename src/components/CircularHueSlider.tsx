@@ -137,28 +137,7 @@ const CircularHueSlider: React.FC<CircularHueSliderProps> = ({
   const endCoords = angleToCoords(endAngle, (outerRadius + innerRadius) / 2);
   const referenceCoords = referenceAngle !== null ? angleToCoords(referenceAngle, (outerRadius + innerRadius) / 2) : null;
 
-  // Create the gradient stops for the circular gradient
-  const createGradientStops = () => {
-    if (!gradientColors || gradientColors.length === 0) {
-      // Default hue gradient
-      const stops = [];
-      for (let i = 0; i <= 12; i++) {
-        const hue = (i / 12) * 360;
-        stops.push(`hsl(${hue}, 70%, 60%)`);
-      }
-      return stops;
-    }
-    return gradientColors;
-  };
 
-  const gradientStops = createGradientStops();
-
-  // Create SVG path for the donut
-  const createDonutPath = () => {
-    const outerCircle = `M ${centerX - outerRadius} ${centerY} A ${outerRadius} ${outerRadius} 0 1 1 ${centerX + outerRadius} ${centerY} A ${outerRadius} ${outerRadius} 0 1 1 ${centerX - outerRadius} ${centerY}`;
-    const innerCircle = `M ${centerX - innerRadius} ${centerY} A ${innerRadius} ${innerRadius} 0 1 0 ${centerX + innerRadius} ${centerY} A ${innerRadius} ${innerRadius} 0 1 0 ${centerX - innerRadius} ${centerY}`;
-    return `${outerCircle} ${innerCircle}`;
-  };
 
   return (
     <div className={cn("flex flex-col items-center", className)}>
@@ -171,24 +150,7 @@ const CircularHueSlider: React.FC<CircularHueSliderProps> = ({
           height={size}
           className="cursor-pointer select-none"
         >
-          {/* Define gradients */}
-          <defs>
-            {/* Create multiple radial segments to simulate conic gradient */}
-            {Array.from({ length: 36 }, (_, i) => {
-              const angle = (i / 36) * 360;
-              const nextAngle = ((i + 1) / 36) * 360;
-              const hue = gradientColors && gradientColors.length > 0 
-                ? gradientColors[Math.floor((i / 36) * gradientColors.length)]
-                : `hsl(${angle}, 70%, 60%)`;
-              
-              return (
-                <linearGradient key={`segment-${i}`} id={`hueSegment${i}`} x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor={hue} />
-                  <stop offset="100%" stopColor={hue} />
-                </linearGradient>
-              );
-            })}
-          </defs>
+
 
           {/* Background donut - create segments for hue wheel */}
           {Array.from({ length: 36 }, (_, i) => {
@@ -240,57 +202,9 @@ const CircularHueSlider: React.FC<CircularHueSliderProps> = ({
             );
           })}
 
-          {/* Reference indicator */}
-          {referenceCoords && (
-            <g style={{ pointerEvents: 'none' }}>
-              <circle
-                cx={referenceCoords.x}
-                cy={referenceCoords.y}
-                r="8"
-                fill={referenceColor}
-                stroke="white"
-                strokeWidth="3"
-                style={{ filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3))' }}
-              />
-              <circle
-                cx={referenceCoords.x}
-                cy={referenceCoords.y}
-                r="4"
-                fill="white"
-                fillOpacity="0.9"
-              />
-            </g>
-          )}
 
-          {/* Start handler */}
-          <circle
-            cx={startCoords.x}
-            cy={startCoords.y}
-            r="8"
-            style={{ 
-              fill: 'white',
-              stroke: 'rgba(0, 0, 0, 0.4)',
-              strokeWidth: '2',
-              cursor: isDragging === 'start' ? 'grabbing' : 'grab',
-              filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.2))'
-            }}
-            onMouseDown={handleMouseDown('start')}
-          />
 
-          {/* End handler */}
-          <circle
-            cx={endCoords.x}
-            cy={endCoords.y}
-            r="8"
-            style={{ 
-              fill: 'white',
-              stroke: 'rgba(0, 0, 0, 0.4)',
-              strokeWidth: '2',
-              cursor: isDragging === 'end' ? 'grabbing' : 'grab',
-              filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.2))'
-            }}
-            onMouseDown={handleMouseDown('end')}
-          />
+
 
           {/* Arc between handlers to show the range */}
           {(() => {
@@ -329,6 +243,62 @@ const CircularHueSlider: React.FC<CircularHueSliderProps> = ({
             );
           })()}
         </svg>
+
+        {/* HTML Handlers positioned absolutely */}
+        {/* Start handler */}
+        <div
+          className={cn(
+            "absolute w-6 h-3 r-material-light-gradient r-slider-thumb cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10"
+          )}
+          style={{ 
+            left: `${startCoords.x}px`,
+            top: `${startCoords.y}px`
+          }}
+          onMouseDown={handleMouseDown('start')}
+        />
+        
+        {/* End handler */}
+        <div
+          className={cn(
+            "absolute w-6 h-3 r-material-light-gradient r-slider-thumb cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10"
+          )}
+          style={{ 
+            left: `${endCoords.x}px`,
+            top: `${endCoords.y}px`
+          }}
+          onMouseDown={handleMouseDown('end')}
+        />
+
+        {/* Reference indicator as HTML */}
+        {referenceCoords && (
+          <div
+            className="absolute transform -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none"
+            style={{ 
+              left: `${referenceCoords.x}px`,
+              top: `${referenceCoords.y}px`,
+              backgroundColor: referenceColor,
+              width: '16px',
+              height: '16px',
+              borderRadius: '50%',
+              border: '3px solid white',
+              boxShadow: '0 1px 3px rgba(0, 0, 0, 0.3)'
+            }}
+          >
+            <div
+              style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                width: '8px',
+                height: '8px',
+                backgroundColor: 'white',
+                borderRadius: '50%',
+                opacity: 0.9
+              }}
+            />
+          </div>
+        )}
       </div>
 
       {/* Value display */}
