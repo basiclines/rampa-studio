@@ -1,6 +1,6 @@
 import React from 'react';
 import chroma from 'chroma-js';
-import GradientControl from '@/components/GradientControl';
+import CircularHueSlider from '@/components/CircularHueSlider';
 import { generateHueGradient } from '@/engine/GradientEngine';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { cn, roundToOneDecimal } from '@/engine/utils';
@@ -27,8 +27,8 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate, className }) => {
   const setChromaGradient = useSetChromaGradient();
 
   return (
-    <div className={cn("flex flex-col h-full", className)}>
-      <GradientControl
+    <div className={cn("flex flex-col h-full justify-center", className)}>
+      <CircularHueSlider
         label="Hue"
         startValue={roundToOneDecimal(ramp.chromaStart)}
         endValue={roundToOneDecimal(ramp.chromaEnd)}
@@ -39,7 +39,7 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate, className }) => {
         gradientColors={generateHueGradient(ramp.baseColor)}
         referenceValue={getReferenceValue()}
         referenceColor={ramp.baseColor}
-        className="h-full flex-1"
+        className="flex-1"
         totalSteps={ramp.totalSteps}
         scaleType={ramp.hueScaleType}
       />
