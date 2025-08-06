@@ -1,6 +1,7 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { cn, roundToOneDecimal } from '@/engine/utils';
 import { calculateScalePosition } from '@/engine/HarmonyEngine';
+import { valueToPosition as engineValueToPosition, positionToValue as enginePositionToValue, isHueGradient } from '@/engine/GradientEngine';
 
 interface GradientControlProps {
   label: string;
@@ -41,50 +42,25 @@ const GradientControl: React.FC<GradientControlProps> = ({
   const containerRef = useRef<HTMLDivElement>(null);
 
   const valueToPosition = useCallback((value: number) => {
-    if (invertValues) {
-      // For inverted sliders, map values in reverse
-      return ((max - value) / (max - min)) * 100;
-    }
-    
-    // Special handling for hue slider - make positions relative to reference
-    if (label === 'Hue' && min === -180 && max === 180 && referenceValue !== undefined) {
-      // Convert reference value (0-360) to position on gradient (0-100%)
-      const referencePos = (referenceValue / 360) * 100;
-      // Convert relative value (-180 to +180) to offset from reference
-      const relativeOffset = (value / 360) * 100; // Convert to percentage of full circle
-      // Position relative to reference, wrapping around if necessary
-      let position = referencePos + relativeOffset;
-      if (position > 100) position -= 100;
-      if (position < 0) position += 100;
-      return position;
-    }
-    
-    return ((value - min) / (max - min)) * 100;
+    return engineValueToPosition({
+      value,
+      min,
+      max,
+      referenceValue,
+      isHueGradient: isHueGradient(label, min, max),
+      invertValues
+    });
   }, [min, max, invertValues, label, referenceValue]);
 
   const positionToValue = useCallback((position: number) => {
-    if (invertValues) {
-      // For inverted sliders, map position in reverse
-      const value = max - (position / 100) * (max - min);
-      return roundToOneDecimal(Math.max(min, Math.min(max, value)));
-    }
-    
-    // Special handling for hue slider - convert position back to relative value
-    if (label === 'Hue' && min === -180 && max === 180 && referenceValue !== undefined) {
-      // Convert reference value (0-360) to position on gradient (0-100%)
-      const referencePos = (referenceValue / 360) * 100;
-      // Calculate offset from reference position
-      let relativeOffset = position - referencePos;
-      // Handle wrapping
-      if (relativeOffset > 50) relativeOffset -= 100;
-      if (relativeOffset < -50) relativeOffset += 100;
-      // Convert percentage back to degrees (-180 to +180)
-      const value = (relativeOffset / 100) * 360;
-      return roundToOneDecimal(Math.max(min, Math.min(max, value)));
-    }
-    
-    const value = min + (position / 100) * (max - min);
-    return roundToOneDecimal(Math.max(min, Math.min(max, value)));
+    return enginePositionToValue({
+      position,
+      min,
+      max,
+      referenceValue,
+      isHueGradient: isHueGradient(label, min, max),
+      invertValues
+    });
   }, [min, max, invertValues, label, referenceValue]);
 
   const handleMouseDown = (type: 'start' | 'end') => (e: React.MouseEvent) => {
