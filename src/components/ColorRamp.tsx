@@ -136,17 +136,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                 <LockOpen1Icon className="w-3 h-3" />
               )}
             </Button>
-            {onDelete && (
-              <Button 
-                variant="outline" 
-                size="sm" 
-                onClick={handleDelete}
-                className="h-8 w-8 p-0 bg-white shadow-md hover:bg-red-50 hover:border-red-300"
-                style={{ pointerEvents: 'auto' }}
-              >
-                <TrashIcon className="w-3 h-3" />
-              </Button>
-            )}
             {/* Add Color Ramp Button (Dropdown, open on hover) */}
             <div
               onMouseEnter={() => setMenuOpen(true)}
@@ -293,6 +282,17 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
+            {onDelete && (
+              <Button 
+                variant="outline" 
+                size="sm" 
+                onClick={handleDelete}
+                className="h-8 w-8 p-0 bg-white shadow-md hover:bg-red-50 hover:border-red-300"
+                style={{ pointerEvents: 'auto' }}
+              >
+                <TrashIcon className="w-3 h-3" />
+              </Button>
+            )}
           </div>
         )}
       </div>

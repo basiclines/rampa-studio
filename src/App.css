@@ -48,7 +48,7 @@
 
 .r-input.focus {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
-  background: var(--r-color-surface);
+  background: var(--r-color-surface-ultrathin);
 }
 
 .r-popover {
