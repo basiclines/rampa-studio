@@ -141,9 +141,9 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
     >
       {/* Close button */}
       <div className="flex justify-between items-center mb-6 p-6 pb-0">
-        <Button variant="ghost" size="sm" onClick={closeSidebar}>
+        <button className='r-close-button' onClick={closeSidebar}>
           <Cross1Icon className="w-4 h-4" />
-        </Button>
+        </button>
       </div>
 
       <div className="flex-1 overflow-y-auto p-6 pt-0 flex flex-col">
