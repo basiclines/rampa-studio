@@ -8,9 +8,19 @@ let isInitialized = false
 
 export default class AmplitudeTracker {
 
-  static init() {
-    if (IS_DEBUG) return
-    
+  static init = async () => {
+    return new Promise((resolve, reject) => {
+      if (IS_DEBUG) {
+        resolve({ deviceId: 'debugId', sessionId: 'debugSessionId' })
+      } else if (isInitialized) {
+        resolve(getUserInfo())
+      } else {
+        this.setupAmplitude(resolve, reject)
+      }
+    })
+  }
+
+  static setupAmplitude = (resolve, reject) => {
     amplitude.init(AMPLITUDE_API_KEY, {
       autocapture: true
     }).promise.then((res) => {
@@ -26,30 +36,36 @@ export default class AmplitudeTracker {
           sampleRate: 100
         });
         isInitialized = true
+        resolve({ deviceId, sessionId })
       })
     }).catch((err) => {
       console.error('amplitude.init()', err)
+      reject(err)
     })
   }
+}
 
-  static track(event: string, properties: Record<string, any>) {
-    if (IS_DEBUG) return console.log('track', event, properties)
+export const getUserInfo = () => {
+  return {
+    deviceId: amplitude.getDeviceId(),
+    sessionId: amplitude.getSessionId()
+  }
+}
 
-    const sessionReplayProperties = sessionReplay.getSessionReplayProperties();
-    amplitude.track(event, {...properties, ...sessionReplayProperties})
+export const track = async (event: string, properties: Record<string, any>) => {
+  if (IS_DEBUG) return console.log('track', event, properties)
+
+  await AmplitudeTracker.init()
+  const sessionReplayProperties = sessionReplay.getSessionReplayProperties();
+  amplitude.track(event, {...properties, ...sessionReplayProperties})
+}
+
+export const getVariant = async (flag: string) => {
+  if (IS_DEBUG) {
+    console.log(`getVariant(${flag}):`, 'on')
+    return 'on'
   }
 
-  static getVariant(flag: string) {
-    if (IS_DEBUG) {
-      console.log(`getVariant(${flag}):`, 'on')
-      return 'on'
-    }
-
-    if (!isInitialized) {
-      return 'off'
-    } else {
-      return ExperimentInstance.variant(flag)
-    }
-  }
-
+  await AmplitudeTracker.init()
+  return ExperimentInstance.variant(flag)
 }

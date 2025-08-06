@@ -1,23 +1,32 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useGetActiveTab } from '@/usecases/GetActiveTab';
 import { useShowColorTab } from '@/usecases/ShowColorTab';
 import { useShowUITab } from '@/usecases/ShowUITab';
 import ColorsSection from './ColorsSection';
 import UISection from './UISection';
-import AmplitudeTracker from '@/utilities/AmplitudeTracker';
+import { getVariant } from '@/utilities/AmplitudeTracker';
 
-const TABS_ENABLED = (AmplitudeTracker.getVariant('components_editor') == 'on')
 
 const MainTabs: React.FC = () => {
   const activeTab = useGetActiveTab();
   const showColorTab = useShowColorTab();
   const showUITab = useShowUITab();
+  const [tabsEnabled, setTabsEnabled] = useState<boolean>(false);
 
+  useEffect(() => {
+    getVariant('components_editor').then((variant) => {
+      setTabsEnabled(variant === 'on');
+    }).catch((error) => {
+      console.error('Error getting variant:', error);
+      setTabsEnabled(false);
+    });
+  }, [])
+  
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       {/* Top Navigation Tabs */}
-      <div className={`flex justify-center pt-6 pb-4 ${TABS_ENABLED ? '' : 'hidden'}`}>
+      <div className={`flex justify-center pt-6 pb-4 ${tabsEnabled ? '' : 'hidden'}`}>
         <Tabs 
           value={activeTab} 
           onValueChange={(value) => {
