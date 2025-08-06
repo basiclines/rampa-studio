@@ -6,8 +6,8 @@ export const DEFAULT_COLOR_RAMP_VALUES = {
   totalSteps: 10,
   lightnessStart: 0,
   lightnessEnd: 100,
-  chromaStart: 0,
-  chromaEnd: 0,
+  chromaStart: -10,
+  chromaEnd: 10,
   saturationStart: 100,
   saturationEnd: 0,
 } as const;
@@ -18,8 +18,8 @@ export const DEFAULT_NEW_RAMP_VALUES = {
   totalSteps: 10,
   lightnessStart: 0,
   lightnessEnd: 100,
-  chromaStart: 0,
-  chromaEnd: 0,
+  chromaStart: -10,
+  chromaEnd: 10,
   saturationStart: 100,
   saturationEnd: 0,
 } as const; 
