@@ -93,8 +93,7 @@ const calculateSaturation = (
   try {
     const startSaturation = config.saturationStart / 100;
     const endSaturation = config.saturationEnd / 100;
-    const invertedPosition = 1 - position;
-    const newSaturation = startSaturation + (endSaturation - startSaturation) * invertedPosition;
+    const newSaturation = startSaturation + (endSaturation - startSaturation) * position;
     
     return clampValue(newSaturation, 0, 1);
   } catch (error) {
@@ -154,8 +153,7 @@ const calculateOklchChroma = (
     // For OKLCH, we interpret saturation controls as chroma controls
     const startChroma = (config.saturationStart / 100) * baseChroma;
     const endChroma = (config.saturationEnd / 100) * baseChroma;
-    const invertedPosition = 1 - position;
-    const newChroma = startChroma + (endChroma - startChroma) * invertedPosition;
+    const newChroma = startChroma + (endChroma - startChroma) * position;
     
     return Math.max(0, newChroma); // Chroma cannot be negative
   } catch (error) {
