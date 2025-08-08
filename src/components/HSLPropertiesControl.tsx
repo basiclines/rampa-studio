@@ -7,6 +7,7 @@ import HueSlider from './HueSlider';
 import SaturationSlider from './SaturationSlider';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import StepSlider from './ui/StepSlider';
+import OpacitySlider from './OpacitySlider';
 
 interface HSLPropertiesControlProps {
   ramp: ColorRampConfig;
@@ -74,6 +75,11 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
           className="flex-1 h-full"
         />
         <LightnessSlider
+          ramp={{ ...ramp, lightnessScaleType: previewType }}
+          onUpdate={onUpdate}
+          className="flex-1 h-full"
+        />
+        <OpacitySlider
           ramp={{ ...ramp, lightnessScaleType: previewType }}
           onUpdate={onUpdate}
           className="flex-1 h-full"

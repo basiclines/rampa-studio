@@ -281,12 +281,13 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
   try {
     const baseColor = chroma(config.baseColor);
     const colors: string[] = [];
-    const middleIndex = Math.floor(config.totalSteps / 2);
-    
-    // Generate colors from darkest to lightest
-    for (let i = 0; i < config.totalSteps; i++) {
-      // Check if this color index is locked (swatch)
-      if (config.swatches && config.swatches[i]?.locked) {
+         const middleIndex = Math.floor(config.totalSteps / 2);
+     
+     // Generate colors from darkest to lightest
+     const steps = config.swatches?.length ? Math.max(config.totalSteps, config.swatches.length) : config.totalSteps;
+     for (let i = 0; i < steps; i++) {
+      // If a swatch color is provided at this index, always use it
+      if (config.swatches && config.swatches[i]) {
         colors.push(config.swatches[i].color);
         continue;
       }
