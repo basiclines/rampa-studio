@@ -17,24 +17,33 @@ export function generateCSSVariables(colorRamps: ColorRampConfig[]): CSSVariable
       .replace(/\s+/g, '-')
       .replace(/[^a-z0-9-]/g, '');
     
-    // Generate the actual colors using the color engine
-    const generatedColors = generateColorRamp(ramp);
+    // Prefer explicit swatches when provided; otherwise use generated ramp colors
+    const hasSwatches = (ramp.swatches && ramp.swatches.length > 0);
+    const generatedColors = hasSwatches ? [] : generateColorRamp(ramp);
     
-    generatedColors.forEach((color, index) => {
-      const stepNumber = index * 10;
-      const variableName = `--${sanitizedRampName}-${stepNumber}`;
-      
-      // Use locked color if available, otherwise use generated color
-      const swatch = ramp.swatches[index];
-      const finalColor = (swatch && swatch.locked) ? swatch.color : color;
-      
-      variables.push({
-        name: variableName,
-        value: finalColor,
-        rampName: sanitizedRampName,
-        stepNumber: stepNumber,
+    if (hasSwatches) {
+      ramp.swatches!.forEach((swatch, index) => {
+        const stepNumber = index * 10;
+        const variableName = `--${sanitizedRampName}-${stepNumber}`;
+        variables.push({
+          name: variableName,
+          value: swatch.color,
+          rampName: sanitizedRampName,
+          stepNumber: stepNumber,
+        });
       });
-    });
+    } else {
+      generatedColors.forEach((color, index) => {
+        const stepNumber = index * 10;
+        const variableName = `--${sanitizedRampName}-${stepNumber}`;
+        variables.push({
+          name: variableName,
+          value: color,
+          rampName: sanitizedRampName,
+          stepNumber: stepNumber,
+        });
+      });
+    }
   });
   
   return variables;
