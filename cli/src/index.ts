@@ -3,6 +3,7 @@ import chroma from 'chroma-js';
 import { generateColorRamp } from '../../src/engine/ColorEngine';
 import type { ColorRampConfig } from '../../src/entities/ColorRampEntity';
 import { parsePercentRange, parseHueRange } from './utils/range-parser';
+import { SCALE_TYPES, isValidScaleType, getScaleTypesHelp } from './constants/scales';
 
 type ColorFormat = 'hex' | 'hsl' | 'rgb' | 'oklch';
 
@@ -34,6 +35,14 @@ function formatColor(color: string, format: ColorFormat): string {
     default:
       return c.hex();
   }
+}
+
+// Add colored square using ANSI 24-bit true color
+function coloredOutput(color: string, format: ColorFormat): string {
+  const c = chroma(color);
+  const [r, g, b] = c.rgb();
+  const square = `\x1b[38;2;${r};${g};${b}m■\x1b[0m`;
+  return `${square} ${formatColor(color, format)}`;
 }
 
 const validFormats = ['hex', 'hsl', 'rgb', 'oklch'];
@@ -78,6 +87,26 @@ const main = defineCommand({
       alias: 'H',
       description: 'Hue shift range start:end in degrees (default: -10:10)',
       default: '-10:10',
+    },
+    'lightness-scale': {
+      type: 'string',
+      description: 'Lightness distribution curve (default: linear)',
+      default: 'linear',
+    },
+    'saturation-scale': {
+      type: 'string',
+      description: 'Saturation distribution curve (default: linear)',
+      default: 'linear',
+    },
+    'hue-scale': {
+      type: 'string',
+      description: 'Hue distribution curve (default: linear)',
+      default: 'linear',
+    },
+    preview: {
+      type: 'boolean',
+      description: 'Show colored squares preview (default: true)',
+      default: true,
     },
   },
   run({ args }) {
@@ -134,6 +163,27 @@ const main = defineCommand({
       process.exit(1);
     }
 
+    // Validate scale types
+    const lightnessScale = args['lightness-scale'];
+    const saturationScale = args['saturation-scale'];
+    const hueScale = args['hue-scale'];
+
+    if (!isValidScaleType(lightnessScale)) {
+      console.error(`Error: Invalid lightness-scale "${lightnessScale}"`);
+      console.error(`Available: ${getScaleTypesHelp()}`);
+      process.exit(1);
+    }
+    if (!isValidScaleType(saturationScale)) {
+      console.error(`Error: Invalid saturation-scale "${saturationScale}"`);
+      console.error(`Available: ${getScaleTypesHelp()}`);
+      process.exit(1);
+    }
+    if (!isValidScaleType(hueScale)) {
+      console.error(`Error: Invalid hue-scale "${hueScale}"`);
+      console.error(`Available: ${getScaleTypesHelp()}`);
+      process.exit(1);
+    }
+
     // Build config for engine
     const config: ColorRampConfig = {
       id: 'cli',
@@ -147,6 +197,9 @@ const main = defineCommand({
       chromaEnd: hue.end,
       saturationStart: saturation.start,
       saturationEnd: saturation.end,
+      lightnessScaleType: lightnessScale,
+      saturationScaleType: saturationScale,
+      hueScaleType: hueScale,
       swatches: [],
     };
 
@@ -155,7 +208,11 @@ const main = defineCommand({
 
     // Output in requested format
     colors.forEach((color) => {
-      console.log(formatColor(color, outputFormat));
+      if (args.preview) {
+        console.log(coloredOutput(color, outputFormat));
+      } else {
+        console.log(formatColor(color, outputFormat));
+      }
     });
   },
 });
