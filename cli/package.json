@@ -1,0 +1,23 @@
+{
+  "name": "rampa-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "rampa": "./dist/rampa"
+  },
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "test": "bun test",
+    "build": "bun build ./src/index.ts --compile --outfile=./dist/rampa"
+  },
+  "dependencies": {
+    "citty": "^0.1.6",
+    "chroma-js": "^3.1.2",
+    "culori": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.17",
+    "@types/chroma-js": "^3.1.1",
+    "typescript": "^5.5.3"
+  }
+}
