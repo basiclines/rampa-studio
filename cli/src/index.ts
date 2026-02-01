@@ -2,6 +2,7 @@ import { defineCommand, runMain } from 'citty';
 import chroma from 'chroma-js';
 import { generateColorRamp } from '../../src/engine/ColorEngine';
 import type { ColorRampConfig } from '../../src/entities/ColorRampEntity';
+import { parsePercentRange, parseHueRange } from './utils/range-parser';
 
 type ColorFormat = 'hex' | 'hsl' | 'rgb' | 'oklch';
 
@@ -60,6 +61,24 @@ const main = defineCommand({
       alias: 'f',
       description: 'Output format: hex, hsl, rgb, oklch (default: same as input)',
     },
+    lightness: {
+      type: 'string',
+      alias: 'l',
+      description: 'Lightness range start:end (0-100, default: 0:100)',
+      default: '0:100',
+    },
+    saturation: {
+      type: 'string',
+      alias: 'S',
+      description: 'Saturation range start:end (0-100, default: 100:0)',
+      default: '100:0',
+    },
+    hue: {
+      type: 'string',
+      alias: 'H',
+      description: 'Hue shift range start:end in degrees (default: -10:10)',
+      default: '-10:10',
+    },
   },
   run({ args }) {
     // Detect input format before validation
@@ -94,19 +113,40 @@ const main = defineCommand({
       process.exit(1);
     }
 
-    // Build config for engine (using website defaults)
+    // Parse ranges
+    let lightness, saturation, hue;
+    try {
+      lightness = parsePercentRange(args.lightness, 'lightness');
+    } catch (e) {
+      console.error(`Error: ${(e as Error).message}`);
+      process.exit(1);
+    }
+    try {
+      saturation = parsePercentRange(args.saturation, 'saturation');
+    } catch (e) {
+      console.error(`Error: ${(e as Error).message}`);
+      process.exit(1);
+    }
+    try {
+      hue = parseHueRange(args.hue);
+    } catch (e) {
+      console.error(`Error: ${(e as Error).message}`);
+      process.exit(1);
+    }
+
+    // Build config for engine
     const config: ColorRampConfig = {
       id: 'cli',
       name: 'ramp',
       baseColor: validatedColor,
       colorFormat: 'hex',
       totalSteps: size,
-      lightnessStart: 0,      // Website default: dark to light
-      lightnessEnd: 100,
-      chromaStart: -10,       // Website default: slight hue shift
-      chromaEnd: 10,
-      saturationStart: 100,   // Website default: high to low
-      saturationEnd: 0,
+      lightnessStart: lightness.start,
+      lightnessEnd: lightness.end,
+      chromaStart: hue.start,
+      chromaEnd: hue.end,
+      saturationStart: saturation.start,
+      saturationEnd: saturation.end,
       swatches: [],
     };
 
