@@ -220,4 +220,4 @@ Rampa was inspired by these excellent color tools:
 
 See [LICENSE.md](./LICENSE.md) for details.
 
-© [basiclines](https://github.com/basiclines)
+© [ismael.fyi](https://ismael.fyi)
