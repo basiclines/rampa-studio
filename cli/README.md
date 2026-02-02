@@ -36,22 +36,22 @@ bun run build
 
 ```bash
 # Generate a 10-color palette from blue
-rampa --base="#3b82f6"
+rampa --color="#3b82f6"
 
 # Custom size with lightness range
-rampa -b "#3b82f6" --size=5 -l 10:90
+rampa -C "#3b82f6" --size=5 -L 10:90
 
 # Add complementary harmony
-rampa -b "#3b82f6" --add=complementary
+rampa -C "#3b82f6" --add=complementary
 
 # Output as CSS variables
-rampa -b "#3b82f6" --output=css --name=primary
+rampa -C "#3b82f6" --output=css
 ```
 
 ## Usage
 
 ```
-rampa --base <color> [options]
+rampa --color <color> [options]
 ```
 
 ## Flags
@@ -60,13 +60,13 @@ rampa --base <color> [options]
 
 | Flag | Alias | Description |
 |------|-------|-------------|
-| `--base` | `-b` | Base color (hex, hsl, rgb, oklch) |
+| `--color` | `-C` | Base color (hex, hsl, rgb, oklch) |
 
 ### Color Format
 
 | Flag | Alias | Description | Default |
 |------|-------|-------------|---------|
-| `--format` | `-f` | Output format: hex, hsl, rgb, oklch | Same as input |
+| `--format` | `-F` | Output format: hex, hsl, rgb, oklch | Same as input |
 
 ### Palette Size
 
@@ -78,7 +78,7 @@ rampa --base <color> [options]
 
 | Flag | Alias | Description | Default |
 |------|-------|-------------|---------|
-| `--lightness` | `-l` | Lightness range start:end (0-100) | 0:100 |
+| `--lightness` | `-L` | Lightness range start:end (0-100) | 0:100 |
 | `--saturation` | `-S` | Saturation range start:end (0-100) | 100:0 |
 | `--hue` | `-H` | Hue shift range start:end (degrees) | -10:10 |
 
@@ -100,14 +100,13 @@ Available scales: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `logarithm
 | `--tint-opacity` | Tint strength 0-100 | 0 |
 | `--tint-blend` | Blend mode for tinting | normal |
 
-Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`, `plus`, `minus`
+Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`
 
 ### Harmony Ramps
 
 | Flag | Description |
 |------|-------------|
 | `--add` | Add harmony ramp (repeatable) |
-| `--name` | Base ramp name (for headers/CSS) |
 
 Available harmonies: `complementary`, `triadic`, `analogous`, `split-complementary`, `square`, `compound`
 
@@ -115,7 +114,7 @@ Available harmonies: `complementary`, `triadic`, `analogous`, `split-complementa
 
 | Flag | Alias | Description | Default |
 |------|-------|-------------|---------|
-| `--output` | `-o` | Output format: text, json, css | text |
+| `--output` | `-O` | Output format: text, json, css | text |
 | `--preview` | | Show colored squares | true |
 
 ### Other
@@ -130,31 +129,31 @@ Available harmonies: `complementary`, `triadic`, `analogous`, `split-complementa
 ### Basic Palette
 
 ```bash
-rampa -b "#3b82f6"
+rampa -C "#3b82f6"
 ```
 
 ### Custom Lightness Range
 
 ```bash
-rampa -b "#3b82f6" -l 10:90 --lightness-scale=fibonacci
+rampa -C "#3b82f6" -L 10:90 --lightness-scale=fibonacci
 ```
 
 ### With Tinting
 
 ```bash
-rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=15 --tint-blend=overlay
+rampa -C "#3b82f6" --tint-color="#FF0000" --tint-opacity=15 --tint-blend=overlay
 ```
 
 ### Multiple Harmonies
 
 ```bash
-rampa -b "#3b82f6" --add=complementary --add=triadic
+rampa -C "#3b82f6" --add=complementary --add=triadic
 ```
 
 ### JSON Output
 
 ```bash
-rampa -b "#3b82f6" --size=5 --output=json
+rampa -C "#3b82f6" --size=5 --output=json
 ```
 
 Output:
@@ -174,34 +173,34 @@ Output:
 ### CSS Custom Properties
 
 ```bash
-rampa -b "#3b82f6" --size=5 --output=css --name=primary
+rampa -C "#3b82f6" --size=5 --output=css
 ```
 
 Output:
 ```css
 :root {
-  /* primary */
-  --primary-0: #000000;
-  --primary-25: #103c70;
-  --primary-50: #4070bf;
-  --primary-75: #afb9cf;
-  --primary-100: #ffffff;
+  /* base */
+  --base-0: #000000;
+  --base-25: #103c70;
+  --base-50: #4070bf;
+  --base-75: #afb9cf;
+  --base-100: #ffffff;
 }
 ```
 
 ### CSS with Harmonies
 
 ```bash
-rampa -b "#3b82f6" -o css --name=blue --add=complementary
+rampa -C "#3b82f6" -O css --add=complementary
 ```
 
 Output:
 ```css
 :root {
-  /* blue */
-  --blue-0: #000000;
-  --blue-50: #4070bf;
-  --blue-100: #ffffff;
+  /* base */
+  --base-0: #000000;
+  --base-50: #4070bf;
+  --base-100: #ffffff;
 
   /* complementary */
   --complementary-0: #000000;
@@ -213,7 +212,7 @@ Output:
 ### Piping (no preview)
 
 ```bash
-rampa -b "#3b82f6" --no-preview | head -5
+rampa -C "#3b82f6" --no-preview | head -5
 ```
 
 ## Contextual Help
@@ -233,7 +232,7 @@ cd cli
 bun install
 
 # Run in development
-bun run dev -- -b "#3b82f6"
+bun run dev -- -C "#3b82f6"
 
 # Run tests
 bun test
