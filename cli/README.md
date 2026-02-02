@@ -4,6 +4,13 @@ Generate mathematically accurate, accessible color palettes from a base color.
 
 ## Installation
 
+### Homebrew (macOS/Linux)
+
+```bash
+brew tap basiclines/tap
+brew install rampa
+```
+
 ### Download Binary
 
 Download the latest binary for your platform from the [releases page](https://github.com/basiclines/rampa-studio/releases).
