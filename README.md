@@ -83,6 +83,9 @@ rampa -C "#3b82f6" -L 10:90 --lightness-scale=fibonacci
 # Add complementary harmony ramp
 rampa -C "#3b82f6" --add=complementary
 
+# Add custom hue shift ramp (45 degrees)
+rampa -C "#3b82f6" --add=shift:45
+
 # Output as CSS variables
 rampa -C "#3b82f6" -O css --name=primary
 
@@ -161,6 +164,7 @@ Generate related color ramps:
 | `split-complementary` | 2 colors near opposite | +2 |
 | `square` | 4 colors, 90° apart | +3 |
 | `compound` | Complementary + split | +3 |
+| `shift:N` | Custom hue rotation by N degrees | +1 |
 
 ### Blend Modes
 

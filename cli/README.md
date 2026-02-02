@@ -57,6 +57,9 @@ rampa -C "#3b82f6" --size=5 -L 10:90
 # Add complementary harmony
 rampa -C "#3b82f6" --add=complementary
 
+# Add hue-shifted ramp (45 degrees)
+rampa -C "#3b82f6" --add=shift:45
+
 # Output as CSS variables
 rampa -C "#3b82f6" --output=css
 ```
@@ -121,7 +124,14 @@ Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lig
 |------|-------------|
 | `--add` | Add harmony ramp (repeatable) |
 
-Available harmonies: `complementary`, `triadic`, `analogous`, `split-complementary`, `square`, `compound`
+Available types:
+- `complementary` — Opposite on color wheel (+180°)
+- `triadic` — 3 colors, 120° apart
+- `analogous` — Adjacent colors, 30° apart
+- `split-complementary` — 2 colors near opposite
+- `square` — 4 colors, 90° apart
+- `compound` — Complementary + split
+- `shift:N` — Custom hue rotation by N degrees (e.g., `shift:45`, `shift:-30`)
 
 ### Output
 
@@ -161,6 +171,19 @@ rampa -C "#3b82f6" --tint-color="#FF0000" --tint-opacity=15 --tint-blend=overlay
 
 ```bash
 rampa -C "#3b82f6" --add=complementary --add=triadic
+```
+
+### Custom Hue Shifts
+
+```bash
+# Warm shift (+45°)
+rampa -C "#3b82f6" --add=shift:45
+
+# Cool shift (-30°)  
+rampa -C "#3b82f6" --add=shift:-30
+
+# Multiple shifts
+rampa -C "#3b82f6" --add=shift:30 --add=shift:60 --add=shift:90
 ```
 
 ### JSON Output
