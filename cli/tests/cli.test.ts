@@ -218,6 +218,32 @@ describe('CLI Integration', () => {
       // base + 3 square harmonies = 4
       expect(parsed.ramps).toHaveLength(4);
     });
+
+    it('should add hue shift ramp', async () => {
+      const result = await $`${CLI_PATH} -C "#3b82f6" --add-shift=45 --size=3 -O json`.text();
+      const parsed = JSON.parse(result);
+      
+      expect(parsed.ramps).toHaveLength(2);
+      expect(parsed.ramps[0].name).toBe('base');
+      expect(parsed.ramps[1].name).toBe('shift-45');
+    });
+
+    it('should add multiple hue shifts', async () => {
+      const result = await $`${CLI_PATH} -C "#3b82f6" --add-shift=30 --add-shift=60 --size=3 -O json`.text();
+      const parsed = JSON.parse(result);
+      
+      // base + 2 shifts = 3
+      expect(parsed.ramps).toHaveLength(3);
+      expect(parsed.ramps[1].name).toBe('shift-30');
+      expect(parsed.ramps[2].name).toBe('shift-60');
+    });
+
+    it('should normalize negative hue shifts', async () => {
+      const result = await $`${CLI_PATH} -C "#3b82f6" --add-shift=-30 --size=3 -O json`.text();
+      const parsed = JSON.parse(result);
+      
+      expect(parsed.ramps[1].name).toBe('shift-330');
+    });
   });
 
   describe('Tinting', () => {

@@ -69,6 +69,7 @@ TINTING
 
 HARMONIES
   ${cyan}--add <type>${reset}                   ${dim}Add harmony ramp (can repeat)${reset}
+  ${cyan}--add-shift <degrees>${reset}          ${dim}Add ramp shifted by N degrees (can repeat)${reset}
 
                                   ${dim}Types: complementary, triadic, analogous,${reset}
                                   ${dim}split-complementary, square, compound${reset}
@@ -87,6 +88,7 @@ EXAMPLES
   ${cyan}rampa -C "#3b82f6"${reset}
   ${cyan}rampa -C "#3b82f6" --size=5 -L 10:90${reset}
   ${cyan}rampa -C "#3b82f6" --add=complementary --add=triadic${reset}
+  ${cyan}rampa -C "#3b82f6" --add-shift=45 --add-shift=90${reset}
   ${cyan}rampa -C "#3b82f6" -O css${reset}
   ${cyan}rampa -C "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
 `;
@@ -218,6 +220,18 @@ Examples:
   rampa -C "#3b82f6" --add=triadic
   rampa -C "#3b82f6" --add=complementary --add=analogous
   rampa -C "#3b82f6" --add=split-complementary --add=square
+`,
+  'add-shift': `
+--add-shift <degrees>  Add ramp shifted by N degrees (can be used multiple times)
+
+The shift value is the number of degrees to rotate the hue (0-360).
+Negative values rotate counter-clockwise.
+
+Examples:
+  rampa -C "#3b82f6" --add-shift=30       # Slight warm shift
+  rampa -C "#3b82f6" --add-shift=-30      # Slight cool shift
+  rampa -C "#3b82f6" --add-shift=45 --add-shift=90
+  rampa -C "#3b82f6" --add-shift=180      # Same as complementary
 `,
   output: `
 --output, -O <format>  Output format
@@ -354,6 +368,10 @@ const main = defineCommand({
       type: 'string',
       description: 'Add harmony ramp (repeatable: complementary, triadic, etc.)',
     },
+    'add-shift': {
+      type: 'string',
+      description: 'Add ramp shifted by N degrees (repeatable)',
+    },
     output: {
       type: 'string',
       alias: 'O',
@@ -375,6 +393,7 @@ const main = defineCommand({
     if (needsHelp(args['tint-opacity']) && args['tint-opacity'] !== '0') showFlagHelp('tint-opacity');
     if (needsHelp(args['tint-blend']) && args['tint-blend'] !== 'normal') showFlagHelp('tint-blend');
     if (args.add !== undefined && needsHelp(args.add)) showFlagHelp('add');
+    if (args['add-shift'] !== undefined && needsHelp(args['add-shift'])) showFlagHelp('add-shift');
     if (needsHelp(args.output) && args.output !== 'text') showFlagHelp('output');
 
     // Detect input format before validation
@@ -479,6 +498,22 @@ const main = defineCommand({
       }
     }
 
+    // Parse and validate hue shift values
+    const shiftValues = args['add-shift'] ? (Array.isArray(args['add-shift']) ? args['add-shift'] : [args['add-shift']]) : [];
+    const hueShifts: number[] = [];
+    for (const s of shiftValues) {
+      const shift = parseFloat(s);
+      if (isNaN(shift)) {
+        console.error(`Error: Invalid shift value "${s}" - must be a number\n`);
+        showFlagHelp('add-shift');
+      }
+      // Normalize to 0-360 range (allowing negatives for input)
+      const normalized = ((shift % 360) + 360) % 360;
+      if (!hueShifts.includes(normalized)) {
+        hueShifts.push(normalized);
+      }
+    }
+
     // Warn if tint options used without tint-color
     if (!tintColor && tintOpacity > 0) {
       console.error('Warning: --tint-opacity has no effect without --tint-color');
@@ -578,6 +613,22 @@ const main = defineCommand({
           config: buildRampConfig(),
           colors: formattedHarmonyColors,
         });
+      });
+    }
+
+    // Generate shifted ramps
+    for (const shift of hueShifts) {
+      const baseChroma = chroma(validatedColor);
+      const [h, s, l] = baseChroma.hsl();
+      const shiftedHue = ((h || 0) + shift) % 360;
+      const shiftedBaseColor = chroma.hsl(shiftedHue, s, l).hex();
+      const shiftedRampColors = generateColorRamp(buildConfig(shiftedBaseColor));
+      const formattedShiftedColors = shiftedRampColors.map(c => formatColor(c, outputFormat));
+      ramps.push({
+        name: `shift-${Math.round(shift)}`,
+        baseColor: formatColor(shiftedBaseColor, outputFormat),
+        config: buildRampConfig(),
+        colors: formattedShiftedColors,
       });
     }
 
