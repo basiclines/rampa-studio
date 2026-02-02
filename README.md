@@ -13,14 +13,16 @@ Rampa is a color palette generator that creates perceptually uniform color ramps
 
 ### A Different Approach to Color Palettes
 
-**Most palette generators treat your base color as a starting point** — they take a single hue/saturation/lightness value and interpolate from there. This often produces palettes that feel mechanical or don't match your design intent.
+**Traditional palette tools** generate decent defaults, then force you to manually tweak individual color values one by one. You end up adjusting hex codes, eyeballing differences, and hoping the result feels cohesive.
 
-**Rampa treats HSL values as configurable ranges.** Instead of saying "start from this color," you define:
+**Rampa focuses on palette-level control with mathematical precision.** Instead of tweaking individual swatches, you configure the entire ramp's behavior:
+
 - **Lightness range** (e.g., 15% → 95%) — How dark to how light
 - **Saturation range** (e.g., 80% → 20%) — How vibrant to how muted  
 - **Hue shift range** (e.g., -10° → +10°) — Subtle hue rotation across the ramp
+- **Distribution scale** — How values are spread (Fibonacci, Golden Ratio, ease curves, etc.)
 
-This gives you **precise control over how your palette evolves**, not just where it starts. Combined with 11 distribution scales (Fibonacci, Golden Ratio, ease curves, etc.), you can craft palettes that feel intentional rather than algorithmically generated.
+The result: **predictable, mathematically consistent palettes** that you control at the system level, not the pixel level. Change one parameter and the entire palette updates coherently.
 
 **Key Features:**
 - 🎛️ **Range-based configuration** — Define start AND end values for L/S/H
