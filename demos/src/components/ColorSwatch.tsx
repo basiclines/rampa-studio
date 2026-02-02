@@ -5,27 +5,29 @@ interface ColorSwatchProps {
   color: string;
   startFrame: number;
   index: number;
+  compact?: boolean;
 }
 
 export const ColorSwatch: React.FC<ColorSwatchProps> = ({
   color,
   startFrame,
   index,
+  compact = false,
 }) => {
   const frame = useCurrentFrame();
 
-  const delay = index * 3; // Stagger each color
+  const delay = index * 1; // Fast stagger - 1 frame per color
   const animationStart = startFrame + delay;
 
-  const opacity = interpolate(frame, [animationStart, animationStart + 8], [0, 1], {
+  const opacity = interpolate(frame, [animationStart, animationStart + 3], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
 
   const translateX = interpolate(
     frame,
-    [animationStart, animationStart + 10],
-    [-20, 0],
+    [animationStart, animationStart + 4],
+    [-10, 0],
     {
       extrapolateLeft: "clamp",
       extrapolateRight: "clamp",
@@ -39,24 +41,24 @@ export const ColorSwatch: React.FC<ColorSwatchProps> = ({
       style={{
         display: "flex",
         alignItems: "center",
-        gap: 16,
+        gap: compact ? 8 : 16,
         opacity,
         transform: `translateX(${translateX}px)`,
-        marginBottom: 4,
+        marginBottom: compact ? 2 : 4,
       }}
     >
       {/* Color square */}
       <div
         style={{
-          width: 24,
-          height: 24,
+          width: compact ? 18 : 24,
+          height: compact ? 18 : 24,
           backgroundColor: color,
           borderRadius: 4,
           border: "1px solid rgba(255,255,255,0.1)",
         }}
       />
       {/* Hex value */}
-      <span style={{ color: "#8b949e", fontSize: 24 }}>{color}</span>
+      <span style={{ color: "#8b949e", fontSize: compact ? 16 : 24 }}>{color}</span>
     </div>
   );
 };
@@ -70,6 +72,41 @@ export const ColorOutput: React.FC<ColorOutputProps> = ({
   colors,
   startFrame,
 }) => {
+  // Use columns if more than 10 colors
+  const useColumns = colors.length > 10;
+  const columnSize = 10;
+  
+  if (useColumns) {
+    // Split into columns of 10
+    const columns: string[][] = [];
+    for (let i = 0; i < colors.length; i += columnSize) {
+      columns.push(colors.slice(i, i + columnSize));
+    }
+    
+    return (
+      <div style={{ 
+        marginTop: 16, 
+        marginLeft: 24,
+        display: "flex",
+        gap: 40,
+      }}>
+        {columns.map((column, colIndex) => (
+          <div key={colIndex}>
+            {column.map((color, index) => (
+              <ColorSwatch
+                key={`${color}-${colIndex}-${index}`}
+                color={color}
+                startFrame={startFrame}
+                index={colIndex * columnSize + index}
+                compact={true}
+              />
+            ))}
+          </div>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <div style={{ marginTop: 16, marginLeft: 24 }}>
       {colors.map((color, index) => (
