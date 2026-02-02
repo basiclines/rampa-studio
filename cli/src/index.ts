@@ -69,10 +69,9 @@ TINTING
 
 HARMONIES
   ${cyan}--add <type>${reset}                   ${dim}Add harmony ramp (can repeat)${reset}
-  ${cyan}--add-shift <degrees>${reset}          ${dim}Add ramp shifted by N degrees (can repeat)${reset}
 
                                   ${dim}Types: complementary, triadic, analogous,${reset}
-                                  ${dim}split-complementary, square, compound${reset}
+                                  ${dim}split-complementary, square, compound, shift:<degrees>${reset}
 
 OUTPUT
   ${cyan}-O, --output <format>${reset}          ${dim}Output format (default: text)${reset}
@@ -88,7 +87,7 @@ EXAMPLES
   ${cyan}rampa -C "#3b82f6"${reset}
   ${cyan}rampa -C "#3b82f6" --size=5 -L 10:90${reset}
   ${cyan}rampa -C "#3b82f6" --add=complementary --add=triadic${reset}
-  ${cyan}rampa -C "#3b82f6" --add-shift=45 --add-shift=90${reset}
+  ${cyan}rampa -C "#3b82f6" --add=shift:45 --add=shift:90${reset}
   ${cyan}rampa -C "#3b82f6" -O css${reset}
   ${cyan}rampa -C "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
 `;
@@ -210,28 +209,19 @@ Examples:
   rampa -C "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=screen
 `,
   add: `
---add <harmony>  Add harmony ramps (can be used multiple times)
+--add <type>  Add harmony ramps (can be used multiple times)
 
-Available harmonies:
+Available types:
   ${HARMONY_TYPES.join(', ')}
+  shift:<degrees>  - Custom hue rotation (e.g., shift:45, shift:-30)
 
 Examples:
   rampa -C "#3b82f6" --add=complementary
   rampa -C "#3b82f6" --add=triadic
   rampa -C "#3b82f6" --add=complementary --add=analogous
-  rampa -C "#3b82f6" --add=split-complementary --add=square
-`,
-  'add-shift': `
---add-shift <degrees>  Add ramp shifted by N degrees (can be used multiple times)
-
-The shift value is the number of degrees to rotate the hue (0-360).
-Negative values rotate counter-clockwise.
-
-Examples:
-  rampa -C "#3b82f6" --add-shift=30       # Slight warm shift
-  rampa -C "#3b82f6" --add-shift=-30      # Slight cool shift
-  rampa -C "#3b82f6" --add-shift=45 --add-shift=90
-  rampa -C "#3b82f6" --add-shift=180      # Same as complementary
+  rampa -C "#3b82f6" --add=shift:45           # Warm shift
+  rampa -C "#3b82f6" --add=shift:-30          # Cool shift
+  rampa -C "#3b82f6" --add=shift:45 --add=shift:90
 `,
   output: `
 --output, -O <format>  Output format
@@ -366,11 +356,7 @@ const main = defineCommand({
     },
     add: {
       type: 'string',
-      description: 'Add harmony ramp (repeatable: complementary, triadic, etc.)',
-    },
-    'add-shift': {
-      type: 'string',
-      description: 'Add ramp shifted by N degrees (repeatable)',
+      description: 'Add harmony ramp (repeatable: complementary, triadic, shift:N, etc.)',
     },
     output: {
       type: 'string',
@@ -393,7 +379,6 @@ const main = defineCommand({
     if (needsHelp(args['tint-opacity']) && args['tint-opacity'] !== '0') showFlagHelp('tint-opacity');
     if (needsHelp(args['tint-blend']) && args['tint-blend'] !== 'normal') showFlagHelp('tint-blend');
     if (args.add !== undefined && needsHelp(args.add)) showFlagHelp('add');
-    if (args['add-shift'] !== undefined && needsHelp(args['add-shift'])) showFlagHelp('add-shift');
     if (needsHelp(args.output) && args.output !== 'text') showFlagHelp('output');
 
     // Detect input format before validation
@@ -488,29 +473,31 @@ const main = defineCommand({
     // Parse and validate harmony types
     const addValues = args.add ? (Array.isArray(args.add) ? args.add : [args.add]) : [];
     const harmonies: HarmonyType[] = [];
-    for (const h of addValues) {
-      if (!isValidHarmonyType(h)) {
-        console.error(`Error: Invalid harmony type "${h}"\n`);
-        showFlagHelp('add');
-      }
-      if (!harmonies.includes(h as HarmonyType)) {
-        harmonies.push(h as HarmonyType);
-      }
-    }
-
-    // Parse and validate hue shift values
-    const shiftValues = args['add-shift'] ? (Array.isArray(args['add-shift']) ? args['add-shift'] : [args['add-shift']]) : [];
     const hueShifts: number[] = [];
-    for (const s of shiftValues) {
-      const shift = parseFloat(s);
-      if (isNaN(shift)) {
-        console.error(`Error: Invalid shift value "${s}" - must be a number\n`);
-        showFlagHelp('add-shift');
-      }
-      // Normalize to 0-360 range (allowing negatives for input)
-      const normalized = ((shift % 360) + 360) % 360;
-      if (!hueShifts.includes(normalized)) {
-        hueShifts.push(normalized);
+    
+    for (const value of addValues) {
+      // Check if it's a shift value (shift:N format)
+      if (value.startsWith('shift:')) {
+        const shiftStr = value.slice(6); // Remove 'shift:' prefix
+        const shift = parseFloat(shiftStr);
+        if (isNaN(shift)) {
+          console.error(`Error: Invalid shift value "${shiftStr}" - must be a number\n`);
+          showFlagHelp('add');
+        }
+        // Normalize to 0-360 range (allowing negatives for input)
+        const normalized = ((shift % 360) + 360) % 360;
+        if (!hueShifts.includes(normalized)) {
+          hueShifts.push(normalized);
+        }
+      } else {
+        // It's a harmony type
+        if (!isValidHarmonyType(value)) {
+          console.error(`Error: Invalid harmony type "${value}"\n`);
+          showFlagHelp('add');
+        }
+        if (!harmonies.includes(value as HarmonyType)) {
+          harmonies.push(value as HarmonyType);
+        }
       }
     }
 
