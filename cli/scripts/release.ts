@@ -30,7 +30,17 @@ async function main() {
 
   console.log(`\n🚀 Releasing Rampa CLI v${version}\n`);
 
-  // Step 1: Update version in package.json
+  // Step 1: Run tests
+  console.log("🧪 Running tests...");
+  try {
+    await $`bun test`.cwd(CLI_DIR);
+    console.log("✅ All tests passed!\n");
+  } catch (error) {
+    console.error("❌ Tests failed! Aborting release.");
+    process.exit(1);
+  }
+
+  // Step 2: Update version in package.json
   console.log("📦 Updating package.json...");
   const packageJsonPath = join(CLI_DIR, "package.json");
   const packageJson = JSON.parse(readFileSync(packageJsonPath, "utf-8"));
@@ -95,7 +105,7 @@ Or download binaries below.
     --title ${"v" + version} \
     --notes ${releaseNotes}`.cwd(ROOT_DIR);
 
-  // Step 7: Update Homebrew formula
+  // Step 8: Update Homebrew formula
   console.log("🍺 Updating Homebrew formula...");
   const formulaPath = join(HOMEBREW_TAP_DIR, "Formula/rampa.rb");
   
