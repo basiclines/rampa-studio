@@ -36,10 +36,10 @@ rampa v1.0.0
 Generate mathematically accurate color palettes from a base color
 
 USAGE
-  ${cyan}rampa --base <color> [options]${reset}
+  ${cyan}rampa --color <color> [options]${reset}
 
 BASE
-  ${cyan}-b, --base <color>${reset}            ${dim}Base color (required)${reset}
+  ${cyan}-c, --color <color>${reset}            ${dim}Base color (required)${reset}
   ${cyan}--size <number>${reset}               ${dim}Number of colors in palette (2-100, default: 10)${reset}
   ${cyan}-f, --format <type>${reset}           ${dim}Color format: hex, hsl, rgb, oklch (default: auto)${reset}
 
@@ -81,11 +81,11 @@ OTHER
   ${cyan}-v, --version${reset}                 ${dim}Show version${reset}
 
 EXAMPLES
-  ${cyan}rampa -b "#3b82f6"
-  rampa -b "#3b82f6" --size=5 -l 10:90
-  rampa -b "#3b82f6" --add=complementary --add=triadic
-  rampa -b "#3b82f6" -o css
-  rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
+  ${cyan}rampa -c "#3b82f6"
+  rampa -c "#3b82f6" --size=5 -l 10:90
+  rampa -c "#3b82f6" --add=complementary --add=triadic
+  rampa -c "#3b82f6" -o css
+  rampa -c "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
 `;
   console.log(help.trim());
   process.exit(0);
@@ -95,22 +95,22 @@ type ColorFormat = 'hex' | 'hsl' | 'rgb' | 'oklch';
 
 // Help text for each flag
 const FLAG_HELP = {
-  base: `
---base, -b <color>  Base color for the palette
+  color: `
+-c, --color <color>  Base color for the palette
 
 Examples:
-  rampa --base="#3b82f6"
-  rampa -b "rgb(59, 130, 246)"
-  rampa -b "hsl(217, 91%, 60%)"
-  rampa -b blue
+  rampa --color="#3b82f6"
+  rampa -c "rgb(59, 130, 246)"
+  rampa -c "hsl(217, 91%, 60%)"
+  rampa -c blue
 `,
   size: `
 --size <number>  Number of colors in palette (2-100)
 
 Examples:
-  rampa -b "#3b82f6" --size=5
-  rampa -b "#3b82f6" --size=12
-  rampa -b "#3b82f6" --size=20
+  rampa -c "#3b82f6" --size=5
+  rampa -c "#3b82f6" --size=12
+  rampa -c "#3b82f6" --size=20
 `,
   format: `
 --format, -f <type>  Output color format
@@ -118,34 +118,34 @@ Examples:
 Available formats: hex, hsl, rgb, oklch
 
 Examples:
-  rampa -b "#3b82f6" --format=hsl
-  rampa -b "#3b82f6" -f oklch
-  rampa -b "#3b82f6" -f rgb
+  rampa -c "#3b82f6" --format=hsl
+  rampa -c "#3b82f6" -f oklch
+  rampa -c "#3b82f6" -f rgb
 `,
   lightness: `
 --lightness, -l <start:end>  Lightness range (0-100)
 
 Examples:
-  rampa -b "#3b82f6" --lightness=10:90
-  rampa -b "#3b82f6" -l 20:80
-  rampa -b "#3b82f6" -l 0:50      # Dark palette
-  rampa -b "#3b82f6" -l 50:100    # Light palette
+  rampa -c "#3b82f6" --lightness=10:90
+  rampa -c "#3b82f6" -l 20:80
+  rampa -c "#3b82f6" -l 0:50      # Dark palette
+  rampa -c "#3b82f6" -l 50:100    # Light palette
 `,
   saturation: `
 --saturation, -S <start:end>  Saturation range (0-100)
 
 Examples:
-  rampa -b "#3b82f6" --saturation=20:80
-  rampa -b "#3b82f6" -S 100:0     # Vibrant to muted
-  rampa -b "#3b82f6" -S 50:50     # Constant saturation
+  rampa -c "#3b82f6" --saturation=20:80
+  rampa -c "#3b82f6" -S 100:0     # Vibrant to muted
+  rampa -c "#3b82f6" -S 50:50     # Constant saturation
 `,
   hue: `
 --hue, -H <start:end>  Hue shift in degrees (can be negative)
 
 Examples:
-  rampa -b "#3b82f6" --hue=-30:30
-  rampa -b "#3b82f6" -H 0:0       # No hue shift
-  rampa -b "#3b82f6" -H -45:45    # Wide hue variation
+  rampa -c "#3b82f6" --hue=-30:30
+  rampa -c "#3b82f6" -H 0:0       # No hue shift
+  rampa -c "#3b82f6" -H -45:45    # Wide hue variation
 `,
   'lightness-scale': `
 --lightness-scale <type>  Distribution curve for lightness
@@ -154,9 +154,9 @@ Available scales:
   ${SCALE_TYPES.join(', ')}
 
 Examples:
-  rampa -b "#3b82f6" --lightness-scale=fibonacci
-  rampa -b "#3b82f6" --lightness-scale=ease-in-out
-  rampa -b "#3b82f6" --lightness-scale=golden-ratio
+  rampa -c "#3b82f6" --lightness-scale=fibonacci
+  rampa -c "#3b82f6" --lightness-scale=ease-in-out
+  rampa -c "#3b82f6" --lightness-scale=golden-ratio
 `,
   'saturation-scale': `
 --saturation-scale <type>  Distribution curve for saturation
@@ -165,8 +165,8 @@ Available scales:
   ${SCALE_TYPES.join(', ')}
 
 Examples:
-  rampa -b "#3b82f6" --saturation-scale=ease-out
-  rampa -b "#3b82f6" --saturation-scale=logarithmic
+  rampa -c "#3b82f6" --saturation-scale=ease-out
+  rampa -c "#3b82f6" --saturation-scale=logarithmic
 `,
   'hue-scale': `
 --hue-scale <type>  Distribution curve for hue
@@ -175,23 +175,23 @@ Available scales:
   ${SCALE_TYPES.join(', ')}
 
 Examples:
-  rampa -b "#3b82f6" --hue-scale=fibonacci
-  rampa -b "#3b82f6" --hue-scale=ease-in
+  rampa -c "#3b82f6" --hue-scale=fibonacci
+  rampa -c "#3b82f6" --hue-scale=ease-in
 `,
   'tint-color': `
 --tint-color <color>  Tint color to blend over the palette
 
 Examples:
-  rampa -b "#3b82f6" --tint-color="#FF6600" --tint-opacity=20
-  rampa -b "#3b82f6" --tint-color="orange" --tint-opacity=15
+  rampa -c "#3b82f6" --tint-color="#FF6600" --tint-opacity=20
+  rampa -c "#3b82f6" --tint-color="orange" --tint-opacity=15
 `,
   'tint-opacity': `
 --tint-opacity <number>  Tint strength (0-100)
 
 Examples:
-  rampa -b "#3b82f6" --tint-color="#FF6600" --tint-opacity=10
-  rampa -b "#3b82f6" --tint-color="#FF6600" --tint-opacity=30
-  rampa -b "#3b82f6" --tint-color="#FF6600" --tint-opacity=50
+  rampa -c "#3b82f6" --tint-color="#FF6600" --tint-opacity=10
+  rampa -c "#3b82f6" --tint-color="#FF6600" --tint-opacity=30
+  rampa -c "#3b82f6" --tint-color="#FF6600" --tint-opacity=50
 `,
   'tint-blend': `
 --tint-blend <mode>  Blend mode for tinting
@@ -200,9 +200,9 @@ Available modes:
   ${BLEND_MODES.join(', ')}
 
 Examples:
-  rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=multiply
-  rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=overlay
-  rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=screen
+  rampa -c "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=multiply
+  rampa -c "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=overlay
+  rampa -c "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=screen
 `,
   add: `
 --add <harmony>  Add harmony ramps (can be used multiple times)
@@ -211,10 +211,10 @@ Available harmonies:
   ${HARMONY_TYPES.join(', ')}
 
 Examples:
-  rampa -b "#3b82f6" --add=complementary
-  rampa -b "#3b82f6" --add=triadic
-  rampa -b "#3b82f6" --add=complementary --add=analogous
-  rampa -b "#3b82f6" --add=split-complementary --add=square
+  rampa -c "#3b82f6" --add=complementary
+  rampa -c "#3b82f6" --add=triadic
+  rampa -c "#3b82f6" --add=complementary --add=analogous
+  rampa -c "#3b82f6" --add=split-complementary --add=square
 `,
   output: `
 --output, -o <format>  Output format
@@ -222,10 +222,10 @@ Examples:
 Available formats: ${OUTPUT_FORMATS.join(', ')}
 
 Examples:
-  rampa -b "#3b82f6" --output=text
-  rampa -b "#3b82f6" --output=json
-  rampa -b "#3b82f6" --output=css
-  rampa -b "#3b82f6" -o json --add=complementary
+  rampa -c "#3b82f6" --output=text
+  rampa -c "#3b82f6" --output=json
+  rampa -c "#3b82f6" --output=css
+  rampa -c "#3b82f6" -o json --add=complementary
 `,
 };
 
@@ -279,9 +279,9 @@ const main = defineCommand({
     description: 'Generate mathematically accurate color palettes from a base color',
   },
   args: {
-    base: {
+    color: {
       type: 'string',
-      alias: 'b',
+      alias: 'c',
       description: 'Base color (hex, hsl, rgb, oklch)',
       required: true,
     },
@@ -375,14 +375,14 @@ const main = defineCommand({
     if (needsHelp(args.output) && args.output !== 'text') showFlagHelp('output');
 
     // Detect input format before validation
-    const detectedFormat = detectColorFormat(args.base);
+    const detectedFormat = detectColorFormat(args.color);
     
     // Validate base color
     let validatedColor: string;
     try {
-      validatedColor = chroma(args.base).hex();
+      validatedColor = chroma(args.color).hex();
     } catch {
-      showFlagHelp('base');
+      showFlagHelp('color');
     }
 
     // Validate size
