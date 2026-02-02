@@ -9,19 +9,7 @@ function sanitizeName(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
-function calculateStep(index: number, total: number): number {
-  if (total === 1) return 0;
-  
-  // Use clean multiples based on palette size
-  if (total <= 11) {
-    // Multiples of 10: 0, 10, 20, 30...
-    return index * 10;
-  }
-  if (total <= 21) {
-    // Multiples of 5: 0, 5, 10, 15...
-    return index * 5;
-  }
-  // For larger palettes, just use index
+function calculateStep(index: number): number {
   return index;
 }
 
@@ -34,7 +22,7 @@ export function formatCss(ramps: RampOutput[]): string {
     lines.push(`  /* ${name} */`);
     
     ramp.colors.forEach((color, colorIndex) => {
-      const step = calculateStep(colorIndex, ramp.colors.length);
+      const step = calculateStep(colorIndex);
       lines.push(`  --${name}-${step}: ${color};`);
     });
   });
