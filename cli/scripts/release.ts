@@ -105,7 +105,17 @@ Or download binaries below.
     --title ${"v" + version} \
     --notes ${releaseNotes}`.cwd(ROOT_DIR);
 
-  // Step 8: Update Homebrew formula
+  // Step 7: Publish to npm
+  console.log("📦 Publishing to npm...");
+  try {
+    await $`npm publish --access=public`.cwd(CLI_DIR);
+    console.log("✅ Published to npm!");
+  } catch (error) {
+    console.warn("⚠️  Could not publish to npm automatically.");
+    console.warn("   Run manually: cd cli && npm publish --access=public");
+  }
+
+  // Step 9: Update Homebrew formula
   console.log("🍺 Updating Homebrew formula...");
   const formulaPath = join(HOMEBREW_TAP_DIR, "Formula/rampa.rb");
   
@@ -160,6 +170,7 @@ Or download binaries below.
 ✅ Release v${version} complete!
 
 📦 GitHub Release: https://github.com/basiclines/rampa-studio/releases/tag/v${version}
+📦 npm: https://www.npmjs.com/package/@basiclines/rampa
 🍺 Homebrew: brew upgrade rampa
 `);
 }
