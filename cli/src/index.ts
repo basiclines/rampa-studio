@@ -40,52 +40,54 @@ USAGE
 
 BASE
   ${cyan}-c, --color <color>${reset}            ${dim}Base color (required)${reset}
-  ${cyan}--size <number>${reset}               ${dim}Number of colors in palette (2-100, default: 10)${reset}
-  ${cyan}-f, --format <type>${reset}           ${dim}Color format: hex, hsl, rgb, oklch (default: auto)${reset}
+  ${cyan}--size <number>${reset}                ${dim}Number of colors in palette (2-100, default: 10)${reset}
+  ${cyan}-f, --format <type>${reset}            ${dim}Color format: hex, hsl, rgb, oklch (default: auto)${reset}
 
 RANGES
-  ${cyan}-l, --lightness <start:end>${reset}   ${dim}Lightness range 0-100 (default: 0:100)${reset}
-  ${cyan}-S, --saturation <start:end>${reset}  ${dim}Saturation range 0-100 (default: 100:0)${reset}
-  ${cyan}-H, --hue <start:end>${reset}         ${dim}Hue shift in degrees (default: -10:10)${reset}
+  ${cyan}-l, --lightness <start:end>${reset}    ${dim}Lightness range 0-100 (default: 0:100)${reset}
+  ${cyan}-S, --saturation <start:end>${reset}   ${dim}Saturation range 0-100 (default: 100:0)${reset}
+  ${cyan}-H, --hue <start:end>${reset}          ${dim}Hue shift in degrees (default: -10:10)${reset}
 
 SCALES
-  ${cyan}--lightness-scale <type>${reset}      ${dim}Lightness curve (default: linear)${reset}
-  ${cyan}--saturation-scale <type>${reset}     ${dim}Saturation curve (default: linear)${reset}
-  ${cyan}--hue-scale <type>${reset}            ${dim}Hue curve (default: linear)${reset}
+  ${cyan}--lightness-scale <type>${reset}       ${dim}Lightness curve (default: linear)${reset}
+  ${cyan}--saturation-scale <type>${reset}      ${dim}Saturation curve (default: linear)${reset}
+  ${cyan}--hue-scale <type>${reset}             ${dim}Hue curve (default: linear)${reset}
 
-  ${dim}Types: linear, geometric, fibonacci, golden-ratio, logarithmic,
-         powers-of-2, musical-ratio, cielab-uniform, ease-in, ease-out, ease-in-out${reset}
+                                  ${dim}Types: linear, geometric, fibonacci, golden-ratio,${reset}
+                                  ${dim}logarithmic, powers-of-2, musical-ratio, cielab-uniform,${reset}
+                                  ${dim}ease-in, ease-out, ease-in-out${reset}
 
 TINTING
-  ${cyan}--tint-color <color>${reset}          ${dim}Tint color to blend over palette${reset}
-  ${cyan}--tint-opacity <0-100>${reset}        ${dim}Tint strength (default: 0)${reset}
-  ${cyan}--tint-blend <mode>${reset}           ${dim}Blend mode (default: normal)${reset}
+  ${cyan}--tint-color <color>${reset}           ${dim}Tint color to blend over palette${reset}
+  ${cyan}--tint-opacity <0-100>${reset}         ${dim}Tint strength (default: 0)${reset}
+  ${cyan}--tint-blend <mode>${reset}            ${dim}Blend mode (default: normal)${reset}
 
-  ${dim}Modes: normal, multiply, screen, overlay, darken, lighten, color-dodge,
-         color-burn, hard-light, soft-light, difference, exclusion,
-         hue, saturation, color, luminosity, plus, minus${reset}
+                                  ${dim}Modes: normal, multiply, screen, overlay, darken,${reset}
+                                  ${dim}lighten, color-dodge, color-burn, hard-light, soft-light,${reset}
+                                  ${dim}difference, exclusion, hue, saturation, color, luminosity${reset}
 
 HARMONIES
-  ${cyan}--add <type>${reset}                  ${dim}Add harmony ramp (can repeat)${reset}
+  ${cyan}--add <type>${reset}                   ${dim}Add harmony ramp (can repeat)${reset}
 
-  ${dim}Types: complementary, triadic, analogous, split-complementary, square, compound${reset}
+                                  ${dim}Types: complementary, triadic, analogous,${reset}
+                                  ${dim}split-complementary, square, compound${reset}
 
 OUTPUT
-  ${cyan}-o, --output <format>${reset}         ${dim}Output format (default: text)${reset}
-  ${cyan}--preview / --no-preview${reset}      ${dim}Show colored squares (default: true)${reset}
+  ${cyan}-o, --output <format>${reset}          ${dim}Output format (default: text)${reset}
+  ${cyan}--preview / --no-preview${reset}       ${dim}Show colored squares (default: true)${reset}
 
-  ${dim}Formats: text, json, css${reset}
+                                  ${dim}Formats: text, json, css${reset}
 
 OTHER
-  ${cyan}-h, --help${reset}                    ${dim}Show this help${reset}
-  ${cyan}-v, --version${reset}                 ${dim}Show version${reset}
+  ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
+  ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
 
 EXAMPLES
-  ${cyan}rampa -c "#3b82f6"
-  rampa -c "#3b82f6" --size=5 -l 10:90
-  rampa -c "#3b82f6" --add=complementary --add=triadic
-  rampa -c "#3b82f6" -o css
-  rampa -c "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
+  ${cyan}rampa -c "#3b82f6"${reset}
+  ${cyan}rampa -c "#3b82f6" --size=5 -l 10:90${reset}
+  ${cyan}rampa -c "#3b82f6" --add=complementary --add=triadic${reset}
+  ${cyan}rampa -c "#3b82f6" -o css${reset}
+  ${cyan}rampa -c "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
 `;
   console.log(help.trim());
   process.exit(0);
