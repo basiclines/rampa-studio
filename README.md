@@ -96,6 +96,37 @@ See [cli/README.md](./cli/README.md) for complete flag reference and examples.
 
 ---
 
+## 🤖 Agent Skills
+
+Rampa includes skills for AI coding assistants. Skills teach agents how to generate color palettes for common design tasks.
+
+### Installation
+
+```bash
+npx skills add basiclines/rampa-studio
+```
+
+### Available Skills
+
+| Skill | Description |
+|-------|-------------|
+| `rampa-colors` | Basic palette generation from any color |
+| `theme-foundation` | Complete light/dark theme with accent + neutrals |
+| `tinted-neutrals` | Brand-tinted gray palettes |
+| `status-from-accent` | Success/warning/danger colors via square harmony |
+| `data-viz-palette` | Distinct colors for charts and graphs |
+| `brand-expansion` | Expand one color into full multi-hue system |
+| `accessible-contrast` | WCAG-compliant foreground/background pairs |
+
+### Example Prompts
+
+- "Create a theme from my brand color #3b82f6"
+- "Generate status colors that match my accent"
+- "I need 4 distinct colors for a chart"
+- "Make accessible text/background combinations"
+
+---
+
 ## 🎨 Color Engine
 
 Both the web app and CLI share the same color engine (`src/engine/`), ensuring consistent results across platforms.
