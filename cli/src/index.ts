@@ -34,9 +34,9 @@ USAGE
   rampa --base <color> [options]
 
 BASE
-  -b, --base <color>          Base color (required)
-  --size <number>             Number of colors in palette (2-100, default: 10)
-  -f, --format <type>         Color format: hex, hsl, rgb, oklch (default: auto)
+  -b, --base <color>            Base color (required)
+  --size <number>               Number of colors in palette (2-100, default: 10)
+  -f, --format <type>           Color format: hex, hsl, rgb, oklch (default: auto)
 
 RANGES
   -l, --lightness <start:end>   Lightness range 0-100 (default: 0:100)
@@ -44,35 +44,35 @@ RANGES
   -H, --hue <start:end>         Hue shift in degrees (default: -10:10)
 
 SCALES
-  --lightness-scale <type>    Lightness curve (default: linear)
-  --saturation-scale <type>   Saturation curve (default: linear)
-  --hue-scale <type>          Hue curve (default: linear)
-  
+  --lightness-scale <type>      Lightness curve (default: linear)
+  --saturation-scale <type>     Saturation curve (default: linear)
+  --hue-scale <type>            Hue curve (default: linear)
+
   Types: linear, geometric, fibonacci, golden-ratio, logarithmic,
          powers-of-2, musical-ratio, cielab-uniform, ease-in, ease-out, ease-in-out
 
 TINTING
-  --tint-color <color>        Tint color to blend over palette
-  --tint-opacity <0-100>      Tint strength (default: 0)
-  --tint-blend <mode>         Blend mode (default: normal)
-  
+  --tint-color <color>          Tint color to blend over palette
+  --tint-opacity <0-100>        Tint strength (default: 0)
+  --tint-blend <mode>           Blend mode (default: normal)
+
   Modes: normal, multiply, screen, overlay, darken, lighten, color-dodge,
          color-burn, hard-light, soft-light, difference, exclusion,
          hue, saturation, color, luminosity, plus, minus
 
 HARMONIES
-  --add <type>                Add harmony ramp (can repeat)
-  --name <name>               Base ramp name (default: ramp)
-  
+  --add <type>                  Add harmony ramp (can repeat)
+  --name <name>                 Base ramp name (default: ramp)
+
   Types: complementary, triadic, analogous, split-complementary, square, compound
 
 OUTPUT
-  -o, --output <format>       Output format: text, json, css (default: text)
-  --preview / --no-preview    Show colored squares (default: true)
+  -o, --output <format>         Output format: text, json, css (default: text)
+  --preview / --no-preview      Show colored squares (default: true)
 
 OTHER
-  -h, --help                  Show this help
-  -v, --version               Show version
+  -h, --help                    Show this help
+  -v, --version                 Show version
 
 EXAMPLES
   rampa -b "#3b82f6"
