@@ -26,6 +26,11 @@ if (process.argv.includes('--help') || process.argv.includes('-h')) {
 
 // Custom help output with grouped sections
 function showHelp(): void {
+  // ANSI color codes
+  const cyan = '\x1b[36m';
+  const dim = '\x1b[2m';
+  const reset = '\x1b[0m';
+
   const help = `
 rampa v1.0.0
 Generate mathematically accurate color palettes from a base color
@@ -34,54 +39,54 @@ USAGE
   rampa --base <color> [options]
 
 BASE
-  -b, --base <color>            Base color (required)
-  --size <number>               Number of colors in palette (2-100, default: 10)
-  -f, --format <type>           Color format: hex, hsl, rgb, oklch (default: auto)
+  ${cyan}-b, --base <color>${reset}            ${dim}Base color (required)${reset}
+  ${cyan}--size <number>${reset}               ${dim}Number of colors in palette (2-100, default: 10)${reset}
+  ${cyan}-f, --format <type>${reset}           ${dim}Color format: hex, hsl, rgb, oklch (default: auto)${reset}
 
 RANGES
-  -l, --lightness <start:end>   Lightness range 0-100 (default: 0:100)
-  -S, --saturation <start:end>  Saturation range 0-100 (default: 100:0)
-  -H, --hue <start:end>         Hue shift in degrees (default: -10:10)
+  ${cyan}-l, --lightness <start:end>${reset}   ${dim}Lightness range 0-100 (default: 0:100)${reset}
+  ${cyan}-S, --saturation <start:end>${reset}  ${dim}Saturation range 0-100 (default: 100:0)${reset}
+  ${cyan}-H, --hue <start:end>${reset}         ${dim}Hue shift in degrees (default: -10:10)${reset}
 
 SCALES
-  --lightness-scale <type>      Lightness curve (default: linear)
-  --saturation-scale <type>     Saturation curve (default: linear)
-  --hue-scale <type>            Hue curve (default: linear)
+  ${cyan}--lightness-scale <type>${reset}      ${dim}Lightness curve (default: linear)${reset}
+  ${cyan}--saturation-scale <type>${reset}     ${dim}Saturation curve (default: linear)${reset}
+  ${cyan}--hue-scale <type>${reset}            ${dim}Hue curve (default: linear)${reset}
 
-  Types: linear, geometric, fibonacci, golden-ratio, logarithmic,
-         powers-of-2, musical-ratio, cielab-uniform, ease-in, ease-out, ease-in-out
+  ${dim}Types: linear, geometric, fibonacci, golden-ratio, logarithmic,
+         powers-of-2, musical-ratio, cielab-uniform, ease-in, ease-out, ease-in-out${reset}
 
 TINTING
-  --tint-color <color>          Tint color to blend over palette
-  --tint-opacity <0-100>        Tint strength (default: 0)
-  --tint-blend <mode>           Blend mode (default: normal)
+  ${cyan}--tint-color <color>${reset}          ${dim}Tint color to blend over palette${reset}
+  ${cyan}--tint-opacity <0-100>${reset}        ${dim}Tint strength (default: 0)${reset}
+  ${cyan}--tint-blend <mode>${reset}           ${dim}Blend mode (default: normal)${reset}
 
-  Modes: normal, multiply, screen, overlay, darken, lighten, color-dodge,
+  ${dim}Modes: normal, multiply, screen, overlay, darken, lighten, color-dodge,
          color-burn, hard-light, soft-light, difference, exclusion,
-         hue, saturation, color, luminosity, plus, minus
+         hue, saturation, color, luminosity, plus, minus${reset}
 
 HARMONIES
-  --add <type>                  Add harmony ramp (can repeat)
-  --name <name>                 Base ramp name (default: ramp)
+  ${cyan}--add <type>${reset}                  ${dim}Add harmony ramp (can repeat)${reset}
+  ${cyan}--name <name>${reset}                 ${dim}Base ramp name (default: ramp)${reset}
 
-  Types: complementary, triadic, analogous, split-complementary, square, compound
+  ${dim}Types: complementary, triadic, analogous, split-complementary, square, compound${reset}
 
 OUTPUT
-  -o, --output <format>         Output format (default: text)
-  --preview / --no-preview      Show colored squares (default: true)
+  ${cyan}-o, --output <format>${reset}         ${dim}Output format (default: text)${reset}
+  ${cyan}--preview / --no-preview${reset}      ${dim}Show colored squares (default: true)${reset}
 
-  Formats: text, json, css
+  ${dim}Formats: text, json, css${reset}
 
 OTHER
-  -h, --help                    Show this help
-  -v, --version                 Show version
+  ${cyan}-h, --help${reset}                    ${dim}Show this help${reset}
+  ${cyan}-v, --version${reset}                 ${dim}Show version${reset}
 
 EXAMPLES
-  rampa -b "#3b82f6"
+  ${dim}rampa -b "#3b82f6"
   rampa -b "#3b82f6" --size=5 -l 10:90
   rampa -b "#3b82f6" --add=complementary --add=triadic
   rampa -b "#3b82f6" -o css --name=primary
-  rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=15
+  rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
 `;
   console.log(help.trim());
   process.exit(0);
