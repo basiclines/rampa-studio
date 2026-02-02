@@ -4,6 +4,19 @@ Generate mathematically accurate, accessible color palettes from a base color.
 
 ## Installation
 
+### npm
+
+```bash
+npx @basiclines/rampa -C "#3b82f6"
+```
+
+Or install globally:
+
+```bash
+npm install -g @basiclines/rampa
+rampa -C "#3b82f6"
+```
+
 ### Homebrew (macOS/Linux)
 
 ```bash

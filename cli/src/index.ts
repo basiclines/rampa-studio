@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { defineCommand, runMain } from 'citty';
 import chroma from 'chroma-js';
 import { 

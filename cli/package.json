@@ -1,18 +1,20 @@
 {
-  "name": "rampa-cli",
+  "name": "@basiclines/rampa",
   "version": "1.0.1",
   "description": "Generate mathematically accurate color palettes from a base color",
   "type": "module",
   "bin": {
-    "rampa": "./dist/rampa"
+    "rampa": "./dist/index.js"
   },
   "files": [
-    "dist/rampa",
+    "dist/index.js",
     "README.md"
   ],
   "scripts": {
     "dev": "bun run src/index.ts",
     "test": "bun test",
+    "build:npm": "bun build ./src/index.ts --outfile=./dist/index.js --target=node",
+    "prepublishOnly": "bun run build:npm",
     "build": "bun build ./src/index.ts --compile --outfile=./dist/rampa",
     "build:darwin-arm64": "bun build ./src/index.ts --compile --target=bun-darwin-arm64 --outfile=./dist/rampa-darwin-arm64",
     "build:darwin-x64": "bun build ./src/index.ts --compile --target=bun-darwin-x64 --outfile=./dist/rampa-darwin-x64",
@@ -34,7 +36,7 @@
     "oklch",
     "accessibility"
   ],
-  "author": "basiclines",
+  "author": "ismael.fyi",
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "citty": "^0.1.6",
