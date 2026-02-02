@@ -2,94 +2,250 @@
 
 Generate mathematically accurate, accessible color palettes from a base color.
 
-## Development
+## Installation
+
+### Download Binary
+
+Download the latest binary for your platform from the [releases page](https://github.com/basiclines/rampa-studio/releases).
+
+| Platform | Architecture | File |
+|----------|--------------|------|
+| macOS | Apple Silicon | `rampa-darwin-arm64` |
+| macOS | Intel | `rampa-darwin-x64` |
+| Linux | x64 | `rampa-linux-x64` |
+| Linux | ARM64 | `rampa-linux-arm64` |
+| Windows | x64 | `rampa-windows-x64.exe` |
+
+### From Source
 
 ```bash
-# Install dependencies
+cd cli
 bun install
-
-# Run in development mode
-bun run dev -- --base="#3B82F6"
-bun run dev -- -b "#FF0000" --size=5
-
-# Run tests
-bun test
-```
-
-## Build
-
-```bash
-# Compile for current platform
 bun run build
-# Output: ./dist/rampa
-
-# Run compiled binary
-./dist/rampa --base="#3B82F6"
+# Binary: ./dist/rampa
 ```
 
-### Cross-compile for other platforms
+## Quick Start
 
 ```bash
-# macOS Apple Silicon
-bun build ./src/index.ts --compile --target=bun-darwin-arm64 --outfile=./dist/rampa-darwin-arm64
+# Generate a 10-color palette from blue
+rampa --base="#3b82f6"
 
-# macOS Intel
-bun build ./src/index.ts --compile --target=bun-darwin-x64 --outfile=./dist/rampa-darwin-x64
+# Custom size with lightness range
+rampa -b "#3b82f6" --size=5 -l 10:90
 
-# Linux x64
-bun build ./src/index.ts --compile --target=bun-linux-x64 --outfile=./dist/rampa-linux-x64
+# Add complementary harmony
+rampa -b "#3b82f6" --add=complementary
 
-# Linux ARM64
-bun build ./src/index.ts --compile --target=bun-linux-arm64 --outfile=./dist/rampa-linux-arm64
-
-# Windows x64
-bun build ./src/index.ts --compile --target=bun-windows-x64 --outfile=./dist/rampa-windows-x64.exe
+# Output as CSS variables
+rampa -b "#3b82f6" --output=css --name=primary
 ```
 
 ## Usage
 
-```bash
+```
 rampa --base <color> [options]
 ```
 
-### Options
+## Flags
+
+### Required
+
+| Flag | Alias | Description |
+|------|-------|-------------|
+| `--base` | `-b` | Base color (hex, hsl, rgb, oklch) |
+
+### Color Format
 
 | Flag | Alias | Description | Default |
 |------|-------|-------------|---------|
-| `--base` | `-b` | Base color (hex, hsl, rgb) | required |
-| `--size` | | Number of colors (2-20) | 10 |
-| `--help` | `-h` | Show help | |
-| `--version` | `-v` | Show version | |
+| `--format` | `-f` | Output format: hex, hsl, rgb, oklch | Same as input |
 
-### Examples
+### Palette Size
+
+| Flag | Description | Default |
+|------|-------------|---------|
+| `--size` | Number of colors (2-100) | 10 |
+
+### Color Ranges
+
+| Flag | Alias | Description | Default |
+|------|-------|-------------|---------|
+| `--lightness` | `-l` | Lightness range start:end (0-100) | 0:100 |
+| `--saturation` | `-S` | Saturation range start:end (0-100) | 100:0 |
+| `--hue` | `-H` | Hue shift range start:end (degrees) | -10:10 |
+
+### Scale Types
+
+| Flag | Description | Default |
+|------|-------------|---------|
+| `--lightness-scale` | Lightness distribution curve | linear |
+| `--saturation-scale` | Saturation distribution curve | linear |
+| `--hue-scale` | Hue distribution curve | linear |
+
+Available scales: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`, `ease-in`, `ease-out`, `ease-in-out`
+
+### Tinting
+
+| Flag | Description | Default |
+|------|-------------|---------|
+| `--tint-color` | Tint color to blend over palette | - |
+| `--tint-opacity` | Tint strength 0-100 | 0 |
+| `--tint-blend` | Blend mode for tinting | normal |
+
+Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`, `plus`, `minus`
+
+### Harmony Ramps
+
+| Flag | Description |
+|------|-------------|
+| `--add` | Add harmony ramp (repeatable) |
+| `--name` | Base ramp name (for headers/CSS) |
+
+Available harmonies: `complementary`, `triadic`, `analogous`, `split-complementary`, `square`, `compound`
+
+### Output
+
+| Flag | Alias | Description | Default |
+|------|-------|-------------|---------|
+| `--output` | `-o` | Output format: text, json, css | text |
+| `--preview` | | Show colored squares | true |
+
+### Other
+
+| Flag | Alias | Description |
+|------|-------|-------------|
+| `--help` | `-h` | Show help |
+| `--version` | `-v` | Show version |
+
+## Examples
+
+### Basic Palette
 
 ```bash
-# Basic palette from blue
-rampa --base="#3B82F6"
-
-# Short alias with custom size
-rampa -b "#FF0000" --size=5
-
-# Using RGB format
-rampa --base="rgb(16, 185, 129)"
-
-# Using HSL format
-rampa --base="hsl(217, 91%, 60%)"
+rampa -b "#3b82f6"
 ```
 
-## Output
+### Custom Lightness Range
 
-Colors are output as hex values, one per line:
-
+```bash
+rampa -b "#3b82f6" -l 10:90 --lightness-scale=fibonacci
 ```
-#f2f2f2
-#d5d8dd
-#b1bccd
-#889fc4
-#5980bf
-#3363b3
-#1e4b95
-#0e3471
-#041e48
-#000a1a
+
+### With Tinting
+
+```bash
+rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=15 --tint-blend=overlay
+```
+
+### Multiple Harmonies
+
+```bash
+rampa -b "#3b82f6" --add=complementary --add=triadic
+```
+
+### JSON Output
+
+```bash
+rampa -b "#3b82f6" --size=5 --output=json
+```
+
+Output:
+```json
+{
+  "ramps": [
+    {
+      "name": "base",
+      "baseColor": "#3b82f6",
+      "config": { ... },
+      "colors": ["#000000", "#103c70", "#4070bf", "#afb9cf", "#ffffff"]
+    }
+  ]
+}
+```
+
+### CSS Custom Properties
+
+```bash
+rampa -b "#3b82f6" --size=5 --output=css --name=primary
+```
+
+Output:
+```css
+:root {
+  /* primary */
+  --primary-0: #000000;
+  --primary-25: #103c70;
+  --primary-50: #4070bf;
+  --primary-75: #afb9cf;
+  --primary-100: #ffffff;
+}
+```
+
+### CSS with Harmonies
+
+```bash
+rampa -b "#3b82f6" -o css --name=blue --add=complementary
+```
+
+Output:
+```css
+:root {
+  /* blue */
+  --blue-0: #000000;
+  --blue-50: #4070bf;
+  --blue-100: #ffffff;
+
+  /* complementary */
+  --complementary-0: #000000;
+  --complementary-50: #bf8f40;
+  --complementary-100: #ffffff;
+}
+```
+
+### Piping (no preview)
+
+```bash
+rampa -b "#3b82f6" --no-preview | head -5
+```
+
+## Contextual Help
+
+Run any flag without a value to see detailed help:
+
+```bash
+rampa --lightness-scale
+rampa --add
+rampa --output
+```
+
+## Development
+
+```bash
+cd cli
+bun install
+
+# Run in development
+bun run dev -- -b "#3b82f6"
+
+# Run tests
+bun test
+
+# Build for current platform
+bun run build
+
+# Build for all platforms
+bun run build:all
+```
+
+## Build Targets
+
+```bash
+bun run build              # Current platform
+bun run build:darwin-arm64 # macOS Apple Silicon
+bun run build:darwin-x64   # macOS Intel
+bun run build:linux-x64    # Linux x64
+bun run build:linux-arm64  # Linux ARM64
+bun run build:windows-x64  # Windows x64
+bun run build:all          # All platforms
 ```
