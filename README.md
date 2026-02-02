@@ -3,7 +3,7 @@
 Generate mathematically accurate, accessible color palettes from a base color using the OKLCH color space.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  <img src="https://img.shields.io/badge/license-Dual%20License-blue.svg" alt="License">
   <img src="https://img.shields.io/github/v/release/basiclines/rampa-studio?label=version&color=green" alt="Version">
 </p>
 
@@ -216,4 +216,8 @@ Rampa was inspired by these excellent color tools:
 
 ## 📄 License
 
-MIT © [basiclines](https://github.com/basiclines)
+**Free for individuals and developers.** Commercial integration requires a license.
+
+See [LICENSE.md](./LICENSE.md) for details.
+
+© [basiclines](https://github.com/basiclines)
