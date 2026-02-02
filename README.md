@@ -204,6 +204,16 @@ cd cli && bun test
 
 ---
 
+## 🙏 Inspiration
+
+Rampa was inspired by these excellent color tools:
+
+- [ColorColor](https://colorcolor.in/) — Perceptually uniform palette generator
+- [Primer Prism](https://primer.style/prism/) — GitHub's color scale tool
+- [ColorSpace](https://www.colorspace.dev/) — Advanced color manipulation
+
+---
+
 ## 📄 License
 
 MIT © [basiclines](https://github.com/basiclines)
