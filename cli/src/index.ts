@@ -36,7 +36,7 @@ rampa v1.0.0
 Generate mathematically accurate color palettes from a base color
 
 USAGE
-  rampa --base <color> [options]
+  ${cyan}rampa --base <color> [options]${reset}
 
 BASE
   ${cyan}-b, --base <color>${reset}            ${dim}Base color (required)${reset}
