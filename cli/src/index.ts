@@ -67,7 +67,6 @@ TINTING
 
 HARMONIES
   ${cyan}--add <type>${reset}                  ${dim}Add harmony ramp (can repeat)${reset}
-  ${cyan}--name <name>${reset}                 ${dim}Base ramp name (default: ramp)${reset}
 
   ${dim}Types: complementary, triadic, analogous, split-complementary, square, compound${reset}
 
@@ -85,7 +84,7 @@ EXAMPLES
   ${cyan}rampa -b "#3b82f6"
   rampa -b "#3b82f6" --size=5 -l 10:90
   rampa -b "#3b82f6" --add=complementary --add=triadic
-  rampa -b "#3b82f6" -o css --name=primary
+  rampa -b "#3b82f6" -o css
   rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
 `;
   console.log(help.trim());
@@ -227,7 +226,6 @@ Examples:
   rampa -b "#3b82f6" --output=json
   rampa -b "#3b82f6" --output=css
   rampa -b "#3b82f6" -o json --add=complementary
-  rampa -b "#3b82f6" -o css --name=primary
 `,
 };
 
@@ -352,11 +350,6 @@ const main = defineCommand({
     add: {
       type: 'string',
       description: 'Add harmony ramp (repeatable: complementary, triadic, etc.)',
-    },
-    name: {
-      type: 'string',
-      description: 'Name for the ramp (used in output headers and CSS)',
-      default: 'ramp',
     },
     output: {
       type: 'string',
@@ -498,12 +491,10 @@ const main = defineCommand({
       showFlagHelp('output');
     }
 
-    const rampName = args.name;
-
     // Helper to build config for a given base color
     const buildConfig = (baseColor: string): ColorRampConfig => ({
       id: 'cli',
-      name: rampName,
+      name: 'ramp',
       baseColor,
       colorFormat: 'hex',
       totalSteps: size,
@@ -565,7 +556,7 @@ const main = defineCommand({
     const baseColors = generateColorRamp(buildConfig(validatedColor));
     const formattedBaseColors = baseColors.map(c => formatColor(c, outputFormat));
     ramps.push({
-      name: rampName === 'ramp' ? 'base' : rampName,
+      name: 'base',
       baseColor: formatColor(validatedColor, outputFormat),
       config: buildRampConfig(),
       colors: formattedBaseColors,
