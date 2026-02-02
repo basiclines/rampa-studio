@@ -1,4 +1,4 @@
-# Rampa Studio
+# Rampa
 
 Generate mathematically accurate, accessible color palettes from a base color using the OKLCH color space.
 
@@ -35,48 +35,29 @@ The result: **predictable, mathematically consistent palettes** that you control
 
 ---
 
-## 🖥️ Web App
-
-A visual interface to design and preview color palettes in real-time.
-
-**Live:** [rampa.studio](https://rampa.studio)
-
-### Features
-- Interactive palette editor with live preview
-- CSS variables editor with autocomplete
-- Export to CSS, JSON, or copy colors directly
-- Visual harmony ramp generator
-
-### Local Development
-
-```bash
-# Install dependencies
-bun install
-
-# Start dev server
-bun run dev
-
-# Run tests
-bun test
-
-# Build for production
-bun run build
-```
-
-### Tech Stack
-- React + TypeScript
-- Vite
-- Tailwind CSS
-- shadcn/ui
-- Monaco Editor (CSS variables editor)
-
----
-
 ## ⌨️ CLI
 
 A command-line tool for generating palettes in scripts, CI/CD pipelines, or terminal workflows.
 
 ### Installation
+
+#### npm / bun
+
+```bash
+# Run directly with npx
+npx @basiclines/rampa -C "#3b82f6"
+
+# Or install globally
+npm install -g @basiclines/rampa
+bun add -g @basiclines/rampa
+```
+
+#### Homebrew (macOS/Linux)
+
+```bash
+brew tap basiclines/tap
+brew install rampa
+```
 
 #### Download Binary
 
@@ -90,39 +71,23 @@ Download from [GitHub Releases](https://github.com/basiclines/rampa-studio/relea
 | Linux | ARM64 | `rampa-linux-arm64` |
 | Windows | x64 | `rampa-windows-x64.exe` |
 
-#### Homebrew (macOS/Linux)
-
-```bash
-brew tap basiclines/tap
-brew install rampa
-```
-
-#### From Source
-
-```bash
-cd cli
-bun install
-bun run build
-# Binary: ./dist/rampa
-```
-
 ### Quick Start
 
 ```bash
 # Generate a 10-color palette from blue
-rampa --base="#3b82f6"
+rampa -C "#3b82f6"
 
 # Custom lightness range with Fibonacci scale
-rampa -b "#3b82f6" -l 10:90 --lightness-scale=fibonacci
+rampa -C "#3b82f6" -L 10:90 --lightness-scale=fibonacci
 
 # Add complementary harmony ramp
-rampa -b "#3b82f6" --add=complementary
+rampa -C "#3b82f6" --add=complementary
 
 # Output as CSS variables
-rampa -b "#3b82f6" --output=css --name=primary
+rampa -C "#3b82f6" -O css --name=primary
 
 # Apply a warm tint
-rampa -b "#3b82f6" --tint-color="#FF6B00" --tint-opacity=15 --tint-blend=overlay
+rampa -C "#3b82f6" --tint-color="#FF6B00" --tint-opacity=15 --tint-blend=overlay
 ```
 
 ### Full CLI Documentation
@@ -174,6 +139,33 @@ For tinting palettes:
 
 ---
 
+## 🖥️ Web App
+
+A visual interface to design and preview color palettes in real-time.
+
+**Live:** [rampa.studio](https://rampa.studio)
+
+### Features
+- Interactive palette editor with live preview
+- CSS variables editor with autocomplete
+- Export to CSS, JSON, or copy colors directly
+- Visual harmony ramp generator
+
+### Local Development
+
+```bash
+# Install dependencies
+bun install
+
+# Start dev server
+bun run dev
+
+# Build for production
+bun run build
+```
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -186,8 +178,7 @@ rampa-studio/
 │   ├── src/              # CLI source
 │   ├── dist/             # Compiled binaries
 │   └── README.md         # CLI documentation
-├── tests/                # Test suites
-└── docs/                 # Documentation
+└── tests/                # Test suites
 ```
 
 ---
@@ -195,9 +186,6 @@ rampa-studio/
 ## 🧪 Testing
 
 ```bash
-# Run all tests (from root)
-bun test
-
 # Run CLI tests
 cd cli && bun test
 ```
