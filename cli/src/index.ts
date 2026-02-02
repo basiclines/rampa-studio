@@ -67,8 +67,10 @@ HARMONIES
   Types: complementary, triadic, analogous, split-complementary, square, compound
 
 OUTPUT
-  -o, --output <format>         Output format: text, json, css (default: text)
+  -o, --output <format>         Output format (default: text)
   --preview / --no-preview      Show colored squares (default: true)
+
+  Formats: text, json, css
 
 OTHER
   -h, --help                    Show this help
