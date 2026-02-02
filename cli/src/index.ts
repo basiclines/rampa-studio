@@ -14,6 +14,10 @@ import { parsePercentRange, parseHueRange } from './utils/range-parser';
 import { SCALE_TYPES, isValidScaleType } from './constants/scales';
 import { BLEND_MODES, isValidBlendMode } from './constants/blend-modes';
 import { HARMONY_TYPES, isValidHarmonyType, type HarmonyType } from './constants/harmonies';
+import { OUTPUT_FORMATS, isValidOutputFormat, type OutputFormat } from './constants/output-formats';
+import { formatJson } from './formatters/json';
+import { formatCss } from './formatters/css';
+import type { RampOutput, RampConfig } from './formatters/types';
 
 type ColorFormat = 'hex' | 'hsl' | 'rgb' | 'oklch';
 
@@ -140,6 +144,18 @@ Examples:
   rampa -b "#3b82f6" --add=complementary --add=analogous
   rampa -b "#3b82f6" --add=split-complementary --add=square
 `,
+  output: `
+--output, -o <format>  Output format
+
+Available formats: ${OUTPUT_FORMATS.join(', ')}
+
+Examples:
+  rampa -b "#3b82f6" --output=text
+  rampa -b "#3b82f6" --output=json
+  rampa -b "#3b82f6" --output=css
+  rampa -b "#3b82f6" -o json --add=complementary
+  rampa -b "#3b82f6" -o css --name=primary
+`,
 };
 
 // Show help for a specific flag
@@ -181,14 +197,6 @@ function formatColor(color: string, format: ColorFormat): string {
     default:
       return c.hex();
   }
-}
-
-// Add colored square using ANSI 24-bit true color
-function coloredOutput(color: string, format: ColorFormat): string {
-  const c = chroma(color);
-  const [r, g, b] = c.rgb();
-  const square = `\x1b[38;2;${r};${g};${b}m■\x1b[0m`;
-  return `${square} ${formatColor(color, format)}`;
 }
 
 const validFormats = ['hex', 'hsl', 'rgb', 'oklch'];
@@ -274,8 +282,14 @@ const main = defineCommand({
     },
     name: {
       type: 'string',
-      description: 'Name for the ramp (used in output headers)',
+      description: 'Name for the ramp (used in output headers and CSS)',
       default: 'ramp',
+    },
+    output: {
+      type: 'string',
+      alias: 'o',
+      description: 'Output format: text, json, css (default: text)',
+      default: 'text',
     },
   },
   run({ args }) {
@@ -292,6 +306,7 @@ const main = defineCommand({
     if (needsHelp(args['tint-opacity']) && args['tint-opacity'] !== '0') showFlagHelp('tint-opacity');
     if (needsHelp(args['tint-blend']) && args['tint-blend'] !== 'normal') showFlagHelp('tint-blend');
     if (args.add !== undefined && needsHelp(args.add)) showFlagHelp('add');
+    if (needsHelp(args.output) && args.output !== 'text') showFlagHelp('output');
 
     // Detect input format before validation
     const detectedFormat = detectColorFormat(args.base);
@@ -403,6 +418,13 @@ const main = defineCommand({
       console.error('Warning: --tint-blend has no effect without --tint-color');
     }
 
+    // Validate output format
+    const outputType = args.output;
+    if (!isValidOutputFormat(outputType)) {
+      console.error(`Error: Invalid output format "${outputType}"\n`);
+      showFlagHelp('output');
+    }
+
     const rampName = args.name;
 
     // Helper to build config for a given base color
@@ -427,21 +449,6 @@ const main = defineCommand({
       swatches: [],
     });
 
-    // Helper to output a ramp
-    const outputRamp = (name: string, colors: string[], isFirst: boolean) => {
-      if (!isFirst || harmonies.length > 0) {
-        if (!isFirst) console.log('');
-        console.log(`# ${name}`);
-      }
-      colors.forEach((color) => {
-        if (args.preview) {
-          console.log(coloredOutput(color, outputFormat));
-        } else {
-          console.log(formatColor(color, outputFormat));
-        }
-      });
-    };
-
     // Helper to get harmony colors for a given type
     const getHarmonyColors = (type: HarmonyType, baseColor: string): string[] => {
       switch (type) {
@@ -460,17 +467,75 @@ const main = defineCommand({
       }
     };
 
-    // Generate and output base ramp
-    const baseColors = generateColorRamp(buildConfig(validatedColor));
-    outputRamp('base', baseColors, true);
+    // Build common config for RampOutput
+    const buildRampConfig = (): RampConfig => ({
+      size,
+      lightness: { start: lightness.start, end: lightness.end },
+      saturation: { start: saturation.start, end: saturation.end },
+      hue: { start: hue.start, end: hue.end },
+      scales: {
+        lightness: lightnessScale,
+        saturation: saturationScale,
+        hue: hueScale,
+      },
+      tint: validatedTintColor ? {
+        color: validatedTintColor,
+        opacity: tintOpacity,
+        blend: tintBlend,
+      } : null,
+    });
 
-    // Generate and output harmony ramps
+    // Collect all ramps
+    const ramps: RampOutput[] = [];
+
+    // Generate base ramp
+    const baseColors = generateColorRamp(buildConfig(validatedColor));
+    const formattedBaseColors = baseColors.map(c => formatColor(c, outputFormat));
+    ramps.push({
+      name: rampName === 'ramp' ? 'base' : rampName,
+      baseColor: formatColor(validatedColor, outputFormat),
+      config: buildRampConfig(),
+      colors: formattedBaseColors,
+    });
+
+    // Generate harmony ramps
     for (const harmony of harmonies) {
       const harmonyColors = getHarmonyColors(harmony, validatedColor);
       harmonyColors.forEach((harmonyBaseColor, index) => {
         const suffix = harmonyColors.length > 1 ? `-${index + 1}` : '';
         const harmonyRampColors = generateColorRamp(buildConfig(harmonyBaseColor));
-        outputRamp(`${harmony}${suffix}`, harmonyRampColors, false);
+        const formattedHarmonyColors = harmonyRampColors.map(c => formatColor(c, outputFormat));
+        ramps.push({
+          name: `${harmony}${suffix}`,
+          baseColor: formatColor(harmonyBaseColor, outputFormat),
+          config: buildRampConfig(),
+          colors: formattedHarmonyColors,
+        });
+      });
+    }
+
+    // Output based on format
+    if (outputType === 'json') {
+      console.log(formatJson(ramps));
+    } else if (outputType === 'css') {
+      console.log(formatCss(ramps));
+    } else {
+      // Text output
+      ramps.forEach((ramp, rampIndex) => {
+        if (rampIndex > 0 || ramps.length > 1) {
+          if (rampIndex > 0) console.log('');
+          console.log(`# ${ramp.name}`);
+        }
+        ramp.colors.forEach((color) => {
+          if (args.preview) {
+            const c = chroma(color);
+            const [r, g, b] = c.rgb();
+            const square = `\x1b[38;2;${r};${g};${b}m■\x1b[0m`;
+            console.log(`${square} ${color}`);
+          } else {
+            console.log(color);
+          }
+        });
       });
     }
   },
