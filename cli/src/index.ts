@@ -82,7 +82,7 @@ OTHER
   ${cyan}-v, --version${reset}                 ${dim}Show version${reset}
 
 EXAMPLES
-  ${dim}rampa -b "#3b82f6"
+  ${cyan}rampa -b "#3b82f6"
   rampa -b "#3b82f6" --size=5 -l 10:90
   rampa -b "#3b82f6" --add=complementary --add=triadic
   rampa -b "#3b82f6" -o css --name=primary
