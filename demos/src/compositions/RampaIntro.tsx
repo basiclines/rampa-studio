@@ -143,7 +143,7 @@ const InstallScene: React.FC<{ startFrame: number }> = ({ startFrame }) => {
         <span style={{ color: "#7ee787" }}>$</span>
         <span style={{ color: "#e6edf3" }}> npm install </span>
         <span style={{ color: "#79c0ff" }}>-g</span>
-        <span style={{ color: "#ffa657" }}> rampa</span>
+        <span style={{ color: "#ffa657" }}> @basiclines/rampa</span>
       </div>
 
       <div style={{ opacity: skillsOpacity, marginTop: 20, ...cmdStyle }}>
