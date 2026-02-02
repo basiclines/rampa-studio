@@ -1,10 +1,19 @@
 import { defineCommand, runMain } from 'citty';
 import chroma from 'chroma-js';
-import { generateColorRamp } from '../../src/engine/ColorEngine';
+import { 
+  generateColorRamp,
+  getComplementaryColors,
+  getTriadColors,
+  getAnalogousColors,
+  getSplitComplementaryColors,
+  getSquareColors,
+  getCompoundColors,
+} from '../../src/engine/ColorEngine';
 import type { ColorRampConfig } from '../../src/entities/ColorRampEntity';
 import { parsePercentRange, parseHueRange } from './utils/range-parser';
 import { SCALE_TYPES, isValidScaleType } from './constants/scales';
 import { BLEND_MODES, isValidBlendMode } from './constants/blend-modes';
+import { HARMONY_TYPES, isValidHarmonyType, type HarmonyType } from './constants/harmonies';
 
 type ColorFormat = 'hex' | 'hsl' | 'rgb' | 'oklch';
 
@@ -118,6 +127,18 @@ Examples:
   rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=multiply
   rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=overlay
   rampa -b "#3b82f6" --tint-color="#FF0000" --tint-opacity=20 --tint-blend=screen
+`,
+  add: `
+--add <harmony>  Add harmony ramps (can be used multiple times)
+
+Available harmonies:
+  ${HARMONY_TYPES.join(', ')}
+
+Examples:
+  rampa -b "#3b82f6" --add=complementary
+  rampa -b "#3b82f6" --add=triadic
+  rampa -b "#3b82f6" --add=complementary --add=analogous
+  rampa -b "#3b82f6" --add=split-complementary --add=square
 `,
 };
 
@@ -247,6 +268,15 @@ const main = defineCommand({
       description: 'Blend mode for tinting (default: normal)',
       default: 'normal',
     },
+    add: {
+      type: 'string',
+      description: 'Add harmony ramp (repeatable: complementary, triadic, etc.)',
+    },
+    name: {
+      type: 'string',
+      description: 'Name for the ramp (used in output headers)',
+      default: 'ramp',
+    },
   },
   run({ args }) {
     // Check for help requests on specific flags (when used without proper value)
@@ -261,6 +291,7 @@ const main = defineCommand({
     if (args['tint-color'] !== undefined && needsHelp(args['tint-color'])) showFlagHelp('tint-color');
     if (needsHelp(args['tint-opacity']) && args['tint-opacity'] !== '0') showFlagHelp('tint-opacity');
     if (needsHelp(args['tint-blend']) && args['tint-blend'] !== 'normal') showFlagHelp('tint-blend');
+    if (args.add !== undefined && needsHelp(args.add)) showFlagHelp('add');
 
     // Detect input format before validation
     const detectedFormat = detectColorFormat(args.base);
@@ -351,6 +382,19 @@ const main = defineCommand({
       showFlagHelp('tint-blend');
     }
 
+    // Parse and validate harmony types
+    const addValues = args.add ? (Array.isArray(args.add) ? args.add : [args.add]) : [];
+    const harmonies: HarmonyType[] = [];
+    for (const h of addValues) {
+      if (!isValidHarmonyType(h)) {
+        console.error(`Error: Invalid harmony type "${h}"\n`);
+        showFlagHelp('add');
+      }
+      if (!harmonies.includes(h as HarmonyType)) {
+        harmonies.push(h as HarmonyType);
+      }
+    }
+
     // Warn if tint options used without tint-color
     if (!tintColor && tintOpacity > 0) {
       console.error('Warning: --tint-opacity has no effect without --tint-color');
@@ -359,11 +403,13 @@ const main = defineCommand({
       console.error('Warning: --tint-blend has no effect without --tint-color');
     }
 
-    // Build config for engine
-    const config: ColorRampConfig = {
+    const rampName = args.name;
+
+    // Helper to build config for a given base color
+    const buildConfig = (baseColor: string): ColorRampConfig => ({
       id: 'cli',
-      name: 'ramp',
-      baseColor: validatedColor,
+      name: rampName,
+      baseColor,
       colorFormat: 'hex',
       totalSteps: size,
       lightnessStart: lightness.start,
@@ -379,19 +425,54 @@ const main = defineCommand({
       tintOpacity: tintOpacity,
       tintBlendMode: tintBlend,
       swatches: [],
+    });
+
+    // Helper to output a ramp
+    const outputRamp = (name: string, colors: string[], isFirst: boolean) => {
+      if (!isFirst || harmonies.length > 0) {
+        if (!isFirst) console.log('');
+        console.log(`# ${name}`);
+      }
+      colors.forEach((color) => {
+        if (args.preview) {
+          console.log(coloredOutput(color, outputFormat));
+        } else {
+          console.log(formatColor(color, outputFormat));
+        }
+      });
     };
 
-    // Generate colors
-    const colors = generateColorRamp(config);
-
-    // Output in requested format
-    colors.forEach((color) => {
-      if (args.preview) {
-        console.log(coloredOutput(color, outputFormat));
-      } else {
-        console.log(formatColor(color, outputFormat));
+    // Helper to get harmony colors for a given type
+    const getHarmonyColors = (type: HarmonyType, baseColor: string): string[] => {
+      switch (type) {
+        case 'complementary':
+          return getComplementaryColors(baseColor).slice(1);
+        case 'triadic':
+          return getTriadColors(baseColor).slice(1);
+        case 'analogous':
+          return getAnalogousColors(baseColor).slice(1);
+        case 'split-complementary':
+          return getSplitComplementaryColors(baseColor).slice(1);
+        case 'square':
+          return getSquareColors(baseColor).slice(1);
+        case 'compound':
+          return getCompoundColors(baseColor).slice(1);
       }
-    });
+    };
+
+    // Generate and output base ramp
+    const baseColors = generateColorRamp(buildConfig(validatedColor));
+    outputRamp('base', baseColors, true);
+
+    // Generate and output harmony ramps
+    for (const harmony of harmonies) {
+      const harmonyColors = getHarmonyColors(harmony, validatedColor);
+      harmonyColors.forEach((harmonyBaseColor, index) => {
+        const suffix = harmonyColors.length > 1 ? `-${index + 1}` : '';
+        const harmonyRampColors = generateColorRamp(buildConfig(harmonyBaseColor));
+        outputRamp(`${harmony}${suffix}`, harmonyRampColors, false);
+      });
+    }
   },
 });
 
