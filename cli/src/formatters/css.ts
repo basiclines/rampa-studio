@@ -11,7 +11,18 @@ function sanitizeName(name: string): string {
 
 function calculateStep(index: number, total: number): number {
   if (total === 1) return 0;
-  return Math.round((index / (total - 1)) * 100);
+  
+  // Use clean multiples based on palette size
+  if (total <= 11) {
+    // Multiples of 10: 0, 10, 20, 30...
+    return index * 10;
+  }
+  if (total <= 21) {
+    // Multiples of 5: 0, 5, 10, 15...
+    return index * 5;
+  }
+  // For larger palettes, just use index
+  return index;
 }
 
 export function formatCss(ramps: RampOutput[]): string {
