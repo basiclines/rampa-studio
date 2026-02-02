@@ -11,7 +11,19 @@ Generate mathematically accurate, accessible color palettes from a base color us
 
 Rampa is a color palette generator that creates perceptually uniform color ramps. Unlike traditional tools that produce muddy or inconsistent gradients, Rampa uses the OKLCH color space to ensure smooth, predictable transitions across lightness, saturation, and hue.
 
+### A Different Approach to Color Palettes
+
+**Most palette generators treat your base color as a starting point** — they take a single hue/saturation/lightness value and interpolate from there. This often produces palettes that feel mechanical or don't match your design intent.
+
+**Rampa treats HSL values as configurable ranges.** Instead of saying "start from this color," you define:
+- **Lightness range** (e.g., 15% → 95%) — How dark to how light
+- **Saturation range** (e.g., 80% → 20%) — How vibrant to how muted  
+- **Hue shift range** (e.g., -10° → +10°) — Subtle hue rotation across the ramp
+
+This gives you **precise control over how your palette evolves**, not just where it starts. Combined with 11 distribution scales (Fibonacci, Golden Ratio, ease curves, etc.), you can craft palettes that feel intentional rather than algorithmically generated.
+
 **Key Features:**
+- 🎛️ **Range-based configuration** — Define start AND end values for L/S/H
 - 🎨 **Perceptually uniform** — Colors look evenly spaced to the human eye
 - 🔢 **11 distribution scales** — Linear, Fibonacci, Golden Ratio, ease curves, and more
 - 🎯 **Color harmonies** — Complementary, triadic, analogous, and other harmony ramps
@@ -37,16 +49,16 @@ A visual interface to design and preview color palettes in real-time.
 
 ```bash
 # Install dependencies
-npm install
+bun install
 
 # Start dev server
-npm run dev
+bun run dev
 
 # Run tests
-npm test
+bun test
 
 # Build for production
-npm run build
+bun run build
 ```
 
 ### Tech Stack
@@ -182,7 +194,7 @@ rampa-studio/
 
 ```bash
 # Run all tests (from root)
-npm test
+bun test
 
 # Run CLI tests
 cd cli && bun test
