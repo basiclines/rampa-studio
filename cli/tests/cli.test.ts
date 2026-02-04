@@ -288,6 +288,38 @@ describe('CLI Integration', () => {
       
       expect(result).not.toContain('■');
     });
+
+    it('should use truecolor ANSI codes by default', async () => {
+      const result = await $`${CLI_PATH} -C "#3b82f6" --size=3`.text();
+      
+      // Truecolor uses 38;2;R;G;B format
+      expect(result).toMatch(/\x1b\[38;2;\d+;\d+;\d+m/);
+      // Should not show limitation note
+      expect(result).not.toContain('256-color mode');
+    });
+
+    it('should use 256-color mode in Terminal.app', async () => {
+      const result = await $`TERM_PROGRAM=Apple_Terminal ${CLI_PATH} -C "#3b82f6" --size=3`.text();
+      
+      // 256-color uses 38;5;N format
+      expect(result).toMatch(/\x1b\[38;5;\d+m/);
+      // Should not contain truecolor codes
+      expect(result).not.toMatch(/\x1b\[38;2;\d+;\d+;\d+m/);
+    });
+
+    it('should show limitation note in Terminal.app', async () => {
+      const result = await $`TERM_PROGRAM=Apple_Terminal ${CLI_PATH} -C "#3b82f6" --size=3`.text();
+      
+      expect(result).toContain('256-color mode');
+      expect(result).toContain('macOS Terminal.app has limited truecolor support');
+      expect(result).toContain('iTerm2');
+    });
+
+    it('should not show limitation note with --no-preview', async () => {
+      const result = await $`TERM_PROGRAM=Apple_Terminal ${CLI_PATH} -C "#3b82f6" --size=3 --no-preview`.text();
+      
+      expect(result).not.toContain('256-color mode');
+    });
   });
 
   describe('Edge Cases', () => {
