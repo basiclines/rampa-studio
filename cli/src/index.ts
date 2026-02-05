@@ -19,7 +19,7 @@ import { OUTPUT_FORMATS, isValidOutputFormat, type OutputFormat } from './consta
 import { formatJson } from './formatters/json';
 import { formatCss } from './formatters/css';
 import type { RampOutput, RampConfig } from './formatters/types';
-import { coloredSquare, getColorLimitationNote } from './utils/terminal-colors';
+import { coloredSquare, getColorLimitationNote, supportsTruecolor } from './utils/terminal-colors';
 
 // Intercept --help and -h before citty processes them
 if (process.argv.includes('--help') || process.argv.includes('-h')) {
@@ -627,7 +627,9 @@ const main = defineCommand({
       console.log(formatCss(ramps));
     } else {
       // Text output
-      if (args.preview) {
+      const canShowPreview = args.preview && supportsTruecolor();
+      
+      if (args.preview && !canShowPreview) {
         const limitationNote = getColorLimitationNote();
         if (limitationNote) {
           console.log(limitationNote);
@@ -640,7 +642,7 @@ const main = defineCommand({
           console.log(`# ${ramp.name}`);
         }
         ramp.colors.forEach((color) => {
-          if (args.preview) {
+          if (canShowPreview) {
             const c = chroma(color);
             const [r, g, b] = c.rgb();
             const square = coloredSquare(r, g, b);

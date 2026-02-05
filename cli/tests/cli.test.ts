@@ -295,29 +295,31 @@ describe('CLI Integration', () => {
       // Truecolor uses 38;2;R;G;B format
       expect(result).toMatch(/\x1b\[38;2;\d+;\d+;\d+m/);
       // Should not show limitation note
-      expect(result).not.toContain('256-color mode');
+      expect(result).not.toContain('truecolor support');
     });
 
-    it('should use 256-color mode when no truecolor support', async () => {
+    it('should disable preview when no truecolor support', async () => {
       const result = await $`COLORTERM= TERM=xterm-256color ${CLI_PATH} -C "#3b82f6" --size=3`.text();
       
-      // 256-color uses 38;5;N format
-      expect(result).toMatch(/\x1b\[38;5;\d+m/);
-      // Should not contain truecolor codes
-      expect(result).not.toMatch(/\x1b\[38;2;\d+;\d+;\d+m/);
+      // Should NOT contain any ANSI color codes (no preview)
+      expect(result).not.toMatch(/\x1b\[38;/);
+      // Should NOT contain colored squares
+      expect(result).not.toContain('■');
+      // Should just output hex codes
+      expect(result).toMatch(/#[0-9a-fA-F]{6}/);
     });
 
     it('should show limitation note when no truecolor support', async () => {
       const result = await $`COLORTERM= TERM=xterm-256color ${CLI_PATH} -C "#3b82f6" --size=3`.text();
       
-      expect(result).toContain('256-color mode');
-      expect(result).toContain('truecolor');
+      expect(result).toContain('truecolor support');
+      expect(result).toContain('COLORTERM');
     });
 
     it('should not show limitation note with --no-preview', async () => {
       const result = await $`COLORTERM= TERM=xterm-256color ${CLI_PATH} -C "#3b82f6" --size=3 --no-preview`.text();
       
-      expect(result).not.toContain('256-color mode');
+      expect(result).not.toContain('truecolor support');
     });
   });
 
