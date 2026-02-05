@@ -34,7 +34,7 @@ function showHelp(): void {
   const reset = '\x1b[0m';
 
   const help = `
-rampa v1.1.2
+rampa v1.1.3
 Generate mathematically accurate color palettes from a base color
 
 USAGE
@@ -283,7 +283,7 @@ const validFormats = ['hex', 'hsl', 'rgb', 'oklch'];
 const main = defineCommand({
   meta: {
     name: 'rampa',
-    version: '1.1.2',
+    version: '1.1.3',
     description: 'Generate mathematically accurate color palettes from a base color',
   },
   args: {
