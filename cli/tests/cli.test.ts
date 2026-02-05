@@ -289,8 +289,8 @@ describe('CLI Integration', () => {
       expect(result).not.toContain('■');
     });
 
-    it('should use truecolor ANSI codes by default', async () => {
-      const result = await $`${CLI_PATH} -C "#3b82f6" --size=3`.text();
+    it('should use truecolor ANSI codes when COLORTERM=truecolor', async () => {
+      const result = await $`COLORTERM=truecolor ${CLI_PATH} -C "#3b82f6" --size=3`.text();
       
       // Truecolor uses 38;2;R;G;B format
       expect(result).toMatch(/\x1b\[38;2;\d+;\d+;\d+m/);
@@ -298,8 +298,8 @@ describe('CLI Integration', () => {
       expect(result).not.toContain('256-color mode');
     });
 
-    it('should use 256-color mode in Terminal.app', async () => {
-      const result = await $`TERM_PROGRAM=Apple_Terminal ${CLI_PATH} -C "#3b82f6" --size=3`.text();
+    it('should use 256-color mode when no truecolor support', async () => {
+      const result = await $`COLORTERM= TERM=xterm-256color ${CLI_PATH} -C "#3b82f6" --size=3`.text();
       
       // 256-color uses 38;5;N format
       expect(result).toMatch(/\x1b\[38;5;\d+m/);
@@ -307,16 +307,15 @@ describe('CLI Integration', () => {
       expect(result).not.toMatch(/\x1b\[38;2;\d+;\d+;\d+m/);
     });
 
-    it('should show limitation note in Terminal.app', async () => {
-      const result = await $`TERM_PROGRAM=Apple_Terminal ${CLI_PATH} -C "#3b82f6" --size=3`.text();
+    it('should show limitation note when no truecolor support', async () => {
+      const result = await $`COLORTERM= TERM=xterm-256color ${CLI_PATH} -C "#3b82f6" --size=3`.text();
       
       expect(result).toContain('256-color mode');
-      expect(result).toContain('macOS Terminal.app has limited truecolor support');
-      expect(result).toContain('iTerm2');
+      expect(result).toContain('truecolor');
     });
 
     it('should not show limitation note with --no-preview', async () => {
-      const result = await $`TERM_PROGRAM=Apple_Terminal ${CLI_PATH} -C "#3b82f6" --size=3 --no-preview`.text();
+      const result = await $`COLORTERM= TERM=xterm-256color ${CLI_PATH} -C "#3b82f6" --size=3 --no-preview`.text();
       
       expect(result).not.toContain('256-color mode');
     });

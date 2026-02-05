@@ -1,14 +1,35 @@
 /**
  * Terminal color utilities with fallback support for terminals
- * that don't properly support 24-bit truecolor (like macOS Terminal.app)
+ * that don't properly support 24-bit truecolor
  */
 
 /**
- * Detects if the terminal has poor truecolor support
- * macOS Terminal.app is known to have issues with 24-bit color rendering
+ * Detects if the terminal supports 24-bit truecolor
+ * Based on standard environment variables used across terminals
+ */
+export function supportsTruecolor(): boolean {
+  const colorterm = process.env.COLORTERM?.toLowerCase() || '';
+  
+  // COLORTERM=truecolor or COLORTERM=24bit indicates truecolor support
+  if (colorterm === 'truecolor' || colorterm === '24bit') {
+    return true;
+  }
+  
+  // Some terminals set specific TERM values for truecolor
+  const term = process.env.TERM?.toLowerCase() || '';
+  if (term.includes('truecolor') || term.includes('24bit') || term.includes('direct')) {
+    return true;
+  }
+  
+  // Default to false - use 256-color fallback for safety
+  return false;
+}
+
+/**
+ * Detects if the terminal has limited color support (no truecolor)
  */
 export function hasLimitedColorSupport(): boolean {
-  return process.env.TERM_PROGRAM === 'Apple_Terminal';
+  return !supportsTruecolor();
 }
 
 /**
@@ -51,7 +72,7 @@ export function getColorLimitationNote(): string | null {
     const dim = '\x1b[2m';
     const yellow = '\x1b[33m';
     const reset = '\x1b[0m';
-    return `${yellow}Note:${reset} ${dim}Using 256-color mode. macOS Terminal.app has limited truecolor support.${reset}\n${dim}For accurate color previews, use iTerm2, Warp, kitty, or another truecolor terminal.${reset}`;
+    return `${yellow}Note:${reset} ${dim}Using 256-color mode. Terminal does not advertise truecolor support.${reset}\n${dim}For accurate color previews, use a terminal with COLORTERM=truecolor.${reset}`;
   }
   return null;
 }
