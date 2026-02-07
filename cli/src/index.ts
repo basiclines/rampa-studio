@@ -393,6 +393,20 @@ const main = defineCommand({
       showFlagHelp('color');
     }
 
+    // Detect achromatic base colors and adjust defaults
+    // When the base color has no saturation (grays like #333, #111),
+    // the default saturation 100:0 would introduce false color (red)
+    // because the undefined hue defaults to 0. Override to keep neutrals neutral.
+    const baseHsl = chroma(validatedColor).hsl();
+    const isAchromatic = !Number.isFinite(baseHsl[0]) || baseHsl[1] < 0.01;
+    const hasExplicitSaturation = process.argv.some(a => a === '-S' || a.startsWith('--saturation') || a.startsWith('-S='));
+    const hasExplicitHue = process.argv.some(a => a === '-H' || a.startsWith('--hue') || a.startsWith('-H='));
+
+    if (isAchromatic) {
+      if (!hasExplicitSaturation) args.saturation = '0:0';
+      if (!hasExplicitHue) args.hue = '0:0';
+    }
+
     // Validate size
     const size = parseInt(args.size, 10);
     if (isNaN(size) || size < 2 || size > 100) {
