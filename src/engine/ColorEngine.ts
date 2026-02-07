@@ -91,8 +91,10 @@ const calculateSaturation = (
   i: number
 ): number => {
   try {
-    const startSaturation = config.saturationStart / 100;
-    const endSaturation = config.saturationEnd / 100;
+    // Scale relative to the base color's saturation, matching OKLCH chroma behavior.
+    // This ensures achromatic colors (sat=0) stay neutral instead of gaining false color.
+    const startSaturation = (config.saturationStart / 100) * baseSaturation;
+    const endSaturation = (config.saturationEnd / 100) * baseSaturation;
     const newSaturation = startSaturation + (endSaturation - startSaturation) * position;
     
     return clampValue(newSaturation, 0, 1);
