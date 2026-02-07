@@ -20,6 +20,9 @@ import { formatJson } from './formatters/json';
 import { formatCss } from './formatters/css';
 import type { RampOutput, RampConfig } from './formatters/types';
 import { coloredSquare, getColorLimitationNote, supportsTruecolor } from './utils/terminal-colors';
+import { generateAccessibilityReport } from './accessibility/report';
+import { formatAccessibilityJson } from './formatters/accessibility-json';
+import { formatAccessibilityText, formatAccessibilityCss } from './formatters/accessibility-text';
 
 // Intercept --help and -h before citty processes them
 if (process.argv.includes('--help') || process.argv.includes('-h')) {
@@ -77,6 +80,7 @@ HARMONIES
 OUTPUT
   ${cyan}-O, --output <format>${reset}          ${dim}Output format (default: text)${reset}
   ${cyan}--preview / --no-preview${reset}       ${dim}Show colored squares (default: true)${reset}
+  ${cyan}-A, --accessibility${reset}            ${dim}Show APCA contrast report${reset}
 
                                   ${dim}Formats: text, json, css${reset}
 
@@ -91,6 +95,8 @@ EXAMPLES
   ${cyan}rampa -C "#3b82f6" --add=shift:45 --add=shift:90${reset}
   ${cyan}rampa -C "#3b82f6" -O css${reset}
   ${cyan}rampa -C "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
+  ${cyan}rampa -C "#3b82f6" -A${reset}
+  ${cyan}rampa -C "#3b82f6" --add=complementary -O json -A${reset}
 `;
   console.log(help.trim());
   process.exit(0);
@@ -235,6 +241,22 @@ Examples:
   rampa -C "#3b82f6" --output=css
   rampa -C "#3b82f6" -O json --add=complementary
 `,
+  accessibility: `
+-A, --accessibility  Show APCA contrast report
+
+Reports which color pairs pass APCA contrast levels:
+  Lc 90  Preferred body text
+  Lc 75  Body text
+  Lc 60  Large text
+  Lc 45  Large/bold text
+  Lc 30  Minimum text
+  Lc 15  Non-text
+
+Examples:
+  rampa -C "#3b82f6" -A
+  rampa -C "#3b82f6" --add=complementary -A
+  rampa -C "#3b82f6" -O json -A
+`,
 };
 
 // Show help for a specific flag
@@ -364,6 +386,12 @@ const main = defineCommand({
       alias: ['O', 'o'],
       description: 'Output format: text, json, css (default: text)',
       default: 'text',
+    },
+    accessibility: {
+      type: 'boolean',
+      alias: ['A', 'a'],
+      description: 'Show APCA contrast accessibility report',
+      default: false,
     },
   },
   run({ args }) {
@@ -622,9 +650,20 @@ const main = defineCommand({
 
     // Output based on format
     if (outputType === 'json') {
-      console.log(formatJson(ramps));
+      if (args.accessibility) {
+        const report = generateAccessibilityReport(ramps);
+        const output = { ramps: JSON.parse(formatJson(ramps)).ramps, accessibility: formatAccessibilityJson(report) };
+        console.log(JSON.stringify(output, null, 2));
+      } else {
+        console.log(formatJson(ramps));
+      }
     } else if (outputType === 'css') {
-      console.log(formatCss(ramps));
+      let output = formatCss(ramps);
+      if (args.accessibility) {
+        const report = generateAccessibilityReport(ramps);
+        output += formatAccessibilityCss(report);
+      }
+      console.log(output);
     } else {
       // Text output
       const canShowPreview = args.preview && supportsTruecolor();
@@ -652,6 +691,11 @@ const main = defineCommand({
           }
         });
       });
+
+      if (args.accessibility) {
+        const report = generateAccessibilityReport(ramps);
+        console.log(formatAccessibilityText(report));
+      }
     }
   },
 });
