@@ -289,7 +289,7 @@ const main = defineCommand({
   args: {
     color: {
       type: 'string',
-      alias: 'C',
+      alias: ['C', 'c'],
       description: 'Base color (hex, hsl, rgb, oklch)',
       required: true,
     },
@@ -300,18 +300,18 @@ const main = defineCommand({
     },
     format: {
       type: 'string',
-      alias: 'F',
+      alias: ['F', 'f'],
       description: 'Output format: hex, hsl, rgb, oklch (default: same as input)',
     },
     lightness: {
       type: 'string',
-      alias: 'L',
+      alias: ['L', 'l'],
       description: 'Lightness range start:end (0-100, default: 0:100)',
       default: '0:100',
     },
     saturation: {
       type: 'string',
-      alias: 'S',
+      alias: ['S', 's'],
       description: 'Saturation range start:end (0-100, default: 100:0)',
       default: '100:0',
     },
@@ -361,7 +361,7 @@ const main = defineCommand({
     },
     output: {
       type: 'string',
-      alias: 'O',
+      alias: ['O', 'o'],
       description: 'Output format: text, json, css (default: text)',
       default: 'text',
     },
