@@ -1,5 +1,6 @@
 import type { RampOutput } from '../formatters/types';
 import { computeApca, getPassingLevels, APCA_LEVELS, type ApcaLevel } from './apca';
+import chroma from 'chroma-js';
 
 export interface ColorRef {
   ramp: string;
@@ -8,9 +9,10 @@ export interface ColorRef {
 }
 
 export interface ContrastPair {
-  fg: ColorRef;
-  bg: ColorRef;
-  lc: number;
+  colorA: ColorRef;
+  colorB: ColorRef;
+  lcAB: number;  // A as text on B as background
+  lcBA: number;  // B as text on A as background
 }
 
 export interface AccessibilityLevel {
@@ -37,9 +39,40 @@ function collectColors(ramps: RampOutput[]): ColorRef[] {
   return refs;
 }
 
+// Deduplicate near-identical colors (deltaE < 3 in same ramp).
+// Keeps first and last of each contiguous group.
+function deduplicateColors(colors: ColorRef[]): ColorRef[] {
+  if (colors.length <= 2) return colors;
+
+  const keep = new Set<number>();
+  keep.add(0);
+  keep.add(colors.length - 1);
+
+  for (let i = 1; i < colors.length; i++) {
+    const prev = colors[i - 1];
+    const curr = colors[i];
+
+    // Always keep colors from different ramps
+    if (curr.ramp !== prev.ramp) {
+      keep.add(i);
+      keep.add(i - 1);
+      continue;
+    }
+
+    const de = chroma.deltaE(curr.color, prev.color);
+    if (de >= 3) {
+      keep.add(i);
+    }
+  }
+
+  return colors.filter((_, i) => keep.has(i));
+}
+
 export function generateAccessibilityReport(ramps: RampOutput[]): AccessibilityReport {
-  const colors = collectColors(ramps);
-  const totalPairs = colors.length * (colors.length - 1); // exclude self-pairs
+  const allColors = collectColors(ramps);
+  const colors = deduplicateColors(allColors);
+  // Unordered unique pairs count
+  const totalPairs = (colors.length * (colors.length - 1)) / 2;
 
   // Initialize levels with empty arrays
   const levelMap = new Map<string, ContrastPair[]>();
@@ -47,30 +80,31 @@ export function generateAccessibilityReport(ramps: RampOutput[]): AccessibilityR
     levelMap.set(level.id, []);
   }
 
-  const seenPassing = new Set<string>();
+  let passingPairs = 0;
 
-  // Check all ordered pairs (fg, bg) excluding self
-  // Each pair is assigned only to its highest passing level
+  // Check unordered pairs (i < j), compute both directions
   for (let i = 0; i < colors.length; i++) {
-    for (let j = 0; j < colors.length; j++) {
-      if (i === j) continue;
+    for (let j = i + 1; j < colors.length; j++) {
+      const a = colors[i];
+      const b = colors[j];
+      const lcAB = computeApca(a.color, b.color);
+      const lcBA = computeApca(b.color, a.color);
 
-      const fg = colors[i];
-      const bg = colors[j];
-      const lc = computeApca(fg.color, bg.color);
-      const passing = getPassingLevels(lc);
+      // Use the best absolute contrast of the two directions for level assignment
+      const bestAbsLc = Math.max(Math.abs(lcAB), Math.abs(lcBA));
+      const passing = getPassingLevels(bestAbsLc);
 
       if (passing.length > 0) {
-        const key = `${i}:${j}`;
-        seenPassing.add(key);
+        passingPairs++;
 
         const pair: ContrastPair = {
-          fg,
-          bg,
-          lc: Math.round(lc * 100) / 100,
+          colorA: a,
+          colorB: b,
+          lcAB: Math.round(lcAB * 100) / 100,
+          lcBA: Math.round(lcBA * 100) / 100,
         };
 
-        // APCA_LEVELS is sorted highest-first, so passing[0] is the highest level
+        // Assign to highest passing level only
         const highest = passing[0];
         levelMap.get(highest.id)!.push(pair);
       }
@@ -86,7 +120,7 @@ export function generateAccessibilityReport(ramps: RampOutput[]): AccessibilityR
 
   return {
     totalPairs,
-    passingPairs: seenPassing.size,
+    passingPairs,
     levels,
   };
 }

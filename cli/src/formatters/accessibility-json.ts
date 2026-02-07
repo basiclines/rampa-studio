@@ -10,9 +10,10 @@ export function formatAccessibilityJson(report: AccessibilityReport): object {
       minLc: level.minLc,
       count: level.pairs.length,
       pairs: level.pairs.map(pair => ({
-        fg: { ramp: pair.fg.ramp, index: pair.fg.index, color: pair.fg.color },
-        bg: { ramp: pair.bg.ramp, index: pair.bg.index, color: pair.bg.color },
-        lc: pair.lc,
+        colorA: { ramp: pair.colorA.ramp, index: pair.colorA.index, color: pair.colorA.color },
+        colorB: { ramp: pair.colorB.ramp, index: pair.colorB.index, color: pair.colorB.color },
+        lcAB: pair.lcAB,
+        lcBA: pair.lcBA,
       })),
     })),
   };

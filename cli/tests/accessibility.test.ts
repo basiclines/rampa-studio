@@ -69,10 +69,10 @@ describe('APCA', () => {
       },
     ];
 
-    it('should compute totalPairs excluding self-pairs', () => {
+    it('should compute totalPairs as unordered pairs', () => {
       const report = generateAccessibilityReport(mockRamps);
-      // 3 colors, all ordered pairs minus self = 3*2 = 6
-      expect(report.totalPairs).toBe(6);
+      // 3 colors, unordered pairs = 3*2/2 = 3
+      expect(report.totalPairs).toBe(3);
     });
 
     it('should have all APCA levels in report', () => {
@@ -83,8 +83,19 @@ describe('APCA', () => {
     it('should find high-contrast pairs at preferred body level', () => {
       const report = generateAccessibilityReport(mockRamps);
       const preferred = report.levels.find(l => l.id === 'preferred-body')!;
-      // Black on white and white on black should pass
-      expect(preferred.pairs.length).toBeGreaterThanOrEqual(2);
+      // Black ↔ white should pass as one collapsed pair
+      expect(preferred.pairs.length).toBeGreaterThanOrEqual(1);
+    });
+
+    it('should collapse direction pairs', () => {
+      const report = generateAccessibilityReport(mockRamps);
+      const preferred = report.levels.find(l => l.id === 'preferred-body')!;
+      // Should have both Lc values on each pair
+      for (const pair of preferred.pairs) {
+        expect(pair.lcAB).toBeDefined();
+        expect(pair.lcBA).toBeDefined();
+        expect(pair.lcAB).not.toBe(pair.lcBA);
+      }
     });
 
     it('should not duplicate pairs across levels', () => {
@@ -99,11 +110,11 @@ describe('APCA', () => {
         { ...mockRamps[0], name: 'complementary', colors: ['#ff0000'] },
       ];
       const report = generateAccessibilityReport(twoRamps);
-      // 3 colors total, 3*2 = 6 ordered pairs
-      expect(report.totalPairs).toBe(6);
+      // 3 colors total, unordered pairs = 3*2/2 = 3
+      expect(report.totalPairs).toBe(3);
       // Should include cross-ramp pairs in results
       const allPairs = report.levels.flatMap(l => l.pairs);
-      const crossRamp = allPairs.filter(p => p.fg.ramp !== p.bg.ramp);
+      const crossRamp = allPairs.filter(p => p.colorA.ramp !== p.colorB.ramp);
       expect(crossRamp.length).toBeGreaterThan(0);
     });
   });

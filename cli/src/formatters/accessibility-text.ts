@@ -14,8 +14,9 @@ export function formatAccessibilityText(report: AccessibilityReport): string {
     lines.push(`## ${level.name} (Lc ≥ ${level.minLc}) — ${level.pairs.length} pairs`);
 
     for (const pair of level.pairs) {
-      const dir = pair.lc >= 0 ? '→' : '←';
-      lines.push(`  ${pair.fg.color} on ${pair.bg.color}  Lc ${pair.lc}  (${pair.fg.ramp}[${pair.fg.index}] ${dir} ${pair.bg.ramp}[${pair.bg.index}])`);
+      const a = `${pair.colorA.ramp}[${pair.colorA.index}]`;
+      const b = `${pair.colorB.ramp}[${pair.colorB.index}]`;
+      lines.push(`  ${pair.colorA.color} ↔ ${pair.colorB.color}  Lc ${pair.lcAB} / ${pair.lcBA}  (${a} ↔ ${b})`);
     }
 
     lines.push('');
