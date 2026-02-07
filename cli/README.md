@@ -280,6 +280,16 @@ bun run build
 bun run build:all
 ```
 
+## AI Evals
+
+Compare how different LLM models use the Rampa CLI by sending the same prompt to multiple models in agent mode. Models can discover rampa via `--help`, execute commands, and iterate. Use `--raw` to run without rampa for baseline comparison. See [evals/README.md](evals/README.md) for details.
+
+```bash
+bun run eval                                          # all prompts, all models
+bun run eval --prompt ghostty-matrix-theme --no-judge  # single prompt
+bun run eval --prompt ghostty-matrix-theme --raw       # without rampa (baseline)
+```
+
 ## Build Targets
 
 ```bash

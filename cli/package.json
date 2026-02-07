@@ -22,7 +22,8 @@
     "build:linux-arm64": "bun build ./src/index.ts --compile --target=bun-linux-arm64 --outfile=./dist/rampa-linux-arm64",
     "build:windows-x64": "bun build ./src/index.ts --compile --target=bun-windows-x64 --outfile=./dist/rampa-windows-x64.exe",
     "build:all": "bun run build:darwin-arm64 && bun run build:darwin-x64 && bun run build:linux-x64 && bun run build:linux-arm64 && bun run build:windows-x64",
-    "release": "bun run scripts/release.ts"
+    "release": "bun run scripts/release.ts",
+    "eval": "bun run evals/src/runner.ts"
   },
   "repository": {
     "type": "git",
@@ -44,8 +45,10 @@
     "culori": "^4.0.1"
   },
   "devDependencies": {
+    "@github/copilot-sdk": "^0.1.23",
     "@types/bun": "^1.2.17",
     "@types/chroma-js": "^3.1.1",
+    "picocolors": "^1.1.1",
     "typescript": "^5.5.3"
   }
 }
