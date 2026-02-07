@@ -1,0 +1,20 @@
+# Slack Minimal Indigo Theme
+# Generated with rampa-cli
+
+# Theme String
+#fcfcfd,#e5e6eb,#4747bb,#fcfcfd,#e5e6eb,#140c50,#a56f33,#fcfcfd,#fcfcfd,#140c50
+
+# Rampa Command
+# bun run src/index.ts --color "#6366F1" --size 12 --lightness 99:10 --saturation 5:80 --add=split-complementary --format hex
+
+# Color Mapping
+# Column BG:        #fcfcfd (Base 0) - Clean, airy cool white
+# Menu BG Hover:    #e5e6eb (Base 1) - Subtle cool gray
+# Active Item:      #4747bb (Base 6) - Primary Indigo accent
+# Active Item Text: #fcfcfd (Base 0) - White for contrast
+# Hover Item BG:    #e5e6eb (Base 1) - Consistent with menu
+# Text Color:       #140c50 (Base 10) - Deep Indigo/Black for readability
+# Mention Badge:    #a56f33 (Split-1 7) - Complementary Bronze/Orange
+# Badge Text:       #fcfcfd (Base 0) - White
+# Top Nav BG:       #fcfcfd (Base 0) - Seamless header
+# Top Nav Text:     #140c50 (Base 10) - Legible dark text

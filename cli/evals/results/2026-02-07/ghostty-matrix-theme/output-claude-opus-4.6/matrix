@@ -1,0 +1,34 @@
+# Matrix - A Ghostty terminal theme inspired by The Matrix
+#
+# Generated entirely from rampa color math.
+# Base color: #00FF41 (Matrix phosphor green)
+#
+# All colors derived via rampa harmonies:
+#   --add=complementary, --add=shift:30, --add=shift:225,
+#   --add=shift:285, --add=square
+
+background = #000801
+foreground = #33ff45
+cursor-color = #33ff45
+selection-background = #05260e
+selection-foreground = #33ff45
+
+# Normal colors (palette 0-7)
+palette = 0=#000000
+palette = 1=#8e1c22
+palette = 2=#1c8e33
+palette = 3=#8e881c
+palette = 4=#1c3e8e
+palette = 5=#8e1c77
+palette = 6=#1c8e6c
+palette = 7=#bad3c2
+
+# Bright colors (palette 8-15)
+palette = 8=#0d651b
+palette = 9=#b03234
+palette = 10=#32b050
+palette = 11=#b0ae32
+palette = 12=#3253b0
+palette = 13=#b03293
+palette = 14=#32b08f
+palette = 15=#e0e6e2

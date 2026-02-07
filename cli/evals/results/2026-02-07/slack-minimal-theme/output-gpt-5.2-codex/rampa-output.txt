@@ -1,0 +1,36 @@
+./dist/rampa -C "#64748B" --size=7 -L 96:30 -S 28:6 --add=complementary --add=triadic --no-preview
+# base
+#f2f5f8
+#cfd9e2
+#afbcca
+#919eb1
+#748095
+#5e6473
+#484a51
+
+# complementary
+#f8f4f2
+#e2d8cf
+#cabeaf
+#b1a491
+#958974
+#736d5e
+#514f48
+
+# triadic-1
+#f8f2f5
+#e2cfd9
+#caafbc
+#b1919e
+#957480
+#735e64
+#51484a
+
+# triadic-2
+#f5f8f2
+#d9e2cf
+#bccaaf
+#9eb191
+#809574
+#64735e
+#4a5148
