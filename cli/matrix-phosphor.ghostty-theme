@@ -1,0 +1,61 @@
+# Matrix Phosphor — Ghostty Theme
+# Generated with rampa color math from base #00FF41 (Matrix green)
+#
+# rampa commands used:
+#
+#   1) rampa -C "#00FF41" --size=8 -L 2:95 -S 80:100 \
+#        --add=complementary --add=triadic --add=square -O json
+#      → base (greens), complementary (magentas), triadic-1 (purples),
+#        triadic-2 (reds/oranges), square-1 (blues), square-3 (yellows)
+#
+#   2) rampa -C "#00FF41" --size=8 -L 2:95 -S 80:100 --add=analogous -O json
+#      → analogous (cyans)
+#
+#   3) rampa -C "#00FF41" --size=6 -L 3:98 -S 15:5 -O json
+#      → desaturated greens (grays/whites with Matrix tint)
+#
+# Color mapping (ramp[index]):
+#   background         = base[0]       #010902  darkest green-black
+#   foreground         = base[4]       #24f55e  bright Matrix green
+#   cursor-color       = base[4]       #24f55e  bright Matrix green
+#   selection-bg       = base[1]       #07470f  dark phosphor green
+#   selection-fg       = base[5]       #63fa94  light Matrix green
+#   palette 0  black   = gray[0]       #070907  near-black, green-tinted
+#   palette 1  red     = triadic-2[3]  #c9380c  dark orange-red
+#   palette 2  green   = base[3]       #0cc938  pure Matrix green
+#   palette 3  yellow  = square-3[3]   #c9960c  dark amber
+#   palette 4  blue    = square-1[3]   #0c3fc9  dark blue
+#   palette 5  magenta = compl.[3]     #c90c9e  dark magenta
+#   palette 6  cyan    = analogous[3]  #0cc996  dark cyan-green
+#   palette 7  white   = gray[3]       #90a295  muted green-gray
+#   palette 8  br.blk  = gray[1]       #313f33  dark green-gray
+#   palette 9  br.red  = triadic-2[4]  #f55e24  bright orange-red
+#   palette 10 br.grn  = base[4]       #24f55e  bright Matrix green
+#   palette 11 br.yel  = square-3[4]   #f5c724  bright gold
+#   palette 12 br.blu  = square-1[4]   #2452f5  bright blue
+#   palette 13 br.mag  = compl.[4]     #f524bb  bright magenta
+#   palette 14 br.cyn  = analogous[4]  #24f5c7  bright cyan
+#   palette 15 br.wht  = base[7]       #e5fff0  near-white, green-tinted
+
+background = #010902
+foreground = #24f55e
+cursor-color = #24f55e
+selection-background = #07470f
+selection-foreground = #63fa94
+
+palette = 0=#070907
+palette = 1=#c9380c
+palette = 2=#0cc938
+palette = 3=#c9960c
+palette = 4=#0c3fc9
+palette = 5=#c90c9e
+palette = 6=#0cc996
+palette = 7=#90a295
+palette = 8=#313f33
+palette = 9=#f55e24
+palette = 10=#24f55e
+palette = 11=#f5c724
+palette = 12=#2452f5
+palette = 13=#f524bb
+palette = 14=#24f5c7
+palette = 15=#e5fff0

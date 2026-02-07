@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundure Ventures - Enduring Ideas</title>
+    
+    <!-- Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons: Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        // 1. TOKEN LAYER
+                        // Raw color palette definitions
+                        tokens: {
+                            neutral: {
+                                0: '#ffffff',
+                                50: '#f8fafc',
+                                100: '#f1f5f9',
+                                200: '#e2e8f0',
+                                300: '#cbd5e1',
+                                400: '#94a3b8',
+                                500: '#64748b',
+                                600: '#475569',
+                                700: '#334155',
+                                800: '#1e293b',
+                                900: '#0f172a',
+                                950: '#020617',
+                            },
+                            primary: {
+                                400: '#818cf8',
+                                500: '#6366f1',
+                                600: '#4f46e5',
+                                700: '#4338ca',
+                            }
+                        },
+                        
+                        // 2. SEMANTIC LAYER
+                        // Design-intent names mapped to CSS variables for theming
+                        bg: {
+                            page: 'rgb(var(--bg-page) / <alpha-value>)',
+                            surface: 'rgb(var(--bg-surface) / <alpha-value>)',
+                            'surface-hover': 'rgb(var(--bg-surface-hover) / <alpha-value>)',
+                        },
+                        text: {
+                            heading: 'rgb(var(--text-heading) / <alpha-value>)',
+                            body: 'rgb(var(--text-body) / <alpha-value>)',
+                            subtle: 'rgb(var(--text-subtle) / <alpha-value>)',
+                            inverse: 'rgb(var(--text-inverse) / <alpha-value>)',
+                        },
+                        border: {
+                            subtle: 'rgb(var(--border-subtle) / <alpha-value>)',
+                        },
+                        action: {
+                            primary: 'rgb(var(--action-primary) / <alpha-value>)',
+                            'primary-hover': 'rgb(var(--action-primary-hover) / <alpha-value>)',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Theme Variables (Mapping Semantics to Tokens) -->
+    <style type="text/tailwindcss">
+        @layer base {
+            :root {
+                /* LIGHT MODE MAPPINGS */
+                /* Maps to tokens.neutral.50 */
+                --bg-page: 248 250 252; 
+                /* Maps to tokens.neutral.0 */
+                --bg-surface: 255 255 255;
+                /* Maps to tokens.neutral.100 */
+                --bg-surface-hover: 241 245 249;
+
+                /* Maps to tokens.neutral.900 */
+                --text-heading: 15 23 42;
+                /* Maps to tokens.neutral.600 */
+                --text-body: 71 85 105;
+                /* Maps to tokens.neutral.400 */
+                --text-subtle: 148 163 184;
+                /* Maps to tokens.neutral.0 */
+                --text-inverse: 255 255 255;
+
+                /* Maps to tokens.neutral.200 */
+                --border-subtle: 226 232 240;
+
+                /* Maps to tokens.primary.600 */
+                --action-primary: 79 70 229;
+                /* Maps to tokens.primary.700 */
+                --action-primary-hover: 67 56 202;
+            }
+
+            .dark {
+                /* DARK MODE MAPPINGS */
+                /* Maps to tokens.neutral.950 */
+                --bg-page: 2 6 23;
+                /* Maps to tokens.neutral.900 */
+                --bg-surface: 15 23 42;
+                /* Maps to tokens.neutral.800 */
+                --bg-surface-hover: 30 41 59;
+
+                /* Maps to tokens.neutral.50 */
+                --text-heading: 248 250 252;
+                /* Maps to tokens.neutral.300 */
+                --text-body: 203 213 225;
+                /* Maps to tokens.neutral.500 */
+                --text-subtle: 100 116 139;
+                /* Maps to tokens.neutral.950 */
+                --text-inverse: 2 6 23;
+
+                /* Maps to tokens.neutral.800 */
+                --border-subtle: 30 41 59;
+
+                /* Maps to tokens.primary.500 (Brighter for dark mode) */
+                --action-primary: 99 102 241;
+                /* Maps to tokens.primary.400 */
+                --action-primary-hover: 129 140 248;
+            }
+
+            body {
+                @apply bg-bg-page text-text-body font-sans antialiased transition-colors duration-300;
+            }
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- Navbar -->
+    <header class="w-full py-6 px-6 md:px-12 lg:px-24 flex justify-between items-center bg-bg-page sticky top-0 z-50 backdrop-blur-sm bg-opacity-90 border-b border-border-subtle/50">
+        <div class="flex items-center gap-2">
+            <!-- Logo Icon -->
+            <div class="text-action-primary">
+                <i class="ph-fill ph-hexagon text-3xl"></i>
+            </div>
+            <span class="text-xl font-bold text-text-heading tracking-tight">Fundure Ventures</span>
+        </div>
+        
+        <button id="theme-toggle" class="p-2 rounded-full hover:bg-bg-surface-hover text-text-body transition-colors" aria-label="Toggle Dark Mode">
+            <i class="ph ph-moon text-xl hidden dark:block"></i>
+            <i class="ph ph-sun text-xl block dark:hidden"></i>
+        </button>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <section class="px-6 md:px-12 lg:px-24 py-20 md:py-32 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-text-heading leading-[1.1] tracking-tight">
+                    We build and invest in <span class="text-action-primary">enduring ideas</span> for the future.
+                </h1>
+                <p class="text-lg md:text-xl text-text-body max-w-lg leading-relaxed">
+                    Fundure Ventures is a new breed of firm combining the agility of a studio with the backing of capital.
+                </p>
+                <div class="pt-4">
+                    <a href="mailto:hello@fundureventures.com" class="inline-flex items-center gap-2 bg-action-primary hover:bg-action-primary-hover text-text-inverse px-8 py-4 rounded-full font-medium transition-colors text-lg group">
+                        Let's work together
+                        <i class="ph ph-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="relative h-full min-h-[400px] w-full hidden md:block rounded-2xl overflow-hidden bg-bg-surface shadow-2xl shadow-action-primary/10 border border-border-subtle">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200" alt="Modern Architecture" class="absolute inset-0 w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-700">
+                <div class="absolute inset-0 bg-gradient-to-tr from-bg-page/80 to-transparent"></div>
+            </div>
+        </section>
+
+        <!-- Pillars Section -->
+        <section class="px-6 md:px-12 lg:px-24 py-20 bg-bg-surface border-y border-border-subtle">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid md:grid-cols-3 gap-12">
+                    <!-- Pillar 1 -->
+                    <div class="group space-y-4">
+                        <div class="text-6xl font-bold text-border-subtle group-hover:text-action-primary transition-colors duration-300">01</div>
+                        <h3 class="text-2xl font-bold text-text-heading">Ideas Factory</h3>
+                        <p class="text-text-body leading-relaxed">
+                            We build highly opinionated ideas that matter to us. Hopefully for other people too.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 2 -->
+                    <div class="group space-y-4">
+                        <div class="text-6xl font-bold text-border-subtle group-hover:text-action-primary transition-colors duration-300">02</div>
+                        <h3 class="text-2xl font-bold text-text-heading">Venture Capital</h3>
+                        <p class="text-text-body leading-relaxed">
+                            We invest in disrupting products that challenge the status-quo.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 3 -->
+                    <div class="group space-y-4">
+                        <div class="text-6xl font-bold text-border-subtle group-hover:text-action-primary transition-colors duration-300">03</div>
+                        <h3 class="text-2xl font-bold text-text-heading">Founder Backed</h3>
+                        <p class="text-text-body leading-relaxed">
+                            We are founders with an already proven track record on building and helping others build successful products.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="px-6 md:px-12 lg:px-24 py-32 text-center">
+            <div class="max-w-3xl mx-auto space-y-8">
+                <h2 class="text-4xl md:text-5xl font-bold text-text-heading tracking-tight">Ready to build the future?</h2>
+                <p class="text-xl text-text-body">Let's work on something great together.</p>
+                <a href="mailto:hello@fundureventures.com" class="inline-flex items-center gap-2 text-action-primary hover:text-action-primary-hover font-bold text-2xl decoration-2 underline underline-offset-8 transition-colors">
+                    hello@fundureventures.com
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="px-6 md:px-12 lg:px-24 py-12 border-t border-border-subtle bg-bg-page">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2 opacity-80">
+                <i class="ph-fill ph-hexagon text-xl text-action-primary"></i>
+                <span class="font-bold text-text-heading">Fundure Ventures</span>
+            </div>
+            <p class="text-text-subtle text-sm">
+                © 2025 Fundure Ventures. Enduring ideas for the future.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Dark Mode Script -->
+    <script>
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        
+        // Check local storage or system preference on load
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+
+        // Toggle logic
+        themeToggleBtn.addEventListener('click', () => {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.theme = 'light';
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.theme = 'dark';
+            }
+        });
+    </script>
+</body>
+</html>

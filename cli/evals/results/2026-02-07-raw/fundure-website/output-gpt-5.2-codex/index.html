@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundure Ventures</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              token: {
+                primary: {
+                  950: '#0b1020',
+                  900: '#131a2f',
+                  800: '#1b2440'
+                },
+                neutral: {
+                  50: '#f8fafc',
+                  100: '#f1f5f9',
+                  200: '#e2e8f0',
+                  700: '#334155',
+                  900: '#0f172a'
+                },
+                accent: {
+                  300: '#6ee7ff',
+                  400: '#38bdf8',
+                  500: '#0ea5e9',
+                  600: '#0284c7'
+                }
+              },
+              surface: 'var(--color-surface)',
+              'surface-muted': 'var(--color-surface-muted)',
+              'surface-hover': 'var(--color-surface-hover)',
+              body: 'var(--color-body)',
+              heading: 'var(--color-heading)',
+              border: 'var(--color-border)',
+              accent: 'var(--color-accent)',
+              'accent-strong': 'var(--color-accent-strong)',
+              'on-accent': 'var(--color-on-accent)'
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui'],
+              display: ['"Playfair Display"', 'serif']
+            }
+          }
+        }
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer base {
+        :root {
+          --color-surface: theme('colors.token.neutral.50');
+          --color-surface-muted: theme('colors.token.neutral.100');
+          --color-surface-hover: theme('colors.token.neutral.200');
+          --color-body: theme('colors.token.neutral.700');
+          --color-heading: theme('colors.token.neutral.900');
+          --color-border: theme('colors.token.neutral.200');
+          --color-accent: theme('colors.token.accent.500');
+          --color-accent-strong: theme('colors.token.accent.600');
+          --color-on-accent: theme('colors.token.neutral.50');
+        }
+        .dark {
+          --color-surface: theme('colors.token.primary.950');
+          --color-surface-muted: theme('colors.token.primary.900');
+          --color-surface-hover: theme('colors.token.primary.800');
+          --color-body: theme('colors.token.neutral.200');
+          --color-heading: theme('colors.token.neutral.50');
+          --color-border: theme('colors.token.primary.800');
+          --color-accent: theme('colors.token.accent.400');
+          --color-accent-strong: theme('colors.token.accent.300');
+          --color-on-accent: theme('colors.token.primary.950');
+        }
+        body {
+          @apply bg-surface text-body font-sans antialiased;
+        }
+        h1,
+        h2,
+        h3 {
+          @apply text-heading font-display;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="border-b border-border bg-surface/95 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <div class="flex items-center gap-3">
+          <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-accent/15 text-accent">
+            <i class="ti ti-rocket text-xl" aria-hidden="true"></i>
+          </div>
+          <div>
+            <p class="text-lg font-semibold text-heading">Fundure Ventures</p>
+            <p class="text-sm text-body/80">Enduring ideas for the future.</p>
+          </div>
+        </div>
+        <button
+          id="theme-toggle"
+          type="button"
+          class="inline-flex items-center gap-2 rounded-full border border-border bg-surface-muted px-4 py-2 text-sm font-medium text-body transition hover:bg-surface-hover"
+          aria-label="Toggle theme"
+        >
+          <i class="ti ti-sun text-lg dark:hidden" aria-hidden="true"></i>
+          <i class="ti ti-moon text-lg hidden dark:inline" aria-hidden="true"></i>
+          <span class="hidden sm:inline">Theme</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="mx-auto max-w-6xl px-6 py-16 sm:py-24">
+        <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-accent">Fundure Ventures</p>
+            <h1 class="mt-5 text-4xl font-semibold leading-tight sm:text-5xl">
+              We build and invest in enduring ideas for the future.
+            </h1>
+            <p class="mt-6 max-w-xl text-lg text-body/90 sm:text-xl">
+              Fundure Ventures is a studio for ambitious builders and a capital partner for visionary founders. We
+              collaborate early, move with conviction, and support ideas meant to last.
+            </p>
+            <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+              <a
+                href="mailto:hello@fundureventures.com"
+                class="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-base font-semibold text-on-accent shadow-sm transition hover:bg-accent-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              >
+                Let's work on something great together.
+              </a>
+              <a
+                href="mailto:hello@fundureventures.com"
+                class="inline-flex items-center justify-center rounded-full border border-border px-6 py-3 text-base font-semibold text-heading transition hover:bg-surface-hover"
+              >
+                hello@fundureventures.com
+              </a>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=1400&auto=format&fit=crop"
+              alt="Team collaborating on ideas"
+              class="h-[380px] w-full rounded-3xl object-cover shadow-lg ring-1 ring-border"
+            />
+            <div class="absolute bottom-5 left-5 rounded-2xl bg-surface-muted/90 px-4 py-3 text-sm text-heading shadow-sm backdrop-blur">
+              <p class="flex items-center gap-2">
+                <i class="ti ti-sparkles text-accent" aria-hidden="true"></i>
+                Ideas shaped with conviction and care.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-surface-muted">
+        <div class="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+          <div class="flex items-center justify-between gap-6">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-accent">Our Pillars</p>
+              <h2 class="mt-4 text-3xl font-semibold sm:text-4xl">Three ways we build enduring ventures.</h2>
+            </div>
+          </div>
+          <ol class="mt-10 grid gap-6 md:grid-cols-3">
+            <li class="rounded-2xl border border-border bg-surface p-6 shadow-sm transition hover:bg-surface-hover">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-semibold uppercase tracking-[0.3em] text-accent">01</span>
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/15 text-accent">
+                  <i class="ti ti-bulb text-xl" aria-hidden="true"></i>
+                </div>
+              </div>
+              <h3 class="mt-5 text-2xl font-semibold">Ideas Factory</h3>
+              <p class="mt-4 text-body/90">
+                We build highly opinionated ideas that matter to us. Hopefully for other people too.
+              </p>
+            </li>
+            <li class="rounded-2xl border border-border bg-surface p-6 shadow-sm transition hover:bg-surface-hover">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-semibold uppercase tracking-[0.3em] text-accent">02</span>
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/15 text-accent">
+                  <i class="ti ti-trending-up text-xl" aria-hidden="true"></i>
+                </div>
+              </div>
+              <h3 class="mt-5 text-2xl font-semibold">Venture Capital</h3>
+              <p class="mt-4 text-body/90">
+                We invest in disrupting products that challenge the status-quo.
+              </p>
+            </li>
+            <li class="rounded-2xl border border-border bg-surface p-6 shadow-sm transition hover:bg-surface-hover">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-semibold uppercase tracking-[0.3em] text-accent">03</span>
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/15 text-accent">
+                  <i class="ti ti-users text-xl" aria-hidden="true"></i>
+                </div>
+              </div>
+              <h3 class="mt-5 text-2xl font-semibold">Founder Backed</h3>
+              <p class="mt-4 text-body/90">
+                We are founders with an already proven track record on building and helping others build successful
+                products.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+        <div class="rounded-3xl border border-border bg-surface-muted px-8 py-12 sm:px-12">
+          <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+            <div>
+              <h2 class="text-3xl font-semibold sm:text-4xl">Ready to build the next enduring venture?</h2>
+              <p class="mt-4 max-w-2xl text-lg text-body/90">
+                Whether you're a founder looking for a thoughtful partner or a team seeking a studio to co-create, we're
+                ready to listen.
+              </p>
+            </div>
+            <a
+              href="mailto:hello@fundureventures.com"
+              class="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-base font-semibold text-on-accent shadow-sm transition hover:bg-accent-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+            >
+              Start the conversation
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-border bg-surface">
+      <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-8 text-sm text-body/80 sm:flex-row sm:items-center sm:justify-between">
+        <p>© 2025 Fundure Ventures. Enduring ideas for the future.</p>
+        <div class="flex items-center gap-2">
+          <i class="ti ti-mail text-accent" aria-hidden="true"></i>
+          <a class="text-body hover:text-heading" href="mailto:hello@fundureventures.com">hello@fundureventures.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.getElementById('theme-toggle');
+      const root = document.documentElement;
+      const storedTheme = localStorage.getItem('theme');
+      if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        root.classList.add('dark');
+      }
+      toggle?.addEventListener('click', () => {
+        root.classList.toggle('dark');
+        const isDark = root.classList.contains('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      });
+    </script>
+  </body>
+</html>

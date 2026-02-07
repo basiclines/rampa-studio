@@ -1,0 +1,60 @@
+# Matrix - A Ghostty theme inspired by the Matrix movie aesthetic
+# Generated entirely with rampa color math from base color #00FF41
+#
+# rampa commands used:
+#
+#   1. rampa -c "#00FF41" --size=10 -l 3:95 -S 80:30 \
+#        --add=complementary --add=square --add=analogous \
+#        --tint-color="#00FF41" --tint-opacity=20 --tint-blend=multiply
+#
+#   2. rampa -c "#00FF41" --size=10 -l 3:95 -S 80:30 \
+#        --add=triadic --add=split-complementary \
+#        --tint-color="#00FF41" --tint-opacity=20 --tint-blend=multiply
+#
+# Color sources (command.ramp[index]):
+#
+#   background          = cmd1 base[0]                 #010e02
+#   foreground          = cmd1 base[5]                 #3dc75e
+#   cursor-color        = cmd1 base[4]                 #26b142
+#   selection-background= cmd1 base[2]                 #0f651b
+#   selection-foreground= cmd1 base[8]                 #a2e6b5
+#
+#   palette 0  (black)         = cmd1 base[0]          #010e02
+#   palette 1  (red)           = cmd2 split-comp-2[3]  #701f36
+#   palette 2  (green)         = cmd1 base[3]          #198c2d
+#   palette 3  (yellow)        = cmd1 square-3[3]      #706b1b
+#   palette 4  (blue)          = cmd1 square-1[3]      #194077
+#   palette 5  (magenta)       = cmd2 split-comp-1[3]  #561f77
+#   palette 6  (cyan)          = cmd1 analogous[3]     #198c5b
+#   palette 7  (white)         = cmd1 base[7]          #83d99b
+#   palette 8  (bright black)  = cmd1 base[1]          #073b0d
+#   palette 9  (bright red)    = cmd2 split-comp-2[4]  #8d2f45
+#   palette 10 (bright green)  = cmd1 base[5]          #3dc75e
+#   palette 11 (bright yellow) = cmd1 square-3[4]      #8d8e28
+#   palette 12 (bright blue)   = cmd1 square-1[4]      #265196
+#   palette 13 (bright magenta)= cmd2 split-comp-1[4]  #722f96
+#   palette 14 (bright cyan)   = cmd1 analogous[4]     #26b179
+#   palette 15 (bright white)  = cmd1 base[9]          #bff6ce
+
+background = #010e02
+foreground = #3dc75e
+cursor-color = #26b142
+selection-background = #0f651b
+selection-foreground = #a2e6b5
+
+palette = 0=#010e02
+palette = 1=#701f36
+palette = 2=#198c2d
+palette = 3=#706b1b
+palette = 4=#194077
+palette = 5=#561f77
+palette = 6=#198c5b
+palette = 7=#83d99b
+palette = 8=#073b0d
+palette = 9=#8d2f45
+palette = 10=#3dc75e
+palette = 11=#8d8e28
+palette = 12=#265196
+palette = 13=#722f96
+palette = 14=#26b179
+palette = 15=#bff6ce

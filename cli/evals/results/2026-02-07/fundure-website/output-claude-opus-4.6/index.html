@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundure Ventures — Enduring ideas for the future</title>
+
+  <!-- Google Fonts: Inter + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            body: ['"Inter"', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            /* ═══════════════════════════════════════════════════
+               TOKEN LAYER — Raw values from rampa output
+               ═══════════════════════════════════════════════════
+
+               Command 1 (primary + harmonies):
+               rampa -C "#1e2a4a" --size=10 --add=complementary --add=analogous --add=split-complementary -O json
+
+               Command 2 (neutrals):
+               rampa -C "#1e2a4a" --size=12 -S 15:5 -H 0:0 -O json
+            */
+
+            // Base ramp (deep navy) — primary brand color
+            'primary': {
+              50:  '#ffffff',
+              100: '#e0e0e6',
+              200: '#babed3',
+              300: '#8e9ac6',
+              400: '#5b75c0',
+              500: '#3257b0',
+              600: '#1c428e',
+              700: '#0d2d65',
+              800: '#031736',
+              900: '#000000',
+            },
+
+            // Complementary ramp (warm gold) — accent
+            'accent': {
+              50:  '#ffffff',
+              100: '#e6e5e0',
+              200: '#d3ceba',
+              300: '#c6ba8e',
+              400: '#c0a65b',
+              500: '#b08c32',
+              600: '#8e681c',
+              700: '#65450d',
+              800: '#362103',
+              900: '#000000',
+            },
+
+            // Analogous ramp (deep violet) — secondary
+            'secondary': {
+              50:  '#ffffff',
+              100: '#e2e0e6',
+              200: '#c2bad3',
+              300: '#9e8ec6',
+              400: '#745bc0',
+              500: '#4d32b0',
+              600: '#301c8e',
+              700: '#180d65',
+              800: '#080336',
+              900: '#000000',
+            },
+
+            // Split-complementary-1 (warm terracotta) — warn/highlight
+            'warm': {
+              50:  '#ffffff',
+              100: '#e6e2e0',
+              200: '#d3c2ba',
+              300: '#c69e8e',
+              400: '#c0745b',
+              500: '#b04d32',
+              600: '#8e301c',
+              700: '#65180d',
+              800: '#360803',
+              900: '#000000',
+            },
+
+            // Split-complementary-2 (olive/lime) — success
+            'success': {
+              50:  '#ffffff',
+              100: '#e4e6e0',
+              200: '#cbd3ba',
+              300: '#b6c68e',
+              400: '#a7c05b',
+              500: '#96b032',
+              600: '#7a8e1c',
+              700: '#59650d',
+              800: '#313603',
+              900: '#000000',
+            },
+
+            // Neutral ramp — desaturated base
+            'neutral': {
+              50:  '#ffffff',
+              100: '#e6e7e9',
+              200: '#cdcfd4',
+              300: '#b4b7bf',
+              400: '#9a9faa',
+              500: '#808696',
+              600: '#686e80',
+              700: '#525867',
+              800: '#3d424e',
+              900: '#282c34',
+              950: '#14161a',
+              1000: '#000000',
+            },
+
+            /* ═══════════════════════════════════════════════════
+               SEMANTIC LAYER — Design-intent mapped to tokens
+               ═══════════════════════════════════════════════════ */
+
+            // Surfaces
+            'surface': {
+              DEFAULT: 'var(--color-surface)',
+              alt:     'var(--color-surface-alt)',
+              hover:   'var(--color-surface-hover)',
+              raised:  'var(--color-surface-raised)',
+            },
+
+            // Text
+            'on-surface': {
+              DEFAULT:   'var(--color-on-surface)',
+              muted:     'var(--color-on-surface-muted)',
+              subtle:    'var(--color-on-surface-subtle)',
+            },
+
+            // Brand accent
+            'brand': {
+              DEFAULT: 'var(--color-brand)',
+              hover:   'var(--color-brand-hover)',
+              muted:   'var(--color-brand-muted)',
+              text:    'var(--color-brand-text)',
+            },
+
+            // Border
+            'border': {
+              DEFAULT: 'var(--color-border)',
+              strong:  'var(--color-border-strong)',
+            },
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    /* Semantic CSS custom properties — DARK mode (default) */
+    :root {
+      /* Surface colors: dark mode uses dark primary tones */
+      --color-surface:        #14161a;   /* neutral-950 */
+      --color-surface-alt:    #282c34;   /* neutral-900 */
+      --color-surface-hover:  #3d424e;   /* neutral-800 */
+      --color-surface-raised: #031736;   /* primary-800 */
+
+      /* Text colors */
+      --color-on-surface:       #e6e7e9; /* neutral-100 */
+      --color-on-surface-muted: #b4b7bf; /* neutral-300 */
+      --color-on-surface-subtle:#808696; /* neutral-500 */
+
+      /* Brand / accent */
+      --color-brand:       #c0a65b;      /* accent-400 */
+      --color-brand-hover: #b08c32;      /* accent-500 */
+      --color-brand-muted: #65450d;      /* accent-700 */
+      --color-brand-text:  #e6e5e0;      /* accent-100 */
+
+      /* Borders */
+      --color-border:       #3d424e;     /* neutral-800 */
+      --color-border-strong: #525867;    /* neutral-700 */
+    }
+
+    /* Semantic CSS custom properties — LIGHT mode */
+    html:not(.dark) {
+      --color-surface:        #ffffff;   /* neutral-50 */
+      --color-surface-alt:    #e6e7e9;   /* neutral-100 */
+      --color-surface-hover:  #cdcfd4;   /* neutral-200 */
+      --color-surface-raised: #e0e0e6;   /* primary-100 */
+
+      --color-on-surface:       #14161a; /* neutral-950 */
+      --color-on-surface-muted: #525867; /* neutral-700 */
+      --color-on-surface-subtle:#686e80; /* neutral-600 */
+
+      --color-brand:       #8e681c;      /* accent-600 */
+      --color-brand-hover: #b08c32;      /* accent-500 */
+      --color-brand-muted: #d3ceba;      /* accent-200 */
+      --color-brand-text:  #362103;      /* accent-800 */
+
+      --color-border:       #cdcfd4;     /* neutral-200 */
+      --color-border-strong: #b4b7bf;    /* neutral-300 */
+    }
+
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="bg-surface text-on-surface font-body antialiased transition-colors duration-300">
+
+  <!-- ═══════════════════ NAVIGATION ═══════════════════ -->
+  <nav class="fixed top-0 inset-x-0 z-50 bg-surface/80 backdrop-blur-lg border-b border-border">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-display font-800 text-xl tracking-tight text-on-surface">
+        Fundure<span class="text-brand">.</span>
+      </a>
+
+      <div class="flex items-center gap-6">
+        <a href="#pillars" class="hidden sm:inline text-sm text-on-surface-muted hover:text-on-surface transition-colors">What we do</a>
+        <a href="#cta" class="hidden sm:inline text-sm text-on-surface-muted hover:text-on-surface transition-colors">Contact</a>
+
+        <!-- Dark/Light toggle -->
+        <button
+          id="theme-toggle"
+          aria-label="Toggle dark mode"
+          class="w-9 h-9 rounded-full bg-surface-alt border border-border flex items-center justify-center hover:bg-surface-hover transition-colors"
+        >
+          <i data-lucide="sun" class="w-4 h-4 hidden dark:block text-on-surface-muted"></i>
+          <i data-lucide="moon" class="w-4 h-4 block dark:hidden text-on-surface-muted"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <header class="min-h-[90vh] flex items-center pt-16">
+    <div class="max-w-6xl mx-auto px-6 py-24 md:py-32">
+      <p class="font-display font-600 text-brand text-sm uppercase tracking-[0.2em] mb-6">Fundure Ventures</p>
+      <h1 class="font-display font-800 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.08] tracking-tight max-w-4xl">
+        We build and invest in <span class="text-brand">enduring ideas</span> for the future.
+      </h1>
+      <p class="mt-8 text-lg md:text-xl text-on-surface-muted max-w-2xl leading-relaxed">
+        A venture studio that transforms bold conviction into lasting products — building what matters, investing in what disrupts.
+      </p>
+      <div class="mt-12 flex flex-wrap gap-4">
+        <a href="#cta" class="inline-flex items-center gap-2 bg-brand text-surface font-display font-600 px-7 py-3.5 rounded-full hover:bg-brand-hover transition-colors text-sm">
+          Work with us
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+        <a href="#pillars" class="inline-flex items-center gap-2 border border-border-strong text-on-surface-muted font-display font-600 px-7 py-3.5 rounded-full hover:bg-surface-alt transition-colors text-sm">
+          Learn more
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════════ DIVIDER ═══════════════════ -->
+  <div class="max-w-6xl mx-auto px-6">
+    <hr class="border-border" />
+  </div>
+
+  <!-- ═══════════════════ THREE PILLARS ═══════════════════ -->
+  <section id="pillars" class="py-24 md:py-32">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="font-display font-600 text-brand text-sm uppercase tracking-[0.2em] mb-4">What we do</p>
+      <h2 class="font-display font-800 text-3xl sm:text-4xl md:text-5xl tracking-tight mb-20 max-w-2xl">
+        Three pillars of conviction.
+      </h2>
+
+      <div class="grid gap-12 md:gap-8 md:grid-cols-3">
+
+        <!-- Pillar 1 -->
+        <article class="group">
+          <div class="w-12 h-12 rounded-xl bg-surface-alt border border-border flex items-center justify-center mb-6 group-hover:border-brand transition-colors">
+            <i data-lucide="lightbulb" class="w-5 h-5 text-brand"></i>
+          </div>
+          <p class="font-display font-700 text-brand text-5xl md:text-6xl opacity-15 mb-2 select-none" aria-hidden="true">01</p>
+          <h3 class="font-display font-700 text-xl mb-3">Ideas Factory</h3>
+          <p class="text-on-surface-muted leading-relaxed">
+            We build highly opinionated ideas that matter to us. Hopefully for other people too.
+          </p>
+        </article>
+
+        <!-- Pillar 2 -->
+        <article class="group">
+          <div class="w-12 h-12 rounded-xl bg-surface-alt border border-border flex items-center justify-center mb-6 group-hover:border-brand transition-colors">
+            <i data-lucide="trending-up" class="w-5 h-5 text-brand"></i>
+          </div>
+          <p class="font-display font-700 text-brand text-5xl md:text-6xl opacity-15 mb-2 select-none" aria-hidden="true">02</p>
+          <h3 class="font-display font-700 text-xl mb-3">Venture Capital</h3>
+          <p class="text-on-surface-muted leading-relaxed">
+            We invest in disrupting products that challenge the status-quo.
+          </p>
+        </article>
+
+        <!-- Pillar 3 -->
+        <article class="group">
+          <div class="w-12 h-12 rounded-xl bg-surface-alt border border-border flex items-center justify-center mb-6 group-hover:border-brand transition-colors">
+            <i data-lucide="users" class="w-5 h-5 text-brand"></i>
+          </div>
+          <p class="font-display font-700 text-brand text-5xl md:text-6xl opacity-15 mb-2 select-none" aria-hidden="true">03</p>
+          <h3 class="font-display font-700 text-xl mb-3">Founder Backed</h3>
+          <p class="text-on-surface-muted leading-relaxed">
+            We are founders with an already proven track record on building and helping others build successful products.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ DIVIDER ═══════════════════ -->
+  <div class="max-w-6xl mx-auto px-6">
+    <hr class="border-border" />
+  </div>
+
+  <!-- ═══════════════════ CTA ═══════════════════ -->
+  <section id="cta" class="py-24 md:py-32">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="font-display font-800 text-3xl sm:text-4xl md:text-5xl tracking-tight mb-6">
+        Let's work on something <span class="text-brand">great</span> together.
+      </h2>
+      <p class="text-on-surface-muted text-lg max-w-xl mx-auto mb-12 leading-relaxed">
+        Whether you're building something new or looking for a partner who's been there before — we'd love to hear from you.
+      </p>
+      <a
+        href="mailto:hello@fundureventures.com"
+        class="inline-flex items-center gap-3 bg-brand text-surface font-display font-600 px-8 py-4 rounded-full hover:bg-brand-hover transition-colors"
+      >
+        <i data-lucide="mail" class="w-5 h-5"></i>
+        hello@fundureventures.com
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="border-t border-border">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-on-surface-subtle">
+      <p>&copy; 2025 Fundure Ventures. Enduring ideas for the future.</p>
+      <a href="mailto:hello@fundureventures.com" class="hover:text-on-surface transition-colors">hello@fundureventures.com</a>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════ SCRIPTS ═══════════════════ -->
+  <script>
+    // Dark mode toggle
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    });
+    // Restore preference
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.remove('dark');
+    }
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+
+</body>
+</html>
