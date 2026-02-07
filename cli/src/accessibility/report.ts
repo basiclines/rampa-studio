@@ -50,6 +50,7 @@ export function generateAccessibilityReport(ramps: RampOutput[]): AccessibilityR
   const seenPassing = new Set<string>();
 
   // Check all ordered pairs (fg, bg) excluding self
+  // Each pair is assigned only to its highest passing level
   for (let i = 0; i < colors.length; i++) {
     for (let j = 0; j < colors.length; j++) {
       if (i === j) continue;
@@ -69,9 +70,9 @@ export function generateAccessibilityReport(ramps: RampOutput[]): AccessibilityR
           lc: Math.round(lc * 100) / 100,
         };
 
-        for (const level of passing) {
-          levelMap.get(level.id)!.push(pair);
-        }
+        // APCA_LEVELS is sorted highest-first, so passing[0] is the highest level
+        const highest = passing[0];
+        levelMap.get(highest.id)!.push(pair);
       }
     }
   }

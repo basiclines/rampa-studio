@@ -87,6 +87,12 @@ describe('APCA', () => {
       expect(preferred.pairs.length).toBeGreaterThanOrEqual(2);
     });
 
+    it('should not duplicate pairs across levels', () => {
+      const report = generateAccessibilityReport(mockRamps);
+      const totalInLevels = report.levels.reduce((sum, l) => sum + l.pairs.length, 0);
+      expect(totalInLevels).toBe(report.passingPairs);
+    });
+
     it('should report cross-ramp pairs', () => {
       const twoRamps: RampOutput[] = [
         { ...mockRamps[0], name: 'base', colors: ['#000000', '#ffffff'] },
