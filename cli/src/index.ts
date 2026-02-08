@@ -312,7 +312,7 @@ const validFormats = ['hex', 'hsl', 'rgb', 'oklch'];
 const main = defineCommand({
   meta: {
     name: 'rampa',
-    version: '1.2.0',
+    version: '1.3.0',
     description: 'Generate mathematically accurate color palettes from a base color',
   },
   args: {
