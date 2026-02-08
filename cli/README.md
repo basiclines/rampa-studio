@@ -140,6 +140,35 @@ Available types:
 | `--output` | `-O` | Output format: text, json, css | text |
 | `--preview` | | Show colored squares | true |
 
+### Accessibility
+
+| Flag | Alias | Description | Default |
+|------|-------|-------------|---------|
+| `--accessibility` | `-A` | APCA contrast report | off |
+
+The `-A` flag generates an accessibility report using the [APCA](https://github.com/Myndex/APCA) (Accessible Perceptual Contrast Algorithm) methodology. It analyzes all color pairs across all generated ramps and groups passing pairs by contrast level.
+
+**Filter options:**
+
+| Syntax | Example | Description |
+|--------|---------|-------------|
+| `-A` | `-A` | Show all passing pairs |
+| `-A=<Lc>` | `-A=60` | Minimum Lc threshold |
+| `-A=<label>` | `-A=body` | Filter by named level |
+| `-A=<min>:<max>` | `-A=15:30` | Lc range filter |
+| `-A=<label>:<label>` | `-A=nontext:bold` | Range using level names |
+
+**Level labels:**
+
+| Label | Lc Threshold | Use Case |
+|-------|-------------|----------|
+| `preferred` | 90 | Preferred body text |
+| `body` | 75 | Body text |
+| `large` | 60 | Large text |
+| `bold` | 45 | Large/bold text |
+| `minimum` | 30 | Minimum text |
+| `nontext` | 15 | Non-text elements |
+
 ### Other
 
 | Flag | Alias | Description |
@@ -249,6 +278,28 @@ Output:
 
 ```bash
 rampa -C "#3b82f6" --no-preview | head -5
+```
+
+### Accessibility Report
+
+```bash
+# Full APCA contrast report
+rampa -C "#3b82f6" --add=complementary -A
+
+# Filter by minimum Lc threshold
+rampa -C "#3b82f6" --add=complementary -A=body
+
+# Filter by Lc range
+rampa -C "#3b82f6" --add=complementary -A=15:30
+
+# Filter using level labels
+rampa -C "#3b82f6" --add=complementary -A=nontext:bold
+
+# Accessibility report in JSON
+rampa -C "#3b82f6" --add=complementary -A -O json
+
+# Accessibility report in CSS (appended as comment)
+rampa -C "#3b82f6" --add=complementary -A -O css
 ```
 
 ## Contextual Help

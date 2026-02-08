@@ -30,7 +30,7 @@ The result: **predictable, mathematically consistent palettes** that you control
 - 🔢 **11 distribution scales** — Linear, Fibonacci, Golden Ratio, ease curves, and more
 - 🎯 **Color harmonies** — Complementary, triadic, analogous, and other harmony ramps
 - 🖌️ **Tinting system** — Apply color overlays with 16 blend modes
-- ♿ **Accessibility-ready** — Generate palettes optimized for contrast
+- ♿ **Accessibility-ready** — APCA contrast analysis across all color pairs
 - 📦 **Multiple outputs** — Export as CSS variables, JSON, or plain text
 
 ---
@@ -91,6 +91,13 @@ rampa -C "#3b82f6" -O css --name=primary
 
 # Apply a warm tint
 rampa -C "#3b82f6" --tint-color="#FF6B00" --tint-opacity=15 --tint-blend=overlay
+
+# APCA accessibility contrast report
+rampa -C "#3b82f6" --add=complementary -A
+
+# Filter by contrast level or range
+rampa -C "#3b82f6" --add=complementary -A=body
+rampa -C "#3b82f6" --add=complementary -A=15:30
 ```
 
 ### Full CLI Documentation
