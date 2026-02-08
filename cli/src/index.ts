@@ -704,7 +704,7 @@ const main = defineCommand({
 
       if (accessibilityEnabled) {
         const report = generateAccessibilityReport(ramps, accessibilityMinLc);
-        console.log(formatAccessibilityText(report));
+        console.log(formatAccessibilityText(report, { preview: canShowPreview }));
       }
     }
   },
