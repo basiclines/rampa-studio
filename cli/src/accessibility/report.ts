@@ -1,5 +1,5 @@
 import type { RampOutput } from '../formatters/types';
-import { computeApca, getPassingLevels, APCA_LEVELS, type ApcaLevel } from './apca';
+import { computeApca, getPassingLevels, APCA_LEVELS, type ApcaLevel, type AccessibilityFilter } from './apca';
 import chroma from 'chroma-js';
 
 export interface ColorRef {
@@ -26,6 +26,7 @@ export interface AccessibilityReport {
   totalPairs: number;
   passingPairs: number;
   levels: AccessibilityLevel[];
+  filter: AccessibilityFilter;
 }
 
 // Build a flat list of all colors with their ramp reference.
@@ -68,7 +69,9 @@ function deduplicateColors(colors: ColorRef[]): ColorRef[] {
   return colors.filter((_, i) => keep.has(i));
 }
 
-export function generateAccessibilityReport(ramps: RampOutput[], minLcFilter: number = 0): AccessibilityReport {
+const DEFAULT_FILTER: AccessibilityFilter = { min: 0, max: Infinity, raw: '' };
+
+export function generateAccessibilityReport(ramps: RampOutput[], filter: AccessibilityFilter = DEFAULT_FILTER): AccessibilityReport {
   const allColors = collectColors(ramps);
   const colors = deduplicateColors(allColors);
   // Unordered unique pairs count
@@ -111,18 +114,23 @@ export function generateAccessibilityReport(ramps: RampOutput[], minLcFilter: nu
     }
   }
 
+  // Filter levels by range and filter pairs within levels by Lc range
   const levels: AccessibilityLevel[] = APCA_LEVELS
-    .filter(level => level.minLc >= minLcFilter)
-    .map(level => ({
-      id: level.id,
-      name: level.name,
-      minLc: level.minLc,
-      pairs: levelMap.get(level.id)!,
-    }));
+    .filter(level => level.minLc >= filter.min && level.minLc <= filter.max)
+    .map(level => {
+      const pairs = filter.max < Infinity
+        ? levelMap.get(level.id)!.filter(p => {
+            const bestAbsLc = Math.max(Math.abs(p.lcAB), Math.abs(p.lcBA));
+            return bestAbsLc >= filter.min && bestAbsLc <= filter.max;
+          })
+        : levelMap.get(level.id)!;
+      return { id: level.id, name: level.name, minLc: level.minLc, pairs };
+    });
 
   return {
     totalPairs,
     passingPairs,
     levels,
+    filter,
   };
 }

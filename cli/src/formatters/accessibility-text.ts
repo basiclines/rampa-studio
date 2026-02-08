@@ -27,6 +27,17 @@ export function formatAccessibilityText(report: AccessibilityReport, options: Ac
   lines.push(`${report.passingPairs} of ${report.totalPairs} pairs pass at least one level`);
   lines.push('');
 
+  const filteredPairCount = report.levels.reduce((sum, l) => sum + l.pairs.length, 0);
+
+  if (filteredPairCount === 0) {
+    const filterDesc = report.filter.raw
+      ? `filter: ${report.filter.raw}`
+      : 'current filter';
+    lines.push(`No pairs match the ${filterDesc}`);
+    lines.push('');
+    return lines.join('\n');
+  }
+
   for (const level of report.levels) {
     if (level.pairs.length === 0) continue;
 
@@ -49,7 +60,7 @@ export function formatAccessibilityText(report: AccessibilityReport, options: Ac
       const refB = `${pair.colorB.ramp}[${pair.colorB.index}]`.padEnd(maxRefB);
 
       const preview = showPreview ? `${pairSquares(pair)} ` : '';
-      lines.push(`  ${preview}${colA} ↔ ${colB}  Lc ${lcA} / ${lcB}  (${refA} ↔ ${refB})`);
+      lines.push(`  ${preview}${colA} ↔ ${colB}  Lc ${lcA} / ${lcB}  ${refA} ↔ ${refB}`);
     }
 
     lines.push('');

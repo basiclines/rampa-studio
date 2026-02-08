@@ -53,29 +53,43 @@ describe('APCA', () => {
   });
 
   describe('parseAccessibilityFilter', () => {
-    it('should return 0 for undefined/empty/true', () => {
-      expect(parseAccessibilityFilter(undefined)).toBe(0);
-      expect(parseAccessibilityFilter('')).toBe(0);
-      expect(parseAccessibilityFilter('true')).toBe(0);
+    it('should return min:0 max:Infinity for undefined/empty/true', () => {
+      expect(parseAccessibilityFilter(undefined)).toEqual({ min: 0, max: Infinity, raw: '' });
+      expect(parseAccessibilityFilter('')).toEqual({ min: 0, max: Infinity, raw: '' });
+      expect(parseAccessibilityFilter('true')).toEqual({ min: 0, max: Infinity, raw: 'true' });
     });
 
-    it('should parse numeric Lc values', () => {
-      expect(parseAccessibilityFilter('60')).toBe(60);
-      expect(parseAccessibilityFilter('75')).toBe(75);
+    it('should parse numeric Lc values as min threshold', () => {
+      expect(parseAccessibilityFilter('60')).toEqual({ min: 60, max: Infinity, raw: '60' });
+      expect(parseAccessibilityFilter('75')).toEqual({ min: 75, max: Infinity, raw: '75' });
     });
 
-    it('should parse label aliases', () => {
-      expect(parseAccessibilityFilter('body')).toBe(75);
-      expect(parseAccessibilityFilter('preferred')).toBe(90);
-      expect(parseAccessibilityFilter('large')).toBe(60);
-      expect(parseAccessibilityFilter('bold')).toBe(45);
-      expect(parseAccessibilityFilter('minimum')).toBe(30);
-      expect(parseAccessibilityFilter('nontext')).toBe(15);
+    it('should parse label aliases as min threshold', () => {
+      expect(parseAccessibilityFilter('body')).toEqual({ min: 75, max: Infinity, raw: 'body' });
+      expect(parseAccessibilityFilter('preferred')).toEqual({ min: 90, max: Infinity, raw: 'preferred' });
+      expect(parseAccessibilityFilter('large')).toEqual({ min: 60, max: Infinity, raw: 'large' });
+      expect(parseAccessibilityFilter('bold')).toEqual({ min: 45, max: Infinity, raw: 'bold' });
+      expect(parseAccessibilityFilter('minimum')).toEqual({ min: 30, max: Infinity, raw: 'minimum' });
+      expect(parseAccessibilityFilter('nontext')).toEqual({ min: 15, max: Infinity, raw: 'nontext' });
     });
 
     it('should be case-insensitive', () => {
-      expect(parseAccessibilityFilter('BODY')).toBe(75);
-      expect(parseAccessibilityFilter('Large')).toBe(60);
+      expect(parseAccessibilityFilter('BODY')).toEqual({ min: 75, max: Infinity, raw: 'BODY' });
+      expect(parseAccessibilityFilter('Large')).toEqual({ min: 60, max: Infinity, raw: 'Large' });
+    });
+
+    it('should parse range syntax with numbers', () => {
+      expect(parseAccessibilityFilter('15:30')).toEqual({ min: 15, max: 30, raw: '15:30' });
+      expect(parseAccessibilityFilter('60:90')).toEqual({ min: 60, max: 90, raw: '60:90' });
+    });
+
+    it('should parse range syntax with labels', () => {
+      expect(parseAccessibilityFilter('nontext:bold')).toEqual({ min: 15, max: 45, raw: 'nontext:bold' });
+      expect(parseAccessibilityFilter('large:preferred')).toEqual({ min: 60, max: 90, raw: 'large:preferred' });
+    });
+
+    it('should auto-sort range values', () => {
+      expect(parseAccessibilityFilter('90:15')).toEqual({ min: 15, max: 90, raw: '90:15' });
     });
   });
 
@@ -97,14 +111,19 @@ describe('APCA', () => {
     ];
 
     it('should return all levels with no filter', () => {
-      const report = generateAccessibilityReport(mockRamps, 0);
+      const report = generateAccessibilityReport(mockRamps);
       expect(report.levels.length).toBe(APCA_LEVELS.length);
     });
 
     it('should filter to only high-contrast levels', () => {
-      const report = generateAccessibilityReport(mockRamps, 75);
+      const report = generateAccessibilityReport(mockRamps, { min: 75, max: Infinity, raw: '75' });
       expect(report.levels.every(l => l.minLc >= 75)).toBe(true);
       expect(report.levels.some(l => l.minLc < 75)).toBe(false);
+    });
+
+    it('should filter by range', () => {
+      const report = generateAccessibilityReport(mockRamps, { min: 30, max: 60, raw: '30:60' });
+      expect(report.levels.every(l => l.minLc >= 30 && l.minLc <= 60)).toBe(true);
     });
   });
 

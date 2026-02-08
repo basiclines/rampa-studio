@@ -656,12 +656,12 @@ const main = defineCommand({
 
     // Parse accessibility filter if flag is present
     const accessibilityEnabled = args.accessibility !== undefined;
-    const accessibilityMinLc = accessibilityEnabled ? parseAccessibilityFilter(args.accessibility) : 0;
+    const accessibilityFilter = accessibilityEnabled ? parseAccessibilityFilter(args.accessibility) : undefined;
 
     // Output based on format
     if (outputType === 'json') {
       if (accessibilityEnabled) {
-        const report = generateAccessibilityReport(ramps, accessibilityMinLc);
+        const report = generateAccessibilityReport(ramps, accessibilityFilter!);
         const output = { ramps: JSON.parse(formatJson(ramps)).ramps, accessibility: formatAccessibilityJson(report) };
         console.log(JSON.stringify(output, null, 2));
       } else {
@@ -670,7 +670,7 @@ const main = defineCommand({
     } else if (outputType === 'css') {
       let output = formatCss(ramps);
       if (accessibilityEnabled) {
-        const report = generateAccessibilityReport(ramps, accessibilityMinLc);
+        const report = generateAccessibilityReport(ramps, accessibilityFilter!);
         output += formatAccessibilityCss(report);
       }
       console.log(output);
@@ -703,7 +703,7 @@ const main = defineCommand({
       });
 
       if (accessibilityEnabled) {
-        const report = generateAccessibilityReport(ramps, accessibilityMinLc);
+        const report = generateAccessibilityReport(ramps, accessibilityFilter!);
         console.log(formatAccessibilityText(report, { preview: canShowPreview }));
       }
     }
