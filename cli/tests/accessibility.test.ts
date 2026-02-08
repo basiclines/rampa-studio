@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'bun:test';
-import { computeApca, getPassingLevels, APCA_LEVELS } from '../src/accessibility/apca';
+import { computeApca, getPassingLevels, APCA_LEVELS, parseAccessibilityFilter } from '../src/accessibility/apca';
 import { generateAccessibilityReport } from '../src/accessibility/report';
 import type { RampOutput } from '../src/formatters/types';
 
@@ -49,6 +49,62 @@ describe('APCA', () => {
       const levels = getPassingLevels(76);
       expect(levels.some(l => l.id === 'body')).toBe(true);
       expect(levels.some(l => l.id === 'preferred-body')).toBe(false);
+    });
+  });
+
+  describe('parseAccessibilityFilter', () => {
+    it('should return 0 for undefined/empty/true', () => {
+      expect(parseAccessibilityFilter(undefined)).toBe(0);
+      expect(parseAccessibilityFilter('')).toBe(0);
+      expect(parseAccessibilityFilter('true')).toBe(0);
+    });
+
+    it('should parse numeric Lc values', () => {
+      expect(parseAccessibilityFilter('60')).toBe(60);
+      expect(parseAccessibilityFilter('75')).toBe(75);
+    });
+
+    it('should parse label aliases', () => {
+      expect(parseAccessibilityFilter('body')).toBe(75);
+      expect(parseAccessibilityFilter('preferred')).toBe(90);
+      expect(parseAccessibilityFilter('large')).toBe(60);
+      expect(parseAccessibilityFilter('bold')).toBe(45);
+      expect(parseAccessibilityFilter('minimum')).toBe(30);
+      expect(parseAccessibilityFilter('nontext')).toBe(15);
+    });
+
+    it('should be case-insensitive', () => {
+      expect(parseAccessibilityFilter('BODY')).toBe(75);
+      expect(parseAccessibilityFilter('Large')).toBe(60);
+    });
+  });
+
+  describe('generateAccessibilityReport with filter', () => {
+    const mockRamps: RampOutput[] = [
+      {
+        name: 'base',
+        baseColor: '#3b82f6',
+        config: {
+          size: 3,
+          lightness: { start: 0, end: 100 },
+          saturation: { start: 100, end: 0 },
+          hue: { start: -10, end: 10 },
+          scales: { lightness: 'linear', saturation: 'linear', hue: 'linear' },
+          tint: null,
+        },
+        colors: ['#000000', '#808080', '#ffffff'],
+      },
+    ];
+
+    it('should return all levels with no filter', () => {
+      const report = generateAccessibilityReport(mockRamps, 0);
+      expect(report.levels.length).toBe(APCA_LEVELS.length);
+    });
+
+    it('should filter to only high-contrast levels', () => {
+      const report = generateAccessibilityReport(mockRamps, 75);
+      expect(report.levels.every(l => l.minLc >= 75)).toBe(true);
+      expect(report.levels.some(l => l.minLc < 75)).toBe(false);
     });
   });
 
@@ -165,5 +221,28 @@ describe('CLI Integration - Accessibility', () => {
     expect(output).toContain('/*');
     expect(output).toContain('Accessibility Report (APCA)');
     expect(output).toContain('*/');
+  });
+
+  it('should filter by label name', () => {
+    const result = Bun.spawnSync([CLI, '-C', '#3b82f6', '--size=5', '--no-preview', '-A', 'body'], { cwd: import.meta.dir + '/..', });
+    const output = result.stdout.toString();
+    expect(output).toContain('Preferred body text');
+    expect(output).toContain('Body text');
+    expect(output).not.toContain('Large text');
+    expect(output).not.toContain('Non-text');
+  });
+
+  it('should filter by Lc number', () => {
+    const result = Bun.spawnSync([CLI, '-C', '#3b82f6', '--size=5', '--no-preview', '-A=60'], { cwd: import.meta.dir + '/..', });
+    const output = result.stdout.toString();
+    expect(output).toContain('Large text');
+    expect(output).not.toContain('Large/bold text');
+    expect(output).not.toContain('Non-text');
+  });
+
+  it('should filter in JSON mode', () => {
+    const result = Bun.spawnSync([CLI, '-C', '#3b82f6', '--size=5', '-O', 'json', '-A=body'], { cwd: import.meta.dir + '/..', });
+    const json = JSON.parse(result.stdout.toString());
+    expect(json.accessibility.levels.every((l: any) => l.minLc >= 75)).toBe(true);
   });
 });

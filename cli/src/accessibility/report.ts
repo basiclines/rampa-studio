@@ -68,7 +68,7 @@ function deduplicateColors(colors: ColorRef[]): ColorRef[] {
   return colors.filter((_, i) => keep.has(i));
 }
 
-export function generateAccessibilityReport(ramps: RampOutput[]): AccessibilityReport {
+export function generateAccessibilityReport(ramps: RampOutput[], minLcFilter: number = 0): AccessibilityReport {
   const allColors = collectColors(ramps);
   const colors = deduplicateColors(allColors);
   // Unordered unique pairs count
@@ -111,12 +111,14 @@ export function generateAccessibilityReport(ramps: RampOutput[]): AccessibilityR
     }
   }
 
-  const levels: AccessibilityLevel[] = APCA_LEVELS.map(level => ({
-    id: level.id,
-    name: level.name,
-    minLc: level.minLc,
-    pairs: levelMap.get(level.id)!,
-  }));
+  const levels: AccessibilityLevel[] = APCA_LEVELS
+    .filter(level => level.minLc >= minLcFilter)
+    .map(level => ({
+      id: level.id,
+      name: level.name,
+      minLc: level.minLc,
+      pairs: levelMap.get(level.id)!,
+    }));
 
   return {
     totalPairs,

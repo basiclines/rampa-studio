@@ -21,6 +21,7 @@ import { formatCss } from './formatters/css';
 import type { RampOutput, RampConfig } from './formatters/types';
 import { coloredSquare, getColorLimitationNote, supportsTruecolor } from './utils/terminal-colors';
 import { generateAccessibilityReport } from './accessibility/report';
+import { parseAccessibilityFilter } from './accessibility/apca';
 import { formatAccessibilityJson } from './formatters/accessibility-json';
 import { formatAccessibilityText, formatAccessibilityCss } from './formatters/accessibility-text';
 
@@ -80,7 +81,10 @@ HARMONIES
 OUTPUT
   ${cyan}-O, --output <format>${reset}          ${dim}Output format (default: text)${reset}
   ${cyan}--preview / --no-preview${reset}       ${dim}Show colored squares (default: true)${reset}
-  ${cyan}-A, --accessibility${reset}            ${dim}Show APCA contrast report${reset}
+  ${cyan}-A, --accessibility [filter]${reset}    ${dim}Show APCA contrast report${reset}
+
+                                  ${dim}Filters: preferred, body, large, bold, minimum, nontext${reset}
+                                  ${dim}or a custom Lc value (e.g. 60)${reset}
 
                                   ${dim}Formats: text, json, css${reset}
 
@@ -242,20 +246,23 @@ Examples:
   rampa -C "#3b82f6" -O json --add=complementary
 `,
   accessibility: `
--A, --accessibility  Show APCA contrast report
+-A, --accessibility [filter]  Show APCA contrast report
 
-Reports which color pairs pass APCA contrast levels:
-  Lc 90  Preferred body text
-  Lc 75  Body text
-  Lc 60  Large text
-  Lc 45  Large/bold text
-  Lc 30  Minimum text
-  Lc 15  Non-text
+Filters (optional):
+  preferred   Lc ≥ 90  Preferred body text
+  body        Lc ≥ 75  Body text
+  large       Lc ≥ 60  Large text
+  bold        Lc ≥ 45  Large/bold text
+  minimum     Lc ≥ 30  Minimum text
+  nontext     Lc ≥ 15  Non-text
+  <number>    Custom Lc threshold (e.g. 60)
 
 Examples:
   rampa -C "#3b82f6" -A
-  rampa -C "#3b82f6" --add=complementary -A
-  rampa -C "#3b82f6" -O json -A
+  rampa -C "#3b82f6" -A body
+  rampa -C "#3b82f6" -A=large
+  rampa -C "#3b82f6" --accessibility=75
+  rampa -C "#3b82f6" -O json -A preferred
 `,
 };
 
@@ -388,10 +395,9 @@ const main = defineCommand({
       default: 'text',
     },
     accessibility: {
-      type: 'boolean',
+      type: 'string',
       alias: ['A', 'a'],
-      description: 'Show APCA contrast accessibility report',
-      default: false,
+      description: 'Show APCA contrast report. Optional: filter by level name or Lc value',
     },
   },
   run({ args }) {
@@ -648,10 +654,14 @@ const main = defineCommand({
       });
     }
 
+    // Parse accessibility filter if flag is present
+    const accessibilityEnabled = args.accessibility !== undefined;
+    const accessibilityMinLc = accessibilityEnabled ? parseAccessibilityFilter(args.accessibility) : 0;
+
     // Output based on format
     if (outputType === 'json') {
-      if (args.accessibility) {
-        const report = generateAccessibilityReport(ramps);
+      if (accessibilityEnabled) {
+        const report = generateAccessibilityReport(ramps, accessibilityMinLc);
         const output = { ramps: JSON.parse(formatJson(ramps)).ramps, accessibility: formatAccessibilityJson(report) };
         console.log(JSON.stringify(output, null, 2));
       } else {
@@ -659,8 +669,8 @@ const main = defineCommand({
       }
     } else if (outputType === 'css') {
       let output = formatCss(ramps);
-      if (args.accessibility) {
-        const report = generateAccessibilityReport(ramps);
+      if (accessibilityEnabled) {
+        const report = generateAccessibilityReport(ramps, accessibilityMinLc);
         output += formatAccessibilityCss(report);
       }
       console.log(output);
@@ -692,8 +702,8 @@ const main = defineCommand({
         });
       });
 
-      if (args.accessibility) {
-        const report = generateAccessibilityReport(ramps);
+      if (accessibilityEnabled) {
+        const report = generateAccessibilityReport(ramps, accessibilityMinLc);
         console.log(formatAccessibilityText(report));
       }
     }

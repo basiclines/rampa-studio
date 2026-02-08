@@ -16,7 +16,31 @@ export const APCA_LEVELS: ApcaLevel[] = [
   { id: 'non-text', name: 'Non-text', minLc: 15 },
 ];
 
-// Compute APCA Lc contrast. Positive = dark text on light bg, negative = light text on dark bg.
+// Short label aliases for --accessibility filter
+export const LEVEL_ALIASES: Record<string, number> = {
+  'preferred': 90,
+  'body': 75,
+  'large': 60,
+  'bold': 45,
+  'minimum': 30,
+  'nontext': 15,
+};
+
+// Parse the --accessibility value into a minimum Lc threshold.
+// Accepts a number (Lc value) or a label name. Returns 0 for "show all".
+export function parseAccessibilityFilter(value: string | undefined): number {
+  if (!value || value === '' || value === 'true') return 0;
+
+  const num = parseFloat(value);
+  if (!isNaN(num) && num > 0) return num;
+
+  const label = value.toLowerCase().trim();
+  if (label in LEVEL_ALIASES) return LEVEL_ALIASES[label];
+
+  const validLabels = Object.keys(LEVEL_ALIASES).join(', ');
+  console.error(`Error: Invalid accessibility filter "${value}". Use a Lc number or: ${validLabels}`);
+  process.exit(1);
+}
 export function computeApca(fgHex: string, bgHex: string): number {
   const [fgR, fgG, fgB] = chroma(fgHex).rgb();
   const [bgR, bgG, bgB] = chroma(bgHex).rgb();
