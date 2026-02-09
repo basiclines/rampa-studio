@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundure Ventures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/phosphor-icons@1.4.2/src/css/icons.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      const tokens = {
+        primary: {
+          50: "#ffffff",
+          100: "#e1e1e5",
+          200: "#c0bece",
+          300: "#9a98bc",
+          400: "#6f6eae",
+          500: "#494b99",
+          600: "#313579",
+          700: "#1d2255",
+          800: "#0c102c",
+          900: "#000000",
+        },
+        accent: {
+          50: "#ffffff",
+          100: "#e3e1e5",
+          200: "#c8bece",
+          300: "#ac98bc",
+          400: "#8e6eae",
+          500: "#6f4999",
+          600: "#513179",
+          700: "#331d55",
+          800: "#180c2c",
+          900: "#000000",
+        },
+        neutral: {
+          50: "#ffffff",
+          100: "#e4e5e1",
+          200: "#cdcebe",
+          300: "#babc98",
+          400: "#acae6e",
+          500: "#999849",
+          600: "#797531",
+          700: "#554f1d",
+          800: "#2c280c",
+          900: "#000000",
+        },
+        support: {
+          50: "#ffffff",
+          100: "#e1e5e1",
+          200: "#becec0",
+          300: "#98bc9a",
+          400: "#6eae6f",
+          500: "#4b9949",
+          600: "#357931",
+          700: "#22551d",
+          800: "#102c0c",
+          900: "#000000",
+        },
+      };
+
+      const semantic = {
+        surface: "var(--color-surface)",
+        "surface-muted": "var(--color-surface-muted)",
+        "surface-strong": "var(--color-surface-strong)",
+        body: "var(--color-text)",
+        muted: "var(--color-text-muted)",
+        border: "var(--color-border)",
+        accent: "var(--color-accent)",
+        "accent-soft": "var(--color-accent-soft)",
+        "on-accent": "var(--color-on-accent)",
+        highlight: "var(--color-highlight)",
+        "highlight-soft": "var(--color-highlight-soft)",
+      };
+
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Plus Jakarta Sans", "Inter", "system-ui", "sans-serif"],
+            },
+            colors: {
+              tokens,
+              ...semantic,
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      :root {
+        --color-surface: #ffffff;
+        --color-surface-muted: #e1e1e5;
+        --color-surface-strong: #1d2255;
+        --color-text: #1d2255;
+        --color-text-muted: #6f6eae;
+        --color-border: #c0bece;
+        --color-accent: #6f4999;
+        --color-accent-soft: #c8bece;
+        --color-on-accent: #ffffff;
+        --color-highlight: #999849;
+        --color-highlight-soft: #e4e5e1;
+      }
+
+      .dark {
+        --color-surface: #0c102c;
+        --color-surface-muted: #1d2255;
+        --color-surface-strong: #000000;
+        --color-text: #e1e1e5;
+        --color-text-muted: #c0bece;
+        --color-border: #313579;
+        --color-accent: #8e6eae;
+        --color-accent-soft: #331d55;
+        --color-on-accent: #ffffff;
+        --color-highlight: #acae6e;
+        --color-highlight-soft: #554f1d;
+      }
+    </style>
+  </head>
+  <body class="bg-surface text-body transition-colors duration-300 dark:bg-surface">
+    <header class="border-b border-border dark:border-border">
+      <div
+        class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6"
+      >
+        <div class="flex items-center gap-3">
+          <span
+            class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-highlight-soft text-highlight dark:bg-highlight-soft"
+          >
+            <i class="ph ph-compass text-xl"></i>
+          </span>
+          <div>
+            <p class="text-lg font-semibold tracking-tight">Fundure Ventures</p>
+            <p class="text-sm text-muted">Enduring ideas for the future.</p>
+          </div>
+        </div>
+        <button
+          id="theme-toggle"
+          class="rounded-full border border-border px-4 py-2 text-sm font-medium text-body transition hover:bg-surface-muted dark:border-border dark:bg-surface-muted dark:hover:bg-surface"
+          type="button"
+        >
+          Toggle theme
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+        <div class="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+          <div class="space-y-6">
+            <span
+              class="inline-flex items-center gap-2 rounded-full bg-highlight-soft px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-highlight dark:bg-highlight-soft"
+            >
+              <i class="ph ph-sparkle"></i>
+              Fundure Ventures
+            </span>
+            <h1
+              class="text-4xl font-semibold leading-tight md:text-5xl lg:text-6xl"
+            >
+              We build and invest in enduring ideas for the future.
+            </h1>
+            <p class="text-lg text-muted md:text-xl">
+              Fundure Ventures blends long-term conviction with hands-on
+              execution, partnering with founders to move from concept to
+              category leader.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a
+                href="mailto:hello@fundureventures.com"
+                class="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-on-accent transition hover:bg-accent-soft hover:text-on-accent dark:hover:bg-accent-soft"
+              >
+                Let’s build together
+                <i class="ph ph-arrow-up-right"></i>
+              </a>
+              <div
+                class="flex items-center gap-2 rounded-full border border-border px-5 py-3 text-sm text-body dark:border-border"
+              >
+                <i class="ph ph-envelope-simple"></i>
+                hello@fundureventures.com
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <div
+              class="absolute -left-6 -top-6 h-full w-full rounded-3xl border border-border dark:border-border"
+            ></div>
+            <img
+              src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=900&q=80"
+              alt="Minimal architectural geometry"
+              class="relative h-full w-full rounded-3xl object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-surface-muted py-16 dark:bg-surface-muted">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="mb-10 flex items-center justify-between">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-[0.2em] text-muted">
+                Our Pillars
+              </p>
+              <h2 class="mt-3 text-3xl font-semibold md:text-4xl">
+                Three ways we move ideas forward
+              </h2>
+            </div>
+            <span class="text-sm text-muted">01 · 02 · 03</span>
+          </div>
+          <div class="grid gap-6 md:grid-cols-3">
+            <article
+              class="rounded-2xl border border-border bg-surface p-6 dark:border-border dark:bg-surface"
+            >
+              <div class="mb-4 flex items-center gap-3">
+                <span
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-accent-soft text-accent dark:bg-accent-soft"
+                >
+                  <i class="ph ph-lightbulb text-xl"></i>
+                </span>
+                <p class="text-sm font-semibold text-muted">01</p>
+              </div>
+              <h3 class="text-xl font-semibold">Ideas Factory</h3>
+              <p class="mt-3 text-muted">
+                We build highly opinionated ideas that matter to us. Hopefully
+                for other people too.
+              </p>
+            </article>
+            <article
+              class="rounded-2xl border border-border bg-surface p-6 dark:border-border dark:bg-surface"
+            >
+              <div class="mb-4 flex items-center gap-3">
+                <span
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-accent-soft text-accent dark:bg-accent-soft"
+                >
+                  <i class="ph ph-rocket-launch text-xl"></i>
+                </span>
+                <p class="text-sm font-semibold text-muted">02</p>
+              </div>
+              <h3 class="text-xl font-semibold">Venture Capital</h3>
+              <p class="mt-3 text-muted">
+                We invest in disrupting products that challenge the status-quo.
+              </p>
+            </article>
+            <article
+              class="rounded-2xl border border-border bg-surface p-6 dark:border-border dark:bg-surface"
+            >
+              <div class="mb-4 flex items-center gap-3">
+                <span
+                  class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-accent-soft text-accent dark:bg-accent-soft"
+                >
+                  <i class="ph ph-users-three text-xl"></i>
+                </span>
+                <p class="text-sm font-semibold text-muted">03</p>
+              </div>
+              <h3 class="text-xl font-semibold">Founder Backed</h3>
+              <p class="mt-3 text-muted">
+                We are founders with an already proven track record on building
+                and helping others build successful products.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+        <div
+          class="rounded-3xl border border-border bg-surface p-10 text-center dark:border-border dark:bg-surface"
+        >
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-muted">
+            Work with us
+          </p>
+          <h2 class="mt-4 text-3xl font-semibold md:text-4xl">
+            Let’s work on something great together.
+          </h2>
+          <p class="mt-4 text-lg text-muted">
+            hello@fundureventures.com
+          </p>
+          <div class="mt-6 flex justify-center">
+            <a
+              href="mailto:hello@fundureventures.com"
+              class="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-on-accent transition hover:bg-accent-soft dark:hover:bg-accent-soft"
+            >
+              Start a conversation
+              <i class="ph ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-border py-8 dark:border-border">
+      <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 text-sm text-muted md:flex-row md:items-center md:justify-between">
+        <p>© 2025 Fundure Ventures. Enduring ideas for the future.</p>
+        <p class="flex items-center gap-2">
+          <span class="h-2 w-2 rounded-full bg-highlight"></span>
+          Investing with care and conviction.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const toggleButton = document.getElementById("theme-toggle");
+      toggleButton.addEventListener("click", () => {
+        document.documentElement.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>

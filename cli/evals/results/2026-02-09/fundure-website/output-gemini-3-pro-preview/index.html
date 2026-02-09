@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundure Ventures</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        // TOKENS (Generated via rampa)
+                        primary: {
+                            50: '#ffffff',
+                            100: '#e2e1e4',
+                            200: '#e2e1e4', // Duplicate for scale
+                            300: '#c2c0cc',
+                            400: '#a09db7',
+                            500: '#7a76a5',
+                            600: '#56548f',
+                            700: '#3b3a70',
+                            800: '#24254d',
+                            900: '#101228',
+                            950: '#000000',
+                        },
+                        accent: {
+                            50: '#ffffff',
+                            100: '#e4e4e1',
+                            200: '#e4e4e1',
+                            300: '#caccc0',
+                            400: '#b4b79d',
+                            500: '#a2a576',
+                            600: '#8c8f54',
+                            700: '#6f703a',
+                            800: '#4d4c24',
+                            900: '#282710',
+                            950: '#000000',
+                        },
+                        // SEMANTICS (Mapped to tokens via CSS variables)
+                        page: 'var(--bg-page)',
+                        surface: 'var(--bg-surface)',
+                        'surface-hover': 'var(--bg-surface-hover)',
+                        body: 'var(--text-body)',
+                        muted: 'var(--text-muted)',
+                        heading: 'var(--text-heading)',
+                        brand: 'var(--col-brand)',
+                        'brand-hover': 'var(--col-brand-hover)',
+                        'brand-text': 'var(--text-brand)',
+                        border: 'var(--border-col)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            /* Light Mode Mapping */
+            --bg-page: #ffffff;          /* primary-50 */
+            --bg-surface: #e2e1e4;       /* primary-100 */
+            --bg-surface-hover: #c2c0cc; /* primary-300 */
+            
+            --text-heading: #101228;     /* primary-900 */
+            --text-body: #24254d;        /* primary-800 */
+            --text-muted: #56548f;       /* primary-600 */
+            
+            --col-brand: #6f703a;        /* accent-700 - Darker for contrast on light */
+            --col-brand-hover: #4d4c24;  /* accent-800 */
+            --text-brand: #ffffff;       /* primary-50 */
+            
+            --border-col: #e2e1e4;       /* primary-200 */
+        }
+
+        .dark {
+            /* Dark Mode Mapping */
+            --bg-page: #000000;          /* primary-950 */
+            --bg-surface: #101228;       /* primary-900 */
+            --bg-surface-hover: #24254d; /* primary-800 */
+            
+            --text-heading: #ffffff;     /* primary-50 */
+            --text-body: #c2c0cc;        /* primary-300 */
+            --text-muted: #7a76a5;       /* primary-500 */
+            
+            --col-brand: #a2a576;        /* accent-500 - Lighter for contrast on dark */
+            --col-brand-hover: #b4b79d;  /* accent-400 */
+            --text-brand: #101228;       /* primary-900 */
+            
+            --border-col: #24254d;       /* primary-800 */
+        }
+
+        body {
+            background-color: var(--bg-page);
+            color: var(--text-body);
+            transition: background-color 0.3s, color 0.3s;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-brand selection:text-brand-text flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-50 backdrop-blur-md border-b border-border">
+        <div class="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-brand flex items-center justify-center text-brand-text">
+                    <i data-lucide="layers" class="w-5 h-5"></i>
+                </div>
+                <span class="text-xl font-bold text-heading tracking-tight">Fundure Ventures</span>
+            </div>
+            
+            <button id="theme-toggle" class="p-2 rounded-full hover:bg-surface text-muted hover:text-heading transition-colors" aria-label="Toggle theme">
+                <i data-lucide="sun" class="w-5 h-5 hidden dark:block"></i>
+                <i data-lucide="moon" class="w-5 h-5 block dark:hidden"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-32 pb-20">
+        
+        <!-- Hero Section -->
+        <section class="max-w-5xl mx-auto px-6 mb-32">
+            <div class="max-w-3xl">
+                <h1 class="text-5xl md:text-7xl font-bold text-heading leading-[1.1] mb-8 tracking-tight">
+                    We build and invest in <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand to-muted">enduring ideas</span> for the future.
+                </h1>
+                <div class="flex flex-wrap gap-4 mt-12">
+                    <a href="mailto:hello@fundureventures.com" class="px-8 py-4 bg-brand hover:bg-brand-hover text-brand-text rounded-full font-semibold transition-all inline-flex items-center gap-2 group">
+                        Let's work together
+                        <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillars Grid -->
+        <section class="max-w-5xl mx-auto px-6 mb-32">
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Pillar 1 -->
+                <div class="p-8 rounded-2xl bg-surface hover:bg-surface-hover transition-colors group">
+                    <div class="w-12 h-12 rounded-full bg-page flex items-center justify-center mb-6 text-brand border border-border">
+                        <span class="font-mono font-bold">01</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-heading mb-4">Ideas Factory</h3>
+                    <p class="text-muted leading-relaxed">
+                        We build highly opinionated ideas that matter to us. Hopefully for other people too.
+                    </p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="p-8 rounded-2xl bg-surface hover:bg-surface-hover transition-colors group">
+                    <div class="w-12 h-12 rounded-full bg-page flex items-center justify-center mb-6 text-brand border border-border">
+                        <span class="font-mono font-bold">02</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-heading mb-4">Venture Capital</h3>
+                    <p class="text-muted leading-relaxed">
+                        We invest in disrupting products that challenge the status-quo.
+                    </p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="p-8 rounded-2xl bg-surface hover:bg-surface-hover transition-colors group">
+                    <div class="w-12 h-12 rounded-full bg-page flex items-center justify-center mb-6 text-brand border border-border">
+                        <span class="font-mono font-bold">03</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-heading mb-4">Founder Backed</h3>
+                    <p class="text-muted leading-relaxed">
+                        We are founders with an already proven track record on building and helping others build successful products.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CTA / Image Section -->
+        <section class="max-w-5xl mx-auto px-6 mb-20">
+            <div class="relative rounded-3xl overflow-hidden aspect-[21/9] bg-surface">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" 
+                     alt="Future Abstract" 
+                     class="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-overlay dark:opacity-40">
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6 bg-gradient-to-t from-page/80 to-transparent">
+                    <h2 class="text-3xl md:text-4xl font-bold text-heading mb-6">Ready to shape the future?</h2>
+                    <a href="mailto:hello@fundureventures.com" class="text-brand font-semibold hover:underline decoration-2 underline-offset-4 inline-flex items-center gap-2">
+                        hello@fundureventures.com
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-border py-12 bg-surface/30">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-2 text-heading font-semibold">
+                <i data-lucide="layers" class="w-5 h-5 text-brand"></i>
+                Fundure Ventures
+            </div>
+            <p class="text-muted text-sm text-center md:text-right">
+                © 2025 Fundure Ventures. Enduring ideas for the future.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Init Scripts -->
+    <script>
+        // Icons
+        lucide.createIcons();
+
+        // Theme Toggle Logic
+        const toggleBtn = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        
+        // Check system preference or saved
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            html.classList.add('dark');
+        } else {
+            html.classList.remove('dark');
+        }
+
+        toggleBtn.addEventListener('click', () => {
+            if (html.classList.contains('dark')) {
+                html.classList.remove('dark');
+                localStorage.theme = 'light';
+            } else {
+                html.classList.add('dark');
+                localStorage.theme = 'dark';
+            }
+        });
+    </script>
+</body>
+</html>

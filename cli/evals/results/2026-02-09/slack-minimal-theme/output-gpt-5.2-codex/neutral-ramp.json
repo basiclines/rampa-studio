@@ -1,0 +1,41 @@
+{
+  "ramps": [
+    {
+      "name": "base",
+      "baseColor": "#a8b4c4",
+      "config": {
+        "size": 10,
+        "lightness": {
+          "start": 96,
+          "end": 28
+        },
+        "saturation": {
+          "start": 18,
+          "end": 4
+        },
+        "hue": {
+          "start": -6,
+          "end": 6
+        },
+        "scales": {
+          "lightness": "ease-in-out",
+          "saturation": "ease-out",
+          "hue": "linear"
+        },
+        "tint": null
+      },
+      "colors": [
+        "#f4f5f5",
+        "#f0f1f1",
+        "#e3e4e4",
+        "#cdcecf",
+        "#afb0b2",
+        "#8a8c8d",
+        "#6d6e6f",
+        "#585859",
+        "#4b4c4c",
+        "#474748"
+      ]
+    }
+  ]
+}

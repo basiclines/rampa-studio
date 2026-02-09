@@ -1,0 +1,52 @@
+# Matrix Ghostty Theme
+# Generated with rampa
+# Command: rampa --color "#00FF41" --size 10 --lightness 2:90 --add=shift:60 --add=shift:120 --add=complementary --add=shift:240 --add=shift:300
+
+# Base Color (Matrix Green): #00ff41
+# Ramps used:
+# - base: Green
+# - shift-240: Red
+# - shift-300: Yellow
+# - shift-120: Blue
+# - complementary: Magenta
+# - shift-60: Cyan
+
+background = #000a01
+foreground = #a3c4af
+cursor-color = #4ab969
+selection-background = #1b8530
+selection-foreground = #e6e6e6
+
+# Black (Base Index 1)
+palette = 0=#03390a
+# Red (Shift-240 Index 4)
+palette = 1=#a34a2f
+# Green (Base Index 4)
+palette = 2=#2fa34a
+# Yellow (Shift-300 Index 4)
+palette = 3=#88a32f
+# Blue (Shift-120 Index 4)
+palette = 4=#4a2fa3
+# Magenta (Complementary Index 4)
+palette = 5=#a32f88
+# Cyan (Shift-60 Index 4)
+palette = 6=#2f88a3
+# White (Base Index 7)
+palette = 7=#a3c4af
+
+# Bright Black (Base Index 3)
+palette = 8=#1b8530
+# Bright Red (Shift-240 Index 6)
+palette = 9=#bc8e79
+# Bright Green (Base Index 6)
+palette = 10=#79bc8e
+# Bright Yellow (Shift-300 Index 6)
+palette = 11=#a7bc79
+# Bright Blue (Shift-120 Index 6)
+palette = 12=#8e79bc
+# Bright Magenta (Complementary Index 6)
+palette = 13=#bc79a7
+# Bright Cyan (Shift-60 Index 6)
+palette = 14=#79a7bc
+# Bright White (Base Index 9)
+palette = 15=#e6e6e6

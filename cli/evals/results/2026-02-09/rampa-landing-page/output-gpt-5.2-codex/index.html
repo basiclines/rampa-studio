@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rampa CLI — Mathematically accurate color palettes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              token: {
+                'primary-950': '#000000',
+                'primary-900': '#051d33',
+                'primary-800': '#103661',
+                'primary-700': '#214e89',
+                'primary-600': '#3866ab',
+                'primary-500': '#6081bc',
+                'primary-400': '#90a1c4',
+                'primary-300': '#bbc1d2',
+                'primary-200': '#e0e1e6',
+                'primary-50': '#ffffff',
+                'amber-950': '#000000',
+                'amber-900': '#331c05',
+                'amber-800': '#613b10',
+                'amber-700': '#895c21',
+                'amber-600': '#ab7d38',
+                'amber-500': '#bc9a60',
+                'amber-400': '#c4b390',
+                'amber-300': '#d2cbbb',
+                'amber-200': '#e6e4e0',
+                'amber-50': '#ffffff',
+                'magenta-950': '#000000',
+                'magenta-900': '#33051d',
+                'magenta-800': '#611036',
+                'magenta-700': '#89214e',
+                'magenta-600': '#ab3866',
+                'magenta-500': '#bc6081',
+                'magenta-400': '#c490a1',
+                'magenta-300': '#d2bbc1',
+                'magenta-200': '#e6e0e1',
+                'magenta-50': '#ffffff',
+                'green-950': '#000000',
+                'green-900': '#1d3305',
+                'green-800': '#366110',
+                'green-700': '#4e8921',
+                'green-600': '#66ab38',
+                'green-500': '#81bc60',
+                'green-400': '#a1c490',
+                'green-300': '#c1d2bb',
+                'green-200': '#e1e6e0',
+                'green-50': '#ffffff',
+                'violet-950': '#000000',
+                'violet-900': '#050633',
+                'violet-800': '#121061',
+                'violet-700': '#282189',
+                'violet-600': '#4338ab',
+                'violet-500': '#6c60bc',
+                'violet-400': '#9990c4',
+                'violet-300': '#c0bbd2',
+                'violet-200': '#e1e0e6',
+                'violet-50': '#ffffff'
+              },
+              semantic: {
+                'bg-page': 'var(--bg-page)',
+                'bg-surface': 'var(--bg-surface)',
+                'bg-surface-alt': 'var(--bg-surface-alt)',
+                'text-heading': 'var(--text-heading)',
+                'text-body': 'var(--text-body)',
+                'text-muted': 'var(--text-muted)',
+                'border-subtle': 'var(--border-subtle)',
+                'accent': 'var(--accent)',
+                'accent-strong': 'var(--accent-strong)',
+                'accent-muted': 'var(--accent-muted)',
+                'accent-contrast': 'var(--accent-contrast)',
+                'code-bg': 'var(--code-bg)',
+                'code-border': 'var(--code-border)',
+                'hero-gradient-start': 'var(--hero-gradient-start)',
+                'hero-gradient-end': 'var(--hero-gradient-end)',
+                'tag-bg': 'var(--tag-bg)',
+                'tag-text': 'var(--tag-text)'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+              mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular']
+            }
+          }
+        }
+      }
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg-page: #ffffff;
+        --bg-surface: #ffffff;
+        --bg-surface-alt: #e0e1e6;
+        --text-heading: #000000;
+        --text-body: #103661;
+        --text-muted: #214e89;
+        --border-subtle: #bbc1d2;
+        --accent: #214e89;
+        --accent-strong: #3866ab;
+        --accent-muted: #90a1c4;
+        --accent-contrast: #ffffff;
+        --code-bg: #e0e1e6;
+        --code-border: #bbc1d2;
+        --hero-gradient-start: #3866ab;
+        --hero-gradient-end: #4338ab;
+        --tag-bg: #e0e1e6;
+        --tag-text: #103661;
+      }
+
+      .dark {
+        --bg-page: #000000;
+        --bg-surface: #051d33;
+        --bg-surface-alt: #103661;
+        --text-heading: #ffffff;
+        --text-body: #e0e1e6;
+        --text-muted: #90a1c4;
+        --border-subtle: #214e89;
+        --accent: #214e89;
+        --accent-strong: #3866ab;
+        --accent-muted: #90a1c4;
+        --accent-contrast: #ffffff;
+        --code-bg: #103661;
+        --code-border: #214e89;
+        --hero-gradient-start: #4338ab;
+        --hero-gradient-end: #3866ab;
+        --tag-bg: #103661;
+        --tag-text: #e0e1e6;
+      }
+    </style>
+  </head>
+  <body class="min-h-full bg-semantic-bg-page text-semantic-text-body">
+    <header class="border-b border-semantic-border-subtle">
+      <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
+        <div class="flex items-center gap-3">
+          <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-semantic-hero-gradient-start to-semantic-hero-gradient-end dark:from-semantic-hero-gradient-end dark:to-semantic-hero-gradient-start text-semantic-accent-contrast">
+            <i data-lucide="palette" class="h-5 w-5"></i>
+          </div>
+          <div>
+            <p class="text-lg font-semibold text-semantic-text-heading">Rampa CLI</p>
+            <p class="text-sm text-semantic-text-muted">Mathematically accurate palettes</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <a
+            href="#features"
+            class="text-sm font-medium text-semantic-text-muted transition hover:text-semantic-text-heading"
+            >Features</a
+          >
+          <a
+            href="#examples"
+            class="text-sm font-medium text-semantic-text-muted transition hover:text-semantic-text-heading"
+            >Examples</a
+          >
+          <button
+            id="themeToggle"
+            type="button"
+            class="inline-flex items-center gap-2 rounded-full border border-semantic-border-subtle px-4 py-2 text-sm font-semibold text-semantic-text-heading transition hover:bg-semantic-bg-surface-alt"
+          >
+            <i data-lucide="moon" class="h-4 w-4"></i>
+            Toggle theme
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="mx-auto w-full max-w-6xl px-6 pb-16 pt-14">
+        <div class="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div>
+            <p class="inline-flex items-center gap-2 rounded-full bg-semantic-tag-bg px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-semantic-tag-text">
+              <i data-lucide="sparkles" class="h-4 w-4"></i>
+              Developer-first color science
+            </p>
+            <h1 class="mt-6 text-4xl font-semibold leading-tight text-semantic-text-heading sm:text-5xl">
+              Mathematically accurate color palettes. Built for developers.
+            </h1>
+            <p class="mt-5 text-lg text-semantic-text-body">
+              Generate accessible, harmonious color palettes from a single base color. Use mathematical scales, harmony theory, and
+              APCA contrast validation — all from your terminal.
+            </p>
+            <div class="mt-7 flex flex-wrap items-center gap-4">
+              <button class="rounded-lg bg-semantic-accent px-6 py-3 text-sm font-semibold text-semantic-accent-contrast shadow-sm transition hover:bg-semantic-accent-strong">
+                npm install -g @basiclines/rampa
+              </button>
+              <button class="rounded-lg border border-semantic-border-subtle px-6 py-3 text-sm font-semibold text-semantic-text-heading transition hover:bg-semantic-bg-surface-alt">
+                View docs
+              </button>
+            </div>
+            <div class="mt-8 flex flex-wrap gap-3">
+              <span class="rounded-full border border-semantic-border-subtle px-3 py-1 text-xs font-semibold text-semantic-text-muted">APCA-ready</span>
+              <span class="rounded-full border border-semantic-border-subtle px-3 py-1 text-xs font-semibold text-semantic-text-muted">Harmony ramps</span>
+              <span class="rounded-full border border-semantic-border-subtle px-3 py-1 text-xs font-semibold text-semantic-text-muted">JSON + CSS output</span>
+            </div>
+          </div>
+          <div class="rounded-3xl border border-semantic-border-subtle bg-semantic-bg-surface p-6 shadow-sm">
+            <div class="flex items-center justify-between">
+              <p class="text-sm font-semibold text-semantic-text-heading">System palette preview</p>
+              <span class="rounded-full bg-semantic-tag-bg px-3 py-1 text-xs font-semibold text-semantic-tag-text">Harmony set</span>
+            </div>
+            <div class="mt-6 grid grid-cols-2 gap-4">
+              <div class="rounded-2xl border border-semantic-border-subtle bg-semantic-bg-surface-alt p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-semantic-text-muted">Primary scale</p>
+                <div class="mt-3 flex gap-2">
+                  <span class="h-7 w-7 rounded bg-semantic-accent"></span>
+                  <span class="h-7 w-7 rounded bg-semantic-accent-strong"></span>
+                  <span class="h-7 w-7 rounded bg-semantic-accent-muted"></span>
+                  <span class="h-7 w-7 rounded bg-semantic-bg-surface"></span>
+                </div>
+              </div>
+              <div class="rounded-2xl border border-semantic-border-subtle bg-semantic-bg-surface-alt p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-semantic-text-muted">Supporting ramps</p>
+                <div class="mt-3 flex gap-2">
+                  <span class="h-7 w-7 rounded bg-semantic-hero-gradient-start"></span>
+                  <span class="h-7 w-7 rounded bg-semantic-hero-gradient-end"></span>
+                  <span class="h-7 w-7 rounded bg-semantic-tag-bg"></span>
+                  <span class="h-7 w-7 rounded bg-semantic-bg-page"></span>
+                </div>
+              </div>
+            </div>
+            <p class="mt-5 text-xs text-semantic-text-muted">All swatches are mapped from Rampa token ramps.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="border-t border-semantic-border-subtle bg-semantic-bg-surface-alt">
+        <div class="mx-auto w-full max-w-6xl px-6 py-16">
+          <div class="max-w-2xl">
+            <h2 class="text-3xl font-semibold text-semantic-text-heading">Design systems from a single base color</h2>
+            <p class="mt-3 text-semantic-text-body">
+              Rampa CLI uses mathematical distributions and harmony theory to generate complete palettes you can trust across UI, data
+              visualization, and brand accents.
+            </p>
+          </div>
+          <div class="mt-10 grid gap-6 md:grid-cols-2">
+            <article class="rounded-2xl border border-semantic-border-subtle bg-semantic-bg-surface p-6 shadow-sm">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-semantic-tag-bg text-semantic-accent">
+                <i data-lucide="palette" class="h-5 w-5"></i>
+              </div>
+              <h3 class="mt-4 text-xl font-semibold text-semantic-text-heading">Palette Generation</h3>
+              <p class="mt-2 text-sm text-semantic-text-body">
+                Generate 2-100 colors from any base color. Control lightness, saturation, and hue ranges with mathematical distribution
+                curves (linear, fibonacci, golden-ratio, logarithmic, and more).
+              </p>
+            </article>
+            <article class="rounded-2xl border border-semantic-border-subtle bg-semantic-bg-surface p-6 shadow-sm">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-semantic-tag-bg text-semantic-accent">
+                <i data-lucide="shuffle" class="h-5 w-5"></i>
+              </div>
+              <h3 class="mt-4 text-xl font-semibold text-semantic-text-heading">Color Harmonies</h3>
+              <p class="mt-2 text-sm text-semantic-text-body">
+                Add complementary, triadic, analogous, split-complementary, square, or custom hue-shifted ramps. Build complete design
+                systems from a single color.
+              </p>
+            </article>
+            <article class="rounded-2xl border border-semantic-border-subtle bg-semantic-bg-surface p-6 shadow-sm">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-semantic-tag-bg text-semantic-accent">
+                <i data-lucide="shield-check" class="h-5 w-5"></i>
+              </div>
+              <h3 class="mt-4 text-xl font-semibold text-semantic-text-heading">Accessibility Built-in</h3>
+              <p class="mt-2 text-sm text-semantic-text-body">
+                APCA contrast validation for every color pair. Filter by use case: body text, large text, bold labels, non-text elements.
+                Never ship inaccessible color combinations again.
+              </p>
+            </article>
+            <article class="rounded-2xl border border-semantic-border-subtle bg-semantic-bg-surface p-6 shadow-sm">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-semantic-tag-bg text-semantic-accent">
+                <i data-lucide="terminal" class="h-5 w-5"></i>
+              </div>
+              <h3 class="mt-4 text-xl font-semibold text-semantic-text-heading">Multiple Outputs</h3>
+              <p class="mt-2 text-sm text-semantic-text-body">
+                Export as plain text, JSON, or CSS custom properties. Pipe into your build pipeline or paste directly into your codebase.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="examples" class="mx-auto w-full max-w-6xl px-6 py-16">
+        <div class="grid gap-8 lg:grid-cols-[1fr_1.1fr]">
+          <div>
+            <h2 class="text-3xl font-semibold text-semantic-text-heading">Real CLI output</h2>
+            <p class="mt-3 text-semantic-text-body">
+              Every color on this page comes from Rampa’s output. Use harmony flags and accessibility filters to build palettes you can
+              ship with confidence.
+            </p>
+            <div class="mt-6 space-y-4">
+              <div class="flex items-center gap-3 text-sm text-semantic-text-muted">
+                <i data-lucide="check-circle" class="h-4 w-4 text-semantic-accent"></i>
+                <span>Harmony ramps with complementary, triadic, square, and shift.</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-semantic-text-muted">
+                <i data-lucide="check-circle" class="h-4 w-4 text-semantic-accent"></i>
+                <span>APCA validation for body, large, bold, and non-text elements.</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-semantic-text-muted">
+                <i data-lucide="check-circle" class="h-4 w-4 text-semantic-accent"></i>
+                <span>JSON output ready for build pipelines.</span>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-semantic-border-subtle bg-semantic-code-bg p-6 shadow-sm">
+            <pre class="whitespace-pre-wrap font-mono text-xs text-semantic-text-body"><code>$ rampa -C "#3b82f6" --size=10 --add=complementary --add=triadic --add=square --add=shift:30 --no-preview
+# base
+#000000
+#051d33
+#103661
+#214e89
+#3866ab
+#6081bc
+#90a1c4
+#bbc1d2
+#e0e1e6
+#ffffff
+
+# complementary
+#000000
+#331c05
+#613b10
+#895c21
+#ab7d38
+#bc9a60
+#c4b390
+#d2cbbb
+#e6e4e0
+#ffffff
+
+# shift-30
+#000000
+#050633
+#121061
+#282189
+#4338ab
+#6c60bc
+#9990c4
+#c0bbd2
+#e1e0e6
+#ffffff
+
+$ rampa -C "#3b82f6" --size=5 -L 10:90 --no-preview
+#021c31
+#184981
+#4572ba
+#a1abc4
+#e6e6e6
+
+$ rampa -C "#3b82f6" --add=complementary -O json --no-preview
+{
+  "ramps": [
+    {
+      "name": "base",
+      "baseColor": "#3b82f6",
+      "config": {
+        "size": 10,
+        "lightness": {
+          "start": 0,
+          "end": 100
+        },
+        "saturation": {
+          "start": 100,
+          "end": 0
+        },
+        "hue": {
+          "start": -10,
+          "end": 10
+        },
+        "scales": {
+          "lightness": "linear",
+          "saturation": "linear",
+          "hue": "linear"
+        },
+        "tint": null
+      },
+      "colors": [
+        "#000000",
+        "#051d33",
+        "#103661",
+        "#214e89",
+        "#3866ab",
+        "#6081bc",
+        "#90a1c4",
+        "#bbc1d2",
+        "#e0e1e6",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "complementary",
+      "baseColor": "#f6af3b",
+      "config": {
+        "size": 10,
+        "lightness": {
+          "start": 0,
+          "end": 100
+        },
+        "saturation": {
+          "start": 100,
+          "end": 0
+        },
+        "hue": {
+          "start": -10,
+          "end": 10
+        },
+        "scales": {
+          "lightness": "linear",
+          "saturation": "linear",
+          "hue": "linear"
+        },
+        "tint": null
+      },
+      "colors": [
+        "#000000",
+        "#331c05",
+        "#613b10",
+        "#895c21",
+        "#ab7d38",
+        "#bc9a60",
+        "#c4b390",
+        "#d2cbbb",
+        "#e6e4e0",
+        "#ffffff"
+      ]
+    }
+  ]
+}</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="border-t border-semantic-border-subtle bg-semantic-bg-surface-alt">
+        <div class="mx-auto flex w-full max-w-6xl flex-col items-start gap-6 px-6 py-16 md:flex-row md:items-center md:justify-between">
+          <div>
+            <h2 class="text-3xl font-semibold text-semantic-text-heading">Ship accessible palettes faster</h2>
+            <p class="mt-2 text-semantic-text-body">Install Rampa CLI and generate your next system palette in minutes.</p>
+          </div>
+          <button class="rounded-lg bg-semantic-accent px-6 py-3 text-sm font-semibold text-semantic-accent-contrast shadow-sm transition hover:bg-semantic-accent-strong">
+            npm install -g @basiclines/rampa
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-semantic-border-subtle">
+      <div class="mx-auto flex w-full max-w-6xl flex-col gap-2 px-6 py-6 text-sm text-semantic-text-muted md:flex-row md:items-center md:justify-between">
+        <span>© 2025 Rampa CLI. Built by Basiclines.</span>
+        <span>Mathematical color tooling for modern teams.</span>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      const toggleButton = document.getElementById('themeToggle');
+      toggleButton.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+      });
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

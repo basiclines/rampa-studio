@@ -1,0 +1,28 @@
+# Matrix - A Ghostty terminal theme inspired by The Matrix
+# All colors generated with rampa from base #00ff41
+
+background = #010f02
+foreground = #22b644
+cursor-color = #48d36f
+selection-background = #074b10
+selection-foreground = #84dba0
+
+# Normal colors (0-7)
+palette = 0=#010f02
+palette = 1=#b64422
+palette = 2=#22b644
+palette = 3=#37dc6e
+palette = 4=#4422b6
+palette = 5=#b62294
+palette = 6=#1385ac
+palette = 7=#84dba0
+
+# Bright colors (8-15)
+palette = 8=#074b10
+palette = 9=#d36f48
+palette = 10=#48d36f
+palette = 11=#85e0ab
+palette = 12=#6f48d3
+palette = 13=#d348ad
+palette = 14=#37a4dc
+palette = 15=#edf7f1

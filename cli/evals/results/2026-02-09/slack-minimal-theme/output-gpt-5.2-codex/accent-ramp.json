@@ -1,0 +1,74 @@
+{
+  "ramps": [
+    {
+      "name": "base",
+      "baseColor": "#4a74d8",
+      "config": {
+        "size": 8,
+        "lightness": {
+          "start": 72,
+          "end": 22
+        },
+        "saturation": {
+          "start": 85,
+          "end": 40
+        },
+        "hue": {
+          "start": -4,
+          "end": 4
+        },
+        "scales": {
+          "lightness": "ease-in-out",
+          "saturation": "ease-in-out",
+          "hue": "linear"
+        },
+        "tint": null
+      },
+      "colors": [
+        "#90addf",
+        "#89a6dc",
+        "#7593d1",
+        "#5574bd",
+        "#41578c",
+        "#354264",
+        "#2d354e",
+        "#2a3047"
+      ]
+    },
+    {
+      "name": "shift-30",
+      "baseColor": "#674ad8",
+      "config": {
+        "size": 8,
+        "lightness": {
+          "start": 72,
+          "end": 22
+        },
+        "saturation": {
+          "start": 85,
+          "end": 40
+        },
+        "hue": {
+          "start": -4,
+          "end": 4
+        },
+        "scales": {
+          "lightness": "ease-in-out",
+          "saturation": "ease-in-out",
+          "hue": "linear"
+        },
+        "tint": null
+      },
+      "colors": [
+        "#9b90df",
+        "#9689dc",
+        "#8575d1",
+        "#6955bd",
+        "#51418c",
+        "#403564",
+        "#352d4e",
+        "#312a47"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "ramps": [
+    {
+      "name": "base",
+      "baseColor": "#3b82f6",
+      "config": {
+        "size": 10,
+        "lightness": {
+          "start": 0,
+          "end": 100
+        },
+        "saturation": {
+          "start": 100,
+          "end": 0
+        },
+        "hue": {
+          "start": -10,
+          "end": 10
+        },
+        "scales": {
+          "lightness": "linear",
+          "saturation": "linear",
+          "hue": "linear"
+        },
+        "tint": null
+      },
+      "colors": [
+        "#000000",
+        "#051d33",
+        "#103661",
+        "#214e89",
+        "#3866ab",
+        "#6081bc",
+        "#90a1c4",
+        "#bbc1d2",
+        "#e0e1e6",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "complementary",
+      "baseColor": "#f6af3b",
+      "config": {
+        "size": 10,
+        "lightness": {
+          "start": 0,
+          "end": 100
+        },
+        "saturation": {
+          "start": 100,
+          "end": 0
+        },
+        "hue": {
+          "start": -10,
+          "end": 10
+        },
+        "scales": {
+          "lightness": "linear",
+          "saturation": "linear",
+          "hue": "linear"
+        },
+        "tint": null
+      },
+      "colors": [
+        "#000000",
+        "#331c05",
+        "#613b10",
+        "#895c21",
+        "#ab7d38",
+        "#bc9a60",
+        "#c4b390",
+        "#d2cbbb",
+        "#e6e4e0",
+        "#ffffff"
+      ]
+    }
+  ]
+}

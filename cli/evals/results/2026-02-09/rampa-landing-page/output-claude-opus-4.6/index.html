@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rampa CLI — Mathematically accurate color palettes</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        fontFamily: {
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+          mono: ['JetBrains Mono', 'monospace'],
+        },
+        extend: {
+          colors: {
+            /* ─── Token layer: raw rampa output ─── */
+            /* Command: rampa -C "#6366F1" --size=11 -L 5:97 --add=complementary --add=triadic */
+            primary: {
+              50:  '#f7f7f7',
+              100: '#dedde2',
+              200: '#c1bfd2',
+              300: '#9f9dc5',
+              400: '#7878bb',
+              500: '#4e50b6',
+              600: '#353ba0',
+              700: '#232b84',
+              800: '#141d64',
+              900: '#09113f',
+              950: '#020617',
+            },
+            accent: {
+              50:  '#f7f7f7',
+              100: '#e2e2dd',
+              200: '#d0d2bf',
+              300: '#c3c59d',
+              400: '#bbbb78',
+              500: '#b6b44e',
+              600: '#a09a35',
+              700: '#847b23',
+              800: '#645a14',
+              900: '#3f3709',
+              950: '#171302',
+            },
+            success: {
+              50:  '#f7f7f7',
+              100: '#dde2de',
+              200: '#bfd2c1',
+              300: '#9dc59f',
+              400: '#78bb78',
+              500: '#50b64e',
+              600: '#3ba035',
+              700: '#2b8423',
+              800: '#1d6414',
+              900: '#113f09',
+              950: '#061702',
+            },
+            danger: {
+              50:  '#f7f7f7',
+              100: '#e2dedd',
+              200: '#d2c1bf',
+              300: '#c59f9d',
+              400: '#bb7878',
+              500: '#b64e50',
+              600: '#a0353b',
+              700: '#84232b',
+              800: '#64141d',
+              900: '#3f0911',
+              950: '#170206',
+            },
+            /* Command: rampa -C "#9CA3AF" --size=11 -L 3:98 -S 5:5 */
+            neutral: {
+              50:  '#fafafa',
+              100: '#e2e2e2',
+              200: '#c9c9ca',
+              300: '#b1b1b2',
+              400: '#98999a',
+              500: '#808181',
+              600: '#686869',
+              700: '#505051',
+              800: '#383838',
+              900: '#202020',
+              950: '#080808',
+            },
+
+            /* ─── Semantic layer: design-intent names ─── */
+            page:          'var(--bg-page)',
+            surface:       'var(--bg-surface)',
+            'surface-alt': 'var(--bg-surface-alt)',
+            'btn-primary': 'var(--bg-btn-primary)',
+            'btn-hover':   'var(--bg-btn-hover)',
+            heading:       'var(--text-heading)',
+            body:          'var(--text-body)',
+            muted:         'var(--text-muted)',
+            'on-btn':      'var(--text-on-btn)',
+            'accent-fg':   'var(--accent-fg)',
+            'accent-soft': 'var(--accent-soft)',
+            border:        'var(--border-color)',
+            'border-soft': 'var(--border-soft)',
+            'code-bg':     'var(--code-bg)',
+            'code-fg':     'var(--code-fg)',
+            'icon-accent': 'var(--icon-accent)',
+            'icon-success':'var(--icon-success)',
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    /*
+     * Semantic color mappings — CSS custom properties that change per mode.
+     * Dark and light values reference the token palette above.
+     *
+     * APCA validation summary (all pairs verified with rampa -A):
+     *
+     * DARK MODE:
+     *   heading (#f7f7f7) on page (#020617)    → Lc 101.11 ✓ body ≥75
+     *   body    (#dedde2) on page (#020617)    → Lc  86.28 ✓ body ≥75
+     *   heading (#f7f7f7) on surface (#09113f) → Lc  99.69 ✓ body ≥75
+     *   body    (#dedde2) on surface (#09113f) → Lc  84.86 ✓ body ≥75
+     *   heading (#f7f7f7) on surf-alt (#141d64)→ Lc  96.73 ✓ body ≥75
+     *   body    (#dedde2) on surf-alt (#141d64)→ Lc  81.90 ✓ body ≥75
+     *   muted   (#9f9dc5) on page (#020617)    → Lc  53.23 ✓ bold ≥45
+     *   muted   (#9f9dc5) on surface (#09113f) → Lc  51.80 ✓ bold ≥45
+     *   accent  (#b6b44e) on page (#020617)    → Lc  60.98 ✓ large ≥60
+     *   accent  (#bbbb78) on surface (#09113f) → Lc  63.60 ✓ large ≥60
+     *   icon    (#50b64e) on page (#020617)    → Lc  53.76 ✓ nontext ≥15
+     *   icon    (#50b64e) on surface (#09113f) → Lc  52.33 ✓ nontext ≥15
+     *   btn-txt (#f7f7f7) on btn-bg (#353ba0)  → Lc  85.90 ✓ body ≥75
+     *
+     * LIGHT MODE:
+     *   heading (#020617) on page (#f7f7f7)    → Lc 101.11 ✓ body ≥75
+     *   body    (#09113f) on page (#f7f7f7)    → Lc  99.69 ✓ body ≥75
+     *   heading (#020617) on surface (#dedde2) → Lc  86.28 ✓ body ≥75
+     *   body    (#09113f) on surface (#dedde2) → Lc  84.86 ✓ body ≥75
+     *   muted   (#4e50b6) on page (#f7f7f7)   → Lc  77.85 ✓ body ≥75
+     *   muted   (#353ba0) on surface (#dedde2) → Lc  71.06 ✓ large ≥60
+     *   accent  (#353ba0) on page (#f7f7f7)    → Lc  85.90 ✓ body ≥75
+     *   icon    (#2b8423) on page (#f7f7f7)    → Lc  84.50 ✓ nontext ≥15
+     *   icon    (#2b8423) on surface (#dedde2) → Lc  71.00 ✓ nontext ≥15
+     *   btn-txt (#f7f7f7) on btn-bg (#232b84)  → Lc  92.08 ✓ body ≥75
+     */
+
+    /* Dark mode (default) */
+    .dark {
+      --bg-page:        #020617; /* primary-950 */
+      --bg-surface:     #09113f; /* primary-900 */
+      --bg-surface-alt: #141d64; /* primary-800 */
+      --bg-btn-primary: #353ba0; /* primary-600 */
+      --bg-btn-hover:   #4e50b6; /* primary-500 */
+      --text-heading:   #f7f7f7; /* primary-50  */
+      --text-body:      #dedde2; /* primary-100 */
+      --text-muted:     #9f9dc5; /* primary-300 */
+      --text-on-btn:    #f7f7f7; /* primary-50  */
+      --accent-fg:      #b6b44e; /* accent-500  */
+      --accent-soft:    #bbbb78; /* accent-400  */
+      --border-color:   #232b84; /* primary-700 */
+      --border-soft:    #141d64; /* primary-800 */
+      --code-bg:        #09113f; /* primary-900 */
+      --code-fg:        #dedde2; /* primary-100 */
+      --icon-accent:    #b6b44e; /* accent-500  */
+      --icon-success:   #50b64e; /* success-500 */
+    }
+
+    /* Light mode */
+    :root:not(.dark) {
+      --bg-page:        #f7f7f7; /* primary-50  */
+      --bg-surface:     #dedde2; /* primary-100 */
+      --bg-surface-alt: #c1bfd2; /* primary-200 */
+      --bg-btn-primary: #232b84; /* primary-700 */
+      --bg-btn-hover:   #353ba0; /* primary-600 */
+      --text-heading:   #020617; /* primary-950 */
+      --text-body:      #09113f; /* primary-900 */
+      --text-muted:     #4e50b6; /* primary-500 */
+      --text-on-btn:    #f7f7f7; /* primary-50  */
+      --accent-fg:      #353ba0; /* primary-600 */
+      --accent-soft:    #4e50b6; /* primary-500 */
+      --border-color:   #c1bfd2; /* primary-200 */
+      --border-soft:    #dedde2; /* primary-100 */
+      --code-bg:        #020617; /* primary-950 */
+      --code-fg:        #dedde2; /* primary-100 */
+      --icon-accent:    #353ba0; /* primary-600 */
+      --icon-success:   #2b8423; /* success-700 */
+    }
+  </style>
+</head>
+
+<body class="bg-page text-body font-sans antialiased transition-colors duration-300">
+
+  <!-- ════════════════════════ NAV ════════════════════════ -->
+  <nav class="fixed top-0 inset-x-0 z-50 bg-page/80 backdrop-blur-lg border-b border-border">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 text-heading font-bold text-lg">
+        <i data-lucide="palette" class="w-6 h-6 text-accent-fg"></i>
+        <span class="font-mono">rampa</span>
+      </a>
+      <div class="flex items-center gap-6">
+        <a href="#features" class="hidden sm:block text-sm text-muted hover:text-heading transition-colors">Features</a>
+        <a href="#usage" class="hidden sm:block text-sm text-muted hover:text-heading transition-colors">Usage</a>
+        <a href="#install" class="hidden sm:block text-sm text-muted hover:text-heading transition-colors">Install</a>
+        <button
+          id="theme-toggle"
+          class="p-2 rounded-lg border border-border hover:bg-surface transition-colors"
+          aria-label="Toggle dark mode"
+        >
+          <i data-lucide="sun" class="w-4 h-4 text-heading hidden dark:block"></i>
+          <i data-lucide="moon" class="w-4 h-4 text-heading block dark:hidden"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════ HERO ════════════════════════ -->
+  <header class="pt-32 pb-20 px-6 lg:pt-44 lg:pb-32">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border text-sm text-accent-fg font-mono mb-8">
+        <i data-lucide="terminal" class="w-4 h-4"></i>
+        v1.3.1 — now with APCA validation
+      </div>
+
+      <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-heading leading-tight tracking-tight">
+        Mathematically accurate<br>
+        <span class="text-accent-fg">color palettes.</span>
+      </h1>
+
+      <p class="mt-6 text-lg sm:text-xl text-muted max-w-2xl mx-auto leading-relaxed">
+        Generate accessible, harmonious color palettes from a single base color. Use mathematical scales, harmony theory, and APCA contrast validation — all from your terminal.
+      </p>
+
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#install" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-btn-primary text-on-btn font-semibold hover:bg-btn-hover transition-colors">
+          <i data-lucide="download" class="w-5 h-5"></i>
+          Install Rampa
+        </a>
+        <a href="#usage" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-heading font-medium hover:bg-surface transition-colors">
+          <i data-lucide="play" class="w-5 h-5"></i>
+          See it in action
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════════════════════ PALETTE DEMO ════════════════════════ -->
+  <section class="px-6 pb-20">
+    <div class="max-w-4xl mx-auto">
+      <div class="flex gap-1 sm:gap-2 h-16 sm:h-20 rounded-xl overflow-hidden shadow-lg">
+        <div class="flex-1 bg-primary-950"></div>
+        <div class="flex-1 bg-primary-900"></div>
+        <div class="flex-1 bg-primary-800"></div>
+        <div class="flex-1 bg-primary-700"></div>
+        <div class="flex-1 bg-primary-600"></div>
+        <div class="flex-1 bg-primary-500"></div>
+        <div class="flex-1 bg-primary-400"></div>
+        <div class="flex-1 bg-primary-300"></div>
+        <div class="flex-1 bg-primary-200"></div>
+        <div class="flex-1 bg-primary-100"></div>
+        <div class="flex-1 bg-primary-50"></div>
+      </div>
+      <div class="mt-3 flex gap-1 sm:gap-2 h-8 sm:h-10 rounded-lg overflow-hidden">
+        <div class="flex-1 bg-accent-900"></div>
+        <div class="flex-1 bg-accent-700"></div>
+        <div class="flex-1 bg-accent-500"></div>
+        <div class="flex-1 bg-accent-400"></div>
+        <div class="flex-1 bg-accent-200"></div>
+      </div>
+      <div class="mt-1.5 flex gap-1 sm:gap-2 h-8 sm:h-10 rounded-lg overflow-hidden">
+        <div class="flex-1 bg-success-900"></div>
+        <div class="flex-1 bg-success-700"></div>
+        <div class="flex-1 bg-success-500"></div>
+        <div class="flex-1 bg-success-400"></div>
+        <div class="flex-1 bg-success-200"></div>
+      </div>
+      <p class="mt-4 text-center text-sm text-muted font-mono">
+        ↑ Generated from <span class="text-accent-fg">#6366F1</span> with <span class="text-accent-fg">--add=complementary --add=triadic</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════ FEATURES ════════════════════════ -->
+  <section id="features" class="px-6 py-20 bg-surface border-y border-border">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold text-heading">Everything you need</h2>
+        <p class="mt-4 text-muted text-lg max-w-xl mx-auto">
+          A complete color system toolkit — from palette generation to accessibility validation.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-6 lg:gap-8">
+        <!-- Feature 1 -->
+        <article class="p-6 lg:p-8 rounded-xl bg-page border border-border">
+          <div class="w-12 h-12 rounded-lg bg-surface-alt flex items-center justify-center mb-5">
+            <i data-lucide="swatch-book" class="w-6 h-6 text-icon-accent"></i>
+          </div>
+          <h3 class="text-xl font-bold text-heading mb-3">Palette Generation</h3>
+          <p class="text-body leading-relaxed">
+            Generate 2–100 colors from any base color. Control lightness, saturation, and hue ranges with mathematical distribution curves — linear, fibonacci, golden-ratio, logarithmic, and more.
+          </p>
+        </article>
+
+        <!-- Feature 2 -->
+        <article class="p-6 lg:p-8 rounded-xl bg-page border border-border">
+          <div class="w-12 h-12 rounded-lg bg-surface-alt flex items-center justify-center mb-5">
+            <i data-lucide="shapes" class="w-6 h-6 text-icon-accent"></i>
+          </div>
+          <h3 class="text-xl font-bold text-heading mb-3">Color Harmonies</h3>
+          <p class="text-body leading-relaxed">
+            Add complementary, triadic, analogous, split-complementary, square, or custom hue-shifted ramps. Build complete design systems from a single color.
+          </p>
+        </article>
+
+        <!-- Feature 3 -->
+        <article class="p-6 lg:p-8 rounded-xl bg-page border border-border">
+          <div class="w-12 h-12 rounded-lg bg-surface-alt flex items-center justify-center mb-5">
+            <i data-lucide="shield-check" class="w-6 h-6 text-icon-success"></i>
+          </div>
+          <h3 class="text-xl font-bold text-heading mb-3">Accessibility Built-in</h3>
+          <p class="text-body leading-relaxed">
+            APCA contrast validation for every color pair. Filter by use case: body text, large text, bold labels, non-text elements. Never ship inaccessible color combinations again.
+          </p>
+        </article>
+
+        <!-- Feature 4 -->
+        <article class="p-6 lg:p-8 rounded-xl bg-page border border-border">
+          <div class="w-12 h-12 rounded-lg bg-surface-alt flex items-center justify-center mb-5">
+            <i data-lucide="file-json" class="w-6 h-6 text-icon-accent"></i>
+          </div>
+          <h3 class="text-xl font-bold text-heading mb-3">Multiple Outputs</h3>
+          <p class="text-body leading-relaxed">
+            Export as plain text, JSON, or CSS custom properties. Pipe into your build pipeline or paste directly into your codebase.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════ CODE EXAMPLES ════════════════════════ -->
+  <section id="usage" class="px-6 py-20">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold text-heading">See it in action</h2>
+        <p class="mt-4 text-muted text-lg max-w-xl mx-auto">
+          Real commands, real output. From simple palettes to full design system generation.
+        </p>
+      </div>
+
+      <div class="space-y-8">
+        <!-- Example 1: Basic palette -->
+        <div class="rounded-xl overflow-hidden border border-border">
+          <div class="px-5 py-3 bg-surface border-b border-border flex items-center gap-3">
+            <div class="flex gap-1.5">
+              <span class="w-3 h-3 rounded-full bg-danger-500"></span>
+              <span class="w-3 h-3 rounded-full bg-accent-500"></span>
+              <span class="w-3 h-3 rounded-full bg-success-500"></span>
+            </div>
+            <span class="text-xs text-muted font-mono">Generate a 5-color palette</span>
+          </div>
+          <div class="bg-code-bg p-5 overflow-x-auto">
+            <pre class="font-mono text-sm text-code-fg"><span class="text-accent-fg">$</span> rampa -C "#6366F1" --size=5 -L 10:90
+
+<span class="text-muted"># base</span>
+#040c2f
+#1d277c
+#4a4db5
+#a5a3c2
+#e6e6e6</pre>
+          </div>
+        </div>
+
+        <!-- Example 2: Harmonies + CSS output -->
+        <div class="rounded-xl overflow-hidden border border-border">
+          <div class="px-5 py-3 bg-surface border-b border-border flex items-center gap-3">
+            <div class="flex gap-1.5">
+              <span class="w-3 h-3 rounded-full bg-danger-500"></span>
+              <span class="w-3 h-3 rounded-full bg-accent-500"></span>
+              <span class="w-3 h-3 rounded-full bg-success-500"></span>
+            </div>
+            <span class="text-xs text-muted font-mono">Add complementary harmony + CSS output</span>
+          </div>
+          <div class="bg-code-bg p-5 overflow-x-auto">
+            <pre class="font-mono text-sm text-code-fg"><span class="text-accent-fg">$</span> rampa -C "#6366F1" --size=5 -L 10:90 --add=complementary -O css
+
+<span class="text-muted">:root {</span>
+  <span class="text-muted">/* base */</span>
+  --base-0: #040c2f;
+  --base-1: #1d277c;
+  --base-2: #4a4db5;
+  --base-3: #a5a3c2;
+  --base-4: #e6e6e6;
+
+  <span class="text-muted">/* complementary */</span>
+  --complementary-0: #2f2704;
+  --complementary-1: #7c721d;
+  --complementary-2: #b5b34a;
+  --complementary-3: #c0c2a3;
+  --complementary-4: #e6e6e6;
+<span class="text-muted">}</span></pre>
+          </div>
+        </div>
+
+        <!-- Example 3: Accessibility check -->
+        <div class="rounded-xl overflow-hidden border border-border">
+          <div class="px-5 py-3 bg-surface border-b border-border flex items-center gap-3">
+            <div class="flex gap-1.5">
+              <span class="w-3 h-3 rounded-full bg-danger-500"></span>
+              <span class="w-3 h-3 rounded-full bg-accent-500"></span>
+              <span class="w-3 h-3 rounded-full bg-success-500"></span>
+            </div>
+            <span class="text-xs text-muted font-mono">APCA accessibility validation</span>
+          </div>
+          <div class="bg-code-bg p-5 overflow-x-auto">
+            <pre class="font-mono text-sm text-code-fg"><span class="text-accent-fg">$</span> rampa -C "#6366F1" --size=5 -L 10:90 --add=complementary -A=body
+
+<span class="text-icon-success">36 of 45 pairs pass at least one level</span>
+
+<span class="text-muted">## Preferred body text (Lc ≥ 90) — 2 pairs</span>
+  #040c2f ↔ #e6e6e6  Lc 90.51  base[0] ↔ base[4]
+  #040c2f ↔ #e6e6e6  Lc 90.51  base[0] ↔ complementary[4]
+
+<span class="text-muted">## Body text (Lc ≥ 75) — 4 pairs</span>
+  #1d277c ↔ #e6e6e6  Lc 83.65  base[1] ↔ base[4]
+  #1d277c ↔ #e6e6e6  Lc 83.65  base[1] ↔ complementary[4]
+  #e6e6e6 ↔ #2f2704  Lc 88.25  base[4] ↔ complementary[0]
+  #2f2704 ↔ #e6e6e6  Lc 86.89  complementary[0] ↔ complementary[4]</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════ INSTALL CTA ════════════════════════ -->
+  <section id="install" class="px-6 py-20 bg-surface-alt border-y border-border">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold text-heading">Get started in seconds</h2>
+      <p class="mt-4 text-body text-lg">
+        Install Rampa globally with npm and start generating palettes immediately.
+      </p>
+
+      <div class="mt-10 inline-flex items-center gap-3 bg-code-bg rounded-xl px-6 py-4 border border-border">
+        <i data-lucide="terminal" class="w-5 h-5 text-accent-fg flex-shrink-0"></i>
+        <code class="font-mono text-lg text-code-fg">npm install -g @basiclines/rampa</code>
+        <button
+          onclick="navigator.clipboard.writeText('npm install -g @basiclines/rampa')"
+          class="p-1.5 rounded hover:bg-surface transition-colors flex-shrink-0"
+          aria-label="Copy to clipboard"
+        >
+          <i data-lucide="copy" class="w-4 h-4 text-muted"></i>
+        </button>
+      </div>
+
+      <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm text-muted">
+        <span class="inline-flex items-center gap-1.5">
+          <i data-lucide="check" class="w-4 h-4 text-icon-success"></i>
+          Zero dependencies
+        </span>
+        <span class="inline-flex items-center gap-1.5">
+          <i data-lucide="check" class="w-4 h-4 text-icon-success"></i>
+          Works offline
+        </span>
+        <span class="inline-flex items-center gap-1.5">
+          <i data-lucide="check" class="w-4 h-4 text-icon-success"></i>
+          macOS, Linux &amp; Windows
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════ FOOTER ════════════════════════ -->
+  <footer class="px-6 py-12">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-muted">
+        &copy; 2025 Rampa CLI. Built by <span class="text-heading font-medium">Basiclines</span>.
+      </p>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/basiclines/rampa" class="text-muted hover:text-heading transition-colors" aria-label="GitHub">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+        <a href="https://www.npmjs.com/package/@basiclines/rampa" class="text-muted hover:text-heading transition-colors" aria-label="npm">
+          <i data-lucide="package" class="w-5 h-5"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════ SCRIPTS ════════════════════════ -->
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Dark mode toggle
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      lucide.createIcons();
+    });
+  </script>
+</body>
+</html>
