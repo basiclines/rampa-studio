@@ -38,7 +38,7 @@ function showHelp(): void {
   const reset = '\x1b[0m';
 
   const help = `
-rampa v1.2.0
+rampa v1.3.0
 Generate mathematically accurate color palettes from a base color
 
 USAGE
