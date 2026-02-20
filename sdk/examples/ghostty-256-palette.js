@@ -450,7 +450,7 @@ function renderTuiDemo(palette, themeName) {
   // Surface colors
   const surfaceBg = p(tint({ k: 0 }));    // darkest surface
   const surface1 = p(tint({ w: 1 }));      // slightly lifted
-  const selectedBg = p(tint({ b: 2 }));    // selected item
+  const selectedBg = p(tint({ b: 1 }));    // selected item
   const borderColor = p(neutral(4));
   const mutedText = p(neutral(12));
   const dimText = p(neutral(18));
@@ -458,14 +458,16 @@ function renderTuiDemo(palette, themeName) {
   const W = 56;
   const pad = (s, w) => s + ' '.repeat(Math.max(0, w - s.length));
 
+  const B = `${fg(borderColor)}${bg(surfaceBg)}`;
+
   // Top border
-  console.log(`  ${fg(borderColor)}┌${'─'.repeat(W)}┐${RST}`);
+  console.log(`  ${B}┌${'─'.repeat(W)}┐${RST}`);
 
   // Title bar
-  console.log(`  ${fg(borderColor)}│${RST}${bg(surface1)}${contrastFg(surface1)}${BOLD}  My App${RST}${bg(surface1)}${' '.repeat(W - 8)}${RST}${fg(borderColor)}│${RST}  ${DIM}base('w') on tint({ w: 1 })${RST}`);
+  console.log(`  ${B}│${RST}${bg(surface1)}${contrastFg(surface1)}${BOLD}  My App${RST}${bg(surface1)}${' '.repeat(W - 8)}${RST}${B}│${RST}  ${DIM}base('w') on tint({ w: 1 })${RST}`);
 
   // Empty line on surface
-  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${fg(borderColor)}│${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Status messages
   const msgs = [
@@ -476,45 +478,45 @@ function renderTuiDemo(palette, themeName) {
   for (const [color, text, fn] of msgs) {
     const content = `  ${fg(color)}${text}${RST}`;
     const visLen = text.length + 2;
-    console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${fg(borderColor)}│${RST}  ${DIM}${fn}${RST}`);
+    console.log(`  ${B}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${B}│${RST}  ${DIM}${fn}${RST}`);
   }
 
   // Empty line
-  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${fg(borderColor)}│${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Selected item
   const selInner = `  item-one.txt`;
-  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}  ${bg(selectedBg)}${contrastFg(selectedBg)}${selInner}${' '.repeat(W - selInner.length - 4)}${RST}${bg(surfaceBg)}  ${RST}${fg(borderColor)}│${RST}  ${DIM}tint({ b: 2 }) bg${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${bg(selectedBg)}${contrastFg(selectedBg)}${selInner}${' '.repeat(W - selInner.length - 4)}${RST}${bg(surfaceBg)}  ${RST}${B}│${RST}  ${DIM}tint({ b: 2 }) bg${RST}`);
 
   // Normal items
   const items = ['item-two.txt', 'item-three.txt'];
   for (const item of items) {
     const content = `    ${fg(dimText)}${item}${RST}`;
     const visLen = item.length + 4;
-    console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${fg(borderColor)}│${RST}  ${DIM}neutral(18)${RST}`);
+    console.log(`  ${B}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${B}│${RST}  ${DIM}neutral(18)${RST}`);
   }
 
   // Empty line
-  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${fg(borderColor)}│${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Buttons
   const btnBg = p(tint({ b: 3 }));
   const btnSave = `${bg(btnBg)}${contrastFg(btnBg)} Save ${RST}`;
   const btnCancel = `${bg(p(neutral(6)))}${contrastFg(p(neutral(6)))} Cancel ${RST}`;
-  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}  ${btnSave} ${btnCancel}${bg(surfaceBg)}${' '.repeat(W - 20)}${RST}${fg(borderColor)}│${RST}  ${DIM}tint({ b: 3 }), neutral(6)${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${btnSave} ${btnCancel}${bg(surfaceBg)}${' '.repeat(W - 20)}${RST}${B}│${RST}  ${DIM}tint({ b: 3 }), neutral(6)${RST}`);
 
   // Empty line
-  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${fg(borderColor)}│${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Separator
-  console.log(`  ${fg(borderColor)}├${fg(p(neutral(6)))}${'─'.repeat(W)}${RST}${fg(borderColor)}┤${RST}  ${DIM}neutral(4) border${RST}`);
+  console.log(`  ${B}├${fg(p(neutral(6)))}${bg(surfaceBg)}${'─'.repeat(W)}${RST}${B}┤${RST}  ${DIM}neutral(4) border${RST}`);
 
   // Status bar
   const statusText = `  Status: connected`;
-  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}  ${fg(mutedText)}${statusText}${RST}${bg(surfaceBg)}${' '.repeat(W - statusText.length - 2)}${RST}${fg(borderColor)}│${RST}  ${DIM}neutral(12)${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${fg(mutedText)}${statusText}${RST}${bg(surfaceBg)}${' '.repeat(W - statusText.length - 2)}${RST}${B}│${RST}  ${DIM}neutral(12)${RST}`);
 
   // Bottom border
-  console.log(`  ${fg(borderColor)}└${'─'.repeat(W)}┘${RST}`);
+  console.log(`  ${B}└${'─'.repeat(W)}┘${RST}`);
   console.log('');
 }
 
