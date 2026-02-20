@@ -47,7 +47,11 @@ USAGE
 BASE
   ${cyan}-C, --color <color>${reset}            ${dim}Base color (required)${reset}
   ${cyan}--size <number>${reset}                ${dim}Number of colors in palette (2-100, default: 10)${reset}
-  ${cyan}-F, --format <type>${reset}            ${dim}Color format: hex, hsl, rgb, oklch (default: auto)${reset}
+
+FORMAT
+  ${cyan}-F, --format <type>${reset}            ${dim}Color format for output values (default: same as input)${reset}
+
+                                  ${dim}Types: hex, hsl, rgb, oklch${reset}
 
 RANGES
   ${cyan}-L, --lightness <start:end>${reset}    ${dim}Lightness range 0-100 (default: 0:100)${reset}
@@ -80,37 +84,44 @@ HARMONIES
 
 OUTPUT
   ${cyan}-O, --output <format>${reset}          ${dim}Output format (default: text)${reset}
+
+                                  ${dim}Formats: text, json, css${reset}
+
   ${cyan}--preview / --no-preview${reset}       ${dim}Show colored squares (default: true)${reset}
-  ${cyan}-A, --accessibility [filter]${reset}    ${dim}Show APCA contrast report${reset}
+
+ACCESSIBILITY
+  ${cyan}-A, --accessibility [filter]${reset}   ${dim}Show APCA contrast report${reset}
 
                                   ${dim}Filters: preferred, body, large, bold, minimum, nontext${reset}
                                   ${dim}or a custom Lc value (e.g. 60)${reset}
 
-                                  ${dim}Formats: text, json, css${reset}
+COLOR CONVERSION
+  ${cyan}--read-only${reset}                    ${dim}Output the input color without generating a ramp${reset}
+
+                                  ${dim}Use with --color to specify the input color.${reset}
+                                  ${dim}Use with --format to convert to a specific format.${reset}
+                                  ${dim}Use with --output to choose text, json, or css.${reset}
+
+                                  ${dim}Without --format: outputs all formats (hex, hsl, rgb, oklch)${reset}
+                                  ${dim}With --format: outputs only the specified format${reset}
+                                  ${dim}JSON output returns structured values, not strings${reset}
 
 OTHER
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
   ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
 
-COLOR CONVERSION
-  ${cyan}--read-only${reset}                    ${dim}Output the color without generating a ramp${reset}
-
-                                  ${dim}Accepts: -C (required), -F, -O${reset}
-                                  ${dim}Without -F: outputs all formats (hex, hsl, rgb, oklch)${reset}
-                                  ${dim}With -F: outputs only the specified format${reset}
-                                  ${dim}JSON output returns structured values, not strings${reset}
-
 EXAMPLES
-  ${cyan}rampa -C "#3b82f6"${reset}
-  ${cyan}rampa -C "#3b82f6" --size=5 -L 10:90${reset}
-  ${cyan}rampa -C "#3b82f6" --add=complementary --add=triadic${reset}
-  ${cyan}rampa -C "#3b82f6" --add=shift:45 --add=shift:90${reset}
-  ${cyan}rampa -C "#3b82f6" -O css${reset}
-  ${cyan}rampa -C "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
-  ${cyan}rampa -C "#3b82f6" -A${reset}
-  ${cyan}rampa -C "#3b82f6" --add=complementary -O json -A${reset}
-  ${cyan}rampa -C "#fe0000" --read-only${reset}
-  ${cyan}rampa -C "#fe0000" --read-only -F hsl -O json${reset}
+  ${cyan}rampa --color "#3b82f6"${reset}
+  ${cyan}rampa --color "#3b82f6" --size=5 --lightness 10:90${reset}
+  ${cyan}rampa --color "#3b82f6" --add=complementary --add=triadic${reset}
+  ${cyan}rampa --color "#3b82f6" --add=shift:45 --add=shift:90${reset}
+  ${cyan}rampa --color "#3b82f6" --output css${reset}
+  ${cyan}rampa --color "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
+  ${cyan}rampa --color "#3b82f6" --accessibility${reset}
+  ${cyan}rampa --color "#3b82f6" --add=complementary --output json --accessibility${reset}
+  ${cyan}rampa --color "#fe0000" --read-only${reset}
+  ${cyan}rampa --color "#fe0000" --read-only --format hsl${reset}
+  ${cyan}rampa --color "#fe0000" --read-only --format hsl --output json${reset}
 `;
   console.log(help.trim());
   process.exit(0);
