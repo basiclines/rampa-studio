@@ -240,17 +240,17 @@ function renderPreview(palette, theme, themeName) {
 
   // Normal (0–7) with index labels
   let row = '  ';
-  for (let i = 0; i < 8; i++) row += `${swatch(palette[i], ` ${i} `)} `;
+  for (let i = 0; i < 8; i++) row += `${swatch(palette[i], ` ${String(i).padStart(2)} `)}`;
   console.log(row + `  ${DIM}normal${RST}`);
 
   // Bright (8–15) with index labels
   row = '  ';
-  for (let i = 8; i < 16; i++) row += `${swatch(palette[i], ` ${i}`)} `;
+  for (let i = 8; i < 16; i++) row += `${swatch(palette[i], ` ${String(i).padStart(2)} `)}`;
   console.log(row + `  ${DIM}bright${RST}`);
 
   // Names
   row = '  ';
-  for (let i = 0; i < 8; i++) row += ` ${DIM}${names[i].slice(0, 3)}${RST}`;
+  for (let i = 0; i < 8; i++) row += ` ${DIM}${names[i].slice(0, 3).padEnd(3)}${RST}`;
   console.log(row);
 
   // ── Color Cube ──
