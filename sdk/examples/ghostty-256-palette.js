@@ -522,19 +522,29 @@ async function runInteractive() {
   const themeNames = Object.keys(themes);
   let currentIdx = 0;
 
-  const CLEAR = '\x1b[2J\x1b[H';
-  const ALT_SCREEN_ON = '\x1b[?1049h';
-  const ALT_SCREEN_OFF = '\x1b[?1049l';
   const HIDE_CURSOR = '\x1b[?25l';
   const SHOW_CURSOR = '\x1b[?25h';
   const DIM = '\x1b[2m';
+  const SAVE_CURSOR = '\x1b[s';
+  const RESTORE_CURSOR = '\x1b[u';
+  const ERASE_BELOW = '\x1b[J';
+
+  let firstRender = true;
 
   function render() {
     const themeName = themeNames[currentIdx];
     const theme = themes[themeName];
     const palette = generatePalette(theme);
 
-    process.stdout.write(CLEAR);
+    if (!firstRender) {
+      // Move back to saved position and clear everything below
+      process.stdout.write(RESTORE_CURSOR + ERASE_BELOW);
+    }
+
+    // Save cursor position at start of our output
+    process.stdout.write(SAVE_CURSOR);
+    firstRender = false;
+
     console.log('');
     console.log(`  ${DIM}← →  switch theme    q  quit${RST}`);
 
@@ -561,13 +571,13 @@ async function runInteractive() {
   process.stdin.setRawMode(true);
   process.stdin.resume();
   process.stdin.setEncoding('utf8');
-  process.stdout.write(ALT_SCREEN_ON + HIDE_CURSOR);
+  process.stdout.write(HIDE_CURSOR);
 
   render();
 
   process.stdin.on('data', (key) => {
     if (key === 'q' || key === '\x03') { // q or Ctrl+C
-      process.stdout.write(SHOW_CURSOR + ALT_SCREEN_OFF);
+      process.stdout.write(SHOW_CURSOR);
       process.exit(0);
     }
     if (key === '\x1b[C' || key === 'l') { // right arrow or l
