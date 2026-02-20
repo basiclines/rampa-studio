@@ -22,7 +22,7 @@
  *         With --table: renders a 2D color grid to the terminal
  */
 
-import { rampa } from '@basiclines/rampa-sdk';
+import { rampa, LinearColorSpace, CubeColorSpace, colorTable } from '@basiclines/rampa-sdk';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -78,166 +78,48 @@ function loadThemes() {
 
 const themes = loadThemes();
 
-// ── Color Cube Generation ──────────────────────────────────────────────
+// ── Color Space Construction ───────────────────────────────────────────
 
-/**
- * Look up a cube color by its (r, g, b) coordinates.
- * Each value ranges from 0 to 5 — like rgb() but for 216 colors.
- *
- *   cube(0, 0, 0)  → index 16  (black/bg)
- *   cube(5, 0, 0)  → index 196 (red)
- *   cube(0, 5, 0)  → index 46  (green)
- *   cube(0, 0, 5)  → index 21  (blue)
- *   cube(5, 5, 5)  → index 231 (white/fg)
- *   cube(3, 0, 2)  → index 124
- *
- * @param {number} r - Red axis (0–5)
- * @param {number} g - Green axis (0–5)
- * @param {number} b - Blue axis (0–5)
- * @returns {number} Palette index (16–231)
- */
-function cube(r, g, b) {
-  return 16 + 36 * r + 6 * g + b;
-}
-
-/**
- * Access base16 normal colors (indices 0–7).
- * base('red') or base('r') → index 1
- */
+const ANSI_NAMES = ['k', 'r', 'g', 'y', 'b', 'm', 'c', 'w'];
 const baseMap = { k: 0, r: 1, g: 2, y: 3, b: 4, m: 5, c: 6, w: 7,
   black: 0, red: 1, green: 2, yellow: 3, blue: 4, magenta: 5, cyan: 6, white: 7 };
-function base(name) { return baseMap[name]; }
 
 /**
- * Access base16 bright colors (indices 8–15).
- * bright('red') or bright('r') → index 9
+ * Build color space functions for a given theme.
+ * Returns tint, neutral, base, bright — all returning hex directly.
  */
-function bright(name) { return baseMap[name] + 8; }
+function buildColorSpace(theme) {
+  const tint = new CubeColorSpace({
+    k: theme.bg,
+    r: theme.base16[1],
+    g: theme.base16[2],
+    b: theme.base16[4],
+    y: theme.base16[3],
+    m: theme.base16[5],
+    c: theme.base16[6],
+    w: theme.fg,
+  }).size(6);
 
-/**
- * Semantic color lookup using ANSI color names.
- * Like HSL but for the 256-color cube — uses theme-relative names
- * instead of abstract r,g,b coordinates.
- *
- * Single hue:
- *   tint('red', 2)              → subtle red (cube(2,0,0))
- *   tint('blue', 4)             → strong blue (cube(0,0,4))
- *   tint('black', 3)            → mid surface (cube(0,0,0) region)
- *   tint('white', 5)            → full white/fg
- *
- * Two-hue blend:
- *   tint('red', 'blue', 3)      → purple (cube(3,0,3))
- *   tint('green', 'cyan', 4)    → teal (cube(0,4,4))
- *   tint('red', 'green', 2)     → olive (cube(2,2,0))
- *
- * @param {string} hue1 - ANSI color name
- * @param {string|number} hue2OrIntensity - second hue name, or intensity (0–5)
- * @param {number} [intensity] - intensity when two hues (0–5)
- * @returns {number} Palette index (16–231)
- */
-function tint(opts) {
-  // Shorthand prefix → axis mapping
-  // k=black, r=red, g=green, y=yellow, b=blue, m=magenta, c=cyan, w=white
-  const axes = {
-    k: { r: 0, g: 0, b: 0 },
-    r: { r: 1, g: 0, b: 0 },
-    g: { r: 0, g: 1, b: 0 },
-    y: { r: 1, g: 1, b: 0 },
-    b: { r: 0, g: 0, b: 1 },
-    m: { r: 1, g: 0, b: 1 },
-    c: { r: 0, g: 1, b: 1 },
-    w: { r: 1, g: 1, b: 1 },
-  };
+  const neutral = new LinearColorSpace(theme.bg, theme.fg).size(24);
 
-  let cr = 0, cg = 0, cb = 0;
+  // Plain lookup tables — no interpolation
+  // Wrap with name→index mapping for base('r'), bright('r') syntax
+  const baseTable   = colorTable(theme.base16.slice(0, 8));
+  const brightTable = colorTable(theme.base16.slice(8, 16));
+  const base   = (name) => baseTable(baseMap[name] + 1);
+  const bright = (name) => brightTable(baseMap[name] + 1);
+  base.palette   = baseTable.palette;
+  bright.palette = brightTable.palette;
 
-  for (const [key, n] of Object.entries(opts)) {
-    const ax = axes[key];
-    if (!ax) continue;
-    cr = Math.max(cr, ax.r * n);
-    cg = Math.max(cg, ax.g * n);
-    cb = Math.max(cb, ax.b * n);
-  }
+  // Build full 256-color palette for Ghostty config output
+  const palette = [
+    ...base.palette,      // 0-7
+    ...bright.palette,    // 8-15
+    ...tint.palette,      // 16-231
+    ...neutral.palette,   // 232-255
+  ];
 
-  return cube(cr, cg, cb);
-}
-
-/**
- * Access grayscale colors (indices 232–255).
- * neutral(n) where n ∈ 1–24 (1 = darkest, 24 = lightest)
- */
-function neutral(n) {
-  return 231 + Math.max(1, Math.min(24, n));
-}
-
-/**
- * Generate the 216-color cube (indices 16-231).
- *
- * The 8 corners of the RGB cube map to base16 colors:
- *   (0,0,0) = bg (black)      (1,0,0) = red
- *   (0,1,0) = green           (1,1,0) = yellow
- *   (0,0,1) = blue            (1,0,1) = magenta
- *   (0,1,1) = cyan            (1,1,1) = fg (white)
- *
- * We use trilinear interpolation between these 8 corners,
- * with rampa.mix() performing OKLCH interpolation for perceptual uniformity.
- */
-function generateColorCube(base16, bg, fg) {
-  const black = bg;
-  const red = base16[1];
-  const green = base16[2];
-  const yellow = base16[3];
-  const blue = base16[4];
-  const magenta = base16[5];
-  const cyan = base16[6];
-  const white = fg;
-
-  const cube = [];
-
-  for (let r = 0; r < 6; r++) {
-    const t_r = r / 5;
-    // Interpolate the 4 edges along the R axis in OKLCH space
-    const c_r0g0 = rampa.mix(black, red, t_r);
-    const c_r0g1 = rampa.mix(green, yellow, t_r);
-    const c_r1g0 = rampa.mix(blue, magenta, t_r);
-    const c_r1g1 = rampa.mix(cyan, white, t_r);
-
-    for (let g = 0; g < 6; g++) {
-      const t_g = g / 5;
-      // Interpolate along the G axis
-      const c_b0 = rampa.mix(c_r0g0, c_r0g1, t_g);
-      const c_b1 = rampa.mix(c_r1g0, c_r1g1, t_g);
-
-      for (let b = 0; b < 6; b++) {
-        const t_b = b / 5;
-        // Interpolate along the B axis
-        const color = rampa.mix(c_b0, c_b1, t_b);
-        cube.push(color);
-      }
-    }
-  }
-
-  return cube;
-}
-
-/**
- * Generate the 24-step grayscale ramp (indices 232-255)
- * using rampa for perceptually uniform lightness steps.
- */
-function generateGrayscaleRamp(bg, fg) {
-  // 24 steps between bg and fg (excluding pure bg and fg themselves)
-  const result = rampa(bg)
-    .size(26)
-    .saturation(0, 0)
-    .hue(0, 0)
-    .lightness(
-      rampa.readOnly(bg).generate().oklch.l,
-      rampa.readOnly(fg).generate().oklch.l
-    )
-    .generate();
-
-  // Skip first and last (bg and fg are already in base16)
-  return result.ramps[0].colors.slice(1, 25);
+  return { tint, neutral, base, bright, palette };
 }
 
 // ── Output Formatting ──────────────────────────────────────────────────
@@ -348,6 +230,10 @@ function contrastFg(hex) {
 function renderPreview(palette, theme, themeName) {
   const DIM = '\x1b[2m';
 
+  // Index helpers for rendering the table
+  const cube = (r, g, b) => 16 + 36 * r + 6 * g + b;
+  const neutralIdx = (n) => 231 + Math.max(1, Math.min(24, n));
+
   // Colored block with background showing the actual color
   const swatch = (hex, label) =>
     `${bg(hex)}${contrastFg(hex)}${label}${RST}`;
@@ -412,7 +298,7 @@ function renderPreview(palette, theme, themeName) {
     let line = '  ';
     for (let col = 0; col < 6; col++) {
       const n = row * 6 + col + 1;
-      const i = neutral(n);
+      const i = neutralIdx(n);
       line += `${swatch(palette[i], ` ${palette[i]} `)} `;
     }
     console.log(line);
@@ -429,37 +315,34 @@ function renderPreview(palette, theme, themeName) {
 // ── Interactive Mode ────────────────────────────────────────────────────
 
 function generatePalette(theme) {
-  const palette = [...theme.base16];
-  palette.push(...generateColorCube(theme.base16, theme.bg, theme.fg));
-  palette.push(...generateGrayscaleRamp(theme.bg, theme.fg));
-  return palette;
+  const cs = buildColorSpace(theme);
+  return cs;
 }
 
-function renderTuiDemo(palette, themeName) {
+function renderTuiDemo(cs, themeName) {
+  const { tint, neutral, base, bright } = cs;
   const DIM = '\x1b[2m';
   const BOLD = '\x1b[1m';
   const swatch = (hex, label) =>
     `${bg(hex)}${contrastFg(hex)}${label}${RST}`;
 
-  const p = (idx) => palette[idx];
-
   console.log('');
   console.log(`  ${DIM}TUI Preview — ${themeName}${RST}`);
   console.log('');
 
-  // Design tokens
-  const backgroundPrimary   = p(tint({ k: 0 }));
-  const backgroundSecondary = p(tint({ w: 1 }));
-  const surfacePrimary      = p(tint({ b: 1 }));
-  const textPrimary         = p(base('w'));
-  const textSecondary       = p(neutral(18));
-  const textTertiary        = p(neutral(12));
-  const statusSuccess       = p(base('g'));
-  const statusWarning       = p(base('y'));
-  const statusDanger        = p(base('r'));
-  const statusInfo          = p(base('b'));
-  const selected            = p(tint({ b: 2 }));
-  const border              = p(neutral(4));
+  // Design tokens — functions return hex directly via ColorResult
+  const backgroundPrimary   = tint({ k: 0 }).hex;
+  const backgroundSecondary = tint({ w: 1 }).hex;
+  const surfacePrimary      = tint({ b: 1 }).hex;
+  const textPrimary         = base('w').hex;
+  const textSecondary       = neutral(18).hex;
+  const textTertiary        = neutral(12).hex;
+  const statusSuccess       = base('g').hex;
+  const statusWarning       = base('y').hex;
+  const statusDanger        = base('r').hex;
+  const statusInfo          = base('b').hex;
+  const selected            = tint({ b: 2 }).hex;
+  const border              = neutral(4).hex;
 
   const W = 56;
   const B = `${fg(border)}${bg(backgroundPrimary)}`;
@@ -536,7 +419,7 @@ function renderTuiDemo(palette, themeName) {
   console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Buttons on surface
-  const btnPrimary = `${bg(p(tint({ b: 3 })))}${contrastFg(p(tint({ b: 3 })))} Save ${RST}`;
+  const btnPrimary = `${bg(tint({ b: 3 }).hex)}${contrastFg(tint({ b: 3 }).hex)} Save ${RST}`;
   const btnSecondary = `${bg(surfacePrimary)}${contrastFg(surfacePrimary)} Cancel ${RST}`;
   const btnVisLen = 2 + 6 + 1 + 8;
   console.log(`  ${B}│${RST}${bg(backgroundPrimary)}  ${btnPrimary}${bg(backgroundPrimary)} ${btnSecondary}${bg(backgroundPrimary)}${' '.repeat(W - btnVisLen)}${RST}${B}│${RST}  ${DIM}surfacePrimary${RST}`);
@@ -569,7 +452,7 @@ async function runInteractive() {
   function render() {
     const themeName = themeNames[currentIdx];
     const theme = themes[themeName];
-    const palette = generatePalette(theme);
+    const cs = generatePalette(theme);
 
     process.stdout.write(CLEAR);
 
@@ -578,11 +461,11 @@ async function runInteractive() {
     console.log(`  ${DIM}theme ${currentIdx + 1}/${themeNames.length}:${RST}  ${bg(theme.bg)}${contrastFg(theme.bg)} ${themeName} ${RST}`);
 
     // TUI demo
-    renderTuiDemo(palette, themeName);
+    renderTuiDemo(cs, themeName);
 
     // Color table (toggled)
     if (showTable) {
-      renderPreview(palette, theme, themeName);
+      renderPreview(cs.palette, theme, themeName);
     }
   }
 
@@ -640,7 +523,8 @@ if (listMode) {
     process.exit(1);
   }
 
-  const palette = generatePalette(theme);
+  const cs = generatePalette(theme);
+  const { palette } = cs;
   const cubeColors = palette.slice(16, 232);
   const grayscale = palette.slice(232);
 

@@ -1,6 +1,8 @@
 import chroma from 'chroma-js';
 import { RampaBuilder } from './builder';
 import { ReadOnlyBuilder } from './read-only';
+import { LinearColorSpace, colorTable } from './linear-color-space';
+import { CubeColorSpace } from './cube-color-space';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
@@ -10,6 +12,11 @@ import type {
   RampResult,
   RampaResult,
   ColorInfo,
+  InterpolationMode,
+  ColorResult,
+  LinearColorSpaceFn,
+  CubeColorSpaceFn,
+  ColorSpaceOptions,
 } from './types';
 
 /**
@@ -83,7 +90,7 @@ rampa.mix = function mix(color1: string, color2: string, t: number): string {
   return mixColors(color1, color2, t);
 };
 
-export { RampaBuilder, ReadOnlyBuilder };
+export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, colorTable };
 export type {
   ColorFormat,
   ScaleType,
@@ -92,4 +99,9 @@ export type {
   RampResult,
   RampaResult,
   ColorInfo,
+  InterpolationMode,
+  ColorResult,
+  LinearColorSpaceFn,
+  CubeColorSpaceFn,
+  ColorSpaceOptions,
 };
