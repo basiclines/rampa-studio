@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rampa — Precise color palettes from your terminal</title>
+  <meta name="description" content="Generate perceptually uniform color ramps with APCA contrast analysis. OKLCH color space. CSS, JSON, or plain text output.">
+  <meta property="og:title" content="Rampa — Precise color palettes from your terminal">
+  <meta property="og:description" content="Generate perceptually uniform color ramps with APCA contrast analysis. OKLCH color space. CSS, JSON, or plain text output.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rampa.studio/cli">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            mono: ['ui-monospace', 'SFMono-Regular', 'SF Mono', 'Menlo', 'Consolas', 'Liberation Mono', 'monospace'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    /* Minimal syntax highlighting for bash code blocks */
+    .code-comment { color: #6b7280; }
+    .code-flag { color: #93c5fd; }
+    .code-value { color: #86efac; }
+    .code-cmd { color: #f9fafb; }
+  </style>
+</head>
+<body class="bg-neutral-950 text-neutral-200 antialiased">
+
+  <!-- Hero -->
+  <section class="max-w-3xl mx-auto px-6 pt-24 pb-20">
+    <h1 class="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight">
+      Precise color palettes from your terminal.
+    </h1>
+    <p class="mt-6 text-lg text-neutral-400 max-w-2xl">
+      Generate perceptually uniform color ramps with APCA contrast analysis. OKLCH color space. CSS, JSON, or plain text output.
+    </p>
+    <div class="mt-10">
+      <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--add</span>=<span class="code-value">complementary</span> <span class="code-flag">-O</span> <span class="code-value">css</span> <span class="code-flag">-A</span></code></pre>
+    </div>
+    <div class="mt-8 flex flex-wrap items-center gap-4">
+      <button
+        onclick="copyToClipboard('npm install -g @basiclines/rampa', this)"
+        class="inline-flex items-center gap-2 bg-neutral-900 border border-neutral-700 hover:border-neutral-500 rounded-lg px-4 py-2.5 text-sm font-mono text-neutral-300 transition-colors cursor-pointer"
+      >
+        <span>npm install -g @basiclines/rampa</span>
+        <svg class="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+      </button>
+      <a href="https://github.com/basiclines/rampa-studio" class="text-sm text-neutral-500 hover:text-neutral-300 transition-colors">
+        GitHub →
+      </a>
+    </div>
+  </section>
+
+  <!-- Problem / Approach -->
+  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
+    <p class="text-lg text-neutral-300 leading-relaxed">
+      Define ranges for lightness, saturation, and hue. Pick a distribution scale. Get a mathematically consistent palette with contrast analysis included.
+    </p>
+  </section>
+
+  <!-- Features -->
+  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
+    <div class="space-y-20">
+
+      <!-- Range-based control -->
+      <div>
+        <h2 class="text-xl font-semibold text-white">Range-based control</h2>
+        <p class="mt-3 text-neutral-400">
+          Configure lightness, saturation, and hue shift as start:end ranges. Choose from 11 distribution scales — linear, fibonacci, golden-ratio, ease curves, and more. Export as CSS custom properties, JSON, or plain text.
+        </p>
+        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">-L</span> <span class="code-value">95:10</span> <span class="code-flag">--lightness-scale</span>=<span class="code-value">fibonacci</span> <span class="code-flag">-O</span> <span class="code-value">css</span></code></pre>
+      </div>
+
+      <!-- Harmonies -->
+      <div>
+        <h2 class="text-xl font-semibold text-white">Color harmonies, derived automatically</h2>
+        <p class="mt-3 text-neutral-400">
+          Generate complementary, triadic, analogous, split-complementary, square, and compound ramps from a single base color. Add custom hue shifts with <code class="text-neutral-300">shift:N</code>.
+        </p>
+        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--add</span>=<span class="code-value">complementary</span> <span class="code-flag">--add</span>=<span class="code-value">analogous</span> <span class="code-flag">-O</span> <span class="code-value">css</span></code></pre>
+      </div>
+
+      <!-- APCA -->
+      <div>
+        <h2 class="text-xl font-semibold text-white">APCA contrast analysis, built in</h2>
+        <p class="mt-3 text-neutral-400">
+          Analyze all color pairs across every ramp. Filter by use case — body text, large text, non-text elements. Output as text, JSON, or CSS comments.
+        </p>
+        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--add</span>=<span class="code-value">complementary</span> <span class="code-flag">-A</span>=<span class="code-value">body</span> <span class="code-flag">-O</span> <span class="code-value">json</span></code></pre>
+      </div>
+
+      <!-- Tinting -->
+      <div>
+        <h2 class="text-xl font-semibold text-white">Tinting with 16 blend modes</h2>
+        <p class="mt-3 text-neutral-400">
+          Apply any color as an overlay with adjustable opacity. Multiply, overlay, screen, and 13 more. Useful for brand-tinted neutrals.
+        </p>
+        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#6B7280"</span> <span class="code-flag">--tint-color</span>=<span class="code-value">"#3b82f6"</span> <span class="code-flag">--tint-opacity</span>=<span class="code-value">15</span> <span class="code-flag">--tint-blend</span>=<span class="code-value">overlay</span></code></pre>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- AI Agent Skills -->
+  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
+    <h2 class="text-xl font-semibold text-white">Skills for AI coding assistants</h2>
+    <p class="mt-3 text-neutral-400">
+      7 installable skills that teach AI agents common color tasks — theme creation, status colors, data visualization palettes, accessible contrast pairs. Works with Copilot, Cursor, and any agent that supports skills.
+    </p>
+    <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">npx</span> <span class="code-value">skills</span> <span class="code-value">add</span> <span class="code-value">basiclines/rampa-studio</span></code></pre>
+    <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
+      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
+        <p class="text-sm font-mono text-neutral-300">theme-foundation</p>
+        <p class="text-xs text-neutral-500 mt-1">Complete light/dark theme</p>
+      </div>
+      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
+        <p class="text-sm font-mono text-neutral-300">tinted-neutrals</p>
+        <p class="text-xs text-neutral-500 mt-1">Brand-tinted grays</p>
+      </div>
+      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
+        <p class="text-sm font-mono text-neutral-300">status-from-accent</p>
+        <p class="text-xs text-neutral-500 mt-1">Success/warning/danger</p>
+      </div>
+      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
+        <p class="text-sm font-mono text-neutral-300">data-viz-palette</p>
+        <p class="text-xs text-neutral-500 mt-1">Distinct chart colors</p>
+      </div>
+      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
+        <p class="text-sm font-mono text-neutral-300">accessible-contrast</p>
+        <p class="text-xs text-neutral-500 mt-1">WCAG-compliant pairs</p>
+      </div>
+      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
+        <p class="text-sm font-mono text-neutral-300">brand-expansion</p>
+        <p class="text-xs text-neutral-500 mt-1">Multi-hue system</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Web Editor -->
+  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
+    <h2 class="text-xl font-semibold text-white">Visual palette editor at rampa.studio</h2>
+    <p class="mt-3 text-neutral-400">
+      Same color engine, visual interface. Design and preview palettes in real time. Adjust ranges, scales, and harmonies with interactive controls. Copy CSS variables or export directly.
+    </p>
+    <div class="mt-6">
+      <a href="https://rampa.studio" class="inline-flex items-center gap-2 text-sm text-neutral-300 hover:text-white transition-colors">
+        Open rampa.studio →
+      </a>
+    </div>
+  </section>
+
+  <!-- Feature Grid -->
+  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
+    <h2 class="text-xl font-semibold text-white mb-8">Feature reference</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <tbody class="divide-y divide-neutral-800">
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Color Spaces</td>
+            <td class="py-3 text-neutral-300">OKLCH-based engine. Accepts hex, hsl, rgb, oklch input.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Ranges</td>
+            <td class="py-3 text-neutral-300">Lightness, saturation, hue shift — all configurable as start:end.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Scales</td>
+            <td class="py-3 text-neutral-300">11 types: linear, fibonacci, golden-ratio, ease-in-out, geometric, logarithmic, and more.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Harmonies</td>
+            <td class="py-3 text-neutral-300">6 harmony types + custom shift:N degrees.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Tinting</td>
+            <td class="py-3 text-neutral-300">16 blend modes, adjustable opacity.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Accessibility</td>
+            <td class="py-3 text-neutral-300">APCA contrast analysis, 6 filter levels, JSON/CSS/text output.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Output</td>
+            <td class="py-3 text-neutral-300">CSS custom properties, JSON, plain text.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Platforms</td>
+            <td class="py-3 text-neutral-300">macOS (ARM, Intel), Linux (x64, ARM64), Windows. npm, Homebrew, standalone binary.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Get Started -->
+  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
+    <h2 class="text-xl font-semibold text-white mb-8">Get started</h2>
+    <div class="grid sm:grid-cols-3 gap-6">
+      <div>
+        <p class="text-sm text-neutral-500 mb-3">Try it now</p>
+        <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">npx</span> <span class="code-value">@basiclines/rampa</span> \
+  <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span></code></pre>
+      </div>
+      <div>
+        <p class="text-sm text-neutral-500 mb-3">Install globally</p>
+        <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">npm</span> install -g <span class="code-value">@basiclines/rampa</span>
+<span class="code-comment"># or</span>
+<span class="code-cmd">brew</span> install <span class="code-value">rampa</span></code></pre>
+      </div>
+      <div>
+        <p class="text-sm text-neutral-500 mb-3">Download binary</p>
+        <a href="https://github.com/basiclines/rampa-studio/releases" class="inline-flex items-center gap-2 bg-neutral-900 border border-neutral-800 hover:border-neutral-600 rounded-lg px-4 py-3 text-sm font-mono text-neutral-300 transition-colors w-full">
+          GitHub Releases →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="max-w-3xl mx-auto px-6 py-12 border-t border-neutral-800">
+    <div class="flex flex-wrap items-center justify-between gap-4 text-sm text-neutral-500">
+      <div class="flex items-center gap-6">
+        <a href="https://github.com/basiclines/rampa-studio" class="hover:text-neutral-300 transition-colors">GitHub</a>
+        <a href="https://rampa.studio" class="hover:text-neutral-300 transition-colors">rampa.studio</a>
+        <a href="https://ismael.fyi" class="hover:text-neutral-300 transition-colors">ismael.fyi</a>
+      </div>
+      <p>Free for individuals &amp; developers. <a href="https://github.com/basiclines/rampa-studio/blob/main/LICENSE.md" class="hover:text-neutral-300 transition-colors underline">License</a></p>
+    </div>
+  </footer>
+
+  <script>
+    function copyToClipboard(text, button) {
+      navigator.clipboard.writeText(text).then(() => {
+        const original = button.querySelector('svg');
+        original.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>';
+        setTimeout(() => {
+          original.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>';
+        }, 2000);
+      });
+    }
+  </script>
+
+</body>
+</html>
