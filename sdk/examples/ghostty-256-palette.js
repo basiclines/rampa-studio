@@ -195,6 +195,14 @@ function tint(opts) {
 }
 
 /**
+ * Access grayscale colors (indices 232–255).
+ * neutral(n) where n ∈ 1–24 (1 = darkest, 24 = lightest)
+ */
+function neutral(n) {
+  return 231 + Math.max(1, Math.min(24, n));
+}
+
+/**
  * Generate the 216-color cube (indices 16-231).
  *
  * The 8 corners of the RGB cube map to base16 colors:
@@ -323,7 +331,7 @@ function formatGhosttyConfig(palette) {
       label = `  ${cubeToTint(cr, cg, cb)}`;
     } else {
       const step = i - 232 + 1;
-      label = `  gray ${String(step).padStart(2)}/24     → bg [${'█'.repeat(step)}${'·'.repeat(24 - step)}] fg`;
+      label = `  neutral(${String(step).padStart(2)})     → bg [${'█'.repeat(step)}${'·'.repeat(24 - step)}] fg`;
     }
 
     lines.push(`${block} ${String(i).padStart(3)}  ${hex}${label}`);
@@ -429,14 +437,15 @@ function renderPreview(palette, theme, themeName) {
 
   // ── Grayscale ──
   console.log('');
-  console.log(`  ${DIM}grayscale  24 colors  232–255${RST}`);
+  console.log(`  ${DIM}grayscale  24 colors  neutral(1–24)${RST}`);
   console.log('');
 
   // Show in rows of 6 with hex codes, matching cube layout
   for (let row = 0; row < 4; row++) {
     let line = '  ';
     for (let col = 0; col < 6; col++) {
-      const i = 232 + row * 6 + col;
+      const n = row * 6 + col + 1;
+      const i = neutral(n);
       line += `${swatch(palette[i], ` ${palette[i]} `)} `;
     }
     console.log(line);
