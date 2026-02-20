@@ -429,12 +429,18 @@ function renderPreview(palette, theme, themeName) {
 
   // ── Grayscale ──
   console.log('');
-  console.log(`  ${DIM}grayscale  232–255${RST}`);
-  let grayBar = '  ';
-  for (let i = 232; i <= 255; i++) {
-    grayBar += `${swatch(palette[i], `${i} `)}`;
+  console.log(`  ${DIM}grayscale  24 colors  232–255${RST}`);
+  console.log('');
+
+  // Show in rows of 6 with hex codes, matching cube layout
+  for (let row = 0; row < 4; row++) {
+    let line = '  ';
+    for (let col = 0; col < 6; col++) {
+      const i = 232 + row * 6 + col;
+      line += `${swatch(palette[i], ` ${palette[i]} `)} `;
+    }
+    console.log(line);
   }
-  console.log(grayBar);
 
   // ── Background / Foreground ──
   console.log('');
