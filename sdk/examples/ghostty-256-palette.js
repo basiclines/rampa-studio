@@ -7,10 +7,9 @@
  * from a base16 color scheme using rampa-sdk.
  *
  * The 256-color palette layout:
- *   0-7:     Normal base16 (the 8 input colors: bg, hues, fg)
- *   8-15:    Bright base16 (derived via rampa.mix toward fg)
- *   16-231:  6×6×6 color cube (216 colors, OKLCH trilinear interpolation)
- *   232-255: 24-step grayscale ramp (OKLCH perceptual lightness)
+ *   0-15:    Base16 colors (user-provided)
+ *   16-231:  6×6×6 color cube (216 colors, generated with rampa ramps)
+ *   232-255: 24-step grayscale ramp (generated with rampa)
  *
  * Usage:
  *   node ghostty-256-palette.js
@@ -24,108 +23,106 @@
 
 import { rampa } from '@basiclines/rampa-sdk';
 
-// ── Themes ──────────────────────────────────────────────────────────────
-// Only 8 colors needed: bg, fg, and 6 hues (red, green, yellow, blue, magenta, cyan).
-// Everything else — base16 normals, brights, 216-color cube, grayscale — is derived.
+// ── Base16 Themes ──────────────────────────────────────────────────────
 
 const themes = {
   'catppuccin-mocha': {
     bg: '#1e1e2e',
     fg: '#cdd6f4',
-    red: '#f38ba8',
-    green: '#a6e3a1',
-    yellow: '#f9e2af',
-    blue: '#89b4fa',
-    magenta: '#f5c2e7',
-    cyan: '#94e2d5',
+    base16: [
+      '#45475a', // 0  black
+      '#f38ba8', // 1  red
+      '#a6e3a1', // 2  green
+      '#f9e2af', // 3  yellow
+      '#89b4fa', // 4  blue
+      '#f5c2e7', // 5  magenta
+      '#94e2d5', // 6  cyan
+      '#bac2de', // 7  white
+      '#585b70', // 8  bright black
+      '#f38ba8', // 9  bright red
+      '#a6e3a1', // 10 bright green
+      '#f9e2af', // 11 bright yellow
+      '#89b4fa', // 12 bright blue
+      '#f5c2e7', // 13 bright magenta
+      '#94e2d5', // 14 bright cyan
+      '#a6adc8', // 15 bright white
+    ],
   },
   'solarized-dark': {
     bg: '#002b36',
-    fg: '#eee8d5',
-    red: '#dc322f',
-    green: '#859900',
-    yellow: '#b58900',
-    blue: '#268bd2',
-    magenta: '#d33682',
-    cyan: '#2aa198',
+    fg: '#839496',
+    base16: [
+      '#073642', '#dc322f', '#859900', '#b58900',
+      '#268bd2', '#d33682', '#2aa198', '#eee8d5',
+      '#002b36', '#cb4b16', '#586e75', '#657b83',
+      '#839496', '#6c71c4', '#93a1a1', '#fdf6e3',
+    ],
   },
   'tokyo-night': {
     bg: '#1a1b26',
     fg: '#c0caf5',
-    red: '#f7768e',
-    green: '#9ece6a',
-    yellow: '#e0af68',
-    blue: '#7aa2f7',
-    magenta: '#bb9af7',
-    cyan: '#7dcfff',
+    base16: [
+      '#15161e', '#f7768e', '#9ece6a', '#e0af68',
+      '#7aa2f7', '#bb9af7', '#7dcfff', '#a9b1d6',
+      '#414868', '#f7768e', '#9ece6a', '#e0af68',
+      '#7aa2f7', '#bb9af7', '#7dcfff', '#c0caf5',
+    ],
   },
   'gruvbox-dark': {
     bg: '#282828',
     fg: '#ebdbb2',
-    red: '#cc241d',
-    green: '#98971a',
-    yellow: '#d79921',
-    blue: '#458588',
-    magenta: '#b16286',
-    cyan: '#689d6a',
+    base16: [
+      '#282828', '#cc241d', '#98971a', '#d79921',
+      '#458588', '#b16286', '#689d6a', '#a89984',
+      '#928374', '#fb4934', '#b8bb26', '#fabd2f',
+      '#83a598', '#d3869b', '#8ec07c', '#ebdbb2',
+    ],
   },
   'github-dark': {
     bg: '#24292e',
     fg: '#c9d1d9',
-    red: '#f85149',
-    green: '#56d364',
-    yellow: '#e3b341',
-    blue: '#58a6ff',
-    magenta: '#bc8cff',
-    cyan: '#39c5cf',
+    base16: [
+      '#24292e', // 0  black
+      '#f85149', // 1  red
+      '#56d364', // 2  green
+      '#e3b341', // 3  yellow
+      '#58a6ff', // 4  blue
+      '#bc8cff', // 5  magenta
+      '#39c5cf', // 6  cyan
+      '#c9d1d9', // 7  white
+      '#484f58', // 8  bright black
+      '#ff7b72', // 9  bright red
+      '#7ee787', // 10 bright green
+      '#f2cc60', // 11 bright yellow
+      '#79c0ff', // 12 bright blue
+      '#d2a8ff', // 13 bright magenta
+      '#56d4dd', // 14 bright cyan
+      '#f0f6fc', // 15 bright white
+    ],
   },
   'github-light': {
     bg: '#ffffff',
     fg: '#24292f',
-    red: '#cf222e',
-    green: '#116329',
-    yellow: '#4d2d00',
-    blue: '#0969da',
-    magenta: '#8250df',
-    cyan: '#1b7c83',
+    base16: [
+      '#24292f', // 0  black
+      '#cf222e', // 1  red
+      '#116329', // 2  green
+      '#4d2d00', // 3  yellow
+      '#0969da', // 4  blue
+      '#8250df', // 5  magenta
+      '#1b7c83', // 6  cyan
+      '#6e7781', // 7  white
+      '#57606a', // 8  bright black
+      '#a40e26', // 9  bright red
+      '#1a7f37', // 10 bright green
+      '#633c01', // 11 bright yellow
+      '#218bff', // 12 bright blue
+      '#a475f9', // 13 bright magenta
+      '#3192aa', // 14 bright cyan
+      '#8c959f', // 15 bright white
+    ],
   },
 };
-
-// ── Base16 Generation ──────────────────────────────────────────────────
-
-/**
- * Generate the 16 base colors from just 8 inputs.
- *
- * Normal (0–7):  bg, red, green, yellow, blue, magenta, cyan, fg
- * Bright (8–15): derived by mixing each normal color toward fg (30%)
- *                bright black mixes bg toward fg
- *                bright white mixes fg toward bg (lighter feel)
- */
-function generateBase16(theme) {
-  const normals = [
-    theme.bg,      // 0  black
-    theme.red,     // 1  red
-    theme.green,   // 2  green
-    theme.yellow,  // 3  yellow
-    theme.blue,    // 4  blue
-    theme.magenta, // 5  magenta
-    theme.cyan,    // 6  cyan
-    theme.fg,      // 7  white
-  ];
-
-  const brights = [
-    rampa.mix(theme.bg, theme.fg, 0.2),       // 8  bright black
-    rampa.mix(theme.red, theme.fg, 0.25),     // 9  bright red
-    rampa.mix(theme.green, theme.fg, 0.25),   // 10 bright green
-    rampa.mix(theme.yellow, theme.fg, 0.25),  // 11 bright yellow
-    rampa.mix(theme.blue, theme.fg, 0.25),    // 12 bright blue
-    rampa.mix(theme.magenta, theme.fg, 0.25), // 13 bright magenta
-    rampa.mix(theme.cyan, theme.fg, 0.25),    // 14 bright cyan
-    rampa.mix(theme.fg, theme.bg, 0.1),       // 15 bright white
-  ];
-
-  return [...normals, ...brights];
-}
 
 // ── Color Cube Generation ──────────────────────────────────────────────
 
@@ -161,15 +158,15 @@ function cube(r, g, b) {
  * We use trilinear interpolation between these 8 corners,
  * with rampa.mix() performing OKLCH interpolation for perceptual uniformity.
  */
-function generateColorCube(theme) {
-  const black = theme.bg;
-  const red = theme.red;
-  const green = theme.green;
-  const yellow = theme.yellow;
-  const blue = theme.blue;
-  const magenta = theme.magenta;
-  const cyan = theme.cyan;
-  const white = theme.fg;
+function generateColorCube(base16, bg, fg) {
+  const black = bg;
+  const red = base16[1];
+  const green = base16[2];
+  const yellow = base16[3];
+  const blue = base16[4];
+  const magenta = base16[5];
+  const cyan = base16[6];
+  const white = fg;
 
   const cube = [];
 
@@ -203,15 +200,15 @@ function generateColorCube(theme) {
  * Generate the 24-step grayscale ramp (indices 232-255)
  * using rampa for perceptually uniform lightness steps.
  */
-function generateGrayscaleRamp(theme) {
+function generateGrayscaleRamp(bg, fg) {
   // 24 steps between bg and fg (excluding pure bg and fg themselves)
-  const result = rampa(theme.bg)
+  const result = rampa(bg)
     .size(26)
     .saturation(0, 0)
     .hue(0, 0)
     .lightness(
-      rampa.readOnly(theme.bg).generate().oklch.l,
-      rampa.readOnly(theme.fg).generate().oklch.l
+      rampa.readOnly(bg).generate().oklch.l,
+      rampa.readOnly(fg).generate().oklch.l
     )
     .generate();
 
@@ -246,10 +243,7 @@ function formatGhosttyConfig(palette) {
     if (i < 8) {
       label = `  ${names[i].padEnd(10)} → cube(${base16ToCube[i]})`;
     } else if (i < 16) {
-      const mixLabel = i === 8 ? 'mix(bg, fg, 0.2)' :
-                       i === 15 ? 'mix(fg, bg, 0.1)' :
-                       `mix(${names[i - 8]}, fg, 0.25)`;
-      label = `  bright ${names[i - 8].padEnd(10)} → ${mixLabel}`;
+      label = `  bright ${names[i - 8]}`;
     } else if (i <= 231) {
       const ci = i - 16;
       const cr = Math.floor(ci / 36);
@@ -438,16 +432,15 @@ if (!theme) {
   process.exit(1);
 }
 
-// Base16 (0-15) — derived from 8 input colors
-const base16 = generateBase16(theme);
-const palette = [...base16];
+// Base16 (0-15)
+const palette = [...theme.base16];
 
 // Color cube (16-231)
-const cubeColors = generateColorCube(theme);
+const cubeColors = generateColorCube(theme.base16, theme.bg, theme.fg);
 palette.push(...cubeColors);
 
 // Grayscale ramp (232-255)
-const grayscale = generateGrayscaleRamp(theme);
+const grayscale = generateGrayscaleRamp(theme.bg, theme.fg);
 palette.push(...grayscale);
 
 if (tableMode) {
@@ -464,7 +457,7 @@ if (tableMode) {
   console.log(formatGhosttyConfig(palette));
 }
 
-console.error(`\n✅ Generated ${palette.length} colors for ${themeName} from 8 input colors`);
-console.error(`   Base16:    0-15  (${base16.length} colors, 8 input + 8 derived)`);
+console.error(`\n✅ Generated ${palette.length} colors for ${themeName}`);
+console.error(`   Base16:    0-15  (${theme.base16.length} colors)`);
 console.error(`   Color cube: 16-231 (${cubeColors.length} colors)`);
 console.error(`   Grayscale: 232-255 (${grayscale.length} colors)`);
