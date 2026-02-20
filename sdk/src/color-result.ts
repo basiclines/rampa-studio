@@ -6,10 +6,15 @@ import type { ColorFormat, ColorResult } from './types';
  * Acts as a string (hex) by default, supports .format() for conversions.
  */
 export function createColorResult(hex: string): ColorResult {
+  const c = chroma(hex);
+  const [r, g, b] = c.rgb();
+  const [l] = c.oklch();
+
   const result: ColorResult = {
     hex,
+    rgb: { r, g, b },
+    luminance: l,
     format(fmt: ColorFormat): string {
-      const c = chroma(hex);
       switch (fmt) {
         case 'hsl': {
           const [h, s, l] = c.hsl();

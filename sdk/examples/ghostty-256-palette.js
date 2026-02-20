@@ -22,7 +22,7 @@
  *         With --table: renders a 2D color grid to the terminal
  */
 
-import { rampa, LinearColorSpace, CubeColorSpace } from '@basiclines/rampa-sdk';
+import { rampa, color, LinearColorSpace, CubeColorSpace } from '@basiclines/rampa-sdk';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -160,7 +160,7 @@ function formatGhosttyConfig(palette) {
 
   for (let i = 0; i < palette.length; i++) {
     const hex = palette[i];
-    const { r, g, b } = hexToRgb(hex);
+    const { r, g, b } = color(hex).rgb;
     const block = `\x1b[48;2;${r};${g};${b}m  ${RST}`;
 
     let label = '';
@@ -189,32 +189,20 @@ function formatGhosttyConfig(palette) {
 
 // ── Terminal Preview ───────────────────────────────────────────────────
 
-function hexToRgb(hex) {
-  return {
-    r: parseInt(hex.slice(1, 3), 16),
-    g: parseInt(hex.slice(3, 5), 16),
-    b: parseInt(hex.slice(5, 7), 16),
-  };
-}
-
-function luminance({ r, g, b }) {
-  return 0.299 * r + 0.587 * g + 0.114 * b;
-}
-
 function bg(hex) {
-  const { r, g, b } = hexToRgb(hex);
+  const { r, g, b } = color(hex).rgb;
   return `\x1b[48;2;${r};${g};${b}m`;
 }
 
 function fg(hex) {
-  const { r, g, b } = hexToRgb(hex);
+  const { r, g, b } = color(hex).rgb;
   return `\x1b[38;2;${r};${g};${b}m`;
 }
 
 const RST = '\x1b[0m';
 
 function contrastFg(hex) {
-  return luminance(hexToRgb(hex)) > 128 ? fg('#000000') : fg('#ffffff');
+  return color(hex).luminance > 0.5 ? fg('#000000') : fg('#ffffff');
 }
 
 /**
@@ -363,7 +351,7 @@ function renderTuiDemo(cs, themeName) {
     ['border             ', 'neutral(4)    ', border],
   ];
   for (const [name, fn, hex] of tokens) {
-    const { r, g, b: bl } = hexToRgb(hex);
+    const { r, g, b: bl } = color(hex).rgb;
     const swatch = `\x1b[48;2;${r};${g};${bl}m    ${RST}`;
     console.log(`  ${swatch} ${DIM}${name} = ${fn}  ${hex}${RST}`);
   }

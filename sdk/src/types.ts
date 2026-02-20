@@ -67,11 +67,24 @@ export interface ColorSpaceOptions {
 }
 
 /**
+ * RGB components (0-255).
+ */
+export interface RgbComponents {
+  r: number;
+  g: number;
+  b: number;
+}
+
+/**
  * A color result that acts as a hex string but supports format chaining.
  */
 export interface ColorResult {
   /** Hex color string */
   hex: string;
+  /** RGB components (0-255) */
+  rgb: RgbComponents;
+  /** Perceptual luminance (0-1) using OKLCH lightness */
+  luminance: number;
   /** Format the color as hsl, rgb, oklch, or hex */
   format(fmt: ColorFormat): string;
   /** String coercion returns hex */

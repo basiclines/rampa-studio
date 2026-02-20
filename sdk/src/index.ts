@@ -1,8 +1,8 @@
-import chroma from 'chroma-js';
 import { RampaBuilder } from './builder';
 import { ReadOnlyBuilder } from './read-only';
 import { LinearColorSpace } from './linear-color-space';
 import { CubeColorSpace } from './cube-color-space';
+import { createColorResult } from './color-result';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
@@ -14,6 +14,7 @@ import type {
   ColorInfo,
   InterpolationMode,
   ColorResult,
+  RgbComponents,
   LinearColorSpaceFn,
   CubeColorSpaceFn,
   ColorSpaceOptions,
@@ -38,23 +39,7 @@ export function rampa(baseColor: string): RampaBuilder {
  * Convert a color string to a different format.
  */
 rampa.convert = function convert(color: string, format: ColorFormat): string {
-  const c = chroma(color);
-  switch (format) {
-    case 'hsl': {
-      const [h, s, l] = c.hsl();
-      return `hsl(${Math.round(h || 0)}, ${Math.round(s * 100)}%, ${Math.round(l * 100)}%)`;
-    }
-    case 'rgb': {
-      const [r, g, b] = c.rgb();
-      return `rgb(${r}, ${g}, ${b})`;
-    }
-    case 'oklch': {
-      const [l, ch, h] = c.oklch();
-      return `oklch(${(l * 100).toFixed(1)}% ${ch.toFixed(3)} ${Math.round(h || 0)})`;
-    }
-    default:
-      return c.hex();
-  }
+  return createColorResult(color).format(format);
 };
 
 /**
@@ -90,6 +75,23 @@ rampa.mix = function mix(color1: string, color2: string, t: number): string {
   return mixColors(color1, color2, t);
 };
 
+/**
+ * Create a ColorResult from any hex color string.
+ * Provides .hex, .rgb, .luminance, .format() for color inspection.
+ *
+ * @example
+ * ```ts
+ * import { color } from '@basiclines/rampa-sdk';
+ * const c = color('#ff0000');
+ * c.rgb        // { r: 255, g: 0, b: 0 }
+ * c.luminance  // 0.627 (OKLCH perceptual lightness)
+ * c.format('hsl') // 'hsl(0, 100%, 50%)'
+ * ```
+ */
+export function color(hex: string): ColorResult {
+  return createColorResult(hex);
+}
+
 export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace };
 export type {
   ColorFormat,
@@ -101,6 +103,7 @@ export type {
   ColorInfo,
   InterpolationMode,
   ColorResult,
+  RgbComponents,
   LinearColorSpaceFn,
   CubeColorSpaceFn,
   ColorSpaceOptions,
