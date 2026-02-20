@@ -13,116 +13,70 @@
  *
  * Usage:
  *   node ghostty-256-palette.js
- *   node ghostty-256-palette.js --theme solarized-dark
+ *   node ghostty-256-palette.js --theme "Catppuccin Mocha"
  *   node ghostty-256-palette.js --table
- *   node ghostty-256-palette.js --theme tokyo-night --table
+ *   node ghostty-256-palette.js --interactive
+ *   node ghostty-256-palette.js --list
  *
  * Output: Ghostty-compatible palette config lines
  *         With --table: renders a 2D color grid to the terminal
  */
 
 import { rampa } from '@basiclines/rampa-sdk';
+import { readdirSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
-// ── Base16 Themes ──────────────────────────────────────────────────────
+// ── Theme Loading ──────────────────────────────────────────────────────
 
-const themes = {
-  'catppuccin-mocha': {
-    bg: '#1e1e2e',
-    fg: '#cdd6f4',
-    base16: [
-      '#45475a', // 0  black
-      '#f38ba8', // 1  red
-      '#a6e3a1', // 2  green
-      '#f9e2af', // 3  yellow
-      '#89b4fa', // 4  blue
-      '#f5c2e7', // 5  magenta
-      '#94e2d5', // 6  cyan
-      '#bac2de', // 7  white
-      '#585b70', // 8  bright black
-      '#f38ba8', // 9  bright red
-      '#a6e3a1', // 10 bright green
-      '#f9e2af', // 11 bright yellow
-      '#89b4fa', // 12 bright blue
-      '#f5c2e7', // 13 bright magenta
-      '#94e2d5', // 14 bright cyan
-      '#a6adc8', // 15 bright white
-    ],
-  },
-  'solarized-dark': {
-    bg: '#002b36',
-    fg: '#839496',
-    base16: [
-      '#073642', '#dc322f', '#859900', '#b58900',
-      '#268bd2', '#d33682', '#2aa198', '#eee8d5',
-      '#002b36', '#cb4b16', '#586e75', '#657b83',
-      '#839496', '#6c71c4', '#93a1a1', '#fdf6e3',
-    ],
-  },
-  'tokyo-night': {
-    bg: '#1a1b26',
-    fg: '#c0caf5',
-    base16: [
-      '#15161e', '#f7768e', '#9ece6a', '#e0af68',
-      '#7aa2f7', '#bb9af7', '#7dcfff', '#a9b1d6',
-      '#414868', '#f7768e', '#9ece6a', '#e0af68',
-      '#7aa2f7', '#bb9af7', '#7dcfff', '#c0caf5',
-    ],
-  },
-  'gruvbox-dark': {
-    bg: '#282828',
-    fg: '#ebdbb2',
-    base16: [
-      '#282828', '#cc241d', '#98971a', '#d79921',
-      '#458588', '#b16286', '#689d6a', '#a89984',
-      '#928374', '#fb4934', '#b8bb26', '#fabd2f',
-      '#83a598', '#d3869b', '#8ec07c', '#ebdbb2',
-    ],
-  },
-  'github-dark': {
-    bg: '#24292e',
-    fg: '#c9d1d9',
-    base16: [
-      '#24292e', // 0  black
-      '#f85149', // 1  red
-      '#56d364', // 2  green
-      '#e3b341', // 3  yellow
-      '#58a6ff', // 4  blue
-      '#bc8cff', // 5  magenta
-      '#39c5cf', // 6  cyan
-      '#c9d1d9', // 7  white
-      '#484f58', // 8  bright black
-      '#ff7b72', // 9  bright red
-      '#7ee787', // 10 bright green
-      '#f2cc60', // 11 bright yellow
-      '#79c0ff', // 12 bright blue
-      '#d2a8ff', // 13 bright magenta
-      '#56d4dd', // 14 bright cyan
-      '#f0f6fc', // 15 bright white
-    ],
-  },
-  'github-light': {
-    bg: '#ffffff',
-    fg: '#24292f',
-    base16: [
-      '#24292f', // 0  black
-      '#cf222e', // 1  red
-      '#116329', // 2  green
-      '#4d2d00', // 3  yellow
-      '#0969da', // 4  blue
-      '#8250df', // 5  magenta
-      '#1b7c83', // 6  cyan
-      '#6e7781', // 7  white
-      '#57606a', // 8  bright black
-      '#a40e26', // 9  bright red
-      '#1a7f37', // 10 bright green
-      '#633c01', // 11 bright yellow
-      '#218bff', // 12 bright blue
-      '#a475f9', // 13 bright magenta
-      '#3192aa', // 14 bright cyan
-      '#8c959f', // 15 bright white
-    ],
-  },
-};
+const GHOSTTY_THEMES_DIR = '/Applications/Ghostty.app/Contents/Resources/ghostty/themes';
+
+function parseGhosttyTheme(content) {
+  const lines = content.split('\n');
+  const base16 = new Array(16).fill(null);
+  let bg = null, fg = null;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+
+    const eqIdx = trimmed.indexOf('=');
+    if (eqIdx === -1) continue;
+    const key = trimmed.slice(0, eqIdx).trim();
+    const value = trimmed.slice(eqIdx + 1).trim();
+
+    if (key === 'background') bg = value;
+    else if (key === 'foreground') fg = value;
+    else if (key === 'palette') {
+      const eqIdx2 = value.indexOf('=');
+      if (eqIdx2 === -1) continue;
+      const idx = parseInt(value.slice(0, eqIdx2).trim());
+      const color = value.slice(eqIdx2 + 1).trim();
+      if (idx >= 0 && idx < 16) base16[idx] = color;
+    }
+  }
+
+  if (!bg || !fg || base16.some(c => c === null)) return null;
+  return { bg, fg, base16 };
+}
+
+function loadThemes() {
+  const themes = {};
+  try {
+    const files = readdirSync(GHOSTTY_THEMES_DIR);
+    for (const file of files) {
+      const content = readFileSync(join(GHOSTTY_THEMES_DIR, file), 'utf-8');
+      const theme = parseGhosttyTheme(content);
+      if (theme) themes[file] = theme;
+    }
+  } catch (e) {
+    console.error(`Could not read themes from ${GHOSTTY_THEMES_DIR}`);
+    console.error('Make sure Ghostty is installed.');
+    process.exit(1);
+  }
+  return themes;
+}
+
+const themes = loadThemes();
 
 // ── Color Cube Generation ──────────────────────────────────────────────
 
@@ -631,12 +585,17 @@ async function runInteractive() {
 const args = process.argv.slice(2);
 const tableMode = args.includes('--table');
 const interactiveMode = args.includes('--interactive');
+const listMode = args.includes('--list');
 const themeIdx = args.indexOf('--theme');
 const themeName = themeIdx !== -1 && args[themeIdx + 1] ? args[themeIdx + 1] : (
-  args.find(a => !a.startsWith('--')) || 'catppuccin-mocha'
+  args.find(a => !a.startsWith('--')) || 'Catppuccin Mocha'
 );
 
-if (interactiveMode) {
+if (listMode) {
+  const names = Object.keys(themes).sort();
+  console.log(`${names.length} themes available:\n`);
+  for (const name of names) console.log(`  ${name}`);
+} else if (interactiveMode) {
   runInteractive();
 } else {
   const theme = themes[themeName];
