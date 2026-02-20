@@ -245,13 +245,17 @@ const gradient = Array.from({ length: steps }, (_, i) =>
 
 ```typescript
 import type {
-  ColorFormat,    // 'hex' | 'hsl' | 'rgb' | 'oklch'
-  ScaleType,      // 'linear' | 'fibonacci' | 'golden-ratio' | ...
-  BlendMode,      // 'normal' | 'multiply' | 'screen' | ...
-  HarmonyType,    // 'complementary' | 'triadic' | 'analogous' | ...
-  RampResult,     // { name, baseColor, colors }
-  RampaResult,    // { ramps: RampResult[] }
-  ColorInfo,      // { hex, rgb, hsl, oklch } — returned by readOnly()
+  ColorFormat,         // 'hex' | 'hsl' | 'rgb' | 'oklch'
+  ScaleType,           // 'linear' | 'fibonacci' | 'golden-ratio' | ...
+  BlendMode,           // 'normal' | 'multiply' | 'screen' | ...
+  HarmonyType,         // 'complementary' | 'triadic' | 'analogous' | ...
+  RampResult,          // { name, baseColor, colors }
+  RampaResult,         // { ramps: RampResult[] }
+  ColorInfo,           // { hex, rgb, hsl, oklch } — returned by readOnly()
+  InterpolationMode,   // 'oklch' | 'lab' | 'rgb'
+  ColorResult,         // { hex, format(), toString() }
+  LinearColorSpaceFn,  // callable function returned by LinearColorSpace.size()
+  CubeColorSpaceFn,    // callable function returned by CubeColorSpace.size()
 } from '@basiclines/rampa-sdk';
 ```
 
@@ -337,6 +341,136 @@ rampa --color "#3b82f6" --size=5 --lightness 10:90 --add=complementary --output 
 ```typescript
 // SDK
 rampa('#3b82f6').size(5).lightness(10, 90).add('complementary').toJSON();
+```
+
+## Color Spaces
+
+Color spaces let you create structured palettes from a set of anchor colors and query them semantically. Two primitives are available:
+
+### `LinearColorSpace`
+
+Interpolates between two colors to produce an evenly-spaced ramp.
+
+```typescript
+import { LinearColorSpace } from '@basiclines/rampa-sdk';
+
+const neutral = new LinearColorSpace('#ffffff', '#000000').size(24);
+neutral(1)               // → ColorResult (lightest)
+neutral(12)              // → ColorResult (mid gray)
+neutral(24)              // → ColorResult (darkest)
+neutral(12).hex          // → '#666666'
+neutral(12).format('hsl') // → 'hsl(0, 0%, 40%)'
+neutral.palette          // → string[24]
+```
+
+#### Lookup table mode
+
+Set `.interpolation(false)` for a plain lookup table — no interpolation, just indexed access to the exact colors you provide:
+
+```typescript
+const base = new LinearColorSpace(
+  '#45475a', '#f38ba8', '#a6e3a1', '#f9e2af',
+  '#89b4fa', '#f5c2e7', '#94e2d5', '#a6adc8'
+).interpolation(false).size(8);
+
+base(1)  // → '#45475a' (exact, no interpolation)
+base(3)  // → '#a6e3a1'
+```
+
+### `CubeColorSpace`
+
+Creates a 3D color cube from 8 corner colors via trilinear interpolation. The constructor keys become alias names for semantic lookups.
+
+```typescript
+import { CubeColorSpace } from '@basiclines/rampa-sdk';
+
+const tint = new CubeColorSpace({
+  k: '#1e1e2e',    // origin (0,0,0)
+  r: '#f38ba8',    // x axis
+  g: '#a6e3a1',    // y axis
+  b: '#89b4fa',    // z axis
+  y: '#f9e2af',    // x+y
+  m: '#cba6f7',    // x+z
+  c: '#94e2d5',    // y+z
+  w: '#cdd6f4',    // x+y+z
+}).size(6);
+
+tint({ r: 4 })           // → strong red
+tint({ r: 4, b: 2 })     // → red-blue blend
+tint({ w: 3 })           // → mid-white (all axes at 3)
+tint({ r: 5, w: 2 })     // → pastel red (white raises base)
+tint.palette             // → string[216] (6³)
+```
+
+#### Custom vocabulary
+
+The alias names are whatever you put in the constructor — not limited to ANSI names:
+
+```typescript
+const space = new CubeColorSpace({
+  dark:    '#1a1a2e',
+  warm:    '#e74c3c',
+  nature:  '#2ecc71',
+  ocean:   '#3498db',
+  sunset:  '#f39c12',
+  berry:   '#9b59b6',
+  mint:    '#1abc9c',
+  light:   '#ecf0f1',
+}).size(6);
+
+space({ warm: 4, ocean: 2 })  // → warm-ocean blend
+```
+
+#### How aliases map to the cube
+
+The 8 keys map to cube corners by insertion order:
+
+| Position | Key # | Cube coords | Axis mask |
+|----------|-------|-------------|-----------|
+| 1st | origin | (0,0,0) | — |
+| 2nd | x | (1,0,0) | x |
+| 3rd | y | (0,1,0) | y |
+| 4th | z | (0,0,1) | z |
+| 5th | xy | (1,1,0) | x+y |
+| 6th | xz | (1,0,1) | x+z |
+| 7th | yz | (0,1,1) | y+z |
+| 8th | xyz | (1,1,1) | x+y+z |
+
+When you call `tint({ r: 4, b: 2 })`, each alias's mask is multiplied by its intensity and merged with `Math.max` to produce cube coordinates.
+
+### Interpolation modes
+
+Both `LinearColorSpace` and `CubeColorSpace` support configurable interpolation:
+
+| Mode | Description |
+|------|-------------|
+| `'oklch'` (default) | Perceptually uniform — hues travel the color wheel, even lightness steps |
+| `'lab'` | CIE L\*a\*b\* — perceptual but no hue rotation |
+| `'rgb'` | Linear RGB — fast but perceptually uneven |
+| `false` | No interpolation — plain lookup table (LinearColorSpace only) |
+
+```typescript
+// LinearColorSpace
+new LinearColorSpace('#ff0000', '#0000ff').interpolation('oklch').size(10)
+new LinearColorSpace('#ff0000', '#0000ff').interpolation('lab').size(10)
+new LinearColorSpace('#ff0000', '#0000ff').interpolation('rgb').size(10)
+new LinearColorSpace('#f00', '#0f0', '#00f').interpolation(false).size(3)
+
+// CubeColorSpace
+new CubeColorSpace({ ... }, { interpolation: 'lab' }).size(6)
+```
+
+### Color result chaining
+
+All color space lookups return a `ColorResult` that acts as a hex string but supports format conversion:
+
+```typescript
+const color = tint({ r: 4, b: 2 });
+color.hex              // → '#ab34cd'
+color.format('hsl')    // → 'hsl(280, 60%, 50%)'
+color.format('rgb')    // → 'rgb(171, 52, 205)'
+color.format('oklch')  // → 'oklch(52.3% 0.198 310)'
+color.toString()       // → '#ab34cd'
 ```
 
 ## Development
