@@ -393,8 +393,10 @@ describe('CLI Integration', () => {
     it('should output JSON with single format', async () => {
       const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O json -F hsl`.text();
       const parsed = JSON.parse(result);
-      expect(typeof parsed.color).toBe('string');
-      expect(parsed.color).toMatch(/^hsl\(/);
+      expect(parsed.color.value).toMatch(/^hsl\(/);
+      expect(parsed.color.hsl).toHaveProperty('h');
+      expect(parsed.color.hsl).toHaveProperty('s');
+      expect(parsed.color.hsl).toHaveProperty('l');
     });
 
     it('should output CSS with all formats', async () => {

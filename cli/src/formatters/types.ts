@@ -20,4 +20,5 @@ export interface RampOutput {
   baseColor: string;
   config: RampConfig;
   colors: string[];
+  rawColors?: string[];
 }

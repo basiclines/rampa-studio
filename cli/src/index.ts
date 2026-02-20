@@ -321,6 +321,26 @@ function formatColor(color: string, format: ColorFormat): string {
   }
 }
 
+type StructuredColor = {
+  hex: string;
+  rgb: { r: number; g: number; b: number };
+  hsl: { h: number; s: number; l: number };
+  oklch: { l: number; c: number; h: number };
+};
+
+function formatColorStructured(color: string): StructuredColor {
+  const c = chroma(color);
+  const [r, g, b] = c.rgb();
+  const [hh, ss, ll] = c.hsl();
+  const [ol, oc, oh] = c.oklch();
+  return {
+    hex: c.hex(),
+    rgb: { r, g, b },
+    hsl: { h: Math.round(hh || 0), s: Math.round(ss * 100), l: Math.round(ll * 100) },
+    oklch: { l: parseFloat((ol * 100).toFixed(1)), c: parseFloat(oc.toFixed(3)), h: Math.round(oh || 0) },
+  };
+}
+
 const validFormats = ['hex', 'hsl', 'rgb', 'oklch'];
 
 const main = defineCommand({
@@ -474,7 +494,8 @@ const main = defineCommand({
         // Single format output
         const converted = formatColor(validatedColor, outputFormat);
         if (outputType === 'json') {
-          console.log(JSON.stringify({ color: converted }, null, 2));
+          const structured = formatColorStructured(validatedColor);
+          console.log(JSON.stringify({ color: { value: converted, ...structured } }, null, 2));
         } else if (outputType === 'css') {
           console.log(`:root {\n  --color: ${converted};\n}`);
         } else {
@@ -482,22 +503,18 @@ const main = defineCommand({
         }
       } else {
         // All formats
-        const allFormats: Record<string, string> = {};
-        for (const fmt of validFormats) {
-          allFormats[fmt] = formatColor(validatedColor, fmt as ColorFormat);
-        }
         if (outputType === 'json') {
-          console.log(JSON.stringify({ color: allFormats }, null, 2));
+          console.log(JSON.stringify({ color: formatColorStructured(validatedColor) }, null, 2));
         } else if (outputType === 'css') {
           const lines = [':root {'];
-          for (const [fmt, value] of Object.entries(allFormats)) {
-            lines.push(`  --color-${fmt}: ${value};`);
+          for (const fmt of validFormats) {
+            lines.push(`  --color-${fmt}: ${formatColor(validatedColor, fmt as ColorFormat)};`);
           }
           lines.push('}');
           console.log(lines.join('\n'));
         } else {
-          for (const [fmt, value] of Object.entries(allFormats)) {
-            console.log(`${fmt}: ${value}`);
+          for (const fmt of validFormats) {
+            console.log(`${fmt}: ${formatColor(validatedColor, fmt as ColorFormat)}`);
           }
         }
       }
@@ -683,6 +700,7 @@ const main = defineCommand({
       baseColor: formatColor(validatedColor, outputFormat),
       config: buildRampConfig(),
       colors: formattedBaseColors,
+      rawColors: baseColors,
     });
 
     // Generate harmony ramps
@@ -697,6 +715,7 @@ const main = defineCommand({
           baseColor: formatColor(harmonyBaseColor, outputFormat),
           config: buildRampConfig(),
           colors: formattedHarmonyColors,
+          rawColors: harmonyRampColors,
         });
       });
     }
@@ -714,6 +733,7 @@ const main = defineCommand({
         baseColor: formatColor(shiftedBaseColor, outputFormat),
         config: buildRampConfig(),
         colors: formattedShiftedColors,
+        rawColors: shiftedRampColors,
       });
     }
 
