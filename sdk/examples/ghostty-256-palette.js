@@ -242,7 +242,7 @@ function formatGhosttyConfig(palette) {
       label = `  gray ${i - 232 + 1}/24`;
     }
 
-    lines.push(`${block} palette = ${String(i).padStart(3)}=${hex}${label}`);
+    lines.push(`${block} ${String(i).padStart(3)}  ${hex}${label}`);
   }
 
   return lines.join('\n');
