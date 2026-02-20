@@ -495,7 +495,7 @@ const main = defineCommand({
         const converted = formatColor(validatedColor, outputFormat);
         if (outputType === 'json') {
           const structured = formatColorStructured(validatedColor);
-          console.log(JSON.stringify({ color: { value: converted, ...structured } }, null, 2));
+          console.log(JSON.stringify({ color: { value: converted, [outputFormat]: (structured as any)[outputFormat] } }, null, 2));
         } else if (outputType === 'css') {
           console.log(`:root {\n  --color: ${converted};\n}`);
         } else {
@@ -742,13 +742,14 @@ const main = defineCommand({
     const accessibilityFilter = accessibilityEnabled ? parseAccessibilityFilter(args.accessibility) : undefined;
 
     // Output based on format
+    const jsonFormat = args.format ? outputFormat : undefined;
     if (outputType === 'json') {
       if (accessibilityEnabled) {
         const report = generateAccessibilityReport(ramps, accessibilityFilter!);
-        const output = { ramps: JSON.parse(formatJson(ramps)).ramps, accessibility: formatAccessibilityJson(report) };
+        const output = { ramps: JSON.parse(formatJson(ramps, jsonFormat)).ramps, accessibility: formatAccessibilityJson(report) };
         console.log(JSON.stringify(output, null, 2));
       } else {
-        console.log(formatJson(ramps));
+        console.log(formatJson(ramps, jsonFormat));
       }
     } else if (outputType === 'css') {
       let output = formatCss(ramps);
