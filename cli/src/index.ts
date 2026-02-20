@@ -102,6 +102,8 @@ EXAMPLES
   ${cyan}rampa -C "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
   ${cyan}rampa -C "#3b82f6" -A${reset}
   ${cyan}rampa -C "#3b82f6" --add=complementary -O json -A${reset}
+  ${cyan}rampa -C "#fe0000" --read-only${reset}
+  ${cyan}rampa -C "#fe0000" --read-only -F hsl -O json${reset}
 `;
   console.log(help.trim());
   process.exit(0);
