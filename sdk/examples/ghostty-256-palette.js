@@ -14,11 +14,11 @@
  * Usage:
  *   node ghostty-256-palette.js
  *   node ghostty-256-palette.js --theme solarized-dark
- *   node ghostty-256-palette.js --preview
- *   node ghostty-256-palette.js --theme tokyo-night --preview
+ *   node ghostty-256-palette.js --table
+ *   node ghostty-256-palette.js --theme tokyo-night --table
  *
  * Output: Ghostty-compatible palette config lines
- *         With --preview: renders a 2D color grid to the terminal
+ *         With --table: renders a 2D color grid to the terminal
  */
 
 import { rampa } from '@basiclines/rampa-sdk';
@@ -405,7 +405,7 @@ function renderPreview(palette, theme, themeName) {
 // ── Main ───────────────────────────────────────────────────────────────
 
 const args = process.argv.slice(2);
-const previewMode = args.includes('--preview');
+const tableMode = args.includes('--table');
 const themeIdx = args.indexOf('--theme');
 const themeName = themeIdx !== -1 && args[themeIdx + 1] ? args[themeIdx + 1] : (
   // Also accept bare theme name (first non-flag arg)
@@ -430,7 +430,7 @@ palette.push(...cubeColors);
 const grayscale = generateGrayscaleRamp(theme.bg, theme.fg);
 palette.push(...grayscale);
 
-if (previewMode) {
+if (tableMode) {
   renderPreview(palette, theme, themeName);
 } else {
   console.log(`# Ghostty 256-color palette generated from ${themeName}`);
