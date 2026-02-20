@@ -460,20 +460,29 @@ function renderTuiDemo(palette, themeName) {
 
   const B = `${fg(borderColor)}${bg(surfaceBg)}`;
 
+  // Variable legend
+  console.log(`  ${DIM}surfaceBg  = tint({ k: 0 })   ${surfaceBg}${RST}`);
+  console.log(`  ${DIM}surface1   = tint({ w: 1 })   ${surface1}${RST}`);
+  console.log(`  ${DIM}selectedBg = tint({ b: 1 })   ${selectedBg}${RST}`);
+  console.log(`  ${DIM}border     = neutral(4)        ${borderColor}${RST}`);
+  console.log(`  ${DIM}mutedText  = neutral(12)       ${mutedText}${RST}`);
+  console.log(`  ${DIM}dimText    = neutral(18)       ${dimText}${RST}`);
+  console.log('');
+
   // Top border
   console.log(`  ${B}┌${'─'.repeat(W)}┐${RST}`);
 
   // Title bar
-  console.log(`  ${B}│${RST}${bg(surface1)}${contrastFg(surface1)}${BOLD}  My App${RST}${bg(surface1)}${' '.repeat(W - 8)}${RST}${B}│${RST}  ${DIM}base('w') on tint({ w: 1 })${RST}`);
+  console.log(`  ${B}│${RST}${bg(surface1)}${contrastFg(surface1)}${BOLD}  My App${RST}${bg(surface1)}${' '.repeat(W - 8)}${RST}${B}│${RST}  ${DIM}base('w') on surface1${RST}`);
 
   // Empty line on surface
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}  ${DIM}surfaceBg${RST}`);
 
   // Status messages
   const msgs = [
-    [p(base('g')), '✓ Task completed', "base('g')"],
-    [p(base('y')), '⚠ Warning: disk space low', "base('y')"],
-    [p(base('r')), '✗ Connection failed', "base('r')"],
+    [p(base('g')), '✓ Task completed', "base('g')  success"],
+    [p(base('y')), '⚠ Warning: disk space low', "base('y')  warning"],
+    [p(base('r')), '✗ Connection failed', "base('r')  error"],
   ];
   for (const [color, text, fn] of msgs) {
     const content = `  ${fg(color)}${text}${RST}`;
@@ -486,14 +495,14 @@ function renderTuiDemo(palette, themeName) {
 
   // Selected item
   const selInner = `  item-one.txt`;
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${bg(selectedBg)}${contrastFg(selectedBg)}${selInner}${' '.repeat(W - selInner.length - 4)}${RST}${bg(surfaceBg)}  ${RST}${B}│${RST}  ${DIM}tint({ b: 2 }) bg${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${bg(selectedBg)}${contrastFg(selectedBg)}${selInner}${' '.repeat(W - selInner.length - 4)}${RST}${bg(surfaceBg)}  ${RST}${B}│${RST}  ${DIM}selectedBg${RST}`);
 
   // Normal items
   const items = ['item-two.txt', 'item-three.txt'];
   for (const item of items) {
     const content = `    ${fg(dimText)}${item}${RST}`;
     const visLen = item.length + 4;
-    console.log(`  ${B}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${B}│${RST}  ${DIM}neutral(18)${RST}`);
+    console.log(`  ${B}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${B}│${RST}  ${DIM}dimText${RST}`);
   }
 
   // Empty line
@@ -510,11 +519,11 @@ function renderTuiDemo(palette, themeName) {
   console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Separator
-  console.log(`  ${B}├${fg(p(neutral(6)))}${bg(surfaceBg)}${'─'.repeat(W)}${RST}${B}┤${RST}  ${DIM}neutral(4) border${RST}`);
+  console.log(`  ${B}├${fg(p(neutral(6)))}${bg(surfaceBg)}${'─'.repeat(W)}${RST}${B}┤${RST}  ${DIM}border${RST}`);
 
   // Status bar
   const statusText = `  Status: connected`;
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${fg(mutedText)}${statusText}${RST}${bg(surfaceBg)}${' '.repeat(W - statusText.length - 2)}${RST}${B}│${RST}  ${DIM}neutral(12)${RST}`);
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${fg(mutedText)}${statusText}${RST}${bg(surfaceBg)}${' '.repeat(W - statusText.length - 2)}${RST}${B}│${RST}  ${DIM}mutedText${RST}`);
 
   // Bottom border
   console.log(`  ${B}└${'─'.repeat(W)}┘${RST}`);
