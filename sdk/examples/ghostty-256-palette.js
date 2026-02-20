@@ -83,6 +83,26 @@ const themes = {
 // ── Color Cube Generation ──────────────────────────────────────────────
 
 /**
+ * Look up a cube color by its (r, g, b) coordinates.
+ * Each value ranges from 0 to 5 — like rgb() but for 216 colors.
+ *
+ *   cube(0, 0, 0)  → index 16  (black/bg)
+ *   cube(5, 0, 0)  → index 196 (red)
+ *   cube(0, 5, 0)  → index 46  (green)
+ *   cube(0, 0, 5)  → index 21  (blue)
+ *   cube(5, 5, 5)  → index 231 (white/fg)
+ *   cube(3, 0, 2)  → index 124
+ *
+ * @param {number} r - Red axis (0–5)
+ * @param {number} g - Green axis (0–5)
+ * @param {number} b - Blue axis (0–5)
+ * @returns {number} Palette index (16–231)
+ */
+function cube(r, g, b) {
+  return 16 + 36 * r + 6 * g + b;
+}
+
+/**
  * Generate the 216-color cube (indices 16-231).
  *
  * The 8 corners of the RGB cube map to base16 colors:
@@ -209,7 +229,7 @@ function renderPreview(palette, theme, themeName) {
   const swatch = (hex) => `${fg(hex)}${BLOCK}${RST}`;
 
   // Get a cube color by its (r, g, b) coordinates
-  const cubeColor = (r, g, b) => palette[16 + (36 * r) + (6 * g) + b];
+  const cubeColor = (r, g, b) => palette[cube(r, g, b)];
 
   // Render a 6-step ramp between two cube corners
   function rampRow(label, coords) {
@@ -340,8 +360,8 @@ if (!theme) {
 const palette = [...theme.base16];
 
 // Color cube (16-231)
-const cube = generateColorCube(theme.base16, theme.bg, theme.fg);
-palette.push(...cube);
+const cubeColors = generateColorCube(theme.base16, theme.bg, theme.fg);
+palette.push(...cubeColors);
 
 // Grayscale ramp (232-255)
 const grayscale = generateGrayscaleRamp(theme.bg, theme.fg);
@@ -363,5 +383,5 @@ if (previewMode) {
 
 console.error(`\n✅ Generated ${palette.length} colors for ${themeName}`);
 console.error(`   Base16:    0-15  (${theme.base16.length} colors)`);
-console.error(`   Color cube: 16-231 (${cube.length} colors)`);
+console.error(`   Color cube: 16-231 (${cubeColors.length} colors)`);
 console.error(`   Grayscale: 232-255 (${grayscale.length} colors)`);
