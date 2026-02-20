@@ -536,8 +536,6 @@ async function runInteractive() {
   let showTable = false;
 
   const CLEAR = '\x1b[2J\x1b[H';
-  const ALT_SCREEN_ON = '\x1b[?1049h';
-  const ALT_SCREEN_OFF = '\x1b[?1049l';
   const HIDE_CURSOR = '\x1b[?25l';
   const SHOW_CURSOR = '\x1b[?25h';
   const DIM = '\x1b[2m';
@@ -566,13 +564,13 @@ async function runInteractive() {
   process.stdin.setRawMode(true);
   process.stdin.resume();
   process.stdin.setEncoding('utf8');
-  process.stdout.write(ALT_SCREEN_ON + HIDE_CURSOR);
+  process.stdout.write(HIDE_CURSOR);
 
   render();
 
   process.stdin.on('data', (key) => {
     if (key === 'q' || key === '\x03') {
-      process.stdout.write(SHOW_CURSOR + ALT_SCREEN_OFF);
+      process.stdout.write(SHOW_CURSOR);
       process.exit(0);
     }
     if (key === 't') {
