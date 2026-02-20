@@ -176,6 +176,9 @@ Or download CLI binaries below.
       `$1${hashes["rampa-linux-arm64"]}$2`
     );
 
+    // Sync with remote before modifying
+    await $`git pull --rebase origin main`.cwd(HOMEBREW_TAP_DIR);
+
     writeFileSync(formulaPath, formula);
 
     // Commit and push Homebrew tap
