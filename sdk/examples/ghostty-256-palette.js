@@ -503,7 +503,8 @@ function renderTuiDemo(palette, themeName) {
   const btnBg = p(tint({ b: 3 }));
   const btnSave = `${bg(btnBg)}${contrastFg(btnBg)} Save ${RST}`;
   const btnCancel = `${bg(p(neutral(6)))}${contrastFg(p(neutral(6)))} Cancel ${RST}`;
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${btnSave} ${btnCancel}${bg(surfaceBg)}${' '.repeat(W - 20)}${RST}${B}│${RST}  ${DIM}tint({ b: 3 }), neutral(6)${RST}`);
+  const btnVisLen = 2 + 6 + 1 + 8; // '  ' + ' Save ' + ' ' + ' Cancel '
+  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${btnSave}${bg(surfaceBg)} ${btnCancel}${bg(surfaceBg)}${' '.repeat(W - btnVisLen)}${RST}${B}│${RST}  ${DIM}tint({ b: 3 }), neutral(6)${RST}`);
 
   // Empty line
   console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
