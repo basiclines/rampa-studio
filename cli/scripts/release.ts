@@ -1,8 +1,11 @@
 #!/usr/bin/env bun
 /**
- * Release script for Rampa CLI
+ * Release script for Rampa CLI + SDK
  * Usage: bun run release <version>
  * Example: bun run release 1.0.2
+ * 
+ * Releases both @basiclines/rampa (CLI) and @basiclines/rampa-sdk (SDK)
+ * with the same version to keep them aligned.
  */
 
 import { $ } from "bun";
@@ -11,6 +14,7 @@ import { join } from "path";
 
 const CLI_DIR = import.meta.dir.replace("/scripts", "");
 const ROOT_DIR = join(CLI_DIR, "..");
+const SDK_DIR = join(ROOT_DIR, "sdk");
 const HOMEBREW_TAP_DIR = join(ROOT_DIR, "..", "homebrew-tap");
 
 async function main() {
@@ -28,26 +32,43 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`\n🚀 Releasing Rampa CLI v${version}\n`);
+  console.log(`\n🚀 Releasing Rampa v${version} (CLI + SDK)\n`);
 
-  // Step 1: Run tests
-  console.log("🧪 Running tests...");
+  // Step 1: Run CLI tests
+  console.log("🧪 Running CLI tests...");
   try {
     await $`bun test`.cwd(CLI_DIR);
-    console.log("✅ All tests passed!\n");
+    console.log("✅ CLI tests passed!\n");
   } catch (error) {
-    console.error("❌ Tests failed! Aborting release.");
+    console.error("❌ CLI tests failed! Aborting release.");
     process.exit(1);
   }
 
-  // Step 2: Update version in package.json
-  console.log("📦 Updating package.json...");
-  const packageJsonPath = join(CLI_DIR, "package.json");
-  const packageJson = JSON.parse(readFileSync(packageJsonPath, "utf-8"));
-  packageJson.version = version;
-  writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2) + "\n");
+  // Step 1b: Run SDK tests
+  console.log("🧪 Running SDK tests...");
+  try {
+    await $`bun test`.cwd(SDK_DIR);
+    console.log("✅ SDK tests passed!\n");
+  } catch (error) {
+    console.error("❌ SDK tests failed! Aborting release.");
+    process.exit(1);
+  }
 
-  // Step 2: Update version in index.ts
+  // Step 2: Update version in CLI package.json
+  console.log("📦 Updating CLI package.json...");
+  const cliPackageJsonPath = join(CLI_DIR, "package.json");
+  const cliPackageJson = JSON.parse(readFileSync(cliPackageJsonPath, "utf-8"));
+  cliPackageJson.version = version;
+  writeFileSync(cliPackageJsonPath, JSON.stringify(cliPackageJson, null, 2) + "\n");
+
+  // Step 2b: Update version in SDK package.json
+  console.log("📦 Updating SDK package.json...");
+  const sdkPackageJsonPath = join(SDK_DIR, "package.json");
+  const sdkPackageJson = JSON.parse(readFileSync(sdkPackageJsonPath, "utf-8"));
+  sdkPackageJson.version = version;
+  writeFileSync(sdkPackageJsonPath, JSON.stringify(sdkPackageJson, null, 2) + "\n");
+
+  // Step 2c: Update version in index.ts
   console.log("📝 Updating version in source code...");
   const indexPath = join(CLI_DIR, "src/index.ts");
   let indexContent = readFileSync(indexPath, "utf-8");
@@ -56,8 +77,12 @@ async function main() {
   writeFileSync(indexPath, indexContent);
 
   // Step 3: Build all platform binaries
-  console.log("🔨 Building binaries for all platforms...");
+  console.log("🔨 Building CLI binaries for all platforms...");
   await $`bun run build:all`.cwd(CLI_DIR);
+
+  // Step 3b: Build SDK
+  console.log("🔨 Building SDK...");
+  await $`bun run build`.cwd(SDK_DIR);
 
   // Step 4: Calculate SHA256 hashes
   console.log("🔐 Calculating SHA256 hashes...");
@@ -84,16 +109,24 @@ async function main() {
 
   // Step 6: Create GitHub release
   console.log("🎉 Creating GitHub release...");
-  const releaseNotes = `## Rampa CLI v${version}
+  const releaseNotes = `## Rampa v${version}
 
 ### Installation
 
+#### CLI
 \\\`\\\`\\\`bash
+npm install -g @basiclines/rampa
+# or
 brew tap basiclines/tap
 brew install rampa
 \\\`\\\`\\\`
 
-Or download binaries below.
+#### SDK
+\\\`\\\`\\\`bash
+npm install @basiclines/rampa-sdk
+\\\`\\\`\\\`
+
+Or download CLI binaries below.
 `;
 
   await $`gh release create ${"v" + version} \
@@ -105,17 +138,27 @@ Or download binaries below.
     --title ${"v" + version} \
     --notes ${releaseNotes}`.cwd(ROOT_DIR);
 
-  // Step 7: Publish to npm
-  console.log("📦 Publishing to npm...");
+  // Step 7: Publish CLI to npm
+  console.log("📦 Publishing CLI to npm...");
   try {
     await $`npm publish --access=public`.cwd(CLI_DIR);
-    console.log("✅ Published to npm!");
+    console.log("✅ CLI published to npm!");
   } catch (error) {
-    console.warn("⚠️  Could not publish to npm automatically.");
+    console.warn("⚠️  Could not publish CLI to npm automatically.");
     console.warn("   Run manually: cd cli && npm publish --access=public");
   }
 
-  // Step 9: Update Homebrew formula
+  // Step 7b: Publish SDK to npm
+  console.log("📦 Publishing SDK to npm...");
+  try {
+    await $`npm publish --access=public`.cwd(SDK_DIR);
+    console.log("✅ SDK published to npm!");
+  } catch (error) {
+    console.warn("⚠️  Could not publish SDK to npm automatically.");
+    console.warn("   Run manually: cd sdk && npm publish --access=public");
+  }
+
+  // Step 8: Update Homebrew formula
   console.log("🍺 Updating Homebrew formula...");
   const formulaPath = join(HOMEBREW_TAP_DIR, "Formula/rampa.rb");
   
@@ -170,7 +213,8 @@ Or download binaries below.
 ✅ Release v${version} complete!
 
 📦 GitHub Release: https://github.com/basiclines/rampa-studio/releases/tag/v${version}
-📦 npm: https://www.npmjs.com/package/@basiclines/rampa
+📦 npm CLI: https://www.npmjs.com/package/@basiclines/rampa
+📦 npm SDK: https://www.npmjs.com/package/@basiclines/rampa-sdk
 🍺 Homebrew: brew upgrade rampa
 `);
 }
