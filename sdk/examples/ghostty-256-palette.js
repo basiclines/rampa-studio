@@ -523,6 +523,9 @@ async function runInteractive() {
   let currentIdx = 0;
   let showTable = false;
 
+  const CLEAR = '\x1b[2J\x1b[H';
+  const ALT_SCREEN_ON = '\x1b[?1049h';
+  const ALT_SCREEN_OFF = '\x1b[?1049l';
   const HIDE_CURSOR = '\x1b[?25l';
   const SHOW_CURSOR = '\x1b[?25h';
   const DIM = '\x1b[2m';
@@ -532,7 +535,8 @@ async function runInteractive() {
     const theme = themes[themeName];
     const palette = generatePalette(theme);
 
-    // Theme nav bar
+    process.stdout.write(CLEAR);
+
     console.log('');
     console.log(`  ${DIM}← →  switch theme    t  toggle table    q  quit${RST}`);
     console.log(`  ${DIM}theme ${currentIdx + 1}/${themeNames.length}:${RST}  ${bg(theme.bg)}${contrastFg(theme.bg)} ${themeName} ${RST}`);
@@ -546,17 +550,17 @@ async function runInteractive() {
     }
   }
 
-  // Setup raw mode for key input
+  // Setup raw mode and alternate screen
   process.stdin.setRawMode(true);
   process.stdin.resume();
   process.stdin.setEncoding('utf8');
-  process.stdout.write(HIDE_CURSOR);
+  process.stdout.write(ALT_SCREEN_ON + HIDE_CURSOR);
 
   render();
 
   process.stdin.on('data', (key) => {
     if (key === 'q' || key === '\x03') {
-      process.stdout.write(SHOW_CURSOR);
+      process.stdout.write(SHOW_CURSOR + ALT_SCREEN_OFF);
       process.exit(0);
     }
     if (key === 't') {
