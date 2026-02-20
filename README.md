@@ -98,6 +98,12 @@ rampa -C "#3b82f6" --add=complementary -A
 # Filter by contrast level or range
 rampa -C "#3b82f6" --add=complementary -A=body
 rampa -C "#3b82f6" --add=complementary -A=15:30
+
+# Color spaces: interpolated ramp or 8-corner cube
+rampa colorspace --linear '#fff' '#000' --size 24 --at 12
+rampa colorspace --cube k=#1e1e2e r=#f38ba8 g=#a6e3a1 b=#89b4fa \
+                        y=#f9e2af m=#cba6f7 c=#94e2d5 w=#cdd6f4 \
+                 --size 6 --tint r:4,b:2
 ```
 
 ### Full CLI Documentation
@@ -146,6 +152,21 @@ rampa.convert('#fe0000', 'oklch');                     // 'oklch(62.8% 0.257 29)
 
 // OKLCH color mixing
 rampa.mix('#ff0000', '#0000ff', 0.5);                  // Perceptually uniform midpoint
+
+// Color spaces: interpolated ramps and cubes
+import { LinearColorSpace, CubeColorSpace, color } from '@basiclines/rampa-sdk';
+
+const neutral = new LinearColorSpace('#ffffff', '#000000').size(24);
+neutral(12).hex;  // Midpoint gray
+
+const tint = new CubeColorSpace({ k: '#1e1e2e', r: '#f38ba8', g: '#a6e3a1', b: '#89b4fa',
+                                   y: '#f9e2af', m: '#cba6f7', c: '#94e2d5', w: '#cdd6f4' }).size(6);
+tint({ r: 4, b: 2 }).hex;         // Query by alias intensity
+tint({ r: 4 }).format('hsl');     // Format chaining
+
+// Color inspection
+color('#3b82f6').rgb;              // { r: 59, g: 130, b: 246 }
+color('#3b82f6').luminance;        // 0.546 (OKLCH perceptual lightness)
 ```
 
 ### CLI ↔ SDK Equivalence
@@ -169,6 +190,8 @@ Every CLI flag maps to an SDK method:
 | `--read-only` | `rampa.readOnly('#fe0000').generate()` |
 | `--read-only -F hsl` | `rampa.readOnly('#fe0000').format('hsl').generate()` |
 | `--mix "#0000ff" --steps=5` | `rampa.mix('#ff0000', '#0000ff', t)` |
+| `colorspace --linear '#fff' '#000' --size 24 --at 12` | `new LinearColorSpace('#fff', '#000').size(24)(12).hex` |
+| `colorspace --cube k=#000 ... --tint r:4` | `new CubeColorSpace({...}).size(6)({ r: 4 }).hex` |
 
 ### Full SDK Documentation
 

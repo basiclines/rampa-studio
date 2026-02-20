@@ -169,6 +169,62 @@ The `-A` flag generates an accessibility report using the [APCA](https://github.
 | `minimum` | 30 | Minimum text |
 | `nontext` | 15 | Non-text elements |
 
+### Color Spaces
+
+| Flag | Description |
+|------|-------------|
+| `colorspace` | Subcommand for querying color spaces |
+
+The `colorspace` subcommand lets you define and query multi-dimensional color spaces directly from the CLI.
+
+#### Inline Mode
+
+```bash
+# Linear: 2-color interpolated ramp
+rampa colorspace --linear '#ffffff' '#000000' --size 24 --at 12
+
+# Cube: 8-corner color cube with named aliases
+rampa colorspace --cube k=#1e1e2e r=#f38ba8 g=#a6e3a1 b=#89b4fa \
+                        y=#f9e2af m=#cba6f7 c=#94e2d5 w=#cdd6f4 \
+                 --size 6 --tint r:4,b:2
+
+# Lookup table (no interpolation)
+rampa colorspace --linear '#f00' '#0f0' '#00f' --interpolation false --at 2
+```
+
+#### Config File Mode
+
+```bash
+# Define once in a JSON file, query repeatedly
+rampa colorspace --config catppuccin.json --tint r:4,b:2
+rampa colorspace --config catppuccin.json --tint w:3 --format hsl
+```
+
+Config file format:
+```json
+{
+  "type": "cube",
+  "corners": { "k": "#1e1e2e", "r": "#f38ba8", "g": "#a6e3a1", "b": "#89b4fa",
+               "y": "#f9e2af", "m": "#cba6f7", "c": "#94e2d5", "w": "#cdd6f4" },
+  "size": 6,
+  "interpolation": "oklch"
+}
+```
+
+#### Colorspace Flags
+
+| Flag | Description | Default |
+|------|-------------|---------|
+| `--linear` | Define a linear color space (2+ colors) | - |
+| `--cube` | Define a cube color space (8 key=color pairs) | - |
+| `--config` | Load color space from a JSON config file | - |
+| `--size` | Resolution per axis | 6 |
+| `--at` | Query a specific 1-based index (linear) | - |
+| `--tint` | Query cube with alias:intensity pairs (e.g., `r:4,b:2`) | - |
+| `--interpolation` | Interpolation mode: oklch, lab, rgb, false | oklch |
+| `--format` | Output format: hex, hsl, rgb, oklch | hex |
+| `--output` | Output mode: text, json | text |
+
 ### Other
 
 | Flag | Alias | Description |
@@ -300,6 +356,26 @@ rampa -C "#3b82f6" --add=complementary -A -O json
 
 # Accessibility report in CSS (appended as comment)
 rampa -C "#3b82f6" --add=complementary -A -O css
+```
+
+### Color Spaces
+
+```bash
+# Interpolated grayscale ramp, query the midpoint
+rampa colorspace --linear '#ffffff' '#000000' --size 24 --at 12
+
+# 8-corner color cube, query a tint
+rampa colorspace --cube k=#1e1e2e r=#f38ba8 g=#a6e3a1 b=#89b4fa \
+                        y=#f9e2af m=#cba6f7 c=#94e2d5 w=#cdd6f4 \
+                 --size 6 --tint r:4,b:2
+
+# Full palette as JSON
+rampa colorspace --cube k=#000 r=#f00 g=#0f0 b=#00f \
+                        y=#ff0 m=#f0f c=#0ff w=#fff \
+                 --size 6 --output json
+
+# Config file for repeated queries
+rampa colorspace --config theme.json --tint r:4,b:2 --format hsl
 ```
 
 ## Contextual Help

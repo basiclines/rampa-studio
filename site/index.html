@@ -118,6 +118,22 @@
         <pre class="mt-3 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto text-neutral-400"><code>{ "color": { "value": "hsl(217, 91%, 60%)", "hsl": { "h": 217, "s": 91, "l": 60 } } }</code></pre>
       </div>
 
+      <!-- Color Spaces -->
+      <div>
+        <h2 class="text-xl font-semibold text-white">Color spaces for structured palettes</h2>
+        <p class="mt-3 text-neutral-400">
+          Define multi-dimensional color spaces with <code class="text-neutral-300">LinearColorSpace</code> (2-color interpolated ramp) and <code class="text-neutral-300">CubeColorSpace</code> (8-corner cube with named aliases). Query colors by index or alias intensity. Supports OKLCH, LAB, and RGB interpolation, or disable interpolation for lookup tables.
+        </p>
+        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-comment"># CLI: query an 8-corner color cube</span>
+<span class="code-cmd">rampa</span> <span class="code-value">colorspace</span> <span class="code-flag">--cube</span> <span class="code-value">k=#1e1e2e r=#f38ba8 g=#a6e3a1 b=#89b4fa</span> \
+                        <span class="code-value">y=#f9e2af m=#cba6f7 c=#94e2d5 w=#cdd6f4</span> \
+                 <span class="code-flag">--size</span> <span class="code-value">6</span> <span class="code-flag">--tint</span> <span class="code-value">r:4,b:2</span></code></pre>
+        <pre class="mt-3 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-comment">// SDK: same query, programmatic</span>
+<span class="code-keyword">const</span> tint = <span class="code-keyword">new</span> <span class="code-method">CubeColorSpace</span>({ <span class="code-method">k</span>: <span class="code-string">'#1e1e2e'</span>, <span class="code-method">r</span>: <span class="code-string">'#f38ba8'</span>, ... }).<span class="code-method">size</span>(<span class="code-number">6</span>)
+tint({ <span class="code-method">r</span>: <span class="code-number">4</span>, <span class="code-method">b</span>: <span class="code-number">2</span> }).<span class="code-method">hex</span>           <span class="code-comment">// → '#7692ce'</span>
+tint({ <span class="code-method">r</span>: <span class="code-number">4</span> }).<span class="code-method">format</span>(<span class="code-string">'hsl'</span>)    <span class="code-comment">// → 'hsl(...)' format chaining</span></code></pre>
+      </div>
+
     </div>
   </section>
 
@@ -264,6 +280,48 @@
         </div>
       </div>
 
+      <!-- Color Spaces: Linear -->
+      <div>
+        <p class="text-sm text-neutral-500 mb-3">Color spaces — linear ramp</p>
+        <div class="grid sm:grid-cols-2 gap-3">
+          <div>
+            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
+            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-value">colorspace</span> \
+  <span class="code-flag">--linear</span> <span class="code-value">'#fff'</span> <span class="code-value">'#000'</span> \
+  <span class="code-flag">--size</span> <span class="code-value">24</span> <span class="code-flag">--at</span> <span class="code-value">12</span></code></pre>
+          </div>
+          <div>
+            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
+            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-keyword">const</span> neutral = <span class="code-keyword">new</span> <span class="code-method">LinearColorSpace</span>(
+  <span class="code-string">'#fff'</span>, <span class="code-string">'#000'</span>
+).<span class="code-method">size</span>(<span class="code-number">24</span>)
+neutral(<span class="code-number">12</span>).<span class="code-method">hex</span></code></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Color Spaces: Cube -->
+      <div>
+        <p class="text-sm text-neutral-500 mb-3">Color spaces — 8-corner cube</p>
+        <div class="grid sm:grid-cols-2 gap-3">
+          <div>
+            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
+            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-value">colorspace</span> \
+  <span class="code-flag">--cube</span> <span class="code-value">k=#1e1e2e</span> <span class="code-value">r=#f38ba8</span> \
+         <span class="code-value">g=#a6e3a1</span> <span class="code-value">b=#89b4fa</span> ... \
+  <span class="code-flag">--size</span> <span class="code-value">6</span> <span class="code-flag">--tint</span> <span class="code-value">r:4,b:2</span></code></pre>
+          </div>
+          <div>
+            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
+            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-keyword">const</span> tint = <span class="code-keyword">new</span> <span class="code-method">CubeColorSpace</span>({
+  <span class="code-method">k</span>: <span class="code-string">'#1e1e2e'</span>, <span class="code-method">r</span>: <span class="code-string">'#f38ba8'</span>,
+  <span class="code-method">g</span>: <span class="code-string">'#a6e3a1'</span>, <span class="code-method">b</span>: <span class="code-string">'#89b4fa'</span>, ...
+}).<span class="code-method">size</span>(<span class="code-number">6</span>)
+tint({ <span class="code-method">r</span>: <span class="code-number">4</span>, <span class="code-method">b</span>: <span class="code-number">2</span> }).<span class="code-method">hex</span></code></pre>
+          </div>
+        </div>
+      </div>
+
       <!-- Format -->
       <div>
         <p class="text-sm text-neutral-500 mb-3">Output format</p>
@@ -367,6 +425,10 @@
           <tr>
             <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Conversion</td>
             <td class="py-3 text-neutral-300">Read-only mode for single color conversion between formats.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Color Spaces</td>
+            <td class="py-3 text-neutral-300">LinearColorSpace (2-color ramp) and CubeColorSpace (8-corner cube). Configurable interpolation (OKLCH, LAB, RGB) and lookup tables. Same API in CLI and SDK.</td>
           </tr>
           <tr>
             <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Platforms</td>
