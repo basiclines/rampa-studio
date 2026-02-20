@@ -28,6 +28,14 @@ import { mixColors } from '../../src/usecases/MixColors';
 
 // Intercept --help, -h, 'help', and no-args before citty processes them
 const args = process.argv.slice(2);
+
+// Intercept colorspace subcommand
+if (args[0] === 'colorspace') {
+  const { runColorspace } = await import('./colorspace');
+  runColorspace(args.slice(1));
+  process.exit(0);
+}
+
 if (args.includes('--help') || args.includes('-h') || args.includes('help') || args.length === 0) {
   showHelp();
 }
@@ -115,6 +123,10 @@ COLOR MIXING
                                   ${dim}Produces perceptually uniform transitions.${reset}
                                   ${dim}Use with --format and --output for different formats.${reset}
 
+COLOR SPACES
+  ${cyan}rampa colorspace${reset}                ${dim}Query colors from a defined color space${reset}
+                                  ${dim}Use rampa colorspace --help for details${reset}
+
 OTHER
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
   ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
@@ -127,12 +139,10 @@ EXAMPLES
   ${cyan}rampa --color "#3b82f6" --output css${reset}
   ${cyan}rampa --color "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
   ${cyan}rampa --color "#3b82f6" --accessibility${reset}
-  ${cyan}rampa --color "#3b82f6" --add=complementary --output json --accessibility${reset}
   ${cyan}rampa --color "#fe0000" --read-only${reset}
-  ${cyan}rampa --color "#fe0000" --read-only --format hsl${reset}
-  ${cyan}rampa --color "#fe0000" --read-only --format hsl --output json${reset}
-  ${cyan}rampa --color "#ff0000" --mix "#0000ff"${reset}
-  ${cyan}rampa --color "#ff0000" --mix "#0000ff" --steps=10 --format oklch${reset}
+  ${cyan}rampa --color "#ff0000" --mix "#0000ff" --steps=10${reset}
+  ${cyan}rampa colorspace --cube k=#000 r=#f00 ... --size 6 --tint r:4,b:2${reset}
+  ${cyan}rampa colorspace --linear '#fff' '#000' --size 24 --at 12${reset}
 `;
   console.log(help.trim());
   process.exit(0);
