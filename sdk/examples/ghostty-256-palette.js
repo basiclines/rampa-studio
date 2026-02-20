@@ -193,77 +193,94 @@ function contrastFg(hex) {
 }
 
 /**
- * Render a 2D color grid preview to the terminal.
+ * Render a structured 2D preview of the 256-color palette.
  *
- * Layout (16 columns × 16 rows = 256 cells):
- *   Row 0:      colors 0–15   (base16)
- *   Rows 1–12:  colors 16–207 (first 12 rows of 6×6×6 cube, 16 per row)
- *   Row 13:     colors 208–223 (remaining cube 208–231 + grayscale 232–235)
- *   Row 14:     colors 224–239 (grayscale continued)
- *   Row 15:     colors 240–255 (grayscale end)
- *
- * On the right: base16 legend showing normal/bright pairs.
- * Below: background and foreground swatches.
+ * Layout:
+ *   1. Base16 — normal (0–7) and bright (8–15) as two rows
+ *   2. Color cube — 6 slices (one per R level), each 6×6 (G rows × B cols)
+ *      Arranged as 2 rows of 3 slices to fit terminal width
+ *   3. Grayscale ramp (232–255) as a continuous bar
+ *   4. Background / foreground swatches
  */
 function renderPreview(palette, theme, themeName) {
-  const COLS = 16;
-  const ROWS = Math.ceil(palette.length / COLS); // 16
+  const DIM = '\x1b[2m';
+  const BLOCK = '██';
 
-  // Base16 legend pairs: [normal, bright]
-  const pairs = [
-    [0, 8, 'black'],
-    [1, 9, 'red'],
-    [2, 10, 'green'],
-    [3, 11, 'yellow'],
-    [4, 12, 'blue'],
-    [5, 13, 'magenta'],
-    [6, 14, 'cyan'],
-    [7, 15, 'white'],
-  ];
+  // Colored block
+  const swatch = (hex) => `${fg(hex)}${BLOCK}${RST}`;
+
+  // Labeled swatch with background
+  const labelSwatch = (hex, label) =>
+    `${bg(hex)}${contrastFg(hex)} ${label.padEnd(3)}${RST}`;
 
   console.log('');
   console.log(`  ${themeName}`);
+
+  // ── Base16 ──
   console.log('');
+  console.log(`  ${DIM}base16${RST}`);
 
-  for (let row = 0; row < ROWS; row++) {
-    let line = '  ';
+  const names = ['blk', 'red', 'grn', 'yel', 'blu', 'mag', 'cyn', 'wht'];
 
-    for (let col = 0; col < COLS; col++) {
-      const idx = row * COLS + col;
-      if (idx < palette.length) {
-        const hex = palette[idx];
-        const label = idx.toString(16).padStart(2, '0');
-        line += `${bg(hex)}${contrastFg(hex)} ${label} ${RST}`;
+  // Normal (0–7)
+  let row = '  ';
+  for (let i = 0; i < 8; i++) row += `${swatch(palette[i])} `;
+  console.log(row + `  ${DIM}normal${RST}`);
+
+  // Bright (8–15)
+  row = '  ';
+  for (let i = 8; i < 16; i++) row += `${swatch(palette[i])} `;
+  console.log(row + `  ${DIM}bright${RST}`);
+
+  // Labels
+  row = '  ';
+  for (let i = 0; i < 8; i++) row += `${DIM}${names[i]}${RST} `;
+  console.log(row);
+
+  // ── Color Cube (6×6×6) ──
+  // Show as 2 rows of 3 slices: r=0..2 on top, r=3..5 on bottom
+  console.log('');
+  console.log(`  ${DIM}color cube  6×6×6  (b →, g ↓, r per slice)${RST}`);
+
+  for (let sliceRow = 0; sliceRow < 2; sliceRow++) {
+    // Slice headers
+    let header = '  ';
+    for (let s = 0; s < 3; s++) {
+      const r = sliceRow * 3 + s;
+      header += `${DIM}r=${r}${RST}`.padEnd(22 + 8); // account for escape codes
+    }
+    console.log('');
+    console.log(header);
+
+    // 6 rows of G values
+    for (let g = 0; g < 6; g++) {
+      let line = '  ';
+      for (let s = 0; s < 3; s++) {
+        const r = sliceRow * 3 + s;
+        for (let b = 0; b < 6; b++) {
+          const idx = 16 + (36 * r) + (6 * g) + b;
+          line += `${swatch(palette[idx])} `;
+        }
+        line += '  '; // gap between slices
       }
+      console.log(line);
     }
-
-    // Right-side legend (base16 pairs)
-    if (row >= 1 && row <= 8) {
-      const pair = pairs[row - 1];
-      const [norm, bright, name] = pair;
-      line += `  ${bg(palette[norm])}${contrastFg(palette[norm])} ${norm.toString(16)} ${RST}`;
-      line += `${bg(palette[bright])}${contrastFg(palette[bright])} ${bright.toString(16)} ${RST}`;
-      line += `  ${name}`;
-    }
-
-    console.log(line);
   }
 
-  // Background / foreground swatches
+  // ── Grayscale ──
+  console.log('');
+  console.log(`  ${DIM}grayscale  232–255${RST}`);
+  let grayBar = '  ';
+  for (let i = 232; i <= 255; i++) {
+    grayBar += `${swatch(palette[i])} `;
+  }
+  console.log(grayBar);
+
+  // ── Background / Foreground ──
   console.log('');
   const bgSwatch = `${bg(theme.bg)}${contrastFg(theme.bg)}  bg ${theme.bg}  ${RST}`;
   const fgSwatch = `${bg(theme.fg)}${contrastFg(theme.fg)}  fg ${theme.fg}  ${RST}`;
   console.log(`  ${bgSwatch}  ${fgSwatch}`);
-
-  // Grayscale ramp as a continuous bar
-  const grayStart = 232;
-  const grayEnd = 255;
-  let grayBar = '  ';
-  for (let i = grayStart; i <= grayEnd; i++) {
-    grayBar += `${bg(palette[i])}  ${RST}`;
-  }
-  console.log(`  grayscale ${grayStart}–${grayEnd}`);
-  console.log(grayBar);
   console.log('');
 }
 
