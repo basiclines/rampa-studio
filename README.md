@@ -1,6 +1,6 @@
 # Rampa
 
-Generate mathematically accurate, accessible color palettes from a base color using the OKLCH color space.
+Generate mathematically accurate, accessible color palettes from a base color using the OKLCH color space. Available as a [CLI](#%EF%B8%8F-cli), [JavaScript SDK](#-javascript-sdk), and [web app](https://rampa.studio).
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-Dual%20License-blue.svg" alt="License">
@@ -103,6 +103,72 @@ rampa -C "#3b82f6" --add=complementary -A=15:30
 ### Full CLI Documentation
 
 See [cli/README.md](./cli/README.md) for complete flag reference and examples.
+
+---
+
+## 📦 JavaScript SDK
+
+A programmatic API for generating palettes in applications, build tools, and design systems. Same engine as the CLI, fluent chainable interface.
+
+### Installation
+
+```bash
+npm install @basiclines/rampa-sdk
+```
+
+### Quick Start
+
+```typescript
+import { rampa } from '@basiclines/rampa-sdk';
+
+// Generate a 10-color palette from blue
+const result = rampa('#3b82f6').generate();
+
+// Custom lightness range with Fibonacci scale
+rampa('#3b82f6').lightness(10, 90).lightnessScale('fibonacci').generate();
+
+// Add complementary harmony ramp
+rampa('#3b82f6').add('complementary').generate();
+
+// Add custom hue shift ramp (45 degrees)
+rampa('#3b82f6').add('shift', 45).generate();
+
+// Output as CSS variables
+rampa('#3b82f6').toCSS();
+
+// Apply a warm tint
+rampa('#3b82f6').tint('#FF6B00', 15, 'overlay').generate();
+
+// Color conversion (read-only)
+rampa.readOnly('#fe0000').generate();                  // All formats
+rampa.readOnly('#fe0000').format('hsl').generate();    // 'hsl(0, 100%, 50%)'
+rampa.convert('#fe0000', 'oklch');                     // 'oklch(62.8% 0.257 29)'
+```
+
+### CLI ↔ SDK Equivalence
+
+Every CLI flag maps to an SDK method:
+
+| CLI | SDK |
+|-----|-----|
+| `-C "#3b82f6"` | `rampa('#3b82f6')` |
+| `--size=5` | `.size(5)` |
+| `-L 10:90` | `.lightness(10, 90)` |
+| `-S 80:20` | `.saturation(80, 20)` |
+| `-H -30:30` | `.hue(-30, 30)` |
+| `--lightness-scale=fibonacci` | `.lightnessScale('fibonacci')` |
+| `--add=complementary` | `.add('complementary')` |
+| `--add=shift:45` | `.add('shift', 45)` |
+| `--tint-color="#FF0000" --tint-opacity=20 --tint-blend=multiply` | `.tint('#FF0000', 20, 'multiply')` |
+| `-F oklch` | `.format('oklch')` |
+| `-O css` | `.toCSS()` |
+| `-O json` | `.toJSON()` |
+| `--read-only` | `rampa.readOnly('#fe0000').generate()` |
+| `--read-only -F hsl` | `rampa.readOnly('#fe0000').format('hsl').generate()` |
+
+### Full SDK Documentation
+
+See [sdk/README.md](./sdk/README.md) for complete API reference and examples.
 
 ---
 
@@ -220,7 +286,11 @@ rampa-studio/
 │   ├── src/              # CLI source
 │   ├── dist/             # Compiled binaries
 │   └── README.md         # CLI documentation
-└── tests/                # Test suites
+├── sdk/                  # JavaScript SDK
+│   ├── src/              # SDK source
+│   ├── tests/            # Unit & integration tests
+│   └── README.md         # SDK documentation
+└── tests/                # Web app test suites
 ```
 
 ---
@@ -230,6 +300,9 @@ rampa-studio/
 ```bash
 # Run CLI tests
 cd cli && bun test
+
+# Run SDK tests
+cd sdk && bun test
 ```
 
 ---

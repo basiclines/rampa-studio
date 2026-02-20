@@ -1,0 +1,38 @@
+{
+  "name": "@basiclines/rampa-sdk",
+  "version": "1.0.0",
+  "description": "Programmatic JavaScript SDK for generating color palettes with rampa",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build ./src/index.ts --outfile=./dist/index.js --target=node",
+    "test": "bun test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basiclines/rampa-studio"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "sdk",
+    "design",
+    "oklch",
+    "accessibility"
+  ],
+  "author": "ismael.fyi",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "chroma-js": "^3.1.2",
+    "culori": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.17",
+    "@types/chroma-js": "^3.1.1",
+    "typescript": "^5.5.3"
+  }
+}
