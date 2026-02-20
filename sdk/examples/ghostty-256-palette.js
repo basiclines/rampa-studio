@@ -219,10 +219,32 @@ function generateGrayscaleRamp(bg, fg) {
 // ── Output Formatting ──────────────────────────────────────────────────
 
 function formatGhosttyConfig(palette) {
+  const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
   const lines = [];
+
   for (let i = 0; i < palette.length; i++) {
-    lines.push(`palette = ${i}=${palette[i]}`);
+    const hex = palette[i];
+    const { r, g, b } = hexToRgb(hex);
+    const block = `\x1b[48;2;${r};${g};${b}m  ${RST}`;
+
+    let label = '';
+    if (i < 8) {
+      label = `  ${names[i]}`;
+    } else if (i < 16) {
+      label = `  bright ${names[i - 8]}`;
+    } else if (i <= 231) {
+      const ci = i - 16;
+      const cr = Math.floor(ci / 36);
+      const cg = Math.floor((ci % 36) / 6);
+      const cb = ci % 6;
+      label = `  cube(${cr},${cg},${cb})`;
+    } else {
+      label = `  gray ${i - 232 + 1}/24`;
+    }
+
+    lines.push(`${block} palette = ${String(i).padStart(3)}=${hex}${label}`);
   }
+
   return lines.join('\n');
 }
 
