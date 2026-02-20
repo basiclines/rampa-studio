@@ -27,14 +27,33 @@ describe('CLI Integration', () => {
       expect(result).toContain('USAGE');
     });
 
-    it('should require --color flag', async () => {
-      try {
-        await $`${CLI_PATH}`.text();
-        expect(true).toBe(false); // Should not reach here
-      } catch (error) {
-        // Expected to fail without --color
-        expect(true).toBe(true);
-      }
+    it('should show help with no arguments', async () => {
+      const result = await $`${CLI_PATH}`.text();
+      
+      expect(result).toContain('rampa');
+      expect(result).toContain('USAGE');
+      expect(result).toContain('--color');
+      expect(result).toContain('EXAMPLES');
+    });
+
+    it('should show help with "help" subcommand', async () => {
+      const result = await $`${CLI_PATH} help`.text();
+      
+      expect(result).toContain('rampa');
+      expect(result).toContain('USAGE');
+      expect(result).toContain('--color');
+      expect(result).toContain('EXAMPLES');
+    });
+
+    it('should show same help output for all help variants', async () => {
+      const helpFlag = await $`${CLI_PATH} --help`.text();
+      const hFlag = await $`${CLI_PATH} -h`.text();
+      const noArgs = await $`${CLI_PATH}`.text();
+      const helpCmd = await $`${CLI_PATH} help`.text();
+
+      expect(helpFlag).toBe(hFlag);
+      expect(helpFlag).toBe(noArgs);
+      expect(helpFlag).toBe(helpCmd);
     });
   });
 
