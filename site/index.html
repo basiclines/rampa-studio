@@ -103,6 +103,16 @@
         <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#6B7280"</span> <span class="code-flag">--tint-color</span>=<span class="code-value">"#3b82f6"</span> <span class="code-flag">--tint-opacity</span>=<span class="code-value">15</span> <span class="code-flag">--tint-blend</span>=<span class="code-value">overlay</span></code></pre>
       </div>
 
+      <!-- Color conversion -->
+      <div>
+        <h2 class="text-xl font-semibold text-white">Color conversion, structured output</h2>
+        <p class="mt-3 text-neutral-400">
+          Read a color in any format and convert it to hex, rgb, hsl, or oklch. Use <code class="text-neutral-300">--read-only</code> to skip ramp generation. JSON output returns structured values — no CSS strings to parse.
+        </p>
+        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--read-only</span> <span class="code-flag">-O</span> <span class="code-value">json</span> <span class="code-flag">-F</span> <span class="code-value">hsl</span></code></pre>
+        <pre class="mt-3 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto text-neutral-400"><code>{ "color": { "value": "hsl(217, 91%, 60%)", "hsl": { "h": 217, "s": 91, "l": 60 } } }</code></pre>
+      </div>
+
     </div>
   </section>
 
@@ -186,7 +196,11 @@
           </tr>
           <tr>
             <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Output</td>
-            <td class="py-3 text-neutral-300">CSS custom properties, JSON, plain text.</td>
+            <td class="py-3 text-neutral-300">CSS custom properties, JSON (structured values), plain text.</td>
+          </tr>
+          <tr>
+            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Conversion</td>
+            <td class="py-3 text-neutral-300">Read-only mode for single color conversion between formats.</td>
           </tr>
           <tr>
             <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Platforms</td>
