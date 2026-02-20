@@ -147,6 +147,20 @@ function cube(r, g, b) {
 }
 
 /**
+ * Access base16 normal colors (indices 0–7).
+ * base('red') or base('r') → index 1
+ */
+const baseMap = { k: 0, r: 1, g: 2, y: 3, b: 4, m: 5, c: 6, w: 7,
+  black: 0, red: 1, green: 2, yellow: 3, blue: 4, magenta: 5, cyan: 6, white: 7 };
+function base(name) { return baseMap[name]; }
+
+/**
+ * Access base16 bright colors (indices 8–15).
+ * bright('red') or bright('r') → index 9
+ */
+function bright(name) { return baseMap[name] + 8; }
+
+/**
  * Semantic color lookup using ANSI color names.
  * Like HSL but for the 256-color cube — uses theme-relative names
  * instead of abstract r,g,b coordinates.
@@ -307,11 +321,6 @@ function formatGhosttyConfig(palette) {
   }
 
   // Base16 tint equivalents
-  const base16Tint = {
-    0: 'tint({ k: 0 })', 1: 'tint({ r: 5 })', 2: 'tint({ g: 5 })',
-    3: 'tint({ y: 5 })', 4: 'tint({ b: 5 })', 5: 'tint({ m: 5 })',
-    6: 'tint({ c: 5 })', 7: 'tint({ w: 5 })',
-  };
 
   for (let i = 0; i < palette.length; i++) {
     const hex = palette[i];
@@ -320,9 +329,11 @@ function formatGhosttyConfig(palette) {
 
     let label = '';
     if (i < 8) {
-      label = `  ${names[i].padEnd(10)} → ${base16Tint[i]}`;
+      const abbr = ['k','r','g','y','b','m','c','w'][i];
+      label = `  ${names[i].padEnd(10)} → base('${abbr}')`;
     } else if (i < 16) {
-      label = `  bright ${names[i - 8]}`;
+      const abbr = ['k','r','g','y','b','m','c','w'][i - 8];
+      label = `  bright ${names[i - 8].padEnd(5)} → bright('${abbr}')`;
     } else if (i <= 231) {
       const ci = i - 16;
       const cr = Math.floor(ci / 36);
@@ -392,23 +403,25 @@ function renderPreview(palette, theme, themeName) {
 
   // ── Base16 ──
   console.log('');
-  console.log(`  ${DIM}base16${RST}`);
+  console.log(`  ${DIM}base16  base(prefix) / bright(prefix)${RST}`);
+  console.log('');
 
   const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
+  const abbrs = ['k', 'r', 'g', 'y', 'b', 'm', 'c', 'w'];
 
-  // Normal (0–7) with index labels
-  let row = '  ';
-  for (let i = 0; i < 8; i++) row += `${swatch(palette[i], ` ${String(i).padStart(2)} `)}`;
-  console.log(row + `  ${DIM}normal${RST}`);
+  // Normal (0–7) with hex
+  let row = `  ${DIM}base()  ${RST}  `;
+  for (let i = 0; i < 8; i++) row += `${swatch(palette[i], ` ${palette[i]} `)} `;
+  console.log(row);
 
-  // Bright (8–15) with index labels
-  row = '  ';
-  for (let i = 8; i < 16; i++) row += `${swatch(palette[i], ` ${String(i).padStart(2)} `)}`;
-  console.log(row + `  ${DIM}bright${RST}`);
+  // Bright (8–15) with hex
+  row = `  ${DIM}bright()${RST}  `;
+  for (let i = 8; i < 16; i++) row += `${swatch(palette[i], ` ${palette[i]} `)} `;
+  console.log(row);
 
-  // Names
-  row = '  ';
-  for (let i = 0; i < 8; i++) row += ` ${DIM}${names[i].slice(0, 3).padEnd(3)}${RST}`;
+  // Prefix legend
+  row = '              ';
+  for (let i = 0; i < 8; i++) row += `${DIM}  ${abbrs[i]}=${names[i].slice(0, 3)}  ${RST}`;
   console.log(row);
 
   // ── Color Cube — all 216 colors ──
