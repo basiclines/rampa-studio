@@ -430,48 +430,16 @@ function renderPreview(palette, theme, themeName) {
     let line = `  ${DIM}${hue.padEnd(10)}${RST}      `;
     for (let n = 0; n < 6; n++) {
       const idx = tint(hue, n);
-      line += `${swatch(palette[idx], `  ${n} `)} `;
+      line += `${swatch(palette[idx], ` ${palette[idx]} `)} `;
     }
     console.log(line);
   }
 
-  // Two-hue blend ramps
-  console.log('');
-  console.log(`  ${DIM}two-hue blends  tint(hue1, hue2, intensity)${RST}`);
-  console.log('');
-
-  const blends = [
-    ['red', 'green'],
-    ['red', 'yellow'],
-    ['red', 'blue'],
-    ['red', 'magenta'],
-    ['red', 'cyan'],
-    ['green', 'yellow'],
-    ['green', 'blue'],
-    ['green', 'magenta'],
-    ['green', 'cyan'],
-    ['yellow', 'blue'],
-    ['yellow', 'magenta'],
-    ['yellow', 'cyan'],
-    ['blue', 'magenta'],
-    ['blue', 'cyan'],
-    ['magenta', 'cyan'],
-    ['red', 'white'],
-    ['green', 'white'],
-    ['yellow', 'white'],
-    ['blue', 'white'],
-    ['magenta', 'white'],
-    ['cyan', 'white'],
-  ];
-
-  for (const [h1, h2] of blends) {
-    let line = `  ${DIM}${(h1 + '+' + h2).padEnd(16)}${RST}`;
-    for (let n = 0; n < 6; n++) {
-      const idx = tint(h1, h2, n);
-      line += `${swatch(palette[idx], `  ${n} `)} `;
-    }
-    console.log(line);
-  }
+  // Two-hue blend note: with Math.max on axis masks, all two-hue blends
+  // collapse to existing single-hue ramps (e.g., red+blue = magenta,
+  // red+green = yellow, anything+white = white). The 8 single-hue ramps
+  // above cover all unique tint() outputs. The remaining cube positions
+  // (where axes have different non-zero values) require cube(r,g,b) directly.
 
   // ── Grayscale ──
   console.log('');
