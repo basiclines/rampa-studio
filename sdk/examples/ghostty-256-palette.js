@@ -447,83 +447,109 @@ function renderTuiDemo(palette, themeName) {
   console.log(`  ${DIM}TUI Preview — ${themeName}${RST}`);
   console.log('');
 
-  // Surface colors
-  const surfaceBg = p(tint({ k: 0 }));    // darkest surface
-  const surface1 = p(tint({ w: 1 }));      // slightly lifted
-  const selectedBg = p(tint({ b: 1 }));    // selected item
-  const borderColor = p(neutral(4));
-  const mutedText = p(neutral(12));
-  const dimText = p(neutral(18));
+  // Design tokens
+  const backgroundPrimary   = p(tint({ k: 0 }));
+  const backgroundSecondary = p(tint({ w: 1 }));
+  const surfacePrimary      = p(tint({ b: 1 }));
+  const textPrimary         = p(base('w'));
+  const textSecondary       = p(neutral(18));
+  const textTertiary        = p(neutral(12));
+  const statusSuccess       = p(base('g'));
+  const statusWarning       = p(base('y'));
+  const statusDanger        = p(base('r'));
+  const statusInfo          = p(base('b'));
+  const selected            = p(tint({ b: 2 }));
+  const border              = p(neutral(4));
 
   const W = 56;
-  const pad = (s, w) => s + ' '.repeat(Math.max(0, w - s.length));
+  const B = `${fg(border)}${bg(backgroundPrimary)}`;
 
-  const B = `${fg(borderColor)}${bg(surfaceBg)}`;
-
-  // Variable legend
-  console.log(`  ${DIM}surfaceBg  = tint({ k: 0 })   ${surfaceBg}${RST}`);
-  console.log(`  ${DIM}surface1   = tint({ w: 1 })   ${surface1}${RST}`);
-  console.log(`  ${DIM}selectedBg = tint({ b: 1 })   ${selectedBg}${RST}`);
-  console.log(`  ${DIM}border     = neutral(4)        ${borderColor}${RST}`);
-  console.log(`  ${DIM}mutedText  = neutral(12)       ${mutedText}${RST}`);
-  console.log(`  ${DIM}dimText    = neutral(18)       ${dimText}${RST}`);
+  // Token legend with swatches
+  const tokens = [
+    ['backgroundPrimary  ', 'tint({ k: 0 })', backgroundPrimary],
+    ['backgroundSecondary', 'tint({ w: 1 })', backgroundSecondary],
+    ['surfacePrimary     ', 'tint({ b: 1 })', surfacePrimary],
+    ['textPrimary        ', "base('w')     ", textPrimary],
+    ['textSecondary      ', 'neutral(18)   ', textSecondary],
+    ['textTertiary       ', 'neutral(12)   ', textTertiary],
+    ['statusSuccess      ', "base('g')     ", statusSuccess],
+    ['statusWarning      ', "base('y')     ", statusWarning],
+    ['statusDanger       ', "base('r')     ", statusDanger],
+    ['statusInfo         ', "base('b')     ", statusInfo],
+    ['selected           ', 'tint({ b: 2 })', selected],
+    ['border             ', 'neutral(4)    ', border],
+  ];
+  for (const [name, fn, hex] of tokens) {
+    const { r, g, b: bl } = hexToRgb(hex);
+    const swatch = `\x1b[48;2;${r};${g};${bl}m    ${RST}`;
+    console.log(`  ${swatch} ${DIM}${name} = ${fn}  ${hex}${RST}`);
+  }
   console.log('');
 
+  // ── TUI ──
   // Top border
   console.log(`  ${B}┌${'─'.repeat(W)}┐${RST}`);
 
   // Title bar
-  console.log(`  ${B}│${RST}${bg(surface1)}${contrastFg(surface1)}${BOLD}  My App${RST}${bg(surface1)}${' '.repeat(W - 8)}${RST}${B}│${RST}  ${DIM}base('w') on surface1${RST}`);
+  console.log(`  ${B}│${RST}${bg(backgroundSecondary)}${fg(textPrimary)}${BOLD}  My App${RST}${bg(backgroundSecondary)}${' '.repeat(W - 8)}${RST}${B}│${RST}  ${DIM}backgroundSecondary + textPrimary${RST}`);
 
-  // Empty line on surface
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}  ${DIM}surfaceBg${RST}`);
+  // Empty line
+  console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Status messages
   const msgs = [
-    [p(base('g')), '✓ Task completed', "base('g')  success"],
-    [p(base('y')), '⚠ Warning: disk space low', "base('y')  warning"],
-    [p(base('r')), '✗ Connection failed', "base('r')  error"],
+    [statusSuccess, '✓ Task completed',          'statusSuccess'],
+    [statusWarning, '⚠ Warning: disk space low', 'statusWarning'],
+    [statusDanger,  '✗ Connection failed',        'statusDanger'],
+    [statusInfo,    'ℹ 3 updates available',      'statusInfo'],
   ];
-  for (const [color, text, fn] of msgs) {
+  for (const [color, text, token] of msgs) {
     const content = `  ${fg(color)}${text}${RST}`;
     const visLen = text.length + 2;
-    console.log(`  ${B}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${B}│${RST}  ${DIM}${fn}${RST}`);
+    console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${content}${bg(backgroundPrimary)}${' '.repeat(W - visLen)}${RST}${B}│${RST}  ${DIM}${token}${RST}`);
   }
 
   // Empty line
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
+  console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${' '.repeat(W)}${RST}${B}│${RST}`);
+
+  // Section header
+  const sectionText = '  Files';
+  console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${fg(textTertiary)}${sectionText}${RST}${bg(backgroundPrimary)}${' '.repeat(W - sectionText.length)}${RST}${B}│${RST}  ${DIM}textTertiary${RST}`);
 
   // Selected item
-  const selInner = `  item-one.txt`;
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${bg(selectedBg)}${contrastFg(selectedBg)}${selInner}${' '.repeat(W - selInner.length - 4)}${RST}${bg(surfaceBg)}  ${RST}${B}│${RST}  ${DIM}selectedBg${RST}`);
+  const selInner = '  item-one.txt';
+  console.log(`  ${B}│${RST}${bg(backgroundPrimary)}  ${bg(selected)}${contrastFg(selected)}${selInner}${' '.repeat(W - selInner.length - 4)}${RST}${bg(backgroundPrimary)}  ${RST}${B}│${RST}  ${DIM}selected${RST}`);
 
   // Normal items
-  const items = ['item-two.txt', 'item-three.txt'];
-  for (const item of items) {
-    const content = `    ${fg(dimText)}${item}${RST}`;
+  const items = [
+    ['item-two.txt', 'textPrimary'],
+    ['item-three.txt', 'textSecondary'],
+  ];
+  for (const [item, token] of items) {
+    const textColor = token === 'textPrimary' ? textPrimary : textSecondary;
+    const content = `    ${fg(textColor)}${item}${RST}`;
     const visLen = item.length + 4;
-    console.log(`  ${B}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${B}│${RST}  ${DIM}dimText${RST}`);
+    console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${content}${bg(backgroundPrimary)}${' '.repeat(W - visLen)}${RST}${B}│${RST}  ${DIM}${token}${RST}`);
   }
 
   // Empty line
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
+  console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
-  // Buttons
-  const btnBg = p(tint({ b: 3 }));
-  const btnSave = `${bg(btnBg)}${contrastFg(btnBg)} Save ${RST}`;
-  const btnCancel = `${bg(p(neutral(6)))}${contrastFg(p(neutral(6)))} Cancel ${RST}`;
-  const btnVisLen = 2 + 6 + 1 + 8; // '  ' + ' Save ' + ' ' + ' Cancel '
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${btnSave}${bg(surfaceBg)} ${btnCancel}${bg(surfaceBg)}${' '.repeat(W - btnVisLen)}${RST}${B}│${RST}  ${DIM}tint({ b: 3 }), neutral(6)${RST}`);
+  // Buttons on surface
+  const btnPrimary = `${bg(p(tint({ b: 3 })))}${contrastFg(p(tint({ b: 3 })))} Save ${RST}`;
+  const btnSecondary = `${bg(surfacePrimary)}${contrastFg(surfacePrimary)} Cancel ${RST}`;
+  const btnVisLen = 2 + 6 + 1 + 8;
+  console.log(`  ${B}│${RST}${bg(backgroundPrimary)}  ${btnPrimary}${bg(backgroundPrimary)} ${btnSecondary}${bg(backgroundPrimary)}${' '.repeat(W - btnVisLen)}${RST}${B}│${RST}  ${DIM}surfacePrimary${RST}`);
 
   // Empty line
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${B}│${RST}`);
+  console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Separator
-  console.log(`  ${B}├${fg(p(neutral(6)))}${bg(surfaceBg)}${'─'.repeat(W)}${RST}${B}┤${RST}  ${DIM}border${RST}`);
+  console.log(`  ${B}├${'─'.repeat(W)}┤${RST}  ${DIM}border${RST}`);
 
   // Status bar
-  const statusText = `  Status: connected`;
-  console.log(`  ${B}│${RST}${bg(surfaceBg)}  ${fg(mutedText)}${statusText}${RST}${bg(surfaceBg)}${' '.repeat(W - statusText.length - 2)}${RST}${B}│${RST}  ${DIM}mutedText${RST}`);
+  const statusText = '  Status: connected';
+  console.log(`  ${B}│${RST}${bg(backgroundPrimary)}  ${fg(textTertiary)}${statusText}${RST}${bg(backgroundPrimary)}${' '.repeat(W - statusText.length - 2)}${RST}${B}│${RST}  ${DIM}textTertiary${RST}`);
 
   // Bottom border
   console.log(`  ${B}└${'─'.repeat(W)}┘${RST}`);
