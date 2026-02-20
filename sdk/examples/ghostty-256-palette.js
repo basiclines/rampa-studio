@@ -403,61 +403,28 @@ function renderPreview(palette, theme, themeName) {
   for (let i = 0; i < 8; i++) row += ` ${DIM}${names[i].slice(0, 3).padEnd(3)}${RST}`;
   console.log(row);
 
-  // ── Color Cube as tint() ramps ──
+  // ── Color Cube — all 216 colors ──
+  // 6 slices by r value, each is a 6×6 grid of g (rows) × b (columns)
   console.log('');
-  console.log(`  ${DIM}color cube  216 colors  tint(hue, intensity)  intensity ∈ 0–5${RST}`);
-  console.log('');
+  console.log(`  ${DIM}color cube  216 colors  tint({ r, g, b })  values ∈ 0–5${RST}`);
 
-  // Intensity labels
-  let intLabels = '                    ';
-  for (let n = 0; n < 6; n++) intLabels += `${DIM}  ${n}  ${RST}`;
-  console.log(intLabels);
+  for (let cr = 0; cr < 6; cr++) {
+    console.log('');
+    console.log(`  ${DIM}r: ${cr}${RST}`);
 
-  // Single-hue ramps
-  const prefixes = [
-    { label: 'black (k)', key: 'k' },
-    { label: 'red (r)', key: 'r' },
-    { label: 'green (g)', key: 'g' },
-    { label: 'yellow (y)', key: 'y' },
-    { label: 'blue (b)', key: 'b' },
-    { label: 'magenta (m)', key: 'm' },
-    { label: 'cyan (c)', key: 'c' },
-    { label: 'white (w)', key: 'w' },
-  ];
-  for (const { label, key } of prefixes) {
-    let line = `  ${DIM}${label.padEnd(16)}${RST}`;
-    for (let n = 0; n < 6; n++) {
-      const idx = tint({ [key]: n });
-      line += `${swatch(palette[idx], ` ${palette[idx]} `)} `;
-    }
-    console.log(line);
-  }
+    // b-axis header
+    let header = `  ${DIM}${''.padEnd(10)}${RST}`;
+    for (let cb = 0; cb < 6; cb++) header += `${DIM} b:${cb}    ${RST}`;
+    console.log(header);
 
-  // Multi-intensity blend examples
-  console.log('');
-  console.log(`  ${DIM}multi-intensity blends  tint({ hue1: n, hue2: n })${RST}`);
-  console.log('');
-
-  const blends = [
-    [{ r: 'n', b: 1 }, 'r:n, b:1'],
-    [{ r: 'n', g: 1 }, 'r:n, g:1'],
-    [{ g: 'n', b: 1 }, 'g:n, b:1'],
-    [{ r: 'n', w: 2 }, 'r:n, w:2'],
-    [{ g: 'n', w: 2 }, 'g:n, w:2'],
-    [{ b: 'n', w: 2 }, 'b:n, w:2'],
-  ];
-
-  for (const [template, label] of blends) {
-    let line = `  ${DIM}${label.padEnd(16)}${RST}`;
-    for (let n = 0; n < 6; n++) {
-      const opts = {};
-      for (const [k, v] of Object.entries(template)) {
-        opts[k] = v === 'n' ? n : v;
+    for (let cg = 0; cg < 6; cg++) {
+      let line = `  ${DIM}g: ${cg}${RST}       `;
+      for (let cb = 0; cb < 6; cb++) {
+        const idx = cube(cr, cg, cb);
+        line += `${swatch(palette[idx], ` ${palette[idx]} `)} `;
       }
-      const idx = tint(opts);
-      line += `${swatch(palette[idx], ` ${palette[idx]} `)} `;
+      console.log(line);
     }
-    console.log(line);
   }
 
   // ── Grayscale ──
