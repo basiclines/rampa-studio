@@ -456,6 +456,12 @@ function renderPreview(palette, theme, themeName) {
     ['blue', 'magenta'],
     ['blue', 'cyan'],
     ['magenta', 'cyan'],
+    ['red', 'white'],
+    ['green', 'white'],
+    ['yellow', 'white'],
+    ['blue', 'white'],
+    ['magenta', 'white'],
+    ['cyan', 'white'],
   ];
 
   for (const [h1, h2] of blends) {
