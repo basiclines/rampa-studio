@@ -147,6 +147,62 @@ function cube(r, g, b) {
 }
 
 /**
+ * Semantic color lookup using ANSI color names.
+ * Like HSL but for the 256-color cube — uses theme-relative names
+ * instead of abstract r,g,b coordinates.
+ *
+ * Single hue:
+ *   tint('red', 2)              → subtle red (cube(2,0,0))
+ *   tint('blue', 4)             → strong blue (cube(0,0,4))
+ *   tint('black', 3)            → mid surface (cube(0,0,0) region)
+ *   tint('white', 5)            → full white/fg
+ *
+ * Two-hue blend:
+ *   tint('red', 'blue', 3)      → purple (cube(3,0,3))
+ *   tint('green', 'cyan', 4)    → teal (cube(0,4,4))
+ *   tint('red', 'green', 2)     → olive (cube(2,2,0))
+ *
+ * @param {string} hue1 - ANSI color name
+ * @param {string|number} hue2OrIntensity - second hue name, or intensity (0–5)
+ * @param {number} [intensity] - intensity when two hues (0–5)
+ * @returns {number} Palette index (16–231)
+ */
+function tint(hue1, hue2OrIntensity, intensity) {
+  // Cube axis mapping: each hue sets specific axes to the intensity value
+  const axes = {
+    black:   { r: 0, g: 0, b: 0 },  // cube(0,0,0) corner
+    red:     { r: 1, g: 0, b: 0 },  // r axis
+    green:   { r: 0, g: 1, b: 0 },  // g axis
+    yellow:  { r: 1, g: 1, b: 0 },  // r+g axes
+    blue:    { r: 0, g: 0, b: 1 },  // b axis
+    magenta: { r: 1, g: 0, b: 1 },  // r+b axes
+    cyan:    { r: 0, g: 1, b: 1 },  // g+b axes
+    white:   { r: 1, g: 1, b: 1 },  // all axes
+  };
+
+  let r = 0, g = 0, b = 0;
+
+  if (typeof hue2OrIntensity === 'number') {
+    // Single hue: tint('red', 3)
+    const ax = axes[hue1];
+    const n = hue2OrIntensity;
+    r = ax.r * n;
+    g = ax.g * n;
+    b = ax.b * n;
+  } else {
+    // Two hues: tint('red', 'blue', 3)
+    const ax1 = axes[hue1];
+    const ax2 = axes[hue2OrIntensity];
+    const n = intensity;
+    r = Math.max(ax1.r, ax2.r) * n;
+    g = Math.max(ax1.g, ax2.g) * n;
+    b = Math.max(ax1.b, ax2.b) * n;
+  }
+
+  return cube(r, g, b);
+}
+
+/**
  * Generate the 216-color cube (indices 16-231).
  *
  * The 8 corners of the RGB cube map to base16 colors:
@@ -222,16 +278,42 @@ function formatGhosttyConfig(palette) {
   const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
   const lines = [];
 
-  // Base16 → cube corner mapping (index → cube coordinates)
-  const base16ToCube = {
-    0: '0,0,0', // black = bg corner
-    1: '5,0,0', // red
-    2: '0,5,0', // green
-    3: '5,5,0', // yellow
-    4: '0,0,5', // blue
-    5: '5,0,5', // magenta
-    6: '0,5,5', // cyan
-    7: '5,5,5', // white = fg corner
+  // Reverse map: cube axes → tint name
+  // Each hue activates certain axes. We reverse-lookup from (r>0, g>0, b>0) pattern.
+  function cubeToTint(cr, cg, cb) {
+    // Find which axes are active (non-zero) and their values
+    const rActive = cr > 0;
+    const gActive = cg > 0;
+    const bActive = cb > 0;
+
+    // All same value = single hue or two-hue blend
+    const vals = [cr, cg, cb].filter(v => v > 0);
+    const allSame = vals.length > 0 && vals.every(v => v === vals[0]);
+    const n = vals.length > 0 ? vals[0] : 0;
+
+    if (!rActive && !gActive && !bActive) return `tint('black', 0)`;
+
+    if (allSame) {
+      // Single axis or known combinations
+      const key = `${rActive ? 1 : 0}${gActive ? 1 : 0}${bActive ? 1 : 0}`;
+      const hueMap = {
+        '100': 'red', '010': 'green', '001': 'blue',
+        '110': 'yellow', '101': 'magenta', '011': 'cyan',
+        '111': 'white',
+      };
+      const hue = hueMap[key];
+      if (hue) return `tint('${hue}', ${n})`;
+    }
+
+    // Two different non-zero values = two-hue blend (show as cube fallback)
+    return `cube(${cr},${cg},${cb})`;
+  }
+
+  // Base16 tint equivalents
+  const base16Tint = {
+    0: "tint('black', 0)", 1: "tint('red', 5)", 2: "tint('green', 5)",
+    3: "tint('yellow', 5)", 4: "tint('blue', 5)", 5: "tint('magenta', 5)",
+    6: "tint('cyan', 5)", 7: "tint('white', 5)",
   };
 
   for (let i = 0; i < palette.length; i++) {
@@ -241,7 +323,7 @@ function formatGhosttyConfig(palette) {
 
     let label = '';
     if (i < 8) {
-      label = `  ${names[i].padEnd(10)} → cube(${base16ToCube[i]})`;
+      label = `  ${names[i].padEnd(10)} → ${base16Tint[i]}`;
     } else if (i < 16) {
       label = `  bright ${names[i - 8]}`;
     } else if (i <= 231) {
@@ -249,7 +331,7 @@ function formatGhosttyConfig(palette) {
       const cr = Math.floor(ci / 36);
       const cg = Math.floor((ci % 36) / 6);
       const cb = ci % 6;
-      label = `  cube(${cr},${cg},${cb})`;
+      label = `  ${cubeToTint(cr, cg, cb)}`;
     } else {
       const step = i - 232 + 1;
       label = `  gray ${String(step).padStart(2)}/24     → bg [${'█'.repeat(step)}${'·'.repeat(24 - step)}] fg`;
@@ -332,71 +414,49 @@ function renderPreview(palette, theme, themeName) {
   for (let i = 0; i < 8; i++) row += ` ${DIM}${names[i].slice(0, 3).padEnd(3)}${RST}`;
   console.log(row);
 
-  // ── Color Cube ──
-  // Show all 216 colors as 6 slices, one per r value
-  // Each slice is a 6×6 grid: g (rows) × b (columns)
-  // Labels show cube(r,g,b) coordinates
+  // ── Color Cube as tint() ramps ──
   console.log('');
-  console.log(`  ${DIM}color cube  216 colors  cube(r, g, b)  r,g,b ∈ 0–5${RST}`);
+  console.log(`  ${DIM}color cube  216 colors  tint(hue, intensity)  intensity ∈ 0–5${RST}`);
+  console.log('');
 
-  // 2 rows of 3 slices each
-  for (let sliceRow = 0; sliceRow < 2; sliceRow++) {
-    console.log('');
+  // Intensity labels
+  let intLabels = '                    ';
+  for (let n = 0; n < 6; n++) intLabels += `${DIM}  ${n}  ${RST}`;
+  console.log(intLabels);
 
-    // Slice headers with corner color names
-    const cornerNames = [
-      ['black', 'green'],    // r=0: black(0,0,0)→green(0,5,0)
-      ['', ''],              // r=1
-      ['', ''],              // r=2
-      ['', ''],              // r=3
-      ['', ''],              // r=4
-      ['red', 'yellow'],     // r=5: red(5,0,0)→yellow(5,5,0)
-    ];
-    const sliceColors = [
-      [names[0], names[4]],  // r=0: black corner, blue corner
-      [], [],
-      [], [],
-      [names[1], names[5]],  // r=5: red corner, magenta corner
-    ];
-
-    let header = '  ';
-    for (let s = 0; s < 3; s++) {
-      const r = sliceRow * 3 + s;
-      header += `${DIM}r=${r}${RST}                          `;
+  // Single-hue ramps
+  const hueNames = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
+  for (const hue of hueNames) {
+    let line = `  ${DIM}${hue.padEnd(10)}${RST}      `;
+    for (let n = 0; n < 6; n++) {
+      const idx = tint(hue, n);
+      line += `${swatch(palette[idx], `  ${n} `)} `;
     }
-    console.log(header);
-
-    // b-axis labels
-    let bLabels = '  ';
-    for (let s = 0; s < 3; s++) {
-      const r = sliceRow * 3 + s;
-      for (let b = 0; b < 6; b++) {
-        bLabels += `${DIM} b${b} ${RST}`;
-      }
-      bLabels += '  ';
-    }
-    console.log(bLabels);
-
-    // 6 rows (g=0..5)
-    for (let g = 0; g < 6; g++) {
-      let line = '  ';
-      for (let s = 0; s < 3; s++) {
-        const r = sliceRow * 3 + s;
-        for (let b = 0; b < 6; b++) {
-          const idx = cube(r, g, b);
-          line += `${swatch(palette[idx], `${r}${g}${b} `)}`;
-        }
-        line += '  ';
-      }
-      line += `${DIM}g=${g}${RST}`;
-      console.log(line);
-    }
+    console.log(line);
   }
 
-  // Corner legend
+  // Two-hue blend ramps
   console.log('');
-  console.log(`  ${DIM}corners:  000=${names[0]}  500=${names[1]}  050=${names[2]}  550=${names[3]}${RST}`);
-  console.log(`  ${DIM}          005=${names[4]}  505=${names[5]}  055=${names[6]}  555=${names[7]}${RST}`);
+  console.log(`  ${DIM}two-hue blends  tint(hue1, hue2, intensity)${RST}`);
+  console.log('');
+
+  const blends = [
+    ['red', 'blue'],      // purple
+    ['red', 'green'],     // olive/brown
+    ['red', 'cyan'],      // warm gray
+    ['green', 'blue'],    // teal
+    ['green', 'magenta'], // muted
+    ['blue', 'yellow'],   // cool/warm
+  ];
+
+  for (const [h1, h2] of blends) {
+    let line = `  ${DIM}${(h1 + '+' + h2).padEnd(16)}${RST}`;
+    for (let n = 0; n < 6; n++) {
+      const idx = tint(h1, h2, n);
+      line += `${swatch(palette[idx], `  ${n} `)} `;
+    }
+    console.log(line);
+  }
 
   // ── Grayscale ──
   console.log('');
