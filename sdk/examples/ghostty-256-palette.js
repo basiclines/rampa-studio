@@ -78,6 +78,50 @@ const themes = {
       '#83a598', '#d3869b', '#8ec07c', '#ebdbb2',
     ],
   },
+  'github-dark': {
+    bg: '#24292e',
+    fg: '#c9d1d9',
+    base16: [
+      '#24292e', // 0  black
+      '#f85149', // 1  red
+      '#56d364', // 2  green
+      '#e3b341', // 3  yellow
+      '#58a6ff', // 4  blue
+      '#bc8cff', // 5  magenta
+      '#39c5cf', // 6  cyan
+      '#c9d1d9', // 7  white
+      '#484f58', // 8  bright black
+      '#ff7b72', // 9  bright red
+      '#7ee787', // 10 bright green
+      '#f2cc60', // 11 bright yellow
+      '#79c0ff', // 12 bright blue
+      '#d2a8ff', // 13 bright magenta
+      '#56d4dd', // 14 bright cyan
+      '#f0f6fc', // 15 bright white
+    ],
+  },
+  'github-light': {
+    bg: '#ffffff',
+    fg: '#24292f',
+    base16: [
+      '#24292f', // 0  black
+      '#cf222e', // 1  red
+      '#116329', // 2  green
+      '#4d2d00', // 3  yellow
+      '#0969da', // 4  blue
+      '#8250df', // 5  magenta
+      '#1b7c83', // 6  cyan
+      '#6e7781', // 7  white
+      '#57606a', // 8  bright black
+      '#a40e26', // 9  bright red
+      '#1a7f37', // 10 bright green
+      '#633c01', // 11 bright yellow
+      '#218bff', // 12 bright blue
+      '#a475f9', // 13 bright magenta
+      '#3192aa', // 14 bright cyan
+      '#8c959f', // 15 bright white
+    ],
+  },
 };
 
 // ── Color Cube Generation ──────────────────────────────────────────────
