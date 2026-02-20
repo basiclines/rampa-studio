@@ -525,45 +525,21 @@ async function runInteractive() {
   const HIDE_CURSOR = '\x1b[?25l';
   const SHOW_CURSOR = '\x1b[?25h';
   const DIM = '\x1b[2m';
-  const SAVE_CURSOR = '\x1b[s';
-  const RESTORE_CURSOR = '\x1b[u';
-  const ERASE_BELOW = '\x1b[J';
-
-  let firstRender = true;
 
   function render() {
     const themeName = themeNames[currentIdx];
     const theme = themes[themeName];
     const palette = generatePalette(theme);
 
-    if (!firstRender) {
-      // Move back to saved position and clear everything below
-      process.stdout.write(RESTORE_CURSOR + ERASE_BELOW);
-    }
-
-    // Save cursor position at start of our output
-    process.stdout.write(SAVE_CURSOR);
-    firstRender = false;
-
+    // Theme nav bar
     console.log('');
     console.log(`  ${DIM}← →  switch theme    q  quit${RST}`);
-
-    // Theme selector
-    console.log('');
-    let selector = '  ';
-    for (let i = 0; i < themeNames.length; i++) {
-      if (i === currentIdx) {
-        selector += `${bg(theme.bg)}${contrastFg(theme.bg)} ${themeNames[i]} ${RST} `;
-      } else {
-        selector += `${DIM}${themeNames[i]}${RST} `;
-      }
-    }
-    console.log(selector);
+    console.log(`  ${DIM}theme ${currentIdx + 1}/${themeNames.length}:${RST}  ${bg(theme.bg)}${contrastFg(theme.bg)} ${themeName} ${RST}`);
 
     // TUI demo
     renderTuiDemo(palette, themeName);
 
-    // Color table (compact)
+    // Color table
     renderPreview(palette, theme, themeName);
   }
 
@@ -576,15 +552,15 @@ async function runInteractive() {
   render();
 
   process.stdin.on('data', (key) => {
-    if (key === 'q' || key === '\x03') { // q or Ctrl+C
+    if (key === 'q' || key === '\x03') {
       process.stdout.write(SHOW_CURSOR);
       process.exit(0);
     }
-    if (key === '\x1b[C' || key === 'l') { // right arrow or l
+    if (key === '\x1b[C' || key === 'l') {
       currentIdx = (currentIdx + 1) % themeNames.length;
       render();
     }
-    if (key === '\x1b[D' || key === 'h') { // left arrow or h
+    if (key === '\x1b[D' || key === 'h') {
       currentIdx = (currentIdx - 1 + themeNames.length) % themeNames.length;
       render();
     }
