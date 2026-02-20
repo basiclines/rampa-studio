@@ -167,39 +167,31 @@ function cube(r, g, b) {
  * @param {number} [intensity] - intensity when two hues (0–5)
  * @returns {number} Palette index (16–231)
  */
-function tint(hue1, hue2OrIntensity, intensity) {
-  // Cube axis mapping: each hue sets specific axes to the intensity value
+function tint(opts) {
+  // Shorthand prefix → axis mapping
+  // k=black, r=red, g=green, y=yellow, b=blue, m=magenta, c=cyan, w=white
   const axes = {
-    black:   { r: 0, g: 0, b: 0 },  // cube(0,0,0) corner
-    red:     { r: 1, g: 0, b: 0 },  // r axis
-    green:   { r: 0, g: 1, b: 0 },  // g axis
-    yellow:  { r: 1, g: 1, b: 0 },  // r+g axes
-    blue:    { r: 0, g: 0, b: 1 },  // b axis
-    magenta: { r: 1, g: 0, b: 1 },  // r+b axes
-    cyan:    { r: 0, g: 1, b: 1 },  // g+b axes
-    white:   { r: 1, g: 1, b: 1 },  // all axes
+    k: { r: 0, g: 0, b: 0 },
+    r: { r: 1, g: 0, b: 0 },
+    g: { r: 0, g: 1, b: 0 },
+    y: { r: 1, g: 1, b: 0 },
+    b: { r: 0, g: 0, b: 1 },
+    m: { r: 1, g: 0, b: 1 },
+    c: { r: 0, g: 1, b: 1 },
+    w: { r: 1, g: 1, b: 1 },
   };
 
-  let r = 0, g = 0, b = 0;
+  let cr = 0, cg = 0, cb = 0;
 
-  if (typeof hue2OrIntensity === 'number') {
-    // Single hue: tint('red', 3)
-    const ax = axes[hue1];
-    const n = hue2OrIntensity;
-    r = ax.r * n;
-    g = ax.g * n;
-    b = ax.b * n;
-  } else {
-    // Two hues: tint('red', 'blue', 3)
-    const ax1 = axes[hue1];
-    const ax2 = axes[hue2OrIntensity];
-    const n = intensity;
-    r = Math.max(ax1.r, ax2.r) * n;
-    g = Math.max(ax1.g, ax2.g) * n;
-    b = Math.max(ax1.b, ax2.b) * n;
+  for (const [key, n] of Object.entries(opts)) {
+    const ax = axes[key];
+    if (!ax) continue;
+    cr = Math.max(cr, ax.r * n);
+    cg = Math.max(cg, ax.g * n);
+    cb = Math.max(cb, ax.b * n);
   }
 
-  return cube(r, g, b);
+  return cube(cr, cg, cb);
 }
 
 /**
@@ -278,42 +270,39 @@ function formatGhosttyConfig(palette) {
   const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
   const lines = [];
 
-  // Reverse map: cube axes → tint name
-  // Each hue activates certain axes. We reverse-lookup from (r>0, g>0, b>0) pattern.
+  // Reverse map: cube coords → tint({ prefix: n }) syntax
   function cubeToTint(cr, cg, cb) {
-    // Find which axes are active (non-zero) and their values
-    const rActive = cr > 0;
-    const gActive = cg > 0;
-    const bActive = cb > 0;
+    if (cr === 0 && cg === 0 && cb === 0) return `tint({ k: 0 })`;
 
-    // All same value = single hue or two-hue blend
+    // Check if expressible with a single prefix
+    const rActive = cr > 0, gActive = cg > 0, bActive = cb > 0;
     const vals = [cr, cg, cb].filter(v => v > 0);
-    const allSame = vals.length > 0 && vals.every(v => v === vals[0]);
-    const n = vals.length > 0 ? vals[0] : 0;
-
-    if (!rActive && !gActive && !bActive) return `tint('black', 0)`;
+    const allSame = vals.every(v => v === vals[0]);
+    const n = vals[0];
 
     if (allSame) {
-      // Single axis or known combinations
       const key = `${rActive ? 1 : 0}${gActive ? 1 : 0}${bActive ? 1 : 0}`;
-      const hueMap = {
-        '100': 'red', '010': 'green', '001': 'blue',
-        '110': 'yellow', '101': 'magenta', '011': 'cyan',
-        '111': 'white',
+      const prefixMap = {
+        '100': 'r', '010': 'g', '001': 'b',
+        '110': 'y', '101': 'm', '011': 'c', '111': 'w',
       };
-      const hue = hueMap[key];
-      if (hue) return `tint('${hue}', ${n})`;
+      const p = prefixMap[key];
+      if (p) return `tint({ ${p}: ${n} })`;
     }
 
-    // Two different non-zero values = two-hue blend (show as cube fallback)
-    return `cube(${cr},${cg},${cb})`;
+    // Multi-intensity: decompose into minimal prefix set
+    const parts = [];
+    if (cr > 0) parts.push(`r: ${cr}`);
+    if (cg > 0) parts.push(`g: ${cg}`);
+    if (cb > 0) parts.push(`b: ${cb}`);
+    return `tint({ ${parts.join(', ')} })`;
   }
 
   // Base16 tint equivalents
   const base16Tint = {
-    0: "tint('black', 0)", 1: "tint('red', 5)", 2: "tint('green', 5)",
-    3: "tint('yellow', 5)", 4: "tint('blue', 5)", 5: "tint('magenta', 5)",
-    6: "tint('cyan', 5)", 7: "tint('white', 5)",
+    0: 'tint({ k: 0 })', 1: 'tint({ r: 5 })', 2: 'tint({ g: 5 })',
+    3: 'tint({ y: 5 })', 4: 'tint({ b: 5 })', 5: 'tint({ m: 5 })',
+    6: 'tint({ c: 5 })', 7: 'tint({ w: 5 })',
   };
 
   for (let i = 0; i < palette.length; i++) {
@@ -425,21 +414,51 @@ function renderPreview(palette, theme, themeName) {
   console.log(intLabels);
 
   // Single-hue ramps
-  const hueNames = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
-  for (const hue of hueNames) {
-    let line = `  ${DIM}${hue.padEnd(10)}${RST}      `;
+  const prefixes = [
+    { label: 'black (k)', key: 'k' },
+    { label: 'red (r)', key: 'r' },
+    { label: 'green (g)', key: 'g' },
+    { label: 'yellow (y)', key: 'y' },
+    { label: 'blue (b)', key: 'b' },
+    { label: 'magenta (m)', key: 'm' },
+    { label: 'cyan (c)', key: 'c' },
+    { label: 'white (w)', key: 'w' },
+  ];
+  for (const { label, key } of prefixes) {
+    let line = `  ${DIM}${label.padEnd(16)}${RST}`;
     for (let n = 0; n < 6; n++) {
-      const idx = tint(hue, n);
+      const idx = tint({ [key]: n });
       line += `${swatch(palette[idx], ` ${palette[idx]} `)} `;
     }
     console.log(line);
   }
 
-  // Two-hue blend note: with Math.max on axis masks, all two-hue blends
-  // collapse to existing single-hue ramps (e.g., red+blue = magenta,
-  // red+green = yellow, anything+white = white). The 8 single-hue ramps
-  // above cover all unique tint() outputs. The remaining cube positions
-  // (where axes have different non-zero values) require cube(r,g,b) directly.
+  // Multi-intensity blend examples
+  console.log('');
+  console.log(`  ${DIM}multi-intensity blends  tint({ hue1: n, hue2: n })${RST}`);
+  console.log('');
+
+  const blends = [
+    [{ r: 'n', b: 1 }, 'r:n, b:1'],
+    [{ r: 'n', g: 1 }, 'r:n, g:1'],
+    [{ g: 'n', b: 1 }, 'g:n, b:1'],
+    [{ r: 'n', w: 2 }, 'r:n, w:2'],
+    [{ g: 'n', w: 2 }, 'g:n, w:2'],
+    [{ b: 'n', w: 2 }, 'b:n, w:2'],
+  ];
+
+  for (const [template, label] of blends) {
+    let line = `  ${DIM}${label.padEnd(16)}${RST}`;
+    for (let n = 0; n < 6; n++) {
+      const opts = {};
+      for (const [k, v] of Object.entries(template)) {
+        opts[k] = v === 'n' ? n : v;
+      }
+      const idx = tint(opts);
+      line += `${swatch(palette[idx], ` ${palette[idx]} `)} `;
+    }
+    console.log(line);
+  }
 
   // ── Grayscale ──
   console.log('');
