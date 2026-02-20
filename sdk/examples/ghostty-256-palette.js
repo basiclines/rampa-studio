@@ -521,6 +521,7 @@ function renderTuiDemo(palette, themeName) {
 async function runInteractive() {
   const themeNames = Object.keys(themes);
   let currentIdx = 0;
+  let showTable = false;
 
   const HIDE_CURSOR = '\x1b[?25l';
   const SHOW_CURSOR = '\x1b[?25h';
@@ -533,14 +534,16 @@ async function runInteractive() {
 
     // Theme nav bar
     console.log('');
-    console.log(`  ${DIM}← →  switch theme    q  quit${RST}`);
+    console.log(`  ${DIM}← →  switch theme    t  toggle table    q  quit${RST}`);
     console.log(`  ${DIM}theme ${currentIdx + 1}/${themeNames.length}:${RST}  ${bg(theme.bg)}${contrastFg(theme.bg)} ${themeName} ${RST}`);
 
     // TUI demo
     renderTuiDemo(palette, themeName);
 
-    // Color table
-    renderPreview(palette, theme, themeName);
+    // Color table (toggled)
+    if (showTable) {
+      renderPreview(palette, theme, themeName);
+    }
   }
 
   // Setup raw mode for key input
@@ -555,6 +558,10 @@ async function runInteractive() {
     if (key === 'q' || key === '\x03') {
       process.stdout.write(SHOW_CURSOR);
       process.exit(0);
+    }
+    if (key === 't') {
+      showTable = !showTable;
+      render();
     }
     if (key === '\x1b[C' || key === 'l') {
       currentIdx = (currentIdx + 1) % themeNames.length;
