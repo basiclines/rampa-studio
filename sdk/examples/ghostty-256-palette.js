@@ -222,6 +222,18 @@ function formatGhosttyConfig(palette) {
   const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
   const lines = [];
 
+  // Base16 → cube corner mapping (index → cube coordinates)
+  const base16ToCube = {
+    0: '0,0,0', // black = bg corner
+    1: '5,0,0', // red
+    2: '0,5,0', // green
+    3: '5,5,0', // yellow
+    4: '0,0,5', // blue
+    5: '5,0,5', // magenta
+    6: '0,5,5', // cyan
+    7: '5,5,5', // white = fg corner
+  };
+
   for (let i = 0; i < palette.length; i++) {
     const hex = palette[i];
     const { r, g, b } = hexToRgb(hex);
@@ -229,7 +241,7 @@ function formatGhosttyConfig(palette) {
 
     let label = '';
     if (i < 8) {
-      label = `  ${names[i]}`;
+      label = `  ${names[i].padEnd(10)} → cube(${base16ToCube[i]})`;
     } else if (i < 16) {
       label = `  bright ${names[i - 8]}`;
     } else if (i <= 231) {
