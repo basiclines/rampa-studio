@@ -2,39 +2,82 @@
 
 Practical examples using `@basiclines/rampa-sdk`.
 
-## Ghostty 256-Color Palette
+## Ghostty 256-Color Palette Generator
 
-Generates a full 256-color terminal palette from a base16 theme, following the approach described in [jake-stewart's writeup](https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783).
+Generates a full 256-color terminal palette from any Ghostty theme, with semantic color functions and an interactive TUI preview. Based on [jake-stewart's writeup](https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783).
+
+### Usage
 
 ```bash
-# Default theme (catppuccin-mocha)
-node ghostty-256-palette.js
+# Interactive mode — browse 438 Ghostty themes with ← → arrows
+node ghostty-256-palette.js --interactive
 
-# Choose a theme
-node ghostty-256-palette.js solarized-dark
-node ghostty-256-palette.js tokyo-night
-node ghostty-256-palette.js gruvbox-dark
+# Generate palette config for a specific theme
+node ghostty-256-palette.js --theme "Catppuccin Mocha"
 
-# Save to file
-node ghostty-256-palette.js catppuccin-mocha > ~/.config/ghostty/palette
+# Show color table with all 256 colors
+node ghostty-256-palette.js --theme "Tokyo Night" --table
+
+# List all available themes
+node ghostty-256-palette.js --list
+
+# Save palette to Ghostty config
+node ghostty-256-palette.js --theme "Catppuccin Mocha" > ~/.config/ghostty/palette
 ```
+
+### Interactive mode
+
+Press `←` `→` to switch themes, `t` to toggle the color table, `q` to quit.
+
+Shows an annotated TUI mockup using 12 semantic design tokens:
+
+| Token | Function | Purpose |
+|-------|----------|---------|
+| `backgroundPrimary` | `tint({ k: 0 })` | Main background |
+| `backgroundSecondary` | `tint({ w: 1 })` | Title bar, headers |
+| `surfacePrimary` | `tint({ b: 1 })` | Elevated surfaces |
+| `textPrimary` | `base('w')` | Primary text |
+| `textSecondary` | `neutral(18)` | Secondary text |
+| `textTertiary` | `neutral(12)` | Labels, hints |
+| `statusSuccess` | `base('g')` | Success messages |
+| `statusWarning` | `base('y')` | Warning messages |
+| `statusDanger` | `base('r')` | Error messages |
+| `statusInfo` | `base('b')` | Info messages |
+| `selected` | `tint({ b: 2 })` | Selected items |
+| `border` | `neutral(4)` | Borders, dividers |
+
+### Color functions
+
+Four functions cover all 256 colors:
+
+| Function | Range | Count | Description |
+|----------|-------|-------|-------------|
+| `base(prefix)` | 0–7 | 8 | Base16 normal colors |
+| `bright(prefix)` | 8–15 | 8 | Base16 bright colors |
+| `tint({ hues })` | 16–231 | 216 | 6×6×6 color cube |
+| `neutral(n)` | 232–255 | 24 | Grayscale ramp |
+
+**Prefixes**: `k`=black, `r`=red, `g`=green, `y`=yellow, `b`=blue, `m`=magenta, `c`=cyan, `w`=white
+
+**tint examples**:
+- `tint({ r: 4 })` — strong red
+- `tint({ b: 2, g: 3 })` — teal blend
+- `tint({ r: 5, w: 2 })` — pastel red (white raises all axes)
 
 ### How it works
 
-The script uses rampa-sdk to generate perceptually uniform color ramps:
+Uses `rampa.mix()` for perceptually uniform OKLCH interpolation:
 
-- **Colors 0-15**: Base16 colors (passed through from the theme)
-- **Colors 16-231**: 6×6×6 color cube — trilinear interpolation between the 8 base16 corners (black, red, green, yellow, blue, magenta, cyan, white) using `rampa()` ramps
-- **Colors 232-255**: 24-step grayscale ramp from background to foreground using `rampa().saturation(0, 0)`
+- **Colors 0–15**: Base16 colors from the theme
+- **Colors 16–231**: 6×6×6 color cube — trilinear interpolation between 8 base16 corners
+- **Colors 232–255**: 24-step grayscale ramp from background to foreground
 
-### Available themes
+### Requirements
 
-| Theme | Description |
-|-------|-------------|
-| `catppuccin-mocha` | Warm dark theme (default) |
-| `solarized-dark` | Ethan Schoonover's classic |
-| `tokyo-night` | Dark blue theme |
-| `gruvbox-dark` | Retro groove |
+Themes are loaded from the Ghostty app bundle:
+```
+/Applications/Ghostty.app/Contents/Resources/ghostty/themes/
+```
 
 ## Setup
 
