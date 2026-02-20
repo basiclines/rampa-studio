@@ -441,12 +441,21 @@ function renderPreview(palette, theme, themeName) {
   console.log('');
 
   const blends = [
-    ['red', 'blue'],      // purple
-    ['red', 'green'],     // olive/brown
-    ['red', 'cyan'],      // warm gray
-    ['green', 'blue'],    // teal
-    ['green', 'magenta'], // muted
-    ['blue', 'yellow'],   // cool/warm
+    ['red', 'green'],
+    ['red', 'yellow'],
+    ['red', 'blue'],
+    ['red', 'magenta'],
+    ['red', 'cyan'],
+    ['green', 'yellow'],
+    ['green', 'blue'],
+    ['green', 'magenta'],
+    ['green', 'cyan'],
+    ['yellow', 'blue'],
+    ['yellow', 'magenta'],
+    ['yellow', 'cyan'],
+    ['blue', 'magenta'],
+    ['blue', 'cyan'],
+    ['magenta', 'cyan'],
   ];
 
   for (const [h1, h2] of blends) {
