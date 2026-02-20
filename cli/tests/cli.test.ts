@@ -366,4 +366,55 @@ describe('CLI Integration', () => {
       expect(lines).toHaveLength(3);
     });
   });
+
+  describe('Read-Only Mode', () => {
+    it('should output all formats in text mode without --format', async () => {
+      const result = await $`${CLI_PATH} -C "#fe0000" --read-only`.text();
+      expect(result).toContain('hex:');
+      expect(result).toContain('hsl:');
+      expect(result).toContain('rgb:');
+      expect(result).toContain('oklch:');
+    });
+
+    it('should output single format with --format', async () => {
+      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -F hsl`.text();
+      expect(result.trim()).toMatch(/^hsl\(/);
+    });
+
+    it('should output JSON with all formats', async () => {
+      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O json`.text();
+      const parsed = JSON.parse(result);
+      expect(parsed.color).toHaveProperty('hex');
+      expect(parsed.color).toHaveProperty('hsl');
+      expect(parsed.color).toHaveProperty('rgb');
+      expect(parsed.color).toHaveProperty('oklch');
+    });
+
+    it('should output JSON with single format', async () => {
+      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O json -F hsl`.text();
+      const parsed = JSON.parse(result);
+      expect(typeof parsed.color).toBe('string');
+      expect(parsed.color).toMatch(/^hsl\(/);
+    });
+
+    it('should output CSS with all formats', async () => {
+      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O css`.text();
+      expect(result).toContain(':root {');
+      expect(result).toContain('--color-hex:');
+      expect(result).toContain('--color-hsl:');
+      expect(result).toContain('--color-rgb:');
+      expect(result).toContain('--color-oklch:');
+    });
+
+    it('should output CSS with single format', async () => {
+      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O css -F rgb`.text();
+      expect(result).toContain(':root {');
+      expect(result).toContain('--color: rgb(');
+    });
+
+    it('should accept different input formats', async () => {
+      const result = await $`${CLI_PATH} -C "rgb(254, 0, 0)" --read-only -F hex`.text();
+      expect(result.trim()).toBe('#fe0000');
+    });
+  });
 });

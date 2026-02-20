@@ -89,6 +89,7 @@ OUTPUT
                                   ${dim}Formats: text, json, css${reset}
 
 OTHER
+  ${cyan}--read-only${reset}                    ${dim}Output the color converted to target format (no ramp)${reset}
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
   ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
 
@@ -264,6 +265,19 @@ Examples:
   rampa -C "#3b82f6" --accessibility=75
   rampa -C "#3b82f6" -O json -A preferred
 `,
+  'read-only': `
+--read-only  Output the input color converted to the target format (no ramp)
+
+When --format is specified, outputs the color in that format.
+When --format is omitted, outputs all formats (hex, hsl, rgb, oklch).
+
+Examples:
+  rampa -C "#fe0000" --read-only
+  rampa -C "#fe0000" --read-only -F hsl
+  rampa -C "#fe0000" --read-only -O json
+  rampa -C "#fe0000" --read-only -O json -F hsl
+  rampa -C "#fe0000" --read-only -O css -F rgb
+`,
 };
 
 // Show help for a specific flag
@@ -399,6 +413,11 @@ const main = defineCommand({
       alias: ['A', 'a'],
       description: 'Show APCA contrast report. Optional: filter by level name or Lc value',
     },
+    'read-only': {
+      type: 'boolean',
+      description: 'Output the input color converted to the target format without generating a ramp',
+      default: false,
+    },
   },
   run({ args }) {
     // Check for help requests on specific flags (when used without proper value)
@@ -436,9 +455,53 @@ const main = defineCommand({
 
     // Determine output format (flag overrides auto-detection)
     const outputFormat = (args.format?.toLowerCase() || detectedFormat) as ColorFormat;
-    if (!validFormats.includes(outputFormat)) {
+    if (args.format && !validFormats.includes(outputFormat)) {
       console.error(`Error: Invalid format "${args.format}"\n`);
       showFlagHelp('format');
+    }
+
+    // Read-only mode: output the color without generating a ramp
+    if (args['read-only']) {
+      const outputType = args.output;
+      if (!isValidOutputFormat(outputType)) {
+        console.error(`Error: Invalid output format "${outputType}"\n`);
+        showFlagHelp('output');
+      }
+
+      const hasExplicitFormat = !!args.format;
+
+      if (hasExplicitFormat) {
+        // Single format output
+        const converted = formatColor(validatedColor, outputFormat);
+        if (outputType === 'json') {
+          console.log(JSON.stringify({ color: converted }, null, 2));
+        } else if (outputType === 'css') {
+          console.log(`:root {\n  --color: ${converted};\n}`);
+        } else {
+          console.log(converted);
+        }
+      } else {
+        // All formats
+        const allFormats: Record<string, string> = {};
+        for (const fmt of validFormats) {
+          allFormats[fmt] = formatColor(validatedColor, fmt as ColorFormat);
+        }
+        if (outputType === 'json') {
+          console.log(JSON.stringify({ color: allFormats }, null, 2));
+        } else if (outputType === 'css') {
+          const lines = [':root {'];
+          for (const [fmt, value] of Object.entries(allFormats)) {
+            lines.push(`  --color-${fmt}: ${value};`);
+          }
+          lines.push('}');
+          console.log(lines.join('\n'));
+        } else {
+          for (const [fmt, value] of Object.entries(allFormats)) {
+            console.log(`${fmt}: ${value}`);
+          }
+        }
+      }
+      return;
     }
 
     // Parse ranges
