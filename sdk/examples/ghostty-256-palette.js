@@ -224,46 +224,10 @@ function contrastFg(hex) {
  */
 function renderPreview(palette, theme, themeName) {
   const DIM = '\x1b[2m';
-  const BLOCK = '██';
 
-  const swatch = (hex) => `${fg(hex)}${BLOCK}${RST}`;
-
-  // Get a cube color by its (r, g, b) coordinates
-  const cubeColor = (r, g, b) => palette[cube(r, g, b)];
-
-  // Render a 6-step ramp between two cube corners
-  function rampRow(label, coords) {
-    let row = `  ${DIM}${label.padEnd(18)}${RST}`;
-    for (const [r, g, b] of coords) {
-      row += `${swatch(cubeColor(r, g, b))} `;
-    }
-    return row;
-  }
-
-  // Generate the 6 coordinates along a cube edge
-  function edge(from, to) {
-    const coords = [];
-    for (let i = 0; i < 6; i++) {
-      coords.push([
-        from[0] + Math.round((to[0] - from[0]) * i / 5),
-        from[1] + Math.round((to[1] - from[1]) * i / 5),
-        from[2] + Math.round((to[2] - from[2]) * i / 5),
-      ]);
-    }
-    return coords;
-  }
-
-  // Corner coordinates in the 6×6×6 cube
-  const corners = {
-    black:   [0, 0, 0],
-    red:     [5, 0, 0],
-    green:   [0, 5, 0],
-    yellow:  [5, 5, 0],
-    blue:    [0, 0, 5],
-    magenta: [5, 0, 5],
-    cyan:    [0, 5, 5],
-    white:   [5, 5, 5],
-  };
+  // Colored block with background showing the actual color
+  const swatch = (hex, label) =>
+    `${bg(hex)}${contrastFg(hex)}${label}${RST}`;
 
   console.log('');
   console.log(`  ${themeName}`);
@@ -274,60 +238,93 @@ function renderPreview(palette, theme, themeName) {
 
   const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
 
-  // Normal (0–7)
+  // Normal (0–7) with index labels
   let row = '  ';
-  for (let i = 0; i < 8; i++) row += `${swatch(palette[i])} `;
+  for (let i = 0; i < 8; i++) row += `${swatch(palette[i], ` ${i} `)} `;
   console.log(row + `  ${DIM}normal${RST}`);
 
-  // Bright (8–15)
+  // Bright (8–15) with index labels
   row = '  ';
-  for (let i = 8; i < 16; i++) row += `${swatch(palette[i])} `;
+  for (let i = 8; i < 16; i++) row += `${swatch(palette[i], ` ${i}`)} `;
   console.log(row + `  ${DIM}bright${RST}`);
 
-  // Labels
+  // Names
   row = '  ';
-  for (let i = 0; i < 8; i++) row += `${DIM}${names[i].slice(0, 3)}${RST} `;
+  for (let i = 0; i < 8; i++) row += ` ${DIM}${names[i].slice(0, 3)}${RST}`;
   console.log(row);
 
-  // ── Color Cube as named ramps ──
-  // 12 edges of the cube, grouped by starting corner
+  // ── Color Cube ──
+  // Show all 216 colors as 6 slices, one per r value
+  // Each slice is a 6×6 grid: g (rows) × b (columns)
+  // Labels show cube(r,g,b) coordinates
   console.log('');
-  console.log(`  ${DIM}color cube  216 colors  (6×6×6 OKLCH interpolation)${RST}`);
-  console.log('');
+  console.log(`  ${DIM}color cube  216 colors  cube(r, g, b)  r,g,b ∈ 0–5${RST}`);
 
-  // From black (bg)
-  console.log(`  ${DIM}from black${RST}`);
-  console.log(rampRow('black → red', edge(corners.black, corners.red)));
-  console.log(rampRow('black → green', edge(corners.black, corners.green)));
-  console.log(rampRow('black → blue', edge(corners.black, corners.blue)));
+  // 2 rows of 3 slices each
+  for (let sliceRow = 0; sliceRow < 2; sliceRow++) {
+    console.log('');
 
-  // From primaries to secondaries
-  console.log('');
-  console.log(`  ${DIM}from primaries${RST}`);
-  console.log(rampRow('red → yellow', edge(corners.red, corners.yellow)));
-  console.log(rampRow('red → magenta', edge(corners.red, corners.magenta)));
-  console.log(rampRow('green → yellow', edge(corners.green, corners.yellow)));
-  console.log(rampRow('green → cyan', edge(corners.green, corners.cyan)));
-  console.log(rampRow('blue → magenta', edge(corners.blue, corners.magenta)));
-  console.log(rampRow('blue → cyan', edge(corners.blue, corners.cyan)));
+    // Slice headers with corner color names
+    const cornerNames = [
+      ['black', 'green'],    // r=0: black(0,0,0)→green(0,5,0)
+      ['', ''],              // r=1
+      ['', ''],              // r=2
+      ['', ''],              // r=3
+      ['', ''],              // r=4
+      ['red', 'yellow'],     // r=5: red(5,0,0)→yellow(5,5,0)
+    ];
+    const sliceColors = [
+      [names[0], names[4]],  // r=0: black corner, blue corner
+      [], [],
+      [], [],
+      [names[1], names[5]],  // r=5: red corner, magenta corner
+    ];
 
-  // To white (fg)
-  console.log('');
-  console.log(`  ${DIM}to white${RST}`);
-  console.log(rampRow('yellow → white', edge(corners.yellow, corners.white)));
-  console.log(rampRow('magenta → white', edge(corners.magenta, corners.white)));
-  console.log(rampRow('cyan → white', edge(corners.cyan, corners.white)));
+    let header = '  ';
+    for (let s = 0; s < 3; s++) {
+      const r = sliceRow * 3 + s;
+      header += `${DIM}r=${r}${RST}                          `;
+    }
+    console.log(header);
 
-  // Diagonal
+    // b-axis labels
+    let bLabels = '  ';
+    for (let s = 0; s < 3; s++) {
+      const r = sliceRow * 3 + s;
+      for (let b = 0; b < 6; b++) {
+        bLabels += `${DIM} b${b} ${RST}`;
+      }
+      bLabels += '  ';
+    }
+    console.log(bLabels);
+
+    // 6 rows (g=0..5)
+    for (let g = 0; g < 6; g++) {
+      let line = '  ';
+      for (let s = 0; s < 3; s++) {
+        const r = sliceRow * 3 + s;
+        for (let b = 0; b < 6; b++) {
+          const idx = cube(r, g, b);
+          line += `${swatch(palette[idx], `${r}${g}${b} `)}`;
+        }
+        line += '  ';
+      }
+      line += `${DIM}g=${g}${RST}`;
+      console.log(line);
+    }
+  }
+
+  // Corner legend
   console.log('');
-  console.log(rampRow('black → white', edge(corners.black, corners.white)));
+  console.log(`  ${DIM}corners:  000=${names[0]}  500=${names[1]}  050=${names[2]}  550=${names[3]}${RST}`);
+  console.log(`  ${DIM}          005=${names[4]}  505=${names[5]}  055=${names[6]}  555=${names[7]}${RST}`);
 
   // ── Grayscale ──
   console.log('');
   console.log(`  ${DIM}grayscale  232–255${RST}`);
   let grayBar = '  ';
   for (let i = 232; i <= 255; i++) {
-    grayBar += `${swatch(palette[i])} `;
+    grayBar += `${swatch(palette[i], `${i} `)}`;
   }
   console.log(grayBar);
 
