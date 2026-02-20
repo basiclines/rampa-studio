@@ -243,7 +243,7 @@ function formatGhosttyConfig(palette) {
     if (i < 8) {
       label = `  ${names[i].padEnd(10)} → cube(${base16ToCube[i]})`;
     } else if (i < 16) {
-      label = `  bright ${names[i - 8].padEnd(10)} → variant of cube(${base16ToCube[i - 8]})`;
+      label = `  bright ${names[i - 8]}`;
     } else if (i <= 231) {
       const ci = i - 16;
       const cr = Math.floor(ci / 36);
