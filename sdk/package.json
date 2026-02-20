@@ -26,6 +26,10 @@
   ],
   "author": "ismael.fyi",
   "license": "SEE LICENSE IN LICENSE.md",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "dependencies": {
     "chroma-js": "^3.1.2",
     "culori": "^4.0.1"

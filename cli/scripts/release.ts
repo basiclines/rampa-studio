@@ -138,25 +138,9 @@ Or download CLI binaries below.
     --title ${"v" + version} \
     --notes ${releaseNotes}`.cwd(ROOT_DIR);
 
-  // Step 7: Publish CLI to npm
-  console.log("📦 Publishing CLI to npm...");
-  try {
-    await $`npm publish --access=public`.cwd(CLI_DIR);
-    console.log("✅ CLI published to npm!");
-  } catch (error) {
-    console.warn("⚠️  Could not publish CLI to npm automatically.");
-    console.warn("   Run manually: cd cli && npm publish --access=public");
-  }
-
-  // Step 7b: Publish SDK to npm
-  console.log("📦 Publishing SDK to npm...");
-  try {
-    await $`npm publish --access=public`.cwd(SDK_DIR);
-    console.log("✅ SDK published to npm!");
-  } catch (error) {
-    console.warn("⚠️  Could not publish SDK to npm automatically.");
-    console.warn("   Run manually: cd sdk && npm publish --access=public");
-  }
+  // Step 7: npm publish is handled by GitHub Actions (trusted publishing)
+  console.log("📦 npm publish will be handled by CI (trusted publisher via OIDC)...");
+  console.log("   The v-tag push triggers .github/workflows/release.yml");
 
   // Step 8: Update Homebrew formula
   console.log("🍺 Updating Homebrew formula...");
