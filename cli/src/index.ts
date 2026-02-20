@@ -25,9 +25,9 @@ import { parseAccessibilityFilter } from './accessibility/apca';
 import { formatAccessibilityJson } from './formatters/accessibility-json';
 import { formatAccessibilityText, formatAccessibilityCss } from './formatters/accessibility-text';
 
-// Intercept --help, -h, and no-args before citty processes them
+// Intercept --help, -h, 'help', and no-args before citty processes them
 const args = process.argv.slice(2);
-if (args.includes('--help') || args.includes('-h') || args.length === 0) {
+if (args.includes('--help') || args.includes('-h') || args.includes('help') || args.length === 0) {
   showHelp();
 }
 
