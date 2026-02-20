@@ -472,49 +472,201 @@ function renderPreview(palette, theme, themeName) {
   console.log('');
 }
 
+// ── Interactive Mode ────────────────────────────────────────────────────
+
+function generatePalette(theme) {
+  const palette = [...theme.base16];
+  palette.push(...generateColorCube(theme.base16, theme.bg, theme.fg));
+  palette.push(...generateGrayscaleRamp(theme.bg, theme.fg));
+  return palette;
+}
+
+function renderTuiDemo(palette, themeName) {
+  const DIM = '\x1b[2m';
+  const BOLD = '\x1b[1m';
+  const swatch = (hex, label) =>
+    `${bg(hex)}${contrastFg(hex)}${label}${RST}`;
+
+  const p = (idx) => palette[idx];
+
+  console.log('');
+  console.log(`  ${DIM}TUI Preview — ${themeName}${RST}`);
+  console.log('');
+
+  // Surface colors
+  const surfaceBg = p(tint({ k: 0 }));    // darkest surface
+  const surface1 = p(tint({ w: 1 }));      // slightly lifted
+  const selectedBg = p(tint({ b: 2 }));    // selected item
+  const borderColor = p(neutral(4));
+  const mutedText = p(neutral(12));
+  const dimText = p(neutral(18));
+
+  const W = 56;
+  const pad = (s, w) => s + ' '.repeat(Math.max(0, w - s.length));
+
+  // Top border
+  console.log(`  ${fg(borderColor)}┌${'─'.repeat(W)}┐${RST}`);
+
+  // Title bar
+  console.log(`  ${fg(borderColor)}│${RST}${bg(surface1)}${contrastFg(surface1)}${BOLD}  My App${RST}${bg(surface1)}${' '.repeat(W - 8)}${RST}${fg(borderColor)}│${RST}  ${DIM}base('w') on tint({ w: 1 })${RST}`);
+
+  // Empty line on surface
+  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${fg(borderColor)}│${RST}`);
+
+  // Status messages
+  const msgs = [
+    [p(base('g')), '✓ Task completed', "base('g')"],
+    [p(base('y')), '⚠ Warning: disk space low', "base('y')"],
+    [p(base('r')), '✗ Connection failed', "base('r')"],
+  ];
+  for (const [color, text, fn] of msgs) {
+    const content = `  ${fg(color)}${text}${RST}`;
+    const visLen = text.length + 2;
+    console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${fg(borderColor)}│${RST}  ${DIM}${fn}${RST}`);
+  }
+
+  // Empty line
+  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${fg(borderColor)}│${RST}`);
+
+  // Selected item
+  const selInner = `  item-one.txt`;
+  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}  ${bg(selectedBg)}${contrastFg(selectedBg)}${selInner}${' '.repeat(W - selInner.length - 4)}${RST}${bg(surfaceBg)}  ${RST}${fg(borderColor)}│${RST}  ${DIM}tint({ b: 2 }) bg${RST}`);
+
+  // Normal items
+  const items = ['item-two.txt', 'item-three.txt'];
+  for (const item of items) {
+    const content = `    ${fg(dimText)}${item}${RST}`;
+    const visLen = item.length + 4;
+    console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${content}${bg(surfaceBg)}${' '.repeat(W - visLen)}${RST}${fg(borderColor)}│${RST}  ${DIM}neutral(18)${RST}`);
+  }
+
+  // Empty line
+  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${fg(borderColor)}│${RST}`);
+
+  // Buttons
+  const btnBg = p(tint({ b: 3 }));
+  const btnSave = `${bg(btnBg)}${contrastFg(btnBg)} Save ${RST}`;
+  const btnCancel = `${bg(p(neutral(6)))}${contrastFg(p(neutral(6)))} Cancel ${RST}`;
+  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}  ${btnSave} ${btnCancel}${bg(surfaceBg)}${' '.repeat(W - 20)}${RST}${fg(borderColor)}│${RST}  ${DIM}tint({ b: 3 }), neutral(6)${RST}`);
+
+  // Empty line
+  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}${' '.repeat(W)}${RST}${fg(borderColor)}│${RST}`);
+
+  // Separator
+  console.log(`  ${fg(borderColor)}├${fg(p(neutral(6)))}${'─'.repeat(W)}${RST}${fg(borderColor)}┤${RST}  ${DIM}neutral(4) border${RST}`);
+
+  // Status bar
+  const statusText = `  Status: connected`;
+  console.log(`  ${fg(borderColor)}│${RST}${bg(surfaceBg)}  ${fg(mutedText)}${statusText}${RST}${bg(surfaceBg)}${' '.repeat(W - statusText.length - 2)}${RST}${fg(borderColor)}│${RST}  ${DIM}neutral(12)${RST}`);
+
+  // Bottom border
+  console.log(`  ${fg(borderColor)}└${'─'.repeat(W)}┘${RST}`);
+  console.log('');
+}
+
+async function runInteractive() {
+  const themeNames = Object.keys(themes);
+  let currentIdx = 0;
+
+  const CLEAR = '\x1b[2J\x1b[H';
+  const HIDE_CURSOR = '\x1b[?25l';
+  const SHOW_CURSOR = '\x1b[?25h';
+  const DIM = '\x1b[2m';
+
+  function render() {
+    const themeName = themeNames[currentIdx];
+    const theme = themes[themeName];
+    const palette = generatePalette(theme);
+
+    process.stdout.write(CLEAR);
+    console.log('');
+    console.log(`  ${DIM}← →  switch theme    q  quit${RST}`);
+
+    // Theme selector
+    console.log('');
+    let selector = '  ';
+    for (let i = 0; i < themeNames.length; i++) {
+      if (i === currentIdx) {
+        selector += `${bg(theme.bg)}${contrastFg(theme.bg)} ${themeNames[i]} ${RST} `;
+      } else {
+        selector += `${DIM}${themeNames[i]}${RST} `;
+      }
+    }
+    console.log(selector);
+
+    // TUI demo
+    renderTuiDemo(palette, themeName);
+
+    // Color table (compact)
+    renderPreview(palette, theme, themeName);
+  }
+
+  // Setup raw mode for key input
+  process.stdin.setRawMode(true);
+  process.stdin.resume();
+  process.stdin.setEncoding('utf8');
+  process.stdout.write(HIDE_CURSOR);
+
+  render();
+
+  process.stdin.on('data', (key) => {
+    if (key === 'q' || key === '\x03') { // q or Ctrl+C
+      process.stdout.write(SHOW_CURSOR);
+      process.stdout.write(CLEAR);
+      process.exit(0);
+    }
+    if (key === '\x1b[C' || key === 'l') { // right arrow or l
+      currentIdx = (currentIdx + 1) % themeNames.length;
+      render();
+    }
+    if (key === '\x1b[D' || key === 'h') { // left arrow or h
+      currentIdx = (currentIdx - 1 + themeNames.length) % themeNames.length;
+      render();
+    }
+  });
+}
+
 // ── Main ───────────────────────────────────────────────────────────────
 
 const args = process.argv.slice(2);
 const tableMode = args.includes('--table');
+const interactiveMode = args.includes('--interactive');
 const themeIdx = args.indexOf('--theme');
 const themeName = themeIdx !== -1 && args[themeIdx + 1] ? args[themeIdx + 1] : (
-  // Also accept bare theme name (first non-flag arg)
   args.find(a => !a.startsWith('--')) || 'catppuccin-mocha'
 );
-const theme = themes[themeName];
 
-if (!theme) {
-  console.error(`Unknown theme: ${themeName}`);
-  console.error(`Available themes: ${Object.keys(themes).join(', ')}`);
-  process.exit(1);
-}
-
-// Base16 (0-15)
-const palette = [...theme.base16];
-
-// Color cube (16-231)
-const cubeColors = generateColorCube(theme.base16, theme.bg, theme.fg);
-palette.push(...cubeColors);
-
-// Grayscale ramp (232-255)
-const grayscale = generateGrayscaleRamp(theme.bg, theme.fg);
-palette.push(...grayscale);
-
-if (tableMode) {
-  renderPreview(palette, theme, themeName);
+if (interactiveMode) {
+  runInteractive();
 } else {
-  console.log(`# Ghostty 256-color palette generated from ${themeName}`);
-  console.log(`# Generated with @basiclines/rampa-sdk`);
-  console.log(`#`);
-  console.log(`# Usage: copy this into your Ghostty config file`);
-  console.log(`#`);
-  console.log(`background = ${theme.bg}`);
-  console.log(`foreground = ${theme.fg}`);
-  console.log('');
-  console.log(formatGhosttyConfig(palette));
-}
+  const theme = themes[themeName];
 
-console.error(`\n✅ Generated ${palette.length} colors for ${themeName}`);
-console.error(`   Base16:    0-15  (${theme.base16.length} colors)`);
-console.error(`   Color cube: 16-231 (${cubeColors.length} colors)`);
-console.error(`   Grayscale: 232-255 (${grayscale.length} colors)`);
+  if (!theme) {
+    console.error(`Unknown theme: ${themeName}`);
+    console.error(`Available themes: ${Object.keys(themes).join(', ')}`);
+    process.exit(1);
+  }
+
+  const palette = generatePalette(theme);
+  const cubeColors = palette.slice(16, 232);
+  const grayscale = palette.slice(232);
+
+  if (tableMode) {
+    renderPreview(palette, theme, themeName);
+  } else {
+    console.log(`# Ghostty 256-color palette generated from ${themeName}`);
+    console.log(`# Generated with @basiclines/rampa-sdk`);
+    console.log(`#`);
+    console.log(`# Usage: copy this into your Ghostty config file`);
+    console.log(`#`);
+    console.log(`background = ${theme.bg}`);
+    console.log(`foreground = ${theme.fg}`);
+    console.log('');
+    console.log(formatGhosttyConfig(palette));
+  }
+
+  console.error(`\n✅ Generated ${palette.length} colors for ${themeName}`);
+  console.error(`   Base16:    0-15  (${theme.base16.length} colors)`);
+  console.error(`   Color cube: 16-231 (${cubeColors.length} colors)`);
+  console.error(`   Grayscale: 232-255 (${grayscale.length} colors)`);
+}
