@@ -1,0 +1,8 @@
+{
+  "name": "rampa-sdk-examples",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@basiclines/rampa-sdk": "file:.."
+  }
+}
