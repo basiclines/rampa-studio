@@ -243,7 +243,7 @@ function formatGhosttyConfig(palette) {
     if (i < 8) {
       label = `  ${names[i].padEnd(10)} → cube(${base16ToCube[i]})`;
     } else if (i < 16) {
-      label = `  bright ${names[i - 8]}`;
+      label = `  bright ${names[i - 8].padEnd(10)} → variant of cube(${base16ToCube[i - 8]})`;
     } else if (i <= 231) {
       const ci = i - 16;
       const cr = Math.floor(ci / 36);
@@ -251,7 +251,8 @@ function formatGhosttyConfig(palette) {
       const cb = ci % 6;
       label = `  cube(${cr},${cg},${cb})`;
     } else {
-      label = `  gray ${i - 232 + 1}/24`;
+      const step = i - 232 + 1;
+      label = `  gray ${String(step).padStart(2)}/24     → bg [${'█'.repeat(step)}${'·'.repeat(24 - step)}] fg`;
     }
 
     lines.push(`${block} ${String(i).padStart(3)}  ${hex}${label}`);
