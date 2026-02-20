@@ -14,8 +14,11 @@
  * Usage:
  *   node ghostty-256-palette.js
  *   node ghostty-256-palette.js --theme solarized-dark
+ *   node ghostty-256-palette.js --preview
+ *   node ghostty-256-palette.js --theme tokyo-night --preview
  *
  * Output: Ghostty-compatible palette config lines
+ *         With --preview: renders a 2D color grid to the terminal
  */
 
 import { rampa } from '@basiclines/rampa-sdk';
@@ -159,9 +162,120 @@ function formatGhosttyConfig(palette) {
   return lines.join('\n');
 }
 
+// ── Terminal Preview ───────────────────────────────────────────────────
+
+function hexToRgb(hex) {
+  return {
+    r: parseInt(hex.slice(1, 3), 16),
+    g: parseInt(hex.slice(3, 5), 16),
+    b: parseInt(hex.slice(5, 7), 16),
+  };
+}
+
+function luminance({ r, g, b }) {
+  return 0.299 * r + 0.587 * g + 0.114 * b;
+}
+
+function bg(hex) {
+  const { r, g, b } = hexToRgb(hex);
+  return `\x1b[48;2;${r};${g};${b}m`;
+}
+
+function fg(hex) {
+  const { r, g, b } = hexToRgb(hex);
+  return `\x1b[38;2;${r};${g};${b}m`;
+}
+
+const RST = '\x1b[0m';
+
+function contrastFg(hex) {
+  return luminance(hexToRgb(hex)) > 128 ? fg('#000000') : fg('#ffffff');
+}
+
+/**
+ * Render a 2D color grid preview to the terminal.
+ *
+ * Layout (16 columns × 16 rows = 256 cells):
+ *   Row 0:      colors 0–15   (base16)
+ *   Rows 1–12:  colors 16–207 (first 12 rows of 6×6×6 cube, 16 per row)
+ *   Row 13:     colors 208–223 (remaining cube 208–231 + grayscale 232–235)
+ *   Row 14:     colors 224–239 (grayscale continued)
+ *   Row 15:     colors 240–255 (grayscale end)
+ *
+ * On the right: base16 legend showing normal/bright pairs.
+ * Below: background and foreground swatches.
+ */
+function renderPreview(palette, theme, themeName) {
+  const COLS = 16;
+  const ROWS = Math.ceil(palette.length / COLS); // 16
+
+  // Base16 legend pairs: [normal, bright]
+  const pairs = [
+    [0, 8, 'black'],
+    [1, 9, 'red'],
+    [2, 10, 'green'],
+    [3, 11, 'yellow'],
+    [4, 12, 'blue'],
+    [5, 13, 'magenta'],
+    [6, 14, 'cyan'],
+    [7, 15, 'white'],
+  ];
+
+  console.log('');
+  console.log(`  ${themeName}`);
+  console.log('');
+
+  for (let row = 0; row < ROWS; row++) {
+    let line = '  ';
+
+    for (let col = 0; col < COLS; col++) {
+      const idx = row * COLS + col;
+      if (idx < palette.length) {
+        const hex = palette[idx];
+        const label = idx.toString(16).padStart(2, '0');
+        line += `${bg(hex)}${contrastFg(hex)} ${label} ${RST}`;
+      }
+    }
+
+    // Right-side legend (base16 pairs)
+    if (row >= 1 && row <= 8) {
+      const pair = pairs[row - 1];
+      const [norm, bright, name] = pair;
+      line += `  ${bg(palette[norm])}${contrastFg(palette[norm])} ${norm.toString(16)} ${RST}`;
+      line += `${bg(palette[bright])}${contrastFg(palette[bright])} ${bright.toString(16)} ${RST}`;
+      line += `  ${name}`;
+    }
+
+    console.log(line);
+  }
+
+  // Background / foreground swatches
+  console.log('');
+  const bgSwatch = `${bg(theme.bg)}${contrastFg(theme.bg)}  bg ${theme.bg}  ${RST}`;
+  const fgSwatch = `${bg(theme.fg)}${contrastFg(theme.fg)}  fg ${theme.fg}  ${RST}`;
+  console.log(`  ${bgSwatch}  ${fgSwatch}`);
+
+  // Grayscale ramp as a continuous bar
+  const grayStart = 232;
+  const grayEnd = 255;
+  let grayBar = '  ';
+  for (let i = grayStart; i <= grayEnd; i++) {
+    grayBar += `${bg(palette[i])}  ${RST}`;
+  }
+  console.log(`  grayscale ${grayStart}–${grayEnd}`);
+  console.log(grayBar);
+  console.log('');
+}
+
 // ── Main ───────────────────────────────────────────────────────────────
 
-const themeName = process.argv[2] || 'catppuccin-mocha';
+const args = process.argv.slice(2);
+const previewMode = args.includes('--preview');
+const themeIdx = args.indexOf('--theme');
+const themeName = themeIdx !== -1 && args[themeIdx + 1] ? args[themeIdx + 1] : (
+  // Also accept bare theme name (first non-flag arg)
+  args.find(a => !a.startsWith('--')) || 'catppuccin-mocha'
+);
 const theme = themes[themeName];
 
 if (!theme) {
@@ -169,15 +283,6 @@ if (!theme) {
   console.error(`Available themes: ${Object.keys(themes).join(', ')}`);
   process.exit(1);
 }
-
-console.log(`# Ghostty 256-color palette generated from ${themeName}`);
-console.log(`# Generated with @basiclines/rampa-sdk`);
-console.log(`#`);
-console.log(`# Usage: copy this into your Ghostty config file`);
-console.log(`#`);
-console.log(`background = ${theme.bg}`);
-console.log(`foreground = ${theme.fg}`);
-console.log('');
 
 // Base16 (0-15)
 const palette = [...theme.base16];
@@ -190,7 +295,19 @@ palette.push(...cube);
 const grayscale = generateGrayscaleRamp(theme.bg, theme.fg);
 palette.push(...grayscale);
 
-console.log(formatGhosttyConfig(palette));
+if (previewMode) {
+  renderPreview(palette, theme, themeName);
+} else {
+  console.log(`# Ghostty 256-color palette generated from ${themeName}`);
+  console.log(`# Generated with @basiclines/rampa-sdk`);
+  console.log(`#`);
+  console.log(`# Usage: copy this into your Ghostty config file`);
+  console.log(`#`);
+  console.log(`background = ${theme.bg}`);
+  console.log(`foreground = ${theme.fg}`);
+  console.log('');
+  console.log(formatGhosttyConfig(palette));
+}
 
 console.error(`\n✅ Generated ${palette.length} colors for ${themeName}`);
 console.error(`   Base16:    0-15  (${theme.base16.length} colors)`);
