@@ -193,25 +193,57 @@ function contrastFg(hex) {
 }
 
 /**
- * Render a structured 2D preview of the 256-color palette.
+ * Render the 256-color palette as named color ramps.
  *
  * Layout:
- *   1. Base16 — normal (0–7) and bright (8–15) as two rows
- *   2. Color cube — 6 slices (one per R level), each 6×6 (G rows × B cols)
- *      Arranged as 2 rows of 3 slices to fit terminal width
- *   3. Grayscale ramp (232–255) as a continuous bar
+ *   1. Base16 — normal (0–7) and bright (8–15) as labeled rows
+ *   2. Color cube — 12 edge ramps between the 8 corner colors,
+ *      grouped by origin (from black, from red, etc.)
+ *   3. Grayscale ramp (232–255)
  *   4. Background / foreground swatches
  */
 function renderPreview(palette, theme, themeName) {
   const DIM = '\x1b[2m';
   const BLOCK = '██';
 
-  // Colored block
   const swatch = (hex) => `${fg(hex)}${BLOCK}${RST}`;
 
-  // Labeled swatch with background
-  const labelSwatch = (hex, label) =>
-    `${bg(hex)}${contrastFg(hex)} ${label.padEnd(3)}${RST}`;
+  // Get a cube color by its (r, g, b) coordinates
+  const cubeColor = (r, g, b) => palette[16 + (36 * r) + (6 * g) + b];
+
+  // Render a 6-step ramp between two cube corners
+  function rampRow(label, coords) {
+    let row = `  ${DIM}${label.padEnd(18)}${RST}`;
+    for (const [r, g, b] of coords) {
+      row += `${swatch(cubeColor(r, g, b))} `;
+    }
+    return row;
+  }
+
+  // Generate the 6 coordinates along a cube edge
+  function edge(from, to) {
+    const coords = [];
+    for (let i = 0; i < 6; i++) {
+      coords.push([
+        from[0] + Math.round((to[0] - from[0]) * i / 5),
+        from[1] + Math.round((to[1] - from[1]) * i / 5),
+        from[2] + Math.round((to[2] - from[2]) * i / 5),
+      ]);
+    }
+    return coords;
+  }
+
+  // Corner coordinates in the 6×6×6 cube
+  const corners = {
+    black:   [0, 0, 0],
+    red:     [5, 0, 0],
+    green:   [0, 5, 0],
+    yellow:  [5, 5, 0],
+    blue:    [0, 0, 5],
+    magenta: [5, 0, 5],
+    cyan:    [0, 5, 5],
+    white:   [5, 5, 5],
+  };
 
   console.log('');
   console.log(`  ${themeName}`);
@@ -220,7 +252,7 @@ function renderPreview(palette, theme, themeName) {
   console.log('');
   console.log(`  ${DIM}base16${RST}`);
 
-  const names = ['blk', 'red', 'grn', 'yel', 'blu', 'mag', 'cyn', 'wht'];
+  const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
 
   // Normal (0–7)
   let row = '  ';
@@ -234,38 +266,41 @@ function renderPreview(palette, theme, themeName) {
 
   // Labels
   row = '  ';
-  for (let i = 0; i < 8; i++) row += `${DIM}${names[i]}${RST} `;
+  for (let i = 0; i < 8; i++) row += `${DIM}${names[i].slice(0, 3)}${RST} `;
   console.log(row);
 
-  // ── Color Cube (6×6×6) ──
-  // Show as 2 rows of 3 slices: r=0..2 on top, r=3..5 on bottom
+  // ── Color Cube as named ramps ──
+  // 12 edges of the cube, grouped by starting corner
   console.log('');
-  console.log(`  ${DIM}color cube  6×6×6  (b →, g ↓, r per slice)${RST}`);
+  console.log(`  ${DIM}color cube  216 colors  (6×6×6 OKLCH interpolation)${RST}`);
+  console.log('');
 
-  for (let sliceRow = 0; sliceRow < 2; sliceRow++) {
-    // Slice headers
-    let header = '  ';
-    for (let s = 0; s < 3; s++) {
-      const r = sliceRow * 3 + s;
-      header += `${DIM}r=${r}${RST}`.padEnd(22 + 8); // account for escape codes
-    }
-    console.log('');
-    console.log(header);
+  // From black (bg)
+  console.log(`  ${DIM}from black${RST}`);
+  console.log(rampRow('black → red', edge(corners.black, corners.red)));
+  console.log(rampRow('black → green', edge(corners.black, corners.green)));
+  console.log(rampRow('black → blue', edge(corners.black, corners.blue)));
 
-    // 6 rows of G values
-    for (let g = 0; g < 6; g++) {
-      let line = '  ';
-      for (let s = 0; s < 3; s++) {
-        const r = sliceRow * 3 + s;
-        for (let b = 0; b < 6; b++) {
-          const idx = 16 + (36 * r) + (6 * g) + b;
-          line += `${swatch(palette[idx])} `;
-        }
-        line += '  '; // gap between slices
-      }
-      console.log(line);
-    }
-  }
+  // From primaries to secondaries
+  console.log('');
+  console.log(`  ${DIM}from primaries${RST}`);
+  console.log(rampRow('red → yellow', edge(corners.red, corners.yellow)));
+  console.log(rampRow('red → magenta', edge(corners.red, corners.magenta)));
+  console.log(rampRow('green → yellow', edge(corners.green, corners.yellow)));
+  console.log(rampRow('green → cyan', edge(corners.green, corners.cyan)));
+  console.log(rampRow('blue → magenta', edge(corners.blue, corners.magenta)));
+  console.log(rampRow('blue → cyan', edge(corners.blue, corners.cyan)));
+
+  // To white (fg)
+  console.log('');
+  console.log(`  ${DIM}to white${RST}`);
+  console.log(rampRow('yellow → white', edge(corners.yellow, corners.white)));
+  console.log(rampRow('magenta → white', edge(corners.magenta, corners.white)));
+  console.log(rampRow('cyan → white', edge(corners.cyan, corners.white)));
+
+  // Diagonal
+  console.log('');
+  console.log(rampRow('black → white', edge(corners.black, corners.white)));
 
   // ── Grayscale ──
   console.log('');
