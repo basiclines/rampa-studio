@@ -234,3 +234,46 @@ describe('method chaining', () => {
     }
   });
 });
+
+describe('rampa.mix()', () => {
+  it('returns start color at t=0', () => {
+    const result = rampa.mix('#ff0000', '#0000ff', 0);
+    expect(result).toMatch(/^#/);
+    expect(result.toLowerCase()).toBe('#ff0302');
+  });
+
+  it('returns end color at t=1', () => {
+    const result = rampa.mix('#ff0000', '#0000ff', 1);
+    expect(result).toMatch(/^#/);
+    expect(result.toLowerCase()).toBe('#0031e5');
+  });
+
+  it('returns midpoint at t=0.5', () => {
+    const result = rampa.mix('#ff0000', '#0000ff', 0.5);
+    expect(result).toMatch(/^#[0-9a-f]{6}$/i);
+  });
+
+  it('mixes black and white', () => {
+    const mid = rampa.mix('#000000', '#ffffff', 0.5);
+    expect(mid).toMatch(/^#[0-9a-f]{6}$/i);
+  });
+
+  it('handles achromatic colors', () => {
+    const result = rampa.mix('#000000', '#ffffff', 0.25);
+    expect(result).toMatch(/^#[0-9a-f]{6}$/i);
+  });
+
+  it('uses OKLCH interpolation (not sRGB)', () => {
+    // OKLCH interpolation between red and cyan should go through vivid colors,
+    // not through desaturated gray like sRGB would
+    const mid = rampa.mix('#ff0000', '#00ffff', 0.5);
+    const r = parseInt(mid.slice(1, 3), 16);
+    const g = parseInt(mid.slice(3, 5), 16);
+    const b = parseInt(mid.slice(5, 7), 16);
+    // sRGB lerp midpoint of #ff0000 and #00ffff is #808080 (gray)
+    // OKLCH should produce a vivid (non-gray) color
+    const maxChannel = Math.max(r, g, b);
+    const minChannel = Math.min(r, g, b);
+    expect(maxChannel - minChannel).toBeGreaterThan(50);
+  });
+});

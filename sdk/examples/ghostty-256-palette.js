@@ -80,48 +80,6 @@ const themes = {
 // ── Color Cube Generation ──────────────────────────────────────────────
 
 /**
- * Generate 6 shades between two colors using rampa, giving us perceptually
- * uniform steps in the OKLCH color space.
- */
-function rampBetween(from, to) {
-  // Use rampa to generate a 6-step ramp between the two colors.
-  // We set lightness/saturation to full range and let rampa interpolate.
-  const fromInfo = rampa.readOnly(from).generate();
-  const toInfo = rampa.readOnly(to).generate();
-
-  // Generate a 6-step palette anchored at the "from" color,
-  // with lightness spanning from the "from" lightness to the "to" lightness.
-  const fromL = fromInfo.oklch.l;
-  const toL = toInfo.oklch.l;
-
-  const result = rampa(from)
-    .size(6)
-    .lightness(fromL, toL)
-    .saturation(100, 100)
-    .hue(0, 0)
-    .generate();
-
-  return result.ramps[0].colors;
-}
-
-/**
- * Simple linear interpolation between two hex colors in sRGB space.
- * Used for the color cube trilinear interpolation.
- */
-function lerpColor(t, c1, c2) {
-  const r1 = parseInt(c1.slice(1, 3), 16);
-  const g1 = parseInt(c1.slice(3, 5), 16);
-  const b1 = parseInt(c1.slice(5, 7), 16);
-  const r2 = parseInt(c2.slice(1, 3), 16);
-  const g2 = parseInt(c2.slice(3, 5), 16);
-  const b2 = parseInt(c2.slice(5, 7), 16);
-  const r = Math.round(r1 + t * (r2 - r1));
-  const g = Math.round(g1 + t * (g2 - g1));
-  const b = Math.round(b1 + t * (b2 - b1));
-  return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
-}
-
-/**
  * Generate the 216-color cube (indices 16-231).
  *
  * The 8 corners of the RGB cube map to base16 colors:
@@ -131,7 +89,7 @@ function lerpColor(t, c1, c2) {
  *   (0,1,1) = cyan            (1,1,1) = fg (white)
  *
  * We use trilinear interpolation between these 8 corners,
- * with rampa generating each edge's 6-step ramp for perceptual uniformity.
+ * with rampa.mix() performing OKLCH interpolation for perceptual uniformity.
  */
 function generateColorCube(base16, bg, fg) {
   const black = bg;
@@ -147,22 +105,22 @@ function generateColorCube(base16, bg, fg) {
 
   for (let r = 0; r < 6; r++) {
     const t_r = r / 5;
-    // Interpolate the 4 edges along the R axis
-    const c_r0g0 = lerpColor(t_r, black, red);
-    const c_r0g1 = lerpColor(t_r, green, yellow);
-    const c_r1g0 = lerpColor(t_r, blue, magenta);
-    const c_r1g1 = lerpColor(t_r, cyan, white);
+    // Interpolate the 4 edges along the R axis in OKLCH space
+    const c_r0g0 = rampa.mix(black, red, t_r);
+    const c_r0g1 = rampa.mix(green, yellow, t_r);
+    const c_r1g0 = rampa.mix(blue, magenta, t_r);
+    const c_r1g1 = rampa.mix(cyan, white, t_r);
 
     for (let g = 0; g < 6; g++) {
       const t_g = g / 5;
       // Interpolate along the G axis
-      const c_b0 = lerpColor(t_g, c_r0g0, c_r0g1);
-      const c_b1 = lerpColor(t_g, c_r1g0, c_r1g1);
+      const c_b0 = rampa.mix(c_r0g0, c_r0g1, t_g);
+      const c_b1 = rampa.mix(c_r1g0, c_r1g1, t_g);
 
       for (let b = 0; b < 6; b++) {
         const t_b = b / 5;
         // Interpolate along the B axis
-        const color = lerpColor(t_b, c_b0, c_b1);
+        const color = rampa.mix(c_b0, c_b1, t_b);
         cube.push(color);
       }
     }

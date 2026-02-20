@@ -1,6 +1,7 @@
 import chroma from 'chroma-js';
 import { RampaBuilder } from './builder';
 import { ReadOnlyBuilder } from './read-only';
+import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
   ScaleType,
@@ -60,6 +61,26 @@ rampa.convert = function convert(color: string, format: ColorFormat): string {
  */
 rampa.readOnly = function readOnly(color: string): ReadOnlyBuilder {
   return new ReadOnlyBuilder(color);
+};
+
+/**
+ * Mix two colors in OKLCH space at a given ratio.
+ * Produces perceptually uniform transitions — hues travel the color wheel,
+ * lightness steps look even, chroma stays vivid.
+ *
+ * @param color1 - Start color (any CSS color string)
+ * @param color2 - End color (any CSS color string)
+ * @param t - Mix ratio from 0 (100% color1) to 1 (100% color2)
+ * @returns Hex color string
+ *
+ * @example
+ * ```ts
+ * rampa.mix('#ff0000', '#0000ff', 0.5);  // midpoint between red and blue
+ * rampa.mix('#000000', '#ffffff', 0.25); // 25% toward white
+ * ```
+ */
+rampa.mix = function mix(color1: string, color2: string, t: number): string {
+  return mixColors(color1, color2, t);
 };
 
 export { RampaBuilder, ReadOnlyBuilder };

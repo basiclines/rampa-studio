@@ -143,6 +143,9 @@ rampa('#3b82f6').tint('#FF6B00', 15, 'overlay').generate();
 rampa.readOnly('#fe0000').generate();                  // All formats
 rampa.readOnly('#fe0000').format('hsl').generate();    // 'hsl(0, 100%, 50%)'
 rampa.convert('#fe0000', 'oklch');                     // 'oklch(62.8% 0.257 29)'
+
+// OKLCH color mixing
+rampa.mix('#ff0000', '#0000ff', 0.5);                  // Perceptually uniform midpoint
 ```
 
 ### CLI ↔ SDK Equivalence
@@ -165,6 +168,7 @@ Every CLI flag maps to an SDK method:
 | `-O json` | `.toJSON()` |
 | `--read-only` | `rampa.readOnly('#fe0000').generate()` |
 | `--read-only -F hsl` | `rampa.readOnly('#fe0000').format('hsl').generate()` |
+| `--mix "#0000ff" --steps=5` | `rampa.mix('#ff0000', '#0000ff', t)` |
 
 ### Full SDK Documentation
 

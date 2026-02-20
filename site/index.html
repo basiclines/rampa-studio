@@ -249,6 +249,21 @@
         </div>
       </div>
 
+      <!-- Color Mixing -->
+      <div>
+        <p class="text-sm text-neutral-500 mb-3">OKLCH color mixing</p>
+        <div class="grid sm:grid-cols-2 gap-3">
+          <div>
+            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
+            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#ff0000"</span> <span class="code-flag">--mix</span> <span class="code-value">"#0000ff"</span> <span class="code-flag">--steps=</span><span class="code-value">10</span></code></pre>
+          </div>
+          <div>
+            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
+            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>.<span class="code-method">mix</span>(<span class="code-string">'#ff0000'</span>, <span class="code-string">'#0000ff'</span>, <span class="code-number">0.5</span>)</code></pre>
+          </div>
+        </div>
+      </div>
+
       <!-- Format -->
       <div>
         <p class="text-sm text-neutral-500 mb-3">Output format</p>

@@ -208,3 +208,44 @@ describe('SDK ↔ CLI parity', () => {
     expect(sdkResult).toBe(cliResult.color.value);
   });
 });
+
+describe('CLI Integration - Mix', () => {
+  it('mix: SDK rampa.mix() matches CLI --mix JSON output', async () => {
+    const proc = Bun.spawn(
+      ['bash', '-c', `cd "${import.meta.dir}/../../cli" && bun run src/index.ts --color "#ff0000" --mix "#0000ff" --steps=5 --output json`],
+      { stdout: 'pipe', stderr: 'pipe' }
+    );
+    const text = await new Response(proc.stdout).text();
+    await proc.exited;
+    const cliResult = JSON.parse(text);
+
+    // Generate same colors with SDK
+    const sdkColors: string[] = [];
+    for (let i = 0; i < 5; i++) {
+      const t = i / 4;
+      sdkColors.push(rampa.mix('#ff0000', '#0000ff', t));
+    }
+
+    expect(cliResult.colors).toHaveLength(5);
+    for (let i = 0; i < 5; i++) {
+      expect(sdkColors[i].toLowerCase()).toBe(cliResult.colors[i].hex.toLowerCase());
+    }
+  });
+
+  it('mix: handles black to white gradient', async () => {
+    const proc = Bun.spawn(
+      ['bash', '-c', `cd "${import.meta.dir}/../../cli" && bun run src/index.ts --color "#000000" --mix "#ffffff" --steps=3 --output json`],
+      { stdout: 'pipe', stderr: 'pipe' }
+    );
+    const text = await new Response(proc.stdout).text();
+    await proc.exited;
+    const cliResult = JSON.parse(text);
+
+    const sdkColors = [0, 0.5, 1].map(t => rampa.mix('#000000', '#ffffff', t));
+
+    expect(cliResult.colors).toHaveLength(3);
+    for (let i = 0; i < 3; i++) {
+      expect(sdkColors[i].toLowerCase()).toBe(cliResult.colors[i].hex.toLowerCase());
+    }
+  });
+});

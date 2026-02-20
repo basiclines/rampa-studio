@@ -24,6 +24,7 @@ import { generateAccessibilityReport } from './accessibility/report';
 import { parseAccessibilityFilter } from './accessibility/apca';
 import { formatAccessibilityJson } from './formatters/accessibility-json';
 import { formatAccessibilityText, formatAccessibilityCss } from './formatters/accessibility-text';
+import { mixColors } from '../../src/usecases/MixColors';
 
 // Intercept --help, -h, 'help', and no-args before citty processes them
 const args = process.argv.slice(2);
@@ -107,6 +108,13 @@ COLOR CONVERSION
                                   ${dim}With --format: outputs only the specified format${reset}
                                   ${dim}JSON output returns structured values, not strings${reset}
 
+COLOR MIXING
+  ${cyan}--mix <color>${reset}                 ${dim}Mix --color with another color in OKLCH space${reset}
+  ${cyan}--steps <number>${reset}              ${dim}Number of mix steps (default: 5)${reset}
+
+                                  ${dim}Produces perceptually uniform transitions.${reset}
+                                  ${dim}Use with --format and --output for different formats.${reset}
+
 OTHER
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
   ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
@@ -123,6 +131,8 @@ EXAMPLES
   ${cyan}rampa --color "#fe0000" --read-only${reset}
   ${cyan}rampa --color "#fe0000" --read-only --format hsl${reset}
   ${cyan}rampa --color "#fe0000" --read-only --format hsl --output json${reset}
+  ${cyan}rampa --color "#ff0000" --mix "#0000ff"${reset}
+  ${cyan}rampa --color "#ff0000" --mix "#0000ff" --steps=10 --format oklch${reset}
 `;
   console.log(help.trim());
   process.exit(0);
@@ -299,6 +309,22 @@ Examples:
   rampa -C "#fe0000" --read-only -O json -F hsl
   rampa -C "#fe0000" --read-only -O css -F rgb
 `,
+  mix: `
+--mix <color>  Mix --color with another color in OKLCH space
+
+OKLCH interpolation produces perceptually uniform transitions:
+hues travel the color wheel, lightness steps look even,
+chroma stays vivid instead of dipping through gray.
+
+Use --steps to control the number of intermediate steps (default: 5).
+
+Examples:
+  rampa -C "#ff0000" --mix "#0000ff"
+  rampa -C "#ff0000" --mix "#0000ff" --steps=10
+  rampa -C "#ff0000" --mix "#0000ff" --format oklch
+  rampa -C "#ff0000" --mix "#0000ff" -O json
+  rampa -C "#000000" --mix "#ffffff" --steps=24
+`,
 };
 
 // Show help for a specific flag
@@ -459,6 +485,15 @@ const main = defineCommand({
       description: 'Output the input color converted to the target format without generating a ramp',
       default: false,
     },
+    mix: {
+      type: 'string',
+      description: 'Mix --color with another color in OKLCH space',
+    },
+    steps: {
+      type: 'string',
+      description: 'Number of mix steps (2-100, default: 5)',
+      default: '5',
+    },
   },
   run({ args }) {
     // Check for help requests on specific flags (when used without proper value)
@@ -475,6 +510,7 @@ const main = defineCommand({
     if (needsHelp(args['tint-blend']) && args['tint-blend'] !== 'normal') showFlagHelp('tint-blend');
     if (args.add !== undefined && needsHelp(args.add)) showFlagHelp('add');
     if (needsHelp(args.output) && args.output !== 'text') showFlagHelp('output');
+    if (args.mix !== undefined && needsHelp(args.mix)) showFlagHelp('mix');
 
     // Detect input format before validation
     const detectedFormat = detectColorFormat(args.color);
@@ -538,6 +574,68 @@ const main = defineCommand({
             console.log(`${fmt}: ${formatColor(validatedColor, fmt as ColorFormat)}`);
           }
         }
+      }
+      return;
+    }
+
+    // Mix mode: interpolate between two colors in OKLCH space
+    if (args.mix) {
+      let mixTarget: string;
+      try {
+        mixTarget = chroma(args.mix).hex();
+      } catch {
+        console.error(`Error: Invalid mix target color "${args.mix}"`);
+        process.exit(1);
+      }
+
+      const steps = parseInt(args.steps, 10);
+      if (isNaN(steps) || steps < 2 || steps > 100) {
+        console.error('Error: --steps must be a number between 2 and 100');
+        process.exit(1);
+      }
+
+      const outputType = args.output;
+      if (!isValidOutputFormat(outputType)) {
+        console.error(`Error: Invalid output format "${outputType}"\n`);
+        showFlagHelp('output');
+      }
+
+      const hasExplicitFormat = !!args.format;
+      const colors: string[] = [];
+      for (let i = 0; i < steps; i++) {
+        const t = steps === 1 ? 0.5 : i / (steps - 1);
+        colors.push(mixColors(validatedColor, mixTarget, t));
+      }
+
+      if (outputType === 'json') {
+        const jsonColors = colors.map((hex) => {
+          if (hasExplicitFormat) {
+            return { value: formatColor(hex, outputFormat) };
+          }
+          return formatColorStructured(hex);
+        });
+        console.log(JSON.stringify({ colors: jsonColors }, null, 2));
+      } else if (outputType === 'css') {
+        const lines = [':root {'];
+        colors.forEach((hex, i) => {
+          if (hasExplicitFormat) {
+            lines.push(`  --mix-${i}: ${formatColor(hex, outputFormat)};`);
+          } else {
+            lines.push(`  --mix-${i}: ${hex};`);
+          }
+        });
+        lines.push('}');
+        console.log(lines.join('\n'));
+      } else {
+        const truecolor = supportsTruecolor();
+        colors.forEach((hex) => {
+          const display = hasExplicitFormat ? formatColor(hex, outputFormat) : hex;
+          if (truecolor) {
+            console.log(`${coloredSquare(hex)} ${display}`);
+          } else {
+            console.log(display);
+          }
+        });
       }
       return;
     }

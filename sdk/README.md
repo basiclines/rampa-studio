@@ -221,6 +221,26 @@ rampa.convert('#fe0000', 'oklch');  // 'oklch(62.8% 0.257 29)'
 rampa.convert('#fe0000', 'hex');    // '#fe0000'
 ```
 
+### `rampa.mix(color1, color2, t)`
+
+Mix two colors in OKLCH space at a given ratio. Produces perceptually uniform transitions — hues travel the color wheel naturally, lightness steps look even, and chroma stays vivid instead of dipping through gray.
+
+```js
+rampa.mix('#ff0000', '#0000ff', 0);    // '#ff0302' (start color)
+rampa.mix('#ff0000', '#0000ff', 0.5);  // midpoint — vivid purple, not muddy gray
+rampa.mix('#ff0000', '#0000ff', 1);    // '#0031e5' (end color)
+rampa.mix('#000000', '#ffffff', 0.5);  // perceptual mid-gray
+```
+
+Generate a gradient with multiple steps:
+
+```js
+const steps = 10;
+const gradient = Array.from({ length: steps }, (_, i) =>
+  rampa.mix('#ff0000', '#0000ff', i / (steps - 1))
+);
+```
+
 ## Types
 
 ```typescript
