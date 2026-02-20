@@ -89,9 +89,16 @@ OUTPUT
                                   ${dim}Formats: text, json, css${reset}
 
 OTHER
-  ${cyan}--read-only${reset}                    ${dim}Output the color converted to target format (no ramp)${reset}
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
   ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
+
+COLOR CONVERSION
+  ${cyan}--read-only${reset}                    ${dim}Output the color without generating a ramp${reset}
+
+                                  ${dim}Accepts: -C (required), -F, -O${reset}
+                                  ${dim}Without -F: outputs all formats (hex, hsl, rgb, oklch)${reset}
+                                  ${dim}With -F: outputs only the specified format${reset}
+                                  ${dim}JSON output returns structured values, not strings${reset}
 
 EXAMPLES
   ${cyan}rampa -C "#3b82f6"${reset}
