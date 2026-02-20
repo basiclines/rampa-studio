@@ -22,7 +22,7 @@
  *         With --table: renders a 2D color grid to the terminal
  */
 
-import { rampa, LinearColorSpace, CubeColorSpace, colorTable } from '@basiclines/rampa-sdk';
+import { rampa, LinearColorSpace, CubeColorSpace } from '@basiclines/rampa-sdk';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -104,8 +104,8 @@ function buildColorSpace(theme) {
 
   // Plain lookup tables — no interpolation
   // Wrap with name→index mapping for base('r'), bright('r') syntax
-  const baseTable   = colorTable(theme.base16.slice(0, 8));
-  const brightTable = colorTable(theme.base16.slice(8, 16));
+  const baseTable   = new LinearColorSpace(...theme.base16.slice(0, 8)).interpolation(false).size(8);
+  const brightTable = new LinearColorSpace(...theme.base16.slice(8, 16)).interpolation(false).size(8);
   const base   = (name) => baseTable(baseMap[name] + 1);
   const bright = (name) => brightTable(baseMap[name] + 1);
   base.palette   = baseTable.palette;

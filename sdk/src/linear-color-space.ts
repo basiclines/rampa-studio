@@ -5,53 +5,63 @@ import type { InterpolationMode, LinearColorSpaceFn, ColorResult } from './types
 /**
  * Create a linear color space.
  *
- * Two modes:
- * 1. Interpolated: two colors + .size(n) → generates n intermediate colors
- * 2. Lookup table: array of colors, no interpolation
- *
  * @example
  * ```ts
- * // Interpolated
+ * // Interpolated (default: oklch)
  * const neutral = new LinearColorSpace('#ffffff', '#000000').size(24);
- * neutral(12)               // → ColorResult (mid gray)
- * neutral(12).format('hsl') // → 'hsl(...)'
+ * neutral(12)                // → ColorResult (mid gray)
+ * neutral(12).format('hsl')  // → 'hsl(...)'
  *
- * // Lookup table (no interpolation)
- * const base = new LinearColorSpace(['#000', '#f00', '#0f0', ...]);
- * base(1)                   // → first color
- * base(3)                   // → third color
+ * // Different interpolation
+ * const ramp = new LinearColorSpace('#ff0000', '#0000ff').interpolation('lab').size(10);
+ *
+ * // Lookup table — no interpolation, just a plain color array
+ * const base = new LinearColorSpace('#000', '#f00', '#0f0', '#ff0', '#00f', '#f0f', '#0ff', '#fff')
+ *   .interpolation(false)
+ *   .size(8);
+ * base(1)  // → first color
+ * base(3)  // → third color
  * ```
  */
 export class LinearColorSpace {
-  private _colors: string[] | null = null;
-  private _from: string = '';
-  private _to: string = '';
-  private _interpolation: InterpolationMode | false;
+  private _colors: string[];
+  private _interpolation: InterpolationMode | false = 'oklch';
 
-  constructor(colorsOrFrom: string[] | string, to?: string, options?: { interpolation?: InterpolationMode | false }) {
-    if (Array.isArray(colorsOrFrom)) {
-      // Lookup table mode — array of pre-defined colors
-      this._colors = colorsOrFrom;
-      this._interpolation = false;
-    } else {
-      this._from = colorsOrFrom;
-      this._to = to!;
-      this._interpolation = options?.interpolation ?? 'oklch';
+  constructor(...colors: string[]) {
+    if (colors.length < 2) {
+      throw new Error('LinearColorSpace requires at least 2 colors');
     }
+    this._colors = colors;
+  }
+
+  /**
+   * Set the interpolation mode.
+   * Pass false for a plain lookup table (no interpolation).
+   */
+  interpolation(mode: InterpolationMode | false): this {
+    this._interpolation = mode;
+    return this;
   }
 
   /**
    * Set the number of color steps and return the color accessor function.
-   * Not needed for lookup table mode (array constructor).
    */
   size(steps: number): LinearColorSpaceFn {
-    if (this._colors) {
-      throw new Error('size() is not needed for lookup table mode — colors are already defined');
-    }
+    let palette: string[];
+
     if (this._interpolation === false) {
-      throw new Error('interpolation: false requires an array of colors, not from/to');
+      // Lookup table — use the input colors directly
+      palette = [...this._colors];
+    } else {
+      // Interpolated — generate between first and last color
+      palette = generateLinearSpace(
+        this._colors[0],
+        this._colors[this._colors.length - 1],
+        steps,
+        this._interpolation
+      );
     }
-    const palette = generateLinearSpace(this._from, this._to, steps, this._interpolation);
+
     return buildFn(palette);
   }
 }
@@ -66,12 +76,4 @@ function buildFn(palette: string[]): LinearColorSpaceFn {
   fn.size = palette.length;
 
   return fn;
-}
-
-/**
- * Shorthand: create a lookup table LinearColorSpaceFn from an array of colors.
- * Equivalent to `new LinearColorSpace(colors)` but returns the function directly.
- */
-export function colorTable(colors: string[]): LinearColorSpaceFn {
-  return buildFn([...colors]);
 }

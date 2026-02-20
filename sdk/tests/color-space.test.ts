@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'bun:test';
-import { LinearColorSpace, CubeColorSpace, colorTable } from '../src/index';
+import { LinearColorSpace, CubeColorSpace } from '../src/index';
 
 // ── LinearColorSpace ───────────────────────────────────────────────────
 
@@ -16,7 +16,7 @@ describe('LinearColorSpace', () => {
   });
 
   it('endpoints match with rgb interpolation', () => {
-    const fn = new LinearColorSpace('#ff0000', '#0000ff', { interpolation: 'rgb' }).size(5);
+    const fn = new LinearColorSpace('#ff0000', '#0000ff').interpolation('rgb').size(5);
     expect(fn(1).hex).toBe('#ff0000');
     expect(fn(5).hex).toBe('#0000ff');
   });
@@ -67,14 +67,14 @@ describe('LinearColorSpace', () => {
 
   it('supports lab interpolation', () => {
     const oklch = new LinearColorSpace('#ff0000', '#0000ff').size(5);
-    const lab = new LinearColorSpace('#ff0000', '#0000ff', { interpolation: 'lab' }).size(5);
+    const lab = new LinearColorSpace('#ff0000', '#0000ff').interpolation('lab').size(5);
     // Different interpolation modes should produce different midpoints
     expect(oklch(3).hex).not.toBe(lab(3).hex);
   });
 
   it('supports rgb interpolation', () => {
     const oklch = new LinearColorSpace('#ff0000', '#0000ff').size(5);
-    const rgb = new LinearColorSpace('#ff0000', '#0000ff', { interpolation: 'rgb' }).size(5);
+    const rgb = new LinearColorSpace('#ff0000', '#0000ff').interpolation('rgb').size(5);
     expect(oklch(3).hex).not.toBe(rgb(3).hex);
   });
 });
@@ -186,24 +186,24 @@ describe('CubeColorSpace', () => {
   });
 });
 
-// ── colorTable (lookup table) ──────────────────────────────────────────
+// ── LinearColorSpace with interpolation(false) ─────────────────────────
 
-describe('colorTable', () => {
+describe('LinearColorSpace (lookup table)', () => {
   const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00'];
 
   it('returns a callable function', () => {
-    const fn = colorTable(colors);
+    const fn = new LinearColorSpace(...colors).interpolation(false).size(4);
     expect(typeof fn).toBe('function');
   });
 
-  it('size matches input array length', () => {
-    const fn = colorTable(colors);
+  it('size matches input color count', () => {
+    const fn = new LinearColorSpace(...colors).interpolation(false).size(4);
     expect(fn.size).toBe(4);
     expect(fn.palette).toHaveLength(4);
   });
 
   it('returns exact colors by 1-based index', () => {
-    const fn = colorTable(colors);
+    const fn = new LinearColorSpace(...colors).interpolation(false).size(4);
     expect(fn(1).hex).toBe('#ff0000');
     expect(fn(2).hex).toBe('#00ff00');
     expect(fn(3).hex).toBe('#0000ff');
@@ -211,25 +211,14 @@ describe('colorTable', () => {
   });
 
   it('clamps out-of-range indices', () => {
-    const fn = colorTable(colors);
+    const fn = new LinearColorSpace(...colors).interpolation(false).size(4);
     expect(fn(0).hex).toBe(fn(1).hex);
     expect(fn(99).hex).toBe(fn(4).hex);
   });
 
   it('supports .format() chaining', () => {
-    const fn = colorTable(colors);
+    const fn = new LinearColorSpace(...colors).interpolation(false).size(4);
     expect(fn(1).format('rgb')).toBe('rgb(255, 0, 0)');
     expect(fn(1).format('hsl')).toMatch(/^hsl\(/);
-  });
-});
-
-// ── LinearColorSpace array constructor ─────────────────────────────────
-
-describe('LinearColorSpace (array mode)', () => {
-  it('creates a lookup table from an array', () => {
-    const fn = new LinearColorSpace(['#aaa', '#bbb', '#ccc']).size;
-    // array mode doesn't need .size(), so let's test differently
-    const cs = new LinearColorSpace(['#aaaaaa', '#bbbbbb', '#cccccc']);
-    expect(() => cs.size(5)).toThrow('not needed');
   });
 });
