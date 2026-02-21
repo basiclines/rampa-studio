@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Eye } from 'lucide-react';
-import LazyVariablesEditor from './LazyVariablesEditor';
 import ComponentsPlayground from './ComponentsPlayground';
 import { useComponentProviderState, ComponentProvider } from '@/state/ComponentProviderState';
 
@@ -19,13 +18,8 @@ const UISection: React.FC = () => {
   return (
     <div className="flex-1 p-8">
       <div className="flex gap-6 h-full">
-        {/* Variables Editor Section - Takes up 60% of width */}
-        <div className="w-3/5">
-          <LazyVariablesEditor />
-        </div>
-
-        {/* Component Preview Section - Takes up 40% of width */}
-        <div className="w-2/5">
+        {/* Component Preview Section */}
+        <div className="w-full">
           <Card className="h-full">
             <CardHeader className="pb-4">
               <div className="flex items-center justify-between">
