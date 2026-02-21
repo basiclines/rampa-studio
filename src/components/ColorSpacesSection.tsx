@@ -10,7 +10,7 @@ const ColorSpacesSection: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   return (
-    <div className="flex relative" style={{ height: 'calc(100vh - 80px)' }}>
+    <div className="flex relative r-canvas-dotgrid" style={{ height: 'calc(100vh - 80px)' }}>
       {/* Fixed sidebar — overlays on top of the canvas */}
       {sidebarOpen && (
         <ColorSpaceControls closeSidebar={() => setSidebarOpen(false)} />

@@ -76,6 +76,12 @@
 
 
 
+.r-canvas-dotgrid {
+  background-color: #ffffff;
+  background-image: radial-gradient(circle, #d0d0d0 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
 .sketch-picker > div:nth-child(3) {
   display: none !important;
 }

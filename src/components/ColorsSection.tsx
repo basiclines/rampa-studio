@@ -70,7 +70,7 @@ const ColorsSection: React.FC = () => {
   };
 
   return (
-    <div className="flex relative">
+    <div className="flex relative r-canvas-dotgrid min-h-screen">
       {/* Export Button - Fixed in top right */}
       <div className="fixed top-4 right-4 z-50 flex gap-2">
         <CopyButton
