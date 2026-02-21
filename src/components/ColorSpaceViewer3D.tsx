@@ -141,7 +141,7 @@ function CubeScene({ corners, stepsPerAxis, interpolation }: CubeVisualizationPr
 
 const ColorSpaceViewer3D: React.FC<ColorSpaceViewer3DProps> = (props) => {
   return (
-    <div className="w-full h-full min-h-[400px] rounded-lg overflow-hidden bg-[#1a1a2e]">
+    <div className="w-full h-full overflow-hidden bg-[#1a1a2e]">
       <Canvas camera={{ position: [4, 3, 5], fov: 50 }}>
         <ambientLight intensity={0.6} />
         <directionalLight position={[5, 5, 5]} intensity={0.8} />
