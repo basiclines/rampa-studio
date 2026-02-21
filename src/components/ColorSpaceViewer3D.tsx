@@ -88,10 +88,11 @@ function CubeScene({ corners, stepsPerAxis, interpolation }: CubeVisualizationPr
     }
   });
 
-  const keys = Object.keys(corners);
   const cornerColors = useMemo(
-    () => keys.map((k) => corners[k]) as [string, string, string, string, string, string, string, string],
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    () => {
+      const keys = Object.keys(corners);
+      return keys.map((k) => corners[k]) as [string, string, string, string, string, string, string, string];
+    },
     [corners],
   );
 

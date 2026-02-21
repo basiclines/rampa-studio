@@ -39,8 +39,8 @@ const ColorSpacesSection: React.FC = () => {
         linearConfig.interpolation,
       );
     }
-    const keys = Object.keys(cubeConfig.corners);
-    const cornerArr = keys.map((k) => cubeConfig.corners[k]) as [string, string, string, string, string, string, string, string];
+    const cornerKeys = CORNER_LABELS.map((c) => c.key);
+    const cornerArr = cornerKeys.map((k) => cubeConfig.corners[k]) as [string, string, string, string, string, string, string, string];
     return generateCubeSpace(cornerArr, cubeConfig.stepsPerAxis, cubeConfig.interpolation);
   }, [spaceType, linearConfig, cubeConfig]);
 

@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useGetActiveTab } from '@/usecases/GetActiveTab';
 import { useShowColorTab } from '@/usecases/ShowColorTab';
@@ -8,7 +8,6 @@ import ColorsSection from './ColorsSection';
 import UISection from './UISection';
 import ColorSpacesSection from './ColorSpacesSection';
 import { getVariant } from '@/utilities/AmplitudeTracker';
-import type { MainTabType } from '@/state/MainTabState';
 
 
 const MainTabs: React.FC = () => {
