@@ -331,8 +331,10 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                   className="group relative w-full h-full overflow-hidden transition-all duration-200 flex items-stretch cursor-pointer"
                   style={{ backgroundColor: color }}
                   onClick={(e) => {
-                    e.stopPropagation();
-                    onColorClick?.(color);
+                    if (isSelected) {
+                      e.stopPropagation();
+                      onColorClick?.(color);
+                    }
                   }}
                   /* React converts any color format to rgb() format on render */
                 >

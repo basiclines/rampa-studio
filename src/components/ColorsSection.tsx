@@ -64,6 +64,9 @@ const ColorsSection: React.FC = () => {
   };
 
   const handleColorRampClick = (rampId: string) => {
+    if (selectedRampId !== rampId) {
+      setSelectedColor(null);
+    }
     selectColorRamp(rampId);
   };
 
