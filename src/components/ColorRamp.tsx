@@ -334,7 +334,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                     e.stopPropagation();
                     onColorClick?.(color);
                   }}
-                  /* React convers any color format to rgb() format on render */
+                  /* React converts any color format to rgb() format on render */
                 >
                   {/* Hex value on bottom-right - only visible when hovering the entire ramp */}
                   {(isHovered || isSelected) && (

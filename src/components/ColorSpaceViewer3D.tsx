@@ -28,15 +28,11 @@ function InteractiveSphere({
   position,
   color,
   isSelected,
-  onHover,
-  onUnhover,
   onClick,
 }: {
   position: [number, number, number];
   color: string;
   isSelected: boolean;
-  onHover: () => void;
-  onUnhover: () => void;
   onClick: (e: ThreeEvent<MouseEvent>) => void;
 }) {
   const [hovered, setHovered] = useState(false);
@@ -49,8 +45,8 @@ function InteractiveSphere({
       ref={meshRef}
       position={position}
       scale={scale}
-      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); onHover(); document.body.style.cursor = 'pointer'; }}
-      onPointerOut={(e) => { e.stopPropagation(); setHovered(false); onUnhover(); document.body.style.cursor = 'auto'; }}
+      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); }}
+      onPointerOut={(e) => { e.stopPropagation(); setHovered(false); }}
       onClick={onClick}
     >
       <sphereGeometry args={[radius, 16, 16]} />
@@ -70,8 +66,6 @@ function InteractiveBox({
   color,
   size,
   isSelected,
-  onHover,
-  onUnhover,
   onClick,
 }: {
   basePosition: [number, number, number];
@@ -79,8 +73,6 @@ function InteractiveBox({
   color: string;
   size: number;
   isSelected: boolean;
-  onHover: () => void;
-  onUnhover: () => void;
   onClick: (e: ThreeEvent<MouseEvent>) => void;
 }) {
   const [hovered, setHovered] = useState(false);
@@ -99,8 +91,8 @@ function InteractiveBox({
     <mesh
       ref={meshRef}
       position={basePosition}
-      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); onHover(); document.body.style.cursor = 'pointer'; }}
-      onPointerOut={(e) => { e.stopPropagation(); setHovered(false); onUnhover(); document.body.style.cursor = 'auto'; }}
+      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); }}
+      onPointerOut={(e) => { e.stopPropagation(); setHovered(false); }}
       onClick={onClick}
     >
       <boxGeometry args={[size, size, size]} />
@@ -157,8 +149,6 @@ function LinearScene({
           position={positions[i]}
           color={hex}
           isSelected={selectedColor === hex}
-          onHover={() => {}}
-          onUnhover={() => {}}
           onClick={(e) => handleClick(hex, e)}
         />
       ))}
@@ -284,8 +274,6 @@ function CubeScene({
           color={color}
           size={cubeSize}
           isSelected={selectedColor === color}
-          onHover={() => {}}
-          onUnhover={() => {}}
           onClick={(e) => handleClick(color, e)}
         />
       ))}
