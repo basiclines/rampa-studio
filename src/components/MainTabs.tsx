@@ -26,7 +26,7 @@ const MainTabs: React.FC = () => {
           onValueChange={handleTabChange}
           className="w-auto"
         >
-          <TabsList className="grid w-full bg-white shadow-sm grid-cols-2">
+          <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="colors" className="px-8 py-2">
               Ramps
             </TabsTrigger>

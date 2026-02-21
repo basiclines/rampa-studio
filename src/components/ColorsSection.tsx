@@ -81,7 +81,7 @@ const ColorsSection: React.FC = () => {
         <CopyButton
           onCopy={handleExportSvg}
           variant="outline"
-          className="gap-2 bg-white shadow-md"
+          className="gap-2"
         >
           <Copy className="w-4 h-4" />
           Copy SVG
@@ -89,12 +89,12 @@ const ColorsSection: React.FC = () => {
         <CopyButton
           onCopy={handleExportJson}
           variant="outline"
-          className="gap-2 bg-white shadow-md"
+          className="gap-2"
         >
           <FileJson className="w-4 h-4" />
           Copy JSON
         </CopyButton>
-        <Button onClick={() => setShowAbout(true)} variant="outline" className="gap-2 bg-white shadow-md">
+        <Button onClick={() => setShowAbout(true)} variant="outline" className="gap-2">
           <Info className="w-4 h-4" />
           About
         </Button>

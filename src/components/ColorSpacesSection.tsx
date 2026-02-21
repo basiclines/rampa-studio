@@ -22,7 +22,7 @@ const ColorSpacesSection: React.FC = () => {
           <Button
             onClick={() => setSidebarOpen(true)}
             variant="outline"
-            className="gap-2 bg-white shadow-md"
+            className="gap-2"
           >
             <Settings2 className="w-4 h-4" />
             Settings
