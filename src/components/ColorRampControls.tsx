@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Label } from '@/components/ui/label';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
-import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
+import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ColorRampConfig, ColorFormat } from '@/entities/ColorRampEntity';
 import { BlendMode } from '@/entities/BlendModeEntity';
 import BaseColorSwatch from './BaseColorSwatch';
@@ -30,11 +30,13 @@ interface ColorRampControlsProps {
 }
 
 const ColorFormatControl = ({ value, onChange }: { value: ColorFormat, onChange: (v: ColorFormat) => void }) => (
-  <ToggleGroup type="single" value={value} onValueChange={(v) => v && onChange(v as ColorFormat)} className="w-full">
-    <ToggleGroupItem value="hex" className="flex-1">HEX</ToggleGroupItem>
-    <ToggleGroupItem value="hsl" className="flex-1">HSL</ToggleGroupItem>
-    <ToggleGroupItem value="oklch" className="flex-1">OKLCH</ToggleGroupItem>
-  </ToggleGroup>
+  <Tabs value={value} onValueChange={(v) => onChange(v as ColorFormat)} className="w-full">
+    <TabsList className="grid w-full grid-cols-3">
+      <TabsTrigger value="hex">HEX</TabsTrigger>
+      <TabsTrigger value="hsl">HSL</TabsTrigger>
+      <TabsTrigger value="oklch">OKLCH</TabsTrigger>
+    </TabsList>
+  </Tabs>
 );
 
 // Add scale types in English
