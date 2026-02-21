@@ -24,13 +24,9 @@ export function generateCSSVariables(colorRamps: ColorRampConfig[]): CSSVariable
       const stepNumber = index * 10;
       const variableName = `--${sanitizedRampName}-${stepNumber}`;
       
-      // Use locked color if available, otherwise use generated color
-      const swatch = ramp.swatches[index];
-      const finalColor = (swatch && swatch.locked) ? swatch.color : color;
-      
       variables.push({
         name: variableName,
-        value: finalColor,
+        value: color,
         rampName: sanitizedRampName,
         stepNumber: stepNumber,
       });

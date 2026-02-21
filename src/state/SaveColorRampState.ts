@@ -30,7 +30,6 @@ const useSaveApplicationState = create<State & Actions>((set) => ({
         color: DEFAULT_COLOR_RAMP_VALUES.baseColor,
         colorFormat: DEFAULT_COLOR_RAMP_VALUES.colorFormat,
         index: i,
-        locked: false,
       })),
     },
   ],

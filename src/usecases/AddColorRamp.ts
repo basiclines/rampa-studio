@@ -13,7 +13,6 @@ export function addColorRamp(
     color: baseColor,
     colorFormat: colorFormat,
     index: i,
-    locked: false
   }));
   const newRamp: ColorRampConfig = {
     id: Date.now().toString(),

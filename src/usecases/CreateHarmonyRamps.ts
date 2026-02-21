@@ -55,7 +55,6 @@ export function createHarmonyRamps(
       color,
       colorFormat: baseRamp.colorFormat,
       index: idx,
-      locked: false
     }));
     return {
       ...baseRamp,

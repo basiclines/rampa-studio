@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { LockClosedIcon, LockOpen1Icon, CopyIcon, TrashIcon } from '@radix-ui/react-icons';
+import { CopyIcon, TrashIcon } from '@radix-ui/react-icons';
 import { generateColorRamp } from '@/engine/ColorEngine';
 import { Button } from '@/components/ui/button';
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
@@ -19,8 +19,6 @@ import {
   getCompoundColors,
 } from '@/engine/ColorEngine';
 import { useEditColorRampName } from '@/usecases/EditColorRampName';
-import { useLockRampColor } from '@/usecases/LockRampColor';
-import { useLockAllRampColors } from '@/usecases/LockAllRampColors';
 import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
 import { useCreateHarmonyRamps } from '@/usecases/CreateHarmonyRamps';
 
@@ -49,8 +47,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
   
   // Usecases
   const editColorRampName = useEditColorRampName();
-  const lockRampColor = useLockRampColor();
-  const lockAllRampColors = useLockAllRampColors();
   const duplicateColorRamp = useDuplicateColorRamp();
   const createHarmonyRamps = useCreateHarmonyRamps();
   
@@ -66,32 +62,9 @@ const ColorRamp: React.FC<ColorRampProps> = ({
     return generateColorRamp(config);
   }, [config, previewBlendMode]);
 
-  // Use raw colors from swatches when available, generated colors otherwise
-  const displayColors = useMemo(() => {
-    return colors.map((generatedColor, index) => {
-      const swatch = config.swatches[index];
-      // If swatch exists and is locked, use its raw color value
-      if (swatch && swatch.locked) {
-        return swatch.color;
-      }
-      // Otherwise use the generated color
-      return generatedColor;
-    });
-  }, [colors, config.swatches]);
-
-  const toggleLockColor = (index: number, color: string) => {
-    lockRampColor(config.id, index, color);
-  };
-
   const handleDelete = (e: React.MouseEvent) => {
     e.stopPropagation();
     onDelete?.();
-  };
-
-  // Add a function to lock/unlock all colors
-  const allLocked = config.swatches.length > 0 && config.swatches.every(swatch => swatch.locked);
-  const handleLockAll = () => {
-    lockAllRampColors(config.id, colors, !allLocked);
   };
 
   const handleHarmonyRamp = (harmonyType: 'analogous' | 'triad' | 'complementary' | 'split-complementary' | 'square' | 'compound') => {
@@ -123,21 +96,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       <div className="pointer-events-none">
         {(isHovered || isSelected) && (
           <div className="absolute top-2 right-2 z-30 flex gap-1 pointer-events-auto">
-            {/* Lock/Unlock All Colors Button */}
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={handleLockAll}
-              className="h-8 w-8 p-0 bg-white"
-              style={{ pointerEvents: 'auto' }}
-              title={allLocked ? 'Unlock all colors' : 'Lock all colors'}
-            >
-              {allLocked ? (
-                <LockClosedIcon className="w-3 h-3" />
-              ) : (
-                <LockOpen1Icon className="w-3 h-3" />
-              )}
-            </Button>
             {/* Add Color Ramp Button (Dropdown, open on hover) */}
             <div
               onMouseEnter={() => setMenuOpen(true)}
@@ -323,8 +281,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
       <div className="relative isolate" style={{ height: 'calc(100% - 56px)' }}>
         {/* Color Ramp */}
         <div className="flex flex-col gap-0" style={{ height: '100%' }}>
-          {displayColors.map((color, index) => {
-            const isLocked = config.swatches && config.swatches[index]?.locked;
+          {colors.map((color, index) => {
             return (
               <div key={index} className="relative flex-1 min-h-0">
                 <div
@@ -336,7 +293,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       onColorClick?.(color);
                     }
                   }}
-                  /* React converts any color format to rgb() format on render */
                 >
                   {/* Hex value on bottom-right - only visible when hovering the entire ramp */}
                   {(isHovered || isSelected) && (
@@ -346,25 +302,6 @@ const ColorRamp: React.FC<ColorRampProps> = ({
                       </span>
                     </div>
                   )}
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className={`absolute top-1 right-1 w-6 h-6 p-0 transition-all duration-200 z-10 ${
-                      isLocked 
-                        ? 'bg-black bg-opacity-60 text-yellow-400 opacity-100' 
-                        : 'bg-black bg-opacity-0 text-white opacity-0 group-hover:opacity-100 group-hover:bg-opacity-60'
-                    }`}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      toggleLockColor(index, color);
-                    }}
-                  >
-                    {isLocked ? (
-                      <LockClosedIcon className="w-3 h-3" />
-                    ) : (
-                      <LockOpen1Icon className="w-3 h-3" />
-                    )}
-                  </Button>
                 </div>
               </div>
             );
