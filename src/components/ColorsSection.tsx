@@ -3,6 +3,7 @@ import { Copy, Info, FileJson } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
+import ColorDetailSidebar from '@/components/ColorDetailSidebar';
 import {
   Dialog,
   DialogContent,
@@ -25,6 +26,7 @@ import { usePreviewScaleTypes } from '@/usecases/PreviewScaleTypes';
 const ColorsSection: React.FC = () => {
   const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
   const [showAbout, setShowAbout] = React.useState(false);
+  const [selectedColor, setSelectedColor] = React.useState<string | null>(null);
 
   // State from usecases
   const colorRamps = useSaveColorRamp(state => state.colorRamps);
@@ -62,6 +64,9 @@ const ColorsSection: React.FC = () => {
   };
 
   const handleColorRampClick = (rampId: string) => {
+    if (selectedRampId !== rampId) {
+      setSelectedColor(null);
+    }
     selectColorRamp(rampId);
   };
 
@@ -70,13 +75,13 @@ const ColorsSection: React.FC = () => {
   };
 
   return (
-    <div className="flex relative">
+    <div className="flex relative r-canvas-dotgrid min-h-screen">
       {/* Export Button - Fixed in top right */}
       <div className="fixed top-4 right-4 z-50 flex gap-2">
         <CopyButton
           onCopy={handleExportSvg}
           variant="outline"
-          className="gap-2 bg-white shadow-md"
+          className="gap-2"
         >
           <Copy className="w-4 h-4" />
           Copy SVG
@@ -84,12 +89,12 @@ const ColorsSection: React.FC = () => {
         <CopyButton
           onCopy={handleExportJson}
           variant="outline"
-          className="gap-2 bg-white shadow-md"
+          className="gap-2"
         >
           <FileJson className="w-4 h-4" />
           Copy JSON
         </CopyButton>
-        <Button onClick={() => setShowAbout(true)} variant="outline" className="gap-2 bg-white shadow-md">
+        <Button onClick={() => setShowAbout(true)} variant="outline" className="gap-2">
           <Info className="w-4 h-4" />
           About
         </Button>
@@ -109,30 +114,22 @@ const ColorsSection: React.FC = () => {
         </DialogContent>
       </Dialog>
 
-      {/* Fixed Sidebar - Only shown when a ramp is selected */}
-      {selectedRamp && (
-        <ColorRampControls
-          ramp={selectedRamp}
-          canDelete={colorRamps.length > 1}
-          onUpdate={(updates) => updateColorRamp(selectedRamp.id, updates)}
-          onDuplicate={() => duplicateColorRamp(selectedRamp)}
-          onDelete={() => removeColorRamp(selectedRamp.id)}
-          onPreviewBlendMode={(blendMode) => handlePreviewBlendMode(selectedRamp.id, blendMode)}
-          closeSidebar={closeSidebar}
-          previewScaleType={previewScaleType}
-          setPreviewScaleType={setPreviewScaleType}
-        />
-      )}
+      {/* Ramp Settings Sheet */}
+      <ColorRampControls
+        ramp={selectedRamp || colorRamps[0]}
+        canDelete={colorRamps.length > 1}
+        open={!!selectedRamp}
+        onOpenChange={(open) => { if (!open) closeSidebar(); }}
+        onUpdate={(updates) => selectedRamp && updateColorRamp(selectedRamp.id, updates)}
+        onDuplicate={() => selectedRamp && duplicateColorRamp(selectedRamp)}
+        onDelete={() => selectedRamp && removeColorRamp(selectedRamp.id)}
+        onPreviewBlendMode={(blendMode) => selectedRamp && handlePreviewBlendMode(selectedRamp.id, blendMode)}
+        previewScaleType={previewScaleType}
+        setPreviewScaleType={setPreviewScaleType}
+      />
 
       {/* Main Content */}
-      <div
-        className="flex-1 p-8"
-        style={{
-          paddingLeft: 48,
-          paddingRight: 48,
-          transition: 'padding-left 0.2s',
-        }}
-      >
+      <div className="flex-1 px-12 py-8">
         <div className="max-w-none">
           <div className="flex gap-6 pb-4 overflow-x-auto flex-nowrap justify-center mx-auto" style={{ WebkitOverflowScrolling: 'touch', maxWidth: '100%' }}>
             {colorRamps.map((ramp) => {
@@ -159,6 +156,7 @@ const ColorsSection: React.FC = () => {
                     onDelete={colorRamps.length > 1 ? () => removeColorRamp(ramp.id) : undefined}
                     previewBlendMode={previewBlendModes[ramp.id]}
                     isSelected={isSelected}
+                    onColorClick={(color) => setSelectedColor(color)}
                   />
                 </div>
               );
@@ -166,6 +164,13 @@ const ColorsSection: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Color Detail Sheet */}
+      <ColorDetailSidebar
+        color={selectedColor || ''}
+        open={!!selectedColor}
+        onOpenChange={(open) => { if (!open) setSelectedColor(null); }}
+      />
     </div>
   );
 };

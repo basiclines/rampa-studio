@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-export type MainTabType = 'colors' | 'ui';
+export type MainTabType = 'colors' | 'colorSpaces';
 
 type State = {
   activeTab: MainTabType;

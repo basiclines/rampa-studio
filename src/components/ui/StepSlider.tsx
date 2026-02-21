@@ -84,7 +84,7 @@ function StepSlider<T extends string | number>({
         
         {/* Track */}
         <div
-          className="absolute left-0 right-0 top-1/2 h-1 -translate-y-1/2 z-0 r-material-dark-thin"
+          className="absolute left-0 right-0 top-1/2 h-1 -translate-y-1/2 z-0 bg-black/10"
           />
         
         {/* Thumb */}
@@ -98,7 +98,7 @@ function StepSlider<T extends string | number>({
               pointerEvents: 'none',
             }}
           >
-            <div className="w-3 h-3 absolute rounded-full r-material-light-gradient r-slider-thumb"
+            <div className="w-3 h-3 absolute rounded-full bg-gradient-to-b from-white to-white/65 shadow-[0_0_0_2px_rgba(0,0,0,0.4)]"
               style={{
                 left: '50%',
                 top: '50%',
@@ -133,7 +133,7 @@ function StepSlider<T extends string | number>({
             >
               {/* Step vertical line centered in the step area */}
               <div
-                className={`rounded transition-all duration-150 r-material-dark`}
+                className={`rounded transition-all duration-150 bg-black/30`}
                 style={{
                   position: 'absolute', left: '50%', top: '50%',
                   width: 4,

@@ -287,12 +287,6 @@ export const generateColorRamp = (config: ColorRampConfig): string[] => {
     
     // Generate colors from darkest to lightest
     for (let i = 0; i < config.totalSteps; i++) {
-      // Check if this color index is locked (swatch)
-      if (config.swatches && config.swatches[i]?.locked) {
-        colors.push(config.swatches[i].color);
-        continue;
-      }
-      
       // Choose generation method based on color format
       if (config.colorFormat === 'oklch') {
         const color = generateSingleColorOklch(config, i, convertToOklch(config.baseColor), middleIndex);
