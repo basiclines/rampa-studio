@@ -11,16 +11,10 @@ const ColorSpacesSection: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
 
-  const handleCloseColorDetail = () => {
-    setSelectedColor(null);
-  };
-
   return (
     <div className="flex relative r-canvas-dotgrid" style={{ height: 'calc(100vh - 80px)' }}>
-      {/* Fixed sidebar — overlays on top of the canvas */}
-      {sidebarOpen && (
-        <ColorSpaceControls closeSidebar={() => setSidebarOpen(false)} />
-      )}
+      {/* Settings Sheet */}
+      <ColorSpaceControls open={sidebarOpen} onOpenChange={setSidebarOpen} />
 
       {/* Open sidebar button — shown when sidebar is closed */}
       {!sidebarOpen && (
@@ -60,13 +54,12 @@ const ColorSpacesSection: React.FC = () => {
         )}
       </div>
 
-      {/* Color Detail Sidebar - right side */}
-      {selectedColor && (
-        <ColorDetailSidebar
-          color={selectedColor}
-          onClose={handleCloseColorDetail}
-        />
-      )}
+      {/* Color Detail Sheet */}
+      <ColorDetailSidebar
+        color={selectedColor || ''}
+        open={!!selectedColor}
+        onOpenChange={(open) => { if (!open) setSelectedColor(null); }}
+      />
     </div>
   );
 };

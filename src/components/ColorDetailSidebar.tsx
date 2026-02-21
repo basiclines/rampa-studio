@@ -1,11 +1,13 @@
 import React from 'react';
-import { Cross1Icon, CopyIcon } from '@radix-ui/react-icons';
+import { CopyIcon } from '@radix-ui/react-icons';
 import chroma from 'chroma-js';
 import { convertToOklch, formatOklchString } from '@/engine/OklchEngine';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 
 interface ColorDetailSidebarProps {
   color: string;
-  onClose: () => void;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
 }
 
 interface ColorFormat {
@@ -37,7 +39,7 @@ function getColorFormats(color: string): ColorFormat[] {
   }
 }
 
-const ColorDetailSidebar: React.FC<ColorDetailSidebarProps> = ({ color, onClose }) => {
+const ColorDetailSidebar: React.FC<ColorDetailSidebarProps> = ({ color, open, onOpenChange }) => {
   const [copiedIndex, setCopiedIndex] = React.useState<number | null>(null);
   const timeoutRef = React.useRef<NodeJS.Timeout | null>(null);
 
@@ -60,76 +62,56 @@ const ColorDetailSidebar: React.FC<ColorDetailSidebarProps> = ({ color, onClose 
     };
   }, []);
 
-  // Close on Escape
-  React.useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [onClose]);
-
   return (
-    <div
-      className="fixed top-0 right-0 z-40 r-material-light"
-      style={{
-        width: 300,
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        borderLeft: '1px solid rgba(0, 0, 0, 0.12)',
-      }}
-    >
-      {/* Header with close button */}
-      <div className="flex justify-between items-center p-6 pb-0">
-        <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">Color Detail</span>
-        <button className="r-close-button" onClick={onClose}>
-          <Cross1Icon className="w-4 h-4" />
-        </button>
-      </div>
+    <Sheet open={open} onOpenChange={onOpenChange}>
+      <SheetContent side="right">
+        <SheetHeader>
+          <SheetTitle>Color Detail</SheetTitle>
+          <SheetDescription className="sr-only">Color format conversions</SheetDescription>
+        </SheetHeader>
 
-      <div className="flex-1 overflow-y-auto p-6">
-        {/* Color preview */}
-        <div className="flex justify-center mb-6">
-          <div
-            className="rounded-full border-2 border-white"
-            style={{
-              width: 120,
-              height: 120,
-              backgroundColor: color,
-              boxShadow: '0 0 0 1px rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.15)',
-            }}
-          />
-        </div>
+        <div className="pt-4">
+          {/* Color preview */}
+          <div className="flex justify-center mb-6">
+            <div
+              className="rounded-full border-2 border-background shadow-lg"
+              style={{
+                width: 120,
+                height: 120,
+                backgroundColor: color,
+              }}
+            />
+          </div>
 
-        {/* Color formats */}
-        <div className="space-y-3">
-          {formats.map((fmt, i) => (
-            <div key={fmt.label} className="flex items-center gap-2">
-              <div className="flex-1 min-w-0">
-                <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-0.5">
-                  {fmt.label}
+          {/* Color formats */}
+          <div className="space-y-3">
+            {formats.map((fmt, i) => (
+              <div key={fmt.label} className="flex items-center gap-2">
+                <div className="flex-1 min-w-0">
+                  <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-0.5">
+                    {fmt.label}
+                  </div>
+                  <div className="text-sm font-mono text-foreground truncate">
+                    {fmt.value}
+                  </div>
                 </div>
-                <div className="text-sm font-mono text-gray-800 truncate">
-                  {fmt.value}
-                </div>
+                <button
+                  onClick={() => handleCopy(fmt.value, i)}
+                  className="flex-shrink-0 p-1.5 rounded hover:bg-accent transition-colors text-muted-foreground hover:text-accent-foreground"
+                  title={`Copy ${fmt.label}`}
+                >
+                  {copiedIndex === i ? (
+                    <span className="text-xs text-green-600 font-medium">✓</span>
+                  ) : (
+                    <CopyIcon className="w-3.5 h-3.5" />
+                  )}
+                </button>
               </div>
-              <button
-                onClick={() => handleCopy(fmt.value, i)}
-                className="flex-shrink-0 p-1.5 rounded hover:bg-gray-100 transition-colors text-gray-400 hover:text-gray-600"
-                title={`Copy ${fmt.label}`}
-              >
-                {copiedIndex === i ? (
-                  <span className="text-xs text-green-600 font-medium">✓</span>
-                ) : (
-                  <CopyIcon className="w-3.5 h-3.5" />
-                )}
-              </button>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </div>
+      </SheetContent>
+    </Sheet>
   );
 };
 

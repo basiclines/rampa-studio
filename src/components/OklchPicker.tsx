@@ -93,7 +93,7 @@ const OklchPicker: React.FC<OklchPickerProps> = ({
   };
 
   return (
-    <div className="oklch-picker r-popover inline-block" style={{ padding: 10, width: width + 20 }}>
+    <div className="oklch-picker inline-block rounded-md border bg-popover p-2.5 shadow-md" style={{ width: width + 20 }}>
 
       <OklchField 
         lightness={oklch.l}

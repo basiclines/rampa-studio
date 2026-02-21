@@ -114,30 +114,22 @@ const ColorsSection: React.FC = () => {
         </DialogContent>
       </Dialog>
 
-      {/* Fixed Sidebar - Only shown when a ramp is selected */}
-      {selectedRamp && (
-        <ColorRampControls
-          ramp={selectedRamp}
-          canDelete={colorRamps.length > 1}
-          onUpdate={(updates) => updateColorRamp(selectedRamp.id, updates)}
-          onDuplicate={() => duplicateColorRamp(selectedRamp)}
-          onDelete={() => removeColorRamp(selectedRamp.id)}
-          onPreviewBlendMode={(blendMode) => handlePreviewBlendMode(selectedRamp.id, blendMode)}
-          closeSidebar={closeSidebar}
-          previewScaleType={previewScaleType}
-          setPreviewScaleType={setPreviewScaleType}
-        />
-      )}
+      {/* Ramp Settings Sheet */}
+      <ColorRampControls
+        ramp={selectedRamp || colorRamps[0]}
+        canDelete={colorRamps.length > 1}
+        open={!!selectedRamp}
+        onOpenChange={(open) => { if (!open) closeSidebar(); }}
+        onUpdate={(updates) => selectedRamp && updateColorRamp(selectedRamp.id, updates)}
+        onDuplicate={() => selectedRamp && duplicateColorRamp(selectedRamp)}
+        onDelete={() => selectedRamp && removeColorRamp(selectedRamp.id)}
+        onPreviewBlendMode={(blendMode) => selectedRamp && handlePreviewBlendMode(selectedRamp.id, blendMode)}
+        previewScaleType={previewScaleType}
+        setPreviewScaleType={setPreviewScaleType}
+      />
 
       {/* Main Content */}
-      <div
-        className="flex-1 p-8"
-        style={{
-          paddingLeft: 48,
-          paddingRight: 48,
-          transition: 'padding-left 0.2s',
-        }}
-      >
+      <div className="flex-1 px-12 py-8">
         <div className="max-w-none">
           <div className="flex gap-6 pb-4 overflow-x-auto flex-nowrap justify-center mx-auto" style={{ WebkitOverflowScrolling: 'touch', maxWidth: '100%' }}>
             {colorRamps.map((ramp) => {
@@ -173,13 +165,12 @@ const ColorsSection: React.FC = () => {
         </div>
       </div>
 
-      {/* Color Detail Sidebar - right side */}
-      {selectedColor && (
-        <ColorDetailSidebar
-          color={selectedColor}
-          onClose={() => setSelectedColor(null)}
-        />
-      )}
+      {/* Color Detail Sheet */}
+      <ColorDetailSidebar
+        color={selectedColor || ''}
+        open={!!selectedColor}
+        onOpenChange={(open) => { if (!open) setSelectedColor(null); }}
+      />
     </div>
   );
 };

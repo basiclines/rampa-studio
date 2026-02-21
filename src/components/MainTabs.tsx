@@ -18,7 +18,7 @@ const MainTabs: React.FC = () => {
   };
   
   return (
-    <div className="min-h-screen bg-[#F5F5F5]">
+    <div className="min-h-screen bg-muted">
       {/* Top Navigation Tabs */}
       <div className="flex justify-center pt-6 pb-4">
         <Tabs 
