@@ -11,7 +11,7 @@ import { useSetUserCSS, useResetUserCSS } from '@/usecases/SetUserCSS';
 import { useIsUserCSSModified } from '@/usecases/GetUserCSS';
 import { useComponentProviderState } from '@/state/ComponentProviderState';
 import { useGetProviderDefaultCSS } from '@/usecases/GetProviderDefaultCSS';
-import * as monaco from 'monaco-editor';
+import type * as monaco from 'monaco-editor';
 
 const DEFAULT_CSS_TEMPLATE = ``;
 

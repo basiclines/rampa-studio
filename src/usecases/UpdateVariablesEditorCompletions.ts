@@ -1,13 +1,13 @@
 import { CSSVariable } from '@/state/CSSVariablesState';
-import * as monaco from 'monaco-editor';
+import type * as monaco from 'monaco-editor';
 
 /**
  * Pure function to convert CSS variables to Variables Editor completion items
  */
-export function createVariablesEditorCompletionItems(variables: CSSVariable[]): Omit<monaco.languages.CompletionItem, 'range'>[] {
+export function createVariablesEditorCompletionItems(variables: CSSVariable[], monacoInstance: typeof monaco): Omit<monaco.languages.CompletionItem, 'range'>[] {
   return variables.map((variable) => ({
     label: variable.name,
-    kind: monaco.languages.CompletionItemKind.Variable,
+    kind: monacoInstance.languages.CompletionItemKind.Variable,
     insertText: `var(${variable.name})`,
     documentation: `${variable.rampName} color ramp - step ${variable.stepNumber}\nValue: ${variable.value}`,
     detail: `CSS Variable: ${variable.value}`,
@@ -36,7 +36,7 @@ export function useUpdateMonacoCompletions() {
           endColumn: word.endColumn,
         };
 
-        const suggestions = createVariablesEditorCompletionItems(variables).map(item => ({
+        const suggestions = createVariablesEditorCompletionItems(variables, monacoInstance).map(item => ({
           ...item,
           range: range,
         }));
