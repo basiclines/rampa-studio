@@ -31,6 +31,7 @@ interface ColorRampProps {
   onDelete?: () => void;
   previewBlendMode?: string;
   isSelected?: boolean;
+  onColorClick?: (color: string) => void;
 }
 
 const ColorRamp: React.FC<ColorRampProps> = ({ 
@@ -40,6 +41,7 @@ const ColorRamp: React.FC<ColorRampProps> = ({
   onDelete,
   previewBlendMode, 
   isSelected = false,
+  onColorClick,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
@@ -326,8 +328,12 @@ const ColorRamp: React.FC<ColorRampProps> = ({
             return (
               <div key={index} className="relative flex-1 min-h-0">
                 <div
-                  className="group relative w-full h-full overflow-hidden transition-all duration-200 flex items-stretch"
+                  className="group relative w-full h-full overflow-hidden transition-all duration-200 flex items-stretch cursor-pointer"
                   style={{ backgroundColor: color }}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onColorClick?.(color);
+                  }}
                   /* React convers any color format to rgb() format on render */
                 >
                   {/* Hex value on bottom-right - only visible when hovering the entire ramp */}

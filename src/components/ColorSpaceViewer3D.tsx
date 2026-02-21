@@ -1,6 +1,6 @@
-import React, { useMemo, useRef } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
+import React, { useMemo, useRef, useState, useCallback } from 'react';
+import { Canvas, useFrame, ThreeEvent } from '@react-three/fiber';
+import { OrbitControls, Edges } from '@react-three/drei';
 import * as THREE from 'three';
 import { generateLinearSpace, generateCubeSpace } from '@/engine/ColorSpaceEngine';
 import type { InterpolationMode } from '@/engine/ColorSpaceEngine';
@@ -19,12 +19,105 @@ interface CubeVisualizationProps {
 }
 
 type ColorSpaceViewer3DProps =
-  | { type: 'linear' } & LinearVisualizationProps
-  | { type: 'cube' } & CubeVisualizationProps;
+  | ({ type: 'linear'; onColorSelect?: (color: string) => void; selectedColor?: string | null } & LinearVisualizationProps)
+  | ({ type: 'cube'; onColorSelect?: (color: string) => void; selectedColor?: string | null } & CubeVisualizationProps);
+
+/* ───── Interactive sphere for linear scene ───── */
+
+function InteractiveSphere({
+  position,
+  color,
+  isSelected,
+  onHover,
+  onUnhover,
+  onClick,
+}: {
+  position: [number, number, number];
+  color: string;
+  isSelected: boolean;
+  onHover: () => void;
+  onUnhover: () => void;
+  onClick: (e: ThreeEvent<MouseEvent>) => void;
+}) {
+  const [hovered, setHovered] = useState(false);
+  const meshRef = useRef<THREE.Mesh>(null);
+  const radius = 0.2;
+  const scale = hovered || isSelected ? 1.3 : 1;
+
+  return (
+    <mesh
+      ref={meshRef}
+      position={position}
+      scale={scale}
+      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); onHover(); document.body.style.cursor = 'pointer'; }}
+      onPointerOut={(e) => { e.stopPropagation(); setHovered(false); onUnhover(); document.body.style.cursor = 'auto'; }}
+      onClick={onClick}
+    >
+      <sphereGeometry args={[radius, 16, 16]} />
+      <meshStandardMaterial color={color} />
+      {(hovered || isSelected) && (
+        <Edges scale={1} threshold={15} color="white" lineWidth={2} />
+      )}
+    </mesh>
+  );
+}
+
+/* ───── Interactive cube box ───── */
+
+function InteractiveBox({
+  basePosition,
+  targetPosition,
+  color,
+  size,
+  isSelected,
+  onHover,
+  onUnhover,
+  onClick,
+}: {
+  basePosition: [number, number, number];
+  targetPosition: [number, number, number];
+  color: string;
+  size: number;
+  isSelected: boolean;
+  onHover: () => void;
+  onUnhover: () => void;
+  onClick: (e: ThreeEvent<MouseEvent>) => void;
+}) {
+  const [hovered, setHovered] = useState(false);
+  const meshRef = useRef<THREE.Mesh>(null);
+  const posRef = useRef(new THREE.Vector3(...basePosition));
+
+  // Smoothly interpolate position
+  useFrame(() => {
+    if (meshRef.current) {
+      posRef.current.lerp(new THREE.Vector3(...targetPosition), 0.1);
+      meshRef.current.position.copy(posRef.current);
+    }
+  });
+
+  return (
+    <mesh
+      ref={meshRef}
+      position={basePosition}
+      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); onHover(); document.body.style.cursor = 'pointer'; }}
+      onPointerOut={(e) => { e.stopPropagation(); setHovered(false); onUnhover(); document.body.style.cursor = 'auto'; }}
+      onClick={onClick}
+    >
+      <boxGeometry args={[size, size, size]} />
+      <meshStandardMaterial color={color} />
+      {(hovered || isSelected) && (
+        <Edges scale={1} threshold={15} color="white" lineWidth={2} />
+      )}
+    </mesh>
+  );
+}
 
 /* ───── Linear: spheres along a curved line ───── */
 
-function LinearScene({ fromColor, toColor, steps, interpolation }: LinearVisualizationProps) {
+function LinearScene({
+  fromColor, toColor, steps, interpolation,
+  onColorSelect, selectedColor,
+}: LinearVisualizationProps & { onColorSelect?: (color: string) => void; selectedColor?: string | null }) {
   const groupRef = useRef<THREE.Group>(null);
 
   useFrame((_, delta) => {
@@ -51,13 +144,23 @@ function LinearScene({ fromColor, toColor, steps, interpolation }: LinearVisuali
     return pts;
   }, [colors.length]);
 
+  const handleClick = useCallback((hex: string, e: ThreeEvent<MouseEvent>) => {
+    e.stopPropagation();
+    onColorSelect?.(hex);
+  }, [onColorSelect]);
+
   return (
     <group ref={groupRef}>
       {colors.map((hex, i) => (
-        <mesh key={i} position={positions[i]}>
-          <sphereGeometry args={[0.2, 16, 16]} />
-          <meshStandardMaterial color={hex} />
-        </mesh>
+        <InteractiveSphere
+          key={i}
+          position={positions[i]}
+          color={hex}
+          isSelected={selectedColor === hex}
+          onHover={() => {}}
+          onUnhover={() => {}}
+          onClick={(e) => handleClick(hex, e)}
+        />
       ))}
       {/* Line connecting the spheres */}
       {positions.length > 1 && (
@@ -79,7 +182,10 @@ function LinearScene({ fromColor, toColor, steps, interpolation }: LinearVisuali
 
 /* ───── Cube: small cubes in a 3D grid ───── */
 
-function CubeScene({ corners, stepsPerAxis, interpolation }: CubeVisualizationProps) {
+function CubeScene({
+  corners, stepsPerAxis, interpolation,
+  onColorSelect, selectedColor,
+}: CubeVisualizationProps & { onColorSelect?: (color: string) => void; selectedColor?: string | null }) {
   const groupRef = useRef<THREE.Group>(null);
 
   useFrame((_, delta) => {
@@ -103,35 +209,85 @@ function CubeScene({ corners, stepsPerAxis, interpolation }: CubeVisualizationPr
 
   const cubeSize = 0.35;
   const spacing = cubeSize * 1.6;
+  const expandedSpacing = cubeSize * 2.8;
 
-  const instances = useMemo(() => {
-    const items: { pos: [number, number, number]; color: string }[] = [];
-    let idx = 0;
-    const offset = ((stepsPerAxis - 1) * spacing) / 2;
+  // Find selected index
+  const selectedIndex = useMemo(() => {
+    if (!selectedColor) return -1;
+    return palette.indexOf(selectedColor);
+  }, [palette, selectedColor]);
+
+  // Compute grid coordinates for each instance
+  const gridCoords = useMemo(() => {
+    const coords: { xi: number; yi: number; zi: number }[] = [];
     for (let xi = 0; xi < stepsPerAxis; xi++) {
       for (let yi = 0; yi < stepsPerAxis; yi++) {
         for (let zi = 0; zi < stepsPerAxis; zi++) {
-          items.push({
-            pos: [
-              xi * spacing - offset,
-              yi * spacing - offset,
-              zi * spacing - offset,
-            ],
-            color: palette[idx++],
-          });
+          coords.push({ xi, yi, zi });
         }
       }
     }
-    return items;
-  }, [palette, stepsPerAxis, spacing]);
+    return coords;
+  }, [stepsPerAxis]);
+
+  // Base positions (default state)
+  const basePositions = useMemo(() => {
+    const offset = ((stepsPerAxis - 1) * spacing) / 2;
+    return gridCoords.map(({ xi, yi, zi }) => [
+      xi * spacing - offset,
+      yi * spacing - offset,
+      zi * spacing - offset,
+    ] as [number, number, number]);
+  }, [gridCoords, stepsPerAxis, spacing]);
+
+  // Target positions (expanded when a color is selected)
+  const targetPositions = useMemo(() => {
+    if (selectedIndex < 0) return basePositions;
+
+    const selCoord = gridCoords[selectedIndex];
+    const offset = ((stepsPerAxis - 1) * spacing) / 2;
+
+    return gridCoords.map(({ xi, yi, zi }, i) => {
+      if (i === selectedIndex) return basePositions[i];
+
+      // Compute direction away from selected cube
+      const dx = xi - selCoord.xi;
+      const dy = yi - selCoord.yi;
+      const dz = zi - selCoord.zi;
+      const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+
+      if (dist === 0) return basePositions[i];
+
+      // Adjacent cubes get pushed outward
+      const pushFactor = dist <= 1.8 ? (expandedSpacing - spacing) * (1.8 - dist) / 1.8 : 0;
+
+      return [
+        xi * spacing - offset + (dx / dist) * pushFactor,
+        yi * spacing - offset + (dy / dist) * pushFactor,
+        zi * spacing - offset + (dz / dist) * pushFactor,
+      ] as [number, number, number];
+    });
+  }, [selectedIndex, gridCoords, basePositions, stepsPerAxis, spacing, expandedSpacing]);
+
+  const handleClick = useCallback((hex: string, e: ThreeEvent<MouseEvent>) => {
+    e.stopPropagation();
+    onColorSelect?.(hex);
+  }, [onColorSelect]);
 
   return (
     <group ref={groupRef}>
-      {instances.map((item, i) => (
-        <mesh key={i} position={item.pos}>
-          <boxGeometry args={[cubeSize, cubeSize, cubeSize]} />
-          <meshStandardMaterial color={item.color} />
-        </mesh>
+      {palette.map((color, i) => (
+        <InteractiveBox
+          key={i}
+          basePosition={basePositions[i]}
+          targetPosition={targetPositions[i]}
+          color={color}
+          size={cubeSize}
+          isSelected={selectedColor === color}
+          onHover={() => {}}
+          onUnhover={() => {}}
+          onClick={(e) => handleClick(color, e)}
+        />
       ))}
     </group>
   );
@@ -152,12 +308,16 @@ const ColorSpaceViewer3D: React.FC<ColorSpaceViewer3DProps> = (props) => {
             toColor={props.toColor}
             steps={props.steps}
             interpolation={props.interpolation}
+            onColorSelect={props.onColorSelect}
+            selectedColor={props.selectedColor}
           />
         ) : (
           <CubeScene
             corners={props.corners}
             stepsPerAxis={props.stepsPerAxis}
             interpolation={props.interpolation}
+            onColorSelect={props.onColorSelect}
+            selectedColor={props.selectedColor}
           />
         )}
       </Canvas>

@@ -4,10 +4,16 @@ import { Button } from '@/components/ui/button';
 import { useColorSpaceStore } from '@/state/ColorSpaceState';
 import ColorSpaceViewer3D from './ColorSpaceViewer3D';
 import ColorSpaceControls from './ColorSpaceControls';
+import ColorDetailSidebar from './ColorDetailSidebar';
 
 const ColorSpacesSection: React.FC = () => {
   const { spaceType, linearConfig, cubeConfig } = useColorSpaceStore();
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [selectedColor, setSelectedColor] = useState<string | null>(null);
+
+  const handleCloseColorDetail = () => {
+    setSelectedColor(null);
+  };
 
   return (
     <div className="flex relative r-canvas-dotgrid" style={{ height: 'calc(100vh - 80px)' }}>
@@ -39,6 +45,8 @@ const ColorSpacesSection: React.FC = () => {
             toColor={linearConfig.toColor}
             steps={linearConfig.steps}
             interpolation={linearConfig.interpolation}
+            onColorSelect={setSelectedColor}
+            selectedColor={selectedColor}
           />
         ) : (
           <ColorSpaceViewer3D
@@ -46,9 +54,19 @@ const ColorSpacesSection: React.FC = () => {
             corners={cubeConfig.corners}
             stepsPerAxis={cubeConfig.stepsPerAxis}
             interpolation={cubeConfig.interpolation}
+            onColorSelect={setSelectedColor}
+            selectedColor={selectedColor}
           />
         )}
       </div>
+
+      {/* Color Detail Sidebar - right side */}
+      {selectedColor && (
+        <ColorDetailSidebar
+          color={selectedColor}
+          onClose={handleCloseColorDetail}
+        />
+      )}
     </div>
   );
 };

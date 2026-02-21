@@ -3,6 +3,7 @@ import { Copy, Info, FileJson } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
+import ColorDetailSidebar from '@/components/ColorDetailSidebar';
 import {
   Dialog,
   DialogContent,
@@ -25,6 +26,7 @@ import { usePreviewScaleTypes } from '@/usecases/PreviewScaleTypes';
 const ColorsSection: React.FC = () => {
   const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
   const [showAbout, setShowAbout] = React.useState(false);
+  const [selectedColor, setSelectedColor] = React.useState<string | null>(null);
 
   // State from usecases
   const colorRamps = useSaveColorRamp(state => state.colorRamps);
@@ -159,6 +161,7 @@ const ColorsSection: React.FC = () => {
                     onDelete={colorRamps.length > 1 ? () => removeColorRamp(ramp.id) : undefined}
                     previewBlendMode={previewBlendModes[ramp.id]}
                     isSelected={isSelected}
+                    onColorClick={(color) => setSelectedColor(color)}
                   />
                 </div>
               );
@@ -166,6 +169,14 @@ const ColorsSection: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Color Detail Sidebar - right side */}
+      {selectedColor && (
+        <ColorDetailSidebar
+          color={selectedColor}
+          onClose={() => setSelectedColor(null)}
+        />
+      )}
     </div>
   );
 };
