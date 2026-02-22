@@ -63,7 +63,7 @@ const ColorDetailSidebar: React.FC<ColorDetailSidebarProps> = ({ color, open, on
   }, []);
 
   return (
-    <Sheet open={open} onOpenChange={onOpenChange}>
+    <Sheet open={open} onOpenChange={onOpenChange} modal={false}>
       <SheetContent side="right">
         <SheetHeader>
           <SheetTitle>Color Detail</SheetTitle>

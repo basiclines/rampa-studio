@@ -12,7 +12,7 @@ const ColorSpacesSection: React.FC = () => {
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
 
   return (
-    <div className="flex relative r-canvas-dotgrid" style={{ height: 'calc(100vh - 80px)' }}>
+    <div className="flex relative" style={{ height: 'calc(100vh - 80px)' }}>
       {/* Settings Sheet */}
       <ColorSpaceControls open={sidebarOpen} onOpenChange={setSidebarOpen} />
 

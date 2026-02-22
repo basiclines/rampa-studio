@@ -18,9 +18,9 @@ const MainTabs: React.FC = () => {
   };
   
   return (
-    <div className="min-h-screen bg-muted">
+    <div className="h-screen flex flex-col r-canvas-dotgrid">
       {/* Top Navigation Tabs */}
-      <div className="flex justify-center pt-6 pb-4">
+      <div className="flex justify-center pt-6 pb-4 relative z-10 flex-shrink-0">
         <Tabs 
           value={activeTab} 
           onValueChange={handleTabChange}
@@ -38,7 +38,7 @@ const MainTabs: React.FC = () => {
       </div>
 
       {/* Tab Content */}
-      <div className="flex-1">
+      <div className="flex-1 min-h-0">
         {activeTab === 'colors' && <ColorsSection />}
         {activeTab === 'colorSpaces' && <ColorSpacesSection />}
       </div>

@@ -51,7 +51,7 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
   }, [spaceType, linearConfig, cubeConfig]);
 
   return (
-    <Sheet open={open} onOpenChange={onOpenChange}>
+    <Sheet open={open} onOpenChange={onOpenChange} modal={false}>
       <SheetContent side="left" className="overflow-y-auto">
         <SheetHeader>
           <SheetTitle>Color Space Settings</SheetTitle>

@@ -62,7 +62,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
         />
       </div>
       {/* Sliders */}
-      <div className="flex flex-row w-full flex-1 h-0">
+      <div className="flex flex-row w-full flex-1" style={{ minHeight: 200 }}>
         <HueSlider
           ramp={{ ...ramp, hueScaleType: previewType }}
           onUpdate={onUpdate}

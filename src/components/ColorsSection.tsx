@@ -75,7 +75,7 @@ const ColorsSection: React.FC = () => {
   };
 
   return (
-    <div className="flex relative r-canvas-dotgrid min-h-screen">
+    <div className="flex relative h-full">
       {/* Export Button - Fixed in top right */}
       <div className="fixed top-4 right-4 z-50 flex gap-2">
         <CopyButton
@@ -121,7 +121,6 @@ const ColorsSection: React.FC = () => {
         open={!!selectedRamp}
         onOpenChange={(open) => { if (!open) closeSidebar(); }}
         onUpdate={(updates) => selectedRamp && updateColorRamp(selectedRamp.id, updates)}
-        onDuplicate={() => selectedRamp && duplicateColorRamp(selectedRamp)}
         onDelete={() => selectedRamp && removeColorRamp(selectedRamp.id)}
         onPreviewBlendMode={(blendMode) => selectedRamp && handlePreviewBlendMode(selectedRamp.id, blendMode)}
         previewScaleType={previewScaleType}
@@ -129,9 +128,9 @@ const ColorsSection: React.FC = () => {
       />
 
       {/* Main Content */}
-      <div className="flex-1 px-12 py-8">
-        <div className="max-w-none">
-          <div className="flex gap-6 pb-4 overflow-x-auto flex-nowrap justify-center mx-auto" style={{ WebkitOverflowScrolling: 'touch', maxWidth: '100%' }}>
+      <div className="flex-1 px-12 py-4 h-full">
+        <div className="max-w-none h-full">
+          <div className="flex gap-6 overflow-x-auto flex-nowrap justify-center mx-auto h-full" style={{ WebkitOverflowScrolling: 'touch', maxWidth: '100%' }}>
             {colorRamps.map((ramp) => {
               const isSelected = selectedRampId === ramp.id;
               const config = (isSelected && previewScaleType)
@@ -152,8 +151,6 @@ const ColorsSection: React.FC = () => {
                   <ColorRamp 
                     config={config} 
                     onUpdateConfig={(updates) => updateColorRamp(ramp.id, updates)}
-                    onDuplicate={() => duplicateColorRamp(ramp)}
-                    onDelete={colorRamps.length > 1 ? () => removeColorRamp(ramp.id) : undefined}
                     previewBlendMode={previewBlendModes[ramp.id]}
                     isSelected={isSelected}
                     onColorClick={(color) => setSelectedColor(color)}

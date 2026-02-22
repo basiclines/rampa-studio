@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Label } from '@/components/ui/label';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ColorRampConfig, ColorFormat } from '@/entities/ColorRampEntity';
@@ -14,7 +16,27 @@ import { useSetTintBlendMode } from '@/usecases/SetTintBlendMode';
 import { useSetTotalSteps } from '@/usecases/SetTotalSteps';
 import { useSetColorFormat } from '@/usecases/SetColorFormat';
 import { useSetColorRampScale } from '@/usecases/SetColorRampScale';
+import { useEditColorRampName } from '@/usecases/EditColorRampName';
+import { useCreateHarmonyRamps } from '@/usecases/CreateHarmonyRamps';
+import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
+import {
+  getAnalogousColors,
+  getTriadColors,
+  getComplementaryColors,
+  getSplitComplementaryColors,
+  getSquareColors,
+  getCompoundColors,
+} from '@/engine/ColorEngine';
 import StepSlider from './ui/StepSlider';
+import { CopyIcon, TrashIcon } from '@radix-ui/react-icons';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from '@/components/ui/dialog';
+import { Separator } from '@/components/ui/separator';
 
 interface ColorRampControlsProps {
   ramp: ColorRampConfig;
@@ -22,7 +44,6 @@ interface ColorRampControlsProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onUpdate: (updates: Partial<ColorRampConfig>) => void;
-  onDuplicate: () => void;
   onDelete: () => void;
   onPreviewBlendMode?: (blendMode: string | undefined) => void;
   previewScaleType?: string | null;
@@ -64,9 +85,11 @@ const IMPLEMENTED_SCALES = ['linear', 'geometric', 'fibonacci', 'golden-ratio', 
 
 const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   ramp,
+  canDelete,
   open,
   onOpenChange,
   onUpdate,
+  onDelete,
   onPreviewBlendMode,
   previewScaleType,
   setPreviewScaleType,
@@ -78,11 +101,12 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   const setTotalSteps = useSetTotalSteps();
   const setColorFormat = useSetColorFormat();
   const setColorRampScale = useSetColorRampScale();
+  const editColorRampName = useEditColorRampName();
+  const createHarmonyRamps = useCreateHarmonyRamps();
+  const duplicateColorRamp = useDuplicateColorRamp();
 
   const [showTint, setShowTint] = useState(!!ramp.tintColor);
-  const [lightnessScale, setLightnessScale] = useState('linear');
-  const [hueScale, setHueScale] = useState('linear');
-  const [saturationScale, setSaturationScale] = useState('linear');
+  const [showHarmonyDialog, setShowHarmonyDialog] = useState(false);
   const [previewBlendMode, setPreviewBlendMode] = useState<BlendMode | undefined>(undefined);
 
   const handleRemoveTint = () => {
@@ -103,14 +127,26 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
   };
 
   return (
-    <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent side="left" className="overflow-y-auto">
-        <SheetHeader>
+    <Sheet open={open} onOpenChange={onOpenChange} modal={false}>
+      <SheetContent side="left" className="flex flex-col overflow-hidden">
+        <SheetHeader className="sr-only">
           <SheetTitle>Ramp Settings</SheetTitle>
-          <SheetDescription className="sr-only">Configure color ramp properties</SheetDescription>
+          <SheetDescription>Configure color ramp properties</SheetDescription>
         </SheetHeader>
 
-        <div className="flex flex-col gap-6 pt-4">
+        <div className="flex flex-col gap-6 pt-4 flex-1 min-h-0 overflow-y-auto">
+          {/* Ramp name */}
+          <div>
+            <Input
+              value={ramp.name}
+              onChange={e => editColorRampName(ramp.id, e.target.value)}
+              placeholder="Ramp name"
+              className="h-9 text-sm"
+              spellCheck={false}
+              onKeyDown={e => { if (e.key === 'Enter') e.currentTarget.blur(); }}
+            />
+          </div>
+
           {/* Color format */}
           <div>
             <ColorFormatControl
@@ -242,6 +278,57 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
             />
           </div>
         </div>
+
+        {/* Footer toolbar */}
+        <Separator />
+        <div className="flex items-center justify-between py-3 px-1">
+          <div className="flex gap-2">
+            <Button variant="outline" size="sm" onClick={() => setShowHarmonyDialog(true)}>
+              <CopyIcon className="w-3.5 h-3.5 mr-1.5" />
+              Duplicate
+            </Button>
+          </div>
+          {canDelete && (
+            <Button variant="ghost" size="sm" className="text-destructive hover:text-destructive hover:bg-destructive/10" onClick={onDelete}>
+              <TrashIcon className="w-3.5 h-3.5 mr-1.5" />
+              Delete
+            </Button>
+          )}
+        </div>
+
+        {/* Harmony Dialog */}
+        <Dialog open={showHarmonyDialog} onOpenChange={setShowHarmonyDialog}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Duplicate Ramp</DialogTitle>
+              <DialogDescription>Create an exact copy or generate harmony variations.</DialogDescription>
+            </DialogHeader>
+            <div className="flex flex-col gap-2 pt-2">
+              <Button variant="outline" className="justify-between" onClick={() => { duplicateColorRamp(ramp); setShowHarmonyDialog(false); }}>
+                <span>Exact Duplicate</span>
+                <span className="inline-block w-5 h-5 rounded-full border border-border" style={{ background: ramp.baseColor }} />
+              </Button>
+              <Separator className="my-2" />
+              {([
+                { type: 'analogous' as const, label: 'Analogue', colors: getAnalogousColors(ramp.baseColor, 2).slice(1) },
+                { type: 'triad' as const, label: 'Triad', colors: getTriadColors(ramp.baseColor).slice(1) },
+                { type: 'complementary' as const, label: 'Complementary', colors: getComplementaryColors(ramp.baseColor).slice(1) },
+                { type: 'split-complementary' as const, label: 'Split Complementary', colors: getSplitComplementaryColors(ramp.baseColor).slice(1) },
+                { type: 'square' as const, label: 'Square', colors: getSquareColors(ramp.baseColor).slice(1) },
+                { type: 'compound' as const, label: 'Compound', colors: getCompoundColors(ramp.baseColor).slice(1) },
+              ]).map(({ type, label, colors }) => (
+                <Button key={type} variant="ghost" className="justify-between" onClick={() => { createHarmonyRamps(ramp, type); setShowHarmonyDialog(false); }}>
+                  <span>{label}</span>
+                  <span className="inline-flex gap-1">
+                    {colors.map((color, i) => (
+                      <span key={i} className="inline-block w-5 h-5 rounded-full border border-border" style={{ background: color }} />
+                    ))}
+                  </span>
+                </Button>
+              ))}
+            </div>
+          </DialogContent>
+        </Dialog>
       </SheetContent>
     </Sheet>
   );
