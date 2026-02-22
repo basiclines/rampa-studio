@@ -1,9 +1,10 @@
 import React, { useRef } from 'react';
-import { Copy, Info, FileJson } from 'lucide-react';
+import { Share, Info } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
 import ColorDetailSidebar from '@/components/ColorDetailSidebar';
+import { ExportModal } from '@/components/ExportModal';
 import {
   Dialog,
   DialogContent,
@@ -11,21 +12,19 @@ import {
   DialogTitle,
   DialogDescription,
 } from '@/components/ui/dialog';
-import { CopyButton } from '@/components/ui/CopyButton';
 
 import { useSelectColorRamp } from '@/usecases/SelectColorRamp';
 import { useSaveColorRamp } from '@/state/SaveColorRampState';
 import { useDuplicateColorRamp } from '@/usecases/DuplicateColorRamp';
 import { useRemoveColorRamp } from '@/usecases/RemoveColorRamp';
 import { useUpdateColorRamp } from '@/usecases/UpdateColorRamp';
-import { useExportColorRampsToSvg } from '@/usecases/ExportColorRampsToSvg';
-import { useExportColorRampsToJson } from '@/usecases/ExportColorRampsToJson';
 import { usePreviewBlendModes } from '@/usecases/PreviewBlendModes';
 import { usePreviewScaleTypes } from '@/usecases/PreviewScaleTypes';
 
 const ColorsSection: React.FC = () => {
   const rampRefs = useRef<{ [id: string]: HTMLDivElement | null }>({});
   const [showAbout, setShowAbout] = React.useState(false);
+  const [showExport, setShowExport] = React.useState(false);
   const [selectedColor, setSelectedColor] = React.useState<string | null>(null);
 
   // State from usecases
@@ -38,26 +37,8 @@ const ColorsSection: React.FC = () => {
   const duplicateColorRamp = useDuplicateColorRamp();
   const removeColorRamp = useRemoveColorRamp();
   const updateColorRamp = useUpdateColorRamp();
-  const exportToSvg = useExportColorRampsToSvg();
-  const exportToJson = useExportColorRampsToJson();
 
   const selectedRamp = colorRamps.find(ramp => ramp.id === selectedRampId);
-
-  const handleExportSvg = () => {
-    try {
-      exportToSvg();
-    } catch (error) {
-      // Handle error
-    }
-  };
-
-  const handleExportJson = () => {
-    try {
-      exportToJson();
-    } catch (error) {
-      // Handle error
-    }
-  };
 
   const handlePreviewBlendMode = (rampId: string, blendMode: string | undefined) => {
     setPreviewBlendMode(rampId, blendMode);
@@ -78,27 +59,18 @@ const ColorsSection: React.FC = () => {
     <div className="flex relative h-full">
       {/* Export Button - Fixed in top right */}
       <div className="fixed top-4 right-4 z-50 flex gap-2">
-        <CopyButton
-          onCopy={handleExportSvg}
-          variant="outline"
-          className="gap-2"
-        >
-          <Copy className="w-4 h-4" />
-          Copy SVG
-        </CopyButton>
-        <CopyButton
-          onCopy={handleExportJson}
-          variant="outline"
-          className="gap-2"
-        >
-          <FileJson className="w-4 h-4" />
-          Copy JSON
-        </CopyButton>
+        <Button onClick={() => setShowExport(true)} variant="outline" className="gap-2">
+          <Share className="w-4 h-4" />
+          Export
+        </Button>
         <Button onClick={() => setShowAbout(true)} variant="outline" className="gap-2">
           <Info className="w-4 h-4" />
           About
         </Button>
       </div>
+
+      {/* Export Modal */}
+      <ExportModal ramps={colorRamps} open={showExport} onOpenChange={setShowExport} />
 
       {/* About Dialog */}
       <Dialog open={showAbout} onOpenChange={setShowAbout}>
