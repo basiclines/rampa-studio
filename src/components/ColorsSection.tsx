@@ -128,7 +128,7 @@ const ColorsSection: React.FC = () => {
       />
 
       {/* Main Content */}
-      <div className="flex-1 px-12 py-4 h-full">
+      <div className="flex-1 px-12 pt-24 pb-4 h-full">
         <div className="max-w-none h-full">
           <div className="flex gap-6 overflow-x-auto flex-nowrap justify-center mx-auto h-full" style={{ WebkitOverflowScrolling: 'touch', maxWidth: '100%' }}>
             {colorRamps.map((ramp) => {

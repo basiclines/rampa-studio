@@ -114,7 +114,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
         style={{
           background: empty ? 'transparent' : color,
           position: 'absolute',
-          left: empty ? '70%' : '30%',
+          left: empty ? '60%' : '35%',
           top: '5%',
           transform: 'translate(-50%, 0%)',
           width: 128,

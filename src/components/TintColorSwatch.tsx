@@ -127,7 +127,7 @@ const TintColorSwatch: React.FC<TintColorSwatchProps> = ({
       <div className={`relative w-full h-full rounded-full flex items-center justify-center cursor-pointer`}
         onClick={handleClick}
         style={{
-          position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128,
+          position: 'absolute', left: '60%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128,
           background: empty ? 'transparent' : chroma(color || '#FE0000').alpha((opacity || 0) / 100).css(),
           mixBlendMode: overlap && blendMode && [
             'normal','darken','multiply','color-burn','lighten','screen','color-dodge','overlay','soft-light','hard-light','difference','exclusion','hue','saturation','color','luminosity'

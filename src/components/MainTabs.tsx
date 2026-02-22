@@ -18,15 +18,15 @@ const MainTabs: React.FC = () => {
   };
   
   return (
-    <div className="h-screen flex flex-col r-canvas-dotgrid">
+    <div className="h-screen r-canvas-dotgrid">
       {/* Top Navigation Tabs */}
-      <div className="flex justify-center pt-6 pb-4 relative z-10 flex-shrink-0">
+      <div className="fixed top-0 left-0 right-0 flex justify-center pt-6 pb-4 z-50 pointer-events-none">
         <Tabs 
           value={activeTab} 
           onValueChange={handleTabChange}
-          className="w-auto"
+          className="w-auto pointer-events-auto"
         >
-          <TabsList className="grid w-full grid-cols-2">
+          <TabsList>
             <TabsTrigger value="colors" className="px-8 py-2">
               Ramps
             </TabsTrigger>
@@ -38,7 +38,7 @@ const MainTabs: React.FC = () => {
       </div>
 
       {/* Tab Content */}
-      <div className="flex-1 min-h-0">
+      <div className="h-full">
         {activeTab === 'colors' && <ColorsSection />}
         {activeTab === 'colorSpaces' && <ColorSpacesSection />}
       </div>

@@ -199,7 +199,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
                 rampId={ramp.id}
               />
               <div className="relative w-full h-full z-20 pointer-events-none"
-                style={{ position: 'absolute', left: '70%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
+                style={{ position: 'absolute', left: '60%', top: '5%', transform: 'translate(-50%, 0%)', width: 128, height: 128 }}
               >
                 <div
                   className={`absolute rounded-full pointer-events-none border-2 ${showTint ? 'border-solid border-white' : 'border-dashed border-border'}`}
