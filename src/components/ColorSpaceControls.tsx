@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Label } from '@/components/ui/label';
-import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import LabeledSlider from './ui/LabeledSlider';
+import BaseColorSwatch from './BaseColorSwatch';
 import { useColorSpaceStore, type ColorSpaceType } from '@/state/ColorSpaceState';
 import { generateLinearSpace, generateCubeSpace } from '@/engine/ColorSpaceEngine';
 import type { InterpolationMode } from '@/engine/ColorSpaceEngine';
@@ -77,42 +76,8 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
           {/* Linear controls */}
           {spaceType === 'linear' && (
             <div className="border-t pt-6 space-y-4">
-              <div>
-                <Label className="text-xs">From Color</Label>
-                <div className="flex gap-2 items-center mt-1">
-                  <input
-                    type="color"
-                    value={linearConfig.fromColor}
-                    onChange={(e) => setLinearConfig({ fromColor: e.target.value })}
-                    className="w-8 h-8 rounded cursor-pointer border"
-                  />
-                  <Input
-                    value={linearConfig.fromColor}
-                    onChange={(e) => setLinearConfig({ fromColor: e.target.value })}
-                    className="h-8 text-xs font-mono"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <Label className="text-xs">To Color</Label>
-                <div className="flex gap-2 items-center mt-1">
-                  <input
-                    type="color"
-                    value={linearConfig.toColor}
-                    onChange={(e) => setLinearConfig({ toColor: e.target.value })}
-                    className="w-8 h-8 rounded cursor-pointer border"
-                  />
-                  <Input
-                    value={linearConfig.toColor}
-                    onChange={(e) => setLinearConfig({ toColor: e.target.value })}
-                    className="h-8 text-xs font-mono"
-                  />
-                </div>
-              </div>
-
               <div className="space-y-2">
-                <Label className="text-xs">Steps</Label>
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Steps</div>
                 <LabeledSlider
                   value={linearConfig.steps}
                   onChange={(value) => setLinearConfig({ steps: Math.round(value) })}
@@ -124,8 +89,32 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
                 />
               </div>
 
+              {/* Colors */}
+              <div className="space-y-2">
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Colors</div>
+                <div className="grid grid-cols-2 gap-x-1 gap-y-6">
+                  {([
+                    { key: 'from', label: 'From', color: linearConfig.fromColor, set: (c: string) => setLinearConfig({ fromColor: c }) },
+                    { key: 'to', label: 'To', color: linearConfig.toColor, set: (c: string) => setLinearConfig({ toColor: c }) },
+                  ] as const).map(({ key, label, color, set }, index) => (
+                    <div key={key} className="flex flex-col items-center">
+                      <div className="relative" style={{ width: 56, height: 68 }}>
+                        <BaseColorSwatch
+                          color={color}
+                          colorFormat="hex"
+                          onChange={set}
+                          size={48}
+                          pickerAlign={index >= 1 ? 'right' : 'left'}
+                        />
+                      </div>
+                      <span className="text-[10px] text-muted-foreground mt-1">{label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               <div>
-                <Label className="text-xs">Interpolation</Label>
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Interpolation</div>
                 <Select
                   value={linearConfig.interpolation}
                   onValueChange={(v) => setLinearConfig({ interpolation: v as InterpolationMode })}
@@ -147,7 +136,7 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
           {spaceType === 'cube' && (
             <div className="border-t pt-6 space-y-4">
               <div className="space-y-2">
-                <Label className="text-xs">Steps per Axis</Label>
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Steps</div>
                 <LabeledSlider
                   value={cubeConfig.stepsPerAxis}
                   onChange={(value) => setCubeConfig({ stepsPerAxis: Math.round(value) })}
@@ -155,12 +144,37 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
                   max={10}
                   step={1}
                   formatValue={(v) => `${v}`}
-                  ariaLabel="Steps per Axis"
+                  ariaLabel="Steps"
                 />
               </div>
 
+              {/* Colors */}
+              <div className="space-y-2">
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Colors</div>
+                <div className="grid grid-cols-4 gap-x-1 gap-y-6">
+                  {CORNER_LABELS.map(({ key, label }, index) => (
+                    <div key={key} className="flex flex-col items-center">
+                      <div className="relative" style={{ width: 56, height: 68 }}>
+                        <BaseColorSwatch
+                          color={cubeConfig.corners[key]}
+                          colorFormat="hex"
+                          onChange={(c) =>
+                            setCubeConfig({
+                              corners: { ...cubeConfig.corners, [key]: c },
+                            })
+                          }
+                          size={48}
+                          pickerAlign={index % 4 >= 2 ? 'right' : 'left'}
+                        />
+                      </div>
+                      <span className="text-[10px] text-muted-foreground mt-1">{label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               <div>
-                <Label className="text-xs">Interpolation</Label>
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Interpolation</div>
                 <Select
                   value={cubeConfig.interpolation}
                   onValueChange={(v) => setCubeConfig({ interpolation: v as InterpolationMode })}
@@ -174,35 +188,6 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
                     <SelectItem value="rgb">RGB</SelectItem>
                   </SelectContent>
                 </Select>
-              </div>
-
-              {/* Corner colors */}
-              <div className="space-y-2">
-                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Corner Colors</div>
-                {CORNER_LABELS.map(({ key, label }) => (
-                  <div key={key} className="flex gap-2 items-center">
-                    <input
-                      type="color"
-                      value={cubeConfig.corners[key]}
-                      onChange={(e) =>
-                        setCubeConfig({
-                          corners: { ...cubeConfig.corners, [key]: e.target.value },
-                        })
-                      }
-                      className="w-6 h-6 rounded cursor-pointer border shrink-0"
-                    />
-                    <span className="text-[10px] text-muted-foreground w-24 shrink-0">{label}</span>
-                    <Input
-                      value={cubeConfig.corners[key]}
-                      onChange={(e) =>
-                        setCubeConfig({
-                          corners: { ...cubeConfig.corners, [key]: e.target.value },
-                        })
-                      }
-                      className="h-6 text-[10px] font-mono"
-                    />
-                  </div>
-                ))}
               </div>
             </div>
           )}

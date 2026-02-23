@@ -78,12 +78,28 @@ function InteractiveBox({
   const [hovered, setHovered] = useState(false);
   const meshRef = useRef<THREE.Mesh>(null);
   const posRef = useRef(new THREE.Vector3(...basePosition));
+  const prevTargetRef = useRef(targetPosition);
 
   const scaleRef = useRef(1);
 
+  // When target jumps (grid rebuild from step change), snap immediately
+  const targetChanged = targetPosition[0] !== prevTargetRef.current[0] ||
+    targetPosition[1] !== prevTargetRef.current[1] ||
+    targetPosition[2] !== prevTargetRef.current[2];
+  if (targetChanged) {
+    prevTargetRef.current = targetPosition;
+  }
+
   useFrame(() => {
     if (meshRef.current) {
-      posRef.current.lerp(new THREE.Vector3(...targetPosition), 0.1);
+      const tv = new THREE.Vector3(...targetPosition);
+      const dist = posRef.current.distanceTo(tv);
+      // Snap if far away (grid rebuild), lerp for nearby movements (selection expand)
+      if (dist > size * 2) {
+        posRef.current.copy(tv);
+      } else {
+        posRef.current.lerp(tv, 0.1);
+      }
       meshRef.current.position.copy(posRef.current);
       const targetScale = isSelected ? 2 : 1;
       scaleRef.current += (targetScale - scaleRef.current) * 0.1;

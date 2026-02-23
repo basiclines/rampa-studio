@@ -31,7 +31,7 @@ const MainTabs: React.FC = () => {
               Ramps
             </TabsTrigger>
             <TabsTrigger value="colorSpaces" className="px-8 py-2">
-              Color Spaces
+              Spaces
             </TabsTrigger>
           </TabsList>
         </Tabs>
