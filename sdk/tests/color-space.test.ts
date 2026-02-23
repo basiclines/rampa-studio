@@ -94,52 +94,72 @@ describe('CubeColorSpace', () => {
   };
 
   it('generates the correct number of colors (6³ = 216)', () => {
-    const tint = new CubeColorSpace(corners).size(6);
-    expect(tint.palette).toHaveLength(216);
-    expect(tint.size).toBe(6);
+    const space = new CubeColorSpace(corners).size(6);
+    expect(space.palette).toHaveLength(216);
+    expect(space.size).toBe(6);
   });
 
-  it('returns a callable function', () => {
-    const tint = new CubeColorSpace(corners).size(6);
+  it('returns an object with tint, cube, and per-corner functions', () => {
+    const space = new CubeColorSpace(corners).size(6);
+    expect(typeof space.tint).toBe('function');
+    expect(typeof space.cube).toBe('function');
+    expect(typeof space.r).toBe('function');
+    expect(typeof space.k).toBe('function');
+    expect(typeof space.w).toBe('function');
+  });
+
+  it('supports destructuring', () => {
+    const { r, w, k, tint, cube, palette } = new CubeColorSpace(corners).size(6);
+    expect(typeof r).toBe('function');
     expect(typeof tint).toBe('function');
+    expect(typeof cube).toBe('function');
+    expect(palette).toHaveLength(216);
+    // Destructured functions work independently
+    expect(r(3).hex).toMatch(/^#[0-9a-f]{6}$/);
+    expect(tint({ r: 3 }).hex).toBe(r(3).hex);
+    expect(cube(3, 0, 0).hex).toBe(r(3).hex);
   });
 
   it('origin corner maps to first color', () => {
-    const tint = new CubeColorSpace(corners).size(6);
-    expect(tint({ k: 0 }).hex).toBe(tint.palette[0]);
+    const { k, palette } = new CubeColorSpace(corners).size(6);
+    expect(k(0).hex).toBe(palette[0]);
   });
 
   it('xyz corner maps to last color', () => {
-    const tint = new CubeColorSpace(corners).size(6);
-    expect(tint({ w: 5 }).hex).toBe(tint.palette[215]);
+    const { w, palette } = new CubeColorSpace(corners).size(6);
+    expect(w(5).hex).toBe(palette[215]);
   });
 
   it('single-axis lookup works', () => {
-    const tint = new CubeColorSpace(corners).size(6);
-    const red5 = tint({ r: 5 });
+    const { r, palette } = new CubeColorSpace(corners).size(6);
     // Should be at position (5,0,0) = index 5*36 = 180
-    expect(red5.hex).toBe(tint.palette[180]);
+    expect(r(5).hex).toBe(palette[180]);
   });
 
   it('multi-axis lookup works', () => {
-    const tint = new CubeColorSpace(corners).size(6);
+    const { tint, palette } = new CubeColorSpace(corners).size(6);
     // { r: 3, b: 2 } → (3, 0, 2) = 3*36 + 0*6 + 2 = 110
-    const result = tint({ r: 3, b: 2 });
-    expect(result.hex).toBe(tint.palette[110]);
+    expect(tint({ r: 3, b: 2 }).hex).toBe(palette[110]);
+  });
+
+  it('cube() raw coordinate lookup works', () => {
+    const { cube, tint, palette } = new CubeColorSpace(corners).size(6);
+    // cube(3, 0, 2) should equal tint({ r: 3, b: 2 })
+    expect(cube(3, 0, 2).hex).toBe(palette[110]);
+    expect(cube(3, 0, 2).hex).toBe(tint({ r: 3, b: 2 }).hex);
   });
 
   it('compound alias activates multiple axes', () => {
-    const tint = new CubeColorSpace(corners).size(6);
-    // { y: 3 } → y has mask {x:1, y:1} → (3, 3, 0) = 3*36 + 3*6 = 126
-    const result = tint({ y: 3 });
-    expect(result.hex).toBe(tint.palette[126]);
+    const { y, palette } = new CubeColorSpace(corners).size(6);
+    // y(3) → y has mask {x:1, y:1} → (3, 3, 0) = 3*36 + 3*6 = 126
+    expect(y(3).hex).toBe(palette[126]);
   });
 
   it('supports .format() chaining', () => {
-    const tint = new CubeColorSpace(corners).size(6);
-    expect(tint({ r: 3 }).format('hsl')).toMatch(/^hsl\(/);
-    expect(tint({ r: 3 }).format('rgb')).toMatch(/^rgb\(/);
-    expect(tint({ r: 3 }).format('oklch')).toMatch(/^oklch\(/);
+    const { r } = new CubeColorSpace(corners).size(6);
+    expect(r(3).format('hsl')).toMatch(/^hsl\(/);
+    expect(r(3).format('rgb')).toMatch(/^rgb\(/);
+    expect(r(3).format('oklch')).toMatch(/^oklch\(/);
   });
 
   it('throws with wrong number of corners', () => {
@@ -147,7 +167,7 @@ describe('CubeColorSpace', () => {
   });
 
   it('supports custom alias names', () => {
-    const space = new CubeColorSpace({
+    const { warm, ocean, tint } = new CubeColorSpace({
       dark:   '#1a1a2e',
       warm:   '#e74c3c',
       nature: '#2ecc71',
@@ -158,8 +178,8 @@ describe('CubeColorSpace', () => {
       light:  '#ecf0f1',
     }).size(6);
 
-    const result = space({ warm: 4, ocean: 2 });
-    expect(result.hex).toMatch(/^#[0-9a-f]{6}$/);
+    expect(warm(4).hex).toMatch(/^#[0-9a-f]{6}$/);
+    expect(tint({ warm: 4, ocean: 2 }).hex).toMatch(/^#[0-9a-f]{6}$/);
   });
 
   it('supports different resolutions', () => {
@@ -173,16 +193,15 @@ describe('CubeColorSpace', () => {
     const oklch = new CubeColorSpace(corners).size(6);
     const lab = new CubeColorSpace(corners, { interpolation: 'lab' }).size(6);
     // Midpoints should differ between modes
-    expect(oklch({ r: 3 }).hex).not.toBe(lab({ r: 3 }).hex);
+    expect(oklch.r(3).hex).not.toBe(lab.r(3).hex);
   });
 
   it('max of overlapping aliases wins', () => {
-    const tint = new CubeColorSpace(corners).size(6);
+    const { tint, palette } = new CubeColorSpace(corners).size(6);
     // { r: 4, w: 2 } → r mask {x:1}, w mask {x:1,y:1,z:1}
     // x = max(4,2) = 4, y = max(0,2) = 2, z = max(0,2) = 2
     // index = 4*36 + 2*6 + 2 = 158
-    const result = tint({ r: 4, w: 2 });
-    expect(result.hex).toBe(tint.palette[158]);
+    expect(tint({ r: 4, w: 2 }).hex).toBe(palette[158]);
   });
 });
 

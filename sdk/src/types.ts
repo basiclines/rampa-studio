@@ -102,11 +102,22 @@ export interface LinearColorSpaceFn {
 }
 
 /**
- * The function signature returned by CubeColorSpace.
- * Call it with an object of { alias: intensity } to get a color.
+ * The result object returned by CubeColorSpace.size().
+ * Provides multiple ways to access colors:
+ * - Per-corner shortcut functions (e.g. r(3), w(5))
+ * - tint() for multi-axis lookups
+ * - cube() for raw 3D coordinate access
+ * - palette for the full color array
  */
-export interface CubeColorSpaceFn {
-  (query: Record<string, number>): ColorResult;
+export interface CubeColorSpaceResult {
+  /** Multi-axis lookup: tint({ r: 3, b: 2 }) */
+  tint(query: Record<string, number>): ColorResult;
+  /** Raw 3D coordinate lookup: cube(x, y, z) */
+  cube(x: number, y: number, z: number): ColorResult;
+  /** Full palette array */
   palette: string[];
+  /** Steps per axis */
   size: number;
+  /** Per-corner shortcut functions, keyed by constructor key names */
+  [key: string]: ((index: number) => ColorResult) | string[] | number | ((query: Record<string, number>) => ColorResult) | ((x: number, y: number, z: number) => ColorResult);
 }

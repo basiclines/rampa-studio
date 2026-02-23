@@ -1,6 +1,6 @@
 import { generateCubeSpace } from '../../src/engine/ColorSpaceEngine';
 import { createColorResult } from './color-result';
-import type { InterpolationMode, CubeColorSpaceFn, ColorResult } from './types';
+import type { InterpolationMode, CubeColorSpaceResult, ColorResult } from './types';
 
 // The 8 cube corner positions in binary order.
 // Constructor keys map to these positions by their insertion order.
@@ -18,19 +18,23 @@ const CORNER_MASKS: { x: number; y: number; z: number }[] = [
 /**
  * Create a 3D color cube from 8 named corner colors.
  *
- * The constructor keys become alias names for tint() lookups.
+ * The constructor keys become shortcut function names and tint() aliases.
  * Key order determines cube position (see CORNER_MASKS above).
  *
  * @example
  * ```ts
- * const tint = new CubeColorSpace({
+ * const space = new CubeColorSpace({
  *   k: '#1e1e2e', r: '#f38ba8', g: '#a6e3a1', b: '#89b4fa',
  *   y: '#f9e2af', m: '#cba6f7', c: '#94e2d5', w: '#cdd6f4',
  * }).size(6);
  *
- * tint({ r: 4, b: 2 })  // → ColorResult
- * tint({ w: 3 })         // → ColorResult
- * tint.palette            // → string[216]
+ * space.r(4)              // → ColorResult (single-axis shortcut)
+ * space.tint({ r: 3, b: 2 }) // → ColorResult (multi-axis)
+ * space.cube(3, 0, 2)     // → ColorResult (raw coordinates)
+ * space.palette            // → string[216]
+ *
+ * // Destructure for convenience:
+ * const { r, w, tint, cube } = space;
  * ```
  */
 export class CubeColorSpace {
@@ -47,9 +51,9 @@ export class CubeColorSpace {
   }
 
   /**
-   * Set the steps per axis and return the color accessor function.
+   * Set the steps per axis and return the color space accessor object.
    */
-  size(stepsPerAxis: number): CubeColorSpaceFn {
+  size(stepsPerAxis: number): CubeColorSpaceResult {
     const keys = Object.keys(this._corners);
     const cornerColors = keys.map(k => this._corners[k]) as
       [string, string, string, string, string, string, string, string];
@@ -63,9 +67,18 @@ export class CubeColorSpace {
     const palette = generateCubeSpace(cornerColors, stepsPerAxis, this._interpolation);
     const max = stepsPerAxis - 1;
 
-    const fn = ((query: Record<string, number>): ColorResult => {
-      let cx = 0, cy = 0, cz = 0;
+    // Helper: resolve raw (x,y,z) to a ColorResult
+    const lookup = (cx: number, cy: number, cz: number): ColorResult => {
+      cx = Math.max(0, Math.min(max, Math.round(cx)));
+      cy = Math.max(0, Math.min(max, Math.round(cy)));
+      cz = Math.max(0, Math.min(max, Math.round(cz)));
+      const index = cx * stepsPerAxis * stepsPerAxis + cy * stepsPerAxis + cz;
+      return createColorResult(palette[index]);
+    };
 
+    // tint(): multi-axis alias lookup
+    const tint = (query: Record<string, number>): ColorResult => {
+      let cx = 0, cy = 0, cz = 0;
       for (const [key, intensity] of Object.entries(query)) {
         const mask = aliases[key];
         if (!mask) continue;
@@ -73,19 +86,25 @@ export class CubeColorSpace {
         cy = Math.max(cy, mask.y * intensity);
         cz = Math.max(cz, mask.z * intensity);
       }
+      return lookup(cx, cy, cz);
+    };
 
-      // Clamp to valid range
-      cx = Math.max(0, Math.min(max, Math.round(cx)));
-      cy = Math.max(0, Math.min(max, Math.round(cy)));
-      cz = Math.max(0, Math.min(max, Math.round(cz)));
+    // cube(): raw 3D coordinate access
+    const cube = (x: number, y: number, z: number): ColorResult => lookup(x, y, z);
 
-      const index = cx * stepsPerAxis * stepsPerAxis + cy * stepsPerAxis + cz;
-      return createColorResult(palette[index]);
-    }) as CubeColorSpaceFn;
+    // Build result object with per-corner shortcut functions
+    const result: CubeColorSpaceResult = {
+      tint,
+      cube,
+      palette,
+      size: stepsPerAxis,
+    };
 
-    fn.palette = palette;
-    fn.size = stepsPerAxis;
+    // Add per-corner shortcut: e.g. result.r = (index) => tint({ r: index })
+    for (const key of keys) {
+      result[key] = (index: number): ColorResult => tint({ [key]: index });
+    }
 
-    return fn;
+    return result;
   }
 }
