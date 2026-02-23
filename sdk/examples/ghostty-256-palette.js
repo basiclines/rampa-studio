@@ -6,10 +6,30 @@
  * Generates a Ghostty terminal theme config with all 256 colors derived
  * from a base16 color scheme using rampa-sdk.
  *
+ * Ghostty themes provide 18 colors:
+ *   - background: terminal background color
+ *   - foreground: terminal foreground/text color
+ *   - palette 0–7:  normal ANSI colors (black, red, green, yellow, blue, magenta, cyan, white)
+ *   - palette 8–15: bright ANSI colors (same order)
+ *
+ * Note: bg/fg are NOT always the same as palette[0]/palette[7].
+ * For example, "Subliminal" has bg=#282c35 but palette[0]=#7f7f7f (a gray "black").
+ *
  * The 256-color palette layout:
- *   0-15:    Base16 colors (user-provided)
- *   16-231:  6×6×6 color cube (216 colors, generated with rampa ramps)
- *   232-255: 24-step grayscale ramp (generated with rampa)
+ *   0-15:    Base16 colors (from the theme palette, as-is)
+ *   16-231:  6×6×6 color cube (216 colors, interpolated between bg/fg and ANSI hue corners)
+ *   232-255: 24-step grayscale ramp (interpolated from bg to fg)
+ *
+ * The color cube uses bg as the dark anchor (k) and fg as the light anchor (w),
+ * with the 6 chromatic ANSI colors (red, green, blue, yellow, magenta, cyan)
+ * as the remaining corners. This ensures the cube always spans the full
+ * luminance range of the theme regardless of what palette[0]/palette[7] are.
+ *
+ * Terminal apps can access all 18 theme colors:
+ *   - fg/bg are the default colors when no escape code is active (also queryable via OSC 10/11)
+ *   - 16 ANSI colors via standard escapes: \x1b[31m (red), \x1b[92m (bright green), etc.
+ *   - 216 cube colors (16–231) via \x1b[38;5;Nm (fg) / \x1b[48;5;Nm (bg)
+ *   - 24 grayscale (232–255) via the same 256-color escape sequences
  *
  * Usage:
  *   node ghostty-256-palette.js
@@ -215,11 +235,11 @@ function contrastFg(hex) {
  *   3. Grayscale ramp (232–255)
  *   4. Background / foreground swatches
  */
-function renderPreview(palette, theme, themeName) {
+function renderPreview(cs, theme, themeName) {
   const DIM = '\x1b[2m';
+  const palette = cs.palette;
 
   // Index helpers for rendering the table
-  const cube = (r, g, b) => 16 + 36 * r + 6 * g + b;
   const neutralIdx = (n) => 231 + Math.max(1, Math.min(24, n));
 
   // Colored block with background showing the actual color
@@ -229,9 +249,14 @@ function renderPreview(palette, theme, themeName) {
   console.log('');
   console.log(`  ${themeName}`);
 
-  // ── Base16 ──
+  // ── Theme Definition ──
   console.log('');
-  console.log(`  ${DIM}base16  base(prefix) / bright(prefix)${RST}`);
+  console.log(`  ${DIM}theme  18 colors (bg + fg + 16 ANSI)${RST}`);
+  console.log('');
+
+  const bgSwatch = `${bg(theme.bg)}${contrastFg(theme.bg)}  bg ${theme.bg}  ${RST}`;
+  const fgSwatch = `${bg(theme.fg)}${contrastFg(theme.fg)}  fg ${theme.fg}  ${RST}`;
+  console.log(`  ${bgSwatch}  ${fgSwatch}`);
   console.log('');
 
   const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
@@ -252,28 +277,58 @@ function renderPreview(palette, theme, themeName) {
   for (let i = 0; i < 8; i++) row += `${DIM}  ${abbrs[i]}=${names[i].slice(0, 3)}  ${RST}`;
   console.log(row);
 
-  // ── Color Cube — all 216 colors ──
-  // 6 slices by r value, each is a 6×6 grid of g (rows) × b (columns)
+  // ── Color Space (derived from theme) ──
+
+  // ── Corners — one row per corner function ──
   console.log('');
-  console.log(`  ${DIM}color cube  216 colors  tint({ r, g, b })  values ∈ 0–5${RST}`);
+  console.log(`  ${DIM}corners  corner(0–5)${RST}`);
+  console.log('');
 
-  for (let cr = 0; cr < 6; cr++) {
-    console.log('');
-    console.log(`  ${DIM}r: ${cr}${RST}`);
+  // Column header
+  let header = `  ${''.padEnd(10)}`;
+  for (let i = 0; i < 6; i++) header += `${DIM}${String(i).padStart(3)}   ${RST}`;
+  console.log(header);
 
-    // b-axis header
-    let header = `  ${DIM}${''.padEnd(10)}${RST}`;
-    for (let cb = 0; cb < 6; cb++) header += `${DIM} b:${cb}    ${RST}`;
-    console.log(header);
-
-    for (let cg = 0; cg < 6; cg++) {
-      let line = `  ${DIM}g: ${cg}${RST}       `;
-      for (let cb = 0; cb < 6; cb++) {
-        const idx = cube(cr, cg, cb);
-        line += `${swatch(palette[idx], ` ${palette[idx]} `)} `;
-      }
-      console.log(line);
+  for (const abbr of abbrs) {
+    let line = `  ${DIM}${(abbr + '(0–5)').padEnd(10)}${RST}`;
+    for (let i = 0; i < 6; i++) {
+      const hex = cs[abbr](i).hex;
+      line += `${bg(hex)}  ${RST}    `;
     }
+    console.log(line);
+  }
+
+  // ── Tints — mixed intensity combinations ──
+  // Only the 3 primary pairs (r/g, r/b, g/b) produce unique coordinates.
+  // For each pair, one axis is fixed at intensity 3 while the other varies 0–5.
+  console.log('');
+  console.log(`  ${DIM}tints  tint({ a: fixed, b: 0–5 })  mixed intensities${RST}`);
+  console.log('');
+
+  header = `  ${''.padEnd(14)}`;
+  for (let i = 0; i < 6; i++) header += `${DIM}${String(i).padStart(3)}   ${RST}`;
+  console.log(header);
+
+  const tintPairs = [
+    ['r', 'g'], ['r', 'b'], ['g', 'b'],
+  ];
+
+  for (const [ka, kb] of tintPairs) {
+    // Fixed ka at 3, vary kb 0–5
+    let line = `  ${DIM}${(`${ka}:3 ${kb}:0–5`).padEnd(14)}${RST}`;
+    for (let i = 0; i < 6; i++) {
+      const hex = cs.tint({ [ka]: 3, [kb]: i }).hex;
+      line += `${bg(hex)}  ${RST}    `;
+    }
+    console.log(line);
+
+    // Fixed kb at 3, vary ka 0–5
+    line = `  ${DIM}${(`${kb}:3 ${ka}:0–5`).padEnd(14)}${RST}`;
+    for (let i = 0; i < 6; i++) {
+      const hex = cs.tint({ [kb]: 3, [ka]: i }).hex;
+      line += `${bg(hex)}  ${RST}    `;
+    }
+    console.log(line);
   }
 
   // ── Grayscale ──
@@ -292,11 +347,6 @@ function renderPreview(palette, theme, themeName) {
     console.log(line);
   }
 
-  // ── Background / Foreground ──
-  console.log('');
-  const bgSwatch = `${bg(theme.bg)}${contrastFg(theme.bg)}  bg ${theme.bg}  ${RST}`;
-  const fgSwatch = `${bg(theme.fg)}${contrastFg(theme.fg)}  fg ${theme.fg}  ${RST}`;
-  console.log(`  ${bgSwatch}  ${fgSwatch}`);
   console.log('');
 }
 
@@ -319,36 +369,36 @@ function renderTuiDemo(cs, themeName) {
   console.log('');
 
   // Design tokens — functions return hex directly via ColorResult
-  const backgroundPrimary   = tint({ k: 0 }).hex;
-  const backgroundSecondary = tint({ w: 1 }).hex;
-  const surfacePrimary      = tint({ b: 1 }).hex;
-  const textPrimary         = base('w').hex;
-  const textSecondary       = neutral(18).hex;
-  const textTertiary        = neutral(12).hex;
+  const backgroundPrimary   = neutral(1).hex;
+  const backgroundSecondary = neutral(3).hex;
+  const surfacePrimary      = neutral(5).hex;
+  const textPrimary         = neutral(24).hex;
+  const textSecondary       = neutral(20).hex;
+  const textTertiary        = neutral(14).hex;
   const statusSuccess       = base('g').hex;
   const statusWarning       = base('y').hex;
   const statusDanger        = base('r').hex;
   const statusInfo          = base('b').hex;
   const selected            = tint({ b: 2 }).hex;
-  const border              = neutral(4).hex;
+  const border              = neutral(6).hex;
 
   const W = 56;
   const B = `${fg(border)}${bg(backgroundPrimary)}`;
 
   // Token legend with swatches
   const tokens = [
-    ['backgroundPrimary  ', 'tint({ k: 0 })', backgroundPrimary],
-    ['backgroundSecondary', 'tint({ w: 1 })', backgroundSecondary],
-    ['surfacePrimary     ', 'tint({ b: 1 })', surfacePrimary],
-    ['textPrimary        ', "base('w')     ", textPrimary],
-    ['textSecondary      ', 'neutral(18)   ', textSecondary],
-    ['textTertiary       ', 'neutral(12)   ', textTertiary],
+    ['backgroundPrimary  ', 'neutral(1)    ', backgroundPrimary],
+    ['backgroundSecondary', 'neutral(3)    ', backgroundSecondary],
+    ['surfacePrimary     ', 'neutral(5)    ', surfacePrimary],
+    ['textPrimary        ', 'neutral(24)   ', textPrimary],
+    ['textSecondary      ', 'neutral(20)   ', textSecondary],
+    ['textTertiary       ', 'neutral(14)   ', textTertiary],
     ['statusSuccess      ', "base('g')     ", statusSuccess],
     ['statusWarning      ', "base('y')     ", statusWarning],
     ['statusDanger       ', "base('r')     ", statusDanger],
     ['statusInfo         ', "base('b')     ", statusInfo],
     ['selected           ', 'tint({ b: 2 })', selected],
-    ['border             ', 'neutral(4)    ', border],
+    ['border             ', 'neutral(6)    ', border],
   ];
   for (const [name, fn, hex] of tokens) {
     const { r, g, b: bl } = color(hex).rgb;
@@ -453,7 +503,7 @@ async function runInteractive() {
 
     // Color table (toggled)
     if (showTable) {
-      renderPreview(cs.palette, theme, themeName);
+      renderPreview(cs, theme, themeName);
     }
   }
 
@@ -517,7 +567,7 @@ if (listMode) {
   const grayscale = palette.slice(232);
 
   if (tableMode) {
-    renderPreview(palette, theme, themeName);
+    renderPreview(cs, theme, themeName);
   } else {
     console.log(`# Ghostty 256-color palette generated from ${themeName}`);
     console.log(`# Generated with @basiclines/rampa-sdk`);
