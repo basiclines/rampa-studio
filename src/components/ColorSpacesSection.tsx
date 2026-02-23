@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Settings2, Share, Info } from 'lucide-react';
+import { Share, Info, PanelLeftOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useColorSpaceStore } from '@/state/ColorSpaceState';
 import ColorSpaceViewer3D from './ColorSpaceViewer3D';
@@ -60,16 +60,15 @@ const ColorSpacesSection: React.FC = () => {
       {/* Settings Sheet */}
       <ColorSpaceControls open={sidebarOpen} onOpenChange={setSidebarOpen} />
 
-      {/* Open sidebar button — shown when sidebar is closed */}
+      {/* Sidebar toggle - Fixed in top left */}
       {!sidebarOpen && (
-        <div className="fixed top-20 left-4 z-50">
+        <div className="fixed top-6 left-6 z-50">
           <Button
             onClick={() => setSidebarOpen(true)}
             variant="outline"
-            className="gap-2"
+            size="icon"
           >
-            <Settings2 className="w-4 h-4" />
-            Settings
+            <PanelLeftOpen className="w-4 h-4" />
           </Button>
         </div>
       )}

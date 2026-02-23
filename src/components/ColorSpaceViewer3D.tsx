@@ -112,12 +112,6 @@ function LinearScene({
 }: LinearVisualizationProps & { onColorSelect?: (color: string) => void; selectedColor?: string | null }) {
   const groupRef = useRef<THREE.Group>(null);
 
-  useFrame((_, delta) => {
-    if (groupRef.current) {
-      groupRef.current.rotation.y += delta * 0.15;
-    }
-  });
-
   const colors = useMemo(
     () => generateLinearSpace(fromColor, toColor, steps, interpolation),
     [fromColor, toColor, steps, interpolation],
@@ -143,16 +137,25 @@ function LinearScene({
 
   return (
     <group ref={groupRef}>
-      {colors.map((hex, i) => (
-        <InteractiveSphere
-          key={i}
-          position={positions[i]}
-          color={hex}
-          isSelected={selectedColor === hex}
-          onClick={(e) => handleClick(hex, e)}
-        />
-      ))}
-      {/* Line connecting the spheres */}
+      {colors.map((hex, i) => {
+        const pos = positions[i];
+        return (
+          <mesh
+            key={i}
+            position={pos}
+            scale={selectedColor === hex ? 1.3 : 1}
+            onClick={(e) => handleClick(hex, e)}
+          >
+            <boxGeometry args={[0.25, 0.25, 0.25]} />
+            <meshBasicMaterial color={hex} />
+            <Edges scale={1} threshold={15} color="black" lineWidth={0.5} opacity={0.15} transparent />
+            {selectedColor === hex && (
+              <Edges scale={1.01} threshold={15} color="black" lineWidth={0.5} opacity={0.5} transparent />
+            )}
+          </mesh>
+        );
+      })}
+      {/* Line connecting the cubes */}
       {positions.length > 1 && (
         <line>
           <bufferGeometry>
@@ -178,12 +181,6 @@ function CubeScene({
 }: CubeVisualizationProps & { onColorSelect?: (color: string) => void; selectedColor?: string | null }) {
   const groupRef = useRef<THREE.Group>(null);
 
-  useFrame((_, delta) => {
-    if (groupRef.current) {
-      groupRef.current.rotation.y += delta * 0.15;
-    }
-  });
-
   const cornerColors = useMemo(
     () => {
       const keys = Object.keys(corners);
@@ -197,9 +194,9 @@ function CubeScene({
     [cornerColors, stepsPerAxis, interpolation],
   );
 
-  const cubeSize = 0.35;
-  const spacing = cubeSize * 1.6;
-  const expandedSpacing = cubeSize * 2.8;
+  const cubeSize = 0.25;
+  const spacing = 0.56;
+  const expandedSpacing = 0.98;
 
   // Find selected index
   const selectedIndex = useMemo(() => {
@@ -234,29 +231,13 @@ function CubeScene({
   const targetPositions = useMemo(() => {
     if (selectedIndex < 0) return basePositions;
 
-    const selCoord = gridCoords[selectedIndex];
-    const offset = ((stepsPerAxis - 1) * spacing) / 2;
+    const expandedOffset = ((stepsPerAxis - 1) * expandedSpacing) / 2;
 
-    return gridCoords.map(({ xi, yi, zi }, i) => {
-      if (i === selectedIndex) return basePositions[i];
-
-      // Compute direction away from selected cube
-      const dx = xi - selCoord.xi;
-      const dy = yi - selCoord.yi;
-      const dz = zi - selCoord.zi;
-      const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
-
-      if (dist === 0) return basePositions[i];
-
-      // Adjacent cubes get pushed outward
-      const pushFactor = dist <= 1.8 ? (expandedSpacing - spacing) * (1.8 - dist) / 1.8 : 0;
-
-      return [
-        xi * spacing - offset + (dx / dist) * pushFactor,
-        yi * spacing - offset + (dy / dist) * pushFactor,
-        zi * spacing - offset + (dz / dist) * pushFactor,
-      ] as [number, number, number];
-    });
+    return gridCoords.map(({ xi, yi, zi }) => [
+      xi * expandedSpacing - expandedOffset,
+      yi * expandedSpacing - expandedOffset,
+      zi * expandedSpacing - expandedOffset,
+    ] as [number, number, number]);
   }, [selectedIndex, gridCoords, basePositions, stepsPerAxis, spacing, expandedSpacing]);
 
   const handleClick = useCallback((hex: string, e: ThreeEvent<MouseEvent>) => {

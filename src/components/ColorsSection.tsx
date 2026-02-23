@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Share, Info } from 'lucide-react';
+import { Share, Info, PanelLeftOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ColorRamp from '@/components/ColorRamp';
 import ColorRampControls from '@/components/ColorRampControls';
@@ -57,6 +57,19 @@ const ColorsSection: React.FC = () => {
 
   return (
     <div className="flex relative h-full">
+      {/* Sidebar toggle - Fixed in top left */}
+      {!selectedRamp && (
+        <div className="fixed top-6 left-6 z-50">
+          <Button
+            onClick={() => selectColorRamp(colorRamps[0]?.id || null)}
+            variant="outline"
+            size="icon"
+          >
+            <PanelLeftOpen className="w-4 h-4" />
+          </Button>
+        </div>
+      )}
+
       {/* Export Button - Fixed in top right */}
       <div className="fixed top-4 right-4 z-50 flex gap-2">
         <Button onClick={() => setShowExport(true)} variant="outline" className="gap-2">

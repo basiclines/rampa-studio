@@ -134,7 +134,7 @@ const ColorRampControls: React.FC<ColorRampControlsProps> = ({
           <SheetDescription>Configure color ramp properties</SheetDescription>
         </SheetHeader>
 
-        <div className="flex flex-col gap-6 pt-4 flex-1 min-h-0 overflow-y-auto">
+        <div className="flex flex-col gap-6 pt-10 flex-1 min-h-0 overflow-y-auto">
           {/* Ramp name */}
           <div>
             <Input

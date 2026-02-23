@@ -52,13 +52,13 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange} modal={false}>
-      <SheetContent side="left" className="overflow-y-auto">
-        <SheetHeader>
+      <SheetContent side="left" className="flex flex-col overflow-hidden">
+        <SheetHeader className="sr-only">
           <SheetTitle>Color Space Settings</SheetTitle>
           <SheetDescription className="sr-only">Configure color space properties</SheetDescription>
         </SheetHeader>
 
-        <div className="flex flex-col gap-6 pt-4">
+        <div className="flex flex-col gap-6 pt-10 flex-1 min-h-0">
           {/* Space type selector */}
           <div>
             <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">Space Type</div>
@@ -208,11 +208,11 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
           )}
 
           {/* Palette preview strip */}
-          <div>
+          <div className="min-h-0 flex-1 flex flex-col">
             <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-1">
               Palette ({paletteColors.length} colors)
             </div>
-            <div className="flex flex-wrap gap-0.5 max-h-[120px] overflow-y-auto rounded p-1 bg-muted">
+            <div className="flex flex-wrap gap-0.5 overflow-y-auto rounded p-1 bg-muted content-start">
               {paletteColors.map((hex, i) => (
                 <div
                   key={i}

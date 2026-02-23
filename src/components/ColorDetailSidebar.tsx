@@ -72,12 +72,11 @@ const ColorDetailSidebar: React.FC<ColorDetailSidebarProps> = ({ color, open, on
 
         <div className="pt-4">
           {/* Color preview */}
-          <div className="flex justify-center mb-6">
+          <div className="mb-6">
             <div
-              className="rounded-full border-2 border-background shadow-lg"
+              className="w-full rounded-md"
               style={{
-                width: 120,
-                height: 120,
+                height: 80,
                 backgroundColor: color,
               }}
             />
