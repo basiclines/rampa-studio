@@ -28,6 +28,9 @@ const CORNER_MASKS: { x: number; y: number; z: number }[] = [
  *   y: '#f9e2af', m: '#cba6f7', c: '#94e2d5', w: '#cdd6f4',
  * }).size(6);
  *
+ * // With different interpolation:
+ * const space2 = new CubeColorSpace({ ... }).interpolation('lab').size(6);
+ *
  * space.r(4)              // → ColorResult (single-axis shortcut)
  * space.tint({ r: 3, b: 2 }) // → ColorResult (multi-axis)
  * space.cube(3, 0, 2)     // → ColorResult (raw coordinates)
@@ -48,6 +51,14 @@ export class CubeColorSpace {
     }
     this._corners = corners;
     this._interpolation = options?.interpolation ?? 'oklch';
+  }
+
+  /**
+   * Set the interpolation mode.
+   */
+  interpolation(mode: InterpolationMode): this {
+    this._interpolation = mode;
+    return this;
   }
 
   /**
