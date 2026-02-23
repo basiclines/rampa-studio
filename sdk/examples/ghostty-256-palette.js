@@ -42,7 +42,7 @@
  *         With --table: renders a 2D color grid to the terminal
  */
 
-import { rampa, color, LinearColorSpace, CubeColorSpace } from '@basiclines/rampa-sdk';
+import { color, LinearColorSpace, CubeColorSpace } from '@basiclines/rampa-sdk';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -106,7 +106,10 @@ const baseMap = { k: 0, r: 1, g: 2, y: 3, b: 4, m: 5, c: 6, w: 7,
 
 /**
  * Build color space functions for a given theme.
- * Returns tint, neutral, base, bright — all returning hex directly.
+ *
+ * Color accessors (r(), neutral(), tint(), base(), bright()) return
+ * values directly as strings — use them in template literals, ANSI
+ * escapes, or call .hex()/.rgb()/.hsl()/.oklch() for conversion.
  */
 function buildColorSpace(theme) {
   const { tint, cube, palette: cubePalette, ...corners } = new CubeColorSpace({
@@ -142,17 +145,33 @@ function buildColorSpace(theme) {
   return { tint, cube, neutral, base, bright, palette, ...corners };
 }
 
+// ── ANSI Helpers ───────────────────────────────────────────────────────
+
+const RST = '\x1b[0m';
+
+function bg(hex) {
+  const { r, g, b } = color(hex).rgb;
+  return `\x1b[48;2;${r};${g};${b}m`;
+}
+
+function fg(hex) {
+  const { r, g, b } = color(hex).rgb;
+  return `\x1b[38;2;${r};${g};${b}m`;
+}
+
+function contrastFg(hex) {
+  return color(hex).luminance > 0.5 ? fg('#000000') : fg('#ffffff');
+}
+
 // ── Output Formatting ──────────────────────────────────────────────────
 
 function formatGhosttyConfig(palette) {
   const names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
   const lines = [];
 
-  // Reverse map: cube coords → tint({ prefix: n }) syntax
   function cubeToTint(cr, cg, cb) {
     if (cr === 0 && cg === 0 && cb === 0) return `tint({ k: 0 })`;
 
-    // Check if expressible with a single prefix
     const rActive = cr > 0, gActive = cg > 0, bActive = cb > 0;
     const vals = [cr, cg, cb].filter(v => v > 0);
     const allSame = vals.every(v => v === vals[0]);
@@ -168,15 +187,12 @@ function formatGhosttyConfig(palette) {
       if (p) return `tint({ ${p}: ${n} })`;
     }
 
-    // Multi-intensity: decompose into minimal prefix set
     const parts = [];
     if (cr > 0) parts.push(`r: ${cr}`);
     if (cg > 0) parts.push(`g: ${cg}`);
     if (cb > 0) parts.push(`b: ${cb}`);
     return `tint({ ${parts.join(', ')} })`;
   }
-
-  // Base16 tint equivalents
 
   for (let i = 0; i < palette.length; i++) {
     const hex = palette[i];
@@ -208,22 +224,6 @@ function formatGhosttyConfig(palette) {
 }
 
 // ── Terminal Preview ───────────────────────────────────────────────────
-
-function bg(hex) {
-  const { r, g, b } = color(hex).rgb;
-  return `\x1b[48;2;${r};${g};${b}m`;
-}
-
-function fg(hex) {
-  const { r, g, b } = color(hex).rgb;
-  return `\x1b[38;2;${r};${g};${b}m`;
-}
-
-const RST = '\x1b[0m';
-
-function contrastFg(hex) {
-  return color(hex).luminance > 0.5 ? fg('#000000') : fg('#ffffff');
-}
 
 /**
  * Render the 256-color palette as named color ramps.
@@ -292,7 +292,7 @@ function renderPreview(cs, theme, themeName) {
   for (const abbr of abbrs) {
     let line = `  ${DIM}${(abbr + '(0–5)').padEnd(10)}${RST}`;
     for (let i = 0; i < 6; i++) {
-      const hex = cs[abbr](i).hex;
+      const hex = cs[abbr](i);
       line += `${bg(hex)}  ${RST}    `;
     }
     console.log(line);
@@ -317,7 +317,7 @@ function renderPreview(cs, theme, themeName) {
     // Fixed ka at 3, vary kb 0–5
     let line = `  ${DIM}${(`${ka}:3 ${kb}:0–5`).padEnd(14)}${RST}`;
     for (let i = 0; i < 6; i++) {
-      const hex = cs.tint({ [ka]: 3, [kb]: i }).hex;
+      const hex = cs.tint({ [ka]: 3, [kb]: i });
       line += `${bg(hex)}  ${RST}    `;
     }
     console.log(line);
@@ -325,7 +325,7 @@ function renderPreview(cs, theme, themeName) {
     // Fixed kb at 3, vary ka 0–5
     line = `  ${DIM}${(`${kb}:3 ${ka}:0–5`).padEnd(14)}${RST}`;
     for (let i = 0; i < 6; i++) {
-      const hex = cs.tint({ [kb]: 3, [ka]: i }).hex;
+      const hex = cs.tint({ [kb]: 3, [ka]: i });
       line += `${bg(hex)}  ${RST}    `;
     }
     console.log(line);
@@ -368,19 +368,19 @@ function renderTuiDemo(cs, themeName) {
   console.log(`  ${DIM}TUI Preview — ${themeName}${RST}`);
   console.log('');
 
-  // Design tokens — functions return hex directly via ColorResult
-  const backgroundPrimary   = neutral(1).hex;
-  const backgroundSecondary = neutral(3).hex;
-  const surfacePrimary      = neutral(5).hex;
-  const textPrimary         = neutral(24).hex;
-  const textSecondary       = neutral(20).hex;
-  const textTertiary        = neutral(14).hex;
-  const statusSuccess       = base('g').hex;
-  const statusWarning       = base('y').hex;
-  const statusDanger        = base('r').hex;
-  const statusInfo          = base('b').hex;
-  const selected            = tint({ b: 2 }).hex;
-  const border              = neutral(6).hex;
+  // Design tokens — color space functions return values directly
+  const backgroundPrimary   = neutral(1);
+  const backgroundSecondary = neutral(3);
+  const surfacePrimary      = neutral(5);
+  const textPrimary         = neutral(24);
+  const textSecondary       = neutral(20);
+  const textTertiary        = neutral(14);
+  const statusSuccess       = base('g');
+  const statusWarning       = base('y');
+  const statusDanger        = base('r');
+  const statusInfo          = base('b');
+  const selected            = tint({ b: 2 });
+  const border              = neutral(6);
 
   const W = 56;
   const B = `${fg(border)}${bg(backgroundPrimary)}`;
@@ -457,7 +457,7 @@ function renderTuiDemo(cs, themeName) {
   console.log(`  ${B}│${RST}${bg(backgroundPrimary)}${' '.repeat(W)}${RST}${B}│${RST}`);
 
   // Buttons on surface
-  const btnPrimary = `${bg(tint({ b: 3 }).hex)}${contrastFg(tint({ b: 3 }).hex)} Save ${RST}`;
+  const btnPrimary = `${bg(tint({ b: 3 }))}${contrastFg(tint({ b: 3 }))} Save ${RST}`;
   const btnSecondary = `${bg(surfacePrimary)}${contrastFg(surfacePrimary)} Cancel ${RST}`;
   const btnVisLen = 2 + 6 + 1 + 8;
   console.log(`  ${B}│${RST}${bg(backgroundPrimary)}  ${btnPrimary}${bg(backgroundPrimary)} ${btnSecondary}${bg(backgroundPrimary)}${' '.repeat(W - btnVisLen)}${RST}${B}│${RST}  ${DIM}surfacePrimary${RST}`);

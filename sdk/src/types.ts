@@ -92,11 +92,33 @@ export interface ColorResult {
 }
 
 /**
+ * A color accessor returned by color space functions.
+ * Acts as a string via toString()/valueOf() in the color space's output format.
+ * Has .hex(), .hsl(), .rgb(), .oklch() methods for format conversion.
+ */
+export interface ColorAccessor {
+  /** Convert to hex string */
+  hex(): string;
+  /** Convert to hsl string */
+  hsl(): string;
+  /** Convert to rgb string */
+  rgb(): string;
+  /** Convert to oklch string */
+  oklch(): string;
+  /** Perceptual luminance (0-1) using OKLCH lightness */
+  luminance: number;
+  /** String coercion returns color in the space's output format */
+  toString(): string;
+  /** Primitive coercion returns the formatted string */
+  valueOf(): string;
+}
+
+/**
  * The function signature returned by LinearColorSpace.
  * Call it with a 1-based index to get a color.
  */
 export interface LinearColorSpaceFn {
-  (index: number): ColorResult;
+  (index: number): ColorAccessor;
   palette: string[];
   size: number;
 }
@@ -111,13 +133,13 @@ export interface LinearColorSpaceFn {
  */
 export interface CubeColorSpaceResult {
   /** Multi-axis lookup: tint({ r: 3, b: 2 }) */
-  tint(query: Record<string, number>): ColorResult;
+  tint(query: Record<string, number>): ColorAccessor;
   /** Raw 3D coordinate lookup: cube(x, y, z) */
-  cube(x: number, y: number, z: number): ColorResult;
+  cube(x: number, y: number, z: number): ColorAccessor;
   /** Full palette array */
   palette: string[];
   /** Steps per axis */
   size: number;
   /** Per-corner shortcut functions, keyed by constructor key names */
-  [key: string]: ((index: number) => ColorResult) | string[] | number | ((query: Record<string, number>) => ColorResult) | ((x: number, y: number, z: number) => ColorResult);
+  [key: string]: ((index: number) => ColorAccessor) | string[] | number | ((query: Record<string, number>) => ColorAccessor) | ((x: number, y: number, z: number) => ColorAccessor);
 }
