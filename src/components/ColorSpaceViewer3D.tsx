@@ -50,7 +50,7 @@ function InteractiveSphere({
       onClick={onClick}
     >
       <sphereGeometry args={[radius, 16, 16]} />
-      <meshStandardMaterial color={color} />
+      <meshBasicMaterial color={color} />
       {(hovered || isSelected) && (
         <Edges scale={1} threshold={15} color="white" lineWidth={2} />
       )}
@@ -79,7 +79,6 @@ function InteractiveBox({
   const meshRef = useRef<THREE.Mesh>(null);
   const posRef = useRef(new THREE.Vector3(...basePosition));
 
-  // Smoothly interpolate position
   useFrame(() => {
     if (meshRef.current) {
       posRef.current.lerp(new THREE.Vector3(...targetPosition), 0.1);
@@ -96,7 +95,7 @@ function InteractiveBox({
       onClick={onClick}
     >
       <boxGeometry args={[size, size, size]} />
-      <meshStandardMaterial color={color} />
+      <meshBasicMaterial color={color} />
       {(hovered || isSelected) && (
         <Edges scale={1} threshold={15} color="white" lineWidth={2} />
       )}
@@ -287,8 +286,6 @@ const ColorSpaceViewer3D: React.FC<ColorSpaceViewer3DProps> = (props) => {
   return (
     <div className="w-full h-full overflow-hidden">
       <Canvas camera={{ position: [4, 3, 5], fov: 50 }} gl={{ alpha: true }} style={{ background: 'transparent' }}>
-        <ambientLight intensity={0.6} />
-        <directionalLight position={[5, 5, 5]} intensity={0.8} />
         <OrbitControls enableDamping dampingFactor={0.1} />
         {props.type === 'linear' ? (
           <LinearScene
