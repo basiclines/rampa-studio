@@ -285,7 +285,7 @@ function CubeScene({
 const ColorSpaceViewer3D: React.FC<ColorSpaceViewer3DProps> = (props) => {
   return (
     <div className="w-full h-full overflow-hidden">
-      <Canvas camera={{ position: [4, 3, 5], fov: 50 }} gl={{ alpha: true }} style={{ background: 'transparent' }}>
+      <Canvas flat camera={{ position: [4, 3, 5], fov: 50 }} gl={{ alpha: true }} style={{ background: 'transparent' }}>
         <OrbitControls enableDamping dampingFactor={0.1} />
         {props.type === 'linear' ? (
           <LinearScene
