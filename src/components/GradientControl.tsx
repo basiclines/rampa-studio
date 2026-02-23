@@ -160,7 +160,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
         {/* Start point */}
         <div
           className={cn(
-            "absolute w-6 h-3 r-material-light-gradient r-slider-thumb cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10"
+            "absolute w-6 h-3 bg-gradient-to-b from-white to-white/65 shadow-[0_0_0_2px_rgba(0,0,0,0.4)] rounded-sm cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10"
           )}
           style={{ 
             left: '50%',
@@ -172,7 +172,7 @@ const GradientControl: React.FC<GradientControlProps> = ({
         {/* End point (always show) */}
         <div
           className={cn(
-            "absolute w-6 h-3 r-material-light-gradient r-slider-thumb  cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10"
+            "absolute w-6 h-3 bg-gradient-to-b from-white to-white/65 shadow-[0_0_0_2px_rgba(0,0,0,0.4)] rounded-sm cursor-grab active:cursor-grabbing transform -translate-x-1/2 -translate-y-1/2 transition-colors z-10"
           )}
           style={{ 
             left: '50%',

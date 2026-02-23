@@ -14,9 +14,12 @@ interface BaseColorSwatchProps {
   id?: string;
   rampId?: string;
   empty?: boolean;
+  size?: number;
+  /** Which side the picker should open toward. Default 'left' (positioned at left:0). */
+  pickerAlign?: 'left' | 'right';
 }
 
-const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, onChange, id, rampId, empty = false }) => {
+const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, onChange, id, rampId, empty = false, size = 128, pickerAlign = 'left' }) => {
   const [showPicker, setShowPicker] = useState(false);
   const pickerRef = useRef<HTMLDivElement>(null);
 
@@ -106,19 +109,21 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
     }
   };
 
+  const compact = size < 128;
+
   return (
     <>
       <div
-        className={`relative w-16 h-16 rounded-full flex items-center justify-center cursor-pointer`}
+        className={`relative rounded-full flex items-center justify-center cursor-pointer border border-black/20`}
         onClick={handleClick}
         style={{
           background: empty ? 'transparent' : color,
           position: 'absolute',
-          left: empty ? '70%' : '30%',
-          top: '5%',
+          left: compact ? '50%' : (empty ? '60%' : '35%'),
+          top: compact ? '0%' : '5%',
           transform: 'translate(-50%, 0%)',
-          width: 128,
-          height: 128 }}
+          width: size,
+          height: size }}
       >
         {!empty && rampId && (
           <div
@@ -144,19 +149,26 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
           </div>
         )}
         {!empty && !rampId && (
-          <span
-            className="absolute text-xs text-black text-opacity-80"
+          <div
+            className="absolute"
             style={{
-              marginTop: 16,
+              marginTop: compact ? 4 : 16,
               top: '100%',
-              left: 0,
-              right: 0,
+              left: compact ? -8 : 0,
+              right: compact ? -8 : 0,
               textAlign: 'center',
-              textTransform: 'uppercase'
             }}
-            >
-            {formatColor(color, colorFormat)}
-          </span>
+          >
+            <input
+              className="bg-transparent text-center font-mono text-muted-foreground outline-none border-none w-full"
+              style={{ fontSize: compact ? 9 : 12 }}
+              value={color}
+              onClick={(e) => e.stopPropagation()}
+              onChange={(e) => onChange(e.target.value)}
+              onKeyDown={(e) => { if (e.key === 'Enter') e.currentTarget.blur(); }}
+              spellCheck={false}
+            />
+          </div>
         )}
       </div>
       
@@ -169,7 +181,7 @@ const BaseColorSwatch: React.FC<BaseColorSwatchProps> = ({ color, colorFormat, o
           <div
             style={{
               position: 'absolute',
-              left: '0%',
+              ...(pickerAlign === 'right' ? { right: '0%' } : { left: '0%' }),
               top: '100%',
               marginTop: 24,
               zIndex: 1000,

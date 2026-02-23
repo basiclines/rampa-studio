@@ -43,12 +43,12 @@ const LabeledSlider: React.FC<LabeledSliderProps> = ({ value, onChange, min, max
       <div className="absolute left-0 top-1/2 w-full h-1 group-hover:h-4 transition-all duration-200 -translate-y-1/2 flex items-center">
         {/* Filled bar */}
         <div
-          className="r-material-dark"
+          className="bg-black/30"
           style={{ width: `${percent}%`, height: '100%', borderRadius: 0, zIndex: 1 }}
         />
         {/* Track bar */}
         <div
-          className="absolute left-0 top-0 w-full r-material-dark-thin"
+          className="absolute left-0 top-0 w-full bg-black/10"
           style={{ height: '100%', borderRadius: 0, zIndex: 0,  }}
         />
         {/* Input range (transparent) */}

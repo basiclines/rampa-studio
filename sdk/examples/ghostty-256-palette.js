@@ -89,7 +89,7 @@ const baseMap = { k: 0, r: 1, g: 2, y: 3, b: 4, m: 5, c: 6, w: 7,
  * Returns tint, neutral, base, bright — all returning hex directly.
  */
 function buildColorSpace(theme) {
-  const tint = new CubeColorSpace({
+  const { tint, cube, palette: cubePalette, ...corners } = new CubeColorSpace({
     k: theme.bg,
     r: theme.base16[1],
     g: theme.base16[2],
@@ -115,11 +115,11 @@ function buildColorSpace(theme) {
   const palette = [
     ...base.palette,      // 0-7
     ...bright.palette,    // 8-15
-    ...tint.palette,      // 16-231
+    ...cubePalette,       // 16-231
     ...neutral.palette,   // 232-255
   ];
 
-  return { tint, neutral, base, bright, palette };
+  return { tint, cube, neutral, base, bright, palette, ...corners };
 }
 
 // ── Output Formatting ──────────────────────────────────────────────────

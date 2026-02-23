@@ -1,58 +1,46 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React from 'react';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useGetActiveTab } from '@/usecases/GetActiveTab';
 import { useShowColorTab } from '@/usecases/ShowColorTab';
-import { useShowUITab } from '@/usecases/ShowUITab';
+import { useShowColorSpacesTab } from '@/usecases/ShowColorSpacesTab';
 import ColorsSection from './ColorsSection';
-import UISection from './UISection';
-import { getVariant } from '@/utilities/AmplitudeTracker';
+import ColorSpacesSection from './ColorSpacesSection';
 
 
 const MainTabs: React.FC = () => {
   const activeTab = useGetActiveTab();
   const showColorTab = useShowColorTab();
-  const showUITab = useShowUITab();
-  const [tabsEnabled, setTabsEnabled] = useState<boolean>(false);
+  const showColorSpacesTab = useShowColorSpacesTab();
 
-  useEffect(() => {
-    getVariant('components_editor').then((variant) => {
-      setTabsEnabled(variant === 'on');
-    }).catch((error) => {
-      console.error('Error getting variant:', error);
-      setTabsEnabled(false);
-    });
-  }, [])
+  const handleTabChange = (value: string) => {
+    if (value === 'colors') showColorTab();
+    else if (value === 'colorSpaces') showColorSpacesTab();
+  };
   
   return (
-    <div className="min-h-screen bg-[#F5F5F5]">
+    <div className="h-screen r-canvas-dotgrid">
       {/* Top Navigation Tabs */}
-      <div className={`flex justify-center pt-6 pb-4 ${tabsEnabled ? '' : 'hidden'}`}>
+      <div className="fixed top-0 left-0 right-0 flex justify-center pt-6 pb-4 z-50 pointer-events-none">
         <Tabs 
           value={activeTab} 
-          onValueChange={(value) => {
-            if (value === 'colors') {
-              showColorTab();
-            } else if (value === 'ui') {
-              showUITab();
-            }
-          }}
-          className="w-auto"
+          onValueChange={handleTabChange}
+          className="w-auto pointer-events-auto"
         >
-          <TabsList className="grid w-full grid-cols-2 bg-white shadow-sm">
+          <TabsList>
             <TabsTrigger value="colors" className="px-8 py-2">
-              Colors
+              Ramps
             </TabsTrigger>
-            <TabsTrigger value="ui" className="px-8 py-2">
-              UI
+            <TabsTrigger value="colorSpaces" className="px-8 py-2">
+              Spaces
             </TabsTrigger>
           </TabsList>
         </Tabs>
       </div>
 
       {/* Tab Content */}
-      <div className="flex-1">
+      <div className="h-full">
         {activeTab === 'colors' && <ColorsSection />}
-        {activeTab === 'ui' && <UISection />}
+        {activeTab === 'colorSpaces' && <ColorSpacesSection />}
       </div>
     </div>
   );

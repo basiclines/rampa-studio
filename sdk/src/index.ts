@@ -16,7 +16,7 @@ import type {
   ColorResult,
   RgbComponents,
   LinearColorSpaceFn,
-  CubeColorSpaceFn,
+  CubeColorSpaceResult,
   ColorSpaceOptions,
 } from './types';
 
@@ -105,6 +105,6 @@ export type {
   ColorResult,
   RgbComponents,
   LinearColorSpaceFn,
-  CubeColorSpaceFn,
+  CubeColorSpaceResult,
   ColorSpaceOptions,
 };

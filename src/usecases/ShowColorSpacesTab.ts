@@ -1,7 +1,7 @@
 import { useMainTabStore } from '@/state/MainTabState';
 
-export function useShowUITab() {
+export function useShowColorSpacesTab() {
   const setActiveTab = useMainTabStore(state => state.setActiveTab);
   
-  return () => setActiveTab('ui');
+  return () => setActiveTab('colorSpaces');
 }
