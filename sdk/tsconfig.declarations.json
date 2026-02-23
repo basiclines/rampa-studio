@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "./dist",
+    "rootDir": "..",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "../src/engine/ColorEngine.ts",
+    "../src/engine/ColorSpaceEngine.ts",
+    "../src/engine/OklchEngine.ts",
+    "../src/engine/HarmonyEngine.ts",
+    "../src/engine/BlendingEngine.ts",
+    "../src/entities/ColorRampEntity.ts",
+    "../src/entities/ColorSwatchEntity.ts",
+    "../src/entities/BlendModeEntity.ts",
+    "../src/usecases/MixColors.ts"
+  ]
+}

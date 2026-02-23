@@ -296,7 +296,7 @@ describe('CLI Integration', () => {
 
   describe('Preview', () => {
     it('should show preview by default', async () => {
-      const result = await $`${CLI_PATH} -C "#3b82f6" --size=3`.text();
+      const result = await $`COLORTERM=truecolor ${CLI_PATH} -C "#3b82f6" --size=3`.text();
       
       // Preview includes colored squares (ANSI codes)
       expect(result).toContain('■');

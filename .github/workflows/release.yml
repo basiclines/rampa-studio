@@ -20,6 +20,8 @@ jobs:
         working-directory: cli
       - run: bun install
         working-directory: sdk
+      - run: bun run build
+        working-directory: cli
       - run: bun test
         working-directory: cli
       - run: bun test
