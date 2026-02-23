@@ -79,10 +79,15 @@ function InteractiveBox({
   const meshRef = useRef<THREE.Mesh>(null);
   const posRef = useRef(new THREE.Vector3(...basePosition));
 
+  const scaleRef = useRef(1);
+
   useFrame(() => {
     if (meshRef.current) {
       posRef.current.lerp(new THREE.Vector3(...targetPosition), 0.1);
       meshRef.current.position.copy(posRef.current);
+      const targetScale = isSelected ? 2 : 1;
+      scaleRef.current += (targetScale - scaleRef.current) * 0.1;
+      meshRef.current.scale.setScalar(scaleRef.current);
     }
   });
 

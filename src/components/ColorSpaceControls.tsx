@@ -10,14 +10,14 @@ import { generateLinearSpace, generateCubeSpace } from '@/engine/ColorSpaceEngin
 import type { InterpolationMode } from '@/engine/ColorSpaceEngine';
 
 const CORNER_LABELS: { key: string; label: string }[] = [
-  { key: 'k', label: 'Black (origin)' },
-  { key: 'r', label: 'Red (x)' },
-  { key: 'g', label: 'Green (y)' },
-  { key: 'b', label: 'Blue (z)' },
-  { key: 'y', label: 'Yellow (xy)' },
-  { key: 'm', label: 'Magenta (xz)' },
-  { key: 'c', label: 'Cyan (yz)' },
-  { key: 'w', label: 'White (xyz)' },
+  { key: 'k', label: 'Origin' },
+  { key: 'r', label: 'X' },
+  { key: 'g', label: 'Y' },
+  { key: 'b', label: 'Z' },
+  { key: 'y', label: 'XY' },
+  { key: 'm', label: 'XZ' },
+  { key: 'c', label: 'YZ' },
+  { key: 'w', label: 'XYZ' },
 ];
 
 interface ColorSpaceControlsProps {
