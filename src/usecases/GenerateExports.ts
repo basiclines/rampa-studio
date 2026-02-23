@@ -2,6 +2,7 @@ import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { generateColorRamp } from '@/engine/ColorEngine';
 import { ExportEngine } from '@/engine/ExportEngine';
 import { generateCSSVariables, generateCSSCode } from './GenerateCSSVariables';
+import chroma from 'chroma-js';
 
 // SDK/CLI default values — only emit non-default params
 const DEFAULTS = {
@@ -17,6 +18,83 @@ const DEFAULTS = {
   saturationScaleType: 'linear',
   hueScaleType: 'linear',
 };
+
+/** Config fingerprint for grouping (everything except id/name/baseColor/swatches) */
+function configFingerprint(ramp: ColorRampConfig): string {
+  return JSON.stringify({
+    totalSteps: ramp.totalSteps,
+    colorFormat: ramp.colorFormat,
+    lightnessStart: ramp.lightnessStart,
+    lightnessEnd: ramp.lightnessEnd,
+    saturationStart: ramp.saturationStart,
+    saturationEnd: ramp.saturationEnd,
+    chromaStart: ramp.chromaStart,
+    chromaEnd: ramp.chromaEnd,
+    lightnessScaleType: ramp.lightnessScaleType,
+    saturationScaleType: ramp.saturationScaleType,
+    hueScaleType: ramp.hueScaleType,
+    tintColor: ramp.tintColor,
+    tintOpacity: ramp.tintOpacity,
+    tintBlendMode: ramp.tintBlendMode,
+  });
+}
+
+/** Known harmony angle patterns */
+const HARMONY_PATTERNS: { type: string; angles: number[] }[] = [
+  { type: 'complementary', angles: [180] },
+  { type: 'analogous', angles: [30, 60] },
+  { type: 'triadic', angles: [120, 240] },
+  { type: 'split-complementary', angles: [150, 210] },
+  { type: 'square', angles: [90, 180, 270] },
+  { type: 'compound', angles: [180, 150, 210] },
+];
+
+/** Calculate hue shift in degrees between two colors */
+function hueShift(base: string, target: string): number {
+  const baseHue = chroma(base).hsl()[0] || 0;
+  const targetHue = chroma(target).hsl()[0] || 0;
+  let shift = targetHue - baseHue;
+  // Normalize to 0-360
+  shift = ((shift % 360) + 360) % 360;
+  return Math.round(shift);
+}
+
+/** Try to detect a named harmony from hue shifts, otherwise use shift:N */
+function detectHarmony(shifts: number[]): string[] {
+  for (const pattern of HARMONY_PATTERNS) {
+    if (shifts.length !== pattern.angles.length) continue;
+    const matches = pattern.angles.every((angle, i) => Math.abs(shifts[i] - angle) <= 5);
+    if (matches) return [pattern.type];
+  }
+  return shifts.map(s => `shift:${s}`);
+}
+
+interface RampGroup {
+  primary: ColorRampConfig;
+  derived: ColorRampConfig[];
+  harmonies: string[]; // e.g. ['complementary'] or ['shift:90', 'shift:180', 'shift:270']
+}
+
+/** Group consecutive ramps that share the same config (except baseColor) */
+function groupRamps(ramps: ColorRampConfig[]): RampGroup[] {
+  const groups: RampGroup[] = [];
+  let i = 0;
+  while (i < ramps.length) {
+    const primary = ramps[i];
+    const fp = configFingerprint(primary);
+    const derived: ColorRampConfig[] = [];
+    let j = i + 1;
+    while (j < ramps.length && configFingerprint(ramps[j]) === fp) {
+      derived.push(ramps[j]);
+      j++;
+    }
+    const shifts = derived.map(d => hueShift(primary.baseColor, d.baseColor));
+    const harmonies = derived.length > 0 ? detectHarmony(shifts) : [];
+    groups.push({ primary, derived, harmonies });
+    i = j;
+  }
+  return groups;
+}
 
 /**
  * Plain text export — one ramp per block, colors listed vertically
@@ -65,42 +143,96 @@ export function generateJsonExport(ramps: ColorRampConfig[]): string {
   return JSON.stringify(output, null, 2);
 }
 
+/** Build shared SDK chain options (everything except baseColor and generate) */
+function buildSdkOptions(ramp: ColorRampConfig): string {
+  let chain = '';
+  if (ramp.totalSteps !== DEFAULTS.totalSteps) {
+    chain += `\n  .size(${ramp.totalSteps})`;
+  }
+  if (ramp.colorFormat && ramp.colorFormat !== DEFAULTS.colorFormat) {
+    chain += `\n  .format('${ramp.colorFormat}')`;
+  }
+  if (ramp.lightnessStart !== DEFAULTS.lightnessStart || ramp.lightnessEnd !== DEFAULTS.lightnessEnd) {
+    chain += `\n  .lightness(${ramp.lightnessStart}, ${ramp.lightnessEnd})`;
+  }
+  if (ramp.saturationStart !== DEFAULTS.saturationStart || ramp.saturationEnd !== DEFAULTS.saturationEnd) {
+    chain += `\n  .saturation(${ramp.saturationStart}, ${ramp.saturationEnd})`;
+  }
+  if (ramp.chromaStart !== DEFAULTS.chromaStart || ramp.chromaEnd !== DEFAULTS.chromaEnd) {
+    chain += `\n  .hue(${ramp.chromaStart}, ${ramp.chromaEnd})`;
+  }
+  if (ramp.lightnessScaleType && ramp.lightnessScaleType !== DEFAULTS.lightnessScaleType) {
+    chain += `\n  .lightnessScale('${ramp.lightnessScaleType}')`;
+  }
+  if (ramp.saturationScaleType && ramp.saturationScaleType !== DEFAULTS.saturationScaleType) {
+    chain += `\n  .saturationScale('${ramp.saturationScaleType}')`;
+  }
+  if (ramp.hueScaleType && ramp.hueScaleType !== DEFAULTS.hueScaleType) {
+    chain += `\n  .hueScale('${ramp.hueScaleType}')`;
+  }
+  if (ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0) {
+    chain += `\n  .tint('${ramp.tintColor}', ${ramp.tintOpacity}, '${ramp.tintBlendMode || 'normal'}')`;
+  }
+  return chain;
+}
+
+/** Build shared CLI flags (everything except --color) */
+function buildCliFlags(ramp: ColorRampConfig): string {
+  let flags = '';
+  if (ramp.totalSteps !== DEFAULTS.totalSteps) {
+    flags += ` --size ${ramp.totalSteps}`;
+  }
+  if (ramp.colorFormat && ramp.colorFormat !== DEFAULTS.colorFormat) {
+    flags += ` --format ${ramp.colorFormat}`;
+  }
+  if (ramp.lightnessStart !== DEFAULTS.lightnessStart || ramp.lightnessEnd !== DEFAULTS.lightnessEnd) {
+    flags += ` --lightness ${ramp.lightnessStart}:${ramp.lightnessEnd}`;
+  }
+  if (ramp.saturationStart !== DEFAULTS.saturationStart || ramp.saturationEnd !== DEFAULTS.saturationEnd) {
+    flags += ` --saturation ${ramp.saturationStart}:${ramp.saturationEnd}`;
+  }
+  if (ramp.chromaStart !== DEFAULTS.chromaStart || ramp.chromaEnd !== DEFAULTS.chromaEnd) {
+    flags += ` --hue ${ramp.chromaStart}:${ramp.chromaEnd}`;
+  }
+  if (ramp.lightnessScaleType && ramp.lightnessScaleType !== DEFAULTS.lightnessScaleType) {
+    flags += ` --lightness-scale ${ramp.lightnessScaleType}`;
+  }
+  if (ramp.saturationScaleType && ramp.saturationScaleType !== DEFAULTS.saturationScaleType) {
+    flags += ` --saturation-scale ${ramp.saturationScaleType}`;
+  }
+  if (ramp.hueScaleType && ramp.hueScaleType !== DEFAULTS.hueScaleType) {
+    flags += ` --hue-scale ${ramp.hueScaleType}`;
+  }
+  if (ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0) {
+    flags += ` --tint-color "${ramp.tintColor}" --tint-opacity ${ramp.tintOpacity}`;
+    if (ramp.tintBlendMode && ramp.tintBlendMode !== 'normal') {
+      flags += ` --tint-blend ${ramp.tintBlendMode}`;
+    }
+  }
+  return flags;
+}
+
 /**
  * SDK export — generates TypeScript code using rampa() builder
+ * Groups harmony ramps into a single chain with .add()
  */
 export function generateSdkExport(ramps: ColorRampConfig[]): string {
+  const groups = groupRamps(ramps);
   const lines = [`import { rampa } from '@basiclines/rampa-sdk';`, ''];
 
-  ramps.forEach(ramp => {
-    const varName = ramp.name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
-    let chain = `const ${varName} = rampa('${ramp.baseColor}')`;
+  groups.forEach(group => {
+    const { primary, harmonies } = group;
+    const varName = primary.name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
+    let chain = `const ${varName} = rampa('${primary.baseColor}')`;
+    chain += buildSdkOptions(primary);
 
-    if (ramp.totalSteps !== DEFAULTS.totalSteps) {
-      chain += `\n  .size(${ramp.totalSteps})`;
-    }
-    if (ramp.colorFormat && ramp.colorFormat !== DEFAULTS.colorFormat) {
-      chain += `\n  .format('${ramp.colorFormat}')`;
-    }
-    if (ramp.lightnessStart !== DEFAULTS.lightnessStart || ramp.lightnessEnd !== DEFAULTS.lightnessEnd) {
-      chain += `\n  .lightness(${ramp.lightnessStart}, ${ramp.lightnessEnd})`;
-    }
-    if (ramp.saturationStart !== DEFAULTS.saturationStart || ramp.saturationEnd !== DEFAULTS.saturationEnd) {
-      chain += `\n  .saturation(${ramp.saturationStart}, ${ramp.saturationEnd})`;
-    }
-    if (ramp.chromaStart !== DEFAULTS.chromaStart || ramp.chromaEnd !== DEFAULTS.chromaEnd) {
-      chain += `\n  .hue(${ramp.chromaStart}, ${ramp.chromaEnd})`;
-    }
-    if (ramp.lightnessScaleType && ramp.lightnessScaleType !== DEFAULTS.lightnessScaleType) {
-      chain += `\n  .lightnessScale('${ramp.lightnessScaleType}')`;
-    }
-    if (ramp.saturationScaleType && ramp.saturationScaleType !== DEFAULTS.saturationScaleType) {
-      chain += `\n  .saturationScale('${ramp.saturationScaleType}')`;
-    }
-    if (ramp.hueScaleType && ramp.hueScaleType !== DEFAULTS.hueScaleType) {
-      chain += `\n  .hueScale('${ramp.hueScaleType}')`;
-    }
-    if (ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0) {
-      chain += `\n  .tint('${ramp.tintColor}', ${ramp.tintOpacity}, '${ramp.tintBlendMode || 'normal'}')`;
+    for (const h of harmonies) {
+      if (h.startsWith('shift:')) {
+        const degrees = h.split(':')[1];
+        chain += `\n  .add('shift', ${degrees})`;
+      } else {
+        chain += `\n  .add('${h}')`;
+      }
     }
 
     chain += `\n  .generate();`;
@@ -113,42 +245,21 @@ export function generateSdkExport(ramps: ColorRampConfig[]): string {
 
 /**
  * CLI export — generates rampa CLI commands with flags
+ * Groups harmony ramps into a single command with --add
  */
 export function generateCliExport(ramps: ColorRampConfig[]): string {
-  return ramps.map(ramp => {
-    let cmd = `rampa --color "${ramp.baseColor}"`;
+  const groups = groupRamps(ramps);
 
-    if (ramp.totalSteps !== DEFAULTS.totalSteps) {
-      cmd += ` --size ${ramp.totalSteps}`;
-    }
-    if (ramp.colorFormat && ramp.colorFormat !== DEFAULTS.colorFormat) {
-      cmd += ` --format ${ramp.colorFormat}`;
-    }
-    if (ramp.lightnessStart !== DEFAULTS.lightnessStart || ramp.lightnessEnd !== DEFAULTS.lightnessEnd) {
-      cmd += ` --lightness ${ramp.lightnessStart}:${ramp.lightnessEnd}`;
-    }
-    if (ramp.saturationStart !== DEFAULTS.saturationStart || ramp.saturationEnd !== DEFAULTS.saturationEnd) {
-      cmd += ` --saturation ${ramp.saturationStart}:${ramp.saturationEnd}`;
-    }
-    if (ramp.chromaStart !== DEFAULTS.chromaStart || ramp.chromaEnd !== DEFAULTS.chromaEnd) {
-      cmd += ` --hue ${ramp.chromaStart}:${ramp.chromaEnd}`;
-    }
-    if (ramp.lightnessScaleType && ramp.lightnessScaleType !== DEFAULTS.lightnessScaleType) {
-      cmd += ` --lightness-scale ${ramp.lightnessScaleType}`;
-    }
-    if (ramp.saturationScaleType && ramp.saturationScaleType !== DEFAULTS.saturationScaleType) {
-      cmd += ` --saturation-scale ${ramp.saturationScaleType}`;
-    }
-    if (ramp.hueScaleType && ramp.hueScaleType !== DEFAULTS.hueScaleType) {
-      cmd += ` --hue-scale ${ramp.hueScaleType}`;
-    }
-    if (ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0) {
-      cmd += ` --tint-color "${ramp.tintColor}" --tint-opacity ${ramp.tintOpacity}`;
-      if (ramp.tintBlendMode && ramp.tintBlendMode !== 'normal') {
-        cmd += ` --tint-blend ${ramp.tintBlendMode}`;
-      }
+  return groups.map(group => {
+    const { primary, harmonies } = group;
+    let cmd = `rampa --color "${primary.baseColor}"`;
+    cmd += buildCliFlags(primary);
+
+    for (const h of harmonies) {
+      cmd += ` --add ${h}`;
     }
 
-    return `# ${ramp.name}\n${cmd}`;
+    const names = [primary.name, ...group.derived.map(d => d.name)];
+    return `# ${names.join(', ')}\n${cmd}`;
   }).join('\n\n');
 }
