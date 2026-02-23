@@ -63,7 +63,7 @@ function hueShift(base: string, target: string): number {
 function detectHarmony(shifts: number[]): string[] {
   for (const pattern of HARMONY_PATTERNS) {
     if (shifts.length !== pattern.angles.length) continue;
-    const matches = pattern.angles.every((angle, i) => Math.abs(shifts[i] - angle) <= 5);
+    const matches = pattern.angles.every((angle, i) => Math.abs(shifts[i] - angle) <= 2);
     if (matches) return [pattern.type];
   }
   return shifts.map(s => `shift:${s}`);
