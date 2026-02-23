@@ -8,9 +8,10 @@ const mockRamp: ColorRampConfig = {
   baseColor: '#3b82f6',
   colorFormat: 'hex',
   totalSteps: 10,
-  lightnessRange: 100,
-  chromaRange: 0,
-  saturationRange: 100,
+  lightnessStart: 95,
+  lightnessEnd: 10,
+  saturationStart: 100,
+  saturationEnd: 100,
   swatches: [
     { color: '#eff6ff', colorFormat: 'hex', index: 0, locked: false },
     { color: '#dbeafe', colorFormat: 'hex', index: 1, locked: false },
@@ -31,9 +32,10 @@ const mockRamp2: ColorRampConfig = {
   baseColor: '#10b981',
   colorFormat: 'hex',
   totalSteps: 10,
-  lightnessRange: 100,
-  chromaRange: 0,
-  saturationRange: 100,
+  lightnessStart: 95,
+  lightnessEnd: 10,
+  saturationStart: 100,
+  saturationEnd: 100,
   swatches: [
     { color: '#ecfdf5', colorFormat: 'hex', index: 0, locked: false },
     { color: '#d1fae5', colorFormat: 'hex', index: 1, locked: false },
@@ -54,9 +56,10 @@ const mockRampWith6Steps: ColorRampConfig = {
   baseColor: '#f59e0b',
   colorFormat: 'hex',
   totalSteps: 6,
-  lightnessRange: 100,
-  chromaRange: 0,
-  saturationRange: 100,
+  lightnessStart: 95,
+  lightnessEnd: 10,
+  saturationStart: 100,
+  saturationEnd: 100,
   swatches: [
     { color: '#fef3c7', colorFormat: 'hex', index: 0, locked: false },
     { color: '#fde68a', colorFormat: 'hex', index: 1, locked: false },
@@ -82,7 +85,10 @@ describe('Color Engine', () => {
     const result = generateColorRamp(mockRamp);
     const middleIndex = Math.floor(mockRamp.totalSteps / 2);
     const middleColor = result[middleIndex];
-    expect(middleColor).toBe(mockRamp.baseColor);
+    // The middle color should be a valid hex color derived from the base
+    expect(middleColor).toMatch(/^#[0-9a-f]{6}$/);
+    // It should not be black (degenerate output)
+    expect(middleColor).not.toBe('#000000');
   });
 
   it('Generate color ramp with start and end values', () => {

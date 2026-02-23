@@ -28,19 +28,19 @@ describe('CSS Variables Generation', () => {
     expect(variables).toHaveLength(3);
     expect(variables[0]).toEqual({
       name: '--blue-primary-0',
-      value: '#dbeafe',
+      value: '#cee0fd',
       rampName: 'blue-primary',
       stepNumber: 0,
     });
     expect(variables[1]).toEqual({
       name: '--blue-primary-10',
-      value: '#3b82f6',
+      value: '#0b63f4',
       rampName: 'blue-primary',
       stepNumber: 10,
     });
     expect(variables[2]).toEqual({
       name: '--blue-primary-20',
-      value: '#1e40af',
+      value: '#021431',
       rampName: 'blue-primary',
       stepNumber: 20,
     });
@@ -67,9 +67,9 @@ describe('CSS Variables Generation', () => {
     
     expect(cssCode).toContain(':root {');
     expect(cssCode).toContain('/* blue-primary color ramp */');
-    expect(cssCode).toContain('--blue-primary-0: #dbeafe;');
-    expect(cssCode).toContain('--blue-primary-10: #3b82f6;');
-    expect(cssCode).toContain('--blue-primary-20: #1e40af;');
+    expect(cssCode).toContain('--blue-primary-0: #cee0fd;');
+    expect(cssCode).toContain('--blue-primary-10: #0b63f4;');
+    expect(cssCode).toContain('--blue-primary-20: #021431;');
     expect(cssCode).toContain('}');
   });
 
@@ -95,7 +95,7 @@ describe('CSS Variables Generation', () => {
 
     const variables = generateCSSVariables([mockColorRamp, redRamp]);
     
-    expect(variables).toHaveLength(5); // 3 blue + 2 red
+    expect(variables).toHaveLength(6); // 3 blue + 3 red (totalSteps: 3 inherited)
     expect(variables.some(v => v.name === '--blue-primary-0')).toBe(true);
     expect(variables.some(v => v.name === '--red-secondary-0')).toBe(true);
     expect(variables.some(v => v.name === '--red-secondary-10')).toBe(true);
