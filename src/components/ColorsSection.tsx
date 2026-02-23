@@ -70,7 +70,7 @@ const ColorsSection: React.FC = () => {
       </div>
 
       {/* Export Modal */}
-      <ExportModal ramps={colorRamps} open={showExport} onOpenChange={setShowExport} />
+      <ExportModal mode="ramps" ramps={colorRamps} open={showExport} onOpenChange={setShowExport} />
 
       {/* About Dialog */}
       <Dialog open={showAbout} onOpenChange={setShowAbout}>

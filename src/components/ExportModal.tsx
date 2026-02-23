@@ -18,15 +18,31 @@ import {
   generateJsonExport,
   generateSdkExport,
   generateCliExport,
+  generateSpaceTextExport,
+  generateSpaceCssExport,
+  generateSpaceJsonExport,
+  generateSpaceSdkExport,
+  generateSpaceCliExport,
+  type ColorSpaceExportData,
 } from '@/usecases/GenerateExports';
 
-interface ExportModalProps {
+interface RampExportModalProps {
+  mode: 'ramps';
   ramps: ColorRampConfig[];
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }
 
-const TABS = [
+interface SpaceExportModalProps {
+  mode: 'space';
+  spaceData: ColorSpaceExportData;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}
+
+export type ExportModalProps = RampExportModalProps | SpaceExportModalProps;
+
+const RAMP_TABS = [
   { id: 'text', label: 'Text', ext: '.txt', mime: 'text/plain' },
   { id: 'svg', label: 'SVG', ext: '.svg', mime: 'image/svg+xml' },
   { id: 'css', label: 'CSS', ext: '.css', mime: 'text/css' },
@@ -35,37 +51,59 @@ const TABS = [
   { id: 'cli', label: 'CLI', ext: '.sh', mime: 'text/x-shellscript' },
 ] as const;
 
-type TabId = typeof TABS[number]['id'];
+const SPACE_TABS = [
+  { id: 'text', label: 'Text', ext: '.txt', mime: 'text/plain' },
+  { id: 'css', label: 'CSS', ext: '.css', mime: 'text/css' },
+  { id: 'json', label: 'JSON', ext: '.json', mime: 'application/json' },
+  { id: 'sdk', label: 'SDK', ext: '.ts', mime: 'text/typescript' },
+  { id: 'cli', label: 'CLI', ext: '.sh', mime: 'text/x-shellscript' },
+] as const;
 
-const generators: Record<TabId, (ramps: ColorRampConfig[]) => string> = {
-  text: generateTextExport,
-  svg: generateSvgExport,
-  css: generateCssExport,
-  json: generateJsonExport,
-  sdk: generateSdkExport,
-  cli: generateCliExport,
-};
+type TabDef = { id: string; label: string; ext: string; mime: string };
 
-export const ExportModal: React.FC<ExportModalProps> = ({ ramps, open, onOpenChange }) => {
-  const [activeTab, setActiveTab] = useState<TabId>('text');
+export const ExportModal: React.FC<ExportModalProps> = (props) => {
+  const { open, onOpenChange } = props;
+  const [activeTab, setActiveTab] = useState('text');
   const [copied, setCopied] = useState(false);
 
+  const tabs: readonly TabDef[] = props.mode === 'ramps' ? RAMP_TABS : SPACE_TABS;
+
   const outputs = useMemo(() => {
-    if (!open) return {} as Record<TabId, string>;
-    return Object.fromEntries(
-      TABS.map(tab => [tab.id, generators[tab.id](ramps)])
-    ) as Record<TabId, string>;
-  }, [ramps, open]);
+    if (!open) return {} as Record<string, string>;
+
+    if (props.mode === 'ramps') {
+      const ramps = props.ramps;
+      return {
+        text: generateTextExport(ramps),
+        svg: generateSvgExport(ramps),
+        css: generateCssExport(ramps),
+        json: generateJsonExport(ramps),
+        sdk: generateSdkExport(ramps),
+        cli: generateCliExport(ramps),
+      };
+    }
+
+    const data = props.spaceData;
+    return {
+      text: generateSpaceTextExport(data),
+      css: generateSpaceCssExport(data),
+      json: generateSpaceJsonExport(data),
+      sdk: generateSpaceSdkExport(data),
+      cli: generateSpaceCliExport(data),
+    };
+  }, [props, open]);
+
+  const validTab = tabs.find(t => t.id === activeTab) ? activeTab : 'text';
 
   const handleCopy = async () => {
-    await navigator.clipboard.writeText(outputs[activeTab]);
+    await navigator.clipboard.writeText(outputs[validTab]);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
 
   const handleDownload = () => {
-    const tab = TABS.find(t => t.id === activeTab)!;
-    const blob = new Blob([outputs[activeTab]], { type: tab.mime });
+    const tab = tabs.find(t => t.id === validTab)!;
+    const blob = new Blob([outputs[validTab]], { type: tab.mime });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -79,17 +117,17 @@ export const ExportModal: React.FC<ExportModalProps> = ({ ramps, open, onOpenCha
       <DialogContent className="max-w-2xl max-h-[80vh] flex flex-col p-0">
         <DialogHeader className="px-6 pt-6 pb-0">
           <DialogTitle>Export</DialogTitle>
-          <DialogDescription className="sr-only">Export your color ramps in various formats</DialogDescription>
+          <DialogDescription className="sr-only">Export your colors in various formats</DialogDescription>
         </DialogHeader>
 
-        <Tabs value={activeTab} onValueChange={(v) => { setActiveTab(v as TabId); setCopied(false); }} className="flex flex-col flex-1 min-h-0">
+        <Tabs value={validTab} onValueChange={(v) => { setActiveTab(v); setCopied(false); }} className="flex flex-col flex-1 min-h-0">
           <TabsList className="mx-6">
-            {TABS.map(tab => (
+            {tabs.map(tab => (
               <TabsTrigger key={tab.id} value={tab.id}>{tab.label}</TabsTrigger>
             ))}
           </TabsList>
 
-          {TABS.map(tab => (
+          {tabs.map(tab => (
             <TabsContent key={tab.id} value={tab.id} className="flex-1 min-h-0 mt-0">
               <ScrollArea className="h-[50vh] px-6 py-4">
                 <pre className="text-xs font-mono whitespace-pre-wrap break-all text-foreground">

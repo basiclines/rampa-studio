@@ -1,7 +1,9 @@
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { generateColorRamp } from '@/engine/ColorEngine';
+import { generateLinearSpace, generateCubeSpace, type InterpolationMode } from '@/engine/ColorSpaceEngine';
 import { ExportEngine } from '@/engine/ExportEngine';
 import { generateCSSVariables, generateCSSCode } from './GenerateCSSVariables';
+import type { LinearConfig, CubeConfig, ColorSpaceType } from '@/state/ColorSpaceState';
 import chroma from 'chroma-js';
 
 // SDK/CLI default values — only emit non-default params
@@ -262,4 +264,101 @@ export function generateCliExport(ramps: ColorRampConfig[]): string {
     const names = [primary.name, ...group.derived.map(d => d.name)];
     return `# ${names.join(', ')}\n${cmd}`;
   }).join('\n\n');
+}
+
+// ── Color Space Exports ──────────────────────────────────────────────
+
+export interface ColorSpaceExportData {
+  spaceType: ColorSpaceType;
+  linearConfig: LinearConfig;
+  cubeConfig: CubeConfig;
+}
+
+const CORNER_ORDER = ['k', 'r', 'g', 'b', 'y', 'm', 'c', 'w'] as const;
+
+function getSpaceColors(data: ColorSpaceExportData): string[] {
+  if (data.spaceType === 'linear') {
+    const { fromColor, toColor, steps, interpolation } = data.linearConfig;
+    return generateLinearSpace(fromColor, toColor, steps, interpolation);
+  }
+  const { corners, stepsPerAxis, interpolation } = data.cubeConfig;
+  const ordered = CORNER_ORDER.map(k => corners[k]) as [string, string, string, string, string, string, string, string];
+  return generateCubeSpace(ordered, stepsPerAxis, interpolation);
+}
+
+export function generateSpaceTextExport(data: ColorSpaceExportData): string {
+  const colors = getSpaceColors(data);
+  const label = data.spaceType === 'linear' ? 'Linear Color Space' : 'Cube Color Space';
+  const lines = [label, ...colors.map((c, i) => `  ${i.toString().padStart(3)}  ${c}`)];
+  return lines.join('\n');
+}
+
+export function generateSpaceCssExport(data: ColorSpaceExportData): string {
+  const colors = getSpaceColors(data);
+  const prefix = data.spaceType === 'linear' ? 'linear' : 'cube';
+  const vars = colors.map((c, i) => `  --${prefix}-${i}: ${c};`);
+  return `:root {\n${vars.join('\n')}\n}`;
+}
+
+export function generateSpaceJsonExport(data: ColorSpaceExportData): string {
+  const colors = getSpaceColors(data);
+  const output: Record<string, unknown> = {
+    type: data.spaceType,
+    colors,
+  };
+  if (data.spaceType === 'linear') {
+    output.from = data.linearConfig.fromColor;
+    output.to = data.linearConfig.toColor;
+    output.steps = data.linearConfig.steps;
+    output.interpolation = data.linearConfig.interpolation;
+  } else {
+    output.corners = data.cubeConfig.corners;
+    output.stepsPerAxis = data.cubeConfig.stepsPerAxis;
+    output.interpolation = data.cubeConfig.interpolation;
+  }
+  return JSON.stringify(output, null, 2);
+}
+
+export function generateSpaceSdkExport(data: ColorSpaceExportData): string {
+  const lines = [`import { LinearColorSpace, CubeColorSpace } from '@basiclines/rampa-sdk';`, ''];
+
+  if (data.spaceType === 'linear') {
+    const { fromColor, toColor, steps, interpolation } = data.linearConfig;
+    let chain = `const space = new LinearColorSpace('${fromColor}', '${toColor}')`;
+    if (interpolation !== 'oklch') {
+      chain += `\n  .interpolation('${interpolation}')`;
+    }
+    chain += `\n  .size(${steps});`;
+    lines.push(chain);
+  } else {
+    const { corners, stepsPerAxis, interpolation } = data.cubeConfig;
+    const entries = CORNER_ORDER.map(k => `  ${k}: '${corners[k]}',`).join('\n');
+    let chain = `const space = new CubeColorSpace({\n${entries}\n})`;
+    if (interpolation !== 'oklch') {
+      chain += `\n  .interpolation('${interpolation}')`;
+    }
+    chain += `\n  .size(${stepsPerAxis});`;
+    lines.push(chain);
+  }
+
+  return lines.join('\n');
+}
+
+export function generateSpaceCliExport(data: ColorSpaceExportData): string {
+  if (data.spaceType === 'linear') {
+    const { fromColor, toColor, steps, interpolation } = data.linearConfig;
+    let cmd = `rampa colorspace --linear '${fromColor}' '${toColor}' --size ${steps}`;
+    if (interpolation !== 'oklch') {
+      cmd += ` --interpolation ${interpolation}`;
+    }
+    return cmd;
+  }
+
+  const { corners, stepsPerAxis, interpolation } = data.cubeConfig;
+  const pairs = CORNER_ORDER.map(k => `${k}=${corners[k]}`).join(' ');
+  let cmd = `rampa colorspace --cube ${pairs} --size ${stepsPerAxis}`;
+  if (interpolation !== 'oklch') {
+    cmd += ` --interpolation ${interpolation}`;
+  }
+  return cmd;
 }
