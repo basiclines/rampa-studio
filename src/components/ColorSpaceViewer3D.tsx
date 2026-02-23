@@ -98,7 +98,7 @@ function InteractiveBox({
       <meshBasicMaterial color={color} />
       <Edges scale={1} threshold={15} color="black" lineWidth={0.5} opacity={0.15} transparent />
       {(hovered || isSelected) && (
-        <Edges scale={1.01} threshold={15} color="black" lineWidth={2} />
+        <Edges scale={1.01} threshold={15} color="black" lineWidth={0.5} opacity={0.5} transparent />
       )}
     </mesh>
   );
