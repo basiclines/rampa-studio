@@ -379,7 +379,11 @@ export function runColorspace(argv: string[]): void {
       console.error('PlaneColorSpace requires 3 colors: dark light hue');
       process.exit(1);
     }
-    palette = generatePlaneSpace(args.dark, args.light, args.hue, args.size, args.interpolation as InterpolationMode);
+    if (args.interpolation === false) {
+      palette = [args.dark, args.light, args.hue];
+    } else {
+      palette = generatePlaneSpace(args.dark, args.light, args.hue, args.size, args.interpolation as InterpolationMode);
+    }
   } else {
     // Linear
     if (!args.colors || args.colors.length < 2) {

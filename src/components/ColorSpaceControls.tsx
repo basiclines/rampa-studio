@@ -153,7 +153,7 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
                   value={cubeConfig.stepsPerAxis}
                   onChange={(value) => setCubeConfig({ stepsPerAxis: Math.round(value) })}
                   min={2}
-                  max={20}
+                  max={10}
                   step={1}
                   formatValue={(v) => `${v}`}
                   ariaLabel="Steps"

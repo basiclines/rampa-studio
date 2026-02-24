@@ -316,6 +316,12 @@ export function generateSpaceJsonExport(data: ColorSpaceExportData): string {
     output.to = data.linearConfig.toColor;
     output.steps = data.linearConfig.steps;
     output.interpolation = data.linearConfig.interpolation;
+  } else if (data.spaceType === 'plane' && data.planeConfig) {
+    output.dark = data.planeConfig.dark;
+    output.light = data.planeConfig.light;
+    output.hue = data.planeConfig.hue;
+    output.stepsPerAxis = data.planeConfig.stepsPerAxis;
+    output.interpolation = data.planeConfig.interpolation;
   } else {
     output.corners = data.cubeConfig.corners;
     output.stepsPerAxis = data.cubeConfig.stepsPerAxis;
@@ -325,6 +331,18 @@ export function generateSpaceJsonExport(data: ColorSpaceExportData): string {
 }
 
 export function generateSpaceSdkExport(data: ColorSpaceExportData): string {
+  if (data.spaceType === 'plane' && data.planeConfig) {
+    const { dark, light, hue, stepsPerAxis, interpolation } = data.planeConfig;
+    const lines = [`import { PlaneColorSpace } from '@basiclines/rampa-sdk';`, ''];
+    let chain = `const space = new PlaneColorSpace('${dark}', '${light}', '${hue}')`;
+    if (interpolation !== 'oklch') {
+      chain += `\n  .interpolation('${interpolation}')`;
+    }
+    chain += `\n  .size(${stepsPerAxis});`;
+    lines.push(chain);
+    return lines.join('\n');
+  }
+
   const lines = [`import { LinearColorSpace, CubeColorSpace } from '@basiclines/rampa-sdk';`, ''];
 
   if (data.spaceType === 'linear') {
@@ -353,6 +371,15 @@ export function generateSpaceCliExport(data: ColorSpaceExportData): string {
   if (data.spaceType === 'linear') {
     const { fromColor, toColor, steps, interpolation } = data.linearConfig;
     let cmd = `rampa colorspace --linear '${fromColor}' '${toColor}' --size ${steps}`;
+    if (interpolation !== 'oklch') {
+      cmd += ` --interpolation ${interpolation}`;
+    }
+    return cmd;
+  }
+
+  if (data.spaceType === 'plane' && data.planeConfig) {
+    const { dark, light, hue, stepsPerAxis, interpolation } = data.planeConfig;
+    let cmd = `rampa colorspace --plane '${dark}' '${light}' '${hue}' --size ${stepsPerAxis}`;
     if (interpolation !== 'oklch') {
       cmd += ` --interpolation ${interpolation}`;
     }
