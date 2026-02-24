@@ -71,6 +71,13 @@ Do NOT use `.hex` property — use template literals or `.valueOf()`.
 
 All support chainable `.interpolation()`, `.format()`, `.size()`.
 
+### SDK Type Declarations
+When adding new types, interfaces, or classes to the SDK:
+- Define types/interfaces in `sdk/src/types.ts`
+- **Import AND re-export** them from `sdk/src/index.ts` — both the `import type { … }` block and the `export type { … }` block must be updated
+- Export new classes from the `export { … }` line in `sdk/src/index.ts`
+- Rebuild with `cd sdk && bun run build` and verify the `.d.ts` files appear in `sdk/dist/`
+
 ### Input Validation
 All color space constructors validate that input colors use the same format (hex, rgb, hsl, oklch). Mixed formats throw. Use `detectColorFormat()` and `validateSameFormat()` from `sdk/src/color-result.ts`.
 

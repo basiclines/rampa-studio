@@ -19,6 +19,7 @@ import type {
   RgbComponents,
   LinearColorSpaceFn,
   CubeColorSpaceResult,
+  PlaneColorSpaceResult,
   ColorSpaceOptions,
 } from './types';
 
