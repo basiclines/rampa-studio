@@ -272,7 +272,7 @@ export interface ColorSpaceExportData {
   spaceType: ColorSpaceType;
   linearConfig: LinearConfig;
   cubeConfig: CubeConfig;
-  planeConfig?: PlaneConfig;
+  planeConfig: PlaneConfig;
 }
 
 const CORNER_ORDER = ['k', 'r', 'g', 'b', 'y', 'm', 'c', 'w'] as const;

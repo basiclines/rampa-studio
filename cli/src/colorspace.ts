@@ -435,6 +435,10 @@ export function runColorspace(argv: string[]): void {
   }
 
   if (args.xy !== undefined) {
+    if (args.mode !== 'plane') {
+      console.error('--xy query is only supported with --plane mode');
+      process.exit(1);
+    }
     const [sat, light] = args.xy;
     const sx = Math.max(0, Math.min(args.size - 1, sat));
     const ly = Math.max(0, Math.min(args.size - 1, light));
