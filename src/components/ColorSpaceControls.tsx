@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '
 import LabeledSlider from './ui/LabeledSlider';
 import BaseColorSwatch from './BaseColorSwatch';
 import { useColorSpaceStore, type ColorSpaceType } from '@/state/ColorSpaceState';
-import { generateLinearSpace, generateCubeSpace } from '@/engine/ColorSpaceEngine';
+import { generateLinearSpace, generateCubeSpace, generatePlaneSpace } from '@/engine/ColorSpaceEngine';
 import type { InterpolationMode } from '@/engine/ColorSpaceEngine';
 
 const CORNER_LABELS: { key: string; label: string }[] = [
@@ -29,9 +29,11 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
     spaceType,
     linearConfig,
     cubeConfig,
+    planeConfig,
     setSpaceType,
     setLinearConfig,
     setCubeConfig,
+    setPlaneConfig,
   } = useColorSpaceStore();
 
   /* ─── Palette preview ─── */
@@ -44,10 +46,19 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
         linearConfig.interpolation,
       );
     }
+    if (spaceType === 'plane') {
+      return generatePlaneSpace(
+        planeConfig.dark,
+        planeConfig.light,
+        planeConfig.hue,
+        planeConfig.stepsPerAxis,
+        planeConfig.interpolation,
+      );
+    }
     const cornerKeys = CORNER_LABELS.map((c) => c.key);
     const cornerArr = cornerKeys.map((k) => cubeConfig.corners[k]) as [string, string, string, string, string, string, string, string];
     return generateCubeSpace(cornerArr, cubeConfig.stepsPerAxis, cubeConfig.interpolation);
-  }, [spaceType, linearConfig, cubeConfig]);
+  }, [spaceType, linearConfig, cubeConfig, planeConfig]);
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange} modal={false}>
@@ -66,8 +77,9 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
               onValueChange={(v) => setSpaceType(v as ColorSpaceType)}
               className="w-full"
             >
-              <TabsList className="grid w-full grid-cols-2">
+              <TabsList className="grid w-full grid-cols-3">
                 <TabsTrigger value="linear">Linear</TabsTrigger>
+                <TabsTrigger value="plane">Plane</TabsTrigger>
                 <TabsTrigger value="cube">Cube</TabsTrigger>
               </TabsList>
             </Tabs>
@@ -141,7 +153,7 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
                   value={cubeConfig.stepsPerAxis}
                   onChange={(value) => setCubeConfig({ stepsPerAxis: Math.round(value) })}
                   min={2}
-                  max={10}
+                  max={20}
                   step={1}
                   formatValue={(v) => `${v}`}
                   ariaLabel="Steps"
@@ -178,6 +190,65 @@ const ColorSpaceControls: React.FC<ColorSpaceControlsProps> = ({ open, onOpenCha
                 <Select
                   value={cubeConfig.interpolation}
                   onValueChange={(v) => setCubeConfig({ interpolation: v as InterpolationMode })}
+                >
+                  <SelectTrigger className="h-8 text-xs mt-1">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="oklch">OKLCH</SelectItem>
+                    <SelectItem value="lab">LAB</SelectItem>
+                    <SelectItem value="rgb">RGB</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
+          )}
+
+          {/* Plane controls */}
+          {spaceType === 'plane' && (
+            <div className="border-t pt-6 space-y-4">
+              <div className="space-y-2">
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Steps</div>
+                <LabeledSlider
+                  value={planeConfig.stepsPerAxis}
+                  onChange={(value) => setPlaneConfig({ stepsPerAxis: Math.round(value) })}
+                  min={2}
+                  max={20}
+                  step={1}
+                  formatValue={(v) => `${v}`}
+                  ariaLabel="Steps"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Colors</div>
+                <div className="grid grid-cols-3 gap-x-1 gap-y-6">
+                  {([
+                    { key: 'dark', label: 'Dark', color: planeConfig.dark, set: (c: string) => setPlaneConfig({ dark: c }) },
+                    { key: 'light', label: 'Light', color: planeConfig.light, set: (c: string) => setPlaneConfig({ light: c }) },
+                    { key: 'hue', label: 'Hue', color: planeConfig.hue, set: (c: string) => setPlaneConfig({ hue: c }) },
+                  ] as const).map(({ key, label, color, set }, index) => (
+                    <div key={key} className="flex flex-col items-center">
+                      <div className="relative" style={{ width: 56, height: 68 }}>
+                        <BaseColorSwatch
+                          color={color}
+                          colorFormat="hex"
+                          onChange={set}
+                          size={48}
+                          pickerAlign={index >= 2 ? 'right' : 'left'}
+                        />
+                      </div>
+                      <span className="text-[10px] text-muted-foreground mt-1">{label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Interpolation</div>
+                <Select
+                  value={planeConfig.interpolation}
+                  onValueChange={(v) => setPlaneConfig({ interpolation: v as InterpolationMode })}
                 >
                   <SelectTrigger className="h-8 text-xs mt-1">
                     <SelectValue />

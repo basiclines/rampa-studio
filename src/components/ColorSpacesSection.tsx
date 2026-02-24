@@ -15,7 +15,7 @@ import {
 } from '@/components/ui/dialog';
 
 const ColorSpacesSection: React.FC = () => {
-  const { spaceType, linearConfig, cubeConfig } = useColorSpaceStore();
+  const { spaceType, linearConfig, cubeConfig, planeConfig } = useColorSpaceStore();
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
   const [showExport, setShowExport] = useState(false);
@@ -38,7 +38,7 @@ const ColorSpacesSection: React.FC = () => {
       {/* Export Modal */}
       <ExportModal
         mode="space"
-        spaceData={{ spaceType, linearConfig, cubeConfig }}
+        spaceData={{ spaceType, linearConfig, cubeConfig, planeConfig }}
         open={showExport}
         onOpenChange={setShowExport}
       />
@@ -85,12 +85,23 @@ const ColorSpacesSection: React.FC = () => {
             onColorSelect={setSelectedColor}
             selectedColor={selectedColor}
           />
-        ) : (
+        ) : spaceType === 'cube' ? (
           <ColorSpaceViewer3D
             type="cube"
             corners={cubeConfig.corners}
             stepsPerAxis={cubeConfig.stepsPerAxis}
             interpolation={cubeConfig.interpolation}
+            onColorSelect={setSelectedColor}
+            selectedColor={selectedColor}
+          />
+        ) : (
+          <ColorSpaceViewer3D
+            type="plane"
+            dark={planeConfig.dark}
+            light={planeConfig.light}
+            hue={planeConfig.hue}
+            stepsPerAxis={planeConfig.stepsPerAxis}
+            interpolation={planeConfig.interpolation}
             onColorSelect={setSelectedColor}
             selectedColor={selectedColor}
           />

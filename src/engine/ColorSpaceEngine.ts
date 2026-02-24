@@ -129,3 +129,51 @@ export function generateCubeSpace(
 
   return colors;
 }
+
+/**
+ * Generate a 2D color plane via bilinear interpolation.
+ *
+ * The plane has 4 corners:
+ *   (0,0) = dark    (bottom-left)   — origin
+ *   (1,0) = dark    (bottom-right)  — saturation has no effect at lightness=0
+ *   (0,1) = light   (top-left)      — achromatic light
+ *   (1,1) = hue     (top-right)     — full saturation + full lightness
+ *
+ * X axis = saturation (0 → achromatic, max → chromatic)
+ * Y axis = lightness  (0 → dark anchor, max → light/hue)
+ *
+ * At Y=0 the entire row converges to the dark anchor.
+ *
+ * @param dark - Dark anchor color (any CSS color string)
+ * @param light - Light anchor color (any CSS color string)
+ * @param hue - Chromatic hue color (any CSS color string)
+ * @param stepsPerAxis - Number of steps along each axis
+ * @param mode - Interpolation mode (default: 'oklch')
+ * @returns Array of hex colors, length = stepsPerAxis²
+ */
+export function generatePlaneSpace(
+  dark: string,
+  light: string,
+  hue: string,
+  stepsPerAxis: number,
+  mode: InterpolationMode = 'oklch'
+): string[] {
+  const mix = (a: string, b: string, t: number) => mixWithMode(a, b, t, mode);
+  const max = stepsPerAxis - 1;
+  const colors: string[] = [];
+
+  for (let xi = 0; xi < stepsPerAxis; xi++) {
+    const tx = max === 0 ? 0 : xi / max; // saturation
+    // Bottom edge (Y=0): always dark anchor
+    const bottom = dark;
+    // Top edge (Y=1): light → hue
+    const top = mix(light, hue, tx);
+
+    for (let yi = 0; yi < stepsPerAxis; yi++) {
+      const ty = max === 0 ? 0 : yi / max; // lightness
+      colors.push(mix(bottom, top, ty));
+    }
+  }
+
+  return colors;
+}

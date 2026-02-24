@@ -2,6 +2,7 @@ import { RampaBuilder } from './builder';
 import { ReadOnlyBuilder } from './read-only';
 import { LinearColorSpace } from './linear-color-space';
 import { CubeColorSpace } from './cube-color-space';
+import { PlaneColorSpace } from './plane-color-space';
 import { createColorResult } from './color-result';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
@@ -93,7 +94,7 @@ export function color(hex: string): ColorResult {
   return createColorResult(hex);
 }
 
-export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace };
+export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace };
 export type {
   ColorFormat,
   ScaleType,
@@ -108,5 +109,6 @@ export type {
   RgbComponents,
   LinearColorSpaceFn,
   CubeColorSpaceResult,
+  PlaneColorSpaceResult,
   ColorSpaceOptions,
 };

@@ -1,9 +1,9 @@
 import { ColorRampConfig } from '@/entities/ColorRampEntity';
 import { generateColorRamp } from '@/engine/ColorEngine';
-import { generateLinearSpace, generateCubeSpace, type InterpolationMode } from '@/engine/ColorSpaceEngine';
+import { generateLinearSpace, generateCubeSpace, generatePlaneSpace, type InterpolationMode } from '@/engine/ColorSpaceEngine';
 import { ExportEngine } from '@/engine/ExportEngine';
 import { generateCSSVariables, generateCSSCode } from './GenerateCSSVariables';
-import type { LinearConfig, CubeConfig, ColorSpaceType } from '@/state/ColorSpaceState';
+import type { LinearConfig, CubeConfig, PlaneConfig, ColorSpaceType } from '@/state/ColorSpaceState';
 import chroma from 'chroma-js';
 
 // SDK/CLI default values — only emit non-default params
@@ -272,6 +272,7 @@ export interface ColorSpaceExportData {
   spaceType: ColorSpaceType;
   linearConfig: LinearConfig;
   cubeConfig: CubeConfig;
+  planeConfig?: PlaneConfig;
 }
 
 const CORNER_ORDER = ['k', 'r', 'g', 'b', 'y', 'm', 'c', 'w'] as const;
@@ -281,6 +282,10 @@ function getSpaceColors(data: ColorSpaceExportData): string[] {
     const { fromColor, toColor, steps, interpolation } = data.linearConfig;
     return generateLinearSpace(fromColor, toColor, steps, interpolation);
   }
+  if (data.spaceType === 'plane' && data.planeConfig) {
+    const { dark, light, hue, stepsPerAxis, interpolation } = data.planeConfig;
+    return generatePlaneSpace(dark, light, hue, stepsPerAxis, interpolation);
+  }
   const { corners, stepsPerAxis, interpolation } = data.cubeConfig;
   const ordered = CORNER_ORDER.map(k => corners[k]) as [string, string, string, string, string, string, string, string];
   return generateCubeSpace(ordered, stepsPerAxis, interpolation);
@@ -288,14 +293,14 @@ function getSpaceColors(data: ColorSpaceExportData): string[] {
 
 export function generateSpaceTextExport(data: ColorSpaceExportData): string {
   const colors = getSpaceColors(data);
-  const label = data.spaceType === 'linear' ? 'Linear Color Space' : 'Cube Color Space';
+  const label = data.spaceType === 'linear' ? 'Linear Color Space' : data.spaceType === 'plane' ? 'Plane Color Space' : 'Cube Color Space';
   const lines = [label, ...colors.map((c, i) => `  ${i.toString().padStart(3)}  ${c}`)];
   return lines.join('\n');
 }
 
 export function generateSpaceCssExport(data: ColorSpaceExportData): string {
   const colors = getSpaceColors(data);
-  const prefix = data.spaceType === 'linear' ? 'linear' : 'cube';
+  const prefix = data.spaceType === 'linear' ? 'linear' : data.spaceType === 'plane' ? 'plane' : 'cube';
   const vars = colors.map((c, i) => `  --${prefix}-${i}: ${c};`);
   return `:root {\n${vars.join('\n')}\n}`;
 }
