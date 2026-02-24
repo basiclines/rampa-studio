@@ -8,18 +8,22 @@
  *   rampa colorspace --config space.json --tint r:4,b:2
  */
 
-import { generateLinearSpace, generateCubeSpace, type InterpolationMode } from '../../src/engine/ColorSpaceEngine';
+import { generateLinearSpace, generateCubeSpace, generatePlaneSpace, type InterpolationMode } from '../../src/engine/ColorSpaceEngine';
 import { readFileSync } from 'node:fs';
 import chroma from 'chroma-js';
 
 // ── Argument Parsing ───────────────────────────────────────────────────
 
 interface ColorSpaceArgs {
-  mode: 'cube' | 'linear' | 'config';
+  mode: 'cube' | 'linear' | 'plane' | 'config';
   // Cube mode
   corners?: Record<string, string>;
   // Linear mode
   colors?: string[];
+  // Plane mode
+  dark?: string;
+  light?: string;
+  hue?: string;
   // Config mode
   configPath?: string;
   // Shared
@@ -28,6 +32,7 @@ interface ColorSpaceArgs {
   // Query
   tint?: Record<string, number>;
   at?: number;
+  xy?: [number, number];
   // Output
   format: 'hex' | 'hsl' | 'rgb' | 'oklch';
   output: 'text' | 'json' | 'css';
@@ -45,6 +50,7 @@ Query colors from a color space defined by anchor colors
 USAGE
   ${cyan}rampa colorspace --cube key=color ... [options]${reset}
   ${cyan}rampa colorspace --linear color ... [options]${reset}
+  ${cyan}rampa colorspace --plane dark light hue [options]${reset}
   ${cyan}rampa colorspace --config file.json [options]${reset}
 
 COLOR SPACE DEFINITION
@@ -53,6 +59,9 @@ COLOR SPACE DEFINITION
 
   ${cyan}--linear color ...${reset}            ${dim}Define a LinearColorSpace from 2+ colors${reset}
                                   ${dim}Interpolates between first and last color${reset}
+
+  ${cyan}--plane dark light hue${reset}        ${dim}Define a PlaneColorSpace (2D saturation×lightness)${reset}
+                                  ${dim}dark=origin, light=achromatic anchor, hue=chromatic corner${reset}
 
   ${cyan}--config file.json${reset}            ${dim}Load color space from a JSON config file${reset}
 
@@ -68,6 +77,9 @@ QUERIES ${dim}(omit to output full palette)${reset}
 
   ${cyan}--at N${reset}                        ${dim}Query LinearColorSpace by 1-based index${reset}
                                   ${dim}Example: --at 12${reset}
+
+  ${cyan}--xy sat,light${reset}                ${dim}Query PlaneColorSpace by saturation,lightness${reset}
+                                  ${dim}Example: --xy 3,5${reset}
 
 OUTPUT
   ${cyan}--format type${reset}                 ${dim}Color format: hex (default), hsl, rgb, oklch${reset}
@@ -90,6 +102,9 @@ EXAMPLES
   ${dim}# Lookup table (no interpolation)${reset}
   rampa colorspace --linear '#f00' '#0f0' '#00f' '#ff0' \\
                    --interpolation false --at 2
+
+  ${dim}# Plane: 2D saturation×lightness for a single hue${reset}
+  rampa colorspace --plane '#1e1e2e' '#cdd6f4' '#f38ba8' --size 6 --xy 3,5
 
   ${dim}# Query from config file${reset}
   rampa colorspace --config catppuccin.json --tint r:4,b:2
@@ -170,6 +185,29 @@ export function parseColorspaceArgs(argv: string[]): ColorSpaceArgs {
       continue;
     }
 
+    if (arg === '--plane') {
+      args.mode = 'plane';
+      i++;
+      const planeColors: string[] = [];
+      while (i < argv.length && !argv[i].startsWith('--')) {
+        const color = argv[i];
+        try { chroma(color); } catch {
+          console.error(`Invalid color: ${color}`);
+          process.exit(1);
+        }
+        planeColors.push(color);
+        i++;
+      }
+      if (planeColors.length !== 3) {
+        console.error('PlaneColorSpace requires exactly 3 colors: dark light hue');
+        process.exit(1);
+      }
+      args.dark = planeColors[0];
+      args.light = planeColors[1];
+      args.hue = planeColors[2];
+      continue;
+    }
+
     if (arg === '--config') {
       args.mode = 'config';
       args.configPath = argv[++i];
@@ -203,6 +241,13 @@ export function parseColorspaceArgs(argv: string[]): ColorSpaceArgs {
 
     if (arg === '--at') {
       args.at = parseInt(argv[++i]);
+      i++;
+      continue;
+    }
+
+    if (arg === '--xy') {
+      const parts = argv[++i].split(',');
+      args.xy = [parseInt(parts[0]), parseInt(parts[1])];
       i++;
       continue;
     }
@@ -243,6 +288,11 @@ function loadConfig(path: string): ColorSpaceArgs {
     if (config.type === 'linear' || config.colors) {
       args.mode = 'linear';
       args.colors = config.colors;
+    } else if (config.type === 'plane') {
+      args.mode = 'plane';
+      args.dark = config.dark;
+      args.light = config.light;
+      args.hue = config.hue;
     } else {
       args.mode = 'cube';
       args.corners = config.corners;
@@ -292,12 +342,15 @@ export function runColorspace(argv: string[]): void {
       mode: config.mode,
       corners: config.corners,
       colors: config.colors,
+      dark: config.dark,
+      light: config.light,
+      hue: config.hue,
     };
   }
 
   // Set default size
   if (args.size === 0) {
-    args.size = args.mode === 'cube' ? 6 : 24;
+    args.size = args.mode === 'linear' ? 24 : 6;
   }
 
   let palette: string[];
@@ -324,6 +377,12 @@ export function runColorspace(argv: string[]): void {
     } else {
       palette = generateCubeSpace(cornerColors, args.size, args.interpolation as InterpolationMode);
     }
+  } else if (args.mode === 'plane') {
+    if (!args.dark || !args.light || !args.hue) {
+      console.error('PlaneColorSpace requires 3 colors: dark light hue');
+      process.exit(1);
+    }
+    palette = generatePlaneSpace(args.dark, args.light, args.hue, args.size, args.interpolation === false ? 'oklch' : args.interpolation as InterpolationMode);
   } else {
     // Linear
     if (!args.colors || args.colors.length < 2) {
@@ -372,6 +431,19 @@ export function runColorspace(argv: string[]): void {
   if (args.at !== undefined) {
     const i = Math.max(1, Math.min(palette.length, args.at)) - 1;
     console.log(formatColor(palette[i], args.format));
+    return;
+  }
+
+  if (args.xy !== undefined) {
+    if (args.mode !== 'plane') {
+      console.error('--xy query is only supported with --plane mode');
+      process.exit(1);
+    }
+    const [sat, light] = args.xy;
+    const sx = Math.max(0, Math.min(args.size - 1, sat));
+    const ly = Math.max(0, Math.min(args.size - 1, light));
+    const index = sx * args.size + ly;
+    console.log(formatColor(palette[index], args.format));
     return;
   }
 

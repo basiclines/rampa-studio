@@ -63,6 +63,19 @@ describe('parseColorspaceArgs', () => {
     expect(args.configPath).toBe('theme.json');
   });
 
+  it('parses --plane with 3 colors', () => {
+    const args = parseColorspaceArgs(['--plane', '#1e1e2e', '#cdd6f4', '#f38ba8']);
+    expect(args.mode).toBe('plane');
+    expect(args.dark).toBe('#1e1e2e');
+    expect(args.light).toBe('#cdd6f4');
+    expect(args.hue).toBe('#f38ba8');
+  });
+
+  it('parses --xy with saturation,lightness', () => {
+    const args = parseColorspaceArgs(['--plane', '#000', '#fff', '#f00', '--xy', '3,5']);
+    expect(args.xy).toEqual([3, 5]);
+  });
+
   it('defaults to oklch interpolation', () => {
     const args = parseColorspaceArgs(['--linear', '#fff', '#000']);
     expect(args.interpolation).toBe('oklch');
@@ -144,5 +157,37 @@ describe('runColorspace integration', () => {
     });
     // Origin should be close to the first corner
     expect(result).toMatch(/^#/);
+  });
+
+  it('returns a single color for --plane --xy query', () => {
+    const result = captureOutput(() => {
+      runColorspace([
+        '--plane', '#000000', '#ffffff', '#ff0000',
+        '--size', '6', '--xy', '3,5',
+      ]);
+    });
+    expect(result).toMatch(/^#[0-9a-f]{6}$/);
+  });
+
+  it('plane (0,0) returns dark anchor', () => {
+    const result = captureOutput(() => {
+      runColorspace([
+        '--plane', '#000000', '#ffffff', '#ff0000',
+        '--size', '6', '--xy', '0,0',
+      ]);
+    });
+    expect(result).toBe('#000000');
+  });
+
+  it('plane full palette has size² colors', () => {
+    const result = captureOutput(() => {
+      runColorspace([
+        '--plane', '#000000', '#ffffff', '#ff0000',
+        '--size', '4', '--output', 'json',
+      ]);
+    });
+    const parsed = JSON.parse(result);
+    expect(parsed.palette).toHaveLength(16);
+    expect(parsed.size).toBe(16);
   });
 });

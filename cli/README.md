@@ -183,6 +183,9 @@ The `colorspace` subcommand lets you define and query multi-dimensional color sp
 # Linear: 2-color interpolated ramp
 rampa colorspace --linear '#ffffff' '#000000' --size 24 --at 12
 
+# Plane: 2D saturation×lightness for a single hue
+rampa colorspace --plane '#1e1e2e' '#cdd6f4' '#f38ba8' --size 6 --xy 3,5
+
 # Cube: 8-corner color cube with named aliases
 rampa colorspace --cube k=#1e1e2e r=#f38ba8 g=#a6e3a1 b=#89b4fa \
                         y=#f9e2af m=#cba6f7 c=#94e2d5 w=#cdd6f4 \
@@ -211,15 +214,29 @@ Config file format:
 }
 ```
 
+Plane config:
+```json
+{
+  "type": "plane",
+  "dark": "#1e1e2e",
+  "light": "#cdd6f4",
+  "hue": "#f38ba8",
+  "size": 6,
+  "interpolation": "oklch"
+}
+```
+
 #### Colorspace Flags
 
 | Flag | Description | Default |
 |------|-------------|---------|
 | `--linear` | Define a linear color space (2+ colors) | - |
+| `--plane` | Define a plane color space (dark light hue) | - |
 | `--cube` | Define a cube color space (8 key=color pairs) | - |
 | `--config` | Load color space from a JSON config file | - |
 | `--size` | Resolution per axis | 6 |
 | `--at` | Query a specific 1-based index (linear) | - |
+| `--xy` | Query plane with saturation,lightness (e.g., `3,5`) | - |
 | `--tint` | Query cube with alias:intensity pairs (e.g., `r:4,b:2`) | - |
 | `--interpolation` | Interpolation mode: oklch, lab, rgb, false | oklch |
 | `--format` | Output format: hex, hsl, rgb, oklch | hex |

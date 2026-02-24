@@ -2,7 +2,7 @@ import React, { useMemo, useRef, useState, useCallback } from 'react';
 import { Canvas, useFrame, ThreeEvent } from '@react-three/fiber';
 import { OrbitControls, Edges } from '@react-three/drei';
 import * as THREE from 'three';
-import { generateLinearSpace, generateCubeSpace } from '@/engine/ColorSpaceEngine';
+import { generateLinearSpace, generateCubeSpace, generatePlaneSpace } from '@/engine/ColorSpaceEngine';
 import type { InterpolationMode } from '@/engine/ColorSpaceEngine';
 
 interface LinearVisualizationProps {
@@ -18,9 +18,18 @@ interface CubeVisualizationProps {
   interpolation: InterpolationMode;
 }
 
+interface PlaneVisualizationProps {
+  dark: string;
+  light: string;
+  hue: string;
+  stepsPerAxis: number;
+  interpolation: InterpolationMode;
+}
+
 type ColorSpaceViewer3DProps =
   | ({ type: 'linear'; onColorSelect?: (color: string) => void; selectedColor?: string | null } & LinearVisualizationProps)
-  | ({ type: 'cube'; onColorSelect?: (color: string) => void; selectedColor?: string | null } & CubeVisualizationProps);
+  | ({ type: 'cube'; onColorSelect?: (color: string) => void; selectedColor?: string | null } & CubeVisualizationProps)
+  | ({ type: 'plane'; onColorSelect?: (color: string) => void; selectedColor?: string | null } & PlaneVisualizationProps);
 
 /* ───── Interactive sphere for linear scene ───── */
 
@@ -283,6 +292,63 @@ function CubeScene({
   );
 }
 
+/* ───── Plane: 2D grid of boxes (saturation × lightness) ───── */
+
+function PlaneScene({
+  dark, light, hue, stepsPerAxis, interpolation,
+  onColorSelect, selectedColor,
+}: PlaneVisualizationProps & { onColorSelect?: (color: string) => void; selectedColor?: string | null }) {
+  const groupRef = useRef<THREE.Group>(null);
+
+  const palette = useMemo(
+    () => generatePlaneSpace(dark, light, hue, stepsPerAxis, interpolation),
+    [dark, light, hue, stepsPerAxis, interpolation],
+  );
+
+  const cubeSize = 0.25;
+  const spacing = 0.56;
+
+  const gridCoords = useMemo(() => {
+    const coords: { xi: number; yi: number }[] = [];
+    for (let xi = 0; xi < stepsPerAxis; xi++) {
+      for (let yi = 0; yi < stepsPerAxis; yi++) {
+        coords.push({ xi, yi });
+      }
+    }
+    return coords;
+  }, [stepsPerAxis]);
+
+  const positions = useMemo(() => {
+    const offset = ((stepsPerAxis - 1) * spacing) / 2;
+    return gridCoords.map(({ xi, yi }) => [
+      xi * spacing - offset,
+      yi * spacing - offset,
+      0,
+    ] as [number, number, number]);
+  }, [gridCoords, stepsPerAxis]);
+
+  const handleClick = useCallback((hex: string, e: ThreeEvent<MouseEvent>) => {
+    e.stopPropagation();
+    onColorSelect?.(hex);
+  }, [onColorSelect]);
+
+  return (
+    <group ref={groupRef}>
+      {palette.map((color, i) => (
+        <InteractiveBox
+          key={i}
+          basePosition={positions[i]}
+          targetPosition={positions[i]}
+          color={color}
+          size={cubeSize}
+          isSelected={selectedColor === color}
+          onClick={(e) => handleClick(color, e)}
+        />
+      ))}
+    </group>
+  );
+}
+
 /* ───── Main wrapper ───── */
 
 const ColorSpaceViewer3D: React.FC<ColorSpaceViewer3DProps> = (props) => {
@@ -299,9 +365,19 @@ const ColorSpaceViewer3D: React.FC<ColorSpaceViewer3DProps> = (props) => {
             onColorSelect={props.onColorSelect}
             selectedColor={props.selectedColor}
           />
-        ) : (
+        ) : props.type === 'cube' ? (
           <CubeScene
             corners={props.corners}
+            stepsPerAxis={props.stepsPerAxis}
+            interpolation={props.interpolation}
+            onColorSelect={props.onColorSelect}
+            selectedColor={props.selectedColor}
+          />
+        ) : (
+          <PlaneScene
+            dark={props.dark}
+            light={props.light}
+            hue={props.hue}
             stepsPerAxis={props.stepsPerAxis}
             interpolation={props.interpolation}
             onColorSelect={props.onColorSelect}

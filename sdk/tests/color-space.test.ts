@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'bun:test';
-import { LinearColorSpace, CubeColorSpace } from '../src/index';
+import { LinearColorSpace, CubeColorSpace, PlaneColorSpace } from '../src/index';
 
 // ── LinearColorSpace ───────────────────────────────────────────────────
 
@@ -336,5 +336,109 @@ describe('Output format', () => {
     expect(typeof r(3).luminance).toBe('number');
     expect(r(3).luminance).toBeGreaterThan(0);
     expect(r(3).luminance).toBeLessThan(1);
+  });
+});
+
+// ── PlaneColorSpace ──────────────────────────────────────────────────
+
+describe('PlaneColorSpace', () => {
+  const dark = '#1e1e2e';
+  const light = '#cdd6f4';
+  const hue = '#f38ba8';
+
+  it('returns a callable result', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    expect(typeof plane).toBe('function');
+    expect(plane.size).toBe(6);
+  });
+
+  it('palette length equals size²', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    expect(plane.palette).toHaveLength(36);
+
+    const plane4 = new PlaneColorSpace(dark, light, hue).size(4);
+    expect(plane4.palette).toHaveLength(16);
+  });
+
+  it('(0, 0) returns the dark anchor', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    expect(`${plane(0, 0)}`).toBe(dark);
+  });
+
+  it('Y=0 row all converges to dark anchor', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    for (let x = 0; x < 6; x++) {
+      expect(`${plane(x, 0)}`).toBe(dark);
+    }
+  });
+
+  it('(0, max) returns the light anchor', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    expect(`${plane(0, 5)}`).toBe(light);
+  });
+
+  it('(max, max) returns the hue color', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    expect(`${plane(5, 5)}`).toBe(hue);
+  });
+
+  it('achromatic ramp via (0, n) has no hue influence', () => {
+    const plane = new PlaneColorSpace('#000000', '#ffffff', '#ff0000').size(6);
+    // Mid-lightness at saturation=0 should be achromatic (gray)
+    const mid = `${plane(0, 3)}`;
+    // Parse and check it's roughly gray (r ≈ g ≈ b)
+    const r = parseInt(mid.slice(1, 3), 16);
+    const g = parseInt(mid.slice(3, 5), 16);
+    const b = parseInt(mid.slice(5, 7), 16);
+    expect(Math.abs(r - g)).toBeLessThan(5);
+    expect(Math.abs(g - b)).toBeLessThan(5);
+  });
+
+  it('clamps out-of-range coordinates', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    expect(`${plane(-1, 0)}`).toBe(`${plane(0, 0)}`);
+    expect(`${plane(99, 5)}`).toBe(`${plane(5, 5)}`);
+    expect(`${plane(0, -1)}`).toBe(`${plane(0, 0)}`);
+    expect(`${plane(0, 99)}`).toBe(`${plane(0, 5)}`);
+  });
+
+  it('returns ColorAccessor with conversion methods', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    const c = plane(3, 3);
+    expect(c.hex()).toMatch(/^#[0-9a-f]{6}$/);
+    expect(c.rgb()).toMatch(/^rgb\(/);
+    expect(c.hsl()).toMatch(/^hsl\(/);
+    expect(c.oklch()).toMatch(/^oklch\(/);
+    expect(typeof c.luminance).toBe('number');
+  });
+
+  it('template literal interpolation works', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).size(6);
+    const css = `background: ${plane(3, 4)};`;
+    expect(css).toMatch(/^background: #[0-9a-f]{6};$/);
+  });
+
+  it('supports .interpolation() chaining', () => {
+    const oklch = new PlaneColorSpace(dark, light, hue).interpolation('oklch').size(6);
+    const lab = new PlaneColorSpace(dark, light, hue).interpolation('lab').size(6);
+    // Mid-plane colors should differ between interpolation modes
+    expect(`${oklch(3, 3)}`).not.toBe(`${lab(3, 3)}`);
+  });
+
+  it('supports .format() chaining', () => {
+    const plane = new PlaneColorSpace(dark, light, hue).format('rgb').size(6);
+    expect(`${plane(3, 3)}`).toMatch(/^rgb\(/);
+  });
+
+  it('throws on mixed input formats', () => {
+    expect(() => new PlaneColorSpace('#000000', 'rgb(255,255,255)', '#ff0000'))
+      .toThrow('same format');
+  });
+
+  it('accepts same non-hex format', () => {
+    const plane = new PlaneColorSpace(
+      'rgb(0, 0, 0)', 'rgb(255, 255, 255)', 'rgb(255, 0, 0)'
+    ).size(4);
+    expect(`${plane(0, 0)}`).toMatch(/^#[0-9a-f]{6}$/);
   });
 });

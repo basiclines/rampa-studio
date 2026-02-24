@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import type { InterpolationMode } from '@/engine/ColorSpaceEngine';
 
-export type ColorSpaceType = 'linear' | 'cube';
+export type ColorSpaceType = 'linear' | 'cube' | 'plane';
 
 export interface LinearConfig {
   fromColor: string;
@@ -16,16 +16,26 @@ export interface CubeConfig {
   interpolation: InterpolationMode;
 }
 
+export interface PlaneConfig {
+  dark: string;
+  light: string;
+  hue: string;
+  stepsPerAxis: number;
+  interpolation: InterpolationMode;
+}
+
 type State = {
   spaceType: ColorSpaceType;
   linearConfig: LinearConfig;
   cubeConfig: CubeConfig;
+  planeConfig: PlaneConfig;
 };
 
 type Actions = {
   setSpaceType: (type: ColorSpaceType) => void;
   setLinearConfig: (config: Partial<LinearConfig>) => void;
   setCubeConfig: (config: Partial<CubeConfig>) => void;
+  setPlaneConfig: (config: Partial<PlaneConfig>) => void;
 };
 
 export const useColorSpaceStore = create<State & Actions>((set) => ({
@@ -50,9 +60,18 @@ export const useColorSpaceStore = create<State & Actions>((set) => ({
     stepsPerAxis: 6,
     interpolation: 'oklch',
   },
+  planeConfig: {
+    dark: '#1e1e2e',
+    light: '#cdd6f4',
+    hue: '#f38ba8',
+    stepsPerAxis: 6,
+    interpolation: 'oklch',
+  },
   setSpaceType: (type) => set({ spaceType: type }),
   setLinearConfig: (config) =>
     set((state) => ({ linearConfig: { ...state.linearConfig, ...config } })),
   setCubeConfig: (config) =>
     set((state) => ({ cubeConfig: { ...state.cubeConfig, ...config } })),
+  setPlaneConfig: (config) =>
+    set((state) => ({ planeConfig: { ...state.planeConfig, ...config } })),
 }));

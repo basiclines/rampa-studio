@@ -345,7 +345,11 @@ rampa('#3b82f6').size(5).lightness(10, 90).add('complementary').toJSON();
 
 ## Color Spaces
 
-Color spaces let you create structured palettes from a set of anchor colors and query them semantically. Two primitives are available:
+Color spaces let you create structured palettes from a set of anchor colors and query them semantically. Three geometric primitives are available:
+
+- **LinearColorSpace** — 1D interpolated ramp
+- **PlaneColorSpace** — 2D saturation×lightness plane
+- **CubeColorSpace** — 3D trilinear interpolation cube
 
 ### `LinearColorSpace`
 
@@ -355,11 +359,9 @@ Interpolates between two colors to produce an evenly-spaced ramp.
 import { LinearColorSpace } from '@basiclines/rampa-sdk';
 
 const neutral = new LinearColorSpace('#ffffff', '#000000').size(24);
-neutral(1)               // → ColorResult (lightest)
-neutral(12)              // → ColorResult (mid gray)
-neutral(24)              // → ColorResult (darkest)
-neutral(12).hex          // → '#666666'
-neutral(12).format('hsl') // → 'hsl(0, 0%, 40%)'
+neutral(1)               // → '#ffffff' (lightest, returns string directly)
+neutral(12)              // → '#666666' (mid gray)
+neutral(12).hsl()        // → 'hsl(0, 0%, 40%)'
 neutral.palette          // → string[24]
 ```
 
@@ -377,6 +379,44 @@ base(1)  // → '#45475a' (exact, no interpolation)
 base(3)  // → '#a6e3a1'
 ```
 
+### `PlaneColorSpace`
+
+Creates a 2D color plane for a single hue, anchored to shared dark/light values. Create one plane per hue.
+
+```
+Y(lightness)
+1 │  light ─────────── hue
+  │    │                 │
+  │    │   interpolated  │
+  │    │                 │
+0 │  dark ─────────── dark
+  └──────────────────────── X(saturation)
+      0                  1
+```
+
+At Y=0 the entire row converges to the dark anchor.
+
+```typescript
+import { PlaneColorSpace } from '@basiclines/rampa-sdk';
+
+// One plane per hue, reuse dark/light anchors
+const red  = new PlaneColorSpace('#1e1e2e', '#cdd6f4', '#f38ba8').size(6);
+const blue = new PlaneColorSpace('#1e1e2e', '#cdd6f4', '#89b4fa').size(6);
+
+red(3, 5)          // → ColorAccessor (saturation=3, lightness=5)
+red(0, 3)          // → achromatic at lightness 3 (no hue influence)
+red(5, 5)          // → full hue color
+red(0, 0)          // → dark anchor
+red.palette        // → string[36] (6²)
+
+// Template literals and concatenation work directly
+`background: ${red(3, 5)};`  // → 'background: #ab34cd;'
+
+// Format conversion
+red(3, 5).hsl()    // → 'hsl(280, 60%, 50%)'
+red(3, 5).oklch()  // → 'oklch(52.3% 0.198 310)'
+```
+
 ### `CubeColorSpace`
 
 Creates a 3D color cube from 8 corner colors via trilinear interpolation. The constructor keys become alias names for semantic lookups.
@@ -384,7 +424,7 @@ Creates a 3D color cube from 8 corner colors via trilinear interpolation. The co
 ```typescript
 import { CubeColorSpace } from '@basiclines/rampa-sdk';
 
-const tint = new CubeColorSpace({
+const { r, b, tint } = new CubeColorSpace({
   k: '#1e1e2e',    // origin (0,0,0)
   r: '#f38ba8',    // x axis
   g: '#a6e3a1',    // y axis
@@ -395,11 +435,9 @@ const tint = new CubeColorSpace({
   w: '#cdd6f4',    // x+y+z
 }).size(6);
 
-tint({ r: 4 })           // → strong red
+r(4)                     // → strong red
 tint({ r: 4, b: 2 })     // → red-blue blend
 tint({ w: 3 })           // → mid-white (all axes at 3)
-tint({ r: 5, w: 2 })     // → pastel red (white raises base)
-tint.palette             // → string[216] (6³)
 ```
 
 #### Custom vocabulary
@@ -440,7 +478,7 @@ When you call `tint({ r: 4, b: 2 })`, each alias's mask is multiplied by its int
 
 ### Interpolation modes
 
-Both `LinearColorSpace` and `CubeColorSpace` support configurable interpolation:
+`LinearColorSpace`, `PlaneColorSpace`, and `CubeColorSpace` all support configurable interpolation:
 
 | Mode | Description |
 |------|-------------|
@@ -453,24 +491,37 @@ Both `LinearColorSpace` and `CubeColorSpace` support configurable interpolation:
 // LinearColorSpace
 new LinearColorSpace('#ff0000', '#0000ff').interpolation('oklch').size(10)
 new LinearColorSpace('#ff0000', '#0000ff').interpolation('lab').size(10)
-new LinearColorSpace('#ff0000', '#0000ff').interpolation('rgb').size(10)
 new LinearColorSpace('#f00', '#0f0', '#00f').interpolation(false).size(3)
 
+// PlaneColorSpace
+new PlaneColorSpace('#000', '#fff', '#f00').interpolation('oklch').size(6)
+new PlaneColorSpace('#000', '#fff', '#f00').interpolation('lab').size(6)
+
 // CubeColorSpace
-new CubeColorSpace({ ... }, { interpolation: 'lab' }).size(6)
+new CubeColorSpace({ ... }).interpolation('lab').size(6)
 ```
 
-### Color result chaining
+### Color accessor
 
-All color space lookups return a `ColorResult` that acts as a hex string but supports format conversion:
+All color space lookups return a `ColorAccessor` — a string that works directly in template literals and concatenation, with conversion methods:
 
 ```typescript
-const color = tint({ r: 4, b: 2 });
-color.hex              // → '#ab34cd'
-color.format('hsl')    // → 'hsl(280, 60%, 50%)'
-color.format('rgb')    // → 'rgb(171, 52, 205)'
-color.format('oklch')  // → 'oklch(52.3% 0.198 310)'
-color.toString()       // → '#ab34cd'
+const c = red(3, 5);
+`${c}`             // → '#ab34cd' (string coercion)
+'bg: ' + c         // → 'bg: #ab34cd' (concatenation)
+c.hex()            // → '#ab34cd'
+c.hsl()            // → 'hsl(280, 60%, 50%)'
+c.rgb()            // → 'rgb(171, 52, 205)'
+c.oklch()          // → 'oklch(52.3% 0.198 310)'
+c.luminance        // → 0.52 (perceptual, 0–1)
+```
+
+Use `.format()` on the color space to change the default output format:
+
+```typescript
+const rgbSpace = new PlaneColorSpace('#000', '#fff', '#f00').format('rgb').size(6);
+`${rgbSpace(3, 5)}`  // → 'rgb(255, 128, 128)'
+rgbSpace(3, 5).hex() // → '#ff8080' (still available)
 ```
 
 ## Development

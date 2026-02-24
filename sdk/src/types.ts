@@ -143,3 +143,16 @@ export interface CubeColorSpaceResult {
   /** Per-corner shortcut functions, keyed by constructor key names */
   [key: string]: ((index: number) => ColorAccessor) | string[] | number | ((query: Record<string, number>) => ColorAccessor) | ((x: number, y: number, z: number) => ColorAccessor);
 }
+
+/**
+ * The result returned by PlaneColorSpace.size().
+ * Callable with (saturation, lightness) to look up colors on the 2D plane.
+ */
+export interface PlaneColorSpaceResult {
+  /** Look up a color by 2D coordinates (both 0-based, clamped to size-1) */
+  (saturation: number, lightness: number): ColorAccessor;
+  /** Full palette array (length = size²) */
+  palette: string[];
+  /** Steps per axis */
+  size: number;
+}
