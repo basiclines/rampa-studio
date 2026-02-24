@@ -153,16 +153,19 @@ rampa.convert('#fe0000', 'oklch');                     // 'oklch(62.8% 0.257 29)
 // OKLCH color mixing
 rampa.mix('#ff0000', '#0000ff', 0.5);                  // Perceptually uniform midpoint
 
-// Color spaces: interpolated ramps and cubes
-import { LinearColorSpace, CubeColorSpace, color } from '@basiclines/rampa-sdk';
+// Color spaces: interpolated ramps, planes, and cubes
+import { LinearColorSpace, PlaneColorSpace, CubeColorSpace, color } from '@basiclines/rampa-sdk';
 
 const neutral = new LinearColorSpace('#ffffff', '#000000').size(24);
-neutral(12).hex;  // Midpoint gray
+neutral(12)                       // Midpoint gray (returns hex string directly)
+
+const red = new PlaneColorSpace('#1e1e2e', '#cdd6f4', '#f38ba8').size(6);
+red(3, 5)                         // 2D lookup: saturation=3, lightness=5
 
 const tint = new CubeColorSpace({ k: '#1e1e2e', r: '#f38ba8', g: '#a6e3a1', b: '#89b4fa',
                                    y: '#f9e2af', m: '#cba6f7', c: '#94e2d5', w: '#cdd6f4' }).size(6);
-tint({ r: 4, b: 2 }).hex;         // Query by alias intensity
-tint({ r: 4 }).format('hsl');     // Format chaining
+tint({ r: 4, b: 2 })             // Query by alias intensity
+tint({ r: 4 }).hsl()             // Convert to hsl
 
 // Color inspection
 color('#3b82f6').rgb;              // { r: 59, g: 130, b: 246 }
