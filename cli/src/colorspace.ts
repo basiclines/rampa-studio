@@ -342,6 +342,9 @@ export function runColorspace(argv: string[]): void {
       mode: config.mode,
       corners: config.corners,
       colors: config.colors,
+      dark: config.dark,
+      light: config.light,
+      hue: config.hue,
     };
   }
 
@@ -379,11 +382,7 @@ export function runColorspace(argv: string[]): void {
       console.error('PlaneColorSpace requires 3 colors: dark light hue');
       process.exit(1);
     }
-    if (args.interpolation === false) {
-      palette = [args.dark, args.light, args.hue];
-    } else {
-      palette = generatePlaneSpace(args.dark, args.light, args.hue, args.size, args.interpolation as InterpolationMode);
-    }
+    palette = generatePlaneSpace(args.dark, args.light, args.hue, args.size, args.interpolation === false ? 'oklch' : args.interpolation as InterpolationMode);
   } else {
     // Linear
     if (!args.colors || args.colors.length < 2) {
