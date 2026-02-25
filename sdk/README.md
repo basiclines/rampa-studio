@@ -241,6 +241,30 @@ const gradient = Array.from({ length: steps }, (_, i) =>
 );
 ```
 
+### `rampa.contrast(foreground, background, mode?)`
+
+Evaluate contrast between two colors. Returns score, pass/fail levels, and lint warnings. Default mode is `'apca'`.
+
+```js
+// APCA (default) — returns Lc value
+const result = rampa.contrast('#ffffff', '#1e1e2e');
+result.mode       // 'apca'
+result.score      // -104.3 (Lc value)
+result.pass       // true (at least one level passes)
+result.levels     // [{ name: 'Preferred body text', threshold: 90, pass: true }, ...]
+result.warnings   // []
+
+// WCAG 2.x — returns contrast ratio
+const wcag = rampa.contrast('#777', '#ffffff', 'wcag');
+wcag.score        // 4.48 (contrast ratio)
+wcag.levels       // [{ name: 'AAA Normal text', threshold: 7, pass: false }, ...]
+```
+
+**Lint warnings** fire automatically:
+- Near-identical colors (deltaE < 3)
+- Contrast below minimum usable threshold
+- Pure `#000000` or `#ffffff` detected
+
 ## Types
 
 ```typescript
@@ -256,6 +280,9 @@ import type {
   ColorResult,         // { hex, format(), toString() }
   LinearColorSpaceFn,  // callable function returned by LinearColorSpace.size()
   CubeColorSpaceFn,    // callable function returned by CubeColorSpace.size()
+  ContrastMode,        // 'wcag' | 'apca'
+  ContrastLevelResult, // { name, threshold, pass }
+  ContrastResult,      // { mode, score, pass, levels, warnings, foreground, background }
 } from '@basiclines/rampa-sdk';
 ```
 

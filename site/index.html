@@ -134,6 +134,25 @@ tint({ <span class="code-method">r</span>: <span class="code-number">4</span>, <
 tint({ <span class="code-method">r</span>: <span class="code-number">4</span> }).<span class="code-method">format</span>(<span class="code-string">'hsl'</span>)    <span class="code-comment">// → 'hsl(...)' format chaining</span></code></pre>
       </div>
 
+      <!-- Contrast Lint -->
+      <div>
+        <h2 class="text-xl font-semibold text-white">Contrast lint and color inspection</h2>
+        <p class="mt-3 text-neutral-400">
+          Check contrast compliance between any two colors using APCA or WCAG 2.x. Get pass/fail results per accessibility level plus warnings for near-identical colors, low contrast, and pure black/white. Inspect any color in all supported formats.
+        </p>
+        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-comment"># CLI: contrast lint with APCA (default) or WCAG</span>
+<span class="code-cmd">rampa</span> <span class="code-value">lint</span> <span class="code-flag">--fg</span> <span class="code-string">'#ffffff'</span> <span class="code-flag">--bg</span> <span class="code-string">'#1e1e2e'</span>
+<span class="code-cmd">rampa</span> <span class="code-value">lint</span> <span class="code-flag">--fg</span> <span class="code-string">'#777'</span> <span class="code-flag">--bg</span> <span class="code-string">'#fff'</span> <span class="code-flag">--mode</span> <span class="code-value">wcag</span>
+
+<span class="code-comment"># Inspect a color in all formats</span>
+<span class="code-cmd">rampa</span> <span class="code-value">inspect</span> <span class="code-flag">-c</span> <span class="code-string">'#ff6600'</span></code></pre>
+        <pre class="mt-3 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-comment">// SDK: contrast checking</span>
+<span class="code-keyword">const</span> result = rampa.<span class="code-method">contrast</span>(<span class="code-string">'#fff'</span>, <span class="code-string">'#1e1e2e'</span>)
+result.<span class="code-method">score</span>      <span class="code-comment">// -104.3 (APCA Lc)</span>
+result.<span class="code-method">pass</span>       <span class="code-comment">// true</span>
+result.<span class="code-method">warnings</span>   <span class="code-comment">// lint warnings</span></code></pre>
+      </div>
+
     </div>
   </section>
 

@@ -242,6 +242,44 @@ Plane config:
 | `--format` | Output format: hex, hsl, rgb, oklch | hex |
 | `--output` | Output mode: text, json | text |
 
+### Contrast Lint
+
+Check contrast compliance between two colors using APCA (default) or WCAG 2.x.
+
+```bash
+rampa lint --foreground '#ffffff' --background '#1e1e2e'
+rampa lint --fg '#777' --bg '#fff' --mode wcag
+rampa lint --fg '#fff' --bg '#000' --output json
+```
+
+| Flag | Alias | Description |
+|------|-------|-------------|
+| `--foreground <color>` | `--fg` | Foreground (text) color |
+| `--background <color>` | `--bg` | Background color |
+| `--mode <apca\|wcag>` | | Contrast algorithm (default: apca) |
+| `--output <text\|json\|css>` | `-O` | Output format (default: text) |
+
+**Lint rules (hardcoded):**
+- **contrast-check** — Pass/fail per APCA level (Lc 15–90) or WCAG level (AA/AAA)
+- **near-identical** — Warns if deltaE < 3 between foreground and background
+- **low-contrast** — Warns if contrast is below minimum usable threshold
+- **pure-bw** — Warns if using pure `#000000` or `#ffffff`
+
+### Color Inspect
+
+Inspect a color in all supported formats (hex, hsl, rgb, oklch).
+
+```bash
+rampa inspect -c '#ff6600'
+rampa inspect -c 'rgb(100, 200, 50)' --output json
+rampa inspect -c '#1e1e2e' -O css
+```
+
+| Flag | Alias | Description |
+|------|-------|-------------|
+| `--color <color>` | `-c` | Color to inspect (required) |
+| `--output <text\|json\|css>` | `-O` | Output format (default: text) |
+
 ### Other
 
 | Flag | Alias | Description |
@@ -393,6 +431,35 @@ rampa colorspace --cube k=#000 r=#f00 g=#0f0 b=#00f \
 
 # Config file for repeated queries
 rampa colorspace --config theme.json --tint r:4,b:2 --format hsl
+```
+
+### Contrast Lint
+
+```bash
+# Default APCA contrast check
+rampa lint --fg '#ffffff' --bg '#1e1e2e'
+
+# WCAG mode
+rampa lint --fg '#777' --bg '#ffffff' --mode wcag
+
+# JSON output for CI/automation
+rampa lint --fg '#fff' --bg '#000' --output json
+
+# CSS output
+rampa lint --fg '#fff' --bg '#000' -O css
+```
+
+### Color Inspect
+
+```bash
+# View all formats
+rampa inspect -c '#ff6600'
+
+# JSON output
+rampa inspect -c 'rgb(100, 200, 50)' --output json
+
+# CSS custom properties
+rampa inspect -c '#1e1e2e' -O css
 ```
 
 ## Contextual Help
