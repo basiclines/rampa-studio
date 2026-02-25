@@ -101,6 +101,9 @@ CLI uses manual argument parsing (not a framework for `colorspace` subcommand). 
 
 1. Bump version in `sdk/package.json` and `cli/package.json` (keep in sync)
 2. Commit, tag as `v{version}`, push with `--tags`
-3. CI (`release.yml`) runs tests then publishes both packages to npm
+3. Create a GitHub release with release notes summarizing changes
+4. CI (`release.yml`) runs tests then publishes both packages to npm
+
+**Always include release notes** when creating a GitHub release. Summarize new features, fixes, and breaking changes. Use the PR descriptions and commit messages as source material.
 
 **Always ask the user before committing and pushing.**
