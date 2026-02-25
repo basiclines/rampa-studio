@@ -70,3 +70,122 @@ jobs:
         working-directory: cli
       - run: npm publish --access=public --provenance
         working-directory: cli
+
+  update-homebrew:
+    needs: [publish-cli]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Extract version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for release assets to be available
+        run: sleep 10
+
+      - name: Download release binaries
+        env:
+          GH_TOKEN: ${{ secrets.HOMEBREW_TAP_TOKEN }}
+        run: |
+          VERSION=${{ steps.version.outputs.VERSION }}
+          mkdir -p binaries
+          for bin in rampa-darwin-arm64 rampa-darwin-x64 rampa-linux-x64 rampa-linux-arm64; do
+            gh release download "v${VERSION}" \
+              --repo basiclines/rampa-studio \
+              --pattern "${bin}" \
+              --dir binaries
+          done
+
+      - name: Calculate SHA256 hashes
+        id: hashes
+        run: |
+          cd binaries
+          echo "DARWIN_ARM64=$(sha256sum rampa-darwin-arm64 | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+          echo "DARWIN_X64=$(sha256sum rampa-darwin-x64 | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+          echo "LINUX_X64=$(sha256sum rampa-linux-x64 | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+          echo "LINUX_ARM64=$(sha256sum rampa-linux-arm64 | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout homebrew-tap
+        uses: actions/checkout@v4
+        with:
+          repository: basiclines/homebrew-tap
+          token: ${{ secrets.HOMEBREW_TAP_TOKEN }}
+          path: homebrew-tap
+
+      - name: Update formula
+        run: |
+          VERSION=${{ steps.version.outputs.VERSION }}
+          FORMULA=homebrew-tap/Formula/rampa.rb
+
+          cat > "$FORMULA" << 'FORMULA_EOF'
+          class Rampa < Formula
+            desc "Generate mathematically accurate color palettes from a base color"
+            homepage "https://github.com/basiclines/rampa-studio"
+            version "VERSION_PLACEHOLDER"
+            license "MIT"
+
+            on_macos do
+              on_arm do
+                url "https://github.com/basiclines/rampa-studio/releases/download/vVERSION_PLACEHOLDER/rampa-darwin-arm64"
+                sha256 "DARWIN_ARM64_PLACEHOLDER"
+
+                def install
+                  bin.install "rampa-darwin-arm64" => "rampa"
+                end
+              end
+
+              on_intel do
+                url "https://github.com/basiclines/rampa-studio/releases/download/vVERSION_PLACEHOLDER/rampa-darwin-x64"
+                sha256 "DARWIN_X64_PLACEHOLDER"
+
+                def install
+                  bin.install "rampa-darwin-x64" => "rampa"
+                end
+              end
+            end
+
+            on_linux do
+              on_arm do
+                url "https://github.com/basiclines/rampa-studio/releases/download/vVERSION_PLACEHOLDER/rampa-linux-arm64"
+                sha256 "LINUX_ARM64_PLACEHOLDER"
+
+                def install
+                  bin.install "rampa-linux-arm64" => "rampa"
+                end
+              end
+
+              on_intel do
+                url "https://github.com/basiclines/rampa-studio/releases/download/vVERSION_PLACEHOLDER/rampa-linux-x64"
+                sha256 "LINUX_X64_PLACEHOLDER"
+
+                def install
+                  bin.install "rampa-linux-x64" => "rampa"
+                end
+              end
+            end
+
+            test do
+              assert_match "rampa", shell_output("#{bin}/rampa --version")
+            end
+          end
+          FORMULA_EOF
+
+          # Replace placeholders with actual values
+          sed -i "s/VERSION_PLACEHOLDER/${VERSION}/g" "$FORMULA"
+          sed -i "s/DARWIN_ARM64_PLACEHOLDER/${{ steps.hashes.outputs.DARWIN_ARM64 }}/g" "$FORMULA"
+          sed -i "s/DARWIN_X64_PLACEHOLDER/${{ steps.hashes.outputs.DARWIN_X64 }}/g" "$FORMULA"
+          sed -i "s/LINUX_ARM64_PLACEHOLDER/${{ steps.hashes.outputs.LINUX_ARM64 }}/g" "$FORMULA"
+          sed -i "s/LINUX_X64_PLACEHOLDER/${{ steps.hashes.outputs.LINUX_X64 }}/g" "$FORMULA"
+
+          # Fix indentation (heredoc adds extra spaces)
+          sed -i 's/^          //' "$FORMULA"
+
+      - name: Commit and push formula
+        run: |
+          cd homebrew-tap
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Formula/rampa.rb
+          git commit -m "Update rampa to v${{ steps.version.outputs.VERSION }}"
+          git push origin main
