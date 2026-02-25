@@ -1,6 +1,12 @@
-import { describe, it, expect } from 'bun:test';
+import { describe, it, expect, beforeAll } from 'bun:test';
+import { $ } from 'bun';
+import { join } from 'path';
 import { parseLintArgs } from '../src/lint';
 import { parseInspectArgs } from '../src/inspect';
+
+beforeAll(async () => {
+  await $`bun run build`.cwd(join(import.meta.dir, '..'));
+});
 
 describe('rampa lint', () => {
   describe('parseLintArgs', () => {

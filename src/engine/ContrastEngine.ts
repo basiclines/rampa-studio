@@ -1,8 +1,8 @@
 /**
- * ContrastEngine — WCAG 2.x and APCA contrast calculations.
+ * ContrastEngine — WCAG 2.x contrast calculations and color utilities.
  *
- * WCAG uses relative luminance and a simple ratio formula.
- * APCA uses the apca-w3 library for perceptual contrast (Lc values).
+ * Provides functions for computing WCAG 2.x contrast ratios and
+ * related color utilities shared across the engine.
  */
 
 import chroma from 'chroma-js';
@@ -23,7 +23,8 @@ export const WCAG_LEVELS: WcagLevel[] = [
 ];
 
 /**
- * Compute WCAG 2.x relative luminance from linear RGB (0-255).
+ * Compute WCAG 2.x relative luminance from sRGB (0-255).
+ * Linearizes the sRGB values before applying luminance coefficients.
  * https://www.w3.org/TR/WCAG20/#relativeluminancedef
  */
 export function relativeLuminance(r: number, g: number, b: number): number {

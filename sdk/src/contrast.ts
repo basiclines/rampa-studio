@@ -61,26 +61,26 @@ function collectWarnings(fgHex: string, bgHex: string, mode: ContrastMode, score
   if (bg === '#000000') warnings.push('Pure #000000 detected — consider #111111 for screens');
   if (bg === '#ffffff') warnings.push('Pure #ffffff detected — consider #eeeeee for screens');
 
-  return warnings;
+  return Array.from(new Set(warnings));
 }
 
 // ── Public API ───────────────────────────────────────────────────────
 
 function evaluate(fgHex: string, bgHex: string, mode: ContrastMode): ContrastResult {
-  let score: number;
+  let rawScore: number;
   let levels: ContrastLevelResult[];
 
   if (mode === 'wcag') {
-    score = round2(wcagContrastRatio(fgHex, bgHex));
-    const passing = getWcagPassingLevels(score);
+    rawScore = wcagContrastRatio(fgHex, bgHex);
+    const passing = getWcagPassingLevels(rawScore);
     levels = WCAG_LEVELS.map(l => ({
       name: l.name,
       threshold: l.minRatio,
       pass: passing.some(p => p.id === l.id),
     }));
   } else {
-    score = round2(computeApca(fgHex, bgHex));
-    const absScore = Math.abs(score);
+    rawScore = computeApca(fgHex, bgHex);
+    const absScore = Math.abs(rawScore);
     levels = APCA_LEVELS.map(l => ({
       name: l.name,
       threshold: l.threshold,
@@ -89,7 +89,8 @@ function evaluate(fgHex: string, bgHex: string, mode: ContrastMode): ContrastRes
   }
 
   const pass = levels.some(l => l.pass);
-  const warnings = collectWarnings(fgHex, bgHex, mode, score);
+  const warnings = collectWarnings(fgHex, bgHex, mode, rawScore);
+  const score = round2(rawScore);
 
   return { foreground: fgHex, background: bgHex, mode, score, pass, levels, warnings };
 }
