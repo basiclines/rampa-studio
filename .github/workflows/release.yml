@@ -46,7 +46,7 @@ jobs:
         working-directory: sdk
       - run: bun run build
         working-directory: sdk
-      - run: npm publish --access=public --provenance
+      - run: npm publish --access=public --provenance || true
         working-directory: sdk
 
   publish-cli:
@@ -70,7 +70,7 @@ jobs:
         working-directory: cli
       - run: bun run build:npm
         working-directory: cli
-      - run: npm publish --access=public --provenance
+      - run: npm publish --access=public --provenance || true
         working-directory: cli
 
   update-homebrew:
@@ -188,6 +188,7 @@ jobs:
           cd homebrew-tap
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet Formula/rampa.rb && echo "Formula already up to date" && exit 0
           git add Formula/rampa.rb
           git commit -m "Update rampa to v${{ steps.version.outputs.VERSION }}"
           git push origin main
