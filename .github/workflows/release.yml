@@ -41,7 +41,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - uses: oven-sh/setup-bun@v2
       - run: npm install -g npm@latest
-      - run: bun install
+      - run: bun install --ignore-scripts
       - run: bun install
         working-directory: sdk
       - run: bun run build
@@ -63,7 +63,9 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - uses: oven-sh/setup-bun@v2
       - run: npm install -g npm@latest
+      - run: bun install --ignore-scripts
       - run: bun install
+        working-directory: sdk
       - run: bun install
         working-directory: cli
       - run: bun run build:npm
