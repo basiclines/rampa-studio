@@ -36,6 +36,20 @@ if (args[0] === 'colorspace') {
   process.exit(0);
 }
 
+// Intercept lint subcommand
+if (args[0] === 'lint') {
+  const { runLint } = await import('./lint');
+  runLint(args.slice(1));
+  process.exit(0);
+}
+
+// Intercept inspect subcommand
+if (args[0] === 'inspect') {
+  const { runInspect } = await import('./inspect');
+  runInspect(args.slice(1));
+  process.exit(0);
+}
+
 if (args.includes('--help') || args.includes('-h') || args.includes('help') || args.length === 0) {
   showHelp();
 }
@@ -127,6 +141,15 @@ COLOR SPACES
   ${cyan}rampa colorspace${reset}                ${dim}Query colors from a defined color space${reset}
                                   ${dim}Use rampa colorspace --help for details${reset}
 
+
+CONTRAST LINT
+  ${cyan}rampa lint${reset}                      ${dim}Check contrast compliance between two colors${reset}
+                                   ${dim}Use rampa lint --help for details${reset}
+
+COLOR INSPECT
+  ${cyan}rampa inspect${reset}                   ${dim}Inspect a color in all supported formats${reset}
+                                   ${dim}Use rampa inspect --help for details${reset}
+
 OTHER
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
   ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
@@ -143,6 +166,9 @@ EXAMPLES
   ${cyan}rampa --color "#ff0000" --mix "#0000ff" --steps=10${reset}
   ${cyan}rampa colorspace --cube k=#000 r=#f00 ... --size 6 --tint r:4,b:2${reset}
   ${cyan}rampa colorspace --linear '#fff' '#000' --size 24 --at 12${reset}
+  ${cyan}rampa lint --fg '#fff' --bg '#1e1e2e'${reset}
+  ${cyan}rampa lint --fg '#777' --bg '#fff' --mode wcag${reset}
+  ${cyan}rampa inspect -c '#ff6600'${reset}
 `;
   console.log(help.trim());
   process.exit(0);

@@ -104,6 +104,14 @@ rampa colorspace --linear '#fff' '#000' --size 24 --at 12
 rampa colorspace --cube k=#1e1e2e r=#f38ba8 g=#a6e3a1 b=#89b4fa \
                         y=#f9e2af m=#cba6f7 c=#94e2d5 w=#cdd6f4 \
                  --size 6 --tint r:4,b:2
+
+# Contrast lint: check accessibility compliance
+rampa lint --fg '#ffffff' --bg '#1e1e2e'
+rampa lint --fg '#777' --bg '#fff' --mode wcag --output json
+
+# Color inspect: view a color in all formats
+rampa inspect -c '#ff6600'
+rampa inspect -c '#ff6600' --output css
 ```
 
 ### Full CLI Documentation
@@ -170,6 +178,11 @@ tint({ r: 4 }).hsl()             // Convert to hsl
 // Color inspection
 color('#3b82f6').rgb;              // { r: 59, g: 130, b: 246 }
 color('#3b82f6').luminance;        // 0.546 (OKLCH perceptual lightness)
+
+// Contrast lint
+rampa.contrast('#fff', '#1e1e2e');                  // APCA (default)
+rampa.contrast('#777', '#fff').mode('wcag');         // WCAG 2.x
+// → .score, .pass, .levels, .warnings
 ```
 
 ### CLI ↔ SDK Equivalence
@@ -195,6 +208,9 @@ Every CLI flag maps to an SDK method:
 | `--mix "#0000ff" --steps=5` | `rampa.mix('#ff0000', '#0000ff', t)` |
 | `colorspace --linear '#fff' '#000' --size 24 --at 12` | `new LinearColorSpace('#fff', '#000').size(24)(12).hex` |
 | `colorspace --cube k=#000 ... --tint r:4` | `new CubeColorSpace({...}).size(6)({ r: 4 }).hex` |
+| `lint --fg '#fff' --bg '#000'` | `rampa.contrast('#fff', '#000')` |
+| `lint --fg '#fff' --bg '#000' --mode wcag` | `rampa.contrast('#fff', '#000').mode('wcag')` |
+| `inspect -c '#ff6600'` | `rampa.readOnly('#ff6600').generate()` |
 
 ### Full SDK Documentation
 
