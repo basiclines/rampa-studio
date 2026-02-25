@@ -175,7 +175,11 @@ function formatCss(result: ContrastResult): string {
 
 export function runLint(args: string[]): void {
   const parsed = parseLintArgs(args);
-  const result = contrast(parsed.foreground, parsed.background, parsed.mode);
+  let builder = contrast(parsed.foreground, parsed.background);
+  if (parsed.mode !== 'apca') {
+    builder = builder.mode(parsed.mode);
+  }
+  const result = builder.toJSON();
 
   switch (parsed.output) {
     case 'json':

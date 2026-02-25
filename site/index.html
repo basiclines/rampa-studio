@@ -150,7 +150,9 @@ tint({ <span class="code-method">r</span>: <span class="code-number">4</span> })
 <span class="code-keyword">const</span> result = rampa.<span class="code-method">contrast</span>(<span class="code-string">'#fff'</span>, <span class="code-string">'#1e1e2e'</span>)
 result.<span class="code-method">score</span>      <span class="code-comment">// -104.3 (APCA Lc)</span>
 result.<span class="code-method">pass</span>       <span class="code-comment">// true</span>
-result.<span class="code-method">warnings</span>   <span class="code-comment">// lint warnings</span></code></pre>
+result.<span class="code-method">warnings</span>   <span class="code-comment">// lint warnings</span>
+
+<span class="code-keyword">const</span> wcag = rampa.<span class="code-method">contrast</span>(<span class="code-string">'#777'</span>, <span class="code-string">'#fff'</span>).<span class="code-method">mode</span>(<span class="code-string">'wcag'</span>)</code></pre>
       </div>
 
     </div>

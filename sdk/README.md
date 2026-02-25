@@ -248,14 +248,13 @@ Evaluate contrast between two colors. Returns score, pass/fail levels, and lint 
 ```js
 // APCA (default) — returns Lc value
 const result = rampa.contrast('#ffffff', '#1e1e2e');
-result.mode       // 'apca'
 result.score      // -104.3 (Lc value)
 result.pass       // true (at least one level passes)
 result.levels     // [{ name: 'Preferred body text', threshold: 90, pass: true }, ...]
 result.warnings   // []
 
-// WCAG 2.x — returns contrast ratio
-const wcag = rampa.contrast('#777', '#ffffff', 'wcag');
+// WCAG 2.x — chain .mode('wcag')
+const wcag = rampa.contrast('#777', '#ffffff').mode('wcag');
 wcag.score        // 4.48 (contrast ratio)
 wcag.levels       // [{ name: 'AAA Normal text', threshold: 7, pass: false }, ...]
 ```

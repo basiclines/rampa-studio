@@ -180,9 +180,9 @@ color('#3b82f6').rgb;              // { r: 59, g: 130, b: 246 }
 color('#3b82f6').luminance;        // 0.546 (OKLCH perceptual lightness)
 
 // Contrast lint
-rampa.contrast('#fff', '#1e1e2e');           // APCA (default)
-rampa.contrast('#777', '#fff', 'wcag');      // WCAG 2.x
-// → { mode, score, pass, levels: [{ name, threshold, pass }], warnings }
+rampa.contrast('#fff', '#1e1e2e');                  // APCA (default)
+rampa.contrast('#777', '#fff').mode('wcag');         // WCAG 2.x
+// → .score, .pass, .levels, .warnings
 ```
 
 ### CLI ↔ SDK Equivalence
@@ -209,7 +209,7 @@ Every CLI flag maps to an SDK method:
 | `colorspace --linear '#fff' '#000' --size 24 --at 12` | `new LinearColorSpace('#fff', '#000').size(24)(12).hex` |
 | `colorspace --cube k=#000 ... --tint r:4` | `new CubeColorSpace({...}).size(6)({ r: 4 }).hex` |
 | `lint --fg '#fff' --bg '#000'` | `rampa.contrast('#fff', '#000')` |
-| `lint --fg '#fff' --bg '#000' --mode wcag` | `rampa.contrast('#fff', '#000', 'wcag')` |
+| `lint --fg '#fff' --bg '#000' --mode wcag` | `rampa.contrast('#fff', '#000').mode('wcag')` |
 | `inspect -c '#ff6600'` | `rampa.readOnly('#ff6600').generate()` |
 
 ### Full SDK Documentation

@@ -4,7 +4,7 @@ import { LinearColorSpace } from './linear-color-space';
 import { CubeColorSpace } from './cube-color-space';
 import { PlaneColorSpace } from './plane-color-space';
 import { createColorResult } from './color-result';
-import { contrast } from './contrast';
+import { contrast, ContrastBuilder } from './contrast';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
@@ -88,8 +88,8 @@ rampa.mix = function mix(color1: string, color2: string, t: number): string {
  *
  * @example
  * ```ts
- * const result = rampa.contrast('#ffffff', '#1e1e2e');        // APCA
- * const result = rampa.contrast('#777', '#fff', 'wcag');      // WCAG
+ * const result = rampa.contrast('#ffffff', '#1e1e2e');             // APCA
+ * const result = rampa.contrast('#777', '#fff').mode('wcag');       // WCAG
  * result.score    // -104.3 (APCA Lc) or 4.48 (WCAG ratio)
  * result.pass     // true if at least one level passes
  * result.levels   // [{ name, threshold, pass }, ...]
@@ -115,7 +115,7 @@ export function color(hex: string): ColorResult {
   return createColorResult(hex);
 }
 
-export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace };
+export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder };
 export type {
   ColorFormat,
   ScaleType,
