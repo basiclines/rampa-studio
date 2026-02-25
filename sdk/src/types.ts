@@ -156,3 +156,27 @@ export interface PlaneColorSpaceResult {
   /** Steps per axis */
   size: number;
 }
+
+// ── Contrast / Lint Types ──────────────────────────────────────────────
+
+export type ContrastMode = 'wcag' | 'apca';
+
+export interface ContrastLevelResult {
+  name: string;
+  threshold: number;
+  pass: boolean;
+}
+
+export interface ContrastResult {
+  foreground: string;
+  background: string;
+  mode: ContrastMode;
+  /** WCAG ratio (e.g. 4.5) or APCA Lc value (e.g. -104.3) */
+  score: number;
+  /** Whether at least one level passes */
+  pass: boolean;
+  /** Per-level pass/fail */
+  levels: ContrastLevelResult[];
+  /** Warnings from lint rules */
+  warnings: string[];
+}

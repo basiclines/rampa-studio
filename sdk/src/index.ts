@@ -4,6 +4,7 @@ import { LinearColorSpace } from './linear-color-space';
 import { CubeColorSpace } from './cube-color-space';
 import { PlaneColorSpace } from './plane-color-space';
 import { createColorResult } from './color-result';
+import { contrast } from './contrast';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
@@ -21,6 +22,9 @@ import type {
   CubeColorSpaceResult,
   PlaneColorSpaceResult,
   ColorSpaceOptions,
+  ContrastMode,
+  ContrastLevelResult,
+  ContrastResult,
 } from './types';
 
 /**
@@ -79,6 +83,22 @@ rampa.mix = function mix(color1: string, color2: string, t: number): string {
 };
 
 /**
+ * Evaluate contrast between foreground and background colors.
+ * Supports WCAG 2.x ratio and APCA Lc modes. Default: APCA.
+ *
+ * @example
+ * ```ts
+ * const result = rampa.contrast('#ffffff', '#1e1e2e');        // APCA
+ * const result = rampa.contrast('#777', '#fff', 'wcag');      // WCAG
+ * result.score    // -104.3 (APCA Lc) or 4.48 (WCAG ratio)
+ * result.pass     // true if at least one level passes
+ * result.levels   // [{ name, threshold, pass }, ...]
+ * result.warnings // lint warnings
+ * ```
+ */
+rampa.contrast = contrast;
+
+/**
  * Create a ColorResult from any hex color string.
  * Provides .hex, .rgb, .luminance, .format() for color inspection.
  *
@@ -112,4 +132,7 @@ export type {
   CubeColorSpaceResult,
   PlaneColorSpaceResult,
   ColorSpaceOptions,
+  ContrastMode,
+  ContrastLevelResult,
+  ContrastResult,
 };

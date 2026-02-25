@@ -17,6 +17,7 @@
     "../src/entities/ColorRampEntity.ts",
     "../src/entities/ColorSwatchEntity.ts",
     "../src/entities/BlendModeEntity.ts",
-    "../src/usecases/MixColors.ts"
+    "../src/usecases/MixColors.ts",
+    "../src/engine/ContrastEngine.ts"
   ]
 }
