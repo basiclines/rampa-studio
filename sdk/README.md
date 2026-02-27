@@ -243,26 +243,55 @@ const gradient = Array.from({ length: steps }, (_, i) =>
 
 ### `rampa.contrast(foreground, background, mode?)`
 
-Evaluate contrast between two colors. Returns score, pass/fail levels, and lint warnings. Default mode is `'apca'`.
+Evaluate contrast between two colors. Returns score, pass/fail levels, and lint warnings. Default mode is `'wcag'`.
 
 ```js
-// APCA (default) — returns Lc value
-const result = rampa.contrast('#ffffff', '#1e1e2e');
-result.score      // -104.3 (Lc value)
+// WCAG 2.x (default) — returns contrast ratio
+const result = rampa.contrast('#777', '#ffffff');
+result.score      // 4.48 (contrast ratio)
 result.pass       // true (at least one level passes)
-result.levels     // [{ name: 'Preferred body text', threshold: 90, pass: true }, ...]
+result.levels     // [{ name: 'AAA Normal text', threshold: 7, pass: false }, ...]
 result.warnings   // []
 
-// WCAG 2.x — chain .mode('wcag')
-const wcag = rampa.contrast('#777', '#ffffff').mode('wcag');
-wcag.score        // 4.48 (contrast ratio)
-wcag.levels       // [{ name: 'AAA Normal text', threshold: 7, pass: false }, ...]
+// APCA — chain .mode('apca') (requires: npm install apca-w3)
+const apca = rampa.contrast('#ffffff', '#1e1e2e').mode('apca');
+apca.score        // -104.3 (Lc value)
+apca.levels       // [{ name: 'Preferred body text', threshold: 90, pass: true }, ...]
 ```
+
+> **Note:** APCA mode requires the optional peer dependency `apca-w3`. Install it separately if needed:
+> ```bash
+> npm install apca-w3
+> ```
+> See [`isApcaAvailable()`](#isapcaavailable) and [`registerApca()`](#registerapcamod) below.
 
 **Lint warnings** fire automatically:
 - Near-identical colors (deltaE < 3)
 - Contrast below minimum usable threshold
 - Pure `#000000` or `#ffffff` detected
+
+### `isApcaAvailable()`
+
+Returns `true` when the optional `apca-w3` package is installed and available at runtime.
+
+```js
+import { isApcaAvailable } from '@basiclines/rampa-sdk';
+
+if (isApcaAvailable()) {
+  const result = rampa.contrast('#fff', '#1e1e2e').mode('apca');
+}
+```
+
+### `registerApca(mod)`
+
+Pre-registers the APCA module for use in contrast calculations. Intended for compiled binaries (e.g. the CLI) where dynamic `require()` cannot resolve the module at runtime.
+
+```js
+import { registerApca } from '@basiclines/rampa-sdk';
+import { APCAcontrast, sRGBtoY } from 'apca-w3';
+
+registerApca({ APCAcontrast, sRGBtoY });
+```
 
 ## Types
 
