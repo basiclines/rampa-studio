@@ -4,7 +4,7 @@ import { LinearColorSpace } from './linear-color-space';
 import { CubeColorSpace } from './cube-color-space';
 import { PlaneColorSpace } from './plane-color-space';
 import { createColorResult } from './color-result';
-import { contrast, ContrastBuilder } from './contrast';
+import { contrast, ContrastBuilder, isApcaAvailable, registerApca } from './contrast';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
@@ -84,13 +84,14 @@ rampa.mix = function mix(color1: string, color2: string, t: number): string {
 
 /**
  * Evaluate contrast between foreground and background colors.
- * Supports WCAG 2.x ratio and APCA Lc modes. Default: APCA.
+ * Supports WCAG 2.x ratio (default) and APCA Lc modes.
+ * APCA mode requires the optional `apca-w3` package to be installed separately.
  *
  * @example
  * ```ts
- * const result = rampa.contrast('#ffffff', '#1e1e2e');             // APCA
- * const result = rampa.contrast('#777', '#fff').mode('wcag');       // WCAG
- * result.score    // -104.3 (APCA Lc) or 4.48 (WCAG ratio)
+ * const result = rampa.contrast('#777', '#fff');                 // WCAG (default)
+ * const result = rampa.contrast('#ffffff', '#1e1e2e').mode('apca'); // APCA
+ * result.score    // 4.48 (WCAG ratio) or -104.3 (APCA Lc)
  * result.pass     // true if at least one level passes
  * result.levels   // [{ name, threshold, pass }, ...]
  * result.warnings // lint warnings
@@ -115,7 +116,7 @@ export function color(hex: string): ColorResult {
   return createColorResult(hex);
 }
 
-export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder };
+export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder, isApcaAvailable, registerApca };
 export type {
   ColorFormat,
   ScaleType,

@@ -6,7 +6,6 @@
  */
 
 import chroma from 'chroma-js';
-import { APCAcontrast, sRGBtoY } from 'apca-w3';
 import {
   wcagContrastRatio,
   getWcagPassingLevels,
@@ -15,6 +14,47 @@ import {
   round2,
 } from '../../src/engine/ContrastEngine';
 import type { ContrastMode, ContrastResult, ContrastLevelResult } from './types';
+
+// ── Optional APCA loading ────────────────────────────────────────────
+// apca-w3 is an optional peer dependency. It is loaded lazily on first
+// use of APCA mode and cached for subsequent calls. Consumers that
+// bundle apca-w3 statically (e.g. the CLI) can call registerApca()
+// to pre-register the module before any contrast evaluation.
+
+type ApcaModule = {
+  APCAcontrast: (txY: number, bgY: number) => number;
+  sRGBtoY: (rgb: [number, number, number]) => number;
+};
+
+let _apcaModule: ApcaModule | null | undefined;
+
+function getApcaModule(): ApcaModule | null {
+  if (_apcaModule === undefined) {
+    try {
+      // Dynamic require — kept as a variable reference so the bundler
+      // does not attempt to resolve the module at build time.
+      const id = 'apca-w3';
+      _apcaModule = require(id) as ApcaModule;
+    } catch {
+      _apcaModule = null;
+    }
+  }
+  return _apcaModule;
+}
+
+/**
+ * Pre-register the APCA module for use in contrast calculations.
+ * Call this when `apca-w3` is statically bundled (e.g. in a compiled CLI)
+ * and dynamic `require()` would not resolve it at runtime.
+ */
+export function registerApca(mod: ApcaModule): void {
+  _apcaModule = mod;
+}
+
+/** Returns true when the optional `apca-w3` package is installed. */
+export function isApcaAvailable(): boolean {
+  return getApcaModule() !== null;
+}
 
 // ── APCA levels (mirrored from CLI for standalone SDK use) ───────────
 
@@ -30,9 +70,17 @@ const APCA_LEVELS = [
 // ── Core computation ─────────────────────────────────────────────────
 
 function computeApca(fgHex: string, bgHex: string): number {
+  const apca = getApcaModule();
+  if (!apca) {
+    throw new Error(
+      'APCA contrast requires the "apca-w3" package. Install it with:\n' +
+      '  npm install apca-w3\n' +
+      'Note: apca-w3 has its own licensing terms. Review them before use.'
+    );
+  }
   const [fgR, fgG, fgB] = chroma(fgHex).rgb();
   const [bgR, bgG, bgB] = chroma(bgHex).rgb();
-  return APCAcontrast(sRGBtoY([fgR, fgG, fgB]), sRGBtoY([bgR, bgG, bgB])) as number;
+  return apca.APCAcontrast(apca.sRGBtoY([fgR, fgG, fgB]), apca.sRGBtoY([bgR, bgG, bgB])) as number;
 }
 
 // ── Lint warnings ────────────────────────────────────────────────────
@@ -96,14 +144,14 @@ function evaluate(fgHex: string, bgHex: string, mode: ContrastMode): ContrastRes
 }
 
 /**
- * A chainable contrast builder. Call `.mode('wcag')` to switch algorithm,
- * then read properties directly — evaluation is lazy.
+ * A chainable contrast builder. Call `.mode('apca')` to switch algorithm
+ * (requires the optional `apca-w3` package). Default: WCAG.
  *
  * @example
  * ```ts
- * const r = contrast('#fff', '#1e1e2e');              // APCA default
- * const r = contrast('#777', '#fff').mode('wcag');     // WCAG 2.x
- * r.score      // -104.3 or 4.48
+ * const r = contrast('#777', '#fff');                 // WCAG default
+ * const r = contrast('#fff', '#1e1e2e').mode('apca'); // APCA (needs apca-w3)
+ * r.score      // 4.48 or -104.3
  * r.pass       // true/false
  * r.levels     // [{ name, threshold, pass }]
  * r.warnings   // lint warnings
@@ -112,7 +160,7 @@ function evaluate(fgHex: string, bgHex: string, mode: ContrastMode): ContrastRes
 export class ContrastBuilder {
   private _fg: string;
   private _bg: string;
-  private _mode: ContrastMode = 'apca';
+  private _mode: ContrastMode = 'wcag';
   private _result: ContrastResult | null = null;
 
   constructor(foreground: string, background: string) {
@@ -151,12 +199,13 @@ export class ContrastBuilder {
 
 /**
  * Evaluate contrast between foreground and background colors.
- * Returns a chainable builder — call `.mode('wcag')` to switch algorithm.
+ * Returns a chainable builder — call `.mode('apca')` to use APCA
+ * (requires the optional `apca-w3` package). Default: WCAG.
  *
  * @example
  * ```ts
- * const result = contrast('#ffffff', '#1e1e2e');             // APCA
- * const result = contrast('#777', '#fff').mode('wcag');       // WCAG
+ * const result = contrast('#777', '#fff');                 // WCAG (default)
+ * const result = contrast('#ffffff', '#1e1e2e').mode('apca'); // APCA
  * ```
  */
 export function contrast(foreground: string, background: string): ContrastBuilder {
