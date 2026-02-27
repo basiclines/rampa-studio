@@ -9,8 +9,13 @@
  */
 
 import chroma from 'chroma-js';
-import { contrast } from '../../sdk/src/contrast';
+import { APCAcontrast, sRGBtoY } from 'apca-w3';
+import { contrast, registerApca } from '../../sdk/src/contrast';
 import type { ContrastMode, ContrastResult } from '../../sdk/src/types';
+
+// Pre-register APCA so the compiled CLI binary can use it
+// (dynamic require() does not work inside a bun-compiled binary).
+registerApca({ APCAcontrast, sRGBtoY });
 
 // ── ANSI helpers ─────────────────────────────────────────────────────
 
@@ -175,10 +180,7 @@ function formatCss(result: ContrastResult): string {
 
 export function runLint(args: string[]): void {
   const parsed = parseLintArgs(args);
-  let builder = contrast(parsed.foreground, parsed.background);
-  if (parsed.mode !== 'apca') {
-    builder = builder.mode(parsed.mode);
-  }
+  const builder = contrast(parsed.foreground, parsed.background).mode(parsed.mode);
   const result = builder.toJSON();
 
   switch (parsed.output) {

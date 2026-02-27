@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "bun build ./src/index.ts --outfile=./dist/index.js --target=node && tsc -p tsconfig.declarations.json && cp dist/sdk/src/*.d.ts dist/ && cp -r dist/sdk/src/formatters dist/formatters 2>/dev/null; rm -rf dist/sdk dist/src",
+    "build": "bun build ./src/index.ts --outfile=./dist/index.js --target=node --external apca-w3 && tsc -p tsconfig.declarations.json && cp dist/sdk/src/*.d.ts dist/ && cp -r dist/sdk/src/formatters dist/formatters 2>/dev/null; rm -rf dist/sdk dist/src",
     "test": "bun test"
   },
   "repository": {
@@ -31,9 +31,16 @@
     "provenance": true
   },
   "dependencies": {
-    "apca-w3": "^0.1.9",
     "chroma-js": "^3.1.2",
     "culori": "^4.0.1"
+  },
+  "peerDependencies": {
+    "apca-w3": "^0.1.9"
+  },
+  "peerDependenciesMeta": {
+    "apca-w3": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@types/bun": "^1.2.17",
