@@ -180,8 +180,8 @@ color('#3b82f6').rgb;              // { r: 59, g: 130, b: 246 }
 color('#3b82f6').luminance;        // 0.546 (OKLCH perceptual lightness)
 
 // Contrast lint
-rampa.contrast('#fff', '#1e1e2e');                  // APCA (default)
-rampa.contrast('#777', '#fff').mode('wcag');         // WCAG 2.x
+rampa.contrast('#fff', '#1e1e2e');                  // WCAG (default)
+rampa.contrast('#fff', '#1e1e2e').mode('apca');     // APCA (requires apca-w3)
 // → .score, .pass, .levels, .warnings
 ```
 
