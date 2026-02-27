@@ -1,6 +1,6 @@
 {
   "name": "@basiclines/rampa",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "Generate mathematically accurate color palettes from a base color",
   "type": "module",
   "bin": {
@@ -38,7 +38,7 @@
     "accessibility"
   ],
   "author": "ismael.fyi",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "MIT",
   "publishConfig": {
     "access": "public",
     "provenance": true

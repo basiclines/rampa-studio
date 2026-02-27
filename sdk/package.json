@@ -1,6 +1,6 @@
 {
   "name": "@basiclines/rampa-sdk",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "Programmatic JavaScript SDK for generating color palettes with rampa",
   "type": "module",
   "main": "./dist/index.js",
@@ -25,7 +25,7 @@
     "accessibility"
   ],
   "author": "ismael.fyi",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "MIT",
   "publishConfig": {
     "access": "public",
     "provenance": true
