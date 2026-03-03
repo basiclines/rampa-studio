@@ -1,19 +1,12 @@
-import { 
-  useMode,
-  modeOklch,
-  modeRgb,
-  formatHex, 
-  formatRgb,
-  parse,
-  inGamut,
-  toGamut,
-  type Oklch,
-  type Rgb
-} from 'culori/fn';
-
-// Create converters
-const oklch = useMode(modeOklch);
-const rgb = useMode(modeRgb);
+import {
+  hexToOklch,
+  oklchToHex,
+  isInSrgbGamut as mathIsInSrgbGamut,
+  gamutClampOklch,
+  parseColorToRgb,
+  rgbToOklch,
+  rgbToHex,
+} from './OklchMathEngine';
 
 /**
  * OKLCH color representation
@@ -89,22 +82,20 @@ export function roundOklchPrecise(oklchColor: OklchColor): OklchColor {
  */
 export function convertToOklch(color: string): OklchColor {
   try {
-    const parsed = parse(color);
-    if (!parsed) {
-      throw new Error(`Invalid color: ${color}`);
-    }
-    
-    const oklchColor = oklch(parsed);
-    if (!oklchColor) {
-      throw new Error(`Failed to convert to OKLCH: ${color}`);
+    // Try hex first (most common)
+    if (color.startsWith('#')) {
+      const [l, c, h] = hexToOklch(color);
+      return { l, c, h };
     }
 
-    return {
-      l: oklchColor.l || 0,
-      c: oklchColor.c || 0,
-      h: oklchColor.h || 0,
-      alpha: oklchColor.alpha
-    };
+    // Parse other formats to RGB first
+    const rgb = parseColorToRgb(color);
+    if (!rgb) {
+      throw new Error(`Invalid color: ${color}`);
+    }
+
+    const [l, c, h] = rgbToOklch(rgb[0], rgb[1], rgb[2]);
+    return { l, c, h };
   } catch (error) {
     console.error('Error converting to OKLCH:', error);
     // Return a safe fallback (middle gray)
@@ -117,21 +108,7 @@ export function convertToOklch(color: string): OklchColor {
  */
 export function convertFromOklch(oklchColor: OklchColor): string {
   try {
-    const culoriOklch: Oklch = {
-      mode: 'oklch',
-      l: oklchColor.l,
-      c: oklchColor.c,
-      h: oklchColor.h,
-      alpha: oklchColor.alpha
-    };
-
-    // Convert to RGB and then to hex for maximum compatibility
-    const rgbColor = rgb(culoriOklch);
-    if (!rgbColor) {
-      throw new Error('Failed to convert OKLCH to RGB');
-    }
-
-    return formatHex(rgbColor);
+    return oklchToHex(oklchColor.l, oklchColor.c, oklchColor.h);
   } catch (error) {
     console.error('Error converting from OKLCH:', error);
     // Return a safe fallback color
@@ -172,15 +149,7 @@ export function isValidOklch(oklchColor: OklchColor): boolean {
  */
 export function isInSrgbGamut(oklchColor: OklchColor): boolean {
   try {
-    const culoriOklch: Oklch = {
-      mode: 'oklch',
-      l: oklchColor.l,
-      c: oklchColor.c,
-      h: oklchColor.h,
-      alpha: oklchColor.alpha
-    };
-
-    return inGamut('rgb')(culoriOklch);
+    return mathIsInSrgbGamut(oklchColor.l, oklchColor.c, oklchColor.h);
   } catch (error) {
     console.error('Error checking sRGB gamut:', error);
     return false;
@@ -192,25 +161,8 @@ export function isInSrgbGamut(oklchColor: OklchColor): boolean {
  */
 export function clampOklchToSrgb(oklchColor: OklchColor): OklchColor {
   try {
-    const culoriOklch: Oklch = {
-      mode: 'oklch',
-      l: oklchColor.l,
-      c: oklchColor.c,
-      h: oklchColor.h,
-      alpha: oklchColor.alpha
-    };
-
-    const clamped = toGamut('rgb', 'oklch')(culoriOklch);
-    if (!clamped) {
-      throw new Error('Failed to clamp to sRGB gamut');
-    }
-
-    return {
-      l: clamped.l || 0,
-      c: clamped.c || 0,
-      h: clamped.h || 0,
-      alpha: clamped.alpha
-    };
+    const [l, c, h] = gamutClampOklch(oklchColor.l, oklchColor.c, oklchColor.h);
+    return { l, c, h, alpha: oklchColor.alpha };
   } catch (error) {
     console.error('Error clamping to sRGB:', error);
     return oklchColor; // Return original if clamping fails
@@ -322,17 +274,16 @@ export function constrainOklchValues(oklchColor: OklchColor, preserveLC: boolean
  */
 export function parseOklchString(oklchString: string): OklchColor | null {
   try {
-    const parsed = parse(oklchString);
-    if (!parsed || parsed.mode !== 'oklch') {
-      return null;
-    }
-    
-    const oklchParsed = parsed as Oklch;
+    const match = oklchString.trim().toLowerCase().match(
+      /^oklch\(\s*(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)(?:\s*\/\s*(\d+(?:\.\d+)?))?\s*\)$/
+    );
+    if (!match) return null;
+
     return {
-      l: oklchParsed.l || 0,
-      c: oklchParsed.c || 0,
-      h: oklchParsed.h || 0,
-      alpha: oklchParsed.alpha
+      l: parseFloat(match[1]),
+      c: parseFloat(match[2]),
+      h: parseFloat(match[3]),
+      alpha: match[4] !== undefined ? parseFloat(match[4]) : undefined,
     };
   } catch (error) {
     console.error('Error parsing OKLCH string:', error);
