@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@adrianmg/typetype@0.1.0/dist/style.css">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { background: #0a0a0a; color: #e5e5e5; font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -39,43 +40,9 @@
     </div>
   </section>
 
-  <!-- Terminal Mockup -->
+  <!-- Terminal Mockup — TypeType animated -->
   <section style="display: flex; justify-content: center; padding: 0 80px 40px;">
-    <div style="display: flex; flex-direction: column; width: 720px; background: #111; border: 1px solid #262626; border-radius: 16px; overflow: hidden;">
-      <div style="display: flex; align-items: center; padding: 14px 20px; gap: 8px; border-bottom: 1px solid #1a1a1a;">
-        <div style="width: 12px; height: 12px; border-radius: 999px; background: #ef4444;"></div>
-        <div style="width: 12px; height: 12px; border-radius: 999px; background: #eab308;"></div>
-        <div style="width: 12px; height: 12px; border-radius: 999px; background: #22c55e;"></div>
-        <span class="mono" style="font-size: 12px; color: #525252; margin-left: 12px;">Terminal — rampa</span>
-      </div>
-      <div style="display: flex; flex-direction: column; padding: 20px 24px; gap: 16px;">
-        <pre style="font-size: 14px; color: #e5e5e5; margin: 0;"><span style="color: #22c55e;">❯</span> rampa -C "#3b82f6" -L 95:10 --size=10 -O css</pre>
-        <div style="display: flex; gap: 4px;">
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #eff5ff;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #c6dbfc;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #9dc1f9;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #74a7f6;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #4b8df3;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #3b82f6;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #2e65c4;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #214992;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #142d60;"></div>
-          <div style="width: 48px; height: 40px; border-radius: 6px; background: #07112e;"></div>
-        </div>
-        <pre style="font-size: 13px; color: #737373; line-height: 1.6; margin: 0;">:root {
-  --color-50:  #eff5ff;
-  --color-100: #c6dbfc;
-  --color-200: #9dc1f9;
-  --color-300: #74a7f6;
-  --color-400: #4b8df3;
-  --color-500: #3b82f6;
-  --color-600: #2e65c4;
-  --color-700: #214992;
-  --color-800: #142d60;
-  --color-900: #07112e;
-}</pre>
-      </div>
-    </div>
+    <div id="demo-hero" style="width: 720px;"></div>
   </section>
 
   <!-- Social Proof Strip -->
@@ -121,8 +88,7 @@
       </div>
       <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Range-based control</h3>
       <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Configure lightness, saturation, and hue shift as start:end ranges. Choose from 11 distribution scales — linear, fibonacci, golden-ratio, ease curves.</p>
-      <pre style="background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #d4d4d4; margin-top: 8px;">rampa -C "#3b82f6" -L 95:10 \
-  --lightness-scale=fibonacci -O css</pre>
+      <div id="demo-ranges" style="margin-top: 8px;"></div>
     </div>
     <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
       <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(168,85,247,0.05)); display: flex; align-items: center; justify-content: center;">
@@ -130,8 +96,7 @@
       </div>
       <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Color harmonies</h3>
       <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Generate complementary, triadic, analogous, split-complementary, square, and compound ramps. Custom hue shifts with shift:N.</p>
-      <pre style="background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #d4d4d4; margin-top: 8px;">rampa -C "#3b82f6" \
-  --add=complementary --add=analogous</pre>
+      <div id="demo-harmonies" style="margin-top: 8px;"></div>
     </div>
   </section>
 
@@ -169,13 +134,8 @@
       <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Color conversion &amp; structured output</h3>
       <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Read any color format. Convert to hex, rgb, hsl, or oklch. JSON returns structured values — no CSS strings to parse. CSS output generates ready-to-use custom properties.</p>
       <div style="display: flex; gap: 12px; margin-top: 4px;">
-        <pre style="flex: 1; background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #d4d4d4; margin: 0;">rampa -C "#3b82f6" --read-only \
-  -O json -F hsl</pre>
-        <pre style="flex: 1; background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #737373; margin: 0;">{ "color": {
-    "value": "hsl(217, 91%, 60%)",
-    "hsl": { "h": 217, "s": 91, "l": 60 }
-  }
-}</pre>
+        <div id="demo-convert" style="flex: 1;"></div>
+        <div id="demo-convert-output" style="flex: 1;"></div>
       </div>
     </div>
     <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
@@ -184,79 +144,33 @@
       </div>
       <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Contrast lint</h3>
       <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">APCA or WCAG 2.x between any two colors. Pass/fail per level. Warnings for near-identical colors and pure black/white.</p>
-      <pre style="background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #d4d4d4; margin-top: 4px;">rampa lint \
-  --fg '#fff' \
-  --bg '#1e1e2e'</pre>
+      <div id="demo-lint" style="margin-top: 4px;"></div>
     </div>
   </section>
 
-  <!-- SDK Section -->
+  <!-- CLI Examples Section -->
   <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
-    <span style="font-size: 13px; font-weight: 600; color: #a855f7; letter-spacing: 0.08em; text-transform: uppercase;">SDK</span>
-    <h2 style="font-size: 40px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Same engine,<br>programmatic API</h2>
-    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 520px; line-height: 1.6;">Every CLI flag maps to a chainable method. Use rampa in your apps, build tools, and design systems.</p>
+    <span style="font-size: 13px; font-weight: 600; color: #a855f7; letter-spacing: 0.08em; text-transform: uppercase;">CLI Examples</span>
+    <h2 style="font-size: 40px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">See it in action</h2>
+    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 520px; line-height: 1.6;">Real CLI commands with real output. Every flag maps to a chainable SDK method too.</p>
     <button
-      onclick="copyToClipboard('npm install @basiclines/rampa-sdk', this)"
+      onclick="copyToClipboard('npm install -g @basiclines/rampa', this)"
       style="display: flex; align-items: center; gap: 10px; background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.2); border-radius: 10px; padding: 10px 20px; margin-top: 16px; cursor: pointer;"
     >
-      <code style="font-size: 14px; color: #c084fc;">npm install @basiclines/rampa-sdk</code>
+      <code style="font-size: 14px; color: #c084fc;">npm install -g @basiclines/rampa</code>
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
     </button>
   </section>
 
-  <!-- CLI vs SDK Grid -->
+  <!-- CLI Demo Grid -->
   <section style="display: flex; flex-direction: column; gap: 16px; max-width: 1100px; margin: 0 auto; padding: 32px 80px;">
     <div style="display: flex; gap: 16px;">
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">CLI — basic palette</span>
-        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa -C "#3b82f6" --size=5</pre>
-      </div>
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">SDK</span>
-        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa('#3b82f6').size(5).generate()</pre>
-      </div>
+      <div style="flex: 1;" id="demo-palette"></div>
+      <div style="flex: 1;" id="demo-harmony"></div>
     </div>
     <div style="display: flex; gap: 16px;">
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">CLI — ranges</span>
-        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa -C "#3b82f6" -L 10:90 \
-  -S 80:20 --lightness-scale=fibonacci</pre>
-      </div>
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">SDK</span>
-        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa('#3b82f6')
-  .lightness(10, 90)
-  .saturation(80, 20)
-  .lightnessScale('fibonacci')
-  .generate()</pre>
-      </div>
-    </div>
-    <div style="display: flex; gap: 16px;">
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">CLI — contrast</span>
-        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa lint --fg '#fff' --bg '#1e1e2e'</pre>
-      </div>
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">SDK</span>
-        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa.contrast('#fff', '#1e1e2e')
-  .score   // -104.3 (APCA Lc)
-  .pass    // true</pre>
-      </div>
-    </div>
-    <div style="display: flex; gap: 16px;">
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">CLI — color space</span>
-        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa colorspace \
-  --cube k=#1e1e2e r=#f38ba8 ... \
-  --size 6 --tint r:4,b:2</pre>
-      </div>
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">SDK</span>
-        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">const t = new CubeColorSpace({
-  k: '#1e1e2e', r: '#f38ba8', ...
-}).size(6)
-t({ r: 4, b: 2 }).hex</pre>
-      </div>
+      <div style="flex: 1;" id="demo-contrast"></div>
+      <div style="flex: 1;" id="demo-colorspace"></div>
     </div>
   </section>
 
@@ -345,6 +259,157 @@ t({ r: 4, b: 2 }).hex</pre>
         }
       });
     }
+  </script>
+
+  <script type="module">
+    import { typetype } from 'https://unpkg.com/@adrianmg/typetype@0.1.0/dist/index.js';
+
+    // ═══════════════════════════════════════
+    // Hero terminal — generate a palette
+    // ═══════════════════════════════════════
+    const hero = typetype('#demo-hero', { theme: 'dark', terminal: 'rampa' });
+    await hero.line('rampa -C "#3b82f6" -L 95:10 --size=10 -O css', { prefix: '$ ' });
+    await hero.wait(600);
+    await hero.line('', { instant: true });
+    await hero.line(':root {', { instant: true, muted: true });
+    await hero.line('  /* base */', { instant: true, muted: true });
+    await hero.line('  --base-0: #e7f3fe;', { instant: true, muted: true });
+    await hero.line('  --base-1: #bcdbf8;', { instant: true, muted: true });
+    await hero.line('  --base-2: #97c0ed;', { instant: true, muted: true });
+    await hero.line('  --base-3: #76a3de;', { instant: true, muted: true });
+    await hero.line('  --base-4: #5b87c9;', { instant: true, muted: true });
+    await hero.line('  --base-5: #486cab;', { instant: true, muted: true });
+    await hero.line('  --base-6: #44577f;', { instant: true, muted: true });
+    await hero.line('  --base-7: #3b4359;', { instant: true, muted: true });
+    await hero.line('  --base-8: #2d2f37;', { instant: true, muted: true });
+    await hero.line('  --base-9: #191919;', { instant: true, muted: true });
+    await hero.line('}', { instant: true, muted: true });
+    hero.cursor();
+
+    // ═══════════════════════════════════════
+    // Bento card — Range-based control
+    // ═══════════════════════════════════════
+    const ranges = typetype('#demo-ranges', { theme: 'dark', terminal: false });
+    await ranges.line('rampa -C "#3b82f6" -L 95:10 \\', { prefix: '$ ', speed: 'fast' });
+    await ranges.line('  --lightness-scale=fibonacci -O css', { speed: 'fast' });
+    ranges.cursor();
+
+    // ═══════════════════════════════════════
+    // Bento card — Color harmonies
+    // ═══════════════════════════════════════
+    const harmonies = typetype('#demo-harmonies', { theme: 'dark', terminal: false });
+    await harmonies.line('rampa -C "#3b82f6" \\', { prefix: '$ ', speed: 'fast' });
+    await harmonies.line('  --add=complementary --add=analogous', { speed: 'fast' });
+    harmonies.cursor();
+
+    // ═══════════════════════════════════════
+    // Bento card — Color conversion (command)
+    // ═══════════════════════════════════════
+    const convert = typetype('#demo-convert', { theme: 'dark', terminal: false });
+    await convert.line('rampa -C "#3b82f6" --read-only \\', { prefix: '$ ', speed: 'fast' });
+    await convert.line('  -O json -F hsl', { speed: 'fast' });
+    convert.cursor();
+
+    // Bento card — Color conversion (output)
+    const convertOut = typetype('#demo-convert-output', { theme: 'dark', terminal: false });
+    await convertOut.line('{ "color": {', { instant: true, muted: true });
+    await convertOut.line('    "value": "hsl(217, 91%, 60%)",', { instant: true, muted: true });
+    await convertOut.line('    "hsl": { "h": 217, "s": 91, "l": 60 }', { instant: true, muted: true });
+    await convertOut.line('  }', { instant: true, muted: true });
+    await convertOut.line('}', { instant: true, muted: true });
+
+    // ═══════════════════════════════════════
+    // Bento card — Contrast lint
+    // ═══════════════════════════════════════
+    const lint = typetype('#demo-lint', { theme: 'dark', terminal: false });
+    await lint.line("rampa lint --fg '#fff' --bg '#1e1e2e'", { prefix: '$ ', speed: 'fast' });
+    await lint.wait(400);
+    await lint.line('', { instant: true });
+    await lint.line('Contrast Lint (APCA)', { instant: true });
+    await lint.line('  APCA Lc: -105.82', { instant: true });
+    await lint.line([{ text: '  ● Pass', className: 'text-green' }, { text: '  Body text (Lc >= 75)' }], { instant: true });
+    lint.cursor();
+
+    // ═══════════════════════════════════════
+    // CLI Examples — Basic palette
+    // ═══════════════════════════════════════
+    const palette = typetype('#demo-palette', { theme: 'dark', terminal: 'Basic palette' });
+    await palette.line('rampa -C "#3b82f6" --size=5 -O css', { prefix: '$ ' });
+    await palette.wait(500);
+    await palette.line('Resolving...', { instant: true, spinner: true, muted: true });
+    await palette.wait(800);
+    await palette.delete(1);
+    await palette.line(':root {', { instant: true, muted: true });
+    await palette.line('  --base-0: #000000;', { instant: true, muted: true });
+    await palette.line('  --base-1: #143d6b;', { instant: true, muted: true });
+    await palette.line('  --base-2: #4572ba;', { instant: true, muted: true });
+    await palette.line('  --base-3: #b1b9ce;', { instant: true, muted: true });
+    await palette.line('  --base-4: #ffffff;', { instant: true, muted: true });
+    await palette.line('}', { instant: true, muted: true });
+    palette.cursor();
+
+    // ═══════════════════════════════════════
+    // CLI Examples — Harmonies
+    // ═══════════════════════════════════════
+    const harmony = typetype('#demo-harmony', { theme: 'dark', terminal: 'Harmonies' });
+    await harmony.line('rampa -C "#3b82f6" --add=complementary \\', { prefix: '$ ' });
+    await harmony.line('  --size=5 -O css', { speed: 'fast' });
+    await harmony.wait(500);
+    await harmony.line('Resolving...', { instant: true, spinner: true, muted: true });
+    await harmony.wait(800);
+    await harmony.delete(1);
+    await harmony.line(':root {', { instant: true, muted: true });
+    await harmony.line('  /* base */', { instant: true, muted: true });
+    await harmony.line('  --base-0: #000000;', { instant: true, muted: true });
+    await harmony.line('  --base-4: #ffffff;', { instant: true, muted: true });
+    await harmony.line('', { instant: true });
+    await harmony.line('  /* complementary */', { instant: true, muted: true });
+    await harmony.line('  --complementary-0: #000000;', { instant: true, muted: true });
+    await harmony.line('  --complementary-4: #ffffff;', { instant: true, muted: true });
+    await harmony.line('}', { instant: true, muted: true });
+    harmony.cursor();
+
+    // ═══════════════════════════════════════
+    // CLI Examples — Contrast lint
+    // ═══════════════════════════════════════
+    const contrast = typetype('#demo-contrast', { theme: 'dark', terminal: 'Contrast lint' });
+    await contrast.line("rampa lint --fg '#fff' --bg '#1e1e2e'", { prefix: '$ ' });
+    await contrast.wait(400);
+    await contrast.line('', { instant: true });
+    await contrast.line('Contrast Lint (APCA)', { instant: true });
+    await contrast.line('', { instant: true });
+    await contrast.line('  Foreground:  #ffffff', { instant: true });
+    await contrast.line('  Background:  #1e1e2e', { instant: true });
+    await contrast.line('  APCA Lc:     -105.82', { instant: true });
+    await contrast.line('', { instant: true });
+    await contrast.line([{ text: '  ● Pass', className: 'text-green' }, { text: '  Preferred body text  (Lc >= 90)' }], { instant: true });
+    await contrast.line([{ text: '  ● Pass', className: 'text-green' }, { text: '  Body text  (Lc >= 75)' }], { instant: true });
+    await contrast.line([{ text: '  ● Pass', className: 'text-green' }, { text: '  Large text  (Lc >= 60)' }], { instant: true });
+    await contrast.line([{ text: '  ● Pass', className: 'text-green' }, { text: '  Non-text  (Lc >= 15)' }], { instant: true });
+    await contrast.line('', { instant: true });
+    await contrast.line([{ text: '  ▲ Warning', className: 'text-yellow' }, { text: '  Pure #ffffff — consider #eeeeee', muted: true }], { instant: true });
+    contrast.cursor();
+
+    // ═══════════════════════════════════════
+    // CLI Examples — Color space
+    // ═══════════════════════════════════════
+    const cs = typetype('#demo-colorspace', { theme: 'dark', terminal: 'Color space' });
+    await cs.line('rampa colorspace \\', { prefix: '$ ' });
+    await cs.line('  --linear from=#1e1e2e to=#f38ba8 \\', { speed: 'fast' });
+    await cs.line('  --size 6 -O css', { speed: 'fast' });
+    await cs.wait(500);
+    await cs.line('Resolving...', { instant: true, spinner: true, muted: true });
+    await cs.wait(600);
+    await cs.delete(1);
+    await cs.line(':root {', { instant: true, muted: true });
+    await cs.line('  --space-0: #1e1e2e;', { instant: true, muted: true });
+    await cs.line('  --space-1: #3e2d3f;', { instant: true, muted: true });
+    await cs.line('  --space-2: #613e52;', { instant: true, muted: true });
+    await cs.line('  --space-3: #865167;', { instant: true, muted: true });
+    await cs.line('  --space-4: #ac677e;', { instant: true, muted: true });
+    await cs.line('  --space-5: #f38ba8;', { instant: true, muted: true });
+    await cs.line('}', { instant: true, muted: true });
+    cs.cursor();
   </script>
 
 </body>
