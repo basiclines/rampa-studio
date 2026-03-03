@@ -1,25 +1,19 @@
 import { describe, it, expect } from 'bun:test';
-import { contrast, isApcaAvailable } from '../src/contrast';
+import { contrast } from '../src/contrast';
 
 describe('SDK contrast()', () => {
-  describe('WCAG mode (default)', () => {
-    it('should return contrast ratio for black on white', () => {
-      const result = contrast('#000000', '#ffffff');
-      expect(result.score).toBeCloseTo(21, 0);
+  describe('APCA mode (default)', () => {
+    it('should return high contrast for white on dark background', () => {
+      const result = contrast('#ffffff', '#1e1e2e');
+      expect(Math.abs(result.score)).toBeGreaterThan(90);
       expect(result.pass).toBe(true);
+      expect(result.levels.length).toBe(6);
     });
 
-    it('should pass AA Large but not AAA Normal for mid-gray on white', () => {
-      const result = contrast('#777777', '#ffffff');
-      const aaLarge = result.levels.find(l => l.name === 'AA Large text');
-      const aaaNormal = result.levels.find(l => l.name === 'AAA Normal text');
-      expect(aaLarge?.pass).toBe(true);
-      expect(aaaNormal?.pass).toBe(false);
-    });
-
-    it('should have 4 WCAG levels', () => {
-      const result = contrast('#fff', '#000');
-      expect(result.levels.length).toBe(4);
+    it('should return low contrast for similar colors', () => {
+      const result = contrast('#808080', '#828282');
+      expect(Math.abs(result.score)).toBeLessThan(15);
+      expect(result.pass).toBe(false);
     });
 
     it('should warn for near-identical colors', () => {
@@ -27,6 +21,11 @@ describe('SDK contrast()', () => {
       expect(result.warnings.some(w => w.includes('nearly identical'))).toBe(true);
     });
 
+    it('should warn for low contrast', () => {
+      const result = contrast('#808080', '#828282');
+      expect(result.warnings.some(w => w.includes('below minimum'))).toBe(true);
+    });
+
     it('should warn for pure black', () => {
       const result = contrast('#000000', '#ffffff');
       expect(result.warnings.some(w => w.includes('#000000'))).toBe(true);
@@ -34,38 +33,7 @@ describe('SDK contrast()', () => {
     });
   });
 
-  describe('APCA mode via .mode("apca")', () => {
-    it('should return high contrast for white on dark background', () => {
-      const result = contrast('#ffffff', '#1e1e2e').mode('apca');
-      expect(Math.abs(result.score)).toBeGreaterThan(90);
-      expect(result.pass).toBe(true);
-      expect(result.levels.length).toBe(6);
-    });
-
-    it('should return low contrast for similar colors', () => {
-      const result = contrast('#808080', '#828282').mode('apca');
-      expect(Math.abs(result.score)).toBeLessThan(15);
-      expect(result.pass).toBe(false);
-    });
-
-    it('should warn for near-identical colors', () => {
-      const result = contrast('#333333', '#343434').mode('apca');
-      expect(result.warnings.some(w => w.includes('nearly identical'))).toBe(true);
-    });
-
-    it('should warn for low contrast', () => {
-      const result = contrast('#808080', '#828282').mode('apca');
-      expect(result.warnings.some(w => w.includes('below minimum'))).toBe(true);
-    });
-
-    it('should warn for pure black', () => {
-      const result = contrast('#000000', '#ffffff').mode('apca');
-      expect(result.warnings.some(w => w.includes('#000000'))).toBe(true);
-      expect(result.warnings.some(w => w.includes('#ffffff'))).toBe(true);
-    });
-  });
-
-  describe('WCAG mode via .mode() chain', () => {
+  describe('WCAG mode via .mode("wcag")', () => {
     it('should return contrast ratio for black on white', () => {
       const result = contrast('#000000', '#ffffff').mode('wcag');
       expect(result.score).toBeCloseTo(21, 0);
@@ -83,6 +51,17 @@ describe('SDK contrast()', () => {
     it('should have 4 WCAG levels', () => {
       const result = contrast('#fff', '#000').mode('wcag');
       expect(result.levels.length).toBe(4);
+    });
+
+    it('should warn for near-identical colors', () => {
+      const result = contrast('#333333', '#343434').mode('wcag');
+      expect(result.warnings.some(w => w.includes('nearly identical'))).toBe(true);
+    });
+
+    it('should warn for pure black', () => {
+      const result = contrast('#000000', '#ffffff').mode('wcag');
+      expect(result.warnings.some(w => w.includes('#000000'))).toBe(true);
+      expect(result.warnings.some(w => w.includes('#ffffff'))).toBe(true);
     });
   });
 
@@ -107,21 +86,16 @@ describe('SDK contrast()', () => {
 
     it('should serialize with toJSON()', () => {
       const result = contrast('#fff', '#000').toJSON();
-      expect(result.mode).toBe('wcag');
+      expect(result.mode).toBe('apca');
       expect(result.foreground).toBe('#ffffff');
       expect(result.levels).toBeInstanceOf(Array);
     });
   });
 
-  describe('isApcaAvailable()', () => {
-    it('should return a boolean', () => {
-      const available = isApcaAvailable();
-      expect(typeof available).toBe('boolean');
-    });
-
-    it('should return true when apca-w3 is installed', () => {
-      // apca-w3 is installed in the dev/test environment
-      expect(isApcaAvailable()).toBe(true);
+  describe('APCA is always available', () => {
+    it('APCA mode should work without any extra dependency', () => {
+      const result = contrast('#ffffff', '#1e1e2e').mode('apca');
+      expect(Math.abs(result.score)).toBeGreaterThan(90);
     });
   });
 });
