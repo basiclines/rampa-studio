@@ -9,509 +9,339 @@
   <meta property="og:description" content="Generate perceptually uniform color ramps with APCA contrast analysis. CLI and JavaScript SDK. OKLCH color space. CSS, JSON, or plain text output.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rampa.studio/cli">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            mono: ['ui-monospace', 'SFMono-Regular', 'SF Mono', 'Menlo', 'Consolas', 'Liberation Mono', 'monospace'],
-          },
-        },
-      },
-    }
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    /* Minimal syntax highlighting for bash code blocks */
-    .code-comment { color: #6b7280; }
-    .code-flag { color: #93c5fd; }
-    .code-value { color: #86efac; }
-    .code-cmd { color: #f9fafb; }
-    /* JS syntax highlighting */
-    .code-keyword { color: #c4b5fd; }
-    .code-string { color: #86efac; }
-    .code-method { color: #93c5fd; }
-    .code-number { color: #fbbf24; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0a0a0a; color: #e5e5e5; font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    .mono { font-family: ui-monospace, 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace; }
+    a { color: inherit; text-decoration: none; }
+    pre, code { font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
   </style>
 </head>
-<body class="bg-neutral-950 text-neutral-200 antialiased">
+<body>
 
   <!-- Hero -->
-  <section class="max-w-3xl mx-auto px-6 pt-24 pb-20">
-    <h1 class="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight">
-      Precise color palettes from your terminal.
-    </h1>
-    <p class="mt-6 text-lg text-neutral-400 max-w-2xl">
-      Generate perceptually uniform color ramps with APCA contrast analysis. OKLCH color space. CSS, JSON, or plain text output.
-    </p>
-    <div class="mt-10">
-      <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--add</span>=<span class="code-value">complementary</span> <span class="code-flag">-O</span> <span class="code-value">css</span> <span class="code-flag">-A</span></code></pre>
-    </div>
-    <div class="mt-8 flex flex-wrap items-center gap-4">
-      <button
-        onclick="copyToClipboard('npm install -g @basiclines/rampa', this)"
-        class="inline-flex items-center gap-2 bg-neutral-900 border border-neutral-700 hover:border-neutral-500 rounded-lg px-4 py-2.5 text-sm font-mono text-neutral-300 transition-colors cursor-pointer"
-      >
-        <span>npm install -g @basiclines/rampa</span>
-        <svg class="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-      </button>
-      <a href="https://github.com/basiclines/rampa-studio" class="text-sm text-neutral-500 hover:text-neutral-300 transition-colors">
-        GitHub →
-      </a>
-    </div>
-  </section>
-
-  <!-- Problem / Approach -->
-  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
-    <p class="text-lg text-neutral-300 leading-relaxed">
-      Define ranges for lightness, saturation, and hue. Pick a distribution scale. Get a mathematically consistent palette with contrast analysis included.
-    </p>
-  </section>
-
-  <!-- Features -->
-  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
-    <div class="space-y-20">
-
-      <!-- Range-based control -->
-      <div>
-        <h2 class="text-xl font-semibold text-white">Range-based control</h2>
-        <p class="mt-3 text-neutral-400">
-          Configure lightness, saturation, and hue shift as start:end ranges. Choose from 11 distribution scales — linear, fibonacci, golden-ratio, ease curves, and more. Export as CSS custom properties, JSON, or plain text.
-        </p>
-        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">-L</span> <span class="code-value">95:10</span> <span class="code-flag">--lightness-scale</span>=<span class="code-value">fibonacci</span> <span class="code-flag">-O</span> <span class="code-value">css</span></code></pre>
+  <section style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 100px; position: relative; overflow: hidden;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 8px; background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.25); border-radius: 999px; padding: 6px 16px; margin-bottom: 32px;">
+        <div style="width: 6px; height: 6px; border-radius: 999px; background: #3b82f6;"></div>
+        <span style="font-size: 13px; font-weight: 500; color: #60a5fa;">v3.0 — APCA &amp; OKLCH built from spec</span>
       </div>
-
-      <!-- Harmonies -->
-      <div>
-        <h2 class="text-xl font-semibold text-white">Color harmonies, derived automatically</h2>
-        <p class="mt-3 text-neutral-400">
-          Generate complementary, triadic, analogous, split-complementary, square, and compound ramps from a single base color. Add custom hue shifts with <code class="text-neutral-300">shift:N</code>.
-        </p>
-        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--add</span>=<span class="code-value">complementary</span> <span class="code-flag">--add</span>=<span class="code-value">analogous</span> <span class="code-flag">-O</span> <span class="code-value">css</span></code></pre>
-      </div>
-
-      <!-- APCA -->
-      <div>
-        <h2 class="text-xl font-semibold text-white">APCA contrast analysis, built in</h2>
-        <p class="mt-3 text-neutral-400">
-          Analyze all color pairs across every ramp. Filter by use case — body text, large text, non-text elements. Output as text, JSON, or CSS comments.
-        </p>
-        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--add</span>=<span class="code-value">complementary</span> <span class="code-flag">-A</span>=<span class="code-value">body</span> <span class="code-flag">-O</span> <span class="code-value">json</span></code></pre>
-      </div>
-
-      <!-- Tinting -->
-      <div>
-        <h2 class="text-xl font-semibold text-white">Tinting with 16 blend modes</h2>
-        <p class="mt-3 text-neutral-400">
-          Apply any color as an overlay with adjustable opacity. Multiply, overlay, screen, and 13 more. Useful for brand-tinted neutrals.
-        </p>
-        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#6B7280"</span> <span class="code-flag">--tint-color</span>=<span class="code-value">"#3b82f6"</span> <span class="code-flag">--tint-opacity</span>=<span class="code-value">15</span> <span class="code-flag">--tint-blend</span>=<span class="code-value">overlay</span></code></pre>
-      </div>
-
-      <!-- Color conversion -->
-      <div>
-        <h2 class="text-xl font-semibold text-white">Color conversion, structured output</h2>
-        <p class="mt-3 text-neutral-400">
-          Read a color in any format and convert it to hex, rgb, hsl, or oklch. Use <code class="text-neutral-300">--read-only</code> to skip ramp generation. JSON output returns structured values — no CSS strings to parse.
-        </p>
-        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--read-only</span> <span class="code-flag">-O</span> <span class="code-value">json</span> <span class="code-flag">-F</span> <span class="code-value">hsl</span></code></pre>
-        <pre class="mt-3 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto text-neutral-400"><code>{ "color": { "value": "hsl(217, 91%, 60%)", "hsl": { "h": 217, "s": 91, "l": 60 } } }</code></pre>
-      </div>
-
-      <!-- Color Spaces -->
-      <div>
-        <h2 class="text-xl font-semibold text-white">Color spaces for structured palettes</h2>
-        <p class="mt-3 text-neutral-400">
-          Define multi-dimensional color spaces with <code class="text-neutral-300">LinearColorSpace</code> (2-color interpolated ramp) and <code class="text-neutral-300">CubeColorSpace</code> (8-corner cube with named aliases). Query colors by index or alias intensity. Supports OKLCH, LAB, and RGB interpolation, or disable interpolation for lookup tables.
-        </p>
-        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-comment"># CLI: query an 8-corner color cube</span>
-<span class="code-cmd">rampa</span> <span class="code-value">colorspace</span> <span class="code-flag">--cube</span> <span class="code-value">k=#1e1e2e r=#f38ba8 g=#a6e3a1 b=#89b4fa</span> \
-                        <span class="code-value">y=#f9e2af m=#cba6f7 c=#94e2d5 w=#cdd6f4</span> \
-                 <span class="code-flag">--size</span> <span class="code-value">6</span> <span class="code-flag">--tint</span> <span class="code-value">r:4,b:2</span></code></pre>
-        <pre class="mt-3 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-comment">// SDK: same query, programmatic</span>
-<span class="code-keyword">const</span> tint = <span class="code-keyword">new</span> <span class="code-method">CubeColorSpace</span>({ <span class="code-method">k</span>: <span class="code-string">'#1e1e2e'</span>, <span class="code-method">r</span>: <span class="code-string">'#f38ba8'</span>, ... }).<span class="code-method">size</span>(<span class="code-number">6</span>)
-tint({ <span class="code-method">r</span>: <span class="code-number">4</span>, <span class="code-method">b</span>: <span class="code-number">2</span> }).<span class="code-method">hex</span>           <span class="code-comment">// → '#7692ce'</span>
-tint({ <span class="code-method">r</span>: <span class="code-number">4</span> }).<span class="code-method">format</span>(<span class="code-string">'hsl'</span>)    <span class="code-comment">// → 'hsl(...)' format chaining</span></code></pre>
-      </div>
-
-      <!-- Contrast Lint -->
-      <div>
-        <h2 class="text-xl font-semibold text-white">Contrast lint and color inspection</h2>
-        <p class="mt-3 text-neutral-400">
-          Check contrast compliance between any two colors using APCA or WCAG 2.x. Get pass/fail results per accessibility level plus warnings for near-identical colors, low contrast, and pure black/white. Inspect any color in all supported formats.
-        </p>
-        <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-comment"># CLI: contrast lint with APCA (default) or WCAG</span>
-<span class="code-cmd">rampa</span> <span class="code-value">lint</span> <span class="code-flag">--fg</span> <span class="code-string">'#ffffff'</span> <span class="code-flag">--bg</span> <span class="code-string">'#1e1e2e'</span>
-<span class="code-cmd">rampa</span> <span class="code-value">lint</span> <span class="code-flag">--fg</span> <span class="code-string">'#777'</span> <span class="code-flag">--bg</span> <span class="code-string">'#fff'</span> <span class="code-flag">--mode</span> <span class="code-value">wcag</span>
-
-<span class="code-comment"># Inspect a color in all formats</span>
-<span class="code-cmd">rampa</span> <span class="code-value">inspect</span> <span class="code-flag">-c</span> <span class="code-string">'#ff6600'</span></code></pre>
-        <pre class="mt-3 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-comment">// SDK: contrast checking</span>
-<span class="code-keyword">const</span> result = rampa.<span class="code-method">contrast</span>(<span class="code-string">'#fff'</span>, <span class="code-string">'#1e1e2e'</span>)
-result.<span class="code-method">score</span>      <span class="code-comment">// -104.3 (APCA Lc)</span>
-result.<span class="code-method">pass</span>       <span class="code-comment">// true</span>
-result.<span class="code-method">warnings</span>   <span class="code-comment">// lint warnings</span>
-
-<span class="code-keyword">const</span> wcag = rampa.<span class="code-method">contrast</span>(<span class="code-string">'#777'</span>, <span class="code-string">'#fff'</span>).<span class="code-method">mode</span>(<span class="code-string">'wcag'</span>)</code></pre>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- JavaScript SDK -->
-  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
-    <h2 class="text-xl font-semibold text-white">JavaScript SDK</h2>
-    <p class="mt-3 text-neutral-400">
-      Same color engine, programmatic API. Use rampa in your applications, build tools, and design systems without the CLI. Fluent, chainable interface — every CLI flag maps to a method.
-    </p>
-    <div class="mt-6">
-      <button
-        onclick="copyToClipboard('npm install @basiclines/rampa-sdk', this)"
-        class="inline-flex items-center gap-2 bg-neutral-900 border border-neutral-700 hover:border-neutral-500 rounded-lg px-4 py-2.5 text-sm font-mono text-neutral-300 transition-colors cursor-pointer"
-      >
-        <span>npm install @basiclines/rampa-sdk</span>
-        <svg class="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-      </button>
-    </div>
-
-    <h3 class="mt-12 text-lg font-semibold text-white">CLI ↔ SDK</h3>
-    <p class="mt-2 text-sm text-neutral-500">Every CLI command has a 1:1 SDK equivalent. Same engine, same output.</p>
-
-    <div class="mt-8 space-y-10">
-
-      <!-- Basic palette -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Basic palette</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">--size</span>=<span class="code-value">5</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>(<span class="code-string">'#3b82f6'</span>).<span class="code-method">size</span>(<span class="code-number">5</span>).<span class="code-method">generate</span>()</code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- Ranges and scales -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Ranges and scales</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">-L</span> <span class="code-value">10:90</span> \
-  <span class="code-flag">-S</span> <span class="code-value">80:20</span> <span class="code-flag">--lightness-scale</span>=<span class="code-value">fibonacci</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>(<span class="code-string">'#3b82f6'</span>)
-  .<span class="code-method">lightness</span>(<span class="code-number">10</span>, <span class="code-number">90</span>)
-  .<span class="code-method">saturation</span>(<span class="code-number">80</span>, <span class="code-number">20</span>)
-  .<span class="code-method">lightnessScale</span>(<span class="code-string">'fibonacci'</span>)
-  .<span class="code-method">generate</span>()</code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- Harmonies -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Harmonies</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> \
-  <span class="code-flag">--add</span>=<span class="code-value">complementary</span> \
-  <span class="code-flag">--add</span>=<span class="code-value">shift:45</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>(<span class="code-string">'#3b82f6'</span>)
-  .<span class="code-method">add</span>(<span class="code-string">'complementary'</span>)
-  .<span class="code-method">add</span>(<span class="code-string">'shift'</span>, <span class="code-number">45</span>)
-  .<span class="code-method">generate</span>()</code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tinting -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Tinting</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#6B7280"</span> \
-  <span class="code-flag">--tint-color</span>=<span class="code-value">"#3b82f6"</span> \
-  <span class="code-flag">--tint-opacity</span>=<span class="code-value">15</span> \
-  <span class="code-flag">--tint-blend</span>=<span class="code-value">overlay</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>(<span class="code-string">'#6B7280'</span>)
-  .<span class="code-method">tint</span>(<span class="code-string">'#3b82f6'</span>, <span class="code-number">15</span>, <span class="code-string">'overlay'</span>)
-  .<span class="code-method">generate</span>()</code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- CSS output -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">CSS output</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">-O</span> <span class="code-value">css</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>(<span class="code-string">'#3b82f6'</span>).<span class="code-method">toCSS</span>()</code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- Color conversion -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Color conversion (read-only)</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#fe0000"</span> <span class="code-flag">--read-only</span>
-<span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#fe0000"</span> <span class="code-flag">--read-only</span> <span class="code-flag">-F</span> <span class="code-value">hsl</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>.<span class="code-method">readOnly</span>(<span class="code-string">'#fe0000'</span>).<span class="code-method">generate</span>()
-<span class="code-method">rampa</span>.<span class="code-method">readOnly</span>(<span class="code-string">'#fe0000'</span>).<span class="code-method">format</span>(<span class="code-string">'hsl'</span>).<span class="code-method">generate</span>()</code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- Color Mixing -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">OKLCH color mixing</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#ff0000"</span> <span class="code-flag">--mix</span> <span class="code-value">"#0000ff"</span> <span class="code-flag">--steps=</span><span class="code-value">10</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>.<span class="code-method">mix</span>(<span class="code-string">'#ff0000'</span>, <span class="code-string">'#0000ff'</span>, <span class="code-number">0.5</span>)</code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- Color Spaces: Linear -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Color spaces — linear ramp</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-value">colorspace</span> \
-  <span class="code-flag">--linear</span> <span class="code-value">'#fff'</span> <span class="code-value">'#000'</span> \
-  <span class="code-flag">--size</span> <span class="code-value">24</span> <span class="code-flag">--at</span> <span class="code-value">12</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-keyword">const</span> neutral = <span class="code-keyword">new</span> <span class="code-method">LinearColorSpace</span>(
-  <span class="code-string">'#fff'</span>, <span class="code-string">'#000'</span>
-).<span class="code-method">size</span>(<span class="code-number">24</span>)
-neutral(<span class="code-number">12</span>).<span class="code-method">hex</span></code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- Color Spaces: Cube -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Color spaces — 8-corner cube</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-value">colorspace</span> \
-  <span class="code-flag">--cube</span> <span class="code-value">k=#1e1e2e</span> <span class="code-value">r=#f38ba8</span> \
-         <span class="code-value">g=#a6e3a1</span> <span class="code-value">b=#89b4fa</span> ... \
-  <span class="code-flag">--size</span> <span class="code-value">6</span> <span class="code-flag">--tint</span> <span class="code-value">r:4,b:2</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-keyword">const</span> tint = <span class="code-keyword">new</span> <span class="code-method">CubeColorSpace</span>({
-  <span class="code-method">k</span>: <span class="code-string">'#1e1e2e'</span>, <span class="code-method">r</span>: <span class="code-string">'#f38ba8'</span>,
-  <span class="code-method">g</span>: <span class="code-string">'#a6e3a1'</span>, <span class="code-method">b</span>: <span class="code-string">'#89b4fa'</span>, ...
-}).<span class="code-method">size</span>(<span class="code-number">6</span>)
-tint({ <span class="code-method">r</span>: <span class="code-number">4</span>, <span class="code-method">b</span>: <span class="code-number">2</span> }).<span class="code-method">hex</span></code></pre>
-          </div>
-        </div>
-      </div>
-
-      <!-- Format -->
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Output format</p>
-        <div class="grid sm:grid-cols-2 gap-3">
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">CLI</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">rampa</span> <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span> <span class="code-flag">-F</span> <span class="code-value">oklch</span></code></pre>
-          </div>
-          <div>
-            <p class="text-xs text-neutral-600 mb-1.5 font-mono">SDK</p>
-            <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-method">rampa</span>(<span class="code-string">'#3b82f6'</span>).<span class="code-method">format</span>(<span class="code-string">'oklch'</span>).<span class="code-method">generate</span>()</code></pre>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- AI Agent Skills -->
-  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
-    <h2 class="text-xl font-semibold text-white">Skills for AI coding assistants</h2>
-    <p class="mt-3 text-neutral-400">
-      7 installable skills that teach AI agents common color tasks — theme creation, status colors, data visualization palettes, accessible contrast pairs. Works with Copilot, Cursor, and any agent that supports skills.
-    </p>
-    <pre class="mt-5 bg-neutral-900 border border-neutral-800 rounded-lg px-5 py-4 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">npx</span> <span class="code-value">skills</span> <span class="code-value">add</span> <span class="code-value">basiclines/rampa-studio</span></code></pre>
-    <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
-      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
-        <p class="text-sm font-mono text-neutral-300">theme-foundation</p>
-        <p class="text-xs text-neutral-500 mt-1">Complete light/dark theme</p>
-      </div>
-      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
-        <p class="text-sm font-mono text-neutral-300">tinted-neutrals</p>
-        <p class="text-xs text-neutral-500 mt-1">Brand-tinted grays</p>
-      </div>
-      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
-        <p class="text-sm font-mono text-neutral-300">status-from-accent</p>
-        <p class="text-xs text-neutral-500 mt-1">Success/warning/danger</p>
-      </div>
-      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
-        <p class="text-sm font-mono text-neutral-300">data-viz-palette</p>
-        <p class="text-xs text-neutral-500 mt-1">Distinct chart colors</p>
-      </div>
-      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
-        <p class="text-sm font-mono text-neutral-300">accessible-contrast</p>
-        <p class="text-xs text-neutral-500 mt-1">WCAG-compliant pairs</p>
-      </div>
-      <div class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3">
-        <p class="text-sm font-mono text-neutral-300">brand-expansion</p>
-        <p class="text-xs text-neutral-500 mt-1">Multi-hue system</p>
+      <h1 style="font-size: 64px; font-weight: 700; color: #fff; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px;">Precise color palettes,<br>straight from your terminal.</h1>
+      <p style="font-size: 20px; color: #a3a3a3; line-height: 1.6; text-align: center; max-width: 600px; margin-top: 24px;">Generate perceptually uniform color ramps with OKLCH color math, APCA contrast analysis, and 11 distribution scales. CLI, SDK, or visual editor.</p>
+      <div style="display: flex; gap: 16px; margin-top: 40px; align-items: center;">
+        <a href="#get-started" style="display: flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #2563eb, #3b82f6); border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; color: #fff;">Get started <span style="color: rgba(255,255,255,0.7);">→</span></a>
+        <a href="https://github.com/basiclines/rampa-studio" style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.05); border: 1px solid #333; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500; color: #d4d4d4;">GitHub</a>
       </div>
     </div>
   </section>
 
-  <!-- Web Editor -->
-  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
-    <h2 class="text-xl font-semibold text-white">Visual palette editor at rampa.studio</h2>
-    <p class="mt-3 text-neutral-400">
-      Same color engine, visual interface. Design and preview palettes in real time. Adjust ranges, scales, and harmonies with interactive controls. Copy CSS variables or export directly.
-    </p>
-    <div class="mt-6">
-      <a href="https://rampa.studio" class="inline-flex items-center gap-2 text-sm text-neutral-300 hover:text-white transition-colors">
-        Open rampa.studio →
-      </a>
+  <!-- Terminal Mockup -->
+  <section style="display: flex; justify-content: center; padding: 0 80px 40px;">
+    <div style="display: flex; flex-direction: column; width: 720px; background: #111; border: 1px solid #262626; border-radius: 16px; overflow: hidden;">
+      <div style="display: flex; align-items: center; padding: 14px 20px; gap: 8px; border-bottom: 1px solid #1a1a1a;">
+        <div style="width: 12px; height: 12px; border-radius: 999px; background: #ef4444;"></div>
+        <div style="width: 12px; height: 12px; border-radius: 999px; background: #eab308;"></div>
+        <div style="width: 12px; height: 12px; border-radius: 999px; background: #22c55e;"></div>
+        <span class="mono" style="font-size: 12px; color: #525252; margin-left: 12px;">Terminal — rampa</span>
+      </div>
+      <div style="display: flex; flex-direction: column; padding: 20px 24px; gap: 16px;">
+        <pre style="font-size: 14px; color: #e5e5e5; margin: 0;"><span style="color: #22c55e;">❯</span> rampa -C "#3b82f6" -L 95:10 --size=10 -O css</pre>
+        <div style="display: flex; gap: 4px;">
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #eff5ff;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #c6dbfc;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #9dc1f9;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #74a7f6;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #4b8df3;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #3b82f6;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #2e65c4;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #214992;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #142d60;"></div>
+          <div style="width: 48px; height: 40px; border-radius: 6px; background: #07112e;"></div>
+        </div>
+        <pre style="font-size: 13px; color: #737373; line-height: 1.6; margin: 0;">:root {
+  --color-50:  #eff5ff;
+  --color-100: #c6dbfc;
+  --color-200: #9dc1f9;
+  --color-300: #74a7f6;
+  --color-400: #4b8df3;
+  --color-500: #3b82f6;
+  --color-600: #2e65c4;
+  --color-700: #214992;
+  --color-800: #142d60;
+  --color-900: #07112e;
+}</pre>
+      </div>
     </div>
   </section>
 
-  <!-- Feature Grid -->
-  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
-    <h2 class="text-xl font-semibold text-white mb-8">Feature reference</h2>
-    <div class="overflow-x-auto">
-      <table class="w-full text-sm">
-        <tbody class="divide-y divide-neutral-800">
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Color Spaces</td>
-            <td class="py-3 text-neutral-300">OKLCH-based engine. Accepts hex, hsl, rgb, oklch input.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Ranges</td>
-            <td class="py-3 text-neutral-300">Lightness, saturation, hue shift — all configurable as start:end.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Scales</td>
-            <td class="py-3 text-neutral-300">11 types: linear, fibonacci, golden-ratio, ease-in-out, geometric, logarithmic, and more.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Harmonies</td>
-            <td class="py-3 text-neutral-300">6 harmony types + custom shift:N degrees.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Tinting</td>
-            <td class="py-3 text-neutral-300">16 blend modes, adjustable opacity.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Accessibility</td>
-            <td class="py-3 text-neutral-300">APCA contrast analysis, 6 filter levels, JSON/CSS/text output.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Output</td>
-            <td class="py-3 text-neutral-300">CSS custom properties, JSON (structured values), plain text.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Conversion</td>
-            <td class="py-3 text-neutral-300">Read-only mode for single color conversion between formats.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Color Spaces</td>
-            <td class="py-3 text-neutral-300">LinearColorSpace (2-color ramp) and CubeColorSpace (8-corner cube). Configurable interpolation (OKLCH, LAB, RGB) and lookup tables. Same API in CLI and SDK.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">Platforms</td>
-            <td class="py-3 text-neutral-300">macOS (ARM, Intel), Linux (x64, ARM64), Windows. npm, Homebrew, standalone binary.</td>
-          </tr>
-          <tr>
-            <td class="py-3 pr-6 text-neutral-500 whitespace-nowrap align-top">SDK</td>
-            <td class="py-3 text-neutral-300">Fluent JavaScript/TypeScript API. Same engine as the CLI. <code class="text-neutral-300">npm install @basiclines/rampa-sdk</code></td>
-          </tr>
-        </tbody>
-      </table>
+  <!-- Social Proof Strip -->
+  <section style="display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px; border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <span style="font-size: 28px; font-weight: 700; color: #fff;">CLI + SDK</span>
+      <span style="font-size: 13px; color: #737373;">Two interfaces, one engine</span>
+    </div>
+    <div style="width: 1px; height: 48px; background: #262626;"></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <span style="font-size: 28px; font-weight: 700; color: #fff;">OKLCH</span>
+      <span style="font-size: 13px; color: #737373;">Perceptually uniform</span>
+    </div>
+    <div style="width: 1px; height: 48px; background: #262626;"></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <span style="font-size: 28px; font-weight: 700; color: #fff;">APCA</span>
+      <span style="font-size: 13px; color: #737373;">Built-in contrast analysis</span>
+    </div>
+    <div style="width: 1px; height: 48px; background: #262626;"></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <span style="font-size: 28px; font-weight: 700; color: #fff;">11</span>
+      <span style="font-size: 13px; color: #737373;">Distribution scales</span>
+    </div>
+    <div style="width: 1px; height: 48px; background: #262626;"></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <span style="font-size: 28px; font-weight: 700; color: #fff;">16</span>
+      <span style="font-size: 13px; color: #737373;">Blend modes</span>
     </div>
   </section>
 
-  <!-- Get Started -->
-  <section class="max-w-3xl mx-auto px-6 py-16 border-t border-neutral-800">
-    <h2 class="text-xl font-semibold text-white mb-8">Get started</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Try the CLI</p>
-        <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">npx</span> <span class="code-value">@basiclines/rampa</span> \
-  <span class="code-flag">-C</span> <span class="code-value">"#3b82f6"</span></code></pre>
+  <!-- Features Section -->
+  <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
+    <span style="font-size: 13px; font-weight: 600; color: #3b82f6; letter-spacing: 0.08em; text-transform: uppercase;">Features</span>
+    <h2 style="font-size: 40px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Everything you need for<br>production color systems</h2>
+    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 560px; line-height: 1.6;">One tool generates palettes, analyzes contrast, mixes colors, and exports to any format. No plugins, no dependencies.</p>
+  </section>
+
+  <!-- Bento Grid Row 1 -->
+  <section style="display: flex; gap: 16px; max-width: 1100px; margin: 0 auto; padding: 0 80px;">
+    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(59,130,246,0.2), rgba(59,130,246,0.05)); display: flex; align-items: center; justify-content: center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07"/></svg>
       </div>
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Install CLI globally</p>
-        <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">npm</span> install -g <span class="code-value">@basiclines/rampa</span>
-<span class="code-comment"># or</span>
-<span class="code-cmd">brew</span> install <span class="code-value">rampa</span></code></pre>
+      <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Range-based control</h3>
+      <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Configure lightness, saturation, and hue shift as start:end ranges. Choose from 11 distribution scales — linear, fibonacci, golden-ratio, ease curves.</p>
+      <pre style="background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #d4d4d4; margin-top: 8px;">rampa -C "#3b82f6" -L 95:10 \
+  --lightness-scale=fibonacci -O css</pre>
+    </div>
+    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(168,85,247,0.05)); display: flex; align-items: center; justify-content: center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
       </div>
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Install SDK</p>
-        <pre class="bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm font-mono overflow-x-auto"><code><span class="code-cmd">npm</span> install <span class="code-value">@basiclines/rampa-sdk</span></code></pre>
+      <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Color harmonies</h3>
+      <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Generate complementary, triadic, analogous, split-complementary, square, and compound ramps. Custom hue shifts with shift:N.</p>
+      <pre style="background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #d4d4d4; margin-top: 8px;">rampa -C "#3b82f6" \
+  --add=complementary --add=analogous</pre>
+    </div>
+  </section>
+
+  <!-- Bento Grid Row 2 -->
+  <section style="display: flex; gap: 16px; max-width: 1100px; margin: 16px auto 0; padding: 0 80px;">
+    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(34,197,94,0.2), rgba(34,197,94,0.05)); display: flex; align-items: center; justify-content: center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
       </div>
-      <div>
-        <p class="text-sm text-neutral-500 mb-3">Download binary</p>
-        <a href="https://github.com/basiclines/rampa-studio/releases" class="inline-flex items-center gap-2 bg-neutral-900 border border-neutral-800 hover:border-neutral-600 rounded-lg px-4 py-3 text-sm font-mono text-neutral-300 transition-colors w-full">
-          GitHub Releases →
-        </a>
+      <h3 style="font-size: 16px; font-weight: 600; color: #fff;">APCA contrast</h3>
+      <p style="font-size: 13px; color: #a3a3a3; line-height: 1.5;">Analyze all color pairs. Filter by body text, large text, non-text. Built from the W3C spec — no external dependencies.</p>
+    </div>
+    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(249,115,22,0.2), rgba(249,115,22,0.05)); display: flex; align-items: center; justify-content: center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><path d="M12 3v1m0 16v1m8.66-13.66l-.71.71M4.05 19.95l-.71.71M21 12h-1M4 12H3m16.66 7.66l-.71-.71M4.05 4.05l-.71-.71"/><circle cx="12" cy="12" r="5"/></svg>
+      </div>
+      <h3 style="font-size: 16px; font-weight: 600; color: #fff;">16 blend modes</h3>
+      <p style="font-size: 13px; color: #a3a3a3; line-height: 1.5;">Apply any color as an overlay with adjustable opacity. Multiply, overlay, screen — perfect for brand-tinted neutrals.</p>
+    </div>
+    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(236,72,153,0.2), rgba(236,72,153,0.05)); display: flex; align-items: center; justify-content: center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+      </div>
+      <h3 style="font-size: 16px; font-weight: 600; color: #fff;">Color spaces</h3>
+      <p style="font-size: 13px; color: #a3a3a3; line-height: 1.5;">LinearColorSpace for 2-color ramps. CubeColorSpace for 8-corner cubes. OKLCH, LAB, or RGB interpolation.</p>
+    </div>
+  </section>
+
+  <!-- Bento Grid Row 3 -->
+  <section style="display: flex; gap: 16px; max-width: 1100px; margin: 16px auto 0; padding: 0 80px;">
+    <div style="flex: 2; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(14,165,233,0.2), rgba(14,165,233,0.05)); display: flex; align-items: center; justify-content: center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="2"><path d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/></svg>
+      </div>
+      <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Color conversion &amp; structured output</h3>
+      <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Read any color format. Convert to hex, rgb, hsl, or oklch. JSON returns structured values — no CSS strings to parse. CSS output generates ready-to-use custom properties.</p>
+      <div style="display: flex; gap: 12px; margin-top: 4px;">
+        <pre style="flex: 1; background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #d4d4d4; margin: 0;">rampa -C "#3b82f6" --read-only \
+  -O json -F hsl</pre>
+        <pre style="flex: 1; background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #737373; margin: 0;">{ "color": {
+    "value": "hsl(217, 91%, 60%)",
+    "hsl": { "h": 217, "s": 91, "l": 60 }
+  }
+}</pre>
+      </div>
+    </div>
+    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(234,179,8,0.2), rgba(234,179,8,0.05)); display: flex; align-items: center; justify-content: center;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#eab308" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0zM12 9v4m0 4h.01"/></svg>
+      </div>
+      <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Contrast lint</h3>
+      <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">APCA or WCAG 2.x between any two colors. Pass/fail per level. Warnings for near-identical colors and pure black/white.</p>
+      <pre style="background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 10px; padding: 14px 18px; font-size: 13px; color: #d4d4d4; margin-top: 4px;">rampa lint \
+  --fg '#fff' \
+  --bg '#1e1e2e'</pre>
+    </div>
+  </section>
+
+  <!-- SDK Section -->
+  <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
+    <span style="font-size: 13px; font-weight: 600; color: #a855f7; letter-spacing: 0.08em; text-transform: uppercase;">SDK</span>
+    <h2 style="font-size: 40px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Same engine,<br>programmatic API</h2>
+    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 520px; line-height: 1.6;">Every CLI flag maps to a chainable method. Use rampa in your apps, build tools, and design systems.</p>
+    <button
+      onclick="copyToClipboard('npm install @basiclines/rampa-sdk', this)"
+      style="display: flex; align-items: center; gap: 10px; background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.2); border-radius: 10px; padding: 10px 20px; margin-top: 16px; cursor: pointer;"
+    >
+      <code style="font-size: 14px; color: #c084fc;">npm install @basiclines/rampa-sdk</code>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+    </button>
+  </section>
+
+  <!-- CLI vs SDK Grid -->
+  <section style="display: flex; flex-direction: column; gap: 16px; max-width: 1100px; margin: 0 auto; padding: 32px 80px;">
+    <div style="display: flex; gap: 16px;">
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">CLI — basic palette</span>
+        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa -C "#3b82f6" --size=5</pre>
+      </div>
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">SDK</span>
+        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa('#3b82f6').size(5).generate()</pre>
+      </div>
+    </div>
+    <div style="display: flex; gap: 16px;">
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">CLI — ranges</span>
+        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa -C "#3b82f6" -L 10:90 \
+  -S 80:20 --lightness-scale=fibonacci</pre>
+      </div>
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">SDK</span>
+        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa('#3b82f6')
+  .lightness(10, 90)
+  .saturation(80, 20)
+  .lightnessScale('fibonacci')
+  .generate()</pre>
+      </div>
+    </div>
+    <div style="display: flex; gap: 16px;">
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">CLI — contrast</span>
+        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa lint --fg '#fff' --bg '#1e1e2e'</pre>
+      </div>
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">SDK</span>
+        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa.contrast('#fff', '#1e1e2e')
+  .score   // -104.3 (APCA Lc)
+  .pass    // true</pre>
+      </div>
+    </div>
+    <div style="display: flex; gap: 16px;">
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">CLI — color space</span>
+        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">rampa colorspace \
+  --cube k=#1e1e2e r=#f38ba8 ... \
+  --size 6 --tint r:4,b:2</pre>
+      </div>
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="mono" style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.05em;">SDK</span>
+        <pre style="font-size: 13px; color: #e5e5e5; margin: 0;">const t = new CubeColorSpace({
+  k: '#1e1e2e', r: '#f38ba8', ...
+}).size(6)
+t({ r: 4, b: 2 }).hex</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Skills Section -->
+  <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
+    <span style="font-size: 13px; font-weight: 600; color: #22c55e; letter-spacing: 0.08em; text-transform: uppercase;">AI Skills</span>
+    <h2 style="font-size: 40px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Teach your AI agent<br>color theory</h2>
+    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 520px; line-height: 1.6;">7 installable skills for Copilot, Cursor, and any agent that supports skills. Theme creation, status colors, data viz palettes, accessible contrast.</p>
+    <pre style="background: rgba(34,197,94,0.06); border: 1px solid rgba(34,197,94,0.15); border-radius: 10px; padding: 12px 20px; font-size: 14px; color: #4ade80; margin-top: 16px;">npx skills add basiclines/rampa-studio</pre>
+  </section>
+
+  <!-- Skills Cards -->
+  <section style="display: flex; flex-wrap: wrap; gap: 12px; max-width: 800px; margin: 0 auto; padding: 0 80px; justify-content: center;">
+    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">theme-foundation</span>
+      <span style="font-size: 13px; color: #525252;">Complete light/dark theme from one accent</span>
+    </div>
+    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">tinted-neutrals</span>
+      <span style="font-size: 13px; color: #525252;">Brand-tinted gray scale</span>
+    </div>
+    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">status-from-accent</span>
+      <span style="font-size: 13px; color: #525252;">Success, warning, danger ramps</span>
+    </div>
+    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">data-viz-palette</span>
+      <span style="font-size: 13px; color: #525252;">Distinct, accessible chart colors</span>
+    </div>
+    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">accessible-contrast</span>
+      <span style="font-size: 13px; color: #525252;">WCAG/APCA compliant pairs</span>
+    </div>
+    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">brand-expansion</span>
+      <span style="font-size: 13px; color: #525252;">Multi-hue brand system</span>
+    </div>
+  </section>
+
+  <!-- Get Started CTA -->
+  <section id="get-started" style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 80px; gap: 24px; position: relative;">
+    <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 600px; height: 300px; background: radial-gradient(ellipse at center, rgba(59,130,246,0.08) 0%, rgba(59,130,246,0) 70%); pointer-events: none;"></div>
+    <h2 style="font-size: 36px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center;">Start building palettes</h2>
+    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI with npx, install the SDK, or open the visual editor.</p>
+    <div style="display: flex; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span style="font-size: 13px; font-weight: 500; color: #737373;">Try instantly</span>
+        <pre style="font-size: 14px; color: #e5e5e5; margin: 0;">npx @basiclines/rampa -C "#3b82f6"</pre>
+      </div>
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span style="font-size: 13px; font-weight: 500; color: #737373;">Install globally</span>
+        <pre style="font-size: 14px; color: #e5e5e5; margin: 0;">npm install -g @basiclines/rampa</pre>
+        <pre style="font-size: 14px; color: #525252; margin: 0;">brew install basiclines/tap/rampa</pre>
+      </div>
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span style="font-size: 13px; font-weight: 500; color: #737373;">SDK</span>
+        <pre style="font-size: 14px; color: #e5e5e5; margin: 0;">npm install @basiclines/rampa-sdk</pre>
+      </div>
+      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px; align-items: center; justify-content: center;">
+        <span style="font-size: 13px; font-weight: 500; color: #737373;">Visual editor</span>
+        <a href="https://rampa.studio" style="font-size: 15px; font-weight: 500; color: #d4d4d4;">rampa.studio →</a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="max-w-3xl mx-auto px-6 py-12 border-t border-neutral-800">
-    <div class="flex flex-wrap items-center justify-between gap-4 text-sm text-neutral-500">
-      <div class="flex items-center gap-6">
-        <a href="https://github.com/basiclines/rampa-studio" class="hover:text-neutral-300 transition-colors">GitHub</a>
-        <a href="https://rampa.studio" class="hover:text-neutral-300 transition-colors">rampa.studio</a>
-        <a href="https://ismael.fyi" class="hover:text-neutral-300 transition-colors">ismael.fyi</a>
-      </div>
-      <p>Free for individuals &amp; developers. <a href="https://github.com/basiclines/rampa-studio/blob/main/LICENSE.md" class="hover:text-neutral-300 transition-colors underline">License</a></p>
+  <footer style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto; padding: 40px 80px; border-top: 1px solid #1a1a1a;">
+    <div style="display: flex; align-items: center; gap: 32px;">
+      <span style="font-size: 14px; font-weight: 600; color: #d4d4d4;">rampa</span>
+      <a href="https://github.com/basiclines/rampa-studio" style="font-size: 14px; color: #525252;">GitHub</a>
+      <a href="https://rampa.studio" style="font-size: 14px; color: #525252;">rampa.studio</a>
+      <a href="https://ismael.fyi" style="font-size: 14px; color: #525252;">ismael.fyi</a>
     </div>
+    <span style="font-size: 13px; color: #404040;">Free for individuals &amp; developers · <a href="https://github.com/basiclines/rampa-studio/blob/main/LICENSE.md" style="text-decoration: underline;">MIT License</a></span>
   </footer>
 
   <script>
     function copyToClipboard(text, button) {
       navigator.clipboard.writeText(text).then(() => {
-        const original = button.querySelector('svg');
-        original.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>';
-        setTimeout(() => {
-          original.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>';
-        }, 2000);
+        const svg = button.querySelector('svg');
+        if (svg) {
+          svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>';
+          setTimeout(() => {
+            svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>';
+          }, 2000);
+        }
       });
     }
   </script>
