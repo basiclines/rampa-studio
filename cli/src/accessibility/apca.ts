@@ -1,5 +1,5 @@
-import { APCAcontrast, sRGBtoY } from 'apca-w3';
 import chroma from 'chroma-js';
+import { computeApcaLc } from '../../../src/engine/ApcaEngine';
 
 export interface ApcaLevel {
   id: string;
@@ -71,9 +71,9 @@ export function parseAccessibilityFilter(value: string | undefined): Accessibili
   process.exit(1);
 }
 export function computeApca(fgHex: string, bgHex: string): number {
-  const [fgR, fgG, fgB] = chroma(fgHex).rgb();
-  const [bgR, bgG, bgB] = chroma(bgHex).rgb();
-  return APCAcontrast(sRGBtoY([fgR, fgG, fgB]), sRGBtoY([bgR, bgG, bgB])) as number;
+  const fg = chroma(fgHex).hex();
+  const bg = chroma(bgHex).hex();
+  return computeApcaLc(fg, bg);
 }
 
 // Return all APCA levels that this contrast value passes (using absolute value).

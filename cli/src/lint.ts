@@ -9,13 +9,8 @@
  */
 
 import chroma from 'chroma-js';
-import { APCAcontrast, sRGBtoY } from 'apca-w3';
-import { contrast, registerApca } from '../../sdk/src/contrast';
+import { contrast } from '../../sdk/src/contrast';
 import type { ContrastMode, ContrastResult } from '../../sdk/src/types';
-
-// Pre-register APCA so the compiled CLI binary can use it
-// (dynamic require() does not work inside a bun-compiled binary).
-registerApca({ APCAcontrast, sRGBtoY });
 
 // ── ANSI helpers ─────────────────────────────────────────────────────
 
