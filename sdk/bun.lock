@@ -5,15 +5,21 @@
     "": {
       "name": "@basiclines/rampa-sdk",
       "dependencies": {
-        "apca-w3": "^0.1.9",
         "chroma-js": "^3.1.2",
         "culori": "^4.0.1",
       },
       "devDependencies": {
         "@types/bun": "^1.2.17",
         "@types/chroma-js": "^3.1.1",
+        "apca-w3": "^0.1.9",
         "typescript": "^5.5.3",
       },
+      "peerDependencies": {
+        "apca-w3": "^0.1.9",
+      },
+      "optionalPeers": [
+        "apca-w3",
+      ],
     },
   },
   "packages": {
