@@ -17,7 +17,7 @@ const CUBE_SCALE_ANIM = 0.5;  // cube geometry half-size at rest (>0.5 = overlap
 const CUBE_SCALE_REST = 0.95; // cube geometry half-size at mid-rotation
 const STAGGER = 0.08;
 const ROT_DUR = 1.8;
-const PAUSE = 2.0;
+const PAUSE = 8.0;
 const BG = [0.04, 0.04, 0.04];
 
 // Parse hex to [r,g,b] 0-1
@@ -168,9 +168,8 @@ function ortho(l, r, b, t, n, f) {
 
 gl.uniform3f(uLD, 0.5, 0.8, 1.0);
 
-let ci = 0;
-let t0 = performance.now()/1000;
 let prevCols = 0, prevRows = 0;
+const startTime = performance.now() / 1000;
 
 function frame() {
   const now = performance.now()/1000;
@@ -181,43 +180,47 @@ function frame() {
   const cols = Math.ceil(W / cell) + 1;
   const rows = Math.ceil(H / cell) + 1;
 
-  // Reset cycle timer if grid changed
   if (cols !== prevCols || rows !== prevRows) {
     prevCols = cols; prevRows = rows;
     buildRamps(rows);
   }
 
-  const maxDel = (cols - 1 + rows - 1) * STAGGER;
-  const cycle = ROT_DUR + PAUSE;
+  const cycleLen = ROT_DUR + PAUSE;
 
   // Orthographic: 1 unit = 1 CSS pixel
   gl.uniformMatrix4fv(uPr, false, ortho(0, W, 0, H, -500, 500));
-  // Identity view
   gl.uniformMatrix4fv(uVi, false, new Float32Array([1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1]));
   gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
-  const el = now - t0;
-  if (el > cycle + maxDel) {
-    t0 = now;
-    ci = (ci + 1) % COLOR_HEXES.length;
-  }
-
-  const fi = ci % FR.length;
-  const ti = (ci + 1) % FR.length;
+  const elapsed = now - startTime;
   const cubeScale = CUBE_PX * 0.5;
 
   for (let r = 0; r < rows; r++) {
-    // Set per-row face colors from ramps (row 0 = top = brightest, last = darkest)
-    for (let i = 0; i < 6; i++) {
-      const colorIdx = (ci + i) % COLOR_HEXES.length;
-      const rowColor = ramps[colorIdx][rows - 1 - r]; // top rows get full color
-      gl.uniform3fv(uFC[i], rowColor);
-    }
-
     for (let c = 0; c < cols; c++) {
+      // Each cube has its own continuous timeline
       const del = (c + r) * STAGGER;
-      const lt = Math.max(0, Math.min(1, (el - del) / ROT_DUR));
+      const cubeTime = Math.max(0, elapsed - del);
+      const cubeCycle = Math.floor(cubeTime / cycleLen);
+      const phase = (cubeTime - cubeCycle * cycleLen) / ROT_DUR;
+      const lt = Math.min(1, phase);
       const t = ease(lt);
+
+      // Per-cube color + rotation derived from its own cycle
+      const ci = cubeCycle % COLOR_HEXES.length;
+      const fi = cubeCycle % FR.length;
+      const ti = (cubeCycle + 1) % FR.length;
+
+      for (let i = 0; i < 6; i++) {
+        const curIdx = (ci + i) % COLOR_HEXES.length;
+        const nxtIdx = (ci + 1 + i) % COLOR_HEXES.length;
+        const curColor = ramps[curIdx][rows - 1 - r];
+        const nxtColor = ramps[nxtIdx][rows - 1 - r];
+        gl.uniform3f(uFC[i],
+          curColor[0] + (nxtColor[0] - curColor[0]) * t,
+          curColor[1] + (nxtColor[1] - curColor[1]) * t,
+          curColor[2] + (nxtColor[2] - curColor[2]) * t
+        );
+      }
 
       const from = FR[fi], to = FR[ti];
       const rx = from[0] + (to[0] - from[0]) * t;
