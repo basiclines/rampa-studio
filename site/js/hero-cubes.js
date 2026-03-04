@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<style>
-  * { margin: 0; padding: 0; }
-  body { background: #0a0a0a; overflow: hidden; }
-  canvas { display: block; width: 100vw; height: 100vh; }
-</style>
-</head>
-<body>
-<canvas id="c"></canvas>
-<script>
 // ==========================================
 // CONFIGURABLE COLORS as hex — change at runtime
 // ==========================================
@@ -63,8 +50,11 @@ function buildRamps(rows) {
 
 const canvas = document.getElementById('c');
 function resize() {
-  canvas.width = window.innerWidth * devicePixelRatio;
-  canvas.height = window.innerHeight * devicePixelRatio;
+  const parent = canvas.parentElement;
+  const w = parent ? parent.offsetWidth : window.innerWidth;
+  const h = parent ? parent.offsetHeight : window.innerHeight;
+  canvas.width = w * devicePixelRatio;
+  canvas.height = h * devicePixelRatio;
 }
 resize();
 window.addEventListener('resize', resize);
@@ -247,6 +237,3 @@ function frame() {
   requestAnimationFrame(frame);
 }
 frame();
-</script>
-</body>
-</html>
