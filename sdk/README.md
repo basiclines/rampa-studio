@@ -8,6 +8,34 @@ Programmatic JavaScript/TypeScript SDK for generating mathematically accurate, a
 npm install @basiclines/rampa-sdk
 ```
 
+### Vanilla JS (CDN / Script Tag)
+
+A pre-built browser bundle is available on every [GitHub Release](https://github.com/basiclines/rampa-studio/releases). No bundler or build step needed — just drop a `<script>` tag:
+
+```html
+<script src="https://github.com/basiclines/rampa-studio/releases/latest/download/rampa-sdk.min.js"></script>
+<script>
+  // Everything is available under the global `Rampa` object
+  const palette = Rampa.rampa('#3b82f6').size(5).generate();
+  console.log(palette.ramps[0].colors);
+
+  const css = Rampa.rampa('#3b82f6').toCSS();
+  const mixed = Rampa.rampa.mix('#ff0000', '#0000ff', 0.5);
+
+  const linear = new Rampa.LinearColorSpace('#ffffff', '#000000').size(10);
+  console.log('' + linear(5)); // midpoint gray
+
+  const c = Rampa.color('#3b82f6');
+  console.log(c.rgb, c.luminance);
+</script>
+```
+
+Pin a specific version by replacing `latest` with the tag name:
+
+```
+https://github.com/basiclines/rampa-studio/releases/download/v3.0.0/rampa-sdk.min.js
+```
+
 ## Quick Start
 
 ```typescript
