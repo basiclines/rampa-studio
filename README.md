@@ -130,6 +130,19 @@ A programmatic API for generating palettes in applications, build tools, and des
 npm install @basiclines/rampa-sdk
 ```
 
+#### Vanilla JS (CDN / Script Tag)
+
+A pre-built browser bundle (`rampa-sdk.min.js`) is attached to every [GitHub Release](https://github.com/basiclines/rampa-studio/releases). No bundler needed:
+
+```html
+<script src="https://github.com/basiclines/rampa-studio/releases/latest/download/rampa-sdk.min.js"></script>
+<script>
+  const palette = Rampa.rampa('#3b82f6').size(5).generate();
+  const linear = new Rampa.LinearColorSpace('#fff', '#000').size(10);
+  console.log('' + linear(5));
+</script>
+```
+
 ### Quick Start
 
 ```typescript
