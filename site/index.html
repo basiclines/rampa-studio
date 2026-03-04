@@ -28,6 +28,15 @@
     .tt-comment { color: #6b7280 !important; }
     .tt-prop { color: #93c5fd !important; }
     .tt-swatch { display: inline-block; width: 1.2em; height: 0.9em; border-radius: 2px; vertical-align: middle; margin-right: 2px; }
+    /* Terminal chrome wrapper */
+    .term-chrome { background: #161616; border: 1px solid #2e2e33; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.03); }
+    .term-chrome-bar { display: flex; align-items: center; padding: 10px 16px; gap: 6px; }
+    .term-chrome-bar .dot { width: 10px; height: 10px; border-radius: 50%; }
+    .term-chrome-bar .dot-r { background: #ff5f57; }
+    .term-chrome-bar .dot-y { background: #febc2e; }
+    .term-chrome-bar .dot-g { background: #28c840; }
+    .term-chrome-bar .title { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 12px; color: #6b7280; margin-left: 8px; }
+    .term-chrome [data-typetype] { border: none !important; border-radius: 0 !important; box-shadow: none !important; }
   </style>
 </head>
 <body>
@@ -51,7 +60,10 @@
 
   <!-- Terminal Mockup — TypeType animated -->
   <section style="display: flex; justify-content: center; padding: 0 80px 40px;">
-    <div id="demo-hero" style="width: 720px;"></div>
+    <div class="term-chrome" style="width: 720px;">
+      <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">rampa — palette generator</span></div>
+      <div id="demo-hero"></div>
+    </div>
   </section>
 
   <!-- Social Proof Strip -->
@@ -97,7 +109,7 @@
       </div>
       <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Range-based control</h3>
       <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Configure lightness, saturation, and hue shift as start:end ranges. Choose from 11 distribution scales — linear, fibonacci, golden-ratio, ease curves.</p>
-      <div id="demo-ranges" style="margin-top: 8px;"></div>
+      <div class="term-chrome" style="margin-top: 8px;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Ranges</span></div><div id="demo-ranges"></div></div>
     </div>
     <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
       <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(168,85,247,0.05)); display: flex; align-items: center; justify-content: center;">
@@ -105,7 +117,7 @@
       </div>
       <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Color harmonies</h3>
       <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Generate complementary, triadic, analogous, split-complementary, square, and compound ramps. Custom hue shifts with shift:N.</p>
-      <div id="demo-harmonies" style="margin-top: 8px;"></div>
+      <div class="term-chrome" style="margin-top: 8px;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Harmonies</span></div><div id="demo-harmonies"></div></div>
     </div>
   </section>
 
@@ -143,8 +155,8 @@
       <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Color conversion &amp; structured output</h3>
       <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Read any color format. Convert to hex, rgb, hsl, or oklch. JSON returns structured values — no CSS strings to parse. CSS output generates ready-to-use custom properties.</p>
       <div style="display: flex; gap: 12px; margin-top: 4px;">
-        <div id="demo-convert" style="flex: 1;"></div>
-        <div id="demo-convert-output" style="flex: 1;"></div>
+        <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Convert</span></div><div id="demo-convert"></div></div>
+        <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Output</span></div><div id="demo-convert-output"></div></div>
       </div>
     </div>
     <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
@@ -153,7 +165,7 @@
       </div>
       <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Contrast lint</h3>
       <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">APCA or WCAG 2.x between any two colors. Pass/fail per level. Warnings for near-identical colors and pure black/white.</p>
-      <div id="demo-lint" style="margin-top: 4px;"></div>
+      <div class="term-chrome" style="margin-top: 4px;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Lint</span></div><div id="demo-lint"></div></div>
     </div>
   </section>
 
@@ -174,12 +186,12 @@
   <!-- CLI Demo Grid -->
   <section style="display: flex; flex-direction: column; gap: 16px; max-width: 1100px; margin: 0 auto; padding: 32px 80px;">
     <div style="display: flex; gap: 16px;">
-      <div style="flex: 1;" id="demo-palette"></div>
-      <div style="flex: 1;" id="demo-harmony"></div>
+      <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Basic palette</span></div><div id="demo-palette"></div></div>
+      <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Harmonies</span></div><div id="demo-harmony"></div></div>
     </div>
     <div style="display: flex; gap: 16px;">
-      <div style="flex: 1;" id="demo-contrast"></div>
-      <div style="flex: 1;" id="demo-colorspace"></div>
+      <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Contrast lint</span></div><div id="demo-contrast"></div></div>
+      <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Color space</span></div><div id="demo-colorspace"></div></div>
     </div>
   </section>
 
@@ -286,7 +298,7 @@
     // ═══════════════════════════════════════
     // Hero terminal — generate a palette
     // ═══════════════════════════════════════
-    const hero = typetype('#demo-hero', { theme: 'dark', terminal: 'rampa — palette generator' });
+    const hero = typetype('#demo-hero', { theme: 'dark' });
     await hero.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), flag(' --size='), num('10'), flag(' -O'), val(' css')], { prefix: '$ ' });
     await hero.wait(500);
     await hero.line('Generating palette...', { instant: true, spinner: true, muted: true });
@@ -316,7 +328,7 @@
     // ═══════════════════════════════════════
     // Bento card — Range-based control
     // ═══════════════════════════════════════
-    const ranges = typetype('#demo-ranges', { theme: 'dark', terminal: 'Ranges' });
+    const ranges = typetype('#demo-ranges', { theme: 'dark' });
     await ranges.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), dim(' \\')], { prefix: '$ ', speed: 'fast' });
     await ranges.line([dim('  '), flag('--lightness-scale='), val('fibonacci'), flag(' -O'), val(' css')], { speed: 'fast' });
     ranges.cursor();
@@ -324,7 +336,7 @@
     // ═══════════════════════════════════════
     // Bento card — Color harmonies
     // ═══════════════════════════════════════
-    const harmonies = typetype('#demo-harmonies', { theme: 'dark', terminal: 'Harmonies' });
+    const harmonies = typetype('#demo-harmonies', { theme: 'dark' });
     await harmonies.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), dim(' \\')], { prefix: '$ ', speed: 'fast' });
     await harmonies.line([dim('  '), flag('--add='), val('complementary'), flag(' --add='), val('analogous')], { speed: 'fast' });
     harmonies.cursor();
@@ -332,13 +344,13 @@
     // ═══════════════════════════════════════
     // Bento card — Color conversion
     // ═══════════════════════════════════════
-    const convert = typetype('#demo-convert', { theme: 'dark', terminal: 'Convert' });
+    const convert = typetype('#demo-convert', { theme: 'dark' });
     await convert.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --read-only'), dim(' \\')], { prefix: '$ ', speed: 'fast' });
     await convert.line([dim('  '), flag('-O'), val(' json'), flag(' -F'), val(' hsl')], { speed: 'fast' });
     convert.cursor();
 
     // Bento card — Color conversion output
-    const convertOut = typetype('#demo-convert-output', { theme: 'dark', terminal: 'Output' });
+    const convertOut = typetype('#demo-convert-output', { theme: 'dark' });
     await convertOut.line([dim('{ '), val('"color"'), dim(': {')], { instant: true });
     await convertOut.line([dim('    '), val('"value"'), dim(': '), val('"hsl(217, 91%, 60%)"'), dim(',')], { instant: true });
     await convertOut.line([dim('    '), val('"hsl"'), dim(': { '), prop('h'), dim(': '), num('217'), dim(', '), prop('s'), dim(': '), num('91'), dim(', '), prop('l'), dim(': '), num('60'), dim(' }')], { instant: true });
@@ -348,7 +360,7 @@
     // ═══════════════════════════════════════
     // Bento card — Contrast lint
     // ═══════════════════════════════════════
-    const lint = typetype('#demo-lint', { theme: 'dark', terminal: 'Lint' });
+    const lint = typetype('#demo-lint', { theme: 'dark' });
     await lint.line([cmd('rampa lint'), flag(' --fg'), val(" '#fff'"), flag(' --bg'), val(" '#1e1e2e'")], { prefix: '$ ', speed: 'fast' });
     await lint.wait(300);
     await lint.line('', { instant: true });
@@ -360,7 +372,7 @@
     // ═══════════════════════════════════════
     // CLI Examples — Basic palette with swatches
     // ═══════════════════════════════════════
-    const palette = typetype('#demo-palette', { theme: 'dark', terminal: 'Basic palette' });
+    const palette = typetype('#demo-palette', { theme: 'dark' });
     await palette.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --size='), num('5'), flag(' -O'), val(' css')], { prefix: '$ ' });
     await palette.wait(400);
     await palette.line('Generating palette...', { instant: true, spinner: true, muted: true });
@@ -385,7 +397,7 @@
     // ═══════════════════════════════════════
     // CLI Examples — Harmonies with swatches
     // ═══════════════════════════════════════
-    const harmony = typetype('#demo-harmony', { theme: 'dark', terminal: 'Harmonies' });
+    const harmony = typetype('#demo-harmony', { theme: 'dark' });
     await harmony.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --add='), val('complementary'), dim(' \\')], { prefix: '$ ' });
     await harmony.line([dim('  '), flag('--size='), num('5'), flag(' -O'), val(' css')], { speed: 'fast' });
     await harmony.wait(400);
@@ -423,7 +435,7 @@
     // ═══════════════════════════════════════
     // CLI Examples — Contrast lint (full output)
     // ═══════════════════════════════════════
-    const contrast = typetype('#demo-contrast', { theme: 'dark', terminal: 'Contrast lint' });
+    const contrast = typetype('#demo-contrast', { theme: 'dark' });
     await contrast.line([cmd('rampa lint'), flag(' --fg'), val(" '#fff'"), flag(' --bg'), val(" '#1e1e2e'")], { prefix: '$ ' });
     await contrast.wait(400);
     await contrast.line('', { instant: true });
@@ -444,7 +456,7 @@
     // ═══════════════════════════════════════
     // CLI Examples — Color space with swatches
     // ═══════════════════════════════════════
-    const cs = typetype('#demo-colorspace', { theme: 'dark', terminal: 'Color space' });
+    const cs = typetype('#demo-colorspace', { theme: 'dark' });
     await cs.line([cmd('rampa colorspace'), dim(' \\')], { prefix: '$ ' });
     await cs.line([dim('  '), flag('--linear'), val(' from=#1e1e2e'), val(' to=#f38ba8'), dim(' \\')], { speed: 'fast' });
     await cs.line([dim('  '), flag('--size'), num(' 6'), flag(' -O'), val(' css')], { speed: 'fast' });
