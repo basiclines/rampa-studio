@@ -1,6 +1,6 @@
 /**
  * Vanilla JS entry point for rampa-sdk.
- * Builds as an IIFE that exposes `window.Rampa`.
+ * Builds as an IIFE that exposes `globalThis.Rampa` (e.g. `window.Rampa` in browsers).
  *
  * Usage:
  *   <script src="rampa-sdk.min.js"></script>
