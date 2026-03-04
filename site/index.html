@@ -282,8 +282,9 @@
     }
   </script>
 
-  <script type="module">
+<script type="module">
     import { typetype } from 'https://unpkg.com/@adrianmg/typetype@0.1.0/dist/index.js';
+    const wait = (ms) => new Promise(r => setTimeout(r, ms));
 
     // Shorthand for colored segments
     const cmd = (t) => ({ text: t, className: 'tt-cmd' });
@@ -295,190 +296,191 @@
     const prop = (t) => ({ text: t, className: 'tt-prop' });
     const dim = (t) => ({ text: t, muted: true });
 
-    // ═══════════════════════════════════════
-    // Hero terminal — generate a palette
-    // ═══════════════════════════════════════
-    const hero = typetype('#demo-hero', { theme: 'dark' });
-    await hero.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), flag(' --size='), num('10'), flag(' -O'), val(' css')], { prefix: '$ ' });
-    await hero.wait(500);
-    await hero.line('Generating palette...', { instant: true, spinner: true, muted: true });
-    await hero.wait(700);
-    await hero.delete(1);
-    await hero.line('', { instant: true });
-
+    // Color palettes
     const heroColors = ['#e7f3fe','#bcdbf8','#97c0ed','#76a3de','#5b87c9','#486cab','#44577f','#3b4359','#2d2f37','#191919'];
-    const heroSwatches = heroColors.map(c => ({ text: '██', className: 'tt-cmd', }));
-    // Show swatch line with actual colored inline styles — use className per swatch
-    await hero.line(heroColors.map((c,i) => ({ text: '██ ', className: `tt-swatch-${i}` })), { instant: true });
-
-    await hero.line('', { instant: true });
-    await hero.line([kw(':root'), dim(' {')], { instant: true });
-    await hero.line([dim('  '), comment('/* base */')], { instant: true });
-    for (let i = 0; i < heroColors.length; i++) {
-      await hero.line([dim('  '), prop(`--base-${i}`), dim(': '), val(heroColors[i]), dim(';')], { instant: true });
-    }
-    await hero.line(dim('}'), { instant: true });
-    hero.cursor();
-
-    // Inject swatch colors via CSS
-    const swatchStyle = document.createElement('style');
-    swatchStyle.textContent = heroColors.map((c, i) => `.tt-swatch-${i} { color: ${c} !important; }`).join('\n');
-    document.head.appendChild(swatchStyle);
-
-    // ═══════════════════════════════════════
-    // Bento card — Range-based control
-    // ═══════════════════════════════════════
-    const ranges = typetype('#demo-ranges', { theme: 'dark' });
-    await ranges.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), dim(' \\')], { prefix: '$ ', speed: 'fast' });
-    await ranges.line([dim('  '), flag('--lightness-scale='), val('fibonacci'), flag(' -O'), val(' css')], { speed: 'fast' });
-    ranges.cursor();
-
-    // ═══════════════════════════════════════
-    // Bento card — Color harmonies
-    // ═══════════════════════════════════════
-    const harmonies = typetype('#demo-harmonies', { theme: 'dark' });
-    await harmonies.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), dim(' \\')], { prefix: '$ ', speed: 'fast' });
-    await harmonies.line([dim('  '), flag('--add='), val('complementary'), flag(' --add='), val('analogous')], { speed: 'fast' });
-    harmonies.cursor();
-
-    // ═══════════════════════════════════════
-    // Bento card — Color conversion
-    // ═══════════════════════════════════════
-    const convert = typetype('#demo-convert', { theme: 'dark' });
-    await convert.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --read-only'), dim(' \\')], { prefix: '$ ', speed: 'fast' });
-    await convert.line([dim('  '), flag('-O'), val(' json'), flag(' -F'), val(' hsl')], { speed: 'fast' });
-    convert.cursor();
-
-    // Bento card — Color conversion output
-    const convertOut = typetype('#demo-convert-output', { theme: 'dark' });
-    await convertOut.line([dim('{ '), val('"color"'), dim(': {')], { instant: true });
-    await convertOut.line([dim('    '), val('"value"'), dim(': '), val('"hsl(217, 91%, 60%)"'), dim(',')], { instant: true });
-    await convertOut.line([dim('    '), val('"hsl"'), dim(': { '), prop('h'), dim(': '), num('217'), dim(', '), prop('s'), dim(': '), num('91'), dim(', '), prop('l'), dim(': '), num('60'), dim(' }')], { instant: true });
-    await convertOut.line(dim('  }'), { instant: true });
-    await convertOut.line(dim('}'), { instant: true });
-
-    // ═══════════════════════════════════════
-    // Bento card — Contrast lint
-    // ═══════════════════════════════════════
-    const lint = typetype('#demo-lint', { theme: 'dark' });
-    await lint.line([cmd('rampa lint'), flag(' --fg'), val(" '#fff'"), flag(' --bg'), val(" '#1e1e2e'")], { prefix: '$ ', speed: 'fast' });
-    await lint.wait(300);
-    await lint.line('', { instant: true });
-    await lint.line([cmd('Contrast Lint'), dim(' (APCA)')], { instant: true });
-    await lint.line([dim('  APCA Lc: '), num('-105.82')], { instant: true });
-    await lint.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Body text (Lc >= 75)')], { instant: true });
-    lint.cursor();
-
-    // ═══════════════════════════════════════
-    // CLI Examples — Basic palette with swatches
-    // ═══════════════════════════════════════
-    const palette = typetype('#demo-palette', { theme: 'dark' });
-    await palette.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --size='), num('5'), flag(' -O'), val(' css')], { prefix: '$ ' });
-    await palette.wait(400);
-    await palette.line('Generating palette...', { instant: true, spinner: true, muted: true });
-    await palette.wait(700);
-    await palette.delete(1);
-    await palette.line('', { instant: true });
-
     const palColors = ['#000000','#143d6b','#4572ba','#b1b9ce','#ffffff'];
-    const palSwatchStyle = document.createElement('style');
-    palSwatchStyle.textContent = palColors.map((c, i) => `.tt-pal-${i} { color: ${c} !important; }`).join('\n');
-    document.head.appendChild(palSwatchStyle);
-    await palette.line(palColors.map((c,i) => ({ text: '████ ', className: `tt-pal-${i}` })), { instant: true });
-
-    await palette.line('', { instant: true });
-    await palette.line([kw(':root'), dim(' {')], { instant: true });
-    for (let i = 0; i < palColors.length; i++) {
-      await palette.line([dim('  '), prop(`--base-${i}`), dim(': '), val(palColors[i]), dim(';')], { instant: true });
-    }
-    await palette.line(dim('}'), { instant: true });
-    palette.cursor();
-
-    // ═══════════════════════════════════════
-    // CLI Examples — Harmonies with swatches
-    // ═══════════════════════════════════════
-    const harmony = typetype('#demo-harmony', { theme: 'dark' });
-    await harmony.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --add='), val('complementary'), dim(' \\')], { prefix: '$ ' });
-    await harmony.line([dim('  '), flag('--size='), num('5'), flag(' -O'), val(' css')], { speed: 'fast' });
-    await harmony.wait(400);
-    await harmony.line('Generating palette...', { instant: true, spinner: true, muted: true });
-    await harmony.wait(700);
-    await harmony.delete(1);
-    await harmony.line('', { instant: true });
-
     const baseH = ['#000000','#143d6b','#4572ba','#b1b9ce','#ffffff'];
     const compH = ['#000000','#6b4314','#ba8d45','#cec5b1','#ffffff'];
-    const harmStyle = document.createElement('style');
-    harmStyle.textContent = [
-      ...baseH.map((c, i) => `.tt-hb-${i} { color: ${c} !important; }`),
-      ...compH.map((c, i) => `.tt-hc-${i} { color: ${c} !important; }`)
-    ].join('\n');
-    document.head.appendChild(harmStyle);
-
-    await harmony.line([dim('base:  '), ...baseH.map((c,i) => ({ text: '████ ', className: `tt-hb-${i}` }))], { instant: true });
-    await harmony.line([dim('comp:  '), ...compH.map((c,i) => ({ text: '████ ', className: `tt-hc-${i}` }))], { instant: true });
-
-    await harmony.line('', { instant: true });
-    await harmony.line([kw(':root'), dim(' {')], { instant: true });
-    await harmony.line([dim('  '), comment('/* base */')], { instant: true });
-    for (let i = 0; i < baseH.length; i++) {
-      await harmony.line([dim('  '), prop(`--base-${i}`), dim(': '), val(baseH[i]), dim(';')], { instant: true });
-    }
-    await harmony.line('', { instant: true });
-    await harmony.line([dim('  '), comment('/* complementary */')], { instant: true });
-    for (let i = 0; i < compH.length; i++) {
-      await harmony.line([dim('  '), prop(`--comp-${i}`), dim(': '), val(compH[i]), dim(';')], { instant: true });
-    }
-    await harmony.line(dim('}'), { instant: true });
-    harmony.cursor();
-
-    // ═══════════════════════════════════════
-    // CLI Examples — Contrast lint (full output)
-    // ═══════════════════════════════════════
-    const contrast = typetype('#demo-contrast', { theme: 'dark' });
-    await contrast.line([cmd('rampa lint'), flag(' --fg'), val(" '#fff'"), flag(' --bg'), val(" '#1e1e2e'")], { prefix: '$ ' });
-    await contrast.wait(400);
-    await contrast.line('', { instant: true });
-    await contrast.line([cmd('Contrast Lint'), dim(' (APCA)')], { instant: true });
-    await contrast.line('', { instant: true });
-    await contrast.line([dim('  Foreground:  '), val('#ffffff')], { instant: true });
-    await contrast.line([dim('  Background:  '), val('#1e1e2e')], { instant: true });
-    await contrast.line([dim('  APCA Lc:     '), num('-105.82')], { instant: true });
-    await contrast.line('', { instant: true });
-    await contrast.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Preferred body text  (Lc >= 90)')], { instant: true });
-    await contrast.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Body text  (Lc >= 75)')], { instant: true });
-    await contrast.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Large text  (Lc >= 60)')], { instant: true });
-    await contrast.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Non-text  (Lc >= 15)')], { instant: true });
-    await contrast.line('', { instant: true });
-    await contrast.line([{ text: '  ▲ Warning', className: 'text-yellow' }, dim('  Pure #ffffff — consider #eeeeee')], { instant: true });
-    contrast.cursor();
-
-    // ═══════════════════════════════════════
-    // CLI Examples — Color space with swatches
-    // ═══════════════════════════════════════
-    const cs = typetype('#demo-colorspace', { theme: 'dark' });
-    await cs.line([cmd('rampa colorspace'), dim(' \\')], { prefix: '$ ' });
-    await cs.line([dim('  '), flag('--linear'), val(' from=#1e1e2e'), val(' to=#f38ba8'), dim(' \\')], { speed: 'fast' });
-    await cs.line([dim('  '), flag('--size'), num(' 6'), flag(' -O'), val(' css')], { speed: 'fast' });
-    await cs.wait(400);
-    await cs.line('Generating palette...', { instant: true, spinner: true, muted: true });
-    await cs.wait(600);
-    await cs.delete(1);
-    await cs.line('', { instant: true });
-
     const csColors = ['#1e1e2e','#3e2d3f','#613e52','#865167','#ac677e','#f38ba8'];
-    const csStyle = document.createElement('style');
-    csStyle.textContent = csColors.map((c, i) => `.tt-cs-${i} { color: ${c} !important; }`).join('\n');
-    document.head.appendChild(csStyle);
-    await cs.line(csColors.map((c,i) => ({ text: '████ ', className: `tt-cs-${i}` })), { instant: true });
 
-    await cs.line('', { instant: true });
-    await cs.line([kw(':root'), dim(' {')], { instant: true });
-    for (let i = 0; i < csColors.length; i++) {
-      await cs.line([dim('  '), prop(`--space-${i}`), dim(': '), val(csColors[i]), dim(';')], { instant: true });
+    // Inject all swatch color styles once
+    const styleEl = document.createElement('style');
+    styleEl.textContent = [
+      ...heroColors.map((c, i) => `.tt-swatch-${i} { color: ${c} !important; }`),
+      ...palColors.map((c, i) => `.tt-pal-${i} { color: ${c} !important; }`),
+      ...baseH.map((c, i) => `.tt-hb-${i} { color: ${c} !important; }`),
+      ...compH.map((c, i) => `.tt-hc-${i} { color: ${c} !important; }`),
+      ...csColors.map((c, i) => `.tt-cs-${i} { color: ${c} !important; }`)
+    ].join('
+');
+    document.head.appendChild(styleEl);
+
+    // Set fixed min-heights to prevent layout shift
+    const heights = {
+      'demo-hero': 420, 'demo-ranges': 70, 'demo-harmonies': 70,
+      'demo-convert': 70, 'demo-convert-output': 140, 'demo-lint': 170,
+      'demo-palette': 280, 'demo-harmony': 380, 'demo-contrast': 340, 'demo-colorspace': 300
+    };
+    for (const [id, h] of Object.entries(heights)) {
+      const el = document.getElementById(id);
+      if (el) el.style.minHeight = h + 'px';
     }
-    await cs.line(dim('}'), { instant: true });
-    cs.cursor();
+
+    // Looping wrapper: run demo, hold, clear, repeat
+    function loop(selector, fn, delay = 3000) {
+      const t = typetype(selector, { theme: 'dark' });
+      (async () => {
+        while (true) {
+          await fn(t);
+          await wait(delay);
+          t.clear();
+          await wait(500);
+        }
+      })();
+    }
+
+    // Hero terminal
+    loop('#demo-hero', async (t) => {
+      await t.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), flag(' --size='), num('10'), flag(' -O'), val(' css')], { prefix: '$ ' });
+      await t.wait(500);
+      await t.line('Generating palette...', { instant: true, spinner: true, muted: true });
+      await t.wait(700);
+      await t.delete(1);
+      await t.line('', { instant: true });
+      await t.line(heroColors.map((c,i) => ({ text: '██ ', className: `tt-swatch-${i}` })), { instant: true });
+      await t.line('', { instant: true });
+      await t.line([kw(':root'), dim(' {')], { instant: true });
+      await t.line([dim('  '), comment('/* base */')], { instant: true });
+      for (let i = 0; i < heroColors.length; i++) {
+        await t.line([dim('  '), prop(`--base-${i}`), dim(': '), val(heroColors[i]), dim(';')], { instant: true });
+      }
+      await t.line(dim('}'), { instant: true });
+      t.cursor();
+    }, 5000);
+
+    // Bento — Ranges
+    loop('#demo-ranges', async (t) => {
+      await t.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), dim(' \')], { prefix: '$ ', speed: 'fast' });
+      await t.line([dim('  '), flag('--lightness-scale='), val('fibonacci'), flag(' -O'), val(' css')], { speed: 'fast' });
+      t.cursor();
+    }, 4000);
+
+    // Bento — Harmonies
+    loop('#demo-harmonies', async (t) => {
+      await t.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), dim(' \')], { prefix: '$ ', speed: 'fast' });
+      await t.line([dim('  '), flag('--add='), val('complementary'), flag(' --add='), val('analogous')], { speed: 'fast' });
+      t.cursor();
+    }, 4000);
+
+    // Bento — Convert
+    loop('#demo-convert', async (t) => {
+      await t.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --read-only'), dim(' \')], { prefix: '$ ', speed: 'fast' });
+      await t.line([dim('  '), flag('-O'), val(' json'), flag(' -F'), val(' hsl')], { speed: 'fast' });
+      t.cursor();
+    }, 4000);
+
+    loop('#demo-convert-output', async (t) => {
+      await t.line([dim('{ '), val('"color"'), dim(': {')], { instant: true });
+      await t.line([dim('    '), val('"value"'), dim(': '), val('"hsl(217, 91%, 60%)"'), dim(',')], { instant: true });
+      await t.line([dim('    '), val('"hsl"'), dim(': { '), prop('h'), dim(': '), num('217'), dim(', '), prop('s'), dim(': '), num('91'), dim(', '), prop('l'), dim(': '), num('60'), dim(' }')], { instant: true });
+      await t.line(dim('  }'), { instant: true });
+      await t.line(dim('}'), { instant: true });
+    }, 4000);
+
+    // Bento — Lint
+    loop('#demo-lint', async (t) => {
+      await t.line([cmd('rampa lint'), flag(' --fg'), val(" '#fff'"), flag(' --bg'), val(" '#1e1e2e'")], { prefix: '$ ', speed: 'fast' });
+      await t.wait(300);
+      await t.line('', { instant: true });
+      await t.line([cmd('Contrast Lint'), dim(' (APCA)')], { instant: true });
+      await t.line([dim('  APCA Lc: '), num('-105.82')], { instant: true });
+      await t.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Body text (Lc >= 75)')], { instant: true });
+      t.cursor();
+    }, 4000);
+
+    // CLI Examples — Basic palette
+    loop('#demo-palette', async (t) => {
+      await t.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --size='), num('5'), flag(' -O'), val(' css')], { prefix: '$ ' });
+      await t.wait(400);
+      await t.line('Generating palette...', { instant: true, spinner: true, muted: true });
+      await t.wait(700);
+      await t.delete(1);
+      await t.line('', { instant: true });
+      await t.line(palColors.map((c,i) => ({ text: '████ ', className: `tt-pal-${i}` })), { instant: true });
+      await t.line('', { instant: true });
+      await t.line([kw(':root'), dim(' {')], { instant: true });
+      for (let i = 0; i < palColors.length; i++) {
+        await t.line([dim('  '), prop(`--base-${i}`), dim(': '), val(palColors[i]), dim(';')], { instant: true });
+      }
+      await t.line(dim('}'), { instant: true });
+      t.cursor();
+    }, 4000);
+
+    // CLI Examples — Harmonies
+    loop('#demo-harmony', async (t) => {
+      await t.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' --add='), val('complementary'), dim(' \')], { prefix: '$ ' });
+      await t.line([dim('  '), flag('--size='), num('5'), flag(' -O'), val(' css')], { speed: 'fast' });
+      await t.wait(400);
+      await t.line('Generating palette...', { instant: true, spinner: true, muted: true });
+      await t.wait(700);
+      await t.delete(1);
+      await t.line('', { instant: true });
+      await t.line([dim('base:  '), ...baseH.map((c,i) => ({ text: '████ ', className: `tt-hb-${i}` }))], { instant: true });
+      await t.line([dim('comp:  '), ...compH.map((c,i) => ({ text: '████ ', className: `tt-hc-${i}` }))], { instant: true });
+      await t.line('', { instant: true });
+      await t.line([kw(':root'), dim(' {')], { instant: true });
+      await t.line([dim('  '), comment('/* base */')], { instant: true });
+      for (let i = 0; i < baseH.length; i++) {
+        await t.line([dim('  '), prop(`--base-${i}`), dim(': '), val(baseH[i]), dim(';')], { instant: true });
+      }
+      await t.line('', { instant: true });
+      await t.line([dim('  '), comment('/* complementary */')], { instant: true });
+      for (let i = 0; i < compH.length; i++) {
+        await t.line([dim('  '), prop(`--comp-${i}`), dim(': '), val(compH[i]), dim(';')], { instant: true });
+      }
+      await t.line(dim('}'), { instant: true });
+      t.cursor();
+    }, 4000);
+
+    // CLI Examples — Contrast lint
+    loop('#demo-contrast', async (t) => {
+      await t.line([cmd('rampa lint'), flag(' --fg'), val(" '#fff'"), flag(' --bg'), val(" '#1e1e2e'")], { prefix: '$ ' });
+      await t.wait(400);
+      await t.line('', { instant: true });
+      await t.line([cmd('Contrast Lint'), dim(' (APCA)')], { instant: true });
+      await t.line('', { instant: true });
+      await t.line([dim('  Foreground:  '), val('#ffffff')], { instant: true });
+      await t.line([dim('  Background:  '), val('#1e1e2e')], { instant: true });
+      await t.line([dim('  APCA Lc:     '), num('-105.82')], { instant: true });
+      await t.line('', { instant: true });
+      await t.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Preferred body text  (Lc >= 90)')], { instant: true });
+      await t.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Body text  (Lc >= 75)')], { instant: true });
+      await t.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Large text  (Lc >= 60)')], { instant: true });
+      await t.line([{ text: '  ● Pass', className: 'text-green' }, dim('  Non-text  (Lc >= 15)')], { instant: true });
+      await t.line('', { instant: true });
+      await t.line([{ text: '  ▲ Warning', className: 'text-yellow' }, dim('  Pure #ffffff — consider #eeeeee')], { instant: true });
+      t.cursor();
+    }, 4000);
+
+    // CLI Examples — Color space
+    loop('#demo-colorspace', async (t) => {
+      await t.line([cmd('rampa colorspace'), dim(' \')], { prefix: '$ ' });
+      await t.line([dim('  '), flag('--linear'), val(' from=#1e1e2e'), val(' to=#f38ba8'), dim(' \')], { speed: 'fast' });
+      await t.line([dim('  '), flag('--size'), num(' 6'), flag(' -O'), val(' css')], { speed: 'fast' });
+      await t.wait(400);
+      await t.line('Generating palette...', { instant: true, spinner: true, muted: true });
+      await t.wait(600);
+      await t.delete(1);
+      await t.line('', { instant: true });
+      await t.line(csColors.map((c,i) => ({ text: '████ ', className: `tt-cs-${i}` })), { instant: true });
+      await t.line('', { instant: true });
+      await t.line([kw(':root'), dim(' {')], { instant: true });
+      for (let i = 0; i < csColors.length; i++) {
+        await t.line([dim('  '), prop(`--space-${i}`), dim(': '), val(csColors[i]), dim(';')], { instant: true });
+      }
+      await t.line(dim('}'), { instant: true });
+      t.cursor();
+    }, 4000);
   </script>
 
 </body>
