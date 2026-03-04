@@ -13,6 +13,8 @@ const BG_HEX = '#0a0a0a';
 
 const GAP_PX = 0;
 const CUBE_PX = 48;
+const CUBE_SCALE_ANIM = 0.5;  // cube geometry half-size at rest (>0.5 = overlap to hide gaps)
+const CUBE_SCALE_REST = 0.95; // cube geometry half-size at mid-rotation
 const STAGGER = 0.08;
 const ROT_DUR = 1.8;
 const PAUSE = 2.0;
@@ -113,7 +115,7 @@ const uFC = [];
 for (let i = 0; i < 6; i++) uFC.push(gl.getUniformLocation(p, `uFC[${i}]`));
 
 // Cube geometry
-const S = 0.5;
+const S = CUBE_SCALE_ANIM;
 const F = [
   {n:[1,0,0], v:[[S,-S,-S],[S,S,-S],[S,S,S],[S,-S,-S],[S,S,S],[S,-S,S]]},
   {n:[-1,0,0], v:[[-S,S,-S],[-S,-S,-S],[-S,-S,S],[-S,S,-S],[-S,-S,S],[-S,S,S]]},
@@ -221,6 +223,10 @@ function frame() {
       const rx = from[0] + (to[0] - from[0]) * t;
       const ry = from[1] + (to[1] - from[1]) * t;
 
+      // Animated scale: full at rest (t=0,1), shrink at mid-rotation (t=0.5)
+      const scaleLerp = 1 - Math.sin(t * Math.PI); // 0 at edges, 1 at midpoint
+      const animScale = CUBE_SCALE_ANIM + (CUBE_SCALE_REST - CUBE_SCALE_ANIM) * scaleLerp;
+
       // Position: center of each cell, Y flipped (screen coords)
       const px = c * cell + CUBE_PX / 2;
       const py = H - (r * cell + CUBE_PX / 2);
@@ -228,7 +234,7 @@ function frame() {
       let m = tr(px, py, 0);
       m = mul(m, rX(rx));
       m = mul(m, rY(ry));
-      m = mul(m, sc(cubeScale));
+      m = mul(m, sc(cubeScale * animScale / CUBE_SCALE_ANIM));
 
       gl.uniformMatrix4fv(uMo, false, m);
       gl.drawArrays(gl.TRIANGLES, 0, 36);
