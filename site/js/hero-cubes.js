@@ -45,7 +45,6 @@ let cachedRows = 0;
 let faceStep = 1;
 
 function buildGrid(cols, rows) {
-  if (cols === cachedCols && rows === cachedRows) return;
   cachedCols = cols;
   cachedRows = rows;
 
@@ -89,12 +88,26 @@ function buildGrid(cols, rows) {
 }
 
 const canvas = document.getElementById('c');
+let prevCols = 0, prevRows = 0;
+let glReady = false;
 function resize() {
-  const parent = canvas.parentElement;
-  const w = parent ? parent.offsetWidth : window.innerWidth;
-  const h = parent ? parent.offsetHeight : window.innerHeight;
+  const w = window.innerWidth;
+  const h = canvas.parentElement ? canvas.parentElement.offsetHeight : window.innerHeight;
+  canvas.style.width = w + 'px';
+  canvas.style.height = h + 'px';
   canvas.width = w * devicePixelRatio;
   canvas.height = h * devicePixelRatio;
+  // Only rebuild grid when column/row count changes (expensive)
+  const cell = CUBE_PX + GAP_PX;
+  const cols = Math.ceil(w / cell) + 1;
+  const rows = Math.ceil(h / cell) + 1;
+  if (cols !== prevCols || rows !== prevRows) {
+    prevCols = cols;
+    prevRows = rows;
+    buildGrid(cols, rows);
+  }
+  // Always redraw immediately to avoid black flash
+  if (glReady) frame();
 }
 resize();
 window.addEventListener('resize', resize);
@@ -207,7 +220,7 @@ function ortho(l, r, b, t, n, f) {
 
 gl.uniform3f(uLD, 0.5, 0.8, 1.0);
 
-let prevCols = 0, prevRows = 0;
+
 const startTime = performance.now() / 1000;
 
 function frame() {
@@ -245,19 +258,15 @@ function frame() {
       const t = ease(lt);
 
       // Each face picks a color stepped by faceStep along the grid columns.
-      // Face 0 (front at rest) = grid[c], face 1 = grid[c + faceStep], etc.
-      // Since rotations cycle through faces, each rest position shows a
-      // different color — no color interpolation, just the rotation effect.
-      const ci = cubeCycle % FR.length;
-      const fi = cubeCycle % FR.length;
-      const ti = (cubeCycle + 1) % FR.length;
-
+      // Offset by -4 so that face 4 (+Z, the front at rest) shows grid[c]
       for (let i = 0; i < 6; i++) {
-        var fc_col = ((c + i * faceStep) % cols + cols) % cols;
+        var fc_col = ((c + ((i + 2) % 6) * faceStep) % cols + cols) % cols;
         var fc = grid[fc_col] ? grid[fc_col][r] : BG_GL;
         gl.uniform3f(uFC[i], fc[0], fc[1], fc[2]);
       }
 
+      const fi = cubeCycle % FR.length;
+      const ti = (cubeCycle + 1) % FR.length;
       const from = FR[fi], to = FR[ti];
       const rx = from[0] + (to[0] - from[0]) * t;
       const ry = from[1] + (to[1] - from[1]) * t;
@@ -281,4 +290,5 @@ function frame() {
   }
   requestAnimationFrame(frame);
 }
+glReady = true;
 frame();
