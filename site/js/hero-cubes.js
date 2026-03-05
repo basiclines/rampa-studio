@@ -1,53 +1,91 @@
 // ==========================================
-// CONFIGURABLE COLORS as hex — change at runtime
+// Read anchor colors from Rampa theme (or fallback)
 // ==========================================
-const COLOR_HEXES = window.CUBE_COLORS_HEX || [
-  '#ee5555',  // Red
-  '#4dc066',  // Green
-  '#5c87f5',  // Blue
-  '#f2d94d',  // Yellow
-  '#cc73f2',  // Magenta
-  '#4dd9d9',  // Cyan
+const THEME = (window.RampaTheme && window.RampaTheme.defaults) || {
+  foreground: '#0a0a0a',
+  background: '#fafafa',
+  red:     '#ef4444',
+  green:   '#22c55e',
+  blue:    '#3b82f6',
+  cyan:    '#06b6d4',
+  magenta: '#a855f7',
+  yellow:  '#eab308',
+};
+
+// Ordered anchor hues — evenly distributed across the row, wrapping back to first
+const ANCHOR_COLORS = [
+  THEME.red, THEME.green, THEME.blue,
+  THEME.cyan, THEME.magenta, THEME.yellow,
 ];
-const BG_HEX = '#0a0a0a';
+const BG_HEX = THEME.foreground;
 
 const GAP_PX = 0;
 const CUBE_PX = 48;
-const CUBE_SCALE_ANIM = 0.5;  // cube geometry half-size at rest (>0.5 = overlap to hide gaps)
-const CUBE_SCALE_REST = 0.95; // cube geometry half-size at mid-rotation
+const CUBE_SCALE_ANIM = 0.5;
+const CUBE_SCALE_REST = 0.95;
 const STAGGER = 0.08;
 const ROT_DUR = 1.8;
 const PAUSE = 8.0;
-const BG = [0.04, 0.04, 0.04];
 
-// Parse hex to [r,g,b] 0-1
 function hexToGL(hex) {
   const h = hex.replace('#','');
   return [parseInt(h.slice(0,2),16)/255, parseInt(h.slice(2,4),16)/255, parseInt(h.slice(4,6),16)/255];
 }
 
-// Linear interpolation in sRGB between two GL colors
-function lerpColor(a, b, t) {
-  return [a[0]+(b[0]-a[0])*t, a[1]+(b[1]-a[1])*t, a[2]+(b[2]-a[2])*t];
-}
-
 const BG_GL = hexToGL(BG_HEX);
-const COLOR_GLS = COLOR_HEXES.map(hexToGL);
 
-// Pre-computed ramps: ramps[colorIndex][row] = [r,g,b]
-let ramps = [];
+// Build a cols × rows color grid using Rampa SDK
+// Top row: anchors placed evenly, gaps filled via LinearColorSpace
+// Each column: fades from top-row color → background via LinearColorSpace
+let grid = [];      // grid[col][row] = [r,g,b] GL color
+let cachedCols = 0;
 let cachedRows = 0;
-function buildRamps(rows) {
-  if (rows === cachedRows) return;
+
+// Steps between anchor colors (for face offset calculation)
+let faceStep = 1;
+
+function buildGrid(cols, rows) {
+  if (cols === cachedCols && rows === cachedRows) return;
+  cachedCols = cols;
   cachedRows = rows;
-  ramps = COLOR_GLS.map(col => {
-    const result = [];
-    for (let i = 0; i < rows; i++) {
-      const t = rows <= 1 ? 1 : i / (rows - 1);
-      result.push(lerpColor(BG_GL, col, t));
+
+  // 1. Compute anchor column positions (evenly spaced, wrapping)
+  var n = ANCHOR_COLORS.length;
+  var spacing = cols / n;
+  faceStep = Math.max(1, Math.floor(spacing));
+  var anchorCols = [];
+  for (var i = 0; i < n; i++) {
+    anchorCols.push(Math.round(i * spacing));
+  }
+
+  // 2. Build top row by interpolating between anchors
+  var topRow = new Array(cols);
+  for (var seg = 0; seg < n; seg++) {
+    var fromCol = anchorCols[seg];
+    var toCol = seg < n - 1 ? anchorCols[seg + 1] : cols;
+    var fromHex = ANCHOR_COLORS[seg];
+    var toHex = ANCHOR_COLORS[(seg + 1) % n];
+    var segLen = toCol - fromCol;
+    if (segLen <= 0) continue;
+    var ramp = new Rampa.LinearColorSpace(fromHex, toHex).size(segLen);
+    for (var j = 0; j < segLen; j++) {
+      topRow[fromCol + j] = '' + ramp(j + 1);
     }
-    return result;
-  });
+  }
+  // Fill any remaining cols (shouldn't happen, but safety)
+  for (var c = 0; c < cols; c++) {
+    if (!topRow[c]) topRow[c] = ANCHOR_COLORS[ANCHOR_COLORS.length - 1];
+  }
+
+  // 3. For each column, fade from top-row color → background
+  grid = new Array(cols);
+  for (var c = 0; c < cols; c++) {
+    var colRamp = new Rampa.LinearColorSpace(topRow[c], BG_HEX).size(Math.max(rows, 2));
+    grid[c] = new Array(rows);
+    for (var r = 0; r < rows; r++) {
+      grid[c][r] = hexToGL('' + colRamp(r + 1));
+    }
+  }
 }
 
 const canvas = document.getElementById('c');
@@ -135,7 +173,7 @@ gl.enableVertexAttribArray(aN);
 gl.vertexAttribPointer(aN, 3, gl.FLOAT, false, 24, 12);
 
 gl.enable(gl.DEPTH_TEST);
-gl.clearColor(BG[0], BG[1], BG[2], 1);
+gl.clearColor(BG_GL[0], BG_GL[1], BG_GL[2], 1);
 
 // Math
 function sub(a,b){return [a[0]-b[0],a[1]-b[1],a[2]-b[2]];}
@@ -150,15 +188,16 @@ function sc(s){return new Float32Array([s,0,0,0,0,s,0,0,0,0,s,0,0,0,0,1]);}
 
 function ease(t){return t<0.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;}
 
-// Face rotations reordered so every transition is a dramatic diagonal tumble
-// Each consecutive pair differs on BOTH axes → always a big compound flip
+// Face rotations — each entry exposes a unique geometric face to the camera.
+// Every consecutive pair differs on BOTH axes → dramatic diagonal tumble.
+// Visible face sequence: +Z, -Y, +X, +Y, -Z, -X (all 6, no repeats)
 const FR = [
-  [0, 0],                       // +Z front
-  [-Math.PI/2, Math.PI/2],      // top-right (diagonal tumble)
-  [Math.PI, 0],                 // -Z back (flip over X)
-  [Math.PI/2, -Math.PI/2],      // bottom-left (diagonal tumble)
-  [-Math.PI/2, Math.PI],        // top-back (diagonal tumble)
-  [Math.PI/2, Math.PI/2],       // bottom-right (diagonal tumble)
+  [0, 0],                        // face 4 (+Z front)
+  [Math.PI/2, -Math.PI/2],       // face 3 (-Y)
+  [Math.PI, Math.PI/2],          // face 0 (+X)
+  [-Math.PI/2, -Math.PI/2],      // face 2 (+Y)
+  [0, Math.PI],                  // face 5 (-Z)
+  [Math.PI, -Math.PI/2],         // face 1 (-X)
 ];
 
 // Orthographic projection for pixel-perfect cube sizing
@@ -182,7 +221,7 @@ function frame() {
 
   if (cols !== prevCols || rows !== prevRows) {
     prevCols = cols; prevRows = rows;
-    buildRamps(rows);
+    buildGrid(cols, rows);
   }
 
   const cycleLen = ROT_DUR + PAUSE;
@@ -205,21 +244,18 @@ function frame() {
       const lt = Math.min(1, phase);
       const t = ease(lt);
 
-      // Per-cube color + rotation derived from its own cycle
-      const ci = cubeCycle % COLOR_HEXES.length;
+      // Each face picks a color stepped by faceStep along the grid columns.
+      // Face 0 (front at rest) = grid[c], face 1 = grid[c + faceStep], etc.
+      // Since rotations cycle through faces, each rest position shows a
+      // different color — no color interpolation, just the rotation effect.
+      const ci = cubeCycle % FR.length;
       const fi = cubeCycle % FR.length;
       const ti = (cubeCycle + 1) % FR.length;
 
       for (let i = 0; i < 6; i++) {
-        const curIdx = (ci + i) % COLOR_HEXES.length;
-        const nxtIdx = (ci + 1 + i) % COLOR_HEXES.length;
-        const curColor = ramps[curIdx][rows - 1 - r];
-        const nxtColor = ramps[nxtIdx][rows - 1 - r];
-        gl.uniform3f(uFC[i],
-          curColor[0] + (nxtColor[0] - curColor[0]) * t,
-          curColor[1] + (nxtColor[1] - curColor[1]) * t,
-          curColor[2] + (nxtColor[2] - curColor[2]) * t
-        );
+        var fc_col = ((c + i * faceStep) % cols + cols) % cols;
+        var fc = grid[fc_col] ? grid[fc_col][r] : BG_GL;
+        gl.uniform3f(uFC[i], fc[0], fc[1], fc[2]);
       }
 
       const from = FR[fi], to = FR[ti];

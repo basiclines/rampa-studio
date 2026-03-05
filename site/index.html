@@ -13,30 +13,69 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/@adrianmg/typetype@0.1.0/dist/style.css">
+  <script src="js/rampa-sdk.min.js"></script>
+  <script src="js/theme.js" defer></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: #0a0a0a; color: #e5e5e5; font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    body { background: var(--n-1); color: var(--n-8); font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
     .mono { font-family: ui-monospace, 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace; }
     a { color: inherit; text-decoration: none; }
     pre, code { font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
     /* TypeType syntax color classes */
-    .tt-flag { color: #93c5fd !important; }
-    .tt-val { color: #86efac !important; }
-    .tt-cmd { color: #f9fafb !important; }
-    .tt-kw { color: #c4b5fd !important; }
-    .tt-num { color: #fbbf24 !important; }
-    .tt-comment { color: #6b7280 !important; }
-    .tt-prop { color: #93c5fd !important; }
+    .tt-flag { color: var(--b-6-7) !important; }
+    .tt-val { color: var(--g-6-7) !important; }
+    .tt-cmd { color: var(--n-10) !important; }
+    .tt-kw { color: var(--m-6-7) !important; }
+    .tt-num { color: var(--y-7-7) !important; }
+    .tt-comment { color: var(--n-5) !important; }
+    .tt-prop { color: var(--b-6-7) !important; }
     .tt-swatch { display: inline-block; width: 1.2em; height: 0.9em; border-radius: 2px; vertical-align: middle; margin-right: 2px; }
     /* Terminal chrome wrapper */
-    .term-chrome { background: #161616; border: 1px solid #2e2e33; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.03); }
+    .term-chrome { background: var(--n-2); border: 1px solid var(--n-3); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.03); }
     .term-chrome-bar { display: flex; align-items: center; padding: 10px 16px; gap: 6px; }
     .term-chrome-bar .dot { width: 10px; height: 10px; border-radius: 50%; }
-    .term-chrome-bar .dot-r { background: #ff5f57; }
-    .term-chrome-bar .dot-y { background: #febc2e; }
-    .term-chrome-bar .dot-g { background: #28c840; }
-    .term-chrome-bar .title { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 12px; color: #6b7280; margin-left: 8px; }
+    .term-chrome-bar .dot-r { background: var(--r-9-5); }
+    .term-chrome-bar .dot-y { background: var(--y-9-6); }
+    .term-chrome-bar .dot-g { background: var(--g-9-5); }
+    .term-chrome-bar .title { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 12px; color: var(--n-5); margin-left: 8px; }
     .term-chrome > div:last-child { padding: 16px 20px; }
+
+    /* --- Semantic utility classes --- */
+    .text-primary           { color: var(--n-1); }
+    .text-secondary         { color: var(--n-4); }
+    .text-tertiary          { color: var(--n-5); }
+    .text-primary-invert    { color: var(--n-10); }
+    .text-secondary-invert  { color: var(--n-7); }
+
+    .text-action            { color: var(--b-8-5); }
+    .background-action      { background-color: var(--b-5-8); }
+
+    .background-primary     { background-color: var(--n-10); }
+    .background-secondary   { background-color: var(--n-9); }
+
+    .text-red               { color: var(--r-8-5); }
+    .border-red             { border-color: var(--r-8-5); }
+    .background-red         { background-color: var(--r-5-8); }
+
+    .text-green             { color: var(--g-8-5); }
+    .border-green           { border-color: var(--g-8-5); }
+    .background-green       { background-color: var(--g-5-8); }
+
+    .text-blue              { color: var(--b-8-5); }
+    .border-blue            { border-color: var(--b-8-5); }
+    .background-blue        { background-color: var(--b-5-8); }
+
+    .text-cyan              { color: var(--c-8-5); }
+    .border-cyan            { border-color: var(--c-8-5); }
+    .background-cyan        { background-color: var(--c-5-8); }
+
+    .text-magenta           { color: var(--m-8-5); }
+    .border-magenta         { border-color: var(--m-8-5); }
+    .background-magenta     { background-color: var(--m-5-8); }
+
+    .text-yellow            { color: var(--y-8-5); }
+    .border-yellow          { border-color: var(--y-8-5); }
+    .background-yellow      { background-color: var(--y-5-8); }
   </style>
 </head>
 <body>
