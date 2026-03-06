@@ -91,6 +91,10 @@
     .demo-nav-btn           { opacity: 0.5; }
     .demo-nav-btn:hover     { opacity: 0.75; border-color: var(--n-2) !important; }
     .demo-nav-active        { opacity: 1 !important; border-color: var(--n-2) !important; background: var(--n-2) !important; }
+
+    .demo-tab               { background: transparent; color: var(--n-5); }
+    .demo-tab:hover         { color: var(--n-7); }
+    .demo-tab-active        { background: var(--n-2) !important; color: var(--n-9) !important; }
   </style>
 </head>
 <body class="background-primary">
@@ -102,8 +106,8 @@
       <div style="display: flex; align-items: center; gap: 8px; border-radius: 999px; padding: 6px 16px; margin-bottom: 32px; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.75);">
         <span style="font-size: 13px; font-weight: 500;">v3.0 APCA &amp; OKLCH built from spec</span>
       </div>
-      <h1 style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; color: rgba(255, 255, 255, 0.95);">Precise color palettes,<br>straight from your terminal.</h1>
-      <p style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 820px; margin-top: 24px; color: rgba(255, 255, 255, 0.65);">Generate perceptually uniform color ramps with OKLCH color math, APCA contrast analysis, and 11 distribution scales. CLI, SDK, or visual editor.</p>
+      <h1 style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; color: rgba(255, 255, 255, 0.95);">A set of color tools for AI agents and humans</h1>
+      <p style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 820px; margin-top: 24px; color: rgba(255, 255, 255, 0.65);">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK, or visual editor available.</p>
       <div style="display: flex; gap: 16px; margin-top: 40px; align-items: center;">
         <button id="install-btn" onclick="copyInstallCmd(this)"
           style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(8px); color: rgba(0, 0, 0, 0.75); cursor: pointer; border: none; min-width: 240px;"
@@ -218,38 +222,61 @@
     </div>
   </section>
 
-  <!-- CLI Examples Section -->
+  <!-- Examples Section -->
   <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
-    <span style="font-size: 13px; font-weight: 600; color: #a855f7; letter-spacing: 0.08em; text-transform: uppercase;">CLI Examples</span>
+    <span style="font-size: 13px; font-weight: 600; color: #a855f7; letter-spacing: 0.08em; text-transform: uppercase;">Examples</span>
     <h2 class="text-primary" style="font-size: 40px; font-weight: 700; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">See it in action</h2>
-    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 520px; line-height: 1.6;">Real CLI commands with real output. Every flag maps to a chainable SDK method too.</p>
+    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 560px; line-height: 1.6;">Explore colors from the terminal or build robust color systems with the SDK. Every CLI flag maps to a chainable SDK method.</p>
+    <!-- CLI / SDK tab switcher -->
+    <div style="display: flex; gap: 4px; margin-top: 16px; background: var(--n-1); border: 1px solid var(--n-2); border-radius: 10px; padding: 4px;">
+      <button class="demo-tab demo-tab-active" data-tab="cli" style="padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.15s;">CLI</button>
+      <button class="demo-tab" data-tab="sdk" style="padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 14px; font-weight: 600; background: transparent; color: var(--n-5); transition: all 0.15s;">SDK</button>
+    </div>
   </section>
 
-  <!-- CLI Demo: Nav + Terminal -->
+  <!-- Demo: Nav + Terminal -->
   <section style="display: flex; gap: 32px; max-width: 1100px; margin: 0 auto; padding: 0 80px 64px; align-items: stretch;">
     <!-- Left nav -->
-    <div style="display: flex; flex-direction: column; gap: 8px; min-width: 260px;">
-      <button class="demo-nav-btn demo-nav-active" data-demo="palette" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+    <div id="demo-nav" style="display: flex; flex-direction: column; gap: 8px; min-width: 260px;">
+      <!-- CLI nav items -->
+      <button class="demo-nav-btn demo-nav-active" data-demo="palette" data-tab="cli" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Ramps</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Generate a color ramp from any hex</div>
       </button>
-      <button class="demo-nav-btn" data-demo="harmony" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="harmony" data-tab="cli" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Harmonies</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Complementary, triadic, and more</div>
       </button>
-      <button class="demo-nav-btn" data-demo="contrast" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="contrast" data-tab="cli" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Contrast lint</div>
-        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">APCA & WCAG accessibility checks</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">APCA &amp; WCAG accessibility checks</div>
       </button>
-      <button class="demo-nav-btn" data-demo="colorspace" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="colorspace" data-tab="cli" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Color spaces</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Linear, plane, and cube interpolation</div>
+      </button>
+      <!-- SDK nav items (hidden by default) -->
+      <button class="demo-nav-btn" data-demo="sdk-ramp" data-tab="sdk" style="display: none; text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+        <div class="text-primary" style="font-size: 20px; font-weight: 600;">Builder API</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Chainable palette generation</div>
+      </button>
+      <button class="demo-nav-btn" data-demo="sdk-linear" data-tab="sdk" style="display: none; text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+        <div class="text-primary" style="font-size: 20px; font-weight: 600;">Linear space</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Two-color ramps with OKLCH math</div>
+      </button>
+      <button class="demo-nav-btn" data-demo="sdk-plane" data-tab="sdk" style="display: none; text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+        <div class="text-primary" style="font-size: 20px; font-weight: 600;">Plane space</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">2D saturation × lightness grids</div>
+      </button>
+      <button class="demo-nav-btn" data-demo="sdk-contrast" data-tab="sdk" style="display: none; text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+        <div class="text-primary" style="font-size: 20px; font-weight: 600;">Contrast</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">APCA &amp; WCAG programmatic checks</div>
       </button>
     </div>
     <!-- Right terminal -->
     <div style="flex: 1; min-width: 0;">
       <div class="term-chrome" style="min-height: 365px;">
-        <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title" id="demo-term-title">Basic palette</span></div>
+        <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title" id="demo-term-title">Ramps</span></div>
         <div id="demo-terminal"></div>
       </div>
     </div>
@@ -295,26 +322,51 @@
   <section id="get-started" style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 80px; gap: 24px; position: relative;">
     <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 600px; height: 300px; background: radial-gradient(ellipse at center, rgba(59,130,246,0.08) 0%, rgba(59,130,246,0) 70%); pointer-events: none;"></div>
     <h2 class="text-primary" style="font-size: 36px; font-weight: 700; letter-spacing: -0.02em; text-align: center;">Start building color systems</h2>
-    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI or install the SDK package to build color systems on top of rampa.</p>
-    <div style="display: flex; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
+    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI for quick exploration or install the SDK to build robust color systems.</p>
+
+    <!-- Tabs -->
+    <div style="display: flex; gap: 4px; background: var(--n-1); border-radius: 10px; padding: 4px;">
+      <button class="demo-tab demo-tab-active" data-cta-tab="cli" style="padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.15s;">CLI</button>
+      <button class="demo-tab" data-cta-tab="sdk" style="padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 14px; font-weight: 600; background: transparent; color: var(--n-5); transition: all 0.15s;">SDK</button>
+    </div>
+
+    <!-- CLI cards -->
+    <div id="cta-cli" style="display: flex; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
       <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase; ">Try the CLI instantly</span>
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Try instantly</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npx @basiclines/rampa -C "#3b82f6"</pre>
       </div>
       <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase; ">CLI global install</span>
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Global install</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install -g @basiclines/rampa</pre>
+      </div>
+      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
+        <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/cli/README.md" style="font-size: 15px; font-weight: 500;">CLI reference →</a>
       </div>
     </div>
 
-    <div style="display: flex; gap: 16px; max-width: 960px; width: 100%;">
+    <!-- SDK cards (hidden by default) -->
+    <div id="cta-sdk" style="display: none; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
       <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase; ">SDK package</span>
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">npm / bun</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install @basiclines/rampa-sdk</pre>
       </div>
       <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase; ">Contribute</span>
-        <a class="text-primary" href="https://github.7om/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500;">github.com/basiclines/rampa-studio</a>
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Vanilla JS (CDN)</span>
+        <pre class="text-primary" style="font-size: 15px; margin: 0; word-break: break-all;">&lt;script src="rampa-sdk.min.js"&gt;&lt;/script&gt;</pre>
+      </div>
+      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
+        <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/sdk/README.md" style="font-size: 15px; font-weight: 500;">SDK reference →</a>
+      </div>
+    </div>
+
+    <!-- Contribute (always visible) -->
+    <div style="display: flex; gap: 16px; max-width: 960px; width: 100%;">
+      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Contribute</span>
+        <a class="text-primary" href="https://github.com/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500;">github.com/basiclines/rampa-studio</a>
       </div>
     </div>
   </section>
