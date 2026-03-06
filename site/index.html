@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rampa — Precise color palettes from your terminal and code</title>
   <meta name="description" content="Generate perceptually uniform color ramps with APCA contrast analysis. CLI and JavaScript SDK. OKLCH color space. CSS, JSON, or plain text output.">
-  <meta property="og:title" content="Rampa — Precise color palettes from your terminal and code">
+  <meta property="og:title" content="Rampa: Build precise color palettes from your terminal and code">
   <meta property="og:description" content="Generate perceptually uniform color ramps with APCA contrast analysis. CLI and JavaScript SDK. OKLCH color space. CSS, JSON, or plain text output.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rampa.design/">
@@ -54,6 +54,9 @@
     .background-secondary   { background-color: var(--n-2); }
 
     .border-neutral         { border-color: var(--n-2); }
+    .svg-fill-primary     { fill: var(--n-9); }
+    .svg-fill-secondary   { fill: var(--n-7); }
+
 
     .text-red               { color: var(--r-9-9); }
     .border-red             { border-color: var(--r-8-5); }
@@ -84,6 +87,10 @@
     .border-yellow          { border-color: var(--y-8-5); }
     .background-yellow      { background-color: var(--y-9-3); }
     .svg-stroke-yellow      { stroke: var(--y-9-9); }
+
+    .demo-nav-btn           { opacity: 0.5; }
+    .demo-nav-btn:hover     { opacity: 0.75; border-color: var(--n-2) !important; }
+    .demo-nav-active        { opacity: 1 !important; border-color: var(--n-2) !important; background: var(--n-2) !important; }
   </style>
 </head>
 <body class="background-primary">
@@ -120,26 +127,31 @@
   <!-- Social Proof Strip -->
   <section class="border-neutral" style="display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;">
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M9.25 12a.75.75 0 0 1-.22.53l-2.75 2.75a.75.75 0 0 1-1.06-1.06L7.44 12 5.22 9.78a.75.75 0 1 1 1.06-1.06l2.75 2.75c.141.14.22.331.22.53Zm2 2a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Z"></path><path d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"></path></svg>
       <span class="text-primary" style="font-size: 28px; font-weight: 700;">CLI + SDK</span>
       <span class="text-secondary" style="font-size: 13px;">Explore and integrate</span>
     </div>
     <div class="border-neutral" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M21.553 6.064A.75.75 0 0 1 22 6.75v10.5a.75.75 0 0 1-1.256.554l-5.75-5.25a.748.748 0 0 1 0-1.108l5.75-5.25a.75.75 0 0 1 .809-.132ZM2.447 17.936A.75.75 0 0 1 2 17.25V6.75a.75.75 0 0 1 1.256-.554l5.75 5.25a.748.748 0 0 1 0 1.108l-5.75 5.25a.75.75 0 0 1-.809.132ZM7.387 12 3.5 8.45v7.1L7.388 12Zm9.226 0 3.887 3.55v-7.1L16.612 12ZM12 2.75a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Zm0 4a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Zm0 8a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Zm0 4a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Zm0-8a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Z"></path></svg>
       <span class="text-primary" style="font-size: 28px; font-weight: 700;">OKLCH/LAB</span>
       <span class="text-secondary" style="font-size: 13px;">Perceptually uniform</span>
     </div>
     <div class="border-neutral" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M2.75 15.25a.75.75 0 0 1 .75.75v4.25c0 .138.112.25.25.25H8A.75.75 0 0 1 8 22H3.75A1.75 1.75 0 0 1 2 20.25V16a.75.75 0 0 1 .75-.75Zm18.5 0A.75.75 0 0 1 22 16v4.25A1.75 1.75 0 0 1 20.25 22H16a.75.75 0 0 1 0-1.5h4.25a.25.25 0 0 0 .25-.25V16a.75.75 0 0 1 .75-.75ZM8 2a.75.75 0 0 1 0 1.5H3.75a.25.25 0 0 0-.25.25V8A.75.75 0 0 1 2 8V3.75C2 2.784 2.784 2 3.75 2H8Zm12.25 0c.966 0 1.75.784 1.75 1.75V8a.75.75 0 0 1-1.5 0V3.75a.25.25 0 0 0-.25-.25H16A.75.75 0 0 1 16 2h4.25ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path></svg>
       <span class="text-primary" style="font-size: 28px; font-weight: 700;">APCA/WCAG</span>
       <span class="text-secondary" style="font-size: 13px;">Built-in contrast analysis</span>
     </div>
     <div class="border-neutral" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M10 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2Zm-.5-2a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V4a.5.5 0 0 0-.5-.5H10a.5.5 0 0 0-.5.5ZM6.17 4.165a.75.75 0 0 1-.335 1.006c-.228.114-.295.177-.315.201a.035.035 0 0 0-.008.016.423.423 0 0 0-.012.112v13c0 .07.008.102.012.112a.03.03 0 0 0 .008.016c.02.024.087.087.315.201a.749.749 0 1 1-.67 1.342c-.272-.136-.58-.315-.81-.598C4.1 19.259 4 18.893 4 18.5v-13c0-.393.1-.759.355-1.073.23-.283.538-.462.81-.598a.75.75 0 0 1 1.006.336ZM2.15 5.624a.75.75 0 0 1-.274 1.025c-.15.087-.257.17-.32.245C1.5 6.96 1.5 6.99 1.5 7v10c0 .01 0 .04.056.106.063.074.17.158.32.245a.75.75 0 0 1-.752 1.298C.73 18.421 0 17.907 0 17V7c0-.907.73-1.42 1.124-1.65a.75.75 0 0 1 1.025.274Z"></path></svg>
       <span class="text-primary" style="font-size: 28px; font-weight: 700;">Ramps</span>
       <span class="text-secondary" style="font-size: 13px;">HSL start:end values</span>
     </div>
     <div class="border-neutral" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+      <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"></path></svg>
       <span class="text-primary" style="font-size: 28px; font-weight: 700;">Color Spaces</span>
       <span class="text-secondary" style="font-size: 13px;">Define color edges</span>
     </div>
@@ -211,24 +223,35 @@
     <span style="font-size: 13px; font-weight: 600; color: #a855f7; letter-spacing: 0.08em; text-transform: uppercase;">CLI Examples</span>
     <h2 class="text-primary" style="font-size: 40px; font-weight: 700; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">See it in action</h2>
     <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 520px; line-height: 1.6;">Real CLI commands with real output. Every flag maps to a chainable SDK method too.</p>
-    <button
-      onclick="copyToClipboard('npm install -g @basiclines/rampa', this)"
-      style="display: flex; align-items: center; gap: 10px; background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.2); border-radius: 10px; padding: 10px 20px; margin-top: 16px; cursor: pointer;"
-    >
-      <code style="font-size: 14px; color: #c084fc;">npm install -g @basiclines/rampa</code>
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-    </button>
   </section>
 
-  <!-- CLI Demo Grid -->
-  <section style="display: flex; flex-direction: column; gap: 16px; max-width: 1100px; margin: 0 auto; padding: 32px 80px;">
-    <div style="display: flex; gap: 16px;">
-      <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Basic palette</span></div><div id="demo-palette"></div></div>
-      <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Harmonies</span></div><div id="demo-harmony"></div></div>
+  <!-- CLI Demo: Nav + Terminal -->
+  <section style="display: flex; gap: 32px; max-width: 1100px; margin: 0 auto; padding: 0 80px 64px; align-items: stretch;">
+    <!-- Left nav -->
+    <div style="display: flex; flex-direction: column; gap: 8px; min-width: 260px;">
+      <button class="demo-nav-btn demo-nav-active" data-demo="palette" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+        <div class="text-primary" style="font-size: 20px; font-weight: 600;">Ramps</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Generate a color ramp from any hex</div>
+      </button>
+      <button class="demo-nav-btn" data-demo="harmony" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+        <div class="text-primary" style="font-size: 20px; font-weight: 600;">Harmonies</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Complementary, triadic, and more</div>
+      </button>
+      <button class="demo-nav-btn" data-demo="contrast" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+        <div class="text-primary" style="font-size: 20px; font-weight: 600;">Contrast lint</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">APCA & WCAG accessibility checks</div>
+      </button>
+      <button class="demo-nav-btn" data-demo="colorspace" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+        <div class="text-primary" style="font-size: 20px; font-weight: 600;">Color spaces</div>
+        <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Linear, plane, and cube interpolation</div>
+      </button>
     </div>
-    <div style="display: flex; gap: 16px;">
-      <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Contrast lint</span></div><div id="demo-contrast"></div></div>
-      <div class="term-chrome" style="flex: 1;"><div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">Color space</span></div><div id="demo-colorspace"></div></div>
+    <!-- Right terminal -->
+    <div style="flex: 1; min-width: 0;">
+      <div class="term-chrome" style="min-height: 365px;">
+        <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title" id="demo-term-title">Basic palette</span></div>
+        <div id="demo-terminal"></div>
+      </div>
     </div>
   </section>
 
@@ -236,7 +259,7 @@
   <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
     <span style="font-size: 13px; font-weight: 600; color: #22c55e; letter-spacing: 0.08em; text-transform: uppercase;">AI Skills</span>
     <h2 class="text-primary" style="font-size: 40px; font-weight: 700; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Teach your AI agent<br>color theory</h2>
-    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 520px; line-height: 1.6;">7 installable skills for Copilot, Cursor, and any agent that supports skills. Theme creation, status colors, data viz palettes, accessible contrast.</p>
+    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 520px; line-height: 1.6;">7 installable skills for Copilot, Claude Code, Codex, Cursor, and any agent that supports skills. Theme creation, status colors, data viz palettes, accessible contrast.</p>
     <pre style="background: rgba(34,197,94,0.06); border: 1px solid rgba(34,197,94,0.15); border-radius: 10px; padding: 12px 20px; font-size: 14px; color: #4ade80; margin-top: 16px;">npx skills add basiclines/rampa-studio</pre>
   </section>
 
@@ -271,7 +294,7 @@
   <!-- Get Started CTA -->
   <section id="get-started" style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 80px; gap: 24px; position: relative;">
     <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 600px; height: 300px; background: radial-gradient(ellipse at center, rgba(59,130,246,0.08) 0%, rgba(59,130,246,0) 70%); pointer-events: none;"></div>
-    <h2 class="text-primary" style="font-size: 36px; font-weight: 700; letter-spacing: -0.02em; text-align: center;">Start building palettes</h2>
+    <h2 class="text-primary" style="font-size: 36px; font-weight: 700; letter-spacing: -0.02em; text-align: center;">Start building color systems</h2>
     <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI or install the SDK package to build color systems on top of rampa.</p>
     <div style="display: flex; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
       <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
@@ -300,70 +323,14 @@
   <footer style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto; padding: 40px 80px; border-top: 1px solid #1a1a1a;">
     <div style="display: flex; align-items: center; gap: 32px;">
       <span class="text-primary" style="font-size: 14px; font-weight: 600;">rampa</span>
+      <a class="text-secondary" href="https://rampa.design/app" style="font-size: 14px;">Web editor</a>
       <a class="text-secondary" href="https://github.com/basiclines/rampa-studio" style="font-size: 14px;">GitHub</a>
-      <a class="text-secondary" href="https://rampa.design" style="font-size: 14px;">rampa.design</a>
-      <a class="text-secondary" href="https://ismael.fyi" style="font-size: 14px;">ismael.fyi</a>
+      <p style="font-size: 14px;">Built by <a class="text-secondary" href="https://ismael.fyi">ismael.fyi</a></p>
     </div>
     <span style="font-size: 13px; color: #404040;">Free for individuals &amp; developers · <a href="https://github.com/basiclines/rampa-studio/blob/main/LICENSE.md" style="text-decoration: underline;">MIT License</a></span>
   </footer>
 
-  <script>
-    var INSTALL_CMDS = [
-      'npm install -g @basiclines/rampa',
-      'bun add -g @basiclines/rampa',
-      'brew install basiclines/tap/rampa',
-    ];
-    var installIdx = 0;
-
-    function copyInstallCmd(button) {
-      copyToClipboard(INSTALL_CMDS[installIdx], button);
-    }
-
-    function copyToClipboard(text, button) {
-      navigator.clipboard.writeText(text).then(() => {
-        const svg = button.querySelector('svg');
-        if (svg) {
-          svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>';
-          setTimeout(() => {
-            svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>';
-          }, 2000);
-        }
-      });
-    }
-
-    // Rotate install commands with typing effect
-    (function rotateInstall() {
-      var el = document.getElementById('install-cmd');
-      if (!el) return;
-      var DELAY = 4000;
-      var CHAR_MS = 30;
-
-      function eraseAndType() {
-        var oldText = INSTALL_CMDS[installIdx];
-        installIdx = (installIdx + 1) % INSTALL_CMDS.length;
-        var newText = INSTALL_CMDS[installIdx];
-
-        // Erase character by character
-        var i = oldText.length;
-        function eraseChar() {
-          if (i <= 0) { typeChar(0); return; }
-          i--;
-          el.textContent = oldText.slice(0, i);
-          setTimeout(eraseChar, CHAR_MS / 2);
-        }
-        // Type character by character
-        function typeChar(j) {
-          if (j > newText.length) { setTimeout(eraseAndType, DELAY); return; }
-          el.textContent = newText.slice(0, j);
-          setTimeout(function() { typeChar(j + 1); }, CHAR_MS);
-        }
-        eraseChar();
-      }
-
-      setTimeout(eraseAndType, DELAY);
-    })();
-  </script>
-
+  <script src="js/interactions.js" defer></script>
   <script src="js/hero-cubes.js"></script>
   <script type="module" src="js/demos.js"></script>
 
