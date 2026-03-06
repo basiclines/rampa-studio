@@ -64,8 +64,8 @@ function copyToClipboard(text, button) {
       tabs.forEach(function (b) {
         b.classList.toggle('demo-tab-active', b.dataset.ctaTab === tab);
       });
-      cliPanel.style.display = tab === 'cli' ? 'flex' : 'none';
-      sdkPanel.style.display = tab === 'sdk' ? 'flex' : 'none';
+      cliPanel.style.display = tab === 'cli' ? 'grid' : 'none';
+      sdkPanel.style.display = tab === 'sdk' ? 'grid' : 'none';
     });
   });
 })();

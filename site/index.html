@@ -325,49 +325,50 @@
     <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI for quick exploration or install the SDK to build robust color systems.</p>
 
     <!-- Tabs -->
-    <div style="display: flex; gap: 4px; background: var(--n-1); border-radius: 10px; padding: 4px;">
+    <div style="display: flex; gap: 4px; background: var(--n-1); border: 1px solid var(--n-2); border-radius: 10px; padding: 4px;">
       <button class="demo-tab demo-tab-active" data-cta-tab="cli" style="padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.15s;">CLI</button>
       <button class="demo-tab" data-cta-tab="sdk" style="padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 14px; font-weight: 600; background: transparent; color: var(--n-5); transition: all 0.15s;">SDK</button>
     </div>
 
-    <!-- CLI cards -->
-    <div id="cta-cli" style="display: flex; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
-      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+    <!-- CLI cards (2×2 grid) -->
+    <div id="cta-cli" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
+      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Try instantly</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npx @basiclines/rampa -C "#3b82f6"</pre>
       </div>
-      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Global install</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install -g @basiclines/rampa</pre>
       </div>
-      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/cli/README.md" style="font-size: 15px; font-weight: 500;">CLI reference →</a>
       </div>
-    </div>
-
-    <!-- SDK cards (hidden by default) -->
-    <div id="cta-sdk" style="display: none; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
-      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">npm / bun</span>
-        <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install @basiclines/rampa-sdk</pre>
-      </div>
-      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Vanilla JS (CDN)</span>
-        <pre class="text-primary" style="font-size: 15px; margin: 0; word-break: break-all;">&lt;script src="rampa-sdk.min.js"&gt;&lt;/script&gt;</pre>
-      </div>
-      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
-        <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/sdk/README.md" style="font-size: 15px; font-weight: 500;">SDK reference →</a>
-      </div>
-    </div>
-
-    <!-- Contribute (always visible) -->
-    <div style="display: flex; gap: 16px; max-width: 960px; width: 100%;">
-      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Contribute</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500;">github.com/basiclines/rampa-studio</a>
       </div>
+    </div>
+
+    <!-- SDK cards (2×2 grid, hidden by default) -->
+    <div id="cta-sdk" style="display: none; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
+      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">npm / bun</span>
+        <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install @basiclines/rampa-sdk</pre>
+      </div>
+      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Vanilla JS (CDN)</span>
+        <pre class="text-primary" style="font-size: 15px; margin: 0; word-break: break-all;">&lt;script src="rampa-sdk.min.js"&gt;&lt;/script&gt;</pre>
+      </div>
+      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
+        <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/sdk/README.md" style="font-size: 15px; font-weight: 500;">SDK reference →</a>
+      </div>
+      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Contribute</span>
+        <a class="text-primary" href="https://github.com/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500;">github.com/basiclines/rampa-studio</a>
+      </div>
+    </div>
     </div>
   </section>
 
