@@ -8,7 +8,7 @@
   <meta property="og:title" content="Rampa — Precise color palettes from your terminal and code">
   <meta property="og:description" content="Generate perceptually uniform color ramps with APCA contrast analysis. CLI and JavaScript SDK. OKLCH color space. CSS, JSON, or plain text output.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://rampa.studio/cli">
+  <meta property="og:url" content="https://rampa.design/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -41,58 +41,65 @@
     .term-chrome > div:last-child { padding: 16px 20px; }
 
     /* --- Semantic utility classes --- */
-    .text-primary           { color: var(--n-1); }
-    .text-secondary         { color: var(--n-4); }
+    .text-primary           { color: var(--n-9); }
+    .text-secondary         { color: var(--n-7); }
     .text-tertiary          { color: var(--n-5); }
-    .text-primary-invert    { color: var(--n-10); }
-    .text-secondary-invert  { color: var(--n-7); }
+    .text-primary-invert    { color: var(--n-0); }
+    .text-secondary-invert  { color: var(--n-3); }
 
     .text-action            { color: var(--b-8-5); }
-    .background-action      { background-color: var(--b-5-8); }
+    .background-action      { background-color: var(--b-9-9); }
 
-    .background-primary     { background-color: var(--n-10); }
-    .background-secondary   { background-color: var(--n-9); }
+    .background-primary     { background-color: var(--n-0); }
+    .background-secondary   { background-color: var(--n-2); }
 
-    .text-red               { color: var(--r-8-5); }
+    .border-neutral         { border-color: var(--n-2); }
+
+    .text-red               { color: var(--r-9-9); }
     .border-red             { border-color: var(--r-8-5); }
-    .background-red         { background-color: var(--r-5-8); }
+    .background-red         { background-color: var(--r-9-3); }
+    .svg-stroke-red         { stroke: var(--r-9-9); }
 
-    .text-green             { color: var(--g-8-5); }
+    .text-green             { color: var(--g-9-9); }
     .border-green           { border-color: var(--g-8-5); }
-    .background-green       { background-color: var(--g-5-8); }
+    .background-green       { background-color: var(--g-9-3); }
+    .svg-stroke-green       { stroke: var(--g-9-9); }
 
-    .text-blue              { color: var(--b-8-5); }
+    .text-blue              { color: var(--b-9-9); }
     .border-blue            { border-color: var(--b-8-5); }
-    .background-blue        { background-color: var(--b-5-8); }
+    .background-blue        { background-color: var(--b-9-3); }
+    .svg-stroke-blue        { stroke: var(--b-9-9); }
 
-    .text-cyan              { color: var(--c-8-5); }
+    .text-cyan              { color: var(--c-9-9); }
     .border-cyan            { border-color: var(--c-8-5); }
-    .background-cyan        { background-color: var(--c-5-8); }
+    .background-cyan        { background-color: var(--c-9-3); }
+    .svg-stroke-cyan        { stroke: var(--c-9-9); }
 
-    .text-magenta           { color: var(--m-8-5); }
+    .text-magenta           { color: var(--m-9-9); }
     .border-magenta         { border-color: var(--m-8-5); }
-    .background-magenta     { background-color: var(--m-5-8); }
+    .background-magenta     { background-color: var(--m-9-3); }
+    .svg-stroke-magenta     { stroke: var(--m-9-9); }
 
-    .text-yellow            { color: var(--y-8-5); }
+    .text-yellow            { color: var(--y-9-9); }
     .border-yellow          { border-color: var(--y-8-5); }
-    .background-yellow      { background-color: var(--y-5-8); }
+    .background-yellow      { background-color: var(--y-9-3); }
+    .svg-stroke-yellow      { stroke: var(--y-9-9); }
   </style>
 </head>
-<body>
+<body class="background-primary">
 
   <!-- Hero -->
   <section style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 100px; position: relative; overflow: hidden;">
     <canvas id="c" style="position: absolute; top: 0; left: 0; pointer-events: none; z-index: 0; display: block;"></canvas>
     <div style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center;">
-      <div style="display: flex; align-items: center; gap: 8px; background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.25); border-radius: 999px; padding: 6px 16px; margin-bottom: 32px; backdrop-filter: blur(8px);">
-        <div style="width: 6px; height: 6px; border-radius: 999px; background: #3b82f6;"></div>
-        <span style="font-size: 13px; font-weight: 500; color: #60a5fa;">v3.0 — APCA &amp; OKLCH built from spec</span>
+      <div style="display: flex; align-items: center; gap: 8px; border-radius: 999px; padding: 6px 16px; margin-bottom: 32px; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.75);">
+        <span style="font-size: 13px; font-weight: 500;">v3.0 APCA &amp; OKLCH built from spec</span>
       </div>
-      <h1 style="font-size: 64px; font-weight: 700; color: #fff; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; text-shadow: 0 2px 20px rgba(0,0,0,0.8);">Precise color palettes,<br>straight from your terminal.</h1>
-      <p style="font-size: 20px; color: #a3a3a3; line-height: 1.6; text-align: center; max-width: 600px; margin-top: 24px; text-shadow: 0 2px 10px rgba(0,0,0,0.9);">Generate perceptually uniform color ramps with OKLCH color math, APCA contrast analysis, and 11 distribution scales. CLI, SDK, or visual editor.</p>
+      <h1 style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; color: rgba(255, 255, 255, 0.95);">Precise color palettes,<br>straight from your terminal.</h1>
+      <p style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 820px; margin-top: 24px; color: rgba(255, 255, 255, 0.65);">Generate perceptually uniform color ramps with OKLCH color math, APCA contrast analysis, and 11 distribution scales. CLI, SDK, or visual editor.</p>
       <div style="display: flex; gap: 16px; margin-top: 40px; align-items: center;">
-        <a href="#get-started" style="display: flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #2563eb, #3b82f6); border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; color: #fff;">Get started <span style="color: rgba(255,255,255,0.7);">→</span></a>
-        <a href="https://github.com/basiclines/rampa-studio" style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.05); border: 1px solid #333; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500; color: #d4d4d4; backdrop-filter: blur(8px);">GitHub</a>
+        <a href="#get-started" style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(8px); color: rgba(0, 0, 0, 0.75)">Install</a>
+        <a href="/app" style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.75);">Web editor</a>
       </div>
     </div>
   </section>
@@ -106,106 +113,106 @@
   </section>
 
   <!-- Social Proof Strip -->
-  <section style="display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px; border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <section class="border-neutral" style="display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;">
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
-      <span style="font-size: 28px; font-weight: 700; color: #fff;">CLI + SDK</span>
-      <span style="font-size: 13px; color: #737373;">Two interfaces, one engine</span>
+      <span class="text-primary" style="font-size: 28px; font-weight: 700;">CLI + SDK</span>
+      <span class="text-secondary" style="font-size: 13px;">Explore and integrate</span>
     </div>
-    <div style="width: 1px; height: 48px; background: #262626;"></div>
+    <div class="border-neutral" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
-      <span style="font-size: 28px; font-weight: 700; color: #fff;">OKLCH</span>
-      <span style="font-size: 13px; color: #737373;">Perceptually uniform</span>
+      <span class="text-primary" style="font-size: 28px; font-weight: 700;">OKLCH/LAB</span>
+      <span class="text-secondary" style="font-size: 13px;">Perceptually uniform</span>
     </div>
-    <div style="width: 1px; height: 48px; background: #262626;"></div>
+    <div class="border-neutral" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
-      <span style="font-size: 28px; font-weight: 700; color: #fff;">APCA</span>
-      <span style="font-size: 13px; color: #737373;">Built-in contrast analysis</span>
+      <span class="text-primary" style="font-size: 28px; font-weight: 700;">APCA/WCAG</span>
+      <span class="text-secondary" style="font-size: 13px;">Built-in contrast analysis</span>
     </div>
-    <div style="width: 1px; height: 48px; background: #262626;"></div>
+    <div class="border-neutral" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
-      <span style="font-size: 28px; font-weight: 700; color: #fff;">11</span>
-      <span style="font-size: 13px; color: #737373;">Distribution scales</span>
+      <span class="text-primary" style="font-size: 28px; font-weight: 700;">Ramps</span>
+      <span class="text-secondary" style="font-size: 13px;">HSL start:end values</span>
     </div>
-    <div style="width: 1px; height: 48px; background: #262626;"></div>
+    <div class="border-neutral" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
-      <span style="font-size: 28px; font-weight: 700; color: #fff;">16</span>
-      <span style="font-size: 13px; color: #737373;">Blend modes</span>
+      <span class="text-primary" style="font-size: 28px; font-weight: 700;">Color Spaces</span>
+      <span class="text-secondary" style="font-size: 13px;">Define color edges</span>
     </div>
   </section>
 
   <!-- Features Section -->
   <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
-    <span style="font-size: 13px; font-weight: 600; color: #3b82f6; letter-spacing: 0.08em; text-transform: uppercase;">Features</span>
-    <h2 style="font-size: 40px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Everything you need for<br>production color systems</h2>
-    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 560px; line-height: 1.6;">One tool generates palettes, analyzes contrast, mixes colors, and exports to any format. No plugins, no dependencies.</p>
+    <span class="text-blue" style="font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;">Features</span>
+    <h2 class="text-primary" style="font-size: 40px; font-weight: 700; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Everything you need for<br>production color systems</h2>
+    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 560px; line-height: 1.6;">One tool generates palettes, analyzes contrast, mixes colors, and exports to any format. No plugins, no dependencies.</p>
   </section>
 
   <!-- Bento Grid Row 1 -->
   <section style="display: flex; gap: 16px; max-width: 1100px; margin: 0 auto; padding: 0 80px;">
-    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
-      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(59,130,246,0.2), rgba(59,130,246,0.05)); display: flex; align-items: center; justify-content: center;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07"/></svg>
+    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+      <div class="background-blue" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+        <svg class="svg-stroke-blue" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07"/></svg>
       </div>
-      <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Range-based control</h3>
-      <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Configure lightness, saturation, and hue shift as start:end ranges. Choose from 11 distribution scales — linear, fibonacci, golden-ratio, ease curves.</p>
+      <h3 class="text-primary" style="font-size: 18px; font-weight: 600;">Range-based control</h3>
+      <p class="text-secondary" style="font-size: 14px; line-height: 1.6;">Configure lightness, saturation, and hue shift as start:end ranges. Choose from 11 distribution scales — linear, fibonacci, golden-ratio, ease curves.</p>
     </div>
-    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
-      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(168,85,247,0.05)); display: flex; align-items: center; justify-content: center;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
+    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+      <div class="background-magenta" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+        <svg class="svg-stroke-magenta" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
       </div>
-      <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Color harmonies</h3>
-      <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Generate complementary, triadic, analogous, split-complementary, square, and compound ramps. Custom hue shifts with shift:N.</p>
+      <h3 class="text-primary" style="font-size: 18px; font-weight: 600;">Color harmonies</h3>
+      <p class="text-secondary" style="font-size: 14px; line-height: 1.6;">Generate complementary, triadic, analogous, split-complementary, square, and compound ramps. Custom hue shifts with shift:N.</p>
     </div>
   </section>
 
   <!-- Bento Grid Row 2 -->
   <section style="display: flex; gap: 16px; max-width: 1100px; margin: 16px auto 0; padding: 0 80px;">
-    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
-      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(34,197,94,0.2), rgba(34,197,94,0.05)); display: flex; align-items: center; justify-content: center;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+      <div class="background-green" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+        <svg class="svg-stroke-green" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
       </div>
-      <h3 style="font-size: 16px; font-weight: 600; color: #fff;">APCA contrast</h3>
-      <p style="font-size: 13px; color: #a3a3a3; line-height: 1.5;">Analyze all color pairs. Filter by body text, large text, non-text. Built from the W3C spec — no external dependencies.</p>
+      <h3 class="text-primary" style="font-size: 16px; font-weight: 600;">APCA contrast</h3>
+      <p class="text-secondary" style="font-size: 13px; line-height: 1.5;">Analyze all color pairs. Filter by body text, large text, non-text. Built from the W3C spec — no external dependencies.</p>
     </div>
-    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
-      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(249,115,22,0.2), rgba(249,115,22,0.05)); display: flex; align-items: center; justify-content: center;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><path d="M12 3v1m0 16v1m8.66-13.66l-.71.71M4.05 19.95l-.71.71M21 12h-1M4 12H3m16.66 7.66l-.71-.71M4.05 4.05l-.71-.71"/><circle cx="12" cy="12" r="5"/></svg>
+    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+      <div class="background-yellow" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+        <svg class="svg-stroke-yellow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 3v1m0 16v1m8.66-13.66l-.71.71M4.05 19.95l-.71.71M21 12h-1M4 12H3m16.66 7.66l-.71-.71M4.05 4.05l-.71-.71"/><circle cx="12" cy="12" r="5"/></svg>
       </div>
-      <h3 style="font-size: 16px; font-weight: 600; color: #fff;">16 blend modes</h3>
-      <p style="font-size: 13px; color: #a3a3a3; line-height: 1.5;">Apply any color as an overlay with adjustable opacity. Multiply, overlay, screen — perfect for brand-tinted neutrals.</p>
+      <h3 class="text-primary" style="font-size: 16px; font-weight: 600;">16 blend modes</h3>
+      <p class="text-secondary" style="font-size: 13px; line-height: 1.5;">Apply any color as an overlay with adjustable opacity. Multiply, overlay, screen — perfect for brand-tinted neutrals.</p>
     </div>
-    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
-      <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(236,72,153,0.2), rgba(236,72,153,0.05)); display: flex; align-items: center; justify-content: center;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+      <div class="background-red" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+        <svg class="svg-stroke-red" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
       </div>
-      <h3 style="font-size: 16px; font-weight: 600; color: #fff;">Color spaces</h3>
-      <p style="font-size: 13px; color: #a3a3a3; line-height: 1.5;">LinearColorSpace for 2-color ramps. CubeColorSpace for 8-corner cubes. OKLCH, LAB, or RGB interpolation.</p>
+      <h3 class="text-primary" style="font-size: 16px; font-weight: 600;">Color spaces</h3>
+      <p class="text-secondary" style="font-size: 13px; line-height: 1.5;">LinearColorSpace for 2-color ramps. CubeColorSpace for 8-corner cubes. OKLCH, LAB, or RGB interpolation.</p>
     </div>
   </section>
 
   <!-- Bento Grid Row 3 -->
   <section style="display: flex; gap: 16px; max-width: 1100px; margin: 16px auto 0; padding: 0 80px;">
-    <div style="flex: 2; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+    <div class="background-secondary" style="flex: 2; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
       <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(14,165,233,0.2), rgba(14,165,233,0.05)); display: flex; align-items: center; justify-content: center;">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="2"><path d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/></svg>
       </div>
-      <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Color conversion &amp; structured output</h3>
-      <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">Read any color format. Convert to hex, rgb, hsl, or oklch. JSON returns structured values — no CSS strings to parse. CSS output generates ready-to-use custom properties.</p>
+      <h3 class="text-primary" style="font-size: 18px; font-weight: 600;">Color conversion &amp; structured output</h3>
+      <p class="text-secondary" style="font-size: 14px; line-height: 1.6;">Read any color format. Convert to hex, rgb, hsl, or oklch. JSON returns structured values — no CSS strings to parse. CSS output generates ready-to-use custom properties.</p>
     </div>
-    <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
       <div style="width: 40px; height: 40px; border-radius: 10px; background: linear-gradient(135deg, rgba(234,179,8,0.2), rgba(234,179,8,0.05)); display: flex; align-items: center; justify-content: center;">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#eab308" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0zM12 9v4m0 4h.01"/></svg>
       </div>
-      <h3 style="font-size: 18px; font-weight: 600; color: #fff;">Contrast lint</h3>
-      <p style="font-size: 14px; color: #a3a3a3; line-height: 1.6;">APCA or WCAG 2.x between any two colors. Pass/fail per level. Warnings for near-identical colors and pure black/white.</p>
+      <h3 class="text-primary" style="font-size: 18px; font-weight: 600;">Contrast lint</h3>
+      <p class="text-secondary" style="font-size: 14px; line-height: 1.6;">APCA or WCAG 2.x between any two colors. Pass/fail per level. Warnings for near-identical colors and pure black/white.</p>
     </div>
   </section>
 
   <!-- CLI Examples Section -->
   <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
     <span style="font-size: 13px; font-weight: 600; color: #a855f7; letter-spacing: 0.08em; text-transform: uppercase;">CLI Examples</span>
-    <h2 style="font-size: 40px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">See it in action</h2>
-    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 520px; line-height: 1.6;">Real CLI commands with real output. Every flag maps to a chainable SDK method too.</p>
+    <h2 class="text-primary" style="font-size: 40px; font-weight: 700; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">See it in action</h2>
+    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 520px; line-height: 1.6;">Real CLI commands with real output. Every flag maps to a chainable SDK method too.</p>
     <button
       onclick="copyToClipboard('npm install -g @basiclines/rampa', this)"
       style="display: flex; align-items: center; gap: 10px; background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.2); border-radius: 10px; padding: 10px 20px; margin-top: 16px; cursor: pointer;"
@@ -230,61 +237,61 @@
   <!-- AI Skills Section -->
   <section style="display: flex; flex-direction: column; align-items: center; padding: 100px 80px 48px; gap: 16px;">
     <span style="font-size: 13px; font-weight: 600; color: #22c55e; letter-spacing: 0.08em; text-transform: uppercase;">AI Skills</span>
-    <h2 style="font-size: 40px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Teach your AI agent<br>color theory</h2>
-    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 520px; line-height: 1.6;">7 installable skills for Copilot, Cursor, and any agent that supports skills. Theme creation, status colors, data viz palettes, accessible contrast.</p>
+    <h2 class="text-primary" style="font-size: 40px; font-weight: 700; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Teach your AI agent<br>color theory</h2>
+    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 520px; line-height: 1.6;">7 installable skills for Copilot, Cursor, and any agent that supports skills. Theme creation, status colors, data viz palettes, accessible contrast.</p>
     <pre style="background: rgba(34,197,94,0.06); border: 1px solid rgba(34,197,94,0.15); border-radius: 10px; padding: 12px 20px; font-size: 14px; color: #4ade80; margin-top: 16px;">npx skills add basiclines/rampa-studio</pre>
   </section>
 
   <!-- Skills Cards -->
   <section style="display: flex; flex-wrap: wrap; gap: 12px; max-width: 800px; margin: 0 auto; padding: 0 80px; justify-content: center;">
-    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
-      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">theme-foundation</span>
-      <span style="font-size: 13px; color: #525252;">Complete light/dark theme from one accent</span>
+    <div class="background-secondary" style="width: 240px; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="text-primary mono" style="font-size: 14px; font-weight: 500;">theme-foundation</span>
+      <span class="text-secondary" style="font-size: 13px;">Complete light/dark theme from one accent</span>
     </div>
-    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
-      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">tinted-neutrals</span>
-      <span style="font-size: 13px; color: #525252;">Brand-tinted gray scale</span>
+    <div class="background-secondary" style="width: 240px; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="text-primary mono" style="font-size: 14px; font-weight: 500;">tinted-neutrals</span>
+      <span class="text-secondary" style="font-size: 13px;">Brand-tinted gray scale</span>
     </div>
-    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
-      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">status-from-accent</span>
-      <span style="font-size: 13px; color: #525252;">Success, warning, danger ramps</span>
+    <div class="background-secondary" style="width: 240px; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="text-primary mono" style="font-size: 14px; font-weight: 500;">status-from-accent</span>
+      <span class="text-secondary" style="font-size: 13px;">Success, warning, danger ramps</span>
     </div>
-    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
-      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">data-viz-palette</span>
-      <span style="font-size: 13px; color: #525252;">Distinct, accessible chart colors</span>
+    <div class="background-secondary" style="width: 240px; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="text-primary mono" style="font-size: 14px; font-weight: 500;">data-viz-palette</span>
+      <span class="text-secondary" style="font-size: 13px;">Distinct, accessible chart colors</span>
     </div>
-    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
-      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">accessible-contrast</span>
-      <span style="font-size: 13px; color: #525252;">WCAG/APCA compliant pairs</span>
+    <div class="background-secondary" style="width: 240px; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="text-primary mono" style="font-size: 14px; font-weight: 500;">accessible-contrast</span>
+      <span class="text-secondary" style="font-size: 13px;">WCAG/APCA compliant pairs</span>
     </div>
-    <div style="width: 240px; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
-      <span class="mono" style="font-size: 14px; font-weight: 500; color: #e5e5e5;">brand-expansion</span>
-      <span style="font-size: 13px; color: #525252;">Multi-hue brand system</span>
+    <div class="background-secondary" style="width: 240px; border: 1px solid #1f1f1f; border-radius: 14px; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px;">
+      <span class="text-primary mono" style="font-size: 14px; font-weight: 500;">brand-expansion</span>
+      <span class="text-secondary" style="font-size: 13px;">Multi-hue brand system</span>
     </div>
   </section>
 
   <!-- Get Started CTA -->
   <section id="get-started" style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 80px; gap: 24px; position: relative;">
     <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 600px; height: 300px; background: radial-gradient(ellipse at center, rgba(59,130,246,0.08) 0%, rgba(59,130,246,0) 70%); pointer-events: none;"></div>
-    <h2 style="font-size: 36px; font-weight: 700; color: #fff; letter-spacing: -0.02em; text-align: center;">Start building palettes</h2>
-    <p style="font-size: 17px; color: #737373; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI with npx, install the SDK, or open the visual editor.</p>
+    <h2 class="text-primary" style="font-size: 36px; font-weight: 700; letter-spacing: -0.02em; text-align: center;">Start building palettes</h2>
+    <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI with npx, install the SDK, or open the visual editor.</p>
     <div style="display: flex; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span style="font-size: 13px; font-weight: 500; color: #737373;">Try instantly</span>
-        <pre style="font-size: 14px; color: #e5e5e5; margin: 0;">npx @basiclines/rampa -C "#3b82f6"</pre>
+      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 500;">Try instantly</span>
+        <pre class="text-primary" style="font-size: 14px; margin: 0;">npx @basiclines/rampa -C "#3b82f6"</pre>
       </div>
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span style="font-size: 13px; font-weight: 500; color: #737373;">Install globally</span>
-        <pre style="font-size: 14px; color: #e5e5e5; margin: 0;">npm install -g @basiclines/rampa</pre>
-        <pre style="font-size: 14px; color: #525252; margin: 0;">brew install basiclines/tap/rampa</pre>
+      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 500;">Install globally</span>
+        <pre class="text-primary" style="font-size: 14px; margin: 0;">npm install -g @basiclines/rampa</pre>
+        <pre class="text-secondary" style="font-size: 14px; margin: 0;">brew install basiclines/tap/rampa</pre>
       </div>
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span style="font-size: 13px; font-weight: 500; color: #737373;">SDK</span>
-        <pre style="font-size: 14px; color: #e5e5e5; margin: 0;">npm install @basiclines/rampa-sdk</pre>
+      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 500;">SDK</span>
+        <pre class="text-primary" style="font-size: 14px; margin: 0;">npm install @basiclines/rampa-sdk</pre>
       </div>
-      <div style="flex: 1; background: #111; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px; align-items: center; justify-content: center;">
-        <span style="font-size: 13px; font-weight: 500; color: #737373;">Visual editor</span>
-        <a href="https://rampa.studio" style="font-size: 15px; font-weight: 500; color: #d4d4d4;">rampa.studio →</a>
+      <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px; align-items: center; justify-content: center;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 500;">GitHub</span>
+        <a href="https://github.com/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500; color: #d4d4d4;">basiclines/rampa-studio</a>
       </div>
     </div>
   </section>
@@ -293,9 +300,9 @@
   <footer style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto; padding: 40px 80px; border-top: 1px solid #1a1a1a;">
     <div style="display: flex; align-items: center; gap: 32px;">
       <span style="font-size: 14px; font-weight: 600; color: #d4d4d4;">rampa</span>
-      <a href="https://github.com/basiclines/rampa-studio" style="font-size: 14px; color: #525252;">GitHub</a>
-      <a href="https://rampa.studio" style="font-size: 14px; color: #525252;">rampa.studio</a>
-      <a href="https://ismael.fyi" style="font-size: 14px; color: #525252;">ismael.fyi</a>
+      <a class="text-secondary" href="https://github.com/basiclines/rampa-studio" style="font-size: 14px;">GitHub</a>
+      <a class="text-secondary" href="https://rampa.design" style="font-size: 14px;">rampa.design</a>
+      <a class="text-secondary" href="https://ismael.fyi" style="font-size: 14px;">ismael.fyi</a>
     </div>
     <span style="font-size: 13px; color: #404040;">Free for individuals &amp; developers · <a href="https://github.com/basiclines/rampa-studio/blob/main/LICENSE.md" style="text-decoration: underline;">MIT License</a></span>
   </footer>

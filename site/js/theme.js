@@ -54,7 +54,7 @@
 
     // Neutral ramp: --n-1 (darkest) → --n-10 (lightest)
     var neutral = new Rampa.LinearColorSpace(cfg.foreground, cfg.background).size(GRID);
-    for (var i = 1; i <= GRID; i++) {
+    for (var i = 0; i <= GRID; i++) {
       lines.push('  --n-' + i + ': ' + neutral(i) + ';');
     }
 
