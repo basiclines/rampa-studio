@@ -52,12 +52,10 @@
     await hero.wait(700);
     await hero.delete(1);
     await hero.line('', { instant: true });
-    await hero.line(heroColors.map((c,i) => ({ text: '\u2588\u2588 ', className: `tt-swatch-${i}` })), { instant: true });
-    await hero.line('', { instant: true });
     await hero.line([kw(':root'), dim(' {')], { instant: true });
     await hero.line([dim('  '), comment('/* base */')], { instant: true });
     for (let i = 0; i < heroColors.length; i++) {
-      await hero.line([dim('  '), prop(`--base-${i}`), dim(': '), val(heroColors[i]), dim(';')], { instant: true });
+      await hero.line([dim('  '), { text: '\u2588\u2588', className: `tt-swatch-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(heroColors[i]), dim(';')], { instant: true });
     }
     await hero.line(dim('}'), { instant: true });
     hero.cursor();
@@ -277,8 +275,8 @@
       if (activeTab === tab) return;
       activeTab = tab;
 
-      // Update tab buttons
-      document.querySelectorAll('.demo-tab').forEach(btn => {
+      // Update tab buttons (only demo section ones with data-tab, not data-cta-tab)
+      document.querySelectorAll('.demo-tab[data-tab]').forEach(btn => {
         btn.classList.toggle('demo-tab-active', btn.dataset.tab === tab);
       });
 
@@ -296,7 +294,7 @@
       }
     }
 
-    document.querySelectorAll('.demo-tab').forEach(btn => {
+    document.querySelectorAll('.demo-tab[data-tab]').forEach(btn => {
       btn.addEventListener('click', () => switchTab(btn.dataset.tab));
     });
 

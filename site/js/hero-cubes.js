@@ -1,6 +1,7 @@
 // ==========================================
 // Read anchor colors from Rampa theme (or fallback)
 // ==========================================
+(function() {
 const THEME = (window.RampaTheme && window.RampaTheme.defaults) || {
   foreground: '#0a0a0a',
   background: '#fafafa',
@@ -66,7 +67,7 @@ function buildGrid(cols, rows) {
     var toHex = ANCHOR_COLORS[(seg + 1) % n];
     var segLen = toCol - fromCol;
     if (segLen <= 0) continue;
-    var ramp = new Rampa.LinearColorSpace(fromHex, toHex).size(segLen);
+    var ramp = new Rampa.LinearColorSpace(fromHex, toHex).interpolation('oklch').size(segLen);
     for (var j = 0; j < segLen; j++) {
       topRow[fromCol + j] = '' + ramp(j + 1);
     }
@@ -79,7 +80,7 @@ function buildGrid(cols, rows) {
   // 3. For each column, fade from top-row color → background
   grid = new Array(cols);
   for (var c = 0; c < cols; c++) {
-    var colRamp = new Rampa.LinearColorSpace(topRow[c], BG_HEX).size(Math.max(rows, 2));
+    var colRamp = new Rampa.LinearColorSpace(topRow[c], BG_HEX).interpolation('oklch').size(Math.max(rows, 2));
     grid[c] = new Array(rows);
     for (var r = 0; r < rows; r++) {
       grid[c][r] = hexToGL('' + colRamp(r + 1));
@@ -92,7 +93,8 @@ let prevCols = 0, prevRows = 0;
 let glReady = false;
 function resize() {
   const w = window.innerWidth;
-  const h = canvas.parentElement ? canvas.parentElement.offsetHeight : window.innerHeight;
+  const proof = document.getElementById('social-proof');
+  const h = proof ? proof.offsetTop : (canvas.parentElement ? canvas.parentElement.offsetHeight : window.innerHeight);
   canvas.style.width = w + 'px';
   canvas.style.height = h + 'px';
   canvas.width = w * devicePixelRatio;
@@ -220,6 +222,41 @@ function ortho(l, r, b, t, n, f) {
 
 gl.uniform3f(uLD, 0.5, 0.8, 1.0);
 
+// Ripple state: triggered by pressing a cube
+let rippleOriginCol = -1, rippleOriginRow = -1;
+let rippleStartTime = -Infinity;
+let rippleStrength = 0;
+// Press state: live preview on the pressed cube
+let pressing = false;
+let pressCol = -1, pressRow = -1;
+let pressStartTime = 0;
+const RIPPLE_SPEED = 0.04;
+const RIPPLE_DUR = 1.2;
+const RIPPLE_FADE = 30;
+
+canvas.addEventListener('mousedown', function(e) {
+  pressing = true;
+  pressStartTime = performance.now() / 1000;
+  const rect = canvas.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+  const cell = CUBE_PX + GAP_PX;
+  pressCol = Math.floor(x / cell);
+  pressRow = Math.floor(y / cell);
+});
+
+canvas.addEventListener('mouseup', function(e) {
+  const pressDur = performance.now() / 1000 - pressStartTime;
+  rippleStrength = 1 - 1 / (1 + pressDur * 2);
+  rippleOriginCol = pressCol;
+  rippleOriginRow = pressRow;
+  rippleStartTime = performance.now() / 1000;
+  pressing = false;
+});
+
+canvas.addEventListener('mouseleave', function() {
+  pressing = false;
+});
 
 const startTime = performance.now() / 1000;
 
@@ -257,8 +294,40 @@ function frame() {
       const lt = Math.min(1, phase);
       const t = ease(lt);
 
+      // Press preview: scale/tilt the held cube while pressing
+      let pressScale = 1, pressTiltX = 0;
+      if (pressing && c === pressCol && r === pressRow) {
+        const holdDur = now - pressStartTime;
+        const holdStrength = 1 - 1 / (1 + holdDur * 2);
+        pressScale = 1 - holdStrength * 0.5;
+        // Tilt toward camera (forward lean on X axis only)
+        pressTiltX = holdStrength * 0.3;
+      }
+
+      // Ripple: scale dip + subtle tilt, strength based on press duration
+      let rippleScale = 1, rippleTiltX = 0, rippleTiltY = 0;
+      const rippleElapsed = now - rippleStartTime;
+      if (rippleElapsed >= 0) {
+        const dx = c - rippleOriginCol;
+        const dy = r - rippleOriginRow;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        const rippleDelay = dist * RIPPLE_SPEED;
+        const localTime = rippleElapsed - rippleDelay;
+        if (localTime > 0 && localTime < RIPPLE_DUR) {
+          const p = localTime / RIPPLE_DUR;
+          const wave = Math.sin(p * Math.PI) * (1 - p);
+          const fade = Math.max(0, 1 - dist / RIPPLE_FADE);
+          const strength = wave * fade * rippleStrength;
+          // Scale dip: 0.1 to 0.5 range based on strength
+          rippleScale = 1 - Math.abs(strength) * 0.5;
+          // Tilt away from origin — subtle, proportional to strength
+          const angle = Math.atan2(dy, dx || 0.001);
+          rippleTiltX = strength * Math.sin(angle) * 0.3;
+          rippleTiltY = strength * Math.cos(angle) * 0.3;
+        }
+      }
+
       // Each face picks a color stepped by faceStep along the grid columns.
-      // Offset by -4 so that face 4 (+Z, the front at rest) shows grid[c]
       for (let i = 0; i < 6; i++) {
         var fc_col = ((c + ((i + 2) % 6) * faceStep) % cols + cols) % cols;
         var fc = grid[fc_col] ? grid[fc_col][r] : BG_GL;
@@ -268,12 +337,13 @@ function frame() {
       const fi = cubeCycle % FR.length;
       const ti = (cubeCycle + 1) % FR.length;
       const from = FR[fi], to = FR[ti];
-      const rx = from[0] + (to[0] - from[0]) * t;
-      const ry = from[1] + (to[1] - from[1]) * t;
+      const rx = from[0] + (to[0] - from[0]) * t + rippleTiltX + pressTiltX;
+      const ry = from[1] + (to[1] - from[1]) * t + rippleTiltY;
 
-      // Animated scale: full at rest (t=0,1), shrink at mid-rotation (t=0.5)
-      const scaleLerp = 1 - Math.sin(t * Math.PI); // 0 at edges, 1 at midpoint
+      // Animated scale with ripple and press
+      const scaleLerp = 1 - Math.sin(t * Math.PI);
       const animScale = CUBE_SCALE_ANIM + (CUBE_SCALE_REST - CUBE_SCALE_ANIM) * scaleLerp;
+      const finalScale = cubeScale * animScale / CUBE_SCALE_ANIM * rippleScale * pressScale;
 
       // Position: center of each cell, Y flipped (screen coords)
       const px = c * cell + CUBE_PX / 2;
@@ -282,7 +352,7 @@ function frame() {
       let m = tr(px, py, 0);
       m = mul(m, rX(rx));
       m = mul(m, rY(ry));
-      m = mul(m, sc(cubeScale * animScale / CUBE_SCALE_ANIM));
+      m = mul(m, sc(finalScale));
 
       gl.uniformMatrix4fv(uMo, false, m);
       gl.drawArrays(gl.TRIANGLES, 0, 36);
@@ -292,3 +362,4 @@ function frame() {
 }
 glReady = true;
 frame();
+})();
