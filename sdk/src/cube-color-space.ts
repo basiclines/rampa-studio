@@ -1,5 +1,6 @@
 import { generateCubeSpace } from '../../src/engine/ColorSpaceEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
+import { cubeToCSS, cubeToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
 import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor } from './types';
 
@@ -124,6 +125,8 @@ export class CubeColorSpace {
       cube,
       palette,
       size: stepsPerAxis,
+      toCSS: (prefix?: string) => cubeToCSS(palette, stepsPerAxis, prefix),
+      toJSON: (prefix?: string) => cubeToJSON(palette, stepsPerAxis, prefix),
     };
 
     // Add per-corner shortcut: e.g. result.r = (index) => tint({ r: index })

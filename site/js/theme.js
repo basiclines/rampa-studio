@@ -50,27 +50,27 @@
     var cfg = {};
     for (var k in DEFAULTS) cfg[k] = (config && config[k]) || DEFAULTS[k];
 
-    var lines = [];
+    var blocks = [];
 
-    // Neutral ramp: --n-1 (darkest) → --n-10 (lightest)
+    // Neutral ramp: --n-0 … --n-10
     var neutral = new Rampa.LinearColorSpace(cfg.foreground, cfg.background).size(GRID);
-    for (var i = 0; i <= GRID; i++) {
-      lines.push('  --n-' + i + ': ' + neutral(i) + ';');
-    }
+    blocks.push(neutral.toCSS('n'));
 
     // Hue planes: --{alias}-{sat}-{lgt}
     for (var h = 0; h < HUES.length; h++) {
       var alias = HUES[h].alias;
       var hueColor = cfg[HUES[h].key];
       var plane = new Rampa.PlaneColorSpace(cfg.foreground, cfg.background, hueColor).size(GRID);
-
-      for (var sat = 0; sat < GRID; sat++) {
-        for (var lgt = 0; lgt < GRID; lgt++) {
-          lines.push('  --' + alias + '-' + sat + '-' + lgt + ': ' + plane(sat, lgt) + ';');
-        }
-      }
+      blocks.push(plane.toCSS(alias));
     }
 
+    // Merge all :root blocks into one
+    var lines = [];
+    for (var i = 0; i < blocks.length; i++) {
+      // Strip the :root { } wrapper, keep only the variable lines
+      var inner = blocks[i].replace(/^:root \{\n?/, '').replace(/\n?\}$/, '');
+      lines.push(inner);
+    }
     return ':root {\n' + lines.join('\n') + '\n}';
   }
 

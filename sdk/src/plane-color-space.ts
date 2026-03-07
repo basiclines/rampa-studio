@@ -1,5 +1,6 @@
 import { generatePlaneSpace } from '../../src/engine/ColorSpaceEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
+import { planeToCSS, planeToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
 import type { ColorFormat, InterpolationMode, PlaneColorSpaceResult, ColorAccessor } from './types';
 
@@ -75,6 +76,8 @@ export class PlaneColorSpace {
     Object.defineProperties(result, {
       palette: { value: palette, enumerable: true },
       size: { value: stepsPerAxis, enumerable: true },
+      toCSS: { value: (prefix?: string) => planeToCSS(palette, stepsPerAxis, prefix), enumerable: false },
+      toJSON: { value: (prefix?: string) => planeToJSON(palette, stepsPerAxis, prefix), enumerable: false },
     });
 
     return result;

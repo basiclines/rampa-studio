@@ -1,5 +1,6 @@
 import { generateLinearSpace } from '../../src/engine/ColorSpaceEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
+import { linearToCSS, linearToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
 import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor } from './types';
 
@@ -85,6 +86,8 @@ function buildFn(palette: string[], outputFormat: ColorFormat): LinearColorSpace
 
   fn.palette = palette;
   fn.size = palette.length;
+  fn.toCSS = (prefix?: string) => linearToCSS(palette, prefix);
+  fn.toJSON = (prefix?: string) => linearToJSON(palette, prefix);
 
   return fn;
 }
