@@ -1,4 +1,6 @@
-    import { typetype } from './typetype.js';
+(function() {
+  function boot() {
+    const { typetype } = window;
 
     const cmd = (t) => ({ text: t, className: 'tt-cmd' });
     const flag = (t) => ({ text: t, className: 'tt-flag' });
@@ -316,3 +318,12 @@
       const tt = typetype(container, { theme: 'dark' });
       await DEMOS[key].run(tt);
     }
+  }
+
+  // Wait for typetype to be loaded from CDN
+  if (window.typetype) {
+    boot();
+  } else {
+    window.addEventListener('typetype-ready', boot, { once: true });
+  }
+})();

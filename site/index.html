@@ -12,8 +12,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="js/typetype.css">
+  <link rel="stylesheet" href="https://unpkg.com/@adrianmg/typetype@0.1.0/dist/style.css">
   <script src="js/rampa-sdk.min.js"></script>
+  <script type="module">
+    import { typetype } from 'https://unpkg.com/@adrianmg/typetype@0.1.0/dist/index.js';
+    window.typetype = typetype;
+    window.dispatchEvent(new Event('typetype-ready'));
+  </script>
   <script src="js/theme.js" defer></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -404,7 +409,7 @@
 
   <script src="js/interactions.js" defer></script>
   <script src="js/hero-cubes.js"></script>
-  <script type="module" src="js/demos.js"></script>
+  <script src="js/demos.js" defer></script>
 
 </body>
 </html>
