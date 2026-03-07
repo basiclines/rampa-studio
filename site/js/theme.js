@@ -60,7 +60,7 @@
     for (var h = 0; h < HUES.length; h++) {
       var alias = HUES[h].alias;
       var hueColor = cfg[HUES[h].key];
-      var plane = new Rampa.PlaneColorSpace(cfg.foreground, cfg.background, hueColor).size(GRID);
+      var plane = new Rampa.PlaneColorSpace(cfg.foreground, cfg.background, hueColor).interpolation('oklch').size(GRID);
       blocks.push(plane.toCSS(alias));
     }
 
