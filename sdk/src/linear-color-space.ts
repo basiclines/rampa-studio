@@ -1,8 +1,9 @@
-import { generateLinearSpace } from '../../src/engine/ColorSpaceEngine';
+import { generateLinearSpace, mixWithMode } from '../../src/engine/ColorSpaceEngine';
+import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
 import { linearToCSS, linearToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor } from './types';
+import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor, ScaleType } from './types';
 
 /**
  * Create a linear color space.
@@ -31,6 +32,7 @@ export class LinearColorSpace {
   private _colors: string[];
   private _interpolation: InterpolationMode | false = 'oklch';
   private _format: ColorFormat = 'hex';
+  private _distribution: ScaleType | undefined;
 
   constructor(...colors: string[]) {
     if (colors.length < 2) {
@@ -58,6 +60,16 @@ export class LinearColorSpace {
   }
 
   /**
+   * Set a non-linear distribution curve for color steps.
+   * When set, positions are remapped through the given scale function
+   * instead of using uniform linear spacing.
+   */
+  distribution(scale: ScaleType): this {
+    this._distribution = scale;
+    return this;
+  }
+
+  /**
    * Set the number of color steps and return the color accessor function.
    */
   size(steps: number): LinearColorSpaceFn {
@@ -71,7 +83,18 @@ export class LinearColorSpace {
       // Interpolated — convert to hex, generate between first and last color
       const firstHex = chroma(this._colors[0]).hex();
       const lastHex = chroma(this._colors[this._colors.length - 1]).hex();
-      palette = generateLinearSpace(firstHex, lastHex, steps, this._interpolation);
+
+      if (this._distribution) {
+        // Non-linear distribution: remap positions through scale function
+        const dist = this._distribution;
+        palette = [];
+        for (let i = 0; i < steps; i++) {
+          const t = calculateScalePosition(i, steps, dist);
+          palette.push(mixWithMode(firstHex, lastHex, t, this._interpolation));
+        }
+      } else {
+        palette = generateLinearSpace(firstHex, lastHex, steps, this._interpolation);
+      }
     }
 
     return buildFn(palette, outputFormat);

@@ -8,7 +8,8 @@
  *   rampa colorspace --config space.json --tint r:4,b:2
  */
 
-import { generateLinearSpace, generateCubeSpace, generatePlaneSpace, type InterpolationMode } from '../../src/engine/ColorSpaceEngine';
+import { generateLinearSpace, generateCubeSpace, generatePlaneSpace, mixWithMode, type InterpolationMode } from '../../src/engine/ColorSpaceEngine';
+import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
 import { readFileSync } from 'node:fs';
 import chroma from 'chroma-js';
 
@@ -29,6 +30,7 @@ interface ColorSpaceArgs {
   // Shared
   size: number;
   interpolation: InterpolationMode | false;
+  distribution?: string;
   // Query
   tint?: Record<string, number>;
   at?: number;
@@ -71,6 +73,11 @@ OPTIONS
 
   ${cyan}--interpolation mode${reset}          ${dim}Interpolation: oklch (default), lab, rgb, false${reset}
 
+  ${cyan}--distribution scale${reset}          ${dim}Non-linear step distribution (default: none = linear)${reset}
+                                  ${dim}Options: ease-in, ease-out, ease-in-out, fibonacci,${reset}
+                                  ${dim}golden-ratio, geometric, logarithmic, powers-of-2,${reset}
+                                  ${dim}musical-ratio, cielab-uniform${reset}
+
 QUERIES ${dim}(omit to output full palette)${reset}
   ${cyan}--tint key:n,...${reset}              ${dim}Query CubeColorSpace by alias:intensity${reset}
                                   ${dim}Example: --tint r:4,b:2${reset}
@@ -105,6 +112,9 @@ EXAMPLES
 
   ${dim}# Plane: 2D saturation×lightness for a single hue${reset}
   rampa colorspace --plane '#1e1e2e' '#cdd6f4' '#f38ba8' --size 6 --xy 3,5
+
+  ${dim}# Non-linear distribution: ease-in spacing${reset}
+  rampa colorspace --linear '#ffffff' '#000000' --size 10 --distribution ease-in
 
   ${dim}# Query from config file${reset}
   rampa colorspace --config catppuccin.json --tint r:4,b:2
@@ -228,6 +238,12 @@ export function parseColorspaceArgs(argv: string[]): ColorSpaceArgs {
       continue;
     }
 
+    if (arg === '--distribution') {
+      args.distribution = argv[++i];
+      i++;
+      continue;
+    }
+
     if (arg === '--tint') {
       args.tint = {};
       const parts = argv[++i].split(',');
@@ -281,6 +297,7 @@ function loadConfig(path: string): ColorSpaceArgs {
       mode: config.type || 'cube',
       size: config.size || 0,
       interpolation: config.interpolation ?? 'oklch',
+      distribution: config.distribution,
       format: 'hex',
       output: 'text',
     };
@@ -374,6 +391,28 @@ export function runColorspace(argv: string[]): void {
 
     if (args.interpolation === false) {
       palette = [...cornerColors];
+    } else if (args.distribution) {
+      const dist = args.distribution;
+      const mode = args.interpolation as InterpolationMode;
+      const [origin, x, y, z, xy, xz, yz, xyz] = cornerColors;
+      const mix = (a: string, b: string, t: number) => mixWithMode(a, b, t, mode);
+      palette = [];
+      for (let xi = 0; xi < args.size; xi++) {
+        const tx = calculateScalePosition(xi, args.size, dist);
+        const c_x0y0 = mix(origin, x, tx);
+        const c_x0y1 = mix(y, xy, tx);
+        const c_x1y0 = mix(z, xz, tx);
+        const c_x1y1 = mix(yz, xyz, tx);
+        for (let yi = 0; yi < args.size; yi++) {
+          const ty = calculateScalePosition(yi, args.size, dist);
+          const c_z0 = mix(c_x0y0, c_x0y1, ty);
+          const c_z1 = mix(c_x1y0, c_x1y1, ty);
+          for (let zi = 0; zi < args.size; zi++) {
+            const tz = calculateScalePosition(zi, args.size, dist);
+            palette.push(mix(c_z0, c_z1, tz));
+          }
+        }
+      }
     } else {
       palette = generateCubeSpace(cornerColors, args.size, args.interpolation as InterpolationMode);
     }
@@ -382,7 +421,23 @@ export function runColorspace(argv: string[]): void {
       console.error('PlaneColorSpace requires 3 colors: dark light hue');
       process.exit(1);
     }
-    palette = generatePlaneSpace(args.dark, args.light, args.hue, args.size, args.interpolation === false ? 'oklch' : args.interpolation as InterpolationMode);
+    const planeMode = args.interpolation === false ? 'oklch' : args.interpolation as InterpolationMode;
+    if (args.distribution) {
+      const dist = args.distribution;
+      const mix = (a: string, b: string, t: number) => mixWithMode(a, b, t, planeMode);
+      palette = [];
+      for (let xi = 0; xi < args.size; xi++) {
+        const tx = calculateScalePosition(xi, args.size, dist);
+        const bottom = args.dark;
+        const top = mix(args.light, args.hue, tx);
+        for (let yi = 0; yi < args.size; yi++) {
+          const ty = calculateScalePosition(yi, args.size, dist);
+          palette.push(mix(bottom, top, ty));
+        }
+      }
+    } else {
+      palette = generatePlaneSpace(args.dark, args.light, args.hue, args.size, planeMode);
+    }
   } else {
     // Linear
     if (!args.colors || args.colors.length < 2) {
@@ -392,6 +447,14 @@ export function runColorspace(argv: string[]): void {
 
     if (args.interpolation === false) {
       palette = [...args.colors];
+    } else if (args.distribution) {
+      const dist = args.distribution;
+      const mode = args.interpolation as InterpolationMode;
+      palette = [];
+      for (let i = 0; i < args.size; i++) {
+        const t = calculateScalePosition(i, args.size, dist);
+        palette.push(mixWithMode(args.colors[0], args.colors[args.colors.length - 1], t, mode));
+      }
     } else {
       palette = generateLinearSpace(
         args.colors[0],

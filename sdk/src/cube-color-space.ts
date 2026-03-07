@@ -1,8 +1,9 @@
-import { generateCubeSpace } from '../../src/engine/ColorSpaceEngine';
+import { generateCubeSpace, mixWithMode } from '../../src/engine/ColorSpaceEngine';
+import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
 import { cubeToCSS, cubeToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor } from './types';
+import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor, ScaleType } from './types';
 
 // The 8 cube corner positions in binary order.
 // Constructor keys map to these positions by their insertion order.
@@ -48,6 +49,7 @@ export class CubeColorSpace {
   private _corners: Record<string, string>;
   private _interpolation: InterpolationMode;
   private _format: ColorFormat = 'hex';
+  private _distribution: ScaleType | undefined;
 
   constructor(corners: Record<string, string>, options?: { interpolation?: InterpolationMode }) {
     const keys = Object.keys(corners);
@@ -76,6 +78,16 @@ export class CubeColorSpace {
   }
 
   /**
+   * Set a non-linear distribution curve for all three axes.
+   * When set, positions are remapped through the given scale function
+   * instead of using uniform linear spacing.
+   */
+  distribution(scale: ScaleType): this {
+    this._distribution = scale;
+    return this;
+  }
+
+  /**
    * Set the steps per axis and return the color space accessor object.
    */
   size(stepsPerAxis: number): CubeColorSpaceResult {
@@ -91,7 +103,37 @@ export class CubeColorSpace {
       aliases[keys[i]] = CORNER_MASKS[i];
     }
 
-    const palette = generateCubeSpace(cornerColors, stepsPerAxis, this._interpolation);
+    let palette: string[];
+
+    if (this._distribution) {
+      // Non-linear distribution: remap positions through scale function
+      const dist = this._distribution;
+      const [origin, x, y, z, xy, xz, yz, xyz] = cornerColors;
+      const mix = (a: string, b: string, t: number) => mixWithMode(a, b, t, this._interpolation);
+      palette = [];
+
+      for (let xi = 0; xi < stepsPerAxis; xi++) {
+        const tx = calculateScalePosition(xi, stepsPerAxis, dist);
+        const c_x0y0 = mix(origin, x, tx);
+        const c_x0y1 = mix(y, xy, tx);
+        const c_x1y0 = mix(z, xz, tx);
+        const c_x1y1 = mix(yz, xyz, tx);
+
+        for (let yi = 0; yi < stepsPerAxis; yi++) {
+          const ty = calculateScalePosition(yi, stepsPerAxis, dist);
+          const c_z0 = mix(c_x0y0, c_x0y1, ty);
+          const c_z1 = mix(c_x1y0, c_x1y1, ty);
+
+          for (let zi = 0; zi < stepsPerAxis; zi++) {
+            const tz = calculateScalePosition(zi, stepsPerAxis, dist);
+            palette.push(mix(c_z0, c_z1, tz));
+          }
+        }
+      }
+    } else {
+      palette = generateCubeSpace(cornerColors, stepsPerAxis, this._interpolation);
+    }
+
     const max = stepsPerAxis - 1;
 
     // Helper: resolve raw (x,y,z) to a ColorAccessor

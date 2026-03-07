@@ -555,6 +555,29 @@ new PlaneColorSpace('#000', '#fff', '#f00').interpolation('lab').size(6)
 new CubeColorSpace({ ... }).interpolation('lab').size(6)
 ```
 
+### Distribution curves
+
+All color space classes support `.distribution(scale)` to apply non-linear step spacing. When not set, steps are evenly spaced (zero overhead on the default path).
+
+Available scales: `ease-in`, `ease-out`, `ease-in-out`, `fibonacci`, `golden-ratio`, `geometric`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`
+
+```typescript
+// Ease-in: bunch colors toward the start, spread out toward the end
+const ramp = new LinearColorSpace('#ffffff', '#000000')
+  .distribution('ease-in')
+  .size(10);
+
+// Fibonacci spacing on a 2D plane
+const red = new PlaneColorSpace('#1e1e2e', '#cdd6f4', '#f38ba8')
+  .distribution('fibonacci')
+  .size(8);
+
+// Golden ratio on a cube
+const space = new CubeColorSpace({ ... })
+  .distribution('golden-ratio')
+  .size(6);
+```
+
 ### Color accessor
 
 All color space lookups return a `ColorAccessor` — a string that works directly in template literals and concatenation, with conversion methods:

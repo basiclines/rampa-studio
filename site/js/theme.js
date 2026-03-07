@@ -53,14 +53,14 @@
     var blocks = [];
 
     // Neutral ramp: --n-0 … --n-10
-    var neutral = new Rampa.LinearColorSpace(cfg.foreground, cfg.background).size(GRID);
+    var neutral = new Rampa.LinearColorSpace(cfg.foreground, cfg.background).distribution('ease-in').size(GRID);
     blocks.push(neutral.toCSS('n'));
 
     // Hue planes: --{alias}-{sat}-{lgt}
     for (var h = 0; h < HUES.length; h++) {
       var alias = HUES[h].alias;
       var hueColor = cfg[HUES[h].key];
-      var plane = new Rampa.PlaneColorSpace(cfg.foreground, cfg.background, hueColor).interpolation('oklch').size(GRID);
+      var plane = new Rampa.PlaneColorSpace(cfg.foreground, cfg.background, hueColor).interpolation('oklch').distribution('ease-in').size(GRID);
       blocks.push(plane.toCSS(alias));
     }
 
