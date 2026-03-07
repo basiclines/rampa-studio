@@ -31,7 +31,7 @@
 
     let activeDemo = null;
     let activeTab = 'cli';
-    const TICK = 60; // ms between output lines for step-by-step reveal
+    const TICK = 10; // ms between output lines for step-by-step reveal
 
     // --- Demo definitions (must be before observer) ---
     const DEMOS = {
