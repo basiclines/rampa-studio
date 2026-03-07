@@ -27,6 +27,9 @@
     ].join('\n');
     document.head.appendChild(s);
 
+    let activeDemo = null;
+    let activeTab = 'cli';
+
     // Wire up nav buttons + intersection observer BEFORE hero animation
     document.querySelectorAll('.demo-nav-btn').forEach(btn => {
       btn.addEventListener('click', () => switchDemo(btn.dataset.demo));
@@ -73,9 +76,6 @@
       'sdk-plane': { title: 'Plane space', run: runSdkPlane },
       'sdk-contrast': { title: 'Contrast', run: runSdkContrast },
     };
-
-    let activeDemo = null;
-    let activeTab = 'cli';
 
     const TICK = 60; // ms between output lines for step-by-step reveal
 
