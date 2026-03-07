@@ -8,6 +8,7 @@ import { contrast, ContrastBuilder } from './contrast';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
+  OutputMode,
   ScaleType,
   BlendMode,
   HarmonyType,
@@ -118,6 +119,7 @@ export function color(hex: string): ColorResult {
 export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder };
 export type {
   ColorFormat,
+  OutputMode,
   ScaleType,
   BlendMode,
   HarmonyType,

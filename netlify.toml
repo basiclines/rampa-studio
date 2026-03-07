@@ -1,6 +1,17 @@
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "npm run build:dev && mkdir -p dist/app && mv dist/index.html dist/assets dist/app/ 2>/dev/null; cp -r site/* dist/"
 
 [build.environment]
   NODE_ENV = "production"
+
+# React SPA: client-side routing under /app
+[[redirects]]
+  from = "/app"
+  to = "/app/"
+  status = 301
+
+[[redirects]]
+  from = "/app/*"
+  to = "/app/index.html"
+  status = 200

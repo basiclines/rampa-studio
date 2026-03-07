@@ -101,6 +101,7 @@ rampa -C "#3b82f6" --add=complementary -A=15:30
 
 # Color spaces: interpolated ramp or 8-corner cube
 rampa colorspace --linear '#fff' '#000' --size 24 --at 12
+rampa colorspace --linear '#fff' '#000' --size 10 --distribution ease-in
 rampa colorspace --cube k=#1e1e2e r=#f38ba8 g=#a6e3a1 b=#89b4fa \
                         y=#f9e2af m=#cba6f7 c=#94e2d5 w=#cdd6f4 \
                  --size 6 --tint r:4,b:2
@@ -180,6 +181,9 @@ import { LinearColorSpace, PlaneColorSpace, CubeColorSpace, color } from '@basic
 const neutral = new LinearColorSpace('#ffffff', '#000000').size(24);
 neutral(12)                       // Midpoint gray (returns hex string directly)
 
+const eased = new LinearColorSpace('#ffffff', '#000000').distribution('ease-in-out').size(10);
+eased(5)                          // Non-linear midpoint
+
 const red = new PlaneColorSpace('#1e1e2e', '#cdd6f4', '#f38ba8').size(6);
 red(3, 5)                         // 2D lookup: saturation=3, lightness=5
 
@@ -221,6 +225,7 @@ Every CLI flag maps to an SDK method:
 | `--mix "#0000ff" --steps=5` | `rampa.mix('#ff0000', '#0000ff', t)` |
 | `colorspace --linear '#fff' '#000' --size 24 --at 12` | `new LinearColorSpace('#fff', '#000').size(24)(12).hex` |
 | `colorspace --cube k=#000 ... --tint r:4` | `new CubeColorSpace({...}).size(6)({ r: 4 }).hex` |
+| `colorspace --linear ... --distribution ease-in` | `new LinearColorSpace(...).distribution('ease-in').size(24)` |
 | `lint --fg '#fff' --bg '#000'` | `rampa.contrast('#fff', '#000')` |
 | `lint --fg '#fff' --bg '#000' --mode wcag` | `rampa.contrast('#fff', '#000').mode('wcag')` |
 | `inspect -c '#ff6600'` | `rampa.readOnly('#ff6600').generate()` |
