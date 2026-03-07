@@ -1,5 +1,5 @@
 (function() {
-  function boot() {
+  async function boot() {
     const { typetype } = window;
 
     const cmd = (t) => ({ text: t, className: 'tt-cmd' });
