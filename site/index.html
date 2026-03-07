@@ -101,6 +101,51 @@
     .demo-tab               { background: transparent; color: var(--n-5); }
     .demo-tab:hover         { color: var(--n-7); }
     .demo-tab-active        { background: var(--n-0) !important; color: var(--n-9) !important; }
+
+    /* ── Theme Picker ── */
+    .tp-trigger { position: fixed; top: 20px; right: 20px; z-index: 10000; display: flex; align-items: center; cursor: pointer; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; padding: 8px 14px 8px 10px; gap: 6px; transition: background .2s, box-shadow .2s; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; font-size: 12px; color: rgba(255,255,255,0.7); }
+    .tp-trigger:hover { background: rgba(255,255,255,0.14); box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
+    .tp-dots { display: flex; margin-right: 2px; }
+    .tp-dot { width: 16px; height: 16px; border-radius: 50%; border: 2px solid rgba(0,0,0,0.6); margin-left: -5px; transition: margin .3s cubic-bezier(.4,0,.2,1), background .3s; }
+    .tp-dot:first-child { margin-left: 0; }
+    .tp-trigger:hover .tp-dot { margin-left: 4px; }
+    .tp-trigger:hover .tp-dot:first-child { margin-left: 0; }
+
+    .tp-overlay { position: fixed; top: 0; right: 0; bottom: 0; z-index: 10001; width: 320px; max-width: 100vw; background: rgba(20,20,20,0.92); backdrop-filter: blur(20px); border-left: 1px solid rgba(255,255,255,0.08); transform: translateX(100%); transition: transform .35s cubic-bezier(.4,0,.2,1); display: flex; flex-direction: column; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .tp-overlay.tp-open { transform: translateX(0); }
+
+    .tp-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .tp-title { font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.9); }
+    .tp-close { background: none; border: none; color: rgba(255,255,255,0.5); cursor: pointer; font-size: 20px; line-height: 1; padding: 4px; }
+    .tp-close:hover { color: rgba(255,255,255,0.9); }
+
+    .tp-body { overflow-y: auto; padding: 16px 24px; flex-shrink: 0; }
+    .tp-section { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.6); margin: 16px 0 8px; padding: 0; }
+    .tp-section:first-child { margin-top: 0; }
+    .tp-row { display: flex; align-items: center; gap: 12px; padding: 8px 0; }
+    .tp-swatch { position: relative; width: 32px; height: 32px; border-radius: 8px; border: 2px solid var(--n-0); cursor: pointer; overflow: hidden; flex-shrink: 0; transition: border-color .2s; }
+    .tp-swatch:hover { border-color: rgba(255,255,255,0.3); }
+    .tp-swatch input { position: absolute; top: -8px; left: -8px; width: 48px; height: 48px; border: none; cursor: pointer; opacity: 0; }
+    .tp-label { font-size: 13px; color: rgba(255,255,255,0.7); flex: 1; }
+    .tp-hex { font-size: 12px; color: rgba(255,255,255,0.4); text-transform: uppercase; }
+
+    .tp-footer { padding: 16px 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+    .tp-reset { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.6); font-family: inherit; font-size: 12px; cursor: pointer; transition: background .2s; }
+    .tp-reset:hover { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.9); }
+
+    .tp-presets { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 12px 24px; flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 0; }
+    .tp-search { width: 100%; padding: 8px 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.8); font-family: inherit; font-size: 12px; outline: none; transition: border-color .2s; }
+    .tp-search::placeholder { color: rgba(255,255,255,0.3); }
+    .tp-search:focus { border-color: rgba(255,255,255,0.25); }
+    .tp-preset-list { flex: 1; overflow-y: auto; margin-top: 8px; min-height: 0; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.15) transparent; }
+    .tp-preset { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border-radius: 6px; cursor: pointer; transition: background .15s; }
+    .tp-preset:hover { background: rgba(255,255,255,0.08); }
+    .tp-preset-dots { display: flex; flex-shrink: 0; }
+    .tp-preset-dot { width: 12px; height: 12px; border-radius: 50%; border: 1.5px solid rgba(0,0,0,0.6); margin-left: -3px; }
+    .tp-preset-dot:first-child { margin-left: 0; }
+    .tp-preset-name { font-size: 12px; color: rgba(255,255,255,0.6); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .tp-preset.tp-active { background: rgba(255,255,255,0.12); }
+    .tp-preset.tp-active .tp-preset-name { color: rgba(255,255,255,0.9); }
   </style>
 </head>
 <body class="background-primary">
@@ -350,7 +395,7 @@
     <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI for quick exploration or install the SDK to build robust color systems.</p>
 
     <!-- Tabs -->
-    <div style="display: flex; gap: 4px; background: var(--n-1); border-radius: 10px; padding: 4px;">
+    <div class="background-secondary" style="display: flex; gap: 4px; border-radius: 10px; padding: 4px;">
       <button class="demo-tab demo-tab-active" data-cta-tab="cli" style="padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.15s;">CLI</button>
       <button class="demo-tab" data-cta-tab="sdk" style="padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 14px; font-weight: 600; background: transparent; color: var(--n-5); transition: all 0.15s;">SDK</button>
     </div>
@@ -410,6 +455,7 @@
 
   <script src="js/interactions.js" defer></script>
   <script src="js/hero-cubes.js"></script>
+  <script src="js/theme-picker.js" defer></script>
   <script src="js/demos.js" defer></script>
 
 </body>

@@ -2,7 +2,7 @@
 // Read anchor colors from Rampa theme (or fallback)
 // ==========================================
 (function() {
-const THEME = (window.RampaTheme && window.RampaTheme.defaults) || {
+var FALLBACK = {
   foreground: '#0a0a0a',
   background: '#fafafa',
   red:     '#ef4444',
@@ -13,12 +13,17 @@ const THEME = (window.RampaTheme && window.RampaTheme.defaults) || {
   yellow:  '#eab308',
 };
 
-// Ordered anchor hues — evenly distributed across the row, wrapping back to first
-const ANCHOR_COLORS = [
-  THEME.red, THEME.green, THEME.blue,
-  THEME.cyan, THEME.magenta, THEME.yellow,
-];
-const BG_HEX = THEME.foreground;
+function getTheme(override) {
+  var src = override || (window.RampaTheme && window.RampaTheme.defaults) || FALLBACK;
+  return {
+    anchors: [src.red, src.green, src.blue, src.cyan, src.magenta, src.yellow],
+    bg: src.foreground,
+  };
+}
+
+var currentTheme = getTheme();
+var ANCHOR_COLORS = currentTheme.anchors;
+var BG_HEX = currentTheme.bg;
 
 const GAP_PX = 0;
 const CUBE_PX = 48;
@@ -33,7 +38,7 @@ function hexToGL(hex) {
   return [parseInt(h.slice(0,2),16)/255, parseInt(h.slice(2,4),16)/255, parseInt(h.slice(4,6),16)/255];
 }
 
-const BG_GL = hexToGL(BG_HEX);
+var BG_GL = hexToGL(BG_HEX);
 
 // Build a cols × rows color grid using Rampa SDK
 // Top row: anchors placed evenly, gaps filled via LinearColorSpace
@@ -362,4 +367,16 @@ function frame() {
 }
 glReady = true;
 frame();
+
+// Public API: rebuild grid with new theme colors
+window.rebuildHeroCubes = function (themeConfig) {
+  var t = getTheme(themeConfig);
+  ANCHOR_COLORS = t.anchors;
+  BG_HEX = t.bg;
+  BG_GL = hexToGL(BG_HEX);
+  gl.clearColor(BG_GL[0], BG_GL[1], BG_GL[2], 1);
+  prevCols = 0;
+  prevRows = 0;
+  resize();
+};
 })();
