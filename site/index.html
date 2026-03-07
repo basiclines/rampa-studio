@@ -57,6 +57,7 @@
 
     .background-primary     { background-color: var(--n-0); }
     .background-secondary   { background-color: var(--n-2); }
+    .background-invert      { background-color: var(--n-9); }
 
     .border-neutral         { border-color: var(--n-3); }
     .svg-fill-primary       { fill: var(--n-9); }
@@ -157,13 +158,13 @@
       <div style="display: flex; align-items: center; gap: 8px; border-radius: 999px; padding: 6px 16px; margin-bottom: 32px; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.75);">
         <span style="font-size: 13px; font-weight: 500;">v3.0 APCA &amp; OKLCH built from spec</span>
       </div>
-      <h1 style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; color: rgba(255, 255, 255, 0.95);">A set of color tools for AI agents and humans</h1>
-      <p style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 24px; color: rgba(255, 255, 255, 0.75);">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK, or visual editor available.</p>
+      <h1 class="text-primary" style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; opacity: 0.95;">A set of color tools for AI agents and humans</h1>
+      <p class="text-primary" style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 24px; opacity: 0.75;">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK and web editor available.</p>
       <div style="display: flex; gap: 16px; margin-top: 40px; align-items: center;">
-        <button id="install-btn" onclick="copyInstallCmd(this)"
-          style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(8px); color: rgba(0, 0, 0, 0.75); cursor: pointer; border: none; min-width: 240px;"
+        <button class="background-invert text-primary-invert" id="install-btn" onclick="copyInstallCmd(this)"
+          style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; backdrop-filter: blur(8px); opacity: 0.95; cursor: pointer; border: none; min-width: 240px;"
         >
-          <code id="install-cmd" style="font-size: 14px; color: rgba(0, 0, 0, 0.75)">npm install -g @basiclines/rampa</code>
+          <code id="install-cmd" style="font-size: 14px;">npm install -g @basiclines/rampa</code>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(0, 0, 0, 0.75)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
         </button>
         <a href="/app" style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.75);">Web editor</a>
