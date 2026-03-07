@@ -1,4 +1,4 @@
-    import { typetype } from 'https://unpkg.com/@adrianmg/typetype@0.1.0/dist/index.js';
+    import { typetype } from './typetype.js';
 
     const cmd = (t) => ({ text: t, className: 'tt-cmd' });
     const flag = (t) => ({ text: t, className: 'tt-flag' });
