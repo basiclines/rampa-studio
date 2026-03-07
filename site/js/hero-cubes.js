@@ -120,6 +120,11 @@ resize();
 window.addEventListener('resize', resize);
 
 const gl = canvas.getContext('webgl', { antialias: true, alpha: false });
+if (!gl) {
+  canvas.style.background = BG_HEX;
+  window.rebuildHeroCubes = function () {};
+  return;
+}
 
 const VS = `
 attribute vec3 aP, aN;
@@ -155,12 +160,18 @@ function mkS(src, t) {
   const s = gl.createShader(t);
   gl.shaderSource(s, src);
   gl.compileShader(s);
+  if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) {
+    console.error('Shader compile error:', gl.getShaderInfoLog(s));
+  }
   return s;
 }
 const p = gl.createProgram();
 gl.attachShader(p, mkS(VS, gl.VERTEX_SHADER));
 gl.attachShader(p, mkS(FS, gl.FRAGMENT_SHADER));
 gl.linkProgram(p);
+if (!gl.getProgramParameter(p, gl.LINK_STATUS)) {
+  console.error('Program link error:', gl.getProgramInfoLog(p));
+}
 gl.useProgram(p);
 
 const aP = gl.getAttribLocation(p, 'aP');
