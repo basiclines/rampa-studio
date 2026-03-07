@@ -7,6 +7,11 @@
 
 # React SPA: client-side routing under /app
 [[redirects]]
+  from = "/app"
+  to = "/app/"
+  status = 301
+
+[[redirects]]
   from = "/app/*"
   to = "/app/index.html"
   status = 200

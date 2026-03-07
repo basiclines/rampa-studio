@@ -375,8 +375,8 @@ window.rebuildHeroCubes = function (themeConfig) {
   BG_HEX = t.bg;
   BG_GL = hexToGL(BG_HEX);
   gl.clearColor(BG_GL[0], BG_GL[1], BG_GL[2], 1);
-  prevCols = 0;
-  prevRows = 0;
-  resize();
+  if (cachedCols > 0 && cachedRows > 0) {
+    buildGrid(cachedCols, cachedRows);
+  }
 };
 })();

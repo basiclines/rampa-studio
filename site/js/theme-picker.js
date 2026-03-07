@@ -354,16 +354,34 @@
     applyTheme();
   });
 
-  // ── Apply changes ─────────────────────────────────────────────────
+  // ── Apply changes (RAF-throttled for smooth dragging) ──────────────
+
+  var pendingFrame = null;
+  var pendingPresetName = null;
+  var saveTimer = null;
+
+  function scheduleApply(presetName) {
+    pendingPresetName = presetName || null;
+    if (!pendingFrame) {
+      pendingFrame = requestAnimationFrame(function () {
+        pendingFrame = null;
+        if (window.RampaTheme) {
+          window.RampaTheme.inject(config);
+        }
+        if (window.rebuildHeroCubes) {
+          window.rebuildHeroCubes(config);
+        }
+      });
+    }
+    // Debounce localStorage writes (expensive serialization)
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(function () {
+      saveToStorage(pendingPresetName);
+    }, 300);
+  }
 
   function applyTheme(presetName) {
-    saveToStorage(presetName || null);
-    if (window.RampaTheme) {
-      window.RampaTheme.inject(config);
-    }
-    if (window.rebuildHeroCubes) {
-      window.rebuildHeroCubes(config);
-    }
+    scheduleApply(presetName);
   }
   // Apply stored theme on page load
   if (hadStored) {
