@@ -53,7 +53,7 @@
     var blocks = [];
 
     // Neutral ramp: --n-0 … --n-10
-    var neutral = new Rampa.LinearColorSpace(cfg.foreground, cfg.background).distribution('ease-in').size(GRID);
+    var neutral = new Rampa.LinearColorSpace(cfg.foreground, cfg.background).interpolation('oklch').distribution('ease-in').size(GRID);
     blocks.push(neutral.toCSS('n'));
 
     // Hue planes: --{alias}-{sat}-{lgt}

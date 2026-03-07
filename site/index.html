@@ -36,7 +36,7 @@
     .tt-prop { color: var(--b-9-9) !important; }
     .tt-swatch { display: inline-block; width: 1.2em; height: 0.9em; border-radius: 2px; vertical-align: middle; margin-right: 2px; }
     /* Terminal chrome wrapper */
-    .term-chrome { background: var(--n-2); border: 1px solid var(--n-3); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.03); backdrop-filter: blur(8px); }
+    .term-chrome { border: 1px solid var(--n-3); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px color-mix(in srgb, var(--n-0) 50%, transparent), 0 0 0 1px color-mix(in srgb, var(--n-9) 3%, transparent); }
     .term-chrome-bar { display: flex; align-items: center; padding: 10px 16px; gap: 6px; }
     .term-chrome-bar .dot { width: 10px; height: 10px; border-radius: 50%; }
     .term-chrome-bar .dot-r { background: var(--r-9-8); }
@@ -59,10 +59,9 @@
     .background-secondary   { background-color: var(--n-2); }
     .background-invert      { background-color: var(--n-9); }
 
-    .border-neutral         { border-color: var(--n-3); }
+    .border-neutral         { border: solid 1px var(--n-4); }
     .svg-fill-primary       { fill: var(--n-9); }
     .svg-fill-secondary     { fill: var(--n-7); }
-
 
     .text-red               { color: var(--r-9-9); }
     .border-red             { border-color: var(--r-9-3); }
@@ -95,6 +94,10 @@
     .background-yellow      { background-color: var(--y-9-3); }
     .svg-fill-yellow        { fill: var(--y-9-9); }
 
+    .material-thick         { background: color-mix(in srgb, var(--n-0) 90%, transparent); color: color-mix(in srgb, var(--n-9) 90%, transparent); stroke: color-mix(in srgb, var(--n-9) 90%, transparent); backdrop-filter: blur(8px); } 
+    .material-thin          { background: color-mix(in srgb, var(--n-0) 10%, transparent); color: color-mix(in srgb, var(--n-9) 90%, transparent); stroke: color-mix(in srgb, var(--n-9) 90%, transparent); backdrop-filter: blur(8px); } 
+    .material-invert-thick  { background: color-mix(in srgb, var(--n-9) 90%, transparent); color: color-mix(in srgb, var(--n-0) 90%, transparent); stroke: color-mix(in srgb, var(--n-0) 90%, transparent); backdrop-filter: blur(8px); } 
+
     .demo-nav-btn           { opacity: 0.5; }
     .demo-nav-btn:hover     { opacity: 0.75; border-color: var(--n-3) !important; }
     .demo-nav-active        { opacity: 1 !important; border-color: var(--n-3) !important; background: var(--n-2) !important; }
@@ -104,49 +107,49 @@
     .demo-tab-active        { background: var(--n-0) !important; color: var(--n-9) !important; }
 
     /* ── Theme Picker ── */
-    .tp-trigger { position: fixed; top: 20px; right: 20px; z-index: 10000; display: flex; align-items: center; cursor: pointer; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; padding: 8px 14px 8px 10px; gap: 6px; transition: background .2s, box-shadow .2s; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; font-size: 12px; color: rgba(255,255,255,0.7); }
-    .tp-trigger:hover { background: rgba(255,255,255,0.14); box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
+    .tp-trigger { position: fixed; top: 20px; right: 20px; z-index: 10000; display: flex; align-items: center; cursor: pointer; border-radius: 999px; padding: 8px 14px 8px 10px; gap: 6px; transition: background .2s, box-shadow .2s; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; font-size: 12px; border: none; }
+    .tp-trigger:hover { box-shadow: 0 2px 12px color-mix(in srgb, var(--n-0) 30%, transparent); }
     .tp-dots { display: flex; margin-right: 2px; }
-    .tp-dot { width: 16px; height: 16px; border-radius: 50%; border: 2px solid rgba(0,0,0,0.6); margin-left: -5px; transition: margin .3s cubic-bezier(.4,0,.2,1), background .3s; }
+    .tp-dot { width: 16px; height: 16px; border-radius: 50%; box-shadow: 0 0 0 2px color-mix(in srgb, var(--n-0) 60%, transparent); margin-left: -5px; transition: margin .3s cubic-bezier(.4,0,.2,1), background .3s; }
     .tp-dot:first-child { margin-left: 0; }
     .tp-trigger:hover .tp-dot { margin-left: 4px; }
     .tp-trigger:hover .tp-dot:first-child { margin-left: 0; }
 
-    .tp-overlay { position: fixed; top: 0; right: 0; bottom: 0; z-index: 10001; width: 320px; max-width: 100vw; background: rgba(20,20,20,0.92); backdrop-filter: blur(20px); border-left: 1px solid rgba(255,255,255,0.08); transform: translateX(100%); transition: transform .35s cubic-bezier(.4,0,.2,1); display: flex; flex-direction: column; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .tp-overlay { position: fixed; top: 0; right: 0; bottom: 0; z-index: 10001; width: 320px; max-width: 100vw; background: color-mix(in srgb, var(--n-1) 92%, transparent); backdrop-filter: blur(20px); border-left: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); transform: translateX(100%); transition: transform .35s cubic-bezier(.4,0,.2,1); display: flex; flex-direction: column; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
     .tp-overlay.tp-open { transform: translateX(0); }
 
-    .tp-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); }
-    .tp-title { font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.9); }
-    .tp-close { background: none; border: none; color: rgba(255,255,255,0.5); cursor: pointer; font-size: 20px; line-height: 1; padding: 4px; }
-    .tp-close:hover { color: rgba(255,255,255,0.9); }
+    .tp-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px 16px; border-bottom: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); }
+    .tp-title { font-size: 14px; font-weight: 600; color: color-mix(in srgb, var(--n-9) 90%, transparent); }
+    .tp-close { background: none; border: none; color: color-mix(in srgb, var(--n-9) 50%, transparent); cursor: pointer; font-size: 20px; line-height: 1; padding: 4px; }
+    .tp-close:hover { color: color-mix(in srgb, var(--n-9) 90%, transparent); }
 
     .tp-body { overflow-y: auto; padding: 16px 24px; flex-shrink: 0; }
-    .tp-section { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.6); margin: 16px 0 8px; padding: 0; }
+    .tp-section { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: color-mix(in srgb, var(--n-9) 60%, transparent); margin: 16px 0 8px; padding: 0; }
     .tp-section:first-child { margin-top: 0; }
     .tp-row { display: flex; align-items: center; gap: 12px; padding: 8px 0; }
     .tp-swatch { position: relative; width: 32px; height: 32px; border-radius: 8px; border: 2px solid var(--n-0); cursor: pointer; overflow: hidden; flex-shrink: 0; transition: border-color .2s; }
-    .tp-swatch:hover { border-color: rgba(255,255,255,0.3); }
+    .tp-swatch:hover { border-color: color-mix(in srgb, var(--n-9) 30%, transparent); }
     .tp-swatch input { position: absolute; top: -8px; left: -8px; width: 48px; height: 48px; border: none; cursor: pointer; opacity: 0; }
-    .tp-label { font-size: 13px; color: rgba(255,255,255,0.7); flex: 1; }
-    .tp-hex { font-size: 12px; color: rgba(255,255,255,0.4); text-transform: uppercase; }
+    .tp-label { font-size: 13px; color: color-mix(in srgb, var(--n-9) 70%, transparent); flex: 1; }
+    .tp-hex { font-size: 12px; color: color-mix(in srgb, var(--n-9) 40%, transparent); text-transform: uppercase; }
 
-    .tp-footer { padding: 16px 24px; border-top: 1px solid rgba(255,255,255,0.08); }
-    .tp-reset { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.6); font-family: inherit; font-size: 12px; cursor: pointer; transition: background .2s; }
-    .tp-reset:hover { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.9); }
+    .tp-footer { padding: 16px 24px; border-top: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); }
+    .tp-reset { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--n-9) 12%, transparent); background: color-mix(in srgb, var(--n-9) 5%, transparent); color: color-mix(in srgb, var(--n-9) 60%, transparent); font-family: inherit; font-size: 12px; cursor: pointer; transition: background .2s; }
+    .tp-reset:hover { background: color-mix(in srgb, var(--n-9) 10%, transparent); color: color-mix(in srgb, var(--n-9) 90%, transparent); }
 
-    .tp-presets { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 12px 24px; flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 0; }
-    .tp-search { width: 100%; padding: 8px 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.8); font-family: inherit; font-size: 12px; outline: none; transition: border-color .2s; }
-    .tp-search::placeholder { color: rgba(255,255,255,0.3); }
-    .tp-search:focus { border-color: rgba(255,255,255,0.25); }
-    .tp-preset-list { flex: 1; overflow-y: auto; margin-top: 8px; min-height: 0; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.15) transparent; }
+    .tp-presets { border-bottom: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); padding: 12px 24px; flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 0; }
+    .tp-search { width: 100%; padding: 8px 12px; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--n-9) 12%, transparent); background: color-mix(in srgb, var(--n-9) 5%, transparent); color: color-mix(in srgb, var(--n-9) 80%, transparent); font-family: inherit; font-size: 12px; outline: none; transition: border-color .2s; }
+    .tp-search::placeholder { color: color-mix(in srgb, var(--n-9) 30%, transparent); }
+    .tp-search:focus { border-color: color-mix(in srgb, var(--n-9) 25%, transparent); }
+    .tp-preset-list { flex: 1; overflow-y: auto; margin-top: 8px; min-height: 0; scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--n-9) 15%, transparent) transparent; }
     .tp-preset { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border-radius: 6px; cursor: pointer; transition: background .15s; }
-    .tp-preset:hover { background: rgba(255,255,255,0.08); }
+    .tp-preset:hover { background: color-mix(in srgb, var(--n-9) 8%, transparent); }
     .tp-preset-dots { display: flex; flex-shrink: 0; }
-    .tp-preset-dot { width: 12px; height: 12px; border-radius: 50%; border: 1.5px solid rgba(0,0,0,0.6); margin-left: -3px; }
+    .tp-preset-dot { width: 12px; height: 12px; border-radius: 50%; box-shadow: 0 0 0 2px color-mix(in srgb, var(--n-0) 60%, transparent); margin-left: -3px; }
     .tp-preset-dot:first-child { margin-left: 0; }
-    .tp-preset-name { font-size: 12px; color: rgba(255,255,255,0.6); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .tp-preset.tp-active { background: rgba(255,255,255,0.12); }
-    .tp-preset.tp-active .tp-preset-name { color: rgba(255,255,255,0.9); }
+    .tp-preset-name { font-size: 12px; color: color-mix(in srgb, var(--n-9) 60%, transparent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .tp-preset.tp-active { background: color-mix(in srgb, var(--c-9-9) 30%, transparent); color: color-mix(in srgb, var(--c-9-9) 95%, transparent); }
+    .tp-preset.tp-active .tp-preset-name { color: color-mix(in srgb, var(--n-9) 90%, transparent); }
   </style>
 </head>
 <body class="background-primary">
@@ -155,33 +158,33 @@
   <section style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px; position: relative; overflow: visible;">
     <canvas id="c" style="position: absolute; top: 0; left: 0; z-index: 0; display: block;"></canvas>
     <div style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; padding-bottom: 120px;">
-      <div style="display: flex; align-items: center; gap: 8px; border-radius: 999px; padding: 6px 16px; margin-bottom: 32px; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.75);">
+      <div style="display: flex; align-items: center; gap: 8px; border-radius: 999px; padding: 6px 16px; margin-bottom: 32px; backdrop-filter: blur(8px); background: color-mix(in srgb, var(--n-9) 10%, transparent); color: color-mix(in srgb, var(--n-9) 75%, transparent);">
         <span style="font-size: 13px; font-weight: 500;">v3.0 APCA &amp; OKLCH built from spec</span>
       </div>
-      <h1 class="text-primary" style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; opacity: 0.95;">A set of color tools for AI agents and humans</h1>
-      <p class="text-primary" style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 24px; opacity: 0.75;">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK and web editor available.</p>
+      <h1 class="text-primary" style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; opacity: 0.95; text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent);;">A set of color tools for AI agents and humans</h1>
+      <p style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 24px; color: color-mix(in srgb, var(--n-9) 80%, transparent); text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent);">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK and web editor available.</p>
       <div style="display: flex; gap: 16px; margin-top: 40px; align-items: center;">
-        <button class="background-invert text-primary-invert" id="install-btn" onclick="copyInstallCmd(this)"
-          style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; backdrop-filter: blur(8px); opacity: 0.95; cursor: pointer; border: none; min-width: 240px;"
+        <button class="material-invert-thick" id="install-btn" onclick="copyInstallCmd(this)"
+          style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; min-width: 240px;"
         >
           <code id="install-cmd" style="font-size: 14px;">npm install -g @basiclines/rampa</code>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(0, 0, 0, 0.75)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
         </button>
-        <a href="/app" style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.75);">Web editor</a>
+        <a href="/app" class="material-thin" style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500;">Web editor</a>
       </div>
     </div>
   </section>
 
   <!-- Terminal Mockup — TypeType animated -->
   <section style="display: flex; justify-content: center; padding: 0 80px 40px; margin-top: -120px; position: relative; z-index: 999;">
-    <div class="term-chrome" style="width: 720px; min-height: 365px;">
+    <div class="term-chrome material-thick" style="width: 720px; min-height: 365px;">
       <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">rampa</span></div>
       <div id="demo-hero"></div>
     </div>
   </section>
 
   <!-- Social Proof Strip -->
-  <section id="social-proof" class="border-neutral" style="display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;">
+  <section id="social-proof" class="border-neutral" style="border-left: none; border-right: none; display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;">
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
       <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M9.25 12a.75.75 0 0 1-.22.53l-2.75 2.75a.75.75 0 0 1-1.06-1.06L7.44 12 5.22 9.78a.75.75 0 1 1 1.06-1.06l2.75 2.75c.141.14.22.331.22.53Zm2 2a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Z"></path><path d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"></path></svg>
       <span class="text-primary" style="font-size: 28px; font-weight: 700;">CLI + SDK</span>
@@ -222,14 +225,14 @@
 
   <!-- Bento Grid Row 1 -->
   <section style="display: flex; gap: 16px; max-width: 1100px; margin: 0 auto; padding: 0 80px;">
-    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
+    <div class="border-neutral background-secondary" style="flex: 1; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
       <div class="background-blue" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 32px;">
         <svg class="svg-fill-blue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M10 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2Zm-.5-2a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V4a.5.5 0 0 0-.5-.5H10a.5.5 0 0 0-.5.5ZM6.17 4.165a.75.75 0 0 1-.335 1.006c-.228.114-.295.177-.315.201a.035.035 0 0 0-.008.016.423.423 0 0 0-.012.112v13c0 .07.008.102.012.112a.03.03 0 0 0 .008.016c.02.024.087.087.315.201a.749.749 0 1 1-.67 1.342c-.272-.136-.58-.315-.81-.598C4.1 19.259 4 18.893 4 18.5v-13c0-.393.1-.759.355-1.073.23-.283.538-.462.81-.598a.75.75 0 0 1 1.006.336ZM2.15 5.624a.75.75 0 0 1-.274 1.025c-.15.087-.257.17-.32.245C1.5 6.96 1.5 6.99 1.5 7v10c0 .01 0 .04.056.106.063.074.17.158.32.245a.75.75 0 0 1-.752 1.298C.73 18.421 0 17.907 0 17V7c0-.907.73-1.42 1.124-1.65a.75.75 0 0 1 1.025.274Z"></path></svg>
       </div>
       <h3 class="text-primary" style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Color Ramps</h3>
       <p class="text-secondary" style="font-size: 17px; line-height: 1.6;">Configure lightness, saturation, and hue shift as start:end ranges.</p>
     </div>
-    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
+    <div class="border-neutral background-secondary" style="flex: 1; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
       <div class="background-magenta" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 32px;">
         <svg class="svg-fill-magenta" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M19.375 8.5a3.25 3.25 0 1 1-3.163 4h-3a3.252 3.252 0 0 1-4.443 2.509L7.214 17.76a3.25 3.25 0 1 1-1.342-.674l1.672-2.957A3.238 3.238 0 0 1 6.75 12c0-.907.371-1.727.97-2.316L6.117 6.846A3.253 3.253 0 0 1 1.875 3.75a3.25 3.25 0 1 1 5.526 2.32l1.603 2.836A3.25 3.25 0 0 1 13.093 11h3.119a3.252 3.252 0 0 1 3.163-2.5ZM10 10.25a1.75 1.75 0 1 0-.001 3.499A1.75 1.75 0 0 0 10 10.25ZM5.125 2a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5Zm12.5 9.75a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0Zm-14.25 8.5a1.75 1.75 0 1 0 3.501-.001 1.75 1.75 0 0 0-3.501.001Z"></path></svg>
       </div>
@@ -240,14 +243,14 @@
 
   <!-- Bento Grid Row 2 -->
   <section style="display: flex; gap: 16px; max-width: 1100px; margin: 16px auto 0; padding: 0 80px;">
-    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
+    <div class="border-neutral background-secondary" style="flex: 1; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
       <div class="background-yellow" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 32px;">
         <svg class="svg-fill-yellow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M17.32 3.205a.75.75 0 0 1 1.046-.177 11.056 11.056 0 0 1 2.605 2.606.75.75 0 1 1-1.222.869 9.554 9.554 0 0 0-2.252-2.252.75.75 0 0 1-.177-1.046Zm3.475 14.115a.75.75 0 0 1 .176 1.046 11.07 11.07 0 0 1-2.605 2.605.75.75 0 1 1-.869-1.222 9.554 9.554 0 0 0 2.252-2.252.75.75 0 0 1 1.046-.177ZM2.018 9.543a.75.75 0 0 1 .615.864 9.571 9.571 0 0 0 0 3.186.75.75 0 1 1-1.48.25 11.07 11.07 0 0 1 0-3.686.75.75 0 0 1 .865-.614Zm7.525 12.439a.75.75 0 0 1 .864-.615 9.571 9.571 0 0 0 3.186 0 .75.75 0 1 1 .25 1.48 11.07 11.07 0 0 1-3.686 0 .75.75 0 0 1-.614-.865ZM6.68 3.205a.75.75 0 0 1-.177 1.046A9.558 9.558 0 0 0 4.25 6.503a.75.75 0 1 1-1.223-.87 11.056 11.056 0 0 1 2.606-2.605.75.75 0 0 1 1.046.177ZM3.205 17.32a.75.75 0 0 1 1.046.177 9.554 9.554 0 0 0 2.252 2.252.75.75 0 1 1-.87 1.223 11.056 11.056 0 0 1-2.605-2.606.75.75 0 0 1 .177-1.046Zm6.952-16.166a11.07 11.07 0 0 1 3.686 0 .75.75 0 0 1-.25 1.479 9.571 9.571 0 0 0-3.186 0 .75.75 0 1 1-.25-1.48Zm11.825 8.389a.75.75 0 0 1 .864.614 11.07 11.07 0 0 1 0 3.686.75.75 0 0 1-1.479-.25 9.571 9.571 0 0 0 0-3.186.75.75 0 0 1 .615-.864Z"></path></svg>
       </div>
       <h3 class="text-primary" style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Blending modes</h3>
       <p class="text-secondary" style="font-size: 17px; line-height: 1.5;">Get perfect brand-tinted neutrals as an overlay with adjustable opacity.</p>
     </div>
-    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
+    <div class="border-neutral background-secondary" style="flex: 1; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
       <div class="background-red" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 32px;">
         <svg class="svg-fill-red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"></path></svg>
       </div>
@@ -258,14 +261,14 @@
 
   <!-- Bento Grid Row 3 -->
   <section style="display: flex; gap: 16px; max-width: 1100px; margin: 16px auto 0; padding: 0 80px;">
-    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
+    <div class="border-neutral background-secondary" style="flex: 1; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
       <div class="background-cyan" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 32px">
         <svg class="svg-fill-cyan" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7.72 21.78a.75.75 0 0 0 1.06-1.06L5.56 17.5h14.69a.75.75 0 0 0 0-1.5H5.56l3.22-3.22a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 0 0 1.06l4.5 4.5Zm8.56-9.5a.75.75 0 1 1-1.06-1.06L18.44 8H3.75a.75.75 0 0 1 0-1.5h14.69l-3.22-3.22a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5Z"></path></svg>
       </div>
       <h3 class="text-primary" style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Color conversion</h3>
       <p class="text-secondary" style="font-size: 17px; line-height: 1.6;">Convert to hex, rgb, hsl, or oklch. Returns Text/JSON/CSS with structured values.</p>
     </div>
-    <div class="background-secondary" style="flex: 1; border: 1px solid #1f1f1f; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
+    <div class="border-neutral background-secondary" style="flex: 1; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 0;">
       <div class="background-green" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 32px;">
         <svg class="svg-fill-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M2.75 15.25a.75.75 0 0 1 .75.75v4.25c0 .138.112.25.25.25H8A.75.75 0 0 1 8 22H3.75A1.75 1.75 0 0 1 2 20.25V16a.75.75 0 0 1 .75-.75Zm18.5 0A.75.75 0 0 1 22 16v4.25A1.75 1.75 0 0 1 20.25 22H16a.75.75 0 0 1 0-1.5h4.25a.25.25 0 0 0 .25-.25V16a.75.75 0 0 1 .75-.75ZM8 2a.75.75 0 0 1 0 1.5H3.75a.25.25 0 0 0-.25.25V8A.75.75 0 0 1 2 8V3.75C2 2.784 2.784 2 3.75 2H8Zm12.25 0c.966 0 1.75.784 1.75 1.75V8a.75.75 0 0 1-1.5 0V3.75a.25.25 0 0 0-.25-.25H16A.75.75 0 0 1 16 2h4.25ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path></svg>
       </div>
@@ -391,7 +394,7 @@
 
   <!-- Get Started CTA -->
   <section id="get-started" style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 80px; gap: 24px; position: relative;">
-    <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 600px; height: 300px; background: radial-gradient(ellipse at center, rgba(59,130,246,0.08) 0%, rgba(59,130,246,0) 70%); pointer-events: none;"></div>
+    <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 600px; height: 300px; background: radial-gradient(ellipse at center, color-mix(in srgb, var(--b-9-9) 8%, transparent) 0%, color-mix(in srgb, var(--b-9-9) 0%, transparent) 70%); pointer-events: none;"></div>
     <h2 class="text-primary" style="font-size: 36px; font-weight: 700; letter-spacing: -0.02em; text-align: center;">Start building color systems</h2>
     <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 420px; line-height: 1.5;">Try the CLI for quick exploration or install the SDK to build robust color systems.</p>
 
@@ -403,19 +406,19 @@
 
     <!-- CLI cards (2×2 grid) -->
     <div id="cta-cli" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
-      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Try instantly</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npx @basiclines/rampa -C "#3b82f6"</pre>
       </div>
-      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Global install</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install -g @basiclines/rampa</pre>
       </div>
-      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/cli/README.md" style="font-size: 15px; font-weight: 500;">CLI reference →</a>
       </div>
-      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Contribute</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500;">github.com/basiclines/rampa-studio</a>
       </div>
@@ -423,19 +426,19 @@
 
     <!-- SDK cards (2×2 grid, hidden by default) -->
     <div id="cta-sdk" style="display: none; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; max-width: 960px; width: 100%;">
-      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">npm / bun</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install @basiclines/rampa-sdk</pre>
       </div>
-      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Vanilla JS (CDN)</span>
         <pre class="text-primary" style="font-size: 15px; margin: 0; word-break: break-all;">&lt;script src="rampa-sdk.min.js"&gt;&lt;/script&gt;</pre>
       </div>
-      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/sdk/README.md" style="font-size: 15px; font-weight: 500;">SDK reference →</a>
       </div>
-      <div class="background-secondary" style="border: 1px solid #1f1f1f; border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Contribute</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500;">github.com/basiclines/rampa-studio</a>
       </div>
@@ -453,6 +456,80 @@
     </div>
     <span class="text-tertiary" style="font-size: 13px;">Free for individuals &amp; developers · <a href="https://github.com/basiclines/rampa-studio/blob/main/LICENSE.md" style="text-decoration: underline;">MIT License</a></span>
   </footer>
+
+  <!-- Theme Picker -->
+  <button class="tp-trigger material-thin" aria-label="Customize theme colors" title="Customize theme colors">
+    <span class="tp-dots">
+      <span class="tp-dot" data-color="red"></span>
+      <span class="tp-dot" data-color="green"></span>
+      <span class="tp-dot" data-color="blue"></span>
+      <span class="tp-dot" data-color="cyan"></span>
+      <span class="tp-dot" data-color="magenta"></span>
+      <span class="tp-dot" data-color="yellow"></span>
+    </span>
+  </button>
+
+  <div class="tp-overlay">
+    <div class="tp-header">
+      <span class="tp-title">Theme Colors</span>
+      <button class="tp-close" aria-label="Close theme picker">&#x2715;</button>
+    </div>
+
+    <div class="tp-presets">
+      <input class="tp-search" type="text" placeholder="Search 438 themes…">
+      <div class="tp-preset-list"></div>
+    </div>
+
+    <div class="tp-body">
+      <div class="tp-section">Neutral</div>
+      <div class="tp-row" data-key="background">
+        <div class="tp-swatch"><input type="color"></div>
+        <span class="tp-label">Foreground</span>
+        <span class="tp-hex"></span>
+      </div>
+      <div class="tp-row" data-key="foreground">
+        <div class="tp-swatch"><input type="color"></div>
+        <span class="tp-label">Background</span>
+        <span class="tp-hex"></span>
+      </div>
+
+      <div class="tp-section">Hues</div>
+      <div class="tp-row" data-key="red">
+        <div class="tp-swatch"><input type="color"></div>
+        <span class="tp-label">Red</span>
+        <span class="tp-hex"></span>
+      </div>
+      <div class="tp-row" data-key="green">
+        <div class="tp-swatch"><input type="color"></div>
+        <span class="tp-label">Green</span>
+        <span class="tp-hex"></span>
+      </div>
+      <div class="tp-row" data-key="blue">
+        <div class="tp-swatch"><input type="color"></div>
+        <span class="tp-label">Blue</span>
+        <span class="tp-hex"></span>
+      </div>
+      <div class="tp-row" data-key="cyan">
+        <div class="tp-swatch"><input type="color"></div>
+        <span class="tp-label">Cyan</span>
+        <span class="tp-hex"></span>
+      </div>
+      <div class="tp-row" data-key="magenta">
+        <div class="tp-swatch"><input type="color"></div>
+        <span class="tp-label">Magenta</span>
+        <span class="tp-hex"></span>
+      </div>
+      <div class="tp-row" data-key="yellow">
+        <div class="tp-swatch"><input type="color"></div>
+        <span class="tp-label">Yellow</span>
+        <span class="tp-hex"></span>
+      </div>
+    </div>
+
+    <div class="tp-footer">
+      <button class="tp-reset">Reset to defaults</button>
+    </div>
+  </div>
 
   <script src="js/interactions.js" defer></script>
   <script src="js/hero-cubes.js"></script>

@@ -238,17 +238,19 @@ function ortho(l, r, b, t, n, f) {
 
 gl.uniform3f(uLD, 0.5, 0.8, 1.0);
 
-// Ripple state: triggered by pressing a cube
-let rippleOriginCol = -1, rippleOriginRow = -1;
-let rippleStartTime = -Infinity;
-let rippleStrength = 0;
+// Click wave: circular rotation ripple triggered on mouseup
+let clickWaveTime = -Infinity;
+let clickWaveCol = 0, clickWaveRow = 0;
+let clickExtraCycles = 0;
+const CLICK_WAVE_SPEED = 0.08;
 // Press state: live preview on the pressed cube
 let pressing = false;
 let pressCol = -1, pressRow = -1;
 let pressStartTime = 0;
-const RIPPLE_SPEED = 0.04;
-const RIPPLE_DUR = 1.2;
-const RIPPLE_FADE = 30;
+// Release blend: smoothly fade press effect into click wave
+let releaseTime = -Infinity;
+let releaseScale = 1;
+let releaseTiltX = 0;
 
 canvas.addEventListener('mousedown', function(e) {
   pressing = true;
@@ -262,11 +264,15 @@ canvas.addEventListener('mousedown', function(e) {
 });
 
 canvas.addEventListener('mouseup', function(e) {
-  const pressDur = performance.now() / 1000 - pressStartTime;
-  rippleStrength = 1 - 1 / (1 + pressDur * 2);
-  rippleOriginCol = pressCol;
-  rippleOriginRow = pressRow;
-  rippleStartTime = performance.now() / 1000;
+  const holdDur = performance.now() / 1000 - pressStartTime;
+  const holdStrength = 1 - 1 / (1 + holdDur * 2);
+  releaseScale = 1 - holdStrength * 0.5;
+  releaseTiltX = holdStrength * 0.3;
+  releaseTime = performance.now() / 1000;
+  clickExtraCycles++;
+  clickWaveTime = performance.now() / 1000;
+  clickWaveCol = pressCol;
+  clickWaveRow = pressRow;
   pressing = false;
 });
 
@@ -316,30 +322,46 @@ function frame() {
         const holdDur = now - pressStartTime;
         const holdStrength = 1 - 1 / (1 + holdDur * 2);
         pressScale = 1 - holdStrength * 0.5;
-        // Tilt toward camera (forward lean on X axis only)
         pressTiltX = holdStrength * 0.3;
+      } else if (c === clickWaveCol && r === clickWaveRow) {
+        // Blend release state into the click wave's fast rotation
+        const relElapsed = now - releaseTime;
+        const blendDur = ROT_DUR * 0.2;
+        if (relElapsed >= 0 && relElapsed < blendDur) {
+          const fade = 1 - ease(relElapsed / blendDur);
+          pressScale = 1 + (releaseScale - 1) * fade;
+          pressTiltX = releaseTiltX * fade;
+        }
       }
 
-      // Ripple: scale dip + subtle tilt, strength based on press duration
-      let rippleScale = 1, rippleTiltX = 0, rippleTiltY = 0;
-      const rippleElapsed = now - rippleStartTime;
-      if (rippleElapsed >= 0) {
-        const dx = c - rippleOriginCol;
-        const dy = r - rippleOriginRow;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        const rippleDelay = dist * RIPPLE_SPEED;
-        const localTime = rippleElapsed - rippleDelay;
-        if (localTime > 0 && localTime < RIPPLE_DUR) {
-          const p = localTime / RIPPLE_DUR;
-          const wave = Math.sin(p * Math.PI) * (1 - p);
-          const fade = Math.max(0, 1 - dist / RIPPLE_FADE);
-          const strength = wave * fade * rippleStrength;
-          // Scale dip: 0.1 to 0.5 range based on strength
-          rippleScale = 1 - Math.abs(strength) * 0.5;
-          // Tilt away from origin — subtle, proportional to strength
-          const angle = Math.atan2(dy, dx || 0.001);
-          rippleTiltX = strength * Math.sin(angle) * 0.3;
-          rippleTiltY = strength * Math.cos(angle) * 0.3;
+      // Click wave: same face rotation, circular expansion from click point
+      let clickRotX = 0, clickRotY = 0, clickScaleMul = 1;
+      if (clickExtraCycles > 0) {
+        const cwElapsed = now - clickWaveTime;
+        const cwDx = c - clickWaveCol;
+        const cwDy = r - clickWaveRow;
+        const cwDist = Math.sqrt(cwDx * cwDx + cwDy * cwDy);
+        const cwDelay = cwDist * CLICK_WAVE_SPEED;
+        const cwLocal = cwElapsed - cwDelay;
+
+        // Origin cube rotates fast, outer cubes at normal speed
+        const ORIGIN_DUR = ROT_DUR * 0.35;
+        const cubeDur = ORIGIN_DUR + (ROT_DUR - ORIGIN_DUR) * Math.min(1, cwDist / 8);
+
+        let cwT = 0;
+        if (cwLocal >= cubeDur) cwT = 1;
+        else if (cwLocal > 0) cwT = ease(cwLocal / cubeDur);
+
+        const n = clickExtraCycles;
+        const prevIdx = ((n - 1) % FR.length + FR.length) % FR.length;
+        const currIdx = n % FR.length;
+
+        clickRotX = (FR[prevIdx][0] - FR[0][0]) + (FR[currIdx][0] - FR[prevIdx][0]) * cwT;
+        clickRotY = (FR[prevIdx][1] - FR[0][1]) + (FR[currIdx][1] - FR[prevIdx][1]) * cwT;
+
+        if (cwT > 0 && cwT < 1) {
+          const cwScaleLerp = 1 - Math.sin(cwT * Math.PI);
+          clickScaleMul = (CUBE_SCALE_ANIM + (CUBE_SCALE_REST - CUBE_SCALE_ANIM) * cwScaleLerp) / CUBE_SCALE_REST;
         }
       }
 
@@ -353,13 +375,13 @@ function frame() {
       const fi = cubeCycle % FR.length;
       const ti = (cubeCycle + 1) % FR.length;
       const from = FR[fi], to = FR[ti];
-      const rx = from[0] + (to[0] - from[0]) * t + rippleTiltX + pressTiltX;
-      const ry = from[1] + (to[1] - from[1]) * t + rippleTiltY;
+      const rx = from[0] + (to[0] - from[0]) * t + clickRotX + pressTiltX;
+      const ry = from[1] + (to[1] - from[1]) * t + clickRotY;
 
       // Animated scale with ripple and press
       const scaleLerp = 1 - Math.sin(t * Math.PI);
       const animScale = CUBE_SCALE_ANIM + (CUBE_SCALE_REST - CUBE_SCALE_ANIM) * scaleLerp;
-      const finalScale = cubeScale * animScale / CUBE_SCALE_ANIM * rippleScale * pressScale;
+      const finalScale = cubeScale * animScale / CUBE_SCALE_ANIM * clickScaleMul * pressScale;
 
       // Position: center of each cell, Y flipped (screen coords)
       const px = c * cell + CUBE_PX / 2;
