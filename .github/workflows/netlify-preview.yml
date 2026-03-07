@@ -30,7 +30,11 @@ jobs:
           cp -r site/* dist/
           printf '/app  /app/  301\n/app/*  /app/index.html  200\n' > dist/_redirects
 
-      - run: npx netlify deploy --dir=dist --json > deploy-output.json
+      - name: Deploy to Netlify
+        run: |
+          BRANCH="${{ github.head_ref }}"
+          ALIAS=$(echo "$BRANCH" | sed 's/[^a-zA-Z0-9-]/-/g' | head -c 37)
+          npx netlify deploy --dir=dist --alias="$ALIAS" --json > deploy-output.json
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_PROJECT_ID }}
@@ -51,7 +55,11 @@ jobs:
               return;
             }
 
-            const body = `${marker}\n🚀 **Netlify Deploy Preview**\n\n${url}`;
+            const branch = context.payload.pull_request.head.ref;
+            const alias = branch.replace(/[^a-zA-Z0-9-]/g, '-').slice(0, 37);
+            const stableUrl = `https://${alias}--rampadesign.netlify.app`;
+
+            const body = `${marker}\n🚀 **Netlify Deploy Preview**\n\n${stableUrl}`;
 
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
