@@ -29,6 +29,21 @@
 
     let activeDemo = null;
     let activeTab = 'cli';
+    const TICK = 60; // ms between output lines for step-by-step reveal
+
+    // --- Demo definitions (must be before observer) ---
+    const DEMOS = {
+      // CLI demos
+      palette: { title: 'Ramps', run: runPalette },
+      harmony: { title: 'Harmonies', run: runHarmony },
+      contrast: { title: 'Contrast lint', run: runContrast },
+      colorspace: { title: 'Color space', run: runColorspace },
+      // SDK demos
+      'sdk-ramp': { title: 'Builder API', run: runSdkRamp },
+      'sdk-linear': { title: 'Linear space', run: runSdkLinear },
+      'sdk-plane': { title: 'Plane space', run: runSdkPlane },
+      'sdk-contrast': { title: 'Contrast', run: runSdkContrast },
+    };
 
     // Wire up nav buttons + intersection observer BEFORE hero animation
     document.querySelectorAll('.demo-nav-btn').forEach(btn => {
@@ -62,22 +77,6 @@
     }
     await hero.line(dim('}'), { instant: true });
     hero.cursor();
-
-    // --- Demo definitions ---
-    const DEMOS = {
-      // CLI demos
-      palette: { title: 'Ramps', run: runPalette },
-      harmony: { title: 'Harmonies', run: runHarmony },
-      contrast: { title: 'Contrast lint', run: runContrast },
-      colorspace: { title: 'Color space', run: runColorspace },
-      // SDK demos
-      'sdk-ramp': { title: 'Builder API', run: runSdkRamp },
-      'sdk-linear': { title: 'Linear space', run: runSdkLinear },
-      'sdk-plane': { title: 'Plane space', run: runSdkPlane },
-      'sdk-contrast': { title: 'Contrast', run: runSdkContrast },
-    };
-
-    const TICK = 60; // ms between output lines for step-by-step reveal
 
     async function runPalette(tt) {
       await tt.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), flag(' -S'), num(' 20:100'), flag(' --size='), num('5'), flag(' -O'), val(' css')], { prefix: '$ ' });
