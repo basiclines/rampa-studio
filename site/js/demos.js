@@ -24,8 +24,6 @@
       ...baseH.map((c, i) => `.tt-hb-${i}{color:${c}!important}`),
       ...compH.map((c, i) => `.tt-hc-${i}{color:${c}!important}`),
       ...csColors.map((c, i) => `.tt-cs-${i}{color:${c}!important}`),
-      '.tt-pass{color:#4ade80!important}',
-      '.tt-warn{color:#facc15!important}',
     ].join('\n');
     document.head.appendChild(s);
 
@@ -137,16 +135,16 @@
       await tt.line([dim('  APCA Lc:     '), num('-105.82')], { instant: true });
       await tt.wait(300);
       await tt.line('', { instant: true });
-      await tt.line([{ text: '  \u25cf Pass', className: 'tt-pass' }, dim('  Preferred body text  (Lc >= 90)')], { instant: true });
+      await tt.line([{ text: '  \u25cf Pass', className: 'text-green' }, dim('  Preferred body text  (Lc >= 90)')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([{ text: '  \u25cf Pass', className: 'tt-pass' }, dim('  Body text  (Lc >= 75)')], { instant: true });
+      await tt.line([{ text: '  \u25cf Pass', className: 'text-green' }, dim('  Body text  (Lc >= 75)')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([{ text: '  \u25cf Pass', className: 'tt-pass' }, dim('  Large text  (Lc >= 60)')], { instant: true });
+      await tt.line([{ text: '  \u25cf Pass', className: 'text-green' }, dim('  Large text  (Lc >= 60)')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([{ text: '  \u25cf Pass', className: 'tt-pass' }, dim('  Non-text  (Lc >= 15)')], { instant: true });
+      await tt.line([{ text: '  \u25cf Pass', className: 'text-green' }, dim('  Non-text  (Lc >= 15)')], { instant: true });
       await tt.wait(200);
       await tt.line('', { instant: true });
-      await tt.line([{ text: '  \u25b2 Warning', className: 'tt-warn' }, dim('  Pure #ffffff \u2014 consider #eeeeee')], { instant: true });
+      await tt.line([{ text: '  \u25b2 Warning', className: 'text-yellow' }, dim('  Pure #ffffff \u2014 consider #eeeeee')], { instant: true });
       tt.cursor();
     }
 
@@ -260,11 +258,11 @@
       await tt.wait(TICK);
       await tt.line([comment('//   passes: {')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     bodyText: '), { text: 'true', className: 'tt-pass' }], { instant: true });
+      await tt.line([comment('//     bodyText: '), { text: 'true', className: 'text-green' }], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     largeText: '), { text: 'true', className: 'tt-pass' }], { instant: true });
+      await tt.line([comment('//     largeText: '), { text: 'true', className: 'text-green' }], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     nonText: '), { text: 'true', className: 'tt-pass' }], { instant: true });
+      await tt.line([comment('//     nonText: '), { text: 'true', className: 'text-green' }], { instant: true });
       await tt.wait(TICK);
       await tt.line([comment('//   }')], { instant: true });
       await tt.line([comment('// }')], { instant: true });
