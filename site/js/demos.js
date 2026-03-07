@@ -88,13 +88,10 @@
       await tt.wait(700);
       await tt.delete(1);
       await tt.line('', { instant: true });
-      await tt.line(palColors.map((c,i) => ({ text: '\u2588\u2588\u2588\u2588 ', className: `tt-pal-${i}` })), { instant: true });
-      await tt.wait(300);
-      await tt.line('', { instant: true });
       await tt.line([kw(':root'), dim(' {')], { instant: true });
       for (let i = 0; i < palColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), prop(`--base-${i}`), dim(': '), val(palColors[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-pal-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(palColors[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -108,24 +105,19 @@
       await tt.wait(700);
       await tt.delete(1);
       await tt.line('', { instant: true });
-      await tt.line([dim('base:  '), ...baseH.map((c,i) => ({ text: '\u2588\u2588\u2588\u2588 ', className: `tt-hb-${i}` }))], { instant: true });
-      await tt.wait(150);
-      await tt.line([dim('comp:  '), ...compH.map((c,i) => ({ text: '\u2588\u2588\u2588\u2588 ', className: `tt-hc-${i}` }))], { instant: true });
-      await tt.wait(300);
-      await tt.line('', { instant: true });
       await tt.line([kw(':root'), dim(' {')], { instant: true });
       await tt.wait(TICK);
       await tt.line([dim('  '), comment('/* base */')], { instant: true });
       for (let i = 0; i < baseH.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), prop(`--base-${i}`), dim(': '), val(baseH[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-hb-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(baseH[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line('', { instant: true });
       await tt.line([dim('  '), comment('/* complementary */')], { instant: true });
       for (let i = 0; i < compH.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), prop(`--comp-${i}`), dim(': '), val(compH[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-hc-${i}` }, dim('  '), prop(`--comp-${i}`), dim(': '), val(compH[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -166,13 +158,10 @@
       await tt.wait(600);
       await tt.delete(1);
       await tt.line('', { instant: true });
-      await tt.line(csColors.map((c,i) => ({ text: '\u2588\u2588\u2588\u2588 ', className: `tt-cs-${i}` })), { instant: true });
-      await tt.wait(300);
-      await tt.line('', { instant: true });
       await tt.line([kw(':root'), dim(' {')], { instant: true });
       for (let i = 0; i < csColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), prop(`--space-${i}`), dim(': '), val(csColors[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-cs-${i}` }, dim('  '), prop(`--space-${i}`), dim(': '), val(csColors[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -198,10 +187,11 @@
       await tt.line([cmd('console'), dim('.'), prop('log'), dim('(palette.'), prop('css'), dim('())')], { instant: true });
       await tt.wait(200);
       await tt.line('', { instant: true });
+      await tt.line('', { instant: true });
       await tt.line([comment('// → :root {')], { instant: true });
       for (let i = 0; i < palColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([comment(`//     --base-${i}: ${palColors[i]};`)], { instant: true });
+        await tt.line([comment(`//     `), { text: '\u2588\u2588', className: `tt-pal-${i}` }, comment(`  --base-${i}: ${palColors[i]};`)], { instant: true });
       }
       await tt.line([comment('//   }')], { instant: true });
       tt.cursor();
@@ -216,16 +206,9 @@
       await tt.line([dim('  .'), prop('size'), dim('('), num('6'), dim(')')], { instant: true });
       await tt.wait(300);
       await tt.line('', { instant: true });
-      await tt.line([kw('for'), dim(' ('), kw('let'), dim(' i = '), num('1'), dim('; i <= '), num('6'), dim('; i++) {')], { instant: true });
-      await tt.wait(TICK);
-      await tt.line([dim('  '), cmd('console'), dim('.'), prop('log'), dim('('), val('`${ramp(i)}`'), dim(')')], { instant: true });
-      await tt.wait(TICK);
-      await tt.line(dim('}'), { instant: true });
-      await tt.wait(200);
-      await tt.line('', { instant: true });
       for (let i = 0; i < csColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([comment(`// → ${csColors[i]}`), { text: '  \u2588\u2588', className: `tt-cs-${i}` }], { instant: true });
+        await tt.line([dim(`ramp(${i + 1})  `), comment(`// → ${csColors[i]}`), { text: '  \u2588\u2588', className: `tt-cs-${i}` }], { instant: true });
       }
       tt.cursor();
     }
@@ -244,6 +227,7 @@
       await tt.wait(TICK);
       await tt.line([dim(').'), prop('size'), dim('('), num('10'), dim(')')], { instant: true });
       await tt.wait(300);
+      await tt.line('', { instant: true });
       await tt.line('', { instant: true });
       await tt.line([comment('// plane(sat, lgt) → 10×10 grid')], { instant: true });
       await tt.wait(TICK);
@@ -268,8 +252,6 @@
       await tt.line([dim('  .'), prop('check'), dim('()')], { instant: true });
       await tt.wait(300);
       await tt.line('', { instant: true });
-      await tt.line([cmd('console'), dim('.'), prop('log'), dim('(result)')], { instant: true });
-      await tt.wait(200);
       await tt.line('', { instant: true });
       await tt.line([comment('// {')], { instant: true });
       await tt.wait(TICK);
