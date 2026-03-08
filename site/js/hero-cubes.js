@@ -326,7 +326,7 @@ function frame() {
       } else if (c === clickWaveCol && r === clickWaveRow) {
         // Blend release state into the click wave's fast rotation
         const relElapsed = now - releaseTime;
-        const blendDur = ROT_DUR * 0.2;
+        const blendDur = ROT_DUR * 0.1;
         if (relElapsed >= 0 && relElapsed < blendDur) {
           const fade = 1 - ease(relElapsed / blendDur);
           pressScale = 1 + (releaseScale - 1) * fade;
@@ -345,7 +345,7 @@ function frame() {
         const cwLocal = cwElapsed - cwDelay;
 
         // Origin cube rotates fast, outer cubes at normal speed
-        const ORIGIN_DUR = ROT_DUR * 0.35;
+        const ORIGIN_DUR = ROT_DUR * 0.15;
         const cubeDur = ORIGIN_DUR + (ROT_DUR - ORIGIN_DUR) * Math.min(1, cwDist / 8);
 
         let cwT = 0;
