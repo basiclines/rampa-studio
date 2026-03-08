@@ -36,7 +36,7 @@
     .tt-prop { color: var(--b-9-9) !important; }
     .tt-swatch { display: inline-block; width: 1.2em; height: 0.9em; border-radius: 2px; vertical-align: middle; margin-right: 2px; }
     /* Terminal chrome wrapper */
-    .term-chrome { border: 1px solid var(--n-3); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px color-mix(in srgb, var(--n-0) 50%, transparent), 0 0 0 1px color-mix(in srgb, var(--n-9) 3%, transparent); }
+    .term-chrome { border: 1px solid var(--n-4); border-radius: 12px; overflow: hidden; }
     .term-chrome-bar { display: flex; align-items: center; padding: 10px 16px; gap: 6px; }
     .term-chrome-bar .dot { width: 10px; height: 10px; border-radius: 50%; }
     .term-chrome-bar .dot-r { background: var(--r-9-8); }
@@ -46,7 +46,7 @@
     .term-chrome > div:last-child { padding: 16px 20px; }
 
     /* --- Semantic utility classes --- */
-    .text-primary           { color: var(--n-9); }
+    .text-primary           { color: var(--n-9); fill: var(--n-9); }
     .text-secondary         { color: var(--n-7); }
     .text-tertiary          { color: var(--n-5); }
     .text-primary-invert    { color: var(--n-0); }
@@ -106,9 +106,11 @@
     .demo-tab:hover         { color: var(--n-7); }
     .demo-tab-active        { background: var(--n-0) !important; color: var(--n-9) !important; }
 
+    /* ── Skills Stack ── */
+    .skills-card { transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.5s cubic-bezier(0.25, 0.1, 0.25, 1); }
+
     /* ── Theme Picker ── */
     .tp-trigger { position: fixed; top: 20px; right: 20px; z-index: 10000; display: flex; align-items: center; cursor: pointer; border-radius: 999px; padding: 8px 14px 8px 10px; gap: 6px; transition: background .2s, box-shadow .2s; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; font-size: 12px; border: none; }
-    .tp-trigger:hover { box-shadow: 0 2px 12px color-mix(in srgb, var(--n-0) 30%, transparent); }
     .tp-dots { display: flex; margin-right: 2px; }
     .tp-dot { width: 16px; height: 16px; border-radius: 50%; box-shadow: 0 0 0 2px color-mix(in srgb, var(--n-0) 60%, transparent); margin-left: -5px; transition: margin .3s cubic-bezier(.4,0,.2,1), background .3s; }
     .tp-dot:first-child { margin-left: 0; }
@@ -118,12 +120,12 @@
     .tp-overlay { position: fixed; top: 0; right: 0; bottom: 0; z-index: 10001; width: 320px; max-width: 100vw; background: color-mix(in srgb, var(--n-1) 92%, transparent); backdrop-filter: blur(20px); border-left: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); transform: translateX(100%); transition: transform .35s cubic-bezier(.4,0,.2,1); display: flex; flex-direction: column; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
     .tp-overlay.tp-open { transform: translateX(0); }
 
-    .tp-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px 16px; border-bottom: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); }
+    .tp-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px 16px; border-bottom: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); margin-bottom: 24px; }
     .tp-title { font-size: 14px; font-weight: 600; color: color-mix(in srgb, var(--n-9) 90%, transparent); }
-    .tp-close { background: none; border: none; color: color-mix(in srgb, var(--n-9) 50%, transparent); cursor: pointer; font-size: 20px; line-height: 1; padding: 4px; }
-    .tp-close:hover { color: color-mix(in srgb, var(--n-9) 90%, transparent); }
+    .tp-close { background: none; border: none; fill: color-mix(in srgb, var(--n-9) 50%, transparent); cursor: pointer; font-size: 20px; line-height: 1; padding: 4px; }
+    .tp-close:hover { fill: color-mix(in srgb, var(--n-9) 90%, transparent); }
 
-    .tp-body { overflow-y: auto; padding: 16px 24px; flex-shrink: 0; }
+    .tp-body { overflow-y: auto; padding: 16px 24px; flex: 1; }
     .tp-section { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: color-mix(in srgb, var(--n-9) 60%, transparent); margin: 16px 0 8px; padding: 0; }
     .tp-section:first-child { margin-top: 0; }
     .tp-row { display: flex; align-items: center; gap: 12px; padding: 8px 0; }
@@ -150,6 +152,13 @@
     .tp-preset-name { font-size: 12px; color: color-mix(in srgb, var(--n-9) 60%, transparent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .tp-preset.tp-active { background: color-mix(in srgb, var(--c-9-9) 30%, transparent); color: color-mix(in srgb, var(--c-9-9) 95%, transparent); }
     .tp-preset.tp-active .tp-preset-name { color: color-mix(in srgb, var(--n-9) 90%, transparent); }
+
+    .tp-tabs { display: flex; gap: 4px; padding: 0 24px 12px; }
+    .tp-tab { flex: 1; padding: 6px 0; border-radius: 6px; border: none; cursor: pointer; font-family: inherit; font-size: 12px; font-weight: 600; transition: all .15s; background: transparent; color: color-mix(in srgb, var(--n-9) 40%, transparent); }
+    .tp-tab:hover { color: color-mix(in srgb, var(--n-9) 70%, transparent); }
+    .tp-tab-active { background: color-mix(in srgb, var(--n-9) 10%, transparent) !important; color: color-mix(in srgb, var(--n-9) 90%, transparent) !important; }
+    .tp-panel { display: none; }
+    .tp-panel-active { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow: hidden; }
   </style>
 </head>
 <body class="background-primary">
@@ -184,7 +193,7 @@
   </section>
 
   <!-- Social Proof Strip -->
-  <section id="social-proof" class="border-neutral" style="border-left: none; border-right: none; display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;">
+  <section id="social-proof" class="border-neutral" style="border-left: none; border-right: none; border-top: none; display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px;">
     <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
       <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M9.25 12a.75.75 0 0 1-.22.53l-2.75 2.75a.75.75 0 0 1-1.06-1.06L7.44 12 5.22 9.78a.75.75 0 1 1 1.06-1.06l2.75 2.75c.141.14.22.331.22.53Zm2 2a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Z"></path><path d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"></path></svg>
       <span class="text-primary" style="font-size: 28px; font-weight: 700;">CLI + SDK</span>
@@ -345,51 +354,122 @@
     <pre class="background-green text-green border-green" style="border-width: 1px; border-style: solid; border-radius: 10px; padding: 12px 20px; font-size: 14px; margin-top: 16px;">npx skills add basiclines/rampa-studio</pre>
   </section>
 
-  <!-- Skills — Chat-style prompts -->
-  <section style="display: flex; flex-direction: column; gap: 16px; max-width: 960px; margin: 0 auto; padding: 0 80px 64px;">
+  <!-- Skills — Stacked terminal previews -->
+  <section style="display: flex; justify-content: center; padding: 0 80px 100px; position: relative;">
+    <div class="skills-stack" style="position: relative; width: 680px; height: 580px;">
 
-    <!-- User prompt (right-aligned) -->
-    <div style="display: flex; justify-content: flex-end; padding-left: 80px;">
-      <div style="background: var(--n-2); border-radius: 18px 18px 4px 18px; padding: 14px 20px; max-width: 400px;">
-        <span class="text-primary" style="font-size: 14px; line-height: 1.5;">Create a dark theme from <code class="text-blue" style="font-size: 13px;">#3b82f6</code> with accessible contrast</span>
+      <!-- Card 5 (back) — Tinted Neutrals -->
+      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+        <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">tinted-neutrals/skill.md</span></div>
+        <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
+          <span class="text-green" style="font-size: 18px; font-weight: 700;"># Tinted Neutrals</span><br>
+          <span class="text-secondary" style="font-size: 13px;">Create neutral palettes that carry a subtle hint of your brand color. Instead of pure grays, get warm or cool neutrals that feel cohesive with your design system.</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## When to Use</span><br>
+          <span class="text-secondary" style="font-size: 13px;">- "Create grays that match my brand"</span><br>
+          <span class="text-secondary" style="font-size: 13px;">- "I want warm/cool neutrals"</span><br>
+          <span class="text-secondary" style="font-size: 13px;">- "Tint my neutral palette with brand color"</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## Recipe</span><br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">### 1. Pure Neutral (Desaturated Brand)</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" -L 98:5 -S 3:8 --size=10 -O css --name=neutral</code><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">### 2. Tinted Neutral</span><br>
+          <span class="text-secondary" style="font-size: 13px;">Apply your brand color as a subtle overlay tint:</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" -L 98:5 -S 3:8 --tint-color="&lt;brand&gt;" --tint-opacity=8 --tint-blend=overlay --size=10</code>
+        </div>
       </div>
-    </div>
-    <!-- Agent response (left-aligned) -->
-    <div style="display: flex; justify-content: flex-start; padding-right: 80px;">
-      <div class="background-green border-green" style="border-width: 1px; border-style: solid; border-radius: 18px 18px 18px 4px; padding: 14px 20px; max-width: 420px;">
-        <span class="text-green" style="font-size: 14px; font-weight: 600;">theme-foundation</span>
-        <span class="text-green-secondary" style="font-size: 14px; display: block; margin-top: 4px; line-height: 1.5;">Building 10-step neutral ramp, accent plane, surface tokens. All pairs pass APCA Lc ≥ 60.</span>
-      </div>
-    </div>
 
-    <!-- User prompt -->
-    <div style="display: flex; justify-content: flex-end; padding-left: 80px; margin-top: 8px;">
-      <div style="background: var(--n-2); border-radius: 18px 18px 4px 18px; padding: 14px 20px; max-width: 400px;">
-        <span class="text-primary" style="font-size: 14px; line-height: 1.5;">Now generate matching status colors for success, warning, danger</span>
+      <!-- Card 4 — Accessible Contrast -->
+      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+        <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">accessible-contrast/skill.md</span></div>
+        <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
+          <span class="text-green" style="font-size: 18px; font-weight: 700;"># Accessible Contrast Pairs</span><br>
+          <span class="text-secondary" style="font-size: 13px;">Generate color ramps designed for accessible text/background combinations. Uses an 11-step scale for predictable WCAG-compliant pairing.</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## The 11-Step Strategy</span><br>
+          <span class="text-secondary" style="font-size: 13px;">Why 11 steps? Predictable pairing math:</span><br>
+          <span class="text-secondary" style="font-size: 12px; opacity: 0.7;">  Maximum  →  0 + 10  →  Highest contrast</span><br>
+          <span class="text-secondary" style="font-size: 12px; opacity: 0.7;">  AAA      →  1 + 9   →  7:1+ ratio</span><br>
+          <span class="text-secondary" style="font-size: 12px; opacity: 0.7;">  AA       →  3 + 7   →  4.5:1+ ratio</span><br>
+          <span class="text-secondary" style="font-size: 12px; opacity: 0.7;">  AA Large →  4 + 6   →  3:1+ ratio</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## Recipe</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" -L 98:5 --size=11 -O css --name=color</code><br>
+          <br>
+          <span class="text-secondary" style="font-size: 13px; opacity: 0.7;">Pairs are symmetrical: 0+10, 1+9, 2+8, etc.</span>
+        </div>
       </div>
-    </div>
-    <!-- Agent response -->
-    <div style="display: flex; justify-content: flex-start; padding-right: 80px;">
-      <div class="background-green border-green" style="border-width: 1px; border-style: solid; border-radius: 18px 18px 18px 4px; padding: 14px 20px; max-width: 420px;">
-        <span class="text-green" style="font-size: 14px; font-weight: 600;">status-from-accent</span>
-        <span class="text-green-secondary" style="font-size: 14px; display: block; margin-top: 4px; line-height: 1.5;">Deriving 3 hue-shifted ramps from your accent. Each step contrast-checked against your dark surfaces.</span>
-      </div>
-    </div>
 
-    <!-- User prompt -->
-    <div style="display: flex; justify-content: flex-end; padding-left: 80px; margin-top: 8px;">
-      <div style="background: var(--n-2); border-radius: 18px 18px 4px 18px; padding: 14px 20px; max-width: 400px;">
-        <span class="text-primary" style="font-size: 14px; line-height: 1.5;">I need 6 chart colors that work for colorblind users</span>
+      <!-- Card 3 — Data Viz Palette -->
+      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+        <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">data-viz-palette/skill.md</span></div>
+        <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
+          <span class="text-green" style="font-size: 18px; font-weight: 700;"># Data Visualization Palette</span><br>
+          <span class="text-secondary" style="font-size: 13px;">Generate colors optimized for charts, graphs, and dashboards. Colors are mathematically spaced for maximum distinction and equal visual weight.</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## Key Principles</span><br>
+          <span class="text-secondary" style="font-size: 13px;">1. <strong>Fixed lightness</strong> — equal visual weight</span><br>
+          <span class="text-secondary" style="font-size: 13px;">2. <strong>Fixed saturation</strong> — consistent vibrancy</span><br>
+          <span class="text-secondary" style="font-size: 13px;">3. <strong>Maximum hue spacing</strong> — use harmonies</span><br>
+          <span class="text-secondary" style="font-size: 13px;">4. <strong>Single shade per color</strong> — distinct hues, not ramps</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">### 3 Colors (Triadic)</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" --add=triadic --size=2 -L 50:50 -S 70:70 -O css</code><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">### 4 Colors (Square)</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" --add=square --size=2 -L 50:50 -S 70:70 -O css</code>
+        </div>
       </div>
-    </div>
-    <!-- Agent response -->
-    <div style="display: flex; justify-content: flex-start; padding-right: 80px;">
-      <div class="background-green border-green" style="border-width: 1px; border-style: solid; border-radius: 18px 18px 18px 4px; padding: 14px 20px; max-width: 420px;">
-        <span class="text-green" style="font-size: 14px; font-weight: 600;">data-viz-palette</span>
-        <span class="text-green-secondary" style="font-size: 14px; display: block; margin-top: 4px; line-height: 1.5;">Selecting 6 maximally-spaced hues in OKLCH with ΔE ≥ 30 between neighbors. All distinguishable under deuteranopia.</span>
-      </div>
-    </div>
 
+      <!-- Card 2 — Status from Accent -->
+      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+        <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">status-from-accent/skill.md</span></div>
+        <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
+          <span class="text-green" style="font-size: 18px; font-weight: 700;"># Status Colors from Accent</span><br>
+          <span class="text-secondary" style="font-size: 13px;">Generate success, warning, danger, and info colors mathematically related to your brand using square harmony.</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## The Square Harmony Approach</span><br>
+          <span class="text-secondary" style="font-size: 13px;">4 colors at 90° intervals on the color wheel:</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" --add=square -L 95:15 --size=10 -O css</code><br>
+          <br>
+          <span class="text-secondary" style="font-size: 13px; opacity: 0.7;">  base     → your brand color (info/primary)</span><br>
+          <span class="text-secondary" style="font-size: 13px; opacity: 0.7;">  square-1 → +90° rotation</span><br>
+          <span class="text-secondary" style="font-size: 13px; opacity: 0.7;">  square-2 → +180° (opposite)</span><br>
+          <span class="text-secondary" style="font-size: 13px; opacity: 0.7;">  square-3 → +270° rotation</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## Mapping Hues to Status</span><br>
+          <span class="text-secondary" style="font-size: 12px; opacity: 0.7;">  80-150°  → Success (green/teal)</span><br>
+          <span class="text-secondary" style="font-size: 12px; opacity: 0.7;">  30-80°   → Warning (yellow/orange)</span><br>
+          <span class="text-secondary" style="font-size: 12px; opacity: 0.7;">  0-30°    → Danger (red/pink)</span>
+        </div>
+      </div>
+
+      <!-- Card 1 (front) — Theme Foundation -->
+      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+        <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">theme-foundation/skill.md</span></div>
+        <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
+          <span class="text-green" style="font-size: 18px; font-weight: 700;"># Theme Foundation</span><br>
+          <span class="text-secondary" style="font-size: 13px;">Generate a complete theme color system from a single brand color. Creates primary accent, secondary accent, and neutral ramps — all mathematically derived.</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## When to Use</span><br>
+          <span class="text-secondary" style="font-size: 13px;">- "Create a theme from my brand color"</span><br>
+          <span class="text-secondary" style="font-size: 13px;">- "I need colors for light and dark mode"</span><br>
+          <span class="text-secondary" style="font-size: 13px;">- "Generate a color system for my app"</span><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">## Recipe</span><br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">### 1. Primary Accent Ramp</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" -L 95:10 --size=10 -O css --name=accent</code><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">### 2. Secondary Accent (Complementary)</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" --add=complementary -L 95:10 --size=10 -O css</code><br>
+          <br>
+          <span class="text-secondary" style="opacity: 0.6; font-size: 12px;">### 3. Neutral Ramp</span><br>
+          <code class="text-yellow" style="font-size: 12px;">rampa -C "&lt;brand&gt;" -L 98:5 -S 5:10 --size=10 -O css --name=neutral</code>
+        </div>
+      </div>
+
+    </div>
   </section>
 
   <!-- Get Started CTA -->
@@ -447,7 +527,7 @@
   </section>
 
   <!-- Footer -->
-  <footer style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto; padding: 40px 80px; border-top: 1px solid #1a1a1a;">
+  <footer class="border-neutral" style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto; padding: 40px 80px; border-bottom: none; border-right: none; border-left: none;">
     <div style="display: flex; align-items: center; gap: 32px;">
       <span class="text-primary" style="font-size: 14px; font-weight: 600;">rampa</span>
       <a class="text-secondary" href="https://rampa.design/app" style="font-size: 14px;">Web editor</a>
@@ -472,14 +552,24 @@
   <div class="tp-overlay">
     <div class="tp-header">
       <span class="tp-title">Theme Colors</span>
-      <button class="tp-close" aria-label="Close theme picker">&#x2715;</button>
+      <button class="tp-close" aria-label="Close theme picker">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M5.72 5.72a.75.75 0 0 1 1.06 0L12 10.94l5.22-5.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L13.06 12l5.22 5.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L12 13.06l-5.22 5.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L10.94 12 5.72 6.78a.75.75 0 0 1 0-1.06Z"></path></svg>
+      </button>
     </div>
 
+    <div class="tp-tabs">
+      <button class="tp-tab tp-tab-active" data-tp-tab="themes">Themes</button>
+      <button class="tp-tab" data-tp-tab="colors">Colors</button>
+    </div>
+
+    <div class="tp-panel tp-panel-active" data-tp-panel="themes">
     <div class="tp-presets">
       <input class="tp-search" type="text" placeholder="Search 438 themes…">
       <div class="tp-preset-list"></div>
     </div>
+    </div>
 
+    <div class="tp-panel" data-tp-panel="colors">
     <div class="tp-body">
       <div class="tp-section">Neutral</div>
       <div class="tp-row" data-key="background">
@@ -525,6 +615,7 @@
         <span class="tp-hex"></span>
       </div>
     </div>
+    </div>
 
     <div class="tp-footer">
       <button class="tp-reset">Reset to defaults</button>
@@ -534,6 +625,7 @@
   <script src="js/interactions.js" defer></script>
   <script src="js/hero-cubes.js"></script>
   <script src="js/theme-picker.js" defer></script>
+  <script src="js/skills-stack.js" defer></script>
   <script src="js/demos.js" defer></script>
 
 </body>

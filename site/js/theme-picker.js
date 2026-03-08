@@ -57,6 +57,23 @@
   var presetList = overlay.querySelector('.tp-preset-list');
   var resetBtn = overlay.querySelector('.tp-reset');
 
+  // Tab switching
+  var tabBtns = overlay.querySelectorAll('.tp-tab[data-tp-tab]');
+  var tabPanels = overlay.querySelectorAll('.tp-panel[data-tp-panel]');
+  for (var i = 0; i < tabBtns.length; i++) {
+    (function (btn) {
+      btn.addEventListener('click', function () {
+        var target = btn.getAttribute('data-tp-tab');
+        for (var j = 0; j < tabBtns.length; j++) tabBtns[j].classList.remove('tp-tab-active');
+        for (var j = 0; j < tabPanels.length; j++) tabPanels[j].classList.remove('tp-panel-active');
+        btn.classList.add('tp-tab-active');
+        var panel = overlay.querySelector('.tp-panel[data-tp-panel="' + target + '"]');
+        if (panel) panel.classList.add('tp-panel-active');
+        if (target === 'themes') loadThemes();
+      });
+    })(tabBtns[i]);
+  }
+
   // Trigger dots
   var dots = {};
   var dotEls = trigger.querySelectorAll('.tp-dot[data-color]');

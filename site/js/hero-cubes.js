@@ -26,12 +26,12 @@ var ANCHOR_COLORS = currentTheme.anchors;
 var BG_HEX = currentTheme.bg;
 
 const GAP_PX = 0;
-const CUBE_PX = 48;
+const CUBE_PX = 56;
 const CUBE_SCALE_ANIM = 0.5;
 const CUBE_SCALE_REST = 0.95;
 const STAGGER = 0.08;
-const ROT_DUR = 1.8;
-const PAUSE = 8.0;
+const ROT_DUR = 2;
+const PAUSE = 16.0;
 
 function hexToGL(hex) {
   const h = hex.replace('#','');
@@ -85,7 +85,7 @@ function buildGrid(cols, rows) {
   // 3. For each column, fade from top-row color → background
   grid = new Array(cols);
   for (var c = 0; c < cols; c++) {
-    var colRamp = new Rampa.LinearColorSpace(topRow[c], BG_HEX).interpolation('oklch').size(Math.max(rows, 2));
+    var colRamp = new Rampa.LinearColorSpace(BG_HEX, topRow[c]).interpolation('oklch').size(Math.max(rows, 2));
     grid[c] = new Array(rows);
     for (var r = 0; r < rows; r++) {
       grid[c][r] = hexToGL('' + colRamp(r + 1));
