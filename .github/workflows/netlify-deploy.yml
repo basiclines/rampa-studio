@@ -28,7 +28,6 @@ jobs:
           mv dist/index.html dist/app/
           [ -d dist/assets ] && mv dist/assets dist/app/
           cp -r site/* dist/
-          printf '/app  /app/  301\n/app/*  /app/index.html  200\n' > dist/_redirects
 
       - run: npx netlify deploy --dir=dist --prod
         env:
