@@ -10,9 +10,9 @@ export function setColorRampScale(
     ramp.id === id
       ? { 
           ...ramp, 
-          lightnessScaleType: scaleType,
-          hueScaleType: scaleType,
-          saturationScaleType: scaleType
+          lightnessDistributionType: scaleType,
+          hueDistributionType: scaleType,
+          saturationDistributionType: scaleType
         }
       : ramp
   );

@@ -1,7 +1,9 @@
-import { generatePlaneSpace } from '../../src/engine/ColorSpaceEngine';
+import { generatePlaneSpace, mixWithMode } from '../../src/engine/ColorSpaceEngine';
+import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
+import { planeToCSS, planeToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, PlaneColorSpaceResult, ColorAccessor } from './types';
+import type { ColorFormat, InterpolationMode, PlaneColorSpaceResult, ColorAccessor, ScaleType } from './types';
 
 /**
  * Create a 2D color plane from dark, light, and hue anchors.
@@ -33,6 +35,7 @@ export class PlaneColorSpace {
   private _hue: string;
   private _interpolation: InterpolationMode;
   private _format: ColorFormat = 'hex';
+  private _distribution: ScaleType | undefined;
 
   constructor(dark: string, light: string, hue: string) {
     validateSameFormat([dark, light, hue]);
@@ -53,14 +56,42 @@ export class PlaneColorSpace {
     return this;
   }
 
+  /**
+   * Set a non-linear distribution curve for both axes.
+   * When set, positions are remapped through the given scale function
+   * instead of using uniform linear spacing.
+   */
+  distribution(scale: ScaleType): this {
+    this._distribution = scale;
+    return this;
+  }
+
   size(stepsPerAxis: number): PlaneColorSpaceResult {
-    const palette = generatePlaneSpace(
-      this._dark,
-      this._light,
-      this._hue,
-      stepsPerAxis,
-      this._interpolation
-    );
+    let palette: string[];
+
+    if (this._distribution) {
+      // Non-linear distribution: remap positions through scale function
+      const dist = this._distribution;
+      const mix = (a: string, b: string, t: number) => mixWithMode(a, b, t, this._interpolation);
+      palette = [];
+      for (let xi = 0; xi < stepsPerAxis; xi++) {
+        const tx = calculateScalePosition(xi, stepsPerAxis, dist);
+        const bottom = this._dark;
+        const top = mix(this._light, this._hue, tx);
+        for (let yi = 0; yi < stepsPerAxis; yi++) {
+          const ty = calculateScalePosition(yi, stepsPerAxis, dist);
+          palette.push(mix(bottom, top, ty));
+        }
+      }
+    } else {
+      palette = generatePlaneSpace(
+        this._dark,
+        this._light,
+        this._hue,
+        stepsPerAxis,
+        this._interpolation
+      );
+    }
 
     const fmt = this._format;
 
@@ -75,6 +106,8 @@ export class PlaneColorSpace {
     Object.defineProperties(result, {
       palette: { value: palette, enumerable: true },
       size: { value: stepsPerAxis, enumerable: true },
+      toCSS: { value: (prefix?: string) => planeToCSS(palette, stepsPerAxis, prefix), enumerable: false },
+      toJSON: { value: (prefix?: string) => planeToJSON(palette, stepsPerAxis, prefix), enumerable: false },
     });
 
     return result;

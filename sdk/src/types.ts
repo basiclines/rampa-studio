@@ -113,6 +113,8 @@ export interface ColorAccessor {
   valueOf(): string;
 }
 
+export type OutputMode = 'css' | 'json';
+
 /**
  * The function signature returned by LinearColorSpace.
  * Call it with a 1-based index to get a color.
@@ -121,6 +123,10 @@ export interface LinearColorSpaceFn {
   (index: number): ColorAccessor;
   palette: string[];
   size: number;
+  /** Export as CSS custom properties: :root { --{prefix}-0: #...; ... } */
+  toCSS(prefix?: string): string;
+  /** Export as JSON: { name, colors } */
+  toJSON(prefix?: string): string;
 }
 
 /**
@@ -140,8 +146,12 @@ export interface CubeColorSpaceResult {
   palette: string[];
   /** Steps per axis */
   size: number;
+  /** Export as CSS custom properties */
+  toCSS(prefix?: string): string;
+  /** Export as JSON */
+  toJSON(prefix?: string): string;
   /** Per-corner shortcut functions, keyed by constructor key names */
-  [key: string]: ((index: number) => ColorAccessor) | string[] | number | ((query: Record<string, number>) => ColorAccessor) | ((x: number, y: number, z: number) => ColorAccessor);
+  [key: string]: ((index: number) => ColorAccessor) | string[] | number | ((query: Record<string, number>) => ColorAccessor) | ((x: number, y: number, z: number) => ColorAccessor) | ((prefix?: string) => string);
 }
 
 /**
@@ -155,6 +165,10 @@ export interface PlaneColorSpaceResult {
   palette: string[];
   /** Steps per axis */
   size: number;
+  /** Export as CSS custom properties: :root { --{prefix}-{sat}-{lgt}: #...; ... } */
+  toCSS(prefix?: string): string;
+  /** Export as JSON */
+  toJSON(prefix?: string): string;
 }
 
 // ── Contrast / Lint Types ──────────────────────────────────────────────

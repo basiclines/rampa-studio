@@ -35,9 +35,9 @@ export class RampaBuilder {
   private _saturationEnd: number = 0;
   private _hueStart: number = -10;
   private _hueEnd: number = 10;
-  private _lightnessScale: ScaleType = 'linear';
-  private _saturationScale: ScaleType = 'linear';
-  private _hueScale: ScaleType = 'linear';
+  private _lightnessDistribution: ScaleType = 'linear';
+  private _saturationDistribution: ScaleType = 'linear';
+  private _hueDistribution: ScaleType = 'linear';
   private _tintColor?: string;
   private _tintOpacity: number = 0;
   private _tintBlend: BlendMode = 'normal';
@@ -84,18 +84,18 @@ export class RampaBuilder {
     return this;
   }
 
-  lightnessScale(scale: ScaleType): this {
-    this._lightnessScale = scale;
+  lightnessDistribution(scale: ScaleType): this {
+    this._lightnessDistribution = scale;
     return this;
   }
 
-  saturationScale(scale: ScaleType): this {
-    this._saturationScale = scale;
+  saturationDistribution(scale: ScaleType): this {
+    this._saturationDistribution = scale;
     return this;
   }
 
-  hueScale(scale: ScaleType): this {
-    this._hueScale = scale;
+  hueDistribution(scale: ScaleType): this {
+    this._hueDistribution = scale;
     return this;
   }
 
@@ -138,9 +138,9 @@ export class RampaBuilder {
       chromaEnd: this._hueEnd,
       saturationStart: this._saturationStart,
       saturationEnd: this._saturationEnd,
-      lightnessScaleType: this._lightnessScale,
-      saturationScaleType: this._saturationScale,
-      hueScaleType: this._hueScale,
+      lightnessDistributionType: this._lightnessDistribution,
+      saturationDistributionType: this._saturationDistribution,
+      hueDistributionType: this._hueDistribution,
       tintColor: this._tintColor,
       tintOpacity: this._tintOpacity,
       tintBlendMode: this._tintBlend,

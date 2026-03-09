@@ -98,15 +98,15 @@ rampa --color <color> [options]
 | `--saturation` | `-S` | Saturation range start:end (0-100) | 100:0 |
 | `--hue` | `-H` | Hue shift range start:end (degrees) | -10:10 |
 
-### Scale Types
+### Distribution Types
 
 | Flag | Description | Default |
 |------|-------------|---------|
-| `--lightness-scale` | Lightness distribution curve | linear |
-| `--saturation-scale` | Saturation distribution curve | linear |
-| `--hue-scale` | Hue distribution curve | linear |
+| `--lightness-distribution` | Lightness distribution curve | linear |
+| `--saturation-distribution` | Saturation distribution curve | linear |
+| `--hue-distribution` | Hue distribution curve | linear |
 
-Available scales: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`, `ease-in`, `ease-out`, `ease-in-out`
+Available distributions: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`, `ease-in`, `ease-out`, `ease-in-out`
 
 ### Tinting
 
@@ -298,7 +298,7 @@ rampa -C "#3b82f6"
 ### Custom Lightness Range
 
 ```bash
-rampa -C "#3b82f6" -L 10:90 --lightness-scale=fibonacci
+rampa -C "#3b82f6" -L 10:90 --lightness-distribution=fibonacci
 ```
 
 ### With Tinting
@@ -467,7 +467,7 @@ rampa inspect -c '#1e1e2e' -O css
 Run any flag without a value to see detailed help:
 
 ```bash
-rampa --lightness-scale
+rampa --lightness-distribution
 rampa --add
 rampa --output
 ```

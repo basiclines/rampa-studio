@@ -3,7 +3,7 @@ export interface RampConfig {
   lightness: { start: number; end: number };
   saturation: { start: number; end: number };
   hue: { start: number; end: number };
-  scales: {
+  distributions: {
     lightness: string;
     saturation: string;
     hue: string;

@@ -41,7 +41,7 @@ const SaturationSlider: React.FC<SaturationSliderProps> = ({ ramp, onUpdate, cla
         className="h-full flex-1"
         invertValues={true}
         totalSteps={ramp.totalSteps}
-        scaleType={ramp.saturationScaleType}
+        scaleType={ramp.saturationDistributionType}
       />
     </div>
   );

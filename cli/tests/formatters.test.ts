@@ -11,7 +11,7 @@ const mockRamp: RampOutput = {
     lightness: { start: 0, end: 100 },
     saturation: { start: 100, end: 0 },
     hue: { start: -10, end: 10 },
-    scales: {
+    distributions: {
       lightness: 'linear',
       saturation: 'linear',
       hue: 'linear',
@@ -29,7 +29,7 @@ const mockRampWithTint: RampOutput = {
     lightness: { start: 20, end: 80 },
     saturation: { start: 100, end: 50 },
     hue: { start: 0, end: 0 },
-    scales: {
+    distributions: {
       lightness: 'fibonacci',
       saturation: 'ease-out',
       hue: 'linear',
@@ -72,7 +72,7 @@ describe('Formatters', () => {
       expect(parsed.ramps[0].config).toBeDefined();
       expect(parsed.ramps[0].config.size).toBe(5);
       expect(parsed.ramps[0].config.lightness).toEqual({ start: 0, end: 100 });
-      expect(parsed.ramps[0].config.scales.lightness).toBe('linear');
+      expect(parsed.ramps[0].config.distributions.lightness).toBe('linear');
     });
 
     it('should include tint config when present', () => {

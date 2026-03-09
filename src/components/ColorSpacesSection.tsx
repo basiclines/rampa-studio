@@ -51,7 +51,7 @@ const ColorSpacesSection: React.FC = () => {
             <DialogDescription>
               Rampa is built by <a href="https://ismael.fyi" target="_blank" rel="noopener noreferrer" className="text-blue-500">ismael.fyi</a>
               <br />
-              Any feedback is welcome, just reach out at ismael@secture.com
+              Any feedback is welcome, just reach open an <a href="https://github.com/basiclines/rampa-studio/issues" target="_blank" rel="noopener noreferrer" className="text-blue-500">issue</a>
             </DialogDescription>
           </DialogHeader>
         </DialogContent>

@@ -112,17 +112,17 @@ Hue shift in degrees (default: -10, 10).
 rampa('#3b82f6').hue(-30, 30).generate();
 ```
 
-#### `.lightnessScale(type)`, `.saturationScale(type)`, `.hueScale(type)`
+#### `.lightnessDistribution(type)`, `.saturationDistribution(type)`, `.hueDistribution(type)`
 
 Distribution curve for each channel (default: `linear`).
 
-Available scales: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`, `ease-in`, `ease-out`, `ease-in-out`
+Available distributions: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`, `ease-in`, `ease-out`, `ease-in-out`
 
 ```typescript
 rampa('#3b82f6')
-  .lightnessScale('fibonacci')
-  .saturationScale('ease-out')
-  .hueScale('golden-ratio')
+  .lightnessDistribution('fibonacci')
+  .saturationDistribution('ease-out')
+  .hueDistribution('golden-ratio')
   .generate();
 ```
 
@@ -323,7 +323,7 @@ import { rampa } from '@basiclines/rampa-sdk';
 const primary = rampa('#3b82f6')
   .size(10)
   .lightness(5, 95)
-  .saturationScale('ease-out')
+  .saturationDistribution('ease-out')
   .generate();
 
 const neutral = rampa('#64748b')
@@ -343,7 +343,7 @@ const danger = rampa('#ef4444')
 const palette = rampa('#3b82f6')
   .size(10)
   .lightness(5, 95)
-  .lightnessScale('ease-in-out')
+  .lightnessDistribution('ease-in-out')
   .add('complementary')
   .add('analogous')
   .generate();
@@ -553,6 +553,29 @@ new PlaneColorSpace('#000', '#fff', '#f00').interpolation('lab').size(6)
 
 // CubeColorSpace
 new CubeColorSpace({ ... }).interpolation('lab').size(6)
+```
+
+### Distribution curves
+
+All color space classes support `.distribution(scale)` to apply non-linear step spacing. When not set, steps are evenly spaced (zero overhead on the default path).
+
+Available scales: `ease-in`, `ease-out`, `ease-in-out`, `fibonacci`, `golden-ratio`, `geometric`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`
+
+```typescript
+// Ease-in: bunch colors toward the start, spread out toward the end
+const ramp = new LinearColorSpace('#ffffff', '#000000')
+  .distribution('ease-in')
+  .size(10);
+
+// Fibonacci spacing on a 2D plane
+const red = new PlaneColorSpace('#1e1e2e', '#cdd6f4', '#f38ba8')
+  .distribution('fibonacci')
+  .size(8);
+
+// Golden ratio on a cube
+const space = new CubeColorSpace({ ... })
+  .distribution('golden-ratio')
+  .size(6);
 ```
 
 ### Color accessor

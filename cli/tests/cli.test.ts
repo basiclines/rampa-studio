@@ -186,26 +186,26 @@ describe('CLI Integration', () => {
     });
   });
 
-  describe('Scale Types', () => {
-    it('should accept lightness-scale option', async () => {
-      const result = await $`${CLI_PATH} -C "#3b82f6" --lightness-scale=fibonacci --size=3 -O json`.text();
+  describe('Distribution Types', () => {
+    it('should accept lightness-distribution option', async () => {
+      const result = await $`${CLI_PATH} -C "#3b82f6" --lightness-distribution=fibonacci --size=3 -O json`.text();
       const parsed = JSON.parse(result);
       
-      expect(parsed.ramps[0].config.scales.lightness).toBe('fibonacci');
+      expect(parsed.ramps[0].config.distributions.lightness).toBe('fibonacci');
     });
 
-    it('should accept saturation-scale option', async () => {
-      const result = await $`${CLI_PATH} -C "#3b82f6" --saturation-scale=ease-out --size=3 -O json`.text();
+    it('should accept saturation-distribution option', async () => {
+      const result = await $`${CLI_PATH} -C "#3b82f6" --saturation-distribution=ease-out --size=3 -O json`.text();
       const parsed = JSON.parse(result);
       
-      expect(parsed.ramps[0].config.scales.saturation).toBe('ease-out');
+      expect(parsed.ramps[0].config.distributions.saturation).toBe('ease-out');
     });
 
-    it('should accept hue-scale option', async () => {
-      const result = await $`${CLI_PATH} -C "#3b82f6" --hue-scale=golden-ratio --size=3 -O json`.text();
+    it('should accept hue-distribution option', async () => {
+      const result = await $`${CLI_PATH} -C "#3b82f6" --hue-distribution=golden-ratio --size=3 -O json`.text();
       const parsed = JSON.parse(result);
       
-      expect(parsed.ramps[0].config.scales.hue).toBe('golden-ratio');
+      expect(parsed.ramps[0].config.distributions.hue).toBe('golden-ratio');
     });
   });
 

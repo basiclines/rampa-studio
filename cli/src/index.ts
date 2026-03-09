@@ -82,10 +82,10 @@ RANGES
   ${cyan}-S, --saturation <start:end>${reset}   ${dim}Saturation range 0-100 (default: 100:0)${reset}
   ${cyan}-H, --hue <start:end>${reset}          ${dim}Hue shift in degrees (default: -10:10)${reset}
 
-SCALES
-  ${cyan}--lightness-scale <type>${reset}       ${dim}Lightness curve (default: linear)${reset}
-  ${cyan}--saturation-scale <type>${reset}      ${dim}Saturation curve (default: linear)${reset}
-  ${cyan}--hue-scale <type>${reset}             ${dim}Hue curve (default: linear)${reset}
+DISTRIBUTIONS
+  ${cyan}--lightness-distribution <type>${reset} ${dim}Lightness curve (default: linear)${reset}
+  ${cyan}--saturation-distribution <type>${reset}${dim}Saturation curve (default: linear)${reset}
+  ${cyan}--hue-distribution <type>${reset}       ${dim}Hue curve (default: linear)${reset}
 
                                   ${dim}Types: linear, geometric, fibonacci, golden-ratio,${reset}
                                   ${dim}logarithmic, powers-of-2, musical-ratio, cielab-uniform,${reset}
@@ -230,36 +230,36 @@ Examples:
   rampa -C "#3b82f6" -H 0:0       # No hue shift
   rampa -C "#3b82f6" -H -45:45    # Wide hue variation
 `,
-  'lightness-scale': `
---lightness-scale <type>  Distribution curve for lightness
+  'lightness-distribution': `
+--lightness-distribution <type>  Distribution curve for lightness
 
-Available scales:
+Available distributions:
   ${SCALE_TYPES.join(', ')}
 
 Examples:
-  rampa -C "#3b82f6" --lightness-scale=fibonacci
-  rampa -C "#3b82f6" --lightness-scale=ease-in-out
-  rampa -C "#3b82f6" --lightness-scale=golden-ratio
+  rampa -C "#3b82f6" --lightness-distribution=fibonacci
+  rampa -C "#3b82f6" --lightness-distribution=ease-in-out
+  rampa -C "#3b82f6" --lightness-distribution=golden-ratio
 `,
-  'saturation-scale': `
---saturation-scale <type>  Distribution curve for saturation
+  'saturation-distribution': `
+--saturation-distribution <type>  Distribution curve for saturation
 
-Available scales:
+Available distributions:
   ${SCALE_TYPES.join(', ')}
 
 Examples:
-  rampa -C "#3b82f6" --saturation-scale=ease-out
-  rampa -C "#3b82f6" --saturation-scale=logarithmic
+  rampa -C "#3b82f6" --saturation-distribution=ease-out
+  rampa -C "#3b82f6" --saturation-distribution=logarithmic
 `,
-  'hue-scale': `
---hue-scale <type>  Distribution curve for hue
+  'hue-distribution': `
+--hue-distribution <type>  Distribution curve for hue
 
-Available scales:
+Available distributions:
   ${SCALE_TYPES.join(', ')}
 
 Examples:
-  rampa -C "#3b82f6" --hue-scale=fibonacci
-  rampa -C "#3b82f6" --hue-scale=ease-in
+  rampa -C "#3b82f6" --hue-distribution=fibonacci
+  rampa -C "#3b82f6" --hue-distribution=ease-in
 `,
   'tint-color': `
 --tint-color <color>  Tint color to blend over the palette
@@ -467,17 +467,17 @@ const main = defineCommand({
       description: 'Hue shift range start:end in degrees (default: -10:10)',
       default: '-10:10',
     },
-    'lightness-scale': {
+    'lightness-distribution': {
       type: 'string',
       description: 'Lightness distribution curve (default: linear)',
       default: 'linear',
     },
-    'saturation-scale': {
+    'saturation-distribution': {
       type: 'string',
       description: 'Saturation distribution curve (default: linear)',
       default: 'linear',
     },
-    'hue-scale': {
+    'hue-distribution': {
       type: 'string',
       description: 'Hue distribution curve (default: linear)',
       default: 'linear',
@@ -538,9 +538,9 @@ const main = defineCommand({
     if (needsHelp(args.lightness) && args.lightness !== '0:100') showFlagHelp('lightness');
     if (needsHelp(args.saturation) && args.saturation !== '100:0') showFlagHelp('saturation');
     if (needsHelp(args.hue) && args.hue !== '-10:10') showFlagHelp('hue');
-    if (needsHelp(args['lightness-scale']) && args['lightness-scale'] !== 'linear') showFlagHelp('lightness-scale');
-    if (needsHelp(args['saturation-scale']) && args['saturation-scale'] !== 'linear') showFlagHelp('saturation-scale');
-    if (needsHelp(args['hue-scale']) && args['hue-scale'] !== 'linear') showFlagHelp('hue-scale');
+    if (needsHelp(args['lightness-distribution']) && args['lightness-distribution'] !== 'linear') showFlagHelp('lightness-distribution');
+    if (needsHelp(args['saturation-distribution']) && args['saturation-distribution'] !== 'linear') showFlagHelp('saturation-distribution');
+    if (needsHelp(args['hue-distribution']) && args['hue-distribution'] !== 'linear') showFlagHelp('hue-distribution');
     if (args['tint-color'] !== undefined && needsHelp(args['tint-color'])) showFlagHelp('tint-color');
     if (needsHelp(args['tint-opacity']) && args['tint-opacity'] !== '0') showFlagHelp('tint-opacity');
     if (needsHelp(args['tint-blend']) && args['tint-blend'] !== 'normal') showFlagHelp('tint-blend');
@@ -698,21 +698,21 @@ const main = defineCommand({
     }
 
     // Validate scale types
-    const lightnessScale = args['lightness-scale'];
-    const saturationScale = args['saturation-scale'];
-    const hueScale = args['hue-scale'];
+    const lightnessDistribution = args['lightness-distribution'];
+    const saturationDistribution = args['saturation-distribution'];
+    const hueDistribution = args['hue-distribution'];
 
-    if (!isValidScaleType(lightnessScale)) {
-      console.error(`Error: Invalid lightness-scale "${lightnessScale}"\n`);
-      showFlagHelp('lightness-scale');
+    if (!isValidScaleType(lightnessDistribution)) {
+      console.error(`Error: Invalid lightness-distribution "${lightnessDistribution}"\n`);
+      showFlagHelp('lightness-distribution');
     }
-    if (!isValidScaleType(saturationScale)) {
-      console.error(`Error: Invalid saturation-scale "${saturationScale}"\n`);
-      showFlagHelp('saturation-scale');
+    if (!isValidScaleType(saturationDistribution)) {
+      console.error(`Error: Invalid saturation-distribution "${saturationDistribution}"\n`);
+      showFlagHelp('saturation-distribution');
     }
-    if (!isValidScaleType(hueScale)) {
-      console.error(`Error: Invalid hue-scale "${hueScale}"\n`);
-      showFlagHelp('hue-scale');
+    if (!isValidScaleType(hueDistribution)) {
+      console.error(`Error: Invalid hue-distribution "${hueDistribution}"\n`);
+      showFlagHelp('hue-distribution');
     }
 
     // Validate tinting options
@@ -799,9 +799,9 @@ const main = defineCommand({
       chromaEnd: hue.end,
       saturationStart: saturation.start,
       saturationEnd: saturation.end,
-      lightnessScaleType: lightnessScale,
-      saturationScaleType: saturationScale,
-      hueScaleType: hueScale,
+      lightnessDistributionType: lightnessDistribution,
+      saturationDistributionType: saturationDistribution,
+      hueDistributionType: hueDistribution,
       tintColor: validatedTintColor,
       tintOpacity: tintOpacity,
       tintBlendMode: tintBlend,
@@ -832,10 +832,10 @@ const main = defineCommand({
       lightness: { start: lightness.start, end: lightness.end },
       saturation: { start: saturation.start, end: saturation.end },
       hue: { start: hue.start, end: hue.end },
-      scales: {
-        lightness: lightnessScale,
-        saturation: saturationScale,
-        hue: hueScale,
+      distributions: {
+        lightness: lightnessDistribution,
+        saturation: saturationDistribution,
+        hue: hueDistribution,
       },
       tint: validatedTintColor ? {
         color: validatedTintColor,
