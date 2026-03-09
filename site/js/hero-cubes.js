@@ -26,7 +26,7 @@ var ANCHOR_COLORS = currentTheme.anchors;
 var BG_HEX = currentTheme.bg;
 
 const GAP_PX = 0;
-const CUBE_PX = 56;
+const CUBE_PX = 60;
 const CUBE_SCALE_ANIM = 0.5;
 const CUBE_SCALE_REST = 0.95;
 const STAGGER = 0.08;
@@ -85,7 +85,7 @@ function buildGrid(cols, rows) {
   // 3. For each column, fade from top-row color → background
   grid = new Array(cols);
   for (var c = 0; c < cols; c++) {
-    var colRamp = new Rampa.LinearColorSpace(BG_HEX, topRow[c]).interpolation('oklch').size(Math.max(rows, 2));
+    var colRamp = new Rampa.LinearColorSpace(BG_HEX, topRow[c]).interpolation('oklch').distribution('ease-in-out').size(Math.max(rows, 2));
     grid[c] = new Array(rows);
     for (var r = 0; r < rows; r++) {
       grid[c][r] = hexToGL('' + colRamp(r + 1));
@@ -128,26 +128,26 @@ if (!gl) {
 
 const VS = `
 attribute vec3 aP, aN;
+attribute float aFI;
 uniform mat4 uPr, uVi, uMo;
 varying vec3 vN, vW;
+varying float vFI;
 void main(){
   vec4 w = uMo * vec4(aP, 1.0);
   vW = w.xyz;
   vN = mat3(uMo) * aN;
+  vFI = aFI;
   gl_Position = uPr * uVi * w;
 }`;
 
 const FS = `
 precision mediump float;
 varying vec3 vN, vW;
+varying float vFI;
 uniform vec3 uFC[6], uLD;
 void main(){
   vec3 n = normalize(vN);
-  vec3 a = abs(n);
-  int fi = 0;
-  if(a.x>a.y && a.x>a.z) fi = n.x>0.0 ? 0 : 1;
-  else if(a.y>a.z) fi = n.y>0.0 ? 2 : 3;
-  else fi = n.z>0.0 ? 4 : 5;
+  int fi = int(vFI + 0.5);
   vec3 c;
   if(fi==0) c=uFC[0]; else if(fi==1) c=uFC[1];
   else if(fi==2) c=uFC[2]; else if(fi==3) c=uFC[3];
@@ -176,6 +176,7 @@ gl.useProgram(p);
 
 const aP = gl.getAttribLocation(p, 'aP');
 const aN = gl.getAttribLocation(p, 'aN');
+const aFI = gl.getAttribLocation(p, 'aFI');
 const uPr = gl.getUniformLocation(p, 'uPr');
 const uVi = gl.getUniformLocation(p, 'uVi');
 const uMo = gl.getUniformLocation(p, 'uMo');
@@ -194,14 +195,17 @@ const F = [
   {n:[0,0,-1], v:[[S,-S,-S],[-S,-S,-S],[-S,S,-S],[S,-S,-S],[-S,S,-S],[S,S,-S]]},
 ];
 const d = [];
-F.forEach(f => f.v.forEach(v => d.push(v[0],v[1],v[2],f.n[0],f.n[1],f.n[2])));
+F.forEach((f, fi) => f.v.forEach(v => d.push(v[0],v[1],v[2],f.n[0],f.n[1],f.n[2],fi)));
+const STRIDE = 28; // 7 floats × 4 bytes
 const buf = gl.createBuffer();
 gl.bindBuffer(gl.ARRAY_BUFFER, buf);
 gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(d), gl.STATIC_DRAW);
 gl.enableVertexAttribArray(aP);
-gl.vertexAttribPointer(aP, 3, gl.FLOAT, false, 24, 0);
+gl.vertexAttribPointer(aP, 3, gl.FLOAT, false, STRIDE, 0);
 gl.enableVertexAttribArray(aN);
-gl.vertexAttribPointer(aN, 3, gl.FLOAT, false, 24, 12);
+gl.vertexAttribPointer(aN, 3, gl.FLOAT, false, STRIDE, 12);
+gl.enableVertexAttribArray(aFI);
+gl.vertexAttribPointer(aFI, 1, gl.FLOAT, false, STRIDE, 24);
 
 gl.enable(gl.DEPTH_TEST);
 gl.clearColor(BG_GL[0], BG_GL[1], BG_GL[2], 1);
