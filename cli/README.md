@@ -98,7 +98,7 @@ rampa --color <color> [options]
 | `--saturation` | `-S` | Saturation range start:end (0-100) | 100:0 |
 | `--hue` | `-H` | Hue shift range start:end (degrees) | -10:10 |
 
-### Scale Types
+### Distribution Types
 
 | Flag | Description | Default |
 |------|-------------|---------|

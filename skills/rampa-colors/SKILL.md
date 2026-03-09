@@ -88,7 +88,7 @@ rampa -C "#3b82f6" --size=5 --add=triadic -O css --name=brand
 | `--tint-blend` | - | Tint blend mode | overlay |
 | `--no-preview` | - | Hide color preview blocks | false |
 
-## Scale Types
+## Distribution Types
 
 Control how values are distributed across the palette:
 

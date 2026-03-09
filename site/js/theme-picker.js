@@ -273,6 +273,7 @@
         pendingFrame = null;
         if (window.RampaTheme) window.RampaTheme.inject(config);
         if (window.rebuildHeroCubes) window.rebuildHeroCubes(config);
+        if (window.updateFavicon) window.updateFavicon();
       });
     }
     clearTimeout(saveTimer);

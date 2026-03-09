@@ -271,11 +271,11 @@ npx skills add basiclines/rampa-studio
 
 Both the web app and CLI share the same color engine (`src/engine/`), ensuring consistent results across platforms.
 
-### Scale Types
+### Distribution Types
 
 Control how values are distributed across the palette:
 
-| Scale | Description |
+| Distribution | Description |
 |-------|-------------|
 | `linear` | Even spacing (default) |
 | `geometric` | Exponential growth |

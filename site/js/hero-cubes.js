@@ -38,6 +38,11 @@ function hexToGL(hex) {
   return [parseInt(h.slice(0,2),16)/255, parseInt(h.slice(2,4),16)/255, parseInt(h.slice(4,6),16)/255];
 }
 
+function glToHex(gl) {
+  var r = Math.round(gl[0] * 255), g = Math.round(gl[1] * 255), b = Math.round(gl[2] * 255);
+  return '#' + ((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1);
+}
+
 var BG_GL = hexToGL(BG_HEX);
 
 // Build a cols × rows color grid using Rampa SDK
@@ -278,6 +283,9 @@ canvas.addEventListener('mouseup', function(e) {
   clickWaveCol = pressCol;
   clickWaveRow = pressRow;
   pressing = false;
+  // Update favicon with the clicked cube's color
+  var clickedColor = (grid[pressCol] && grid[pressCol][pressRow]) || BG_GL;
+  if (window.updateFavicon) window.updateFavicon(glToHex(clickedColor));
 });
 
 canvas.addEventListener('mouseleave', function() {
@@ -285,6 +293,7 @@ canvas.addEventListener('mouseleave', function() {
 });
 
 const startTime = performance.now() / 1000;
+var lastFaviconCycle = -1;
 
 function frame() {
   const now = performance.now()/1000;
@@ -301,6 +310,13 @@ function frame() {
   }
 
   const cycleLen = ROT_DUR + PAUSE;
+
+  // Update favicon when the top-left cube enters a new rotation cycle
+  const topLeftCycle = Math.floor(Math.max(0, now - startTime) / cycleLen);
+  if (topLeftCycle !== lastFaviconCycle) {
+    lastFaviconCycle = topLeftCycle;
+    if (window.updateFavicon) window.updateFavicon();
+  }
 
   // Orthographic: 1 unit = 1 CSS pixel
   gl.uniformMatrix4fv(uPr, false, ortho(0, W, 0, H, -500, 500));

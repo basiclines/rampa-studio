@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rampa — Precise color palettes from your terminal and code</title>
-  <meta name="description" content="Generate perceptually uniform color ramps with APCA contrast analysis. CLI and JavaScript SDK. OKLCH color space. CSS, JSON, or plain text output.">
-  <meta property="og:title" content="Rampa: Build precise color palettes from your terminal and code">
-  <meta property="og:description" content="Generate perceptually uniform color ramps with APCA contrast analysis. CLI and JavaScript SDK. OKLCH color space. CSS, JSON, or plain text output.">
+  <title>Rampa — A color toolkit for AI agents and humans</title>
+  <meta name="description" content="One tool generates palettes, analyzes contrast, mixes colors, and exports to any format. No plugins, no dependencies.">
+  <meta property="og:title" content="Rampa — A color toolkit for AI agents and humans">
+  <meta property="og:description" content="One tool generates palettes, analyzes contrast, mixes colors, and exports to any format. No plugins, no dependencies.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rampa.design/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +23,13 @@
     window.dispatchEvent(new Event('typetype-ready'));
   </script>
   <script src="js/theme.js" defer></script>
+  <script src="js/interactions.js" defer></script>
+  <script src="js/hero-cubes.js" defer></script>
+  <script src="js/favicon.js" defer></script>
+  <script src="js/theme-picker.js" defer></script>
+  <script src="js/skills-stack.js" defer></script>
+  <script src="js/demos.js" defer></script>
+  <script src="js/credits.js" defer></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -160,12 +167,12 @@
     .tp-search:focus { border-color: color-mix(in srgb, var(--n-9) 25%, transparent); }
     .tp-preset-list { flex: 1; overflow-y: auto; margin-top: 8px; min-height: 0; scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--n-9) 15%, transparent) transparent; }
     .tp-preset { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border-radius: 6px; cursor: pointer; transition: background .15s; }
-    .tp-preset:hover { background: color-mix(in srgb, var(--n-9) 8%, transparent); }
+    .tp-preset:hover { background: var(--n-3); }
     .tp-preset-dots { display: flex; flex-shrink: 0; }
     .tp-preset-dot { width: 12px; height: 12px; border-radius: 50%; box-shadow: 0 0 0 2px color-mix(in srgb, var(--n-0) 60%, transparent); margin-left: -3px; }
     .tp-preset-dot:first-child { margin-left: 0; }
     .tp-preset-name { font-size: 12px; color: color-mix(in srgb, var(--n-9) 60%, transparent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .tp-preset.tp-active { background: var(--n-2); color: color-mix(in srgb, var(--c-9-9) 95%, transparent); }
+    .tp-preset.tp-active { background: var(--n-3); color: color-mix(in srgb, var(--c-9-9) 95%, transparent); }
     .tp-preset.tp-active .tp-preset-name { color: color-mix(in srgb, var(--n-9) 90%, transparent); }
 
     .tp-tabs { display: flex; gap: 4px; padding: 0 24px 12px; }
@@ -212,6 +219,9 @@
 
       /* CTA grids: single column */
       .r-cta-grid { grid-template-columns: 1fr !important; }
+
+      /* Hero actions: stack vertically */
+      .r-hero-actions { flex-direction: column !important; }
 
       /* Footer: stack */
       .r-footer { flex-direction: column !important; gap: 16px !important; align-items: flex-start !important; }
@@ -316,7 +326,7 @@
       </div>
       <h1 class="text-primary" style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; opacity: 0.95; text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent);">A color toolkit for AI agents and humans</h1>
       <p style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 24px; color: color-mix(in srgb, var(--n-9) 80%, transparent); text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent);">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK and web editor available.</p>
-      <div style="display: flex; gap: 16px; margin-top: 40px; align-items: center; margin-bottom: 64px;">
+      <div class="r-hero-actions" style="display: flex; gap: 16px; margin-top: 40px; align-items: center; margin-bottom: 64px;">
         <button class="material-invert-thick" id="install-btn" onclick="copyInstallCmd(this)"
           style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; min-width: 240px;"
         >
@@ -761,12 +771,6 @@
     </div>
   </div>
 
-  <script src="js/interactions.js" defer></script>
-  <script src="js/hero-cubes.js"></script>
-  <script src="js/theme-picker.js" defer></script>
-  <script src="js/skills-stack.js" defer></script>
-  <script src="js/demos.js" defer></script>
-
   <!-- Credits Overlay -->
   <div class="credits-overlay" id="credits-overlay">
      <button class="credits-close" id="credits-close" aria-label="Close credits">
@@ -837,7 +841,6 @@
       </div>
     </div>
   </div>
-  <script src="js/credits.js" defer></script>
 
 </body>
 </html>
