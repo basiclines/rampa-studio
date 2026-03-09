@@ -40,7 +40,7 @@ const LightnessSlider: React.FC<LightnessSliderProps> = ({ ramp, onUpdate, class
         referenceColor={ramp.baseColor}
         className="h-full flex-1"
         totalSteps={ramp.totalSteps}
-        scaleType={ramp.lightnessScaleType}
+        scaleType={ramp.lightnessDistributionType}
       />
     </div>
   );

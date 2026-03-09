@@ -41,7 +41,7 @@ const HueSlider: React.FC<HueSliderProps> = ({ ramp, onUpdate, className }) => {
         referenceColor={ramp.baseColor}
         className="h-full flex-1"
         totalSteps={ramp.totalSteps}
-        scaleType={ramp.hueScaleType}
+        scaleType={ramp.hueDistributionType}
       />
     </div>
   );

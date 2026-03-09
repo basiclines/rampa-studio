@@ -67,16 +67,16 @@ describe('SDK ↔ CLI parity', () => {
     expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
-  it('fibonacci lightness scale', async () => {
-    const cliResult = await runCli('--color #3b82f6 --size=8 --lightness-scale fibonacci --output json');
-    const sdkResult = rampa('#3b82f6').size(8).lightnessScale('fibonacci').generate();
+  it('fibonacci lightness distribution', async () => {
+    const cliResult = await runCli('--color #3b82f6 --size=8 --lightness-distribution fibonacci --output json');
+    const sdkResult = rampa('#3b82f6').size(8).lightnessDistribution('fibonacci').generate();
 
     expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
-  it('ease-in-out saturation scale', async () => {
-    const cliResult = await runCli('--color #3b82f6 --size=8 --saturation-scale ease-in-out --output json');
-    const sdkResult = rampa('#3b82f6').size(8).saturationScale('ease-in-out').generate();
+  it('ease-in-out saturation distribution', async () => {
+    const cliResult = await runCli('--color #3b82f6 --size=8 --saturation-distribution ease-in-out --output json');
+    const sdkResult = rampa('#3b82f6').size(8).saturationDistribution('ease-in-out').generate();
 
     expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
@@ -127,13 +127,13 @@ describe('SDK ↔ CLI parity', () => {
     expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
-  it('combined: lightness + saturation + scale + tint + harmony', async () => {
-    const cliResult = await runCli('--color #e74c3c --size=8 --lightness 5:95 --saturation 90:10 --lightness-scale golden-ratio --tint-color #0000FF --tint-opacity 10 --add=analogous --output json');
+  it('combined: lightness + saturation + distribution + tint + harmony', async () => {
+    const cliResult = await runCli('--color #e74c3c --size=8 --lightness 5:95 --saturation 90:10 --lightness-distribution golden-ratio --tint-color #0000FF --tint-opacity 10 --add=analogous --output json');
     const sdkResult = rampa('#e74c3c')
       .size(8)
       .lightness(5, 95)
       .saturation(90, 10)
-      .lightnessScale('golden-ratio')
+      .lightnessDistribution('golden-ratio')
       .tint('#0000FF', 10)
       .add('analogous')
       .generate();

@@ -76,19 +76,19 @@ describe('lightness, saturation, hue', () => {
   });
 });
 
-describe('scales', () => {
-  it('accepts lightness scale', () => {
-    const result = rampa('#3b82f6').size(5).lightnessScale('fibonacci').generate();
+describe('distributions', () => {
+  it('accepts lightness distribution', () => {
+    const result = rampa('#3b82f6').size(5).lightnessDistribution('fibonacci').generate();
     expect(result.ramps[0].colors).toHaveLength(5);
   });
 
-  it('accepts saturation scale', () => {
-    const result = rampa('#3b82f6').size(5).saturationScale('ease-out').generate();
+  it('accepts saturation distribution', () => {
+    const result = rampa('#3b82f6').size(5).saturationDistribution('ease-out').generate();
     expect(result.ramps[0].colors).toHaveLength(5);
   });
 
-  it('accepts hue scale', () => {
-    const result = rampa('#3b82f6').size(5).hueScale('golden-ratio').generate();
+  it('accepts hue distribution', () => {
+    const result = rampa('#3b82f6').size(5).hueDistribution('golden-ratio').generate();
     expect(result.ramps[0].colors).toHaveLength(5);
   });
 });
@@ -220,9 +220,9 @@ describe('method chaining', () => {
       .lightness(10, 90)
       .saturation(80, 20)
       .hue(-20, 20)
-      .lightnessScale('ease-in-out')
-      .saturationScale('linear')
-      .hueScale('fibonacci')
+      .lightnessDistribution('ease-in-out')
+      .saturationDistribution('linear')
+      .hueDistribution('fibonacci')
       .tint('#FF6600', 15, 'overlay')
       .add('complementary')
       .generate();

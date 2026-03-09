@@ -16,9 +16,9 @@ const DEFAULTS = {
   saturationEnd: 0,
   chromaStart: -10,
   chromaEnd: 10,
-  lightnessScaleType: 'linear',
-  saturationScaleType: 'linear',
-  hueScaleType: 'linear',
+  lightnessDistributionType: 'linear',
+  saturationDistributionType: 'linear',
+  hueDistributionType: 'linear',
 };
 
 /** Config fingerprint for grouping (everything except id/name/baseColor/swatches) */
@@ -32,9 +32,9 @@ function configFingerprint(ramp: ColorRampConfig): string {
     saturationEnd: ramp.saturationEnd,
     chromaStart: ramp.chromaStart,
     chromaEnd: ramp.chromaEnd,
-    lightnessScaleType: ramp.lightnessScaleType,
-    saturationScaleType: ramp.saturationScaleType,
-    hueScaleType: ramp.hueScaleType,
+    lightnessDistributionType: ramp.lightnessDistributionType,
+    saturationDistributionType: ramp.saturationDistributionType,
+    hueDistributionType: ramp.hueDistributionType,
     tintColor: ramp.tintColor,
     tintOpacity: ramp.tintOpacity,
     tintBlendMode: ramp.tintBlendMode,
@@ -163,14 +163,14 @@ function buildSdkOptions(ramp: ColorRampConfig): string {
   if (ramp.chromaStart !== DEFAULTS.chromaStart || ramp.chromaEnd !== DEFAULTS.chromaEnd) {
     chain += `\n  .hue(${ramp.chromaStart}, ${ramp.chromaEnd})`;
   }
-  if (ramp.lightnessScaleType && ramp.lightnessScaleType !== DEFAULTS.lightnessScaleType) {
-    chain += `\n  .lightnessScale('${ramp.lightnessScaleType}')`;
+  if (ramp.lightnessDistributionType && ramp.lightnessDistributionType !== DEFAULTS.lightnessDistributionType) {
+    chain += `\n  .lightnessDistribution('${ramp.lightnessDistributionType}')`;
   }
-  if (ramp.saturationScaleType && ramp.saturationScaleType !== DEFAULTS.saturationScaleType) {
-    chain += `\n  .saturationScale('${ramp.saturationScaleType}')`;
+  if (ramp.saturationDistributionType && ramp.saturationDistributionType !== DEFAULTS.saturationDistributionType) {
+    chain += `\n  .saturationDistribution('${ramp.saturationDistributionType}')`;
   }
-  if (ramp.hueScaleType && ramp.hueScaleType !== DEFAULTS.hueScaleType) {
-    chain += `\n  .hueScale('${ramp.hueScaleType}')`;
+  if (ramp.hueDistributionType && ramp.hueDistributionType !== DEFAULTS.hueDistributionType) {
+    chain += `\n  .hueDistribution('${ramp.hueDistributionType}')`;
   }
   if (ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0) {
     chain += `\n  .tint('${ramp.tintColor}', ${ramp.tintOpacity}, '${ramp.tintBlendMode || 'normal'}')`;
@@ -196,14 +196,14 @@ function buildCliFlags(ramp: ColorRampConfig): string {
   if (ramp.chromaStart !== DEFAULTS.chromaStart || ramp.chromaEnd !== DEFAULTS.chromaEnd) {
     flags += ` --hue ${ramp.chromaStart}:${ramp.chromaEnd}`;
   }
-  if (ramp.lightnessScaleType && ramp.lightnessScaleType !== DEFAULTS.lightnessScaleType) {
-    flags += ` --lightness-scale ${ramp.lightnessScaleType}`;
+  if (ramp.lightnessDistributionType && ramp.lightnessDistributionType !== DEFAULTS.lightnessDistributionType) {
+    flags += ` --lightness-distribution ${ramp.lightnessDistributionType}`;
   }
-  if (ramp.saturationScaleType && ramp.saturationScaleType !== DEFAULTS.saturationScaleType) {
-    flags += ` --saturation-scale ${ramp.saturationScaleType}`;
+  if (ramp.saturationDistributionType && ramp.saturationDistributionType !== DEFAULTS.saturationDistributionType) {
+    flags += ` --saturation-distribution ${ramp.saturationDistributionType}`;
   }
-  if (ramp.hueScaleType && ramp.hueScaleType !== DEFAULTS.hueScaleType) {
-    flags += ` --hue-scale ${ramp.hueScaleType}`;
+  if (ramp.hueDistributionType && ramp.hueDistributionType !== DEFAULTS.hueDistributionType) {
+    flags += ` --hue-distribution ${ramp.hueDistributionType}`;
   }
   if (ramp.tintColor && ramp.tintOpacity && ramp.tintOpacity > 0) {
     flags += ` --tint-color "${ramp.tintColor}" --tint-opacity ${ramp.tintOpacity}`;

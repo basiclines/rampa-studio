@@ -112,17 +112,17 @@ Hue shift in degrees (default: -10, 10).
 rampa('#3b82f6').hue(-30, 30).generate();
 ```
 
-#### `.lightnessScale(type)`, `.saturationScale(type)`, `.hueScale(type)`
+#### `.lightnessDistribution(type)`, `.saturationDistribution(type)`, `.hueDistribution(type)`
 
 Distribution curve for each channel (default: `linear`).
 
-Available scales: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`, `ease-in`, `ease-out`, `ease-in-out`
+Available distributions: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `logarithmic`, `powers-of-2`, `musical-ratio`, `cielab-uniform`, `ease-in`, `ease-out`, `ease-in-out`
 
 ```typescript
 rampa('#3b82f6')
-  .lightnessScale('fibonacci')
-  .saturationScale('ease-out')
-  .hueScale('golden-ratio')
+  .lightnessDistribution('fibonacci')
+  .saturationDistribution('ease-out')
+  .hueDistribution('golden-ratio')
   .generate();
 ```
 
@@ -323,7 +323,7 @@ import { rampa } from '@basiclines/rampa-sdk';
 const primary = rampa('#3b82f6')
   .size(10)
   .lightness(5, 95)
-  .saturationScale('ease-out')
+  .saturationDistribution('ease-out')
   .generate();
 
 const neutral = rampa('#64748b')
@@ -343,7 +343,7 @@ const danger = rampa('#ef4444')
 const palette = rampa('#3b82f6')
   .size(10)
   .lightness(5, 95)
-  .lightnessScale('ease-in-out')
+  .lightnessDistribution('ease-in-out')
   .add('complementary')
   .add('analogous')
   .generate();

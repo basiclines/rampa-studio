@@ -36,7 +36,7 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
   setPreviewScaleType,
 }) => {
   // Use a single value for all three scale types (default to lightness or linear)
-  const unifiedScaleType = ramp.lightnessScaleType || ramp.hueScaleType || ramp.saturationScaleType || 'linear';
+  const unifiedScaleType = ramp.lightnessDistributionType || ramp.hueDistributionType || ramp.saturationDistributionType || 'linear';
 
   // The scale type to use for preview (hovered or actual)
   const previewType = previewScaleType || unifiedScaleType;
@@ -64,17 +64,17 @@ const HSLPropertiesControl: React.FC<HSLPropertiesControlProps> = ({
       {/* Sliders */}
       <div className="flex flex-row w-full flex-1" style={{ minHeight: 200 }}>
         <HueSlider
-          ramp={{ ...ramp, hueScaleType: previewType }}
+          ramp={{ ...ramp, hueDistributionType: previewType }}
           onUpdate={onUpdate}
           className="flex-1 h-full"
         />
         <SaturationSlider
-          ramp={{ ...ramp, saturationScaleType: previewType }}
+          ramp={{ ...ramp, saturationDistributionType: previewType }}
           onUpdate={onUpdate}
           className="flex-1 h-full"
         />
         <LightnessSlider
-          ramp={{ ...ramp, lightnessScaleType: previewType }}
+          ramp={{ ...ramp, lightnessDistributionType: previewType }}
           onUpdate={onUpdate}
           className="flex-1 h-full"
         />

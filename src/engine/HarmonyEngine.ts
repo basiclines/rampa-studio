@@ -186,17 +186,17 @@ export const calculateEaseInOutPosition = (i: number, steps: number): number => 
 // Position calculation helper
 export const calculatePositions = (i: number, config: { 
   totalSteps: number; 
-  lightnessScaleType?: string; 
-  hueScaleType?: string; 
-  saturationScaleType?: string; 
+  lightnessDistributionType?: string; 
+  hueDistributionType?: string; 
+  saturationDistributionType?: string; 
 }) => {
-  const lightnessScale = config.lightnessScaleType || 'linear';
-  const hueScale = config.hueScaleType || 'linear';
-  const saturationScale = config.saturationScaleType || 'linear';
+  const lightnessDistribution = config.lightnessDistributionType || 'linear';
+  const hueDistribution = config.hueDistributionType || 'linear';
+  const saturationDistribution = config.saturationDistributionType || 'linear';
 
   return {
-    lightness: calculateScalePosition(i, config.totalSteps, lightnessScale),
-    hue: calculateScalePosition(i, config.totalSteps, hueScale),
-    saturation: calculateScalePosition(i, config.totalSteps, saturationScale)
+    lightness: calculateScalePosition(i, config.totalSteps, lightnessDistribution),
+    hue: calculateScalePosition(i, config.totalSteps, hueDistribution),
+    saturation: calculateScalePosition(i, config.totalSteps, saturationDistribution)
   };
 }; 

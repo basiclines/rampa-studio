@@ -77,8 +77,8 @@ Download from [GitHub Releases](https://github.com/basiclines/rampa-studio/relea
 # Generate a 10-color palette from blue
 rampa -C "#3b82f6"
 
-# Custom lightness range with Fibonacci scale
-rampa -C "#3b82f6" -L 10:90 --lightness-scale=fibonacci
+# Custom lightness range with Fibonacci distribution
+rampa -C "#3b82f6" -L 10:90 --lightness-distribution=fibonacci
 
 # Add complementary harmony ramp
 rampa -C "#3b82f6" --add=complementary
@@ -152,8 +152,8 @@ import { rampa } from '@basiclines/rampa-sdk';
 // Generate a 10-color palette from blue
 const result = rampa('#3b82f6').generate();
 
-// Custom lightness range with Fibonacci scale
-rampa('#3b82f6').lightness(10, 90).lightnessScale('fibonacci').generate();
+// Custom lightness range with Fibonacci distribution
+rampa('#3b82f6').lightness(10, 90).lightnessDistribution('fibonacci').generate();
 
 // Add complementary harmony ramp
 rampa('#3b82f6').add('complementary').generate();
@@ -213,7 +213,7 @@ Every CLI flag maps to an SDK method:
 | `-L 10:90` | `.lightness(10, 90)` |
 | `-S 80:20` | `.saturation(80, 20)` |
 | `-H -30:30` | `.hue(-30, 30)` |
-| `--lightness-scale=fibonacci` | `.lightnessScale('fibonacci')` |
+| `--lightness-distribution=fibonacci` | `.lightnessDistribution('fibonacci')` |
 | `--add=complementary` | `.add('complementary')` |
 | `--add=shift:45` | `.add('shift', 45)` |
 | `--tint-color="#FF0000" --tint-opacity=20 --tint-blend=multiply` | `.tint('#FF0000', 20, 'multiply')` |

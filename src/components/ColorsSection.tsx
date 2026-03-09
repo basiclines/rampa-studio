@@ -121,9 +121,9 @@ const ColorsSection: React.FC = () => {
               const config = (isSelected && previewScaleType)
                 ? {
                     ...ramp,
-                    lightnessScaleType: previewScaleType,
-                    hueScaleType: previewScaleType,
-                    saturationScaleType: previewScaleType,
+                    lightnessDistributionType: previewScaleType,
+                    hueDistributionType: previewScaleType,
+                    saturationDistributionType: previewScaleType,
                   }
                 : ramp;
               return (

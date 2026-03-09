@@ -19,7 +19,7 @@ export interface ColorRampConfig {
   tintOpacity?: number;
   tintBlendMode?: BlendMode;
   swatches: ColorSwatch[];
-  lightnessScaleType?: string;
-  hueScaleType?: string;
-  saturationScaleType?: string;
+  lightnessDistributionType?: string;
+  hueDistributionType?: string;
+  saturationDistributionType?: string;
 } 

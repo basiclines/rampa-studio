@@ -57,9 +57,9 @@ rampa -C "#3b82f6" --add=complementary -O css
 rampa -C "#3b82f6" -L 15:95 -S 100:20
 ```
 
-### Use Fibonacci distribution scale
+### Use Fibonacci distribution
 ```bash
-rampa -C "#3b82f6" --lightness-scale=fibonacci
+rampa -C "#3b82f6" --lightness-distribution=fibonacci
 ```
 
 ### Generate 5 colors with triadic harmony
@@ -79,9 +79,9 @@ rampa -C "#3b82f6" --size=5 --add=triadic -O css --name=brand
 | `--lightness` | `-L` | Lightness range (e.g., `15:95`) | 0:100 |
 | `--saturation` | `-S` | Saturation range (e.g., `100:20`) | 100:0 |
 | `--hue` | `-H` | Hue shift range (e.g., `-10:10`) | -10:10 |
-| `--lightness-scale` | - | Distribution scale for lightness | linear |
-| `--saturation-scale` | - | Distribution scale for saturation | linear |
-| `--hue-scale` | - | Distribution scale for hue | linear |
+| `--lightness-distribution` | - | Distribution curve for lightness | linear |
+| `--saturation-distribution` | - | Distribution curve for saturation | linear |
+| `--hue-distribution` | - | Distribution curve for hue | linear |
 | `--add` | - | Add harmony ramp | - |
 | `--tint-color` | - | Tint overlay color | - |
 | `--tint-opacity` | - | Tint opacity (0-100) | 10 |
