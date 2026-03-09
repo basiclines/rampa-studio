@@ -73,7 +73,7 @@
     await hero.line([kw(':root'), dim(' {')], { instant: true });
     await hero.line([dim('  '), comment('/* base */')], { instant: true });
     for (let i = 0; i < heroColors.length; i++) {
-      await hero.line([dim('  '), { text: '\u2588\u2588', className: `tt-swatch-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(heroColors[i]), dim(';')], { instant: true });
+      await hero.line([dim('  '), { text: '\u2588', className: `tt-swatch-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(heroColors[i]), dim(';')], { instant: true });
     }
     await hero.line(dim('}'), { instant: true });
     hero.cursor();
@@ -88,7 +88,7 @@
       await tt.line([kw(':root'), dim(' {')], { instant: true });
       for (let i = 0; i < palColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-pal-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(palColors[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588', className: `tt-pal-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(palColors[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -107,14 +107,14 @@
       await tt.line([dim('  '), comment('/* base */')], { instant: true });
       for (let i = 0; i < baseH.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-hb-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(baseH[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588', className: `tt-hb-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(baseH[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line('', { instant: true });
       await tt.line([dim('  '), comment('/* complementary */')], { instant: true });
       for (let i = 0; i < compH.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-hc-${i}` }, dim('  '), prop(`--comp-${i}`), dim(': '), val(compH[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588', className: `tt-hc-${i}` }, dim('  '), prop(`--comp-${i}`), dim(': '), val(compH[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -158,7 +158,7 @@
       await tt.line([kw(':root'), dim(' {')], { instant: true });
       for (let i = 0; i < csColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-cs-${i}` }, dim('  '), prop(`--space-${i}`), dim(': '), val(csColors[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588', className: `tt-cs-${i}` }, dim('  '), prop(`--space-${i}`), dim(': '), val(csColors[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -188,7 +188,7 @@
       await tt.line([comment('// → :root {')], { instant: true });
       for (let i = 0; i < palColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([comment(`//     `), { text: '\u2588\u2588', className: `tt-pal-${i}` }, comment(`  --base-${i}: ${palColors[i]};`)], { instant: true });
+        await tt.line([comment(`//     `), { text: '\u2588', className: `tt-pal-${i}` }, comment(`  --base-${i}: ${palColors[i]};`)], { instant: true });
       }
       await tt.line([comment('//   }')], { instant: true });
       tt.cursor();
@@ -205,7 +205,7 @@
       await tt.line('', { instant: true });
       for (let i = 0; i < csColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim(`ramp(${i + 1})  `), comment(`// → ${csColors[i]}`), { text: '  \u2588\u2588', className: `tt-cs-${i}` }], { instant: true });
+        await tt.line([dim(`ramp(${i + 1})  `), comment(`// → ${csColors[i]}`), { text: '  \u2588', className: `tt-cs-${i}` }], { instant: true });
       }
       tt.cursor();
     }

@@ -25,8 +25,8 @@ function copyToClipboard(text, button) {
 (function rotateInstall() {
   var el = document.getElementById('install-cmd');
   if (!el) return;
-  var DELAY = 4000;
-  var CHAR_MS = 30;
+  var DELAY = 12000;
+  var CHAR_MS = 15;
 
   function eraseAndType() {
     var oldText = INSTALL_CMDS[installIdx];

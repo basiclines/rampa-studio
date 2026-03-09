@@ -25,10 +25,10 @@ var currentTheme = getTheme();
 var ANCHOR_COLORS = currentTheme.anchors;
 var BG_HEX = currentTheme.bg;
 
-const GAP_PX = 0;
-const CUBE_PX = 60;
+const GAP_PX = 2;
+const CUBE_PX = 58;
 const CUBE_SCALE_ANIM = 0.5;
-const CUBE_SCALE_REST = 0.95;
+const CUBE_SCALE_REST = 1;
 const STAGGER = 0.08;
 const ROT_DUR = 2;
 const PAUSE = 16.0;
