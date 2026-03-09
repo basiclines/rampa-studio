@@ -165,7 +165,7 @@
     .tp-preset-dot { width: 12px; height: 12px; border-radius: 50%; box-shadow: 0 0 0 2px color-mix(in srgb, var(--n-0) 60%, transparent); margin-left: -3px; }
     .tp-preset-dot:first-child { margin-left: 0; }
     .tp-preset-name { font-size: 12px; color: color-mix(in srgb, var(--n-9) 60%, transparent); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .tp-preset.tp-active { background: color-mix(in srgb, var(--c-9-9) 30%, transparent); color: color-mix(in srgb, var(--c-9-9) 95%, transparent); }
+    .tp-preset.tp-active { background: var(--n-2); color: color-mix(in srgb, var(--c-9-9) 95%, transparent); }
     .tp-preset.tp-active .tp-preset-name { color: color-mix(in srgb, var(--n-9) 90%, transparent); }
 
     .tp-tabs { display: flex; gap: 4px; padding: 0 24px 12px; }
@@ -220,7 +220,7 @@
     /* Credits overlay */
     .credits-overlay {
       position: fixed; inset: 0; z-index: 10000;
-      background: #000; opacity: 0; visibility: hidden;
+      background: var(--n-0); opacity: 0; visibility: hidden;
       transition: opacity 0.8s ease, visibility 0.8s ease;
       display: flex; align-items: center; justify-content: center;
       overflow: hidden; cursor: default;
@@ -228,24 +228,24 @@
     .credits-overlay.active { opacity: 1; visibility: visible; }
 
     .credits-close {
-      position: fixed; top: 24px; right: 28px; z-index: 10001;
-      background: none; border: none; color: rgba(255,255,255,0.35);
+      position: absolute; top: 24px; right: 28px; z-index: 2;
+      background: none; border: none; color: var(--n-5);
       font-size: 14px; font-family: inherit; cursor: pointer;
       letter-spacing: 0.1em; text-transform: uppercase;
       transition: color 0.3s;
     }
-    .credits-close:hover { color: rgba(255,255,255,0.7); }
+    .credits-close:hover { color: var(--n-7); }
 
     .credits-viewport {
       position: relative; width: 100%; height: 100%;
       display: flex; justify-content: center;
-      overflow: hidden;
+      overflow: hidden; z-index: 1;
     }
 
     .credits-scroll {
       position: absolute; top: 100%;
       width: 600px; max-width: 90vw;
-      text-align: center; color: rgba(255,255,255,0.85);
+      text-align: center; color: var(--n-8);
       font-family: "Mona Sans", system-ui, sans-serif;
       padding-bottom: 100vh;
     }
@@ -253,48 +253,48 @@
     .credits-scroll .credits-title {
       font-size: 48px; font-weight: 700;
       letter-spacing: -0.02em; margin-bottom: 8px;
-      color: #fff;
+      color: var(--n-9);
     }
     .credits-scroll .credits-subtitle {
       font-size: 16px; font-weight: 400;
-      color: rgba(255,255,255,0.4);
+      color: var(--n-7);
       letter-spacing: 0.15em; text-transform: uppercase;
       margin-bottom: 80px;
     }
     .credits-scroll .credits-role {
       font-size: 12px; font-weight: 500;
-      color: rgba(255,255,255,0.35);
+      color: var(--n-5);
       letter-spacing: 0.2em; text-transform: uppercase;
       margin-top: 56px; margin-bottom: 12px;
     }
     .credits-scroll .credits-name {
       font-size: 28px; font-weight: 600;
-      color: rgba(255,255,255,0.9);
+      color: var(--n-9);
       margin-bottom: 4px;
     }
     .credits-scroll .credits-detail {
       font-size: 15px; font-weight: 400;
-      color: rgba(255,255,255,0.35);
+      color: var(--n-7);
       margin-bottom: 0;
     }
     .credits-scroll .credits-divider {
       width: 40px; height: 1px;
-      background: rgba(255,255,255,0.12);
+      background: var(--n-3);
       margin: 64px auto;
     }
     .credits-scroll .credits-thanks {
       font-size: 20px; font-weight: 500;
-      color: rgba(255,255,255,0.6);
+      color: var(--n-7);
       margin-top: 56px; margin-bottom: 24px;
     }
     .credits-scroll .credits-thanks-name {
       font-size: 18px; font-weight: 400;
-      color: rgba(255,255,255,0.45);
+      color: var(--n-9);
       margin-bottom: 8px;
     }
     .credits-scroll .credits-end {
       font-size: 14px; font-weight: 400;
-      color: rgba(255,255,255,0.25);
+      color: var(--n-5);
       margin-top: 80px; margin-bottom: 40px;
       letter-spacing: 0.15em; text-transform: uppercase;
     }
@@ -769,7 +769,7 @@
 
   <!-- Credits Overlay -->
   <div class="credits-overlay" id="credits-overlay">
-     <button class="credits-close" id="credits-close aria-label="Close credis">
+     <button class="credits-close" id="credits-close" aria-label="Close credits">
       <svg class="text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M5.72 5.72a.75.75 0 0 1 1.06 0L12 10.94l5.22-5.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L13.06 12l5.22 5.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L12 13.06l-5.22 5.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L10.94 12 5.72 6.78a.75.75 0 0 1 0-1.06Z"></path></svg>
     </button>
     <div class="credits-viewport">

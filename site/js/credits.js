@@ -4,7 +4,7 @@
   var trigger = document.getElementById('credits-trigger');
   var closeBtn = document.getElementById('credits-close');
 
-  if (!overlay || !scroll || !trigger) return;
+  if (!overlay || !scroll || !trigger || !closeBtn) return;
 
   var SPEED = 50; // pixels per second
   var animId = null;
@@ -24,11 +24,11 @@
     offset = elapsed * SPEED;
     scroll.style.transform = 'translateY(-' + offset + 'px)';
 
-    // Stop when all content has scrolled past the top
+    // Stop scrolling when content has fully passed, then auto-close after 2s
     var scrollHeight = scroll.offsetHeight;
     var viewportHeight = overlay.offsetHeight;
     if (offset > scrollHeight + viewportHeight * 0.2) {
-      close();
+      setTimeout(close, 2000);
       return;
     }
 
