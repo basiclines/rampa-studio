@@ -25,22 +25,22 @@
   var DEFAULTS = {
     foreground: '#0a0a0a',
     background: '#fafafa',
-    red:        '#ef4444',
-    green:      '#22c55e',
     blue:       '#3b82f6',
     cyan:       '#06b6d4',
-    magenta:    '#a855f7',
+    green:      '#22c55e',
     yellow:     '#eab308',
+    magenta:    '#a855f7',
+    red:        '#ef4444',
   };
 
   var GRID = 10;
   var HUES = [
-    { alias: 'r', key: 'red' },
-    { alias: 'g', key: 'green' },
     { alias: 'b', key: 'blue' },
     { alias: 'c', key: 'cyan' },
-    { alias: 'm', key: 'magenta' },
+    { alias: 'g', key: 'green' },
     { alias: 'y', key: 'yellow' },
+    { alias: 'm', key: 'magenta' },
+    { alias: 'r', key: 'red' },
   ];
 
   // -------------------------------------------------------------------
@@ -53,15 +53,15 @@
     var blocks = [];
 
     // Neutral ramp: --n-0 … --n-10
-    var neutral = new Rampa.LinearColorSpace(cfg.foreground, cfg.background).interpolation('oklch').distribution('ease-in').size(GRID);
-    blocks.push(neutral.toCSS('n'));
+    var neutral = new Rampa.LinearColorSpace(cfg.foreground, cfg.background).interpolation('lab').distribution('ease-in').size(GRID);
+    blocks.push(neutral.output('css', 'n'));
 
     // Hue planes: --{alias}-{sat}-{lgt}
     for (var h = 0; h < HUES.length; h++) {
       var alias = HUES[h].alias;
       var hueColor = cfg[HUES[h].key];
-      var plane = new Rampa.PlaneColorSpace(cfg.foreground, cfg.background, hueColor).interpolation('oklch').distribution('ease-in').size(GRID);
-      blocks.push(plane.toCSS(alias));
+      var plane = new Rampa.PlaneColorSpace(cfg.foreground, cfg.background, hueColor).interpolation('lab').distribution('ease-in').size(GRID);
+      blocks.push(plane.output('css', alias));
     }
 
     // Merge all :root blocks into one

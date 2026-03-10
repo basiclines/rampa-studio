@@ -2,21 +2,11 @@
 // Read anchor colors from Rampa theme (or fallback)
 // ==========================================
 (function() {
-var FALLBACK = {
-  foreground: '#0a0a0a',
-  background: '#fafafa',
-  red:     '#ef4444',
-  green:   '#22c55e',
-  blue:    '#3b82f6',
-  cyan:    '#06b6d4',
-  magenta: '#a855f7',
-  yellow:  '#eab308',
-};
 
 function getTheme(override) {
-  var src = override || (window.RampaTheme && window.RampaTheme.defaults) || FALLBACK;
+  var src = override || (window.RampaTheme && window.RampaTheme.defaults);
   return {
-    anchors: [src.red, src.green, src.blue, src.cyan, src.magenta, src.yellow],
+    anchors: [src.blue, src.cyan, src.green, src.yellow, src.red, src.magenta],
     bg: src.foreground,
   };
 }
@@ -77,7 +67,7 @@ function buildGrid(cols, rows) {
     var toHex = ANCHOR_COLORS[(seg + 1) % n];
     var segLen = toCol - fromCol;
     if (segLen <= 0) continue;
-    var ramp = new Rampa.LinearColorSpace(fromHex, toHex).interpolation('oklch').size(segLen);
+    var ramp = new Rampa.LinearColorSpace(fromHex, toHex).interpolation('lab').size(segLen);
     for (var j = 0; j < segLen; j++) {
       topRow[fromCol + j] = '' + ramp(j + 1);
     }
@@ -90,7 +80,7 @@ function buildGrid(cols, rows) {
   // 3. For each column, fade from top-row color → background
   grid = new Array(cols);
   for (var c = 0; c < cols; c++) {
-    var colRamp = new Rampa.LinearColorSpace(BG_HEX, topRow[c]).interpolation('oklch').distribution('ease-in-out').size(Math.max(rows, 2));
+    var colRamp = new Rampa.LinearColorSpace(BG_HEX, topRow[c]).interpolation('lab').distribution('ease-in-out').size(Math.max(rows, 2));
     grid[c] = new Array(rows);
     for (var r = 0; r < rows; r++) {
       grid[c][r] = hexToGL('' + colRamp(r + 1));
