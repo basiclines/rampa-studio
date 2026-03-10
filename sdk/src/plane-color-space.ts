@@ -106,8 +106,14 @@ export class PlaneColorSpace {
     Object.defineProperties(result, {
       palette: { value: palette, enumerable: true },
       size: { value: stepsPerAxis, enumerable: true },
-      toCSS: { value: (prefix?: string) => planeToCSS(palette, stepsPerAxis, prefix), enumerable: false },
-      toJSON: { value: (prefix?: string) => planeToJSON(palette, stepsPerAxis, prefix), enumerable: false },
+      output: { value: (format: string, prefix?: string) => {
+        switch (format) {
+          case 'css': return planeToCSS(palette, stepsPerAxis, prefix);
+          case 'json': return planeToJSON(palette, stepsPerAxis, prefix);
+          case 'text': return palette.join('\n');
+        }
+        return palette.join('\n');
+      }, enumerable: false },
     });
 
     return result;

@@ -9,11 +9,13 @@ function sanitizeName(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
-export function formatCssOutput(ramps: RampResult[]): string {
+export function formatCssOutput(ramps: RampResult[], prefix?: string): string {
   const lines: string[] = [':root {'];
 
   ramps.forEach((ramp, rampIndex) => {
-    const name = sanitizeName(ramp.name);
+    const name = prefix
+      ? (ramps.length === 1 ? sanitizeName(prefix) : `${sanitizeName(prefix)}-${sanitizeName(ramp.name)}`)
+      : sanitizeName(ramp.name);
     if (rampIndex > 0) lines.push('');
     lines.push(`  /* ${name} */`);
 

@@ -109,8 +109,14 @@ function buildFn(palette: string[], outputFormat: ColorFormat): LinearColorSpace
 
   fn.palette = palette;
   fn.size = palette.length;
-  fn.toCSS = (prefix?: string) => linearToCSS(palette, prefix);
-  fn.toJSON = (prefix?: string) => linearToJSON(palette, prefix);
+  fn.output = (format: string, prefix?: string) => {
+    switch (format) {
+      case 'css': return linearToCSS(palette, prefix);
+      case 'json': return linearToJSON(palette, prefix);
+      case 'text': return palette.join('\n');
+    }
+    return palette.join('\n');
+  };
 
   return fn;
 }

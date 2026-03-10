@@ -167,8 +167,14 @@ export class CubeColorSpace {
       cube,
       palette,
       size: stepsPerAxis,
-      toCSS: (prefix?: string) => cubeToCSS(palette, stepsPerAxis, prefix),
-      toJSON: (prefix?: string) => cubeToJSON(palette, stepsPerAxis, prefix),
+      output: (format: string, prefix?: string) => {
+        switch (format) {
+          case 'css': return cubeToCSS(palette, stepsPerAxis, prefix);
+          case 'json': return cubeToJSON(palette, stepsPerAxis, prefix);
+          case 'text': return palette.join('\n');
+        }
+        return palette.join('\n');
+      },
     };
 
     // Add per-corner shortcut: e.g. result.r = (index) => tint({ r: index })
