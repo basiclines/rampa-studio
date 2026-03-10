@@ -138,7 +138,8 @@ A pre-built browser bundle (`rampa-sdk.min.js`) is attached to every [GitHub Rel
 ```html
 <script src="https://github.com/basiclines/rampa-studio/releases/latest/download/rampa-sdk.min.js"></script>
 <script>
-  const palette = Rampa.rampa('#3b82f6').size(5).generate();
+  const palette = Rampa.rampa('#3b82f6').size(5);
+  console.log('' + palette(1));
   const linear = new Rampa.LinearColorSpace('#fff', '#000').size(10);
   console.log('' + linear(5));
 </script>
@@ -150,26 +151,28 @@ A pre-built browser bundle (`rampa-sdk.min.js`) is attached to every [GitHub Rel
 import { rampa } from '@basiclines/rampa-sdk';
 
 // Generate a 10-color palette from blue
-const result = rampa('#3b82f6').generate();
+const palette = rampa('#3b82f6');
+palette(1)         // first color (ColorAccessor)
+palette(5).hsl()   // format conversion
 
 // Custom lightness range with Fibonacci distribution
-rampa('#3b82f6').lightness(10, 90).lightnessDistribution('fibonacci').generate();
+rampa('#3b82f6').lightness(10, 90).lightnessDistribution('fibonacci');
 
 // Add complementary harmony ramp
-rampa('#3b82f6').add('complementary').generate();
+rampa('#3b82f6').add('complementary');
 
 // Add custom hue shift ramp (45 degrees)
-rampa('#3b82f6').add('shift', 45).generate();
+rampa('#3b82f6').add('shift', 45);
 
 // Output as CSS variables
-rampa('#3b82f6').toCSS();
+rampa('#3b82f6').output('css');
 
 // Apply a warm tint
-rampa('#3b82f6').tint('#FF6B00', 15, 'overlay').generate();
+rampa('#3b82f6').tint('#FF6B00', 15, 'overlay');
 
 // Color conversion (read-only)
-rampa.readOnly('#fe0000').generate();                  // All formats
-rampa.readOnly('#fe0000').format('hsl').generate();    // 'hsl(0, 100%, 50%)'
+rampa.readOnly('#fe0000');                             // All formats
+rampa.readOnly('#fe0000', 'hsl');                      // 'hsl(0, 100%, 50%)'
 rampa.convert('#fe0000', 'oklch');                     // 'oklch(62.8% 0.257 29)'
 
 // OKLCH color mixing
@@ -218,17 +221,17 @@ Every CLI flag maps to an SDK method:
 | `--add=shift:45` | `.add('shift', 45)` |
 | `--tint-color="#FF0000" --tint-opacity=20 --tint-blend=multiply` | `.tint('#FF0000', 20, 'multiply')` |
 | `-F oklch` | `.format('oklch')` |
-| `-O css` | `.toCSS()` |
-| `-O json` | `.toJSON()` |
-| `--read-only` | `rampa.readOnly('#fe0000').generate()` |
-| `--read-only -F hsl` | `rampa.readOnly('#fe0000').format('hsl').generate()` |
+| `-O css` | `.output('css')` |
+| `-O json` | `.output('json')` |
+| `--read-only` | `rampa.readOnly('#fe0000')` |
+| `--read-only -F hsl` | `rampa.readOnly('#fe0000', 'hsl')` |
 | `--mix "#0000ff" --steps=5` | `rampa.mix('#ff0000', '#0000ff', t)` |
 | `colorspace --linear '#fff' '#000' --size 24 --at 12` | `new LinearColorSpace('#fff', '#000').size(24)(12).hex` |
 | `colorspace --cube k=#000 ... --tint r:4` | `new CubeColorSpace({...}).size(6)({ r: 4 }).hex` |
 | `colorspace --linear ... --distribution ease-in` | `new LinearColorSpace(...).distribution('ease-in').size(24)` |
 | `lint --fg '#fff' --bg '#000'` | `rampa.contrast('#fff', '#000')` |
 | `lint --fg '#fff' --bg '#000' --mode wcag` | `rampa.contrast('#fff', '#000').mode('wcag')` |
-| `inspect -c '#ff6600'` | `rampa.readOnly('#ff6600').generate()` |
+| `inspect -c '#ff6600'` | `rampa.readOnly('#ff6600')` |
 
 ### Full SDK Documentation
 

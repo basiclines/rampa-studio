@@ -16,10 +16,11 @@ A pre-built browser bundle is available on every [GitHub Release](https://github
 <script src="https://github.com/basiclines/rampa-studio/releases/latest/download/rampa-sdk.min.js"></script>
 <script>
   // Everything is available under the global `Rampa` object
-  const palette = Rampa.rampa('#3b82f6').size(5).generate();
-  console.log(palette.ramps[0].colors);
+  const palette = Rampa.rampa('#3b82f6').size(5);
+  console.log('' + palette(1));   // first color
+  console.log(palette.palette);   // all colors
 
-  const css = Rampa.rampa('#3b82f6').toCSS();
+  const css = Rampa.rampa('#3b82f6').output('css');
   const mixed = Rampa.rampa.mix('#ff0000', '#0000ff', 0.5);
 
   const linear = new Rampa.LinearColorSpace('#ffffff', '#000000').size(10);
@@ -42,41 +43,49 @@ https://github.com/basiclines/rampa-studio/releases/download/v3.0.0/rampa-sdk.mi
 import { rampa } from '@basiclines/rampa-sdk';
 
 // Generate a 10-color palette from blue
-const result = rampa('#3b82f6').generate();
+const palette = rampa('#3b82f6');
+palette(1)            // first color (ColorAccessor)
+palette(5).oklch()    // format conversion
 
 // Custom size with lightness range
-const palette = rampa('#3b82f6').size(5).lightness(10, 90).generate();
+const custom = rampa('#3b82f6').size(5).lightness(10, 90);
+custom(3)             // third color
 
 // Add complementary harmony
-const harmonies = rampa('#3b82f6').add('complementary').generate();
+const harmonies = rampa('#3b82f6').add('complementary');
+harmonies.ramps       // [base, complementary]
 
 // Output as CSS variables
-const css = rampa('#3b82f6').toCSS();
+const css = rampa('#3b82f6').output('css');
 ```
 
 ## API
 
 ### `rampa(baseColor)`
 
-Creates a new builder for a color palette. Accepts any valid CSS color (hex, hsl, rgb, oklch, named colors).
+Creates a callable color palette. Accepts any valid CSS color (hex, hsl, rgb, oklch, named colors). All methods are chainable in any order, and the result is always callable with a 1-based index.
 
 ```typescript
-const builder = rampa('#3b82f6');
-const builder = rampa('rgb(59, 130, 246)');
-const builder = rampa('hsl(217, 91%, 60%)');
-const builder = rampa('oklch(62.3% 0.214 259)');
+const palette = rampa('#3b82f6');
+const palette = rampa('rgb(59, 130, 246)');
+const palette = rampa('hsl(217, 91%, 60%)');
+const palette = rampa('oklch(62.3% 0.214 259)');
+
+palette(1)           // first color
+palette(5).hsl()     // format conversion
+palette.palette      // string[] of all colors
 ```
 
 ### Builder Methods
 
-All builder methods return `this` for chaining.
+All builder methods return the same callable for chaining in any order.
 
 #### `.size(steps)`
 
 Number of colors in the palette (2-100, default: 10).
 
 ```typescript
-rampa('#3b82f6').size(5).generate();
+rampa('#3b82f6').size(5);
 ```
 
 #### `.format(type)`
@@ -84,8 +93,8 @@ rampa('#3b82f6').size(5).generate();
 Color format for output values: `hex`, `hsl`, `rgb`, `oklch` (default: `hex`).
 
 ```typescript
-rampa('#3b82f6').format('hsl').generate();
-// colors: ['hsl(0, 0%, 0%)', 'hsl(212, 69%, 25%)', ...]
+rampa('#3b82f6').format('hsl');
+// palette(1) → 'hsl(0, 0%, 0%)', palette(2) → 'hsl(212, 69%, 25%)', ...
 ```
 
 #### `.lightness(start, end)`
@@ -93,7 +102,7 @@ rampa('#3b82f6').format('hsl').generate();
 Lightness range 0-100 (default: 0, 100).
 
 ```typescript
-rampa('#3b82f6').lightness(10, 90).generate();
+rampa('#3b82f6').lightness(10, 90);
 ```
 
 #### `.saturation(start, end)`
@@ -101,7 +110,7 @@ rampa('#3b82f6').lightness(10, 90).generate();
 Saturation range 0-100 (default: 100, 0).
 
 ```typescript
-rampa('#3b82f6').saturation(80, 20).generate();
+rampa('#3b82f6').saturation(80, 20);
 ```
 
 #### `.hue(start, end)`
@@ -109,7 +118,7 @@ rampa('#3b82f6').saturation(80, 20).generate();
 Hue shift in degrees (default: -10, 10).
 
 ```typescript
-rampa('#3b82f6').hue(-30, 30).generate();
+rampa('#3b82f6').hue(-30, 30);
 ```
 
 #### `.lightnessDistribution(type)`, `.saturationDistribution(type)`, `.hueDistribution(type)`
@@ -122,8 +131,7 @@ Available distributions: `linear`, `geometric`, `fibonacci`, `golden-ratio`, `lo
 rampa('#3b82f6')
   .lightnessDistribution('fibonacci')
   .saturationDistribution('ease-out')
-  .hueDistribution('golden-ratio')
-  .generate();
+  .hueDistribution('golden-ratio');
 ```
 
 #### `.tint(color, opacity, blend?)`
@@ -138,8 +146,7 @@ Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lig
 
 ```typescript
 rampa('#3b82f6')
-  .tint('#FF0000', 15, 'overlay')
-  .generate();
+  .tint('#FF0000', 15, 'overlay');
 ```
 
 #### `.add(type)` / `.add('shift', degrees)`
@@ -159,69 +166,83 @@ Available harmony types:
 rampa('#3b82f6')
   .add('complementary')
   .add('triadic')
-  .add('shift', 45)
-  .generate();
+  .add('shift', 45);
 ```
 
-### Terminal Methods
+### Accessing Colors
 
-These methods execute the builder and return results.
-
-#### `.generate()`
-
-Returns a `RampaResult` object with all generated ramps.
+Call the palette with a 1-based index to get a `ColorAccessor`:
 
 ```typescript
-const result = rampa('#3b82f6').size(5).add('complementary').generate();
-// {
-//   ramps: [
-//     { name: 'base', baseColor: '#3b82f6', colors: ['#000000', '#143d6b', ...] },
-//     { name: 'complementary', baseColor: '#f6a43b', colors: ['#000000', '#6b4314', ...] }
-//   ]
-// }
+const palette = rampa('#3b82f6').size(5).lightness(10, 90);
+
+palette(1)           // ColorAccessor — first color
+palette(3).hsl()     // format conversion
+palette(5).oklch()   // any format
+`${palette(1)}`      // works in template literals
+
+palette.palette      // string[] of all colors
+palette.ramps        // RampResult[] (base + harmonies)
 ```
 
-#### `.toCSS()`
+### Output Methods
 
-Returns CSS custom properties string.
+#### `.output(format, prefix?)`
+
+Export the palette as `'css'`, `'json'`, or `'text'`. Optional `prefix` sets variable/ramp names (default: `'base'`).
 
 ```typescript
-const css = rampa('#3b82f6').size(5).toCSS();
+// CSS custom properties
+rampa('#3b82f6').size(5).output('css', 'primary');
 // :root {
-//   /* base */
-//   --base-0: #000000;
-//   --base-1: #143d6b;
-//   --base-2: #4572ba;
-//   --base-3: #b1b9ce;
-//   --base-4: #ffffff;
+//   /* primary */
+//   --primary-0: #000000;
+//   --primary-1: #143d6b;
+//   --primary-2: #4572ba;
+//   --primary-3: #b1b9ce;
+//   --primary-4: #ffffff;
 // }
-```
 
-#### `.toJSON()`
-
-Returns formatted JSON string.
-
-```typescript
-const json = rampa('#3b82f6').size(5).toJSON();
+// JSON
+rampa('#3b82f6').size(5).output('json', 'primary');
 // {
 //   "ramps": [
 //     {
-//       "name": "base",
+//       "name": "primary",
 //       "baseColor": "#3b82f6",
 //       "colors": ["#000000", "#143d6b", "#4572ba", "#b1b9ce", "#ffffff"]
 //     }
 //   ]
 // }
+
+// Plain text (one color per line)
+rampa('#3b82f6').size(5).output('text');
+// #000000
+// #143d6b
+// #4572ba
+// #b1b9ce
+// #ffffff
 ```
 
-### `rampa.readOnly(color)`
+#### `.ramps` / `.palette`
 
-Read a color without generating a ramp — equivalent to `--read-only` in the CLI. Returns a `ReadOnlyBuilder` with chainable `.format()` and terminal `.generate()`.
-
-Without a format, `.generate()` returns a `ColorInfo` object with all representations:
+Access the generated ramps and colors directly as properties:
 
 ```typescript
-rampa.readOnly('#fe0000').generate();
+const result = rampa('#3b82f6').size(5).add('complementary');
+result.palette                // base ramp colors: ['#000000', '#143d6b', ...]
+result.ramps                  // all ramps: [{ name: 'base', ... }, { name: 'complementary', ... }]
+result.ramps[1].colors        // complementary ramp colors
+```
+
+### `rampa.readOnly(color, format?)`
+
+Read a color without generating a ramp — equivalent to `--read-only` in the CLI. Returns color info directly.
+
+Without a format, returns a `ColorInfo` object with all representations:
+
+```typescript
+rampa.readOnly('#fe0000');
 // {
 //   hex: '#fe0000',
 //   rgb: { r: 254, g: 0, b: 0 },
@@ -230,12 +251,12 @@ rampa.readOnly('#fe0000').generate();
 // }
 ```
 
-With `.format()`, `.generate()` returns a formatted string:
+With a format, returns a formatted string:
 
 ```typescript
-rampa.readOnly('#fe0000').format('hsl').generate();   // 'hsl(0, 100%, 50%)'
-rampa.readOnly('#fe0000').format('rgb').generate();   // 'rgb(254, 0, 0)'
-rampa.readOnly('#fe0000').format('oklch').generate(); // 'oklch(62.8% 0.257 29)'
+rampa.readOnly('#fe0000', 'hsl');   // 'hsl(0, 100%, 50%)'
+rampa.readOnly('#fe0000', 'rgb');   // 'rgb(254, 0, 0)'
+rampa.readOnly('#fe0000', 'oklch'); // 'oklch(62.8% 0.257 29)'
 ```
 
 ### `rampa.convert(color, format)`
@@ -302,6 +323,7 @@ import type {
   HarmonyType,         // 'complementary' | 'triadic' | 'analogous' | ...
   RampResult,          // { name, baseColor, colors }
   RampaResult,         // { ramps: RampResult[] }
+  RampaFn,             // callable palette returned by rampa()
   ColorInfo,           // { hex, rgb, hsl, oklch } — returned by readOnly()
   InterpolationMode,   // 'oklch' | 'lab' | 'rgb'
   ColorResult,         // { hex, format(), toString() }
@@ -323,18 +345,20 @@ import { rampa } from '@basiclines/rampa-sdk';
 const primary = rampa('#3b82f6')
   .size(10)
   .lightness(5, 95)
-  .saturationDistribution('ease-out')
-  .generate();
+  .saturationDistribution('ease-out');
 
 const neutral = rampa('#64748b')
   .size(10)
-  .saturation(20, 0)
-  .generate();
+  .saturation(20, 0);
 
 const danger = rampa('#ef4444')
   .size(10)
-  .lightness(10, 90)
-  .generate();
+  .lightness(10, 90);
+
+// Access individual colors
+primary(5)         // mid-tone blue
+neutral(1)         // darkest gray
+danger(8).hsl()    // light red in HSL
 ```
 
 ### Full Palette with Harmonies
@@ -345,12 +369,11 @@ const palette = rampa('#3b82f6')
   .lightness(5, 95)
   .lightnessDistribution('ease-in-out')
   .add('complementary')
-  .add('analogous')
-  .generate();
+  .add('analogous');
 
-// palette.ramps[0] → base (blue)
-// palette.ramps[1] → complementary (orange)
-// palette.ramps[2] → analogous (purple)
+palette(1)          // first base color
+palette.ramps[1]    // complementary ramp
+palette.ramps[2]    // analogous ramp
 ```
 
 ### CSS Variables for a Theme
@@ -360,7 +383,7 @@ const theme = rampa('#3b82f6')
   .size(10)
   .add('complementary')
   .tint('#FFD700', 5, 'overlay')
-  .toCSS();
+  .output('css');
 
 // Inject into page
 const style = document.createElement('style');
@@ -376,11 +399,10 @@ import { writeFileSync } from 'fs';
 
 const colors = rampa('#3b82f6')
   .size(10)
-  .format('hsl')
-  .generate();
+  .format('hsl');
 
 // Write to a tokens file
-writeFileSync('tokens.json', JSON.stringify(colors, null, 2));
+writeFileSync('tokens.json', JSON.stringify({ colors: colors.palette }, null, 2));
 ```
 
 ## CLI Parity
@@ -394,7 +416,7 @@ rampa --color "#3b82f6" --size=5 --lightness 10:90 --add=complementary --output 
 
 ```typescript
 // SDK
-rampa('#3b82f6').size(5).lightness(10, 90).add('complementary').toJSON();
+rampa('#3b82f6').size(5).lightness(10, 90).add('complementary').output('json');
 ```
 
 ## Color Spaces

@@ -19,7 +19,7 @@ export class ReadOnlyBuilder {
     return this;
   }
 
-  generate(): ColorInfo | string {
+  get value(): ColorInfo | string {
     const c = chroma(this._color);
 
     if (this._format) {

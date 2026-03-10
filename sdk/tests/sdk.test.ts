@@ -2,9 +2,10 @@ import { describe, it, expect } from 'bun:test';
 import { rampa, RampaBuilder } from '../src/index';
 
 describe('rampa()', () => {
-  it('creates a RampaBuilder instance', () => {
-    const builder = rampa('#3b82f6');
-    expect(builder).toBeInstanceOf(RampaBuilder);
+  it('returns a callable RampaFn', () => {
+    const palette = rampa('#3b82f6');
+    expect(typeof palette).toBe('function');
+    expect(typeof palette.size).toBe('function');
   });
 
   it('throws on invalid color', () => {
@@ -12,17 +13,17 @@ describe('rampa()', () => {
   });
 });
 
-describe('RampaBuilder.generate()', () => {
+describe('ramp generation', () => {
   it('generates a default 10-color ramp', () => {
-    const result = rampa('#3b82f6').generate();
-    expect(result.ramps).toHaveLength(1);
-    expect(result.ramps[0].name).toBe('base');
-    expect(result.ramps[0].colors).toHaveLength(10);
+    const palette = rampa('#3b82f6');
+    expect(palette.ramps).toHaveLength(1);
+    expect(palette.ramps[0].name).toBe('base');
+    expect(palette.ramps[0].colors).toHaveLength(10);
   });
 
   it('respects custom size', () => {
-    const result = rampa('#3b82f6').size(5).generate();
-    expect(result.ramps[0].colors).toHaveLength(5);
+    const palette = rampa('#3b82f6').size(5);
+    expect(palette.ramps[0].colors).toHaveLength(5);
   });
 
   it('throws on invalid size', () => {
@@ -31,29 +32,29 @@ describe('RampaBuilder.generate()', () => {
   });
 
   it('generates hex colors by default', () => {
-    const result = rampa('#3b82f6').size(3).generate();
-    for (const color of result.ramps[0].colors) {
+    const palette = rampa('#3b82f6').size(3);
+    for (const color of palette.palette) {
       expect(color).toMatch(/^#[0-9a-f]{6}$/i);
     }
   });
 
   it('generates hsl colors when format is hsl', () => {
-    const result = rampa('#3b82f6').size(3).format('hsl').generate();
-    for (const color of result.ramps[0].colors) {
+    const palette = rampa('#3b82f6').size(3).format('hsl');
+    for (const color of palette.palette) {
       expect(color).toMatch(/^hsl\(/);
     }
   });
 
   it('generates rgb colors when format is rgb', () => {
-    const result = rampa('#3b82f6').size(3).format('rgb').generate();
-    for (const color of result.ramps[0].colors) {
+    const palette = rampa('#3b82f6').size(3).format('rgb');
+    for (const color of palette.palette) {
       expect(color).toMatch(/^rgb\(/);
     }
   });
 
   it('generates oklch colors when format is oklch', () => {
-    const result = rampa('#3b82f6').size(3).format('oklch').generate();
-    for (const color of result.ramps[0].colors) {
+    const palette = rampa('#3b82f6').size(3).format('oklch');
+    for (const color of palette.palette) {
       expect(color).toMatch(/^oklch\(/);
     }
   });
@@ -61,47 +62,47 @@ describe('RampaBuilder.generate()', () => {
 
 describe('lightness, saturation, hue', () => {
   it('accepts lightness range', () => {
-    const result = rampa('#3b82f6').size(3).lightness(20, 80).generate();
-    expect(result.ramps[0].colors).toHaveLength(3);
+    const palette = rampa('#3b82f6').size(3).lightness(20, 80);
+    expect(palette.palette).toHaveLength(3);
   });
 
   it('accepts saturation range', () => {
-    const result = rampa('#3b82f6').size(3).saturation(50, 50).generate();
-    expect(result.ramps[0].colors).toHaveLength(3);
+    const palette = rampa('#3b82f6').size(3).saturation(50, 50);
+    expect(palette.palette).toHaveLength(3);
   });
 
   it('accepts hue range', () => {
-    const result = rampa('#3b82f6').size(3).hue(-30, 30).generate();
-    expect(result.ramps[0].colors).toHaveLength(3);
+    const palette = rampa('#3b82f6').size(3).hue(-30, 30);
+    expect(palette.palette).toHaveLength(3);
   });
 });
 
 describe('distributions', () => {
   it('accepts lightness distribution', () => {
-    const result = rampa('#3b82f6').size(5).lightnessDistribution('fibonacci').generate();
-    expect(result.ramps[0].colors).toHaveLength(5);
+    const palette = rampa('#3b82f6').size(5).lightnessDistribution('fibonacci');
+    expect(palette.palette).toHaveLength(5);
   });
 
   it('accepts saturation distribution', () => {
-    const result = rampa('#3b82f6').size(5).saturationDistribution('ease-out').generate();
-    expect(result.ramps[0].colors).toHaveLength(5);
+    const palette = rampa('#3b82f6').size(5).saturationDistribution('ease-out');
+    expect(palette.palette).toHaveLength(5);
   });
 
   it('accepts hue distribution', () => {
-    const result = rampa('#3b82f6').size(5).hueDistribution('golden-ratio').generate();
-    expect(result.ramps[0].colors).toHaveLength(5);
+    const palette = rampa('#3b82f6').size(5).hueDistribution('golden-ratio');
+    expect(palette.palette).toHaveLength(5);
   });
 });
 
 describe('tinting', () => {
   it('applies tint color', () => {
-    const result = rampa('#3b82f6').size(3).tint('#FF0000', 20).generate();
-    expect(result.ramps[0].colors).toHaveLength(3);
+    const palette = rampa('#3b82f6').size(3).tint('#FF0000', 20);
+    expect(palette.palette).toHaveLength(3);
   });
 
   it('applies tint with blend mode', () => {
-    const result = rampa('#3b82f6').size(3).tint('#FF0000', 20, 'multiply').generate();
-    expect(result.ramps[0].colors).toHaveLength(3);
+    const palette = rampa('#3b82f6').size(3).tint('#FF0000', 20, 'multiply');
+    expect(palette.palette).toHaveLength(3);
   });
 
   it('throws on invalid tint color', () => {
@@ -111,48 +112,66 @@ describe('tinting', () => {
 
 describe('harmonies', () => {
   it('adds complementary harmony', () => {
-    const result = rampa('#3b82f6').size(5).add('complementary').generate();
-    expect(result.ramps).toHaveLength(2);
-    expect(result.ramps[1].name).toBe('complementary');
-    expect(result.ramps[1].colors).toHaveLength(5);
+    const palette = rampa('#3b82f6').size(5).add('complementary');
+    expect(palette.ramps).toHaveLength(2);
+    expect(palette.ramps[1].name).toBe('complementary');
+    expect(palette.ramps[1].colors).toHaveLength(5);
   });
 
   it('adds triadic harmony (2 extra ramps)', () => {
-    const result = rampa('#3b82f6').size(5).add('triadic').generate();
-    expect(result.ramps).toHaveLength(3);
-    expect(result.ramps[1].name).toBe('triadic-1');
-    expect(result.ramps[2].name).toBe('triadic-2');
+    const palette = rampa('#3b82f6').size(5).add('triadic');
+    expect(palette.ramps).toHaveLength(3);
+    expect(palette.ramps[1].name).toBe('triadic-1');
+    expect(palette.ramps[2].name).toBe('triadic-2');
   });
 
   it('adds shift harmony', () => {
-    const result = rampa('#3b82f6').size(5).add('shift', 45).generate();
-    expect(result.ramps).toHaveLength(2);
-    expect(result.ramps[1].name).toBe('shift-45');
+    const palette = rampa('#3b82f6').size(5).add('shift', 45);
+    expect(palette.ramps).toHaveLength(2);
+    expect(palette.ramps[1].name).toBe('shift-45');
   });
 
   it('adds multiple harmonies', () => {
-    const result = rampa('#3b82f6')
+    const palette = rampa('#3b82f6')
       .size(5)
       .add('complementary')
-      .add('shift', 90)
-      .generate();
-    expect(result.ramps).toHaveLength(3);
+      .add('shift', 90);
+    expect(palette.ramps).toHaveLength(3);
   });
 });
 
 describe('output formats', () => {
-  it('toCSS() returns valid CSS', () => {
-    const css = rampa('#3b82f6').size(3).toCSS();
+  it('output("css") returns valid CSS', () => {
+    const css = rampa('#3b82f6').size(3).output('css');
     expect(css).toContain(':root {');
     expect(css).toContain('--base-');
     expect(css).toContain('}');
   });
 
-  it('toJSON() returns valid JSON', () => {
-    const json = rampa('#3b82f6').size(3).toJSON();
+  it('output("css", prefix) uses prefix in variable names', () => {
+    const css = rampa('#3b82f6').size(3).output('css', 'primary');
+    expect(css).toContain('--primary-');
+    expect(css).not.toContain('--base-');
+  });
+
+  it('output("json") returns valid JSON', () => {
+    const json = rampa('#3b82f6').size(3).output('json');
     const parsed = JSON.parse(json);
     expect(parsed.ramps).toHaveLength(1);
     expect(parsed.ramps[0].colors).toHaveLength(3);
+  });
+
+  it('output("json", prefix) uses prefix as name', () => {
+    const json = rampa('#3b82f6').size(3).output('json', 'primary');
+    const parsed = JSON.parse(json);
+    expect(parsed.ramps[0].name).toBe('primary');
+  });
+
+  it('output("text") returns plain color list', () => {
+    const text = rampa('#3b82f6').size(3).output('text');
+    const lines = text.split('\n');
+    expect(lines).toHaveLength(3);
+    expect(lines[0]).toMatch(/^#[0-9a-f]{6}$/i);
   });
 });
 
@@ -180,7 +199,7 @@ describe('rampa.convert()', () => {
 
 describe('rampa.readOnly()', () => {
   it('returns all formats when no format specified', () => {
-    const result = rampa.readOnly('#fe0000').generate();
+    const result = rampa.readOnly('#fe0000');
     expect(result).toHaveProperty('hex');
     expect(result).toHaveProperty('rgb');
     expect(result).toHaveProperty('hsl');
@@ -191,22 +210,22 @@ describe('rampa.readOnly()', () => {
   });
 
   it('returns formatted string when format specified', () => {
-    const result = rampa.readOnly('#fe0000').format('hsl').generate();
+    const result = rampa.readOnly('#fe0000', 'hsl');
     expect(result).toBe('hsl(0, 100%, 50%)');
   });
 
   it('returns hex string when hex format specified', () => {
-    const result = rampa.readOnly('#fe0000').format('hex').generate();
+    const result = rampa.readOnly('#fe0000', 'hex');
     expect(result).toBe('#fe0000');
   });
 
   it('returns rgb string when rgb format specified', () => {
-    const result = rampa.readOnly('#fe0000').format('rgb').generate();
+    const result = rampa.readOnly('#fe0000', 'rgb');
     expect(result).toBe('rgb(254, 0, 0)');
   });
 
   it('returns oklch string when oklch format specified', () => {
-    const result = rampa.readOnly('#fe0000').format('oklch').generate();
+    const result = rampa.readOnly('#fe0000', 'oklch');
     expect(typeof result).toBe('string');
     expect(result as string).toMatch(/^oklch\(/);
   });
@@ -214,7 +233,7 @@ describe('rampa.readOnly()', () => {
 
 describe('method chaining', () => {
   it('supports full chaining', () => {
-    const result = rampa('#3b82f6')
+    const palette = rampa('#3b82f6')
       .size(8)
       .format('hsl')
       .lightness(10, 90)
@@ -224,12 +243,11 @@ describe('method chaining', () => {
       .saturationDistribution('linear')
       .hueDistribution('fibonacci')
       .tint('#FF6600', 15, 'overlay')
-      .add('complementary')
-      .generate();
+      .add('complementary');
 
-    expect(result.ramps).toHaveLength(2);
-    expect(result.ramps[0].colors).toHaveLength(8);
-    for (const color of result.ramps[0].colors) {
+    expect(palette.ramps).toHaveLength(2);
+    expect(palette.ramps[0].colors).toHaveLength(8);
+    for (const color of palette.ramps[0].colors) {
       expect(color).toMatch(/^hsl\(/);
     }
   });
@@ -275,5 +293,64 @@ describe('rampa.mix()', () => {
     const maxChannel = Math.max(r, g, b);
     const minChannel = Math.min(r, g, b);
     expect(maxChannel - minChannel).toBeGreaterThan(50);
+  });
+});
+
+describe('callable palette API', () => {
+  it('palette(n) returns a ColorAccessor', () => {
+    const palette = rampa('#3b82f6').size(5);
+    const color = palette(1);
+    expect(typeof color.toString()).toBe('string');
+    expect(color.toString()).toMatch(/^#[0-9a-f]{6}$/i);
+  });
+
+  it('supports format conversion on accessor', () => {
+    const palette = rampa('#3b82f6').size(5);
+    expect(palette(3).hsl()).toMatch(/^hsl\(/);
+    expect(palette(3).rgb()).toMatch(/^rgb\(/);
+    expect(palette(3).oklch()).toMatch(/^oklch\(/);
+    expect(palette(3).hex()).toMatch(/^#/);
+  });
+
+  it('clamps out-of-range indices', () => {
+    const palette = rampa('#3b82f6').size(5);
+    expect(palette(0).toString()).toBe(palette(1).toString());
+    expect(palette(99).toString()).toBe(palette(5).toString());
+  });
+
+  it('exposes .palette array', () => {
+    const palette = rampa('#3b82f6').size(5);
+    expect(palette.palette).toHaveLength(5);
+    expect(palette.palette[0]).toMatch(/^#/);
+  });
+
+  it('exposes .ramps with harmonies', () => {
+    const palette = rampa('#3b82f6').size(5).add('complementary');
+    expect(palette.ramps).toHaveLength(2);
+    expect(palette.ramps[0].name).toBe('base');
+  });
+
+  it('chains in any order', () => {
+    const a = rampa('#3b82f6').size(5).lightness(10, 90);
+    const b = rampa('#3b82f6').lightness(10, 90).size(5);
+    expect(a.palette).toEqual(b.palette);
+  });
+
+  it('works with template literals', () => {
+    const palette = rampa('#3b82f6').size(5);
+    const str = `${palette(1)}`;
+    expect(str).toMatch(/^#[0-9a-f]{6}$/i);
+  });
+
+  it('respects format setting', () => {
+    const palette = rampa('#3b82f6').format('hsl').size(5);
+    expect(palette(1).toString()).toMatch(/^hsl\(/);
+  });
+
+  it('has luminance on accessor', () => {
+    const palette = rampa('#3b82f6').size(5);
+    expect(typeof palette(1).luminance).toBe('number');
+    expect(palette(1).luminance).toBeGreaterThanOrEqual(0);
+    expect(palette(1).luminance).toBeLessThanOrEqual(1);
   });
 });

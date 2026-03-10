@@ -237,8 +237,9 @@ export function generateSdkExport(ramps: ColorRampConfig[]): string {
       }
     }
 
-    chain += `\n  .generate();`;
+    chain += `;`;
     lines.push(chain);
+    lines.push(`// Access colors: ${varName}(1), ${varName}(5), ${varName}.palette`);
     lines.push('');
   });
 
