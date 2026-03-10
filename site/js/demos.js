@@ -177,11 +177,9 @@
       await tt.line([dim('  .'), prop('lightness'), dim('('), num('95'), dim(', '), num('10'), dim(')')], { instant: true });
       await tt.wait(TICK);
       await tt.line([dim('  .'), prop('saturation'), dim('('), num('20'), dim(', '), num('100'), dim(')')], { instant: true });
-      await tt.wait(TICK);
-      await tt.line([dim('  .'), prop('generate'), dim('()')], { instant: true });
       await tt.wait(300);
       await tt.line('', { instant: true });
-      await tt.line([cmd('console'), dim('.'), prop('log'), dim('(palette.'), prop('css'), dim('())')], { instant: true });
+      await tt.line([dim('palette.'), prop('output'), dim('('), val('"css"'), dim(')')], { instant: true });
       await tt.wait(200);
       await tt.line('', { instant: true });
       await tt.line('', { instant: true });
@@ -239,33 +237,29 @@
     }
 
     async function runSdkContrast(tt) {
-      await tt.line([kw('import'), dim(' { '), val('contrast'), dim(' } '), kw('from'), val(' "@basiclines/rampa-sdk"')], { instant: true });
+      await tt.line([kw('import'), dim(' { '), val('rampa'), dim(' } '), kw('from'), val(' "@basiclines/rampa-sdk"')], { instant: true });
       await tt.wait(TICK);
       await tt.line('', { instant: true });
-      await tt.line([kw('const'), dim(' result = '), cmd('contrast'), dim('('), val('"#ffffff"'), dim(', '), val('"#1e1e2e"'), dim(')')], { instant: true });
-      await tt.wait(TICK);
-      await tt.line([dim('  .'), prop('mode'), dim('('), val('"apca"'), dim(')')], { instant: true });
-      await tt.wait(TICK);
-      await tt.line([dim('  .'), prop('check'), dim('()')], { instant: true });
+      await tt.line([kw('const'), dim(' result = '), cmd('rampa'), dim('.'), prop('contrast'), dim('('), val('"#ffffff"'), dim(', '), val('"#1e1e2e"'), dim(')')], { instant: true });
       await tt.wait(300);
       await tt.line('', { instant: true });
-      await tt.line('', { instant: true });
-      await tt.line([comment('// {')], { instant: true });
+      await tt.line([dim('result.'), prop('score'), dim('    '), comment('// -105.82')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//   score: -105.82,')], { instant: true });
+      await tt.line([dim('result.'), prop('pass'), dim('     '), comment('// true')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//   level: "preferred",')], { instant: true });
+      await tt.line([dim('result.'), prop('levels'), dim('   '), comment('// [')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//   passes: {')], { instant: true });
+      await tt.line([comment('//   { name: "Preferred body text", '), { text: 'pass: true', className: 'text-green' }, comment(' }')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     bodyText: '), { text: 'true', className: 'text-green' }], { instant: true });
+      await tt.line([comment('//   { name: "Body text", '), { text: 'pass: true', className: 'text-green' }, comment(' }')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     largeText: '), { text: 'true', className: 'text-green' }], { instant: true });
+      await tt.line([comment('//   { name: "Large text", '), { text: 'pass: true', className: 'text-green' }, comment(' }')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     nonText: '), { text: 'true', className: 'text-green' }], { instant: true });
+      await tt.line([comment('//   { name: "Non-text", '), { text: 'pass: true', className: 'text-green' }, comment(' }')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//   }')], { instant: true });
-      await tt.line([comment('// }')], { instant: true });
+      await tt.line([comment('// ]')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('result.'), prop('warnings'), dim(' '), comment('// ["Pure #ffffff…"]')], { instant: true });
       tt.cursor();
     }
 
