@@ -1,4 +1,4 @@
-import { RampaBuilder } from './builder';
+import { RampaBuilder, createRampaFn } from './builder';
 import { ReadOnlyBuilder } from './read-only';
 import { LinearColorSpace } from './linear-color-space';
 import { CubeColorSpace } from './cube-color-space';
@@ -14,6 +14,8 @@ import type {
   HarmonyType,
   RampResult,
   RampaResult,
+  RampaFn,
+  RampaOutputFormat,
   ColorInfo,
   InterpolationMode,
   ColorResult,
@@ -29,18 +31,25 @@ import type {
 } from './types';
 
 /**
- * Create a new color ramp builder from a base color.
+ * Create a new color ramp from a base color.
+ * Returns a callable palette — use `palette(n)` to access colors by 1-based index.
+ * All methods are chainable in any order.
  *
  * @example
  * ```ts
  * import { rampa } from '@basiclines/rampa-sdk';
  *
- * const result = rampa('#3b82f6').size(10).generate();
- * const css = rampa('#3b82f6').add('complementary').toCSS();
+ * const palette = rampa('#3b82f6').size(10).lightness(10, 90);
+ * palette(1)           // first color (ColorAccessor)
+ * palette(5).oklch()   // format conversion
+ * palette.palette      // all colors as string[]
+ *
+ * // Backward compatible
+ * const palette = rampa('#3b82f6').size(5);
  * ```
  */
-export function rampa(baseColor: string): RampaBuilder {
-  return new RampaBuilder(baseColor);
+export function rampa(baseColor: string): RampaFn {
+  return createRampaFn(new RampaBuilder(baseColor));
 }
 
 /**
@@ -55,12 +64,14 @@ rampa.convert = function convert(color: string, format: ColorFormat): string {
  *
  * @example
  * ```ts
- * rampa.readOnly('#fe0000').generate();              // ColorInfo with all formats
- * rampa.readOnly('#fe0000').format('hsl').generate(); // 'hsl(0, 100%, 50%)'
+ * rampa.readOnly('#fe0000')              // ColorInfo with all formats
+ * rampa.readOnly('#fe0000', 'hsl')       // 'hsl(0, 100%, 50%)'
  * ```
  */
-rampa.readOnly = function readOnly(color: string): ReadOnlyBuilder {
-  return new ReadOnlyBuilder(color);
+rampa.readOnly = function readOnly(color: string, format?: ColorFormat): ColorInfo | string {
+  const builder = new ReadOnlyBuilder(color);
+  if (format) builder.format(format);
+  return builder.value;
 };
 
 /**
@@ -116,7 +127,7 @@ export function color(hex: string): ColorResult {
   return createColorResult(hex);
 }
 
-export { RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder };
+export { RampaBuilder, createRampaFn, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder };
 export type {
   ColorFormat,
   OutputMode,
@@ -125,6 +136,8 @@ export type {
   HarmonyType,
   RampResult,
   RampaResult,
+  RampaFn,
+  RampaOutputFormat,
   ColorInfo,
   InterpolationMode,
   ColorResult,

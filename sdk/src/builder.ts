@@ -15,10 +15,14 @@ import type {
   BlendMode,
   HarmonyType,
   RampResult,
-  RampaResult,
+  RampaFn,
+  RampaOutputFormat,
+  ColorAccessor,
 } from './types';
 import { formatCssOutput } from './formatters/css';
 import { formatJsonOutput } from './formatters/json';
+import { formatTextOutput } from './formatters/text';
+import { createColorAccessor } from './color-result';
 
 interface HarmonyEntry {
   type: HarmonyType | 'shift';
@@ -148,7 +152,7 @@ export class RampaBuilder {
     };
   }
 
-  private formatColor(color: string): string {
+  formatColor(color: string): string {
     const c = chroma(color);
     switch (this._format) {
       case 'hsl': {
@@ -185,7 +189,7 @@ export class RampaBuilder {
     }
   }
 
-  private buildRamps(): RampResult[] {
+  buildRamps(): RampResult[] {
     const ramps: RampResult[] = [];
 
     // Base ramp
@@ -226,15 +230,79 @@ export class RampaBuilder {
     return ramps;
   }
 
-  generate(): RampaResult {
-    return { ramps: this.buildRamps() };
+  getFormat(): ColorFormat {
+    return this._format;
   }
 
-  toCSS(): string {
-    return formatCssOutput(this.buildRamps());
+  output(format: RampaOutputFormat, prefix?: string): string {
+    const ramps = this.buildRamps();
+    switch (format) {
+      case 'css': return formatCssOutput(ramps, prefix);
+      case 'json': return formatJsonOutput(ramps, prefix);
+      case 'text': return formatTextOutput(ramps);
+    }
+  }
+}
+
+/**
+ * Create a callable RampaFn that wraps a RampaBuilder.
+ * All builder methods are available for chaining in any order.
+ * Call the result with a 1-based index to access colors.
+ */
+export function createRampaFn(builder: RampaBuilder): RampaFn {
+  let cache: RampResult[] | null = null;
+
+  function ensureBuilt(): RampResult[] {
+    if (!cache) cache = builder.buildRamps();
+    return cache;
   }
 
-  toJSON(): string {
-    return formatJsonOutput(this.buildRamps());
-  }
+  function invalidate() { cache = null; }
+
+  const fn = ((index: number): ColorAccessor => {
+    const ramps = ensureBuilt();
+    const colors = ramps[0].colors;
+    const i = Math.max(1, Math.min(colors.length, index)) - 1;
+    return createColorAccessor(colors[i], builder.getFormat());
+  }) as unknown as RampaFn;
+
+  fn.size = (n: number) => { invalidate(); builder.size(n); return fn; };
+  fn.format = (fmt: ColorFormat) => { invalidate(); builder.format(fmt); return fn; };
+  fn.lightness = (s: number, e: number) => { invalidate(); builder.lightness(s, e); return fn; };
+  fn.saturation = (s: number, e: number) => { invalidate(); builder.saturation(s, e); return fn; };
+  fn.hue = (s: number, e: number) => { invalidate(); builder.hue(s, e); return fn; };
+  fn.lightnessDistribution = (scale: ScaleType) => { invalidate(); builder.lightnessDistribution(scale); return fn; };
+  fn.saturationDistribution = (scale: ScaleType) => { invalidate(); builder.saturationDistribution(scale); return fn; };
+  fn.hueDistribution = (scale: ScaleType) => { invalidate(); builder.hueDistribution(scale); return fn; };
+  fn.tint = (color: string, opacity: number, blend?: BlendMode) => {
+    invalidate();
+    builder.tint(color, opacity, blend ?? 'normal');
+    return fn;
+  };
+  fn.add = ((type: HarmonyType | 'shift', degrees?: number) => {
+    invalidate();
+    if (type === 'shift') builder.add(type, degrees!);
+    else builder.add(type);
+    return fn;
+  }) as RampaFn['add'];
+
+  fn.output = (format: RampaOutputFormat, prefix?: string) => {
+    const ramps = ensureBuilt();
+    switch (format) {
+      case 'css': return formatCssOutput(ramps, prefix);
+      case 'json': return formatJsonOutput(ramps, prefix);
+      case 'text': return formatTextOutput(ramps);
+    }
+  };
+
+  Object.defineProperty(fn, 'palette', {
+    get: () => ensureBuilt()[0].colors,
+    enumerable: true,
+  });
+  Object.defineProperty(fn, 'ramps', {
+    get: () => ensureBuilt(),
+    enumerable: true,
+  });
+
+  return fn;
 }

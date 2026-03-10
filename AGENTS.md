@@ -35,7 +35,7 @@ src/engine/          ← Core math (color mixing, interpolation, ramps)
   └── BlendingEngine.ts    16 blend modes for tinting
 
 sdk/src/             ← npm package (@basiclines/rampa-sdk)
-  ├── builder.ts           rampa('#hex').size(10).lightness(10,90).generate()
+  ├── builder.ts           rampa('#hex').size(10).lightness(10,90) → callable palette
   ├── linear-color-space.ts
   ├── plane-color-space.ts
   └── cube-color-space.ts

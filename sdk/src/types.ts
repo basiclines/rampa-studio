@@ -115,6 +115,45 @@ export interface ColorAccessor {
 
 export type OutputMode = 'css' | 'json';
 
+export type RampaOutputFormat = 'css' | 'json' | 'text';
+
+/**
+ * Callable palette returned by `rampa()`.
+ * Call with a 1-based index to get a color, or use builder methods to configure.
+ * All builder methods return the same callable for chaining in any order.
+ */
+export interface RampaFn {
+  /** Access a color by 1-based index from the base ramp */
+  (index: number): ColorAccessor;
+  /** Number of colors in the palette (2-100, default: 10) */
+  size(steps: number): RampaFn;
+  /** Color format for output: hex, hsl, rgb, oklch (default: hex) */
+  format(fmt: ColorFormat): RampaFn;
+  /** Lightness range 0-100 (default: 0, 100) */
+  lightness(start: number, end: number): RampaFn;
+  /** Saturation range 0-100 (default: 100, 0) */
+  saturation(start: number, end: number): RampaFn;
+  /** Hue shift in degrees (default: -10, 10) */
+  hue(start: number, end: number): RampaFn;
+  /** Lightness distribution curve */
+  lightnessDistribution(scale: ScaleType): RampaFn;
+  /** Saturation distribution curve */
+  saturationDistribution(scale: ScaleType): RampaFn;
+  /** Hue distribution curve */
+  hueDistribution(scale: ScaleType): RampaFn;
+  /** Apply a tint color over the palette */
+  tint(color: string, opacity: number, blend?: BlendMode): RampaFn;
+  /** Add a harmony ramp */
+  add(type: HarmonyType): RampaFn;
+  add(type: 'shift', degrees: number): RampaFn;
+  /** Export as css, json, or text. Optional prefix for variable names. */
+  output(format: RampaOutputFormat, prefix?: string): string;
+  /** Colors of the base ramp */
+  palette: string[];
+  /** All ramps (base + harmonies) */
+  ramps: RampResult[];
+}
+
 /**
  * The function signature returned by LinearColorSpace.
  * Call it with a 1-based index to get a color.
@@ -123,10 +162,8 @@ export interface LinearColorSpaceFn {
   (index: number): ColorAccessor;
   palette: string[];
   size: number;
-  /** Export as CSS custom properties: :root { --{prefix}-0: #...; ... } */
-  toCSS(prefix?: string): string;
-  /** Export as JSON: { name, colors } */
-  toJSON(prefix?: string): string;
+  /** Export as css, json, or text. Optional prefix for variable names. */
+  output(format: RampaOutputFormat, prefix?: string): string;
 }
 
 /**
@@ -146,12 +183,10 @@ export interface CubeColorSpaceResult {
   palette: string[];
   /** Steps per axis */
   size: number;
-  /** Export as CSS custom properties */
-  toCSS(prefix?: string): string;
-  /** Export as JSON */
-  toJSON(prefix?: string): string;
+  /** Export as css, json, or text. Optional prefix for variable names. */
+  output(format: RampaOutputFormat, prefix?: string): string;
   /** Per-corner shortcut functions, keyed by constructor key names */
-  [key: string]: ((index: number) => ColorAccessor) | string[] | number | ((query: Record<string, number>) => ColorAccessor) | ((x: number, y: number, z: number) => ColorAccessor) | ((prefix?: string) => string);
+  [key: string]: ((index: number) => ColorAccessor) | string[] | number | ((query: Record<string, number>) => ColorAccessor) | ((x: number, y: number, z: number) => ColorAccessor) | ((format: RampaOutputFormat, prefix?: string) => string);
 }
 
 /**
@@ -165,10 +200,8 @@ export interface PlaneColorSpaceResult {
   palette: string[];
   /** Steps per axis */
   size: number;
-  /** Export as CSS custom properties: :root { --{prefix}-{sat}-{lgt}: #...; ... } */
-  toCSS(prefix?: string): string;
-  /** Export as JSON */
-  toJSON(prefix?: string): string;
+  /** Export as css, json, or text. Optional prefix for variable names. */
+  output(format: RampaOutputFormat, prefix?: string): string;
 }
 
 // ── Contrast / Lint Types ──────────────────────────────────────────────
