@@ -47,7 +47,7 @@
     front.style.transform = 'translateX(-50%) scale(1.03) translateY(' + (positions[N - 1].y - 10) + 'px)';
     front.style.opacity = '0';
     front.style.zIndex = N + 1;
-    front.classList.add("material-thick")
+    front.classList.add("material-thick");
 
     // Shift remaining cards forward one slot
     for (var i = 0; i < cardOrder.length; i++) {

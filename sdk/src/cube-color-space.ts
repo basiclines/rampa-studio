@@ -3,7 +3,7 @@ import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
 import { cubeToCSS, cubeToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor, ScaleType } from './types';
+import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor, ScaleType, RampaOutputFormat } from './types';
 
 // The 8 cube corner positions in binary order.
 // Constructor keys map to these positions by their insertion order.
@@ -167,13 +167,13 @@ export class CubeColorSpace {
       cube,
       palette,
       size: stepsPerAxis,
-      output: (format: string, prefix?: string) => {
+      output: (format: RampaOutputFormat, prefix?: string) => {
         switch (format) {
           case 'css': return cubeToCSS(palette, stepsPerAxis, prefix);
           case 'json': return cubeToJSON(palette, stepsPerAxis, prefix);
           case 'text': return palette.join('\n');
+          default: throw new Error(`Unknown output format: ${format}`);
         }
-        return palette.join('\n');
       },
     };
 

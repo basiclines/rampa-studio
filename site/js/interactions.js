@@ -14,11 +14,16 @@ function copyToClipboard(text, button) {
     var copy = button.querySelector('[data-select="copy"]');
     var success = button.querySelector('[data-select="success"]');
     if (copy && success) {
-      success.classList.toggle("hidden")
-      copy.classList.toggle("hidden")
-      setTimeout(function () {
-        copy.classList.toggle("hidden")
-        success.classList.toggle("hidden")
+      if (button._copyIconTimeout) {
+        clearTimeout(button._copyIconTimeout);
+        button._copyIconTimeout = null;
+      }
+      success.classList.remove("hidden");
+      copy.classList.add("hidden");
+      button._copyIconTimeout = setTimeout(function () {
+        success.classList.add("hidden");
+        copy.classList.remove("hidden");
+        button._copyIconTimeout = null;
       }, 2000);
     }
   });
@@ -67,7 +72,7 @@ function copyToClipboard(text, button) {
       tabs.forEach(function (b) {
         b.classList.toggle('demo-tab-active', b.dataset.ctaTab === tab);
       });
-      cliPanel.style.display = tab === 'cli' ? 'grid' : 'none';
+      cliPanel.style.display = tab === 'cli' ? 'flex' : 'none';
       sdkPanel.style.display = tab === 'sdk' ? 'grid' : 'none';
     });
   });

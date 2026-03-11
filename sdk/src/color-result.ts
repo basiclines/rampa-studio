@@ -63,7 +63,7 @@ export function createColorAccessor(hex: string, outputFormat: ColorFormat): Col
   // Use a String object so typeof coercion and === with strings works naturally
   const accessor = new String(value) as unknown as ColorAccessor;
   Object.defineProperties(accessor, {
-    hex:       { value: () => hex,                  enumerable: false },
+    hex:       { value: () => c.hex(),               enumerable: false },
     hsl:       { value: () => formatColor('hsl'),   enumerable: false },
     rgb:       { value: () => formatColor('rgb'),   enumerable: false },
     oklch:     { value: () => formatColor('oklch'), enumerable: false },

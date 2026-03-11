@@ -3,7 +3,7 @@ import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
 import { planeToCSS, planeToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, PlaneColorSpaceResult, ColorAccessor, ScaleType } from './types';
+import type { ColorFormat, InterpolationMode, PlaneColorSpaceResult, ColorAccessor, ScaleType, RampaOutputFormat } from './types';
 
 /**
  * Create a 2D color plane from dark, light, and hue anchors.
@@ -106,13 +106,13 @@ export class PlaneColorSpace {
     Object.defineProperties(result, {
       palette: { value: palette, enumerable: true },
       size: { value: stepsPerAxis, enumerable: true },
-      output: { value: (format: string, prefix?: string) => {
+      output: { value: (format: RampaOutputFormat, prefix?: string) => {
         switch (format) {
           case 'css': return planeToCSS(palette, stepsPerAxis, prefix);
           case 'json': return planeToJSON(palette, stepsPerAxis, prefix);
           case 'text': return palette.join('\n');
+          default: throw new Error(`Unknown output format: ${format}`);
         }
-        return palette.join('\n');
       }, enumerable: false },
     });
 

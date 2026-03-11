@@ -240,6 +240,7 @@ export class RampaBuilder {
       case 'css': return formatCssOutput(ramps, prefix);
       case 'json': return formatJsonOutput(ramps, prefix);
       case 'text': return formatTextOutput(ramps);
+      default: throw new Error(`Unknown output format: ${format}`);
     }
   }
 }
