@@ -242,8 +242,20 @@
     panelOpen = false;
   }
 
-  trigger.addEventListener('click', openPanel);
+  trigger.addEventListener('click', function (e) {
+    e.stopPropagation();
+    openPanel();
+  });
   closeBtn.addEventListener('click', closePanel);
+
+  // Close picker when clicking outside overlay (but not on the hero canvas)
+  document.addEventListener('click', function (e) {
+    if (!panelOpen) return;
+    if (overlay.contains(e.target) || trigger.contains(e.target)) return;
+    var canvas = document.getElementById('c');
+    if (canvas && canvas.contains(e.target)) return;
+    closePanel();
+  });
 
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') closePanel();

@@ -652,6 +652,8 @@
       -moz-osx-font-smoothing: grayscale;
       overflow-x: hidden;
     }
+    ::selection { background: var(--b-9-5); }
+    ::-moz-selection { background: var(--b-9-5); }
     .mono { font-family: ui-monospace, 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace; }
     a { color: inherit; text-decoration: none; }
     pre, code { font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
@@ -963,7 +965,7 @@
         </button>
         <a href="/app" target="_blank" class="material-thin" style="pointer-events: auto; display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500;">Web editor</a>
       </div>
-      <div class="term-chrome material-thick r-hero-term" style="width: 720px; min-height: 402px;">
+      <div class="term-chrome material-thick r-hero-term" style="width: 720px; min-height: 402px; pointer-events: auto;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">rampa</span></div>
         <div id="demo-hero" class="typetype-container"></div>
       </div>
