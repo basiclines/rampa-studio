@@ -3,8 +3,21 @@
 // ==========================================
 (function() {
 
+function getThemeFromCSS() {
+  var s = getComputedStyle(document.documentElement);
+  return {
+    foreground: s.getPropertyValue('--n-0').trim(),
+    blue:       s.getPropertyValue('--b-9-9').trim(),
+    cyan:       s.getPropertyValue('--c-9-9').trim(),
+    green:      s.getPropertyValue('--g-9-9').trim(),
+    yellow:     s.getPropertyValue('--y-9-9').trim(),
+    magenta:    s.getPropertyValue('--m-9-9').trim(),
+    red:        s.getPropertyValue('--r-9-9').trim(),
+  };
+}
+
 function getTheme(override) {
-  var src = override || (window.RampaTheme && window.RampaTheme.defaults);
+  var src = override || (window.RampaTheme && window.RampaTheme.defaults) || getThemeFromCSS();
   return {
     anchors: [src.blue, src.cyan, src.green, src.yellow, src.red, src.magenta],
     bg: src.foreground,
