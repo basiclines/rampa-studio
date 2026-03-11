@@ -953,9 +953,9 @@
   <section class="r-section r-hero" style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 60px; position: relative; overflow: visible;">
     <canvas id="c" style="position: absolute; top: 0; left: 0; z-index: 0; display: block;"></canvas>
     <div style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; pointer-events: none;">
-      <h1 class="text-primary" style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; opacity: 0.95; text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent);">A color toolkit for AI agents and humans</h1>
-      <p style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 20px; color: color-mix(in srgb, var(--n-9) 80%, transparent); text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent);">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK and web editor available.</p>
-      <div class="r-hero-actions" style="display: flex; flex-direction: column; gap: 16px; margin-top: 60px; align-items: center; margin-bottom: 64px;">
+      <h1 class="text-primary hero-intro hero-intro-h1" style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; opacity: 0.95; text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent);">A color toolkit for AI agents and humans</h1>
+      <p class="hero-intro hero-intro-p" style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 20px; color: color-mix(in srgb, var(--n-9) 80%, transparent); text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent);">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK and web editor available.</p>
+      <div class="r-hero-actions hero-intro hero-intro-cta" style="display: flex; flex-direction: column; gap: 16px; margin-top: 60px; align-items: center; margin-bottom: 64px;">
         <button class="material-invert-thick" id="install-btn" onclick="copyInstallCmd(this)"
           style="pointer-events: auto; display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 16px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; min-width: 240px;"
         >
@@ -965,7 +965,7 @@
         </button>
         <a href="/app" target="_blank" class="material-thin" style="pointer-events: auto; display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500;">Web editor</a>
       </div>
-      <div class="term-chrome material-thick r-hero-term" style="width: 720px; min-height: 402px; pointer-events: auto;">
+      <div class="term-chrome material-thick r-hero-term hero-intro hero-intro-term" style="width: 720px; min-height: 402px; pointer-events: auto;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">rampa</span></div>
         <div id="demo-hero" class="typetype-container"></div>
       </div>

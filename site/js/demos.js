@@ -64,6 +64,7 @@
 
     // Hero terminal
     const hero = typetype('#demo-hero', { theme: 'dark' });
+    await hero.wait(1500);
     await hero.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), flag(' --size='), num('10'), flag(' -O'), val(' css')], { prefix: '$ ' });
     await hero.wait(500);
     await hero.line('Generating palette...', { instant: true, spinner: true, muted: true });

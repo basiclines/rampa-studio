@@ -1,4 +1,18 @@
 // ==========================================
+// Configuration
+// ==========================================
+const GAP_PX = 2;
+const CUBE_PX = 59;
+const CUBE_SCALE_ANIM = 0.5;
+const CUBE_SCALE_REST = 1;
+const STAGGER = 0.08;
+const ROT_DUR = 2;
+const PAUSE = 16.0;
+const INTRO_ROW_STAGGER = 0.06;
+const INTRO_FADE_DUR = 0.5;
+const INTRO_POST_PAUSE = 8.0;
+
+// ==========================================
 // Read anchor colors from Rampa theme (or fallback)
 // ==========================================
 (function() {
@@ -28,13 +42,8 @@ var currentTheme = getTheme();
 var ANCHOR_COLORS = currentTheme.anchors;
 var BG_HEX = currentTheme.bg;
 
-const GAP_PX = 2;
-const CUBE_PX = 58;
-const CUBE_SCALE_ANIM = 0.5;
-const CUBE_SCALE_REST = 1;
-const STAGGER = 0.08;
-const ROT_DUR = 2;
-const PAUSE = 16.0;
+let introComplete = false;
+let introEndTime = 0;
 
 function hexToGL(hex) {
   const h = hex.replace('#','');
@@ -58,6 +67,21 @@ let cachedRows = 0;
 // Steps between anchor colors (for face offset calculation)
 let faceStep = 1;
 
+// Cached anchor column positions for intro animation
+let cachedAnchorCols = [];
+let cachedSpacing = 1;
+
+function introReveal(col, row, elapsed) {
+  if (introComplete) return 1;
+
+  var delay = row * INTRO_ROW_STAGGER;
+
+  var p = (elapsed - delay) / INTRO_FADE_DUR;
+  if (p >= 1) return 1;
+  if (p <= 0) return 0;
+  return p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+}
+
 function buildGrid(cols, rows) {
   cachedCols = cols;
   cachedRows = rows;
@@ -66,10 +90,12 @@ function buildGrid(cols, rows) {
   var n = ANCHOR_COLORS.length;
   var spacing = cols / n;
   faceStep = Math.max(1, Math.floor(spacing));
+  cachedSpacing = spacing;
   var anchorCols = [];
   for (var i = 0; i < n; i++) {
     anchorCols.push(Math.round(i * spacing));
   }
+  cachedAnchorCols = anchorCols;
 
   // 2. Build top row by interpolating between anchors
   var topRow = new Array(cols);
@@ -315,10 +341,12 @@ function frame() {
   const cycleLen = ROT_DUR + PAUSE;
 
   // Update favicon when the top-left cube enters a new rotation cycle
-  const topLeftCycle = Math.floor(Math.max(0, now - startTime) / cycleLen);
-  if (topLeftCycle !== lastFaviconCycle) {
-    lastFaviconCycle = topLeftCycle;
-    if (window.updateFavicon) window.updateFavicon();
+  if (introComplete) {
+    const topLeftCycle = Math.floor(Math.max(0, now - introEndTime) / cycleLen);
+    if (topLeftCycle !== lastFaviconCycle) {
+      lastFaviconCycle = topLeftCycle;
+      if (window.updateFavicon) window.updateFavicon();
+    }
   }
 
   // Orthographic: 1 unit = 1 CSS pixel
@@ -331,13 +359,16 @@ function frame() {
 
   for (let r = 0; r < rows; r++) {
     for (let c = 0; c < cols; c++) {
-      // Each cube has its own continuous timeline
-      const del = (c + r) * STAGGER;
-      const cubeTime = Math.max(0, elapsed - del);
-      const cubeCycle = Math.floor(cubeTime / cycleLen);
-      const phase = (cubeTime - cubeCycle * cycleLen) / ROT_DUR;
-      const lt = Math.min(1, phase);
-      const t = ease(lt);
+      // Rotation only starts after intro completes + pause
+      let t = 0, cubeCycle = 0;
+      if (introComplete) {
+        const del = (c + r) * STAGGER;
+        const cubeTime = Math.max(0, now - introEndTime - INTRO_POST_PAUSE - del);
+        cubeCycle = Math.floor(cubeTime / cycleLen);
+        const phase = (cubeTime - cubeCycle * cycleLen) / ROT_DUR;
+        const lt = Math.min(1, phase);
+        t = ease(lt);
+      }
 
       // Press preview: scale/tilt the held cube while pressing
       let pressScale = 1, pressTiltX = 0;
@@ -389,10 +420,15 @@ function frame() {
       }
 
       // Each face picks a color stepped by faceStep along the grid columns.
+      var ip = introReveal(c, r, elapsed);
       for (let i = 0; i < 6; i++) {
         var fc_col = ((c + ((i + 2) % 6) * faceStep) % cols + cols) % cols;
         var fc = grid[fc_col] ? grid[fc_col][r] : BG_GL;
-        gl.uniform3f(uFC[i], fc[0], fc[1], fc[2]);
+        gl.uniform3f(uFC[i],
+          BG_GL[0] + (fc[0] - BG_GL[0]) * ip,
+          BG_GL[1] + (fc[1] - BG_GL[1]) * ip,
+          BG_GL[2] + (fc[2] - BG_GL[2]) * ip
+        );
       }
 
       const fi = cubeCycle % FR.length;
@@ -419,6 +455,16 @@ function frame() {
       gl.drawArrays(gl.TRIANGLES, 0, 36);
     }
   }
+
+  // Mark intro complete once all cubes are fully revealed
+  if (!introComplete) {
+    var maxDelay = (rows - 1) * INTRO_ROW_STAGGER + INTRO_FADE_DUR;
+    if (elapsed > maxDelay) {
+      introComplete = true;
+      introEndTime = now;
+    }
+  }
+
   requestAnimationFrame(frame);
 }
 glReady = true;
