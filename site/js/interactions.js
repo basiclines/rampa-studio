@@ -11,11 +11,19 @@ function copyInstallCmd(button) {
 
 function copyToClipboard(text, button) {
   navigator.clipboard.writeText(text).then(function () {
-    var svg = button.querySelector('svg');
-    if (svg) {
-      svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>';
-      setTimeout(function () {
-        svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>';
+    var copy = button.querySelector('[data-select="copy"]');
+    var success = button.querySelector('[data-select="success"]');
+    if (copy && success) {
+      if (button._copyIconTimeout) {
+        clearTimeout(button._copyIconTimeout);
+        button._copyIconTimeout = null;
+      }
+      success.classList.remove("hidden");
+      copy.classList.add("hidden");
+      button._copyIconTimeout = setTimeout(function () {
+        success.classList.add("hidden");
+        copy.classList.remove("hidden");
+        button._copyIconTimeout = null;
       }, 2000);
     }
   });
@@ -25,8 +33,8 @@ function copyToClipboard(text, button) {
 (function rotateInstall() {
   var el = document.getElementById('install-cmd');
   if (!el) return;
-  var DELAY = 4000;
-  var CHAR_MS = 30;
+  var DELAY = 12000;
+  var CHAR_MS = 15;
 
   function eraseAndType() {
     var oldText = INSTALL_CMDS[installIdx];
@@ -64,7 +72,7 @@ function copyToClipboard(text, button) {
       tabs.forEach(function (b) {
         b.classList.toggle('demo-tab-active', b.dataset.ctaTab === tab);
       });
-      cliPanel.style.display = tab === 'cli' ? 'grid' : 'none';
+      cliPanel.style.display = tab === 'cli' ? 'flex' : 'none';
       sdkPanel.style.display = tab === 'sdk' ? 'grid' : 'none';
     });
   });

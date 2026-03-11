@@ -5,15 +5,17 @@
  * Usage:
  *   <script src="rampa-sdk.min.js"></script>
  *   <script>
- *     const result = Rampa.rampa('#3b82f6').size(5).generate();
+ *     const palette = Rampa.rampa('#3b82f6').size(5);
+ *     console.log('' + palette(1));
  *   </script>
  */
-import { rampa, color, RampaBuilder, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder } from './index';
+import { rampa, color, RampaBuilder, createRampaFn, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder } from './index';
 
 const Rampa = {
   rampa,
   color,
   RampaBuilder,
+  createRampaFn,
   ReadOnlyBuilder,
   LinearColorSpace,
   CubeColorSpace,

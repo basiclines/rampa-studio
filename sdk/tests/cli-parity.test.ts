@@ -28,154 +28,153 @@ function extractHexColors(cliOutput: { ramps: { name: string; colors: { hex: str
 describe('SDK ↔ CLI parity', () => {
   it('default ramp: same colors for --color "#3b82f6" --size=5', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --output json');
-    const sdkResult = rampa('#3b82f6').size(5).generate();
+    const sdk = rampa('#3b82f6').size(5);
 
     const cliHexColors = extractHexColors(cliResult);
-    const sdkHexColors = sdkResult.ramps.map(r => r.colors);
+    const sdkHexColors = sdk.ramps.map(r => r.colors);
 
     expect(sdkHexColors).toEqual(cliHexColors);
   });
 
   it('default ramp: same colors for --color "#fe0000" --size=10', async () => {
     const cliResult = await runCli('--color #fe0000 --size=10 --output json');
-    const sdkResult = rampa('#fe0000').size(10).generate();
+    const sdk = rampa('#fe0000').size(10);
 
     const cliHexColors = extractHexColors(cliResult);
-    const sdkHexColors = sdkResult.ramps.map(r => r.colors);
+    const sdkHexColors = sdk.ramps.map(r => r.colors);
 
     expect(sdkHexColors).toEqual(cliHexColors);
   });
 
   it('custom lightness range: --lightness 10:90', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --lightness 10:90 --output json');
-    const sdkResult = rampa('#3b82f6').size(5).lightness(10, 90).generate();
+    const sdk = rampa('#3b82f6').size(5).lightness(10, 90);
 
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('custom saturation range: --saturation 80:20', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --saturation 80:20 --output json');
-    const sdkResult = rampa('#3b82f6').size(5).saturation(80, 20).generate();
+    const sdk = rampa('#3b82f6').size(5).saturation(80, 20);
 
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('custom hue range: --hue -30:30', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --hue=-30:30 --output json');
-    const sdkResult = rampa('#3b82f6').size(5).hue(-30, 30).generate();
+    const sdk = rampa('#3b82f6').size(5).hue(-30, 30);
 
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('fibonacci lightness distribution', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=8 --lightness-distribution fibonacci --output json');
-    const sdkResult = rampa('#3b82f6').size(8).lightnessDistribution('fibonacci').generate();
+    const sdk = rampa('#3b82f6').size(8).lightnessDistribution('fibonacci');
 
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('ease-in-out saturation distribution', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=8 --saturation-distribution ease-in-out --output json');
-    const sdkResult = rampa('#3b82f6').size(8).saturationDistribution('ease-in-out').generate();
+    const sdk = rampa('#3b82f6').size(8).saturationDistribution('ease-in-out');
 
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('tinting: --tint-color #FF0000 --tint-opacity 20', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --tint-color #FF0000 --tint-opacity 20 --output json');
-    const sdkResult = rampa('#3b82f6').size(5).tint('#FF0000', 20).generate();
+    const sdk = rampa('#3b82f6').size(5).tint('#FF0000', 20);
 
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('tinting with blend mode: --tint-blend multiply', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --tint-color #FF0000 --tint-opacity 30 --tint-blend multiply --output json');
-    const sdkResult = rampa('#3b82f6').size(5).tint('#FF0000', 30, 'multiply').generate();
+    const sdk = rampa('#3b82f6').size(5).tint('#FF0000', 30, 'multiply');
 
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('complementary harmony', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --add=complementary --output json');
-    const sdkResult = rampa('#3b82f6').size(5).add('complementary').generate();
+    const sdk = rampa('#3b82f6').size(5).add('complementary');
 
-    expect(sdkResult.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('triadic harmony', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --add=triadic --output json');
-    const sdkResult = rampa('#3b82f6').size(5).add('triadic').generate();
+    const sdk = rampa('#3b82f6').size(5).add('triadic');
 
-    expect(sdkResult.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('shift harmony: --add=shift:45', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --add=shift:45 --output json');
-    const sdkResult = rampa('#3b82f6').size(5).add('shift', 45).generate();
+    const sdk = rampa('#3b82f6').size(5).add('shift', 45);
 
-    expect(sdkResult.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('multiple harmonies: complementary + shift:90', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --add=complementary --add=shift:90 --output json');
-    const sdkResult = rampa('#3b82f6').size(5).add('complementary').add('shift', 90).generate();
+    const sdk = rampa('#3b82f6').size(5).add('complementary').add('shift', 90);
 
-    expect(sdkResult.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('combined: lightness + saturation + distribution + tint + harmony', async () => {
     const cliResult = await runCli('--color #e74c3c --size=8 --lightness 5:95 --saturation 90:10 --lightness-distribution golden-ratio --tint-color #0000FF --tint-opacity 10 --add=analogous --output json');
-    const sdkResult = rampa('#e74c3c')
+    const sdk = rampa('#e74c3c')
       .size(8)
       .lightness(5, 95)
       .saturation(90, 10)
       .lightnessDistribution('golden-ratio')
       .tint('#0000FF', 10)
-      .add('analogous')
-      .generate();
+      .add('analogous');
 
-    expect(sdkResult.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
-    expect(sdkResult.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
+    expect(sdk.ramps.map(r => r.name)).toEqual(cliResult.ramps.map(r => r.name));
+    expect(sdk.ramps.map(r => r.colors)).toEqual(extractHexColors(cliResult));
   });
 
   it('hsl format parity', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --format hsl --output json');
-    const sdkResult = rampa('#3b82f6').size(5).format('hsl').generate();
+    const sdk = rampa('#3b82f6').size(5).format('hsl');
 
     // CLI JSON with --format hsl returns structured {hsl: {h,s,l}} objects.
     // SDK returns formatted hsl() strings. Compare by converting CLI structured to strings.
     const cliHslStrings = cliResult.ramps.map(r =>
       r.colors.map((c: any) => `hsl(${c.hsl.h}, ${c.hsl.s}%, ${c.hsl.l}%)`)
     );
-    const sdkColors = sdkResult.ramps.map(r => r.colors);
+    const sdkColors = sdk.ramps.map(r => r.colors);
 
     expect(sdkColors).toEqual(cliHslStrings);
   });
 
   it('rgb format parity', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --format rgb --output json');
-    const sdkResult = rampa('#3b82f6').size(5).format('rgb').generate();
+    const sdk = rampa('#3b82f6').size(5).format('rgb');
 
     const cliRgbStrings = cliResult.ramps.map(r =>
       r.colors.map((c: any) => `rgb(${c.rgb.r}, ${c.rgb.g}, ${c.rgb.b})`)
     );
-    const sdkColors = sdkResult.ramps.map(r => r.colors);
+    const sdkColors = sdk.ramps.map(r => r.colors);
 
     expect(sdkColors).toEqual(cliRgbStrings);
   });
 
   it('oklch format parity', async () => {
     const cliResult = await runCli('--color #3b82f6 --size=5 --format oklch --output json');
-    const sdkResult = rampa('#3b82f6').size(5).format('oklch').generate();
+    const sdk = rampa('#3b82f6').size(5).format('oklch');
 
     const cliOklchStrings = cliResult.ramps.map(r =>
       r.colors.map((c: any) => `oklch(${c.oklch.l.toFixed(1)}% ${c.oklch.c.toFixed(3)} ${c.oklch.h})`)
     );
-    const sdkColors = sdkResult.ramps.map(r => r.colors);
+    const sdkColors = sdk.ramps.map(r => r.colors);
 
     expect(sdkColors).toEqual(cliOklchStrings);
   });
@@ -189,7 +188,7 @@ describe('SDK ↔ CLI parity', () => {
     await proc.exited;
     const cliResult = JSON.parse(text);
 
-    const sdkResult = rampa.readOnly('#fe0000').generate();
+    const sdkResult = rampa.readOnly('#fe0000');
 
     expect(sdkResult).toEqual(cliResult.color);
   });
@@ -203,7 +202,7 @@ describe('SDK ↔ CLI parity', () => {
     await proc.exited;
     const cliResult = JSON.parse(text);
 
-    const sdkResult = rampa.readOnly('#fe0000').format('hsl').generate();
+    const sdkResult = rampa.readOnly('#fe0000', 'hsl');
     // CLI returns { color: { value: "hsl(...)", hsl: {...} } }
     expect(sdkResult).toBe(cliResult.color.value);
   });

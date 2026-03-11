@@ -119,7 +119,11 @@
   var activePresetName = storedPresetName || null;
 
   function loadThemes() {
-    if (allThemes || themesLoading) return;
+    if (allThemes) {
+      highlightActive();
+      return;
+    }
+    if (themesLoading) return;
     themesLoading = true;
     fetch('js/ghostty-themes.json')
       .then(function (r) { return r.json(); })
@@ -128,6 +132,23 @@
         renderPresets('');
       })
       .catch(function () { themesLoading = false; });
+  }
+
+  function highlightActive() {
+    if (!activePresetName) return;
+    var items = presetList.querySelectorAll('.tp-preset');
+    for (var i = 0; i < items.length; i++) {
+      var name = items[i].querySelector('.tp-preset-name');
+      if (name && name.textContent === activePresetName) {
+        if (activePresetEl) activePresetEl.classList.remove('tp-active');
+        items[i].classList.add('tp-active');
+        activePresetEl = items[i];
+        (function (target) {
+          setTimeout(function () { target.scrollIntoView({ block: 'center' }); }, 200);
+        })(items[i]);
+        break;
+      }
+    }
   }
 
   function selectPresetEl(el) {
@@ -175,7 +196,7 @@
         el.classList.add('tp-active');
         activePresetEl = el;
         (function (target) {
-          setTimeout(function () { target.scrollIntoView({ block: 'nearest' }); }, 50);
+          setTimeout(function () { target.scrollIntoView({ block: 'center' }); }, 200);
         })(el);
       }
     }
@@ -221,8 +242,20 @@
     panelOpen = false;
   }
 
-  trigger.addEventListener('click', openPanel);
+  trigger.addEventListener('click', function (e) {
+    e.stopPropagation();
+    openPanel();
+  });
   closeBtn.addEventListener('click', closePanel);
+
+  // Close picker when clicking outside overlay (but not on the hero canvas)
+  document.addEventListener('click', function (e) {
+    if (!panelOpen) return;
+    if (overlay.contains(e.target) || trigger.contains(e.target)) return;
+    var canvas = document.getElementById('c');
+    if (canvas && canvas.contains(e.target)) return;
+    closePanel();
+  });
 
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') closePanel();

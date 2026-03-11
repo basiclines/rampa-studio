@@ -19,9 +19,9 @@ describe('vanilla entry point', () => {
 
   it('rampa generates a palette', async () => {
     const R = (globalThis as any).Rampa;
-    const result = R.rampa('#3b82f6').size(5).generate();
-    expect(result.ramps).toBeDefined();
-    expect(result.ramps[0].colors).toHaveLength(5);
+    const palette = R.rampa('#3b82f6').size(5);
+    expect(palette.ramps).toBeDefined();
+    expect(palette.ramps[0].colors).toHaveLength(5);
   });
 
   it('color spaces work', async () => {

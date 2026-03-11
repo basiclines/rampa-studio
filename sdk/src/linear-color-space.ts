@@ -3,7 +3,7 @@ import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
 import { createColorAccessor, validateSameFormat } from './color-result';
 import { linearToCSS, linearToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor, ScaleType } from './types';
+import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor, ScaleType, RampaOutputFormat } from './types';
 
 /**
  * Create a linear color space.
@@ -109,8 +109,14 @@ function buildFn(palette: string[], outputFormat: ColorFormat): LinearColorSpace
 
   fn.palette = palette;
   fn.size = palette.length;
-  fn.toCSS = (prefix?: string) => linearToCSS(palette, prefix);
-  fn.toJSON = (prefix?: string) => linearToJSON(palette, prefix);
+  fn.output = (format: RampaOutputFormat, prefix?: string) => {
+    switch (format) {
+      case 'css': return linearToCSS(palette, prefix);
+      case 'json': return linearToJSON(palette, prefix);
+      case 'text': return palette.join('\n');
+      default: throw new Error(`Unknown output format: ${format}`);
+    }
+  };
 
   return fn;
 }

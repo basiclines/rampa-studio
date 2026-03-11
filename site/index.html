@@ -9,19 +9,22 @@
   <meta property="og:description" content="One tool generates palettes, analyzes contrast, mixes colors, and exports to any format. No plugins, no dependencies.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rampa.design/">
+  <meta property="og:image" content="https://rampa.design/assets/preview.png">
+  <meta property="og:image:width" content="1400">
+  <meta property="og:image:height" content="960">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rampa — A color toolkit for AI agents and humans">
+  <meta name="twitter:description" content="One tool generates palettes, analyzes contrast, mixes colors, and exports to any format. No plugins, no dependencies.">
+  <meta name="twitter:image" content="https://rampa.design/assets/preview.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/@adrianmg/typetype@0.1.0/dist/style.css">
+  <link rel="stylesheet" href="js/typetype.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <script src="js/rampa-sdk.min.js"></script>
-  <script type="module">
-    import { typetype } from 'https://unpkg.com/@adrianmg/typetype@0.1.0/dist/index.js';
-    window.typetype = typetype;
-    window.dispatchEvent(new Event('typetype-ready'));
-  </script>
+  <script src="js/typetype.bundle.js"></script>
   <script src="js/theme.js" defer></script>
   <script src="js/interactions.js" defer></script>
   <script src="js/hero-cubes.js" defer></script>
@@ -30,6 +33,619 @@
   <script src="js/skills-stack.js" defer></script>
   <script src="js/demos.js" defer></script>
   <script src="js/credits.js" defer></script>
+  <style id="rampa-theme">
+  :root {
+  --n-0: #0a0a0a;
+  --n-1: #0e0e0e;
+  --n-2: #161616;
+  --n-3: #222222;
+  --n-4: #343434;
+  --n-5: #4c4c4c;
+  --n-6: #6b6b6b;
+  --n-7: #929292;
+  --n-8: #c1c1c1;
+  --n-9: #fafafa;
+  --b-0-0: #0a0a0a;
+  --b-0-1: #0e0e0e;
+  --b-0-2: #161616;
+  --b-0-3: #222222;
+  --b-0-4: #343434;
+  --b-0-5: #4c4c4c;
+  --b-0-6: #6b6b6b;
+  --b-0-7: #929292;
+  --b-0-8: #c1c1c1;
+  --b-0-9: #fafafa;
+  --b-1-0: #0a0a0a;
+  --b-1-1: #0e0e0e;
+  --b-1-2: #161616;
+  --b-1-3: #222222;
+  --b-1-4: #333334;
+  --b-1-5: #4b4b4c;
+  --b-1-6: #6a6a6b;
+  --b-1-7: #919192;
+  --b-1-8: #c0c0c1;
+  --b-1-9: #f8f8fa;
+  --b-2-0: #0a0a0a;
+  --b-2-1: #0e0e0e;
+  --b-2-2: #161616;
+  --b-2-3: #222222;
+  --b-2-4: #333334;
+  --b-2-5: #4a4a4c;
+  --b-2-6: #68696b;
+  --b-2-7: #8e8f92;
+  --b-2-8: #bcbdc1;
+  --b-2-9: #f3f4fa;
+  --b-3-0: #0a0a0a;
+  --b-3-1: #0e0e0e;
+  --b-3-2: #161616;
+  --b-3-3: #212122;
+  --b-3-4: #313234;
+  --b-3-5: #48484c;
+  --b-3-6: #65666b;
+  --b-3-7: #898a92;
+  --b-3-8: #b5b7c1;
+  --b-3-9: #eaecfa;
+  --b-4-0: #0a0a0a;
+  --b-4-1: #0e0e0e;
+  --b-4-2: #151616;
+  --b-4-3: #202022;
+  --b-4-4: #2f3034;
+  --b-4-5: #45464c;
+  --b-4-6: #60616b;
+  --b-4-7: #828492;
+  --b-4-8: #acafc1;
+  --b-4-9: #dde1fa;
+  --b-5-0: #0a0a0a;
+  --b-5-1: #0d0d0e;
+  --b-5-2: #151516;
+  --b-5-3: #1f1f22;
+  --b-5-4: #2d2e34;
+  --b-5-5: #40424c;
+  --b-5-6: #5a5c6b;
+  --b-5-7: #797d92;
+  --b-5-8: #9fa4c1;
+  --b-5-9: #ccd3fa;
+  --b-6-0: #0a0a0a;
+  --b-6-1: #0d0d0e;
+  --b-6-2: #141416;
+  --b-6-3: #1d1e22;
+  --b-6-4: #2a2b34;
+  --b-6-5: #3b3e4c;
+  --b-6-6: #51566b;
+  --b-6-7: #6d7392;
+  --b-6-8: #8e97c1;
+  --b-6-9: #b6c2fa;
+  --b-7-0: #0a0a0a;
+  --b-7-1: #0d0d0e;
+  --b-7-2: #131416;
+  --b-7-3: #1b1c22;
+  --b-7-4: #262834;
+  --b-7-5: #35394c;
+  --b-7-6: #474e6b;
+  --b-7-7: #5e6991;
+  --b-7-8: #7a89c1;
+  --b-7-9: #9aaff9;
+  --b-8-0: #0a0a0a;
+  --b-8-1: #0c0d0e;
+  --b-8-2: #121316;
+  --b-8-3: #191a22;
+  --b-8-4: #222534;
+  --b-8-5: #2d334c;
+  --b-8-6: #3b466a;
+  --b-8-7: #4c5d91;
+  --b-8-8: #5f78c0;
+  --b-8-9: #7699f8;
+  --b-9-0: #0a0a0a;
+  --b-9-1: #0c0c0e;
+  --b-9-2: #111116;
+  --b-9-3: #161822;
+  --b-9-4: #1c2134;
+  --b-9-5: #232d4b;
+  --b-9-6: #2a3d6a;
+  --b-9-7: #315090;
+  --b-9-8: #3767bf;
+  --b-9-9: #3b82f6;
+  --c-0-0: #0a0a0a;
+  --c-0-1: #0e0e0e;
+  --c-0-2: #161616;
+  --c-0-3: #222222;
+  --c-0-4: #343434;
+  --c-0-5: #4c4c4c;
+  --c-0-6: #6b6b6b;
+  --c-0-7: #929292;
+  --c-0-8: #c1c1c1;
+  --c-0-9: #fafafa;
+  --c-1-0: #0a0a0a;
+  --c-1-1: #0e0e0e;
+  --c-1-2: #161616;
+  --c-1-3: #222222;
+  --c-1-4: #333434;
+  --c-1-5: #4b4c4c;
+  --c-1-6: #6a6b6b;
+  --c-1-7: #919192;
+  --c-1-8: #c0c1c1;
+  --c-1-9: #f8f9fa;
+  --c-2-0: #0a0a0a;
+  --c-2-1: #0e0e0e;
+  --c-2-2: #161616;
+  --c-2-3: #222222;
+  --c-2-4: #333333;
+  --c-2-5: #4a4b4b;
+  --c-2-6: #686a6a;
+  --c-2-7: #8e9091;
+  --c-2-8: #bbbfc0;
+  --c-2-9: #f2f7f8;
+  --c-3-0: #0a0a0a;
+  --c-3-1: #0e0e0e;
+  --c-3-2: #161616;
+  --c-3-3: #212222;
+  --c-3-4: #313333;
+  --c-3-5: #474a4b;
+  --c-3-6: #646869;
+  --c-3-7: #888e90;
+  --c-3-8: #b3bbbe;
+  --c-3-9: #e7f2f6;
+  --c-4-0: #0a0a0a;
+  --c-4-1: #0d0e0e;
+  --c-4-2: #151616;
+  --c-4-3: #202122;
+  --c-4-4: #2f3233;
+  --c-4-5: #44494a;
+  --c-4-6: #5e6668;
+  --c-4-7: #808b8e;
+  --c-4-8: #a9b8bc;
+  --c-4-9: #d9edf3;
+  --c-5-0: #0a0a0a;
+  --c-5-1: #0d0e0e;
+  --c-5-2: #151616;
+  --c-5-3: #1e2121;
+  --c-5-4: #2c3132;
+  --c-5-5: #3f4749;
+  --c-5-6: #576366;
+  --c-5-7: #75868b;
+  --c-5-8: #9ab2b8;
+  --c-5-9: #c5e5ee;
+  --c-6-0: #0a0a0a;
+  --c-6-1: #0d0d0e;
+  --c-6-2: #141516;
+  --c-6-3: #1c2021;
+  --c-6-4: #292f31;
+  --c-6-5: #394448;
+  --c-6-6: #4e6064;
+  --c-6-7: #688289;
+  --c-6-8: #88abb5;
+  --c-6-9: #addce9;
+  --c-7-0: #0a0a0a;
+  --c-7-1: #0d0d0e;
+  --c-7-2: #131516;
+  --c-7-3: #1a1f20;
+  --c-7-4: #242e30;
+  --c-7-5: #324246;
+  --c-7-6: #435b62;
+  --c-7-7: #587c85;
+  --c-7-8: #71a3b0;
+  --c-7-9: #8ed1e3;
+  --c-8-0: #0a0a0a;
+  --c-8-1: #0c0d0d;
+  --c-8-2: #111415;
+  --c-8-3: #181e20;
+  --c-8-4: #1f2c2f;
+  --c-8-5: #293e44;
+  --c-8-6: #345660;
+  --c-8-7: #427482;
+  --c-8-8: #5299ab;
+  --c-8-9: #64c4dc;
+  --c-9-0: #0a0a0a;
+  --c-9-1: #0c0d0d;
+  --c-9-2: #101415;
+  --c-9-3: #151d1f;
+  --c-9-4: #192a2e;
+  --c-9-5: #1e3b42;
+  --c-9-6: #22515c;
+  --c-9-7: #236d7d;
+  --c-9-8: #1f8ea5;
+  --c-9-9: #06b6d4;
+  --g-0-0: #0a0a0a;
+  --g-0-1: #0e0e0e;
+  --g-0-2: #161616;
+  --g-0-3: #222222;
+  --g-0-4: #343434;
+  --g-0-5: #4c4c4c;
+  --g-0-6: #6b6b6b;
+  --g-0-7: #929292;
+  --g-0-8: #c1c1c1;
+  --g-0-9: #fafafa;
+  --g-1-0: #0a0a0a;
+  --g-1-1: #0e0e0e;
+  --g-1-2: #161616;
+  --g-1-3: #222222;
+  --g-1-4: #333433;
+  --g-1-5: #4b4c4b;
+  --g-1-6: #6a6b6a;
+  --g-1-7: #919191;
+  --g-1-8: #c0c1c0;
+  --g-1-9: #f8f9f8;
+  --g-2-0: #0a0a0a;
+  --g-2-1: #0e0e0e;
+  --g-2-2: #161616;
+  --g-2-3: #222222;
+  --g-2-4: #333333;
+  --g-2-5: #4a4b4a;
+  --g-2-6: #686a68;
+  --g-2-7: #8e918e;
+  --g-2-8: #bbc0bb;
+  --g-2-9: #f2f8f2;
+  --g-3-0: #0a0a0a;
+  --g-3-1: #0e0e0e;
+  --g-3-2: #161616;
+  --g-3-3: #212221;
+  --g-3-4: #313331;
+  --g-3-5: #474b47;
+  --g-3-6: #646964;
+  --g-3-7: #888f88;
+  --g-3-8: #b3beb4;
+  --g-3-9: #e7f5e8;
+  --g-4-0: #0a0a0a;
+  --g-4-1: #0d0e0d;
+  --g-4-2: #151615;
+  --g-4-3: #202220;
+  --g-4-4: #2f322f;
+  --g-4-5: #434a44;
+  --g-4-6: #5e685f;
+  --g-4-7: #7f8d80;
+  --g-4-8: #a8bba9;
+  --g-4-9: #d8f1da;
+  --g-5-0: #0a0a0a;
+  --g-5-1: #0d0e0d;
+  --g-5-2: #151615;
+  --g-5-3: #1e211e;
+  --g-5-4: #2c322c;
+  --g-5-5: #3e4840;
+  --g-5-6: #566558;
+  --g-5-7: #748a77;
+  --g-5-8: #99b69d;
+  --g-5-9: #c4ebc9;
+  --g-6-0: #0a0a0a;
+  --g-6-1: #0d0e0d;
+  --g-6-2: #141614;
+  --g-6-3: #1c211d;
+  --g-6-4: #283129;
+  --g-6-5: #39463a;
+  --g-6-6: #4d6350;
+  --g-6-7: #67866c;
+  --g-6-8: #87b18d;
+  --g-6-9: #ace4b4;
+  --g-7-0: #0a0a0a;
+  --g-7-1: #0d0e0d;
+  --g-7-2: #131513;
+  --g-7-3: #1a201b;
+  --g-7-4: #242f25;
+  --g-7-5: #314434;
+  --g-7-6: #426047;
+  --g-7-7: #57825e;
+  --g-7-8: #70ab7a;
+  --g-7-9: #8ddc9b;
+  --g-8-0: #0a0a0a;
+  --g-8-1: #0c0d0c;
+  --g-8-2: #111512;
+  --g-8-3: #171f18;
+  --g-8-4: #1f2e21;
+  --g-8-5: #29422d;
+  --g-8-6: #345c3c;
+  --g-8-7: #437c4e;
+  --g-8-8: #53a364;
+  --g-8-9: #66d17e;
+  --g-9-0: #0a0a0a;
+  --g-9-1: #0c0d0c;
+  --g-9-2: #101510;
+  --g-9-3: #141e16;
+  --g-9-4: #192c1c;
+  --g-9-5: #1e3f25;
+  --g-9-6: #235730;
+  --g-9-7: #26753d;
+  --g-9-8: #279a4c;
+  --g-9-9: #22c55e;
+  --y-0-0: #0a0a0a;
+  --y-0-1: #0e0e0e;
+  --y-0-2: #161616;
+  --y-0-3: #222222;
+  --y-0-4: #343434;
+  --y-0-5: #4c4c4c;
+  --y-0-6: #6b6b6b;
+  --y-0-7: #929292;
+  --y-0-8: #c1c1c1;
+  --y-0-9: #fafafa;
+  --y-1-0: #0a0a0a;
+  --y-1-1: #0e0e0e;
+  --y-1-2: #161616;
+  --y-1-3: #222222;
+  --y-1-4: #343433;
+  --y-1-5: #4c4c4b;
+  --y-1-6: #6b6b6a;
+  --y-1-7: #929190;
+  --y-1-8: #c1c1bf;
+  --y-1-9: #faf9f7;
+  --y-2-0: #0a0a0a;
+  --y-2-1: #0e0e0e;
+  --y-2-2: #161616;
+  --y-2-3: #222221;
+  --y-2-4: #343332;
+  --y-2-5: #4c4b49;
+  --y-2-6: #6b6967;
+  --y-2-7: #92908c;
+  --y-2-8: #c2beb9;
+  --y-2-9: #fbf6ef;
+  --y-3-0: #0a0a0a;
+  --y-3-1: #0e0e0e;
+  --y-3-2: #171616;
+  --y-3-3: #222220;
+  --y-3-4: #343330;
+  --y-3-5: #4c4a46;
+  --y-3-6: #6c6862;
+  --y-3-7: #938e85;
+  --y-3-8: #c3bbaf;
+  --y-3-9: #fcf2e2;
+  --y-4-0: #0a0a0a;
+  --y-4-1: #0e0e0d;
+  --y-4-2: #171615;
+  --y-4-3: #23211f;
+  --y-4-4: #34322d;
+  --y-4-5: #4c4841;
+  --y-4-6: #6c655b;
+  --y-4-7: #938a7b;
+  --y-4-8: #c3b6a2;
+  --y-4-9: #fcebd0;
+  --y-5-0: #0a0a0a;
+  --y-5-1: #0e0e0d;
+  --y-5-2: #171614;
+  --y-5-3: #23201d;
+  --y-5-4: #34302a;
+  --y-5-5: #4d463c;
+  --y-5-6: #6c6252;
+  --y-5-7: #93856e;
+  --y-5-8: #c3b090;
+  --y-5-9: #fce3b9;
+  --y-6-0: #0a0a0a;
+  --y-6-1: #0e0d0d;
+  --y-6-2: #171513;
+  --y-6-3: #23201b;
+  --y-6-4: #342f26;
+  --y-6-5: #4d4434;
+  --y-6-6: #6c5e47;
+  --y-6-7: #93805e;
+  --y-6-8: #c2a97b;
+  --y-6-9: #fbd99c;
+  --y-7-0: #0a0a0a;
+  --y-7-1: #0e0d0c;
+  --y-7-2: #171511;
+  --y-7-3: #231f18;
+  --y-7-4: #342d21;
+  --y-7-5: #4c412c;
+  --y-7-6: #6b5a3a;
+  --y-7-7: #927a4c;
+  --y-7-8: #c0a061;
+  --y-7-9: #f8ce7a;
+  --y-8-0: #0a0a0a;
+  --y-8-1: #0e0d0c;
+  --y-8-2: #171410;
+  --y-8-3: #231e15;
+  --y-8-4: #342b1b;
+  --y-8-5: #4b3d22;
+  --y-8-6: #69552b;
+  --y-8-7: #8f7336;
+  --y-8-8: #bc9643;
+  --y-8-9: #f2c151;
+  --y-9-0: #0a0a0a;
+  --y-9-1: #0e0d0b;
+  --y-9-2: #17140e;
+  --y-9-3: #231c11;
+  --y-9-4: #332914;
+  --y-9-5: #4a3a17;
+  --y-9-6: #675019;
+  --y-9-7: #8b6b19;
+  --y-9-8: #b68c16;
+  --y-9-9: #eab308;
+  --m-0-0: #0a0a0a;
+  --m-0-1: #0e0e0e;
+  --m-0-2: #161616;
+  --m-0-3: #222222;
+  --m-0-4: #343434;
+  --m-0-5: #4c4c4c;
+  --m-0-6: #6b6b6b;
+  --m-0-7: #929292;
+  --m-0-8: #c1c1c1;
+  --m-0-9: #fafafa;
+  --m-1-0: #0a0a0a;
+  --m-1-1: #0e0e0e;
+  --m-1-2: #161616;
+  --m-1-3: #222222;
+  --m-1-4: #343334;
+  --m-1-5: #4c4b4c;
+  --m-1-6: #6b6a6b;
+  --m-1-7: #919192;
+  --m-1-8: #c1c0c1;
+  --m-1-9: #f9f8fa;
+  --m-2-0: #0a0a0a;
+  --m-2-1: #0e0e0e;
+  --m-2-2: #161616;
+  --m-2-3: #222222;
+  --m-2-4: #333334;
+  --m-2-5: #4b4a4c;
+  --m-2-6: #6a686b;
+  --m-2-7: #908e92;
+  --m-2-8: #bfbbc1;
+  --m-2-9: #f7f2fa;
+  --m-3-0: #0a0a0a;
+  --m-3-1: #0e0e0e;
+  --m-3-2: #161616;
+  --m-3-3: #222122;
+  --m-3-4: #333134;
+  --m-3-5: #4a474c;
+  --m-3-6: #68646b;
+  --m-3-7: #8e8892;
+  --m-3-8: #bcb4c1;
+  --m-3-9: #f3e8fa;
+  --m-4-0: #0a0a0a;
+  --m-4-1: #0e0d0e;
+  --m-4-2: #161516;
+  --m-4-3: #212022;
+  --m-4-4: #322f34;
+  --m-4-5: #49444c;
+  --m-4-6: #665f6b;
+  --m-4-7: #8b8092;
+  --m-4-8: #b8a9c1;
+  --m-4-9: #eddafa;
+  --m-5-0: #0a0a0a;
+  --m-5-1: #0e0d0e;
+  --m-5-2: #161516;
+  --m-5-3: #211e22;
+  --m-5-4: #312c34;
+  --m-5-5: #473f4c;
+  --m-5-6: #63586b;
+  --m-5-7: #877793;
+  --m-5-8: #b29cc2;
+  --m-5-9: #e5c8fb;
+  --m-6-0: #0a0a0a;
+  --m-6-1: #0e0d0e;
+  --m-6-2: #151416;
+  --m-6-3: #201d22;
+  --m-6-4: #2f2934;
+  --m-6-5: #443a4c;
+  --m-6-6: #5f506b;
+  --m-6-7: #816b92;
+  --m-6-8: #aa8bc1;
+  --m-6-9: #dbb2fa;
+  --m-7-0: #0a0a0a;
+  --m-7-1: #0d0d0e;
+  --m-7-2: #151317;
+  --m-7-3: #1f1b22;
+  --m-7-4: #2e2534;
+  --m-7-5: #41334c;
+  --m-7-6: #5b466b;
+  --m-7-7: #7a5c92;
+  --m-7-8: #a178c2;
+  --m-7-9: #ce98fa;
+  --m-8-0: #0a0a0a;
+  --m-8-1: #0d0c0e;
+  --m-8-2: #151217;
+  --m-8-3: #1e1822;
+  --m-8-4: #2b2134;
+  --m-8-5: #3e2c4c;
+  --m-8-6: #553a6b;
+  --m-8-7: #714c92;
+  --m-8-8: #9461c1;
+  --m-8-9: #bd7af9;
+  --m-9-0: #0a0a0a;
+  --m-9-1: #0d0c0e;
+  --m-9-2: #141017;
+  --m-9-3: #1d1522;
+  --m-9-4: #291c34;
+  --m-9-5: #39234b;
+  --m-9-6: #4d2d6a;
+  --m-9-7: #663891;
+  --m-9-8: #8446bf;
+  --m-9-9: #a855f7;
+  --r-0-0: #0a0a0a;
+  --r-0-1: #0e0e0e;
+  --r-0-2: #161616;
+  --r-0-3: #222222;
+  --r-0-4: #343434;
+  --r-0-5: #4c4c4c;
+  --r-0-6: #6b6b6b;
+  --r-0-7: #929292;
+  --r-0-8: #c1c1c1;
+  --r-0-9: #fafafa;
+  --r-1-0: #0a0a0a;
+  --r-1-1: #0e0e0e;
+  --r-1-2: #161616;
+  --r-1-3: #222222;
+  --r-1-4: #343333;
+  --r-1-5: #4c4b4b;
+  --r-1-6: #6b6a6a;
+  --r-1-7: #929191;
+  --r-1-8: #c2c0c0;
+  --r-1-9: #fbf8f8;
+  --r-2-0: #0a0a0a;
+  --r-2-1: #0e0e0e;
+  --r-2-2: #171616;
+  --r-2-3: #222221;
+  --r-2-4: #343332;
+  --r-2-5: #4c4a49;
+  --r-2-6: #6c6867;
+  --r-2-7: #938e8c;
+  --r-2-8: #c3bbba;
+  --r-2-9: #fcf2f0;
+  --r-3-0: #0a0a0a;
+  --r-3-1: #0e0e0e;
+  --r-3-2: #171616;
+  --r-3-3: #232121;
+  --r-3-4: #343130;
+  --r-3-5: #4d4746;
+  --r-3-6: #6d6463;
+  --r-3-7: #948886;
+  --r-3-8: #c4b3b1;
+  --r-3-9: #fee7e4;
+  --r-4-0: #0a0a0a;
+  --r-4-1: #0e0d0d;
+  --r-4-2: #171515;
+  --r-4-3: #23201f;
+  --r-4-4: #352f2e;
+  --r-4-5: #4d4442;
+  --r-4-6: #6d5e5c;
+  --r-4-7: #95807d;
+  --r-4-8: #c5a9a4;
+  --r-4-9: #ffd9d3;
+  --r-5-0: #0a0a0a;
+  --r-5-1: #0e0d0d;
+  --r-5-2: #171514;
+  --r-5-3: #231e1d;
+  --r-5-4: #352c2b;
+  --r-5-5: #4d3f3d;
+  --r-5-6: #6d5754;
+  --r-5-7: #957571;
+  --r-5-8: #c59a94;
+  --r-5-9: #ffc6be;
+  --r-6-0: #0a0a0a;
+  --r-6-1: #0e0d0d;
+  --r-6-2: #171413;
+  --r-6-3: #231c1b;
+  --r-6-4: #352927;
+  --r-6-5: #4e3936;
+  --r-6-6: #6e4e4a;
+  --r-6-7: #956963;
+  --r-6-8: #c68981;
+  --r-6-9: #ffafa5;
+  --r-7-0: #0a0a0a;
+  --r-7-1: #0e0d0c;
+  --r-7-2: #171312;
+  --r-7-3: #231a19;
+  --r-7-4: #362522;
+  --r-7-5: #4e322f;
+  --r-7-6: #6e443f;
+  --r-7-7: #955a53;
+  --r-7-8: #c5746b;
+  --r-7-9: #fe9388;
+  --r-8-0: #0a0a0a;
+  --r-8-1: #0e0c0c;
+  --r-8-2: #181110;
+  --r-8-3: #241816;
+  --r-8-4: #36201d;
+  --r-8-5: #4e2a27;
+  --r-8-6: #6c3832;
+  --r-8-7: #934841;
+  --r-8-8: #c25b52;
+  --r-8-9: #f97167;
+  --r-9-0: #0a0a0a;
+  --r-9-1: #0e0c0b;
+  --r-9-2: #18100e;
+  --r-9-3: #241513;
+  --r-9-4: #351a18;
+  --r-9-5: #4c211d;
+  --r-9-6: #6a2925;
+  --r-9-7: #8e312d;
+  --r-9-8: #ba3a38;
+  --r-9-9: #ef4444;
+}</style>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -43,6 +659,8 @@
       -moz-osx-font-smoothing: grayscale;
       overflow-x: hidden;
     }
+    ::selection { background: var(--b-9-5); }
+    ::-moz-selection { background: var(--b-9-5); }
     .mono { font-family: ui-monospace, 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace; }
     a { color: inherit; text-decoration: none; }
     pre, code { font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
@@ -120,26 +738,47 @@
     .material-thin          { background: color-mix(in srgb, var(--n-0) 10%, transparent); color: color-mix(in srgb, var(--n-9) 90%, transparent); stroke: color-mix(in srgb, var(--n-9) 90%, transparent); backdrop-filter: blur(8px); } 
     .material-invert-thick  { background: color-mix(in srgb, var(--n-9) 90%, transparent); color: color-mix(in srgb, var(--n-0) 90%, transparent); stroke: color-mix(in srgb, var(--n-0) 90%, transparent); backdrop-filter: blur(8px); } 
 
-    .demo-nav-btn           { opacity: 0.5; }
-    .demo-nav-btn:hover     { opacity: 0.75; border-color: var(--n-3) !important; }
-    .demo-nav-active        { opacity: 1 !important; border-color: var(--n-3) !important; background: var(--n-2) !important; }
+    .demo-nav-btn           { border: none; background: transparent; }
+    .demo-nav-btn:hover     { background: var(--n-2);  }
+    .demo-nav-active,
+    .demo-nav-active:hover { background: var(--n-3); }
 
     .demo-tab               { background: transparent; color: var(--n-5); }
     .demo-tab:hover         { color: var(--n-7); }
     .demo-tab-active        { background: var(--n-0) !important; color: var(--n-9) !important; }
 
+    .hidden { display: none!important; }
+
     /* ── Skills Stack ── */
     .skills-card { transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.5s cubic-bezier(0.25, 0.1, 0.25, 1); }
+    .depth-level-1 { border-color: var(--n-3); }
+    .depth-level-2 { border-color: var(--n-2); }
+    .depth-level-3 { border-color: var(--n-1); }
+    .depth-level-4 { border-color: var(--n-0); }
+
+    .depth-level-1 .dot-g { background-color: var(--g-9-5); }
+    .depth-level-1 .dot-y { background-color: var(--y-9-5); }
+    .depth-level-1 .dot-r { background-color: var(--r-9-5); }
+    .depth-level-2 .dot-g { background-color: var(--g-9-4); }
+    .depth-level-2 .dot-y { background-color: var(--y-9-4); }
+    .depth-level-2 .dot-r { background-color: var(--r-9-4); }
+    .depth-level-3 .dot-g { background-color: var(--g-9-3); }
+    .depth-level-3 .dot-y { background-color: var(--y-9-3); }
+    .depth-level-3 .dot-r { background-color: var(--r-9-3); }
+    .depth-level-4 .dot-g { background-color: var(--g-9-2); }
+    .depth-level-4 .dot-y { background-color: var(--y-9-2); }
+    .depth-level-4 .dot-r { background-color: var(--r-9-2); }
+
 
     /* ── Theme Picker ── */
-    .tp-trigger { position: fixed; top: 20px; right: 20px; z-index: 10000; display: flex; align-items: center; cursor: pointer; border-radius: 999px; padding: 8px 14px 8px 10px; gap: 6px; transition: background .2s, box-shadow .2s; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; font-size: 12px; border: none; }
+    .tp-trigger { position: fixed; top: 20px; right: 20px; z-index: 10000; display: flex; align-items: center; cursor: pointer; border-radius: 999px; padding: 8px 14px 8px 10px; gap: 6px; transition: background .2s, box-shadow .2s; font-family: "Mona Sans", system-ui, sans-serif; font-size: 12px; border: none; }
     .tp-dots { display: flex; margin-right: 2px; }
     .tp-dot { width: 16px; height: 16px; border-radius: 50%; box-shadow: 0 0 0 2px color-mix(in srgb, var(--n-0) 60%, transparent); margin-left: -5px; transition: margin .3s cubic-bezier(.4,0,.2,1), background .3s; }
     .tp-dot:first-child { margin-left: 0; }
     .tp-trigger:hover .tp-dot { margin-left: 4px; }
     .tp-trigger:hover .tp-dot:first-child { margin-left: 0; }
 
-    .tp-overlay { position: fixed; top: 0; right: 0; bottom: 0; z-index: 10001; width: 320px; max-width: 100vw; background: color-mix(in srgb, var(--n-1) 92%, transparent); backdrop-filter: blur(20px); border-left: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); transform: translateX(100%); transition: transform .35s cubic-bezier(.4,0,.2,1); display: flex; flex-direction: column; font-family: ui-monospace, 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .tp-overlay { position: fixed; top: 0; right: 0; bottom: 0; z-index: 10001; width: 320px; max-width: 100vw; background: color-mix(in srgb, var(--n-1) 92%, transparent); backdrop-filter: blur(20px); border-left: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); transform: translateX(100%); transition: transform .35s cubic-bezier(.4,0,.2,1); display: flex; flex-direction: column; font-family: "Mona Sans", system-ui, sans-serif; }
     .tp-overlay.tp-open { transform: translateX(0); }
 
     .tp-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px 16px; border-bottom: 1px solid color-mix(in srgb, var(--n-9) 8%, transparent); margin-bottom: 24px; }
@@ -318,59 +957,57 @@
 <body class="background-primary">
 
   <!-- Hero -->
-  <section class="r-section r-hero" style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 40px; position: relative; overflow: visible;">
+  <section class="r-section r-hero" style="display: flex; flex-direction: column; align-items: center; padding: 120px 80px 60px; position: relative; overflow: visible;">
     <canvas id="c" style="position: absolute; top: 0; left: 0; z-index: 0; display: block;"></canvas>
-    <div style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center;">
-      <div style="display: flex; align-items: center; gap: 8px; border-radius: 999px; padding: 6px 16px; margin-bottom: 32px; backdrop-filter: blur(8px); background: color-mix(in srgb, var(--n-9) 10%, transparent); color: color-mix(in srgb, var(--n-9) 75%, transparent);">
-        <span style="font-size: 13px; font-weight: 500;">v3.0 APCA &amp; OKLCH built from spec</span>
-      </div>
-      <h1 class="text-primary" style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; opacity: 0.95; text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent);">A color toolkit for AI agents and humans</h1>
-      <p style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 24px; color: color-mix(in srgb, var(--n-9) 80%, transparent); text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent);">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK and web editor available.</p>
-      <div class="r-hero-actions" style="display: flex; gap: 16px; margin-top: 40px; align-items: center; margin-bottom: 64px;">
+    <div style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; pointer-events: none;">
+      <h1 class="text-primary hero-intro hero-intro-h1" style="font-size: 64px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; text-align: center; max-width: 900px; opacity: 0.95; text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 20%, transparent);">A color toolkit for AI agents and humans</h1>
+      <p class="hero-intro hero-intro-p" style="font-size: 20px; line-height: 1.6; text-align: center; max-width: 620px; margin-top: 20px; color: color-mix(in srgb, var(--n-9) 80%, transparent); text-shadow: 1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px 1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), 1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent), -1px -1px 1px color-mix(in srgb, var(--n-0) 5%, transparent);">Generate perceptually uniform and precise color ramps straight from your terminal. CLI, SDK and web editor available.</p>
+      <div class="r-hero-actions hero-intro hero-intro-cta" style="display: flex; flex-direction: column; gap: 16px; margin-top: 60px; align-items: center; margin-bottom: 64px;">
         <button class="material-invert-thick" id="install-btn" onclick="copyInstallCmd(this)"
-          style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; min-width: 240px;"
+          style="pointer-events: auto; display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 16px; font-size: 15px; font-weight: 600; cursor: pointer; border: none; min-width: 240px;"
         >
           <code id="install-cmd" style="font-size: 14px;">npm install -g @basiclines/rampa</code>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M7.024 3.75c0-.966.784-1.75 1.75-1.75H20.25c.966 0 1.75.784 1.75 1.75v11.498a1.75 1.75 0 0 1-1.75 1.75H8.774a1.75 1.75 0 0 1-1.75-1.75Zm1.75-.25a.25.25 0 0 0-.25.25v11.498c0 .139.112.25.25.25H20.25a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path><path d="M1.995 10.749a1.75 1.75 0 0 1 1.75-1.751H5.25a.75.75 0 1 1 0 1.5H3.745a.25.25 0 0 0-.25.25L3.5 20.25c0 .138.111.25.25.25h9.5a.25.25 0 0 0 .25-.25v-1.51a.75.75 0 1 1 1.5 0v1.51A1.75 1.75 0 0 1 13.25 22h-9.5A1.75 1.75 0 0 1 2 20.25l-.005-9.501Z"></path></svg>
+          <svg data-select="copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M7.024 3.75c0-.966.784-1.75 1.75-1.75H20.25c.966 0 1.75.784 1.75 1.75v11.498a1.75 1.75 0 0 1-1.75 1.75H8.774a1.75 1.75 0 0 1-1.75-1.75Zm1.75-.25a.25.25 0 0 0-.25.25v11.498c0 .139.112.25.25.25H20.25a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path><path d="M1.995 10.749a1.75 1.75 0 0 1 1.75-1.751H5.25a.75.75 0 1 1 0 1.5H3.745a.25.25 0 0 0-.25.25L3.5 20.25c0 .138.111.25.25.25h9.5a.25.25 0 0 0 .25-.25v-1.51a.75.75 0 1 1 1.5 0v1.51A1.75 1.75 0 0 1 13.25 22h-9.5A1.75 1.75 0 0 1 2 20.25l-.005-9.501Z"></path></svg>
+          <svg class="hidden" data-select="success" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"></path></svg>
         </button>
-        <a href="/app" class="material-thin" style="display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500;">Web editor</a>
+        <a href="/app" target="_blank" class="material-thin" style="pointer-events: auto; display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 12px 24px; font-size: 15px; font-weight: 500;">Web editor</a>
       </div>
-      <div class="term-chrome material-thick r-hero-term" style="width: 720px; min-height: 365px;">
+      <div class="term-chrome material-thick r-hero-term hero-intro hero-intro-term" style="width: 720px; min-height: 402px; pointer-events: auto;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">rampa</span></div>
-        <div id="demo-hero"></div>
+        <div id="demo-hero" class="typetype-container"></div>
       </div>
     </div>
   </section>
 
   <!-- Social Proof Strip -->
-  <section id="social-proof" class="border-neutral r-social r-section" style="border-left: none; border-right: none; border-top: none; display: flex; justify-content: center; gap: 64px; align-items: center; padding: 48px 80px;">
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+  <section id="social-proof" class="border-neutral r-social r-section" style="border-left: none; border-right: none; border-top: none; display: flex; justify-content: center; gap: 48px; align-items: center; padding: 32px 24px;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center;">
       <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M9.25 12a.75.75 0 0 1-.22.53l-2.75 2.75a.75.75 0 0 1-1.06-1.06L7.44 12 5.22 9.78a.75.75 0 1 1 1.06-1.06l2.75 2.75c.141.14.22.331.22.53Zm2 2a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Z"></path><path d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"></path></svg>
-      <span class="text-primary" style="font-size: 28px; font-weight: 700;">CLI + SDK</span>
+      <span class="text-primary" style="font-size: 22px; font-weight: 700;">CLI + SDK</span>
       <span class="text-secondary" style="font-size: 13px;">Explore and integrate</span>
     </div>
     <div class="border-neutral r-divider" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center;">
       <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M21.553 6.064A.75.75 0 0 1 22 6.75v10.5a.75.75 0 0 1-1.256.554l-5.75-5.25a.748.748 0 0 1 0-1.108l5.75-5.25a.75.75 0 0 1 .809-.132ZM2.447 17.936A.75.75 0 0 1 2 17.25V6.75a.75.75 0 0 1 1.256-.554l5.75 5.25a.748.748 0 0 1 0 1.108l-5.75 5.25a.75.75 0 0 1-.809.132ZM7.387 12 3.5 8.45v7.1L7.388 12Zm9.226 0 3.887 3.55v-7.1L16.612 12ZM12 2.75a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Zm0 4a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Zm0 8a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Zm0 4a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Zm0-8a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0v-1a.75.75 0 0 1 .75-.75Z"></path></svg>
-      <span class="text-primary" style="font-size: 28px; font-weight: 700;">OKLCH/LAB</span>
+      <span class="text-primary" style="font-size: 22px; font-weight: 700;">OKLCH/LAB</span>
       <span class="text-secondary" style="font-size: 13px;">Perceptually uniform</span>
     </div>
     <div class="border-neutral r-divider" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center;">
       <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M2.75 15.25a.75.75 0 0 1 .75.75v4.25c0 .138.112.25.25.25H8A.75.75 0 0 1 8 22H3.75A1.75 1.75 0 0 1 2 20.25V16a.75.75 0 0 1 .75-.75Zm18.5 0A.75.75 0 0 1 22 16v4.25A1.75 1.75 0 0 1 20.25 22H16a.75.75 0 0 1 0-1.5h4.25a.25.25 0 0 0 .25-.25V16a.75.75 0 0 1 .75-.75ZM8 2a.75.75 0 0 1 0 1.5H3.75a.25.25 0 0 0-.25.25V8A.75.75 0 0 1 2 8V3.75C2 2.784 2.784 2 3.75 2H8Zm12.25 0c.966 0 1.75.784 1.75 1.75V8a.75.75 0 0 1-1.5 0V3.75a.25.25 0 0 0-.25-.25H16A.75.75 0 0 1 16 2h4.25ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path></svg>
-      <span class="text-primary" style="font-size: 28px; font-weight: 700;">APCA/WCAG</span>
+      <span class="text-primary" style="font-size: 22px; font-weight: 700;">APCA/WCAG</span>
       <span class="text-secondary" style="font-size: 13px;">Built-in contrast analysis</span>
     </div>
     <div class="border-neutral r-divider" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center;">
       <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M10 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2Zm-.5-2a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V4a.5.5 0 0 0-.5-.5H10a.5.5 0 0 0-.5.5ZM6.17 4.165a.75.75 0 0 1-.335 1.006c-.228.114-.295.177-.315.201a.035.035 0 0 0-.008.016.423.423 0 0 0-.012.112v13c0 .07.008.102.012.112a.03.03 0 0 0 .008.016c.02.024.087.087.315.201a.749.749 0 1 1-.67 1.342c-.272-.136-.58-.315-.81-.598C4.1 19.259 4 18.893 4 18.5v-13c0-.393.1-.759.355-1.073.23-.283.538-.462.81-.598a.75.75 0 0 1 1.006.336ZM2.15 5.624a.75.75 0 0 1-.274 1.025c-.15.087-.257.17-.32.245C1.5 6.96 1.5 6.99 1.5 7v10c0 .01 0 .04.056.106.063.074.17.158.32.245a.75.75 0 0 1-.752 1.298C.73 18.421 0 17.907 0 17V7c0-.907.73-1.42 1.124-1.65a.75.75 0 0 1 1.025.274Z"></path></svg>
-      <span class="text-primary" style="font-size: 28px; font-weight: 700;">Ramps</span>
+      <span class="text-primary" style="font-size: 22px; font-weight: 700;">Ramps</span>
       <span class="text-secondary" style="font-size: 13px;">HSL start:end values</span>
     </div>
     <div class="border-neutral r-divider" style="width: 0px; border-right-width: 1px; border-right-style: solid; height: 48px;"></div>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center;">
       <svg class="svg-fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"></path></svg>
-      <span class="text-primary" style="font-size: 28px; font-weight: 700;">Color Spaces</span>
+      <span class="text-primary" style="font-size: 22px; font-weight: 700;">Color Spaces</span>
       <span class="text-secondary" style="font-size: 13px;">Define color edges</span>
     </div>
   </section>
@@ -453,36 +1090,36 @@
     <!-- Left nav -->
     <div id="demo-nav" class="r-demo-nav" style="display: flex; flex-direction: column; gap: 8px; min-width: 260px;">
       <!-- CLI nav items -->
-      <button class="demo-nav-btn demo-nav-active" data-demo="palette" data-tab="cli" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn demo-nav-active" data-demo="palette" data-tab="cli" style="text-align: left; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Ramps</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Generate a color ramp from any hex</div>
       </button>
-      <button class="demo-nav-btn" data-demo="harmony" data-tab="cli" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="harmony" data-tab="cli" style="text-align: left; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Harmonies</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Complementary, triadic, and more</div>
       </button>
-      <button class="demo-nav-btn" data-demo="contrast" data-tab="cli" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="contrast" data-tab="cli" style="text-align: left; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Contrast lint</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">APCA &amp; WCAG accessibility checks</div>
       </button>
-      <button class="demo-nav-btn" data-demo="colorspace" data-tab="cli" style="text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="colorspace" data-tab="cli" style="text-align: left; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Color spaces</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Linear, plane, and cube interpolation</div>
       </button>
       <!-- SDK nav items (hidden by default) -->
-      <button class="demo-nav-btn" data-demo="sdk-ramp" data-tab="sdk" style="display: none; text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="sdk-ramp" data-tab="sdk" style="display: none; text-align: left; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Builder API</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Chainable palette generation</div>
       </button>
-      <button class="demo-nav-btn" data-demo="sdk-linear" data-tab="sdk" style="display: none; text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="sdk-linear" data-tab="sdk" style="display: none; text-align: left; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Linear space</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">Two-color ramps with OKLCH math</div>
       </button>
-      <button class="demo-nav-btn" data-demo="sdk-plane" data-tab="sdk" style="display: none; text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="sdk-plane" data-tab="sdk" style="display: none; text-align: left; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Plane space</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">2D saturation × lightness grids</div>
       </button>
-      <button class="demo-nav-btn" data-demo="sdk-contrast" data-tab="sdk" style="display: none; text-align: left; background: none; border: 1px solid transparent; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
+      <button class="demo-nav-btn" data-demo="sdk-contrast" data-tab="sdk" style="display: none; text-align: left; border-radius: 12px; padding: 20px 24px; cursor: pointer; transition: all 0.15s;">
         <div class="text-primary" style="font-size: 20px; font-weight: 600;">Contrast</div>
         <div class="text-secondary" style="font-size: 14px; margin-top: 4px;">APCA &amp; WCAG programmatic checks</div>
       </button>
@@ -491,7 +1128,7 @@
     <div style="flex: 1; min-width: 0;">
       <div class="term-chrome r-demo-term" style="min-height: 365px;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title" id="demo-term-title">Ramps</span></div>
-        <div id="demo-terminal"></div>
+        <div id="demo-terminal" class="typetype-container"></div>
       </div>
     </div>
   </section>
@@ -501,7 +1138,11 @@
     <span class="text-green" style="font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;">AI Skills</span>
     <h2 class="text-primary" style="font-size: 40px; font-weight: 700; letter-spacing: -0.02em; text-align: center; line-height: 1.2;">Teach your AI agent<br>color theory</h2>
     <p class="text-secondary" style="font-size: 17px; text-align: center; max-width: 520px; line-height: 1.6;">7 installable skills for Copilot, Claude Code, Codex, Cursor, and any agent that supports skills. Theme creation, status colors, data viz palettes, accessible contrast.</p>
-    <pre class="background-green text-green border-green" style="border-width: 1px; border-style: solid; border-radius: 10px; padding: 12px 20px; font-size: 14px; margin-top: 16px;">npx skills add basiclines/rampa-studio</pre>
+    <button onclick="copyToClipboard('npx skills add basiclines/rampa-studio', this)" class="background-green text-green border-green" style="border-width: 1px; border-style: solid; border-radius: 10px; padding: 12px 20px; font-size: 14px; margin-top: 16px; cursor: pointer; display: flex; align-items: center; gap: 10px; font-family: 'Mona Sans Mono', ui-monospace, monospace;">
+      npx skills add basiclines/rampa-studio
+      <svg data-select="copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M7.024 3.75c0-.966.784-1.75 1.75-1.75H20.25c.966 0 1.75.784 1.75 1.75v11.498a1.75 1.75 0 0 1-1.75 1.75H8.774a1.75 1.75 0 0 1-1.75-1.75Zm1.75-.25a.25.25 0 0 0-.25.25v11.498c0 .139.112.25.25.25H20.25a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path><path d="M1.995 10.749a1.75 1.75 0 0 1 1.75-1.751H5.25a.75.75 0 1 1 0 1.5H3.745a.25.25 0 0 0-.25.25L3.5 20.25c0 .138.111.25.25.25h9.5a.25.25 0 0 0 .25-.25v-1.51a.75.75 0 1 1 1.5 0v1.51A1.75 1.75 0 0 1 13.25 22h-9.5A1.75 1.75 0 0 1 2 20.25l-.005-9.501Z"></path></svg>
+      <svg class="hidden" data-select="success" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"></path></svg>
+    </button>
   </section>
 
   <!-- Skills — Stacked terminal previews -->
@@ -509,7 +1150,7 @@
     <div class="skills-stack r-skills-stack" style="position: relative; width: 680px; height: 580px;">
 
       <!-- Card 5 (back) — Tinted Neutrals -->
-      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+      <div class="term-chrome skills-card background-primary" style="position: absolute; top: 0; left: 50%; width: 600px;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">tinted-neutrals/skill.md</span></div>
         <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
           <span class="text-green" style="font-size: 18px; font-weight: 700;"># Tinted Neutrals</span><br>
@@ -531,7 +1172,7 @@
       </div>
 
       <!-- Card 4 — Accessible Contrast -->
-      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+      <div class="term-chrome skills-card background-primary" style="position: absolute; top: 0; left: 50%; width: 600px;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">accessible-contrast/skill.md</span></div>
         <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
           <span class="text-green" style="font-size: 18px; font-weight: 700;"># Accessible Contrast Pairs</span><br>
@@ -552,7 +1193,7 @@
       </div>
 
       <!-- Card 3 — Data Viz Palette -->
-      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+      <div class="term-chrome skills-card background-primary" style="position: absolute; top: 0; left: 50%; width: 600px;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">data-viz-palette/skill.md</span></div>
         <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
           <span class="text-green" style="font-size: 18px; font-weight: 700;"># Data Visualization Palette</span><br>
@@ -573,7 +1214,7 @@
       </div>
 
       <!-- Card 2 — Status from Accent -->
-      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+      <div class="term-chrome skills-card background-primary" style="position: absolute; top: 0; left: 50%; width: 600px;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">status-from-accent/skill.md</span></div>
         <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
           <span class="text-green" style="font-size: 18px; font-weight: 700;"># Status Colors from Accent</span><br>
@@ -596,7 +1237,7 @@
       </div>
 
       <!-- Card 1 (front) — Theme Foundation -->
-      <div class="term-chrome skills-card material-thick" style="position: absolute; top: 0; left: 50%; width: 600px;">
+      <div class="term-chrome skills-card background-primary" style="position: absolute; top: 0; left: 50%; width: 600px;">
         <div class="term-chrome-bar"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span><span class="title">theme-foundation/skill.md</span></div>
         <div style="padding: 20px 24px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; line-height: 1.7; height: 380px; overflow: hidden;">
           <span class="text-green" style="font-size: 18px; font-weight: 700;"># Theme Foundation</span><br>
@@ -634,40 +1275,32 @@
     </div>
 
     <!-- CLI cards (2×2 grid) -->
-    <div id="cta-cli" class="r-cta-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; max-width: 1100px;">
-      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Try instantly</span>
-        <pre class="text-primary" style="font-size: 17px; margin: 0;">npx @basiclines/rampa -C "#3b82f6"</pre>
-      </div>
-      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Global install</span>
+    <div id="cta-cli" class="r-cta-grid" style="display: flex; flex-direction: column; gap: 16px; margin-top: 16px; max-width: 520px; width: 100%;">
+      <div class="background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">npm / bun global</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install -g @basiclines/rampa</pre>
       </div>
-      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/cli/README.md" style="font-size: 15px; font-weight: 500;">CLI reference →</a>
       </div>
-      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Contribute</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500;">github.com/basiclines/rampa-studio</a>
       </div>
     </div>
 
     <!-- SDK cards (2×2 grid, hidden by default) -->
-    <div id="cta-sdk" class="r-cta-grid" style="display: none; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; max-width: 1100px; width: 100%;">
-      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+    <div id="cta-sdk" class="r-cta-grid" style="display: none; flex-direction: column; gap: 16px; margin-top: 16px; max-width: 520px; width: 100%;">
+      <div class="background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">npm / bun</span>
         <pre class="text-primary" style="font-size: 17px; margin: 0;">npm install @basiclines/rampa-sdk</pre>
       </div>
-      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
-        <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Vanilla JS (CDN)</span>
-        <pre class="text-primary" style="font-size: 15px; margin: 0; word-break: break-all;">&lt;script src="rampa-sdk.min.js"&gt;&lt;/script&gt;</pre>
-      </div>
-      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Docs</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio/blob/main/sdk/README.md" style="font-size: 15px; font-weight: 500;">SDK reference →</a>
       </div>
-      <div class="border-neutral background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
+      <div class="background-secondary" style="border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 8px;">
         <span class="text-secondary" style="font-size: 13px; font-weight: 600; text-transform: uppercase;">Contribute</span>
         <a class="text-primary" href="https://github.com/basiclines/rampa-studio" style="font-size: 15px; font-weight: 500;">github.com/basiclines/rampa-studio</a>
       </div>
@@ -676,14 +1309,15 @@
   </section>
 
   <!-- Footer -->
-  <footer class="border-neutral r-footer r-section" style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto; padding: 40px 0; border-bottom: none; border-right: none; border-left: none;">
+  <footer class="r-footer r-section" style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto; padding: 40px 0; border-bottom: none; border-right: none; border-left: none;">
     <div style="display: flex; align-items: center; gap: 32px;">
       <span class="text-primary" style="font-size: 14px; font-weight: 600;">rampa</span>
-      <a class="text-secondary" href="https://rampa.design/app" style="font-size: 14px;">Web editor</a>
-      <a class="text-secondary" href="https://github.com/basiclines/rampa-studio" style="font-size: 14px;">GitHub</a>
-      <a class="text-secondary" href="#" id="credits-trigger" style="font-size: 14px;">Credits</a>
+      <a class="text-secondary" target="_blank" href="https://rampa.design/app" style="font-size: 14px;">Web editor</a>
+      <a class="text-secondary" target="_blank" href="https://github.com/basiclines/rampa-studio" style="font-size: 14px;">GitHub</a>
+      <a class="text-secondary" target="_blank" href="https://github.com/basiclines/rampa-studio/releases" style="font-size: 14px;">Releases</a>
+      <button class="text-secondary" type="button" id="credits-trigger" style="font-size: 14px; background: none; border: none; padding: 0; cursor: pointer;">Credits</button>
     </div>
-    <span class="text-tertiary" style="font-size: 14px;">Free for individuals &amp; developers · <a href="https://github.com/basiclines/rampa-studio/blob/main/LICENSE.md" style="text-decoration: underline;">MIT License</a></span>
+    <span class="text-tertiary" style="font-size: 14px;">Free for individuals &amp; developers · <a href="https://github.com/basiclines/rampa-studio/blob/main/LICENSE.md" target="_blank" style="text-decoration: underline;">MIT License</a></span>
   </footer>
 
   <!-- Theme Picker -->

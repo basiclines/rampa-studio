@@ -64,6 +64,7 @@
 
     // Hero terminal
     const hero = typetype('#demo-hero', { theme: 'dark' });
+    await hero.wait(1500);
     await hero.line([cmd('rampa'), flag(' -C'), val(' "#3b82f6"'), flag(' -L'), num(' 95:10'), flag(' --size='), num('10'), flag(' -O'), val(' css')], { prefix: '$ ' });
     await hero.wait(500);
     await hero.line('Generating palette...', { instant: true, spinner: true, muted: true });
@@ -73,7 +74,7 @@
     await hero.line([kw(':root'), dim(' {')], { instant: true });
     await hero.line([dim('  '), comment('/* base */')], { instant: true });
     for (let i = 0; i < heroColors.length; i++) {
-      await hero.line([dim('  '), { text: '\u2588\u2588', className: `tt-swatch-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(heroColors[i]), dim(';')], { instant: true });
+      await hero.line([dim('  '), { text: '\u2588', className: `tt-swatch-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(heroColors[i]), dim(';')], { instant: true });
     }
     await hero.line(dim('}'), { instant: true });
     hero.cursor();
@@ -88,7 +89,7 @@
       await tt.line([kw(':root'), dim(' {')], { instant: true });
       for (let i = 0; i < palColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-pal-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(palColors[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588', className: `tt-pal-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(palColors[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -107,14 +108,14 @@
       await tt.line([dim('  '), comment('/* base */')], { instant: true });
       for (let i = 0; i < baseH.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-hb-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(baseH[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588', className: `tt-hb-${i}` }, dim('  '), prop(`--base-${i}`), dim(': '), val(baseH[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line('', { instant: true });
       await tt.line([dim('  '), comment('/* complementary */')], { instant: true });
       for (let i = 0; i < compH.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-hc-${i}` }, dim('  '), prop(`--comp-${i}`), dim(': '), val(compH[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588', className: `tt-hc-${i}` }, dim('  '), prop(`--comp-${i}`), dim(': '), val(compH[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -158,7 +159,7 @@
       await tt.line([kw(':root'), dim(' {')], { instant: true });
       for (let i = 0; i < csColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim('  '), { text: '\u2588\u2588', className: `tt-cs-${i}` }, dim('  '), prop(`--space-${i}`), dim(': '), val(csColors[i]), dim(';')], { instant: true });
+        await tt.line([dim('  '), { text: '\u2588', className: `tt-cs-${i}` }, dim('  '), prop(`--space-${i}`), dim(': '), val(csColors[i]), dim(';')], { instant: true });
       }
       await tt.wait(TICK);
       await tt.line(dim('}'), { instant: true });
@@ -177,18 +178,16 @@
       await tt.line([dim('  .'), prop('lightness'), dim('('), num('95'), dim(', '), num('10'), dim(')')], { instant: true });
       await tt.wait(TICK);
       await tt.line([dim('  .'), prop('saturation'), dim('('), num('20'), dim(', '), num('100'), dim(')')], { instant: true });
-      await tt.wait(TICK);
-      await tt.line([dim('  .'), prop('generate'), dim('()')], { instant: true });
       await tt.wait(300);
       await tt.line('', { instant: true });
-      await tt.line([cmd('console'), dim('.'), prop('log'), dim('(palette.'), prop('css'), dim('())')], { instant: true });
+      await tt.line([dim('palette.'), prop('output'), dim('('), val('"css"'), dim(')')], { instant: true });
       await tt.wait(200);
       await tt.line('', { instant: true });
       await tt.line('', { instant: true });
       await tt.line([comment('// → :root {')], { instant: true });
       for (let i = 0; i < palColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([comment(`//     `), { text: '\u2588\u2588', className: `tt-pal-${i}` }, comment(`  --base-${i}: ${palColors[i]};`)], { instant: true });
+        await tt.line([comment(`//     `), { text: '\u2588', className: `tt-pal-${i}` }, comment(`  --base-${i}: ${palColors[i]};`)], { instant: true });
       }
       await tt.line([comment('//   }')], { instant: true });
       tt.cursor();
@@ -205,7 +204,7 @@
       await tt.line('', { instant: true });
       for (let i = 0; i < csColors.length; i++) {
         await tt.wait(TICK);
-        await tt.line([dim(`ramp(${i + 1})  `), comment(`// → ${csColors[i]}`), { text: '  \u2588\u2588', className: `tt-cs-${i}` }], { instant: true });
+        await tt.line([dim(`ramp(${i + 1})  `), comment(`// → ${csColors[i]}`), { text: '  \u2588', className: `tt-cs-${i}` }], { instant: true });
       }
       tt.cursor();
     }
@@ -239,33 +238,29 @@
     }
 
     async function runSdkContrast(tt) {
-      await tt.line([kw('import'), dim(' { '), val('contrast'), dim(' } '), kw('from'), val(' "@basiclines/rampa-sdk"')], { instant: true });
+      await tt.line([kw('import'), dim(' { '), val('rampa'), dim(' } '), kw('from'), val(' "@basiclines/rampa-sdk"')], { instant: true });
       await tt.wait(TICK);
       await tt.line('', { instant: true });
-      await tt.line([kw('const'), dim(' result = '), cmd('contrast'), dim('('), val('"#ffffff"'), dim(', '), val('"#1e1e2e"'), dim(')')], { instant: true });
-      await tt.wait(TICK);
-      await tt.line([dim('  .'), prop('mode'), dim('('), val('"apca"'), dim(')')], { instant: true });
-      await tt.wait(TICK);
-      await tt.line([dim('  .'), prop('check'), dim('()')], { instant: true });
+      await tt.line([kw('const'), dim(' result = '), cmd('rampa'), dim('.'), prop('contrast'), dim('('), val('"#ffffff"'), dim(', '), val('"#1e1e2e"'), dim(')')], { instant: true });
       await tt.wait(300);
       await tt.line('', { instant: true });
-      await tt.line('', { instant: true });
-      await tt.line([comment('// {')], { instant: true });
+      await tt.line([dim('result.'), prop('score'), dim('    '), comment('// -105.82')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//   score: -105.82,')], { instant: true });
+      await tt.line([dim('result.'), prop('pass'), dim('     '), comment('// true')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//   level: "preferred",')], { instant: true });
+      await tt.line([dim('result.'), prop('levels'), dim('   '), comment('// [')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//   passes: {')], { instant: true });
+      await tt.line([comment('//   { name: "Preferred body text", '), { text: 'pass: true', className: 'text-green' }, comment(' }')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     bodyText: '), { text: 'true', className: 'text-green' }], { instant: true });
+      await tt.line([comment('//   { name: "Body text", '), { text: 'pass: true', className: 'text-green' }, comment(' }')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     largeText: '), { text: 'true', className: 'text-green' }], { instant: true });
+      await tt.line([comment('//   { name: "Large text", '), { text: 'pass: true', className: 'text-green' }, comment(' }')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//     nonText: '), { text: 'true', className: 'text-green' }], { instant: true });
+      await tt.line([comment('//   { name: "Non-text", '), { text: 'pass: true', className: 'text-green' }, comment(' }')], { instant: true });
       await tt.wait(TICK);
-      await tt.line([comment('//   }')], { instant: true });
-      await tt.line([comment('// }')], { instant: true });
+      await tt.line([comment('// ]')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('result.'), prop('warnings'), dim(' '), comment('// ["Pure #ffffff…"]')], { instant: true });
       tt.cursor();
     }
 
