@@ -27,7 +27,7 @@ A pre-built browser bundle is available on every [GitHub Release](https://github
   console.log('' + linear(5)); // midpoint gray
 
   const c = Rampa.color('#3b82f6');
-  console.log(c.rgb, c.luminance);
+  console.log(c.hex, c.rgb, c.luminance);
 </script>
 ```
 
@@ -235,28 +235,32 @@ result.ramps                  // all ramps: [{ name: 'base', ... }, { name: 'com
 result.ramps[1].colors        // complementary ramp colors
 ```
 
-### `rampa.readOnly(color, format?)`
+### `color(input)`
 
-Read a color without generating a ramp — equivalent to `--read-only` in the CLI. Returns color info directly.
-
-Without a format, returns a `ColorInfo` object with all representations:
+Inspect a single color — get all format representations, format conversion, and export. Equivalent to `rampa color` in the CLI.
 
 ```typescript
-rampa.readOnly('#fe0000');
-// {
-//   hex: '#fe0000',
-//   rgb: { r: 254, g: 0, b: 0 },
-//   hsl: { h: 0, s: 100, l: 50 },
-//   oklch: { l: 62.8, c: 0.257, h: 29 }
-// }
-```
+import { color } from '@basiclines/rampa-sdk';
 
-With a format, returns a formatted string:
+const c = color('#fe0000');
+c.hex              // '#fe0000'
+c.rgb              // { r: 254, g: 0, b: 0 }
+c.hsl              // { h: 0, s: 100, l: 50 }
+c.oklch            // { l: 62.8, c: 0.258, h: 29 }
+c.luminance        // 0.628
 
-```typescript
-rampa.readOnly('#fe0000', 'hsl');   // 'hsl(0, 100%, 50%)'
-rampa.readOnly('#fe0000', 'rgb');   // 'rgb(254, 0, 0)'
-rampa.readOnly('#fe0000', 'oklch'); // 'oklch(62.8% 0.257 29)'
+// Format conversion
+c.format('hsl')    // 'hsl(0, 100%, 50%)'
+c.format('rgb')    // 'rgb(254, 0, 0)'
+c.format('oklch')  // 'oklch(62.8% 0.258 29)'
+
+// Export
+c.output('json')           // JSON with all formats
+c.output('css', 'brand')   // CSS custom properties with prefix
+c.output('text')           // plain hex string
+
+// String coercion
+`${c}`             // '#fe0000'
 ```
 
 ### `rampa.convert(color, format)`
@@ -290,22 +294,29 @@ const gradient = Array.from({ length: steps }, (_, i) =>
 );
 ```
 
-### `rampa.contrast(foreground, background)`
+### `lint(foreground, background)`
 
 Evaluate contrast between two colors. Returns score, pass/fail levels, and lint warnings. Default mode is `'apca'`.
 
 ```js
+import { lint } from '@basiclines/rampa-sdk';
+
 // APCA (default) — returns Lc value
-const result = rampa.contrast('#ffffff', '#1e1e2e');
+const result = lint('#ffffff', '#1e1e2e');
 result.score      // -104.3 (Lc value)
 result.pass       // true (at least one level passes)
 result.levels     // [{ name: 'Preferred body text', threshold: 90, pass: true }, ...]
 result.warnings   // []
 
 // WCAG 2.x — chain .mode('wcag')
-const wcag = rampa.contrast('#777', '#ffffff').mode('wcag');
+const wcag = lint('#777', '#ffffff').mode('wcag');
 wcag.score        // 4.48 (contrast ratio)
 wcag.levels       // [{ name: 'AAA Normal text', threshold: 7, pass: false }, ...]
+
+// Export
+result.output('json')  // JSON with full result
+result.output('text')  // readable text report
+result.output('css')   // CSS custom properties
 ```
 
 **Lint warnings** fire automatically:
@@ -324,11 +335,12 @@ import type {
   RampResult,          // { name, baseColor, colors }
   RampaResult,         // { ramps: RampResult[] }
   RampaFn,             // callable palette returned by rampa()
-  ColorInfo,           // { hex, rgb, hsl, oklch } — returned by readOnly()
+  Color,               // { hex, rgb, hsl, oklch, luminance, format(), output() }
+  ColorInfo,           // { hex, rgb, hsl, oklch }
   InterpolationMode,   // 'oklch' | 'lab' | 'rgb'
-  ColorResult,         // { hex, format(), toString() }
   LinearColorSpaceFn,  // callable function returned by LinearColorSpace.size()
   CubeColorSpaceFn,    // callable function returned by CubeColorSpace.size()
+  LintResult,          // lint builder with score, pass, levels, warnings, output()
   ContrastMode,        // 'wcag' | 'apca'
   ContrastLevelResult, // { name, threshold, pass }
   ContrastResult,      // { mode, score, pass, levels, warnings, foreground, background }

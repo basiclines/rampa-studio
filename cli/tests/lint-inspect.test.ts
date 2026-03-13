@@ -2,7 +2,7 @@ import { describe, it, expect, beforeAll } from 'bun:test';
 import { $ } from 'bun';
 import { join } from 'path';
 import { parseLintArgs } from '../src/lint';
-import { parseInspectArgs } from '../src/inspect';
+import { parseColorArgs } from '../src/color';
 
 beforeAll(async () => {
   await $`bun run build`.cwd(join(import.meta.dir, '..'));
@@ -100,63 +100,70 @@ describe('rampa lint', () => {
   });
 });
 
-describe('rampa inspect', () => {
-  describe('parseInspectArgs', () => {
-    it('should parse -c', () => {
-      const args = parseInspectArgs(['-c', '#ff6600']);
+describe('rampa color', () => {
+  describe('parseColorArgs', () => {
+    it('should parse positional color', () => {
+      const args = parseColorArgs(['#ff6600']);
       expect(args.color).toBe('#ff6600');
       expect(args.output).toBe('text');
     });
 
-    it('should parse --color', () => {
-      const args = parseInspectArgs(['--color', '#ff6600']);
+    it('should parse -c flag', () => {
+      const args = parseColorArgs(['-c', '#ff6600']);
+      expect(args.color).toBe('#ff6600');
+    });
+
+    it('should parse --color flag', () => {
+      const args = parseColorArgs(['--color', '#ff6600']);
       expect(args.color).toBe('#ff6600');
     });
 
     it('should parse --output json', () => {
-      const args = parseInspectArgs(['-c', '#ff6600', '--output', 'json']);
+      const args = parseColorArgs(['#ff6600', '--output', 'json']);
       expect(args.output).toBe('json');
     });
 
     it('should parse -O css', () => {
-      const args = parseInspectArgs(['-c', '#ff6600', '-O', 'css']);
+      const args = parseColorArgs(['#ff6600', '-O', 'css']);
       expect(args.output).toBe('css');
+    });
+
+    it('should parse --prefix', () => {
+      const args = parseColorArgs(['#ff6600', '-O', 'css', '--prefix', 'brand']);
+      expect(args.prefix).toBe('brand');
     });
   });
 
-  describe('CLI integration - inspect', () => {
+  describe('CLI integration - color', () => {
     const CLI = './dist/rampa';
 
     it('should output text by default', () => {
-      const result = Bun.spawnSync([CLI, 'inspect', '-c', '#ff6600'], { cwd: import.meta.dir + '/..', });
+      const result = Bun.spawnSync([CLI, 'color', '#ff6600'], { cwd: import.meta.dir + '/..', });
       const output = result.stdout.toString();
-      expect(output).toContain('Color Inspect');
+      expect(output).toContain('Color');
       expect(output).toContain('hex:');
       expect(output).toContain('rgb:');
       expect(output).toContain('hsl:');
       expect(output).toContain('oklch:');
     });
 
-    it('should output JSON with destructured values', () => {
-      const result = Bun.spawnSync([CLI, 'inspect', '-c', '#ff6600', '--output', 'json'], { cwd: import.meta.dir + '/..', });
+    it('should output JSON', () => {
+      const result = Bun.spawnSync([CLI, 'color', '#ff6600', '--output', 'json'], { cwd: import.meta.dir + '/..', });
       const json = JSON.parse(result.stdout.toString());
       expect(json.hex).toBeDefined();
-      expect(json.rgb.raw).toBeDefined();
       expect(json.rgb.r).toBe(255);
       expect(json.rgb.g).toBe(102);
       expect(json.rgb.b).toBe(0);
       expect(json.hsl.h).toBeDefined();
       expect(json.hsl.s).toBeDefined();
       expect(json.hsl.l).toBeDefined();
-      expect(json.hsl.raw).toBeDefined();
       expect(json.oklch.l).toBeDefined();
       expect(json.oklch.c).toBeDefined();
       expect(json.oklch.h).toBeDefined();
-      expect(json.oklch.raw).toBeDefined();
     });
 
     it('should output CSS', () => {
-      const result = Bun.spawnSync([CLI, 'inspect', '-c', '#ff6600', '-O', 'css'], { cwd: import.meta.dir + '/..', });
+      const result = Bun.spawnSync([CLI, 'color', '#ff6600', '-O', 'css'], { cwd: import.meta.dir + '/..', });
       const output = result.stdout.toString();
       expect(output).toContain('--color-hex:');
       expect(output).toContain('--color-rgb:');
@@ -165,15 +172,29 @@ describe('rampa inspect', () => {
     });
 
     it('should accept rgb input', () => {
-      const result = Bun.spawnSync([CLI, 'inspect', '-c', 'rgb(255, 102, 0)', '--output', 'json'], { cwd: import.meta.dir + '/..', });
+      const result = Bun.spawnSync([CLI, 'color', 'rgb(255, 102, 0)', '--output', 'json'], { cwd: import.meta.dir + '/..', });
       const json = JSON.parse(result.stdout.toString());
       expect(json.hex).toBeDefined();
     });
 
-    it('should show help with --help', () => {
-      const result = Bun.spawnSync([CLI, 'inspect', '--help'], { cwd: import.meta.dir + '/..', });
+    it('should support --prefix for CSS output', () => {
+      const result = Bun.spawnSync([CLI, 'color', '#ff6600', '-O', 'css', '--prefix', 'brand'], { cwd: import.meta.dir + '/..', });
       const output = result.stdout.toString();
-      expect(output).toContain('-c, --color');
+      expect(output).toContain('--brand-hex:');
+      expect(output).toContain('--brand-rgb:');
+    });
+
+    it('inspect alias still works', () => {
+      const result = Bun.spawnSync([CLI, 'inspect', '-c', '#ff6600'], { cwd: import.meta.dir + '/..', });
+      const output = result.stdout.toString();
+      expect(output).toContain('hex:');
+      expect(output).toContain('rgb:');
+    });
+
+    it('should show help with --help', () => {
+      const result = Bun.spawnSync([CLI, 'color', '--help'], { cwd: import.meta.dir + '/..', });
+      const output = result.stdout.toString();
+      expect(output).toContain('rampa color');
     });
   });
 });

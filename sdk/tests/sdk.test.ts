@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'bun:test';
-import { rampa, RampaBuilder } from '../src/index';
+import { rampa, color, RampaBuilder } from '../src/index';
 
 describe('rampa()', () => {
   it('returns a callable RampaFn', () => {
@@ -197,37 +197,74 @@ describe('rampa.convert()', () => {
   });
 });
 
-describe('rampa.readOnly()', () => {
-  it('returns all formats when no format specified', () => {
-    const result = rampa.readOnly('#fe0000');
-    expect(result).toHaveProperty('hex');
-    expect(result).toHaveProperty('rgb');
-    expect(result).toHaveProperty('hsl');
-    expect(result).toHaveProperty('oklch');
-    expect((result as any).hex).toBe('#fe0000');
-    expect((result as any).rgb).toEqual({ r: 254, g: 0, b: 0 });
-    expect((result as any).hsl).toEqual({ h: 0, s: 100, l: 50 });
+describe('color()', () => {
+  it('returns all format properties', () => {
+    const c = color('#fe0000');
+    expect(c.hex).toBe('#fe0000');
+    expect(c.rgb).toEqual({ r: 254, g: 0, b: 0 });
+    expect(c.hsl).toEqual({ h: 0, s: 100, l: 50 });
+    expect(c.oklch).toHaveProperty('l');
+    expect(c.oklch).toHaveProperty('c');
+    expect(c.oklch).toHaveProperty('h');
   });
 
-  it('returns formatted string when format specified', () => {
-    const result = rampa.readOnly('#fe0000', 'hsl');
-    expect(result).toBe('hsl(0, 100%, 50%)');
+  it('has luminance property', () => {
+    const c = color('#fe0000');
+    expect(typeof c.luminance).toBe('number');
+    expect(c.luminance).toBeGreaterThan(0);
+    expect(c.luminance).toBeLessThanOrEqual(1);
   });
 
-  it('returns hex string when hex format specified', () => {
-    const result = rampa.readOnly('#fe0000', 'hex');
-    expect(result).toBe('#fe0000');
+  it('format() returns formatted string', () => {
+    const c = color('#fe0000');
+    expect(c.format('hsl')).toBe('hsl(0, 100%, 50%)');
+    expect(c.format('rgb')).toBe('rgb(254, 0, 0)');
+    expect(c.format('hex')).toBe('#fe0000');
+    expect(c.format('oklch')).toMatch(/^oklch\(/);
   });
 
-  it('returns rgb string when rgb format specified', () => {
-    const result = rampa.readOnly('#fe0000', 'rgb');
-    expect(result).toBe('rgb(254, 0, 0)');
+  it('toString() returns hex', () => {
+    const c = color('#fe0000');
+    expect(c.toString()).toBe('#fe0000');
+    expect(`${c}`).toBe('#fe0000');
   });
 
-  it('returns oklch string when oklch format specified', () => {
-    const result = rampa.readOnly('#fe0000', 'oklch');
-    expect(typeof result).toBe('string');
-    expect(result as string).toMatch(/^oklch\(/);
+  it('output("json") returns valid JSON', () => {
+    const c = color('#fe0000');
+    const json = JSON.parse(c.output('json'));
+    expect(json.hex).toBe('#fe0000');
+    expect(json.rgb).toEqual({ r: 254, g: 0, b: 0 });
+    expect(json.hsl).toEqual({ h: 0, s: 100, l: 50 });
+    expect(json.oklch).toHaveProperty('l');
+  });
+
+  it('output("css") returns CSS custom properties', () => {
+    const css = color('#fe0000').output('css');
+    expect(css).toContain(':root {');
+    expect(css).toContain('--color-hex:');
+    expect(css).toContain('--color-rgb:');
+    expect(css).toContain('--color-hsl:');
+    expect(css).toContain('--color-oklch:');
+  });
+
+  it('output("css", prefix) uses custom prefix', () => {
+    const css = color('#fe0000').output('css', 'brand');
+    expect(css).toContain('--brand-hex:');
+    expect(css).toContain('--brand-rgb:');
+  });
+
+  it('output("text") returns hex string', () => {
+    expect(color('#fe0000').output('text')).toBe('#fe0000');
+  });
+
+  it('throws on invalid color', () => {
+    expect(() => color('not-a-color')).toThrow('Invalid color');
+  });
+
+  it('accepts any CSS color format', () => {
+    const c = color('rgb(254, 0, 0)');
+    expect(c.hex).toMatch(/^#[0-9a-f]{6}$/);
+    expect(c.rgb.r).toBe(254);
   });
 });
 

@@ -9,12 +9,12 @@ describe('vanilla entry point', () => {
     expect(R).toBeDefined();
     expect(typeof R.rampa).toBe('function');
     expect(typeof R.color).toBe('function');
+    expect(typeof R.lint).toBe('function');
     expect(typeof R.RampaBuilder).toBe('function');
-    expect(typeof R.ReadOnlyBuilder).toBe('function');
+    expect(typeof R.LintBuilder).toBe('function');
     expect(typeof R.LinearColorSpace).toBe('function');
     expect(typeof R.CubeColorSpace).toBe('function');
     expect(typeof R.PlaneColorSpace).toBe('function');
-    expect(typeof R.ContrastBuilder).toBe('function');
   });
 
   it('rampa generates a palette', async () => {

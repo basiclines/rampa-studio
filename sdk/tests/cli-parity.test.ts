@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'bun:test';
-import { rampa } from '../src/index';
+import { rampa, color } from '../src/index';
 
 /**
  * Integration tests that verify the SDK produces the same colors as the CLI.
@@ -179,32 +179,21 @@ describe('SDK ↔ CLI parity', () => {
     expect(sdkColors).toEqual(cliOklchStrings);
   });
 
-  it('readOnly: all formats match --read-only', async () => {
+  it('color: all formats match rampa color --output json', async () => {
     const proc = Bun.spawn(
-      ['bash', '-c', `cd "${import.meta.dir}/../../cli" && bun run src/index.ts --color "#fe0000" --read-only --output json`],
+      ['bash', '-c', `cd "${import.meta.dir}/../../cli" && bun run src/index.ts color "#fe0000" --output json`],
       { stdout: 'pipe', stderr: 'pipe' }
     );
     const text = await new Response(proc.stdout).text();
     await proc.exited;
     const cliResult = JSON.parse(text);
 
-    const sdkResult = rampa.readOnly('#fe0000');
+    const sdkResult = color('#fe0000');
 
-    expect(sdkResult).toEqual(cliResult.color);
-  });
-
-  it('readOnly with format: matches --read-only --format hsl', async () => {
-    const proc = Bun.spawn(
-      ['bash', '-c', `cd "${import.meta.dir}/../../cli" && bun run src/index.ts --color "#fe0000" --read-only --format hsl --output json`],
-      { stdout: 'pipe', stderr: 'pipe' }
-    );
-    const text = await new Response(proc.stdout).text();
-    await proc.exited;
-    const cliResult = JSON.parse(text);
-
-    const sdkResult = rampa.readOnly('#fe0000', 'hsl');
-    // CLI returns { color: { value: "hsl(...)", hsl: {...} } }
-    expect(sdkResult).toBe(cliResult.color.value);
+    expect(sdkResult.hex).toEqual(cliResult.hex);
+    expect(sdkResult.rgb).toEqual(cliResult.rgb);
+    expect(sdkResult.hsl).toEqual(cliResult.hsl);
+    expect(sdkResult.oklch).toEqual(cliResult.oklch);
   });
 });
 

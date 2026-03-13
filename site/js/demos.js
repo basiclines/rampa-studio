@@ -238,10 +238,10 @@
     }
 
     async function runSdkContrast(tt) {
-      await tt.line([kw('import'), dim(' { '), val('rampa'), dim(' } '), kw('from'), val(' "@basiclines/rampa-sdk"')], { instant: true });
+      await tt.line([kw('import'), dim(' { '), val('lint'), dim(' } '), kw('from'), val(' "@basiclines/rampa-sdk"')], { instant: true });
       await tt.wait(TICK);
       await tt.line('', { instant: true });
-      await tt.line([kw('const'), dim(' result = '), cmd('rampa'), dim('.'), prop('contrast'), dim('('), val('"#ffffff"'), dim(', '), val('"#1e1e2e"'), dim(')')], { instant: true });
+      await tt.line([kw('const'), dim(' result = '), cmd('lint'), dim('('), val('"#ffffff"'), dim(', '), val('"#1e1e2e"'), dim(')')], { instant: true });
       await tt.wait(300);
       await tt.line('', { instant: true });
       await tt.line([dim('result.'), prop('score'), dim('    '), comment('// -105.82')], { instant: true });
