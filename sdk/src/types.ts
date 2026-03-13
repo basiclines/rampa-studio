@@ -58,6 +58,29 @@ export interface ColorInfo {
   oklch: { l: number; c: number; h: number };
 }
 
+/**
+ * A color primitive with all format representations and export support.
+ * Returned by the standalone `color()` function.
+ */
+export interface Color {
+  /** Hex color string */
+  hex: string;
+  /** RGB components (0-255) */
+  rgb: { r: number; g: number; b: number };
+  /** HSL components (h: 0-360, s: 0-100, l: 0-100) */
+  hsl: { h: number; s: number; l: number };
+  /** OKLCH components (l: 0-100, c: 0-0.4, h: 0-360) */
+  oklch: { l: number; c: number; h: number };
+  /** Perceptual luminance (0-1) using OKLCH lightness */
+  luminance: number;
+  /** Format the color as a string in the given format */
+  format(fmt: ColorFormat): string;
+  /** Export as css, json, or text. Optional prefix for CSS variable names. */
+  output(format: RampaOutputFormat, prefix?: string): string;
+  /** String coercion returns hex */
+  toString(): string;
+}
+
 // ── Color Space Types ──────────────────────────────────────────────────
 
 export type InterpolationMode = 'oklch' | 'lab' | 'rgb';
@@ -73,22 +96,6 @@ export interface RgbComponents {
   r: number;
   g: number;
   b: number;
-}
-
-/**
- * A color result that acts as a hex string but supports format chaining.
- */
-export interface ColorResult {
-  /** Hex color string */
-  hex: string;
-  /** RGB components (0-255) */
-  rgb: RgbComponents;
-  /** Perceptual luminance (0-1) using OKLCH lightness */
-  luminance: number;
-  /** Format the color as hsl, rgb, oklch, or hex */
-  format(fmt: ColorFormat): string;
-  /** String coercion returns hex */
-  toString(): string;
 }
 
 /**
@@ -226,4 +233,28 @@ export interface ContrastResult {
   levels: ContrastLevelResult[];
   /** Warnings from lint rules */
   warnings: string[];
+}
+
+/**
+ * The lint primitive interface with chainable mode and output support.
+ */
+export interface LintResult {
+  /** Normalized foreground hex */
+  foreground: string;
+  /** Normalized background hex */
+  background: string;
+  /** Contrast score (APCA Lc or WCAG ratio) */
+  score: number;
+  /** Whether at least one level passes */
+  pass: boolean;
+  /** Per-level pass/fail details */
+  levels: ContrastLevelResult[];
+  /** Lint warnings (near-identical, low contrast, pure B/W) */
+  warnings: string[];
+  /** Switch contrast algorithm. Returns a new LintResult. */
+  mode(m: ContrastMode): LintResult;
+  /** Export as css, json, or text */
+  output(format: RampaOutputFormat): string;
+  /** Return the raw ContrastResult for serialization */
+  toJSON(): ContrastResult;
 }

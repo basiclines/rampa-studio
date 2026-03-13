@@ -386,40 +386,26 @@ describe('CLI Integration', () => {
     });
   });
 
-  describe('Read-Only Mode', () => {
-    it('should output all formats in text mode without --format', async () => {
-      const result = await $`${CLI_PATH} -C "#fe0000" --read-only`.text();
+  describe('Color Subcommand', () => {
+    it('should output all formats in text mode', async () => {
+      const result = await $`${CLI_PATH} color "#fe0000"`.text();
       expect(result).toContain('hex:');
       expect(result).toContain('hsl:');
       expect(result).toContain('rgb:');
       expect(result).toContain('oklch:');
     });
 
-    it('should output single format with --format', async () => {
-      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -F hsl`.text();
-      expect(result.trim()).toMatch(/^hsl\(/);
-    });
-
     it('should output JSON with all formats', async () => {
-      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O json`.text();
+      const result = await $`${CLI_PATH} color "#fe0000" -O json`.text();
       const parsed = JSON.parse(result);
-      expect(parsed.color).toHaveProperty('hex');
-      expect(parsed.color).toHaveProperty('hsl');
-      expect(parsed.color).toHaveProperty('rgb');
-      expect(parsed.color).toHaveProperty('oklch');
-    });
-
-    it('should output JSON with single format', async () => {
-      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O json -F hsl`.text();
-      const parsed = JSON.parse(result);
-      expect(parsed.color.value).toMatch(/^hsl\(/);
-      expect(parsed.color.hsl).toHaveProperty('h');
-      expect(parsed.color.hsl).toHaveProperty('s');
-      expect(parsed.color.hsl).toHaveProperty('l');
+      expect(parsed).toHaveProperty('hex');
+      expect(parsed).toHaveProperty('hsl');
+      expect(parsed).toHaveProperty('rgb');
+      expect(parsed).toHaveProperty('oklch');
     });
 
     it('should output CSS with all formats', async () => {
-      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O css`.text();
+      const result = await $`${CLI_PATH} color "#fe0000" -O css`.text();
       expect(result).toContain(':root {');
       expect(result).toContain('--color-hex:');
       expect(result).toContain('--color-hsl:');
@@ -427,15 +413,28 @@ describe('CLI Integration', () => {
       expect(result).toContain('--color-oklch:');
     });
 
-    it('should output CSS with single format', async () => {
-      const result = await $`${CLI_PATH} -C "#fe0000" --read-only -O css -F rgb`.text();
-      expect(result).toContain(':root {');
-      expect(result).toContain('--color: rgb(');
+    it('should support --prefix for CSS output', async () => {
+      const result = await $`${CLI_PATH} color "#fe0000" -O css --prefix brand`.text();
+      expect(result).toContain('--brand-hex:');
+      expect(result).toContain('--brand-rgb:');
     });
 
     it('should accept different input formats', async () => {
-      const result = await $`${CLI_PATH} -C "rgb(254, 0, 0)" --read-only -F hex`.text();
-      expect(result.trim()).toBe('#fe0000');
+      const result = await $`${CLI_PATH} color "rgb(254, 0, 0)" -O json`.text();
+      const parsed = JSON.parse(result);
+      expect(parsed.hex).toMatch(/^#[0-9a-f]{6}$/);
+    });
+
+    it('should accept -c flag', async () => {
+      const result = await $`${CLI_PATH} color -c "#fe0000" -O json`.text();
+      const parsed = JSON.parse(result);
+      expect(parsed.hex).toBe('#fe0000');
+    });
+
+    it('inspect alias should work', async () => {
+      const result = await $`${CLI_PATH} inspect -c "#fe0000"`.text();
+      expect(result).toContain('hex:');
+      expect(result).toContain('rgb:');
     });
   });
 });

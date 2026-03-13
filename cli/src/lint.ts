@@ -9,7 +9,7 @@
  */
 
 import chroma from 'chroma-js';
-import { contrast } from '../../sdk/src/contrast';
+import { lint } from '../../sdk/src/lint';
 import type { ContrastMode, ContrastResult } from '../../sdk/src/types';
 
 // ── ANSI helpers ─────────────────────────────────────────────────────
@@ -175,7 +175,7 @@ function formatCss(result: ContrastResult): string {
 
 export function runLint(args: string[]): void {
   const parsed = parseLintArgs(args);
-  const builder = contrast(parsed.foreground, parsed.background).mode(parsed.mode);
+  const builder = lint(parsed.foreground, parsed.background).mode(parsed.mode);
   const result = builder.toJSON();
 
   switch (parsed.output) {

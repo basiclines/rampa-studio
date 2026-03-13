@@ -43,10 +43,17 @@ if (args[0] === 'lint') {
   process.exit(0);
 }
 
-// Intercept inspect subcommand
+// Intercept color subcommand
+if (args[0] === 'color') {
+  const { runColor } = await import('./color');
+  runColor(args.slice(1));
+  process.exit(0);
+}
+
+// Intercept inspect subcommand (alias for color)
 if (args[0] === 'inspect') {
-  const { runInspect } = await import('./inspect');
-  runInspect(args.slice(1));
+  const { runColor } = await import('./color');
+  runColor(args.slice(1));
   process.exit(0);
 }
 
@@ -119,17 +126,6 @@ ACCESSIBILITY
                                   ${dim}Filters: preferred, body, large, bold, minimum, nontext${reset}
                                   ${dim}or a custom Lc value (e.g. 60)${reset}
 
-COLOR CONVERSION
-  ${cyan}--read-only${reset}                    ${dim}Output the input color without generating a ramp${reset}
-
-                                  ${dim}Use with --color to specify the input color.${reset}
-                                  ${dim}Use with --format to convert to a specific format.${reset}
-                                  ${dim}Use with --output to choose text, json, or css.${reset}
-
-                                  ${dim}Without --format: outputs all formats (hex, hsl, rgb, oklch)${reset}
-                                  ${dim}With --format: outputs only the specified format${reset}
-                                  ${dim}JSON output returns structured values, not strings${reset}
-
 COLOR MIXING
   ${cyan}--mix <color>${reset}                 ${dim}Mix --color with another color in OKLCH space${reset}
   ${cyan}--steps <number>${reset}              ${dim}Number of mix steps (default: 5)${reset}
@@ -147,8 +143,8 @@ CONTRAST LINT
                                    ${dim}Use rampa lint --help for details${reset}
 
 COLOR INSPECT
-  ${cyan}rampa inspect${reset}                   ${dim}Inspect a color in all supported formats${reset}
-                                   ${dim}Use rampa inspect --help for details${reset}
+  ${cyan}rampa color${reset}                     ${dim}Inspect a color in all supported formats${reset}
+                                   ${dim}Use rampa color --help for details${reset}
 
 OTHER
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
@@ -162,7 +158,7 @@ EXAMPLES
   ${cyan}rampa --color "#3b82f6" --output css${reset}
   ${cyan}rampa --color "#3b82f6" --tint-color="#FF0000" --tint-opacity=15${reset}
   ${cyan}rampa --color "#3b82f6" --accessibility${reset}
-  ${cyan}rampa --color "#fe0000" --read-only${reset}
+  ${cyan}rampa color '#fe0000'${reset}
   ${cyan}rampa --color "#ff0000" --mix "#0000ff" --steps=10${reset}
   ${cyan}rampa colorspace --cube k=#000 r=#f00 ... --size 6 --tint r:4,b:2${reset}
   ${cyan}rampa colorspace --linear '#fff' '#000' --size 24 --at 12${reset}
@@ -331,19 +327,6 @@ Examples:
   rampa -C "#3b82f6" -A=large
   rampa -C "#3b82f6" --accessibility=75
   rampa -C "#3b82f6" -O json -A preferred
-`,
-  'read-only': `
---read-only  Output the input color converted to the target format (no ramp)
-
-When --format is specified, outputs the color in that format.
-When --format is omitted, outputs all formats (hex, hsl, rgb, oklch).
-
-Examples:
-  rampa -C "#fe0000" --read-only
-  rampa -C "#fe0000" --read-only -F hsl
-  rampa -C "#fe0000" --read-only -O json
-  rampa -C "#fe0000" --read-only -O json -F hsl
-  rampa -C "#fe0000" --read-only -O css -F rgb
 `,
   mix: `
 --mix <color>  Mix --color with another color in OKLCH space
@@ -516,11 +499,6 @@ const main = defineCommand({
       alias: ['A', 'a'],
       description: 'Show APCA contrast report. Optional: filter by level name or Lc value',
     },
-    'read-only': {
-      type: 'boolean',
-      description: 'Output the input color converted to the target format without generating a ramp',
-      default: false,
-    },
     mix: {
       type: 'string',
       description: 'Mix --color with another color in OKLCH space',
@@ -571,47 +549,6 @@ const main = defineCommand({
     if (args.format && !validFormats.includes(outputFormat)) {
       console.error(`Error: Invalid format "${args.format}"\n`);
       showFlagHelp('format');
-    }
-
-    // Read-only mode: output the color without generating a ramp
-    if (args['read-only']) {
-      const outputType = args.output;
-      if (!isValidOutputFormat(outputType)) {
-        console.error(`Error: Invalid output format "${outputType}"\n`);
-        showFlagHelp('output');
-      }
-
-      const hasExplicitFormat = !!args.format;
-
-      if (hasExplicitFormat) {
-        // Single format output
-        const converted = formatColor(validatedColor, outputFormat);
-        if (outputType === 'json') {
-          const structured = formatColorStructured(validatedColor);
-          console.log(JSON.stringify({ color: { value: converted, [outputFormat]: (structured as any)[outputFormat] } }, null, 2));
-        } else if (outputType === 'css') {
-          console.log(`:root {\n  --color: ${converted};\n}`);
-        } else {
-          console.log(converted);
-        }
-      } else {
-        // All formats
-        if (outputType === 'json') {
-          console.log(JSON.stringify({ color: formatColorStructured(validatedColor) }, null, 2));
-        } else if (outputType === 'css') {
-          const lines = [':root {'];
-          for (const fmt of validFormats) {
-            lines.push(`  --color-${fmt}: ${formatColor(validatedColor, fmt as ColorFormat)};`);
-          }
-          lines.push('}');
-          console.log(lines.join('\n'));
-        } else {
-          for (const fmt of validFormats) {
-            console.log(`${fmt}: ${formatColor(validatedColor, fmt as ColorFormat)}`);
-          }
-        }
-      }
-      return;
     }
 
     // Mix mode: interpolate between two colors in OKLCH space

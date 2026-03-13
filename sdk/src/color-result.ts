@@ -1,5 +1,5 @@
 import chroma from 'chroma-js';
-import type { ColorFormat, ColorResult, ColorAccessor } from './types';
+import type { ColorFormat, Color, ColorAccessor, RampaOutputFormat } from './types';
 
 /**
  * Detect the format of a color string.
@@ -74,36 +74,70 @@ export function createColorAccessor(hex: string, outputFormat: ColorFormat): Col
 }
 
 /**
- * Create a ColorResult from a hex string.
- * Acts as a string (hex) by default, supports .format() for conversions.
+ * Create a Color primitive from any valid color string.
+ * Provides .hex, .rgb, .hsl, .oklch, .luminance, .format(), .output().
  */
-export function createColorResult(hex: string): ColorResult {
-  const c = chroma(hex);
-  const [r, g, b] = c.rgb();
-  const [l] = c.oklch();
+export function createColor(input: string): Color {
+  let c: ReturnType<typeof chroma>;
+  try {
+    c = chroma(input);
+  } catch {
+    throw new Error(`Invalid color: "${input}"`);
+  }
 
-  const result: ColorResult = {
+  const hex = c.hex();
+  const [r, g, b] = c.rgb();
+  const [hh, ss, ll] = c.hsl();
+  const [ol, oc, oh] = c.oklch();
+
+  const rgb = { r, g, b };
+  const hsl = { h: Math.round(hh || 0), s: Math.round(ss * 100), l: Math.round(ll * 100) };
+  const oklch = { l: parseFloat((ol * 100).toFixed(1)), c: parseFloat(oc.toFixed(3)), h: Math.round(oh || 0) };
+
+  const formatColor = (fmt: ColorFormat): string => {
+    switch (fmt) {
+      case 'hsl':
+        return `hsl(${hsl.h}, ${hsl.s}%, ${hsl.l}%)`;
+      case 'rgb':
+        return `rgb(${r}, ${g}, ${b})`;
+      case 'oklch':
+        return `oklch(${(ol * 100).toFixed(1)}% ${oc.toFixed(3)} ${Math.round(oh || 0)})`;
+      default:
+        return hex;
+    }
+  };
+
+  const result: Color = {
     hex,
-    rgb: { r, g, b },
-    luminance: l,
+    rgb,
+    hsl,
+    oklch,
+    luminance: ol,
+
     format(fmt: ColorFormat): string {
-      switch (fmt) {
-        case 'hsl': {
-          const [h, s, l] = c.hsl();
-          return `hsl(${Math.round(h || 0)}, ${Math.round(s * 100)}%, ${Math.round(l * 100)}%)`;
+      return formatColor(fmt);
+    },
+
+    output(format: RampaOutputFormat, prefix?: string): string {
+      const name = prefix || 'color';
+      switch (format) {
+        case 'css': {
+          const lines: string[] = [':root {'];
+          lines.push(`  --${name}-hex: ${hex};`);
+          lines.push(`  --${name}-rgb: ${formatColor('rgb')};`);
+          lines.push(`  --${name}-hsl: ${formatColor('hsl')};`);
+          lines.push(`  --${name}-oklch: ${formatColor('oklch')};`);
+          lines.push('}');
+          return lines.join('\n');
         }
-        case 'rgb': {
-          const [r, g, b] = c.rgb();
-          return `rgb(${r}, ${g}, ${b})`;
-        }
-        case 'oklch': {
-          const [l, ch, h] = c.oklch();
-          return `oklch(${(l * 100).toFixed(1)}% ${ch.toFixed(3)} ${Math.round(h || 0)})`;
-        }
+        case 'json':
+          return JSON.stringify({ hex, rgb, hsl, oklch }, null, 2);
+        case 'text':
         default:
           return hex;
       }
     },
+
     toString(): string {
       return hex;
     },

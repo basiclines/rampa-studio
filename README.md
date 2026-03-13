@@ -170,16 +170,26 @@ rampa('#3b82f6').output('css');
 // Apply a warm tint
 rampa('#3b82f6').tint('#FF6B00', 15, 'overlay');
 
-// Color conversion (read-only)
-rampa.readOnly('#fe0000');                             // All formats
-rampa.readOnly('#fe0000', 'hsl');                      // 'hsl(0, 100%, 50%)'
-rampa.convert('#fe0000', 'oklch');                     // 'oklch(62.8% 0.257 29)'
+// Color inspection
+import { color, lint } from '@basiclines/rampa-sdk';
+
+const c = color('#fe0000');
+c.hex                                                  // '#fe0000'
+c.rgb                                                  // { r: 254, g: 0, b: 0 }
+c.hsl                                                  // { h: 0, s: 100, l: 50 }
+c.oklch                                                // { l: 62.8, c: 0.258, h: 29 }
+c.format('hsl')                                        // 'hsl(0, 100%, 50%)'
+c.output('json')                                       // JSON with all formats
+c.output('css', 'brand')                               // CSS custom properties
+
+// Color conversion
+rampa.convert('#fe0000', 'oklch');                      // 'oklch(62.8% 0.257 29)'
 
 // OKLCH color mixing
 rampa.mix('#ff0000', '#0000ff', 0.5);                  // Perceptually uniform midpoint
 
 // Color spaces: interpolated ramps, planes, and cubes
-import { LinearColorSpace, PlaneColorSpace, CubeColorSpace, color } from '@basiclines/rampa-sdk';
+import { LinearColorSpace, PlaneColorSpace, CubeColorSpace } from '@basiclines/rampa-sdk';
 
 const neutral = new LinearColorSpace('#ffffff', '#000000').size(24);
 neutral(12)                       // Midpoint gray (returns hex string directly)
@@ -200,9 +210,9 @@ color('#3b82f6').rgb;              // { r: 59, g: 130, b: 246 }
 color('#3b82f6').luminance;        // 0.546 (OKLCH perceptual lightness)
 
 // Contrast lint
-rampa.contrast('#fff', '#1e1e2e');                  // APCA (default)
-rampa.contrast('#fff', '#1e1e2e').mode('wcag');     // WCAG 2.x
-// → .score, .pass, .levels, .warnings
+lint('#fff', '#1e1e2e');                               // APCA (default)
+lint('#fff', '#1e1e2e').mode('wcag');                   // WCAG 2.x
+// → .score, .pass, .levels, .warnings, .output('json')
 ```
 
 ### CLI ↔ SDK Equivalence
@@ -223,15 +233,16 @@ Every CLI flag maps to an SDK method:
 | `-F oklch` | `.format('oklch')` |
 | `-O css` | `.output('css')` |
 | `-O json` | `.output('json')` |
-| `--read-only` | `rampa.readOnly('#fe0000')` |
-| `--read-only -F hsl` | `rampa.readOnly('#fe0000', 'hsl')` |
+| `--read-only` | `color('#fe0000')` |
+| `--read-only -F hsl` | `color('#fe0000').format('hsl')` |
 | `--mix "#0000ff" --steps=5` | `rampa.mix('#ff0000', '#0000ff', t)` |
 | `colorspace --linear '#fff' '#000' --size 24 --at 12` | `new LinearColorSpace('#fff', '#000').size(24)(12).hex` |
 | `colorspace --cube k=#000 ... --tint r:4` | `new CubeColorSpace({...}).size(6)({ r: 4 }).hex` |
 | `colorspace --linear ... --distribution ease-in` | `new LinearColorSpace(...).distribution('ease-in').size(24)` |
-| `lint --fg '#fff' --bg '#000'` | `rampa.contrast('#fff', '#000')` |
-| `lint --fg '#fff' --bg '#000' --mode wcag` | `rampa.contrast('#fff', '#000').mode('wcag')` |
-| `inspect -c '#ff6600'` | `rampa.readOnly('#ff6600')` |
+| `lint --fg '#fff' --bg '#000'` | `lint('#fff', '#000')` |
+| `lint --fg '#fff' --bg '#000' --mode wcag` | `lint('#fff', '#000').mode('wcag')` |
+| `color '#ff6600'` | `color('#ff6600')` |
+| `color '#ff6600' -O json` | `color('#ff6600').output('json')` |
 
 ### Full SDK Documentation
 

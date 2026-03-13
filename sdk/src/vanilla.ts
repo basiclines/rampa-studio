@@ -9,18 +9,18 @@
  *     console.log('' + palette(1));
  *   </script>
  */
-import { rampa, color, RampaBuilder, createRampaFn, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder } from './index';
+import { rampa, color, lint, RampaBuilder, createRampaFn, LintBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace } from './index';
 
 const Rampa = {
   rampa,
   color,
+  lint,
   RampaBuilder,
   createRampaFn,
-  ReadOnlyBuilder,
+  LintBuilder,
   LinearColorSpace,
   CubeColorSpace,
   PlaneColorSpace,
-  ContrastBuilder,
 };
 
 (globalThis as any).Rampa = Rampa;

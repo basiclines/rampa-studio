@@ -265,20 +265,21 @@ rampa lint --fg '#fff' --bg '#000' --output json
 - **low-contrast** — Warns if contrast is below minimum usable threshold
 - **pure-bw** — Warns if using pure `#000000` or `#ffffff`
 
-### Color Inspect
+### Color
 
 Inspect a color in all supported formats (hex, hsl, rgb, oklch).
 
 ```bash
-rampa inspect -c '#ff6600'
-rampa inspect -c 'rgb(100, 200, 50)' --output json
-rampa inspect -c '#1e1e2e' -O css
+rampa color '#ff6600'
+rampa color 'rgb(100, 200, 50)' --output json
+rampa color '#1e1e2e' -O css --prefix brand
 ```
 
 | Flag | Alias | Description |
 |------|-------|-------------|
-| `--color <color>` | `-c` | Color to inspect (required) |
+| `<color>` | `-c` | Color to inspect (positional or flag) |
 | `--output <text\|json\|css>` | `-O` | Output format (default: text) |
+| `--prefix <name>` | | Prefix for CSS variable names (default: color) |
 
 ### Other
 

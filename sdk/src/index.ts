@@ -1,10 +1,9 @@
 import { RampaBuilder, createRampaFn } from './builder';
-import { ReadOnlyBuilder } from './read-only';
 import { LinearColorSpace } from './linear-color-space';
 import { CubeColorSpace } from './cube-color-space';
 import { PlaneColorSpace } from './plane-color-space';
-import { createColorResult } from './color-result';
-import { contrast, ContrastBuilder } from './contrast';
+import { createColor } from './color-result';
+import { lint, LintBuilder } from './lint';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
@@ -18,7 +17,7 @@ import type {
   RampaOutputFormat,
   ColorInfo,
   InterpolationMode,
-  ColorResult,
+  Color,
   ColorAccessor,
   RgbComponents,
   LinearColorSpaceFn,
@@ -28,6 +27,7 @@ import type {
   ContrastMode,
   ContrastLevelResult,
   ContrastResult,
+  LintResult,
 } from './types';
 
 /**
@@ -55,23 +55,8 @@ export function rampa(baseColor: string): RampaFn {
 /**
  * Convert a color string to a different format.
  */
-rampa.convert = function convert(color: string, format: ColorFormat): string {
-  return createColorResult(color).format(format);
-};
-
-/**
- * Read a color without generating a ramp (equivalent to --read-only in the CLI).
- *
- * @example
- * ```ts
- * rampa.readOnly('#fe0000')              // ColorInfo with all formats
- * rampa.readOnly('#fe0000', 'hsl')       // 'hsl(0, 100%, 50%)'
- * ```
- */
-rampa.readOnly = function readOnly(color: string, format?: ColorFormat): ColorInfo | string {
-  const builder = new ReadOnlyBuilder(color);
-  if (format) builder.format(format);
-  return builder.value;
+rampa.convert = function convert(colorStr: string, format: ColorFormat): string {
+  return createColor(colorStr).format(format);
 };
 
 /**
@@ -95,39 +80,29 @@ rampa.mix = function mix(color1: string, color2: string, t: number): string {
 };
 
 /**
- * Evaluate contrast between foreground and background colors.
- * Supports APCA Lc (default) and WCAG 2.x ratio modes.
- *
- * @example
- * ```ts
- * const result = rampa.contrast('#777', '#fff');                    // APCA (default)
- * const result = rampa.contrast('#ffffff', '#1e1e2e').mode('wcag'); // WCAG 2.x
- * result.score    // -104.3 (APCA Lc) or 4.48 (WCAG ratio)
- * result.pass     // true if at least one level passes
- * result.levels   // [{ name, threshold, pass }, ...]
- * result.warnings // lint warnings
- * ```
- */
-rampa.contrast = contrast;
-
-/**
- * Create a ColorResult from any hex color string.
- * Provides .hex, .rgb, .luminance, .format() for color inspection.
+ * Inspect a single color — get all format representations, format conversion, and export.
  *
  * @example
  * ```ts
  * import { color } from '@basiclines/rampa-sdk';
- * const c = color('#ff0000');
- * c.rgb        // { r: 255, g: 0, b: 0 }
- * c.luminance  // 0.627 (OKLCH perceptual lightness)
- * c.format('hsl') // 'hsl(0, 100%, 50%)'
+ *
+ * const c = color('#fe0000');
+ * c.hex              // '#fe0000'
+ * c.rgb              // { r: 254, g: 0, b: 0 }
+ * c.hsl              // { h: 0, s: 100, l: 50 }
+ * c.oklch            // { l: 62.8, c: 0.258, h: 29 }
+ * c.luminance        // 0.628
+ * c.format('hsl')    // 'hsl(0, 100%, 50%)'
+ * c.output('json')   // JSON with all formats
+ * c.output('css', 'brand')  // CSS custom properties
+ * `${c}`             // '#fe0000'
  * ```
  */
-export function color(hex: string): ColorResult {
-  return createColorResult(hex);
+export function color(input: string): Color {
+  return createColor(input);
 }
 
-export { RampaBuilder, createRampaFn, ReadOnlyBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace, ContrastBuilder };
+export { lint, RampaBuilder, createRampaFn, LintBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace };
 export type {
   ColorFormat,
   OutputMode,
@@ -140,7 +115,7 @@ export type {
   RampaOutputFormat,
   ColorInfo,
   InterpolationMode,
-  ColorResult,
+  Color,
   ColorAccessor,
   RgbComponents,
   LinearColorSpaceFn,
@@ -150,4 +125,5 @@ export type {
   ContrastMode,
   ContrastLevelResult,
   ContrastResult,
+  LintResult,
 };
