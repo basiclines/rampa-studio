@@ -32,17 +32,21 @@ src/engine/          ← Core math (color mixing, interpolation, ramps)
   ├── ColorSpaceEngine.ts  Linear/Plane/Cube color space generation
   ├── OklchEngine.ts       Color mixing and perceptual uniformity
   ├── HarmonyEngine.ts     Complementary, triadic, analogous, etc.
-  └── BlendingEngine.ts    16 blend modes for tinting
+  ├── BlendingEngine.ts    16 blend modes for tinting
+  ├── PaletteEngine.ts     Image palette extraction (k-means, ANSI classification)
+  └── ImageDecoder.ts      PNG/JPEG decoding (fast-png + jpeg-js)
 
 sdk/src/             ← npm package (@basiclines/rampa-sdk)
   ├── builder.ts           rampa('#hex').size(10).lightness(10,90) → callable palette
+  ├── palette.ts           palette('image.jpg') → dominant, raw, ansi, average
   ├── linear-color-space.ts
   ├── plane-color-space.ts
   └── cube-color-space.ts
 
 cli/src/             ← npm package (@basiclines/rampa)
   ├── index.ts             Main CLI entry (citty framework)
-  └── colorspace.ts        `rampa colorspace` subcommand
+  ├── colorspace.ts        `rampa colorspace` subcommand
+  └── palette.ts           `rampa palette` subcommand
 
 src/                 ← React web app (rampa.studio)
   ├── components/          shadcn/ui + @react-three/fiber for 3D viewer

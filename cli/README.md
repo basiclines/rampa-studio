@@ -310,6 +310,32 @@ rampa color '#66b172' --lighten 0.1 --desaturate 0.05 -O css --prefix brand
 | `--help` | `-h` | Show help |
 | `--version` | `-v` | Show version |
 
+### Image Palette
+
+Extract color palettes from PNG and JPEG images.
+
+```bash
+rampa palette photo.jpg
+rampa palette photo.jpg --count 5
+rampa palette photo.jpg --ansi --count 3
+rampa palette photo.jpg --output json
+```
+
+| Flag | Alias | Description |
+|------|-------|-------------|
+| `<file>` | | Image file path (PNG or JPEG) |
+| `--count <n>` | | Number of dominant colors (default: 10) |
+| `--tolerance <n>` | | DeltaE clustering radius (default: 4) |
+| `--raw` | | Show all unique colors |
+| `--raw-tolerance <n>` | | DeltaE threshold for raw dedup (default: 2) |
+| `--max-colors <n>` | | Max colors for raw output (default: 1000) |
+| `--ansi` | | Classify into ANSI color categories |
+| `--average` | | Show average color only |
+| `--temperature` | | Show color temperature only |
+| `--sample-size <n>` | | Pixels to sample (default: 50000) |
+| `--output <text\|json\|css>` | `-O` | Output format (default: text) |
+| `--prefix <name>` | | CSS variable prefix (default: palette) |
+
 ## Examples
 
 ### Basic Palette
@@ -498,6 +524,32 @@ rampa color '#ff8800' --blend '#0088ff' --ratio 0.5 --mode multiply
 
 # Set absolute OKLCH values
 rampa color '#f85149' --set-lightness 0.48 --set-chroma 0.15
+```
+
+### Image Palette
+
+```bash
+# Dominant colors from a photo
+rampa palette photo.jpg
+
+# Top 5 with ANSI swatches
+rampa palette photo.jpg --count 5
+
+# ANSI-classified palette
+rampa palette photo.jpg --ansi --count 3
+
+# Raw unique colors
+rampa palette photo.jpg --raw --tolerance 5
+
+# JSON output for tooling
+rampa palette photo.jpg --output json
+
+# CSS variables
+rampa palette photo.jpg --output css --prefix photo
+
+# Average color and temperature
+rampa palette photo.jpg --average
+rampa palette photo.jpg --temperature
 ```
 
 ## Contextual Help

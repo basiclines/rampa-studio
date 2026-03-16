@@ -717,6 +717,83 @@ const rgbSpace = new PlaneColorSpace('#000', '#fff', '#f00').format('rgb').size(
 rgbSpace(3, 5).hex() // → '#ff8080' (still available)
 ```
 
+## Image Palette Extraction
+
+Extract color palettes from images with three tiers of analysis: raw unique colors, dominant color clusters, and ANSI-classified palettes.
+
+Requires `fast-png` and `jpeg-js` (installed as dependencies). Supports PNG and JPEG files.
+
+### `palette(filePath)`
+
+```typescript
+import { palette } from '@basiclines/rampa-sdk';
+
+const p = await palette('photo.jpg');
+```
+
+### Dominant Colors
+
+Top N color groups via k-means clustering in OKLCH space:
+
+```typescript
+p.dominant()                     // → PaletteEntry[] (top 10)
+p.dominant({ count: 5 })        // top 5
+p.dominant({ tolerance: 10 })   // wider clustering (default: 4)
+
+// Shortcut with .at() (0-based, like ramp.at())
+p.at(0)                          // most dominant color
+p.at(0).color.hex               // → '#2d2a18'
+p.at(0).frequency               // → 0.278 (27.8% of pixels)
+p.at(0).color.lighten(0.1).hex  // chain transforms
+```
+
+### Raw Palette
+
+All unique colors with near-duplicates merged:
+
+```typescript
+p.raw()                          // → PaletteEntry[]
+p.raw({ tolerance: 3 })         // deltaE merge threshold (default: 2)
+p.raw({ maxColors: 500 })       // cap output (default: 1000)
+```
+
+### ANSI Palette
+
+Colors classified into terminal color categories:
+
+```typescript
+p.ansi()
+// → { red: PaletteEntry[], green: [...], blue: [...], ... }
+
+p.ansi({ count: 3 })            // max 3 per category (default: 5)
+```
+
+Categories: `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`
+
+### Extras
+
+```typescript
+p.average()                      // → Color (weighted OKLCH average)
+p.temperature()                  // → 'warm' | 'cool' | 'neutral'
+```
+
+### Output
+
+```typescript
+p.output('json')                 // full analysis as JSON
+p.output('css', 'photo')        // CSS custom properties
+p.output('text')                 // readable text
+```
+
+### PaletteEntry Shape
+
+```typescript
+interface PaletteEntry {
+  color: Color;       // full Color with transforms
+  frequency: number;  // 0-1, percentage of sampled pixels
+}
+```
+
 ## Development
 
 ```bash
