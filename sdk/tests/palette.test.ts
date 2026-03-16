@@ -188,4 +188,125 @@ describe('palette()', () => {
       expect(entry.color.oklch).toBeDefined();
     });
   });
+
+  describe('.sortBy()', () => {
+    it('sorts dominant by lightness ascending', async () => {
+      const p = await palette(TEST_PNG);
+      const sorted = p.dominant().sortBy('L');
+      for (let i = 1; i < sorted.length; i++) {
+        expect(sorted[i].color.oklch.l).toBeGreaterThanOrEqual(sorted[i - 1].color.oklch.l);
+      }
+    });
+
+    it('sorts dominant by chroma ascending', async () => {
+      const p = await palette(TEST_PNG);
+      const sorted = p.dominant().sortBy('C');
+      for (let i = 1; i < sorted.length; i++) {
+        expect(sorted[i].color.oklch.c).toBeGreaterThanOrEqual(sorted[i - 1].color.oklch.c);
+      }
+    });
+
+    it('sorts dominant by hue ascending', async () => {
+      const p = await palette(TEST_PNG);
+      const sorted = p.dominant().sortBy('H');
+      for (let i = 1; i < sorted.length; i++) {
+        expect(sorted[i].color.oklch.h).toBeGreaterThanOrEqual(sorted[i - 1].color.oklch.h);
+      }
+    });
+
+    it('returns a new array (does not mutate)', async () => {
+      const p = await palette(TEST_PNG);
+      const original = p.dominant();
+      const sorted = original.sortBy('L');
+      expect(sorted).not.toBe(original);
+      expect(sorted.length).toBe(original.length);
+    });
+
+    it('sortBy is chainable', async () => {
+      const p = await palette(TEST_PNG);
+      const sorted = p.dominant().sortBy('L').sortBy('C');
+      expect(sorted.length).toBeGreaterThan(0);
+    });
+
+    it('sorts group buckets internally by L', async () => {
+      const p = await palette(TEST_JPEG);
+      const grouped = p.group({ by: 'C' }).sortBy('L');
+      for (const [, entries] of Object.entries(grouped)) {
+        for (let i = 1; i < entries.length; i++) {
+          expect(entries[i].color.oklch.l).toBeGreaterThanOrEqual(entries[i - 1].color.oklch.l);
+        }
+      }
+    });
+
+    it('sorts ansi buckets internally', async () => {
+      const p = await palette(TEST_PNG);
+      const ansi = p.ansi().sortBy('L');
+      for (const [, entries] of Object.entries(ansi)) {
+        for (let i = 1; i < entries.length; i++) {
+          expect(entries[i].color.oklch.l).toBeGreaterThanOrEqual(entries[i - 1].color.oklch.l);
+        }
+      }
+    });
+  });
+
+  describe('.group()', () => {
+    it('groups by lightness with default buckets', async () => {
+      const p = await palette(TEST_PNG);
+      const grouped = p.group({ by: 'L' });
+      const keys = Object.keys(grouped);
+      expect(keys).toEqual(['darkest', 'dark', 'mid', 'light', 'lightest']);
+    });
+
+    it('groups by chroma with default buckets', async () => {
+      const p = await palette(TEST_PNG);
+      const grouped = p.group({ by: 'C' });
+      const keys = Object.keys(grouped);
+      expect(keys).toEqual(['gray', 'muted', 'saturated', 'vivid']);
+    });
+
+    it('groups by hue with default buckets', async () => {
+      const p = await palette(TEST_PNG);
+      const grouped = p.group({ by: 'H' });
+      const keys = Object.keys(grouped);
+      expect(keys).toEqual(['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'purple', 'pink']);
+    });
+
+    it('respects count per bucket', async () => {
+      const p = await palette(TEST_JPEG);
+      const grouped = p.group({ by: 'L', count: 2 });
+      for (const entries of Object.values(grouped)) {
+        expect(entries.length).toBeLessThanOrEqual(2);
+      }
+    });
+
+    it('respects tolerance for dedup', async () => {
+      const p = await palette(TEST_JPEG);
+      const tight = p.group({ by: 'L', tolerance: 2, count: 20 });
+      const wide = p.group({ by: 'L', tolerance: 10, count: 20 });
+      const tightTotal = Object.values(tight).reduce((s, e) => s + e.length, 0);
+      const wideTotal = Object.values(wide).reduce((s, e) => s + e.length, 0);
+      expect(tightTotal).toBeGreaterThanOrEqual(wideTotal);
+    });
+
+    it('result has sortBy method', async () => {
+      const p = await palette(TEST_PNG);
+      const grouped = p.group({ by: 'C' });
+      expect(typeof grouped.sortBy).toBe('function');
+    });
+  });
+
+  describe('k-means++ clustering', () => {
+    it('post-merges close clusters with tolerance', async () => {
+      const p = await palette(TEST_JPEG);
+      const loose = p.dominant({ count: 10, tolerance: 15 });
+      const tight = p.dominant({ count: 10, tolerance: 2 });
+      expect(loose.length).toBeLessThanOrEqual(tight.length);
+    });
+
+    it('dominant result has sortBy method', async () => {
+      const p = await palette(TEST_PNG);
+      const dom = p.dominant();
+      expect(typeof dom.sortBy).toBe('function');
+    });
+  });
 });
