@@ -1,9 +1,9 @@
 import { generateCubeSpace, mixWithMode } from '../../src/engine/ColorSpaceEngine';
 import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
-import { createColorAccessor, validateSameFormat } from './color-result';
+import { createColorAccessor, validateSameFormat, createColor } from './color-result';
 import { cubeToCSS, cubeToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor, ScaleType, RampaOutputFormat } from './types';
+import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor, ScaleType, RampaOutputFormat, Color } from './types';
 
 // The 8 cube corner positions in binary order.
 // Constructor keys map to these positions by their insertion order.
@@ -175,6 +175,14 @@ export class CubeColorSpace {
           default: throw new Error(`Unknown output format: ${format}`);
         }
       },
+      at: (x: number, y: number, z: number): Color => {
+        const cx = Math.max(0, Math.min(max, Math.round(x)));
+        const cy = Math.max(0, Math.min(max, Math.round(y)));
+        const cz = Math.max(0, Math.min(max, Math.round(z)));
+        const index = cx * stepsPerAxis * stepsPerAxis + cy * stepsPerAxis + cz;
+        return createColor(palette[index]);
+      },
+      colors: (): Color[] => palette.map(hex => createColor(hex)),
     };
 
     // Add per-corner shortcut: e.g. result.r = (index) => tint({ r: index })
