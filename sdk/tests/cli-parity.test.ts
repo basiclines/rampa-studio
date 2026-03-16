@@ -148,7 +148,7 @@ describe('SDK ↔ CLI parity', () => {
     // CLI JSON with --format hsl returns structured {hsl: {h,s,l}} objects.
     // SDK returns formatted hsl() strings. Compare by converting CLI structured to strings.
     const cliHslStrings = cliResult.ramps.map(r =>
-      r.colors.map((c: any) => `hsl(${c.hsl.h}, ${c.hsl.s}%, ${c.hsl.l}%)`)
+      r.colors.map((c: any) => `hsl(${c.hsl.h}, ${Math.round(c.hsl.s * 100)}%, ${Math.round(c.hsl.l * 100)}%)`)
     );
     const sdkColors = sdk.ramps.map(r => r.colors);
 
@@ -172,7 +172,7 @@ describe('SDK ↔ CLI parity', () => {
     const sdk = rampa('#3b82f6').size(5).format('oklch');
 
     const cliOklchStrings = cliResult.ramps.map(r =>
-      r.colors.map((c: any) => `oklch(${c.oklch.l.toFixed(1)}% ${c.oklch.c.toFixed(3)} ${c.oklch.h})`)
+      r.colors.map((c: any) => `oklch(${(c.oklch.l * 100).toFixed(1)}% ${c.oklch.c.toFixed(3)} ${c.oklch.h})`)
     );
     const sdkColors = sdk.ramps.map(r => r.colors);
 
