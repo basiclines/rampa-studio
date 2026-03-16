@@ -28,6 +28,7 @@ import type {
   ContrastLevelResult,
   ContrastResult,
   LintResult,
+  OklchSetValues,
 } from './types';
 
 /**
@@ -126,4 +127,5 @@ export type {
   ContrastLevelResult,
   ContrastResult,
   LintResult,
+  OklchSetValues,
 };
