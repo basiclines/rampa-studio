@@ -70,6 +70,24 @@ Do NOT use `.hex` property — use template literals or `.valueOf()`.
 - **CubeColorSpace** — 3D cube (8 corner colors: k, r, g, b, y, m, c, w)
 
 All support chainable `.interpolation()`, `.format()`, `.size()`.
+All support `.at()` for 0-based Color access and `.colors()` for Color[] arrays.
+
+### Color Transforms
+All transforms on `color()` operate in **OKLCH space** and return a new immutable `Color`:
+- `lighten(n)`, `darken(n)` — absolute L delta (0-1 scale)
+- `saturate(n)`, `desaturate(n)` — absolute chroma delta
+- `rotate(n)` — hue rotation in degrees
+- `set({ lightness?, chroma?, hue? })` — absolute OKLCH values
+- `mix(color, ratio, space?)` — color space interpolation (oklch/lab/srgb)
+- `blend(color, opacity, mode)` — compositing modes (multiply/screen/overlay etc.)
+
+### Value Ranges
+All structured property values use **0-1 normalized ranges** (CSS-spec aligned):
+- `hsl.s`, `hsl.l` — 0 to 1 (not 0-100)
+- `oklch.l` — 0 to 1 (not 0-100)
+- `oklch.c` — 0 to ~0.4 (native OKLCH)
+- Hue values are always 0-360 degrees
+- `.format()` string output uses CSS conventions (percentages where appropriate)
 
 ### SDK Type Declarations
 When adding new types, interfaces, or classes to the SDK:

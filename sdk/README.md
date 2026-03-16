@@ -237,7 +237,17 @@ result.ramps[1].colors        // complementary ramp colors
 
 ### `color(input)`
 
-Inspect a single color — get all format representations, format conversion, and export. Equivalent to `rampa color` in the CLI.
+Inspect, transform, mix, and export a single color. Equivalent to `rampa color` in the CLI.
+
+All property values use **0-1 normalized ranges** to match CSS spec conventions:
+
+| Property | Range |
+|----------|-------|
+| `hsl.h` | 0–360 (degrees) |
+| `hsl.s`, `hsl.l` | 0–1 |
+| `oklch.l` | 0–1 |
+| `oklch.c` | 0–0.4 (native OKLCH scale) |
+| `oklch.h` | 0–360 (degrees) |
 
 ```typescript
 import { color } from '@basiclines/rampa-sdk';
@@ -245,11 +255,11 @@ import { color } from '@basiclines/rampa-sdk';
 const c = color('#fe0000');
 c.hex              // '#fe0000'
 c.rgb              // { r: 254, g: 0, b: 0 }
-c.hsl              // { h: 0, s: 100, l: 50 }
-c.oklch            // { l: 62.8, c: 0.258, h: 29 }
+c.hsl              // { h: 0, s: 1.0, l: 0.5 }
+c.oklch            // { l: 0.628, c: 0.258, h: 29 }
 c.luminance        // 0.628
 
-// Format conversion
+// Format conversion (string output uses CSS conventions: percentages)
 c.format('hsl')    // 'hsl(0, 100%, 50%)'
 c.format('rgb')    // 'rgb(254, 0, 0)'
 c.format('oklch')  // 'oklch(62.8% 0.258 29)'
@@ -262,6 +272,51 @@ c.output('text')           // plain hex string
 // String coercion
 `${c}`             // '#fe0000'
 ```
+
+#### Color Transforms
+
+All transforms operate in **OKLCH space** and return a new immutable `Color`. Chain freely.
+
+```typescript
+// Absolute deltas — clamped to valid range
+c.lighten(0.1)           // L += 0.1 (OKLCH lightness, 0-1)
+c.darken(0.1)            // L -= 0.1
+c.saturate(0.05)         // C += 0.05 (OKLCH chroma)
+c.desaturate(0.05)       // C -= 0.05
+c.rotate(30)             // H += 30° (hue rotation)
+
+// All accept negative values: lighten(-0.1) === darken(0.1)
+
+// Set absolute OKLCH values
+c.set({ lightness: 0.48 })             // set L
+c.set({ chroma: 0.15, hue: 200 })     // batch set
+
+// Chain transforms
+color('#66b172').lighten(0.1).desaturate(0.05).hex
+// → bright desaturated green, no throwaway converters
+```
+
+#### Mix (color space interpolation)
+
+Like CSS `color-mix()` — interpolates between two colors in a chosen color space.
+
+```typescript
+c.mix('#0000ff', 0.5)            // 50% mix in oklch (default)
+c.mix('#0000ff', 0.18, 'lab')    // explicit color space
+c.mix('#0000ff', 0.18, 'srgb')   // sRGB interpolation
+```
+
+#### Blend (compositing modes)
+
+Like Photoshop/CSS blend modes — composites two colors with an opacity and a blend mode.
+
+```typescript
+c.blend('#0000ff', 0.15, 'multiply')
+c.blend('#0000ff', 0.15, 'screen')
+c.blend('#0000ff', 0.15, 'overlay')
+```
+
+Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`
 
 ### `rampa.convert(color, format)`
 
@@ -335,8 +390,9 @@ import type {
   RampResult,          // { name, baseColor, colors }
   RampaResult,         // { ramps: RampResult[] }
   RampaFn,             // callable palette returned by rampa()
-  Color,               // { hex, rgb, hsl, oklch, luminance, format(), output() }
+  Color,               // { hex, rgb, hsl, oklch, luminance, format(), output(), lighten(), ... }
   ColorInfo,           // { hex, rgb, hsl, oklch }
+  OklchSetValues,      // { lightness?, chroma?, hue? } for color.set()
   InterpolationMode,   // 'oklch' | 'lab' | 'rgb'
   LinearColorSpaceFn,  // callable function returned by LinearColorSpace.size()
   CubeColorSpaceFn,    // callable function returned by CubeColorSpace.size()
@@ -453,6 +509,23 @@ neutral(12).hsl()        // → 'hsl(0, 0%, 40%)'
 neutral.palette          // → string[24]
 ```
 
+#### Ramp introspection
+
+Access individual steps as full `Color` objects with `.at()`, or get all steps with `.colors()`:
+
+```typescript
+const ramp = new LinearColorSpace('#000', '#fff').size(12);
+
+ramp.at(3)                       // → Color (0-based index)
+ramp.at(3).oklch.c               // → chroma at step 3
+ramp.at(3).lighten(0.1).hex      // → transform a ramp step
+
+ramp.colors()                    // → Color[]
+ramp.colors().map(c => c.oklch.c)  // → chroma curve across ramp
+```
+
+**`.at()` is 0-based** (like `Array.at()`), while the callable `ramp(n)` remains 1-based for backward compatibility.
+
 #### Lookup table mode
 
 Set `.interpolation(false)` for a plain lookup table — no interpolation, just indexed access to the exact colors you provide:
@@ -497,6 +570,11 @@ red(5, 5)          // → full hue color
 red(0, 0)          // → dark anchor
 red.palette        // → string[36] (6²)
 
+// Ramp introspection
+red.at(3, 5)              // → Color at (saturation=3, lightness=5)
+red.at(3, 5).oklch.c      // → chroma at that coordinate
+red.colors()              // → Color[] (flat, row-major)
+
 // Template literals and concatenation work directly
 `background: ${red(3, 5)};`  // → 'background: #ab34cd;'
 
@@ -526,6 +604,10 @@ const { r, b, tint } = new CubeColorSpace({
 r(4)                     // → strong red
 tint({ r: 4, b: 2 })     // → red-blue blend
 tint({ w: 3 })           // → mid-white (all axes at 3)
+
+// Ramp introspection
+cube.at(2, 3, 1)         // → Color at (x=2, y=3, z=1)
+cube.colors()            // → Color[]
 ```
 
 #### Custom vocabulary

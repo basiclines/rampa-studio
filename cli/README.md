@@ -267,7 +267,7 @@ rampa lint --fg '#fff' --bg '#000' --output json
 
 ### Color
 
-Inspect a color in all supported formats (hex, hsl, rgb, oklch).
+Inspect, transform, mix, and export a single color. All transforms operate in OKLCH space.
 
 ```bash
 rampa color '#ff6600'
@@ -277,9 +277,31 @@ rampa color '#1e1e2e' -O css --prefix brand
 
 | Flag | Alias | Description |
 |------|-------|-------------|
-| `<color>` | `-c` | Color to inspect (positional or flag) |
+| `<color>` | `-c` | Color to inspect/transform (positional or flag) |
 | `--output <text\|json\|css>` | `-O` | Output format (default: text) |
 | `--prefix <name>` | | Prefix for CSS variable names (default: color) |
+| `--lighten <n>` | | Increase OKLCH lightness by n (0-1 scale) |
+| `--darken <n>` | | Decrease OKLCH lightness by n |
+| `--saturate <n>` | | Increase OKLCH chroma by n |
+| `--desaturate <n>` | | Decrease OKLCH chroma by n |
+| `--rotate <n>` | | Rotate hue by n degrees |
+| `--set-lightness <n>` | | Set OKLCH lightness to n |
+| `--set-chroma <n>` | | Set OKLCH chroma to n |
+| `--set-hue <n>` | | Set hue to n degrees |
+| `--mix <color>` | | Mix with target color (use --ratio, --space) |
+| `--blend <color>` | | Blend with target color (use --ratio, --mode) |
+| `--ratio <n>` | | Mix/blend ratio 0-1 (default: 0.5) |
+| `--space <oklch\|lab\|srgb>` | | Color space for --mix (default: oklch) |
+| `--mode <name>` | | Blend mode for --blend (multiply, screen, overlay, etc.) |
+
+Transforms are applied left-to-right, matching SDK chaining order:
+
+```bash
+rampa color '#66b172' --lighten 0.1 --desaturate 0.05
+rampa color '#ff0000' --mix '#0000ff' --ratio 0.5 --space lab
+rampa color '#ff8800' --blend '#0088ff' --ratio 0.5 --mode multiply
+rampa color '#66b172' --lighten 0.1 --desaturate 0.05 -O css --prefix brand
+```
 
 ### Other
 
@@ -454,13 +476,28 @@ rampa lint --fg '#fff' --bg '#000' -O css
 
 ```bash
 # View all formats
-rampa inspect -c '#ff6600'
+rampa color '#ff6600'
 
 # JSON output
-rampa inspect -c 'rgb(100, 200, 50)' --output json
+rampa color 'rgb(100, 200, 50)' --output json
 
 # CSS custom properties
-rampa inspect -c '#1e1e2e' -O css
+rampa color '#1e1e2e' -O css
+
+# Transform: lighten and desaturate
+rampa color '#66b172' --lighten 0.1 --desaturate 0.05
+
+# Derive bright variant
+rampa color '#06ef48' --lighten 0.1 --desaturate 0.05
+
+# Mix two colors in lab space
+rampa color '#ff0000' --mix '#0000ff' --ratio 0.5 --space lab
+
+# Blend with multiply mode
+rampa color '#ff8800' --blend '#0088ff' --ratio 0.5 --mode multiply
+
+# Set absolute OKLCH values
+rampa color '#f85149' --set-lightness 0.48 --set-chroma 0.15
 ```
 
 ## Contextual Help
