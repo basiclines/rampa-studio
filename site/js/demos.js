@@ -38,11 +38,13 @@
       harmony: { title: 'Harmonies', run: runHarmony },
       contrast: { title: 'Contrast lint', run: runContrast },
       colorspace: { title: 'Color space', run: runColorspace },
+      'cli-transforms': { title: 'Color transforms', run: runCliTransforms },
       // SDK demos
       'sdk-ramp': { title: 'Builder API', run: runSdkRamp },
       'sdk-linear': { title: 'Linear space', run: runSdkLinear },
       'sdk-plane': { title: 'Plane space', run: runSdkPlane },
       'sdk-contrast': { title: 'Contrast', run: runSdkContrast },
+      'sdk-transforms': { title: 'Color transforms', run: runSdkTransforms },
     };
 
     // Wire up nav buttons + intersection observer BEFORE hero animation
@@ -261,6 +263,71 @@
       await tt.line([comment('// ]')], { instant: true });
       await tt.wait(TICK);
       await tt.line([dim('result.'), prop('warnings'), dim(' '), comment('// ["Pure #ffffff…"]')], { instant: true });
+      tt.cursor();
+    }
+
+    async function runCliTransforms(tt) {
+      await tt.line([dim('$ '), cmd('rampa'), dim(' color '), val("'#66b172'"), dim(' '), flag('--lighten'), dim(' '), num('0.1'), dim(' '), flag('--desaturate'), dim(' '), num('0.05')], { instant: true });
+      await tt.wait(300);
+      await tt.line('', { instant: true });
+      await tt.line([comment('# Bright variant — no hand-written converters')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('hex    '), val('#8cd69a')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('oklch  '), val('oklch(81.2% 0.103 150)')], { instant: true });
+      await tt.wait(300);
+      await tt.line('', { instant: true });
+      await tt.line('', { instant: true });
+      await tt.line([dim('$ '), cmd('rampa'), dim(' color '), val("'#f85149'"), dim(' '), flag('--set-lightness'), dim(' '), num('0.48'), dim(' '), flag('--set-chroma'), dim(' '), num('0.15')], { instant: true });
+      await tt.wait(300);
+      await tt.line('', { instant: true });
+      await tt.line([comment('# Absolute OKLCH positioning')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('hex    '), val('#c73d51')], { instant: true });
+      await tt.wait(300);
+      await tt.line('', { instant: true });
+      await tt.line('', { instant: true });
+      await tt.line([dim('$ '), cmd('rampa'), dim(' color '), val("'#ff0000'"), dim(' '), flag('--mix'), dim(' '), val("'#0000ff'"), dim(' '), flag('--ratio'), dim(' '), num('0.5'), dim(' '), flag('--space'), dim(' '), val('lab')], { instant: true });
+      await tt.wait(300);
+      await tt.line('', { instant: true });
+      await tt.line([comment('# color-mix in lab space')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('hex    '), val('#c10078')], { instant: true });
+      tt.cursor();
+    }
+
+    async function runSdkTransforms(tt) {
+      await tt.line([kw('import'), dim(' { '), val('color'), dim(', '), val('LinearColorSpace'), dim(' } '), kw('from'), val(' "@basiclines/rampa-sdk"')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line('', { instant: true });
+      await tt.line([comment('// OKLCH transforms — all return new Color')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([kw('const'), dim(' c = '), cmd('color'), dim('('), val('"#66b172"'), dim(')')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('c.'), prop('lighten'), dim('('), num('0.1'), dim(').'), prop('desaturate'), dim('('), num('0.05'), dim(').'), prop('hex')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([comment('// → "#8cd69a"  bright variant, no throwaway converters')], { instant: true });
+      await tt.wait(300);
+      await tt.line('', { instant: true });
+      await tt.line([comment('// Mix — like CSS color-mix()')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('c.'), prop('mix'), dim('('), val('"#0000ff"'), dim(', '), num('0.5'), dim(', '), val('"lab"'), dim(')'), dim('.'), prop('hex')], { instant: true });
+      await tt.wait(300);
+      await tt.line('', { instant: true });
+      await tt.line([comment('// Set absolute OKLCH values')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('c.'), prop('set'), dim('({ '), prop('lightness'), dim(': '), num('0.48'), dim(', '), prop('chroma'), dim(': '), num('0.15'), dim(' })'), dim('.'), prop('hex')], { instant: true });
+      await tt.wait(300);
+      await tt.line('', { instant: true });
+      await tt.line([comment('// Ramp introspection — .at() returns Color')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([kw('const'), dim(' ramp = '), kw('new'), cmd(' LinearColorSpace'), dim('('), val('"#000"'), dim(', '), val('"#fff"'), dim(')'), dim('.'), prop('size'), dim('('), num('12'), dim(')')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('ramp.'), prop('at'), dim('('), num('3'), dim(').'), prop('oklch'), dim('.'), prop('c'), dim('   '), comment('// chroma at step 3')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([dim('ramp.'), prop('colors'), dim('().'), prop('map'), dim('('), val('c'), dim(' => c.'), prop('oklch'), dim('.'), prop('l'), dim(')')], { instant: true });
+      await tt.wait(TICK);
+      await tt.line([comment('// → [0, 0.09, 0.18, ... 1]  lightness curve')], { instant: true });
       tt.cursor();
     }
 
