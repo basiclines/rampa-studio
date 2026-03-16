@@ -318,6 +318,7 @@ Extract color palettes from PNG and JPEG images.
 rampa palette photo.jpg
 rampa palette photo.jpg --count 5
 rampa palette photo.jpg --ansi --count 3
+rampa palette photo.jpg --group C --sort L
 rampa palette photo.jpg --output json
 ```
 
@@ -330,6 +331,11 @@ rampa palette photo.jpg --output json
 | `--raw-tolerance <n>` | | DeltaE threshold for raw dedup (default: 2) |
 | `--max-colors <n>` | | Max colors for raw output (default: 1000) |
 | `--ansi` | | Classify into ANSI color categories |
+| `--group <L\|C\|H>` | | Group by lightness, chroma, or hue |
+| `--l-buckets <n>` | | Number of lightness buckets (default: 5) |
+| `--c-buckets <n>` | | Number of chroma buckets (default: 4) |
+| `--h-buckets <n>` | | Number of hue buckets (default: 8) |
+| `--sort <frequency\|L\|C\|H>` | | Sort order (default: frequency) |
 | `--average` | | Show average color only |
 | `--temperature` | | Show color temperature only |
 | `--sample-size <n>` | | Pixels to sample (default: 50000) |
@@ -537,6 +543,15 @@ rampa palette photo.jpg --count 5
 
 # ANSI-classified palette
 rampa palette photo.jpg --ansi --count 3
+
+# Group by chroma, sorted by lightness (accent discovery)
+rampa palette photo.jpg --group C --sort L
+
+# Group by lightness with 3 buckets
+rampa palette photo.jpg --group L --l-buckets 3
+
+# Group by hue, sorted dark→light
+rampa palette photo.jpg --group H --sort L
 
 # Raw unique colors
 rampa palette photo.jpg --raw --tolerance 5

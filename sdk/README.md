@@ -770,6 +770,51 @@ p.ansi({ count: 3 })            // max 3 per category (default: 5)
 
 Categories: `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`
 
+### Group by OKLCH Property
+
+Group colors into buckets by lightness, chroma, or hue:
+
+```typescript
+p.group({ by: 'L' })            // → { darkest, dark, mid, light, lightest }
+p.group({ by: 'C' })            // → { gray, muted, saturated, vivid }
+p.group({ by: 'H' })            // → { red, orange, yellow, green, cyan, blue, purple, pink }
+
+p.group({ by: 'L', count: 3 })  // max 3 colors per bucket
+p.group({ by: 'L', tolerance: 10 })  // wider dedup within buckets
+```
+
+Custom bucket boundaries:
+
+```typescript
+p.group({
+  by: 'L',
+  buckets: [
+    { name: 'dark', min: 0, max: 0.3 },
+    { name: 'mid',  min: 0.3, max: 0.7 },
+    { name: 'light', min: 0.7, max: 1.0 },
+  ],
+})
+```
+
+### Sorting with `.sortBy()`
+
+All array and grouped results support `.sortBy()` for reordering:
+
+```typescript
+// Sort dominant colors by lightness (dark → light)
+p.dominant({ count: 5 }).sortBy('L')
+
+// Sort within each group bucket
+p.group({ by: 'C' }).sortBy('L')    // chroma groups, each sorted dark→light
+p.ansi().sortBy('L')                 // ANSI categories, each sorted dark→light
+
+// Sort fields: 'L' (lightness), 'C' (chroma), 'H' (hue), 'frequency'
+p.raw().sortBy('H')                  // all colors sorted by hue angle
+
+// Chainable — returns a new sorted result
+p.dominant().sortBy('L').sortBy('C')
+```
+
 ### Extras
 
 ```typescript
