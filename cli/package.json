@@ -45,7 +45,9 @@
   },
   "dependencies": {
     "chroma-js": "^3.1.2",
-    "citty": "^0.1.6"
+    "citty": "^0.1.6",
+    "fast-png": "^8.0.0",
+    "jpeg-js": "^0.4.4"
   },
   "devDependencies": {
     "@github/copilot-sdk": "^0.1.23",
