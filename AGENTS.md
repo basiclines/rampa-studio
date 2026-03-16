@@ -129,3 +129,9 @@ CLI uses manual argument parsing (not a framework for `colorspace` subcommand). 
 **Always include release notes** when creating a GitHub release. Summarize new features, fixes, and breaking changes. Use the PR descriptions and commit messages as source material.
 
 **Always ask the user before committing and pushing.**
+
+## Development Skills
+
+Internal skills for rampa development live in `.github/skills/`:
+
+- **`update-docs`** — Audit and update all documentation after code changes. Lists every doc file, source file, and default value that must stay in sync. Use after adding features or changing defaults.
