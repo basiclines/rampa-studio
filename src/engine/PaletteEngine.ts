@@ -361,6 +361,93 @@ export function buildAnsiPalette(
   return buckets;
 }
 
+// ── Group by OKLCH property ──────────────────────────────────
+
+export interface GroupBucket {
+  name: string;
+  min: number;
+  max: number;
+}
+
+const DEFAULT_L_BUCKETS: GroupBucket[] = [
+  { name: 'darkest',  min: 0,   max: 0.2 },
+  { name: 'dark',     min: 0.2, max: 0.4 },
+  { name: 'mid',      min: 0.4, max: 0.6 },
+  { name: 'light',    min: 0.6, max: 0.8 },
+  { name: 'lightest', min: 0.8, max: 1.0 },
+];
+
+const DEFAULT_C_BUCKETS: GroupBucket[] = [
+  { name: 'gray',      min: 0,    max: 0.02 },
+  { name: 'muted',     min: 0.02, max: 0.06 },
+  { name: 'saturated', min: 0.06, max: 0.12 },
+  { name: 'vivid',     min: 0.12, max: Infinity },
+];
+
+const DEFAULT_H_BUCKETS: GroupBucket[] = [
+  { name: 'red',    min: 0,   max: 45  },
+  { name: 'orange', min: 45,  max: 75  },
+  { name: 'yellow', min: 75,  max: 105 },
+  { name: 'green',  min: 105, max: 165 },
+  { name: 'cyan',   min: 165, max: 195 },
+  { name: 'blue',   min: 195, max: 270 },
+  { name: 'purple', min: 270, max: 330 },
+  { name: 'pink',   min: 330, max: 360 },
+];
+
+export type GroupByProperty = 'L' | 'C' | 'H';
+
+export function getDefaultBuckets(property: GroupByProperty): GroupBucket[] {
+  switch (property) {
+    case 'L': return DEFAULT_L_BUCKETS;
+    case 'C': return DEFAULT_C_BUCKETS;
+    case 'H': return DEFAULT_H_BUCKETS;
+  }
+}
+
+function getPropertyValue(oklch: OklchPixel, property: GroupByProperty): number {
+  switch (property) {
+    case 'L': return oklch.l;
+    case 'C': return oklch.c;
+    case 'H': return oklch.h;
+  }
+}
+
+export function buildGroupPalette(
+  entries: PaletteEngineEntry[],
+  property: GroupByProperty,
+  buckets: GroupBucket[],
+  countPerBucket: number = 5,
+  tolerance: number = 4
+): Record<string, PaletteEngineEntry[]> {
+  const result: Record<string, PaletteEngineEntry[]> = {};
+  for (const b of buckets) {
+    result[b.name] = [];
+  }
+
+  for (const entry of entries) {
+    const val = getPropertyValue(entry.oklch, property);
+    for (const b of buckets) {
+      if (val >= b.min && val < b.max) {
+        const bucket = result[b.name];
+        if (bucket.length >= countPerBucket) break;
+
+        const tooClose = bucket.some(e => oklchDeltaE(entry.oklch, e.oklch) < tolerance);
+        if (tooClose) break;
+
+        bucket.push(entry);
+        break;
+      }
+    }
+  }
+
+  for (const key of Object.keys(result)) {
+    result[key].sort((a, b) => b.frequency - a.frequency);
+  }
+
+  return result;
+}
+
 // ── Average Color ────────────────────────────────────────────
 
 export function computeAverage(entries: PaletteEngineEntry[]): OklchPixel {
