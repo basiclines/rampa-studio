@@ -105,7 +105,7 @@ export function color(input: string): Color {
 
 export { lint, RampaBuilder, createRampaFn, LintBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace };
 export { palette } from './palette';
-export type { PaletteEntry, PaletteResult, PaletteOptions, RawOptions, DominantOptions, AnsiOptions } from './palette';
+export type { PaletteEntry, PaletteResult, PaletteOptions, RawOptions, DominantOptions, AnsiOptions, GroupOptions, SortField, SortablePaletteEntries, SortablePaletteGroups } from './palette';
 export type {
   ColorFormat,
   OutputMode,
