@@ -142,7 +142,7 @@ Apply a tint color over the palette.
 - `opacity` — Tint strength 0-100
 - `blend` — Blend mode (default: `normal`)
 
-Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`
+Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`, `plus-darker`, `plus-lighter`
 
 ```typescript
 rampa('#3b82f6')
@@ -316,7 +316,7 @@ c.blend('#0000ff', 0.15, 'screen')
 c.blend('#0000ff', 0.15, 'overlay')
 ```
 
-Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`
+Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`, `plus-darker`, `plus-lighter`
 
 ### `rampa.convert(color, format)`
 
@@ -393,7 +393,7 @@ import type {
   Color,               // { hex, rgb, hsl, oklch, luminance, format(), output(), lighten(), ... }
   ColorInfo,           // { hex, rgb, hsl, oklch }
   OklchSetValues,      // { lightness?, chroma?, hue? } for color.set()
-  InterpolationMode,   // 'oklch' | 'lab' | 'rgb'
+  InterpolationMode,   // 'oklch' | 'lab' | 'rgb' | 'srgb'
   LinearColorSpaceFn,  // callable function returned by LinearColorSpace.size()
   CubeColorSpaceFn,    // callable function returned by CubeColorSpace.size()
   LintResult,          // lint builder with score, pass, levels, warnings, output()

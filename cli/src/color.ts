@@ -103,13 +103,6 @@ export function parseColorArgs(args: string[]): ColorArgs {
   let prefix: string | undefined;
   const transforms: TransformOp[] = [];
 
-  // Pending mix/blend state
-  let pendingMix: string | null = null;
-  let pendingBlend: string | null = null;
-  let ratio = 0.5;
-  let space: InterpolationMode = 'oklch';
-  let blendMode: BlendMode | null = null;
-
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];
     const next = args[i + 1];
@@ -142,39 +135,61 @@ export function parseColorArgs(args: string[]): ColorArgs {
     } else if (arg === '--set-hue' && next) {
       transforms.push({ type: 'set-hue', value: parseFloat(next) }); i++;
     } else if (arg === '--mix' && next) {
-      pendingMix = next; i++;
+      // Parse optional --ratio and --space that follow --mix
+      let ratio = 0.5;
+      let space: InterpolationMode = 'oklch';
+      const target = next; i++;
+      while (i + 1 < args.length) {
+        if (args[i + 1] === '--ratio' && args[i + 2]) {
+          const r = parseFloat(args[i + 2]);
+          if (!Number.isFinite(r) || r < 0 || r > 1) {
+            console.error(`Error: --ratio must be a number between 0 and 1, got "${args[i + 2]}".`);
+            process.exit(1);
+          }
+          ratio = r; i += 2;
+        } else if (args[i + 1] === '--space' && args[i + 2]) {
+          const s = args[i + 2].toLowerCase();
+          if (s !== 'oklch' && s !== 'lab' && s !== 'srgb' && s !== 'rgb') {
+            console.error(`Error: Invalid space "${args[i + 2]}". Use 'oklch', 'lab', or 'srgb'.`);
+            process.exit(1);
+          }
+          space = (s === 'srgb' ? 'rgb' : s) as InterpolationMode; i += 2;
+        } else {
+          break;
+        }
+      }
+      transforms.push({ type: 'mix', target, ratio, space });
     } else if (arg === '--blend' && next) {
-      pendingBlend = next; i++;
-    } else if (arg === '--ratio' && next) {
-      ratio = parseFloat(next); i++;
-    } else if (arg === '--space' && next) {
-      const s = next.toLowerCase();
-      if (s !== 'oklch' && s !== 'lab' && s !== 'srgb' && s !== 'rgb') {
-        console.error(`Error: Invalid space "${next}". Use 'oklch', 'lab', or 'srgb'.`);
+      // Parse optional --ratio and --mode that follow --blend
+      let ratio = 0.5;
+      let blendMode: BlendMode | null = null;
+      const target = next; i++;
+      while (i + 1 < args.length) {
+        if (args[i + 1] === '--ratio' && args[i + 2]) {
+          const r = parseFloat(args[i + 2]);
+          if (!Number.isFinite(r) || r < 0 || r > 1) {
+            console.error(`Error: --ratio must be a number between 0 and 1, got "${args[i + 2]}".`);
+            process.exit(1);
+          }
+          ratio = r; i += 2;
+        } else if (args[i + 1] === '--mode' && args[i + 2]) {
+          if (!VALID_BLEND_MODES.includes(args[i + 2].toLowerCase())) {
+            console.error(`Error: Invalid blend mode "${args[i + 2]}". Valid modes: ${VALID_BLEND_MODES.join(', ')}`);
+            process.exit(1);
+          }
+          blendMode = args[i + 2].toLowerCase() as BlendMode; i += 2;
+        } else {
+          break;
+        }
+      }
+      if (!blendMode) {
+        console.error('Error: --blend requires --mode <blend-mode>.');
         process.exit(1);
       }
-      space = (s === 'srgb' ? 'rgb' : s) as InterpolationMode; i++;
-    } else if (arg === '--mode' && next) {
-      if (!VALID_BLEND_MODES.includes(next.toLowerCase())) {
-        console.error(`Error: Invalid blend mode "${next}". Valid modes: ${VALID_BLEND_MODES.join(', ')}`);
-        process.exit(1);
-      }
-      blendMode = next.toLowerCase() as BlendMode; i++;
+      transforms.push({ type: 'blend', target, ratio, mode: blendMode });
     } else if (!arg.startsWith('-') && !colorStr) {
       colorStr = arg;
     }
-  }
-
-  // Resolve pending mix/blend
-  if (pendingMix) {
-    transforms.push({ type: 'mix', target: pendingMix, ratio, space });
-  }
-  if (pendingBlend) {
-    if (!blendMode) {
-      console.error('Error: --blend requires --mode <blend-mode>.');
-      process.exit(1);
-    }
-    transforms.push({ type: 'blend', target: pendingBlend, ratio, mode: blendMode! });
   }
 
   if (!colorStr) {

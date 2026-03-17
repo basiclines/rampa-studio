@@ -47,7 +47,7 @@ export class LinearColorSpace {
    * Pass false for a plain lookup table (no interpolation).
    */
   interpolation(mode: InterpolationMode | false): this {
-    this._interpolation = mode;
+    this._interpolation = mode === 'srgb' ? 'rgb' : mode;
     return this;
   }
 
@@ -118,7 +118,7 @@ function buildFn(palette: string[], outputFormat: ColorFormat): LinearColorSpace
     }
   };
   fn.at = (index: number): Color => {
-    const i = Math.max(0, Math.min(palette.length - 1, index));
+    const i = Math.max(0, Math.min(palette.length - 1, Math.trunc(index)));
     return createColor(palette[i]);
   };
   fn.colors = (): Color[] => palette.map(hex => createColor(hex));

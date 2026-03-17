@@ -47,7 +47,7 @@ export class PlaneColorSpace {
   }
 
   interpolation(mode: InterpolationMode): this {
-    this._interpolation = mode;
+    this._interpolation = mode === 'srgb' ? 'rgb' : mode;
     return this;
   }
 
@@ -115,8 +115,8 @@ export class PlaneColorSpace {
         }
       }, enumerable: false },
       at: { value: (saturation: number, lightness: number): Color => {
-        const sx = Math.max(0, Math.min(stepsPerAxis - 1, saturation));
-        const ly = Math.max(0, Math.min(stepsPerAxis - 1, lightness));
+        const sx = Math.max(0, Math.min(stepsPerAxis - 1, Math.trunc(saturation)));
+        const ly = Math.max(0, Math.min(stepsPerAxis - 1, Math.trunc(lightness)));
         const idx = sx * stepsPerAxis + ly;
         return createColor(palette[idx]);
       }, enumerable: false },

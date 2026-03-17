@@ -65,7 +65,7 @@ export class CubeColorSpace {
    * Set the interpolation mode.
    */
   interpolation(mode: InterpolationMode): this {
-    this._interpolation = mode;
+    this._interpolation = mode === 'srgb' ? 'rgb' : mode;
     return this;
   }
 
@@ -176,9 +176,9 @@ export class CubeColorSpace {
         }
       },
       at: (x: number, y: number, z: number): Color => {
-        const cx = Math.max(0, Math.min(max, Math.round(x)));
-        const cy = Math.max(0, Math.min(max, Math.round(y)));
-        const cz = Math.max(0, Math.min(max, Math.round(z)));
+        const cx = Math.max(0, Math.min(max, Math.trunc(x)));
+        const cy = Math.max(0, Math.min(max, Math.trunc(y)));
+        const cz = Math.max(0, Math.min(max, Math.trunc(z)));
         const index = cx * stepsPerAxis * stepsPerAxis + cy * stepsPerAxis + cz;
         return createColor(palette[index]);
       },

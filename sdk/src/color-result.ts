@@ -152,13 +152,15 @@ export function createColor(input: string): Color {
     },
 
     mix(target: string, ratio: number, space: InterpolationMode = 'oklch'): Color {
+      const clampedRatio = Math.max(0, Math.min(1, Number.isFinite(ratio) ? ratio : 0.5));
       const engineSpace = space === 'srgb' ? 'rgb' : space;
-      const mixed = mixWithMode(hex, chroma(target).hex(), ratio, engineSpace as InterpolationMode);
+      const mixed = mixWithMode(hex, chroma(target).hex(), clampedRatio, engineSpace as InterpolationMode);
       return createColor(mixed);
     },
 
     blend(target: string, opacity: number, mode: BlendMode): Color {
-      const blended = applyBlendMode(chroma(hex), chroma(target), opacity, mode);
+      const clampedOpacity = Math.max(0, Math.min(1, Number.isFinite(opacity) ? opacity : 0.5));
+      const blended = applyBlendMode(chroma(hex), chroma(target), clampedOpacity, mode);
       return createColor(blended.hex());
     },
 
