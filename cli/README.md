@@ -267,7 +267,7 @@ rampa lint --fg '#fff' --bg '#000' --output json
 
 ### Color
 
-Inspect a color in all supported formats (hex, hsl, rgb, oklch).
+Inspect, transform, mix, and export a single color. All transforms operate in OKLCH space.
 
 ```bash
 rampa color '#ff6600'
@@ -277,9 +277,31 @@ rampa color '#1e1e2e' -O css --prefix brand
 
 | Flag | Alias | Description |
 |------|-------|-------------|
-| `<color>` | `-c` | Color to inspect (positional or flag) |
+| `<color>` | `-c` | Color to inspect/transform (positional or flag) |
 | `--output <text\|json\|css>` | `-O` | Output format (default: text) |
 | `--prefix <name>` | | Prefix for CSS variable names (default: color) |
+| `--lighten <n>` | | Increase OKLCH lightness by n (0-1 scale) |
+| `--darken <n>` | | Decrease OKLCH lightness by n |
+| `--saturate <n>` | | Increase OKLCH chroma by n |
+| `--desaturate <n>` | | Decrease OKLCH chroma by n |
+| `--rotate <n>` | | Rotate hue by n degrees |
+| `--set-lightness <n>` | | Set OKLCH lightness to n |
+| `--set-chroma <n>` | | Set OKLCH chroma to n |
+| `--set-hue <n>` | | Set hue to n degrees |
+| `--mix <color>` | | Mix with target color (use --ratio, --space) |
+| `--blend <color>` | | Blend with target color (use --ratio, --mode) |
+| `--ratio <n>` | | Mix/blend ratio 0-1 (default: 0.5) |
+| `--space <oklch\|lab\|srgb>` | | Color space for --mix (default: oklch) |
+| `--mode <name>` | | Blend mode for --blend (multiply, screen, overlay, etc.) |
+
+Transforms are applied left-to-right, matching SDK chaining order:
+
+```bash
+rampa color '#66b172' --lighten 0.1 --desaturate 0.05
+rampa color '#ff0000' --mix '#0000ff' --ratio 0.5 --space lab
+rampa color '#ff8800' --blend '#0088ff' --ratio 0.5 --mode multiply
+rampa color '#66b172' --lighten 0.1 --desaturate 0.05 -O css --prefix brand
+```
 
 ### Other
 
@@ -287,6 +309,38 @@ rampa color '#1e1e2e' -O css --prefix brand
 |------|-------|-------------|
 | `--help` | `-h` | Show help |
 | `--version` | `-v` | Show version |
+
+### Image Palette
+
+Extract color palettes from PNG and JPEG images.
+
+```bash
+rampa palette photo.jpg
+rampa palette photo.jpg --count 5
+rampa palette photo.jpg --ansi --count 3
+rampa palette photo.jpg --group C --sort L
+rampa palette photo.jpg --output json
+```
+
+| Flag | Alias | Description |
+|------|-------|-------------|
+| `<file>` | | Image file path (PNG or JPEG) |
+| `--count <n>` | | Number of dominant colors (default: 10) |
+| `--tolerance <n>` | | DeltaE clustering radius (default: 4) |
+| `--raw` | | Show all unique colors |
+| `--raw-tolerance <n>` | | DeltaE threshold for raw dedup (default: 2) |
+| `--max-colors <n>` | | Max colors for raw output (default: 1000) |
+| `--ansi` | | Classify into ANSI color categories |
+| `--group <L\|C\|H>` | | Group by lightness, chroma, or hue |
+| `--l-buckets <n>` | | Number of lightness buckets (default: 5) |
+| `--c-buckets <n>` | | Number of chroma buckets (default: 4) |
+| `--h-buckets <n>` | | Number of hue buckets (default: 8) |
+| `--sort <frequency\|L\|C\|H>` | | Sort order (default: frequency) |
+| `--average` | | Show average color only |
+| `--temperature` | | Show color temperature only |
+| `--sample-size <n>` | | Pixels to sample (default: 50000) |
+| `--output <text\|json\|css>` | `-O` | Output format (default: text) |
+| `--prefix <name>` | | CSS variable prefix (default: palette) |
 
 ## Examples
 
@@ -454,13 +508,63 @@ rampa lint --fg '#fff' --bg '#000' -O css
 
 ```bash
 # View all formats
-rampa inspect -c '#ff6600'
+rampa color '#ff6600'
 
 # JSON output
-rampa inspect -c 'rgb(100, 200, 50)' --output json
+rampa color 'rgb(100, 200, 50)' --output json
 
 # CSS custom properties
-rampa inspect -c '#1e1e2e' -O css
+rampa color '#1e1e2e' -O css
+
+# Transform: lighten and desaturate
+rampa color '#66b172' --lighten 0.1 --desaturate 0.05
+
+# Derive bright variant
+rampa color '#06ef48' --lighten 0.1 --desaturate 0.05
+
+# Mix two colors in lab space
+rampa color '#ff0000' --mix '#0000ff' --ratio 0.5 --space lab
+
+# Blend with multiply mode
+rampa color '#ff8800' --blend '#0088ff' --ratio 0.5 --mode multiply
+
+# Set absolute OKLCH values
+rampa color '#f85149' --set-lightness 0.48 --set-chroma 0.15
+```
+
+### Image Palette
+
+```bash
+# Dominant colors from a photo
+rampa palette photo.jpg
+
+# Top 5 with ANSI swatches
+rampa palette photo.jpg --count 5
+
+# ANSI-classified palette
+rampa palette photo.jpg --ansi --count 3
+
+# Group by chroma, sorted by lightness (accent discovery)
+rampa palette photo.jpg --group C --sort L
+
+# Group by lightness with 3 buckets
+rampa palette photo.jpg --group L --l-buckets 3
+
+# Group by hue, sorted dark→light
+rampa palette photo.jpg --group H --sort L
+
+# Raw unique colors
+rampa palette photo.jpg --raw --tolerance 5
+
+# JSON output for tooling
+rampa palette photo.jpg --output json
+
+# CSS variables
+rampa palette photo.jpg --output css --prefix photo
+
+# Average color and temperature
+rampa palette photo.jpg --average
+rampa palette photo.jpg --temperature
 ```
 
 ## Contextual Help

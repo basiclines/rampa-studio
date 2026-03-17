@@ -59,20 +59,56 @@ export interface ColorInfo {
 }
 
 /**
+ * OKLCH values for absolute color setting via .set().
+ */
+export interface OklchSetValues {
+  /** Lightness (0-1) */
+  lightness?: number;
+  /** Chroma (0-0.4) */
+  chroma?: number;
+  /** Hue (0-360) */
+  hue?: number;
+}
+
+/**
  * A color primitive with all format representations and export support.
  * Returned by the standalone `color()` function.
+ *
+ * All transforms are OKLCH-based and return a new immutable Color.
  */
 export interface Color {
   /** Hex color string */
   hex: string;
-  /** RGB components (0-255) */
+  /** RGB components (r: 0-255, g: 0-255, b: 0-255) */
   rgb: { r: number; g: number; b: number };
-  /** HSL components (h: 0-360, s: 0-100, l: 0-100) */
+  /** HSL components (h: 0-360, s: 0-1, l: 0-1) */
   hsl: { h: number; s: number; l: number };
-  /** OKLCH components (l: 0-100, c: 0-0.4, h: 0-360) */
+  /** OKLCH components (l: 0-1, c: 0-0.4, h: 0-360) */
   oklch: { l: number; c: number; h: number };
-  /** Perceptual luminance (0-1) using OKLCH lightness */
+  /** Perceptual luminance (0-1), same as oklch.l */
   luminance: number;
+
+  // ── Transforms (OKLCH, return new Color) ──────────────
+
+  /** Increase OKLCH lightness by delta (0-1 scale). Returns new Color. */
+  lighten(delta: number): Color;
+  /** Decrease OKLCH lightness by delta (0-1 scale). Sugar for lighten(-delta). Returns new Color. */
+  darken(delta: number): Color;
+  /** Increase OKLCH chroma by delta (0-0.4 scale). Returns new Color. */
+  saturate(delta: number): Color;
+  /** Decrease OKLCH chroma by delta (0-0.4 scale). Sugar for saturate(-delta). Returns new Color. */
+  desaturate(delta: number): Color;
+  /** Rotate OKLCH hue by degrees. Returns new Color. */
+  rotate(degrees: number): Color;
+  /** Set absolute OKLCH values. Returns new Color. */
+  set(values: OklchSetValues): Color;
+  /** Mix with another color via color space interpolation. Returns new Color. */
+  mix(target: string, ratio: number, space?: InterpolationMode): Color;
+  /** Blend with another color using a compositing mode. Returns new Color. */
+  blend(target: string, opacity: number, mode: BlendMode): Color;
+
+  // ── Format & Output ───────────────────────────────────
+
   /** Format the color as a string in the given format */
   format(fmt: ColorFormat): string;
   /** Export as css, json, or text. Optional prefix for CSS variable names. */
@@ -83,7 +119,7 @@ export interface Color {
 
 // ── Color Space Types ──────────────────────────────────────────────────
 
-export type InterpolationMode = 'oklch' | 'lab' | 'rgb';
+export type InterpolationMode = 'oklch' | 'lab' | 'rgb' | 'srgb';
 
 export interface ColorSpaceOptions {
   interpolation?: InterpolationMode;
@@ -171,6 +207,10 @@ export interface LinearColorSpaceFn {
   size: number;
   /** Export as css, json, or text. Optional prefix for variable names. */
   output(format: RampaOutputFormat, prefix?: string): string;
+  /** Get a Color at a 0-based index. Returns a full Color with transforms. */
+  at(index: number): Color;
+  /** Get all colors as Color objects. */
+  colors(): Color[];
 }
 
 /**
@@ -192,8 +232,12 @@ export interface CubeColorSpaceResult {
   size: number;
   /** Export as css, json, or text. Optional prefix for variable names. */
   output(format: RampaOutputFormat, prefix?: string): string;
+  /** Get a Color at 3D coordinates (0-based). Returns a full Color with transforms. */
+  at(x: number, y: number, z: number): Color;
+  /** Get all colors as Color objects. */
+  colors(): Color[];
   /** Per-corner shortcut functions, keyed by constructor key names */
-  [key: string]: ((index: number) => ColorAccessor) | string[] | number | ((query: Record<string, number>) => ColorAccessor) | ((x: number, y: number, z: number) => ColorAccessor) | ((format: RampaOutputFormat, prefix?: string) => string);
+  [key: string]: ((index: number) => ColorAccessor) | string[] | number | ((query: Record<string, number>) => ColorAccessor) | ((x: number, y: number, z: number) => ColorAccessor) | ((x: number, y: number, z: number) => Color) | ((format: RampaOutputFormat, prefix?: string) => string) | (() => Color[]);
 }
 
 /**
@@ -209,6 +253,10 @@ export interface PlaneColorSpaceResult {
   size: number;
   /** Export as css, json, or text. Optional prefix for variable names. */
   output(format: RampaOutputFormat, prefix?: string): string;
+  /** Get a Color at 2D coordinates (0-based). Returns a full Color with transforms. */
+  at(saturation: number, lightness: number): Color;
+  /** Get all colors as Color objects. */
+  colors(): Color[];
 }
 
 // ── Contrast / Lint Types ──────────────────────────────────────────────

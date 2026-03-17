@@ -237,7 +237,17 @@ result.ramps[1].colors        // complementary ramp colors
 
 ### `color(input)`
 
-Inspect a single color — get all format representations, format conversion, and export. Equivalent to `rampa color` in the CLI.
+Inspect, transform, mix, and export a single color. Equivalent to `rampa color` in the CLI.
+
+All property values use **0-1 normalized ranges** to match CSS spec conventions:
+
+| Property | Range |
+|----------|-------|
+| `hsl.h` | 0–360 (degrees) |
+| `hsl.s`, `hsl.l` | 0–1 |
+| `oklch.l` | 0–1 |
+| `oklch.c` | 0–0.4 (native OKLCH scale) |
+| `oklch.h` | 0–360 (degrees) |
 
 ```typescript
 import { color } from '@basiclines/rampa-sdk';
@@ -245,11 +255,11 @@ import { color } from '@basiclines/rampa-sdk';
 const c = color('#fe0000');
 c.hex              // '#fe0000'
 c.rgb              // { r: 254, g: 0, b: 0 }
-c.hsl              // { h: 0, s: 100, l: 50 }
-c.oklch            // { l: 62.8, c: 0.258, h: 29 }
+c.hsl              // { h: 0, s: 1.0, l: 0.5 }
+c.oklch            // { l: 0.628, c: 0.258, h: 29 }
 c.luminance        // 0.628
 
-// Format conversion
+// Format conversion (string output uses CSS conventions: percentages)
 c.format('hsl')    // 'hsl(0, 100%, 50%)'
 c.format('rgb')    // 'rgb(254, 0, 0)'
 c.format('oklch')  // 'oklch(62.8% 0.258 29)'
@@ -262,6 +272,51 @@ c.output('text')           // plain hex string
 // String coercion
 `${c}`             // '#fe0000'
 ```
+
+#### Color Transforms
+
+All transforms operate in **OKLCH space** and return a new immutable `Color`. Chain freely.
+
+```typescript
+// Absolute deltas — clamped to valid range
+c.lighten(0.1)           // L += 0.1 (OKLCH lightness, 0-1)
+c.darken(0.1)            // L -= 0.1
+c.saturate(0.05)         // C += 0.05 (OKLCH chroma)
+c.desaturate(0.05)       // C -= 0.05
+c.rotate(30)             // H += 30° (hue rotation)
+
+// All accept negative values: lighten(-0.1) === darken(0.1)
+
+// Set absolute OKLCH values
+c.set({ lightness: 0.48 })             // set L
+c.set({ chroma: 0.15, hue: 200 })     // batch set
+
+// Chain transforms
+color('#66b172').lighten(0.1).desaturate(0.05).hex
+// → bright desaturated green, no throwaway converters
+```
+
+#### Mix (color space interpolation)
+
+Like CSS `color-mix()` — interpolates between two colors in a chosen color space.
+
+```typescript
+c.mix('#0000ff', 0.5)            // 50% mix in oklch (default)
+c.mix('#0000ff', 0.18, 'lab')    // explicit color space
+c.mix('#0000ff', 0.18, 'srgb')   // sRGB interpolation
+```
+
+#### Blend (compositing modes)
+
+Like Photoshop/CSS blend modes — composites two colors with an opacity and a blend mode.
+
+```typescript
+c.blend('#0000ff', 0.15, 'multiply')
+c.blend('#0000ff', 0.15, 'screen')
+c.blend('#0000ff', 0.15, 'overlay')
+```
+
+Available blend modes: `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`
 
 ### `rampa.convert(color, format)`
 
@@ -335,8 +390,9 @@ import type {
   RampResult,          // { name, baseColor, colors }
   RampaResult,         // { ramps: RampResult[] }
   RampaFn,             // callable palette returned by rampa()
-  Color,               // { hex, rgb, hsl, oklch, luminance, format(), output() }
+  Color,               // { hex, rgb, hsl, oklch, luminance, format(), output(), lighten(), ... }
   ColorInfo,           // { hex, rgb, hsl, oklch }
+  OklchSetValues,      // { lightness?, chroma?, hue? } for color.set()
   InterpolationMode,   // 'oklch' | 'lab' | 'rgb'
   LinearColorSpaceFn,  // callable function returned by LinearColorSpace.size()
   CubeColorSpaceFn,    // callable function returned by CubeColorSpace.size()
@@ -453,6 +509,23 @@ neutral(12).hsl()        // → 'hsl(0, 0%, 40%)'
 neutral.palette          // → string[24]
 ```
 
+#### Ramp introspection
+
+Access individual steps as full `Color` objects with `.at()`, or get all steps with `.colors()`:
+
+```typescript
+const ramp = new LinearColorSpace('#000', '#fff').size(12);
+
+ramp.at(3)                       // → Color (0-based index)
+ramp.at(3).oklch.c               // → chroma at step 3
+ramp.at(3).lighten(0.1).hex      // → transform a ramp step
+
+ramp.colors()                    // → Color[]
+ramp.colors().map(c => c.oklch.c)  // → chroma curve across ramp
+```
+
+**`.at()` is 0-based** (like `Array.at()`), while the callable `ramp(n)` remains 1-based for backward compatibility.
+
 #### Lookup table mode
 
 Set `.interpolation(false)` for a plain lookup table — no interpolation, just indexed access to the exact colors you provide:
@@ -497,6 +570,11 @@ red(5, 5)          // → full hue color
 red(0, 0)          // → dark anchor
 red.palette        // → string[36] (6²)
 
+// Ramp introspection
+red.at(3, 5)              // → Color at (saturation=3, lightness=5)
+red.at(3, 5).oklch.c      // → chroma at that coordinate
+red.colors()              // → Color[] (flat, row-major)
+
 // Template literals and concatenation work directly
 `background: ${red(3, 5)};`  // → 'background: #ab34cd;'
 
@@ -526,6 +604,10 @@ const { r, b, tint } = new CubeColorSpace({
 r(4)                     // → strong red
 tint({ r: 4, b: 2 })     // → red-blue blend
 tint({ w: 3 })           // → mid-white (all axes at 3)
+
+// Ramp introspection
+cube.at(2, 3, 1)         // → Color at (x=2, y=3, z=1)
+cube.colors()            // → Color[]
 ```
 
 #### Custom vocabulary
@@ -633,6 +715,128 @@ Use `.format()` on the color space to change the default output format:
 const rgbSpace = new PlaneColorSpace('#000', '#fff', '#f00').format('rgb').size(6);
 `${rgbSpace(3, 5)}`  // → 'rgb(255, 128, 128)'
 rgbSpace(3, 5).hex() // → '#ff8080' (still available)
+```
+
+## Image Palette Extraction
+
+Extract color palettes from images with three tiers of analysis: raw unique colors, dominant color clusters, and ANSI-classified palettes.
+
+Requires `fast-png` and `jpeg-js` (installed as dependencies). Supports PNG and JPEG files.
+
+### `palette(filePath)`
+
+```typescript
+import { palette } from '@basiclines/rampa-sdk';
+
+const p = await palette('photo.jpg');
+```
+
+### Dominant Colors
+
+Top N color groups via k-means clustering in OKLCH space:
+
+```typescript
+p.dominant()                     // → PaletteEntry[] (top 10)
+p.dominant({ count: 5 })        // top 5
+p.dominant({ tolerance: 10 })   // wider clustering (default: 4)
+
+// Shortcut with .at() (0-based, like ramp.at())
+p.at(0)                          // most dominant color
+p.at(0).color.hex               // → '#2d2a18'
+p.at(0).frequency               // → 0.278 (27.8% of pixels)
+p.at(0).color.lighten(0.1).hex  // chain transforms
+```
+
+### Raw Palette
+
+All unique colors with near-duplicates merged:
+
+```typescript
+p.raw()                          // → PaletteEntry[]
+p.raw({ tolerance: 3 })         // deltaE merge threshold (default: 2)
+p.raw({ maxColors: 500 })       // cap output (default: 1000)
+```
+
+### ANSI Palette
+
+Colors classified into terminal color categories:
+
+```typescript
+p.ansi()
+// → { red: PaletteEntry[], green: [...], blue: [...], ... }
+
+p.ansi({ count: 3 })            // max 3 per category (default: 5)
+```
+
+Categories: `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`
+
+### Group by OKLCH Property
+
+Group colors into buckets by lightness, chroma, or hue:
+
+```typescript
+p.group({ by: 'L' })            // → { darkest, dark, mid, light, lightest }
+p.group({ by: 'C' })            // → { gray, muted, saturated, vivid }
+p.group({ by: 'H' })            // → { red, orange, yellow, green, cyan, blue, purple, pink }
+
+p.group({ by: 'L', count: 3 })  // max 3 colors per bucket
+p.group({ by: 'L', tolerance: 10 })  // wider dedup within buckets
+```
+
+Custom bucket boundaries:
+
+```typescript
+p.group({
+  by: 'L',
+  buckets: [
+    { name: 'dark', min: 0, max: 0.3 },
+    { name: 'mid',  min: 0.3, max: 0.7 },
+    { name: 'light', min: 0.7, max: 1.0 },
+  ],
+})
+```
+
+### Sorting with `.sortBy()`
+
+All array and grouped results support `.sortBy()` for reordering:
+
+```typescript
+// Sort dominant colors by lightness (dark → light)
+p.dominant({ count: 5 }).sortBy('L')
+
+// Sort within each group bucket
+p.group({ by: 'C' }).sortBy('L')    // chroma groups, each sorted dark→light
+p.ansi().sortBy('L')                 // ANSI categories, each sorted dark→light
+
+// Sort fields: 'L' (lightness), 'C' (chroma), 'H' (hue), 'frequency'
+p.raw().sortBy('H')                  // all colors sorted by hue angle
+
+// Chainable — returns a new sorted result
+p.dominant().sortBy('L').sortBy('C')
+```
+
+### Extras
+
+```typescript
+p.average()                      // → Color (weighted OKLCH average)
+p.temperature()                  // → 'warm' | 'cool' | 'neutral'
+```
+
+### Output
+
+```typescript
+p.output('json')                 // full analysis as JSON
+p.output('css', 'photo')        // CSS custom properties
+p.output('text')                 // readable text
+```
+
+### PaletteEntry Shape
+
+```typescript
+interface PaletteEntry {
+  color: Color;       // full Color with transforms
+  frequency: number;  // 0-1, percentage of sampled pixels
+}
 ```
 
 ## Development

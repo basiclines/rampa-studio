@@ -32,17 +32,21 @@ src/engine/          ← Core math (color mixing, interpolation, ramps)
   ├── ColorSpaceEngine.ts  Linear/Plane/Cube color space generation
   ├── OklchEngine.ts       Color mixing and perceptual uniformity
   ├── HarmonyEngine.ts     Complementary, triadic, analogous, etc.
-  └── BlendingEngine.ts    16 blend modes for tinting
+  ├── BlendingEngine.ts    16 blend modes for tinting
+  ├── PaletteEngine.ts     Image palette extraction (k-means, ANSI classification)
+  └── ImageDecoder.ts      PNG/JPEG decoding (fast-png + jpeg-js)
 
 sdk/src/             ← npm package (@basiclines/rampa-sdk)
   ├── builder.ts           rampa('#hex').size(10).lightness(10,90) → callable palette
+  ├── palette.ts           palette('image.jpg') → dominant, raw, ansi, average
   ├── linear-color-space.ts
   ├── plane-color-space.ts
   └── cube-color-space.ts
 
 cli/src/             ← npm package (@basiclines/rampa)
   ├── index.ts             Main CLI entry (citty framework)
-  └── colorspace.ts        `rampa colorspace` subcommand
+  ├── colorspace.ts        `rampa colorspace` subcommand
+  └── palette.ts           `rampa palette` subcommand
 
 src/                 ← React web app (rampa.studio)
   ├── components/          shadcn/ui + @react-three/fiber for 3D viewer
@@ -70,6 +74,24 @@ Do NOT use `.hex` property — use template literals or `.valueOf()`.
 - **CubeColorSpace** — 3D cube (8 corner colors: k, r, g, b, y, m, c, w)
 
 All support chainable `.interpolation()`, `.format()`, `.size()`.
+All support `.at()` for 0-based Color access and `.colors()` for Color[] arrays.
+
+### Color Transforms
+All transforms on `color()` operate in **OKLCH space** and return a new immutable `Color`:
+- `lighten(n)`, `darken(n)` — absolute L delta (0-1 scale)
+- `saturate(n)`, `desaturate(n)` — absolute chroma delta
+- `rotate(n)` — hue rotation in degrees
+- `set({ lightness?, chroma?, hue? })` — absolute OKLCH values
+- `mix(color, ratio, space?)` — color space interpolation (oklch/lab/srgb)
+- `blend(color, opacity, mode)` — compositing modes (multiply/screen/overlay etc.)
+
+### Value Ranges
+All structured property values use **0-1 normalized ranges** (CSS-spec aligned):
+- `hsl.s`, `hsl.l` — 0 to 1 (not 0-100)
+- `oklch.l` — 0 to 1 (not 0-100)
+- `oklch.c` — 0 to ~0.4 (native OKLCH)
+- Hue values are always 0-360 degrees
+- `.format()` string output uses CSS conventions (percentages where appropriate)
 
 ### SDK Type Declarations
 When adding new types, interfaces, or classes to the SDK:
@@ -107,3 +129,9 @@ CLI uses manual argument parsing (not a framework for `colorspace` subcommand). 
 **Always include release notes** when creating a GitHub release. Summarize new features, fixes, and breaking changes. Use the PR descriptions and commit messages as source material.
 
 **Always ask the user before committing and pushing.**
+
+## Development Skills
+
+Internal skills for rampa development live in `.github/skills/`:
+
+- **`update-docs`** — Audit and update all documentation after code changes. Lists every doc file, source file, and default value that must stay in sync. Use after adding features or changing defaults.

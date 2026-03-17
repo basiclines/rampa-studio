@@ -57,6 +57,13 @@ if (args[0] === 'inspect') {
   process.exit(0);
 }
 
+// Intercept palette subcommand
+if (args[0] === 'palette') {
+  const { runPalette } = await import('./palette');
+  await runPalette(args.slice(1));
+  process.exit(0);
+}
+
 if (args.includes('--help') || args.includes('-h') || args.includes('help') || args.length === 0) {
   showHelp();
 }
@@ -146,6 +153,10 @@ COLOR INSPECT
   ${cyan}rampa color${reset}                     ${dim}Inspect a color in all supported formats${reset}
                                    ${dim}Use rampa color --help for details${reset}
 
+IMAGE PALETTE
+  ${cyan}rampa palette${reset}                   ${dim}Extract color palettes from images${reset}
+                                   ${dim}Use rampa palette --help for details${reset}
+
 OTHER
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
   ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
@@ -165,6 +176,8 @@ EXAMPLES
   ${cyan}rampa lint --fg '#fff' --bg '#1e1e2e'${reset}
   ${cyan}rampa lint --fg '#777' --bg '#fff' --mode wcag${reset}
   ${cyan}rampa inspect -c '#ff6600'${reset}
+  ${cyan}rampa palette photo.jpg${reset}
+  ${cyan}rampa palette photo.jpg --ansi --count 3${reset}
 `;
   console.log(help.trim());
   process.exit(0);

@@ -1,9 +1,9 @@
 import { generateLinearSpace, mixWithMode } from '../../src/engine/ColorSpaceEngine';
 import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
-import { createColorAccessor, validateSameFormat } from './color-result';
+import { createColorAccessor, validateSameFormat, createColor } from './color-result';
 import { linearToCSS, linearToJSON } from './formatters/color-space';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor, ScaleType, RampaOutputFormat } from './types';
+import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor, ScaleType, RampaOutputFormat, Color } from './types';
 
 /**
  * Create a linear color space.
@@ -117,6 +117,11 @@ function buildFn(palette: string[], outputFormat: ColorFormat): LinearColorSpace
       default: throw new Error(`Unknown output format: ${format}`);
     }
   };
+  fn.at = (index: number): Color => {
+    const i = Math.max(0, Math.min(palette.length - 1, index));
+    return createColor(palette[i]);
+  };
+  fn.colors = (): Color[] => palette.map(hex => createColor(hex));
 
   return fn;
 }

@@ -106,12 +106,12 @@ function getColorFormats(input: string): ColorFormats {
     hsl: {
       raw: `hsl(${Math.round(h || 0)}, ${Math.round(s * 100)}%, ${Math.round(l * 100)}%)`,
       h: Math.round(h || 0),
-      s: Math.round(s * 100),
-      l: Math.round(l * 100),
+      s: parseFloat(s.toFixed(2)),
+      l: parseFloat(l.toFixed(2)),
     },
     oklch: {
       raw: `oklch(${(ol * 100).toFixed(1)}% ${oc.toFixed(3)} ${Math.round(oh || 0)})`,
-      l: parseFloat((ol * 100).toFixed(1)),
+      l: parseFloat(ol.toFixed(3)),
       c: parseFloat(oc.toFixed(3)),
       h: Math.round(oh || 0),
     },

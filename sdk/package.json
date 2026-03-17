@@ -32,7 +32,9 @@
     "provenance": true
   },
   "dependencies": {
-    "chroma-js": "^3.1.2"
+    "chroma-js": "^3.1.2",
+    "fast-png": "^8.0.0",
+    "jpeg-js": "^0.4.4"
   },
   "devDependencies": {
     "@types/bun": "^1.2.17",

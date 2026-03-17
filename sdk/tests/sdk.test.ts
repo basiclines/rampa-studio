@@ -202,7 +202,7 @@ describe('color()', () => {
     const c = color('#fe0000');
     expect(c.hex).toBe('#fe0000');
     expect(c.rgb).toEqual({ r: 254, g: 0, b: 0 });
-    expect(c.hsl).toEqual({ h: 0, s: 100, l: 50 });
+    expect(c.hsl).toEqual({ h: 0, s: 1, l: 0.5 });
     expect(c.oklch).toHaveProperty('l');
     expect(c.oklch).toHaveProperty('c');
     expect(c.oklch).toHaveProperty('h');
@@ -234,7 +234,7 @@ describe('color()', () => {
     const json = JSON.parse(c.output('json'));
     expect(json.hex).toBe('#fe0000');
     expect(json.rgb).toEqual({ r: 254, g: 0, b: 0 });
-    expect(json.hsl).toEqual({ h: 0, s: 100, l: 50 });
+    expect(json.hsl).toEqual({ h: 0, s: 1, l: 0.5 });
     expect(json.oklch).toHaveProperty('l');
   });
 
