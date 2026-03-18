@@ -504,10 +504,16 @@ function buildThemeJS(theme: ThemeYAML, mode: 'dark' | 'light'): string {
       bg: `mode: ${theme.meta.mode}`,
       fg: `Lc ${contrast.fg}`,
     };
-    for (const k of ['black','red','green','yellow','blue','magenta','cyan','white',
-                      'brightBlack','brightRed','brightGreen','brightYellow',
-                      'brightBlue','brightMagenta','brightCyan','brightWhite']) {
-      result[k] = `Lc ${contrast[k as keyof typeof contrast]}`;
+    // Map to underscore keys used by the template's colorMeta array
+    const keyMap: Record<string, string> = {
+      black: 'black', red: 'red', green: 'green', yellow: 'yellow',
+      blue: 'blue', magenta: 'magenta', cyan: 'cyan', white: 'white',
+      brightBlack: 'black_bright', brightRed: 'red_bright', brightGreen: 'green_bright',
+      brightYellow: 'yellow_bright', brightBlue: 'blue_bright',
+      brightMagenta: 'magenta_bright', brightCyan: 'cyan_bright', brightWhite: 'white_bright',
+    };
+    for (const [k, mapped] of Object.entries(keyMap)) {
+      result[mapped] = `Lc ${contrast[k as keyof typeof contrast]}`;
     }
     return result;
   };
@@ -616,12 +622,166 @@ async function previewTheme(name: string, local: boolean): Promise<void> {
   /* ── Theme override: ${theme.name} ── */
   ${darkCSS}
   ${lightCSS}
+  /* ── Install section styles ── */
+  .install-section { margin-top: 1rem; }
+  .install-row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+  .install-select {
+    background: var(--card-bg); color: var(--fg);
+    border: 1px solid var(--card-border); border-radius: 8px;
+    padding: 0.4rem 0.75rem; font-size: 0.85rem; font-family: inherit;
+    cursor: pointer; outline: none;
+  }
+  .install-select:focus { border-color: var(--fg); }
+  .install-cmd {
+    flex: 1; min-width: 0;
+    background: var(--card-bg); border: 1px solid var(--card-border);
+    border-radius: 8px; padding: 0.6rem 1rem;
+    font-family: 'SFMono-Regular', 'Consolas', monospace; font-size: 0.85rem;
+    color: var(--fg); white-space: nowrap; overflow-x: auto;
+    display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+  }
+  .install-cmd code { flex: 1; }
+  .install-cmd .cl-key { color: var(--fg); }
+  .install-cmd .cl-value { color: var(--magenta); font-weight: 600; }
+  .install-copy { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 0.8rem; padding: 0; flex-shrink: 0; }
+  .install-copy:hover { color: var(--fg); }
   </style>
   <script>
   // Override theme data
   themes.dark = ${darkJS};
   themes.light = ${lightJS};
   document.title = '${theme.name.replace(/'/g, "\\'")} — rampa theme preview';
+
+  // Hide Sarela-specific prose
+  document.querySelector('.romanji')?.remove();
+  document.querySelector('.intro')?.remove();
+  document.querySelector('.intro-sig')?.remove();
+
+  // Repurpose origin-badge as metadata chips (accent · author · repo)
+  (function() {
+    const badge = document.querySelector('.origin-badge');
+    if (!badge) return;
+    const accent = '${theme.meta.accent || ''}';
+    const author = '${(theme.source?.author || '').replace(/'/g, "\\'")}';
+    const repo = '${(theme.source?.repo || '').replace(/'/g, "\\'")}';
+    const url = '${(theme.source?.url || '').replace(/'/g, "\\'")}';
+    const parts = [];
+    if (accent) parts.push(\`<span>🎨</span> \${accent}\`);
+    if (author && url) parts.push(\`by <a href="\${url}" target="_blank" rel="noopener" style="color:inherit">\${author}</a>\`);
+    else if (author) parts.push(\`by \${author}\`);
+    if (repo) parts.push(\`<a href="\${repo}" target="_blank" rel="noopener" style="color:inherit">↗ source</a>\`);
+    if (parts.length) {
+      badge.innerHTML = parts.join('<span style="opacity:0.3;margin:0 0.3rem">·</span>');
+    } else {
+      badge.remove();
+    }
+  })();
+
+  // Hide dark/light toggle if no pair
+  ${pairTheme ? '' : `document.querySelector('.theme-toggle')?.style.setProperty('display', 'none');`}
+
+  // Default to list view
+  setColorView('list');
+
+  // Banner: set name, hide romanji/tagline
+  const posterTitle = document.querySelector('.poster-title');
+  if (posterTitle) posterTitle.textContent = '${theme.name.replace(/'/g, "\\'")}';
+  document.querySelector('.poster-romanji')?.remove();
+  document.querySelector('.poster-tagline')?.remove();
+  const posterMetas = document.querySelectorAll('.poster-meta');
+  if (posterMetas[0]) posterMetas[0].textContent = 'color theme · 16 colors${pairTheme ? ' · dark & light' : ''}';
+  if (posterMetas[1]) posterMetas[1].textContent = 'built with rampa';
+
+  // Patch renderColorViews to show APCA contrast in the list desc column
+  const _origRenderColorViews = renderColorViews;
+  renderColorViews = function() {
+    _origRenderColorViews();
+    const mode = document.documentElement.getAttribute('data-theme') || 'dark';
+    const t = themes[mode];
+    document.querySelectorAll('.color-list-item').forEach((item) => {
+      const nameEl = item.querySelector('.color-list-name');
+      const descEl = item.querySelector('.color-list-desc');
+      if (!descEl || !nameEl) return;
+      const colorName = nameEl.textContent.trim().toLowerCase()
+        .replace('bright ', '').split(' ').reverse().join('_');
+      // Try direct key, then _bright suffix variant
+      const label = nameEl.textContent.trim().toLowerCase();
+      const keyMap = {
+        'red':'red','green':'green','blue':'blue','yellow':'yellow',
+        'magenta':'magenta','cyan':'cyan',
+        'bright red':'red_bright','bright green':'green_bright','bright blue':'blue_bright',
+        'bright yellow':'yellow_bright','bright magenta':'magenta_bright','bright cyan':'cyan_bright',
+      };
+      const desc = t.descs[keyMap[label]];
+      if (desc) descEl.textContent = desc;
+    });
+  };
+
+  // Replace export section with install command UI
+  (function() {
+    const ua = navigator.userAgent;
+    const isMac = /Mac/.test(ua) && !/iPhone|iPad/.test(ua);
+    const isWin = /Win/.test(ua);
+    // const isLinux = !isMac && !isWin;
+
+    const allApps = [
+      { value: 'ghostty',          label: 'Ghostty',          os: ['mac','linux'] },
+      { value: 'iterm2',           label: 'iTerm2',            os: ['mac'] },
+      { value: 'alacritty',        label: 'Alacritty',         os: ['mac','linux','win'] },
+      { value: 'kitty',            label: 'Kitty',             os: ['mac','linux'] },
+      { value: 'warp',             label: 'Warp',              os: ['mac','linux'] },
+      { value: 'hyper',            label: 'Hyper',             os: ['mac','linux','win'] },
+      { value: 'windows-terminal', label: 'Windows Terminal',  os: ['win'] },
+      { value: 'vscode',           label: 'VS Code',           os: ['mac','linux','win'] },
+      { value: 'xcode',            label: 'Xcode',             os: ['mac'] },
+      { value: 'android-studio',   label: 'Android Studio',    os: ['mac','linux','win'] },
+    ];
+
+    const osKey = isMac ? 'mac' : isWin ? 'win' : 'linux';
+    const apps = allApps.filter(a => a.os.includes(osKey));
+    const themeName = '${theme.name.replace(/'/g, "\\'")}';
+
+    function buildCmd(app) {
+      return \`rampa theme "\${themeName}" --install \${app}\`;
+    }
+
+    const exportSection = document.getElementById('sec-export');
+    if (!exportSection) return;
+
+    const opts = apps.map(a => \`<option value="\${a.value}">\${a.label}</option>\`).join('');
+    exportSection.innerHTML = \`
+      <div class="colors-header">
+        <p class="section-title">Install</p>
+      </div>
+      <div class="install-section">
+        <div class="install-row">
+          <select class="install-select" id="install-app-select">\${opts}</select>
+          <div class="install-cmd" id="install-cmd-block">
+            <code id="install-cmd-text"></code>
+            <button class="install-copy" id="install-copy-btn" title="Copy">Copy</button>
+          </div>
+        </div>
+      </div>
+    \`;
+
+    function updateCmd() {
+      const app = document.getElementById('install-app-select').value;
+      document.getElementById('install-cmd-text').textContent = buildCmd(app);
+    }
+
+    document.getElementById('install-app-select').addEventListener('change', updateCmd);
+    document.getElementById('install-copy-btn').addEventListener('click', () => {
+      const app = document.getElementById('install-app-select').value;
+      navigator.clipboard.writeText(buildCmd(app)).then(() => {
+        const btn = document.getElementById('install-copy-btn');
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = 'Copy', 1500);
+      });
+    });
+
+    updateCmd();
+  })();
+
   setTheme('${theme.meta.mode}');
   renderColorViews();
   </script>`;
