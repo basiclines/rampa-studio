@@ -3,6 +3,8 @@ source:
   marketplace_id: "xotosphere.xotocode-theme"
   version: "0.0.9"
   installs: 296
+  rating: 0
+  ratings: 0
   author: "xotosphere"
   repo: "https://github.com/xotocode/xotocode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=xotosphere.xotocode-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 276
+  pair: null
   contrast:
     fg: 77.9
     black: 0

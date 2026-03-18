@@ -3,6 +3,8 @@ source:
   marketplace_id: "gengence.gi-themes"
   version: "0.2.0"
   installs: 36
+  rating: 0
+  ratings: 0
   author: "General Intelligence"
   repo: "https://github.com/gengence/themes"
   url: "https://marketplace.visualstudio.com/items?itemName=gengence.gi-themes"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 261
+  pair: null
   contrast:
     fg: 62.5
     black: 0

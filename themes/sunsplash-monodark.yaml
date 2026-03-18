@@ -3,6 +3,8 @@ source:
   marketplace_id: "Rsanttos.sunsplash-monodark"
   version: "1.0.0"
   installs: 66
+  rating: 0
+  ratings: 0
   author: "Rsanttos"
   repo: "https://github.com/vricardo5/monodark"
   url: "https://marketplace.visualstudio.com/items?itemName=Rsanttos.sunsplash-monodark"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 278
+  pair: null
   contrast:
     fg: 62.2
     black: 10

@@ -1,0 +1,52 @@
+name: "Apex Carbon++"
+source:
+  marketplace_id: "Gasrulle.gasrulle-theme"
+  version: "0.6.7"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Gasrulle"
+  repo: "https://github.com/gasrulle/gasrulle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gasrulle.gasrulle-theme"
+colors:
+  bg: "#1F1F1F"
+  fg: "#C2C2C2"
+  black: "#1F1F1F"
+  red: "#E07070"
+  green: "#9AD68A"
+  yellow: "#D9B086"
+  blue: "#78C8F0"
+  magenta: "#E68CA5"
+  cyan: "#66CACA"
+  white: "#C2C2C2"
+  brightBlack: "#6E6E6E"
+  brightRed: "#E88080"
+  brightGreen: "#9CD48C"
+  brightYellow: "#D4B090"
+  brightBlue: "#80C8F0"
+  brightMagenta: "#E898B0"
+  brightCyan: "#68C8C8"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.8
+    black: 0
+    red: 42
+    green: 70.6
+    yellow: 61.7
+    blue: 65.8
+    magenta: 52.5
+    cyan: 63.6
+    white: 67.8
+    brightBlack: 24.5
+    brightRed: 48.2
+    brightGreen: 69.8
+    brightYellow: 61.3
+    brightBlue: 66.3
+    brightMagenta: 57.1
+    brightCyan: 62.7
+    brightWhite: 90.9

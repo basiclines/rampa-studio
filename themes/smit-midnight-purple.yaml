@@ -1,0 +1,52 @@
+name: "Smit Midnight Purple"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+colors:
+  bg: "#0A0A0F"
+  fg: "#D4C5F9"
+  black: "#48406B"
+  red: "#F087BD"
+  green: "#A8E6CF"
+  yellow: "#F3C5FF"
+  blue: "#A78BFA"
+  magenta: "#D8B4FE"
+  cyan: "#C4B5FD"
+  white: "#D4C5F9"
+  brightBlack: "#6E5494"
+  brightRed: "#F087BD"
+  brightGreen: "#A8E6CF"
+  brightYellow: "#F3C5FF"
+  brightBlue: "#A78BFA"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#C4B5FD"
+  brightWhite: "#D4C5F9"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 75.9
+    black: 10.4
+    red: 55.7
+    green: 83.5
+    yellow: 80.7
+    blue: 49.2
+    magenta: 70.1
+    cyan: 67.7
+    white: 75.9
+    brightBlack: 20.7
+    brightRed: 55.7
+    brightGreen: 83.5
+    brightYellow: 80.7
+    brightBlue: 49.2
+    brightMagenta: 70.1
+    brightCyan: 67.7
+    brightWhite: 75.9

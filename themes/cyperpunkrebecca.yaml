@@ -3,6 +3,8 @@ source:
   marketplace_id: "LazzyE.cyberpunk-rebecca-color-theme"
   version: "0.0.5"
   installs: 26
+  rating: 5
+  ratings: 1
   author: "LazzyE"
   repo: "https://github.com/ErliCai/cyberpunk-rebecca-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=LazzyE.cyberpunk-rebecca-color-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 218
+  pair: null
   contrast:
     fg: 99.3
     black: 0

@@ -1,0 +1,52 @@
+name: "Abyssal-Catppuccin"
+source:
+  marketplace_id: "zen0x.abyssal"
+  version: "0.0.5"
+  installs: 42
+  rating: 0
+  ratings: 0
+  author: "zen0x"
+  repo: "https://github.com/zen0x00/abyssal-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zen0x.abyssal"
+colors:
+  bg: "#1E1E2E"
+  fg: "#CDD6F4"
+  black: "#1E1E2E"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#F5C2E7"
+  cyan: "#94E2D5"
+  white: "#CDD6F4"
+  brightBlack: "#6C7086"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#89B4FA"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#94E2D5"
+  brightWhite: "#CDD6F4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 54.7
+    green: 78.3
+    yellow: 88.4
+    blue: 59.1
+    magenta: 76.7
+    cyan: 78.2
+    white: 80
+    brightBlack: 25.8
+    brightRed: 54.7
+    brightGreen: 78.3
+    brightYellow: 88.4
+    brightBlue: 59.1
+    brightMagenta: 76.7
+    brightCyan: 78.2
+    brightWhite: 80

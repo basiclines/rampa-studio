@@ -3,6 +3,8 @@ source:
   marketplace_id: "ltatarev.melinoe"
   version: "0.0.8"
   installs: 123
+  rating: 0
+  ratings: 0
   author: "ltatarev"
   repo: "https://github.com/ltatarev/melinoe-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=ltatarev.melinoe"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 312
+  pair: null
   contrast:
     fg: 74.3
     black: 0

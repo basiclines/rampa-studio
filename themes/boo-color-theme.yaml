@@ -3,6 +3,8 @@ source:
   marketplace_id: "JohannesFreutel.boo-color-theme"
   version: "0.0.1"
   installs: 35
+  rating: 0
+  ratings: 0
   author: "JohannesFreutel"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=JohannesFreutel.boo-color-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 43.3
     black: 0

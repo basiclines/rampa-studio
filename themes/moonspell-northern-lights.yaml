@@ -3,6 +3,8 @@ source:
   marketplace_id: "Oodri.moonspell-themes"
   version: "0.1.2"
   installs: 354
+  rating: 5
+  ratings: 1
   author: "Oodri"
   repo: "https://github.com/ElvannAbendroth/moonspell-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=Oodri.moonspell-themes"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 261
+  pair: null
   contrast:
     fg: 37.2
     black: 62.8

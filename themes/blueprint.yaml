@@ -1,0 +1,52 @@
+name: "Blueprint"
+source:
+  marketplace_id: "talovskx.blueprint-theme"
+  version: "0.0.1"
+  installs: 109
+  rating: 0
+  ratings: 0
+  author: "talovskx"
+  repo: "https://github.com/talovski/blueprint"
+  url: "https://marketplace.visualstudio.com/items?itemName=talovskx.blueprint-theme"
+colors:
+  bg: "#212744"
+  fg: "#C9CCD3"
+  black: "#212744"
+  red: "#652B1C"
+  green: "#514927"
+  yellow: "#5E4525"
+  blue: "#2E4561"
+  magenta: "#48343D"
+  cyan: "#2D4D5D"
+  white: "#F5F7FE"
+  brightBlack: "#212744"
+  brightRed: "#652B1C"
+  brightGreen: "#514927"
+  brightYellow: "#5E4525"
+  brightBlue: "#2E4561"
+  brightMagenta: "#48343D"
+  brightCyan: "#2D4D5D"
+  brightWhite: "#F5F7FE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 72
+    black: 0
+    red: 0
+    green: 8
+    yellow: 8.3
+    blue: 0
+    magenta: 0
+    cyan: 8
+    white: 99
+    brightBlack: 0
+    brightRed: 0
+    brightGreen: 8
+    brightYellow: 8.3
+    brightBlue: 0
+    brightMagenta: 0
+    brightCyan: 8
+    brightWhite: 99

@@ -1,0 +1,52 @@
+name: "flippidippi light"
+source:
+  marketplace_id: "flippidippi.flippidippi-theme"
+  version: "0.0.8"
+  installs: 9945
+  rating: 5
+  ratings: 4
+  author: "flippidippi"
+  repo: "https://gitlab.com/flippidippi/flippidippi-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=flippidippi.flippidippi-theme"
+colors:
+  bg: "#F9F5D7"
+  fg: "#3C3836"
+  black: "#EBDBB2"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#7C6F64"
+  brightBlack: "#928374"
+  brightRed: "#9D0006"
+  brightGreen: "#79740E"
+  brightYellow: "#B57614"
+  brightBlue: "#076678"
+  brightMagenta: "#8F3F71"
+  brightCyan: "#427B58"
+  brightWhite: "#3C3836"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.1
+    black: 11.5
+    red: 68.8
+    green: 51.2
+    yellow: 41.8
+    blue: 62.4
+    magenta: 62.3
+    cyan: 52.1
+    white: 67.1
+    brightBlack: 57.7
+    brightRed: 80.4
+    brightGreen: 67
+    brightYellow: 58.3
+    brightBlue: 75.6
+    brightMagenta: 76.1
+    brightCyan: 67.8
+    brightWhite: 90.1

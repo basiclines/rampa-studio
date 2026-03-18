@@ -1,0 +1,52 @@
+name: "Black Beauty"
+source:
+  marketplace_id: "Mandy.black-beauty"
+  version: "0.0.5"
+  installs: 5691
+  rating: 5
+  ratings: 1
+  author: "Mandy"
+  repo: "https://github.com/MandipShah"
+  url: "https://marketplace.visualstudio.com/items?itemName=Mandy.black-beauty"
+colors:
+  bg: "#0C0A20"
+  fg: "#F2F3F7"
+  black: "#283034"
+  red: "#FF2E97"
+  green: "#62A9CF"
+  yellow: "#FFD400"
+  blue: "#42C6FF"
+  magenta: "#FF2AFC"
+  cyan: "#42C6FF"
+  white: "#D9E0E9"
+  brightBlack: "#435056"
+  brightRed: "#FF2E97"
+  brightGreen: "#ADD0E5"
+  brightYellow: "#FFD400"
+  brightBlue: "#42C6FF"
+  brightMagenta: "#FF2AFC"
+  brightCyan: "#42C6FF"
+  brightWhite: "#F4F6F9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 99.7
+    black: 0
+    red: 41.2
+    green: 51.1
+    yellow: 82.6
+    blue: 65
+    magenta: 46.7
+    cyan: 65
+    white: 87.1
+    brightBlack: 13.1
+    brightRed: 41.2
+    brightGreen: 74.7
+    brightYellow: 82.6
+    brightBlue: 65
+    brightMagenta: 46.7
+    brightCyan: 65
+    brightWhite: 101.5

@@ -1,0 +1,52 @@
+name: "Smit Minimal Dark"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+colors:
+  bg: "#1A1A1A"
+  fg: "#C0C0C0"
+  black: "#1A1A1A"
+  red: "#808080"
+  green: "#909090"
+  yellow: "#A0A0A0"
+  blue: "#4A9EFF"
+  magenta: "#707070"
+  cyan: "#4A9EFF"
+  white: "#C0C0C0"
+  brightBlack: "#505050"
+  brightRed: "#909090"
+  brightGreen: "#A0A0A0"
+  brightYellow: "#B0B0B0"
+  brightBlue: "#6DB0FF"
+  brightMagenta: "#808080"
+  brightCyan: "#6DB0FF"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.3
+    black: 0
+    red: 33.4
+    green: 41.3
+    yellow: 49.5
+    blue: 47.7
+    magenta: 26.1
+    cyan: 47.7
+    white: 67.3
+    brightBlack: 12.9
+    brightRed: 41.3
+    brightGreen: 49.5
+    brightYellow: 58.2
+    brightBlue: 56.5
+    brightMagenta: 33.4
+    brightCyan: 56.5
+    brightWhite: 86.5

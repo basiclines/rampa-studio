@@ -1,0 +1,52 @@
+name: "Batcave"
+source:
+  marketplace_id: "mertdeveci.batcave-theme"
+  version: "1.0.2"
+  installs: 81
+  rating: 0
+  ratings: 0
+  author: "Mert Deveci"
+  repo: "https://github.com/mertdeveci/batcave-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mertdeveci.batcave-theme"
+colors:
+  bg: "#0A0A0F"
+  fg: "#C5D0E6"
+  black: "#1A1A2E"
+  red: "#FF3333"
+  green: "#00FF88"
+  yellow: "#FFB000"
+  blue: "#00B8D9"
+  magenta: "#A855F7"
+  cyan: "#0A8A8A"
+  white: "#C5D0E6"
+  brightBlack: "#2D2D44"
+  brightRed: "#FF6666"
+  brightGreen: "#66FFAA"
+  brightYellow: "#FFCC00"
+  brightBlue: "#00D9FF"
+  brightMagenta: "#C084FC"
+  brightCyan: "#00D9D9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 77.6
+    black: 0
+    red: 39.5
+    green: 87.6
+    yellow: 68.5
+    blue: 55.9
+    magenta: 35.3
+    cyan: 33.2
+    white: 77.6
+    brightBlack: 0
+    brightRed: 47.8
+    brightGreen: 90.4
+    brightYellow: 79.4
+    brightBlue: 73.1
+    brightMagenta: 50.5
+    brightCyan: 71
+    brightWhite: 107.7

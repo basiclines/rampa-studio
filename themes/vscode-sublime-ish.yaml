@@ -3,6 +3,8 @@ source:
   marketplace_id: "keepflying.sublime-ish"
   version: "0.0.1"
   installs: 134
+  rating: 0
+  ratings: 0
   author: "keepflying"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=keepflying.sublime-ish"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 98.3
     black: 98.3

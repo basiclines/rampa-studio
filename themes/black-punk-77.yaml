@@ -2,7 +2,9 @@ name: "Black punk 77"
 source:
   marketplace_id: "PlutonicVoid.black-punk-77"
   version: "1.0.1"
-  installs: 115
+  installs: 116
+  rating: 0
+  ratings: 0
   author: "PlutonicVoid"
   repo: "https://gitlab.com/peter_thesequel/black-punk-77"
   url: "https://marketplace.visualstudio.com/items?itemName=PlutonicVoid.black-punk-77"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 68.8
     black: 0

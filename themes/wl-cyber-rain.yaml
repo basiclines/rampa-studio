@@ -1,0 +1,52 @@
+name: "WL-Cyber Rain"
+source:
+  marketplace_id: "WatkinsLabs.cyber-rain"
+  version: "1.0.1"
+  installs: 142
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.cyber-rain"
+colors:
+  bg: "#000022"
+  fg: "#00EEFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0055FF"
+  magenta: "#0077FF"
+  cyan: "#0055FF"
+  white: "#00EEFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0055FF"
+  brightMagenta: "#0077FF"
+  brightCyan: "#0055FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 37.3
+    green: 86.3
+    yellow: 102.5
+    blue: 24.8
+    magenta: 34
+    cyan: 24.8
+    white: 83.3
+    brightBlack: 22.8
+    brightRed: 37.3
+    brightGreen: 86.3
+    brightYellow: 102.5
+    brightBlue: 24.8
+    brightMagenta: 34
+    brightCyan: 24.8
+    brightWhite: 107.7

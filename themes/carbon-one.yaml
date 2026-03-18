@@ -3,6 +3,8 @@ source:
   marketplace_id: "Gerardo-Tordoya.carbon-one"
   version: "2.0.0"
   installs: 53
+  rating: 0
+  ratings: 0
   author: "Gerardo Tordoya"
   repo: "https://github.com/zherar7ordoya/carbon-one"
   url: "https://marketplace.visualstudio.com/items?itemName=Gerardo-Tordoya.carbon-one"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 98.3
     black: 99.2

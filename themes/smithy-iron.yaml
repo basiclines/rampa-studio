@@ -1,0 +1,52 @@
+name: "Smithy Iron"
+source:
+  marketplace_id: "michaelassaf.dark-smithy"
+  version: "0.1.87"
+  installs: 208
+  rating: 5
+  ratings: 1
+  author: "Michael Assaf"
+  repo: "https://github.com/smithy-theme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=michaelassaf.dark-smithy"
+colors:
+  bg: "#151716"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.9
+    black: 0
+    red: 26.8
+    green: 53
+    yellow: 85.7
+    blue: 27.5
+    magenta: 29.8
+    cyan: 47.6
+    white: 90.1
+    brightBlack: 22.1
+    brightRed: 38.6
+    brightGreen: 63.6
+    brightYellow: 95.7
+    brightBlue: 40
+    brightMagenta: 45.4
+    brightCyan: 55.4
+    brightWhite: 90.1

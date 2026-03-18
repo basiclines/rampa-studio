@@ -1,0 +1,52 @@
+name: "Stranger Theme: Dimension X"
+source:
+  marketplace_id: "StrangerTheme.stranger-theme-vscode"
+  version: "1.0.2"
+  installs: 212
+  rating: 0
+  ratings: 0
+  author: "Stranger Theme"
+  repo: "https://github.com/stranger-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=StrangerTheme.stranger-theme-vscode"
+colors:
+  bg: "#1E1A1A"
+  fg: "#E8D5D5"
+  black: "#1E1A1A"
+  red: "#FF55AA"
+  green: "#8B7355"
+  yellow: "#BCA89F"
+  blue: "#C678DD"
+  magenta: "#E06C75"
+  cyan: "#D19A66"
+  white: "#E8D5D5"
+  brightBlack: "#5C4A4A"
+  brightRed: "#FF55AA"
+  brightGreen: "#8B7355"
+  brightYellow: "#BCA89F"
+  brightBlue: "#C678DD"
+  brightMagenta: "#E06C75"
+  brightCyan: "#D19A66"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.2
+    black: 0
+    red: 45.5
+    green: 29.1
+    yellow: 55.8
+    blue: 44.7
+    magenta: 41.6
+    cyan: 52.2
+    white: 82.2
+    brightBlack: 12.1
+    brightRed: 45.5
+    brightGreen: 29.1
+    brightYellow: 55.8
+    brightBlue: 44.7
+    brightMagenta: 41.6
+    brightCyan: 52.2
+    brightWhite: 106.4

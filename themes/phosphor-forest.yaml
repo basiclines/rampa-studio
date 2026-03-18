@@ -3,6 +3,8 @@ source:
   marketplace_id: "glidebuild.phosphor-themes"
   version: "1.0.0"
   installs: 40
+  rating: 0
+  ratings: 0
   author: "glide.build"
   repo: "https://github.com/mo-shawa/phosphor-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=glidebuild.phosphor-themes"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 163
+  pair: null
   contrast:
     fg: 59.2
     black: 0

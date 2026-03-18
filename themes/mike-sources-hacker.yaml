@@ -1,0 +1,52 @@
+name: "Mike Sources Hacker"
+source:
+  marketplace_id: "mikesources.mike-sources-pack"
+  version: "1.1.1"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "Mike Sources"
+  repo: "https://github.com/mwfontes/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mikesources.mike-sources-pack"
+colors:
+  bg: "#000E14"
+  fg: "#7DF9FF"
+  black: "#606060"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#C2C2C2"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 222
+  pair: null
+  contrast:
+    fg: 91.8
+    black: 20.2
+    red: 27.4
+    green: 53.7
+    yellow: 86.3
+    blue: 28.1
+    magenta: 30.5
+    cyan: 48.3
+    white: 90.7
+    brightBlack: 69.5
+    brightRed: 39.3
+    brightGreen: 64.3
+    brightYellow: 96.4
+    brightBlue: 40.7
+    brightMagenta: 46.1
+    brightCyan: 56.1
+    brightWhite: 90.7

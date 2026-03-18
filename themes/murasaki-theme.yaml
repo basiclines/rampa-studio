@@ -3,6 +3,8 @@ source:
   marketplace_id: "WesleyBarbosa.murasaki-theme"
   version: "1.2.0"
   installs: 50
+  rating: 0
+  ratings: 0
   author: "WesleyBarbosa"
   repo: "https://github.com/Wesley216/murasaki-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=WesleyBarbosa.murasaki-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 292
+  pair: null
   contrast:
     fg: 94.9
     black: 14.6

@@ -1,0 +1,50 @@
+name: "Matrix Reloaded 🔒 LOCKED"
+source:
+  marketplace_id: "nextgencode.nextgen-terminal"
+  version: "1.2.1"
+  installs: 105
+  author: "NextGenCode"
+  repo: "https://github.com/Mattzey/nextgen-terminal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nextgencode.nextgen-terminal"
+colors:
+  bg: "#000000"
+  fg: "#444444"
+  black: "#000000"
+  red: "#FF3333"
+  green: "#555555"
+  yellow: "#888888"
+  blue: "#444444"
+  magenta: "#555555"
+  cyan: "#555555"
+  white: "#555555"
+  brightBlack: "#222222"
+  brightRed: "#FF0000"
+  brightGreen: "#666666"
+  brightYellow: "#888888"
+  brightBlue: "#444444"
+  brightMagenta: "#666666"
+  brightCyan: "#555555"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 9.8
+    black: 0
+    red: 39.6
+    green: 16.1
+    yellow: 38.6
+    blue: 9.8
+    magenta: 16.1
+    cyan: 16.1
+    white: 16.1
+    brightBlack: 0
+    brightRed: 37.5
+    brightGreen: 23
+    brightYellow: 38.6
+    brightBlue: 9.8
+    brightMagenta: 23
+    brightCyan: 16.1
+    brightWhite: 107.9

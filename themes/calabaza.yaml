@@ -1,0 +1,50 @@
+name: "calabaza"
+source:
+  marketplace_id: "calabaza.calabaza"
+  version: "0.0.1"
+  installs: 34
+  author: "calabaza"
+  repo: "https://github.com/Yoad-rg/calabaza"
+  url: "https://marketplace.visualstudio.com/items?itemName=calabaza.calabaza"
+colors:
+  bg: "#FFFFFF"
+  fg: "#070007"
+  black: "#2C2C3E"
+  red: "#FF3399"
+  green: "#00B253"
+  yellow: "#FFAA00"
+  blue: "#01A9E1"
+  magenta: "#CC66FF"
+  cyan: "#00CED1"
+  white: "#FFFFFF"
+  brightBlack: "#3D3D56"
+  brightRed: "#FF3399"
+  brightGreen: "#00B253"
+  brightYellow: "#FFAA00"
+  brightBlue: "#01A9E1"
+  brightMagenta: "#CC66FF"
+  brightCyan: "#00CED1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 100.2
+    red: 59.7
+    green: 53.2
+    yellow: 36
+    blue: 51.8
+    magenta: 56.6
+    cyan: 36.9
+    white: 0
+    brightBlack: 94.4
+    brightRed: 59.7
+    brightGreen: 53.2
+    brightYellow: 36
+    brightBlue: 51.8
+    brightMagenta: 56.6
+    brightCyan: 36.9
+    brightWhite: 0

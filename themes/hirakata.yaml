@@ -1,0 +1,52 @@
+name: "Hirakata"
+source:
+  marketplace_id: "wisdom.hirakata"
+  version: "0.1.0"
+  installs: 16
+  rating: 0
+  ratings: 0
+  author: "wisdom"
+  repo: "https://github.com/wisdom-plus/vscode-theme-hirakata"
+  url: "https://marketplace.visualstudio.com/items?itemName=wisdom.hirakata"
+colors:
+  bg: "#2F3542"
+  fg: "#BDC2CC"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#5E81AC"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E4E9F1"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#5E81AC"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#E4E9F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  pair: null
+  contrast:
+    fg: 63.2
+    black: 0
+    red: 27.6
+    green: 56.3
+    yellow: 71
+    blue: 27.8
+    magenta: 41.1
+    cyan: 57.3
+    white: 86.9
+    brightBlack: 10
+    brightRed: 27.6
+    brightGreen: 56.3
+    brightYellow: 71
+    brightBlue: 27.8
+    brightMagenta: 41.1
+    brightCyan: 57.3
+    brightWhite: 86.9

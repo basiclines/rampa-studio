@@ -1,0 +1,50 @@
+name: "Illuminate"
+source:
+  marketplace_id: "rookiepsi.illuminate"
+  version: "1.1.0"
+  installs: 314
+  author: "psi​"
+  repo: "https://github.com/rookiepsi/illuminate"
+  url: "https://marketplace.visualstudio.com/items?itemName=rookiepsi.illuminate"
+colors:
+  bg: "#373A40"
+  fg: "#DCDDDE"
+  black: "#606369"
+  red: "#FF6060"
+  green: "#70FFB8"
+  yellow: "#FFD860"
+  blue: "#60D8FF"
+  magenta: "#D080FF"
+  cyan: "#60FFFF"
+  white: "#DCDDDE"
+  brightBlack: "#404349"
+  brightRed: "#FF4040"
+  brightGreen: "#50FFA8"
+  brightYellow: "#FFD040"
+  brightBlue: "#40D0FF"
+  brightMagenta: "#B840FF"
+  brightCyan: "#40FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 78.1
+    black: 13.9
+    red: 38.7
+    green: 83.6
+    yellow: 77.4
+    blue: 66.7
+    magenta: 44.4
+    cyan: 85.9
+    white: 78.1
+    brightBlack: 0
+    brightRed: 33.2
+    brightGreen: 81.8
+    brightYellow: 73.6
+    brightBlue: 61.9
+    brightMagenta: 27.4
+    brightCyan: 84.9
+    brightWhite: 100

@@ -3,6 +3,8 @@ source:
   marketplace_id: "brennacodes.plum-good-theme"
   version: "0.8.0"
   installs: 444
+  rating: 5
+  ratings: 1
   author: "brennacodes"
   repo: "https://github.com/brennacodes/plum_good_theme"
   url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 248
+  pair: null
   contrast:
     fg: 97.1
     black: 0

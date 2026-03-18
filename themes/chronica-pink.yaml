@@ -1,0 +1,52 @@
+name: "Chronica Pink"
+source:
+  marketplace_id: "finn-schwarz.chronica-theme"
+  version: "1.2.1"
+  installs: 153
+  rating: 0
+  ratings: 0
+  author: "Finn Schwarz"
+  repo: "https://github.com/fnschwarz/vscode-chronica-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=finn-schwarz.chronica-theme"
+colors:
+  bg: "#1B0915"
+  fg: "#EEEEEE"
+  black: "#000000"
+  red: "#E6596E"
+  green: "#78E27F"
+  yellow: "#F7EA7A"
+  blue: "#558BC4"
+  magenta: "#E961A9"
+  cyan: "#5DB6CC"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#ED8796"
+  brightGreen: "#ACE6B0"
+  brightYellow: "#F7EEA2"
+  brightBlue: "#91B0E5"
+  brightMagenta: "#8EC3F1"
+  brightCyan: "#9CDEEC"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 341
+  pair: null
+  contrast:
+    fg: 96.3
+    black: 0
+    red: 39.6
+    green: 75.1
+    yellow: 92
+    blue: 38
+    magenta: 43.9
+    cyan: 55.9
+    white: 90.6
+    brightBlack: 22.6
+    brightRed: 53.3
+    brightGreen: 82.4
+    brightYellow: 94.8
+    brightBlue: 58.4
+    brightMagenta: 66.8
+    brightCyan: 79.7
+    brightWhite: 90.6

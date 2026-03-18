@@ -2,7 +2,9 @@ name: "cocoa"
 source:
   marketplace_id: "akirco.cocoa-theme"
   version: "0.0.4"
-  installs: 130
+  installs: 131
+  rating: 0
+  ratings: 0
   author: "akirco"
   repo: "https://github.com/akirco/vscode-theme-cocoa"
   url: "https://marketplace.visualstudio.com/items?itemName=akirco.cocoa-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 276
+  pair: null
   contrast:
     fg: 62.1
     black: 34.1

@@ -1,0 +1,50 @@
+name: "Eva Theme"
+source:
+  marketplace_id: "Sigmabudanov.vs-code-eva-theme"
+  version: "1.1.1"
+  installs: 153
+  author: "Sigma budanov"
+  repo: "https://github.com/Spark4444/VsCodeEvangelionTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sigmabudanov.vs-code-eva-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#BE0000"
+  green: "#00BC74"
+  yellow: "#B0B000"
+  blue: "#0059BC"
+  magenta: "#A700A7"
+  cyan: "#0088A9"
+  white: "#D4D4D4"
+  brightBlack: "#8E8E8E"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF98"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0079FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00CDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 22.1
+    green: 53.9
+    yellow: 56.6
+    blue: 19.8
+    magenta: 21.8
+    cyan: 33.9
+    white: 80.5
+    brightBlack: 41.6
+    brightRed: 37.5
+    brightGreen: 88.2
+    brightYellow: 102.7
+    brightBlue: 34.8
+    brightMagenta: 46.2
+    brightCyan: 67.7
+    brightWhite: 107.9

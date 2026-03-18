@@ -1,0 +1,52 @@
+name: "Subliminal Nightfall"
+source:
+  marketplace_id: "hamrahm.subliminal-nightfall"
+  version: "0.1.14"
+  installs: 19
+  rating: 0
+  ratings: 0
+  author: "Mike Hamrah"
+  repo: "https://github.com/mhamrah/subliminal-nightfall"
+  url: "https://marketplace.visualstudio.com/items?itemName=hamrahm.subliminal-nightfall"
+colors:
+  bg: "#03021A"
+  fg: "#E0DEF4"
+  black: "#7F7F7F"
+  red: "#BF616A"
+  green: "#A9CFA4"
+  yellow: "#FCB832"
+  blue: "#6699CC"
+  magenta: "#F1A5AB"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#E2848D"
+  brightGreen: "#CCF2C7"
+  brightYellow: "#FFD266"
+  brightBlue: "#89BCEF"
+  brightMagenta: "#FFC8CE"
+  brightCyan: "#82D6D6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 277
+  pair: null
+  contrast:
+    fg: 87.9
+    black: 34.2
+    red: 33.9
+    green: 71.4
+    yellow: 71.1
+    blue: 45.1
+    magenta: 64.7
+    cyan: 53.9
+    white: 80.4
+    brightBlack: 34.2
+    brightRed: 50.4
+    brightGreen: 92.7
+    brightYellow: 82.7
+    brightBlue: 63.6
+    brightMagenta: 81.5
+    brightCyan: 73.3
+    brightWhite: 107.8

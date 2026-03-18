@@ -1,14 +1,16 @@
 name: "Jetbrain-Fleet color"
 source:
-  marketplace_id: "verteres1001.anysphere-dark-greener"
-  version: "1.1.2"
-  installs: 785
-  author: "verteres"
-  repo: "https://github.com/JohanTiniusSkjelberg/anysphere-greener"
-  url: "https://marketplace.visualstudio.com/items?itemName=verteres1001.anysphere-dark-greener"
+  marketplace_id: "madspace.echo-theme"
+  version: "1.0.0"
+  installs: 278
+  rating: 0
+  ratings: 0
+  author: "madspace"
+  repo: "https://github.com/madspace/madspace-echo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=madspace.echo-theme"
 colors:
-  bg: "#181818"
-  fg: "#D6D6DD"
+  bg: "#0A0A0A"
+  fg: "#606060"
   black: "#676767"
   red: "#F14C4C"
   green: "#15AC91"
@@ -16,35 +18,35 @@ colors:
   blue: "#4C9DF3"
   magenta: "#E567DC"
   cyan: "#75D3BA"
-  white: "#D6D6DD"
+  white: "#606060"
   brightBlack: "#676767"
-  brightRed: "#F14C4C"
-  brightGreen: "#69AF83"
-  brightYellow: "#E5B95C"
-  brightBlue: "#3993B1"
+  brightRed: "#994141"
+  brightGreen: "#15AC91"
+  brightYellow: "#9C7B35"
+  brightBlue: "#4C9DF3"
   brightMagenta: "#E567DC"
   brightCyan: "#75D3BA"
-  brightWhite: "#D6D6DD"
+  brightWhite: "#606060"
 meta:
   mode: "dark"
   accent: "pink"
   hue: null
   pair: null
   contrast:
-    fg: 80.9
-    black: 22.4
-    red: 38.5
-    green: 46.5
-    yellow: 67.1
-    blue: 46.7
-    magenta: 46.4
-    cyan: 68.8
-    white: 80.9
-    brightBlack: 22.4
-    brightRed: 38.5
-    brightGreen: 50.1
-    brightYellow: 67.1
-    brightBlue: 38.2
-    brightMagenta: 46.4
-    brightCyan: 68.8
-    brightWhite: 80.9
+    fg: 20.4
+    black: 23.3
+    red: 39.4
+    green: 47.5
+    yellow: 68.1
+    blue: 47.7
+    magenta: 47.3
+    cyan: 69.8
+    white: 20.4
+    brightBlack: 23.3
+    brightRed: 19.7
+    brightGreen: 47.5
+    brightYellow: 34.6
+    brightBlue: 47.7
+    brightMagenta: 47.3
+    brightCyan: 69.8
+    brightWhite: 20.4

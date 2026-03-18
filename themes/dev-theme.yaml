@@ -3,6 +3,8 @@ source:
   marketplace_id: "naqvi.dev-theme"
   version: "1.0.0"
   installs: 138
+  rating: 0
+  ratings: 0
   author: "naqvi"
   repo: "https://github.com/nrcool/vscode-theme-dev-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=naqvi.dev-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 80.5
     black: 107.9

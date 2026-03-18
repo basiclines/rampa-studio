@@ -3,6 +3,8 @@ source:
   marketplace_id: "hongtrapt.pink-angel-themes"
   version: "0.0.2"
   installs: 273
+  rating: 5
+  ratings: 1
   author: "hongtrapt"
   repo: "https://github.com/hongtra1311/pink-angel-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=hongtrapt.pink-angel-themes"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 220
+  pair: null
   contrast:
     fg: 94.3
     black: 0

@@ -3,6 +3,8 @@ source:
   marketplace_id: "PinkDopeyBug.pinkdopeybug"
   version: "1.0.20"
   installs: 472
+  rating: 0
+  ratings: 0
   author: "PinkDopeyBug"
   repo: "https://github.com/PinkDopeyBug/pinkdopeybug-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=PinkDopeyBug.pinkdopeybug"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 260
+  pair: null
   contrast:
     fg: 78.9
     black: 0

@@ -3,6 +3,8 @@ source:
   marketplace_id: "ubbeck.drakkar"
   version: "1.1.2"
   installs: 266
+  rating: 0
+  ratings: 0
   author: "ubbeck"
   repo: "https://github.com/ubbeck/drakkar.theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ubbeck.drakkar"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 248
+  pair: null
   contrast:
     fg: 86.7
     black: 0

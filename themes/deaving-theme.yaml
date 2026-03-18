@@ -3,6 +3,8 @@ source:
   marketplace_id: "deaving.deaving-theme"
   version: "0.0.1"
   installs: 22
+  rating: 0
+  ratings: 0
   author: "deaving"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=deaving.deaving-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 100.6
     black: 0

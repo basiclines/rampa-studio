@@ -1,0 +1,52 @@
+name: "Hologram Night"
+source:
+  marketplace_id: "orcheink.hologram-night-theme"
+  version: "0.0.1"
+  installs: 38
+  rating: 0
+  ratings: 0
+  author: "orcheink"
+  repo: "https://github.com/OrcheInk/vscode-theme-hologram-night"
+  url: "https://marketplace.visualstudio.com/items?itemName=orcheink.hologram-night-theme"
+colors:
+  bg: "#1C1E27"
+  fg: "#D8DEE9"
+  black: "#3B4052"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#6A737D"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D8DEE9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 84.5
+    black: 0
+    red: 41.2
+    green: 61.4
+    yellow: 69.7
+    blue: 53.8
+    magenta: 44.3
+    cyan: 53.7
+    white: 58.5
+    brightBlack: 26.4
+    brightRed: 41.2
+    brightGreen: 61.4
+    brightYellow: 69.7
+    brightBlue: 53.8
+    brightMagenta: 44.3
+    brightCyan: 53.7
+    brightWhite: 84.5

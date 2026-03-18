@@ -1,0 +1,52 @@
+name: "Alignment"
+source:
+  marketplace_id: "natixco.alignment-theme-vsc"
+  version: "0.0.1"
+  installs: 117
+  rating: 0
+  ratings: 0
+  author: "natixco"
+  repo: "https://github.com/natixco/alignment-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=natixco.alignment-theme-vsc"
+colors:
+  bg: "#1E1E29"
+  fg: "#EADEDA"
+  black: "#000000"
+  red: "#EA5D36"
+  green: "#EADEDA"
+  yellow: "#EABF38"
+  blue: "#3C98F5"
+  magenta: "#D45CFF"
+  cyan: "#3C98F5"
+  white: "#EADEDA"
+  brightBlack: "#000000"
+  brightRed: "#EA5D36"
+  brightGreen: "#EADEDA"
+  brightYellow: "#EABF38"
+  brightBlue: "#3C98F5"
+  brightMagenta: "#D45CFF"
+  brightCyan: "#3C98F5"
+  brightWhite: "#EADEDA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 86.1
+    black: 0
+    red: 38.8
+    green: 86.1
+    yellow: 69
+    blue: 43.5
+    magenta: 42.6
+    cyan: 43.5
+    white: 86.1
+    brightBlack: 0
+    brightRed: 38.8
+    brightGreen: 86.1
+    brightYellow: 69
+    brightBlue: 43.5
+    brightMagenta: 42.6
+    brightCyan: 43.5
+    brightWhite: 86.1

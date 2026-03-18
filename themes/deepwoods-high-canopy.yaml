@@ -1,0 +1,50 @@
+name: "Deepwoods High Canopy"
+source:
+  marketplace_id: "just-spliff.frosty-pine"
+  version: "1.1.4"
+  installs: 63
+  author: "just-spliff"
+  repo: "https://github.com/just-spliff/frosty-pine"
+  url: "https://marketplace.visualstudio.com/items?itemName=just-spliff.frosty-pine"
+colors:
+  bg: "#050807"
+  fg: "#F7FFF5"
+  black: "#11160F"
+  red: "#F28B82"
+  green: "#8EDC73"
+  yellow: "#CFEA8A"
+  blue: "#9BAE97"
+  magenta: "#B59F8E"
+  cyan: "#B7F1C5"
+  white: "#F7FFF5"
+  brightBlack: "#3D493C"
+  brightRed: "#F7A395"
+  brightGreen: "#B7F171"
+  brightYellow: "#E6FFD2"
+  brightBlue: "#C0D1BF"
+  brightMagenta: "#D0BBA6"
+  brightCyan: "#E0FFE9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.2
+    black: 0
+    red: 55.2
+    green: 73.8
+    yellow: 87.4
+    blue: 55.4
+    magenta: 52.4
+    cyan: 89.9
+    white: 106.2
+    brightBlack: 10.4
+    brightRed: 64.4
+    brightGreen: 87.7
+    brightYellow: 102.5
+    brightBlue: 75.8
+    brightMagenta: 67.6
+    brightCyan: 102.7
+    brightWhite: 107.8

@@ -1,0 +1,50 @@
+name: "Serenity Noir"
+source:
+  marketplace_id: "EmmettHintz.serenity"
+  version: "0.13.0"
+  installs: 83
+  author: "Emmett Hintz"
+  repo: "https://github.com/EmmettHintz/serenity"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmmettHintz.serenity"
+colors:
+  bg: "#0F1014"
+  fg: "#E7D2C5"
+  black: "#131317"
+  red: "#85A2E8"
+  green: "#E89EAE"
+  yellow: "#A678D2"
+  blue: "#E582D7"
+  magenta: "#697078"
+  cyan: "#3DBCEC"
+  white: "#E7D2C5"
+  brightBlack: "#83C4C4"
+  brightRed: "#85A2E8"
+  brightGreen: "#E89EAE"
+  brightYellow: "#A678D2"
+  brightBlue: "#E582D7"
+  brightMagenta: "#697078"
+  brightCyan: "#3DBCEC"
+  brightWhite: "#E7D2C5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Serenity Light"
+  contrast:
+    fg: 81.2
+    black: 0
+    red: 52.1
+    green: 60.5
+    yellow: 40.3
+    blue: 53.3
+    magenta: 26.6
+    cyan: 59.1
+    white: 81.2
+    brightBlack: 64
+    brightRed: 52.1
+    brightGreen: 60.5
+    brightYellow: 40.3
+    brightBlue: 53.3
+    brightMagenta: 26.6
+    brightCyan: 59.1
+    brightWhite: 81.2

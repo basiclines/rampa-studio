@@ -3,6 +3,8 @@ source:
   marketplace_id: "nlarew.electric-night-theme"
   version: "1.1.0"
   installs: 20
+  rating: 0
+  ratings: 0
   author: "nlarew"
   repo: "https://github.com/nlarew/electric-night-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=nlarew.electric-night-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 97.6
     black: 0

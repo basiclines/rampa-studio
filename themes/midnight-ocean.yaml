@@ -1,0 +1,52 @@
+name: "Midnight Ocean"
+source:
+  marketplace_id: "ExtRise.midnight-dark-theme"
+  version: "1.0.0"
+  installs: 92
+  rating: 0
+  ratings: 0
+  author: "ExtRise"
+  repo: "https://github.com/extrise/midnight-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ExtRise.midnight-dark-theme"
+colors:
+  bg: "#0F1419"
+  fg: "#BFDBFE"
+  black: "#0F1419"
+  red: "#F87171"
+  green: "#34D399"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#A78BFA"
+  cyan: "#22D3EE"
+  white: "#BFDBFE"
+  brightBlack: "#64748B"
+  brightRed: "#FCA5A5"
+  brightGreen: "#6EE7B7"
+  brightYellow: "#FCD34D"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#C4B5FD"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F1F5F9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 48.4
+    green: 65.5
+    yellow: 73
+    blue: 51.7
+    magenta: 48.6
+    cyan: 68.9
+    white: 82.5
+    brightBlack: 28
+    brightRed: 65.9
+    brightGreen: 78.4
+    brightYellow: 81.7
+    brightBlue: 68.5
+    brightMagenta: 67.2
+    brightCyan: 81.5
+    brightWhite: 100.2

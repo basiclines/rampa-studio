@@ -3,6 +3,8 @@ source:
   marketplace_id: "cycscarlos.my-own-theme"
   version: "1.0.0"
   installs: 6
+  rating: 0
+  ratings: 0
   author: "Carlos Colmenares Álvarez"
   repo: "https://github.com/cycscarlos/myTheme-VSC"
   url: "https://marketplace.visualstudio.com/items?itemName=cycscarlos.my-own-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 244
+  pair: null
   contrast:
     fg: 102
     black: 0

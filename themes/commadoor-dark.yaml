@@ -3,6 +3,8 @@ source:
   marketplace_id: "CommadoorBooks.commadoor-theme"
   version: "1.0.1"
   installs: 36
+  rating: 0
+  ratings: 0
   author: "Commadoor Books"
   repo: "https://github.com/commadoor/commadoor-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=CommadoorBooks.commadoor-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 88
+  pair: null
   contrast:
     fg: 54
     black: 0

@@ -3,6 +3,8 @@ source:
   marketplace_id: "pbower.8-bit-high-contrast"
   version: "0.0.1"
   installs: 248
+  rating: 0
+  ratings: 0
   author: "pbower"
   repo: "https://github.com/pbower/8-Bit-High-Contrast"
   url: "https://marketplace.visualstudio.com/items?itemName=pbower.8-bit-high-contrast"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 106
     black: 0

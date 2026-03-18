@@ -3,6 +3,8 @@ source:
   marketplace_id: "bcwsea.theme-iceland"
   version: "0.0.1"
   installs: 9
+  rating: 0
+  ratings: 0
   author: "bcwsea"
   repo: "https://github.com/bcwdev/theme-iceland"
   url: "https://marketplace.visualstudio.com/items?itemName=bcwsea.theme-iceland"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 235
+  pair: null
   contrast:
     fg: 53.9
     black: 11.6

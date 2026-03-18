@@ -1,0 +1,52 @@
+name: "chrome-green"
+source:
+  marketplace_id: "Suntechnic.green-papper"
+  version: "0.4.1"
+  installs: 1082
+  rating: 0
+  ratings: 0
+  author: "Александр Маджугин"
+  repo: "https://github.com/Suntechnic/green-papper"
+  url: "https://marketplace.visualstudio.com/items?itemName=Suntechnic.green-papper"
+colors:
+  bg: "#F8FBF1"
+  fg: "#222222"
+  black: "#000000"
+  red: "#F51818"
+  green: "#43B244"
+  yellow: "#F2AE49"
+  blue: "#E4ECDC"
+  magenta: "#A37ACC"
+  cyan: "#207F4C"
+  white: "#6C7880"
+  brightBlack: "#6C7680"
+  brightRed: "#F07171"
+  brightGreen: "#86B300"
+  brightYellow: "#FF9940"
+  brightBlue: "#55B4D4"
+  brightMagenta: "#FE76FF"
+  brightCyan: "#39CBCC"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.7
+    black: 102.8
+    red: 63.1
+    green: 49.3
+    yellow: 33.4
+    blue: 0
+    magenta: 58
+    cyan: 71
+    white: 68.3
+    brightBlack: 68.9
+    brightRed: 51.2
+    brightGreen: 45.3
+    brightYellow: 38.1
+    brightBlue: 43.3
+    brightMagenta: 40.9
+    brightCyan: 34.7
+    brightWhite: 102.8

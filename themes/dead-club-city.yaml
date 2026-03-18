@@ -1,0 +1,52 @@
+name: "Dead Club City"
+source:
+  marketplace_id: "kenziebottoms.dead-club-city"
+  version: "1.3.0"
+  installs: 25
+  rating: 0
+  ratings: 0
+  author: "Kenzie Bottoms"
+  repo: "https://github.com/kenziebottoms/vscode-theme-dead-club-city"
+  url: "https://marketplace.visualstudio.com/items?itemName=kenziebottoms.dead-club-city"
+colors:
+  bg: "#20101A"
+  fg: "#E0CCBD"
+  black: "#A6948C"
+  red: "#D24B03"
+  green: "#649D8B"
+  yellow: "#DEB58D"
+  blue: "#649D8B"
+  magenta: "#8E649C"
+  cyan: "#E48911"
+  white: "#E0CCBD"
+  brightBlack: "#A6948C"
+  brightRed: "#D24B03"
+  brightGreen: "#649D8B"
+  brightYellow: "#DEB58D"
+  brightBlue: "#E48911"
+  brightMagenta: "#C45D26"
+  brightCyan: "#E48911"
+  brightWhite: "#E0CCBD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 342
+  pair: null
+  contrast:
+    fg: 76.9
+    black: 45.6
+    red: 31.2
+    green: 42.8
+    yellow: 65.7
+    blue: 42.8
+    magenta: 28.2
+    cyan: 49.6
+    white: 76.9
+    brightBlack: 45.6
+    brightRed: 31.2
+    brightGreen: 42.8
+    brightYellow: 65.7
+    brightBlue: 49.6
+    brightMagenta: 32
+    brightCyan: 49.6
+    brightWhite: 76.9

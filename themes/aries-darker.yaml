@@ -1,0 +1,52 @@
+name: "aries-Darker"
+source:
+  marketplace_id: "aries.aries"
+  version: "1.4.6"
+  installs: 19487
+  rating: 0
+  ratings: 0
+  author: "aries"
+  repo: "https://github.com/MohamadMostafaee/ariesTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=aries.aries"
+colors:
+  bg: "#212121"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#545454"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 0
+    red: 42.4
+    green: 82.9
+    yellow: 77.7
+    blue: 54.7
+    magenta: 52.5
+    cyan: 77
+    white: 105.6
+    brightBlack: 13.5
+    brightRed: 42.4
+    brightGreen: 82.9
+    brightYellow: 77.7
+    brightBlue: 54.7
+    brightMagenta: 52.5
+    brightCyan: 77
+    brightWhite: 105.6

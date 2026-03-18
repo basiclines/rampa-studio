@@ -1,0 +1,52 @@
+name: "Simple Muted - Light"
+source:
+  marketplace_id: "Kang8m.simple-muted"
+  version: "0.0.3"
+  installs: 16
+  rating: 0
+  ratings: 0
+  author: "Kang8m"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Kang8m.simple-muted"
+colors:
+  bg: "#D9D9D6"
+  fg: "#212721"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Simple Muted - Dark"
+  contrast:
+    fg: 79.8
+    black: 83.7
+    red: 51.6
+    green: 26.9
+    yellow: 35.6
+    blue: 63.7
+    magenta: 52.2
+    cyan: 38.3
+    white: 63.6
+    brightBlack: 56.4
+    brightRed: 51.6
+    brightGreen: 18.6
+    brightYellow: 18.6
+    brightBlue: 63.7
+    brightMagenta: 52.2
+    brightCyan: 38.3
+    brightWhite: 26.1

@@ -1,50 +1,52 @@
 name: "Modus Vivendi Tinted"
 source:
-  marketplace_id: "tukinami-seika.modus-t"
-  version: "0.0.1"
-  installs: 87
-  author: "月波 清火"
-  repo: "https://github.com/tukinami/vscode-modus-t"
-  url: "https://marketplace.visualstudio.com/items?itemName=tukinami-seika.modus-t"
+  marketplace_id: "morokiane.modus-vivendi-tinted"
+  version: "0.0.5"
+  installs: 514
+  rating: 0
+  ratings: 0
+  author: "morokiane"
+  repo: "https://github.com/Morokiane/Modus-Vivendi-Tinted-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=morokiane.modus-vivendi-tinted"
 colors:
   bg: "#0D0E1C"
   fg: "#FFFFFF"
   black: "#000000"
-  red: "#FF5F59"
-  green: "#44BC44"
-  yellow: "#D0BC00"
-  blue: "#2FAFFF"
-  magenta: "#FEACD0"
-  cyan: "#00D3D0"
-  white: "#A6A6A6"
-  brightBlack: "#595959"
-  brightRed: "#FF6B55"
-  brightGreen: "#00C06F"
-  brightYellow: "#FEC43F"
-  brightBlue: "#79A8FF"
-  brightMagenta: "#B6A0FF"
-  brightCyan: "#6AE4B9"
-  brightWhite: "#FFFFFF"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
 meta:
   mode: "dark"
-  accent: "orange"
+  accent: "pink"
   hue: 280
   pair: null
   contrast:
     fg: 107.5
     black: 0
-    red: 45.9
+    red: 27.3
     green: 53.6
-    yellow: 65.3
-    blue: 54.6
-    magenta: 70.6
-    cyan: 67.5
-    white: 53.7
-    brightBlack: 17.3
-    brightRed: 48.3
-    brightGreen: 55.2
-    brightYellow: 76
-    brightBlue: 55.1
-    brightMagenta: 58.1
-    brightCyan: 77
-    brightWhite: 107.5
+    yellow: 86.2
+    blue: 28
+    magenta: 30.4
+    cyan: 48.2
+    white: 90.6
+    brightBlack: 22.6
+    brightRed: 39.2
+    brightGreen: 64.1
+    brightYellow: 96.2
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 90.6

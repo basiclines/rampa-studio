@@ -1,50 +1,52 @@
-name: "summer"
+name: "Summer"
 source:
-  marketplace_id: "roxcelic.summer-nights-roxcelic"
-  version: "1.0.6"
-  installs: 160
-  author: "roxcelic"
-  repo: "https://github.com/roxcelic/themes.git#summer"
-  url: "https://marketplace.visualstudio.com/items?itemName=roxcelic.summer-nights-roxcelic"
+  marketplace_id: "flow9s.summer"
+  version: "0.0.1"
+  installs: 435
+  rating: 0
+  ratings: 0
+  author: "flow9s"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=flow9s.summer"
 colors:
-  bg: "#240909"
-  fg: "#FFDDE1"
-  black: "#4B1D1D"
-  red: "#CE9178"
-  green: "#4E9A06"
-  yellow: "#D7BA7D"
-  blue: "#569CD6"
-  magenta: "#C586C0"
-  cyan: "#4EC9B0"
-  white: "#FFDDE1"
-  brightBlack: "#7B3030"
-  brightRed: "#E54B4B"
-  brightGreen: "#B5CEA8"
-  brightYellow: "#F2C000"
-  brightBlue: "#9CDCFE"
-  brightMagenta: "#B19CD9"
-  brightCyan: "#56B6C2"
-  brightWhite: "#FFFFFF"
+  bg: "#FFFBE8"
+  fg: "#499504"
+  black: "#353B43"
+  red: "#E6848A"
+  green: "#859900"
+  yellow: "#A8CB8F"
+  blue: "#75BFEF"
+  magenta: "#D33682"
+  cyan: "#93A1A1"
+  white: "#606060"
+  brightBlack: "#353B43"
+  brightRed: "#DC322F"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#2AA198"
+  brightWhite: "#808080"
 meta:
-  mode: "dark"
+  mode: "light"
   accent: "orange"
-  hue: 23
+  hue: null
   pair: null
   contrast:
-    fg: 90.4
-    black: 0
-    red: 49.8
-    green: 38.4
-    yellow: 66.4
-    blue: 45.3
-    magenta: 47.6
-    cyan: 62.3
-    white: 90.4
-    brightBlack: 11.2
-    brightRed: 36
-    brightGreen: 71.7
-    brightYellow: 71.8
-    brightBlue: 79.5
-    brightMagenta: 53.4
-    brightCyan: 54.8
-    brightWhite: 107.2
+    fg: 62.1
+    black: 93.4
+    red: 48.1
+    green: 56.4
+    yellow: 31
+    blue: 36.1
+    magenta: 67.6
+    cyan: 49.3
+    white: 78.7
+    brightBlack: 93.4
+    brightRed: 67.8
+    brightGreen: 74.2
+    brightYellow: 68.3
+    brightBlue: 56.1
+    brightMagenta: 67.6
+    brightCyan: 55.6
+    brightWhite: 64.2

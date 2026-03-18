@@ -1,0 +1,52 @@
+name: "Code Glasses - Vision Pro"
+source:
+  marketplace_id: "shaant-shakti.code-glasses"
+  version: "0.0.3"
+  installs: 153
+  rating: 0
+  ratings: 0
+  author: "Aadityaa"
+  repo: "https://github.com/Aditya-Ace/Code-Glasses"
+  url: "https://marketplace.visualstudio.com/items?itemName=shaant-shakti.code-glasses"
+colors:
+  bg: "#0D0D0D"
+  fg: "#EADBCF"
+  black: "#1A1A1A"
+  red: "#C75D4E"
+  green: "#A7C484"
+  yellow: "#FBC154"
+  blue: "#8A8AA1"
+  magenta: "#C75D4E"
+  cyan: "#A7C484"
+  white: "#EADBCF"
+  brightBlack: "#6B6B7F"
+  brightRed: "#E57373"
+  brightGreen: "#C5E1A5"
+  brightYellow: "#FFF176"
+  brightBlue: "#B39DDB"
+  brightMagenta: "#F06292"
+  brightCyan: "#80CBC4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.1
+    black: 0
+    red: 33.7
+    green: 65.2
+    yellow: 74.6
+    blue: 40.2
+    magenta: 33.7
+    cyan: 65.2
+    white: 86.1
+    brightBlack: 25.6
+    brightRed: 45.5
+    brightGreen: 82.5
+    brightYellow: 96.6
+    brightBlue: 54.6
+    brightMagenta: 44.8
+    brightCyan: 67.1
+    brightWhite: 107.6

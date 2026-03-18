@@ -1,0 +1,50 @@
+name: "mother-stretch-my-hands"
+source:
+  marketplace_id: "chiefyangga.bianca"
+  version: "0.0.2"
+  installs: 146
+  author: "chiefyangga"
+  repo: "<https://github.com/chiefyangga/mother-stretch-my-hands>"
+  url: "https://marketplace.visualstudio.com/items?itemName=chiefyangga.bianca"
+colors:
+  bg: "#141417"
+  fg: "#C8C8C8"
+  black: "#141417"
+  red: "#D62C2C"
+  green: "#42DD76"
+  yellow: "#FFB638"
+  blue: "#C19EFA"
+  magenta: "#E66DFF"
+  cyan: "#14E5D4"
+  white: "#C8C8C8"
+  brightBlack: "#C19EFA"
+  brightRed: "#D62C2C"
+  brightGreen: "#42DD76"
+  brightYellow: "#FFB638"
+  brightBlue: "#C19EFA"
+  brightMagenta: "#E66DFF"
+  brightCyan: "#14E5D4"
+  brightWhite: "#C8C8C8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.5
+    black: 0
+    red: 28.5
+    green: 69.8
+    yellow: 70.3
+    blue: 58.2
+    magenta: 50.6
+    cyan: 76.1
+    white: 72.5
+    brightBlack: 58.2
+    brightRed: 28.5
+    brightGreen: 69.8
+    brightYellow: 70.3
+    brightBlue: 58.2
+    brightMagenta: 50.6
+    brightCyan: 76.1
+    brightWhite: 72.5

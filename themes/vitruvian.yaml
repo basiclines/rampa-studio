@@ -1,0 +1,52 @@
+name: "Vitruvian"
+source:
+  marketplace_id: "merle.vitruvian"
+  version: "0.1.3"
+  installs: 216
+  rating: 0
+  ratings: 0
+  author: "mmerle"
+  repo: "https://github.com/mmerle/vitruvian"
+  url: "https://marketplace.visualstudio.com/items?itemName=merle.vitruvian"
+colors:
+  bg: "#151618"
+  fg: "#E9E8E6"
+  black: "#535A62"
+  red: "#EB6F92"
+  green: "#B4E1EE"
+  yellow: "#F6C177"
+  blue: "#B6B6B6"
+  magenta: "#A69CE5"
+  cyan: "#2ACBDD"
+  white: "#E9E8E6"
+  brightBlack: "#535A62"
+  brightRed: "#EB6F92"
+  brightGreen: "#B4E1EE"
+  brightYellow: "#F6C177"
+  brightBlue: "#2ACBDD"
+  brightMagenta: "#A69CE5"
+  brightCyan: "#2ACBDD"
+  brightWhite: "#E9E8E6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.1
+    black: 16.9
+    red: 46
+    green: 83
+    yellow: 73.7
+    blue: 62
+    magenta: 52.6
+    cyan: 64.1
+    white: 92.1
+    brightBlack: 16.9
+    brightRed: 46
+    brightGreen: 83
+    brightYellow: 73.7
+    brightBlue: 64.1
+    brightMagenta: 52.6
+    brightCyan: 64.1
+    brightWhite: 92.1

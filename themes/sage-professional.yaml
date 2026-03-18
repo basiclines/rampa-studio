@@ -3,6 +3,8 @@ source:
   marketplace_id: "cubancodepath.jv-sage-professional"
   version: "2.1.0"
   installs: 8
+  rating: 0
+  ratings: 0
   author: "Bárbaro Javier"
   repo: "https://github.com/cubancodepath/sage-professional-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=cubancodepath.jv-sage-professional"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 220
+  pair: null
   contrast:
     fg: 81.2
     black: 0

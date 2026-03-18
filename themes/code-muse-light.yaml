@@ -1,0 +1,52 @@
+name: "Code Muse Light"
+source:
+  marketplace_id: "rajankur.code-muse-light-theme"
+  version: "1.0.4"
+  installs: 151
+  rating: 0
+  ratings: 0
+  author: "Raj Ankur"
+  repo: "https://github.com/rajankur/code-muse-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rajankur.code-muse-light-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#24292E"
+  red: "#D73A49"
+  green: "#28A745"
+  yellow: "#F66A0A"
+  blue: "#0366D6"
+  magenta: "#EA4AAA"
+  cyan: "#39D353"
+  white: "#6A737D"
+  brightBlack: "#6A737D"
+  brightRed: "#D73A49"
+  brightGreen: "#28A745"
+  brightYellow: "#F66A0A"
+  brightBlue: "#2188FF"
+  brightMagenta: "#EA4AAA"
+  brightCyan: "#39D353"
+  brightWhite: "#D1D5DA"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 101.5
+    red: 70.4
+    green: 57.9
+    yellow: 55.9
+    blue: 76.2
+    magenta: 61.1
+    cyan: 37.7
+    white: 73.4
+    brightBlack: 73.4
+    brightRed: 70.4
+    brightGreen: 57.9
+    brightYellow: 55.9
+    brightBlue: 61.7
+    brightMagenta: 61.1
+    brightCyan: 37.7
+    brightWhite: 22.4

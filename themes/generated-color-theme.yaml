@@ -3,6 +3,8 @@ source:
   marketplace_id: "RLabsInc.rlabs-theme-collection"
   version: "0.1.4"
   installs: 181
+  rating: 0
+  ratings: 0
   author: "RLabs Inc."
   repo: "https://github.com/rodrigoluglio/rlabs-themes-collection"
   url: "https://marketplace.visualstudio.com/items?itemName=RLabsInc.rlabs-theme-collection"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 96.1
     black: 0

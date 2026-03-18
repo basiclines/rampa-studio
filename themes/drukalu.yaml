@@ -1,0 +1,52 @@
+name: "Drukalu"
+source:
+  marketplace_id: "PhanTriVietHoang.vh-theme"
+  version: "0.0.4"
+  installs: 3
+  rating: 0
+  ratings: 0
+  author: "PhanTriVietHoang"
+  repo: "https://github.com/phantriviethoang/vh-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PhanTriVietHoang.vh-theme"
+colors:
+  bg: "#242530"
+  fg: "#EEFFFF"
+  black: "#242530"
+  red: "#FF8A7A"
+  green: "#5AF78E"
+  yellow: "#F3F99D"
+  blue: "#94D0FF"
+  magenta: "#FF85B8"
+  cyan: "#9AEDFE"
+  white: "#F1F1F0"
+  brightBlack: "#686868"
+  brightRed: "#FF8A7A"
+  brightGreen: "#5AF78E"
+  brightYellow: "#F3F99D"
+  brightBlue: "#94D0FF"
+  brightMagenta: "#FF85B8"
+  brightCyan: "#9AEDFE"
+  brightWhite: "#EEFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 281
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 0
+    red: 54.3
+    green: 82
+    yellow: 96.7
+    blue: 71.2
+    magenta: 55
+    cyan: 85
+    white: 95.6
+    brightBlack: 20.9
+    brightRed: 54.3
+    brightGreen: 82
+    brightYellow: 96.7
+    brightBlue: 71.2
+    brightMagenta: 55
+    brightCyan: 85
+    brightWhite: 102.5

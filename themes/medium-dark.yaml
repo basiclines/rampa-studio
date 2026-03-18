@@ -3,6 +3,8 @@ source:
   marketplace_id: "chriszo.medium-dark"
   version: "0.0.2"
   installs: 173
+  rating: 0
+  ratings: 0
   author: "chriszo"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=chriszo.medium-dark"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 74.8
     black: 0

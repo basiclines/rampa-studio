@@ -1,0 +1,52 @@
+name: "Abyssal-Hacker"
+source:
+  marketplace_id: "zen0x.abyssal"
+  version: "0.0.5"
+  installs: 42
+  rating: 0
+  ratings: 0
+  author: "zen0x"
+  repo: "https://github.com/zen0x00/abyssal-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zen0x.abyssal"
+colors:
+  bg: "#0B0C16"
+  fg: "#DDF7FF"
+  black: "#0B0C16"
+  red: "#50F872"
+  green: "#4FE88F"
+  yellow: "#50F7D4"
+  blue: "#829DD4"
+  magenta: "#86A7DF"
+  cyan: "#7CF8F7"
+  white: "#DDF7FF"
+  brightBlack: "#6A6E95"
+  brightRed: "#50F872"
+  brightGreen: "#4FE88F"
+  brightYellow: "#50F7D4"
+  brightBlue: "#829DD4"
+  brightMagenta: "#86A7DF"
+  brightCyan: "#7CF8F7"
+  brightWhite: "#DDF7FF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 84.4
+    green: 76.7
+    yellow: 86.8
+    blue: 49
+    magenta: 53.8
+    cyan: 90.8
+    white: 99.3
+    brightBlack: 27.4
+    brightRed: 84.4
+    brightGreen: 76.7
+    brightYellow: 86.8
+    brightBlue: 49
+    brightMagenta: 53.8
+    brightCyan: 90.8
+    brightWhite: 99.3

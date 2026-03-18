@@ -3,6 +3,8 @@ source:
   marketplace_id: "KJS-Officials.shadowscape"
   version: "0.0.1"
   installs: 104
+  rating: 0
+  ratings: 0
   author: "KJS - Officials"
   repo: "https://github.com/ShKev03/Shadowscape"
   url: "https://marketplace.visualstudio.com/items?itemName=KJS-Officials.shadowscape"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 106
     black: 0

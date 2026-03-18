@@ -3,6 +3,8 @@ source:
   marketplace_id: "Exaland.exaland-darktheme"
   version: "0.0.3"
   installs: 8
+  rating: 5
+  ratings: 2
   author: "Exaland"
   repo: "https://github.com/exaland/exaland-darktheme"
   url: "https://marketplace.visualstudio.com/items?itemName=Exaland.exaland-darktheme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 256
+  pair: null
   contrast:
     fg: 85.5
     black: 0

@@ -1,0 +1,52 @@
+name: "softie-theme"
+source:
+  marketplace_id: "filipondios.softie-theme"
+  version: "0.7.0"
+  installs: 388
+  rating: 0
+  ratings: 0
+  author: "filipondios"
+  repo: "https://github.com/dpv927/softie-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=filipondios.softie-theme"
+colors:
+  bg: "#292932"
+  fg: "#CBC6C6"
+  black: "#000000"
+  red: "#DB4A4A"
+  green: "#0DBC79"
+  yellow: "#D5D568"
+  blue: "#5DA9FD"
+  magenta: "#BC3FBC"
+  cyan: "#26C4EA"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FD3D3D"
+  brightGreen: "#23D18B"
+  brightYellow: "#FDFD5D"
+  brightBlue: "#248CFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#00CDFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 69
+    black: 0
+    red: 30.5
+    green: 50.2
+    yellow: 74.1
+    blue: 50.2
+    magenta: 27
+    cyan: 58.7
+    white: 87.2
+    brightBlack: 19.3
+    brightRed: 36.4
+    brightGreen: 60.8
+    brightYellow: 98.1
+    brightBlue: 37.6
+    brightMagenta: 42.6
+    brightCyan: 63.9
+    brightWhite: 87.2

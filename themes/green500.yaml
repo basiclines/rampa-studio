@@ -3,6 +3,8 @@ source:
   marketplace_id: "ArturGuedx.green500"
   version: "0.0.5"
   installs: 364
+  rating: 0
+  ratings: 0
   author: "ArturGuedx"
   repo: "https://github.com/ArturGuedes/green500"
   url: "https://marketplace.visualstudio.com/items?itemName=ArturGuedx.green500"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 101.3
     black: 0

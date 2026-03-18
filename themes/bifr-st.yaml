@@ -3,6 +3,8 @@ source:
   marketplace_id: "TheCodeTherapy.bitfrost-code-theme"
   version: "1.0.2"
   installs: 58
+  rating: 0
+  ratings: 0
   author: "TheCodeTherapy"
   repo: "https://github.com/TheCodeTherapy/bifrost"
   url: "https://marketplace.visualstudio.com/items?itemName=TheCodeTherapy.bitfrost-code-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 281
+  pair: null
   contrast:
     fg: 58.8
     black: 8.3

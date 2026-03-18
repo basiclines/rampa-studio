@@ -3,6 +3,8 @@ source:
   marketplace_id: "synanesthetics.purstel-theme"
   version: "0.1.0"
   installs: 235
+  rating: 0
+  ratings: 0
   author: "synanesthetics"
   repo: "https://github.com/synanesthetics/Purstel"
   url: "https://marketplace.visualstudio.com/items?itemName=synanesthetics.purstel-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "indigo"
   hue: 303
+  pair: null
   contrast:
     fg: 81.4
     black: 10.7

@@ -3,6 +3,8 @@ source:
   marketplace_id: "yshwaker.mountains-and-rivers-theme"
   version: "2.3.0"
   installs: 183
+  rating: 0
+  ratings: 0
   author: "yshwaker"
   repo: "https://github.com/yshwaker/mountains-and-rivers-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=yshwaker.mountains-and-rivers-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 97.9
     black: 100.9

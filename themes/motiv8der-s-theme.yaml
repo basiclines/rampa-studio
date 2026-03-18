@@ -3,6 +3,8 @@ source:
   marketplace_id: "IntoCode.motiv8der-dark-theme"
   version: "0.0.1"
   installs: 18
+  rating: 0
+  ratings: 0
   author: "IntoCode"
   repo: "https://github.com/Justin-Diner/IntoCode_VSCodeTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=IntoCode.motiv8der-dark-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 96.1
     black: 0

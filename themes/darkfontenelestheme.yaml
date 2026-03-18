@@ -3,6 +3,8 @@ source:
   marketplace_id: "HenriqueDark.henriquedark"
   version: "0.0.1"
   installs: 100
+  rating: 0
+  ratings: 0
   author: "HenriqueDark"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=HenriqueDark.henriquedark"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 74.4
     black: 0

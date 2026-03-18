@@ -1,0 +1,52 @@
+name: "Nova Light"
+source:
+  marketplace_id: "tw4.nova-language-extension"
+  version: "1.1.0"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "tw4"
+  repo: "https://github.com/tw4/nova-lang"
+  url: "https://marketplace.visualstudio.com/items?itemName=tw4.nova-language-extension"
+colors:
+  bg: "#FAF4ED"
+  fg: "#575279"
+  black: "#575279"
+  red: "#D7827E"
+  green: "#56949F"
+  yellow: "#EA9D34"
+  blue: "#286983"
+  magenta: "#907AA9"
+  cyan: "#D7827E"
+  white: "#F2E9E1"
+  brightBlack: "#9893A5"
+  brightRed: "#B4637A"
+  brightGreen: "#56949F"
+  brightYellow: "#EA9D34"
+  brightBlue: "#286983"
+  brightMagenta: "#907AA9"
+  brightCyan: "#D7827E"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: "Nova Dark"
+  contrast:
+    fg: 79.1
+    black: 79.1
+    red: 48.2
+    green: 55.6
+    yellow: 37.8
+    blue: 74.2
+    magenta: 59.3
+    cyan: 48.2
+    white: 0
+    brightBlack: 50.3
+    brightRed: 62.5
+    brightGreen: 55.6
+    brightYellow: 37.8
+    brightBlue: 74.2
+    brightMagenta: 59.3
+    brightCyan: 48.2
+    brightWhite: 9.7

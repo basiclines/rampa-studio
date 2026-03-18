@@ -3,6 +3,8 @@ source:
   marketplace_id: "rohitkudalkar-dark-theme.rohitkudalkar-dark-theme"
   version: "0.15.0"
   installs: 33
+  rating: 0
+  ratings: 0
   author: "rohitkudalkar-dark-theme"
   repo: "https://github.com/rohitkudalkar92/rohitkudalkar-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=rohitkudalkar-dark-theme.rohitkudalkar-dark-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 96.6
     black: 0

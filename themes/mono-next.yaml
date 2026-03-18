@@ -1,0 +1,52 @@
+name: "Mono Next"
+source:
+  marketplace_id: "MonoNext.mono-next"
+  version: "1.0.1"
+  installs: 1438
+  rating: 5
+  ratings: 1
+  author: "MonoNext"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=MonoNext.mono-next"
+colors:
+  bg: "#222222"
+  fg: "#F7F1FF"
+  black: "#363537"
+  red: "#FC618D"
+  green: "#7BD88F"
+  yellow: "#FCE566"
+  blue: "#FD9353"
+  magenta: "#948AE3"
+  cyan: "#5AD4E6"
+  white: "#F7F1FF"
+  brightBlack: "#69676C"
+  brightRed: "#FC618D"
+  brightGreen: "#7BD88F"
+  brightYellow: "#FCE566"
+  brightBlue: "#FD9353"
+  brightMagenta: "#948AE3"
+  brightCyan: "#5AD4E6"
+  brightWhite: "#F7F1FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.8
+    black: 0
+    red: 44.9
+    green: 68.8
+    yellow: 88.2
+    blue: 56.5
+    magenta: 42.8
+    cyan: 68.6
+    white: 97.8
+    brightBlack: 21.4
+    brightRed: 44.9
+    brightGreen: 68.8
+    brightYellow: 88.2
+    brightBlue: 56.5
+    brightMagenta: 42.8
+    brightCyan: 68.6
+    brightWhite: 97.8

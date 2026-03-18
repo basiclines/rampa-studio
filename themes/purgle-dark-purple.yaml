@@ -1,0 +1,50 @@
+name: "Purgle Dark (Purple)"
+source:
+  marketplace_id: "rmsyntax.rmsyntax-purgle-dark"
+  version: "0.0.6"
+  installs: 45
+  author: "rmsyntax"
+  repo: "https://github.com/ROMANSYNTAX32/Purgle-Dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=rmsyntax.rmsyntax-purgle-dark"
+colors:
+  bg: "#3B202F"
+  fg: "#8FA1B5"
+  black: "#170E13"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#4775FF"
+  magenta: "#BC3FBC"
+  cyan: "#57EFFF"
+  white: "#DBDBDB"
+  brightBlack: "#2C1F26"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#B1F0FF"
+  brightWhite: "#D1A5BE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 346
+  pair: null
+  contrast:
+    fg: 46.7
+    black: 0
+    red: 24.1
+    green: 50.4
+    yellow: 83
+    blue: 31.2
+    magenta: 27.1
+    cyan: 81.6
+    white: 81.1
+    brightBlack: 0
+    brightRed: 35.9
+    brightGreen: 60.9
+    brightYellow: 93
+    brightBlue: 37.4
+    brightMagenta: 42.7
+    brightCyan: 87.9
+    brightWhite: 56.7

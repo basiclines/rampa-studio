@@ -1,50 +1,52 @@
 name: "Carbon"
 source:
-  marketplace_id: "PhanTriVietHoang.theme4anyone"
-  version: "1.0.3"
-  installs: 6
-  author: "PhanTriVietHoang"
-  repo: "https://github.com/phantriviethoang/theme4anyone"
-  url: "https://marketplace.visualstudio.com/items?itemName=PhanTriVietHoang.theme4anyone"
+  marketplace_id: "OscarNewman.carbon-theme-dark"
+  version: "0.0.1"
+  installs: 3316
+  rating: 5
+  ratings: 1
+  author: "Oscar Newman"
+  repo: "https://github.com/oscarnewman/carbon-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=OscarNewman.carbon-theme-dark"
 colors:
-  bg: "#172030"
-  fg: "#C9CCCD"
-  black: "#172030"
-  red: "#FF8A7A"
-  green: "#5AF78E"
-  yellow: "#F3F99D"
-  blue: "#94D0FF"
-  magenta: "#FF85B8"
-  cyan: "#9AEDFE"
-  white: "#F1F1F0"
-  brightBlack: "#686868"
-  brightRed: "#FF8A7A"
-  brightGreen: "#5AF78E"
-  brightYellow: "#F3F99D"
-  brightBlue: "#94D0FF"
-  brightMagenta: "#FF85B8"
-  brightCyan: "#9AEDFE"
-  brightWhite: "#EEFFFF"
+  bg: "#152031"
+  fg: "#BAC8CB"
+  black: "#000000"
+  red: "#FF4262"
+  green: "#9CDE65"
+  yellow: "#E1E797"
+  blue: "#65B7EC"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#CDD3D3"
+  brightBlack: "#666666"
+  brightRed: "#FF4262"
+  brightGreen: "#9CDE65"
+  brightYellow: "#D8DE90"
+  brightBlue: "#65B7EC"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
 meta:
   mode: "dark"
-  accent: "teal"
-  hue: 262
+  accent: "orange"
+  hue: 259
   pair: null
   contrast:
-    fg: 73.2
+    fg: 69.6
     black: 0
-    red: 55.2
-    green: 82.9
-    yellow: 97.6
-    blue: 72.1
-    magenta: 55.9
-    cyan: 85.9
-    white: 96.5
-    brightBlack: 21.8
-    brightRed: 55.2
-    brightGreen: 82.9
-    brightYellow: 97.6
-    brightBlue: 72.1
-    brightMagenta: 55.9
-    brightCyan: 85.9
-    brightWhite: 103.4
+    red: 39.8
+    green: 73.6
+    yellow: 86.5
+    blue: 56.9
+    magenta: 28.7
+    cyan: 46.5
+    white: 77
+    brightBlack: 20.9
+    brightRed: 39.8
+    brightGreen: 73.6
+    brightYellow: 81
+    brightBlue: 56.9
+    brightMagenta: 44.3
+    brightCyan: 54.3
+    brightWhite: 88.9

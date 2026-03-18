@@ -2,7 +2,9 @@ name: "Cyberlite - Fork"
 source:
   marketplace_id: "ACO-626-theme.cyberlite"
   version: "0.0.1"
-  installs: 120
+  installs: 121
+  rating: 0
+  ratings: 0
   author: "ACO-626-theme"
   repo: "https://github.com/ACO-626/Cyberlite-Visual-Studio-Code-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ACO-626-theme.cyberlite"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 107.9
     black: 39.6

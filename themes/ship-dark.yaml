@@ -3,6 +3,8 @@ source:
   marketplace_id: "SHIPAI.shipai"
   version: "0.0.1"
   installs: 95
+  rating: 0
+  ratings: 0
   author: "SHIP.AI"
   repo: "https://github.com/vkyprmr/ship-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=SHIPAI.shipai"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: null
   contrast:
     fg: 90.9
     black: 0

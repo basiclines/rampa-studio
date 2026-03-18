@@ -1,0 +1,52 @@
+name: "Stranger Theme: Starcourt"
+source:
+  marketplace_id: "StrangerTheme.stranger-theme-vscode"
+  version: "1.0.2"
+  installs: 212
+  rating: 0
+  ratings: 0
+  author: "Stranger Theme"
+  repo: "https://github.com/stranger-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=StrangerTheme.stranger-theme-vscode"
+colors:
+  bg: "#1A1A2E"
+  fg: "#EAEAEA"
+  black: "#1A1A2E"
+  red: "#FF6B6B"
+  green: "#00FA9A"
+  yellow: "#FFD700"
+  blue: "#BA55D3"
+  magenta: "#FF1493"
+  cyan: "#00CED1"
+  white: "#EAEAEA"
+  brightBlack: "#6B5B95"
+  brightRed: "#FF6B6B"
+  brightGreen: "#00FA9A"
+  brightYellow: "#FFD700"
+  brightBlue: "#BA55D3"
+  brightMagenta: "#FF1493"
+  brightCyan: "#00CED1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 283
+  pair: null
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 47.5
+    green: 83.9
+    yellow: 82.7
+    blue: 33.9
+    magenta: 38.5
+    cyan: 64
+    white: 92.6
+    brightBlack: 20.7
+    brightRed: 47.5
+    brightGreen: 83.9
+    brightYellow: 82.7
+    brightBlue: 33.9
+    brightMagenta: 38.5
+    brightCyan: 64
+    brightWhite: 106.3

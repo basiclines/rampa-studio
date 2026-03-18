@@ -1,0 +1,52 @@
+name: "Rhodium Dark"
+source:
+  marketplace_id: "mataga.rhodium"
+  version: "1.2.6"
+  installs: 100
+  rating: 0
+  ratings: 0
+  author: "mataga"
+  repo: "https://github.com/merzainc/rhodium"
+  url: "https://marketplace.visualstudio.com/items?itemName=mataga.rhodium"
+colors:
+  bg: "#111827"
+  fg: "#F9FAFB"
+  black: "#FFFFFF"
+  red: "#FB7185"
+  green: "#34D399"
+  yellow: "#FBBF24"
+  blue: "#3B82F6"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#CBD5E1"
+  brightBlack: "#94A3B8"
+  brightRed: "#FB7185"
+  brightGreen: "#6EE7B7"
+  brightYellow: "#FCD34D"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 106.7
+    red: 49.1
+    green: 65
+    yellow: 72.6
+    blue: 36.6
+    magenta: 49.5
+    cyan: 68.4
+    white: 79.2
+    brightBlack: 50.6
+    brightRed: 49.1
+    brightGreen: 77.9
+    brightYellow: 81.2
+    brightBlue: 51.2
+    brightMagenta: 69.1
+    brightCyan: 81
+    brightWhite: 106.7

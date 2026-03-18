@@ -3,6 +3,8 @@ source:
   marketplace_id: "KumarAshishRanjan.blacky"
   version: "0.0.2"
   installs: 110
+  rating: 0
+  ratings: 0
   author: "Kumar Ashish Ranjan"
   repo: "https://github.com/dev-AshishRanjan/Blackie"
   url: "https://marketplace.visualstudio.com/items?itemName=KumarAshishRanjan.blacky"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 39.7
     black: 0

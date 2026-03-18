@@ -1,0 +1,50 @@
+name: "73nko Dark"
+source:
+  marketplace_id: "73nko.73nko-theme"
+  version: "1.0.0"
+  installs: 20
+  author: "73nko"
+  repo: "https://github.com/73nko/73nko-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=73nko.73nko-theme"
+colors:
+  bg: "#1F0A32"
+  fg: "#EDE5F2"
+  black: "#1F0A32"
+  red: "#E54258"
+  green: "#8AABDD"
+  yellow: "#E87A7D"
+  blue: "#8DA4BB"
+  magenta: "#A565A0"
+  cyan: "#E299BB"
+  white: "#EDE5F2"
+  brightBlack: "#7A5F8A"
+  brightRed: "#D64570"
+  brightGreen: "#8AABDD"
+  brightYellow: "#E87A7D"
+  brightBlue: "#C9C3E8"
+  brightMagenta: "#E299BB"
+  brightCyan: "#A565A0"
+  brightWhite: "#EDE5F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 305
+  pair: "73nko Light"
+  contrast:
+    fg: 91.7
+    black: 0
+    red: 34.6
+    green: 54.8
+    yellow: 47.4
+    blue: 50.6
+    magenta: 31.7
+    cyan: 57.8
+    white: 91.7
+    brightBlack: 23.4
+    brightRed: 32.3
+    brightGreen: 54.8
+    brightYellow: 47.4
+    brightBlue: 71.9
+    brightMagenta: 57.8
+    brightCyan: 31.7
+    brightWhite: 91.7

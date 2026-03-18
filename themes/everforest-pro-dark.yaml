@@ -1,0 +1,52 @@
+name: "Everforest Pro Dark"
+source:
+  marketplace_id: "AndreiLucaci.everforest-pro"
+  version: "2.0.0"
+  installs: 2489
+  rating: 5
+  ratings: 2
+  author: "Andrei Lucaci"
+  repo: "https://github.com/AndreiLucaci/everforest-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreiLucaci.everforest-pro"
+colors:
+  bg: "#2D353B"
+  fg: "#D3C6AA"
+  black: "#343F44"
+  red: "#E67E80"
+  green: "#A7C080"
+  yellow: "#DBBC7F"
+  blue: "#7FBBB3"
+  magenta: "#D699B6"
+  cyan: "#83C092"
+  white: "#D3C6AA"
+  brightBlack: "#859289"
+  brightRed: "#E67E80"
+  brightGreen: "#A7C080"
+  brightYellow: "#DBBC7F"
+  brightBlue: "#7FBBB3"
+  brightMagenta: "#D699B6"
+  brightCyan: "#83C092"
+  brightWhite: "#D3C6AA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 240
+  pair: "Everforest Pro Light"
+  contrast:
+    fg: 66.6
+    black: 0
+    red: 43.1
+    green: 57.5
+    yellow: 62.4
+    blue: 53.4
+    magenta: 50.5
+    cyan: 54.7
+    white: 66.6
+    brightBlack: 35.9
+    brightRed: 43.1
+    brightGreen: 57.5
+    brightYellow: 62.4
+    brightBlue: 53.4
+    brightMagenta: 50.5
+    brightCyan: 54.7
+    brightWhite: 66.6

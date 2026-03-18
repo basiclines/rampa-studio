@@ -1,0 +1,52 @@
+name: "ursa"
+source:
+  marketplace_id: "ursanor.ursa"
+  version: "0.0.2"
+  installs: 79
+  rating: 0
+  ratings: 0
+  author: "ursanor"
+  repo: "https://github.com/OnurUrsar/ursa-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ursanor.ursa"
+colors:
+  bg: "#1F1E13"
+  fg: "#EAEAEA"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 103
+  pair: null
+  contrast:
+    fg: 92.4
+    black: 0
+    red: 25.9
+    green: 52.2
+    yellow: 84.8
+    blue: 26.6
+    magenta: 29
+    cyan: 46.8
+    white: 89.2
+    brightBlack: 21.3
+    brightRed: 37.8
+    brightGreen: 62.8
+    brightYellow: 94.9
+    brightBlue: 39.2
+    brightMagenta: 44.6
+    brightCyan: 54.6
+    brightWhite: 89.2

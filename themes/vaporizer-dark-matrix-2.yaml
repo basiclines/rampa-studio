@@ -1,0 +1,52 @@
+name: "Vaporizer Dark Matrix 2"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35746
+  rating: 5
+  ratings: 6
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+colors:
+  bg: "#000201"
+  fg: "#D2FFC2"
+  black: "#86F500"
+  red: "#58AB05"
+  green: "#009232"
+  yellow: "#488A07"
+  blue: "#1F7D1D"
+  magenta: "#0EE261"
+  cyan: "#50A322"
+  white: "#E5E5E5"
+  brightBlack: "#AAF26D"
+  brightRed: "#447134"
+  brightGreen: "#009F20"
+  brightYellow: "#60E814"
+  brightBlue: "#69BC67"
+  brightMagenta: "#82D670"
+  brightCyan: "#9ED586"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 165
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 84.9
+    red: 46.9
+    green: 34.5
+    yellow: 32.4
+    blue: 26.2
+    magenta: 71.9
+    cyan: 43.1
+    white: 91
+    brightBlack: 86.9
+    brightRed: 23.2
+    brightGreen: 39.8
+    brightYellow: 76.1
+    brightBlue: 56.2
+    brightMagenta: 70
+    brightCyan: 72.3
+    brightWhite: 91

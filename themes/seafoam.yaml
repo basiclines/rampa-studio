@@ -3,6 +3,8 @@ source:
   marketplace_id: "ScottishPuffin.theme-sf"
   version: "1.2.5"
   installs: 134
+  rating: 0
+  ratings: 0
   author: "ScottishPuffin"
   repo: "https://github.com/WeeScottishPuffin/Seafoam"
   url: "https://marketplace.visualstudio.com/items?itemName=ScottishPuffin.theme-sf"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 201
+  pair: null
   contrast:
     fg: 86.5
     black: 27.1

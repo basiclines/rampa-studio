@@ -1,0 +1,52 @@
+name: "Void Nebula"
+source:
+  marketplace_id: "avitrano.void-nebula"
+  version: "0.1.4"
+  installs: 130
+  rating: 0
+  ratings: 0
+  author: "avitrano"
+  repo: "https://github.com/avitran0/void-nebula"
+  url: "https://marketplace.visualstudio.com/items?itemName=avitrano.void-nebula"
+colors:
+  bg: "#1E1E28"
+  fg: "#FFFFFF"
+  black: "#46465D"
+  red: "#F06464"
+  green: "#A0F082"
+  yellow: "#F0C878"
+  blue: "#6496F0"
+  magenta: "#B478F0"
+  cyan: "#50C8C8"
+  white: "#FFFFFF"
+  brightBlack: "#46465D"
+  brightRed: "#F06464"
+  brightGreen: "#A0F082"
+  brightYellow: "#F0C878"
+  brightBlue: "#6496F0"
+  brightMagenta: "#B478F0"
+  brightCyan: "#50C8C8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 105.9
+    black: 9.3
+    red: 42.2
+    green: 83.5
+    yellow: 74.5
+    blue: 44.3
+    magenta: 42.7
+    cyan: 61.7
+    white: 105.9
+    brightBlack: 9.3
+    brightRed: 42.2
+    brightGreen: 83.5
+    brightYellow: 74.5
+    brightBlue: 44.3
+    brightMagenta: 42.7
+    brightCyan: 61.7
+    brightWhite: 105.9

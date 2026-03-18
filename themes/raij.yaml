@@ -1,0 +1,52 @@
+name: "Raijū"
+source:
+  marketplace_id: "csmith23.raiju-contrast"
+  version: "0.0.2"
+  installs: 239
+  rating: 0
+  ratings: 0
+  author: "coleman smith"
+  repo: "https://github.com/csmith23/raiju"
+  url: "https://marketplace.visualstudio.com/items?itemName=csmith23.raiju-contrast"
+colors:
+  bg: "#262B3B"
+  fg: "#E6E6E6"
+  black: "#6F7899"
+  red: "#A188F1"
+  green: "#7EBBBB"
+  yellow: "#FFEDCB"
+  blue: "#8D9AD1"
+  magenta: "#CEB3F7"
+  cyan: "#A7A7EE"
+  white: "#D7E2FF"
+  brightBlack: "#6F7899"
+  brightRed: "#A188F1"
+  brightGreen: "#7EBBBB"
+  brightYellow: "#FFEDCB"
+  brightBlue: "#8D9AD1"
+  brightMagenta: "#CEB3F7"
+  brightCyan: "#A7A7EE"
+  brightWhite: "#D7E2FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 87.5
+    black: 27.4
+    red: 42.9
+    green: 55.7
+    yellow: 93.1
+    blue: 44.8
+    magenta: 63.9
+    cyan: 54.1
+    white: 85
+    brightBlack: 27.4
+    brightRed: 42.9
+    brightGreen: 55.7
+    brightYellow: 93.1
+    brightBlue: 44.8
+    brightMagenta: 63.9
+    brightCyan: 54.1
+    brightWhite: 85

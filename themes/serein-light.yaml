@@ -1,0 +1,52 @@
+name: "Serein Light"
+source:
+  marketplace_id: "abei.theme-serein"
+  version: "0.1.4"
+  installs: 34
+  rating: 0
+  ratings: 0
+  author: "abei"
+  repo: "https://github.com/abeixiaolu/vscode-theme-serein"
+  url: "https://marketplace.visualstudio.com/items?itemName=abei.theme-serein"
+colors:
+  bg: "#FFFFFF"
+  fg: "#393A34"
+  black: "#0F0F0F"
+  red: "#AB5959"
+  green: "#2B9815"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#2B9815"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: "Serein Dark"
+  contrast:
+    fg: 96.5
+    black: 105.5
+    red: 73.5
+    green: 64.5
+    yellow: 48.3
+    blue: 78.2
+    magenta: 81.1
+    cyan: 63.5
+    white: 21.1
+    brightBlack: 45.8
+    brightRed: 73.5
+    brightGreen: 64.5
+    brightYellow: 48.3
+    brightBlue: 78.2
+    brightMagenta: 81.1
+    brightCyan: 63.5
+    brightWhite: 17.6

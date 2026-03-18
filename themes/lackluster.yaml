@@ -1,0 +1,52 @@
+name: "Lackluster"
+source:
+  marketplace_id: "CoderSauce.lackluster-theme"
+  version: "1.0.0"
+  installs: 217
+  rating: 0
+  ratings: 0
+  author: "CoderSauce"
+  repo: "https://github.com/slugbyte/lackluster.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=CoderSauce.lackluster-theme"
+colors:
+  bg: "#191919"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#D70000"
+  green: "#789978"
+  yellow: "#ABAB77"
+  blue: "#7788AA"
+  magenta: "#708090"
+  cyan: "#DEEEED"
+  white: "#CCCCCC"
+  brightBlack: "#444444"
+  brightRed: "#D70000"
+  brightGreen: "#789978"
+  brightYellow: "#ABAB77"
+  brightBlue: "#7788AA"
+  brightMagenta: "#708090"
+  brightCyan: "#DEEEED"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.4
+    black: 0
+    red: 26.5
+    green: 41.7
+    yellow: 53.9
+    blue: 37.2
+    magenta: 32.7
+    cyan: 93.4
+    white: 74.4
+    brightBlack: 8.6
+    brightRed: 26.5
+    brightGreen: 41.7
+    brightYellow: 53.9
+    brightBlue: 37.2
+    brightMagenta: 32.7
+    brightCyan: 93.4
+    brightWhite: 84.8

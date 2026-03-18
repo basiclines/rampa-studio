@@ -1,0 +1,52 @@
+name: "Aklesky Mist of Mint"
+source:
+  marketplace_id: "aklesky.aklesky-flat-dark-theme"
+  version: "1.3.0"
+  installs: 112
+  rating: 0
+  ratings: 0
+  author: "aklesky"
+  repo: "https://github.com/aklesky/aklesky-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=aklesky.aklesky-flat-dark-theme"
+colors:
+  bg: "#1F2430"
+  fg: "#FFFFFF"
+  black: "#1F2430"
+  red: "#E06C75"
+  green: "#68B57B"
+  yellow: "#D4AF73"
+  blue: "#72C6E8"
+  magenta: "#C96EEA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#546E7A"
+  brightRed: "#FF5370"
+  brightGreen: "#B1FFCF"
+  brightYellow: "#E5C07B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 105.1
+    black: 0
+    red: 40.3
+    green: 50.7
+    yellow: 59.3
+    blue: 63.3
+    magenta: 42.2
+    cyan: 76.5
+    white: 105.1
+    brightBlack: 22.1
+    brightRed: 41.9
+    brightGreen: 94
+    brightYellow: 68.8
+    brightBlue: 54.2
+    brightMagenta: 52
+    brightCyan: 76.5
+    brightWhite: 105.1

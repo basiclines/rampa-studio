@@ -1,0 +1,52 @@
+name: "P. Upright \ Ox"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74789
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+colors:
+  bg: "#1F0C0F"
+  fg: "#ECAF87"
+  black: "#332726"
+  red: "#BC1600"
+  green: "#39A150"
+  yellow: "#D39E0D"
+  blue: "#4075A7"
+  magenta: "#D0245E"
+  cyan: "#29AD97"
+  white: "#CFB5A9"
+  brightBlack: "#4D3232"
+  brightRed: "#FF2E13"
+  brightGreen: "#73C84C"
+  brightYellow: "#FFC918"
+  brightBlue: "#62B2E4"
+  brightMagenta: "#EF4980"
+  brightCyan: "#60DEC9"
+  brightWhite: "#FAE8E0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 11
+  pair: null
+  contrast:
+    fg: 65.8
+    black: 0
+    red: 21.3
+    green: 41.2
+    yellow: 53.9
+    blue: 27.5
+    magenta: 27.5
+    cyan: 47.8
+    white: 64.6
+    brightBlack: 0
+    brightRed: 38.4
+    brightGreen: 61.3
+    brightYellow: 77.7
+    brightBlue: 55.7
+    brightMagenta: 39.3
+    brightCyan: 74.1
+    brightWhite: 94.5

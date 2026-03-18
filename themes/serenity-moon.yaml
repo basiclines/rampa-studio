@@ -1,0 +1,50 @@
+name: "Serenity Moon"
+source:
+  marketplace_id: "EmmettHintz.serenity"
+  version: "0.13.0"
+  installs: 83
+  author: "Emmett Hintz"
+  repo: "https://github.com/EmmettHintz/serenity"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmmettHintz.serenity"
+colors:
+  bg: "#232136"
+  fg: "#E7D2C5"
+  black: "#393552"
+  red: "#574F7D"
+  green: "#E0F0EA"
+  yellow: "#A678D2"
+  blue: "#95ADBE"
+  magenta: "#F6E1F4"
+  cyan: "#B090CE"
+  white: "#E7D2C5"
+  brightBlack: "#908CAA"
+  brightRed: "#574F7D"
+  brightGreen: "#E0F0EA"
+  brightYellow: "#A678D2"
+  brightBlue: "#95ADBE"
+  brightMagenta: "#F6E1F4"
+  brightCyan: "#B090CE"
+  brightWhite: "#E7D2C5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 288
+  pair: null
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 13.5
+    green: 93
+    yellow: 38.1
+    blue: 53.4
+    magenta: 89.7
+    cyan: 46.6
+    white: 78.9
+    brightBlack: 39.6
+    brightRed: 13.5
+    brightGreen: 93
+    brightYellow: 38.1
+    brightBlue: 53.4
+    brightMagenta: 89.7
+    brightCyan: 46.6
+    brightWhite: 78.9

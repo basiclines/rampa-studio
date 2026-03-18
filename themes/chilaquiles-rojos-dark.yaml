@@ -1,0 +1,52 @@
+name: "Chilaquiles Rojos (Dark)"
+source:
+  marketplace_id: "agzertuche.chilaquiles-theme"
+  version: "1.0.0"
+  installs: 16
+  rating: 0
+  ratings: 0
+  author: "Arturo De la Garza Zertuche"
+  repo: "https://github.com/agzertuche/chilaquiles-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=agzertuche.chilaquiles-theme"
+colors:
+  bg: "#1A1008"
+  fg: "#F5F1E8"
+  black: "#2A1C10"
+  red: "#C44536"
+  green: "#2E7D32"
+  yellow: "#D4A017"
+  blue: "#5B9BD5"
+  magenta: "#B23A2B"
+  cyan: "#3A8F85"
+  white: "#F5F1E8"
+  brightBlack: "#8B6355"
+  brightRed: "#E05C4B"
+  brightGreen: "#4CAF50"
+  brightYellow: "#E8B84B"
+  brightBlue: "#7AB3E0"
+  brightMagenta: "#C44536"
+  brightCyan: "#5BB5AB"
+  brightWhite: "#FDF8F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 60
+  pair: null
+  contrast:
+    fg: 98.2
+    black: 0
+    red: 27.8
+    green: 26.1
+    yellow: 54.9
+    blue: 45.2
+    magenta: 22.5
+    cyan: 35.3
+    white: 98.2
+    brightBlack: 25.2
+    brightRed: 38.1
+    brightGreen: 48
+    brightYellow: 67.5
+    brightBlue: 57.4
+    brightMagenta: 27.8
+    brightCyan: 53.8
+    brightWhite: 103

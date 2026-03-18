@@ -1,0 +1,49 @@
+name: "Lascavo Cold"
+source:
+  marketplace_id: "mdrsh.lascavo"
+  version: "0.2.5"
+  installs: 146
+  author: "mdrsh"
+  repo: "https://github.com/mdrsh/lascavo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mdrsh.lascavo"
+colors:
+  bg: "#20272F"
+  fg: "#FFFFFF"
+  black: "#222222"
+  red: "#F3395C"
+  green: "#27AA5B"
+  yellow: "#D4B35E"
+  blue: "#60AFEE"
+  magenta: "#C564B7"
+  cyan: "#55B8C5"
+  white: "#FFFFFF"
+  brightBlack: "#444444"
+  brightRed: "#E28845"
+  brightGreen: "#0CABA8"
+  brightYellow: "#D5C595"
+  brightBlue: "#609AC2"
+  brightMagenta: "#595DAB"
+  brightCyan: "#55B8C5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 252
+  contrast:
+    fg: 104.7
+    black: 0
+    red: 34.7
+    green: 42.4
+    yellow: 60.1
+    blue: 52.4
+    magenta: 35.7
+    cyan: 53.4
+    white: 104.7
+    brightBlack: 0
+    brightRed: 47
+    brightGreen: 44.9
+    brightYellow: 68.8
+    brightBlue: 41.5
+    brightMagenta: 19.5
+    brightCyan: 53.4
+    brightWhite: 104.7

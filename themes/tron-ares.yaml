@@ -1,50 +1,52 @@
-name: "Tron-Ares"
+name: "Tron: Ares"
 source:
-  marketplace_id: "AdibKhondoker.tron-ares-theme"
+  marketplace_id: "eschalk0.tron-ares"
   version: "0.1.5"
-  installs: 365
-  author: "Adib Khondoker"
-  repo: "https://github.com/adib82302/tron-ares-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=AdibKhondoker.tron-ares-theme"
+  installs: 199
+  rating: 0
+  ratings: 0
+  author: "Etienne Schalk"
+  repo: "https://github.com/etienneschalk/tron-ares-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eschalk0.tron-ares"
 colors:
-  bg: "#0C0C0C"
-  fg: "#A90000"
-  black: "#003300"
-  red: "#B40000"
-  green: "#E60000"
-  yellow: "#CCCC00"
-  blue: "#003FFF"
-  magenta: "#880088"
-  cyan: "#008888"
-  white: "#DE0303"
-  brightBlack: "#006600"
-  brightRed: "#B40000"
-  brightGreen: "#FF4800"
-  brightYellow: "#888800"
-  brightBlue: "#003FFF"
-  brightMagenta: "#880088"
-  brightCyan: "#008888"
-  brightWhite: "#DDFFDD"
+  bg: "#0D0000"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
 meta:
   mode: "dark"
-  accent: "purple"
-  hue: null
+  accent: "pink"
+  hue: 29
   pair: null
   contrast:
-    fg: 17.3
+    fg: 80.4
     black: 0
-    red: 19.7
-    green: 31.1
-    yellow: 71.7
-    blue: 20.5
-    magenta: 14.2
-    cyan: 32.2
-    white: 29.2
-    brightBlack: 17.3
-    brightRed: 19.7
-    brightGreen: 41.6
-    brightYellow: 36.4
-    brightBlue: 20.5
-    brightMagenta: 14.2
-    brightCyan: 32.2
-    brightWhite: 101.7
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 28.4
+    magenta: 30.7
+    cyan: 48.5
+    white: 91
+    brightBlack: 23
+    brightRed: 39.5
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 40.9
+    brightMagenta: 46.3
+    brightCyan: 56.3
+    brightWhite: 91

@@ -1,0 +1,50 @@
+name: "weitingcoder"
+source:
+  marketplace_id: "Weiting.peachforest"
+  version: "0.1.0"
+  installs: 196
+  author: "Weiting Huang"
+  repo: "https://github.com/weiting53/peachforest"
+  url: "https://marketplace.visualstudio.com/items?itemName=Weiting.peachforest"
+colors:
+  bg: "#000000"
+  fg: "#CD0000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 25.4
+    black: 0
+    red: 27.7
+    green: 52.7
+    yellow: 43.8
+    blue: 16
+    magenta: 27.1
+    cyan: 41.1
+    white: 16.1
+    brightBlack: 23
+    brightRed: 27.7
+    brightGreen: 61.4
+    brightYellow: 61.3
+    brightBlue: 16
+    brightMagenta: 27.1
+    brightCyan: 41.1
+    brightWhite: 53.5

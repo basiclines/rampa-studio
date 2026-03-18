@@ -3,6 +3,8 @@ source:
   marketplace_id: "SummerThemes.summer-dark-theme"
   version: "3.11.0"
   installs: 118
+  rating: 0
+  ratings: 0
   author: "SummerThemes"
   repo: "https://github.com/SummerThemes/summer-dark-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=SummerThemes.summer-dark-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 274
+  pair: null
   contrast:
     fg: 82
     black: 0

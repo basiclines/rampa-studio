@@ -3,6 +3,8 @@ source:
   marketplace_id: "vinihvc.monocious"
   version: "1.0.0"
   installs: 84
+  rating: 0
+  ratings: 0
   author: "Vinicius Vicentini"
   repo: "https://github.com/vinihvc/monocious"
   url: "https://marketplace.visualstudio.com/items?itemName=vinihvc.monocious"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 285
+  pair: null
   contrast:
     fg: 106.1
     black: 0

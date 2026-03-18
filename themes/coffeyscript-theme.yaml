@@ -2,7 +2,9 @@ name: "CoffeyScript Theme"
 source:
   marketplace_id: "MichaelCoffeyMint.coffeyscript-theme"
   version: "0.0.5"
-  installs: 299
+  installs: 300
+  rating: 0
+  ratings: 0
   author: "Michael Coffey Mint"
   repo: "https://github.com/MichaelCoffey6/CoffeyScript-VSC-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MichaelCoffeyMint.coffeyscript-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 25
+  pair: null
   contrast:
     fg: 77
     black: 0

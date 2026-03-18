@@ -1,0 +1,52 @@
+name: "fruitbasket-dark"
+source:
+  marketplace_id: "charlotte-dev.fruitbasket-theme"
+  version: "1.0.5"
+  installs: 124
+  rating: 5
+  ratings: 1
+  author: "charlotte-dev"
+  repo: "https://git.charlotte.sh/lotte/fruitbasket"
+  url: "https://marketplace.visualstudio.com/items?itemName=charlotte-dev.fruitbasket-theme"
+colors:
+  bg: "#1E1A1D"
+  fg: "#E5E5E5"
+  black: "#2A1F24"
+  red: "#D23B80"
+  green: "#6A9A6C"
+  yellow: "#E0BD6C"
+  blue: "#8CAFF0"
+  magenta: "#DC548F"
+  cyan: "#4DACB8"
+  white: "#E5E5E5"
+  brightBlack: "#7A7A7A"
+  brightRed: "#FF8AC8"
+  brightGreen: "#8AB68C"
+  brightYellow: "#F0CB7A"
+  brightBlue: "#7A9FE8"
+  brightMagenta: "#FFB8D9"
+  brightCyan: "#7ACAD5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.6
+    black: 0
+    red: 30.2
+    green: 40.5
+    yellow: 67.8
+    blue: 57.3
+    magenta: 36.6
+    cyan: 49
+    white: 89.6
+    brightBlack: 30.5
+    brightRed: 58.7
+    brightGreen: 55.4
+    brightYellow: 76.3
+    brightBlue: 49.1
+    brightMagenta: 74.5
+    brightCyan: 65.8
+    brightWhite: 106.4

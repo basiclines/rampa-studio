@@ -3,6 +3,8 @@ source:
   marketplace_id: "Yuritoledo.the-druid"
   version: "1.0.6"
   installs: 54
+  rating: 0
+  ratings: 0
   author: "Yuri toledo"
   repo: "https://github.com/yuritoledo/the-druid-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Yuritoledo.the-druid"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 132
+  pair: null
   contrast:
     fg: 107.3
     black: 0

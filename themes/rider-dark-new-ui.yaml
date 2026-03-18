@@ -1,0 +1,52 @@
+name: "Rider Dark (New UI)"
+source:
+  marketplace_id: "Gasrulle.gasrulle-theme"
+  version: "0.6.7"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Gasrulle"
+  repo: "https://github.com/gasrulle/gasrulle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gasrulle.gasrulle-theme"
+colors:
+  bg: "#1E1F22"
+  fg: "#BCBEC4"
+  black: "#1E1F22"
+  red: "#F75464"
+  green: "#5FAD65"
+  yellow: "#F2C55C"
+  blue: "#548AF7"
+  magenta: "#C77DBB"
+  cyan: "#2AACB8"
+  white: "#BCBEC4"
+  brightBlack: "#6F737A"
+  brightRed: "#F75464"
+  brightGreen: "#6CC46E"
+  brightYellow: "#F2C55C"
+  brightBlue: "#6B9BFA"
+  brightMagenta: "#D09BCD"
+  brightCyan: "#37BFC8"
+  brightWhite: "#DFE1E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.5
+    black: 0
+    red: 40.7
+    green: 47
+    yellow: 73.1
+    blue: 39.6
+    magenta: 43.8
+    cyan: 47.5
+    white: 65.5
+    brightBlack: 26.6
+    brightRed: 40.7
+    brightGreen: 58.2
+    brightYellow: 73.1
+    brightBlue: 47.2
+    brightMagenta: 55.5
+    brightCyan: 56.8
+    brightWhite: 86.4

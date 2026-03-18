@@ -3,6 +3,8 @@ source:
   marketplace_id: "Betu55.betu-dark-theme"
   version: "1.6.1"
   installs: 142
+  rating: 0
+  ratings: 0
   author: "Betu55"
   repo: "https://github.com/betu55/Betu-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Betu55.betu-dark-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 64.2
     black: 0

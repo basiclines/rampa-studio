@@ -1,0 +1,52 @@
+name: "Fireside"
+source:
+  marketplace_id: "cipher-shad0w.fireside"
+  version: "1.0.0"
+  installs: 62
+  rating: 5
+  ratings: 1
+  author: "cipher-shad0w"
+  repo: "https://github.com/cipher-shad0w/fireside-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=cipher-shad0w.fireside"
+colors:
+  bg: "#0A1220"
+  fg: "#F0F2F5"
+  black: "#0A1220"
+  red: "#E06B58"
+  green: "#889889"
+  yellow: "#B8B5A2"
+  blue: "#B8B8B6"
+  magenta: "#E48B7A"
+  cyan: "#D0CAC7"
+  white: "#F0F2F5"
+  brightBlack: "#555C65"
+  brightRed: "#E06B58"
+  brightGreen: "#9EACA1"
+  brightYellow: "#C8C3B8"
+  brightBlue: "#CDCBC9"
+  brightMagenta: "#F0A19A"
+  brightCyan: "#E3DDDA"
+  brightWhite: "#F0F2F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 261
+  pair: null
+  contrast:
+    fg: 98.6
+    black: 0
+    red: 41.6
+    green: 43.9
+    yellow: 61.4
+    blue: 63.3
+    magenta: 51.8
+    cyan: 74.5
+    white: 98.6
+    brightBlack: 18
+    brightRed: 41.6
+    brightGreen: 54.8
+    brightYellow: 69.9
+    brightBlue: 74.6
+    brightMagenta: 62
+    brightCyan: 86.1
+    brightWhite: 98.6

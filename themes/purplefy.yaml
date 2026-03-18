@@ -3,6 +3,8 @@ source:
   marketplace_id: "VictorLima.victory-theme"
   version: "0.1.0"
   installs: 238
+  rating: 0
+  ratings: 0
   author: "Victor Lima"
   repo: "https://github.com/victorlim4/victory-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=VictorLima.victory-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 302
+  pair: null
   contrast:
     fg: 95.3
     black: 0

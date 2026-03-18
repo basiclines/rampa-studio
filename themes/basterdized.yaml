@@ -3,6 +3,8 @@ source:
   marketplace_id: "nashpatty.basterdized"
   version: "1.0.0"
   installs: 115
+  rating: 0
+  ratings: 0
   author: "nashpatty"
   repo: "https://github.com/nashpatty/vs-code-basterdized"
   url: "https://marketplace.visualstudio.com/items?itemName=nashpatty.basterdized"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 41
     black: 0

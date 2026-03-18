@@ -1,0 +1,52 @@
+name: "Blueberry"
+source:
+  marketplace_id: "vscode-blur.vscode-blueberry"
+  version: "0.1.1"
+  installs: 89
+  rating: 0
+  ratings: 0
+  author: "vscode-blur"
+  repo: "https://github.com/slapxxi/vscode-blueberry"
+  url: "https://marketplace.visualstudio.com/items?itemName=vscode-blur.vscode-blueberry"
+colors:
+  bg: "#0E0E12"
+  fg: "#A7B2D5"
+  black: "#0E0E12"
+  red: "#EB4A47"
+  green: "#B0F547"
+  yellow: "#FFC82A"
+  blue: "#1166FF"
+  magenta: "#C792EA"
+  cyan: "#19C4E6"
+  white: "#F5F7FF"
+  brightBlack: "#575656"
+  brightRed: "#EB4A47"
+  brightGreen: "#18DC6A"
+  brightYellow: "#FFC82A"
+  brightBlue: "#1166FF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#19C4E6"
+  brightWhite: "#F5F7FF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.7
+    black: 0
+    red: 37.5
+    green: 88.2
+    yellow: 77.7
+    blue: 29
+    magenta: 54.4
+    cyan: 61.8
+    white: 102.4
+    brightBlack: 16.2
+    brightRed: 37.5
+    brightGreen: 68.8
+    brightYellow: 77.7
+    brightBlue: 29
+    brightMagenta: 54.4
+    brightCyan: 61.8
+    brightWhite: 102.4

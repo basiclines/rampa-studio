@@ -1,0 +1,52 @@
+name: "Narixius One Dark"
+source:
+  marketplace_id: "Narixius.narixius-vscode-theme"
+  version: "0.0.13"
+  installs: 121
+  rating: 5
+  ratings: 1
+  author: "Narixius"
+  repo: "https://github.com/Narixius/narixius-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Narixius.narixius-vscode-theme"
+colors:
+  bg: "#0F1419"
+  fg: "#BFBAB0"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 64.7
+    black: 9.2
+    red: 37
+    green: 60.7
+    yellow: 48.9
+    blue: 50
+    magenta: 39.4
+    cyan: 52.8
+    white: 83.4
+    brightBlack: 15.8
+    brightRed: 46.4
+    brightGreen: 77.1
+    brightYellow: 61.5
+    brightBlue: 64.1
+    brightMagenta: 50.6
+    brightCyan: 68.1
+    brightWhite: 91

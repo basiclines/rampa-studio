@@ -3,6 +3,8 @@ source:
   marketplace_id: "Emad-W.Friendly-DarkTheme"
   version: "0.0.1"
   installs: 438
+  rating: 0
+  ratings: 0
   author: "Emad-W"
   repo: "https://github.com/Emad-W/Friendly-DarkTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=Emad-W.Friendly-DarkTheme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 75.8
     black: 0

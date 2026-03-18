@@ -3,6 +3,8 @@ source:
   marketplace_id: "Lovervoid.dark-mode-lover"
   version: "0.8.31"
   installs: 25
+  rating: 0
+  ratings: 0
   author: "Lovervoid"
   repo: "https://github.com/Kailuss/dark-mode-lover"
   url: "https://marketplace.visualstudio.com/items?itemName=Lovervoid.dark-mode-lover"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "indigo"
   hue: 280
+  pair: null
   contrast:
     fg: 47.7
     black: 0

@@ -1,0 +1,52 @@
+name: "UDT Eclipse (light)"
+source:
+  marketplace_id: "lexicographer.lucid-parchment-theme"
+  version: "1.0.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "FeiFei Liu"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=lexicographer.lucid-parchment-theme"
+colors:
+  bg: "#F9F8F6"
+  fg: "#4D3F32"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#55AAFF"
+  cyan: "#DB9D18"
+  white: "#F9F8F6"
+  brightBlack: "#4D3F32"
+  brightRed: "#CB4B16"
+  brightGreen: "#4D3F32"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#ADADAD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.4
+    black: 94.8
+    red: 66.4
+    green: 54.9
+    yellow: 54.9
+    blue: 59.8
+    magenta: 43.7
+    cyan: 42.4
+    white: 0
+    brightBlack: 89.4
+    brightRed: 66.9
+    brightGreen: 89.4
+    brightYellow: 66.8
+    brightBlue: 54.6
+    brightMagenta: 66.1
+    brightCyan: 40.1
+    brightWhite: 0

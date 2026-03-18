@@ -1,0 +1,52 @@
+name: "Lapis Light"
+source:
+  marketplace_id: "AlexBarnett.lapis-vscode"
+  version: "1.8.3"
+  installs: 5590
+  rating: 5
+  ratings: 5
+  author: "Alex Barnett"
+  repo: "https://github.com/aslbarnett/lapis-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexBarnett.lapis-vscode"
+colors:
+  bg: "#F5F8FF"
+  fg: "#2D3953"
+  black: "#7B8FB7"
+  red: "#CC3366"
+  green: "#52A329"
+  yellow: "#CC9933"
+  blue: "#3366CC"
+  magenta: "#9933CC"
+  cyan: "#29A37A"
+  white: "#2D3953"
+  brightBlack: "#9FADC6"
+  brightRed: "#D14775"
+  brightGreen: "#5CB72E"
+  brightYellow: "#D1A347"
+  brightBlue: "#4775D1"
+  brightMagenta: "#A347D1"
+  brightCyan: "#2EB789"
+  brightWhite: "#2D3953"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Lapis Dark"
+  contrast:
+    fg: 92.2
+    black: 55.6
+    red: 68.7
+    green: 54.2
+    yellow: 45.8
+    blue: 72
+    magenta: 73.1
+    cyan: 54.2
+    white: 92.2
+    brightBlack: 40.4
+    brightRed: 64.7
+    brightGreen: 45.2
+    brightYellow: 41.4
+    brightBlue: 66.2
+    brightMagenta: 68.3
+    brightCyan: 45.2
+    brightWhite: 92.2

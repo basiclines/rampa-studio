@@ -3,6 +3,8 @@ source:
   marketplace_id: "Pizzutti.pizzutti-purple-cyan"
   version: "1.0.1"
   installs: 158
+  rating: 0
+  ratings: 0
   author: "Pizzutti"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Pizzutti.pizzutti-purple-cyan"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 77
     black: 0

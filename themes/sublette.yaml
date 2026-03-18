@@ -3,6 +3,8 @@ source:
   marketplace_id: "minmul117.sublette"
   version: "0.2.4"
   installs: 421
+  rating: 0
+  ratings: 0
   author: "minmul117"
   repo: "https://github.com/minmul117/vscode-sublette"
   url: "https://marketplace.visualstudio.com/items?itemName=minmul117.sublette"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 271
+  pair: null
   contrast:
     fg: 73.7
     black: 0

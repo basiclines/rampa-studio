@@ -1,11 +1,13 @@
 name: "silent-code"
 source:
-  marketplace_id: "tirthdabgar.silent-code-theme-tirth"
-  version: "1.1.0"
-  installs: 36
+  marketplace_id: "tirthdabgar.silent-code"
+  version: "0.0.2"
+  installs: 1
+  rating: 0
+  ratings: 0
   author: "Tirth Dabgar"
-  repo: "https://github.com/tirthdabgar/silent-code-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=tirthdabgar.silent-code-theme-tirth"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=tirthdabgar.silent-code"
 colors:
   bg: "#0F111A"
   fg: "#CFD8DC"

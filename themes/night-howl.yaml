@@ -1,0 +1,52 @@
+name: "night-howl"
+source:
+  marketplace_id: "Matia.night-howl"
+  version: "1.3.0"
+  installs: 2997
+  rating: 5
+  ratings: 3
+  author: "Matia"
+  repo: "https://github.com/mattcroat/night-howl"
+  url: "https://marketplace.visualstudio.com/items?itemName=Matia.night-howl"
+colors:
+  bg: "#101E2C"
+  fg: "#BDD2E7"
+  black: "#000000"
+  red: "#FF7878"
+  green: "#AAE682"
+  yellow: "#FFDC96"
+  blue: "#00B1FF"
+  magenta: "#FF50FF"
+  cyan: "#00DCDC"
+  white: "#BDD2E7"
+  brightBlack: "#5F82A5"
+  brightRed: "#FF7878"
+  brightGreen: "#AAE682"
+  brightYellow: "#FFDC96"
+  brightBlue: "#00B1FF"
+  brightMagenta: "#FF50FF"
+  brightCyan: "#00DCDC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 76
+    black: 0
+    red: 50.7
+    green: 79.7
+    yellow: 86.3
+    blue: 53.7
+    magenta: 49.4
+    cyan: 71
+    white: 76
+    brightBlack: 32.5
+    brightRed: 50.7
+    brightGreen: 79.7
+    brightYellow: 86.3
+    brightBlue: 53.7
+    brightMagenta: 49.4
+    brightCyan: 71
+    brightWhite: 106.1

@@ -1,0 +1,52 @@
+name: "Tarbooz Underripe"
+source:
+  marketplace_id: "pabi.tarbooz-theme"
+  version: "0.3.1"
+  installs: 69
+  rating: 5
+  ratings: 2
+  author: "pabi"
+  repo: "https://github.com/pabi-ai/tarbooz"
+  url: "https://marketplace.visualstudio.com/items?itemName=pabi.tarbooz-theme"
+colors:
+  bg: "#1D1816"
+  fg: "#FFFFFF"
+  black: "#524C49"
+  red: "#EF6363"
+  green: "#45AA41"
+  yellow: "#BFAF40"
+  blue: "#4B9ECD"
+  magenta: "#ED63BA"
+  cyan: "#46A598"
+  white: "#9C9897"
+  brightBlack: "#75706E"
+  brightRed: "#D19797"
+  brightGreen: "#80B27F"
+  brightYellow: "#ADA77F"
+  brightBlue: "#87ABC0"
+  brightMagenta: "#CD95B8"
+  brightCyan: "#83AEA8"
+  brightWhite: "#CFCECD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.7
+    black: 11.9
+    red: 42.5
+    green: 44.7
+    yellow: 57.1
+    blue: 44.5
+    magenta: 45.1
+    cyan: 44.7
+    white: 45.9
+    brightBlack: 26.6
+    brightRed: 52.7
+    brightGreen: 52.7
+    brightYellow: 52.8
+    brightBlue: 52.8
+    brightMagenta: 52.7
+    brightCyan: 52.7
+    brightWhite: 75.7

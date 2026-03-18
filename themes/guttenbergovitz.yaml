@@ -1,0 +1,52 @@
+name: "Guttenbergovitz"
+source:
+  marketplace_id: "guttenbergovitz.guttenbergovitz"
+  version: "0.0.3"
+  installs: 181
+  rating: 0
+  ratings: 0
+  author: "Guttenbergovitz"
+  repo: "https://github.com/guttenbergovitz/guttenbergovitz-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=guttenbergovitz.guttenbergovitz"
+colors:
+  bg: "#232326"
+  fg: "#D4BE98"
+  black: "#1D1D20"
+  red: "#A96B69"
+  green: "#89A87D"
+  yellow: "#D6B986"
+  blue: "#D79969"
+  magenta: "#A96B69"
+  cyan: "#89A87D"
+  white: "#D4BE98"
+  brightBlack: "#7C7C7C"
+  brightRed: "#A96B69"
+  brightGreen: "#89A87D"
+  brightYellow: "#D6B986"
+  brightBlue: "#D79969"
+  brightMagenta: "#A96B69"
+  brightCyan: "#89A87D"
+  brightWhite: "#D4BE98"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 66.4
+    black: 0
+    red: 30.2
+    green: 47.9
+    yellow: 64.2
+    blue: 51.7
+    magenta: 30.2
+    cyan: 47.9
+    white: 66.4
+    brightBlack: 30.3
+    brightRed: 30.2
+    brightGreen: 47.9
+    brightYellow: 64.2
+    brightBlue: 51.7
+    brightMagenta: 30.2
+    brightCyan: 47.9
+    brightWhite: 66.4

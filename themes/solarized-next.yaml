@@ -1,0 +1,52 @@
+name: "Solarized Next"
+source:
+  marketplace_id: "Gipphe.solarized-next-plus"
+  version: "2.1.4"
+  installs: 375
+  rating: 0
+  ratings: 0
+  author: "Gipphe"
+  repo: "https://github.com/Gipphe/solarized-next"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gipphe.solarized-next-plus"
+colors:
+  bg: "#002B36"
+  fg: "#839496"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#073642"
+  brightRed: "#CB4B16"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#268BD2"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  pair: null
+  contrast:
+    fg: 39.5
+    black: 0
+    red: 27.7
+    green: 39.2
+    yellow: 39.2
+    blue: 34.3
+    magenta: 28
+    cyan: 40
+    white: 89.5
+    brightBlack: 0
+    brightRed: 27.2
+    brightGreen: 39.2
+    brightYellow: 39.2
+    brightBlue: 39.5
+    brightMagenta: 28
+    brightCyan: 34.3
+    brightWhite: 98.6

@@ -3,6 +3,8 @@ source:
   marketplace_id: "Wrkspace.wrkspace-theme"
   version: "0.0.2"
   installs: 20
+  rating: 5
+  ratings: 1
   author: "Wrkspace"
   repo: "https://github.com/wrkspace-co/vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Wrkspace.wrkspace-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 26.6
     black: 0

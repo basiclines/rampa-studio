@@ -3,6 +3,8 @@ source:
   marketplace_id: "gb-bittencourt.ozurac"
   version: "1.0.3"
   installs: 30
+  rating: 0
+  ratings: 0
   author: "gb-bittencourt"
   repo: "https://github.com/gb-bittencourt/Ozurac"
   url: "https://marketplace.visualstudio.com/items?itemName=gb-bittencourt.ozurac"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 79.9
     black: 0

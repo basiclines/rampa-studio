@@ -1,11 +1,13 @@
 name: "Cobalt Next"
 source:
-  marketplace_id: "dline.CobaltNext"
-  version: "0.4.5"
-  installs: 125787
-  author: "David Leininger"
-  repo: "https://github.com/davidleininger/cobaltnext-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=dline.CobaltNext"
+  marketplace_id: "samhinshaw.daark"
+  version: "0.0.1"
+  installs: 300
+  rating: 0
+  ratings: 0
+  author: "Sam Hinshaw"
+  repo: "https://github.com/samhinshaw/daark"
+  url: "https://marketplace.visualstudio.com/items?itemName=samhinshaw.daark"
 colors:
   bg: "#1B2B34"
   fg: "#FFFFFF"

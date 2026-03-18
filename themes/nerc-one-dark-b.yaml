@@ -3,6 +3,8 @@ source:
   marketplace_id: "Nercone.nerc-one-themes"
   version: "1.6.1"
   installs: 65
+  rating: 0
+  ratings: 0
   author: "Nercone"
   repo: "https://github.com/DiamondGotCat/nerc-one-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=Nercone.nerc-one-themes"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 79.2
     black: 11.7

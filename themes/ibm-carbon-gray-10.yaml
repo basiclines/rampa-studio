@@ -1,0 +1,52 @@
+name: "IBM Carbon Gray 10"
+source:
+  marketplace_id: "achkasov.ibm-carbon-design-system-theme"
+  version: "1.1.0"
+  installs: 675
+  rating: 0
+  ratings: 0
+  author: "achkasov"
+  repo: "https://github.com/achkasov/IBM-Carbon-Design-System-VSCode-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=achkasov.ibm-carbon-design-system-theme"
+colors:
+  bg: "#F4F4F4"
+  fg: "#161616"
+  black: "#525252"
+  red: "#DA1E28"
+  green: "#24A148"
+  yellow: "#FF832B"
+  blue: "#4589FF"
+  magenta: "#A56EFF"
+  cyan: "#009D9A"
+  white: "#FFFFFF"
+  brightBlack: "#525252"
+  brightRed: "#F14C4C"
+  brightGreen: "#A7F0BA"
+  brightYellow: "#F1C21B"
+  brightBlue: "#D0E2FF"
+  brightMagenta: "#E8DAFF"
+  brightCyan: "#9EF0F0"
+  brightWhite: "#F4F4F4"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.3
+    black: 80.6
+    red: 65.9
+    green: 53.9
+    yellow: 41.2
+    blue: 53.9
+    magenta: 54
+    cyan: 53.6
+    white: 0
+    brightBlack: 80.6
+    brightRed: 55.6
+    brightGreen: 9.5
+    brightYellow: 23.1
+    brightBlue: 8.9
+    brightMagenta: 9.3
+    brightCyan: 8.1
+    brightWhite: 0

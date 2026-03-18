@@ -3,6 +3,8 @@ source:
   marketplace_id: "coelhiN.coelhiN-theme"
   version: "2.0.0"
   installs: 145
+  rating: 0
+  ratings: 0
   author: "coelhiN"
   repo: "https://github.com/coelhiN77/coelhiN-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=coelhiN.coelhiN-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 77.7
     black: 0

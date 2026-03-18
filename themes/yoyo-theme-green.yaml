@@ -3,6 +3,8 @@ source:
   marketplace_id: "AmreshMaurya.yoyo"
   version: "0.0.1"
   installs: 81
+  rating: 0
+  ratings: 0
   author: "Amresh Maurya"
   repo: "https://github.com/Amresh9/yoyo"
   url: "https://marketplace.visualstudio.com/items?itemName=AmreshMaurya.yoyo"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 145
+  pair: null
   contrast:
     fg: 14.7
     black: 56

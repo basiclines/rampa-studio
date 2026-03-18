@@ -1,0 +1,52 @@
+name: "soft era"
+source:
+  marketplace_id: "soft-aesthetic.soft-era-theme"
+  version: "1.0.3"
+  installs: 37416
+  rating: 4.4
+  ratings: 5
+  author: "soft aesthetic"
+  repo: "https://github.com/soft-aesthetic/soft-era-vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=soft-aesthetic.soft-era-theme"
+colors:
+  bg: "#F9F5F5"
+  fg: "#C29BA3"
+  black: "#4A4543"
+  red: "#DB90A7"
+  green: "#87B6B6"
+  yellow: "#FFB4B8"
+  blue: "#32ABDE"
+  magenta: "#BE88D9"
+  cyan: "#958AC5"
+  white: "#F1ECEE"
+  brightBlack: "#6F5573"
+  brightRed: "#EEAABE"
+  brightGreen: "#98C4BA"
+  brightYellow: "#E7D59A"
+  brightBlue: "#82B3E2"
+  brightMagenta: "#CE9AE8"
+  brightCyan: "#B4ADDF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 43
+    black: 86.4
+    red: 42.6
+    green: 38.5
+    yellow: 24.3
+    blue: 45.2
+    magenta: 47.1
+    cyan: 52.8
+    white: 0
+    brightBlack: 76.8
+    brightRed: 30.3
+    brightGreen: 31.2
+    brightYellow: 16.4
+    brightBlue: 38
+    brightMagenta: 38.4
+    brightCyan: 35.7
+    brightWhite: 0

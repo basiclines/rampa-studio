@@ -1,0 +1,52 @@
+name: "Yell"
+source:
+  marketplace_id: "coderdiaz.yell"
+  version: "0.1.3"
+  installs: 412
+  rating: 0
+  ratings: 0
+  author: "Javier Diaz Chamorro"
+  repo: "https://github.com/coderdiaz/yell-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=coderdiaz.yell"
+colors:
+  bg: "#101415"
+  fg: "#D2A873"
+  black: "#403F53"
+  red: "#DE3D3B"
+  green: "#61B3A2"
+  yellow: "#E0AF02"
+  blue: "#288ED7"
+  magenta: "#D6438A"
+  cyan: "#D2A873"
+  white: "#F0F0F0"
+  brightBlack: "#403F53"
+  brightRed: "#DE3D3B"
+  brightGreen: "#61B3A2"
+  brightYellow: "#DAAA01"
+  brightBlue: "#288ED7"
+  brightMagenta: "#D6438A"
+  brightCyan: "#D2A873"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 58.5
+    black: 8.1
+    red: 32.3
+    green: 52.8
+    yellow: 62.3
+    blue: 38.5
+    magenta: 33.3
+    cyan: 58.5
+    white: 97.4
+    brightBlack: 8.1
+    brightRed: 32.3
+    brightGreen: 52.8
+    brightYellow: 59.4
+    brightBlue: 38.5
+    brightMagenta: 33.3
+    brightCyan: 58.5
+    brightWhite: 97.4

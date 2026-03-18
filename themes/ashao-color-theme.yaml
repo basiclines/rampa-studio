@@ -3,6 +3,8 @@ source:
   marketplace_id: "ashao.theme-ashao"
   version: "1.0.0"
   installs: 52
+  rating: 0
+  ratings: 0
   author: "ashao"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=ashao.theme-ashao"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 68.8
     black: 0

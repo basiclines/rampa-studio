@@ -3,6 +3,8 @@ source:
   marketplace_id: "gnkz.barlume"
   version: "1.3.0"
   installs: 279
+  rating: 0
+  ratings: 0
   author: "gionkez"
   repo: "https://github.com/dellarosciagiorgio/barlume"
   url: "https://marketplace.visualstudio.com/items?itemName=gnkz.barlume"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 97.8
     black: 104.2

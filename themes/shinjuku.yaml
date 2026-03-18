@@ -1,0 +1,52 @@
+name: "Shinjuku"
+source:
+  marketplace_id: "SamirRoy.shinjuku-vscode-theme"
+  version: "0.1.5"
+  installs: 398
+  rating: 0
+  ratings: 0
+  author: "Samir Roy"
+  repo: "https://github.com/samir-roy/shinjuku-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SamirRoy.shinjuku-vscode-theme"
+colors:
+  bg: "#191922"
+  fg: "#D8DEE9"
+  black: "#090300"
+  red: "#E6483C"
+  green: "#00BC5E"
+  yellow: "#FFF56A"
+  blue: "#01A0E4"
+  magenta: "#BB5DA5"
+  cyan: "#8EE3FF"
+  white: "#A5A2A2"
+  brightBlack: "#5C5855"
+  brightRed: "#F94A3D"
+  brightGreen: "#00C964"
+  brightYellow: "#FFF454"
+  brightBlue: "#01A0E4"
+  brightMagenta: "#D85CB7"
+  brightCyan: "#B5E4F4"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 85.1
+    black: 0
+    red: 34.9
+    green: 52.1
+    yellow: 97.2
+    blue: 45.4
+    magenta: 33.3
+    cyan: 81.1
+    white: 51
+    brightBlack: 16.2
+    brightRed: 39.6
+    brightGreen: 58.3
+    brightYellow: 96.5
+    brightBlue: 45.4
+    brightMagenta: 39.3
+    brightCyan: 84.4
+    brightWhite: 101.3

@@ -1,0 +1,52 @@
+name: "cyberspace"
+source:
+  marketplace_id: "OmegaDawn.cyberspace"
+  version: "2.1.5"
+  installs: 489
+  rating: 0
+  ratings: 0
+  author: "OmegaDawn"
+  repo: "https://github.com/OmegaDawn/cyberspace_color_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OmegaDawn.cyberspace"
+colors:
+  bg: "#202020"
+  fg: "#B2C4C4"
+  black: "#000000"
+  red: "#E01240"
+  green: "#00D382"
+  yellow: "#D1D117"
+  blue: "#0094E2"
+  magenta: "#E200D7"
+  cyan: "#00D0D0"
+  white: "#DADADA"
+  brightBlack: "#202020"
+  brightRed: "#F5002B"
+  brightGreen: "#00FF80"
+  brightYellow: "#FFFF00"
+  brightBlue: "#1869FF"
+  brightMagenta: "#DD00D5"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 66.7
+    black: 0
+    red: 28.3
+    green: 63
+    yellow: 72.7
+    blue: 39.8
+    magenta: 34.7
+    cyan: 64.3
+    white: 82
+    brightBlack: 0
+    brightRed: 33
+    brightGreen: 85.5
+    brightYellow: 100.6
+    brightBlue: 28.1
+    brightMagenta: 33.5
+    brightCyan: 90.1
+    brightWhite: 105.8

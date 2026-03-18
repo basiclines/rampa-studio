@@ -1,0 +1,50 @@
+name: "Oledge"
+source:
+  marketplace_id: "axross.vscode-theme-oledge"
+  version: "1.0.0"
+  installs: 257
+  author: "axross"
+  repo: "https://github.com/axross/vscode-theme-oledge"
+  url: "https://marketplace.visualstudio.com/items?itemName=axross.vscode-theme-oledge"
+colors:
+  bg: "#000000"
+  fg: "#D1D5DB"
+  black: "#3F3F46"
+  red: "#CD3131"
+  green: "#059669"
+  yellow: "#D97706"
+  blue: "#2563EB"
+  magenta: "#C026D3"
+  cyan: "#0891B2"
+  white: "#D1D5DB"
+  brightBlack: "#71717A"
+  brightRed: "#FB7185"
+  brightGreen: "#34D399"
+  brightYellow: "#FBBF24"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#E879F9"
+  brightCyan: "#22D3EE"
+  brightWhite: "#F9FAFB"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.9
+    black: 8.3
+    red: 27.7
+    green: 37
+    yellow: 43.2
+    blue: 26.9
+    magenta: 30.6
+    cyan: 37.8
+    white: 80.9
+    brightBlack: 28.1
+    brightRed: 50.3
+    brightGreen: 66.2
+    brightYellow: 73.7
+    brightBlue: 52.4
+    brightMagenta: 54.1
+    brightCyan: 69.6
+    brightWhite: 104.5

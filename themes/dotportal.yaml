@@ -3,6 +3,8 @@ source:
   marketplace_id: "dotPortal.just-a-theme"
   version: "1.0.4"
   installs: 256
+  rating: 0
+  ratings: 0
   author: "dotPortal"
   repo: "https://github.com/dotportal/just-a-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=dotPortal.just-a-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 77.7
     black: 0

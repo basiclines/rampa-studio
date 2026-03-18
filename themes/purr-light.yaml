@@ -1,0 +1,52 @@
+name: "Purr Light"
+source:
+  marketplace_id: "ryuu.vscode-purr"
+  version: "1.1.2"
+  installs: 479
+  rating: 0
+  ratings: 0
+  author: "Ryuu"
+  repo: "https://github.com/ryuudotgg/vscode-purr"
+  url: "https://marketplace.visualstudio.com/items?itemName=ryuu.vscode-purr"
+colors:
+  bg: "#FFFFFF"
+  fg: "#2E3440"
+  black: "#FFFFFF"
+  red: "#B14B6B"
+  green: "#17B59B"
+  yellow: "#FAD84F"
+  blue: "#539BE8"
+  magenta: "#D96FAE"
+  cyan: "#539BE8"
+  white: "#2E3440"
+  brightBlack: "#2E3440"
+  brightRed: "#B14B6B"
+  brightGreen: "#17B59B"
+  brightYellow: "#FAD84F"
+  brightBlue: "#4F8AD8"
+  brightMagenta: "#D96FAE"
+  brightCyan: "#4F8AD8"
+  brightWhite: "#2E3440"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.4
+    black: 0
+    red: 74.8
+    green: 50
+    yellow: 19.2
+    blue: 55.2
+    magenta: 57.2
+    cyan: 55.2
+    white: 98.4
+    brightBlack: 98.4
+    brightRed: 74.8
+    brightGreen: 50
+    brightYellow: 19.2
+    brightBlue: 62.6
+    brightMagenta: 57.2
+    brightCyan: 62.6
+    brightWhite: 98.4

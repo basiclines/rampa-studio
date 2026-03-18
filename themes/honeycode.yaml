@@ -3,6 +3,8 @@ source:
   marketplace_id: "yubiDev.yoobdev"
   version: "0.0.7"
   installs: 195
+  rating: 0
+  ratings: 0
   author: "yoobdev"
   repo: "https://github.com/kimkom369/VSCode-Theme-Pack"
   url: "https://marketplace.visualstudio.com/items?itemName=yubiDev.yoobdev"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 81
+  pair: null
   contrast:
     fg: 59.4
     black: 66.4

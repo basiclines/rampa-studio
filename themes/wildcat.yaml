@@ -3,6 +3,8 @@ source:
   marketplace_id: "ergenekonyigit.wildcat"
   version: "0.1.1"
   installs: 100
+  rating: 5
+  ratings: 1
   author: "Ergenekon Yigit"
   repo: "https://github.com/ergenekonyigit/wildcat-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ergenekonyigit.wildcat"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 163
+  pair: null
   contrast:
     fg: 57.6
     black: 0

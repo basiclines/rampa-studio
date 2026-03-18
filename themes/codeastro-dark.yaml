@@ -3,6 +3,8 @@ source:
   marketplace_id: "codeastro.codeastro-vscode-themes"
   version: "0.0.1"
   installs: 137
+  rating: 0
+  ratings: 0
   author: "Codeastro"
   repo: "https://github.com/zaryabdev/codeastro-vscode-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=codeastro.codeastro-vscode-themes"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 266
+  pair: null
   contrast:
     fg: 91.4
     black: 0

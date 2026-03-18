@@ -1,0 +1,52 @@
+name: "Snappier"
+source:
+  marketplace_id: "bertieblackman.snappier"
+  version: "1.0.1"
+  installs: 4472
+  rating: 5
+  ratings: 1
+  author: "Bertie Blackman"
+  repo: "https://github.com/covertbert/vscode-snappier-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bertieblackman.snappier"
+colors:
+  bg: "#393939"
+  fg: "#E3E2E0"
+  black: "#464646"
+  red: "#BA0E2E"
+  green: "#4EA1DF"
+  yellow: "#F66153"
+  blue: "#808DD3"
+  magenta: "#F66153"
+  cyan: "#808DD3"
+  white: "#EFEFED"
+  brightBlack: "#6C6C6C"
+  brightRed: "#F03E5F"
+  brightGreen: "#A4CFEF"
+  brightYellow: "#FBBAB4"
+  brightBlue: "#CCD1ED"
+  brightMagenta: "#FBBAB4"
+  brightCyan: "#CCD1ED"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 13.9
+    green: 40.5
+    yellow: 36.9
+    blue: 35.6
+    magenta: 36.9
+    cyan: 35.6
+    white: 89.7
+    brightBlack: 18
+    brightRed: 30.2
+    brightGreen: 66.7
+    brightYellow: 66.9
+    brightBlue: 71.8
+    brightMagenta: 66.9
+    brightCyan: 71.8
+    brightWhite: 100.3

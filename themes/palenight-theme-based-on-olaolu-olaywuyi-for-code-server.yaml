@@ -1,0 +1,52 @@
+name: "Palenight Theme based on Olaolu Olaywuyi for Code Server"
+source:
+  marketplace_id: "mdixon18.palenight"
+  version: "0.0.1"
+  installs: 17134
+  rating: 0
+  ratings: 0
+  author: "mdixon18"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=mdixon18.palenight"
+colors:
+  bg: "#292D3E"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 67.7
+    black: 22.8
+    red: 40.4
+    green: 62.2
+    yellow: 75.3
+    blue: 52.3
+    magenta: 50.1
+    cyan: 74.6
+    white: 103.3
+    brightBlack: 22.8
+    brightRed: 40.4
+    brightGreen: 80.6
+    brightYellow: 75.3
+    brightBlue: 52.3
+    brightMagenta: 50.1
+    brightCyan: 74.6
+    brightWhite: 103.3

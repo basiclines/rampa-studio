@@ -1,0 +1,50 @@
+name: "Tears of the Kingdom – Minimal Dark (Midnight)"
+source:
+  marketplace_id: "AdrianKamulegeya.tears-of-the-kingdom-vscode"
+  version: "0.1.2"
+  installs: 49
+  author: "Adrian Kamulegeya"
+  repo: "https://github.com/AdrianKamulegeya/tears-of-the-kingdom-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AdrianKamulegeya.tears-of-the-kingdom-vscode"
+colors:
+  bg: "#0B1010"
+  fg: "#B8C7C0"
+  black: "#0B1010"
+  red: "#9E5A50"
+  green: "#339F82"
+  yellow: "#A89054"
+  blue: "#5F7F95"
+  magenta: "#3E8F8C"
+  cyan: "#339F82"
+  white: "#B8C7C0"
+  brightBlack: "#536960"
+  brightRed: "#9E5A50"
+  brightGreen: "#339F82"
+  brightYellow: "#A89054"
+  brightBlue: "#5F7F95"
+  brightMagenta: "#3E8F8C"
+  brightCyan: "#339F82"
+  brightWhite: "#B8C7C0"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 70.2
+    black: 0
+    red: 25.8
+    green: 41.6
+    yellow: 43.5
+    blue: 32
+    magenta: 35.9
+    cyan: 41.6
+    white: 70.2
+    brightBlack: 21.9
+    brightRed: 25.8
+    brightGreen: 41.6
+    brightYellow: 43.5
+    brightBlue: 32
+    brightMagenta: 35.9
+    brightCyan: 41.6
+    brightWhite: 70.2

@@ -1,0 +1,50 @@
+name: "Deepwoods Frosted Pines"
+source:
+  marketplace_id: "just-spliff.frosty-pine"
+  version: "1.1.4"
+  installs: 63
+  author: "just-spliff"
+  repo: "https://github.com/just-spliff/frosty-pine"
+  url: "https://marketplace.visualstudio.com/items?itemName=just-spliff.frosty-pine"
+colors:
+  bg: "#05070B"
+  fg: "#F5FAFF"
+  black: "#11151C"
+  red: "#E38A9E"
+  green: "#7CB4A0"
+  yellow: "#CFE7C0"
+  blue: "#8FA7C7"
+  magenta: "#B6ABD8"
+  cyan: "#A5DFF9"
+  white: "#F5FAFF"
+  brightBlack: "#3B4652"
+  brightRed: "#F2A3B5"
+  brightGreen: "#AEE6C7"
+  brightYellow: "#E5F5D8"
+  brightBlue: "#B9CBE4"
+  brightMagenta: "#D2C5F0"
+  brightCyan: "#CDEBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 104.1
+    black: 0
+    red: 53
+    green: 55.5
+    yellow: 87.6
+    blue: 53.5
+    magenta: 60.1
+    cyan: 82
+    white: 104.1
+    brightBlack: 10.1
+    brightRed: 64.6
+    brightGreen: 83.8
+    brightYellow: 97.8
+    brightBlue: 74
+    brightMagenta: 75.2
+    brightCyan: 92
+    brightWhite: 107.8

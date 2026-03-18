@@ -3,6 +3,8 @@ source:
   marketplace_id: "victorseara.blue-jeans"
   version: "0.0.1"
   installs: 198
+  rating: 0
+  ratings: 0
   author: "victorseara"
   repo: "https://github.com/victorseara/blue-jeans-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=victorseara.blue-jeans"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 290
+  pair: null
   contrast:
     fg: 78.5
     black: 0

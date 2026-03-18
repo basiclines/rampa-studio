@@ -1,0 +1,52 @@
+name: "DevHaven (Dracula)"
+source:
+  marketplace_id: "DevHaven.devhaven"
+  version: "0.0.3"
+  installs: 217
+  rating: 0
+  ratings: 0
+  author: "DevHaven"
+  repo: "https://github.com/BlankRiser/DevHaven"
+  url: "https://marketplace.visualstudio.com/items?itemName=DevHaven.devhaven"
+colors:
+  bg: "#052529"
+  fg: "#D6DEEB"
+  black: "#011627"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 207
+  pair: null
+  contrast:
+    fg: 83.8
+    black: 0
+    red: 37.9
+    green: 65.9
+    yellow: 80.7
+    blue: 54.5
+    magenta: 52.4
+    cyan: 58.3
+    white: 105.5
+    brightBlack: 14.2
+    brightRed: 37.9
+    brightGreen: 65.9
+    brightYellow: 92.3
+    brightBlue: 54.5
+    brightMagenta: 52.4
+    brightCyan: 72.6
+    brightWhite: 105.5

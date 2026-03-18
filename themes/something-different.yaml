@@ -1,0 +1,52 @@
+name: "Something Different"
+source:
+  marketplace_id: "mwlang.something-different"
+  version: "0.0.5"
+  installs: 51
+  rating: 0
+  ratings: 0
+  author: "mwlang"
+  repo: "https://github.com/mwlang/vscode-color-theme-something-different"
+  url: "https://marketplace.visualstudio.com/items?itemName=mwlang.something-different"
+colors:
+  bg: "#263238"
+  fg: "#DEDAA5"
+  black: "#8E8E8E"
+  red: "#B83019"
+  green: "#51BF37"
+  yellow: "#C6C43D"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#53C2C5"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#EF766D"
+  brightGreen: "#8CF67A"
+  brightYellow: "#FEFB7E"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#8DF9FD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 77.5
+    black: 36.4
+    red: 17.8
+    green: 50.5
+    yellow: 62.7
+    blue: 23.2
+    magenta: 25.6
+    cyan: 55.7
+    white: 85.8
+    brightBlack: 17.9
+    brightRed: 43.2
+    brightGreen: 81.6
+    brightYellow: 96.4
+    brightBlue: 35.8
+    brightMagenta: 41.2
+    brightCyan: 87.8
+    brightWhite: 102.7

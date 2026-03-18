@@ -1,0 +1,52 @@
+name: "Steelbore"
+source:
+  marketplace_id: "SteelBore.steelbore"
+  version: "1.0.0"
+  installs: 6
+  rating: 0
+  ratings: 0
+  author: "SteelBore"
+  repo: "https://github.com/UnbreakableMJ/Steelbore"
+  url: "https://marketplace.visualstudio.com/items?itemName=SteelBore.steelbore"
+colors:
+  bg: "#000027"
+  fg: "#D98E32"
+  black: "#000027"
+  red: "#FF5C5C"
+  green: "#50FA7B"
+  yellow: "#D98E32"
+  blue: "#4B7EB0"
+  magenta: "#BD93F9"
+  cyan: "#8BE9FD"
+  white: "#E6E6F0"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 50
+    black: 0
+    red: 45.5
+    green: 85.6
+    yellow: 50
+    blue: 32
+    magenta: 54.4
+    cyan: 84.7
+    white: 91.9
+    brightBlack: 28.8
+    brightRed: 49.6
+    brightGreen: 89.8
+    brightYellow: 104.3
+    brightBlue: 66.8
+    brightMagenta: 63.3
+    brightCyan: 97.5
+    brightWhite: 107.6

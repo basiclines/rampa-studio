@@ -3,6 +3,8 @@ source:
   marketplace_id: "samkaj.malte"
   version: "0.2.0"
   installs: 189
+  rating: 0
+  ratings: 0
   author: "samkaj"
   repo: "https://github.com/samkaj/malte"
   url: "https://marketplace.visualstudio.com/items?itemName=samkaj.malte"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 95
     black: 0

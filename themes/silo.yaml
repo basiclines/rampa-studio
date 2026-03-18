@@ -1,0 +1,52 @@
+name: "SILO"
+source:
+  marketplace_id: "mp76.silo"
+  version: "0.0.8"
+  installs: 50
+  rating: 0
+  ratings: 0
+  author: "mp76"
+  repo: "https://github.com/marepilc/silo"
+  url: "https://marketplace.visualstudio.com/items?itemName=mp76.silo"
+colors:
+  bg: "#2F2C2B"
+  fg: "#D5CFC9"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#C9C94F"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#DBDB5B"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.6
+    black: 0
+    red: 23.4
+    green: 49.6
+    yellow: 66.3
+    blue: 24.1
+    magenta: 26.4
+    cyan: 44.2
+    white: 86.7
+    brightBlack: 18.7
+    brightRed: 35.2
+    brightGreen: 60.2
+    brightYellow: 76.8
+    brightBlue: 36.6
+    brightMagenta: 42
+    brightCyan: 52
+    brightWhite: 86.7

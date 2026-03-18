@@ -3,6 +3,8 @@ source:
   marketplace_id: "feline-theme.feline-theme"
   version: "0.0.1"
   installs: 1
+  rating: 0
+  ratings: 0
   author: "Feline Theme"
   repo: "https://github.com/thailanelopes/Meu_tema_VsCode"
   url: "https://marketplace.visualstudio.com/items?itemName=feline-theme.feline-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 78.7
     black: 35.7

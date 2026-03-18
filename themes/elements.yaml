@@ -1,11 +1,13 @@
 name: "Elements"
 source:
-  marketplace_id: "gordonhch.elements"
-  version: "0.0.1"
-  installs: 1
+  marketplace_id: "gordonhch.elements-vscode-theme"
+  version: "1.0.2"
+  installs: 6037
+  rating: 5
+  ratings: 1
   author: "Gordon Ho"
   repo: "https://github.com/gordonhch/elements-vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=gordonhch.elements"
+  url: "https://marketplace.visualstudio.com/items?itemName=gordonhch.elements-vscode-theme"
 colors:
   bg: "#0E151B"
   fg: "#D6DEEB"

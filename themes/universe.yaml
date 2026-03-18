@@ -1,50 +1,52 @@
 name: "Universe"
 source:
-  marketplace_id: "terkoshi.UN1VERSE"
-  version: "1.0.0"
-  installs: 24
-  author: "Terkoshi646"
-  repo: "https://github.com/Terkoshi"
-  url: "https://marketplace.visualstudio.com/items?itemName=terkoshi.UN1VERSE"
+  marketplace_id: "MatiasOlivera.universe"
+  version: "1.9.0"
+  installs: 20199
+  rating: 4.75
+  ratings: 8
+  author: "Matías Olivera"
+  repo: "https://github.com/MatiasOlivera/universe-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe"
 colors:
-  bg: "#1D010F"
-  fg: "#62C07A"
-  black: "#000000"
-  red: "#CD3131"
-  green: "#0DBC79"
-  yellow: "#E5E510"
-  blue: "#2472C8"
-  magenta: "#BC3FBC"
-  cyan: "#11A8CD"
-  white: "#E5E5E5"
-  brightBlack: "#666666"
-  brightRed: "#F14C4C"
-  brightGreen: "#23D18B"
-  brightYellow: "#F5F543"
-  brightBlue: "#3B8EEA"
-  brightMagenta: "#D670D6"
-  brightCyan: "#29B8DB"
-  brightWhite: "#E5E5E5"
+  bg: "#0E1729"
+  fg: "#D6D9E0"
+  black: "#2E384D"
+  red: "#FFA2A2"
+  green: "#BBD99E"
+  yellow: "#E6D791"
+  blue: "#9AC6F2"
+  magenta: "#C1A2FF"
+  cyan: "#92D8E6"
+  white: "#D6D9E0"
+  brightBlack: "#3D485F"
+  brightRed: "#FFB3B3"
+  brightGreen: "#C9E2AF"
+  brightYellow: "#ECE0A5"
+  brightBlue: "#ACD1F5"
+  brightMagenta: "#CCB3FF"
+  brightCyan: "#A5E0EC"
+  brightWhite: "#F2F2F2"
 meta:
   mode: "dark"
-  accent: "pink"
-  hue: 351
+  accent: "magenta"
+  hue: 263
   pair: null
   contrast:
-    fg: 57.6
+    fg: 82.4
     black: 0
-    red: 27.3
-    green: 53.6
-    yellow: 86.2
-    blue: 28
-    magenta: 30.3
-    cyan: 48.1
-    white: 90.6
-    brightBlack: 22.6
-    brightRed: 39.2
-    brightGreen: 64.1
-    brightYellow: 96.2
-    brightBlue: 40.6
-    brightMagenta: 46
-    brightCyan: 56
-    brightWhite: 90.6
+    red: 64.9
+    green: 76.7
+    yellow: 80.9
+    blue: 68.5
+    magenta: 59.6
+    cyan: 75.2
+    white: 82.4
+    brightBlack: 10.2
+    brightRed: 71.4
+    brightGreen: 82.9
+    brightYellow: 86.3
+    brightBlue: 75.2
+    brightMagenta: 67.2
+    brightCyan: 80.8
+    brightWhite: 98.3

@@ -3,6 +3,8 @@ source:
   marketplace_id: "JavierdeMarco.zerossolarized"
   version: "0.0.1"
   installs: 82
+  rating: 0
+  ratings: 0
   author: "Javier de Marco"
   repo: "https://github.com/javierdemarco/zerossolarized"
   url: "https://marketplace.visualstudio.com/items?itemName=JavierdeMarco.zerossolarized"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 220
+  pair: null
   contrast:
     fg: 87.3
     black: 0

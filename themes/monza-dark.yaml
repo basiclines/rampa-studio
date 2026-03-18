@@ -3,6 +3,8 @@ source:
   marketplace_id: "JamesGulland.monza-dark-theme"
   version: "0.0.1"
   installs: 50
+  rating: 0
+  ratings: 0
   author: "James Gulland"
   repo: "https://github.com/james-gulland/monza-dark-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.monza-dark-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 278
+  pair: null
   contrast:
     fg: 76.5
     black: 0

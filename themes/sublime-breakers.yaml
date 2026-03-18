@@ -3,6 +3,8 @@ source:
   marketplace_id: "release-candidate.theme-sublime-breakers"
   version: "0.2.1"
   installs: 300
+  rating: 0
+  ratings: 0
   author: "Release-Candidate"
   repo: "https://codeberg.org/Release-Candidate/SublimeBreakersTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=release-candidate.theme-sublime-breakers"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 97.3
     black: 95

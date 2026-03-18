@@ -1,0 +1,50 @@
+name: "25時、ナイトコードで。Blue"
+source:
+  marketplace_id: "renhartoz.25-ji-nightcord-blue"
+  version: "1.0.2"
+  installs: 20
+  author: "renhartoz"
+  repo: "https://github.com/renhartoz/25ji-nightcord-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=renhartoz.25-ji-nightcord-blue"
+colors:
+  bg: "#0E0E1A"
+  fg: "#E5F4FF"
+  black: "#060610"
+  red: "#BD6A8B"
+  green: "#137A7F"
+  yellow: "#CEAE8E"
+  blue: "#7289DA"
+  magenta: "#DDAACC"
+  cyan: "#86CECB"
+  white: "#A6B2FF"
+  brightBlack: "#5F6A89"
+  brightRed: "#BD6A8B"
+  brightGreen: "#137A7F"
+  brightYellow: "#CEAE8E"
+  brightBlue: "#7289DA"
+  brightMagenta: "#DDAACC"
+  brightCyan: "#86CECB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 283
+  pair: null
+  contrast:
+    fg: 98.8
+    black: 0
+    red: 36.5
+    green: 26.6
+    yellow: 61.1
+    blue: 40.7
+    magenta: 64.2
+    cyan: 69.1
+    white: 63
+    brightBlack: 24.6
+    brightRed: 36.5
+    brightGreen: 26.6
+    brightYellow: 61.1
+    brightBlue: 40.7
+    brightMagenta: 64.2
+    brightCyan: 69.1
+    brightWhite: 107.5

@@ -1,0 +1,52 @@
+name: "Enki Rainbow"
+source:
+  marketplace_id: "enkia.enki-vscode-theme"
+  version: "0.5.0"
+  installs: 12063
+  rating: 4
+  ratings: 4
+  author: "enkia"
+  repo: "https://github.com/enkia/enki-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=enkia.enki-vscode-theme"
+colors:
+  bg: "#19191F"
+  fg: "#9699A8"
+  black: "#595D78"
+  red: "#C33C4A"
+  green: "#0F8976"
+  yellow: "#CA9B55"
+  blue: "#50B4E6"
+  magenta: "#6D3B66"
+  cyan: "#7ED6F9"
+  white: "#707386"
+  brightBlack: "#595D78"
+  brightRed: "#C33C4A"
+  brightGreen: "#0F8976"
+  brightYellow: "#CA9B55"
+  brightBlue: "#6582AF"
+  brightMagenta: "#9D599D"
+  brightCyan: "#7ED6F9"
+  brightWhite: "#707386"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 46.2
+    black: 18.6
+    red: 25.9
+    green: 31
+    yellow: 51.4
+    blue: 55.1
+    magenta: 11.9
+    cyan: 73.7
+    white: 27.9
+    brightBlack: 18.6
+    brightRed: 25.9
+    brightGreen: 31
+    brightYellow: 51.4
+    brightBlue: 33.9
+    brightMagenta: 27.2
+    brightCyan: 73.7
+    brightWhite: 27.9

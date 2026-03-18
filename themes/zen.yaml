@@ -2,7 +2,9 @@ name: "Zen"
 source:
   marketplace_id: "ZenTheme.zen-color-theme"
   version: "0.0.4"
-  installs: 372
+  installs: 373
+  rating: 0
+  ratings: 0
   author: "Zen Theme"
   repo: "https://github.com/vibovenkat123/zen_vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=ZenTheme.zen-color-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 93.1
     black: 0

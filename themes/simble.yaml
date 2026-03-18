@@ -1,0 +1,52 @@
+name: "Simble"
+source:
+  marketplace_id: "tylandavis.simble-theme"
+  version: "0.0.1"
+  installs: 46
+  rating: 0
+  ratings: 0
+  author: "Tylan Davis"
+  repo: "https://github.com/tylandavis/simble-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tylandavis.simble-theme"
+colors:
+  bg: "#111111"
+  fg: "#888888"
+  black: "#333333"
+  red: "#E05E71"
+  green: "#95D97D"
+  yellow: "#FB9941"
+  blue: "#4BAED5"
+  magenta: "#8565B6"
+  cyan: "#4BD5CF"
+  white: "#CCCCCC"
+  brightBlack: "#666666"
+  brightRed: "#FF8798"
+  brightGreen: "#C3FFAD"
+  brightYellow: "#FFBF84"
+  brightBlue: "#90E0FF"
+  brightMagenta: "#BB9DE8"
+  brightCyan: "#98FFFB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 38.1
+    black: 0
+    red: 39.4
+    green: 72.7
+    yellow: 59.7
+    blue: 52.2
+    magenta: 29.1
+    cyan: 69.3
+    white: 75.2
+    brightBlack: 22.5
+    brightRed: 56.9
+    brightGreen: 96.9
+    brightYellow: 75.1
+    brightBlue: 80.7
+    brightMagenta: 56.1
+    brightCyan: 96.2
+    brightWhite: 107.4

@@ -1,11 +1,13 @@
 name: "Zenbones Dark"
 source:
-  marketplace_id: "rpbritton.zenbones"
-  version: "0.0.2"
-  installs: 2701
-  author: "rpbritton"
-  repo: "https://github.com/rpbritton/zenbones.nvim"
-  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  marketplace_id: "vinitkme.zenbones-redux"
+  version: "1.0.1"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "Gotchacode"
+  repo: "https://github.com/vinitkumar/zenbones"
+  url: "https://marketplace.visualstudio.com/items?itemName=vinitkme.zenbones-redux"
 colors:
   bg: "#1C1917"
   fg: "#B4BDC3"
@@ -17,14 +19,14 @@ colors:
   magenta: "#B279A7"
   cyan: "#66A5AD"
   white: "#B4BDC3"
-  brightBlack: "#403833"
+  brightBlack: "#5B514A"
   brightRed: "#E8838F"
   brightGreen: "#8BAE68"
   brightYellow: "#D68C67"
   brightBlue: "#61ABDA"
   brightMagenta: "#CF86C1"
   brightCyan: "#65B8C1"
-  brightWhite: "#888F94"
+  brightWhite: "#C4CACF"
 meta:
   mode: "dark"
   accent: "red"
@@ -40,11 +42,11 @@ meta:
     magenta: 39.1
     cyan: 47
     white: 64.8
-    brightBlack: 0
+    brightBlack: 14
     brightRed: 50.2
     brightGreen: 51.4
     brightYellow: 48.6
     brightBlue: 51.5
     brightMagenta: 48.7
     brightCyan: 55.9
-    brightWhite: 40.3
+    brightWhite: 72.7

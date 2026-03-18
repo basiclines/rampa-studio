@@ -1,0 +1,52 @@
+name: "Nighty Bordered"
+source:
+  marketplace_id: "nachop51.nachop-theme"
+  version: "2.0.0"
+  installs: 303
+  rating: 5
+  ratings: 1
+  author: "Nachop Peralta"
+  repo: "https://github.com/nachop51/nachop-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nachop51.nachop-theme"
+colors:
+  bg: "#1D1A24"
+  fg: "#EDECEE"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#F0C758"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#FFEC80"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 299
+  pair: null
+  contrast:
+    fg: 94.2
+    black: 8.3
+    red: 36.2
+    green: 59.8
+    yellow: 74
+    blue: 49.1
+    magenta: 38.5
+    cyan: 52
+    white: 82.5
+    brightBlack: 14.9
+    brightRed: 45.6
+    brightGreen: 76.3
+    brightYellow: 93.2
+    brightBlue: 63.2
+    brightMagenta: 49.7
+    brightCyan: 67.3
+    brightWhite: 90.1

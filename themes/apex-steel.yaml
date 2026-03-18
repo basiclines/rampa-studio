@@ -1,0 +1,52 @@
+name: "Apex Steel++"
+source:
+  marketplace_id: "Gasrulle.gasrulle-theme"
+  version: "0.6.7"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Gasrulle"
+  repo: "https://github.com/gasrulle/gasrulle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gasrulle.gasrulle-theme"
+colors:
+  bg: "#1B1E25"
+  fg: "#ABB2BF"
+  black: "#1B1E25"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#5B6270"
+  brightRed: "#E88389"
+  brightGreen: "#A9D18A"
+  brightYellow: "#EDCE8E"
+  brightBlue: "#74BAF2"
+  brightMagenta: "#D48BE8"
+  brightCyan: "#6AC4CF"
+  brightWhite: "#C8CDD5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 58.6
+    black: 0
+    red: 41.2
+    green: 61.4
+    yellow: 69.7
+    blue: 53.8
+    magenta: 44.3
+    cyan: 53.7
+    white: 58.6
+    brightBlack: 19.4
+    brightRed: 49.4
+    brightGreen: 69.8
+    brightYellow: 77.2
+    brightBlue: 59.7
+    brightMagenta: 52.6
+    brightCyan: 61.5
+    brightWhite: 74.2

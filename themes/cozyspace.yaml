@@ -1,0 +1,52 @@
+name: "CozySpace"
+source:
+  marketplace_id: "GabrielSanjuliano.cozyspace"
+  version: "1.0.1"
+  installs: 307
+  rating: 0
+  ratings: 0
+  author: "Gabriel Sanjuliano"
+  repo: "https://github.com/GabrielSanjuliano/CozySpace"
+  url: "https://marketplace.visualstudio.com/items?itemName=GabrielSanjuliano.cozyspace"
+colors:
+  bg: "#1F2937"
+  fg: "#FCFCFA"
+  black: "#111827"
+  red: "#FB7185"
+  green: "#34D399"
+  yellow: "#FFD866"
+  blue: "#FB923C"
+  magenta: "#818CF8"
+  cyan: "#7DD3FC"
+  white: "#FCFCFA"
+  brightBlack: "#727072"
+  brightRed: "#FB7185"
+  brightGreen: "#34D399"
+  brightYellow: "#FFD866"
+  brightBlue: "#FB923C"
+  brightMagenta: "#818CF8"
+  brightCyan: "#7DD3FC"
+  brightWhite: "#FCFCFA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 257
+  pair: null
+  contrast:
+    fg: 102.3
+    black: 0
+    red: 46.7
+    green: 62.6
+    yellow: 81.8
+    blue: 54.4
+    magenta: 42
+    cyan: 70.1
+    white: 102.3
+    brightBlack: 24.1
+    brightRed: 46.7
+    brightGreen: 62.6
+    brightYellow: 81.8
+    brightBlue: 54.4
+    brightMagenta: 42
+    brightCyan: 70.1
+    brightWhite: 102.3

@@ -3,6 +3,8 @@ source:
   marketplace_id: "zangetsu002.dark-discord-theme"
   version: "1.0.0"
   installs: 307
+  rating: 0
+  ratings: 0
   author: "zangetsu002"
   repo: "https://github.com/zangetsu02/dark-discord-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=zangetsu002.dark-discord-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 61.8
     black: 0

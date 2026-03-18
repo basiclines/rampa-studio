@@ -1,50 +1,52 @@
-name: "Kiwi"
+name: "kiwi"
 source:
-  marketplace_id: "Mashadeve.kiwi"
-  version: "0.0.1"
-  installs: 0
-  author: "Mashadeve"
-  repo: "https://github.com/Mashadeve/Kiwi"
-  url: "https://marketplace.visualstudio.com/items?itemName=Mashadeve.kiwi"
+  marketplace_id: "humbanew.flawuldragon"
+  version: "0.0.19"
+  installs: 901
+  rating: 0
+  ratings: 0
+  author: "Humbanew Project"
+  repo: "https://github.com/humbanew/flawuldragon"
+  url: "https://marketplace.visualstudio.com/items?itemName=humbanew.flawuldragon"
 colors:
-  bg: "#303030"
-  fg: "#0EC043"
-  black: "#000000"
-  red: "#CD3131"
-  green: "#0DBC79"
-  yellow: "#E5E510"
-  blue: "#2472C8"
-  magenta: "#BC3FBC"
-  cyan: "#11A8CD"
-  white: "#BCBCBC"
-  brightBlack: "#666666"
-  brightRed: "#F14C4C"
-  brightGreen: "#23D18B"
-  brightYellow: "#F5F543"
-  brightBlue: "#3B8EEA"
-  brightMagenta: "#D670D6"
-  brightCyan: "#29B8DB"
-  brightWhite: "#E5E5E5"
+  bg: "#2A3330"
+  fg: "#EDEBE6"
+  black: "#36413D"
+  red: "#BA0E2E"
+  green: "#229986"
+  yellow: "#95C72A"
+  blue: "#0B6D5C"
+  magenta: "#229986"
+  cyan: "#95C72A"
+  white: "#F8F7F5"
+  brightBlack: "#586B65"
+  brightRed: "#F03E5F"
+  brightGreen: "#4AD7C0"
+  brightYellow: "#BFE275"
+  brightBlue: "#14CAAA"
+  brightMagenta: "#4AD7C0"
+  brightCyan: "#BFE275"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "pink"
-  hue: null
+  accent: "orange"
+  hue: 173
   pair: null
   contrast:
-    fg: 49.8
+    fg: 89.5
     black: 0
-    red: 22.6
-    green: 48.9
-    yellow: 81.5
-    blue: 23.3
-    magenta: 25.6
-    cyan: 43.4
-    white: 61.2
-    brightBlack: 17.9
-    brightRed: 34.4
-    brightGreen: 59.4
-    brightYellow: 91.5
-    brightBlue: 35.9
-    brightMagenta: 41.3
-    brightCyan: 51.3
-    brightWhite: 85.9
+    red: 16.1
+    green: 34
+    yellow: 58.4
+    blue: 15.8
+    magenta: 34
+    cyan: 58.4
+    white: 97.3
+    brightBlack: 18.1
+    brightRed: 32.4
+    brightGreen: 64.7
+    brightYellow: 76
+    brightBlue: 56.7
+    brightMagenta: 64.7
+    brightCyan: 76
+    brightWhite: 102.5

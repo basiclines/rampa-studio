@@ -3,6 +3,8 @@ source:
   marketplace_id: "Barkerbg001.matrix-mint-vscode"
   version: "1.1.0"
   installs: 282
+  rating: 0
+  ratings: 0
   author: "Barkerbg001"
   repo: "https://github.com/barkerbg001/matrix-mint-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Barkerbg001.matrix-mint-vscode"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 144
+  pair: null
   contrast:
     fg: 54.6
     black: 8.2

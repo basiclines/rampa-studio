@@ -3,6 +3,8 @@ source:
   marketplace_id: "Betu55.betu-light-theme"
   version: "1.2.0"
   installs: 168
+  rating: 0
+  ratings: 0
   author: "Betu55"
   repo: "https://github.com/betu55/Betu-light-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Betu55.betu-light-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 71.1
     black: 92.4

@@ -3,6 +3,8 @@ source:
   marketplace_id: "KevinTerry.blackamp"
   version: "0.2.1"
   installs: 29
+  rating: 0
+  ratings: 0
   author: "Kevin Terry"
   repo: "https://github.com/kevinjterry/blackamp-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=KevinTerry.blackamp"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 82
     black: 18.2

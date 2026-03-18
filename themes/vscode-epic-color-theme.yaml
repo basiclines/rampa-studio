@@ -1,0 +1,50 @@
+name: "VSCODE-EPIC-color-theme"
+source:
+  marketplace_id: "juliuskoskela.vscode-epic-theme"
+  version: "0.1.1"
+  installs: 388
+  author: "juliuskoskela"
+  repo: "https://github.com/juliuskoskela/vscode-epic-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=juliuskoskela.vscode-epic-theme"
+colors:
+  bg: "#000000"
+  fg: "#B3B1AD"
+  black: "#00010A"
+  red: "#EA6C73"
+  green: "#91B362"
+  yellow: "#FF8000"
+  blue: "#0070DD"
+  magenta: "#FF8000"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#C2D94C"
+  brightYellow: "#FF8000"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#FF8000"
+  brightCyan: "#A335EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.2
+    black: 0
+    red: 45.1
+    green: 55.2
+    yellow: 53.3
+    blue: 29.1
+    magenta: 53.3
+    cyan: 78.9
+    white: 72.7
+    brightBlack: 23.9
+    brightRed: 47.6
+    brightGreen: 76.9
+    brightYellow: 53.3
+    brightBlue: 64.3
+    brightMagenta: 53.3
+    brightCyan: 29.1
+    brightWhite: 107.9

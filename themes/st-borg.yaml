@@ -1,0 +1,52 @@
+name: "ST: Borg"
+source:
+  marketplace_id: "RobertSchnable.star-trek-factions-theme"
+  version: "1.0.7"
+  installs: 22
+  rating: 0
+  ratings: 0
+  author: "Robert Schnable"
+  repo: "https://github.com/your-username/star-trek-factions-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RobertSchnable.star-trek-factions-theme"
+colors:
+  bg: "#060806"
+  fg: "#88C880"
+  black: "#060806"
+  red: "#CC4433"
+  green: "#00CC44"
+  yellow: "#88AA20"
+  blue: "#2080A0"
+  magenta: "#4A8040"
+  cyan: "#20C880"
+  white: "#88C880"
+  brightBlack: "#060806"
+  brightRed: "#CC4433"
+  brightGreen: "#00FF44"
+  brightYellow: "#88AA20"
+  brightBlue: "#2080A0"
+  brightMagenta: "#4A8040"
+  brightCyan: "#20C880"
+  brightWhite: "#88C880"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 64.3
+    black: 0
+    red: 29.8
+    green: 60.5
+    yellow: 49.8
+    blue: 30.7
+    magenta: 29
+    cyan: 59.8
+    white: 64.3
+    brightBlack: 0
+    brightRed: 29.8
+    brightGreen: 86.7
+    brightYellow: 49.8
+    brightBlue: 30.7
+    brightMagenta: 29
+    brightCyan: 59.8
+    brightWhite: 64.3

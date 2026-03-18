@@ -1,0 +1,50 @@
+name: "DC Dark Theme"
+source:
+  marketplace_id: "DonavanCarvalho.dc-dark-theme"
+  version: "0.0.1"
+  installs: 315
+  author: "Donavan Carvalho"
+  repo: "https://github.com/donavancarvalho/dc-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DonavanCarvalho.dc-dark-theme"
+colors:
+  bg: "#292B3F"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF4545"
+  green: "#00C08A"
+  yellow: "#F9F985"
+  blue: "#1566C0"
+  magenta: "#FB39C1"
+  cyan: "#00B5E2"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FDA5A5"
+  brightGreen: "#76FDD7"
+  brightYellow: "#FDFDC7"
+  brightBlue: "#5DAAFF"
+  brightMagenta: "#FF83B7"
+  brightCyan: "#97EBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 103.5
+    black: 0
+    red: 37.4
+    green: 52
+    yellow: 95.7
+    blue: 19.6
+    magenta: 39.2
+    cyan: 50.9
+    white: 103.5
+    brightBlack: 18.7
+    brightRed: 62.4
+    brightGreen: 87.5
+    brightYellow: 100
+    brightBlue: 50.2
+    brightMagenta: 53.1
+    brightCyan: 82.6
+    brightWhite: 103.5

@@ -1,0 +1,52 @@
+name: "Smit Sunset Orange"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+colors:
+  bg: "#2A1F1A"
+  fg: "#F5D5B8"
+  black: "#52423A"
+  red: "#FF6B6B"
+  green: "#FFAA5A"
+  yellow: "#FFD97D"
+  blue: "#FFAF87"
+  magenta: "#FFB3BA"
+  cyan: "#FFCA9F"
+  white: "#F5D5B8"
+  brightBlack: "#7A5D47"
+  brightRed: "#FF6B6B"
+  brightGreen: "#FFAA5A"
+  brightYellow: "#FFD97D"
+  brightBlue: "#FFAF87"
+  brightMagenta: "#FFB3BA"
+  brightCyan: "#FFCA9F"
+  brightWhite: "#F5D5B8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 46
+  pair: null
+  contrast:
+    fg: 82.2
+    black: 8
+    red: 46.8
+    green: 64.7
+    yellow: 83.8
+    blue: 67.4
+    magenta: 70.4
+    cyan: 78.4
+    white: 82.2
+    brightBlack: 19.4
+    brightRed: 46.8
+    brightGreen: 64.7
+    brightYellow: 83.8
+    brightBlue: 67.4
+    brightMagenta: 70.4
+    brightCyan: 78.4
+    brightWhite: 82.2

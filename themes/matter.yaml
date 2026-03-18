@@ -1,11 +1,13 @@
 name: "matter"
 source:
-  marketplace_id: "TobiasTimm.matter"
+  marketplace_id: "Idzu.matter-brighter"
   version: "1.0.0"
-  installs: 2322
-  author: "Tobias Timm"
-  repo: "https://github.com/tobiastimm/vscode-matter-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=TobiasTimm.matter"
+  installs: 48
+  rating: 0
+  ratings: 0
+  author: "Idzu"
+  repo: "https://github.com/Idzu/MatterBrighter"
+  url: "https://marketplace.visualstudio.com/items?itemName=Idzu.matter-brighter"
 colors:
   bg: "#14191F"
   fg: "#E6E6E6"

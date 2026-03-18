@@ -3,6 +3,8 @@ source:
   marketplace_id: "pzielinski.zen-theme"
   version: "0.0.6"
   installs: 27
+  rating: 0
+  ratings: 0
   author: "Piotr Zieliński"
   repo: "https://github.com/piotrzielinski1994/vscode-zen-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=pzielinski.zen-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 275
+  pair: null
   contrast:
     fg: 65.5
     black: 0

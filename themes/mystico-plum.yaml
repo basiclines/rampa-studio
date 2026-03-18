@@ -3,6 +3,8 @@ source:
   marketplace_id: "Chibantichic.mystico-plum"
   version: "0.36.0"
   installs: 225
+  rating: 0
+  ratings: 0
   author: "Chibantichic"
   repo: "https://github.com/chibanti/mystico-plum-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Chibantichic.mystico-plum"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 338
+  pair: null
   contrast:
     fg: 97.9
     black: 0

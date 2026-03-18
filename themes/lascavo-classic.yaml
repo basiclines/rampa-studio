@@ -1,0 +1,49 @@
+name: "Lascavo Classic"
+source:
+  marketplace_id: "mdrsh.lascavo"
+  version: "0.2.5"
+  installs: 146
+  author: "mdrsh"
+  repo: "https://github.com/mdrsh/lascavo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mdrsh.lascavo"
+colors:
+  bg: "#202022"
+  fg: "#FFFFFF"
+  black: "#222222"
+  red: "#F3395C"
+  green: "#27AA5B"
+  yellow: "#D4B35E"
+  blue: "#60AFEE"
+  magenta: "#C564B7"
+  cyan: "#55B8C5"
+  white: "#FFFFFF"
+  brightBlack: "#444444"
+  brightRed: "#E28845"
+  brightGreen: "#0CABA8"
+  brightYellow: "#D5C595"
+  brightBlue: "#609AC2"
+  brightMagenta: "#595DAB"
+  brightCyan: "#55B8C5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 105.7
+    black: 0
+    red: 35.7
+    green: 43.4
+    yellow: 61.1
+    blue: 53.4
+    magenta: 36.7
+    cyan: 54.4
+    white: 105.7
+    brightBlack: 7.7
+    brightRed: 48
+    brightGreen: 45.9
+    brightYellow: 69.8
+    brightBlue: 42.5
+    brightMagenta: 20.5
+    brightCyan: 54.4
+    brightWhite: 105.7

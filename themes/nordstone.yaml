@@ -1,0 +1,50 @@
+name: "NordStone"
+source:
+  marketplace_id: "ruicsh.vscode-theme-nordstone"
+  version: "0.1.1"
+  installs: 311
+  author: "Rui Costa"
+  repo: "https://github.com/ruicsh/vscode-theme-nordstone"
+  url: "https://marketplace.visualstudio.com/items?itemName=ruicsh.vscode-theme-nordstone"
+colors:
+  bg: "#171717"
+  fg: "#D8DEE9"
+  black: "#292524"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#57534E"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.4
+    black: 0
+    red: 33
+    green: 61.7
+    yellow: 76.4
+    blue: 48.6
+    magenta: 46.5
+    cyan: 62.7
+    white: 92.3
+    brightBlack: 14.5
+    brightRed: 33
+    brightGreen: 61.7
+    brightYellow: 76.4
+    brightBlue: 48.6
+    brightMagenta: 46.5
+    brightCyan: 60.6
+    brightWhite: 96.2

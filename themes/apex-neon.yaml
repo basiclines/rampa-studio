@@ -1,0 +1,52 @@
+name: "Apex Neon++"
+source:
+  marketplace_id: "Gasrulle.gasrulle-theme"
+  version: "0.6.7"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Gasrulle"
+  repo: "https://github.com/gasrulle/gasrulle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gasrulle.gasrulle-theme"
+colors:
+  bg: "#1B1B34"
+  fg: "#C2C2CA"
+  black: "#1B1B34"
+  red: "#FF5555"
+  green: "#61E984"
+  yellow: "#E9F096"
+  blue: "#BE9BF1"
+  magenta: "#EE8AC3"
+  cyan: "#98E1F0"
+  white: "#C2C2CA"
+  brightBlack: "#566698"
+  brightRed: "#FF6E6E"
+  brightGreen: "#7CEC9C"
+  brightYellow: "#F5FCA0"
+  brightBlue: "#CAA3F2"
+  brightMagenta: "#F1A0CE"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 282
+  pair: null
+  contrast:
+    fg: 68.3
+    black: 0
+    red: 42.6
+    green: 76.1
+    yellow: 92.1
+    blue: 55.1
+    magenta: 54.8
+    cyan: 79.6
+    white: 68.3
+    brightBlack: 22
+    brightRed: 48
+    brightGreen: 79.6
+    brightYellow: 99.7
+    brightBlue: 59.6
+    brightMagenta: 62.7
+    brightCyan: 96
+    brightWhite: 106.1

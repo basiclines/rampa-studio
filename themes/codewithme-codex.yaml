@@ -3,6 +3,8 @@ source:
   marketplace_id: "codewithme224.codewithme224"
   version: "0.0.3"
   installs: 88
+  rating: 0
+  ratings: 0
   author: "Emmanuel Abraham Jones"
   repo: "https://github.com/codewithme224/codewithme-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=codewithme224.codewithme224"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 243
+  pair: null
   contrast:
     fg: 79.3
     black: 0

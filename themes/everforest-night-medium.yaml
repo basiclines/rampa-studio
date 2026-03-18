@@ -1,0 +1,50 @@
+name: "Everforest Night Medium"
+source:
+  marketplace_id: "jarith.everforest-night-vscode"
+  version: "1.2.1"
+  installs: 165
+  author: "jarith"
+  repo: "https://github.com/jarith/everforest-night-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=jarith.everforest-night-vscode"
+colors:
+  bg: "#323D43"
+  fg: "#D8CAAC"
+  black: "#3C474D"
+  red: "#EDA0A1"
+  green: "#A7C080"
+  yellow: "#DBBC7F"
+  blue: "#86BFB7"
+  magenta: "#DBA5BF"
+  cyan: "#83C092"
+  white: "#D8CAAC"
+  brightBlack: "#AEB6B0"
+  brightRed: "#EDA0A1"
+  brightGreen: "#A7C080"
+  brightYellow: "#DBBC7F"
+  brightBlue: "#86BFB7"
+  brightMagenta: "#DBA5BF"
+  brightCyan: "#83C092"
+  brightWhite: "#D8CAAC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 232
+  pair: null
+  contrast:
+    fg: 66.9
+    black: 0
+    red: 53.7
+    green: 55.3
+    yellow: 60.2
+    blue: 53.6
+    magenta: 53.6
+    cyan: 52.5
+    white: 66.9
+    brightBlack: 53.4
+    brightRed: 53.7
+    brightGreen: 55.3
+    brightYellow: 60.2
+    brightBlue: 53.6
+    brightMagenta: 53.6
+    brightCyan: 52.5
+    brightWhite: 66.9

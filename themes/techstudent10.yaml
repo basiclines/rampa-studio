@@ -3,6 +3,8 @@ source:
   marketplace_id: "TechStudent10.techstudent10-color-theme"
   version: "0.0.4"
   installs: 96
+  rating: 0
+  ratings: 0
   author: "TechStudent10"
   repo: "https://github.com/TechStudent11/TechStudent10-Color-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=TechStudent10.techstudent10-color-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 62
+  pair: null
   contrast:
     fg: 104.7
     black: 0

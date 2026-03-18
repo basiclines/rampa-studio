@@ -1,0 +1,52 @@
+name: "Sorbet-Swirl"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+colors:
+  bg: "#1E1916"
+  fg: "#E1E7FD"
+  black: "#1E1916"
+  red: "#FBA7A7"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#C1AAFF"
+  magenta: "#C1AAFF"
+  cyan: "#29C3A0"
+  white: "#E1E7FD"
+  brightBlack: "#1E1916"
+  brightRed: "#FBA7A7"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#C1AAFF"
+  brightMagenta: "#C1AAFF"
+  brightCyan: "#29C3A0"
+  brightWhite: "#E1E7FD"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 65.8
+    green: 57.3
+    yellow: 51.4
+    blue: 62.2
+    magenta: 62.2
+    cyan: 57.3
+    white: 91.2
+    brightBlack: 0
+    brightRed: 65.8
+    brightGreen: 57.3
+    brightYellow: 51.4
+    brightBlue: 62.2
+    brightMagenta: 62.2
+    brightCyan: 57.3
+    brightWhite: 91.2

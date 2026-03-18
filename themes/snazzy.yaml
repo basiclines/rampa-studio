@@ -1,0 +1,52 @@
+name: "Snazzy"
+source:
+  marketplace_id: "SnazzyTheme.snazzy-vscode"
+  version: "0.0.1"
+  installs: 7430
+  rating: 5
+  ratings: 1
+  author: "SnazzyTheme"
+  repo: "https://github.com/snazzytheme/snazzy-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SnazzyTheme.snazzy-vscode"
+colors:
+  bg: "#1D2433"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#EF6B73"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFCC66"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 53.3
+    black: 0
+    red: 43.1
+    green: 80.2
+    yellow: 77.5
+    blue: 66.1
+    magenta: 59.6
+    cyan: 66.1
+    white: 53.3
+    brightBlack: 9.4
+    brightRed: 43.1
+    brightGreen: 80.2
+    brightYellow: 77.5
+    brightBlue: 66.1
+    brightMagenta: 59.6
+    brightCyan: 66.1
+    brightWhite: 53.3

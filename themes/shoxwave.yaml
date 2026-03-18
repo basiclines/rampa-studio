@@ -3,6 +3,8 @@ source:
   marketplace_id: "Shoxwave.shoxwave-vscode-theme"
   version: "0.0.2"
   installs: 25
+  rating: 0
+  ratings: 0
   author: "Colt Shivers"
   repo: "https://github.com/shoxwave/vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Shoxwave.shoxwave-vscode-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 57.4
     black: 24.4

@@ -1,0 +1,52 @@
+name: "sky-real-abyss"
+source:
+  marketplace_id: "sky-designs.sky-themes"
+  version: "0.0.3"
+  installs: 498
+  rating: 0
+  ratings: 0
+  author: "sky-designs"
+  repo: "https://gitlab.com/mskyberg/sky-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=sky-designs.sky-themes"
+colors:
+  bg: "#000C18"
+  fg: "#6688CC"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 38.7
+    black: 0
+    red: 64.2
+    green: 91.6
+    yellow: 96.5
+    blue: 82.1
+    magenta: 75.5
+    cyan: 96.7
+    white: 75.4
+    brightBlack: 0
+    brightRed: 52.5
+    brightGreen: 87.6
+    brightYellow: 91.3
+    brightBlue: 63
+    brightMagenta: 51
+    brightCyan: 94.6
+    brightWhite: 107.6

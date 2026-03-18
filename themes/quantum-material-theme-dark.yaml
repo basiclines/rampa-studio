@@ -1,0 +1,50 @@
+name: "Quantum Material Theme - Dark"
+source:
+  marketplace_id: "michaelmendez.quantum-material-theme"
+  version: "0.0.7"
+  installs: 118
+  author: "Michael Méndez"
+  repo: "https://github.com/michaelmendez/quantum-material-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=michaelmendez.quantum-material-theme"
+colors:
+  bg: "#101119"
+  fg: "#DADADA"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#D19BF4"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#D19BF4"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 279
+  pair: "Quantum Material Theme - Light"
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 44.1
+    green: 84.7
+    yellow: 79.4
+    blue: 56.4
+    magenta: 59.3
+    cyan: 78.7
+    white: 107.3
+    brightBlack: 12
+    brightRed: 44.1
+    brightGreen: 84.7
+    brightYellow: 79.4
+    brightBlue: 56.4
+    brightMagenta: 59.3
+    brightCyan: 78.7
+    brightWhite: 107.3

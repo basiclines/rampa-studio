@@ -3,6 +3,8 @@ source:
   marketplace_id: "cmbell715.cpa-theme"
   version: "1.0.0"
   installs: 32
+  rating: 0
+  ratings: 0
   author: "cmbell715"
   repo: "https://github.com/cmbell715/"
   url: "https://marketplace.visualstudio.com/items?itemName=cmbell715.cpa-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 289
+  pair: null
   contrast:
     fg: 48.5
     black: 9

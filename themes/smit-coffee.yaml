@@ -1,0 +1,52 @@
+name: "Smit Coffee"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+colors:
+  bg: "#2A1F1A"
+  fg: "#E6D4C4"
+  black: "#1A1210"
+  red: "#D49080"
+  green: "#B8A588"
+  yellow: "#E6C090"
+  blue: "#9AA0B0"
+  magenta: "#C8A090"
+  cyan: "#B0B8A8"
+  white: "#E6D4C4"
+  brightBlack: "#5A4535"
+  brightRed: "#E4A090"
+  brightGreen: "#C8B598"
+  brightYellow: "#F6D0A0"
+  brightBlue: "#AAB0C0"
+  brightMagenta: "#D8B0A0"
+  brightCyan: "#C0C8B8"
+  brightWhite: "#F6E4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 46
+  pair: null
+  contrast:
+    fg: 79.9
+    black: 0
+    red: 49.1
+    green: 52.5
+    yellow: 69.9
+    blue: 48.5
+    magenta: 53.2
+    cyan: 60.1
+    white: 79.9
+    brightBlack: 9.4
+    brightRed: 57.6
+    brightGreen: 61.4
+    brightYellow: 79.4
+    brightBlue: 57.2
+    brightMagenta: 62
+    brightCyan: 69.3
+    brightWhite: 89.9

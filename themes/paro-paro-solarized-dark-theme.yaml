@@ -1,11 +1,13 @@
 name: "Paro-Paro-Solarized-Dark-Theme"
 source:
-  marketplace_id: "Paro-Paro.paro-paro-themes"
-  version: "2.0.2"
-  installs: 35
+  marketplace_id: "Paro-Paro.paro-paro-solarized-dark"
+  version: "1.2.2"
+  installs: 98
+  rating: 0
+  ratings: 0
   author: "Paro-Paro"
-  repo: "https://github.com/paro-paro/vscode-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=Paro-Paro.paro-paro-themes"
+  repo: "https://github.com/paro-paro/paro-paro-solarized-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Paro-Paro.paro-paro-solarized-dark"
 colors:
   bg: "#212121"
   fg: "#EEFFFF"
@@ -16,7 +18,7 @@ colors:
   blue: "#1460D2"
   magenta: "#C792EA"
   cyan: "#00BBBB"
-  white: "#F5F5F5"
+  white: "#EEFFFF"
   brightBlack: "#002B36"
   brightRed: "#CB4B16"
   brightGreen: "#586E75"
@@ -39,7 +41,7 @@ meta:
     blue: 21.3
     magenta: 52.5
     cyan: 53.6
-    white: 99
+    white: 103.3
     brightBlack: 0
     brightRed: 28.4
     brightGreen: 22.7

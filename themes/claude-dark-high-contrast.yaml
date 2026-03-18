@@ -1,0 +1,52 @@
+name: "Claude Dark High Contrast"
+source:
+  marketplace_id: "AlvinUnreal.claude-vscode-theme"
+  version: "1.2.0"
+  installs: 2148
+  rating: 5
+  ratings: 1
+  author: "Alvin Unreal"
+  repo: "https://github.com/alvinunreal/awesome-claude"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#0D0D0D"
+  red: "#FF8A8A"
+  green: "#8FE99F"
+  yellow: "#FFE066"
+  blue: "#82C7FF"
+  magenta: "#C49BFF"
+  cyan: "#66E8FF"
+  white: "#B8B8B8"
+  brightBlack: "#5A5A5A"
+  brightRed: "#FFAAAA"
+  brightGreen: "#AAFFBB"
+  brightYellow: "#FFF099"
+  brightBlue: "#AADDFF"
+  brightMagenta: "#DDBBFF"
+  brightCyan: "#99FFFF"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 57.8
+    green: 81.3
+    yellow: 88.8
+    blue: 68.9
+    magenta: 58.7
+    cyan: 82.5
+    white: 64
+    brightBlack: 18.1
+    brightRed: 69
+    brightGreen: 95.4
+    brightYellow: 97.1
+    brightBlue: 82
+    brightMagenta: 73.7
+    brightCyan: 96.9
+    brightWhite: 98.1

@@ -1,0 +1,52 @@
+name: "Smit Crimson Red"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+colors:
+  bg: "#2A1A1F"
+  fg: "#F5C5D5"
+  black: "#523A44"
+  red: "#FF6B9D"
+  green: "#FF9EB3"
+  yellow: "#FFB3C6"
+  blue: "#E74C6C"
+  magenta: "#FF8DA1"
+  cyan: "#FFA8BC"
+  white: "#F5C5D5"
+  brightBlack: "#7A4757"
+  brightRed: "#FF6B9D"
+  brightGreen: "#FF9EB3"
+  brightYellow: "#FFB3C6"
+  brightBlue: "#E74C6C"
+  brightMagenta: "#FF8DA1"
+  brightCyan: "#FFA8BC"
+  brightWhite: "#F5C5D5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 359
+  pair: null
+  contrast:
+    fg: 77.1
+    black: 0
+    red: 48.6
+    green: 63.3
+    yellow: 71.3
+    blue: 36
+    magenta: 57.4
+    cyan: 67
+    white: 77.1
+    brightBlack: 14.8
+    brightRed: 48.6
+    brightGreen: 63.3
+    brightYellow: 71.3
+    brightBlue: 36
+    brightMagenta: 57.4
+    brightCyan: 67
+    brightWhite: 77.1

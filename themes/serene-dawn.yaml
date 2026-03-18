@@ -1,0 +1,52 @@
+name: "Serene Dawn"
+source:
+  marketplace_id: "happyMix.serene-dawn"
+  version: "1.0.0"
+  installs: 112
+  rating: 0
+  ratings: 0
+  author: "happyMix"
+  repo: "https://github.com/happymix555/serene-dawn-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=happyMix.serene-dawn"
+colors:
+  bg: "#FDFCF8"
+  fg: "#3A3A3A"
+  black: "#3A3A3A"
+  red: "#D73502"
+  green: "#5FB85F"
+  yellow: "#B8860B"
+  blue: "#5A4FCF"
+  magenta: "#8B4789"
+  cyan: "#0C7D9D"
+  white: "#E8E6E0"
+  brightBlack: "#6A6A6A"
+  brightRed: "#E85D2C"
+  brightGreen: "#7AC87A"
+  brightYellow: "#D4A31D"
+  brightBlue: "#7A6FDF"
+  brightMagenta: "#A567A3"
+  brightCyan: "#2E9DB7"
+  brightWhite: "#F3F2EE"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.4
+    black: 94.4
+    red: 69.7
+    green: 46.4
+    yellow: 57.7
+    blue: 78.1
+    magenta: 78.9
+    cyan: 70.5
+    white: 10.5
+    brightBlack: 75.2
+    brightRed: 59.6
+    brightGreen: 37.3
+    brightYellow: 43.7
+    brightBlue: 65.8
+    brightMagenta: 66.5
+    brightCyan: 56.6
+    brightWhite: 0

@@ -1,17 +1,19 @@
 name: "word-dark-theme"
 source:
-  marketplace_id: "huacat.office-theme"
-  version: "1.4.1"
-  installs: 75529
-  author: "huacat"
-  repo: "https://github.com/huacat1017/huacat.office-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=huacat.office-theme"
+  marketplace_id: "simen.theme-simen"
+  version: "1.2.0"
+  installs: 54
+  rating: 0
+  ratings: 0
+  author: "simen"
+  repo: "https://github.com/microsoft/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=simen.theme-simen"
 colors:
   bg: "#262626"
   fg: "#F6F6F6"
   black: "#000000"
   red: "#ED7D31"
-  green: "#70AD47"
+  green: "#FFFFFF"
   yellow: "#FFC000"
   blue: "#7FA5F9"
   magenta: "#C19DEC"
@@ -34,7 +36,7 @@ meta:
     fg: 98.9
     black: 0
     red: 45.8
-    green: 46.5
+    green: 104.8
     yellow: 71.7
     blue: 51.3
     magenta: 54.6

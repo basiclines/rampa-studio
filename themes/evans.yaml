@@ -3,6 +3,8 @@ source:
   marketplace_id: "Evans.awesome-vscode-theme"
   version: "0.0.1"
   installs: 200
+  rating: 0
+  ratings: 0
   author: "Evans"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Evans.awesome-vscode-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 256
+  pair: null
   contrast:
     fg: 88.7
     black: 0

@@ -1,0 +1,52 @@
+name: "Oceanic-Gradient"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+colors:
+  bg: "#020231"
+  fg: "#CDF1F9"
+  black: "#020231"
+  red: "#7F1D1D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#CDF1F9"
+  magenta: "#CDF1F9"
+  cyan: "#29C3A0"
+  white: "#CDF1F9"
+  brightBlack: "#020231"
+  brightRed: "#7F1D1D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#CDF1F9"
+  brightMagenta: "#CDF1F9"
+  brightCyan: "#29C3A0"
+  brightWhite: "#CDF1F9"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 94.1
+    black: 0
+    red: 9.9
+    green: 58.2
+    yellow: 52.2
+    blue: 94.1
+    magenta: 94.1
+    cyan: 58.2
+    white: 94.1
+    brightBlack: 0
+    brightRed: 9.9
+    brightGreen: 58.2
+    brightYellow: 52.2
+    brightBlue: 94.1
+    brightMagenta: 94.1
+    brightCyan: 58.2
+    brightWhite: 94.1

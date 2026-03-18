@@ -1,0 +1,52 @@
+name: "Crystal-Quartz"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+colors:
+  bg: "#0C0A09"
+  fg: "#F2F2F2"
+  black: "#0C0A09"
+  red: "#7F1D1D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#E11D48"
+  magenta: "#E11D48"
+  cyan: "#29C3A0"
+  white: "#F2F2F2"
+  brightBlack: "#0C0A09"
+  brightRed: "#7F1D1D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#E11D48"
+  brightMagenta: "#E11D48"
+  brightCyan: "#29C3A0"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 10.2
+    green: 58.5
+    yellow: 52.5
+    blue: 31
+    magenta: 31
+    cyan: 58.5
+    white: 99.2
+    brightBlack: 0
+    brightRed: 10.2
+    brightGreen: 58.5
+    brightYellow: 52.5
+    brightBlue: 31
+    brightMagenta: 31
+    brightCyan: 58.5
+    brightWhite: 99.2

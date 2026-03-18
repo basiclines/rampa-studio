@@ -1,0 +1,52 @@
+name: "Melange Redux: Dark"
+source:
+  marketplace_id: "fostertheweb.melange-redux-iterum"
+  version: "0.2.7"
+  installs: 416
+  rating: 0
+  ratings: 0
+  author: "fostertheweb"
+  repo: "https://github.com/fostertheweb/melange-redux"
+  url: "https://marketplace.visualstudio.com/items?itemName=fostertheweb.melange-redux-iterum"
+colors:
+  bg: "#292522"
+  fg: "#ECE1D7"
+  black: "#C1A78E"
+  red: "#D47766"
+  green: "#85B695"
+  yellow: "#EBC06D"
+  blue: "#A3A9CE"
+  magenta: "#B380B0"
+  cyan: "#89B3B6"
+  white: "#292522"
+  brightBlack: "#ECE1D7"
+  brightRed: "#D47766"
+  brightGreen: "#85B695"
+  brightYellow: "#EBC06D"
+  brightBlue: "#A3A9CE"
+  brightMagenta: "#B380B0"
+  brightCyan: "#89B3B6"
+  brightWhite: "#34302C"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Melange Redux: Light"
+  contrast:
+    fg: 86.5
+    black: 54
+    red: 40.2
+    green: 53.7
+    yellow: 69.2
+    blue: 53.7
+    magenta: 40
+    cyan: 54
+    white: 0
+    brightBlack: 86.5
+    brightRed: 40.2
+    brightGreen: 53.7
+    brightYellow: 69.2
+    brightBlue: 53.7
+    brightMagenta: 40
+    brightCyan: 54
+    brightWhite: 0

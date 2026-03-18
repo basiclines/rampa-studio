@@ -3,6 +3,8 @@ source:
   marketplace_id: "bzy-debug.ef-themes"
   version: "0.0.4"
   installs: 60
+  rating: 0
+  ratings: 0
   author: "bzy-debug"
   repo: "https://github.com/bzy-debug-orgnization/ef-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 84.3
     black: 84.3

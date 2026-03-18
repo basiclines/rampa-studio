@@ -1,0 +1,50 @@
+name: "Pure Black - Monokai Inspired"
+source:
+  marketplace_id: "PureBlack-MonokaiInspired.pureblackmonokaiinspired"
+  version: "0.0.11"
+  installs: 267
+  author: "Pure Black - Monokai Inspired"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=PureBlack-MonokaiInspired.pureblackmonokaiinspired"
+colors:
+  bg: "#000000"
+  fg: "#F7F1FF"
+  black: "#363537"
+  red: "#FC618D"
+  green: "#7BD88F"
+  yellow: "#FCE566"
+  blue: "#FD9353"
+  magenta: "#948AE3"
+  cyan: "#5AD4E6"
+  white: "#F7F1FF"
+  brightBlack: "#69676C"
+  brightRed: "#FC618D"
+  brightGreen: "#7BD88F"
+  brightYellow: "#FCE566"
+  brightBlue: "#FD9353"
+  brightMagenta: "#948AE3"
+  brightCyan: "#5AD4E6"
+  brightWhite: "#F7F1FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.2
+    black: 0
+    red: 47.3
+    green: 71.3
+    yellow: 90.6
+    blue: 58.9
+    magenta: 45.2
+    cyan: 71.1
+    white: 100.2
+    brightBlack: 23.8
+    brightRed: 47.3
+    brightGreen: 71.3
+    brightYellow: 90.6
+    brightBlue: 58.9
+    brightMagenta: 45.2
+    brightCyan: 71.1
+    brightWhite: 100.2

@@ -1,11 +1,13 @@
 name: "CodeSandbox Theme"
 source:
-  marketplace_id: "isneru.codesandbox-theme-neru"
-  version: "1.1.0"
-  installs: 621
-  author: "Diogo neru Nogueira"
-  repo: "https://github.com/isneru/codesandbox-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=isneru.codesandbox-theme-neru"
+  marketplace_id: "nerudevs.codesandbox-unofficial"
+  version: "1.0.2"
+  installs: 459
+  rating: 0
+  ratings: 0
+  author: "neru devs"
+  repo: "https://github.com/isneru/vsc-themes.git#main"
+  url: "https://marketplace.visualstudio.com/items?itemName=nerudevs.codesandbox-unofficial"
 colors:
   bg: "#151515"
   fg: "#999999"

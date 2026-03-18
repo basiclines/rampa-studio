@@ -3,6 +3,8 @@ source:
   marketplace_id: "KeineAhnung.intepriddarkness"
   version: "1.9.2"
   installs: 218
+  rating: 5
+  ratings: 1
   author: "KeineAhnung"
   repo: "https://github.com/TheKeineAhnung/Intrepid-Darkness"
   url: "https://marketplace.visualstudio.com/items?itemName=KeineAhnung.intepriddarkness"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 97.7
     black: 0

@@ -1,0 +1,52 @@
+name: "P. Upright \ Crimson"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74789
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#2B2B2B"
+  black: "#000000"
+  red: "#B61702"
+  green: "#009C22"
+  yellow: "#D68B01"
+  blue: "#1E5FB4"
+  magenta: "#D600C4"
+  cyan: "#0CB4B4"
+  white: "#C5C5C5"
+  brightBlack: "#3F3F3F"
+  brightRed: "#E43E28"
+  brightGreen: "#04B941"
+  brightYellow: "#FFB618"
+  brightBlue: "#2186E4"
+  brightMagenta: "#FF24E2"
+  brightCyan: "#12D6CC"
+  brightWhite: "#E4E4E4"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.9
+    black: 106
+    red: 81.2
+    green: 63.1
+    yellow: 53.2
+    blue: 80.7
+    magenta: 68.7
+    cyan: 49.5
+    white: 31.2
+    brightBlack: 94.5
+    brightRed: 67.4
+    brightGreen: 50.3
+    brightYellow: 31.8
+    brightBlue: 64.5
+    brightMagenta: 56.9
+    brightCyan: 33.4
+    brightWhite: 13.5

@@ -1,0 +1,52 @@
+name: "Abyssal-Tokyo-Night"
+source:
+  marketplace_id: "zen0x.abyssal"
+  version: "0.0.5"
+  installs: 42
+  rating: 0
+  ratings: 0
+  author: "zen0x"
+  repo: "https://github.com/zen0x00/abyssal-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zen0x.abyssal"
+colors:
+  bg: "#1A1B26"
+  fg: "#A9B1D6"
+  black: "#1A1B26"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#AD8EE6"
+  cyan: "#449DAB"
+  white: "#A9B1D6"
+  brightBlack: "#565F89"
+  brightRed: "#F7768E"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#AD8EE6"
+  brightCyan: "#449DAB"
+  brightWhite: "#C0CAF5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 59.3
+    black: 0
+    red: 49.4
+    green: 66.9
+    yellow: 62.2
+    blue: 51.1
+    magenta: 48.1
+    cyan: 41.8
+    white: 59.3
+    brightBlack: 19.5
+    brightRed: 49.4
+    brightGreen: 66.9
+    brightYellow: 62.2
+    brightBlue: 51.1
+    brightMagenta: 48.1
+    brightCyan: 41.8
+    brightWhite: 73.8

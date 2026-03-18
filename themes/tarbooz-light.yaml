@@ -1,0 +1,52 @@
+name: "Tarbooz Light"
+source:
+  marketplace_id: "pabi.tarbooz-theme"
+  version: "0.3.1"
+  installs: 69
+  rating: 5
+  ratings: 2
+  author: "pabi"
+  repo: "https://github.com/pabi-ai/tarbooz"
+  url: "https://marketplace.visualstudio.com/items?itemName=pabi.tarbooz-theme"
+colors:
+  bg: "#F5FAFA"
+  fg: "#000000"
+  black: "#A0A5A5"
+  red: "#B70004"
+  green: "#006904"
+  yellow: "#7D7000"
+  blue: "#0052C6"
+  magenta: "#AC0074"
+  cyan: "#006560"
+  white: "#424444"
+  brightBlack: "#767A7A"
+  brightRed: "#C35354"
+  brightGreen: "#528256"
+  brightYellow: "#7D7852"
+  brightBlue: "#5B79A2"
+  brightMagenta: "#AF5A92"
+  brightCyan: "#567E7C"
+  brightWhite: "#181818"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Tarbooz Dark"
+  contrast:
+    fg: 102.4
+    black: 45.4
+    red: 77.7
+    green: 79.7
+    yellow: 70.9
+    blue: 79.5
+    magenta: 78.1
+    cyan: 79.8
+    white: 89.1
+    brightBlack: 66.5
+    brightRed: 66.8
+    brightGreen: 67.4
+    brightYellow: 67.5
+    brightBlue: 67.3
+    brightMagenta: 67
+    brightCyan: 67.5
+    brightWhite: 100.9

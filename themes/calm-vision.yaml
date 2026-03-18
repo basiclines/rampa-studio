@@ -1,0 +1,50 @@
+name: "Calm Vision"
+source:
+  marketplace_id: "huoshanxue.calm-vision-theme"
+  version: "1.0.1"
+  installs: 83
+  author: "huoshanxue"
+  repo: "https://github.com/huoshanxue/calm-vision-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=huoshanxue.calm-vision-theme"
+colors:
+  bg: "#E6EFE5"
+  fg: "#3C3D4C"
+  black: "#3C3D4C"
+  red: "#FF0000"
+  green: "#2DAE58"
+  yellow: "#CF9C00"
+  blue: "#09A1ED"
+  magenta: "#F767BB"
+  cyan: "#0CA7A4"
+  white: "#FAFBF9"
+  brightBlack: "#75798F"
+  brightRed: "#FFAEAC"
+  brightGreen: "#35CF68"
+  brightYellow: "#F5B900"
+  brightBlue: "#14B1FF"
+  brightMagenta: "#FF94D2"
+  brightCyan: "#0CA7A4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 143
+  pair: null
+  contrast:
+    fg: 83.8
+    black: 83.8
+    red: 53.1
+    green: 43.5
+    yellow: 37.7
+    blue: 43.1
+    magenta: 41.5
+    cyan: 44.6
+    white: 0
+    brightBlack: 58.7
+    brightRed: 21.2
+    brightGreen: 28.3
+    brightYellow: 21.4
+    brightBlue: 35.6
+    brightMagenta: 27.8
+    brightCyan: 44.6
+    brightWhite: 10

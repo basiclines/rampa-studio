@@ -1,0 +1,52 @@
+name: "Slate Neon"
+source:
+  marketplace_id: "OskarSodel.slate-neon"
+  version: "1.0.5"
+  installs: 62
+  rating: 0
+  ratings: 0
+  author: "Oskar Sodel"
+  repo: "https://github.com/k4rdel/slate-neon"
+  url: "https://marketplace.visualstudio.com/items?itemName=OskarSodel.slate-neon"
+colors:
+  bg: "#101013"
+  fg: "#E4E4E4"
+  black: "#1B1B20"
+  red: "#FF6FAE"
+  green: "#A0F0C0"
+  yellow: "#FFA64F"
+  blue: "#82B1FF"
+  magenta: "#C39AFF"
+  cyan: "#4FE0D0"
+  white: "#E4E4E4"
+  brightBlack: "#1B1B20"
+  brightRed: "#FF6FAE"
+  brightGreen: "#A0F0C0"
+  brightYellow: "#FFA64F"
+  brightBlue: "#82B1FF"
+  brightMagenta: "#C39AFF"
+  brightCyan: "#4FE0D0"
+  brightWhite: "#E4E4E4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.9
+    black: 0
+    red: 51.7
+    green: 86.8
+    yellow: 65
+    blue: 59.2
+    magenta: 57.7
+    cyan: 74.8
+    white: 89.9
+    brightBlack: 0
+    brightRed: 51.7
+    brightGreen: 86.8
+    brightYellow: 65
+    brightBlue: 59.2
+    brightMagenta: 57.7
+    brightCyan: 74.8
+    brightWhite: 89.9

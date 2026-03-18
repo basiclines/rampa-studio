@@ -1,0 +1,50 @@
+name: "Kiranord"
+source:
+  marketplace_id: "kiranojhanp.kiranord"
+  version: "0.0.3"
+  installs: 62
+  author: "kiranojhanp"
+  repo: "https://github.com/kiranojhanp/vscode-theme-kiranord"
+  url: "https://marketplace.visualstudio.com/items?itemName=kiranojhanp.kiranord"
+colors:
+  bg: "#1D2129"
+  fg: "#D8DEE9"
+  black: "#292E39"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 84.1
+    black: 0
+    red: 31.7
+    green: 60.4
+    yellow: 75.1
+    blue: 47.4
+    magenta: 45.2
+    cyan: 61.4
+    white: 91.1
+    brightBlack: 14.1
+    brightRed: 31.7
+    brightGreen: 60.4
+    brightYellow: 75.1
+    brightBlue: 47.4
+    brightMagenta: 45.2
+    brightCyan: 59.3
+    brightWhite: 95

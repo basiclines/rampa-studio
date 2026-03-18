@@ -1,0 +1,52 @@
+name: "Stranger Theme: Upside Down"
+source:
+  marketplace_id: "StrangerTheme.stranger-theme-vscode"
+  version: "1.0.2"
+  installs: 212
+  rating: 0
+  ratings: 0
+  author: "Stranger Theme"
+  repo: "https://github.com/stranger-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=StrangerTheme.stranger-theme-vscode"
+colors:
+  bg: "#0D1117"
+  fg: "#F8F8F2"
+  black: "#0D1117"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#F8F8F2"
+  brightBlack: "#5C6370"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 0
+    red: 42.6
+    green: 62.8
+    yellow: 71.1
+    blue: 55.2
+    magenta: 45.7
+    cyan: 55.1
+    white: 102.5
+    brightBlack: 21.1
+    brightRed: 42.6
+    brightGreen: 62.8
+    brightYellow: 71.1
+    brightBlue: 55.2
+    brightMagenta: 45.7
+    brightCyan: 55.1
+    brightWhite: 107.4

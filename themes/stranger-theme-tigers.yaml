@@ -1,0 +1,52 @@
+name: "Stranger Theme: Tigers"
+source:
+  marketplace_id: "StrangerTheme.stranger-theme-vscode"
+  version: "1.0.2"
+  installs: 212
+  rating: 0
+  ratings: 0
+  author: "Stranger Theme"
+  repo: "https://github.com/stranger-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=StrangerTheme.stranger-theme-vscode"
+colors:
+  bg: "#1A1A1A"
+  fg: "#F5F5F5"
+  black: "#1A1A1A"
+  red: "#CC6666"
+  green: "#B5BD68"
+  yellow: "#F0C674"
+  blue: "#B294BB"
+  magenta: "#FF7F2A"
+  cyan: "#81A2BE"
+  white: "#F5F5F5"
+  brightBlack: "#5C5C5C"
+  brightRed: "#CC6666"
+  brightGreen: "#B5BD68"
+  brightYellow: "#F0C674"
+  brightBlue: "#B294BB"
+  brightMagenta: "#FF7F2A"
+  brightCyan: "#81A2BE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100
+    black: 0
+    red: 36.1
+    green: 62.1
+    yellow: 74.3
+    blue: 48.6
+    magenta: 51.8
+    cyan: 48.6
+    white: 100
+    brightBlack: 17.6
+    brightRed: 36.1
+    brightGreen: 62.1
+    brightYellow: 74.3
+    brightBlue: 48.6
+    brightMagenta: 51.8
+    brightCyan: 48.6
+    brightWhite: 106.5

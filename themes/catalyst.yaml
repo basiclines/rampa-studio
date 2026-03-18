@@ -1,50 +1,52 @@
 name: "Catalyst"
 source:
-  marketplace_id: "Priyaank.catalystirony"
-  version: "0.0.2"
-  installs: 140
-  author: "Priyaank"
-  repo: "https://github.com/PRIYAANK2510/Catalyst-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=Priyaank.catalystirony"
+  marketplace_id: "hyphenzero.catalyst-theme"
+  version: "2.0.1"
+  installs: 992
+  rating: 5
+  ratings: 1
+  author: "Jasper Gorchov"
+  repo: "https://github.com/hyphenzero/tailwind-catalyst-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=hyphenzero.catalyst-theme"
 colors:
-  bg: "#252525"
-  fg: "#63716A"
-  black: "#444444"
-  red: "#A35043"
-  green: "#38773B"
-  yellow: "#A79A4B"
-  blue: "#558BAA"
-  magenta: "#8A4C8C"
-  cyan: "#0B828A"
-  white: "#BBBBBB"
-  brightBlack: "#666666"
-  brightRed: "#EE6752"
-  brightGreen: "#62BA6B"
-  brightYellow: "#DED07A"
-  brightBlue: "#67B1D9"
-  brightMagenta: "#B66ABA"
-  brightCyan: "#4FC8D1"
-  brightWhite: "#DDDDDD"
+  bg: "#09090B"
+  fg: "#F9FAFB"
+  black: "#FFFFFF"
+  red: "#FB7185"
+  green: "#34D399"
+  yellow: "#FBBF24"
+  blue: "#3B82F6"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#CBD5E1"
+  brightBlack: "#94A3B8"
+  brightRed: "#FB7185"
+  brightGreen: "#6EE7B7"
+  brightYellow: "#FCD34D"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "orange"
+  accent: "purple"
   hue: null
   pair: null
   contrast:
-    fg: 23.5
-    black: 0
-    red: 21.6
-    green: 22
-    yellow: 44.3
-    blue: 34.2
-    magenta: 19.2
-    cyan: 27.4
-    white: 62.8
-    brightBlack: 20.1
-    brightRed: 41.1
-    brightGreen: 52.1
-    brightYellow: 74.3
-    brightBlue: 52.6
-    brightMagenta: 35
-    brightCyan: 61.1
-    brightWhite: 83.1
+    fg: 104.4
+    black: 107.8
+    red: 50.2
+    green: 66.1
+    yellow: 73.6
+    blue: 37.7
+    magenta: 50.6
+    cyan: 69.5
+    white: 80.3
+    brightBlack: 51.6
+    brightRed: 50.2
+    brightGreen: 78.9
+    brightYellow: 82.3
+    brightBlue: 52.3
+    brightMagenta: 70.2
+    brightCyan: 82.1
+    brightWhite: 107.8

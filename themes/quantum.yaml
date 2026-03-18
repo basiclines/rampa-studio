@@ -1,0 +1,52 @@
+name: "Quantum"
+source:
+  marketplace_id: "CalebEphrem.quantum"
+  version: "2.0.3"
+  installs: 414
+  rating: 5
+  ratings: 2
+  author: "Caleb Ephrem"
+  repo: "https://github.com/calebephrem/quantum-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=CalebEphrem.quantum"
+colors:
+  bg: "#040527"
+  fg: "#E5E5E5"
+  black: "#1E232B"
+  red: "#EA6C73"
+  green: "#7FD962"
+  yellow: "#DDCC55"
+  blue: "#53BDFA"
+  magenta: "#CDA1FA"
+  cyan: "#70EFEF"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#AAFF4C"
+  brightYellow: "#FFDD70"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#D2A6FF"
+  brightCyan: "#00DDEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 90.7
+    black: 0
+    red: 44.8
+    green: 70.7
+    yellow: 74.4
+    blue: 61.3
+    magenta: 61.3
+    cyan: 85.3
+    white: 72.4
+    brightBlack: 23.6
+    brightRed: 47.3
+    brightGreen: 92.8
+    brightYellow: 87.4
+    brightBlue: 64.1
+    brightMagenta: 64.1
+    brightCyan: 73.9
+    brightWhite: 107.6

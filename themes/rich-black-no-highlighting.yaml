@@ -1,0 +1,52 @@
+name: "Rich Black, no highlighting"
+source:
+  marketplace_id: "KrisBastiani.vscode-theme-rich-black-no-highlighting"
+  version: "0.1.0"
+  installs: 41
+  rating: 0
+  ratings: 0
+  author: "Kris Bastiani"
+  repo: "https://github.com/Kris-Bastiani/vscode-theme-rich-black-no-highlighting"
+  url: "https://marketplace.visualstudio.com/items?itemName=KrisBastiani.vscode-theme-rich-black-no-highlighting"
+colors:
+  bg: "#010203"
+  fg: "#FFFFFF"
+  black: "#010203"
+  red: "#E4002B"
+  green: "#58BC67"
+  yellow: "#FFC100"
+  blue: "#5981FF"
+  magenta: "#FF00E3"
+  cyan: "#00E7FF"
+  white: "#FFFFFF"
+  brightBlack: "#1B1C1D"
+  brightRed: "#E4002B"
+  brightGreen: "#58BC67"
+  brightYellow: "#FFC100"
+  brightBlue: "#5981FF"
+  brightMagenta: "#FF00E3"
+  brightCyan: "#00E7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 31
+    green: 55.3
+    yellow: 75.1
+    blue: 39.5
+    magenta: 44.2
+    cyan: 80
+    white: 107.9
+    brightBlack: 0
+    brightRed: 31
+    brightGreen: 55.3
+    brightYellow: 75.1
+    brightBlue: 39.5
+    brightMagenta: 44.2
+    brightCyan: 80
+    brightWhite: 107.9

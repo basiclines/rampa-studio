@@ -1,0 +1,52 @@
+name: "Sucrose"
+source:
+  marketplace_id: "jeooo.ampulla"
+  version: "1.0.0"
+  installs: 315
+  rating: 0
+  ratings: 0
+  author: "jeooo`"
+  repo: "https://github.com/jeoooo/sucrose-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jeooo.ampulla"
+colors:
+  bg: "#F3F2F0"
+  fg: "#324976"
+  black: "#282828"
+  red: "#E64444"
+  green: "#00D300"
+  yellow: "#BCC00E"
+  blue: "#0069DB"
+  magenta: "#DE00DE"
+  cyan: "#00BEEC"
+  white: "#ADADAD"
+  brightBlack: "#000000"
+  brightRed: "#FF6C6C"
+  brightGreen: "#00FF00"
+  brightYellow: "#E0E604"
+  brightBlue: "#007AFF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#01AAD3"
+  brightWhite: "#EAEAEA"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.7
+    black: 93.9
+    red: 58.2
+    green: 30.9
+    yellow: 30
+    blue: 67.2
+    magenta: 57.5
+    cyan: 34.7
+    white: 36.5
+    brightBlack: 98.3
+    brightRed: 44.8
+    brightGreen: 9.4
+    brightYellow: 9.5
+    brightBlue: 58.8
+    brightMagenta: 47.9
+    brightCyan: 44.5
+    brightWhite: 0

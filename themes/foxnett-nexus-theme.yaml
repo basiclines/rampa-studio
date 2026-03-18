@@ -1,0 +1,52 @@
+name: "foxnett-nexus-theme"
+source:
+  marketplace_id: "FoxnettNexus.foxnett-nexus-theme"
+  version: "1.0.1"
+  installs: 23
+  rating: 5
+  ratings: 1
+  author: "Foxnett Nexus"
+  repo: "https://github.com/foxnett/foxnett-nexus-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=FoxnettNexus.foxnett-nexus-theme"
+colors:
+  bg: "#0A0B0F"
+  fg: "#F0F6FC"
+  black: "#0F1117"
+  red: "#F87171"
+  green: "#10B981"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#CBD5E1"
+  brightBlack: "#475569"
+  brightRed: "#FCA5A5"
+  brightGreen: "#34D399"
+  brightYellow: "#FCD34D"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.2
+    black: 0
+    red: 48.9
+    green: 52.7
+    yellow: 73.5
+    blue: 52.2
+    magenta: 50.5
+    cyan: 69.4
+    white: 80.2
+    brightBlack: 15.6
+    brightRed: 66.4
+    brightGreen: 66
+    brightYellow: 82.2
+    brightBlue: 69
+    brightMagenta: 70.1
+    brightCyan: 82
+    brightWhite: 104.2

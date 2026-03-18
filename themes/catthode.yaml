@@ -3,6 +3,8 @@ source:
   marketplace_id: "Catthode.catthode"
   version: "0.1.1"
   installs: 64
+  rating: 5
+  ratings: 1
   author: "Catthode"
   repo: "https://github.com/catthode/vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Catthode.catthode"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 107.9
     black: 0

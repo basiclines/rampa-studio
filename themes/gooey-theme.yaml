@@ -1,50 +1,52 @@
-name: "Gooey-Theme"
+name: "Gooey Theme"
 source:
-  marketplace_id: "Gooey.gooeyvsctheme"
-  version: "0.0.1"
-  installs: 139
-  author: "Gooey"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=Gooey.gooeyvsctheme"
+  marketplace_id: "TheMartes.GooeyTheme"
+  version: "0.0.2"
+  installs: 5201
+  rating: 0
+  ratings: 0
+  author: "TheMartes"
+  repo: "https://github.com/TheMartes/Gooey-VSCodeTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheMartes.GooeyTheme"
 colors:
-  bg: "#171922"
-  fg: "#BABABA"
-  black: "#000000"
-  red: "#CD3131"
-  green: "#0DBC79"
-  yellow: "#E5E510"
-  blue: "#2472C8"
-  magenta: "#BC3FBC"
-  cyan: "#11A8CD"
-  white: "#E5E5E5"
-  brightBlack: "#666666"
-  brightRed: "#F14C4C"
-  brightGreen: "#23D18B"
-  brightYellow: "#F5F543"
-  brightBlue: "#3B8EEA"
-  brightMagenta: "#D670D6"
-  brightCyan: "#29B8DB"
-  brightWhite: "#E5E5E5"
+  bg: "#101218"
+  fg: "#D1D4E0"
+  black: "#252936"
+  red: "#EE829F"
+  green: "#A5FFE1"
+  yellow: "#F99170"
+  blue: "#97BBF7"
+  magenta: "#C0B7F9"
+  cyan: "#97E0FF"
+  white: "#C9CCDB"
+  brightBlack: "#7780A1"
+  brightRed: "#EE829F"
+  brightGreen: "#A5FFE1"
+  brightYellow: "#FFEFCC"
+  brightBlue: "#97BBF7"
+  brightMagenta: "#C0B7F9"
+  brightCyan: "#97E0FF"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "pink"
-  hue: 275
+  accent: "red"
+  hue: 271
   pair: null
   contrast:
-    fg: 63.9
+    fg: 80.1
     black: 0
-    red: 26.4
-    green: 52.7
-    yellow: 85.4
-    blue: 27.2
-    magenta: 29.5
-    cyan: 47.3
-    white: 89.8
-    brightBlack: 21.8
-    brightRed: 38.3
-    brightGreen: 63.3
-    brightYellow: 95.4
-    brightBlue: 39.7
-    brightMagenta: 45.1
-    brightCyan: 55.1
-    brightWhite: 89.8
+    red: 52.3
+    green: 95.9
+    yellow: 57.4
+    blue: 64.4
+    magenta: 67.3
+    cyan: 81.1
+    white: 75.4
+    brightBlack: 34.7
+    brightRed: 52.3
+    brightGreen: 95.9
+    brightYellow: 97.6
+    brightBlue: 64.4
+    brightMagenta: 67.3
+    brightCyan: 81.1
+    brightWhite: 107.3

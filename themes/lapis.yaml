@@ -1,0 +1,52 @@
+name: "Lapis"
+source:
+  marketplace_id: "AlexBarnett.lapis-vscode"
+  version: "1.8.3"
+  installs: 5590
+  rating: 5
+  ratings: 5
+  author: "Alex Barnett"
+  repo: "https://github.com/aslbarnett/lapis-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexBarnett.lapis-vscode"
+colors:
+  bg: "#1B1F27"
+  fg: "#D6E2FF"
+  black: "#2D3953"
+  red: "#FC83AB"
+  green: "#ABFC83"
+  yellow: "#FCD483"
+  blue: "#83ABFC"
+  magenta: "#D483FC"
+  cyan: "#83FCD4"
+  white: "#D6E2FF"
+  brightBlack: "#43547A"
+  brightRed: "#FC9CBC"
+  brightGreen: "#BCFC9C"
+  brightYellow: "#FCDC9C"
+  brightBlue: "#9CBCFC"
+  brightMagenta: "#DC9CFC"
+  brightCyan: "#9CFCDC"
+  brightWhite: "#D6E2FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 54.4
+    green: 90.5
+    yellow: 81.7
+    blue: 55.2
+    magenta: 51.5
+    cyan: 90
+    white: 87.1
+    brightBlack: 14
+    brightRed: 62.5
+    brightGreen: 92.7
+    brightYellow: 85.8
+    brightBlue: 64.2
+    brightMagenta: 60.4
+    brightCyan: 92
+    brightWhite: 87.1

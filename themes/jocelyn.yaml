@@ -1,0 +1,52 @@
+name: "Jocelyn"
+source:
+  marketplace_id: "sspantz.jocelyn"
+  version: "0.1.1"
+  installs: 214
+  rating: 0
+  ratings: 0
+  author: "sspantz"
+  repo: "https://github.com/sspantz/jocelyn-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sspantz.jocelyn"
+colors:
+  bg: "#2A2A2E"
+  fg: "#B1B1B3"
+  black: "#2A2A2E"
+  red: "#CC3D3D"
+  green: "#86DE74"
+  yellow: "#FCE2A1"
+  blue: "#6B89FF"
+  magenta: "#FF1493"
+  cyan: "#FF1493"
+  white: "#FFFFFF"
+  brightBlack: "#0C0C0D"
+  brightRed: "#CC3D3D"
+  brightGreen: "#76EE00"
+  brightYellow: "#FCE2A1"
+  brightBlue: "#6B89FF"
+  brightMagenta: "#FF1493"
+  brightCyan: "#FF1493"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.3
+    black: 0
+    red: 25.1
+    green: 70.4
+    yellow: 86.6
+    blue: 39.4
+    magenta: 36.3
+    cyan: 36.3
+    white: 104
+    brightBlack: 0
+    brightRed: 25.1
+    brightGreen: 76.4
+    brightYellow: 86.6
+    brightBlue: 39.4
+    brightMagenta: 36.3
+    brightCyan: 36.3
+    brightWhite: 104

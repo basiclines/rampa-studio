@@ -1,0 +1,52 @@
+name: "dqn"
+source:
+  marketplace_id: "dqn.dqn"
+  version: "0.0.6"
+  installs: 13
+  rating: 0
+  ratings: 0
+  author: "dqn"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=dqn.dqn"
+colors:
+  bg: "#1A1F2E"
+  fg: "#E8F4F8"
+  black: "#0F141F"
+  red: "#E74C3C"
+  green: "#30D5C8"
+  yellow: "#FFEDA1"
+  blue: "#5DADE2"
+  magenta: "#17A2B8"
+  cyan: "#30D5C8"
+  white: "#E8F4F8"
+  brightBlack: "#4A5568"
+  brightRed: "#FF7F73"
+  brightGreen: "#5FF3E2"
+  brightYellow: "#FFF6C2"
+  brightBlue: "#85C1E9"
+  brightMagenta: "#C8A8E9"
+  brightCyan: "#66E5FF"
+  brightWhite: "#F6FBFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 270
+  pair: null
+  contrast:
+    fg: 97.2
+    black: 0
+    red: 35
+    green: 66.8
+    yellow: 93.9
+    blue: 51.8
+    magenta: 43
+    cyan: 66.8
+    white: 97.2
+    brightBlack: 13.9
+    brightRed: 52.1
+    brightGreen: 84.1
+    brightYellow: 99.1
+    brightBlue: 63.1
+    brightMagenta: 60.3
+    brightCyan: 79
+    brightWhite: 102.7

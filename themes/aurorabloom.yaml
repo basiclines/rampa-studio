@@ -2,7 +2,9 @@ name: "AuroraBloom"
 source:
   marketplace_id: "R-404.aurorabloom"
   version: "0.0.1"
-  installs: 51
+  installs: 52
+  rating: 0
+  ratings: 0
   author: "R-404"
   repo: "https://github.com/Meharab-Islam/Aurorabloom"
   url: "https://marketplace.visualstudio.com/items?itemName=R-404.aurorabloom"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 234
+  pair: null
   contrast:
     fg: 104.3
     black: 0

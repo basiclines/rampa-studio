@@ -1,0 +1,50 @@
+name: "Fig"
+source:
+  marketplace_id: "FigTheme.fig-theme"
+  version: "0.0.7"
+  installs: 142
+  author: "Fig Theme"
+  repo: "https://github.com/khevin/fig-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=FigTheme.fig-theme"
+colors:
+  bg: "#181818"
+  fg: "#E4E4E4"
+  black: "#242424"
+  red: "#FC6B83"
+  green: "#3FA266"
+  yellow: "#D2943E"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E4E4E4"
+  brightBlack: "#E4E4E4"
+  brightRed: "#FC6B83"
+  brightGreen: "#70B489"
+  brightYellow: "#F1B467"
+  brightBlue: "#87A6C4"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#E4E4E4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.3
+    black: 0
+    red: 47.9
+    green: 41.8
+    yellow: 50.1
+    blue: 48.5
+    magenta: 46.4
+    cyan: 62.6
+    white: 89.3
+    brightBlack: 89.3
+    brightRed: 47.9
+    brightGreen: 52.8
+    brightYellow: 67.3
+    brightBlue: 51.2
+    brightMagenta: 46.4
+    brightCyan: 62.6
+    brightWhite: 89.3

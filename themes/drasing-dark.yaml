@@ -3,6 +3,8 @@ source:
   marketplace_id: "drasing.drasing-dark-theme"
   version: "0.0.6"
   installs: 13
+  rating: 0
+  ratings: 0
   author: "drasing"
   repo: "https://github.com/thiagoboize/drasing-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=drasing.drasing-dark-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 107.4
     black: 0

@@ -1,0 +1,52 @@
+name: "Autu Dark Theme"
+source:
+  marketplace_id: "zddq.autu-theme"
+  version: "0.0.1"
+  installs: 27
+  rating: 0
+  ratings: 0
+  author: "zddq"
+  repo: "https://github.com/zddq/autu-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zddq.autu-theme"
+colors:
+  bg: "#000000"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.4
+    black: 9.9
+    red: 37.7
+    green: 61.4
+    yellow: 49.6
+    blue: 50.7
+    magenta: 40.1
+    cyan: 53.5
+    white: 84
+    brightBlack: 16.5
+    brightRed: 47.1
+    brightGreen: 77.8
+    brightYellow: 62.2
+    brightBlue: 64.7
+    brightMagenta: 51.3
+    brightCyan: 68.8
+    brightWhite: 91.7

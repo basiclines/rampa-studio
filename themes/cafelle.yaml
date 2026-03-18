@@ -1,0 +1,52 @@
+name: "Cafelle"
+source:
+  marketplace_id: "JacobClarey.cafelle-light"
+  version: "1.0.4"
+  installs: 130
+  rating: 0
+  ratings: 0
+  author: "Jacob Clarey"
+  repo: "https://github.com/jakeclarey/cafelle-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=JacobClarey.cafelle-light"
+colors:
+  bg: "#FEDE9D"
+  fg: "#5A5A5A"
+  black: "#324A4D"
+  red: "#E66533"
+  green: "#52B852"
+  yellow: "#328F6E"
+  blue: "#2E4AEB"
+  magenta: "#CF6363"
+  cyan: "#49D6E9"
+  white: "#5A5A5A"
+  brightBlack: "#47686C"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#82BEE4"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#C1D4D7"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: 85
+  pair: null
+  contrast:
+    fg: 66.6
+    black: 74.6
+    red: 42.9
+    green: 31.8
+    yellow: 49.5
+    blue: 63.4
+    magenta: 47.2
+    cyan: 14
+    white: 66.6
+    brightBlack: 63
+    brightRed: 37.8
+    brightGreen: 0
+    brightYellow: 29.9
+    brightBlue: 21.7
+    brightMagenta: 25.9
+    brightCyan: 10.8
+    brightWhite: 7.6

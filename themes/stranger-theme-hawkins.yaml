@@ -1,0 +1,52 @@
+name: "Stranger Theme: Hawkins"
+source:
+  marketplace_id: "StrangerTheme.stranger-theme-vscode"
+  version: "1.0.2"
+  installs: 212
+  rating: 0
+  ratings: 0
+  author: "Stranger Theme"
+  repo: "https://github.com/stranger-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=StrangerTheme.stranger-theme-vscode"
+colors:
+  bg: "#2C2218"
+  fg: "#E8DCC8"
+  black: "#2C2218"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#B48EAD"
+  magenta: "#D4A574"
+  cyan: "#88C0D0"
+  white: "#E8DCC8"
+  brightBlack: "#6B5B45"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#B48EAD"
+  brightMagenta: "#D4A574"
+  brightCyan: "#88C0D0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 66
+  pair: null
+  contrast:
+    fg: 83.5
+    black: 0
+    red: 31.2
+    green: 59.9
+    yellow: 74.7
+    blue: 44.8
+    magenta: 55.6
+    cyan: 60.9
+    white: 83.5
+    brightBlack: 16.7
+    brightRed: 31.2
+    brightGreen: 59.9
+    brightYellow: 74.7
+    brightBlue: 44.8
+    brightMagenta: 55.6
+    brightCyan: 60.9
+    brightWhite: 105.1

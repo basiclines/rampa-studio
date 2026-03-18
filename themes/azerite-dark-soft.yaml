@@ -3,6 +3,8 @@ source:
   marketplace_id: "wistb.azerite-dark"
   version: "0.0.7"
   installs: 248
+  rating: 0
+  ratings: 0
   author: "wistb"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=wistb.azerite-dark"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 266
+  pair: null
   contrast:
     fg: 65.1
     black: 26

@@ -3,6 +3,8 @@ source:
   marketplace_id: "pluveto.comments-are-important"
   version: "0.0.1"
   installs: 144
+  rating: 0
+  ratings: 0
   author: "Zhang Zijing (Pluveto)"
   repo: "https://github.com/pluveto/comments-are-important"
   url: "https://marketplace.visualstudio.com/items?itemName=pluveto.comments-are-important"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 304
+  pair: null
   contrast:
     fg: 80.5
     black: 0

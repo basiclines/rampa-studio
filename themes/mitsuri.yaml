@@ -1,0 +1,52 @@
+name: "mitsuri"
+source:
+  marketplace_id: "KonvSuu.mitsuri-theme"
+  version: "0.1.0"
+  installs: 78
+  rating: 0
+  ratings: 0
+  author: "KonvSuu"
+  repo: "https://github.com/kovsu/mitsuri"
+  url: "https://marketplace.visualstudio.com/items?itemName=KonvSuu.mitsuri-theme"
+colors:
+  bg: "#0F0D0E"
+  fg: "#F9F4DA"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#C5C5C5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.9
+    black: 0
+    red: 27.4
+    green: 53.7
+    yellow: 86.3
+    blue: 28.1
+    magenta: 30.5
+    cyan: 48.3
+    white: 71.2
+    brightBlack: 22.7
+    brightRed: 39.3
+    brightGreen: 64.2
+    brightYellow: 96.3
+    brightBlue: 40.7
+    brightMagenta: 46.1
+    brightCyan: 56.1
+    brightWhite: 90.7

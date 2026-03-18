@@ -3,6 +3,8 @@ source:
   marketplace_id: "alecvision.alecvision-themes"
   version: "0.0.1"
   installs: 264
+  rating: 0
+  ratings: 0
   author: "AlecVision"
   repo: "https://github.com/AlecVision/themes"
   url: "https://marketplace.visualstudio.com/items?itemName=alecvision.alecvision-themes"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 244
+  pair: null
   contrast:
     fg: 63.8
     black: 0

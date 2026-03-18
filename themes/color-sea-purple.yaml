@@ -3,6 +3,8 @@ source:
   marketplace_id: "Danesed.color-sea"
   version: "1.0.0"
   installs: 16
+  rating: 0
+  ratings: 0
   author: "Danesed"
   repo: "https://github.com/danesed/colorsea-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Danesed.color-sea"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 295
+  pair: null
   contrast:
     fg: 54.4
     black: 8

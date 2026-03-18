@@ -3,6 +3,8 @@ source:
   marketplace_id: "LukasFend.comfyeyes-theme"
   version: "0.0.1"
   installs: 192
+  rating: 0
+  ratings: 0
   author: "Lukas Fend"
   repo: "https://github.com/lukasfend/comfyeyes-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=LukasFend.comfyeyes-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 62.3
     black: 0

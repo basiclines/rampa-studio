@@ -3,6 +3,8 @@ source:
   marketplace_id: "sahilmondal.dark-fusion-theme"
   version: "1.0.0"
   installs: 121
+  rating: 0
+  ratings: 0
   author: "Sahil Mondal"
   repo: "https://github.com/sahilmondal/darkFusion-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=sahilmondal.dark-fusion-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 280
+  pair: null
   contrast:
     fg: 55.4
     black: 0

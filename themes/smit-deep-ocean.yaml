@@ -1,0 +1,52 @@
+name: "Smit Deep Ocean"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+colors:
+  bg: "#0F1419"
+  fg: "#A8D4E6"
+  black: "#0F1419"
+  red: "#5A99BB"
+  green: "#5ABEBB"
+  yellow: "#7AD4D4"
+  blue: "#3AA4C4"
+  magenta: "#5ABEDD"
+  cyan: "#4DD4D4"
+  white: "#C8DCE6"
+  brightBlack: "#2A3F4A"
+  brightRed: "#6AA9CC"
+  brightGreen: "#6ACECC"
+  brightYellow: "#8AE4E4"
+  brightBlue: "#4AB4D4"
+  brightMagenta: "#6ACEEE"
+  brightCyan: "#5DE4E4"
+  brightWhite: "#E8F8FF"
+meta:
+  mode: "dark"
+  accent: "cyan"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 42.8
+    green: 58.2
+    yellow: 71.1
+    blue: 46.4
+    magenta: 59.9
+    cyan: 69
+    white: 82.7
+    brightBlack: 0
+    brightRed: 51
+    brightGreen: 67.1
+    brightYellow: 80.5
+    brightBlue: 54.4
+    brightMagenta: 68.8
+    brightCyan: 78
+    brightWhite: 100.8

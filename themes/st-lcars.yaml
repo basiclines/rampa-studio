@@ -1,0 +1,52 @@
+name: "ST: LCARS"
+source:
+  marketplace_id: "RobertSchnable.star-trek-factions-theme"
+  version: "1.0.7"
+  installs: 22
+  rating: 0
+  ratings: 0
+  author: "Robert Schnable"
+  repo: "https://github.com/your-username/star-trek-factions-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RobertSchnable.star-trek-factions-theme"
+colors:
+  bg: "#141414"
+  fg: "#FFCC55"
+  black: "#141414"
+  red: "#DD5566"
+  green: "#77BBAA"
+  yellow: "#FFB300"
+  blue: "#AA99DD"
+  magenta: "#DD6688"
+  cyan: "#FFDD88"
+  white: "#FFCC99"
+  brightBlack: "#555555"
+  brightRed: "#DD5566"
+  brightGreen: "#77BBAA"
+  brightYellow: "#FFDD00"
+  brightBlue: "#AA99DD"
+  brightMagenta: "#FF55BB"
+  brightCyan: "#FFDD88"
+  brightWhite: "#FFEECC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 36.5
+    green: 57.9
+    yellow: 69
+    blue: 51.7
+    magenta: 40.9
+    cyan: 87.4
+    white: 80.6
+    brightBlack: 15.4
+    brightRed: 36.5
+    brightGreen: 57.9
+    brightYellow: 86.1
+    brightBlue: 51.7
+    brightMagenta: 47
+    brightCyan: 87.4
+    brightWhite: 97

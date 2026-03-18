@@ -1,21 +1,23 @@
 name: "comrade"
 source:
-  marketplace_id: "humbanew.flawuldragon"
-  version: "0.0.19"
-  installs: 901
-  author: "Humbanew Project"
-  repo: "https://github.com/humbanew/flawuldragon"
-  url: "https://marketplace.visualstudio.com/items?itemName=humbanew.flawuldragon"
+  marketplace_id: "ztaylor.comradeyuri"
+  version: "0.0.9"
+  installs: 177
+  rating: 0
+  ratings: 0
+  author: "Zachary Taylor"
+  repo: "https://github.com/thezacharytaylor/comradeyuri"
+  url: "https://marketplace.visualstudio.com/items?itemName=ztaylor.comradeyuri"
 colors:
   bg: "#343939"
   fg: "#D6DBDB"
   black: "#404646"
   red: "#BA0E2E"
-  green: "#C24E4B"
+  green: "#FB4934"
   yellow: "#9BB7A7"
   blue: "#F9F7F1"
   magenta: "#9BB7A7"
-  cyan: "#C24E4B"
+  cyan: "#FB4934"
   white: "#E4E7E7"
   brightBlack: "#656E6E"
   brightRed: "#F03E5F"
@@ -34,11 +36,11 @@ meta:
     fg: 76.8
     black: 0
     red: 14.2
-    green: 22.6
+    green: 33.9
     yellow: 52.5
     blue: 95.3
     magenta: 52.5
-    cyan: 22.6
+    cyan: 33.9
     white: 84.6
     brightBlack: 18.4
     brightRed: 30.5

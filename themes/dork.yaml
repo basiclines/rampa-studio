@@ -3,6 +3,8 @@ source:
   marketplace_id: "goldyflakes.dork"
   version: "0.0.1"
   installs: 117
+  rating: 0
+  ratings: 0
   author: "goldyflakes"
   repo: "https://github.com/goldyflakes/dork-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=goldyflakes.dork"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 299
+  pair: null
   contrast:
     fg: 86.7
     black: 9.6

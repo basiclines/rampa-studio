@@ -1,0 +1,52 @@
+name: "Abysal Obsidian"
+source:
+  marketplace_id: "Andr3xDev.abysal-theme"
+  version: "1.0.0"
+  installs: 15
+  rating: 0
+  ratings: 0
+  author: "Andr3xDev"
+  repo: "https://github.com/your-user/abysal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Andr3xDev.abysal-theme"
+colors:
+  bg: "#1C1C1C"
+  fg: "#D4D4D4"
+  black: "#1C1C1C"
+  red: "#D47779"
+  green: "#52C9B0"
+  yellow: "#D1B171"
+  blue: "#6B92E3"
+  magenta: "#B87BCE"
+  cyan: "#52C9B0"
+  white: "#D4D4D4"
+  brightBlack: "#777777"
+  brightRed: "#D47779"
+  brightGreen: "#52C9B0"
+  brightYellow: "#D1B171"
+  brightBlue: "#6B92E3"
+  brightMagenta: "#B87BCE"
+  brightCyan: "#52C9B0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 42.2
+    green: 61.6
+    yellow: 60.8
+    blue: 42.8
+    magenta: 42.3
+    cyan: 61.6
+    white: 78.9
+    brightBlack: 29
+    brightRed: 42.2
+    brightGreen: 61.6
+    brightYellow: 60.8
+    brightBlue: 42.8
+    brightMagenta: 42.3
+    brightCyan: 61.6
+    brightWhite: 106.3

@@ -1,50 +1,52 @@
-name: "xresources_bordered"
+name: "xresources-bordered"
 source:
-  marketplace_id: "NekkiNeks.xresources-theme-plus"
-  version: "2.0.1"
-  installs: 22
-  author: "NekkiNeks"
-  repo: "https://github.com/NekkiNeks/xresources-theme-plus"
-  url: "https://marketplace.visualstudio.com/items?itemName=NekkiNeks.xresources-theme-plus"
+  marketplace_id: "JackVandergriff.xresources-theme"
+  version: "1.1.0"
+  installs: 1524
+  rating: 5
+  ratings: 1
+  author: "Jack Vandergriff"
+  repo: "https://github.com/JackVandergriff/vscode-xresources-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JackVandergriff.xresources-theme"
 colors:
-  bg: "#000000"
-  fg: "#EAEAEA"
-  black: "#000000"
-  red: "#B30303"
-  green: "#8AB800"
-  yellow: "#DC4904"
-  blue: "#2527CE"
-  magenta: "#B20B6D"
-  cyan: "#277890"
-  white: "#AFAFAF"
-  brightBlack: "#4D4D4D"
-  brightRed: "#FF0100"
-  brightGreen: "#BAF602"
-  brightYellow: "#FD6C13"
-  brightBlue: "#2E31FC"
-  brightMagenta: "#F01294"
-  brightCyan: "#3BB1D4"
-  brightWhite: "#D6D6D6"
+  bg: "#2F2C2B"
+  fg: "#C9C8C8"
+  black: "#272524"
+  red: "#F4ADFC"
+  green: "#185D8E"
+  yellow: "#7270A0"
+  blue: "#7996AA"
+  magenta: "#5989AA"
+  cyan: "#D0C29F"
+  white: "#C9C8C8"
+  brightBlack: "#5D5B5A"
+  brightRed: "#F4FCAD"
+  brightGreen: "#185D8E"
+  brightYellow: "#7270A0"
+  brightBlue: "#7996AA"
+  brightMagenta: "#5989AA"
+  brightCyan: "#D0C29F"
+  brightWhite: "#C9C8C8"
 meta:
   mode: "dark"
-  accent: "purple"
+  accent: "pink"
   hue: null
   pair: null
   contrast:
-    fg: 94.2
+    fg: 69.1
     black: 0
-    red: 19.7
-    green: 56
-    yellow: 33.9
-    blue: 12.4
-    magenta: 21.1
-    cyan: 27.2
-    white: 59
-    brightBlack: 13.1
-    brightRed: 37.5
-    brightGreen: 89.7
-    brightYellow: 47.9
-    brightBlue: 19
-    brightMagenta: 36.5
-    brightCyan: 53.4
-    brightWhite: 81.7
+    red: 67.6
+    green: 13.7
+    yellow: 25.2
+    blue: 39.3
+    magenta: 32.2
+    cyan: 65.9
+    white: 69.1
+    brightBlack: 14.3
+    brightRed: 97.4
+    brightGreen: 13.7
+    brightYellow: 25.2
+    brightBlue: 39.3
+    brightMagenta: 32.2
+    brightCyan: 65.9
+    brightWhite: 69.1

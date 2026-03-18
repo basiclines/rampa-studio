@@ -1,0 +1,52 @@
+name: "Cortex-theme"
+source:
+  marketplace_id: "Cortex-theme.cortex-theme"
+  version: "1.0.1"
+  installs: 482
+  rating: 0
+  ratings: 0
+  author: "Cortex-theme"
+  repo: "https://github.com/Migxt/Cortex-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Cortex-theme.cortex-theme"
+colors:
+  bg: "#0C0C0C"
+  fg: "#6D6D6D"
+  black: "#2A2A2A"
+  red: "#FF3370"
+  green: "#0DBC79"
+  yellow: "#FFAC4D"
+  blue: "#29CAE4"
+  magenta: "#BC3FBC"
+  cyan: "#33FFC2"
+  white: "#C0C0C0"
+  brightBlack: "#666666"
+  brightRed: "#FF3370"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFAC4D"
+  brightBlue: "#29CAE4"
+  brightMagenta: "#D670D6"
+  brightCyan: "#33FFC2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 25.8
+    black: 0
+    red: 40.4
+    green: 53.8
+    yellow: 67.3
+    blue: 64.7
+    magenta: 30.5
+    cyan: 89.6
+    white: 68.4
+    brightBlack: 22.8
+    brightRed: 40.4
+    brightGreen: 64.3
+    brightYellow: 67.3
+    brightBlue: 64.7
+    brightMagenta: 46.2
+    brightCyan: 89.6
+    brightWhite: 107.7

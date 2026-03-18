@@ -3,6 +3,8 @@ source:
   marketplace_id: "magnesium-007.i-colors"
   version: "0.0.16"
   installs: 156
+  rating: 0
+  ratings: 0
   author: "magnesium"
   repo: "https://github.com/yyong008/mg-iColors"
   url: "https://marketplace.visualstudio.com/items?itemName=magnesium-007.i-colors"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 21.5
     black: 92.7

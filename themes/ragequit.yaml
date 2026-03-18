@@ -3,6 +3,8 @@ source:
   marketplace_id: "YuriRage.ragequit"
   version: "0.1.4"
   installs: 297
+  rating: 0
+  ratings: 0
   author: "Yuri Rage"
   repo: "https://github.com/yuri-rage/vscode-theme-ragequit"
   url: "https://marketplace.visualstudio.com/items?itemName=YuriRage.ragequit"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 264
+  pair: null
   contrast:
     fg: 71.6
     black: 0

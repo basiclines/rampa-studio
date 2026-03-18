@@ -1,0 +1,52 @@
+name: "fresh-green-color-theme"
+source:
+  marketplace_id: "wavebeem.fresh-green-vscode"
+  version: "1.0.0"
+  installs: 318
+  rating: 0
+  ratings: 0
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/fresh-green-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.fresh-green-vscode"
+colors:
+  bg: "#FFFFFF"
+  fg: "#161616"
+  black: "#2E2E2E"
+  red: "#D2004F"
+  green: "#007C1F"
+  yellow: "#845B00"
+  blue: "#7700FF"
+  magenta: "#C3009B"
+  cyan: "#00718F"
+  white: "#FFFFFF"
+  brightBlack: "#2E2E2E"
+  brightRed: "#D2004F"
+  brightGreen: "#007C1F"
+  brightYellow: "#845B00"
+  brightBlue: "#7700FF"
+  brightMagenta: "#C3009B"
+  brightCyan: "#00718F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104.8
+    black: 100.1
+    red: 74.5
+    green: 76.1
+    yellow: 79.9
+    blue: 79.5
+    magenta: 75.1
+    cyan: 77.3
+    white: 0
+    brightBlack: 100.1
+    brightRed: 74.5
+    brightGreen: 76.1
+    brightYellow: 79.9
+    brightBlue: 79.5
+    brightMagenta: 75.1
+    brightCyan: 77.3
+    brightWhite: 0

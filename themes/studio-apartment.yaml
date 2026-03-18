@@ -1,0 +1,52 @@
+name: "Studio-Apartment"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+colors:
+  bg: "#161616"
+  fg: "#E4E4E4"
+  black: "#161616"
+  red: "#F14444"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#3981F6"
+  magenta: "#3981F6"
+  cyan: "#29C3A0"
+  white: "#E4E4E4"
+  brightBlack: "#161616"
+  brightRed: "#F14444"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#3981F6"
+  brightMagenta: "#3981F6"
+  brightCyan: "#29C3A0"
+  brightWhite: "#E4E4E4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.5
+    black: 0
+    red: 37.4
+    green: 57.7
+    yellow: 51.8
+    blue: 36.5
+    magenta: 36.5
+    cyan: 57.7
+    white: 89.5
+    brightBlack: 0
+    brightRed: 37.4
+    brightGreen: 57.7
+    brightYellow: 51.8
+    brightBlue: 36.5
+    brightMagenta: 36.5
+    brightCyan: 57.7
+    brightWhite: 89.5

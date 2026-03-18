@@ -3,6 +3,8 @@ source:
   marketplace_id: "zenml-io.zenml-tutorial"
   version: "0.1.6"
   installs: 261
+  rating: 0
+  ratings: 0
   author: "zenml-io"
   repo: "https://github.com/zenml-io/vscode-tutorial-extension"
   url: "https://marketplace.visualstudio.com/items?itemName=zenml-io.zenml-tutorial"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 103.9
     black: 106

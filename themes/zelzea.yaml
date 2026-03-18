@@ -3,6 +3,8 @@ source:
   marketplace_id: "hooriahic.zelzea"
   version: "0.2.0"
   installs: 387
+  rating: 0
+  ratings: 0
   author: "hooriahic"
   repo: "https://github.com/HooriaHIC/zelzea"
   url: "https://marketplace.visualstudio.com/items?itemName=hooriahic.zelzea"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 88.6
     black: 0

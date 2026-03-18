@@ -3,6 +3,8 @@ source:
   marketplace_id: "gawnatep.night-wind-theme"
   version: "0.0.2"
   installs: 128
+  rating: 0
+  ratings: 0
   author: "gawnatep"
   repo: "https://github.com/gabrielsalves1/Night-Wind-Theme-VSCode"
   url: "https://marketplace.visualstudio.com/items?itemName=gawnatep.night-wind-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 280
+  pair: null
   contrast:
     fg: 79.1
     black: 0

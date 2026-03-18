@@ -3,6 +3,8 @@ source:
   marketplace_id: "AmirPhilAdam.bytenighttheme"
   version: "1.0.0"
   installs: 27
+  rating: 5
+  ratings: 1
   author: "Amir Phil Adam"
   repo: "https://github.com/amirphiladam2/ByteNight"
   url: "https://marketplace.visualstudio.com/items?itemName=AmirPhilAdam.bytenighttheme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 264
+  pair: null
   contrast:
     fg: 92.5
     black: 0

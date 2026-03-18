@@ -1,0 +1,52 @@
+name: "Quantum Fluidity"
+source:
+  marketplace_id: "i4cdeath.quantum-fluidity-theme"
+  version: "1.0.2"
+  installs: 6
+  rating: 0
+  ratings: 0
+  author: "i4cdeath"
+  repo: "https://github.com/I4cTime/quantum-fluidity-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=i4cdeath.quantum-fluidity-theme"
+colors:
+  bg: "#050505"
+  fg: "#F8F9FA"
+  black: "#050505"
+  red: "#FF0055"
+  green: "#00E676"
+  yellow: "#FFB800"
+  blue: "#00D1FF"
+  magenta: "#B266FF"
+  cyan: "#00D1FF"
+  white: "#F8F9FA"
+  brightBlack: "#1A1A2E"
+  brightRed: "#FF3377"
+  brightGreen: "#33FFAA"
+  brightYellow: "#FFD133"
+  brightBlue: "#33DDFF"
+  brightMagenta: "#C888FF"
+  brightCyan: "#33DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.8
+    black: 0
+    red: 38.2
+    green: 74.3
+    yellow: 71.6
+    blue: 69.5
+    magenta: 41.1
+    cyan: 69.5
+    white: 103.8
+    brightBlack: 0
+    brightRed: 40.8
+    brightGreen: 89
+    brightYellow: 81.8
+    brightBlue: 75.5
+    brightMagenta: 53.2
+    brightCyan: 75.5
+    brightWhite: 107.9

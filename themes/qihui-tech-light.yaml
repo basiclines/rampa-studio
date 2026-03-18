@@ -1,0 +1,52 @@
+name: "QiHui Tech Light"
+source:
+  marketplace_id: "DamonSongYu.qihui-tech"
+  version: "0.0.5"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "Damon Song Yu"
+  repo: "https://github.com/damonsongyu-source/vscode-qihui-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DamonSongYu.qihui-tech"
+colors:
+  bg: "#FFFFFF"
+  fg: "#2A332B"
+  black: "#2A332B"
+  red: "#D65D45"
+  green: "#596E5C"
+  yellow: "#E9C46A"
+  blue: "#596E5C"
+  magenta: "#F4A261"
+  cyan: "#8BA690"
+  white: "#F8F9FA"
+  brightBlack: "#2A332B"
+  brightRed: "#D65D45"
+  brightGreen: "#596E5C"
+  brightYellow: "#E9C46A"
+  brightBlue: "#596E5C"
+  brightMagenta: "#F4A261"
+  brightCyan: "#8BA690"
+  brightWhite: "#F8F9FA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "QiHui Tech Night"
+  contrast:
+    fg: 99.3
+    black: 99.3
+    red: 64.9
+    green: 77.5
+    yellow: 29.4
+    blue: 77.5
+    magenta: 40
+    cyan: 51.4
+    white: 0
+    brightBlack: 99.3
+    brightRed: 64.9
+    brightGreen: 77.5
+    brightYellow: 29.4
+    brightBlue: 77.5
+    brightMagenta: 40
+    brightCyan: 51.4
+    brightWhite: 0

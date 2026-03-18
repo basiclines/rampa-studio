@@ -2,7 +2,9 @@ name: "bruno's wet dream"
 source:
   marketplace_id: "massoladb.brunos-wet-dream"
   version: "0.3.0"
-  installs: 190
+  installs: 191
+  rating: 0
+  ratings: 0
   author: "Felipe Massola"
   repo: "https://github.com/massoladb/brunos-wet-dream"
   url: "https://marketplace.visualstudio.com/items?itemName=massoladb.brunos-wet-dream"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 323
+  pair: null
   contrast:
     fg: 105.7
     black: 0

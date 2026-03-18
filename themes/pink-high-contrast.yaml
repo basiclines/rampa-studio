@@ -1,0 +1,52 @@
+name: "Pink - High Contrast"
+source:
+  marketplace_id: "madamelasagna.madamelasagna"
+  version: "1.0.3"
+  installs: 159
+  rating: 0
+  ratings: 0
+  author: "madamelasagna"
+  repo: "https://github.com/alyssapinnock/pink-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=madamelasagna.madamelasagna"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#BC8DAB"
+  red: "#EC3737"
+  green: "#5AFFF7"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#EC34EC"
+  cyan: "#75BEFF"
+  white: "#F2A2D6"
+  brightBlack: "#666666"
+  brightRed: "#FF7B7B"
+  brightGreen: "#77E2B7"
+  brightYellow: "#F7F79A"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#EA8FEA"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFB3F7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 48.2
+    red: 35.4
+    green: 93.1
+    yellow: 86.6
+    blue: 28.4
+    magenta: 42.4
+    cyan: 64.1
+    white: 65.8
+    brightBlack: 23
+    brightRed: 53.3
+    brightGreen: 77.1
+    brightYellow: 99.3
+    brightBlue: 41
+    brightMagenta: 59.5
+    brightCyan: 56.4
+    brightWhite: 75.7

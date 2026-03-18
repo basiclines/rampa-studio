@@ -1,0 +1,50 @@
+name: "Royalty Theme"
+source:
+  marketplace_id: "Alcash55.royaltytheme"
+  version: "2.2.0"
+  installs: 179
+  author: "Alcash55"
+  repo: "https://github.com/alcash55/Royalty-VS-Code-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Alcash55.royaltytheme"
+colors:
+  bg: "#4A4063"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#D11B1B"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#659DD9"
+  magenta: "#E280E2"
+  cyan: "#11A8CD"
+  white: "#C9C9C9"
+  brightBlack: "#AB8D8D"
+  brightRed: "#FF0000"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#489FFF"
+  brightMagenta: "#FF76FF"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 297
+  pair: null
+  contrast:
+    fg: 96.3
+    black: 11.9
+    red: 15.3
+    green: 42.4
+    yellow: 75
+    blue: 35.8
+    magenta: 41.7
+    cyan: 37
+    white: 62.3
+    brightBlack: 33.1
+    brightRed: 25.9
+    brightGreen: 52.9
+    brightYellow: 85
+    brightBlue: 37.7
+    brightMagenta: 46.6
+    brightCyan: 44.8
+    brightWhite: 96.3

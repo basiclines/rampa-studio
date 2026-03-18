@@ -3,6 +3,8 @@ source:
   marketplace_id: "Joyphy.goodmonokai"
   version: "0.0.1"
   installs: 236
+  rating: 5
+  ratings: 1
   author: "Joyphy"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Joyphy.goodmonokai"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 115
+  pair: null
   contrast:
     fg: 61.6
     black: 0

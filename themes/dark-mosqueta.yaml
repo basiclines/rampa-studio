@@ -1,0 +1,50 @@
+name: "dark_mosqueta"
+source:
+  marketplace_id: "Paku.mosqueta"
+  version: "1.0.0"
+  installs: 141
+  author: "Paku"
+  repo: "https://github.com/pa-ku/mosqueta_vstheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Paku.mosqueta"
+colors:
+  bg: "#232834"
+  fg: "#CCCAC2"
+  black: "#2A3243"
+  red: "#ED8274"
+  green: "#87D96C"
+  yellow: "#FACC6E"
+  blue: "#6DCBFA"
+  magenta: "#DABAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#D5FF80"
+  brightYellow: "#FDA2F1"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#DFBFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 70.9
+    black: 0
+    red: 47.9
+    green: 68.3
+    yellow: 76.1
+    blue: 65.5
+    magenta: 69.1
+    cyan: 75.4
+    white: 69.2
+    brightBlack: 20.4
+    brightRed: 50.4
+    brightGreen: 94.8
+    brightYellow: 65.7
+    brightBlue: 68.4
+    brightMagenta: 72.1
+    brightCyan: 78.4
+    brightWhite: 104.4

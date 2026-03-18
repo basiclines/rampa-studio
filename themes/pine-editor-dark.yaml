@@ -1,0 +1,52 @@
+name: "Pine Editor Dark"
+source:
+  marketplace_id: "JeylaniB.pine-editor-themes"
+  version: "1.0.0"
+  installs: 12531
+  rating: 5
+  ratings: 1
+  author: "JeylaniB"
+  repo: "https://github.com/jeyllani/pinethemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=JeylaniB.pine-editor-themes"
+colors:
+  bg: "#131621"
+  fg: "#D6DEEB"
+  black: "#131621"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 85.3
+    black: 0
+    red: 39.4
+    green: 67.3
+    yellow: 82.1
+    blue: 56
+    magenta: 53.8
+    cyan: 59.7
+    white: 106.9
+    brightBlack: 15.6
+    brightRed: 39.4
+    brightGreen: 67.3
+    brightYellow: 93.8
+    brightBlue: 56
+    brightMagenta: 53.8
+    brightCyan: 74
+    brightWhite: 106.9

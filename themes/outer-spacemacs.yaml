@@ -1,0 +1,52 @@
+name: "outer-spacemacs"
+source:
+  marketplace_id: "lucaspin.outer-spacemacs"
+  version: "0.0.1"
+  installs: 391
+  rating: 0
+  ratings: 0
+  author: "Lucas Pinheiro"
+  repo: "https://github.com/lucaspin/outer-spacemacs"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucaspin.outer-spacemacs"
+colors:
+  bg: "#212026"
+  fg: "#CBC1D5"
+  black: "#B2B2B2"
+  red: "#BA2F59"
+  green: "#67B11D"
+  yellow: "#B1951D"
+  blue: "#3A81C3"
+  magenta: "#800080"
+  cyan: "#21B8C7"
+  white: "#B2B2B2"
+  brightBlack: "#B2B2B2"
+  brightRed: "#F2241F"
+  brightGreen: "#86DC2F"
+  brightYellow: "#B1951D"
+  brightBlue: "#D7DFFF"
+  brightMagenta: "#A31DB1"
+  brightCyan: "#28DEF0"
+  brightWhite: "#B2B2B2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 293
+  pair: null
+  contrast:
+    fg: 69.1
+    black: 58.4
+    red: 21.9
+    green: 48.2
+    yellow: 44.1
+    blue: 31.5
+    magenta: 10.4
+    cyan: 53
+    white: 58.4
+    brightBlack: 58.4
+    brightRed: 33
+    brightGreen: 70.2
+    brightYellow: 44.1
+    brightBlue: 85.6
+    brightMagenta: 20.1
+    brightCyan: 72.8
+    brightWhite: 58.4

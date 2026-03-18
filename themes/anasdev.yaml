@@ -3,6 +3,8 @@ source:
   marketplace_id: "anasdev.meza-theme"
   version: "0.0.9"
   installs: 75
+  rating: 0
+  ratings: 0
   author: "anasdev"
   repo: "https://github.com/MezaStudio/Meza-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=anasdev.meza-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 278
+  pair: null
   contrast:
     fg: 79.2
     black: 0

@@ -1,0 +1,52 @@
+name: "P. Upright \ Eucalyptus"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74789
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+colors:
+  bg: "#21241E"
+  fg: "#E7B07D"
+  black: "#3D3735"
+  red: "#AD5145"
+  green: "#6EA03D"
+  yellow: "#B88F51"
+  blue: "#5477A5"
+  magenta: "#AE5975"
+  cyan: "#549878"
+  white: "#FAE5D6"
+  brightBlack: "#504D47"
+  brightRed: "#E35E4D"
+  brightGreen: "#8AC255"
+  brightYellow: "#E8B455"
+  brightBlue: "#6FB2D1"
+  brightMagenta: "#D66C8F"
+  brightCyan: "#7BC09D"
+  brightWhite: "#FFF2EC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 129
+  pair: null
+  contrast:
+    fg: 63.1
+    black: 0
+    red: 23.9
+    green: 41.3
+    yellow: 43.1
+    blue: 27.2
+    magenta: 26.9
+    cyan: 37.5
+    white: 90.8
+    brightBlack: 10.6
+    brightRed: 37.2
+    brightGreen: 58.4
+    brightYellow: 64.1
+    brightBlue: 53.4
+    brightMagenta: 39.4
+    brightCyan: 58
+    brightWhite: 98.3

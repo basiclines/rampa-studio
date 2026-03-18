@@ -1,0 +1,52 @@
+name: "WL-Chrome Noir"
+source:
+  marketplace_id: "WatkinsLabs.chrome-noir"
+  version: "1.0.1"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.chrome-noir"
+colors:
+  bg: "#1A1A1A"
+  fg: "#F5F5F5"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00B300"
+  yellow: "#FFA500"
+  blue: "#3CBA54"
+  magenta: "#FFBB00"
+  cyan: "#3CBA54"
+  white: "#F5F5F5"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00B300"
+  brightYellow: "#FFA500"
+  brightBlue: "#3CBA54"
+  brightMagenta: "#FFBB00"
+  brightCyan: "#3CBA54"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100
+    black: 0
+    red: 36.2
+    green: 47.2
+    yellow: 63.4
+    blue: 51.7
+    magenta: 71.4
+    cyan: 51.7
+    white: 100
+    brightBlack: 21.7
+    brightRed: 36.2
+    brightGreen: 47.2
+    brightYellow: 63.4
+    brightBlue: 51.7
+    brightMagenta: 71.4
+    brightCyan: 51.7
+    brightWhite: 106.5

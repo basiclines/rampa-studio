@@ -3,6 +3,8 @@ source:
   marketplace_id: "sils.awork-dark"
   version: "0.0.9"
   installs: 22
+  rating: 0
+  ratings: 0
   author: "Sil's"
   repo: "https://github.com/silvandiepen/awork-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sils.awork-dark"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 277
+  pair: null
   contrast:
     fg: 78.8
     black: 0

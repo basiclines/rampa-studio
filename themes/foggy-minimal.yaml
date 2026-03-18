@@ -3,6 +3,8 @@ source:
   marketplace_id: "ninjaqwert-2239-indie.foggy-min"
   version: "0.0.6"
   installs: 147
+  rating: 0
+  ratings: 0
   author: "ninjaqwert"
   repo: "https://github.com/eerieA/vscode-foggy-min-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ninjaqwert-2239-indie.foggy-min"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 82.9
     black: 103.6

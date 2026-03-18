@@ -1,0 +1,52 @@
+name: "Yuuyake - dark"
+source:
+  marketplace_id: "ciqven.yuuyake-code"
+  version: "0.2.1"
+  installs: 31
+  rating: 0
+  ratings: 0
+  author: "ciqven"
+  repo: "https://github.com/ciqven/yuuyake-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=ciqven.yuuyake-code"
+colors:
+  bg: "#2A1B1B"
+  fg: "#C99358"
+  black: "#000000"
+  red: "#A84D3F"
+  green: "#246C39"
+  yellow: "#93932D"
+  blue: "#615A99"
+  magenta: "#8A2F58"
+  cyan: "#336A79"
+  white: "#B4B4B4"
+  brightBlack: "#666666"
+  brightRed: "#EF7D6C"
+  brightGreen: "#50B16D"
+  brightYellow: "#E1E15E"
+  brightBlue: "#948ADD"
+  brightMagenta: "#C95B8D"
+  brightCyan: "#5DA6B9"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 19
+  pair: null
+  contrast:
+    fg: 47.7
+    black: 0
+    red: 22.7
+    green: 18.4
+    yellow: 40
+    blue: 19.4
+    magenta: 13.2
+    cyan: 19.8
+    white: 59.8
+    brightBlack: 21.1
+    brightRed: 48.2
+    brightGreen: 48.2
+    brightYellow: 82.8
+    brightBlue: 42.8
+    brightMagenta: 33.6
+    brightCyan: 46.8
+    brightWhite: 89

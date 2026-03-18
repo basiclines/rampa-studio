@@ -2,7 +2,9 @@ name: "cyberui"
 source:
   marketplace_id: "AarMagic.cyberui"
   version: "1.4.0"
-  installs: 349
+  installs: 351
+  rating: 5
+  ratings: 1
   author: "AarWeb"
   repo: "https://github.com/aarweb/cyberui"
   url: "https://marketplace.visualstudio.com/items?itemName=AarMagic.cyberui"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 80.6
     black: 0

@@ -1,0 +1,49 @@
+name: "Golden Dullahan"
+source:
+  marketplace_id: "PunGrumpy.dullahan-vscode-theme"
+  version: "1.2.4"
+  installs: 201
+  author: "PunGrumpy"
+  repo: "https://github.com/PunGrumpy/dullahan-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PunGrumpy.dullahan-vscode-theme"
+colors:
+  bg: "#1D1D1D"
+  fg: "#D1D1D1"
+  black: "#000000"
+  red: "#A52AFF"
+  green: "#7129FF"
+  yellow: "#3D2AFF"
+  blue: "#2B4FFF"
+  magenta: "#2883FF"
+  cyan: "#28B9FF"
+  white: "#CFCFCF"
+  brightBlack: "#2F2F2F"
+  brightRed: "#BA5AFF"
+  brightGreen: "#905AFF"
+  brightYellow: "#685AFF"
+  brightBlue: "#FFB000"
+  brightMagenta: "#5EA2FF"
+  brightCyan: "#5AC8FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 77
+    black: 0
+    red: 28.3
+    green: 21.4
+    yellow: 17.5
+    blue: 22.5
+    magenta: 36.7
+    cyan: 57.3
+    white: 75.8
+    brightBlack: 0
+    brightRed: 38.1
+    brightGreen: 32.2
+    brightYellow: 28.1
+    brightBlue: 66.9
+    brightMagenta: 49.8
+    brightCyan: 65.3
+    brightWhite: 106.2

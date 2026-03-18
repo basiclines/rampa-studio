@@ -2,7 +2,9 @@ name: "anthropocene"
 source:
   marketplace_id: "ridamu.anthropocene"
   version: "0.0.1"
-  installs: 150
+  installs: 151
+  rating: 0
+  ratings: 0
   author: "ridamu"
   repo: "https://github.com/rdmulford/anthropocene"
   url: "https://marketplace.visualstudio.com/items?itemName=ridamu.anthropocene"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 95.3
     black: 0

@@ -1,0 +1,52 @@
+name: "Clorest"
+source:
+  marketplace_id: "avysridhar.clorest"
+  version: "0.0.3"
+  installs: 165
+  rating: 0
+  ratings: 0
+  author: "Avinash Sridhar"
+  repo: "https://github.com/dionysus98/clorest"
+  url: "https://marketplace.visualstudio.com/items?itemName=avysridhar.clorest"
+colors:
+  bg: "#1E1E1E"
+  fg: "#ADBAC7"
+  black: "#545D68"
+  red: "#539BF5"
+  green: "#57AB5A"
+  yellow: "#C69026"
+  blue: "#539BF5"
+  magenta: "#B083F0"
+  cyan: "#39C5CF"
+  white: "#909DAB"
+  brightBlack: "#636E7B"
+  brightRed: "#FF938A"
+  brightGreen: "#6BC46D"
+  brightYellow: "#DAAA3F"
+  brightBlue: "#6CB6FF"
+  brightMagenta: "#DCBDFB"
+  brightCyan: "#56D4DD"
+  brightWhite: "#CDD9E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 62.4
+    black: 17.1
+    red: 45.7
+    green: 45.6
+    yellow: 45.9
+    blue: 45.7
+    magenta: 45.4
+    cyan: 60
+    white: 46.6
+    brightBlack: 24.2
+    brightRed: 58.6
+    brightGreen: 58.2
+    brightYellow: 58.5
+    brightBlue: 58.4
+    brightMagenta: 72.3
+    brightCyan: 68.6
+    brightWhite: 80.7

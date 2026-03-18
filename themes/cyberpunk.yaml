@@ -1,50 +1,52 @@
 name: "Cyberpunk"
 source:
-  marketplace_id: "sserafy.ssera-themes"
-  version: "2.0.2"
-  installs: 334
-  author: "sserafy"
-  repo: "https://github.com/azhou555/naturefy-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ssera-themes"
+  marketplace_id: "mbektas.cyberpunk-theme-mb"
+  version: "1.0.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "mbektas"
+  repo: "https://github.com/yourusername/cyberpunk-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mbektas.cyberpunk-theme-mb"
 colors:
-  bg: "#000000"
-  fg: "#FFFFFF"
-  black: "#000000"
-  red: "#FF007F"
-  green: "#39FF14"
+  bg: "#0D0D1E"
+  fg: "#E0E0FF"
+  black: "#1A1A2E"
+  red: "#FF0055"
+  green: "#00FF88"
   yellow: "#FFFF00"
-  blue: "#1B03A3"
-  magenta: "#8A2BE2"
+  blue: "#0088FF"
+  magenta: "#FF00FF"
   cyan: "#00FFFF"
-  white: "#FFFFFF"
-  brightBlack: "#333333"
-  brightRed: "#FF3399"
-  brightGreen: "#66FF33"
+  white: "#E0E0FF"
+  brightBlack: "#3A3A5E"
+  brightRed: "#FF3377"
+  brightGreen: "#33FFAA"
   brightYellow: "#FFFF66"
-  brightBlue: "#3366FF"
-  brightMagenta: "#CC66FF"
+  brightBlue: "#33AAFF"
+  brightMagenta: "#FF66FF"
   brightCyan: "#66FFFF"
   brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "green"
-  hue: null
+  accent: "pink"
+  hue: 282
   pair: null
   contrast:
-    fg: 107.9
+    fg: 89
     black: 0
-    red: 39.2
-    green: 87
-    yellow: 102.7
-    blue: 0
-    magenta: 23.3
-    cyan: 92.2
-    white: 107.9
+    red: 37.8
+    green: 87.4
+    yellow: 102.3
+    blue: 39.4
+    magenta: 45.8
+    cyan: 91.8
+    white: 89
     brightBlack: 0
-    brightRed: 42
-    brightGreen: 88.5
-    brightYellow: 103.3
-    brightBlue: 29.9
-    brightMagenta: 45.2
-    brightCyan: 94
-    brightWhite: 107.9
+    brightRed: 40.5
+    brightGreen: 88.6
+    brightYellow: 102.9
+    brightBlue: 52.6
+    brightMagenta: 54.4
+    brightCyan: 93.6
+    brightWhite: 107.5

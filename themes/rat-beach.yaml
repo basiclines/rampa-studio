@@ -1,0 +1,52 @@
+name: "RAT Beach"
+source:
+  marketplace_id: "41e4.rat-beach"
+  version: "0.0.3"
+  installs: 55
+  rating: 0
+  ratings: 0
+  author: "41e4 Consulting"
+  repo: "https://github.com/41e4/rat-beach"
+  url: "https://marketplace.visualstudio.com/items?itemName=41e4.rat-beach"
+colors:
+  bg: "#F2F0ED"
+  fg: "#515151"
+  black: "#D7D4CC"
+  red: "#F2777A"
+  green: "#777777"
+  yellow: "#F99157"
+  blue: "#6699CC"
+  magenta: "#CC99CC"
+  cyan: "#66CCCC"
+  white: "#393939"
+  brightBlack: "#A09F93"
+  brightRed: "#F2777A"
+  brightGreen: "#777777"
+  brightYellow: "#FFCC66"
+  brightBlue: "#6699CC"
+  brightMagenta: "#CC99CC"
+  brightCyan: "#66CCCC"
+  brightWhite: "#2D2D2D"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.8
+    black: 13.9
+    red: 43.5
+    green: 62.3
+    yellow: 35.8
+    blue: 47.8
+    magenta: 37.2
+    cyan: 27.1
+    white: 87.8
+    brightBlack: 43.1
+    brightRed: 43.5
+    brightGreen: 62.3
+    brightYellow: 14.2
+    brightBlue: 47.8
+    brightMagenta: 37.2
+    brightCyan: 27.1
+    brightWhite: 91.6

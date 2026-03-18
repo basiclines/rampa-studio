@@ -1,0 +1,52 @@
+name: "irrus-Float"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+colors:
+  bg: "#1B1B1B"
+  fg: "#F2F5FC"
+  black: "#1B1B1B"
+  red: "#FF6364"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#FF96CB"
+  magenta: "#FF96CB"
+  cyan: "#29C3A0"
+  white: "#F2F5FC"
+  brightBlack: "#1B1B1B"
+  brightRed: "#FF6364"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#FF96CB"
+  brightMagenta: "#FF96CB"
+  brightCyan: "#29C3A0"
+  brightWhite: "#F2F5FC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.8
+    black: 0
+    red: 45.8
+    green: 57.2
+    yellow: 51.2
+    blue: 62.3
+    magenta: 62.3
+    cyan: 57.2
+    white: 99.8
+    brightBlack: 0
+    brightRed: 45.8
+    brightGreen: 57.2
+    brightYellow: 51.2
+    brightBlue: 62.3
+    brightMagenta: 62.3
+    brightCyan: 57.2
+    brightWhite: 99.8

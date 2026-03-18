@@ -3,6 +3,8 @@ source:
   marketplace_id: "Moth-Coder.chillnightmode"
   version: "1.0.1"
   installs: 20
+  rating: 0
+  ratings: 0
   author: "Moth-Coder"
   repo: "https://github.com/M-Renberg/chill-night-mode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Moth-Coder.chillnightmode"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 54
     black: 0

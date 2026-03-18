@@ -2,7 +2,9 @@ name: "Zelda-Dark"
 source:
   marketplace_id: "KlausChamberlain.zelda"
   version: "0.0.1"
-  installs: 60
+  installs: 61
+  rating: 0
+  ratings: 0
   author: "Klaus Chamberlain"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=KlausChamberlain.zelda"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 178
+  pair: null
   contrast:
     fg: 84.9
     black: 0

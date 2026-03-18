@@ -1,0 +1,52 @@
+name: "Kong Light"
+source:
+  marketplace_id: "zeaphoo.kong-vscode-theme"
+  version: "1.0.10"
+  installs: 24
+  rating: 0
+  ratings: 0
+  author: "zeaphoo"
+  repo: "https://github.com/zeaphoo/kong-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zeaphoo.kong-vscode-theme"
+colors:
+  bg: "#F5F5F5"
+  fg: "#1F2328"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#116329"
+  yellow: "#4D2D00"
+  blue: "#0969DA"
+  magenta: "#8250DF"
+  cyan: "#1B7C83"
+  white: "#6E7781"
+  brightBlack: "#57606A"
+  brightRed: "#A40E26"
+  brightGreen: "#1A7F37"
+  brightYellow: "#633C01"
+  brightBlue: "#218BFF"
+  brightMagenta: "#A475F9"
+  brightCyan: "#3192AA"
+  brightWhite: "#8C959F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.8
+    black: 95.5
+    red: 68.8
+    green: 79.3
+    yellow: 92
+    blue: 69
+    magenta: 68.3
+    cyan: 67.8
+    white: 65.6
+    brightBlack: 75.8
+    brightRed: 79.3
+    brightGreen: 68.6
+    brightYellow: 86.1
+    brightBlue: 54.7
+    brightMagenta: 53.4
+    brightCyan: 57.4
+    brightWhite: 51.2

@@ -3,6 +3,8 @@ source:
   marketplace_id: "pankajghosh.nexus-dark"
   version: "0.2.4"
   installs: 101
+  rating: 0
+  ratings: 0
   author: "Pankaj Ghosh"
   repo: "https://github.com/iampankajghosh/nexus-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=pankajghosh.nexus-dark"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 104.4
     black: 0

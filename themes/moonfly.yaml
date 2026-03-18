@@ -3,6 +3,8 @@ source:
   marketplace_id: "jgenc.moonfly-vscode-theme"
   version: "0.1.1"
   installs: 433
+  rating: 0
+  ratings: 0
   author: "jgenc"
   repo: "https://github.com/jgenc/moonfly-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=jgenc.moonfly-vscode-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 79.8
     black: 0

@@ -3,6 +3,8 @@ source:
   marketplace_id: "lostVkng.seafarer-vscode"
   version: "0.0.4"
   installs: 355
+  rating: 0
+  ratings: 0
   author: "TomJones"
   repo: "https://gitlab.com/lostVkng/seafarer-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=lostVkng.seafarer-vscode"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 267
+  pair: null
   contrast:
     fg: 77.4
     black: 0

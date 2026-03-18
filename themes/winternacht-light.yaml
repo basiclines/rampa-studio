@@ -1,0 +1,52 @@
+name: "Winternacht Light"
+source:
+  marketplace_id: "suin.winternacht-by-suin"
+  version: "0.1.0"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "suin"
+  repo: "https://github.com/suin/winternacht"
+  url: "https://marketplace.visualstudio.com/items?itemName=suin.winternacht-by-suin"
+colors:
+  bg: "#FCFCFB"
+  fg: "#3A3835"
+  black: "#242320"
+  red: "#8E5050"
+  green: "#587850"
+  yellow: "#8E7040"
+  blue: "#4A5870"
+  magenta: "#635788"
+  cyan: "#3D7A83"
+  white: "#F1F0EE"
+  brightBlack: "#7A7672"
+  brightRed: "#B87070"
+  brightGreen: "#7A9E72"
+  brightYellow: "#C29E5E"
+  brightBlue: "#6B8BBF"
+  brightMagenta: "#8A7EB0"
+  brightCyan: "#5F9EA8"
+  brightWhite: "#FCFCFB"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: "Winternacht Dark"
+  contrast:
+    fg: 95
+    black: 100.8
+    red: 78.6
+    green: 72.6
+    yellow: 70.2
+    blue: 83.1
+    magenta: 80.2
+    cyan: 71.8
+    white: 0
+    brightBlack: 69.5
+    brightRed: 63.1
+    brightGreen: 55
+    brightYellow: 47.4
+    brightBlue: 60.2
+    brightMagenta: 62.6
+    brightCyan: 55.1
+    brightWhite: 0

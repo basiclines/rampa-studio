@@ -1,0 +1,52 @@
+name: "Classic Essential Colors (Blue)"
+source:
+  marketplace_id: "balsa.vscode-theme-classic-essential-colors-blue"
+  version: "1.2.2"
+  installs: 395
+  rating: 0
+  ratings: 0
+  author: "balsa"
+  repo: "https://github.com/makesomesparks/vscode-theme-classic-essential-colors-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=balsa.vscode-theme-classic-essential-colors-blue"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#008A1C"
+  yellow: "#F8FF00"
+  blue: "#0000FF"
+  magenta: "#BC05BC"
+  cyan: "#00CDFF"
+  white: "#A7A7A7"
+  brightBlack: "#474747"
+  brightRed: "#FF4141"
+  brightGreen: "#00FF34"
+  brightYellow: "#FCFF95"
+  brightBlue: "#4040FF"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#64E0FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 64.1
+    green: 70.6
+    yellow: 0
+    blue: 85.8
+    magenta: 74.6
+    cyan: 34.9
+    white: 47.4
+    brightBlack: 91.5
+    brightRed: 60.5
+    brightGreen: 17
+    brightYellow: 0
+    brightBlue: 79.6
+    brightMagenta: 74.6
+    brightCyan: 24.6
+    brightWhite: 0

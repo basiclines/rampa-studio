@@ -3,6 +3,8 @@ source:
   marketplace_id: "angelcontreras.angelnature2"
   version: "0.3.0"
   installs: 25
+  rating: 0
+  ratings: 0
   author: "angelcontreras"
   repo: "https://github.com/username/repository"
   url: "https://marketplace.visualstudio.com/items?itemName=angelcontreras.angelnature2"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 56
+  pair: null
   contrast:
     fg: 88.1
     black: 0

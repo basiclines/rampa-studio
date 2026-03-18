@@ -3,6 +3,8 @@ source:
   marketplace_id: "nd2204.gruvbox-material-mix"
   version: "0.4.6"
   installs: 465
+  rating: 0
+  ratings: 0
   author: "nd2204"
   repo: "https://github.com/nd2204/vscode-gruvbox"
   url: "https://marketplace.visualstudio.com/items?itemName=nd2204.gruvbox-material-mix"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 84.3
     black: 0

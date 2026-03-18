@@ -3,6 +3,8 @@ source:
   marketplace_id: "WatkinsLabs.punch-tape"
   version: "1.0.1"
   installs: 106
+  rating: 0
+  ratings: 0
   author: "Watkins Labs"
   repo: "https://github.com/watkinslabs/vscode-theme-generator"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.punch-tape"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: 83
+  pair: null
   contrast:
     fg: 88.1
     black: 88.1

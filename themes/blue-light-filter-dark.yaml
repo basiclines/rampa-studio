@@ -3,6 +3,8 @@ source:
   marketplace_id: "SakshamYadav.blue-light-filter-theme"
   version: "1.0.0"
   installs: 156
+  rating: 0
+  ratings: 0
   author: "Saksham Yadav"
   repo: "https://github.com/Sakshamyadav15/GitCode"
   url: "https://marketplace.visualstudio.com/items?itemName=SakshamYadav.blue-light-filter-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 53
+  pair: null
   contrast:
     fg: 65.8
     black: 0

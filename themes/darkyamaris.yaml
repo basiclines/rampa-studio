@@ -3,6 +3,8 @@ source:
   marketplace_id: "indiamaris.darkyamaris"
   version: "0.0.1"
   installs: 20
+  rating: 0
+  ratings: 0
   author: "indiamaris"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=indiamaris.darkyamaris"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 43.6
     black: 0

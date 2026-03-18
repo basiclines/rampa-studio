@@ -1,0 +1,52 @@
+name: "Dark Purpled Theme"
+source:
+  marketplace_id: "harryrardy.dark-purpled-theme"
+  version: "0.0.8"
+  installs: 163
+  rating: 0
+  ratings: 0
+  author: "harryrardy"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=harryrardy.dark-purpled-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#232323"
+  red: "#FF000F"
+  green: "#8CE10B"
+  yellow: "#FFB900"
+  blue: "#008DF8"
+  magenta: "#6D43A6"
+  cyan: "#00D8EB"
+  white: "#FFFFFF"
+  brightBlack: "#444444"
+  brightRed: "#FF2740"
+  brightGreen: "#ABE15B"
+  brightYellow: "#FFD242"
+  brightBlue: "#0092FF"
+  brightMagenta: "#9A5FEB"
+  brightCyan: "#67FFF0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.6
+    green: 75.2
+    yellow: 72
+    blue: 40.9
+    magenta: 18.1
+    cyan: 71.6
+    white: 107.9
+    brightBlack: 9.8
+    brightRed: 38.9
+    brightGreen: 78.4
+    brightYellow: 82.3
+    brightBlue: 43.3
+    brightMagenta: 34.5
+    brightCyan: 93.3
+    brightWhite: 107.9

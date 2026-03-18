@@ -3,6 +3,8 @@ source:
   marketplace_id: "EduardoAlmeida.jokenpo-theme"
   version: "0.2.1"
   installs: 151
+  rating: 0
+  ratings: 0
   author: "Eduardo Almeida"
   repo: "https://github.com/JoKenPo/jokenpo-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=EduardoAlmeida.jokenpo-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 296
+  pair: null
   contrast:
     fg: 87.6
     black: 0

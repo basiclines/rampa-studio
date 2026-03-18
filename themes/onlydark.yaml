@@ -1,13 +1,15 @@
 name: "OnlyDark"
 source:
-  marketplace_id: "YesCode.only-dark-theme"
-  version: "0.0.16"
-  installs: 383
+  marketplace_id: "YesCode.inspiration"
+  version: "0.0.19"
+  installs: 1076
+  rating: 5
+  ratings: 1
   author: "YesCode"
-  repo: "https://github.com/yesomac/only_dark"
-  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.only-dark-theme"
+  repo: "https://github.com/yesomac/inspiration_themevsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.inspiration"
 colors:
-  bg: "#16171B"
+  bg: "#1A1A1A"
   fg: "#EEFFFF"
   black: "#1D2021"
   red: "#FB543F"
@@ -31,20 +33,20 @@ meta:
   hue: null
   pair: null
   contrast:
-    fg: 104.5
+    fg: 104.2
     black: 0
-    red: 42
-    green: 61
-    yellow: 73
-    blue: 47.5
-    magenta: 19.5
-    cyan: 49.4
-    white: 47.2
-    brightBlack: 18.6
-    brightRed: 42
-    brightGreen: 63.7
-    brightYellow: 63.7
-    brightBlue: 18.7
-    brightMagenta: 19.5
-    brightCyan: 49.4
-    brightWhite: 98.8
+    red: 41.6
+    green: 60.6
+    yellow: 72.7
+    blue: 47.2
+    magenta: 19.2
+    cyan: 49.1
+    white: 46.9
+    brightBlack: 18.3
+    brightRed: 41.6
+    brightGreen: 63.4
+    brightYellow: 63.4
+    brightBlue: 18.4
+    brightMagenta: 19.2
+    brightCyan: 49.1
+    brightWhite: 98.5

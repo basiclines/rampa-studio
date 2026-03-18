@@ -1,0 +1,52 @@
+name: "SuperGreatMonokai"
+source:
+  marketplace_id: "SuperGregM.supergreatmonokai"
+  version: "0.1.0"
+  installs: 182
+  rating: 0
+  ratings: 0
+  author: "SuperGregM"
+  repo: "https://github.com/SuperGregM/SuperGreatMonokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=SuperGregM.supergreatmonokai"
+colors:
+  bg: "#121212"
+  fg: "#ECECEC"
+  black: "#000000"
+  red: "#AC1400"
+  green: "#00A500"
+  yellow: "#FFD700"
+  blue: "#0050B2"
+  magenta: "#B300B3"
+  cyan: "#03A5B2"
+  white: "#D3D3D3"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#07D800"
+  brightYellow: "#FFFF00"
+  brightBlue: "#005AFF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#03E5E6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.9
+    black: 0
+    red: 17.9
+    green: 41.8
+    yellow: 83.7
+    blue: 16.1
+    magenta: 24.2
+    cyan: 45.3
+    white: 79.3
+    brightBlack: 22.5
+    brightRed: 37
+    brightGreen: 65.6
+    brightYellow: 102.1
+    brightBlue: 25.6
+    brightMagenta: 45.6
+    brightCyan: 77.1
+    brightWhite: 107.3

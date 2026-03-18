@@ -3,6 +3,8 @@ source:
   marketplace_id: "NightshiftLobo.nightshiftlobo"
   version: "2.0.0"
   installs: 17
+  rating: 0
+  ratings: 0
   author: "Nightshift Lobo"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=NightshiftLobo.nightshiftlobo"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 90.1
     black: 77.7

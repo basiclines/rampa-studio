@@ -1,0 +1,52 @@
+name: "MatchaNeco"
+source:
+  marketplace_id: "necosawa.matchaneco"
+  version: "0.0.5"
+  installs: 762
+  rating: 0
+  ratings: 0
+  author: "necosawa"
+  repo: "https://github.com/necosawa/matchaneco"
+  url: "https://marketplace.visualstudio.com/items?itemName=necosawa.matchaneco"
+colors:
+  bg: "#273136"
+  fg: "#D1DED3"
+  black: "#323E45"
+  red: "#C6A685"
+  green: "#A4B07E"
+  yellow: "#C0AE69"
+  blue: "#7EA4B0"
+  magenta: "#8A7EB0"
+  cyan: "#7EB0A3"
+  white: "#D1DED3"
+  brightBlack: "#323E45"
+  brightRed: "#C6A685"
+  brightGreen: "#A4B07E"
+  brightYellow: "#C0AE69"
+  brightBlue: "#7EA4B0"
+  brightMagenta: "#8A7EB0"
+  brightCyan: "#7EB0A3"
+  brightWhite: "#D1DED3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 79.5
+    black: 0
+    red: 52.1
+    green: 51.5
+    yellow: 53.7
+    blue: 44.8
+    magenta: 32.2
+    cyan: 49.1
+    white: 79.5
+    brightBlack: 0
+    brightRed: 52.1
+    brightGreen: 51.5
+    brightYellow: 53.7
+    brightBlue: 44.8
+    brightMagenta: 32.2
+    brightCyan: 49.1
+    brightWhite: 79.5

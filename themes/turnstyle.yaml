@@ -1,0 +1,52 @@
+name: "Turnstyle"
+source:
+  marketplace_id: "oxechicao.turnstyle"
+  version: "2.2.0"
+  installs: 34
+  rating: 0
+  ratings: 0
+  author: "Francisco Thiago"
+  repo: "https://github.com/oxechicao/turnstyle"
+  url: "https://marketplace.visualstudio.com/items?itemName=oxechicao.turnstyle"
+colors:
+  bg: "#1D263A"
+  fg: "#E0F0F0"
+  black: "#2C4259"
+  red: "#A3CBD2"
+  green: "#75A6EB"
+  yellow: "#DA81AA"
+  blue: "#DFDF90"
+  magenta: "#4FA190"
+  cyan: "#D7A275"
+  white: "#E0F0F0"
+  brightBlack: "#A3CBD2"
+  brightRed: "#A3CBD2"
+  brightGreen: "#75A6EB"
+  brightYellow: "#DA81AA"
+  brightBlue: "#DFDF90"
+  brightMagenta: "#4FA190"
+  brightCyan: "#D7A275"
+  brightWhite: "#E0F0F0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 92.8
+    black: 0
+    red: 67.8
+    green: 49.9
+    yellow: 46.2
+    blue: 81.4
+    magenta: 41.1
+    cyan: 54.6
+    white: 92.8
+    brightBlack: 67.8
+    brightRed: 67.8
+    brightGreen: 49.9
+    brightYellow: 46.2
+    brightBlue: 81.4
+    brightMagenta: 41.1
+    brightCyan: 54.6
+    brightWhite: 92.8

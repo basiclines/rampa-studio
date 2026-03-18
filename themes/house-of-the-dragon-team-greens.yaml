@@ -1,0 +1,52 @@
+name: "House of the Dragon: Team Greens"
+source:
+  marketplace_id: "RamanMohammed.house-of-the-dragons-blacks-vs-greens"
+  version: "0.0.3"
+  installs: 362
+  rating: 5
+  ratings: 1
+  author: "RamanMohammed"
+  repo: "https://github.com/RaymondSWE/vscode-theme-house-of-dragon"
+  url: "https://marketplace.visualstudio.com/items?itemName=RamanMohammed.house-of-the-dragons-blacks-vs-greens"
+colors:
+  bg: "#0A0A0A"
+  fg: "#D1D1D1"
+  black: "#0A0A0A"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#D1D1D1"
+  brightBlack: "#4D4D4D"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92D0"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 44.3
+    green: 85.7
+    yellow: 99.4
+    blue: 54.5
+    magenta: 55.4
+    cyan: 84.8
+    white: 78.5
+    brightBlack: 12.9
+    brightRed: 49.7
+    brightGreen: 89.9
+    brightYellow: 104.4
+    brightBlue: 67
+    brightMagenta: 62.7
+    brightCyan: 97.6
+    brightWhite: 107.7

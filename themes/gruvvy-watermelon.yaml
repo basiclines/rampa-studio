@@ -1,0 +1,50 @@
+name: "Gruvvy Watermelon"
+source:
+  marketplace_id: "ZaccCharvolin.gruvvy-watermelon"
+  version: "1.5.12"
+  installs: 300
+  author: "Zacc Charvolin"
+  repo: "https://github.com/zacccharv/gruvvyWatermelon"
+  url: "https://marketplace.visualstudio.com/items?itemName=ZaccCharvolin.gruvvy-watermelon"
+colors:
+  bg: "#202727"
+  fg: "#E9F2F1"
+  black: "#273030"
+  red: "#FF647D"
+  green: "#4FB094"
+  yellow: "#F1BCAC"
+  blue: "#A1EDE0"
+  magenta: "#FFB8EC"
+  cyan: "#71CCBF"
+  white: "#A2C4BA"
+  brightBlack: "#5C7F76"
+  brightRed: "#FF5A76"
+  brightGreen: "#47C5A1"
+  brightYellow: "#FFBAA4"
+  brightBlue: "#7EE0D6"
+  brightMagenta: "#FE97E3"
+  brightCyan: "#71CCBF"
+  brightWhite: "#B6D2CA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.1
+    black: 0
+    red: 45
+    green: 47.8
+    yellow: 70.2
+    blue: 84.1
+    magenta: 73.9
+    cyan: 63.6
+    white: 63.7
+    brightBlack: 28
+    brightRed: 42.9
+    brightGreen: 57.3
+    brightYellow: 71.6
+    brightBlue: 74.8
+    brightMagenta: 62.1
+    brightCyan: 63.6
+    brightWhite: 72.6

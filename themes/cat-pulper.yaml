@@ -1,0 +1,52 @@
+name: "Cat_Pulper"
+source:
+  marketplace_id: "daniloBrayann.cat-sleep"
+  version: "0.0.6"
+  installs: 2880
+  rating: 0
+  ratings: 0
+  author: "daniloBrayann"
+  repo: "https://github.com/danilobrayann/dev-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniloBrayann.cat-sleep"
+colors:
+  bg: "#171131"
+  fg: "#C7BFE8"
+  black: "#171131"
+  red: "#D62C2C"
+  green: "#42DD76"
+  yellow: "#FFB638"
+  blue: "#28A9FF"
+  magenta: "#E66DFF"
+  cyan: "#14E5D4"
+  white: "#C7BFE8"
+  brightBlack: "#382B78"
+  brightRed: "#FC0606"
+  brightGreen: "#21FE6B"
+  brightYellow: "#FFB638"
+  brightBlue: "#28A9FF"
+  brightMagenta: "#E66DFF"
+  brightCyan: "#00F9E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 288
+  pair: null
+  contrast:
+    fg: 70
+    black: 0
+    red: 28.2
+    green: 69.5
+    yellow: 70
+    blue: 51.4
+    magenta: 50.3
+    cyan: 75.9
+    white: 70
+    brightBlack: 0
+    brightRed: 35.8
+    brightGreen: 85.8
+    brightYellow: 70
+    brightBlue: 51.4
+    brightMagenta: 50.3
+    brightCyan: 86.8
+    brightWhite: 106.9

@@ -1,0 +1,52 @@
+name: "Polymer-Flow"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+colors:
+  bg: "#0D0A0E"
+  fg: "#F2ECF3"
+  black: "#0D0A0E"
+  red: "#DF0C07"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#6D65FE"
+  magenta: "#6D65FE"
+  cyan: "#29C3A0"
+  white: "#F2ECF3"
+  brightBlack: "#0D0A0E"
+  brightRed: "#DF0C07"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#6D65FE"
+  brightMagenta: "#6D65FE"
+  brightCyan: "#29C3A0"
+  brightWhite: "#F2ECF3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.5
+    black: 0
+    red: 29.5
+    green: 58.5
+    yellow: 52.5
+    blue: 32.6
+    magenta: 32.6
+    cyan: 58.5
+    white: 96.5
+    brightBlack: 0
+    brightRed: 29.5
+    brightGreen: 58.5
+    brightYellow: 52.5
+    brightBlue: 32.6
+    brightMagenta: 32.6
+    brightCyan: 58.5
+    brightWhite: 96.5

@@ -1,30 +1,32 @@
 name: "MKANET"
 source:
-  marketplace_id: "MKANET.mkanet-theme"
-  version: "0.1.9"
-  installs: 437
+  marketplace_id: "MKANET.mkanet-theme-v2"
+  version: "1.0.2"
+  installs: 461
+  rating: 0
+  ratings: 0
   author: "Michael K. Avanessian"
-  repo: "https://github.com/mkanet/MKANET-Theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=MKANET.mkanet-theme"
+  repo: "https://github.com/mkanet/MKANET-Theme-V2"
+  url: "https://marketplace.visualstudio.com/items?itemName=MKANET.mkanet-theme-v2"
 colors:
   bg: "#C0C0C0"
   fg: "#464668"
   black: "#000000"
-  red: "#C23621"
-  green: "#25BC24"
-  yellow: "#ADAD27"
-  blue: "#492EE1"
-  magenta: "#D338D3"
-  cyan: "#33BBC8"
-  white: "#CBCCCD"
-  brightBlack: "#818383"
-  brightRed: "#FC391F"
-  brightGreen: "#31E722"
-  brightYellow: "#EAEC23"
-  brightBlue: "#5833FF"
-  brightMagenta: "#F935F8"
-  brightCyan: "#14F0F0"
-  brightWhite: "#E9EBEB"
+  red: "#800000"
+  green: "#008000"
+  yellow: "#808000"
+  blue: "#000080"
+  magenta: "#800080"
+  cyan: "#008080"
+  white: "#C0C0C0"
+  brightBlack: "#808080"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0096FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "light"
   accent: "pink"
@@ -33,18 +35,18 @@ meta:
   contrast:
     fg: 54.5
     black: 69.9
-    red: 39.8
-    green: 12.8
-    yellow: 10.8
-    blue: 49
-    magenta: 29.7
-    cyan: 9
+    red: 56.8
+    green: 38.5
+    yellow: 32.6
+    blue: 64.8
+    magenta: 53.4
+    cyan: 36.4
     white: 0
-    brightBlack: 29.5
-    brightRed: 26.2
-    brightGreen: 0
-    brightYellow: 20.8
-    brightBlue: 43.8
+    brightBlack: 30.7
+    brightRed: 28
+    brightGreen: 16.7
+    brightYellow: 32.9
+    brightBlue: 20.8
     brightMagenta: 19.4
-    brightCyan: 13.9
-    brightWhite: 24.8
+    brightCyan: 22.4
+    brightWhite: 38.1

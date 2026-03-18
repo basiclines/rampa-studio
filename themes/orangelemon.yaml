@@ -3,6 +3,8 @@ source:
   marketplace_id: "trisdo687.orangelemon"
   version: "0.0.2"
   installs: 145
+  rating: 0
+  ratings: 0
   author: "trisdo687"
   repo: "https://github.com/tsdenouden/orangelemonTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=trisdo687.orangelemon"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 40.7
     black: 0

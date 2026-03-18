@@ -1,0 +1,52 @@
+name: "Oxocarbon Dark"
+source:
+  marketplace_id: "NyoomEngineering.oxocarbon-vscode"
+  version: "1.2.0"
+  installs: 1561
+  rating: 5
+  ratings: 1
+  author: "Nyoom Engineering"
+  repo: "https://github.com/nyoom-engineering/oxocarbon-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=NyoomEngineering.oxocarbon-vscode"
+colors:
+  bg: "#161616"
+  fg: "#F2F4F8"
+  black: "#161616"
+  red: "#78A9FF"
+  green: "#FF7EB6"
+  yellow: "#42BE65"
+  blue: "#08BDBA"
+  magenta: "#82CFFF"
+  cyan: "#33B1FF"
+  white: "#DDE1E6"
+  brightBlack: "#525252"
+  brightRed: "#78A9FF"
+  brightGreen: "#FF7EB6"
+  brightYellow: "#42BE65"
+  brightBlue: "#08BDBA"
+  brightMagenta: "#82CFFF"
+  brightCyan: "#33B1FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 54.9
+    green: 55.2
+    yellow: 54.4
+    blue: 55.8
+    magenta: 71.5
+    cyan: 55
+    white: 87.3
+    brightBlack: 14
+    brightRed: 54.9
+    brightGreen: 55.2
+    brightYellow: 54.4
+    brightBlue: 55.8
+    brightMagenta: 71.5
+    brightCyan: 55
+    brightWhite: 107

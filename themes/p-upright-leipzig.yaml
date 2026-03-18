@@ -1,0 +1,52 @@
+name: "P. Upright \ Leipzig"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74789
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+colors:
+  bg: "#221B1D"
+  fg: "#E7C4A3"
+  black: "#3D3735"
+  red: "#BE4939"
+  green: "#2A9842"
+  yellow: "#D39E0D"
+  blue: "#4C6F9D"
+  magenta: "#C63263"
+  cyan: "#39B7A2"
+  white: "#CFB5A9"
+  brightBlack: "#504A47"
+  brightRed: "#EF5C48"
+  brightGreen: "#53C666"
+  brightYellow: "#FFC918"
+  brightBlue: "#6FACE5"
+  brightMagenta: "#F15488"
+  brightCyan: "#4DEDD2"
+  brightWhite: "#FAE8E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 359
+  pair: null
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 26.3
+    green: 35.8
+    yellow: 52.9
+    blue: 24.6
+    magenta: 25.5
+    cyan: 51.9
+    white: 63.6
+    brightBlack: 10.7
+    brightRed: 40.2
+    brightGreen: 58
+    brightYellow: 76.7
+    brightBlue: 53
+    brightMagenta: 40.6
+    brightCyan: 80.1
+    brightWhite: 93.4

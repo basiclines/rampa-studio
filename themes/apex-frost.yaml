@@ -1,0 +1,52 @@
+name: "Apex Frost++"
+source:
+  marketplace_id: "Gasrulle.gasrulle-theme"
+  version: "0.6.7"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Gasrulle"
+  repo: "https://github.com/gasrulle/gasrulle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gasrulle.gasrulle-theme"
+colors:
+  bg: "#1A1D30"
+  fg: "#B0B4C4"
+  black: "#1A1D30"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#B0B4C4"
+  brightBlack: "#586390"
+  brightRed: "#FF899B"
+  brightGreen: "#B0D982"
+  brightYellow: "#EBC380"
+  brightBlue: "#8EB5F9"
+  brightMagenta: "#C9AAF9"
+  brightCyan: "#93D9FF"
+  brightWhite: "#C4C8D6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 60.1
+    black: 0
+    red: 49
+    green: 66.6
+    yellow: 61.8
+    blue: 50.8
+    magenta: 54.7
+    cyan: 70.2
+    white: 60.1
+    brightBlack: 20.8
+    brightRed: 56.1
+    brightGreen: 73.9
+    brightYellow: 71.9
+    brightBlue: 60
+    brightMagenta: 62.3
+    brightCyan: 76.3
+    brightWhite: 71.5

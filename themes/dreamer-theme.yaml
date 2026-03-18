@@ -3,6 +3,8 @@ source:
   marketplace_id: "onlyadaydreamer.dreamer-theme"
   version: "0.0.2"
   installs: 134
+  rating: 0
+  ratings: 0
   author: "onlyadaydreamer"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=onlyadaydreamer.dreamer-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 59.6
     black: 9

@@ -1,0 +1,52 @@
+name: "Midnight High Contrast Dark"
+source:
+  marketplace_id: "ExtRise.midnight-dark-theme"
+  version: "1.0.0"
+  installs: 92
+  rating: 0
+  ratings: 0
+  author: "ExtRise"
+  repo: "https://github.com/extrise/midnight-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ExtRise.midnight-dark-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0066FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF6666"
+  brightGreen: "#66FF66"
+  brightYellow: "#FFFF66"
+  brightBlue: "#6666FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Midnight High Contrast Light"
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 29.3
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 23
+    brightRed: 47.9
+    brightGreen: 89
+    brightYellow: 103.3
+    brightBlue: 32.6
+    brightMagenta: 54.8
+    brightCyan: 94
+    brightWhite: 107.9

@@ -1,0 +1,52 @@
+name: "Dracula Pro"
+source:
+  marketplace_id: "caiovellani.dracula-pro-free"
+  version: "1.2.0"
+  installs: 448
+  rating: 5
+  ratings: 1
+  author: "caiovellani"
+  repo: "https://github.com/caiovellani/dracula-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=caiovellani.dracula-pro-free"
+colors:
+  bg: "#22212C"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF9580"
+  green: "#8AFF80"
+  yellow: "#FFFF80"
+  blue: "#9580FF"
+  magenta: "#FF80BF"
+  cyan: "#80FFEA"
+  white: "#F8F8F2"
+  brightBlack: "#7970A9"
+  brightRed: "#FFBFB3"
+  brightGreen: "#B9FFB3"
+  brightYellow: "#FFFFB3"
+  brightBlue: "#BFB3FF"
+  brightMagenta: "#FFB3D9"
+  brightCyan: "#B3FFF2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 289
+  pair: null
+  contrast:
+    fg: 100.5
+    black: 0
+    red: 58.3
+    green: 89
+    yellow: 101.3
+    blue: 41.8
+    magenta: 54.6
+    cyan: 91.8
+    white: 100.5
+    brightBlack: 28.3
+    brightRed: 74.6
+    brightGreen: 94.1
+    brightYellow: 102.5
+    brightBlue: 64.2
+    brightMagenta: 71.7
+    brightCyan: 96
+    brightWhite: 105.4

@@ -1,0 +1,52 @@
+name: "Apex Ember++"
+source:
+  marketplace_id: "Gasrulle.gasrulle-theme"
+  version: "0.6.7"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Gasrulle"
+  repo: "https://github.com/gasrulle/gasrulle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gasrulle.gasrulle-theme"
+colors:
+  bg: "#1B1C2E"
+  fg: "#B6BCCE"
+  black: "#1B1C2E"
+  red: "#F38BA8"
+  green: "#A6D189"
+  yellow: "#F9E2AF"
+  blue: "#8CAAEE"
+  magenta: "#C9A0F5"
+  cyan: "#81C8BE"
+  white: "#B6BCCE"
+  brightBlack: "#60647A"
+  brightRed: "#F5A0B8"
+  brightGreen: "#B5DDA0"
+  brightYellow: "#FAEAC0"
+  brightBlue: "#A0BDF2"
+  brightMagenta: "#D4B3F7"
+  brightCyan: "#96D4CA"
+  brightWhite: "#DCE1F0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 281
+  pair: null
+  contrast:
+    fg: 64.6
+    black: 0
+    red: 54.9
+    green: 69.5
+    yellow: 88.7
+    blue: 54.8
+    magenta: 58.6
+    cyan: 64.1
+    white: 64.6
+    brightBlack: 20.8
+    brightRed: 62.5
+    brightGreen: 77.2
+    brightYellow: 93
+    brightBlue: 64.6
+    brightMagenta: 67.1
+    brightCyan: 71.7
+    brightWhite: 86.8

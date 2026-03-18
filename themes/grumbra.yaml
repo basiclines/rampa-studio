@@ -1,11 +1,13 @@
 name: "grumbra"
 source:
-  marketplace_id: "entis-cydo.grumbra"
-  version: "0.3.4"
-  installs: 215
-  author: "Cydo Entis"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=entis-cydo.grumbra"
+  marketplace_id: "Cydo.re-theme"
+  version: "3.0.0"
+  installs: 696
+  rating: 0
+  ratings: 0
+  author: "Cydo"
+  repo: "https://github.com/CydoEntis/reThemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Cydo.re-theme"
 colors:
   bg: "#1B1B1B"
   fg: "#CCCCCC"

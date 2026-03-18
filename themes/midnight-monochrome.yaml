@@ -1,0 +1,52 @@
+name: "Midnight Monochrome"
+source:
+  marketplace_id: "ExtRise.midnight-dark-theme"
+  version: "1.0.0"
+  installs: 92
+  rating: 0
+  ratings: 0
+  author: "ExtRise"
+  repo: "https://github.com/extrise/midnight-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ExtRise.midnight-dark-theme"
+colors:
+  bg: "#0D0D0D"
+  fg: "#E5E5E5"
+  black: "#0D0D0D"
+  red: "#CCCCCC"
+  green: "#D9D9D9"
+  yellow: "#B3B3B3"
+  blue: "#999999"
+  magenta: "#FFFFFF"
+  cyan: "#E5E5E5"
+  white: "#FFFFFF"
+  brightBlack: "#808080"
+  brightRed: "#CCCCCC"
+  brightGreen: "#D9D9D9"
+  brightYellow: "#B3B3B3"
+  brightBlue: "#999999"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#E5E5E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.8
+    black: 0
+    red: 75.4
+    green: 83.3
+    yellow: 60.9
+    blue: 46.9
+    magenta: 107.6
+    cyan: 90.8
+    white: 107.6
+    brightBlack: 34.5
+    brightRed: 75.4
+    brightGreen: 83.3
+    brightYellow: 60.9
+    brightBlue: 46.9
+    brightMagenta: 107.6
+    brightCyan: 90.8
+    brightWhite: 107.6

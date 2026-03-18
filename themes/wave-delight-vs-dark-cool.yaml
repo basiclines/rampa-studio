@@ -1,0 +1,52 @@
+name: "Wave Delight VS Dark Cool"
+source:
+  marketplace_id: "sadhu.wave-delight"
+  version: "0.0.7"
+  installs: 910
+  rating: 5
+  ratings: 1
+  author: "sadhu"
+  repo: "https://github.com/itzDM/wave-delight-vs-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sadhu.wave-delight"
+colors:
+  bg: "#191D21"
+  fg: "#FFFFFF"
+  black: "#242A2F"
+  red: "#BA0E2E"
+  green: "#E85362"
+  yellow: "#5392DB"
+  blue: "#5392DB"
+  magenta: "#E85362"
+  cyan: "#9B78DB"
+  white: "#FFFFFF"
+  brightBlack: "#45505B"
+  brightRed: "#F03E5F"
+  brightGreen: "#F4ADB4"
+  brightYellow: "#A7C7ED"
+  brightBlue: "#A7C7ED"
+  brightMagenta: "#F4ADB4"
+  brightCyan: "#D7C9F0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.2
+    black: 0
+    red: 19.9
+    green: 37.5
+    yellow: 40.7
+    blue: 40.7
+    magenta: 37.5
+    cyan: 38.3
+    white: 106.2
+    brightBlack: 12.1
+    brightRed: 36.1
+    brightGreen: 66.8
+    brightYellow: 69.3
+    brightBlue: 69.3
+    brightMagenta: 66.8
+    brightCyan: 75.9
+    brightWhite: 106.2

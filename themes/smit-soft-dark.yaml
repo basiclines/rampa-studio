@@ -1,0 +1,52 @@
+name: "Smit Soft Dark"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+colors:
+  bg: "#2B2D3A"
+  fg: "#C7CDD8"
+  black: "#363845"
+  red: "#D9A7A1"
+  green: "#A7C9A3"
+  yellow: "#E0C9A3"
+  blue: "#9DB4C7"
+  magenta: "#B4A0C7"
+  cyan: "#A3C9C7"
+  white: "#D4DAE5"
+  brightBlack: "#4A4D5A"
+  brightRed: "#E0B4AE"
+  brightGreen: "#B7D9B3"
+  brightYellow: "#E9D6B3"
+  brightBlue: "#ADC1D4"
+  brightMagenta: "#C4B0D4"
+  brightCyan: "#B3D9D4"
+  brightWhite: "#E4EAF5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 71.4
+    black: 0
+    red: 56.6
+    green: 64
+    yellow: 71
+    blue: 55.5
+    magenta: 50.4
+    cyan: 65
+    white: 79.3
+    brightBlack: 8.6
+    brightRed: 63
+    brightGreen: 73.4
+    brightYellow: 78.4
+    brightBlue: 63.1
+    brightMagenta: 59.1
+    brightCyan: 74.3
+    brightWhite: 89.3

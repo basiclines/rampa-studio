@@ -1,0 +1,52 @@
+name: "Cyber-Industrial"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+colors:
+  bg: "#222730"
+  fg: "#EDEDED"
+  black: "#222730"
+  red: "#7C1D1D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#00ADB3"
+  magenta: "#00ADB3"
+  cyan: "#29C3A0"
+  white: "#EDEDED"
+  brightBlack: "#222730"
+  brightRed: "#7C1D1D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#00ADB3"
+  brightMagenta: "#00ADB3"
+  brightCyan: "#29C3A0"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 92.9
+    black: 0
+    red: 0
+    green: 55.4
+    yellow: 49.5
+    blue: 46.1
+    magenta: 46.1
+    cyan: 55.4
+    white: 92.9
+    brightBlack: 0
+    brightRed: 0
+    brightGreen: 55.4
+    brightYellow: 49.5
+    brightBlue: 46.1
+    brightMagenta: 46.1
+    brightCyan: 55.4
+    brightWhite: 92.9

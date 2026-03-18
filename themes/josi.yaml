@@ -3,6 +3,8 @@ source:
   marketplace_id: "fabioruicci.josi"
   version: "0.3.1"
   installs: 255
+  rating: 0
+  ratings: 0
   author: "Fabio Ruicci"
   repo: "git://github.com/fabioruicci/josi-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=fabioruicci.josi"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 264
+  pair: null
   contrast:
     fg: 72.1
     black: 23.2

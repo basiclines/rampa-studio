@@ -3,6 +3,8 @@ source:
   marketplace_id: "andzhr.duck-story"
   version: "1.0.0"
   installs: 438
+  rating: 0
+  ratings: 0
   author: "Andrey Zakharov"
   repo: "https://github.com/andzhr/duck-story-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=andzhr.duck-story"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 86.8
     black: 0

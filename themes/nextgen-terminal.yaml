@@ -1,0 +1,50 @@
+name: "NextGen Terminal"
+source:
+  marketplace_id: "nextgencode.nextgen-terminal"
+  version: "1.2.1"
+  installs: 105
+  author: "NextGenCode"
+  repo: "https://github.com/Mattzey/nextgen-terminal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nextgencode.nextgen-terminal"
+colors:
+  bg: "#000000"
+  fg: "#00FF41"
+  black: "#000000"
+  red: "#FF0055"
+  green: "#00FF41"
+  yellow: "#FFAA00"
+  blue: "#00AAFF"
+  magenta: "#FF00FF"
+  cyan: "#00D9FF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#FF3377"
+  brightGreen: "#39FF14"
+  brightYellow: "#FFC107"
+  brightBlue: "#2196F3"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.7
+    black: 0
+    red: 38.2
+    green: 86.7
+    yellow: 66.5
+    blue: 52.5
+    magenta: 46.2
+    cyan: 73.3
+    white: 107.9
+    brightBlack: 12
+    brightRed: 40.9
+    brightGreen: 87
+    brightYellow: 75.1
+    brightBlue: 44
+    brightMagenta: 58.4
+    brightCyan: 92.2
+    brightWhite: 107.9

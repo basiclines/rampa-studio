@@ -1,0 +1,52 @@
+name: "solarized-simon"
+source:
+  marketplace_id: "SimonAlford.solarized-simon"
+  version: "0.3.0"
+  installs: 77
+  rating: 0
+  ratings: 0
+  author: "Simon Alford"
+  repo: "https://github.com/simonalford42/dotfiles"
+  url: "https://marketplace.visualstudio.com/items?itemName=SimonAlford.solarized-simon"
+colors:
+  bg: "#002B36"
+  fg: "#C3C8C8"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#D5A804"
+  yellow: "#CBAD07"
+  blue: "#268BD2"
+  magenta: "#F03D94"
+  cyan: "#33C4B8"
+  white: "#EEE8D5"
+  brightBlack: "#002B36"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 220
+  pair: null
+  contrast:
+    fg: 69.2
+    black: 0
+    red: 27.7
+    green: 55.1
+    yellow: 55.5
+    blue: 34.3
+    magenta: 35.8
+    cyan: 56.8
+    white: 89.5
+    brightBlack: 0
+    brightRed: 27.2
+    brightGreen: 21.5
+    brightYellow: 27.3
+    brightBlue: 39.5
+    brightMagenta: 28
+    brightCyan: 46.4
+    brightWhite: 98.6

@@ -3,6 +3,8 @@ source:
   marketplace_id: "lenglounh.BOT2B"
   version: "0.0.2"
   installs: 85
+  rating: 0
+  ratings: 0
   author: "lenglounh"
   repo: "https://github.com/lenglounh/BOT2B"
   url: "https://marketplace.visualstudio.com/items?itemName=lenglounh.BOT2B"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 280
+  pair: null
   contrast:
     fg: 67.6
     black: 0

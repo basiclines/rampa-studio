@@ -1,0 +1,52 @@
+name: "Bumblebee"
+source:
+  marketplace_id: "IbrahimDirar.bumblebee"
+  version: "1.3.0"
+  installs: 1341
+  rating: 0
+  ratings: 0
+  author: "Ibrahim Dirar"
+  repo: "https://github.com/ibrahimdirar/bumblebee-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=IbrahimDirar.bumblebee"
+colors:
+  bg: "#0A0A0A"
+  fg: "#B3B8C5"
+  black: "#01060E"
+  red: "#EA6C73"
+  green: "#91B362"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#FAE994"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#C2D94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#FFEE99"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 63.9
+    black: 0
+    red: 44.9
+    green: 55.1
+    yellow: 67.4
+    blue: 61.5
+    magenta: 92.9
+    cyan: 78.7
+    white: 72.6
+    brightBlack: 23.8
+    brightRed: 47.5
+    brightGreen: 76.8
+    brightYellow: 70.4
+    brightBlue: 64.2
+    brightMagenta: 96
+    brightCyan: 81.7
+    brightWhite: 107.7

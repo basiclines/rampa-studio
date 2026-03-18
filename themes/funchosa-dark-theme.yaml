@@ -3,6 +3,8 @@ source:
   marketplace_id: "funchosa.funchosa-dark"
   version: "1.0.4"
   installs: 37
+  rating: 0
+  ratings: 0
   author: "Funchosa"
   repo: "https://github.com/FunChosa/funchosa-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=funchosa.funchosa-dark"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 289
+  pair: null
   contrast:
     fg: 86
     black: 0

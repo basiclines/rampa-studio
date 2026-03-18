@@ -3,6 +3,8 @@ source:
   marketplace_id: "sam01.Gvalley"
   version: "0.0.1"
   installs: 98
+  rating: 0
+  ratings: 0
   author: "sam"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=sam01.Gvalley"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 86.2
     black: 0

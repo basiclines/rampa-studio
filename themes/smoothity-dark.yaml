@@ -3,6 +3,8 @@ source:
   marketplace_id: "neinja007.smoothity-dark"
   version: "6.3.0"
   installs: 262
+  rating: 5
+  ratings: 1
   author: "neinja007"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=neinja007.smoothity-dark"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: 29
+  pair: null
   contrast:
     fg: 0
     black: 0

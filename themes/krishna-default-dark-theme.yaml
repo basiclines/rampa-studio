@@ -3,6 +3,8 @@ source:
   marketplace_id: "BhootStudio.bhoot-theme"
   version: "1.0.4"
   installs: 78
+  rating: 0
+  ratings: 0
   author: "Bhoot Studio"
   repo: "https://github.com/DebkantaMondal/Bhoot-VS-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=BhootStudio.bhoot-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 243
+  pair: null
   contrast:
     fg: 87.3
     black: 0

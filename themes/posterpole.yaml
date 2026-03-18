@@ -3,6 +3,8 @@ source:
   marketplace_id: "ilof2.posterpole-theme"
   version: "0.1.5"
   installs: 328
+  rating: 0
+  ratings: 0
   author: "ilof2"
   repo: "https://github.com/posterpole/vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=ilof2.posterpole-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: 292
+  pair: null
   contrast:
     fg: 52.5
     black: 0

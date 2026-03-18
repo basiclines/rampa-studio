@@ -3,6 +3,8 @@ source:
   marketplace_id: "Feefoolec.sapporo"
   version: "0.0.1"
   installs: 50
+  rating: 0
+  ratings: 0
   author: "Feefoolec"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Feefoolec.sapporo"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 56.8
     black: 10.1

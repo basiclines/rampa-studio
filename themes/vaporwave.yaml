@@ -3,6 +3,8 @@ source:
   marketplace_id: "andrei-isvoran96.vaporwave-theme"
   version: "1.0.2"
   installs: 75
+  rating: 5
+  ratings: 1
   author: "Andrei Isvoran"
   repo: "https://github.com/andrei-isvoran96/vaporwave"
   url: "https://marketplace.visualstudio.com/items?itemName=andrei-isvoran96.vaporwave-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 283
+  pair: null
   contrast:
     fg: 92.6
     black: 0

@@ -1,0 +1,52 @@
+name: "Hearth Dark"
+source:
+  marketplace_id: "hearth-code.hearth-theme"
+  version: "1.0.1"
+  installs: 3
+  rating: 0
+  ratings: 0
+  author: "HearthCode"
+  repo: "https://github.com/TypeFusion/HearthTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=hearth-code.hearth-theme"
+colors:
+  bg: "#1E1A12"
+  fg: "#D0C4AA"
+  black: "#2C2618"
+  red: "#C06050"
+  green: "#80A068"
+  yellow: "#C8A850"
+  blue: "#6888A8"
+  magenta: "#B89070"
+  cyan: "#78A898"
+  white: "#D0C4AA"
+  brightBlack: "#4A4030"
+  brightRed: "#D07060"
+  brightGreen: "#98B880"
+  brightYellow: "#D8B870"
+  brightBlue: "#88A0C0"
+  brightMagenta: "#C8A880"
+  brightCyan: "#90B8A8"
+  brightWhite: "#E8DCC8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 84
+  pair: "Hearth Light"
+  contrast:
+    fg: 70.1
+    black: 0
+    red: 32
+    green: 44.6
+    yellow: 55.7
+    blue: 35.7
+    magenta: 45.3
+    cyan: 48.6
+    white: 70.1
+    brightBlack: 7.5
+    brightRed: 39.1
+    brightGreen: 57.3
+    brightYellow: 64.8
+    brightBlue: 48.4
+    brightMagenta: 56.6
+    brightCyan: 57.8
+    brightWhite: 84.8

@@ -1,0 +1,52 @@
+name: "LiG Light"
+source:
+  marketplace_id: "froQ.lig-theme"
+  version: "0.1.0"
+  installs: 19
+  rating: 0
+  ratings: 0
+  author: "froQ"
+  repo: "https://github.com/Fro-Q/vscode-theme-LiG"
+  url: "https://marketplace.visualstudio.com/items?itemName=froQ.lig-theme"
+colors:
+  bg: "#FFF9F5"
+  fg: "#575655"
+  black: "#FFF9F5"
+  red: "#E79A9A"
+  green: "#69C493"
+  yellow: "#D7B366"
+  blue: "#6FA8F0"
+  magenta: "#B57AA7"
+  cyan: "#68B7B7"
+  white: "#0F1010"
+  brightBlack: "#E7E2DE"
+  brightRed: "#F7C7C7"
+  brightGreen: "#A3E4B8"
+  brightYellow: "#F1D89B"
+  brightBlue: "#AACDF7"
+  brightMagenta: "#E1B9D5"
+  brightCyan: "#A2E1E1"
+  brightWhite: "#0F1010"
+meta:
+  mode: "light"
+  accent: "indigo"
+  hue: null
+  pair: "LiG Dark"
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 40.5
+    green: 38.3
+    yellow: 35.5
+    blue: 45.2
+    magenta: 57.6
+    cyan: 42.7
+    white: 102.5
+    brightBlack: 11.2
+    brightRed: 20.6
+    brightGreen: 18.9
+    brightYellow: 16.2
+    brightBlue: 25.5
+    brightMagenta: 28.5
+    brightCyan: 18.8
+    brightWhite: 102.5

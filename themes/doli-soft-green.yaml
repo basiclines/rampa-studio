@@ -1,0 +1,52 @@
+name: "Doli Soft Green"
+source:
+  marketplace_id: "LQYld.doli-theme"
+  version: "0.2.3"
+  installs: 124
+  rating: 0
+  ratings: 0
+  author: "LQYld"
+  repo: "https://github.com/LQYld/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LQYld.doli-theme"
+colors:
+  bg: "#FFFAE8"
+  fg: "#222222"
+  black: "#000000"
+  red: "#F51818"
+  green: "#43B244"
+  yellow: "#F2AE49"
+  blue: "#EEE8D5"
+  magenta: "#A37ACC"
+  cyan: "#207F4C"
+  white: "#6C7880"
+  brightBlack: "#6C7680"
+  brightRed: "#F07171"
+  brightGreen: "#86B300"
+  brightYellow: "#FF9940"
+  brightBlue: "#55B4D4"
+  brightMagenta: "#FE76FF"
+  brightCyan: "#39CBCC"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.8
+    black: 103
+    red: 63.2
+    green: 49.4
+    yellow: 33.5
+    blue: 8
+    magenta: 58.1
+    cyan: 71.1
+    white: 68.4
+    brightBlack: 69.1
+    brightRed: 51.3
+    brightGreen: 45.4
+    brightYellow: 38.2
+    brightBlue: 43.4
+    brightMagenta: 41
+    brightCyan: 34.8
+    brightWhite: 103

@@ -1,0 +1,52 @@
+name: "Arencio Argos Dark"
+source:
+  marketplace_id: "DanyaalMajid.arencio-vibrant-dark"
+  version: "1.1.0"
+  installs: 75
+  rating: 0
+  ratings: 0
+  author: "Danyaal Majid"
+  repo: "https://github.com/DanyaalMajid/arencio-vibrant-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=DanyaalMajid.arencio-vibrant-dark"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#434343"
+  red: "#C82424"
+  green: "#24C83E"
+  yellow: "#C8A724"
+  blue: "#2472C8"
+  magenta: "#C824C5"
+  cyan: "#59F0C6"
+  white: "#E8E8E8"
+  brightBlack: "#888888"
+  brightRed: "#FB6B6B"
+  brightGreen: "#63FB7B"
+  brightYellow: "#FBDE6B"
+  brightBlue: "#62ACFF"
+  brightMagenta: "#FF67FC"
+  brightCyan: "#59F0C6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 9.5
+    red: 25.4
+    green: 58.8
+    yellow: 56.3
+    blue: 28.4
+    magenta: 31.1
+    cyan: 83.2
+    white: 92.9
+    brightBlack: 38.6
+    brightRed: 48.2
+    brightGreen: 87.1
+    brightYellow: 87.4
+    brightBlue: 55.6
+    brightMagenta: 54.8
+    brightCyan: 83.2
+    brightWhite: 107.9

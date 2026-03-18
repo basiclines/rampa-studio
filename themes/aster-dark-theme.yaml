@@ -1,0 +1,52 @@
+name: "Aster Dark Theme"
+source:
+  marketplace_id: "jtheol.aster-dark"
+  version: "0.1.0"
+  installs: 37
+  rating: 0
+  ratings: 0
+  author: "jtheol"
+  repo: "https://github.com/jtheol/aster-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=jtheol.aster-dark"
+colors:
+  bg: "#000000"
+  fg: "#E0E0E0"
+  black: "#282828"
+  red: "#D4A090"
+  green: "#8FB573"
+  yellow: "#D6C998"
+  blue: "#6F8BBB"
+  magenta: "#C6BDA0"
+  cyan: "#8BA0B0"
+  white: "#D0D0D0"
+  brightBlack: "#555555"
+  brightRed: "#E2B0A0"
+  brightGreen: "#C7DBB5"
+  brightYellow: "#FEF9C3"
+  brightBlue: "#D6B681"
+  brightMagenta: "#D4CBA8"
+  brightCyan: "#A8B8C8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.9
+    black: 0
+    red: 57.3
+    green: 56.2
+    yellow: 73.9
+    blue: 39.7
+    magenta: 66.9
+    cyan: 49.4
+    white: 78.1
+    brightBlack: 16.1
+    brightRed: 65.9
+    brightGreen: 80.8
+    brightYellow: 102.4
+    brightBlue: 65.5
+    brightMagenta: 74.9
+    brightCyan: 62.9
+    brightWhite: 107.9

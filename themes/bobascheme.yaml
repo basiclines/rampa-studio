@@ -3,6 +3,8 @@ source:
   marketplace_id: "bbaovanc.bobascheme"
   version: "0.0.3"
   installs: 35
+  rating: 0
+  ratings: 0
   author: "BBaoVanC"
   repo: "https://github.com/BBaoVanC/bobascheme"
   url: "https://marketplace.visualstudio.com/items?itemName=bbaovanc.bobascheme"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "indigo"
   hue: null
+  pair: null
   contrast:
     fg: 80
     black: 0

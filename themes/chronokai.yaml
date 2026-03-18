@@ -3,6 +3,8 @@ source:
   marketplace_id: "ChrisNewland.chronokai"
   version: "0.0.1"
   installs: 161
+  rating: 0
+  ratings: 0
   author: "Chris Newland"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=ChrisNewland.chronokai"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 101.8
     black: 0

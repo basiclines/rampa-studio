@@ -3,6 +3,8 @@ source:
   marketplace_id: "bjornarhagen.caret-theme"
   version: "0.1.1"
   installs: 416
+  rating: 5
+  ratings: 1
   author: "Bjørnar Hagen"
   repo: "https://github.com/bjornarhagen/caret-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=bjornarhagen.caret-theme"
@@ -29,6 +31,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 124
+  pair: null
   contrast:
     fg: 74.8
     black: 80.2

@@ -1,0 +1,52 @@
+name: "Soft Light"
+source:
+  marketplace_id: "Gerrnperl.soft-color-theme"
+  version: "0.0.2"
+  installs: 1895
+  rating: 5
+  ratings: 2
+  author: "Gerrnperl"
+  repo: "https://github.com/Gerrnperl/vscode-soft-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gerrnperl.soft-color-theme"
+colors:
+  bg: "#F8FFF3"
+  fg: "#5A5A5A"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Soft Dark"
+  contrast:
+    fg: 82.5
+    black: 104.7
+    red: 72.6
+    green: 47.9
+    yellow: 56.5
+    blue: 84.7
+    magenta: 73.2
+    cyan: 59.2
+    white: 84.5
+    brightBlack: 77.4
+    brightRed: 72.6
+    brightGreen: 39.5
+    brightYellow: 39.6
+    brightBlue: 84.7
+    brightMagenta: 73.2
+    brightCyan: 59.2
+    brightWhite: 47.1

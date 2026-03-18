@@ -3,6 +3,8 @@ source:
   marketplace_id: "Priyaank.ether"
   version: "2.0.1"
   installs: 55
+  rating: 0
+  ratings: 0
   author: "Priyaank"
   repo: "https://github.com/PRIYAANK2510/Ether"
   url: "https://marketplace.visualstudio.com/items?itemName=Priyaank.ether"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 33.9
     black: 0

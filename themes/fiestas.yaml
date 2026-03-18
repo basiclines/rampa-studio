@@ -2,7 +2,9 @@ name: "Fiestas"
 source:
   marketplace_id: "AdrielZarate.fiestas-vscode"
   version: "0.2.0"
-  installs: 26
+  installs: 27
+  rating: 0
+  ratings: 0
   author: "Adriel Zarate"
   repo: "https://github.com/adrielzarate/fiestas-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AdrielZarate.fiestas-vscode"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 148
+  pair: null
   contrast:
     fg: 106.4
     black: 0

@@ -1,0 +1,50 @@
+name: "vixn-dark"
+source:
+  marketplace_id: "noriah.vixn-theme"
+  version: "1.0.4"
+  installs: 91
+  author: "noriah vix"
+  repo: "https://github.com/noriah/vscode-vixn-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=noriah.vixn-theme"
+colors:
+  bg: "#252525"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 44.7
+    green: 82.3
+    yellow: 77
+    blue: 54
+    magenta: 51.8
+    cyan: 76.3
+    white: 105
+    brightBlack: 9.1
+    brightRed: 44.7
+    brightGreen: 82.3
+    brightYellow: 77
+    brightBlue: 54
+    brightMagenta: 51.8
+    brightCyan: 76.3
+    brightWhite: 105

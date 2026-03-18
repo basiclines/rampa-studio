@@ -3,6 +3,8 @@ source:
   marketplace_id: "xivilay.simplified-themes-mods-pack"
   version: "0.0.2"
   installs: 47
+  rating: 0
+  ratings: 0
   author: "xivilay"
   repo: "https://github.com/xivilay/vs-code-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=xivilay.simplified-themes-mods-pack"
@@ -29,6 +31,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 230
+  pair: null
   contrast:
     fg: 68.1
     black: 0
