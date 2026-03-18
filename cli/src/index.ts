@@ -64,6 +64,13 @@ if (args[0] === 'palette') {
   process.exit(0);
 }
 
+// Intercept theme subcommand
+if (args[0] === 'theme') {
+  const { runTheme } = await import('./theme');
+  await runTheme(args.slice(1));
+  process.exit(0);
+}
+
 if (args.includes('--help') || args.includes('-h') || args.includes('help') || args.length === 0) {
   showHelp();
 }
@@ -156,6 +163,10 @@ COLOR INSPECT
 IMAGE PALETTE
   ${cyan}rampa palette${reset}                   ${dim}Extract color palettes from images${reset}
                                    ${dim}Use rampa palette --help for details${reset}
+
+COLOR THEMES
+  ${cyan}rampa theme${reset}                     ${dim}Install color themes for any terminal or editor${reset}
+                                   ${dim}Use rampa theme --help for details${reset}
 
 OTHER
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
