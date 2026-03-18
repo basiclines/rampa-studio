@@ -1,0 +1,49 @@
+name: "Moonerized Light"
+source:
+  marketplace_id: "brodyreid.moonerized-theme"
+  version: "0.1.6"
+  installs: 102
+  author: "Brody Reid"
+  repo: "https://worktree.ca/bb/moonerized"
+  url: "https://marketplace.visualstudio.com/items?itemName=brodyreid.moonerized-theme"
+colors:
+  bg: "#FAF9FA"
+  fg: "#64646E"
+  black: "#131316"
+  red: "#8E629D"
+  green: "#617434"
+  yellow: "#6A588C"
+  blue: "#537397"
+  magenta: "#B66D3A"
+  cyan: "#5F83A7"
+  white: "#FAF9FA"
+  brightBlack: "#64646E"
+  brightRed: "#8E629D"
+  brightGreen: "#617434"
+  brightYellow: "#6A588C"
+  brightBlue: "#537397"
+  brightMagenta: "#B66D3A"
+  brightCyan: "#5F83A7"
+  brightWhite: "#FAF9FA"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 75.9
+    black: 101.7
+    red: 69.7
+    green: 72.2
+    yellow: 77.4
+    blue: 70.6
+    magenta: 63.7
+    cyan: 63.6
+    white: 0
+    brightBlack: 75.9
+    brightRed: 69.7
+    brightGreen: 72.2
+    brightYellow: 77.4
+    brightBlue: 70.6
+    brightMagenta: 63.7
+    brightCyan: 63.6
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "pastel-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#0F0F0F"
+  fg: "#EEEEEE"
+  black: "#1C1C1C"
+  red: "#BA0E2E"
+  green: "#9474A9"
+  yellow: "#04C4A5"
+  blue: "#C56C6C"
+  magenta: "#C5906C"
+  cyan: "#E2E060"
+  white: "#FBFBFB"
+  brightBlack: "#424242"
+  brightRed: "#F03E5F"
+  brightGreen: "#C5B3D0"
+  brightYellow: "#33FBDB"
+  brightBlue: "#E2B5B5"
+  brightMagenta: "#E2C7B5"
+  brightCyan: "#F2F1B6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.4
+    black: 0
+    red: 21.1
+    green: 34.6
+    yellow: 58.7
+    blue: 37.4
+    magenta: 48.1
+    cyan: 84.1
+    white: 104.9
+    brightBlack: 8.8
+    brightRed: 37.4
+    brightGreen: 64.4
+    brightYellow: 88.3
+    brightBlue: 68.1
+    brightMagenta: 75.3
+    brightCyan: 96.1
+    brightWhite: 107.5

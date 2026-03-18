@@ -1,0 +1,49 @@
+name: "Stereo Theme"
+source:
+  marketplace_id: "FasterMars.fastermars-stereo-theme"
+  version: "1.0.0"
+  installs: 151
+  author: "FasterMars"
+  repo: "https://github.com/FasterMars/Stereo-Theme-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=FasterMars.fastermars-stereo-theme"
+colors:
+  bg: "#271D43"
+  fg: "#ECDEDE"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 293
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 25
+    green: 51.3
+    yellow: 83.9
+    blue: 25.7
+    magenta: 28
+    cyan: 45.8
+    white: 105.1
+    brightBlack: 20.3
+    brightRed: 36.8
+    brightGreen: 61.8
+    brightYellow: 93.9
+    brightBlue: 38.2
+    brightMagenta: 43.6
+    brightCyan: 53.6
+    brightWhite: 105.1

@@ -1,0 +1,49 @@
+name: "A GitHub Dark Dimmed 3 🟢 Green"
+source:
+  marketplace_id: "markmiro.colorful-github-vscode-theme"
+  version: "6.8.0"
+  installs: 889
+  author: "Mark Miro"
+  repo: "https://github.com/markmiro/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=markmiro.colorful-github-vscode-theme"
+colors:
+  bg: "#1E2A20"
+  fg: "#AABFAD"
+  black: "#506153"
+  red: "#EF7756"
+  green: "#42AD6E"
+  yellow: "#BA962E"
+  blue: "#6E96F2"
+  magenta: "#BC80E2"
+  cyan: "#49C2D8"
+  white: "#8DA290"
+  brightBlack: "#5F7362"
+  brightRed: "#FB987E"
+  brightGreen: "#56C682"
+  brightYellow: "#CDB048"
+  brightBlue: "#81B1FE"
+  brightMagenta: "#E4BBF2"
+  brightCyan: "#62D1E6"
+  brightWhite: "#CADECD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 149
+  contrast:
+    fg: 61.6
+    black: 15.9
+    red: 44.9
+    green: 44.6
+    yellow: 44.7
+    blue: 43.7
+    magenta: 43.8
+    cyan: 58.1
+    white: 45.8
+    brightBlack: 23.2
+    brightRed: 57.6
+    brightGreen: 57.1
+    brightYellow: 57.5
+    brightBlue: 56.2
+    brightMagenta: 70.7
+    brightCyan: 66.7
+    brightWhite: 80.1

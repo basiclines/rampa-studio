@@ -1,0 +1,49 @@
+name: "zhangpengtao-black"
+source:
+  marketplace_id: "ZhangPengtao.zhangpengtao-black"
+  version: "0.0.3"
+  installs: 450
+  author: "ZhangPengtao"
+  repo: "https://github.com/zptzpt/zhangpengtao-black"
+  url: "https://marketplace.visualstudio.com/items?itemName=ZhangPengtao.zhangpengtao-black"
+colors:
+  bg: "#000000"
+  fg: "#EEFFFF"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#3FB950"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#F0F6FC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 105.6
+    black: 13.6
+    red: 53.1
+    green: 52.6
+    yellow: 52.7
+    blue: 52.7
+    magenta: 52.7
+    cyan: 61.9
+    white: 64.5
+    brightBlack: 29.7
+    brightRed: 65.3
+    brightGreen: 65.9
+    brightYellow: 65.2
+    brightBlue: 65.2
+    brightMagenta: 65.1
+    brightCyan: 70.4
+    brightWhite: 101.4

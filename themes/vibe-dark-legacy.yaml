@@ -1,0 +1,49 @@
+name: "Vibe Dark Legacy"
+source:
+  marketplace_id: "yondav.vibe"
+  version: "2.0.1"
+  installs: 1540
+  author: "yondav"
+  repo: "https://github.com/yondav-configs/vibe"
+  url: "https://marketplace.visualstudio.com/items?itemName=yondav.vibe"
+colors:
+  bg: "#161618"
+  fg: "#F1EBF3"
+  black: "#222222"
+  red: "#FF8D8D"
+  green: "#89DF95"
+  yellow: "#FCE789"
+  blue: "#729FCF"
+  magenta: "#B37EBC"
+  cyan: "#55DBE0"
+  white: "#FAFAFA"
+  brightBlack: "#333333"
+  brightRed: "#FF4646"
+  brightGreen: "#55ED6A"
+  brightYellow: "#FFE055"
+  brightBlue: "#49B8FD"
+  brightMagenta: "#D87DE4"
+  brightCyan: "#1CF3FB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.1
+    black: 0
+    red: 57.8
+    green: 74.8
+    yellow: 91.2
+    blue: 47.5
+    magenta: 42.1
+    cyan: 72.9
+    white: 103.6
+    brightBlack: 0
+    brightRed: 41
+    brightGreen: 78
+    brightYellow: 87.7
+    brightBlue: 58.4
+    brightMagenta: 50
+    brightCyan: 84.9
+    brightWhite: 107

@@ -1,0 +1,49 @@
+name: "lanten-color-theme-dark"
+source:
+  marketplace_id: "lanten.lanten-color-theme"
+  version: "0.8.0"
+  installs: 1214
+  author: "lanten"
+  repo: "https://github.com/lanten/vscode-lanten-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lanten.lanten-color-theme"
+colors:
+  bg: "#232933"
+  fg: "#D8DEE9"
+  black: "#313948"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#CC85F0"
+  magenta: "#B48EAD"
+  cyan: "#587C9D"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#CC85F0"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 261
+  contrast:
+    fg: 82.8
+    black: 0
+    red: 30.4
+    green: 59.1
+    yellow: 73.8
+    blue: 48.4
+    magenta: 43.9
+    cyan: 27.7
+    white: 89.8
+    brightBlack: 12.8
+    brightRed: 30.4
+    brightGreen: 59.1
+    brightYellow: 73.8
+    brightBlue: 48.4
+    brightMagenta: 43.9
+    brightCyan: 58
+    brightWhite: 93.7

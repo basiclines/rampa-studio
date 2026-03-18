@@ -1,0 +1,49 @@
+name: "August Dark Theme"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 821
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+colors:
+  bg: "#0F172A"
+  fg: "#F1F5F9"
+  black: "#0F172A"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#FACC15"
+  blue: "#3B82F6"
+  magenta: "#C084FC"
+  cyan: "#06B6D4"
+  white: "#F1F5F9"
+  brightBlack: "#1E293B"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FBBF24"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  contrast:
+    fg: 99.8
+    black: 0
+    red: 36.7
+    green: 56.7
+    yellow: 77.7
+    blue: 36.7
+    magenta: 49.6
+    cyan: 53.8
+    white: 99.8
+    brightBlack: 0
+    brightRed: 48
+    brightGreen: 70.4
+    brightYellow: 72.6
+    brightBlue: 51.3
+    brightMagenta: 69.2
+    brightCyan: 81.1
+    brightWhite: 103.3

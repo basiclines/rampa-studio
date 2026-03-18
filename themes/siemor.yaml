@@ -1,0 +1,49 @@
+name: "Siemor"
+source:
+  marketplace_id: "dnlytras.siemor"
+  version: "2.1.0"
+  installs: 2230
+  author: "Dimitrios Lytras"
+  repo: "https://github.com/DimitrisNL/siemor"
+  url: "https://marketplace.visualstudio.com/items?itemName=dnlytras.siemor"
+colors:
+  bg: "#21252B"
+  fg: "#B0BCD3"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#8DC6BF"
+  yellow: "#F2DB9A"
+  blue: "#81A1C1"
+  magenta: "#BB6EA7"
+  cyan: "#76A3C3"
+  white: "#E5E9F0"
+  brightBlack: "#252833"
+  brightRed: "#BF616A"
+  brightGreen: "#8DC6BF"
+  brightYellow: "#F2DB9A"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#BB6EA7"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 258
+  contrast:
+    fg: 63.1
+    black: 0
+    red: 31.1
+    green: 63.1
+    yellow: 82.8
+    blue: 46.8
+    magenta: 35.9
+    cyan: 46.8
+    white: 90.5
+    brightBlack: 0
+    brightRed: 31.1
+    brightGreen: 63.1
+    brightYellow: 82.8
+    brightBlue: 46.8
+    brightMagenta: 35.9
+    brightCyan: 58.7
+    brightWhite: 94.4

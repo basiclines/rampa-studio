@@ -1,0 +1,49 @@
+name: "Kato"
+source:
+  marketplace_id: "Ghaz.Kato"
+  version: "2.0.0"
+  installs: 74
+  author: "Ghaz"
+  repo: "https://github.com/GhazanfarShahbaz/Kato-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ghaz.Kato"
+colors:
+  bg: "#272727"
+  fg: "#9A9A9A"
+  black: "#1B1D1E"
+  red: "#E6DC44"
+  green: "#C8BE46"
+  yellow: "#E5E510"
+  blue: "#737174"
+  magenta: "#747271"
+  cyan: "#62605F"
+  white: "#C6C5BF"
+  brightBlack: "#505354"
+  brightRed: "#F4FD22"
+  brightGreen: "#FFF27D"
+  brightYellow: "#FEED6C"
+  brightBlue: "#919495"
+  brightMagenta: "#9A9A9D"
+  brightCyan: "#A3A3A6"
+  brightWhite: "#DADBD6"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 44.4
+    black: 0
+    red: 79.6
+    green: 62.5
+    yellow: 83.4
+    blue: 24.9
+    magenta: 25.2
+    cyan: 17.4
+    white: 68.1
+    brightBlack: 11.9
+    brightRed: 96.9
+    brightGreen: 94.2
+    brightYellow: 91.4
+    brightBlue: 41.1
+    brightMagenta: 44.6
+    brightCyan: 49.3
+    brightWhite: 81.2

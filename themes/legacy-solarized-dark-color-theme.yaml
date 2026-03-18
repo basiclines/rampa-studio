@@ -1,0 +1,49 @@
+name: "legacy-solarized-dark-color-theme"
+source:
+  marketplace_id: "ryanolsonx.solarized"
+  version: "3.0.0"
+  installs: 183408
+  author: "Ryan Olson"
+  repo: "https://github.com/ryanolsonx/vscode-solarized-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ryanolsonx.solarized"
+colors:
+  bg: "#002B36"
+  fg: "#839496"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#839496"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#859900"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#839496"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  contrast:
+    fg: 39.5
+    black: 0
+    red: 27.7
+    green: 39.2
+    yellow: 39.2
+    blue: 34.3
+    magenta: 28
+    cyan: 40
+    white: 39.5
+    brightBlack: 21.5
+    brightRed: 27.2
+    brightGreen: 39.2
+    brightYellow: 27.3
+    brightBlue: 39.5
+    brightMagenta: 28
+    brightCyan: 46.4
+    brightWhite: 39.5

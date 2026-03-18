@@ -1,0 +1,49 @@
+name: "IrishBruse's Color Theme"
+source:
+  marketplace_id: "IrishBruse.dark-theme"
+  version: "1.6.2"
+  installs: 807
+  author: "Ethan Conneely"
+  repo: "https://github.com/IrishBruse/IrishBruse-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=IrishBruse.dark-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#191D1F"
+  black: "#000000"
+  red: "#E53935"
+  green: "#91B859"
+  yellow: "#FFB62C"
+  blue: "#6182B8"
+  magenta: "#8A76CC"
+  cyan: "#39ADB5"
+  white: "#A0A0A0"
+  brightBlack: "#4E4E4E"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#B6A4EE"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 103.9
+    black: 106
+    red: 67.7
+    green: 44.9
+    yellow: 31.7
+    blue: 66.3
+    magenta: 65.3
+    cyan: 51.8
+    white: 51
+    brightBlack: 88.8
+    brightRed: 57.1
+    brightGreen: 18.3
+    brightYellow: 23.3
+    brightBlue: 45.2
+    brightMagenta: 43.3
+    brightCyan: 23.9
+    brightWhite: 0

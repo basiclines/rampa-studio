@@ -1,0 +1,49 @@
+name: "Midnight Theme"
+source:
+  marketplace_id: "khanghy1000.midnight-ray-theme"
+  version: "0.0.24"
+  installs: 275
+  author: "khanghy1000"
+  repo: "https://github.com/khanghy1000/Midnight-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=khanghy1000.midnight-ray-theme"
+colors:
+  bg: "#191C1F"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#D8473F"
+  green: "#3FC48A"
+  yellow: "#D7BA7D"
+  blue: "#579BD5"
+  magenta: "#CA5BC8"
+  cyan: "#00B6D6"
+  white: "#EAEAEA"
+  brightBlack: "#797979"
+  brightRed: "#F6645D"
+  brightGreen: "#1AD69C"
+  brightYellow: "#F6F353"
+  brightBlue: "#9BDBFE"
+  brightMagenta: "#DF89DD"
+  brightCyan: "#2BC4E2"
+  brightWhite: "#EAEAEA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106.3
+    black: 0
+    red: 31.5
+    green: 57.4
+    yellow: 65.6
+    blue: 44.1
+    magenta: 37.2
+    cyan: 53.5
+    white: 92.7
+    brightBlack: 29.9
+    brightRed: 43.8
+    brightGreen: 65.8
+    brightYellow: 94.4
+    brightBlue: 78.1
+    brightMagenta: 53.5
+    brightCyan: 60.6
+    brightWhite: 92.7

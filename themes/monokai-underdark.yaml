@@ -1,0 +1,49 @@
+name: "Monokai Underdark"
+source:
+  marketplace_id: "zrthxn.monokai-underdark"
+  version: "0.0.5"
+  installs: 149
+  author: "zrthxn"
+  repo: "https://github.com/zrthxn/monokai-underdark"
+  url: "https://marketplace.visualstudio.com/items?itemName=zrthxn.monokai-underdark"
+colors:
+  bg: "#111111"
+  fg: "#FFFFFF"
+  black: "#3D3D3D"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E1C542"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#39CDE2"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFE05B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#74F2FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 27.2
+    green: 53.5
+    yellow: 71.7
+    blue: 27.9
+    magenta: 30.3
+    cyan: 66
+    white: 90.5
+    brightBlack: 22.5
+    brightRed: 39.1
+    brightGreen: 64
+    brightYellow: 88.2
+    brightBlue: 62.7
+    brightMagenta: 45.9
+    brightCyan: 87.6
+    brightWhite: 90.5

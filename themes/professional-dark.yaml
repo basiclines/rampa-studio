@@ -1,0 +1,49 @@
+name: "Professional Dark"
+source:
+  marketplace_id: "xynny.professional-dark"
+  version: "1.0.0"
+  installs: 310
+  author: "xynny"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=xynny.professional-dark"
+colors:
+  bg: "#0F0F0F"
+  fg: "#FFFFFF"
+  black: "#3D3D3D"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E1C542"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#39CDE2"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFE05B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#74F2FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 107.5
+    black: 0
+    red: 27.3
+    green: 53.6
+    yellow: 71.8
+    blue: 28.1
+    magenta: 30.4
+    cyan: 66.1
+    white: 90.6
+    brightBlack: 22.7
+    brightRed: 39.2
+    brightGreen: 64.2
+    brightYellow: 88.3
+    brightBlue: 62.8
+    brightMagenta: 46
+    brightCyan: 87.7
+    brightWhite: 90.6

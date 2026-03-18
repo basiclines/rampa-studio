@@ -1,0 +1,49 @@
+name: "Rimber"
+source:
+  marketplace_id: "Utsav.Rimber"
+  version: "1.0.2"
+  installs: 384
+  author: "Utsav"
+  repo: "https://github.com/Utsav2931/Rimber"
+  url: "https://marketplace.visualstudio.com/items?itemName=Utsav.Rimber"
+colors:
+  bg: "#262728"
+  fg: "#9EB2BA"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#8FCDDB"
+  white: "#C0B1B1"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 55.5
+    black: 0
+    red: 24.5
+    green: 50.8
+    yellow: 83.4
+    blue: 25.2
+    magenta: 27.5
+    cyan: 67.2
+    white: 58.7
+    brightBlack: 19.8
+    brightRed: 36.3
+    brightGreen: 61.3
+    brightYellow: 93.4
+    brightBlue: 37.8
+    brightMagenta: 43.1
+    brightCyan: 53.2
+    brightWhite: 87.8

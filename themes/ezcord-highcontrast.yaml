@@ -1,0 +1,49 @@
+name: "ezcord-highcontrast"
+source:
+  marketplace_id: "zkawiy.ezcord-theme"
+  version: "1.1.1"
+  installs: 46
+  author: "zkawiy"
+  repo: "https://github.com/Nico4devv/ezcord-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zkawiy.ezcord-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#808080"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 16.2
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 34.8
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 16.2
+    brightMagenta: 46.2
+    brightCyan: 92.2
+    brightWhite: 107.9

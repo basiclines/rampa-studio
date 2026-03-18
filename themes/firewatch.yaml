@@ -1,0 +1,49 @@
+name: "firewatch"
+source:
+  marketplace_id: "gmtstephane.firewatch"
+  version: "0.0.1"
+  installs: 916
+  author: "gmtstephane"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=gmtstephane.firewatch"
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#3B4252"
+  red: "#E06C75"
+  green: "#A3BE8C"
+  yellow: "#E5C07B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#6E88A6"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#E06C75"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#E5C07B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 38.9
+    green: 58.5
+    yellow: 67.4
+    blue: 45.4
+    magenta: 43.3
+    cyan: 33.3
+    white: 89.1
+    brightBlack: 12.2
+    brightRed: 38.9
+    brightGreen: 58.5
+    brightYellow: 67.4
+    brightBlue: 45.4
+    brightMagenta: 43.3
+    brightCyan: 57.4
+    brightWhite: 93

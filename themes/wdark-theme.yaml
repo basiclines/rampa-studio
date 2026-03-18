@@ -1,0 +1,49 @@
+name: "wDark Theme"
+source:
+  marketplace_id: "wykys.wdark"
+  version: "0.0.3"
+  installs: 439
+  author: "wykys"
+  repo: "https://gitlab.com/wykys/vscode-theme-wdark"
+  url: "https://marketplace.visualstudio.com/items?itemName=wykys.wdark"
+colors:
+  bg: "#000000"
+  fg: "#AAAAAA"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 56.2
+    black: 9.9
+    red: 37.7
+    green: 61.4
+    yellow: 49.6
+    blue: 50.7
+    magenta: 40.1
+    cyan: 53.5
+    white: 84
+    brightBlack: 16.5
+    brightRed: 47.1
+    brightGreen: 77.8
+    brightYellow: 62.2
+    brightBlue: 64.7
+    brightMagenta: 51.3
+    brightCyan: 68.8
+    brightWhite: 91.7

@@ -1,0 +1,49 @@
+name: "ProNight"
+source:
+  marketplace_id: "huzaifamushtaq.pronight"
+  version: "0.0.1"
+  installs: 16
+  author: "Huzaifa Mushtaq"
+  repo: "https://github.com/huzaifamushtaqdev/pronight"
+  url: "https://marketplace.visualstudio.com/items?itemName=huzaifamushtaq.pronight"
+colors:
+  bg: "#050912"
+  fg: "#DFE6F5"
+  black: "#0C1118"
+  red: "#FF7B72"
+  green: "#5FD69F"
+  yellow: "#EAB05F"
+  blue: "#4FA3FF"
+  magenta: "#C4B5FF"
+  cyan: "#4FC7FF"
+  white: "#CBD7E8"
+  brightBlack: "#273248"
+  brightRed: "#FF8F85"
+  brightGreen: "#73E6B0"
+  brightYellow: "#F0C674"
+  brightBlue: "#9BCFFF"
+  brightMagenta: "#D7C2FF"
+  brightCyan: "#7EE2FF"
+  brightWhite: "#E7EEFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 91.3
+    black: 0
+    red: 52.9
+    green: 69.1
+    yellow: 65.5
+    blue: 51
+    magenta: 67.9
+    cyan: 66
+    white: 81.5
+    brightBlack: 0
+    brightRed: 59
+    brightGreen: 78.5
+    brightYellow: 75.5
+    brightBlue: 74.2
+    brightMagenta: 75.5
+    brightCyan: 80.8
+    brightWhite: 96.4

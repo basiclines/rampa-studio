@@ -1,0 +1,49 @@
+name: "blue-color-theme"
+source:
+  marketplace_id: "ctf0.seti-ux"
+  version: "0.1.7"
+  installs: 1554
+  author: "ctf0"
+  repo: "https://github.com/ctf0/Seti_UX-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ctf0.seti-ux"
+colors:
+  bg: "#1E2024"
+  fg: "#FFFFFF"
+  black: "#292C31"
+  red: "#FF4545"
+  green: "#42E0AC"
+  yellow: "#42E0AC"
+  blue: "#FF4545"
+  magenta: "#CF3BE9"
+  cyan: "#94DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#5A5A5A"
+  brightRed: "#FF4545"
+  brightGreen: "#42E0AC"
+  brightYellow: "#42E0AC"
+  brightBlue: "#FF4545"
+  brightMagenta: "#CF3BE9"
+  brightCyan: "#94DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 105.8
+    black: 0
+    red: 39.7
+    green: 71.4
+    yellow: 71.4
+    blue: 39.7
+    magenta: 34.9
+    cyan: 78
+    white: 105.8
+    brightBlack: 16
+    brightRed: 39.7
+    brightGreen: 71.4
+    brightYellow: 71.4
+    brightBlue: 39.7
+    brightMagenta: 34.9
+    brightCyan: 78
+    brightWhite: 105.8

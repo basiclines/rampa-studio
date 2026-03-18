@@ -1,0 +1,49 @@
+name: "Fifty Shades of Grape"
+source:
+  marketplace_id: "ChenYefet.fifty-shades-of-grape"
+  version: "0.56.0"
+  installs: 1234
+  author: "Chen Yefet"
+  repo: "https://github.com/ChenYefet/fifty-shades-of-grape"
+  url: "https://marketplace.visualstudio.com/items?itemName=ChenYefet.fifty-shades-of-grape"
+colors:
+  bg: "#0C0020"
+  fg: "#DBD4FA"
+  black: "#FF00DD"
+  red: "#00CCCC"
+  green: "#FF00DD"
+  yellow: "#AA00FF"
+  blue: "#AA00FF"
+  magenta: "#006E6E"
+  cyan: "#FF00DD"
+  white: "#00FFFF"
+  brightBlack: "#FF00DD"
+  brightRed: "#00CCCC"
+  brightGreen: "#FF00DD"
+  brightYellow: "#AA00FF"
+  brightBlue: "#AA00FF"
+  brightMagenta: "#006E6E"
+  brightCyan: "#FF00DD"
+  brightWhite: "#00FFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 297
+  contrast:
+    fg: 83.1
+    black: 43.6
+    red: 64.2
+    green: 43.6
+    yellow: 29.2
+    blue: 29.2
+    magenta: 21.8
+    cyan: 43.6
+    white: 92
+    brightBlack: 43.6
+    brightRed: 64.2
+    brightGreen: 43.6
+    brightYellow: 29.2
+    brightBlue: 29.2
+    brightMagenta: 21.8
+    brightCyan: 43.6
+    brightWhite: 92

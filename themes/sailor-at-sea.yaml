@@ -1,0 +1,49 @@
+name: "sailor-at-sea"
+source:
+  marketplace_id: "rikkarth.ship-at-sea"
+  version: "0.0.3"
+  installs: 561
+  author: "rikkarth"
+  repo: "https://github.com/rikkarth/ship-at-sea"
+  url: "https://marketplace.visualstudio.com/items?itemName=rikkarth.ship-at-sea"
+colors:
+  bg: "#070707"
+  fg: "#EAEAEA"
+  black: "#231E1A"
+  red: "#E64528"
+  green: "#F5B56A"
+  yellow: "#F07E1B"
+  blue: "#D0A46C"
+  magenta: "#F28E43"
+  cyan: "#BFAFA4"
+  white: "#EAEAEA"
+  brightBlack: "#6E625A"
+  brightRed: "#E64528"
+  brightGreen: "#F5B56A"
+  brightYellow: "#F07E1B"
+  brightBlue: "#D0A46C"
+  brightMagenta: "#F28E43"
+  brightCyan: "#BFAFA4"
+  brightWhite: "#EAEAEA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 94.1
+    black: 0
+    red: 35.6
+    green: 69.5
+    yellow: 49.6
+    blue: 57.2
+    magenta: 54.9
+    cyan: 60.5
+    white: 94.1
+    brightBlack: 22.2
+    brightRed: 35.6
+    brightGreen: 69.5
+    brightYellow: 49.6
+    brightBlue: 57.2
+    brightMagenta: 54.9
+    brightCyan: 60.5
+    brightWhite: 94.1

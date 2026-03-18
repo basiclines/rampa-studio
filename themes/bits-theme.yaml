@@ -1,0 +1,49 @@
+name: "Bits Theme"
+source:
+  marketplace_id: "Joabits.bits-dark-theme"
+  version: "0.0.15"
+  installs: 85
+  author: "Joabits"
+  repo: "https://github.com/Joabits/bits-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Joabits.bits-dark-theme"
+colors:
+  bg: "#060A0F"
+  fg: "#FFFFFF"
+  black: "#060A0F"
+  red: "#FF595E"
+  green: "#6BF178"
+  yellow: "#FFE4A3"
+  blue: "#22EEFF"
+  magenta: "#DDA8FF"
+  cyan: "#00CECB"
+  white: "#F5F0F0"
+  brightBlack: "#444446"
+  brightRed: "#FF6B88"
+  brightGreen: "#D5FFA3"
+  brightYellow: "#FFDA88"
+  brightBlue: "#5DD5FF"
+  brightMagenta: "#FF8895"
+  brightCyan: "#00E8E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 251
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 45.1
+    green: 82.1
+    yellow: 91.8
+    blue: 83.5
+    magenta: 66.6
+    cyan: 65.2
+    white: 98.6
+    brightBlack: 9.7
+    brightRed: 49.7
+    brightGreen: 98.9
+    brightYellow: 86.7
+    brightBlue: 72.9
+    brightMagenta: 57.4
+    brightCyan: 79
+    brightWhite: 107.7

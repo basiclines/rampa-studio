@@ -1,0 +1,49 @@
+name: "Gruvbox DrakenLords Dark"
+source:
+  marketplace_id: "RickIsGone.rickisgone-gruvbox"
+  version: "1.0.4"
+  installs: 66
+  author: "RickIsGone"
+  repo: "https://github.com/RickIsGone/Gruvbox"
+  url: "https://marketplace.visualstudio.com/items?itemName=RickIsGone.rickisgone-gruvbox"
+colors:
+  bg: "#161819"
+  fg: "#EBDBB2"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 84.3
+    black: 0
+    red: 25.2
+    green: 42.9
+    yellow: 52.4
+    blue: 31.5
+    magenta: 31.6
+    cyan: 41.9
+    white: 47.2
+    brightBlack: 36.3
+    brightRed: 40.1
+    brightGreen: 61.1
+    brightYellow: 71.7
+    brightBlue: 48.5
+    brightMagenta: 47.9
+    brightCyan: 60.1
+    brightWhite: 84.3

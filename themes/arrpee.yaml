@@ -1,0 +1,49 @@
+name: "Arrpee"
+source:
+  marketplace_id: "Arrpee.arrpee-theme"
+  version: "0.1.2"
+  installs: 176
+  author: "Arrpee"
+  repo: "https://github.com/arrpee/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Arrpee.arrpee-theme"
+colors:
+  bg: "#111317"
+  fg: "#EBEBEB"
+  black: "#546E7A"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#546E7A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 94.2
+    black: 24.2
+    red: 44
+    green: 84.5
+    yellow: 79.3
+    blue: 56.3
+    magenta: 54.1
+    cyan: 78.6
+    white: 107.2
+    brightBlack: 24.2
+    brightRed: 44
+    brightGreen: 84.5
+    brightYellow: 79.3
+    brightBlue: 56.3
+    brightMagenta: 54.1
+    brightCyan: 78.6
+    brightWhite: 107.2

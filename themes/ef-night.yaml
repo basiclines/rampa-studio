@@ -1,0 +1,49 @@
+name: "Ef Night"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#000E17"
+  fg: "#AFBCBF"
+  black: "#AFBCBF"
+  red: "#EF656A"
+  green: "#1FA526"
+  yellow: "#C48502"
+  blue: "#379CF6"
+  magenta: "#D570AF"
+  cyan: "#4FB0CF"
+  white: "#1A202B"
+  brightBlack: "#70819F"
+  brightRed: "#F47360"
+  brightGreen: "#50A22F"
+  brightYellow: "#E6832F"
+  brightBlue: "#6A88FF"
+  brightMagenta: "#E580EA"
+  brightCyan: "#6FAFFF"
+  brightWhite: "#000E17"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 232
+  contrast:
+    fg: 64.6
+    black: 64.6
+    red: 44
+    green: 42.3
+    yellow: 43.4
+    blue: 46.7
+    magenta: 43.8
+    cyan: 53.1
+    white: 0
+    brightBlack: 34.6
+    brightRed: 48.1
+    brightGreen: 42.5
+    brightYellow: 48.9
+    brightBlue: 42.6
+    brightMagenta: 54.1
+    brightCyan: 57.2
+    brightWhite: 0

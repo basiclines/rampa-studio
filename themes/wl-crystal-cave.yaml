@@ -1,0 +1,49 @@
+name: "WL-Crystal Cave"
+source:
+  marketplace_id: "WatkinsLabs.crystal-cave"
+  version: "1.0.1"
+  installs: 32
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.crystal-cave"
+colors:
+  bg: "#002545"
+  fg: "#D1F2F9"
+  black: "#000000"
+  red: "#FF647C"
+  green: "#29CC97"
+  yellow: "#FFAD46"
+  blue: "#80DAEB"
+  magenta: "#5AB3CD"
+  cyan: "#80DAEB"
+  white: "#D1F2F9"
+  brightBlack: "#666666"
+  brightRed: "#FF647C"
+  brightGreen: "#29CC97"
+  brightYellow: "#FFAD46"
+  brightBlue: "#80DAEB"
+  brightMagenta: "#5AB3CD"
+  brightCyan: "#80DAEB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 249
+  contrast:
+    fg: 92.5
+    black: 0
+    red: 45
+    green: 59.6
+    yellow: 64.8
+    blue: 73.1
+    magenta: 52
+    cyan: 73.1
+    white: 92.5
+    brightBlack: 20
+    brightRed: 45
+    brightGreen: 59.6
+    brightYellow: 64.8
+    brightBlue: 73.1
+    brightMagenta: 52
+    brightCyan: 73.1
+    brightWhite: 104.9

@@ -1,0 +1,49 @@
+name: "Night-Stack Indigo Dark"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#07070F"
+  fg: "#E0E7FF"
+  black: "#151530"
+  red: "#6366F1"
+  green: "#8B93FF"
+  yellow: "#A5B4FC"
+  blue: "#4F46E5"
+  magenta: "#7C83FD"
+  cyan: "#A5B4FC"
+  white: "#E0E7FF"
+  brightBlack: "#151530"
+  brightRed: "#6366F1"
+  brightGreen: "#8B93FF"
+  brightYellow: "#A5B4FC"
+  brightBlue: "#4F46E5"
+  brightMagenta: "#7C83FD"
+  brightCyan: "#A5B4FC"
+  brightWhite: "#E0E7FF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 284
+  contrast:
+    fg: 92.5
+    black: 0
+    red: 31
+    green: 49.2
+    yellow: 63.8
+    blue: 21.3
+    magenta: 42.4
+    cyan: 63.8
+    white: 92.5
+    brightBlack: 0
+    brightRed: 31
+    brightGreen: 49.2
+    brightYellow: 63.8
+    brightBlue: 21.3
+    brightMagenta: 42.4
+    brightCyan: 63.8
+    brightWhite: 92.5

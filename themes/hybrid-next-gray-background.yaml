@@ -1,0 +1,49 @@
+name: "Hybrid Next (Gray Background)"
+source:
+  marketplace_id: "wyze.theme-hybrid-next"
+  version: "2.4.0"
+  installs: 6849
+  author: "Neil Kistner"
+  repo: "https://github.com/wyze/vscode-hybrid-next"
+  url: "https://marketplace.visualstudio.com/items?itemName=wyze.theme-hybrid-next"
+colors:
+  bg: "#333333"
+  fg: "#C5C8C6"
+  black: "#333333"
+  red: "#A54242"
+  green: "#8C9440"
+  yellow: "#DE935F"
+  blue: "#81A2BE"
+  magenta: "#85678F"
+  cyan: "#5E8D87"
+  white: "#6C7A80"
+  brightBlack: "#7A7A7A"
+  brightRed: "#CC6666"
+  brightGreen: "#B5BD68"
+  brightYellow: "#F0C674"
+  brightBlue: "#99DBFF"
+  brightMagenta: "#B294BB"
+  brightCyan: "#8ABEB7"
+  brightWhite: "#C5C8C6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 67
+    black: 0
+    red: 16.3
+    green: 35.9
+    yellow: 47.5
+    blue: 44
+    magenta: 22.3
+    cyan: 31
+    white: 25
+    brightBlack: 26.1
+    brightRed: 31.6
+    brightGreen: 57.5
+    brightYellow: 69.7
+    brightBlue: 73.7
+    brightMagenta: 44
+    brightCyan: 56
+    brightWhite: 67

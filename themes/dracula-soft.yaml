@@ -1,0 +1,49 @@
+name: "dracula-soft"
+source:
+  marketplace_id: "dharam-gfx-theme.dharam-gfx-theme"
+  version: "0.0.7"
+  installs: 660
+  author: "dharmendra kumar"
+  repo: "https://github.com/dharam-gfx/dharam-gfx-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dharam-gfx-theme.dharam-gfx-theme"
+colors:
+  bg: "#282A36"
+  fg: "#F6F6F4"
+  black: "#262626"
+  red: "#EE6666"
+  green: "#62E884"
+  yellow: "#E7EE98"
+  blue: "#BF9EEE"
+  magenta: "#F286C4"
+  cyan: "#97E1F1"
+  white: "#F6F6F4"
+  brightBlack: "#7B7F8B"
+  brightRed: "#F07C7C"
+  brightGreen: "#78F09A"
+  brightYellow: "#F6F6AE"
+  brightBlue: "#D6B4F7"
+  brightMagenta: "#F49DDA"
+  brightCyan: "#ADF6F6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 278
+  contrast:
+    fg: 97.9
+    black: 0
+    red: 40.3
+    green: 73.5
+    yellow: 88.8
+    blue: 53.9
+    magenta: 52.4
+    cyan: 77.5
+    white: 97.9
+    brightBlack: 30.4
+    brightRed: 46.5
+    brightGreen: 79.2
+    brightYellow: 95.2
+    brightBlue: 65.6
+    brightMagenta: 60.8
+    brightCyan: 89.7
+    brightWhite: 103.9

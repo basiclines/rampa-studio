@@ -1,0 +1,49 @@
+name: "Night-Stack Graphite"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0C0D10"
+  fg: "#D8D9DC"
+  black: "#1A1B21"
+  red: "#A1A1AA"
+  green: "#B4B4BB"
+  yellow: "#C9CAD1"
+  blue: "#71717A"
+  magenta: "#8B8B94"
+  cyan: "#AFAFB6"
+  white: "#D8D9DC"
+  brightBlack: "#1A1B21"
+  brightRed: "#A1A1AA"
+  brightGreen: "#B4B4BB"
+  brightYellow: "#C9CAD1"
+  brightBlue: "#71717A"
+  brightMagenta: "#8B8B94"
+  brightCyan: "#AFAFB6"
+  brightWhite: "#D8D9DC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 51.5
+    green: 61.8
+    yellow: 74.4
+    blue: 27.9
+    magenta: 40.2
+    cyan: 59
+    white: 83.3
+    brightBlack: 0
+    brightRed: 51.5
+    brightGreen: 61.8
+    brightYellow: 74.4
+    brightBlue: 27.9
+    brightMagenta: 40.2
+    brightCyan: 59
+    brightWhite: 83.3

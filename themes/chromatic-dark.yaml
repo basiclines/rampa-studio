@@ -1,0 +1,49 @@
+name: "Chromatic Dark"
+source:
+  marketplace_id: "chromatictheme.chromatic"
+  version: "1.1.2"
+  installs: 111
+  author: "cakeray"
+  repo: "https://github.com/cakeray/chromatic"
+  url: "https://marketplace.visualstudio.com/items?itemName=chromatictheme.chromatic"
+colors:
+  bg: "#0F0F0F"
+  fg: "#8A8A8A"
+  black: "#000000"
+  red: "#B03C3A"
+  green: "#3B8B6E"
+  yellow: "#8B6A4D"
+  blue: "#6D85C6"
+  magenta: "#9F7C8F"
+  cyan: "#438F8F"
+  white: "#FFFFFF"
+  brightBlack: "#1C1C1C"
+  brightRed: "#FF4F4F"
+  brightGreen: "#4FA678"
+  brightYellow: "#C19A66"
+  brightBlue: "#6DA8F3"
+  brightMagenta: "#D38FBF"
+  brightCyan: "#5DA9B0"
+  brightWhite: "#F5F5F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 39.2
+    black: 0
+    red: 22.8
+    green: 33.2
+    yellow: 27.3
+    blue: 37.7
+    magenta: 37.2
+    cyan: 36.2
+    white: 107.5
+    brightBlack: 0
+    brightRed: 43
+    brightGreen: 45.3
+    brightYellow: 50.9
+    brightBlue: 53.5
+    brightMagenta: 52.9
+    brightCyan: 49.2
+    brightWhite: 100.9

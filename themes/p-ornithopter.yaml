@@ -1,0 +1,49 @@
+name: "P. \ Ornithopter"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74756
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+colors:
+  bg: "#3D3028"
+  fg: "#F5DCBC"
+  black: "#55453B"
+  red: "#E74935"
+  green: "#98BD5C"
+  yellow: "#EF951E"
+  blue: "#8EB7CA"
+  magenta: "#CA405E"
+  cyan: "#78C0B4"
+  white: "#F5DCBC"
+  brightBlack: "#726054"
+  brightRed: "#FF7562"
+  brightGreen: "#C1E954"
+  brightYellow: "#FFC31E"
+  brightBlue: "#67D7DB"
+  brightMagenta: "#F85E91"
+  brightCyan: "#98FCD6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 53
+  contrast:
+    fg: 81.9
+    black: 0
+    red: 30.8
+    green: 54.3
+    yellow: 50.6
+    blue: 54.3
+    magenta: 23.9
+    cyan: 55.5
+    white: 81.9
+    brightBlack: 16.2
+    brightRed: 45.5
+    brightGreen: 78.7
+    brightYellow: 70.2
+    brightBlue: 66.7
+    brightMagenta: 40.2
+    brightCyan: 87.7
+    brightWhite: 102.1

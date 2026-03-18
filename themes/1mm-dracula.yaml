@@ -1,0 +1,49 @@
+name: "1mm - Dracula"
+source:
+  marketplace_id: "joytrekker.1mm-themes"
+  version: "0.0.1"
+  installs: 37030
+  author: "joytrekker"
+  repo: "https://github.com/joytrekker/1mm-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=joytrekker.1mm-themes"
+colors:
+  bg: "#282A36"
+  fg: "#9DA5B4"
+  black: "#575757"
+  red: "#FF6E67"
+  green: "#5AF78E"
+  yellow: "#F4F99D"
+  blue: "#CAA9FA"
+  magenta: "#FF92D0"
+  cyan: "#9AEDFE"
+  white: "#F8F8F2"
+  brightBlack: "#4D4D4D"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 278
+  contrast:
+    fg: 49.3
+    black: 12.9
+    red: 45.7
+    green: 81.1
+    yellow: 95.9
+    blue: 60.1
+    magenta: 58.9
+    cyan: 84.1
+    white: 99
+    brightBlack: 9.1
+    brightRed: 40.4
+    brightGreen: 81.9
+    brightYellow: 95.6
+    brightBlue: 50.7
+    brightMagenta: 51.6
+    brightCyan: 81
+    brightWhite: 103.9

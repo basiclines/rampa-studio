@@ -1,0 +1,49 @@
+name: "August - Nord (Darker)"
+source:
+  marketplace_id: "inci-august.august-themes"
+  version: "2.8.0"
+  installs: 146390
+  author: "inci-august"
+  repo: "https://github.com/inci-august/august-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes"
+colors:
+  bg: "#191C22"
+  fg: "#7B88A1"
+  black: "#272C36"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#7D7C9B"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 36.8
+    black: 0
+    red: 32.4
+    green: 61.1
+    yellow: 75.8
+    blue: 48.1
+    magenta: 32.6
+    cyan: 62.1
+    white: 91.8
+    brightBlack: 14.8
+    brightRed: 32.4
+    brightGreen: 61.1
+    brightYellow: 75.8
+    brightBlue: 48.1
+    brightMagenta: 45.9
+    brightCyan: 60
+    brightWhite: 95.7

@@ -1,0 +1,49 @@
+name: "Hackish"
+source:
+  marketplace_id: "valbmig.hackish"
+  version: "1.0.0"
+  installs: 756
+  author: "valb.mig"
+  repo: "https://github.com/valb-mig/valbmig.hackish-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=valbmig.hackish"
+colors:
+  bg: "#08080B"
+  fg: "#717286"
+  black: "#292936"
+  red: "#C62368"
+  green: "#FA8268"
+  yellow: "#83F3B7"
+  blue: "#FAC068"
+  magenta: "#E85467"
+  cyan: "#FAA568"
+  white: "#747480"
+  brightBlack: "#4B4B5C"
+  brightRed: "#C62368"
+  brightGreen: "#FA8268"
+  brightYellow: "#83F3B7"
+  brightBlue: "#FAC068"
+  brightMagenta: "#E85467"
+  brightCyan: "#FAA568"
+  brightWhite: "#90909F"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 28.8
+    black: 0
+    red: 26
+    green: 53.6
+    yellow: 86.2
+    blue: 74.5
+    magenta: 39.3
+    cyan: 64.5
+    white: 29.5
+    brightBlack: 12.8
+    brightRed: 26
+    brightGreen: 53.6
+    brightYellow: 86.2
+    brightBlue: 74.5
+    brightMagenta: 39.3
+    brightCyan: 64.5
+    brightWhite: 43.1

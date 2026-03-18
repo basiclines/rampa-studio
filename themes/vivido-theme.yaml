@@ -1,0 +1,49 @@
+name: "Vivido Theme"
+source:
+  marketplace_id: "philipbruer.vivido"
+  version: "0.1.0"
+  installs: 1130
+  author: "Philip Bruér"
+  repo: "https://github.com/philipbruer/vivido"
+  url: "https://marketplace.visualstudio.com/items?itemName=philipbruer.vivido"
+colors:
+  bg: "#272A30"
+  fg: "#F9F9F9"
+  black: "#292A2B"
+  red: "#FF6188"
+  green: "#19F9D8"
+  yellow: "#F7E87E"
+  blue: "#6FC1FF"
+  magenta: "#C594C5"
+  cyan: "#FCAD83"
+  white: "#F9F9F9"
+  brightBlack: "#9EA7B0"
+  brightRed: "#FF6188"
+  brightGreen: "#19F9D8"
+  brightYellow: "#F7E87E"
+  brightBlue: "#6FC1FF"
+  brightMagenta: "#C594C5"
+  brightCyan: "#FCAD83"
+  brightWhite: "#F9F9F9"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 100.1
+    black: 0
+    red: 44
+    green: 83.4
+    yellow: 87.8
+    blue: 61.2
+    magenta: 49.2
+    cyan: 64.5
+    white: 100.1
+    brightBlack: 50.2
+    brightRed: 44
+    brightGreen: 83.4
+    brightYellow: 87.8
+    brightBlue: 61.2
+    brightMagenta: 49.2
+    brightCyan: 64.5
+    brightWhite: 100.1

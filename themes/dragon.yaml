@@ -1,0 +1,49 @@
+name: "Dragon"
+source:
+  marketplace_id: "sserafy.ttera-themes"
+  version: "2.0.7"
+  installs: 2036
+  author: "sserafy"
+  repo: "https://github.com/azhou555/naturefy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ttera-themes"
+colors:
+  bg: "#322518"
+  fg: "#E8DCC6"
+  black: "#1A1410"
+  red: "#8B2635"
+  green: "#7A8471"
+  yellow: "#D4A574"
+  blue: "#5A7C8A"
+  magenta: "#C08A96"
+  cyan: "#8FABA3"
+  white: "#E8DCC6"
+  brightBlack: "#4D3D2A"
+  brightRed: "#A03447"
+  brightGreen: "#8C9580"
+  brightYellow: "#E6B787"
+  brightBlue: "#6B8D9B"
+  brightMagenta: "#D4A1AA"
+  brightCyan: "#A5C4BA"
+  brightWhite: "#F7F1E8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 66
+  contrast:
+    fg: 82.7
+    black: 0
+    red: 10.1
+    green: 31.7
+    yellow: 55
+    blue: 27.2
+    magenta: 43.6
+    cyan: 50.2
+    white: 82.7
+    brightBlack: 0
+    brightRed: 15.9
+    brightGreen: 40.1
+    brightYellow: 65.1
+    brightBlue: 35.2
+    brightMagenta: 55.2
+    brightCyan: 63.7
+    brightWhite: 95.7

@@ -1,0 +1,49 @@
+name: "niketa.pop.light"
+source:
+  marketplace_id: "selfrefactor.allegory-theme"
+  version: "0.1.1"
+  installs: 768
+  author: "selfrefactor"
+  repo: "https://github.com/selfrefactor/allegory-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=selfrefactor.allegory-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#403C3A"
+  black: "#111111"
+  red: "#F15D22"
+  green: "#73C48F"
+  yellow: "#FAA41A"
+  blue: "#3F51B5"
+  magenta: "#9C27B0"
+  cyan: "#48B9C7"
+  white: "#DEDEDE"
+  brightBlack: "#574F4A"
+  brightRed: "#CB4B16"
+  brightGreen: "#574E4A"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#D3D0D0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 95.3
+    black: 105.4
+    red: 59.6
+    green: 40.9
+    yellow: 38.9
+    blue: 83.4
+    magenta: 80.1
+    cyan: 45.5
+    white: 17
+    brightBlack: 87.8
+    brightRed: 71
+    brightGreen: 88
+    brightYellow: 70.9
+    brightBlue: 58.8
+    brightMagenta: 70.2
+    brightCyan: 52
+    brightWhite: 24.7

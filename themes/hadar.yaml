@@ -1,0 +1,49 @@
+name: "Hadar"
+source:
+  marketplace_id: "cristianvasquez.hadar-theme"
+  version: "1.0.0"
+  installs: 48
+  author: "Cristian Vásquez"
+  repo: "https://github.com/cristianvasquezc/hadar-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=cristianvasquez.hadar-theme"
+colors:
+  bg: "#00030F"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#FF101F"
+  green: "#70E000"
+  yellow: "#00B09C"
+  blue: "#5CCFE6"
+  magenta: "#AE81FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#5C6166"
+  brightRed: "#FF101F"
+  brightGreen: "#70E000"
+  brightYellow: "#00B09C"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  contrast:
+    fg: 56.1
+    black: 0
+    red: 37.7
+    green: 72.9
+    yellow: 49.7
+    blue: 68.8
+    magenta: 47.5
+    cyan: 68.8
+    white: 56.1
+    brightBlack: 20.6
+    brightRed: 37.7
+    brightGreen: 72.9
+    brightYellow: 49.7
+    brightBlue: 68.8
+    brightMagenta: 47.5
+    brightCyan: 68.8
+    brightWhite: 56.1

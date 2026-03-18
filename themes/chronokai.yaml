@@ -1,0 +1,49 @@
+name: "Chronokai"
+source:
+  marketplace_id: "ChrisNewland.chronokai"
+  version: "0.0.1"
+  installs: 161
+  author: "Chris Newland"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ChrisNewland.chronokai"
+colors:
+  bg: "#2D2A2E"
+  fg: "#FCFCFA"
+  black: "#282828"
+  red: "#E14778"
+  green: "#9ADF67"
+  yellow: "#DCBB43"
+  blue: "#9180C9"
+  magenta: "#DF865B"
+  cyan: "#4CCED8"
+  white: "#FFFFFF"
+  brightBlack: "#727072"
+  brightRed: "#E14778"
+  brightGreen: "#9ADF67"
+  brightYellow: "#DCBB43"
+  brightBlue: "#9180C9"
+  brightMagenta: "#DF865B"
+  brightCyan: "#4CCED8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 101.8
+    black: 0
+    red: 32.2
+    green: 72
+    yellow: 63.3
+    blue: 36
+    magenta: 45.3
+    cyan: 63
+    white: 103.9
+    brightBlack: 23.6
+    brightRed: 32.2
+    brightGreen: 72
+    brightYellow: 63.3
+    brightBlue: 36
+    brightMagenta: 45.3
+    brightCyan: 63
+    brightWhite: 103.9

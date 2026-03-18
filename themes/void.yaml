@@ -1,0 +1,49 @@
+name: "Void"
+source:
+  marketplace_id: "void-sin.void-singularity"
+  version: "1.0.0"
+  installs: 68
+  author: "void-sin"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=void-sin.void-singularity"
+colors:
+  bg: "#0D0D0D"
+  fg: "#C4C4C4"
+  black: "#0D0D0D"
+  red: "#6A6A6A"
+  green: "#909090"
+  yellow: "#B0B0B0"
+  blue: "#787898"
+  magenta: "#A0A0A0"
+  cyan: "#888898"
+  white: "#E8E8E8"
+  brightBlack: "#2A2A2A"
+  brightRed: "#8A8A8A"
+  brightGreen: "#B0B0B0"
+  brightYellow: "#D0D0D0"
+  brightBlue: "#9898B8"
+  brightMagenta: "#C0C0C0"
+  brightCyan: "#A8A8B8"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 70.7
+    black: 0
+    red: 24.5
+    green: 42.3
+    yellow: 59.3
+    blue: 32
+    magenta: 50.6
+    cyan: 39
+    white: 92.7
+    brightBlack: 0
+    brightRed: 39.3
+    brightGreen: 59.3
+    brightYellow: 77.8
+    brightBlue: 47.8
+    brightMagenta: 68.4
+    brightCyan: 55.5
+    brightWhite: 103

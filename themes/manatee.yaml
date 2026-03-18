@@ -1,0 +1,49 @@
+name: "Manatee"
+source:
+  marketplace_id: "anemones.anemone-colors"
+  version: "0.0.2"
+  installs: 378
+  author: "anemones"
+  repo: "https://github.com/radio-alice/anemone-colors"
+  url: "https://marketplace.visualstudio.com/items?itemName=anemones.anemone-colors"
+colors:
+  bg: "#D5DBFF"
+  fg: "#150049"
+  black: "#D5DBFF"
+  red: "#F14100"
+  green: "#009892"
+  yellow: "#0024F3"
+  blue: "#007699"
+  magenta: "#0018B1"
+  cyan: "#750091"
+  white: "#301F63"
+  brightBlack: "#BABCE5"
+  brightRed: "#00BCE1"
+  brightGreen: "#750091"
+  brightYellow: "#0024F3"
+  brightBlue: "#007699"
+  brightMagenta: "#0018B1"
+  brightCyan: "#750091"
+  brightWhite: "#150049"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: 278
+  contrast:
+    fg: 84.1
+    black: 0
+    red: 44
+    green: 42.4
+    yellow: 65.9
+    blue: 54.9
+    magenta: 75
+    cyan: 70.2
+    white: 80.1
+    brightBlack: 14.4
+    brightRed: 23.8
+    brightGreen: 70.2
+    brightYellow: 65.9
+    brightBlue: 54.9
+    brightMagenta: 75
+    brightCyan: 70.2
+    brightWhite: 84.1

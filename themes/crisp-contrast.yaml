@@ -1,0 +1,49 @@
+name: "crisp-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#0C090C"
+  fg: "#FFFFFF"
+  black: "#1B141B"
+  red: "#BA0E2E"
+  green: "#CBA0CD"
+  yellow: "#765478"
+  blue: "#FC6A0F"
+  magenta: "#FC6A0F"
+  cyan: "#CBA0CD"
+  white: "#FFFFFF"
+  brightBlack: "#463546"
+  brightRed: "#F03E5F"
+  brightGreen: "#F0E3F0"
+  brightYellow: "#A987AB"
+  brightBlue: "#FDA974"
+  brightMagenta: "#FDA974"
+  brightCyan: "#F0E3F0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 21.4
+    green: 58.3
+    yellow: 20.2
+    blue: 47.1
+    magenta: 47.1
+    cyan: 58.3
+    white: 107.7
+    brightBlack: 0
+    brightRed: 37.7
+    brightGreen: 92
+    brightYellow: 43.5
+    brightBlue: 66.6
+    brightMagenta: 66.6
+    brightCyan: 92
+    brightWhite: 107.7

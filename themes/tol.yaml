@@ -1,0 +1,49 @@
+name: "Tol"
+source:
+  marketplace_id: "dustypomerleau.tol"
+  version: "0.11.0"
+  installs: 5418
+  author: "Dusty Pomerleau"
+  repo: "https://github.com/dustypomerleau/tol"
+  url: "https://marketplace.visualstudio.com/items?itemName=dustypomerleau.tol"
+colors:
+  bg: "#292D3E"
+  fg: "#CAC0A9"
+  black: "#242837"
+  red: "#EE8866"
+  green: "#BBCC33"
+  yellow: "#EEDD88"
+  blue: "#77AADD"
+  magenta: "#FFAABB"
+  cyan: "#99DDFF"
+  white: "#FDF1D4"
+  brightBlack: "#535664"
+  brightRed: "#EE8866"
+  brightGreen: "#44BB99"
+  brightYellow: "#EEDD88"
+  brightBlue: "#9FC3E7"
+  brightMagenta: "#FFAABB"
+  brightCyan: "#99DDFF"
+  brightWhite: "#FDF5E0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 274
+  contrast:
+    fg: 64.4
+    black: 0
+    red: 48.4
+    green: 65.4
+    yellow: 80.9
+    blue: 49.3
+    magenta: 65
+    cyan: 75.9
+    white: 94.5
+    brightBlack: 12.1
+    brightRed: 48.4
+    brightGreen: 50.8
+    brightYellow: 80.9
+    brightBlue: 63.5
+    brightMagenta: 65
+    brightCyan: 75.9
+    brightWhite: 96.9

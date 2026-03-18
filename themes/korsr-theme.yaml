@@ -1,0 +1,49 @@
+name: "KORSR theme"
+source:
+  marketplace_id: "Killuox.korsr-theme"
+  version: "0.7.0"
+  installs: 17
+  author: "Killuox"
+  repo: "https://github.com/killuox/korsr-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Killuox.korsr-theme"
+colors:
+  bg: "#21242C"
+  fg: "#DCE5F8"
+  black: "#222222"
+  red: "#E55454"
+  green: "#4DDC99"
+  yellow: "#FFF5A3"
+  blue: "#5FA5F5"
+  magenta: "#D864D8"
+  cyan: "#33CDE5"
+  white: "#FFFFFF"
+  brightBlack: "#999999"
+  brightRed: "#FF6E6E"
+  brightGreen: "#4CF2A8"
+  brightYellow: "#FFF1A3"
+  brightBlue: "#62A5FF"
+  brightMagenta: "#F293F2"
+  brightCyan: "#4DDFF3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 269
+  contrast:
+    fg: 88
+    black: 0
+    red: 35.6
+    green: 68.5
+    yellow: 97
+    blue: 49.2
+    magenta: 41.4
+    cyan: 63.8
+    white: 105.1
+    brightBlack: 44.4
+    brightRed: 47.1
+    brightGreen: 80
+    brightYellow: 95.1
+    brightBlue: 50.1
+    brightMagenta: 59.8
+    brightCyan: 73.7
+    brightWhite: 105.1

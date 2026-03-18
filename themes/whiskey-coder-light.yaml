@@ -1,0 +1,49 @@
+name: "Whiskey Coder Light"
+source:
+  marketplace_id: "SubhamBera.whiskey-coder-dark"
+  version: "2.1.0"
+  installs: 37
+  author: "Subham Bera"
+  repo: "https://github.com/subhambera/Whiskey-Coder-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SubhamBera.whiskey-coder-dark"
+colors:
+  bg: "#FDFBF7"
+  fg: "#4A2C20"
+  black: "#2E1A0E"
+  red: "#C62828"
+  green: "#2E7D32"
+  yellow: "#F57C00"
+  blue: "#1565C0"
+  magenta: "#6A1B9A"
+  cyan: "#00838F"
+  white: "#4A2C20"
+  brightBlack: "#6D4C2E"
+  brightRed: "#D32F2F"
+  brightGreen: "#388E3C"
+  brightYellow: "#FFA000"
+  brightBlue: "#1976D2"
+  brightMagenta: "#7B1FA2"
+  brightCyan: "#0097A7"
+  brightWhite: "#8D6E55"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.1
+    black: 101.1
+    red: 74.1
+    green: 72.7
+    yellow: 49.4
+    blue: 75.8
+    magenta: 88.2
+    cyan: 68.5
+    white: 96.1
+    brightBlack: 84.4
+    brightRed: 70.5
+    brightGreen: 65.6
+    brightYellow: 37
+    brightBlue: 69.1
+    brightMagenta: 84.8
+    brightCyan: 59.7
+    brightWhite: 70.1

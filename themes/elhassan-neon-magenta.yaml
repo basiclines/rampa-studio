@@ -1,0 +1,49 @@
+name: "Elhassan Neon Magenta"
+source:
+  marketplace_id: "elhassan-dev.elhassan-neon-themes"
+  version: "1.1.2"
+  installs: 44
+  author: "elhassan-dev"
+  repo: "https://github.com/elhassanorabi5-dev/elhassan-neon-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=elhassan-dev.elhassan-neon-themes"
+colors:
+  bg: "#1A0F2E"
+  fg: "#FFD0FF"
+  black: "#3D1A66"
+  red: "#FF1493"
+  green: "#00FF88"
+  yellow: "#FFD000"
+  blue: "#FF1493"
+  magenta: "#00FFCC"
+  cyan: "#00FFFF"
+  white: "#FFD0FF"
+  brightBlack: "#3D1A66"
+  brightRed: "#FF1493"
+  brightGreen: "#00FF88"
+  brightYellow: "#FFD000"
+  brightBlue: "#FF1493"
+  brightMagenta: "#00FFCC"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFD0FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 297
+  contrast:
+    fg: 86.2
+    black: 0
+    red: 39.2
+    green: 86.8
+    yellow: 80.3
+    blue: 39.2
+    magenta: 88.9
+    cyan: 91.2
+    white: 86.2
+    brightBlack: 0
+    brightRed: 39.2
+    brightGreen: 86.8
+    brightYellow: 80.3
+    brightBlue: 39.2
+    brightMagenta: 88.9
+    brightCyan: 91.2
+    brightWhite: 86.2

@@ -1,0 +1,49 @@
+name: "BBogdanov Light"
+source:
+  marketplace_id: "BBogdanov.bbogdanov-color-themes"
+  version: "1.0.1"
+  installs: 679
+  author: "BBogdanov"
+  repo: "https://github.com/bbogdanov/bbogdanov-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=BBogdanov.bbogdanov-color-themes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#FFFFFF"
+  red: "#AB5B51"
+  green: "#669900"
+  yellow: "#C49F47"
+  blue: "#70A4B9"
+  magenta: "#B2889B"
+  cyan: "#336600"
+  white: "#505050"
+  brightBlack: "#E2E2E2"
+  brightRed: "#B97B49"
+  brightGreen: "#336600"
+  brightYellow: "#C49F47"
+  brightBlue: "#70A4B9"
+  brightMagenta: "#B2889B"
+  brightCyan: "#336600"
+  brightWhite: "#333333"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 73.2
+    green: 61.6
+    yellow: 49
+    blue: 52.7
+    magenta: 57.3
+    cyan: 83.6
+    white: 88
+    brightBlack: 14.7
+    brightRed: 62.4
+    brightGreen: 83.6
+    brightYellow: 49
+    brightBlue: 52.7
+    brightMagenta: 57.3
+    brightCyan: 83.6
+    brightWhite: 98.7

@@ -1,0 +1,49 @@
+name: "alligator-solarized-dark"
+source:
+  marketplace_id: "alligator-vscode-color-theme.alligator"
+  version: "1.3.2"
+  installs: 1108
+  author: "alligator-vscode-color-theme"
+  repo: "https://github.com/lianghx-319/Alligator-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=alligator-vscode-color-theme.alligator"
+colors:
+  bg: "#073642"
+  fg: "#7D99A3"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#839496"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#859900"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#839496"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  contrast:
+    fg: 39.2
+    black: 0
+    red: 25.5
+    green: 37.1
+    yellow: 37.1
+    blue: 32.1
+    magenta: 25.8
+    cyan: 37.8
+    white: 37.4
+    brightBlack: 19.3
+    brightRed: 25
+    brightGreen: 37.1
+    brightYellow: 25.1
+    brightBlue: 37.4
+    brightMagenta: 25.8
+    brightCyan: 44.3
+    brightWhite: 37.4

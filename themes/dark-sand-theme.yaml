@@ -1,0 +1,49 @@
+name: "Dark Sand Theme"
+source:
+  marketplace_id: "DarkMannn.dark-sand-color-theme"
+  version: "0.0.4"
+  installs: 1415
+  author: "DarkMannn"
+  repo: "https://github.com/DarkMannn/dark-sand-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkMannn.dark-sand-color-theme"
+colors:
+  bg: "#040404"
+  fg: "#CDCDCD"
+  black: "#000000"
+  red: "#CD6161"
+  green: "#2BB681"
+  yellow: "#E2E298"
+  blue: "#3B7AC0"
+  magenta: "#7851A9"
+  cyan: "#2EACCB"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF8181"
+  brightGreen: "#4FE4A8"
+  brightYellow: "#F7F780"
+  brightBlue: "#50A3FF"
+  brightMagenta: "#AE87E0"
+  brightCyan: "#42CCEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  contrast:
+    fg: 76.3
+    black: 0
+    red: 36.3
+    green: 51.8
+    yellow: 86.5
+    blue: 31.1
+    magenta: 22.4
+    cyan: 50.5
+    white: 107.9
+    brightBlack: 23
+    brightRed: 55
+    brightGreen: 75.7
+    brightYellow: 98.7
+    brightBlue: 51.2
+    brightMagenta: 47.2
+    brightCyan: 66.9
+    brightWhite: 107.9

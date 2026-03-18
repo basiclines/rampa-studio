@@ -1,0 +1,49 @@
+name: "redoRainbow"
+source:
+  marketplace_id: "re-do.redo-rainbow-theme"
+  version: "0.0.3"
+  installs: 1265
+  author: "re-do"
+  repo: "https://github.com/re-do/redo-rainbow-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=re-do.redo-rainbow-theme"
+colors:
+  bg: "#1B1B1B"
+  fg: "#CBCDD2"
+  black: "#818491"
+  red: "#F51423"
+  green: "#0BDA51"
+  yellow: "#FFC40C"
+  blue: "#1F75FE"
+  magenta: "#F51423"
+  cyan: "#1F75FE"
+  white: "#CBCDD2"
+  brightBlack: "#818491"
+  brightRed: "#F51423"
+  brightGreen: "#0BDA51"
+  brightYellow: "#FFC40C"
+  brightBlue: "#1F75FE"
+  brightMagenta: "#0BDA51"
+  brightCyan: "#1F75FE"
+  brightWhite: "#CBCDD2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 74.8
+    black: 35.4
+    red: 33.9
+    green: 66.2
+    yellow: 74.9
+    blue: 32.2
+    magenta: 33.9
+    cyan: 32.2
+    white: 74.8
+    brightBlack: 35.4
+    brightRed: 33.9
+    brightGreen: 66.2
+    brightYellow: 74.9
+    brightBlue: 32.2
+    brightMagenta: 66.2
+    brightCyan: 32.2
+    brightWhite: 74.8

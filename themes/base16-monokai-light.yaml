@@ -1,0 +1,49 @@
+name: "Base16 Monokai Light"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#F9F8F5"
+  fg: "#49483E"
+  black: "#F8F8F2"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#FD971F"
+  blue: "#66D9EF"
+  magenta: "#AE81FF"
+  cyan: "#A1EFE4"
+  white: "#383830"
+  brightBlack: "#A59F85"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#F4BF75"
+  brightBlue: "#66D9EF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#A1EFE4"
+  brightWhite: "#272822"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 59.2
+    green: 20.9
+    yellow: 38.3
+    blue: 24.3
+    magenta: 50.1
+    cyan: 11.3
+    white: 93
+    brightBlack: 47.6
+    brightRed: 59.2
+    brightGreen: 20.9
+    brightYellow: 25.2
+    brightBlue: 24.3
+    brightMagenta: 50.1
+    brightCyan: 11.3
+    brightWhite: 97.5

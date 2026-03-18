@@ -1,0 +1,49 @@
+name: "Van Gogh Theme"
+source:
+  marketplace_id: "kyawzinhtet.van-gogh"
+  version: "0.0.8"
+  installs: 8
+  author: "Kyaw Zin Htet"
+  repo: "https://github.com/kyawzinhtett/Van-Gogh-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kyawzinhtet.van-gogh"
+colors:
+  bg: "#0A192F"
+  fg: "#F2E2A4"
+  black: "#0A192F"
+  red: "#D9822B"
+  green: "#7FB3D5"
+  yellow: "#F2E2A4"
+  blue: "#4A78A8"
+  magenta: "#D9822B"
+  cyan: "#9FD3C7"
+  white: "#F2E2A4"
+  brightBlack: "#2C4668"
+  brightRed: "#FF9F1C"
+  brightGreen: "#9FD3C7"
+  brightYellow: "#F6F1C1"
+  brightBlue: "#6BA4D9"
+  brightMagenta: "#FF9F1C"
+  brightCyan: "#B8E1DD"
+  brightWhite: "#FFF3C4"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 258
+  contrast:
+    fg: 87.8
+    black: 0
+    red: 45.2
+    green: 56.4
+    yellow: 87.8
+    blue: 28.4
+    magenta: 45.2
+    cyan: 72.3
+    white: 87.8
+    brightBlack: 8.9
+    brightRed: 61.4
+    brightGreen: 72.3
+    brightYellow: 96.2
+    brightBlue: 49.2
+    brightMagenta: 61.4
+    brightCyan: 82.2
+    brightWhite: 98.5

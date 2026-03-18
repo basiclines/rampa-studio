@@ -1,0 +1,49 @@
+name: "Gems-Theme-Light"
+source:
+  marketplace_id: "Mikaleb.gems-theme"
+  version: "0.4.0"
+  installs: 635
+  author: "Mikaleb"
+  repo: "https://github.com/Mikaleb/Gems-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Mikaleb.gems-theme"
+colors:
+  bg: "#E5E9F0"
+  fg: "#2E3440"
+  black: "#000000"
+  red: "#BF616A"
+  green: "#4D653C"
+  yellow: "#8E5F00"
+  blue: "#376F9C"
+  magenta: "#860086"
+  cyan: "#1F7187"
+  white: "#FFFFFF"
+  brightBlack: "#2E3440"
+  brightRed: "#BF616A"
+  brightGreen: "#4D653C"
+  brightYellow: "#8E5F00"
+  brightBlue: "#376F9C"
+  brightMagenta: "#860086"
+  brightCyan: "#1F7187"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 262
+  contrast:
+    fg: 85.2
+    black: 92.8
+    red: 54.5
+    green: 68.9
+    yellow: 64.2
+    blue: 63.3
+    magenta: 75
+    cyan: 64.3
+    white: 12.5
+    brightBlack: 85.2
+    brightRed: 54.5
+    brightGreen: 68.9
+    brightYellow: 64.2
+    brightBlue: 63.3
+    brightMagenta: 75
+    brightCyan: 64.3
+    brightWhite: 12.5

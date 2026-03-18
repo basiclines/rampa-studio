@@ -1,0 +1,49 @@
+name: "iColorLightVolcano"
+source:
+  marketplace_id: "magnesium-007.i-colors"
+  version: "0.0.16"
+  installs: 156
+  author: "magnesium"
+  repo: "https://github.com/yyong008/mg-iColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=magnesium-007.i-colors"
+colors:
+  bg: "#F5F5F5"
+  fg: "#FF9C6E"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 33.7
+    black: 92.7
+    red: 70.2
+    green: 42
+    yellow: 37.5
+    blue: 60.1
+    magenta: 62.5
+    cyan: 44.5
+    white: 8.4
+    brightBlack: 72.8
+    brightRed: 57.4
+    brightGreen: 19.1
+    brightYellow: 12.6
+    brightBlue: 45.1
+    brightMagenta: 48.3
+    brightCyan: 22.5
+    brightWhite: 0

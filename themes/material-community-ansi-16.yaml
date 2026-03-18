@@ -1,0 +1,49 @@
+name: "Material Community Ansi 16"
+source:
+  marketplace_id: "ctenbrinke.ansi16"
+  version: "0.3.8"
+  installs: 824
+  author: "chtenb"
+  repo: "https://github.com/chtenb/vscode-ansi16"
+  url: "https://marketplace.visualstudio.com/items?itemName=ctenbrinke.ansi16"
+colors:
+  bg: "#263238"
+  fg: "#EEFFFF"
+  black: "#676E95"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#DCEAEA"
+  brightBlack: "#676E95"
+  brightRed: "#FF5370"
+  brightGreen: "#87DE97"
+  brightYellow: "#F78C6C"
+  brightBlue: "#B2E4E6"
+  brightMagenta: "#C792EA"
+  brightCyan: "#B2E4E6"
+  brightWhite: "#F2F3EC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 230
+  contrast:
+    fg: 100.4
+    black: 22.2
+    red: 42.4
+    green: 80
+    yellow: 74.7
+    blue: 51.7
+    magenta: 49.6
+    cyan: 74.1
+    white: 87.2
+    brightBlack: 22.2
+    brightRed: 39.4
+    brightGreen: 70
+    brightYellow: 50.8
+    brightBlue: 79.5
+    brightMagenta: 49.6
+    brightCyan: 79.5
+    brightWhite: 94.3

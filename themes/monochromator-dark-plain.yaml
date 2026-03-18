@@ -1,0 +1,49 @@
+name: "Monochromator Dark Plain"
+source:
+  marketplace_id: "beem.monochromator"
+  version: "0.31.1"
+  installs: 552
+  author: "Josias Beem"
+  repo: "https://codeberg.org/beem/monochromator"
+  url: "https://marketplace.visualstudio.com/items?itemName=beem.monochromator"
+colors:
+  bg: "#0F0F12"
+  fg: "#E7E7E7"
+  black: "#0F0F12"
+  red: "#FE303A"
+  green: "#30DF81"
+  yellow: "#FFF556"
+  blue: "#02A9FF"
+  magenta: "#D559FF"
+  cyan: "#00F3FF"
+  white: "#808086"
+  brightBlack: "#808086"
+  brightRed: "#FE303A"
+  brightGreen: "#30DF81"
+  brightYellow: "#FFF556"
+  brightBlue: "#02A9FF"
+  brightMagenta: "#D559FF"
+  brightCyan: "#00F3FF"
+  brightWhite: "#E7E7E7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 91.9
+    black: 0
+    red: 38.8
+    green: 71
+    yellow: 97.9
+    blue: 51.7
+    magenta: 43.8
+    cyan: 85.6
+    white: 34.6
+    brightBlack: 34.6
+    brightRed: 38.8
+    brightGreen: 71
+    brightYellow: 97.9
+    brightBlue: 51.7
+    brightMagenta: 43.8
+    brightCyan: 85.6
+    brightWhite: 91.9

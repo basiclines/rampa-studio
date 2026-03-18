@@ -1,0 +1,49 @@
+name: "Bullish Theme"
+source:
+  marketplace_id: "zhiking.bullish-theme"
+  version: "0.0.4"
+  installs: 454
+  author: "zhiking"
+  repo: "https://github.com/zyj1022/vscode-bullish-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zhiking.bullish-theme"
+colors:
+  bg: "#EFEFF4"
+  fg: "#5C6066"
+  black: "#000000"
+  red: "#FF83AC"
+  green: "#77CC00"
+  yellow: "#FAB005"
+  blue: "#339AF0"
+  magenta: "#9966CC"
+  cyan: "#12B886"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#D6656A"
+  brightGreen: "#A3D900"
+  brightYellow: "#FAB005"
+  brightBlue: "#6871FF"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#57D9AD"
+  brightWhite: "#5C6773"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 72.2
+    black: 96.7
+    red: 35.8
+    green: 29.4
+    yellow: 25.5
+    blue: 46.8
+    magenta: 58.6
+    cyan: 40.1
+    white: 20.8
+    brightBlack: 68.6
+    brightRed: 53.2
+    brightGreen: 20.2
+    brightYellow: 25.5
+    brightBlue: 56.7
+    brightMagenta: 51.9
+    brightCyan: 22.6
+    brightWhite: 69.6

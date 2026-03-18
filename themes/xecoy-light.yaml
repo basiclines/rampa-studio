@@ -1,0 +1,49 @@
+name: "Xecoy Light"
+source:
+  marketplace_id: "xecoy-studio.xecoy-theme"
+  version: "1.0.2"
+  installs: 190
+  author: "xecoy-studio"
+  repo: "https://github.com/Xecoy-Studio/Xecoy-Web-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xecoy-studio.xecoy-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#F7F8FA"
+  red: "#A11922"
+  green: "#007D19"
+  yellow: "#C96520"
+  blue: "#0033B3"
+  magenta: "#954595"
+  cyan: "#077AAB"
+  white: "#333333"
+  brightBlack: "#F7F8FA"
+  brightRed: "#A11922"
+  brightGreen: "#007D19"
+  brightYellow: "#C96520"
+  brightBlue: "#0033B3"
+  brightMagenta: "#954595"
+  brightCyan: "#077AAB"
+  brightWhite: "#333333"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 85.5
+    green: 75.7
+    yellow: 66
+    blue: 91.6
+    magenta: 79
+    cyan: 72.7
+    white: 98.7
+    brightBlack: 0
+    brightRed: 85.5
+    brightGreen: 75.7
+    brightYellow: 66
+    brightBlue: 91.6
+    brightMagenta: 79
+    brightCyan: 72.7
+    brightWhite: 98.7

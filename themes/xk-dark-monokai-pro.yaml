@@ -1,0 +1,49 @@
+name: "XK Dark Monokai Pro"
+source:
+  marketplace_id: "x1ngkong.vscode-xk-theme"
+  version: "0.1.0"
+  installs: 31
+  author: "x1ngkong"
+  repo: "https://github.com/x1ngkong/vscode-xk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=x1ngkong.vscode-xk-theme"
+colors:
+  bg: "#2D2A2E"
+  fg: "#FCFCFA"
+  black: "#000000"
+  red: "#FF6188"
+  green: "#78DCE8"
+  yellow: "#FFD866"
+  blue: "#A9DC76"
+  magenta: "#FF6188"
+  cyan: "#78DCE8"
+  white: "#FCFCFA"
+  brightBlack: "#FCFCFA"
+  brightRed: "#FF6188"
+  brightGreen: "#78DCE8"
+  brightYellow: "#FFD866"
+  brightBlue: "#A9DC76"
+  brightMagenta: "#FF6188"
+  brightCyan: "#78DCE8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 101.8
+    black: 0
+    red: 43.8
+    green: 72.4
+    yellow: 81.3
+    blue: 72.3
+    magenta: 43.8
+    cyan: 72.4
+    white: 101.8
+    brightBlack: 101.8
+    brightRed: 43.8
+    brightGreen: 72.4
+    brightYellow: 81.3
+    brightBlue: 72.3
+    brightMagenta: 43.8
+    brightCyan: 72.4
+    brightWhite: 103.9

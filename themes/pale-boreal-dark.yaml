@@ -1,0 +1,49 @@
+name: "Pale Boreal Dark"
+source:
+  marketplace_id: "MuriloSambuite.pale-boreal-dark-theme"
+  version: "1.0.8"
+  installs: 3180
+  author: "Murilo Sambuite"
+  repo: "https://github.com/sambuite/pale-boreal-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MuriloSambuite.pale-boreal-dark-theme"
+colors:
+  bg: "#0E0D17"
+  fg: "#EDECEE"
+  black: "#0E0D17"
+  red: "#F37896"
+  green: "#7EE2B3"
+  yellow: "#E2B37E"
+  blue: "#7DCDE1"
+  magenta: "#E693D6"
+  cyan: "#7DCDE1"
+  white: "#CDCCCE"
+  brightBlack: "#2D2D2D"
+  brightRed: "#F37896"
+  brightGreen: "#7EE2B3"
+  brightYellow: "#E2B37E"
+  brightBlue: "#7DCDE1"
+  brightMagenta: "#E693D6"
+  brightCyan: "#7DCDE1"
+  brightWhite: "#EDECEE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 288
+  contrast:
+    fg: 95.4
+    black: 0
+    red: 50.5
+    green: 77.1
+    yellow: 65.7
+    blue: 69.1
+    magenta: 58.5
+    cyan: 69.1
+    white: 75.6
+    brightBlack: 0
+    brightRed: 50.5
+    brightGreen: 77.1
+    brightYellow: 65.7
+    brightBlue: 69.1
+    brightMagenta: 58.5
+    brightCyan: 69.1
+    brightWhite: 95.4

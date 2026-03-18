@@ -1,0 +1,49 @@
+name: "NotionLikeTheme"
+source:
+  marketplace_id: "TARA6.notion-like-theme"
+  version: "0.2.4"
+  installs: 589
+  author: "TARA6"
+  repo: "https://github.com/tarataracodfish/notion-like-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TARA6.notion-like-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#37352F"
+  black: "#37352F"
+  red: "#A7251C"
+  green: "#007B28"
+  yellow: "#D09300"
+  blue: "#4C6CC5"
+  magenta: "#C14C8A"
+  cyan: "#32A5E4"
+  white: "#F7F7F5"
+  brightBlack: "#37352F"
+  brightRed: "#A7251C"
+  brightGreen: "#007B28"
+  brightYellow: "#D09300"
+  brightBlue: "#4C6CC5"
+  brightMagenta: "#C14C8A"
+  brightCyan: "#32A5E4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98
+    black: 98
+    red: 83.5
+    green: 76.4
+    yellow: 51.6
+    blue: 73.9
+    magenta: 70.5
+    cyan: 52.7
+    white: 0
+    brightBlack: 98
+    brightRed: 83.5
+    brightGreen: 76.4
+    brightYellow: 51.6
+    brightBlue: 73.9
+    brightMagenta: 70.5
+    brightCyan: 52.7
+    brightWhite: 0

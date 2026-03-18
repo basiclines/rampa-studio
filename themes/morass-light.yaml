@@ -1,0 +1,49 @@
+name: "morass-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#444444"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#CEC040"
+  yellow: "#68875A"
+  blue: "#AFB54C"
+  magenta: "#80A396"
+  cyan: "#677C71"
+  white: "#515151"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#E3DB91"
+  brightYellow: "#9DB691"
+  brightBlue: "#CFD394"
+  brightMagenta: "#BBCEC7"
+  brightCyan: "#9CADA4"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 80.3
+    green: 35.2
+    yellow: 67.6
+    blue: 43.3
+    magenta: 53.3
+    cyan: 71
+    white: 87.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 20.1
+    brightYellow: 43.4
+    brightBlue: 25.9
+    brightMagenta: 28.6
+    brightCyan: 46.4
+    brightWhite: 71.1

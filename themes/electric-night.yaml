@@ -1,0 +1,49 @@
+name: "Electric Night"
+source:
+  marketplace_id: "nlarew.electric-night-theme"
+  version: "1.1.0"
+  installs: 20
+  author: "nlarew"
+  repo: "https://github.com/nlarew/electric-night-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nlarew.electric-night-theme"
+colors:
+  bg: "#101010"
+  fg: "#F0F0F0"
+  black: "#282A36"
+  red: "#FF5C57"
+  green: "#5AF78E"
+  yellow: "#F3F99D"
+  blue: "#57C7FF"
+  magenta: "#FF6AC1"
+  cyan: "#9AEDFE"
+  white: "#EFF0EB"
+  brightBlack: "#282A36"
+  brightRed: "#FF5C57"
+  brightGreen: "#5AF78E"
+  brightYellow: "#F3F99D"
+  brightBlue: "#57C7FF"
+  brightMagenta: "#FF6AC1"
+  brightCyan: "#9AEDFE"
+  brightWhite: "#EFF0EB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 97.6
+    black: 0
+    red: 45.2
+    green: 84.6
+    yellow: 99.3
+    blue: 66
+    magenta: 51.5
+    cyan: 87.6
+    white: 97.2
+    brightBlack: 0
+    brightRed: 45.2
+    brightGreen: 84.6
+    brightYellow: 99.3
+    brightBlue: 66
+    brightMagenta: 51.5
+    brightCyan: 87.6
+    brightWhite: 97.2

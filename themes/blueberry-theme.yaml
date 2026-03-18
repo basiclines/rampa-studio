@@ -1,0 +1,49 @@
+name: "Blueberry Theme"
+source:
+  marketplace_id: "sylten.strawberry-theme"
+  version: "1.0.5"
+  installs: 8896
+  author: "Jonas Siltamäki Håkansson"
+  repo: "https://github.com/sylten/strawberry-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sylten.strawberry-theme"
+colors:
+  bg: "#252B2E"
+  fg: "#D4D4D4"
+  black: "#878787"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FAC863"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#878787"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FAC863"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 229
+  contrast:
+    fg: 76.6
+    black: 34.3
+    red: 35
+    green: 62
+    yellow: 73.9
+    blue: 41.3
+    magenta: 49.2
+    cyan: 50.2
+    white: 76.6
+    brightBlack: 34.3
+    brightRed: 35
+    brightGreen: 62
+    brightYellow: 73.9
+    brightBlue: 41.3
+    brightMagenta: 49.2
+    brightCyan: 50.2
+    brightWhite: 76.6

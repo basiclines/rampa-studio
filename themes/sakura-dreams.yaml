@@ -1,0 +1,49 @@
+name: "Sakura Dreams"
+source:
+  marketplace_id: "nhcarrigan.naomis-themes"
+  version: "2.3.0"
+  installs: 68
+  author: "NHCarrigan"
+  repo: "https://git.nhcarrigan.com/nhcarrigan/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=nhcarrigan.naomis-themes"
+colors:
+  bg: "#FFEFEF"
+  fg: "#D87093"
+  black: "#FFE4E8"
+  red: "#FF1493"
+  green: "#FF69B4"
+  yellow: "#FFB6C1"
+  blue: "#DB7093"
+  magenta: "#FF85A2"
+  cyan: "#FFAFC5"
+  white: "#FFD1DC"
+  brightBlack: "#FFEFEF"
+  brightRed: "#FF0066"
+  brightGreen: "#FF77A8"
+  brightYellow: "#FFA6C9"
+  brightBlue: "#F08080"
+  brightMagenta: "#FF9AAC"
+  brightCyan: "#FFC0CB"
+  brightWhite: "#FFF5F7"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 50.8
+    black: 0
+    red: 54.1
+    green: 43.4
+    yellow: 21.3
+    blue: 50.3
+    magenta: 37.5
+    cyan: 23.5
+    white: 10.3
+    brightBlack: 0
+    brightRed: 55.7
+    brightGreen: 40.8
+    brightYellow: 26.3
+    brightBlue: 42.8
+    brightMagenta: 31.2
+    brightCyan: 17.4
+    brightWhite: 0

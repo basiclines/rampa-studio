@@ -1,0 +1,49 @@
+name: "Solarized Light N"
+source:
+  marketplace_id: "naren.solarized-n"
+  version: "0.0.2"
+  installs: 537
+  author: "Naren"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=naren.solarized-n"
+colors:
+  bg: "#FDF6E3"
+  fg: "#839496"
+  black: "#586E75"
+  red: "#859900"
+  green: "#DC322F"
+  yellow: "#586E75"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#586E75"
+  brightRed: "#586E75"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#EEE8D5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 53.5
+    black: 71.6
+    red: 53.8
+    green: 65.3
+    yellow: 71.6
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
+    white: 0
+    brightBlack: 71.6
+    brightRed: 71.6
+    brightGreen: 71.6
+    brightYellow: 65.7
+    brightBlue: 53.5
+    brightMagenta: 65
+    brightCyan: 46.7
+    brightWhite: 0

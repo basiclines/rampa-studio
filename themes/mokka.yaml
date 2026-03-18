@@ -1,0 +1,49 @@
+name: "Mokka"
+source:
+  marketplace_id: "tsybko22.mokka-fork"
+  version: "1.0.0"
+  installs: 29
+  author: "Ivan Tsybko"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=tsybko22.mokka-fork"
+colors:
+  bg: "#191919"
+  fg: "#A0A0A0"
+  black: "#303030"
+  red: "#E07070"
+  green: "#90C070"
+  yellow: "#E0B070"
+  blue: "#59A6DE"
+  magenta: "#B77EB7"
+  cyan: "#20B090"
+  white: "#A0A0A0"
+  brightBlack: "#303030"
+  brightRed: "#E07070"
+  brightGreen: "#90C070"
+  brightYellow: "#E0B070"
+  brightBlue: "#59A6DE"
+  brightMagenta: "#B77EB7"
+  brightCyan: "#20B090"
+  brightWhite: "#A0A0A0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 49.6
+    black: 0
+    red: 42.7
+    green: 59.8
+    yellow: 63.1
+    blue: 49.3
+    magenta: 42.1
+    cyan: 48.2
+    white: 49.6
+    brightBlack: 0
+    brightRed: 42.7
+    brightGreen: 59.8
+    brightYellow: 63.1
+    brightBlue: 49.3
+    brightMagenta: 42.1
+    brightCyan: 48.2
+    brightWhite: 49.6

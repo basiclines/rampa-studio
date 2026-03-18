@@ -1,0 +1,49 @@
+name: "w40 Theme"
+source:
+  marketplace_id: "emersonsm.pinkcode-theme"
+  version: "1.3.4"
+  installs: 698
+  author: "emersonsm"
+  repo: "https://github.com/emersonsm/pinkcode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=emersonsm.pinkcode-theme"
+colors:
+  bg: "#181C24"
+  fg: "#E5E5E5"
+  black: "#181C24"
+  red: "#CD84C8"
+  green: "#C4BFA2"
+  yellow: "#DDEC5B"
+  blue: "#CD84C8"
+  magenta: "#CD84C8"
+  cyan: "#E5E5E5"
+  white: "#E5E5E5"
+  brightBlack: "#515151"
+  brightRed: "#E5E5E5"
+  brightGreen: "#E5E5E5"
+  brightYellow: "#E9EC5B"
+  brightBlue: "#CD84C8"
+  brightMagenta: "#CD84C8"
+  brightCyan: "#E5E5E5"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  contrast:
+    fg: 89.5
+    black: 0
+    red: 47.8
+    green: 66
+    yellow: 87.8
+    blue: 47.8
+    magenta: 47.8
+    cyan: 89.5
+    white: 89.5
+    brightBlack: 13
+    brightRed: 89.5
+    brightGreen: 89.5
+    brightYellow: 89.4
+    brightBlue: 47.8
+    brightMagenta: 47.8
+    brightCyan: 89.5
+    brightWhite: 89.5

@@ -1,0 +1,49 @@
+name: "Aether Clarity"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#1F2328"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#1F883D"
+  yellow: "#9A6700"
+  blue: "#0969DA"
+  magenta: "#8250DF"
+  cyan: "#0598BC"
+  white: "#6E7781"
+  brightBlack: "#57606A"
+  brightRed: "#DA3633"
+  brightGreen: "#2EA043"
+  brightYellow: "#BF8700"
+  brightBlue: "#218BFF"
+  brightMagenta: "#A475F9"
+  brightCyan: "#3FB8D4"
+  brightWhite: "#8C959F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 102.8
+    black: 101.5
+    red: 74.8
+    green: 70.9
+    yellow: 73.4
+    blue: 74.9
+    magenta: 74.3
+    cyan: 60.6
+    white: 71.6
+    brightBlack: 81.8
+    brightRed: 70.5
+    brightGreen: 60.8
+    brightYellow: 58.2
+    brightBlue: 60.7
+    brightMagenta: 59.3
+    brightCyan: 45.6
+    brightWhite: 57.2

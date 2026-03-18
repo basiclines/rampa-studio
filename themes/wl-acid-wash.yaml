@@ -1,0 +1,49 @@
+name: "WL-Acid Wash"
+source:
+  marketplace_id: "WatkinsLabs.acid-wash"
+  version: "1.0.1"
+  installs: 27
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.acid-wash"
+colors:
+  bg: "#FF00FF"
+  fg: "#00FF00"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FF8000"
+  blue: "#FF00FF"
+  magenta: "#FFFF00"
+  cyan: "#FF00FF"
+  white: "#00FF00"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FF8000"
+  brightBlue: "#FF00FF"
+  brightMagenta: "#FFFF00"
+  brightCyan: "#FF00FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 328
+  contrast:
+    fg: 39.5
+    black: 48.5
+    red: 0
+    green: 39.5
+    yellow: 0
+    blue: 0
+    magenta: 55.7
+    cyan: 0
+    white: 39.5
+    brightBlack: 21.2
+    brightRed: 0
+    brightGreen: 39.5
+    brightYellow: 0
+    brightBlue: 0
+    brightMagenta: 55.7
+    brightCyan: 0
+    brightWhite: 60.9

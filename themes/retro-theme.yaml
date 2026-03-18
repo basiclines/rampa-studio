@@ -1,0 +1,49 @@
+name: "retro theme"
+source:
+  marketplace_id: "mssxmt.vintage-story-theme"
+  version: "0.1.2"
+  installs: 10
+  author: "mssxmt"
+  repo: "https://github.com/mssxmt/vintage-story-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mssxmt.vintage-story-theme"
+colors:
+  bg: "#0C5071"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#00CDFF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#1383FF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 236
+  contrast:
+    fg: 66.7
+    black: 14.4
+    red: 13.9
+    green: 40.2
+    yellow: 72.8
+    blue: 14.6
+    magenta: 17
+    cyan: 53.9
+    white: 77.2
+    brightBlack: 9.2
+    brightRed: 25.8
+    brightGreen: 50.7
+    brightYellow: 82.8
+    brightBlue: 24.3
+    brightMagenta: 32.6
+    brightCyan: 42.6
+    brightWhite: 77.2

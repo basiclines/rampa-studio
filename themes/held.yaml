@@ -1,0 +1,49 @@
+name: "Held"
+source:
+  marketplace_id: "techwithcarlos.Held"
+  version: "1.1.0"
+  installs: 1597
+  author: "techwithcarlos"
+  repo: "https://github.com/CarlosTaubeler/Held"
+  url: "https://marketplace.visualstudio.com/items?itemName=techwithcarlos.Held"
+colors:
+  bg: "#142335"
+  fg: "#D7DBE0"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#33FF00"
+  yellow: "#F2FF00"
+  blue: "#0066FF"
+  magenta: "#CC00FF"
+  cyan: "#0AB6C2"
+  white: "#D7DBE0"
+  brightBlack: "#808080"
+  brightRed: "#FF0000"
+  brightGreen: "#33FF00"
+  brightYellow: "#F2FF00"
+  brightBlue: "#0066FF"
+  brightMagenta: "#CC00FF"
+  brightCyan: "#35E2EE"
+  brightWhite: "#D7DBE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 254
+  contrast:
+    fg: 82
+    black: 0
+    red: 35
+    green: 84.3
+    yellow: 98.4
+    blue: 26.8
+    magenta: 33
+    cyan: 51.5
+    white: 82
+    brightBlack: 32.3
+    brightRed: 35
+    brightGreen: 84.3
+    brightYellow: 98.4
+    brightBlue: 26.8
+    brightMagenta: 33
+    brightCyan: 74.5
+    brightWhite: 82

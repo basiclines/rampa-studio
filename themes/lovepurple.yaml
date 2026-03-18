@@ -1,0 +1,49 @@
+name: "LovePurple"
+source:
+  marketplace_id: "MahdiBehkar.lovely-purple-theme"
+  version: "0.0.4"
+  installs: 3146
+  author: "MahdiBehkar"
+  repo: "https://codeberg.org/behkar/lovely_purple_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MahdiBehkar.lovely-purple-theme"
+colors:
+  bg: "#CD9EF7"
+  fg: "#F7F7F7"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 308
+  contrast:
+    fg: 41.2
+    black: 62.1
+    red: 30.1
+    green: 0
+    yellow: 14
+    blue: 42.1
+    magenta: 30.7
+    cyan: 16.7
+    white: 42
+    brightBlack: 34.8
+    brightRed: 30.1
+    brightGreen: 0
+    brightYellow: 0
+    brightBlue: 42.1
+    brightMagenta: 30.7
+    brightCyan: 16.7
+    brightWhite: 0

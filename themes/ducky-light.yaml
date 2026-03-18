@@ -1,0 +1,49 @@
+name: "Ducky Light"
+source:
+  marketplace_id: "utsavgupta.theme-ducky-light"
+  version: "0.0.4"
+  installs: 1307
+  author: "Utsav Gupta"
+  repo: "https://github.com/utsavgupta/ducky-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=utsavgupta.theme-ducky-light"
+colors:
+  bg: "#F9F9F9"
+  fg: "#383A42"
+  black: "#D5D6DD"
+  red: "#D52753"
+  green: "#23974A"
+  yellow: "#DF631C"
+  blue: "#275FE4"
+  magenta: "#823FF1"
+  cyan: "#27618D"
+  white: "#000000"
+  brightBlack: "#E4E5ED"
+  brightRed: "#FF6480"
+  brightGreen: "#3CBC66"
+  brightYellow: "#C5A332"
+  brightBlue: "#0099E1"
+  brightMagenta: "#CE33C0"
+  brightCyan: "#6D93BB"
+  brightWhite: "#26272D"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 92.6
+    black: 17.8
+    red: 68.9
+    green: 61
+    yellow: 58.6
+    blue: 73
+    magenta: 72
+    cyan: 78.8
+    white: 102.5
+    brightBlack: 9.1
+    brightRed: 50.1
+    brightGreen: 44.2
+    brightYellow: 44
+    brightBlue: 54.4
+    brightMagenta: 65
+    brightCyan: 55.7
+    brightWhite: 98.2

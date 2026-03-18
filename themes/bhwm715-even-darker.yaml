@@ -1,0 +1,49 @@
+name: "BHWM715 - Even Darker"
+source:
+  marketplace_id: "brian-local.b715xyz"
+  version: "0.1.0"
+  installs: 51
+  author: "brian-local"
+  repo: "https://github.com/brian715/b715xyz"
+  url: "https://marketplace.visualstudio.com/items?itemName=brian-local.b715xyz"
+colors:
+  bg: "#252935"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 270
+  contrast:
+    fg: 76.8
+    black: 0
+    red: 24
+    green: 50.3
+    yellow: 82.9
+    blue: 24.7
+    magenta: 27.1
+    cyan: 44.9
+    white: 87.3
+    brightBlack: 19.4
+    brightRed: 35.9
+    brightGreen: 60.9
+    brightYellow: 93
+    brightBlue: 37.3
+    brightMagenta: 42.7
+    brightCyan: 52.7
+    brightWhite: 87.3

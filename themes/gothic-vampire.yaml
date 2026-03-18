@@ -1,0 +1,49 @@
+name: "Gothic Vampire"
+source:
+  marketplace_id: "Diyllan.midnight-coven-themes"
+  version: "1.0.1"
+  installs: 1123
+  author: "Diyllan"
+  repo: "https://github.com/diyllan/midnight-coven-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Diyllan.midnight-coven-themes"
+colors:
+  bg: "#1A1017"
+  fg: "#F5F0F5"
+  black: "#15080F"
+  red: "#FF5077"
+  green: "#A03060"
+  yellow: "#FF9070"
+  blue: "#A070B0"
+  magenta: "#D060A0"
+  cyan: "#CF4070"
+  white: "#F0D8E0"
+  brightBlack: "#907080"
+  brightRed: "#FF7090"
+  brightGreen: "#C04070"
+  brightYellow: "#FFB090"
+  brightBlue: "#C090D0"
+  brightMagenta: "#F080C0"
+  brightCyan: "#FF6090"
+  brightWhite: "#FFF0F5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 338
+  contrast:
+    fg: 98.3
+    black: 0
+    red: 43.7
+    green: 18.7
+    yellow: 58.2
+    blue: 35
+    magenta: 38.1
+    cyan: 30.5
+    white: 86
+    brightBlack: 30.8
+    brightRed: 50.6
+    brightGreen: 27.4
+    brightYellow: 69.6
+    brightBlue: 50.9
+    brightMagenta: 53.4
+    brightCyan: 47.2
+    brightWhite: 99.7

@@ -1,0 +1,49 @@
+name: "Genshin Vibes: Emergency Food"
+source:
+  marketplace_id: "bubaic.genshin-vibes"
+  version: "1.0.2"
+  installs: 175
+  author: "Subrata"
+  repo: "https://github.com/bubaic/genshin-vibes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes"
+colors:
+  bg: "#0F141A"
+  fg: "#F0F4F8"
+  black: "#0B1218"
+  red: "#FF91A4"
+  green: "#A8D5E2"
+  yellow: "#FFD700"
+  blue: "#E6C719"
+  magenta: "#A7D5E2"
+  cyan: "#90C8FF"
+  white: "#374D5C"
+  brightBlack: "#374D5C"
+  brightRed: "#FF91A4"
+  brightGreen: "#A8D5E2"
+  brightYellow: "#FFD700"
+  brightBlue: "#E6C719"
+  brightMagenta: "#A7D5E2"
+  brightCyan: "#90C8FF"
+  brightWhite: "#F0F4F8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 253
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 60
+    green: 75.9
+    yellow: 83.5
+    blue: 72.8
+    magenta: 75.8
+    cyan: 69.7
+    white: 11.4
+    brightBlack: 11.4
+    brightRed: 60
+    brightGreen: 75.9
+    brightYellow: 83.5
+    brightBlue: 72.8
+    brightMagenta: 75.8
+    brightCyan: 69.7
+    brightWhite: 99.6

@@ -1,0 +1,49 @@
+name: "inksea Dracula"
+source:
+  marketplace_id: "inksea.inksea-theme"
+  version: "3.3.0"
+  installs: 12188
+  author: "_inkSea"
+  repo: "https://github.com/inksea/inksea-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=inksea.inksea-theme"
+colors:
+  bg: "#1E1F29"
+  fg: "#B8C2DE"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#00B5A6"
+  yellow: "#FFDC82"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#5C7BBF"
+  white: "#C4CAD1"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#00D99A"
+  brightYellow: "#FFDC82"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#00A9EF"
+  brightWhite: "#C4CAD1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 280
+  contrast:
+    fg: 67.8
+    black: 0
+    red: 42.3
+    green: 50.2
+    yellow: 85.5
+    blue: 52.6
+    magenta: 53.5
+    cyan: 31
+    white: 72
+    brightBlack: 27
+    brightRed: 47.8
+    brightGreen: 66.6
+    brightYellow: 85.5
+    brightBlue: 65
+    brightMagenta: 61.5
+    brightCyan: 48.9
+    brightWhite: 72

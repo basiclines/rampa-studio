@@ -1,0 +1,49 @@
+name: "Secunda"
+source:
+  marketplace_id: "ruj.secunda"
+  version: "1.4.0"
+  installs: 437
+  author: "Rodger Jordas"
+  repo: "https://github.com/rmjordas/secunda"
+  url: "https://marketplace.visualstudio.com/items?itemName=ruj.secunda"
+colors:
+  bg: "#26292C"
+  fg: "#DDDDDD"
+  black: "#3F3F3F"
+  red: "#705050"
+  green: "#60B48A"
+  yellow: "#DFAF8F"
+  blue: "#163063"
+  magenta: "#DC8CC3"
+  cyan: "#8CD0D3"
+  white: "#DCDCDC"
+  brightBlack: "#709080"
+  brightRed: "#DCA3A3"
+  brightGreen: "#72D5A3"
+  brightYellow: "#F0DFAF"
+  brightBlue: "#94BFF3"
+  brightMagenta: "#EC93D3"
+  brightCyan: "#93E0E3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 13.8
+    green: 49.5
+    yellow: 60.9
+    blue: 0
+    magenta: 50.5
+    cyan: 67.7
+    white: 81.8
+    brightBlack: 35.5
+    brightRed: 56.7
+    brightGreen: 66.3
+    brightYellow: 84.2
+    brightBlue: 62.6
+    brightMagenta: 56.2
+    brightCyan: 76.4
+    brightWhite: 104.3

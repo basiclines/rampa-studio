@@ -1,0 +1,49 @@
+name: "Eon Theme v4"
+source:
+  marketplace_id: "Mrkumar.Eon-theme"
+  version: "1.2.6"
+  installs: 447
+  author: "Mr.kumar"
+  repo: "https://github.com/Cod-Kumar/Cod-kumar-vs-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Mrkumar.Eon-theme"
+colors:
+  bg: "#0B1721"
+  fg: "#E5E6EB"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#D66210"
+  yellow: "#D8BF30"
+  blue: "#2472C8"
+  magenta: "#9858FF"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#6B7D97"
+  brightRed: "#F14C4C"
+  brightGreen: "#D17D23"
+  brightYellow: "#FF7B2E"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#9858FF"
+  brightCyan: "#29B8DB"
+  brightWhite: "#CDCDCD"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 245
+  contrast:
+    fg: 90.8
+    black: 0
+    red: 26.8
+    green: 36.5
+    yellow: 67.3
+    blue: 27.5
+    magenta: 33.6
+    cyan: 47.6
+    white: 106.9
+    brightBlack: 31.8
+    brightRed: 38.6
+    brightGreen: 42.6
+    brightYellow: 51.1
+    brightBlue: 40.1
+    brightMagenta: 33.6
+    brightCyan: 55.5
+    brightWhite: 75.3

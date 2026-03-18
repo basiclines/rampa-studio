@@ -1,0 +1,49 @@
+name: "Human Soft"
+source:
+  marketplace_id: "TomHall.human-theme"
+  version: "1.1.1"
+  installs: 94
+  author: "Tom Hall"
+  repo: "https://github.com/tom-f-hall/human-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TomHall.human-theme"
+colors:
+  bg: "#F2F5F0"
+  fg: "#3A3530"
+  black: "#E8EDE5"
+  red: "#9A4A3A"
+  green: "#3E7A3F"
+  yellow: "#8A6B2F"
+  blue: "#2A6F7F"
+  magenta: "#9A5050"
+  cyan: "#357A8A"
+  white: "#7A6F62"
+  brightBlack: "#B8AAA0"
+  brightRed: "#B85555"
+  brightGreen: "#3E7A35"
+  brightYellow: "#8A6B2F"
+  brightBlue: "#3D7A8F"
+  brightMagenta: "#B85555"
+  brightCyan: "#3D7A8F"
+  brightWhite: "#3A3530"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 73.7
+    green: 68.9
+    yellow: 67.7
+    blue: 71.8
+    magenta: 72
+    cyan: 67.1
+    white: 67.5
+    brightBlack: 38
+    brightRed: 65.6
+    brightGreen: 69
+    brightYellow: 67.7
+    brightBlue: 66.6
+    brightMagenta: 65.6
+    brightCyan: 66.6
+    brightWhite: 91.2

@@ -1,0 +1,49 @@
+name: "Bits Theme Green"
+source:
+  marketplace_id: "Joabits.bits-dark-theme"
+  version: "0.0.15"
+  installs: 85
+  author: "Joabits"
+  repo: "https://github.com/Joabits/bits-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Joabits.bits-dark-theme"
+colors:
+  bg: "#000200"
+  fg: "#FFFFFF"
+  black: "#000200"
+  red: "#FF595E"
+  green: "#00FF2F"
+  yellow: "#FFE4A3"
+  blue: "#22EEFF"
+  magenta: "#DDA8FF"
+  cyan: "#00CECB"
+  white: "#F5F0F0"
+  brightBlack: "#444446"
+  brightRed: "#FF6B88"
+  brightGreen: "#33FF55"
+  brightYellow: "#FFDA88"
+  brightBlue: "#5DD5FF"
+  brightMagenta: "#FF8895"
+  brightCyan: "#00E8E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 142
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 45.3
+    green: 86.6
+    yellow: 91.9
+    blue: 83.6
+    magenta: 66.7
+    cyan: 65.3
+    white: 98.7
+    brightBlack: 9.9
+    brightRed: 49.9
+    brightGreen: 87.3
+    brightYellow: 86.8
+    brightBlue: 73.1
+    brightMagenta: 57.5
+    brightCyan: 79.1
+    brightWhite: 107.9

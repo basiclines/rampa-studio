@@ -1,0 +1,49 @@
+name: "Demon Light Pro"
+source:
+  marketplace_id: "mrsiddharthsolanki.demon-dark-pro-theme"
+  version: "2.6.7"
+  installs: 140
+  author: "mrsiddharthsolanki"
+  repo: "https://github.com/mrsiddharthsolanki/demon-dark-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=mrsiddharthsolanki.demon-dark-pro-theme"
+colors:
+  bg: "#F5F5F5"
+  fg: "#2C2C2C"
+  black: "#2C2C2C"
+  red: "#D32F2F"
+  green: "#388E3C"
+  yellow: "#F57C00"
+  blue: "#1976D2"
+  magenta: "#8E24AA"
+  cyan: "#0097A7"
+  white: "#D4D4D4"
+  brightBlack: "#757575"
+  brightRed: "#EF5350"
+  brightGreen: "#66BB6A"
+  brightYellow: "#FFA726"
+  brightBlue: "#42A5F5"
+  brightMagenta: "#AB47BC"
+  brightCyan: "#26C6DA"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 94.7
+    black: 94.7
+    red: 66.9
+    green: 62
+    yellow: 45.8
+    blue: 65.4
+    magenta: 77.2
+    cyan: 56.1
+    white: 16.8
+    brightBlack: 66.1
+    brightRed: 55.4
+    brightGreen: 40.4
+    brightYellow: 31
+    brightBlue: 45.2
+    brightMagenta: 66.7
+    brightCyan: 33.8
+    brightWhite: 9.9

@@ -1,0 +1,49 @@
+name: "Vela Spectrum Light+"
+source:
+  marketplace_id: "telianedward.vela-spectrum"
+  version: "0.3.7"
+  installs: 75
+  author: "Vela Inc"
+  repo: "https://github.com/Telianedward/VelaSpectrum"
+  url: "https://marketplace.visualstudio.com/items?itemName=telianedward.vela-spectrum"
+colors:
+  bg: "#F6F8FA"
+  fg: "#000000"
+  black: "#111111"
+  red: "#990000"
+  green: "#007C2D"
+  yellow: "#AB7600"
+  blue: "#544FFE"
+  magenta: "#AE136F"
+  cyan: "#027CA8"
+  white: "#F6F8FA"
+  brightBlack: "#3D444D"
+  brightRed: "#BC0600"
+  brightGreen: "#009B4B"
+  brightYellow: "#CB9500"
+  brightBlue: "#6D73FF"
+  brightMagenta: "#D13E8C"
+  brightCyan: "#389AC8"
+  brightWhite: "#F6F8FA"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 101.7
+    black: 101
+    red: 83.5
+    green: 71.7
+    yellow: 62.2
+    blue: 71.4
+    magenta: 76.9
+    cyan: 67.8
+    white: 0
+    brightBlack: 88.5
+    brightRed: 75.8
+    brightGreen: 58.8
+    brightYellow: 47.4
+    brightBlue: 60.7
+    brightMagenta: 65
+    brightCyan: 54.2
+    brightWhite: 0

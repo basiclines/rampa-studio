@@ -1,0 +1,49 @@
+name: "Nord Dark Pro"
+source:
+  marketplace_id: "Curve.nord-dark-pro"
+  version: "0.0.6"
+  installs: 13169
+  author: "Curve"
+  repo: "https://github.com/Curve/Nord-Dark-Pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=Curve.nord-dark-pro"
+colors:
+  bg: "#232731"
+  fg: "#A4B2CA"
+  black: "#2E3440"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#8FBCBB"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#ECEFF4"
+  brightBlack: "#3B4252"
+  brightRed: "#C6737B"
+  brightGreen: "#B0C79C"
+  brightYellow: "#EED4A0"
+  brightBlue: "#9EC5C4"
+  brightMagenta: "#BE9DB8"
+  brightCyan: "#9AC9D7"
+  brightWhite: "#D8DEE9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  contrast:
+    fg: 56.9
+    black: 0
+    red: 30.7
+    green: 59.4
+    yellow: 74.1
+    blue: 58.3
+    magenta: 44.2
+    cyan: 60.4
+    white: 94
+    brightBlack: 0
+    brightRed: 37
+    brightGreen: 65.1
+    brightYellow: 79
+    brightBlue: 63.9
+    brightMagenta: 51.2
+    brightCyan: 66.2
+    brightWhite: 83.1

@@ -1,0 +1,49 @@
+name: "G Dark-light (Hint of Red)"
+source:
+  marketplace_id: "Stonec0der.g-dark-theme"
+  version: "5.0.1"
+  installs: 10981
+  author: "stonecoder"
+  repo: "https://github.com/stoneC0der/g-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Stonec0der.g-dark-theme"
+colors:
+  bg: "#F9F9F9"
+  fg: "#5F6870"
+  black: "#737272"
+  red: "#F02B4B"
+  green: "#0DC406"
+  yellow: "#B3A402"
+  blue: "#336DEB"
+  magenta: "#940DEE"
+  cyan: "#189ED3"
+  white: "#7A7878"
+  brightBlack: "#7C7D7D"
+  brightRed: "#EB3C59"
+  brightGreen: "#17AB09"
+  brightYellow: "#ACAC02"
+  brightBlue: "#1554DC"
+  brightMagenta: "#8614D2"
+  brightCyan: "#18B1DF"
+  brightWhite: "#777575"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 74.8
+    black: 69.7
+    red: 62.5
+    green: 42
+    yellow: 46.2
+    blue: 68.1
+    magenta: 73.8
+    cyan: 53.3
+    white: 66.9
+    brightBlack: 64.8
+    brightRed: 61.8
+    brightGreen: 53.1
+    brightYellow: 44
+    brightBlue: 76.9
+    brightMagenta: 78.4
+    brightCyan: 45
+    brightWhite: 68.2

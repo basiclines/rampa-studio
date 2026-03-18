@@ -1,0 +1,49 @@
+name: "Refined (Default)"
+source:
+  marketplace_id: "itsjonq.dark-refined"
+  version: "0.0.11"
+  installs: 10801
+  author: "itsjonq"
+  repo: "https://github.com/itsjonq/dark-refined"
+  url: "https://marketplace.visualstudio.com/items?itemName=itsjonq.dark-refined"
+colors:
+  bg: "#1E1E1E"
+  fg: "#D6DEEB"
+  black: "#1E1E1E"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#ECC48D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 84.4
+    black: 0
+    red: 38.5
+    green: 66.4
+    yellow: 72.9
+    blue: 55.1
+    magenta: 52.9
+    cyan: 58.9
+    white: 106
+    brightBlack: 14.7
+    brightRed: 38.5
+    brightGreen: 66.4
+    brightYellow: 92.9
+    brightBlue: 55.1
+    brightMagenta: 52.9
+    brightCyan: 73.2
+    brightWhite: 106

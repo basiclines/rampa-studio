@@ -1,0 +1,49 @@
+name: "Dark Decay"
+source:
+  marketplace_id: "nishantg96.dark-decay-pro"
+  version: "1.0.0"
+  installs: 299
+  author: "Nishant Gajjar"
+  repo: "https://github.com/nishantg96/Dark-Decay-Pro-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nishantg96.dark-decay-pro"
+colors:
+  bg: "#101419"
+  fg: "#B6BECA"
+  black: "#384148"
+  red: "#E05F65"
+  green: "#78DBA9"
+  yellow: "#F1CF8A"
+  blue: "#70A5EB"
+  magenta: "#815A9C"
+  cyan: "#74BEE9"
+  white: "#DEE1E6"
+  brightBlack: "#666666"
+  brightRed: "#E5646A"
+  brightGreen: "#94F7C5"
+  brightYellow: "#F5F543"
+  brightBlue: "#75AAF0"
+  brightMagenta: "#CB8FF3"
+  brightCyan: "#79C3EE"
+  brightWhite: "#E3E6EB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 254
+  contrast:
+    fg: 66.3
+    black: 7.7
+    red: 39.1
+    green: 72.6
+    yellow: 79.3
+    blue: 51.6
+    magenta: 24.2
+    cyan: 62
+    white: 87.6
+    brightBlack: 22.3
+    brightRed: 41.3
+    brightGreen: 89.3
+    brightYellow: 95.9
+    brightBlue: 54.2
+    brightMagenta: 54.3
+    brightCyan: 64.8
+    brightWhite: 90.8

@@ -1,0 +1,49 @@
+name: "Liquorice"
+source:
+  marketplace_id: "walele993.fable-code-theme"
+  version: "1.2.0"
+  installs: 46
+  author: "Gabriele Meucci"
+  repo: "https://github.com/walele993/fable_a_vsc_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=walele993.fable-code-theme"
+colors:
+  bg: "#000000"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#D16D9C"
+  green: "#A3C9A3"
+  yellow: "#C49B6C"
+  blue: "#9E7EBE"
+  magenta: "#FF7EB6"
+  cyan: "#A3C9A3"
+  white: "#CCCCCC"
+  brightBlack: "#4A4A4A"
+  brightRed: "#D16D9C"
+  brightGreen: "#A3C9A3"
+  brightYellow: "#C49B6C"
+  brightBlue: "#9E7EBE"
+  brightMagenta: "#FF7EB6"
+  brightCyan: "#A3C9A3"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 41.8
+    green: 68.2
+    yellow: 52.2
+    blue: 40.3
+    magenta: 56.1
+    cyan: 68.2
+    white: 75.7
+    brightBlack: 12
+    brightRed: 41.8
+    brightGreen: 68.2
+    brightYellow: 52.2
+    brightBlue: 40.3
+    brightMagenta: 56.1
+    brightCyan: 68.2
+    brightWhite: 75.7

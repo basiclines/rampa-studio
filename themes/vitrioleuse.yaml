@@ -1,0 +1,49 @@
+name: "vitrioleuse"
+source:
+  marketplace_id: "vitrioleuse.vitrioleuse"
+  version: "1.0.0"
+  installs: 40
+  author: "vitrioleuse"
+  repo: "https://github.com/lichrot/vitrioleuse"
+  url: "https://marketplace.visualstudio.com/items?itemName=vitrioleuse.vitrioleuse"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF005F"
+  green: "#00AF87"
+  yellow: "#FFD700"
+  blue: "#0087FF"
+  magenta: "#FB923C"
+  cyan: "#875FFF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF005F"
+  brightGreen: "#00AF87"
+  brightYellow: "#FFD700"
+  brightBlue: "#0087FF"
+  brightMagenta: "#FB923C"
+  brightCyan: "#875FFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 38.4
+    green: 48.5
+    yellow: 84.3
+    blue: 39.4
+    magenta: 57.9
+    cyan: 34
+    white: 107.9
+    brightBlack: 0
+    brightRed: 38.4
+    brightGreen: 48.5
+    brightYellow: 84.3
+    brightBlue: 39.4
+    brightMagenta: 57.9
+    brightCyan: 34
+    brightWhite: 107.9

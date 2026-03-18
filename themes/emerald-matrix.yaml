@@ -1,0 +1,49 @@
+name: "Emerald Matrix"
+source:
+  marketplace_id: "SecureDev01.vscode-multi-themes"
+  version: "0.0.51"
+  installs: 1834
+  author: "SecureDev"
+  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+colors:
+  bg: "#001A1A"
+  fg: "#00F0A0"
+  black: "#001A1A"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#00F0A0"
+  brightBlack: "#004D3D"
+  brightRed: "#FF7A85"
+  brightGreen: "#D3F595"
+  brightYellow: "#FFD47F"
+  brightBlue: "#9DC3FF"
+  brightMagenta: "#D9A3F5"
+  brightCyan: "#9CE5FF"
+  brightWhite: "#00F99E"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 195
+  contrast:
+    fg: 79.4
+    black: 0
+    red: 43.6
+    green: 84.1
+    yellow: 78.9
+    blue: 55.9
+    magenta: 53.7
+    cyan: 78.2
+    white: 79.4
+    brightBlack: 9
+    brightRed: 52.2
+    brightGreen: 92.4
+    brightYellow: 83
+    brightBlue: 68.3
+    brightMagenta: 62.7
+    brightCyan: 83.4
+    brightWhite: 84.1

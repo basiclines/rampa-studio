@@ -1,0 +1,49 @@
+name: "Null Theme - Synthwave"
+source:
+  marketplace_id: "kimberlycasamina.null-theme"
+  version: "1.0.8"
+  installs: 212
+  author: "kimberlycasamina"
+  repo: "https://github.com/kimicasamina/vscode-null-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
+colors:
+  bg: "#0F0F1F"
+  fg: "#E0E0E0"
+  black: "#0F0F1F"
+  red: "#FF0080"
+  green: "#80FF00"
+  yellow: "#FFFF00"
+  blue: "#0080FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#AA66AA"
+  brightRed: "#FF40A0"
+  brightGreen: "#A0FF40"
+  brightYellow: "#FFFF40"
+  brightBlue: "#40A0FF"
+  brightMagenta: "#FF40FF"
+  brightCyan: "#40FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 283
+  contrast:
+    fg: 87.4
+    black: 0
+    red: 38.8
+    green: 89.2
+    yellow: 102.2
+    blue: 36.6
+    magenta: 45.7
+    cyan: 91.7
+    white: 107.4
+    brightBlack: 33.7
+    brightRed: 43.1
+    brightGreen: 91.7
+    brightYellow: 102.4
+    brightBlue: 48.9
+    brightMagenta: 48.6
+    brightCyan: 92.3
+    brightWhite: 107.4

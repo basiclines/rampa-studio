@@ -1,0 +1,49 @@
+name: "OhLED_CornflowerBlue"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#6495ED"
+  black: "#6495ED"
+  red: "#496DAE"
+  green: "#5077BE"
+  yellow: "#3C598E"
+  blue: "#5D8BDD"
+  magenta: "#5781CD"
+  cyan: "#43639E"
+  white: "#354F7E"
+  brightBlack: "#6495ED"
+  brightRed: "#496DAE"
+  brightGreen: "#5077BE"
+  brightYellow: "#3C598E"
+  brightBlue: "#5D8BDD"
+  brightMagenta: "#5781CD"
+  brightCyan: "#43639E"
+  brightWhite: "#354F7E"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 45.7
+    black: 45.7
+    red: 26.4
+    green: 31
+    yellow: 18
+    blue: 40.6
+    magenta: 35.7
+    cyan: 22.1
+    white: 14
+    brightBlack: 45.7
+    brightRed: 26.4
+    brightGreen: 31
+    brightYellow: 18
+    brightBlue: 40.6
+    brightMagenta: 35.7
+    brightCyan: 22.1
+    brightWhite: 14

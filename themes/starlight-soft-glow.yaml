@@ -1,0 +1,49 @@
+name: "Starlight - Soft Glow"
+source:
+  marketplace_id: "RussellOje.ruxy1212-starlight-theme"
+  version: "2.1.5"
+  installs: 72
+  author: "Russell Oje"
+  repo: "https://github.com/ruxy1212/starlight-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RussellOje.ruxy1212-starlight-theme"
+colors:
+  bg: "#F0F4F8"
+  fg: "#2F3640"
+  black: "#E0F0EA"
+  red: "#EE5253"
+  green: "#10AC84"
+  yellow: "#FECA57"
+  blue: "#00B894"
+  magenta: "#FF6B6B"
+  cyan: "#54A0FF"
+  white: "#2F3640"
+  brightBlack: "#7F8C8D"
+  brightRed: "#EE5253"
+  brightGreen: "#10AC84"
+  brightYellow: "#FECA57"
+  brightBlue: "#00B894"
+  brightMagenta: "#FF6B6B"
+  brightCyan: "#54A0FF"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 91
+    black: 0
+    red: 54.8
+    green: 47.8
+    yellow: 17.2
+    blue: 42.1
+    magenta: 45.9
+    cyan: 44.8
+    white: 91
+    brightBlack: 55.5
+    brightRed: 54.8
+    brightGreen: 47.8
+    brightYellow: 17.2
+    brightBlue: 42.1
+    brightMagenta: 45.9
+    brightCyan: 44.8
+    brightWhite: 99.2

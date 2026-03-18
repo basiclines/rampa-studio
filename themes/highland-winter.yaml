@@ -1,0 +1,49 @@
+name: "Highland Winter"
+source:
+  marketplace_id: "merithayan.highland-winter"
+  version: "0.0.6"
+  installs: 1493
+  author: "Tim Hull"
+  repo: "https://www.github.com/mtyn/highland-winter"
+  url: "https://marketplace.visualstudio.com/items?itemName=merithayan.highland-winter"
+colors:
+  bg: "#FAFAFA"
+  fg: "#303036"
+  black: "#FAFAFA"
+  red: "#BC4E4C"
+  green: "#3C8E5C"
+  yellow: "#F5B54F"
+  blue: "#0099C9"
+  magenta: "#A4779C"
+  cyan: "#459B9F"
+  white: "#FAFAFA"
+  brightBlack: "#E4E4E7"
+  brightRed: "#BC4E4C"
+  brightGreen: "#3C8E5C"
+  brightYellow: "#F5B54F"
+  brightBlue: "#0099C9"
+  brightMagenta: "#A4779C"
+  brightCyan: "#3C8E5C"
+  brightWhite: "#303036"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.4
+    black: 0
+    red: 69.9
+    green: 64.3
+    yellow: 30.5
+    blue: 56.5
+    magenta: 61.4
+    cyan: 56.7
+    white: 0
+    brightBlack: 10.4
+    brightRed: 69.9
+    brightGreen: 64.3
+    brightYellow: 30.5
+    brightBlue: 56.5
+    brightMagenta: 61.4
+    brightCyan: 64.3
+    brightWhite: 96.4

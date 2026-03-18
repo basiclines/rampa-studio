@@ -1,0 +1,49 @@
+name: "Stark Dark"
+source:
+  marketplace_id: "MTCC.stark-theme"
+  version: "1.0.2"
+  installs: 64
+  author: "MTCC"
+  repo: "https://github.com/minhtrungcc/stark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MTCC.stark-theme"
+colors:
+  bg: "#22201C"
+  fg: "#E8E4DF"
+  black: "#22201C"
+  red: "#E07A6D"
+  green: "#7CC070"
+  yellow: "#D8B85A"
+  blue: "#7A9CE0"
+  magenta: "#B890D8"
+  cyan: "#68C0C0"
+  white: "#E8E4DF"
+  brightBlack: "#706A62"
+  brightRed: "#F0A090"
+  brightGreen: "#A8DCA0"
+  brightYellow: "#F0D888"
+  brightBlue: "#A8C4F0"
+  brightMagenta: "#D8B8F0"
+  brightCyan: "#98E0E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 88.6
+    black: 0
+    red: 44.3
+    green: 57.3
+    yellow: 63.6
+    blue: 46.8
+    magenta: 48.8
+    cyan: 58.6
+    white: 88.6
+    brightBlack: 22.9
+    brightRed: 59.9
+    brightGreen: 75.1
+    brightYellow: 81.5
+    brightBlue: 67.8
+    brightMagenta: 68.8
+    brightCyan: 78
+    brightWhite: 105.7

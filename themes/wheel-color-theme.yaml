@@ -1,0 +1,49 @@
+name: "wheel-color-theme"
+source:
+  marketplace_id: "escape-technology-llc.the-color-wheel"
+  version: "0.7.2"
+  installs: 2425
+  author: "eScape Technology LLC"
+  repo: "https://escape-technology-llc.visualstudio.com/Color%20Wheel/_git/Color%20Wheel"
+  url: "https://marketplace.visualstudio.com/items?itemName=escape-technology-llc.the-color-wheel"
+colors:
+  bg: "#092418"
+  fg: "#F3CEDE"
+  black: "#404040"
+  red: "#6F0B0B"
+  green: "#0B6F0B"
+  yellow: "#6F6F0B"
+  blue: "#0B0B6F"
+  magenta: "#6F0B6F"
+  cyan: "#0B6F6F"
+  white: "#B0B0B0"
+  brightBlack: "#787878"
+  brightRed: "#DE6F6F"
+  brightGreen: "#6FDE6F"
+  brightYellow: "#DEDE6F"
+  brightBlue: "#6F6FDE"
+  brightMagenta: "#DE6FDE"
+  brightCyan: "#6FDEDE"
+  brightWhite: "#DEDEDE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 162
+  contrast:
+    fg: 80.7
+    black: 0
+    red: 0
+    green: 18.7
+    yellow: 23.3
+    blue: 0
+    magenta: 0
+    cyan: 20.3
+    white: 57.4
+    brightBlack: 28.9
+    brightRed: 41.2
+    brightGreen: 70.6
+    brightYellow: 81.1
+    brightBlue: 30.8
+    brightMagenta: 46
+    brightCyan: 74.3
+    brightWhite: 84.5

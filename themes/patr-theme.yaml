@@ -1,0 +1,49 @@
+name: "patr-theme"
+source:
+  marketplace_id: "patr-cloud.patr-theme"
+  version: "0.0.2"
+  installs: 133
+  author: "Patr Cloud"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=patr-cloud.patr-theme"
+colors:
+  bg: "#0D0526"
+  fg: "#FFFFFF"
+  black: "#493F3F"
+  red: "#D62B36"
+  green: "#47C96C"
+  yellow: "#FDD13A"
+  blue: "#007BFF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#807979"
+  brightRed: "#D62B36"
+  brightGreen: "#47C96C"
+  brightYellow: "#FDD13A"
+  brightBlue: "#007BFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 289
+  contrast:
+    fg: 107.6
+    black: 8.6
+    red: 28.9
+    green: 60.4
+    yellow: 81.2
+    blue: 35.1
+    magenta: 30.4
+    cyan: 48.2
+    white: 107.6
+    brightBlack: 31.9
+    brightRed: 28.9
+    brightGreen: 60.4
+    brightYellow: 81.2
+    brightBlue: 35.1
+    brightMagenta: 46.1
+    brightCyan: 56.1
+    brightWhite: 107.6

@@ -1,0 +1,49 @@
+name: "Matcha"
+source:
+  marketplace_id: "Falyssa.matcha-pastel-theme"
+  version: "0.1.4"
+  installs: 239
+  author: "Falyssa"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Falyssa.matcha-pastel-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#8E8E8E"
+  black: "#000000"
+  red: "#E64F4F"
+  green: "#7FD17F"
+  yellow: "#E0D473"
+  blue: "#87B9EE"
+  magenta: "#EC93EC"
+  cyan: "#80CDE0"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#E64B4B"
+  brightGreen: "#6EBC6E"
+  brightYellow: "#C7B94A"
+  brightBlue: "#5D8EC2"
+  brightMagenta: "#D18AD1"
+  brightCyan: "#6EB5C7"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 60.1
+    black: 106
+    red: 64
+    green: 34.8
+    yellow: 24
+    blue: 40
+    magenta: 41.1
+    cyan: 33
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 64.7
+    brightGreen: 45.4
+    brightYellow: 38.8
+    brightBlue: 61.8
+    brightMagenta: 49.6
+    brightCyan: 45.4
+    brightWhite: 48.5

@@ -1,0 +1,49 @@
+name: "MonRch-Darc"
+source:
+  marketplace_id: "MonRch.monrch-darc"
+  version: "0.0.16"
+  installs: 78
+  author: "MonRch"
+  repo: "https://github.com/Rahul-Encoded/MonRchDarc"
+  url: "https://marketplace.visualstudio.com/items?itemName=MonRch.monrch-darc"
+colors:
+  bg: "#1E1B29"
+  fg: "#ADEBB3"
+  black: "#000000"
+  red: "#FF1744"
+  green: "#C3E88D"
+  yellow: "#FFD180"
+  blue: "#80DEEA"
+  magenta: "#B388FF"
+  cyan: "#E040FB"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF1744"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFD180"
+  brightBlue: "#80DEEA"
+  brightMagenta: "#B388FF"
+  brightCyan: "#E040FB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 294
+  contrast:
+    fg: 83.8
+    black: 0
+    red: 36.5
+    green: 83.5
+    yellow: 81.1
+    blue: 76.3
+    magenta: 48.6
+    cyan: 40.6
+    white: 106.2
+    brightBlack: 0
+    brightRed: 36.5
+    brightGreen: 83.5
+    brightYellow: 81.1
+    brightBlue: 76.3
+    brightMagenta: 48.6
+    brightCyan: 40.6
+    brightWhite: 106.2

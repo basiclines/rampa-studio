@@ -1,0 +1,49 @@
+name: "Zenburn"
+source:
+  marketplace_id: "swashata.beautiful-ui"
+  version: "1.7.0"
+  installs: 121085
+  author: "swashata"
+  repo: "https://github.com/swashata/vscode-beautiful-ui"
+  url: "https://marketplace.visualstudio.com/items?itemName=swashata.beautiful-ui"
+colors:
+  bg: "#383838"
+  fg: "#DEDEDE"
+  black: "#000000"
+  red: "#D81E00"
+  green: "#5EA702"
+  yellow: "#CFAE00"
+  blue: "#427AB3"
+  magenta: "#89658E"
+  cyan: "#00A7AA"
+  white: "#DBDED8"
+  brightBlack: "#686A66"
+  brightRed: "#F54235"
+  brightGreen: "#99E343"
+  brightYellow: "#FDEB61"
+  brightBlue: "#84B0D8"
+  brightMagenta: "#BC94B7"
+  brightCyan: "#37E6E8"
+  brightWhite: "#F1F1F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 21.3
+    green: 38.2
+    yellow: 52.6
+    blue: 23.3
+    magenta: 20.7
+    cyan: 39.1
+    white: 78.7
+    brightBlack: 17.2
+    brightRed: 31.5
+    brightGreen: 70.2
+    brightYellow: 86.1
+    brightBlue: 49.8
+    brightMagenta: 43.8
+    brightCyan: 71.4
+    brightWhite: 91.4

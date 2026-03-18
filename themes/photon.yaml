@@ -1,0 +1,49 @@
+name: "Photon"
+source:
+  marketplace_id: "Frontverse.frontverse-photon"
+  version: "0.0.3"
+  installs: 24
+  author: "Frontverse"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Frontverse.frontverse-photon"
+colors:
+  bg: "#0F0F0F"
+  fg: "#717171"
+  black: "#D9D9D9"
+  red: "#EA5959"
+  green: "#59EABA"
+  yellow: "#EAD359"
+  blue: "#599EEA"
+  magenta: "#EA59BF"
+  cyan: "#59D6EA"
+  white: "#FFFFFF"
+  brightBlack: "#D3D3D3"
+  brightRed: "#FF7272"
+  brightGreen: "#85EECB"
+  brightYellow: "#F2E499"
+  brightBlue: "#89BAF0"
+  brightMagenta: "#FF9AE1"
+  brightCyan: "#99E4F0"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 27.5
+    black: 83.2
+    red: 40.1
+    green: 79.3
+    yellow: 79.3
+    blue: 47.8
+    magenta: 43.7
+    cyan: 71.8
+    white: 107.5
+    brightBlack: 79.5
+    brightRed: 50.5
+    brightGreen: 84.3
+    brightYellow: 89.3
+    brightBlue: 62.6
+    brightMagenta: 65.8
+    brightCyan: 82.6
+    brightWhite: 90.6

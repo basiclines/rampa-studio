@@ -1,0 +1,49 @@
+name: "Rsikified Dark Purple"
+source:
+  marketplace_id: "eliorc.riskified-theme"
+  version: "1.0.4"
+  installs: 38
+  author: "eliorc"
+  repo: "https://github.com/eliorc/riskified-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eliorc.riskified-theme"
+colors:
+  bg: "#0F1862"
+  fg: "#E7EAEF"
+  black: "#283593"
+  red: "#DF375F"
+  green: "#00BEA6"
+  yellow: "#F8DE81"
+  blue: "#97B3FF"
+  magenta: "#BA97FF"
+  cyan: "#A5EFDD"
+  white: "#F3F5F7"
+  brightBlack: "#595D69"
+  brightRed: "#DF375F"
+  brightGreen: "#00BEA6"
+  brightYellow: "#F8DE81"
+  brightBlue: "#97B3FF"
+  brightMagenta: "#BA97FF"
+  brightCyan: "#7EDFEC"
+  brightWhite: "#F1F5FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 269
+  contrast:
+    fg: 91
+    black: 0
+    red: 30.1
+    green: 53.3
+    yellow: 84.4
+    blue: 59.3
+    magenta: 53
+    cyan: 85.3
+    white: 98.1
+    brightBlack: 16.4
+    brightRed: 30.1
+    brightGreen: 53.3
+    brightYellow: 84.4
+    brightBlue: 59.3
+    brightMagenta: 53
+    brightCyan: 75.4
+    brightWhite: 98.3

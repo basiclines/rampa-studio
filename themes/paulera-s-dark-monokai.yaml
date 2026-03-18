@@ -1,0 +1,49 @@
+name: "Paulera's dark monokai"
+source:
+  marketplace_id: "Paulera.paulerathemes"
+  version: "1.4.3"
+  installs: 1867
+  author: "Paulera"
+  repo: "https://github.com/paulo-evangelista"
+  url: "https://marketplace.visualstudio.com/items?itemName=Paulera.paulerathemes"
+colors:
+  bg: "#151515"
+  fg: "#F7F1FF"
+  black: "#363537"
+  red: "#FC618D"
+  green: "#7BD88F"
+  yellow: "#B781DB"
+  blue: "#FD9353"
+  magenta: "#948AE3"
+  cyan: "#5AD4E6"
+  white: "#F7F1FF"
+  brightBlack: "#69676C"
+  brightRed: "#FC618D"
+  brightGreen: "#7BD88F"
+  brightYellow: "#B781DB"
+  brightBlue: "#FD9353"
+  brightMagenta: "#948AE3"
+  brightCyan: "#5AD4E6"
+  brightWhite: "#F7F1FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 46.5
+    green: 70.4
+    yellow: 45.5
+    blue: 58.1
+    magenta: 44.4
+    cyan: 70.2
+    white: 99.4
+    brightBlack: 23
+    brightRed: 46.5
+    brightGreen: 70.4
+    brightYellow: 45.5
+    brightBlue: 58.1
+    brightMagenta: 44.4
+    brightCyan: 70.2
+    brightWhite: 99.4

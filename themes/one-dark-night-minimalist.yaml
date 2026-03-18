@@ -1,0 +1,49 @@
+name: "One Dark Night - Minimalist"
+source:
+  marketplace_id: "sojibahmed.one-dark-night-theme"
+  version: "0.0.7"
+  installs: 1362
+  author: "sojibAhmedSafi"
+  repo: "https://github.com/SojibAhmed114/One-Dark-Night-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sojibahmed.one-dark-night-theme"
+colors:
+  bg: "#181A26"
+  fg: "#A3A3A3"
+  black: "#000000"
+  red: "#940000"
+  green: "#00774A"
+  yellow: "#8E7400"
+  blue: "#004194"
+  magenta: "#860086"
+  cyan: "#06989A"
+  white: "#B2B2B2"
+  brightBlack: "#686868"
+  brightRed: "#BA0000"
+  brightGreen: "#00965A"
+  brightYellow: "#8A8A00"
+  brightBlue: "#0052A9"
+  brightMagenta: "#8A008A"
+  brightCyan: "#008E8E"
+  brightWhite: "#9B9B9B"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 277
+  contrast:
+    fg: 51
+    black: 0
+    red: 11.9
+    green: 22.8
+    yellow: 29.1
+    blue: 9.5
+    magenta: 12.5
+    cyan: 38.1
+    white: 59.2
+    brightBlack: 22.5
+    brightRed: 19.8
+    brightGreen: 35.3
+    brightYellow: 36.1
+    brightBlue: 15.1
+    brightMagenta: 13.4
+    brightCyan: 33.6
+    brightWhite: 46.8

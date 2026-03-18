@@ -1,0 +1,49 @@
+name: "Gagarin Theme"
+source:
+  marketplace_id: "GagarinTheme.gagarin"
+  version: "0.0.9"
+  installs: 36
+  author: "Gagarin Theme"
+  repo: "https://github.com/yuricplus/gagarintheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GagarinTheme.gagarin"
+colors:
+  bg: "#111111"
+  fg: "#FFFFFF"
+  black: "#2E2E2E"
+  red: "#FF8282"
+  green: "#5AD5A6"
+  yellow: "#F0F07F"
+  blue: "#4B84C2"
+  magenta: "#BC60BC"
+  cyan: "#36B2D1"
+  white: "#CBC7C7"
+  brightBlack: "#666666"
+  brightRed: "#CB3737"
+  brightGreen: "#ABFFDD"
+  brightYellow: "#FFFF30"
+  brightBlue: "#3290F9"
+  brightMagenta: "#FD9EFD"
+  brightCyan: "#56CBE8"
+  brightWhite: "#FFF5F5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 54.8
+    green: 68.2
+    yellow: 93.9
+    blue: 34.9
+    magenta: 36.1
+    cyan: 53
+    white: 72.7
+    brightBlack: 22.5
+    brightRed: 27.5
+    brightGreen: 96.3
+    brightYellow: 102.3
+    brightBlue: 42.1
+    brightMagenta: 68.1
+    brightCyan: 66.3
+    brightWhite: 102.2

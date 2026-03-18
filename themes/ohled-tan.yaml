@@ -1,0 +1,49 @@
+name: "OhLED_Tan"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#D2B48C"
+  black: "#D2B48C"
+  red: "#9A8467"
+  green: "#A89070"
+  yellow: "#7E6C54"
+  blue: "#C4A883"
+  magenta: "#B69C79"
+  cyan: "#8C785D"
+  white: "#70604B"
+  brightBlack: "#D2B48C"
+  brightRed: "#9A8467"
+  brightGreen: "#A89070"
+  brightYellow: "#7E6C54"
+  brightBlue: "#C4A883"
+  brightMagenta: "#B69C79"
+  brightCyan: "#8C785D"
+  brightWhite: "#70604B"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 64.4
+    black: 64.4
+    red: 38.3
+    green: 44.5
+    yellow: 26.8
+    blue: 57.5
+    magenta: 50.8
+    cyan: 32.4
+    white: 21.6
+    brightBlack: 64.4
+    brightRed: 38.3
+    brightGreen: 44.5
+    brightYellow: 26.8
+    brightBlue: 57.5
+    brightMagenta: 50.8
+    brightCyan: 32.4
+    brightWhite: 21.6

@@ -1,0 +1,49 @@
+name: "Arc Dark"
+source:
+  marketplace_id: "rdnlsmith.linux-themes"
+  version: "1.3.0"
+  installs: 41699
+  author: "rdnlsmith"
+  repo: "https://github.com/rdnlsmith/vscode-arc-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rdnlsmith.linux-themes"
+colors:
+  bg: "#383C4A"
+  fg: "#A2A2A2"
+  black: "#262B36"
+  red: "#9C3528"
+  green: "#61BC3B"
+  yellow: "#F3B43A"
+  blue: "#0D68A8"
+  magenta: "#744560"
+  cyan: "#288E9C"
+  white: "#A2A2A2"
+  brightBlack: "#2F343F"
+  brightRed: "#D64937"
+  brightGreen: "#86DF5D"
+  brightYellow: "#FDD75A"
+  brightBlue: "#0F75BD"
+  brightMagenta: "#9E5E83"
+  brightCyan: "#37C3D6"
+  brightWhite: "#F9F9F9"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 273
+  contrast:
+    fg: 43.3
+    black: 0
+    red: 9.6
+    green: 46.5
+    yellow: 59.6
+    blue: 14.2
+    magenta: 0
+    cyan: 27.3
+    white: 43.3
+    brightBlack: 0
+    brightRed: 24.2
+    brightGreen: 65.7
+    brightYellow: 75.8
+    brightBlue: 19.8
+    brightMagenta: 20
+    brightCyan: 52.7
+    brightWhite: 95.3

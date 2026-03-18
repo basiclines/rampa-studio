@@ -1,0 +1,49 @@
+name: "White-color-theme"
+source:
+  marketplace_id: "arthurwhite.white"
+  version: "1.3.6"
+  installs: 100961
+  author: "Arthur White"
+  repo: "https://github.com/arthurwhite/white-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=arthurwhite.white"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#FF0032"
+  green: "#00FF68"
+  yellow: "#FFCA00"
+  blue: "#004BFF"
+  magenta: "#7D46FC"
+  cyan: "#00D2FF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF0032"
+  brightGreen: "#00FF68"
+  brightYellow: "#FFCA00"
+  brightBlue: "#004BFF"
+  brightMagenta: "#7D46FC"
+  brightCyan: "#00D2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 63.9
+    green: 16.5
+    yellow: 24.4
+    blue: 78.9
+    magenta: 74
+    cyan: 32.7
+    white: 0
+    brightBlack: 106
+    brightRed: 63.9
+    brightGreen: 16.5
+    brightYellow: 24.4
+    brightBlue: 78.9
+    brightMagenta: 74
+    brightCyan: 32.7
+    brightWhite: 0

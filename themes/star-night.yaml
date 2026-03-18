@@ -1,0 +1,49 @@
+name: "Star Night"
+source:
+  marketplace_id: "victoreduardobarreto.star-night"
+  version: "0.4.5"
+  installs: 4914
+  author: "Victor Barreto"
+  repo: "https://github.com/barretov/star-night"
+  url: "https://marketplace.visualstudio.com/items?itemName=victoreduardobarreto.star-night"
+colors:
+  bg: "#2F2F35"
+  fg: "#A2A2A3"
+  black: "#2F2F35"
+  red: "#BD0D0D"
+  green: "#117029"
+  yellow: "#DD8444"
+  blue: "#35A5F0"
+  magenta: "#A041E4"
+  cyan: "#29BBB4"
+  white: "#FFFFFF"
+  brightBlack: "#242424"
+  brightRed: "#C21717"
+  brightGreen: "#12CA3A"
+  brightYellow: "#C5D115"
+  brightBlue: "#257EC7"
+  brightMagenta: "#C515A8"
+  brightCyan: "#1AC2B4"
+  brightWhite: "#ECE3E3"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 286
+  contrast:
+    fg: 47
+    black: 0
+    red: 16.9
+    green: 16.3
+    yellow: 43.1
+    blue: 45
+    magenta: 24.3
+    cyan: 50.8
+    white: 102.9
+    brightBlack: 0
+    brightRed: 18.4
+    brightGreen: 54.6
+    brightYellow: 68.3
+    brightBlue: 27.4
+    brightMagenta: 23
+    brightCyan: 53.8
+    brightWhite: 86

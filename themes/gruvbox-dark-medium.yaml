@@ -1,0 +1,49 @@
+name: "Gruvbox Dark Medium"
+source:
+  marketplace_id: "jdinhlife.theme-gruvbox-dark-medium"
+  version: "1.1.0"
+  installs: 4080
+  author: "jdinhlife"
+  repo: "https://github.com/jdinhlife/vscode-theme-gruvbox"
+  url: "https://marketplace.visualstudio.com/items?itemName=jdinhlife.theme-gruvbox-dark-medium"
+colors:
+  bg: "#282828"
+  fg: "#FBF1C7"
+  black: "#1D2021"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 94.9
+    black: 0
+    red: 22.8
+    green: 40.5
+    yellow: 50.1
+    blue: 29.1
+    magenta: 29.3
+    cyan: 39.5
+    white: 44.8
+    brightBlack: 33.9
+    brightRed: 37.7
+    brightGreen: 58.7
+    brightYellow: 69.4
+    brightBlue: 46.2
+    brightMagenta: 45.5
+    brightCyan: 57.7
+    brightWhite: 81.9

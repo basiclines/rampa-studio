@@ -1,0 +1,49 @@
+name: "Vaquita"
+source:
+  marketplace_id: "anemones.anemone-colors"
+  version: "0.0.2"
+  installs: 378
+  author: "anemones"
+  repo: "https://github.com/radio-alice/anemone-colors"
+  url: "https://marketplace.visualstudio.com/items?itemName=anemones.anemone-colors"
+colors:
+  bg: "#00106A"
+  fg: "#F3FFDC"
+  black: "#00106A"
+  red: "#FF009C"
+  green: "#9BDABB"
+  yellow: "#FFDD5D"
+  blue: "#FFC8F5"
+  magenta: "#FF4AB9"
+  cyan: "#D2EBFF"
+  white: "#D0DDCC"
+  brightBlack: "#23327A"
+  brightRed: "#FFA685"
+  brightGreen: "#D2EBFF"
+  brightYellow: "#FFDD5D"
+  brightBlue: "#FFC8F5"
+  brightMagenta: "#FF4AB9"
+  brightCyan: "#D2EBFF"
+  brightWhite: "#F3FFDC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 101.8
+    black: 0
+    red: 37.4
+    green: 73.1
+    yellow: 84.5
+    blue: 80.5
+    magenta: 43.1
+    cyan: 89.7
+    white: 80.7
+    brightBlack: 0
+    brightRed: 63.6
+    brightGreen: 89.7
+    brightYellow: 84.5
+    brightBlue: 80.5
+    brightMagenta: 43.1
+    brightCyan: 89.7
+    brightWhite: 101.8

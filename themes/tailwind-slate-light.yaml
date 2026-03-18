@@ -1,0 +1,49 @@
+name: "Tailwind Slate Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#F8FAFC"
+  fg: "#1E293B"
+  black: "#0F172A"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#F1F5F9"
+  brightBlack: "#0F172A"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#F1F5F9"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 98.2
+    black: 101.4
+    red: 60.7
+    green: 41.2
+    yellow: 33.2
+    blue: 60.7
+    magenta: 63.1
+    cyan: 44
+    white: 0
+    brightBlack: 101.4
+    brightRed: 60.7
+    brightGreen: 41.2
+    brightYellow: 33.2
+    brightBlue: 60.7
+    brightMagenta: 63.1
+    brightCyan: 44
+    brightWhite: 0

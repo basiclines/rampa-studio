@@ -1,0 +1,49 @@
+name: "Xanthron Light"
+source:
+  marketplace_id: "XanthronWriter.vscode-theme-xanthron-light"
+  version: "0.5.1"
+  installs: 177
+  author: "Xanthron Writer"
+  repo: "https://github.com/XanthronWriter/vscode-theme-xanthron-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=XanthronWriter.vscode-theme-xanthron-light"
+colors:
+  bg: "#FFFFFF"
+  fg: "#1C2225"
+  black: "#1C2225"
+  red: "#FF2020"
+  green: "#50FF50"
+  yellow: "#FFFF50"
+  blue: "#5050FF"
+  magenta: "#FF50FF"
+  cyan: "#50FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#1C2225"
+  brightRed: "#FF2020"
+  brightGreen: "#50FF50"
+  brightYellow: "#FFFF50"
+  brightBlue: "#5050FF"
+  brightMagenta: "#FF50FF"
+  brightCyan: "#50FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103.1
+    black: 103.1
+    red: 63.4
+    green: 15.8
+    yellow: 0
+    blue: 75.7
+    magenta: 50.8
+    cyan: 10.9
+    white: 0
+    brightBlack: 103.1
+    brightRed: 63.4
+    brightGreen: 15.8
+    brightYellow: 0
+    brightBlue: 75.7
+    brightMagenta: 50.8
+    brightCyan: 10.9
+    brightWhite: 0

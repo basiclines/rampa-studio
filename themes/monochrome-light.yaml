@@ -1,0 +1,49 @@
+name: "monochrome-light"
+source:
+  marketplace_id: "dkamyshov.monochrome"
+  version: "2.3.3"
+  installs: 2227
+  author: "dkamyshov"
+  repo: "https://github.com/dkamyshov/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=dkamyshov.monochrome"
+colors:
+  bg: "#EBEBEB"
+  fg: "#101010"
+  black: "#EBEBEB"
+  red: "#2B2B2B"
+  green: "#787878"
+  yellow: "#101010"
+  blue: "#9E9E9E"
+  magenta: "#101010"
+  cyan: "#525252"
+  white: "#101010"
+  brightBlack: "#C5C5C5"
+  brightRed: "#2B2B2B"
+  brightGreen: "#787878"
+  brightYellow: "#101010"
+  brightBlue: "#9E9E9E"
+  brightMagenta: "#101010"
+  brightCyan: "#525252"
+  brightWhite: "#101010"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 89
+    green: 58.8
+    yellow: 93.6
+    blue: 40.2
+    magenta: 93.6
+    cyan: 75.3
+    white: 93.6
+    brightBlack: 19.4
+    brightRed: 89
+    brightGreen: 58.8
+    brightYellow: 93.6
+    brightBlue: 40.2
+    brightMagenta: 93.6
+    brightCyan: 75.3
+    brightWhite: 93.6

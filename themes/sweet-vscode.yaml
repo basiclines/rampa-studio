@@ -1,0 +1,49 @@
+name: "sweet-vscode"
+source:
+  marketplace_id: "EliverLara.sweet-vscode"
+  version: "1.1.1"
+  installs: 46712
+  author: "Eliver  Lara"
+  repo: "https://github.com/EliverLara/sweet-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=EliverLara.sweet-vscode"
+colors:
+  bg: "#1E1E2E"
+  fg: "#FFFFFF"
+  black: "#222235"
+  red: "#F60055"
+  green: "#06C993"
+  yellow: "#9700BE"
+  blue: "#F69154"
+  magenta: "#EC89CB"
+  cyan: "#00DDED"
+  white: "#FFFFFF"
+  brightBlack: "#3F3F54"
+  brightRed: "#F60055"
+  brightGreen: "#06C993"
+  brightYellow: "#9700BE"
+  brightBlue: "#F69154"
+  brightMagenta: "#EC89CB"
+  brightCyan: "#00DDED"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  contrast:
+    fg: 105.8
+    black: 0
+    red: 33.9
+    green: 58.7
+    yellow: 18.5
+    blue: 54.9
+    magenta: 54.3
+    cyan: 72.1
+    white: 105.8
+    brightBlack: 0
+    brightRed: 33.9
+    brightGreen: 58.7
+    brightYellow: 18.5
+    brightBlue: 54.9
+    brightMagenta: 54.3
+    brightCyan: 72.1
+    brightWhite: 105.8

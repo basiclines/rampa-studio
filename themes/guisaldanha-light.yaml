@@ -1,0 +1,49 @@
+name: "GuiSaldanha Light"
+source:
+  marketplace_id: "guisaldanha.guisaldanha-light"
+  version: "1.0.9"
+  installs: 534
+  author: "Guilherme Saldanha"
+  repo: "https://github.com/guisaldanha/vscode-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=guisaldanha.guisaldanha-light"
+colors:
+  bg: "#F8F8F8"
+  fg: "#383A42"
+  black: "#000000"
+  red: "#FF4646"
+  green: "#14CE14"
+  yellow: "#949800"
+  blue: "#2804CC"
+  magenta: "#992CBA"
+  cyan: "#A1C7FF"
+  white: "#787878"
+  brightBlack: "#000000"
+  brightRed: "#C92222"
+  brightGreen: "#147A23"
+  brightYellow: "#985B00"
+  brightBlue: "#3700FF"
+  brightMagenta: "#9A2CBA"
+  brightCyan: "#0066FF"
+  brightWhite: "#787878"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 92
+    black: 101.9
+    red: 55.6
+    green: 36.7
+    yellow: 53.7
+    blue: 87.7
+    magenta: 75.3
+    cyan: 27.1
+    white: 66.5
+    brightBlack: 101.9
+    brightRed: 72
+    brightGreen: 72.6
+    brightYellow: 72.8
+    brightBlue: 80.6
+    brightMagenta: 75.1
+    brightCyan: 68.2
+    brightWhite: 66.5

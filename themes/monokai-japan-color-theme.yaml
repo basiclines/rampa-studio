@@ -1,0 +1,49 @@
+name: "monokai-japan-color-theme"
+source:
+  marketplace_id: "Minorin.theme-monokai-japan"
+  version: "1.0.1"
+  installs: 2921
+  author: "Minorin"
+  repo: "https://github.com/minorin22/Monokai-Japan"
+  url: "https://marketplace.visualstudio.com/items?itemName=Minorin.theme-monokai-japan"
+colors:
+  bg: "#272727"
+  fg: "#FBFBF8"
+  black: "#434944"
+  red: "#DA5673"
+  green: "#7BB75B"
+  yellow: "#EEBF35"
+  blue: "#5CABDC"
+  magenta: "#7457A2"
+  cyan: "#87C7D4"
+  white: "#FBFBF8"
+  brightBlack: "#6B6B6B"
+  brightRed: "#DBA2B4"
+  brightGreen: "#898E38"
+  brightYellow: "#8A6B3D"
+  brightBlue: "#126B8C"
+  brightMagenta: "#B595CF"
+  brightCyan: "#44A9BA"
+  brightWhite: "#BFC2BC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 101.8
+    black: 7.8
+    red: 33.8
+    green: 51.7
+    yellow: 68.4
+    blue: 49.4
+    magenta: 19.7
+    cyan: 63.6
+    white: 101.8
+    brightBlack: 21.9
+    brightRed: 57.2
+    brightGreen: 35.9
+    brightYellow: 24.3
+    brightBlue: 19
+    brightMagenta: 48.4
+    brightCyan: 45.7
+    brightWhite: 65.9

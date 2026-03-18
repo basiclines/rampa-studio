@@ -1,0 +1,49 @@
+name: "OhLED_LightGreen"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#90EE90"
+  black: "#90EE90"
+  red: "#6AAF6A"
+  green: "#73BE73"
+  yellow: "#568F56"
+  blue: "#86DE86"
+  magenta: "#7DCE7D"
+  cyan: "#609F60"
+  white: "#4D7F4D"
+  brightBlack: "#90EE90"
+  brightRed: "#6AAF6A"
+  brightGreen: "#73BE73"
+  brightYellow: "#568F56"
+  brightBlue: "#86DE86"
+  brightMagenta: "#7DCE7D"
+  brightCyan: "#609F60"
+  brightWhite: "#4D7F4D"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 83.5
+    black: 83.5
+    red: 50.6
+    green: 58
+    yellow: 35.8
+    blue: 74.7
+    magenta: 66.2
+    cyan: 43
+    white: 29.1
+    brightBlack: 83.5
+    brightRed: 50.6
+    brightGreen: 58
+    brightYellow: 35.8
+    brightBlue: 74.7
+    brightMagenta: 66.2
+    brightCyan: 43
+    brightWhite: 29.1

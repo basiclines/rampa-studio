@@ -1,0 +1,49 @@
+name: "SJ Pinkish Theme"
+source:
+  marketplace_id: "SAKSHAMJOSHI.sj-azure-theme"
+  version: "0.1.0"
+  installs: 10
+  author: "SAKSHAM JOSHI"
+  repo: "https://github.com/saksham-joshi/SJ-Theme-VsCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SAKSHAMJOSHI.sj-azure-theme"
+colors:
+  bg: "#0D0A1E"
+  fg: "#FDFEFF"
+  black: "#3A1B75"
+  red: "#EE1682"
+  green: "#06AD00"
+  yellow: "#FFD400"
+  blue: "#3787D6"
+  magenta: "#EA00D9"
+  cyan: "#0AB2FA"
+  white: "#F2F8FF"
+  brightBlack: "#5C6D75"
+  brightRed: "#FF2E97"
+  brightGreen: "#3DD69C"
+  brightYellow: "#FFD400"
+  brightBlue: "#5994CE"
+  brightMagenta: "#EA00D9"
+  brightCyan: "#4BC5FA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 288
+  contrast:
+    fg: 106.8
+    black: 0
+    red: 35.2
+    green: 45.6
+    yellow: 82.7
+    blue: 36.7
+    magenta: 38.4
+    cyan: 55.2
+    white: 102.5
+    brightBlack: 24.6
+    brightRed: 41.2
+    brightGreen: 67.6
+    brightYellow: 82.7
+    brightBlue: 42.3
+    brightMagenta: 38.4
+    brightCyan: 64.5
+    brightWhite: 107.6

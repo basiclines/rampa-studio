@@ -1,0 +1,49 @@
+name: "Tailwind Lime Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#365314"
+  fg: "#ECFCCB"
+  black: "#3F6212"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#D9F99D"
+  brightBlack: "#3F6212"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#D9F99D"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 131
+  contrast:
+    fg: 88.1
+    black: 0
+    red: 35.5
+    green: 57.9
+    yellow: 65.2
+    blue: 38.8
+    magenta: 37.1
+    cyan: 56
+    white: 82.8
+    brightBlack: 0
+    brightRed: 35.5
+    brightGreen: 57.9
+    brightYellow: 65.2
+    brightBlue: 38.8
+    brightMagenta: 37.1
+    brightCyan: 56
+    brightWhite: 82.8

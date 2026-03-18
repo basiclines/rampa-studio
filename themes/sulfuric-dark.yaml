@@ -1,0 +1,49 @@
+name: "Sulfuric Dark"
+source:
+  marketplace_id: "ptanhuet.sulfuric-theme"
+  version: "0.0.1"
+  installs: 30
+  author: "ptanh.uet"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ptanhuet.sulfuric-theme"
+colors:
+  bg: "#1E212E"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  contrast:
+    fg: 70
+    black: 25.1
+    red: 42.6
+    green: 64.5
+    yellow: 77.6
+    blue: 54.6
+    magenta: 52.4
+    cyan: 76.9
+    white: 105.5
+    brightBlack: 25.1
+    brightRed: 42.6
+    brightGreen: 82.8
+    brightYellow: 77.6
+    brightBlue: 54.6
+    brightMagenta: 52.4
+    brightCyan: 76.9
+    brightWhite: 105.5

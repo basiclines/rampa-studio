@@ -1,0 +1,49 @@
+name: "Azathoth"
+source:
+  marketplace_id: "chocolatemoles.theme-azathoth-vscode"
+  version: "1.0.3"
+  installs: 213
+  author: "chocolate_moles"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=chocolatemoles.theme-azathoth-vscode"
+colors:
+  bg: "#424552"
+  fg: "#CFE8EB"
+  black: "#2B303B"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#8FA1B3"
+  magenta: "#B48EAD"
+  cyan: "#96B5B4"
+  white: "#C0C5CE"
+  brightBlack: "#65737E"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#8FA1B3"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#96B5B4"
+  brightWhite: "#EFF1F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  contrast:
+    fg: 78.3
+    black: 0
+    red: 22.4
+    green: 51.1
+    yellow: 65.8
+    blue: 38.7
+    magenta: 35.9
+    cyan: 47.4
+    white: 59.7
+    brightBlack: 16.3
+    brightRed: 22.4
+    brightGreen: 51.1
+    brightYellow: 65.8
+    brightBlue: 38.7
+    brightMagenta: 35.9
+    brightCyan: 47.4
+    brightWhite: 87

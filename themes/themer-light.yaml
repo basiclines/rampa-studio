@@ -1,0 +1,49 @@
+name: "Themer Light"
+source:
+  marketplace_id: "JoshBurnsXYZ.joshburnsxyz-vscode"
+  version: "2.3.3"
+  installs: 428
+  author: "Josh Burns"
+  repo: "https://github.com/joshburnsxyz/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JoshBurnsXYZ.joshburnsxyz-vscode"
+colors:
+  bg: "#FDFDFD"
+  fg: "#14181B"
+  black: "#FDFDFD"
+  red: "#EF4E7C"
+  green: "#6EBB82"
+  yellow: "#F79532"
+  blue: "#1299AD"
+  magenta: "#AE7BB7"
+  cyan: "#09B399"
+  white: "#35393B"
+  brightBlack: "#DCDCDD"
+  brightRed: "#F37055"
+  brightGreen: "#09B399"
+  brightYellow: "#F79532"
+  brightBlue: "#1299AD"
+  brightMagenta: "#AE7BB7"
+  brightCyan: "#09B399"
+  brightWhite: "#14181B"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 103.4
+    black: 0
+    red: 60
+    green: 44.2
+    yellow: 42.9
+    blue: 59.7
+    magenta: 59.3
+    cyan: 49.8
+    white: 95.7
+    brightBlack: 16.9
+    brightRed: 53.4
+    brightGreen: 49.8
+    brightYellow: 42.9
+    brightBlue: 59.7
+    brightMagenta: 59.3
+    brightCyan: 49.8
+    brightWhite: 103.4

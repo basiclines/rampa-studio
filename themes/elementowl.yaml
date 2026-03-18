@@ -1,0 +1,49 @@
+name: "ElementOwl"
+source:
+  marketplace_id: "dre1080.elementowl"
+  version: "0.1.2"
+  installs: 922
+  author: "ando"
+  repo: "https://github.com/dre1080/elementowl-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dre1080.elementowl"
+colors:
+  bg: "#FBFBFB"
+  fg: "#111111"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#EC0048"
+  cyan: "#2AA198"
+  white: "#94A3A5"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#9BDB4D"
+  brightYellow: "#D48E15"
+  brightBlue: "#3689E6"
+  brightMagenta: "#D33682"
+  brightCyan: "#2AA198"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 103
+    black: 96.6
+    red: 68.1
+    green: 56.6
+    yellow: 56.7
+    blue: 61.5
+    magenta: 66
+    cyan: 55.9
+    white: 48.6
+    brightBlack: 74.4
+    brightRed: 68.6
+    brightGreen: 26.6
+    brightYellow: 50.2
+    brightBlue: 60.5
+    brightMagenta: 67.9
+    brightCyan: 55.9
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Midnight Monokai"
+source:
+  marketplace_id: "AndrewSen.vscode-midnight-monokai"
+  version: "1.0.6"
+  installs: 93
+  author: "Andrew Sen"
+  repo: "https://github.com/platformer/vscode-midnight-monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrewSen.vscode-midnight-monokai"
+colors:
+  bg: "#0F0F0F"
+  fg: "#DDDDDD"
+  black: "#181B1F"
+  red: "#DF7C8E"
+  green: "#44B689"
+  yellow: "#B49E33"
+  blue: "#61A3E6"
+  magenta: "#A48FE1"
+  cyan: "#00B1CE"
+  white: "#DEDEDE"
+  brightBlack: "#636363"
+  brightRed: "#F58C81"
+  brightGreen: "#54C794"
+  brightYellow: "#C7AD40"
+  brightBlue: "#6EB2FD"
+  brightMagenta: "#CC94E6"
+  brightCyan: "#1AC2E1"
+  brightWhite: "#FFFDFB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 85.6
+    black: 0
+    red: 47.4
+    green: 52.3
+    yellow: 49.8
+    blue: 49.9
+    magenta: 48.2
+    cyan: 52
+    white: 86.3
+    brightBlack: 21.4
+    brightRed: 55.8
+    brightGreen: 60.9
+    brightYellow: 58.3
+    brightBlue: 58.2
+    brightMagenta: 55.5
+    brightCyan: 60.6
+    brightWhite: 106.4

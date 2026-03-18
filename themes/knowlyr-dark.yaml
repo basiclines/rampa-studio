@@ -1,0 +1,49 @@
+name: "Knowlyr Dark"
+source:
+  marketplace_id: "Knowlyr.knowlyr-theme"
+  version: "3.0.0"
+  installs: 15
+  author: "Knowlyr"
+  repo: "https://github.com/liuxiaotong/knowlyr-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Knowlyr.knowlyr-theme"
+colors:
+  bg: "#151C1A"
+  fg: "#BCBEC4"
+  black: "#191A1C"
+  red: "#F75464"
+  green: "#38B756"
+  yellow: "#E8A33E"
+  blue: "#56A8F5"
+  magenta: "#B882C0"
+  cyan: "#2EAA8E"
+  white: "#D0D2D8"
+  brightBlack: "#808590"
+  brightRed: "#F9667A"
+  brightGreen: "#55D872"
+  brightYellow: "#F0B95E"
+  brightBlue: "#7CACF8"
+  brightMagenta: "#D0A4D6"
+  brightCyan: "#50D4B8"
+  brightWhite: "#D4D5D9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 176
+  contrast:
+    fg: 66.1
+    black: 0
+    red: 41.3
+    green: 50.2
+    yellow: 58.7
+    blue: 51.3
+    magenta: 43.8
+    cyan: 45.6
+    white: 77.9
+    brightBlack: 35.7
+    brightRed: 45.7
+    brightGreen: 67.2
+    brightYellow: 68.6
+    brightBlue: 55.4
+    brightMagenta: 59.6
+    brightCyan: 67.1
+    brightWhite: 79.7

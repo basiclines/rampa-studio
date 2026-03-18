@@ -1,0 +1,49 @@
+name: "OhLED_DarkMagenta"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#A25AA2"
+  black: "#A25AA2"
+  red: "#774277"
+  green: "#824882"
+  yellow: "#613661"
+  blue: "#975497"
+  magenta: "#8C4E8C"
+  cyan: "#6C3C6C"
+  white: "#563056"
+  brightBlack: "#A25AA2"
+  brightRed: "#774277"
+  brightGreen: "#824882"
+  brightYellow: "#613661"
+  brightBlue: "#975497"
+  brightMagenta: "#8C4E8C"
+  brightCyan: "#6C3C6C"
+  brightWhite: "#563056"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 29.7
+    black: 29.7
+    red: 16.5
+    green: 19.7
+    yellow: 10.6
+    blue: 26.2
+    magenta: 22.8
+    cyan: 13.5
+    white: 7.9
+    brightBlack: 29.7
+    brightRed: 16.5
+    brightGreen: 19.7
+    brightYellow: 10.6
+    brightBlue: 26.2
+    brightMagenta: 22.8
+    brightCyan: 13.5
+    brightWhite: 7.9

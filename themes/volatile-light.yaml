@@ -1,0 +1,49 @@
+name: "volatile-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#474F56"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#EE9C3D"
+  yellow: "#568769"
+  blue: "#474F56"
+  magenta: "#EE9C3D"
+  cyan: "#568769"
+  white: "#535C64"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#F6CC9B"
+  brightYellow: "#8DB69D"
+  brightBlue: "#76828D"
+  brightMagenta: "#F6CC9B"
+  brightCyan: "#8DB69D"
+  brightWhite: "#76828D"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.8
+    black: 0
+    red: 80.3
+    green: 43.4
+    yellow: 68.5
+    blue: 88.8
+    magenta: 43.4
+    cyan: 68.5
+    white: 83.5
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 23.3
+    brightYellow: 44.4
+    brightBlue: 66.7
+    brightMagenta: 23.3
+    brightCyan: 44.4
+    brightWhite: 66.7

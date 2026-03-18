@@ -1,0 +1,49 @@
+name: "Xtree Gold"
+source:
+  marketplace_id: "xstructx.xtree-gold"
+  version: "0.0.6"
+  installs: 1680
+  author: "xstructx"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=xstructx.xtree-gold"
+colors:
+  bg: "#0900B0"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 265
+  contrast:
+    fg: 99.7
+    black: 8
+    red: 19.5
+    green: 44.5
+    yellow: 35.7
+    blue: 7.8
+    magenta: 19
+    cyan: 32.9
+    white: 7.9
+    brightBlack: 14.9
+    brightRed: 19.5
+    brightGreen: 53.2
+    brightYellow: 53.1
+    brightBlue: 7.8
+    brightMagenta: 19
+    brightCyan: 32.9
+    brightWhite: 45.4

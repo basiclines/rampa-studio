@@ -1,0 +1,49 @@
+name: "crackpot-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#E6E3EF"
+  fg: "#3A385B"
+  black: "#F4F3F8"
+  red: "#BA0E2E"
+  green: "#E4B363"
+  yellow: "#EF6461"
+  blue: "#908CD8"
+  magenta: "#E4B363"
+  cyan: "#3A385B"
+  white: "#44426B"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#F3DDBA"
+  brightYellow: "#F8BFBE"
+  brightBlue: "#DAD8F2"
+  brightMagenta: "#F3DDBA"
+  brightCyan: "#625F9A"
+  brightWhite: "#625F9A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 298
+  contrast:
+    fg: 80
+    black: 7.7
+    red: 64.7
+    green: 21
+    yellow: 42.2
+    blue: 41.4
+    magenta: 21
+    cyan: 80
+    white: 76
+    brightBlack: 15.2
+    brightRed: 48.3
+    brightGreen: 0
+    brightYellow: 11.1
+    brightBlue: 0
+    brightMagenta: 0
+    brightCyan: 63.3
+    brightWhite: 63.3

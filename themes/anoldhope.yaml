@@ -1,0 +1,49 @@
+name: "AnOldHope"
+source:
+  marketplace_id: "dustinsanders.an-old-hope-theme-vscode"
+  version: "4.4.0"
+  installs: 102953
+  author: "Dustin Sanders"
+  repo: "https://github.com/git@github.com:dustinsanders/an-old-hope-theme-vscode.git"
+  url: "https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode"
+colors:
+  bg: "#1C1D21"
+  fg: "#CBCDD2"
+  black: "#818491"
+  red: "#EB3D54"
+  green: "#78BD65"
+  yellow: "#E5CD52"
+  blue: "#4FB4D8"
+  magenta: "#EB3D54"
+  cyan: "#4FB4D8"
+  white: "#CBCDD2"
+  brightBlack: "#818491"
+  brightRed: "#EB3D54"
+  brightGreen: "#78BD65"
+  brightYellow: "#E5CD52"
+  brightBlue: "#4FB4D8"
+  brightMagenta: "#78BD65"
+  brightCyan: "#4FB4D8"
+  brightWhite: "#CBCDD2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 74.5
+    black: 35.1
+    red: 34.6
+    green: 55.9
+    yellow: 74.6
+    blue: 53.8
+    magenta: 34.6
+    cyan: 53.8
+    white: 74.5
+    brightBlack: 35.1
+    brightRed: 34.6
+    brightGreen: 55.9
+    brightYellow: 74.6
+    brightBlue: 53.8
+    brightMagenta: 55.9
+    brightCyan: 53.8
+    brightWhite: 74.5

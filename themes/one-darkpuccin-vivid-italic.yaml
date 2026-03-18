@@ -1,0 +1,49 @@
+name: "One DarkPuccin Vivid Italic"
+source:
+  marketplace_id: "ni3rav.one-darkppuccin"
+  version: "0.0.4"
+  installs: 939
+  author: "ni3rav"
+  repo: "https://github.com/ni3rav/one-darkppuccin"
+  url: "https://marketplace.visualstudio.com/items?itemName=ni3rav.one-darkppuccin"
+colors:
+  bg: "#2D3138"
+  fg: "#B0B4BA"
+  black: "#444B58"
+  red: "#E45C68"
+  green: "#91C96A"
+  yellow: "#D79758"
+  blue: "#4FADF8"
+  magenta: "#C769E5"
+  cyan: "#47BBC9"
+  white: "#DCE0E5"
+  brightBlack: "#555C6D"
+  brightRed: "#FF6875"
+  brightGreen: "#AAE57B"
+  brightYellow: "#F4AA62"
+  brightBlue: "#52CCFF"
+  brightMagenta: "#E67BFF"
+  brightCyan: "#51D9E8"
+  brightWhite: "#EAEAEA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 262
+  contrast:
+    fg: 56.3
+    black: 0
+    red: 34.8
+    green: 59.7
+    yellow: 48.1
+    blue: 49.3
+    magenta: 37.8
+    cyan: 52.2
+    white: 82.3
+    brightBlack: 13.6
+    brightRed: 43.4
+    brightGreen: 75.5
+    brightYellow: 59.9
+    brightBlue: 63.2
+    brightMagenta: 49.4
+    brightCyan: 67.9
+    brightWhite: 88.9

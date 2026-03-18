@@ -1,0 +1,49 @@
+name: "KAROU NOIR"
+source:
+  marketplace_id: "HAAZIQ-ALI.karou-theme"
+  version: "3.0.1"
+  installs: 90
+  author: "HAAZIQ-ALI"
+  repo: "https://github.com/HAAZIQ-ALI/KAROU-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HAAZIQ-ALI.karou-theme"
+colors:
+  bg: "#1A1C2E"
+  fg: "#E4F0FB"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#3B4252"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#E5E9F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  contrast:
+    fg: 95.2
+    black: 7.4
+    red: 32.2
+    green: 60.9
+    yellow: 75.6
+    blue: 47.9
+    magenta: 45.7
+    cyan: 61.9
+    white: 91.6
+    brightBlack: 7.4
+    brightRed: 32.2
+    brightGreen: 60.9
+    brightYellow: 75.6
+    brightBlue: 47.9
+    brightMagenta: 45.7
+    brightCyan: 61.9
+    brightWhite: 91.6

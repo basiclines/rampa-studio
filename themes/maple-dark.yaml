@@ -1,0 +1,49 @@
+name: "Maple Dark"
+source:
+  marketplace_id: "SecureDev01.vscode-multi-themes"
+  version: "0.0.51"
+  installs: 1834
+  author: "SecureDev"
+  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+colors:
+  bg: "#1E1E1F"
+  fg: "#CBD5E1"
+  black: "#333333"
+  red: "#EDABAB"
+  green: "#A4DFAE"
+  yellow: "#EECFA0"
+  blue: "#8FC7FF"
+  magenta: "#D2CCFF"
+  cyan: "#A1E8E5"
+  white: "#F3F2F2"
+  brightBlack: "#666666"
+  brightRed: "#FFC4C4"
+  brightGreen: "#BDF8C7"
+  brightYellow: "#FFE8B9"
+  brightBlue: "#A8E0FF"
+  brightMagenta: "#EBE5FF"
+  brightCyan: "#BAFFFE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 64.4
+    green: 76.9
+    yellow: 78.3
+    blue: 68
+    magenta: 77.2
+    cyan: 83.1
+    white: 97.6
+    brightBlack: 21.2
+    brightRed: 77.7
+    brightGreen: 92.3
+    brightYellow: 92.5
+    brightBlue: 81.3
+    brightMagenta: 91.3
+    brightCyan: 97.8
+    brightWhite: 106

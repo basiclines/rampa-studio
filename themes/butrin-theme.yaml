@@ -1,0 +1,49 @@
+name: "Butrin-Theme"
+source:
+  marketplace_id: "stormedx.butrin-theme"
+  version: "0.0.4"
+  installs: 1312
+  author: "stormed"
+  repo: "https://github.com/stormedx/butrin-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=stormedx.butrin-theme"
+colors:
+  bg: "#4B3B3C"
+  fg: "#DCDCDC"
+  black: "#8C7E78"
+  red: "#E68A8A"
+  green: "#99CC99"
+  yellow: "#FAD7A0"
+  blue: "#6699CC"
+  magenta: "#C8A2C8"
+  cyan: "#6FC3B2"
+  white: "#E2CEBE"
+  brightBlack: "#BFACA4"
+  brightRed: "#F2B1B1"
+  brightGreen: "#B2D8B2"
+  brightYellow: "#F7DCB4"
+  brightBlue: "#87CEFA"
+  brightMagenta: "#D8BFD8"
+  brightCyan: "#64DBDB"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 14
+  contrast:
+    fg: 76
+    black: 25.7
+    red: 43.5
+    green: 58.8
+    yellow: 75.9
+    blue: 35.7
+    magenta: 49
+    cyan: 52.5
+    white: 69.5
+    brightBlack: 50
+    brightRed: 60
+    brightGreen: 67.5
+    brightYellow: 78.2
+    brightBlue: 62.6
+    brightMagenta: 63
+    brightCyan: 64.8
+    brightWhite: 89.9

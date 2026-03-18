@@ -1,0 +1,49 @@
+name: "Luminescence Theme"
+source:
+  marketplace_id: "andreluis-oliveira.material-palenight-high-constrast-theme"
+  version: "2.1.11"
+  installs: 2769
+  author: "andreluis-oliveira"
+  repo: "https://github.com/andreluis-oliveira/vscode-palenight-theme-high-contrast"
+  url: "https://marketplace.visualstudio.com/items?itemName=andreluis-oliveira.material-palenight-high-constrast-theme"
+colors:
+  bg: "#151720"
+  fg: "#E6EDF3"
+  black: "#676E95"
+  red: "#FF718A"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF718A"
+  brightGreen: "#23D18C"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  contrast:
+    fg: 94.4
+    black: 26.4
+    red: 50.2
+    green: 65.8
+    yellow: 78.9
+    blue: 55.9
+    magenta: 53.7
+    cyan: 78.2
+    white: 106.8
+    brightBlack: 26.4
+    brightRed: 50.2
+    brightGreen: 63.5
+    brightYellow: 78.9
+    brightBlue: 55.9
+    brightMagenta: 53.7
+    brightCyan: 78.2
+    brightWhite: 106.8

@@ -1,0 +1,49 @@
+name: "Kalmia"
+source:
+  marketplace_id: "qexat.kalmia"
+  version: "0.1.1"
+  installs: 202
+  author: "Qexat"
+  repo: "https://github.com/qexat/kalmia"
+  url: "https://marketplace.visualstudio.com/items?itemName=qexat.kalmia"
+colors:
+  bg: "#2E232A"
+  fg: "#E9AFD2"
+  black: "#000000"
+  red: "#C93747"
+  green: "#8EC937"
+  yellow: "#C9B937"
+  blue: "#3747C9"
+  magenta: "#BA37C9"
+  cyan: "#378EC9"
+  white: "#F4D7E8"
+  brightBlack: "#171115"
+  brightRed: "#D9737E"
+  brightGreen: "#B5E9AF"
+  brightYellow: "#E9E3AF"
+  brightBlue: "#737ED9"
+  brightMagenta: "#CF73D9"
+  brightCyan: "#AFD2E9"
+  brightWhite: "#F7E3EF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 340
+  contrast:
+    fg: 65.5
+    black: 0
+    red: 24.7
+    green: 61
+    yellow: 60.5
+    blue: 14.4
+    magenta: 27.1
+    cyan: 35.5
+    white: 84
+    brightBlack: 0
+    brightRed: 40.6
+    brightGreen: 82
+    brightYellow: 85.5
+    brightBlue: 34.3
+    brightMagenta: 43
+    brightCyan: 73.2
+    brightWhite: 90

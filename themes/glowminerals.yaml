@@ -1,0 +1,49 @@
+name: "GlowMinerals"
+source:
+  marketplace_id: "fefafe.glowminerals"
+  version: "0.4.5"
+  installs: 459
+  author: "Felix Faber"
+  repo: "https://github.com/fefafe/glowminerals-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=fefafe.glowminerals"
+colors:
+  bg: "#0B0F14"
+  fg: "#D8D6DC"
+  black: "#1F262F"
+  red: "#C22748"
+  green: "#87AF1F"
+  yellow: "#FFC131"
+  blue: "#27BBEC"
+  magenta: "#E238AC"
+  cyan: "#BEBEC9"
+  white: "#D8D6DC"
+  brightBlack: "#292A2E"
+  brightRed: "#C22748"
+  brightGreen: "#87AF1F"
+  brightYellow: "#FFC131"
+  brightBlue: "#27BBEC"
+  brightMagenta: "#E238AC"
+  brightCyan: "#44BB93"
+  brightWhite: "#D8D6DC"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 254
+  contrast:
+    fg: 81.9
+    black: 0
+    red: 24.4
+    green: 51.5
+    yellow: 74.9
+    blue: 58.3
+    magenta: 36.3
+    cyan: 67.6
+    white: 81.9
+    brightBlack: 0
+    brightRed: 24.4
+    brightGreen: 51.5
+    brightYellow: 74.9
+    brightBlue: 58.3
+    brightMagenta: 36.3
+    brightCyan: 54.8
+    brightWhite: 81.9

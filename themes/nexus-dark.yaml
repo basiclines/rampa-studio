@@ -1,0 +1,49 @@
+name: "Nexus Dark"
+source:
+  marketplace_id: "pankajghosh.nexus-dark"
+  version: "0.2.4"
+  installs: 101
+  author: "Pankaj Ghosh"
+  repo: "https://github.com/iampankajghosh/nexus-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=pankajghosh.nexus-dark"
+colors:
+  bg: "#0C0C0C"
+  fg: "#FAFAFA"
+  black: "#0D0D0D"
+  red: "#D66D5F"
+  green: "#90C85B"
+  yellow: "#DEDDA9"
+  blue: "#8EB7DB"
+  magenta: "#D66D5F"
+  cyan: "#8EB7DB"
+  white: "#D9D9D9"
+  brightBlack: "#0D0D0D"
+  brightRed: "#D66D5F"
+  brightGreen: "#90C85B"
+  brightYellow: "#DEDDA9"
+  brightBlue: "#8EB7DB"
+  brightMagenta: "#D66D5F"
+  brightCyan: "#8EB7DB"
+  brightWhite: "#D9D9D9"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 104.4
+    black: 0
+    red: 40.6
+    green: 64
+    yellow: 84
+    blue: 60.7
+    magenta: 40.6
+    cyan: 60.7
+    white: 83.3
+    brightBlack: 0
+    brightRed: 40.6
+    brightGreen: 64
+    brightYellow: 84
+    brightBlue: 60.7
+    brightMagenta: 40.6
+    brightCyan: 60.7
+    brightWhite: 83.3

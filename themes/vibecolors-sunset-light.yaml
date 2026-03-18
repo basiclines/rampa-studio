@@ -1,0 +1,49 @@
+name: "VibeColors Sunset Light"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+colors:
+  bg: "#FFF7F0"
+  fg: "#3A1B1A"
+  black: "#6E4439"
+  red: "#D74949"
+  green: "#5A9965"
+  yellow: "#C98900"
+  blue: "#3C8FA0"
+  magenta: "#C9508A"
+  cyan: "#3EA8A5"
+  white: "#FFFFFF"
+  brightBlack: "#6E4439"
+  brightRed: "#D74949"
+  brightGreen: "#5A9965"
+  brightYellow: "#C98900"
+  brightBlue: "#3C8FA0"
+  brightMagenta: "#C9508A"
+  brightCyan: "#3EA8A5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.2
+    black: 84.3
+    red: 64.3
+    green: 57.3
+    yellow: 51.9
+    blue: 60.6
+    magenta: 64.2
+    cyan: 50.4
+    white: 0
+    brightBlack: 84.3
+    brightRed: 64.3
+    brightGreen: 57.3
+    brightYellow: 51.9
+    brightBlue: 60.6
+    brightMagenta: 64.2
+    brightCyan: 50.4
+    brightWhite: 0

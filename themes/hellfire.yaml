@@ -1,0 +1,49 @@
+name: "Hellfire"
+source:
+  marketplace_id: "AlexCharbonneau.hellfire-theme"
+  version: "1.0.5"
+  installs: 22
+  author: "Alex Charbonneau"
+  repo: "https://github.com/alexandrec90/hellfire_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexCharbonneau.hellfire-theme"
+colors:
+  bg: "#0A0000"
+  fg: "#F0C090"
+  black: "#1A0000"
+  red: "#FF2200"
+  green: "#88CC22"
+  yellow: "#FF8800"
+  blue: "#FF4422"
+  magenta: "#CC2255"
+  cyan: "#FF6633"
+  white: "#F0C090"
+  brightBlack: "#550000"
+  brightRed: "#FF5533"
+  brightGreen: "#AAEE44"
+  brightYellow: "#FFAA22"
+  brightBlue: "#FF6644"
+  brightMagenta: "#EE4477"
+  brightCyan: "#FF8855"
+  brightWhite: "#FFF0E0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 29
+  contrast:
+    fg: 73.8
+    black: 0
+    red: 38.2
+    green: 64.9
+    yellow: 55.5
+    blue: 41.3
+    magenta: 26.8
+    cyan: 47.2
+    white: 73.8
+    brightBlack: 0
+    brightRed: 43.9
+    brightGreen: 84.4
+    brightYellow: 66.5
+    brightBlue: 47.3
+    brightMagenta: 38.7
+    brightCyan: 56
+    brightWhite: 99.5

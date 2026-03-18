@@ -1,0 +1,49 @@
+name: "Spirited Night"
+source:
+  marketplace_id: "danibram.ghibli-inspired-theme"
+  version: "1.0.0"
+  installs: 267
+  author: "Daniel Biedma"
+  repo: "https://github.com/danibram/ghibli-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=danibram.ghibli-inspired-theme"
+colors:
+  bg: "#1A1420"
+  fg: "#E8E0F0"
+  black: "#1A1420"
+  red: "#FF7766"
+  green: "#88C898"
+  yellow: "#FFD080"
+  blue: "#88A8D8"
+  magenta: "#D898D8"
+  cyan: "#88D8D0"
+  white: "#E8E0F0"
+  brightBlack: "#6A5A78"
+  brightRed: "#FFA090"
+  brightGreen: "#A8E8B8"
+  brightYellow: "#FFE0A0"
+  brightBlue: "#A8C8F0"
+  brightMagenta: "#F0B8F0"
+  brightCyan: "#A8F0E8"
+  brightWhite: "#F8F0FF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 307
+  contrast:
+    fg: 88.8
+    black: 0
+    red: 50.8
+    green: 64
+    yellow: 81.4
+    blue: 53.2
+    magenta: 57.3
+    cyan: 73.5
+    white: 88.8
+    brightBlack: 19.6
+    brightRed: 63.8
+    brightGreen: 82.8
+    brightYellow: 89.1
+    brightBlue: 70.7
+    brightMagenta: 73.6
+    brightCyan: 88.6
+    brightWhite: 98.9

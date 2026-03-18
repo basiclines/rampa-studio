@@ -1,0 +1,49 @@
+name: "Fleex Theme Plum Light"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+colors:
+  bg: "#FCFAFF"
+  fg: "#241F2D"
+  black: "#554E63"
+  red: "#B85A70"
+  green: "#6E9B5D"
+  yellow: "#B38347"
+  blue: "#7B56C2"
+  magenta: "#A76AE1"
+  cyan: "#2F8A86"
+  white: "#FAF7FD"
+  brightBlack: "#554E63"
+  brightRed: "#B85A70"
+  brightGreen: "#6E9B5D"
+  brightYellow: "#B38347"
+  brightBlue: "#7B56C2"
+  brightMagenta: "#A76AE1"
+  brightCyan: "#2F8A86"
+  brightWhite: "#FAF7FD"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 100.5
+    black: 84.9
+    red: 67.8
+    green: 56.9
+    yellow: 58.4
+    blue: 73.6
+    magenta: 61
+    cyan: 65.5
+    white: 0
+    brightBlack: 84.9
+    brightRed: 67.8
+    brightGreen: 56.9
+    brightYellow: 58.4
+    brightBlue: 73.6
+    brightMagenta: 61
+    brightCyan: 65.5
+    brightWhite: 0

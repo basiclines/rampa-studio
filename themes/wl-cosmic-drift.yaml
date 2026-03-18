@@ -1,0 +1,49 @@
+name: "WL-Cosmic Drift"
+source:
+  marketplace_id: "WatkinsLabs.cosmic-drift"
+  version: "1.0.1"
+  installs: 31
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.cosmic-drift"
+colors:
+  bg: "#2B183F"
+  fg: "#D1D0FC"
+  black: "#000000"
+  red: "#FF3D77"
+  green: "#7DE38D"
+  yellow: "#FFAA3D"
+  blue: "#9F72DD"
+  magenta: "#B198FC"
+  cyan: "#9F72DD"
+  white: "#D1D0FC"
+  brightBlack: "#666666"
+  brightRed: "#FF3D77"
+  brightGreen: "#7DE38D"
+  brightYellow: "#FFAA3D"
+  brightBlue: "#9F72DD"
+  brightMagenta: "#B198FC"
+  brightCyan: "#9F72DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 304
+  contrast:
+    fg: 78
+    black: 0
+    red: 39.4
+    green: 74.2
+    yellow: 64.3
+    blue: 36.4
+    magenta: 52.5
+    cyan: 36.4
+    white: 78
+    brightBlack: 20.6
+    brightRed: 39.4
+    brightGreen: 74.2
+    brightYellow: 64.3
+    brightBlue: 36.4
+    brightMagenta: 52.5
+    brightCyan: 36.4
+    brightWhite: 105.5

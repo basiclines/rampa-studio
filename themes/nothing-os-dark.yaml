@@ -1,0 +1,49 @@
+name: "Nothing OS Dark"
+source:
+  marketplace_id: "SecureDev01.vscode-multi-themes"
+  version: "0.0.51"
+  installs: 1834
+  author: "SecureDev"
+  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#D71921"
+  green: "#50FA7B"
+  yellow: "#FFAA00"
+  blue: "#666666"
+  magenta: "#D71921"
+  cyan: "#AAAAAA"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF2D35"
+  brightGreen: "#50FA7B"
+  brightYellow: "#FFAA00"
+  brightBlue: "#888888"
+  brightMagenta: "#D71921"
+  brightCyan: "#CCCCCC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 28.2
+    green: 85.9
+    yellow: 66.5
+    blue: 23
+    magenta: 28.2
+    cyan: 56.2
+    white: 75.7
+    brightBlack: 0
+    brightRed: 39.2
+    brightGreen: 85.9
+    brightYellow: 66.5
+    brightBlue: 38.6
+    brightMagenta: 28.2
+    brightCyan: 75.7
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "Shifting Sands"
+source:
+  marketplace_id: "MrLizardAndCompany.shifting-sands"
+  version: "0.2.6"
+  installs: 394
+  author: "Mr Lizard & Company"
+  repo: "https://github.com/webstek/shifting_sands"
+  url: "https://marketplace.visualstudio.com/items?itemName=MrLizardAndCompany.shifting-sands"
+colors:
+  bg: "#D1B799"
+  fg: "#534F4F"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: 71
+  contrast:
+    fg: 49.2
+    black: 66.6
+    red: 0
+    green: 25
+    yellow: 29.8
+    blue: 15.4
+    magenta: 8.9
+    cyan: 30
+    white: 8.8
+    brightBlack: 59.9
+    brightRed: 10.4
+    brightGreen: 20.9
+    brightYellow: 24.6
+    brightBlue: 0
+    brightMagenta: 11.8
+    brightCyan: 27.9
+    brightWhite: 41

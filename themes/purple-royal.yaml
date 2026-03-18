@@ -1,0 +1,49 @@
+name: "Purple Royal"
+source:
+  marketplace_id: "DarkMannn.purple-royal-theme"
+  version: "0.0.5"
+  installs: 817
+  author: "DarkMannn"
+  repo: "https://github.com/DarkMannn/purple-royal-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkMannn.purple-royal-theme"
+colors:
+  bg: "#191919"
+  fg: "#DBDBDB"
+  black: "#000000"
+  red: "#CD6161"
+  green: "#2BB681"
+  yellow: "#E2E298"
+  blue: "#3B7AC0"
+  magenta: "#7851A9"
+  cyan: "#2EACCB"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF8181"
+  brightGreen: "#4FE4A8"
+  brightYellow: "#F7F780"
+  brightBlue: "#50A3FF"
+  brightMagenta: "#AE87E0"
+  brightCyan: "#42CCEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 35.1
+    green: 50.6
+    yellow: 85.3
+    blue: 29.9
+    magenta: 21.2
+    cyan: 49.3
+    white: 89.8
+    brightBlack: 21.8
+    brightRed: 53.8
+    brightGreen: 74.5
+    brightYellow: 97.5
+    brightBlue: 50
+    brightMagenta: 45.9
+    brightCyan: 65.7
+    brightWhite: 106.7

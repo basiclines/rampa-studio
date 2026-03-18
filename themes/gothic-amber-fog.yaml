@@ -1,0 +1,49 @@
+name: "Gothic Amber Fog"
+source:
+  marketplace_id: "Diyllan.midnight-coven-themes"
+  version: "1.0.1"
+  installs: 1123
+  author: "Diyllan"
+  repo: "https://github.com/diyllan/midnight-coven-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Diyllan.midnight-coven-themes"
+colors:
+  bg: "#19171A"
+  fg: "#E8E1D5"
+  black: "#19171A"
+  red: "#D5736A"
+  green: "#A5AD6A"
+  yellow: "#D5A84A"
+  blue: "#7A90AD"
+  magenta: "#AD90AA"
+  cyan: "#90ADA5"
+  white: "#E8E1D5"
+  brightBlack: "#777070"
+  brightRed: "#E08A82"
+  brightGreen: "#B5C080"
+  brightYellow: "#E5C875"
+  brightBlue: "#90A8C7"
+  brightMagenta: "#C7A8C5"
+  brightCyan: "#A8C7BD"
+  brightWhite: "#F8F0E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 87.9
+    black: 0
+    red: 41.4
+    green: 53.9
+    yellow: 57.8
+    blue: 40.6
+    magenta: 46
+    cyan: 53.4
+    white: 87.9
+    brightBlack: 27
+    brightRed: 50.6
+    brightGreen: 64.1
+    brightYellow: 73.7
+    brightBlue: 52.9
+    brightMagenta: 59.3
+    brightCyan: 67.7
+    brightWhite: 97.6

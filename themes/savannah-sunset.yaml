@@ -1,0 +1,49 @@
+name: "Savannah Sunset"
+source:
+  marketplace_id: "TanakaChinengundu.savannah-code"
+  version: "1.0.0"
+  installs: 7
+  author: "Tanaka Chinengundu"
+  repo: "https://github.com/taqsblaze/savannah-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=TanakaChinengundu.savannah-code"
+colors:
+  bg: "#1C1A17"
+  fg: "#CFCFCF"
+  black: "#1C1A17"
+  red: "#E36414"
+  green: "#588157"
+  yellow: "#E0A458"
+  blue: "#3A5A74"
+  magenta: "#E5989B"
+  cyan: "#7DADA4"
+  white: "#CFCFCF"
+  brightBlack: "#4A3F35"
+  brightRed: "#F4623A"
+  brightGreen: "#A3B18A"
+  brightYellow: "#F4C883"
+  brightBlue: "#5D8AA8"
+  brightMagenta: "#F0B8BB"
+  brightCyan: "#A0CEC8"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76.1
+    black: 0
+    red: 39.2
+    green: 29.3
+    yellow: 58
+    blue: 15.5
+    magenta: 56.4
+    cyan: 51.5
+    white: 76.1
+    brightBlack: 7.4
+    brightRed: 42.6
+    brightGreen: 55.8
+    brightYellow: 76
+    brightBlue: 35.7
+    brightMagenta: 70.8
+    brightCyan: 70.2
+    brightWhite: 94.8

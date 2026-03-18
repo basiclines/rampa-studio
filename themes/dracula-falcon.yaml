@@ -1,0 +1,49 @@
+name: "Dracula Falcon"
+source:
+  marketplace_id: "nandofalcao.dracula-falcon"
+  version: "0.0.71"
+  installs: 3760
+  author: "Fernando Falcão"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=nandofalcao.dracula-falcon"
+colors:
+  bg: "#202125"
+  fg: "#CDD0DD"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#00B5DC"
+  yellow: "#E2DD61"
+  blue: "#FF79C6"
+  magenta: "#FF79C6"
+  cyan: "#00B5DC"
+  white: "#CDD0DD"
+  brightBlack: "#465276"
+  brightRed: "#FF5555"
+  brightGreen: "#00B5DC"
+  brightYellow: "#E2DD61"
+  brightBlue: "#FF79C6"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#00B5DC"
+  brightWhite: "#CDD0DD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76
+    black: 0
+    red: 42.1
+    green: 52.6
+    yellow: 80.8
+    blue: 53.3
+    magenta: 53.3
+    cyan: 52.6
+    white: 76
+    brightBlack: 13.1
+    brightRed: 42.1
+    brightGreen: 52.6
+    brightYellow: 80.8
+    brightBlue: 53.3
+    brightMagenta: 53.3
+    brightCyan: 52.6
+    brightWhite: 76

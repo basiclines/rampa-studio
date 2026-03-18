@@ -1,0 +1,49 @@
+name: "Karry Color Theme"
+source:
+  marketplace_id: "fcunhaneto.karry-color-theme"
+  version: "0.0.1"
+  installs: 3071
+  author: "fcunhaneto"
+  repo: "git+https://github.com/fcunhaneto/vscode-karry-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=fcunhaneto.karry-color-theme"
+colors:
+  bg: "#FCE7CD"
+  fg: "#435E75"
+  black: "#906F41"
+  red: "#B80012"
+  green: "#49A634"
+  yellow: "#B2891B"
+  blue: "#00578B"
+  magenta: "#774673"
+  cyan: "#008B8B"
+  white: "#2D485D"
+  brightBlack: "#B59262"
+  brightRed: "#E80018"
+  brightGreen: "#2F8C1C"
+  brightYellow: "#D5AA38"
+  brightBlue: "#0071B2"
+  brightMagenta: "#8D648A"
+  brightCyan: "#00A8A8"
+  brightWhite: "#435E75"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 73
+  contrast:
+    fg: 70.9
+    black: 59.6
+    red: 68.7
+    green: 45.1
+    yellow: 47
+    blue: 73.6
+    magenta: 72.4
+    cyan: 55.5
+    white: 79.6
+    brightBlack: 42.8
+    brightRed: 57.4
+    brightGreen: 56.8
+    brightYellow: 30.3
+    brightBlue: 62.9
+    brightMagenta: 61.2
+    brightCyan: 42.7
+    brightWhite: 70.9

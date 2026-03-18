@@ -1,0 +1,49 @@
+name: "Base16 Tomorrow Light"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#4D4D4C"
+  black: "#D6D6D6"
+  red: "#C82829"
+  green: "#718C00"
+  yellow: "#F5871F"
+  blue: "#4271AE"
+  magenta: "#8959A8"
+  cyan: "#3E999F"
+  white: "#282A2E"
+  brightBlack: "#8E908C"
+  brightRed: "#C82829"
+  brightGreen: "#718C00"
+  brightYellow: "#EAB700"
+  brightBlue: "#4271AE"
+  brightMagenta: "#8959A8"
+  brightCyan: "#3E999F"
+  brightWhite: "#1D1F21"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 89.2
+    black: 21.6
+    red: 76
+    green: 65.8
+    yellow: 48.7
+    blue: 74.3
+    magenta: 75.4
+    cyan: 60.7
+    white: 101.1
+    brightBlack: 59.5
+    brightRed: 76
+    brightGreen: 65.8
+    brightYellow: 34.9
+    brightBlue: 74.3
+    brightMagenta: 75.4
+    brightCyan: 60.7
+    brightWhite: 103.5

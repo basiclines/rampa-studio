@@ -1,0 +1,49 @@
+name: "Vaporizer Dark Ivy"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35736
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+colors:
+  bg: "#0A1016"
+  fg: "#BA5D59"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 249
+  contrast:
+    fg: 31.3
+    black: 0
+    red: 27.3
+    green: 53.6
+    yellow: 86.2
+    blue: 28
+    magenta: 30.4
+    cyan: 48.2
+    white: 90.6
+    brightBlack: 22.6
+    brightRed: 39.2
+    brightGreen: 64.1
+    brightYellow: 96.2
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 90.6

@@ -1,0 +1,49 @@
+name: "patriot"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#2D3133"
+  fg: "#CAD9E3"
+  black: "#393E41"
+  red: "#BA0E2E"
+  green: "#DE333C"
+  yellow: "#2E6FD9"
+  blue: "#FFFFFF"
+  magenta: "#BBBCC4"
+  cyan: "#DE333C"
+  white: "#DBE5EC"
+  brightBlack: "#5D6569"
+  brightRed: "#F03E5F"
+  brightGreen: "#EC8B90"
+  brightYellow: "#84AAE9"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#F2F2F3"
+  brightCyan: "#EC8B90"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76.9
+    black: 0
+    red: 16.3
+    green: 26.7
+    yellow: 23.8
+    blue: 102.7
+    magenta: 61.3
+    cyan: 26.7
+    white: 84.8
+    brightBlack: 16.9
+    brightRed: 32.6
+    brightGreen: 49.4
+    brightYellow: 50.5
+    brightBlue: 102.7
+    brightMagenta: 94.2
+    brightCyan: 49.4
+    brightWhite: 102.7

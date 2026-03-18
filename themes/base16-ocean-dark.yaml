@@ -1,0 +1,49 @@
+name: "Base16 Ocean Dark"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#2B303B"
+  fg: "#C0C5CE"
+  black: "#4F5B66"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#D08770"
+  blue: "#8FA1B3"
+  magenta: "#B48EAD"
+  cyan: "#96B5B4"
+  white: "#DFE1E8"
+  brightBlack: "#65737E"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#8FA1B3"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#96B5B4"
+  brightWhite: "#EFF1F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  contrast:
+    fg: 66.2
+    black: 12.8
+    red: 28.9
+    green: 57.6
+    yellow: 42.4
+    blue: 45.1
+    magenta: 42.4
+    cyan: 53.9
+    white: 83.5
+    brightBlack: 22.8
+    brightRed: 28.9
+    brightGreen: 57.6
+    brightYellow: 72.3
+    brightBlue: 45.1
+    brightMagenta: 42.4
+    brightCyan: 53.9
+    brightWhite: 93.5

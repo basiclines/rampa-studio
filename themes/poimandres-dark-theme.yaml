@@ -1,0 +1,49 @@
+name: "poimandres dark theme"
+source:
+  marketplace_id: "brandonsaldan.pmndrs-vue"
+  version: "1.0.0"
+  installs: 4118
+  author: "Brandon Saldan"
+  repo: "https://github.com/brandonsaldan/poimandres-vue"
+  url: "https://marketplace.visualstudio.com/items?itemName=brandonsaldan.pmndrs-vue"
+colors:
+  bg: "#FEFEFF"
+  fg: "#969CBD"
+  black: "#FEFEFF"
+  red: "#FF2090"
+  green: "#01DAB2"
+  yellow: "#FFD467"
+  blue: "#8ABACD"
+  magenta: "#EB8394"
+  cyan: "#8ABACD"
+  white: "#000000"
+  brightBlack: "#969CBD"
+  brightRed: "#FF2090"
+  brightGreen: "#01DAB2"
+  brightYellow: "#FFD467"
+  brightBlue: "#0EBFFF"
+  brightMagenta: "#EB8394"
+  brightCyan: "#0EBFFF"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 51.8
+    black: 0
+    red: 60.7
+    green: 32.1
+    yellow: 19.2
+    blue: 40.6
+    magenta: 49.2
+    cyan: 40.6
+    white: 105.5
+    brightBlack: 51.8
+    brightRed: 60.7
+    brightGreen: 32.1
+    brightYellow: 19.2
+    brightBlue: 40.3
+    brightMagenta: 49.2
+    brightCyan: 40.3
+    brightWhite: 105.5

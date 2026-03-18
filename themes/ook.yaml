@@ -1,0 +1,49 @@
+name: "Ook"
+source:
+  marketplace_id: "dustinwilson.ook"
+  version: "0.0.1"
+  installs: 232
+  author: "Dustin Wilson"
+  repo: "https://github.com/dustinwilson/ook-syntax-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dustinwilson.ook"
+colors:
+  bg: "#1F1F1F"
+  fg: "#B1B7B8"
+  black: "#333435"
+  red: "#ED8178"
+  green: "#94A860"
+  yellow: "#C39A5A"
+  blue: "#76A8BB"
+  magenta: "#C192B6"
+  cyan: "#70ABA3"
+  white: "#D3D5D5"
+  brightBlack: "#737677"
+  brightRed: "#FFA59A"
+  brightGreen: "#B8CD82"
+  brightYellow: "#E9BD7B"
+  brightBlue: "#99CCE0"
+  brightMagenta: "#E6B6DB"
+  brightCyan: "#93D0C7"
+  brightWhite: "#F5F3F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 60.8
+    black: 0
+    red: 49.2
+    green: 48.9
+    yellow: 49.3
+    blue: 49.3
+    magenta: 49.1
+    cyan: 49
+    white: 78.9
+    brightBlack: 27.9
+    brightRed: 64.8
+    brightGreen: 69.3
+    brightYellow: 69
+    brightBlue: 69.2
+    brightMagenta: 69.2
+    brightCyan: 69.3
+    brightWhite: 98.2

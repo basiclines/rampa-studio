@@ -1,0 +1,49 @@
+name: "Color Sea Blue"
+source:
+  marketplace_id: "Danesed.color-sea"
+  version: "1.0.0"
+  installs: 16
+  author: "Danesed"
+  repo: "https://github.com/danesed/colorsea-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Danesed.color-sea"
+colors:
+  bg: "#132035"
+  fg: "#A3A9BB"
+  black: "#234677"
+  red: "#FF2D3B"
+  green: "#90E0EF"
+  yellow: "#FF595E"
+  blue: "#00BBF9"
+  magenta: "#FF595E"
+  cyan: "#00BBF9"
+  white: "#A3A9BB"
+  brightBlack: "#45495D"
+  brightRed: "#FF2D3B"
+  brightGreen: "#90E0EF"
+  brightYellow: "#FF595E"
+  brightBlue: "#00BBF9"
+  brightMagenta: "#FF595E"
+  brightCyan: "#00BBF9"
+  brightWhite: "#A3A9BB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 260
+  contrast:
+    fg: 53.6
+    black: 8.5
+    red: 37.1
+    green: 78.1
+    yellow: 43.1
+    blue: 57.1
+    magenta: 43.1
+    cyan: 57.1
+    white: 53.6
+    brightBlack: 9.8
+    brightRed: 37.1
+    brightGreen: 78.1
+    brightYellow: 43.1
+    brightBlue: 57.1
+    brightMagenta: 43.1
+    brightCyan: 57.1
+    brightWhite: 53.6

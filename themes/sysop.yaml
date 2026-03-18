@@ -1,0 +1,49 @@
+name: "sysop"
+source:
+  marketplace_id: "Urtokk.sysoptheme"
+  version: "0.3.2"
+  installs: 141
+  author: "Urtokk"
+  repo: "https://github.com/urtokk/vscode-theme-sysop"
+  url: "https://marketplace.visualstudio.com/items?itemName=Urtokk.sysoptheme"
+colors:
+  bg: "#101010"
+  fg: "#00A6A6"
+  black: "#0D0D0D"
+  red: "#AE0000"
+  green: "#29E104"
+  yellow: "#B3B900"
+  blue: "#2724CC"
+  magenta: "#AE0065"
+  cyan: "#02FFDD"
+  white: "#CCCECE"
+  brightBlack: "#464646"
+  brightRed: "#FF2424"
+  brightGreen: "#30E104"
+  brightYellow: "#F6FF02"
+  brightBlue: "#4E96F5"
+  brightMagenta: "#FF02FF"
+  brightCyan: "#02F7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 45.3
+    black: 0
+    red: 18.2
+    green: 70.6
+    yellow: 60.2
+    blue: 11.5
+    magenta: 19.6
+    cyan: 90.1
+    white: 76.2
+    brightBlack: 10.1
+    brightRed: 38
+    brightGreen: 70.7
+    brightYellow: 101
+    brightBlue: 45
+    brightMagenta: 45.8
+    brightCyan: 87.6
+    brightWhite: 107.4

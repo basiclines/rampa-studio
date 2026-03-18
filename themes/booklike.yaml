@@ -1,0 +1,49 @@
+name: "booklike"
+source:
+  marketplace_id: "mervyn.booklike"
+  version: "0.0.1"
+  installs: 921
+  author: "mervyn"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=mervyn.booklike"
+colors:
+  bg: "#FFFAE8"
+  fg: "#3E4B53"
+  black: "#000000"
+  red: "#CE3885"
+  green: "#49997E"
+  yellow: "#D49B45"
+  blue: "#5597EF"
+  magenta: "#CE5EFF"
+  cyan: "#399DCC"
+  white: "#BBBBBB"
+  brightBlack: "#686868"
+  brightRed: "#CE0885"
+  brightGreen: "#439B7E"
+  brightYellow: "#C2853F"
+  brightBlue: "#7FAFF4"
+  brightMagenta: "#CE0EFF"
+  brightCyan: "#6F94DA"
+  brightWhite: "#534F4F"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 87.6
+    black: 103
+    red: 67.9
+    green: 58.4
+    yellow: 44.9
+    blue: 53
+    magenta: 54.8
+    cyan: 54
+    white: 33.6
+    brightBlack: 74.8
+    brightRed: 70.6
+    brightGreen: 57.9
+    brightYellow: 55
+    brightBlue: 41.1
+    brightMagenta: 62.6
+    brightCyan: 53.9
+    brightWhite: 84.9

@@ -1,0 +1,49 @@
+name: "Anubis Light"
+source:
+  marketplace_id: "Meastblue.orbital-frame"
+  version: "2.2.0"
+  installs: 66
+  author: "Meastblue"
+  repo: "https://github.com/meastblue/orbital-frame-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Meastblue.orbital-frame"
+colors:
+  bg: "#FFFFFF"
+  fg: "#1A1A1A"
+  black: "#1F2937"
+  red: "#B91C1C"
+  green: "#059669"
+  yellow: "#D97706"
+  blue: "#1D4ED8"
+  magenta: "#9333EA"
+  cyan: "#0891B2"
+  white: "#F5F5F5"
+  brightBlack: "#6B7280"
+  brightRed: "#DC2626"
+  brightGreen: "#16A34A"
+  brightYellow: "#F59E0B"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#C026D3"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 104.3
+    black: 101.5
+    red: 80.2
+    green: 64.6
+    yellow: 58.5
+    blue: 82.2
+    magenta: 75.6
+    cyan: 63.8
+    white: 0
+    brightBlack: 73.6
+    brightRed: 71.6
+    brightGreen: 59.7
+    brightYellow: 41.8
+    brightBlue: 63.9
+    brightMagenta: 71.1
+    brightCyan: 47.1
+    brightWhite: 0

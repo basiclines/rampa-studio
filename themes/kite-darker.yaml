@@ -1,0 +1,49 @@
+name: "Kite Darker"
+source:
+  marketplace_id: "yudinikita.vscode-theme-kite"
+  version: "1.1.2"
+  installs: 8249
+  author: "Yudin Nikita"
+  repo: "https://github.com/nblackninja/vscode-theme-kite"
+  url: "https://marketplace.visualstudio.com/items?itemName=yudinikita.vscode-theme-kite"
+colors:
+  bg: "#22282F"
+  fg: "#C7CED6"
+  black: "#000913"
+  red: "#C8433C"
+  green: "#4FC83C"
+  yellow: "#C8BF3C"
+  blue: "#3C7DC8"
+  magenta: "#9E3CC8"
+  cyan: "#3CA3C8"
+  white: "#CBCED2"
+  brightBlack: "#606871"
+  brightRed: "#F14F46"
+  brightGreen: "#53EC3C"
+  brightYellow: "#F1E646"
+  brightBlue: "#5097E7"
+  brightMagenta: "#D165FF"
+  brightCyan: "#46C3F1"
+  brightWhite: "#E6E8EA"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 252
+  contrast:
+    fg: 73
+    black: 0
+    red: 25.7
+    green: 56.5
+    yellow: 62.7
+    blue: 29.4
+    magenta: 22.7
+    cyan: 43.6
+    white: 73.3
+    brightBlack: 20.2
+    brightRed: 36.6
+    brightGreen: 74.5
+    brightYellow: 85.7
+    brightBlue: 41.6
+    brightMagenta: 42.5
+    brightCyan: 59.9
+    brightWhite: 89.4

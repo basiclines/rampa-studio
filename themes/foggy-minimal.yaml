@@ -1,0 +1,49 @@
+name: "Foggy Minimal"
+source:
+  marketplace_id: "ninjaqwert-2239-indie.foggy-min"
+  version: "0.0.6"
+  installs: 147
+  author: "ninjaqwert"
+  repo: "https://github.com/eerieA/vscode-foggy-min-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ninjaqwert-2239-indie.foggy-min"
+colors:
+  bg: "#FBFBFA"
+  fg: "#4F585C"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#3D6999"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#D3D3D3"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#6794C7"
+  brightMagenta: "#D670D6"
+  brightCyan: "#6EB5E4"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 82.9
+    black: 103.6
+    red: 71.5
+    green: 45.6
+    yellow: 14.6
+    blue: 76
+    magenta: 68.5
+    cyan: 50.8
+    white: 20.9
+    brightBlack: 76.3
+    brightRed: 59.7
+    brightGreen: 35.4
+    brightYellow: 0
+    brightBlue: 56.2
+    brightMagenta: 53
+    brightCyan: 41.5
+    brightWhite: 10.5

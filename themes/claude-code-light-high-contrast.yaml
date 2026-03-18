@@ -1,0 +1,49 @@
+name: "Claude Code Light High Contrast"
+source:
+  marketplace_id: "ashwingopalsamy.claude-code-theme"
+  version: "1.2.2"
+  installs: 889
+  author: "Ashwin Gopalsamy"
+  repo: "https://github.com/ashwingopalsamy/claude-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ashwingopalsamy.claude-code-theme"
+colors:
+  bg: "#F6F3EA"
+  fg: "#141413"
+  black: "#141413"
+  red: "#8F3C2D"
+  green: "#286945"
+  yellow: "#775618"
+  blue: "#1B6EBF"
+  magenta: "#5B4DB4"
+  cyan: "#27598F"
+  white: "#6B665F"
+  brightBlack: "#8D877D"
+  brightRed: "#A44E3A"
+  brightGreen: "#437954"
+  brightYellow: "#826326"
+  brightBlue: "#4B7098"
+  brightMagenta: "#5D538F"
+  brightCyan: "#3F738C"
+  brightWhite: "#4A473F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 97.9
+    black: 97.9
+    red: 77.8
+    green: 75.1
+    yellow: 75.8
+    blue: 68.2
+    magenta: 75.3
+    cyan: 77.6
+    white: 71.3
+    brightBlack: 56.1
+    brightRed: 70.5
+    brightGreen: 68
+    brightYellow: 70.6
+    brightBlue: 68.3
+    brightMagenta: 76.1
+    brightCyan: 68.5
+    brightWhite: 84.3

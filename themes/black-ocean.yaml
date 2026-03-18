@@ -1,0 +1,49 @@
+name: "Black Ocean"
+source:
+  marketplace_id: "zamerick.black-ocean"
+  version: "1.1.3"
+  installs: 87734
+  author: "zamerick"
+  repo: "https://github.com/Zamerick/black-ocean"
+  url: "https://marketplace.visualstudio.com/items?itemName=zamerick.black-ocean"
+colors:
+  bg: "#101316"
+  fg: "#DFDFDF"
+  black: "#1B2025"
+  red: "#E61F44"
+  green: "#019D76"
+  yellow: "#A7DA1E"
+  blue: "#007AAE"
+  magenta: "#9100AE"
+  cyan: "#0490A0"
+  white: "#DFDFDF"
+  brightBlack: "#3B4651"
+  brightRed: "#E61F44"
+  brightGreen: "#00C200"
+  brightYellow: "#DFDFDF"
+  brightBlue: "#DFDFDF"
+  brightMagenta: "#EDCE72"
+  brightCyan: "#00EEFF"
+  brightWhite: "#DFDFDF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 31.8
+    green: 39.7
+    yellow: 73.6
+    blue: 28.5
+    magenta: 17.7
+    cyan: 35.9
+    white: 86.6
+    brightBlack: 9.5
+    brightRed: 31.8
+    brightGreen: 54.9
+    brightYellow: 86.6
+    brightBlue: 86.6
+    brightMagenta: 77.8
+    brightCyan: 82.9
+    brightWhite: 86.6

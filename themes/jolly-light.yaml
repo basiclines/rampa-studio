@@ -1,0 +1,49 @@
+name: "Jolly Light"
+source:
+  marketplace_id: "SeanBrynjolfsson.jolly"
+  version: "1.0.2"
+  installs: 10
+  author: "Sean Brynjolfsson"
+  repo: "https://github.com/jolfss/jolly-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SeanBrynjolfsson.jolly"
+colors:
+  bg: "#EEF2F7"
+  fg: "#002A5E"
+  black: "#002A5E"
+  red: "#CD0030"
+  green: "#079672"
+  yellow: "#9F6C0E"
+  blue: "#107AC1"
+  magenta: "#AF00DB"
+  cyan: "#079672"
+  white: "#BBC4D2"
+  brightBlack: "#676F93"
+  brightRed: "#DE7994"
+  brightGreen: "#7BC4B5"
+  brightYellow: "#BCA476"
+  brightBlue: "#77BAE9"
+  brightMagenta: "#CF79E9"
+  brightCyan: "#7BC4B5"
+  brightWhite: "#EEF2F7"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 92.2
+    black: 92.2
+    red: 68.1
+    green: 56.4
+    yellow: 63.2
+    blue: 63.3
+    magenta: 66.7
+    cyan: 56.4
+    white: 24.2
+    brightBlack: 66
+    brightRed: 46.8
+    brightGreen: 31.1
+    brightYellow: 39.4
+    brightBlue: 33
+    brightMagenta: 45.2
+    brightCyan: 31.1
+    brightWhite: 0

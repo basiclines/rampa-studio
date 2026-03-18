@@ -1,0 +1,49 @@
+name: "Dark Plus Oled Dim 95"
+source:
+  marketplace_id: "WeiyuWang.dark-plus-oled"
+  version: "0.0.1"
+  installs: 2223
+  author: "Weiyu Wang"
+  repo: "https://github.com/wwang1110/dark-plus-oled"
+  url: "https://marketplace.visualstudio.com/items?itemName=WeiyuWang.dark-plus-oled"
+colors:
+  bg: "#000000"
+  fg: "#C9C9C9"
+  black: "#001425"
+  red: "#E34E4C"
+  green: "#20CF68"
+  yellow: "#BBD872"
+  blue: "#7BA1F2"
+  magenta: "#BD8ADE"
+  cyan: "#1FBD9F"
+  white: "#F2F2F2"
+  brightBlack: "#525151"
+  brightRed: "#E34E4C"
+  brightGreen: "#20CF68"
+  brightYellow: "#F2DF8D"
+  brightBlue: "#7BA1F2"
+  brightMagenta: "#BD8ADE"
+  brightCyan: "#78D0BF"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 73.9
+    black: 0
+    red: 36.8
+    green: 62.7
+    yellow: 76.2
+    blue: 52.1
+    magenta: 50
+    cyan: 55.7
+    white: 99.3
+    brightBlack: 14.7
+    brightRed: 36.8
+    brightGreen: 62.7
+    brightYellow: 87.1
+    brightBlue: 52.1
+    brightMagenta: 50
+    brightCyan: 68.9
+    brightWhite: 99.3

@@ -1,0 +1,49 @@
+name: "Mystico - Plum"
+source:
+  marketplace_id: "Chibantichic.mystico-plum"
+  version: "0.36.0"
+  installs: 225
+  author: "Chibantichic"
+  repo: "https://github.com/chibanti/mystico-plum-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Chibantichic.mystico-plum"
+colors:
+  bg: "#0A0408"
+  fg: "#F8EDF3"
+  black: "#000000"
+  red: "#A74A4A"
+  green: "#0DBC79"
+  yellow: "#BABA59"
+  blue: "#3CC7F5"
+  magenta: "#B94687"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#D35858"
+  brightGreen: "#23D18B"
+  brightYellow: "#E4E46D"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D590B7"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 338
+  contrast:
+    fg: 97.9
+    black: 0
+    red: 24
+    green: 54
+    yellow: 62.4
+    blue: 64.9
+    magenta: 28.5
+    cyan: 48.5
+    white: 91
+    brightBlack: 23
+    brightRed: 35.4
+    brightGreen: 64.5
+    brightYellow: 86.7
+    brightBlue: 41
+    brightMagenta: 53.5
+    brightCyan: 56.4
+    brightWhite: 91

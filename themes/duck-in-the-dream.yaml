@@ -1,0 +1,49 @@
+name: "Duck in the Dream"
+source:
+  marketplace_id: "MEvesalTR.duck-mode-vscode"
+  version: "0.9.7"
+  installs: 2138
+  author: "MEvesalTR"
+  repo: "https://github.com/MEvesalTR/duck-mode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MEvesalTR.duck-mode-vscode"
+colors:
+  bg: "#110F17"
+  fg: "#EDECEE"
+  black: "#110F17"
+  red: "#FF5164"
+  green: "#87FF5F"
+  yellow: "#FFCA85"
+  blue: "#9B78FF"
+  magenta: "#87FF5F"
+  cyan: "#9B78FF"
+  white: "#CDCCCE"
+  brightBlack: "#2D2D2D"
+  brightRed: "#FFCA85"
+  brightGreen: "#9B78FF"
+  brightYellow: "#FFCA85"
+  brightBlue: "#9B78FF"
+  brightMagenta: "#87FF5F"
+  brightCyan: "#87FF5F"
+  brightWhite: "#EDECEE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 296
+  contrast:
+    fg: 95.3
+    black: 0
+    red: 43.6
+    green: 90.2
+    yellow: 79.6
+    blue: 42.1
+    magenta: 90.2
+    cyan: 42.1
+    white: 75.4
+    brightBlack: 0
+    brightRed: 79.6
+    brightGreen: 42.1
+    brightYellow: 79.6
+    brightBlue: 42.1
+    brightMagenta: 90.2
+    brightCyan: 90.2
+    brightWhite: 95.3

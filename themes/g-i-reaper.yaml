@@ -1,0 +1,49 @@
+name: "G.I. Reaper"
+source:
+  marketplace_id: "gengence.gi-themes"
+  version: "0.2.0"
+  installs: 36
+  author: "General Intelligence"
+  repo: "https://github.com/gengence/themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=gengence.gi-themes"
+colors:
+  bg: "#1A1D22"
+  fg: "#ADBAC7"
+  black: "#16191E"
+  red: "#C44F56"
+  green: "#57AB5A"
+  yellow: "#C69026"
+  blue: "#539BF5"
+  magenta: "#B083F0"
+  cyan: "#39C5CF"
+  white: "#909DAB"
+  brightBlack: "#636E7B"
+  brightRed: "#FF938A"
+  brightGreen: "#6BC46D"
+  brightYellow: "#DAAA3F"
+  brightBlue: "#6CB6FF"
+  brightMagenta: "#DCBDFB"
+  brightCyan: "#56D4DD"
+  brightWhite: "#CDD9E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 261
+  contrast:
+    fg: 62.5
+    black: 0
+    red: 29
+    green: 45.8
+    yellow: 46
+    blue: 45.8
+    magenta: 45.6
+    cyan: 60.2
+    white: 46.8
+    brightBlack: 24.3
+    brightRed: 58.8
+    brightGreen: 58.4
+    brightYellow: 58.7
+    brightBlue: 58.5
+    brightMagenta: 72.4
+    brightCyan: 68.7
+    brightWhite: 80.9

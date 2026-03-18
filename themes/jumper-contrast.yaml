@@ -1,0 +1,49 @@
+name: "jumper-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#0E1111"
+  fg: "#8DA0A0"
+  black: "#191F1F"
+  red: "#BA0E2E"
+  green: "#36A595"
+  yellow: "#F6DA40"
+  blue: "#DB515C"
+  magenta: "#E08E4C"
+  cyan: "#36A595"
+  white: "#9BACAC"
+  brightBlack: "#3C4949"
+  brightRed: "#F03E5F"
+  brightGreen: "#71D0C3"
+  brightYellow: "#FBEDA1"
+  brightBlue: "#ECA6AB"
+  brightMagenta: "#EFC5A3"
+  brightCyan: "#71D0C3"
+  brightWhite: "#C5CECE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 48.4
+    black: 0
+    red: 21
+    green: 44.8
+    yellow: 83.9
+    blue: 35.4
+    magenta: 51.3
+    cyan: 44.8
+    white: 55
+    brightBlack: 10.3
+    brightRed: 37.3
+    brightGreen: 68.2
+    brightYellow: 94.9
+    brightBlue: 63.8
+    brightMagenta: 75.8
+    brightCyan: 68.2
+    brightWhite: 75.3

@@ -1,0 +1,49 @@
+name: "Rakkii Theme"
+source:
+  marketplace_id: "Rakkii-Theme.rakkii"
+  version: "1.0.1"
+  installs: 65
+  author: "Rakkii-Theme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Rakkii-Theme.rakkii"
+colors:
+  bg: "#221136"
+  fg: "#FFFFFF"
+  black: "#949494"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#1B7AF5"
+  magenta: "#BC3FBC"
+  cyan: "#62B8D5"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#005CD3"
+  brightMagenta: "#D670D6"
+  brightCyan: "#2B809D"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 302
+  contrast:
+    fg: 106.4
+    black: 43.2
+    red: 26.3
+    green: 52.6
+    yellow: 85.2
+    blue: 32.9
+    magenta: 29.3
+    cyan: 56.5
+    white: 89.6
+    brightBlack: 21.6
+    brightRed: 38.1
+    brightGreen: 63.1
+    brightYellow: 95.2
+    brightBlue: 21.1
+    brightMagenta: 44.9
+    brightCyan: 29.4
+    brightWhite: 89.6

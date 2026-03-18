@@ -1,0 +1,49 @@
+name: "Kripton"
+source:
+  marketplace_id: "PhanDungTri.kripton"
+  version: "1.0.1"
+  installs: 1100
+  author: "Phan Dung Tri"
+  repo: "https://github.com/Mysbeario/kripton-theme-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=PhanDungTri.kripton"
+colors:
+  bg: "#131519"
+  fg: "#B3B1AD"
+  black: "#0E0E11"
+  red: "#EA6C73"
+  green: "#91B362"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#FAE994"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F24732"
+  brightGreen: "#B8BB26"
+  brightYellow: "#F24732"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#40EF4B"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 59.4
+    black: 0
+    red: 44.2
+    green: 54.4
+    yellow: 66.8
+    blue: 60.8
+    magenta: 92.2
+    cyan: 78.1
+    white: 71.9
+    brightBlack: 23.1
+    brightRed: 37.9
+    brightGreen: 61.4
+    brightYellow: 37.9
+    brightBlue: 63.5
+    brightMagenta: 78.1
+    brightCyan: 81.1
+    brightWhite: 107.1

@@ -1,0 +1,49 @@
+name: "Grassrivers Sunset"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 402
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+colors:
+  bg: "#2E1A00"
+  fg: "#FFFACD"
+  black: "#000000"
+  red: "#DC143C"
+  green: "#32CD32"
+  yellow: "#FFD700"
+  blue: "#4169E1"
+  magenta: "#DA70D6"
+  cyan: "#00CED1"
+  white: "#FFFACD"
+  brightBlack: "#8B4513"
+  brightRed: "#FF6347"
+  brightGreen: "#90EE90"
+  brightYellow: "#FFFFE0"
+  brightBlue: "#6495ED"
+  brightMagenta: "#DDA0DD"
+  brightCyan: "#40E0D0"
+  brightWhite: "#FFFFF0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 71
+  contrast:
+    fg: 101.4
+    black: 0
+    red: 27.5
+    green: 59.4
+    yellow: 82.2
+    blue: 26.5
+    magenta: 45.1
+    cyan: 63.6
+    white: 101.4
+    brightBlack: 15.8
+    brightRed: 44.8
+    brightGreen: 81.5
+    brightYellow: 104.5
+    brightBlue: 43.6
+    brightMagenta: 60
+    brightCyan: 72.8
+    brightWhite: 105.2

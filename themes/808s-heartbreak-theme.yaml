@@ -1,0 +1,49 @@
+name: "808s & Heartbreak Theme"
+source:
+  marketplace_id: "chrisnevers.808s-and-heartbreak-theme"
+  version: "0.7.0"
+  installs: 463
+  author: "Chris Nevers"
+  repo: "http://github.com/chrisnevers/808s-and-heartbreak-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=chrisnevers.808s-and-heartbreak-theme"
+colors:
+  bg: "#ECECEC"
+  fg: "#867F7F"
+  black: "#867F7F"
+  red: "#BA8A8A"
+  green: "#AF9CA9"
+  yellow: "#D9BD42"
+  blue: "#8AB0B8"
+  magenta: "#8FC7B9"
+  cyan: "#8AB8A0"
+  white: "#A5A5A5"
+  brightBlack: "#867F7F"
+  brightRed: "#BA8A8A"
+  brightGreen: "#AF9CA9"
+  brightYellow: "#D9BD42"
+  brightBlue: "#8AB0B8"
+  brightMagenta: "#8FC7B9"
+  brightCyan: "#8AB8A0"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 55.4
+    black: 55.4
+    red: 44.8
+    green: 39.1
+    yellow: 23.6
+    blue: 34.8
+    magenta: 24.9
+    cyan: 32.5
+    white: 37.2
+    brightBlack: 55.4
+    brightRed: 44.8
+    brightGreen: 39.1
+    brightYellow: 23.6
+    brightBlue: 34.8
+    brightMagenta: 24.9
+    brightCyan: 32.5
+    brightWhite: 37.2

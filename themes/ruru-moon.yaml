@@ -1,0 +1,49 @@
+name: "ruru moon"
+source:
+  marketplace_id: "ruru-m07.ruru-theme"
+  version: "1.0.1"
+  installs: 148
+  author: "ruru"
+  repo: "https://github.com/ruru-m07/ruru-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=ruru-m07.ruru-theme"
+colors:
+  bg: "#131313"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#F07278"
+  green: "#C2E88D"
+  yellow: "#E8D66B"
+  blue: "#81AAFF"
+  magenta: "#C892EA"
+  cyan: "#89DDFF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F65D65"
+  brightGreen: "#C1FA72"
+  brightYellow: "#F6C468"
+  brightBlue: "#6394F9"
+  brightMagenta: "#C785F0"
+  brightCyan: "#75D7FE"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 79.8
+    black: 0
+    red: 47.2
+    green: 84.4
+    yellow: 80.3
+    blue: 56.2
+    magenta: 54.3
+    cyan: 78.6
+    white: 90.4
+    brightBlack: 22.4
+    brightRed: 43.4
+    brightGreen: 92.6
+    brightYellow: 74.9
+    brightBlue: 45.5
+    brightMagenta: 50.5
+    brightCyan: 74.5
+    brightWhite: 90.4

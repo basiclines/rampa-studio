@@ -1,0 +1,49 @@
+name: "Koi Noir Theme"
+source:
+  marketplace_id: "wangx123.koi-noir-theme"
+  version: "2.0.3"
+  installs: 59
+  author: "wangx"
+  repo: "https://github.com/wangx7/koi-noir-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wangx123.koi-noir-theme"
+colors:
+  bg: "#000000"
+  fg: "#BABED8"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 68.2
+    black: 0
+    red: 47.6
+    green: 85.2
+    yellow: 79.9
+    blue: 56.9
+    magenta: 54.8
+    cyan: 79.3
+    white: 107.9
+    brightBlack: 27.4
+    brightRed: 47.6
+    brightGreen: 85.2
+    brightYellow: 79.9
+    brightBlue: 56.9
+    brightMagenta: 54.8
+    brightCyan: 79.3
+    brightWhite: 107.9

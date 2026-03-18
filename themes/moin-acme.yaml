@@ -1,0 +1,49 @@
+name: "Moin Acme"
+source:
+  marketplace_id: "nwwdles.moin-theme"
+  version: "1.2.2"
+  installs: 1024
+  author: "nwwdles"
+  repo: "https://gitlab.com/nwwdles/vscode-moin-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nwwdles.moin-theme"
+colors:
+  bg: "#FFFFEF"
+  fg: "#000000"
+  black: "#EEEEEE"
+  red: "#CC0000"
+  green: "#116633"
+  yellow: "#CC9900"
+  blue: "#0044AA"
+  magenta: "#660077"
+  cyan: "#116666"
+  white: "#222222"
+  brightBlack: "#DDDDDD"
+  brightRed: "#FF0000"
+  brightGreen: "#338855"
+  brightYellow: "#DDAA00"
+  brightBlue: "#0055CC"
+  brightMagenta: "#8800AA"
+  brightCyan: "#228888"
+  brightWhite: "#333333"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 105.4
+    black: 0
+    red: 75.9
+    green: 83.4
+    yellow: 49.6
+    blue: 88.3
+    magenta: 93.7
+    cyan: 82.2
+    white: 102.2
+    brightBlack: 16.9
+    brightRed: 63.5
+    brightGreen: 69.4
+    brightYellow: 41
+    brightBlue: 81.1
+    brightMagenta: 84.7
+    brightCyan: 68.3
+    brightWhite: 98

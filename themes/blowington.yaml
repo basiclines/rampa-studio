@@ -1,0 +1,49 @@
+name: "Blowington"
+source:
+  marketplace_id: "treuks.blowington-theme"
+  version: "1.1.0"
+  installs: 429
+  author: "treuks"
+  repo: "https://github.com/treuks/blowington-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=treuks.blowington-theme"
+colors:
+  bg: "#062626"
+  fg: "#C7B18F"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#CBCBCB"
+  brightBlack: "#5A5A5A"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 195
+  contrast:
+    fg: 59.2
+    black: 0
+    red: 25.2
+    green: 51.5
+    yellow: 84.1
+    blue: 25.9
+    magenta: 28.3
+    cyan: 46.1
+    white: 72.6
+    brightBlack: 15.6
+    brightRed: 37.1
+    brightGreen: 62
+    brightYellow: 94.1
+    brightBlue: 38.5
+    brightMagenta: 43.9
+    brightCyan: 53.9
+    brightWhite: 105.4

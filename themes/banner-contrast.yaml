@@ -1,0 +1,49 @@
+name: "banner-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#0B0A0F"
+  fg: "#C5BEDD"
+  black: "#16141E"
+  red: "#BA0E2E"
+  green: "#7CD827"
+  yellow: "#A25CDB"
+  blue: "#FFFFFF"
+  magenta: "#A6EF61"
+  cyan: "#A6EF61"
+  white: "#D4CFE6"
+  brightBlack: "#38334C"
+  brightRed: "#F03E5F"
+  brightGreen: "#B0E87D"
+  brightYellow: "#D2B0ED"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#DAF8BE"
+  brightCyan: "#DAF8BE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 294
+  contrast:
+    fg: 69.6
+    black: 0
+    red: 21.3
+    green: 69.6
+    yellow: 33.6
+    blue: 107.7
+    magenta: 84.7
+    cyan: 84.7
+    white: 79
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 82.7
+    brightYellow: 66.8
+    brightBlue: 107.7
+    brightMagenta: 96.8
+    brightCyan: 96.8
+    brightWhite: 107.7

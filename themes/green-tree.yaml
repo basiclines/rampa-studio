@@ -1,0 +1,49 @@
+name: "Green Tree"
+source:
+  marketplace_id: "stevennyang.green-tree"
+  version: "1.2.1"
+  installs: 5715
+  author: "Steven N. Yang"
+  repo: "https://github.com/snyang/vscode-theme-green-tree"
+  url: "https://marketplace.visualstudio.com/items?itemName=stevennyang.green-tree"
+colors:
+  bg: "#F2FFF3"
+  fg: "#232323"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#3CB371"
+  yellow: "#BDB76B"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00BFFF"
+  white: "#3CB371"
+  brightBlack: "#708090"
+  brightRed: "#8B0000"
+  brightGreen: "#3CB371"
+  brightYellow: "#BDB76B"
+  brightBlue: "#00008B"
+  brightMagenta: "#8B008B"
+  brightCyan: "#87CEFA"
+  brightWhite: "#3CB371"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 100.6
+    black: 103.9
+    red: 62
+    green: 49.3
+    yellow: 38.2
+    blue: 83.7
+    magenta: 53.5
+    cyan: 38.8
+    white: 49.3
+    brightBlack: 65.7
+    brightRed: 88.6
+    brightGreen: 49.3
+    brightYellow: 38.2
+    brightBlue: 97.9
+    brightMagenta: 84.9
+    brightCyan: 28.6
+    brightWhite: 49.3

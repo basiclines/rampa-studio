@@ -1,0 +1,49 @@
+name: "Toy Chest"
+source:
+  marketplace_id: "cloudMACHINES.toy-chest-theme"
+  version: "0.1.1"
+  installs: 164
+  author: "cloudMACHINES"
+  repo: "https://github.com/fakebizprez/toy-chest-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cloudMACHINES.toy-chest-theme"
+colors:
+  bg: "#23364A"
+  fg: "#30CF7B"
+  black: "#2C3F57"
+  red: "#BE2D26"
+  green: "#199171"
+  yellow: "#DA8E26"
+  blue: "#325D96"
+  magenta: "#8A5DDB"
+  cyan: "#35A08F"
+  white: "#23D082"
+  brightBlack: "#326889"
+  brightRed: "#DD5943"
+  brightGreen: "#30CF7B"
+  brightYellow: "#E7D74B"
+  brightBlue: "#33A5D9"
+  brightMagenta: "#AD6BDC"
+  brightCyan: "#41C3AD"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 251
+  contrast:
+    fg: 57
+    black: 0
+    red: 17.7
+    green: 29
+    yellow: 44
+    blue: 12.8
+    magenta: 24.5
+    cyan: 36.6
+    white: 57.5
+    brightBlack: 15.5
+    brightRed: 31
+    brightGreen: 57
+    brightYellow: 74.5
+    brightBlue: 42.2
+    brightMagenta: 32.6
+    brightCyan: 53.3
+    brightWhite: 74.2

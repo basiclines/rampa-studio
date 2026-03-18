@@ -1,0 +1,49 @@
+name: "Twilite (Darker)"
+source:
+  marketplace_id: "vegcom.twilite"
+  version: "0.0.3"
+  installs: 29
+  author: "vegcom"
+  repo: "https://github.com/vegcom/VSCode-Twilite"
+  url: "https://marketplace.visualstudio.com/items?itemName=vegcom.twilite"
+colors:
+  bg: "#181520"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#E84545"
+  green: "#40E868"
+  yellow: "#E0E878"
+  blue: "#B084F5"
+  magenta: "#F060B3"
+  cyan: "#79DDF0"
+  white: "#A8A8A8"
+  brightBlack: "#4D5066"
+  brightRed: "#FF8080"
+  brightGreen: "#7DFFAA"
+  brightYellow: "#FFFFB8"
+  brightBlue: "#D4B5FF"
+  brightMagenta: "#FFA8EB"
+  brightCyan: "#B8FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 297
+  contrast:
+    fg: 102
+    black: 0
+    red: 35.4
+    green: 74.8
+    yellow: 87.3
+    blue: 47
+    magenta: 45.1
+    cyan: 76.4
+    white: 54.2
+    brightBlack: 13.7
+    brightRed: 53.7
+    brightGreen: 90.7
+    brightYellow: 104.1
+    brightBlue: 69.2
+    brightMagenta: 70.2
+    brightCyan: 98.5
+    brightWhite: 106.9

@@ -1,0 +1,49 @@
+name: "Shade Theme"
+source:
+  marketplace_id: "RLabsInc.rlabs-theme-collection"
+  version: "0.1.4"
+  installs: 181
+  author: "RLabs Inc."
+  repo: "https://github.com/rodrigoluglio/rlabs-themes-collection"
+  url: "https://marketplace.visualstudio.com/items?itemName=RLabsInc.rlabs-theme-collection"
+colors:
+  bg: "#171717"
+  fg: "#FFFFFF"
+  black: "#292929"
+  red: "#FF8686"
+  green: "#7BD1AA"
+  yellow: "#FFC59E"
+  blue: "#78A4BD"
+  magenta: "#85669F"
+  cyan: "#76A9AC"
+  white: "#FFFFFF"
+  brightBlack: "#AAAAAA"
+  brightRed: "#FF7575"
+  brightGreen: "#96FED0"
+  brightYellow: "#FFEFB7"
+  brightBlue: "#A6D9F7"
+  brightMagenta: "#B595D1"
+  brightCyan: "#9CC5C4"
+  brightWhite: "#C9C6C9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 106.9
+    black: 0
+    red: 55.5
+    green: 67.8
+    yellow: 77.7
+    blue: 48.9
+    magenta: 27.6
+    cyan: 50
+    white: 106.9
+    brightBlack: 55.2
+    brightRed: 50.6
+    brightGreen: 93.1
+    brightYellow: 96.5
+    brightBlue: 78.3
+    brightMagenta: 50.8
+    brightCyan: 66
+    brightWhite: 71.6

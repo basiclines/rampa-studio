@@ -1,0 +1,49 @@
+name: "comrade-light"
+source:
+  marketplace_id: "ztaylor.comradeyuri"
+  version: "0.0.9"
+  installs: 177
+  author: "Zachary Taylor"
+  repo: "https://github.com/thezacharytaylor/comradeyuri"
+  url: "https://marketplace.visualstudio.com/items?itemName=ztaylor.comradeyuri"
+colors:
+  bg: "#D6DBDB"
+  fg: "#343939"
+  black: "#E4E7E7"
+  red: "#BA0E2E"
+  green: "#BE1704"
+  yellow: "#4A6656"
+  blue: "#343939"
+  magenta: "#4A6656"
+  cyan: "#BE1704"
+  white: "#404646"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#DC9997"
+  brightYellow: "#B7C4BD"
+  brightBlue: "#656E6E"
+  brightMagenta: "#B7C4BD"
+  brightCyan: "#DC9997"
+  brightWhite: "#656E6E"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 75.3
+    black: 0
+    red: 58.7
+    green: 57.7
+    yellow: 59.7
+    blue: 75.3
+    magenta: 59.7
+    cyan: 57.7
+    white: 70.6
+    brightBlack: 22.1
+    brightRed: 42.2
+    brightGreen: 24
+    brightYellow: 11.8
+    brightBlue: 54.3
+    brightMagenta: 11.8
+    brightCyan: 24
+    brightWhite: 54.3

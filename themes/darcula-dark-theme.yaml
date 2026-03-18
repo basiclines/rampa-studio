@@ -1,0 +1,49 @@
+name: "Darcula Dark Theme"
+source:
+  marketplace_id: "CyrilLeblanc.amoled-darcula"
+  version: "1.0.1"
+  installs: 3271
+  author: "CyrilLeblanc"
+  repo: "https://github.com/CyrilLeblanc/vscode-amoled-darcula-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=CyrilLeblanc.amoled-darcula"
+colors:
+  bg: "#000000"
+  fg: "#999999"
+  black: "#343434"
+  red: "#E1270E"
+  green: "#5BC266"
+  yellow: "#FBCC43"
+  blue: "#535BCF"
+  magenta: "#BF5AF2"
+  cyan: "#6CC7F6"
+  white: "#FFFFFF"
+  brightBlack: "#535BCF"
+  brightRed: "#E1270E"
+  brightGreen: "#5BC266"
+  brightYellow: "#FBCC43"
+  brightBlue: "#535BCF"
+  brightMagenta: "#BF5AF2"
+  brightCyan: "#6CC7F6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 47.2
+    black: 0
+    red: 31.3
+    green: 58.2
+    yellow: 79.2
+    blue: 24.3
+    magenta: 39.6
+    cyan: 66.9
+    white: 107.9
+    brightBlack: 24.3
+    brightRed: 31.3
+    brightGreen: 58.2
+    brightYellow: 79.2
+    brightBlue: 24.3
+    brightMagenta: 39.6
+    brightCyan: 66.9
+    brightWhite: 107.9

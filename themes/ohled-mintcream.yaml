@@ -1,0 +1,49 @@
+name: "OhLED_MintCream"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#F5FFFA"
+  black: "#F5FFFA"
+  red: "#B4BBB7"
+  green: "#C4CCC8"
+  yellow: "#939996"
+  blue: "#E5EEE9"
+  magenta: "#D4DDD9"
+  cyan: "#A3AAA7"
+  white: "#838885"
+  brightBlack: "#F5FFFA"
+  brightRed: "#B4BBB7"
+  brightGreen: "#C4CCC8"
+  brightYellow: "#939996"
+  brightBlue: "#E5EEE9"
+  brightMagenta: "#D4DDD9"
+  brightCyan: "#A3AAA7"
+  brightWhite: "#838885"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 106.3
+    black: 106.3
+    red: 64.7
+    green: 74.5
+    yellow: 46.4
+    blue: 95.3
+    magenta: 84.7
+    cyan: 55.3
+    white: 38
+    brightBlack: 106.3
+    brightRed: 64.7
+    brightGreen: 74.5
+    brightYellow: 46.4
+    brightBlue: 95.3
+    brightMagenta: 84.7
+    brightCyan: 55.3
+    brightWhite: 38

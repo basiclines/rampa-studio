@@ -1,0 +1,49 @@
+name: "Davi Lacerda Dark"
+source:
+  marketplace_id: "DaviLacerda.davi-lacerda-themes"
+  version: "0.2.1"
+  installs: 124
+  author: "Davi Lacerda"
+  repo: "https://github.com/davilacerda/davi-lacerda-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=DaviLacerda.davi-lacerda-themes"
+colors:
+  bg: "#09090B"
+  fg: "#FAFAFA"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#A3E635"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 104.5
+    black: 13.4
+    red: 53
+    green: 79.6
+    yellow: 52.6
+    blue: 52.6
+    magenta: 52.6
+    cyan: 61.8
+    white: 64.4
+    brightBlack: 29.6
+    brightRed: 65.2
+    brightGreen: 65.8
+    brightYellow: 65.1
+    brightBlue: 65.1
+    brightMagenta: 65
+    brightCyan: 70.3
+    brightWhite: 107.8

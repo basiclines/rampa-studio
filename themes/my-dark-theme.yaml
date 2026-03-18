@@ -1,0 +1,49 @@
+name: "my-dark-theme"
+source:
+  marketplace_id: "kdinesh24.t3-dark-theme"
+  version: "0.1.1"
+  installs: 38
+  author: "kdinesh24"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=kdinesh24.t3-dark-theme"
+colors:
+  bg: "#1A151F"
+  fg: "#E5E5E5"
+  black: "#201B25"
+  red: "#EF4444"
+  green: "#96D0BB"
+  yellow: "#FFBC9E"
+  blue: "#9EE9F7"
+  magenta: "#E07AA4"
+  cyan: "#8BC0AE"
+  white: "#E5E5E5"
+  brightBlack: "#6A6572"
+  brightRed: "#F87171"
+  brightGreen: "#A7F3D0"
+  brightYellow: "#FED7AA"
+  brightBlue: "#BFDBFE"
+  brightMagenta: "#CC93CA"
+  brightCyan: "#A7F3D0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 307
+  contrast:
+    fg: 90
+    black: 0
+    red: 36.8
+    green: 70
+    yellow: 74.2
+    blue: 85.1
+    magenta: 47.2
+    cyan: 61.4
+    white: 90
+    brightBlack: 22.5
+    brightRed: 48.1
+    brightGreen: 88.9
+    brightYellow: 85.3
+    brightBlue: 82.1
+    brightMagenta: 53
+    brightCyan: 88.9
+    brightWhite: 106.9

@@ -1,0 +1,49 @@
+name: "Twilight Pro"
+source:
+  marketplace_id: "malkoleyplay.twilight-pro"
+  version: "0.3.0"
+  installs: 2133
+  author: "_ipal"
+  repo: "https://github.com/Iipal/Twilight-Pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=malkoleyplay.twilight-pro"
+colors:
+  bg: "#141414"
+  fg: "#F8F8F8"
+  black: "#000000"
+  red: "#AA0000"
+  green: "#00AA00"
+  yellow: "#AAAA00"
+  blue: "#0000AA"
+  magenta: "#AA00AA"
+  cyan: "#00AAAA"
+  white: "#AAAAAA"
+  brightBlack: "#555555"
+  brightRed: "#FF5555"
+  brightGreen: "#55FF55"
+  brightYellow: "#FFFF55"
+  brightBlue: "#5555FF"
+  brightMagenta: "#FF55FF"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 102.5
+    black: 0
+    red: 17
+    green: 43.8
+    yellow: 52.7
+    blue: 0
+    magenta: 21.8
+    cyan: 46.9
+    white: 55.5
+    brightBlack: 15.4
+    brightRed: 43.7
+    brightGreen: 87.4
+    brightYellow: 102.3
+    brightBlue: 26.6
+    brightMagenta: 51.1
+    brightCyan: 55.7
+    brightWhite: 107.1

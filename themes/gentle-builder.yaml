@@ -1,0 +1,49 @@
+name: "Gentle Builder"
+source:
+  marketplace_id: "lukeocodes.gentle-themes"
+  version: "0.0.6"
+  installs: 4472
+  author: "lukeocodes"
+  repo: "https://github.com/lukeocodes/gentle-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=lukeocodes.gentle-themes"
+colors:
+  bg: "#000C16"
+  fg: "#D9DDE0"
+  black: "#000C16"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#A3C76E"
+  blue: "#82AAFF"
+  magenta: "#94F7BD"
+  cyan: "#3EF8F8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#94F7BD"
+  brightCyan: "#53A5D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 237
+  contrast:
+    fg: 85.4
+    black: 0
+    red: 40.1
+    green: 68
+    yellow: 65.7
+    blue: 56.7
+    magenta: 89.4
+    cyan: 88.5
+    white: 107.7
+    brightBlack: 16.4
+    brightRed: 40.1
+    brightGreen: 68
+    brightYellow: 94.5
+    brightBlue: 56.7
+    brightMagenta: 89.4
+    brightCyan: 49.1
+    brightWhite: 107.7

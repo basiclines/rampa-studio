@@ -1,0 +1,49 @@
+name: "Nodr Cocoa"
+source:
+  marketplace_id: "samuelbran.nodr"
+  version: "1.2.0"
+  installs: 2894
+  author: "Samuel Bran"
+  repo: "https://github.com/samuelbran/Nodr"
+  url: "https://marketplace.visualstudio.com/items?itemName=samuelbran.nodr"
+colors:
+  bg: "#262020"
+  fg: "#938686"
+  black: "#262020"
+  red: "#DF5D46"
+  green: "#74B686"
+  yellow: "#F6BF47"
+  blue: "#4499CD"
+  magenta: "#9957AA"
+  cyan: "#67CDCC"
+  white: "#938686"
+  brightBlack: "#5B4242"
+  brightRed: "#F08D49"
+  brightGreen: "#67CDCC"
+  brightYellow: "#F6BF47"
+  brightBlue: "#4499CD"
+  brightMagenta: "#9957AA"
+  brightCyan: "#67CDCC"
+  brightWhite: "#938686"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 36.7
+    black: 0
+    red: 36.3
+    green: 52.7
+    yellow: 70.8
+    blue: 41.2
+    magenta: 25.8
+    cyan: 64.8
+    white: 36.7
+    brightBlack: 9
+    brightRed: 52.1
+    brightGreen: 64.8
+    brightYellow: 70.8
+    brightBlue: 41.2
+    brightMagenta: 25.8
+    brightCyan: 64.8
+    brightWhite: 36.7

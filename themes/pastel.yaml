@@ -1,0 +1,49 @@
+name: "Pastel"
+source:
+  marketplace_id: "Tsun.Pastelization"
+  version: "0.0.3"
+  installs: 407
+  author: "Tsun"
+  repo: "https://github.com/HEKYPTO/Pastelization"
+  url: "https://marketplace.visualstudio.com/items?itemName=Tsun.Pastelization"
+colors:
+  bg: "#FFFFFF"
+  fg: "#665D61"
+  black: "#868686"
+  red: "#FF726A"
+  green: "#98D198"
+  yellow: "#FFFB54"
+  blue: "#708EB4"
+  magenta: "#C486B0"
+  cyan: "#79D2E6"
+  white: "#F4F5F1"
+  brightBlack: "#ABABAB"
+  brightRed: "#FF0D00"
+  brightGreen: "#13C913"
+  brightYellow: "#FFFDA3"
+  brightBlue: "#B4C8EA"
+  brightMagenta: "#EC53BB"
+  brightCyan: "#0DDBDB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 81.6
+    black: 64
+    red: 51.2
+    green: 32.3
+    yellow: 0
+    blue: 61.2
+    magenta: 54.4
+    cyan: 31
+    white: 0
+    brightBlack: 45.3
+    brightRed: 64.1
+    brightGreen: 43.2
+    brightYellow: 0
+    brightBlue: 30.2
+    brightMagenta: 58.5
+    brightCyan: 30.5
+    brightWhite: 0

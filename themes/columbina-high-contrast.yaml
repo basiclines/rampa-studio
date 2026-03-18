@@ -1,0 +1,49 @@
+name: "Columbina - High Contrast"
+source:
+  marketplace_id: "frostmoon-dev.columbina-theme"
+  version: "0.0.2"
+  installs: 235
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/columbina-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.columbina-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF91AB"
+  green: "#85D8DA"
+  yellow: "#FFD8B5"
+  blue: "#A8DCF5"
+  magenta: "#F5A7E0"
+  cyan: "#C0E8FF"
+  white: "#FFFFFF"
+  brightBlack: "#8A8598"
+  brightRed: "#FFAAC0"
+  brightGreen: "#A0F0F2"
+  brightYellow: "#FFE8CA"
+  brightBlue: "#C0E8FF"
+  brightMagenta: "#FFBCF0"
+  brightCyan: "#DAF5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 60.9
+    green: 74.7
+    yellow: 87.2
+    blue: 80.8
+    magenta: 68.5
+    cyan: 89.2
+    white: 107.9
+    brightBlack: 38.4
+    brightRed: 69.8
+    brightGreen: 89.4
+    brightYellow: 95
+    brightBlue: 89.2
+    brightMagenta: 78.6
+    brightCyan: 98.3
+    brightWhite: 107.9

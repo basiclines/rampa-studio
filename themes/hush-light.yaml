@@ -1,0 +1,49 @@
+name: "Hush.light"
+source:
+  marketplace_id: "nobilissimum.hush-theme"
+  version: "1.8.0"
+  installs: 221
+  author: "Nobilissimum"
+  repo: "https://github.com/nobilissimum/hush-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nobilissimum.hush-theme"
+colors:
+  bg: "#F5FAFA"
+  fg: "#111111"
+  black: "#001326"
+  red: "#D54B4B"
+  green: "#4E8969"
+  yellow: "#A19A5B"
+  blue: "#3C88B9"
+  magenta: "#D54B4B"
+  cyan: "#267E87"
+  white: "#111111"
+  brightBlack: "#111111"
+  brightRed: "#D54B4B"
+  brightGreen: "#4E8969"
+  brightYellow: "#A19A5B"
+  brightBlue: "#3C88B9"
+  brightMagenta: "#D54B4B"
+  brightCyan: "#267E87"
+  brightWhite: "#111111"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 101.7
+    black: 101.5
+    red: 64.8
+    green: 64.5
+    yellow: 51.4
+    blue: 62.4
+    magenta: 64.8
+    cyan: 69.1
+    white: 101.7
+    brightBlack: 101.7
+    brightRed: 64.8
+    brightGreen: 64.5
+    brightYellow: 51.4
+    brightBlue: 62.4
+    brightMagenta: 64.8
+    brightCyan: 69.1
+    brightWhite: 101.7

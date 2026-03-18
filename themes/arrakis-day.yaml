@@ -1,0 +1,49 @@
+name: "Arrakis Day"
+source:
+  marketplace_id: "anvell.arrakis-theme"
+  version: "1.6.0"
+  installs: 522
+  author: "Anvell"
+  repo: "https://github.com/Anvell/vscode-arrakis-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=anvell.arrakis-theme"
+colors:
+  bg: "#F5EBE1"
+  fg: "#403E3C"
+  black: "#100F0F"
+  red: "#AF3029"
+  green: "#66800B"
+  yellow: "#AD8301"
+  blue: "#205EA6"
+  magenta: "#A02F6F"
+  cyan: "#24837B"
+  white: "#FAF0E6"
+  brightBlack: "#343331"
+  brightRed: "#D14D41"
+  brightGreen: "#879A39"
+  brightYellow: "#D0A215"
+  brightBlue: "#4385BE"
+  brightMagenta: "#CE5D97"
+  brightCyan: "#3AA99F"
+  brightWhite: "#FAF0E6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 68
+  contrast:
+    fg: 83.7
+    black: 94.5
+    red: 69.6
+    green: 60.1
+    yellow: 51.2
+    blue: 71
+    magenta: 71.1
+    cyan: 60.3
+    white: 0
+    brightBlack: 87.7
+    brightRed: 58.1
+    brightGreen: 47.3
+    brightYellow: 35.5
+    brightBlue: 55.5
+    brightMagenta: 53.3
+    brightCyan: 43.4
+    brightWhite: 0

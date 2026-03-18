@@ -1,0 +1,49 @@
+name: "Hot Stuff"
+source:
+  marketplace_id: "HarshRastogi.harsh"
+  version: "1.4.0"
+  installs: 301
+  author: "Harsh Rastogi"
+  repo: "https://github.com/theharshrastogi/Hot-Stuff-VSCODE-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HarshRastogi.harsh"
+colors:
+  bg: "#131410"
+  fg: "#CCCCCC"
+  black: "#202020"
+  red: "#F81219"
+  green: "#2EC55F"
+  yellow: "#ECBA10"
+  blue: "#1181D6"
+  magenta: "#4F5BB7"
+  cyan: "#1181D6"
+  white: "#D6DBE5"
+  brightBlack: "#D6DBE5"
+  brightRed: "#DE362F"
+  brightGreen: "#1ED362"
+  brightYellow: "#F3BD0A"
+  brightBlue: "#1181D6"
+  brightMagenta: "#5451B9"
+  brightCyan: "#1181D6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 75
+    black: 0
+    red: 35.3
+    green: 57.3
+    yellow: 68.5
+    blue: 33.5
+    magenta: 21.5
+    cyan: 33.5
+    white: 83.9
+    brightBlack: 83.9
+    brightRed: 31.3
+    brightGreen: 63.9
+    brightYellow: 70.8
+    brightBlue: 33.5
+    brightMagenta: 19.5
+    brightCyan: 33.5
+    brightWhite: 107.2

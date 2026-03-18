@@ -1,0 +1,49 @@
+name: "Dark Minimal Theme(SM)"
+source:
+  marketplace_id: "SIRILMP.dark-theme-sm"
+  version: "3.11.3"
+  installs: 21064
+  author: "SIRIL M P"
+  repo: "https://github.com/sirilmp/dark-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SIRILMP.dark-theme-sm"
+colors:
+  bg: "#212733"
+  fg: "#D9D7CE"
+  black: "#343D4A"
+  red: "#F07178"
+  green: "#937DC2"
+  yellow: "#7FE9DE"
+  blue: "#36A3D9"
+  magenta: "#D4BFFF"
+  cyan: "#95E6CB"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#CBE645"
+  brightYellow: "#FFDF80"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#A6FDE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 44.3
+    green: 35.6
+    yellow: 79.4
+    blue: 44.5
+    magenta: 70.7
+    cyan: 78.6
+    white: 69.5
+    brightBlack: 20.6
+    brightRed: 44.3
+    brightGreen: 80.7
+    brightYellow: 85.6
+    brightBlue: 32.4
+    brightMagenta: 55.2
+    brightCyan: 92.3
+    brightWhite: 104.6

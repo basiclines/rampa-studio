@@ -1,0 +1,49 @@
+name: "Wine Garden"
+source:
+  marketplace_id: "Synth1983GreenWave.ampelopsis"
+  version: "1.0.2"
+  installs: 259
+  author: "🧪 ovct 🧪"
+  repo: "https://github.com/Octaviocossy/ampelopsis-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Synth1983GreenWave.ampelopsis"
+colors:
+  bg: "#101724"
+  fg: "#A6ACCD"
+  black: "#101724"
+  red: "#E695B9"
+  green: "#7CBEB9"
+  yellow: "#D7CE9A"
+  blue: "#7FB5D6"
+  magenta: "#E695B9"
+  cyan: "#7FB5D6"
+  white: "#FFFFFF"
+  brightBlack: "#A6ACCD"
+  brightRed: "#E695B9"
+  brightGreen: "#7CBEB9"
+  brightYellow: "#D7CE9A"
+  brightBlue: "#ADD7FF"
+  brightMagenta: "#E695B9"
+  brightCyan: "#FAFAFA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 262
+  contrast:
+    fg: 57.1
+    black: 0
+    red: 57.1
+    green: 59.8
+    yellow: 75.2
+    blue: 57.6
+    magenta: 57.1
+    cyan: 57.6
+    white: 106.9
+    brightBlack: 57.1
+    brightRed: 57.1
+    brightGreen: 59.8
+    brightYellow: 75.2
+    brightBlue: 78.5
+    brightMagenta: 57.1
+    brightCyan: 103.5
+    brightWhite: 106.9

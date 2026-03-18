@@ -1,0 +1,49 @@
+name: "monochrome-dark-slate"
+source:
+  marketplace_id: "ccssmnn.monochrome-tailwind-colors"
+  version: "1.0.0"
+  installs: 1193
+  author: "Carl Assmann"
+  repo: "https://github.com/ccssmnn/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=ccssmnn.monochrome-tailwind-colors"
+colors:
+  bg: "#0F172A"
+  fg: "#F1F5F9"
+  black: "#0F172A"
+  red: "#F1F5F9"
+  green: "#979CA6"
+  yellow: "#F1F5F9"
+  blue: "#69707D"
+  magenta: "#F1F5F9"
+  cyan: "#C4C9D0"
+  white: "#F1F5F9"
+  brightBlack: "#3C4353"
+  brightRed: "#F1F5F9"
+  brightGreen: "#979CA6"
+  brightYellow: "#F1F5F9"
+  brightBlue: "#69707D"
+  brightMagenta: "#F1F5F9"
+  brightCyan: "#C4C9D0"
+  brightWhite: "#F1F5F9"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 266
+  contrast:
+    fg: 99.8
+    black: 0
+    red: 99.8
+    green: 47.5
+    yellow: 99.8
+    blue: 26.1
+    magenta: 99.8
+    cyan: 72.5
+    white: 99.8
+    brightBlack: 8.4
+    brightRed: 99.8
+    brightGreen: 47.5
+    brightYellow: 99.8
+    brightBlue: 26.1
+    brightMagenta: 99.8
+    brightCyan: 72.5
+    brightWhite: 99.8

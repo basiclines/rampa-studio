@@ -1,0 +1,49 @@
+name: "Claude Mode Light"
+source:
+  marketplace_id: "TheWebDev.claude-mode"
+  version: "1.1.0"
+  installs: 60
+  author: "TheWebDev"
+  repo: "https://github.com/stevie2codes/claude-mode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheWebDev.claude-mode"
+colors:
+  bg: "#F5F0E6"
+  fg: "#2C2A25"
+  black: "#2C2A25"
+  red: "#C44D3E"
+  green: "#788C5D"
+  yellow: "#A67235"
+  blue: "#5A82A6"
+  magenta: "#9B6E7A"
+  cyan: "#5A8A8A"
+  white: "#E8E6DC"
+  brightBlack: "#8A8780"
+  brightRed: "#D97757"
+  brightGreen: "#8FA874"
+  brightYellow: "#C9956B"
+  brightBlue: "#6A9BCC"
+  brightMagenta: "#B0889A"
+  brightCyan: "#6A9E9E"
+  brightWhite: "#FAF9F5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 92.4
+    black: 92.4
+    red: 63.1
+    green: 55.7
+    yellow: 59.6
+    blue: 59
+    magenta: 60.8
+    cyan: 57.3
+    white: 0
+    brightBlack: 54.8
+    brightRed: 49.2
+    brightGreen: 42.4
+    brightYellow: 42.4
+    brightBlue: 46.9
+    brightMagenta: 48.9
+    brightCyan: 47.9
+    brightWhite: 0

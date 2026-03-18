@@ -1,0 +1,49 @@
+name: "Kaisa-Dark"
+source:
+  marketplace_id: "EmeAim.aim"
+  version: "0.0.8"
+  installs: 1797
+  author: "EmeAim"
+  repo: "https://github.com/EmePin/aim-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmeAim.aim"
+colors:
+  bg: "#232536"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 279
+  contrast:
+    fg: 77.4
+    black: 0
+    red: 24.6
+    green: 50.9
+    yellow: 83.5
+    blue: 25.3
+    magenta: 27.6
+    cyan: 45.4
+    white: 87.9
+    brightBlack: 19.9
+    brightRed: 36.4
+    brightGreen: 61.4
+    brightYellow: 93.5
+    brightBlue: 37.9
+    brightMagenta: 43.3
+    brightCyan: 53.3
+    brightWhite: 87.9

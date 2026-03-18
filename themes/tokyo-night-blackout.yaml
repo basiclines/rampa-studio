@@ -1,0 +1,49 @@
+name: "Tokyo Night Blackout"
+source:
+  marketplace_id: "EdmundYong.tokyo-night-blackout"
+  version: "0.0.1"
+  installs: 1987
+  author: "Edmund Yong"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=EdmundYong.tokyo-night-blackout"
+colors:
+  bg: "#000000"
+  fg: "#A9B1D6"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#41A6B5"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 60.9
+    black: 0
+    red: 50.9
+    green: 73.8
+    yellow: 63.7
+    blue: 52.7
+    magenta: 56.6
+    cyan: 72.1
+    white: 33.6
+    brightBlack: 0
+    brightRed: 50.9
+    brightGreen: 47.4
+    brightYellow: 63.7
+    brightBlue: 52.7
+    brightMagenta: 56.6
+    brightCyan: 72.1
+    brightWhite: 60.5

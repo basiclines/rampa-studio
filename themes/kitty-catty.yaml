@@ -1,0 +1,49 @@
+name: "kitty catty"
+source:
+  marketplace_id: "HAAZIQ-ALI.karou-theme"
+  version: "3.0.1"
+  installs: 90
+  author: "HAAZIQ-ALI"
+  repo: "https://github.com/HAAZIQ-ALI/KAROU-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HAAZIQ-ALI.karou-theme"
+colors:
+  bg: "#0D0F10"
+  fg: "#D8DFE5"
+  black: "#0D1012"
+  red: "#FF6666"
+  green: "#3FBF7F"
+  yellow: "#FFB454"
+  blue: "#4AA3FF"
+  magenta: "#343131"
+  cyan: "#2F9EA4"
+  white: "#D8DFE5"
+  brightBlack: "#2C3943"
+  brightRed: "#FF6666"
+  brightGreen: "#49D18F"
+  brightYellow: "#FFB454"
+  brightBlue: "#62B4FF"
+  brightMagenta: "#343131"
+  brightCyan: "#4FD4D6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 86.3
+    black: 0
+    red: 47.6
+    green: 55.9
+    yellow: 70.2
+    blue: 50.6
+    magenta: 0
+    cyan: 42.4
+    white: 86.3
+    brightBlack: 0
+    brightRed: 47.6
+    brightGreen: 65.1
+    brightYellow: 70.2
+    brightBlue: 58.5
+    brightMagenta: 0
+    brightCyan: 69.5
+    brightWhite: 107.5

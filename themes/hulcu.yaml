@@ -1,0 +1,49 @@
+name: "Hulcu"
+source:
+  marketplace_id: "slobodan-zivanovic.hulcu"
+  version: "1.0.0"
+  installs: 77
+  author: "Slobodan Živanović"
+  repo: "https://github.com/slobodanzivanovic/hulcu.vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=slobodan-zivanovic.hulcu"
+colors:
+  bg: "#212129"
+  fg: "#F0E0B8"
+  black: "#212129"
+  red: "#D51F1F"
+  green: "#73876A"
+  yellow: "#EA8F32"
+  blue: "#5D8091"
+  magenta: "#9074BC"
+  cyan: "#91A7D4"
+  white: "#F0E0B8"
+  brightBlack: "#2F2F40"
+  brightRed: "#FC4C52"
+  brightGreen: "#ABCE7F"
+  brightYellow: "#E192AB"
+  brightBlue: "#71B5D2"
+  brightMagenta: "#F96575"
+  brightCyan: "#B2E6E7"
+  brightWhite: "#F0E0B8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  contrast:
+    fg: 86.2
+    black: 0
+    red: 25.7
+    green: 33
+    yellow: 51.3
+    blue: 30.1
+    magenta: 33.1
+    cyan: 52
+    white: 86.2
+    brightBlack: 0
+    brightRed: 39.8
+    brightGreen: 67.8
+    brightYellow: 53.3
+    brightBlue: 55.1
+    brightMagenta: 44.4
+    brightCyan: 83.3
+    brightWhite: 86.2

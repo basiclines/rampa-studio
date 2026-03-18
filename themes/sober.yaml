@@ -1,0 +1,49 @@
+name: "Sober"
+source:
+  marketplace_id: "YesCode.sober-code"
+  version: "0.0.7"
+  installs: 128
+  author: "YesCode"
+  repo: "https://git@github.com/yesomac/vs-sober"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.sober-code"
+colors:
+  bg: "#0E1020"
+  fg: "#CDCDCD"
+  black: "#1D211D"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00F95F"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#788AEC"
+  brightYellow: "#DFE6E9"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 277
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 42.4
+    green: 61.4
+    yellow: 73.5
+    blue: 83.3
+    magenta: 20
+    cyan: 49.9
+    white: 47.7
+    brightBlack: 19
+    brightRed: 42.4
+    brightGreen: 42.6
+    brightYellow: 90.3
+    brightBlue: 19.2
+    brightMagenta: 20
+    brightCyan: 49.9
+    brightWhite: 99.3

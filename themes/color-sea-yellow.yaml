@@ -1,0 +1,49 @@
+name: "Color Sea Yellow"
+source:
+  marketplace_id: "Danesed.color-sea"
+  version: "1.0.0"
+  installs: 16
+  author: "Danesed"
+  repo: "https://github.com/danesed/colorsea-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Danesed.color-sea"
+colors:
+  bg: "#332614"
+  fg: "#BAB4A4"
+  black: "#6D4B23"
+  red: "#FF2D3B"
+  green: "#72DDF7"
+  yellow: "#FFBE0B"
+  blue: "#7B8CFF"
+  magenta: "#FFBE0B"
+  cyan: "#7B8CFF"
+  white: "#BAB4A4"
+  brightBlack: "#5C5846"
+  brightRed: "#FF2D3B"
+  brightGreen: "#72DDF7"
+  brightYellow: "#FFBE0B"
+  brightBlue: "#7B8CFF"
+  brightMagenta: "#FFBE0B"
+  brightCyan: "#7B8CFF"
+  brightWhite: "#BAB4A4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 74
+  contrast:
+    fg: 58.4
+    black: 11.5
+    red: 35.7
+    green: 73.8
+    yellow: 70.4
+    blue: 42
+    magenta: 70.4
+    cyan: 42
+    white: 58.4
+    brightBlack: 13.7
+    brightRed: 35.7
+    brightGreen: 73.8
+    brightYellow: 70.4
+    brightBlue: 42
+    brightMagenta: 70.4
+    brightCyan: 42
+    brightWhite: 58.4

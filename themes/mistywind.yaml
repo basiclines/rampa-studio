@@ -1,0 +1,49 @@
+name: "MistyWind"
+source:
+  marketplace_id: "priteshlad3.katanax"
+  version: "0.0.1"
+  installs: 9
+  author: "priteshlad3"
+  repo: "https://github.com/pritesh88/katanax-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=priteshlad3.katanax"
+colors:
+  bg: "#0A1F30"
+  fg: "#BDE8F8"
+  black: "#0D2438"
+  red: "#FF8BB0"
+  green: "#5ADBC0"
+  yellow: "#5BB8D4"
+  blue: "#2A7FA8"
+  magenta: "#8ACFE8"
+  cyan: "#3AAAC8"
+  white: "#8ACFE8"
+  brightBlack: "#163550"
+  brightRed: "#FFB0C8"
+  brightGreen: "#7AEBD8"
+  brightYellow: "#8ACFE8"
+  brightBlue: "#3A9AC0"
+  brightMagenta: "#A8E0F0"
+  brightCyan: "#5BBCD8"
+  brightWhite: "#BDE8F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 246
+  contrast:
+    fg: 86.7
+    black: 0
+    red: 57.5
+    green: 70.7
+    yellow: 55.7
+    blue: 29.1
+    magenta: 69.8
+    cyan: 47.9
+    white: 69.8
+    brightBlack: 0
+    brightRed: 70.4
+    brightGreen: 81.2
+    brightYellow: 69.8
+    brightBlue: 41
+    brightMagenta: 80.5
+    brightCyan: 57.7
+    brightWhite: 86.7

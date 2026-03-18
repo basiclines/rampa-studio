@@ -1,0 +1,49 @@
+name: "colors.color-theme"
+source:
+  marketplace_id: "sissel.material-potion"
+  version: "0.1.1"
+  installs: 1206
+  author: "panoply"
+  repo: "https://github.com/panoply/vscode-potion-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sissel.material-potion"
+colors:
+  bg: "#080808"
+  fg: "#F2F2F2"
+  black: "#000000"
+  red: "#F44336"
+  green: "#9CCC65"
+  yellow: "#FFEB3B"
+  blue: "#42A5F5"
+  magenta: "#CE93D8"
+  cyan: "#00BCD4"
+  white: "#E0E0E0"
+  brightBlack: "#807E7B"
+  brightRed: "#E57373"
+  brightGreen: "#8BC34A"
+  brightYellow: "#FFF59D"
+  brightBlue: "#29B6F6"
+  brightMagenta: "#E1BEE7"
+  brightCyan: "#4DD0E1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 38.6
+    green: 67.2
+    yellow: 93.3
+    blue: 50.6
+    magenta: 55
+    cyan: 57.4
+    white: 87.8
+    brightBlack: 33.8
+    brightRed: 45.7
+    brightGreen: 61.3
+    brightYellow: 99.5
+    brightBlue: 57.1
+    brightMagenta: 74
+    brightCyan: 68.3
+    brightWhite: 107.8

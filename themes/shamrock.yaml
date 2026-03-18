@@ -1,0 +1,49 @@
+name: "Shamrock"
+source:
+  marketplace_id: "DymNomZ.dymnomz-shamrock"
+  version: "2.0.2"
+  installs: 202
+  author: "DymNomZ"
+  repo: "https://github.com/DymNomZ/Shamrock"
+  url: "https://marketplace.visualstudio.com/items?itemName=DymNomZ.dymnomz-shamrock"
+colors:
+  bg: "#001A0C"
+  fg: "#00913D"
+  black: "#001A0C"
+  red: "#F36C43"
+  green: "#007A33"
+  yellow: "#C4AD54"
+  blue: "#00913D"
+  magenta: "#FFE372"
+  cyan: "#D4FFD7"
+  white: "#E8F5E9"
+  brightBlack: "#02381B"
+  brightRed: "#FF8F70"
+  brightGreen: "#4D9E68"
+  brightYellow: "#FFE372"
+  brightBlue: "#6BCF8E"
+  brightMagenta: "#FFF0B3"
+  brightCyan: "#E8F5E9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 158
+  contrast:
+    fg: 33.2
+    black: 0
+    red: 45.1
+    green: 24
+    yellow: 57.5
+    blue: 33.2
+    magenta: 89.4
+    cyan: 99.7
+    white: 98
+    brightBlack: 0
+    brightRed: 57.6
+    brightGreen: 40.8
+    brightYellow: 89.4
+    brightBlue: 65
+    brightMagenta: 96.9
+    brightCyan: 98
+    brightWhite: 106.9

@@ -1,0 +1,49 @@
+name: "In Bed by 7pm"
+source:
+  marketplace_id: "sdras.inbedby7pm"
+  version: "0.4.0"
+  installs: 47500
+  author: "sarah.drasner"
+  repo: "https://github.com/sdras/inbedby7pm"
+  url: "https://marketplace.visualstudio.com/items?itemName=sdras.inbedby7pm"
+colors:
+  bg: "#292C3D"
+  fg: "#EBECF1"
+  black: "#292C3D"
+  red: "#F88070"
+  green: "#A5FFBD"
+  yellow: "#F7E9B4"
+  blue: "#9DD2E8"
+  magenta: "#BE8FDA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#F88070"
+  brightGreen: "#A5FFBD"
+  brightYellow: "#FFEB95"
+  brightBlue: "#9DD2E8"
+  brightMagenta: "#BE8FDA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 277
+  contrast:
+    fg: 91.1
+    black: 0
+    red: 48.5
+    green: 90.6
+    yellow: 89
+    blue: 70.1
+    magenta: 47.1
+    cyan: 56.3
+    white: 103.4
+    brightBlack: 12.1
+    brightRed: 48.5
+    brightGreen: 90.6
+    brightYellow: 90.3
+    brightBlue: 70.1
+    brightMagenta: 47.1
+    brightCyan: 70.6
+    brightWhite: 103.4

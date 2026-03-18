@@ -1,0 +1,49 @@
+name: "green-low-contrast"
+source:
+  marketplace_id: "cyberSpice.green-low-contrast"
+  version: "0.26.0"
+  installs: 1726
+  author: "cyberSpice"
+  repo: "https://github.com/alxspice/green-low-contrast-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cyberSpice.green-low-contrast"
+colors:
+  bg: "#233034"
+  fg: "#83A38F"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 219
+  contrast:
+    fg: 43.9
+    black: 0
+    red: 23.1
+    green: 49.3
+    yellow: 82
+    blue: 23.8
+    magenta: 26.1
+    cyan: 43.9
+    white: 86.4
+    brightBlack: 18.4
+    brightRed: 34.9
+    brightGreen: 59.9
+    brightYellow: 92
+    brightBlue: 36.3
+    brightMagenta: 41.7
+    brightCyan: 51.7
+    brightWhite: 86.4

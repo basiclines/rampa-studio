@@ -1,0 +1,49 @@
+name: "OhLED_White"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#FFFFFF"
+  red: "#BBBBBB"
+  green: "#CCCCCC"
+  yellow: "#999999"
+  blue: "#EEEEEE"
+  magenta: "#DDDDDD"
+  cyan: "#AAAAAA"
+  white: "#888888"
+  brightBlack: "#FFFFFF"
+  brightRed: "#BBBBBB"
+  brightGreen: "#CCCCCC"
+  brightYellow: "#999999"
+  brightBlue: "#EEEEEE"
+  brightMagenta: "#DDDDDD"
+  brightCyan: "#AAAAAA"
+  brightWhite: "#888888"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 107.9
+    red: 65.7
+    green: 75.7
+    yellow: 47.2
+    blue: 96.8
+    magenta: 86
+    cyan: 56.2
+    white: 38.6
+    brightBlack: 107.9
+    brightRed: 65.7
+    brightGreen: 75.7
+    brightYellow: 47.2
+    brightBlue: 96.8
+    brightMagenta: 86
+    brightCyan: 56.2
+    brightWhite: 38.6

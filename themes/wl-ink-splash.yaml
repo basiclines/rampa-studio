@@ -1,0 +1,49 @@
+name: "WL-Ink Splash"
+source:
+  marketplace_id: "WatkinsLabs.ink-splash"
+  version: "1.0.1"
+  installs: 13
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.ink-splash"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#E76F51"
+  green: "#2A9D8F"
+  yellow: "#E9C46A"
+  blue: "#457B9D"
+  magenta: "#A8DADC"
+  cyan: "#457B9D"
+  white: "#000000"
+  brightBlack: "#666666"
+  brightRed: "#E76F51"
+  brightGreen: "#2A9D8F"
+  brightYellow: "#E9C46A"
+  brightBlue: "#457B9D"
+  brightMagenta: "#A8DADC"
+  brightCyan: "#457B9D"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 57.3
+    green: 60.3
+    yellow: 29.4
+    blue: 71.8
+    magenta: 24.5
+    cyan: 71.8
+    white: 106
+    brightBlack: 78.8
+    brightRed: 57.3
+    brightGreen: 60.3
+    brightYellow: 29.4
+    brightBlue: 71.8
+    brightMagenta: 24.5
+    brightCyan: 71.8
+    brightWhite: 0

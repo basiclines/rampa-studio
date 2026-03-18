@@ -1,0 +1,49 @@
+name: "OSX9"
+source:
+  marketplace_id: "novidash.classicplatinum"
+  version: "0.0.1"
+  installs: 277
+  author: "novidash"
+  repo: "https://github.com/skeltonmod/OSX9VSCODE"
+  url: "https://marketplace.visualstudio.com/items?itemName=novidash.classicplatinum"
+colors:
+  bg: "#D1DCF8"
+  fg: "#725482"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 269
+  contrast:
+    fg: 61
+    black: 85.5
+    red: 53.4
+    green: 28.7
+    yellow: 37.4
+    blue: 65.5
+    magenta: 54
+    cyan: 40.1
+    white: 65.4
+    brightBlack: 58.2
+    brightRed: 53.4
+    brightGreen: 20.4
+    brightYellow: 20.4
+    brightBlue: 65.5
+    brightMagenta: 54
+    brightCyan: 40.1
+    brightWhite: 27.9

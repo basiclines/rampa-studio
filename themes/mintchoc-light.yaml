@@ -1,0 +1,49 @@
+name: "mintchoc-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#444444"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#9D8262"
+  yellow: "#008D62"
+  blue: "#00E08C"
+  magenta: "#9D8262"
+  cyan: "#008D62"
+  white: "#515151"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#C4B4A1"
+  brightYellow: "#00F3A9"
+  brightBlue: "#47FFBA"
+  brightMagenta: "#C4B4A1"
+  brightCyan: "#00F3A9"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 80.3
+    green: 63.8
+    yellow: 68.4
+    blue: 31
+    magenta: 63.8
+    cyan: 68.4
+    white: 87.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 39.3
+    brightYellow: 21
+    brightBlue: 13.9
+    brightMagenta: 39.3
+    brightCyan: 21
+    brightWhite: 71.1

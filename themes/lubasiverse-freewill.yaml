@@ -1,0 +1,49 @@
+name: "lubasiverse-freewill"
+source:
+  marketplace_id: "lubasiverse.lubasiverse"
+  version: "1.0.0"
+  installs: 34
+  author: "lubasiverse"
+  repo: "https://github.com/yourusername/lubasiverse"
+  url: "https://marketplace.visualstudio.com/items?itemName=lubasiverse.lubasiverse"
+colors:
+  bg: "#000000"
+  fg: "#D4D4DC"
+  black: "#000000"
+  red: "#FF5A7C"
+  green: "#5AFF9D"
+  yellow: "#FFDC5A"
+  blue: "#5A9DFF"
+  magenta: "#DC5AFF"
+  cyan: "#5AFFDC"
+  white: "#E0E0E8"
+  brightBlack: "#4A4A5A"
+  brightRed: "#FF7A9C"
+  brightGreen: "#7AFFBD"
+  brightYellow: "#FFEC7A"
+  brightBlue: "#7ABDFF"
+  brightMagenta: "#EC7AFF"
+  brightCyan: "#7AFFEC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 80.9
+    black: 0
+    red: 46.1
+    green: 89.7
+    yellow: 86.9
+    blue: 49.4
+    magenta: 45.7
+    cyan: 91.9
+    white: 88.3
+    brightBlack: 12.5
+    brightRed: 54.1
+    brightGreen: 92.1
+    brightYellow: 94.6
+    brightBlue: 64
+    brightMagenta: 55.5
+    brightCyan: 94
+    brightWhite: 107.9

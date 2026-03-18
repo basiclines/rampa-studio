@@ -1,0 +1,49 @@
+name: "Vaporizer Cobalt Dark"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35736
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+colors:
+  bg: "#104855"
+  fg: "#FF7815"
+  black: "#362F2F"
+  red: "#FF5454"
+  green: "#0DBC79"
+  yellow: "#E59C10"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#2E2E2E"
+  brightRed: "#FF7171"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 217
+  contrast:
+    fg: 40.6
+    black: 0
+    red: 33.6
+    green: 43.4
+    yellow: 46.3
+    blue: 17.8
+    magenta: 20.2
+    cyan: 38
+    white: 97.3
+    brightBlack: 0
+    brightRed: 40
+    brightGreen: 53.9
+    brightYellow: 86
+    brightBlue: 30.4
+    brightMagenta: 35.8
+    brightCyan: 45.8
+    brightWhite: 80.4

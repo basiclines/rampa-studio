@@ -1,0 +1,49 @@
+name: "laracasts-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#4D545D"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#00B1B3"
+  yellow: "#EF6733"
+  blue: "#4D545D"
+  magenta: "#00B1B3"
+  cyan: "#EF6733"
+  white: "#59616B"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#1AFCFF"
+  brightYellow: "#F6AD92"
+  brightBlue: "#7D8793"
+  brightMagenta: "#1AFCFF"
+  brightCyan: "#F6AD92"
+  brightWhite: "#7D8793"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 80.3
+    green: 50.8
+    yellow: 57.9
+    blue: 86.6
+    magenta: 50.8
+    cyan: 57.9
+    white: 81.3
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 13.2
+    brightYellow: 34.9
+    brightBlue: 64.1
+    brightMagenta: 13.2
+    brightCyan: 34.9
+    brightWhite: 64.1

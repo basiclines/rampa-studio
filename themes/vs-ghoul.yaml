@@ -1,0 +1,49 @@
+name: "VS Ghoul"
+source:
+  marketplace_id: "NathanInbar.vs-ghoul"
+  version: "0.0.3"
+  installs: 2474
+  author: "Nathan Inbar"
+  repo: "https://github.com/NathanInbar/vs-ghoul"
+  url: "https://marketplace.visualstudio.com/items?itemName=NathanInbar.vs-ghoul"
+colors:
+  bg: "#1D1D1D"
+  fg: "#ABABAB"
+  black: "#262626"
+  red: "#CD3131"
+  green: "#23BC0D"
+  yellow: "#E5E510"
+  blue: "#2445C8"
+  magenta: "#BC3FBC"
+  cyan: "#11B3CD"
+  white: "#C7C7C7"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D12E"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B7FEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29CADB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 55.1
+    black: 0
+    red: 26
+    green: 51.2
+    yellow: 84.9
+    blue: 14.7
+    magenta: 29.1
+    cyan: 51.5
+    white: 71
+    brightBlack: 21.3
+    brightRed: 37.9
+    brightGreen: 61.3
+    brightYellow: 94.9
+    brightBlue: 34.1
+    brightMagenta: 44.7
+    brightCyan: 62.8
+    brightWhite: 89.3

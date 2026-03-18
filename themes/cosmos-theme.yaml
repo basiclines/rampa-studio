@@ -1,0 +1,49 @@
+name: "Cosmos Theme"
+source:
+  marketplace_id: "vinisaveg.cosmos-theme"
+  version: "1.0.4"
+  installs: 870
+  author: "Vinicius Savegnago"
+  repo: "https://github.com/vinisaveg/cosmos-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=vinisaveg.cosmos-theme"
+colors:
+  bg: "#191622"
+  fg: "#E1E1E6"
+  black: "#201B2D"
+  red: "#EF81C0"
+  green: "#67E480"
+  yellow: "#E7DE79"
+  blue: "#84C7F8"
+  magenta: "#988BC7"
+  cyan: "#A1EFE4"
+  white: "#E1E1E6"
+  brightBlack: "#6272A4"
+  brightRed: "#ED4556"
+  brightGreen: "#5DEE9F"
+  brightYellow: "#E7DE79"
+  brightBlue: "#78D1E1"
+  brightMagenta: "#988BC7"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#F7F7FB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 296
+  contrast:
+    fg: 87.6
+    black: 0
+    red: 53.1
+    green: 74.5
+    yellow: 83.6
+    blue: 67.5
+    magenta: 43.2
+    cyan: 87.2
+    white: 87.6
+    brightBlack: 28
+    brightRed: 36.7
+    brightGreen: 79.9
+    brightYellow: 83.6
+    brightBlue: 69.9
+    brightMagenta: 43.2
+    brightCyan: 96.7
+    brightWhite: 101.7

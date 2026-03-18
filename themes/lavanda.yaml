@@ -1,0 +1,49 @@
+name: "Lavanda"
+source:
+  marketplace_id: "TheodorLundin.lavanda-color-theme"
+  version: "1.1.0"
+  installs: 137
+  author: "Theodor Lundin"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=TheodorLundin.lavanda-color-theme"
+colors:
+  bg: "#191C2A"
+  fg: "#AAAAAA"
+  black: "#000000"
+  red: "#DB5355"
+  green: "#7EEF8C"
+  yellow: "#FEF376"
+  blue: "#5599FF"
+  magenta: "#D90E80"
+  cyan: "#07C1D8"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FE6D6F"
+  brightGreen: "#B7FFC0"
+  brightYellow: "#FFFABF"
+  brightBlue: "#66A3FF"
+  brightMagenta: "#E64CA2"
+  brightCyan: "#0DE4FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  contrast:
+    fg: 54.6
+    black: 0
+    red: 34.4
+    green: 81
+    yellow: 96
+    blue: 45.9
+    magenta: 28.6
+    cyan: 58.3
+    white: 89.3
+    brightBlack: 21.4
+    brightRed: 47.7
+    brightGreen: 95.1
+    brightYellow: 101.2
+    brightBlue: 50.6
+    brightMagenta: 38
+    brightCyan: 76.9
+    brightWhite: 89.3

@@ -1,0 +1,49 @@
+name: "Pine Forest"
+source:
+  marketplace_id: "kgnio.sprinklepack"
+  version: "0.2.5"
+  installs: 80
+  author: "Kagan Mamak"
+  repo: "https://github.com/kgnio/sprinklepack"
+  url: "https://marketplace.visualstudio.com/items?itemName=kgnio.sprinklepack"
+colors:
+  bg: "#1B1717"
+  fg: "#CAC9C9"
+  black: "#2C2828"
+  red: "#FF5861"
+  green: "#1FB854"
+  yellow: "#FFBE00"
+  blue: "#1FB8AB"
+  magenta: "#BA9AB6"
+  cyan: "#84CBA5"
+  white: "#DCE1DF"
+  brightBlack: "#3C3A3A"
+  brightRed: "#FF7373"
+  brightGreen: "#2BFF88"
+  brightYellow: "#FFE36E"
+  brightBlue: "#74D9D0"
+  brightMagenta: "#D9A5D4"
+  brightCyan: "#AAEEDD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 44
+    green: 50.4
+    yellow: 72.8
+    blue: 52.8
+    magenta: 51.7
+    cyan: 65.4
+    white: 86.7
+    brightBlack: 0
+    brightRed: 50
+    brightGreen: 86.9
+    brightYellow: 89.2
+    brightBlue: 72.5
+    brightMagenta: 61.5
+    brightCyan: 87.2
+    brightWhite: 106.8

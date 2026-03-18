@@ -1,0 +1,49 @@
+name: "Quirky Contrast Theme"
+source:
+  marketplace_id: "DarkMannn.quirky-contrast-theme"
+  version: "0.0.10"
+  installs: 616
+  author: "DarkMannn"
+  repo: "https://github.com/DarkMannn/quirky-contrast-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkMannn.quirky-contrast-theme"
+colors:
+  bg: "#1D1D1D"
+  fg: "#DDDDDD"
+  black: "#000000"
+  red: "#FF8080"
+  green: "#EDED88"
+  yellow: "#EDED88"
+  blue: "#6D9DBD"
+  magenta: "#FF8080"
+  cyan: "#6D9DBD"
+  white: "#DDDDDD"
+  brightBlack: "#545454"
+  brightRed: "#E64444"
+  brightGreen: "#D9CE9B"
+  brightYellow: "#D9CE9B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#E64444"
+  brightCyan: "#74BCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 84.3
+    black: 0
+    red: 53
+    green: 91
+    yellow: 91
+    blue: 44.7
+    magenta: 53
+    cyan: 44.7
+    white: 84.3
+    brightBlack: 14
+    brightRed: 34.1
+    brightGreen: 74.8
+    brightYellow: 74.8
+    brightBlue: 61.5
+    brightMagenta: 34.1
+    brightCyan: 61.5
+    brightWhite: 106.2

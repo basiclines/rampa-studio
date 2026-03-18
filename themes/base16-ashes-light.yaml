@@ -1,0 +1,49 @@
+name: "Base16 Ashes Light"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#F3F4F5"
+  fg: "#565E65"
+  black: "#C7CCD1"
+  red: "#C7AE95"
+  green: "#95C7AE"
+  yellow: "#C7C795"
+  blue: "#AE95C7"
+  magenta: "#C795AE"
+  cyan: "#95AEC7"
+  white: "#393F45"
+  brightBlack: "#ADB3BA"
+  brightRed: "#C7AE95"
+  brightGreen: "#95C7AE"
+  brightYellow: "#AEC795"
+  brightBlue: "#AE95C7"
+  brightMagenta: "#C795AE"
+  brightCyan: "#95AEC7"
+  brightWhite: "#1C2023"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 76
+    black: 21
+    red: 34.9
+    green: 29.5
+    yellow: 25.1
+    blue: 44.9
+    magenta: 42.7
+    cyan: 38.6
+    white: 88.1
+    brightBlack: 34.8
+    brightRed: 34.9
+    brightGreen: 29.5
+    brightYellow: 27.9
+    brightBlue: 44.9
+    brightMagenta: 42.7
+    brightCyan: 38.6
+    brightWhite: 96.7

@@ -1,0 +1,49 @@
+name: "solaryss"
+source:
+  marketplace_id: "harry-public.vadiya-themes"
+  version: "0.0.3"
+  installs: 1974
+  author: "harry-public"
+  repo: "https://github.com/harry-public/vadiya-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=harry-public.vadiya-themes"
+colors:
+  bg: "#000C18"
+  fg: "#117BD2"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 242
+  contrast:
+    fg: 31.6
+    black: 0
+    red: 64.2
+    green: 91.6
+    yellow: 96.5
+    blue: 82.1
+    magenta: 75.5
+    cyan: 96.7
+    white: 75.4
+    brightBlack: 0
+    brightRed: 52.5
+    brightGreen: 87.6
+    brightYellow: 91.3
+    brightBlue: 63
+    brightMagenta: 51
+    brightCyan: 94.6
+    brightWhite: 107.6

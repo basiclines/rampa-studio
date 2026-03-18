@@ -1,0 +1,49 @@
+name: "Semantic Noctis Lux"
+source:
+  marketplace_id: "jnooree.semantic-noctis"
+  version: "1.3.3"
+  installs: 2741
+  author: "Nuri Jung"
+  repo: "https://github.com/jnooree/noctis"
+  url: "https://marketplace.visualstudio.com/items?itemName=jnooree.semantic-noctis"
+colors:
+  bg: "#FEF9F0"
+  fg: "#004D57"
+  black: "#003B42"
+  red: "#E34E1C"
+  green: "#00B368"
+  yellow: "#F49725"
+  blue: "#0094F0"
+  magenta: "#FF5792"
+  cyan: "#00BDD6"
+  white: "#8CA6A6"
+  brightBlack: "#518A90"
+  brightRed: "#FF4000"
+  brightGreen: "#00D17A"
+  brightYellow: "#FF8C00"
+  brightBlue: "#0FA3FF"
+  brightMagenta: "#FF6B9F"
+  brightCyan: "#00CBE6"
+  brightWhite: "#BBC3C4"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.3
+    black: 94.3
+    red: 62.1
+    green: 49
+    yellow: 40.8
+    blue: 55.5
+    magenta: 52.2
+    cyan: 40.8
+    white: 47.2
+    brightBlack: 63
+    brightRed: 57.6
+    brightGreen: 35.1
+    brightYellow: 42.1
+    brightBlue: 48.8
+    brightMagenta: 47.9
+    brightCyan: 33.8
+    brightWhite: 29.9

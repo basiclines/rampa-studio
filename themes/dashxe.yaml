@@ -1,0 +1,49 @@
+name: "Dashxe"
+source:
+  marketplace_id: "EmilAndersson.dashxe"
+  version: "0.0.1"
+  installs: 186
+  author: "Emil Andersson"
+  repo: "https://github.com/emilanderss0n/dashxe-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmilAndersson.dashxe"
+colors:
+  bg: "#080E16"
+  fg: "#FFFFFF"
+  black: "#545454"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#8C8C8C"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 255
+  contrast:
+    fg: 107.6
+    black: 15.4
+    red: 27.4
+    green: 53.7
+    yellow: 86.3
+    blue: 28.1
+    magenta: 30.5
+    cyan: 48.2
+    white: 90.7
+    brightBlack: 40.3
+    brightRed: 39.3
+    brightGreen: 64.2
+    brightYellow: 96.3
+    brightBlue: 40.7
+    brightMagenta: 46.1
+    brightCyan: 56.1
+    brightWhite: 90.7

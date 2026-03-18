@@ -1,0 +1,49 @@
+name: "Snazzy Solaris"
+source:
+  marketplace_id: "SlayVict.snazzy-light-operator"
+  version: "1.1.1"
+  installs: 548
+  author: "SlayVict"
+  repo: "https://github.com/SlayVic/snazzy-solaris"
+  url: "https://marketplace.visualstudio.com/items?itemName=SlayVict.snazzy-light-operator"
+colors:
+  bg: "#FFF8EC"
+  fg: "#565869"
+  black: "#565869"
+  red: "#FF5C57"
+  green: "#2DAE58"
+  yellow: "#CF9C00"
+  blue: "#09A1ED"
+  magenta: "#F767BB"
+  cyan: "#13BBB7"
+  white: "#FAFBF9"
+  brightBlack: "#75798F"
+  brightRed: "#FFAEAC"
+  brightGreen: "#35CF68"
+  brightYellow: "#F5B900"
+  brightBlue: "#14B1FF"
+  brightMagenta: "#FF94D2"
+  brightCyan: "#13BBB7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 80.5
+    black: 80.5
+    red: 52.3
+    green: 50.7
+    yellow: 45
+    blue: 50.4
+    magenta: 48.8
+    cyan: 42.6
+    white: 0
+    brightBlack: 66
+    brightRed: 28.4
+    brightGreen: 35.5
+    brightYellow: 28.6
+    brightBlue: 42.8
+    brightMagenta: 35
+    brightCyan: 42.6
+    brightWhite: 0

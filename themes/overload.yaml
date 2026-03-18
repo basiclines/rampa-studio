@@ -1,0 +1,49 @@
+name: "overload"
+source:
+  marketplace_id: "0xp.overload"
+  version: "1.1.8"
+  installs: 311
+  author: "0xp"
+  repo: "https://github.com/panukettu/vscode-overload"
+  url: "https://marketplace.visualstudio.com/items?itemName=0xp.overload"
+colors:
+  bg: "#121212"
+  fg: "#BFBDB6"
+  black: "#11151C"
+  red: "#EA6C73"
+  green: "#00FFAA"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#CDA1FA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#AAD94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#D2A6FF"
+  brightCyan: "#47FFC2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 66.3
+    black: 0
+    red: 44.5
+    green: 88.1
+    yellow: 67
+    blue: 61
+    magenta: 61.1
+    cyan: 78.3
+    white: 72.1
+    brightBlack: 23.3
+    brightRed: 47
+    brightGreen: 73.7
+    brightYellow: 70
+    brightBlue: 63.8
+    brightMagenta: 63.8
+    brightCyan: 89.7
+    brightWhite: 107.3

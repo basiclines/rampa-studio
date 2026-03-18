@@ -1,0 +1,49 @@
+name: "Mount Kalaga Noir"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 402
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+colors:
+  bg: "#2F4F2F"
+  fg: "#FFFFFF"
+  black: "#2F4F2F"
+  red: "#CD5C5C"
+  green: "#228B22"
+  yellow: "#FFD700"
+  blue: "#4682B4"
+  magenta: "#8B008B"
+  cyan: "#48D1CC"
+  white: "#FFFFFF"
+  brightBlack: "#2F4F2F"
+  brightRed: "#CD5C5C"
+  brightGreen: "#228B22"
+  brightYellow: "#FFD700"
+  brightBlue: "#4682B4"
+  brightMagenta: "#8B008B"
+  brightCyan: "#48D1CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 144
+  contrast:
+    fg: 95.5
+    black: 0
+    red: 22.7
+    green: 19.3
+    yellow: 71.9
+    blue: 21.2
+    magenta: 0
+    cyan: 55.3
+    white: 95.5
+    brightBlack: 0
+    brightRed: 22.7
+    brightGreen: 19.3
+    brightYellow: 71.9
+    brightBlue: 21.2
+    brightMagenta: 0
+    brightCyan: 55.3
+    brightWhite: 95.5

@@ -1,0 +1,49 @@
+name: "Amethyst Kiss Light(Amethyst Mode)"
+source:
+  marketplace_id: "MahdiBehkar.amethyst-kiss"
+  version: "0.1.0"
+  installs: 641
+  author: "MahdiBehkar"
+  repo: "https://github.com/Behkar/amethyst_kiss_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MahdiBehkar.amethyst-kiss"
+colors:
+  bg: "#F9F9F9"
+  fg: "#29343D"
+  black: "#29343D"
+  red: "#F8961E"
+  green: "#90BE6D"
+  yellow: "#F3722C"
+  blue: "#577590"
+  magenta: "#F9C74F"
+  cyan: "#43AA8B"
+  white: "#555555"
+  brightBlack: "#394956"
+  brightRed: "#F8961E"
+  brightGreen: "#90BE6D"
+  brightYellow: "#F3722C"
+  brightBlue: "#577590"
+  brightMagenta: "#F9C74F"
+  brightCyan: "#43AA8B"
+  brightWhite: "#ABABAB"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 95.2
+    black: 95.2
+    red: 40.1
+    green: 38.5
+    yellow: 51
+    blue: 69.8
+    magenta: 22.5
+    cyan: 50.8
+    white: 82.3
+    brightBlack: 87.8
+    brightRed: 40.1
+    brightGreen: 38.5
+    brightYellow: 51
+    brightBlue: 69.8
+    brightMagenta: 22.5
+    brightCyan: 50.8
+    brightWhite: 41.7

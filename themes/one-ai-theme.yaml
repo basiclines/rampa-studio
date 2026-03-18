@@ -1,0 +1,49 @@
+name: "One AI theme"
+source:
+  marketplace_id: "OneAI.oneai-vscode-theme"
+  version: "0.0.3"
+  installs: 1250
+  author: "One AI"
+  repo: "https://github.com/michgur/oneai-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OneAI.oneai-vscode-theme"
+colors:
+  bg: "#14141C"
+  fg: "#A1A1AB"
+  black: "#4D4952"
+  red: "#FD3131"
+  green: "#75FB48"
+  yellow: "#FBE94E"
+  blue: "#4D4DFF"
+  magenta: "#EA37E8"
+  cyan: "#75FBFD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#EE7D71"
+  brightGreen: "#85FFA8"
+  brightYellow: "#FEFACC"
+  brightBlue: "#706EF9"
+  brightMagenta: "#F6C3F8"
+  brightCyan: "#CAFDFE"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  contrast:
+    fg: 51
+    black: 11.4
+    red: 38.1
+    green: 86.5
+    yellow: 91.2
+    blue: 24.4
+    magenta: 41.2
+    cyan: 91.7
+    white: 90.2
+    brightBlack: 22.2
+    brightRed: 49.3
+    brightGreen: 91.3
+    brightYellow: 102.4
+    brightBlue: 34.2
+    brightMagenta: 79.4
+    brightCyan: 99.5
+    brightWhite: 90.2

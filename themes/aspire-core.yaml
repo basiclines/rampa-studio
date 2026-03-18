@@ -1,0 +1,49 @@
+name: "Aspire Core"
+source:
+  marketplace_id: "adwardstark.catacino"
+  version: "1.0.2"
+  installs: 170
+  author: "Aditya Awasthi"
+  repo: "https://github.com/adwardstark/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=adwardstark.catacino"
+colors:
+  bg: "#0C365A"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#F56F51"
+  green: "#0DBC79"
+  yellow: "#FABC41"
+  blue: "#0969FF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F56F51"
+  brightGreen: "#23D18B"
+  brightYellow: "#FABC41"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 249
+  contrast:
+    fg: 101.4
+    black: 0
+    red: 40.9
+    green: 47.5
+    yellow: 66.1
+    blue: 23.6
+    magenta: 24.3
+    cyan: 42.1
+    white: 84.5
+    brightBlack: 16.6
+    brightRed: 40.9
+    brightGreen: 58.1
+    brightYellow: 66.1
+    brightBlue: 34.5
+    brightMagenta: 39.9
+    brightCyan: 49.9
+    brightWhite: 84.5

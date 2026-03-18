@@ -1,0 +1,49 @@
+name: "SinergyExt"
+source:
+  marketplace_id: "jefersonquiguantar.sinergy"
+  version: "0.0.1"
+  installs: 57
+  author: "jefersonquiguantar"
+  repo: "https://github.com/jefersonqui/Sinergy"
+  url: "https://marketplace.visualstudio.com/items?itemName=jefersonquiguantar.sinergy"
+colors:
+  bg: "#04293A"
+  fg: "#FBFF00"
+  black: "#064663"
+  red: "#ECB365"
+  green: "#BAE67E"
+  yellow: "#715AFF"
+  blue: "#FBFF00"
+  magenta: "#C3A6FF"
+  cyan: "#FBFF00"
+  white: "#FBFF00"
+  brightBlack: "#5E444C"
+  brightRed: "#ECB365"
+  brightGreen: "#BAE67E"
+  brightYellow: "#715AFF"
+  brightBlue: "#FBFF00"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#FBFF00"
+  brightWhite: "#FBFF00"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 233
+  contrast:
+    fg: 98.9
+    black: 0
+    red: 63.9
+    green: 79.7
+    yellow: 27.4
+    blue: 98.9
+    magenta: 59.1
+    cyan: 98.9
+    white: 98.9
+    brightBlack: 9.1
+    brightRed: 63.9
+    brightGreen: 79.7
+    brightYellow: 27.4
+    brightBlue: 98.9
+    brightMagenta: 59.1
+    brightCyan: 98.9
+    brightWhite: 98.9

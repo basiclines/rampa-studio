@@ -1,0 +1,49 @@
+name: "Newspaperlike"
+source:
+  marketplace_id: "PaperFanz.newspaperlike"
+  version: "0.6.0"
+  installs: 1909
+  author: "PaperFanz"
+  repo: "https://github.com/PaperFanz/newspaperlike"
+  url: "https://marketplace.visualstudio.com/items?itemName=PaperFanz.newspaperlike"
+colors:
+  bg: "#D8D8D8"
+  fg: "#272727"
+  black: "#000000"
+  red: "#E62325"
+  green: "#00AA5E"
+  yellow: "#FFB000"
+  blue: "#3C6DF0"
+  magenta: "#DC267F"
+  cyan: "#785EF0"
+  white: "#FFFFFF"
+  brightBlack: "#202020"
+  brightRed: "#FF5C49"
+  brightGreen: "#34BC6E"
+  brightYellow: "#FED500"
+  brightBlue: "#648FFF"
+  brightMagenta: "#FF509E"
+  brightCyan: "#9B82F3"
+  brightWhite: "#F9F9F9"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 79
+    black: 83.2
+    red: 46.6
+    green: 33.7
+    yellow: 11.2
+    blue: 48.1
+    magenta: 47
+    cyan: 48
+    white: 23.3
+    brightBlack: 80.5
+    brightRed: 33.5
+    brightGreen: 25
+    brightYellow: 0
+    brightBlue: 34.1
+    brightMagenta: 33.3
+    brightCyan: 34.4
+    brightWhite: 19.3

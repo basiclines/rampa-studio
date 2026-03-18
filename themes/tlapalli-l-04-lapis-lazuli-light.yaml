@@ -1,0 +1,49 @@
+name: "Tlapalli l-04: Lapis Lazuli Light"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+colors:
+  bg: "#F2F5F8"
+  fg: "#2B4A66"
+  black: "#F2F5F8"
+  red: "#6287A5"
+  green: "#80A2C2"
+  yellow: "#264C70"
+  blue: "#B2C8D5"
+  magenta: "#426B8F"
+  cyan: "#618BAF"
+  white: "#1C4862"
+  brightBlack: "#C7D3E1"
+  brightRed: "#6287A5"
+  brightGreen: "#80A2C2"
+  brightYellow: "#264C70"
+  brightBlue: "#B2C8D5"
+  brightMagenta: "#426B8F"
+  brightCyan: "#618BAF"
+  brightWhite: "#00243B"
+meta:
+  mode: "light"
+  accent: "indigo"
+  hue: null
+  contrast:
+    fg: 85
+    black: 0
+    red: 59.2
+    green: 45.7
+    yellow: 84.1
+    blue: 25.2
+    magenta: 71.8
+    cyan: 57.4
+    white: 86.2
+    brightBlack: 17.9
+    brightRed: 59.2
+    brightGreen: 45.7
+    brightYellow: 84.1
+    brightBlue: 25.2
+    brightMagenta: 71.8
+    brightCyan: 57.4
+    brightWhite: 96.4

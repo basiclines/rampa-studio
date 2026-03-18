@@ -1,0 +1,49 @@
+name: "VibeColors Dynamic Light"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+colors:
+  bg: "#FEF9E7"
+  fg: "#2D4A22"
+  black: "#6C8F5C"
+  red: "#DC3545"
+  green: "#198754"
+  yellow: "#FD7E14"
+  blue: "#0D6EFD"
+  magenta: "#D63384"
+  cyan: "#20C997"
+  white: "#2D4A22"
+  brightBlack: "#6C8F5C"
+  brightRed: "#DC3545"
+  brightGreen: "#198754"
+  brightYellow: "#FD7E14"
+  brightBlue: "#0D6EFD"
+  brightMagenta: "#D63384"
+  brightCyan: "#20C997"
+  brightWhite: "#2D4A22"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 89.3
+    black: 60.6
+    red: 66.3
+    green: 67.3
+    yellow: 45.9
+    blue: 66.6
+    magenta: 66.2
+    cyan: 37.5
+    white: 89.3
+    brightBlack: 60.6
+    brightRed: 66.3
+    brightGreen: 67.3
+    brightYellow: 45.9
+    brightBlue: 66.6
+    brightMagenta: 66.2
+    brightCyan: 37.5
+    brightWhite: 89.3

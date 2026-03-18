@@ -1,0 +1,49 @@
+name: "Pirulug Dark"
+source:
+  marketplace_id: "Pirulug.pirulug-theme"
+  version: "0.1.0"
+  installs: 218
+  author: "Pirulug"
+  repo: "https://github.com/pirulug/pirulug-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Pirulug.pirulug-theme"
+colors:
+  bg: "#0D1017"
+  fg: "#E0DFD0"
+  black: "#808080"
+  red: "#E15A60"
+  green: "#4AFF97"
+  yellow: "#EDE84E"
+  blue: "#3691FF"
+  magenta: "#FF22AA"
+  cyan: "#10B1FE"
+  white: "#E0DFD0"
+  brightBlack: "#808080"
+  brightRed: "#E15A60"
+  brightGreen: "#4AFF97"
+  brightYellow: "#EDE84E"
+  brightBlue: "#3691FF"
+  brightMagenta: "#FF22AA"
+  brightCyan: "#10B1FE"
+  brightWhite: "#E0DFD0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 267
+  contrast:
+    fg: 86.3
+    black: 34.3
+    red: 38.4
+    green: 88.5
+    yellow: 89
+    blue: 43.1
+    magenta: 41.2
+    cyan: 54.9
+    white: 86.3
+    brightBlack: 34.3
+    brightRed: 38.4
+    brightGreen: 88.5
+    brightYellow: 89
+    brightBlue: 43.1
+    brightMagenta: 41.2
+    brightCyan: 54.9
+    brightWhite: 86.3

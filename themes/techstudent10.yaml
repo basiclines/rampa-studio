@@ -1,0 +1,49 @@
+name: "TechStudent10"
+source:
+  marketplace_id: "TechStudent10.techstudent10-color-theme"
+  version: "0.0.4"
+  installs: 96
+  author: "TechStudent10"
+  repo: "https://github.com/TechStudent11/TechStudent10-Color-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TechStudent10.techstudent10-color-theme"
+colors:
+  bg: "#3B1E00"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E8E7E7"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 62
+  contrast:
+    fg: 104.7
+    black: 0
+    red: 24.6
+    green: 50.9
+    yellow: 83.5
+    blue: 25.3
+    magenta: 27.6
+    cyan: 45.4
+    white: 89.3
+    brightBlack: 19.9
+    brightRed: 36.4
+    brightGreen: 61.4
+    brightYellow: 93.5
+    brightBlue: 37.9
+    brightMagenta: 43.2
+    brightCyan: 53.3
+    brightWhite: 104.7

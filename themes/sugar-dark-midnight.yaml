@@ -1,0 +1,49 @@
+name: "Sugar Dark Midnight"
+source:
+  marketplace_id: "Banlify.sugar-vscode-theme"
+  version: "0.26.0"
+  installs: 326
+  author: "Libon"
+  repo: "https://github.com/libondev/sugar-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Banlify.sugar-vscode-theme"
+colors:
+  bg: "#1B1D23"
+  fg: "#DFDFDF"
+  black: "#393A34"
+  red: "#DA3036"
+  green: "#63C174"
+  yellow: "#E5C07B"
+  blue: "#0060D1"
+  magenta: "#DE2670"
+  cyan: "#0D8C7D"
+  white: "#CCCCCC"
+  brightBlack: "#777777"
+  brightRed: "#E5484D"
+  brightGreen: "#46A758"
+  brightYellow: "#E5C07B"
+  brightBlue: "#0070F3"
+  brightMagenta: "#E93D82"
+  brightCyan: "#14B8A6"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 28.9
+    green: 56.7
+    yellow: 69.9
+    blue: 21.7
+    magenta: 30.2
+    cyan: 31.9
+    white: 74
+    brightBlack: 28.8
+    brightRed: 34.5
+    brightGreen: 43.3
+    brightYellow: 69.9
+    brightBlue: 29.3
+    brightMagenta: 35.3
+    brightCyan: 51.9
+    brightWhite: 74

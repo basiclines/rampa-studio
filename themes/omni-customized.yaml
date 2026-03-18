@@ -1,0 +1,49 @@
+name: "Omni Customized"
+source:
+  marketplace_id: "dtsf.theme-omni-customized"
+  version: "1.0.10"
+  installs: 7087
+  author: "datsfilipe"
+  repo: "https://github.com/datsfilipe/vs-code-omni-customized"
+  url: "https://marketplace.visualstudio.com/items?itemName=dtsf.theme-omni-customized"
+colors:
+  bg: "#191919"
+  fg: "#E1E1E6"
+  black: "#161616"
+  red: "#FF79C6"
+  green: "#67E480"
+  yellow: "#E7DE79"
+  blue: "#78D1E1"
+  magenta: "#988BC7"
+  cyan: "#A1EFE4"
+  white: "#E1E1E6"
+  brightBlack: "#626483"
+  brightRed: "#ED4556"
+  brightGreen: "#00F769"
+  brightYellow: "#E7DE79"
+  brightBlue: "#78D1E1"
+  brightMagenta: "#988BC7"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#F7F7FB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 87.5
+    black: 0
+    red: 54.4
+    green: 74.4
+    yellow: 83.4
+    blue: 69.7
+    magenta: 43
+    cyan: 87.1
+    white: 87.5
+    brightBlack: 21.9
+    brightRed: 36.6
+    brightGreen: 81.7
+    brightYellow: 83.4
+    brightBlue: 69.7
+    brightMagenta: 43
+    brightCyan: 96.6
+    brightWhite: 101.6

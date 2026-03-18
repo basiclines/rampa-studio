@@ -1,0 +1,49 @@
+name: "Nautilus"
+source:
+  marketplace_id: "sammarxz.nautiulus-theme"
+  version: "1.0.0"
+  installs: 2635
+  author: "Sam Marxz"
+  repo: "https://github.com/sammarxz/nautilus-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sammarxz.nautiulus-theme"
+colors:
+  bg: "#0A0B11"
+  fg: "#B3B1AD"
+  black: "#00010A"
+  red: "#EA6C73"
+  green: "#91B362"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#FAE994"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#C2D94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#FFEE99"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 277
+  contrast:
+    fg: 60
+    black: 0
+    red: 44.9
+    green: 55
+    yellow: 67.4
+    blue: 61.4
+    magenta: 92.8
+    cyan: 78.7
+    white: 72.5
+    brightBlack: 23.7
+    brightRed: 47.4
+    brightGreen: 76.7
+    brightYellow: 70.4
+    brightBlue: 64.1
+    brightMagenta: 96
+    brightCyan: 81.7
+    brightWhite: 107.7

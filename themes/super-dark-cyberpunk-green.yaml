@@ -1,0 +1,49 @@
+name: "Super Dark Cyberpunk Green"
+source:
+  marketplace_id: "JFeser.darkercolor"
+  version: "2.1.0"
+  installs: 13
+  author: "J. Feser"
+  repo: "https://github.com/redo7370/darkercolors"
+  url: "https://marketplace.visualstudio.com/items?itemName=JFeser.darkercolor"
+colors:
+  bg: "#050A05"
+  fg: "#F2F2F2"
+  black: "#060D06"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FF6600"
+  blue: "#00CCCC"
+  magenta: "#00CC00"
+  cyan: "#00CCCC"
+  white: "#F2F2F2"
+  brightBlack: "#081108"
+  brightRed: "#FF6666"
+  brightGreen: "#66FF66"
+  brightYellow: "#FF8533"
+  brightBlue: "#00FFFF"
+  brightMagenta: "#33FF33"
+  brightCyan: "#00FFFF"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 145
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 37.4
+    green: 86.4
+    yellow: 46.9
+    blue: 64.3
+    magenta: 60.2
+    cyan: 64.3
+    white: 99.2
+    brightBlack: 0
+    brightRed: 47.8
+    brightGreen: 88.9
+    brightYellow: 54.7
+    brightBlue: 92.1
+    brightMagenta: 86.9
+    brightCyan: 92.1
+    brightWhite: 99.2

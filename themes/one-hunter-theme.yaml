@@ -1,0 +1,49 @@
+name: "One Hunter Theme"
+source:
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3734
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+colors:
+  bg: "#1D2126"
+  fg: "#E3E1E1"
+  black: "#3B4145"
+  red: "#EF5350"
+  green: "#66DFC4"
+  yellow: "#64B5F6"
+  blue: "#64B5F6"
+  magenta: "#F06292"
+  cyan: "#C972D8"
+  white: "#E3E1E1"
+  brightBlack: "#454D54"
+  brightRed: "#EF5350"
+  brightGreen: "#B2EBF2"
+  brightYellow: "#90CAF9"
+  brightBlue: "#90CAF9"
+  brightMagenta: "#EC407A"
+  brightCyan: "#E1BEE7"
+  brightWhite: "#E3E1E1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 254
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 38.1
+    green: 73
+    yellow: 56.5
+    blue: 56.5
+    magenta: 42.9
+    cyan: 42.5
+    white: 86.6
+    brightBlack: 10.5
+    brightRed: 38.1
+    brightGreen: 86.4
+    brightYellow: 68.7
+    brightBlue: 68.7
+    brightMagenta: 35.6
+    brightCyan: 71.9
+    brightWhite: 86.6

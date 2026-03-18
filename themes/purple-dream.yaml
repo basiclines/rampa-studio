@@ -1,0 +1,49 @@
+name: "Purple Dream"
+source:
+  marketplace_id: "LR6549-extensions.purple-dream"
+  version: "1.8.7"
+  installs: 557
+  author: "LR6549"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=LR6549-extensions.purple-dream"
+colors:
+  bg: "#100719"
+  fg: "#F7D0FF"
+  black: "#55005C"
+  red: "#FF0000"
+  green: "#00CB7F"
+  yellow: "#44FF00"
+  blue: "#0079FF"
+  magenta: "#FF00FF"
+  cyan: "#00CDFF"
+  white: "#EB00FF"
+  brightBlack: "#96449D"
+  brightRed: "#FF6767"
+  brightGreen: "#3BFFB0"
+  brightYellow: "#5EFF77"
+  brightBlue: "#3997FF"
+  brightMagenta: "#FF8DFF"
+  brightCyan: "#62E0FF"
+  brightWhite: "#F581FF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 306
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 37.3
+    green: 60.9
+    yellow: 87
+    blue: 34.6
+    magenta: 46
+    cyan: 67.4
+    white: 41.6
+    brightBlack: 23
+    brightRed: 47.9
+    brightGreen: 89.1
+    brightYellow: 88.7
+    brightBlue: 45.6
+    brightMagenta: 63.8
+    brightCyan: 78.2
+    brightWhite: 58.7

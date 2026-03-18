@@ -1,0 +1,49 @@
+name: "Tailwind Pink Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#FDF2F8"
+  fg: "#9D174D"
+  black: "#831843"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#FCE7F3"
+  brightBlack: "#831843"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FCE7F3"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 79.6
+    black: 84.9
+    red: 57.8
+    green: 38.3
+    yellow: 30.3
+    blue: 57.8
+    magenta: 60.2
+    cyan: 41.1
+    white: 0
+    brightBlack: 84.9
+    brightRed: 57.8
+    brightGreen: 38.3
+    brightYellow: 30.3
+    brightBlue: 57.8
+    brightMagenta: 60.2
+    brightCyan: 41.1
+    brightWhite: 0

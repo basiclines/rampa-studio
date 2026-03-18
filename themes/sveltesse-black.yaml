@@ -1,0 +1,49 @@
+name: "Sveltesse Black"
+source:
+  marketplace_id: "AntonioSarcevic.theme-sveltesse"
+  version: "0.0.1"
+  installs: 770
+  author: "Antonio Sarcevic"
+  repo: "https://github.com/SarcevicAntonio/vscode-theme-sveltesse"
+  url: "https://marketplace.visualstudio.com/items?itemName=AntonioSarcevic.theme-sveltesse"
+colors:
+  bg: "#000000"
+  fg: "#DBD7CA"
+  black: "#212121"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#E6E6E6"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 82.3
+    black: 0
+    red: 41.8
+    green: 37.7
+    yellow: 76.6
+    blue: 42.4
+    magenta: 44.9
+    cyan: 50.3
+    white: 91.7
+    brightBlack: 30.6
+    brightRed: 41.8
+    brightGreen: 37.7
+    brightYellow: 76.6
+    brightBlue: 42.4
+    brightMagenta: 44.9
+    brightCyan: 50.3
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "Night Raccoon"
+source:
+  marketplace_id: "RaccoonishDeveloper.night-raccoon"
+  version: "0.2.2"
+  installs: 316
+  author: "RaccoonishDeveloper"
+  repo: "https://github.com/RaccoonishDeveloper/Night-Raccoon-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RaccoonishDeveloper.night-raccoon"
+colors:
+  bg: "#0F1419"
+  fg: "#D4D4D4"
+  black: "#868686"
+  red: "#FF5470"
+  green: "#33D057"
+  yellow: "#E1C542"
+  blue: "#469DF1"
+  magenta: "#E557F9"
+  cyan: "#39CDE2"
+  white: "#D4D4D4"
+  brightBlack: "#ABABAB"
+  brightRed: "#FF718A"
+  brightGreen: "#67FF8A"
+  brightYellow: "#FFE05B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#74F2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 249
+  contrast:
+    fg: 79.8
+    black: 36.9
+    red: 44.1
+    green: 62.5
+    yellow: 71.5
+    blue: 46.8
+    magenta: 45.7
+    cyan: 65.8
+    white: 79.8
+    brightBlack: 56.1
+    brightRed: 50.6
+    brightGreen: 89
+    brightYellow: 88
+    brightBlue: 62.5
+    brightMagenta: 57.4
+    brightCyan: 87.4
+    brightWhite: 107.2

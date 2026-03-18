@@ -1,0 +1,49 @@
+name: "Lull"
+source:
+  marketplace_id: "Lull.lull-theme"
+  version: "0.0.2"
+  installs: 40
+  author: "Lull"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Lull.lull-theme"
+colors:
+  bg: "#212121"
+  fg: "#E1E2DE"
+  black: "#5E636F"
+  red: "#BF616A"
+  green: "#7F949F"
+  yellow: "#EBCB8B"
+  blue: "#97B3C2"
+  magenta: "#B48EAD"
+  cyan: "#96B5B4"
+  white: "#C0C5CE"
+  brightBlack: "#65737E"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#B1E4FF"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#96B5B4"
+  brightWhite: "#EFF1F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 86.6
+    black: 19.5
+    red: 31.7
+    green: 40.7
+    yellow: 75.1
+    blue: 56.6
+    magenta: 45.2
+    cyan: 56.7
+    white: 69
+    brightBlack: 25.6
+    brightRed: 31.7
+    brightGreen: 60.4
+    brightYellow: 75.1
+    brightBlue: 83.6
+    brightMagenta: 45.2
+    brightCyan: 56.7
+    brightWhite: 96.3

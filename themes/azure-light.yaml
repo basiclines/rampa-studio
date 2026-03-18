@@ -1,0 +1,49 @@
+name: "azure-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#444444"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#6AB0A3"
+  yellow: "#8291AD"
+  blue: "#508AAA"
+  magenta: "#508AAA"
+  cyan: "#6AB0A3"
+  white: "#515151"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#ADD3CC"
+  brightYellow: "#C0C7D5"
+  brightBlue: "#94B8CC"
+  brightMagenta: "#94B8CC"
+  brightCyan: "#ADD3CC"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 80.3
+    green: 49.2
+    yellow: 59
+    blue: 65.2
+    magenta: 65.2
+    cyan: 49.2
+    white: 87.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 27.7
+    brightYellow: 30.3
+    brightBlue: 41.1
+    brightMagenta: 41.1
+    brightCyan: 27.7
+    brightWhite: 71.1

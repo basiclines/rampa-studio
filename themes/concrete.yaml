@@ -1,0 +1,49 @@
+name: "Concrete"
+source:
+  marketplace_id: "bezbac.concrete-vscode"
+  version: "0.3.0"
+  installs: 1232
+  author: "bezbac"
+  repo: "https://github.com/bezbac/concrete"
+  url: "https://marketplace.visualstudio.com/items?itemName=bezbac.concrete-vscode"
+colors:
+  bg: "#262626"
+  fg: "#D1D5DA"
+  black: "#313031"
+  red: "#F97583"
+  green: "#85E89D"
+  yellow: "#F1993B"
+  blue: "#4091C9"
+  magenta: "#B392F0"
+  cyan: "#9ECBFF"
+  white: "#D1D5DA"
+  brightBlack: "#4F4E4F"
+  brightRed: "#F97583"
+  brightGreen: "#85E89D"
+  brightYellow: "#F1993B"
+  brightBlue: "#4091C9"
+  brightMagenta: "#B392F0"
+  brightCyan: "#9ECBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 77.7
+    black: 0
+    red: 47.7
+    green: 77
+    yellow: 55.2
+    blue: 37
+    magenta: 49.3
+    cyan: 69.8
+    white: 77.7
+    brightBlack: 10.5
+    brightRed: 47.7
+    brightGreen: 77
+    brightYellow: 55.2
+    brightBlue: 37
+    brightMagenta: 49.3
+    brightCyan: 69.8
+    brightWhite: 104.8

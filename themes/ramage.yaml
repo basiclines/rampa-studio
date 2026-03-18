@@ -1,0 +1,49 @@
+name: "Ramage"
+source:
+  marketplace_id: "Conobi.ramage-vscode"
+  version: "0.1.4"
+  installs: 207
+  author: "Conobi"
+  repo: "https://github.com/Donokami/ramage-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Conobi.ramage-vscode"
+colors:
+  bg: "#1D2434"
+  fg: "#B3BDD6"
+  black: "#363636"
+  red: "#FF0883"
+  green: "#83FF08"
+  yellow: "#FF8308"
+  blue: "#0883FF"
+  magenta: "#BC3FBC"
+  cyan: "#08FF83"
+  white: "#DEDDDA"
+  brightBlack: "#424242"
+  brightRed: "#FF1E8E"
+  brightGreen: "#8EFF1E"
+  brightYellow: "#FF8E1E"
+  brightBlue: "#1E8EFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#1EFF8E"
+  brightWhite: "#FAFAF9"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 266
+  contrast:
+    fg: 64.1
+    black: 0
+    red: 36.6
+    green: 87.1
+    yellow: 51.3
+    blue: 35.3
+    magenta: 28
+    cyan: 84.9
+    white: 83.2
+    brightBlack: 0
+    brightRed: 37.5
+    brightGreen: 87.9
+    brightYellow: 54.5
+    brightBlue: 39.2
+    brightMagenta: 43.6
+    brightCyan: 85.2
+    brightWhite: 101.7

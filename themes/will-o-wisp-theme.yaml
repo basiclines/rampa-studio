@@ -1,0 +1,49 @@
+name: "Will-o'-Wisp Theme"
+source:
+  marketplace_id: "simon-jaeger.will-o-wisp-theme"
+  version: "0.3.0"
+  installs: 796
+  author: "Simon Jäger"
+  repo: "https://github.com/simon-jaeger/vscode-will-o-wisp-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=simon-jaeger.will-o-wisp-theme"
+colors:
+  bg: "#202428"
+  fg: "#B3B3B3"
+  black: "#5D6A83"
+  red: "#C45F5F"
+  green: "#78AB81"
+  yellow: "#B88E2E"
+  blue: "#8294C9"
+  magenta: "#AA83AA"
+  cyan: "#72B2B8"
+  white: "#B3B3B3"
+  brightBlack: "#5D6A83"
+  brightRed: "#C45F5F"
+  brightGreen: "#78AB81"
+  brightYellow: "#B88E2E"
+  brightBlue: "#8294C9"
+  brightMagenta: "#AA83AA"
+  brightCyan: "#72B2B8"
+  brightWhite: "#B3B3B3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 58.5
+    black: 21.9
+    red: 31.5
+    green: 47.8
+    yellow: 42.3
+    blue: 42.6
+    magenta: 39.7
+    cyan: 52.3
+    white: 58.5
+    brightBlack: 21.9
+    brightRed: 31.5
+    brightGreen: 47.8
+    brightYellow: 42.3
+    brightBlue: 42.6
+    brightMagenta: 39.7
+    brightCyan: 52.3
+    brightWhite: 58.5

@@ -1,0 +1,49 @@
+name: "Aether Trench Contrast"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#000000"
+  fg: "#D0E0E3"
+  black: "#405060"
+  red: "#FF6666"
+  green: "#00FF88"
+  yellow: "#FFD700"
+  blue: "#00BBFF"
+  magenta: "#FF88BB"
+  cyan: "#00DDFF"
+  white: "#D0E0E3"
+  brightBlack: "#607080"
+  brightRed: "#FF8888"
+  brightGreen: "#66FFAA"
+  brightYellow: "#FFCC00"
+  brightBlue: "#66CCFF"
+  brightMagenta: "#FFAACC"
+  brightCyan: "#66EEFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 86
+    black: 13.6
+    red: 47.9
+    green: 87.8
+    yellow: 84.3
+    blue: 59.7
+    magenta: 59
+    cyan: 75.2
+    white: 86
+    brightBlack: 26.6
+    brightRed: 57.2
+    brightGreen: 90.5
+    brightYellow: 79.6
+    brightBlue: 69.4
+    brightMagenta: 70.4
+    brightCyan: 85.4
+    brightWhite: 107.9

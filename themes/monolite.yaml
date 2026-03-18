@@ -1,0 +1,49 @@
+name: "Monolite"
+source:
+  marketplace_id: "baukeposthuma.monolite"
+  version: "1.1.0"
+  installs: 4415
+  author: "Bauke Posthuma"
+  repo: "https://github.com/baukeposthuma/monolite"
+  url: "https://marketplace.visualstudio.com/items?itemName=baukeposthuma.monolite"
+colors:
+  bg: "#191C28"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#D95468"
+  green: "#8BD49C"
+  yellow: "#EBBF83"
+  blue: "#539AFC"
+  magenta: "#B62D65"
+  cyan: "#70E1E8"
+  white: "#FFFFFF"
+  brightBlack: "#41505E"
+  brightRed: "#D95468"
+  brightGreen: "#8BD49C"
+  brightYellow: "#EBBF83"
+  brightBlue: "#539AFC"
+  brightMagenta: "#B62D65"
+  brightCyan: "#70E1E8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  contrast:
+    fg: 106.2
+    black: 0
+    red: 34.6
+    green: 69.2
+    yellow: 70.6
+    blue: 46
+    magenta: 21.8
+    cyan: 76.7
+    white: 106.2
+    brightBlack: 11.9
+    brightRed: 34.6
+    brightGreen: 69.2
+    brightYellow: 70.6
+    brightBlue: 46
+    brightMagenta: 21.8
+    brightCyan: 76.7
+    brightWhite: 106.2

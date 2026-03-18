@@ -1,0 +1,49 @@
+name: "Astigmatism Theme"
+source:
+  marketplace_id: "GabrielFacioni.astigmatism-theme"
+  version: "1.0.3"
+  installs: 259
+  author: "GabrielFacioni"
+  repo: "https://github.com/GabrielMMC/astigmatism-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GabrielFacioni.astigmatism-theme"
+colors:
+  bg: "#20283A"
+  fg: "#DBD5C0"
+  black: "#242424"
+  red: "#DF3E3E"
+  green: "#78B37B"
+  yellow: "#D2BF61"
+  blue: "#0054D1"
+  magenta: "#A16FC2"
+  cyan: "#29C5BD"
+  white: "#FDD8D8"
+  brightBlack: "#242424"
+  brightRed: "#DF3E3E"
+  brightGreen: "#78B37B"
+  brightYellow: "#D2BF61"
+  brightBlue: "#0054D1"
+  brightMagenta: "#A16FC2"
+  brightCyan: "#29C5BD"
+  brightWhite: "#FDD8D8"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 266
+  contrast:
+    fg: 77.5
+    black: 0
+    red: 29.8
+    green: 50.2
+    yellow: 64.4
+    blue: 16.8
+    magenta: 33.1
+    cyan: 57.2
+    white: 84.8
+    brightBlack: 0
+    brightRed: 29.8
+    brightGreen: 50.2
+    brightYellow: 64.4
+    brightBlue: 16.8
+    brightMagenta: 33.1
+    brightCyan: 57.2
+    brightWhite: 84.8

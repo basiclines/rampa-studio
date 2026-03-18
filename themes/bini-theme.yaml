@@ -1,0 +1,49 @@
+name: "BINI Theme"
+source:
+  marketplace_id: "warengonzaga.bini-theme"
+  version: "0.0.4"
+  installs: 595
+  author: "Waren Gonzaga"
+  repo: "https://github.com/warengonzaga/bini-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=warengonzaga.bini-theme"
+colors:
+  bg: "#101317"
+  fg: "#94A3B8"
+  black: "#191D22"
+  red: "#F87070"
+  green: "#37D99E"
+  yellow: "#FFE59E"
+  blue: "#7AB0DF"
+  magenta: "#C397D8"
+  cyan: "#87BDEC"
+  white: "#D4D4D5"
+  brightBlack: "#45484C"
+  brightRed: "#FF8E8E"
+  brightGreen: "#79DCAA"
+  brightYellow: "#FFEDA6"
+  brightBlue: "#7AB0DF"
+  brightMagenta: "#C397D8"
+  brightCyan: "#87BDEC"
+  brightWhite: "#D4D4D5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 51.1
+    black: 0
+    red: 48.2
+    green: 68.7
+    yellow: 91.6
+    blue: 56.1
+    magenta: 54.1
+    cyan: 63.2
+    white: 79.9
+    brightBlack: 10.5
+    brightRed: 58.4
+    brightGreen: 73.2
+    brightYellow: 95.4
+    brightBlue: 56.1
+    brightMagenta: 54.1
+    brightCyan: 63.2
+    brightWhite: 79.9

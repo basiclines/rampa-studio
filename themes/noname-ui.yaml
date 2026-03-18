@@ -1,0 +1,49 @@
+name: "NoName UI"
+source:
+  marketplace_id: "iseos.noname-ui"
+  version: "1.1.2"
+  installs: 1738
+  author: "iseos"
+  repo: "https://github.com/iseos/noname-ui"
+  url: "https://marketplace.visualstudio.com/items?itemName=iseos.noname-ui"
+colors:
+  bg: "#21252B"
+  fg: "#ABB2BF"
+  black: "#21252B"
+  red: "#C95F68"
+  green: "#5B9135"
+  yellow: "#A27A30"
+  blue: "#4F8BBB"
+  magenta: "#9753AC"
+  cyan: "#40929D"
+  white: "#ABB2BF"
+  brightBlack: "#5C6370"
+  brightRed: "#FF0015"
+  brightGreen: "#4AAB05"
+  brightYellow: "#AC7000"
+  brightBlue: "#008CFF"
+  brightMagenta: "#C300FF"
+  brightCyan: "#00AFC2"
+  brightWhite: "#D2D6DB"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 258
+  contrast:
+    fg: 57.5
+    black: 0
+    red: 32.4
+    green: 33.6
+    yellow: 32.4
+    blue: 34.8
+    magenta: 24.2
+    cyan: 35.3
+    white: 57.5
+    brightBlack: 18.7
+    brightRed: 34.7
+    brightGreen: 43.4
+    brightYellow: 30.7
+    brightBlue: 38.3
+    brightMagenta: 30.9
+    brightCyan: 48
+    brightWhite: 78.6

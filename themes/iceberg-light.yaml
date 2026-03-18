@@ -1,0 +1,49 @@
+name: "Iceberg Light"
+source:
+  marketplace_id: "cocopon.iceberg-theme"
+  version: "2.0.6"
+  installs: 60257
+  author: "cocopon"
+  repo: "https://github.com/cocopon/vscode-iceberg-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cocopon.iceberg-theme"
+colors:
+  bg: "#E8E9EC"
+  fg: "#33374C"
+  black: "#DCDFE7"
+  red: "#CC517A"
+  green: "#668E3D"
+  yellow: "#C57339"
+  blue: "#2D539E"
+  magenta: "#7759B4"
+  cyan: "#3F83A6"
+  white: "#33374C"
+  brightBlack: "#8389A3"
+  brightRed: "#CC3768"
+  brightGreen: "#598030"
+  brightYellow: "#B6662D"
+  brightBlue: "#22478E"
+  brightMagenta: "#6845AD"
+  brightCyan: "#327698"
+  brightWhite: "#262A3F"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 83.9
+    black: 0
+    red: 55.1
+    green: 52.6
+    yellow: 49.9
+    blue: 72.3
+    magenta: 63.8
+    cyan: 55.7
+    white: 83.9
+    brightBlack: 49.1
+    brightRed: 59.5
+    brightGreen: 58.9
+    brightYellow: 56.1
+    brightBlue: 77
+    brightMagenta: 70.5
+    brightCyan: 61.5
+    brightWhite: 87.8

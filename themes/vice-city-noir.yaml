@@ -1,0 +1,49 @@
+name: "Vice City Noir"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 402
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+colors:
+  bg: "#0D1B2A"
+  fg: "#FFFFFF"
+  black: "#0D1B2A"
+  red: "#FF0066"
+  green: "#00FF7F"
+  yellow: "#FFD700"
+  blue: "#00FFFF"
+  magenta: "#FF1493"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#0D1B2A"
+  brightRed: "#FF0066"
+  brightGreen: "#00FF7F"
+  brightYellow: "#FFD700"
+  brightBlue: "#00FFFF"
+  brightMagenta: "#FF1493"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 251
+  contrast:
+    fg: 106.5
+    black: 0
+    red: 37.2
+    green: 86.2
+    yellow: 82.9
+    blue: 90.8
+    magenta: 38.7
+    cyan: 90.8
+    white: 106.5
+    brightBlack: 0
+    brightRed: 37.2
+    brightGreen: 86.2
+    brightYellow: 82.9
+    brightBlue: 90.8
+    brightMagenta: 38.7
+    brightCyan: 90.8
+    brightWhite: 106.5

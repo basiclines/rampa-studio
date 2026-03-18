@@ -1,0 +1,49 @@
+name: "Oneiroi melatonin"
+source:
+  marketplace_id: "OneiroiTheme.oneiroi-theme-vscode"
+  version: "0.0.4"
+  installs: 57
+  author: "OneiroiTheme"
+  repo: "https://github.com/OneiroiTheme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=OneiroiTheme.oneiroi-theme-vscode"
+colors:
+  bg: "#1C2024"
+  fg: "#E0E2E8"
+  black: "#1C2024"
+  red: "#FFB0CD"
+  green: "#A9D291"
+  yellow: "#ECC06C"
+  blue: "#A7C8FF"
+  magenta: "#E0B8F6"
+  cyan: "#88D6BA"
+  white: "#C0C7CD"
+  brightBlack: "#41484D"
+  brightRed: "#FFD9E4"
+  brightGreen: "#C5EFA7"
+  brightYellow: "#FFDEA4"
+  brightBlue: "#D5E3FF"
+  brightMagenta: "#F4D9FF"
+  brightCyan: "#88D6BA"
+  brightWhite: "#E0E2E8"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 70.4
+    green: 70.2
+    yellow: 70.3
+    blue: 70.4
+    magenta: 70.4
+    cyan: 70.6
+    white: 70.1
+    brightBlack: 8.8
+    brightRed: 87.5
+    brightGreen: 87.4
+    brightYellow: 87.2
+    brightBlue: 87.3
+    brightMagenta: 87.1
+    brightCyan: 70.6
+    brightWhite: 87.1

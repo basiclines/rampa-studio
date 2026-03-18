@@ -1,0 +1,49 @@
+name: "Tesseract Dark"
+source:
+  marketplace_id: "martian.tesseract"
+  version: "1.5.0"
+  installs: 6300
+  author: "Endurance the Martian 👽"
+  repo: "https://github.com/hendurhance/tesseract"
+  url: "https://marketplace.visualstudio.com/items?itemName=martian.tesseract"
+colors:
+  bg: "#141B28"
+  fg: "#EEFFFF"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#41A6B5"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#41A6B5"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 262
+  contrast:
+    fg: 104.1
+    black: 0
+    red: 49.5
+    green: 45.9
+    yellow: 62.3
+    blue: 51.2
+    magenta: 55.1
+    cyan: 70.6
+    white: 32.2
+    brightBlack: 0
+    brightRed: 49.5
+    brightGreen: 45.9
+    brightYellow: 62.3
+    brightBlue: 51.2
+    brightMagenta: 55.1
+    brightCyan: 70.6
+    brightWhite: 59.1

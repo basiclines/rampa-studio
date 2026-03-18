@@ -1,0 +1,49 @@
+name: "Astra"
+source:
+  marketplace_id: "fulin.astra"
+  version: "1.0.1"
+  installs: 1585
+  author: "Giovanni Fu Lin"
+  repo: "https://github.com/aeither/vscode-astra-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=fulin.astra"
+colors:
+  bg: "#181818"
+  fg: "#FFFFFF"
+  black: "#2D3139"
+  red: "#DD6094"
+  green: "#6FE25A"
+  yellow: "#E4B050"
+  blue: "#528BFF"
+  magenta: "#B438DA"
+  cyan: "#56E8FF"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#6FE25A"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#84EFFF"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106.8
+    black: 0
+    red: 39.7
+    green: 73.2
+    yellow: 63.3
+    blue: 41.4
+    magenta: 29.4
+    cyan: 80.7
+    white: 82.9
+    brightBlack: 35.4
+    brightRed: 38.3
+    brightGreen: 73.2
+    brightYellow: 70.5
+    brightBlue: 41.4
+    brightMagenta: 12.6
+    brightCyan: 86.4
+    brightWhite: 82.9

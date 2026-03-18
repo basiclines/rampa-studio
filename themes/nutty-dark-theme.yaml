@@ -1,0 +1,49 @@
+name: "Nutty Dark Theme"
+source:
+  marketplace_id: "SecureDev01.vscode-multi-themes"
+  version: "0.0.51"
+  installs: 1834
+  author: "SecureDev"
+  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+colors:
+  bg: "#1A1410"
+  fg: "#E8DDD0"
+  black: "#2A1F16"
+  red: "#E6543A"
+  green: "#7A9A2F"
+  yellow: "#FF8C42"
+  blue: "#4D8FA3"
+  magenta: "#B57AB8"
+  cyan: "#5FABC5"
+  white: "#D0CAB8"
+  brightBlack: "#5A4D3F"
+  brightRed: "#FF6F54"
+  brightGreen: "#8FB544"
+  brightYellow: "#FFA459"
+  brightBlue: "#6AADC5"
+  brightMagenta: "#D099D4"
+  brightCyan: "#7DC5DD"
+  brightWhite: "#FFFEF9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 56
+  contrast:
+    fg: 86.1
+    black: 0
+    red: 37.4
+    green: 41.4
+    yellow: 56.1
+    blue: 37
+    magenta: 41.1
+    cyan: 50.7
+    white: 73.7
+    brightBlack: 13
+    brightRed: 48.7
+    brightGreen: 54.6
+    brightYellow: 64.1
+    brightBlue: 52.1
+    brightMagenta: 56.3
+    brightCyan: 64.9
+    brightWhite: 106.3

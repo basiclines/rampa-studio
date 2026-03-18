@@ -1,0 +1,49 @@
+name: "Genshin Vibes: Fontaine Spotlight"
+source:
+  marketplace_id: "bubaic.genshin-vibes"
+  version: "1.0.2"
+  installs: 175
+  author: "Subrata"
+  repo: "https://github.com/bubaic/genshin-vibes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes"
+colors:
+  bg: "#EAF3FF"
+  fg: "#0F172A"
+  black: "#F0F8FF"
+  red: "#BE123C"
+  green: "#059669"
+  yellow: "#EA580C"
+  blue: "#1F3B61"
+  magenta: "#1D4ED8"
+  cyan: "#0EA5E9"
+  white: "#64748B"
+  brightBlack: "#64748B"
+  brightRed: "#BE123C"
+  brightGreen: "#059669"
+  brightYellow: "#EA580C"
+  brightBlue: "#1F3B61"
+  brightMagenta: "#1D4ED8"
+  brightCyan: "#0EA5E9"
+  brightWhite: "#0F172A"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 96.8
+    black: 0
+    red: 71.4
+    green: 56.9
+    yellow: 54.4
+    blue: 88.2
+    magenta: 74.4
+    cyan: 45.1
+    white: 65.3
+    brightBlack: 65.3
+    brightRed: 71.4
+    brightGreen: 56.9
+    brightYellow: 54.4
+    brightBlue: 88.2
+    brightMagenta: 74.4
+    brightCyan: 45.1
+    brightWhite: 96.8

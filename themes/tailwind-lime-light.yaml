@@ -1,0 +1,49 @@
+name: "Tailwind Lime Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#F7FEE7"
+  fg: "#3F6212"
+  black: "#365314"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#ECFCCB"
+  brightBlack: "#365314"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#ECFCCB"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 81.9
+    black: 87.4
+    red: 61.4
+    green: 41.9
+    yellow: 33.9
+    blue: 61.5
+    magenta: 63.8
+    cyan: 44.7
+    white: 0
+    brightBlack: 87.4
+    brightRed: 61.4
+    brightGreen: 41.9
+    brightYellow: 33.9
+    brightBlue: 61.5
+    brightMagenta: 63.8
+    brightCyan: 44.7
+    brightWhite: 0

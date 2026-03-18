@@ -1,0 +1,49 @@
+name: "Grank Italics"
+source:
+  marketplace_id: "samuraikitts.grank"
+  version: "0.0.4"
+  installs: 48
+  author: "Emmanuel Akala"
+  repo: "https://github.com/sambabib/grank-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=samuraikitts.grank"
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#F44747"
+  green: "#4EC9B0"
+  yellow: "#CE9178"
+  blue: "#569CD6"
+  magenta: "#C586C0"
+  cyan: "#9CDCFE"
+  white: "#D4D4D4"
+  brightBlack: "#2D2D2D"
+  brightRed: "#FF6B6B"
+  brightGreen: "#6FCFB0"
+  brightYellow: "#DCDCAA"
+  brightBlue: "#6FB9FF"
+  brightMagenta: "#D7BAFF"
+  brightCyan: "#B5DCFE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 37.6
+    green: 61.1
+    yellow: 48.7
+    blue: 44.2
+    magenta: 46.5
+    cyan: 78.4
+    white: 78.7
+    brightBlack: 0
+    brightRed: 47.3
+    brightGreen: 65.5
+    brightYellow: 81.7
+    brightBlue: 59.8
+    brightMagenta: 70.6
+    brightCyan: 80.7
+    brightWhite: 106

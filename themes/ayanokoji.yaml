@@ -1,0 +1,49 @@
+name: "Ayanokoji"
+source:
+  marketplace_id: "Pratik1107.ayanokoji-theme"
+  version: "2.0.1"
+  installs: 91
+  author: "Pratik1107"
+  repo: "https://github.com/yourusername/ayanokoji-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Pratik1107.ayanokoji-theme"
+colors:
+  bg: "#282A36"
+  fg: "#F8F8F2"
+  black: "#000000"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#8BE9FD"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#8BE9FD"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 278
+  contrast:
+    fg: 99
+    black: 0
+    red: 40.4
+    green: 81.9
+    yellow: 95.6
+    blue: 81
+    magenta: 51.6
+    cyan: 81
+    white: 99
+    brightBlack: 25.1
+    brightRed: 40.4
+    brightGreen: 81.9
+    brightYellow: 95.6
+    brightBlue: 81
+    brightMagenta: 51.6
+    brightCyan: 81
+    brightWhite: 99

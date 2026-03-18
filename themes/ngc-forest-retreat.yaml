@@ -1,0 +1,49 @@
+name: "NGC Forest Retreat"
+source:
+  marketplace_id: "nextgencode.ngen-themes"
+  version: "1.1.0"
+  installs: 73
+  author: "NextGenCode"
+  repo: "https://github.com/Mattzey/Ngen-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=nextgencode.ngen-themes"
+colors:
+  bg: "#1D2321"
+  fg: "#D9DCD6"
+  black: "#1D2321"
+  red: "#D97969"
+  green: "#86B98A"
+  yellow: "#D4A574"
+  blue: "#77A5A5"
+  magenta: "#C8A8B8"
+  cyan: "#86B98A"
+  white: "#D9DCD6"
+  brightBlack: "#6B7D70"
+  brightRed: "#E99484"
+  brightGreen: "#9FCDA3"
+  brightYellow: "#E4BC8F"
+  brightBlue: "#8FBFBF"
+  brightMagenta: "#DABCCB"
+  brightCyan: "#9FCDA3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 82.4
+    black: 0
+    red: 42.4
+    green: 55.4
+    yellow: 56
+    blue: 46.8
+    magenta: 57.5
+    cyan: 55.4
+    white: 82.4
+    brightBlack: 28.9
+    brightRed: 54.1
+    brightGreen: 67.2
+    brightYellow: 67.9
+    brightBlue: 60.7
+    brightMagenta: 68.6
+    brightCyan: 67.2
+    brightWhite: 105.5

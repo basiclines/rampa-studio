@@ -1,0 +1,49 @@
+name: "shrek-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#0D0D0D"
+  red: "#BA0E2E"
+  green: "#B2DE62"
+  yellow: "#857A5E"
+  blue: "#F0F2EB"
+  magenta: "#BFB59B"
+  cyan: "#B2DE62"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F03E5F"
+  brightGreen: "#DBF0B6"
+  brightYellow: "#B4AB95"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#E7E3D9"
+  brightCyan: "#DBF0B6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 21.5
+    green: 77.8
+    yellow: 32.3
+    blue: 98.7
+    magenta: 62.6
+    cyan: 77.8
+    white: 107.9
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 93
+    brightYellow: 57.1
+    brightBlue: 107.9
+    brightMagenta: 89.9
+    brightCyan: 93
+    brightWhite: 107.9

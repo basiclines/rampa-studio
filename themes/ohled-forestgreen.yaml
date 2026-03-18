@@ -1,0 +1,49 @@
+name: "OhLED_ForestGreen"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#228B22"
+  black: "#228B22"
+  red: "#196619"
+  green: "#1B6F1B"
+  yellow: "#145314"
+  blue: "#208220"
+  magenta: "#1D781D"
+  cyan: "#175D17"
+  white: "#124A12"
+  brightBlack: "#228B22"
+  brightRed: "#196619"
+  brightGreen: "#1B6F1B"
+  brightYellow: "#145314"
+  brightBlue: "#208220"
+  brightMagenta: "#1D781D"
+  brightCyan: "#175D17"
+  brightWhite: "#124A12"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 31.7
+    black: 31.7
+    red: 17.8
+    green: 21
+    yellow: 11.5
+    blue: 28.2
+    magenta: 24.3
+    cyan: 14.7
+    white: 8.7
+    brightBlack: 31.7
+    brightRed: 17.8
+    brightGreen: 21
+    brightYellow: 11.5
+    brightBlue: 28.2
+    brightMagenta: 24.3
+    brightCyan: 14.7
+    brightWhite: 8.7

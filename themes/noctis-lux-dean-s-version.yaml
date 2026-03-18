@@ -1,0 +1,49 @@
+name: "Noctis Lux (Dean's version)"
+source:
+  marketplace_id: "DeanRTaylor1.noctis-lux-medium"
+  version: "0.4.0"
+  installs: 1147
+  author: "DeanRTaylor1"
+  repo: "https://github.com/DeanRTaylor1/noctis-lux-deans-version"
+  url: "https://marketplace.visualstudio.com/items?itemName=DeanRTaylor1.noctis-lux-medium"
+colors:
+  bg: "#F6E5CB"
+  fg: "#005661"
+  black: "#003B42"
+  red: "#E34E1C"
+  green: "#00B368"
+  yellow: "#F49725"
+  blue: "#0094F0"
+  magenta: "#FF5792"
+  cyan: "#00BDD6"
+  white: "#8CA6A6"
+  brightBlack: "#004D57"
+  brightRed: "#FF4000"
+  brightGreen: "#00D17A"
+  brightYellow: "#FF8C00"
+  brightBlue: "#0FA3FF"
+  brightMagenta: "#FF6B9F"
+  brightCyan: "#00CBE6"
+  brightWhite: "#BBC3C4"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 79
+  contrast:
+    fg: 74.3
+    black: 83.5
+    red: 51.2
+    green: 38.2
+    yellow: 30
+    blue: 44.7
+    magenta: 41.3
+    cyan: 29.9
+    white: 36.4
+    brightBlack: 77.5
+    brightRed: 46.8
+    brightGreen: 24.3
+    brightYellow: 31.3
+    brightBlue: 38
+    brightMagenta: 37.1
+    brightCyan: 23
+    brightWhite: 19.1

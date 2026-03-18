@@ -1,0 +1,49 @@
+name: "Easy Light"
+source:
+  marketplace_id: "Sean-Chaplin.easy-light-theme"
+  version: "0.0.3"
+  installs: 256
+  author: "Sean Chaplin"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Sean-Chaplin.easy-light-theme"
+colors:
+  bg: "#D7D7D7"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#BEBEBE"
+  brightBlack: "#3F3F3F"
+  brightRed: "#FF7676"
+  brightGreen: "#3EFF3E"
+  brightYellow: "#F8FF00"
+  brightBlue: "#007AFF"
+  brightMagenta: "#FF59FF"
+  brightCyan: "#00CDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 82.7
+    black: 82.7
+    red: 50.6
+    green: 25.9
+    yellow: 34.6
+    blue: 62.7
+    magenta: 51.2
+    cyan: 37.2
+    white: 11.7
+    brightBlack: 71.1
+    brightRed: 26.7
+    brightGreen: 0
+    brightYellow: 17.8
+    brightBlue: 43.2
+    brightMagenta: 26.1
+    brightCyan: 11.5
+    brightWhite: 23.9

@@ -1,0 +1,49 @@
+name: "kinnitchi Neon Dark Modern"
+source:
+  marketplace_id: "Kinnitchi.kinnitchi-theme"
+  version: "0.4.0"
+  installs: 1210
+  author: "Kinnitchi"
+  repo: "https://github.com/Kinnitchi/kinnitchi-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kinnitchi.kinnitchi-theme"
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#1E1E1E"
+  red: "#FF5A5A"
+  green: "#72F1B8"
+  yellow: "#FEDE5D"
+  blue: "#7CB7FF"
+  magenta: "#FF7EDB"
+  cyan: "#FFFFFF"
+  white: "#C5C8C6"
+  brightBlack: "#1E1E1E"
+  brightRed: "#FF5A5A"
+  brightGreen: "#72F1B8"
+  brightYellow: "#FEDE5D"
+  brightBlue: "#7CB7FF"
+  brightMagenta: "#FF7EDB"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 43.5
+    green: 82.5
+    yellow: 85.8
+    blue: 59.8
+    magenta: 56.1
+    cyan: 106
+    white: 71
+    brightBlack: 0
+    brightRed: 43.5
+    brightGreen: 82.5
+    brightYellow: 85.8
+    brightBlue: 59.8
+    brightMagenta: 56.1
+    brightCyan: 106
+    brightWhite: 106

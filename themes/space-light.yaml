@@ -1,0 +1,49 @@
+name: "Space Light"
+source:
+  marketplace_id: "keksiqc.idx-monospace-theme"
+  version: "1.5.0"
+  installs: 31573
+  author: "Keksi"
+  repo: "https://github.com/keksiqc/monospace-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=keksiqc.idx-monospace-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#292929"
+  black: "#3E3E3E"
+  red: "#D03941"
+  green: "#007B49"
+  yellow: "#A65921"
+  blue: "#4563CA"
+  magenta: "#6F4CDE"
+  cyan: "#0075A2"
+  white: "#6A6A6A"
+  brightBlack: "#000000"
+  brightRed: "#A52430"
+  brightGreen: "#00522F"
+  brightYellow: "#904B1A"
+  brightBlue: "#002583"
+  brightMagenta: "#4D21BB"
+  brightCyan: "#00607E"
+  brightWhite: "#535353"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 101.4
+    black: 94.8
+    red: 72.2
+    green: 76
+    yellow: 75.1
+    blue: 76.6
+    magenta: 77.3
+    cyan: 75
+    white: 77
+    brightBlack: 106
+    brightRed: 83.8
+    brightGreen: 91.1
+    brightYellow: 82
+    brightBlue: 98.5
+    brightMagenta: 90.3
+    brightCyan: 83.9
+    brightWhite: 86.7

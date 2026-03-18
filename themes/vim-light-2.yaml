@@ -1,0 +1,49 @@
+name: "Vim Light 2"
+source:
+  marketplace_id: "theprogrammergary.atom-themes"
+  version: "2.1.9"
+  installs: 614
+  author: "theprogrammergary"
+  repo: "https://github.com/gary-ix/Gary-VS-Code-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=theprogrammergary.atom-themes"
+colors:
+  bg: "#EBDDB3"
+  fg: "#3C3836"
+  black: "#EBDBB2"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#CF8900"
+  blue: "#333232"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#7C6F64"
+  brightBlack: "#928374"
+  brightRed: "#9D0006"
+  brightGreen: "#79740E"
+  brightYellow: "#B57614"
+  brightBlue: "#076678"
+  brightMagenta: "#8F3F71"
+  brightCyan: "#427B58"
+  brightWhite: "#3C3836"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 92
+  contrast:
+    fg: 77
+    black: 0
+    red: 55.8
+    green: 38.1
+    yellow: 35.3
+    blue: 79.2
+    magenta: 49.3
+    cyan: 39.1
+    white: 54.1
+    brightBlack: 44.6
+    brightRed: 67.3
+    brightGreen: 53.9
+    brightYellow: 45.3
+    brightBlue: 62.5
+    brightMagenta: 63
+    brightCyan: 54.7
+    brightWhite: 77

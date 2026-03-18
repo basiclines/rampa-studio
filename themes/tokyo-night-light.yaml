@@ -1,0 +1,49 @@
+name: "Tokyo Night Light"
+source:
+  marketplace_id: "damask-holdings.tokyo-night-theme-damask-edition"
+  version: "0.0.1"
+  installs: 318
+  author: "Damask Holdings"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=damask-holdings.tokyo-night-theme-damask-edition"
+colors:
+  bg: "#BFC0C7"
+  fg: "#343B59"
+  black: "#0F0F14"
+  red: "#8C4351"
+  green: "#33635C"
+  yellow: "#8F5E15"
+  blue: "#34548A"
+  magenta: "#5A4A78"
+  cyan: "#0F4B6E"
+  white: "#828594"
+  brightBlack: "#0F0F14"
+  brightRed: "#8C4351"
+  brightGreen: "#33635C"
+  brightYellow: "#8F5E15"
+  brightBlue: "#34548A"
+  brightMagenta: "#5A4A78"
+  brightCyan: "#0F4B6E"
+  brightWhite: "#828594"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 59.4
+    black: 69.5
+    red: 47.5
+    green: 47.4
+    yellow: 41.5
+    blue: 50.1
+    magenta: 51.1
+    cyan: 55.2
+    white: 28.3
+    brightBlack: 69.5
+    brightRed: 47.5
+    brightGreen: 47.4
+    brightYellow: 41.5
+    brightBlue: 50.1
+    brightMagenta: 51.1
+    brightCyan: 55.2
+    brightWhite: 28.3

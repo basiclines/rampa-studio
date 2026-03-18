@@ -1,0 +1,49 @@
+name: "Abissal"
+source:
+  marketplace_id: "Henriquehnnm.abissal"
+  version: "1.2.1"
+  installs: 76
+  author: "Henrique"
+  repo: "https://github.com/Henriquehnnm/abissal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Henriquehnnm.abissal"
+colors:
+  bg: "#282A36"
+  fg: "#F2F8F8"
+  black: "#000000"
+  red: "#F2B8AC"
+  green: "#75A782"
+  yellow: "#C2C26D"
+  blue: "#75B0EE"
+  magenta: "#BD93F9"
+  cyan: "#A4C3E4"
+  white: "#F7F7F7"
+  brightBlack: "#666666"
+  brightRed: "#F0CCC4"
+  brightGreen: "#99B6A0"
+  brightYellow: "#CBCB9B"
+  brightBlue: "#91BFEE"
+  brightMagenta: "#D2B8F9"
+  brightCyan: "#B5D6F9"
+  brightWhite: "#CFD3D3"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 278
+  contrast:
+    fg: 98.5
+    black: 0
+    red: 67.9
+    green: 44.6
+    yellow: 63.2
+    blue: 53.3
+    magenta: 50.7
+    cyan: 64.5
+    white: 98.6
+    brightBlack: 19.1
+    brightRed: 76.4
+    brightGreen: 54.9
+    brightYellow: 69.4
+    brightBlue: 61.6
+    brightMagenta: 66.7
+    brightCyan: 75.6
+    brightWhite: 75.4

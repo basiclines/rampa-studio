@@ -1,0 +1,49 @@
+name: "Sirius-Pulsar"
+source:
+  marketplace_id: "VLMADev.siriusthemes"
+  version: "1.1.5"
+  installs: 509
+  author: "VLMADev"
+  repo: "https://github.com/VLMADev/siriusthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=VLMADev.siriusthemes"
+colors:
+  bg: "#272822"
+  fg: "#F8F8F2"
+  black: "#3B3A32"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#E6DB74"
+  blue: "#A87AB2"
+  magenta: "#FD5FF1"
+  cyan: "#A6E22E"
+  white: "#F8F8F2"
+  brightBlack: "#75715E"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E6DB74"
+  brightBlue: "#A87AB2"
+  brightMagenta: "#FD5FF1"
+  brightCyan: "#A6E22E"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 115
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 35
+    green: 74.7
+    yellow: 79.7
+    blue: 36.4
+    magenta: 48.8
+    cyan: 74.7
+    white: 99.6
+    brightBlack: 24.3
+    brightRed: 35
+    brightGreen: 74.7
+    brightYellow: 79.7
+    brightBlue: 36.4
+    brightMagenta: 48.8
+    brightCyan: 74.7
+    brightWhite: 99.6

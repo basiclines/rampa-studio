@@ -1,0 +1,49 @@
+name: "Colorful Carbon Dark Knight"
+source:
+  marketplace_id: "Sonali-Sharma.colorful-carbon"
+  version: "2.0.5"
+  installs: 202
+  author: "Sonali Sharma"
+  repo: "https://github.com/Sonali-Sharma-tech/colorful-carbon-extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sonali-Sharma.colorful-carbon"
+colors:
+  bg: "#0A0A0A"
+  fg: "#E0E0E0"
+  black: "#0A0A0A"
+  red: "#FF6B6B"
+  green: "#6BCB77"
+  yellow: "#FFD93D"
+  blue: "#4D96FF"
+  magenta: "#FF8B13"
+  cyan: "#4ECDC4"
+  white: "#E0E0E0"
+  brightBlack: "#666666"
+  brightRed: "#FF6B6B"
+  brightGreen: "#6BCB77"
+  brightYellow: "#FFD93D"
+  brightBlue: "#4D96FF"
+  brightMagenta: "#FF8B13"
+  brightCyan: "#4ECDC4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 49
+    green: 63.4
+    yellow: 85.2
+    blue: 46
+    magenta: 56.3
+    cyan: 65.5
+    white: 87.7
+    brightBlack: 22.9
+    brightRed: 49
+    brightGreen: 63.4
+    brightYellow: 85.2
+    brightBlue: 46
+    brightMagenta: 56.3
+    brightCyan: 65.5
+    brightWhite: 107.7

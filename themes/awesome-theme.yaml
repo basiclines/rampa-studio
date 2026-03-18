@@ -1,0 +1,49 @@
+name: "awesome-theme"
+source:
+  marketplace_id: "ast2kg.awesome-theme"
+  version: "0.0.1"
+  installs: 110
+  author: "AshishK"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ast2kg.awesome-theme"
+colors:
+  bg: "#161930"
+  fg: "#E8E1E1"
+  black: "#000000"
+  red: "#14FF38"
+  green: "#14FF38"
+  yellow: "#14FF38"
+  blue: "#14FF38"
+  magenta: "#14FF38"
+  cyan: "#14FF38"
+  white: "#14FF38"
+  brightBlack: "#14FF38"
+  brightRed: "#14FF38"
+  brightGreen: "#14FF38"
+  brightYellow: "#14FF38"
+  brightBlue: "#14FF38"
+  brightMagenta: "#14FF38"
+  brightCyan: "#14FF38"
+  brightWhite: "#14FF38"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 277
+  contrast:
+    fg: 88
+    black: 0
+    red: 85.2
+    green: 85.2
+    yellow: 85.2
+    blue: 85.2
+    magenta: 85.2
+    cyan: 85.2
+    white: 85.2
+    brightBlack: 85.2
+    brightRed: 85.2
+    brightGreen: 85.2
+    brightYellow: 85.2
+    brightBlue: 85.2
+    brightMagenta: 85.2
+    brightCyan: 85.2
+    brightWhite: 85.2

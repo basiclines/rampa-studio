@@ -1,0 +1,49 @@
+name: "Definetely Not Github's Theme"
+source:
+  marketplace_id: "vhespanha.dngh-vscode"
+  version: "0.2.2"
+  installs: 139
+  author: "vhespanha"
+  repo: "https://github.com/vhespanha/dngh-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=vhespanha.dngh-vscode"
+colors:
+  bg: "#0F0F0F"
+  fg: "#E6EDF3"
+  black: "#586069"
+  red: "#EA4A5A"
+  green: "#34D058"
+  yellow: "#FFEA7F"
+  blue: "#2188FF"
+  magenta: "#B392F0"
+  cyan: "#39C5CF"
+  white: "#D1D5DA"
+  brightBlack: "#959DA5"
+  brightRed: "#F97583"
+  brightGreen: "#85E89D"
+  brightYellow: "#FFEA7F"
+  brightBlue: "#79B8FF"
+  brightMagenta: "#B392F0"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FAFBFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 95.1
+    black: 19.8
+    red: 37.5
+    green: 62.9
+    yellow: 93.4
+    blue: 39.6
+    magenta: 52
+    cyan: 61.5
+    white: 80.4
+    brightBlack: 48.4
+    brightRed: 50.4
+    brightGreen: 79.7
+    brightYellow: 93.4
+    brightBlue: 61.5
+    brightMagenta: 52
+    brightCyan: 70
+    brightWhite: 104.8

@@ -1,0 +1,49 @@
+name: "B2B Edge - Light"
+source:
+  marketplace_id: "B2BEdge.b2b-edge-light"
+  version: "0.1.2"
+  installs: 185
+  author: "B2B Edge"
+  repo: "https://github.com/b2bedge/b2bedge-theme-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=B2BEdge.b2b-edge-light"
+colors:
+  bg: "#EBEBEB"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#E6E6E6"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 94.2
+    black: 94.2
+    red: 62.1
+    green: 37.4
+    yellow: 46.1
+    blue: 74.2
+    magenta: 62.7
+    cyan: 48.7
+    white: 0
+    brightBlack: 66.9
+    brightRed: 62.1
+    brightGreen: 29.1
+    brightYellow: 29.1
+    brightBlue: 74.2
+    brightMagenta: 62.7
+    brightCyan: 48.7
+    brightWhite: 36.6

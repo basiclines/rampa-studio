@@ -1,0 +1,49 @@
+name: "hoccacas"
+source:
+  marketplace_id: "ThiagoAndreazza.hoccacas"
+  version: "0.3.6"
+  installs: 262
+  author: "Thiago Andreazza"
+  repo: "https://github.com/olathiago/hoccacas"
+  url: "https://marketplace.visualstudio.com/items?itemName=ThiagoAndreazza.hoccacas"
+colors:
+  bg: "#0F1014"
+  fg: "#C0C0CC"
+  black: "#131317"
+  red: "#D16996"
+  green: "#83C4C4"
+  yellow: "#D3D5DE"
+  blue: "#BE95FF"
+  magenta: "#D3D5DE"
+  cyan: "#5D83C1"
+  white: "#B2B2BE"
+  brightBlack: "#777885"
+  brightRed: "#D16996"
+  brightGreen: "#83C4C4"
+  brightYellow: "#D3D5DE"
+  brightBlue: "#BE95FF"
+  brightMagenta: "#D3D5DE"
+  brightCyan: "#5D83C1"
+  brightWhite: "#868690"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 68.7
+    black: 0
+    red: 40.1
+    green: 64
+    yellow: 80.8
+    blue: 55.4
+    magenta: 80.8
+    cyan: 35.5
+    white: 60.7
+    brightBlack: 30.9
+    brightRed: 40.1
+    brightGreen: 64
+    brightYellow: 80.8
+    brightBlue: 55.4
+    brightMagenta: 80.8
+    brightCyan: 35.5
+    brightWhite: 37.6

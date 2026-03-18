@@ -1,0 +1,49 @@
+name: "vintage"
+source:
+  marketplace_id: "silas0827.vintage"
+  version: "0.0.1"
+  installs: 1072
+  author: "Silas Chen"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=silas0827.vintage"
+colors:
+  bg: "#FFFFE9"
+  fg: "#CB997E"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 48.1
+    black: 105.1
+    red: 73.1
+    green: 48.3
+    yellow: 57
+    blue: 85.2
+    magenta: 73.7
+    cyan: 59.7
+    white: 85
+    brightBlack: 77.9
+    brightRed: 73.1
+    brightGreen: 40
+    brightYellow: 40
+    brightBlue: 85.2
+    brightMagenta: 73.7
+    brightCyan: 59.7
+    brightWhite: 47.6

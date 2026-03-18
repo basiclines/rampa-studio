@@ -1,0 +1,49 @@
+name: "Barbenheimer Dreamhouse"
+source:
+  marketplace_id: "jayvicsanantonio.barbenheimer"
+  version: "1.0.0"
+  installs: 4071
+  author: "Jayvic San Antonio"
+  repo: "https://github.com/jayvicsanantonio/barbenheimer-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jayvicsanantonio.barbenheimer"
+colors:
+  bg: "#FFF8F0"
+  fg: "#14140B"
+  black: "#302820"
+  red: "#F060A0"
+  green: "#A8D977"
+  yellow: "#F7D787"
+  blue: "#87CEFA"
+  magenta: "#BA55D3"
+  cyan: "#80CBC4"
+  white: "#14140B"
+  brightBlack: "#4A443A"
+  brightRed: "#DC5687"
+  brightGreen: "#86B465"
+  brightYellow: "#E0C070"
+  brightBlue: "#64B5D9"
+  brightMagenta: "#9B40B4"
+  brightCyan: "#609E9A"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 101.5
+    black: 97.6
+    red: 52.9
+    green: 24.5
+    yellow: 15.6
+    blue: 27.1
+    magenta: 62.6
+    cyan: 31.5
+    white: 101.5
+    brightBlack: 88.7
+    brightRed: 59.9
+    brightGreen: 43.7
+    brightYellow: 28.5
+    brightBlue: 41.5
+    brightMagenta: 73.4
+    brightCyan: 53.8
+    brightWhite: 102.4

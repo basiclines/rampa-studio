@@ -1,0 +1,49 @@
+name: "GentleBlack"
+source:
+  marketplace_id: "yanglixin.gentleblack"
+  version: "0.0.1"
+  installs: 162
+  author: "yanglixin"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=yanglixin.gentleblack"
+colors:
+  bg: "#3D3B24"
+  fg: "#FFFFFF"
+  black: "#1887A3"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#EBDCAF"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#EEE8D5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 104
+  contrast:
+    fg: 99.9
+    black: 25.4
+    red: 23.2
+    green: 34.7
+    yellow: 77.8
+    blue: 29.8
+    magenta: 23.4
+    cyan: 35.5
+    white: 85
+    brightBlack: 17
+    brightRed: 22.7
+    brightGreen: 17
+    brightYellow: 22.8
+    brightBlue: 35
+    brightMagenta: 23.5
+    brightCyan: 41.9
+    brightWhite: 85

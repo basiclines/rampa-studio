@@ -1,0 +1,49 @@
+name: "Dark Marine"
+source:
+  marketplace_id: "MustafizKaifee.dark-marine"
+  version: "1.0.2"
+  installs: 38
+  author: "Mustafiz Kaifee"
+  repo: "https://github.com/Mustafiz04/vs-colour-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MustafizKaifee.dark-marine"
+colors:
+  bg: "#20303E"
+  fg: "#E5D0AC"
+  black: "#20303E"
+  red: "#C14600"
+  green: "#3D8D7A"
+  yellow: "#FF9D23"
+  blue: "#3674B5"
+  magenta: "#C14600"
+  cyan: "#3D8D7A"
+  white: "#FEF9E1"
+  brightBlack: "#20303E"
+  brightRed: "#C14600"
+  brightGreen: "#3D8D7A"
+  brightYellow: "#FF9D23"
+  brightBlue: "#3674B5"
+  brightMagenta: "#C14600"
+  brightCyan: "#3D8D7A"
+  brightWhite: "#FEF9E1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 246
+  contrast:
+    fg: 74.8
+    black: 0
+    red: 23
+    green: 30
+    yellow: 57.3
+    blue: 23.5
+    magenta: 23
+    cyan: 30
+    white: 98.8
+    brightBlack: 0
+    brightRed: 23
+    brightGreen: 30
+    brightYellow: 57.3
+    brightBlue: 23.5
+    brightMagenta: 23
+    brightCyan: 30
+    brightWhite: 98.8

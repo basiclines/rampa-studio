@@ -1,0 +1,49 @@
+name: "ReUI II Dark Italic"
+source:
+  marketplace_id: "barrsan.reui"
+  version: "1.2.5"
+  installs: 120797
+  author: "Alex Baretsky"
+  repo: "https://github.com/barrsan/reui-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=barrsan.reui"
+colors:
+  bg: "#1E232E"
+  fg: "#FFFFFF"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 266
+  contrast:
+    fg: 105.3
+    black: 0
+    red: 41.8
+    green: 83.3
+    yellow: 97
+    blue: 52.1
+    magenta: 53
+    cyan: 82.4
+    white: 100.4
+    brightBlack: 26.5
+    brightRed: 47.3
+    brightGreen: 87.5
+    brightYellow: 102
+    brightBlue: 64.5
+    brightMagenta: 61
+    brightCyan: 95.2
+    brightWhite: 105.3

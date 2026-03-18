@@ -1,0 +1,49 @@
+name: "Houston"
+source:
+  marketplace_id: "astro-build.houston"
+  version: "0.1.2"
+  installs: 80504
+  author: "Astro"
+  repo: "https://github.com/withastro/houston-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=astro-build.houston"
+colors:
+  bg: "#17191E"
+  fg: "#EEF0F9"
+  black: "#17191E"
+  red: "#DC3657"
+  green: "#23D18B"
+  yellow: "#FFC368"
+  blue: "#2B7ECA"
+  magenta: "#AD5DCA"
+  cyan: "#24C0CF"
+  white: "#EEF0F9"
+  brightBlack: "#545864"
+  brightRed: "#F4587E"
+  brightGreen: "#4BF3C8"
+  brightYellow: "#FFD493"
+  brightBlue: "#54B9FF"
+  brightMagenta: "#CC75F4"
+  brightCyan: "#00DAEF"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 268
+  contrast:
+    fg: 97
+    black: 0
+    red: 30.9
+    green: 63.3
+    yellow: 75.4
+    blue: 31.5
+    magenta: 33.2
+    cyan: 58
+    white: 97
+    brightBlack: 16.1
+    brightRed: 42.1
+    brightGreen: 83.1
+    brightYellow: 83.3
+    brightBlue: 59
+    brightMagenta: 46.7
+    brightCyan: 71.6
+    brightWhite: 103.3

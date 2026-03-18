@@ -1,0 +1,49 @@
+name: "Hackpot Batman vs Joker"
+source:
+  marketplace_id: "wwmyers.hackpot"
+  version: "3.0.0"
+  installs: 24355
+  author: "wwmyers"
+  repo: "https://github.com/wwmyers/hackpot"
+  url: "https://marketplace.visualstudio.com/items?itemName=wwmyers.hackpot"
+colors:
+  bg: "#21222C"
+  fg: "#BBD1DD"
+  black: "#2B2E3B"
+  red: "#FF704D"
+  green: "#486484"
+  yellow: "#FFFF99"
+  blue: "#268BD2"
+  magenta: "#9933FF"
+  cyan: "#1B9891"
+  white: "#BBD1DD"
+  brightBlack: "#363949"
+  brightRed: "#FF661A"
+  brightGreen: "#33CC33"
+  brightYellow: "#FFFF1A"
+  brightBlue: "#1FADA6"
+  brightMagenta: "#A64DFF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#C4EDC4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 280
+  contrast:
+    fg: 74.1
+    black: 0
+    red: 47.2
+    green: 18.8
+    yellow: 101.7
+    blue: 35.2
+    magenta: 26.5
+    cyan: 36.7
+    white: 74.1
+    brightBlack: 0
+    brightRed: 44.5
+    brightGreen: 58.4
+    brightYellow: 100.2
+    brightBlue: 46.4
+    brightMagenta: 31.9
+    brightCyan: 89.6
+    brightWhite: 86.8

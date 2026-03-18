@@ -1,0 +1,49 @@
+name: "dull-sun-dark"
+source:
+  marketplace_id: "DullSun.dull-sun"
+  version: "0.0.3"
+  installs: 521
+  author: "Dull Sun"
+  repo: "https://github.com/leutzed/Dull-Sun-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DullSun.dull-sun"
+colors:
+  bg: "#14181F"
+  fg: "#CCCAC2"
+  black: "#171B24"
+  red: "#ED8274"
+  green: "#87D96C"
+  yellow: "#FACC6E"
+  blue: "#6DCBFA"
+  magenta: "#DABAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#D5FF80"
+  brightYellow: "#FFD173"
+  brightBlue: "#569CD6"
+  brightMagenta: "#DFBFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 262
+  contrast:
+    fg: 73.3
+    black: 0
+    red: 50.2
+    green: 70.7
+    yellow: 78.5
+    blue: 67.9
+    magenta: 71.5
+    cyan: 77.8
+    white: 71.6
+    brightBlack: 22.8
+    brightRed: 52.8
+    brightGreen: 97.1
+    brightYellow: 81.5
+    brightBlue: 44.9
+    brightMagenta: 74.4
+    brightCyan: 80.8
+    brightWhite: 106.8

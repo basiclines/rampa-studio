@@ -1,0 +1,49 @@
+name: "WL-Synthwave Rider"
+source:
+  marketplace_id: "WatkinsLabs.synthwave-rider"
+  version: "1.0.1"
+  installs: 91
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.synthwave-rider"
+colors:
+  bg: "#090A31"
+  fg: "#EEBBF4"
+  black: "#000000"
+  red: "#FF073A"
+  green: "#21FC0D"
+  yellow: "#FF5722"
+  blue: "#74F9FF"
+  magenta: "#1EC6EA"
+  cyan: "#74F9FF"
+  white: "#EEBBF4"
+  brightBlack: "#666666"
+  brightRed: "#FF073A"
+  brightGreen: "#21FC0D"
+  brightYellow: "#FF5722"
+  brightBlue: "#74F9FF"
+  brightMagenta: "#1EC6EA"
+  brightCyan: "#74F9FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 274
+  contrast:
+    fg: 75
+    black: 0
+    red: 37.2
+    green: 84.4
+    yellow: 43.6
+    blue: 91
+    magenta: 62.8
+    cyan: 91
+    white: 75
+    brightBlack: 22.5
+    brightRed: 37.2
+    brightGreen: 84.4
+    brightYellow: 43.6
+    brightBlue: 91
+    brightMagenta: 62.8
+    brightCyan: 91
+    brightWhite: 107.3

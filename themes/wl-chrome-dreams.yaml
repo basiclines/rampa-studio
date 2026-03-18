@@ -1,0 +1,49 @@
+name: "WL-Chrome Dreams"
+source:
+  marketplace_id: "WatkinsLabs.chrome-dreams"
+  version: "1.0.1"
+  installs: 47
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.chrome-dreams"
+colors:
+  bg: "#2B2D3C"
+  fg: "#ECEFF1"
+  black: "#000000"
+  red: "#FF5C5C"
+  green: "#70C1B3"
+  yellow: "#FFC15E"
+  blue: "#B58AD3"
+  magenta: "#8F6DB0"
+  cyan: "#B58AD3"
+  white: "#ECEFF1"
+  brightBlack: "#666666"
+  brightRed: "#FF5C5C"
+  brightGreen: "#70C1B3"
+  brightYellow: "#FFC15E"
+  brightBlue: "#B58AD3"
+  brightMagenta: "#8F6DB0"
+  brightCyan: "#B58AD3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  contrast:
+    fg: 92.4
+    black: 0
+    red: 41.1
+    green: 56.5
+    yellow: 71.1
+    blue: 43.6
+    magenta: 28
+    cyan: 43.6
+    white: 92.4
+    brightBlack: 18.4
+    brightRed: 41.1
+    brightGreen: 56.5
+    brightYellow: 71.1
+    brightBlue: 43.6
+    brightMagenta: 28
+    brightCyan: 43.6
+    brightWhite: 103.2

@@ -1,0 +1,49 @@
+name: "Sirius-Zenith"
+source:
+  marketplace_id: "VLMADev.siriusthemes"
+  version: "1.1.5"
+  installs: 509
+  author: "VLMADev"
+  repo: "https://github.com/VLMADev/siriusthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=VLMADev.siriusthemes"
+colors:
+  bg: "#1A1A1A"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#FFD93D"
+  blue: "#D2691E"
+  magenta: "#BC3FBC"
+  cyan: "#B8860B"
+  white: "#F2F2F2"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#CD853F"
+  brightMagenta: "#D670D6"
+  brightCyan: "#DAA520"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 79.2
+    black: 0
+    red: 26.4
+    green: 52.7
+    yellow: 84
+    blue: 37
+    magenta: 29.4
+    cyan: 40.8
+    white: 98
+    brightBlack: 21.7
+    brightRed: 38.2
+    brightGreen: 63.2
+    brightYellow: 95.3
+    brightBlue: 44.1
+    brightMagenta: 45
+    brightCyan: 56.9
+    brightWhite: 106.5

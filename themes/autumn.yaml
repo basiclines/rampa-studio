@@ -1,0 +1,49 @@
+name: "Autumn"
+source:
+  marketplace_id: "den-swe.autumn-theme-light"
+  version: "1.6.0"
+  installs: 123
+  author: "Denniz Ege"
+  repo: "https://github.com/den-swe/autumn-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=den-swe.autumn-theme-light"
+colors:
+  bg: "#FFFEFD"
+  fg: "#624234"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#454545"
+  brightBlack: "#474747"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#C7CD00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#686868"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 89.9
+    black: 105.5
+    red: 73.5
+    green: 48.7
+    yellow: 57.4
+    blue: 85.5
+    magenta: 74.1
+    cyan: 60.1
+    white: 91.7
+    brightBlack: 91
+    brightRed: 73.5
+    brightGreen: 40.4
+    brightYellow: 30.5
+    brightBlue: 85.5
+    brightMagenta: 74.1
+    brightCyan: 60.1
+    brightWhite: 77.4

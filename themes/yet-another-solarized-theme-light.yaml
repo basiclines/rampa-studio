@@ -1,0 +1,49 @@
+name: "Yet Another Solarized Theme (Light)"
+source:
+  marketplace_id: "JulianSchelb.yet-another-solarized-theme"
+  version: "1.0.5"
+  installs: 2704
+  author: "Julian Schelb"
+  repo: "https://github.com/julianschelb/vscode-theme-solarized"
+  url: "https://marketplace.visualstudio.com/items?itemName=JulianSchelb.yet-another-solarized-theme"
+colors:
+  bg: "#F9F6EF"
+  fg: "#193F49"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 90.8
+    black: 100.8
+    red: 68.7
+    green: 44
+    yellow: 52.6
+    blue: 80.8
+    magenta: 69.3
+    cyan: 55.3
+    white: 80.7
+    brightBlack: 73.5
+    brightRed: 68.7
+    brightGreen: 35.6
+    brightYellow: 35.7
+    brightBlue: 80.8
+    brightMagenta: 69.3
+    brightCyan: 55.3
+    brightWhite: 43.2

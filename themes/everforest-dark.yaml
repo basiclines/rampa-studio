@@ -1,0 +1,49 @@
+name: "Everforest Dark"
+source:
+  marketplace_id: "johnull.blackforest"
+  version: "0.0.2"
+  installs: 1527
+  author: "johnull"
+  repo: "https://github.com/johnull/everforest-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=johnull.blackforest"
+colors:
+  bg: "#000000"
+  fg: "#D3C6AA"
+  black: "#343F44"
+  red: "#E67E80"
+  green: "#A7C080"
+  yellow: "#DBBC7F"
+  blue: "#7FBBB3"
+  magenta: "#D699B6"
+  cyan: "#83C092"
+  white: "#D3C6AA"
+  brightBlack: "#859289"
+  brightRed: "#E67E80"
+  brightGreen: "#A7C080"
+  brightYellow: "#DBBC7F"
+  brightBlue: "#7FBBB3"
+  brightMagenta: "#D699B6"
+  brightCyan: "#83C092"
+  brightWhite: "#D3C6AA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 72.7
+    black: 7.5
+    red: 49.2
+    green: 63.6
+    yellow: 68.5
+    blue: 59.5
+    magenta: 56.6
+    cyan: 60.8
+    white: 72.7
+    brightBlack: 42
+    brightRed: 49.2
+    brightGreen: 63.6
+    brightYellow: 68.5
+    brightBlue: 59.5
+    brightMagenta: 56.6
+    brightCyan: 60.8
+    brightWhite: 72.7

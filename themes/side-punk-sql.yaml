@@ -1,0 +1,49 @@
+name: "Side Punk - SQL"
+source:
+  marketplace_id: "HuachiWu.side-punk-theme"
+  version: "1.0.0"
+  installs: 190
+  author: "HuachiWu"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=HuachiWu.side-punk-theme"
+colors:
+  bg: "#23262F"
+  fg: "#F8F8F2"
+  black: "#414868"
+  red: "#CC6666"
+  green: "#99CC99"
+  yellow: "#FFCC66"
+  blue: "#3387CC"
+  magenta: "#CC99CC"
+  cyan: "#66CCCC"
+  white: "#F8F8F2"
+  brightBlack: "#666666"
+  brightRed: "#CC6666"
+  brightGreen: "#99CC99"
+  brightYellow: "#FFCC66"
+  brightBlue: "#6699CC"
+  brightMagenta: "#CC99CC"
+  brightCyan: "#66CCCC"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 271
+  contrast:
+    fg: 99.9
+    black: 8.7
+    red: 34.3
+    green: 65.1
+    yellow: 77.2
+    blue: 33.1
+    magenta: 53
+    cyan: 63.5
+    white: 99.9
+    brightBlack: 19.9
+    brightRed: 34.3
+    brightGreen: 65.1
+    brightYellow: 77.2
+    brightBlue: 42.1
+    brightMagenta: 53
+    brightCyan: 63.5
+    brightWhite: 99.9

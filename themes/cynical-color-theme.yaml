@@ -1,0 +1,49 @@
+name: "cynical-color-theme"
+source:
+  marketplace_id: "TheRepoClub.theme-mangayo"
+  version: "1.0.1"
+  installs: 645
+  author: "TheRepoClub"
+  repo: "https://github.com/TheCynicalTeam/vscode-theme-cynical"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheRepoClub.theme-mangayo"
+colors:
+  bg: "#292F34"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 243
+  contrast:
+    fg: 98.3
+    black: 0
+    red: 20.9
+    green: 49.3
+    yellow: 54
+    blue: 30.9
+    magenta: 28.5
+    cyan: 46.7
+    white: 84.8
+    brightBlack: 18.3
+    brightRed: 33.6
+    brightGreen: 73.3
+    brightYellow: 80.2
+    brightBlue: 46.2
+    brightMagenta: 42.8
+    brightCyan: 69.7
+    brightWhite: 98.3

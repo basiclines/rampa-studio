@@ -1,0 +1,49 @@
+name: "Ash & Ember"
+source:
+  marketplace_id: "InnaSodri.ash-ember-theme"
+  version: "0.0.3"
+  installs: 127
+  author: "Inna Sodri"
+  repo: "https://example.com/inna/ash-ember-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=InnaSodri.ash-ember-theme"
+colors:
+  bg: "#131313"
+  fg: "#EDEDED"
+  black: "#2A2A2A"
+  red: "#D14D41"
+  green: "#6FBF8F"
+  yellow: "#FFB067"
+  blue: "#6FA4FF"
+  magenta: "#A08CC2"
+  cyan: "#3FB8C0"
+  white: "#D9D9D9"
+  brightBlack: "#2A2A2A"
+  brightRed: "#D14D41"
+  brightGreen: "#6FBF8F"
+  brightYellow: "#FFB067"
+  brightBlue: "#6FA4FF"
+  brightMagenta: "#A08CC2"
+  brightCyan: "#3FB8C0"
+  brightWhite: "#D9D9D9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.5
+    black: 0
+    red: 31.9
+    green: 58.3
+    yellow: 68.7
+    blue: 52.6
+    magenta: 44.6
+    cyan: 54.9
+    white: 82.9
+    brightBlack: 0
+    brightRed: 31.9
+    brightGreen: 58.3
+    brightYellow: 68.7
+    brightBlue: 52.6
+    brightMagenta: 44.6
+    brightCyan: 54.9
+    brightWhite: 82.9

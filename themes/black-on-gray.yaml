@@ -1,0 +1,49 @@
+name: "Black on Gray"
+source:
+  marketplace_id: "KramLololo.black-on-gray"
+  version: "1.0.3"
+  installs: 429
+  author: "Kram Lololo"
+  repo: "https://github.com/KramLololo/theme-black-on-gray"
+  url: "https://marketplace.visualstudio.com/items?itemName=KramLololo.black-on-gray"
+colors:
+  bg: "#949494"
+  fg: "#0F0F0F"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#81841C"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 46.4
+    black: 46.9
+    red: 14.9
+    green: 7.3
+    yellow: 8.1
+    blue: 26.9
+    magenta: 15.4
+    cyan: 0
+    white: 26.8
+    brightBlack: 19.6
+    brightRed: 14.9
+    brightGreen: 16
+    brightYellow: 15.9
+    brightBlue: 26.9
+    brightMagenta: 15.4
+    brightCyan: 0
+    brightWhite: 8.2

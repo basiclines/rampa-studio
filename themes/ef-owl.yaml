@@ -1,0 +1,49 @@
+name: "Ef Owl"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#292C2F"
+  fg: "#D0D0D0"
+  black: "#D0D0D0"
+  red: "#D67869"
+  green: "#70BB70"
+  yellow: "#C09F6F"
+  blue: "#80A4E0"
+  magenta: "#E5A0EA"
+  cyan: "#8FB8EA"
+  white: "#373B3D"
+  brightBlack: "#857F8F"
+  brightRed: "#DF885F"
+  brightGreen: "#98C06F"
+  brightYellow: "#D1A45F"
+  brightBlue: "#A0A0EF"
+  brightMagenta: "#D389AF"
+  brightCyan: "#99BFD0"
+  brightWhite: "#292C2F"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 73.9
+    black: 73.9
+    red: 39.8
+    green: 52.2
+    yellow: 48.9
+    blue: 48.3
+    magenta: 59.8
+    cyan: 58.1
+    white: 0
+    brightBlack: 31.3
+    brightRed: 45.9
+    brightGreen: 57.6
+    brightYellow: 53
+    brightBlue: 50.7
+    brightMagenta: 46.5
+    brightCyan: 60.6
+    brightWhite: 0

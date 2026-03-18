@@ -1,0 +1,49 @@
+name: "CLU Tron Legacy"
+source:
+  marketplace_id: "rubenzn.encom-tron-legacy"
+  version: "1.0.0"
+  installs: 60
+  author: "rubenzn"
+  repo: "https://github.com/ruben-cxtx/best-tron-legacy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rubenzn.encom-tron-legacy"
+colors:
+  bg: "#0A0703"
+  fg: "#FFDB9E"
+  black: "#1A120A"
+  red: "#FF6600"
+  green: "#FF8C1A"
+  yellow: "#FFCC00"
+  blue: "#FF9500"
+  magenta: "#CC5500"
+  cyan: "#804000"
+  white: "#FFDB9E"
+  brightBlack: "#1A120A"
+  brightRed: "#FF7A1A"
+  brightGreen: "#FF8C1A"
+  brightYellow: "#FFE08A"
+  brightBlue: "#FF9500"
+  brightMagenta: "#CC5500"
+  brightCyan: "#804000"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 82
+  contrast:
+    fg: 87.8
+    black: 0
+    red: 46.9
+    green: 56.6
+    yellow: 79.5
+    blue: 59.4
+    magenta: 32.6
+    cyan: 15.1
+    white: 87.8
+    brightBlack: 0
+    brightRed: 51.7
+    brightGreen: 56.6
+    brightYellow: 89.4
+    brightBlue: 59.4
+    brightMagenta: 32.6
+    brightCyan: 15.1
+    brightWhite: 107.8

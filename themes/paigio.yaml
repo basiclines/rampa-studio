@@ -1,0 +1,49 @@
+name: "Paigio"
+source:
+  marketplace_id: "plewg.toybox"
+  version: "0.0.1"
+  installs: 79
+  author: "plewg"
+  repo: "https://github.com/plewg/toybox"
+  url: "https://marketplace.visualstudio.com/items?itemName=plewg.toybox"
+colors:
+  bg: "#252525"
+  fg: "#F5F5F4"
+  black: "#333333"
+  red: "#FE9BE2"
+  green: "#86B42B"
+  yellow: "#FACC15"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#FE9BE2"
+  brightGreen: "#5BEF96"
+  brightYellow: "#E3D97E"
+  brightBlue: "#818CF8"
+  brightMagenta: "#AD8CFE"
+  brightCyan: "#5EDFFF"
+  brightWhite: "#F5F5F4"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 98.3
+    black: 0
+    red: 63.4
+    green: 51.1
+    yellow: 75.9
+    blue: 32.7
+    magenta: 30.3
+    cyan: 48.5
+    white: 86.6
+    brightBlack: 20.1
+    brightRed: 63.4
+    brightGreen: 78.3
+    brightYellow: 79.1
+    brightBlue: 42.6
+    brightMagenta: 47.7
+    brightCyan: 74.9
+    brightWhite: 98.3

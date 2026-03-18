@@ -1,0 +1,49 @@
+name: "VibeColors Minimal Light"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+colors:
+  bg: "#FAFAFA"
+  fg: "#333333"
+  black: "#666666"
+  red: "#CC0000"
+  green: "#009900"
+  yellow: "#FF9900"
+  blue: "#0066CC"
+  magenta: "#9900CC"
+  cyan: "#0099CC"
+  white: "#333333"
+  brightBlack: "#666666"
+  brightRed: "#CC0000"
+  brightGreen: "#009900"
+  brightYellow: "#FF9900"
+  brightBlue: "#0066CC"
+  brightMagenta: "#9900CC"
+  brightCyan: "#0099CC"
+  brightWhite: "#333333"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 95.7
+    black: 75.8
+    red: 73.5
+    green: 61.5
+    yellow: 38.5
+    blue: 74
+    magenta: 76.8
+    cyan: 56.3
+    white: 95.7
+    brightBlack: 75.8
+    brightRed: 73.5
+    brightGreen: 61.5
+    brightYellow: 38.5
+    brightBlue: 74
+    brightMagenta: 76.8
+    brightCyan: 56.3
+    brightWhite: 95.7

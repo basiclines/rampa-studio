@@ -1,0 +1,49 @@
+name: "Flatland Monokai Improved - No Cursor Highlight"
+source:
+  marketplace_id: "meirbon.flatland-monokai-improved"
+  version: "0.1.5"
+  installs: 5699
+  author: "Mèir Noordermeer"
+  repo: "https://github.com/MeirBon/flatland-monokai-improved"
+  url: "https://marketplace.visualstudio.com/items?itemName=meirbon.flatland-monokai-improved"
+colors:
+  bg: "#26292C"
+  fg: "#F8F8F2"
+  black: "#1F1F1F"
+  red: "#DD454D"
+  green: "#82DD4D"
+  yellow: "#F7C054"
+  blue: "#36A3D9"
+  magenta: "#E79AFF"
+  cyan: "#9BFFFA"
+  white: "#E2E2E2"
+  brightBlack: "#4B4B4B"
+  brightRed: "#EC141F"
+  brightGreen: "#5EFF00"
+  brightYellow: "#FFD82B"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#56FFF7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 30.5
+    green: 69.3
+    yellow: 70.2
+    blue: 44.2
+    magenta: 60.1
+    cyan: 93.3
+    white: 85.6
+    brightBlack: 8.8
+    brightRed: 29.5
+    brightGreen: 84.5
+    brightYellow: 81.2
+    brightBlue: 32.1
+    brightMagenta: 54.9
+    brightCyan: 89.4
+    brightWhite: 104.3

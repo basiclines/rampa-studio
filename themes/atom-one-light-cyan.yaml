@@ -1,0 +1,49 @@
+name: "Atom One Light Cyan"
+source:
+  marketplace_id: "kq996.atom-one-cyan"
+  version: "1.2.0"
+  installs: 300
+  author: "kq996"
+  repo: "https://github.com/keqing996/vscode-atom-one-cyan"
+  url: "https://marketplace.visualstudio.com/items?itemName=kq996.atom-one-cyan"
+colors:
+  bg: "#F2F3F7"
+  fg: "#383A42"
+  black: "#002B36"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#F2F3F7"
+  brightBlack: "#073642"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#F6F8FB"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 89.1
+    black: 94.5
+    red: 63.4
+    green: 51.9
+    yellow: 51.9
+    blue: 56.8
+    magenta: 63.2
+    cyan: 51.2
+    white: 0
+    brightBlack: 91.9
+    brightRed: 63.9
+    brightGreen: 69.7
+    brightYellow: 63.8
+    brightBlue: 51.6
+    brightMagenta: 63.1
+    brightCyan: 44.9
+    brightWhite: 0

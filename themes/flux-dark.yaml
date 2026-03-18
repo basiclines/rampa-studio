@@ -1,0 +1,49 @@
+name: "Flux Dark"
+source:
+  marketplace_id: "6233c1c4-89f3-48cf-8c88-156b07876860.flux-dark-theme"
+  version: "1.0.0"
+  installs: 38
+  author: "YasserElgammal"
+  repo: "https://github.com/YasserElgammal/flux-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=6233c1c4-89f3-48cf-8c88-156b07876860.flux-dark-theme"
+colors:
+  bg: "#232424"
+  fg: "#E4E4E4"
+  black: "#111111"
+  red: "#D86A6A"
+  green: "#7BB8A2"
+  yellow: "#E2B565"
+  blue: "#9EB3C2"
+  magenta: "#B7C0E8"
+  cyan: "#9ED4D0"
+  white: "#E4E4E4"
+  brightBlack: "#535353"
+  brightRed: "#E08080"
+  brightGreen: "#A7D6C1"
+  brightYellow: "#ECC780"
+  brightBlue: "#C4D7E3"
+  brightMagenta: "#C8D0F0"
+  brightCyan: "#B8E5E2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 38.1
+    green: 54.6
+    yellow: 63.6
+    blue: 56.8
+    magenta: 66.8
+    cyan: 71.7
+    white: 87.7
+    brightBlack: 12.6
+    brightRed: 45.9
+    brightGreen: 72.8
+    brightYellow: 72.9
+    brightBlue: 77.8
+    brightMagenta: 75.9
+    brightCyan: 82.9
+    brightWhite: 105.2

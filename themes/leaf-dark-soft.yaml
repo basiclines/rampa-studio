@@ -1,0 +1,49 @@
+name: "Leaf Dark Soft"
+source:
+  marketplace_id: "leafphp.leaf-theme"
+  version: "0.1.1"
+  installs: 2642
+  author: "Leaf PHP"
+  repo: "https://github.com/mychidarko/vscode-theme-leaf"
+  url: "https://marketplace.visualstudio.com/items?itemName=leafphp.leaf-theme"
+colors:
+  bg: "#002F3B"
+  fg: "#DBD7CA"
+  black: "#393A34"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 220
+  contrast:
+    fg: 78.1
+    black: 0
+    red: 37.6
+    green: 33.5
+    yellow: 72.4
+    blue: 38.2
+    magenta: 40.7
+    cyan: 46.1
+    white: 78.1
+    brightBlack: 26.4
+    brightRed: 37.6
+    brightGreen: 33.5
+    brightYellow: 72.4
+    brightBlue: 38.2
+    brightMagenta: 40.7
+    brightCyan: 46.1
+    brightWhite: 103.7

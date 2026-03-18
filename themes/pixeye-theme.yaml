@@ -1,0 +1,49 @@
+name: "pixeye-theme"
+source:
+  marketplace_id: "Pixeye.pixeye-theme"
+  version: "0.1.2"
+  installs: 40
+  author: "Pixeye"
+  repo: "https://github.com/PixeyeHQ/pixeye-theme-vs"
+  url: "https://marketplace.visualstudio.com/items?itemName=Pixeye.pixeye-theme"
+colors:
+  bg: "#FAFAFA"
+  fg: "#766E6B"
+  black: "#FAFAFA"
+  red: "#766E6B"
+  green: "#766E6B"
+  yellow: "#766E6B"
+  blue: "#766E6B"
+  magenta: "#766E6B"
+  cyan: "#766E6B"
+  white: "#FAFAFA"
+  brightBlack: "#766E6B"
+  brightRed: "#766E6B"
+  brightGreen: "#766E6B"
+  brightYellow: "#766E6B"
+  brightBlue: "#766E6B"
+  brightMagenta: "#766E6B"
+  brightCyan: "#766E6B"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 71.5
+    black: 0
+    red: 71.5
+    green: 71.5
+    yellow: 71.5
+    blue: 71.5
+    magenta: 71.5
+    cyan: 71.5
+    white: 0
+    brightBlack: 71.5
+    brightRed: 71.5
+    brightGreen: 71.5
+    brightYellow: 71.5
+    brightBlue: 71.5
+    brightMagenta: 71.5
+    brightCyan: 71.5
+    brightWhite: 0

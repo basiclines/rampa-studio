@@ -1,0 +1,49 @@
+name: "Swablu"
+source:
+  marketplace_id: "zaneadix.Swablu"
+  version: "0.0.5"
+  installs: 943
+  author: "Zane Adickes"
+  repo: "https://github.com/zaneadix/swablu-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zaneadix.Swablu"
+colors:
+  bg: "#EBECF0"
+  fg: "#172B4D"
+  black: "#242728"
+  red: "#EBE055"
+  green: "#D3C858"
+  yellow: "#F6FA2A"
+  blue: "#878487"
+  magenta: "#878584"
+  cyan: "#757372"
+  white: "#D0D0CA"
+  brightBlack: "#636667"
+  brightRed: "#FFF69F"
+  brightGreen: "#FFF28F"
+  brightYellow: "#FEEE7F"
+  brightBlue: "#A2A5A6"
+  brightMagenta: "#AAAAAD"
+  brightCyan: "#B2B2B5"
+  brightWhite: "#E1E2DE"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 89.4
+    black: 90.7
+    red: 0
+    green: 19.9
+    yellow: 0
+    blue: 53.4
+    magenta: 53.1
+    cyan: 61.6
+    white: 14
+    brightBlack: 67.8
+    brightRed: 0
+    brightGreen: 0
+    brightYellow: 0
+    brightBlue: 37.5
+    brightMagenta: 34.5
+    brightCyan: 30.2
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "OhLED_PaleTurquoise"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#AFEEEE"
+  black: "#AFEEEE"
+  red: "#80AFAF"
+  green: "#8CBEBE"
+  yellow: "#698F8F"
+  blue: "#A3DEDE"
+  magenta: "#98CECE"
+  cyan: "#759F9F"
+  white: "#5D7F7F"
+  brightBlack: "#AFEEEE"
+  brightRed: "#80AFAF"
+  brightGreen: "#8CBEBE"
+  brightYellow: "#698F8F"
+  brightBlue: "#A3DEDE"
+  brightMagenta: "#98CECE"
+  brightCyan: "#759F9F"
+  brightWhite: "#5D7F7F"
+meta:
+  mode: "dark"
+  accent: "cyan"
+  hue: null
+  contrast:
+    fg: 89.5
+    black: 89.5
+    red: 54.4
+    green: 62.3
+    yellow: 38.7
+    blue: 80.1
+    magenta: 71.1
+    cyan: 46.4
+    white: 31.4
+    brightBlack: 89.5
+    brightRed: 54.4
+    brightGreen: 62.3
+    brightYellow: 38.7
+    brightBlue: 80.1
+    brightMagenta: 71.1
+    brightCyan: 46.4
+    brightWhite: 31.4

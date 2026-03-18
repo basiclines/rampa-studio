@@ -1,0 +1,49 @@
+name: "Cooland"
+source:
+  marketplace_id: "samuelbran.cooland"
+  version: "0.0.2"
+  installs: 1494
+  author: "Samuel Bran"
+  repo: "https://github.com/samuelbran/Cooland"
+  url: "https://marketplace.visualstudio.com/items?itemName=samuelbran.cooland"
+colors:
+  bg: "#212121"
+  fg: "#E0E2F0"
+  black: "#2D2D2D"
+  red: "#FF7733"
+  green: "#C2D94C"
+  yellow: "#E1B072"
+  blue: "#50B4E6"
+  magenta: "#CA30C7"
+  cyan: "#95E6CB"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#CBE645"
+  brightYellow: "#FFEE99"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#A6FDE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 48.8
+    green: 74.6
+    yellow: 62.2
+    blue: 54.1
+    magenta: 30.2
+    cyan: 79.6
+    white: 70.4
+    brightBlack: 21.6
+    brightRed: 45.3
+    brightGreen: 81.7
+    brightYellow: 93.9
+    brightBlue: 33.4
+    brightMagenta: 56.2
+    brightCyan: 93.3
+    brightWhite: 105.6

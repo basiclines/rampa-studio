@@ -1,0 +1,49 @@
+name: "Lightning"
+source:
+  marketplace_id: "zevross.lightning"
+  version: "2.1.1"
+  installs: 889
+  author: "Zev Ross"
+  repo: "https://github.com/Zev18/lightning"
+  url: "https://marketplace.visualstudio.com/items?itemName=zevross.lightning"
+colors:
+  bg: "#0E0C29"
+  fg: "#76C6FF"
+  black: "#000000"
+  red: "#CF3E5B"
+  green: "#44EABD"
+  yellow: "#F5C86E"
+  blue: "#2681F9"
+  magenta: "#9172FF"
+  cyan: "#3EC5FF"
+  white: "#C4C6CB"
+  brightBlack: "#333333"
+  brightRed: "#FF477E"
+  brightGreen: "#66FFDE"
+  brightYellow: "#F07178"
+  brightBlue: "#44B1FF"
+  brightMagenta: "#B76DFF"
+  brightCyan: "#21FBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 282
+  contrast:
+    fg: 67.1
+    black: 0
+    red: 29.8
+    green: 78.6
+    yellow: 76.6
+    blue: 36.6
+    magenta: 39.3
+    cyan: 64.2
+    white: 71.6
+    brightBlack: 0
+    brightRed: 42.7
+    brightGreen: 91.9
+    brightYellow: 47.1
+    brightBlue: 55.8
+    brightMagenta: 42.9
+    brightCyan: 89.7
+    brightWhite: 107.4

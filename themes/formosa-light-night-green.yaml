@@ -1,0 +1,49 @@
+name: "Formosa Light - Night Green"
+source:
+  marketplace_id: "TakeshiYu.formosa-theme"
+  version: "1.0.0"
+  installs: 46
+  author: "Takeshi Yu"
+  repo: "https://github.com/takeshiyu/formosa-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TakeshiYu.formosa-theme"
+colors:
+  bg: "#FAFAF8"
+  fg: "#1A1D23"
+  black: "#1A1D23"
+  red: "#B84A5A"
+  green: "#3D7A5A"
+  yellow: "#C49A3A"
+  blue: "#2A7A8A"
+  magenta: "#8A5A7A"
+  cyan: "#3A6A50"
+  white: "#E8E8E6"
+  brightBlack: "#5A5D63"
+  brightRed: "#CF6679"
+  brightGreen: "#5A9A6A"
+  brightYellow: "#D4AA4A"
+  brightBlue: "#4A9AAA"
+  brightMagenta: "#AA7A9A"
+  brightCyan: "#4A7A5A"
+  brightWhite: "#F7F7F5"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 100.7
+    black: 100.7
+    red: 71.1
+    green: 71.9
+    yellow: 47.8
+    blue: 70.9
+    magenta: 74.2
+    cyan: 78
+    white: 8.1
+    brightBlack: 79.6
+    brightRed: 60.1
+    brightGreen: 57.8
+    brightYellow: 39.6
+    brightBlue: 56.3
+    brightMagenta: 59.7
+    brightCyan: 71.2
+    brightWhite: 0

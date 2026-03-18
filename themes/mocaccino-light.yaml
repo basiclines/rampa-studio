@@ -1,0 +1,49 @@
+name: "Mocaccino Light"
+source:
+  marketplace_id: "unbotheredbill.mocaccino-light"
+  version: "1.0.2"
+  installs: 53
+  author: "unbotheredbill"
+  repo: "https://github.com/unbotheredbill/mocaccino-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=unbotheredbill.mocaccino-light"
+colors:
+  bg: "#FAF4E8"
+  fg: "#6B5344"
+  black: "#6B5344"
+  red: "#B86B5C"
+  green: "#7A9A5A"
+  yellow: "#B89A4A"
+  blue: "#5A8AAA"
+  magenta: "#9A7ABB"
+  cyan: "#6A9A9A"
+  white: "#FAF4E8"
+  brightBlack: "#9A8878"
+  brightRed: "#CC8878"
+  brightGreen: "#99B87A"
+  brightYellow: "#CCAA5A"
+  brightBlue: "#7AAACC"
+  brightMagenta: "#BB99CC"
+  brightCyan: "#8ABBBB"
+  brightWhite: "#FFFDF8"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 78.4
+    black: 78.4
+    red: 60.5
+    green: 52.7
+    yellow: 46.1
+    blue: 58.4
+    magenta: 57
+    cyan: 52
+    white: 0
+    brightBlack: 55.3
+    brightRed: 48.2
+    brightGreen: 37.2
+    brightYellow: 37.3
+    brightBlue: 42.5
+    brightMagenta: 42
+    brightCyan: 35.2
+    brightWhite: 0

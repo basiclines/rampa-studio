@@ -1,0 +1,49 @@
+name: "Takenawa"
+source:
+  marketplace_id: "EmanuelleTakenawa.takenawa-theme"
+  version: "0.1.8"
+  installs: 1042
+  author: "Emanuelle Takenawa"
+  repo: "https://github.com/emanuelletakenawa/takenawa-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmanuelleTakenawa.takenawa-theme"
+colors:
+  bg: "#0F131A"
+  fg: "#FFE4E4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FF7777"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#CFAFAF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 262
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 27.1
+    green: 53.4
+    yellow: 86
+    blue: 27.8
+    magenta: 30.1
+    cyan: 47.9
+    white: 51.5
+    brightBlack: 22.4
+    brightRed: 38.9
+    brightGreen: 63.9
+    brightYellow: 96
+    brightBlue: 40.4
+    brightMagenta: 45.7
+    brightCyan: 55.8
+    brightWhite: 62.5

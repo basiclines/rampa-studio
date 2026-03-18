@@ -1,0 +1,49 @@
+name: "Kanagawa Wave"
+source:
+  marketplace_id: "Icycoldveins.verum-monokai-themes"
+  version: "1.2.1"
+  installs: 46
+  author: "Icycoldveins"
+  repo: "https://github.com/icycoldveins/Ide-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Icycoldveins.verum-monokai-themes"
+colors:
+  bg: "#2D2A2E"
+  fg: "#C5B18D"
+  black: "#1C2841"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E78A4E"
+  blue: "#5B6B7A"
+  magenta: "#FF6B6B"
+  cyan: "#89B482"
+  white: "#F5E6D3"
+  brightBlack: "#2B3A57"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E78A4E"
+  brightBlue: "#5B6B7A"
+  brightMagenta: "#FF6B6B"
+  brightCyan: "#89B482"
+  brightWhite: "#F5E6D3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 57.4
+    black: 0
+    red: 39.1
+    green: 59.3
+    yellow: 47.8
+    blue: 20.3
+    magenta: 45.1
+    cyan: 51.6
+    white: 88.9
+    brightBlack: 0
+    brightRed: 39.1
+    brightGreen: 59.3
+    brightYellow: 47.8
+    brightBlue: 20.3
+    brightMagenta: 45.1
+    brightCyan: 51.6
+    brightWhite: 88.9

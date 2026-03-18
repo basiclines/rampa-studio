@@ -1,0 +1,49 @@
+name: "Noir Poimandres Black"
+source:
+  marketplace_id: "andrewberty.noir-theme-bundle"
+  version: "1.7.0"
+  installs: 13968
+  author: "andrewberty"
+  repo: "https://github.com/andrew-george/Noir-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=andrewberty.noir-theme-bundle"
+colors:
+  bg: "#000000"
+  fg: "#A6ACCD"
+  black: "#000000"
+  red: "#D0679D"
+  green: "#5DE4C7"
+  yellow: "#FFFAC2"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#A6ACCD"
+  brightRed: "#D0679D"
+  brightGreen: "#5DE4C7"
+  brightYellow: "#FFFAC2"
+  brightBlue: "#ADD7FF"
+  brightMagenta: "#F087BD"
+  brightCyan: "#ADD7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 58.1
+    black: 0
+    red: 40.2
+    green: 77.4
+    yellow: 103
+    blue: 79.3
+    magenta: 55.9
+    cyan: 79.3
+    white: 107.9
+    brightBlack: 58.1
+    brightRed: 40.2
+    brightGreen: 77.4
+    brightYellow: 103
+    brightBlue: 79.6
+    brightMagenta: 55.9
+    brightCyan: 79.6
+    brightWhite: 107.9

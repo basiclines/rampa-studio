@@ -1,0 +1,49 @@
+name: "Axis Ultra Dark"
+source:
+  marketplace_id: "utreras.axis-ultra-dark"
+  version: "3.0.0"
+  installs: 112
+  author: "Ignacio Utreras Urrutia"
+  repo: "https://github.com/utreras/axis-ultra-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=utreras.axis-ultra-dark"
+colors:
+  bg: "#0C0D0D"
+  fg: "#E1E1E1"
+  black: "#000000"
+  red: "#F14251"
+  green: "#9DD194"
+  yellow: "#FFD666"
+  blue: "#77AAFF"
+  magenta: "#D4A5D4"
+  cyan: "#66C2C2"
+  white: "#E1E1E1"
+  brightBlack: "#6B7089"
+  brightRed: "#F14251"
+  brightGreen: "#9DD194"
+  brightYellow: "#FFD666"
+  brightBlue: "#77AAFF"
+  brightMagenta: "#D4A5D4"
+  brightCyan: "#66C2C2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.3
+    black: 0
+    red: 38
+    green: 70.5
+    yellow: 84.2
+    blue: 55.8
+    magenta: 61.6
+    cyan: 61.4
+    white: 88.3
+    brightBlack: 27.6
+    brightRed: 38
+    brightGreen: 70.5
+    brightYellow: 84.2
+    brightBlue: 55.8
+    brightMagenta: 61.6
+    brightCyan: 61.4
+    brightWhite: 107.6

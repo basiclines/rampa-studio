@@ -1,0 +1,49 @@
+name: "Transylvania"
+source:
+  marketplace_id: "matheusps.transylvania"
+  version: "1.5.2"
+  installs: 3645
+  author: "matheusps"
+  repo: "https://github.com/matheusps/transylvania"
+  url: "https://marketplace.visualstudio.com/items?itemName=matheusps.transylvania"
+colors:
+  bg: "#22212C"
+  fg: "#F5F5F0"
+  black: "#22212C"
+  red: "#FA7F7F"
+  green: "#8AFD80"
+  yellow: "#FFFF81"
+  blue: "#B382D9"
+  magenta: "#FF82C3"
+  cyan: "#82FFEC"
+  white: "#F5F5F0"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#2CDA9D"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#F786AA"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 289
+  contrast:
+    fg: 98.6
+    black: 0
+    red: 51
+    green: 87.9
+    yellow: 101.3
+    blue: 43.4
+    magenta: 55.3
+    cyan: 92
+    white: 98.6
+    brightBlack: 26.6
+    brightRed: 47.4
+    brightGreen: 67.1
+    brightYellow: 102.1
+    brightBlue: 64.7
+    brightMagenta: 53.7
+    brightCyan: 95.3
+    brightWhite: 105.4

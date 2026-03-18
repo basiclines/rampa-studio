@@ -1,0 +1,49 @@
+name: "Tasmania Light"
+source:
+  marketplace_id: "lucidlabs.tasmania-theme"
+  version: "1.1.0"
+  installs: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.tasmania-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#0B1218"
+  black: "#0B1218"
+  red: "#E22339"
+  green: "#0A690D"
+  yellow: "#B38800"
+  blue: "#005A96"
+  magenta: "#5A3D80"
+  cyan: "#006A8F"
+  white: "#FFFFFF"
+  brightBlack: "#78797E"
+  brightRed: "#8A1220"
+  brightGreen: "#2E7A58"
+  brightYellow: "#FFCC2C"
+  brightBlue: "#004678"
+  brightMagenta: "#3D2860"
+  brightCyan: "#5B9BD5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 105.3
+    black: 105.3
+    red: 70.2
+    green: 83.3
+    yellow: 59.7
+    blue: 84.5
+    magenta: 89.6
+    cyan: 79.8
+    white: 0
+    brightBlack: 70.1
+    brightRed: 90.5
+    brightGreen: 75.5
+    brightYellow: 23.5
+    brightBlue: 92.1
+    brightMagenta: 98.3
+    brightCyan: 56
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "DeepWave"
+source:
+  marketplace_id: "NelsonDJCR.deepwave"
+  version: "0.0.1"
+  installs: 10
+  author: "NelsonDJCR"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=NelsonDJCR.deepwave"
+colors:
+  bg: "#0D0F15"
+  fg: "#AFB07E"
+  black: "#453D3D"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#EEEEEE"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 271
+  contrast:
+    fg: 57.4
+    black: 7.7
+    red: 27.3
+    green: 53.6
+    yellow: 86.2
+    blue: 28
+    magenta: 30.4
+    cyan: 48.2
+    white: 96.4
+    brightBlack: 22.7
+    brightRed: 39.2
+    brightGreen: 64.2
+    brightYellow: 96.3
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 90.6

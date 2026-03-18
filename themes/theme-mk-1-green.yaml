@@ -1,0 +1,49 @@
+name: "theme-mk 1 green"
+source:
+  marketplace_id: "dev-mk02.theme-mk"
+  version: "0.6.0"
+  installs: 36
+  author: "mk-02"
+  repo: "https://github.com/leeminki02/theme-mk"
+  url: "https://marketplace.visualstudio.com/items?itemName=dev-mk02.theme-mk"
+colors:
+  bg: "#1A1B1E"
+  fg: "#CDCECE"
+  black: "#1E232B"
+  red: "#EA6C73"
+  green: "#7FD962"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#CDA1FA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#AAD94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#D2A6FF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 75.3
+    black: 0
+    red: 43.6
+    green: 69.6
+    yellow: 66.1
+    blue: 60.1
+    magenta: 60.2
+    cyan: 77.4
+    white: 71.2
+    brightBlack: 22.4
+    brightRed: 46.1
+    brightGreen: 72.9
+    brightYellow: 69.1
+    brightBlue: 62.9
+    brightMagenta: 62.9
+    brightCyan: 80.4
+    brightWhite: 106.4

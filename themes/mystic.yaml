@@ -1,0 +1,49 @@
+name: "Mystic"
+source:
+  marketplace_id: "securisec.hapsida-securisec"
+  version: "0.0.30"
+  installs: 226
+  author: "securisec"
+  repo: "https://github.com/securisec/code-hapsida"
+  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+colors:
+  bg: "#1A1A1A"
+  fg: "#C2C2C2"
+  black: "#000000"
+  red: "#6A595A"
+  green: "#9EC49F"
+  yellow: "#CEB188"
+  blue: "#9EC3C4"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#CEB188"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#193549"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 68.4
+    black: 0
+    red: 18
+    green: 64
+    yellow: 61.2
+    blue: 65
+    magenta: 64
+    cyan: 92.4
+    white: 106.5
+    brightBlack: 14.3
+    brightRed: 46.8
+    brightGreen: 65.9
+    brightYellow: 61.2
+    brightBlue: 38.4
+    brightMagenta: 64
+    brightCyan: 92.4
+    brightWhite: 0

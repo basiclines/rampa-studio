@@ -1,0 +1,49 @@
+name: "OhLED_PaleGoldenRod"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#EEE8AA"
+  black: "#EEE8AA"
+  red: "#AFAA7D"
+  green: "#BEBA88"
+  yellow: "#8F8B66"
+  blue: "#DED99F"
+  magenta: "#CEC993"
+  cyan: "#9F9B71"
+  white: "#7F7C5B"
+  brightBlack: "#EEE8AA"
+  brightRed: "#AFAA7D"
+  brightGreen: "#BEBA88"
+  brightYellow: "#8F8B66"
+  brightBlue: "#DED99F"
+  brightMagenta: "#CEC993"
+  brightCyan: "#9F9B71"
+  brightWhite: "#7F7C5B"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 91.4
+    black: 91.4
+    red: 55.4
+    green: 64
+    yellow: 39.4
+    blue: 82.1
+    magenta: 72.6
+    cyan: 47.4
+    white: 32.3
+    brightBlack: 91.4
+    brightRed: 55.4
+    brightGreen: 64
+    brightYellow: 39.4
+    brightBlue: 82.1
+    brightMagenta: 72.6
+    brightCyan: 47.4
+    brightWhite: 32.3

@@ -1,0 +1,49 @@
+name: "Dark Lime Flat"
+source:
+  marketplace_id: "Ayrz.vscode-theme-ayrz-arcticfox"
+  version: "1.0.2"
+  installs: 212
+  author: "Ayrz"
+  repo: "https://github.com/ayrzDev/ArcticFox-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ayrz.vscode-theme-ayrz-arcticfox"
+colors:
+  bg: "#202226"
+  fg: "#E1E4E8"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#98C379"
+  yellow: "#F69D50"
+  blue: "#4AA5F0"
+  magenta: "#C792EA"
+  cyan: "#82AAFF"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 87.8
+    black: 7.4
+    red: 35.3
+    green: 60.9
+    yellow: 58.3
+    blue: 48.3
+    magenta: 52.4
+    cyan: 54.5
+    white: 89.2
+    brightBlack: 14.1
+    brightRed: 44.7
+    brightGreen: 75.4
+    brightYellow: 59.8
+    brightBlue: 62.3
+    brightMagenta: 48.9
+    brightCyan: 66.4
+    brightWhite: 81.6

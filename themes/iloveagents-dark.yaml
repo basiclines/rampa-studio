@@ -1,0 +1,49 @@
+name: "iLoveAgents Dark"
+source:
+  marketplace_id: "iLoveAgents.iloveagents-ai-foundry-theme"
+  version: "0.5.3"
+  installs: 160
+  author: "iLoveAgents"
+  repo: "https://github.com/iLoveAgents/vscode-iloveagents-foundry-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=iLoveAgents.iloveagents-ai-foundry-theme"
+colors:
+  bg: "#14161A"
+  fg: "#E5E7EB"
+  black: "#1F2428"
+  red: "#F87171"
+  green: "#14B8A6"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#A78BFA"
+  cyan: "#22D3EE"
+  white: "#E5E7EB"
+  brightBlack: "#374151"
+  brightRed: "#FCA5A5"
+  brightGreen: "#2DD4BF"
+  brightYellow: "#FCD34D"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#C4B5FD"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F3F4F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 91.3
+    black: 0
+    red: 48.2
+    green: 52.8
+    yellow: 72.8
+    blue: 51.5
+    magenta: 48.4
+    cyan: 68.7
+    white: 91.3
+    brightBlack: 7.7
+    brightRed: 65.6
+    brightGreen: 67
+    brightYellow: 81.5
+    brightBlue: 68.3
+    brightMagenta: 67
+    brightCyan: 81.3
+    brightWhite: 99.7

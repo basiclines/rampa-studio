@@ -1,0 +1,49 @@
+name: "WL-Nova Burst"
+source:
+  marketplace_id: "WatkinsLabs.nova-burst"
+  version: "1.0.1"
+  installs: 14
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.nova-burst"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0033"
+  green: "#00FF00"
+  yellow: "#FFD700"
+  blue: "#FF9000"
+  magenta: "#FFC600"
+  cyan: "#FF9000"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0033"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFD700"
+  brightBlue: "#FF9000"
+  brightMagenta: "#FFC600"
+  brightCyan: "#FF9000"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.7
+    green: 86.5
+    yellow: 84.3
+    blue: 57.9
+    magenta: 77.1
+    cyan: 57.9
+    white: 107.9
+    brightBlack: 23
+    brightRed: 37.7
+    brightGreen: 86.5
+    brightYellow: 84.3
+    brightBlue: 57.9
+    brightMagenta: 77.1
+    brightCyan: 57.9
+    brightWhite: 107.9

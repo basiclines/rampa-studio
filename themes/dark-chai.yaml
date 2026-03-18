@@ -1,0 +1,49 @@
+name: "Dark Chai"
+source:
+  marketplace_id: "hiteshchoudharycode.chai-theme"
+  version: "0.2.0"
+  installs: 167423
+  author: "hitesh choudhary"
+  repo: "https://github.com/hiteshchoudhary/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=hiteshchoudharycode.chai-theme"
+colors:
+  bg: "#010107"
+  fg: "#BECFDA"
+  black: "#28353E"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#AEC3D0"
+  brightBlack: "#475E6C"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#BECFDA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  contrast:
+    fg: 75.9
+    black: 0
+    red: 41.5
+    green: 78
+    yellow: 68
+    blue: 53
+    magenta: 46.6
+    cyan: 71.5
+    white: 68.5
+    brightBlack: 18.5
+    brightRed: 46.8
+    brightGreen: 80.2
+    brightYellow: 54.9
+    brightBlue: 58.3
+    brightMagenta: 59
+    brightCyan: 74.9
+    brightWhite: 75.9

@@ -1,0 +1,49 @@
+name: "2am"
+source:
+  marketplace_id: "33p.2am"
+  version: "0.3.2"
+  installs: 1139
+  author: "33p"
+  repo: "https://github.com/33p/2am"
+  url: "https://marketplace.visualstudio.com/items?itemName=33p.2am"
+colors:
+  bg: "#1E1E1E"
+  fg: "#E0E0E0"
+  black: "#4D4D4D"
+  red: "#CC3300"
+  green: "#A6E22E"
+  yellow: "#FF7700"
+  blue: "#008FCE"
+  magenta: "#FF0099"
+  cyan: "#44EECC"
+  white: "#A0A0A0"
+  brightBlack: "#6C6C6C"
+  brightRed: "#FF3300"
+  brightGreen: "#CCFF44"
+  brightYellow: "#FFCC00"
+  brightBlue: "#00BFDF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#44FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 86
+    black: 11.2
+    red: 25.7
+    green: 76.2
+    yellow: 49.1
+    blue: 36.8
+    magenta: 38.3
+    cyan: 79.9
+    white: 49
+    brightBlack: 23.8
+    brightRed: 37.6
+    brightGreen: 94.6
+    brightYellow: 77.8
+    brightBlue: 57.6
+    brightMagenta: 44.4
+    brightCyan: 91
+    brightWhite: 106

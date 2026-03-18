@@ -1,0 +1,49 @@
+name: "Sinequanone Acid"
+source:
+  marketplace_id: "EmmettHintz.sinequanone"
+  version: "0.12.0"
+  installs: 48
+  author: "Emmett Hintz"
+  repo: "https://github.com/Sinequanone-Themes/vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmmettHintz.sinequanone"
+colors:
+  bg: "#232136"
+  fg: "#E7D2C5"
+  black: "#393552"
+  red: "#8ABE32"
+  green: "#F745B3"
+  yellow: "#9D74FF"
+  blue: "#F59DD3"
+  magenta: "#B79DF5"
+  cyan: "#C5ED2D"
+  white: "#E7D2C5"
+  brightBlack: "#908CAA"
+  brightRed: "#8ABE32"
+  brightGreen: "#F745B3"
+  brightYellow: "#9D74FF"
+  brightBlue: "#F59DD3"
+  brightMagenta: "#B79DF5"
+  brightCyan: "#C5ED2D"
+  brightWhite: "#E7D2C5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 288
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 56.1
+    green: 40.5
+    yellow: 39.1
+    blue: 61.9
+    magenta: 54.3
+    cyan: 83.8
+    white: 78.9
+    brightBlack: 39.6
+    brightRed: 56.1
+    brightGreen: 40.5
+    brightYellow: 39.1
+    brightBlue: 61.9
+    brightMagenta: 54.3
+    brightCyan: 83.8
+    brightWhite: 78.9

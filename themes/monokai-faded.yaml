@@ -1,0 +1,49 @@
+name: "monokai-faded"
+source:
+  marketplace_id: "dionmunk.theme-monokai-faded"
+  version: "1.0.4"
+  installs: 1829
+  author: "Dion Munk"
+  repo: "https://github.com/dionmunk/vscode-theme-monokai-faded"
+  url: "https://marketplace.visualstudio.com/items?itemName=dionmunk.theme-monokai-faded"
+colors:
+  bg: "#202020"
+  fg: "#F8F8F8"
+  black: "#000000"
+  red: "#D13B2E"
+  green: "#B5D93F"
+  yellow: "#E0D77B"
+  blue: "#74C5D9"
+  magenta: "#7C71C8"
+  cyan: "#DF5077"
+  white: "#F8F8F8"
+  brightBlack: "#000000"
+  brightRed: "#D13B2E"
+  brightGreen: "#B5D93F"
+  brightYellow: "#E0D77B"
+  brightBlue: "#74C5D9"
+  brightMagenta: "#7C71C8"
+  brightCyan: "#DF5077"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 101.1
+    black: 0
+    red: 27.6
+    green: 73.2
+    yellow: 78.5
+    blue: 62.8
+    magenta: 31
+    cyan: 35.1
+    white: 101.1
+    brightBlack: 0
+    brightRed: 27.6
+    brightGreen: 73.2
+    brightYellow: 78.5
+    brightBlue: 62.8
+    brightMagenta: 31
+    brightCyan: 35.1
+    brightWhite: 101.1

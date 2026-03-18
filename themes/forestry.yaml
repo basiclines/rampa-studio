@@ -1,0 +1,49 @@
+name: "Forestry"
+source:
+  marketplace_id: "Gandolphius.gandolphius-forestry"
+  version: "0.0.1"
+  installs: 91
+  author: "Gandolphius"
+  repo: "https://github.com/gandolphius/forestry-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gandolphius.gandolphius-forestry"
+colors:
+  bg: "#243021"
+  fg: "#D1BC7F"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#DBDBDB"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 139
+  contrast:
+    fg: 62.7
+    black: 0
+    red: 23.3
+    green: 49.6
+    yellow: 82.2
+    blue: 24
+    magenta: 26.3
+    cyan: 44.1
+    white: 80.4
+    brightBlack: 18.6
+    brightRed: 35.1
+    brightGreen: 60.1
+    brightYellow: 92.2
+    brightBlue: 36.6
+    brightMagenta: 42
+    brightCyan: 52
+    brightWhite: 86.6

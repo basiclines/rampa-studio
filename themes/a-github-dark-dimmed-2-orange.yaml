@@ -1,0 +1,49 @@
+name: "A GitHub Dark Dimmed 2 🟠 Orange"
+source:
+  marketplace_id: "markmiro.colorful-github-vscode-theme"
+  version: "6.8.0"
+  installs: 889
+  author: "Mark Miro"
+  repo: "https://github.com/markmiro/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=markmiro.colorful-github-vscode-theme"
+colors:
+  bg: "#2D2519"
+  fg: "#C4B6A1"
+  black: "#655A48"
+  red: "#EF7756"
+  green: "#42AD6E"
+  yellow: "#BA962E"
+  blue: "#6E96F2"
+  magenta: "#BC80E2"
+  cyan: "#49C2D8"
+  white: "#A79983"
+  brightBlack: "#776B56"
+  brightRed: "#FB987E"
+  brightGreen: "#56C682"
+  brightYellow: "#CDB048"
+  brightBlue: "#81B1FE"
+  brightMagenta: "#E4BBF2"
+  brightCyan: "#62D1E6"
+  brightWhite: "#E2D6C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 78
+  contrast:
+    fg: 60.7
+    black: 15.5
+    red: 45
+    green: 44.8
+    yellow: 44.9
+    blue: 43.9
+    magenta: 44
+    cyan: 58.3
+    white: 45
+    brightBlack: 22.7
+    brightRed: 57.8
+    brightGreen: 57.3
+    brightYellow: 57.6
+    brightBlue: 56.4
+    brightMagenta: 70.8
+    brightCyan: 66.9
+    brightWhite: 79.3

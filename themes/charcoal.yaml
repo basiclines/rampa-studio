@@ -1,0 +1,49 @@
+name: "Charcoal"
+source:
+  marketplace_id: "tobiasalthoff.charcoal"
+  version: "1.0.4"
+  installs: 1134
+  author: "Tobias Althoff"
+  repo: "https://github.com/tobiasalthoff/vscode-charcoal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tobiasalthoff.charcoal"
+colors:
+  bg: "#262B30"
+  fg: "#BCD1E4"
+  black: "#000000"
+  red: "#EB0A42"
+  green: "#3AA655"
+  yellow: "#FBE870"
+  blue: "#4771E6"
+  magenta: "#F651A6"
+  cyan: "#76D6EA"
+  white: "#F8F9FA"
+  brightBlack: "#6C757D"
+  brightRed: "#FFADAD"
+  brightGreen: "#CAFFBF"
+  brightYellow: "#FDFFB6"
+  brightBlue: "#A0C4FF"
+  brightMagenta: "#FFC6FF"
+  brightCyan: "#9BF6FF"
+  brightWhite: "#FFFFFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  contrast:
+    fg: 73.1
+    black: 0
+    red: 29.1
+    green: 40.2
+    yellow: 88.1
+    blue: 27.6
+    magenta: 40.2
+    cyan: 69.7
+    white: 99.9
+    brightBlack: 25.2
+    brightRed: 66.2
+    brightGreen: 94.7
+    brightYellow: 100.8
+    brightBlue: 66.1
+    brightMagenta: 79.3
+    brightCyan: 88.7
+    brightWhite: 103.8

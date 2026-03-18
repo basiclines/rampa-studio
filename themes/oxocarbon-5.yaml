@@ -1,0 +1,49 @@
+name: "oxocarbon-5"
+source:
+  marketplace_id: "yrumad.oxocarbon-5"
+  version: "0.1.1"
+  installs: 1226
+  author: "yrumad"
+  repo: "https://github.com/DaKili/oxocarbon-5"
+  url: "https://marketplace.visualstudio.com/items?itemName=yrumad.oxocarbon-5"
+colors:
+  bg: "#FFFFFF"
+  fg: "#161616"
+  black: "#262626"
+  red: "#EE5396"
+  green: "#42BE65"
+  yellow: "#FDDC68"
+  blue: "#0F62FE"
+  magenta: "#BE95FF"
+  cyan: "#08BDBA"
+  white: "#F2F4F8"
+  brightBlack: "#525252"
+  brightRed: "#FF7EB6"
+  brightGreen: "#44E070"
+  brightYellow: "#FDE593"
+  brightBlue: "#33B1FF"
+  brightMagenta: "#FF7EB6"
+  brightCyan: "#3DDBD9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 104.8
+    black: 102
+    red: 59.7
+    green: 46.7
+    yellow: 16.9
+    blue: 73.6
+    magenta: 46.2
+    cyan: 45.4
+    white: 0
+    brightBlack: 87.2
+    brightRed: 46
+    brightGreen: 30.8
+    brightYellow: 12.3
+    brightBlue: 46.2
+    brightMagenta: 46
+    brightCyan: 30
+    brightWhite: 0

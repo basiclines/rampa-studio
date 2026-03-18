@@ -1,0 +1,49 @@
+name: "Owlet (Material)"
+source:
+  marketplace_id: "itsjonq.owlet"
+  version: "0.1.22"
+  installs: 10595
+  author: "itsjonq"
+  repo: "https://github.com/itsjonq/owlet"
+  url: "https://marketplace.visualstudio.com/items?itemName=itsjonq.owlet"
+colors:
+  bg: "#273237"
+  fg: "#D6DEEB"
+  black: "#273237"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#ECC48D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 227
+  contrast:
+    fg: 81
+    black: 0
+    red: 35.1
+    green: 63.1
+    yellow: 69.5
+    blue: 51.7
+    magenta: 49.6
+    cyan: 55.5
+    white: 102.7
+    brightBlack: 11.4
+    brightRed: 35.1
+    brightGreen: 63.1
+    brightYellow: 89.5
+    brightBlue: 51.7
+    brightMagenta: 49.6
+    brightCyan: 69.8
+    brightWhite: 102.7

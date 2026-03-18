@@ -1,0 +1,49 @@
+name: "Lunar Pink"
+source:
+  marketplace_id: "nicolasdschmidt.lunar-pink"
+  version: "1.4.0"
+  installs: 194247
+  author: "Nícolas D. Schmidt"
+  repo: "https://github.com/tronfy/lunar-pink"
+  url: "https://marketplace.visualstudio.com/items?itemName=nicolasdschmidt.lunar-pink"
+colors:
+  bg: "#131313"
+  fg: "#DDDDDD"
+  black: "#777777"
+  red: "#C50000"
+  green: "#23AD09"
+  yellow: "#F0B800"
+  blue: "#004AAA"
+  magenta: "#A7097A"
+  cyan: "#05A6A8"
+  white: "#DDDDDD"
+  brightBlack: "#AAAAAA"
+  brightRed: "#FF0000"
+  brightGreen: "#2AE609"
+  brightYellow: "#FFD900"
+  brightBlue: "#008CFF"
+  brightMagenta: "#E621AF"
+  brightCyan: "#09E4E6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 85.4
+    black: 29.9
+    red: 23
+    green: 45.4
+    yellow: 68.4
+    blue: 14
+    magenta: 18.8
+    cyan: 45.2
+    white: 85.4
+    brightBlack: 55.6
+    brightRed: 36.9
+    brightGreen: 72.9
+    brightYellow: 84.5
+    brightBlue: 40.5
+    brightMagenta: 35.3
+    brightCyan: 76.6
+    brightWhite: 107.2

@@ -1,0 +1,49 @@
+name: "FoxDracula-color-theme"
+source:
+  marketplace_id: "daniloBrayann.foxdracula"
+  version: "0.0.12"
+  installs: 149
+  author: "daniloBrayann"
+  repo: "https://github.com/danilobrayann/dev-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniloBrayann.foxdracula"
+colors:
+  bg: "#19191A"
+  fg: "#878784"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#46B1F2"
+  yellow: "#1EE6C2"
+  blue: "#00FF9E"
+  magenta: "#1FEA4F"
+  cyan: "#0024F2"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#1F62F1"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 36.8
+    black: 0
+    red: 43.2
+    green: 54.3
+    yellow: 75.4
+    blue: 87.1
+    magenta: 74.6
+    cyan: 14.6
+    white: 101.7
+    brightBlack: 27.8
+    brightRed: 48.6
+    brightGreen: 88.8
+    brightYellow: 103.3
+    brightBlue: 25.8
+    brightMagenta: 62.4
+    brightCyan: 96.6
+    brightWhite: 106.7

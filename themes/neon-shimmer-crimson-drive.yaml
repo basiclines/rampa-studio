@@ -1,0 +1,49 @@
+name: "Neon Shimmer (Crimson Drive)"
+source:
+  marketplace_id: "piperunner.neon-shimmer"
+  version: "1.2.0"
+  installs: 16855
+  author: "Pipe Runner"
+  repo: "https://github.com/Pipe-Runner-Lab/neon-shimmer"
+  url: "https://marketplace.visualstudio.com/items?itemName=piperunner.neon-shimmer"
+colors:
+  bg: "#0A0103"
+  fg: "#FFB3D9"
+  black: "#0A0103"
+  red: "#E64471"
+  green: "#73C991"
+  yellow: "#FFDF7E"
+  blue: "#FF845E"
+  magenta: "#E64471"
+  cyan: "#FFFFFF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#E64471"
+  brightGreen: "#FF845E"
+  brightYellow: "#FFDF7E"
+  brightBlue: "#A78BFF"
+  brightMagenta: "#FF487B"
+  brightCyan: "#45FFED"
+  brightWhite: "#FFB3D9"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 2
+  contrast:
+    fg: 74.1
+    black: 0
+    red: 36.7
+    green: 63.7
+    yellow: 88.8
+    blue: 55
+    magenta: 36.7
+    cyan: 107.9
+    white: 91
+    brightBlack: 23
+    brightRed: 36.7
+    brightGreen: 55
+    brightYellow: 88.8
+    brightBlue: 49.6
+    brightMagenta: 43.3
+    brightCyan: 92
+    brightWhite: 74.1

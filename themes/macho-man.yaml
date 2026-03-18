@@ -1,0 +1,49 @@
+name: "Macho Man"
+source:
+  marketplace_id: "switchcasebreak.macho-man"
+  version: "1.0.1"
+  installs: 664
+  author: "Keith Brewster"
+  repo: "https://github.com/brewsterbhg/machoman-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=switchcasebreak.macho-man"
+colors:
+  bg: "#27221F"
+  fg: "#E9F459"
+  black: "#000000"
+  red: "#FF628C"
+  green: "#3AD900"
+  yellow: "#FF7D7D"
+  blue: "#5DAFF3"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#FF7D7D"
+  brightBlue: "#5DAFF3"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#67325D"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 92.1
+    black: 0
+    red: 45.6
+    green: 64.7
+    yellow: 51.3
+    blue: 53.2
+    magenta: 62.8
+    cyan: 91.2
+    white: 105.3
+    brightBlack: 13.1
+    brightRed: 45.6
+    brightGreen: 64.7
+    brightYellow: 51.3
+    brightBlue: 53.2
+    brightMagenta: 62.8
+    brightCyan: 91.2
+    brightWhite: 8

@@ -1,0 +1,49 @@
+name: "Starlight - Daybreak"
+source:
+  marketplace_id: "RussellOje.ruxy1212-starlight-theme"
+  version: "2.1.5"
+  installs: 72
+  author: "Russell Oje"
+  repo: "https://github.com/ruxy1212/starlight-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RussellOje.ruxy1212-starlight-theme"
+colors:
+  bg: "#FFF5E6"
+  fg: "#4A3B2F"
+  black: "#FFF0D4"
+  red: "#C0392B"
+  green: "#27AE60"
+  yellow: "#2ECC71"
+  blue: "#E67E22"
+  magenta: "#8E44AD"
+  cyan: "#3498DB"
+  white: "#4A3B2F"
+  brightBlack: "#8D7A6B"
+  brightRed: "#C0392B"
+  brightGreen: "#27AE60"
+  brightYellow: "#2ECC71"
+  brightBlue: "#E67E22"
+  brightMagenta: "#8E44AD"
+  brightCyan: "#3498DB"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 89.6
+    black: 0
+    red: 70.7
+    green: 49.2
+    yellow: 35.3
+    blue: 48.8
+    magenta: 73.5
+    cyan: 53
+    white: 89.6
+    brightBlack: 62.8
+    brightRed: 70.7
+    brightGreen: 49.2
+    brightYellow: 35.3
+    brightBlue: 48.8
+    brightMagenta: 73.5
+    brightCyan: 53
+    brightWhite: 100.8

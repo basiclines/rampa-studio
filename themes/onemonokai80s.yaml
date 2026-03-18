@@ -1,0 +1,49 @@
+name: "OneMonokai80s"
+source:
+  marketplace_id: "axiomaticstudios.one-monokai-80s"
+  version: "2.6.6"
+  installs: 61821
+  author: "Axiomatic Studios"
+  repo: "https://github.com/marcelo-mason/one-monokai-80s"
+  url: "https://marketplace.visualstudio.com/items?itemName=axiomaticstudios.one-monokai-80s"
+colors:
+  bg: "#1F2237"
+  fg: "#A6B1C9"
+  black: "#6F7887"
+  red: "#E57685"
+  green: "#86BB94"
+  yellow: "#C9B999"
+  blue: "#61A2EF"
+  magenta: "#D491CF"
+  cyan: "#56B6C2"
+  white: "#A6B1C9"
+  brightBlack: "#6F7887"
+  brightRed: "#E57685"
+  brightGreen: "#86BB94"
+  brightYellow: "#C9B999"
+  brightBlue: "#61A2EF"
+  brightMagenta: "#D491CF"
+  brightCyan: "#56B6C2"
+  brightWhite: "#A6B1C9"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 277
+  contrast:
+    fg: 57.2
+    black: 28.1
+    red: 44.3
+    green: 56.3
+    yellow: 62.8
+    blue: 47.8
+    magenta: 52.2
+    cyan: 52.9
+    white: 57.2
+    brightBlack: 28.1
+    brightRed: 44.3
+    brightGreen: 56.3
+    brightYellow: 62.8
+    brightBlue: 47.8
+    brightMagenta: 52.2
+    brightCyan: 52.9
+    brightWhite: 57.2

@@ -1,0 +1,49 @@
+name: "abcdef"
+source:
+  marketplace_id: "jxne00.abcdef"
+  version: "0.2.3"
+  installs: 145
+  author: "jxne00"
+  repo: "https://github.com/jxne00/abcdef-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jxne00.abcdef"
+colors:
+  bg: "#262936"
+  fg: "#9DA5B3"
+  black: "#282A36"
+  red: "#FF5C57"
+  green: "#5AF78E"
+  yellow: "#F3F99D"
+  blue: "#4DA1FA"
+  magenta: "#FF6AC1"
+  cyan: "#9AEDFE"
+  white: "#EFF0EB"
+  brightBlack: "#282A36"
+  brightRed: "#FF5C57"
+  brightGreen: "#70F99D"
+  brightYellow: "#F3F99D"
+  brightBlue: "#57BCFF"
+  brightMagenta: "#FF6AC1"
+  brightCyan: "#87E9FC"
+  brightWhite: "#EFF0EB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  contrast:
+    fg: 49.5
+    black: 0
+    red: 41.9
+    green: 81.3
+    yellow: 96
+    blue: 46.2
+    magenta: 48.2
+    cyan: 84.3
+    white: 93.9
+    brightBlack: 0
+    brightRed: 41.9
+    brightGreen: 83.7
+    brightYellow: 96
+    brightBlue: 57.9
+    brightMagenta: 48.2
+    brightCyan: 80.9
+    brightWhite: 93.9

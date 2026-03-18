@@ -1,0 +1,49 @@
+name: "inksea"
+source:
+  marketplace_id: "inksea.inksea-theme"
+  version: "3.3.0"
+  installs: 12188
+  author: "_inkSea"
+  repo: "https://github.com/inksea/inksea-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=inksea.inksea-theme"
+colors:
+  bg: "#212529"
+  fg: "#C4CAD1"
+  black: "#212529"
+  red: "#EF5285"
+  green: "#63E6BE"
+  yellow: "#F6B352"
+  blue: "#B084EB"
+  magenta: "#FF9AC1"
+  cyan: "#45A9F9"
+  white: "#C4CAD1"
+  brightBlack: "#6272A4"
+  brightRed: "#EF5285"
+  brightGreen: "#63E6BE"
+  brightYellow: "#FFCC95"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#6FC1FF"
+  brightWhite: "#C4CAD1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 71.2
+    black: 0
+    red: 38.6
+    green: 75.5
+    yellow: 65.8
+    blue: 44.4
+    magenta: 61.8
+    cyan: 49.9
+    white: 71.2
+    brightBlack: 26.2
+    brightRed: 38.6
+    brightGreen: 75.5
+    brightYellow: 78.4
+    brightBlue: 64.3
+    brightMagenta: 60.8
+    brightCyan: 62.2
+    brightWhite: 71.2

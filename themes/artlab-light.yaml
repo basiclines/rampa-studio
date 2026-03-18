@@ -1,0 +1,49 @@
+name: "ArtLab Light"
+source:
+  marketplace_id: "ArthurDanjou.theme-artlab"
+  version: "1.0.5"
+  installs: 12
+  author: "Arthur Danjou"
+  repo: "https://github.com/arthurdanjou/vscode-theme-artlab"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArthurDanjou.theme-artlab"
+colors:
+  bg: "#FFFFFF"
+  fg: "#393A34"
+  black: "#121212"
+  red: "#D20F39"
+  green: "#40A02B"
+  yellow: "#DF8E1D"
+  blue: "#1E66F5"
+  magenta: "#EA76CB"
+  cyan: "#179299"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#D20F39"
+  brightGreen: "#40A02B"
+  brightYellow: "#DF8E1D"
+  brightBlue: "#1E66F5"
+  brightMagenta: "#EA76CB"
+  brightCyan: "#179299"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 96.5
+    black: 105.3
+    red: 74.7
+    green: 60.5
+    yellow: 50.7
+    blue: 73.2
+    magenta: 51
+    cyan: 64.5
+    white: 21.1
+    brightBlack: 45.8
+    brightRed: 74.7
+    brightGreen: 60.5
+    brightYellow: 50.7
+    brightBlue: 73.2
+    brightMagenta: 51
+    brightCyan: 64.5
+    brightWhite: 17.6

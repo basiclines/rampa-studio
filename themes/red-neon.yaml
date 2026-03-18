@@ -1,0 +1,49 @@
+name: "Red Neon"
+source:
+  marketplace_id: "puszkarek.arasaka-inferno-vscode-theme"
+  version: "1.2.0"
+  installs: 268
+  author: "Puszkarek"
+  repo: "https://github.com/Puszkarek/arasaka-inferno-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=puszkarek.arasaka-inferno-vscode-theme"
+colors:
+  bg: "#0E0E17"
+  fg: "#FF6872"
+  black: "#0E0E17"
+  red: "#FF2E6E"
+  green: "#FF3845"
+  yellow: "#F0B437"
+  blue: "#2570D4"
+  magenta: "#FF00AA"
+  cyan: "#00FFF7"
+  white: "#FF3845"
+  brightBlack: "#030305"
+  brightRed: "#FF2E6E"
+  brightGreen: "#FF3845"
+  brightYellow: "#F0B437"
+  brightBlue: "#2570D4"
+  brightMagenta: "#FF00A8"
+  brightCyan: "#00FFF7"
+  brightWhite: "#FFACAC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  contrast:
+    fg: 48.2
+    black: 0
+    red: 39.8
+    green: 39.9
+    yellow: 67.3
+    blue: 28.3
+    magenta: 40.6
+    cyan: 91.4
+    white: 39.9
+    brightBlack: 0
+    brightRed: 39.8
+    brightGreen: 39.9
+    brightYellow: 67.3
+    brightBlue: 28.3
+    brightMagenta: 40.5
+    brightCyan: 91.4
+    brightWhite: 69.4

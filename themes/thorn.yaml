@@ -1,0 +1,49 @@
+name: "Thorn"
+source:
+  marketplace_id: "jpwol.thorn"
+  version: "1.0.0"
+  installs: 107
+  author: "jpwol"
+  repo: "https://github.com/jpwol/thorn-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jpwol.thorn"
+colors:
+  bg: "#1D282F"
+  fg: "#DBD0C6"
+  black: "#1A2328"
+  red: "#D2696C"
+  green: "#79C2B6"
+  yellow: "#FFD7AA"
+  blue: "#86BFD0"
+  magenta: "#D9ADD4"
+  cyan: "#9FCFC3"
+  white: "#D9D3CE"
+  brightBlack: "#D9D3CE"
+  brightRed: "#D2696C"
+  brightGreen: "#79C2B6"
+  brightYellow: "#FFD7AA"
+  brightBlue: "#86BFD0"
+  brightMagenta: "#D9ADD4"
+  brightCyan: "#9FCFC3"
+  brightWhite: "#D9D3CE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 236
+  contrast:
+    fg: 75.9
+    black: 0
+    red: 36.2
+    green: 59.1
+    yellow: 83.3
+    blue: 59.9
+    magenta: 62.3
+    cyan: 68.5
+    white: 77.3
+    brightBlack: 77.3
+    brightRed: 36.2
+    brightGreen: 59.1
+    brightYellow: 83.3
+    brightBlue: 59.9
+    brightMagenta: 62.3
+    brightCyan: 68.5
+    brightWhite: 77.3

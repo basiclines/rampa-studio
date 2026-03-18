@@ -1,0 +1,49 @@
+name: "Refined (Matcha)"
+source:
+  marketplace_id: "itsjonq.dark-refined"
+  version: "0.0.11"
+  installs: 10801
+  author: "itsjonq"
+  repo: "https://github.com/itsjonq/dark-refined"
+  url: "https://marketplace.visualstudio.com/items?itemName=itsjonq.dark-refined"
+colors:
+  bg: "#191E1E"
+  fg: "#D6DEEB"
+  black: "#191E1E"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#ECC48D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 84.5
+    black: 0
+    red: 38.6
+    green: 66.5
+    yellow: 73
+    blue: 55.2
+    magenta: 53.1
+    cyan: 59
+    white: 106.2
+    brightBlack: 14.9
+    brightRed: 38.6
+    brightGreen: 66.5
+    brightYellow: 93
+    brightBlue: 55.2
+    brightMagenta: 53.1
+    brightCyan: 73.3
+    brightWhite: 106.2

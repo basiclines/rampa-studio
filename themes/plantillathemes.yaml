@@ -1,0 +1,49 @@
+name: "PlantillaThemes"
+source:
+  marketplace_id: "YesCode.inspiration"
+  version: "0.0.19"
+  installs: 1076
+  author: "YesCode"
+  repo: "https://github.com/yesomac/inspiration_themevsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.inspiration"
+colors:
+  bg: "#020F31"
+  fg: "#FFFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#0687FF"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 107.2
+    black: 0
+    red: 42.3
+    green: 61.3
+    yellow: 73.3
+    blue: 47.8
+    magenta: 19.8
+    cyan: 49.7
+    white: 47.5
+    brightBlack: 18.9
+    brightRed: 42.3
+    brightGreen: 38.7
+    brightYellow: 80
+    brightBlue: 19
+    brightMagenta: 19.8
+    brightCyan: 49.7
+    brightWhite: 99.1

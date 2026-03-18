@@ -1,0 +1,49 @@
+name: "Halcyon"
+source:
+  marketplace_id: "PhillipGreen.cyberdev"
+  version: "0.0.4"
+  installs: 576
+  author: "Phillip Green"
+  repo: "https://github.com/PhilGreen-Dev/cyberdev-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev"
+colors:
+  bg: "#1D2433"
+  fg: "#E0E0FF"
+  black: "#2F3B54"
+  red: "#FF33FF"
+  green: "#66FF99"
+  yellow: "#FFCC33"
+  blue: "#66CCFF"
+  magenta: "#FF66FF"
+  cyan: "#00FFFF"
+  white: "#E0E0FF"
+  brightBlack: "#444A5E"
+  brightRed: "#FF33FF"
+  brightGreen: "#66FF99"
+  brightYellow: "#FFCC33"
+  brightBlue: "#66CCFF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#E0E0FF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 265
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 45.1
+    green: 87.3
+    yellow: 77
+    blue: 66.6
+    magenta: 52.1
+    cyan: 89.4
+    white: 86.6
+    brightBlack: 9.4
+    brightRed: 45.1
+    brightGreen: 87.3
+    brightYellow: 77
+    brightBlue: 66.6
+    brightMagenta: 52.1
+    brightCyan: 89.4
+    brightWhite: 86.6

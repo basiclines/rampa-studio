@@ -1,0 +1,49 @@
+name: "nature-color-theme"
+source:
+  marketplace_id: "wavebeem.theme-unoduetre"
+  version: "5.11.1"
+  installs: 4290
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/vscode-theme-unoduetre"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.theme-unoduetre"
+colors:
+  bg: "#EAF6F2"
+  fg: "#006B47"
+  black: "#0E1B15"
+  red: "#AE4124"
+  green: "#1E803D"
+  yellow: "#90672C"
+  blue: "#5247C2"
+  magenta: "#B0459D"
+  cyan: "#117873"
+  white: "#E6E6E6"
+  brightBlack: "#0E1B15"
+  brightRed: "#AE4124"
+  brightGreen: "#1E803D"
+  brightYellow: "#90672C"
+  brightBlue: "#5247C2"
+  brightMagenta: "#B0459D"
+  brightCyan: "#117873"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 75
+    black: 97.5
+    red: 71.5
+    green: 67.1
+    yellow: 67.7
+    blue: 76.4
+    magenta: 67
+    cyan: 68.9
+    white: 0
+    brightBlack: 97.5
+    brightRed: 71.5
+    brightGreen: 67.1
+    brightYellow: 67.7
+    brightBlue: 76.4
+    brightMagenta: 67
+    brightCyan: 68.9
+    brightWhite: 0

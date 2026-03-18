@@ -1,0 +1,49 @@
+name: "Ghibli Night"
+source:
+  marketplace_id: "ghiblistuff.ghibli-theme"
+  version: "1.0.0"
+  installs: 404
+  author: "ghiblistuff"
+  repo: "https://github.com/champi-dev/vscode_ghibli_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ghiblistuff.ghibli-theme"
+colors:
+  bg: "#191970"
+  fg: "#F5F5F5"
+  black: "#36454F"
+  red: "#FF6B6B"
+  green: "#8FBC8F"
+  yellow: "#FFA07A"
+  blue: "#87CEEB"
+  magenta: "#6B5B95"
+  cyan: "#B0E0E6"
+  white: "#F5F5F5"
+  brightBlack: "#696969"
+  brightRed: "#FFB6C1"
+  brightGreen: "#4A7C59"
+  brightYellow: "#D2691E"
+  brightBlue: "#B6E5F8"
+  brightMagenta: "#483D8B"
+  brightCyan: "#8FBC8F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 273
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 45.2
+    green: 56.1
+    yellow: 60.3
+    blue: 67.2
+    magenta: 18.4
+    cyan: 78.7
+    white: 97.4
+    brightBlack: 20.4
+    brightRed: 70.2
+    brightGreen: 24.2
+    brightYellow: 34.4
+    brightBlue: 82.5
+    brightMagenta: 7.8
+    brightCyan: 56.1
+    brightWhite: 104

@@ -1,0 +1,49 @@
+name: "Obsidian Pro - Dark Blue Purple"
+source:
+  marketplace_id: "williamkoller.obsidian-pro-theme"
+  version: "1.0.1"
+  installs: 42
+  author: "williamkoller"
+  repo: "https://github.com/williamkoller/obsidian-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=williamkoller.obsidian-pro-theme"
+colors:
+  bg: "#09090B"
+  fg: "#ECECF1"
+  black: "#111113"
+  red: "#EF4444"
+  green: "#7DD3FC"
+  yellow: "#FACC15"
+  blue: "#6366F1"
+  magenta: "#A78BFA"
+  cyan: "#5EEAD4"
+  white: "#F3F4F6"
+  brightBlack: "#6B7280"
+  brightRed: "#F87171"
+  brightGreen: "#BAE6FD"
+  brightYellow: "#FDE047"
+  brightBlue: "#818CF8"
+  brightMagenta: "#C4B5FD"
+  brightCyan: "#A5F3FC"
+  brightWhite: "#F9FAFB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.6
+    black: 0
+    red: 37.7
+    green: 73.6
+    yellow: 78.7
+    blue: 31
+    magenta: 49.2
+    cyan: 80.8
+    white: 100.5
+    brightBlack: 28
+    brightRed: 49
+    brightGreen: 87.5
+    brightYellow: 88
+    brightBlue: 45.4
+    brightMagenta: 67.8
+    brightCyan: 91.6
+    brightWhite: 104.4

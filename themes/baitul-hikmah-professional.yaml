@@ -1,0 +1,49 @@
+name: "Baitul Hikmah Professional"
+source:
+  marketplace_id: "ShahriyarHosen.baitul-hikmah-dark"
+  version: "3.2.6"
+  installs: 570
+  author: "Shahriyar Hosen"
+  repo: "https://github.com/Shahriyar-Hosen/Baitul-Hikmah-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ShahriyarHosen.baitul-hikmah-dark"
+colors:
+  bg: "#000014"
+  fg: "#EDF1FF"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 98.8
+    black: 0
+    red: 44.6
+    green: 85.1
+    yellow: 79.9
+    blue: 56.9
+    magenta: 54.7
+    cyan: 79.2
+    white: 107.8
+    brightBlack: 12.5
+    brightRed: 44.6
+    brightGreen: 85.1
+    brightYellow: 79.9
+    brightBlue: 56.9
+    brightMagenta: 54.7
+    brightCyan: 79.2
+    brightWhite: 107.8

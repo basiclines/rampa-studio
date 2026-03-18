@@ -1,0 +1,49 @@
+name: "Night-Stack Arctic Night"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#060A10"
+  fg: "#E6F6FF"
+  black: "#121A24"
+  red: "#8ED1FF"
+  green: "#A4F4FF"
+  yellow: "#C7F0FF"
+  blue: "#7DEBFF"
+  magenta: "#9ADFFF"
+  cyan: "#B8F6FF"
+  white: "#E6F6FF"
+  brightBlack: "#121A24"
+  brightRed: "#8ED1FF"
+  brightGreen: "#A4F4FF"
+  brightYellow: "#C7F0FF"
+  brightBlue: "#7DEBFF"
+  brightMagenta: "#9ADFFF"
+  brightCyan: "#B8F6FF"
+  brightWhite: "#E6F6FF"
+meta:
+  mode: "dark"
+  accent: "blue"
+  hue: 255
+  contrast:
+    fg: 100.1
+    black: 0
+    red: 74
+    green: 92.2
+    yellow: 93.6
+    blue: 85
+    magenta: 81.3
+    cyan: 95
+    white: 100.1
+    brightBlack: 0
+    brightRed: 74
+    brightGreen: 92.2
+    brightYellow: 93.6
+    brightBlue: 85
+    brightMagenta: 81.3
+    brightCyan: 95
+    brightWhite: 100.1

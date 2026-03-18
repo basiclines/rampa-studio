@@ -1,0 +1,49 @@
+name: "github-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#111111"
+  fg: "#FFFFFF"
+  black: "#1E1E1E"
+  red: "#BA0E2E"
+  green: "#7385BC"
+  yellow: "#66C4C4"
+  blue: "#E53D67"
+  magenta: "#CCCCCC"
+  cyan: "#5A6FAD"
+  white: "#FFFFFF"
+  brightBlack: "#444444"
+  brightRed: "#F03E5F"
+  brightGreen: "#B8C1DD"
+  brightYellow: "#B0E0E0"
+  brightBlue: "#F197AD"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#9EAACF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 21
+    green: 37.5
+    yellow: 62.1
+    blue: 34.8
+    magenta: 75.2
+    cyan: 27.5
+    white: 107.4
+    brightBlack: 9.3
+    brightRed: 37.3
+    brightGreen: 68.9
+    brightYellow: 81.8
+    brightBlue: 59.7
+    brightMagenta: 107.4
+    brightCyan: 56.1
+    brightWhite: 107.4

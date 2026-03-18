@@ -1,0 +1,49 @@
+name: "jellybeans-theme"
+source:
+  marketplace_id: "DimitarNonov.jellybeans-theme"
+  version: "1.14.1"
+  installs: 13625
+  author: "Dimitar Nonov"
+  repo: "https://github.com/DNonov/jellybeans-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=DimitarNonov.jellybeans-theme"
+colors:
+  bg: "#151515"
+  fg: "#E8E8D3"
+  black: "#E8E8D3"
+  red: "#CF6A4C"
+  green: "#99AD6A"
+  yellow: "#FAD07A"
+  blue: "#8197BF"
+  magenta: "#B267E6"
+  cyan: "#6796E6"
+  white: "#E8E8D3"
+  brightBlack: "#E8E8D3"
+  brightRed: "#CF6A4C"
+  brightGreen: "#99AD6A"
+  brightYellow: "#FAD07A"
+  brightBlue: "#8197BF"
+  brightMagenta: "#B267E6"
+  brightCyan: "#6796E6"
+  brightWhite: "#E8E8D3"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 91.2
+    black: 91.2
+    red: 37.6
+    green: 52.8
+    yellow: 80.6
+    blue: 44.9
+    magenta: 38.6
+    cyan: 44.9
+    white: 91.2
+    brightBlack: 91.2
+    brightRed: 37.6
+    brightGreen: 52.8
+    brightYellow: 80.6
+    brightBlue: 44.9
+    brightMagenta: 38.6
+    brightCyan: 44.9
+    brightWhite: 91.2

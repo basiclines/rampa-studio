@@ -1,0 +1,49 @@
+name: "Perfect Grey PF Dark"
+source:
+  marketplace_id: "PF.perfect-grey-pf"
+  version: "0.0.1"
+  installs: 3242
+  author: "PF"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=PF.perfect-grey-pf"
+colors:
+  bg: "#55575C"
+  fg: "#D8E2EC"
+  black: "#41505E"
+  red: "#D95468"
+  green: "#8BD49C"
+  yellow: "#EBBF83"
+  blue: "#539AFC"
+  magenta: "#B62D65"
+  cyan: "#70E1E8"
+  white: "#FFFFFF"
+  brightBlack: "#41505E"
+  brightRed: "#D95468"
+  brightGreen: "#8BD49C"
+  brightYellow: "#EBBF83"
+  brightBlue: "#539AFC"
+  brightMagenta: "#B62D65"
+  brightCyan: "#70E1E8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 70.4
+    black: 0
+    red: 18.4
+    green: 53
+    yellow: 54.4
+    blue: 29.8
+    magenta: 0
+    cyan: 60.5
+    white: 90
+    brightBlack: 0
+    brightRed: 18.4
+    brightGreen: 53
+    brightYellow: 54.4
+    brightBlue: 29.8
+    brightMagenta: 0
+    brightCyan: 60.5
+    brightWhite: 90

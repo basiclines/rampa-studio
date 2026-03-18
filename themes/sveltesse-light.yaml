@@ -1,0 +1,49 @@
+name: "Sveltesse Light"
+source:
+  marketplace_id: "AntonioSarcevic.theme-sveltesse"
+  version: "0.0.1"
+  installs: 770
+  author: "Antonio Sarcevic"
+  repo: "https://github.com/SarcevicAntonio/vscode-theme-sveltesse"
+  url: "https://marketplace.visualstudio.com/items?itemName=AntonioSarcevic.theme-sveltesse"
+colors:
+  bg: "#FFFFFF"
+  fg: "#212121"
+  black: "#1A1A1A"
+  red: "#AB5959"
+  green: "#1E754F"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#E6E6E6"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#1E754F"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 103.1
+    black: 104.3
+    red: 73.5
+    green: 77.9
+    yellow: 48.3
+    blue: 78.2
+    magenta: 81.1
+    cyan: 63.5
+    white: 12.3
+    brightBlack: 45.8
+    brightRed: 73.5
+    brightGreen: 77.9
+    brightYellow: 48.3
+    brightBlue: 78.2
+    brightMagenta: 81.1
+    brightCyan: 63.5
+    brightWhite: 17.6

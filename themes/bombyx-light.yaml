@@ -1,0 +1,49 @@
+name: "Bombyx Light"
+source:
+  marketplace_id: "y6nH.bombyx"
+  version: "0.4.1"
+  installs: 599
+  author: "y6nH"
+  repo: "https://github.com/y6nH/bombyx"
+  url: "https://marketplace.visualstudio.com/items?itemName=y6nH.bombyx"
+colors:
+  bg: "#FFFEFA"
+  fg: "#272A2B"
+  black: "#272A2B"
+  red: "#B83840"
+  green: "#597100"
+  yellow: "#998B66"
+  blue: "#0B9AB6"
+  magenta: "#B34D91"
+  cyan: "#669199"
+  white: "#D5CEBE"
+  brightBlack: "#777570"
+  brightRed: "#C74438"
+  brightGreen: "#729200"
+  brightYellow: "#DE9F00"
+  brightBlue: "#3BD8F7"
+  brightMagenta: "#E166B8"
+  brightCyan: "#79B3BE"
+  brightWhite: "#EEEDE9"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 100.6
+    black: 100.6
+    red: 76.8
+    green: 76.9
+    yellow: 60.5
+    blue: 59.5
+    magenta: 72
+    cyan: 61.4
+    white: 25.3
+    brightBlack: 71.4
+    brightRed: 72.1
+    brightGreen: 62.8
+    brightYellow: 44.7
+    brightBlue: 29.3
+    brightMagenta: 56.6
+    brightCyan: 45.3
+    brightWhite: 7.6

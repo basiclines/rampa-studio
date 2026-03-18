@@ -1,0 +1,49 @@
+name: "8-Bit Light"
+source:
+  marketplace_id: "handsomeone.8bit"
+  version: "0.2.3"
+  installs: 29597
+  author: "Zhou Qi"
+  repo: "https://github.com/HandsomeOne/8bit"
+  url: "https://marketplace.visualstudio.com/items?itemName=handsomeone.8bit"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#FFFFFF"
+  red: "#FF0000"
+  green: "#00BB00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00BBFF"
+  white: "#000000"
+  brightBlack: "#FFFFFF"
+  brightRed: "#FF0000"
+  brightGreen: "#00BB00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00BBFF"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106
+    black: 0
+    red: 64.1
+    green: 49.7
+    yellow: 0
+    blue: 85.8
+    magenta: 55.6
+    cyan: 42.5
+    white: 106
+    brightBlack: 0
+    brightRed: 64.1
+    brightGreen: 49.7
+    brightYellow: 0
+    brightBlue: 85.8
+    brightMagenta: 55.6
+    brightCyan: 42.5
+    brightWhite: 106

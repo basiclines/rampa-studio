@@ -1,0 +1,49 @@
+name: "Solarized Dark Theme"
+source:
+  marketplace_id: "mjlaufer.vscode-themes"
+  version: "0.1.0"
+  installs: 1787
+  author: "mjlaufer"
+  repo: "https://github.com/mjlaufer/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=mjlaufer.vscode-themes"
+colors:
+  bg: "#FDF6E3"
+  fg: "#657B83"
+  black: "#FDF6E3"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#657B83"
+  brightBlack: "#FDF6E3"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#D33682"
+  brightCyan: "#2AA198"
+  brightWhite: "#657B83"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 65.7
+    black: 0
+    red: 65.3
+    green: 53.8
+    yellow: 53.8
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
+    white: 65.7
+    brightBlack: 0
+    brightRed: 65.3
+    brightGreen: 53.8
+    brightYellow: 53.8
+    brightBlue: 58.7
+    brightMagenta: 65
+    brightCyan: 53.1
+    brightWhite: 65.7

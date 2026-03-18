@@ -1,0 +1,49 @@
+name: "Tlapalli 01: Gold"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+colors:
+  bg: "#090705"
+  fg: "#BDA88A"
+  black: "#090705"
+  red: "#9D7F5A"
+  green: "#7F5F3D"
+  yellow: "#D9B88F"
+  blue: "#4D3A2A"
+  magenta: "#BD9970"
+  cyan: "#9E7A50"
+  white: "#E3C59D"
+  brightBlack: "#38261E"
+  brightRed: "#9D7F5A"
+  brightGreen: "#7F5F3D"
+  brightYellow: "#D9B88F"
+  brightBlue: "#4D3A2A"
+  brightMagenta: "#BD9970"
+  brightCyan: "#9E7A50"
+  brightWhite: "#FFE8C4"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 56.7
+    black: 0
+    red: 36.7
+    green: 22.7
+    yellow: 67
+    blue: 7.7
+    magenta: 50.4
+    cyan: 35
+    white: 74.1
+    brightBlack: 0
+    brightRed: 36.7
+    brightGreen: 22.7
+    brightYellow: 67
+    brightBlue: 7.7
+    brightMagenta: 50.4
+    brightCyan: 35
+    brightWhite: 94.7

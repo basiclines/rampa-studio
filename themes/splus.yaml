@@ -1,0 +1,49 @@
+name: "Splus"
+source:
+  marketplace_id: "zrachod.splus-theme"
+  version: "0.2.1"
+  installs: 6501
+  author: "Rachod Petchpho"
+  repo: "https://github.com/Zrachod/Splus"
+  url: "https://marketplace.visualstudio.com/items?itemName=zrachod.splus-theme"
+colors:
+  bg: "#1A1C20"
+  fg: "#EEEEEE"
+  black: "#888888"
+  red: "#F74570"
+  green: "#65CA73"
+  yellow: "#FFED87"
+  blue: "#5E9CFF"
+  magenta: "#AD80FE"
+  cyan: "#27BC91"
+  white: "#EEEEEE"
+  brightBlack: "#888888"
+  brightRed: "#F95980"
+  brightGreen: "#7CDD8A"
+  brightYellow: "#FFED87"
+  brightBlue: "#65BFFF"
+  brightMagenta: "#C391FF"
+  brightCyan: "#49C9A4"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 95.2
+    black: 37.1
+    red: 39.1
+    green: 61.1
+    yellow: 93.7
+    blue: 47.6
+    magenta: 45.5
+    cyan: 53.3
+    white: 95.2
+    brightBlack: 37.1
+    brightRed: 43.2
+    brightGreen: 72
+    brightYellow: 93.7
+    brightBlue: 62.1
+    brightMagenta: 53.7
+    brightCyan: 60.8
+    brightWhite: 95.2

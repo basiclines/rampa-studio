@@ -1,0 +1,49 @@
+name: "Wuthering Waves : Changli (Dark)"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 120
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+colors:
+  bg: "#1A1514"
+  fg: "#F5E8E3"
+  black: "#1A1514"
+  red: "#F5A3A3"
+  green: "#90B080"
+  yellow: "#E8A050"
+  blue: "#8098B0"
+  magenta: "#D89AA0"
+  cyan: "#80A8A0"
+  white: "#F5E8E3"
+  brightBlack: "#6A5552"
+  brightRed: "#FFB5B5"
+  brightGreen: "#A0C090"
+  brightYellow: "#F8B860"
+  brightBlue: "#90A8C0"
+  brightMagenta: "#E8AAB0"
+  brightCyan: "#90B8B0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 63.6
+    green: 53.6
+    yellow: 58.3
+    blue: 44.4
+    magenta: 55.5
+    cyan: 50
+    white: 93.6
+    brightBlack: 17.1
+    brightRed: 72.4
+    brightGreen: 62.4
+    brightYellow: 70.1
+    brightBlue: 52.7
+    brightMagenta: 64.3
+    brightCyan: 58.6
+    brightWhite: 107

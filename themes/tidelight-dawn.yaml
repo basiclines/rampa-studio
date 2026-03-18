@@ -1,0 +1,49 @@
+name: "Tidelight Dawn"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+colors:
+  bg: "#F8FAFC"
+  fg: "#0F172A"
+  black: "#0F172A"
+  red: "#BE123C"
+  green: "#16A34A"
+  yellow: "#B45309"
+  blue: "#2563EB"
+  magenta: "#BE185D"
+  cyan: "#0891B2"
+  white: "#334155"
+  brightBlack: "#0F172A"
+  brightRed: "#BE123C"
+  brightGreen: "#16A34A"
+  brightYellow: "#B45309"
+  brightBlue: "#2563EB"
+  brightMagenta: "#BE185D"
+  brightCyan: "#0891B2"
+  brightWhite: "#334155"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 101.4
+    black: 101.4
+    red: 76
+    green: 56.6
+    yellow: 70.9
+    blue: 71.7
+    magenta: 75.1
+    cyan: 60.7
+    white: 90.9
+    brightBlack: 101.4
+    brightRed: 76
+    brightGreen: 56.6
+    brightYellow: 70.9
+    brightBlue: 71.7
+    brightMagenta: 75.1
+    brightCyan: 60.7
+    brightWhite: 90.9

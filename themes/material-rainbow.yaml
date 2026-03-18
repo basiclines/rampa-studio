@@ -1,0 +1,49 @@
+name: "Material Rainbow"
+source:
+  marketplace_id: "VitPetrov.material-festoon"
+  version: "1.4.1"
+  installs: 196
+  author: "VitPetrov"
+  repo: "https://github.com/VitalyPetrov/material-festoon"
+  url: "https://marketplace.visualstudio.com/items?itemName=VitPetrov.material-festoon"
+colors:
+  bg: "#2E2E2E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 75.8
+    black: 0
+    red: 23.1
+    green: 49.3
+    yellow: 82
+    blue: 23.8
+    magenta: 26.1
+    cyan: 43.9
+    white: 86.4
+    brightBlack: 18.4
+    brightRed: 34.9
+    brightGreen: 59.9
+    brightYellow: 92
+    brightBlue: 36.3
+    brightMagenta: 41.7
+    brightCyan: 51.7
+    brightWhite: 86.4

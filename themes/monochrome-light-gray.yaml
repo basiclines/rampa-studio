@@ -1,0 +1,49 @@
+name: "monochrome-light-gray"
+source:
+  marketplace_id: "ccssmnn.monochrome-tailwind-colors"
+  version: "1.0.0"
+  installs: 1193
+  author: "Carl Assmann"
+  repo: "https://github.com/ccssmnn/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=ccssmnn.monochrome-tailwind-colors"
+colors:
+  bg: "#F3F4F6"
+  fg: "#111827"
+  black: "#F3F4F6"
+  red: "#111827"
+  green: "#6B707A"
+  yellow: "#111827"
+  blue: "#999CA3"
+  magenta: "#111827"
+  cyan: "#3E4450"
+  white: "#111827"
+  brightBlack: "#C6C8CD"
+  brightRed: "#111827"
+  brightGreen: "#6B707A"
+  brightYellow: "#111827"
+  brightBlue: "#999CA3"
+  brightMagenta: "#111827"
+  brightCyan: "#3E4450"
+  brightWhite: "#111827"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 97.9
+    black: 0
+    red: 97.9
+    green: 67.8
+    yellow: 97.9
+    blue: 46.6
+    magenta: 97.9
+    cyan: 86.1
+    white: 97.9
+    brightBlack: 23
+    brightRed: 97.9
+    brightGreen: 67.8
+    brightYellow: 97.9
+    brightBlue: 46.6
+    brightMagenta: 97.9
+    brightCyan: 86.1
+    brightWhite: 97.9

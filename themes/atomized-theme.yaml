@@ -1,0 +1,49 @@
+name: "Atomized-Theme"
+source:
+  marketplace_id: "excalith.atomized-theme"
+  version: "1.1.4"
+  installs: 12098
+  author: "excalith"
+  repo: "https://github.com/excalith/Atomized-Theme/"
+  url: "https://marketplace.visualstudio.com/items?itemName=excalith.atomized-theme"
+colors:
+  bg: "#282C34"
+  fg: "#F8FAFD"
+  black: "#495162"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#99ECFD"
+  white: "#F8FAFD"
+  brightBlack: "#495162"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#99ECFD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 100.2
+    black: 10.3
+    red: 40.4
+    green: 81
+    yellow: 75.7
+    blue: 52.7
+    magenta: 50.6
+    cyan: 83.2
+    white: 100.2
+    brightBlack: 10.3
+    brightRed: 40.4
+    brightGreen: 81
+    brightYellow: 75.7
+    brightBlue: 52.7
+    brightMagenta: 50.6
+    brightCyan: 83.2
+    brightWhite: 103.7

@@ -1,0 +1,49 @@
+name: "Greblue"
+source:
+  marketplace_id: "AXENOX.greblue"
+  version: "0.0.2"
+  installs: 57
+  author: "AXENOX"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=AXENOX.greblue"
+colors:
+  bg: "#171D1D"
+  fg: "#8C8C8C"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#1ABC5A"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#B4B4B4"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#07E28A"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 39
+    black: 0
+    red: 26.2
+    green: 51.9
+    yellow: 85.1
+    blue: 26.9
+    magenta: 29.2
+    cyan: 47
+    white: 60.2
+    brightBlack: 21.5
+    brightRed: 38
+    brightGreen: 71.2
+    brightYellow: 95.1
+    brightBlue: 39.4
+    brightMagenta: 44.8
+    brightCyan: 54.8
+    brightWhite: 89.5

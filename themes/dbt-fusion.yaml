@@ -1,0 +1,49 @@
+name: "dbt Fusion"
+source:
+  marketplace_id: "dbtLabsInc.dbt"
+  version: "0.54.0"
+  installs: 76524
+  author: "dbt Labs Inc"
+  repo: "https://github.com/dbt-labs/dbt-fusion"
+  url: "https://marketplace.visualstudio.com/items?itemName=dbtLabsInc.dbt"
+colors:
+  bg: "#0B1321"
+  fg: "#E0D7FF"
+  black: "#444C5E"
+  red: "#EB4610"
+  green: "#3CCE96"
+  yellow: "#F8E230"
+  blue: "#5362FF"
+  magenta: "#C45E97"
+  cyan: "#1DB6D8"
+  white: "#E5E5E5"
+  brightBlack: "#444C5E"
+  brightRed: "#F75B28"
+  brightGreen: "#44F7B2"
+  brightYellow: "#FFE61F"
+  brightBlue: "#6E7BFF"
+  brightMagenta: "#EA48A2"
+  brightCyan: "#21D7FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 261
+  contrast:
+    fg: 84.8
+    black: 12
+    red: 36.1
+    green: 63.2
+    yellow: 87.4
+    blue: 29.6
+    magenta: 35.1
+    cyan: 54.5
+    white: 90.3
+    brightBlack: 12
+    brightRed: 42.4
+    brightGreen: 84.7
+    brightYellow: 90.3
+    brightBlue: 38.4
+    brightMagenta: 39.2
+    brightCyan: 71.8
+    brightWhite: 90.3

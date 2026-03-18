@@ -1,0 +1,49 @@
+name: "Alchemist's Orchid Dark"
+source:
+  marketplace_id: "Rynaro.alchemists-orchid"
+  version: "0.1.2"
+  installs: 111
+  author: "Rynaro"
+  repo: "https://github.com/Rynaro/alchemists-orchid"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rynaro.alchemists-orchid"
+colors:
+  bg: "#2E3440"
+  fg: "#E5E9F0"
+  black: "#3B4252"
+  red: "#E8A4CC"
+  green: "#A3BE8C"
+  yellow: "#DFCA9A"
+  blue: "#81A1C1"
+  magenta: "#C89BD0"
+  cyan: "#8FBCBB"
+  white: "#D8DEE9"
+  brightBlack: "#4C566A"
+  brightRed: "#F0C0DD"
+  brightGreen: "#C3E4A8"
+  brightYellow: "#EBD9AF"
+  brightBlue: "#A3C2E8"
+  brightMagenta: "#DAC0F2"
+  brightCyan: "#9EECE8"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 58.2
+    green: 56.6
+    yellow: 69.5
+    blue: 43.6
+    magenta: 50.3
+    cyan: 55.5
+    white: 80.3
+    brightBlack: 10.3
+    brightRed: 70.6
+    brightGreen: 78
+    brightYellow: 78.3
+    brightBlue: 62.1
+    brightMagenta: 68.4
+    brightCyan: 80.7
+    brightWhite: 91.2

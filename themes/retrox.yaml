@@ -1,0 +1,49 @@
+name: "Retrox"
+source:
+  marketplace_id: "dalloriam.retrox"
+  version: "0.0.1"
+  installs: 514
+  author: "William Dussault"
+  repo: "https://github.com/dalloriam/retrox"
+  url: "https://marketplace.visualstudio.com/items?itemName=dalloriam.retrox"
+colors:
+  bg: "#0E1418"
+  fg: "#D2D1D4"
+  black: "#0E1418"
+  red: "#E86987"
+  green: "#5BC68B"
+  yellow: "#F6CF66"
+  blue: "#4A69F5"
+  magenta: "#F6CF66"
+  cyan: "#5BC68B"
+  white: "#ECEDED"
+  brightBlack: "#0E1418"
+  brightRed: "#E86987"
+  brightGreen: "#5BC68B"
+  brightYellow: "#F6CF66"
+  brightBlue: "#4A69F5"
+  brightMagenta: "#F6CF66"
+  brightCyan: "#5BC68B"
+  brightWhite: "#ECEDED"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 238
+  contrast:
+    fg: 78.3
+    black: 0
+    red: 43.9
+    green: 60.2
+    yellow: 79.4
+    blue: 30
+    magenta: 79.4
+    cyan: 60.2
+    white: 95.3
+    brightBlack: 0
+    brightRed: 43.9
+    brightGreen: 60.2
+    brightYellow: 79.4
+    brightBlue: 30
+    brightMagenta: 79.4
+    brightCyan: 60.2
+    brightWhite: 95.3

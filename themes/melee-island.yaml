@@ -1,0 +1,49 @@
+name: "Melee Island"
+source:
+  marketplace_id: "VictorChirino.monkey-island-theme"
+  version: "0.4.0"
+  installs: 362
+  author: "Victor Chirino"
+  repo: "https://github.com/vicchirino/monkey-island-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=VictorChirino.monkey-island-theme"
+colors:
+  bg: "#060565"
+  fg: "#A6A6A6"
+  black: "#242225"
+  red: "#C0413E"
+  green: "#4E8607"
+  yellow: "#E08602"
+  blue: "#7098AF"
+  magenta: "#E42AE0"
+  cyan: "#7098AF"
+  white: "#D2D2D2"
+  brightBlack: "#242225"
+  brightRed: "#C0413E"
+  brightGreen: "#4E8607"
+  brightYellow: "#E08602"
+  brightBlue: "#7098AF"
+  brightMagenta: "#E42AE0"
+  brightCyan: "#7098AF"
+  brightWhite: "#D2D2D2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 267
+  contrast:
+    fg: 51.7
+    black: 0
+    red: 24.7
+    green: 28.8
+    yellow: 46.5
+    blue: 41.6
+    magenta: 36.7
+    cyan: 41.6
+    white: 76.9
+    brightBlack: 0
+    brightRed: 24.7
+    brightGreen: 28.8
+    brightYellow: 46.5
+    brightBlue: 41.6
+    brightMagenta: 36.7
+    brightCyan: 41.6
+    brightWhite: 76.9

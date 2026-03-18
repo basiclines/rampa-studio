@@ -1,0 +1,49 @@
+name: "one-dark-cloud-theme"
+source:
+  marketplace_id: "oleg-moroz.one-dark-cloud-theme"
+  version: "1.1.2"
+  installs: 200
+  author: "Oleg Moroz"
+  repo: "https://github.com/moroz0751/vscode-one-dark-cloud"
+  url: "https://marketplace.visualstudio.com/items?itemName=oleg-moroz.one-dark-cloud-theme"
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#000000"
+  red: "#E06C75"
+  green: "#BBF78F"
+  yellow: "#FFD88F"
+  blue: "#8DCBFC"
+  magenta: "#FC95DC"
+  cyan: "#8BE9FD"
+  white: "#CDCED1"
+  brightBlack: "#000000"
+  brightRed: "#E06C75"
+  brightGreen: "#BBF78F"
+  brightYellow: "#FFD88F"
+  brightBlue: "#8DCBFC"
+  brightMagenta: "#FC95DC"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#CDCED1"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 38.9
+    green: 87.5
+    yellow: 81.9
+    blue: 67
+    magenta: 59.6
+    cyan: 80.8
+    white: 72.7
+    brightBlack: 0
+    brightRed: 38.9
+    brightGreen: 87.5
+    brightYellow: 81.9
+    brightBlue: 67
+    brightMagenta: 59.6
+    brightCyan: 80.8
+    brightWhite: 72.7

@@ -1,0 +1,49 @@
+name: "Wick"
+source:
+  marketplace_id: "wick.wick"
+  version: "1.0.2"
+  installs: 137
+  author: "wick"
+  repo: "https://github.com/olivergrass/wick-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=wick.wick"
+colors:
+  bg: "#21252B"
+  fg: "#A9B2C3"
+  black: "#000000"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#F2D479"
+  blue: "#70A2FF"
+  magenta: "#F2A4F4"
+  cyan: "#78C4CE"
+  white: "#F2F1EC"
+  brightBlack: "#000000"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#F2D479"
+  brightBlue: "#70A2FF"
+  brightMagenta: "#F2A4F4"
+  brightCyan: "#78C4CE"
+  brightWhite: "#F2F1EC"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 258
+  contrast:
+    fg: 57.5
+    black: 0
+    red: 40.2
+    green: 60.4
+    yellow: 79
+    blue: 49.7
+    magenta: 65.2
+    cyan: 61.3
+    white: 95.7
+    brightBlack: 0
+    brightRed: 40.2
+    brightGreen: 60.4
+    brightYellow: 79
+    brightBlue: 49.7
+    brightMagenta: 65.2
+    brightCyan: 61.3
+    brightWhite: 95.7

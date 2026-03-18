@@ -1,0 +1,49 @@
+name: "Neon Noir"
+source:
+  marketplace_id: "codeM.mystic-dark-collection"
+  version: "0.1.0"
+  installs: 86
+  author: "Mustafa Özdemir"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=codeM.mystic-dark-collection"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0080FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0080FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 37.1
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 37.1
+    brightMagenta: 46.2
+    brightCyan: 92.2
+    brightWhite: 107.9

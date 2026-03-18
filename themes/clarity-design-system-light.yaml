@@ -1,0 +1,49 @@
+name: "Clarity Design System - Light"
+source:
+  marketplace_id: "BBogdanov.cds-color-theme"
+  version: "0.0.6"
+  installs: 432
+  author: "BBogdanov"
+  repo: "https://github.com/bbogdanov/cds-code-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=BBogdanov.cds-color-theme"
+colors:
+  bg: "#FAFAFA"
+  fg: "#333333"
+  black: "#FAFAFA"
+  red: "#DB2100"
+  green: "#666666"
+  yellow: "#9E57BC"
+  blue: "#DB2100"
+  magenta: "#00567A"
+  cyan: "#3C8500"
+  white: "#4F4F4F"
+  brightBlack: "#DEDEDE"
+  brightRed: "#00567A"
+  brightGreen: "#3C8500"
+  brightYellow: "#9E57BC"
+  brightBlue: "#DB2100"
+  brightMagenta: "#00567A"
+  brightCyan: "#3C8500"
+  brightWhite: "#333333"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.7
+    black: 0
+    red: 69.2
+    green: 75.8
+    yellow: 68.7
+    blue: 69.2
+    magenta: 84.3
+    cyan: 68.7
+    white: 85.4
+    brightBlack: 14
+    brightRed: 84.3
+    brightGreen: 68.7
+    brightYellow: 68.7
+    brightBlue: 69.2
+    brightMagenta: 84.3
+    brightCyan: 68.7
+    brightWhite: 95.7

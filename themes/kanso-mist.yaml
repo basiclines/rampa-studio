@@ -1,0 +1,49 @@
+name: "Kanso Mist"
+source:
+  marketplace_id: "Webhooked.kanso-theme"
+  version: "0.2.3"
+  installs: 3026
+  author: "Webhooked"
+  repo: "https://github.com/webhooked/kanso-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Webhooked.kanso-theme"
+colors:
+  bg: "#2F3036"
+  fg: "#C5C9C7"
+  black: "#43464E"
+  red: "#C4746E"
+  green: "#8A9A7B"
+  yellow: "#C4B28A"
+  blue: "#8BA4B0"
+  magenta: "#A292A3"
+  cyan: "#8EA4A2"
+  white: "#C5C9C7"
+  brightBlack: "#9E9B93"
+  brightRed: "#E46876"
+  brightGreen: "#87A987"
+  brightYellow: "#E6C384"
+  brightBlue: "#7FB4CA"
+  brightMagenta: "#938AA9"
+  brightCyan: "#7AA89F"
+  brightWhite: "#C5C9C7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  contrast:
+    fg: 68.1
+    black: 0
+    red: 34.6
+    green: 39.8
+    yellow: 56.4
+    blue: 45.7
+    magenta: 40.9
+    cyan: 45.4
+    white: 68.1
+    brightBlack: 43.1
+    brightRed: 37.8
+    brightGreen: 45.9
+    brightYellow: 68
+    brightBlue: 52.4
+    brightMagenta: 36.7
+    brightCyan: 45.2
+    brightWhite: 68.1

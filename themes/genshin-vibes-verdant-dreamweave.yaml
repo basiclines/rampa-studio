@@ -1,0 +1,49 @@
+name: "Genshin Vibes: Verdant Dreamweave"
+source:
+  marketplace_id: "bubaic.genshin-vibes"
+  version: "1.0.2"
+  installs: 175
+  author: "Subrata"
+  repo: "https://github.com/bubaic/genshin-vibes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes"
+colors:
+  bg: "#1A231A"
+  fg: "#E8F5D8"
+  black: "#162116"
+  red: "#F0D9B5"
+  green: "#90EE90"
+  yellow: "#E7FF2F"
+  blue: "#A7EA43"
+  magenta: "#B9DAA4"
+  cyan: "#9AC89A"
+  white: "#3A4A3A"
+  brightBlack: "#3A4A3A"
+  brightRed: "#F0D9B5"
+  brightGreen: "#90EE90"
+  brightYellow: "#E7FF2F"
+  brightBlue: "#A7EA43"
+  brightMagenta: "#B9DAA4"
+  brightCyan: "#9AC89A"
+  brightWhite: "#E8F5D8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 145
+  contrast:
+    fg: 96
+    black: 0
+    red: 83.1
+    green: 81.3
+    yellow: 97.3
+    blue: 79.9
+    magenta: 75.9
+    cyan: 64.3
+    white: 8.3
+    brightBlack: 8.3
+    brightRed: 83.1
+    brightGreen: 81.3
+    brightYellow: 97.3
+    brightBlue: 79.9
+    brightMagenta: 75.9
+    brightCyan: 64.3
+    brightWhite: 96

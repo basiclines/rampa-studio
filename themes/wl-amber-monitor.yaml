@@ -1,0 +1,49 @@
+name: "WL-Amber Monitor"
+source:
+  marketplace_id: "WatkinsLabs.amber-monitor"
+  version: "1.0.1"
+  installs: 125
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.amber-monitor"
+colors:
+  bg: "#141413"
+  fg: "#FDFFB6"
+  black: "#000000"
+  red: "#FF3C38"
+  green: "#45A045"
+  yellow: "#FF8300"
+  blue: "#FFC080"
+  magenta: "#FFA640"
+  cyan: "#FFC080"
+  white: "#FDFFB6"
+  brightBlack: "#666666"
+  brightRed: "#FF3C38"
+  brightGreen: "#45A045"
+  brightYellow: "#FF8300"
+  brightBlue: "#FFC080"
+  brightMagenta: "#FFA640"
+  brightCyan: "#FFC080"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 104
+    black: 0
+    red: 39.8
+    green: 40.9
+    yellow: 53.4
+    blue: 75.2
+    magenta: 64.6
+    cyan: 75.2
+    white: 104
+    brightBlack: 22.3
+    brightRed: 39.8
+    brightGreen: 40.9
+    brightYellow: 53.4
+    brightBlue: 75.2
+    brightMagenta: 64.6
+    brightCyan: 75.2
+    brightWhite: 107.2

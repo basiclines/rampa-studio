@@ -1,0 +1,49 @@
+name: "Obsidian Pro - Dark Pink Purple"
+source:
+  marketplace_id: "williamkoller.obsidian-pro-theme"
+  version: "1.0.1"
+  installs: 42
+  author: "williamkoller"
+  repo: "https://github.com/williamkoller/obsidian-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=williamkoller.obsidian-pro-theme"
+colors:
+  bg: "#0A0A0C"
+  fg: "#EDEDF2"
+  black: "#1D1D20"
+  red: "#F472B6"
+  green: "#F0ABFC"
+  yellow: "#FBBF24"
+  blue: "#C084FC"
+  magenta: "#E879F9"
+  cyan: "#F9A8D4"
+  white: "#FAFAFA"
+  brightBlack: "#6B7280"
+  brightRed: "#FB7185"
+  brightGreen: "#F5D0FE"
+  brightYellow: "#FCD34D"
+  brightBlue: "#D8B4FE"
+  brightMagenta: "#F0ABFC"
+  brightCyan: "#FBCFE8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 96.2
+    black: 0
+    red: 50.7
+    green: 70.5
+    yellow: 73.6
+    blue: 50.5
+    magenta: 53.9
+    cyan: 68.8
+    white: 104.4
+    brightBlack: 28
+    brightRed: 50.1
+    brightGreen: 85.4
+    brightYellow: 82.2
+    brightBlue: 70.1
+    brightMagenta: 70.5
+    brightCyan: 84.8
+    brightWhite: 107.7

@@ -1,0 +1,49 @@
+name: "OneBitCode"
+source:
+  marketplace_id: "OneBitCode.rockstar-theme"
+  version: "0.0.1"
+  installs: 296
+  author: "OneBitCode"
+  repo: "https://github.com/isaacpontes/onebitcode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OneBitCode.rockstar-theme"
+colors:
+  bg: "#252525"
+  fg: "#E5E5E5"
+  black: "#5C5A5D"
+  red: "#D478FF"
+  green: "#00FF9F"
+  yellow: "#F3C767"
+  blue: "#F64348"
+  magenta: "#00FF9F"
+  cyan: "#00A2FF"
+  white: "#FFFFFF"
+  brightBlack: "#898989"
+  brightRed: "#D478FF"
+  brightGreen: "#00FF9F"
+  brightYellow: "#F3C767"
+  brightBlue: "#F64348"
+  brightMagenta: "#00FF9F"
+  brightCyan: "#F64348"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.1
+    black: 15.4
+    red: 47.9
+    green: 85.4
+    yellow: 73.3
+    blue: 36.5
+    magenta: 85.4
+    cyan: 46.4
+    white: 105
+    brightBlack: 36.2
+    brightRed: 47.9
+    brightGreen: 85.4
+    brightYellow: 73.3
+    brightBlue: 36.5
+    brightMagenta: 85.4
+    brightCyan: 36.5
+    brightWhite: 105

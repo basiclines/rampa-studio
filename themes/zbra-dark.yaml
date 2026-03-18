@@ -1,0 +1,49 @@
+name: "ZBRA Dark"
+source:
+  marketplace_id: "zbra-dev.zbra-vs-code-theme"
+  version: "0.0.2"
+  installs: 123
+  author: "ZBRA"
+  repo: "https://github.com/zbra-solutions/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zbra-dev.zbra-vs-code-theme"
+colors:
+  bg: "#282C34"
+  fg: "#D1D3D4"
+  black: "#282C34"
+  red: "#EB3047"
+  green: "#4FE070"
+  yellow: "#E0D66C"
+  blue: "#4F59E0"
+  magenta: "#EB30D5"
+  cyan: "#43BFB3"
+  white: "#B9BBBD"
+  brightBlack: "#40444B"
+  brightRed: "#EB5630"
+  brightGreen: "#43BFB3"
+  brightYellow: "#E0D66C"
+  brightBlue: "#4F59E0"
+  brightMagenta: "#EB30D5"
+  brightCyan: "#43BFB3"
+  brightWhite: "#D1D3D4"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  contrast:
+    fg: 75.5
+    black: 0
+    red: 30.5
+    green: 68.1
+    yellow: 75.7
+    blue: 20.7
+    magenta: 36.1
+    cyan: 54
+    white: 61.4
+    brightBlack: 0
+    brightRed: 35.4
+    brightGreen: 54
+    brightYellow: 75.7
+    brightBlue: 20.7
+    brightMagenta: 36.1
+    brightCyan: 54
+    brightWhite: 75.5

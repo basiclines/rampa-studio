@@ -1,0 +1,49 @@
+name: "HighGruv"
+source:
+  marketplace_id: "bullptr.highgruv"
+  version: "1.0.1"
+  installs: 48
+  author: "bullptr"
+  repo: "https://github.com/bullptr/highgruv"
+  url: "https://marketplace.visualstudio.com/items?itemName=bullptr.highgruv"
+colors:
+  bg: "#000000"
+  fg: "#D7BE92"
+  black: "#32302F"
+  red: "#F9655D"
+  green: "#A8B75A"
+  yellow: "#DFA54A"
+  blue: "#77B0A3"
+  magenta: "#DC839B"
+  cyan: "#84B67C"
+  white: "#D7BE92"
+  brightBlack: "#948371"
+  brightRed: "#F9655D"
+  brightGreen: "#A8B75A"
+  brightYellow: "#DFA54A"
+  brightBlue: "#77B0A3"
+  brightMagenta: "#DC839B"
+  brightCyan: "#84B67C"
+  brightWhite: "#E0C79B"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 69.3
+    black: 0
+    red: 46.2
+    green: 59.1
+    yellow: 59.4
+    blue: 53.6
+    magenta: 49.7
+    cyan: 55.9
+    white: 69.3
+    brightBlack: 37.5
+    brightRed: 46.2
+    brightGreen: 59.1
+    brightYellow: 59.4
+    brightBlue: 53.6
+    brightMagenta: 49.7
+    brightCyan: 55.9
+    brightWhite: 74.5

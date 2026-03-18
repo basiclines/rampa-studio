@@ -1,0 +1,49 @@
+name: "Vintage Rust Theme"
+source:
+  marketplace_id: "HmadAfzal.vintage-rust-theme"
+  version: "0.1.0"
+  installs: 746
+  author: "Hmad Afzal"
+  repo: "https://github.com/HmadAfzal/Vintage-Rust-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HmadAfzal.vintage-rust-theme"
+colors:
+  bg: "#000000"
+  fg: "#DAD2BE"
+  black: "#3E3728"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#E9B449"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#D0C9AE"
+  brightBlack: "#6C6447"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#DAD6BE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 79.5
+    black: 0
+    red: 41.5
+    green: 78
+    yellow: 68
+    blue: 66.7
+    magenta: 46.6
+    cyan: 71.5
+    white: 73.7
+    brightBlack: 22.2
+    brightRed: 46.8
+    brightGreen: 80.2
+    brightYellow: 54.9
+    brightBlue: 58.3
+    brightMagenta: 59
+    brightCyan: 74.9
+    brightWhite: 81.3

@@ -1,0 +1,49 @@
+name: "Misterioso"
+source:
+  marketplace_id: "rkcy.misterioso-theme"
+  version: "0.1.0"
+  installs: 58
+  author: "Rakesh C"
+  repo: "https://github.com/rkcy/misterioso-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rkcy.misterioso-theme"
+colors:
+  bg: "#415160"
+  fg: "#E1E1E0"
+  black: "#000000"
+  red: "#EE675A"
+  green: "#90B881"
+  yellow: "#F5BD52"
+  blue: "#599C97"
+  magenta: "#9A42E2"
+  cyan: "#67D9DD"
+  white: "#E6E6E6"
+  brightBlack: "#676767"
+  brightRed: "#EE5A59"
+  brightGreen: "#96D084"
+  brightYellow: "#F6C654"
+  brightBlue: "#67D9DD"
+  brightMagenta: "#EE69F7"
+  brightCyan: "#66EAE5"
+  brightWhite: "#FEFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 247
+  contrast:
+    fg: 73.5
+    black: 15.7
+    red: 29.2
+    green: 43
+    yellow: 57.3
+    blue: 28
+    magenta: 13.4
+    cyan: 58.5
+    white: 76.7
+    brightBlack: 8.5
+    brightRed: 26.5
+    brightGreen: 54.2
+    brightYellow: 61.1
+    brightBlue: 58.5
+    brightMagenta: 36.4
+    brightCyan: 67.1
+    brightWhite: 92.7

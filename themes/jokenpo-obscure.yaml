@@ -1,0 +1,49 @@
+name: "JoKenPo Obscure"
+source:
+  marketplace_id: "EduardoAlmeida.jokenpo-theme"
+  version: "0.2.1"
+  installs: 151
+  author: "Eduardo Almeida"
+  repo: "https://github.com/JoKenPo/jokenpo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EduardoAlmeida.jokenpo-theme"
+colors:
+  bg: "#191622"
+  fg: "#E1E1E6"
+  black: "#201B2D"
+  red: "#54C59F"
+  green: "#DCDCAA"
+  yellow: "#E7DE79"
+  blue: "#78D1E1"
+  magenta: "#988BC7"
+  cyan: "#A1EFE4"
+  white: "#E1E1E6"
+  brightBlack: "#626483"
+  brightRed: "#ED4556"
+  brightGreen: "#00F769"
+  brightYellow: "#E7DE79"
+  brightBlue: "#78D1E1"
+  brightMagenta: "#988BC7"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#F7F7FB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 296
+  contrast:
+    fg: 87.6
+    black: 0
+    red: 59.7
+    green: 82.4
+    yellow: 83.6
+    blue: 69.9
+    magenta: 43.2
+    cyan: 87.2
+    white: 87.6
+    brightBlack: 22.1
+    brightRed: 36.7
+    brightGreen: 81.8
+    brightYellow: 83.6
+    brightBlue: 69.9
+    brightMagenta: 43.2
+    brightCyan: 96.7
+    brightWhite: 101.7

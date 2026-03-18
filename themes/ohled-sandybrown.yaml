@@ -1,0 +1,49 @@
+name: "OhLED_SandyBrown"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#F4A460"
+  black: "#F4A460"
+  red: "#B37846"
+  green: "#C3834D"
+  yellow: "#92623A"
+  blue: "#E4995A"
+  magenta: "#D38E53"
+  cyan: "#A36D40"
+  white: "#825733"
+  brightBlack: "#F4A460"
+  brightRed: "#B37846"
+  brightGreen: "#C3834D"
+  brightYellow: "#92623A"
+  brightBlue: "#E4995A"
+  brightMagenta: "#D38E53"
+  brightCyan: "#A36D40"
+  brightWhite: "#825733"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 63
+    black: 63
+    red: 37.4
+    green: 43.4
+    yellow: 26
+    blue: 56.3
+    magenta: 49.6
+    cyan: 31.6
+    white: 20.9
+    brightBlack: 63
+    brightRed: 37.4
+    brightGreen: 43.4
+    brightYellow: 26
+    brightBlue: 56.3
+    brightMagenta: 49.6
+    brightCyan: 31.6
+    brightWhite: 20.9

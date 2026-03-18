@@ -1,0 +1,49 @@
+name: "Thanatos"
+source:
+  marketplace_id: "fede-crc.thanatos"
+  version: "2.2.1"
+  installs: 3589
+  author: "Federico Figueroa C."
+  repo: "https://github.com/fedfigca/thanatos"
+  url: "https://marketplace.visualstudio.com/items?itemName=fede-crc.thanatos"
+colors:
+  bg: "#F6F6F0"
+  fg: "#3F5060"
+  black: "#36475B"
+  red: "#E19887"
+  green: "#008A8E"
+  yellow: "#EAA221"
+  blue: "#0E9BD1"
+  magenta: "#AB43AA"
+  cyan: "#3ABEC0"
+  white: "#7899BA"
+  brightBlack: "#65737E"
+  brightRed: "#D47186"
+  brightGreen: "#0DE1B1"
+  brightYellow: "#EAA221"
+  brightBlue: "#7899BA"
+  brightMagenta: "#AB43AA"
+  brightCyan: "#29CED1"
+  brightWhite: "#1A2B3C"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 83
+    black: 86.3
+    red: 40
+    green: 62.6
+    yellow: 36.7
+    blue: 52.6
+    magenta: 68.8
+    cyan: 38.5
+    white: 50.7
+    brightBlack: 68.2
+    brightRed: 53.6
+    brightGreen: 23.8
+    brightYellow: 36.7
+    brightBlue: 50.7
+    brightMagenta: 68.8
+    brightCyan: 31
+    brightWhite: 95.5

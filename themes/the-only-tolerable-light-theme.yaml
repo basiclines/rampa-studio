@@ -1,0 +1,49 @@
+name: "The Only Tolerable Light Theme"
+source:
+  marketplace_id: "GabeRose.only-tolerable-light-theme"
+  version: "1.0.0"
+  installs: 294
+  author: "GabeRose"
+  repo: "https://github.com/NotoriousGOR/only-tolerable-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GabeRose.only-tolerable-light-theme"
+colors:
+  bg: "#F1EEF2"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 96.5
+    black: 96.5
+    red: 64.4
+    green: 39.7
+    yellow: 48.4
+    blue: 76.5
+    magenta: 65
+    cyan: 51.1
+    white: 8.3
+    brightBlack: 69.2
+    brightRed: 64.4
+    brightGreen: 31.4
+    brightYellow: 31.4
+    brightBlue: 76.5
+    brightMagenta: 65
+    brightCyan: 51.1
+    brightWhite: 38.9

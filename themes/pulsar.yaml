@@ -1,0 +1,49 @@
+name: "Pulsar"
+source:
+  marketplace_id: "dmrowiec-pl.pulsar-theme"
+  version: "1.0.8"
+  installs: 714
+  author: "Damian Mrowiec"
+  repo: "https://github.com/dmrowiec-pl/pulsar-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dmrowiec-pl.pulsar-theme"
+colors:
+  bg: "#1E1E1E"
+  fg: "#C5C8C6"
+  black: "#545D68"
+  red: "#F47067"
+  green: "#57AB5A"
+  yellow: "#C69026"
+  blue: "#539BF5"
+  magenta: "#B083F0"
+  cyan: "#39C5CF"
+  white: "#909DAB"
+  brightBlack: "#636E7B"
+  brightRed: "#FF938A"
+  brightGreen: "#6BC46D"
+  brightYellow: "#DAAA3F"
+  brightBlue: "#6CB6FF"
+  brightMagenta: "#DCBDFB"
+  brightCyan: "#56D4DD"
+  brightWhite: "#CDD9E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 71
+    black: 17.1
+    red: 45.9
+    green: 45.6
+    yellow: 45.9
+    blue: 45.7
+    magenta: 45.4
+    cyan: 60
+    white: 46.6
+    brightBlack: 24.2
+    brightRed: 58.6
+    brightGreen: 58.2
+    brightYellow: 58.5
+    brightBlue: 58.4
+    brightMagenta: 72.3
+    brightCyan: 68.6
+    brightWhite: 80.7

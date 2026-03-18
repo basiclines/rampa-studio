@@ -1,0 +1,49 @@
+name: "Retro Pastel Color Theme"
+source:
+  marketplace_id: "klyap.retro-pastel-color-theme"
+  version: "0.0.3"
+  installs: 7663
+  author: "klyap"
+  repo: "https://github.com/klyap/vscode-retro-pastel-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=klyap.retro-pastel-color-theme"
+colors:
+  bg: "#416D60"
+  fg: "#FFB5B5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 173
+  contrast:
+    fg: 49.9
+    black: 24.8
+    red: 0
+    green: 30.6
+    yellow: 63.2
+    blue: 0
+    magenta: 7.4
+    cyan: 25.2
+    white: 67.6
+    brightBlack: 0
+    brightRed: 16.2
+    brightGreen: 41.1
+    brightYellow: 73.2
+    brightBlue: 17.6
+    brightMagenta: 23
+    brightCyan: 33
+    brightWhite: 67.6

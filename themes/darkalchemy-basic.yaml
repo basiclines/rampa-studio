@@ -1,0 +1,49 @@
+name: "DarkAlchemy-Basic"
+source:
+  marketplace_id: "DarkAlchemy.darkalchemy"
+  version: "0.0.3"
+  installs: 576
+  author: "Dark Alchemy"
+  repo: "https://github.com/dark-alchemy/darkalchemy-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkAlchemy.darkalchemy"
+colors:
+  bg: "#151515"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#DA8548"
+  green: "#23D18B"
+  yellow: "#ECBE7B"
+  blue: "#00BFF8"
+  magenta: "#BC3FBC"
+  cyan: "#46D9FF"
+  white: "#E5E5E5"
+  brightBlack: "#CFCFCF"
+  brightRed: "#DA8548"
+  brightGreen: "#23D18B"
+  brightYellow: "#ECBE7B"
+  brightBlue: "#00BFF8"
+  brightMagenta: "#D670D6"
+  brightCyan: "#46D9FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 107.1
+    black: 0
+    red: 47
+    green: 63.7
+    yellow: 71
+    blue: 60.1
+    magenta: 29.9
+    cyan: 73.3
+    white: 90.2
+    brightBlack: 76.6
+    brightRed: 47
+    brightGreen: 63.7
+    brightYellow: 71
+    brightBlue: 60.1
+    brightMagenta: 45.6
+    brightCyan: 73.3
+    brightWhite: 90.2

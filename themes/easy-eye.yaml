@@ -1,0 +1,49 @@
+name: "Easy Eye"
+source:
+  marketplace_id: "SufficientDaikon.sufficentdaikon-darkpp"
+  version: "1.3.5"
+  installs: 698
+  author: "SufficientDaikon"
+  repo: "https://github.com/SufficientDaikon/Black-Void_VSCode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SufficientDaikon.sufficentdaikon-darkpp"
+colors:
+  bg: "#0A0A0A"
+  fg: "#C7C7C7"
+  black: "#0E0E0E"
+  red: "#FC6A67"
+  green: "#A9DC76"
+  yellow: "#FFD866"
+  blue: "#78DCE8"
+  magenta: "#E991E3"
+  cyan: "#78E8C6"
+  white: "#C7C7C7"
+  brightBlack: "#000000"
+  brightRed: "#FF6764"
+  brightGreen: "#A9F65C"
+  brightYellow: "#FFD866"
+  brightBlue: "#61EEFF"
+  brightMagenta: "#FD7DF4"
+  brightCyan: "#61FFCF"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 72.6
+    black: 0
+    red: 48
+    green: 76.1
+    yellow: 85.2
+    blue: 76.3
+    magenta: 59.4
+    cyan: 80.5
+    white: 72.6
+    brightBlack: 0
+    brightRed: 47.9
+    brightGreen: 88.4
+    brightYellow: 85.2
+    brightBlue: 85.1
+    brightMagenta: 58.6
+    brightCyan: 91.4
+    brightWhite: 104.4

@@ -1,0 +1,49 @@
+name: "Xecoy Dark"
+source:
+  marketplace_id: "xecoy-studio.xecoy-theme"
+  version: "1.0.2"
+  installs: 190
+  author: "xecoy-studio"
+  repo: "https://github.com/Xecoy-Studio/Xecoy-Web-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xecoy-studio.xecoy-theme"
+colors:
+  bg: "#1E1F22"
+  fg: "#CCCCCC"
+  black: "#2B2D30"
+  red: "#DA5050"
+  green: "#6AAA70"
+  yellow: "#CF9977"
+  blue: "#55A0D0"
+  magenta: "#C787C7"
+  cyan: "#60B7B7"
+  white: "#CCCCCC"
+  brightBlack: "#2B2D30"
+  brightRed: "#DA5050"
+  brightGreen: "#6AAA70"
+  brightYellow: "#CF9977"
+  brightBlue: "#55A0D0"
+  brightMagenta: "#C787C7"
+  brightCyan: "#60B7B7"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 73.7
+    black: 0
+    red: 33.2
+    green: 46.6
+    yellow: 51.4
+    blue: 45.2
+    magenta: 47.3
+    cyan: 54
+    white: 73.7
+    brightBlack: 0
+    brightRed: 33.2
+    brightGreen: 46.6
+    brightYellow: 51.4
+    brightBlue: 45.2
+    brightMagenta: 47.3
+    brightCyan: 54
+    brightWhite: 73.7

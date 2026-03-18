@@ -1,0 +1,49 @@
+name: "Kalidozza"
+source:
+  marketplace_id: "afrolino02.Kalidozza-theme"
+  version: "0.0.1"
+  installs: 29
+  author: "afrolino02"
+  repo: "https://github.com/Kalidozza-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=afrolino02.Kalidozza-theme"
+colors:
+  bg: "#0D0701"
+  fg: "#D4D4D4"
+  black: "#1D1D1D"
+  red: "#EA5656"
+  green: "#32EA36"
+  yellow: "#F9E05B"
+  blue: "#4F9BEE"
+  magenta: "#D74CD7"
+  cyan: "#00A59D"
+  white: "#E5E5E5"
+  brightBlack: "#969696"
+  brightRed: "#D17D7D"
+  brightGreen: "#60C262"
+  brightYellow: "#FFFF93"
+  brightBlue: "#88B7EA"
+  brightMagenta: "#F590F5"
+  brightCyan: "#84F9F3"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 79
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 39.7
+    green: 75.8
+    yellow: 87.6
+    blue: 46.8
+    magenta: 39.4
+    cyan: 44.9
+    white: 90.9
+    brightBlack: 45.5
+    brightRed: 44.9
+    brightGreen: 58.2
+    brightYellow: 104
+    brightBlue: 61.2
+    brightMagenta: 62.3
+    brightCyan: 91.8
+    brightWhite: 90.9

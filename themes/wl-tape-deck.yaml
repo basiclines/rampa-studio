@@ -1,0 +1,49 @@
+name: "WL-Tape Deck"
+source:
+  marketplace_id: "WatkinsLabs.tape-deck"
+  version: "1.0.1"
+  installs: 37
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.tape-deck"
+colors:
+  bg: "#4E443B"
+  fg: "#D3D5D7"
+  black: "#000000"
+  red: "#DE6449"
+  green: "#759C75"
+  yellow: "#E5AE39"
+  blue: "#D1C1AC"
+  magenta: "#736359"
+  cyan: "#D1C1AC"
+  white: "#D3D5D7"
+  brightBlack: "#666666"
+  brightRed: "#DE6449"
+  brightGreen: "#759C75"
+  brightYellow: "#E5AE39"
+  brightBlue: "#D1C1AC"
+  brightMagenta: "#736359"
+  brightCyan: "#D1C1AC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 64
+  contrast:
+    fg: 69.3
+    black: 12
+    red: 28.3
+    green: 32.1
+    yellow: 51.9
+    blue: 58.8
+    magenta: 11.4
+    cyan: 58.8
+    white: 69.3
+    brightBlack: 11.4
+    brightRed: 28.3
+    brightGreen: 32.1
+    brightYellow: 51.9
+    brightBlue: 58.8
+    brightMagenta: 11.4
+    brightCyan: 58.8
+    brightWhite: 96.2

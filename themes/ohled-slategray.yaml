@@ -1,0 +1,49 @@
+name: "OhLED_SlateGray"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#708090"
+  black: "#708090"
+  red: "#525E6A"
+  green: "#5A6673"
+  yellow: "#434D56"
+  blue: "#697786"
+  magenta: "#616F7D"
+  cyan: "#4B5560"
+  white: "#3C444D"
+  brightBlack: "#708090"
+  brightRed: "#525E6A"
+  brightGreen: "#5A6673"
+  brightYellow: "#434D56"
+  brightBlue: "#697786"
+  brightMagenta: "#616F7D"
+  brightCyan: "#4B5560"
+  brightWhite: "#3C444D"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  contrast:
+    fg: 33.9
+    black: 33.9
+    red: 19.1
+    green: 22.5
+    yellow: 12.6
+    blue: 29.8
+    magenta: 26.2
+    cyan: 15.7
+    white: 9.5
+    brightBlack: 33.9
+    brightRed: 19.1
+    brightGreen: 22.5
+    brightYellow: 12.6
+    brightBlue: 29.8
+    brightMagenta: 26.2
+    brightCyan: 15.7
+    brightWhite: 9.5

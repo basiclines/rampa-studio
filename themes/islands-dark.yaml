@@ -1,0 +1,49 @@
+name: "Islands Dark"
+source:
+  marketplace_id: "PhanTriVietHoang.island"
+  version: "1.0.1"
+  installs: 84
+  author: "PhanTriVietHoang"
+  repo: "https://github.com/phantriviethoang/wip"
+  url: "https://marketplace.visualstudio.com/items?itemName=PhanTriVietHoang.island"
+colors:
+  bg: "#181A1D"
+  fg: "#BCBEC4"
+  black: "#191A1C"
+  red: "#F75464"
+  green: "#73B00A"
+  yellow: "#E8A33E"
+  blue: "#548AF7"
+  magenta: "#C77DBB"
+  cyan: "#2AACB8"
+  white: "#BCBEC4"
+  brightBlack: "#6F737A"
+  brightRed: "#F9667A"
+  brightGreen: "#8CCF15"
+  brightYellow: "#F0B95E"
+  brightBlue: "#7CACF8"
+  brightMagenta: "#D79FD2"
+  brightCyan: "#42C6D2"
+  brightWhite: "#D4D5D9"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 66.2
+    black: 0
+    red: 41.4
+    green: 49.4
+    yellow: 58.8
+    blue: 40.3
+    magenta: 44.4
+    cyan: 48.1
+    white: 66.2
+    brightBlack: 27.3
+    brightRed: 45.8
+    brightGreen: 65.3
+    brightYellow: 68.7
+    brightBlue: 55.5
+    brightMagenta: 58.8
+    brightCyan: 61.4
+    brightWhite: 79.8

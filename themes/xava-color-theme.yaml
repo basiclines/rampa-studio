@@ -1,0 +1,49 @@
+name: "xava-color-theme"
+source:
+  marketplace_id: "atagulalan.xava-color-theme"
+  version: "0.0.2"
+  installs: 94
+  author: "Ata"
+  repo: "https://github.com/atagulalan/xava-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=atagulalan.xava-color-theme"
+colors:
+  bg: "#050505"
+  fg: "#FAFAFA"
+  black: "#050505"
+  red: "#E62E31"
+  green: "#CCFF2D"
+  yellow: "#FFE900"
+  blue: "#003FFF"
+  magenta: "#FC467A"
+  cyan: "#00FFEE"
+  white: "#E0E0E0"
+  brightBlack: "#2D3136"
+  brightRed: "#FF3C6D"
+  brightGreen: "#CCFF2D"
+  brightYellow: "#FFD140"
+  brightBlue: "#0191FF"
+  brightMagenta: "#914DFF"
+  brightCyan: "#79FFFC"
+  brightWhite: "#C2C2C2"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 33.1
+    green: 96.2
+    yellow: 92.2
+    blue: 20.7
+    magenta: 42.3
+    cyan: 91.3
+    white: 87.9
+    brightBlack: 0
+    brightRed: 41.4
+    brightGreen: 96.2
+    brightYellow: 81.9
+    brightBlue: 42.9
+    brightMagenta: 31.5
+    brightCyan: 94.7
+    brightWhite: 69.8

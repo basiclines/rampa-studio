@@ -1,0 +1,49 @@
+name: "Dan-light-work"
+source:
+  marketplace_id: "Theme-xp-javascript-dark.danlightworktheme"
+  version: "1.0.3"
+  installs: 67
+  author: "Theme-xp-javascript-dark"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Theme-xp-javascript-dark.danlightworktheme"
+colors:
+  bg: "#C3E4E4"
+  fg: "#000000"
+  black: "#FFFFFF"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#DB9393"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 197
+  contrast:
+    fg: 86.4
+    black: 19.8
+    red: 54.4
+    green: 29.6
+    yellow: 38.3
+    blue: 66.4
+    magenta: 54.9
+    cyan: 41
+    white: 28.2
+    brightBlack: 59.1
+    brightRed: 54.4
+    brightGreen: 21.3
+    brightYellow: 21.3
+    brightBlue: 66.4
+    brightMagenta: 54.9
+    brightCyan: 41
+    brightWhite: 28.8

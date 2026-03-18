@@ -1,0 +1,49 @@
+name: "Dune Spice Vision"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 237
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+colors:
+  bg: "#140F0A"
+  fg: "#FFEDC6"
+  black: "#140F0A"
+  red: "#FFD700"
+  green: "#FF9500"
+  yellow: "#00BFFF"
+  blue: "#FF6B35"
+  magenta: "#9B59B6"
+  cyan: "#FFB347"
+  white: "#FFEDC6"
+  brightBlack: "#6E5A48"
+  brightRed: "#FF4757"
+  brightGreen: "#26DE81"
+  brightYellow: "#FFA502"
+  brightBlue: "#00BFFF"
+  brightMagenta: "#C56CF0"
+  brightCyan: "#18DCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 67
+  contrast:
+    fg: 96.7
+    black: 0
+    red: 83.8
+    green: 59
+    yellow: 61
+    blue: 47.9
+    magenta: 29.1
+    cyan: 69.6
+    white: 96.7
+    brightBlack: 19.1
+    brightRed: 41.9
+    brightGreen: 70.3
+    brightYellow: 64.3
+    brightBlue: 61
+    brightMagenta: 43.8
+    brightCyan: 74.3
+    brightWhite: 107.4

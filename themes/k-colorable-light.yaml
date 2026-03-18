@@ -1,0 +1,49 @@
+name: "k-colorable light"
+source:
+  marketplace_id: "hasparus.k-colorable-theme"
+  version: "0.3.2"
+  installs: 44
+  author: "hasparus"
+  repo: "https://github.com/hasparus/k-colorable"
+  url: "https://marketplace.visualstudio.com/items?itemName=hasparus.k-colorable-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#4F533F"
+  black: "#333333"
+  red: "#D32F2F"
+  green: "#77CC00"
+  yellow: "#F29718"
+  blue: "#E0E0E0"
+  magenta: "#9966CC"
+  cyan: "#4DBF99"
+  white: "#C7C7C7"
+  brightBlack: "#A1A1A1"
+  brightRed: "#D6656A"
+  brightGreen: "#A3D900"
+  brightYellow: "#E7C547"
+  brightBlue: "#6871FF"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#57D9AD"
+  brightWhite: "#7E7E7E"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 87.6
+    black: 98.7
+    red: 72.8
+    green: 38.7
+    yellow: 44.5
+    blue: 15.8
+    magenta: 67.9
+    cyan: 44.6
+    white: 30.1
+    brightBlack: 50.5
+    brightRed: 62.5
+    brightGreen: 29.5
+    brightYellow: 29.7
+    brightBlue: 66
+    brightMagenta: 61.1
+    brightCyan: 31.9
+    brightWhite: 67.8

@@ -1,0 +1,49 @@
+name: "blackai-theme"
+source:
+  marketplace_id: "asilverio.blackai-visual-studio-code"
+  version: "0.1.9"
+  installs: 51213
+  author: "asilverio"
+  repo: "https://github.com/slipnox/blackai-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=asilverio.blackai-visual-studio-code"
+colors:
+  bg: "#070707"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 102.9
+    black: 0
+    red: 25.6
+    green: 54
+    yellow: 58.6
+    blue: 35.6
+    magenta: 33.2
+    cyan: 51.4
+    white: 89.4
+    brightBlack: 23
+    brightRed: 38.2
+    brightGreen: 77.9
+    brightYellow: 84.9
+    brightBlue: 50.8
+    brightMagenta: 47.5
+    brightCyan: 74.4
+    brightWhite: 102.9

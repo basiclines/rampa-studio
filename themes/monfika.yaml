@@ -1,0 +1,49 @@
+name: "Monfika"
+source:
+  marketplace_id: "markosmk.monfika-pro"
+  version: "0.0.2"
+  installs: 1771
+  author: "markosmk"
+  repo: "https://github.com/markosmk/monfika-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=markosmk.monfika-pro"
+colors:
+  bg: "#2F313D"
+  fg: "#E9E9E9"
+  black: "#222430"
+  red: "#FF6188"
+  green: "#A9DC76"
+  yellow: "#FCD75E"
+  blue: "#F48E5D"
+  magenta: "#9F90ED"
+  cyan: "#79DBE6"
+  white: "#E9E9E9"
+  brightBlack: "#727072"
+  brightRed: "#FF6188"
+  brightGreen: "#A9DC76"
+  brightYellow: "#FCD75E"
+  brightBlue: "#F48E5D"
+  brightMagenta: "#9F90ED"
+  brightCyan: "#79DBE6"
+  brightWhite: "#E9E9E9"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  contrast:
+    fg: 88.1
+    black: 0
+    red: 42.3
+    green: 70.8
+    yellow: 78.8
+    blue: 50.3
+    magenta: 43.6
+    cyan: 70.4
+    white: 88.1
+    brightBlack: 22.1
+    brightRed: 42.3
+    brightGreen: 70.8
+    brightYellow: 78.8
+    brightBlue: 50.3
+    brightMagenta: 43.6
+    brightCyan: 70.4
+    brightWhite: 88.1

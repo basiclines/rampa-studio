@@ -1,0 +1,49 @@
+name: "Thynaptic Sand (Base)"
+source:
+  marketplace_id: "Thynaptic.thynaptic-color-themes"
+  version: "0.4.0"
+  installs: 26
+  author: "Thynaptic"
+  repo: "https://github.com/cassianwolfe/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Thynaptic.thynaptic-color-themes"
+colors:
+  bg: "#F3EFE7"
+  fg: "#0A0A0A"
+  black: "#0A0A0A"
+  red: "#FF2056"
+  green: "#0A0A0A"
+  yellow: "#FE9A00"
+  blue: "#0A0A0A"
+  magenta: "#0A0A0A"
+  cyan: "#6B6B6B"
+  white: "#F3EFE7"
+  brightBlack: "#6B6B6B"
+  brightRed: "#FF2056"
+  brightGreen: "#0A0A0A"
+  brightYellow: "#FE9A00"
+  brightBlue: "#0A0A0A"
+  brightMagenta: "#0A0A0A"
+  brightCyan: "#6B6B6B"
+  brightWhite: "#FBF8F1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.5
+    black: 96.5
+    red: 53.5
+    green: 96.5
+    yellow: 32.1
+    blue: 96.5
+    magenta: 96.5
+    cyan: 67.2
+    white: 0
+    brightBlack: 67.2
+    brightRed: 53.5
+    brightGreen: 96.5
+    brightYellow: 32.1
+    brightBlue: 96.5
+    brightMagenta: 96.5
+    brightCyan: 67.2
+    brightWhite: 0

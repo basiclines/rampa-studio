@@ -1,0 +1,49 @@
+name: "Bugged GPU"
+source:
+  marketplace_id: "BuggedGpuTheme.darker-high-contrast-bugged-gpu"
+  version: "1.0.0"
+  installs: 156
+  author: "Bugged Gpu Theme"
+  repo: "https://github.com/jguigo/bugged-gpu-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BuggedGpuTheme.darker-high-contrast-bugged-gpu"
+colors:
+  bg: "#212121"
+  fg: "#ECFFFF"
+  black: "#000000"
+  red: "#FF2E70"
+  green: "#97FF80"
+  yellow: "#FEDC50"
+  blue: "#9D78FF"
+  magenta: "#E813F0"
+  cyan: "#73DAFF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#FF2E70"
+  brightGreen: "#97FF80"
+  brightYellow: "#FEDC50"
+  brightBlue: "#9D78FF"
+  brightMagenta: "#E813F0"
+  brightCyan: "#73DAFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103
+    black: 0
+    red: 38
+    green: 90.1
+    yellow: 84.4
+    blue: 40.6
+    magenta: 37.9
+    cyan: 74.2
+    white: 105.6
+    brightBlack: 9.7
+    brightRed: 38
+    brightGreen: 90.1
+    brightYellow: 84.4
+    brightBlue: 40.6
+    brightMagenta: 37.9
+    brightCyan: 74.2
+    brightWhite: 105.6

@@ -1,0 +1,49 @@
+name: "Midnight Guest"
+source:
+  marketplace_id: "flover.fromis-day"
+  version: "0.0.5"
+  installs: 198
+  author: "flover"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=flover.fromis-day"
+colors:
+  bg: "#2D2B55"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#EC3A37"
+  green: "#3AD900"
+  yellow: "#FBF573"
+  blue: "#7857FE"
+  magenta: "#FF2C70"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#EC3A37"
+  brightGreen: "#3AD900"
+  brightYellow: "#FBF573"
+  brightBlue: "#6943FF"
+  brightMagenta: "#E297B0"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 283
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 30.6
+    green: 62.1
+    yellow: 92.9
+    blue: 25.4
+    magenta: 34.9
+    cyan: 88.6
+    white: 102.7
+    brightBlack: 13.8
+    brightRed: 30.6
+    brightGreen: 62.1
+    brightYellow: 92.9
+    brightBlue: 20.3
+    brightMagenta: 52.5
+    brightCyan: 88.6
+    brightWhite: 102.7

@@ -1,0 +1,49 @@
+name: "AtomAx Light+"
+source:
+  marketplace_id: "telianedward.atomaax-theme"
+  version: "0.3.1"
+  installs: 305
+  author: "Vela Inc"
+  repo: "https://github.com/telianedward/AtomaxAxTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=telianedward.atomaax-theme"
+colors:
+  bg: "#F6F8FA"
+  fg: "#24292F"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#116329"
+  yellow: "#4D2D00"
+  blue: "#0969DA"
+  magenta: "#8250DF"
+  cyan: "#1B7C83"
+  white: "#6E7781"
+  brightBlack: "#57606A"
+  brightRed: "#A40E26"
+  brightGreen: "#1A7F37"
+  brightYellow: "#633C01"
+  brightBlue: "#218BFF"
+  brightMagenta: "#A475F9"
+  brightCyan: "#3192AA"
+  brightWhite: "#8C959F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 97.1
+    black: 97.1
+    red: 70.4
+    green: 80.9
+    yellow: 93.6
+    blue: 70.6
+    magenta: 70
+    cyan: 69.4
+    white: 67.2
+    brightBlack: 77.4
+    brightRed: 80.9
+    brightGreen: 70.2
+    brightYellow: 87.7
+    brightBlue: 56.4
+    brightMagenta: 55
+    brightCyan: 59
+    brightWhite: 52.8

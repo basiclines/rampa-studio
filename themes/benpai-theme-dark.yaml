@@ -1,0 +1,49 @@
+name: "Benpai Theme (Dark)"
+source:
+  marketplace_id: "theRealBenpai.benpai-theme"
+  version: "1.1.0"
+  installs: 89
+  author: "Sparty182020"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=theRealBenpai.benpai-theme"
+colors:
+  bg: "#151515"
+  fg: "#FFFFFF"
+  black: "#242424"
+  red: "#A10909"
+  green: "#00A51A"
+  yellow: "#9F9F05"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#CFCFCF"
+  brightBlack: "#666666"
+  brightRed: "#FB3030"
+  brightGreen: "#15FF19"
+  brightYellow: "#FFFF00"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 107.1
+    black: 0
+    red: 15.1
+    green: 41.5
+    yellow: 46.9
+    blue: 27.6
+    magenta: 29.9
+    cyan: 47.7
+    white: 76.6
+    brightBlack: 22.2
+    brightRed: 37.5
+    brightGreen: 85.7
+    brightYellow: 101.9
+    brightBlue: 40.2
+    brightMagenta: 45.6
+    brightCyan: 55.6
+    brightWhite: 107.1

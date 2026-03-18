@@ -1,0 +1,49 @@
+name: "Mystico - C64"
+source:
+  marketplace_id: "Chibantichic.mystico-c64"
+  version: "0.16.0"
+  installs: 1456
+  author: "Chibantichic"
+  repo: "https://github.com/chibanti/mystico-c64-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Chibantichic.mystico-c64"
+colors:
+  bg: "#3E31A2"
+  fg: "#9085E0"
+  black: "#000000"
+  red: "#894036"
+  green: "#0DBC79"
+  yellow: "#D0DC71"
+  blue: "#2472C8"
+  magenta: "#8A46AE"
+  cyan: "#7ABFC7"
+  white: "#E5E5E5"
+  brightBlack: "#808080"
+  brightRed: "#A94D41"
+  brightGreen: "#23D18B"
+  brightYellow: "#E8F0A6"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#A655D1"
+  brightCyan: "#A6E9F0"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 280
+  contrast:
+    fg: 31.2
+    black: 12.1
+    red: 0
+    green: 42.2
+    yellow: 68.7
+    blue: 16.6
+    magenta: 11.1
+    cyan: 50
+    white: 79.2
+    brightBlack: 23
+    brightRed: 13.1
+    brightGreen: 52.8
+    brightYellow: 82.4
+    brightBlue: 29.2
+    brightMagenta: 20.4
+    brightCyan: 74.6
+    brightWhite: 79.2

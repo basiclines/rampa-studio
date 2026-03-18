@@ -1,0 +1,49 @@
+name: "Patina Dark"
+source:
+  marketplace_id: "LuisCMarkmann.patina-theme"
+  version: "0.9.0"
+  installs: 43
+  author: "Luis C. Markmann"
+  repo: "https://github.com/lmarkmann/patina-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LuisCMarkmann.patina-theme"
+colors:
+  bg: "#121212"
+  fg: "#DBD7CA"
+  black: "#2E2E2E"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6DB3C2"
+  magenta: "#C98A7D"
+  cyan: "#5DA9A7"
+  white: "#DBD7CA"
+  brightBlack: "#585858"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6DB3C2"
+  brightMagenta: "#C98A7D"
+  brightCyan: "#5DA9A7"
+  brightWhite: "#DBD7CA"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 81.7
+    black: 0
+    red: 41.2
+    green: 37.1
+    yellow: 76
+    blue: 55
+    magenta: 47
+    cyan: 48.6
+    white: 81.7
+    brightBlack: 16.7
+    brightRed: 41.2
+    brightGreen: 37.1
+    brightYellow: 76
+    brightBlue: 55
+    brightMagenta: 47
+    brightCyan: 48.6
+    brightWhite: 81.7

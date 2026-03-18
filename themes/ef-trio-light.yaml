@@ -1,0 +1,49 @@
+name: "Ef Trio Light"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#F8F5FF"
+  fg: "#4F3363"
+  black: "#4F3363"
+  red: "#C3303A"
+  green: "#057800"
+  yellow: "#A45F22"
+  blue: "#375CD6"
+  magenta: "#AD45BA"
+  cyan: "#1F6FBF"
+  white: "#EBE7F1"
+  brightBlack: "#786E74"
+  brightRed: "#D03033"
+  brightGreen: "#4F7D0F"
+  brightYellow: "#B8532F"
+  brightBlue: "#5165E4"
+  brightMagenta: "#C035AA"
+  brightCyan: "#3F6FAF"
+  brightWhite: "#F8F5FF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 89.2
+    black: 89.2
+    red: 71
+    green: 72.6
+    yellow: 68.8
+    blue: 73
+    magenta: 67.7
+    cyan: 69.8
+    white: 0
+    brightBlack: 68.9
+    brightRed: 68.2
+    brightGreen: 68.7
+    brightYellow: 68
+    brightBlue: 68.1
+    brightMagenta: 67.3
+    brightCyan: 69.9
+    brightWhite: 0

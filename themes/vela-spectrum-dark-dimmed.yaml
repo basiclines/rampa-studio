@@ -1,0 +1,49 @@
+name: "Vela Spectrum Dark+ Dimmed"
+source:
+  marketplace_id: "telianedward.vela-spectrum"
+  version: "0.3.7"
+  installs: 75
+  author: "Vela Inc"
+  repo: "https://github.com/Telianedward/VelaSpectrum"
+  url: "https://marketplace.visualstudio.com/items?itemName=telianedward.vela-spectrum"
+colors:
+  bg: "#0D1117"
+  fg: "#F6F8FA"
+  black: "#252525"
+  red: "#841A00"
+  green: "#1F7541"
+  yellow: "#9F7B01"
+  blue: "#5962D4"
+  magenta: "#9B3B6B"
+  cyan: "#3D7998"
+  white: "#F6F8FA"
+  brightBlack: "#3D444D"
+  brightRed: "#A53C1F"
+  brightGreen: "#42945D"
+  brightYellow: "#BE9936"
+  brightBlue: "#7481F7"
+  brightMagenta: "#BC5989"
+  brightCyan: "#5B98B7"
+  brightWhite: "#F6F8FA"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 258
+  contrast:
+    fg: 102.6
+    black: 0
+    red: 10.5
+    green: 23.1
+    yellow: 34.5
+    blue: 26.4
+    magenta: 19.8
+    cyan: 28.1
+    white: 102.6
+    brightBlack: 9.1
+    brightRed: 20.3
+    brightGreen: 36.5
+    brightYellow: 49.3
+    brightBlue: 40.2
+    brightMagenta: 32.2
+    brightCyan: 42.5
+    brightWhite: 102.6

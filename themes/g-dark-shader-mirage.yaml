@@ -1,0 +1,49 @@
+name: "G Dark-Shader (Mirage)"
+source:
+  marketplace_id: "Stonec0der.g-dark-theme"
+  version: "5.0.1"
+  installs: 10981
+  author: "stonecoder"
+  repo: "https://github.com/stoneC0der/g-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Stonec0der.g-dark-theme"
+colors:
+  bg: "#190B29"
+  fg: "#DFB2DD"
+  black: "#B165A0"
+  red: "#C92541"
+  green: "#36CE28"
+  yellow: "#DDC125"
+  blue: "#2459CE"
+  magenta: "#8628C5"
+  cyan: "#1482AD"
+  white: "#E9E5E5"
+  brightBlack: "#845C83"
+  brightRed: "#F73051"
+  brightGreen: "#12F744"
+  brightYellow: "#F5E729"
+  brightBlue: "#2366F5"
+  brightMagenta: "#A32EF1"
+  brightCyan: "#02ACF0"
+  brightWhite: "#D1CECE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 303
+  contrast:
+    fg: 68
+    black: 33.8
+    red: 25.3
+    green: 61.2
+    yellow: 69
+    blue: 20.9
+    magenta: 19.3
+    cyan: 31.3
+    white: 90.9
+    brightBlack: 23.9
+    brightRed: 37.1
+    brightGreen: 81.8
+    brightYellow: 89.2
+    brightBlue: 27.9
+    brightMagenta: 28
+    brightCyan: 51.6
+    brightWhite: 76.6

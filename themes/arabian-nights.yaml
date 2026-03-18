@@ -1,0 +1,49 @@
+name: "Arabian Nights"
+source:
+  marketplace_id: "andrejkoller.arabian-nights-theme"
+  version: "1.0.4"
+  installs: 132
+  author: "andrejkoller"
+  repo: "https://github.com/andrejkoller/arabian-nights-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=andrejkoller.arabian-nights-theme"
+colors:
+  bg: "#3B3446"
+  fg: "#F4F2F8"
+  black: "#1E1B26"
+  red: "#A84C4C"
+  green: "#5C8762"
+  yellow: "#D09B38"
+  blue: "#6E94C1"
+  magenta: "#9C70B3"
+  cyan: "#5FB9B0"
+  white: "#E0D9D1"
+  brightBlack: "#3A3240"
+  brightRed: "#D65F5F"
+  brightGreen: "#87AF87"
+  brightYellow: "#F2C66D"
+  brightBlue: "#8FBCE6"
+  brightMagenta: "#C08CD7"
+  brightCyan: "#8BDAD5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 302
+  contrast:
+    fg: 92.9
+    black: 0
+    red: 17.7
+    green: 26.4
+    yellow: 46.2
+    blue: 36.2
+    magenta: 28.3
+    cyan: 49.5
+    white: 77.1
+    brightBlack: 0
+    brightRed: 30.6
+    brightGreen: 46.5
+    brightYellow: 68.7
+    brightBlue: 56.7
+    brightMagenta: 43.7
+    brightCyan: 68.8
+    brightWhite: 100.8

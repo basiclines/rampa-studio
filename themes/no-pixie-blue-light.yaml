@@ -1,0 +1,49 @@
+name: "No Pixie Blue Light"
+source:
+  marketplace_id: "no-pixie.nopixie-theme"
+  version: "2.1.0"
+  installs: 28
+  author: "No Pixie"
+  repo: "https://github.com/nopixie/nopixie-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"
+colors:
+  bg: "#F8FAFE"
+  fg: "#2A3340"
+  black: "#2A3340"
+  red: "#B42A2A"
+  green: "#2A8A6A"
+  yellow: "#1A5F8F"
+  blue: "#2A5078"
+  magenta: "#2A5078"
+  cyan: "#1A7F7D"
+  white: "#B8CDD5"
+  brightBlack: "#6A7580"
+  brightRed: "#D44A4A"
+  brightGreen: "#3AAF8A"
+  brightYellow: "#1AA8CF"
+  brightBlue: "#4A7FB8"
+  brightMagenta: "#5AA8E8"
+  brightCyan: "#2AC8C5"
+  brightWhite: "#E0F0FF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.8
+    black: 95.8
+    red: 77.1
+    green: 66
+    yellow: 80.1
+    blue: 85.5
+    magenta: 85.5
+    cyan: 69.8
+    white: 25.7
+    brightBlack: 69.6
+    brightRed: 65.7
+    brightGreen: 49.5
+    brightYellow: 50
+    brightBlue: 65.6
+    brightMagenta: 46.8
+    brightCyan: 36.8
+    brightWhite: 0

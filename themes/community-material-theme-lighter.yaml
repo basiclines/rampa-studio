@@ -1,0 +1,49 @@
+name: "Community-Material-Theme-Lighter"
+source:
+  marketplace_id: "Equinusocio.vsc-community-material-theme"
+  version: "1.4.7"
+  installs: 3728631
+  author: "Material Theme"
+  repo: "https://github.com/material-theme/vsc-community-material-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme"
+colors:
+  bg: "#FAFAFA"
+  fg: "#90A4AE"
+  black: "#000000"
+  red: "#E53935"
+  green: "#91B859"
+  yellow: "#FFB62C"
+  blue: "#6182B8"
+  magenta: "#7C4DFF"
+  cyan: "#39ADB5"
+  white: "#FFFFFF"
+  brightBlack: "#90A4AE"
+  brightRed: "#E53935"
+  brightGreen: "#91B859"
+  brightYellow: "#FFB62C"
+  brightBlue: "#6182B8"
+  brightMagenta: "#7C4DFF"
+  brightCyan: "#39ADB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 47.6
+    black: 103
+    red: 64.7
+    green: 41.9
+    yellow: 28.7
+    blue: 63.3
+    magenta: 69.6
+    cyan: 48.8
+    white: 0
+    brightBlack: 47.6
+    brightRed: 64.7
+    brightGreen: 41.9
+    brightYellow: 28.7
+    brightBlue: 63.3
+    brightMagenta: 69.6
+    brightCyan: 48.8
+    brightWhite: 0

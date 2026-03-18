@@ -1,0 +1,49 @@
+name: "Night-Stack Mono Focus"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0A0A0A"
+  fg: "#E5E5E5"
+  black: "#111111"
+  red: "#888888"
+  green: "#AAAAAA"
+  yellow: "#CCCCCC"
+  blue: "#777777"
+  magenta: "#999999"
+  cyan: "#DDDDDD"
+  white: "#FFFFFF"
+  brightBlack: "#111111"
+  brightRed: "#888888"
+  brightGreen: "#AAAAAA"
+  brightYellow: "#CCCCCC"
+  brightBlue: "#777777"
+  brightMagenta: "#999999"
+  brightCyan: "#DDDDDD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 90.9
+    black: 0
+    red: 38.5
+    green: 56.1
+    yellow: 75.5
+    blue: 30.4
+    magenta: 47
+    cyan: 85.9
+    white: 107.7
+    brightBlack: 0
+    brightRed: 38.5
+    brightGreen: 56.1
+    brightYellow: 75.5
+    brightBlue: 30.4
+    brightMagenta: 47
+    brightCyan: 85.9
+    brightWhite: 107.7

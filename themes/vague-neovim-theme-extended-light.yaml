@@ -1,0 +1,49 @@
+name: "Vague neovim Theme Extended Light"
+source:
+  marketplace_id: "EmmettHintz.Kanagawa-Vague"
+  version: "0.1.6"
+  installs: 1197
+  author: "Emmett Hintz"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=EmmettHintz.Kanagawa-Vague"
+colors:
+  bg: "#FDFDFE"
+  fg: "#141415"
+  black: "#26233A"
+  red: "#DF6882"
+  green: "#8CB66D"
+  yellow: "#F3BE7C"
+  blue: "#6E94B2"
+  magenta: "#C48282"
+  cyan: "#7E98E8"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#DF6882"
+  brightGreen: "#8CB66D"
+  brightYellow: "#F3BE7C"
+  brightBlue: "#6E94B2"
+  brightMagenta: "#C48282"
+  brightCyan: "#7E98E8"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 103.9
+    black: 100.9
+    red: 58.2
+    green: 44.7
+    yellow: 28.6
+    blue: 58.1
+    magenta: 56.2
+    cyan: 52.4
+    white: 14.6
+    brightBlack: 58.3
+    brightRed: 58.2
+    brightGreen: 44.7
+    brightYellow: 28.6
+    brightBlue: 58.1
+    brightMagenta: 56.2
+    brightCyan: 52.4
+    brightWhite: 14.6

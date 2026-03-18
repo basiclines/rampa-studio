@@ -1,0 +1,49 @@
+name: "Office Light"
+source:
+  marketplace_id: "PowerTech.powerthemes"
+  version: "23.1.31"
+  installs: 6957
+  author: "PowerTech"
+  repo: "https://github.com/powertech-center/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=PowerTech.powerthemes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#F4B183"
+  green: "#A8D08D"
+  yellow: "#FFD965"
+  blue: "#8EAADB"
+  magenta: "#B2A1C7"
+  cyan: "#9CC3E5"
+  white: "#A5A5A5"
+  brightBlack: "#808080"
+  brightRed: "#ED7D31"
+  brightGreen: "#70AD47"
+  brightYellow: "#FFC000"
+  brightBlue: "#4472C4"
+  brightMagenta: "#8064A2"
+  brightCyan: "#5B9BD5"
+  brightWhite: "#C9C9C9"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 34.2
+    green: 31.6
+    yellow: 17.8
+    blue: 46.4
+    magenta: 46.9
+    cyan: 34.8
+    white: 48.5
+    brightBlack: 66.9
+    brightRed: 52.9
+    brightGreen: 52.3
+    brightYellow: 28.2
+    brightBlue: 72.5
+    brightMagenta: 74
+    brightCyan: 56
+    brightWhite: 29

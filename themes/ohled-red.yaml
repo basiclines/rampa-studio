@@ -1,0 +1,49 @@
+name: "OhLED_Red"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FF0000"
+  black: "#FF0000"
+  red: "#BB0000"
+  green: "#CC0000"
+  yellow: "#990000"
+  blue: "#EE0000"
+  magenta: "#DD0000"
+  cyan: "#AA0000"
+  white: "#880000"
+  brightBlack: "#FF0000"
+  brightRed: "#BB0000"
+  brightGreen: "#CC0000"
+  brightYellow: "#990000"
+  brightBlue: "#EE0000"
+  brightMagenta: "#DD0000"
+  brightCyan: "#AA0000"
+  brightWhite: "#880000"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 37.5
+    black: 37.5
+    red: 21.4
+    green: 25.2
+    yellow: 14.3
+    blue: 33.3
+    magenta: 29.2
+    cyan: 17.8
+    white: 11
+    brightBlack: 37.5
+    brightRed: 21.4
+    brightGreen: 25.2
+    brightYellow: 14.3
+    brightBlue: 33.3
+    brightMagenta: 29.2
+    brightCyan: 17.8
+    brightWhite: 11

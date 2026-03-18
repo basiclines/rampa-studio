@@ -1,0 +1,49 @@
+name: "Madrid Night"
+source:
+  marketplace_id: "jonpena.madrid-night-theme"
+  version: "1.0.6"
+  installs: 55
+  author: "joncode"
+  repo: "https://github.com/jonpena/vscode-madrid-night-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jonpena.madrid-night-theme"
+colors:
+  bg: "#191826"
+  fg: "#A9B1D6"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 287
+  contrast:
+    fg: 59.6
+    black: 0
+    red: 49.6
+    green: 72.5
+    yellow: 62.5
+    blue: 51.4
+    magenta: 55.3
+    cyan: 70.8
+    white: 32.3
+    brightBlack: 0
+    brightRed: 49.6
+    brightGreen: 72.5
+    brightYellow: 62.5
+    brightBlue: 51.4
+    brightMagenta: 55.3
+    brightCyan: 70.8
+    brightWhite: 59.2

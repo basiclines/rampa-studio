@@ -1,0 +1,49 @@
+name: "Midnight Pastel"
+source:
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3734
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+colors:
+  bg: "#212121"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF4081"
+  green: "#64FFDA"
+  yellow: "#FFD740"
+  blue: "#00B0FF"
+  magenta: "#EA80FC"
+  cyan: "#64FFDA"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#FF4081"
+  brightGreen: "#64FFBA"
+  brightYellow: "#FFD740"
+  brightBlue: "#00B0FF"
+  brightMagenta: "#EA80FC"
+  brightCyan: "#64FFDA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 105.6
+    black: 0
+    red: 40.2
+    green: 89.9
+    yellow: 82.2
+    blue: 52.7
+    magenta: 54.2
+    cyan: 89.9
+    white: 105.6
+    brightBlack: 9.7
+    brightRed: 40.2
+    brightGreen: 88.7
+    brightYellow: 82.2
+    brightBlue: 52.7
+    brightMagenta: 54.2
+    brightCyan: 89.9
+    brightWhite: 105.6

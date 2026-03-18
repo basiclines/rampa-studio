@@ -1,0 +1,49 @@
+name: "Deep Dark"
+source:
+  marketplace_id: "andrey2620.andrey2620-theme"
+  version: "1.0.0"
+  installs: 8
+  author: "andrey2620"
+  repo: "https://github.com/andrey2620/andrey2620-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=andrey2620.andrey2620-theme"
+colors:
+  bg: "#151515"
+  fg: "#E181FF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#FDA400"
+  yellow: "#B54AFD"
+  blue: "#404CBB"
+  magenta: "#FF6905"
+  cyan: "#00A563"
+  white: "#FF7777"
+  brightBlack: "#808080"
+  brightRed: "#DD4F4F"
+  brightGreen: "#A7D651"
+  brightYellow: "#FF0099"
+  brightBlue: "#67DA0A"
+  brightMagenta: "#CC00FF"
+  brightCyan: "#4043E6"
+  brightWhite: "#FFFAFA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 54.5
+    black: 0
+    red: 36.7
+    green: 63.2
+    yellow: 35.2
+    blue: 17.1
+    magenta: 46.8
+    cyan: 42.4
+    white: 51.4
+    brightBlack: 33.9
+    brightRed: 34.8
+    brightGreen: 71.9
+    brightYellow: 39.4
+    brightBlue: 68.6
+    brightMagenta: 34.7
+    brightCyan: 19.2
+    brightWhite: 104.5

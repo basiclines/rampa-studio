@@ -1,0 +1,49 @@
+name: "Sage Professional"
+source:
+  marketplace_id: "cubancodepath.jv-sage-professional"
+  version: "2.1.0"
+  installs: 8
+  author: "Bárbaro Javier"
+  repo: "https://github.com/cubancodepath/sage-professional-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cubancodepath.jv-sage-professional"
+colors:
+  bg: "#1E2A2E"
+  fg: "#D4DDD8"
+  black: "#1E2A2E"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#D4DDD8"
+  brightBlack: "#5A6B63"
+  brightRed: "#F78C6C"
+  brightGreen: "#D4EEAA"
+  brightYellow: "#FFE0A0"
+  brightBlue: "#A6C4FF"
+  brightMagenta: "#DDB3F0"
+  brightCyan: "#A8EEFF"
+  brightWhite: "#F0F4F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  contrast:
+    fg: 81.2
+    black: 0
+    red: 44.1
+    green: 81.7
+    yellow: 76.5
+    blue: 53.4
+    magenta: 51.3
+    cyan: 75.8
+    white: 81.2
+    brightBlack: 20
+    brightRed: 52.5
+    brightGreen: 87.3
+    brightYellow: 86.6
+    brightBlue: 67.2
+    brightMagenta: 66.3
+    brightCyan: 86.3
+    brightWhite: 96.5

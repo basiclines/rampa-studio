@@ -1,0 +1,49 @@
+name: "Lunar Eclipse Golden Hour"
+source:
+  marketplace_id: "ginfuru.lunar-eclipse"
+  version: "0.1.4"
+  installs: 10309
+  author: "Ed Heltzel"
+  repo: "https://github.com/edheltzel/vscode-lunar-eclipse-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ginfuru.lunar-eclipse"
+colors:
+  bg: "#191C1D"
+  fg: "#AFA188"
+  black: "#F4EBC2"
+  red: "#C7231C"
+  green: "#939214"
+  yellow: "#D09420"
+  blue: "#00B6C2"
+  magenta: "#85598E"
+  cyan: "#5F8F61"
+  white: "#191C1D"
+  brightBlack: "#666666"
+  brightRed: "#ED4531"
+  brightGreen: "#AEB124"
+  brightYellow: "#EFB52D"
+  brightBlue: "#7D9D91"
+  brightMagenta: "#B37EC8"
+  brightCyan: "#8BBC79"
+  brightWhite: "#F4EBC2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 50.7
+    black: 92.9
+    red: 23.6
+    green: 40
+    yellow: 49.1
+    blue: 52.4
+    magenta: 22.9
+    cyan: 35.1
+    white: 0
+    brightBlack: 21.5
+    brightRed: 35.8
+    brightGreen: 55.3
+    brightYellow: 66.3
+    brightBlue: 44.2
+    brightMagenta: 42.2
+    brightCyan: 57.5
+    brightWhite: 92.9

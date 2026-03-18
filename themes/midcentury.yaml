@@ -1,0 +1,49 @@
+name: "Midcentury"
+source:
+  marketplace_id: "Atompowered.midcentury"
+  version: "0.0.1"
+  installs: 49
+  author: "Adam Schuster"
+  repo: "https://github.com/atomicguy/midcentury"
+  url: "https://marketplace.visualstudio.com/items?itemName=Atompowered.midcentury"
+colors:
+  bg: "#321513"
+  fg: "#FBE5C6"
+  black: "#321513"
+  red: "#DB72AE"
+  green: "#589ACE"
+  yellow: "#D55D5C"
+  blue: "#308E95"
+  magenta: "#63CCE3"
+  cyan: "#43AC75"
+  white: "#FBE5C6"
+  brightBlack: "#A48B79"
+  brightRed: "#DB72AE"
+  brightGreen: "#589ACE"
+  brightYellow: "#D55D5C"
+  brightBlue: "#308E95"
+  brightMagenta: "#63CCE3"
+  brightCyan: "#43AC75"
+  brightWhite: "#FDFBEC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 25
+  contrast:
+    fg: 91
+    black: 0
+    red: 43.7
+    green: 42.9
+    yellow: 35
+    blue: 33.9
+    magenta: 65.7
+    cyan: 45.7
+    white: 91
+    brightBlack: 40.5
+    brightRed: 43.7
+    brightGreen: 42.9
+    brightYellow: 35
+    brightBlue: 33.9
+    brightMagenta: 65.7
+    brightCyan: 45.7
+    brightWhite: 102.9

@@ -1,0 +1,49 @@
+name: "Monokai22"
+source:
+  marketplace_id: "henderjon.monokai22"
+  version: "1.0.7"
+  installs: 150
+  author: "henderjon"
+  repo: "https://github.com/henderjon/monokai22"
+  url: "https://marketplace.visualstudio.com/items?itemName=henderjon.monokai22"
+colors:
+  bg: "#1E1E1E"
+  fg: "#F8F8F2"
+  black: "#000000"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#FFE792"
+  blue: "#FD971F"
+  magenta: "#AE81FF"
+  cyan: "#66D9EF"
+  white: "#F8F8F2"
+  brightBlack: "#75715E"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#FFE792"
+  brightBlue: "#FD971F"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 101.1
+    black: 0
+    red: 36.5
+    green: 76.2
+    yellow: 91
+    blue: 57.9
+    magenta: 45.7
+    cyan: 72.6
+    white: 101.1
+    brightBlack: 25.8
+    brightRed: 36.5
+    brightGreen: 76.2
+    brightYellow: 91
+    brightBlue: 57.9
+    brightMagenta: 45.7
+    brightCyan: 72.6
+    brightWhite: 101.1

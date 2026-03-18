@@ -1,0 +1,49 @@
+name: "Nova"
+source:
+  marketplace_id: "swashata.beautiful-ui"
+  version: "1.7.0"
+  installs: 121085
+  author: "swashata"
+  repo: "https://github.com/swashata/vscode-beautiful-ui"
+  url: "https://marketplace.visualstudio.com/items?itemName=swashata.beautiful-ui"
+colors:
+  bg: "#3B4B54"
+  fg: "#C5D4DD"
+  black: "#000000"
+  red: "#D81E00"
+  green: "#5EA702"
+  yellow: "#CFAE00"
+  blue: "#427AB3"
+  magenta: "#89658E"
+  cyan: "#00A7AA"
+  white: "#DBDED8"
+  brightBlack: "#686A66"
+  brightRed: "#F54235"
+  brightGreen: "#99E343"
+  brightYellow: "#FDEB61"
+  brightBlue: "#84B0D8"
+  brightMagenta: "#BC94B7"
+  brightCyan: "#37E6E8"
+  brightWhite: "#F1F1F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 233
+  contrast:
+    fg: 66.4
+    black: 13.2
+    red: 15.9
+    green: 32.8
+    yellow: 47.2
+    blue: 17.9
+    magenta: 15.3
+    cyan: 33.7
+    white: 73.3
+    brightBlack: 11.8
+    brightRed: 26.1
+    brightGreen: 64.8
+    brightYellow: 80.7
+    brightBlue: 44.4
+    brightMagenta: 38.4
+    brightCyan: 66
+    brightWhite: 86

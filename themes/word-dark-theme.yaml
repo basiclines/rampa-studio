@@ -1,0 +1,49 @@
+name: "word-dark-theme"
+source:
+  marketplace_id: "simen.theme-simen"
+  version: "1.2.0"
+  installs: 54
+  author: "simen"
+  repo: "https://github.com/microsoft/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=simen.theme-simen"
+colors:
+  bg: "#262626"
+  fg: "#F6F6F6"
+  black: "#000000"
+  red: "#ED7D31"
+  green: "#FFFFFF"
+  yellow: "#FFC000"
+  blue: "#7FA5F9"
+  magenta: "#C19DEC"
+  cyan: "#5B9BD5"
+  white: "#F6F6F6"
+  brightBlack: "#A5A5A5"
+  brightRed: "#F38784"
+  brightGreen: "#B0E18D"
+  brightYellow: "#FFD965"
+  brightBlue: "#8EAADB"
+  brightMagenta: "#CEB0F4"
+  brightCyan: "#A7C6F1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 98.9
+    black: 0
+    red: 45.8
+    green: 104.8
+    yellow: 71.7
+    blue: 51.3
+    magenta: 54.6
+    cyan: 42.7
+    white: 98.9
+    brightBlack: 50.4
+    brightRed: 51.3
+    brightGreen: 76.8
+    brightYellow: 82.7
+    brightBlue: 52.6
+    brightMagenta: 63.7
+    brightCyan: 67.7
+    brightWhite: 104.8

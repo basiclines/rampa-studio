@@ -1,0 +1,49 @@
+name: "niceDark"
+source:
+  marketplace_id: "niceDark.nicedark"
+  version: "0.1.0"
+  installs: 83
+  author: "FathyMuhamed"
+  repo: "https://github.com/FathyMuhamed/darkTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=niceDark.nicedark"
+colors:
+  bg: "#193549"
+  fg: "#D6DEEB"
+  black: "#193549"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#FFC600"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 242
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 34.5
+    green: 62.4
+    yellow: 71.3
+    blue: 51.1
+    magenta: 48.9
+    cyan: 54.9
+    white: 102.1
+    brightBlack: 10.8
+    brightRed: 34.5
+    brightGreen: 62.4
+    brightYellow: 88.9
+    brightBlue: 51.1
+    brightMagenta: 48.9
+    brightCyan: 69.2
+    brightWhite: 102.1

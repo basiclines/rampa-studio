@@ -1,0 +1,49 @@
+name: "Carbonight"
+source:
+  marketplace_id: "Erfannsb.carbonight"
+  version: "1.0.0"
+  installs: 83
+  author: "Erfan Nasibi"
+  repo: "https://github.com/erfannsb/carbonight"
+  url: "https://marketplace.visualstudio.com/items?itemName=Erfannsb.carbonight"
+colors:
+  bg: "#0C1015"
+  fg: "#D8DEE9"
+  black: "#0C1015"
+  red: "#FF6B81"
+  green: "#9FF7C2"
+  yellow: "#FFE6A7"
+  blue: "#4CC9F0"
+  magenta: "#E4B1FF"
+  cyan: "#9EE7F5"
+  white: "#E9EDF3"
+  brightBlack: "#1A2330"
+  brightRed: "#FF8DA2"
+  brightGreen: "#AFFFD1"
+  brightYellow: "#FFF2BD"
+  brightBlue: "#7DDFFF"
+  brightMagenta: "#F2C6FF"
+  brightCyan: "#C8F4FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 254
+  contrast:
+    fg: 86
+    black: 0
+    red: 49.2
+    green: 90.3
+    yellow: 92.5
+    blue: 65.6
+    magenta: 70.6
+    cyan: 84.6
+    white: 95.4
+    brightBlack: 0
+    brightRed: 59
+    brightGreen: 96.2
+    brightYellow: 98.7
+    brightBlue: 79
+    brightMagenta: 80.7
+    brightCyan: 95.3
+    brightWhite: 107.5

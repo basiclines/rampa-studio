@@ -1,0 +1,49 @@
+name: "Winter"
+source:
+  marketplace_id: "wintercms.winter-vscode-theme"
+  version: "1.0.1"
+  installs: 337
+  author: "Winter CMS"
+  repo: "https://github.com/wintercms/winter-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wintercms.winter-vscode-theme"
+colors:
+  bg: "#17191E"
+  fg: "#BDC1CA"
+  black: "#17191E"
+  red: "#FF8D90"
+  green: "#A1C861"
+  yellow: "#E1B834"
+  blue: "#8BACFE"
+  magenta: "#BFA0EE"
+  cyan: "#4BD1D3"
+  white: "#BDC1CA"
+  brightBlack: "#55585F"
+  brightRed: "#FFB3B4"
+  brightGreen: "#BADE7F"
+  brightYellow: "#F5D05F"
+  brightBlue: "#AEC4FF"
+  brightMagenta: "#D5B9FF"
+  brightCyan: "#7DE5E7"
+  brightWhite: "#D4D8E2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 268
+  contrast:
+    fg: 67.9
+    black: 0
+    red: 57.6
+    green: 64.7
+    yellow: 65.5
+    blue: 57.2
+    magenta: 57.4
+    cyan: 66.9
+    white: 67.9
+    brightBlack: 16
+    brightRed: 71.3
+    brightGreen: 77.9
+    brightYellow: 79
+    brightBlue: 70.2
+    brightMagenta: 70.6
+    brightCyan: 79.8
+    brightWhite: 81.7

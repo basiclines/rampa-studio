@@ -1,0 +1,49 @@
+name: "Tailwind Orange Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#FFF7ED"
+  fg: "#9A3412"
+  black: "#7C2D12"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#FFEDD5"
+  brightBlack: "#7C2D12"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FFEDD5"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 80.3
+    black: 86.7
+    red: 59.7
+    green: 40.2
+    yellow: 32.2
+    blue: 59.7
+    magenta: 62.1
+    cyan: 43
+    white: 0
+    brightBlack: 86.7
+    brightRed: 59.7
+    brightGreen: 40.2
+    brightYellow: 32.2
+    brightBlue: 59.7
+    brightMagenta: 62.1
+    brightCyan: 43
+    brightWhite: 0

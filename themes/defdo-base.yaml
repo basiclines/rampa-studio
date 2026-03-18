@@ -1,0 +1,49 @@
+name: "defdo base"
+source:
+  marketplace_id: "defdo.defdo-themes"
+  version: "0.0.15"
+  installs: 1254
+  author: "defdo"
+  repo: "https://github.com/defdo-dev/defdo-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=defdo.defdo-themes"
+colors:
+  bg: "#131C21"
+  fg: "#EEFFFF"
+  black: "#131C21"
+  red: "#E24F4F"
+  green: "#0DBC79"
+  yellow: "#F9BC02"
+  blue: "#006EE8"
+  magenta: "#8954AC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F65757"
+  brightGreen: "#23D18B"
+  brightYellow: "#F9E802"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#A870D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFEFE"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 233
+  contrast:
+    fg: 104.1
+    black: 0
+    red: 35.3
+    green: 52.6
+    yellow: 70.7
+    blue: 28
+    magenta: 24
+    cyan: 47.1
+    white: 89.6
+    brightBlack: 21.6
+    brightRed: 41.3
+    brightGreen: 63.1
+    brightYellow: 89.5
+    brightBlue: 39.6
+    brightMagenta: 37.6
+    brightCyan: 55
+    brightWhite: 105.9

@@ -1,0 +1,49 @@
+name: "Lighthaus"
+source:
+  marketplace_id: "lighthaus-theme.lighthaus-vscode"
+  version: "1.0.0"
+  installs: 653
+  author: "Lighthaus"
+  repo: "https://github.com/lighthaus-theme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=lighthaus-theme.lighthaus-vscode"
+colors:
+  bg: "#18191E"
+  fg: "#FFFADE"
+  black: "#18191E"
+  red: "#FC2929"
+  green: "#44B273"
+  yellow: "#E25600"
+  blue: "#1D918B"
+  magenta: "#D16BB7"
+  cyan: "#00BFA4"
+  white: "#CCCCCC"
+  brightBlack: "#8E8D8D"
+  brightRed: "#FF5050"
+  brightGreen: "#50C16E"
+  brightYellow: "#ED722E"
+  brightBlue: "#47A8A1"
+  brightMagenta: "#D68EB2"
+  brightCyan: "#5AD1AA"
+  brightWhite: "#FFFADE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.8
+    black: 0
+    red: 36.8
+    green: 49
+    yellow: 36.2
+    blue: 35
+    magenta: 41.3
+    cyan: 55.5
+    white: 74.4
+    brightBlack: 40
+    brightRed: 42.3
+    brightGreen: 56.1
+    brightYellow: 44.8
+    brightBlue: 46.3
+    brightMagenta: 51.6
+    brightCyan: 65.7
+    brightWhite: 102.8

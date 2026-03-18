@@ -1,0 +1,49 @@
+name: "varlet-dark"
+source:
+  marketplace_id: "haoziqaq.vscode-theme-varlet"
+  version: "0.0.14"
+  installs: 351
+  author: "haoziqaq"
+  repo: "https://github.com/varletjs/vscode-theme-varlet"
+  url: "https://marketplace.visualstudio.com/items?itemName=haoziqaq.vscode-theme-varlet"
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#393A34"
+  red: "#CB7676"
+  green: "#80A665"
+  yellow: "#E6CC77"
+  blue: "#9BB5FF"
+  magenta: "#D9739F"
+  cyan: "#83BDEE"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#80A665"
+  brightYellow: "#E6CC77"
+  brightBlue: "#9BB5FF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#83BDEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 39.9
+    green: 46.5
+    yellow: 74.8
+    blue: 61.6
+    magenta: 43.1
+    cyan: 61.8
+    white: 80.5
+    brightBlack: 28.7
+    brightRed: 39.9
+    brightGreen: 46.5
+    brightYellow: 74.8
+    brightBlue: 61.6
+    brightMagenta: 43.1
+    brightCyan: 61.8
+    brightWhite: 106

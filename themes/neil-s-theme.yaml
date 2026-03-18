@@ -1,0 +1,49 @@
+name: "Neil's Theme"
+source:
+  marketplace_id: "njp-anderson.neils-vscode-theme"
+  version: "0.0.1"
+  installs: 14
+  author: "N Anderson"
+  repo: "https://github.com/njpanderson/neils-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=njp-anderson.neils-vscode-theme"
+colors:
+  bg: "#FAFAFA"
+  fg: "#000000"
+  black: "#EDEEEE"
+  red: "#D24545"
+  green: "#2AA54D"
+  yellow: "#B48806"
+  blue: "#1F89CF"
+  magenta: "#AE6CBE"
+  cyan: "#23716D"
+  white: "#000000"
+  brightBlack: "#B4B7B7"
+  brightRed: "#F52222"
+  brightGreen: "#0BC440"
+  brightYellow: "#BA8B00"
+  brightBlue: "#008FEE"
+  brightMagenta: "#C14CDE"
+  brightCyan: "#0D8781"
+  brightWhite: "#333333"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 103
+    black: 0
+    red: 67.1
+    green: 55.6
+    yellow: 56.5
+    blue: 62
+    magenta: 61.3
+    cyan: 75.5
+    white: 103
+    brightBlack: 36.2
+    brightRed: 62.8
+    brightGreen: 42.3
+    brightYellow: 54.7
+    brightBlue: 57.8
+    brightMagenta: 62.8
+    brightCyan: 66.8
+    brightWhite: 95.7

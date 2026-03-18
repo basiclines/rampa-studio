@@ -1,0 +1,49 @@
+name: "xs"
+source:
+  marketplace_id: "VOID-DaydreaM.onsea-scenery"
+  version: "0.3.0"
+  installs: 6
+  author: "VOID-DaydreaM"
+  repo: "https://github.com/mag1c1an1/onsea-scenery"
+  url: "https://marketplace.visualstudio.com/items?itemName=VOID-DaydreaM.onsea-scenery"
+colors:
+  bg: "#FFFFFF"
+  fg: "#B81515"
+  black: "#101316"
+  red: "#E35535"
+  green: "#00A884"
+  yellow: "#DDB177"
+  blue: "#11B7D4"
+  magenta: "#D46EC0"
+  cyan: "#DDB177"
+  white: "#C3C6CB"
+  brightBlack: "#11B7D4"
+  brightRed: "#E35535"
+  brightGreen: "#00A884"
+  brightYellow: "#DDB177"
+  brightBlue: "#11B7D4"
+  brightMagenta: "#D46EC0"
+  brightCyan: "#DDB177"
+  brightWhite: "#C3C6CB"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 80.8
+    black: 105.2
+    red: 64
+    green: 56.4
+    yellow: 38.1
+    blue: 46.7
+    magenta: 57.5
+    cyan: 38.1
+    white: 30.8
+    brightBlack: 46.7
+    brightRed: 64
+    brightGreen: 56.4
+    brightYellow: 38.1
+    brightBlue: 46.7
+    brightMagenta: 57.5
+    brightCyan: 38.1
+    brightWhite: 30.8

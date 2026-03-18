@@ -1,0 +1,49 @@
+name: "Myoptic"
+source:
+  marketplace_id: "refactorthis.myoptic"
+  version: "1.0.6"
+  installs: 213
+  author: "refactor_this"
+  repo: "https://github.com/refactor-this/myoptic-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=refactorthis.myoptic"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#BE0000"
+  green: "#009B00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 79.8
+    green: 63.6
+    yellow: 57.9
+    blue: 86.1
+    magenta: 74.6
+    cyan: 60.6
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 74
+    brightGreen: 40.9
+    brightYellow: 40.9
+    brightBlue: 86.1
+    brightMagenta: 74.6
+    brightCyan: 60.6
+    brightWhite: 48.5

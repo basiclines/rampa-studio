@@ -1,0 +1,49 @@
+name: "soup"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#40424C"
+  fg: "#9090B2"
+  black: "#4C4E5A"
+  red: "#BA0E2E"
+  green: "#68B0AB"
+  yellow: "#8FC0A9"
+  blue: "#C8D5B9"
+  magenta: "#FAF3DD"
+  cyan: "#8FC0A9"
+  white: "#9F9FBC"
+  brightBlack: "#6F7283"
+  brightRed: "#F03E5F"
+  brightGreen: "#ABD3D0"
+  brightYellow: "#D0E5DB"
+  brightBlue: "#FAFBF9"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#D0E5DB"
+  brightWhite: "#CCCCDC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 277
+  contrast:
+    fg: 33.5
+    black: 0
+    red: 10.9
+    green: 42.4
+    yellow: 52
+    blue: 67.8
+    magenta: 89.5
+    cyan: 52
+    white: 41
+    brightBlack: 18.1
+    brightRed: 27.2
+    brightGreen: 64.6
+    brightYellow: 77.4
+    brightBlue: 94.4
+    brightMagenta: 97.3
+    brightCyan: 77.4
+    brightWhite: 65.8

@@ -1,0 +1,49 @@
+name: "Vim Light Hard"
+source:
+  marketplace_id: "AndreaCombette.SweetWood"
+  version: "0.5.5"
+  installs: 249
+  author: "AndreaCombette"
+  repo: "https://github.com/Chatr0uge/SweetWood-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreaCombette.SweetWood"
+colors:
+  bg: "#D6DFEE"
+  fg: "#3D2D27"
+  black: "#D6DFEE"
+  red: "#975F0E"
+  green: "#B5761A"
+  yellow: "#D0850D"
+  blue: "#5D768F"
+  magenta: "#767A7E"
+  cyan: "#767A7E"
+  white: "#656A6B"
+  brightBlack: "#767A7E"
+  brightRed: "#794115"
+  brightGreen: "#975F0E"
+  brightYellow: "#B5761A"
+  brightBlue: "#495D65"
+  brightMagenta: "#855D44"
+  brightCyan: "#495D65"
+  brightWhite: "#3D2D27"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: 261
+  contrast:
+    fg: 80.1
+    black: 0
+    red: 56.9
+    green: 45.7
+    yellow: 36.9
+    blue: 53.5
+    magenta: 50.8
+    cyan: 50.8
+    white: 58.2
+    brightBlack: 50.8
+    brightRed: 68.6
+    brightGreen: 56.9
+    brightYellow: 45.7
+    brightBlue: 64.7
+    brightMagenta: 59.5
+    brightCyan: 64.7
+    brightWhite: 80.1

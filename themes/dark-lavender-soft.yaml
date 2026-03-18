@@ -1,0 +1,49 @@
+name: "Dark Lavender (Soft)"
+source:
+  marketplace_id: "t7yang.dark-lavender"
+  version: "6.2.1"
+  installs: 8090
+  author: "t7yang"
+  repo: "https://github.com/t7yang/dark-lavender"
+  url: "https://marketplace.visualstudio.com/items?itemName=t7yang.dark-lavender"
+colors:
+  bg: "#13151E"
+  fg: "#CFD8DC"
+  black: "#263238"
+  red: "#D32F2F"
+  green: "#388E3C"
+  yellow: "#FBC02D"
+  blue: "#0D47A1"
+  magenta: "#C2185B"
+  cyan: "#0097A7"
+  white: "#607D8B"
+  brightBlack: "#455A64"
+  brightRed: "#F44336"
+  brightGreen: "#4CAF50"
+  brightYellow: "#FFEB3B"
+  brightBlue: "#2196F3"
+  brightMagenta: "#E91E63"
+  brightCyan: "#00BCD4"
+  brightWhite: "#90A4AE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  contrast:
+    fg: 81.1
+    black: 0
+    red: 28
+    green: 32.8
+    yellow: 73.3
+    blue: 12.4
+    magenta: 23.5
+    cyan: 38.8
+    white: 30.5
+    brightBlack: 16
+    brightRed: 37.9
+    brightGreen: 47.7
+    brightYellow: 92.5
+    brightBlue: 43.2
+    brightMagenta: 32.8
+    brightCyan: 56.6
+    brightWhite: 50.4

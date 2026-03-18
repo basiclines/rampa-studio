@@ -1,0 +1,49 @@
+name: "mlia-dark"
+source:
+  marketplace_id: "grdthh.mliaa"
+  version: "0.2.0"
+  installs: 192
+  author: "grdthh"
+  repo: "https://github.com/hashyael/mlia"
+  url: "https://marketplace.visualstudio.com/items?itemName=grdthh.mliaa"
+colors:
+  bg: "#171717"
+  fg: "#AAAAAA"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 55.2
+    black: 8.1
+    red: 33
+    green: 61.7
+    yellow: 76.4
+    blue: 48.6
+    magenta: 46.5
+    cyan: 62.7
+    white: 92.3
+    brightBlack: 15.4
+    brightRed: 33
+    brightGreen: 61.7
+    brightYellow: 76.4
+    brightBlue: 48.6
+    brightMagenta: 46.5
+    brightCyan: 60.6
+    brightWhite: 96.2

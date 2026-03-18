@@ -1,0 +1,49 @@
+name: "Menelik"
+source:
+  marketplace_id: "mansa-muntari.menelik-theme"
+  version: "1.6.0"
+  installs: 212
+  author: "Mansa Muntari"
+  repo: "https://github.com/Mansa-Muntari/menelik-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=mansa-muntari.menelik-theme"
+colors:
+  bg: "#0D0D0D"
+  fg: "#D9D9D9"
+  black: "#0D0D0D"
+  red: "#FF6250"
+  green: "#258870"
+  yellow: "#717E56"
+  blue: "#00AEFF"
+  magenta: "#847495"
+  cyan: "#DD9AC2"
+  white: "#D9D9D9"
+  brightBlack: "#737373"
+  brightRed: "#FF7E70"
+  brightGreen: "#85F4AC"
+  brightYellow: "#F8FA9E"
+  brightBlue: "#64E7E7"
+  brightMagenta: "#B3BDFF"
+  brightCyan: "#DD9AC2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 46.4
+    green: 31.7
+    yellow: 31.2
+    blue: 53.9
+    magenta: 31.8
+    cyan: 58.4
+    white: 83.3
+    brightBlack: 28.5
+    brightRed: 53.5
+    brightGreen: 86.3
+    brightYellow: 100.7
+    brightBlue: 80.4
+    brightMagenta: 68.9
+    brightCyan: 58.4
+    brightWhite: 107.6

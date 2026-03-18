@@ -1,0 +1,49 @@
+name: "yinloonga_python"
+source:
+  marketplace_id: "yinloonga.solarized-dark-cpp"
+  version: "1.48.0"
+  installs: 1779
+  author: "yinloonga"
+  repo: "https://github.com/torvalds/linux"
+  url: "https://marketplace.visualstudio.com/items?itemName=yinloonga.solarized-dark-cpp"
+colors:
+  bg: "#23272E"
+  fg: "#B8C0CC"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 262
+  contrast:
+    fg: 65
+    black: 0
+    red: 22.4
+    green: 50.8
+    yellow: 55.4
+    blue: 32.4
+    magenta: 30
+    cyan: 48.2
+    white: 86.3
+    brightBlack: 19.8
+    brightRed: 35.1
+    brightGreen: 74.8
+    brightYellow: 81.7
+    brightBlue: 47.6
+    brightMagenta: 44.3
+    brightCyan: 71.2
+    brightWhite: 99.8

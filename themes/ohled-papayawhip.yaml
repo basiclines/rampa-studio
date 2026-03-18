@@ -1,0 +1,49 @@
+name: "OhLED_PapayaWhip"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFEFD5"
+  black: "#FFEFD5"
+  red: "#BBAF9C"
+  green: "#CCBFAA"
+  yellow: "#998F80"
+  blue: "#EEDFC7"
+  magenta: "#DDCFB9"
+  cyan: "#AA9F8E"
+  white: "#887F72"
+  brightBlack: "#FFEFD5"
+  brightRed: "#BBAF9C"
+  brightGreen: "#CCBFAA"
+  brightYellow: "#998F80"
+  brightBlue: "#EEDFC7"
+  brightMagenta: "#DDCFB9"
+  brightCyan: "#AA9F8E"
+  brightWhite: "#887F72"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 98.6
+    black: 98.6
+    red: 59.8
+    green: 68.9
+    yellow: 42.7
+    blue: 88.3
+    magenta: 78.5
+    cyan: 51
+    white: 34.8
+    brightBlack: 98.6
+    brightRed: 59.8
+    brightGreen: 68.9
+    brightYellow: 42.7
+    brightBlue: 88.3
+    brightMagenta: 78.5
+    brightCyan: 51
+    brightWhite: 34.8

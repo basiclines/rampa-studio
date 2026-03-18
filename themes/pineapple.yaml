@@ -1,0 +1,49 @@
+name: "PineApple"
+source:
+  marketplace_id: "AshinBerish.pineapple"
+  version: "1.0.1"
+  installs: 240
+  author: "Ashin Berish"
+  repo: "https://github.com/ashinberish/PineApple-theme-VScode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AshinBerish.pineapple"
+colors:
+  bg: "#F6FFE8"
+  fg: "#171C28"
+  black: "#2F3B54"
+  red: "#FF3D4A"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#FF3D4A"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFCC66"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 101.9
+    black: 93.8
+    red: 58.8
+    green: 18.4
+    yellow: 20.9
+    blue: 31.7
+    magenta: 37.9
+    cyan: 31.7
+    white: 43.9
+    brightBlack: 88
+    brightRed: 58.8
+    brightGreen: 18.4
+    brightYellow: 20.9
+    brightBlue: 31.7
+    brightMagenta: 37.9
+    brightCyan: 31.7
+    brightWhite: 43.9

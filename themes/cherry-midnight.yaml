@@ -1,0 +1,49 @@
+name: "Cherry Midnight"
+source:
+  marketplace_id: "nullxception.cherry-theme"
+  version: "0.2.7"
+  installs: 8306
+  author: "Nauval Rizky"
+  repo: "https://github.com/nullxception/cherry-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nullxception.cherry-theme"
+colors:
+  bg: "#101017"
+  fg: "#BDC3DF"
+  black: "#33333F"
+  red: "#FF568E"
+  green: "#64DE83"
+  yellow: "#EFFF73"
+  blue: "#73A9FF"
+  magenta: "#946FF7"
+  cyan: "#62C6DA"
+  white: "#DEDEEF"
+  brightBlack: "#43435A"
+  brightRed: "#FF69A2"
+  brightGreen: "#73DE8A"
+  brightYellow: "#F3FF85"
+  brightBlue: "#85B6FF"
+  brightMagenta: "#A481F7"
+  brightCyan: "#71C2D9"
+  brightWhite: "#EBEBF0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  contrast:
+    fg: 70.5
+    black: 0
+    red: 45.5
+    green: 72.1
+    yellow: 100.8
+    blue: 55
+    magenta: 38.2
+    cyan: 63.9
+    white: 87
+    brightBlack: 9.7
+    brightRed: 49.9
+    brightGreen: 73
+    brightYellow: 101.6
+    brightBlue: 61.5
+    brightMagenta: 45.2
+    brightCyan: 62.9
+    brightWhite: 94.6

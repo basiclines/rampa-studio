@@ -1,0 +1,49 @@
+name: "sakura-theme"
+source:
+  marketplace_id: "DevangTomar.vscode-diverse-dye"
+  version: "1.3.0"
+  installs: 2595
+  author: "Devang Tomar ⭐"
+  repo: "https://github.com/devangtomar/vscode-diverse-dye"
+  url: "https://marketplace.visualstudio.com/items?itemName=DevangTomar.vscode-diverse-dye"
+colors:
+  bg: "#181C21"
+  fg: "#F2A2D6"
+  black: "#BC8DAB"
+  red: "#EC3737"
+  green: "#05925C"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#EC34EC"
+  cyan: "#75BEFF"
+  white: "#F2A2D6"
+  brightBlack: "#666666"
+  brightRed: "#FF7B7B"
+  brightGreen: "#77E2B7"
+  brightYellow: "#F7F79A"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#EA8FEA"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFB3F7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 254
+  contrast:
+    fg: 64.3
+    black: 46.7
+    red: 33.9
+    green: 33.6
+    yellow: 85.1
+    blue: 26.9
+    magenta: 40.9
+    cyan: 62.6
+    white: 64.3
+    brightBlack: 21.5
+    brightRed: 51.8
+    brightGreen: 75.6
+    brightYellow: 97.7
+    brightBlue: 39.5
+    brightMagenta: 58
+    brightCyan: 54.9
+    brightWhite: 74.1

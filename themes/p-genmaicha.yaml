@@ -1,0 +1,49 @@
+name: "P. \ Genmaicha"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74756
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+colors:
+  bg: "#F8DCA8"
+  fg: "#232729"
+  black: "#232729"
+  red: "#B61702"
+  green: "#009C22"
+  yellow: "#D68B01"
+  blue: "#1E5FB4"
+  magenta: "#D600C4"
+  cyan: "#0CB4B4"
+  white: "#C5C5C5"
+  brightBlack: "#3F3F3F"
+  brightRed: "#E43E28"
+  brightGreen: "#04B941"
+  brightYellow: "#FFB618"
+  brightBlue: "#2186E4"
+  brightMagenta: "#FF24E2"
+  brightCyan: "#12D6CC"
+  brightWhite: "#E4E4E4"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 83
+  contrast:
+    fg: 83.3
+    black: 83.3
+    red: 62.5
+    green: 44.5
+    yellow: 34.6
+    blue: 62.1
+    magenta: 50.1
+    cyan: 30.9
+    white: 12.6
+    brightBlack: 75.8
+    brightRed: 48.8
+    brightGreen: 31.7
+    brightYellow: 13.2
+    brightBlue: 45.9
+    brightMagenta: 38.3
+    brightCyan: 14.8
+    brightWhite: 0

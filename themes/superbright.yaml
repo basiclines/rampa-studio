@@ -1,0 +1,49 @@
+name: "SuperBright"
+source:
+  marketplace_id: "DIYST.super-bright"
+  version: "1.0.1"
+  installs: 1021
+  author: "DIYST"
+  repo: "https://github.com/diyst/SuperBrightTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DIYST.super-bright"
+colors:
+  bg: "#120E16"
+  fg: "#FFFFFF"
+  black: "#44475A"
+  red: "#DE312B"
+  green: "#2FD651"
+  yellow: "#D0D662"
+  blue: "#9C6FCF"
+  magenta: "#DE559C"
+  cyan: "#6AC5D3"
+  white: "#656B84"
+  brightBlack: "#656B84"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 307
+  contrast:
+    fg: 107.5
+    black: 10.8
+    red: 31.1
+    green: 65.6
+    yellow: 77.1
+    blue: 36.3
+    magenta: 38.8
+    cyan: 63.6
+    white: 25.2
+    brightBlack: 25.2
+    brightRed: 44
+    brightGreen: 85.5
+    brightYellow: 99.1
+    brightBlue: 54.2
+    brightMagenta: 55.2
+    brightCyan: 84.5
+    brightWhite: 102.6

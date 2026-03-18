@@ -1,0 +1,49 @@
+name: "Omni PRO"
+source:
+  marketplace_id: "viniciusamelio.theme-omni-pro"
+  version: "1.0.15"
+  installs: 2481
+  author: "viniciusamelio"
+  repo: "https://github.com/viniciusamelio/omni-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=viniciusamelio.theme-omni-pro"
+colors:
+  bg: "#191622"
+  fg: "#E1E1E6"
+  black: "#201B2D"
+  red: "#FF79C6"
+  green: "#67E480"
+  yellow: "#E7DE79"
+  blue: "#78D1E1"
+  magenta: "#B78AC9"
+  cyan: "#A1EFE4"
+  white: "#E1E1E6"
+  brightBlack: "#B78AC9"
+  brightRed: "#ED4556"
+  brightGreen: "#00F769"
+  brightYellow: "#E7DE79"
+  brightBlue: "#78D1E1"
+  brightMagenta: "#B78AC9"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#F7F7FB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 296
+  contrast:
+    fg: 87.6
+    black: 0
+    red: 54.5
+    green: 74.5
+    yellow: 83.6
+    blue: 69.9
+    magenta: 46.9
+    cyan: 87.2
+    white: 87.6
+    brightBlack: 46.9
+    brightRed: 36.7
+    brightGreen: 81.8
+    brightYellow: 83.6
+    brightBlue: 69.9
+    brightMagenta: 46.9
+    brightCyan: 96.7
+    brightWhite: 101.7

@@ -1,0 +1,49 @@
+name: "Kultist v2"
+source:
+  marketplace_id: "codekult.kultist-color-theme"
+  version: "1.1.0"
+  installs: 312
+  author: "codekult"
+  repo: "https://github.com/codekult/kultist-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=codekult.kultist-color-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#8A3632"
+  green: "#939354"
+  yellow: "#BA9B5F"
+  blue: "#5E7E80"
+  magenta: "#936C7E"
+  cyan: "#7B967C"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#B45B51"
+  brightGreen: "#B4B56B"
+  brightYellow: "#DDBE77"
+  brightBlue: "#90A19A"
+  brightMagenta: "#B58F99"
+  brightCyan: "#9FB896"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 15.3
+    green: 42.4
+    yellow: 50.5
+    blue: 31.2
+    magenta: 30.6
+    cyan: 42.1
+    white: 107.9
+    brightBlack: 23
+    brightRed: 30.1
+    brightGreen: 60
+    brightYellow: 69.5
+    brightBlue: 49.3
+    brightMagenta: 47.1
+    brightCyan: 60
+    brightWhite: 107.9

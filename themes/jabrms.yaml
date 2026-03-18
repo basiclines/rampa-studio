@@ -1,0 +1,49 @@
+name: "jabrms"
+source:
+  marketplace_id: "jabrms.jabrms-color-theme"
+  version: "0.0.1"
+  installs: 265
+  author: "jabrms"
+  repo: "https://github.com/jabrms/vsc-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jabrms.jabrms-color-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#161616"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#24A148"
+  yellow: "#F1C21B"
+  blue: "#0043CE"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#C6C6C6"
+  brightBlack: "#444444"
+  brightRed: "#CD3131"
+  brightGreen: "#42BE65"
+  brightYellow: "#F1C21B"
+  brightBlue: "#4589FF"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#F4F4F4"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 104.8
+    black: 106
+    red: 74
+    green: 60.5
+    yellow: 29.6
+    blue: 85.8
+    magenta: 74.6
+    cyan: 60.6
+    white: 30.7
+    brightBlack: 92.6
+    brightRed: 74
+    brightGreen: 46.7
+    brightYellow: 29.6
+    brightBlue: 60.5
+    brightMagenta: 74.6
+    brightCyan: 60.6
+    brightWhite: 0

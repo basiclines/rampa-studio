@@ -1,0 +1,49 @@
+name: "GrandBlue - Soft"
+source:
+  marketplace_id: "jojihatzz.grandblue"
+  version: "0.0.4"
+  installs: 100
+  author: "jojihatzz"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=jojihatzz.grandblue"
+colors:
+  bg: "#131B22"
+  fg: "#EBEFF5"
+  black: "#000000"
+  red: "#E94D4D"
+  green: "#2AD98B"
+  yellow: "#FAF88A"
+  blue: "#2C82D4"
+  magenta: "#D055D0"
+  cyan: "#47C1E0"
+  white: "#F0F0F0"
+  brightBlack: "#858585"
+  brightRed: "#F46565"
+  brightGreen: "#41E4AA"
+  brightYellow: "#FAF89A"
+  brightBlue: "#5AA2F0"
+  brightMagenta: "#E486E8"
+  brightCyan: "#4FD3F4"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 245
+  contrast:
+    fg: 95.8
+    black: 0
+    red: 36.6
+    green: 67.2
+    yellow: 98.4
+    blue: 33.4
+    magenta: 37.8
+    cyan: 60
+    white: 96.7
+    brightBlack: 35.8
+    brightRed: 43.9
+    brightGreen: 74
+    brightYellow: 98.8
+    brightBlue: 48.8
+    brightMagenta: 54.4
+    brightCyan: 69.6
+    brightWhite: 96.7

@@ -1,0 +1,49 @@
+name: "OhLED_Plum"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#DDA0DD"
+  black: "#DDA0DD"
+  red: "#A275A2"
+  green: "#B180B1"
+  yellow: "#856085"
+  blue: "#CE95CE"
+  magenta: "#C08BC0"
+  cyan: "#936B93"
+  white: "#765576"
+  brightBlack: "#DDA0DD"
+  brightRed: "#A275A2"
+  brightGreen: "#B180B1"
+  brightYellow: "#856085"
+  brightBlue: "#CE95CE"
+  brightMagenta: "#C08BC0"
+  brightCyan: "#936B93"
+  brightWhite: "#765576"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 62
+    black: 62
+    red: 36.7
+    green: 42.8
+    yellow: 25.8
+    blue: 55.2
+    magenta: 49.1
+    cyan: 31.2
+    white: 20.6
+    brightBlack: 62
+    brightRed: 36.7
+    brightGreen: 42.8
+    brightYellow: 25.8
+    brightBlue: 55.2
+    brightMagenta: 49.1
+    brightCyan: 31.2
+    brightWhite: 20.6

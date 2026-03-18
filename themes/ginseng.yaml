@@ -1,0 +1,49 @@
+name: "Ginseng"
+source:
+  marketplace_id: "hassan-k1.vscode-theme-ginseng"
+  version: "2.1.1"
+  installs: 888
+  author: "hassan-k1"
+  repo: "https://github.com/Ha55an-k1/vscode-theme-ginseng"
+  url: "https://marketplace.visualstudio.com/items?itemName=hassan-k1.vscode-theme-ginseng"
+colors:
+  bg: "#1F0033"
+  fg: "#F5E6FF"
+  black: "#00E5D6"
+  red: "#C90000"
+  green: "#0400FF"
+  yellow: "#E2DF2D"
+  blue: "#000052"
+  magenta: "#FF00FF"
+  cyan: "#00DDD5"
+  white: "#E5E5E5"
+  brightBlack: "#000000"
+  brightRed: "#FF0000"
+  brightGreen: "#0DD997"
+  brightYellow: "#E0FF00"
+  brightBlue: "#AE00FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 308
+  contrast:
+    fg: 94
+    black: 76
+    red: 23.6
+    green: 15.3
+    yellow: 82.6
+    blue: 0
+    magenta: 45.3
+    cyan: 72
+    white: 90.1
+    brightBlack: 0
+    brightRed: 36.6
+    brightGreen: 67.7
+    brightYellow: 97.6
+    brightBlue: 29.1
+    brightMagenta: 45.3
+    brightCyan: 91.2
+    brightWhite: 106.9

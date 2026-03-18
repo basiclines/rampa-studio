@@ -1,0 +1,49 @@
+name: "Night-Stack Obsidian Glass"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0A0C12"
+  fg: "#E6E9EF"
+  black: "#1A1F2B"
+  red: "#8F9BB3"
+  green: "#A5B4FC"
+  yellow: "#C7D2FE"
+  blue: "#6366F1"
+  magenta: "#818CF8"
+  cyan: "#93C5FD"
+  white: "#E6E9EF"
+  brightBlack: "#1A1F2B"
+  brightRed: "#8F9BB3"
+  brightGreen: "#A5B4FC"
+  brightYellow: "#C7D2FE"
+  brightBlue: "#6366F1"
+  brightMagenta: "#818CF8"
+  brightCyan: "#93C5FD"
+  brightWhite: "#E6E9EF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 270
+  contrast:
+    fg: 93.2
+    black: 0
+    red: 47.7
+    green: 63.6
+    yellow: 79.9
+    blue: 30.9
+    magenta: 45.3
+    cyan: 69
+    white: 93.2
+    brightBlack: 0
+    brightRed: 47.7
+    brightGreen: 63.6
+    brightYellow: 79.9
+    brightBlue: 30.9
+    brightMagenta: 45.3
+    brightCyan: 69
+    brightWhite: 93.2

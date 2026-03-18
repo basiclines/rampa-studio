@@ -1,0 +1,49 @@
+name: "Nur Light"
+source:
+  marketplace_id: "michelefenu.nur-theme-vscode"
+  version: "1.1.1"
+  installs: 429
+  author: "Michele Fenu"
+  repo: "https://github.com/michelefenu/nur"
+  url: "https://marketplace.visualstudio.com/items?itemName=michelefenu.nur-theme-vscode"
+colors:
+  bg: "#F8F5ED"
+  fg: "#5A5E6B"
+  black: "#5A5E6B"
+  red: "#E54837"
+  green: "#6B8E3D"
+  yellow: "#C77F1A"
+  blue: "#4A7FB5"
+  magenta: "#C67558"
+  cyan: "#5A8A82"
+  white: "#5A5E6B"
+  brightBlack: "#5A6A4D"
+  brightRed: "#E54837"
+  brightGreen: "#6B8E3D"
+  brightYellow: "#B89415"
+  brightBlue: "#70568A"
+  brightMagenta: "#C67558"
+  brightCyan: "#5A8A82"
+  brightWhite: "#F8F5ED"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76.2
+    black: 76.2
+    red: 59.8
+    green: 59.3
+    yellow: 53.4
+    blue: 62.9
+    magenta: 55.8
+    cyan: 60.4
+    white: 76.2
+    brightBlack: 73.2
+    brightRed: 59.8
+    brightGreen: 59.3
+    brightYellow: 49
+    brightBlue: 74.9
+    brightMagenta: 55.8
+    brightCyan: 60.4
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "revelation-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#555555"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#4E5D84"
+  yellow: "#617FA0"
+  blue: "#95C2E8"
+  magenta: "#91ABC1"
+  cyan: "#FFBB29"
+  white: "#626262"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#8391B5"
+  brightYellow: "#A1B3C6"
+  brightBlue: "#E9F2FA"
+  brightMagenta: "#D2DDE6"
+  brightCyan: "#FFDB8F"
+  brightWhite: "#888888"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 85.9
+    black: 0
+    red: 80.3
+    green: 82.3
+    yellow: 68.6
+    blue: 35.6
+    magenta: 47
+    cyan: 29.9
+    white: 80.5
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 58.5
+    brightYellow: 42.2
+    brightBlue: 0
+    brightMagenta: 18.5
+    brightCyan: 16.2
+    brightWhite: 63.1

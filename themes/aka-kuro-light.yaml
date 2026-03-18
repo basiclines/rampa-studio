@@ -1,0 +1,49 @@
+name: "Aka Kuro Light"
+source:
+  marketplace_id: "NoaHeutz.akakuro-theme"
+  version: "7.7.7"
+  installs: 915
+  author: "Noa Heutz"
+  repo: "https://github.com/Nah-Nova/akakuro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=NoaHeutz.akakuro-theme"
+colors:
+  bg: "#FCFCFC"
+  fg: "#29343D"
+  black: "#29343D"
+  red: "#F8961E"
+  green: "#90BE6D"
+  yellow: "#F3722C"
+  blue: "#577590"
+  magenta: "#F9C74F"
+  cyan: "#43AA8B"
+  white: "#555555"
+  brightBlack: "#394956"
+  brightRed: "#F8961E"
+  brightGreen: "#90BE6D"
+  brightYellow: "#F3722C"
+  brightBlue: "#577590"
+  brightMagenta: "#F9C74F"
+  brightCyan: "#43AA8B"
+  brightWhite: "#ABABAB"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 97
+    black: 97
+    red: 41.9
+    green: 40.3
+    yellow: 52.8
+    blue: 71.6
+    magenta: 24.3
+    cyan: 52.6
+    white: 84.1
+    brightBlack: 89.6
+    brightRed: 41.9
+    brightGreen: 40.3
+    brightYellow: 52.8
+    brightBlue: 71.6
+    brightMagenta: 24.3
+    brightCyan: 52.6
+    brightWhite: 43.5

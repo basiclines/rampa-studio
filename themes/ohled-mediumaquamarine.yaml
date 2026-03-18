@@ -1,0 +1,49 @@
+name: "OhLED_MediumAquaMarine"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#66CDAA"
+  black: "#66CDAA"
+  red: "#4B967D"
+  green: "#52A488"
+  yellow: "#3D7B66"
+  blue: "#5FBF9F"
+  magenta: "#58B293"
+  cyan: "#448971"
+  white: "#366D5B"
+  brightBlack: "#66CDAA"
+  brightRed: "#4B967D"
+  brightGreen: "#52A488"
+  brightYellow: "#3D7B66"
+  brightBlue: "#5FBF9F"
+  brightMagenta: "#58B293"
+  brightCyan: "#448971"
+  brightWhite: "#366D5B"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 65.7
+    black: 65.7
+    red: 39
+    green: 45.4
+    yellow: 27.5
+    blue: 58.5
+    magenta: 52
+    cyan: 33.3
+    white: 21.9
+    brightBlack: 65.7
+    brightRed: 39
+    brightGreen: 45.4
+    brightYellow: 27.5
+    brightBlue: 58.5
+    brightMagenta: 52
+    brightCyan: 33.3
+    brightWhite: 21.9

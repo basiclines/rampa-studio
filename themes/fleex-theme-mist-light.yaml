@@ -1,0 +1,49 @@
+name: "Fleex Theme Mist Light"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+colors:
+  bg: "#F7FAFC"
+  fg: "#23303A"
+  black: "#4E5D67"
+  red: "#B85E6D"
+  green: "#5F8F75"
+  yellow: "#B98533"
+  blue: "#5D82B4"
+  magenta: "#7A6CCF"
+  cyan: "#3B8C8B"
+  white: "#F4F8FA"
+  brightBlack: "#4E5D67"
+  brightRed: "#B85E6D"
+  brightGreen: "#5F8F75"
+  brightYellow: "#B98533"
+  brightBlue: "#5D82B4"
+  brightMagenta: "#7A6CCF"
+  brightCyan: "#3B8C8B"
+  brightWhite: "#F4F8FA"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 96.7
+    black: 80.2
+    red: 66.2
+    green: 61.2
+    yellow: 56.3
+    blue: 63.5
+    magenta: 66.4
+    cyan: 63.4
+    white: 0
+    brightBlack: 80.2
+    brightRed: 66.2
+    brightGreen: 61.2
+    brightYellow: 56.3
+    brightBlue: 63.5
+    brightMagenta: 66.4
+    brightCyan: 63.4
+    brightWhite: 0

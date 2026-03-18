@@ -1,0 +1,49 @@
+name: "MushroomSynth"
+source:
+  marketplace_id: "TjasaZil.mushroomsynth"
+  version: "0.1.0"
+  installs: 48
+  author: "TjasaZil"
+  repo: "https://github.com/TjasaZil/mushroomsynth"
+  url: "https://marketplace.visualstudio.com/items?itemName=TjasaZil.mushroomsynth"
+colors:
+  bg: "#182031"
+  fg: "#DDD5FF"
+  black: "#5C5C5C"
+  red: "#FF3E3E"
+  green: "#00FF9D"
+  yellow: "#FFFF00"
+  blue: "#52A4FF"
+  magenta: "#FF58FF"
+  cyan: "#28D5FF"
+  white: "#E8E8E8"
+  brightBlack: "#969696"
+  brightRed: "#FF7D7D"
+  brightGreen: "#5DFFBE"
+  brightYellow: "#FFFF86"
+  brightBlue: "#7EBBFF"
+  brightMagenta: "#FFA6FF"
+  brightCyan: "#62E0FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 265
+  contrast:
+    fg: 82.1
+    black: 16.7
+    red: 38.7
+    green: 86.1
+    yellow: 100.5
+    blue: 49.5
+    magenta: 50.2
+    cyan: 69.4
+    white: 90.8
+    brightBlack: 43.5
+    brightRed: 51.7
+    brightGreen: 88.6
+    brightYellow: 101.7
+    brightBlue: 61.3
+    brightMagenta: 69.5
+    brightCyan: 76.3
+    brightWhite: 105.7

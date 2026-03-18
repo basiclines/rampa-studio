@@ -1,0 +1,49 @@
+name: "Telescope - Fork"
+source:
+  marketplace_id: "Alucardness.telescope-theme"
+  version: "0.0.6"
+  installs: 1548
+  author: "Alucardness"
+  repo: "https://github.com/alucardness/telescope-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Alucardness.telescope-theme"
+colors:
+  bg: "#232534"
+  fg: "#BFC3E2"
+  black: "#121319"
+  red: "#BF616A"
+  green: "#72C2A2"
+  yellow: "#78B7E2"
+  blue: "#84A0C6"
+  magenta: "#A093C7"
+  cyan: "#89B8C2"
+  white: "#BCC5D8"
+  brightBlack: "#3E4960"
+  brightRed: "#E29199"
+  brightGreen: "#A0DBC2"
+  brightYellow: "#A8D2EE"
+  brightBlue: "#A3BEE3"
+  brightMagenta: "#C8B5E6"
+  brightCyan: "#B6D8DE"
+  brightWhite: "#E1EBFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  contrast:
+    fg: 68.2
+    black: 0
+    red: 30.9
+    green: 58
+    yellow: 56.5
+    blue: 46.7
+    magenta: 44.8
+    cyan: 56.6
+    white: 68.2
+    brightBlack: 8.5
+    brightRed: 51.8
+    brightGreen: 74.1
+    brightYellow: 72.8
+    brightBlue: 63.1
+    brightMagenta: 64
+    brightCyan: 76.1
+    brightWhite: 91.4

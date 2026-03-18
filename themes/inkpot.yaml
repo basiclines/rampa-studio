@@ -1,0 +1,49 @@
+name: "inkpot"
+source:
+  marketplace_id: "Ast3r0id.inkpot"
+  version: "0.0.1"
+  installs: 833
+  author: "Ast3r0id"
+  repo: "https://github.com/et3r/inkpot"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ast3r0id.inkpot"
+colors:
+  bg: "#1B1B33"
+  fg: "#9387C2"
+  black: "#00482A"
+  red: "#00C679"
+  green: "#00FDE9"
+  yellow: "#00F2F8"
+  blue: "#00CC63"
+  magenta: "#005555"
+  cyan: "#007BFA"
+  white: "#008CFC"
+  brightBlack: "#003DDE"
+  brightRed: "#00DEE4"
+  brightGreen: "#00F993"
+  brightYellow: "#00C472"
+  brightBlue: "#00FBD6"
+  brightMagenta: "#006CB8"
+  brightCyan: "#003C3C"
+  brightWhite: "#00969A"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 282
+  contrast:
+    fg: 40.3
+    black: 0
+    red: 56.8
+    green: 88.2
+    yellow: 83.3
+    blue: 59.2
+    magenta: 11.2
+    cyan: 33.2
+    white: 39.1
+    brightBlack: 14.9
+    brightRed: 72.4
+    brightGreen: 83
+    brightYellow: 55.7
+    brightBlue: 86.3
+    brightMagenta: 23.3
+    brightCyan: 0
+    brightWhite: 36.9

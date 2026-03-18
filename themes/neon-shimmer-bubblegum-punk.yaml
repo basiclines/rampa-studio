@@ -1,0 +1,49 @@
+name: "Neon Shimmer (Bubblegum Punk)"
+source:
+  marketplace_id: "piperunner.neon-shimmer"
+  version: "1.2.0"
+  installs: 16855
+  author: "Pipe Runner"
+  repo: "https://github.com/Pipe-Runner-Lab/neon-shimmer"
+  url: "https://marketplace.visualstudio.com/items?itemName=piperunner.neon-shimmer"
+colors:
+  bg: "#080006"
+  fg: "#FFD9F2"
+  black: "#080006"
+  red: "#EE4CFC"
+  green: "#73C991"
+  yellow: "#FFDF7E"
+  blue: "#EE05F2"
+  magenta: "#EE4CFC"
+  cyan: "#FFFFFF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F22294"
+  brightGreen: "#8E4AF5"
+  brightYellow: "#FFDF7E"
+  brightBlue: "#A78BFF"
+  brightMagenta: "#EE4CFC"
+  brightCyan: "#45FFED"
+  brightWhite: "#FFD9F2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 335
+  contrast:
+    fg: 90.2
+    black: 0
+    red: 46.7
+    green: 63.7
+    yellow: 88.8
+    blue: 41.4
+    magenta: 46.7
+    cyan: 107.9
+    white: 91
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 29.7
+    brightYellow: 88.8
+    brightBlue: 49.7
+    brightMagenta: 46.7
+    brightCyan: 92
+    brightWhite: 90.2

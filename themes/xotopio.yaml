@@ -1,0 +1,49 @@
+name: "xotopio"
+source:
+  marketplace_id: "xotopio.xotopio-light"
+  version: "0.29.0"
+  installs: 1008
+  author: "xotopio"
+  repo: "https://github.com/xotopio/xotopio.light"
+  url: "https://marketplace.visualstudio.com/items?itemName=xotopio.xotopio-light"
+colors:
+  bg: "#F7F5F4"
+  fg: "#212121"
+  black: "#403F53"
+  red: "#DE3D3B"
+  green: "#3F987F"
+  yellow: "#C9BD62"
+  blue: "#5885A5"
+  magenta: "#D6438A"
+  cyan: "#2AA298"
+  white: "#F0F0F0"
+  brightBlack: "#403F53"
+  brightRed: "#DE3D3B"
+  brightGreen: "#08916A"
+  brightYellow: "#DAAA01"
+  brightBlue: "#288ED7"
+  brightMagenta: "#BA5887"
+  brightCyan: "#2AA298"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97.3
+    black: 88
+    red: 63
+    green: 56.5
+    yellow: 30.9
+    blue: 61.1
+    magenta: 62
+    cyan: 52.1
+    white: 0
+    brightBlack: 88
+    brightRed: 63
+    brightGreen: 60.9
+    brightYellow: 36.4
+    brightBlue: 56.7
+    brightMagenta: 63.9
+    brightCyan: 52.1
+    brightWhite: 0

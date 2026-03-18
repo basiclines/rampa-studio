@@ -1,0 +1,49 @@
+name: "Catalyst"
+source:
+  marketplace_id: "Priyaank.catalystirony"
+  version: "0.0.2"
+  installs: 140
+  author: "Priyaank"
+  repo: "https://github.com/PRIYAANK2510/Catalyst-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Priyaank.catalystirony"
+colors:
+  bg: "#252525"
+  fg: "#63716A"
+  black: "#444444"
+  red: "#A35043"
+  green: "#38773B"
+  yellow: "#A79A4B"
+  blue: "#558BAA"
+  magenta: "#8A4C8C"
+  cyan: "#0B828A"
+  white: "#BBBBBB"
+  brightBlack: "#666666"
+  brightRed: "#EE6752"
+  brightGreen: "#62BA6B"
+  brightYellow: "#DED07A"
+  brightBlue: "#67B1D9"
+  brightMagenta: "#B66ABA"
+  brightCyan: "#4FC8D1"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 23.5
+    black: 0
+    red: 21.6
+    green: 22
+    yellow: 44.3
+    blue: 34.2
+    magenta: 19.2
+    cyan: 27.4
+    white: 62.8
+    brightBlack: 20.1
+    brightRed: 41.1
+    brightGreen: 52.1
+    brightYellow: 74.3
+    brightBlue: 52.6
+    brightMagenta: 35
+    brightCyan: 61.1
+    brightWhite: 83.1

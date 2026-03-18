@@ -1,0 +1,49 @@
+name: "Modus Vivendi Deuteranopia"
+source:
+  marketplace_id: "tukinami-seika.modus-t"
+  version: "0.0.1"
+  installs: 87
+  author: "月波 清火"
+  repo: "https://github.com/tukinami/vscode-modus-t"
+  url: "https://marketplace.visualstudio.com/items?itemName=tukinami-seika.modus-t"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF5F59"
+  green: "#44BC44"
+  yellow: "#CABF00"
+  blue: "#2FAFFF"
+  magenta: "#FEACD0"
+  cyan: "#00D3D0"
+  white: "#A6A6A6"
+  brightBlack: "#595959"
+  brightRed: "#FF6B55"
+  brightGreen: "#00C06F"
+  brightYellow: "#FFA00F"
+  brightBlue: "#79A8FF"
+  brightMagenta: "#B6A0FF"
+  brightCyan: "#6AE4B9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 46.3
+    green: 54
+    yellow: 66.1
+    blue: 55
+    magenta: 71
+    cyan: 67.9
+    white: 54.1
+    brightBlack: 17.7
+    brightRed: 48.7
+    brightGreen: 55.6
+    brightYellow: 63
+    brightBlue: 55.5
+    brightMagenta: 58.5
+    brightCyan: 77.5
+    brightWhite: 107.9

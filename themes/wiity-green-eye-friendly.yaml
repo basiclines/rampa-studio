@@ -1,0 +1,49 @@
+name: "Wiity Green Eye-friendly"
+source:
+  marketplace_id: "puszkarek.wiity-vscode-theme"
+  version: "0.2.0"
+  installs: 136
+  author: "Puszkarek"
+  repo: "https://github.com/Puszkarek/wiity-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=puszkarek.wiity-vscode-theme"
+colors:
+  bg: "#0A0E0A"
+  fg: "#D6EECF"
+  black: "#111111"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#33FF00"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#D6EECF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 145
+  contrast:
+    fg: 92.1
+    black: 0
+    red: 27.5
+    green: 53.7
+    yellow: 86.4
+    blue: 28.2
+    magenta: 30.5
+    cyan: 48.3
+    white: 86.6
+    brightBlack: 22.8
+    brightRed: 39.3
+    brightGreen: 64.3
+    brightYellow: 96.4
+    brightBlue: 40.7
+    brightMagenta: 46.1
+    brightCyan: 56.1
+    brightWhite: 92.1

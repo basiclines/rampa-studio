@@ -1,0 +1,49 @@
+name: "mud-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#0D0B0B"
+  fg: "#FFFFFF"
+  black: "#1B1717"
+  red: "#BA0E2E"
+  green: "#F2C12F"
+  yellow: "#F55239"
+  blue: "#8EE350"
+  magenta: "#F8553C"
+  cyan: "#EABA2C"
+  white: "#FFFFFF"
+  brightBlack: "#443A3A"
+  brightRed: "#F03E5F"
+  brightGreen: "#F8DE8F"
+  brightYellow: "#FAA79A"
+  brightBlue: "#C7F1A8"
+  brightMagenta: "#FCAB9E"
+  brightCyan: "#F3D889"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 21.3
+    green: 72.8
+    yellow: 41
+    blue: 76.5
+    magenta: 42.2
+    cyan: 68.7
+    white: 107.7
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 87.5
+    brightYellow: 66.3
+    brightBlue: 90.5
+    brightMagenta: 68.2
+    brightCyan: 83.9
+    brightWhite: 107.7

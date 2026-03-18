@@ -1,0 +1,49 @@
+name: "TwilightSparkle"
+source:
+  marketplace_id: "nanoparsec.twilightsparkle"
+  version: "0.1.0"
+  installs: 557
+  author: "nanoparsec"
+  repo: "https://github.com/nanoparsec/twilightsparkle-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nanoparsec.twilightsparkle"
+colors:
+  bg: "#1D0038"
+  fg: "#19E68C"
+  black: "#9A00E0"
+  red: "#FF00BF"
+  green: "#19E68C"
+  yellow: "#A576FF"
+  blue: "#0098FF"
+  magenta: "#F335FF"
+  cyan: "#00CCCC"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF00BF"
+  brightGreen: "#00F2A5"
+  brightYellow: "#AEB3FF"
+  brightBlue: "#35A6FF"
+  brightMagenta: "#DB2FF4"
+  brightCyan: "#5BFFD3"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 301
+  contrast:
+    fg: 73.9
+    black: 22.9
+    red: 41
+    green: 73.9
+    yellow: 42.3
+    blue: 44.5
+    magenta: 44.4
+    cyan: 63.4
+    white: 106.9
+    brightBlack: 22
+    brightRed: 41
+    brightGreen: 80.7
+    brightYellow: 63.6
+    brightBlue: 50.5
+    brightMagenta: 38.1
+    brightCyan: 90.5
+    brightWhite: 90

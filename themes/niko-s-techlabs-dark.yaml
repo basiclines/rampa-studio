@@ -1,0 +1,49 @@
+name: "Niko's TechLabs Dark"
+source:
+  marketplace_id: "ntl.ntl-theme"
+  version: "0.0.1"
+  installs: 40
+  author: "Niko's TechLabs"
+  repo: "https://gitlab.com/nikos-techlabs/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ntl.ntl-theme"
+colors:
+  bg: "#171717"
+  fg: "#E8E8E8"
+  black: "#000000"
+  red: "#DB0000"
+  green: "#00A707"
+  yellow: "#DBB700"
+  blue: "#0049DB"
+  magenta: "#DB00DB"
+  cyan: "#00B7DB"
+  white: "#E8E8E8"
+  brightBlack: "#252525"
+  brightRed: "#FF4F4F"
+  brightGreen: "#8FFF94"
+  brightYellow: "#FFEC8F"
+  brightBlue: "#8FB4FF"
+  brightMagenta: "#FF8FFF"
+  brightCyan: "#8FECFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 91.9
+    black: 0
+    red: 27.7
+    green: 42.2
+    yellow: 64.3
+    blue: 17.7
+    magenta: 34.6
+    cyan: 54.7
+    white: 91.9
+    brightBlack: 0
+    brightRed: 42.3
+    brightGreen: 91.2
+    brightYellow: 94
+    brightBlue: 60.9
+    brightMagenta: 63.6
+    brightCyan: 85.8
+    brightWhite: 106.9

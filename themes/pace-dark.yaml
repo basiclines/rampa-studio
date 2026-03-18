@@ -1,0 +1,49 @@
+name: "Pace Dark"
+source:
+  marketplace_id: "fabian-hiller.pace-theme"
+  version: "0.3.0"
+  installs: 4449
+  author: "Fabian Hiller"
+  repo: "https://github.com/fabian-hiller/vscode-pace-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=fabian-hiller.pace-theme"
+colors:
+  bg: "#111827"
+  fg: "#94A3B8"
+  black: "#1E293B"
+  red: "#F87171"
+  green: "#34D399"
+  yellow: "#FDE68A"
+  blue: "#3B82F6"
+  magenta: "#C084FC"
+  cyan: "#2DD4BF"
+  white: "#CBD5E1"
+  brightBlack: "#64748B"
+  brightRed: "#EF4444"
+  brightGreen: "#34D399"
+  brightYellow: "#FDE68A"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#86198F"
+  brightCyan: "#2DD4BF"
+  brightWhite: "#CBD5E1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 265
+  contrast:
+    fg: 50.6
+    black: 0
+    red: 47.9
+    green: 65
+    yellow: 90.7
+    blue: 36.6
+    magenta: 49.5
+    cyan: 66.8
+    white: 79.2
+    brightBlack: 27.5
+    brightRed: 36.7
+    brightGreen: 65
+    brightYellow: 90.7
+    brightBlue: 36.6
+    brightMagenta: 13.9
+    brightCyan: 66.8
+    brightWhite: 79.2

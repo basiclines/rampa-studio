@@ -1,0 +1,49 @@
+name: "Mokka Fork: Darken Blue"
+source:
+  marketplace_id: "tsybko22.mokka-fork"
+  version: "1.0.0"
+  installs: 29
+  author: "Ivan Tsybko"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=tsybko22.mokka-fork"
+colors:
+  bg: "#212529"
+  fg: "#97A1A8"
+  black: "#2E3439"
+  red: "#E07070"
+  green: "#90C070"
+  yellow: "#E0B070"
+  blue: "#59A6DE"
+  magenta: "#BA84BA"
+  cyan: "#20B090"
+  white: "#97A1A8"
+  brightBlack: "#2E3439"
+  brightRed: "#E07070"
+  brightGreen: "#90C070"
+  brightYellow: "#E0B070"
+  brightBlue: "#59A6DE"
+  brightMagenta: "#BA84BA"
+  brightCyan: "#20B090"
+  brightWhite: "#97A1A8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 47.7
+    black: 0
+    red: 41.1
+    green: 58.2
+    yellow: 61.4
+    blue: 47.7
+    magenta: 42.9
+    cyan: 46.6
+    white: 47.7
+    brightBlack: 0
+    brightRed: 41.1
+    brightGreen: 58.2
+    brightYellow: 61.4
+    brightBlue: 47.7
+    brightMagenta: 42.9
+    brightCyan: 46.6
+    brightWhite: 47.7

@@ -1,0 +1,49 @@
+name: "Crowveil - Ayu"
+source:
+  marketplace_id: "Arch-Darker.Arch-Darker"
+  version: "1.1.1"
+  installs: 143
+  author: "Crowveil"
+  repo: "https://github.com/m4wi/Arch-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Arch-Darker.Arch-Darker"
+colors:
+  bg: "#020202"
+  fg: "#B0B0B0"
+  black: "#000000"
+  red: "#EA6C73"
+  green: "#7FD962"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#CDA1FA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#AAD94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#D2A6FF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 59.5
+    black: 0
+    red: 45
+    green: 71
+    yellow: 67.6
+    blue: 61.6
+    magenta: 61.6
+    cyan: 78.9
+    white: 72.7
+    brightBlack: 23.9
+    brightRed: 47.6
+    brightGreen: 74.3
+    brightYellow: 70.6
+    brightBlue: 64.3
+    brightMagenta: 64.4
+    brightCyan: 81.9
+    brightWhite: 107.9

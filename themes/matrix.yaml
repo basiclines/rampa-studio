@@ -1,0 +1,49 @@
+name: "Matrix"
+source:
+  marketplace_id: "PabloAndroetto.a-matrix-theme"
+  version: "0.0.3"
+  installs: 1796
+  author: "Pablo Androetto"
+  repo: "https://github.com/androettop/matrix-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PabloAndroetto.a-matrix-theme"
+colors:
+  bg: "#0F191C"
+  fg: "#426644"
+  black: "#373B3D"
+  red: "#752323"
+  green: "#82D967"
+  yellow: "#FFD700"
+  blue: "#3F5242"
+  magenta: "#409931"
+  cyan: "#50B45A"
+  white: "#507350"
+  brightBlack: "#7A8E74"
+  brightRed: "#C02F2F"
+  brightGreen: "#90D762"
+  brightYellow: "#FAFF00"
+  brightBlue: "#4F7E7E"
+  brightMagenta: "#11FF25"
+  brightCyan: "#C1FF8A"
+  brightWhite: "#678C61"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 218
+  contrast:
+    fg: 18.5
+    black: 0
+    red: 8.2
+    green: 70.2
+    yellow: 83.2
+    blue: 12.2
+    magenta: 37.3
+    cyan: 50
+    white: 24
+    brightBlack: 37.7
+    brightRed: 23.6
+    brightGreen: 70.3
+    brightYellow: 100.9
+    brightBlue: 29.1
+    brightMagenta: 85.5
+    brightCyan: 95.2
+    brightWhite: 34.9

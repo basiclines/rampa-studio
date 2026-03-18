@@ -1,0 +1,49 @@
+name: "corgidarkpastel2"
+source:
+  marketplace_id: "ermeneses.corgidarkpastel"
+  version: "0.0.91"
+  installs: 254
+  author: "ermeneses"
+  repo: "git remote add origin https://github.com/ermeneses/VsThemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=ermeneses.corgidarkpastel"
+colors:
+  bg: "#1D252C"
+  fg: "#B7C5D3"
+  black: "#41505E"
+  red: "#D95468"
+  green: "#8BD49C"
+  yellow: "#EBBF83"
+  blue: "#539AFC"
+  magenta: "#B62D65"
+  cyan: "#70E1E8"
+  white: "#FFFFFF"
+  brightBlack: "#41505E"
+  brightRed: "#D95468"
+  brightGreen: "#8BD49C"
+  brightYellow: "#EBBF83"
+  brightBlue: "#539AFC"
+  brightMagenta: "#B62D65"
+  brightCyan: "#70E1E8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 245
+  contrast:
+    fg: 67.7
+    black: 10.8
+    red: 33.5
+    green: 68.1
+    yellow: 69.5
+    blue: 44.9
+    magenta: 20.7
+    cyan: 75.6
+    white: 105.1
+    brightBlack: 10.8
+    brightRed: 33.5
+    brightGreen: 68.1
+    brightYellow: 69.5
+    brightBlue: 44.9
+    brightMagenta: 20.7
+    brightCyan: 75.6
+    brightWhite: 105.1

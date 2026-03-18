@@ -1,0 +1,49 @@
+name: "Shadcn Orange Dark"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+colors:
+  bg: "#09090B"
+  fg: "#FAFAFA"
+  black: "#09090B"
+  red: "#FF6467"
+  green: "#FF6900"
+  yellow: "#FFB86A"
+  blue: "#7E2A0C"
+  magenta: "#F54900"
+  cyan: "#9F2D00"
+  white: "#FAFAFA"
+  brightBlack: "#27272A"
+  brightRed: "#FF6467"
+  brightGreen: "#FFB86A"
+  brightYellow: "#FFF7ED"
+  brightBlue: "#FF6900"
+  brightMagenta: "#FFE9DA"
+  brightCyan: "#F54900"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 47.4
+    green: 47.6
+    yellow: 72.3
+    blue: 11.3
+    magenta: 39.4
+    cyan: 17.5
+    white: 104.5
+    brightBlack: 0
+    brightRed: 47.4
+    brightGreen: 72.3
+    brightYellow: 103.2
+    brightBlue: 47.6
+    brightMagenta: 95.9
+    brightCyan: 39.4
+    brightWhite: 104.5

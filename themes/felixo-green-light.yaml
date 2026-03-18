@@ -1,0 +1,49 @@
+name: "felixo-green-light"
+source:
+  marketplace_id: "waroi.felixo"
+  version: "1.0.0"
+  installs: 845
+  author: "waroi"
+  repo: "https://github.com/waroi/felixoTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=waroi.felixo"
+colors:
+  bg: "#FFFFFF"
+  fg: "#36312C"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#00A651"
+  yellow: "#B22727"
+  blue: "#AF8323"
+  magenta: "#BA5A27"
+  cyan: "#00A651"
+  white: "#443E37"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#2DC580"
+  brightYellow: "#DD6262"
+  brightBlue: "#DEB45A"
+  brightMagenta: "#DF9168"
+  brightCyan: "#2DC580"
+  brightWhite: "#6E645A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99
+    black: 0
+    red: 80.3
+    green: 58.4
+    yellow: 80.9
+    blue: 61.8
+    magenta: 71.3
+    cyan: 58.4
+    white: 94.5
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 43.5
+    brightYellow: 62
+    brightBlue: 37.3
+    brightMagenta: 48.9
+    brightCyan: 43.5
+    brightWhite: 78.9

@@ -1,0 +1,49 @@
+name: "Jungle"
+source:
+  marketplace_id: "nerudevs.jungle-scenario"
+  version: "1.0.1"
+  installs: 415
+  author: "neru devs"
+  repo: "https://github.com/isneru/vsc-themes.git#main"
+  url: "https://marketplace.visualstudio.com/items?itemName=nerudevs.jungle-scenario"
+colors:
+  bg: "#111713"
+  fg: "#B08968"
+  black: "#131317"
+  red: "#EEF0F9"
+  green: "#B08968"
+  yellow: "#57B574"
+  blue: "#146400"
+  magenta: "#C16A6A"
+  cyan: "#4A7547"
+  white: "#B08968"
+  brightBlack: "#DBDCDE"
+  brightRed: "#EEF0F9"
+  brightGreen: "#B08968"
+  brightYellow: "#57B574"
+  brightBlue: "#146400"
+  brightMagenta: "#C16A6A"
+  brightCyan: "#4A7547"
+  brightWhite: "#B08968"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 156
+  contrast:
+    fg: 42.1
+    black: 0
+    red: 97.3
+    green: 42.1
+    yellow: 51.5
+    blue: 16.1
+    magenta: 35.6
+    cyan: 24.3
+    white: 42.1
+    brightBlack: 84.5
+    brightRed: 97.3
+    brightGreen: 42.1
+    brightYellow: 51.5
+    brightBlue: 16.1
+    brightMagenta: 35.6
+    brightCyan: 24.3
+    brightWhite: 42.1

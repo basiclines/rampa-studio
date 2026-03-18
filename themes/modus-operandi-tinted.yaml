@@ -1,0 +1,49 @@
+name: "Modus Operandi Tinted"
+source:
+  marketplace_id: "tukinami-seika.modus-t"
+  version: "0.0.1"
+  installs: 87
+  author: "月波 清火"
+  repo: "https://github.com/tukinami/vscode-modus-t"
+  url: "https://marketplace.visualstudio.com/items?itemName=tukinami-seika.modus-t"
+colors:
+  bg: "#FBF7F0"
+  fg: "#000000"
+  black: "#000000"
+  red: "#A60000"
+  green: "#006300"
+  yellow: "#6D5000"
+  blue: "#0031A9"
+  magenta: "#721045"
+  cyan: "#00598B"
+  white: "#A6A6A6"
+  brightBlack: "#595959"
+  brightRed: "#972500"
+  brightGreen: "#00603F"
+  brightYellow: "#894000"
+  brightBlue: "#3546C2"
+  brightMagenta: "#531AB6"
+  brightCyan: "#005F5F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 101.5
+    black: 101.5
+    red: 80.5
+    green: 80.9
+    yellow: 81.3
+    blue: 88.4
+    magenta: 89.9
+    cyan: 80.9
+    white: 43.4
+    brightBlack: 79.7
+    brightRed: 82.2
+    brightGreen: 81.5
+    brightYellow: 80.9
+    brightBlue: 80.8
+    brightMagenta: 86.2
+    brightCyan: 81
+    brightWhite: 0

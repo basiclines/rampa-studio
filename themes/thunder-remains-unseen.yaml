@@ -1,0 +1,49 @@
+name: "Thunder Remains Unseen"
+source:
+  marketplace_id: "anser-fabalis-serrirostris.thunder-remains-unseen"
+  version: "1.0.0"
+  installs: 15
+  author: "Hishikui"
+  repo: "https://github.com/Hishikui/vsc-theme-thunder-remains-unseen"
+  url: "https://marketplace.visualstudio.com/items?itemName=anser-fabalis-serrirostris.thunder-remains-unseen"
+colors:
+  bg: "#2D2D2D"
+  fg: "#F0F0F0"
+  black: "#1A1A1A"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E6B422"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#F0F0F0"
+  brightBlack: "#4A4A4A"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFCC00"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 23.3
+    green: 49.6
+    yellow: 61.4
+    blue: 24
+    magenta: 26.3
+    cyan: 44.1
+    white: 93.6
+    brightBlack: 7.5
+    brightRed: 35.1
+    brightGreen: 60.1
+    brightYellow: 75.1
+    brightBlue: 36.6
+    brightMagenta: 41.9
+    brightCyan: 52
+    brightWhite: 93.6

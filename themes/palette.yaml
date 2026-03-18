@@ -1,0 +1,49 @@
+name: "Palette"
+source:
+  marketplace_id: "palette-theme.Palette-Dark"
+  version: "0.2.0"
+  installs: 5840
+  author: "Zakiullah"
+  repo: "https://github.com/zbarakzai/Palette-VSCode-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=palette-theme.Palette-Dark"
+colors:
+  bg: "#162636"
+  fg: "#D6DEEB"
+  black: "#162636"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 249
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 37.4
+    green: 65.3
+    yellow: 80.1
+    blue: 54
+    magenta: 51.8
+    cyan: 57.8
+    white: 105
+    brightBlack: 13.7
+    brightRed: 37.4
+    brightGreen: 65.3
+    brightYellow: 91.8
+    brightBlue: 54
+    brightMagenta: 51.8
+    brightCyan: 72.1
+    brightWhite: 105

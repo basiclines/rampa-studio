@@ -1,0 +1,49 @@
+name: "Kite Dark"
+source:
+  marketplace_id: "yudinikita.vscode-theme-kite"
+  version: "1.1.2"
+  installs: 8249
+  author: "Yudin Nikita"
+  repo: "https://github.com/nblackninja/vscode-theme-kite"
+  url: "https://marketplace.visualstudio.com/items?itemName=yudinikita.vscode-theme-kite"
+colors:
+  bg: "#2D353E"
+  fg: "#C7CED6"
+  black: "#000913"
+  red: "#C8433C"
+  green: "#4FC83C"
+  yellow: "#C8BF3C"
+  blue: "#3C7DC8"
+  magenta: "#9E3CC8"
+  cyan: "#3CA3C8"
+  white: "#CBCED2"
+  brightBlack: "#606871"
+  brightRed: "#F14F46"
+  brightGreen: "#53EC3C"
+  brightYellow: "#F1E646"
+  brightBlue: "#5097E7"
+  brightMagenta: "#D165FF"
+  brightCyan: "#46C3F1"
+  brightWhite: "#E6E8EA"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 251
+  contrast:
+    fg: 70.2
+    black: 0
+    red: 22.8
+    green: 53.7
+    yellow: 59.9
+    blue: 26.5
+    magenta: 19.9
+    cyan: 40.8
+    white: 70.5
+    brightBlack: 17.3
+    brightRed: 33.8
+    brightGreen: 71.7
+    brightYellow: 82.9
+    brightBlue: 38.7
+    brightMagenta: 39.7
+    brightCyan: 57
+    brightWhite: 86.6

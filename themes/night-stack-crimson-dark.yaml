@@ -1,0 +1,49 @@
+name: "Night-Stack Crimson Dark"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0A0507"
+  fg: "#FFE4E6"
+  black: "#1A0B10"
+  red: "#FF4D6D"
+  green: "#FF758F"
+  yellow: "#FF8FA3"
+  blue: "#E11D48"
+  magenta: "#BE123C"
+  cyan: "#FF9FB3"
+  white: "#FFE4E6"
+  brightBlack: "#1A0B10"
+  brightRed: "#FF4D6D"
+  brightGreen: "#FF758F"
+  brightYellow: "#FF8FA3"
+  brightBlue: "#E11D48"
+  brightMagenta: "#BE123C"
+  brightCyan: "#FF9FB3"
+  brightWhite: "#FFE4E6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 350
+  contrast:
+    fg: 94.3
+    black: 0
+    red: 43.6
+    green: 52.3
+    yellow: 60
+    blue: 31.1
+    magenta: 22.6
+    cyan: 65.6
+    white: 94.3
+    brightBlack: 0
+    brightRed: 43.6
+    brightGreen: 52.3
+    brightYellow: 60
+    brightBlue: 31.1
+    brightMagenta: 22.6
+    brightCyan: 65.6
+    brightWhite: 94.3

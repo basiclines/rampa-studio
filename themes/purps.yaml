@@ -1,0 +1,49 @@
+name: "Purps"
+source:
+  marketplace_id: "amessytheme.Purps"
+  version: "0.0.1"
+  installs: 36
+  author: "amessytheme"
+  repo: "https://gihub.com/mtdowner/Purps"
+  url: "https://marketplace.visualstudio.com/items?itemName=amessytheme.Purps"
+colors:
+  bg: "#FFFFFF"
+  fg: "#AA00FF"
+  black: "#FFFFFF"
+  red: "#9003FF"
+  green: "#00BEEF"
+  yellow: "#8A2BE2"
+  blue: "#8800FF"
+  magenta: "#9300FF"
+  cyan: "#00CBFF"
+  white: "#C15DFB"
+  brightBlack: "#EAC6FB"
+  brightRed: "#6500FF"
+  brightGreen: "#00B0ED"
+  brightYellow: "#6500DF"
+  brightBlue: "#5600FF"
+  brightMagenta: "#6A00FF"
+  brightCyan: "#00C0FF"
+  brightWhite: "#AA00FF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 72.3
+    black: 0
+    red: 76.3
+    green: 42.3
+    yellow: 78.4
+    blue: 77.4
+    magenta: 75.8
+    cyan: 35.8
+    white: 60.5
+    brightBlack: 23.5
+    brightRed: 81.5
+    brightGreen: 48.2
+    brightYellow: 85.2
+    brightBlue: 82.8
+    brightMagenta: 81
+    brightCyan: 40.5
+    brightWhite: 72.3

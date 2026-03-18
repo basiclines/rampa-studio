@@ -1,0 +1,49 @@
+name: "365.6 coder theme"
+source:
+  marketplace_id: "dheeraj-kumar-rao.365-6--coder--theme"
+  version: "0.3.0"
+  installs: 86
+  author: "dheeraj-kumar-rao"
+  repo: "https://github.com/rao123dk/365.6-Coder-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dheeraj-kumar-rao.365-6--coder--theme"
+colors:
+  bg: "#02202C"
+  fg: "#0B6E6E"
+  black: "#0E0D1A"
+  red: "#FA1313"
+  green: "#00C82B"
+  yellow: "#FFE553"
+  blue: "#8C97EA"
+  magenta: "#FF00F2"
+  cyan: "#8C97EA"
+  white: "#FFFFFF"
+  brightBlack: "#5966CC"
+  brightRed: "#FA1313"
+  brightGreen: "#17F648"
+  brightYellow: "#FFFFFF"
+  brightBlue: "#8C97EA"
+  brightMagenta: "#FF00F2"
+  brightCyan: "#23DEFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 228
+  contrast:
+    fg: 20.2
+    black: 0
+    red: 34.6
+    green: 56.6
+    yellow: 89
+    blue: 47.4
+    magenta: 43.4
+    cyan: 47.4
+    white: 106
+    brightBlack: 25.5
+    brightRed: 34.6
+    brightGreen: 80.1
+    brightYellow: 106
+    brightBlue: 47.4
+    brightMagenta: 43.4
+    brightCyan: 73.9
+    brightWhite: 106

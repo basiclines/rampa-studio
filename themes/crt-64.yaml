@@ -1,0 +1,49 @@
+name: "CRT 64"
+source:
+  marketplace_id: "krueger71.crt-themes"
+  version: "0.5.2"
+  installs: 38247
+  author: "krueger71"
+  repo: "https://github.com/krueger71/crt-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=krueger71.crt-themes"
+colors:
+  bg: "#352879"
+  fg: "#6C5EB5"
+  black: "#6C5EB5"
+  red: "#5D50A5"
+  green: "#6153A9"
+  yellow: "#56489D"
+  blue: "#685AB1"
+  magenta: "#6557AD"
+  cyan: "#5A4CA1"
+  white: "#524599"
+  brightBlack: "#6C5EB5"
+  brightRed: "#5D50A5"
+  brightGreen: "#6153A9"
+  brightYellow: "#56489D"
+  brightBlue: "#685AB1"
+  brightMagenta: "#6557AD"
+  brightCyan: "#5A4CA1"
+  brightWhite: "#524599"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 284
+  contrast:
+    fg: 18.1
+    black: 18.1
+    red: 12.2
+    green: 13.5
+    yellow: 9.3
+    blue: 16.4
+    magenta: 15.1
+    cyan: 10.8
+    white: 8
+    brightBlack: 18.1
+    brightRed: 12.2
+    brightGreen: 13.5
+    brightYellow: 9.3
+    brightBlue: 16.4
+    brightMagenta: 15.1
+    brightCyan: 10.8
+    brightWhite: 8

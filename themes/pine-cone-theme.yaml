@@ -1,0 +1,49 @@
+name: "Pine Cone Theme"
+source:
+  marketplace_id: "imalbert.conifer-theme"
+  version: "2.4.3"
+  installs: 1380
+  author: "imalbert"
+  repo: "https://github.com/imalbert/conifer-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=imalbert.conifer-theme"
+colors:
+  bg: "#232922"
+  fg: "#D3D9D2"
+  black: "#2E352C"
+  red: "#A96E55"
+  green: "#BCBC62"
+  yellow: "#BCBC62"
+  blue: "#889985"
+  magenta: "#D3D9D3"
+  cyan: "#BCBC62"
+  white: "#D3D9D2"
+  brightBlack: "#D3D9D2"
+  brightRed: "#A96E55"
+  brightGreen: "#BCBC62"
+  brightYellow: "#BCBC62"
+  brightBlue: "#889985"
+  brightMagenta: "#D3D9D3"
+  brightCyan: "#C5C581"
+  brightWhite: "#EBDFC1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 141
+  contrast:
+    fg: 79.1
+    black: 0
+    red: 29.9
+    green: 60.4
+    yellow: 60.4
+    blue: 41.4
+    magenta: 79.2
+    cyan: 60.4
+    white: 79.1
+    brightBlack: 79.1
+    brightRed: 29.9
+    brightGreen: 60.4
+    brightYellow: 60.4
+    brightBlue: 41.4
+    brightMagenta: 79.2
+    brightCyan: 66
+    brightWhite: 84.4

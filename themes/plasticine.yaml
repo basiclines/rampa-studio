@@ -1,0 +1,49 @@
+name: "Plasticine"
+source:
+  marketplace_id: "myxlxal.plasticine"
+  version: "0.7.1"
+  installs: 845
+  author: "Myxlxal"
+  repo: "https://github.com/OlegKrechkovskiy/plasticine"
+  url: "https://marketplace.visualstudio.com/items?itemName=myxlxal.plasticine"
+colors:
+  bg: "#21252B"
+  fg: "#A9B2C3"
+  black: "#5F6672"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#B57EDC"
+  cyan: "#56B6C2"
+  white: "#A9B2C3"
+  brightBlack: "#5F6672"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#B57EDC"
+  brightCyan: "#56B6C2"
+  brightWhite: "#A9B2C3"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 258
+  contrast:
+    fg: 57.5
+    black: 20
+    red: 40.2
+    green: 60.4
+    yellow: 68.7
+    blue: 52.8
+    magenta: 42.3
+    cyan: 52.7
+    white: 57.5
+    brightBlack: 20
+    brightRed: 40.2
+    brightGreen: 60.4
+    brightYellow: 68.7
+    brightBlue: 52.8
+    brightMagenta: 42.3
+    brightCyan: 52.7
+    brightWhite: 57.5

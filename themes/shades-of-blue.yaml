@@ -1,0 +1,49 @@
+name: "Shades-Of-Blue"
+source:
+  marketplace_id: "bakrimoharram.shades-of-blue"
+  version: "0.0.6"
+  installs: 1964
+  author: "bakrimoharram"
+  repo: "https://github.com/bakrimoharram/shades-of-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=bakrimoharram.shades-of-blue"
+colors:
+  bg: "#172243"
+  fg: "#4782C0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#AFBAD9"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 268
+  contrast:
+    fg: 31.6
+    black: 0
+    red: 24.9
+    green: 51.2
+    yellow: 83.8
+    blue: 25.6
+    magenta: 28
+    cyan: 45.8
+    white: 62.5
+    brightBlack: 20.3
+    brightRed: 36.8
+    brightGreen: 61.8
+    brightYellow: 93.9
+    brightBlue: 38.2
+    brightMagenta: 43.6
+    brightCyan: 53.6
+    brightWhite: 88.2

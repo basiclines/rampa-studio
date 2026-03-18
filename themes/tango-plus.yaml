@@ -1,0 +1,49 @@
+name: "tango-plus"
+source:
+  marketplace_id: "ludwigkr.emacs-tango-plus"
+  version: "0.2.0"
+  installs: 725
+  author: "ludwigkr"
+  repo: "https://github.com/ludwigkr/vscode-tango-plus-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ludwigkr.emacs-tango-plus"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#A40000"
+  green: "#4E9A06"
+  yellow: "#C4A000"
+  blue: "#204A87"
+  magenta: "#5C3566"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#A40000"
+  brightGreen: "#4E9A06"
+  brightYellow: "#C4A000"
+  brightBlue: "#729FCF"
+  brightMagenta: "#5C3566"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 85.5
+    green: 62.5
+    yellow: 49
+    blue: 89.7
+    magenta: 92.4
+    cyan: 60.6
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 85.5
+    brightGreen: 62.5
+    brightYellow: 49
+    brightBlue: 53.4
+    brightMagenta: 92.4
+    brightCyan: 60.6
+    brightWhite: 48.5

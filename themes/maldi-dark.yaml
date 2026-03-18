@@ -1,0 +1,49 @@
+name: "Maldi Dark"
+source:
+  marketplace_id: "msmaldi.maldi-vscode-theme"
+  version: "0.0.1"
+  installs: 51
+  author: "Matheus Maldi"
+  repo: "https://github.com/msmaldi/maldi-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=msmaldi.maldi-vscode-theme"
+colors:
+  bg: "#000000"
+  fg: "#E6EDF3"
+  black: "#000000"
+  red: "#CD0000"
+  green: "#00CD00"
+  yellow: "#CDCD00"
+  blue: "#0000EE"
+  magenta: "#CD00CD"
+  cyan: "#00CDCD"
+  white: "#E5E5E5"
+  brightBlack: "#7F7F7F"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#5C5CFF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 95.5
+    black: 0
+    red: 25.4
+    green: 60.8
+    yellow: 72.5
+    blue: 14
+    magenta: 31.7
+    cyan: 64.9
+    white: 91
+    brightBlack: 34.3
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 29.4
+    brightMagenta: 46.2
+    brightCyan: 92.2
+    brightWhite: 107.9

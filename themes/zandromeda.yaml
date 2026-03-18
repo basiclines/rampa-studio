@@ -1,0 +1,49 @@
+name: "Zandromeda"
+source:
+  marketplace_id: "tommalitz.simplethemes"
+  version: "0.0.10"
+  installs: 65
+  author: "tommalitz"
+  repo: "https://github.com/TomMalitz/zedromeda"
+  url: "https://marketplace.visualstudio.com/items?itemName=tommalitz.simplethemes"
+colors:
+  bg: "#171717"
+  fg: "#F7F7F8"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 101.6
+    black: 0
+    red: 26.7
+    green: 53
+    yellow: 85.6
+    blue: 27.4
+    magenta: 29.8
+    cyan: 47.6
+    white: 90
+    brightBlack: 22
+    brightRed: 38.6
+    brightGreen: 63.5
+    brightYellow: 95.6
+    brightBlue: 40
+    brightMagenta: 45.4
+    brightCyan: 55.4
+    brightWhite: 90

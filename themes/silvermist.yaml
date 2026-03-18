@@ -1,0 +1,49 @@
+name: "Silvermist"
+source:
+  marketplace_id: "salmanjt.silvermist"
+  version: "0.0.1"
+  installs: 1
+  author: "Salman Tahir"
+  repo: "https://github.com/salmanjt/silvermist"
+  url: "https://marketplace.visualstudio.com/items?itemName=salmanjt.silvermist"
+colors:
+  bg: "#1D2834"
+  fg: "#D5DEE1"
+  black: "#000000"
+  red: "#E87A78"
+  green: "#85DB8A"
+  yellow: "#EFD671"
+  blue: "#87BED9"
+  magenta: "#BEA8E1"
+  cyan: "#99C7C7"
+  white: "#D5DEE1"
+  brightBlack: "#8090A3"
+  brightRed: "#E87A78"
+  brightGreen: "#85DB8A"
+  brightYellow: "#EFD671"
+  brightBlue: "#87BED9"
+  brightMagenta: "#BEA8E1"
+  brightCyan: "#99C7C7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 251
+  contrast:
+    fg: 82.3
+    black: 0
+    red: 45
+    green: 69.9
+    yellow: 78.9
+    blue: 59.9
+    magenta: 57.3
+    cyan: 64.5
+    white: 82.3
+    brightBlack: 38.5
+    brightRed: 45
+    brightGreen: 69.9
+    brightYellow: 78.9
+    brightBlue: 59.9
+    brightMagenta: 57.3
+    brightCyan: 64.5
+    brightWhite: 104.6

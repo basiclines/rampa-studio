@@ -1,0 +1,49 @@
+name: "Pink Neon"
+source:
+  marketplace_id: "puszkarek.arasaka-inferno-vscode-theme"
+  version: "1.2.0"
+  installs: 268
+  author: "Puszkarek"
+  repo: "https://github.com/Puszkarek/arasaka-inferno-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=puszkarek.arasaka-inferno-vscode-theme"
+colors:
+  bg: "#160E17"
+  fg: "#63A6FD"
+  black: "#160E17"
+  red: "#FF2E6E"
+  green: "#D425A5"
+  yellow: "#F0B437"
+  blue: "#00FFCC"
+  magenta: "#FF00AA"
+  cyan: "#00FFF7"
+  white: "#D425A5"
+  brightBlack: "#050305"
+  brightRed: "#FF2E6E"
+  brightGreen: "#D425A5"
+  brightYellow: "#F0B437"
+  brightBlue: "#00FFCC"
+  brightMagenta: "#FF00A8"
+  brightCyan: "#00FFF7"
+  brightWhite: "#8FBFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 323
+  contrast:
+    fg: 52.6
+    black: 0
+    red: 39.7
+    green: 31.2
+    yellow: 67.2
+    blue: 89.3
+    magenta: 40.4
+    cyan: 91.3
+    white: 31.2
+    brightBlack: 0
+    brightRed: 39.7
+    brightGreen: 31.2
+    brightYellow: 67.2
+    brightBlue: 89.3
+    brightMagenta: 40.3
+    brightCyan: 91.3
+    brightWhite: 66

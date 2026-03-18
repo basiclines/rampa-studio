@@ -1,0 +1,49 @@
+name: "Night-Stack Night City"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0B0F1A"
+  fg: "#E6F0FF"
+  black: "#1B2435"
+  red: "#FFB703"
+  green: "#00B3FF"
+  yellow: "#FFD166"
+  blue: "#0077FF"
+  magenta: "#FFA500"
+  cyan: "#00E0FF"
+  white: "#E6F0FF"
+  brightBlack: "#1B2435"
+  brightRed: "#FFB703"
+  brightGreen: "#00B3FF"
+  brightYellow: "#FFD166"
+  brightBlue: "#0077FF"
+  brightMagenta: "#FFA500"
+  brightCyan: "#00E0FF"
+  brightWhite: "#E6F0FF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 268
+  contrast:
+    fg: 97
+    black: 0
+    red: 70.8
+    green: 55.8
+    yellow: 81.9
+    blue: 33.8
+    magenta: 64.3
+    cyan: 76.2
+    white: 97
+    brightBlack: 0
+    brightRed: 70.8
+    brightGreen: 55.8
+    brightYellow: 81.9
+    brightBlue: 33.8
+    brightMagenta: 64.3
+    brightCyan: 76.2
+    brightWhite: 97

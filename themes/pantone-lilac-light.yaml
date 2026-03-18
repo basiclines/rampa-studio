@@ -1,0 +1,49 @@
+name: "Pantone Lilac (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F8F5F6"
+  fg: "#232022"
+  black: "#232022"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F8F5F6"
+  brightBlack: "#A88395"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F5F1F2"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97.6
+    black: 97.6
+    red: 73.3
+    green: 56.8
+    yellow: 41
+    blue: 84.3
+    magenta: 80.5
+    cyan: 73.6
+    white: 0
+    brightBlack: 54.9
+    brightRed: 63
+    brightGreen: 43.6
+    brightYellow: 24.8
+    brightBlue: 50.3
+    brightMagenta: 61.9
+    brightCyan: 43
+    brightWhite: 0

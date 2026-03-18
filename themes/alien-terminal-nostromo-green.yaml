@@ -1,0 +1,49 @@
+name: "Alien Terminal Nostromo Green"
+source:
+  marketplace_id: "ericson-willians.uscss-nostromo-theme"
+  version: "1.0.0"
+  installs: 595
+  author: "Ericson Willians Rocha Pires"
+  repo: "https://github.com/ericsonwillians/vscode-uscss-nostromo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ericson-willians.uscss-nostromo-theme"
+colors:
+  bg: "#000000"
+  fg: "#00FF00"
+  black: "#000000"
+  red: "#FF3333"
+  green: "#00FF00"
+  yellow: "#FFCC00"
+  blue: "#00DD00"
+  magenta: "#FF66FF"
+  cyan: "#66FFCC"
+  white: "#CCCCCC"
+  brightBlack: "#00AA00"
+  brightRed: "#FF6666"
+  brightGreen: "#66FF66"
+  brightYellow: "#FFEE00"
+  brightBlue: "#66FF66"
+  brightMagenta: "#FF99FF"
+  brightCyan: "#99FFDD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 39.6
+    green: 86.5
+    yellow: 79.6
+    blue: 68.7
+    magenta: 54.8
+    cyan: 91.7
+    white: 75.7
+    brightBlack: 44.5
+    brightRed: 47.9
+    brightGreen: 89
+    brightYellow: 94.6
+    brightBlue: 89
+    brightMagenta: 67.6
+    brightCyan: 95.4
+    brightWhite: 107.9

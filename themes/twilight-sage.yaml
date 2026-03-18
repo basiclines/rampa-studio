@@ -1,0 +1,49 @@
+name: "Twilight Sage"
+source:
+  marketplace_id: "JamesGulland.twilight-sage-dark-theme"
+  version: "2.5.0"
+  installs: 136
+  author: "James Gulland"
+  repo: "https://github.com/james-gulland/twilight-sage-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.twilight-sage-dark-theme"
+colors:
+  bg: "#1F1F1F"
+  fg: "#968E88"
+  black: "#1F1F1F"
+  red: "#D97A88"
+  green: "#CDD1AC"
+  yellow: "#CDD1AC"
+  blue: "#91C1D8"
+  magenta: "#B480B0"
+  cyan: "#91C1D8"
+  white: "#E1DEE3"
+  brightBlack: "#968E88"
+  brightRed: "#D97A88"
+  brightGreen: "#CDD1AC"
+  brightYellow: "#CDD1AC"
+  brightBlue: "#91C1D8"
+  brightMagenta: "#B480B0"
+  brightCyan: "#91C1D8"
+  brightWhite: "#E1DEE3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 40.3
+    black: 0
+    red: 43.9
+    green: 74.8
+    yellow: 74.8
+    blue: 63.3
+    magenta: 41.2
+    cyan: 63.3
+    white: 85.3
+    brightBlack: 40.3
+    brightRed: 43.9
+    brightGreen: 74.8
+    brightYellow: 74.8
+    brightBlue: 63.3
+    brightMagenta: 41.2
+    brightCyan: 63.3
+    brightWhite: 85.3

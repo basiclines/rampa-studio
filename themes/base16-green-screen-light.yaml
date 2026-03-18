@@ -1,0 +1,49 @@
+name: "Base16 Green Screen Light"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#00FF00"
+  fg: "#005500"
+  black: "#00BB00"
+  red: "#007700"
+  green: "#00BB00"
+  yellow: "#009900"
+  blue: "#009900"
+  magenta: "#00BB00"
+  cyan: "#005500"
+  white: "#003300"
+  brightBlack: "#009900"
+  brightRed: "#007700"
+  brightGreen: "#00BB00"
+  brightYellow: "#007700"
+  brightBlue: "#009900"
+  brightMagenta: "#00BB00"
+  brightCyan: "#005500"
+  brightWhite: "#001100"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: 142
+  contrast:
+    fg: 70.8
+    black: 30.2
+    red: 58.6
+    green: 30.2
+    yellow: 45
+    blue: 45
+    magenta: 30.2
+    cyan: 70.8
+    white: 81
+    brightBlack: 45
+    brightRed: 58.6
+    brightGreen: 30.2
+    brightYellow: 58.6
+    brightBlue: 45
+    brightMagenta: 30.2
+    brightCyan: 70.8
+    brightWhite: 86

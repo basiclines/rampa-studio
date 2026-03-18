@@ -1,0 +1,49 @@
+name: "Phosphor Dark"
+source:
+  marketplace_id: "phosphor-icons.phosphor-theme"
+  version: "0.1.2"
+  installs: 1669
+  author: "Phosphor Icons"
+  repo: "https://github.com/phosphor-icons/theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=phosphor-icons.phosphor-theme"
+colors:
+  bg: "#2A2926"
+  fg: "#C9C5BF"
+  black: "#656461"
+  red: "#BC6F4F"
+  green: "#A4B55B"
+  yellow: "#D6971E"
+  blue: "#4E76B4"
+  magenta: "#9D6DEC"
+  cyan: "#5197A7"
+  white: "#EEEAE3"
+  brightBlack: "#656461"
+  brightRed: "#CF5F31"
+  brightGreen: "#C4E456"
+  brightYellow: "#F8C666"
+  brightBlue: "#6283E8"
+  brightMagenta: "#B38CFF"
+  brightCyan: "#6DB8D7"
+  brightWhite: "#F7F5F1"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 68.1
+    black: 18.6
+    red: 32.8
+    green: 54.2
+    yellow: 49
+    blue: 26.3
+    magenta: 34.7
+    cyan: 37.7
+    white: 90.8
+    brightBlack: 18.6
+    brightRed: 31.9
+    brightGreen: 78.8
+    brightYellow: 73
+    brightBlue: 35.3
+    brightMagenta: 47.9
+    brightCyan: 55.1
+    brightWhite: 97.7

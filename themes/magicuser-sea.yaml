@@ -1,0 +1,49 @@
+name: "MagicUser Sea"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1704
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+colors:
+  bg: "#D1DBF1"
+  fg: "#000000"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 266
+  contrast:
+    fg: 84.7
+    black: 84.1
+    red: 38.2
+    green: 0
+    yellow: 16.4
+    blue: 64.5
+    magenta: 34.3
+    cyan: 0
+    white: 21.6
+    brightBlack: 77.4
+    brightRed: 41.5
+    brightGreen: 0
+    brightYellow: 16.7
+    brightBlue: 31.8
+    brightMagenta: 34.5
+    brightCyan: 0
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Koffee Kreme"
+source:
+  marketplace_id: "AchroDev.koffee-kreme"
+  version: "0.7.5"
+  installs: 520
+  author: "AchroDev"
+  repo: "https://github.com/AchroDev/koffee-kreme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AchroDev.koffee-kreme"
+colors:
+  bg: "#ECE0D1"
+  fg: "#38220F"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#C9CF00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 74
+  contrast:
+    fg: 84.4
+    black: 88.7
+    red: 56.7
+    green: 31.9
+    yellow: 40.6
+    blue: 68.8
+    magenta: 57.3
+    cyan: 43.3
+    white: 68.6
+    brightBlack: 61.5
+    brightRed: 56.7
+    brightGreen: 23.6
+    brightYellow: 12.6
+    brightBlue: 68.8
+    brightMagenta: 57.3
+    brightCyan: 43.3
+    brightWhite: 31.2

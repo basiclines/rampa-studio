@@ -1,0 +1,49 @@
+name: "Nuitpâle Theme"
+source:
+  marketplace_id: "Anqo.nuitpale-theme"
+  version: "1.0.0"
+  installs: 1226
+  author: "Anqo"
+  repo: "https://github.com/ohanqo/nuitpale-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Anqo.nuitpale-theme"
+colors:
+  bg: "#232529"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 69.5
+    black: 24.5
+    red: 42.1
+    green: 63.9
+    yellow: 77
+    blue: 54
+    magenta: 51.9
+    cyan: 76.4
+    white: 105
+    brightBlack: 24.5
+    brightRed: 42.1
+    brightGreen: 82.3
+    brightYellow: 77
+    brightBlue: 54
+    brightMagenta: 51.9
+    brightCyan: 76.4
+    brightWhite: 105

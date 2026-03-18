@@ -1,0 +1,49 @@
+name: "Purddy"
+source:
+  marketplace_id: "Cyphernetes.purddy"
+  version: "0.0.2"
+  installs: 57
+  author: "Avital Tamir"
+  repo: "https://github.com/AvitalTamir/vscode-purddy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Cyphernetes.purddy"
+colors:
+  bg: "#FFF1E6"
+  fg: "#5C3D2E"
+  black: "#000000"
+  red: "#FEA0A3"
+  green: "#1DBB9B"
+  yellow: "#FFFBCC"
+  blue: "#B2D6FB"
+  magenta: "#A665A6"
+  cyan: "#9CCFD8"
+  white: "#EDEDED"
+  brightBlack: "#686868"
+  brightRed: "#FEB9B9"
+  brightGreen: "#3CC5AA"
+  brightYellow: "#FFFBCC"
+  brightBlue: "#B2D6FB"
+  brightMagenta: "#FFD1DC"
+  brightCyan: "#9F7AC6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 85.4
+    black: 99.1
+    red: 30.3
+    green: 40.4
+    yellow: 0
+    blue: 16.8
+    magenta: 61.6
+    cyan: 23.5
+    white: 0
+    brightBlack: 70.9
+    brightRed: 21.2
+    brightGreen: 34.9
+    brightYellow: 0
+    brightBlue: 16.8
+    brightMagenta: 10.8
+    brightCyan: 55
+    brightWhite: 0

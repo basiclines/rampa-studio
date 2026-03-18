@@ -1,0 +1,49 @@
+name: "Bl!nk"
+source:
+  marketplace_id: "the-unknown.blink"
+  version: "0.0.1"
+  installs: 697
+  author: "the-unknown"
+  repo: "https://github.com/the-unknown/blink-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=the-unknown.blink"
+colors:
+  bg: "#121212"
+  fg: "#A0A0A0"
+  black: "#1B1D1E"
+  red: "#F92672"
+  green: "#82B414"
+  yellow: "#FD971F"
+  blue: "#4E82AA"
+  magenta: "#8C54FE"
+  cyan: "#465457"
+  white: "#FFFFFF"
+  brightBlack: "#505354"
+  brightRed: "#FF5995"
+  brightGreen: "#B6E354"
+  brightYellow: "#FEED6C"
+  brightBlue: "#0C73C2"
+  brightMagenta: "#9E6FFE"
+  brightCyan: "#899CA1"
+  brightWhite: "#A0A0A0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 50.3
+    black: 0
+    red: 37.7
+    green: 53
+    yellow: 59.1
+    blue: 32.9
+    magenta: 31.5
+    cyan: 14.2
+    white: 107.3
+    brightBlack: 14.6
+    brightRed: 46.2
+    brightGreen: 79.8
+    brightYellow: 94.1
+    brightBlue: 27.5
+    brightMagenta: 39.9
+    brightCyan: 46.4
+    brightWhite: 50.3

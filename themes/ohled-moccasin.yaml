@@ -1,0 +1,49 @@
+name: "OhLED_Moccasin"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFE4B5"
+  black: "#FFE4B5"
+  red: "#BBA785"
+  green: "#CCB691"
+  yellow: "#99896D"
+  blue: "#EED5A9"
+  magenta: "#DDC69D"
+  cyan: "#AA9879"
+  white: "#887A61"
+  brightBlack: "#FFE4B5"
+  brightRed: "#BBA785"
+  brightGreen: "#CCB691"
+  brightYellow: "#99896D"
+  brightBlue: "#EED5A9"
+  brightMagenta: "#DDC69D"
+  brightCyan: "#AA9879"
+  brightWhite: "#887A61"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 92.5
+    black: 92.5
+    red: 56
+    green: 64.5
+    yellow: 40.1
+    blue: 82.9
+    magenta: 73.7
+    cyan: 47.8
+    white: 32.7
+    brightBlack: 92.5
+    brightRed: 56
+    brightGreen: 64.5
+    brightYellow: 40.1
+    brightBlue: 82.9
+    brightMagenta: 73.7
+    brightCyan: 47.8
+    brightWhite: 32.7

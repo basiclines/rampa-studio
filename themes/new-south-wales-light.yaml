@@ -1,0 +1,49 @@
+name: "New South Wales Light"
+source:
+  marketplace_id: "lucidlabs.new-south-wales-theme"
+  version: "1.1.0"
+  installs: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.new-south-wales-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#0D0E14"
+  black: "#0D0E14"
+  red: "#D7153A"
+  green: "#0A690D"
+  yellow: "#B38800"
+  blue: "#002664"
+  magenta: "#8B1A4A"
+  cyan: "#006A8F"
+  white: "#FFFFFF"
+  brightBlack: "#78797E"
+  brightRed: "#8A1220"
+  brightGreen: "#339D37"
+  brightYellow: "#FFCC2C"
+  brightBlue: "#001A4A"
+  brightMagenta: "#5A1222"
+  brightCyan: "#5B9BD5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 105.6
+    black: 105.6
+    red: 73.4
+    green: 83.3
+    yellow: 59.7
+    blue: 100.5
+    magenta: 89.2
+    cyan: 79.8
+    white: 0
+    brightBlack: 70.1
+    brightRed: 90.5
+    brightGreen: 62
+    brightYellow: 23.5
+    brightBlue: 103.3
+    brightMagenta: 99.2
+    brightCyan: 56
+    brightWhite: 0

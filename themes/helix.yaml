@@ -1,0 +1,49 @@
+name: "Helix+"
+source:
+  marketplace_id: "codewonders.helix"
+  version: "0.1.0"
+  installs: 3404
+  author: "Adenekan Wonderful"
+  repo: "git+https://github.com/adenekan41/Helix"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewonders.helix"
+colors:
+  bg: "#1A1B2F"
+  fg: "#D6DEEB"
+  black: "#1A1B2F"
+  red: "#E64B3F"
+  green: "#22DA6E"
+  yellow: "#F0A7A0"
+  blue: "#82AAFF"
+  magenta: "#D493FE"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#E64B3F"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#D493FE"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 281
+  contrast:
+    fg: 84.5
+    black: 0
+    red: 35
+    green: 66.6
+    yellow: 63.2
+    blue: 55.2
+    magenta: 56.6
+    cyan: 59
+    white: 106.2
+    brightBlack: 14.9
+    brightRed: 35
+    brightGreen: 66.6
+    brightYellow: 93
+    brightBlue: 55.2
+    brightMagenta: 56.6
+    brightCyan: 73.3
+    brightWhite: 106.2

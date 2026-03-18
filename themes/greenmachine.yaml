@@ -1,0 +1,49 @@
+name: "GreenMachine"
+source:
+  marketplace_id: "ablazingeboy.greenmachine"
+  version: "0.0.1"
+  installs: 669
+  author: "ABlazingEBoy"
+  repo: "https://github.com/GreenMachine-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ablazingeboy.greenmachine"
+colors:
+  bg: "#111111"
+  fg: "#D4D4D4"
+  black: "#111111"
+  red: "#4BC98A"
+  green: "#0DBC79"
+  yellow: "#4BC98A"
+  blue: "#4BC98A"
+  magenta: "#4BC98A"
+  cyan: "#4BC98A"
+  white: "#D5D8DA"
+  brightBlack: "#222222"
+  brightRed: "#4BC98A"
+  brightGreen: "#23D18B"
+  brightYellow: "#4BC98A"
+  brightBlue: "#4BC98A"
+  brightMagenta: "#4BC98A"
+  brightCyan: "#4BC98A"
+  brightWhite: "#D5D8DA"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 61.1
+    green: 53.5
+    yellow: 61.1
+    blue: 61.1
+    magenta: 61.1
+    cyan: 61.1
+    white: 82.1
+    brightBlack: 0
+    brightRed: 61.1
+    brightGreen: 64
+    brightYellow: 61.1
+    brightBlue: 61.1
+    brightMagenta: 61.1
+    brightCyan: 61.1
+    brightWhite: 82.1

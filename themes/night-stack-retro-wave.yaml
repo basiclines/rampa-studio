@@ -1,0 +1,49 @@
+name: "Night-Stack Retro Wave"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0A0412"
+  fg: "#F8E1FF"
+  black: "#1A1033"
+  red: "#FF00FF"
+  green: "#00FFFF"
+  yellow: "#FF66FF"
+  blue: "#8A2BE2"
+  magenta: "#FF1493"
+  cyan: "#00FFFF"
+  white: "#F8E1FF"
+  brightBlack: "#1A1033"
+  brightRed: "#FF00FF"
+  brightGreen: "#00FFFF"
+  brightYellow: "#FF66FF"
+  brightBlue: "#8A2BE2"
+  brightMagenta: "#FF1493"
+  brightCyan: "#00FFFF"
+  brightWhite: "#F8E1FF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 304
+  contrast:
+    fg: 93.1
+    black: 0
+    red: 46.1
+    green: 92.1
+    yellow: 54.7
+    blue: 23.3
+    magenta: 40.1
+    cyan: 92.1
+    white: 93.1
+    brightBlack: 0
+    brightRed: 46.1
+    brightGreen: 92.1
+    brightYellow: 54.7
+    brightBlue: 23.3
+    brightMagenta: 40.1
+    brightCyan: 92.1
+    brightWhite: 93.1

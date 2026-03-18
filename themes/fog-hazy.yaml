@@ -1,0 +1,49 @@
+name: "Fog Hazy"
+source:
+  marketplace_id: "goldenchao.fog-hazy"
+  version: "0.0.6"
+  installs: 39
+  author: "goldenchao"
+  repo: "https://github.com/GoldSept/theme-fog-hazy"
+  url: "https://marketplace.visualstudio.com/items?itemName=goldenchao.fog-hazy"
+colors:
+  bg: "#1E1E20"
+  fg: "#FFFFF5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 105.6
+    black: 25.6
+    red: 43.1
+    green: 65
+    yellow: 78.1
+    blue: 55.1
+    magenta: 52.9
+    cyan: 77.4
+    white: 106
+    brightBlack: 25.6
+    brightRed: 43.1
+    brightGreen: 83.3
+    brightYellow: 78.1
+    brightBlue: 55.1
+    brightMagenta: 52.9
+    brightCyan: 77.4
+    brightWhite: 106

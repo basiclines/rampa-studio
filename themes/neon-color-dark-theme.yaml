@@ -1,0 +1,49 @@
+name: "Neon Color - Dark Theme"
+source:
+  marketplace_id: "mdmarufsarker.maruf-sarker"
+  version: "0.1.1"
+  installs: 29145
+  author: "Md. Maruf Sarker"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=mdmarufsarker.maruf-sarker"
+colors:
+  bg: "#0C1924"
+  fg: "#00DBFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 245
+  contrast:
+    fg: 73.1
+    black: 0
+    red: 26.6
+    green: 52.9
+    yellow: 85.5
+    blue: 27.3
+    magenta: 29.6
+    cyan: 47.4
+    white: 89.9
+    brightBlack: 21.9
+    brightRed: 38.4
+    brightGreen: 63.4
+    brightYellow: 95.5
+    brightBlue: 39.9
+    brightMagenta: 45.2
+    brightCyan: 55.3
+    brightWhite: 89.9

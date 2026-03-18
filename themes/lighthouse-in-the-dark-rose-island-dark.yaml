@@ -1,0 +1,49 @@
+name: "Lighthouse In The Dark (Rose Island Dark)"
+source:
+  marketplace_id: "CodeTime.lighthouse-in-the-dark"
+  version: "0.1.0"
+  installs: 271
+  author: "Code Time"
+  repo: "https://github.com/afj176/lighthouse-in-the-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodeTime.lighthouse-in-the-dark"
+colors:
+  bg: "#1E1410"
+  fg: "#F5F0E8"
+  black: "#1E1410"
+  red: "#FF6B9D"
+  green: "#98C379"
+  yellow: "#FFB86C"
+  blue: "#61AFEF"
+  magenta: "#FF00FF"
+  cyan: "#56B6C2"
+  white: "#F5F0E8"
+  brightBlack: "#6B5A45"
+  brightRed: "#FF8BB0"
+  brightGreen: "#B8E89D"
+  brightYellow: "#FFD89C"
+  brightBlue: "#8BCEFF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#7DD6E2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 43
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 49.6
+    green: 62.3
+    yellow: 71.5
+    blue: 54.7
+    magenta: 45.3
+    cyan: 54.6
+    white: 97.4
+    brightBlack: 18.2
+    brightRed: 58.4
+    brightGreen: 83.5
+    brightYellow: 85.5
+    brightBlue: 71.6
+    brightMagenta: 53.9
+    brightCyan: 72.7
+    brightWhite: 106.9

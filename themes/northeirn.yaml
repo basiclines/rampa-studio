@@ -1,0 +1,49 @@
+name: "Northeirn"
+source:
+  marketplace_id: "murilonicemento.northeirn"
+  version: "1.0.1"
+  installs: 197
+  author: "Murilo Nascimento"
+  repo: "https://github.com/murilonicemento/northeirn-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=murilonicemento.northeirn"
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#13FBA7"
+  white: "#E5E5E5"
+  brightBlack: "#D466FF"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#EA5D6D"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 25.9
+    green: 52.2
+    yellow: 84.8
+    blue: 26.6
+    magenta: 28.9
+    cyan: 84.6
+    white: 89.2
+    brightBlack: 44.7
+    brightRed: 37.7
+    brightGreen: 62.7
+    brightYellow: 39.8
+    brightBlue: 39.2
+    brightMagenta: 44.5
+    brightCyan: 54.6
+    brightWhite: 89.2

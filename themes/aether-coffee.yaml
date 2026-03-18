@@ -1,0 +1,49 @@
+name: "Aether Coffee"
+source:
+  marketplace_id: "diogo-aether.aether-dark"
+  version: "1.4.0"
+  installs: 203
+  author: "Diogo Pereira"
+  repo: "https://github.com/Diiipereira/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=diogo-aether.aether-dark"
+colors:
+  bg: "#1E1810"
+  fg: "#F0DFC0"
+  black: "#1E1810"
+  red: "#E07878"
+  green: "#90B870"
+  yellow: "#C8B040"
+  blue: "#7AA8C0"
+  magenta: "#C090B8"
+  cyan: "#70A8A0"
+  white: "#9A8A72"
+  brightBlack: "#5A4830"
+  brightRed: "#E89898"
+  brightGreen: "#B0D090"
+  brightYellow: "#E0D060"
+  brightBlue: "#A0C8E0"
+  brightMagenta: "#E0B0D8"
+  brightCyan: "#90C8C0"
+  brightWhite: "#F0DFC0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 75
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 45
+    green: 56.3
+    yellow: 58.7
+    blue: 50.6
+    magenta: 49.1
+    cyan: 48.4
+    white: 39.4
+    brightBlack: 11.1
+    brightRed: 56.9
+    brightGreen: 70.8
+    brightYellow: 75.8
+    brightBlue: 68.8
+    brightMagenta: 66.6
+    brightCyan: 65.9
+    brightWhite: 87.1

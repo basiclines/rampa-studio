@@ -1,0 +1,49 @@
+name: "Homebrew"
+source:
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3734
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+colors:
+  bg: "#000000"
+  fg: "#00A600"
+  black: "#000000"
+  red: "#990000"
+  green: "#00A600"
+  yellow: "#999900"
+  blue: "#0000B2"
+  magenta: "#B200B2"
+  cyan: "#00A6B2"
+  white: "#BFBFBF"
+  brightBlack: "#666666"
+  brightRed: "#E50000"
+  brightGreen: "#00D900"
+  brightYellow: "#E5E500"
+  brightBlue: "#0000FF"
+  brightMagenta: "#E500E5"
+  brightCyan: "#00E5E5"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 42.8
+    black: 0
+    red: 14.3
+    green: 42.8
+    yellow: 44.8
+    blue: 0
+    magenta: 24.5
+    cyan: 46.3
+    white: 68
+    brightBlack: 23
+    brightRed: 31.1
+    brightGreen: 66.7
+    brightYellow: 86.6
+    brightBlue: 16.2
+    brightMagenta: 38.5
+    brightCyan: 77.6
+    brightWhite: 91

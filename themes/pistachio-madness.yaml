@@ -1,0 +1,49 @@
+name: "Pistachio Madness"
+source:
+  marketplace_id: "yubiDev.pistachio-madness-theme"
+  version: "0.0.7"
+  installs: 236
+  author: "yoobdev"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=yubiDev.pistachio-madness-theme"
+colors:
+  bg: "#66A387"
+  fg: "#00EE89"
+  black: "#23663D"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#4DD180"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 164
+  contrast:
+    fg: 32
+    black: 25.9
+    red: 16.3
+    green: 0
+    yellow: 39.8
+    blue: 15.5
+    magenta: 13.2
+    cyan: 0
+    white: 44.2
+    brightBlack: 18.4
+    brightRed: 0
+    brightGreen: 17.7
+    brightYellow: 49.8
+    brightBlue: 0
+    brightMagenta: 0
+    brightCyan: 9.6
+    brightWhite: 44.2

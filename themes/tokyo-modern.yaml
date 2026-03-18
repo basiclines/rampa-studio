@@ -1,0 +1,49 @@
+name: "Tokyo Modern"
+source:
+  marketplace_id: "lod-inc.tokyo-modern"
+  version: "2.8.32"
+  installs: 39
+  author: "lod"
+  repo: "https://github.com/darqus/tokyo-modern-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lod-inc.tokyo-modern"
+colors:
+  bg: "#1D1B2F"
+  fg: "#BBC4EE"
+  black: "#151326"
+  red: "#FF5555"
+  green: "#8AB56C"
+  yellow: "#C4B39D"
+  blue: "#6D61D3"
+  magenta: "#A580EC"
+  cyan: "#51BBCB"
+  white: "#B8C2ED"
+  brightBlack: "#A8AECE"
+  brightRed: "#D64747"
+  brightGreen: "#74985B"
+  brightYellow: "#C9B9A5"
+  brightBlue: "#796ED7"
+  brightMagenta: "#A580EC"
+  brightCyan: "#51BBCB"
+  brightWhite: "#BBC4EE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 288
+  contrast:
+    fg: 70.1
+    black: 0
+    red: 42.6
+    green: 53.9
+    yellow: 60.8
+    blue: 26.4
+    magenta: 42.9
+    cyan: 56.2
+    white: 68.9
+    brightBlack: 57.4
+    brightRed: 31
+    brightGreen: 39.7
+    brightYellow: 64.1
+    brightBlue: 31.3
+    brightMagenta: 42.9
+    brightCyan: 56.2
+    brightWhite: 70.1

@@ -1,0 +1,49 @@
+name: "Neutral"
+source:
+  marketplace_id: "Jonaqhan.jonaqhan"
+  version: "4.8.0"
+  installs: 753
+  author: "Jonaqhan"
+  repo: "https://github.com/Jonathan25J/Jonaqhan-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Jonaqhan.jonaqhan"
+colors:
+  bg: "#262335"
+  fg: "#05F5E7"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 292
+  contrast:
+    fg: 82.8
+    black: 0
+    red: 24.7
+    green: 51
+    yellow: 83.6
+    blue: 25.5
+    magenta: 27.8
+    cyan: 45.6
+    white: 88
+    brightBlack: 20.1
+    brightRed: 36.6
+    brightGreen: 61.6
+    brightYellow: 93.7
+    brightBlue: 38
+    brightMagenta: 43.4
+    brightCyan: 53.4
+    brightWhite: 88

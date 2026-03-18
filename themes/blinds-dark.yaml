@@ -1,0 +1,49 @@
+name: "Blinds (Dark)"
+source:
+  marketplace_id: "tankashing.blinds-theme"
+  version: "8.0.0"
+  installs: 4025
+  author: "Tan Ka-Shing"
+  repo: "https://github.com/orbulant/blinds-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tankashing.blinds-theme"
+colors:
+  bg: "#1F1F1F"
+  fg: "#F7F7F7"
+  black: "#000000"
+  red: "#DE1010"
+  green: "#117717"
+  yellow: "#E5E510"
+  blue: "#3E1D86"
+  magenta: "#822082"
+  cyan: "#008094"
+  white: "#D4D4D4"
+  brightBlack: "#545454"
+  brightRed: "#FF0016"
+  brightGreen: "#33C989"
+  brightYellow: "#F5F543"
+  brightBlue: "#6338FF"
+  brightMagenta: "#E246E2"
+  brightCyan: "#00CBE0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 27.6
+    green: 21.8
+    yellow: 84.6
+    blue: 0
+    magenta: 12.1
+    cyan: 28
+    white: 78.5
+    brightBlack: 13.7
+    brightRed: 35.6
+    brightGreen: 58.9
+    brightYellow: 94.7
+    brightBlue: 21.4
+    brightMagenta: 39.6
+    brightCyan: 63
+    brightWhite: 105.9

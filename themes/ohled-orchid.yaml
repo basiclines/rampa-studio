@@ -1,0 +1,49 @@
+name: "OhLED_Orchid"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#DA70D6"
+  black: "#DA70D6"
+  red: "#A0529D"
+  green: "#AE5AAB"
+  yellow: "#834380"
+  blue: "#CB69C8"
+  magenta: "#BD61B9"
+  cyan: "#914B8F"
+  white: "#743C72"
+  brightBlack: "#DA70D6"
+  brightRed: "#A0529D"
+  brightGreen: "#AE5AAB"
+  brightYellow: "#834380"
+  brightBlue: "#CB69C8"
+  brightMagenta: "#BD61B9"
+  brightCyan: "#914B8F"
+  brightWhite: "#743C72"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 47.1
+    black: 47.1
+    red: 27.4
+    green: 32.1
+    yellow: 18.7
+    blue: 42
+    magenta: 36.9
+    cyan: 23
+    white: 14.8
+    brightBlack: 47.1
+    brightRed: 27.4
+    brightGreen: 32.1
+    brightYellow: 18.7
+    brightBlue: 42
+    brightMagenta: 36.9
+    brightCyan: 23
+    brightWhite: 14.8

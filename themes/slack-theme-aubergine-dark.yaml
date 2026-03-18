@@ -1,0 +1,49 @@
+name: "Slack Theme Aubergine Dark"
+source:
+  marketplace_id: "felipe-mendes.slack-theme"
+  version: "1.9.17"
+  installs: 514450
+  author: "Felipe Mendes"
+  repo: "https://github.com/felipemendes/slack-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=felipe-mendes.slack-theme"
+colors:
+  bg: "#3E313C"
+  fg: "#F6F6F4"
+  black: "#000000"
+  red: "#E53935"
+  green: "#91B859"
+  yellow: "#FFB62C"
+  blue: "#6182B8"
+  magenta: "#7C4DFF"
+  cyan: "#39ADB5"
+  white: "#FFFFFF"
+  brightBlack: "#90A4AE"
+  brightRed: "#E53935"
+  brightGreen: "#91B859"
+  brightYellow: "#FFB62C"
+  brightBlue: "#6182B8"
+  brightMagenta: "#7C4DFF"
+  brightCyan: "#39ADB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 331
+  contrast:
+    fg: 95.4
+    black: 0
+    red: 27.6
+    green: 50.8
+    yellow: 64.6
+    blue: 29
+    magenta: 22.7
+    cyan: 43.7
+    white: 101.5
+    brightBlack: 44.9
+    brightRed: 27.6
+    brightGreen: 50.8
+    brightYellow: 64.6
+    brightBlue: 29
+    brightMagenta: 22.7
+    brightCyan: 43.7
+    brightWhite: 101.5

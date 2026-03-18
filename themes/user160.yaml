@@ -1,0 +1,49 @@
+name: "user160"
+source:
+  marketplace_id: "user160-theme.user160-theme"
+  version: "1.0.0"
+  installs: 10
+  author: "user160-theme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=user160-theme.user160-theme"
+colors:
+  bg: "#080B0F"
+  fg: "#C9D1D9"
+  black: "#484F58"
+  red: "#EC8E2C"
+  green: "#58A6FF"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FDAC54"
+  brightGreen: "#79C0FF"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 255
+  contrast:
+    fg: 77.9
+    black: 13.4
+    red: 53.5
+    green: 52.5
+    yellow: 52.5
+    blue: 52.5
+    magenta: 52.5
+    cyan: 61.7
+    white: 64.4
+    brightBlack: 29.6
+    brightRed: 67.1
+    brightGreen: 65.1
+    brightYellow: 65
+    brightBlue: 65.1
+    brightMagenta: 64.9
+    brightCyan: 70.3
+    brightWhite: 107.7

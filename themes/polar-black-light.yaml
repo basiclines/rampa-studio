@@ -1,0 +1,49 @@
+name: "Polar Black Light"
+source:
+  marketplace_id: "nionx01.polar-black-themes"
+  version: "0.0.5"
+  installs: 184
+  author: "nionx01"
+  repo: "https://github.com/nionx01/polar-black-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nionx01.polar-black-themes"
+colors:
+  bg: "#FAFAFA"
+  fg: "#2A2A2A"
+  black: "#2A2A2A"
+  red: "#C03848"
+  green: "#4A7A28"
+  yellow: "#A07808"
+  blue: "#2A5AAA"
+  magenta: "#7848A0"
+  cyan: "#1A6EA0"
+  white: "#FAFAFA"
+  brightBlack: "#888888"
+  brightRed: "#C03848"
+  brightGreen: "#4A7A28"
+  brightYellow: "#A07808"
+  brightBlue: "#1A6EA0"
+  brightMagenta: "#7848A0"
+  brightCyan: "#1A6EA0"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.1
+    black: 98.1
+    red: 72.7
+    green: 72.1
+    yellow: 64.5
+    blue: 79.6
+    magenta: 78.9
+    cyan: 74.3
+    white: 0
+    brightBlack: 60.1
+    brightRed: 72.7
+    brightGreen: 72.1
+    brightYellow: 64.5
+    brightBlue: 74.3
+    brightMagenta: 78.9
+    brightCyan: 74.3
+    brightWhite: 0

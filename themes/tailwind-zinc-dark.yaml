@@ -1,0 +1,49 @@
+name: "Tailwind Zinc Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#18181B"
+  fg: "#F4F4F5"
+  black: "#27272A"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#E4E4E7"
+  brightBlack: "#27272A"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#E4E4E7"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 99.5
+    black: 0
+    red: 48
+    green: 70.3
+    yellow: 77.6
+    blue: 51.2
+    magenta: 49.5
+    cyan: 68.5
+    white: 89.4
+    brightBlack: 0
+    brightRed: 48
+    brightGreen: 70.3
+    brightYellow: 77.6
+    brightBlue: 51.2
+    brightMagenta: 49.5
+    brightCyan: 68.5
+    brightWhite: 89.4

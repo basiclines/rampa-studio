@@ -1,0 +1,49 @@
+name: "wired"
+source:
+  marketplace_id: "minako.wired"
+  version: "2.0.5"
+  installs: 4867
+  author: "minako"
+  repo: "https://github.com/kayliese/wired"
+  url: "https://marketplace.visualstudio.com/items?itemName=minako.wired"
+colors:
+  bg: "#000000"
+  fg: "#C1B492"
+  black: "#502832"
+  red: "#A45A74"
+  green: "#B39987"
+  yellow: "#A47F7C"
+  blue: "#AD5F74"
+  magenta: "#D78594"
+  cyan: "#B39487"
+  white: "#CA988E"
+  brightBlack: "#703A47"
+  brightRed: "#A45A74"
+  brightGreen: "#B39987"
+  brightYellow: "#A47F7C"
+  brightBlue: "#AD5F74"
+  brightMagenta: "#D78594"
+  brightCyan: "#B39487"
+  brightWhite: "#D2738A"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 62.2
+    black: 0
+    red: 28.1
+    green: 49.8
+    yellow: 38.6
+    blue: 30.7
+    magenta: 49.1
+    cyan: 48
+    white: 52.9
+    brightBlack: 12.4
+    brightRed: 28.1
+    brightGreen: 49.8
+    brightYellow: 38.6
+    brightBlue: 30.7
+    brightMagenta: 49.1
+    brightCyan: 48
+    brightWhite: 42.8

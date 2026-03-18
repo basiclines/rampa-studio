@@ -1,0 +1,49 @@
+name: "Tearz"
+source:
+  marketplace_id: "Tearz.tearz"
+  version: "0.0.3"
+  installs: 473
+  author: "Tearz"
+  repo: "https://github.com/chrislaupama/tearz"
+  url: "https://marketplace.visualstudio.com/items?itemName=Tearz.tearz"
+colors:
+  bg: "#24272E"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 267
+  contrast:
+    fg: 57.1
+    black: 0
+    red: 34.5
+    green: 58.1
+    yellow: 46.3
+    blue: 47.4
+    magenta: 36.8
+    cyan: 50.3
+    white: 88.4
+    brightBlack: 13.2
+    brightRed: 43.8
+    brightGreen: 74.5
+    brightYellow: 59
+    brightBlue: 61.5
+    brightMagenta: 48
+    brightCyan: 65.5
+    brightWhite: 80.8

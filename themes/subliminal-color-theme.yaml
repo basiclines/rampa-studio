@@ -1,0 +1,49 @@
+name: "Subliminal-color-theme"
+source:
+  marketplace_id: "josefssonrasmus.subliminal-remix"
+  version: "1.0.0"
+  installs: 397
+  author: "Rasmus Josefsson"
+  repo: "https://github.com/gaearon/subliminal"
+  url: "https://marketplace.visualstudio.com/items?itemName=josefssonrasmus.subliminal-remix"
+colors:
+  bg: "#282C35"
+  fg: "#D4D4D4"
+  black: "#555555"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FFE2A9"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FFE2A9"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  contrast:
+    fg: 76.3
+    black: 11.9
+    red: 34.6
+    green: 61.6
+    yellow: 87
+    blue: 40.9
+    magenta: 48.8
+    cyan: 49.8
+    white: 76.3
+    brightBlack: 30.1
+    brightRed: 34.6
+    brightGreen: 61.6
+    brightYellow: 87
+    brightBlue: 40.9
+    brightMagenta: 48.8
+    brightCyan: 49.8
+    brightWhite: 76.3

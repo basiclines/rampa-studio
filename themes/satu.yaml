@@ -1,0 +1,49 @@
+name: "Satu"
+source:
+  marketplace_id: "Docutheme.docutheme"
+  version: "0.0.2"
+  installs: 61
+  author: "Docutheme"
+  repo: "https://github.com/feanra/docutheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Docutheme.docutheme"
+colors:
+  bg: "#373741"
+  fg: "#81ECF3"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  contrast:
+    fg: 78
+    black: 0
+    red: 20.5
+    green: 46.8
+    yellow: 79.4
+    blue: 21.2
+    magenta: 23.5
+    cyan: 41.3
+    white: 83.8
+    brightBlack: 15.8
+    brightRed: 32.3
+    brightGreen: 57.3
+    brightYellow: 89.4
+    brightBlue: 33.8
+    brightMagenta: 39.1
+    brightCyan: 49.2
+    brightWhite: 83.8

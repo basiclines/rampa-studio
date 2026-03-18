@@ -1,0 +1,49 @@
+name: "GitHub Dark Colorblind"
+source:
+  marketplace_id: "wheredoesyourmindgo.nushu-vscode-theme"
+  version: "2.2.18"
+  installs: 32055
+  author: "wheredoesyourmindgo"
+  repo: "https://github.com/wheredoesyourmindgo/nushu-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.nushu-vscode-theme"
+colors:
+  bg: "#0D1117"
+  fg: "#C9D1D9"
+  black: "#484F58"
+  red: "#EC8E2C"
+  green: "#58A6FF"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FDAC54"
+  brightGreen: "#79C0FF"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 258
+  contrast:
+    fg: 77.5
+    black: 13.1
+    red: 53.2
+    green: 52.2
+    yellow: 52.2
+    blue: 52.2
+    magenta: 52.2
+    cyan: 61.4
+    white: 64
+    brightBlack: 29.3
+    brightRed: 66.8
+    brightGreen: 64.7
+    brightYellow: 64.7
+    brightBlue: 64.7
+    brightMagenta: 64.6
+    brightCyan: 69.9
+    brightWhite: 107.4

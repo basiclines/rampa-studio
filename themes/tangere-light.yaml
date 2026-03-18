@@ -1,0 +1,49 @@
+name: "Tangere Light"
+source:
+  marketplace_id: "MihailDolghintev.tangere"
+  version: "0.0.4"
+  installs: 47
+  author: "Mihail Dolghintev"
+  repo: "https://github.com/mihaildolghintev/tangere"
+  url: "https://marketplace.visualstudio.com/items?itemName=MihailDolghintev.tangere"
+colors:
+  bg: "#FDFDFA"
+  fg: "#000000"
+  black: "#FFFFFF"
+  red: "#9C341F"
+  green: "#004C73"
+  yellow: "#805619"
+  blue: "#223355"
+  magenta: "#663D52"
+  cyan: "#4B5363"
+  white: "#898E99"
+  brightBlack: "#686868"
+  brightRed: "#9C341F"
+  brightGreen: "#004C73"
+  brightYellow: "#40290A"
+  brightBlue: "#223355"
+  brightMagenta: "#663D52"
+  brightCyan: "#002A40"
+  brightWhite: "#D1D1D1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 104.7
+    black: 0
+    red: 82.6
+    green: 89.3
+    yellow: 80.4
+    blue: 97.1
+    magenta: 89
+    cyan: 85.5
+    white: 58.9
+    brightBlack: 76.5
+    brightRed: 82.6
+    brightGreen: 89.3
+    brightYellow: 98.7
+    brightBlue: 97.1
+    brightMagenta: 89
+    brightCyan: 100.2
+    brightWhite: 23.1

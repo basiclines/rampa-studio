@@ -1,0 +1,49 @@
+name: "Tlapalli 05: Amethyst"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+colors:
+  bg: "#060407"
+  fg: "#997CC0"
+  black: "#060407"
+  red: "#8A5A9D"
+  green: "#6B3D7F"
+  yellow: "#B89FD9"
+  blue: "#342A4D"
+  magenta: "#9970BD"
+  cyan: "#7A509E"
+  white: "#D49DE3"
+  brightBlack: "#261E38"
+  brightRed: "#8A5A9D"
+  brightGreen: "#6B3D7F"
+  brightYellow: "#B89FD9"
+  brightBlue: "#342A4D"
+  brightMagenta: "#9970BD"
+  brightCyan: "#7A509E"
+  brightWhite: "#E8C4FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 316
+  contrast:
+    fg: 39.2
+    black: 0
+    red: 26
+    green: 14.4
+    yellow: 56.1
+    blue: 0
+    magenta: 35.5
+    cyan: 21.8
+    white: 59.9
+    brightBlack: 0
+    brightRed: 26
+    brightGreen: 14.4
+    brightYellow: 56.1
+    brightBlue: 0
+    brightMagenta: 35.5
+    brightCyan: 21.8
+    brightWhite: 78.8

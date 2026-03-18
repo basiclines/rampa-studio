@@ -1,0 +1,49 @@
+name: "Peaceful Mind"
+source:
+  marketplace_id: "glitchlover.peaceful-mind"
+  version: "2.1.0"
+  installs: 71
+  author: "glitchlover"
+  repo: "https://github.com/glitchlover/peaceful-mind"
+  url: "https://marketplace.visualstudio.com/items?itemName=glitchlover.peaceful-mind"
+colors:
+  bg: "#161924"
+  fg: "#89A7B0"
+  black: "#070613"
+  red: "#FF7E7E"
+  green: "#56C280"
+  yellow: "#FFBE9F"
+  blue: "#6668E9"
+  magenta: "#FF73A7"
+  cyan: "#56B6C2"
+  white: "#BAE3E8"
+  brightBlack: "#4D585A"
+  brightRed: "#FF9595"
+  brightGreen: "#75FFB8"
+  brightYellow: "#FFD7C4"
+  brightBlue: "#7493F1"
+  brightMagenta: "#FF9BC1"
+  brightCyan: "#65E3F2"
+  brightWhite: "#E5FCFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 273
+  contrast:
+    fg: 50.6
+    black: 0
+    red: 52.9
+    green: 57.3
+    yellow: 74.7
+    blue: 29.9
+    magenta: 51.5
+    cyan: 54.3
+    white: 83.8
+    brightBlack: 15.2
+    brightRed: 60.1
+    brightGreen: 90.4
+    brightYellow: 86.1
+    brightBlue: 45
+    brightMagenta: 63.6
+    brightCyan: 78
+    brightWhite: 101.7

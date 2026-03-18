@@ -1,0 +1,49 @@
+name: "Surreal"
+source:
+  marketplace_id: "ShayanChakraborty.surreal-theme"
+  version: "1.0.0"
+  installs: 114
+  author: "Shayan Chakraborty"
+  repo: "https://github.com/Shayan-R7/vscode-theme-surreal"
+  url: "https://marketplace.visualstudio.com/items?itemName=ShayanChakraborty.surreal-theme"
+colors:
+  bg: "#151515"
+  fg: "#E0E0E0"
+  black: "#515151"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#D5D5D5"
+  brightBlack: "#797979"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#CFCDCD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 87.1
+    black: 13.8
+    red: 26.9
+    green: 53.2
+    yellow: 85.8
+    blue: 27.6
+    magenta: 29.9
+    cyan: 47.7
+    white: 80.3
+    brightBlack: 30.7
+    brightRed: 38.7
+    brightGreen: 63.7
+    brightYellow: 95.8
+    brightBlue: 40.2
+    brightMagenta: 45.6
+    brightCyan: 55.6
+    brightWhite: 75.7

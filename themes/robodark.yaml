@@ -1,0 +1,49 @@
+name: "RoboDark"
+source:
+  marketplace_id: "LaVeglia00148.robodark"
+  version: "1.11.2"
+  installs: 2509
+  author: "Chad LaVeglia"
+  repo: "https://github.com/cjesq24/RoboDark"
+  url: "https://marketplace.visualstudio.com/items?itemName=LaVeglia00148.robodark"
+colors:
+  bg: "#010102"
+  fg: "#ABB2BF"
+  black: "#4A505D"
+  red: "#F81141"
+  green: "#23974A"
+  yellow: "#FD7E57"
+  blue: "#285BFF"
+  magenta: "#8C62FD"
+  cyan: "#3A8AB2"
+  white: "#CCD5E5"
+  brightBlack: "#61697A"
+  brightRed: "#FC4A6D"
+  brightGreen: "#37BD58"
+  brightYellow: "#F6BE48"
+  brightBlue: "#199FFD"
+  brightMagenta: "#FC58F6"
+  brightCyan: "#50ACAE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 60.4
+    black: 14.1
+    red: 36.3
+    green: 37.1
+    yellow: 52.9
+    blue: 26.8
+    magenta: 35
+    cyan: 36
+    white: 80.7
+    brightBlack: 24.2
+    brightRed: 42.5
+    brightGreen: 54.3
+    brightYellow: 72.7
+    brightBlue: 48.1
+    brightMagenta: 51.1
+    brightCyan: 50.1
+    brightWhite: 107.9

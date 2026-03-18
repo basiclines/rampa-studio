@@ -1,0 +1,49 @@
+name: "Pink Flower"
+source:
+  marketplace_id: "stevennyang.green-tree"
+  version: "1.2.1"
+  installs: 5715
+  author: "Steven N. Yang"
+  repo: "https://github.com/snyang/vscode-theme-green-tree"
+  url: "https://marketplace.visualstudio.com/items?itemName=stevennyang.green-tree"
+colors:
+  bg: "#FFF0F1"
+  fg: "#232323"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#3CB371"
+  yellow: "#BDB76B"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00BFFF"
+  white: "#3CB371"
+  brightBlack: "#708090"
+  brightRed: "#8B0000"
+  brightGreen: "#3CB371"
+  brightYellow: "#BDB76B"
+  brightBlue: "#00008B"
+  brightMagenta: "#8B008B"
+  brightCyan: "#87CEFA"
+  brightWhite: "#3CB371"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 95.7
+    black: 99.1
+    red: 57.2
+    green: 44.5
+    yellow: 33.4
+    blue: 78.9
+    magenta: 48.6
+    cyan: 33.9
+    white: 44.5
+    brightBlack: 60.8
+    brightRed: 83.8
+    brightGreen: 44.5
+    brightYellow: 33.4
+    brightBlue: 93
+    brightMagenta: 80.1
+    brightCyan: 23.8
+    brightWhite: 44.5

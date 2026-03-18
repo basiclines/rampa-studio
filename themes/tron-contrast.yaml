@@ -1,0 +1,49 @@
+name: "tron-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#07090B"
+  fg: "#AEC2E0"
+  black: "#11161B"
+  red: "#BA0E2E"
+  green: "#267FB5"
+  yellow: "#FFFFFF"
+  blue: "#FFFFFF"
+  magenta: "#748AA6"
+  cyan: "#267FB5"
+  white: "#C0D0E7"
+  brightBlack: "#2F3C49"
+  brightRed: "#F03E5F"
+  brightGreen: "#63B0DE"
+  brightYellow: "#FFFFFF"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#B2BECE"
+  brightCyan: "#63B0DE"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 68.8
+    black: 0
+    red: 21.4
+    green: 31.5
+    yellow: 107.8
+    blue: 107.8
+    magenta: 38.6
+    cyan: 31.5
+    white: 77.1
+    brightBlack: 0
+    brightRed: 37.7
+    brightGreen: 55.1
+    brightYellow: 107.8
+    brightBlue: 107.8
+    brightMagenta: 66.7
+    brightCyan: 55.1
+    brightWhite: 104.3

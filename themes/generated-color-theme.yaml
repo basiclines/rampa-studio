@@ -1,0 +1,49 @@
+name: "Generated Color Theme"
+source:
+  marketplace_id: "prabinshrestha.classic"
+  version: "0.0.1"
+  installs: 32
+  author: "prabin shrestha"
+  repo: "https://github.com/Prabin70/classic-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=prabinshrestha.classic"
+colors:
+  bg: "#010309"
+  fg: "#CCD7C9"
+  black: "#000000"
+  red: "#937471"
+  green: "#747F76"
+  yellow: "#AB6740"
+  blue: "#4B79AD"
+  magenta: "#A151DA"
+  cyan: "#737F81"
+  white: "#F2F1ED"
+  brightBlack: "#434343"
+  brightRed: "#BD5C54"
+  brightGreen: "#CDE6D2"
+  brightYellow: "#DE9F7B"
+  brightBlue: "#297AD5"
+  brightMagenta: "#A457DC"
+  brightCyan: "#A5C5CB"
+  brightWhite: "#FCFBFB"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 259
+  contrast:
+    fg: 80.3
+    black: 0
+    red: 32.5
+    green: 32.9
+    yellow: 31.2
+    blue: 30.4
+    magenta: 31.3
+    cyan: 33.2
+    white: 98.6
+    brightBlack: 9.5
+    brightRed: 32
+    brightGreen: 87.6
+    brightYellow: 58
+    brightBlue: 32.1
+    brightMagenta: 33
+    brightCyan: 68.2
+    brightWhite: 105.4

@@ -1,0 +1,49 @@
+name: "yondog-dark"
+source:
+  marketplace_id: "AbyTubuon.yondog-dark"
+  version: "0.0.3"
+  installs: 24
+  author: "Kirik "
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=AbyTubuon.yondog-dark"
+colors:
+  bg: "#181C1F"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#F14C4C"
+  green: "#3AD353"
+  yellow: "#DBDB50"
+  blue: "#3B8EEA"
+  magenta: "#BB68BB"
+  cyan: "#39C5CF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#F14C4C"
+  brightGreen: "#3AD353"
+  brightYellow: "#DBDB50"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#BB68BB"
+  brightCyan: "#39C5CF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 104.1
+    black: 0
+    red: 38.1
+    green: 63.3
+    yellow: 79.5
+    blue: 39.5
+    magenta: 36.8
+    cyan: 60.4
+    white: 106.4
+    brightBlack: 0
+    brightRed: 38.1
+    brightGreen: 63.3
+    brightYellow: 79.5
+    brightBlue: 39.5
+    brightMagenta: 36.8
+    brightCyan: 60.4
+    brightWhite: 106.4

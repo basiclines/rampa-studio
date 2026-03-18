@@ -1,0 +1,49 @@
+name: "Mint Chocolate"
+source:
+  marketplace_id: "onulu.mint-chocolate"
+  version: "1.0.1"
+  installs: 577
+  author: "onulu"
+  repo: "https://github.com/onulu/mint-chocolate-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=onulu.mint-chocolate"
+colors:
+  bg: "#302721"
+  fg: "#C9D5D0"
+  black: "#241D1A"
+  red: "#E67A73"
+  green: "#84D4BC"
+  yellow: "#E5B088"
+  blue: "#66CFB9"
+  magenta: "#CE8179"
+  cyan: "#37B390"
+  white: "#C9D5D0"
+  brightBlack: "#4D3C33"
+  brightRed: "#E67A73"
+  brightGreen: "#84D4BC"
+  brightYellow: "#E5B088"
+  brightBlue: "#66CFB9"
+  brightMagenta: "#CE8179"
+  brightCyan: "#45C4A0"
+  brightWhite: "#F5FAF8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 56
+  contrast:
+    fg: 75.8
+    black: 0
+    red: 44.2
+    green: 67.9
+    yellow: 62
+    blue: 63.6
+    magenta: 41.9
+    cyan: 47.6
+    white: 75.8
+    brightBlack: 0
+    brightRed: 44.2
+    brightGreen: 67.9
+    brightYellow: 62
+    brightBlue: 63.6
+    brightMagenta: 41.9
+    brightCyan: 56.2
+    brightWhite: 100.2

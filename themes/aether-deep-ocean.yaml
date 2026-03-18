@@ -1,0 +1,49 @@
+name: "Aether Deep Ocean"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#0A1628"
+  fg: "#C3E2FF"
+  black: "#0A1628"
+  red: "#FF5252"
+  green: "#00E676"
+  yellow: "#FFCA28"
+  blue: "#00BCD4"
+  magenta: "#7C4DFF"
+  cyan: "#00ACC1"
+  white: "#C3E2FF"
+  brightBlack: "#2E5A8E"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69F0AE"
+  brightYellow: "#FFD54F"
+  brightBlue: "#4FC3F7"
+  brightMagenta: "#B388FF"
+  brightCyan: "#84FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 258
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 42.9
+    green: 73.3
+    yellow: 77.9
+    blue: 56.6
+    magenta: 28.1
+    cyan: 48.6
+    white: 85.8
+    brightBlack: 16.7
+    brightRed: 48.9
+    brightGreen: 82.1
+    brightYellow: 82.8
+    brightBlue: 62.9
+    brightMagenta: 49.3
+    brightCyan: 94.6
+    brightWhite: 106.9

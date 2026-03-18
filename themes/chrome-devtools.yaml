@@ -1,0 +1,49 @@
+name: "Chrome DevTools"
+source:
+  marketplace_id: "nicmeriano.chrome-devtools-theme-dark"
+  version: "0.0.1"
+  installs: 496
+  author: "nicmeriano"
+  repo: "https://github.com/nicmeriano/chrome-devtools-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nicmeriano.chrome-devtools-theme-dark"
+colors:
+  bg: "#202124"
+  fg: "#BFC6CE"
+  black: "#494B4F"
+  red: "#F07178"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#36A3D9"
+  magenta: "#D4BFFF"
+  cyan: "#95E6CB"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#CBE645"
+  brightYellow: "#FFDF80"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#A6FDE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 69.3
+    black: 10
+    red: 45.3
+    green: 80.7
+    yellow: 78
+    blue: 45.5
+    magenta: 71.7
+    cyan: 79.6
+    white: 70.4
+    brightBlack: 21.6
+    brightRed: 45.3
+    brightGreen: 81.7
+    brightYellow: 86.6
+    brightBlue: 33.4
+    brightMagenta: 56.2
+    brightCyan: 93.3
+    brightWhite: 105.6

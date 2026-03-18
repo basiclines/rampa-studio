@@ -1,0 +1,49 @@
+name: "Darker Solarized"
+source:
+  marketplace_id: "soklaysam.darker-solarized"
+  version: "1.0.0"
+  installs: 1324
+  author: "SokLay Sam"
+  repo: "https://github.com/soklaysam/vscode-darker-solarized"
+  url: "https://marketplace.visualstudio.com/items?itemName=soklaysam.darker-solarized"
+colors:
+  bg: "#002028"
+  fg: "#839496"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#839496"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#859900"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#839496"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 218
+  contrast:
+    fg: 41.2
+    black: 0
+    red: 29.4
+    green: 40.9
+    yellow: 40.9
+    blue: 35.9
+    magenta: 29.6
+    cyan: 41.6
+    white: 41.2
+    brightBlack: 23.1
+    brightRed: 28.8
+    brightGreen: 40.9
+    brightYellow: 28.9
+    brightBlue: 41.2
+    brightMagenta: 29.6
+    brightCyan: 48.1
+    brightWhite: 41.2

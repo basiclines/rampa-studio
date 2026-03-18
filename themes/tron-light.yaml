@@ -1,0 +1,49 @@
+name: "tron-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#D7E5ED"
+  fg: "#222222"
+  black: "#E9F0F5"
+  red: "#BA0E2E"
+  green: "#267FB5"
+  yellow: "#89BDDD"
+  blue: "#FFFFFF"
+  magenta: "#748AA6"
+  cyan: "#267FB5"
+  white: "#2F2F2F"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#63B0DE"
+  brightYellow: "#D8E9F4"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#B2BECE"
+  brightCyan: "#63B0DE"
+  brightWhite: "#555555"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 233
+  contrast:
+    fg: 86.2
+    black: 0
+    red: 63.7
+    green: 53.4
+    yellow: 22.5
+    blue: 16.4
+    magenta: 46.3
+    cyan: 53.4
+    white: 83.2
+    brightBlack: 16.4
+    brightRed: 47.2
+    brightGreen: 30.2
+    brightYellow: 0
+    brightBlue: 16.4
+    brightMagenta: 19.1
+    brightCyan: 30.2
+    brightWhite: 69.3

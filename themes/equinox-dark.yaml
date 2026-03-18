@@ -1,0 +1,49 @@
+name: "Equinox Dark"
+source:
+  marketplace_id: "xAlvzx.equinox-theme"
+  version: "1.0.4"
+  installs: 45
+  author: "xAlvzx"
+  repo: "https://github.com/xAlvzx/equinox-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xAlvzx.equinox-theme"
+colors:
+  bg: "#323234"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 54.8
+    black: 0
+    red: 32.1
+    green: 55.7
+    yellow: 44
+    blue: 45
+    magenta: 34.4
+    cyan: 47.9
+    white: 78.4
+    brightBlack: 10.8
+    brightRed: 41.4
+    brightGreen: 72.1
+    brightYellow: 56.6
+    brightBlue: 59.1
+    brightMagenta: 45.6
+    brightCyan: 63.2
+    brightWhite: 86

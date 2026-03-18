@@ -1,0 +1,49 @@
+name: "PolyGopher Theme"
+source:
+  marketplace_id: "Safak.poly-gopher-dark-blue"
+  version: "1.0.0"
+  installs: 86
+  author: "Safak"
+  repo: "https://github.com/safak7/poly-gopher-dark-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=Safak.poly-gopher-dark-blue"
+colors:
+  bg: "#000000"
+  fg: "#00ADD8"
+  black: "#A3A3A3"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 51.2
+    black: 52.5
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 28.4
+    magenta: 30.8
+    cyan: 48.6
+    white: 107.9
+    brightBlack: 23
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 56.4
+    brightWhite: 107.9

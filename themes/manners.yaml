@@ -1,0 +1,49 @@
+name: "Manners"
+source:
+  marketplace_id: "SajanSrikanthan.manners"
+  version: "0.0.3"
+  installs: 65
+  author: "Sajan Srikanthan"
+  repo: "https://github.com/sajansrikanthan/Manners-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SajanSrikanthan.manners"
+colors:
+  bg: "#070504"
+  fg: "#DDDFE9"
+  black: "#070504"
+  red: "#FA1313"
+  green: "#00C82B"
+  yellow: "#FFE553"
+  blue: "#C5C6C7"
+  magenta: "#495057"
+  cyan: "#C5C6C7"
+  white: "#FFFFFF"
+  brightBlack: "#070504"
+  brightRed: "#FA1313"
+  brightGreen: "#17F648"
+  brightYellow: "#FFFFFF"
+  brightBlue: "#C5C6C7"
+  brightMagenta: "#495057"
+  brightCyan: "#23DEFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 87.4
+    black: 0
+    red: 36.4
+    green: 58.5
+    yellow: 90.8
+    blue: 72
+    magenta: 13.8
+    cyan: 72
+    white: 107.9
+    brightBlack: 0
+    brightRed: 36.4
+    brightGreen: 82
+    brightYellow: 107.9
+    brightBlue: 72
+    brightMagenta: 13.8
+    brightCyan: 75.8
+    brightWhite: 107.9

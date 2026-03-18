@@ -1,0 +1,49 @@
+name: "Onora"
+source:
+  marketplace_id: "NolanJenko.abelian"
+  version: "0.14.0"
+  installs: 389
+  author: "Robert Jenko"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=NolanJenko.abelian"
+colors:
+  bg: "#232E35"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#546E7A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 236
+  contrast:
+    fg: 101.2
+    black: 0
+    red: 40.3
+    green: 80.8
+    yellow: 75.6
+    blue: 52.6
+    magenta: 50.4
+    cyan: 74.9
+    white: 103.5
+    brightBlack: 20.5
+    brightRed: 40.3
+    brightGreen: 80.8
+    brightYellow: 75.6
+    brightBlue: 52.6
+    brightMagenta: 50.4
+    brightCyan: 74.9
+    brightWhite: 103.5

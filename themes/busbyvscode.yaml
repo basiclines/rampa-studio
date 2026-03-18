@@ -1,0 +1,49 @@
+name: "BusbyVSCode"
+source:
+  marketplace_id: "MikeBusby.busbyvscode"
+  version: "0.0.3"
+  installs: 132
+  author: "MikeBusby"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=MikeBusby.busbyvscode"
+colors:
+  bg: "#002436"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 235
+  contrast:
+    fg: 69.8
+    black: 24.9
+    red: 42.5
+    green: 64.3
+    yellow: 77.4
+    blue: 54.4
+    magenta: 52.3
+    cyan: 76.8
+    white: 105.4
+    brightBlack: 24.9
+    brightRed: 42.5
+    brightGreen: 82.7
+    brightYellow: 77.4
+    brightBlue: 54.4
+    brightMagenta: 52.3
+    brightCyan: 76.8
+    brightWhite: 105.4

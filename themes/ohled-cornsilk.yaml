@@ -1,0 +1,49 @@
+name: "OhLED_Cornsilk"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFF8DC"
+  black: "#FFF8DC"
+  red: "#BBB6A1"
+  green: "#CCC6B0"
+  yellow: "#999584"
+  blue: "#EEE7CD"
+  magenta: "#DDD7BF"
+  cyan: "#AAA593"
+  white: "#888475"
+  brightBlack: "#FFF8DC"
+  brightRed: "#BBB6A1"
+  brightGreen: "#CCC6B0"
+  brightYellow: "#999584"
+  brightBlue: "#EEE7CD"
+  brightMagenta: "#DDD7BF"
+  brightCyan: "#AAA593"
+  brightWhite: "#888475"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 103
+    black: 103
+    red: 62.7
+    green: 72
+    yellow: 45
+    blue: 92.2
+    magenta: 82.1
+    cyan: 53.5
+    white: 36.6
+    brightBlack: 103
+    brightRed: 62.7
+    brightGreen: 72
+    brightYellow: 45
+    brightBlue: 92.2
+    brightMagenta: 82.1
+    brightCyan: 53.5
+    brightWhite: 36.6

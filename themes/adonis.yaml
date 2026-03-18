@@ -1,0 +1,49 @@
+name: "Adonis"
+source:
+  marketplace_id: "saeed-nazari.adonis-theme"
+  version: "5.1.0"
+  installs: 17277
+  author: "Saeed Nazari"
+  repo: "https://github.com/saeed-nazari/vsc-theme-adonis"
+  url: "https://marketplace.visualstudio.com/items?itemName=saeed-nazari.adonis-theme"
+colors:
+  bg: "#272A2F"
+  fg: "#CCCCCC"
+  black: "#272A2F"
+  red: "#FA6780"
+  green: "#9DD56E"
+  yellow: "#A4D676"
+  blue: "#FDB772"
+  magenta: "#D9BDF8"
+  cyan: "#7DD5F4"
+  white: "#CCCCCC"
+  brightBlack: "#272A2F"
+  brightRed: "#FA6780"
+  brightGreen: "#9DD56E"
+  brightYellow: "#A4D676"
+  brightBlue: "#FDB772"
+  brightMagenta: "#D9BDF8"
+  brightCyan: "#7DD5F4"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 261
+  contrast:
+    fg: 71.9
+    black: 0
+    red: 43.9
+    green: 67.9
+    yellow: 69.2
+    blue: 68
+    magenta: 69.7
+    cyan: 70.3
+    white: 71.9
+    brightBlack: 0
+    brightRed: 43.9
+    brightGreen: 67.9
+    brightYellow: 69.2
+    brightBlue: 68
+    brightMagenta: 69.7
+    brightCyan: 70.3
+    brightWhite: 71.9

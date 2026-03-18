@@ -1,0 +1,49 @@
+name: "Umi"
+source:
+  marketplace_id: "TobiasTimm.umi"
+  version: "1.1.2"
+  installs: 2886
+  author: "Tobias Timm"
+  repo: "https://github.com/tobiastimm/umi"
+  url: "https://marketplace.visualstudio.com/items?itemName=TobiasTimm.umi"
+colors:
+  bg: "#1C2B45"
+  fg: "#D4D4D4"
+  black: "#6F7899"
+  red: "#F1888E"
+  green: "#12D8C3"
+  yellow: "#FFEDCB"
+  blue: "#15BDDB"
+  magenta: "#9DA5E8"
+  cyan: "#D6E9FF"
+  white: "#FFFFFF"
+  brightBlack: "#6F7899"
+  brightRed: "#F1888E"
+  brightGreen: "#12D8C3"
+  brightYellow: "#FFEDCB"
+  brightBlue: "#15BDDB"
+  brightMagenta: "#9DA5E8"
+  brightCyan: "#D6E9FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 261
+  contrast:
+    fg: 76.4
+    black: 27.4
+    red: 50.5
+    green: 65.7
+    yellow: 93.2
+    blue: 54.3
+    magenta: 51.9
+    cyan: 88.1
+    white: 103.8
+    brightBlack: 27.4
+    brightRed: 50.5
+    brightGreen: 65.7
+    brightYellow: 93.2
+    brightBlue: 54.3
+    brightMagenta: 51.9
+    brightCyan: 88.1
+    brightWhite: 103.8

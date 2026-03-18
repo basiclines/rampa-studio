@@ -1,0 +1,49 @@
+name: "ukiyo"
+source:
+  marketplace_id: "zcericola.ukiyo"
+  version: "0.8.0"
+  installs: 1159
+  author: "zcericola"
+  repo: "https://www.github.com/zcericola/ukiyo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zcericola.ukiyo"
+colors:
+  bg: "#121212"
+  fg: "#D3D3D3"
+  black: "#666666"
+  red: "#EB7F7F"
+  green: "#15B6A6"
+  yellow: "#D0CD7B"
+  blue: "#10BED5"
+  magenta: "#A59BE9"
+  cyan: "#62CFCF"
+  white: "#A59BE9"
+  brightBlack: "#505050"
+  brightRed: "#DF9DAC"
+  brightGreen: "#B5DED8"
+  brightYellow: "#D0CD7B"
+  brightBlue: "#76D0E0"
+  brightMagenta: "#A59BE9"
+  brightCyan: "#CFCE6F"
+  brightWhite: "#EFEFEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 79.3
+    black: 22.5
+    red: 49.8
+    green: 52.2
+    yellow: 73.5
+    blue: 57.9
+    magenta: 52.7
+    cyan: 67.4
+    white: 52.7
+    brightBlack: 13.6
+    brightRed: 58.4
+    brightGreen: 81
+    brightYellow: 73.5
+    brightBlue: 69.8
+    brightMagenta: 52.7
+    brightCyan: 73.5
+    brightWhite: 96.8

@@ -1,0 +1,49 @@
+name: "Neon Sunset"
+source:
+  marketplace_id: "LittleWaterfall.neon-cyberpunk-theme"
+  version: "1.0.0"
+  installs: 1547
+  author: "Little Waterfall"
+  repo: "https://github.com/LittleWaterfall/vscode-neon-glow"
+  url: "https://marketplace.visualstudio.com/items?itemName=LittleWaterfall.neon-cyberpunk-theme"
+colors:
+  bg: "#0A0500"
+  fg: "#FFAA00"
+  black: "#000000"
+  red: "#FF4444"
+  green: "#88FF00"
+  yellow: "#FFDD00"
+  blue: "#4488FF"
+  magenta: "#FF8844"
+  cyan: "#44FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#CC6600"
+  brightRed: "#FF6666"
+  brightGreen: "#AAFF44"
+  brightYellow: "#FFEE44"
+  brightBlue: "#66AAFF"
+  brightMagenta: "#FFAA66"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 82
+  contrast:
+    fg: 66.4
+    black: 0
+    red: 41.6
+    green: 90.2
+    yellow: 86.8
+    blue: 40.8
+    magenta: 55.8
+    cyan: 92.8
+    white: 107.8
+    brightBlack: 36.4
+    brightRed: 47.9
+    brightGreen: 93
+    brightYellow: 94.8
+    brightBlue: 55
+    brightMagenta: 67.2
+    brightCyan: 93.9
+    brightWhite: 107.8

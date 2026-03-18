@@ -1,0 +1,49 @@
+name: "Plasticman"
+source:
+  marketplace_id: "silvncr.plasticman"
+  version: "0.1.1"
+  installs: 101
+  author: "silvncr"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=silvncr.plasticman"
+colors:
+  bg: "#1F1F47"
+  fg: "#EA5C00"
+  black: "#1F1F47"
+  red: "#FA0DEA"
+  green: "#676FAF"
+  yellow: "#FF2592"
+  blue: "#605A8F"
+  magenta: "#B3BEB6"
+  cyan: "#3D8EF3"
+  white: "#EC0076"
+  brightBlack: "#0B347C"
+  brightRed: "#FFF400"
+  brightGreen: "#37B45A"
+  brightYellow: "#F3F3F3"
+  brightBlue: "#7E7CB3"
+  brightMagenta: "#F0933D"
+  brightCyan: "#992293"
+  brightWhite: "#BD1B0F"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 280
+  contrast:
+    fg: 37.5
+    black: 0
+    red: 40.8
+    green: 26.3
+    yellow: 38
+    blue: 18
+    magenta: 63
+    cyan: 39
+    white: 31.5
+    brightBlack: 0
+    brightRed: 94.6
+    brightGreen: 47.5
+    brightYellow: 97.2
+    brightBlue: 32.7
+    brightMagenta: 53.3
+    brightCyan: 16.2
+    brightWhite: 19.6

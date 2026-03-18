@@ -1,0 +1,49 @@
+name: "SW: Tatooine"
+source:
+  marketplace_id: "RobertSchnable.star-wars-planets-theme"
+  version: "1.0.1"
+  installs: 14
+  author: "Robert Schnable"
+  repo: "https://github.com/your-username/star-wars-planets-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RobertSchnable.star-wars-planets-theme"
+colors:
+  bg: "#1A1408"
+  fg: "#E0C88A"
+  black: "#1A1408"
+  red: "#CC4400"
+  green: "#8A9040"
+  yellow: "#C47A15"
+  blue: "#7A8AAA"
+  magenta: "#9A6A8A"
+  cyan: "#7AAA9A"
+  white: "#E0C88A"
+  brightBlack: "#1A1408"
+  brightRed: "#CC4400"
+  brightGreen: "#8A9040"
+  brightYellow: "#C47A15"
+  brightBlue: "#7A8AAA"
+  brightMagenta: "#9A6A8A"
+  brightCyan: "#7AAA9A"
+  brightWhite: "#E0C88A"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 84
+  contrast:
+    fg: 73.6
+    black: 0
+    red: 28.9
+    green: 39.2
+    yellow: 39.5
+    blue: 38.6
+    magenta: 30.6
+    cyan: 50.2
+    white: 73.6
+    brightBlack: 0
+    brightRed: 28.9
+    brightGreen: 39.2
+    brightYellow: 39.5
+    brightBlue: 38.6
+    brightMagenta: 30.6
+    brightCyan: 50.2
+    brightWhite: 73.6

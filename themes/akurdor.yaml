@@ -1,0 +1,49 @@
+name: "akurdor"
+source:
+  marketplace_id: "rashidfarhad.kurdor"
+  version: "1.4.1"
+  installs: 27
+  author: "KurdorTheme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=rashidfarhad.kurdor"
+colors:
+  bg: "#10141C"
+  fg: "#BFBDB6"
+  black: "#1B1F29"
+  red: "#F06B73"
+  green: "#70BF56"
+  yellow: "#FDB04C"
+  blue: "#4FBFFF"
+  magenta: "#D0A1FF"
+  cyan: "#93E2C8"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#AAD94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#D2A6FF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  contrast:
+    fg: 66.1
+    black: 0
+    red: 45.3
+    green: 57
+    yellow: 67.9
+    blue: 61.9
+    magenta: 61.7
+    cyan: 78.9
+    white: 72
+    brightBlack: 23.2
+    brightRed: 46.9
+    brightGreen: 73.6
+    brightYellow: 69.8
+    brightBlue: 63.6
+    brightMagenta: 63.7
+    brightCyan: 81.1
+    brightWhite: 107.1

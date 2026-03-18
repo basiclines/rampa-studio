@@ -1,0 +1,49 @@
+name: "Tokyo Lights"
+source:
+  marketplace_id: "elvados.tokyo-lights"
+  version: "0.0.9"
+  installs: 18
+  author: "vadyapan"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=elvados.tokyo-lights"
+colors:
+  bg: "#1A1B26"
+  fg: "#A9B1D6"
+  black: "#414868"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#A9B1D6"
+  brightBlack: "#414868"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#A9B1D6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 59.3
+    black: 10.3
+    red: 49.4
+    green: 72.2
+    yellow: 62.2
+    blue: 51.1
+    magenta: 55
+    cyan: 70.5
+    white: 59.3
+    brightBlack: 10.3
+    brightRed: 49.4
+    brightGreen: 72.2
+    brightYellow: 62.2
+    brightBlue: 51.1
+    brightMagenta: 55
+    brightCyan: 70.5
+    brightWhite: 59.3

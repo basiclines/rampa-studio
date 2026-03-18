@@ -1,0 +1,49 @@
+name: "Polar Night"
+source:
+  marketplace_id: "postnumbers.polar-themes"
+  version: "0.0.8"
+  installs: 36
+  author: "Postnumbers"
+  repo: "https://github.com/postnumbers/polar-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=postnumbers.polar-themes"
+colors:
+  bg: "#191D24"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 84.7
+    black: 7.4
+    red: 32.3
+    green: 61
+    yellow: 75.7
+    blue: 48
+    magenta: 45.8
+    cyan: 62
+    white: 91.7
+    brightBlack: 14.7
+    brightRed: 32.3
+    brightGreen: 61
+    brightYellow: 75.7
+    brightBlue: 48
+    brightMagenta: 45.8
+    brightCyan: 59.9
+    brightWhite: 95.5

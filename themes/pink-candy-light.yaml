@@ -1,0 +1,49 @@
+name: "Pink Candy Light"
+source:
+  marketplace_id: "kuba-p.theme-pink-candy"
+  version: "1.6.0"
+  installs: 31744
+  author: "kuba_p"
+  repo: "https://github.com/KubaP/vscode-pink-candy"
+  url: "https://marketplace.visualstudio.com/items?itemName=kuba-p.theme-pink-candy"
+colors:
+  bg: "#FAFBFC"
+  fg: "#565869"
+  black: "#FAFBFC"
+  red: "#FF5C57"
+  green: "#2DAE58"
+  yellow: "#C69613"
+  blue: "#09A1ED"
+  magenta: "#C75AF3"
+  cyan: "#27B0AC"
+  white: "#565869"
+  brightBlack: "#8B8FA0"
+  brightRed: "#DB3839"
+  brightGreen: "#1E9347"
+  brightYellow: "#A1790C"
+  brightBlue: "#1684C2"
+  brightMagenta: "#A853CB"
+  brightCyan: "#288D8A"
+  brightWhite: "#343545"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 81.8
+    black: 0
+    red: 53.6
+    green: 52
+    yellow: 49.7
+    blue: 51.7
+    magenta: 58.2
+    cyan: 48.8
+    white: 81.8
+    brightBlack: 56.9
+    brightRed: 67.5
+    brightGreen: 63.9
+    brightYellow: 64.6
+    brightBlue: 65.2
+    brightMagenta: 67.5
+    brightCyan: 64.4
+    brightWhite: 95.1

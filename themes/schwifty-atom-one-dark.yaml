@@ -1,0 +1,49 @@
+name: "Schwifty Atom One Dark"
+source:
+  marketplace_id: "decrypteddesign.Schwifty"
+  version: "1.5.0"
+  installs: 2933
+  author: "decrypteddesign"
+  repo: "https://github.com/mcqua007/schwifty"
+  url: "https://marketplace.visualstudio.com/items?itemName=decrypteddesign.Schwifty"
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#79C3C3"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#F73B87"
+  brightGreen: "#98C379"
+  brightYellow: "#D19A66"
+  brightBlue: "#7AC0FA"
+  brightMagenta: "#C678DD"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 38.9
+    green: 59.1
+    yellow: 67.4
+    blue: 51.5
+    magenta: 41.9
+    cyan: 59.1
+    white: 87.4
+    brightBlack: 12.3
+    brightRed: 36
+    brightGreen: 59.1
+    brightYellow: 49.5
+    brightBlue: 60.8
+    brightMagenta: 41.9
+    brightCyan: 64.6
+    brightWhite: 79.8

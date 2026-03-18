@@ -1,0 +1,49 @@
+name: "magnus-dark-theme"
+source:
+  marketplace_id: "Magic-Themes.magic-theme"
+  version: "0.0.3"
+  installs: 2571
+  author: "Magic-Themes"
+  repo: "https://github.com/sonumagnus/Magnet-Theme-VS-Code"
+  url: "https://marketplace.visualstudio.com/items?itemName=Magic-Themes.magic-theme"
+colors:
+  bg: "#292C3E"
+  fg: "#C1D3D6"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 277
+  contrast:
+    fg: 73.4
+    black: 0
+    red: 23.3
+    green: 49.5
+    yellow: 82.2
+    blue: 24
+    magenta: 26.3
+    cyan: 44.1
+    white: 86.6
+    brightBlack: 18.6
+    brightRed: 35.1
+    brightGreen: 60.1
+    brightYellow: 92.2
+    brightBlue: 36.5
+    brightMagenta: 41.9
+    brightCyan: 51.9
+    brightWhite: 86.6

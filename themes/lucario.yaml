@@ -1,0 +1,49 @@
+name: "Lucario"
+source:
+  marketplace_id: "Ikuyadeu.lucario"
+  version: "0.2.0"
+  installs: 7861
+  author: "Yuki Ueda"
+  repo: "https://github.com/Ikuyadeu/Lucario-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.lucario"
+colors:
+  bg: "#2B3E50"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#A6E22E"
+  yellow: "#F1FA8C"
+  blue: "#8BE0FD"
+  magenta: "#66D9EF"
+  cyan: "#CA94FF"
+  white: "#D7D4C8"
+  brightBlack: "#656B84"
+  brightRed: "#FF5555"
+  brightGreen: "#72CC5A"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE0FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  contrast:
+    fg: 94.4
+    black: 0
+    red: 35.8
+    green: 69.4
+    yellow: 90.9
+    blue: 72.1
+    magenta: 65.8
+    cyan: 48.6
+    white: 71.8
+    brightBlack: 17
+    brightRed: 35.8
+    brightGreen: 55.3
+    brightYellow: 90.9
+    brightBlue: 46
+    brightMagenta: 47
+    brightCyan: 72.1
+    brightWhite: 94.4

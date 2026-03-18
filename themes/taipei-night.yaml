@@ -1,0 +1,49 @@
+name: "Taipei Night"
+source:
+  marketplace_id: "berniwankenobi.taipei-night"
+  version: "1.0.3"
+  installs: 47
+  author: "berniwankenobi"
+  repo: "https://github.com/berniechiu/taipei-night-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=berniwankenobi.taipei-night"
+colors:
+  bg: "#1A1B26"
+  fg: "#A9B1D6"
+  black: "#414868"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#FFB86C"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#A9B1D6"
+  brightBlack: "#565F89"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#FFB86C"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#C0CAF5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 59.3
+    black: 10.3
+    red: 49.4
+    green: 72.2
+    yellow: 70.9
+    blue: 51.1
+    magenta: 55
+    cyan: 70.5
+    white: 59.3
+    brightBlack: 19.5
+    brightRed: 49.4
+    brightGreen: 72.2
+    brightYellow: 70.9
+    brightBlue: 51.1
+    brightMagenta: 55
+    brightCyan: 70.5
+    brightWhite: 73.8

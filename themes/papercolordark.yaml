@@ -1,0 +1,49 @@
+name: "PaperColorDark"
+source:
+  marketplace_id: "HarisKhan-777.papercolor-dark-theme"
+  version: "1.0.0"
+  installs: 76
+  author: "Haris Khan"
+  repo: "https://github.com/RealHaris/paper-color-dark-vscode-cursor-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HarisKhan-777.papercolor-dark-theme"
+colors:
+  bg: "#1C1C1C"
+  fg: "#D0D0D0"
+  black: "#1C1C1C"
+  red: "#FF5F5F"
+  green: "#5FFF5F"
+  yellow: "#FFAF5F"
+  blue: "#87D7FF"
+  magenta: "#D787FF"
+  cyan: "#5FDFFF"
+  white: "#D0D0D0"
+  brightBlack: "#808080"
+  brightRed: "#FF8787"
+  brightGreen: "#87FF87"
+  brightYellow: "#FFD787"
+  brightBlue: "#AFFFFF"
+  brightMagenta: "#FFAFFF"
+  brightCyan: "#87FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 76.5
+    black: 0
+    red: 44.8
+    green: 87
+    yellow: 67.3
+    blue: 74.8
+    magenta: 53.7
+    cyan: 76.2
+    white: 76.5
+    brightBlack: 33.2
+    brightRed: 55.3
+    brightGreen: 89.8
+    brightYellow: 83.9
+    brightBlue: 97.1
+    brightMagenta: 73.2
+    brightCyan: 94.1
+    brightWhite: 106.3

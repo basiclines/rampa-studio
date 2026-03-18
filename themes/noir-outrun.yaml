@@ -1,0 +1,49 @@
+name: "Noir Outrun"
+source:
+  marketplace_id: "andrewberty.noir-theme-bundle"
+  version: "1.7.0"
+  installs: 13968
+  author: "andrewberty"
+  repo: "https://github.com/andrew-george/Noir-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=andrewberty.noir-theme-bundle"
+colors:
+  bg: "#0B081F"
+  fg: "#F2F3F7"
+  black: "#283034"
+  red: "#FF2E97"
+  green: "#62A9CF"
+  yellow: "#FFD400"
+  blue: "#42C6FF"
+  magenta: "#FF2AFC"
+  cyan: "#42C6FF"
+  white: "#D9E0E9"
+  brightBlack: "#435056"
+  brightRed: "#FF2E97"
+  brightGreen: "#ADD0E5"
+  brightYellow: "#FFD400"
+  brightBlue: "#42C6FF"
+  brightMagenta: "#FF2AFC"
+  brightCyan: "#42C6FF"
+  brightWhite: "#F4F6F9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 286
+  contrast:
+    fg: 99.8
+    black: 0
+    red: 41.3
+    green: 51.1
+    yellow: 82.7
+    blue: 65
+    magenta: 46.8
+    cyan: 65
+    white: 87.1
+    brightBlack: 13.2
+    brightRed: 41.3
+    brightGreen: 74.8
+    brightYellow: 82.7
+    brightBlue: 65
+    brightMagenta: 46.8
+    brightCyan: 65
+    brightWhite: 101.6

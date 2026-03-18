@@ -1,0 +1,49 @@
+name: "Hendrikkels Light"
+source:
+  marketplace_id: "hendrikkels.hendrikkels"
+  version: "1.4.7"
+  installs: 460
+  author: "hendrikkels"
+  repo: "https://github.com/hendrikkels/hendrikkels-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=hendrikkels.hendrikkels"
+colors:
+  bg: "#FFFFFF"
+  fg: "#424B54"
+  black: "#444444"
+  red: "#FF5A5A"
+  green: "#55ED87"
+  yellow: "#F49E4C"
+  blue: "#569FFC"
+  magenta: "#DE9BFE"
+  cyan: "#85D5CB"
+  white: "#A8A8A8"
+  brightBlack: "#888888"
+  brightRed: "#FF5D8F"
+  brightGreen: "#23D18C"
+  brightYellow: "#FFEE6B"
+  brightBlue: "#5677FC"
+  brightMagenta: "#A29BFE"
+  brightCyan: "#00CECB"
+  brightWhite: "#F3F3F3"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 90.3
+    black: 92.6
+    red: 56.4
+    green: 23.6
+    yellow: 41.6
+    blue: 52.2
+    magenta: 39.9
+    cyan: 30.2
+    white: 46.9
+    brightBlack: 63.1
+    brightRed: 54.5
+    brightGreen: 37.8
+    brightYellow: 9
+    brightBlue: 65.7
+    brightMagenta: 47.7
+    brightCyan: 37.1
+    brightWhite: 0

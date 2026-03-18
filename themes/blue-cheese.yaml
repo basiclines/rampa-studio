@@ -1,0 +1,49 @@
+name: "Blue Cheese"
+source:
+  marketplace_id: "N-l1.blue-cheese"
+  version: "2021.2.6"
+  installs: 2043
+  author: "N-l1"
+  repo: "https://github.com/N-l1/blue-cheese"
+  url: "https://marketplace.visualstudio.com/items?itemName=N-l1.blue-cheese"
+colors:
+  bg: "#282C34"
+  fg: "#E0E0E0"
+  black: "#3F4451"
+  red: "#EF5350"
+  green: "#D0FFA8"
+  yellow: "#FFCF4D"
+  blue: "#4AA5F0"
+  magenta: "#F8BEFF"
+  cyan: "#85FFFF"
+  white: "#E0E0E0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#FDEDA2"
+  brightBlue: "#6ABAFF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  contrast:
+    fg: 83.7
+    black: 0
+    red: 36.1
+    green: 94.4
+    yellow: 77
+    blue: 46.5
+    magenta: 74.8
+    cyan: 91.4
+    white: 83.7
+    brightBlack: 12.3
+    brightRed: 42.9
+    brightGreen: 73.6
+    brightYellow: 91.5
+    brightBlue: 57.6
+    brightMagenta: 47.1
+    brightCyan: 64.6
+    brightWhite: 79.8

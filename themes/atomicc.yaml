@@ -1,0 +1,49 @@
+name: "Atomicc"
+source:
+  marketplace_id: "carlowisse.atomicc"
+  version: "2.0.0"
+  installs: 682
+  author: "carlowisse"
+  repo: "https://github.com/carlowisse/atomicc-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlowisse.atomicc"
+colors:
+  bg: "#000000"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#A4F644"
+  yellow: "#FFD319"
+  blue: "#4C6EFF"
+  magenta: "#F222FF"
+  cyan: "#4CC8FF"
+  white: "#CCCCCC"
+  brightBlack: "#555555"
+  brightRed: "#FF6C53"
+  brightGreen: "#A4F644"
+  brightYellow: "#FFE05E"
+  brightBlue: "#6F8BFF"
+  brightMagenta: "#F564FF"
+  brightCyan: "#81D8FF"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 27.7
+    green: 87.9
+    yellow: 82.6
+    blue: 33.1
+    magenta: 44
+    cyan: 66.5
+    white: 75.7
+    brightBlack: 16.1
+    brightRed: 48.9
+    brightGreen: 87.9
+    brightYellow: 88.7
+    brightBlue: 44.2
+    brightMagenta: 52.4
+    brightCyan: 76.4
+    brightWhite: 96.8

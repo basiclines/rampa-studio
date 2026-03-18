@@ -1,0 +1,49 @@
+name: "Bright Colors Blue"
+source:
+  marketplace_id: "nikhil2007.Bright-Color"
+  version: "1.4.2"
+  installs: 17799
+  author: "Nikhil Nath Jha"
+  repo: "https://github.com/jhanikhilnath/bright_colors_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nikhil2007.Bright-Color"
+colors:
+  bg: "#193549"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF628C"
+  green: "#3AD900"
+  yellow: "#FFC600"
+  blue: "#0088FF"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#FFC600"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 242
+  contrast:
+    fg: 102.1
+    black: 0
+    red: 42.3
+    green: 61.5
+    yellow: 71.3
+    blue: 33.9
+    magenta: 59.5
+    cyan: 87.9
+    white: 102.1
+    brightBlack: 9.8
+    brightRed: 42.3
+    brightGreen: 61.5
+    brightYellow: 71.3
+    brightBlue: 33.9
+    brightMagenta: 59.5
+    brightCyan: 87.9
+    brightWhite: 102.1

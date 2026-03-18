@@ -1,0 +1,49 @@
+name: "Themin - Mint"
+source:
+  marketplace_id: "Homerotto.themin"
+  version: "3.0.1"
+  installs: 2229
+  author: "Homerotto"
+  repo: "https://github.com/FredMSJ/themin"
+  url: "https://marketplace.visualstudio.com/items?itemName=Homerotto.themin"
+colors:
+  bg: "#0A0A0A"
+  fg: "#E0E0E0"
+  black: "#131317"
+  red: "#DF9F9F"
+  green: "#9FC1DF"
+  yellow: "#9898A6"
+  blue: "#0DC1AF"
+  magenta: "#FDFDFE"
+  cyan: "#DFC59F"
+  white: "#868690"
+  brightBlack: "#5C5C5C"
+  brightRed: "#DF9F9F"
+  brightGreen: "#9FC1DF"
+  brightYellow: "#9898A6"
+  brightBlue: "#0DC1AF"
+  brightMagenta: "#FDFDFE"
+  brightCyan: "#DFC59F"
+  brightWhite: "#868690"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 59.1
+    green: 66.7
+    yellow: 47.1
+    blue: 57.9
+    magenta: 106.5
+    cyan: 73.5
+    white: 37.9
+    brightBlack: 18.7
+    brightRed: 59.1
+    brightGreen: 66.7
+    brightYellow: 47.1
+    brightBlue: 57.9
+    brightMagenta: 106.5
+    brightCyan: 73.5
+    brightWhite: 37.9

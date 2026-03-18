@@ -1,0 +1,49 @@
+name: "Wye Light Soft"
+source:
+  marketplace_id: "phyzess.wye"
+  version: "0.7.1"
+  installs: 155
+  author: "phyzess"
+  repo: "https://github.com/phyzess/vscode-theme-wye"
+  url: "https://marketplace.visualstudio.com/items?itemName=phyzess.wye"
+colors:
+  bg: "#F1F0E9"
+  fg: "#393A34"
+  black: "#151515"
+  red: "#AB5959"
+  green: "#91C53E"
+  yellow: "#BDA437"
+  blue: "#6394BF"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#E5E5E5"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#91C53E"
+  brightYellow: "#BDA437"
+  brightBlue: "#6394BF"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 87.4
+    black: 95.9
+    red: 64.4
+    green: 30.6
+    yellow: 39.2
+    blue: 50.3
+    magenta: 72
+    cyan: 54.4
+    white: 0
+    brightBlack: 36.7
+    brightRed: 64.4
+    brightGreen: 30.6
+    brightYellow: 39.2
+    brightBlue: 50.3
+    brightMagenta: 72
+    brightCyan: 54.4
+    brightWhite: 8.5

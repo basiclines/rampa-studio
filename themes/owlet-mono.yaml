@@ -1,0 +1,49 @@
+name: "Owlet (Mono)"
+source:
+  marketplace_id: "itsjonq.owlet"
+  version: "0.1.22"
+  installs: 10595
+  author: "itsjonq"
+  repo: "https://github.com/itsjonq/owlet"
+  url: "https://marketplace.visualstudio.com/items?itemName=itsjonq.owlet"
+colors:
+  bg: "#101010"
+  fg: "#EEEEEE"
+  black: "#101010"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#ECC48D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 96.3
+    black: 0
+    red: 39.9
+    green: 67.8
+    yellow: 74.3
+    blue: 56.5
+    magenta: 54.3
+    cyan: 60.3
+    white: 107.4
+    brightBlack: 16.2
+    brightRed: 39.9
+    brightGreen: 67.8
+    brightYellow: 94.3
+    brightBlue: 56.5
+    brightMagenta: 54.3
+    brightCyan: 74.6
+    brightWhite: 107.4

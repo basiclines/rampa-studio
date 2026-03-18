@@ -1,0 +1,49 @@
+name: "gg-djaja-darken"
+source:
+  marketplace_id: "bedeute.gg-djaja"
+  version: "0.3.61"
+  installs: 145
+  author: "bedeute"
+  repo: "https://github.com/bedeute/gg-djaja-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bedeute.gg-djaja"
+colors:
+  bg: "#11261F"
+  fg: "#56756C"
+  black: "#192B26"
+  red: "#804B57"
+  green: "#4A7550"
+  yellow: "#807954"
+  blue: "#556F82"
+  magenta: "#815D96"
+  cyan: "#4A7570"
+  white: "#89A49C"
+  brightBlack: "#2C3F39"
+  brightRed: "#9B5363"
+  brightGreen: "#508858"
+  brightYellow: "#968E5E"
+  brightBlue: "#5E86A3"
+  brightMagenta: "#9469AD"
+  brightCyan: "#508C84"
+  brightWhite: "#99B4AB"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 170
+  contrast:
+    fg: 24.3
+    black: 0
+    red: 15.9
+    green: 22.9
+    yellow: 28.7
+    blue: 23.1
+    magenta: 22.8
+    cyan: 23.7
+    white: 47.4
+    brightBlack: 0
+    brightRed: 22
+    brightGreen: 30.3
+    brightYellow: 38.6
+    brightBlue: 33
+    brightMagenta: 29.5
+    brightCyan: 33.1
+    brightWhite: 56

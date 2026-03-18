@@ -1,0 +1,49 @@
+name: "Neon"
+source:
+  marketplace_id: "luiciff.luiciff-theme"
+  version: "0.0.3"
+  installs: 141
+  author: "luiciff"
+  repo: "https://github.com/luic1ff/vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=luiciff.luiciff-theme"
+colors:
+  bg: "#232136"
+  fg: "#E0DEF4"
+  black: "#393552"
+  red: "#EB6F92"
+  green: "#3E8FB0"
+  yellow: "#F6C177"
+  blue: "#9CCFD8"
+  magenta: "#C4A7E7"
+  cyan: "#CA9EE6"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#EB6F92"
+  brightGreen: "#3E8FB0"
+  brightYellow: "#F6C177"
+  brightBlue: "#9CCFD8"
+  brightMagenta: "#C4A7E7"
+  brightCyan: "#CA9EE6"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 288
+  contrast:
+    fg: 85.3
+    black: 0
+    red: 44.2
+    green: 35.2
+    yellow: 71.9
+    blue: 69.7
+    magenta: 58.7
+    cyan: 56.3
+    white: 85.3
+    brightBlack: 39.6
+    brightRed: 44.2
+    brightGreen: 35.2
+    brightYellow: 71.9
+    brightBlue: 69.7
+    brightMagenta: 58.7
+    brightCyan: 56.3
+    brightWhite: 85.3

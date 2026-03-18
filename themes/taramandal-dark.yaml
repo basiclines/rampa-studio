@@ -1,0 +1,49 @@
+name: "TaraMandal Dark"
+source:
+  marketplace_id: "ramoniswack.taramandal"
+  version: "0.0.5"
+  installs: 45
+  author: "Ramohan Tiwari"
+  repo: "https://github.com/Ramoniswack/TaraMandal-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ramoniswack.taramandal"
+colors:
+  bg: "#0A0F14"
+  fg: "#E5F4FF"
+  black: "#0A0F14"
+  red: "#FF88A4"
+  green: "#A7FFAF"
+  yellow: "#FFC480"
+  blue: "#9FD3FF"
+  magenta: "#B892FF"
+  cyan: "#88FFF7"
+  white: "#E5F4FF"
+  brightBlack: "#465A6C"
+  brightRed: "#FF9FB7"
+  brightGreen: "#BAFFBF"
+  brightYellow: "#FFCE94"
+  brightBlue: "#B1DBFF"
+  brightMagenta: "#C6A9FF"
+  brightCyan: "#A3FFF9"
+  brightWhite: "#F0FAFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 249
+  contrast:
+    fg: 98.8
+    black: 0
+    red: 57.7
+    green: 94.4
+    yellow: 77.2
+    blue: 76.1
+    magenta: 53.7
+    cyan: 95
+    white: 98.8
+    brightBlack: 16.9
+    brightRed: 65.4
+    brightGreen: 96.7
+    brightYellow: 81.7
+    brightBlue: 81.4
+    brightMagenta: 63.4
+    brightCyan: 97.1
+    brightWhite: 103.1

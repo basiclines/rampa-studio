@@ -1,0 +1,49 @@
+name: "slime-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#8B9355"
+  yellow: "#9FB3C2"
+  blue: "#C7AF3F"
+  magenta: "#9FB3C2"
+  cyan: "#C7AF3F"
+  white: "#404040"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#B8BF8F"
+  brightYellow: "#DDE4EA"
+  brightBlue: "#DED08E"
+  brightMagenta: "#DDE4EA"
+  brightCyan: "#DED08E"
+  brightWhite: "#666666"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 80.3
+    green: 60.1
+    yellow: 42.6
+    blue: 42.8
+    magenta: 42.6
+    cyan: 42.8
+    white: 94.1
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 36.9
+    brightYellow: 14.1
+    brightBlue: 25.4
+    brightMagenta: 14.1
+    brightCyan: 25.4
+    brightWhite: 78.8

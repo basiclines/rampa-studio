@@ -1,0 +1,49 @@
+name: "Timu Spacegrey Theme"
+source:
+  marketplace_id: "aimebertrand.timu-spacegrey-vscode"
+  version: "1.2.1"
+  installs: 1089
+  author: "Aimé Bertrand"
+  repo: "https://gitlab.com/aimebertrand/timu-spacegrey-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=aimebertrand.timu-spacegrey-vscode"
+colors:
+  bg: "#232830"
+  fg: "#C0C5CE"
+  black: "#2B303B"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#ECBE7B"
+  blue: "#8FA1B3"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#C0C5CE"
+  brightBlack: "#2B303B"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#ECBE7B"
+  brightBlue: "#8FA1B3"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#C0C5CE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 260
+  contrast:
+    fg: 67.9
+    black: 0
+    red: 30.6
+    green: 59.3
+    yellow: 68.5
+    blue: 46.9
+    magenta: 44.1
+    cyan: 60.3
+    white: 67.9
+    brightBlack: 0
+    brightRed: 30.6
+    brightGreen: 59.3
+    brightYellow: 68.5
+    brightBlue: 46.9
+    brightMagenta: 44.1
+    brightCyan: 60.3
+    brightWhite: 67.9

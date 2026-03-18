@@ -1,0 +1,49 @@
+name: "Fresh Start"
+source:
+  marketplace_id: "BrihiIlyesImad.fresh-start"
+  version: "2.0.0"
+  installs: 28
+  author: "Brihi Ilyes Imad"
+  repo: "https://github.com/ilyesBrihi/fresh-start"
+  url: "https://marketplace.visualstudio.com/items?itemName=BrihiIlyesImad.fresh-start"
+colors:
+  bg: "#12131A"
+  fg: "#E6E8E6"
+  black: "#3A3D4C"
+  red: "#F47F72"
+  green: "#A8E6A2"
+  yellow: "#FFCB8B"
+  blue: "#78DCE8"
+  magenta: "#D1B4DE"
+  cyan: "#78DCE8"
+  white: "#E6E8E6"
+  brightBlack: "#6C7086"
+  brightRed: "#FF9F95"
+  brightGreen: "#C8F9C2"
+  brightYellow: "#FFDAA0"
+  brightBlue: "#9CE2FC"
+  brightMagenta: "#E1C4EC"
+  brightCyan: "#B0F9F1"
+  brightWhite: "#E6E8E6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  contrast:
+    fg: 91.9
+    black: 0
+    red: 51.2
+    green: 81.4
+    yellow: 79.9
+    blue: 75.7
+    magenta: 66.8
+    cyan: 75.7
+    white: 91.9
+    brightBlack: 27.1
+    brightRed: 63.9
+    brightGreen: 94.9
+    brightYellow: 86.8
+    brightBlue: 82.2
+    brightMagenta: 76.1
+    brightCyan: 94.4
+    brightWhite: 91.9

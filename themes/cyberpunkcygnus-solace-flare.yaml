@@ -1,0 +1,49 @@
+name: "CyberpunkCygnus Solace Flare"
+source:
+  marketplace_id: "ai-acc.cyberpunkcygnus"
+  version: "0.2.17"
+  installs: 454
+  author: "AI Acc"
+  repo: "https://github.com/sascharo/"
+  url: "https://marketplace.visualstudio.com/items?itemName=ai-acc.cyberpunkcygnus"
+colors:
+  bg: "#F0F2F5"
+  fg: "#1E2127"
+  black: "#4E5666"
+  red: "#D9534F"
+  green: "#2A9D8F"
+  yellow: "#E09F3E"
+  blue: "#0088A1"
+  magenta: "#A15EAD"
+  cyan: "#0088A1"
+  white: "#D5DBE3"
+  brightBlack: "#5C677D"
+  brightRed: "#E86964"
+  brightGreen: "#3DBD7D"
+  brightYellow: "#F2BD5A"
+  brightBlue: "#00A1BD"
+  brightMagenta: "#C774D9"
+  brightCyan: "#00A1BD"
+  brightWhite: "#1E2127"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.2
+    black: 77.8
+    red: 58.3
+    green: 52.4
+    yellow: 36.9
+    blue: 60.3
+    magenta: 62.7
+    cyan: 60.3
+    white: 11.2
+    brightBlack: 70.6
+    brightRed: 50.3
+    brightGreen: 38.9
+    brightYellow: 23
+    brightBlue: 49.1
+    brightMagenta: 48.9
+    brightCyan: 49.1
+    brightWhite: 95.2

@@ -1,0 +1,49 @@
+name: "Vaporizer Lemonade Solarized Light"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35736
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+colors:
+  bg: "#FFF9D8"
+  fg: "#E0DFDF"
+  black: "#4F4F4F"
+  red: "#FF8181"
+  green: "#2FF5AB"
+  yellow: "#E2C421"
+  blue: "#53C0F5"
+  magenta: "#FD95FD"
+  cyan: "#4ADBFF"
+  white: "#000000"
+  brightBlack: "#A1A1A1"
+  brightRed: "#FB9393"
+  brightGreen: "#8DF9BC"
+  brightYellow: "#FBD06B"
+  brightBlue: "#87BFFD"
+  brightMagenta: "#FFB2FF"
+  brightCyan: "#8BE8FF"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 12.2
+    black: 84.2
+    red: 42.9
+    green: 15.6
+    yellow: 27
+    blue: 35.6
+    magenta: 32.5
+    cyan: 23.7
+    white: 101.9
+    brightBlack: 46.4
+    brightRed: 38.2
+    brightGreen: 9.6
+    brightYellow: 17.8
+    brightBlue: 32.7
+    brightMagenta: 23.1
+    brightCyan: 14.8
+    brightWhite: 101.9

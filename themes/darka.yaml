@@ -1,0 +1,49 @@
+name: "Darka"
+source:
+  marketplace_id: "ManuCodes.bits"
+  version: "1.0.3"
+  installs: 1500
+  author: "Manu Codes"
+  repo: "https://github.com/manudevcode/bits-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ManuCodes.bits"
+colors:
+  bg: "#1F222E"
+  fg: "#F2F3F7"
+  black: "#283034"
+  red: "#FF2E97"
+  green: "#3ADA5D"
+  yellow: "#FDE74E"
+  blue: "#42C6FF"
+  magenta: "#FF2AFC"
+  cyan: "#42C6FF"
+  white: "#D9E0E9"
+  brightBlack: "#435056"
+  brightRed: "#FF2E97"
+  brightGreen: "#ADD0E5"
+  brightYellow: "#FDE74E"
+  brightBlue: "#42C6FF"
+  brightMagenta: "#FF2AFC"
+  brightCyan: "#42C6FF"
+  brightWhite: "#F4F6F9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 274
+  contrast:
+    fg: 97.5
+    black: 0
+    red: 39
+    green: 65.9
+    yellow: 88.9
+    blue: 62.8
+    magenta: 44.6
+    cyan: 62.8
+    white: 84.9
+    brightBlack: 10.9
+    brightRed: 39
+    brightGreen: 72.5
+    brightYellow: 88.9
+    brightBlue: 62.8
+    brightMagenta: 44.6
+    brightCyan: 62.8
+    brightWhite: 99.3

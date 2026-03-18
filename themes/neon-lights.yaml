@@ -1,0 +1,49 @@
+name: "Neon Lights"
+source:
+  marketplace_id: "annliu.neon-lights"
+  version: "0.0.1"
+  installs: 2
+  author: "annliu"
+  repo: "git+https://github.com/ann-liu/neon-lights-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=annliu.neon-lights"
+colors:
+  bg: "#2F2D31"
+  fg: "#E6E6E6"
+  black: "#292929"
+  red: "#FF2424"
+  green: "#24FF57"
+  yellow: "#E8FF3D"
+  blue: "#38A9FF"
+  magenta: "#FF40D6"
+  cyan: "#02B2FD"
+  white: "#B0B0B0"
+  brightBlack: "#4F4F4F"
+  brightRed: "#FF4242"
+  brightGreen: "#4FFF78"
+  brightYellow: "#EFFF75"
+  brightBlue: "#57B6FF"
+  brightMagenta: "#FF69DF"
+  brightCyan: "#40C6FF"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 87
+    black: 0
+    red: 33.8
+    green: 82.5
+    yellow: 95.1
+    blue: 48.1
+    magenta: 41.7
+    cyan: 51.1
+    white: 54.9
+    brightBlack: 9.2
+    brightRed: 36.7
+    brightGreen: 83.8
+    brightYellow: 96.7
+    brightBlue: 54.5
+    brightMagenta: 48.7
+    brightCyan: 60.6
+    brightWhite: 71.1

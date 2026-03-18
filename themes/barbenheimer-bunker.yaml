@@ -1,0 +1,49 @@
+name: "Barbenheimer Bunker"
+source:
+  marketplace_id: "jayvicsanantonio.barbenheimer"
+  version: "1.0.0"
+  installs: 4071
+  author: "Jayvic San Antonio"
+  repo: "https://github.com/jayvicsanantonio/barbenheimer-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jayvicsanantonio.barbenheimer"
+colors:
+  bg: "#14140B"
+  fg: "#E9B2CF"
+  black: "#14140B"
+  red: "#F672AC"
+  green: "#A0E0C0"
+  yellow: "#F0E0B0"
+  blue: "#A0C0F0"
+  magenta: "#D4A8F9"
+  cyan: "#A0E0D0"
+  white: "#E0E0E0"
+  brightBlack: "#FCE5D8"
+  brightRed: "#F672AC"
+  brightGreen: "#A0E0C0"
+  brightYellow: "#F0E0B0"
+  brightBlue: "#A0C0F0"
+  brightMagenta: "#D4A8F9"
+  brightCyan: "#A0E0D0"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 108
+  contrast:
+    fg: 68.9
+    black: 0
+    red: 50.2
+    green: 78.8
+    yellow: 87.6
+    blue: 66.8
+    magenta: 64.3
+    cyan: 79.4
+    white: 87.2
+    brightBlack: 93
+    brightRed: 50.2
+    brightGreen: 78.8
+    brightYellow: 87.6
+    brightBlue: 66.8
+    brightMagenta: 64.3
+    brightCyan: 79.4
+    brightWhite: 87.2

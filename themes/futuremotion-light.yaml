@@ -1,0 +1,49 @@
+name: "Futuremotion Light"
+source:
+  marketplace_id: "futuremotion.futuremotion-light"
+  version: "1.1.1"
+  installs: 157
+  author: "Futuremotion"
+  repo: "https://github.com/futuremotiondev/vscode-futuremotion-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=futuremotion.futuremotion-light"
+colors:
+  bg: "#FFFFFF"
+  fg: "#3C3F42"
+  black: "#000000"
+  red: "#E3535F"
+  green: "#68CABA"
+  yellow: "#F3D575"
+  blue: "#6180E7"
+  magenta: "#D060A0"
+  cyan: "#60C4D8"
+  white: "#DBE2E3"
+  brightBlack: "#666666"
+  brightRed: "#E96D5C"
+  brightGreen: "#55D5B1"
+  brightYellow: "#E5BE48"
+  brightBlue: "#0451A5"
+  brightMagenta: "#F786A8"
+  brightCyan: "#0598BC"
+  brightWhite: "#BCC7C8"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 94.6
+    black: 106
+    red: 63.7
+    green: 37.4
+    yellow: 21
+    blue: 63.9
+    magenta: 62.9
+    cyan: 39.1
+    white: 15.5
+    brightBlack: 78.8
+    brightRed: 57.2
+    brightGreen: 33.7
+    brightYellow: 32.7
+    brightBlue: 86.1
+    brightMagenta: 46
+    brightCyan: 60.6
+    brightWhite: 31.3

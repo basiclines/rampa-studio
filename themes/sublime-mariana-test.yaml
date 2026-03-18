@@ -1,0 +1,49 @@
+name: "Sublime Mariana ⎯ Test"
+source:
+  marketplace_id: "duttdutt.sublime-theme"
+  version: "1.0.9"
+  installs: 3900
+  author: "duttdutt"
+  repo: "https://github.com/duttdutt/sublime-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=duttdutt.sublime-theme"
+colors:
+  bg: "#303841"
+  fg: "#FFFFFF"
+  black: "#E6E6E6"
+  red: "#EE6A6F"
+  green: "#A3CE9E"
+  yellow: "#FAB763"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#6699CC"
+  white: "#FFFFFF"
+  brightBlack: "#E6E6E6"
+  brightRed: "#EE6A6F"
+  brightGreen: "#A3CE9E"
+  brightYellow: "#FAB763"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#6699CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 251
+  contrast:
+    fg: 100.8
+    black: 84.6
+    red: 38.3
+    green: 63.2
+    yellow: 64
+    blue: 38.1
+    magenta: 46
+    cyan: 38.1
+    white: 100.8
+    brightBlack: 84.6
+    brightRed: 38.3
+    brightGreen: 63.2
+    brightYellow: 64
+    brightBlue: 38.1
+    brightMagenta: 46
+    brightCyan: 38.1
+    brightWhite: 100.8

@@ -1,0 +1,49 @@
+name: "OhLED_Tomato"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FF6347"
+  black: "#FF6347"
+  red: "#BB4934"
+  green: "#CC4F39"
+  yellow: "#993B2B"
+  blue: "#EE5C42"
+  magenta: "#DD563E"
+  cyan: "#AA422F"
+  white: "#883526"
+  brightBlack: "#FF6347"
+  brightRed: "#BB4934"
+  brightGreen: "#CC4F39"
+  brightYellow: "#993B2B"
+  brightBlue: "#EE5C42"
+  brightMagenta: "#DD563E"
+  brightCyan: "#AA422F"
+  brightWhite: "#883526"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 46.8
+    black: 46.8
+    red: 27.3
+    green: 31.8
+    yellow: 18.6
+    blue: 41.5
+    magenta: 36.7
+    cyan: 22.8
+    white: 14.7
+    brightBlack: 46.8
+    brightRed: 27.3
+    brightGreen: 31.8
+    brightYellow: 18.6
+    brightBlue: 41.5
+    brightMagenta: 36.7
+    brightCyan: 22.8
+    brightWhite: 14.7

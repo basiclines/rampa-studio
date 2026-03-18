@@ -1,0 +1,49 @@
+name: "Pretentious Name"
+source:
+  marketplace_id: "zhiayang.pretentious-name"
+  version: "2.1.1"
+  installs: 2683
+  author: "zhiayang"
+  repo: "https://github.com/zhiayang/vscode-theme-pretentious-name"
+  url: "https://marketplace.visualstudio.com/items?itemName=zhiayang.pretentious-name"
+colors:
+  bg: "#1A1A1A"
+  fg: "#ABB2BF"
+  black: "#21252B"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#5C6370"
+  brightRed: "#FF0015"
+  brightGreen: "#6AFF00"
+  brightYellow: "#FFA600"
+  brightBlue: "#008CFF"
+  brightMagenta: "#C300FF"
+  brightCyan: "#00E1FF"
+  brightWhite: "#D2D6DB"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 59.1
+    black: 0
+    red: 41.8
+    green: 62
+    yellow: 70.2
+    blue: 54.3
+    magenta: 44.8
+    cyan: 54.2
+    white: 59.1
+    brightBlack: 20.3
+    brightRed: 36.2
+    brightGreen: 87.2
+    brightYellow: 63.7
+    brightBlue: 39.8
+    brightMagenta: 32.4
+    brightCyan: 75.8
+    brightWhite: 80.1

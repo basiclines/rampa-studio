@@ -1,0 +1,49 @@
+name: "Ef Frost"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#FCFFFF"
+  fg: "#232323"
+  black: "#232323"
+  red: "#C42D2F"
+  green: "#008A00"
+  yellow: "#AA6100"
+  blue: "#004FC0"
+  magenta: "#AA44C5"
+  cyan: "#1F6FBF"
+  white: "#EAEFEF"
+  brightBlack: "#66657F"
+  brightRed: "#D03003"
+  brightGreen: "#468400"
+  brightYellow: "#B6532F"
+  brightBlue: "#4244EF"
+  brightMagenta: "#C0469A"
+  brightCyan: "#3A6DD2"
+  brightWhite: "#FCFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 102.3
+    black: 102.3
+    red: 76
+    green: 70.3
+    yellow: 72.2
+    blue: 84
+    magenta: 72.4
+    cyan: 74.6
+    white: 0
+    brightBlack: 77.8
+    brightRed: 73.2
+    brightGreen: 71.3
+    brightYellow: 73.1
+    brightBlue: 80.2
+    brightMagenta: 70.6
+    brightCyan: 73.1
+    brightWhite: 0

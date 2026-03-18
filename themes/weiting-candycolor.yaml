@@ -1,0 +1,49 @@
+name: "weiting_candycolor"
+source:
+  marketplace_id: "Weiting.weiting-s-color"
+  version: "0.0.1"
+  installs: 36
+  author: "Weiting Huang"
+  repo: "https://github.com/weiting53/weiting-s-color"
+  url: "https://marketplace.visualstudio.com/items?itemName=Weiting.weiting-s-color"
+colors:
+  bg: "#430000"
+  fg: "#E5D4FF"
+  black: "#DBFFC2"
+  red: "#FFAFAF"
+  green: "#8CFFD3"
+  yellow: "#FFFFBD"
+  blue: "#B3D7FF"
+  magenta: "#FFE0FF"
+  cyan: "#8CE8FF"
+  white: "#E5E5E5"
+  brightBlack: "#E8E7B4"
+  brightRed: "#FF9191"
+  brightGreen: "#38FFAF"
+  brightYellow: "#FFFF55"
+  brightBlue: "#B8DAFF"
+  brightMagenta: "#FF89FF"
+  brightCyan: "#5EDFFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 29
+  contrast:
+    fg: 82.3
+    black: 98.1
+    red: 68.3
+    green: 91.4
+    yellow: 102.6
+    blue: 77.6
+    magenta: 91.2
+    cyan: 82.1
+    white: 88.4
+    brightBlack: 87.8
+    brightRed: 57.4
+    brightGreen: 86.7
+    brightYellow: 100.5
+    brightBlue: 79.4
+    brightMagenta: 60.4
+    brightCyan: 75.2
+    brightWhite: 88.4

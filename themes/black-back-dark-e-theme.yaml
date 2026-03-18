@@ -1,0 +1,49 @@
+name: "black-back-dark-e-theme"
+source:
+  marketplace_id: "Eray.black-back-dark-e-theme"
+  version: "0.0.1"
+  installs: 872
+  author: "Eray"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Eray.black-back-dark-e-theme"
+colors:
+  bg: "#1E1E1E"
+  fg: "#F0F0F0"
+  black: "#3C3C3C"
+  red: "#FF5064"
+  green: "#64F050"
+  yellow: "#FFC814"
+  blue: "#1496FF"
+  magenta: "#AF8CF0"
+  cyan: "#28B4B4"
+  white: "#F0F0F0"
+  brightBlack: "#646464"
+  brightRed: "#FF7878"
+  brightGreen: "#C8FF46"
+  brightYellow: "#FFDC64"
+  brightBlue: "#00C8F0"
+  brightMagenta: "#D28CFA"
+  brightCyan: "#8CE1E1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 96.2
+    black: 0
+    red: 42
+    green: 78.9
+    yellow: 76.1
+    blue: 43
+    magenta: 48.1
+    cyan: 50.8
+    white: 96.2
+    brightBlack: 20.4
+    brightRed: 50.6
+    brightGreen: 94.1
+    brightYellow: 85.2
+    brightBlue: 62.6
+    brightMagenta: 53.8
+    brightCyan: 77.9
+    brightWhite: 106

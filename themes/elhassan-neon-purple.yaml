@@ -1,0 +1,49 @@
+name: "Elhassan Neon Purple"
+source:
+  marketplace_id: "elhassan-dev.elhassan-neon-themes"
+  version: "1.1.2"
+  installs: 44
+  author: "elhassan-dev"
+  repo: "https://github.com/elhassanorabi5-dev/elhassan-neon-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=elhassan-dev.elhassan-neon-themes"
+colors:
+  bg: "#1A0033"
+  fg: "#E6CCFF"
+  black: "#2D1A4D"
+  red: "#FF0099"
+  green: "#00FF99"
+  yellow: "#FFAA00"
+  blue: "#BB00FF"
+  magenta: "#FF99FF"
+  cyan: "#00FFFF"
+  white: "#E6CCFF"
+  brightBlack: "#2D1A4D"
+  brightRed: "#FF0099"
+  brightGreen: "#00FF99"
+  brightYellow: "#FFAA00"
+  brightBlue: "#BB00FF"
+  brightMagenta: "#FF99FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#E6CCFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 301
+  contrast:
+    fg: 80.9
+    black: 0
+    red: 39.4
+    green: 87.4
+    yellow: 65.7
+    blue: 31.5
+    magenta: 66.8
+    cyan: 91.4
+    white: 80.9
+    brightBlack: 0
+    brightRed: 39.4
+    brightGreen: 87.4
+    brightYellow: 65.7
+    brightBlue: 31.5
+    brightMagenta: 66.8
+    brightCyan: 91.4
+    brightWhite: 80.9

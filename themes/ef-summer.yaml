@@ -1,0 +1,49 @@
+name: "Ef Summer"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#FFF2F3"
+  fg: "#4F4073"
+  black: "#4F4073"
+  red: "#D3303A"
+  green: "#217A3C"
+  yellow: "#A45F22"
+  blue: "#375CE6"
+  magenta: "#BA35AF"
+  cyan: "#1F6FBF"
+  white: "#F2E4EA"
+  brightBlack: "#786E74"
+  brightRed: "#E00033"
+  brightGreen: "#4A7D00"
+  brightYellow: "#B6532F"
+  brightBlue: "#5250EF"
+  brightMagenta: "#CB1AAA"
+  brightCyan: "#3F6FAF"
+  brightWhite: "#FFF2F3"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 84.8
+    black: 84.8
+    red: 66.6
+    green: 70.3
+    yellow: 67.9
+    blue: 70.7
+    magenta: 67.3
+    cyan: 68.9
+    white: 0
+    brightBlack: 68
+    brightRed: 65.6
+    brightGreen: 68.1
+    brightYellow: 67.5
+    brightBlue: 71.2
+    brightMagenta: 66.1
+    brightCyan: 69.1
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Obsidian Pro - Dark Purple Neon"
+source:
+  marketplace_id: "williamkoller.obsidian-pro-theme"
+  version: "1.0.1"
+  installs: 42
+  author: "williamkoller"
+  repo: "https://github.com/williamkoller/obsidian-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=williamkoller.obsidian-pro-theme"
+colors:
+  bg: "#0A0A0A"
+  fg: "#F4F4F5"
+  black: "#111111"
+  red: "#F43F5E"
+  green: "#C084FC"
+  yellow: "#FACC15"
+  blue: "#C084FC"
+  magenta: "#E879F9"
+  cyan: "#E9D5FF"
+  white: "#FAFAFA"
+  brightBlack: "#6B7280"
+  brightRed: "#FB7185"
+  brightGreen: "#E9D5FF"
+  brightYellow: "#FDE047"
+  brightBlue: "#D8B4FE"
+  brightMagenta: "#E9D5FF"
+  brightCyan: "#F5E8FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 100.5
+    black: 0
+    red: 38.7
+    green: 50.5
+    yellow: 78.6
+    blue: 50.5
+    magenta: 54
+    cyan: 85.7
+    white: 104.4
+    brightBlack: 28
+    brightRed: 50.1
+    brightGreen: 85.7
+    brightYellow: 88
+    brightBlue: 70.1
+    brightMagenta: 85.7
+    brightCyan: 95.7
+    brightWhite: 107.7

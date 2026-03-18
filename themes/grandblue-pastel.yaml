@@ -1,0 +1,49 @@
+name: "GrandBlue - Pastel"
+source:
+  marketplace_id: "jojihatzz.grandblue"
+  version: "0.0.4"
+  installs: 100
+  author: "jojihatzz"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=jojihatzz.grandblue"
+colors:
+  bg: "#232935"
+  fg: "#F3F6FA"
+  black: "#191919"
+  red: "#FFAAAA"
+  green: "#95DAB0"
+  yellow: "#FFBD80"
+  blue: "#7FAEFB"
+  magenta: "#FF9FAF"
+  cyan: "#86F7ED"
+  white: "#F3F6FA"
+  brightBlack: "#555555"
+  brightRed: "#FFAAAA"
+  brightGreen: "#AFFFD0"
+  brightYellow: "#FFE7C2"
+  brightBlue: "#9BBFFB"
+  brightMagenta: "#FFC2DF"
+  brightCyan: "#9EE7E0"
+  brightWhite: "#F7F8FA"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 264
+  contrast:
+    fg: 98.1
+    black: 0
+    red: 65.4
+    green: 71.5
+    yellow: 71.2
+    blue: 54.4
+    magenta: 61.8
+    cyan: 87.1
+    white: 98.1
+    brightBlack: 12.5
+    brightRed: 65.4
+    brightGreen: 93
+    brightYellow: 90.6
+    brightBlue: 63.6
+    brightMagenta: 76.4
+    brightCyan: 80.4
+    brightWhite: 99.6

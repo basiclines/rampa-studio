@@ -1,0 +1,49 @@
+name: "7lou Theme"
+source:
+  marketplace_id: "bachiramiri.7lou-vscode"
+  version: "0.1.1"
+  installs: 2004
+  author: "Bachir Amiri"
+  repo: "https://github.com/BachirAmiri/7lou-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=bachiramiri.7lou-vscode"
+colors:
+  bg: "#212B38"
+  fg: "#F8F8F2"
+  black: "#171E27"
+  red: "#FF5555"
+  green: "#CAFFB5"
+  yellow: "#FDE184"
+  blue: "#9DCAF8"
+  magenta: "#FF79C6"
+  cyan: "#6EC1D6"
+  white: "#F8F8F2"
+  brightBlack: "#7984A7"
+  brightRed: "#FF6E6E"
+  brightGreen: "#94CF95"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 255
+  contrast:
+    fg: 99.1
+    black: 0
+    red: 40.5
+    green: 94.4
+    yellow: 85.6
+    blue: 68
+    magenta: 51.7
+    cyan: 58.7
+    white: 99.1
+    brightBlack: 33.2
+    brightRed: 45.9
+    brightGreen: 65.2
+    brightYellow: 100.6
+    brightBlue: 63.2
+    brightMagenta: 59.7
+    brightCyan: 93.9
+    brightWhite: 104

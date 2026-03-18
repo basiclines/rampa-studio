@@ -1,0 +1,49 @@
+name: "MagicUser Room Lamp"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1704
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+colors:
+  bg: "#2F0F18"
+  fg: "#D8D8D8"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 5
+  contrast:
+    fg: 81.4
+    black: 0
+    red: 40.7
+    green: 85
+    yellow: 101.2
+    blue: 14.7
+    magenta: 44.7
+    cyan: 90.7
+    white: 106.4
+    brightBlack: 0
+    brightRed: 37.4
+    brightGreen: 78.7
+    brightYellow: 101.5
+    brightBlue: 47.2
+    brightMagenta: 44.5
+    brightCyan: 83.6
+    brightWhite: 81.4

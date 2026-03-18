@@ -1,0 +1,49 @@
+name: "Midnight Breeze"
+source:
+  marketplace_id: "leandroaps.vscode-theme-midnight-breeze"
+  version: "4.4.2"
+  installs: 99
+  author: "Leandro Aparecido de Siqueira"
+  repo: "https://github.com/leandroaps/midnight-breeze"
+  url: "https://marketplace.visualstudio.com/items?itemName=leandroaps.vscode-theme-midnight-breeze"
+colors:
+  bg: "#1A1C2C"
+  fg: "#D6DEEB"
+  black: "#1A1C2C"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCC00"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#D6DEEB"
+  brightBlack: "#5C6370"
+  brightRed: "#FF869A"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCC00"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  contrast:
+    fg: 84.5
+    black: 0
+    red: 42.9
+    green: 83.5
+    yellow: 77.9
+    blue: 55.2
+    magenta: 53
+    cyan: 77.5
+    white: 84.5
+    brightBlack: 19.9
+    brightRed: 55.4
+    brightGreen: 83.5
+    brightYellow: 77.9
+    brightBlue: 55.2
+    brightMagenta: 53
+    brightCyan: 77.5
+    brightWhite: 106.1

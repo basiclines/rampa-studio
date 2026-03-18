@@ -1,0 +1,49 @@
+name: "High Contrast May Light Theme"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 821
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+colors:
+  bg: "#FFFFFF"
+  fg: "#2C3E50"
+  black: "#5D6D7E"
+  red: "#CB4335"
+  green: "#28B463"
+  yellow: "#F39C12"
+  blue: "#2874A6"
+  magenta: "#8E44AD"
+  cyan: "#1ABC9C"
+  white: "#FFFFFF"
+  brightBlack: "#85929E"
+  brightRed: "#E74C3C"
+  brightGreen: "#58D68D"
+  brightYellow: "#F5B041"
+  brightBlue: "#5499C7"
+  brightMagenta: "#AF7AC5"
+  brightCyan: "#48C9B0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.4
+    black: 76.4
+    red: 72.1
+    green: 51.8
+    yellow: 42.8
+    blue: 74.7
+    magenta: 78.8
+    cyan: 46.9
+    white: 0
+    brightBlack: 59
+    brightRed: 64.6
+    brightGreen: 34.2
+    brightYellow: 35.4
+    brightBlue: 57.9
+    brightMagenta: 59.9
+    brightCyan: 39.5
+    brightWhite: 0

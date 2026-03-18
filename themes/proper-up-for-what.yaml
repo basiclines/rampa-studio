@@ -1,0 +1,49 @@
+name: "Proper Up for What"
+source:
+  marketplace_id: "properup.proper-theme"
+  version: "2.0.1"
+  installs: 299
+  author: "properup"
+  repo: "https://github.com/sirpeebs/proper-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=properup.proper-theme"
+colors:
+  bg: "#151832"
+  fg: "#3C3556"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#218BFF"
+  magenta: "#BC3FBC"
+  cyan: "#00CDFF"
+  white: "#E5E5E5"
+  brightBlack: "#44475A"
+  brightRed: "#F14857"
+  brightGreen: "#5EFEB3"
+  brightYellow: "#FFFB4C"
+  brightBlue: "#5CB2FF"
+  brightMagenta: "#E248F1"
+  brightCyan: "#48F1E2"
+  brightWhite: "#F7F8FA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 276
+  contrast:
+    fg: 0
+    black: 0
+    red: 26.3
+    green: 52.6
+    yellow: 85.2
+    blue: 39.6
+    magenta: 29.3
+    cyan: 66.2
+    white: 89.6
+    brightBlack: 9.8
+    brightRed: 37.7
+    brightGreen: 88.5
+    brightYellow: 99.6
+    brightBlue: 56.3
+    brightMagenta: 41.5
+    brightCyan: 82.9
+    brightWhite: 101.8

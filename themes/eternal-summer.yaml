@@ -1,0 +1,49 @@
+name: "Eternal Summer"
+source:
+  marketplace_id: "devkvlt.eternal"
+  version: "0.0.2"
+  installs: 116
+  author: "devkvlt"
+  repo: "https://github.com/devkvlt/eternal.vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=devkvlt.eternal"
+colors:
+  bg: "#E7D5B4"
+  fg: "#332720"
+  black: "#E7D5B4"
+  red: "#AA251D"
+  green: "#64671A"
+  yellow: "#875906"
+  blue: "#1F5A7B"
+  magenta: "#8F4B76"
+  cyan: "#406A58"
+  white: "#332720"
+  brightBlack: "#695B4C"
+  brightRed: "#AA251D"
+  brightGreen: "#64671A"
+  brightYellow: "#875906"
+  brightBlue: "#1F5A7B"
+  brightMagenta: "#8F4B76"
+  brightCyan: "#406A58"
+  brightWhite: "#8D7E6A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 83
+  contrast:
+    fg: 77.8
+    black: 0
+    red: 59.4
+    green: 56.5
+    yellow: 56.6
+    blue: 62.3
+    magenta: 56.8
+    cyan: 57.2
+    white: 77.8
+    brightBlack: 59.1
+    brightRed: 59.4
+    brightGreen: 56.5
+    brightYellow: 56.6
+    brightBlue: 62.3
+    brightMagenta: 56.8
+    brightCyan: 57.2
+    brightWhite: 43.4

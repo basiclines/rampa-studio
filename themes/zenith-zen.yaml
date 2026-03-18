@@ -1,0 +1,49 @@
+name: "Zenith Zen"
+source:
+  marketplace_id: "TheSamonide.zenith-theme"
+  version: "6.0.3"
+  installs: 108
+  author: "Samonide"
+  repo: "https://github.com/samonide/zenith-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheSamonide.zenith-theme"
+colors:
+  bg: "#141414"
+  fg: "#E8E8E8"
+  black: "#141414"
+  red: "#C8B4B4"
+  green: "#B4C8BC"
+  yellow: "#CCC8B4"
+  blue: "#B8C0CC"
+  magenta: "#C4B8CC"
+  cyan: "#B8C8CC"
+  white: "#E8E8E8"
+  brightBlack: "#3A3A3A"
+  brightRed: "#C8B4B4"
+  brightGreen: "#B8CCC2"
+  brightYellow: "#CCC8B4"
+  brightBlue: "#B4BCC8"
+  brightMagenta: "#C0B4C8"
+  brightCyan: "#B4C8C4"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 92.2
+    black: 0
+    red: 63.6
+    green: 69.7
+    yellow: 72.3
+    blue: 67.4
+    magenta: 65.7
+    cyan: 70.8
+    white: 92.2
+    brightBlack: 0
+    brightRed: 63.6
+    brightGreen: 72.1
+    brightYellow: 72.3
+    brightBlue: 65.1
+    brightMagenta: 63.4
+    brightCyan: 70
+    brightWhite: 92.2

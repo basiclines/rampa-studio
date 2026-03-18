@@ -1,0 +1,49 @@
+name: "ionztorm Theme"
+source:
+  marketplace_id: "ionztorm.ionztorm-theme"
+  version: "0.3.19"
+  installs: 228
+  author: "ionztorm"
+  repo: "https://github.com/ionztorm/ionztorm-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ionztorm.ionztorm-theme"
+colors:
+  bg: "#16161E"
+  fg: "#C0CAF5"
+  black: "#414868"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#C0CAF5"
+  brightBlack: "#737AA2"
+  brightRed: "#F7768E"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#C0CAF5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  contrast:
+    fg: 74.4
+    black: 10.9
+    red: 49.9
+    green: 67.5
+    yellow: 62.8
+    blue: 51.7
+    magenta: 55.6
+    cyan: 71.1
+    white: 74.4
+    brightBlack: 31.9
+    brightRed: 49.9
+    brightGreen: 67.5
+    brightYellow: 62.8
+    brightBlue: 51.7
+    brightMagenta: 55.6
+    brightCyan: 71.1
+    brightWhite: 74.4

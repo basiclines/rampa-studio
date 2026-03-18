@@ -1,0 +1,49 @@
+name: "legacy-solarized-light-color-theme"
+source:
+  marketplace_id: "ryanolsonx.solarized"
+  version: "3.0.0"
+  installs: 183408
+  author: "Ryan Olson"
+  repo: "https://github.com/ryanolsonx/vscode-solarized-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ryanolsonx.solarized"
+colors:
+  bg: "#FDF6E3"
+  fg: "#657B83"
+  black: "#657B83"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#657B83"
+  brightRed: "#CB4B16"
+  brightGreen: "#859900"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#EEE8D5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 65.7
+    black: 65.7
+    red: 65.3
+    green: 53.8
+    yellow: 53.8
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
+    white: 0
+    brightBlack: 65.7
+    brightRed: 65.8
+    brightGreen: 53.8
+    brightYellow: 65.7
+    brightBlue: 53.5
+    brightMagenta: 65
+    brightCyan: 46.7
+    brightWhite: 0

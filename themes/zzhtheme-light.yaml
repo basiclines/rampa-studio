@@ -1,0 +1,49 @@
+name: "ZzhTheme Light"
+source:
+  marketplace_id: "langlang.zzh-theme"
+  version: "3.5.8"
+  installs: 249
+  author: "langlang"
+  repo: "https://github.com/zhaogongchengsi/zzh-vs-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=langlang.zzh-theme"
+colors:
+  bg: "#F9F9F9"
+  fg: "#333333"
+  black: "#202020"
+  red: "#901110"
+  green: "#1C5A25"
+  yellow: "#7E6C06"
+  blue: "#0A4694"
+  magenta: "#FF1A9C"
+  cyan: "#00838F"
+  white: "#202020"
+  brightBlack: "#606060"
+  brightRed: "#D73324"
+  brightGreen: "#32953D"
+  brightYellow: "#D2AF0F"
+  brightBlue: "#1D75DB"
+  brightMagenta: "#FF4DB2"
+  brightCyan: "#01ACC1"
+  brightWhite: "#606060"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 95.1
+    black: 99.7
+    red: 85.9
+    green: 84.7
+    yellow: 72.1
+    blue: 86.6
+    magenta: 57.4
+    cyan: 67.2
+    white: 99.7
+    brightBlack: 77.8
+    brightRed: 68
+    brightGreen: 61.7
+    brightYellow: 37.9
+    brightBlue: 67.4
+    brightMagenta: 52.1
+    brightCyan: 48.7
+    brightWhite: 77.8

@@ -1,0 +1,49 @@
+name: "Cherry Blossom Warm"
+source:
+  marketplace_id: "daitsuku.cherry-blossom-vscode-theme"
+  version: "1.2.1"
+  installs: 2129
+  author: "daitsuku"
+  repo: "https://gitlab.com/daitsuku/cherry-blossom-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daitsuku.cherry-blossom-vscode-theme"
+colors:
+  bg: "#FFF5F8"
+  fg: "#2A1F28"
+  black: "#2A1F28"
+  red: "#D95D92"
+  green: "#6BAD9A"
+  yellow: "#D9A95D"
+  blue: "#5D92D9"
+  magenta: "#B15D95"
+  cyan: "#5DB1D9"
+  white: "#FFF0F5"
+  brightBlack: "#AA8699"
+  brightRed: "#E678A5"
+  brightGreen: "#87C4B1"
+  brightYellow: "#EBBE7D"
+  brightBlue: "#7DABEB"
+  brightMagenta: "#CE7DAD"
+  brightCyan: "#7DCEEB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 98.2
+    black: 98.2
+    red: 57.8
+    green: 46.2
+    yellow: 37.5
+    blue: 54.4
+    magenta: 65
+    cyan: 42.5
+    white: 0
+    brightBlack: 54.5
+    brightRed: 48.4
+    brightGreen: 33.8
+    brightYellow: 26.4
+    brightBlue: 41.9
+    brightMagenta: 51
+    brightCyan: 27.7
+    brightWhite: 0

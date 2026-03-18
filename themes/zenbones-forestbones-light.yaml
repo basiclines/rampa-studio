@@ -1,0 +1,49 @@
+name: "Zenbones Forestbones Light"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2700
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+colors:
+  bg: "#FAF3E1"
+  fg: "#4F5B62"
+  black: "#FAF3E1"
+  red: "#F85550"
+  green: "#8DA200"
+  yellow: "#DEA000"
+  blue: "#3A94C4"
+  magenta: "#DF69BA"
+  cyan: "#36A87E"
+  white: "#4F5B62"
+  brightBlack: "#DBC988"
+  brightRed: "#E6271C"
+  brightGreen: "#758700"
+  brightYellow: "#B98500"
+  brightBlue: "#297CA6"
+  brightMagenta: "#CA43A3"
+  brightCyan: "#258C67"
+  brightWhite: "#6E7F88"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 77.2
+    black: 0
+    red: 52
+    green: 47.8
+    yellow: 38
+    blue: 54
+    magenta: 49.9
+    cyan: 49
+    white: 77.2
+    brightBlack: 21.8
+    brightRed: 62.2
+    brightGreen: 60.3
+    brightYellow: 52.8
+    brightBlue: 64.9
+    brightMagenta: 62.1
+    brightCyan: 61.4
+    brightWhite: 61.6

@@ -1,0 +1,49 @@
+name: "utopia"
+source:
+  marketplace_id: "yingfc.yingfc"
+  version: "0.0.2"
+  installs: 188
+  author: "yingfc"
+  repo: "https://github.com/yingfc/utopia_color_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yingfc.yingfc"
+colors:
+  bg: "#2E2E2E"
+  fg: "#E6E6E6"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#99918B"
+  brightRed: "#FB543F"
+  brightGreen: "#237E02"
+  brightYellow: "#FAC03B"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 87
+    black: 0
+    red: 38.3
+    green: 57.3
+    yellow: 69.4
+    blue: 43.9
+    magenta: 15.9
+    cyan: 45.8
+    white: 43.6
+    brightBlack: 39.1
+    brightRed: 38.3
+    brightGreen: 21.9
+    brightYellow: 69.4
+    brightBlue: 15.1
+    brightMagenta: 15.9
+    brightCyan: 45.8
+    brightWhite: 95.2

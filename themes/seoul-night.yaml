@@ -1,0 +1,49 @@
+name: "Seoul Night"
+source:
+  marketplace_id: "lovema-kr.theme-seoul"
+  version: "0.1.6"
+  installs: 35
+  author: "Hue"
+  repo: "https://github.com/hue-lovemakr/lovema-kr"
+  url: "https://marketplace.visualstudio.com/items?itemName=lovema-kr.theme-seoul"
+colors:
+  bg: "#1D1E23"
+  fg: "#D8C8B2"
+  black: "#1D1E23"
+  red: "#E16350"
+  green: "#72C6A5"
+  yellow: "#F7B938"
+  blue: "#448CCB"
+  magenta: "#8E6F80"
+  cyan: "#5AC6D0"
+  white: "#FFFFFF"
+  brightBlack: "#1D1E23"
+  brightRed: "#E16350"
+  brightGreen: "#72C6A5"
+  brightYellow: "#F7B938"
+  brightBlue: "#448CCB"
+  brightMagenta: "#8E6F80"
+  brightCyan: "#5AC6D0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 72.7
+    black: 0
+    red: 38.6
+    green: 61.1
+    yellow: 68.9
+    blue: 36.6
+    magenta: 29.1
+    cyan: 61.6
+    white: 106
+    brightBlack: 0
+    brightRed: 38.6
+    brightGreen: 61.1
+    brightYellow: 68.9
+    brightBlue: 36.6
+    brightMagenta: 29.1
+    brightCyan: 61.6
+    brightWhite: 106

@@ -1,0 +1,49 @@
+name: "Yotei"
+source:
+  marketplace_id: "Zenky.yotei"
+  version: "1.1.4"
+  installs: 542
+  author: "Zenky"
+  repo: "https://github.com/bzenky/yotei-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Zenky.yotei"
+colors:
+  bg: "#211925"
+  fg: "#FEF7FF"
+  black: "#282936"
+  red: "#EA51B2"
+  green: "#FD4200"
+  yellow: "#77CDFF"
+  blue: "#62D6E8"
+  magenta: "#DE71FF"
+  cyan: "#A1EFE4"
+  white: "#E9E9F4"
+  brightBlack: "#626483"
+  brightRed: "#EA51B2"
+  brightGreen: "#EBFF87"
+  brightYellow: "#4351A1"
+  brightBlue: "#E462E8"
+  brightMagenta: "#B45BCF"
+  brightCyan: "#A1EFE4"
+  brightWhite: "#F7F7FB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 314
+  contrast:
+    fg: 102.4
+    black: 0
+    red: 40.5
+    green: 38.9
+    yellow: 69.2
+    blue: 70.9
+    magenta: 49.2
+    cyan: 86.7
+    white: 92.5
+    brightBlack: 21.6
+    brightRed: 40.5
+    brightGreen: 99.5
+    brightYellow: 15.8
+    brightBlue: 45.5
+    brightMagenta: 33.8
+    brightCyan: 86.7
+    brightWhite: 101.2

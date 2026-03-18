@@ -1,0 +1,49 @@
+name: "vsblue"
+source:
+  marketplace_id: "4rya.vsblue"
+  version: "1.4.2"
+  installs: 66
+  author: "4rya"
+  repo: "https://github.com/TugasArya/vsblue"
+  url: "https://marketplace.visualstudio.com/items?itemName=4rya.vsblue"
+colors:
+  bg: "#F0F9FF"
+  fg: "#1E3A5F"
+  black: "#1A365D"
+  red: "#FF595E"
+  green: "#FFD166"
+  yellow: "#FF9F1C"
+  blue: "#4ECDC4"
+  magenta: "#FF6B9D"
+  cyan: "#A3D5FF"
+  white: "#E6F2FF"
+  brightBlack: "#8DA1B9"
+  brightRed: "#FF7D82"
+  brightGreen: "#FFE082"
+  brightYellow: "#FFB74D"
+  brightBlue: "#6CE6DE"
+  brightMagenta: "#FF85AA"
+  brightCyan: "#D4EBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 91.9
+    black: 93.1
+    red: 52.1
+    green: 16.6
+    yellow: 35.2
+    blue: 32.3
+    magenta: 46.9
+    cyan: 20.9
+    white: 0
+    brightBlack: 47.1
+    brightRed: 43.6
+    brightGreen: 10
+    brightYellow: 26.7
+    brightBlue: 18.7
+    brightMagenta: 40.2
+    brightCyan: 0
+    brightWhite: 0

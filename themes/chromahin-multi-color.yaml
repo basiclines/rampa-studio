@@ -1,0 +1,49 @@
+name: "CHROMAHIN Multi-color"
+source:
+  marketplace_id: "mahin-ltd.chromahin"
+  version: "1.0.0"
+  installs: 52
+  author: "Mahin Ltd"
+  repo: "https://github.com/mahinltd/chromahin"
+  url: "https://marketplace.visualstudio.com/items?itemName=mahin-ltd.chromahin"
+colors:
+  bg: "#0D1220"
+  fg: "#E4EEFF"
+  black: "#0D1220"
+  red: "#FF6F98"
+  green: "#47D988"
+  yellow: "#F3C955"
+  blue: "#5B7CFF"
+  magenta: "#B985FF"
+  cyan: "#45E0FF"
+  white: "#E4EEFF"
+  brightBlack: "#1E273A"
+  brightRed: "#FF8BAF"
+  brightGreen: "#64E79B"
+  brightYellow: "#F7D86F"
+  brightBlue: "#7690FF"
+  brightMagenta: "#C9A3FF"
+  brightCyan: "#62EAFF"
+  brightWhite: "#F7FAFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 268
+  contrast:
+    fg: 95.6
+    black: 0
+    red: 50.7
+    green: 68.5
+    yellow: 76.2
+    blue: 37.4
+    magenta: 49.6
+    cyan: 76.8
+    white: 95.6
+    brightBlack: 0
+    brightRed: 58.7
+    brightGreen: 77
+    brightYellow: 83.6
+    brightBlue: 45.8
+    brightMagenta: 61.5
+    brightCyan: 82.6
+    brightWhite: 103.8

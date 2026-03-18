@@ -1,0 +1,49 @@
+name: "Cosmic Purple"
+source:
+  marketplace_id: "codeM.mystic-dark-collection"
+  version: "0.1.0"
+  installs: 86
+  author: "Mustafa Özdemir"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=codeM.mystic-dark-collection"
+colors:
+  bg: "#0F0F1A"
+  fg: "#E6E6FA"
+  black: "#0F0F1A"
+  red: "#DC143C"
+  green: "#228B22"
+  yellow: "#9370DB"
+  blue: "#6A5ACD"
+  magenta: "#8B008B"
+  cyan: "#9370DB"
+  white: "#E6E6FA"
+  brightBlack: "#483D8B"
+  brightRed: "#FF6B6B"
+  brightGreen: "#32CD32"
+  brightYellow: "#A57EDB"
+  brightBlue: "#8A7BCD"
+  brightMagenta: "#9932CC"
+  brightCyan: "#A57EDB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 284
+  contrast:
+    fg: 92.2
+    black: 0
+    red: 29
+    green: 31.3
+    yellow: 36.2
+    blue: 25.2
+    magenta: 14.6
+    cyan: 36.2
+    white: 92.2
+    brightBlack: 11.3
+    brightRed: 48.7
+    brightGreen: 60.9
+    brightYellow: 42.5
+    brightBlue: 37.5
+    brightMagenta: 23.9
+    brightCyan: 42.5
+    brightWhite: 107.4

@@ -1,0 +1,49 @@
+name: "Relaxed Theme"
+source:
+  marketplace_id: "mischah.relaxed-theme"
+  version: "1.0.5"
+  installs: 31466
+  author: "Michael Kühnel"
+  repo: "https://github.com/Relaxed-Theme/vscode-theme-releaxed"
+  url: "https://marketplace.visualstudio.com/items?itemName=mischah.relaxed-theme"
+colors:
+  bg: "#2E333B"
+  fg: "#D9D9D9"
+  black: "#151515"
+  red: "#BC5653"
+  green: "#909D63"
+  yellow: "#EBC17A"
+  blue: "#6A8799"
+  magenta: "#B06698"
+  cyan: "#C9DFFF"
+  white: "#D9D9D9"
+  brightBlack: "#636363"
+  brightRed: "#BC5653"
+  brightGreen: "#A0AC77"
+  brightYellow: "#EBC17A"
+  brightBlue: "#7EAAC7"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#ACBBD0"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 260
+  contrast:
+    fg: 77.8
+    black: 0
+    red: 24.7
+    green: 40.4
+    yellow: 67.1
+    blue: 30.5
+    magenta: 28.5
+    cyan: 80.4
+    white: 77.8
+    brightBlack: 16
+    brightRed: 24.7
+    brightGreen: 48.5
+    brightYellow: 67.1
+    brightBlue: 47.5
+    brightMagenta: 41.7
+    brightCyan: 59.2
+    brightWhite: 96.8

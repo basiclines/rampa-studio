@@ -1,0 +1,49 @@
+name: "Gruvbox Material Flat Light"
+source:
+  marketplace_id: "GrzegorzKozub.gruvbox-material-flat"
+  version: "0.2.8"
+  installs: 685
+  author: "greg"
+  repo: "https://github.com/GrzegorzKozub/gruvbox-material-flat"
+  url: "https://marketplace.visualstudio.com/items?itemName=GrzegorzKozub.gruvbox-material-flat"
+colors:
+  bg: "#F2E5BC"
+  fg: "#654735"
+  black: "#EBDBB2"
+  red: "#C14A4A"
+  green: "#6C782E"
+  yellow: "#B47109"
+  blue: "#45707A"
+  magenta: "#945E80"
+  cyan: "#4C7A5D"
+  white: "#928374"
+  brightBlack: "#BDAE93"
+  brightRed: "#B85651"
+  brightGreen: "#8F9A52"
+  brightYellow: "#C18F41"
+  brightBlue: "#68948A"
+  brightMagenta: "#AB6C7D"
+  brightCyan: "#72966C"
+  brightWhite: "#654735"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 93
+  contrast:
+    fg: 73.6
+    black: 0
+    red: 57.5
+    green: 58.1
+    yellow: 51.4
+    blue: 61.9
+    magenta: 59.5
+    cyan: 59
+    white: 49.1
+    brightBlack: 27.7
+    brightRed: 56.8
+    brightGreen: 42
+    brightYellow: 39.8
+    brightBlue: 46.2
+    brightMagenta: 52.5
+    brightCyan: 45.6
+    brightWhite: 73.6

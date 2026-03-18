@@ -1,0 +1,49 @@
+name: "Concrete Theme"
+source:
+  marketplace_id: "HaiderNadeem.concrete-theme"
+  version: "0.0.2"
+  installs: 1105
+  author: "Haider Nadeem"
+  repo: "https://github.com/HaiderNadeem/Concrete-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HaiderNadeem.concrete-theme"
+colors:
+  bg: "#282C34"
+  fg: "#EEFFFF"
+  black: "#2F3B54"
+  red: "#EF6B73"
+  green: "#FFCC66"
+  yellow: "#FFCC66"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#FFCC66"
+  brightYellow: "#FFCC66"
+  brightBlue: "#BAE67E"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 101.4
+    black: 0
+    red: 41.6
+    green: 76.1
+    yellow: 76.1
+    blue: 64.6
+    magenta: 58.1
+    cyan: 64.6
+    white: 51.9
+    brightBlack: 8
+    brightRed: 41.6
+    brightGreen: 76.1
+    brightYellow: 76.1
+    brightBlue: 78.7
+    brightMagenta: 58.1
+    brightCyan: 64.6
+    brightWhite: 51.9

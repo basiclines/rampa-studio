@@ -1,0 +1,49 @@
+name: "Undefined"
+source:
+  marketplace_id: "so1ve.theme-undefined"
+  version: "1.1.0"
+  installs: 63
+  author: "so1ve"
+  repo: "https://github.com/so1ve/vscode-theme-undefined"
+  url: "https://marketplace.visualstudio.com/items?itemName=so1ve.theme-undefined"
+colors:
+  bg: "#262626"
+  fg: "#DBD7CA"
+  black: "#3F4451"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#06B6D4"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 79.2
+    black: 0
+    red: 38.7
+    green: 34.6
+    yellow: 73.5
+    blue: 39.3
+    magenta: 41.8
+    cyan: 51.8
+    white: 79.2
+    brightBlack: 27.5
+    brightRed: 38.7
+    brightGreen: 34.6
+    brightYellow: 73.5
+    brightBlue: 39.3
+    brightMagenta: 41.8
+    brightCyan: 51.8
+    brightWhite: 104.8

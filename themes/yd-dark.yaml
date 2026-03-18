@@ -1,0 +1,49 @@
+name: "YD Dark"
+source:
+  marketplace_id: "YellowDeer.yd-theme"
+  version: "2.3.1"
+  installs: 165
+  author: "YellowDeer"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=YellowDeer.yd-theme"
+colors:
+  bg: "#2D3436"
+  fg: "#ECF0F1"
+  black: "#2D3436"
+  red: "#D63031"
+  green: "#008A6F"
+  yellow: "#FDCB6E"
+  blue: "#0763AA"
+  magenta: "#AE326E"
+  cyan: "#40B393"
+  white: "#D1D5D6"
+  brightBlack: "#484F51"
+  brightRed: "#EA8462"
+  brightGreen: "#40B393"
+  brightYellow: "#FDCB6E"
+  brightBlue: "#0763AA"
+  brightMagenta: "#AE326E"
+  brightCyan: "#40B393"
+  brightWhite: "#ECF0F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 217
+  contrast:
+    fg: 91.8
+    black: 0
+    red: 23.8
+    green: 26.6
+    yellow: 73.9
+    blue: 15.6
+    magenta: 16.9
+    cyan: 45.7
+    white: 74.8
+    brightBlack: 7.5
+    brightRed: 45.2
+    brightGreen: 45.7
+    brightYellow: 73.9
+    brightBlue: 15.6
+    brightMagenta: 16.9
+    brightCyan: 45.7
+    brightWhite: 91.8

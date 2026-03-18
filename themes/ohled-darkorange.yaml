@@ -1,0 +1,49 @@
+name: "OhLED_DarkOrange"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FF8C00"
+  black: "#FF8C00"
+  red: "#BB6700"
+  green: "#CC7000"
+  yellow: "#995400"
+  blue: "#EE8300"
+  magenta: "#DD7900"
+  cyan: "#AA5D00"
+  white: "#884B00"
+  brightBlack: "#FF8C00"
+  brightRed: "#BB6700"
+  brightGreen: "#CC7000"
+  brightYellow: "#995400"
+  brightBlue: "#EE8300"
+  brightMagenta: "#DD7900"
+  brightCyan: "#AA5D00"
+  brightWhite: "#884B00"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 56.7
+    black: 56.7
+    red: 33.6
+    green: 38.9
+    yellow: 23.3
+    blue: 50.7
+    magenta: 44.5
+    cyan: 28.2
+    white: 18.6
+    brightBlack: 56.7
+    brightRed: 33.6
+    brightGreen: 38.9
+    brightYellow: 23.3
+    brightBlue: 50.7
+    brightMagenta: 44.5
+    brightCyan: 28.2
+    brightWhite: 18.6

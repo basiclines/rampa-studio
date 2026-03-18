@@ -1,0 +1,49 @@
+name: "Aesir Theme"
+source:
+  marketplace_id: "tomgobich.aesir-theme"
+  version: "1.0.3"
+  installs: 1738
+  author: "tomgobich"
+  repo: "https://github.com/tomgobich/aesir-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=tomgobich.aesir-theme"
+colors:
+  bg: "#1F2228"
+  fg: "#D4D4D4"
+  black: "#1F2228"
+  red: "#E74C3C"
+  green: "#5D6879"
+  yellow: "#5D6879"
+  blue: "#27AE60"
+  magenta: "#5D6879"
+  cyan: "#2ECC71"
+  white: "#D4D4D4"
+  brightBlack: "#3E4651"
+  brightRed: "#C0392B"
+  brightGreen: "#2ECC71"
+  brightYellow: "#5D6879"
+  brightBlue: "#27AE60"
+  brightMagenta: "#5D6879"
+  brightCyan: "#2ECC71"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 78.1
+    black: 0
+    red: 34.7
+    green: 21.1
+    yellow: 21.1
+    blue: 45
+    magenta: 21.1
+    cyan: 59.3
+    white: 78.1
+    brightBlack: 7.9
+    brightRed: 23.4
+    brightGreen: 59.3
+    brightYellow: 21.1
+    brightBlue: 45
+    brightMagenta: 21.1
+    brightCyan: 59.3
+    brightWhite: 78.1

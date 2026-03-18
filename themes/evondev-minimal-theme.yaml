@@ -1,0 +1,49 @@
+name: "Evondev Minimal Theme"
+source:
+  marketplace_id: "evondev.evondev-minimal-theme"
+  version: "0.0.10"
+  installs: 7
+  author: "evondev"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=evondev.evondev-minimal-theme"
+colors:
+  bg: "#1E1F35"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#20E3B2"
+  yellow: "#FDE181"
+  blue: "#BD93F9"
+  magenta: "#FF6BCB"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#8D92FF"
+  brightRed: "#FF6E6E"
+  brightGreen: "#20E3B2"
+  brightYellow: "#EAC394"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF6BCB"
+  brightCyan: "#2CCCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 281
+  contrast:
+    fg: 100.7
+    black: 0
+    red: 42.1
+    green: 72.3
+    yellow: 87.2
+    blue: 52.4
+    magenta: 50.4
+    cyan: 82.7
+    white: 100.7
+    brightBlack: 46.9
+    brightRed: 47.5
+    brightGreen: 72.3
+    brightYellow: 71.9
+    brightBlue: 52.4
+    brightMagenta: 50.4
+    brightCyan: 65.2
+    brightWhite: 105.6

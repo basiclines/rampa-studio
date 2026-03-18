@@ -1,0 +1,49 @@
+name: "slate-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#19191F"
+  fg: "#EBEBF4"
+  black: "#24242D"
+  red: "#BA0E2E"
+  green: "#566981"
+  yellow: "#89A7B1"
+  blue: "#CBDAD5"
+  magenta: "#566981"
+  cyan: "#89A7B1"
+  white: "#FBFBFD"
+  brightBlack: "#474757"
+  brightRed: "#F03E5F"
+  brightGreen: "#8B9CB2"
+  brightYellow: "#C6D5DA"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#8B9CB2"
+  brightCyan: "#C6D5DA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  contrast:
+    fg: 94
+    black: 0
+    red: 20.2
+    green: 22.4
+    yellow: 50.7
+    blue: 80.8
+    magenta: 22.4
+    cyan: 50.7
+    white: 104
+    brightBlack: 10.1
+    brightRed: 36.5
+    brightGreen: 46.6
+    brightYellow: 78.2
+    brightBlue: 106.6
+    brightMagenta: 46.6
+    brightCyan: 78.2
+    brightWhite: 106.6

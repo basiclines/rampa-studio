@@ -1,0 +1,49 @@
+name: "RageQuit"
+source:
+  marketplace_id: "YuriRage.ragequit"
+  version: "0.1.4"
+  installs: 297
+  author: "Yuri Rage"
+  repo: "https://github.com/yuri-rage/vscode-theme-ragequit"
+  url: "https://marketplace.visualstudio.com/items?itemName=YuriRage.ragequit"
+colors:
+  bg: "#0A0E16"
+  fg: "#C8C4CE"
+  black: "#141820"
+  red: "#FC618D"
+  green: "#5DBA71"
+  yellow: "#C8B252"
+  blue: "#1E7EAA"
+  magenta: "#948AE3"
+  cyan: "#1E7EAA"
+  white: "#C8C4CE"
+  brightBlack: "#69676C"
+  brightRed: "#FC618D"
+  brightGreen: "#5DBA71"
+  brightYellow: "#C8B252"
+  brightBlue: "#1E7EAA"
+  brightMagenta: "#948AE3"
+  brightCyan: "#1E7EAA"
+  brightWhite: "#C8C4CE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 71.6
+    black: 0
+    red: 47
+    green: 54.5
+    yellow: 60.6
+    blue: 30.2
+    magenta: 44.9
+    cyan: 30.2
+    white: 71.6
+    brightBlack: 23.5
+    brightRed: 47
+    brightGreen: 54.5
+    brightYellow: 60.6
+    brightBlue: 30.2
+    brightMagenta: 44.9
+    brightCyan: 30.2
+    brightWhite: 71.6

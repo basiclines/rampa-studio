@@ -1,0 +1,49 @@
+name: "Tailwind Emerald Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#ECFDF5"
+  fg: "#065F46"
+  black: "#064E3B"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#D1FAE5"
+  brightBlack: "#064E3B"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#D1FAE5"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 82.6
+    black: 88.5
+    red: 60.2
+    green: 40.7
+    yellow: 32.7
+    blue: 60.3
+    magenta: 62.6
+    cyan: 43.5
+    white: 0
+    brightBlack: 88.5
+    brightRed: 60.2
+    brightGreen: 40.7
+    brightYellow: 32.7
+    brightBlue: 60.3
+    brightMagenta: 62.6
+    brightCyan: 43.5
+    brightWhite: 0

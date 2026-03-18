@@ -1,0 +1,49 @@
+name: "Ef Duo Light"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#FFF8F0"
+  fg: "#222222"
+  black: "#222222"
+  red: "#CC3333"
+  green: "#217A3C"
+  yellow: "#8A5D00"
+  blue: "#375CD8"
+  magenta: "#BA35AF"
+  cyan: "#1F6FBF"
+  white: "#F6ECE8"
+  brightBlack: "#63728F"
+  brightRed: "#DD1100"
+  brightGreen: "#4A7D00"
+  brightYellow: "#9F4A00"
+  brightBlue: "#4250EF"
+  brightMagenta: "#CF25AA"
+  brightCyan: "#3F70A0"
+  brightWhite: "#FFF8F0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 99.3
+    black: 99.3
+    red: 70.4
+    green: 72.7
+    yellow: 74.9
+    blue: 74.3
+    magenta: 69.7
+    cyan: 71.3
+    white: 0
+    brightBlack: 70
+    brightRed: 68.7
+    brightGreen: 70.5
+    brightYellow: 76.1
+    brightBlue: 74.6
+    brightMagenta: 67.1
+    brightCyan: 72
+    brightWhite: 0

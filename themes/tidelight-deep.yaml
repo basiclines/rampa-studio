@@ -1,0 +1,49 @@
+name: "Tidelight Deep"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+colors:
+  bg: "#0B1220"
+  fg: "#CBD5E1"
+  black: "#0F172A"
+  red: "#FB7185"
+  green: "#34D399"
+  yellow: "#F59E0B"
+  blue: "#38BDF8"
+  magenta: "#F472B6"
+  cyan: "#22D3EE"
+  white: "#E2E8F0"
+  brightBlack: "#0F172A"
+  brightRed: "#FB7185"
+  brightGreen: "#34D399"
+  brightYellow: "#F59E0B"
+  brightBlue: "#38BDF8"
+  brightMagenta: "#F472B6"
+  brightCyan: "#22D3EE"
+  brightWhite: "#E2E8F0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 263
+  contrast:
+    fg: 79.8
+    black: 0
+    red: 49.7
+    green: 65.6
+    yellow: 59.8
+    blue: 60
+    magenta: 50.3
+    cyan: 69
+    white: 91.9
+    brightBlack: 0
+    brightRed: 49.7
+    brightGreen: 65.6
+    brightYellow: 59.8
+    brightBlue: 60
+    brightMagenta: 50.3
+    brightCyan: 69
+    brightWhite: 91.9

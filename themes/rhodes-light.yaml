@@ -1,0 +1,49 @@
+name: "Rhodes Light"
+source:
+  marketplace_id: "gaebalgom.rhodes"
+  version: "1.0.0"
+  installs: 570
+  author: "gaebalgom"
+  repo: "https://github.com/dodok8/rhodes-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gaebalgom.rhodes"
+colors:
+  bg: "#FDFDFD"
+  fg: "#241E1F"
+  black: "#241E1F"
+  red: "#E17375"
+  green: "#58AE79"
+  yellow: "#9D9F44"
+  blue: "#51A1D5"
+  magenta: "#D56EC1"
+  cyan: "#46ABAB"
+  white: "#4D4D4D"
+  brightBlack: "#584C4E"
+  brightRed: "#EE9998"
+  brightGreen: "#6DCB90"
+  brightYellow: "#B8BA57"
+  brightBlue: "#78BCEA"
+  brightMagenta: "#E396D2"
+  brightCyan: "#5AC7C7"
+  brightWhite: "#7E7E7E"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 102.2
+    black: 102.2
+    red: 55.6
+    green: 51.2
+    yellow: 52.7
+    blue: 53
+    magenta: 56
+    cyan: 51.5
+    white: 87.9
+    brightBlack: 87.2
+    brightRed: 41.4
+    brightGreen: 36.9
+    brightYellow: 38.9
+    brightBlue: 38.9
+    brightMagenta: 41.9
+    brightCyan: 37.6
+    brightWhite: 66.6

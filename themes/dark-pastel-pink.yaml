@@ -1,0 +1,49 @@
+name: "Dark Pastel Pink"
+source:
+  marketplace_id: "Pand.dark-pastels"
+  version: "1.0.0"
+  installs: 211
+  author: "Pand"
+  repo: "https://github.com/pandirel/dark-pastels"
+  url: "https://marketplace.visualstudio.com/items?itemName=Pand.dark-pastels"
+colors:
+  bg: "#232527"
+  fg: "#E0E0E0"
+  black: "#232527"
+  red: "#FF6F91"
+  green: "#B2FF9E"
+  yellow: "#FFF9B1"
+  blue: "#A0C4FF"
+  magenta: "#FFB3C6"
+  cyan: "#94E8EE"
+  white: "#E0E0E0"
+  brightBlack: "#232527"
+  brightRed: "#FF6F91"
+  brightGreen: "#B2FF9E"
+  brightYellow: "#FFF9B1"
+  brightBlue: "#A0C4FF"
+  brightMagenta: "#FFB3C6"
+  brightCyan: "#94E8EE"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 85
+    black: 0
+    red: 48.2
+    green: 92.4
+    yellow: 99.1
+    blue: 67.2
+    magenta: 70.4
+    cyan: 81.5
+    white: 85
+    brightBlack: 0
+    brightRed: 48.2
+    brightGreen: 92.4
+    brightYellow: 99.1
+    brightBlue: 67.2
+    brightMagenta: 70.4
+    brightCyan: 81.5
+    brightWhite: 85

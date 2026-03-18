@@ -1,0 +1,49 @@
+name: "QARA"
+source:
+  marketplace_id: "HasanHasanli.qara"
+  version: "2.2.0"
+  installs: 234
+  author: "Hasan Hasanli"
+  repo: "https://github.com/hasan-li/qara-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasanHasanli.qara"
+colors:
+  bg: "#1A2128"
+  fg: "#C8CED9"
+  black: "#011627"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 249
+  contrast:
+    fg: 74.4
+    black: 0
+    red: 38.1
+    green: 66.1
+    yellow: 80.9
+    blue: 54.8
+    magenta: 52.6
+    cyan: 58.5
+    white: 105.7
+    brightBlack: 14.4
+    brightRed: 38.1
+    brightGreen: 66.1
+    brightYellow: 92.5
+    brightBlue: 54.8
+    brightMagenta: 52.6
+    brightCyan: 72.8
+    brightWhite: 105.7

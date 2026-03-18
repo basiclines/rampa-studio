@@ -1,0 +1,49 @@
+name: "Patina Colors"
+source:
+  marketplace_id: "SantiagoBobrik.patina-colors"
+  version: "0.2.1"
+  installs: 18
+  author: "SantiagoBobrik"
+  repo: "https://github.com/SantiagoBobrik/patina-colors"
+  url: "https://marketplace.visualstudio.com/items?itemName=SantiagoBobrik.patina-colors"
+colors:
+  bg: "#121211"
+  fg: "#D8D8C6"
+  black: "#1A1A19"
+  red: "#7A4A4A"
+  green: "#4A7A4A"
+  yellow: "#7A7A4A"
+  blue: "#4A5A7A"
+  magenta: "#7A4A7A"
+  cyan: "#4A7A6A"
+  white: "#A8A897"
+  brightBlack: "#666665"
+  brightRed: "#8A6A8A"
+  brightGreen: "#6AAA6A"
+  brightYellow: "#C8A86A"
+  brightBlue: "#6A8AAA"
+  brightMagenta: "#AA6AAA"
+  brightCyan: "#6AAA8A"
+  brightWhite: "#D8D8C6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 16.5
+    green: 26.5
+    yellow: 30.2
+    blue: 17.5
+    magenta: 18.1
+    cyan: 27.2
+    white: 54
+    brightBlack: 22.4
+    brightRed: 28.8
+    brightGreen: 47.9
+    brightYellow: 56.9
+    brightBlue: 37.5
+    brightMagenta: 34.6
+    brightCyan: 48.8
+    brightWhite: 81.6

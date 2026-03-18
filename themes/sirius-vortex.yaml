@@ -1,0 +1,49 @@
+name: "Sirius-Vortex"
+source:
+  marketplace_id: "VLMADev.siriusthemes"
+  version: "1.1.5"
+  installs: 509
+  author: "VLMADev"
+  repo: "https://github.com/VLMADev/siriusthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=VLMADev.siriusthemes"
+colors:
+  bg: "#1A1611"
+  fg: "#F4F4F4"
+  black: "#5A4D3E"
+  red: "#FF6B6B"
+  green: "#98D982"
+  yellow: "#FFD700"
+  blue: "#FF9500"
+  magenta: "#FF6B6B"
+  cyan: "#FF9500"
+  white: "#F4F4F4"
+  brightBlack: "#8B7355"
+  brightRed: "#FF6B6B"
+  brightGreen: "#98D982"
+  brightYellow: "#FFD700"
+  brightBlue: "#FF9500"
+  brightMagenta: "#FF6B6B"
+  brightCyan: "#FF9500"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 73
+  contrast:
+    fg: 99.7
+    black: 12.9
+    red: 48.1
+    green: 72.6
+    yellow: 83.3
+    blue: 58.5
+    magenta: 48.1
+    cyan: 58.5
+    white: 99.7
+    brightBlack: 29.6
+    brightRed: 48.1
+    brightGreen: 72.6
+    brightYellow: 83.3
+    brightBlue: 58.5
+    brightMagenta: 48.1
+    brightCyan: 58.5
+    brightWhite: 106.9

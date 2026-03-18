@@ -1,0 +1,49 @@
+name: "Rui Cobalt"
+source:
+  marketplace_id: "ruixiao85.rui-color-themes"
+  version: "1.3.0"
+  installs: 1770
+  author: "Rui Xiao"
+  repo: "https://github.com/ruixiao85/VSCodeTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ruixiao85.rui-color-themes"
+colors:
+  bg: "#002F61"
+  fg: "#E0E0E0"
+  black: "#000000"
+  red: "#FF628C"
+  green: "#3AD900"
+  yellow: "#FFC600"
+  blue: "#1699FF"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#E0E0E0"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#FFC600"
+  brightBlue: "#1699FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 255
+  contrast:
+    fg: 82.4
+    black: 0
+    red: 42.7
+    green: 61.8
+    yellow: 71.7
+    blue: 40.5
+    magenta: 59.9
+    cyan: 88.3
+    white: 82.4
+    brightBlack: 10.2
+    brightRed: 42.7
+    brightGreen: 61.8
+    brightYellow: 71.7
+    brightBlue: 40.5
+    brightMagenta: 59.9
+    brightCyan: 88.3
+    brightWhite: 102.4

@@ -1,0 +1,49 @@
+name: "Pantone Marsala (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#180D0D"
+  fg: "#DDCDD2"
+  black: "#180D0D"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#524F69"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#DDCDD2"
+  brightBlack: "#854F5C"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F5F1F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 19
+  contrast:
+    fg: 78.2
+    black: 0
+    red: 32.7
+    green: 52.3
+    yellow: 72
+    blue: 14.5
+    magenta: 33.7
+    cyan: 53
+    white: 78.2
+    brightBlack: 19.7
+    brightRed: 39.1
+    brightGreen: 59.6
+    brightYellow: 76.4
+    brightBlue: 29.3
+    brightMagenta: 42.4
+    brightCyan: 59.6
+    brightWhite: 98.8

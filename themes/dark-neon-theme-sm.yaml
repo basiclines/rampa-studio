@@ -1,0 +1,49 @@
+name: "Dark Neon Theme(SM)"
+source:
+  marketplace_id: "SIRILMP.dark-theme-sm"
+  version: "3.11.3"
+  installs: 21064
+  author: "SIRIL M P"
+  repo: "https://github.com/sirilmp/dark-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SIRILMP.dark-theme-sm"
+colors:
+  bg: "#041C32"
+  fg: "#D6DEEB"
+  black: "#041C32"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 249
+  contrast:
+    fg: 84.6
+    black: 0
+    red: 38.7
+    green: 66.7
+    yellow: 81.5
+    blue: 55.3
+    magenta: 53.2
+    cyan: 59.1
+    white: 106.3
+    brightBlack: 15
+    brightRed: 38.7
+    brightGreen: 66.7
+    brightYellow: 93.1
+    brightBlue: 55.3
+    brightMagenta: 53.2
+    brightCyan: 73.4
+    brightWhite: 106.3

@@ -1,0 +1,49 @@
+name: "Alchemist's Orchid Sepia"
+source:
+  marketplace_id: "Rynaro.alchemists-orchid"
+  version: "0.1.2"
+  installs: 111
+  author: "Rynaro"
+  repo: "https://github.com/Rynaro/alchemists-orchid"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rynaro.alchemists-orchid"
+colors:
+  bg: "#F5F0E6"
+  fg: "#3B3228"
+  black: "#3B3228"
+  red: "#B52080"
+  green: "#4A6A28"
+  yellow: "#806000"
+  blue: "#2E5E8A"
+  magenta: "#7B3399"
+  cyan: "#1A6B69"
+  white: "#E5E0D6"
+  brightBlack: "#5A5045"
+  brightRed: "#D42995"
+  brightGreen: "#5C8432"
+  brightYellow: "#997300"
+  brightBlue: "#3972A8"
+  brightMagenta: "#9440B3"
+  brightCyan: "#238280"
+  brightWhite: "#F5F0E6"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 89.8
+    black: 89.8
+    red: 69.8
+    green: 72.1
+    yellow: 70.3
+    blue: 74.6
+    magenta: 76.9
+    cyan: 72.2
+    white: 0
+    brightBlack: 78.6
+    brightRed: 61.7
+    brightGreen: 61.5
+    brightYellow: 61.3
+    brightBlue: 66.1
+    brightMagenta: 69.5
+    brightCyan: 62.8
+    brightWhite: 0

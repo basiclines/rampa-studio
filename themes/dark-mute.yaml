@@ -1,0 +1,49 @@
+name: "dark-mute"
+source:
+  marketplace_id: "EugeneGhanizadehKhoub.dark-mute"
+  version: "1.0.0"
+  installs: 309
+  author: "Eugene Ghanizadeh Khoub"
+  repo: "https://github.com/loreanvictor/vscode-darkmute-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EugeneGhanizadehKhoub.dark-mute"
+colors:
+  bg: "#000000"
+  fg: "#B3B3B3"
+  black: "#000000"
+  red: "#7D1935"
+  green: "#6D8B74"
+  yellow: "#FDC57B"
+  blue: "#27496D"
+  magenta: "#570A57"
+  cyan: "#00ADB5"
+  white: "#D0D0D0"
+  brightBlack: "#1A1A1A"
+  brightRed: "#B42B51"
+  brightGreen: "#83BD75"
+  brightYellow: "#F9D276"
+  brightBlue: "#0C7B93"
+  brightMagenta: "#A91079"
+  brightCyan: "#94F3E4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 61.2
+    black: 0
+    red: 10
+    green: 36.6
+    yellow: 77.5
+    blue: 11.1
+    magenta: 0
+    cyan: 49.4
+    white: 78.1
+    brightBlack: 0
+    brightRed: 22.4
+    brightGreen: 58.7
+    brightYellow: 82.1
+    brightBlue: 28.1
+    brightMagenta: 19.9
+    brightCyan: 89.2
+    brightWhite: 107.9

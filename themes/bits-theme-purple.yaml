@@ -1,0 +1,49 @@
+name: "Bits Theme Purple"
+source:
+  marketplace_id: "Joabits.bits-dark-theme"
+  version: "0.0.15"
+  installs: 85
+  author: "Joabits"
+  repo: "https://github.com/Joabits/bits-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Joabits.bits-dark-theme"
+colors:
+  bg: "#040207"
+  fg: "#FFFFFF"
+  black: "#040207"
+  red: "#FF595E"
+  green: "#6BF178"
+  yellow: "#FFE4A3"
+  blue: "#22EEFF"
+  magenta: "#B24BF3"
+  cyan: "#00CECB"
+  white: "#F5F0F0"
+  brightBlack: "#444446"
+  brightRed: "#FF6B88"
+  brightGreen: "#D5FFA3"
+  brightYellow: "#FFDA88"
+  brightBlue: "#5DD5FF"
+  brightMagenta: "#C66BFF"
+  brightCyan: "#00E8E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 305
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 45.2
+    green: 82.2
+    yellow: 91.9
+    blue: 83.6
+    magenta: 34.8
+    cyan: 65.3
+    white: 98.7
+    brightBlack: 9.9
+    brightRed: 49.9
+    brightGreen: 99
+    brightYellow: 86.8
+    brightBlue: 73
+    brightMagenta: 45.3
+    brightCyan: 79.1
+    brightWhite: 107.9

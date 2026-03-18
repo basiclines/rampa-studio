@@ -1,0 +1,49 @@
+name: "Dyno cute"
+source:
+  marketplace_id: "dyno-nguyen.dyno-dark-mode"
+  version: "1.2.4"
+  installs: 193
+  author: "Dyno Nguyen (Legacy)"
+  repo: "https://github.com/TuanNguyen2504/my-devtools-config.git#main"
+  url: "https://marketplace.visualstudio.com/items?itemName=dyno-nguyen.dyno-dark-mode"
+colors:
+  bg: "#1D2433"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#FF5555"
+  green: "#BAE67E"
+  yellow: "#EC60CE"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#FF5555"
+  brightGreen: "#BAE67E"
+  brightYellow: "#EC60CE"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 265
+  contrast:
+    fg: 53.3
+    black: 0
+    red: 41.6
+    green: 80.2
+    yellow: 43.9
+    blue: 66.1
+    magenta: 59.6
+    cyan: 66.1
+    white: 53.3
+    brightBlack: 9.4
+    brightRed: 41.6
+    brightGreen: 80.2
+    brightYellow: 43.9
+    brightBlue: 66.1
+    brightMagenta: 59.6
+    brightCyan: 66.1
+    brightWhite: 53.3

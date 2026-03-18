@@ -1,0 +1,49 @@
+name: "Angrboda Light"
+source:
+  marketplace_id: "carlssonloke.angrboda"
+  version: "1.3.1"
+  installs: 363
+  author: "carlssonloke"
+  repo: "https://github.com/lokecarlsson/Angrboda"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlssonloke.angrboda"
+colors:
+  bg: "#FFFFFF"
+  fg: "#1A1A1A"
+  black: "#1A1A1A"
+  red: "#A01818"
+  green: "#5A3B94"
+  yellow: "#A01818"
+  blue: "#5A3B94"
+  magenta: "#5A3B94"
+  cyan: "#FFFFFF"
+  white: "#1A1A1A"
+  brightBlack: "#1A1A1A"
+  brightRed: "#A01818"
+  brightGreen: "#5A3B94"
+  brightYellow: "#A01818"
+  brightBlue: "#5A3B94"
+  brightMagenta: "#5A3B94"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#1A1A1A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 104.3
+    black: 104.3
+    red: 85.8
+    green: 88.7
+    yellow: 85.8
+    blue: 88.7
+    magenta: 88.7
+    cyan: 0
+    white: 104.3
+    brightBlack: 104.3
+    brightRed: 85.8
+    brightGreen: 88.7
+    brightYellow: 85.8
+    brightBlue: 88.7
+    brightMagenta: 88.7
+    brightCyan: 0
+    brightWhite: 104.3

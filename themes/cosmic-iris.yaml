@@ -1,0 +1,49 @@
+name: "Cosmic Iris"
+source:
+  marketplace_id: "shravaninikam.cosmic-iris"
+  version: "0.1.0"
+  installs: 826
+  author: "Shravani Nikam"
+  repo: "https://github.com/shravaninikam/Cosmic-Iris"
+  url: "https://marketplace.visualstudio.com/items?itemName=shravaninikam.cosmic-iris"
+colors:
+  bg: "#111111"
+  fg: "#DBC8E0"
+  black: "#545454"
+  red: "#CD3131"
+  green: "#31C089"
+  yellow: "#E5E510"
+  blue: "#277AD5"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#A1A1A1"
+  brightBlack: "#777777"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 76.4
+    black: 15.2
+    red: 27.2
+    green: 56.2
+    yellow: 86.1
+    blue: 31.5
+    magenta: 30.3
+    cyan: 48.1
+    white: 50.9
+    brightBlack: 30.1
+    brightRed: 39.1
+    brightGreen: 64
+    brightYellow: 96.1
+    brightBlue: 40.5
+    brightMagenta: 45.9
+    brightCyan: 55.9
+    brightWhite: 90.5

@@ -1,0 +1,49 @@
+name: "Dune Sandworm"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 237
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+colors:
+  bg: "#1A1611"
+  fg: "#E8DCC4"
+  black: "#1A1611"
+  red: "#E8B88C"
+  green: "#D4A574"
+  yellow: "#5CA7E8"
+  blue: "#CE7E4A"
+  magenta: "#8B6239"
+  cyan: "#A68860"
+  white: "#E8DCC4"
+  brightBlack: "#7A6548"
+  brightRed: "#D67C5C"
+  brightGreen: "#8CA674"
+  brightYellow: "#E8A85C"
+  brightBlue: "#6CB4EE"
+  brightMagenta: "#C88A6A"
+  brightCyan: "#7AC0D8"
+  brightWhite: "#F4EDE4"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 73
+  contrast:
+    fg: 85.1
+    black: 0
+    red: 68.3
+    green: 57.4
+    yellow: 50.8
+    blue: 42.7
+    magenta: 24.1
+    cyan: 40.1
+    white: 85.1
+    brightBlack: 23.1
+    brightRed: 43.8
+    brightGreen: 48.8
+    brightYellow: 61.3
+    brightBlue: 57.3
+    brightMagenta: 46
+    brightCyan: 62.1
+    brightWhite: 95.7

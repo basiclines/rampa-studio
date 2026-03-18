@@ -1,0 +1,49 @@
+name: "Violet Nova"
+source:
+  marketplace_id: "ZCNXS.violet-nova-theme"
+  version: "1.0.4"
+  installs: 111
+  author: "ZCNXS"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ZCNXS.violet-nova-theme"
+colors:
+  bg: "#1A1523"
+  fg: "#F3E9FF"
+  black: "#1A1523"
+  red: "#FF6B9F"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#C084FC"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF92DF"
+  brightGreen: "#7FFF9C"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#E2B8FF"
+  brightMagenta: "#FFB3FE"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 300
+  contrast:
+    fg: 94.9
+    black: 0
+    red: 49.6
+    green: 84.8
+    yellow: 98.5
+    blue: 49.6
+    magenta: 54.5
+    cyan: 83.9
+    white: 101.9
+    brightBlack: 28
+    brightRed: 62.5
+    brightGreen: 90.3
+    brightYellow: 103.5
+    brightBlue: 72.2
+    brightMagenta: 75
+    brightCyan: 96.7
+    brightWhite: 106.8

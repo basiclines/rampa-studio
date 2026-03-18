@@ -1,0 +1,49 @@
+name: "Rajoyish"
+source:
+  marketplace_id: "RajeshBudhathoki.rajoyish"
+  version: "8.3.0"
+  installs: 525
+  author: "Rajesh Budhathoki"
+  repo: "https://github.com/rajoyish/rajoyish-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RajeshBudhathoki.rajoyish"
+colors:
+  bg: "#FAFBFC"
+  fg: "#1B0273"
+  black: "#1B0273"
+  red: "#FF5C57"
+  green: "#2A8502"
+  yellow: "#CF9C00"
+  blue: "#0478C0"
+  magenta: "#5200E8"
+  cyan: "#0478C0"
+  white: "#FAFBF9"
+  brightBlack: "#75798F"
+  brightRed: "#FFAEAC"
+  brightGreen: "#35CF68"
+  brightYellow: "#F5B900"
+  brightBlue: "#14B1FF"
+  brightMagenta: "#FF94D2"
+  brightCyan: "#0478C0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 99.1
+    black: 99.1
+    red: 53.6
+    green: 69.8
+    yellow: 46.3
+    blue: 69.6
+    magenta: 83.5
+    cyan: 69.6
+    white: 0
+    brightBlack: 67.3
+    brightRed: 29.7
+    brightGreen: 36.8
+    brightYellow: 29.9
+    brightBlue: 44.1
+    brightMagenta: 36.3
+    brightCyan: 69.6
+    brightWhite: 0

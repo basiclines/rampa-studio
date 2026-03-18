@@ -1,0 +1,49 @@
+name: "Wandering Mercenary"
+source:
+  marketplace_id: "FastExtract.wandering-mercenary"
+  version: "1.0.2"
+  installs: 317
+  author: "FastExtract"
+  repo: "https://github.com/RudigerMorinDocter/Wandering-Mercenary"
+  url: "https://marketplace.visualstudio.com/items?itemName=FastExtract.wandering-mercenary"
+colors:
+  bg: "#1B1A1A"
+  fg: "#DDE7E5"
+  black: "#000000"
+  red: "#D51A19"
+  green: "#0DBC79"
+  yellow: "#EED202"
+  blue: "#006AC7"
+  magenta: "#BC3FBC"
+  cyan: "#85DFED"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F74D29"
+  brightGreen: "#23D18B"
+  brightYellow: "#F1F148"
+  brightBlue: "#2BB0EA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#C1FFFD"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 89.5
+    black: 0
+    red: 26.4
+    green: 52.6
+    yellow: 78
+    blue: 24.2
+    magenta: 29.4
+    cyan: 77.6
+    white: 89.7
+    brightBlack: 21.7
+    brightRed: 39.4
+    brightGreen: 63.2
+    brightYellow: 92.8
+    brightBlue: 52.5
+    brightMagenta: 45
+    brightCyan: 98.9
+    brightWhite: 89.7

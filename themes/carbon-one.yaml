@@ -1,0 +1,49 @@
+name: "Carbon One"
+source:
+  marketplace_id: "Gerardo-Tordoya.carbon-one"
+  version: "2.0.0"
+  installs: 53
+  author: "Gerardo Tordoya"
+  repo: "https://github.com/zherar7ordoya/carbon-one"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gerardo-Tordoya.carbon-one"
+colors:
+  bg: "#F4F4F4"
+  fg: "#161616"
+  black: "#0C0C0C"
+  red: "#C50F1F"
+  green: "#13A10E"
+  yellow: "#C19C00"
+  blue: "#0037DA"
+  magenta: "#881798"
+  cyan: "#3A96DD"
+  white: "#CCCCCC"
+  brightBlack: "#767676"
+  brightRed: "#E74856"
+  brightGreen: "#16C60C"
+  brightYellow: "#F9F1A5"
+  brightBlue: "#3B78FF"
+  brightMagenta: "#B4009E"
+  brightCyan: "#61D6D6"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 98.3
+    black: 99.2
+    red: 71.4
+    green: 54.5
+    yellow: 44.3
+    blue: 80.2
+    magenta: 79.7
+    cyan: 52.1
+    white: 20.7
+    brightBlack: 65
+    brightRed: 58.2
+    brightGreen: 38.1
+    brightYellow: 0
+    brightBlue: 59.8
+    brightMagenta: 71.5
+    brightCyan: 24.7
+    brightWhite: 0

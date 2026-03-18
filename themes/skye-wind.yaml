@@ -1,0 +1,49 @@
+name: "Skye-wind"
+source:
+  marketplace_id: "wilmarj.skye-wind"
+  version: "1.6.4"
+  installs: 233
+  author: "wilmarj"
+  repo: "https://github.com/wilmarjongkind/skye-wind"
+  url: "https://marketplace.visualstudio.com/items?itemName=wilmarj.skye-wind"
+colors:
+  bg: "#0F1723"
+  fg: "#B8C1CC"
+  black: "#525252"
+  red: "#DC2626"
+  green: "#16A34A"
+  yellow: "#CA8A04"
+  blue: "#2563EB"
+  magenta: "#C026D3"
+  cyan: "#0891B2"
+  white: "#E5E5E5"
+  brightBlack: "#A3A3A3"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#0284C7"
+  brightMagenta: "#E879F9"
+  brightCyan: "#0CB5DE"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 258
+  contrast:
+    fg: 67.6
+    black: 14
+    red: 29.1
+    green: 41
+    yellow: 45.3
+    blue: 25.9
+    magenta: 29.6
+    cyan: 36.8
+    white: 90
+    brightBlack: 51.5
+    brightRed: 48.1
+    brightGreen: 70.5
+    brightYellow: 77.8
+    brightBlue: 33.2
+    brightMagenta: 53.1
+    brightCyan: 54
+    brightWhite: 103.6

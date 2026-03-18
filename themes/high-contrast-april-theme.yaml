@@ -1,0 +1,49 @@
+name: "High Contrast April Theme"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 821
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+colors:
+  bg: "#143D59"
+  fg: "#E6FFFA"
+  black: "#143D59"
+  red: "#FF6347"
+  green: "#32CD32"
+  yellow: "#FFD700"
+  blue: "#1E90FF"
+  magenta: "#8A2BE2"
+  cyan: "#00FFFF"
+  white: "#E6FFFA"
+  brightBlack: "#C3F3EE"
+  brightRed: "#FF4500"
+  brightGreen: "#7CFC00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#4682B4"
+  brightMagenta: "#DA70D6"
+  brightCyan: "#AFEEEE"
+  brightWhite: "#E6FFFA"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 242
+  contrast:
+    fg: 96.2
+    black: 0
+    red: 38.7
+    green: 53.3
+    yellow: 76.2
+    blue: 34.6
+    magenta: 15.3
+    cyan: 84.1
+    white: 96.2
+    brightBlack: 85.8
+    brightRed: 33.3
+    brightGreen: 79.8
+    brightYellow: 94.6
+    brightBlue: 25.5
+    brightMagenta: 39
+    brightCyan: 81.4
+    brightWhite: 96.2

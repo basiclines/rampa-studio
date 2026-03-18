@@ -1,0 +1,49 @@
+name: "storm-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#DEE4E5"
+  fg: "#092327"
+  black: "#ECF0F0"
+  red: "#BA0E2E"
+  green: "#126D6B"
+  yellow: "#00A9A5"
+  blue: "#4E8098"
+  magenta: "#126D6B"
+  cyan: "#00A9A5"
+  white: "#0E363C"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#20C5C1"
+  brightYellow: "#10FFF9"
+  brightBlue: "#89B0C3"
+  brightMagenta: "#20C5C1"
+  brightCyan: "#10FFF9"
+  brightWhite: "#1C6D7A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 63.7
+    green: 63.6
+    yellow: 38.2
+    blue: 53.2
+    magenta: 63.6
+    cyan: 38.2
+    white: 82.5
+    brightBlack: 16.3
+    brightRed: 47.3
+    brightGreen: 24.8
+    brightYellow: 0
+    brightBlue: 29.1
+    brightMagenta: 24.8
+    brightCyan: 0
+    brightWhite: 62.9

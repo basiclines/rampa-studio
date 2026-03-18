@@ -1,0 +1,49 @@
+name: "GitHub Dark Default (Grayscale)"
+source:
+  marketplace_id: "kontheocharis.github-vscode-theme-grayscale"
+  version: "1.0.1"
+  installs: 26
+  author: "kontheocharis"
+  repo: "https://github.com/kontheocharis/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kontheocharis.github-vscode-theme-grayscale"
+colors:
+  bg: "#0D0D0D"
+  fg: "#E6EDF3"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#3FB950"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 95.2
+    black: 13.3
+    red: 52.8
+    green: 52.3
+    yellow: 52.4
+    blue: 52.4
+    magenta: 52.5
+    cyan: 61.6
+    white: 64.3
+    brightBlack: 29.5
+    brightRed: 65.1
+    brightGreen: 65.7
+    brightYellow: 64.9
+    brightBlue: 65
+    brightMagenta: 64.8
+    brightCyan: 70.2
+    brightWhite: 107.6

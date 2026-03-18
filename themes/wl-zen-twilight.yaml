@@ -1,0 +1,49 @@
+name: "WL-Zen Twilight"
+source:
+  marketplace_id: "WatkinsLabs.zen-twilight"
+  version: "1.0.1"
+  installs: 20
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.zen-twilight"
+colors:
+  bg: "#6F5B4B"
+  fg: "#F4EAE6"
+  black: "#000000"
+  red: "#D7263D"
+  green: "#69995D"
+  yellow: "#EF7C26"
+  blue: "#FF9188"
+  magenta: "#EB897C"
+  cyan: "#FF9188"
+  white: "#F4EAE6"
+  brightBlack: "#666666"
+  brightRed: "#D7263D"
+  brightGreen: "#69995D"
+  brightYellow: "#EF7C26"
+  brightBlue: "#FF9188"
+  brightMagenta: "#EB897C"
+  brightCyan: "#FF9188"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 60
+  contrast:
+    fg: 74.5
+    black: 22.2
+    red: 8.3
+    green: 20.2
+    yellow: 28
+    blue: 38.8
+    magenta: 32.3
+    cyan: 38.8
+    white: 74.5
+    brightBlack: 0
+    brightRed: 8.3
+    brightGreen: 20.2
+    brightYellow: 28
+    brightBlue: 38.8
+    brightMagenta: 32.3
+    brightCyan: 38.8
+    brightWhite: 86.9

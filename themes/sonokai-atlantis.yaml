@@ -1,0 +1,49 @@
+name: "Sonokai Atlantis"
+source:
+  marketplace_id: "sainnhe.sonokai"
+  version: "0.2.9"
+  installs: 24096
+  author: "sainnhe"
+  repo: "https://github.com/sainnhe/sonokai-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai"
+colors:
+  bg: "#2A2F38"
+  fg: "#E1E3E4"
+  black: "#424B5B"
+  red: "#FF6578"
+  green: "#9DD274"
+  yellow: "#EACB64"
+  blue: "#72CCE8"
+  magenta: "#BA9CF3"
+  cyan: "#F69C5E"
+  white: "#E1E3E4"
+  brightBlack: "#424B5B"
+  brightRed: "#FF6578"
+  brightGreen: "#9DD274"
+  brightYellow: "#EACB64"
+  brightBlue: "#72CCE8"
+  brightMagenta: "#BA9CF3"
+  brightCyan: "#F69C5E"
+  brightWhite: "#E1E3E4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 84.7
+    black: 7.3
+    red: 43.3
+    green: 65.6
+    yellow: 71.6
+    blue: 63.9
+    magenta: 52
+    cyan: 55.8
+    white: 84.7
+    brightBlack: 7.3
+    brightRed: 43.3
+    brightGreen: 65.6
+    brightYellow: 71.6
+    brightBlue: 63.9
+    brightMagenta: 52
+    brightCyan: 55.8
+    brightWhite: 84.7

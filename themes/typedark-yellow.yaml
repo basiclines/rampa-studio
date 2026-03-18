@@ -1,0 +1,49 @@
+name: "TypeDark Yellow"
+source:
+  marketplace_id: "BonnyAD9.typedark"
+  version: "1.1.27"
+  installs: 374
+  author: "BonnyAD9"
+  repo: "https://github.com/BonnyAD9/TypeDark"
+  url: "https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark"
+colors:
+  bg: "#222222"
+  fg: "#EEEEEE"
+  black: "#000000"
+  red: "#883333"
+  green: "#338833"
+  yellow: "#888833"
+  blue: "#5566EE"
+  magenta: "#884488"
+  cyan: "#338888"
+  white: "#CCCCCC"
+  brightBlack: "#777777"
+  brightRed: "#FF5555"
+  brightGreen: "#23D16A"
+  brightYellow: "#FFFF55"
+  brightBlue: "#308EEA"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#66CCCC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 94.3
+    black: 0
+    red: 12.1
+    green: 28.6
+    yellow: 34.4
+    blue: 27.4
+    magenta: 17.6
+    cyan: 30.6
+    white: 73.2
+    brightBlack: 28.1
+    brightRed: 42
+    brightGreen: 61.4
+    brightYellow: 100.7
+    brightBlue: 38.3
+    brightMagenta: 56
+    brightCyan: 64.2
+    brightWhite: 105.5

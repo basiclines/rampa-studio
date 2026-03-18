@@ -1,0 +1,49 @@
+name: "quietude"
+source:
+  marketplace_id: "cmrg.quietude"
+  version: "0.1.2"
+  installs: 77
+  author: "rafaelrcamargo"
+  repo: "https://github.com/rafaelrcamargo/quietude"
+  url: "https://marketplace.visualstudio.com/items?itemName=cmrg.quietude"
+colors:
+  bg: "#1A1A1F"
+  fg: "#BAB39C"
+  black: "#282C33"
+  red: "#B4685F"
+  green: "#7B856A"
+  yellow: "#CA9E66"
+  blue: "#6578A6"
+  magenta: "#8F73A5"
+  cyan: "#88A3B0"
+  white: "#A79879"
+  brightBlack: "#57554F"
+  brightRed: "#B4685F"
+  brightGreen: "#95A679"
+  brightYellow: "#EDB253"
+  brightBlue: "#6578A6"
+  brightMagenta: "#926FAD"
+  brightCyan: "#88A3B0"
+  brightWhite: "#A79879"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 59.8
+    black: 0
+    red: 32.1
+    green: 34
+    yellow: 52.6
+    blue: 29.9
+    magenta: 32.4
+    cyan: 48.9
+    white: 46.1
+    brightBlack: 14.7
+    brightRed: 32.1
+    brightGreen: 49.4
+    brightYellow: 65.3
+    brightBlue: 29.9
+    brightMagenta: 32.1
+    brightCyan: 48.9
+    brightWhite: 46.1

@@ -1,0 +1,49 @@
+name: "Hack Electron"
+source:
+  marketplace_id: "TheVoidsteppers.hack-electron"
+  version: "0.0.3"
+  installs: 2205
+  author: "TheVoidsteppers"
+  repo: "https://github.com/TheVoidsteppers/hack-electron"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheVoidsteppers.hack-electron"
+colors:
+  bg: "#16171D"
+  fg: "#BBD1DD"
+  black: "#21222C"
+  red: "#FF704D"
+  green: "#33CC33"
+  yellow: "#FFFF99"
+  blue: "#268BD2"
+  magenta: "#9933FF"
+  cyan: "#1B9891"
+  white: "#BBD1DD"
+  brightBlack: "#7A7A8C"
+  brightRed: "#FF661A"
+  brightGreen: "#33CC33"
+  brightYellow: "#FFFF1A"
+  brightBlue: "#1FADA6"
+  brightMagenta: "#A64DFF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#C4EDC4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 278
+  contrast:
+    fg: 75.5
+    black: 0
+    red: 48.7
+    green: 59.9
+    yellow: 103.2
+    blue: 36.7
+    magenta: 27.9
+    cyan: 38.2
+    white: 75.5
+    brightBlack: 31.6
+    brightRed: 46
+    brightGreen: 59.9
+    brightYellow: 101.7
+    brightBlue: 47.9
+    brightMagenta: 33.3
+    brightCyan: 91.1
+    brightWhite: 88.3

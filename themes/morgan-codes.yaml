@@ -1,0 +1,49 @@
+name: "morgan.codes"
+source:
+  marketplace_id: "morgan-codes.morgan-codes-vscode-theme"
+  version: "0.0.5"
+  installs: 49373
+  author: "morgan-codes"
+  repo: "https://github.com/morganrmarie/morgancodes-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=morgan-codes.morgan-codes-vscode-theme"
+colors:
+  bg: "#111111"
+  fg: "#FF8B56"
+  black: "#2A3134"
+  red: "#FC4384"
+  green: "#55E513"
+  yellow: "#A553C6"
+  blue: "#FC4384"
+  magenta: "#AE89FE"
+  cyan: "#708387"
+  white: "#D5D5D0"
+  brightBlack: "#4A4E4F"
+  brightRed: "#FC4384"
+  brightGreen: "#55E513"
+  brightYellow: "#41F0FF"
+  brightBlue: "#41F0FF"
+  brightMagenta: "#AE89FE"
+  brightCyan: "#41F0FF"
+  brightWhite: "#F9F9F4"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 56.4
+    black: 0
+    red: 41.7
+    green: 73.6
+    yellow: 30.3
+    blue: 41.7
+    magenta: 49.4
+    cyan: 34.1
+    white: 80.4
+    brightBlack: 12.7
+    brightRed: 41.7
+    brightGreen: 73.6
+    brightYellow: 84.6
+    brightBlue: 84.6
+    brightMagenta: 49.4
+    brightCyan: 84.6
+    brightWhite: 103.2

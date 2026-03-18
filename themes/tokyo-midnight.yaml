@@ -1,0 +1,49 @@
+name: "Tokyo Midnight"
+source:
+  marketplace_id: "nacholaciar.tokyo-midnight"
+  version: "0.1.9"
+  installs: 14438
+  author: "nacholaciar"
+  repo: "https://github.com/nacholaciar/tokyo-midnight"
+  url: "https://marketplace.visualstudio.com/items?itemName=nacholaciar.tokyo-midnight"
+colors:
+  bg: "#26262E"
+  fg: "#B5B5B5"
+  black: "#444654"
+  red: "#F7768E"
+  green: "#41A6B5"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#7E8093"
+  brightBlack: "#444654"
+  brightRed: "#F7768E"
+  brightGreen: "#41A6B5"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  contrast:
+    fg: 59.1
+    black: 7.6
+    red: 47.7
+    green: 44.2
+    yellow: 60.5
+    blue: 49.5
+    magenta: 53.4
+    cyan: 68.8
+    white: 32.1
+    brightBlack: 7.6
+    brightRed: 47.7
+    brightGreen: 44.2
+    brightYellow: 60.5
+    brightBlue: 49.5
+    brightMagenta: 53.4
+    brightCyan: 68.8
+    brightWhite: 57.3

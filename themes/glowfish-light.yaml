@@ -1,0 +1,49 @@
+name: "glowfish-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#E3EADC"
+  fg: "#191F13"
+  black: "#F0F4EC"
+  red: "#BA0E2E"
+  green: "#95CC5E"
+  yellow: "#DB784D"
+  blue: "#60A365"
+  magenta: "#D65940"
+  cyan: "#95CC5E"
+  white: "#262F1D"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#C8E5AB"
+  brightYellow: "#ECB8A2"
+  brightBlue: "#A1C8A4"
+  brightMagenta: "#E8A294"
+  brightCyan: "#C8E5AB"
+  brightWhite: "#4C5E3A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 129
+  contrast:
+    fg: 89.9
+    black: 0
+    red: 66.5
+    green: 22.1
+    yellow: 43.5
+    blue: 43.1
+    magenta: 52
+    cyan: 22.1
+    white: 86.7
+    brightBlack: 13.2
+    brightRed: 50
+    brightGreen: 0
+    brightYellow: 18.3
+    brightBlue: 21.1
+    brightMagenta: 27
+    brightCyan: 0
+    brightWhite: 70.6

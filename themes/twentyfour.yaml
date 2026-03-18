@@ -1,0 +1,49 @@
+name: "Twentyfour"
+source:
+  marketplace_id: "YesCode.twentyFour"
+  version: "0.0.2"
+  installs: 89
+  author: "YesCode"
+  repo: "https://github.com/yesomac/twentyFour"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.twentyFour"
+colors:
+  bg: "#0A0D11"
+  fg: "#DDDDDD"
+  black: "#1D211D"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00F95F"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#8F8EDA"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 42.7
+    green: 61.7
+    yellow: 73.8
+    blue: 83.6
+    magenta: 20.3
+    cyan: 50.2
+    white: 48
+    brightBlack: 19.3
+    brightRed: 42.7
+    brightGreen: 45.2
+    brightYellow: 80.5
+    brightBlue: 19.5
+    brightMagenta: 20.3
+    brightCyan: 50.2
+    brightWhite: 99.6

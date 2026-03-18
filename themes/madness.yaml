@@ -1,0 +1,49 @@
+name: "madness"
+source:
+  marketplace_id: "sonia13marker.madness"
+  version: "1.3.0"
+  installs: 70
+  author: "sonia13marker"
+  repo: "https://github.com/sonia13marker/color-theme-madness"
+  url: "https://marketplace.visualstudio.com/items?itemName=sonia13marker.madness"
+colors:
+  bg: "#1E1E1E"
+  fg: "#7F848E"
+  black: "#000000"
+  red: "#CD2C30"
+  green: "#299F72"
+  yellow: "#CFCF17"
+  blue: "#416DC0"
+  magenta: "#BA21BA"
+  cyan: "#4694CB"
+  white: "#ECEAEA"
+  brightBlack: "#807F7F"
+  brightRed: "#FF3F3D"
+  brightGreen: "#3CD59B"
+  brightYellow: "#FFFF4F"
+  brightBlue: "#4C84F0"
+  brightMagenta: "#F935F9"
+  brightCyan: "#76BAEA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 34.7
+    black: 0
+    red: 25.4
+    green: 39.5
+    yellow: 71.9
+    blue: 25.4
+    magenta: 25.6
+    cyan: 39.7
+    white: 92.6
+    brightBlack: 32.5
+    brightRed: 39.1
+    brightGreen: 65.6
+    brightYellow: 101.2
+    brightBlue: 36.8
+    brightMagenta: 44.4
+    brightCyan: 59.4
+    brightWhite: 106

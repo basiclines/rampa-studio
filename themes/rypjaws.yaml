@@ -1,0 +1,49 @@
+name: "rypjaws"
+source:
+  marketplace_id: "MihirPanchal.rypjaws"
+  version: "0.5.1"
+  installs: 385
+  author: "Mihir Panchal"
+  repo: "https://github.com/MihirRajeshPanchal/rypjaws"
+  url: "https://marketplace.visualstudio.com/items?itemName=MihirPanchal.rypjaws"
+colors:
+  bg: "#3A3F47"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 260
+  contrast:
+    fg: 51.1
+    black: 0
+    red: 28.4
+    green: 52
+    yellow: 40.3
+    blue: 41.3
+    magenta: 30.7
+    cyan: 44.2
+    white: 74.7
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 68.4
+    brightYellow: 52.9
+    brightBlue: 55.4
+    brightMagenta: 41.9
+    brightCyan: 59.5
+    brightWhite: 82.3

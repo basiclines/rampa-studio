@@ -1,0 +1,49 @@
+name: "Modified Darker Material Theme"
+source:
+  marketplace_id: "k-r.modified-darker-material-theme"
+  version: "0.0.1"
+  installs: 839
+  author: "k-r"
+  repo: "https://github.com/KevinRamsunder/material-theme-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=k-r.modified-darker-material-theme"
+colors:
+  bg: "#1F2123"
+  fg: "#FFFFFF"
+  black: "#B0BEC5"
+  red: "#FF5370"
+  green: "#B9F6CA"
+  yellow: "#FFCB6B"
+  blue: "#80D8FF"
+  magenta: "#C792EA"
+  cyan: "#A7FDEB"
+  white: "#565758"
+  brightBlack: "#565758"
+  brightRed: "#FF5370"
+  brightGreen: "#B9F6CA"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#80D8FF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#A7FDEB"
+  brightWhite: "#565758"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 105.7
+    black: 63.9
+    red: 42.4
+    green: 90.6
+    yellow: 77.7
+    blue: 74.1
+    magenta: 52.5
+    cyan: 93.8
+    white: 14.6
+    brightBlack: 14.6
+    brightRed: 42.4
+    brightGreen: 90.6
+    brightYellow: 77.7
+    brightBlue: 74.1
+    brightMagenta: 52.5
+    brightCyan: 93.8
+    brightWhite: 14.6

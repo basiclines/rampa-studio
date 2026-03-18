@@ -1,0 +1,49 @@
+name: "Hipster Next"
+source:
+  marketplace_id: "DmitriMigunov.hipster-next-theme"
+  version: "1.2.1"
+  installs: 191
+  author: "Dmitri Migunov"
+  repo: "https://gitlab.com/migunov/vscode/hipster-next-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DmitriMigunov.hipster-next-theme"
+colors:
+  bg: "#2E3D51"
+  fg: "#B0C0D0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 256
+  contrast:
+    fg: 58.9
+    black: 8.4
+    red: 19.2
+    green: 45.5
+    yellow: 78.1
+    blue: 19.9
+    magenta: 22.2
+    cyan: 40
+    white: 82.5
+    brightBlack: 14.5
+    brightRed: 31
+    brightGreen: 56
+    brightYellow: 88.1
+    brightBlue: 32.5
+    brightMagenta: 37.8
+    brightCyan: 47.9
+    brightWhite: 82.5

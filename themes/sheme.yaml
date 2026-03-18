@@ -1,0 +1,49 @@
+name: "Sheme"
+source:
+  marketplace_id: "shoedler.sheme"
+  version: "1.0.2"
+  installs: 89
+  author: "shoedler"
+  repo: "https://github.com/shoedler/vscode-sheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shoedler.sheme"
+colors:
+  bg: "#0F111A"
+  fg: "#7F849C"
+  black: "#000000"
+  red: "#F33A59"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#F33A59"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  contrast:
+    fg: 36.6
+    black: 0
+    red: 37.4
+    green: 84.7
+    yellow: 79.4
+    blue: 56.4
+    magenta: 54.2
+    cyan: 78.7
+    white: 107.3
+    brightBlack: 12
+    brightRed: 37.4
+    brightGreen: 84.7
+    brightYellow: 79.4
+    brightBlue: 56.4
+    brightMagenta: 54.2
+    brightCyan: 78.7
+    brightWhite: 107.3

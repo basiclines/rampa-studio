@@ -1,0 +1,49 @@
+name: "Pantone Process Blue (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#001520"
+  fg: "#CBDBE3"
+  black: "#001520"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#0869A6"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#CBDBE3"
+  brightBlack: "#407E9F"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F2F4F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 232
+  contrast:
+    fg: 82.4
+    black: 0
+    red: 32.4
+    green: 52
+    yellow: 71.7
+    blue: 22.3
+    magenta: 33.4
+    cyan: 52.7
+    white: 82.4
+    brightBlack: 30.1
+    brightRed: 38.8
+    brightGreen: 59.3
+    brightYellow: 76.1
+    brightBlue: 29
+    brightMagenta: 42.1
+    brightCyan: 59.3
+    brightWhite: 99.7

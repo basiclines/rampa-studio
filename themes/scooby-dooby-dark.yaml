@@ -1,0 +1,49 @@
+name: "scooby-dooby-dark"
+source:
+  marketplace_id: "CristinaGenduso.scooby-dooby-dark"
+  version: "1.0.0"
+  installs: 100
+  author: "Cristina Genduso"
+  repo: "https://github.com/cristinagenduso/scooby-dooby-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=CristinaGenduso.scooby-dooby-dark"
+colors:
+  bg: "#0E0E0E"
+  fg: "#EBDBB2"
+  black: "#000000"
+  red: "#9A031E"
+  green: "#00CD5A"
+  yellow: "#E5E510"
+  blue: "#00B9EA"
+  magenta: "#BC3FBC"
+  cyan: "#00B0B0"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF3232"
+  brightGreen: "#00FD4B"
+  brightYellow: "#F5F543"
+  brightBlue: "#00E7FF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#00FFCF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 85.1
+    black: 0
+    red: 14.3
+    green: 61.1
+    yellow: 86.3
+    blue: 57.1
+    magenta: 30.4
+    cyan: 50.2
+    white: 90.7
+    brightBlack: 22.7
+    brightRed: 39.2
+    brightGreen: 85.4
+    brightYellow: 96.3
+    brightBlue: 79.7
+    brightMagenta: 46.1
+    brightCyan: 89.6
+    brightWhite: 90.7

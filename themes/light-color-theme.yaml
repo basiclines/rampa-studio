@@ -1,0 +1,49 @@
+name: "light-color-theme"
+source:
+  marketplace_id: "wavebeem.theme-unoduetre"
+  version: "5.11.1"
+  installs: 4290
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/vscode-theme-unoduetre"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.theme-unoduetre"
+colors:
+  bg: "#F0F0F0"
+  fg: "#333333"
+  black: "#0F0F0F"
+  red: "#AA2B22"
+  green: "#2D7B3C"
+  yellow: "#955F2D"
+  blue: "#5237BE"
+  magenta: "#B7349F"
+  cyan: "#267877"
+  white: "#E6E6E6"
+  brightBlack: "#0F0F0F"
+  brightRed: "#AA2B22"
+  brightGreen: "#2D7B3C"
+  brightYellow: "#955F2D"
+  brightBlue: "#5237BE"
+  brightMagenta: "#B7349F"
+  brightCyan: "#267877"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 89.8
+    black: 96.6
+    red: 73.3
+    green: 66.8
+    yellow: 67.3
+    blue: 77.8
+    magenta: 66
+    cyan: 66.6
+    white: 0
+    brightBlack: 96.6
+    brightRed: 73.3
+    brightGreen: 66.8
+    brightYellow: 67.3
+    brightBlue: 77.8
+    brightMagenta: 66
+    brightCyan: 66.6
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "ferra"
+source:
+  marketplace_id: "neptotech.redocs-ferra-theme"
+  version: "1.0.1"
+  installs: 55
+  author: "redoc"
+  repo: "https://github.com/neptotech/redocs-ferra-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=neptotech.redocs-ferra-theme"
+colors:
+  bg: "#2B292D"
+  fg: "#FECDB2"
+  black: "#6F5D63"
+  red: "#E06C75"
+  green: "#B1B695"
+  yellow: "#F5D76E"
+  blue: "#C0C0E4"
+  magenta: "#D5B5F5"
+  cyan: "#BFD7E3"
+  white: "#D1D1E0"
+  brightBlack: "#DEBAC6"
+  brightRed: "#FF7B85"
+  brightGreen: "#F8FFD1"
+  brightYellow: "#FFE072"
+  brightBlue: "#D7D7FF"
+  brightMagenta: "#DEBCFF"
+  brightCyan: "#D7F2FF"
+  brightWhite: "#F1EFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 78.6
+    black: 17.4
+    red: 39.3
+    green: 57.3
+    yellow: 79.7
+    blue: 66.5
+    magenta: 65.9
+    cyan: 76.2
+    white: 75.6
+    brightBlack: 66.8
+    brightRed: 49.8
+    brightGreen: 101.2
+    brightYellow: 85.2
+    brightBlue: 80.5
+    brightMagenta: 70.4
+    brightCyan: 92.7
+    brightWhite: 94.7

@@ -1,0 +1,49 @@
+name: "Dantes Theme"
+source:
+  marketplace_id: "dantes.dantes"
+  version: "2.1.1"
+  installs: 156
+  author: "Dantes"
+  repo: "https://github.com/dantestheme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=dantes.dantes"
+colors:
+  bg: "#1D2128"
+  fg: "#FAFAFA"
+  black: "#1D2128"
+  red: "#F01900"
+  green: "#14EB96"
+  yellow: "#FFF94B"
+  blue: "#0060E0"
+  magenta: "#FF3CE1"
+  cyan: "#00D2FF"
+  white: "#FAFAFA"
+  brightBlack: "#00B3F5"
+  brightRed: "#FF505F"
+  brightGreen: "#53FEBE"
+  brightYellow: "#FFEA7F"
+  brightBlue: "#00B3F5"
+  brightMagenta: "#FF6BBB"
+  brightCyan: "#00DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 262
+  contrast:
+    fg: 102.3
+    black: 0
+    red: 31.9
+    green: 75.4
+    yellow: 97.8
+    blue: 22.5
+    magenta: 44.4
+    cyan: 67.7
+    white: 102.3
+    brightBlack: 53.3
+    brightRed: 41.5
+    brightGreen: 87.7
+    brightYellow: 91.5
+    brightBlue: 53.3
+    brightMagenta: 49.6
+    brightCyan: 72.9
+    brightWhite: 105.6

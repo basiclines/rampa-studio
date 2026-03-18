@@ -1,0 +1,49 @@
+name: "Minimal Pastel Dark — Vibrant (Softer Yellow)"
+source:
+  marketplace_id: "amirmajdi.minimal-themes-amirmajdi"
+  version: "1.0.7"
+  installs: 330
+  author: "Amir Majdi"
+  repo: "https://github.com/Amir-Majdi/minimal-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=amirmajdi.minimal-themes-amirmajdi"
+colors:
+  bg: "#0A0A0A"
+  fg: "#FFFFFF"
+  black: "#0A0A0A"
+  red: "#3A3A3D"
+  green: "#B7E4C7"
+  yellow: "#FFEFAA"
+  blue: "#A7C7E7"
+  magenta: "#D6B3FF"
+  cyan: "#BDE0FE"
+  white: "#FFFFFF"
+  brightBlack: "#1A1A1A"
+  brightRed: "#3A3A3D"
+  brightGreen: "#B7E4C7"
+  brightYellow: "#FFEFAA"
+  brightBlue: "#A7C7E7"
+  brightMagenta: "#D6B3FF"
+  brightCyan: "#BDE0FE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 0
+    green: 83.7
+    yellow: 97
+    blue: 70.5
+    magenta: 69.5
+    cyan: 85
+    white: 107.7
+    brightBlack: 0
+    brightRed: 0
+    brightGreen: 83.7
+    brightYellow: 97
+    brightBlue: 70.5
+    brightMagenta: 69.5
+    brightCyan: 85
+    brightWhite: 107.7

@@ -1,0 +1,49 @@
+name: "Tailwind Neutral Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#FAFAFA"
+  fg: "#262626"
+  black: "#171717"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#F5F5F5"
+  brightBlack: "#171717"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#F5F5F5"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 99.1
+    black: 101.7
+    red: 60.8
+    green: 41.3
+    yellow: 33.4
+    blue: 60.9
+    magenta: 63.3
+    cyan: 44.2
+    white: 0
+    brightBlack: 101.7
+    brightRed: 60.8
+    brightGreen: 41.3
+    brightYellow: 33.4
+    brightBlue: 60.9
+    brightMagenta: 63.3
+    brightCyan: 44.2
+    brightWhite: 0

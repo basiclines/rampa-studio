@@ -1,0 +1,49 @@
+name: "Dark+ V3"
+source:
+  marketplace_id: "Jan-PhilippDiesler.darkV3"
+  version: "0.0.4"
+  installs: 359
+  author: "Jan-Philipp Diesler"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Jan-PhilippDiesler.darkV3"
+colors:
+  bg: "#1F1F1F"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#FF4528"
+  green: "#67D968"
+  yellow: "#D9D60B"
+  blue: "#2793C7"
+  magenta: "#C040BE"
+  cyan: "#00C5C7"
+  white: "#E5E5E5"
+  brightBlack: "#868686"
+  brightRed: "#FF4528"
+  brightGreen: "#7EF0AB"
+  brightYellow: "#FFF300"
+  brightBlue: "#AAFCFF"
+  brightMagenta: "#E17EE1"
+  brightCyan: "#66E2E3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 39.5
+    green: 67.7
+    yellow: 76.2
+    blue: 38.1
+    magenta: 29.8
+    cyan: 58.9
+    white: 89
+    brightBlack: 35.7
+    brightRed: 39.5
+    brightGreen: 82.1
+    brightYellow: 95
+    brightBlue: 94.8
+    brightMagenta: 50.6
+    brightCyan: 76.1
+    brightWhite: 105.9

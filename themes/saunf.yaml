@@ -1,0 +1,49 @@
+name: "saunf"
+source:
+  marketplace_id: "hnrchrdl.saunf-theme-vscode"
+  version: "0.1.2"
+  installs: 2687
+  author: "hnrchrdl"
+  repo: "https://github.com/hnrchrdl/saunf-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=hnrchrdl.saunf-theme-vscode"
+colors:
+  bg: "#2C3A47"
+  fg: "#FFFFFF"
+  black: "#2C3A47"
+  red: "#FC427B"
+  green: "#58B19F"
+  yellow: "#25CCF7"
+  blue: "#9AECDB"
+  magenta: "#FD7272"
+  cyan: "#55E6C1"
+  white: "#FFFFFF"
+  brightBlack: "#3B3B98"
+  brightRed: "#FC427B"
+  brightGreen: "#58B19F"
+  brightYellow: "#EAB543"
+  brightBlue: "#9AECDB"
+  brightMagenta: "#FD7272"
+  brightCyan: "#9AECDB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 247
+  contrast:
+    fg: 100.4
+    black: 0
+    red: 34.3
+    green: 44.6
+    yellow: 59.4
+    blue: 78.4
+    magenta: 43
+    cyan: 70.4
+    white: 100.4
+    brightBlack: 0
+    brightRed: 34.3
+    brightGreen: 44.6
+    brightYellow: 59.7
+    brightBlue: 78.4
+    brightMagenta: 43
+    brightCyan: 78.4
+    brightWhite: 100.4

@@ -1,0 +1,49 @@
+name: "Dark Ink And Red Accents"
+source:
+  marketplace_id: "DarkMannn.dark-ink-theme"
+  version: "0.0.9"
+  installs: 412
+  author: "DarkMannn"
+  repo: "https://github.com/DarkMannn/dark-ink-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkMannn.dark-ink-theme"
+colors:
+  bg: "#0E0E0E"
+  fg: "#717C8E"
+  black: "#444444"
+  red: "#D66B6B"
+  green: "#33D057"
+  yellow: "#EDED88"
+  blue: "#717C8E"
+  magenta: "#E557F9"
+  cyan: "#50D2F7"
+  white: "#D8D8D8"
+  brightBlack: "#666666"
+  brightRed: "#FF7966"
+  brightGreen: "#67FF8A"
+  brightYellow: "#D9CE9B"
+  brightBlue: "#8FABD3"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 32.2
+    black: 9.5
+    red: 40.3
+    green: 62.9
+    yellow: 92.4
+    blue: 32.2
+    magenta: 46.1
+    cyan: 70.4
+    white: 82.6
+    brightBlack: 22.7
+    brightRed: 52
+    brightGreen: 89.4
+    brightYellow: 76.2
+    brightBlue: 55.4
+    brightMagenta: 57.8
+    brightCyan: 91.9
+    brightWhite: 107.6

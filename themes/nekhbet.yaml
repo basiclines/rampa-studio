@@ -1,0 +1,49 @@
+name: "Nekhbet"
+source:
+  marketplace_id: "inamdarminaz.nekhbet"
+  version: "1.1.0"
+  installs: 551
+  author: "inamdarminaz"
+  repo: "https://github.com/inamdarminaz/nekhbet"
+  url: "https://marketplace.visualstudio.com/items?itemName=inamdarminaz.nekhbet"
+colors:
+  bg: "#1B1B1B"
+  fg: "#F5F5F5"
+  black: "#2A3134"
+  red: "#FC4384"
+  green: "#55E513"
+  yellow: "#A553C6"
+  blue: "#FC4384"
+  magenta: "#AE89FE"
+  cyan: "#708387"
+  white: "#D5D5D0"
+  brightBlack: "#4A4E4F"
+  brightRed: "#FC4384"
+  brightGreen: "#55E513"
+  brightYellow: "#41F0FF"
+  brightBlue: "#41F0FF"
+  brightMagenta: "#AE89FE"
+  brightCyan: "#41F0FF"
+  brightWhite: "#F9F9F4"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 99.8
+    black: 0
+    red: 40.8
+    green: 72.7
+    yellow: 29.4
+    blue: 40.8
+    magenta: 48.4
+    cyan: 33.1
+    white: 79.4
+    brightBlack: 11.7
+    brightRed: 40.8
+    brightGreen: 72.7
+    brightYellow: 83.7
+    brightBlue: 83.7
+    brightMagenta: 48.4
+    brightCyan: 83.7
+    brightWhite: 102.2

@@ -1,0 +1,49 @@
+name: "Gothic Emerald Crypt"
+source:
+  marketplace_id: "Diyllan.midnight-coven-themes"
+  version: "1.0.1"
+  installs: 1123
+  author: "Diyllan"
+  repo: "https://github.com/diyllan/midnight-coven-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Diyllan.midnight-coven-themes"
+colors:
+  bg: "#0F1A15"
+  fg: "#D0E0D8"
+  black: "#0F1A15"
+  red: "#F05050"
+  green: "#20C080"
+  yellow: "#D0C060"
+  blue: "#50A0D0"
+  magenta: "#C050A0"
+  cyan: "#40C0C0"
+  white: "#D0E0D8"
+  brightBlack: "#507060"
+  brightRed: "#F07070"
+  brightGreen: "#40D090"
+  brightYellow: "#E0D080"
+  brightBlue: "#70B0E0"
+  brightMagenta: "#E070B0"
+  brightCyan: "#60E0E0"
+  brightWhite: "#E0F0E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 165
+  contrast:
+    fg: 84.4
+    black: 0
+    red: 38.9
+    green: 55.1
+    yellow: 66.9
+    blue: 45.8
+    magenta: 31.5
+    cyan: 58
+    white: 84.4
+    brightBlack: 23.3
+    brightRed: 46.1
+    brightGreen: 63.7
+    brightYellow: 76.5
+    brightBlue: 55
+    brightMagenta: 45.1
+    brightCyan: 75.6
+    brightWhite: 94.5

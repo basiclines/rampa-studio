@@ -1,0 +1,49 @@
+name: "coolnight-color-theme"
+source:
+  marketplace_id: "kpatdev.coolnight-theme"
+  version: "0.1.1"
+  installs: 155
+  author: "kpatdev"
+  repo: "https://github.com/kpatdev/coolnight"
+  url: "https://marketplace.visualstudio.com/items?itemName=kpatdev.coolnight-theme"
+colors:
+  bg: "#011423"
+  fg: "#CBE0F0"
+  black: "#214969"
+  red: "#E52E2E"
+  green: "#44FFB1"
+  yellow: "#FFE073"
+  blue: "#0FC5ED"
+  magenta: "#A277FF"
+  cyan: "#24EAF7"
+  white: "#24EAF7"
+  brightBlack: "#214969"
+  brightRed: "#E52E2E"
+  brightGreen: "#44FFB1"
+  brightYellow: "#FFE073"
+  brightBlue: "#A277FF"
+  brightMagenta: "#A277FF"
+  brightCyan: "#24EAF7"
+  brightWhite: "#24EAF7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 242
+  contrast:
+    fg: 85.3
+    black: 10
+    red: 32.1
+    green: 88.9
+    yellow: 88.3
+    blue: 62.2
+    magenta: 42.4
+    cyan: 80.5
+    white: 80.5
+    brightBlack: 10
+    brightRed: 32.1
+    brightGreen: 88.9
+    brightYellow: 88.3
+    brightBlue: 42.4
+    brightMagenta: 42.4
+    brightCyan: 80.5
+    brightWhite: 80.5

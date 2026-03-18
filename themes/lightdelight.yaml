@@ -1,0 +1,49 @@
+name: "LightDelight"
+source:
+  marketplace_id: "DimitarNonov.lightDelight"
+  version: "1.19.0"
+  installs: 5314
+  author: "Dimitar Nonov"
+  repo: "https://github.com/DNonov/lightDelight"
+  url: "https://marketplace.visualstudio.com/items?itemName=DimitarNonov.lightDelight"
+colors:
+  bg: "#FFFFFF"
+  fg: "#222222"
+  black: "#222222"
+  red: "#A50000"
+  green: "#006B1E"
+  yellow: "#CD9731"
+  blue: "#000080"
+  magenta: "#850075"
+  cyan: "#00437A"
+  white: "#525252"
+  brightBlack: "#525252"
+  brightRed: "#A50000"
+  brightGreen: "#006B1E"
+  brightYellow: "#CD9731"
+  brightBlue: "#000080"
+  brightMagenta: "#850075"
+  brightCyan: "#00437A"
+  brightWhite: "#525252"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 102.9
+    black: 102.9
+    red: 85.3
+    green: 82.5
+    yellow: 50.6
+    blue: 100.9
+    magenta: 89.3
+    cyan: 92.8
+    white: 87.2
+    brightBlack: 87.2
+    brightRed: 85.3
+    brightGreen: 82.5
+    brightYellow: 50.6
+    brightBlue: 100.9
+    brightMagenta: 89.3
+    brightCyan: 92.8
+    brightWhite: 87.2

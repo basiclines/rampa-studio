@@ -1,0 +1,49 @@
+name: "UniEye"
+source:
+  marketplace_id: "hbthen3rd.unieye"
+  version: "1.1.0"
+  installs: 1882
+  author: "hb"
+  repo: "https://github.com/hbthen3rd/unieye-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=hbthen3rd.unieye"
+colors:
+  bg: "#0B0A10"
+  fg: "#CAC3DF"
+  black: "#2E2840"
+  red: "#9F2846"
+  green: "#149F37"
+  yellow: "#DF8B38"
+  blue: "#6238DF"
+  magenta: "#A148BF"
+  cyan: "#3C869F"
+  white: "#908B9F"
+  brightBlack: "#453C60"
+  brightRed: "#BF3054"
+  brightGreen: "#18BF42"
+  brightYellow: "#FF9F40"
+  brightBlue: "#7040FF"
+  brightMagenta: "#BC54DF"
+  brightCyan: "#48A1BF"
+  brightWhite: "#ADA7BF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 292
+  contrast:
+    fg: 72.4
+    black: 0
+    red: 17.5
+    green: 39.8
+    yellow: 50.3
+    blue: 19.8
+    magenta: 27.5
+    cyan: 33.4
+    white: 41.2
+    brightBlack: 8.8
+    brightRed: 25
+    brightGreen: 54.3
+    brightYellow: 62.8
+    brightBlue: 25.5
+    brightMagenta: 36.3
+    brightCyan: 45.9
+    brightWhite: 56.2

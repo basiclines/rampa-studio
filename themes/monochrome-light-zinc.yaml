@@ -1,0 +1,49 @@
+name: "monochrome-light-zinc"
+source:
+  marketplace_id: "ccssmnn.monochrome-tailwind-colors"
+  version: "1.0.0"
+  installs: 1193
+  author: "Carl Assmann"
+  repo: "https://github.com/ccssmnn/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=ccssmnn.monochrome-tailwind-colors"
+colors:
+  bg: "#F4F4F5"
+  fg: "#18181B"
+  black: "#F4F4F5"
+  red: "#18181B"
+  green: "#707072"
+  yellow: "#18181B"
+  blue: "#9C9C9E"
+  magenta: "#18181B"
+  cyan: "#444447"
+  white: "#18181B"
+  brightBlack: "#C8C8C9"
+  brightRed: "#18181B"
+  brightGreen: "#707072"
+  brightYellow: "#18181B"
+  brightBlue: "#9C9C9E"
+  brightMagenta: "#18181B"
+  brightCyan: "#444447"
+  brightWhite: "#18181B"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 98
+    black: 0
+    red: 98
+    green: 67.7
+    yellow: 98
+    blue: 46.5
+    magenta: 98
+    cyan: 86
+    white: 98
+    brightBlack: 23
+    brightRed: 98
+    brightGreen: 67.7
+    brightYellow: 98
+    brightBlue: 46.5
+    brightMagenta: 98
+    brightCyan: 86
+    brightWhite: 98

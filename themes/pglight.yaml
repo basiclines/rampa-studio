@@ -1,0 +1,49 @@
+name: "PGLight"
+source:
+  marketplace_id: "securisec.hapsida-securisec"
+  version: "0.0.30"
+  installs: 226
+  author: "securisec"
+  repo: "https://github.com/securisec/code-hapsida"
+  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+colors:
+  bg: "#F5F2F0"
+  fg: "#041214"
+  black: "#000000"
+  red: "#730024"
+  green: "#007561"
+  yellow: "#B5800D"
+  blue: "#005473"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#B5800D"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#193549"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 98
+    black: 98.6
+    red: 87.8
+    green: 70.2
+    yellow: 54.5
+    blue: 80.8
+    magenta: 29.7
+    cyan: 0
+    white: 0
+    brightBlack: 79
+    brightRed: 46.3
+    brightGreen: 27.8
+    brightYellow: 54.5
+    brightBlue: 54.5
+    brightMagenta: 29.7
+    brightCyan: 0
+    brightWhite: 91.3

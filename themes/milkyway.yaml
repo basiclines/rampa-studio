@@ -1,0 +1,49 @@
+name: "MilkyWay"
+source:
+  marketplace_id: "motrdevua.milkyway"
+  version: "1.0.0"
+  installs: 845
+  author: "motrdevua"
+  repo: "https://github.com/motrdevua/MilkyWay"
+  url: "https://marketplace.visualstudio.com/items?itemName=motrdevua.milkyway"
+colors:
+  bg: "#282C34"
+  fg: "#CBCDD2"
+  black: "#333842"
+  red: "#EB365D"
+  green: "#93EF1F"
+  yellow: "#FFCA2A"
+  blue: "#42A5F5"
+  magenta: "#EB365D"
+  cyan: "#42A5F5"
+  white: "#CBCDD2"
+  brightBlack: "#333842"
+  brightRed: "#EB365D"
+  brightGreen: "#93EF1F"
+  brightYellow: "#FFCA2A"
+  brightBlue: "#42A5F5"
+  brightMagenta: "#93EF1F"
+  brightCyan: "#42A5F5"
+  brightWhite: "#CBCDD2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  contrast:
+    fg: 72
+    black: 0
+    red: 31.5
+    green: 78.6
+    yellow: 74.6
+    blue: 46.5
+    magenta: 31.5
+    cyan: 46.5
+    white: 72
+    brightBlack: 0
+    brightRed: 31.5
+    brightGreen: 78.6
+    brightYellow: 74.6
+    brightBlue: 46.5
+    brightMagenta: 78.6
+    brightCyan: 46.5
+    brightWhite: 72

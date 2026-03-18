@@ -1,0 +1,49 @@
+name: "zen-theme"
+source:
+  marketplace_id: "pzielinski.zen-theme"
+  version: "0.0.6"
+  installs: 27
+  author: "Piotr Zieliński"
+  repo: "https://github.com/piotrzielinski1994/vscode-zen-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pzielinski.zen-theme"
+colors:
+  bg: "#0F111A"
+  fg: "#B7BBCD"
+  black: "#000000"
+  red: "#FF5371"
+  green: "#C3E88D"
+  yellow: "#FFCB6C"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#00AFD7"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 275
+  contrast:
+    fg: 65.5
+    black: 0
+    red: 44.1
+    green: 84.7
+    yellow: 79.4
+    blue: 27.9
+    magenta: 30.2
+    cyan: 51.5
+    white: 90.5
+    brightBlack: 22.5
+    brightRed: 39
+    brightGreen: 64
+    brightYellow: 96.1
+    brightBlue: 40.5
+    brightMagenta: 45.8
+    brightCyan: 55.9
+    brightWhite: 90.5

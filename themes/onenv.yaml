@@ -1,0 +1,49 @@
+name: "OneNv"
+source:
+  marketplace_id: "udan-jayanith-jayakody.onenv"
+  version: "0.4.0"
+  installs: 80
+  author: "OneNv"
+  repo: "https://github.com/udan-jayanith/onenv"
+  url: "https://marketplace.visualstudio.com/items?itemName=udan-jayanith-jayakody.onenv"
+colors:
+  bg: "#161B22"
+  fg: "#ECF2F8"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#ECF2F8"
+  brightBlack: "#000000"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#ECF2F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 257
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 43.2
+    green: 83.8
+    yellow: 78.5
+    blue: 55.5
+    magenta: 53.3
+    cyan: 77.8
+    white: 97.4
+    brightBlack: 0
+    brightRed: 43.2
+    brightGreen: 83.8
+    brightYellow: 78.5
+    brightBlue: 55.5
+    brightMagenta: 53.3
+    brightCyan: 77.8
+    brightWhite: 97.4

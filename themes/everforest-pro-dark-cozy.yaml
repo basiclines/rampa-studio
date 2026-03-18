@@ -1,0 +1,49 @@
+name: "Everforest Pro Dark Cozy"
+source:
+  marketplace_id: "AndreiLucaci.everforest-pro"
+  version: "2.0.0"
+  installs: 2464
+  author: "Andrei Lucaci"
+  repo: "https://github.com/AndreiLucaci/everforest-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreiLucaci.everforest-pro"
+colors:
+  bg: "#333C43"
+  fg: "#D3C6AA"
+  black: "#3A464C"
+  red: "#E67E80"
+  green: "#A7C080"
+  yellow: "#DBBC7F"
+  blue: "#7FBBB3"
+  magenta: "#D699B6"
+  cyan: "#83C092"
+  white: "#D3C6AA"
+  brightBlack: "#859289"
+  brightRed: "#E67E80"
+  brightGreen: "#A7C080"
+  brightYellow: "#DBBC7F"
+  brightBlue: "#7FBBB3"
+  brightMagenta: "#D699B6"
+  brightCyan: "#83C092"
+  brightWhite: "#D3C6AA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 241
+  contrast:
+    fg: 64.6
+    black: 0
+    red: 41.1
+    green: 55.5
+    yellow: 60.4
+    blue: 51.4
+    magenta: 48.5
+    cyan: 52.7
+    white: 64.6
+    brightBlack: 33.8
+    brightRed: 41.1
+    brightGreen: 55.5
+    brightYellow: 60.4
+    brightBlue: 51.4
+    brightMagenta: 48.5
+    brightCyan: 52.7
+    brightWhite: 64.6

@@ -1,0 +1,49 @@
+name: "Han"
+source:
+  marketplace_id: "nathanwu.han-vscode"
+  version: "0.3.2"
+  installs: 564
+  author: "Nathan Wu"
+  repo: "https://github.com/na-wu/project-han"
+  url: "https://marketplace.visualstudio.com/items?itemName=nathanwu.han-vscode"
+colors:
+  bg: "#16242F"
+  fg: "#A2AABC"
+  black: "#465880"
+  red: "#F0767E"
+  green: "#70BA00"
+  yellow: "#FFB92C"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#F0767E"
+  brightGreen: "#70BA00"
+  brightYellow: "#F4C3C2"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 243
+  contrast:
+    fg: 53.6
+    black: 15
+    red: 46.5
+    green: 52.4
+    yellow: 69.6
+    blue: 66.3
+    magenta: 59.8
+    cyan: 66.3
+    white: 53.6
+    brightBlack: 9.6
+    brightRed: 46.5
+    brightGreen: 52.4
+    brightYellow: 74.8
+    brightBlue: 66.3
+    brightMagenta: 59.8
+    brightCyan: 66.3
+    brightWhite: 53.6

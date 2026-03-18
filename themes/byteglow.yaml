@@ -1,0 +1,49 @@
+name: "ByteGlow"
+source:
+  marketplace_id: "ByteLoom.byteglow-theme"
+  version: "1.0.1"
+  installs: 36
+  author: "AMITRAJIT SARKAR"
+  repo: "https://github.com/Amitrajit007/ByteGlow"
+  url: "https://marketplace.visualstudio.com/items?itemName=ByteLoom.byteglow-theme"
+colors:
+  bg: "#242434"
+  fg: "#E0E3E6"
+  black: "#1E1E2E"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#89DDFF"
+  white: "#E0E3E6"
+  brightBlack: "#5C6370"
+  brightRed: "#FF6B6B"
+  brightGreen: "#B9F27C"
+  brightYellow: "#FDDB7C"
+  brightBlue: "#6BBAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 284
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 47.9
+    green: 65.5
+    yellow: 60.7
+    blue: 49.7
+    magenta: 53.6
+    cyan: 76.3
+    white: 86.5
+    brightBlack: 18.6
+    brightRed: 46.1
+    brightGreen: 85.6
+    brightYellow: 83.7
+    brightBlue: 58.8
+    brightMagenta: 51.8
+    brightCyan: 76.3
+    brightWhite: 104.9

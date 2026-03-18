@@ -1,0 +1,49 @@
+name: "DarkFusion"
+source:
+  marketplace_id: "sahilmondal.dark-fusion-theme"
+  version: "1.0.0"
+  installs: 121
+  author: "Sahil Mondal"
+  repo: "https://github.com/sahilmondal/darkFusion-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sahilmondal.dark-fusion-theme"
+colors:
+  bg: "#100F2E"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#EF6B73"
+  green: "#A9D03F"
+  yellow: "#5852FF"
+  blue: "#40B972"
+  magenta: "#C3A6FF"
+  cyan: "#4AD283"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#A9D03F"
+  brightYellow: "#716CFF"
+  brightBlue: "#4AD283"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#4AD2BE"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 280
+  contrast:
+    fg: 55.4
+    black: 0
+    red: 45.1
+    green: 69.2
+    yellow: 26.2
+    blue: 52.5
+    magenta: 61.6
+    cyan: 64.9
+    white: 55.4
+    brightBlack: 11.4
+    brightRed: 45.1
+    brightGreen: 69.2
+    brightYellow: 34.3
+    brightBlue: 64.9
+    brightMagenta: 61.6
+    brightCyan: 66.9
+    brightWhite: 55.4

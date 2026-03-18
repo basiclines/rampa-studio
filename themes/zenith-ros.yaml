@@ -1,0 +1,49 @@
+name: "Zenith Rosé"
+source:
+  marketplace_id: "TheSamonide.zenith-theme"
+  version: "6.0.3"
+  installs: 108
+  author: "Samonide"
+  repo: "https://github.com/samonide/zenith-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheSamonide.zenith-theme"
+colors:
+  bg: "#1F1A1D"
+  fg: "#E8DFE8"
+  black: "#1F1A1D"
+  red: "#F5A5A8"
+  green: "#9CCFD8"
+  yellow: "#F6C177"
+  blue: "#9AC7DC"
+  magenta: "#C4A7E7"
+  cyan: "#9CCFD8"
+  white: "#E8DFE8"
+  brightBlack: "#4A3F43"
+  brightRed: "#F5A5A8"
+  brightGreen: "#A8DFE5"
+  brightYellow: "#F6C177"
+  brightBlue: "#9CADCE"
+  brightMagenta: "#B8A0D9"
+  brightCyan: "#9CCFD8"
+  brightWhite: "#E8DFE8"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 87.4
+    black: 0
+    red: 63.9
+    green: 70.8
+    yellow: 73.1
+    blue: 67.3
+    magenta: 59.8
+    cyan: 70.8
+    white: 87.4
+    brightBlack: 7.6
+    brightRed: 63.9
+    brightGreen: 79.8
+    brightYellow: 73.1
+    brightBlue: 56
+    brightMagenta: 54.9
+    brightCyan: 70.8
+    brightWhite: 87.4

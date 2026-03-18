@@ -1,0 +1,49 @@
+name: "tickle-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#181819"
+  fg: "#C1C1C1"
+  black: "#242426"
+  red: "#BA0E2E"
+  green: "#85FFC7"
+  yellow: "#40A5A5"
+  blue: "#FF8552"
+  magenta: "#85FFC7"
+  cyan: "#FF8552"
+  white: "#CECECE"
+  brightBlack: "#4A4A4D"
+  brightRed: "#F03E5F"
+  brightGreen: "#EBFFF6"
+  brightYellow: "#7ECDCD"
+  brightBlue: "#FFCDB8"
+  brightMagenta: "#EBFFF6"
+  brightCyan: "#FFCDB8"
+  brightWhite: "#F4F4F4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 68.1
+    black: 0
+    red: 20.4
+    green: 92
+    yellow: 45.1
+    blue: 54
+    magenta: 92
+    cyan: 54
+    white: 75.7
+    brightBlack: 10.9
+    brightRed: 36.7
+    brightGreen: 103.6
+    brightYellow: 67.4
+    brightBlue: 81.6
+    brightMagenta: 103.6
+    brightCyan: 81.6
+    brightWhite: 99.5

@@ -1,0 +1,49 @@
+name: "Obsidian Dark"
+source:
+  marketplace_id: "dwrolvink.obsidian-dark-theme-rust"
+  version: "1.0.0"
+  installs: 3355
+  author: "dwrolvink"
+  repo: "https://github.com/dwrolvink/obsidian-dark-theme-rust"
+  url: "https://marketplace.visualstudio.com/items?itemName=dwrolvink.obsidian-dark-theme-rust"
+colors:
+  bg: "#10151A"
+  fg: "#C9D1D9"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#3FB950"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#F0F6FC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 248
+  contrast:
+    fg: 77.3
+    black: 12.8
+    red: 52.3
+    green: 51.8
+    yellow: 51.9
+    blue: 51.9
+    magenta: 51.9
+    cyan: 61.1
+    white: 63.8
+    brightBlack: 29
+    brightRed: 64.6
+    brightGreen: 65.2
+    brightYellow: 64.4
+    brightBlue: 64.5
+    brightMagenta: 64.3
+    brightCyan: 69.6
+    brightWhite: 100.6

@@ -1,0 +1,49 @@
+name: "Nushu Classic"
+source:
+  marketplace_id: "wheredoesyourmindgo.nushu-vscode-theme"
+  version: "2.2.18"
+  installs: 32055
+  author: "wheredoesyourmindgo"
+  repo: "https://github.com/wheredoesyourmindgo/nushu-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.nushu-vscode-theme"
+colors:
+  bg: "#F8F6F1"
+  fg: "#24292E"
+  black: "#D1D5DA"
+  red: "#9E1C23"
+  green: "#165C26"
+  yellow: "#B08800"
+  blue: "#3A1D6E"
+  magenta: "#99306F"
+  cyan: "#032F62"
+  white: "#444D56"
+  brightBlack: "#6A737D"
+  brightRed: "#B31D28"
+  brightGreen: "#176F2C"
+  brightYellow: "#DBAB09"
+  brightBlue: "#4C2889"
+  brightMagenta: "#B93A86"
+  brightCyan: "#044289"
+  brightWhite: "#E1E4E8"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.2
+    black: 17.1
+    red: 80.6
+    green: 82.3
+    yellow: 54.8
+    blue: 93.8
+    magenta: 78
+    cyan: 93.8
+    white: 84.2
+    brightBlack: 68.1
+    brightRed: 76
+    brightGreen: 75.5
+    brightYellow: 36.3
+    brightBlue: 88.8
+    brightMagenta: 69.7
+    brightCyan: 86.7
+    brightWhite: 8.4

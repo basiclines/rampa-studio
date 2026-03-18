@@ -1,0 +1,49 @@
+name: "jtVSCode Dark"
+source:
+  marketplace_id: "javiertdev.jtvscode"
+  version: "1.0.0"
+  installs: 18
+  author: "javiert.dev"
+  repo: "https://github.com/javiertdev/jtVSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=javiertdev.jtvscode"
+colors:
+  bg: "#141414"
+  fg: "#D4D4D4"
+  black: "#1A1A1A"
+  red: "#F44747"
+  green: "#6FCF50"
+  yellow: "#E8A830"
+  blue: "#569CD6"
+  magenta: "#C586C0"
+  cyan: "#4EC9B0"
+  white: "#D4D4D4"
+  brightBlack: "#666666"
+  brightRed: "#F47A7A"
+  brightGreen: "#8DDB6F"
+  brightYellow: "#F0C060"
+  brightBlue: "#7ABAEF"
+  brightMagenta: "#D9A0D9"
+  brightCyan: "#7ADBC8"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 79.8
+    black: 0
+    red: 38.7
+    green: 64.2
+    yellow: 61
+    blue: 45.3
+    magenta: 47.6
+    cyan: 62.3
+    white: 79.8
+    brightBlack: 22.3
+    brightRed: 50
+    brightGreen: 72.5
+    brightYellow: 72.1
+    brightBlue: 61
+    brightMagenta: 60.4
+    brightCyan: 73.9
+    brightWhite: 97.3

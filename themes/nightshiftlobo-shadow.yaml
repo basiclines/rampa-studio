@@ -1,0 +1,49 @@
+name: "NightShiftLobo Shadow"
+source:
+  marketplace_id: "NightshiftLobo.nightshiftlobo"
+  version: "2.0.0"
+  installs: 17
+  author: "Nightshift Lobo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=NightshiftLobo.nightshiftlobo"
+colors:
+  bg: "#10131A"
+  fg: "#D6DBE8"
+  black: "#10131A"
+  red: "#DA848A"
+  green: "#70C693"
+  yellow: "#D8BB78"
+  blue: "#6078D4"
+  magenta: "#AF92EE"
+  cyan: "#5BB5C8"
+  white: "#D6DBE8"
+  brightBlack: "#858DA6"
+  brightRed: "#DA848A"
+  brightGreen: "#70C693"
+  brightYellow: "#CF9272"
+  brightBlue: "#6078D4"
+  brightMagenta: "#AF92EE"
+  brightCyan: "#60A9B8"
+  brightWhite: "#D6DBE8"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 267
+  contrast:
+    fg: 84.1
+    black: 0
+    red: 48.4
+    green: 61.6
+    yellow: 66.9
+    blue: 33.1
+    magenta: 51.1
+    cyan: 55
+    white: 84.1
+    brightBlack: 40.6
+    brightRed: 48.4
+    brightGreen: 61.6
+    brightYellow: 50.2
+    brightBlue: 33.1
+    brightMagenta: 51.1
+    brightCyan: 49.5
+    brightWhite: 84.1

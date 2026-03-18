@@ -1,0 +1,49 @@
+name: "Gentle Clean Light"
+source:
+  marketplace_id: "kricsleo.gentle-clean"
+  version: "1.0.4"
+  installs: 1711
+  author: "kricsleo"
+  repo: "https://github.com/kricsleo/vscode-theme-gentle-clean"
+  url: "https://marketplace.visualstudio.com/items?itemName=kricsleo.gentle-clean"
+colors:
+  bg: "#FAFAFA"
+  fg: "#393A34"
+  black: "#121212"
+  red: "#AB5959"
+  green: "#1E754F"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#1E754F"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 93.5
+    black: 102.3
+    red: 70.5
+    green: 74.9
+    yellow: 45.3
+    blue: 75.2
+    magenta: 78.1
+    cyan: 60.5
+    white: 18.1
+    brightBlack: 42.8
+    brightRed: 70.5
+    brightGreen: 74.9
+    brightYellow: 45.3
+    brightBlue: 75.2
+    brightMagenta: 78.1
+    brightCyan: 60.5
+    brightWhite: 14.6

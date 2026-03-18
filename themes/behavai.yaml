@@ -1,0 +1,49 @@
+name: "Behavai"
+source:
+  marketplace_id: "4536251.behavai"
+  version: "0.1.0"
+  installs: 109
+  author: "Voar"
+  repo: "https://github.com/EnchantedJoy/Behavai"
+  url: "https://marketplace.visualstudio.com/items?itemName=4536251.behavai"
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#EC9076"
+  green: "#98C379"
+  yellow: "#D7BA7D"
+  blue: "#528BFF"
+  magenta: "#8AACEB"
+  cyan: "#7DCBC4"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#D7BA7D"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#7DCBC4"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 51.2
+    green: 59.1
+    yellow: 62.9
+    blue: 38.3
+    magenta: 52.9
+    cyan: 63
+    white: 79.8
+    brightBlack: 32.3
+    brightRed: 35.2
+    brightGreen: 59.1
+    brightYellow: 62.9
+    brightBlue: 38.3
+    brightMagenta: 9.5
+    brightCyan: 63
+    brightWhite: 79.8

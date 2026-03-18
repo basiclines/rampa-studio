@@ -1,0 +1,49 @@
+name: "Stella Theme"
+source:
+  marketplace_id: "ShapeMess.stella-theme"
+  version: "0.0.6"
+  installs: 450
+  author: "ShapeMess"
+  repo: "https://github.com/ShapeMess/Stella-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ShapeMess.stella-theme"
+colors:
+  bg: "#252527"
+  fg: "#BEBEBE"
+  black: "#000000"
+  red: "#C54040"
+  green: "#4DA54A"
+  yellow: "#D4B038"
+  blue: "#4261B8"
+  magenta: "#A13E80"
+  cyan: "#389994"
+  white: "#D1D1D1"
+  brightBlack: "#5E5E5E"
+  brightRed: "#E06868"
+  brightGreen: "#72B96F"
+  brightYellow: "#DBC169"
+  brightBlue: "#7D90C7"
+  brightMagenta: "#BB73A3"
+  brightCyan: "#54C2BC"
+  brightWhite: "#E9E9E9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 64.5
+    black: 0
+    red: 25.1
+    green: 41.3
+    yellow: 58.7
+    blue: 20.2
+    magenta: 19.7
+    cyan: 37.4
+    white: 75.7
+    brightBlack: 16.8
+    brightRed: 38.9
+    brightGreen: 52.7
+    brightYellow: 67.2
+    brightBlue: 40.4
+    brightMagenta: 37
+    brightCyan: 57.6
+    brightWhite: 90.6

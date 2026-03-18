@@ -1,0 +1,49 @@
+name: "keen-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#0D0D0D"
+  red: "#BA0E2E"
+  green: "#6F8B94"
+  yellow: "#8767B7"
+  blue: "#B5DB99"
+  magenta: "#6F8B94"
+  cyan: "#8767B7"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F03E5F"
+  brightGreen: "#AABABF"
+  brightYellow: "#BEACD8"
+  brightBlue: "#ECF6E4"
+  brightMagenta: "#AABABF"
+  brightCyan: "#BEACD8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 21.5
+    green: 37.9
+    yellow: 30.5
+    blue: 77.9
+    magenta: 37.9
+    cyan: 30.5
+    white: 107.9
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 63.5
+    brightYellow: 61.6
+    brightBlue: 99.8
+    brightMagenta: 63.5
+    brightCyan: 61.6
+    brightWhite: 107.9

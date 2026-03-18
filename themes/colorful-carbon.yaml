@@ -1,0 +1,49 @@
+name: "Colorful Carbon"
+source:
+  marketplace_id: "Sonali-Sharma.colorful-carbon"
+  version: "2.0.5"
+  installs: 202
+  author: "Sonali Sharma"
+  repo: "https://github.com/Sonali-Sharma-tech/colorful-carbon-extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sonali-Sharma.colorful-carbon"
+colors:
+  bg: "#0A0A0A"
+  fg: "#D9D9D9"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#546E7A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 83.4
+    black: 0
+    red: 44.5
+    green: 85.1
+    yellow: 79.8
+    blue: 56.8
+    magenta: 54.6
+    cyan: 79.1
+    white: 107.7
+    brightBlack: 24.7
+    brightRed: 44.5
+    brightGreen: 85.1
+    brightYellow: 79.8
+    brightBlue: 56.8
+    brightMagenta: 54.6
+    brightCyan: 79.1
+    brightWhite: 107.7

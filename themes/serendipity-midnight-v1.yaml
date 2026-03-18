@@ -1,0 +1,49 @@
+name: "Serendipity Midnight V1"
+source:
+  marketplace_id: "wicked-labs.old-serendipity"
+  version: "0.6.0"
+  installs: 4491
+  author: "Michael Andreuzza "
+  repo: "https://github.com/michael-andreuzza/old-serendipity"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.old-serendipity"
+colors:
+  bg: "#0A0E15"
+  fg: "#F6F6F6"
+  black: "#1C1C1C"
+  red: "#BE95FF"
+  green: "#748E4E"
+  yellow: "#C8A662"
+  blue: "#78A9FF"
+  magenta: "#E879F9"
+  cyan: "#22D3EE"
+  white: "#9CA3AF"
+  brightBlack: "#6B7280"
+  brightRed: "#D4BFFF"
+  brightGreen: "#A6CC70"
+  brightYellow: "#FAD07B"
+  brightBlue: "#8BB6FF"
+  brightMagenta: "#F0ABFC"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 261
+  contrast:
+    fg: 101.6
+    black: 0
+    red: 55.5
+    green: 37.1
+    yellow: 56.3
+    blue: 55.5
+    magenta: 53.8
+    cyan: 69.3
+    white: 51.9
+    brightBlack: 27.8
+    brightRed: 73.7
+    brightGreen: 68.2
+    brightYellow: 81.2
+    brightBlue: 62.1
+    brightMagenta: 70.3
+    brightCyan: 81.9
+    brightWhite: 107.6

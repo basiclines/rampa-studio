@@ -1,0 +1,49 @@
+name: "MagicUser Specialist"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1704
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+colors:
+  bg: "#E1F1E8"
+  fg: "#000000"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 161
+  contrast:
+    fg: 95.4
+    black: 94.7
+    red: 48.9
+    green: 0
+    yellow: 0
+    blue: 75.2
+    magenta: 44.9
+    cyan: 0
+    white: 9.6
+    brightBlack: 88
+    brightRed: 52.1
+    brightGreen: 12.4
+    brightYellow: 0
+    brightBlue: 42.5
+    brightMagenta: 45.1
+    brightCyan: 7.8
+    brightWhite: 9.8

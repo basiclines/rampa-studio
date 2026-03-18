@@ -1,0 +1,49 @@
+name: "Doxa Code Color Theme"
+source:
+  marketplace_id: "doxa-code-color-theme.doxa-code-theme-colorr"
+  version: "0.0.5"
+  installs: 131
+  author: "Doxa Code"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=doxa-code-color-theme.doxa-code-theme-colorr"
+colors:
+  bg: "#22202C"
+  fg: "#F8F8F2"
+  black: "#22202C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6C6985"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 292
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 42
+    green: 83.5
+    yellow: 97.2
+    blue: 52.3
+    magenta: 53.2
+    cyan: 82.6
+    white: 100.6
+    brightBlack: 23.3
+    brightRed: 47.5
+    brightGreen: 87.7
+    brightYellow: 102.2
+    brightBlue: 64.8
+    brightMagenta: 61.3
+    brightCyan: 95.4
+    brightWhite: 105.5

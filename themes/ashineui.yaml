@@ -1,0 +1,49 @@
+name: "AShineUI"
+source:
+  marketplace_id: "Morgheas.ashine-ui-theme"
+  version: "0.1.0"
+  installs: 10
+  author: "Morgheas"
+  repo: "https://github.com/Akumuuu/AShineUI"
+  url: "https://marketplace.visualstudio.com/items?itemName=Morgheas.ashine-ui-theme"
+colors:
+  bg: "#1D1D1D"
+  fg: "#D4D4D4"
+  black: "#666666"
+  red: "#FF5555"
+  green: "#BAE67E"
+  yellow: "#FFD866"
+  blue: "#7AA2F7"
+  magenta: "#C792EA"
+  cyan: "#5CCFE6"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF5555"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFD866"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#C792EA"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 78.8
+    black: 21.3
+    red: 42.7
+    green: 81.2
+    yellow: 83.6
+    blue: 51
+    magenta: 53.1
+    cyan: 67.1
+    white: 89.3
+    brightBlack: 21.3
+    brightRed: 42.7
+    brightGreen: 81.2
+    brightYellow: 83.6
+    brightBlue: 51
+    brightMagenta: 53.1
+    brightCyan: 67.1
+    brightWhite: 89.3

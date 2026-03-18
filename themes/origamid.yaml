@@ -1,0 +1,49 @@
+name: "Origamid"
+source:
+  marketplace_id: "origamid.origamid-theme"
+  version: "1.1.7"
+  installs: 63053
+  author: "Origamid"
+  repo: "https://github.com/origamid/origamid-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=origamid.origamid-theme"
+colors:
+  bg: "#222222"
+  fg: "#FFFFFF"
+  black: "#363537"
+  red: "#99BBFE"
+  green: "#FFDD44"
+  yellow: "#88BB44"
+  blue: "#99BBFE"
+  magenta: "#99BBFF"
+  cyan: "#DDAAFF"
+  white: "#FFFFFF"
+  brightBlack: "#69676C"
+  brightRed: "#99BBFE"
+  brightGreen: "#FFDD44"
+  brightYellow: "#88BB44"
+  brightBlue: "#99BBFE"
+  brightMagenta: "#99BBFF"
+  brightCyan: "#DDAAFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 105.5
+    black: 0
+    red: 63.2
+    green: 84.7
+    yellow: 55
+    blue: 63.2
+    magenta: 63.2
+    cyan: 65
+    white: 105.5
+    brightBlack: 21.4
+    brightRed: 63.2
+    brightGreen: 84.7
+    brightYellow: 55
+    brightBlue: 63.2
+    brightMagenta: 63.2
+    brightCyan: 65
+    brightWhite: 105.5

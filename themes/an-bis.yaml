@@ -1,0 +1,49 @@
+name: "Anúbis"
+source:
+  marketplace_id: "felipe-bergamaschi.anubis-theme"
+  version: "1.0.3"
+  installs: 142
+  author: "Felipe Bergamaschi"
+  repo: "https://github.com/felipe-bergamaschi/anubis-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=felipe-bergamaschi.anubis-theme"
+colors:
+  bg: "#212D3B"
+  fg: "#F8F8F2"
+  black: "#151E27"
+  red: "#E8414E"
+  green: "#F1FA8C"
+  yellow: "#37FA68"
+  blue: "#AA7BE3"
+  magenta: "#FF73D0"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6D7A8A"
+  brightRed: "#ED5151"
+  brightGreen: "#FFEA99"
+  brightYellow: "#8BE9FD"
+  brightBlue: "#8BE9FD"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 253
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 31.7
+    green: 95.3
+    yellow: 80.7
+    blue: 39
+    magenta: 50.4
+    cyan: 80.7
+    white: 98.7
+    brightBlack: 27.1
+    brightRed: 35.3
+    brightGreen: 90.1
+    brightYellow: 80.7
+    brightBlue: 80.7
+    brightMagenta: 59.3
+    brightCyan: 93.5
+    brightWhite: 103.6

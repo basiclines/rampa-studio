@@ -1,0 +1,49 @@
+name: "Jellyfish"
+source:
+  marketplace_id: "sserafy.ttera-themes"
+  version: "2.0.7"
+  installs: 2036
+  author: "sserafy"
+  repo: "https://github.com/azhou555/naturefy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ttera-themes"
+colors:
+  bg: "#0F1419"
+  fg: "#C2A5F0"
+  black: "#2D3748"
+  red: "#FF66B3"
+  green: "#80FFEE"
+  yellow: "#FF99FF"
+  blue: "#C299FF"
+  magenta: "#FF66B3"
+  cyan: "#80FFEE"
+  white: "#FF99DD"
+  brightBlack: "#4A5568"
+  brightRed: "#FF80CC"
+  brightGreen: "#99FFF2"
+  brightYellow: "#FFB3FF"
+  brightBlue: "#D6B3FF"
+  brightMagenta: "#FF80CC"
+  brightCyan: "#B3FFF7"
+  brightWhite: "#FFCCEE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 249
+  contrast:
+    fg: 60.2
+    black: 0
+    red: 49.7
+    green: 93.8
+    yellow: 66.9
+    blue: 57
+    magenta: 49.7
+    cyan: 93.8
+    white: 64.9
+    brightBlack: 15.2
+    brightRed: 56.9
+    brightGreen: 95.6
+    brightYellow: 75.4
+    brightBlue: 69
+    brightMagenta: 56.9
+    brightCyan: 98
+    brightWhite: 84

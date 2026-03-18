@@ -1,0 +1,49 @@
+name: "NGC Aurora Night"
+source:
+  marketplace_id: "nextgencode.ngen-themes"
+  version: "1.1.0"
+  installs: 73
+  author: "NextGenCode"
+  repo: "https://github.com/Mattzey/Ngen-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=nextgencode.ngen-themes"
+colors:
+  bg: "#1B2028"
+  fg: "#E0E6ED"
+  black: "#151A1F"
+  red: "#FF6B80"
+  green: "#5DE4A4"
+  yellow: "#FFB560"
+  blue: "#57B5FF"
+  magenta: "#B794F6"
+  cyan: "#5DE4A4"
+  white: "#E0E6ED"
+  brightBlack: "#6B7B8C"
+  brightRed: "#FF8599"
+  brightGreen: "#75F0BC"
+  brightYellow: "#FFC47A"
+  brightBlue: "#73C6FF"
+  brightMagenta: "#CAAAF9"
+  brightCyan: "#75F0BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 260
+  contrast:
+    fg: 89.1
+    black: 0
+    red: 47.5
+    green: 74
+    yellow: 69
+    blue: 56.6
+    magenta: 51.9
+    cyan: 74
+    white: 89.1
+    brightBlack: 29.5
+    brightRed: 54.8
+    brightGreen: 82
+    brightYellow: 75.3
+    brightBlue: 65.4
+    brightMagenta: 62.2
+    brightCyan: 82
+    brightWhite: 105.8

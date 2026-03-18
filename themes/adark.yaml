@@ -1,0 +1,49 @@
+name: "ADark"
+source:
+  marketplace_id: "AmoghAgarwal.adark"
+  version: "1.0.0"
+  installs: 483
+  author: "AmoghAgarwal"
+  repo: "https://github.com/agarwalamogh/Adark_vscode_theme/tree/master/ADark"
+  url: "https://marketplace.visualstudio.com/items?itemName=AmoghAgarwal.adark"
+colors:
+  bg: "#191E2B"
+  fg: "#99A1B4"
+  black: "#20273A"
+  red: "#F3505B"
+  green: "#B7DB62"
+  yellow: "#EEBE5D"
+  blue: "#55DCF7"
+  magenta: "#B093E9"
+  cyan: "#55DCF7"
+  white: "#99A1B4"
+  brightBlack: "#3A4157"
+  brightRed: "#F3505B"
+  brightGreen: "#B7DB62"
+  brightYellow: "#EEBE5D"
+  brightBlue: "#55DCF7"
+  brightMagenta: "#B093E9"
+  brightCyan: "#55DCF7"
+  brightWhite: "#99A1B4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  contrast:
+    fg: 49.4
+    black: 0
+    red: 39
+    green: 75
+    yellow: 69.8
+    blue: 73.7
+    magenta: 50
+    cyan: 73.7
+    white: 49.4
+    brightBlack: 0
+    brightRed: 39
+    brightGreen: 75
+    brightYellow: 69.8
+    brightBlue: 73.7
+    brightMagenta: 50
+    brightCyan: 73.7
+    brightWhite: 49.4

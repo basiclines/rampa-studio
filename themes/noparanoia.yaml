@@ -1,0 +1,49 @@
+name: "NoParanoia"
+source:
+  marketplace_id: "NoParanoia.noparanoia"
+  version: "1.0.81"
+  installs: 1352
+  author: "NoParanoia"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=NoParanoia.noparanoia"
+colors:
+  bg: "#282828"
+  fg: "#BBBBBB"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#546E7A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 62.3
+    black: 0
+    red: 41.2
+    green: 81.7
+    yellow: 76.5
+    blue: 53.5
+    magenta: 51.3
+    cyan: 75.8
+    white: 104.4
+    brightBlack: 21.4
+    brightRed: 41.2
+    brightGreen: 81.7
+    brightYellow: 76.5
+    brightBlue: 53.5
+    brightMagenta: 51.3
+    brightCyan: 75.8
+    brightWhite: 104.4

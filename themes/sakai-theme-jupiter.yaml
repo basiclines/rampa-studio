@@ -1,0 +1,49 @@
+name: "Sakai Theme Jupiter"
+source:
+  marketplace_id: "Sakai.sakai"
+  version: "2.6.8"
+  installs: 1186
+  author: "Sakai"
+  repo: "https://github.com/Sakai-UI/Sakai-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sakai.sakai"
+colors:
+  bg: "#232136"
+  fg: "#E0DEF4"
+  black: "#232136"
+  red: "#EB6F92"
+  green: "#A093D0"
+  yellow: "#F6C177"
+  blue: "#9CCFD8"
+  magenta: "#C4A7E7"
+  cyan: "#C4A7E7"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#EB6F92"
+  brightGreen: "#A093D0"
+  brightYellow: "#F6C177"
+  brightBlue: "#9CCFD8"
+  brightMagenta: "#C4A7E7"
+  brightCyan: "#C4A7E7"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 288
+  contrast:
+    fg: 85.3
+    black: 0
+    red: 44.2
+    green: 45.7
+    yellow: 71.9
+    blue: 69.7
+    magenta: 58.7
+    cyan: 58.7
+    white: 85.3
+    brightBlack: 39.6
+    brightRed: 44.2
+    brightGreen: 45.7
+    brightYellow: 71.9
+    brightBlue: 69.7
+    brightMagenta: 58.7
+    brightCyan: 58.7
+    brightWhite: 85.3

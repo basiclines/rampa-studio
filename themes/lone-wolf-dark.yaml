@@ -1,0 +1,49 @@
+name: "Lone wolf dark"
+source:
+  marketplace_id: "Sidwebworks.lone-wolf-dark"
+  version: "0.0.1"
+  installs: 741
+  author: "Sidwebworks"
+  repo: "https://github.com/sidwebworks/lone-wolf-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sidwebworks.lone-wolf-dark"
+colors:
+  bg: "#181818"
+  fg: "#DBD7CA"
+  black: "#393A34"
+  red: "#CB7676"
+  green: "#1DB0A4"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#1DB0A4"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 81.2
+    black: 0
+    red: 40.7
+    green: 49
+    yellow: 75.5
+    blue: 41.2
+    magenta: 43.8
+    cyan: 49.2
+    white: 81.2
+    brightBlack: 29.4
+    brightRed: 40.7
+    brightGreen: 49
+    brightYellow: 75.5
+    brightBlue: 41.2
+    brightMagenta: 43.8
+    brightCyan: 49.2
+    brightWhite: 106.8

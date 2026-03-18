@@ -1,0 +1,49 @@
+name: "Shadcn Neutral Dark"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+colors:
+  bg: "#0A0A0A"
+  fg: "#FAFAFA"
+  black: "#0A0A0A"
+  red: "#FF6467"
+  green: "#00BC7D"
+  yellow: "#1447E6"
+  blue: "#737373"
+  magenta: "#104E64"
+  cyan: "#FF2056"
+  white: "#FAFAFA"
+  brightBlack: "#262626"
+  brightRed: "#FF6467"
+  brightGreen: "#1447E6"
+  brightYellow: "#171717"
+  brightBlue: "#E5E5E5"
+  brightMagenta: "#FE9A00"
+  brightCyan: "#AD46FF"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 104.4
+    black: 0
+    red: 47.4
+    green: 53.9
+    yellow: 19.4
+    blue: 28.6
+    magenta: 11.4
+    cyan: 38.7
+    white: 104.4
+    brightBlack: 0
+    brightRed: 47.4
+    brightGreen: 19.4
+    brightYellow: 0
+    brightBlue: 90.9
+    brightMagenta: 60.7
+    brightCyan: 34.2
+    brightWhite: 104.4

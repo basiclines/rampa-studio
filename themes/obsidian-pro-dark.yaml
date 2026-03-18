@@ -1,0 +1,49 @@
+name: "Obsidian Pro - Dark"
+source:
+  marketplace_id: "williamkoller.obsidian-pro-theme"
+  version: "1.0.1"
+  installs: 42
+  author: "williamkoller"
+  repo: "https://github.com/williamkoller/obsidian-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=williamkoller.obsidian-pro-theme"
+colors:
+  bg: "#0A0A0A"
+  fg: "#E4E4E7"
+  black: "#111111"
+  red: "#EF4444"
+  green: "#10B981"
+  yellow: "#F59E0B"
+  blue: "#3B82F6"
+  magenta: "#8B5CF6"
+  cyan: "#22D3EE"
+  white: "#E4E4E7"
+  brightBlack: "#6B7280"
+  brightRed: "#F87171"
+  brightGreen: "#34D399"
+  brightYellow: "#FBBF24"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#A78BFA"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F9FAFB"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 90.4
+    black: 0
+    red: 37.7
+    green: 52.7
+    yellow: 60.3
+    blue: 37.6
+    magenta: 32.8
+    cyan: 69.4
+    white: 90.4
+    brightBlack: 28
+    brightRed: 49
+    brightGreen: 66
+    brightYellow: 73.6
+    brightBlue: 52.2
+    brightMagenta: 49.2
+    brightCyan: 82
+    brightWhite: 104.3

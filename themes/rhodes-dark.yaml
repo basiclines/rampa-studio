@@ -1,0 +1,49 @@
+name: "Rhodes Dark"
+source:
+  marketplace_id: "gaebalgom.rhodes"
+  version: "1.0.0"
+  installs: 570
+  author: "gaebalgom"
+  repo: "https://github.com/dodok8/rhodes-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gaebalgom.rhodes"
+colors:
+  bg: "#1A1A1A"
+  fg: "#FDFDFD"
+  black: "#FFFFFF"
+  red: "#E17375"
+  green: "#58AE79"
+  yellow: "#9D9F44"
+  blue: "#51A1D5"
+  magenta: "#D56EC1"
+  cyan: "#46ABAB"
+  white: "#4D4D4D"
+  brightBlack: "#5C5C5C"
+  brightRed: "#EE9998"
+  brightGreen: "#6DCB90"
+  brightYellow: "#B8BA57"
+  brightBlue: "#78BCEA"
+  brightMagenta: "#E396D2"
+  brightCyan: "#5AC7C7"
+  brightWhite: "#7E7E7E"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 105.2
+    black: 106.5
+    red: 43.7
+    green: 48.2
+    yellow: 46.5
+    blue: 46.3
+    magenta: 43.2
+    cyan: 47.8
+    white: 11.7
+    brightBlack: 17.6
+    brightRed: 58.2
+    brightGreen: 63
+    brightYellow: 60.9
+    brightBlue: 60.8
+    brightMagenta: 57.8
+    brightCyan: 62.2
+    brightWhite: 32.5

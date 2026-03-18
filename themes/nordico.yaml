@@ -1,0 +1,49 @@
+name: "Nordico"
+source:
+  marketplace_id: "madprops.nordico"
+  version: "1.2.2"
+  installs: 15071
+  author: "madprops"
+  repo: "https://github.com/madprops/Nordico"
+  url: "https://marketplace.visualstudio.com/items?itemName=madprops.nordico"
+colors:
+  bg: "#252933"
+  fg: "#D8DEE9"
+  black: "#2B303B"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#CCCCCC"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  contrast:
+    fg: 82.7
+    black: 0
+    red: 30.3
+    green: 59
+    yellow: 73.7
+    blue: 46
+    magenta: 43.8
+    cyan: 60
+    white: 89.7
+    brightBlack: 72
+    brightRed: 30.3
+    brightGreen: 59
+    brightYellow: 73.7
+    brightBlue: 46
+    brightMagenta: 43.8
+    brightCyan: 57.9
+    brightWhite: 93.6

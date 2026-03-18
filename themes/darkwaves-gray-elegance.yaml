@@ -1,0 +1,49 @@
+name: "Darkwaves Gray Elegance"
+source:
+  marketplace_id: "spacelaxy.spacelaxy-darkwaves"
+  version: "0.0.8"
+  installs: 677
+  author: "Spacelaxy LLC"
+  repo: "https://github.com/spacelaxy/darkwaves"
+  url: "https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves"
+colors:
+  bg: "#1E1E22"
+  fg: "#D4D4D8"
+  black: "#1E1E22"
+  red: "#EF9A9A"
+  green: "#A5D6A7"
+  yellow: "#FFD984"
+  blue: "#82A9FF"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#D4D4D8"
+  brightBlack: "#1A1A1E"
+  brightRed: "#EF9A9A"
+  brightGreen: "#A5D6A7"
+  brightYellow: "#FFD984"
+  brightBlue: "#82A9FF"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 78.8
+    black: 0
+    red: 58.3
+    green: 72.5
+    yellow: 84.4
+    blue: 54.7
+    magenta: 53.7
+    cyan: 83.1
+    white: 78.8
+    brightBlack: 0
+    brightRed: 58.3
+    brightGreen: 72.5
+    brightYellow: 84.4
+    brightBlue: 54.7
+    brightMagenta: 53.7
+    brightCyan: 83.1
+    brightWhite: 106

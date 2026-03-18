@@ -1,0 +1,49 @@
+name: "Wye Dark"
+source:
+  marketplace_id: "phyzess.wye"
+  version: "0.7.1"
+  installs: 155
+  author: "phyzess"
+  repo: "https://github.com/phyzess/vscode-theme-wye"
+  url: "https://marketplace.visualstudio.com/items?itemName=phyzess.wye"
+colors:
+  bg: "#151515"
+  fg: "#E5E5E5"
+  black: "#393A34"
+  red: "#F74F5B"
+  green: "#BDE46F"
+  yellow: "#F8E330"
+  blue: "#296AA3"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#E5E5E5"
+  brightBlack: "#777777"
+  brightRed: "#F74F5B"
+  brightGreen: "#BDE46F"
+  brightYellow: "#F8E330"
+  brightBlue: "#296AA3"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 90.2
+    black: 0
+    red: 40.9
+    green: 81.2
+    yellow: 87.7
+    blue: 22.8
+    magenta: 44.1
+    cyan: 49.5
+    white: 90.2
+    brightBlack: 29.7
+    brightRed: 40.9
+    brightGreen: 81.2
+    brightYellow: 87.7
+    brightBlue: 22.8
+    brightMagenta: 44.1
+    brightCyan: 49.5
+    brightWhite: 107.1

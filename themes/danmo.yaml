@@ -1,0 +1,49 @@
+name: "danmo"
+source:
+  marketplace_id: "Rach0101.danmo-theme"
+  version: "0.0.3"
+  installs: 44
+  author: "tianxiang24"
+  repo: "https://github.com/randomVariable2000/danmo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rach0101.danmo-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#F75B5B"
+  green: "#63FC68"
+  yellow: "#F3FF4A"
+  blue: "#5568F8"
+  magenta: "#F845AE"
+  cyan: "#58E0FF"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#FB9999"
+  brightGreen: "#90FEA3"
+  brightYellow: "#F6FB99"
+  brightBlue: "#7DA3FB"
+  brightMagenta: "#F87AC3"
+  brightCyan: "#84F5F9"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 58
+    green: 16.4
+    yellow: 0
+    blue: 70.4
+    magenta: 58.5
+    cyan: 25.1
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 40.3
+    brightGreen: 11.8
+    brightYellow: 0
+    brightBlue: 48.4
+    brightMagenta: 47.7
+    brightCyan: 13.7
+    brightWhite: 48.5

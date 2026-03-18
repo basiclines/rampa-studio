@@ -1,0 +1,49 @@
+name: "Negative Theme"
+source:
+  marketplace_id: "Negative.negative-theme"
+  version: "2.1.3"
+  installs: 3038
+  author: "Negative"
+  repo: "https://github.com/joaom00/negative-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Negative.negative-theme"
+colors:
+  bg: "#0F111A"
+  fg: "#8F93A2"
+  black: "#333333"
+  red: "#88BBFF"
+  green: "#FFDD44"
+  yellow: "#88CC44"
+  blue: "#88BBFF"
+  magenta: "#88BBFF"
+  cyan: "#BBA0FF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#88BBFF"
+  brightGreen: "#FFDD44"
+  brightYellow: "#88CC44"
+  brightBlue: "#88BBFF"
+  brightMagenta: "#88BBFF"
+  brightCyan: "#BBA0FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 275
+  contrast:
+    fg: 43.7
+    black: 0
+    red: 63.7
+    green: 86.6
+    yellow: 64.6
+    blue: 63.7
+    magenta: 63.7
+    cyan: 58.6
+    white: 107.3
+    brightBlack: 22.5
+    brightRed: 63.7
+    brightGreen: 86.6
+    brightYellow: 64.6
+    brightBlue: 63.7
+    brightMagenta: 63.7
+    brightCyan: 58.6
+    brightWhite: 107.3

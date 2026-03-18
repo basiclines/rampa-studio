@@ -1,0 +1,49 @@
+name: "Zenith Forest"
+source:
+  marketplace_id: "TheSamonide.zenith-theme"
+  version: "6.0.3"
+  installs: 108
+  author: "Samonide"
+  repo: "https://github.com/samonide/zenith-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheSamonide.zenith-theme"
+colors:
+  bg: "#151D17"
+  fg: "#E8F0E0"
+  black: "#1A211B"
+  red: "#F28B82"
+  green: "#81C995"
+  yellow: "#F9E2AF"
+  blue: "#89C0EB"
+  magenta: "#C8A8E0"
+  cyan: "#89DCEB"
+  white: "#E8F0E0"
+  brightBlack: "#3F4740"
+  brightRed: "#F28B82"
+  brightGreen: "#9DE0AD"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#7CB8D8"
+  brightMagenta: "#B89FD8"
+  brightCyan: "#76CEC7"
+  brightWhite: "#E8F0E0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 153
+  contrast:
+    fg: 94.8
+    black: 0
+    red: 53.8
+    green: 63.4
+    yellow: 89
+    blue: 63.7
+    magenta: 60.4
+    cyan: 76.2
+    white: 94.8
+    brightBlack: 8.7
+    brightRed: 53.8
+    brightGreen: 77.1
+    brightYellow: 89
+    brightBlue: 58.3
+    brightMagenta: 54.6
+    brightCyan: 66.7
+    brightWhite: 94.8

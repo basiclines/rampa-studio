@@ -1,0 +1,49 @@
+name: "Elf Dream"
+source:
+  marketplace_id: "kgnio.sprinklepack"
+  version: "0.2.5"
+  installs: 80
+  author: "Kagan Mamak"
+  repo: "https://github.com/kgnio/sprinklepack"
+  url: "https://marketplace.visualstudio.com/items?itemName=kgnio.sprinklepack"
+colors:
+  bg: "#E9F7ED"
+  fg: "#3A4D41"
+  black: "#3A4D41"
+  red: "#B93326"
+  green: "#3CC57B"
+  yellow: "#D59A3B"
+  blue: "#2D9BAF"
+  magenta: "#9D4EDD"
+  cyan: "#3A86FF"
+  white: "#E9F7ED"
+  brightBlack: "#5C6F68"
+  brightRed: "#E63946"
+  brightGreen: "#5A9367"
+  brightYellow: "#FFB703"
+  brightBlue: "#3A86FF"
+  brightMagenta: "#E07A5F"
+  brightCyan: "#00B4D8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 83.9
+    black: 83.9
+    red: 71.3
+    green: 36.4
+    yellow: 41.4
+    blue: 52.8
+    magenta: 64.4
+    cyan: 54.9
+    white: 0
+    brightBlack: 69.7
+    brightRed: 60.3
+    brightGreen: 56.8
+    brightYellow: 24.6
+    brightBlue: 54.9
+    brightMagenta: 48.7
+    brightCyan: 40.9
+    brightWhite: 0

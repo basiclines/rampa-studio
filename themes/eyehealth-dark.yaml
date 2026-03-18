@@ -1,0 +1,49 @@
+name: "EyeHealth Dark"
+source:
+  marketplace_id: "jonathanhild.eyehealth"
+  version: "0.3.0"
+  installs: 5036
+  author: "Jonathan Hildenbrand"
+  repo: "https://github.com/jonathanhild/eyehealth"
+  url: "https://marketplace.visualstudio.com/items?itemName=jonathanhild.eyehealth"
+colors:
+  bg: "#424242"
+  fg: "#FFFFFF"
+  black: "#E6E9ED"
+  red: "#DA4453"
+  green: "#37BC9B"
+  yellow: "#FF9800"
+  blue: "#4A89DC"
+  magenta: "#D770AD"
+  cyan: "#3BAFDA"
+  white: "#8CC152"
+  brightBlack: "#F5F7FA"
+  brightRed: "#ED5565"
+  brightGreen: "#48CFAD"
+  brightYellow: "#FFB74D"
+  brightBlue: "#5D9CEC"
+  brightMagenta: "#EC87C0"
+  brightCyan: "#4FC1E9"
+  brightWhite: "#A0D468"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97.5
+    black: 82.9
+    red: 22.9
+    green: 45.1
+    yellow: 50
+    blue: 28.4
+    magenta: 34
+    cyan: 42.5
+    white: 50.2
+    brightBlack: 92
+    brightRed: 30.2
+    brightGreen: 55.1
+    brightYellow: 61.2
+    brightBlue: 37.4
+    brightMagenta: 44.9
+    brightCyan: 51.7
+    brightWhite: 61

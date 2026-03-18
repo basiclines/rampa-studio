@@ -1,0 +1,49 @@
+name: "CRT Green1"
+source:
+  marketplace_id: "leandro-rodrigues.crt-vscode"
+  version: "0.1.0"
+  installs: 6563
+  author: "Leandro Rodrigues"
+  repo: "https://github.com/TheOld/legacy-term"
+  url: "https://marketplace.visualstudio.com/items?itemName=leandro-rodrigues.crt-vscode"
+colors:
+  bg: "#000C00"
+  fg: "#33FF00"
+  black: "#33FF00"
+  red: "#25BE00"
+  green: "#29CE00"
+  yellow: "#1F9E00"
+  blue: "#30EF00"
+  magenta: "#2CDF00"
+  cyan: "#22AE00"
+  white: "#1B8E00"
+  brightBlack: "#33FF00"
+  brightRed: "#25BE00"
+  brightGreen: "#29CE00"
+  brightYellow: "#1F9E00"
+  brightBlue: "#30EF00"
+  brightMagenta: "#2CDF00"
+  brightCyan: "#22AE00"
+  brightWhite: "#1B8E00"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 142
+  contrast:
+    fg: 86.7
+    black: 86.7
+    red: 53.7
+    green: 61.4
+    yellow: 39.3
+    blue: 78.1
+    magenta: 69.9
+    cyan: 46.4
+    white: 32.6
+    brightBlack: 86.7
+    brightRed: 53.7
+    brightGreen: 61.4
+    brightYellow: 39.3
+    brightBlue: 78.1
+    brightMagenta: 69.9
+    brightCyan: 46.4
+    brightWhite: 32.6

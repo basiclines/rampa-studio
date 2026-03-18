@@ -1,0 +1,49 @@
+name: "Shadcn Violet Light"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#09090B"
+  black: "#FFFFFF"
+  red: "#E7000B"
+  green: "#8E51FF"
+  yellow: "#C4B4FF"
+  blue: "#A684FF"
+  magenta: "#7008E7"
+  cyan: "#5D0EC0"
+  white: "#09090B"
+  brightBlack: "#F4F4F5"
+  brightRed: "#E7000B"
+  brightGreen: "#C4B4FF"
+  brightYellow: "#F5F3FF"
+  brightBlue: "#7F22FE"
+  brightMagenta: "#7F22FE"
+  brightCyan: "#7008E7"
+  brightWhite: "#09090B"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 105.9
+    black: 0
+    red: 70.1
+    green: 69.8
+    yellow: 34.9
+    blue: 54.4
+    magenta: 83
+    cyan: 89.2
+    white: 105.9
+    brightBlack: 0
+    brightRed: 70.1
+    brightGreen: 34.9
+    brightYellow: 0
+    brightBlue: 77.7
+    brightMagenta: 77.7
+    brightCyan: 83
+    brightWhite: 105.9

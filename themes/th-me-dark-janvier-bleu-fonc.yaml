@@ -1,0 +1,49 @@
+name: "Thème Dark Janvier - Bleu Foncé"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 821
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+colors:
+  bg: "#0D1B2A"
+  fg: "#E0E0E0"
+  black: "#0D1B2A"
+  red: "#FF4B5C"
+  green: "#00A676"
+  yellow: "#F5CB5C"
+  blue: "#1B98E0"
+  magenta: "#BB29BB"
+  cyan: "#00ADB5"
+  white: "#E0E0E0"
+  brightBlack: "#546E7A"
+  brightRed: "#FF4B5C"
+  brightGreen: "#00A676"
+  brightYellow: "#F5CB5C"
+  brightBlue: "#1B98E0"
+  brightMagenta: "#BB29BB"
+  brightCyan: "#00ADB5"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 251
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 41.6
+    green: 42.7
+    yellow: 76.7
+    blue: 42
+    magenta: 26.8
+    cyan: 48
+    white: 86.5
+    brightBlack: 23.4
+    brightRed: 41.6
+    brightGreen: 42.7
+    brightYellow: 76.7
+    brightBlue: 42
+    brightMagenta: 26.8
+    brightCyan: 48
+    brightWhite: 86.5

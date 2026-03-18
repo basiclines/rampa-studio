@@ -1,0 +1,49 @@
+name: "Gruvbox DrakenLords Dark Draken"
+source:
+  marketplace_id: "DrakenLords.gruvbox-draken-lords"
+  version: "1.5.5"
+  installs: 8896
+  author: "DrakenLords"
+  repo: "https://github.com/Drakenlords/Gruvbox-DrakenLords"
+  url: "https://marketplace.visualstudio.com/items?itemName=DrakenLords.gruvbox-draken-lords"
+colors:
+  bg: "#031417"
+  fg: "#EBDBB2"
+  black: "#1D2021"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#EBDBB2"
+  brightBlack: "#665C54"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#FBF1C7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 209
+  contrast:
+    fg: 84.8
+    black: 0
+    red: 25.7
+    green: 43.3
+    yellow: 52.9
+    blue: 32
+    magenta: 32.1
+    cyan: 42.3
+    white: 84.8
+    brightBlack: 19
+    brightRed: 40.6
+    brightGreen: 61.6
+    brightYellow: 72.2
+    brightBlue: 49
+    brightMagenta: 48.4
+    brightCyan: 60.5
+    brightWhite: 97.8

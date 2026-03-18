@@ -1,0 +1,49 @@
+name: "Neon Violet"
+source:
+  marketplace_id: "LittleWaterfall.neon-cyberpunk-theme"
+  version: "1.0.0"
+  installs: 1547
+  author: "Little Waterfall"
+  repo: "https://github.com/LittleWaterfall/vscode-neon-glow"
+  url: "https://marketplace.visualstudio.com/items?itemName=LittleWaterfall.neon-cyberpunk-theme"
+colors:
+  bg: "#050008"
+  fg: "#CC66FF"
+  black: "#000000"
+  red: "#FF3366"
+  green: "#88FF44"
+  yellow: "#FF8800"
+  blue: "#4488FF"
+  magenta: "#CC66FF"
+  cyan: "#44FFCC"
+  white: "#FFFFFF"
+  brightBlack: "#8844CC"
+  brightRed: "#FF6688"
+  brightGreen: "#AEFF66"
+  brightYellow: "#FFAA44"
+  brightBlue: "#66AAFF"
+  brightMagenta: "#EE88FF"
+  brightCyan: "#66FFEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 317
+  contrast:
+    fg: 45.2
+    black: 0
+    red: 40.4
+    green: 90.4
+    yellow: 55.5
+    blue: 40.8
+    magenta: 45.2
+    cyan: 90.5
+    white: 107.9
+    brightBlack: 24.4
+    brightRed: 48.8
+    brightGreen: 93.8
+    brightYellow: 66.8
+    brightBlue: 55
+    brightMagenta: 59.5
+    brightCyan: 93.1
+    brightWhite: 107.9

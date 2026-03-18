@@ -1,0 +1,49 @@
+name: "Moon Phases"
+source:
+  marketplace_id: "AgraeonLabs.dev-themes"
+  version: "0.1.0"
+  installs: 283
+  author: "Agraeon Labs"
+  repo: "https://github.com/adiagcodelance/VS-Code-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AgraeonLabs.dev-themes"
+colors:
+  bg: "#212A31"
+  fg: "#D3D9D4"
+  black: "#212A31"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#124E66"
+  magenta: "#748D92"
+  cyan: "#56B6C2"
+  white: "#D3D9D4"
+  brightBlack: "#212A31"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#124E66"
+  brightMagenta: "#748D92"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D3D9D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 242
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 39.5
+    green: 59.7
+    yellow: 68
+    blue: 8.1
+    magenta: 35.3
+    cyan: 52
+    white: 78.9
+    brightBlack: 0
+    brightRed: 39.5
+    brightGreen: 59.7
+    brightYellow: 68
+    brightBlue: 8.1
+    brightMagenta: 35.3
+    brightCyan: 52
+    brightWhite: 78.9

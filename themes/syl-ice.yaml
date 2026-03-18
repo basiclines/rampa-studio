@@ -1,0 +1,49 @@
+name: "syl ice"
+source:
+  marketplace_id: "Sylex.syl-themes"
+  version: "1.2.0"
+  installs: 32
+  author: "Sylex"
+  repo: "https://github.com/ItzSylex/syl-themes-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sylex.syl-themes"
+colors:
+  bg: "#182233"
+  fg: "#D3C6AA"
+  black: "#333333"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#EEEEEE"
+  brightBlack: "#555555"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 261
+  contrast:
+    fg: 70.3
+    black: 0
+    red: 25.3
+    green: 51.6
+    yellow: 84.2
+    blue: 26
+    magenta: 28.3
+    cyan: 46.1
+    white: 94.3
+    brightBlack: 13.7
+    brightRed: 37.1
+    brightGreen: 62.1
+    brightYellow: 94.2
+    brightBlue: 38.6
+    brightMagenta: 44
+    brightCyan: 54
+    brightWhite: 105.5

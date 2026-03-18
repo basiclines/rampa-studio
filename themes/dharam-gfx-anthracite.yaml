@@ -1,0 +1,49 @@
+name: "dharam-gfx-anthracite"
+source:
+  marketplace_id: "dharam-gfx-theme.dharam-gfx-theme"
+  version: "0.0.7"
+  installs: 660
+  author: "dharmendra kumar"
+  repo: "https://github.com/dharam-gfx/dharam-gfx-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dharam-gfx-theme.dharam-gfx-theme"
+colors:
+  bg: "#181A1F"
+  fg: "#C8CCD4"
+  black: "#181A1F"
+  red: "#C13838"
+  green: "#37AE6F"
+  yellow: "#C9A022"
+  blue: "#3398DB"
+  magenta: "#CC71BC"
+  cyan: "#24B5A8"
+  white: "#C8CCD4"
+  brightBlack: "#434955"
+  brightRed: "#E61313"
+  brightGreen: "#15D06D"
+  brightYellow: "#EBB100"
+  brightBlue: "#0F9FFF"
+  brightMagenta: "#E954CF"
+  brightCyan: "#03D6C3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  contrast:
+    fg: 74.2
+    black: 0
+    red: 24.7
+    green: 46.7
+    yellow: 52.5
+    blue: 42.1
+    magenta: 42.1
+    cyan: 51.2
+    white: 74.2
+    brightBlack: 10.2
+    brightRed: 30.2
+    brightGreen: 61.9
+    brightYellow: 64.2
+    brightBlue: 46.9
+    brightMagenta: 42.6
+    brightCyan: 67.4
+    brightWhite: 106.5

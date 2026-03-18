@@ -1,0 +1,49 @@
+name: "GitHub Dark Dimmed (Grayscale)"
+source:
+  marketplace_id: "kontheocharis.github-vscode-theme-grayscale"
+  version: "1.0.1"
+  installs: 26
+  author: "kontheocharis"
+  repo: "https://github.com/kontheocharis/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kontheocharis.github-vscode-theme-grayscale"
+colors:
+  bg: "#222222"
+  fg: "#ADBAC7"
+  black: "#545D68"
+  red: "#F47067"
+  green: "#57AB5A"
+  yellow: "#C69026"
+  blue: "#539BF5"
+  magenta: "#B083F0"
+  cyan: "#39C5CF"
+  white: "#909DAB"
+  brightBlack: "#636E7B"
+  brightRed: "#FF938A"
+  brightGreen: "#6BC46D"
+  brightYellow: "#DAAA3F"
+  brightBlue: "#6CB6FF"
+  brightMagenta: "#DCBDFB"
+  brightCyan: "#56D4DD"
+  brightWhite: "#CDD9E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 61.8
+    black: 16.5
+    red: 45.4
+    green: 45.1
+    yellow: 45.3
+    blue: 45.1
+    magenta: 44.9
+    cyan: 59.5
+    white: 46
+    brightBlack: 23.6
+    brightRed: 58
+    brightGreen: 57.7
+    brightYellow: 57.9
+    brightBlue: 57.8
+    brightMagenta: 71.7
+    brightCyan: 68
+    brightWhite: 80.2

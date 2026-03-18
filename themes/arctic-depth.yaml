@@ -1,0 +1,49 @@
+name: "Arctic Depth"
+source:
+  marketplace_id: "MarvellinusVincent.arctic-depth"
+  version: "1.0.11"
+  installs: 393
+  author: "Marvellinus Vincent"
+  repo: "https://github.com/MarvellinusVincent/Arctic-Depth"
+  url: "https://marketplace.visualstudio.com/items?itemName=MarvellinusVincent.arctic-depth"
+colors:
+  bg: "#171A22"
+  fg: "#78BAE7"
+  black: "#171A22"
+  red: "#EE6C7D"
+  green: "#4FC414"
+  yellow: "#F9C74F"
+  blue: "#5E81AC"
+  magenta: "#5E81AC"
+  cyan: "#06B8B8"
+  white: "#E0E7EC"
+  brightBlack: "#1E2025"
+  brightRed: "#FF8A9A"
+  brightGreen: "#7F9BC5"
+  brightYellow: "#FFDF80"
+  brightBlue: "#7F9BC5"
+  brightMagenta: "#7F9BC5"
+  brightCyan: "#00E5E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 269
+  contrast:
+    fg: 59.8
+    black: 0
+    red: 44.8
+    green: 56.4
+    yellow: 75.6
+    blue: 32.8
+    magenta: 32.8
+    cyan: 53
+    white: 90.2
+    brightBlack: 0
+    brightRed: 56.9
+    brightGreen: 46
+    brightYellow: 87.5
+    brightBlue: 46
+    brightMagenta: 46
+    brightCyan: 76.3
+    brightWhite: 106.5

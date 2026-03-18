@@ -1,0 +1,49 @@
+name: "Neverwhere"
+source:
+  marketplace_id: "tylandavis.neverwhere-theme"
+  version: "1.0.4"
+  installs: 83
+  author: "Tylan Davis"
+  repo: "https://github.com/tylandavis/neverwhere-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tylandavis.neverwhere-theme"
+colors:
+  bg: "#1D1F1F"
+  fg: "#B0C9C9"
+  black: "#586464"
+  red: "#C2506B"
+  green: "#73A573"
+  yellow: "#B06B39"
+  blue: "#3E668A"
+  magenta: "#9B628F"
+  cyan: "#55A0A0"
+  white: "#E3FFF7"
+  brightBlack: "#81A3A3"
+  brightRed: "#FF3577"
+  brightGreen: "#BAFFBB"
+  brightYellow: "#FF7735"
+  brightBlue: "#A8D6FF"
+  brightMagenta: "#FF83C3"
+  brightCyan: "#BAFFEB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 69.1
+    black: 19.3
+    red: 29.1
+    green: 45.3
+    yellow: 31.1
+    blue: 19.8
+    magenta: 27.8
+    cyan: 42.9
+    white: 101.9
+    brightBlack: 47.2
+    brightRed: 39.1
+    brightGreen: 95
+    brightYellow: 49.2
+    brightBlue: 76.7
+    brightMagenta: 56.1
+    brightCyan: 96.8
+    brightWhite: 106

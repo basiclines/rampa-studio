@@ -1,0 +1,49 @@
+name: "Neon Cyber"
+source:
+  marketplace_id: "CodewithBismillah.axion-themes"
+  version: "1.1.1"
+  installs: 111
+  author: "Code with Bismillah"
+  repo: "https://github.com/mubashir1837/Axion-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.axion-themes"
+colors:
+  bg: "#0A0A0F"
+  fg: "#E0E0FF"
+  black: "#000000"
+  red: "#FF0080"
+  green: "#00FF80"
+  yellow: "#FFFF00"
+  blue: "#0080FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF4080"
+  brightGreen: "#40FF80"
+  brightYellow: "#FFFF40"
+  brightBlue: "#4080FF"
+  brightMagenta: "#FF40FF"
+  brightCyan: "#40FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  contrast:
+    fg: 89.3
+    black: 0
+    red: 39.1
+    green: 87.4
+    yellow: 102.5
+    blue: 36.9
+    magenta: 46.1
+    cyan: 92
+    white: 107.7
+    brightBlack: 22.9
+    brightRed: 42.3
+    brightGreen: 88
+    brightYellow: 102.7
+    brightBlue: 37.9
+    brightMagenta: 49
+    brightCyan: 92.6
+    brightWhite: 107.7

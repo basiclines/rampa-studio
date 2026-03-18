@@ -1,0 +1,49 @@
+name: "Concoctis - Dark : Soft"
+source:
+  marketplace_id: "wheredoesyourmindgo.gruvbox-concoctis"
+  version: "10.30.27"
+  installs: 74043
+  author: "wheredoesyourmindgo"
+  repo: "https://github.com/wheredoesyourmindgo/gruvbox-concoctis"
+  url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-concoctis"
+colors:
+  bg: "#32302F"
+  fg: "#D4BE98"
+  black: "#3C3836"
+  red: "#EA6962"
+  green: "#A9B665"
+  yellow: "#D8A657"
+  blue: "#7DAEA3"
+  magenta: "#D3869B"
+  cyan: "#89B482"
+  white: "#D4BE98"
+  brightBlack: "#928374"
+  brightRed: "#EA6962"
+  brightGreen: "#A9B665"
+  brightYellow: "#D8A657"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#D3869B"
+  brightCyan: "#89B482"
+  brightWhite: "#DDC7A1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 63.8
+    black: 0
+    red: 38.8
+    green: 53.8
+    yellow: 53.6
+    blue: 48
+    magenta: 43.8
+    cyan: 50.4
+    white: 63.8
+    brightBlack: 32.2
+    brightRed: 38.8
+    brightGreen: 53.8
+    brightYellow: 53.6
+    brightBlue: 48
+    brightMagenta: 43.8
+    brightCyan: 50.4
+    brightWhite: 69.1

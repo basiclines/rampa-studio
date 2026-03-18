@@ -1,0 +1,49 @@
+name: "Light code with bars"
+source:
+  marketplace_id: "nicegyuha.light-theme-with-bars"
+  version: "0.1.5"
+  installs: 253
+  author: "Gyuha Shin"
+  repo: "https://github.com/gyuha/light-theme-with-bars"
+  url: "https://marketplace.visualstudio.com/items?itemName=nicegyuha.light-theme-with-bars"
+colors:
+  bg: "#FFFFFF"
+  fg: "#908D8D"
+  black: "#000000"
+  red: "#FF0C00"
+  green: "#00BA51"
+  yellow: "#D0D500"
+  blue: "#0072F0"
+  magenta: "#FF00FF"
+  cyan: "#1D9F86"
+  white: "#A3A3A3"
+  brightBlack: "#6F6F6F"
+  brightRed: "#F77878"
+  brightGreen: "#79EEAC"
+  brightYellow: "#E6EA76"
+  brightBlue: "#3D9AFF"
+  brightMagenta: "#EC78EC"
+  brightCyan: "#58D3BC"
+  brightWhite: "#CBCBCB"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 60.3
+    black: 106
+    red: 64.1
+    green: 49.7
+    yellow: 26.5
+    blue: 70.3
+    magenta: 55.6
+    cyan: 60
+    white: 49.5
+    brightBlack: 74.8
+    brightRed: 51.1
+    brightGreen: 20.6
+    brightYellow: 13.9
+    brightBlue: 54.8
+    brightMagenta: 48.3
+    brightCyan: 34.1
+    brightWhite: 27.9

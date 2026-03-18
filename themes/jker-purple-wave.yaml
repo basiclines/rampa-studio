@@ -1,0 +1,49 @@
+name: "jker Purple Wave"
+source:
+  marketplace_id: "jker.purple-wave"
+  version: "1.0.1"
+  installs: 8191
+  author: "jker"
+  repo: "https://github.com/guidolee/jker-purple-wave"
+  url: "https://marketplace.visualstudio.com/items?itemName=jker.purple-wave"
+colors:
+  bg: "#1F1929"
+  fg: "#D4D4D4"
+  black: "#7F7F7F"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FFE2A9"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FFE2A9"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 301
+  contrast:
+    fg: 78.9
+    black: 32.7
+    red: 37.3
+    green: 64.3
+    yellow: 89.6
+    blue: 43.6
+    magenta: 51.5
+    cyan: 52.5
+    white: 78.9
+    brightBlack: 32.7
+    brightRed: 37.3
+    brightGreen: 64.3
+    brightYellow: 89.6
+    brightBlue: 43.6
+    brightMagenta: 51.5
+    brightCyan: 52.5
+    brightWhite: 78.9

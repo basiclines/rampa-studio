@@ -1,0 +1,49 @@
+name: "Kaio"
+source:
+  marketplace_id: "ciiqr.theme-kaio"
+  version: "1.5.0"
+  installs: 139
+  author: "ciiqr"
+  repo: "https://github.com/ciiqr/vscode-extensions"
+  url: "https://marketplace.visualstudio.com/items?itemName=ciiqr.theme-kaio"
+colors:
+  bg: "#292524"
+  fg: "#F5F5F4"
+  black: "#333333"
+  red: "#EC4899"
+  green: "#86B42B"
+  yellow: "#FACC15"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#DB2777"
+  brightGreen: "#A3E635"
+  brightYellow: "#FDDD6C"
+  brightBlue: "#818CF8"
+  brightMagenta: "#A78BFA"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F5F5F4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 98.2
+    black: 0
+    red: 36.9
+    green: 51
+    yellow: 75.7
+    blue: 32.6
+    magenta: 30.2
+    cyan: 48.4
+    white: 86.4
+    brightBlack: 20
+    brightRed: 28.4
+    brightGreen: 76.6
+    brightYellow: 84.2
+    brightBlue: 42.4
+    brightMagenta: 46.3
+    brightCyan: 79.1
+    brightWhite: 98.2

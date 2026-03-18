@@ -1,0 +1,49 @@
+name: "Jannchie Dark"
+source:
+  marketplace_id: "Jannchie.theme-jannchie"
+  version: "1.1.0"
+  installs: 78
+  author: "Jannchie"
+  repo: "https://github.com/jannchie/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Jannchie.theme-jannchie"
+colors:
+  bg: "#0F0F0F"
+  fg: "#D4D4D4"
+  black: "#393A34"
+  red: "#DB5A5A"
+  green: "#33B07E"
+  yellow: "#E4C150"
+  blue: "#4BABF2"
+  magenta: "#F24391"
+  cyan: "#57CBDD"
+  white: "#D4D4D4"
+  brightBlack: "#A3A3A3"
+  brightRed: "#DB5A5A"
+  brightGreen: "#33B07E"
+  brightYellow: "#E4C150"
+  brightBlue: "#4BABF2"
+  brightMagenta: "#F24391"
+  brightCyan: "#57CBDD"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 80.1
+    black: 0
+    red: 37.1
+    green: 48.8
+    yellow: 70.7
+    blue: 52.9
+    magenta: 40
+    cyan: 65.9
+    white: 80.1
+    brightBlack: 52.1
+    brightRed: 37.1
+    brightGreen: 48.8
+    brightYellow: 70.7
+    brightBlue: 52.9
+    brightMagenta: 40
+    brightCyan: 65.9
+    brightWhite: 80.1

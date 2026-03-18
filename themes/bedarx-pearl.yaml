@@ -1,0 +1,49 @@
+name: "BedarX Pearl"
+source:
+  marketplace_id: "saqibbedar.bedarx-pro"
+  version: "2.0.0"
+  installs: 136
+  author: "saqibbedar"
+  repo: "https://github.com/saqibbedar/BedarX-Pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=saqibbedar.bedarx-pro"
+colors:
+  bg: "#FFFFFF"
+  fg: "#383840"
+  black: "#383840"
+  red: "#D93E4C"
+  green: "#3D8F5F"
+  yellow: "#A67C2E"
+  blue: "#3A7AB8"
+  magenta: "#9446A8"
+  cyan: "#2D8A8A"
+  white: "#E8E8EF"
+  brightBlack: "#6E6E78"
+  brightRed: "#E06B74"
+  brightGreen: "#4BA672"
+  brightYellow: "#BE8A2D"
+  brightBlue: "#4A8FCC"
+  brightMagenta: "#A855A8"
+  brightCyan: "#3AA0A0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.7
+    black: 96.7
+    red: 69.5
+    green: 66.8
+    yellow: 65.3
+    blue: 71.1
+    magenta: 77.9
+    cyan: 67.9
+    white: 10.8
+    brightBlack: 74.9
+    brightRed: 58.9
+    brightGreen: 56.5
+    brightYellow: 57.3
+    brightBlue: 61.8
+    brightMagenta: 71.8
+    brightCyan: 58
+    brightWhite: 0

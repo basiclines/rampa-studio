@@ -1,0 +1,49 @@
+name: "clymate-vsdark.color-theme"
+source:
+  marketplace_id: "clydedsouza.clymate-themes-vscode"
+  version: "1.0.0"
+  installs: 2726
+  author: "Clyde D'Souza"
+  repo: "https://github.com/ClydeDz/clymate-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=clydedsouza.clymate-themes-vscode"
+colors:
+  bg: "#2E0000"
+  fg: "#F5E6E6"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F5E6E6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 29
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 24.5
+    green: 52.9
+    yellow: 57.5
+    blue: 34.5
+    magenta: 32.1
+    cyan: 50.3
+    white: 88.4
+    brightBlack: 21.9
+    brightRed: 37.2
+    brightGreen: 76.9
+    brightYellow: 83.8
+    brightBlue: 49.7
+    brightMagenta: 46.4
+    brightCyan: 73.3
+    brightWhite: 92.6

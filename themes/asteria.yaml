@@ -1,0 +1,49 @@
+name: "Asteria"
+source:
+  marketplace_id: "spaceinvadev.asteria"
+  version: "0.2.0"
+  installs: 699
+  author: "Mauro Paternina"
+  repo: "https://github.com/spaceinvadev/asteria"
+  url: "https://marketplace.visualstudio.com/items?itemName=spaceinvadev.asteria"
+colors:
+  bg: "#0E1011"
+  fg: "#7B7B7B"
+  black: "#0E1011"
+  red: "#FF8E8E"
+  green: "#65D39C"
+  yellow: "#D39165"
+  blue: "#6BB3EE"
+  magenta: "#F898D3"
+  cyan: "#8CEBE3"
+  white: "#F8F8F8"
+  brightBlack: "#0E1011"
+  brightRed: "#FF8E8E"
+  brightGreen: "#65D39C"
+  brightYellow: "#D39165"
+  brightBlue: "#6BB3EE"
+  brightMagenta: "#F898D3"
+  brightCyan: "#8CEBE3"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 32
+    black: 0
+    red: 58.6
+    green: 67.6
+    yellow: 50.5
+    blue: 57.4
+    magenta: 63.1
+    cyan: 84.3
+    white: 102.8
+    brightBlack: 0
+    brightRed: 58.6
+    brightGreen: 67.6
+    brightYellow: 50.5
+    brightBlue: 57.4
+    brightMagenta: 63.1
+    brightCyan: 84.3
+    brightWhite: 102.8

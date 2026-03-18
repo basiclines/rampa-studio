@@ -1,0 +1,49 @@
+name: "Man Dark Stone"
+source:
+  marketplace_id: "calvinludwig.wind-theme"
+  version: "1.0.0"
+  installs: 1681
+  author: "Calvin Ludwig"
+  repo: "https://github.com/calvinludwig/wind-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=calvinludwig.wind-theme"
+colors:
+  bg: "#1C1917"
+  fg: "#D6D3D1"
+  black: "#292524"
+  red: "#F43F5E"
+  green: "#22C55E"
+  yellow: "#FACC15"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#F5F5F4"
+  brightBlack: "#44403C"
+  brightRed: "#FB7185"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FDE047"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FAFAF9"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 37.5
+    green: 56.5
+    yellow: 77.5
+    blue: 36.5
+    magenta: 34.1
+    cyan: 53.6
+    white: 100
+    brightBlack: 7.4
+    brightRed: 49
+    brightGreen: 70.2
+    brightYellow: 86.9
+    brightBlue: 51.1
+    brightMagenta: 49.4
+    brightCyan: 68.3
+    brightWhite: 103.2

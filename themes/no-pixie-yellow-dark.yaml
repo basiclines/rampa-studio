@@ -1,0 +1,49 @@
+name: "No Pixie Yellow Dark"
+source:
+  marketplace_id: "no-pixie.nopixie-theme"
+  version: "2.1.0"
+  installs: 28
+  author: "No Pixie"
+  repo: "https://github.com/nopixie/nopixie-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"
+colors:
+  bg: "#352B23"
+  fg: "#F8F4E8"
+  black: "#2A2018"
+  red: "#F65A5A"
+  green: "#A8B878"
+  yellow: "#FFE680"
+  blue: "#8B8EC8"
+  magenta: "#735E7A"
+  cyan: "#7AB8B0"
+  white: "#E8DCCE"
+  brightBlack: "#7A6850"
+  brightRed: "#FF7B7B"
+  brightGreen: "#C8D898"
+  brightYellow: "#FFE8A0"
+  brightBlue: "#A8B0E8"
+  brightMagenta: "#A88EC8"
+  brightCyan: "#A8D8D0"
+  brightWhite: "#FFE680"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 61
+  contrast:
+    fg: 96.2
+    black: 0
+    red: 38.9
+    green: 55.7
+    yellow: 87.5
+    blue: 39.5
+    magenta: 18.3
+    cyan: 53.3
+    white: 82
+    brightBlack: 20.7
+    brightRed: 48.9
+    brightGreen: 74.2
+    brightYellow: 89.2
+    brightBlue: 56.9
+    brightMagenta: 42.8
+    brightCyan: 72.7
+    brightWhite: 87.5

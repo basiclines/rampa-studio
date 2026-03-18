@@ -1,0 +1,49 @@
+name: "theme"
+source:
+  marketplace_id: "lioa.themeol"
+  version: "0.0.1"
+  installs: 14
+  author: "lioa"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=lioa.themeol"
+colors:
+  bg: "#191830"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#EC3A37"
+  green: "#3AD900"
+  yellow: "#FAD000"
+  blue: "#7857FE"
+  magenta: "#FF2C70"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#EC3A37"
+  brightGreen: "#3AD900"
+  brightYellow: "#FAD000"
+  brightBlue: "#6943FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 284
+  contrast:
+    fg: 106.4
+    black: 0
+    red: 34.3
+    green: 65.8
+    yellow: 79
+    blue: 29.1
+    magenta: 38.7
+    cyan: 92.3
+    white: 106.4
+    brightBlack: 17.6
+    brightRed: 34.3
+    brightGreen: 65.8
+    brightYellow: 79
+    brightBlue: 24
+    brightMagenta: 63.9
+    brightCyan: 92.3
+    brightWhite: 106.4

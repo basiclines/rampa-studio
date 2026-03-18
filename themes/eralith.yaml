@@ -1,0 +1,49 @@
+name: "Eralith"
+source:
+  marketplace_id: "eralith-theme.eralith-theme"
+  version: "1.0.3"
+  installs: 114
+  author: "Eralith Theme"
+  repo: "https://github.com/Danrley-Ruan-Saquetti/Eralith-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eralith-theme.eralith-theme"
+colors:
+  bg: "#211B26"
+  fg: "#D1D1D1"
+  black: "#000000"
+  red: "#A52AFF"
+  green: "#7129FF"
+  yellow: "#3D2AFF"
+  blue: "#2B4FFF"
+  magenta: "#BC3FBC"
+  cyan: "#28B9FF"
+  white: "#F1F1F1"
+  brightBlack: "#757575"
+  brightRed: "#BA5AFF"
+  brightGreen: "#905AFF"
+  brightYellow: "#685AFF"
+  brightBlue: "#5C78FF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 309
+  contrast:
+    fg: 76.9
+    black: 0
+    red: 28.2
+    green: 21.3
+    yellow: 17.5
+    blue: 22.4
+    magenta: 29
+    cyan: 57.3
+    white: 96.9
+    brightBlack: 27.9
+    brightRed: 38
+    brightGreen: 32.2
+    brightYellow: 28.1
+    brightBlue: 35.2
+    brightMagenta: 44.6
+    brightCyan: 54.6
+    brightWhite: 106.1

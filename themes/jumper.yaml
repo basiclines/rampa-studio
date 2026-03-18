@@ -1,0 +1,49 @@
+name: "jumper"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#222A2A"
+  fg: "#8DA0A0"
+  black: "#2D3838"
+  red: "#BA0E2E"
+  green: "#36A595"
+  yellow: "#F6DA40"
+  blue: "#DB515C"
+  magenta: "#E08E4C"
+  cyan: "#36A595"
+  white: "#9BACAC"
+  brightBlack: "#506262"
+  brightRed: "#F03E5F"
+  brightGreen: "#71D0C3"
+  brightYellow: "#FBEDA1"
+  brightBlue: "#ECA6AB"
+  brightMagenta: "#EFC5A3"
+  brightCyan: "#71D0C3"
+  brightWhite: "#C5CECE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 197
+  contrast:
+    fg: 45.3
+    black: 0
+    red: 18
+    green: 41.7
+    yellow: 80.8
+    blue: 32.3
+    magenta: 48.2
+    cyan: 41.7
+    white: 51.9
+    brightBlack: 16.4
+    brightRed: 34.3
+    brightGreen: 65.1
+    brightYellow: 91.8
+    brightBlue: 60.7
+    brightMagenta: 72.7
+    brightCyan: 65.1
+    brightWhite: 72.2

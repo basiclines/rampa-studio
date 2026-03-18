@@ -1,0 +1,49 @@
+name: "sky-neon"
+source:
+  marketplace_id: "sky-designs.sky-themes"
+  version: "0.0.3"
+  installs: 498
+  author: "sky-designs"
+  repo: "https://gitlab.com/mskyberg/sky-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=sky-designs.sky-themes"
+colors:
+  bg: "#180049"
+  fg: "#F70A5A"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#CE0A4C"
+  brightYellow: "#FFE580"
+  brightBlue: "#00AAAA"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 286
+  contrast:
+    fg: 35
+    black: 0
+    red: 63
+    green: 90.5
+    yellow: 95.4
+    blue: 81
+    magenta: 74.4
+    cyan: 95.6
+    white: 74.3
+    brightBlack: 0
+    brightRed: 51.3
+    brightGreen: 24.9
+    brightYellow: 90.1
+    brightBlue: 46.3
+    brightMagenta: 49.9
+    brightCyan: 93.5
+    brightWhite: 106.5

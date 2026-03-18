@@ -1,0 +1,49 @@
+name: "Ocean Breeze"
+source:
+  marketplace_id: "nhcarrigan.ocean-breeze"
+  version: "1.1.1"
+  installs: 28
+  author: "NHCarrigan"
+  repo: "https://codeberg.org/nhcarrigan/ocean-breeze"
+  url: "https://marketplace.visualstudio.com/items?itemName=nhcarrigan.ocean-breeze"
+colors:
+  bg: "#012A22"
+  fg: "#ABFCEC"
+  black: "#001610"
+  red: "#FF6B6B"
+  green: "#4DDBBA"
+  yellow: "#FFD93D"
+  blue: "#6BC5FF"
+  magenta: "#FF92DF"
+  cyan: "#89FFEA"
+  white: "#C4FCF2"
+  brightBlack: "#012A22"
+  brightRed: "#FF8585"
+  brightGreen: "#6BEDCC"
+  brightYellow: "#FFE074"
+  brightBlue: "#92D5FF"
+  brightMagenta: "#FFB2E7"
+  brightCyan: "#A9FFF0"
+  brightWhite: "#E2FCF8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 176
+  contrast:
+    fg: 93
+    black: 0
+    red: 46.1
+    green: 68.9
+    yellow: 82.3
+    blue: 63.6
+    magenta: 60.6
+    cyan: 91.8
+    white: 95.6
+    brightBlack: 0
+    brightRed: 53.2
+    brightGreen: 79.7
+    brightYellow: 86.1
+    brightBlue: 73.3
+    brightMagenta: 71.5
+    brightCyan: 94.5
+    brightWhite: 99.3

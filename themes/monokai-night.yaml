@@ -1,0 +1,49 @@
+name: "Monokai Night"
+source:
+  marketplace_id: "jonbellah.monokai-after-dark"
+  version: "0.1.4"
+  installs: 1895
+  author: "Jon Bellah"
+  repo: "https://github.com/jonbellah/monokai-after-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=jonbellah.monokai-after-dark"
+colors:
+  bg: "#1D232F"
+  fg: "#A8B5D1"
+  black: "#111111"
+  red: "#FC2D1E"
+  green: "#2FCC71"
+  yellow: "#F1C40D"
+  blue: "#3398DB"
+  magenta: "#6171C4"
+  cyan: "#0095DE"
+  white: "#DEE2EA"
+  brightBlack: "#7992B4"
+  brightRed: "#FF5874"
+  brightGreen: "#6AF699"
+  brightYellow: "#FFFA9E"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#4FF2F8"
+  brightWhite: "#99A3B8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 59.5
+    black: 0
+    red: 35.7
+    green: 59.1
+    yellow: 71.4
+    blue: 40.9
+    magenta: 28
+    cyan: 39.4
+    white: 86.4
+    brightBlack: 40.1
+    brightRed: 43
+    brightGreen: 82.9
+    brightYellow: 99.4
+    brightBlue: 54.4
+    brightMagenta: 52.2
+    brightCyan: 83.6
+    brightWhite: 49.7

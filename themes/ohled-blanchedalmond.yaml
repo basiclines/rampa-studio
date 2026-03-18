@@ -1,0 +1,49 @@
+name: "OhLED_BlanchedAlmond"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFEBCD"
+  black: "#FFEBCD"
+  red: "#BBAC96"
+  green: "#CCBCA4"
+  yellow: "#998D7B"
+  blue: "#EEDBBF"
+  magenta: "#DDCCB2"
+  cyan: "#AA9D89"
+  white: "#887D6D"
+  brightBlack: "#FFEBCD"
+  brightRed: "#BBAC96"
+  brightGreen: "#CCBCA4"
+  brightYellow: "#998D7B"
+  brightBlue: "#EEDBBF"
+  brightMagenta: "#DDCCB2"
+  brightCyan: "#AA9D89"
+  brightWhite: "#887D6D"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 96.5
+    black: 96.5
+    red: 58.4
+    green: 67.5
+    yellow: 41.8
+    blue: 86.3
+    magenta: 76.9
+    cyan: 50.1
+    white: 34
+    brightBlack: 96.5
+    brightRed: 58.4
+    brightGreen: 67.5
+    brightYellow: 41.8
+    brightBlue: 86.3
+    brightMagenta: 76.9
+    brightCyan: 50.1
+    brightWhite: 34

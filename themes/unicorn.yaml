@@ -1,0 +1,49 @@
+name: "Unicorn"
+source:
+  marketplace_id: "walele993.fable-code-theme"
+  version: "1.2.0"
+  installs: 46
+  author: "Gabriele Meucci"
+  repo: "https://github.com/walele993/fable_a_vsc_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=walele993.fable-code-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#FFFFFF"
+  red: "#E85A94"
+  green: "#6C9C86"
+  yellow: "#B8A898"
+  blue: "#7A4EBF"
+  magenta: "#D6409F"
+  cyan: "#A3C9A3"
+  white: "#333333"
+  brightBlack: "#888888"
+  brightRed: "#E85A94"
+  brightGreen: "#6C9C86"
+  brightYellow: "#B8A898"
+  brightBlue: "#7A4EBF"
+  brightMagenta: "#D6409F"
+  brightCyan: "#A3C9A3"
+  brightWhite: "#333333"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 59.8
+    green: 58.1
+    yellow: 45.6
+    blue: 78.2
+    magenta: 67.2
+    cyan: 34.4
+    white: 98.7
+    brightBlack: 63.1
+    brightRed: 59.8
+    brightGreen: 58.1
+    brightYellow: 45.6
+    brightBlue: 78.2
+    brightMagenta: 67.2
+    brightCyan: 34.4
+    brightWhite: 98.7

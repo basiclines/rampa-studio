@@ -1,0 +1,49 @@
+name: "Vela Spectrum High Contrast"
+source:
+  marketplace_id: "telianedward.vela-spectrum"
+  version: "0.3.7"
+  installs: 75
+  author: "Vela Inc"
+  repo: "https://github.com/Telianedward/VelaSpectrum"
+  url: "https://marketplace.visualstudio.com/items?itemName=telianedward.vela-spectrum"
+colors:
+  bg: "#0D1117"
+  fg: "#F6F8FA"
+  black: "#252525"
+  red: "#AC0000"
+  green: "#00810B"
+  yellow: "#B76F00"
+  blue: "#5527FF"
+  magenta: "#C00072"
+  cyan: "#007DB7"
+  white: "#F6F8FA"
+  brightBlack: "#3D444D"
+  brightRed: "#D20000"
+  brightGreen: "#00A134"
+  brightYellow: "#D88F00"
+  brightBlue: "#6A5AFF"
+  brightMagenta: "#E50090"
+  brightCyan: "#009CD8"
+  brightWhite: "#F6F8FA"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 258
+  contrast:
+    fg: 102.6
+    black: 0
+    red: 17.7
+    green: 27
+    yellow: 34.5
+    blue: 19.9
+    magenta: 23.7
+    cyan: 30.2
+    white: 102.6
+    brightBlack: 9.1
+    brightRed: 26.1
+    brightGreen: 40.3
+    brightYellow: 49.8
+    brightBlue: 29.5
+    brightMagenta: 33.1
+    brightCyan: 43.8
+    brightWhite: 102.6

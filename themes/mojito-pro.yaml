@@ -1,0 +1,49 @@
+name: "Mojito Pro"
+source:
+  marketplace_id: "mishatoshi.mojito-pro-vscode-theme"
+  version: "3.1.0"
+  installs: 116
+  author: "mishatoshi"
+  repo: "https://github.com/mishatoshi/mojito-pro-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mishatoshi.mojito-pro-vscode-theme"
+colors:
+  bg: "#0A1E14"
+  fg: "#D8F3E6"
+  black: "#02120A"
+  red: "#F2240D"
+  green: "#33CC52"
+  yellow: "#E6D119"
+  blue: "#178AE8"
+  magenta: "#C738AD"
+  cyan: "#13D3EC"
+  white: "#D8F3E6"
+  brightBlack: "#339966"
+  brightRed: "#F66555"
+  brightGreen: "#70DB86"
+  brightYellow: "#EDDF5E"
+  brightBlue: "#5DADEF"
+  brightMagenta: "#D874C5"
+  brightCyan: "#5AE0F2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 160
+  contrast:
+    fg: 94.5
+    black: 0
+    red: 33.7
+    green: 59.8
+    yellow: 76.4
+    blue: 37.3
+    magenta: 29.7
+    cyan: 67.9
+    white: 94.5
+    brightBlack: 37.3
+    brightRed: 44
+    brightGreen: 70.4
+    brightYellow: 84.1
+    brightBlue: 53.2
+    brightMagenta: 45.3
+    brightCyan: 75.9
+    brightWhite: 106.5

@@ -1,0 +1,49 @@
+name: "simple-calm-dark"
+source:
+  marketplace_id: "syukronarie.simple-calm-dark"
+  version: "0.0.2"
+  installs: 240
+  author: "Arie Syukron"
+  repo: "https://github.com/syukronarie/simple-calm-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=syukronarie.simple-calm-dark"
+colors:
+  bg: "#0C0C0C"
+  fg: "#AAAAAA"
+  black: "#0C0C0C"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 56
+    black: 0
+    red: 27.5
+    green: 53.8
+    yellow: 86.4
+    blue: 28.2
+    magenta: 30.5
+    cyan: 48.3
+    white: 90.8
+    brightBlack: 22.8
+    brightRed: 39.3
+    brightGreen: 64.3
+    brightYellow: 96.4
+    brightBlue: 40.8
+    brightMagenta: 46.2
+    brightCyan: 56.2
+    brightWhite: 90.8

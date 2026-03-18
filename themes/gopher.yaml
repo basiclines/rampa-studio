@@ -1,0 +1,49 @@
+name: "Gopher"
+source:
+  marketplace_id: "mnxn.gopher-theme"
+  version: "0.1.2"
+  installs: 504
+  author: "mnxn"
+  repo: "https://github.com/mnxn/vscode-gopher-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mnxn.gopher-theme"
+colors:
+  bg: "#FFFFDD"
+  fg: "#1B1A1A"
+  black: "#1B1A1A"
+  red: "#CE3062"
+  green: "#22BBAA"
+  yellow: "#FFED88"
+  blue: "#01ADD8"
+  magenta: "#F8AADD"
+  cyan: "#5EC9E3"
+  white: "#E9F3F9"
+  brightBlack: "#555757"
+  brightRed: "#CE3062"
+  brightGreen: "#22BBAA"
+  brightYellow: "#FFED88"
+  brightBlue: "#01ADD8"
+  brightMagenta: "#F8AADD"
+  brightCyan: "#5EC9E3"
+  brightWhite: "#E9F3F9"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 102.9
+    black: 102.9
+    red: 71.6
+    green: 45.4
+    yellow: 7.5
+    blue: 49.3
+    magenta: 31.4
+    cyan: 35.1
+    white: 0
+    brightBlack: 83.9
+    brightRed: 71.6
+    brightGreen: 45.4
+    brightYellow: 7.5
+    brightBlue: 49.3
+    brightMagenta: 31.4
+    brightCyan: 35.1
+    brightWhite: 0

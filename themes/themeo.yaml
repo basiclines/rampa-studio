@@ -1,0 +1,49 @@
+name: "ThemeO"
+source:
+  marketplace_id: "th7mo.theme-o"
+  version: "1.1.10"
+  installs: 299
+  author: "th7mo"
+  repo: "https://github.com/th7mo/intellij-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=th7mo.theme-o"
+colors:
+  bg: "#1E1F22"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#F0524F"
+  green: "#7EC482"
+  yellow: "#DEBC7E"
+  blue: "#749DED"
+  magenta: "#A771BF"
+  cyan: "#749DED"
+  white: "#808080"
+  brightBlack: "#666666"
+  brightRed: "#FA5762"
+  brightGreen: "#7EC482"
+  brightYellow: "#DEBC7E"
+  brightBlue: "#749DED"
+  brightMagenta: "#A771BF"
+  brightCyan: "#749DED"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 38.4
+    green: 59.8
+    yellow: 67
+    blue: 47.7
+    magenta: 35.8
+    cyan: 47.7
+    white: 32.8
+    brightBlack: 21.1
+    brightRed: 41.8
+    brightGreen: 59.8
+    brightYellow: 67
+    brightBlue: 47.7
+    brightMagenta: 35.8
+    brightCyan: 47.7
+    brightWhite: 89

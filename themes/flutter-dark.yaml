@@ -1,0 +1,49 @@
+name: "Flutter Dark"
+source:
+  marketplace_id: "vmcgon.flutter-theme"
+  version: "0.0.1"
+  installs: 3704
+  author: "vmcgon"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=vmcgon.flutter-theme"
+colors:
+  bg: "#283142"
+  fg: "#ECEFF1"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#F5F5F5"
+  brightBlack: "#666666"
+  brightRed: "#F48771"
+  brightGreen: "#6BCF19"
+  brightYellow: "#D7BA7D"
+  brightBlue: "#4C78DD"
+  brightMagenta: "#C586C0"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 263
+  contrast:
+    fg: 91.8
+    black: 0
+    red: 32.2
+    green: 81.2
+    yellow: 97.4
+    blue: 10.9
+    magenta: 40.9
+    cyan: 86.9
+    white: 96
+    brightBlack: 17.7
+    brightRed: 48.7
+    brightGreen: 59
+    brightYellow: 61.8
+    brightBlue: 27.9
+    brightMagenta: 43
+    brightCyan: 63.5
+    brightWhite: 102.6

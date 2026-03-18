@@ -1,0 +1,49 @@
+name: "Australian Food & Fibre Light"
+source:
+  marketplace_id: "lucidlabs.australian-food-fibre-theme"
+  version: "1.1.0"
+  installs: 8
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.australian-food-fibre-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#111827"
+  black: "#111827"
+  red: "#D43030"
+  green: "#2E8B30"
+  yellow: "#8B6B20"
+  blue: "#1E3D82"
+  magenta: "#8B30A8"
+  cyan: "#1B7264"
+  white: "#FFFFFF"
+  brightBlack: "#636B78"
+  brightRed: "#E04040"
+  brightGreen: "#3AA040"
+  brightYellow: "#A08030"
+  brightBlue: "#2A50A0"
+  brightMagenta: "#A040C0"
+  brightCyan: "#20887A"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 104.5
+    black: 104.5
+    red: 72.5
+    green: 69.6
+    yellow: 74.3
+    blue: 93.4
+    magenta: 82.6
+    cyan: 78.5
+    white: 0
+    brightBlack: 76.8
+    brightRed: 67.8
+    brightGreen: 60.5
+    brightYellow: 64.8
+    brightBlue: 86.1
+    brightMagenta: 75.4
+    brightCyan: 69.5
+    brightWhite: 0

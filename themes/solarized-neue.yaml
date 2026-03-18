@@ -1,0 +1,49 @@
+name: "Solarized Neue"
+source:
+  marketplace_id: "diamondmind.solarized-neue"
+  version: "0.26.0"
+  installs: 4083
+  author: "Phillip Sauerbeck"
+  repo: "https://github.com/pmsaue0/solarized-neue"
+  url: "https://marketplace.visualstudio.com/items?itemName=diamondmind.solarized-neue"
+colors:
+  bg: "#041E27"
+  fg: "#839496"
+  black: "#93A1A1"
+  red: "#DE3D3B"
+  green: "#08916A"
+  yellow: "#E0AF02"
+  blue: "#288ED7"
+  magenta: "#D6438A"
+  cyan: "#2AA298"
+  white: "#212121"
+  brightBlack: "#93A1A1"
+  brightRed: "#DE3D3B"
+  brightGreen: "#08916A"
+  brightYellow: "#DAAA01"
+  brightBlue: "#288ED7"
+  brightMagenta: "#D6438A"
+  brightCyan: "#2AA298"
+  brightWhite: "#212121"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 224
+  contrast:
+    fg: 41.4
+    black: 48.3
+    red: 31.4
+    green: 33.4
+    yellow: 61.4
+    blue: 37.6
+    magenta: 32.4
+    cyan: 42.3
+    white: 0
+    brightBlack: 48.3
+    brightRed: 31.4
+    brightGreen: 33.4
+    brightYellow: 58.5
+    brightBlue: 37.6
+    brightMagenta: 32.4
+    brightCyan: 42.3
+    brightWhite: 0

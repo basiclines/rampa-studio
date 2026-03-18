@@ -1,0 +1,49 @@
+name: "Regard"
+source:
+  marketplace_id: "nasmevka.regard"
+  version: "1.5.0"
+  installs: 746
+  author: "nasmevka"
+  repo: "https://gitlab.com/regard_theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nasmevka.regard"
+colors:
+  bg: "#1D1F20"
+  fg: "#F4ECF0"
+  black: "#303336"
+  red: "#C9303E"
+  green: "#4E945F"
+  yellow: "#FFBF6E"
+  blue: "#6690B3"
+  magenta: "#9989A3"
+  cyan: "#4E945F"
+  white: "#F4ECF0"
+  brightBlack: "#43474C"
+  brightRed: "#C9303E"
+  brightGreen: "#4E945F"
+  brightYellow: "#FFBF6E"
+  brightBlue: "#6690B3"
+  brightMagenta: "#9989A3"
+  brightCyan: "#9989A3"
+  brightWhite: "#F4ECF0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 94.8
+    black: 0
+    red: 25
+    green: 35.6
+    yellow: 73.3
+    blue: 38.5
+    magenta: 40
+    cyan: 35.6
+    white: 94.8
+    brightBlack: 8.8
+    brightRed: 25
+    brightGreen: 35.6
+    brightYellow: 73.3
+    brightBlue: 38.5
+    brightMagenta: 40
+    brightCyan: 40
+    brightWhite: 94.8

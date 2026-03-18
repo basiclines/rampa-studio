@@ -1,0 +1,49 @@
+name: "OhLED_IndianRed"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#CD5C5C"
+  black: "#CD5C5C"
+  red: "#964343"
+  green: "#A44A4A"
+  yellow: "#7B3737"
+  blue: "#BF5656"
+  magenta: "#B25050"
+  cyan: "#893D3D"
+  white: "#6D3131"
+  brightBlack: "#CD5C5C"
+  brightRed: "#964343"
+  brightGreen: "#A44A4A"
+  brightYellow: "#7B3737"
+  brightBlue: "#BF5656"
+  brightMagenta: "#B25050"
+  brightCyan: "#893D3D"
+  brightWhite: "#6D3131"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 35.1
+    black: 35.1
+    red: 19.7
+    green: 23.6
+    yellow: 13.1
+    blue: 31.1
+    magenta: 27.3
+    cyan: 16.4
+    white: 10
+    brightBlack: 35.1
+    brightRed: 19.7
+    brightGreen: 23.6
+    brightYellow: 13.1
+    brightBlue: 31.1
+    brightMagenta: 27.3
+    brightCyan: 16.4
+    brightWhite: 10

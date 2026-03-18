@@ -1,0 +1,49 @@
+name: "Intrepid Darkness"
+source:
+  marketplace_id: "KeineAhnung.intepriddarkness"
+  version: "1.9.2"
+  installs: 218
+  author: "KeineAhnung"
+  repo: "https://github.com/TheKeineAhnung/Intrepid-Darkness"
+  url: "https://marketplace.visualstudio.com/items?itemName=KeineAhnung.intepriddarkness"
+colors:
+  bg: "#0E0E0E"
+  fg: "#F0F0F0"
+  black: "#161A21"
+  red: "#96033C"
+  green: "#51C58B"
+  yellow: "#BEB12B"
+  blue: "#2196F3"
+  magenta: "#CD0F8B"
+  cyan: "#01BFCF"
+  white: "#B4B4B4"
+  brightBlack: "#A0AABE"
+  brightRed: "#FF3A48"
+  brightGreen: "#63F3AB"
+  brightYellow: "#ECDA32"
+  brightBlue: "#00C3FF"
+  brightMagenta: "#FF00AA"
+  brightCyan: "#00EDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 97.7
+    black: 0
+    red: 13.8
+    green: 59.7
+    yellow: 58.5
+    blue: 43.7
+    magenta: 27.8
+    cyan: 58.3
+    white: 61.5
+    brightBlack: 55.7
+    brightRed: 40.2
+    brightGreen: 83.9
+    brightYellow: 82.4
+    brightBlue: 62.8
+    brightMagenta: 40.6
+    brightCyan: 82.7
+    brightWhite: 107.6

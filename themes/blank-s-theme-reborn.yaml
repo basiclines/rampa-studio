@@ -1,0 +1,49 @@
+name: "Blank's Theme Reborn"
+source:
+  marketplace_id: "QuidqueStudio.blank-s-theme-reborn"
+  version: "1.0.1"
+  installs: 17
+  author: "Quidque Studio"
+  repo: "https://github.com/Quidque-Studio/Blank-s-Theme-Reborn"
+  url: "https://marketplace.visualstudio.com/items?itemName=QuidqueStudio.blank-s-theme-reborn"
+colors:
+  bg: "#1A1A2E"
+  fg: "#E8E8E8"
+  black: "#1A1A2E"
+  red: "#CB1010"
+  green: "#0DBC79"
+  yellow: "#C9C90E"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#BBBBBB"
+  brightBlack: "#666666"
+  brightRed: "#FF5252"
+  brightGreen: "#00E6A8"
+  brightYellow: "#FFFF3B"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#E91E8C"
+  brightCyan: "#29B8DB"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 283
+  contrast:
+    fg: 91.3
+    black: 0
+    red: 23.5
+    green: 52.4
+    yellow: 68.7
+    blue: 26.8
+    magenta: 29.2
+    cyan: 47
+    white: 64.1
+    brightBlack: 21.4
+    brightRed: 42.3
+    brightGreen: 74
+    brightYellow: 101.3
+    brightBlue: 39.4
+    brightMagenta: 33.3
+    brightCyan: 54.8
+    brightWhite: 84.4

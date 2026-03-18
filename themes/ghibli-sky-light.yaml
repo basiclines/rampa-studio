@@ -1,0 +1,49 @@
+name: "Ghibli Sky (Light)"
+source:
+  marketplace_id: "danibram.ghibli-inspired-theme"
+  version: "1.0.0"
+  installs: 267
+  author: "Daniel Biedma"
+  repo: "https://github.com/danibram/ghibli-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=danibram.ghibli-inspired-theme"
+colors:
+  bg: "#F8F4ED"
+  fg: "#4A4540"
+  black: "#4A4540"
+  red: "#A85858"
+  green: "#4A8A58"
+  yellow: "#B88A28"
+  blue: "#4878A8"
+  magenta: "#8A5888"
+  cyan: "#388888"
+  white: "#E8E2D8"
+  brightBlack: "#7A7570"
+  brightRed: "#C87070"
+  brightGreen: "#5AA868"
+  brightYellow: "#D4A838"
+  brightBlue: "#5890C0"
+  brightMagenta: "#A870A0"
+  brightCyan: "#48A0A0"
+  brightWhite: "#F8F4ED"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 85.6
+    black: 85.6
+    red: 67.9
+    green: 62
+    yellow: 51.8
+    blue: 65.7
+    magenta: 70.9
+    cyan: 62.1
+    white: 8
+    brightBlack: 65.3
+    brightRed: 55.9
+    brightGreen: 48.8
+    brightYellow: 37.2
+    brightBlue: 55.1
+    brightMagenta: 59.3
+    brightCyan: 51.2
+    brightWhite: 0

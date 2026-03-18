@@ -1,0 +1,49 @@
+name: "white-blue-demo"
+source:
+  marketplace_id: "white-blue-demo.white-blue-demo"
+  version: "1.0.0"
+  installs: 180
+  author: "white-blue-demo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=white-blue-demo.white-blue-demo"
+colors:
+  bg: "#EDEFF1"
+  fg: "#1D344F"
+  black: "#000000"
+  red: "#C98093"
+  green: "#7CA198"
+  yellow: "#C48D52"
+  blue: "#6080B0"
+  magenta: "#916A9D"
+  cyan: "#6CA8CF"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#C98093"
+  brightGreen: "#7CA198"
+  brightYellow: "#C48D52"
+  brightBlue: "#6080B0"
+  brightMagenta: "#916A9D"
+  brightCyan: "#6CA8CF"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 88.9
+    black: 96.4
+    red: 46.9
+    green: 44.7
+    yellow: 45.3
+    blue: 57.8
+    magenta: 60.9
+    cyan: 40.7
+    white: 76.3
+    brightBlack: 69.1
+    brightRed: 46.9
+    brightGreen: 44.7
+    brightYellow: 45.3
+    brightBlue: 57.8
+    brightMagenta: 60.9
+    brightCyan: 40.7
+    brightWhite: 38.8

@@ -1,0 +1,49 @@
+name: "sourlick"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#2E2C2B"
+  fg: "#DEDEDE"
+  black: "#3B3937"
+  red: "#BA0E2E"
+  green: "#EDF252"
+  yellow: "#8AC27A"
+  blue: "#BDF522"
+  magenta: "#D2EB31"
+  cyan: "#FFBB29"
+  white: "#EBEBEB"
+  brightBlack: "#635E5C"
+  brightRed: "#F03E5F"
+  brightGreen: "#F7F9B1"
+  brightYellow: "#C8E2C0"
+  brightBlue: "#DAF984"
+  brightMagenta: "#E6F48E"
+  brightCyan: "#FFDB8F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 82.3
+    black: 0
+    red: 17.2
+    green: 89.9
+    yellow: 57.3
+    blue: 85.3
+    magenta: 82.8
+    cyan: 68.6
+    white: 90.5
+    brightBlack: 15.8
+    brightRed: 33.5
+    brightGreen: 96.5
+    brightYellow: 80.2
+    brightBlue: 91.6
+    brightMagenta: 90.9
+    brightCyan: 83.1
+    brightWhite: 103.6

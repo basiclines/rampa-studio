@@ -1,0 +1,49 @@
+name: "Rouge No Italics"
+source:
+  marketplace_id: "josef.rouge-theme"
+  version: "2.1.6"
+  installs: 53319
+  author: "josef"
+  repo: "https://github.com/josefaidt/rouge-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=josef.rouge-theme"
+colors:
+  bg: "#172030"
+  fg: "#BBBBBB"
+  black: "#374E73"
+  red: "#C6797E"
+  green: "#ADB9A4"
+  yellow: "#ECE7AC"
+  blue: "#6E94B9"
+  magenta: "#B18BB1"
+  cyan: "#8AB6C1"
+  white: "#E3E4E8"
+  brightBlack: "#3F5A85"
+  brightRed: "#D19498"
+  brightGreen: "#BEC8B7"
+  brightYellow: "#F2EFC7"
+  brightBlue: "#98B3CD"
+  brightMagenta: "#CCB3CC"
+  brightCyan: "#ABCBD3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 63.6
+    black: 11.2
+    red: 39.9
+    green: 60.3
+    yellow: 88.6
+    blue: 40.7
+    magenta: 44.1
+    cyan: 56.8
+    white: 88.3
+    brightBlack: 15.8
+    brightRed: 50.9
+    brightGreen: 69.3
+    brightYellow: 94
+    brightBlue: 57.4
+    brightMagenta: 63.4
+    brightCyan: 69.6
+    brightWhite: 105.8

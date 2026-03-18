@@ -1,0 +1,49 @@
+name: "Athabasca Light"
+source:
+  marketplace_id: "ianlord.athabasca"
+  version: "0.0.3"
+  installs: 637
+  author: "Ian Lord"
+  repo: "https://github.com/ianlord/athabasca"
+  url: "https://marketplace.visualstudio.com/items?itemName=ianlord.athabasca"
+colors:
+  bg: "#0C151C"
+  fg: "#E3F0FF"
+  black: "#263849"
+  red: "#A82E2E"
+  green: "#46997B"
+  yellow: "#B07426"
+  blue: "#4C6B88"
+  magenta: "#A40E45"
+  cyan: "#3288A7"
+  white: "#E6E6E6"
+  brightBlack: "#728BA5"
+  brightRed: "#F04242"
+  brightGreen: "#75FFCD"
+  brightYellow: "#FFB452"
+  brightBlue: "#88B2D9"
+  brightMagenta: "#D64379"
+  brightCyan: "#3CAED7"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 242
+  contrast:
+    fg: 96.3
+    black: 0
+    red: 18.9
+    green: 39.2
+    yellow: 34.6
+    blue: 23.2
+    magenta: 16.5
+    cyan: 33.7
+    white: 90.9
+    brightBlack: 38.1
+    brightRed: 37
+    brightGreen: 91.7
+    brightYellow: 69.8
+    brightBlue: 57.5
+    brightMagenta: 32.6
+    brightCyan: 51.6
+    brightWhite: 103.8

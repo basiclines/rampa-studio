@@ -1,0 +1,49 @@
+name: "OA515"
+source:
+  marketplace_id: "kingllama.oa515"
+  version: "1.2.0"
+  installs: 95
+  author: "kingllama"
+  repo: "https://github.com/kingllama/vscode-OA515"
+  url: "https://marketplace.visualstudio.com/items?itemName=kingllama.oa515"
+colors:
+  bg: "#F7F4EB"
+  fg: "#1E1C04"
+  black: "#1E1C04"
+  red: "#BE0033"
+  green: "#547A00"
+  yellow: "#AC5B00"
+  blue: "#2E409A"
+  magenta: "#AF56FF"
+  cyan: "#007F87"
+  white: "#B8B8B8"
+  brightBlack: "#5F5F57"
+  brightRed: "#C7224E"
+  brightGreen: "#9BC53D"
+  brightYellow: "#ED9B40"
+  brightBlue: "#4C61CA"
+  brightMagenta: "#D7ABFF"
+  brightCyan: "#75B9BE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 97.5
+    black: 97.5
+    red: 72.9
+    green: 68.1
+    yellow: 67.1
+    blue: 83.9
+    magenta: 57.8
+    cyan: 66.1
+    white: 31.8
+    brightBlack: 75.4
+    brightRed: 69.6
+    brightGreen: 32.3
+    brightYellow: 37.4
+    brightBlue: 70.2
+    brightMagenta: 29.1
+    brightCyan: 37.2
+    brightWhite: 0

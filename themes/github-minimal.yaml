@@ -1,0 +1,49 @@
+name: "GitHub Minimal"
+source:
+  marketplace_id: "dominicegginton.github-minimal-vscode-theme"
+  version: "0.3.0"
+  installs: 4511
+  author: "Dominic Egginton"
+  repo: "git+https://github.com/dominicegginton/github-minimal-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dominicegginton.github-minimal-vscode-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#24292E"
+  black: "#1B1F23"
+  red: "#D73A49"
+  green: "#28A745"
+  yellow: "#FFD33D"
+  blue: "#0366D6"
+  magenta: "#6F42C1"
+  cyan: "#0366D6"
+  white: "#FFFFFF"
+  brightBlack: "#1B1F23"
+  brightRed: "#D73A49"
+  brightGreen: "#28A745"
+  brightYellow: "#FFD33D"
+  brightBlue: "#0366D6"
+  brightMagenta: "#6F42C1"
+  brightCyan: "#0366D6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 101.5
+    black: 103.5
+    red: 70.4
+    green: 57.9
+    yellow: 20.6
+    blue: 76.2
+    magenta: 81.7
+    cyan: 76.2
+    white: 0
+    brightBlack: 103.5
+    brightRed: 70.4
+    brightGreen: 57.9
+    brightYellow: 20.6
+    brightBlue: 76.2
+    brightMagenta: 81.7
+    brightCyan: 76.2
+    brightWhite: 0

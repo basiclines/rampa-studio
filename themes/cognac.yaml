@@ -1,0 +1,49 @@
+name: "Cognac"
+source:
+  marketplace_id: "ArtSabintsev.cognac"
+  version: "0.1.0"
+  installs: 553
+  author: "ArtSabintsev"
+  repo: "git://github.com/ArtSabintsev/Cognac-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArtSabintsev.cognac"
+colors:
+  bg: "#222222"
+  fg: "#DFDFDF"
+  black: "#222222"
+  red: "#FF9595"
+  green: "#8AEC8A"
+  yellow: "#FFF680"
+  blue: "#87D5FF"
+  magenta: "#C18AFF"
+  cyan: "#FF80C6"
+  white: "#DFDFDF"
+  brightBlack: "#222222"
+  brightRed: "#FF9595"
+  brightGreen: "#8AEC8A"
+  brightYellow: "#FFF680"
+  brightBlue: "#87D5FF"
+  brightMagenta: "#C18AFF"
+  brightCyan: "#FF80C6"
+  brightWhite: "#DFDFDF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 84.8
+    black: 0
+    red: 59
+    green: 79.5
+    yellow: 97
+    blue: 73
+    magenta: 50.4
+    cyan: 54.9
+    white: 84.8
+    brightBlack: 0
+    brightRed: 59
+    brightGreen: 79.5
+    brightYellow: 97
+    brightBlue: 73
+    brightMagenta: 50.4
+    brightCyan: 54.9
+    brightWhite: 84.8

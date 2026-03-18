@@ -1,0 +1,49 @@
+name: "Cyber Light Warm"
+source:
+  marketplace_id: "tryToDEv.cyber-dark-theme-collection"
+  version: "1.0.0"
+  installs: 22
+  author: "tryToDEv"
+  repo: "https://github.com/shivam20/cyber-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tryToDEv.cyber-dark-theme-collection"
+colors:
+  bg: "#FFFBF0"
+  fg: "#3A2A1A"
+  black: "#3A2A1A"
+  red: "#CC3300"
+  green: "#2E7D32"
+  yellow: "#B8860B"
+  blue: "#CC5500"
+  magenta: "#8B4513"
+  cyan: "#006699"
+  white: "#A89078"
+  brightBlack: "#6B5B4F"
+  brightRed: "#CC3300"
+  brightGreen: "#2E7D32"
+  brightYellow: "#B8860B"
+  brightBlue: "#006699"
+  brightMagenta: "#8B4513"
+  brightCyan: "#006699"
+  brightWhite: "#3A2A1A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97.9
+    black: 97.9
+    red: 71.9
+    green: 72.7
+    yellow: 57.2
+    blue: 66.6
+    magenta: 81.8
+    cyan: 78.2
+    white: 54.7
+    brightBlack: 79.9
+    brightRed: 71.9
+    brightGreen: 72.7
+    brightYellow: 57.2
+    brightBlue: 78.2
+    brightMagenta: 81.8
+    brightCyan: 78.2
+    brightWhite: 97.9

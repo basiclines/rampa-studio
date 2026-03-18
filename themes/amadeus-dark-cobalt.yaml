@@ -1,0 +1,49 @@
+name: "Amadeus Dark Cobalt"
+source:
+  marketplace_id: "gbrachetta.amadeus-dark-theme"
+  version: "0.0.17"
+  installs: 1760
+  author: "gbrachetta"
+  repo: "https://github.com/GBrachetta/amadeus-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gbrachetta.amadeus-dark-theme"
+colors:
+  bg: "#101618"
+  fg: "#DAD5C1"
+  black: "#045053"
+  red: "#E2442F"
+  green: "#8CDD30"
+  yellow: "#DBBE15"
+  blue: "#0CB6A8"
+  magenta: "#8F4673"
+  cyan: "#18CFC0"
+  white: "#D47640"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#467E06"
+  brightYellow: "#FAC03B"
+  brightBlue: "#0695EE"
+  brightMagenta: "#D43B9A"
+  brightCyan: "#38E9E9"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 80.1
+    black: 10.7
+    red: 33.8
+    green: 72.5
+    yellow: 67.3
+    blue: 52
+    magenta: 19.7
+    cyan: 64.5
+    white: 41.5
+    brightBlack: 18.8
+    brightRed: 42.2
+    brightGreen: 26.9
+    brightYellow: 73.2
+    brightBlue: 42.3
+    brightMagenta: 32.3
+    brightCyan: 79.5
+    brightWhite: 99

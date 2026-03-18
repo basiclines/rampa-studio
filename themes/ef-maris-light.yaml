@@ -1,0 +1,49 @@
+name: "Ef Maris Light"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#EDF4F8"
+  fg: "#151A27"
+  black: "#151A27"
+  red: "#C3303A"
+  green: "#007010"
+  yellow: "#805A1F"
+  blue: "#375CC6"
+  magenta: "#80308F"
+  cyan: "#1F66AF"
+  white: "#E0E7EF"
+  brightBlack: "#676470"
+  brightRed: "#D00000"
+  brightGreen: "#3A6F00"
+  brightYellow: "#8B4400"
+  brightBlue: "#444FCF"
+  brightMagenta: "#9A3A6A"
+  brightCyan: "#305675"
+  brightWhite: "#EDF4F8"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97
+    black: 97
+    red: 68.9
+    green: 73.5
+    yellow: 73.4
+    blue: 72.2
+    magenta: 78.7
+    cyan: 71.7
+    white: 0
+    brightBlack: 71.7
+    brightRed: 68.3
+    brightGreen: 72.8
+    brightYellow: 77.1
+    brightBlue: 74.1
+    brightMagenta: 74.7
+    brightCyan: 79.5
+    brightWhite: 0

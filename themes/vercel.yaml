@@ -1,0 +1,49 @@
+name: "Vercel"
+source:
+  marketplace_id: "aurorascharff.vercel-docs-theme"
+  version: "0.3.1"
+  installs: 24
+  author: "aurorascharff"
+  repo: "https://github.com/aurorascharff/vercel-vscode-docs-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=aurorascharff.vercel-docs-theme"
+colors:
+  bg: "#000000"
+  fg: "#EEEEEE"
+  black: "#000000"
+  red: "#FF4D8D"
+  green: "#3ECF6E"
+  yellow: "#FFCC47"
+  blue: "#47A8FF"
+  magenta: "#C473FC"
+  cyan: "#0070F3"
+  white: "#EEEEEE"
+  brightBlack: "#666666"
+  brightRed: "#FF4D8D"
+  brightGreen: "#3ECF6E"
+  brightYellow: "#FFCC47"
+  brightBlue: "#47A8FF"
+  brightMagenta: "#C473FC"
+  brightCyan: "#47A8FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 96.8
+    black: 0
+    red: 44.6
+    green: 63.4
+    yellow: 79.9
+    blue: 52.8
+    magenta: 46.7
+    cyan: 31
+    white: 96.8
+    brightBlack: 23
+    brightRed: 44.6
+    brightGreen: 63.4
+    brightYellow: 79.9
+    brightBlue: 52.8
+    brightMagenta: 46.7
+    brightCyan: 52.8
+    brightWhite: 107.9

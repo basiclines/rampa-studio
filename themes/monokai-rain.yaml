@@ -1,0 +1,49 @@
+name: "Monokai Rain"
+source:
+  marketplace_id: "mimo.monokai-rain"
+  version: "0.4.0"
+  installs: 807
+  author: "Michelle Mounde"
+  repo: "https://github.com/michellemounde/monokai-rainstorm"
+  url: "https://marketplace.visualstudio.com/items?itemName=mimo.monokai-rain"
+colors:
+  bg: "#323A42"
+  fg: "#DCE2E8"
+  black: "#3D4750"
+  red: "#FF002B"
+  green: "#C4FF02"
+  yellow: "#FFA200"
+  blue: "#245FCC"
+  magenta: "#CC00FF"
+  cyan: "#00D8C6"
+  white: "#C5C5C0"
+  brightBlack: "#777E84"
+  brightRed: "#FF5F38"
+  brightGreen: "#ABEAAC"
+  brightYellow: "#F9EC2A"
+  brightBlue: "#51B9FF"
+  brightMagenta: "#FF5BE6"
+  brightCyan: "#8AEAEA"
+  brightWhite: "#FFFFF7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 248
+  contrast:
+    fg: 81
+    black: 0
+    red: 30.1
+    green: 87.7
+    yellow: 56.1
+    blue: 15.4
+    magenta: 27.9
+    cyan: 62.2
+    white: 63.7
+    brightBlack: 25.7
+    brightRed: 38.2
+    brightGreen: 76.9
+    brightYellow: 85.2
+    brightBlue: 52.5
+    brightMagenta: 43.5
+    brightCyan: 76.8
+    brightWhite: 99.9

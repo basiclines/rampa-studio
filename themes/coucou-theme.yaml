@@ -1,0 +1,49 @@
+name: "Coucou Theme"
+source:
+  marketplace_id: "jsmith.coucou-theme"
+  version: "1.0.0"
+  installs: 123
+  author: "jsmith"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=jsmith.coucou-theme"
+colors:
+  bg: "#28231E"
+  fg: "#FFFFFF"
+  black: "#333333"
+  red: "#FC5432"
+  green: "#00C896"
+  yellow: "#FC8D4C"
+  blue: "#7DAFFF"
+  magenta: "#7E80E6"
+  cyan: "#8DE1EB"
+  white: "#D4D0CC"
+  brightBlack: "#666666"
+  brightRed: "#FC5432"
+  brightGreen: "#00C896"
+  brightYellow: "#FC8D4C"
+  brightBlue: "#7DAFFF"
+  brightMagenta: "#7E80E6"
+  brightCyan: "#8DE1EB"
+  brightWhite: "#D4D0CC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 67
+  contrast:
+    fg: 105.2
+    black: 0
+    red: 40.4
+    green: 57.7
+    yellow: 54.1
+    blue: 55.8
+    magenta: 37.3
+    cyan: 77.6
+    white: 75.7
+    brightBlack: 20.3
+    brightRed: 40.4
+    brightGreen: 57.7
+    brightYellow: 54.1
+    brightBlue: 55.8
+    brightMagenta: 37.3
+    brightCyan: 77.6
+    brightWhite: 75.7

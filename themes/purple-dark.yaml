@@ -1,0 +1,49 @@
+name: "Purple/Dark"
+source:
+  marketplace_id: "purple-theme-vs.purple-theme-vscode"
+  version: "0.0.2"
+  installs: 2772
+  author: "purple-theme-vs"
+  repo: "https://github.com/dbedoya04/purple-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=purple-theme-vs.purple-theme-vscode"
+colors:
+  bg: "#000000"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#7E24C8"
+  magenta: "#BC3FBC"
+  cyan: "#6F11CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#9B3BEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#6929DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 80.5
+    black: 0
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 18.8
+    magenta: 30.8
+    cyan: 16.3
+    white: 91
+    brightBlack: 23
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 28.2
+    brightMagenta: 46.4
+    brightCyan: 18.5
+    brightWhite: 91

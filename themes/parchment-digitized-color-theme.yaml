@@ -1,0 +1,49 @@
+name: "parchment-digitized-color-theme"
+source:
+  marketplace_id: "johv.parchment-light"
+  version: "1.10.0"
+  installs: 3881
+  author: "Jonas Hvid"
+  repo: "https://github.com/c2d7fa/vscode-parchment-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=johv.parchment-light"
+colors:
+  bg: "#F9F9F9"
+  fg: "#303030"
+  black: "#B9B9B9"
+  red: "#9F3E43"
+  green: "#51643C"
+  yellow: "#6E5C3D"
+  blue: "#455F87"
+  magenta: "#78499E"
+  cyan: "#406467"
+  white: "#3B3B3B"
+  brightBlack: "#D4D4D4"
+  brightRed: "#C74F56"
+  brightGreen: "#677E4D"
+  brightYellow: "#8A744E"
+  brightBlue: "#5878A9"
+  brightMagenta: "#9460C0"
+  brightCyan: "#527E82"
+  brightWhite: "#303030"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96
+    black: 34.2
+    red: 77.8
+    green: 78.6
+    yellow: 78.4
+    blue: 78.5
+    magenta: 78.2
+    cyan: 78.5
+    white: 92.3
+    brightBlack: 19.2
+    brightRed: 66.8
+    brightGreen: 67.6
+    brightYellow: 67.5
+    brightBlue: 67.5
+    brightMagenta: 67.2
+    brightCyan: 67.6
+    brightWhite: 96

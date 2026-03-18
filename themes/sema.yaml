@@ -1,0 +1,49 @@
+name: "sema"
+source:
+  marketplace_id: "arzg.sema"
+  version: "1.12.1"
+  installs: 4718
+  author: "arzg"
+  repo: "https://github.com/arzg/sema"
+  url: "https://marketplace.visualstudio.com/items?itemName=arzg.sema"
+colors:
+  bg: "#0F0F0F"
+  fg: "#D6D6D6"
+  black: "#222222"
+  red: "#F7A597"
+  green: "#CFE8B7"
+  yellow: "#E1E0C8"
+  blue: "#75CAF2"
+  magenta: "#F1D6DD"
+  cyan: "#DBDCF3"
+  white: "#D6D6D6"
+  brightBlack: "#949494"
+  brightRed: "#F7A597"
+  brightGreen: "#D7E3CD"
+  brightYellow: "#E1E0C8"
+  brightBlue: "#CCE1F1"
+  brightMagenta: "#F1D6DD"
+  brightCyan: "#DBDCF3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  contrast:
+    fg: 81.3
+    black: 0
+    red: 64.8
+    green: 87.4
+    yellow: 86.6
+    blue: 68.2
+    magenta: 85.4
+    cyan: 86
+    white: 81.3
+    brightBlack: 44.2
+    brightRed: 64.8
+    brightGreen: 86.9
+    brightYellow: 86.6
+    brightBlue: 86.3
+    brightMagenta: 85.4
+    brightCyan: 86
+    brightWhite: 107.5

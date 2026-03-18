@@ -1,0 +1,49 @@
+name: "Safari Midnight"
+source:
+  marketplace_id: "TanakaChinengundu.savannah-code"
+  version: "1.0.0"
+  installs: 7
+  author: "Tanaka Chinengundu"
+  repo: "https://github.com/taqsblaze/savannah-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=TanakaChinengundu.savannah-code"
+colors:
+  bg: "#0F0D0A"
+  fg: "#E8E0D0"
+  black: "#0F0D0A"
+  red: "#FF4500"
+  green: "#5A9060"
+  yellow: "#FFB84D"
+  blue: "#3070A0"
+  magenta: "#C87090"
+  cyan: "#508880"
+  white: "#C8C0B0"
+  brightBlack: "#3D3020"
+  brightRed: "#FF6020"
+  brightGreen: "#7AB880"
+  brightYellow: "#FFD080"
+  brightBlue: "#50A0D0"
+  brightMagenta: "#E898B0"
+  brightCyan: "#70B8B0"
+  brightWhite: "#F0E8D8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88
+    black: 0
+    red: 41.1
+    green: 36.4
+    yellow: 71.7
+    blue: 25.3
+    magenta: 40.2
+    cyan: 33.7
+    white: 68.7
+    brightBlack: 0
+    brightRed: 45.6
+    brightGreen: 55.8
+    brightYellow: 82.1
+    brightBlue: 46.6
+    brightMagenta: 58.8
+    brightCyan: 56.8
+    brightWhite: 93.1

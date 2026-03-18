@@ -1,0 +1,49 @@
+name: "Qubik Dark"
+source:
+  marketplace_id: "qnbhd.qubik-themes"
+  version: "0.0.1"
+  installs: 21
+  author: "Templin Konstantin"
+  repo: "https://github.com/qnbhd/qubik-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=qnbhd.qubik-themes"
+colors:
+  bg: "#0B0B0F"
+  fg: "#E6E6E6"
+  black: "#0B0B0F"
+  red: "#D84F68"
+  green: "#54C0A3"
+  yellow: "#E6E7A3"
+  blue: "#479FFA"
+  magenta: "#9592A4"
+  cyan: "#54C0A3"
+  white: "#E6E6E6"
+  brightBlack: "#46474F"
+  brightRed: "#FF5C5C"
+  brightGreen: "#54C0A3"
+  brightYellow: "#F9B98C"
+  brightBlue: "#479FFA"
+  brightMagenta: "#9592A4"
+  brightCyan: "#54C0A3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 91.5
+    black: 0
+    red: 34.9
+    green: 58.4
+    yellow: 89.4
+    blue: 48.7
+    magenta: 44.4
+    cyan: 58.4
+    white: 91.5
+    brightBlack: 10.8
+    brightRed: 45.6
+    brightGreen: 58.4
+    brightYellow: 72.3
+    brightBlue: 48.7
+    brightMagenta: 44.4
+    brightCyan: 58.4
+    brightWhite: 107.7

@@ -1,0 +1,49 @@
+name: "stylelight35"
+source:
+  marketplace_id: "tscmdabdurrakib.md-abdur-rakib-theme"
+  version: "1.1.3"
+  installs: 1739
+  author: "Md Abdur Rakib"
+  repo: "https://github.com/tscmdabdurrakib/md-abdur-rakib-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tscmdabdurrakib.md-abdur-rakib-theme"
+colors:
+  bg: "#F9F9F9"
+  fg: "#383A42"
+  black: "#373A41"
+  red: "#D52753"
+  green: "#23974A"
+  yellow: "#DF631C"
+  blue: "#275FE4"
+  magenta: "#823FF1"
+  cyan: "#27618D"
+  white: "#B9BAC1"
+  brightBlack: "#676A77"
+  brightRed: "#FF6480"
+  brightGreen: "#3CBC66"
+  brightYellow: "#C5A332"
+  brightBlue: "#0099E1"
+  brightMagenta: "#CE33C0"
+  brightCyan: "#6D93BB"
+  brightWhite: "#D3D3D3"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 92.6
+    black: 92.7
+    red: 68.9
+    green: 61
+    yellow: 58.6
+    blue: 73
+    magenta: 72
+    cyan: 78.8
+    white: 33.5
+    brightBlack: 73.2
+    brightRed: 50.1
+    brightGreen: 44.2
+    brightYellow: 44
+    brightBlue: 54.4
+    brightMagenta: 65
+    brightCyan: 55.7
+    brightWhite: 19.7

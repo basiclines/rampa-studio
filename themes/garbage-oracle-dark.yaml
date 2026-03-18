@@ -1,0 +1,49 @@
+name: "Garbage Oracle Dark"
+source:
+  marketplace_id: "sansbrina.garbage-oracle"
+  version: "0.1.0"
+  installs: 1599
+  author: "sansbrina"
+  repo: "https://github.com/sansbrina/garbage-oracle-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=sansbrina.garbage-oracle"
+colors:
+  bg: "#371D32"
+  fg: "#F2E2F1"
+  black: "#371D32"
+  red: "#FB9495"
+  green: "#C1EDCC"
+  yellow: "#A9CDD6"
+  blue: "#19D3DB"
+  magenta: "#AAFDB0"
+  cyan: "#B0C0BC"
+  white: "#D7C6D6"
+  brightBlack: "#52394D"
+  brightRed: "#BBBCF0"
+  brightGreen: "#B0C0BC"
+  brightYellow: "#A9CDD6"
+  brightBlue: "#19D3DB"
+  brightMagenta: "#AAFDB0"
+  brightCyan: "#B0C0BC"
+  brightWhite: "#F2E2F1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 334
+  contrast:
+    fg: 88.9
+    black: 0
+    red: 57.1
+    green: 86.2
+    yellow: 69.4
+    blue: 65.3
+    magenta: 90.9
+    cyan: 63.4
+    white: 71.9
+    brightBlack: 0
+    brightRed: 65.6
+    brightGreen: 63.4
+    brightYellow: 69.4
+    brightBlue: 65.3
+    brightMagenta: 90.9
+    brightCyan: 63.4
+    brightWhite: 88.9

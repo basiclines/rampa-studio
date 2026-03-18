@@ -1,0 +1,49 @@
+name: "Seoul Morning"
+source:
+  marketplace_id: "lovema-kr.theme-seoul"
+  version: "0.1.6"
+  installs: 35
+  author: "Hue"
+  repo: "https://github.com/hue-lovemakr/lovema-kr"
+  url: "https://marketplace.visualstudio.com/items?itemName=lovema-kr.theme-seoul"
+colors:
+  bg: "#FCFCFC"
+  fg: "#2F3E37"
+  black: "#1D1E23"
+  red: "#C23352"
+  green: "#237A4E"
+  yellow: "#D6B038"
+  blue: "#0B6DB7"
+  magenta: "#BA4160"
+  cyan: "#5EB3FF"
+  white: "#A4AAA7"
+  brightBlack: "#1D1E23"
+  brightRed: "#C23352"
+  brightGreen: "#237A4E"
+  brightYellow: "#D6B038"
+  brightBlue: "#0B6DB7"
+  brightMagenta: "#BA4160"
+  brightCyan: "#5EB3FF"
+  brightWhite: "#A4AAA7"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 94.2
+    black: 101.8
+    red: 73.9
+    green: 74.2
+    yellow: 38.5
+    blue: 74.5
+    magenta: 73.3
+    cyan: 42.1
+    white: 44.8
+    brightBlack: 101.8
+    brightRed: 73.9
+    brightGreen: 74.2
+    brightYellow: 38.5
+    brightBlue: 74.5
+    brightMagenta: 73.3
+    brightCyan: 42.1
+    brightWhite: 44.8

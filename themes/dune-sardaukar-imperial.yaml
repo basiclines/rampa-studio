@@ -1,0 +1,49 @@
+name: "Dune Sardaukar Imperial"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 237
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+colors:
+  bg: "#0C0C0E"
+  fg: "#E8E8F0"
+  black: "#0C0C0E"
+  red: "#FFD700"
+  green: "#9D6FCC"
+  yellow: "#8B72C7"
+  blue: "#DC143C"
+  magenta: "#7C6CA4"
+  cyan: "#C0C0C0"
+  white: "#E8E8F0"
+  brightBlack: "#6A6A7C"
+  brightRed: "#FF3838"
+  brightGreen: "#6B9E6B"
+  brightYellow: "#FFAA40"
+  brightBlue: "#8B72C7"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#68D4FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 93.1
+    black: 0
+    red: 84
+    green: 36.4
+    yellow: 34.8
+    blue: 29.3
+    magenta: 29.4
+    cyan: 68.4
+    white: 93.1
+    brightBlack: 25.2
+    brightRed: 39.9
+    brightGreen: 43.4
+    brightYellow: 66.5
+    brightBlue: 34.8
+    brightMagenta: 55.4
+    brightCyan: 72.9
+    brightWhite: 107.7

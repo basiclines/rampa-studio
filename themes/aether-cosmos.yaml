@@ -1,0 +1,49 @@
+name: "Aether Cosmos"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#0A0E27"
+  fg: "#E1E8FF"
+  black: "#0A0E27"
+  red: "#FF6B9D"
+  green: "#66D9A0"
+  yellow: "#FFD93D"
+  blue: "#82E2FF"
+  magenta: "#C792EA"
+  cyan: "#66D9EF"
+  white: "#E1E8FF"
+  brightBlack: "#3E4B8A"
+  brightRed: "#FF8FB3"
+  brightGreen: "#8CE6B8"
+  brightYellow: "#FFE66D"
+  brightBlue: "#A8E8FF"
+  brightMagenta: "#DBB7FF"
+  brightCyan: "#8CE6F4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 273
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 50.1
+    green: 70.5
+    yellow: 84.8
+    blue: 80.6
+    magenta: 54.2
+    cyan: 73.9
+    white: 92.6
+    brightBlack: 13.6
+    brightRed: 60.1
+    brightGreen: 79.9
+    brightYellow: 91.1
+    brightBlue: 86.4
+    brightMagenta: 71.4
+    brightCyan: 82.6
+    brightWhite: 107.4

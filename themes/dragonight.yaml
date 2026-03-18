@@ -1,0 +1,49 @@
+name: "Dragonight"
+source:
+  marketplace_id: "teamdragonight.dragonight"
+  version: "0.0.7"
+  installs: 4065
+  author: "teamdragonight"
+  repo: "https://github.com/Akshaykumar2908/The-Dragonight"
+  url: "https://marketplace.visualstudio.com/items?itemName=teamdragonight.dragonight"
+colors:
+  bg: "#121521"
+  fg: "#E5E5E5"
+  black: "#292121"
+  red: "#FF3333"
+  green: "#4AC948"
+  yellow: "#FFE303"
+  blue: "#1E90FF"
+  magenta: "#FF41FF"
+  cyan: "#00FFFF"
+  white: "#F2F2F2"
+  brightBlack: "#AEAEAE"
+  brightRed: "#FF6F6F"
+  brightGreen: "#80D97E"
+  brightYellow: "#FFF49A"
+  brightBlue: "#60B1FF"
+  brightMagenta: "#FF93FF"
+  brightCyan: "#99FFFF"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 273
+  contrast:
+    fg: 90.1
+    black: 0
+    red: 38.7
+    green: 59.4
+    yellow: 88.7
+    blue: 41.8
+    magenta: 48.3
+    cyan: 91.3
+    white: 98.5
+    brightBlack: 57.6
+    brightRed: 49.2
+    brightGreen: 70.8
+    brightYellow: 98.1
+    brightBlue: 56.6
+    brightMagenta: 64.9
+    brightCyan: 96.1
+    brightWhite: 101.7

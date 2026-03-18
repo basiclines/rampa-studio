@@ -1,0 +1,49 @@
+name: "Noctis Bordo"
+source:
+  marketplace_id: "liviuschera.noctis"
+  version: "10.43.3"
+  installs: 1344484
+  author: "Liviu Schera"
+  repo: "https://github.com/liviuschera/noctis"
+  url: "https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis"
+colors:
+  bg: "#322A2D"
+  fg: "#CBBEC2"
+  black: "#47393E"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#B9ACB0"
+  brightBlack: "#69545B"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#CBBEC2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 353
+  contrast:
+    fg: 65
+    black: 0
+    red: 37.3
+    green: 73.7
+    yellow: 63.7
+    blue: 48.7
+    magenta: 42.4
+    cyan: 67.3
+    white: 54.8
+    brightBlack: 13.6
+    brightRed: 42.5
+    brightGreen: 75.9
+    brightYellow: 50.6
+    brightBlue: 54
+    brightMagenta: 54.7
+    brightCyan: 70.6
+    brightWhite: 65

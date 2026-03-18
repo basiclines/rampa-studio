@@ -1,0 +1,49 @@
+name: "CRT Apple"
+source:
+  marketplace_id: "leandro-rodrigues.crt-vscode"
+  version: "0.1.0"
+  installs: 6563
+  author: "Leandro Rodrigues"
+  repo: "https://github.com/TheOld/legacy-term"
+  url: "https://marketplace.visualstudio.com/items?itemName=leandro-rodrigues.crt-vscode"
+colors:
+  bg: "#000C00"
+  fg: "#33FF33"
+  black: "#33FF33"
+  red: "#25BE25"
+  green: "#29CE29"
+  yellow: "#1F9E1F"
+  blue: "#30EF30"
+  magenta: "#2CDF2C"
+  cyan: "#22AE22"
+  white: "#1B8E1B"
+  brightBlack: "#33FF33"
+  brightRed: "#25BE25"
+  brightGreen: "#29CE29"
+  brightYellow: "#1F9E1F"
+  brightBlue: "#30EF30"
+  brightMagenta: "#2CDF2C"
+  brightCyan: "#22AE22"
+  brightWhite: "#1B8E1B"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 142
+  contrast:
+    fg: 86.8
+    black: 86.8
+    red: 53.8
+    green: 61.5
+    yellow: 39.4
+    blue: 78.3
+    magenta: 70
+    cyan: 46.4
+    white: 32.7
+    brightBlack: 86.8
+    brightRed: 53.8
+    brightGreen: 61.5
+    brightYellow: 39.4
+    brightBlue: 78.3
+    brightMagenta: 70
+    brightCyan: 46.4
+    brightWhite: 32.7

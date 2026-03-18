@@ -1,0 +1,49 @@
+name: "Night-Stack Amber Dark"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0A0703"
+  fg: "#FFEFD8"
+  black: "#1A1205"
+  red: "#F59E0B"
+  green: "#FBBF24"
+  yellow: "#FCD34D"
+  blue: "#D97706"
+  magenta: "#B45309"
+  cyan: "#FDE68A"
+  white: "#FFEFD8"
+  brightBlack: "#1A1205"
+  brightRed: "#F59E0B"
+  brightGreen: "#FBBF24"
+  brightYellow: "#FCD34D"
+  brightBlue: "#D97706"
+  brightMagenta: "#B45309"
+  brightCyan: "#FDE68A"
+  brightWhite: "#FFEFD8"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 82
+  contrast:
+    fg: 98.6
+    black: 0
+    red: 60.4
+    green: 73.6
+    yellow: 82.3
+    blue: 43.2
+    magenta: 27.6
+    cyan: 91.8
+    white: 98.6
+    brightBlack: 0
+    brightRed: 60.4
+    brightGreen: 73.6
+    brightYellow: 82.3
+    brightBlue: 43.2
+    brightMagenta: 27.6
+    brightCyan: 91.8
+    brightWhite: 98.6

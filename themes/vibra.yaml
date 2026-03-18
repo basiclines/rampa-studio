@@ -1,0 +1,49 @@
+name: "Vibra"
+source:
+  marketplace_id: "TayMizami.vibra"
+  version: "0.0.3"
+  installs: 3797
+  author: "Tay Mizami"
+  repo: "https://github.com/taymizami/vibra"
+  url: "https://marketplace.visualstudio.com/items?itemName=TayMizami.vibra"
+colors:
+  bg: "#191617"
+  fg: "#FFFFFF"
+  black: "#9F9F9F"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#F0F0F0"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106.9
+    black: 49.3
+    red: 26.7
+    green: 53
+    yellow: 85.6
+    blue: 27.4
+    magenta: 29.8
+    cyan: 47.6
+    white: 97.1
+    brightBlack: 22.1
+    brightRed: 38.6
+    brightGreen: 63.6
+    brightYellow: 95.7
+    brightBlue: 40
+    brightMagenta: 45.4
+    brightCyan: 55.4
+    brightWhite: 90

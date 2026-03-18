@@ -1,0 +1,49 @@
+name: "parchment-starlight-color-theme"
+source:
+  marketplace_id: "johv.parchment-light"
+  version: "1.10.0"
+  installs: 3881
+  author: "Jonas Hvid"
+  repo: "https://github.com/c2d7fa/vscode-parchment-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=johv.parchment-light"
+colors:
+  bg: "#181818"
+  fg: "#D4D4D4"
+  black: "#474747"
+  red: "#DB868A"
+  green: "#89A768"
+  yellow: "#B69A69"
+  blue: "#7E9FD4"
+  magenta: "#B290D4"
+  cyan: "#6EA7AC"
+  white: "#C6C6C6"
+  brightBlack: "#303030"
+  brightRed: "#D55D63"
+  brightGreen: "#728C56"
+  brightYellow: "#988057"
+  brightBlue: "#6285BB"
+  brightMagenta: "#9E70C7"
+  brightCyan: "#5C8C90"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 79.4
+    black: 9.8
+    red: 48.7
+    green: 48.5
+    yellow: 48.6
+    blue: 48.5
+    magenta: 48.7
+    cyan: 48.5
+    white: 71
+    brightBlack: 0
+    brightRed: 36
+    brightGreen: 35.5
+    brightYellow: 35.3
+    brightBlue: 35.5
+    brightMagenta: 35.6
+    brightCyan: 35.6
+    brightWhite: 79.4

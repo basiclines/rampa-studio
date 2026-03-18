@@ -1,0 +1,49 @@
+name: "Mori Keycaps"
+source:
+  marketplace_id: "Icycoldveins.verum-monokai-themes"
+  version: "1.2.1"
+  installs: 46
+  author: "Icycoldveins"
+  repo: "https://github.com/icycoldveins/Ide-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Icycoldveins.verum-monokai-themes"
+colors:
+  bg: "#2D2A2E"
+  fg: "#A08B7A"
+  black: "#32302F"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E78A4E"
+  blue: "#7DAEA3"
+  magenta: "#FF6B6B"
+  cyan: "#89B482"
+  white: "#D4BE98"
+  brightBlack: "#928374"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E78A4E"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#FF6B6B"
+  brightCyan: "#89B482"
+  brightWhite: "#DDC7A1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 37.9
+    black: 0
+    red: 39.1
+    green: 59.3
+    yellow: 47.8
+    blue: 49.2
+    magenta: 45.1
+    cyan: 51.6
+    white: 65
+    brightBlack: 33.3
+    brightRed: 39.1
+    brightGreen: 59.3
+    brightYellow: 47.8
+    brightBlue: 49.2
+    brightMagenta: 45.1
+    brightCyan: 51.6
+    brightWhite: 70.2

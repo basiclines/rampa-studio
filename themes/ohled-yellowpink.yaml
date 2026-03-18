@@ -1,0 +1,49 @@
+name: "OhLED_YellowPink"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFB0B0"
+  black: "#FFB0B0"
+  red: "#BB8181"
+  green: "#CC8D8D"
+  yellow: "#996A6A"
+  blue: "#EEA4A4"
+  magenta: "#DD9999"
+  cyan: "#AA7575"
+  white: "#885E5E"
+  brightBlack: "#FFB0B0"
+  brightRed: "#BB8181"
+  brightGreen: "#CC8D8D"
+  brightYellow: "#996A6A"
+  brightBlue: "#EEA4A4"
+  brightMagenta: "#DD9999"
+  brightCyan: "#AA7575"
+  brightWhite: "#885E5E"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 71.3
+    black: 71.3
+    red: 42.7
+    green: 49.5
+    yellow: 30.2
+    blue: 63.7
+    magenta: 56.7
+    cyan: 36.1
+    white: 24.3
+    brightBlack: 71.3
+    brightRed: 42.7
+    brightGreen: 49.5
+    brightYellow: 30.2
+    brightBlue: 63.7
+    brightMagenta: 56.7
+    brightCyan: 36.1
+    brightWhite: 24.3

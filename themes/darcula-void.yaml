@@ -1,0 +1,49 @@
+name: "Darcula Void"
+source:
+  marketplace_id: "sjlex.vscode-theme-darcula-void"
+  version: "1.1.0"
+  installs: 909
+  author: "sjlex"
+  repo: "https://github.com/sjlex/vscode-theme-darcula-void"
+  url: "https://marketplace.visualstudio.com/items?itemName=sjlex.vscode-theme-darcula-void"
+colors:
+  bg: "#000000"
+  fg: "#BFBFBF"
+  black: "#161616"
+  red: "#FD387F"
+  green: "#A8EC21"
+  yellow: "#F6C60A"
+  blue: "#15B5FF"
+  magenta: "#B37BFF"
+  cyan: "#5ED6FF"
+  white: "#E8E8E8"
+  brightBlack: "#939393"
+  brightRed: "#FF5F61"
+  brightGreen: "#B3F138"
+  brightYellow: "#FFEF5F"
+  brightBlue: "#00BDFF"
+  brightMagenta: "#BD9EFF"
+  brightCyan: "#59CBF1"
+  brightWhite: "#FEFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 68
+    black: 0
+    red: 41.1
+    green: 83
+    yellow: 75.6
+    blue: 57.2
+    magenta: 46.5
+    cyan: 73.6
+    white: 92.9
+    brightBlack: 44.1
+    brightRed: 46.4
+    brightGreen: 86.7
+    brightYellow: 95.6
+    brightBlue: 60.5
+    brightMagenta: 58.7
+    brightCyan: 67.5
+    brightWhite: 107.7

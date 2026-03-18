@@ -1,0 +1,49 @@
+name: "scorch"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#392123"
+  fg: "#BAA0A2"
+  black: "#492A2D"
+  red: "#BA0E2E"
+  green: "#D39452"
+  yellow: "#BD4549"
+  blue: "#CF9E51"
+  magenta: "#F6EA82"
+  cyan: "#E77757"
+  white: "#C5AFB0"
+  brightBlack: "#7A464B"
+  brightRed: "#F03E5F"
+  brightGreen: "#E8C6A3"
+  brightYellow: "#D89093"
+  brightBlue: "#E5CBA1"
+  brightMagenta: "#FDFAE1"
+  brightCyan: "#F4BFB0"
+  brightWhite: "#E5DBDC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 14
+  contrast:
+    fg: 50.7
+    black: 0
+    red: 18
+    green: 48.1
+    yellow: 23.9
+    blue: 51
+    magenta: 89
+    cyan: 43.1
+    white: 58.4
+    brightBlack: 12.8
+    brightRed: 34.3
+    brightGreen: 72.1
+    brightYellow: 49.2
+    brightBlue: 73.7
+    brightMagenta: 100.4
+    brightCyan: 71.6
+    brightWhite: 82.7

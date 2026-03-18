@@ -1,0 +1,49 @@
+name: "Wuthering Waves : The Shorekeeper (Dark)"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 120
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+colors:
+  bg: "#0D1B28"
+  fg: "#D4EBFA"
+  black: "#1A2F3F"
+  red: "#E88899"
+  green: "#60B088"
+  yellow: "#F0C070"
+  blue: "#6BB6D6"
+  magenta: "#A78BFA"
+  cyan: "#89CFF0"
+  white: "#D4EBFA"
+  brightBlack: "#4A7A9F"
+  brightRed: "#F8A0AA"
+  brightGreen: "#70C098"
+  brightYellow: "#FFD085"
+  brightBlue: "#89CFF0"
+  brightMagenta: "#C4B5FD"
+  brightCyan: "#A0E0FF"
+  brightWhite: "#F0F8FC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 248
+  contrast:
+    fg: 91.3
+    black: 0
+    red: 51.9
+    green: 49.9
+    yellow: 71.7
+    blue: 56.3
+    magenta: 47.9
+    cyan: 70.7
+    white: 91.3
+    brightBlack: 28.5
+    brightRed: 62.9
+    brightGreen: 58.3
+    brightYellow: 81.2
+    brightBlue: 70.7
+    brightMagenta: 66.5
+    brightCyan: 81.1
+    brightWhite: 101

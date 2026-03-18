@@ -1,0 +1,49 @@
+name: "Retroscope"
+source:
+  marketplace_id: "dvsu.retroscope"
+  version: "0.2.4"
+  installs: 28
+  author: "David Su"
+  repo: "https://github.com/dvsu/retroscope"
+  url: "https://marketplace.visualstudio.com/items?itemName=dvsu.retroscope"
+colors:
+  bg: "#1D1B19"
+  fg: "#C9B19F"
+  black: "#1D1B19"
+  red: "#F75123"
+  green: "#ADB26B"
+  yellow: "#D29834"
+  blue: "#789BB9"
+  magenta: "#AD74EE"
+  cyan: "#89AEA3"
+  white: "#C9B19F"
+  brightBlack: "#6B5B4F"
+  brightRed: "#FF7979"
+  brightGreen: "#CFD779"
+  brightYellow: "#F5AF36"
+  brightBlue: "#8C9CAA"
+  brightMagenta: "#C79DD7"
+  brightCyan: "#A5B6B1"
+  brightWhite: "#FFCB93"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 61
+    black: 0
+    red: 39.8
+    green: 56.4
+    yellow: 51
+    blue: 44.7
+    magenta: 41
+    cyan: 52.7
+    white: 61
+    brightBlack: 18.2
+    brightRed: 51.2
+    brightGreen: 76.8
+    brightYellow: 65.1
+    brightBlue: 46.2
+    brightMagenta: 55.8
+    brightCyan: 59.3
+    brightWhite: 79.3

@@ -1,0 +1,49 @@
+name: "Artinpixel Turquoise Theme"
+source:
+  marketplace_id: "anselmodev.artinpixel-turquoise-master"
+  version: "0.1.4"
+  installs: 684
+  author: "Anselmo Lima"
+  repo: "https://github.com/anselmodev/artinpixel-turquoise-master"
+  url: "https://marketplace.visualstudio.com/items?itemName=anselmodev.artinpixel-turquoise-master"
+colors:
+  bg: "#323638"
+  fg: "#CCD8DE"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 75.2
+    black: 0
+    red: 21.2
+    green: 47.5
+    yellow: 80.1
+    blue: 21.9
+    magenta: 24.3
+    cyan: 42.1
+    white: 84.5
+    brightBlack: 16.5
+    brightRed: 33.1
+    brightGreen: 58
+    brightYellow: 90.1
+    brightBlue: 34.5
+    brightMagenta: 39.9
+    brightCyan: 49.9
+    brightWhite: 84.5

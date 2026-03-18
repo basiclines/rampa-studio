@@ -1,0 +1,49 @@
+name: "Night-Stack Circuit"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#06100B"
+  fg: "#E6FFF2"
+  black: "#11241B"
+  red: "#00FF88"
+  green: "#00C853"
+  yellow: "#FFD700"
+  blue: "#009F5F"
+  magenta: "#00FF88"
+  cyan: "#66FFCC"
+  white: "#E6FFF2"
+  brightBlack: "#11241B"
+  brightRed: "#00FF88"
+  brightGreen: "#00C853"
+  brightYellow: "#FFD700"
+  brightBlue: "#009F5F"
+  brightMagenta: "#00FF88"
+  brightCyan: "#66FFCC"
+  brightWhite: "#E6FFF2"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 163
+  contrast:
+    fg: 103.6
+    black: 0
+    red: 87.4
+    green: 58.5
+    yellow: 83.9
+    blue: 40.2
+    magenta: 87.4
+    cyan: 91.3
+    white: 103.6
+    brightBlack: 0
+    brightRed: 87.4
+    brightGreen: 58.5
+    brightYellow: 83.9
+    brightBlue: 40.2
+    brightMagenta: 87.4
+    brightCyan: 91.3
+    brightWhite: 103.6

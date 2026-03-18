@@ -1,0 +1,49 @@
+name: "LaserKai"
+source:
+  marketplace_id: "itsmelion.laserkai"
+  version: "1.4.3"
+  installs: 1936
+  author: "Christhopher Lion"
+  repo: "https://github.com/itsmelion/laserwave"
+  url: "https://marketplace.visualstudio.com/items?itemName=itsmelion.laserkai"
+colors:
+  bg: "#222228"
+  fg: "#F7F1FF"
+  black: "#39353C"
+  red: "#EB64B9"
+  green: "#36E085"
+  yellow: "#FFE261"
+  blue: "#FD971F"
+  magenta: "#AE81FF"
+  cyan: "#66D9EF"
+  white: "#F7F1FF"
+  brightBlack: "#6E6670"
+  brightRed: "#EB64B9"
+  brightGreen: "#36E085"
+  brightYellow: "#FFE261"
+  brightBlue: "#FD971F"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F7F1FF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 286
+  contrast:
+    fg: 97.7
+    black: 0
+    red: 43.6
+    green: 69.6
+    yellow: 87.2
+    blue: 57.2
+    magenta: 45
+    cyan: 71.9
+    white: 97.7
+    brightBlack: 21.6
+    brightRed: 43.6
+    brightGreen: 69.6
+    brightYellow: 87.2
+    brightBlue: 57.2
+    brightMagenta: 45
+    brightCyan: 71.9
+    brightWhite: 97.7

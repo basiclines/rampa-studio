@@ -1,0 +1,49 @@
+name: "Sinequanone Noir"
+source:
+  marketplace_id: "EmmettHintz.sinequanone"
+  version: "0.12.0"
+  installs: 48
+  author: "Emmett Hintz"
+  repo: "https://github.com/Sinequanone-Themes/vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmmettHintz.sinequanone"
+colors:
+  bg: "#0F1014"
+  fg: "#868690"
+  black: "#131317"
+  red: "#85A2E8"
+  green: "#E89EAE"
+  yellow: "#BFBBBB"
+  blue: "#E582D7"
+  magenta: "#697078"
+  cyan: "#3DBCEC"
+  white: "#868690"
+  brightBlack: "#575861"
+  brightRed: "#85A2E8"
+  brightGreen: "#E89EAE"
+  brightYellow: "#BFBBBB"
+  brightBlue: "#E582D7"
+  brightMagenta: "#697078"
+  brightCyan: "#3DBCEC"
+  brightWhite: "#868690"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 37.6
+    black: 0
+    red: 52.1
+    green: 60.5
+    yellow: 65.8
+    blue: 53.3
+    magenta: 26.6
+    cyan: 59.1
+    white: 37.6
+    brightBlack: 17
+    brightRed: 52.1
+    brightGreen: 60.5
+    brightYellow: 65.8
+    brightBlue: 53.3
+    brightMagenta: 26.6
+    brightCyan: 59.1
+    brightWhite: 37.6

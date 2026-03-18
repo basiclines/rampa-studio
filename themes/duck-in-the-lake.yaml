@@ -1,0 +1,49 @@
+name: "Duck in the Lake"
+source:
+  marketplace_id: "MEvesalTR.duck-mode-vscode"
+  version: "0.9.7"
+  installs: 2138
+  author: "MEvesalTR"
+  repo: "https://github.com/MEvesalTR/duck-mode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MEvesalTR.duck-mode-vscode"
+colors:
+  bg: "#1D222D"
+  fg: "#CCCAC2"
+  black: "#171B24"
+  red: "#ED8274"
+  green: "#87D96C"
+  yellow: "#FACC6E"
+  blue: "#6DCBFA"
+  magenta: "#DABAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#D5FF80"
+  brightYellow: "#FFCD69"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#DFBFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 266
+  contrast:
+    fg: 72
+    black: 0
+    red: 48.9
+    green: 69.3
+    yellow: 77.1
+    blue: 66.6
+    magenta: 70.2
+    cyan: 76.5
+    white: 70.3
+    brightBlack: 21.5
+    brightRed: 51.4
+    brightGreen: 95.8
+    brightYellow: 78.3
+    brightBlue: 69.5
+    brightMagenta: 73.1
+    brightCyan: 79.4
+    brightWhite: 105.5

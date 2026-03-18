@@ -1,0 +1,49 @@
+name: "White Winter"
+source:
+  marketplace_id: "jker.white-winter"
+  version: "1.0.1"
+  installs: 12430
+  author: "jker"
+  repo: "https://github.com/guidolee/jker-white-winter"
+  url: "https://marketplace.visualstudio.com/items?itemName=jker.white-winter"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#7F7F7F"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FFE2A9"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FFE2A9"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 106
+    black: 67.4
+    red: 62.8
+    green: 36.6
+    yellow: 12.7
+    blue: 56.6
+    magenta: 48.9
+    cyan: 48
+    white: 22.8
+    brightBlack: 67.4
+    brightRed: 62.8
+    brightGreen: 36.6
+    brightYellow: 12.7
+    brightBlue: 56.6
+    brightMagenta: 48.9
+    brightCyan: 48
+    brightWhite: 22.8

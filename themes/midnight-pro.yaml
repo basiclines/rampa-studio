@@ -1,0 +1,49 @@
+name: "Midnight Pro"
+source:
+  marketplace_id: "Noxire.midnight-themepack"
+  version: "1.2.0"
+  installs: 544
+  author: "Noxire"
+  repo: "https://github.com/Noxire-Hash/midnight-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Noxire.midnight-themepack"
+colors:
+  bg: "#131821"
+  fg: "#D8E3F0"
+  black: "#0A0E17"
+  red: "#FF6B88"
+  green: "#7FE7A5"
+  yellow: "#FFD47B"
+  blue: "#8AB8FF"
+  magenta: "#C77DFF"
+  cyan: "#7DCFFF"
+  white: "#E6F1FF"
+  brightBlack: "#0A0E17"
+  brightRed: "#FF8FA3"
+  brightGreen: "#95EFBB"
+  brightYellow: "#FFE095"
+  brightBlue: "#9FC5FF"
+  brightMagenta: "#D89EFF"
+  brightCyan: "#95DBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 262
+  contrast:
+    fg: 87.8
+    black: 0
+    red: 48.8
+    green: 78.3
+    yellow: 82.9
+    blue: 62
+    magenta: 48.9
+    cyan: 70.9
+    white: 96.8
+    brightBlack: 0
+    brightRed: 58.9
+    brightGreen: 84.6
+    brightYellow: 88.7
+    brightBlue: 69.3
+    brightMagenta: 61.5
+    brightCyan: 78.1
+    brightWhite: 106.8

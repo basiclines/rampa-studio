@@ -1,0 +1,49 @@
+name: "Ef Light"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#202020"
+  black: "#202020"
+  red: "#D3303A"
+  green: "#217A3C"
+  yellow: "#A45F22"
+  blue: "#3740CF"
+  magenta: "#BA35AF"
+  cyan: "#1F6FBF"
+  white: "#EFEFEF"
+  brightBlack: "#68759F"
+  brightRed: "#E00033"
+  brightGreen: "#4A7D00"
+  brightYellow: "#B6532F"
+  brightBlue: "#4250EF"
+  brightMagenta: "#CF25AA"
+  brightCyan: "#3F6FAF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103.3
+    black: 103.3
+    red: 72.6
+    green: 76.3
+    yellow: 74
+    blue: 85.3
+    magenta: 73.3
+    cyan: 75
+    white: 0
+    brightBlack: 71.5
+    brightRed: 71.6
+    brightGreen: 74.1
+    brightYellow: 73.5
+    brightBlue: 78.2
+    brightMagenta: 70.7
+    brightCyan: 75.1
+    brightWhite: 0

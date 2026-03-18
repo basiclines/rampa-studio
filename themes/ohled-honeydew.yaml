@@ -1,0 +1,49 @@
+name: "OhLED_HoneyDew"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#F0FFF0"
+  black: "#F0FFF0"
+  red: "#B0BBB0"
+  green: "#C0CCC0"
+  yellow: "#909990"
+  blue: "#E0EEE0"
+  magenta: "#D0DDD0"
+  cyan: "#A0AAA0"
+  white: "#808880"
+  brightBlack: "#F0FFF0"
+  brightRed: "#B0BBB0"
+  brightGreen: "#C0CCC0"
+  brightYellow: "#909990"
+  brightBlue: "#E0EEE0"
+  brightMagenta: "#D0DDD0"
+  brightCyan: "#A0AAA0"
+  brightWhite: "#808880"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 105.1
+    black: 105.1
+    red: 64
+    green: 73.7
+    yellow: 45.9
+    blue: 94.3
+    magenta: 83.8
+    cyan: 54.7
+    white: 37.5
+    brightBlack: 105.1
+    brightRed: 64
+    brightGreen: 73.7
+    brightYellow: 45.9
+    brightBlue: 94.3
+    brightMagenta: 83.8
+    brightCyan: 54.7
+    brightWhite: 37.5

@@ -1,0 +1,49 @@
+name: "Space Dark"
+source:
+  marketplace_id: "keksiqc.idx-monospace-theme"
+  version: "1.5.0"
+  installs: 31573
+  author: "Keksi"
+  repo: "https://github.com/keksiqc/monospace-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=keksiqc.idx-monospace-theme"
+colors:
+  bg: "#1F1F1F"
+  fg: "#E1DFDF"
+  black: "#828282"
+  red: "#F76769"
+  green: "#17B877"
+  yellow: "#FFA23E"
+  blue: "#7895FF"
+  magenta: "#A87FFB"
+  cyan: "#25A6E9"
+  white: "#B0AFAF"
+  brightBlack: "#999999"
+  brightRed: "#FC8F8E"
+  brightGreen: "#66CE98"
+  brightYellow: "#FFC26E"
+  brightBlue: "#98B1FF"
+  brightMagenta: "#C8AAFF"
+  brightCyan: "#71C2EE"
+  brightWhite: "#FDFCFC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 85.5
+    black: 33.7
+    red: 44.5
+    green: 50.2
+    yellow: 61.9
+    blue: 46.4
+    magenta: 43.9
+    cyan: 47.7
+    white: 57.1
+    brightBlack: 45.2
+    brightRed: 56.8
+    brightGreen: 63.6
+    brightYellow: 74.4
+    brightBlue: 59.6
+    brightMagenta: 62.5
+    brightCyan: 62.6
+    brightWhite: 104.1

@@ -1,0 +1,49 @@
+name: "swamp-color-theme"
+source:
+  marketplace_id: "wavebeem.theme-unoduetre"
+  version: "5.11.1"
+  installs: 4290
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/vscode-theme-unoduetre"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.theme-unoduetre"
+colors:
+  bg: "#1B322A"
+  fg: "#75F0C7"
+  black: "#333333"
+  red: "#DE8778"
+  green: "#6DE395"
+  yellow: "#DFCA9B"
+  blue: "#9CA3E8"
+  magenta: "#DFA5DB"
+  cyan: "#66EAE1"
+  white: "#DDF3EA"
+  brightBlack: "#333333"
+  brightRed: "#DE8778"
+  brightGreen: "#6DE395"
+  brightYellow: "#DFCA9B"
+  brightBlue: "#9CA3E8"
+  brightMagenta: "#DFA5DB"
+  brightCyan: "#66EAE1"
+  brightWhite: "#DDF3EA"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 170
+  contrast:
+    fg: 79.9
+    black: 0
+    red: 45.5
+    green: 71.3
+    yellow: 71
+    blue: 50.5
+    magenta: 59.3
+    cyan: 77.3
+    white: 92.1
+    brightBlack: 0
+    brightRed: 45.5
+    brightGreen: 71.3
+    brightYellow: 71
+    brightBlue: 50.5
+    brightMagenta: 59.3
+    brightCyan: 77.3
+    brightWhite: 92.1

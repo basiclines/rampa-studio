@@ -1,0 +1,49 @@
+name: "bubblegum-color-theme"
+source:
+  marketplace_id: "wavebeem.theme-unoduetre"
+  version: "5.11.1"
+  installs: 4290
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/vscode-theme-unoduetre"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.theme-unoduetre"
+colors:
+  bg: "#F6EAF6"
+  fg: "#800080"
+  black: "#200E1E"
+  red: "#BB1634"
+  green: "#477648"
+  yellow: "#A5522C"
+  blue: "#632ECC"
+  magenta: "#BE1EA6"
+  cyan: "#3E727E"
+  white: "#E6E6E6"
+  brightBlack: "#200E1E"
+  brightRed: "#BB1634"
+  brightGreen: "#477648"
+  brightYellow: "#A5522C"
+  brightBlue: "#632ECC"
+  brightMagenta: "#BE1EA6"
+  brightCyan: "#3E727E"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 326
+  contrast:
+    fg: 79.2
+    black: 94.5
+    red: 69.4
+    green: 65.9
+    yellow: 66.4
+    blue: 74.7
+    magenta: 64.5
+    cyan: 66.2
+    white: 0
+    brightBlack: 94.5
+    brightRed: 69.4
+    brightGreen: 65.9
+    brightYellow: 66.4
+    brightBlue: 74.7
+    brightMagenta: 64.5
+    brightCyan: 66.2
+    brightWhite: 0

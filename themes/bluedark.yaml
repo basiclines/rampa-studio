@@ -1,0 +1,49 @@
+name: "BlueDark"
+source:
+  marketplace_id: "Drakencord.blue-dark"
+  version: "0.0.1"
+  installs: 818
+  author: "Drakencord"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Drakencord.blue-dark"
+colors:
+  bg: "#1F2937"
+  fg: "#ABB2BF"
+  black: "#000000"
+  red: "#FF2348"
+  green: "#ADDB67"
+  yellow: "#ECC48D"
+  blue: "#407DFF"
+  magenta: "#9F60EC"
+  cyan: "#11A8CD"
+  white: "#ABB2BF"
+  brightBlack: "#637777"
+  brightRed: "#FF5874"
+  brightGreen: "#8FB05E"
+  brightYellow: "#DCDCAA"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#29B8DB"
+  brightWhite: "#BBBEC4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 257
+  contrast:
+    fg: 56.9
+    black: 0
+    red: 35.2
+    green: 72.4
+    yellow: 71.2
+    blue: 33.5
+    magenta: 32
+    cyan: 45
+    white: 56.9
+    brightBlack: 25.3
+    brightRed: 42
+    brightGreen: 50.2
+    brightYellow: 80
+    brightBlue: 53.4
+    brightMagenta: 51.2
+    brightCyan: 52.9
+    brightWhite: 63.8

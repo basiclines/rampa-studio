@@ -1,0 +1,49 @@
+name: "Synthwave Alpha"
+source:
+  marketplace_id: "vikpe.synthwave-alpha"
+  version: "0.2.1"
+  installs: 790
+  author: "Viktor Persson"
+  repo: "https://github.com/vikpe/synthwave-alpha-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=vikpe.synthwave-alpha"
+colors:
+  bg: "#241B30"
+  fg: "#F2F2E3"
+  black: "#241B30"
+  red: "#9A0048"
+  green: "#00986C"
+  yellow: "#ADAD3E"
+  blue: "#5B169C"
+  magenta: "#B300AD"
+  cyan: "#00B0B1"
+  white: "#B9B1BC"
+  brightBlack: "#7F7094"
+  brightRed: "#E60A70"
+  brightGreen: "#0AE4A4"
+  brightYellow: "#F9F972"
+  brightBlue: "#AA54F9"
+  brightMagenta: "#FF00F6"
+  brightCyan: "#00FBFD"
+  brightWhite: "#F2F2E3"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 303
+  contrast:
+    fg: 96.6
+    black: 0
+    red: 13.2
+    green: 35.9
+    yellow: 53.2
+    blue: 7.9
+    magenta: 22.4
+    cyan: 48.5
+    white: 59.5
+    brightBlack: 28.3
+    brightRed: 30.7
+    brightGreen: 72.5
+    brightYellow: 97.7
+    brightBlue: 33.7
+    brightMagenta: 43.5
+    brightCyan: 88
+    brightWhite: 96.6

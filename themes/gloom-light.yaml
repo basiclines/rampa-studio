@@ -1,0 +1,49 @@
+name: "gloom-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#D8EBE5"
+  fg: "#2A332B"
+  black: "#E9F4F0"
+  red: "#BA0E2E"
+  green: "#26A6A6"
+  yellow: "#FF5D38"
+  blue: "#98AD0D"
+  magenta: "#26A6A6"
+  cyan: "#FF5D38"
+  white: "#364137"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#59D9D9"
+  brightYellow: "#FFB09E"
+  brightBlue: "#D6EF31"
+  brightMagenta: "#59D9D9"
+  brightCyan: "#FFB09E"
+  brightWhite: "#586B5A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 175
+  contrast:
+    fg: 85
+    black: 0
+    red: 66
+    green: 41.4
+    yellow: 42
+    blue: 35
+    magenta: 41.4
+    cyan: 42
+    white: 80.4
+    brightBlack: 13.8
+    brightRed: 49.5
+    brightGreen: 15.7
+    brightYellow: 17.6
+    brightBlue: 0
+    brightMagenta: 15.7
+    brightCyan: 17.6
+    brightWhite: 64.3

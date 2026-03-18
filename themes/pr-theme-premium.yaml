@@ -1,0 +1,49 @@
+name: "PR-Theme Premium"
+source:
+  marketplace_id: "PrincePatelPR26.PrincePatelPR26"
+  version: "0.0.2"
+  installs: 27
+  author: "Prince Patel"
+  repo: "https://github.com/imprince26/PR-Theme-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=PrincePatelPR26.PrincePatelPR26"
+colors:
+  bg: "#0F1117"
+  fg: "#D6DBE6"
+  black: "#0B0D12"
+  red: "#F7768E"
+  green: "#3DD6A5"
+  yellow: "#F2C97D"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#D6DBE6"
+  brightBlack: "#4F5868"
+  brightRed: "#F7768E"
+  brightGreen: "#3DD6A5"
+  brightYellow: "#F2C97D"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  contrast:
+    fg: 84.1
+    black: 0
+    red: 50.4
+    green: 67.7
+    yellow: 76.8
+    blue: 52.2
+    magenta: 56
+    cyan: 71.5
+    white: 84.1
+    brightBlack: 16.6
+    brightRed: 50.4
+    brightGreen: 67.7
+    brightYellow: 76.8
+    brightBlue: 52.2
+    brightMagenta: 56
+    brightCyan: 71.5
+    brightWhite: 107.4

@@ -1,0 +1,49 @@
+name: "Aurora"
+source:
+  marketplace_id: "b4v1n4t0r.material-aurora"
+  version: "0.0.1"
+  installs: 78
+  author: "b4v1n4t0r"
+  repo: "https://github.com/sjbavier/aurora"
+  url: "https://marketplace.visualstudio.com/items?itemName=b4v1n4t0r.material-aurora"
+colors:
+  bg: "#302C40"
+  fg: "#BABED8"
+  black: "#000000"
+  red: "#F57484"
+  green: "#ACEA88"
+  yellow: "#FFCB6B"
+  blue: "#71B9ED"
+  magenta: "#C5A3FF"
+  cyan: "#88E7CA"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#F57484"
+  brightGreen: "#ACEA88"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#71B9ED"
+  brightMagenta: "#C5A3FF"
+  brightCyan: "#88E7CA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 293
+  contrast:
+    fg: 63.3
+    black: 0
+    red: 44.9
+    green: 78.9
+    yellow: 75.1
+    blue: 55.8
+    magenta: 56.7
+    cyan: 76.5
+    white: 103.1
+    brightBlack: 22.6
+    brightRed: 44.9
+    brightGreen: 78.9
+    brightYellow: 75.1
+    brightBlue: 55.8
+    brightMagenta: 56.7
+    brightCyan: 76.5
+    brightWhite: 103.1

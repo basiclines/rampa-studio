@@ -1,0 +1,49 @@
+name: "Matitheme Gotham"
+source:
+  marketplace_id: "Omatita.matitheme"
+  version: "1.0.2"
+  installs: 145
+  author: "Omatita"
+  repo: "https://github.com/Omatita/matitheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Omatita.matitheme"
+colors:
+  bg: "#121212"
+  fg: "#D1D1D1"
+  black: "#1B1B1B"
+  red: "#E53935"
+  green: "#00E676"
+  yellow: "#FFEB3B"
+  blue: "#2196F3"
+  magenta: "#9C27B0"
+  cyan: "#00BCD4"
+  white: "#D1D1D1"
+  brightBlack: "#424242"
+  brightRed: "#FF5252"
+  brightGreen: "#69F0AE"
+  brightYellow: "#FFFF00"
+  brightBlue: "#40C4FF"
+  brightMagenta: "#E040FB"
+  brightCyan: "#18FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 78.1
+    black: 0
+    red: 33.4
+    green: 73.7
+    yellow: 92.8
+    blue: 43.5
+    magenta: 21.1
+    cyan: 56.9
+    white: 78.1
+    brightBlack: 8.6
+    brightRed: 43.3
+    brightGreen: 82.4
+    brightYellow: 102.1
+    brightBlue: 63.8
+    brightMagenta: 41.7
+    brightCyan: 91.7
+    brightWhite: 107.3

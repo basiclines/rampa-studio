@@ -1,0 +1,49 @@
+name: "BedarX Obsidian"
+source:
+  marketplace_id: "saqibbedar.bedarx-pro"
+  version: "2.0.0"
+  installs: 136
+  author: "saqibbedar"
+  repo: "https://github.com/saqibbedar/BedarX-Pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=saqibbedar.bedarx-pro"
+colors:
+  bg: "#14141A"
+  fg: "#E8E8EF"
+  black: "#3B3B4B"
+  red: "#E06B74"
+  green: "#7EC699"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#C8C8D0"
+  brightBlack: "#505060"
+  brightRed: "#E88490"
+  brightGreen: "#98D4B0"
+  brightYellow: "#EDD49B"
+  brightBlue: "#7EC3FF"
+  brightMagenta: "#D6A0E8"
+  brightCyan: "#7DCBD0"
+  brightWhite: "#E8E8EF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  contrast:
+    fg: 92.5
+    black: 0
+    red: 42
+    green: 62.6
+    yellow: 70.8
+    blue: 54.9
+    magenta: 45.4
+    cyan: 54.8
+    white: 72.9
+    brightBlack: 13.9
+    brightRed: 51
+    brightGreen: 71.8
+    brightYellow: 81.2
+    brightBlue: 66.1
+    brightMagenta: 60.7
+    brightCyan: 66.9
+    brightWhite: 92.5

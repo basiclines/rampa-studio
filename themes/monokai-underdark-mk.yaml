@@ -1,0 +1,49 @@
+name: "Monokai Underdark MK"
+source:
+  marketplace_id: "saadmk11.monokai-underdark-mk"
+  version: "0.0.2"
+  installs: 55
+  author: "Maksudul Haque"
+  repo: "https://github.com/saadmk11/vsc-monokai-underdark-mk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=saadmk11.monokai-underdark-mk"
+colors:
+  bg: "#0A0A0A"
+  fg: "#F9F9F9"
+  black: "#3D3D3D"
+  red: "#FF3333"
+  green: "#00FF64"
+  yellow: "#FFE779"
+  blue: "#1584FF"
+  magenta: "#FF02FF"
+  cyan: "#0AE1FF"
+  white: "#A3A3A3"
+  brightBlack: "#666666"
+  brightRed: "#FF6767"
+  brightGreen: "#97FFB1"
+  brightYellow: "#FFCE00"
+  brightBlue: "#95CCFF"
+  brightMagenta: "#FF9AFF"
+  brightCyan: "#8EF4FF"
+  brightWhite: "#C9C9C9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103.8
+    black: 7.3
+    red: 39.5
+    green: 87
+    yellow: 92.2
+    blue: 38.3
+    magenta: 46.1
+    cyan: 77
+    white: 52.3
+    brightBlack: 22.9
+    brightRed: 48
+    brightGreen: 93.4
+    brightYellow: 80.3
+    brightBlue: 72.4
+    brightMagenta: 67.7
+    brightCyan: 90.5
+    brightWhite: 73.7

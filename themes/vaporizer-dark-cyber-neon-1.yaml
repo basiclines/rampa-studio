@@ -1,0 +1,49 @@
+name: "Vaporizer Dark Cyber Neon 1"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35736
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+colors:
+  bg: "#060002"
+  fg: "#21B8F2"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#F41459"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#F54B7F"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 354
+  contrast:
+    fg: 57.7
+    black: 0
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 28.4
+    magenta: 35.7
+    cyan: 48.6
+    white: 91
+    brightBlack: 23
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 41
+    brightMagenta: 41.5
+    brightCyan: 56.4
+    brightWhite: 91

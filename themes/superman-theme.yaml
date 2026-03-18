@@ -1,0 +1,49 @@
+name: "Superman Theme"
+source:
+  marketplace_id: "AndresCespedesMorales.superman-vscode"
+  version: "0.1.0"
+  installs: 1606
+  author: "Andres Cespedes Morales"
+  repo: "https://github.com/pedes/superman-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndresCespedesMorales.superman-vscode"
+colors:
+  bg: "#263238"
+  fg: "#EEFFFF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#528BFF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  contrast:
+    fg: 100.4
+    black: 0
+    red: 37.9
+    green: 58.1
+    yellow: 66.4
+    blue: 37.3
+    magenta: 41
+    cyan: 50.4
+    white: 78.9
+    brightBlack: 31.4
+    brightRed: 34.3
+    brightGreen: 58.1
+    brightYellow: 66.4
+    brightBlue: 37.3
+    brightMagenta: 8.6
+    brightCyan: 50.4
+    brightWhite: 78.9

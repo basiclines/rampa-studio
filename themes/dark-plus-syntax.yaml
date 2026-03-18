@@ -1,0 +1,49 @@
+name: "dark-plus-syntax"
+source:
+  marketplace_id: "dunstontc-org.dark-plus-syntax"
+  version: "0.0.165"
+  installs: 448
+  author: "dunstontc-org"
+  repo: "https://github.com/dunstontc/dark-plus-syntax"
+  url: "https://marketplace.visualstudio.com/items?itemName=dunstontc-org.dark-plus-syntax"
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#1E1E1E"
+  red: "#D16969"
+  green: "#608B4E"
+  yellow: "#D7BA7D"
+  blue: "#569CD6"
+  magenta: "#C586C0"
+  cyan: "#4EC9B0"
+  white: "#D4D4D4"
+  brightBlack: "#808080"
+  brightRed: "#D16969"
+  brightGreen: "#B5CEA8"
+  brightYellow: "#CE9178"
+  brightBlue: "#9CDCFE"
+  brightMagenta: "#C586C0"
+  brightCyan: "#4EC9B0"
+  brightWhite: "#808080"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 37.3
+    green: 32.9
+    yellow: 65.3
+    blue: 44.2
+    magenta: 46.5
+    cyan: 61.1
+    white: 78.7
+    brightBlack: 32.9
+    brightRed: 37.3
+    brightGreen: 70.6
+    brightYellow: 48.7
+    brightBlue: 78.4
+    brightMagenta: 46.5
+    brightCyan: 61.1
+    brightWhite: 32.9

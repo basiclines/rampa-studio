@@ -1,0 +1,49 @@
+name: "R Dark Pro (Filter Nightfall)"
+source:
+  marketplace_id: "Rezky.r-dark-pro"
+  version: "0.0.44"
+  installs: 3273
+  author: "Rezky P. Budihartono"
+  repo: "https://github.com/rezkycodes/rdark.pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rezky.r-dark-pro"
+colors:
+  bg: "#181920"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 279
+  contrast:
+    fg: 59.1
+    black: 8.6
+    red: 36.5
+    green: 60.1
+    yellow: 48.3
+    blue: 49.4
+    magenta: 38.8
+    cyan: 52.2
+    white: 82.8
+    brightBlack: 15.2
+    brightRed: 45.8
+    brightGreen: 76.5
+    brightYellow: 61
+    brightBlue: 63.5
+    brightMagenta: 50
+    brightCyan: 67.5
+    brightWhite: 90.4

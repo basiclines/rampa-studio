@@ -1,0 +1,49 @@
+name: "Moonfly"
+source:
+  marketplace_id: "jgenc.moonfly-vscode-theme"
+  version: "0.1.1"
+  installs: 433
+  author: "jgenc"
+  repo: "https://github.com/jgenc/moonfly-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jgenc.moonfly-vscode-theme"
+colors:
+  bg: "#080808"
+  fg: "#D3D3D3"
+  black: "#323437"
+  red: "#FF5D5D"
+  green: "#8CC85F"
+  yellow: "#E3C78A"
+  blue: "#80A0FF"
+  magenta: "#CF87E8"
+  cyan: "#79DAC8"
+  white: "#C6C6C6"
+  brightBlack: "#949494"
+  brightRed: "#FF5189"
+  brightGreen: "#36C692"
+  brightYellow: "#C6C684"
+  brightBlue: "#74B2FF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#85DC85"
+  brightWhite: "#E4E4E4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 79.8
+    black: 0
+    red: 45.9
+    green: 63.9
+    yellow: 74.4
+    blue: 52.9
+    magenta: 52.4
+    cyan: 74
+    white: 72
+    brightBlack: 44.5
+    brightRed: 44.9
+    brightGreen: 59.8
+    brightYellow: 69.8
+    brightBlue: 59
+    brightMagenta: 47.4
+    brightCyan: 73.5
+    brightWhite: 90.3

@@ -1,0 +1,49 @@
+name: "Moegi Iris"
+source:
+  marketplace_id: "ddiu8081.moegi-theme"
+  version: "0.7.1"
+  installs: 36944
+  author: "Diu"
+  repo: "https://github.com/moegi-design/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ddiu8081.moegi-theme"
+colors:
+  bg: "#F5F2F9"
+  fg: "#433748"
+  black: "#635768"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B290BA"
+  cyan: "#6AB8C0"
+  white: "#E8DFD7"
+  brightBlack: "#938798"
+  brightRed: "#F48484"
+  brightGreen: "#76C3A5"
+  brightYellow: "#F2D98E"
+  brightBlue: "#80A8E4"
+  brightMagenta: "#C2A0CA"
+  brightCyan: "#7AC8D0"
+  brightWhite: "#EFEAF5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.8
+    black: 76.4
+    red: 48.9
+    green: 41.6
+    yellow: 21
+    blue: 48.8
+    magenta: 46.3
+    cyan: 37.7
+    white: 8.5
+    brightBlack: 54.6
+    brightRed: 41.2
+    brightGreen: 33.4
+    brightYellow: 11.9
+    brightBlue: 40.7
+    brightMagenta: 38.1
+    brightCyan: 29.2
+    brightWhite: 0

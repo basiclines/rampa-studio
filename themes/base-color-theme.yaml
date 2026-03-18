@@ -1,0 +1,49 @@
+name: "base-color-theme"
+source:
+  marketplace_id: "electricduck.elementary-theme"
+  version: "1.51.2"
+  installs: 4186
+  author: "Ducky"
+  repo: "https://github.com/electricduck/vscode-elementary-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=electricduck.elementary-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#111111"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#EC0048"
+  cyan: "#2AA198"
+  white: "#94A3A5"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#9BDB4D"
+  brightYellow: "#D48E15"
+  brightBlue: "#3689E6"
+  brightMagenta: "#D33682"
+  brightCyan: "#2AA198"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 105.4
+    black: 99
+    red: 70.5
+    green: 59
+    yellow: 59.1
+    blue: 63.9
+    magenta: 68.4
+    cyan: 58.3
+    white: 51
+    brightBlack: 76.8
+    brightRed: 71
+    brightGreen: 29
+    brightYellow: 52.6
+    brightBlue: 62.9
+    brightMagenta: 70.3
+    brightCyan: 58.3
+    brightWhite: 7.6

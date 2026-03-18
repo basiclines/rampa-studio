@@ -1,0 +1,49 @@
+name: "Night-Stack Aurora"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0A0B12"
+  fg: "#E6E9FF"
+  black: "#1A1C2E"
+  red: "#FF6B8A"
+  green: "#7CFFB2"
+  yellow: "#FFE66D"
+  blue: "#7DF9FF"
+  magenta: "#C586FF"
+  cyan: "#6AF0FF"
+  white: "#E6E9FF"
+  brightBlack: "#1A1C2E"
+  brightRed: "#FF6B8A"
+  brightGreen: "#7CFFB2"
+  brightYellow: "#FFE66D"
+  brightBlue: "#7DF9FF"
+  brightMagenta: "#C586FF"
+  brightCyan: "#6AF0FF"
+  brightWhite: "#E6E9FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  contrast:
+    fg: 94
+    black: 0
+    red: 49.7
+    green: 91.7
+    yellow: 91.4
+    blue: 91.9
+    magenta: 52
+    cyan: 86.4
+    white: 94
+    brightBlack: 0
+    brightRed: 49.7
+    brightGreen: 91.7
+    brightYellow: 91.4
+    brightBlue: 91.9
+    brightMagenta: 52
+    brightCyan: 86.4
+    brightWhite: 94

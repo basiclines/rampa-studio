@@ -1,0 +1,49 @@
+name: "Moonokai"
+source:
+  marketplace_id: "mtayllan.moonokai"
+  version: "0.0.4"
+  installs: 1021
+  author: "mtayllan"
+  repo: "https://github.com/mtayllan/moonokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=mtayllan.moonokai"
+colors:
+  bg: "#0F111B"
+  fg: "#FFFFFF"
+  black: "#0F111B"
+  red: "#E33400"
+  green: "#5CCC96"
+  yellow: "#E39400"
+  blue: "#3465A4"
+  magenta: "#B3A1E6"
+  cyan: "#00A3CC"
+  white: "#FFFFFF"
+  brightBlack: "#ECF0C1"
+  brightRed: "#E33400"
+  brightGreen: "#5CCC96"
+  brightYellow: "#E39400"
+  brightBlue: "#3465A4"
+  brightMagenta: "#B3A1E6"
+  brightCyan: "#00A3CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  contrast:
+    fg: 107.3
+    black: 0
+    red: 32.2
+    green: 63.5
+    yellow: 53.3
+    blue: 21.9
+    magenta: 56.4
+    cyan: 45.9
+    white: 107.3
+    brightBlack: 95
+    brightRed: 32.2
+    brightGreen: 63.5
+    brightYellow: 53.3
+    brightBlue: 21.9
+    brightMagenta: 56.4
+    brightCyan: 45.9
+    brightWhite: 107.3

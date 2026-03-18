@@ -1,0 +1,49 @@
+name: "Matte Atelier — Obsidian Colorblind"
+source:
+  marketplace_id: "aadityanarayan.matte-atelier"
+  version: "1.0.0"
+  installs: 25
+  author: "aadityanarayan"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=aadityanarayan.matte-atelier"
+colors:
+  bg: "#141416"
+  fg: "#D8D6D0"
+  black: "#1A1A1E"
+  red: "#C87858"
+  green: "#5898B0"
+  yellow: "#D4A850"
+  blue: "#5B98C8"
+  magenta: "#A888C8"
+  cyan: "#60C8D8"
+  white: "#D8D6D0"
+  brightBlack: "#4C4A44"
+  brightRed: "#D89878"
+  brightGreen: "#78B8C8"
+  brightYellow: "#E0BE68"
+  brightBlue: "#78B0D0"
+  brightMagenta: "#C0A0E0"
+  brightCyan: "#78D8E0"
+  brightWhite: "#EAE8E2"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 81
+    black: 0
+    red: 40.4
+    green: 41.7
+    yellow: 58.1
+    blue: 43.2
+    magenta: 44.5
+    cyan: 64.3
+    white: 81
+    brightBlack: 11.2
+    brightRed: 53.8
+    brightGreen: 57.9
+    brightYellow: 68.9
+    brightBlue: 55
+    brightMagenta: 57.1
+    brightCyan: 73.4
+    brightWhite: 92.2

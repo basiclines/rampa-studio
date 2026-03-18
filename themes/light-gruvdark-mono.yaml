@@ -1,0 +1,49 @@
+name: "Light GruvDark-Mono"
+source:
+  marketplace_id: "darianmorat.darian-theme"
+  version: "2.1.6"
+  installs: 3178
+  author: "Darian Toledo"
+  repo: "https://github.com/darianmorat/gruvdark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=darianmorat.darian-theme"
+colors:
+  bg: "#F9F6E4"
+  fg: "#111111"
+  black: "#4F3829"
+  red: "#C14A4A"
+  green: "#008000"
+  yellow: "#BF6702"
+  blue: "#0C69B6"
+  magenta: "#945E80"
+  cyan: "#4C7A5D"
+  white: "#928374"
+  brightBlack: "#111111"
+  brightRed: "#C14A4A"
+  brightGreen: "#008000"
+  brightYellow: "#BF6702"
+  brightBlue: "#0C69B6"
+  brightMagenta: "#945E80"
+  brightCyan: "#4C7A5D"
+  brightWhite: "#D1CFC4"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 99.6
+    black: 89.4
+    red: 67
+    green: 68.9
+    yellow: 61.7
+    blue: 72
+    magenta: 68.9
+    cyan: 68.4
+    white: 58.6
+    brightBlack: 99.6
+    brightRed: 67
+    brightGreen: 68.9
+    brightYellow: 61.7
+    brightBlue: 72
+    brightMagenta: 68.9
+    brightCyan: 68.4
+    brightWhite: 20.1

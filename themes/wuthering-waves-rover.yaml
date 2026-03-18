@@ -1,0 +1,49 @@
+name: "Wuthering Waves : Rover"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 120
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+colors:
+  bg: "#FFFCFA"
+  fg: "#312328"
+  black: "#312328"
+  red: "#A25050"
+  green: "#709060"
+  yellow: "#D09060"
+  blue: "#506080"
+  magenta: "#906070"
+  cyan: "#608080"
+  white: "#F7EADC"
+  brightBlack: "#706060"
+  brightRed: "#C06060"
+  brightGreen: "#80A070"
+  brightYellow: "#E3B08B"
+  brightBlue: "#607090"
+  brightMagenta: "#A07080"
+  brightCyan: "#709090"
+  brightWhite: "#FFFCFA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 100.3
+    black: 100.3
+    red: 75.7
+    green: 62
+    yellow: 50.4
+    blue: 79.9
+    magenta: 73.8
+    cyan: 68.1
+    white: 7.3
+    brightBlack: 78.2
+    brightRed: 66.5
+    brightGreen: 54.1
+    brightYellow: 35.5
+    brightBlue: 72.9
+    brightMagenta: 66.6
+    brightCyan: 60.6
+    brightWhite: 0

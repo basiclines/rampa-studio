@@ -1,0 +1,49 @@
+name: "Vaporizer Cloudy Light"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35736
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+colors:
+  bg: "#FFFFFF"
+  fg: "#A9DBDE"
+  black: "#4F4F4F"
+  red: "#FF8181"
+  green: "#2FF5AB"
+  yellow: "#E2C421"
+  blue: "#53C0F5"
+  magenta: "#FD95FD"
+  cyan: "#4ADBFF"
+  white: "#555555"
+  brightBlack: "#A1A1A1"
+  brightRed: "#FB9393"
+  brightGreen: "#8DF9BC"
+  brightYellow: "#FBD06B"
+  brightBlue: "#87BFFD"
+  brightMagenta: "#FFB2FF"
+  brightCyan: "#8BE8FF"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 23.9
+    black: 88.4
+    red: 47
+    green: 19.7
+    yellow: 31.1
+    blue: 39.7
+    magenta: 36.6
+    cyan: 27.8
+    white: 85.9
+    brightBlack: 50.5
+    brightRed: 42.3
+    brightGreen: 13.7
+    brightYellow: 21.9
+    brightBlue: 36.8
+    brightMagenta: 27.2
+    brightCyan: 18.9
+    brightWhite: 48.5

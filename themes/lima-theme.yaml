@@ -1,0 +1,49 @@
+name: "Lima Theme"
+source:
+  marketplace_id: "AdrianoLima.adrianulima-theme"
+  version: "0.6.1"
+  installs: 88
+  author: "Adriano Lima"
+  repo: "https://github.com/adrianulima/lima-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AdrianoLima.adrianulima-theme"
+colors:
+  bg: "#222428"
+  fg: "#E0F0F0"
+  black: "#222428"
+  red: "#F080D0"
+  green: "#80F0D0"
+  yellow: "#F0D080"
+  blue: "#80D0F0"
+  magenta: "#F080D0"
+  cyan: "#80D0F0"
+  white: "#E0F0F0"
+  brightBlack: "#80D0F0"
+  brightRed: "#F080D0"
+  brightGreen: "#80F0D0"
+  brightYellow: "#F0D080"
+  brightBlue: "#80D0F0"
+  brightMagenta: "#F080D0"
+  brightCyan: "#80D0F0"
+  brightWhite: "#E0F0F0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 93.2
+    black: 0
+    red: 52.2
+    green: 82.8
+    yellow: 77.3
+    blue: 69.1
+    magenta: 52.2
+    cyan: 69.1
+    white: 93.2
+    brightBlack: 69.1
+    brightRed: 52.2
+    brightGreen: 82.8
+    brightYellow: 77.3
+    brightBlue: 69.1
+    brightMagenta: 52.2
+    brightCyan: 69.1
+    brightWhite: 93.2

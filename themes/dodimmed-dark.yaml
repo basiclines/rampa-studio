@@ -1,0 +1,49 @@
+name: "DoDimmed Dark"
+source:
+  marketplace_id: "doolooper.do-dimmed"
+  version: "0.1.0"
+  installs: 558
+  author: "Mahdi Harati"
+  repo: "https://github.com/Doolooper/DoDimmed"
+  url: "https://marketplace.visualstudio.com/items?itemName=doolooper.do-dimmed"
+colors:
+  bg: "#161616"
+  fg: "#FFFFFF"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107
+    black: 8.2
+    red: 33.1
+    green: 61.8
+    yellow: 76.5
+    blue: 48.7
+    magenta: 46.6
+    cyan: 62.8
+    white: 92.4
+    brightBlack: 15.5
+    brightRed: 33.1
+    brightGreen: 61.8
+    brightYellow: 76.5
+    brightBlue: 48.7
+    brightMagenta: 46.6
+    brightCyan: 60.7
+    brightWhite: 96.3

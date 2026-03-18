@@ -1,0 +1,49 @@
+name: "Newton Next (Official)"
+source:
+  marketplace_id: "devberto.theme-newton-next"
+  version: "3.0.6"
+  installs: 2627
+  author: "Marco Bertolini"
+  repo: "https://github.com/bertolinimarco/vscode-theme-newton-next"
+  url: "https://marketplace.visualstudio.com/items?itemName=devberto.theme-newton-next"
+colors:
+  bg: "#1A1A1A"
+  fg: "#CBCCC6"
+  black: "#1A1A1A"
+  red: "#D04949"
+  green: "#EBBD5B"
+  yellow: "#E5A430"
+  blue: "#7289DA"
+  magenta: "#CFBAFA"
+  cyan: "#95E6CB"
+  white: "#CBCCC6"
+  brightBlack: "#111111"
+  brightRed: "#F28779"
+  brightGreen: "#BAE67E"
+  brightYellow: "#E5C331"
+  brightBlue: "#95E6CB"
+  brightMagenta: "#D4BFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#5F96D7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 74
+    black: 0
+    red: 30.5
+    green: 69.4
+    yellow: 58.5
+    blue: 39.8
+    magenta: 69.7
+    cyan: 80.5
+    white: 74
+    brightBlack: 0
+    brightRed: 52.5
+    brightGreen: 81.6
+    brightYellow: 70.5
+    brightBlue: 80.5
+    brightMagenta: 72.7
+    brightCyan: 80.5
+    brightWhite: 42.9

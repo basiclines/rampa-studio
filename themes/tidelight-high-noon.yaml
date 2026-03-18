@@ -1,0 +1,49 @@
+name: "Tidelight High Noon"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+colors:
+  bg: "#FFF7ED"
+  fg: "#020617"
+  black: "#020617"
+  red: "#9F1239"
+  green: "#166534"
+  yellow: "#B45309"
+  blue: "#1D4ED8"
+  magenta: "#A21CAF"
+  cyan: "#0E7490"
+  white: "#1E293B"
+  brightBlack: "#020617"
+  brightRed: "#9F1239"
+  brightGreen: "#166534"
+  brightYellow: "#B45309"
+  brightBlue: "#1D4ED8"
+  brightMagenta: "#A21CAF"
+  brightCyan: "#0E7490"
+  brightWhite: "#1E293B"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 101.7
+    black: 101.7
+    red: 81.8
+    green: 80.2
+    yellow: 69.9
+    blue: 78
+    magenta: 75.7
+    cyan: 72.1
+    white: 97.2
+    brightBlack: 101.7
+    brightRed: 81.8
+    brightGreen: 80.2
+    brightYellow: 69.9
+    brightBlue: 78
+    brightMagenta: 75.7
+    brightCyan: 72.1
+    brightWhite: 97.2

@@ -1,0 +1,49 @@
+name: "GelGel"
+source:
+  marketplace_id: "LanceWilhelm.gelgel"
+  version: "0.0.4"
+  installs: 165
+  author: "Lance Wilhelm"
+  repo: "https://github.com/lancewilhelm/gelgel"
+  url: "https://marketplace.visualstudio.com/items?itemName=LanceWilhelm.gelgel"
+colors:
+  bg: "#1B1B1B"
+  fg: "#D7D9CB"
+  black: "#494949"
+  red: "#F3ACD7"
+  green: "#C1F5E4"
+  yellow: "#F5F0B8"
+  blue: "#A5D2F8"
+  magenta: "#E3D7F0"
+  cyan: "#AFF7C2"
+  white: "#F8D0AE"
+  brightBlack: "#373636"
+  brightRed: "#F67FC9"
+  brightGreen: "#9CE9CF"
+  brightYellow: "#F5EB73"
+  brightBlue: "#75BFFD"
+  brightMagenta: "#D0B8E8"
+  brightCyan: "#6AF891"
+  brightWhite: "#FBB67F"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 81.2
+    black: 10.2
+    red: 68
+    green: 92.8
+    yellow: 95.1
+    blue: 74.7
+    magenta: 83.7
+    cyan: 90.6
+    white: 81.1
+    brightBlack: 0
+    brightRed: 54
+    brightGreen: 82.6
+    brightYellow: 91.1
+    brightBlue: 63
+    brightMagenta: 68
+    brightCyan: 84.9
+    brightWhite: 69.9

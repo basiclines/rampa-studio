@@ -1,0 +1,49 @@
+name: "Bynawers"
+source:
+  marketplace_id: "Bynawers.manjaro-bynawers-theme"
+  version: "0.0.1"
+  installs: 770
+  author: "Bynawers"
+  repo: "https://github.com/Bynawers/vscode-manjaro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Bynawers.manjaro-bynawers-theme"
+colors:
+  bg: "#222B2E"
+  fg: "#ABB2BF"
+  black: "#222B2E"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#3A4A51"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 220
+  contrast:
+    fg: 56.7
+    black: 0
+    red: 34
+    green: 57.6
+    yellow: 45.9
+    blue: 46.9
+    magenta: 36.3
+    cyan: 49.8
+    white: 80.3
+    brightBlack: 7.4
+    brightRed: 43.3
+    brightGreen: 74
+    brightYellow: 58.5
+    brightBlue: 61
+    brightMagenta: 47.5
+    brightCyan: 65.1
+    brightWhite: 87.9

@@ -1,0 +1,49 @@
+name: "Knapsack"
+source:
+  marketplace_id: "versionmaybe.knapsack-theme"
+  version: "0.0.4"
+  installs: 76
+  author: "VersionMaybe."
+  repo: "https://github.com/VersionMaybe/vs-code-knapsack"
+  url: "https://marketplace.visualstudio.com/items?itemName=versionmaybe.knapsack-theme"
+colors:
+  bg: "#212229"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FA285A"
+  green: "#5AC09B"
+  yellow: "#F9F962"
+  blue: "#325AFA"
+  magenta: "#827AF5"
+  cyan: "#32B8FA"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF6363"
+  brightGreen: "#83E496"
+  brightYellow: "#FFFFB0"
+  brightBlue: "#6C89FF"
+  brightMagenta: "#C37AF5"
+  brightCyan: "#6CCEFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 279
+  contrast:
+    fg: 105.4
+    black: 0
+    red: 35.6
+    green: 56.1
+    yellow: 97
+    blue: 23.9
+    magenta: 37.2
+    cyan: 56
+    white: 88.5
+    brightBlack: 20.6
+    brightRed: 44.8
+    brightGreen: 75.3
+    brightYellow: 102.4
+    brightBlue: 40.9
+    brightMagenta: 45.3
+    brightCyan: 68.1
+    brightWhite: 88.5

@@ -1,0 +1,49 @@
+name: "DooshTheme"
+source:
+  marketplace_id: "dooshii.dooshtheme"
+  version: "0.0.1"
+  installs: 16
+  author: "dooshii"
+  repo: "https://github.com/dooshiifox/dotfiles"
+  url: "https://marketplace.visualstudio.com/items?itemName=dooshii.dooshtheme"
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#42454F"
+  red: "#C7202E"
+  green: "#5DBA1A"
+  yellow: "#CBC815"
+  blue: "#2377BC"
+  magenta: "#9F2BC2"
+  cyan: "#0E99A7"
+  white: "#CCEBEB"
+  brightBlack: "#636D82"
+  brightRed: "#EE7781"
+  brightGreen: "#B9F08C"
+  brightYellow: "#FBFF84"
+  brightBlue: "#78CAF2"
+  brightMagenta: "#CD7BE6"
+  brightCyan: "#6ABEC7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 20.8
+    green: 49.6
+    yellow: 65.9
+    blue: 25
+    magenta: 19.6
+    cyan: 36.3
+    white: 86.7
+    brightBlack: 21.7
+    brightRed: 44.7
+    brightGreen: 83.8
+    brightYellow: 99
+    brightBlue: 64.5
+    brightMagenta: 44.4
+    brightCyan: 56.1
+    brightWhite: 103.7

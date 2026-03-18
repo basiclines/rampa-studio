@@ -1,0 +1,49 @@
+name: "Sveltesse Dark Soft"
+source:
+  marketplace_id: "AntonioSarcevic.theme-sveltesse"
+  version: "0.0.1"
+  installs: 770
+  author: "Antonio Sarcevic"
+  repo: "https://github.com/SarcevicAntonio/vscode-theme-sveltesse"
+  url: "https://marketplace.visualstudio.com/items?itemName=AntonioSarcevic.theme-sveltesse"
+colors:
+  bg: "#292929"
+  fg: "#E6E6E6"
+  black: "#212121"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#E6E6E6"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 88
+    black: 0
+    red: 38.1
+    green: 34
+    yellow: 73
+    blue: 38.7
+    magenta: 41.3
+    cyan: 46.6
+    white: 88
+    brightBlack: 26.9
+    brightRed: 38.1
+    brightGreen: 34
+    brightYellow: 73
+    brightBlue: 38.7
+    brightMagenta: 41.3
+    brightCyan: 46.6
+    brightWhite: 104.2

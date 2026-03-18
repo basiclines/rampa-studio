@@ -1,0 +1,49 @@
+name: "Dragn Dark Color Theme"
+source:
+  marketplace_id: "Miladfathy.dragan-color-theme"
+  version: "2.0.8"
+  installs: 69755
+  author: "Milad Fathy"
+  repo: "https://github.com/miladfathy"
+  url: "https://marketplace.visualstudio.com/items?itemName=Miladfathy.dragan-color-theme"
+colors:
+  bg: "#17181A"
+  fg: "#E2E2E2"
+  black: "#090300"
+  red: "#DB2D20"
+  green: "#01A252"
+  yellow: "#FDED02"
+  blue: "#01A0E4"
+  magenta: "#A16A94"
+  cyan: "#0BA9DD"
+  white: "#F37676"
+  brightBlack: "#F38028"
+  brightRed: "#0A37FF"
+  brightGreen: "#01A252"
+  brightYellow: "#FDED02"
+  brightBlue: "#01A0E4"
+  brightMagenta: "#EB64CB"
+  brightCyan: "#FF0FF3"
+  brightWhite: "#240EE2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 88
+    black: 0
+    red: 29.3
+    green: 40.5
+    yellow: 92.7
+    blue: 45.6
+    magenta: 31.7
+    cyan: 48.8
+    white: 48.3
+    brightBlack: 49.8
+    brightRed: 18.4
+    brightGreen: 40.5
+    brightYellow: 92.7
+    brightBlue: 45.6
+    brightMagenta: 45.9
+    brightCyan: 44.3
+    brightWhite: 12

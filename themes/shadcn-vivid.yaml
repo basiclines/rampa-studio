@@ -1,0 +1,49 @@
+name: "Shadcn Vivid"
+source:
+  marketplace_id: "chiziaruhoma.shadcn-vivid-theme"
+  version: "0.1.1"
+  installs: 598
+  author: "Chiziaruhoma Ogbonda"
+  repo: "https://github.com/zfinix/shadcn-vivid-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=chiziaruhoma.shadcn-vivid-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#F59E0B"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#00D9FF"
+  white: "#E2E8F0"
+  brightBlack: "#5A6677"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FBBF24"
+  brightBlue: "#B4ADFF"
+  brightMagenta: "#D946EF"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.8
+    green: 57.8
+    yellow: 60.5
+    blue: 37.8
+    magenta: 35.4
+    cyan: 73.3
+    white: 92.5
+    brightBlack: 22.6
+    brightRed: 49.1
+    brightGreen: 71.5
+    brightYellow: 73.7
+    brightBlue: 63
+    brightMagenta: 40.7
+    brightCyan: 69.6
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "OhLED_Gainsboro"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#DCDCDC"
+  black: "#DCDCDC"
+  red: "#A1A1A1"
+  green: "#B0B0B0"
+  yellow: "#848484"
+  blue: "#CDCDCD"
+  magenta: "#BFBFBF"
+  cyan: "#939393"
+  white: "#757575"
+  brightBlack: "#DCDCDC"
+  brightRed: "#A1A1A1"
+  brightGreen: "#B0B0B0"
+  brightYellow: "#848484"
+  brightBlue: "#CDCDCD"
+  brightMagenta: "#BFBFBF"
+  brightCyan: "#939393"
+  brightWhite: "#757575"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 85.4
+    black: 85.4
+    red: 51.4
+    green: 59.5
+    yellow: 36.7
+    blue: 76.3
+    magenta: 68
+    cyan: 44.1
+    white: 29.6
+    brightBlack: 85.4
+    brightRed: 51.4
+    brightGreen: 59.5
+    brightYellow: 36.7
+    brightBlue: 76.3
+    brightMagenta: 68
+    brightCyan: 44.1
+    brightWhite: 29.6

@@ -1,0 +1,49 @@
+name: "IBM Carbon Gray 90 (alternative code highlighting)"
+source:
+  marketplace_id: "achkasov.ibm-carbon-design-system-theme"
+  version: "1.1.0"
+  installs: 675
+  author: "achkasov"
+  repo: "https://github.com/achkasov/IBM-Carbon-Design-System-VSCode-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=achkasov.ibm-carbon-design-system-theme"
+colors:
+  bg: "#262626"
+  fg: "#F4F4F4"
+  black: "#262626"
+  red: "#DA1E28"
+  green: "#24A148"
+  yellow: "#FF832B"
+  blue: "#4589FF"
+  magenta: "#A56EFF"
+  cyan: "#009D9A"
+  white: "#C6C6C6"
+  brightBlack: "#525252"
+  brightRed: "#F14C4C"
+  brightGreen: "#A7F0BA"
+  brightYellow: "#F1C21B"
+  brightBlue: "#D0E2FF"
+  brightMagenta: "#E8DAFF"
+  brightCyan: "#9EF0F0"
+  brightWhite: "#F4F4F4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97.6
+    black: 0
+    red: 26.1
+    green: 38.2
+    yellow: 51.1
+    blue: 38.1
+    magenta: 38.1
+    cyan: 38.4
+    white: 69
+    brightBlack: 11.9
+    brightRed: 36.5
+    brightGreen: 84.5
+    brightYellow: 70.1
+    brightBlue: 85.2
+    brightMagenta: 84.8
+    brightCyan: 86
+    brightWhite: 97.6

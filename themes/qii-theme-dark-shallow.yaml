@@ -1,0 +1,49 @@
+name: "Qii Theme Dark Shallow"
+source:
+  marketplace_id: "qiqi29.qii-theme"
+  version: "1.6.4"
+  installs: 3873
+  author: "qiqi29"
+  repo: "https://github.com/Qiqi29/qii-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=qiqi29.qii-theme"
+colors:
+  bg: "#1E2227"
+  fg: "#CACBD4"
+  black: "#2D3139"
+  red: "#E68096"
+  green: "#A7E28B"
+  yellow: "#E2B77E"
+  blue: "#82B8FA"
+  magenta: "#C589E0"
+  cyan: "#75CAD3"
+  white: "#CACBD4"
+  brightBlack: "#7F848E"
+  brightRed: "#E68096"
+  brightGreen: "#A7E28B"
+  brightYellow: "#E2B77E"
+  brightBlue: "#82B8FA"
+  brightMagenta: "#C589E0"
+  brightCyan: "#75CAD3"
+  brightWhite: "#CACBD4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 254
+  contrast:
+    fg: 73
+    black: 0
+    red: 48.1
+    green: 77
+    yellow: 65.2
+    blue: 59.8
+    magenta: 48.7
+    cyan: 64.5
+    white: 73
+    brightBlack: 34.2
+    brightRed: 48.1
+    brightGreen: 77
+    brightYellow: 65.2
+    brightBlue: 59.8
+    brightMagenta: 48.7
+    brightCyan: 64.5
+    brightWhite: 73

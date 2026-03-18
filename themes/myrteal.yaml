@@ -1,0 +1,49 @@
+name: "Myrteal"
+source:
+  marketplace_id: "enesozturk.myrteal"
+  version: "0.9.0"
+  installs: 386
+  author: "enes"
+  repo: "https://github.com/enesozturk/myrteal"
+  url: "https://marketplace.visualstudio.com/items?itemName=enesozturk.myrteal"
+colors:
+  bg: "#171717"
+  fg: "#A1A1A1"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#15A16C"
+  yellow: "#A8B723"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23B37A"
+  brightYellow: "#C7C72E"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 50.4
+    black: 0
+    red: 26.7
+    green: 40.8
+    yellow: 57.6
+    blue: 27.4
+    magenta: 29.8
+    cyan: 47.6
+    white: 90
+    brightBlack: 22
+    brightRed: 38.6
+    brightGreen: 49.1
+    brightYellow: 68.2
+    brightBlue: 40
+    brightMagenta: 45.4
+    brightCyan: 55.4
+    brightWhite: 90

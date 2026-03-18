@@ -1,0 +1,49 @@
+name: "Tlapalli 03: Quartz"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+colors:
+  bg: "#0A0509"
+  fg: "#F78ABE"
+  black: "#0A0509"
+  red: "#D96B94"
+  green: "#7F3D5F"
+  yellow: "#FF8CB8"
+  blue: "#4D2A3D"
+  magenta: "#FF70AD"
+  cyan: "#9E5080"
+  white: "#FF99C2"
+  brightBlack: "#381E2E"
+  brightRed: "#D96B94"
+  brightGreen: "#7F3D5F"
+  brightYellow: "#FF8CB8"
+  brightBlue: "#4D2A3D"
+  brightMagenta: "#FF70AD"
+  brightCyan: "#9E5080"
+  brightWhite: "#FFA3D1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 333
+  contrast:
+    fg: 58.1
+    black: 0
+    red: 42.4
+    green: 15.7
+    yellow: 59.9
+    blue: 0
+    magenta: 52.3
+    cyan: 25.3
+    white: 64.3
+    brightBlack: 0
+    brightRed: 42.4
+    brightGreen: 15.7
+    brightYellow: 59.9
+    brightBlue: 0
+    brightMagenta: 52.3
+    brightCyan: 25.3
+    brightWhite: 68.2

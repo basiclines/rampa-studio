@@ -1,0 +1,49 @@
+name: "Maroza Cyber Chill"
+source:
+  marketplace_id: "thirawat27.maroza-theme"
+  version: "1.0.4"
+  installs: 331
+  author: "thirawat27"
+  repo: "https://github.com/thirawat27/maroza-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thirawat27.maroza-theme"
+colors:
+  bg: "#1A1B26"
+  fg: "#D9E1FF"
+  black: "#1A1B26"
+  red: "#FF7590"
+  green: "#A6E26E"
+  yellow: "#FFC777"
+  blue: "#82B1FF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#B8C2F5"
+  brightBlack: "#606B9F"
+  brightRed: "#FF7590"
+  brightGreen: "#A6E26E"
+  brightYellow: "#FFC777"
+  brightBlue: "#89DDFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#82B1FF"
+  brightWhite: "#D9E1FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 87.4
+    black: 0
+    red: 50.9
+    green: 77.2
+    yellow: 77
+    blue: 58.1
+    magenta: 53.2
+    cyan: 77.7
+    white: 69.6
+    brightBlack: 24.9
+    brightRed: 50.9
+    brightGreen: 77.2
+    brightYellow: 77
+    brightBlue: 77.7
+    brightMagenta: 53.2
+    brightCyan: 58.1
+    brightWhite: 87.4

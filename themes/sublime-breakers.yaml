@@ -1,0 +1,49 @@
+name: "Sublime Breakers"
+source:
+  marketplace_id: "release-candidate.theme-sublime-breakers"
+  version: "0.2.1"
+  installs: 299
+  author: "Release-Candidate"
+  repo: "https://codeberg.org/Release-Candidate/SublimeBreakersTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=release-candidate.theme-sublime-breakers"
+colors:
+  bg: "#FCFDFD"
+  fg: "#333333"
+  black: "#373A41"
+  red: "#D52753"
+  green: "#23974A"
+  yellow: "#DF631C"
+  blue: "#275FE4"
+  magenta: "#823FF1"
+  cyan: "#27618D"
+  white: "#B9BAC1"
+  brightBlack: "#676A77"
+  brightRed: "#FF6480"
+  brightGreen: "#3CBC66"
+  brightYellow: "#C5A332"
+  brightBlue: "#0099E1"
+  brightMagenta: "#CE33C0"
+  brightCyan: "#6D93BB"
+  brightWhite: "#D3D3D3"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 97.3
+    black: 95
+    red: 71.2
+    green: 63.3
+    yellow: 60.8
+    blue: 75.2
+    magenta: 74.3
+    cyan: 81.1
+    white: 35.8
+    brightBlack: 75.5
+    brightRed: 52.3
+    brightGreen: 46.4
+    brightYellow: 46.3
+    brightBlue: 56.7
+    brightMagenta: 67.2
+    brightCyan: 57.9
+    brightWhite: 22

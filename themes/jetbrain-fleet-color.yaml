@@ -1,0 +1,49 @@
+name: "Jetbrain-Fleet color"
+source:
+  marketplace_id: "verteres1001.anysphere-dark-greener"
+  version: "1.1.2"
+  installs: 785
+  author: "verteres"
+  repo: "https://github.com/JohanTiniusSkjelberg/anysphere-greener"
+  url: "https://marketplace.visualstudio.com/items?itemName=verteres1001.anysphere-dark-greener"
+colors:
+  bg: "#181818"
+  fg: "#D6D6DD"
+  black: "#676767"
+  red: "#F14C4C"
+  green: "#15AC91"
+  yellow: "#E5B95C"
+  blue: "#4C9DF3"
+  magenta: "#E567DC"
+  cyan: "#75D3BA"
+  white: "#D6D6DD"
+  brightBlack: "#676767"
+  brightRed: "#F14C4C"
+  brightGreen: "#69AF83"
+  brightYellow: "#E5B95C"
+  brightBlue: "#3993B1"
+  brightMagenta: "#E567DC"
+  brightCyan: "#75D3BA"
+  brightWhite: "#D6D6DD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 80.9
+    black: 22.4
+    red: 38.5
+    green: 46.5
+    yellow: 67.1
+    blue: 46.7
+    magenta: 46.4
+    cyan: 68.8
+    white: 80.9
+    brightBlack: 22.4
+    brightRed: 38.5
+    brightGreen: 50.1
+    brightYellow: 67.1
+    brightBlue: 38.2
+    brightMagenta: 46.4
+    brightCyan: 68.8
+    brightWhite: 80.9

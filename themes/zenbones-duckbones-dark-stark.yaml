@@ -1,0 +1,49 @@
+name: "Zenbones Duckbones Dark Stark"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2700
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+colors:
+  bg: "#06070F"
+  fg: "#EBEFC0"
+  black: "#0E101A"
+  red: "#E03600"
+  green: "#5DCD97"
+  yellow: "#E39500"
+  blue: "#00A3CB"
+  magenta: "#795CCC"
+  cyan: "#00A3CB"
+  white: "#EBEFC0"
+  brightBlack: "#2B2F46"
+  brightRed: "#FF4821"
+  brightGreen: "#58DB9E"
+  brightYellow: "#F6A100"
+  brightBlue: "#00B4E0"
+  brightMagenta: "#B3A1E6"
+  brightCyan: "#00B4E0"
+  brightWhite: "#B3B692"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 277
+  contrast:
+    fg: 94.9
+    black: 0
+    red: 32.2
+    green: 64.5
+    yellow: 54.1
+    blue: 46.3
+    magenta: 27.4
+    cyan: 46.3
+    white: 94.9
+    brightBlack: 0
+    brightRed: 41.8
+    brightGreen: 71.2
+    brightYellow: 61.6
+    brightBlue: 54.6
+    brightMagenta: 56.8
+    brightCyan: 54.6
+    brightWhite: 61.2

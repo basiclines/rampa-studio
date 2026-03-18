@@ -1,0 +1,49 @@
+name: "Corporate Dark Theme"
+source:
+  marketplace_id: "sahiljhajharia.corporate-dark-theme"
+  version: "1.0.7"
+  installs: 21
+  author: "Sahil Jhajharia"
+  repo: "https://github.com/Sahil4596/corporate-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sahiljhajharia.corporate-dark-theme"
+colors:
+  bg: "#121212"
+  fg: "#E2E8F0"
+  black: "#000000"
+  red: "#E25858"
+  green: "#34D399"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#FB7185"
+  cyan: "#22D3EE"
+  white: "#E2E8F0"
+  brightBlack: "#000000"
+  brightRed: "#E25858"
+  brightGreen: "#34D399"
+  brightYellow: "#FBBF24"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#FB7185"
+  brightCyan: "#22D3EE"
+  brightWhite: "#E2E8F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 91.9
+    black: 0
+    red: 37.9
+    green: 65.6
+    yellow: 73.1
+    blue: 51.8
+    magenta: 49.7
+    cyan: 69
+    white: 91.9
+    brightBlack: 0
+    brightRed: 37.9
+    brightGreen: 65.6
+    brightYellow: 73.1
+    brightBlue: 51.8
+    brightMagenta: 49.7
+    brightCyan: 69
+    brightWhite: 91.9

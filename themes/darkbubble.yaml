@@ -1,0 +1,49 @@
+name: "darkbubble"
+source:
+  marketplace_id: "rwbyc.darkbubble"
+  version: "0.0.2"
+  installs: 37
+  author: "rwbyc"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=rwbyc.darkbubble"
+colors:
+  bg: "#19191B"
+  fg: "#EAC0A3"
+  black: "#000000"
+  red: "#FC4B4B"
+  green: "#6D9E5D"
+  yellow: "#F66894"
+  blue: "#71A3E8"
+  magenta: "#A884B7"
+  cyan: "#63A098"
+  white: "#C1BEBA"
+  brightBlack: "#918175"
+  brightRed: "#D24C4C"
+  brightGreen: "#75BA5D"
+  brightYellow: "#D95E84"
+  brightBlue: "#658EC7"
+  brightMagenta: "#C991E1"
+  brightCyan: "#29B8DB"
+  brightWhite: "#F9F5EF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 72.2
+    black: 0
+    red: 40.7
+    green: 42.2
+    yellow: 46.4
+    blue: 50.2
+    magenta: 41.9
+    cyan: 44
+    white: 66.4
+    brightBlack: 35.4
+    brightRed: 31.5
+    brightGreen: 54.7
+    brightYellow: 37.8
+    brightBlue: 39.5
+    brightMagenta: 53
+    brightCyan: 55.2
+    brightWhite: 100.3

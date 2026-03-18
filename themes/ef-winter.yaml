@@ -1,0 +1,49 @@
+name: "Ef Winter"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#0F0B15"
+  fg: "#B8C6D5"
+  black: "#B8C6D5"
+  red: "#F47359"
+  green: "#29A444"
+  yellow: "#B58A52"
+  blue: "#3F95F6"
+  magenta: "#D369AF"
+  cyan: "#4FBAEF"
+  white: "#1D202F"
+  brightBlack: "#807C9F"
+  brightRed: "#EF6560"
+  brightGreen: "#6AAD0F"
+  brightYellow: "#D1803F"
+  brightBlue: "#6A9FFF"
+  brightMagenta: "#E580E0"
+  brightCyan: "#6FAFDF"
+  brightWhite: "#0F0B15"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 302
+  contrast:
+    fg: 70.9
+    black: 70.9
+    red: 48
+    green: 42.3
+    yellow: 43.3
+    blue: 44.3
+    magenta: 41.8
+    cyan: 59.2
+    white: 0
+    brightBlack: 34.4
+    brightRed: 43.8
+    brightGreen: 48.5
+    brightYellow: 44.4
+    brightBlue: 50.8
+    brightMagenta: 53.5
+    brightCyan: 55.3
+    brightWhite: 0

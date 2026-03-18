@@ -1,0 +1,49 @@
+name: "Zenbones Tokyobones Dark"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2700
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+colors:
+  bg: "#1A1B26"
+  fg: "#C0CAF5"
+  black: "#1A1B26"
+  red: "#F77890"
+  green: "#74DBCB"
+  yellow: "#E1B068"
+  blue: "#7BA2F7"
+  magenta: "#BB9BF7"
+  cyan: "#2BC4DE"
+  white: "#C0CAF5"
+  brightBlack: "#36384D"
+  brightRed: "#F98EA0"
+  brightGreen: "#6DE5D3"
+  brightYellow: "#F2BA64"
+  brightBlue: "#90AFFA"
+  brightMagenta: "#C6ACFA"
+  brightCyan: "#74DBCB"
+  brightWhite: "#7E98EB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 73.8
+    black: 0
+    red: 49.9
+    green: 72.8
+    yellow: 62.7
+    blue: 51.2
+    magenta: 55.3
+    cyan: 60.4
+    white: 73.8
+    brightBlack: 0
+    brightRed: 56.9
+    brightGreen: 77.6
+    brightYellow: 69.3
+    brightBlue: 58.2
+    brightMagenta: 63
+    brightCyan: 72.8
+    brightWhite: 46.9

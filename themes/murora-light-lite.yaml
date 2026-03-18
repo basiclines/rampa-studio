@@ -1,0 +1,49 @@
+name: "Murora Light Lite"
+source:
+  marketplace_id: "MuhammadMwinchande.murora"
+  version: "0.1.0"
+  installs: 114
+  author: "Muhammad Mwinchande"
+  repo: "https://github.com/ammwinchande/murora"
+  url: "https://marketplace.visualstudio.com/items?itemName=MuhammadMwinchande.murora"
+colors:
+  bg: "#FFFFFF"
+  fg: "#222222"
+  black: "#333333"
+  red: "#E84135"
+  green: "#34A853"
+  yellow: "#FCBC05"
+  blue: "#4285F4"
+  magenta: "#EA4334"
+  cyan: "#4ADC6E"
+  white: "#222222"
+  brightBlack: "#555555"
+  brightRed: "#FF3E25"
+  brightGreen: "#4ADC6E"
+  brightYellow: "#FCDE00"
+  brightBlue: "#4FAFFF"
+  brightMagenta: "#EA4334"
+  brightCyan: "#4ADC6E"
+  brightWhite: "#222222"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.9
+    black: 98.7
+    red: 66
+    green: 57
+    yellow: 30.2
+    blue: 62.8
+    magenta: 65.3
+    cyan: 32.6
+    white: 102.9
+    brightBlack: 85.9
+    brightRed: 61.1
+    brightGreen: 32.6
+    brightYellow: 16.8
+    brightBlue: 46.2
+    brightMagenta: 65.3
+    brightCyan: 32.6
+    brightWhite: 102.9

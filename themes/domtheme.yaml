@@ -1,0 +1,49 @@
+name: "DomTheme"
+source:
+  marketplace_id: "DomTheme.DomTheme"
+  version: "0.0.1"
+  installs: 2261
+  author: "DomTheme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=DomTheme.DomTheme"
+colors:
+  bg: "#0A0A0A"
+  fg: "#7F26FF"
+  black: "#3D3D3D"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E1C542"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#39CDE2"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFE05B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#74F2FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 24.3
+    black: 7.3
+    red: 27.6
+    green: 53.9
+    yellow: 72
+    blue: 28.3
+    magenta: 30.6
+    cyan: 66.4
+    white: 90.9
+    brightBlack: 22.9
+    brightRed: 39.4
+    brightGreen: 64.4
+    brightYellow: 88.5
+    brightBlue: 63.1
+    brightMagenta: 46.2
+    brightCyan: 87.9
+    brightWhite: 90.9

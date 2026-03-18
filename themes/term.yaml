@@ -1,0 +1,49 @@
+name: "Term"
+source:
+  marketplace_id: "distek.vscode-term-theme"
+  version: "0.0.2"
+  installs: 76
+  author: "distek"
+  repo: "https://github.com/distek/vscode-theme-term"
+  url: "https://marketplace.visualstudio.com/items?itemName=distek.vscode-term-theme"
+colors:
+  bg: "#181B20"
+  fg: "#B5B4D9"
+  black: "#485261"
+  red: "#AF6A6A"
+  green: "#AAC15C"
+  yellow: "#CEB855"
+  blue: "#689DC0"
+  magenta: "#9773B0"
+  cyan: "#6AAF9A"
+  white: "#CDD3DA"
+  brightBlack: "#576375"
+  brightRed: "#B87A7A"
+  brightGreen: "#B3C86F"
+  brightYellow: "#D3C069"
+  brightBlue: "#76A6C6"
+  brightMagenta: "#A483B9"
+  brightCyan: "#7AB8A5"
+  brightWhite: "#D3D8DE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 261
+  contrast:
+    fg: 62.2
+    black: 13.2
+    red: 32.1
+    green: 62.2
+    yellow: 62.8
+    blue: 44.7
+    magenta: 33.9
+    cyan: 50.5
+    white: 78
+    brightBlack: 20
+    brightRed: 38.5
+    brightGreen: 66.6
+    brightYellow: 67.1
+    brightBlue: 49.6
+    brightMagenta: 40.9
+    brightCyan: 55.9
+    brightWhite: 81.1

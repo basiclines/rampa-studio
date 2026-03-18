@@ -1,0 +1,49 @@
+name: "Odyssey Night"
+source:
+  marketplace_id: "odese.odyssey-night"
+  version: "0.0.12"
+  installs: 695
+  author: "odese"
+  repo: "https://github.com/odese/odyssey-night"
+  url: "https://marketplace.visualstudio.com/items?itemName=odese.odyssey-night"
+colors:
+  bg: "#13141C"
+  fg: "#D7DAE0"
+  black: "#3F4451"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#D18F52"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E6E6E6"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#23D18B"
+  brightYellow: "#D4AF37"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  contrast:
+    fg: 83.3
+    black: 9.1
+    red: 26.9
+    green: 53.2
+    yellow: 48.8
+    blue: 27.7
+    magenta: 30
+    cyan: 47.8
+    white: 90.9
+    brightBlack: 22.3
+    brightRed: 36.8
+    brightGreen: 63.8
+    brightYellow: 60.5
+    brightBlue: 40.2
+    brightMagenta: 45.6
+    brightCyan: 55.6
+    brightWhite: 107.1

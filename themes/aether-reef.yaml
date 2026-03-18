@@ -1,0 +1,49 @@
+name: "Aether Reef"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#041619"
+  fg: "#AFC8CC"
+  black: "#354F54"
+  red: "#E86A44"
+  green: "#4AEAAA"
+  yellow: "#E6BA85"
+  blue: "#4CB0EA"
+  magenta: "#E27EA0"
+  cyan: "#4BD9EA"
+  white: "#AFC8CC"
+  brightBlack: "#4A6F75"
+  brightRed: "#EB7C5A"
+  brightGreen: "#63ECB7"
+  brightYellow: "#E99844"
+  brightBlue: "#63BAEC"
+  brightMagenta: "#E89CB8"
+  brightCyan: "#63DEEC"
+  brightWhite: "#BED8DB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 209
+  contrast:
+    fg: 69.8
+    black: 11.6
+    red: 42.5
+    green: 77.9
+    yellow: 68.8
+    blue: 54.1
+    magenta: 48.8
+    cyan: 72.3
+    white: 69.8
+    brightBlack: 23.6
+    brightRed: 48
+    brightGreen: 80.3
+    brightYellow: 55.8
+    brightBlue: 59.4
+    brightMagenta: 59.9
+    brightCyan: 75.7
+    brightWhite: 79.2

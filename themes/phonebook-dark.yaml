@@ -1,0 +1,49 @@
+name: "Phonebook Dark"
+source:
+  marketplace_id: "nick-carnival.phonebook-theme"
+  version: "1.1.2"
+  installs: 1098
+  author: "Nick Carnival"
+  repo: "https://github.com/nickcarnival/vscode-phonebook"
+  url: "https://marketplace.visualstudio.com/items?itemName=nick-carnival.phonebook-theme"
+colors:
+  bg: "#2C2621"
+  fg: "#E7C56F"
+  black: "#231E1A"
+  red: "#F54E42"
+  green: "#27A06C"
+  yellow: "#EBC300"
+  blue: "#1E88E5"
+  magenta: "#6547B8"
+  cyan: "#00ACC1"
+  white: "#DEDEDE"
+  brightBlack: "#666666"
+  brightRed: "#DB6057"
+  brightGreen: "#38D687"
+  brightYellow: "#F8D668"
+  brightBlue: "#64B5F6"
+  brightMagenta: "#A993E6"
+  brightCyan: "#00BCD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 62
+  contrast:
+    fg: 70.4
+    black: 0
+    red: 37.4
+    green: 38.3
+    yellow: 69.3
+    blue: 34.6
+    magenta: 16.1
+    cyan: 46.3
+    white: 83.4
+    brightBlack: 19.8
+    brightRed: 35.4
+    brightGreen: 63.9
+    brightYellow: 80.1
+    brightBlue: 55.5
+    brightMagenta: 47.5
+    brightCyan: 54.2
+    brightWhite: 104.6

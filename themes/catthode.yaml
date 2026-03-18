@@ -1,0 +1,49 @@
+name: "Catthode"
+source:
+  marketplace_id: "Catthode.catthode"
+  version: "0.1.1"
+  installs: 63
+  author: "Catthode"
+  repo: "https://github.com/catthode/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Catthode.catthode"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF6B6B"
+  green: "#B9D665"
+  yellow: "#FFB86C"
+  blue: "#9CD9E6"
+  magenta: "#EBA4BE"
+  cyan: "#AEE6D6"
+  white: "#B3B3B3"
+  brightBlack: "#636363"
+  brightRed: "#F08D49"
+  brightGreen: "#B9D665"
+  brightYellow: "#D9B98C"
+  brightBlue: "#9CD9E6"
+  brightMagenta: "#EBA4BE"
+  brightCyan: "#AEE6D6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 49.1
+    green: 74.8
+    yellow: 72.5
+    blue: 77.6
+    magenta: 64.2
+    cyan: 84.5
+    white: 61.2
+    brightBlack: 21.8
+    brightRed: 54.4
+    brightGreen: 74.8
+    brightYellow: 67.4
+    brightBlue: 77.6
+    brightMagenta: 64.2
+    brightCyan: 84.5
+    brightWhite: 107.9

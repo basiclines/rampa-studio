@@ -1,0 +1,49 @@
+name: "Sharkdark Theme"
+source:
+  marketplace_id: "Sharkdark.sharkdark"
+  version: "0.0.1"
+  installs: 351
+  author: "Sharkdark"
+  repo: "https://github.com/dann-dann/sharkdark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sharkdark.sharkdark"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF595E"
+  green: "#CEF144"
+  yellow: "#FDA331"
+  blue: "#AD9CFF"
+  magenta: "#D381C3"
+  cyan: "#76C7B7"
+  white: "#FAFAFA"
+  brightBlack: "#B0B0B0"
+  brightRed: "#FB0120"
+  brightGreen: "#A1C659"
+  brightYellow: "#FDA331"
+  brightBlue: "#729FCF"
+  brightMagenta: "#D381C3"
+  brightCyan: "#76C7B7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 45.3
+    green: 89.7
+    yellow: 63.8
+    blue: 56
+    magenta: 49.3
+    cyan: 64.4
+    white: 104.6
+    brightBlack: 59.5
+    brightRed: 36.6
+    brightGreen: 64.9
+    brightYellow: 63.8
+    brightBlue: 48.5
+    brightMagenta: 49.3
+    brightCyan: 64.4
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "Nocturnal"
+source:
+  marketplace_id: "JaimeStill.nocturnal"
+  version: "0.0.2"
+  installs: 1005
+  author: "JaimeStill"
+  repo: "https://github.com/JaimeStill/nocturnal"
+  url: "https://marketplace.visualstudio.com/items?itemName=JaimeStill.nocturnal"
+colors:
+  bg: "#000000"
+  fg: "#F7F7F7"
+  black: "#424242"
+  red: "#E53935"
+  green: "#43A047"
+  yellow: "#FFC400"
+  blue: "#01579B"
+  magenta: "#B388FF"
+  cyan: "#00B8D4"
+  white: "#F7F7F7"
+  brightBlack: "#757575"
+  brightRed: "#EF5350"
+  brightGreen: "#00C853"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0091EA"
+  brightMagenta: "#EA80FC"
+  brightCyan: "#00E5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 102.6
+    black: 9.1
+    red: 34
+    green: 41.6
+    yellow: 76.3
+    blue: 17
+    magenta: 50.3
+    cyan: 55.8
+    white: 102.6
+    brightBlack: 29.6
+    brightRed: 40.3
+    brightGreen: 58.9
+    brightYellow: 102.7
+    brightBlue: 41.3
+    brightMagenta: 56.5
+    brightCyan: 79
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "Sober Deepnight"
+source:
+  marketplace_id: "YesCode.soberTheme"
+  version: "0.0.7"
+  installs: 271
+  author: "YesCode"
+  repo: "https://github.com/yesomac/sober"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.soberTheme"
+colors:
+  bg: "#010E22"
+  fg: "#DAE3FC"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#0687FF"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 254
+  contrast:
+    fg: 89.4
+    black: 0
+    red: 42.6
+    green: 61.6
+    yellow: 73.6
+    blue: 48.1
+    magenta: 20.1
+    cyan: 50
+    white: 47.8
+    brightBlack: 19.2
+    brightRed: 42.6
+    brightGreen: 39
+    brightYellow: 80.3
+    brightBlue: 19.3
+    brightMagenta: 20.1
+    brightCyan: 50
+    brightWhite: 99.4

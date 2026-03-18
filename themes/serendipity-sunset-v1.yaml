@@ -1,0 +1,49 @@
+name: "Serendipity Sunset V1"
+source:
+  marketplace_id: "wicked-labs.old-serendipity"
+  version: "0.6.0"
+  installs: 4491
+  author: "Michael Andreuzza "
+  repo: "https://github.com/michael-andreuzza/old-serendipity"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.old-serendipity"
+colors:
+  bg: "#1E2431"
+  fg: "#F6F6F6"
+  black: "#1C1C1C"
+  red: "#BE95FF"
+  green: "#748E4E"
+  yellow: "#C8A662"
+  blue: "#78A9FF"
+  magenta: "#E879F9"
+  cyan: "#22D3EE"
+  white: "#9CA3AF"
+  brightBlack: "#6B7280"
+  brightRed: "#D4BFFF"
+  brightGreen: "#A6CC70"
+  brightYellow: "#FAD07B"
+  brightBlue: "#8BB6FF"
+  brightMagenta: "#F0ABFC"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 265
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 53.1
+    green: 34.7
+    yellow: 53.8
+    blue: 53
+    magenta: 51.3
+    cyan: 66.8
+    white: 49.4
+    brightBlack: 25.4
+    brightRed: 71.2
+    brightGreen: 65.7
+    brightYellow: 78.7
+    brightBlue: 59.7
+    brightMagenta: 67.9
+    brightCyan: 79.4
+    brightWhite: 105.1

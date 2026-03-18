@@ -1,0 +1,49 @@
+name: "VSC Military Style"
+source:
+  marketplace_id: "ROMAINPC.vsc-military-monokai"
+  version: "1.0.0"
+  installs: 951
+  author: "ROMAINPC"
+  repo: "https://github.com/ROMAINPC/vsc-military-monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=ROMAINPC.vsc-military-monokai"
+colors:
+  bg: "#191F19"
+  fg: "#9D9E95"
+  black: "#1F1F1F"
+  red: "#8B3432"
+  green: "#8CA56F"
+  yellow: "#9B8B30"
+  blue: "#23454B"
+  magenta: "#704D77"
+  cyan: "#588D8B"
+  white: "#C7C7C7"
+  brightBlack: "#2C2C2C"
+  brightRed: "#914948"
+  brightGreen: "#61C548"
+  brightYellow: "#C5B243"
+  brightBlue: "#6D9CBE"
+  brightMagenta: "#80528A"
+  brightCyan: "#2E6069"
+  brightWhite: "#C7C7C7"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 145
+  contrast:
+    fg: 47.6
+    black: 0
+    red: 13.4
+    green: 47.5
+    yellow: 38.2
+    blue: 0
+    magenta: 16.2
+    cyan: 34.9
+    white: 70.9
+    brightBlack: 0
+    brightRed: 18.4
+    brightGreen: 57.6
+    brightYellow: 58.6
+    brightBlue: 44.3
+    brightMagenta: 20.2
+    brightCyan: 16
+    brightWhite: 70.9

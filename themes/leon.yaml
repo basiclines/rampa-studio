@@ -1,0 +1,49 @@
+name: "Leon"
+source:
+  marketplace_id: "DavidBell.leon"
+  version: "0.0.4"
+  installs: 264
+  author: "David Bell"
+  repo: "https://github.com/dtbell99/leon"
+  url: "https://marketplace.visualstudio.com/items?itemName=DavidBell.leon"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#2089C9"
+  magenta: "#BC05BC"
+  cyan: "#39CDE2"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#74F2FF"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 74
+    green: 49.2
+    yellow: 57.9
+    blue: 65.3
+    magenta: 74.6
+    cyan: 36
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 74
+    brightGreen: 40.9
+    brightYellow: 40.9
+    brightBlue: 39.1
+    brightMagenta: 74.6
+    brightCyan: 15.6
+    brightWhite: 48.5

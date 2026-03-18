@@ -1,0 +1,49 @@
+name: "newton"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#342E37"
+  fg: "#EAEBFF"
+  black: "#413A45"
+  red: "#BA0E2E"
+  green: "#FA824C"
+  yellow: "#FFBF69"
+  blue: "#3C91E6"
+  magenta: "#FA824C"
+  cyan: "#FFBF69"
+  white: "#FFFFFF"
+  brightBlack: "#695C6F"
+  brightRed: "#F03E5F"
+  brightGreen: "#FDC7AF"
+  brightYellow: "#FFEBCF"
+  brightBlue: "#96C4F2"
+  brightMagenta: "#FDC7AF"
+  brightCyan: "#FFEBCF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 315
+  contrast:
+    fg: 90.5
+    black: 0
+    red: 16.4
+    green: 48.1
+    yellow: 70
+    blue: 36.7
+    magenta: 48.1
+    cyan: 70
+    white: 102.7
+    brightBlack: 15.6
+    brightRed: 32.7
+    brightGreen: 74.5
+    brightYellow: 91.4
+    brightBlue: 63.2
+    brightMagenta: 74.5
+    brightCyan: 91.4
+    brightWhite: 102.7

@@ -1,0 +1,49 @@
+name: "Mariana"
+source:
+  marketplace_id: "gijocode.mariana-no-italic"
+  version: "1.99.99"
+  installs: 169
+  author: "gijocode"
+  repo: "https://github.com/gijocode/vscode-mariana"
+  url: "https://marketplace.visualstudio.com/items?itemName=gijocode.mariana-no-italic"
+colors:
+  bg: "#1E2933"
+  fg: "#D8DEE9"
+  black: "#19212A"
+  red: "#EC5F66"
+  green: "#99C794"
+  yellow: "#FAC761"
+  blue: "#6699CC"
+  magenta: "#C695C6"
+  cyan: "#5FB4B4"
+  white: "#A6ADB9"
+  brightBlack: "#24303D"
+  brightRed: "#EC5F66"
+  brightGreen: "#99C794"
+  brightYellow: "#FAC761"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C695C6"
+  brightCyan: "#5FB4B4"
+  brightWhite: "#D8DEE9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 246
+  contrast:
+    fg: 82.9
+    black: 0
+    red: 38.9
+    green: 62.4
+    yellow: 73.9
+    blue: 41.7
+    magenta: 50.1
+    cyan: 51.1
+    white: 54.2
+    brightBlack: 0
+    brightRed: 38.9
+    brightGreen: 62.4
+    brightYellow: 73.9
+    brightBlue: 41.7
+    brightMagenta: 50.1
+    brightCyan: 51.1
+    brightWhite: 82.9

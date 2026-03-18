@@ -1,0 +1,49 @@
+name: "Blackboard Plus"
+source:
+  marketplace_id: "huacnlee.theme-blackboard-plus"
+  version: "1.0.2"
+  installs: 7459
+  author: "Jason Lee"
+  repo: "https://github.com/huacnlee/vscode-blackboard-plus.theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=huacnlee.theme-blackboard-plus"
+colors:
+  bg: "#090B18"
+  fg: "#F8F8F8"
+  black: "#575757"
+  red: "#FF6E67"
+  green: "#5AF78E"
+  yellow: "#F4F99D"
+  blue: "#CAA9FA"
+  magenta: "#FF92D0"
+  cyan: "#9AEDFE"
+  white: "#F8F8F8"
+  brightBlack: "#4D4D4D"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#61CE3C"
+  brightBlue: "#86A7D0"
+  brightMagenta: "#61C3FE"
+  brightCyan: "#CBFE2A"
+  brightWhite: "#BFBFBF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 276
+  contrast:
+    fg: 103
+    black: 16.7
+    red: 49.4
+    green: 84.8
+    yellow: 99.6
+    blue: 63.8
+    magenta: 62.6
+    cyan: 87.8
+    white: 103
+    brightBlack: 12.8
+    brightRed: 44.2
+    brightGreen: 85.6
+    brightYellow: 63.3
+    brightBlue: 53
+    brightMagenta: 64.8
+    brightCyan: 95.4
+    brightWhite: 67.8

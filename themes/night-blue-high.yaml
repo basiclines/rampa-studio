@@ -1,0 +1,49 @@
+name: "Night blue (high)"
+source:
+  marketplace_id: "voidjmp-vscode-extensions.vscode-theme-night-blue"
+  version: "0.0.6"
+  installs: 66
+  author: "voidjmp-vscode-extensions"
+  repo: "https://github.com/VoIdJMp/vscode-theme-night-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=voidjmp-vscode-extensions.vscode-theme-night-blue"
+colors:
+  bg: "#000851"
+  fg: "#FFFFFF"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 264
+  contrast:
+    fg: 106.4
+    black: 0
+    red: 62.9
+    green: 90.3
+    yellow: 95.2
+    blue: 80.8
+    magenta: 74.3
+    cyan: 95.4
+    white: 74.2
+    brightBlack: 0
+    brightRed: 51.2
+    brightGreen: 86.3
+    brightYellow: 90
+    brightBlue: 61.7
+    brightMagenta: 49.8
+    brightCyan: 93.3
+    brightWhite: 106.4

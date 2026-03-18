@@ -1,0 +1,49 @@
+name: "Dune Mentat"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 237
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+colors:
+  bg: "#FAFAFA"
+  fg: "#1A1A1A"
+  black: "#FAFAFA"
+  red: "#8250DF"
+  green: "#0969DA"
+  yellow: "#0550AE"
+  blue: "#CF222E"
+  magenta: "#6639BA"
+  cyan: "#116329"
+  white: "#1A1A1A"
+  brightBlack: "#909090"
+  brightRed: "#A40E26"
+  brightGreen: "#1A7F37"
+  brightYellow: "#9A6700"
+  brightBlue: "#0969DA"
+  brightMagenta: "#8250DF"
+  brightCyan: "#0598D3"
+  brightWhite: "#0A0A0A"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 101.3
+    black: 0
+    red: 71.3
+    green: 72
+    yellow: 82.6
+    blue: 71.8
+    magenta: 81.9
+    cyan: 82.3
+    white: 101.3
+    brightBlack: 56.1
+    brightRed: 82.2
+    brightGreen: 71.6
+    brightYellow: 70.4
+    brightBlue: 72
+    brightMagenta: 71.3
+    brightCyan: 56.3
+    brightWhite: 102.9

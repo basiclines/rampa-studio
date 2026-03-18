@@ -1,0 +1,49 @@
+name: "luxeforest"
+source:
+  marketplace_id: "gaopow.luxeforest"
+  version: "0.0.5"
+  installs: 6
+  author: "gaopow"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=gaopow.luxeforest"
+colors:
+  bg: "#001503"
+  fg: "#FFDABC"
+  black: "#717171"
+  red: "#FF6D6D"
+  green: "#7CFFCD"
+  yellow: "#FFFFAC"
+  blue: "#70B3FD"
+  magenta: "#FFA7FF"
+  cyan: "#55DEFF"
+  white: "#FFECBD"
+  brightBlack: "#666666"
+  brightRed: "#FF9292"
+  brightGreen: "#B7FFE2"
+  brightYellow: "#FFFFDB"
+  brightBlue: "#7CBAFF"
+  brightMagenta: "#E873E8"
+  brightCyan: "#8BE8FF"
+  brightWhite: "#FFF4D5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 147
+  contrast:
+    fg: 87.7
+    black: 27.2
+    red: 49
+    green: 92.2
+    yellow: 104.1
+    blue: 58.5
+    magenta: 71.4
+    cyan: 76.4
+    white: 95.7
+    brightBlack: 22.4
+    brightRed: 59.8
+    brightGreen: 97.5
+    brightYellow: 105.7
+    brightBlue: 62.3
+    brightMagenta: 50.9
+    brightCyan: 84
+    brightWhite: 100.3

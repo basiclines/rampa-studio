@@ -1,0 +1,49 @@
+name: "OhLED_DimGray"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#747474"
+  black: "#747474"
+  red: "#555555"
+  green: "#5D5D5D"
+  yellow: "#464646"
+  blue: "#6C6C6C"
+  magenta: "#656565"
+  cyan: "#4D4D4D"
+  white: "#3E3E3E"
+  brightBlack: "#747474"
+  brightRed: "#555555"
+  brightGreen: "#5D5D5D"
+  brightYellow: "#464646"
+  brightBlue: "#6C6C6C"
+  brightMagenta: "#656565"
+  brightCyan: "#4D4D4D"
+  brightWhite: "#3E3E3E"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 29.2
+    black: 29.2
+    red: 16.1
+    green: 19.3
+    yellow: 10.5
+    blue: 25.6
+    magenta: 22.6
+    cyan: 13.1
+    white: 7.8
+    brightBlack: 29.2
+    brightRed: 16.1
+    brightGreen: 19.3
+    brightYellow: 10.5
+    brightBlue: 25.6
+    brightMagenta: 22.6
+    brightCyan: 13.1
+    brightWhite: 7.8

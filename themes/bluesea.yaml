@@ -1,0 +1,49 @@
+name: "BlueSea"
+source:
+  marketplace_id: "YesCode.neutral"
+  version: "0.0.9"
+  installs: 608
+  author: "YesCode"
+  repo: "https://github.com/yesomac/NeutralThemeVSC"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.neutral"
+colors:
+  bg: "#09021D"
+  fg: "#F7EEFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#F9F8FA"
+  brightYellow: "#C4A2EB"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 292
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 42.8
+    green: 61.8
+    yellow: 73.9
+    blue: 48.4
+    magenta: 20.4
+    cyan: 50.3
+    white: 48.1
+    brightBlack: 19.4
+    brightRed: 42.8
+    brightGreen: 103.3
+    brightYellow: 59.6
+    brightBlue: 19.6
+    brightMagenta: 20.4
+    brightCyan: 50.3
+    brightWhite: 99.7

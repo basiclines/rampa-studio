@@ -1,0 +1,49 @@
+name: "Aether Oceanic"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#041518"
+  fg: "#B8CFD2"
+  black: "#2E4A4D"
+  red: "#E06C75"
+  green: "#5CE6A6"
+  yellow: "#D4A76A"
+  blue: "#52C7E7"
+  magenta: "#E17B9D"
+  cyan: "#52E5E7"
+  white: "#B8CFD2"
+  brightBlack: "#426669"
+  brightRed: "#EC8087"
+  brightGreen: "#73EBB5"
+  brightYellow: "#DBB67F"
+  brightBlue: "#6BD1EB"
+  brightMagenta: "#E891AD"
+  brightCyan: "#6DEAEB"
+  brightWhite: "#CFDFE2"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 210
+  contrast:
+    fg: 74.2
+    black: 9.7
+    red: 42.4
+    green: 76.5
+    yellow: 58.2
+    blue: 64.1
+    magenta: 47.7
+    cyan: 78.2
+    white: 74.2
+    brightBlack: 19.9
+    brightRed: 50.4
+    brightGreen: 80.6
+    brightYellow: 65.5
+    brightBlue: 70.1
+    brightMagenta: 56
+    brightCyan: 82
+    brightWhite: 84.7

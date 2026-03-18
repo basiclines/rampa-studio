@@ -1,0 +1,49 @@
+name: "Wordsmith Light"
+source:
+  marketplace_id: "arzg.wordsmith"
+  version: "0.1.0"
+  installs: 716
+  author: "arzg"
+  repo: "https://github.com/arzg/wordsmith"
+  url: "https://marketplace.visualstudio.com/items?itemName=arzg.wordsmith"
+colors:
+  bg: "#F7F7F7"
+  fg: "#1A1A1A"
+  black: "#F7F7F7"
+  red: "#CB4819"
+  green: "#3F831E"
+  yellow: "#A66501"
+  blue: "#3476B9"
+  magenta: "#B24FA3"
+  cyan: "#16BDEC"
+  white: "#1A1A1A"
+  brightBlack: "#C7C4C2"
+  brightRed: "#CB4819"
+  brightGreen: "#3F831E"
+  brightYellow: "#A66501"
+  brightBlue: "#3476B9"
+  brightMagenta: "#B24FA3"
+  brightCyan: "#16BDEC"
+  brightWhite: "#1A1A1A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.5
+    black: 0
+    red: 66.7
+    green: 67.5
+    yellow: 67.4
+    blue: 67.8
+    magenta: 66.8
+    cyan: 38
+    white: 99.5
+    brightBlack: 26.7
+    brightRed: 66.7
+    brightGreen: 67.5
+    brightYellow: 67.4
+    brightBlue: 67.8
+    brightMagenta: 66.8
+    brightCyan: 38
+    brightWhite: 99.5

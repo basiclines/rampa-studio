@@ -1,0 +1,49 @@
+name: "Atom One Light Modern"
+source:
+  marketplace_id: "mani-sh-reddy.atom-one-light-modern"
+  version: "1.0.5"
+  installs: 2192
+  author: "Manish Reddy"
+  repo: "https://github.com/mani-sh-reddy/atom-one-light-modern"
+  url: "https://marketplace.visualstudio.com/items?itemName=mani-sh-reddy.atom-one-light-modern"
+colors:
+  bg: "#F2F2F2"
+  fg: "#24292E"
+  black: "#24292E"
+  red: "#D73A49"
+  green: "#28A745"
+  yellow: "#DBAB09"
+  blue: "#6D6D6D"
+  magenta: "#5A32A3"
+  cyan: "#1B7C83"
+  white: "#6A737D"
+  brightBlack: "#959DA5"
+  brightRed: "#CB2431"
+  brightGreen: "#22863A"
+  brightYellow: "#B08800"
+  brightBlue: "#005CC5"
+  brightMagenta: "#5A32A3"
+  brightCyan: "#3192AA"
+  brightWhite: "#D1D5DA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 93.8
+    black: 93.8
+    red: 62.7
+    green: 50.1
+    yellow: 33.9
+    blue: 67.9
+    magenta: 81.4
+    cyan: 66
+    white: 65.7
+    brightBlack: 45.4
+    brightRed: 67.8
+    brightGreen: 64
+    brightYellow: 52.4
+    brightBlue: 72.7
+    brightMagenta: 81.4
+    brightCyan: 55.6
+    brightWhite: 14.7

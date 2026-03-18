@@ -1,0 +1,49 @@
+name: "Nebula Surge"
+source:
+  marketplace_id: "DefinitionGroup.nebula-surge"
+  version: "1.0.0"
+  installs: 8
+  author: "DefinitionGroup"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=DefinitionGroup.nebula-surge"
+colors:
+  bg: "#000000"
+  fg: "#80C0FF"
+  black: "#3E7BDC"
+  red: "#FF8C35"
+  green: "#38FFC9"
+  yellow: "#7208F4"
+  blue: "#EC8129"
+  magenta: "#FFDB1A"
+  cyan: "#2BA5FF"
+  white: "#D2DBE8"
+  brightBlack: "#3E7BDC"
+  brightRed: "#FF7200"
+  brightGreen: "#00FDBB"
+  brightYellow: "#7300FF"
+  brightBlue: "#EC8129"
+  brightMagenta: "#FDD600"
+  brightCyan: "#5DB6FF"
+  brightWhite: "#E9F2FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 65.7
+    black: 33.5
+    red: 56.9
+    green: 90.2
+    yellow: 20.5
+    blue: 49.8
+    magenta: 86
+    cyan: 50.9
+    white: 84.2
+    brightBlack: 33.5
+    brightRed: 49.7
+    brightGreen: 88.2
+    brightYellow: 21.8
+    brightBlue: 49.8
+    brightMagenta: 83.5
+    brightCyan: 59.4
+    brightWhite: 98.8

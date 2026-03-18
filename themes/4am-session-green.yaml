@@ -1,0 +1,49 @@
+name: "4am session (green)"
+source:
+  marketplace_id: "4Themes.4am-session-theme"
+  version: "1.0.0"
+  installs: 270
+  author: "4Themes"
+  repo: "https://github.com/4-themes/4am-session-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=4Themes.4am-session-theme"
+colors:
+  bg: "#102111"
+  fg: "#D4D4D4"
+  black: "#3B3B3B"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 146
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 25.9
+    green: 52.2
+    yellow: 84.8
+    blue: 26.7
+    magenta: 29
+    cyan: 46.8
+    white: 89.2
+    brightBlack: 21.3
+    brightRed: 37.8
+    brightGreen: 62.8
+    brightYellow: 94.9
+    brightBlue: 39.2
+    brightMagenta: 44.6
+    brightCyan: 54.6
+    brightWhite: 89.2

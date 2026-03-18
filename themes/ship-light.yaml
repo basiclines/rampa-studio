@@ -1,0 +1,49 @@
+name: "SHIP-light"
+source:
+  marketplace_id: "SHIPAI.shipai"
+  version: "0.0.1"
+  installs: 95
+  author: "SHIP.AI"
+  repo: "https://github.com/vkyprmr/ship-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SHIPAI.shipai"
+colors:
+  bg: "#E2E8F0"
+  fg: "#171C26"
+  black: "#000000"
+  red: "#B40000"
+  green: "#019746"
+  yellow: "#DAB22E"
+  blue: "#064A9A"
+  magenta: "#A4005D"
+  cyan: "#006EC8"
+  white: "#DEDEDE"
+  brightBlack: "#3D4454"
+  brightRed: "#FF0400"
+  brightGreen: "#00FF6E"
+  brightYellow: "#FFEC00"
+  brightBlue: "#0077FF"
+  brightMagenta: "#FA8685"
+  brightCyan: "#009DFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 256
+  contrast:
+    fg: 90
+    black: 92.1
+    red: 68
+    green: 50.9
+    yellow: 25.1
+    blue: 74.8
+    magenta: 70.3
+    cyan: 60.9
+    white: 0
+    brightBlack: 78.6
+    brightRed: 50.1
+    brightGreen: 0
+    brightYellow: 0
+    brightBlue: 53.5
+    brightMagenta: 32.6
+    brightCyan: 40.4
+    brightWhite: 13.4

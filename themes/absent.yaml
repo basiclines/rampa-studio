@@ -1,0 +1,49 @@
+name: "absent"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#252C33"
+  fg: "#AEB9C4"
+  black: "#303942"
+  red: "#BA0E2E"
+  green: "#228A96"
+  yellow: "#6BA77F"
+  blue: "#E6EAEF"
+  magenta: "#228A96"
+  cyan: "#6BA77F"
+  white: "#BDC6CF"
+  brightBlack: "#505F6E"
+  brightRed: "#F03E5F"
+  brightGreen: "#48C7D6"
+  brightYellow: "#ABCDB6"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#48C7D6"
+  brightCyan: "#ABCDB6"
+  brightWhite: "#E9ECEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  contrast:
+    fg: 59.7
+    black: 0
+    red: 17.4
+    green: 29.9
+    yellow: 43.7
+    blue: 89.8
+    magenta: 29.9
+    cyan: 43.7
+    white: 67.3
+    brightBlack: 15.4
+    brightRed: 33.7
+    brightGreen: 59.5
+    brightYellow: 67.4
+    brightBlue: 103.8
+    brightMagenta: 59.5
+    brightCyan: 67.4
+    brightWhite: 91.1

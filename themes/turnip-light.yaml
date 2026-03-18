@@ -1,0 +1,49 @@
+name: "turnip-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#444444"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#92B55F"
+  yellow: "#487D76"
+  blue: "#E8DA5E"
+  magenta: "#92B55F"
+  cyan: "#487D76"
+  white: "#515151"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#C1D5A5"
+  brightYellow: "#79B2AA"
+  brightBlue: "#F5EFB7"
+  brightMagenta: "#C1D5A5"
+  brightCyan: "#79B2AA"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 80.3
+    green: 46
+    yellow: 72.5
+    blue: 20.8
+    magenta: 46
+    cyan: 72.5
+    white: 87.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 26.2
+    brightYellow: 47.2
+    brightBlue: 8.2
+    brightMagenta: 26.2
+    brightCyan: 47.2
+    brightWhite: 71.1

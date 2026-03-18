@@ -1,0 +1,49 @@
+name: "Blank Ghibli"
+source:
+  marketplace_id: "kiritocode1.blank-theme"
+  version: "1.0.3"
+  installs: 420
+  author: "kiritocode1"
+  repo: "https://github.com/kiritocode1/Blank-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kiritocode1.blank-theme"
+colors:
+  bg: "#000000"
+  fg: "#868690"
+  black: "#131317"
+  red: "#829FA7"
+  green: "#648F68"
+  yellow: "#DA674B"
+  blue: "#5C87A4"
+  magenta: "#E8B246"
+  cyan: "#A27E57"
+  white: "#868690"
+  brightBlack: "#575861"
+  brightRed: "#E8B246"
+  brightGreen: "#648F68"
+  brightYellow: "#DA674B"
+  brightBlue: "#5C87A4"
+  brightMagenta: "#829FA7"
+  brightCyan: "#A27E57"
+  brightWhite: "#868690"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 38
+    black: 0
+    red: 47.8
+    green: 37.1
+    yellow: 39.8
+    blue: 35.8
+    magenta: 65.7
+    cyan: 37
+    white: 38
+    brightBlack: 17.5
+    brightRed: 65.7
+    brightGreen: 37.1
+    brightYellow: 39.8
+    brightBlue: 35.8
+    brightMagenta: 47.8
+    brightCyan: 37
+    brightWhite: 38

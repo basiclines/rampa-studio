@@ -1,0 +1,49 @@
+name: "Aether Arctic"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#0E1419"
+  fg: "#E0F2FF"
+  black: "#19232E"
+  red: "#FF9999"
+  green: "#99F2D9"
+  yellow: "#FFEB99"
+  blue: "#73E6FF"
+  magenta: "#CCB3FF"
+  cyan: "#99E6F2"
+  white: "#E0F2FF"
+  brightBlack: "#3D5266"
+  brightRed: "#FFB3B3"
+  brightGreen: "#B3F5E6"
+  brightYellow: "#FFF2CC"
+  brightBlue: "#A6E3FF"
+  brightMagenta: "#DECCFF"
+  brightCyan: "#B3EFF7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 244
+  contrast:
+    fg: 96.9
+    black: 0
+    red: 62.1
+    green: 88
+    yellow: 94.1
+    blue: 81.5
+    magenta: 67.6
+    cyan: 83.3
+    white: 96.9
+    brightBlack: 13.5
+    brightRed: 71.8
+    brightGreen: 92.2
+    brightYellow: 98.9
+    brightBlue: 83.7
+    brightMagenta: 79.9
+    brightCyan: 90.1
+    brightWhite: 107.2

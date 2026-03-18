@@ -1,0 +1,49 @@
+name: "OhLED_Bisque"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFE4C4"
+  black: "#FFE4C4"
+  red: "#BBA790"
+  green: "#CCB69D"
+  yellow: "#998976"
+  blue: "#EED5B7"
+  magenta: "#DDC6AA"
+  cyan: "#AA9883"
+  white: "#887A69"
+  brightBlack: "#FFE4C4"
+  brightRed: "#BBA790"
+  brightGreen: "#CCB69D"
+  brightYellow: "#998976"
+  brightBlue: "#EED5B7"
+  brightMagenta: "#DDC6AA"
+  brightCyan: "#AA9883"
+  brightWhite: "#887A69"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 93
+    black: 93
+    red: 56.3
+    green: 64.8
+    yellow: 40.3
+    blue: 83.4
+    magenta: 74.1
+    cyan: 48.1
+    white: 32.9
+    brightBlack: 93
+    brightRed: 56.3
+    brightGreen: 64.8
+    brightYellow: 40.3
+    brightBlue: 83.4
+    brightMagenta: 74.1
+    brightCyan: 48.1
+    brightWhite: 32.9

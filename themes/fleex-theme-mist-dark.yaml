@@ -1,0 +1,49 @@
+name: "Fleex Theme Mist Dark"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+colors:
+  bg: "#12171B"
+  fg: "#E5ECF2"
+  black: "#0E1215"
+  red: "#FF7D88"
+  green: "#77A786"
+  yellow: "#D6A557"
+  blue: "#7BA2D6"
+  magenta: "#B29BFF"
+  cyan: "#7AD3CF"
+  white: "#E5ECF2"
+  brightBlack: "#0E1215"
+  brightRed: "#FF7D88"
+  brightGreen: "#77A786"
+  brightYellow: "#D6A557"
+  brightBlue: "#7BA2D6"
+  brightMagenta: "#B29BFF"
+  brightCyan: "#7AD3CF"
+  brightWhite: "#E5ECF2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 242
+  contrast:
+    fg: 93.9
+    black: 0
+    red: 53.2
+    green: 47.9
+    yellow: 57.2
+    blue: 49.7
+    magenta: 55.3
+    cyan: 70.2
+    white: 93.9
+    brightBlack: 0
+    brightRed: 53.2
+    brightGreen: 47.9
+    brightYellow: 57.2
+    brightBlue: 49.7
+    brightMagenta: 55.3
+    brightCyan: 70.2
+    brightWhite: 93.9

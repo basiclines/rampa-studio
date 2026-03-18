@@ -1,0 +1,49 @@
+name: "Urara"
+source:
+  marketplace_id: "haxibami.urara-vscode"
+  version: "0.2.0"
+  installs: 2927
+  author: "haxibami"
+  repo: "https://github.com/haxibami/urara-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=haxibami.urara-vscode"
+colors:
+  bg: "#1C1921"
+  fg: "#D2CED9"
+  black: "#14111A"
+  red: "#D9989C"
+  green: "#ABBF86"
+  yellow: "#D9C77E"
+  blue: "#9986BF"
+  magenta: "#A6B4DE"
+  cyan: "#86BFB6"
+  white: "#D2CED9"
+  brightBlack: "#8A8299"
+  brightRed: "#E6BBBE"
+  brightGreen: "#B8D2AA"
+  brightYellow: "#E4D7A4"
+  brightBlue: "#91ACD1"
+  brightMagenta: "#CBD3EB"
+  brightCyan: "#A5CEC7"
+  brightWhite: "#EDEBEF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 302
+  contrast:
+    fg: 76.5
+    black: 0
+    red: 54.4
+    green: 62.4
+    yellow: 71.4
+    blue: 40.9
+    magenta: 60.8
+    cyan: 60.5
+    white: 76.5
+    brightBlack: 36.1
+    brightRed: 70.4
+    brightGreen: 73.2
+    brightYellow: 80.8
+    brightBlue: 54.8
+    brightMagenta: 78.6
+    brightCyan: 70.6
+    brightWhite: 93.9

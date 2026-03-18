@@ -1,0 +1,49 @@
+name: "Tomorrow Night VS"
+source:
+  marketplace_id: "xivilay.simplified-themes-mods-pack"
+  version: "0.0.2"
+  installs: 47
+  author: "xivilay"
+  repo: "https://github.com/xivilay/vs-code-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=xivilay.simplified-themes-mods-pack"
+colors:
+  bg: "#263035"
+  fg: "#C5C8C6"
+  black: "#263035"
+  red: "#CC6666"
+  green: "#B5BD68"
+  yellow: "#F0C674"
+  blue: "#81A2BE"
+  magenta: "#B294BB"
+  cyan: "#8ABEB7"
+  white: "#969896"
+  brightBlack: "#263035"
+  brightRed: "#CC6666"
+  brightGreen: "#B5BD68"
+  brightYellow: "#F0C674"
+  brightBlue: "#81A2BE"
+  brightMagenta: "#B294BB"
+  brightCyan: "#8ABEB7"
+  brightWhite: "#C5C8C6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  contrast:
+    fg: 68.1
+    black: 0
+    red: 32.6
+    green: 58.6
+    yellow: 70.8
+    blue: 45.1
+    magenta: 45.1
+    cyan: 57.1
+    white: 41.6
+    brightBlack: 0
+    brightRed: 32.6
+    brightGreen: 58.6
+    brightYellow: 70.8
+    brightBlue: 45.1
+    brightMagenta: 45.1
+    brightCyan: 57.1
+    brightWhite: 68.1

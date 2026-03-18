@@ -1,0 +1,49 @@
+name: "Theme-Y-Random"
+source:
+  marketplace_id: "Yisus-Code.theme-y-random"
+  version: "0.0.1"
+  installs: 243
+  author: "Yisus-Code"
+  repo: "https://github.com/JesusAIV/Theme-Y-Random"
+  url: "https://marketplace.visualstudio.com/items?itemName=Yisus-Code.theme-y-random"
+colors:
+  bg: "#031238"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#EC3A37"
+  green: "#3AD900"
+  yellow: "#FAD000"
+  blue: "#436FFF"
+  magenta: "#FF2C70"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#EC3A37"
+  brightGreen: "#3AD900"
+  brightYellow: "#FAD000"
+  brightBlue: "#438EFF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 263
+  contrast:
+    fg: 106.9
+    black: 0
+    red: 34.7
+    green: 66.3
+    yellow: 79.4
+    blue: 32
+    magenta: 39.1
+    cyan: 92.7
+    white: 106.9
+    brightBlack: 18
+    brightRed: 34.7
+    brightGreen: 66.3
+    brightYellow: 79.4
+    brightBlue: 41.9
+    brightMagenta: 64.3
+    brightCyan: 92.7
+    brightWhite: 106.9

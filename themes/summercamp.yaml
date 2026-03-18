@@ -1,0 +1,49 @@
+name: "Summercamp"
+source:
+  marketplace_id: "csalmeida.summercamp"
+  version: "0.0.0"
+  installs: 876
+  author: "Cristiano Almeida"
+  repo: "https://github.com/csalmeida/summercamp-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=csalmeida.summercamp"
+colors:
+  bg: "#1D1710"
+  fg: "#F8F5DE"
+  black: "#5A5A5A"
+  red: "#E63B3B"
+  green: "#43B23F"
+  yellow: "#E5E510"
+  blue: "#348FEC"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#F8F5DE"
+  brightBlack: "#666666"
+  brightRed: "#DE5041"
+  brightGreen: "#5BDE56"
+  brightYellow: "#F1FE28"
+  brightBlue: "#499BEF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 71
+  contrast:
+    fg: 99.6
+    black: 17
+    red: 33.4
+    green: 48.2
+    yellow: 85.5
+    blue: 40.2
+    magenta: 29.6
+    cyan: 47.4
+    white: 99.6
+    brightBlack: 21.9
+    brightRed: 34.7
+    brightGreen: 70.2
+    brightYellow: 99.2
+    brightBlue: 45.5
+    brightMagenta: 45.3
+    brightCyan: 55.3
+    brightWhite: 106.8

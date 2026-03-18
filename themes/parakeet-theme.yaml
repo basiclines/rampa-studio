@@ -1,0 +1,49 @@
+name: "Parakeet Theme"
+source:
+  marketplace_id: "NyctibiusVII.descomplica-theme"
+  version: "1.4.18"
+  installs: 387
+  author: "NyctibiusVII"
+  repo: "https://github.com/Descomplica-ADS/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=NyctibiusVII.descomplica-theme"
+colors:
+  bg: "#000000"
+  fg: "#2AC7E3"
+  black: "#434343"
+  red: "#BC3131"
+  green: "#00C278"
+  yellow: "#D4E05B"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#BEBEBE"
+  brightBlack: "#666666"
+  brightRed: "#FF5555"
+  brightGreen: "#00E88F"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#DEDEDE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 63.5
+    black: 9.5
+    red: 24.1
+    green: 56.7
+    yellow: 82.5
+    blue: 28.4
+    magenta: 30.8
+    cyan: 48.6
+    white: 67.5
+    brightBlack: 23
+    brightRed: 44.4
+    brightGreen: 75.9
+    brightYellow: 99.6
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 56.4
+    brightWhite: 86.6

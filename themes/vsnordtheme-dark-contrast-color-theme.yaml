@@ -1,0 +1,49 @@
+name: "VSNordTheme-dark-contrast-color-theme"
+source:
+  marketplace_id: "Kochan.vs-nord-theme"
+  version: "1.0.2"
+  installs: 528
+  author: "Koiverse"
+  repo: "https://github.com/koimoee/VSNordTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kochan.vs-nord-theme"
+colors:
+  bg: "#101010"
+  fg: "#C8DCE9"
+  black: "#2B3252"
+  red: "#AF515A"
+  green: "#93AE7C"
+  yellow: "#DBBB7B"
+  blue: "#7191B1"
+  magenta: "#A48EAD"
+  cyan: "#78B0C0"
+  white: "#D5D9F0"
+  brightBlack: "#3C466A"
+  brightRed: "#AF515A"
+  brightGreen: "#93AE7C"
+  brightYellow: "#DBBB7B"
+  brightBlue: "#7191B1"
+  brightMagenta: "#A48EAD"
+  brightCyan: "#7FABB0"
+  brightWhite: "#DCEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 83.1
+    black: 0
+    red: 26.8
+    green: 53.5
+    yellow: 67.6
+    blue: 41.1
+    magenta: 45
+    cyan: 54.5
+    white: 83.7
+    brightBlack: 10.7
+    brightRed: 26.8
+    brightGreen: 53.5
+    brightYellow: 67.6
+    brightBlue: 41.1
+    brightMagenta: 45
+    brightCyan: 52.2
+    brightWhite: 94.7

@@ -1,0 +1,49 @@
+name: "Everforest Soft"
+source:
+  marketplace_id: "MrMartian.everforest-moist"
+  version: "0.0.2"
+  installs: 4411
+  author: "MrMartian"
+  repo: "https://github.com/CraigglesO/everforest-moist-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MrMartian.everforest-moist"
+colors:
+  bg: "#2C3338"
+  fg: "#D3C6AA"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#DC7B7C"
+  brightGreen: "#DBBC7F"
+  brightYellow: "#A7C080"
+  brightBlue: "#83A598"
+  brightMagenta: "#D699B6"
+  brightCyan: "#9DB579"
+  brightWhite: "#D3C6AA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 239
+  contrast:
+    fg: 67.1
+    black: 0
+    red: 20.7
+    green: 38.3
+    yellow: 47.9
+    blue: 27
+    magenta: 27.1
+    cyan: 37.3
+    white: 42.6
+    brightBlack: 31.8
+    brightRed: 40.8
+    brightGreen: 62.9
+    brightYellow: 58
+    brightBlue: 44
+    brightMagenta: 51
+    brightCyan: 52.1
+    brightWhite: 67.1

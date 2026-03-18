@@ -1,0 +1,49 @@
+name: "Moderate Dimm"
+source:
+  marketplace_id: "Ivnjey.theme-by-ivnjey"
+  version: "0.0.4"
+  installs: 18
+  author: "Ivnjey"
+  repo: "https://github.com/Ivnjey/theme-by-ivnjey"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ivnjey.theme-by-ivnjey"
+colors:
+  bg: "#1B222A"
+  fg: "#DBDCDC"
+  black: "#000000"
+  red: "#FF2348"
+  green: "#ADDB67"
+  yellow: "#ECC48D"
+  blue: "#407DFF"
+  magenta: "#9F60EC"
+  cyan: "#11A8CD"
+  white: "#E5E7EB"
+  brightBlack: "#637777"
+  brightRed: "#FF5874"
+  brightGreen: "#8FB05E"
+  brightYellow: "#DCDCAA"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#29B8DB"
+  brightWhite: "#BBBEC4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 252
+  contrast:
+    fg: 82.9
+    black: 0
+    red: 36.4
+    green: 73.6
+    yellow: 72.4
+    blue: 34.8
+    magenta: 33.2
+    cyan: 46.2
+    white: 89.9
+    brightBlack: 26.5
+    brightRed: 43.2
+    brightGreen: 51.4
+    brightYellow: 81.2
+    brightBlue: 54.6
+    brightMagenta: 52.4
+    brightCyan: 54.1
+    brightWhite: 65

@@ -1,0 +1,49 @@
+name: "Eerie"
+source:
+  marketplace_id: "Priyaank.radiancexx"
+  version: "1.1.0"
+  installs: 68
+  author: "Priyaank"
+  repo: "https://github.com/PRIYAANK2510/Radiance"
+  url: "https://marketplace.visualstudio.com/items?itemName=Priyaank.radiancexx"
+colors:
+  bg: "#18181F"
+  fg: "#70708F"
+  black: "#262626"
+  red: "#C03D3D"
+  green: "#27923B"
+  yellow: "#BE8939"
+  blue: "#2A70BC"
+  magenta: "#9F399F"
+  cyan: "#2D9EBA"
+  white: "#A9A9A9"
+  brightBlack: "#383838"
+  brightRed: "#E64343"
+  brightGreen: "#30B649"
+  brightYellow: "#E4A546"
+  brightBlue: "#338BEA"
+  brightMagenta: "#BE47BE"
+  brightCyan: "#38C0E2"
+  brightWhite: "#C0C0C0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  contrast:
+    fg: 27.4
+    black: 0
+    red: 25.3
+    green: 33.7
+    yellow: 43.1
+    blue: 25.9
+    magenta: 21.9
+    cyan: 42.6
+    white: 54.5
+    brightBlack: 0
+    brightRed: 34.5
+    brightGreen: 49.6
+    brightYellow: 59
+    brightBlue: 38.5
+    brightMagenta: 31.2
+    brightCyan: 59.4
+    brightWhite: 67.4

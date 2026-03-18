@@ -1,0 +1,49 @@
+name: "Fleex Theme Warm Light"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+colors:
+  bg: "#FFFCF6"
+  fg: "#2A241F"
+  black: "#5A5048"
+  red: "#B8553E"
+  green: "#6D8740"
+  yellow: "#B6771E"
+  blue: "#A65C2F"
+  magenta: "#8B5FBF"
+  cyan: "#2F8A83"
+  white: "#F8F2E8"
+  brightBlack: "#5A5048"
+  brightRed: "#B8553E"
+  brightGreen: "#6D8740"
+  brightYellow: "#B6771E"
+  brightBlue: "#A65C2F"
+  brightMagenta: "#8B5FBF"
+  brightCyan: "#2F8A83"
+  brightWhite: "#F8F2E8"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 100.6
+    black: 85.6
+    red: 70.9
+    green: 66
+    yellow: 62.8
+    blue: 72.6
+    magenta: 70.6
+    cyan: 66.5
+    white: 0
+    brightBlack: 85.6
+    brightRed: 70.9
+    brightGreen: 66
+    brightYellow: 62.8
+    brightBlue: 72.6
+    brightMagenta: 70.6
+    brightCyan: 66.5
+    brightWhite: 0

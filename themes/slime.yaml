@@ -1,0 +1,49 @@
+name: "Slime"
+source:
+  marketplace_id: "luanpiegas.slime-color-theme"
+  version: "1.0.0"
+  installs: 131
+  author: "Luan Piegas"
+  repo: "https://github.com/LuanPiegas/Slime-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=luanpiegas.slime-color-theme"
+colors:
+  bg: "#0A0A0A"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#FFFFFF"
+  yellow: "#E5E510"
+  blue: "#FFFFFF"
+  magenta: "#ADFF00"
+  cyan: "#ADFF00"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#ADFF00"
+  brightGreen: "#ADFF00"
+  brightYellow: "#FFFFFF"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#ADFF00"
+  brightCyan: "#ADFF00"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 37.4
+    green: 107.7
+    yellow: 86.5
+    blue: 107.7
+    magenta: 92.9
+    cyan: 92.9
+    white: 107.7
+    brightBlack: 22.9
+    brightRed: 92.9
+    brightGreen: 92.9
+    brightYellow: 107.7
+    brightBlue: 107.7
+    brightMagenta: 92.9
+    brightCyan: 92.9
+    brightWhite: 90.9

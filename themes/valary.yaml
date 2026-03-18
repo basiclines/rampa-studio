@@ -1,0 +1,49 @@
+name: "Valary"
+source:
+  marketplace_id: "fahadachaudhry.valary"
+  version: "1.0.0"
+  installs: 2082
+  author: "Fahad Ashraf Chaudhry"
+  repo: "https://github.com/fahadachaudhry/valary-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=fahadachaudhry.valary"
+colors:
+  bg: "#0F0F0F"
+  fg: "#5D7075"
+  black: "#666666"
+  red: "#DA6771"
+  green: "#4EB071"
+  yellow: "#FFF099"
+  blue: "#399EF4"
+  magenta: "#B168DF"
+  cyan: "#21C5C7"
+  white: "#EFEFEF"
+  brightBlack: "#666666"
+  brightRed: "#DA6771"
+  brightGreen: "#4EB071"
+  brightYellow: "#FFF099"
+  brightBlue: "#399EF4"
+  brightMagenta: "#B168DF"
+  brightCyan: "#21C5C7"
+  brightWhite: "#EFEFEF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 25.6
+    black: 22.7
+    red: 40.3
+    green: 49.4
+    yellow: 96.7
+    blue: 47.3
+    magenta: 38.6
+    cyan: 60.7
+    white: 97
+    brightBlack: 22.7
+    brightRed: 40.3
+    brightGreen: 49.4
+    brightYellow: 96.7
+    brightBlue: 47.3
+    brightMagenta: 38.6
+    brightCyan: 60.7
+    brightWhite: 97

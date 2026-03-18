@@ -1,0 +1,49 @@
+name: "Draculight"
+source:
+  marketplace_id: "Nevyk.draculight"
+  version: "1.1.0"
+  installs: 1985
+  author: "Nevyk"
+  repo: "https://github.com/nevyk/draculight"
+  url: "https://marketplace.visualstudio.com/items?itemName=Nevyk.draculight"
+colors:
+  bg: "#F7F7F6"
+  fg: "#21253F"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#39B757"
+  yellow: "#D4B701"
+  blue: "#3994FE"
+  magenta: "#FF29A3"
+  cyan: "#8D73E3"
+  white: "#F7F7F6"
+  brightBlack: "#000000"
+  brightRed: "#FF0000"
+  brightGreen: "#39B757"
+  brightYellow: "#D4B701"
+  brightBlue: "#3994FE"
+  brightMagenta: "#FF29A3"
+  brightCyan: "#8D73E3"
+  brightWhite: "#F7F7F6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97
+    black: 101.2
+    red: 59.3
+    green: 45.5
+    yellow: 33.3
+    blue: 52.3
+    magenta: 55.2
+    cyan: 59.4
+    white: 0
+    brightBlack: 101.2
+    brightRed: 59.3
+    brightGreen: 45.5
+    brightYellow: 33.3
+    brightBlue: 52.3
+    brightMagenta: 55.2
+    brightCyan: 59.4
+    brightWhite: 0

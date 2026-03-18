@@ -1,0 +1,49 @@
+name: "NGC Midnight Base"
+source:
+  marketplace_id: "nextgencode.ngen-themes"
+  version: "1.1.0"
+  installs: 73
+  author: "NextGenCode"
+  repo: "https://github.com/Mattzey/Ngen-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=nextgencode.ngen-themes"
+colors:
+  bg: "#1A1D23"
+  fg: "#D4D4D6"
+  black: "#151820"
+  red: "#FF6B6B"
+  green: "#7DD3A0"
+  yellow: "#DCC38B"
+  blue: "#6FA0E6"
+  magenta: "#E8A5C2"
+  cyan: "#7DD3A0"
+  white: "#D4D4D6"
+  brightBlack: "#6B7280"
+  brightRed: "#FF8585"
+  brightGreen: "#95E7B5"
+  brightYellow: "#E8D1A0"
+  brightBlue: "#8AB7F0"
+  brightMagenta: "#F2BFD8"
+  brightCyan: "#95E7B5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 47.4
+    green: 67.8
+    yellow: 70.1
+    blue: 48.3
+    magenta: 62.5
+    cyan: 67.8
+    white: 78.9
+    brightBlack: 26.4
+    brightRed: 54.5
+    brightGreen: 79.8
+    brightYellow: 78.4
+    brightBlue: 60.1
+    brightMagenta: 74.7
+    brightCyan: 79.8
+    brightWhite: 106.2

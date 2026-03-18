@@ -1,0 +1,49 @@
+name: "Spiral"
+source:
+  marketplace_id: "nd2204.gruvbox-material-mix"
+  version: "0.4.6"
+  installs: 465
+  author: "nd2204"
+  repo: "https://github.com/nd2204/vscode-gruvbox"
+  url: "https://marketplace.visualstudio.com/items?itemName=nd2204.gruvbox-material-mix"
+colors:
+  bg: "#0D111A"
+  fg: "#C8CCCD"
+  black: "#2D2F37"
+  red: "#EB6689"
+  green: "#EBBCBA"
+  yellow: "#F6C177"
+  blue: "#31748F"
+  magenta: "#C4A7E7"
+  cyan: "#31748F"
+  white: "#C8CCCD"
+  brightBlack: "#393C44"
+  brightRed: "#EB6689"
+  brightGreen: "#EBBCBA"
+  brightYellow: "#F6C177"
+  brightBlue: "#9CCFD8"
+  brightMagenta: "#C4A7E7"
+  brightCyan: "#9CCFD8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 266
+  contrast:
+    fg: 74.7
+    black: 0
+    red: 44
+    green: 72.3
+    yellow: 74.1
+    blue: 25.6
+    magenta: 60.8
+    cyan: 25.6
+    white: 74.7
+    brightBlack: 0
+    brightRed: 44
+    brightGreen: 72.3
+    brightYellow: 74.1
+    brightBlue: 71.8
+    brightMagenta: 60.8
+    brightCyan: 71.8
+    brightWhite: 107.4

@@ -1,0 +1,49 @@
+name: "Electric Blue"
+source:
+  marketplace_id: "CodewithBismillah.chroma-library"
+  version: "1.2.1"
+  installs: 358
+  author: "Code with Bismillah"
+  repo: "https://github.com/mubashir1837/Chroma-Library"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.chroma-library"
+colors:
+  bg: "#0A0F1A"
+  fg: "#E0F0FF"
+  black: "#000000"
+  red: "#FF4080"
+  green: "#40FF80"
+  yellow: "#FFFF40"
+  blue: "#0080FF"
+  magenta: "#8040FF"
+  cyan: "#00BFFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF6080"
+  brightGreen: "#60FF80"
+  brightYellow: "#FFFF60"
+  brightBlue: "#4080FF"
+  brightMagenta: "#A060FF"
+  brightCyan: "#40DFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 265
+  contrast:
+    fg: 96.3
+    black: 0
+    red: 42
+    green: 87.8
+    yellow: 102.5
+    blue: 36.7
+    magenta: 27
+    cyan: 61
+    white: 107.5
+    brightBlack: 22.6
+    brightRed: 47
+    brightGreen: 88.8
+    brightYellow: 102.8
+    brightBlue: 37.6
+    brightMagenta: 36.8
+    brightCyan: 76.4
+    brightWhite: 107.5

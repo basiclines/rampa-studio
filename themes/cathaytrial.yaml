@@ -1,0 +1,49 @@
+name: "cathayTrial"
+source:
+  marketplace_id: "JackyChong.jacky"
+  version: "0.0.1"
+  installs: 3
+  author: "Jacky Chong"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=JackyChong.jacky"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#C83D3F"
+  green: "#8BB39F"
+  yellow: "#967C00"
+  blue: "#116F9A"
+  magenta: "#BC62BC"
+  cyan: "#70A8C2"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#C83D3F"
+  brightGreen: "#8BB39F"
+  brightYellow: "#967C00"
+  brightBlue: "#116F9A"
+  brightMagenta: "#C07EC0"
+  brightCyan: "#70A8C2"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 73.5
+    green: 45.8
+    yellow: 67.6
+    blue: 77.4
+    magenta: 64.6
+    cyan: 50.7
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 73.5
+    brightGreen: 45.8
+    brightYellow: 67.6
+    brightBlue: 77.4
+    brightMagenta: 56.6
+    brightCyan: 50.7
+    brightWhite: 48.5

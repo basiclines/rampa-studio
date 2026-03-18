@@ -1,0 +1,49 @@
+name: "Tailwind Moon Grey"
+source:
+  marketplace_id: "laurentlahmy.tailwind-theme-zinc"
+  version: "0.0.1"
+  installs: 403
+  author: "laurent lahmy"
+  repo: "https://github.com/alphablend-dev/theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=laurentlahmy.tailwind-theme-zinc"
+colors:
+  bg: "#1F1F22"
+  fg: "#F4F4F5"
+  black: "#000000"
+  red: "#EF4444"
+  green: "#34D399"
+  yellow: "#EA580C"
+  blue: "#60A5FA"
+  magenta: "#60A5FA"
+  cyan: "#115E59"
+  white: "#3F3F46"
+  brightBlack: "#71717A"
+  brightRed: "#DC2626"
+  brightGreen: "#84CC16"
+  brightYellow: "#FDE047"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#FB7185"
+  brightCyan: "#22C55E"
+  brightWhite: "#3F3F46"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 35.8
+    green: 64.2
+    yellow: 37.5
+    blue: 50.4
+    magenta: 50.4
+    cyan: 14
+    white: 0
+    brightBlack: 26.1
+    brightRed: 28.1
+    brightGreen: 62.6
+    brightYellow: 86.1
+    brightBlue: 35.8
+    brightMagenta: 48.3
+    brightCyan: 55.8
+    brightWhite: 0

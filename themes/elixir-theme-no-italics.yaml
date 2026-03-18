@@ -1,0 +1,49 @@
+name: "elixir-theme-no-italics"
+source:
+  marketplace_id: "maiquitome.elixir-theme"
+  version: "0.12.0"
+  installs: 9237
+  author: "Maiqui Tomé"
+  repo: "https://github.com/maiquitome/vscode_elixir_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=maiquitome.elixir-theme"
+colors:
+  bg: "#090B10"
+  fg: "#8F93A2"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 268
+  contrast:
+    fg: 44.1
+    black: 0
+    red: 44.4
+    green: 85
+    yellow: 79.8
+    blue: 56.7
+    magenta: 54.6
+    cyan: 79.1
+    white: 107.7
+    brightBlack: 12.3
+    brightRed: 44.4
+    brightGreen: 85
+    brightYellow: 79.8
+    brightBlue: 56.7
+    brightMagenta: 54.6
+    brightCyan: 79.1
+    brightWhite: 107.7

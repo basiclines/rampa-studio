@@ -1,0 +1,49 @@
+name: "Night-Stack Midnight Blue"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#050A14"
+  fg: "#C7E6FF"
+  black: "#0B1420"
+  red: "#3B82F6"
+  green: "#14B8A6"
+  yellow: "#38BDF8"
+  blue: "#1D4ED8"
+  magenta: "#6366F1"
+  cyan: "#22D3EE"
+  white: "#C7E6FF"
+  brightBlack: "#0B1420"
+  brightRed: "#3B82F6"
+  brightGreen: "#14B8A6"
+  brightYellow: "#38BDF8"
+  brightBlue: "#1D4ED8"
+  brightMagenta: "#6366F1"
+  brightCyan: "#22D3EE"
+  brightWhite: "#C7E6FF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 260
+  contrast:
+    fg: 88.9
+    black: 0
+    red: 37.6
+    green: 53.5
+    yellow: 60.5
+    blue: 19.6
+    magenta: 30.9
+    cyan: 69.4
+    white: 88.9
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 53.5
+    brightYellow: 60.5
+    brightBlue: 19.6
+    brightMagenta: 30.9
+    brightCyan: 69.4
+    brightWhite: 88.9

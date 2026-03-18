@@ -1,0 +1,49 @@
+name: "waste-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#081011"
+  fg: "#B1C7CC"
+  black: "#102022"
+  red: "#BA0E2E"
+  green: "#43BDB2"
+  yellow: "#BBD4BE"
+  blue: "#F9D6BC"
+  magenta: "#F7A8A5"
+  cyan: "#43BDB2"
+  white: "#C0D2D6"
+  brightBlack: "#295156"
+  brightRed: "#F03E5F"
+  brightGreen: "#8ED7D1"
+  brightYellow: "#F9FCFA"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#8ED7D1"
+  brightWhite: "#EFF3F4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 206
+  contrast:
+    fg: 70
+    black: 0
+    red: 21.1
+    green: 56.9
+    yellow: 76.2
+    blue: 85.3
+    magenta: 66.3
+    cyan: 56.9
+    white: 76.9
+    brightBlack: 12.1
+    brightRed: 37.4
+    brightGreen: 74.1
+    brightYellow: 105
+    brightBlue: 107.5
+    brightMagenta: 107.5
+    brightCyan: 74.1
+    brightWhite: 99.1

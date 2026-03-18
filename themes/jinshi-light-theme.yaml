@@ -1,0 +1,49 @@
+name: "Jinshi Light Theme"
+source:
+  marketplace_id: "apothecary-diary-theme.apothecary-diary-theme"
+  version: "0.1.0"
+  installs: 58
+  author: "Matheus Montemurro"
+  repo: "https://github.com/montemurro19/apothecary-diary-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=apothecary-diary-theme.apothecary-diary-theme"
+colors:
+  bg: "#FDFCFF"
+  fg: "#2A1B3D"
+  black: "#2A1B3D"
+  red: "#B83E5A"
+  green: "#5A8B3A"
+  yellow: "#C4971E"
+  blue: "#6A4C93"
+  magenta: "#8B5FBF"
+  cyan: "#4A7B7C"
+  white: "#FDFCFF"
+  brightBlack: "#8B5FBF"
+  brightRed: "#D4576B"
+  brightGreen: "#6FA048"
+  brightYellow: "#D4AF37"
+  brightBlue: "#8564A1"
+  brightMagenta: "#A073CC"
+  brightCyan: "#5A9394"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 101.2
+    black: 101.2
+    red: 74.6
+    green: 66
+    yellow: 50.5
+    blue: 81.9
+    magenta: 70.7
+    cyan: 71.4
+    white: 0
+    brightBlack: 70.7
+    brightRed: 64.3
+    brightGreen: 56.2
+    brightYellow: 39.5
+    brightBlue: 72
+    brightMagenta: 62
+    brightCyan: 60.7
+    brightWhite: 0

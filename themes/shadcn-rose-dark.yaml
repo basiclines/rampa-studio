@@ -1,0 +1,49 @@
+name: "Shadcn Rose Dark"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+colors:
+  bg: "#09090B"
+  fg: "#FAFAFA"
+  black: "#09090B"
+  red: "#FF6467"
+  green: "#FF2056"
+  yellow: "#FFA1AD"
+  blue: "#8B0836"
+  magenta: "#EC003F"
+  cyan: "#A50036"
+  white: "#FAFAFA"
+  brightBlack: "#27272A"
+  brightRed: "#FF6467"
+  brightGreen: "#FFA1AD"
+  brightYellow: "#FFF1F2"
+  brightBlue: "#FF2056"
+  brightMagenta: "#FFE1DF"
+  brightCyan: "#EC003F"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 47.4
+    green: 38.7
+    yellow: 65.9
+    blue: 11.9
+    magenta: 33
+    cyan: 16.9
+    white: 104.5
+    brightBlack: 0
+    brightRed: 47.4
+    brightGreen: 65.9
+    brightYellow: 100.6
+    brightBlue: 38.7
+    brightMagenta: 92.6
+    brightCyan: 33
+    brightWhite: 104.5

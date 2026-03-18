@@ -1,0 +1,49 @@
+name: "betu-light"
+source:
+  marketplace_id: "Betu55.betu-light-theme"
+  version: "1.2.0"
+  installs: 168
+  author: "Betu55"
+  repo: "https://github.com/betu55/Betu-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Betu55.betu-light-theme"
+colors:
+  bg: "#E8E8E8"
+  fg: "#585858"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#007CFF"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#BC0505"
+  white: "#555555"
+  brightBlack: "#000000"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#0093FF"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#BC0505"
+  brightWhite: "#565656"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 71.1
+    black: 92.4
+    red: 60.4
+    green: 35.6
+    yellow: 52.3
+    blue: 72.5
+    magenta: 61
+    cyan: 66.6
+    white: 72.3
+    brightBlack: 92.4
+    brightRed: 60.4
+    brightGreen: 27.3
+    brightYellow: 44.5
+    brightBlue: 72.5
+    brightMagenta: 61
+    brightCyan: 66.6
+    brightWhite: 71.9

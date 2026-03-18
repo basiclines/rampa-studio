@@ -1,0 +1,49 @@
+name: "vxcode cream"
+source:
+  marketplace_id: "evertjunior.vxcode-theme"
+  version: "0.0.15"
+  installs: 3237
+  author: "Evert Junior"
+  repo: "https://github.com/evertjr/vxcode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=evertjunior.vxcode-theme"
+colors:
+  bg: "#FAF3E0"
+  fg: "#333333"
+  black: "#555555"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B290BA"
+  cyan: "#6AB8C0"
+  white: "#DDDDDD"
+  brightBlack: "#888888"
+  brightRed: "#F48484"
+  brightGreen: "#76C3A5"
+  brightYellow: "#F2D98E"
+  brightBlue: "#80A8E4"
+  brightMagenta: "#C2A0CA"
+  brightCyan: "#7AC8D0"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 91.7
+    black: 78.9
+    red: 48.9
+    green: 41.7
+    yellow: 21
+    blue: 48.8
+    magenta: 46.3
+    cyan: 37.7
+    white: 10.5
+    brightBlack: 56
+    brightRed: 41.3
+    brightGreen: 33.4
+    brightYellow: 12
+    brightBlue: 40.7
+    brightMagenta: 38.1
+    brightCyan: 29.3
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Elhassan Neon Dark Professional"
+source:
+  marketplace_id: "elhassan-dev.elhassan-neon-themes"
+  version: "1.1.2"
+  installs: 44
+  author: "elhassan-dev"
+  repo: "https://github.com/elhassanorabi5-dev/elhassan-neon-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=elhassan-dev.elhassan-neon-themes"
+colors:
+  bg: "#0F0F1E"
+  fg: "#E0E0FF"
+  black: "#1A1A2E"
+  red: "#FF006E"
+  green: "#00FF88"
+  yellow: "#FFBE0B"
+  blue: "#00D9FF"
+  magenta: "#B537F2"
+  cyan: "#00FFFF"
+  white: "#E0E0FF"
+  brightBlack: "#3D3D5C"
+  brightRed: "#FF3366"
+  brightGreen: "#33FF99"
+  brightYellow: "#FFCC00"
+  brightBlue: "#33DDFF"
+  brightMagenta: "#D946FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 283
+  contrast:
+    fg: 88.9
+    black: 0
+    red: 38.3
+    green: 87.3
+    yellow: 73.5
+    blue: 72.8
+    magenta: 32.1
+    cyan: 91.7
+    white: 88.9
+    brightBlack: 8
+    brightRed: 39.9
+    brightGreen: 88
+    brightYellow: 79.1
+    brightBlue: 75.1
+    brightMagenta: 41.5
+    brightCyan: 91.7
+    brightWhite: 107.4

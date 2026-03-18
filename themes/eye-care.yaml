@@ -1,0 +1,49 @@
+name: "eye-care"
+source:
+  marketplace_id: "NazmusSayad.onnokicu"
+  version: "2.4.12"
+  installs: 561
+  author: "Nazmus Sayad"
+  repo: "git+github.com:nazmussayad/vscode-theme.onnokicu--"
+  url: "https://marketplace.visualstudio.com/items?itemName=NazmusSayad.onnokicu"
+colors:
+  bg: "#21252C"
+  fg: "#ABB2BF"
+  black: "#4A4F5A"
+  red: "#EE5D69"
+  green: "#97C775"
+  yellow: "#B68353"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#CCCCCC"
+  brightBlack: "#616A7B"
+  brightRed: "#FE808A"
+  brightGreen: "#C2DEAD"
+  brightYellow: "#D1A47A"
+  brightBlue: "#93CFFF"
+  brightMagenta: "#E0A8F1"
+  brightCyan: "#82D2DC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 57.5
+    black: 10.9
+    red: 39.5
+    green: 62
+    yellow: 38.6
+    blue: 52.8
+    magenta: 43.3
+    cyan: 52.7
+    white: 72.8
+    brightBlack: 21.7
+    brightRed: 51.9
+    brightGreen: 78.4
+    brightYellow: 54.8
+    brightBlue: 70.8
+    brightMagenta: 63.5
+    brightCyan: 69
+    brightWhite: 105

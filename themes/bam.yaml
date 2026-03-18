@@ -1,0 +1,49 @@
+name: "Bam"
+source:
+  marketplace_id: "mark-cummins.bam-dark-theme"
+  version: "0.1.0"
+  installs: 244
+  author: "Mark Cummins"
+  repo: "https://github.com/markcummins/Bam"
+  url: "https://marketplace.visualstudio.com/items?itemName=mark-cummins.bam-dark-theme"
+colors:
+  bg: "#111111"
+  fg: "#FFFFFF"
+  black: "#111111"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 44.1
+    green: 84.7
+    yellow: 79.4
+    blue: 56.4
+    magenta: 54.3
+    cyan: 78.8
+    white: 107.4
+    brightBlack: 11.5
+    brightRed: 44.1
+    brightGreen: 84.7
+    brightYellow: 79.4
+    brightBlue: 56.4
+    brightMagenta: 54.3
+    brightCyan: 78.8
+    brightWhite: 107.4

@@ -1,0 +1,49 @@
+name: "Phantom"
+source:
+  marketplace_id: "MynaVu.phantom-theme"
+  version: "0.4.3"
+  installs: 91
+  author: "Myna Vu"
+  repo: "https://github.com/mynavu/Phantom-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MynaVu.phantom-theme"
+colors:
+  bg: "#191724"
+  fg: "#FFFFFF"
+  black: "#57527A"
+  red: "#FFB8D8"
+  green: "#BDE3FF"
+  yellow: "#FFFBD4"
+  blue: "#D0D9FF"
+  magenta: "#FFD7E2"
+  cyan: "#97CAFF"
+  white: "#D9D3F4"
+  brightBlack: "#827DA2"
+  brightRed: "#FDCCE2"
+  brightGreen: "#D0EBFF"
+  brightYellow: "#FFFDEF"
+  brightBlue: "#E6EBFF"
+  brightMagenta: "#FFE4EB"
+  brightCyan: "#B6DBFF"
+  brightWhite: "#EAE6FE"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 291
+  contrast:
+    fg: 106.7
+    black: 15.6
+    red: 74.7
+    green: 85.4
+    yellow: 102.9
+    blue: 83.1
+    magenta: 87.4
+    cyan: 70.6
+    white: 81.1
+    brightBlack: 34.2
+    brightRed: 82.6
+    brightGreen: 91.2
+    brightYellow: 105
+    brightBlue: 94
+    brightMagenta: 93.4
+    brightCyan: 81.1
+    brightWhite: 92.2

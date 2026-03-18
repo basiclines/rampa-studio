@@ -1,0 +1,49 @@
+name: "4-Colours"
+source:
+  marketplace_id: "gpem.4-colours"
+  version: "1.1.27"
+  installs: 4651
+  author: "gpem"
+  repo: "https://github.com/Germain-Gadel/4-colours"
+  url: "https://marketplace.visualstudio.com/items?itemName=gpem.4-colours"
+colors:
+  bg: "#1F2127"
+  fg: "#F1F1F1"
+  black: "#313131"
+  red: "#FF203B"
+  green: "#41CE3C"
+  yellow: "#ECDA14"
+  blue: "#0687FF"
+  magenta: "#DA1AC6"
+  cyan: "#06C1FF"
+  white: "#FFFFFF"
+  brightBlack: "#313131"
+  brightRed: "#FF203B"
+  brightGreen: "#41CE3C"
+  brightYellow: "#ECDA14"
+  brightBlue: "#0687FF"
+  brightMagenta: "#DA1AC6"
+  brightCyan: "#06C1FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 271
+  contrast:
+    fg: 96.4
+    black: 0
+    red: 36.2
+    green: 60
+    yellow: 80.3
+    blue: 37.1
+    magenta: 32.1
+    cyan: 60
+    white: 105.6
+    brightBlack: 0
+    brightRed: 36.2
+    brightGreen: 60
+    brightYellow: 80.3
+    brightBlue: 37.1
+    brightMagenta: 32.1
+    brightCyan: 60
+    brightWhite: 105.6

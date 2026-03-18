@@ -1,0 +1,49 @@
+name: "HFA Theme"
+source:
+  marketplace_id: "HFA-NYC.hani-dark-pro"
+  version: "0.0.1"
+  installs: 42
+  author: "HFA-NYC"
+  repo: "https://github.com/hfa-ny/vscode-theme-dark-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=HFA-NYC.hani-dark-pro"
+colors:
+  bg: "#111111"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#D19A66"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#5F636B"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#D19A66"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#ABB2BF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 59.9
+    black: 0
+    red: 42.6
+    green: 62.8
+    yellow: 53.2
+    blue: 55.2
+    magenta: 45.6
+    cyan: 55.1
+    white: 59.9
+    brightBlack: 21.2
+    brightRed: 42.6
+    brightGreen: 62.8
+    brightYellow: 53.2
+    brightBlue: 55.2
+    brightMagenta: 45.6
+    brightCyan: 55.1
+    brightWhite: 59.9

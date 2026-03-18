@@ -1,0 +1,49 @@
+name: "Berry Latte Light"
+source:
+  marketplace_id: "goncin.berry-latte-light-theme"
+  version: "1.3.0"
+  installs: 2486
+  author: "Fausto Cintra"
+  repo: "https://github.com/faustocintra/vscode-berry-latte-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=goncin.berry-latte-light-theme"
+colors:
+  bg: "#FEFDFF"
+  fg: "#2F4F4F"
+  black: "#2F4F4F"
+  red: "#FF6347"
+  green: "#9ACD32"
+  yellow: "#DAA520"
+  blue: "#4169E1"
+  magenta: "#FF69B4"
+  cyan: "#66CDAA"
+  white: "#C0C0C0"
+  brightBlack: "#666666"
+  brightRed: "#DC143C"
+  brightGreen: "#6B8E23"
+  brightYellow: "#B8860B"
+  brightBlue: "#4169E1"
+  brightMagenta: "#C71585"
+  brightCyan: "#20B2AA"
+  brightWhite: "#A9A9A9"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 89.4
+    black: 89.4
+    red: 54
+    green: 34.5
+    yellow: 42.9
+    blue: 72.2
+    magenta: 49.8
+    cyan: 35.8
+    white: 33
+    brightBlack: 77.8
+    brightRed: 71.2
+    brightGreen: 64.4
+    brightYellow: 58.6
+    brightBlue: 72.2
+    brightMagenta: 74
+    brightCyan: 49.7
+    brightWhite: 45.4

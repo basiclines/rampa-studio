@@ -1,0 +1,49 @@
+name: "pg-aqualung"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+colors:
+  bg: "#070E15"
+  fg: "#EBF0F0"
+  black: "#323232"
+  red: "#730B1A"
+  green: "#106B1A"
+  yellow: "#826D00"
+  blue: "#113192"
+  magenta: "#712171"
+  cyan: "#007D7D"
+  white: "#B4B4B4"
+  brightBlack: "#4D4D4D"
+  brightRed: "#A30A20"
+  brightGreen: "#189426"
+  brightYellow: "#B69A07"
+  brightBlue: "#1949D9"
+  brightMagenta: "#992999"
+  brightCyan: "#06A5A5"
+  brightWhite: "#CFCFCF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 248
+  contrast:
+    fg: 97.1
+    black: 0
+    red: 0
+    green: 19.1
+    yellow: 26.6
+    blue: 7.3
+    magenta: 10.4
+    cyan: 27.6
+    white: 61.5
+    brightBlack: 12.8
+    brightRed: 16.2
+    brightGreen: 35
+    brightYellow: 48.5
+    brightBlue: 18.4
+    brightMagenta: 19.6
+    brightCyan: 45
+    brightWhite: 77.2

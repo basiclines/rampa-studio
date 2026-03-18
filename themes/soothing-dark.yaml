@@ -1,0 +1,49 @@
+name: "Soothing Dark"
+source:
+  marketplace_id: "fastestsunil.sunilcode-themes"
+  version: "1.0.2"
+  installs: 57
+  author: "fastestsunil"
+  repo: "https://github.com/fastestsunil/sunilcode-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=fastestsunil.sunilcode-themes"
+colors:
+  bg: "#1A2332"
+  fg: "#D4C5B9"
+  black: "#1A2332"
+  red: "#D4A574"
+  green: "#7FB069"
+  yellow: "#E9C46A"
+  blue: "#89C4F4"
+  magenta: "#C9ADA7"
+  cyan: "#7FB0D3"
+  white: "#D4C5B9"
+  brightBlack: "#1A2332"
+  brightRed: "#D4A574"
+  brightGreen: "#7FB069"
+  brightYellow: "#E9C46A"
+  brightBlue: "#89C4F4"
+  brightMagenta: "#C9ADA7"
+  brightCyan: "#7FB0D3"
+  brightWhite: "#D4C5B9"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 260
+  contrast:
+    fg: 70.5
+    black: 0
+    red: 55.8
+    green: 50
+    yellow: 70.9
+    blue: 64.9
+    magenta: 58.7
+    cyan: 53.8
+    white: 70.5
+    brightBlack: 0
+    brightRed: 55.8
+    brightGreen: 50
+    brightYellow: 70.9
+    brightBlue: 64.9
+    brightMagenta: 58.7
+    brightCyan: 53.8
+    brightWhite: 70.5

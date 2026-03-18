@@ -1,0 +1,49 @@
+name: "theAIsphere-light"
+source:
+  marketplace_id: "theAIsphere.theaisphere"
+  version: "0.1.0"
+  installs: 53
+  author: "theAIsphere"
+  repo: "https://github.com/admin-theaisphere/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=theAIsphere.theaisphere"
+colors:
+  bg: "#F2F2F2"
+  fg: "#280060"
+  black: "#080D0A"
+  red: "#991E29"
+  green: "#149068"
+  yellow: "#BFAB25"
+  blue: "#002FD7"
+  magenta: "#703880"
+  cyan: "#1FB4FF"
+  white: "#CCCCCC"
+  brightBlack: "#545763"
+  brightRed: "#CC2936"
+  brightGreen: "#38E4AE"
+  brightYellow: "#DECC54"
+  brightBlue: "#4065E7"
+  brightMagenta: "#954BAA"
+  brightCyan: "#5CC8FF"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 94.6
+    black: 98
+    red: 79
+    green: 59.3
+    yellow: 37.8
+    blue: 80.6
+    magenta: 80.2
+    cyan: 37.5
+    white: 19.5
+    brightBlack: 77.2
+    brightRed: 67.1
+    brightGreen: 19.9
+    brightYellow: 20.3
+    brightBlue: 66.1
+    brightMagenta: 68.9
+    brightCyan: 27.7
+    brightWhite: 8.1

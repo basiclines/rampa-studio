@@ -1,0 +1,49 @@
+name: "Cursor Less Dark"
+source:
+  marketplace_id: "cedricverlinden.cursor-dark"
+  version: "2.2.0"
+  installs: 18680
+  author: "Cédric Verlinden"
+  repo: "https://github.com/CedricVerlinden/cursor-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=cedricverlinden.cursor-dark"
+colors:
+  bg: "#242424"
+  fg: "#D8DEE9"
+  black: "#2A2A2A"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#FFFFFF"
+  brightBlack: "#505050"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 31.2
+    green: 59.9
+    yellow: 74.6
+    blue: 46.9
+    magenta: 44.7
+    cyan: 60.9
+    white: 105.1
+    brightBlack: 11.4
+    brightRed: 31.2
+    brightGreen: 59.9
+    brightYellow: 74.6
+    brightBlue: 46.9
+    brightMagenta: 44.7
+    brightCyan: 60.9
+    brightWhite: 105.1

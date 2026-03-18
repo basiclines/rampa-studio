@@ -1,0 +1,49 @@
+name: "dark.codely-theme"
+source:
+  marketplace_id: "codely.dark-codely-theme"
+  version: "0.0.1"
+  installs: 39
+  author: "Codely"
+  repo: "https://github.com/CodelyTV/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=codely.dark-codely-theme"
+colors:
+  bg: "#1E1E1E"
+  fg: "#EBDBB2"
+  black: "#000000"
+  red: "#FB5245"
+  green: "#B8BB26"
+  yellow: "#FAC149"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#EBDBB2"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#B8BB26"
+  brightYellow: "#F5F543"
+  brightBlue: "#95B7F7"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 40.9
+    green: 60.3
+    yellow: 72.7
+    blue: 26.6
+    magenta: 28.9
+    cyan: 46.7
+    white: 83.6
+    brightBlack: 21.2
+    brightRed: 37.7
+    brightGreen: 60.3
+    brightYellow: 94.8
+    brightBlue: 61.3
+    brightMagenta: 44.5
+    brightCyan: 54.6
+    brightWhite: 89.2

@@ -1,0 +1,49 @@
+name: "My First Visual Studio Theme"
+source:
+  marketplace_id: "Bulbul.bulbul-theme"
+  version: "0.0.1"
+  installs: 40
+  author: "Bulbul"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Bulbul.bulbul-theme"
+colors:
+  bg: "#323131"
+  fg: "#C7C7C7"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#6FFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 67.3
+    black: 0
+    red: 22.3
+    green: 48.6
+    yellow: 81.2
+    blue: 23
+    magenta: 25.4
+    cyan: 43.2
+    white: 89
+    brightBlack: 17.6
+    brightRed: 34.2
+    brightGreen: 59.1
+    brightYellow: 91.2
+    brightBlue: 35.6
+    brightMagenta: 41
+    brightCyan: 51
+    brightWhite: 85.6

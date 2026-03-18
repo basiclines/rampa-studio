@@ -1,0 +1,49 @@
+name: "Cheesewaffle Blue"
+source:
+  marketplace_id: "Cheesewaffle.cheesewaffle-color-theme"
+  version: "1.2.2"
+  installs: 84
+  author: "Cheesewaffle"
+  repo: "https://github.com/aldenluthfi/cheesecolortheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Cheesewaffle.cheesewaffle-color-theme"
+colors:
+  bg: "#18181B"
+  fg: "#FAFAFA"
+  black: "#000000"
+  red: "#DC2625"
+  green: "#65A30C"
+  yellow: "#EBB305"
+  blue: "#1C4ED8"
+  magenta: "#C125D3"
+  cyan: "#0A91B1"
+  white: "#D4D4D8"
+  brightBlack: "#3F3F46"
+  brightRed: "#F87171"
+  brightGreen: "#A3E635"
+  brightYellow: "#FFEF8A"
+  brightBlue: "#3C82F6"
+  brightMagenta: "#E979F9"
+  brightCyan: "#24D3EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103.4
+    black: 0
+    red: 29
+    green: 43.1
+    yellow: 65.1
+    blue: 18.6
+    magenta: 29.6
+    cyan: 36.7
+    white: 79.5
+    brightBlack: 0
+    brightRed: 48
+    brightGreen: 78.6
+    brightYellow: 95.2
+    brightBlue: 36.7
+    brightMagenta: 53.1
+    brightCyan: 68.5
+    brightWhite: 106.7

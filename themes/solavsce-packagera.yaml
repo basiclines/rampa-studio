@@ -1,0 +1,49 @@
+name: "Solavsce packagera"
+source:
+  marketplace_id: "JaydenDancer.solara"
+  version: "0.0.4"
+  installs: 139
+  author: "Jayden Dancer"
+  repo: "https://github.com/Official-Phantom/Solara-VSTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JaydenDancer.solara"
+colors:
+  bg: "#24171E"
+  fg: "#7B7D85"
+  black: "#332026"
+  red: "#C4374A"
+  green: "#E8D2D2"
+  yellow: "#7B7D85"
+  blue: "#E8D2D2"
+  magenta: "#C6637D"
+  cyan: "#E8D2D2"
+  white: "#B88993"
+  brightBlack: "#444A5E"
+  brightRed: "#C4374A"
+  brightGreen: "#E8D2D2"
+  brightYellow: "#7B7D85"
+  brightBlue: "#E8D2D2"
+  brightMagenta: "#C6637D"
+  brightCyan: "#E8D2D2"
+  brightWhite: "#B88993"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 346
+  contrast:
+    fg: 32
+    black: 0
+    red: 25.3
+    green: 80.8
+    yellow: 32
+    blue: 80.8
+    magenta: 34.8
+    cyan: 80.8
+    white: 43.9
+    brightBlack: 10.7
+    brightRed: 25.3
+    brightGreen: 80.8
+    brightYellow: 32
+    brightBlue: 80.8
+    brightMagenta: 34.8
+    brightCyan: 80.8
+    brightWhite: 43.9

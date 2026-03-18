@@ -1,0 +1,49 @@
+name: "The Occult <-->"
+source:
+  marketplace_id: "yubiDev.yoobdev"
+  version: "0.0.7"
+  installs: 195
+  author: "yoobdev"
+  repo: "https://github.com/kimkom369/VSCode-Theme-Pack"
+  url: "https://marketplace.visualstudio.com/items?itemName=yubiDev.yoobdev"
+colors:
+  bg: "#5A189A"
+  fg: "#9D4EDD"
+  black: "#FF6D00"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#FF6D00"
+  magenta: "#BC3FBC"
+  cyan: "#FF6D00"
+  white: "#E5E5E5"
+  brightBlack: "#FF6D00"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#FF6D00"
+  brightMagenta: "#D670D6"
+  brightCyan: "#FF6D00"
+  brightWhite: "#FF6D00"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 300
+  contrast:
+    fg: 19.4
+    black: 37.6
+    red: 16.7
+    green: 43
+    yellow: 75.6
+    blue: 37.6
+    magenta: 19.8
+    cyan: 37.6
+    white: 80
+    brightBlack: 37.6
+    brightRed: 28.6
+    brightGreen: 53.6
+    brightYellow: 85.7
+    brightBlue: 37.6
+    brightMagenta: 35.4
+    brightCyan: 37.6
+    brightWhite: 37.6

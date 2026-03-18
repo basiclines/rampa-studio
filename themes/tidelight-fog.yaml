@@ -1,0 +1,49 @@
+name: "Tidelight Fog"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+colors:
+  bg: "#1F2937"
+  fg: "#E5E7EB"
+  black: "#111827"
+  red: "#FB7185"
+  green: "#86EFAC"
+  yellow: "#FDBA74"
+  blue: "#60A5FA"
+  magenta: "#F0ABFC"
+  cyan: "#67E8F9"
+  white: "#F8FAFC"
+  brightBlack: "#111827"
+  brightRed: "#FB7185"
+  brightGreen: "#86EFAC"
+  brightYellow: "#FDBA74"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#F0ABFC"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 257
+  contrast:
+    fg: 88.7
+    black: 0
+    red: 46.7
+    green: 80.6
+    yellow: 69.5
+    blue: 48.8
+    magenta: 67.1
+    cyan: 78.6
+    white: 100.8
+    brightBlack: 0
+    brightRed: 46.7
+    brightGreen: 80.6
+    brightYellow: 69.5
+    brightBlue: 48.8
+    brightMagenta: 67.1
+    brightCyan: 78.6
+    brightWhite: 100.8

@@ -1,0 +1,49 @@
+name: "Dark Ink Lighter"
+source:
+  marketplace_id: "DarkMannn.dark-ink-theme"
+  version: "0.0.9"
+  installs: 412
+  author: "DarkMannn"
+  repo: "https://github.com/DarkMannn/dark-ink-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkMannn.dark-ink-theme"
+colors:
+  bg: "#FDFDFD"
+  fg: "#3D5981"
+  black: "#000000"
+  red: "#FF8080"
+  green: "#33D057"
+  yellow: "#CDCD74"
+  blue: "#3D5981"
+  magenta: "#E557F9"
+  cyan: "#50D2F7"
+  white: "#FDFDFD"
+  brightBlack: "#7D7D7D"
+  brightRed: "#E64444"
+  brightGreen: "#67FF8A"
+  brightYellow: "#D9CE9B"
+  brightBlue: "#3F79CB"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 83.4
+    black: 104.8
+    red: 46.1
+    green: 37.9
+    yellow: 28.1
+    blue: 83.4
+    magenta: 54.2
+    cyan: 30.8
+    white: 0
+    brightBlack: 67.1
+    brightRed: 64.7
+    brightGreen: 12.9
+    brightYellow: 25.3
+    brightBlue: 68.8
+    brightMagenta: 42.9
+    brightCyan: 10.6
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "8x8 - Darker"
+source:
+  marketplace_id: "keepflying.csr-blue"
+  version: "0.0.22"
+  installs: 180
+  author: "keepflying"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=keepflying.csr-blue"
+colors:
+  bg: "#E6E6E6"
+  fg: "#000000"
+  black: "#29343D"
+  red: "#F8961E"
+  green: "#8EFF38"
+  yellow: "#F3722C"
+  blue: "#577590"
+  magenta: "#F9C74F"
+  cyan: "#43AA8B"
+  white: "#555555"
+  brightBlack: "#394956"
+  brightRed: "#F8961E"
+  brightGreen: "#90BE6D"
+  brightYellow: "#F3722C"
+  brightBlue: "#577590"
+  brightMagenta: "#F9C74F"
+  brightCyan: "#43AA8B"
+  brightWhite: "#ABABAB"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 91.3
+    black: 84
+    red: 29
+    green: 0
+    yellow: 39.8
+    blue: 58.7
+    magenta: 11.4
+    cyan: 39.6
+    white: 71.2
+    brightBlack: 76.7
+    brightRed: 29
+    brightGreen: 27.4
+    brightYellow: 39.8
+    brightBlue: 58.7
+    brightMagenta: 11.4
+    brightCyan: 39.6
+    brightWhite: 30.5

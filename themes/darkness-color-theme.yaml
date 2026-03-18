@@ -1,0 +1,49 @@
+name: "Darkness-color-theme"
+source:
+  marketplace_id: "digitalspacestudio.digitalspacestdio-darkness"
+  version: "0.0.7"
+  installs: 135
+  author: "digitalspacestudio"
+  repo: "https://github.com/digitalspacestdio/vscode-darkness-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=digitalspacestudio.digitalspacestdio-darkness"
+colors:
+  bg: "#1A1919"
+  fg: "#FFFFFF"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 106.6
+    black: 0
+    red: 24.4
+    green: 52.8
+    yellow: 57.4
+    blue: 34.4
+    magenta: 32
+    cyan: 50.2
+    white: 88.2
+    brightBlack: 21.8
+    brightRed: 37.1
+    brightGreen: 76.7
+    brightYellow: 83.7
+    brightBlue: 49.6
+    brightMagenta: 46.3
+    brightCyan: 73.2
+    brightWhite: 101.7

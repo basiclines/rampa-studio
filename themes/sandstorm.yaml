@@ -1,0 +1,49 @@
+name: "SandStorm"
+source:
+  marketplace_id: "parano.theme-sandstorm"
+  version: "0.3.8"
+  installs: 429
+  author: "parano"
+  repo: "https://github.com/parsa-ra/SandStorm-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=parano.theme-sandstorm"
+colors:
+  bg: "#A3987A"
+  fg: "#212917"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#304022"
+  yellow: "#9C7600"
+  blue: "#073D00"
+  magenta: "#D33682"
+  cyan: "#275000"
+  white: "#9B8C66"
+  brightBlack: "#002B36"
+  brightRed: "#CB4B16"
+  brightGreen: "#2A1111"
+  brightYellow: "#212917"
+  brightBlue: "#405759"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#382424"
+  brightWhite: "#9B8C66"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 90
+  contrast:
+    fg: 45.1
+    black: 42.1
+    red: 13.7
+    green: 38.9
+    yellow: 11.9
+    blue: 41.1
+    magenta: 13.4
+    cyan: 34.6
+    white: 0
+    brightBlack: 44.8
+    brightRed: 14.2
+    brightGreen: 47.5
+    brightYellow: 45.1
+    brightBlue: 29.9
+    brightMagenta: 13.4
+    brightCyan: 44.4
+    brightWhite: 0

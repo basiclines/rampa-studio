@@ -1,0 +1,49 @@
+name: "Yaruna Nova"
+source:
+  marketplace_id: "daniel-duc.daniel-yaruna-theme"
+  version: "1.3.2"
+  installs: 254
+  author: "Daniel Duc"
+  repo: "https://github.com/binhduc1211/daniel-yaruna-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniel-duc.daniel-yaruna-theme"
+colors:
+  bg: "#242424"
+  fg: "#F6F5F4"
+  black: "#2D2D2D"
+  red: "#FF5555"
+  green: "#3DD68D"
+  yellow: "#8BE9FD"
+  blue: "#62A0EA"
+  magenta: "#FFB86C"
+  cyan: "#D8D7D6"
+  white: "#F6F5F4"
+  brightBlack: "#7C7A75"
+  brightRed: "#FF5555"
+  brightGreen: "#3DD68D"
+  brightYellow: "#FFB86C"
+  brightBlue: "#FF6E40"
+  brightMagenta: "#FFB86C"
+  brightCyan: "#D8D7D6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.6
+    black: 0
+    red: 41.6
+    green: 64.7
+    yellow: 82.2
+    blue: 46.7
+    magenta: 69.7
+    cyan: 79.7
+    white: 98.6
+    brightBlack: 29.2
+    brightRed: 41.6
+    brightGreen: 64.7
+    brightYellow: 69.7
+    brightBlue: 46.3
+    brightMagenta: 69.7
+    brightCyan: 79.7
+    brightWhite: 105.1

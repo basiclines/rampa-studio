@@ -1,0 +1,49 @@
+name: "VibeColors Light"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+colors:
+  bg: "#FFFFFF"
+  fg: "#24292F"
+  black: "#586069"
+  red: "#D73A49"
+  green: "#28A745"
+  yellow: "#FFD33D"
+  blue: "#0366D6"
+  magenta: "#EA4AAA"
+  cyan: "#17A2B8"
+  white: "#24292F"
+  brightBlack: "#8C92AC"
+  brightRed: "#D73A49"
+  brightGreen: "#28A745"
+  brightYellow: "#FFD33D"
+  brightBlue: "#0366D6"
+  brightMagenta: "#EA4AAA"
+  brightCyan: "#17A2B8"
+  brightWhite: "#24292F"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 101.5
+    black: 81.7
+    red: 70.4
+    green: 57.9
+    yellow: 20.6
+    blue: 76.2
+    magenta: 61.1
+    cyan: 56.8
+    white: 101.5
+    brightBlack: 57.7
+    brightRed: 70.4
+    brightGreen: 57.9
+    brightYellow: 20.6
+    brightBlue: 76.2
+    brightMagenta: 61.1
+    brightCyan: 56.8
+    brightWhite: 101.5

@@ -1,0 +1,49 @@
+name: "Dimmed"
+source:
+  marketplace_id: "shoizz.dimmed"
+  version: "0.0.3"
+  installs: 4853
+  author: "denis"
+  repo: "https://github.com/Shoizz/vscode-theme-dimmed"
+  url: "https://marketplace.visualstudio.com/items?itemName=shoizz.dimmed"
+colors:
+  bg: "#1D2021"
+  fg: "#FFFFFF"
+  black: "#3C3836"
+  red: "#F44336"
+  green: "#98971A"
+  yellow: "#FFDE03"
+  blue: "#2196F3"
+  magenta: "#FF0266"
+  cyan: "#00E676"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#00E676"
+  brightMagenta: "#DF6495"
+  brightCyan: "#8EC07C"
+  brightWhite: "#C2C3C3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 105.8
+    black: 0
+    red: 36.7
+    green: 41.9
+    yellow: 85.3
+    blue: 42
+    magenta: 36.5
+    cyan: 72.3
+    white: 46.2
+    brightBlack: 35.3
+    brightRed: 39.1
+    brightGreen: 60.1
+    brightYellow: 70.8
+    brightBlue: 72.3
+    brightMagenta: 40.1
+    brightCyan: 59.1
+    brightWhite: 68.2

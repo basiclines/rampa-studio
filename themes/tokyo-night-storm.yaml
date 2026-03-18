@@ -1,0 +1,49 @@
+name: "Tokyo Night Storm"
+source:
+  marketplace_id: "PojokCode.pcode-theme"
+  version: "0.0.1038"
+  installs: 1397
+  author: "Pojok Code"
+  repo: "https://github.com/pojokcodeid/pcode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PojokCode.pcode-theme"
+colors:
+  bg: "#24283B"
+  fg: "#A9B1D6"
+  black: "#414868"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#7982A9"
+  brightBlack: "#414868"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#A9B1D6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  contrast:
+    fg: 57.2
+    black: 8.2
+    red: 47.3
+    green: 70.1
+    yellow: 60.1
+    blue: 49
+    magenta: 52.9
+    cyan: 68.4
+    white: 32.8
+    brightBlack: 8.2
+    brightRed: 47.3
+    brightGreen: 70.1
+    brightYellow: 60.1
+    brightBlue: 49
+    brightMagenta: 52.9
+    brightCyan: 68.4
+    brightWhite: 57.2

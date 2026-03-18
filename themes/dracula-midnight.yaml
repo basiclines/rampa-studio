@@ -1,0 +1,49 @@
+name: "Dracula Midnight"
+source:
+  marketplace_id: "realeinar.theme-dracula-midnight"
+  version: "1.0.0"
+  installs: 673
+  author: "Einar"
+  repo: "https://github.com/realeinar/dracula-midnight"
+  url: "https://marketplace.visualstudio.com/items?itemName=realeinar.theme-dracula-midnight"
+colors:
+  bg: "#242530"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 281
+  contrast:
+    fg: 99.9
+    black: 0
+    red: 41.4
+    green: 82.8
+    yellow: 96.5
+    blue: 51.6
+    magenta: 52.5
+    cyan: 81.9
+    white: 99.9
+    brightBlack: 26
+    brightRed: 46.8
+    brightGreen: 87
+    brightYellow: 101.5
+    brightBlue: 64.1
+    brightMagenta: 60.6
+    brightCyan: 94.7
+    brightWhite: 104.8

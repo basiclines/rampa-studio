@@ -1,0 +1,49 @@
+name: "Dayfox"
+source:
+  marketplace_id: "michalpopek.dayfox-vsc"
+  version: "0.1.0"
+  installs: 1936
+  author: "Michał Popek"
+  repo: "https://github.com/michalpopek/dayfox-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=michalpopek.dayfox-vsc"
+colors:
+  bg: "#F6F2EE"
+  fg: "#3D2B5A"
+  black: "#352C24"
+  red: "#A5222F"
+  green: "#396847"
+  yellow: "#AC5402"
+  blue: "#2848A9"
+  magenta: "#6E33CE"
+  cyan: "#287980"
+  white: "#F2E9E1"
+  brightBlack: "#534C45"
+  brightRed: "#B3434E"
+  brightGreen: "#577F63"
+  brightYellow: "#B86E28"
+  brightBlue: "#4863B6"
+  brightMagenta: "#8452D5"
+  brightCyan: "#488D93"
+  brightWhite: "#F4ECE6"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 90.7
+    black: 92.8
+    red: 76.5
+    green: 74.6
+    yellow: 67.9
+    blue: 80.2
+    magenta: 75.6
+    cyan: 67.4
+    white: 0
+    brightBlack: 81.7
+    brightRed: 69.2
+    brightGreen: 64.1
+    brightYellow: 59.2
+    brightBlue: 70.5
+    brightMagenta: 67.1
+    brightCyan: 58.1
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "intellij-light-classic-color-theme"
+source:
+  marketplace_id: "zerodind.familiar-java-themes"
+  version: "0.1.7"
+  installs: 58649
+  author: "0dinD"
+  repo: "https://gitlab.com/zerodind/familiar-java-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=zerodind.familiar-java-themes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD0000"
+  green: "#00CD00"
+  yellow: "#C4A000"
+  blue: "#0000EE"
+  magenta: "#CD00CD"
+  cyan: "#00CCCC"
+  white: "#AAAAAA"
+  brightBlack: "#555555"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#EAEA00"
+  brightBlue: "#5C5CFF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 76.3
+    green: 41.4
+    yellow: 49
+    blue: 88.1
+    magenta: 70
+    cyan: 38
+    white: 45.8
+    brightBlack: 85.9
+    brightRed: 64.1
+    brightGreen: 17.1
+    brightYellow: 14.2
+    brightBlue: 72.3
+    brightMagenta: 55.6
+    brightCyan: 11.8
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Timir"
+source:
+  marketplace_id: "ShubhamThorat.Timir"
+  version: "2.6.1"
+  installs: 192
+  author: "Shubham Thorat"
+  repo: "https://github.com/Biotechnologyguy/Timir-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ShubhamThorat.Timir"
+colors:
+  bg: "#1D2433"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#EF6B73"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#5EC5DA"
+  magenta: "#C3A6FF"
+  cyan: "#5EC5DA"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFCC66"
+  brightBlue: "#5EC5DA"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5EC5DA"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 265
+  contrast:
+    fg: 53.3
+    black: 0
+    red: 43.1
+    green: 80.2
+    yellow: 77.5
+    blue: 61
+    magenta: 59.6
+    cyan: 61
+    white: 53.3
+    brightBlack: 9.4
+    brightRed: 43.1
+    brightGreen: 80.2
+    brightYellow: 77.5
+    brightBlue: 61
+    brightMagenta: 59.6
+    brightCyan: 61
+    brightWhite: 53.3

@@ -1,0 +1,49 @@
+name: "Rubecula"
+source:
+  marketplace_id: "andreasbackx.rubecula"
+  version: "2.0.8"
+  installs: 646
+  author: "Andreas Backx"
+  repo: "https://github.com/Rubecula/VS-Code"
+  url: "https://marketplace.visualstudio.com/items?itemName=andreasbackx.rubecula"
+colors:
+  bg: "#1C1C1C"
+  fg: "#CECECE"
+  black: "#6E6E6E"
+  red: "#E52E71"
+  green: "#9CCC3D"
+  yellow: "#CCC47A"
+  blue: "#6CC7D9"
+  magenta: "#A082D9"
+  cyan: "#6CC7D9"
+  white: "#E5E5E5"
+  brightBlack: "#6E6E6E"
+  brightRed: "#E52E71"
+  brightGreen: "#9CCC3D"
+  brightYellow: "#CCC47A"
+  brightBlue: "#6CC7D9"
+  brightMagenta: "#A082D9"
+  brightCyan: "#6CC7D9"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 75.3
+    black: 24.9
+    red: 32.5
+    green: 65.2
+    yellow: 68
+    blue: 63.7
+    magenta: 41.8
+    cyan: 63.7
+    white: 89.4
+    brightBlack: 24.9
+    brightRed: 32.5
+    brightGreen: 65.2
+    brightYellow: 68
+    brightBlue: 63.7
+    brightMagenta: 41.8
+    brightCyan: 63.7
+    brightWhite: 89.4

@@ -1,0 +1,49 @@
+name: "Sypher"
+source:
+  marketplace_id: "CodingInSylens.sypher-visual-studio-code"
+  version: "0.0.1"
+  installs: 125
+  author: "CodingInSylens"
+  repo: "https://github.com/Sylenss/Sypher"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodingInSylens.sypher-visual-studio-code"
+colors:
+  bg: "#1B2229"
+  fg: "#B8934E"
+  black: "#0E0F11"
+  red: "#AE6C61"
+  green: "#3C6B64"
+  yellow: "#999166"
+  blue: "#365991"
+  magenta: "#3D4873"
+  cyan: "#4B8088"
+  white: "#9C9D9D"
+  brightBlack: "#58595F"
+  brightRed: "#D2836E"
+  brightGreen: "#499A80"
+  brightYellow: "#A77822"
+  brightBlue: "#619BD1"
+  brightMagenta: "#515CAD"
+  brightCyan: "#B0E3DC"
+  brightWhite: "#DDDCD3"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 249
+  contrast:
+    fg: 44.7
+    black: 0
+    red: 31.4
+    green: 19.5
+    yellow: 40.4
+    blue: 15.6
+    magenta: 9.8
+    cyan: 28.7
+    white: 46.9
+    brightBlack: 15.5
+    brightRed: 44.2
+    brightGreen: 38.3
+    brightYellow: 32.9
+    brightBlue: 43.6
+    brightMagenta: 19.6
+    brightCyan: 81.2
+    brightWhite: 82.8

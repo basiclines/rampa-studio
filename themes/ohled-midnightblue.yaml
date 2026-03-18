@@ -1,0 +1,49 @@
+name: "OhLED_MidnightBlue"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#717199"
+  black: "#717199"
+  red: "#535370"
+  green: "#5A5A7A"
+  yellow: "#44445C"
+  blue: "#69698F"
+  magenta: "#626285"
+  cyan: "#4B4B66"
+  white: "#3C3C52"
+  brightBlack: "#717199"
+  brightRed: "#535370"
+  brightGreen: "#5A5A7A"
+  brightYellow: "#44445C"
+  brightBlue: "#69698F"
+  brightMagenta: "#626285"
+  brightCyan: "#4B4B66"
+  brightWhite: "#3C3C52"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 29.4
+    black: 29.4
+    red: 16.3
+    green: 19.2
+    yellow: 10.6
+    blue: 25.8
+    magenta: 22.7
+    cyan: 13.2
+    white: 7.8
+    brightBlack: 29.4
+    brightRed: 16.3
+    brightGreen: 19.2
+    brightYellow: 10.6
+    brightBlue: 25.8
+    brightMagenta: 22.7
+    brightCyan: 13.2
+    brightWhite: 7.8

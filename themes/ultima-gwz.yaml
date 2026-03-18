@@ -1,0 +1,49 @@
+name: "Ultima GWZ"
+source:
+  marketplace_id: "guezwhoz-schema.ultima-vscode-theme"
+  version: "2.2.2"
+  installs: 186
+  author: "Egor Lem"
+  repo: "https://github.com/egorlem/ultima.vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=guezwhoz-schema.ultima-vscode-theme"
+colors:
+  bg: "#1D1D1D"
+  fg: "#D9D9D9"
+  black: "#333333"
+  red: "#E85181"
+  green: "#7AD694"
+  yellow: "#B7D074"
+  blue: "#5AA0D6"
+  magenta: "#9A90E0"
+  cyan: "#58D6CE"
+  white: "#D9D9D9"
+  brightBlack: "#808080"
+  brightRed: "#E85181"
+  brightGreen: "#87EDA4"
+  brightYellow: "#AFD7AF"
+  brightBlue: "#64B2ED"
+  brightMagenta: "#A398ED"
+  brightCyan: "#61EDE4"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 81.8
+    black: 0
+    red: 37.9
+    green: 68.7
+    yellow: 70.5
+    blue: 46.1
+    magenta: 46
+    cyan: 69
+    white: 81.8
+    brightBlack: 33.1
+    brightRed: 37.9
+    brightGreen: 81.2
+    brightYellow: 74.4
+    brightBlue: 55.2
+    brightMagenta: 50.6
+    brightCyan: 81.6
+    brightWhite: 94.4

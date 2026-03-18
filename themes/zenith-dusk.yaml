@@ -1,0 +1,49 @@
+name: "Zenith Dusk"
+source:
+  marketplace_id: "TheSamonide.zenith-theme"
+  version: "6.0.3"
+  installs: 108
+  author: "Samonide"
+  repo: "https://github.com/samonide/zenith-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheSamonide.zenith-theme"
+colors:
+  bg: "#1E1E2E"
+  fg: "#E0DFE8"
+  black: "#1E1E2E"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#BBA6F7"
+  cyan: "#94E2D5"
+  white: "#E0DFE8"
+  brightBlack: "#45475A"
+  brightRed: "#F38BA8"
+  brightGreen: "#B5EDB5"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#7A9FF5"
+  brightMagenta: "#A58EE5"
+  brightCyan: "#91D7E3"
+  brightWhite: "#E0DFE8"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 284
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 54.7
+    green: 78.3
+    yellow: 88.4
+    blue: 59.1
+    magenta: 58.7
+    cyan: 78.2
+    white: 85.8
+    brightBlack: 9.3
+    brightRed: 54.7
+    brightGreen: 85.2
+    brightYellow: 88.4
+    brightBlue: 49.4
+    brightMagenta: 46.5
+    brightCyan: 73.5
+    brightWhite: 85.8

@@ -1,0 +1,49 @@
+name: "kPurple"
+source:
+  marketplace_id: "ksckaan1.kpurple"
+  version: "1.0.0"
+  installs: 193
+  author: "Kaan Kuscu"
+  repo: "https://github.com/ksckaan1/kpurple-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ksckaan1.kpurple"
+colors:
+  bg: "#2C165C"
+  fg: "#FFFFFF"
+  black: "#001114"
+  red: "#EE3A54"
+  green: "#0DBC79"
+  yellow: "#FFFF54"
+  blue: "#54A5FF"
+  magenta: "#BC3FBC"
+  cyan: "#59DEFF"
+  white: "#FFFFFF"
+  brightBlack: "#5529B5"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF98"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0079FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00CDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 291
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 33.3
+    green: 50.6
+    yellow: 99.7
+    blue: 48.8
+    magenta: 27.4
+    cyan: 73.7
+    white: 104.5
+    brightBlack: 9.6
+    brightRed: 34.2
+    brightGreen: 84.8
+    brightYellow: 99.4
+    brightBlue: 31.5
+    brightMagenta: 42.9
+    brightCyan: 64.3
+    brightWhite: 104.5

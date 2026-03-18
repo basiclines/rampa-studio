@@ -1,0 +1,49 @@
+name: "Aloe"
+source:
+  marketplace_id: "Lab829.aloe"
+  version: "0.0.5"
+  installs: 98
+  author: "Lab829"
+  repo: "https://github.com/lab829/aloe"
+  url: "https://marketplace.visualstudio.com/items?itemName=Lab829.aloe"
+colors:
+  bg: "#1A1D1A"
+  fg: "#D9EBE0"
+  black: "#1F221F"
+  red: "#F5C97A"
+  green: "#A8E6A3"
+  yellow: "#F5E67A"
+  blue: "#7DC3E8"
+  magenta: "#D99CE8"
+  cyan: "#7DD3C0"
+  white: "#D9EBE0"
+  brightBlack: "#4A6850"
+  brightRed: "#F5C97A"
+  brightGreen: "#A8E6A3"
+  brightYellow: "#F5E67A"
+  brightBlue: "#7DC3E8"
+  brightMagenta: "#D99CE8"
+  brightCyan: "#7DD3C0"
+  brightWhite: "#D9EBE0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 90.4
+    black: 0
+    red: 76.1
+    green: 80.5
+    yellow: 88.7
+    blue: 63.8
+    magenta: 59
+    cyan: 69.1
+    white: 90.4
+    brightBlack: 19.4
+    brightRed: 76.1
+    brightGreen: 80.5
+    brightYellow: 88.7
+    brightBlue: 63.8
+    brightMagenta: 59
+    brightCyan: 69.1
+    brightWhite: 90.4

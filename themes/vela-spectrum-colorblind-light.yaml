@@ -1,0 +1,49 @@
+name: "Vela Spectrum Colorblind Light"
+source:
+  marketplace_id: "telianedward.vela-spectrum"
+  version: "0.3.7"
+  installs: 75
+  author: "Vela Inc"
+  repo: "https://github.com/Telianedward/VelaSpectrum"
+  url: "https://marketplace.visualstudio.com/items?itemName=telianedward.vela-spectrum"
+colors:
+  bg: "#F6F8FA"
+  fg: "#000000"
+  black: "#111111"
+  red: "#723700"
+  green: "#007F5E"
+  yellow: "#A97700"
+  blue: "#0071F5"
+  magenta: "#8E5700"
+  cyan: "#2E77AE"
+  white: "#F6F8FA"
+  brightBlack: "#3D444D"
+  brightRed: "#915500"
+  brightGreen: "#009E7A"
+  brightYellow: "#C89700"
+  brightBlue: "#0092FF"
+  brightMagenta: "#AD7500"
+  brightCyan: "#4E96CF"
+  brightWhite: "#F6F8FA"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 101.7
+    black: 101
+    red: 86.6
+    green: 69.7
+    yellow: 62.2
+    blue: 65.9
+    magenta: 75.2
+    cyan: 68.7
+    white: 0
+    brightBlack: 88.5
+    brightRed: 75.2
+    brightGreen: 56.5
+    brightYellow: 47.2
+    brightBlue: 54.1
+    brightMagenta: 62.2
+    brightCyan: 54.5
+    brightWhite: 0

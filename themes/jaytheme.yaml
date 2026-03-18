@@ -1,0 +1,49 @@
+name: "jaytheme"
+source:
+  marketplace_id: "Jaywxl.jaytheme"
+  version: "0.0.6"
+  installs: 53
+  author: "Jaywxl"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Jaywxl.jaytheme"
+colors:
+  bg: "#06272E"
+  fg: "#FFB5B5"
+  black: "#CB4646"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#2C2C14"
+  blue: "#2472C8"
+  magenta: "#5687FB"
+  cyan: "#11A8CD"
+  white: "#CD7070"
+  brightBlack: "#FF5353"
+  brightRed: "#DB7878"
+  brightGreen: "#23D18B"
+  brightYellow: "#7D7D27"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#AB5252"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 215
+  contrast:
+    fg: 70.6
+    black: 27.5
+    red: 25
+    green: 51.3
+    yellow: 0
+    blue: 25.7
+    magenta: 38.3
+    cyan: 45.8
+    white: 37.6
+    brightBlack: 41.3
+    brightRed: 42.5
+    brightGreen: 61.8
+    brightYellow: 28.9
+    brightBlue: 38.3
+    brightMagenta: 43.6
+    brightCyan: 53.7
+    brightWhite: 23.8

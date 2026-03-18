@@ -1,0 +1,49 @@
+name: "Vaporizer Frozen Dark "
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35736
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+colors:
+  bg: "#000000"
+  fg: "#1E92A5"
+  black: "#53839F"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#C2C2C2"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 37.7
+    black: 33.6
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 28.4
+    magenta: 30.8
+    cyan: 48.6
+    white: 91
+    brightBlack: 69.8
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 56.4
+    brightWhite: 91

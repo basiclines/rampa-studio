@@ -1,0 +1,49 @@
+name: "turnip-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#080809"
+  fg: "#EDE0CE"
+  black: "#141416"
+  red: "#BA0E2E"
+  green: "#92B55F"
+  yellow: "#487D76"
+  blue: "#E8DA5E"
+  magenta: "#92B55F"
+  cyan: "#487D76"
+  white: "#F4ECE1"
+  brightBlack: "#38383F"
+  brightRed: "#F03E5F"
+  brightGreen: "#C1D5A5"
+  brightYellow: "#79B2AA"
+  brightBlue: "#F5EFB7"
+  brightMagenta: "#C1D5A5"
+  brightCyan: "#79B2AA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.8
+    black: 0
+    red: 21.4
+    green: 56
+    yellow: 29.1
+    blue: 82.5
+    magenta: 56
+    cyan: 29.1
+    white: 96
+    brightBlack: 0
+    brightRed: 37.7
+    brightGreen: 76.7
+    brightYellow: 54.8
+    brightBlue: 96
+    brightMagenta: 76.7
+    brightCyan: 54.8
+    brightWhite: 107.8

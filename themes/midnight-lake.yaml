@@ -1,0 +1,49 @@
+name: "Midnight Lake"
+source:
+  marketplace_id: "Chiramium.midnightlake"
+  version: "0.1.0"
+  installs: 0
+  author: "Chiramium"
+  repo: "https://github.com/Chiramium/Midnight-Lake"
+  url: "https://marketplace.visualstudio.com/items?itemName=Chiramium.midnightlake"
+colors:
+  bg: "#1E1E1E"
+  fg: "#DBDBDB"
+  black: "#000000"
+  red: "#D92525"
+  green: "#5DB843"
+  yellow: "#E0BB2A"
+  blue: "#2E87E6"
+  magenta: "#CD4BE0"
+  cyan: "#2EB1BC"
+  white: "#DBDBDB"
+  brightBlack: "#666666"
+  brightRed: "#D55252"
+  brightGreen: "#79B868"
+  brightYellow: "#E0C351"
+  brightBlue: "#589EE8"
+  brightMagenta: "#D87AE6"
+  brightCyan: "#5DCAD3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 82.9
+    black: 0
+    red: 27.5
+    green: 51.4
+    yellow: 65.9
+    blue: 36
+    magenta: 36.2
+    cyan: 50
+    white: 82.9
+    brightBlack: 21.2
+    brightRed: 32.7
+    brightGreen: 53.7
+    brightYellow: 69.5
+    brightBlue: 46.2
+    brightMagenta: 48.4
+    brightCyan: 63.8
+    brightWhite: 106

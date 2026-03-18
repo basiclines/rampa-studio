@@ -1,0 +1,49 @@
+name: "Solarized Monokai (dark)"
+source:
+  marketplace_id: "linjing.solarized-dark-monokai"
+  version: "1.0.0"
+  installs: 5
+  author: "linjing"
+  repo: "https://github.com/quickmove/solarized-dark-monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=linjing.solarized-dark-monokai"
+colors:
+  bg: "#002732"
+  fg: "#839496"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#002B36"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 221
+  contrast:
+    fg: 40.2
+    black: 0
+    red: 28.3
+    green: 39.9
+    yellow: 39.9
+    blue: 34.9
+    magenta: 28.6
+    cyan: 40.6
+    white: 90.1
+    brightBlack: 0
+    brightRed: 27.8
+    brightGreen: 22.1
+    brightYellow: 27.9
+    brightBlue: 40.2
+    brightMagenta: 28.6
+    brightCyan: 47.1
+    brightWhite: 99.3

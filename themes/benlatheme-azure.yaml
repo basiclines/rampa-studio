@@ -1,0 +1,49 @@
+name: "BenLaTheme Azure"
+source:
+  marketplace_id: "BenLaTheme.benlatheme"
+  version: "0.0.1"
+  installs: 83
+  author: "BenLaTheme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=BenLaTheme.benlatheme"
+colors:
+  bg: "#080907"
+  fg: "#080907"
+  black: "#080907"
+  red: "#080907"
+  green: "#080907"
+  yellow: "#080907"
+  blue: "#080907"
+  magenta: "#080907"
+  cyan: "#080907"
+  white: "#080907"
+  brightBlack: "#080907"
+  brightRed: "#080907"
+  brightGreen: "#080907"
+  brightYellow: "#080907"
+  brightBlue: "#080907"
+  brightMagenta: "#080907"
+  brightCyan: "#080907"
+  brightWhite: "#080907"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 0
+    black: 0
+    red: 0
+    green: 0
+    yellow: 0
+    blue: 0
+    magenta: 0
+    cyan: 0
+    white: 0
+    brightBlack: 0
+    brightRed: 0
+    brightGreen: 0
+    brightYellow: 0
+    brightBlue: 0
+    brightMagenta: 0
+    brightCyan: 0
+    brightWhite: 0

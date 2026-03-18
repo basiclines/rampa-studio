@@ -1,0 +1,49 @@
+name: "repoman-color-theme"
+source:
+  marketplace_id: "kevinleedrum.repoman"
+  version: "1.0.0"
+  installs: 238
+  author: "Kevin Lee Drum"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=kevinleedrum.repoman"
+colors:
+  bg: "#141817"
+  fg: "#DEE5E3"
+  black: "#262A29"
+  red: "#FF2474"
+  green: "#A6E12D"
+  yellow: "#95F1C0"
+  blue: "#FC961F"
+  magenta: "#AE81FF"
+  cyan: "#64CEE1"
+  white: "#DEE5E3"
+  brightBlack: "#616A67"
+  brightRed: "#FF2474"
+  brightGreen: "#A6E12D"
+  brightYellow: "#95F1C0"
+  brightBlue: "#FC961F"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#64CEE1"
+  brightWhite: "#DEE5E3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 89
+    black: 0
+    red: 38.7
+    green: 76.5
+    yellow: 85.8
+    blue: 58.2
+    magenta: 46.5
+    cyan: 67.4
+    white: 89
+    brightBlack: 22.9
+    brightRed: 38.7
+    brightGreen: 76.5
+    brightYellow: 85.8
+    brightBlue: 58.2
+    brightMagenta: 46.5
+    brightCyan: 67.4
+    brightWhite: 89

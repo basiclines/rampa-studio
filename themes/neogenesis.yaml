@@ -1,0 +1,49 @@
+name: "Neogenesis"
+source:
+  marketplace_id: "Neogenesis.neogenesis-theme"
+  version: "0.0.4"
+  installs: 597
+  author: "Neogenesis"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Neogenesis.neogenesis-theme"
+colors:
+  bg: "#0A0525"
+  fg: "#D6DEEB"
+  black: "#011627"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#8EFF4D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#2CDBE7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 284
+  contrast:
+    fg: 85.9
+    black: 0
+    red: 40
+    green: 68
+    yellow: 90.7
+    blue: 56.6
+    magenta: 54.5
+    cyan: 60.4
+    white: 107.6
+    brightBlack: 16.3
+    brightRed: 40
+    brightGreen: 68
+    brightYellow: 94.4
+    brightBlue: 56.6
+    brightMagenta: 54.5
+    brightCyan: 72.9
+    brightWhite: 107.6

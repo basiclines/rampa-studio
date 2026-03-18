@@ -1,0 +1,49 @@
+name: "Mosmmy"
+source:
+  marketplace_id: "moserjose.mosmmy-theme"
+  version: "1.0.7"
+  installs: 1011
+  author: "Moser Jose"
+  repo: "https://github.com/moser-jose/mosmmy-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-theme"
+colors:
+  bg: "#222222"
+  fg: "#F7F8F3"
+  black: "#363537"
+  red: "#30B4B4"
+  green: "#B6970C"
+  yellow: "#DD8671"
+  blue: "#30B4B4"
+  magenta: "#1C9AA3"
+  cyan: "#30B4B4"
+  white: "#F7F8F3"
+  brightBlack: "#69676C"
+  brightRed: "#30B4B4"
+  brightGreen: "#B6970C"
+  brightYellow: "#DD8671"
+  brightBlue: "#30B4B4"
+  brightMagenta: "#1C9AA3"
+  brightCyan: "#30B4B4"
+  brightWhite: "#F7F8F3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 100.5
+    black: 0
+    red: 50.4
+    green: 45.3
+    yellow: 47
+    blue: 50.4
+    magenta: 38.4
+    cyan: 50.4
+    white: 100.5
+    brightBlack: 21.4
+    brightRed: 50.4
+    brightGreen: 45.3
+    brightYellow: 47
+    brightBlue: 50.4
+    brightMagenta: 38.4
+    brightCyan: 50.4
+    brightWhite: 100.5

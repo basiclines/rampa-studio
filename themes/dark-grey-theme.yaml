@@ -1,0 +1,49 @@
+name: "Dark Grey Theme"
+source:
+  marketplace_id: "DarkMannn.dark-grey-theme"
+  version: "0.0.1"
+  installs: 816
+  author: "DarkMannn"
+  repo: "https://github.com/DarkMannn/dark-grey-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkMannn.dark-grey-theme"
+colors:
+  bg: "#000000"
+  fg: "#808080"
+  black: "#343434"
+  red: "#FF8080"
+  green: "#33D057"
+  yellow: "#EDED88"
+  blue: "#7895C7"
+  magenta: "#E557F9"
+  cyan: "#50D2F7"
+  white: "#DDDDDD"
+  brightBlack: "#808080"
+  brightRed: "#E64444"
+  brightGreen: "#67FF8A"
+  brightYellow: "#D9CE9B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 34.8
+    black: 0
+    red: 54.7
+    green: 63.2
+    yellow: 92.7
+    blue: 44.7
+    magenta: 46.4
+    cyan: 70.7
+    white: 86
+    brightBlack: 34.8
+    brightRed: 35.8
+    brightGreen: 89.7
+    brightYellow: 76.5
+    brightBlue: 63.2
+    brightMagenta: 58.1
+    brightCyan: 92.2
+    brightWhite: 107.9

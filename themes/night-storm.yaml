@@ -1,0 +1,49 @@
+name: "Night Storm"
+source:
+  marketplace_id: "LucianoOliveira.lanno-night-storm"
+  version: "0.0.12"
+  installs: 1501
+  author: "Luciano Oliveira"
+  repo: "https://github.com/luciano-work/night-storm-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LucianoOliveira.lanno-night-storm"
+colors:
+  bg: "#232323"
+  fg: "#B6B6B6"
+  black: "#303030"
+  red: "#6D214F"
+  green: "#73DACA"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#707070"
+  brightBlack: "#303030"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#B6B6B6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 60.3
+    black: 0
+    red: 0
+    green: 71.2
+    yellow: 61.2
+    blue: 50.1
+    magenta: 54
+    cyan: 69.5
+    white: 24.8
+    brightBlack: 0
+    brightRed: 48.3
+    brightGreen: 71.2
+    brightYellow: 61.2
+    brightBlue: 50.1
+    brightMagenta: 54
+    brightCyan: 69.5
+    brightWhite: 60.3

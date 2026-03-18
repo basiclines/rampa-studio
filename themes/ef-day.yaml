@@ -1,0 +1,49 @@
+name: "Ef Day"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#FFF5EA"
+  fg: "#584141"
+  black: "#584141"
+  red: "#BA2D2F"
+  green: "#007A0A"
+  yellow: "#A45A22"
+  blue: "#375CC6"
+  magenta: "#CA3E54"
+  cyan: "#3F60AF"
+  white: "#F2E9DB"
+  brightBlack: "#63728F"
+  brightRed: "#CE3F00"
+  brightGreen: "#5F7200"
+  brightYellow: "#B75515"
+  brightBlue: "#5F5FDF"
+  brightMagenta: "#CB2F80"
+  brightCyan: "#3F6FAF"
+  brightWhite: "#FFF5EA"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 86.4
+    black: 86.4
+    red: 73.4
+    green: 71.8
+    yellow: 70.1
+    blue: 74.3
+    magenta: 67.4
+    cyan: 74.6
+    white: 0
+    brightBlack: 68.5
+    brightRed: 67.2
+    brightGreen: 71.6
+    brightYellow: 67.9
+    brightBlue: 69.1
+    brightMagenta: 67.6
+    brightCyan: 69.9
+    brightWhite: 0

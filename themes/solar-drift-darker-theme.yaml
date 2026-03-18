@@ -1,0 +1,49 @@
+name: "Solar Drift Darker Theme"
+source:
+  marketplace_id: "JamesGulland.solar-drift-dark-theme"
+  version: "2.6.0"
+  installs: 85
+  author: "James Gulland"
+  repo: "https://github.com/james-gulland/solar-drift-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.solar-drift-dark-theme"
+colors:
+  bg: "#23272E"
+  fg: "#7F8BAD"
+  black: "#23272E"
+  red: "#DA2A07"
+  green: "#5DE4C7"
+  yellow: "#FFCB6B"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#E1DEE3"
+  brightBlack: "#7F8BAD"
+  brightRed: "#DA2A07"
+  brightGreen: "#5DE4C7"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#98D1EF"
+  brightMagenta: "#F087BD"
+  brightCyan: "#98D1EF"
+  brightWhite: "#E1DEE3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 37.1
+    black: 0
+    red: 26.6
+    green: 74.2
+    yellow: 76.7
+    blue: 76
+    magenta: 52.7
+    cyan: 76
+    white: 84
+    brightBlack: 37.1
+    brightRed: 26.6
+    brightGreen: 74.2
+    brightYellow: 76.7
+    brightBlue: 70.8
+    brightMagenta: 52.7
+    brightCyan: 70.8
+    brightWhite: 84

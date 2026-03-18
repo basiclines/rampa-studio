@@ -1,0 +1,49 @@
+name: "Kanamin dark"
+source:
+  marketplace_id: "vladoo.kanamin-theme"
+  version: "2.0.8"
+  installs: 255
+  author: "vladoo"
+  repo: "https://github.com/vlaadoo/kanamin-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=vladoo.kanamin-theme"
+colors:
+  bg: "#121417"
+  fg: "#B0B0BA"
+  black: "#1F1F28"
+  red: "#E82424"
+  green: "#76946A"
+  yellow: "#FF9E3B"
+  blue: "#658594"
+  magenta: "#957FB8"
+  cyan: "#9CABCA"
+  white: "#DCD7BA"
+  brightBlack: "#2A2A37"
+  brightRed: "#FF5D62"
+  brightGreen: "#98BB6C"
+  brightYellow: "#E6C384"
+  brightBlue: "#7FB4CA"
+  brightMagenta: "#D27E99"
+  brightCyan: "#A3D4D5"
+  brightWhite: "#DCD7BA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 59.2
+    black: 0
+    red: 32.1
+    green: 39.7
+    yellow: 61.8
+    blue: 34.2
+    magenta: 38.5
+    cyan: 55.8
+    white: 81.1
+    brightBlack: 0
+    brightRed: 45.3
+    brightGreen: 58.8
+    brightYellow: 72.4
+    brightBlue: 56.9
+    brightMagenta: 45.7
+    brightCyan: 74.4
+    brightWhite: 81.1

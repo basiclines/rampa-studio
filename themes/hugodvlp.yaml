@@ -1,0 +1,49 @@
+name: "hugodvlp"
+source:
+  marketplace_id: "Hugodvlpr.hugodvlpr-theme"
+  version: "0.3.0"
+  installs: 2289
+  author: "Hugo"
+  repo: "https://github.com/hugos/hugodvlpr-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Hugodvlpr.hugodvlpr-theme"
+colors:
+  bg: "#151B20"
+  fg: "#FF8B56"
+  black: "#10D4B0"
+  red: "#940303"
+  green: "#0059FF"
+  yellow: "#1A1B03"
+  blue: "#004CF1"
+  magenta: "#94058A"
+  cyan: "#029790"
+  white: "#311B92"
+  brightBlack: "#02ADF1"
+  brightRed: "#BE0000"
+  brightGreen: "#00FF9C"
+  brightYellow: "#D0F30C"
+  brightBlue: "#00A2FF"
+  brightMagenta: "#E215D6"
+  brightCyan: "#08E1D7"
+  brightWhite: "#2EB8F8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 244
+  contrast:
+    fg: 55.6
+    black: 65.7
+    red: 11.9
+    green: 24.6
+    yellow: 0
+    blue: 20.2
+    magenta: 15.2
+    cyan: 37.3
+    white: 0
+    brightBlack: 51.4
+    brightRed: 20.7
+    brightGreen: 86.9
+    brightYellow: 89.3
+    brightBlue: 48
+    brightMagenta: 35.6
+    brightCyan: 73.6
+    brightWhite: 56.9

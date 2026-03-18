@@ -1,0 +1,49 @@
+name: "Vase with Twelve Sunflowers"
+source:
+  marketplace_id: "XadillaX.van-gogh-paintings"
+  version: "1.0.0"
+  installs: 959
+  author: "XadillaX"
+  repo: "https://github.com/XadillaX/vscode-mir2-colorscheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=XadillaX.van-gogh-paintings"
+colors:
+  bg: "#B7C6B2"
+  fg: "#685A27"
+  black: "#B7C6B2"
+  red: "#D2AB53"
+  green: "#632B17"
+  yellow: "#DAC371"
+  blue: "#CEA032"
+  magenta: "#9E6A28"
+  cyan: "#718656"
+  white: "#73693B"
+  brightBlack: "#ACB79E"
+  brightRed: "#67714B"
+  brightGreen: "#718656"
+  brightYellow: "#DAC371"
+  brightBlue: "#CEA032"
+  brightMagenta: "#9E6A28"
+  brightCyan: "#718656"
+  brightWhite: "#685A27"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: 138
+  contrast:
+    fg: 48.2
+    black: 0
+    red: 0
+    green: 59.9
+    yellow: 0
+    blue: 12.1
+    magenta: 36.6
+    cyan: 32
+    white: 42.2
+    brightBlack: 0
+    brightRed: 40.5
+    brightGreen: 32
+    brightYellow: 0
+    brightBlue: 12.1
+    brightMagenta: 36.6
+    brightCyan: 32
+    brightWhite: 48.2

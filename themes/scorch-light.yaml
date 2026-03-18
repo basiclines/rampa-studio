@@ -1,0 +1,49 @@
+name: "scorch-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#F2EDED"
+  fg: "#514242"
+  black: "#FDFCFC"
+  red: "#BA0E2E"
+  green: "#D39452"
+  yellow: "#BD4549"
+  blue: "#CF9E51"
+  magenta: "#C6BB57"
+  cyan: "#E77757"
+  white: "#5F4D4D"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#E8C6A3"
+  brightYellow: "#D89093"
+  brightBlue: "#E5CBA1"
+  brightMagenta: "#E0DAA3"
+  brightCyan: "#F4BFB0"
+  brightWhite: "#897070"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 82
+    black: 0
+    red: 70.3
+    green: 40.3
+    yellow: 64.3
+    blue: 37.5
+    magenta: 27.9
+    cyan: 45.2
+    white: 77.4
+    brightBlack: 8.9
+    brightRed: 53.8
+    brightGreen: 17.4
+    brightYellow: 39.3
+    brightBlue: 15.9
+    brightMagenta: 10.4
+    brightCyan: 17.8
+    brightWhite: 61.5

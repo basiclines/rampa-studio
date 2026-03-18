@@ -1,0 +1,49 @@
+name: "MagicUser Teal Night"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1704
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+colors:
+  bg: "#001212"
+  fg: "#D8D8D8"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 195
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 41.8
+    green: 86
+    yellow: 102.3
+    blue: 15.8
+    magenta: 45.8
+    cyan: 91.7
+    white: 107.4
+    brightBlack: 0
+    brightRed: 38.5
+    brightGreen: 79.7
+    brightYellow: 102.5
+    brightBlue: 48.3
+    brightMagenta: 45.6
+    brightCyan: 84.6
+    brightWhite: 82.5

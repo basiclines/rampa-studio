@@ -1,0 +1,49 @@
+name: "heroku"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#1B1B24"
+  fg: "#C8C7D5"
+  black: "#262633"
+  red: "#BA0E2E"
+  green: "#585480"
+  yellow: "#7873AE"
+  blue: "#FFFFFF"
+  magenta: "#7873AE"
+  cyan: "#A6FA62"
+  white: "#D6D6E0"
+  brightBlack: "#47475E"
+  brightRed: "#F03E5F"
+  brightGreen: "#8C89B1"
+  brightYellow: "#B6B4D3"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#B6B4D3"
+  brightCyan: "#DEFDC5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  contrast:
+    fg: 71.9
+    black: 0
+    red: 19.9
+    green: 16.2
+    yellow: 30.3
+    blue: 106.3
+    magenta: 30.3
+    cyan: 88.9
+    white: 80.6
+    brightBlack: 10.1
+    brightRed: 36.2
+    brightGreen: 39.6
+    brightYellow: 61.9
+    brightBlue: 106.3
+    brightMagenta: 61.9
+    brightCyan: 98.6
+    brightWhite: 106.3

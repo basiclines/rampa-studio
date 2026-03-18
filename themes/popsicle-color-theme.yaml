@@ -1,0 +1,49 @@
+name: "popsicle-color-theme"
+source:
+  marketplace_id: "wavebeem.popsicle-vscode"
+  version: "1.6.0"
+  installs: 170
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/popsicle-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.popsicle-vscode"
+colors:
+  bg: "#FFFAF6"
+  fg: "#380000"
+  black: "#5B403B"
+  red: "#D2004F"
+  green: "#007A00"
+  yellow: "#905300"
+  blue: "#0069CC"
+  magenta: "#C3009B"
+  cyan: "#00747B"
+  white: "#FFF6F1"
+  brightBlack: "#5B403B"
+  brightRed: "#D2004F"
+  brightGreen: "#007A00"
+  brightYellow: "#905300"
+  brightBlue: "#0069CC"
+  brightMagenta: "#C3009B"
+  brightCyan: "#00747B"
+  brightWhite: "#FFF6F1"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 101.2
+    black: 89.1
+    red: 71.9
+    green: 74.4
+    yellow: 77.7
+    blue: 73.6
+    magenta: 72.6
+    cyan: 74.6
+    white: 0
+    brightBlack: 89.1
+    brightRed: 71.9
+    brightGreen: 74.4
+    brightYellow: 77.7
+    brightBlue: 73.6
+    brightMagenta: 72.6
+    brightCyan: 74.6
+    brightWhite: 0

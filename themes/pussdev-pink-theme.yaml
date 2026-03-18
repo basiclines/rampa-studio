@@ -1,0 +1,49 @@
+name: "pussdev-pink-theme"
+source:
+  marketplace_id: "pussdev.pussdev-pink-theme"
+  version: "1.0.0"
+  installs: 219
+  author: "pussdev"
+  repo: "https://github.com/pussdev/pussdev-pink-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pussdev.pussdev-pink-theme"
+colors:
+  bg: "#333333"
+  fg: "#D1D1D1"
+  black: "#272525"
+  red: "#D59191"
+  green: "#9ABDA0"
+  yellow: "#D5D391"
+  blue: "#9A9CBD"
+  magenta: "#B69ABD"
+  cyan: "#9ABDBC"
+  white: "#DFDFDF"
+  brightBlack: "#272525"
+  brightRed: "#9ABDBC"
+  brightGreen: "#9ABDA0"
+  brightYellow: "#D5D391"
+  brightBlue: "#9A9CBD"
+  brightMagenta: "#B69ABD"
+  brightCyan: "#9ABDBC"
+  brightWhite: "#DFDFDF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 72.8
+    black: 0
+    red: 46.6
+    green: 56.1
+    yellow: 72
+    blue: 44.1
+    magenta: 46.7
+    cyan: 57.2
+    white: 81.4
+    brightBlack: 0
+    brightRed: 57.2
+    brightGreen: 56.1
+    brightYellow: 72
+    brightBlue: 44.1
+    brightMagenta: 46.7
+    brightCyan: 57.2
+    brightWhite: 81.4

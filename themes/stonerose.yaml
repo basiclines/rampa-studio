@@ -1,0 +1,49 @@
+name: "StoneRose"
+source:
+  marketplace_id: "ajguerrer.stonerose-vscode"
+  version: "1.4.0"
+  installs: 77
+  author: "ajguerrer"
+  repo: "https://github.com/ajguerrer/stonerose-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ajguerrer.stonerose-vscode"
+colors:
+  bg: "#303033"
+  fg: "#B4B4BF"
+  black: "#303033"
+  red: "#BF9D9D"
+  green: "#AEBF9D"
+  yellow: "#BFAE9D"
+  blue: "#9DAEBF"
+  magenta: "#AE9DBF"
+  cyan: "#9DBFAE"
+  white: "#B4B4BF"
+  brightBlack: "#909099"
+  brightRed: "#BF9D9D"
+  brightGreen: "#AEBF9D"
+  brightYellow: "#BFAE9D"
+  brightBlue: "#9DAEBF"
+  brightMagenta: "#AE9DBF"
+  brightCyan: "#9DBFAE"
+  brightWhite: "#E4E4F2"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 57.1
+    black: 0
+    red: 48.4
+    green: 59.6
+    yellow: 54.8
+    blue: 52.1
+    magenta: 47.6
+    cyan: 58.5
+    white: 57.1
+    brightBlack: 37.8
+    brightRed: 48.4
+    brightGreen: 59.6
+    brightYellow: 54.8
+    brightBlue: 52.1
+    brightMagenta: 47.6
+    brightCyan: 58.5
+    brightWhite: 85.9

@@ -1,0 +1,49 @@
+name: "vampurr"
+source:
+  marketplace_id: "Sajjad.vampurr"
+  version: "1.2.0"
+  installs: 71
+  author: "Sajjad"
+  repo: "https://github.com/sajadabedi/vampurr"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sajjad.vampurr"
+colors:
+  bg: "#21212C"
+  fg: "#F8F8F2"
+  black: "#23232F"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 285
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 42
+    green: 83.5
+    yellow: 97.1
+    blue: 52.2
+    magenta: 53.2
+    cyan: 82.5
+    white: 100.6
+    brightBlack: 26.6
+    brightRed: 47.4
+    brightGreen: 87.6
+    brightYellow: 102.1
+    brightBlue: 64.7
+    brightMagenta: 61.2
+    brightCyan: 95.4
+    brightWhite: 105.5

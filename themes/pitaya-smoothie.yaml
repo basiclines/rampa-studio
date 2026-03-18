@@ -1,0 +1,49 @@
+name: "Pitaya smoothie"
+source:
+  marketplace_id: "trallard.pitaya-smoothie"
+  version: "2.0.2"
+  installs: 3583
+  author: "Tania Allard"
+  repo: "https://github.com/trallard/pitaya_smoothie"
+  url: "https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie"
+colors:
+  bg: "#181036"
+  fg: "#FEFEFF"
+  black: "#000000"
+  red: "#FD1D53"
+  green: "#45F5CF"
+  yellow: "#F5D131"
+  blue: "#7998F2"
+  magenta: "#A56CF5"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#F74B73"
+  brightGreen: "#6DF7D9"
+  brightYellow: "#FCE687"
+  brightBlue: "#95ACF1"
+  brightMagenta: "#B991F1"
+  brightCyan: "#A1F7F8"
+  brightWhite: "#2D2B55"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 288
+  contrast:
+    fg: 106.2
+    black: 0
+    red: 37
+    green: 84.4
+    yellow: 79.1
+    blue: 47.5
+    magenta: 38.8
+    cyan: 92.7
+    white: 106.8
+    brightBlack: 17.9
+    brightRed: 40.5
+    brightGreen: 87.3
+    brightYellow: 90.6
+    brightBlue: 57.3
+    brightMagenta: 51.8
+    brightCyan: 92.1
+    brightWhite: 0

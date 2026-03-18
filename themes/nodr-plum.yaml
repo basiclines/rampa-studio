@@ -1,0 +1,49 @@
+name: "Nodr Plum"
+source:
+  marketplace_id: "samuelbran.nodr"
+  version: "1.2.0"
+  installs: 2894
+  author: "Samuel Bran"
+  repo: "https://github.com/samuelbran/Nodr"
+  url: "https://marketplace.visualstudio.com/items?itemName=samuelbran.nodr"
+colors:
+  bg: "#2A2739"
+  fg: "#8A86A1"
+  black: "#2A2739"
+  red: "#DF5D46"
+  green: "#6FDF8E"
+  yellow: "#F6BF47"
+  blue: "#4499CD"
+  magenta: "#9957AA"
+  cyan: "#67CDCC"
+  white: "#8A86A1"
+  brightBlack: "#3D3A4A"
+  brightRed: "#F08D49"
+  brightGreen: "#67CDCC"
+  brightYellow: "#F6BF47"
+  brightBlue: "#4499CD"
+  brightMagenta: "#9957AA"
+  brightCyan: "#67CDCC"
+  brightWhite: "#8A86A1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 292
+  contrast:
+    fg: 35.4
+    black: 0
+    red: 34.9
+    green: 70.2
+    yellow: 69.4
+    blue: 39.8
+    magenta: 24.4
+    cyan: 63.4
+    white: 35.4
+    brightBlack: 0
+    brightRed: 50.7
+    brightGreen: 63.4
+    brightYellow: 69.4
+    brightBlue: 39.8
+    brightMagenta: 24.4
+    brightCyan: 63.4
+    brightWhite: 35.4

@@ -1,0 +1,49 @@
+name: "monokai-ocean-color-theme"
+source:
+  marketplace_id: "rofrol.monokai-ocean"
+  version: "1.0.6"
+  installs: 10812
+  author: "rofrol"
+  repo: "https://github.com/rofrol/monokai-ocean"
+  url: "https://marketplace.visualstudio.com/items?itemName=rofrol.monokai-ocean"
+colors:
+  bg: "#191E29"
+  fg: "#C0C0C0"
+  black: "#403E41"
+  red: "#FF6188"
+  green: "#A9DC76"
+  yellow: "#E6C866"
+  blue: "#FC9867"
+  magenta: "#AB9DF2"
+  cyan: "#78DCE8"
+  white: "#BEC4CB"
+  brightBlack: "#727072"
+  brightRed: "#FF6188"
+  brightGreen: "#A9DC76"
+  brightYellow: "#E6C866"
+  brightBlue: "#FC9867"
+  brightMagenta: "#AB9DF2"
+  brightCyan: "#78DCE8"
+  brightWhite: "#BEC4CB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 266
+  contrast:
+    fg: 66.8
+    black: 0
+    red: 46
+    green: 74.4
+    yellow: 72.8
+    blue: 58.8
+    magenta: 53.4
+    cyan: 74.6
+    white: 68.7
+    brightBlack: 25.8
+    brightRed: 46
+    brightGreen: 74.4
+    brightYellow: 72.8
+    brightBlue: 58.8
+    brightMagenta: 53.4
+    brightCyan: 74.6
+    brightWhite: 68.7

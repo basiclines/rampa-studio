@@ -1,0 +1,49 @@
+name: "Darksome"
+source:
+  marketplace_id: "rochekollie.darksome"
+  version: "1.0.1"
+  installs: 221
+  author: "Roche Kollie"
+  repo: "https://github.com/rochekollie/darksome"
+  url: "https://marketplace.visualstudio.com/items?itemName=rochekollie.darksome"
+colors:
+  bg: "#101010"
+  fg: "#FFFFFF"
+  black: "#171717"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#777777"
+  brightRed: "#FB543F"
+  brightGreen: "#237E02"
+  brightYellow: "#FAC03B"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#018C91"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 42.5
+    green: 61.5
+    yellow: 73.6
+    blue: 48.1
+    magenta: 20.1
+    cyan: 50
+    white: 47.8
+    brightBlack: 30.1
+    brightRed: 42.5
+    brightGreen: 26.2
+    brightYellow: 73.6
+    brightBlue: 19.3
+    brightMagenta: 20.1
+    brightCyan: 33.9
+    brightWhite: 99.4

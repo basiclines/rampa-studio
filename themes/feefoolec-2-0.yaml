@@ -1,0 +1,49 @@
+name: "Feefoolec 2.0"
+source:
+  marketplace_id: "Feefoolec.feefoolec-2-vscode-theme"
+  version: "2.0.0"
+  installs: 54
+  author: "Feefoolec"
+  repo: "https://github.com/FilipKajetaniak/feefoolec-theme-2.0"
+  url: "https://marketplace.visualstudio.com/items?itemName=Feefoolec.feefoolec-2-vscode-theme"
+colors:
+  bg: "#2E2E2E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#FF5E87"
+  green: "#83FF96"
+  yellow: "#FFEF6A"
+  blue: "#8AB5F7"
+  magenta: "#C687FF"
+  cyan: "#73F9FF"
+  white: "#D4D4D4"
+  brightBlack: "#000000"
+  brightRed: "#FF87A6"
+  brightGreen: "#B2FFB0"
+  brightYellow: "#F8FF89"
+  brightBlue: "#9ECDFF"
+  brightMagenta: "#E7A5FF"
+  brightCyan: "#B7FFE7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 75.8
+    black: 0
+    red: 42.5
+    green: 86.8
+    yellow: 91.1
+    blue: 56.7
+    magenta: 48
+    cyan: 86.9
+    white: 75.8
+    brightBlack: 0
+    brightRed: 53.2
+    brightGreen: 91.1
+    brightYellow: 98.2
+    brightBlue: 69.1
+    brightMagenta: 62.6
+    brightCyan: 93.6
+    brightWhite: 103.2

@@ -1,0 +1,49 @@
+name: "Doom One"
+source:
+  marketplace_id: "NTBBloodbath.doom-one"
+  version: "0.1.1"
+  installs: 8955
+  author: "NTBBloodbath"
+  repo: "https://github.com/NTBBloodbath/doom-one-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=NTBBloodbath.doom-one"
+colors:
+  bg: "#282C34"
+  fg: "#BBC2CF"
+  black: "#1B2229"
+  red: "#FF6C6B"
+  green: "#98BE65"
+  yellow: "#ECBE7B"
+  blue: "#51AFEF"
+  magenta: "#C678DD"
+  cyan: "#46D9FF"
+  white: "#BBC2CF"
+  brightBlack: "#3F444A"
+  brightRed: "#FF6C6B"
+  brightGreen: "#98BE65"
+  brightYellow: "#ECBE7B"
+  brightBlue: "#51AFEF"
+  brightMagenta: "#A9A1E1"
+  brightCyan: "#46D9FF"
+  brightWhite: "#EFEFEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 65.3
+    black: 0
+    red: 45.1
+    green: 56.5
+    yellow: 67.7
+    blue: 50.7
+    magenta: 41.9
+    cyan: 69.9
+    white: 65.3
+    brightBlack: 0
+    brightRed: 45.1
+    brightGreen: 56.5
+    brightYellow: 67.7
+    brightBlue: 50.7
+    brightMagenta: 51.2
+    brightCyan: 69.9
+    brightWhite: 93.2

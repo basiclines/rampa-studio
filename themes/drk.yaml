@@ -1,0 +1,49 @@
+name: "drk"
+source:
+  marketplace_id: "u29dc.set"
+  version: "2.0.7"
+  installs: 1570
+  author: "iinfin"
+  repo: "https://github.com/u29dc/set-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=u29dc.set"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#F5F5F5"
+  red: "#7F7F7F"
+  green: "#7F7F7F"
+  yellow: "#E5E5E5"
+  blue: "#7F7F7F"
+  magenta: "#7F7F7F"
+  cyan: "#7F7F7F"
+  white: "#0A0A0A"
+  brightBlack: "#FFFFFF"
+  brightRed: "#7F7F7F"
+  brightGreen: "#7F7F7F"
+  brightYellow: "#7F7F7F"
+  brightBlue: "#7F7F7F"
+  brightMagenta: "#7F7F7F"
+  brightCyan: "#7F7F7F"
+  brightWhite: "#333333"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 101.3
+    red: 34.3
+    green: 34.3
+    yellow: 91
+    blue: 34.3
+    magenta: 34.3
+    cyan: 34.3
+    white: 0
+    brightBlack: 107.9
+    brightRed: 34.3
+    brightGreen: 34.3
+    brightYellow: 34.3
+    brightBlue: 34.3
+    brightMagenta: 34.3
+    brightCyan: 34.3
+    brightWhite: 0

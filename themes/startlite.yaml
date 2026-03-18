@@ -1,0 +1,49 @@
+name: "Startlite"
+source:
+  marketplace_id: "Yummygum.starlite"
+  version: "1.0.3"
+  installs: 0
+  author: "Yummygum"
+  repo: "https://github.com/Yummygum/Starlite"
+  url: "https://marketplace.visualstudio.com/items?itemName=Yummygum.starlite"
+colors:
+  bg: "#0F1819"
+  fg: "#92A7C4"
+  black: "#000000"
+  red: "#B62D65"
+  green: "#48C498"
+  yellow: "#E5E510"
+  blue: "#008CF0"
+  magenta: "#7163D7"
+  cyan: "#42DEEA"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#B62D65"
+  brightGreen: "#48C498"
+  brightYellow: "#F5F543"
+  brightBlue: "#008CF0"
+  brightMagenta: "#FE60A1"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 205
+  contrast:
+    fg: 52.7
+    black: 0
+    red: 22.5
+    green: 58.6
+    yellow: 85.7
+    blue: 39
+    magenta: 28.4
+    cyan: 74.2
+    white: 90.1
+    brightBlack: 22.1
+    brightRed: 22.5
+    brightGreen: 58.6
+    brightYellow: 95.7
+    brightBlue: 39
+    brightMagenta: 47.3
+    brightCyan: 55.4
+    brightWhite: 90.1

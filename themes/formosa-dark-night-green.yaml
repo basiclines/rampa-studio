@@ -1,0 +1,49 @@
+name: "Formosa Dark - Night Green"
+source:
+  marketplace_id: "TakeshiYu.formosa-theme"
+  version: "1.0.0"
+  installs: 46
+  author: "Takeshi Yu"
+  repo: "https://github.com/takeshiyu/formosa-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TakeshiYu.formosa-theme"
+colors:
+  bg: "#1A2822"
+  fg: "#E8E4DF"
+  black: "#141F1A"
+  red: "#E07070"
+  green: "#6ABA7A"
+  yellow: "#E0B050"
+  blue: "#5BBCD6"
+  magenta: "#B080A0"
+  cyan: "#8ADA9A"
+  white: "#E8E4DF"
+  brightBlack: "#5A7060"
+  brightRed: "#F09090"
+  brightGreen: "#9AEAAA"
+  brightYellow: "#F0C060"
+  brightBlue: "#7BCCE6"
+  brightMagenta: "#C090B0"
+  brightCyan: "#AAEABA"
+  brightWhite: "#F0ECE7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 166
+  contrast:
+    fg: 87.8
+    black: 0
+    red: 41
+    green: 52.8
+    yellow: 60.8
+    blue: 56.5
+    magenta: 38.9
+    cyan: 70.6
+    white: 87.8
+    brightBlack: 22.1
+    brightRed: 53.9
+    brightGreen: 80.1
+    brightYellow: 69.9
+    brightBlue: 66.2
+    brightMagenta: 47
+    brightCyan: 82
+    brightWhite: 92.9

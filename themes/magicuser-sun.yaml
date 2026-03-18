@@ -1,0 +1,49 @@
+name: "MagicUser Sun"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1704
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+colors:
+  bg: "#F8F3C5"
+  fg: "#000000"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 97.8
+    black: 97.1
+    red: 51.3
+    green: 8.9
+    yellow: 0
+    blue: 77.6
+    magenta: 47.4
+    cyan: 0
+    white: 0
+    brightBlack: 90.4
+    brightRed: 54.5
+    brightGreen: 14.8
+    brightYellow: 0
+    brightBlue: 44.9
+    brightMagenta: 47.5
+    brightCyan: 10.2
+    brightWhite: 12.2

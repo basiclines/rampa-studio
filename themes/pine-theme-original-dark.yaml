@@ -1,0 +1,49 @@
+name: "Pine Theme Original Dark"
+source:
+  marketplace_id: "salbert11.pinescript-helper"
+  version: "3.4.3"
+  installs: 9795
+  author: "salbert11"
+  repo: "https://github.com/salbert11/pinescript"
+  url: "https://marketplace.visualstudio.com/items?itemName=salbert11.pinescript-helper"
+colors:
+  bg: "#131722"
+  fg: "#FFFFFF"
+  black: "#131722"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#E17518"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#E17518"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 269
+  contrast:
+    fg: 106.8
+    black: 0
+    red: 39.3
+    green: 67.2
+    yellow: 82
+    blue: 55.9
+    magenta: 53.7
+    cyan: 59.7
+    white: 43.2
+    brightBlack: 15.5
+    brightRed: 39.3
+    brightGreen: 67.2
+    brightYellow: 93.7
+    brightBlue: 55.9
+    brightMagenta: 53.7
+    brightCyan: 73.9
+    brightWhite: 43.2

@@ -1,0 +1,49 @@
+name: "Mario Theme"
+source:
+  marketplace_id: "alphatr.mario-theme"
+  version: "1.1.1"
+  installs: 5480
+  author: "alphatr"
+  repo: "https://github.com/alphatr/vscode-mario-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=alphatr.mario-theme"
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#C0C5CE"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 40.4
+    green: 81
+    yellow: 75.7
+    blue: 52.7
+    magenta: 50.6
+    cyan: 75.1
+    white: 103.7
+    brightBlack: 67.1
+    brightRed: 40.4
+    brightGreen: 81
+    brightYellow: 75.7
+    brightBlue: 52.7
+    brightMagenta: 50.6
+    brightCyan: 75.1
+    brightWhite: 103.7

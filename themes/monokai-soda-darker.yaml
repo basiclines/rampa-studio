@@ -1,0 +1,49 @@
+name: "Monokai soda darker"
+source:
+  marketplace_id: "carlossantos74.monokai-classic-darker"
+  version: "0.0.6"
+  installs: 6557
+  author: "Carlos Santos"
+  repo: "https://github.com/carlossantos74/Monokai-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlossantos74.monokai-classic-darker"
+colors:
+  bg: "#1C1C1C"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#F4005F"
+  green: "#98E022"
+  yellow: "#FA8416"
+  blue: "#58D1EB"
+  magenta: "#9D65FF"
+  cyan: "#58D1EB"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F4005F"
+  brightGreen: "#98E022"
+  brightYellow: "#FA8416"
+  brightBlue: "#58D1EB"
+  brightMagenta: "#9D65FF"
+  brightCyan: "#58D1EB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 106.3
+    black: 0
+    red: 34.1
+    green: 74.1
+    yellow: 51.8
+    blue: 68.3
+    magenta: 36.4
+    cyan: 68.3
+    white: 89.4
+    brightBlack: 21.5
+    brightRed: 34.1
+    brightGreen: 74.1
+    brightYellow: 51.8
+    brightBlue: 68.3
+    brightMagenta: 36.4
+    brightCyan: 68.3
+    brightWhite: 89.4

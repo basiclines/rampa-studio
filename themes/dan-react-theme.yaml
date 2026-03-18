@@ -1,0 +1,49 @@
+name: "Dan React Theme"
+source:
+  marketplace_id: "carrie999.dan-react-theme"
+  version: "0.0.4"
+  installs: 2651
+  author: "carrie999"
+  repo: "https://github.com/Carrie999/dan-react-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carrie999.dan-react-theme"
+colors:
+  bg: "#051525"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#DA92E4"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#E9A5DA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 249
+  contrast:
+    fg: 71.5
+    black: 26.6
+    red: 44.2
+    green: 66
+    yellow: 79.1
+    blue: 56.1
+    magenta: 56.5
+    cyan: 78.4
+    white: 107.1
+    brightBlack: 26.6
+    brightRed: 44.2
+    brightGreen: 84.4
+    brightYellow: 79.1
+    brightBlue: 56.1
+    brightMagenta: 64.7
+    brightCyan: 78.4
+    brightWhite: 107.1

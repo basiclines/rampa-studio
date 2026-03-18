@@ -1,0 +1,49 @@
+name: "Tlapalli l-00: Obsidian Light"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+colors:
+  bg: "#FDFDFD"
+  fg: "#4F4F4F"
+  black: "#FDFDFD"
+  red: "#898989"
+  green: "#B4B4B4"
+  yellow: "#5D5D5D"
+  blue: "#C9C8C7"
+  magenta: "#737373"
+  cyan: "#9E9E9E"
+  white: "#494949"
+  brightBlack: "#DDDDDD"
+  brightRed: "#898989"
+  brightGreen: "#B4B4B4"
+  brightYellow: "#5D5D5D"
+  brightBlue: "#C9C8C7"
+  brightMagenta: "#737373"
+  brightCyan: "#9E9E9E"
+  brightWhite: "#1E1E1E"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 87.2
+    black: 0
+    red: 61.4
+    green: 39.3
+    yellow: 81.4
+    blue: 28.3
+    magenta: 71.7
+    cyan: 50.9
+    white: 89.5
+    brightBlack: 16.4
+    brightRed: 61.4
+    brightGreen: 39.3
+    brightYellow: 81.4
+    brightBlue: 28.3
+    brightMagenta: 71.7
+    brightCyan: 50.9
+    brightWhite: 102.4

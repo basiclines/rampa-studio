@@ -1,0 +1,49 @@
+name: "OpenSpace Dark Flat"
+source:
+  marketplace_id: "OpenSpace.openspace-theme"
+  version: "1.2.41"
+  installs: 256
+  author: "Open Space Technology"
+  repo: "https://github.com/hunqng/openspace-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OpenSpace.openspace-theme"
+colors:
+  bg: "#191919"
+  fg: "#E1E1E1"
+  black: "#2A2D33"
+  red: "#FC6A67"
+  green: "#A9DC76"
+  yellow: "#FFD866"
+  blue: "#78DCE8"
+  magenta: "#FF79C6"
+  cyan: "#78E8C6"
+  white: "#E1E1E1"
+  brightBlack: "#78DCE8"
+  brightRed: "#FC6A67"
+  brightGreen: "#A9DC76"
+  brightYellow: "#FFD866"
+  brightBlue: "#78DCE8"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#78E8C6"
+  brightWhite: "#E1E1E1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 46.9
+    green: 75.1
+    yellow: 84.1
+    blue: 75.2
+    magenta: 54.4
+    cyan: 79.5
+    white: 87.3
+    brightBlack: 75.2
+    brightRed: 46.9
+    brightGreen: 75.1
+    brightYellow: 84.1
+    brightBlue: 75.2
+    brightMagenta: 54.4
+    brightCyan: 79.5
+    brightWhite: 87.3

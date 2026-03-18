@@ -1,0 +1,49 @@
+name: "Tailwind Yellow Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#FEFCE8"
+  fg: "#854D0E"
+  black: "#713F12"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#FEF9C3"
+  brightBlack: "#713F12"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FEF9C3"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 81
+    black: 87.1
+    red: 61.5
+    green: 42
+    yellow: 34
+    blue: 61.5
+    magenta: 63.9
+    cyan: 44.8
+    white: 0
+    brightBlack: 87.1
+    brightRed: 61.5
+    brightGreen: 42
+    brightYellow: 34
+    brightBlue: 61.5
+    brightMagenta: 63.9
+    brightCyan: 44.8
+    brightWhite: 0

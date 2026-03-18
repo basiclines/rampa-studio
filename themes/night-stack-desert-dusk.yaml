@@ -1,0 +1,49 @@
+name: "Night-Stack Desert Dusk"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0D0804"
+  fg: "#FFECDD"
+  black: "#1A120A"
+  red: "#E76F51"
+  green: "#F4A261"
+  yellow: "#FBBF24"
+  blue: "#C97C5D"
+  magenta: "#D97706"
+  cyan: "#FFD166"
+  white: "#FFECDD"
+  brightBlack: "#1A120A"
+  brightRed: "#E76F51"
+  brightGreen: "#F4A261"
+  brightYellow: "#FBBF24"
+  brightBlue: "#C97C5D"
+  brightMagenta: "#D97706"
+  brightCyan: "#FFD166"
+  brightWhite: "#FFECDD"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 68
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 44.3
+    green: 62.2
+    yellow: 73.6
+    blue: 42.4
+    magenta: 43.1
+    cyan: 82.2
+    white: 97.4
+    brightBlack: 0
+    brightRed: 44.3
+    brightGreen: 62.2
+    brightYellow: 73.6
+    brightBlue: 42.4
+    brightMagenta: 43.1
+    brightCyan: 82.2
+    brightWhite: 97.4

@@ -1,0 +1,49 @@
+name: "P. \ Black"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74756
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+colors:
+  bg: "#000000"
+  fg: "#F5DCBC"
+  black: "#3D3735"
+  red: "#EB1B00"
+  green: "#00A824"
+  yellow: "#FFBB00"
+  blue: "#2867B9"
+  magenta: "#D31353"
+  cyan: "#0BC2A3"
+  white: "#F5DCBC"
+  brightBlack: "#504D47"
+  brightRed: "#FF604B"
+  brightGreen: "#18D356"
+  brightYellow: "#FFD037"
+  brightBlue: "#43A4FF"
+  brightMagenta: "#FF24B6"
+  brightCyan: "#2AFDDA"
+  brightWhite: "#FAE8E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 33
+    green: 43.7
+    yellow: 72.8
+    blue: 24
+    magenta: 27.8
+    cyan: 58.1
+    white: 87.7
+    brightBlack: 13.2
+    brightRed: 46.2
+    brightGreen: 64.3
+    brightYellow: 81.4
+    brightBlue: 51.1
+    brightMagenta: 42.3
+    brightCyan: 89.6
+    brightWhite: 95.1

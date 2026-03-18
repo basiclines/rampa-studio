@@ -1,0 +1,49 @@
+name: "mountain-theme"
+source:
+  marketplace_id: "DevangTomar.vscode-diverse-dye"
+  version: "1.3.0"
+  installs: 2595
+  author: "Devang Tomar ⭐"
+  repo: "https://github.com/devangtomar/vscode-diverse-dye"
+  url: "https://marketplace.visualstudio.com/items?itemName=DevangTomar.vscode-diverse-dye"
+colors:
+  bg: "#0F0F0F"
+  fg: "#F0F0F0"
+  black: "#000000"
+  red: "#AC8A8C"
+  green: "#8AAC8B"
+  yellow: "#ACA98A"
+  blue: "#8A98AC"
+  magenta: "#AC8AAC"
+  cyan: "#8AACAB"
+  white: "#E7E7E7"
+  brightBlack: "#4C4C4C"
+  brightRed: "#C49EA0"
+  brightGreen: "#9EC49F"
+  brightYellow: "#C4C19E"
+  brightBlue: "#A5B4CB"
+  brightMagenta: "#C49EC4"
+  brightCyan: "#9EC3C4"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 97.7
+    black: 0
+    red: 43.4
+    green: 52.3
+    yellow: 54.6
+    blue: 45.7
+    magenta: 44.7
+    cyan: 53.4
+    white: 91.9
+    brightBlack: 12.3
+    brightRed: 54.4
+    brightGreen: 65
+    brightYellow: 67.9
+    brightBlue: 60.7
+    brightMagenta: 55.9
+    brightCyan: 66
+    brightWhite: 97.7

@@ -1,0 +1,49 @@
+name: "Nighthawk"
+source:
+  marketplace_id: "ezzak.nighthawk"
+  version: "1.1.0"
+  installs: 9435
+  author: "Ezz"
+  repo: "https://github.com/ezzak/nighthawk"
+  url: "https://marketplace.visualstudio.com/items?itemName=ezzak.nighthawk"
+colors:
+  bg: "#0B162D"
+  fg: "#FFFD"
+  black: "#000000"
+  red: "#D51B6F"
+  green: "#13C965"
+  yellow: "#B69B3A"
+  blue: "#306BAC"
+  magenta: "#610D33"
+  cyan: "#0F9492"
+  white: "#FFFFFF"
+  brightBlack: "#FFFA"
+  brightRed: "#D51B6F"
+  brightGreen: "#13C965"
+  brightYellow: "#E8C547"
+  brightBlue: "#306BAC"
+  brightMagenta: "#610D33"
+  brightCyan: "#0F9492"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 263
+  contrast:
+    fg: 91
+    black: 0
+    red: 28.2
+    green: 58.6
+    yellow: 48.3
+    blue: 23.6
+    magenta: 0
+    cyan: 36.5
+    white: 106.8
+    brightBlack: 90.9
+    brightRed: 28.2
+    brightGreen: 58.6
+    brightYellow: 72.2
+    brightBlue: 23.6
+    brightMagenta: 0
+    brightCyan: 36.5
+    brightWhite: 106.8

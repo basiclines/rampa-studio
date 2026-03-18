@@ -1,0 +1,49 @@
+name: "kadoku"
+source:
+  marketplace_id: "ktnyt.kadoku"
+  version: "0.0.2"
+  installs: 46
+  author: "ktnyt"
+  repo: "https://github.com/ktnyt/kadoku"
+  url: "https://marketplace.visualstudio.com/items?itemName=ktnyt.kadoku"
+colors:
+  bg: "#34343B"
+  fg: "#E0E0E0"
+  black: "#34343B"
+  red: "#DF6B92"
+  green: "#91C58A"
+  yellow: "#F8CE76"
+  blue: "#79B3F0"
+  magenta: "#7B86C6"
+  cyan: "#98DCE8"
+  white: "#E0E0E0"
+  brightBlack: "#24242B"
+  brightRed: "#DE5656"
+  brightGreen: "#6BB4AC"
+  brightYellow: "#FEF188"
+  brightBlue: "#7C86C6"
+  brightMagenta: "#7B86C6"
+  brightCyan: "#98DCE8"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 286
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 37.3
+    green: 57.7
+    yellow: 73.9
+    blue: 52.6
+    magenta: 33.3
+    cyan: 72.4
+    white: 81.6
+    brightBlack: 0
+    brightRed: 31
+    brightGreen: 48.6
+    brightYellow: 90.8
+    brightBlue: 33.4
+    brightMagenta: 33.3
+    brightCyan: 72.4
+    brightWhite: 91.8

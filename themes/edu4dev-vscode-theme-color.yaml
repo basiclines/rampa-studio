@@ -1,0 +1,49 @@
+name: "Edu4Dev - VSCode Theme Color"
+source:
+  marketplace_id: "Edu4Dev.vscode-edu4dev-color-theme"
+  version: "1.0.5"
+  installs: 370
+  author: "Edu4Dev"
+  repo: "https://github.com/nuktpls/vscode-edu4dev-theme-color"
+  url: "https://marketplace.visualstudio.com/items?itemName=Edu4Dev.vscode-edu4dev-color-theme"
+colors:
+  bg: "#000000"
+  fg: "#AFFFD4"
+  black: "#283034"
+  red: "#EB4757"
+  green: "#62A9CF"
+  yellow: "#FFFF00"
+  blue: "#00CFFF"
+  magenta: "#FF2AFC"
+  cyan: "#00CFFF"
+  white: "#D9E0E9"
+  brightBlack: "#435056"
+  brightRed: "#EB4757"
+  brightGreen: "#ADD0E5"
+  brightYellow: "#FFFF00"
+  brightBlue: "#00CFFF"
+  brightMagenta: "#FF2AFC"
+  brightCyan: "#00CFFF"
+  brightWhite: "#F4F6F9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 96.8
+    black: 0
+    red: 37.7
+    green: 51.4
+    yellow: 102.7
+    blue: 68.6
+    magenta: 47.1
+    cyan: 68.6
+    white: 87.4
+    brightBlack: 13.4
+    brightRed: 37.7
+    brightGreen: 75.1
+    brightYellow: 102.7
+    brightBlue: 68.6
+    brightMagenta: 47.1
+    brightCyan: 68.6
+    brightWhite: 101.8

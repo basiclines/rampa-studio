@@ -1,0 +1,49 @@
+name: "slate"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#3D3D4C"
+  fg: "#EBEBF4"
+  black: "#48485A"
+  red: "#BA0E2E"
+  green: "#566981"
+  yellow: "#89A7B1"
+  blue: "#CBDAD5"
+  magenta: "#566981"
+  cyan: "#89A7B1"
+  white: "#FBFBFD"
+  brightBlack: "#6A6A85"
+  brightRed: "#F03E5F"
+  brightGreen: "#8B9CB2"
+  brightYellow: "#C6D5DA"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#8B9CB2"
+  brightCyan: "#C6D5DA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  contrast:
+    fg: 86
+    black: 0
+    red: 12.3
+    green: 14.4
+    yellow: 42.7
+    blue: 72.8
+    magenta: 14.4
+    cyan: 42.7
+    white: 96.1
+    brightBlack: 16.5
+    brightRed: 28.6
+    brightGreen: 38.7
+    brightYellow: 70.2
+    brightBlue: 98.7
+    brightMagenta: 38.7
+    brightCyan: 70.2
+    brightWhite: 98.7

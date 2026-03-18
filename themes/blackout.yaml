@@ -1,0 +1,49 @@
+name: "Blackout"
+source:
+  marketplace_id: "agustinduarte.blackout-theme"
+  version: "0.0.72"
+  installs: 1014
+  author: "Agustin Duarte"
+  repo: "https://github.com/agustinduarte/blackout-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=agustinduarte.blackout-theme"
+colors:
+  bg: "#000000"
+  fg: "#E0E0E0"
+  black: "#565454"
+  red: "#D1949E"
+  green: "#DFF7A9"
+  yellow: "#879071"
+  blue: "#747EA7"
+  magenta: "#6F6F6F"
+  cyan: "#8BA6A9"
+  white: "#8A8A8A"
+  brightBlack: "#3D3D3D"
+  brightRed: "#904E64"
+  brightGreen: "#D1FF69"
+  brightYellow: "#F5F543"
+  brightBlue: "#9EABDE"
+  brightMagenta: "#8A8A8A"
+  brightCyan: "#9ED8DE"
+  brightWhite: "#ABABAB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 87.9
+    black: 15.9
+    red: 53.2
+    green: 96.5
+    yellow: 40.7
+    blue: 34.6
+    magenta: 27
+    cyan: 51.4
+    white: 39.6
+    brightBlack: 7.5
+    brightRed: 21.8
+    brightGreen: 97.4
+    brightYellow: 96.6
+    brightBlue: 57.8
+    brightMagenta: 39.6
+    brightCyan: 76.9
+    brightWhite: 56.8

@@ -1,0 +1,49 @@
+name: "ICE CUBE light"
+source:
+  marketplace_id: "ncfrak.ice-cube"
+  version: "1.0.3"
+  installs: 412
+  author: "ncfrak"
+  repo: "https://github.com/ncfrak/ice-cube"
+  url: "https://marketplace.visualstudio.com/items?itemName=ncfrak.ice-cube"
+colors:
+  bg: "#FFFEF9"
+  fg: "#5C6166"
+  black: "#000000"
+  red: "#FF1414"
+  green: "#4FBF43"
+  yellow: "#FFA012"
+  blue: "#0095FF"
+  magenta: "#9E75C7"
+  cyan: "#46BA94"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07171"
+  brightGreen: "#02CE9E"
+  brightYellow: "#ECC846"
+  brightBlue: "#0B00E0"
+  brightMagenta: "#FF33DA"
+  brightCyan: "#18E8D5"
+  brightWhite: "#D1D1D1"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 80.5
+    black: 105.4
+    red: 63.2
+    green: 45.6
+    yellow: 38.6
+    blue: 56.7
+    magenta: 62.8
+    cyan: 46.5
+    white: 29.4
+    brightBlack: 77.2
+    brightRed: 53.7
+    brightGreen: 38.2
+    brightYellow: 27.1
+    brightBlue: 89.2
+    brightMagenta: 55.7
+    brightCyan: 24
+    brightWhite: 23.8

@@ -1,0 +1,49 @@
+name: "robolaunch"
+source:
+  marketplace_id: "gokhangunduz.robolaunch"
+  version: "1.3.6"
+  installs: 219
+  author: "Gökhan Gündüz"
+  repo: "https://github.com/gokhangunduz/robolaunch-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gokhangunduz.robolaunch"
+colors:
+  bg: "#000000"
+  fg: "#D1C5C0"
+  black: "#000000"
+  red: "#FF5C5C"
+  green: "#5CFF9C"
+  yellow: "#FFED5C"
+  blue: "#5CFFFF"
+  magenta: "#FF5CFC"
+  cyan: "#5CFFE8"
+  white: "#D1C5C0"
+  brightBlack: "#666666"
+  brightRed: "#FF5C5C"
+  brightGreen: "#5CFF9C"
+  brightYellow: "#FFED5C"
+  brightBlue: "#5CFFFF"
+  brightMagenta: "#FF5CFC"
+  brightCyan: "#5CFFE8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 45.8
+    green: 89.7
+    yellow: 94.6
+    blue: 93.6
+    magenta: 52.8
+    cyan: 92.5
+    white: 72.9
+    brightBlack: 23
+    brightRed: 45.8
+    brightGreen: 89.7
+    brightYellow: 94.6
+    brightBlue: 93.6
+    brightMagenta: 52.8
+    brightCyan: 92.5
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "Monokai Drizzle"
+source:
+  marketplace_id: "mimo.monokai-rain"
+  version: "0.4.0"
+  installs: 807
+  author: "Michelle Mounde"
+  repo: "https://github.com/michellemounde/monokai-rainstorm"
+  url: "https://marketplace.visualstudio.com/items?itemName=mimo.monokai-rain"
+colors:
+  bg: "#133245"
+  fg: "#DCE2E8"
+  black: "#3D4750"
+  red: "#FF002B"
+  green: "#C4FF02"
+  yellow: "#FFA200"
+  blue: "#245FCC"
+  magenta: "#CC00FF"
+  cyan: "#00D8C6"
+  white: "#C5C5C0"
+  brightBlack: "#777E84"
+  brightRed: "#FF5F38"
+  brightGreen: "#ABEAAC"
+  brightYellow: "#F9EC2A"
+  brightBlue: "#51B9FF"
+  brightMagenta: "#FF5BE6"
+  brightCyan: "#8AEAEA"
+  brightWhite: "#FFFFF7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 238
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 32.6
+    green: 90.3
+    yellow: 58.6
+    blue: 18
+    magenta: 30.4
+    cyan: 64.8
+    white: 66.3
+    brightBlack: 28.3
+    brightRed: 40.8
+    brightGreen: 79.5
+    brightYellow: 87.8
+    brightBlue: 55.1
+    brightMagenta: 46.1
+    brightCyan: 79.4
+    brightWhite: 102.5

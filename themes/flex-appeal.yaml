@@ -1,0 +1,49 @@
+name: "Flex Appeal"
+source:
+  marketplace_id: "lotterleben.flex-appeal"
+  version: "0.0.1"
+  installs: 2956
+  author: "lotterleben"
+  repo: "https://github.com/Lotterleben/flex-appeal"
+  url: "https://marketplace.visualstudio.com/items?itemName=lotterleben.flex-appeal"
+colors:
+  bg: "#262335"
+  fg: "#FFFFFF"
+  black: "#1D2021"
+  red: "#F83117"
+  green: "#32CD32"
+  yellow: "#FAFD54"
+  blue: "#26FFFC"
+  magenta: "#8F4673"
+  cyan: "#00FFFF"
+  white: "#FFFBF6"
+  brightBlack: "#665C54"
+  brightRed: "#AC3B3B"
+  brightGreen: "#32CD32"
+  brightYellow: "#FAFD54"
+  brightBlue: "#8A2DC0"
+  brightMagenta: "#F92AAD"
+  brightCyan: "#26FFFC"
+  brightWhite: "#EEE8F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 292
+  contrast:
+    fg: 104.9
+    black: 0
+    red: 34.6
+    green: 58.4
+    yellow: 98.4
+    blue: 89.2
+    magenta: 17.5
+    cyan: 89.2
+    white: 102.6
+    brightBlack: 16.6
+    brightRed: 19.3
+    brightGreen: 58.4
+    brightYellow: 98.4
+    brightBlue: 17.6
+    brightMagenta: 37.8
+    brightCyan: 89.2
+    brightWhite: 91.5

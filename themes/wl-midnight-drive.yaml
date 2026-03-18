@@ -1,0 +1,49 @@
+name: "WL-Midnight Drive"
+source:
+  marketplace_id: "WatkinsLabs.midnight-drive"
+  version: "1.0.1"
+  installs: 25
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.midnight-drive"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FF8000"
+  blue: "#00FF00"
+  magenta: "#00FFFF"
+  cyan: "#00FF00"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FF8000"
+  brightBlue: "#00FF00"
+  brightMagenta: "#00FFFF"
+  brightCyan: "#00FF00"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 53.3
+    blue: 86.5
+    magenta: 92.2
+    cyan: 86.5
+    white: 107.9
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 53.3
+    brightBlue: 86.5
+    brightMagenta: 92.2
+    brightCyan: 86.5
+    brightWhite: 107.9

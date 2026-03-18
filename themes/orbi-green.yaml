@@ -1,0 +1,49 @@
+name: "Orbi Green"
+source:
+  marketplace_id: "anishde12020.orbi"
+  version: "1.4.0"
+  installs: 1051
+  author: "AnishDe12020"
+  repo: "https://github.com/AnishDe12020/orbi"
+  url: "https://marketplace.visualstudio.com/items?itemName=anishde12020.orbi"
+colors:
+  bg: "#000000"
+  fg: "#868690"
+  black: "#000000"
+  red: "#FF8888"
+  green: "#A4FF85"
+  yellow: "#FFCB86"
+  blue: "#86D3FF"
+  magenta: "#D4A8FF"
+  cyan: "#A0FFDF"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#FD7279"
+  brightGreen: "#CDFF68"
+  brightYellow: "#FFA939"
+  brightBlue: "#48BCFF"
+  brightMagenta: "#BC78FF"
+  brightCyan: "#58FFC7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 38
+    black: 0
+    red: 57.2
+    green: 93.5
+    yellow: 80.5
+    blue: 74.5
+    magenta: 65.4
+    cyan: 96
+    white: 72.7
+    brightBlack: 23.9
+    brightRed: 50.6
+    brightGreen: 96.9
+    brightYellow: 66.3
+    brightBlue: 61.1
+    brightMagenta: 47
+    brightCyan: 90.9
+    brightWhite: 107.9

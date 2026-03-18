@@ -1,0 +1,49 @@
+name: "Gothic Midnight Rose"
+source:
+  marketplace_id: "Diyllan.midnight-coven-themes"
+  version: "1.0.1"
+  installs: 1123
+  author: "Diyllan"
+  repo: "https://github.com/diyllan/midnight-coven-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Diyllan.midnight-coven-themes"
+colors:
+  bg: "#0F0A1A"
+  fg: "#E0D8F0"
+  black: "#0F0A1A"
+  red: "#FF5070"
+  green: "#70A0FF"
+  yellow: "#D0A0FF"
+  blue: "#7080FF"
+  magenta: "#FF70A0"
+  cyan: "#70D0FF"
+  white: "#E0D8F0"
+  brightBlack: "#6A5A7A"
+  brightRed: "#FF7090"
+  brightGreen: "#90B0FF"
+  brightYellow: "#E0B0FF"
+  brightBlue: "#90A0FF"
+  brightMagenta: "#FF90B0"
+  brightCyan: "#90E0FF"
+  brightWhite: "#F0E8FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 297
+  contrast:
+    fg: 84.9
+    black: 0
+    red: 43.9
+    green: 51.5
+    yellow: 61.8
+    blue: 40.5
+    magenta: 51.5
+    cyan: 71.4
+    white: 84.9
+    brightBlack: 20.4
+    brightRed: 51
+    brightGreen: 60.2
+    brightYellow: 69.8
+    brightBlue: 54.1
+    brightMagenta: 60.5
+    brightCyan: 80.9
+    brightWhite: 94.9

@@ -1,0 +1,49 @@
+name: "Proper Theme - Fork"
+source:
+  marketplace_id: "properup.proper-theme"
+  version: "2.0.1"
+  installs: 299
+  author: "properup"
+  repo: "https://github.com/sirpeebs/proper-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=properup.proper-theme"
+colors:
+  bg: "#181F3B"
+  fg: "#D4C9FF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#218BFF"
+  magenta: "#BC3FBC"
+  cyan: "#00CDFF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#5CC2FF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#5FE0FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 271
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 25.4
+    green: 51.7
+    yellow: 84.3
+    blue: 38.7
+    magenta: 28.5
+    cyan: 65.4
+    white: 88.7
+    brightBlack: 20.8
+    brightRed: 37.3
+    brightGreen: 62.3
+    brightYellow: 94.4
+    brightBlue: 62.2
+    brightMagenta: 44.1
+    brightCyan: 76
+    brightWhite: 88.7

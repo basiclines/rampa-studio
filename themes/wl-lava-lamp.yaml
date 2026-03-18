@@ -1,0 +1,49 @@
+name: "WL-Lava Lamp"
+source:
+  marketplace_id: "WatkinsLabs.lava-lamp"
+  version: "1.0.1"
+  installs: 18
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.lava-lamp"
+colors:
+  bg: "#FCE8D7"
+  fg: "#805A3B"
+  black: "#000000"
+  red: "#B23030"
+  green: "#D6853F"
+  yellow: "#FF6400"
+  blue: "#FFA276"
+  magenta: "#FFD1B8"
+  cyan: "#FFA276"
+  white: "#805A3B"
+  brightBlack: "#666666"
+  brightRed: "#B23030"
+  brightGreen: "#D6853F"
+  brightYellow: "#FF6400"
+  brightBlue: "#FFA276"
+  brightMagenta: "#FFD1B8"
+  brightCyan: "#FFA276"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 63
+  contrast:
+    fg: 68.7
+    black: 94.4
+    red: 68.2
+    green: 43.1
+    yellow: 43.5
+    blue: 26
+    magenta: 7.4
+    cyan: 26
+    white: 68.7
+    brightBlack: 67.1
+    brightRed: 68.2
+    brightGreen: 43.1
+    brightYellow: 43.5
+    brightBlue: 26
+    brightMagenta: 7.4
+    brightCyan: 26
+    brightWhite: 10.7

@@ -1,0 +1,49 @@
+name: "darkness_of_my_soul"
+source:
+  marketplace_id: "rnmazouz.darkness-of-my-soul"
+  version: "1.1.0"
+  installs: 127
+  author: "rnmazouz"
+  repo: "https://github.com/rayan-mazouz/darkness_of_my_soul"
+  url: "https://marketplace.visualstudio.com/items?itemName=rnmazouz.darkness-of-my-soul"
+colors:
+  bg: "#222630"
+  fg: "#E5D0E3"
+  black: "#010409"
+  red: "#EE1B26"
+  green: "#00A676"
+  yellow: "#EDF86C"
+  blue: "#47A3FF"
+  magenta: "#BE89B8"
+  cyan: "#33829D"
+  white: "#FEFEFE"
+  brightBlack: "#041025"
+  brightRed: "#F2545B"
+  brightGreen: "#30B76D"
+  brightYellow: "#E6F53D"
+  brightBlue: "#B0D7FF"
+  brightMagenta: "#E5D0E3"
+  brightCyan: "#7AB6CD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 30.7
+    green: 41
+    yellow: 94.3
+    blue: 47.7
+    magenta: 44.7
+    cyan: 28.6
+    white: 104.1
+    brightBlack: 0
+    brightRed: 38.3
+    brightGreen: 48.7
+    brightYellow: 91.4
+    brightBlue: 76.8
+    brightMagenta: 78.7
+    brightCyan: 55.1
+    brightWhite: 104.8

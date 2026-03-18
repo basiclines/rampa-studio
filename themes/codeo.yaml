@@ -1,0 +1,49 @@
+name: "Codeo"
+source:
+  marketplace_id: "JithinVijayan.codeo"
+  version: "1.2.0"
+  installs: 127
+  author: "Jithin Vijayan"
+  repo: "https://github.com/itsmeJithin/codeo"
+  url: "https://marketplace.visualstudio.com/items?itemName=JithinVijayan.codeo"
+colors:
+  bg: "#011627"
+  fg: "#D6DEEB"
+  black: "#011627"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#6CC0FF"
+  magenta: "#EC7FFF"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#6CC0FF"
+  brightMagenta: "#EC7FFF"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 244
+  contrast:
+    fg: 85.3
+    black: 0
+    red: 39.4
+    green: 67.3
+    yellow: 82.1
+    blue: 63.5
+    magenta: 55.8
+    cyan: 59.8
+    white: 107
+    brightBlack: 15.7
+    brightRed: 39.4
+    brightGreen: 67.3
+    brightYellow: 93.8
+    brightBlue: 63.5
+    brightMagenta: 55.8
+    brightCyan: 74.1
+    brightWhite: 107

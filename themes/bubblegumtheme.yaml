@@ -1,0 +1,49 @@
+name: "bubbleGumTheme"
+source:
+  marketplace_id: "MarioFernndezEstvez.bubblegumtheme"
+  version: "0.0.2"
+  installs: 463
+  author: "Mario Fernández Estévez"
+  repo: "https://github.com/mariof99/bubbleGumTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MarioFernndezEstvez.bubblegumtheme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#4F4F4F"
+  red: "#FF0083"
+  green: "#00FF9D"
+  yellow: "#AFFF00"
+  blue: "#F100EF"
+  magenta: "#D900D8"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#686868"
+  brightRed: "#FF0083"
+  brightGreen: "#00FF98"
+  brightYellow: "#AFFF00"
+  brightBlue: "#FF1CD1"
+  brightMagenta: "#F100EF"
+  brightCyan: "#00CFFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 13.8
+    red: 39.4
+    green: 88.3
+    yellow: 93.3
+    blue: 41.8
+    magenta: 35
+    cyan: 48.6
+    white: 107.9
+    brightBlack: 23.9
+    brightRed: 39.4
+    brightGreen: 88.2
+    brightYellow: 93.3
+    brightBlue: 43.5
+    brightMagenta: 41.8
+    brightCyan: 68.6
+    brightWhite: 91

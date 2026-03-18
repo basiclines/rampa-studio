@@ -1,0 +1,49 @@
+name: "Mystico - Forest & Ocean"
+source:
+  marketplace_id: "Chibantichic.mystico"
+  version: "0.4.0"
+  installs: 443
+  author: "Chibantichic"
+  repo: "https://github.com/chibanti/mystico-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Chibantichic.mystico"
+colors:
+  bg: "#011324"
+  fg: "#D4D4D4"
+  black: "#4D4444"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#8E8C8C"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 246
+  contrast:
+    fg: 79.8
+    black: 9.9
+    red: 27
+    green: 53.3
+    yellow: 85.9
+    blue: 27.7
+    magenta: 30.1
+    cyan: 47.9
+    white: 90.3
+    brightBlack: 40.1
+    brightRed: 38.9
+    brightGreen: 63.9
+    brightYellow: 96
+    brightBlue: 40.3
+    brightMagenta: 45.7
+    brightCyan: 55.7
+    brightWhite: 90.3

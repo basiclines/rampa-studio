@@ -1,0 +1,49 @@
+name: "Jartur"
+source:
+  marketplace_id: "Jartur.j-artur-theme"
+  version: "0.10.7"
+  installs: 220
+  author: "Jartur"
+  repo: "https://github.com/j-artur/j-artur-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Jartur.j-artur-theme"
+colors:
+  bg: "#111316"
+  fg: "#A3ABB8"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#6CDD5F"
+  yellow: "#F1FA8C"
+  blue: "#4AA5F0"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#7CED71"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 55.8
+    black: 9.2
+    red: 37.1
+    green: 71.1
+    yellow: 98.9
+    blue: 50
+    magenta: 54.9
+    cyan: 84.3
+    white: 102.3
+    brightBlack: 15.8
+    brightRed: 46.4
+    brightGreen: 80.3
+    brightYellow: 103.9
+    brightBlue: 64.1
+    brightMagenta: 63
+    brightCyan: 97.1
+    brightWhite: 107.2

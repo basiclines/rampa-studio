@@ -1,0 +1,49 @@
+name: "npp-color light hard"
+source:
+  marketplace_id: "gaoyia.npp-theme"
+  version: "0.0.1"
+  installs: 364
+  author: "gaoyia"
+  repo: "https://github.com/gaoyia/npp-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gaoyia.npp-theme"
+colors:
+  bg: "#F9F5D7"
+  fg: "#3F4249"
+  black: "#4A505D"
+  red: "#F81141"
+  green: "#23974A"
+  yellow: "#FD7E57"
+  blue: "#285BFF"
+  magenta: "#8C62FD"
+  cyan: "#3A8AB2"
+  white: "#CCD5E5"
+  brightBlack: "#61697A"
+  brightRed: "#FC4A6D"
+  brightGreen: "#37BD58"
+  brightYellow: "#F6BE48"
+  brightBlue: "#199FFD"
+  brightMagenta: "#FC58F6"
+  brightCyan: "#50ACAE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 86.8
+    black: 81.4
+    red: 58.8
+    green: 58
+    yellow: 42.4
+    blue: 68.3
+    magenta: 60
+    cyan: 59.1
+    white: 15.9
+    brightBlack: 70.9
+    brightRed: 52.6
+    brightGreen: 41
+    brightYellow: 23.5
+    brightBlue: 47.1
+    brightMagenta: 44.2
+    brightCyan: 45.1
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Dark Sky - Fork - Fork"
+source:
+  marketplace_id: "HarryL.harry-dark-5"
+  version: "1.0.2"
+  installs: 48
+  author: "HarryL"
+  repo: "https://github.com/harrylynchh/my-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HarryL.harry-dark-5"
+colors:
+  bg: "#080808"
+  fg: "#D9D4D4"
+  black: "#141414"
+  red: "#FF5555"
+  green: "#98EC65"
+  yellow: "#FFCC33"
+  blue: "#00AAFF"
+  magenta: "#AA88FF"
+  cyan: "#88DDFF"
+  white: "#E7E7E7"
+  brightBlack: "#414141"
+  brightRed: "#FF8888"
+  brightGreen: "#B6F292"
+  brightYellow: "#FFD966"
+  brightBlue: "#33BBFF"
+  brightMagenta: "#CEBBFF"
+  brightCyan: "#BBECFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 81.1
+    black: 0
+    red: 44.3
+    green: 82.2
+    yellow: 79.6
+    blue: 52.5
+    magenta: 49
+    cyan: 79.1
+    white: 92.2
+    brightBlack: 8.7
+    brightRed: 57.1
+    brightGreen: 88.7
+    brightYellow: 85.7
+    brightBlue: 60
+    brightMagenta: 71.5
+    brightCyan: 90.5
+    brightWhite: 107.8

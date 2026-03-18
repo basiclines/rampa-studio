@@ -1,0 +1,49 @@
+name: "BlueSpace S"
+source:
+  marketplace_id: "YesCode.bluespace"
+  version: "0.0.22"
+  installs: 208
+  author: "YesCode"
+  repo: "https://github.com/yesomac/BlueSpaceVSC"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.bluespace"
+colors:
+  bg: "#16181F"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#BDEFFA"
+  brightYellow: "#E7F0FF"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 273
+  contrast:
+    fg: 104.4
+    black: 0
+    red: 41.8
+    green: 60.8
+    yellow: 72.9
+    blue: 47.4
+    magenta: 19.4
+    cyan: 49.3
+    white: 47.1
+    brightBlack: 18.5
+    brightRed: 41.8
+    brightGreen: 90.8
+    brightYellow: 96.4
+    brightBlue: 18.6
+    brightMagenta: 19.4
+    brightCyan: 49.3
+    brightWhite: 98.7

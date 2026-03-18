@@ -1,0 +1,49 @@
+name: "Ash Lumen Light"
+source:
+  marketplace_id: "edfl.ash-lumen"
+  version: "0.1.0"
+  installs: 9
+  author: "edfl"
+  repo: "https://github.com/emersxw/edfl"
+  url: "https://marketplace.visualstudio.com/items?itemName=edfl.ash-lumen"
+colors:
+  bg: "#EEEEEE"
+  fg: "#505050"
+  black: "#505050"
+  red: "#806060"
+  green: "#607060"
+  yellow: "#808060"
+  blue: "#607080"
+  magenta: "#706070"
+  cyan: "#607070"
+  white: "#808080"
+  brightBlack: "#A0A0A0"
+  brightRed: "#705050"
+  brightGreen: "#506050"
+  brightYellow: "#707050"
+  brightBlue: "#506070"
+  brightMagenta: "#605060"
+  brightCyan: "#506060"
+  brightWhite: "#404040"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 77.9
+    black: 77.9
+    red: 67.8
+    green: 66.1
+    yellow: 57.7
+    blue: 65
+    magenta: 69.1
+    cyan: 65.6
+    white: 56.8
+    brightBlack: 40.9
+    brightRed: 74.5
+    brightGreen: 73
+    brightYellow: 65.1
+    brightBlue: 72
+    brightMagenta: 75.8
+    brightCyan: 72.6
+    brightWhite: 84

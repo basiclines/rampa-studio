@@ -1,0 +1,49 @@
+name: "WhiteSpace"
+source:
+  marketplace_id: "YesCode.inspiration"
+  version: "0.0.19"
+  installs: 1076
+  author: "YesCode"
+  repo: "https://github.com/yesomac/inspiration_themevsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.inspiration"
+colors:
+  bg: "#ECFCF0"
+  fg: "#001A0C"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#626D65"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 100.5
+    black: 99.1
+    red: 54.5
+    green: 36
+    yellow: 24.5
+    blue: 49.1
+    magenta: 77.1
+    cyan: 47.2
+    white: 49.3
+    brightBlack: 78
+    brightRed: 54.5
+    brightGreen: 72.6
+    brightYellow: 18.2
+    brightBlue: 77.9
+    brightMagenta: 77.1
+    brightCyan: 47.2
+    brightWhite: 0

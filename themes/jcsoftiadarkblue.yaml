@@ -1,0 +1,49 @@
+name: "jcsoftiaDarkBlue"
+source:
+  marketplace_id: "JCsoftIA.JCsoftIA"
+  version: "1.5.3"
+  installs: 8460
+  author: "Dark Black Theme jcsoftia"
+  repo: "https://github.com/jcsoftia/ThemeVisualStudioCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=JCsoftIA.JCsoftIA"
+colors:
+  bg: "#00050C"
+  fg: "#B6FFFF"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#00BCD4"
+  brightBlack: "#808E95"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 241
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 44.4
+    green: 85.9
+    yellow: 99.5
+    blue: 54.6
+    magenta: 55.5
+    cyan: 84.9
+    white: 57.5
+    brightBlack: 40.4
+    brightRed: 49.8
+    brightGreen: 90
+    brightYellow: 104.5
+    brightBlue: 67.1
+    brightMagenta: 63.6
+    brightCyan: 97.8
+    brightWhite: 107.8

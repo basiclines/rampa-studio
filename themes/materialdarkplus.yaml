@@ -1,0 +1,49 @@
+name: "materialdarkplus"
+source:
+  marketplace_id: "SteveSevetS.materialdarkplus"
+  version: "0.0.1"
+  installs: 641
+  author: "SteveSevetS"
+  repo: "https://github.com/SteveSevetS/materialdarkplus"
+  url: "https://marketplace.visualstudio.com/items?itemName=SteveSevetS.materialdarkplus"
+colors:
+  bg: "#1E1E1E"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#545454"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 103.7
+    black: 0
+    red: 42.8
+    green: 83.4
+    yellow: 78.1
+    blue: 55.1
+    magenta: 52.9
+    cyan: 77.4
+    white: 106
+    brightBlack: 13.9
+    brightRed: 42.8
+    brightGreen: 83.4
+    brightYellow: 78.1
+    brightBlue: 55.1
+    brightMagenta: 52.9
+    brightCyan: 77.4
+    brightWhite: 106

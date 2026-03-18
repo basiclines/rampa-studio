@@ -1,0 +1,49 @@
+name: "Miramare"
+source:
+  marketplace_id: "FranciscoBach.miramare"
+  version: "0.0.2"
+  installs: 619
+  author: "Francisco Bach"
+  repo: "https://github.com/franbach/miramare-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=FranciscoBach.miramare"
+colors:
+  bg: "#2A2426"
+  fg: "#E6D6AC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 24.7
+    green: 51
+    yellow: 83.6
+    blue: 25.4
+    magenta: 27.8
+    cyan: 45.6
+    white: 88
+    brightBlack: 20
+    brightRed: 36.6
+    brightGreen: 61.5
+    brightYellow: 93.6
+    brightBlue: 38
+    brightMagenta: 43.4
+    brightCyan: 53.4
+    brightWhite: 88

@@ -1,0 +1,49 @@
+name: "Phosphor Neon Noir"
+source:
+  marketplace_id: "glidebuild.phosphor-themes"
+  version: "1.0.0"
+  installs: 40
+  author: "glide.build"
+  repo: "https://github.com/mo-shawa/phosphor-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=glidebuild.phosphor-themes"
+colors:
+  bg: "#0D0D18"
+  fg: "#C5C5D0"
+  black: "#1A1A28"
+  red: "#FF2A6D"
+  green: "#39FF14"
+  yellow: "#FFF200"
+  blue: "#05D9E8"
+  magenta: "#D400FF"
+  cyan: "#00FFFF"
+  white: "#C5C5D0"
+  brightBlack: "#5A5A70"
+  brightRed: "#FF6B9D"
+  brightGreen: "#7FFF00"
+  brightYellow: "#FFFF7F"
+  brightBlue: "#7FECFF"
+  brightMagenta: "#FF7FFF"
+  brightCyan: "#7FFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 284
+  contrast:
+    fg: 71.7
+    black: 0
+    red: 39.6
+    green: 86.6
+    yellow: 96.1
+    blue: 71.6
+    magenta: 36.7
+    cyan: 91.8
+    white: 71.7
+    brightBlack: 18.5
+    brightRed: 50.3
+    brightGreen: 89.3
+    brightYellow: 103.4
+    brightBlue: 85.4
+    brightMagenta: 60
+    brightCyan: 94.9
+    brightWhite: 107.6

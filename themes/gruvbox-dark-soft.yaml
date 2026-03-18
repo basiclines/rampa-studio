@@ -1,0 +1,49 @@
+name: "Gruvbox Dark Soft"
+source:
+  marketplace_id: "MrMartian.gruvbox-dark-moist"
+  version: "0.0.1"
+  installs: 896
+  author: "MrMartian"
+  repo: "https://github.com/CraigglesO/gruvbox-dark-moist-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MrMartian.gruvbox-dark-moist"
+colors:
+  bg: "#2C3338"
+  fg: "#CABFA4"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#DC7B7C"
+  brightGreen: "#9BB37A"
+  brightYellow: "#D4B77C"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#9DB579"
+  brightWhite: "#CABFA4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 239
+  contrast:
+    fg: 62.8
+    black: 0
+    red: 20.7
+    green: 38.3
+    yellow: 47.9
+    blue: 27
+    magenta: 27.1
+    cyan: 37.3
+    white: 42.6
+    brightBlack: 31.8
+    brightRed: 40.8
+    brightGreen: 51.1
+    brightYellow: 59.8
+    brightBlue: 44
+    brightMagenta: 43.4
+    brightCyan: 52.1
+    brightWhite: 62.8

@@ -1,0 +1,49 @@
+name: "HyperVoxel"
+source:
+  marketplace_id: "MohamedAfraz.hypervoxel"
+  version: "1.6.3"
+  installs: 141
+  author: "Mohamed Afraz"
+  repo: "https://github.com/MohamedAfraz/HyperVoxel"
+  url: "https://marketplace.visualstudio.com/items?itemName=MohamedAfraz.hypervoxel"
+colors:
+  bg: "#181B34"
+  fg: "#E1E1E6"
+  black: "#4D4D4D"
+  red: "#FF615E"
+  green: "#37F18B"
+  yellow: "#F6FFBE"
+  blue: "#03C3FD"
+  magenta: "#EDAAF7"
+  cyan: "#80FCFF"
+  white: "#9BB4B1"
+  brightBlack: "#676E95"
+  brightRed: "#FF4751"
+  brightGreen: "#58FB1C"
+  brightYellow: "#F5F543"
+  brightBlue: "#00ABFF"
+  brightMagenta: "#FB91F6"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 277
+  contrast:
+    fg: 87
+    black: 11.3
+    red: 45
+    green: 79.1
+    yellow: 102.3
+    blue: 61.3
+    magenta: 67.7
+    cyan: 92
+    white: 57.2
+    brightBlack: 25.7
+    brightRed: 40.5
+    brightGreen: 83.9
+    brightYellow: 94.9
+    brightBlue: 51.2
+    brightMagenta: 62.1
+    brightCyan: 90.4
+    brightWhite: 106.1

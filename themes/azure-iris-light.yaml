@@ -1,0 +1,49 @@
+name: "Azure Iris Light"
+source:
+  marketplace_id: "Codetown-3.azure-iris-theme"
+  version: "0.0.39"
+  installs: 109
+  author: "Lielisk"
+  repo: "https://github.com/your-username/azure-iris-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Codetown-3.azure-iris-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#424242"
+  black: "#000000"
+  red: "#F44336"
+  green: "#4CAF50"
+  yellow: "#FF9800"
+  blue: "#3B6CF6"
+  magenta: "#E91E63"
+  cyan: "#00BCD4"
+  white: "#424242"
+  brightBlack: "#424242"
+  brightRed: "#F44336"
+  brightGreen: "#4CAF50"
+  brightYellow: "#FFEB3B"
+  brightBlue: "#3B6CF6"
+  brightMagenta: "#E91E63"
+  brightCyan: "#00BCD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 93.4
+    black: 106
+    red: 63
+    green: 53.3
+    yellow: 41.8
+    blue: 70.7
+    magenta: 68
+    cyan: 44.6
+    white: 93.4
+    brightBlack: 93.4
+    brightRed: 63
+    brightGreen: 53.3
+    brightYellow: 10.7
+    brightBlue: 70.7
+    brightMagenta: 68
+    brightCyan: 44.6
+    brightWhite: 0

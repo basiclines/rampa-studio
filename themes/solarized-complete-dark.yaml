@@ -1,0 +1,49 @@
+name: "Solarized Complete (Dark)"
+source:
+  marketplace_id: "AH-oss.solarized-complete"
+  version: "1.2.0"
+  installs: 93
+  author: "AH-oss"
+  repo: "https://github.com/jmatilai/solarized-complete"
+  url: "https://marketplace.visualstudio.com/items?itemName=AH-oss.solarized-complete"
+colors:
+  bg: "#002B36"
+  fg: "#839496"
+  black: "#002B36"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#6C71C4"
+  cyan: "#2AA198"
+  white: "#93A1A1"
+  brightBlack: "#657B83"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#2AA198"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  contrast:
+    fg: 39.5
+    black: 0
+    red: 27.7
+    green: 39.2
+    yellow: 39.2
+    blue: 34.3
+    magenta: 28
+    cyan: 40
+    white: 46.4
+    brightBlack: 27.3
+    brightRed: 27.7
+    brightGreen: 39.2
+    brightYellow: 39.2
+    brightBlue: 34.3
+    brightMagenta: 28
+    brightCyan: 40
+    brightWhite: 98.6

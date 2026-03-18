@@ -1,0 +1,49 @@
+name: "Lotus Flat Dusk"
+source:
+  marketplace_id: "alewtschuk.lotus-flat-dark-theme"
+  version: "2.0.0"
+  installs: 394
+  author: "alewtschuk"
+  repo: "https://github.com/alewtschuk/lotus-flat-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=alewtschuk.lotus-flat-dark-theme"
+colors:
+  bg: "#131419"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 276
+  contrast:
+    fg: 59.6
+    black: 9.1
+    red: 37
+    green: 60.6
+    yellow: 48.8
+    blue: 49.9
+    magenta: 39.3
+    cyan: 52.8
+    white: 83.3
+    brightBlack: 15.7
+    brightRed: 46.3
+    brightGreen: 77
+    brightYellow: 61.5
+    brightBlue: 64
+    brightMagenta: 50.5
+    brightCyan: 68.1
+    brightWhite: 90.9

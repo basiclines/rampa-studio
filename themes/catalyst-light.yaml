@@ -1,0 +1,49 @@
+name: "Catalyst Light"
+source:
+  marketplace_id: "hyphenzero.catalyst-theme"
+  version: "2.0.1"
+  installs: 992
+  author: "Jasper Gorchov"
+  repo: "https://github.com/hyphenzero/tailwind-catalyst-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=hyphenzero.catalyst-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#1E293B"
+  black: "#000000"
+  red: "#BE123C"
+  green: "#059669"
+  yellow: "#D97706"
+  blue: "#1D4ED8"
+  magenta: "#7E22CE"
+  cyan: "#0891B2"
+  white: "#94A3B8"
+  brightBlack: "#64748B"
+  brightRed: "#E11D48"
+  brightGreen: "#10B981"
+  brightYellow: "#F59E0B"
+  brightBlue: "#2563EB"
+  brightMagenta: "#9333EA"
+  brightCyan: "#06B6D4"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 101.4
+    black: 106
+    red: 79.2
+    green: 64.6
+    yellow: 58.5
+    blue: 82.2
+    magenta: 82.8
+    cyan: 63.8
+    white: 50.2
+    brightBlack: 73
+    brightRed: 70.5
+    brightGreen: 49.1
+    brightYellow: 41.8
+    brightBlue: 74.9
+    brightMagenta: 75.6
+    brightCyan: 47.1
+    brightWhite: 106

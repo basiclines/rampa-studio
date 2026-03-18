@@ -1,0 +1,49 @@
+name: "Orangey (Darker 1)"
+source:
+  marketplace_id: "ricafolio.orangey-vscode-theme"
+  version: "1.1.1"
+  installs: 969
+  author: "ricafolio"
+  repo: "https://github.com/ricafolio/orangey-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ricafolio.orangey-vscode-theme"
+colors:
+  bg: "#141414"
+  fg: "#F2E4DB"
+  black: "#000000"
+  red: "#EF4823"
+  green: "#82B200"
+  yellow: "#EFD023"
+  blue: "#023E8A"
+  magenta: "#B200A9"
+  cyan: "#0096C7"
+  white: "#CAC8A9"
+  brightBlack: "#666666"
+  brightRed: "#F37256"
+  brightGreen: "#DEFF39"
+  brightYellow: "#F3DB56"
+  brightBlue: "#0077B6"
+  brightMagenta: "#EE00E2"
+  brightCyan: "#00B4D8"
+  brightWhite: "#B2B184"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 37.4
+    green: 52
+    yellow: 78
+    blue: 8.8
+    magenta: 23.2
+    cyan: 40.2
+    white: 71.6
+    brightBlack: 22.3
+    brightRed: 47
+    brightGreen: 97.7
+    brightYellow: 83.8
+    brightBlue: 27.9
+    brightMagenta: 39.5
+    brightCyan: 53.5
+    brightWhite: 58

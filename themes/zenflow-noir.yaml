@@ -1,0 +1,49 @@
+name: "ZenFlow Noir"
+source:
+  marketplace_id: "Demise.zenflow"
+  version: "0.0.2"
+  installs: 122
+  author: "Demise"
+  repo: "https://github.com/Demiserular/Zenflow--vsTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Demise.zenflow"
+colors:
+  bg: "#0A0A0E"
+  fg: "#E0E0E8"
+  black: "#1A1A25"
+  red: "#E74C3C"
+  green: "#2ECC71"
+  yellow: "#F39C12"
+  blue: "#3498DB"
+  magenta: "#9B59B6"
+  cyan: "#2ECCDB"
+  white: "#E0E0E8"
+  brightBlack: "#707080"
+  brightRed: "#E74C3C"
+  brightGreen: "#2ECC71"
+  brightYellow: "#F39C12"
+  brightBlue: "#3498DB"
+  brightMagenta: "#9B59B6"
+  brightCyan: "#2ECCDB"
+  brightWhite: "#E0E0E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.1
+    black: 0
+    red: 36.9
+    green: 61.5
+    yellow: 59.3
+    blue: 43.3
+    magenta: 29.4
+    cyan: 65.3
+    white: 88.1
+    brightBlack: 27.8
+    brightRed: 36.9
+    brightGreen: 61.5
+    brightYellow: 59.3
+    brightBlue: 43.3
+    brightMagenta: 29.4
+    brightCyan: 65.3
+    brightWhite: 88.1

@@ -1,0 +1,49 @@
+name: "ForestLook"
+source:
+  marketplace_id: "Th3SmiL3y.forestlook"
+  version: "1.1.5"
+  installs: 1044
+  author: "Th3SmiL3y"
+  repo: "https://github.com/Th3SmiL3y/forestlook-theme-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Th3SmiL3y.forestlook"
+colors:
+  bg: "#242221"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF3838"
+  green: "#0DBC79"
+  yellow: "#FFFF36"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#5A5A5A"
+  brightRed: "#FF3535"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFFF36"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 105.4
+    black: 0
+    red: 37.6
+    green: 51.5
+    yellow: 100.4
+    blue: 26
+    magenta: 28.3
+    cyan: 46.1
+    white: 88.5
+    brightBlack: 15.6
+    brightRed: 37.3
+    brightGreen: 62.1
+    brightYellow: 100.4
+    brightBlue: 38.5
+    brightMagenta: 43.9
+    brightCyan: 53.9
+    brightWhite: 88.5

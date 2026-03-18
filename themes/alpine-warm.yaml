@@ -1,0 +1,49 @@
+name: "Alpine-Warm"
+source:
+  marketplace_id: "Hyperbolic-Labs.Alpine-Warm"
+  version: "0.0.1"
+  installs: 788
+  author: "Hyperbolic-Labs"
+  repo: "https://github.com/Hyperbolic-Labs/alpine-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Hyperbolic-Labs.Alpine-Warm"
+colors:
+  bg: "#22262A"
+  fg: "#D0D0D0"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#D5C4A1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 75.1
+    black: 0
+    red: 23.3
+    green: 40.9
+    yellow: 50.5
+    blue: 29.6
+    magenta: 29.7
+    cyan: 40
+    white: 45.2
+    brightBlack: 34.4
+    brightRed: 38.2
+    brightGreen: 59.2
+    brightYellow: 69.8
+    brightBlue: 46.6
+    brightMagenta: 46
+    brightCyan: 58.1
+    brightWhite: 68.9

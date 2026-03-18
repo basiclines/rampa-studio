@@ -1,0 +1,49 @@
+name: "Invi"
+source:
+  marketplace_id: "Siris.invi"
+  version: "0.2.2"
+  installs: 635
+  author: "Siris"
+  repo: "https://github.com/Siris01/invi-vsc-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Siris.invi"
+colors:
+  bg: "#1A1B26"
+  fg: "#A9B1D6"
+  black: "#565869"
+  red: "#FF577F"
+  green: "#2DAE58"
+  yellow: "#FFCC00"
+  blue: "#5DD9FF"
+  magenta: "#FF577F"
+  cyan: "#04D1BC"
+  white: "#FAFBF9"
+  brightBlack: "#75798F"
+  brightRed: "#FFAEAC"
+  brightGreen: "#B3FF63"
+  brightYellow: "#F5B900"
+  brightBlue: "#14B1FF"
+  brightMagenta: "#FF94D2"
+  brightCyan: "#04D1BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 59.3
+    black: 16.1
+    red: 44.1
+    green: 45.8
+    yellow: 78
+    blue: 73.4
+    magenta: 44.1
+    cyan: 64.5
+    white: 103.4
+    brightBlack: 30.4
+    brightRed: 68.9
+    brightGreen: 92.6
+    brightYellow: 68.7
+    brightBlue: 53.9
+    brightMagenta: 62
+    brightCyan: 64.5
+    brightWhite: 106.3

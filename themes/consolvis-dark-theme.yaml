@@ -1,0 +1,49 @@
+name: "Consolvis Dark Theme"
+source:
+  marketplace_id: "Consolvis.consolvis-vscode-theme"
+  version: "1.0.1"
+  installs: 222
+  author: "Consolvis"
+  repo: "https://github.com/Consolvis/consolvis-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Consolvis.consolvis-vscode-theme"
+colors:
+  bg: "#111827"
+  fg: "#9CA3AF"
+  black: "#030712"
+  red: "#F87171"
+  green: "#A3E635"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#FB923C"
+  cyan: "#22D3EE"
+  white: "#E5E7EB"
+  brightBlack: "#1F2937"
+  brightRed: "#DC2626"
+  brightGreen: "#4D7C0F"
+  brightYellow: "#B45309"
+  brightBlue: "#1D4ED8"
+  brightMagenta: "#EA580C"
+  brightCyan: "#0891B2"
+  brightWhite: "#6B7280"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 265
+  contrast:
+    fg: 51
+    black: 0
+    red: 47.9
+    green: 78.5
+    yellow: 72.6
+    blue: 51.2
+    magenta: 56.8
+    cyan: 68.4
+    white: 91
+    brightBlack: 0
+    brightRed: 29
+    brightGreen: 26.2
+    brightYellow: 26.5
+    brightBlue: 18.6
+    brightMagenta: 38.4
+    brightCyan: 36.7
+    brightWhite: 27

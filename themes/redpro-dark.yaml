@@ -1,0 +1,49 @@
+name: "RedPro Dark"
+source:
+  marketplace_id: "DaGhostman.red-pro-theme"
+  version: "1.0.2"
+  installs: 633
+  author: "Dimitar Dimitrov"
+  repo: "https://github.com/DaGhostman/vs-red-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DaGhostman.red-pro-theme"
+colors:
+  bg: "#111112"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 59.9
+    black: 0
+    red: 42.6
+    green: 62.8
+    yellow: 71.1
+    blue: 55.2
+    magenta: 45.6
+    cyan: 55.1
+    white: 83.5
+    brightBlack: 36
+    brightRed: 38.9
+    brightGreen: 62.8
+    brightYellow: 71.1
+    brightBlue: 42
+    brightMagenta: 13.2
+    brightCyan: 55.1
+    brightWhite: 83.5

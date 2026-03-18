@@ -1,0 +1,49 @@
+name: "CyberpunkCygnus Clear Grid"
+source:
+  marketplace_id: "ai-acc.cyberpunkcygnus"
+  version: "0.2.17"
+  installs: 454
+  author: "AI Acc"
+  repo: "https://github.com/sascharo/"
+  url: "https://marketplace.visualstudio.com/items?itemName=ai-acc.cyberpunkcygnus"
+colors:
+  bg: "#FFFFFF"
+  fg: "#050505"
+  black: "#343A40"
+  red: "#A13D3A"
+  green: "#00CC8E"
+  yellow: "#A06D1A"
+  blue: "#0066FF"
+  magenta: "#9933FF"
+  cyan: "#00B4CC"
+  white: "#ADB5BD"
+  brightBlack: "#495057"
+  brightRed: "#FF3355"
+  brightGreen: "#00FF9D"
+  brightYellow: "#FFBB00"
+  brightBlue: "#0099FF"
+  brightMagenta: "#FF00AA"
+  brightCyan: "#00EEFF"
+  brightWhite: "#050505"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 106
+    black: 96.5
+    red: 81.4
+    green: 40.2
+    yellow: 70.8
+    blue: 72.4
+    magenta: 72.7
+    cyan: 48.4
+    white: 40.5
+    brightBlack: 88.3
+    brightRed: 61.6
+    brightGreen: 15.5
+    brightYellow: 30
+    brightBlue: 55.9
+    brightMagenta: 60.8
+    brightCyan: 19.9
+    brightWhite: 106

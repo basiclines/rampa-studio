@@ -1,0 +1,49 @@
+name: "Gentle Midnight"
+source:
+  marketplace_id: "carlossalguero.gentle-theme"
+  version: "1.0.0"
+  installs: 109
+  author: "carlossalguero"
+  repo: "https://github.com/salgue441/gentle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlossalguero.gentle-theme"
+colors:
+  bg: "#0D0F12"
+  fg: "#C8CCD4"
+  black: "#15181E"
+  red: "#E07070"
+  green: "#70B080"
+  yellow: "#E0B050"
+  blue: "#5090D0"
+  magenta: "#B080C0"
+  cyan: "#60B0B0"
+  white: "#C8CCD4"
+  brightBlack: "#3A4050"
+  brightRed: "#F09090"
+  brightGreen: "#90D0A0"
+  brightYellow: "#F0D080"
+  brightBlue: "#80B0E0"
+  brightMagenta: "#D0A0E0"
+  brightCyan: "#80D0D0"
+  brightWhite: "#E8ECF0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 75.2
+    black: 0
+    red: 43.6
+    green: 51.6
+    yellow: 63.4
+    blue: 40.4
+    magenta: 43
+    cyan: 52.3
+    white: 75.2
+    brightBlack: 8.1
+    brightRed: 56.5
+    brightGreen: 69.2
+    brightYellow: 79.6
+    brightBlue: 56.8
+    brightMagenta: 59.8
+    brightCyan: 69.8
+    brightWhite: 94.8

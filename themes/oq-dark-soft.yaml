@@ -1,0 +1,49 @@
+name: "oQ Dark Soft"
+source:
+  marketplace_id: "froQ.theme-oq"
+  version: "0.0.7"
+  installs: 16
+  author: "froQ"
+  repo: "https://github.com/Fro-Q/vscode-theme-oq"
+  url: "https://marketplace.visualstudio.com/items?itemName=froQ.theme-oq"
+colors:
+  bg: "#272828"
+  fg: "#B7B3B0"
+  black: "#272828"
+  red: "#E79A9A"
+  green: "#69C493"
+  yellow: "#D7B366"
+  blue: "#6FA8F0"
+  magenta: "#B57AA7"
+  cyan: "#68B7B7"
+  white: "#FFF9F5"
+  brightBlack: "#272727"
+  brightRed: "#A45B5B"
+  brightGreen: "#387A55"
+  brightYellow: "#916F3B"
+  brightBlue: "#3F6496"
+  brightMagenta: "#774D70"
+  brightCyan: "#3A7878"
+  brightWhite: "#FFF9F5"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  contrast:
+    fg: 58.2
+    black: 0
+    red: 55.3
+    green: 57.5
+    yellow: 60.4
+    blue: 50.4
+    magenta: 37.7
+    cyan: 53
+    white: 101.2
+    brightBlack: 0
+    brightRed: 24.2
+    brightGreen: 23.1
+    brightYellow: 26.2
+    brightBlue: 18.4
+    brightMagenta: 15.1
+    brightCyan: 23.4
+    brightWhite: 101.2

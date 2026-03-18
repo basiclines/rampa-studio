@@ -1,0 +1,49 @@
+name: "Night-Stack Ember Dark"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0B0604"
+  fg: "#FFE7D6"
+  black: "#1A0E08"
+  red: "#FF6A3D"
+  green: "#FFB347"
+  yellow: "#FFC857"
+  blue: "#FF8C42"
+  magenta: "#FF7A59"
+  cyan: "#FFD0A8"
+  white: "#FFE7D6"
+  brightBlack: "#1A0E08"
+  brightRed: "#FF6A3D"
+  brightGreen: "#FFB347"
+  brightYellow: "#FFC857"
+  brightBlue: "#FF8C42"
+  brightMagenta: "#FF7A59"
+  brightCyan: "#FFD0A8"
+  brightWhite: "#FFE7D6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 50
+  contrast:
+    fg: 94.9
+    black: 0
+    red: 48.1
+    green: 70
+    yellow: 78.3
+    blue: 56.9
+    magenta: 52.3
+    cyan: 83.4
+    white: 94.9
+    brightBlack: 0
+    brightRed: 48.1
+    brightGreen: 70
+    brightYellow: 78.3
+    brightBlue: 56.9
+    brightMagenta: 52.3
+    brightCyan: 83.4
+    brightWhite: 94.9

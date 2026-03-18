@@ -1,0 +1,49 @@
+name: "Eidolon Alter"
+source:
+  marketplace_id: "eidolon.eidolon-theme"
+  version: "4.0.8"
+  installs: 110
+  author: "Eurico Magalhães Neto"
+  repo: "https://github.com/Eurico77/eidolon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eidolon.eidolon-theme"
+colors:
+  bg: "#12121F"
+  fg: "#DADDFF"
+  black: "#1D1D2F"
+  red: "#BD4277"
+  green: "#74D2B7"
+  yellow: "#E5DCA4"
+  blue: "#87BFF7"
+  magenta: "#9486E4"
+  cyan: "#9BE9F8"
+  white: "#D4D7FF"
+  brightBlack: "#4F5071"
+  brightRed: "#BF4A7F"
+  brightGreen: "#7ED7C0"
+  brightYellow: "#ECDFAC"
+  brightBlue: "#8FC8FA"
+  brightMagenta: "#9F95E9"
+  brightCyan: "#AAECF8"
+  brightWhite: "#DADDFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 27.4
+    green: 68.6
+    yellow: 83.9
+    blue: 64.6
+    magenta: 43.3
+    cyan: 85.2
+    white: 83.2
+    brightBlack: 14.6
+    brightRed: 29.3
+    brightGreen: 71.9
+    brightYellow: 86.4
+    brightBlue: 69.3
+    brightMagenta: 49.8
+    brightCyan: 87.9
+    brightWhite: 86.6

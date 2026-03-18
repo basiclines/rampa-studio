@@ -1,0 +1,49 @@
+name: "CMYK colourrrs"
+source:
+  marketplace_id: "techygrrrl.techygrrrl-cmyk-colourrrs"
+  version: "0.2.2"
+  installs: 1382
+  author: "techygrrrl"
+  repo: "https://github.com/techygrrrl/techygrrrl-cmyk-colourrrs-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=techygrrrl.techygrrrl-cmyk-colourrrs"
+colors:
+  bg: "#FFFFFF"
+  fg: "#130E0F"
+  black: "#130E0F"
+  red: "#EF1563"
+  green: "#00CC8F"
+  yellow: "#EBEF15"
+  blue: "#15AEEF"
+  magenta: "#EF15BF"
+  cyan: "#00CC8F"
+  white: "#FFFFFF"
+  brightBlack: "#130E0F"
+  brightRed: "#EF1563"
+  brightGreen: "#00CC8F"
+  brightYellow: "#EBEF15"
+  brightBlue: "#15AEEF"
+  brightMagenta: "#EF15BF"
+  brightCyan: "#00CC8F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 105.5
+    black: 105.5
+    red: 66.9
+    green: 40.2
+    yellow: 11.8
+    blue: 48.8
+    magenta: 63.2
+    cyan: 40.2
+    white: 0
+    brightBlack: 105.5
+    brightRed: 66.9
+    brightGreen: 40.2
+    brightYellow: 11.8
+    brightBlue: 48.8
+    brightMagenta: 63.2
+    brightCyan: 40.2
+    brightWhite: 0

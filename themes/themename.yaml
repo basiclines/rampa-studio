@@ -1,0 +1,49 @@
+name: "themename"
+source:
+  marketplace_id: "carljkempe.night-milk"
+  version: "0.1.0"
+  installs: 1156
+  author: "carljkempe"
+  repo: "https://github.com/carljkempe/night-milk-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carljkempe.night-milk"
+colors:
+  bg: "#15202B"
+  fg: "#BDD2E7"
+  black: "#000000"
+  red: "#FF3838"
+  green: "#3FC56B"
+  yellow: "#F9C859"
+  blue: "#1DA1F2"
+  magenta: "#FF50FF"
+  cyan: "#00DCDC"
+  white: "#BDD2E7"
+  brightBlack: "#5F82A5"
+  brightRed: "#FF3838"
+  brightGreen: "#3FC56B"
+  brightYellow: "#F9C859"
+  brightBlue: "#1DA1F2"
+  brightMagenta: "#FF50FF"
+  brightCyan: "#00DCDC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 249
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 38.1
+    green: 56.6
+    yellow: 75.4
+    blue: 46.1
+    magenta: 49.1
+    cyan: 70.8
+    white: 75.7
+    brightBlack: 32.2
+    brightRed: 38.1
+    brightGreen: 56.6
+    brightYellow: 75.4
+    brightBlue: 46.1
+    brightMagenta: 49.1
+    brightCyan: 70.8
+    brightWhite: 105.9

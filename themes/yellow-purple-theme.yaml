@@ -1,0 +1,49 @@
+name: "Yellow purple theme"
+source:
+  marketplace_id: "davisamasoa.davisamasoa-theme"
+  version: "1.0.4"
+  installs: 951
+  author: "Davi Samuel"
+  repo: "https://github.com/Davisamasoa/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=davisamasoa.davisamasoa-theme"
+colors:
+  bg: "#2A2530"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 306
+  contrast:
+    fg: 104.6
+    black: 0
+    red: 24.4
+    green: 50.7
+    yellow: 83.3
+    blue: 25.2
+    magenta: 27.5
+    cyan: 45.3
+    white: 87.7
+    brightBlack: 19.8
+    brightRed: 36.3
+    brightGreen: 61.3
+    brightYellow: 93.4
+    brightBlue: 37.7
+    brightMagenta: 43.1
+    brightCyan: 53.1
+    brightWhite: 87.7

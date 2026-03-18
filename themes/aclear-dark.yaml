@@ -1,0 +1,49 @@
+name: "aclear-dark"
+source:
+  marketplace_id: "andrewaclear.aclear"
+  version: "0.1.3"
+  installs: 1003
+  author: "Andrew D'Amario"
+  repo: "https://github.com/andrewaclear/aclear-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=andrewaclear.aclear"
+colors:
+  bg: "#CFD3DB"
+  fg: "#575E6B"
+  black: "#C4C9D3"
+  red: "#D13452"
+  green: "#159682"
+  yellow: "#C9A145"
+  blue: "#002E6D"
+  magenta: "#643090"
+  cyan: "#B850A9"
+  white: "#424242"
+  brightBlack: "#BCC1CD"
+  brightRed: "#D13452"
+  brightGreen: "#70C3A9"
+  brightYellow: "#D1B766"
+  brightBlue: "#428BD1"
+  brightMagenta: "#9270D1"
+  brightCyan: "#7EB2D1"
+  brightWhite: "#353535"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 265
+  contrast:
+    fg: 56.6
+    black: 0
+    red: 46.5
+    green: 38.1
+    yellow: 21.8
+    blue: 72.9
+    magenta: 64
+    cyan: 44.3
+    white: 67.6
+    brightBlack: 7.7
+    brightRed: 46.5
+    brightGreen: 14.9
+    brightYellow: 12.1
+    brightBlue: 37.5
+    brightMagenta: 40
+    brightCyan: 19.3
+    brightWhite: 72.2

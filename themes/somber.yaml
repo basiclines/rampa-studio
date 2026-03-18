@@ -1,0 +1,49 @@
+name: "Somber"
+source:
+  marketplace_id: "JaydenDancer.somber"
+  version: "0.0.1"
+  installs: 57
+  author: "Jayden Dancer"
+  repo: "https://github.com/Official-Phantom/Somber-VSTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JaydenDancer.somber"
+colors:
+  bg: "#181818"
+  fg: "#B4B4B4"
+  black: "#222222"
+  red: "#E03F3F"
+  green: "#B4B4B4"
+  yellow: "#E78E8E"
+  blue: "#FF7A7A"
+  magenta: "#F75D5D"
+  cyan: "#FF7A7A"
+  white: "#B2B2B2"
+  brightBlack: "#444A5E"
+  brightRed: "#E03F3F"
+  brightGreen: "#B4B4B4"
+  brightYellow: "#E78E8E"
+  brightBlue: "#FF7A7A"
+  brightMagenta: "#F75D5D"
+  brightCyan: "#B4B4B4"
+  brightWhite: "#B2B2B2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 60.7
+    black: 0
+    red: 32.6
+    green: 60.7
+    yellow: 53.4
+    blue: 51.9
+    magenta: 43
+    cyan: 51.9
+    white: 59.5
+    brightBlack: 11
+    brightRed: 32.6
+    brightGreen: 60.7
+    brightYellow: 53.4
+    brightBlue: 51.9
+    brightMagenta: 43
+    brightCyan: 60.7
+    brightWhite: 59.5

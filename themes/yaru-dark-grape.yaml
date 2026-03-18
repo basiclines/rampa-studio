@@ -1,0 +1,49 @@
+name: "Yaru Dark Grape"
+source:
+  marketplace_id: "AdsonCicilioti.yaru-vscode"
+  version: "0.1.3"
+  installs: 20214
+  author: "AdsonCicilioti"
+  repo: "https://github.com/AdsonCicilioti/yaru-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AdsonCicilioti.yaru-vscode"
+colors:
+  bg: "#222222"
+  fg: "#FDFDFD"
+  black: "#222222"
+  red: "#FF794A"
+  green: "#52D866"
+  yellow: "#FFDC98"
+  blue: "#EE80D6"
+  magenta: "#FF9D88"
+  cyan: "#60D4FD"
+  white: "#FDFDFD"
+  brightBlack: "#928986"
+  brightRed: "#FF6D4C"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFF5BC"
+  brightBlue: "#FFA2EB"
+  brightMagenta: "#FFAEA0"
+  brightCyan: "#98E4FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 104.1
+    black: 0
+    red: 49.4
+    green: 65.8
+    yellow: 85.7
+    blue: 52.4
+    magenta: 61.1
+    cyan: 70.2
+    white: 104.1
+    brightBlack: 37.6
+    brightRed: 46.6
+    brightGreen: 87.6
+    brightYellow: 98
+    brightBlue: 66.8
+    brightMagenta: 67.6
+    brightCyan: 81.2
+    brightWhite: 105.5

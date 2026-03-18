@@ -1,0 +1,49 @@
+name: "Aether Aurora"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#0F1419"
+  fg: "#E6F1FF"
+  black: "#0F1419"
+  red: "#F07178"
+  green: "#7FDBCA"
+  yellow: "#FFEE99"
+  blue: "#4FC1FF"
+  magenta: "#C792EA"
+  cyan: "#7FDBCA"
+  white: "#E6F1FF"
+  brightBlack: "#0F1419"
+  brightRed: "#F07178"
+  brightGreen: "#7FDBCA"
+  brightYellow: "#FFEE99"
+  brightBlue: "#4FC1FF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#E6F1FF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  contrast:
+    fg: 97.2
+    black: 0
+    red: 46.9
+    green: 74.3
+    yellow: 95.5
+    blue: 62.8
+    magenta: 54.1
+    cyan: 74.3
+    white: 97.2
+    brightBlack: 0
+    brightRed: 46.9
+    brightGreen: 74.3
+    brightYellow: 95.5
+    brightBlue: 62.8
+    brightMagenta: 54.1
+    brightCyan: 74.3
+    brightWhite: 97.2

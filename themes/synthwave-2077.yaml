@@ -1,0 +1,49 @@
+name: "Synthwave 2077"
+source:
+  marketplace_id: "DangoWeb.synthwave-2077"
+  version: "1.0.1"
+  installs: 8900
+  author: "Dango Web Solutions"
+  repo: "https://github.com/faisalnjs/Synthwave-2077"
+  url: "https://marketplace.visualstudio.com/items?itemName=DangoWeb.synthwave-2077"
+colors:
+  bg: "#101116"
+  fg: "#00D4B1"
+  black: "#10D4B0"
+  red: "#940303"
+  green: "#0059FF"
+  yellow: "#1A1B03"
+  blue: "#004CF1"
+  magenta: "#94058A"
+  cyan: "#029790"
+  white: "#311B92"
+  brightBlack: "#02ADF1"
+  brightRed: "#BE0000"
+  brightGreen: "#00FF9C"
+  brightYellow: "#D0F30C"
+  brightBlue: "#00A2FF"
+  brightMagenta: "#E215D4"
+  brightCyan: "#08E1D7"
+  brightWhite: "#2EB8F8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 276
+  contrast:
+    fg: 66.5
+    black: 66.5
+    red: 12.8
+    green: 25.4
+    yellow: 0
+    blue: 21.1
+    magenta: 16.1
+    cyan: 38.2
+    white: 0
+    brightBlack: 52.3
+    brightRed: 21.5
+    brightGreen: 87.7
+    brightYellow: 90.1
+    brightBlue: 48.8
+    brightMagenta: 36.3
+    brightCyan: 74.5
+    brightWhite: 57.7

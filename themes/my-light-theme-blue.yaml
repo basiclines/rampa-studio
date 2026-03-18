@@ -1,0 +1,49 @@
+name: "my light theme blue"
+source:
+  marketplace_id: "XDxppyx.xxduppyxx-modern-blue-dark"
+  version: "4.3.1"
+  installs: 36
+  author: "XDxppyx"
+  repo: "https://github.com/xXKARCXx/xxduppyxx-modern-blue-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=XDxppyx.xxduppyxx-modern-blue-dark"
+colors:
+  bg: "#5F8590"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#EC7D7D"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 218
+  contrast:
+    fg: 45.4
+    black: 36.8
+    red: 0
+    green: 18.9
+    yellow: 51.6
+    blue: 0
+    magenta: 0
+    cyan: 13.5
+    white: 14.9
+    brightBlack: 9.5
+    brightRed: 0
+    brightGreen: 29.5
+    brightYellow: 61.6
+    brightBlue: 0
+    brightMagenta: 11.3
+    brightCyan: 21.3
+    brightWhite: 56

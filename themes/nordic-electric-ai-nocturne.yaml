@@ -1,0 +1,49 @@
+name: "Nordic Electric AI – Nocturne"
+source:
+  marketplace_id: "freyja-one.nordic-electric-ai"
+  version: "1.0.2"
+  installs: 209
+  author: "freyja-one"
+  repo: "https://github.com/CosmicFreyjaLab/aurora-colorschemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=freyja-one.nordic-electric-ai"
+colors:
+  bg: "#101628"
+  fg: "#CBDAF3"
+  black: "#2D3450"
+  red: "#FF5D8F"
+  green: "#5DF0B0"
+  yellow: "#F5D67F"
+  blue: "#3B9EFF"
+  magenta: "#9966FF"
+  cyan: "#20E6D6"
+  white: "#B0C0E0"
+  brightBlack: "#3B4261"
+  brightRed: "#FF5D8F"
+  brightGreen: "#5DF0B0"
+  brightYellow: "#F5D67F"
+  brightBlue: "#4499FF"
+  brightMagenta: "#9966FF"
+  brightCyan: "#40D9C4"
+  brightWhite: "#D6E5FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 269
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 46.3
+    green: 81.5
+    yellow: 82.3
+    blue: 47.5
+    magenta: 36.7
+    cyan: 76.5
+    white: 67.2
+    brightBlack: 8.7
+    brightRed: 46.3
+    brightGreen: 81.5
+    brightYellow: 82.3
+    brightBlue: 45.9
+    brightMagenta: 36.7
+    brightCyan: 69.9
+    brightWhite: 89.4

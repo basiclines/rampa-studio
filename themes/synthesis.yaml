@@ -1,0 +1,49 @@
+name: "Synthesis"
+source:
+  marketplace_id: "dazon.synthesis"
+  version: "0.0.1"
+  installs: 409
+  author: "dazon"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=dazon.synthesis"
+colors:
+  bg: "#111111"
+  fg: "#FFFFFF"
+  black: "#373A3F"
+  red: "#FF1D43"
+  green: "#92FF25"
+  yellow: "#FFF838"
+  blue: "#00CCFF"
+  magenta: "#9F2BFF"
+  cyan: "#00FFC8"
+  white: "#FFFFFF"
+  brightBlack: "#464A50"
+  brightRed: "#FF5272"
+  brightGreen: "#7CFF09"
+  brightYellow: "#FBFF0C"
+  brightBlue: "#00EEFF"
+  brightMagenta: "#993AFF"
+  brightCyan: "#20FFD2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 37.9
+    green: 90.5
+    yellow: 99
+    blue: 66.7
+    magenta: 28.6
+    cyan: 89.2
+    white: 107.4
+    brightBlack: 11.3
+    brightRed: 44
+    brightGreen: 89
+    brightYellow: 101.6
+    brightBlue: 83
+    brightMagenta: 29.3
+    brightCyan: 89.7
+    brightWhite: 107.4

@@ -1,0 +1,49 @@
+name: "Dessert"
+source:
+  marketplace_id: "curtisj44.dessert"
+  version: "1.0.6"
+  installs: 208
+  author: "curtisj44"
+  repo: "https://github.com/curtisj44/dessert-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=curtisj44.dessert"
+colors:
+  bg: "#2B2B2B"
+  fg: "#C0C0C0"
+  black: "#2B2B2B"
+  red: "#FA8072"
+  green: "#7CCD7C"
+  yellow: "#BCB8A4"
+  blue: "#87CEEB"
+  magenta: "#EE799F"
+  cyan: "#2B91AF"
+  white: "#C0C0C0"
+  brightBlack: "#424242"
+  brightRed: "#FA8072"
+  brightGreen: "#7CCD7C"
+  brightYellow: "#EEDC82"
+  brightBlue: "#87CEEB"
+  brightMagenta: "#EE799F"
+  brightCyan: "#2B91AF"
+  brightWhite: "#C0C0C0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 64.6
+    black: 0
+    red: 49.3
+    green: 61.6
+    yellow: 59.7
+    blue: 67.1
+    magenta: 46.4
+    cyan: 34
+    white: 64.6
+    brightBlack: 0
+    brightRed: 49.3
+    brightGreen: 61.6
+    brightYellow: 80.9
+    brightBlue: 67.1
+    brightMagenta: 46.4
+    brightCyan: 34
+    brightWhite: 64.6

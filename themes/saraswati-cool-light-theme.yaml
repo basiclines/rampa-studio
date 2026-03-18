@@ -1,0 +1,49 @@
+name: "Saraswati - Cool Light Theme"
+source:
+  marketplace_id: "BhootStudio.bhoot-theme"
+  version: "1.0.4"
+  installs: 78
+  author: "Bhoot Studio"
+  repo: "https://github.com/DebkantaMondal/Bhoot-VS-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BhootStudio.bhoot-theme"
+colors:
+  bg: "#FDFDFD"
+  fg: "#1F1F1F"
+  black: "#212121"
+  red: "#FF5252"
+  green: "#69F0AE"
+  yellow: "#FFD740"
+  blue: "#40C4FF"
+  magenta: "#EA80FC"
+  cyan: "#18FFFF"
+  white: "#ECEFF1"
+  brightBlack: "#9E9E9E"
+  brightRed: "#FF1744"
+  brightGreen: "#00E676"
+  brightYellow: "#FFEA00"
+  brightBlue: "#2979FF"
+  brightMagenta: "#D500F9"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 102.2
+    black: 101.9
+    red: 56.7
+    green: 19.2
+    yellow: 17.8
+    blue: 36.9
+    magenta: 44.4
+    cyan: 10.6
+    white: 0
+    brightBlack: 50.9
+    brightRed: 62.3
+    brightGreen: 27.4
+    brightYellow: 10.1
+    brightBlue: 65.3
+    brightMagenta: 63.7
+    brightCyan: 10.6
+    brightWhite: 0

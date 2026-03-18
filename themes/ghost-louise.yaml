@@ -1,0 +1,49 @@
+name: "ghost louise"
+source:
+  marketplace_id: "zazcdev.ghostlouise"
+  version: "0.0.7"
+  installs: 146
+  author: "zazc"
+  repo: "https://github.com/zazcc"
+  url: "https://marketplace.visualstudio.com/items?itemName=zazcdev.ghostlouise"
+colors:
+  bg: "#705A96"
+  fg: "#A679AB"
+  black: "#000000"
+  red: "#FF857F"
+  green: "#7EAFB3"
+  yellow: "#ADC6BE"
+  blue: "#76809C"
+  magenta: "#9D729D"
+  cyan: "#77A3AE"
+  white: "#E5E5E5"
+  brightBlack: "#4A4F4D"
+  brightRed: "#D29696"
+  brightGreen: "#839990"
+  brightYellow: "#A8A1CD"
+  brightBlue: "#799DC7"
+  brightMagenta: "#BF99BF"
+  brightCyan: "#95B5BC"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 300
+  contrast:
+    fg: 15.4
+    black: 24.9
+    red: 32.6
+    green: 30.9
+    yellow: 45.4
+    blue: 11.4
+    magenta: 11.4
+    cyan: 25.2
+    white: 67.5
+    brightBlack: 7.7
+    brightRed: 30.3
+    brightGreen: 21.2
+    brightYellow: 30.7
+    brightBlue: 24.3
+    brightMagenta: 30.1
+    brightCyan: 35.7
+    brightWhite: 67.5

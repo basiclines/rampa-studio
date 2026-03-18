@@ -1,0 +1,49 @@
+name: "Cape Town Nights"
+source:
+  marketplace_id: "WalterHahn.cape-town-nights"
+  version: "1.0.1"
+  installs: 282
+  author: "Walter Hahn"
+  repo: "https://github.com/WalterHahn/cape-town-nights"
+  url: "https://marketplace.visualstudio.com/items?itemName=WalterHahn.cape-town-nights"
+colors:
+  bg: "#0E1D1F"
+  fg: "#EDECEE"
+  black: "#0E1D1F"
+  red: "#00D8EE"
+  green: "#4DF197"
+  yellow: "#F0E600"
+  blue: "#F8B5F0"
+  magenta: "#FF5E57"
+  cyan: "#00CCF2"
+  white: "#CDCED0"
+  brightBlack: "#2E3B3D"
+  brightRed: "#FD53BF"
+  brightGreen: "#00CCF2"
+  brightYellow: "#F0E600"
+  brightBlue: "#F8B5F0"
+  brightMagenta: "#FF5E57"
+  brightCyan: "#00CCF2"
+  brightWhite: "#EDECEE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 207
+  contrast:
+    fg: 94.3
+    black: 0
+    red: 70.4
+    green: 80.3
+    yellow: 87.2
+    blue: 73.4
+    magenta: 44.6
+    cyan: 65
+    white: 75.4
+    brightBlack: 0
+    brightRed: 45.7
+    brightGreen: 65
+    brightYellow: 87.2
+    brightBlue: 73.4
+    brightMagenta: 44.6
+    brightCyan: 65
+    brightWhite: 94.3

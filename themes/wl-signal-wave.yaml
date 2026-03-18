@@ -1,0 +1,49 @@
+name: "WL-Signal Wave"
+source:
+  marketplace_id: "WatkinsLabs.signal-wave"
+  version: "1.0.1"
+  installs: 40
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.signal-wave"
+colors:
+  bg: "#050505"
+  fg: "#7FFF00"
+  black: "#000000"
+  red: "#FF3300"
+  green: "#33CC33"
+  yellow: "#FFCC00"
+  blue: "#CCFF00"
+  magenta: "#99FF00"
+  cyan: "#CCFF00"
+  white: "#7FFF00"
+  brightBlack: "#666666"
+  brightRed: "#FF3300"
+  brightGreen: "#33CC33"
+  brightYellow: "#FFCC00"
+  brightBlue: "#CCFF00"
+  brightMagenta: "#99FF00"
+  brightCyan: "#CCFF00"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 89.6
+    black: 0
+    red: 39.4
+    green: 60.9
+    yellow: 79.6
+    blue: 96.1
+    magenta: 91.4
+    cyan: 96.1
+    white: 89.6
+    brightBlack: 23
+    brightRed: 39.4
+    brightGreen: 60.9
+    brightYellow: 79.6
+    brightBlue: 96.1
+    brightMagenta: 91.4
+    brightCyan: 96.1
+    brightWhite: 107.9

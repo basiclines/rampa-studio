@@ -1,0 +1,49 @@
+name: "Gothic Twilight Forest"
+source:
+  marketplace_id: "Diyllan.midnight-coven-themes"
+  version: "1.0.1"
+  installs: 1123
+  author: "Diyllan"
+  repo: "https://github.com/diyllan/midnight-coven-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Diyllan.midnight-coven-themes"
+colors:
+  bg: "#0F1A15"
+  fg: "#D5E5E0"
+  black: "#0F1A15"
+  red: "#E05050"
+  green: "#60D080"
+  yellow: "#E0C060"
+  blue: "#60A0E0"
+  magenta: "#C070C0"
+  cyan: "#60C0C0"
+  white: "#D5E5E0"
+  brightBlack: "#567568"
+  brightRed: "#F07070"
+  brightGreen: "#80E0A0"
+  brightYellow: "#F0D080"
+  brightBlue: "#80B0F0"
+  brightMagenta: "#D090D0"
+  brightCyan: "#80D0D0"
+  brightWhite: "#E8F8F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 165
+  contrast:
+    fg: 87.6
+    black: 0
+    red: 35.4
+    green: 64.4
+    yellow: 69.2
+    blue: 47.6
+    magenta: 40.3
+    cyan: 59.2
+    white: 87.6
+    brightBlack: 25.6
+    brightRed: 46.1
+    brightGreen: 74.8
+    brightYellow: 78.9
+    brightBlue: 57.1
+    brightMagenta: 52.9
+    brightCyan: 69.1
+    brightWhite: 99.6

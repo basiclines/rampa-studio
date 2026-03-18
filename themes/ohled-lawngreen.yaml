@@ -1,0 +1,49 @@
+name: "OhLED_LawnGreen"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#7CFC00"
+  black: "#7CFC00"
+  red: "#5BB900"
+  green: "#63CA00"
+  yellow: "#4A9700"
+  blue: "#74EB00"
+  magenta: "#6BDA00"
+  cyan: "#53A800"
+  white: "#428600"
+  brightBlack: "#7CFC00"
+  brightRed: "#5BB900"
+  brightGreen: "#63CA00"
+  brightYellow: "#4A9700"
+  brightBlue: "#74EB00"
+  brightMagenta: "#6BDA00"
+  brightCyan: "#53A800"
+  brightWhite: "#428600"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 87.9
+    black: 87.9
+    red: 53.2
+    green: 61.5
+    yellow: 37.7
+    blue: 78.6
+    magenta: 69.6
+    cyan: 45.3
+    white: 30.6
+    brightBlack: 87.9
+    brightRed: 53.2
+    brightGreen: 61.5
+    brightYellow: 37.7
+    brightBlue: 78.6
+    brightMagenta: 69.6
+    brightCyan: 45.3
+    brightWhite: 30.6

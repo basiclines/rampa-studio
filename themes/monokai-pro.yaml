@@ -1,0 +1,49 @@
+name: "Monokai Pro"
+source:
+  marketplace_id: "AgraeonLabs.dev-themes"
+  version: "0.1.0"
+  installs: 283
+  author: "Agraeon Labs"
+  repo: "https://github.com/adiagcodelance/VS-Code-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AgraeonLabs.dev-themes"
+colors:
+  bg: "#2D2A2E"
+  fg: "#FCFCFA"
+  black: "#2D2A2E"
+  red: "#FF6188"
+  green: "#A9DC76"
+  yellow: "#FFD866"
+  blue: "#FC9867"
+  magenta: "#AB9DF2"
+  cyan: "#78DCE8"
+  white: "#FCFCFA"
+  brightBlack: "#2D2A2E"
+  brightRed: "#FF6188"
+  brightGreen: "#A9DC76"
+  brightYellow: "#FFD866"
+  brightBlue: "#FC9867"
+  brightMagenta: "#AB9DF2"
+  brightCyan: "#78DCE8"
+  brightWhite: "#FCFCFA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 101.8
+    black: 0
+    red: 43.8
+    green: 72.3
+    yellow: 81.3
+    blue: 56.6
+    magenta: 51.2
+    cyan: 72.4
+    white: 101.8
+    brightBlack: 0
+    brightRed: 43.8
+    brightGreen: 72.3
+    brightYellow: 81.3
+    brightBlue: 56.6
+    brightMagenta: 51.2
+    brightCyan: 72.4
+    brightWhite: 101.8

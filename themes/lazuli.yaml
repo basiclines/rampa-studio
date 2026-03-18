@@ -1,0 +1,49 @@
+name: "Lazuli"
+source:
+  marketplace_id: "IanGaunt.lazuli"
+  version: "1.0.1"
+  installs: 253
+  author: "Ian Gaunt"
+  repo: "https://github.com/i9nn/lazuli"
+  url: "https://marketplace.visualstudio.com/items?itemName=IanGaunt.lazuli"
+colors:
+  bg: "#1D252C"
+  fg: "#6B8598"
+  black: "#000000"
+  red: "#D95F74"
+  green: "#5FD99A"
+  yellow: "#D9C05F"
+  blue: "#5F83D9"
+  magenta: "#B35FD9"
+  cyan: "#5FB7D9"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#E58192"
+  brightGreen: "#5FD9A0"
+  brightYellow: "#E5DA81"
+  brightBlue: "#81A8E5"
+  brightMagenta: "#E581DF"
+  brightCyan: "#81CEE5"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 245
+  contrast:
+    fg: 32.8
+    black: 0
+    red: 36
+    green: 67.7
+    yellow: 66.5
+    blue: 34.9
+    magenta: 34
+    cyan: 54.8
+    white: 88.3
+    brightBlack: 20.3
+    brightRed: 47.6
+    brightGreen: 67.9
+    brightYellow: 80
+    brightBlue: 51.6
+    brightMagenta: 51.2
+    brightCyan: 67.6
+    brightWhite: 88.3

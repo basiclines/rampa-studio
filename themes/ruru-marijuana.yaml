@@ -1,0 +1,49 @@
+name: "ruru marijuana"
+source:
+  marketplace_id: "ruru-m07.ruru-theme"
+  version: "1.0.1"
+  installs: 148
+  author: "ruru"
+  repo: "https://github.com/ruru-m07/ruru-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=ruru-m07.ruru-theme"
+colors:
+  bg: "#0D120E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#F07278"
+  green: "#C2E88D"
+  yellow: "#E8D66B"
+  blue: "#81AAFF"
+  magenta: "#C892EA"
+  cyan: "#89DDFF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F65D65"
+  brightGreen: "#C1FA72"
+  brightYellow: "#F6C468"
+  brightBlue: "#6394F9"
+  brightMagenta: "#C785F0"
+  brightCyan: "#75D7FE"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 151
+  contrast:
+    fg: 80
+    black: 0
+    red: 47.3
+    green: 84.6
+    yellow: 80.5
+    blue: 56.4
+    magenta: 54.4
+    cyan: 78.8
+    white: 90.5
+    brightBlack: 22.5
+    brightRed: 43.6
+    brightGreen: 92.8
+    brightYellow: 75
+    brightBlue: 45.6
+    brightMagenta: 50.7
+    brightCyan: 74.6
+    brightWhite: 90.5

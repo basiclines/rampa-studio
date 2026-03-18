@@ -1,0 +1,49 @@
+name: "xresources"
+source:
+  marketplace_id: "JackVandergriff.xresources-theme"
+  version: "1.1.0"
+  installs: 1524
+  author: "Jack Vandergriff"
+  repo: "https://github.com/JackVandergriff/vscode-xresources-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JackVandergriff.xresources-theme"
+colors:
+  bg: "#272524"
+  fg: "#C9C8C8"
+  black: "#272524"
+  red: "#F4ADFC"
+  green: "#185D8E"
+  yellow: "#7270A0"
+  blue: "#7996AA"
+  magenta: "#5989AA"
+  cyan: "#D0C29F"
+  white: "#C9C8C8"
+  brightBlack: "#5D5B5A"
+  brightRed: "#F4FCAD"
+  brightGreen: "#185D8E"
+  brightYellow: "#7270A0"
+  brightBlue: "#7996AA"
+  brightMagenta: "#5989AA"
+  brightCyan: "#D0C29F"
+  brightWhite: "#C9C8C8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 70.4
+    black: 0
+    red: 69
+    green: 15.1
+    yellow: 26.6
+    blue: 40.7
+    magenta: 33.6
+    cyan: 67.3
+    white: 70.4
+    brightBlack: 15.7
+    brightRed: 98.8
+    brightGreen: 15.1
+    brightYellow: 26.6
+    brightBlue: 40.7
+    brightMagenta: 33.6
+    brightCyan: 67.3
+    brightWhite: 70.4

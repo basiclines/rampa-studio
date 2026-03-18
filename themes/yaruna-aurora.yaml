@@ -1,0 +1,49 @@
+name: "Yaruna Aurora"
+source:
+  marketplace_id: "daniel-duc.daniel-yaruna-theme"
+  version: "1.3.2"
+  installs: 254
+  author: "Daniel Duc"
+  repo: "https://github.com/binhduc1211/daniel-yaruna-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniel-duc.daniel-yaruna-theme"
+colors:
+  bg: "#1A1D29"
+  fg: "#D4D9E8"
+  black: "#232636"
+  red: "#E89AC7"
+  green: "#A8D5BA"
+  yellow: "#E8B896"
+  blue: "#7EA8E8"
+  magenta: "#C9B7E8"
+  cyan: "#9DB8D4"
+  white: "#D4D9E8"
+  brightBlack: "#5A627A"
+  brightRed: "#E89AC7"
+  brightGreen: "#A8D5BA"
+  brightYellow: "#E8D796"
+  brightBlue: "#70D4E8"
+  brightMagenta: "#C9B7E8"
+  brightCyan: "#9DB8D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 274
+  contrast:
+    fg: 81.8
+    black: 0
+    red: 58.9
+    green: 73.1
+    yellow: 67.8
+    blue: 52.5
+    magenta: 66.3
+    cyan: 60.6
+    white: 81.8
+    brightBlack: 19.8
+    brightRed: 58.9
+    brightGreen: 73.1
+    brightYellow: 80.6
+    brightBlue: 70.5
+    brightMagenta: 66.3
+    brightCyan: 60.6
+    brightWhite: 106.1

@@ -1,0 +1,49 @@
+name: "hhp1614"
+source:
+  marketplace_id: "hhp1614.green-soft-theme"
+  version: "0.0.4"
+  installs: 1740
+  author: "hhp1614"
+  repo: "https://github.com/hhp1614/vscode-green-soft-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=hhp1614.green-soft-theme"
+colors:
+  bg: "#FDF6E3"
+  fg: "#586E75"
+  black: "#FDF6E3"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#6C71C4"
+  cyan: "#2AA198"
+  white: "#586E75"
+  brightBlack: "#839496"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#2AA198"
+  brightWhite: "#002B36"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 71.6
+    black: 0
+    red: 65.3
+    green: 53.8
+    yellow: 53.8
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
+    white: 71.6
+    brightBlack: 53.5
+    brightRed: 65.3
+    brightGreen: 53.8
+    brightYellow: 53.8
+    brightBlue: 58.7
+    brightMagenta: 65
+    brightCyan: 53.1
+    brightWhite: 96.4

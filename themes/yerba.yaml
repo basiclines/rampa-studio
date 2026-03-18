@@ -1,0 +1,49 @@
+name: "Yerba"
+source:
+  marketplace_id: "sebastian-j-ibanez.yerba-theme"
+  version: "0.0.2"
+  installs: 16
+  author: "sebastian-j-ibanez"
+  repo: "https://github.com/sebastian-j-ibanez/yerba-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sebastian-j-ibanez.yerba-theme"
+colors:
+  bg: "#181818"
+  fg: "#BCBCBC"
+  black: "#000000"
+  red: "#A05A4A"
+  green: "#6A9A6A"
+  yellow: "#B87848"
+  blue: "#909088"
+  magenta: "#A89880"
+  cyan: "#686868"
+  white: "#BCBCBC"
+  brightBlack: "#333333"
+  brightRed: "#B86A5A"
+  brightGreen: "#7AAA7A"
+  brightYellow: "#C88858"
+  brightBlue: "#A0A098"
+  brightMagenta: "#B8A890"
+  brightCyan: "#787878"
+  brightWhite: "#D3D3D3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 65.2
+    black: 0
+    red: 25.2
+    green: 40.8
+    yellow: 37.1
+    blue: 41.2
+    magenta: 46.6
+    cyan: 22.8
+    white: 65.2
+    brightBlack: 0
+    brightRed: 33.5
+    brightGreen: 48.9
+    brightYellow: 44.8
+    brightBlue: 49.4
+    brightMagenta: 55.2
+    brightCyan: 29.9
+    brightWhite: 78.8

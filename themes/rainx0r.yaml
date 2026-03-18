@@ -1,0 +1,49 @@
+name: "rainx0r"
+source:
+  marketplace_id: "rainx0r.rainx0r-theme"
+  version: "0.0.3"
+  installs: 17
+  author: "rainx0r"
+  repo: "https://github.com/rainx0r/rainx0r-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rainx0r.rainx0r-theme"
+colors:
+  bg: "#0E181B"
+  fg: "#F8FBFC"
+  black: "#0E181B"
+  red: "#FF1E00"
+  green: "#00FFBF"
+  yellow: "#B3F2FF"
+  blue: "#00C2FF"
+  magenta: "#9DB4BB"
+  cyan: "#66E6FF"
+  white: "#F8FBFC"
+  brightBlack: "#0E181B"
+  brightRed: "#FF1E00"
+  brightGreen: "#00FFBF"
+  brightYellow: "#B3F2FF"
+  brightBlue: "#00C2FF"
+  brightMagenta: "#9DB4BB"
+  brightCyan: "#66E6FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 218
+  contrast:
+    fg: 103.9
+    black: 0
+    red: 37.1
+    green: 88.4
+    yellow: 91.7
+    blue: 61.7
+    magenta: 58.6
+    cyan: 80.5
+    white: 103.9
+    brightBlack: 0
+    brightRed: 37.1
+    brightGreen: 88.4
+    brightYellow: 91.7
+    brightBlue: 61.7
+    brightMagenta: 58.6
+    brightCyan: 80.5
+    brightWhite: 106.9

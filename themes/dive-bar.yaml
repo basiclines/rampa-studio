@@ -1,0 +1,49 @@
+name: "Dive Bar"
+source:
+  marketplace_id: "mattseddon.vscode-dive-bar-theme"
+  version: "0.1.6"
+  installs: 1288
+  author: "mattseddon"
+  repo: "https://github.com/mattseddon/vscode-dive-bar-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mattseddon.vscode-dive-bar-theme"
+colors:
+  bg: "#141322"
+  fg: "#94B4C4"
+  black: "#30317D"
+  red: "#FF5395"
+  green: "#0ADB8B"
+  yellow: "#00EAFF"
+  blue: "#7DD9E4"
+  magenta: "#FA61B8"
+  cyan: "#A8FFEF"
+  white: "#CFF0E8"
+  brightBlack: "#391AB5"
+  brightRed: "#FF427B"
+  brightGreen: "#00EAFF"
+  brightYellow: "#00EAFF"
+  brightBlue: "#84F9FE"
+  brightMagenta: "#D5358F"
+  brightCyan: "#83FEE8"
+  brightWhite: "#CBFFF2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 286
+  contrast:
+    fg: 58.3
+    black: 0
+    red: 45
+    green: 68.5
+    yellow: 80.7
+    blue: 74.3
+    magenta: 47.8
+    cyan: 96.5
+    white: 92.7
+    brightBlack: 8.7
+    brightRed: 41.7
+    brightGreen: 80.7
+    brightYellow: 80.7
+    brightBlue: 91.6
+    brightMagenta: 31.4
+    brightCyan: 93
+    brightWhite: 100

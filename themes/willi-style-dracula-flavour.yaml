@@ -1,0 +1,49 @@
+name: "Willi-Style Dracula flavour"
+source:
+  marketplace_id: "wq.willi-style"
+  version: "0.0.4"
+  installs: 434
+  author: "wQ"
+  repo: "https://github.com/iamstrawberry/willi-style"
+  url: "https://marketplace.visualstudio.com/items?itemName=wq.willi-style"
+colors:
+  bg: "#2B2B2B"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 76.5
+    black: 0
+    red: 23.7
+    green: 50
+    yellow: 82.6
+    blue: 24.4
+    magenta: 26.7
+    cyan: 44.5
+    white: 87
+    brightBlack: 19
+    brightRed: 35.5
+    brightGreen: 60.5
+    brightYellow: 92.6
+    brightBlue: 37
+    brightMagenta: 42.3
+    brightCyan: 52.4
+    brightWhite: 87

@@ -1,0 +1,49 @@
+name: "DukeMonokai-color-theme"
+source:
+  marketplace_id: "cafeduke.dukemonokai"
+  version: "0.0.2"
+  installs: 436
+  author: "cafeduke"
+  repo: "https://github.com/cafeduke/vscode-dukemonokai-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cafeduke.dukemonokai"
+colors:
+  bg: "#202320"
+  fg: "#F8F8F0"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 100.4
+    black: 0
+    red: 23.2
+    green: 51.6
+    yellow: 56.2
+    blue: 33.2
+    magenta: 30.8
+    cyan: 49
+    white: 87
+    brightBlack: 20.6
+    brightRed: 35.9
+    brightGreen: 75.5
+    brightYellow: 82.5
+    brightBlue: 48.4
+    brightMagenta: 45.1
+    brightCyan: 72
+    brightWhite: 100.5

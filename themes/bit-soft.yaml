@@ -1,0 +1,49 @@
+name: "Bit Soft"
+source:
+  marketplace_id: "bit-theme.bit-theme"
+  version: "1.0.4"
+  installs: 1062
+  author: "Bit Theme"
+  repo: "https://github.com/bit-theme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=bit-theme.bit-theme"
+colors:
+  bg: "#2A2A2A"
+  fg: "#E2E2E2"
+  black: "#232323"
+  red: "#E9747A"
+  green: "#41B883"
+  yellow: "#F8F893"
+  blue: "#9BC9EC"
+  magenta: "#E676AB"
+  cyan: "#8DE2E2"
+  white: "#E2E2E2"
+  brightBlack: "#808080"
+  brightRed: "#F55258"
+  brightGreen: "#60C364"
+  brightYellow: "#F7F740"
+  brightBlue: "#79B4E2"
+  brightMagenta: "#E25C98"
+  brightCyan: "#66D5D7"
+  brightWhite: "#EFEFEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 85.3
+    black: 0
+    red: 43.1
+    green: 49.4
+    yellow: 95.9
+    blue: 66.8
+    magenta: 44.8
+    cyan: 76.5
+    white: 85.3
+    brightBlack: 30.9
+    brightRed: 37.8
+    brightGreen: 55
+    brightYellow: 94
+    brightBlue: 54.6
+    brightMagenta: 37.3
+    brightCyan: 67.5
+    brightWhite: 93.6

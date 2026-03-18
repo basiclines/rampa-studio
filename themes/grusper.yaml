@@ -1,0 +1,49 @@
+name: "Grusper"
+source:
+  marketplace_id: "T450.grusper-theme"
+  version: "1.1.0"
+  installs: 33
+  author: "Edward"
+  repo: "https://github.com/T-450/grusper-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=T450.grusper-theme"
+colors:
+  bg: "#1A1917"
+  fg: "#FFFFFF"
+  black: "#111110"
+  red: "#E05C5C"
+  green: "#D1FF99"
+  yellow: "#FFFA99"
+  blue: "#99FFFA"
+  magenta: "#FA99FF"
+  cyan: "#99FFFA"
+  white: "#9BA0AA"
+  brightBlack: "#3D3B37"
+  brightRed: "#F07878"
+  brightGreen: "#E4FFB8"
+  brightYellow: "#FFFCC0"
+  brightBlue: "#C0FFFD"
+  brightMagenta: "#FDC0FF"
+  brightCyan: "#C0FFFD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106.6
+    black: 0
+    red: 37.7
+    green: 97.1
+    yellow: 100.6
+    blue: 95.5
+    magenta: 65.4
+    cyan: 95.5
+    white: 49.5
+    brightBlack: 0
+    brightRed: 48.1
+    brightGreen: 100.2
+    brightYellow: 102.7
+    brightBlue: 99
+    brightMagenta: 79.3
+    brightCyan: 99
+    brightWhite: 106.6

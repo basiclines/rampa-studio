@@ -1,0 +1,49 @@
+name: "Sunset Noir"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 402
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+colors:
+  bg: "#1A0E0A"
+  fg: "#FFF8E1"
+  black: "#1A0E0A"
+  red: "#FF5722"
+  green: "#4CAF50"
+  yellow: "#FFAB00"
+  blue: "#2196F3"
+  magenta: "#E91E63"
+  cyan: "#00BCD4"
+  white: "#FFF8E1"
+  brightBlack: "#8D6E63"
+  brightRed: "#FF8A65"
+  brightGreen: "#81C784"
+  brightYellow: "#FFD54F"
+  brightBlue: "#64B5F6"
+  brightMagenta: "#F06292"
+  brightCyan: "#4DD0E1"
+  brightWhite: "#FFF8E1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 39
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 43.7
+    green: 48
+    yellow: 66.3
+    blue: 43.5
+    magenta: 33.1
+    cyan: 57
+    white: 102.7
+    brightBlack: 29.1
+    brightRed: 56.4
+    brightGreen: 62.9
+    brightYellow: 83.2
+    brightBlue: 58.2
+    brightMagenta: 44.5
+    brightCyan: 67.9
+    brightWhite: 102.7

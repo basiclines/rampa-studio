@@ -1,0 +1,49 @@
+name: "Omni Dracula Theme Tradicional Contrast"
+source:
+  marketplace_id: "ThiagoLcioBittencourt.omni-dracula-theme"
+  version: "1.0.7"
+  installs: 36314
+  author: "Thiago Lúcio Bittencourt"
+  repo: "https://github.com/thiagolucio/omni-dracula-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ThiagoLcioBittencourt.omni-dracula-theme"
+colors:
+  bg: "#1B202C"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 267
+  contrast:
+    fg: 100.8
+    black: 0
+    red: 42.3
+    green: 83.7
+    yellow: 97.4
+    blue: 52.5
+    magenta: 53.4
+    cyan: 82.8
+    white: 100.8
+    brightBlack: 26.9
+    brightRed: 47.7
+    brightGreen: 87.9
+    brightYellow: 102.4
+    brightBlue: 65
+    brightMagenta: 61.5
+    brightCyan: 95.6
+    brightWhite: 105.7

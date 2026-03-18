@@ -1,0 +1,49 @@
+name: "Gruber Blue"
+source:
+  marketplace_id: "Hazem.gruber-blue"
+  version: "0.0.6"
+  installs: 38
+  author: "Hazem"
+  repo: "https://github.com/Hazem-BenAbdelhafidh/Gruber-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=Hazem.gruber-blue"
+colors:
+  bg: "#1A1A1A"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF3333"
+  green: "#4CD84C"
+  yellow: "#FFD700"
+  blue: "#00A6FF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF3333"
+  brightGreen: "#4CD84C"
+  brightYellow: "#FFD700"
+  brightBlue: "#00A6FF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 106.5
+    black: 0
+    red: 38.3
+    green: 66.3
+    yellow: 82.9
+    blue: 49.6
+    magenta: 29.4
+    cyan: 47.2
+    white: 106.5
+    brightBlack: 21.7
+    brightRed: 38.3
+    brightGreen: 66.3
+    brightYellow: 82.9
+    brightBlue: 49.6
+    brightMagenta: 45
+    brightCyan: 55.1
+    brightWhite: 106.5

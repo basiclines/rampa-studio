@@ -1,0 +1,49 @@
+name: "Samyak Bumb"
+source:
+  marketplace_id: "SamyakBumb.samyak"
+  version: "10.2.2"
+  installs: 3777
+  author: "Samyak Bumb"
+  repo: "https://github.com/Samyak-Bumb/Samyak-Bumb-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SamyakBumb.samyak"
+colors:
+  bg: "#00002A"
+  fg: "#BACCE0"
+  black: "#000000"
+  red: "#FB4A80"
+  green: "#1DF89D"
+  yellow: "#E6E65C"
+  blue: "#45A9F9"
+  magenta: "#FF75B5"
+  cyan: "#80FCFF"
+  white: "#C8D3F5"
+  brightBlack: "#666666"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#E6E65C"
+  brightBlue: "#79CAFF"
+  brightMagenta: "#FF9AC1"
+  brightCyan: "#80FCFF"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 74.1
+    black: 0
+    red: 42.5
+    green: 84.3
+    yellow: 87.4
+    blue: 52.4
+    magenta: 53.5
+    cyan: 93.4
+    white: 79.9
+    brightBlack: 22.7
+    brightRed: 49.5
+    brightGreen: 89.7
+    brightYellow: 87.4
+    brightBlue: 69.3
+    brightMagenta: 64.3
+    brightCyan: 93.4
+    brightWhite: 96.4

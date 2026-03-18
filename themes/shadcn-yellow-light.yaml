@@ -1,0 +1,49 @@
+name: "Shadcn Yellow Light"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#09090B"
+  black: "#FFFFFF"
+  red: "#E7000B"
+  green: "#F0B100"
+  yellow: "#FFDF20"
+  blue: "#FDC700"
+  magenta: "#D08700"
+  cyan: "#894B00"
+  white: "#09090B"
+  brightBlack: "#F4F4F5"
+  brightRed: "#E7000B"
+  brightGreen: "#FFDF20"
+  brightYellow: "#733E0A"
+  brightBlue: "#FDC700"
+  brightMagenta: "#FBF0DC"
+  brightCyan: "#D08700"
+  brightWhite: "#09090B"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 105.9
+    black: 0
+    red: 70.1
+    green: 36.1
+    yellow: 15.9
+    blue: 25.8
+    magenta: 55.5
+    cyan: 83.2
+    white: 105.9
+    brightBlack: 0
+    brightRed: 70.1
+    brightGreen: 15.9
+    brightYellow: 89.4
+    brightBlue: 25.8
+    brightMagenta: 0
+    brightCyan: 55.5
+    brightWhite: 105.9

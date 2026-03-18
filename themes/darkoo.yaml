@@ -1,0 +1,49 @@
+name: "darkoo"
+source:
+  marketplace_id: "bambooyuh.darkoo"
+  version: "0.3.8"
+  installs: 55
+  author: "bambooyuh"
+  repo: "https://github.com/roachj9/darkoo"
+  url: "https://marketplace.visualstudio.com/items?itemName=bambooyuh.darkoo"
+colors:
+  bg: "#212733"
+  fg: "#D9D7CE"
+  black: "#343D4A"
+  red: "#F07178"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#36A3D9"
+  magenta: "#D4BFFF"
+  cyan: "#95E6CB"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFDF80"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#A6FDE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 44.3
+    green: 79.7
+    yellow: 77
+    blue: 44.5
+    magenta: 70.7
+    cyan: 78.6
+    white: 69.5
+    brightBlack: 20.6
+    brightRed: 44.3
+    brightGreen: 79.7
+    brightYellow: 85.6
+    brightBlue: 32.4
+    brightMagenta: 55.2
+    brightCyan: 92.3
+    brightWhite: 104.6

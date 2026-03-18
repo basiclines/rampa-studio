@@ -1,0 +1,49 @@
+name: "Kozy"
+source:
+  marketplace_id: "Artezio.kozy-theme"
+  version: "2.5.3"
+  installs: 507
+  author: "Artezio"
+  repo: "https://github.com/Kozy-theme/vscode-cozy"
+  url: "https://marketplace.visualstudio.com/items?itemName=Artezio.kozy-theme"
+colors:
+  bg: "#1A242A"
+  fg: "#9CACB6"
+  black: "#263138"
+  red: "#EC4E20"
+  green: "#39A960"
+  yellow: "#FFB834"
+  blue: "#7A7FDB"
+  magenta: "#E6422D"
+  cyan: "#44A1E4"
+  white: "#EAEDF6"
+  brightBlack: "#2F3E47"
+  brightRed: "#F0743A"
+  brightGreen: "#30D46A"
+  brightYellow: "#FFC559"
+  brightBlue: "#A4A6CB"
+  brightMagenta: "#EE6D6D"
+  brightCyan: "#69B1E4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 235
+  contrast:
+    fg: 53.5
+    black: 0
+    red: 35.8
+    green: 43
+    yellow: 69.2
+    blue: 36
+    magenta: 32.7
+    cyan: 45.5
+    white: 93.6
+    brightBlack: 0
+    brightRed: 44.7
+    brightGreen: 62.9
+    brightYellow: 74.7
+    brightBlue: 53
+    brightMagenta: 43.4
+    brightCyan: 53.7
+    brightWhite: 105.3

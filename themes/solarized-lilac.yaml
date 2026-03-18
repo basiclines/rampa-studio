@@ -1,0 +1,49 @@
+name: "Solarized Lilac"
+source:
+  marketplace_id: "diamondmind.solarized-neue"
+  version: "0.26.0"
+  installs: 4083
+  author: "Phillip Sauerbeck"
+  repo: "https://github.com/pmsaue0/solarized-neue"
+  url: "https://marketplace.visualstudio.com/items?itemName=diamondmind.solarized-neue"
+colors:
+  bg: "#E5E5EB"
+  fg: "#403F53"
+  black: "#403F53"
+  red: "#DE3D3B"
+  green: "#08916A"
+  yellow: "#E0AF02"
+  blue: "#288ED7"
+  magenta: "#D6438A"
+  cyan: "#8382E6"
+  white: "#F0F0F0"
+  brightBlack: "#403F53"
+  brightRed: "#DE3D3B"
+  brightGreen: "#08916A"
+  brightYellow: "#DAAA01"
+  brightBlue: "#288ED7"
+  brightMagenta: "#D6438A"
+  brightCyan: "#8382E6"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 78.7
+    black: 78.7
+    red: 53.6
+    green: 51.5
+    yellow: 24.3
+    blue: 47.4
+    magenta: 52.6
+    cyan: 45.5
+    white: 0
+    brightBlack: 78.7
+    brightRed: 53.6
+    brightGreen: 51.5
+    brightYellow: 27
+    brightBlue: 47.4
+    brightMagenta: 52.6
+    brightCyan: 45.5
+    brightWhite: 0

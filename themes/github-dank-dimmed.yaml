@@ -1,0 +1,49 @@
+name: "Github Dank Dimmed"
+source:
+  marketplace_id: "Zytesas.github-dank-dimmed"
+  version: "0.0.5"
+  installs: 4512
+  author: "Zytesas"
+  repo: "https://github.com/zytesas/GithubDankDimmed"
+  url: "https://marketplace.visualstudio.com/items?itemName=Zytesas.github-dank-dimmed"
+colors:
+  bg: "#252526"
+  fg: "#ADBAC7"
+  black: "#545D68"
+  red: "#F47067"
+  green: "#57AB5A"
+  yellow: "#C69026"
+  blue: "#539BF5"
+  magenta: "#B083F0"
+  cyan: "#39C5CF"
+  white: "#909DAB"
+  brightBlack: "#636E7B"
+  brightRed: "#FF938A"
+  brightGreen: "#6BC46D"
+  brightYellow: "#DAAA3F"
+  brightBlue: "#6CB6FF"
+  brightMagenta: "#DCBDFB"
+  brightCyan: "#56D4DD"
+  brightWhite: "#CDD9E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 61.3
+    black: 16
+    red: 44.9
+    green: 44.6
+    yellow: 44.8
+    blue: 44.6
+    magenta: 44.4
+    cyan: 59
+    white: 45.5
+    brightBlack: 23.1
+    brightRed: 57.5
+    brightGreen: 57.2
+    brightYellow: 57.4
+    brightBlue: 57.3
+    brightMagenta: 71.2
+    brightCyan: 67.5
+    brightWhite: 79.7

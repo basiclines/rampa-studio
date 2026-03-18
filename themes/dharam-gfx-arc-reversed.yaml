@@ -1,0 +1,49 @@
+name: "dharam-gfx-arc-reversed"
+source:
+  marketplace_id: "dharam-gfx-theme.dharam-gfx-theme"
+  version: "0.0.7"
+  installs: 660
+  author: "dharmendra kumar"
+  repo: "https://github.com/dharam-gfx/dharam-gfx-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dharam-gfx-theme.dharam-gfx-theme"
+colors:
+  bg: "#121721"
+  fg: "#C5CDDE"
+  black: "#121721"
+  red: "#E35535"
+  green: "#3CEC85"
+  yellow: "#EACD61"
+  blue: "#69C3FF"
+  magenta: "#F38CEC"
+  cyan: "#22ECDB"
+  white: "#C5CDDE"
+  brightBlack: "#384766"
+  brightRed: "#FF4319"
+  brightGreen: "#29FF82"
+  brightYellow: "#FFD94C"
+  brightBlue: "#69C3FF"
+  brightMagenta: "#FF80F6"
+  brightCyan: "#0FFFEB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 75
+    black: 0
+    red: 36.7
+    green: 77.3
+    yellow: 76.2
+    blue: 64.5
+    magenta: 59.3
+    cyan: 79.8
+    white: 75
+    brightBlack: 10
+    brightRed: 40.2
+    brightGreen: 86.8
+    brightYellow: 84.4
+    brightBlue: 64.5
+    brightMagenta: 59
+    brightCyan: 90.2
+    brightWhite: 106.9

@@ -1,0 +1,49 @@
+name: "buddha - a super minimal theme for vscode"
+source:
+  marketplace_id: "AnupJha.buddha-a-super-minimal-theme-for-vscode"
+  version: "0.0.1"
+  installs: 1036
+  author: "Anup Jha"
+  repo: "https://github.com/anupjha/buddha-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AnupJha.buddha-a-super-minimal-theme-for-vscode"
+colors:
+  bg: "#003440"
+  fg: "#FFFFFF"
+  black: "#FFFFFF"
+  red: "#FF0032"
+  green: "#00FF68"
+  yellow: "#FFCA00"
+  blue: "#004BFF"
+  magenta: "#7D46FC"
+  cyan: "#00D2FF"
+  white: "#FFFFFF"
+  brightBlack: "#FFFFFF"
+  brightRed: "#FF0032"
+  brightGreen: "#00FF68"
+  brightYellow: "#FFCA00"
+  brightBlue: "#004BFF"
+  brightMagenta: "#7D46FC"
+  brightCyan: "#00D2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 219
+  contrast:
+    fg: 102.7
+    black: 102.7
+    red: 32.6
+    green: 82
+    yellow: 73.6
+    blue: 17.7
+    magenta: 22.5
+    cyan: 64.8
+    white: 102.7
+    brightBlack: 102.7
+    brightRed: 32.6
+    brightGreen: 82
+    brightYellow: 73.6
+    brightBlue: 17.7
+    brightMagenta: 22.5
+    brightCyan: 64.8
+    brightWhite: 102.7

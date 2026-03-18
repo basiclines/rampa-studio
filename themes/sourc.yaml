@@ -1,0 +1,49 @@
+name: "sourc"
+source:
+  marketplace_id: "vitormalencar.sourc"
+  version: "0.4.0"
+  installs: 1269
+  author: "Vitor Alencar"
+  repo: "git+https://github.com/vitormalencar/sourc"
+  url: "https://marketplace.visualstudio.com/items?itemName=vitormalencar.sourc"
+colors:
+  bg: "#00141D"
+  fg: "#00CAFF"
+  black: "#00141D"
+  red: "#FF5B6F"
+  green: "#46FE7A"
+  yellow: "#FF963B"
+  blue: "#FF5D94"
+  magenta: "#C082FF"
+  cyan: "#BA90FF"
+  white: "#00B0DF"
+  brightBlack: "#002E3D"
+  brightRed: "#FAF605"
+  brightGreen: "#BA90FF"
+  brightYellow: "#FF963B"
+  brightBlue: "#FF5D94"
+  brightMagenta: "#C082FF"
+  brightCyan: "#BA90FF"
+  brightWhite: "#00CAFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 227
+  contrast:
+    fg: 65.6
+    black: 0
+    red: 45.3
+    green: 87
+    yellow: 59.3
+    blue: 46.8
+    magenta: 49.7
+    cyan: 53
+    white: 52.3
+    brightBlack: 0
+    brightRed: 97
+    brightGreen: 53
+    brightYellow: 59.3
+    brightBlue: 46.8
+    brightMagenta: 49.7
+    brightCyan: 53
+    brightWhite: 65.6

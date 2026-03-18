@@ -1,0 +1,49 @@
+name: "MintDark"
+source:
+  marketplace_id: "daniel-lvovsky.mintdark-theme"
+  version: "0.0.1"
+  installs: 2895
+  author: "Daniel Lvovsky"
+  repo: "https://github.com/DanielLvovsky/MintDark/issues"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniel-lvovsky.mintdark-theme"
+colors:
+  bg: "#1D1D1D"
+  fg: "#D8E9E2"
+  black: "#333A38"
+  red: "#D76B6B"
+  green: "#A3BE8C"
+  yellow: "#E5C965"
+  blue: "#81C1A1"
+  magenta: "#CA83E4"
+  cyan: "#9BDAC6"
+  white: "#E5E9F0"
+  brightBlack: "#4C6A65"
+  brightRed: "#D76B6B"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#E5C965"
+  brightBlue: "#81C1A1"
+  brightMagenta: "#CA83E4"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 89.3
+    black: 0
+    red: 39.1
+    green: 61
+    yellow: 73.2
+    blue: 59.9
+    magenta: 48.6
+    cyan: 74.8
+    white: 91.6
+    brightBlack: 20.6
+    brightRed: 39.1
+    brightGreen: 61
+    brightYellow: 73.2
+    brightBlue: 59.9
+    brightMagenta: 48.6
+    brightCyan: 59.9
+    brightWhite: 95.5

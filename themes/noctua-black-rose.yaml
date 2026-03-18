@@ -1,0 +1,49 @@
+name: "Noctua Black Rose"
+source:
+  marketplace_id: "Firstbober.noctua-theme"
+  version: "1.2.1"
+  installs: 1696
+  author: "Firstbober"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Firstbober.noctua-theme"
+colors:
+  bg: "#101010"
+  fg: "#AAAAAA"
+  black: "#191919"
+  red: "#B23E3E"
+  green: "#43B27C"
+  yellow: "#DDD3A2"
+  blue: "#357AB2"
+  magenta: "#9C38AF"
+  cyan: "#00C6CF"
+  white: "#E2E2E2"
+  brightBlack: "#3A3A3A"
+  brightRed: "#E82929"
+  brightGreen: "#47ED68"
+  brightYellow: "#FFD923"
+  brightBlue: "#62AAE5"
+  brightMagenta: "#D653EF"
+  brightCyan: "#02ECF7"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 55.8
+    black: 0
+    red: 23.5
+    green: 50
+    yellow: 79
+    blue: 29.7
+    magenta: 23
+    cyan: 61.3
+    white: 88.7
+    brightBlack: 0
+    brightRed: 32.7
+    brightGreen: 78.1
+    brightYellow: 84.7
+    brightBlue: 52.6
+    brightMagenta: 41.7
+    brightCyan: 81.6
+    brightWhite: 98.9

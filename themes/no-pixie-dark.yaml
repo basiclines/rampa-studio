@@ -1,0 +1,49 @@
+name: "No Pixie Dark"
+source:
+  marketplace_id: "no-pixie.nopixie-theme"
+  version: "2.1.0"
+  installs: 28
+  author: "No Pixie"
+  repo: "https://github.com/nopixie/nopixie-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"
+colors:
+  bg: "#252A33"
+  fg: "#F0F3F8"
+  black: "#1A1F28"
+  red: "#F65A5A"
+  green: "#7BCF7B"
+  yellow: "#FFE050"
+  blue: "#7B9CC8"
+  magenta: "#7B5A78"
+  cyan: "#5AAFAD"
+  white: "#D8DDE5"
+  brightBlack: "#6A7080"
+  brightRed: "#FF7B7B"
+  brightGreen: "#A0D080"
+  brightYellow: "#FFD84D"
+  brightBlue: "#A0B8D8"
+  brightMagenta: "#A06BA0"
+  brightCyan: "#7BD1CF"
+  brightWhite: "#F8E5A0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 96
+    black: 0
+    red: 39.5
+    green: 62.7
+    yellow: 84.8
+    blue: 43.8
+    magenta: 18.7
+    cyan: 48
+    white: 81.9
+    brightBlack: 23.6
+    brightRed: 49.5
+    brightGreen: 66.3
+    brightYellow: 81.2
+    brightBlue: 59.1
+    brightMagenta: 29.7
+    brightCyan: 66.5
+    brightWhite: 87.4

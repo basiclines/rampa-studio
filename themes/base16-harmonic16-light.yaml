@@ -1,0 +1,49 @@
+name: "Base16 Harmonic16 Light"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#F7F9FB"
+  fg: "#405C79"
+  black: "#CBD6E2"
+  red: "#BF8B56"
+  green: "#56BF8B"
+  yellow: "#BFBF56"
+  blue: "#8B56BF"
+  magenta: "#BF568B"
+  cyan: "#568BBF"
+  white: "#223B54"
+  brightBlack: "#AABCCE"
+  brightRed: "#BF8B56"
+  brightGreen: "#56BF8B"
+  brightYellow: "#8BBF56"
+  brightBlue: "#8B56BF"
+  brightMagenta: "#BF568B"
+  brightCyan: "#568BBF"
+  brightWhite: "#0B1C2C"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 80.2
+    black: 18.6
+    red: 52.6
+    green: 40.9
+    yellow: 33.5
+    blue: 70.6
+    magenta: 65.2
+    cyan: 59.6
+    white: 92.7
+    brightBlack: 33.6
+    brightRed: 52.6
+    brightGreen: 40.9
+    brightYellow: 38.7
+    brightBlue: 70.6
+    brightMagenta: 65.2
+    brightCyan: 59.6
+    brightWhite: 100.3

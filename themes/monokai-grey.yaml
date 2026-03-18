@@ -1,0 +1,49 @@
+name: "Monokai Grey"
+source:
+  marketplace_id: "LaurentTreguier.monokai-grey"
+  version: "0.2.8"
+  installs: 5164
+  author: "Laurent Tréguier"
+  repo: "https://github.com/LaurentTreguier/vscode-monokai-grey"
+  url: "https://marketplace.visualstudio.com/items?itemName=LaurentTreguier.monokai-grey"
+colors:
+  bg: "#252729"
+  fg: "#DFDFDF"
+  black: "#000000"
+  red: "#BF0000"
+  green: "#00BF00"
+  yellow: "#BFBF00"
+  blue: "#0000BF"
+  magenta: "#BF00BF"
+  cyan: "#00BFBF"
+  white: "#BFBFBF"
+  brightBlack: "#3F3F3F"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#00FF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 84
+    black: 0
+    red: 19.1
+    green: 50.9
+    yellow: 61.5
+    blue: 0
+    magenta: 24.7
+    cyan: 54.6
+    white: 64.8
+    brightBlack: 0
+    brightRed: 34.3
+    brightGreen: 83.3
+    brightYellow: 83.3
+    brightBlue: 13
+    brightMagenta: 43
+    brightCyan: 89
+    brightWhite: 104.7

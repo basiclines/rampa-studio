@@ -1,0 +1,49 @@
+name: "Attentio Pulse"
+source:
+  marketplace_id: "shadz-dev.attentio"
+  version: "1.1.4"
+  installs: 250
+  author: "Shaditya Kinlekar"
+  repo: "https://github.com/Shaditya-Kinlekar/Attentio-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shadz-dev.attentio"
+colors:
+  bg: "#010107"
+  fg: "#C0C4D8"
+  black: "#111422"
+  red: "#E35535"
+  green: "#3CEC85"
+  yellow: "#EACD61"
+  blue: "#69C3FF"
+  magenta: "#F38CEC"
+  cyan: "#22ECDB"
+  white: "#C0C4D8"
+  brightBlack: "#69C3FF"
+  brightRed: "#E35535"
+  brightGreen: "#3CEC85"
+  brightYellow: "#EACD61"
+  brightBlue: "#69C3FF"
+  brightMagenta: "#F38CEC"
+  brightCyan: "#22ECDB"
+  brightWhite: "#C0C4D8"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 278
+  contrast:
+    fg: 71.4
+    black: 0
+    red: 37.7
+    green: 78.3
+    yellow: 77.2
+    blue: 65.6
+    magenta: 60.4
+    cyan: 80.8
+    white: 71.4
+    brightBlack: 65.6
+    brightRed: 37.7
+    brightGreen: 78.3
+    brightYellow: 77.2
+    brightBlue: 65.6
+    brightMagenta: 60.4
+    brightCyan: 80.8
+    brightWhite: 71.4

@@ -1,0 +1,49 @@
+name: "Darkwaves: Nebula"
+source:
+  marketplace_id: "spacelaxy.spacelaxy-darkwaves"
+  version: "0.0.8"
+  installs: 677
+  author: "Spacelaxy LLC"
+  repo: "https://github.com/spacelaxy/darkwaves"
+  url: "https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves"
+colors:
+  bg: "#1A1D23"
+  fg: "#ABB2BF"
+  black: "#282C34"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#1E2127"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  contrast:
+    fg: 58.7
+    black: 0
+    red: 41.4
+    green: 61.6
+    yellow: 69.9
+    blue: 54
+    magenta: 44.4
+    cyan: 53.9
+    white: 58.7
+    brightBlack: 0
+    brightRed: 41.4
+    brightGreen: 61.6
+    brightYellow: 69.9
+    brightBlue: 54
+    brightMagenta: 44.4
+    brightCyan: 53.9
+    brightWhite: 106.2

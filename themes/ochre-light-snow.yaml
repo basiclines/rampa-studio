@@ -1,0 +1,49 @@
+name: "Ochre Light - Snow"
+source:
+  marketplace_id: "ochre-crafts.ochre"
+  version: "0.2.0"
+  installs: 22
+  author: "ochre-crafts"
+  repo: "https://github.com/ochre-crafts/ochre-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ochre-crafts.ochre"
+colors:
+  bg: "#FAFAFA"
+  fg: "#171717"
+  black: "#FAFAFA"
+  red: "#5C3E1E"
+  green: "#6B4D2E"
+  yellow: "#7C5C35"
+  blue: "#6E7D87"
+  magenta: "#7A8F96"
+  cyan: "#6B5E52"
+  white: "#171717"
+  brightBlack: "#D4D4D4"
+  brightRed: "#5C3E1E"
+  brightGreen: "#6B4D2E"
+  brightYellow: "#7C5C35"
+  brightBlue: "#6E7D87"
+  brightMagenta: "#7A8F96"
+  brightCyan: "#6B5E52"
+  brightWhite: "#0A0A0A"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 101.7
+    black: 0
+    red: 89.4
+    green: 83.7
+    yellow: 77.4
+    blue: 66.3
+    magenta: 58.4
+    cyan: 78.3
+    white: 101.7
+    brightBlack: 19.8
+    brightRed: 89.4
+    brightGreen: 83.7
+    brightYellow: 77.4
+    brightBlue: 66.3
+    brightMagenta: 58.4
+    brightCyan: 78.3
+    brightWhite: 102.9

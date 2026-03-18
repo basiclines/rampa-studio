@@ -1,0 +1,49 @@
+name: "Gruvbox Material Dark - Claude Hybrid"
+source:
+  marketplace_id: "Icycoldveins.verum-monokai-themes"
+  version: "1.2.1"
+  installs: 46
+  author: "Icycoldveins"
+  repo: "https://github.com/icycoldveins/Ide-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Icycoldveins.verum-monokai-themes"
+colors:
+  bg: "#282828"
+  fg: "#D4BE98"
+  black: "#32302F"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E78A4E"
+  blue: "#7DAEA3"
+  magenta: "#FF6B6B"
+  cyan: "#89B482"
+  white: "#D4BE98"
+  brightBlack: "#928374"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E78A4E"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#FF6B6B"
+  brightCyan: "#89B482"
+  brightWhite: "#DDC7A1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 65.6
+    black: 0
+    red: 39.6
+    green: 59.8
+    yellow: 48.4
+    blue: 49.8
+    magenta: 45.7
+    cyan: 52.2
+    white: 65.6
+    brightBlack: 33.9
+    brightRed: 39.6
+    brightGreen: 59.8
+    brightYellow: 48.4
+    brightBlue: 49.8
+    brightMagenta: 45.7
+    brightCyan: 52.2
+    brightWhite: 70.8

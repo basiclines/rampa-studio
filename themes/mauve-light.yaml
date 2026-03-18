@@ -1,0 +1,49 @@
+name: "mauve-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#372638"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#C89933"
+  yellow: "#74526C"
+  blue: "#DBD053"
+  magenta: "#C89933"
+  cyan: "#DBD053"
+  white: "#463047"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#DFC282"
+  brightYellow: "#A884A0"
+  brightBlue: "#EDE7A7"
+  brightMagenta: "#DFC282"
+  brightCyan: "#EDE7A7"
+  brightWhite: "#734F75"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 80.3
+    green: 50.7
+    yellow: 82.7
+    blue: 26.8
+    magenta: 50.7
+    cyan: 26.8
+    white: 97.1
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 31.1
+    brightYellow: 59.7
+    brightBlue: 13.2
+    brightMagenta: 31.1
+    brightCyan: 13.2
+    brightWhite: 83.2

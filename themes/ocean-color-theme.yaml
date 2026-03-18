@@ -1,0 +1,49 @@
+name: "ocean-color-theme"
+source:
+  marketplace_id: "wavebeem.theme-unoduetre"
+  version: "5.11.1"
+  installs: 4290
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/vscode-theme-unoduetre"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.theme-unoduetre"
+colors:
+  bg: "#1C2B4A"
+  fg: "#D1DFFA"
+  black: "#333333"
+  red: "#EA8080"
+  green: "#85E0A0"
+  yellow: "#EBC5A3"
+  blue: "#A89DF1"
+  magenta: "#EA9EE3"
+  cyan: "#7EE6EC"
+  white: "#ECEEF4"
+  brightBlack: "#333333"
+  brightRed: "#EA8080"
+  brightGreen: "#85E0A0"
+  brightYellow: "#EBC5A3"
+  brightBlue: "#A89DF1"
+  brightMagenta: "#EA9EE3"
+  brightCyan: "#7EE6EC"
+  brightWhite: "#ECEEF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 82.6
+    black: 0
+    red: 46.3
+    green: 72
+    yellow: 71.4
+    blue: 50.6
+    magenta: 59.5
+    cyan: 77.5
+    white: 92.5
+    brightBlack: 0
+    brightRed: 46.3
+    brightGreen: 72
+    brightYellow: 71.4
+    brightBlue: 50.6
+    brightMagenta: 59.5
+    brightCyan: 77.5
+    brightWhite: 92.5

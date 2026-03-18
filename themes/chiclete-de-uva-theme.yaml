@@ -1,0 +1,49 @@
+name: "Chiclete de uva | Theme"
+source:
+  marketplace_id: "BiancaPereira.chiclete-de-uva-theme"
+  version: "2.1.6"
+  installs: 555
+  author: "Bianca Pereira"
+  repo: "https://github.com/BiancaPereira/chiclete-de-uva-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BiancaPereira.chiclete-de-uva-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC5B"
+  yellow: "#E68100"
+  blue: "#0451A5"
+  magenta: "#FF2696"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE65"
+  brightYellow: "#FF8F19"
+  brightBlue: "#0451A5"
+  brightMagenta: "#E432E4"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 74
+    green: 48.6
+    yellow: 53.3
+    blue: 86.1
+    magenta: 60.7
+    cyan: 60.6
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 74
+    brightGreen: 40.2
+    brightYellow: 44.5
+    brightBlue: 86.1
+    brightMagenta: 61.7
+    brightCyan: 60.6
+    brightWhite: 48.5

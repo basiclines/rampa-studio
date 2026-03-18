@@ -1,0 +1,49 @@
+name: "B150 Dark"
+source:
+  marketplace_id: "B150.b150-theme"
+  version: "1.0.0"
+  installs: 16
+  author: "B150"
+  repo: "https://github.com/b150/b150-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=B150.b150-theme"
+colors:
+  bg: "#121212"
+  fg: "#E0E0E0"
+  black: "#1E1E1E"
+  red: "#F87171"
+  green: "#4BD395"
+  yellow: "#D4A52E"
+  blue: "#5C7CFF"
+  magenta: "#A78BFA"
+  cyan: "#67D4E2"
+  white: "#E0E0E0"
+  brightBlack: "#666666"
+  brightRed: "#FF8A70"
+  brightGreen: "#6DE4B0"
+  brightYellow: "#E6C54D"
+  brightBlue: "#7D9AFF"
+  brightMagenta: "#C4A8FF"
+  brightCyan: "#8DE4EF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 48.5
+    green: 66.1
+    yellow: 56.8
+    blue: 37.6
+    magenta: 48.7
+    cyan: 70.9
+    white: 87.3
+    brightBlack: 22.5
+    brightRed: 56.5
+    brightGreen: 76.7
+    brightYellow: 72.4
+    brightBlue: 50
+    brightMagenta: 62.6
+    brightCyan: 81.4
+    brightWhite: 107.3

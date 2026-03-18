@@ -1,0 +1,49 @@
+name: "Pantone Ice Blue (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F6F8F9"
+  fg: "#172023"
+  black: "#172023"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F6F8F9"
+  brightBlack: "#749FB2"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F2F4F6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.1
+    black: 99.1
+    red: 74.4
+    green: 58
+    yellow: 42.2
+    blue: 85.4
+    magenta: 81.6
+    cyan: 74.7
+    white: 0
+    brightBlack: 50.3
+    brightRed: 64.1
+    brightGreen: 44.8
+    brightYellow: 26
+    brightBlue: 51.5
+    brightMagenta: 63.1
+    brightCyan: 44.2
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "nuDark"
+source:
+  marketplace_id: "necdetuygur.nudark"
+  version: "1.0.0"
+  installs: 35
+  author: "Necdet UYGUR"
+  repo: "https://github.com/necdetuygur/nudark"
+  url: "https://marketplace.visualstudio.com/items?itemName=necdetuygur.nudark"
+colors:
+  bg: "#0D1117"
+  fg: "#C9D1D9"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#3FB950"
+  yellow: "#D29922"
+  blue: "#58A7FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#7E7781"
+  brightRed: "#FFA198"
+  brightGreen: "#57D374"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#57D4DD"
+  brightWhite: "#F0F7FC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  contrast:
+    fg: 77.5
+    black: 13.1
+    red: 52.6
+    green: 52.1
+    yellow: 52.2
+    blue: 52.6
+    magenta: 52.2
+    cyan: 61.4
+    white: 64
+    brightBlack: 31.1
+    brightRed: 64.8
+    brightGreen: 65.8
+    brightYellow: 64.7
+    brightBlue: 64.7
+    brightMagenta: 64.6
+    brightCyan: 70
+    brightWhite: 101.4

@@ -1,0 +1,49 @@
+name: "Enchant"
+source:
+  marketplace_id: "Ansub.enchant"
+  version: "0.3.4"
+  installs: 1032
+  author: "Ansub"
+  repo: "https://github.com/ansub/enchant"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ansub.enchant"
+colors:
+  bg: "#151515"
+  fg: "#DEE0EF"
+  black: "#151515"
+  red: "#EE8679"
+  green: "#5BA2D0"
+  yellow: "#A78BFA"
+  blue: "#94B8FF"
+  magenta: "#9CCFD8"
+  cyan: "#5BA2D0"
+  white: "#DEE0EF"
+  brightBlack: "#6B6D7C"
+  brightRed: "#EE8679"
+  brightGreen: "#5BA2D0"
+  brightYellow: "#A78BFA"
+  brightBlue: "#94B8FF"
+  brightMagenta: "#9CCFD8"
+  brightCyan: "#5BA2D0"
+  brightWhite: "#DEE0EF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 87.5
+    black: 0
+    red: 52
+    green: 47.4
+    yellow: 48.5
+    blue: 63.2
+    magenta: 71.5
+    cyan: 47.4
+    white: 87.5
+    brightBlack: 25.6
+    brightRed: 52
+    brightGreen: 47.4
+    brightYellow: 48.5
+    brightBlue: 63.2
+    brightMagenta: 71.5
+    brightCyan: 47.4
+    brightWhite: 87.5

@@ -1,0 +1,49 @@
+name: "Pantone Tan (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F8F7F5"
+  fg: "#1E1C17"
+  black: "#1E1C17"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F8F7F5"
+  brightBlack: "#A0906C"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F5F4F1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.2
+    black: 99.2
+    red: 74.1
+    green: 57.6
+    yellow: 41.8
+    blue: 85.1
+    magenta: 81.3
+    cyan: 74.4
+    white: 0
+    brightBlack: 53.6
+    brightRed: 63.8
+    brightGreen: 44.4
+    brightYellow: 25.6
+    brightBlue: 51.1
+    brightMagenta: 62.7
+    brightCyan: 43.8
+    brightWhite: 0

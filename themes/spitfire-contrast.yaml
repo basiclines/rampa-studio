@@ -1,0 +1,49 @@
+name: "spitfire-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#091C19"
+  fg: "#BAD3D0"
+  black: "#0F2F2A"
+  red: "#BA0E2E"
+  green: "#F75431"
+  yellow: "#FACC54"
+  blue: "#8EC065"
+  magenta: "#30985B"
+  cyan: "#F75431"
+  white: "#CADDDB"
+  brightBlack: "#22695E"
+  brightRed: "#F03E5F"
+  brightGreen: "#FBA593"
+  brightYellow: "#FDEAB7"
+  brightBlue: "#C3DEAD"
+  brightMagenta: "#61CD8E"
+  brightCyan: "#FBA593"
+  brightWhite: "#F8FBFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 182
+  contrast:
+    fg: 75.5
+    black: 0
+    red: 20.2
+    green: 40.7
+    yellow: 77.9
+    blue: 59.4
+    magenta: 36.8
+    cyan: 40.7
+    white: 82.3
+    brightBlack: 18.8
+    brightRed: 36.5
+    brightGreen: 64.5
+    brightYellow: 93.7
+    brightBlue: 80.2
+    brightMagenta: 63.3
+    brightCyan: 64.5
+    brightWhite: 103.5

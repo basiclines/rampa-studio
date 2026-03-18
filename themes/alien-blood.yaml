@@ -1,0 +1,49 @@
+name: "Alien Blood"
+source:
+  marketplace_id: "ThomasBishop.alien-blood"
+  version: "1.7.3"
+  installs: 2384
+  author: "Thomas Bishop"
+  repo: "https://github.com/thomasabishop/alien-blood-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ThomasBishop.alien-blood"
+colors:
+  bg: "#0F1610"
+  fg: "#637D75"
+  black: "#112616"
+  red: "#E08009"
+  green: "#2F7E25"
+  yellow: "#717F24"
+  blue: "#2F6A7F"
+  magenta: "#47587F"
+  cyan: "#327F77"
+  white: "#647D75"
+  brightBlack: "#3C4812"
+  brightRed: "#E08009"
+  brightGreen: "#717F24"
+  brightYellow: "#BDE000"
+  brightBlue: "#00AAE0"
+  brightMagenta: "#0058E0"
+  brightCyan: "#00E0C4"
+  brightWhite: "#717F24"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 149
+  contrast:
+    fg: 30
+    black: 0
+    red: 46.3
+    green: 26.2
+    yellow: 30.4
+    blue: 21.2
+    magenta: 16.8
+    cyan: 28.3
+    white: 30.1
+    brightBlack: 8.9
+    brightRed: 46.3
+    brightGreen: 30.4
+    brightYellow: 78.5
+    brightBlue: 49.7
+    brightMagenta: 21.9
+    brightCyan: 72.9
+    brightWhite: 30.4

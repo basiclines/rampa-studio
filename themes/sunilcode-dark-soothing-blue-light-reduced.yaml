@@ -1,0 +1,49 @@
+name: "SunilCode Dark Soothing (Blue Light Reduced)"
+source:
+  marketplace_id: "fastestsunil.sunilcode-themes"
+  version: "1.0.2"
+  installs: 57
+  author: "fastestsunil"
+  repo: "https://github.com/fastestsunil/sunilcode-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=fastestsunil.sunilcode-themes"
+colors:
+  bg: "#1A1F2E"
+  fg: "#D4C5B9"
+  black: "#232837"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E8B04A"
+  blue: "#D4A574"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D4C5B9"
+  brightBlack: "#232837"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E8B04A"
+  brightBlue: "#D4A574"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D4C5B9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 270
+  contrast:
+    fg: 71
+    black: 0
+    red: 41
+    green: 61.2
+    yellow: 62.9
+    blue: 56.3
+    magenta: 44.1
+    cyan: 53.5
+    white: 71
+    brightBlack: 0
+    brightRed: 41
+    brightGreen: 61.2
+    brightYellow: 62.9
+    brightBlue: 56.3
+    brightMagenta: 44.1
+    brightCyan: 53.5
+    brightWhite: 71

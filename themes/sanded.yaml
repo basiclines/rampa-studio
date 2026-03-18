@@ -1,0 +1,49 @@
+name: "sanded"
+source:
+  marketplace_id: "PaulBoelens.sanded"
+  version: "0.0.1"
+  installs: 314
+  author: "Paul Boelens"
+  repo: "https://dev.azure.com/zerorain/_git/sanded"
+  url: "https://marketplace.visualstudio.com/items?itemName=PaulBoelens.sanded"
+colors:
+  bg: "#FFF7E3"
+  fg: "#C9C9C9"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 24.4
+    black: 101.5
+    red: 69.4
+    green: 44.7
+    yellow: 53.4
+    blue: 81.5
+    magenta: 70
+    cyan: 56
+    white: 81.4
+    brightBlack: 74.2
+    brightRed: 69.4
+    brightGreen: 36.4
+    brightYellow: 36.4
+    brightBlue: 81.5
+    brightMagenta: 70
+    brightCyan: 56
+    brightWhite: 43.9

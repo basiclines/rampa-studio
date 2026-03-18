@@ -1,0 +1,49 @@
+name: "The Flying Dutchman Soft"
+source:
+  marketplace_id: "DavyJones.the-flying-dutchman-theme"
+  version: "1.4.0"
+  installs: 110
+  author: "Davy Jones"
+  repo: "https://github.com/ADWilkinson/the-flying-dutchman-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DavyJones.the-flying-dutchman-theme"
+colors:
+  bg: "#0B1117"
+  fg: "#C1D1E1"
+  black: "#2D4E6F"
+  red: "#D67878"
+  green: "#6AAF7F"
+  yellow: "#C8A96C"
+  blue: "#6BA3D0"
+  magenta: "#A085D1"
+  cyan: "#5DA6A3"
+  white: "#C1D1E1"
+  brightBlack: "#6B7580"
+  brightRed: "#E88B8B"
+  brightGreen: "#7DB992"
+  brightYellow: "#D4B574"
+  brightBlue: "#7BB0DB"
+  brightMagenta: "#B398DB"
+  brightCyan: "#70B7B4"
+  brightWhite: "#E1F1F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  contrast:
+    fg: 77
+    black: 12.2
+    red: 43.9
+    green: 50.6
+    yellow: 57.4
+    blue: 49.1
+    magenta: 43.4
+    cyan: 47.3
+    white: 77
+    brightBlack: 28.6
+    brightRed: 53.2
+    brightGreen: 56.8
+    brightYellow: 64
+    brightBlue: 56.1
+    brightMagenta: 52.6
+    brightCyan: 56.3
+    brightWhite: 96.1

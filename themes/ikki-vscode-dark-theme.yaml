@@ -1,0 +1,49 @@
+name: "IKKI-VSCode-Dark-Theme"
+source:
+  marketplace_id: "IKKI2000.ikki-vscode-dark-theme"
+  version: "1.88.1"
+  installs: 3764
+  author: "IKKI"
+  repo: "https://github.com/IKKI2000/IKKI-VSCode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=IKKI2000.ikki-vscode-dark-theme"
+colors:
+  bg: "#535353"
+  fg: "#D6D6D6"
+  black: "#E6E9ED"
+  red: "#DA4453"
+  green: "#37BC9B"
+  yellow: "#FF9800"
+  blue: "#4A89DC"
+  magenta: "#D770AD"
+  cyan: "#3BAFDA"
+  white: "#8CC152"
+  brightBlack: "#F5F7FA"
+  brightRed: "#ED5565"
+  brightGreen: "#48CFAD"
+  brightYellow: "#FFB74D"
+  brightBlue: "#5D9CEC"
+  brightMagenta: "#EC87C0"
+  brightCyan: "#4FC1E9"
+  brightWhite: "#A0D468"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 65.3
+    black: 77
+    red: 17
+    green: 39.2
+    yellow: 44
+    blue: 22.4
+    magenta: 28
+    cyan: 36.5
+    white: 44.2
+    brightBlack: 86.1
+    brightRed: 24.3
+    brightGreen: 49.1
+    brightYellow: 55.2
+    brightBlue: 31.4
+    brightMagenta: 38.9
+    brightCyan: 45.8
+    brightWhite: 55

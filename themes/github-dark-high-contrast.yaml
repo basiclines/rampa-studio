@@ -1,0 +1,49 @@
+name: "GitHub Dark High Contrast"
+source:
+  marketplace_id: "wheredoesyourmindgo.nushu-vscode-theme"
+  version: "2.2.18"
+  installs: 32055
+  author: "wheredoesyourmindgo"
+  repo: "https://github.com/wheredoesyourmindgo/nushu-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.nushu-vscode-theme"
+colors:
+  bg: "#0A0C10"
+  fg: "#F0F3F6"
+  black: "#7A828E"
+  red: "#FF9492"
+  green: "#26CD4D"
+  yellow: "#F0B72F"
+  blue: "#71B7FF"
+  magenta: "#CB9EFF"
+  cyan: "#39C5CF"
+  white: "#D9DEE3"
+  brightBlack: "#9EA7B3"
+  brightRed: "#FFB1AF"
+  brightGreen: "#4AE168"
+  brightYellow: "#F7C843"
+  brightBlue: "#91CBFF"
+  brightMagenta: "#DBB7FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 99.5
+    black: 35.2
+    red: 60.8
+    green: 61.2
+    yellow: 68.5
+    blue: 60.7
+    magenta: 60.4
+    cyan: 61.7
+    white: 86
+    brightBlack: 53.9
+    brightRed: 71.4
+    brightGreen: 72.3
+    brightYellow: 76.6
+    brightBlue: 71.5
+    brightMagenta: 71.7
+    brightCyan: 70.2
+    brightWhite: 107.7

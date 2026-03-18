@@ -1,0 +1,49 @@
+name: "Café Warmth"
+source:
+  marketplace_id: "Icycoldveins.verum-monokai-themes"
+  version: "1.2.1"
+  installs: 46
+  author: "Icycoldveins"
+  repo: "https://github.com/icycoldveins/Ide-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Icycoldveins.verum-monokai-themes"
+colors:
+  bg: "#292828"
+  fg: "#A89984"
+  black: "#1F1D1A"
+  red: "#E06C75"
+  green: "#7DA061"
+  yellow: "#E78A4E"
+  blue: "#7DA061"
+  magenta: "#E8E4D9"
+  cyan: "#C4B299"
+  white: "#C4B299"
+  brightBlack: "#8B6F47"
+  brightRed: "#E06C75"
+  brightGreen: "#7DA061"
+  brightYellow: "#E78A4E"
+  brightBlue: "#7DA061"
+  brightMagenta: "#E8E4D9"
+  brightCyan: "#C4B299"
+  brightWhite: "#E8E4D9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 44.8
+    black: 0
+    red: 39.6
+    green: 42.1
+    yellow: 48.3
+    blue: 42.1
+    magenta: 87
+    cyan: 58.5
+    white: 58.5
+    brightBlack: 25.6
+    brightRed: 39.6
+    brightGreen: 42.1
+    brightYellow: 48.3
+    brightBlue: 42.1
+    brightMagenta: 87
+    brightCyan: 58.5
+    brightWhite: 87

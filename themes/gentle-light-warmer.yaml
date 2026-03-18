@@ -1,0 +1,49 @@
+name: "Gentle Light (Warmer)"
+source:
+  marketplace_id: "carlossalguero.gentle-theme"
+  version: "1.0.0"
+  installs: 109
+  author: "carlossalguero"
+  repo: "https://github.com/salgue441/gentle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlossalguero.gentle-theme"
+colors:
+  bg: "#FAF8F5"
+  fg: "#433D38"
+  black: "#433D38"
+  red: "#B84A3D"
+  green: "#507040"
+  yellow: "#A87030"
+  blue: "#6B7B60"
+  magenta: "#8B6B70"
+  cyan: "#508080"
+  white: "#D4CCC2"
+  brightBlack: "#7A7068"
+  brightRed: "#C46050"
+  brightGreen: "#608850"
+  brightYellow: "#C09040"
+  brightBlue: "#7A8B70"
+  brightMagenta: "#A08088"
+  brightCyan: "#60A0A0"
+  brightWhite: "#F2F0EC"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 90.8
+    black: 90.8
+    red: 70.6
+    green: 74
+    yellow: 64.5
+    blue: 67.5
+    magenta: 68.8
+    cyan: 66.6
+    white: 22.6
+    brightBlack: 69.5
+    brightRed: 63.5
+    brightGreen: 63.9
+    brightYellow: 50.8
+    brightBlue: 60
+    brightMagenta: 58.9
+    brightCyan: 52.3
+    brightWhite: 0

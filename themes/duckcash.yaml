@@ -1,0 +1,49 @@
+name: "duckcash"
+source:
+  marketplace_id: "duckcash.duckcash"
+  version: "0.3.1"
+  installs: 102
+  author: "duckcash"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=duckcash.duckcash"
+colors:
+  bg: "#FFFFFF"
+  fg: "#1F1F1F"
+  black: "#FFFFFF"
+  red: "#F7899C"
+  green: "#9BFBA3"
+  yellow: "#E1C342"
+  blue: "#39B1B3"
+  magenta: "#B200B3"
+  cyan: "#00A6B3"
+  white: "#C0BFBF"
+  brightBlack: "#C9C9C9"
+  brightRed: "#F8A3B3"
+  brightGreen: "#75FDC0"
+  brightYellow: "#F9EA8C"
+  brightBlue: "#43CCCA"
+  brightMagenta: "#E601E5"
+  brightCyan: "#31F4F4"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103.4
+    black: 0
+    red: 45.6
+    green: 12.5
+    yellow: 31.4
+    blue: 50.2
+    magenta: 77.2
+    cyan: 55.4
+    white: 34.4
+    brightBlack: 29
+    brightRed: 36.8
+    brightGreen: 13
+    brightYellow: 10.9
+    brightBlue: 37.3
+    brightMagenta: 63
+    brightCyan: 17.3
+    brightWhite: 12.9

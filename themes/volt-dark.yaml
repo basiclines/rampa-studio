@@ -1,0 +1,49 @@
+name: "Volt Dark"
+source:
+  marketplace_id: "MBhakta.voltdark"
+  version: "2.0.3"
+  installs: 84
+  author: "MBhakta"
+  repo: "https://github.com/milinbhakta/voltdark"
+  url: "https://marketplace.visualstudio.com/items?itemName=MBhakta.voltdark"
+colors:
+  bg: "#000000"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#CDFF5C"
+  yellow: "#87B1C8"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#6DFFF8"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#CDFF5C"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#6DFFF8"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 80.5
+    black: 0
+    red: 27.7
+    green: 96.8
+    yellow: 56.9
+    blue: 28.4
+    magenta: 30.8
+    cyan: 93.9
+    white: 91
+    brightBlack: 23
+    brightRed: 39.6
+    brightGreen: 96.8
+    brightYellow: 96.6
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 93.9
+    brightWhite: 91

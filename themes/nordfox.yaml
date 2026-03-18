@@ -1,0 +1,49 @@
+name: "Nordfox"
+source:
+  marketplace_id: "Fr4nk1in.nordfox-vsc"
+  version: "0.1.2"
+  installs: 586
+  author: "Fr4nk1in"
+  repo: "https://github.com/Fr4nk1inCs/nordfox-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=Fr4nk1in.nordfox-vsc"
+colors:
+  bg: "#2E3440"
+  fg: "#CDCECF"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#465780"
+  brightRed: "#D06F79"
+  brightGreen: "#B1D196"
+  brightYellow: "#F0D399"
+  brightBlue: "#8CAFD2"
+  brightMagenta: "#C895BF"
+  brightCyan: "#93CCDC"
+  brightWhite: "#E7ECF4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 70.7
+    black: 0
+    red: 27.9
+    green: 56.6
+    yellow: 71.3
+    blue: 43.6
+    magenta: 41.4
+    cyan: 57.6
+    white: 87.3
+    brightBlack: 11.2
+    brightRed: 34.8
+    brightGreen: 66.7
+    brightYellow: 75.8
+    brightBlue: 50.9
+    brightMagenta: 47.4
+    brightCyan: 64.3
+    brightWhite: 89.1

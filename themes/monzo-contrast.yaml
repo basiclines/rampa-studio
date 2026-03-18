@@ -1,0 +1,49 @@
+name: "monzo-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#0B1421"
+  fg: "#B0CBF4"
+  black: "#112034"
+  red: "#BA0E2E"
+  green: "#98BAA6"
+  yellow: "#247888"
+  blue: "#E6CE9F"
+  magenta: "#E14D61"
+  cyan: "#247888"
+  white: "#C6DAF7"
+  brightBlack: "#24426D"
+  brightRed: "#F03E5F"
+  brightGreen: "#D5E3DB"
+  brightYellow: "#44B8CE"
+  brightBlue: "#FBF7F0"
+  brightMagenta: "#F0A4AE"
+  brightCyan: "#44B8CE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  contrast:
+    fg: 73.2
+    black: 0
+    red: 20.8
+    green: 60
+    yellow: 26.1
+    blue: 77.7
+    magenta: 35.8
+    cyan: 26.1
+    white: 82.4
+    brightBlack: 8.5
+    brightRed: 37.1
+    brightGreen: 86.9
+    brightYellow: 55.6
+    brightBlue: 102.1
+    brightMagenta: 63.6
+    brightCyan: 55.6
+    brightWhite: 107.1

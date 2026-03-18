@@ -1,0 +1,49 @@
+name: "ITSNP Dark Pink"
+source:
+  marketplace_id: "Sachit.itsnp-theme"
+  version: "0.1.2"
+  installs: 358
+  author: "Sachit"
+  repo: "https://github.com/ASACHIT/itsnp-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sachit.itsnp-theme"
+colors:
+  bg: "#0F111A"
+  fg: "#DFE3FA"
+  black: "#000000"
+  red: "#B3A6FF"
+  green: "#C3E88D"
+  yellow: "#D40658"
+  blue: "#82AAFF"
+  magenta: "#F72D81"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#B3A6FF"
+  brightGreen: "#C3E88D"
+  brightYellow: "#D40658"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#F72D81"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  contrast:
+    fg: 89.8
+    black: 0
+    red: 59.8
+    green: 84.7
+    yellow: 27.4
+    blue: 56.4
+    magenta: 38.2
+    cyan: 78.7
+    white: 107.3
+    brightBlack: 12
+    brightRed: 59.8
+    brightGreen: 84.7
+    brightYellow: 27.4
+    brightBlue: 56.4
+    brightMagenta: 38.2
+    brightCyan: 78.7
+    brightWhite: 107.3

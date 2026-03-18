@@ -1,0 +1,49 @@
+name: "SkeletorTheme"
+source:
+  marketplace_id: "mhommet.skeletortheme"
+  version: "1.0.3"
+  installs: 34
+  author: "mhommet"
+  repo: "https://github.com/mhommet/skeletortheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mhommet.skeletortheme"
+colors:
+  bg: "#21222C"
+  fg: "#FFFFFF"
+  black: "#21222C"
+  red: "#568EFC"
+  green: "#FAED45"
+  yellow: "#FAED45"
+  blue: "#568EFC"
+  magenta: "#493A90"
+  cyan: "#90B4EA"
+  white: "#FFFFFF"
+  brightBlack: "#C0D0F0"
+  brightRed: "#568EFC"
+  brightGreen: "#FAED45"
+  brightYellow: "#FAED45"
+  brightBlue: "#568EFC"
+  brightMagenta: "#493A90"
+  brightCyan: "#90B4EA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 280
+  contrast:
+    fg: 105.4
+    black: 0
+    red: 41
+    green: 91.1
+    yellow: 91.1
+    blue: 41
+    magenta: 9
+    cyan: 58.2
+    white: 105.4
+    brightBlack: 75.1
+    brightRed: 41
+    brightGreen: 91.1
+    brightYellow: 91.1
+    brightBlue: 41
+    brightMagenta: 9
+    brightCyan: 58.2
+    brightWhite: 105.4

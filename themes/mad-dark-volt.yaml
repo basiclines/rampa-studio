@@ -1,0 +1,49 @@
+name: "Mad Dark Volt"
+source:
+  marketplace_id: "rohanb1997.mad-dark-volt"
+  version: "0.0.1"
+  installs: 61
+  author: "Rohan Bhattacharjee"
+  repo: "https://github.com/rohanb1997/mad-dark-volt"
+  url: "https://marketplace.visualstudio.com/items?itemName=rohanb1997.mad-dark-volt"
+colors:
+  bg: "#0C1821"
+  fg: "#F5F1ED"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#528BFF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 242
+  contrast:
+    fg: 98
+    black: 0
+    red: 42.1
+    green: 62.3
+    yellow: 70.6
+    blue: 41.5
+    magenta: 45.1
+    cyan: 54.6
+    white: 83
+    brightBlack: 35.5
+    brightRed: 38.4
+    brightGreen: 62.3
+    brightYellow: 70.6
+    brightBlue: 41.5
+    brightMagenta: 12.7
+    brightCyan: 54.6
+    brightWhite: 83

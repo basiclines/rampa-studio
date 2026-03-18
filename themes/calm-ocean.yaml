@@ -1,0 +1,49 @@
+name: "Calm Ocean"
+source:
+  marketplace_id: "tlolkema.natural-indigo"
+  version: "0.0.3"
+  installs: 510
+  author: "tlolkema"
+  repo: "https://github.com/tlolkema/natural-indigo.git#master"
+  url: "https://marketplace.visualstudio.com/items?itemName=tlolkema.natural-indigo"
+colors:
+  bg: "#1C2026"
+  fg: "#F1FAEE"
+  black: "#2E3440"
+  red: "#BF616A"
+  green: "#A8DADC"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#4E9DCF"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A8DADC"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#4E9DCF"
+  brightCyan: "#A8DADC"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  contrast:
+    fg: 100.7
+    black: 0
+    red: 31.9
+    green: 76.5
+    yellow: 75.3
+    blue: 47.6
+    magenta: 43.5
+    cyan: 61.6
+    white: 91.3
+    brightBlack: 14.3
+    brightRed: 31.9
+    brightGreen: 76.5
+    brightYellow: 75.3
+    brightBlue: 47.6
+    brightMagenta: 43.5
+    brightCyan: 76.5
+    brightWhite: 95.2

@@ -1,0 +1,49 @@
+name: "Retro Cathode-Ray Minimal Theme"
+source:
+  marketplace_id: "xXBalestraroXx.wired-reality-theme"
+  version: "1.0.0"
+  installs: 240
+  author: "xXBalestraroXx"
+  repo: "https://github.com/xxbalestraroxx/WiredRealityTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xXBalestraroXx.wired-reality-theme"
+colors:
+  bg: "#181D20"
+  fg: "#D0D0D0"
+  black: "#1D2021"
+  red: "#DB5252"
+  green: "#718C6A"
+  yellow: "#CC7722"
+  blue: "#5F8CA8"
+  magenta: "#A174A1"
+  cyan: "#6CA9A7"
+  white: "#D0D0D0"
+  brightBlack: "#3A4045"
+  brightRed: "#FF6B6B"
+  brightGreen: "#B2F090"
+  brightYellow: "#FFE066"
+  brightBlue: "#9BBBD7"
+  brightMagenta: "#FF99CC"
+  brightCyan: "#B3E0E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76.5
+    black: 0
+    red: 34.2
+    green: 35.4
+    yellow: 39.3
+    blue: 36.3
+    magenta: 34.6
+    cyan: 48.5
+    white: 76.5
+    brightBlack: 0
+    brightRed: 47.5
+    brightGreen: 85.8
+    brightYellow: 87.2
+    brightBlue: 61.9
+    brightMagenta: 63.2
+    brightCyan: 81
+    brightWhite: 106.3

@@ -1,0 +1,49 @@
+name: "Oxocarbon OLED (compatibility)"
+source:
+  marketplace_id: "NyoomEngineering.oxocarbon-vscode"
+  version: "1.2.0"
+  installs: 1556
+  author: "Nyoom Engineering"
+  repo: "https://github.com/nyoom-engineering/oxocarbon-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=NyoomEngineering.oxocarbon-vscode"
+colors:
+  bg: "#000000"
+  fg: "#F2F4F8"
+  black: "#000000"
+  red: "#78A9FF"
+  green: "#FF7EB6"
+  yellow: "#42BE65"
+  blue: "#08BDBA"
+  magenta: "#82CFFF"
+  cyan: "#33B1FF"
+  white: "#DDE1E6"
+  brightBlack: "#393939"
+  brightRed: "#78A9FF"
+  brightGreen: "#FF7EB6"
+  brightYellow: "#42BE65"
+  brightBlue: "#08BDBA"
+  brightMagenta: "#82CFFF"
+  brightCyan: "#33B1FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 55.8
+    green: 56.1
+    yellow: 55.3
+    blue: 56.7
+    magenta: 72.4
+    cyan: 55.9
+    white: 88.2
+    brightBlack: 0
+    brightRed: 55.8
+    brightGreen: 56.1
+    brightYellow: 55.3
+    brightBlue: 56.7
+    brightMagenta: 72.4
+    brightCyan: 55.9
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "Antidote"
+source:
+  marketplace_id: "philecker.antidote"
+  version: "2.0.1"
+  installs: 884
+  author: "Phil Ecker"
+  repo: "https://github.com/philecker/antidote"
+  url: "https://marketplace.visualstudio.com/items?itemName=philecker.antidote"
+colors:
+  bg: "#181818"
+  fg: "#B3B3B3"
+  black: "#282A36"
+  red: "#FF5C57"
+  green: "#66BE84"
+  yellow: "#F3F99D"
+  blue: "#57C7FF"
+  magenta: "#FF6AC1"
+  cyan: "#9AEDFE"
+  white: "#F1F1F0"
+  brightBlack: "#686868"
+  brightRed: "#FF5C57"
+  brightGreen: "#66BE84"
+  brightYellow: "#F3F99D"
+  brightBlue: "#57C7FF"
+  brightMagenta: "#FF6AC1"
+  brightCyan: "#9AEDFE"
+  brightWhite: "#EFF0EB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 60.1
+    black: 0
+    red: 44.6
+    green: 56.5
+    yellow: 98.6
+    blue: 65.3
+    magenta: 50.8
+    cyan: 86.9
+    white: 97.5
+    brightBlack: 22.8
+    brightRed: 44.6
+    brightGreen: 56.5
+    brightYellow: 98.6
+    brightBlue: 65.3
+    brightMagenta: 50.8
+    brightCyan: 86.9
+    brightWhite: 96.6

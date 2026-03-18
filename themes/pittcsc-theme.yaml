@@ -1,0 +1,49 @@
+name: "PittCSC Theme"
+source:
+  marketplace_id: "QuentinRomeroLauro.pittcsc-theme"
+  version: "0.1.2"
+  installs: 80
+  author: "Quentin Romero Lauro"
+  repo: "https://github.com/QuentinRomeroLauro/PittCSC-VSCode-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=QuentinRomeroLauro.pittcsc-theme"
+colors:
+  bg: "#1E1E1E"
+  fg: "#F8F8F2"
+  black: "#252525"
+  red: "#F08080"
+  green: "#98C379"
+  yellow: "#E5C875"
+  blue: "#E5C875"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#E0E0E0"
+  brightBlack: "#252525"
+  brightRed: "#FF9090"
+  brightGreen: "#A8D389"
+  brightYellow: "#F5D885"
+  brightBlue: "#F5D885"
+  brightMagenta: "#D688ED"
+  brightCyan: "#66C6D2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 101.1
+    black: 0
+    red: 49.9
+    green: 61.4
+    yellow: 72.9
+    blue: 72.9
+    magenta: 44.3
+    cyan: 53.7
+    white: 86
+    brightBlack: 0
+    brightRed: 57.9
+    brightGreen: 70.6
+    brightYellow: 82.5
+    brightBlue: 82.5
+    brightMagenta: 52.4
+    brightCyan: 62.3
+    brightWhite: 106

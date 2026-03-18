@@ -1,0 +1,49 @@
+name: "Sunset theme"
+source:
+  marketplace_id: "EdCanCe.retrowave-sunset-theme"
+  version: "0.0.3"
+  installs: 82
+  author: "EdCanCe"
+  repo: "https://github.com/EdCanCe/sunset"
+  url: "https://marketplace.visualstudio.com/items?itemName=EdCanCe.retrowave-sunset-theme"
+colors:
+  bg: "#000814"
+  fg: "#94B2E0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 247
+  contrast:
+    fg: 59.6
+    black: 0
+    red: 27.6
+    green: 53.9
+    yellow: 86.5
+    blue: 28.3
+    magenta: 30.7
+    cyan: 48.4
+    white: 90.9
+    brightBlack: 22.9
+    brightRed: 39.5
+    brightGreen: 64.4
+    brightYellow: 96.5
+    brightBlue: 40.9
+    brightMagenta: 46.3
+    brightCyan: 56.3
+    brightWhite: 90.9

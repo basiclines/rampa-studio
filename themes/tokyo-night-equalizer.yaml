@@ -1,0 +1,49 @@
+name: "Tokyo Night Equalizer"
+source:
+  marketplace_id: "ni3rav.andromeda-night"
+  version: "0.0.7"
+  installs: 1259
+  author: "ni3rav"
+  repo: "https://github.com/ni3rav/andromeda-night"
+  url: "https://marketplace.visualstudio.com/items?itemName=ni3rav.andromeda-night"
+colors:
+  bg: "#14151D"
+  fg: "#979AB3"
+  black: "#4A4E6B"
+  red: "#CA5F64"
+  green: "#6F768E"
+  yellow: "#B6A6C2"
+  blue: "#7A7C9D"
+  magenta: "#8A8CB2"
+  cyan: "#7F9BAD"
+  white: "#707083"
+  brightBlack: "#4A4E6B"
+  brightRed: "#CA5F64"
+  brightGreen: "#6F768E"
+  brightYellow: "#B6A6C2"
+  brightBlue: "#7A7C9D"
+  brightMagenta: "#8A8CB2"
+  brightCyan: "#7F9BAD"
+  brightWhite: "#8B8D9C"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  contrast:
+    fg: 47.6
+    black: 13.3
+    red: 34.5
+    green: 29.5
+    yellow: 56.3
+    blue: 33.1
+    magenta: 41.1
+    cyan: 45.3
+    white: 27.2
+    brightBlack: 13.3
+    brightRed: 34.5
+    brightGreen: 29.5
+    brightYellow: 56.3
+    brightBlue: 33.1
+    brightMagenta: 41.1
+    brightCyan: 45.3
+    brightWhite: 40.6

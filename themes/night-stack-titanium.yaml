@@ -1,0 +1,49 @@
+name: "Night-Stack Titanium"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0C0F14"
+  fg: "#DCE3EA"
+  black: "#1C232C"
+  red: "#22D3EE"
+  green: "#67E8F9"
+  yellow: "#A5F3FC"
+  blue: "#0EA5E9"
+  magenta: "#38BDF8"
+  cyan: "#22D3EE"
+  white: "#DCE3EA"
+  brightBlack: "#1C232C"
+  brightRed: "#22D3EE"
+  brightGreen: "#67E8F9"
+  brightYellow: "#A5F3FC"
+  brightBlue: "#0EA5E9"
+  brightMagenta: "#38BDF8"
+  brightCyan: "#22D3EE"
+  brightWhite: "#DCE3EA"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 261
+  contrast:
+    fg: 88.8
+    black: 0
+    red: 69.2
+    green: 81.8
+    yellow: 91.4
+    blue: 48.7
+    magenta: 60.2
+    cyan: 69.2
+    white: 88.8
+    brightBlack: 0
+    brightRed: 69.2
+    brightGreen: 81.8
+    brightYellow: 91.4
+    brightBlue: 48.7
+    brightMagenta: 60.2
+    brightCyan: 69.2
+    brightWhite: 88.8

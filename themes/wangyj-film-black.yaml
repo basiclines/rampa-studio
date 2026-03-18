@@ -1,0 +1,49 @@
+name: "wangyj-film-black"
+source:
+  marketplace_id: "wangyjhh.nice-vscode-extension"
+  version: "0.9.1"
+  installs: 39
+  author: "wyj"
+  repo: "https://github.com/wangyjhh/nice_vscode_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=wangyjhh.nice-vscode-extension"
+colors:
+  bg: "#0D0F10"
+  fg: "#D9D1BD"
+  black: "#6D6D64"
+  red: "#E68E8E"
+  green: "#6BD4A2"
+  yellow: "#E9B873"
+  blue: "#7FB5E6"
+  magenta: "#D48FB8"
+  cyan: "#5AC8DC"
+  white: "#F5F2E8"
+  brightBlack: "#6D6D64"
+  brightRed: "#E68E8E"
+  brightGreen: "#6BD4A2"
+  brightYellow: "#E9B873"
+  brightBlue: "#7FB5E6"
+  brightMagenta: "#D48FB8"
+  brightCyan: "#5AC8DC"
+  brightWhite: "#F5F2E8"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 78.6
+    black: 25.4
+    red: 53.9
+    green: 68.6
+    yellow: 68.5
+    blue: 59.2
+    magenta: 52.8
+    cyan: 64.7
+    white: 98.9
+    brightBlack: 25.4
+    brightRed: 53.9
+    brightGreen: 68.6
+    brightYellow: 68.5
+    brightBlue: 59.2
+    brightMagenta: 52.8
+    brightCyan: 64.7
+    brightWhite: 98.9

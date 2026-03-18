@@ -1,0 +1,49 @@
+name: "WL-Jade Temple"
+source:
+  marketplace_id: "WatkinsLabs.jade-temple"
+  version: "1.0.1"
+  installs: 12
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.jade-temple"
+colors:
+  bg: "#144622"
+  fg: "#9AFF91"
+  black: "#000000"
+  red: "#E84343"
+  green: "#39E843"
+  yellow: "#E89943"
+  blue: "#178417"
+  magenta: "#4DF04D"
+  cyan: "#178417"
+  white: "#9AFF91"
+  brightBlack: "#666666"
+  brightRed: "#E84343"
+  brightGreen: "#39E843"
+  brightYellow: "#E89943"
+  brightBlue: "#178417"
+  brightMagenta: "#4DF04D"
+  brightCyan: "#178417"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 149
+  contrast:
+    fg: 83.9
+    black: 9
+    red: 27
+    green: 66.1
+    yellow: 47.6
+    blue: 19.7
+    magenta: 70.8
+    cyan: 19.7
+    white: 83.9
+    brightBlack: 14
+    brightRed: 27
+    brightGreen: 66.1
+    brightYellow: 47.6
+    brightBlue: 19.7
+    brightMagenta: 70.8
+    brightCyan: 19.7
+    brightWhite: 98.8

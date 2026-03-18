@@ -1,0 +1,49 @@
+name: "JG-VSC"
+source:
+  marketplace_id: "JasonGuro.jg-vsc"
+  version: "0.0.2"
+  installs: 665
+  author: "Jason Guro"
+  repo: "https://github.com/jay-guro/jg-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=JasonGuro.jg-vsc"
+colors:
+  bg: "#2F274A"
+  fg: "#E0DEF4"
+  black: "#393552"
+  red: "#EB6F92"
+  green: "#3E8FB0"
+  yellow: "#F6C177"
+  blue: "#9CCFD8"
+  magenta: "#C4A7E7"
+  cyan: "#EA9A97"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#EB6F92"
+  brightGreen: "#3E8FB0"
+  brightYellow: "#F6C177"
+  brightBlue: "#9CCFD8"
+  brightMagenta: "#C4A7E7"
+  brightCyan: "#EA9A97"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 293
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 42.5
+    green: 33.5
+    yellow: 70.2
+    blue: 68
+    magenta: 57
+    cyan: 54.8
+    white: 83.6
+    brightBlack: 37.9
+    brightRed: 42.5
+    brightGreen: 33.5
+    brightYellow: 70.2
+    brightBlue: 68
+    brightMagenta: 57
+    brightCyan: 54.8
+    brightWhite: 83.6

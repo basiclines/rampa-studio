@@ -1,0 +1,49 @@
+name: "darklimeteal"
+source:
+  marketplace_id: "ReubenMarcBraganca.darklimeteal"
+  version: "0.0.6"
+  installs: 20
+  author: "ReubenMarcBraganca"
+  repo: "https://github.com/ReubenMarc/theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ReubenMarcBraganca.darklimeteal"
+colors:
+  bg: "#1B282E"
+  fg: "#69D93A"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 228
+  contrast:
+    fg: 66.1
+    black: 0
+    red: 24.6
+    green: 50.9
+    yellow: 83.5
+    blue: 25.3
+    magenta: 27.6
+    cyan: 45.4
+    white: 87.9
+    brightBlack: 19.9
+    brightRed: 36.4
+    brightGreen: 61.4
+    brightYellow: 93.5
+    brightBlue: 37.9
+    brightMagenta: 43.2
+    brightCyan: 53.3
+    brightWhite: 87.9

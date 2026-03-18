@@ -1,0 +1,49 @@
+name: "Supernova"
+source:
+  marketplace_id: "MikeBell.supernova-color-theme"
+  version: "0.1.6"
+  installs: 6737
+  author: "Mike Bell"
+  repo: "https://github.com/mikeybell/supernova-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MikeBell.supernova-color-theme"
+colors:
+  bg: "#202633"
+  fg: "#D6DEEB"
+  black: "#202633"
+  red: "#E97178"
+  green: "#C3E88D"
+  yellow: "#F1DC3D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#D6DEEB"
+  brightBlack: "#575656"
+  brightRed: "#E97178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#F1DC3D"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 265
+  contrast:
+    fg: 83.1
+    black: 0
+    red: 43.1
+    green: 82.1
+    yellow: 81.3
+    blue: 53.8
+    magenta: 51.7
+    cyan: 76.2
+    white: 83.1
+    brightBlack: 13.5
+    brightRed: 43.1
+    brightGreen: 82.1
+    brightYellow: 81.3
+    brightBlue: 53.8
+    brightMagenta: 51.7
+    brightCyan: 76.2
+    brightWhite: 104.8

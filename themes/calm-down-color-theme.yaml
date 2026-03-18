@@ -1,0 +1,49 @@
+name: "Calm Down Color Theme"
+source:
+  marketplace_id: "DanielEichwald.vscode-calm-down-theme"
+  version: "1.1.0"
+  installs: 220
+  author: "Daniel Eichwald"
+  repo: "https://github.com/DE-Danloc/vscode-calm-down-theme/blob/master/README.md"
+  url: "https://marketplace.visualstudio.com/items?itemName=DanielEichwald.vscode-calm-down-theme"
+colors:
+  bg: "#27272C"
+  fg: "#D3D3D3"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 76.5
+    black: 0
+    red: 24.4
+    green: 50.7
+    yellow: 83.3
+    blue: 25.1
+    magenta: 27.4
+    cyan: 45.2
+    white: 87.7
+    brightBlack: 19.7
+    brightRed: 36.2
+    brightGreen: 61.2
+    brightYellow: 93.3
+    brightBlue: 37.7
+    brightMagenta: 43
+    brightCyan: 53.1
+    brightWhite: 87.7

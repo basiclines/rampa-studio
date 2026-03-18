@@ -1,0 +1,49 @@
+name: "Elderberry"
+source:
+  marketplace_id: "IronGeek.vscode-theme-elderberry"
+  version: "0.2.0"
+  installs: 23
+  author: "Jakka Prihatna"
+  repo: "https://github.com/IronGeek/vscode-theme-elderberry"
+  url: "https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-theme-elderberry"
+colors:
+  bg: "#17182B"
+  fg: "#C6C8D1"
+  black: "#0F1117"
+  red: "#BD6980"
+  green: "#6DA565"
+  yellow: "#FBF39D"
+  blue: "#3F83A6"
+  magenta: "#A357B3"
+  cyan: "#7EC2D3"
+  white: "#C6C8D1"
+  brightBlack: "#13131D"
+  brightRed: "#D799B0"
+  brightGreen: "#AADA9A"
+  brightYellow: "#FDF9B5"
+  brightBlue: "#6EA1BC"
+  brightMagenta: "#CA8FDA"
+  brightCyan: "#8BD5E8"
+  brightWhite: "#E9EAEF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 281
+  contrast:
+    fg: 72.1
+    black: 0
+    red: 34.9
+    green: 45.1
+    yellow: 96.7
+    blue: 31.6
+    magenta: 28.8
+    cyan: 62.6
+    white: 72.1
+    brightBlack: 0
+    brightRed: 55.2
+    brightGreen: 75
+    brightYellow: 100.5
+    brightBlue: 46.6
+    brightMagenta: 52
+    brightCyan: 73.1
+    brightWhite: 93

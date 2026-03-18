@@ -1,0 +1,49 @@
+name: "Cupertino Dark"
+source:
+  marketplace_id: "EuraIndustries.cupertino-vscode"
+  version: "1.3.1"
+  installs: 14
+  author: "Eura Industries"
+  repo: "https://github.com/eura-industries/cupertino-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=EuraIndustries.cupertino-vscode"
+colors:
+  bg: "#111318"
+  fg: "#D9DEE8"
+  black: "#000000"
+  red: "#FF383C"
+  green: "#33C758"
+  yellow: "#FFCC00"
+  blue: "#0088FF"
+  magenta: "#CB30E0"
+  cyan: "#0088FF"
+  white: "#FFFFFF"
+  brightBlack: "#8F8F94"
+  brightRed: "#FF383C"
+  brightGreen: "#33C758"
+  brightYellow: "#FFCC00"
+  brightBlue: "#00C0E8"
+  brightMagenta: "#FF2D55"
+  brightCyan: "#0088FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 268
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 39.5
+    green: 58.3
+    yellow: 78.9
+    blue: 39.1
+    magenta: 33.8
+    cyan: 39.1
+    white: 107.2
+    brightBlack: 41.6
+    brightRed: 39.5
+    brightGreen: 58.3
+    brightYellow: 78.9
+    brightBlue: 59.7
+    brightMagenta: 38.9
+    brightCyan: 39.1
+    brightWhite: 107.2

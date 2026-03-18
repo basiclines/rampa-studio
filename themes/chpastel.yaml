@@ -1,0 +1,49 @@
+name: "CHPastel"
+source:
+  marketplace_id: "caasi.chpastel-vscode"
+  version: "3.1.3"
+  installs: 803
+  author: "Jakub Gawlik"
+  repo: "https://github.com/caasi-dev/chpastel-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=caasi.chpastel-vscode"
+colors:
+  bg: "#E3E3E4"
+  fg: "#A2A2A2"
+  black: "#495D7E"
+  red: "#C63957"
+  green: "#5CBB5B"
+  yellow: "#D6AB63"
+  blue: "#648CDD"
+  magenta: "#C68ED7"
+  cyan: "#46AEB9"
+  white: "#A2A2A2"
+  brightBlack: "#495D7E"
+  brightRed: "#C63957"
+  brightGreen: "#5CBB5B"
+  brightYellow: "#D6AB63"
+  brightBlue: "#648CDD"
+  brightMagenta: "#C68ED7"
+  brightCyan: "#46AEB9"
+  brightWhite: "#A2A2A2"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 33.6
+    black: 66.4
+    red: 57.5
+    green: 30.7
+    yellow: 25.2
+    blue: 43.9
+    magenta: 33.3
+    cyan: 34.4
+    white: 33.6
+    brightBlack: 66.4
+    brightRed: 57.5
+    brightGreen: 30.7
+    brightYellow: 25.2
+    brightBlue: 43.9
+    brightMagenta: 33.3
+    brightCyan: 34.4
+    brightWhite: 33.6

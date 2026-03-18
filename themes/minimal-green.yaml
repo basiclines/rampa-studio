@@ -1,0 +1,49 @@
+name: "minimal_green"
+source:
+  marketplace_id: "moldaz.minimal-green"
+  version: "0.0.7"
+  installs: 11291
+  author: "moldaz"
+  repo: "https://github.com/mdoyleaz/vs-code-theme-minimal_green"
+  url: "https://marketplace.visualstudio.com/items?itemName=moldaz.minimal-green"
+colors:
+  bg: "#28282B"
+  fg: "#B2B3AA"
+  black: "#3B3A45"
+  red: "#AB5855"
+  green: "#59776B"
+  yellow: "#E6C18A"
+  blue: "#7CA3B2"
+  magenta: "#9E8BBA"
+  cyan: "#5EA899"
+  white: "#B2B3AA"
+  brightBlack: "#5E6469"
+  brightRed: "#AB5855"
+  brightGreen: "#59776B"
+  brightYellow: "#E6C18A"
+  brightBlue: "#7CA3B2"
+  brightMagenta: "#9E8BBA"
+  brightCyan: "#5EA899"
+  brightWhite: "#B2B3AA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 57.3
+    black: 0
+    red: 24.4
+    green: 24.2
+    yellow: 69
+    blue: 45.8
+    magenta: 40.8
+    cyan: 44.8
+    white: 57.3
+    brightBlack: 18.3
+    brightRed: 24.4
+    brightGreen: 24.2
+    brightYellow: 69
+    brightBlue: 45.8
+    brightMagenta: 40.8
+    brightCyan: 44.8
+    brightWhite: 57.3

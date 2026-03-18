@@ -1,0 +1,49 @@
+name: "wired lighter"
+source:
+  marketplace_id: "minako.wired"
+  version: "2.0.5"
+  installs: 4867
+  author: "minako"
+  repo: "https://github.com/kayliese/wired"
+  url: "https://marketplace.visualstudio.com/items?itemName=minako.wired"
+colors:
+  bg: "#03071B"
+  fg: "#C1B492"
+  black: "#502832"
+  red: "#A45A74"
+  green: "#B39987"
+  yellow: "#A47F7C"
+  blue: "#AD5F74"
+  magenta: "#D78594"
+  cyan: "#B39487"
+  white: "#CA988E"
+  brightBlack: "#703A47"
+  brightRed: "#A45A74"
+  brightGreen: "#B39987"
+  brightYellow: "#A47F7C"
+  brightBlue: "#AD5F74"
+  brightMagenta: "#D78594"
+  brightCyan: "#B39487"
+  brightWhite: "#D2738A"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 267
+  contrast:
+    fg: 62
+    black: 0
+    red: 27.9
+    green: 49.6
+    yellow: 38.4
+    blue: 30.5
+    magenta: 49
+    cyan: 47.8
+    white: 52.8
+    brightBlack: 12.2
+    brightRed: 27.9
+    brightGreen: 49.6
+    brightYellow: 38.4
+    brightBlue: 30.5
+    brightMagenta: 49
+    brightCyan: 47.8
+    brightWhite: 42.7

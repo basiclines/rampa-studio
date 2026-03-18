@@ -1,0 +1,49 @@
+name: "noori"
+source:
+  marketplace_id: "indigo.noori"
+  version: "2.1.0"
+  installs: 866
+  author: "indigo"
+  repo: "https://github.com/gabriela-tomazzi/birdTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=indigo.noori"
+colors:
+  bg: "#131216"
+  fg: "#D7CDBA"
+  black: "#21232C"
+  red: "#F8524F"
+  green: "#87A4A0"
+  yellow: "#FFD089"
+  blue: "#843E42"
+  magenta: "#F8524F"
+  cyan: "#87A4A0"
+  white: "#E0D8C9"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#87A4A0"
+  brightYellow: "#FFD089"
+  brightBlue: "#843E42"
+  brightMagenta: "#F8524F"
+  brightCyan: "#87A4A0"
+  brightWhite: "#E0D8C9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76.2
+    black: 0
+    red: 41.6
+    green: 49.3
+    yellow: 82
+    blue: 15.3
+    magenta: 41.6
+    cyan: 49.3
+    white: 82.8
+    brightBlack: 22.4
+    brightRed: 39
+    brightGreen: 49.3
+    brightYellow: 82
+    brightBlue: 15.3
+    brightMagenta: 41.6
+    brightCyan: 49.3
+    brightWhite: 82.8

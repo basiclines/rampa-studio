@@ -1,0 +1,49 @@
+name: "Ef Bio"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#111111"
+  fg: "#CFDFD5"
+  black: "#CFDFD5"
+  red: "#EF6560"
+  green: "#3FB83F"
+  yellow: "#D4AA02"
+  blue: "#37AFF6"
+  magenta: "#D38FAF"
+  cyan: "#6FC5EF"
+  white: "#222522"
+  brightBlack: "#808F80"
+  brightRed: "#F47360"
+  brightGreen: "#7FC500"
+  brightYellow: "#E09A0F"
+  brightBlue: "#78AFFF"
+  brightMagenta: "#E490DF"
+  brightCyan: "#7FCFDF"
+  brightWhite: "#111111"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 84.3
+    black: 84.3
+    red: 43.6
+    green: 51.4
+    yellow: 58.6
+    blue: 54
+    magenta: 52.1
+    cyan: 65.3
+    white: 0
+    brightBlack: 39.6
+    brightRed: 47.9
+    brightGreen: 60.4
+    brightYellow: 54.8
+    brightBlue: 57.6
+    brightMagenta: 57.6
+    brightCyan: 69.9
+    brightWhite: 0

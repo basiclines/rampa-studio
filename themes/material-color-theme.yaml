@@ -1,0 +1,49 @@
+name: "material-color-theme"
+source:
+  marketplace_id: "JonaDuran.my-light-theme"
+  version: "1.1.9"
+  installs: 31515
+  author: "Jonathan Durán"
+  repo: "https://github.com/JonaDuran/Material-Light-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JonaDuran.my-light-theme"
+colors:
+  bg: "#FAFAFA"
+  fg: "#212121"
+  black: "#212121"
+  red: "#C0392B"
+  green: "#2E7D32"
+  yellow: "#A8601A"
+  blue: "#1565C0"
+  magenta: "#9C00B0"
+  cyan: "#00838F"
+  white: "#E0E0E0"
+  brightBlack: "#212121"
+  brightRed: "#C0392B"
+  brightGreen: "#2E7D32"
+  brightYellow: "#A8601A"
+  brightBlue: "#1565C0"
+  brightMagenta: "#9C00B0"
+  brightCyan: "#00838F"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 100.1
+    black: 100.1
+    red: 72.9
+    green: 72
+    yellow: 70.1
+    blue: 75.2
+    magenta: 78.5
+    cyan: 67.8
+    white: 12.8
+    brightBlack: 100.1
+    brightRed: 72.9
+    brightGreen: 72
+    brightYellow: 70.1
+    brightBlue: 75.2
+    brightMagenta: 78.5
+    brightCyan: 67.8
+    brightWhite: 12.8

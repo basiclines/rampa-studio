@@ -1,0 +1,49 @@
+name: "Elhassan Neon Light Professional"
+source:
+  marketplace_id: "elhassan-dev.elhassan-neon-themes"
+  version: "1.1.2"
+  installs: 44
+  author: "elhassan-dev"
+  repo: "https://github.com/elhassanorabi5-dev/elhassan-neon-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=elhassan-dev.elhassan-neon-themes"
+colors:
+  bg: "#FAFAFA"
+  fg: "#2D2D2D"
+  black: "#333333"
+  red: "#DD0066"
+  green: "#00AA44"
+  yellow: "#DD6600"
+  blue: "#0066CC"
+  magenta: "#9933CC"
+  cyan: "#00AAAA"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#DD0066"
+  brightGreen: "#00AA44"
+  brightYellow: "#DD6600"
+  brightBlue: "#0066CC"
+  brightMagenta: "#9933CC"
+  brightCyan: "#00AAAA"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 97.4
+    black: 95.7
+    red: 68.4
+    green: 53.9
+    yellow: 59
+    blue: 74
+    magenta: 74.3
+    cyan: 51.2
+    white: 24.3
+    brightBlack: 95.7
+    brightRed: 68.4
+    brightGreen: 53.9
+    brightYellow: 59
+    brightBlue: 74
+    brightMagenta: 74.3
+    brightCyan: 51.2
+    brightWhite: 24.3

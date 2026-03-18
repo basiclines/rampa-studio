@@ -1,0 +1,49 @@
+name: "Hackpot Garden Dark"
+source:
+  marketplace_id: "wwmyers.hackpot"
+  version: "3.0.0"
+  installs: 24355
+  author: "wwmyers"
+  repo: "https://github.com/wwmyers/hackpot"
+  url: "https://marketplace.visualstudio.com/items?itemName=wwmyers.hackpot"
+colors:
+  bg: "#1A1A1A"
+  fg: "#B1E7B1"
+  black: "#202020"
+  red: "#FF704D"
+  green: "#1E621E"
+  yellow: "#FFFF99"
+  blue: "#268BD2"
+  magenta: "#9933FF"
+  cyan: "#1B9891"
+  white: "#B1E7B1"
+  brightBlack: "#252525"
+  brightRed: "#FF661A"
+  brightGreen: "#32CD32"
+  brightYellow: "#FFFF1A"
+  brightBlue: "#1FADA6"
+  brightMagenta: "#B366FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#C4EDC4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 48.4
+    green: 15.2
+    yellow: 102.9
+    blue: 36.4
+    magenta: 27.7
+    cyan: 37.9
+    white: 82.5
+    brightBlack: 0
+    brightRed: 45.7
+    brightGreen: 60
+    brightYellow: 101.4
+    brightBlue: 47.6
+    brightMagenta: 39.9
+    brightCyan: 90.8
+    brightWhite: 88

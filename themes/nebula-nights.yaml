@@ -1,0 +1,49 @@
+name: "Nebula Nights"
+source:
+  marketplace_id: "Tom-Fynes.nebula-nights-pastel"
+  version: "1.2.0"
+  installs: 723
+  author: "Tom-Fynes"
+  repo: "https://github.com/tom-fynes/nebula-nights"
+  url: "https://marketplace.visualstudio.com/items?itemName=Tom-Fynes.nebula-nights-pastel"
+colors:
+  bg: "#404E5C"
+  fg: "#B7C3F3"
+  black: "#363E4A"
+  red: "#D05786"
+  green: "#94FBAB"
+  yellow: "#DD7596"
+  blue: "#B8E1FF"
+  magenta: "#BCB6FF"
+  cyan: "#A9FFF7"
+  white: "#B7C3F3"
+  brightBlack: "#363E4A"
+  brightRed: "#D05786"
+  brightGreen: "#94FBAB"
+  brightYellow: "#DD7596"
+  brightBlue: "#B8E1FF"
+  brightMagenta: "#BCB6FF"
+  brightCyan: "#A9FFF7"
+  brightWhite: "#B7C3F3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 249
+  contrast:
+    fg: 57.3
+    black: 0
+    red: 21.9
+    green: 77.1
+    yellow: 31.8
+    blue: 71.2
+    magenta: 53.4
+    cyan: 83.8
+    white: 57.3
+    brightBlack: 0
+    brightRed: 21.9
+    brightGreen: 77.1
+    brightYellow: 31.8
+    brightBlue: 71.2
+    brightMagenta: 53.4
+    brightCyan: 83.8
+    brightWhite: 57.3

@@ -1,0 +1,49 @@
+name: "Human Dark"
+source:
+  marketplace_id: "TomHall.human-theme"
+  version: "1.1.1"
+  installs: 94
+  author: "Tom Hall"
+  repo: "https://github.com/tom-f-hall/human-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TomHall.human-theme"
+colors:
+  bg: "#101713"
+  fg: "#D9D3C7"
+  black: "#0D120F"
+  red: "#E84040"
+  green: "#9AD1A3"
+  yellow: "#C9A24D"
+  blue: "#8FBFA3"
+  magenta: "#D97A7A"
+  cyan: "#9FB8A5"
+  white: "#CFC8BA"
+  brightBlack: "#3E4A42"
+  brightRed: "#E8A09A"
+  brightGreen: "#A3D977"
+  brightYellow: "#E8B86F"
+  brightBlue: "#B0C8B8"
+  brightMagenta: "#E8A09A"
+  brightCyan: "#B0C8B8"
+  brightWhite: "#D9D3C7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 160
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 34.8
+    green: 70.1
+    yellow: 54
+    blue: 61.1
+    magenta: 44.6
+    cyan: 59.7
+    white: 72.8
+    brightBlack: 10.1
+    brightRed: 60.1
+    brightGreen: 73.4
+    brightYellow: 67.8
+    brightBlue: 69
+    brightMagenta: 60.1
+    brightCyan: 69
+    brightWhite: 79.3

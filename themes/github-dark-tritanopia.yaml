@@ -1,0 +1,49 @@
+name: "Github Dark Tritanopia"
+source:
+  marketplace_id: "zanaty.github-dark-tritanopia"
+  version: "0.0.5"
+  installs: 62
+  author: "zanaty"
+  repo: "https://github.com/moelzanaty3/github-dark-tritanopia"
+  url: "https://marketplace.visualstudio.com/items?itemName=zanaty.github-dark-tritanopia"
+colors:
+  bg: "#0D1117"
+  fg: "#F0F6FC"
+  black: "#2F3742"
+  red: "#FF7B72"
+  green: "#58A6FF"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BE8FFF"
+  cyan: "#39C5CF"
+  white: "#F0F6FC"
+  brightBlack: "#656C76"
+  brightRed: "#FFA198"
+  brightGreen: "#79C0FF"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  contrast:
+    fg: 100.9
+    black: 0
+    red: 52.6
+    green: 52.2
+    yellow: 52.2
+    blue: 52.2
+    magenta: 53.4
+    cyan: 61.4
+    white: 100.9
+    brightBlack: 24.9
+    brightRed: 64.8
+    brightGreen: 64.7
+    brightYellow: 64.7
+    brightBlue: 64.7
+    brightMagenta: 64.6
+    brightCyan: 69.9
+    brightWhite: 107.4

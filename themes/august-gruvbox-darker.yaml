@@ -1,0 +1,49 @@
+name: "August - Gruvbox (Darker)"
+source:
+  marketplace_id: "inci-august.august-themes"
+  version: "2.8.0"
+  installs: 146390
+  author: "inci-august"
+  repo: "https://github.com/inci-august/august-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes"
+colors:
+  bg: "#151718"
+  fg: "#EBDBB2"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 84.4
+    black: 0
+    red: 25.3
+    green: 43
+    yellow: 52.5
+    blue: 31.6
+    magenta: 31.7
+    cyan: 42
+    white: 47.3
+    brightBlack: 36.4
+    brightRed: 40.2
+    brightGreen: 61.2
+    brightYellow: 71.8
+    brightBlue: 48.6
+    brightMagenta: 48
+    brightCyan: 60.2
+    brightWhite: 84.4

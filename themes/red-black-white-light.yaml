@@ -1,0 +1,49 @@
+name: "Red Black White Light"
+source:
+  marketplace_id: "chenzilve.gundam-rx78-theme"
+  version: "0.1.0"
+  installs: 4
+  author: "chenzilve"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=chenzilve.gundam-rx78-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#212121"
+  black: "#212121"
+  red: "#C62828"
+  green: "#2E7D32"
+  yellow: "#F57F17"
+  blue: "#1565C0"
+  magenta: "#D32F2F"
+  cyan: "#1976D2"
+  white: "#F5F5F5"
+  brightBlack: "#757575"
+  brightRed: "#D32F2F"
+  brightGreen: "#388E3C"
+  brightYellow: "#FF8F00"
+  brightBlue: "#1976D2"
+  brightMagenta: "#E53935"
+  brightCyan: "#1E88E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 103.1
+    black: 103.1
+    red: 76.4
+    green: 75
+    yellow: 50.9
+    blue: 78.2
+    magenta: 72.8
+    cyan: 71.4
+    white: 0
+    brightBlack: 72
+    brightRed: 72.8
+    brightGreen: 68
+    brightYellow: 44.5
+    brightBlue: 71.4
+    brightMagenta: 67.7
+    brightCyan: 63.8
+    brightWhite: 0

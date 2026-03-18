@@ -1,0 +1,49 @@
+name: "Twin Blue"
+source:
+  marketplace_id: "twin-themes.twin-vsc"
+  version: "1.0.5"
+  installs: 892
+  author: "Twin Themes"
+  repo: "https://github.com/twin-themes/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=twin-themes.twin-vsc"
+colors:
+  bg: "#112239"
+  fg: "#BCC0CC"
+  black: "#4A4D4C"
+  red: "#E84030"
+  green: "#14B369"
+  yellow: "#D6F042"
+  blue: "#38A6F5"
+  magenta: "#B04CE6"
+  cyan: "#FCAF22"
+  white: "#BABDBC"
+  brightBlack: "#6A6D6C"
+  brightRed: "#E47267"
+  brightGreen: "#25D483"
+  brightYellow: "#DBEC79"
+  brightBlue: "#71BAEF"
+  brightMagenta: "#C181E4"
+  brightCyan: "#F4BF5D"
+  brightWhite: "#DADDDC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 256
+  contrast:
+    fg: 66.2
+    black: 10.4
+    red: 33
+    green: 47.1
+    yellow: 87.7
+    blue: 48.4
+    magenta: 31.2
+    cyan: 65.4
+    white: 64
+    brightBlack: 23.3
+    brightRed: 42.6
+    brightGreen: 63.4
+    brightYellow: 87.1
+    brightBlue: 58.7
+    brightMagenta: 45.9
+    brightCyan: 70.6
+    brightWhite: 83.1

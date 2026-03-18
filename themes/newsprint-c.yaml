@@ -1,0 +1,49 @@
+name: "newsprint-c"
+source:
+  marketplace_id: "lumiknit.newsprint"
+  version: "0.0.12"
+  installs: 357
+  author: "lumiknit"
+  repo: "https://github.com/lumiknit/vscode-newsprint-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lumiknit.newsprint"
+colors:
+  bg: "#F2F2F2"
+  fg: "#444444"
+  black: "#000000"
+  red: "#E41507"
+  green: "#57BD66"
+  yellow: "#FFBD5E"
+  blue: "#2981CA"
+  magenta: "#A464D1"
+  cyan: "#51D2FF"
+  white: "#DDDDDD"
+  brightBlack: "#505050"
+  brightRed: "#FF675D"
+  brightGreen: "#99E391"
+  brightYellow: "#FFDE82"
+  brightBlue: "#4190F7"
+  brightMagenta: "#D9B9F0"
+  brightCyan: "#A3FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 84.9
+    black: 98.3
+    red: 62.8
+    green: 38.6
+    yellow: 21
+    blue: 60.2
+    magenta: 58.8
+    cyan: 23.8
+    white: 9.8
+    brightBlack: 80.2
+    brightRed: 46.1
+    brightGreen: 16.6
+    brightYellow: 7.6
+    brightBlue: 51.1
+    brightMagenta: 23.5
+    brightCyan: 0
+    brightWhite: 0

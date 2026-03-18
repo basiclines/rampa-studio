@@ -1,0 +1,49 @@
+name: "Blip Cursor VSCode Theme"
+source:
+  marketplace_id: "b1ip.blip-cursor-vscode-theme"
+  version: "0.0.1"
+  installs: 408
+  author: "b1ip"
+  repo: "https://github.com/b1ip/blip-cursor-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=b1ip.blip-cursor-vscode-theme"
+colors:
+  bg: "#212121"
+  fg: "#E1E1E2"
+  black: "#586069"
+  red: "#EA4A5A"
+  green: "#34D058"
+  yellow: "#FFEA7F"
+  blue: "#2188FF"
+  magenta: "#B392F0"
+  cyan: "#39C5CF"
+  white: "#D1D5DA"
+  brightBlack: "#959DA5"
+  brightRed: "#F97583"
+  brightGreen: "#85E89D"
+  brightYellow: "#FFEA7F"
+  brightBlue: "#79B8FF"
+  brightMagenta: "#B392F0"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FAFBFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 86.3
+    black: 17.9
+    red: 35.7
+    green: 61
+    yellow: 91.5
+    blue: 37.7
+    magenta: 50.1
+    cyan: 59.6
+    white: 78.5
+    brightBlack: 46.5
+    brightRed: 48.5
+    brightGreen: 77.8
+    brightYellow: 91.5
+    brightBlue: 59.6
+    brightMagenta: 50.1
+    brightCyan: 68.2
+    brightWhite: 102.9

@@ -1,0 +1,49 @@
+name: "velvet-chrome"
+source:
+  marketplace_id: "willduque.velvet-chrome-theme"
+  version: "0.0.3"
+  installs: 16
+  author: "Willian Duque"
+  repo: "https://github.com/wduqu001/velvet-chrome-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=willduque.velvet-chrome-theme"
+colors:
+  bg: "#191919"
+  fg: "#ECECEC"
+  black: "#1B1B1B"
+  red: "#D97A7A"
+  green: "#6A9E86"
+  yellow: "#E6C36A"
+  blue: "#74C6FF"
+  magenta: "#B48EED"
+  cyan: "#6BB1A6"
+  white: "#E6E6E6"
+  brightBlack: "#3A3A3A"
+  brightRed: "#D97A7A"
+  brightGreen: "#9AD1A6"
+  brightYellow: "#E6C36A"
+  brightBlue: "#74C6FF"
+  brightMagenta: "#CFA0FF"
+  brightCyan: "#7CC6BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 94.3
+    black: 0
+    red: 44.3
+    green: 43
+    yellow: 71.4
+    blue: 66.3
+    magenta: 49.8
+    cyan: 52.1
+    white: 90.4
+    brightBlack: 0
+    brightRed: 44.3
+    brightGreen: 69.8
+    brightYellow: 71.4
+    brightBlue: 66.3
+    brightMagenta: 60.7
+    brightCyan: 63.3
+    brightWhite: 106.7

@@ -1,0 +1,49 @@
+name: "Minimal Monochrome Dark"
+source:
+  marketplace_id: "arihantverma.minimal-monochrome-vscode-theme"
+  version: "0.3.0"
+  installs: 166
+  author: "Arihant Verma"
+  repo: "https://github.com/arihantverma/minimal-monochrome-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=arihantverma.minimal-monochrome-vscode-theme"
+colors:
+  bg: "#121212"
+  fg: "#D4D4D4"
+  black: "#1A1A1A"
+  red: "#F5A3A7"
+  green: "#8BCFAC"
+  yellow: "#F0C674"
+  blue: "#89B4D4"
+  magenta: "#C9A5E0"
+  cyan: "#7DD4D0"
+  white: "#D0D0D0"
+  brightBlack: "#646464"
+  brightRed: "#FFB8BA"
+  brightGreen: "#A8E6C3"
+  brightYellow: "#FFE082"
+  brightBlue: "#A8D1F0"
+  brightMagenta: "#D9B8F0"
+  brightCyan: "#9DE5E0"
+  brightWhite: "#FCFCFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 79.9
+    black: 0
+    red: 64.1
+    green: 68.5
+    yellow: 75
+    blue: 58.3
+    magenta: 60.3
+    cyan: 71.3
+    white: 77.5
+    brightBlack: 21.6
+    brightRed: 74.1
+    brightGreen: 82.6
+    brightYellow: 88.8
+    brightBlue: 75
+    brightMagenta: 70.5
+    brightCyan: 82.4
+    brightWhite: 105.3

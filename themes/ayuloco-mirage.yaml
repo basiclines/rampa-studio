@@ -1,0 +1,49 @@
+name: "Ayuloco Mirage"
+source:
+  marketplace_id: "dpaulos6.ayuloco-theme"
+  version: "2.0.3"
+  installs: 1465
+  author: "dpaulos6"
+  repo: "https://github.com/dpaulos6/ayuloco-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dpaulos6.ayuloco-theme"
+colors:
+  bg: "#1F2430"
+  fg: "#CCCAC2"
+  black: "#171B24"
+  red: "#ED8274"
+  green: "#87D96C"
+  yellow: "#FACC6E"
+  blue: "#6DCBFA"
+  magenta: "#DABAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#D5FF80"
+  brightYellow: "#FFD173"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#DFBFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 267
+  contrast:
+    fg: 71.6
+    black: 0
+    red: 48.6
+    green: 69
+    yellow: 76.8
+    blue: 66.2
+    magenta: 69.8
+    cyan: 76.1
+    white: 69.9
+    brightBlack: 21.1
+    brightRed: 51.1
+    brightGreen: 95.5
+    brightYellow: 79.8
+    brightBlue: 69.1
+    brightMagenta: 72.8
+    brightCyan: 79.1
+    brightWhite: 105.1

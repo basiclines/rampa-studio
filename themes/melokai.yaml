@@ -1,0 +1,49 @@
+name: "Melokai"
+source:
+  marketplace_id: "miller2676.melokai"
+  version: "0.0.2"
+  installs: 1930
+  author: "miller2676"
+  repo: "https://github.com/mel-miller/melokai-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=miller2676.melokai"
+colors:
+  bg: "#303030"
+  fg: "#FCFCFC"
+  black: "#404040"
+  red: "#FF6188"
+  green: "#A9DC76"
+  yellow: "#FFD866"
+  blue: "#FC9867"
+  magenta: "#AB9DF2"
+  cyan: "#78DCE8"
+  white: "#FCFCFC"
+  brightBlack: "#777777"
+  brightRed: "#FF6188"
+  brightGreen: "#A9DC76"
+  brightYellow: "#FFD866"
+  brightBlue: "#FC9867"
+  brightMagenta: "#AB9DF2"
+  brightCyan: "#78DCE8"
+  brightWhite: "#FCFCFC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 100.8
+    black: 0
+    red: 42.7
+    green: 71.2
+    yellow: 80.2
+    blue: 55.5
+    magenta: 50.1
+    cyan: 71.3
+    white: 100.8
+    brightBlack: 25.4
+    brightRed: 42.7
+    brightGreen: 71.2
+    brightYellow: 80.2
+    brightBlue: 55.5
+    brightMagenta: 50.1
+    brightCyan: 71.3
+    brightWhite: 100.8

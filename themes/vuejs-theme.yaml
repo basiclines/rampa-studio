@@ -1,0 +1,49 @@
+name: "VueJS Theme"
+source:
+  marketplace_id: "leonardoleal202.vuejs-theme"
+  version: "2.0.0"
+  installs: 12754
+  author: "leonardoleal202"
+  repo: "https://github.com/Leozhr/VueJS-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=leonardoleal202.vuejs-theme"
+colors:
+  bg: "#151515"
+  fg: "#BBBBCC"
+  black: "#363537"
+  red: "#99BBFE"
+  green: "#FFDD44"
+  yellow: "#43D194"
+  blue: "#99BBFE"
+  magenta: "#99BBFF"
+  cyan: "#DDAAFF"
+  white: "#FFFFFF"
+  brightBlack: "#69676C"
+  brightRed: "#99BBFE"
+  brightGreen: "#FFDD44"
+  brightYellow: "#43D194"
+  brightBlue: "#99BBFE"
+  brightMagenta: "#99BBFF"
+  brightCyan: "#DDAAFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 65.7
+    black: 0
+    red: 64.8
+    green: 86.3
+    yellow: 64.6
+    blue: 64.8
+    magenta: 64.9
+    cyan: 66.6
+    white: 107.1
+    brightBlack: 23
+    brightRed: 64.8
+    brightGreen: 86.3
+    brightYellow: 64.6
+    brightBlue: 64.8
+    brightMagenta: 64.9
+    brightCyan: 66.6
+    brightWhite: 107.1

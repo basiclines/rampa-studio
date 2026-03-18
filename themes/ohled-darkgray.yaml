@@ -1,0 +1,49 @@
+name: "OhLED_DarkGray"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#A9A9A9"
+  black: "#A9A9A9"
+  red: "#7C7C7C"
+  green: "#878787"
+  yellow: "#656565"
+  blue: "#9E9E9E"
+  magenta: "#929292"
+  cyan: "#717171"
+  white: "#5A5A5A"
+  brightBlack: "#A9A9A9"
+  brightRed: "#7C7C7C"
+  brightGreen: "#878787"
+  brightYellow: "#656565"
+  brightBlue: "#9E9E9E"
+  brightMagenta: "#929292"
+  brightCyan: "#717171"
+  brightWhite: "#5A5A5A"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 55.7
+    black: 55.7
+    red: 32.9
+    green: 38.1
+    yellow: 22.6
+    blue: 49.8
+    magenta: 43.6
+    cyan: 27.8
+    white: 18.1
+    brightBlack: 55.7
+    brightRed: 32.9
+    brightGreen: 38.1
+    brightYellow: 22.6
+    brightBlue: 49.8
+    brightMagenta: 43.6
+    brightCyan: 27.8
+    brightWhite: 18.1

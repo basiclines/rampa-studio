@@ -1,0 +1,49 @@
+name: "carbon-candy-palenight"
+source:
+  marketplace_id: "viral-team.carbon-candy"
+  version: "0.2.9"
+  installs: 835
+  author: "Viral Team Theme"
+  repo: "https://github.com/viral-team/carbon-candy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=viral-team.carbon-candy"
+colors:
+  bg: "#292D3E"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676767"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 274
+  contrast:
+    fg: 101
+    black: 0
+    red: 43
+    green: 80.6
+    yellow: 75.3
+    blue: 52.3
+    magenta: 50.1
+    cyan: 74.6
+    white: 103.3
+    brightBlack: 18.9
+    brightRed: 43
+    brightGreen: 80.6
+    brightYellow: 75.3
+    brightBlue: 52.3
+    brightMagenta: 50.1
+    brightCyan: 74.6
+    brightWhite: 103.3

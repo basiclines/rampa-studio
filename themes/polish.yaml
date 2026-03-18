@@ -1,0 +1,49 @@
+name: "Polish"
+source:
+  marketplace_id: "zhiking.polish-theme"
+  version: "0.0.5"
+  installs: 2261
+  author: "zhiking"
+  repo: "https://github.com/zyj1022/vscode-polish-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zhiking.polish-theme"
+colors:
+  bg: "#F4F4F4"
+  fg: "#5C6066"
+  black: "#000000"
+  red: "#FF83AC"
+  green: "#77CC00"
+  yellow: "#F29718"
+  blue: "#53C0F6"
+  magenta: "#9966CC"
+  cyan: "#12B886"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#D6656A"
+  brightGreen: "#A3D900"
+  brightYellow: "#E7C547"
+  brightBlue: "#6871FF"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#57D9AD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 74.9
+    black: 99.5
+    red: 38.5
+    green: 32.2
+    yellow: 38
+    blue: 33.1
+    magenta: 61.3
+    cyan: 42.8
+    white: 23.5
+    brightBlack: 71.3
+    brightRed: 55.9
+    brightGreen: 23
+    brightYellow: 23.2
+    brightBlue: 59.4
+    brightMagenta: 54.6
+    brightCyan: 25.3
+    brightWhite: 0

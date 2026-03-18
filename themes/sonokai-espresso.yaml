@@ -1,0 +1,49 @@
+name: "Sonokai Espresso"
+source:
+  marketplace_id: "sainnhe.sonokai"
+  version: "0.2.9"
+  installs: 24096
+  author: "sainnhe"
+  repo: "https://github.com/sainnhe/sonokai-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai"
+colors:
+  bg: "#312C2B"
+  fg: "#E4E3E1"
+  black: "#4E433F"
+  red: "#F86882"
+  green: "#A6CD77"
+  yellow: "#F0C66F"
+  blue: "#81D0C9"
+  magenta: "#9FA0E1"
+  cyan: "#F08D71"
+  white: "#E4E3E1"
+  brightBlack: "#4E433F"
+  brightRed: "#F86882"
+  brightGreen: "#A6CD77"
+  brightYellow: "#F0C66F"
+  brightBlue: "#81D0C9"
+  brightMagenta: "#9FA0E1"
+  brightCyan: "#F08D71"
+  brightWhite: "#E4E3E1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 85.3
+    black: 0
+    red: 43.1
+    green: 64.6
+    yellow: 71
+    blue: 65.5
+    magenta: 49.5
+    cyan: 50.6
+    white: 85.3
+    brightBlack: 0
+    brightRed: 43.1
+    brightGreen: 64.6
+    brightYellow: 71
+    brightBlue: 65.5
+    brightMagenta: 49.5
+    brightCyan: 50.6
+    brightWhite: 85.3

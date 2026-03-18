@@ -1,0 +1,49 @@
+name: "nulzo-relax"
+source:
+  marketplace_id: "nulzo.nulzo-relax"
+  version: "0.0.1"
+  installs: 77
+  author: "nulzo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=nulzo.nulzo-relax"
+colors:
+  bg: "#1400FF"
+  fg: "#FF0000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0004FF"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 266
+  contrast:
+    fg: 20.2
+    black: 18.3
+    red: 10.4
+    green: 35.4
+    yellow: 26.5
+    blue: 0
+    magenta: 9.8
+    cyan: 23.8
+    white: 90.6
+    brightBlack: 0
+    brightRed: 10.4
+    brightGreen: 44
+    brightYellow: 44
+    brightBlue: 0
+    brightMagenta: 9.8
+    brightCyan: 23.8
+    brightWhite: 90.6

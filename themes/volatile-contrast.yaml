@@ -1,0 +1,49 @@
+name: "volatile-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#141619"
+  fg: "#C0CCDB"
+  black: "#1F2227"
+  red: "#BA0E2E"
+  green: "#EE9C3D"
+  yellow: "#568769"
+  blue: "#FFFFFF"
+  magenta: "#EE9C3D"
+  cyan: "#568769"
+  white: "#D0D9E4"
+  brightBlack: "#414852"
+  brightRed: "#F03E5F"
+  brightGreen: "#F6CC9B"
+  brightYellow: "#8DB69D"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#F6CC9B"
+  brightCyan: "#8DB69D"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 74
+    black: 0
+    red: 20.6
+    green: 57.8
+    yellow: 32.3
+    blue: 107
+    magenta: 57.8
+    cyan: 32.3
+    white: 82
+    brightBlack: 10.1
+    brightRed: 36.9
+    brightGreen: 79.1
+    brightYellow: 56.8
+    brightBlue: 107
+    brightMagenta: 79.1
+    brightCyan: 56.8
+    brightWhite: 107

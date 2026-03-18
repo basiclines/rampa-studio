@@ -1,0 +1,49 @@
+name: "horizon"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#474466"
+  fg: "#FFFFFF"
+  black: "#524E75"
+  red: "#BA0E2E"
+  green: "#FD8A25"
+  yellow: "#BA66D6"
+  blue: "#FED230"
+  magenta: "#E5194B"
+  cyan: "#E524A9"
+  white: "#FFFFFF"
+  brightBlack: "#7470A0"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEC08A"
+  brightYellow: "#DEB6EC"
+  brightBlue: "#FEE895"
+  brightMagenta: "#F07492"
+  brightCyan: "#F07FCD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 288
+  contrast:
+    fg: 95.5
+    black: 0
+    red: 9.1
+    green: 43.4
+    yellow: 26.9
+    blue: 69.7
+    magenta: 19.6
+    cyan: 23.2
+    white: 95.5
+    brightBlack: 17.4
+    brightRed: 25.4
+    brightGreen: 63.6
+    brightYellow: 58.5
+    brightBlue: 80.8
+    brightMagenta: 36.7
+    brightCyan: 42.1
+    brightWhite: 95.5

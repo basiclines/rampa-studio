@@ -1,0 +1,49 @@
+name: "Loopy"
+source:
+  marketplace_id: "kokoscript.loopytheme"
+  version: "1.0.1"
+  installs: 465
+  author: "kokoscript"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=kokoscript.loopytheme"
+colors:
+  bg: "#333355"
+  fg: "#FFFFFF"
+  black: "#04002E"
+  red: "#F06191"
+  green: "#63E99A"
+  yellow: "#FFE666"
+  blue: "#61F2DC"
+  magenta: "#C573DD"
+  cyan: "#61F2DC"
+  white: "#FFFFFF"
+  brightBlack: "#07004B"
+  brightRed: "#F06191"
+  brightGreen: "#63E99A"
+  brightYellow: "#FFE666"
+  brightBlue: "#61F2DC"
+  brightMagenta: "#C573DD"
+  brightCyan: "#61F2DC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 283
+  contrast:
+    fg: 101
+    black: 0
+    red: 38
+    green: 71.7
+    yellow: 84.7
+    blue: 78.6
+    magenta: 37.8
+    cyan: 78.6
+    white: 101
+    brightBlack: 0
+    brightRed: 38
+    brightGreen: 71.7
+    brightYellow: 84.7
+    brightBlue: 78.6
+    brightMagenta: 37.8
+    brightCyan: 78.6
+    brightWhite: 101

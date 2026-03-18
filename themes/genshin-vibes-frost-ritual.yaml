@@ -1,0 +1,49 @@
+name: "Genshin Vibes: Frost Ritual"
+source:
+  marketplace_id: "bubaic.genshin-vibes"
+  version: "1.0.2"
+  installs: 175
+  author: "Subrata"
+  repo: "https://github.com/bubaic/genshin-vibes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes"
+colors:
+  bg: "#0F1A26"
+  fg: "#E8F4FF"
+  black: "#0A1520"
+  red: "#FF6B35"
+  green: "#90C8FF"
+  yellow: "#FFD700"
+  blue: "#91CDF3"
+  magenta: "#4682B4"
+  cyan: "#90C8FF"
+  white: "#2A3D5A"
+  brightBlack: "#2A3D5A"
+  brightRed: "#FF6B35"
+  brightGreen: "#90C8FF"
+  brightYellow: "#FFD700"
+  brightBlue: "#91CDF3"
+  brightMagenta: "#4682B4"
+  brightCyan: "#90C8FF"
+  brightWhite: "#E8F4FF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 251
+  contrast:
+    fg: 98.3
+    black: 0
+    red: 47
+    green: 69.1
+    yellow: 83
+    blue: 70.7
+    magenta: 32.4
+    cyan: 69.1
+    white: 0
+    brightBlack: 0
+    brightRed: 47
+    brightGreen: 69.1
+    brightYellow: 83
+    brightBlue: 70.7
+    brightMagenta: 32.4
+    brightCyan: 69.1
+    brightWhite: 98.3

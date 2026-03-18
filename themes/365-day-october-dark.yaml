@@ -1,0 +1,49 @@
+name: "365 Day october dark"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 821
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+colors:
+  bg: "#FEFBE9"
+  fg: "#714620"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#000000"
+  brightBlack: "#666666"
+  brightRed: "#FF6B00"
+  brightGreen: "#23D18B"
+  brightYellow: "#D4A15D"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#B3753E"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 85
+    black: 103.3
+    red: 71.2
+    green: 45.2
+    yellow: 14.3
+    blue: 70.5
+    magenta: 68.2
+    cyan: 50.5
+    white: 103.3
+    brightBlack: 76
+    brightRed: 51
+    brightGreen: 35.1
+    brightYellow: 42.9
+    brightBlue: 57.9
+    brightMagenta: 52.7
+    brightCyan: 62.5
+    brightWhite: 103.3

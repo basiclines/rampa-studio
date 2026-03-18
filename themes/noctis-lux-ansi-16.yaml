@@ -1,0 +1,49 @@
+name: "Noctis Lux Ansi 16"
+source:
+  marketplace_id: "ctenbrinke.ansi16"
+  version: "0.3.8"
+  installs: 824
+  author: "chtenb"
+  repo: "https://github.com/chtenb/vscode-ansi16"
+  url: "https://marketplace.visualstudio.com/items?itemName=ctenbrinke.ansi16"
+colors:
+  bg: "#FEF8EC"
+  fg: "#005661"
+  black: "#8CA6A6"
+  red: "#E64100"
+  green: "#00B368"
+  yellow: "#FA8900"
+  blue: "#0095A8"
+  magenta: "#FF5792"
+  cyan: "#00BDD6"
+  white: "#005661"
+  brightBlack: "#8CA6A6"
+  brightRed: "#E5164A"
+  brightGreen: "#00B368"
+  brightYellow: "#B3694D"
+  brightBlue: "#0094F0"
+  brightMagenta: "#FF5792"
+  brightCyan: "#00BDD6"
+  brightWhite: "#004D57"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 84.5
+    black: 46.6
+    red: 62.8
+    green: 48.5
+    yellow: 43.3
+    blue: 58.9
+    magenta: 51.6
+    cyan: 40.2
+    white: 84.5
+    brightBlack: 46.6
+    brightRed: 65.9
+    brightGreen: 48.5
+    brightYellow: 64.5
+    brightBlue: 54.9
+    brightMagenta: 51.6
+    brightCyan: 40.2
+    brightWhite: 87.7

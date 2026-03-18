@@ -1,0 +1,49 @@
+name: "Ethereum Dark Blue Theme"
+source:
+  marketplace_id: "karolk.ethereum-dark"
+  version: "1.8.15"
+  installs: 4737
+  author: "karolk"
+  repo: "https://github.com/karolkozer/one-dark-ethereum-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=karolk.ethereum-dark"
+colors:
+  bg: "#01162B"
+  fg: "#5F7398"
+  black: "#052442"
+  red: "#00E6D4"
+  green: "#8CA0C6"
+  yellow: "#5F7398"
+  blue: "#344A6B"
+  magenta: "#5F7398"
+  cyan: "#5F7398"
+  white: "#8CA0C6"
+  brightBlack: "#052442"
+  brightRed: "#00E6D4"
+  brightGreen: "#8CA0C6"
+  brightYellow: "#5F7398"
+  brightBlue: "#344A6B"
+  brightMagenta: "#5F7398"
+  brightCyan: "#5F7398"
+  brightWhite: "#8CA0C6"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 249
+  contrast:
+    fg: 27.6
+    black: 0
+    red: 76.4
+    green: 49.5
+    yellow: 27.6
+    blue: 10.8
+    magenta: 27.6
+    cyan: 27.6
+    white: 49.5
+    brightBlack: 0
+    brightRed: 76.4
+    brightGreen: 49.5
+    brightYellow: 27.6
+    brightBlue: 10.8
+    brightMagenta: 27.6
+    brightCyan: 27.6
+    brightWhite: 49.5

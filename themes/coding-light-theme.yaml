@@ -1,0 +1,49 @@
+name: "coding-light-theme"
+source:
+  marketplace_id: "sgtcoder.developer-coding-theme"
+  version: "2.0.4"
+  installs: 308
+  author: "SgtCoder"
+  repo: "https://github.com/sgtcoder/vscode-developer-coding-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sgtcoder.developer-coding-theme"
+colors:
+  bg: "#F2F2F2"
+  fg: "#212121"
+  black: "#212121"
+  red: "#C0392B"
+  green: "#2E7D32"
+  yellow: "#A8601A"
+  blue: "#1565C0"
+  magenta: "#9C00B0"
+  cyan: "#00838F"
+  white: "#E0E0E0"
+  brightBlack: "#212121"
+  brightRed: "#C0392B"
+  brightGreen: "#2E7D32"
+  brightYellow: "#A8601A"
+  brightBlue: "#1565C0"
+  brightMagenta: "#9C00B0"
+  brightCyan: "#00838F"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 95.3
+    black: 95.3
+    red: 68.2
+    green: 67.3
+    yellow: 65.3
+    blue: 70.4
+    magenta: 73.8
+    cyan: 63.1
+    white: 8.1
+    brightBlack: 95.3
+    brightRed: 68.2
+    brightGreen: 67.3
+    brightYellow: 65.3
+    brightBlue: 70.4
+    brightMagenta: 73.8
+    brightCyan: 63.1
+    brightWhite: 8.1

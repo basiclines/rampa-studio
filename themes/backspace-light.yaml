@@ -1,0 +1,49 @@
+name: "Backspace Light"
+source:
+  marketplace_id: "SamiurRahmanMukul.backspace-theme"
+  version: "0.2.0"
+  installs: 289
+  author: "SamiurRahmanMukul"
+  repo: "https://github.com/SamiurRahmanMukul/backspace-vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SamiurRahmanMukul.backspace-theme"
+colors:
+  bg: "#F8F6F3"
+  fg: "#2D2A26"
+  black: "#000000"
+  red: "#FC4A1A"
+  green: "#595959"
+  yellow: "#FC4A1A"
+  blue: "#666666"
+  magenta: "#A3A3A3"
+  cyan: "#595959"
+  white: "#F2F2F2"
+  brightBlack: "#666666"
+  brightRed: "#FC4A1A"
+  brightGreen: "#595959"
+  brightYellow: "#FC4A1A"
+  brightBlue: "#666666"
+  brightMagenta: "#A3A3A3"
+  brightCyan: "#595959"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.8
+    black: 100.8
+    red: 55.1
+    green: 79
+    yellow: 55.1
+    blue: 73.5
+    magenta: 44.2
+    cyan: 79
+    white: 0
+    brightBlack: 73.5
+    brightRed: 55.1
+    brightGreen: 79
+    brightYellow: 55.1
+    brightBlue: 73.5
+    brightMagenta: 44.2
+    brightCyan: 79
+    brightWhite: 0

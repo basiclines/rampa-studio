@@ -1,0 +1,49 @@
+name: "Pantone Purple (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F7F4F6"
+  fg: "#14011F"
+  black: "#14011F"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F7F4F6"
+  brightBlack: "#703172"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F5F1F2"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.5
+    black: 99.5
+    red: 72.7
+    green: 56.3
+    yellow: 40.5
+    blue: 83.7
+    magenta: 79.9
+    cyan: 73
+    white: 0
+    brightBlack: 83.7
+    brightRed: 62.4
+    brightGreen: 43.1
+    brightYellow: 24.3
+    brightBlue: 49.8
+    brightMagenta: 61.4
+    brightCyan: 42.5
+    brightWhite: 0

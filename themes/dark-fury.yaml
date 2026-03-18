@@ -1,0 +1,49 @@
+name: "Dark Fury"
+source:
+  marketplace_id: "alive-ninja.dark-fury-theme"
+  version: "1.0.13"
+  installs: 152
+  author: "alive ninja"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=alive-ninja.dark-fury-theme"
+colors:
+  bg: "#000000"
+  fg: "#666666"
+  black: "#222222"
+  red: "#B38080"
+  green: "#80B380"
+  yellow: "#B3B380"
+  blue: "#8080B3"
+  magenta: "#B380B3"
+  cyan: "#80B3B3"
+  white: "#B3B3B3"
+  brightBlack: "#222222"
+  brightRed: "#B38080"
+  brightGreen: "#80B380"
+  brightYellow: "#B3B380"
+  brightBlue: "#8080B3"
+  brightMagenta: "#B380B3"
+  brightCyan: "#80B3B3"
+  brightWhite: "#B3B3B3"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 23
+    black: 0
+    red: 41.1
+    green: 54.4
+    yellow: 59.5
+    blue: 37
+    magenta: 43.2
+    cyan: 56.2
+    white: 61.2
+    brightBlack: 0
+    brightRed: 41.1
+    brightGreen: 54.4
+    brightYellow: 59.5
+    brightBlue: 37
+    brightMagenta: 43.2
+    brightCyan: 56.2
+    brightWhite: 61.2

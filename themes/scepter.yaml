@@ -1,0 +1,49 @@
+name: "scepter"
+source:
+  marketplace_id: "IsaacWilson.scepter"
+  version: "1.1.6"
+  installs: 4977
+  author: "Isaac Wilson"
+  repo: "https://github.com/wisac/scepter-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=IsaacWilson.scepter"
+colors:
+  bg: "#171C28"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#EF6B73"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFCC66"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 267
+  contrast:
+    fg: 54.5
+    black: 0
+    red: 44.2
+    green: 81.3
+    yellow: 78.7
+    blue: 67.2
+    magenta: 60.7
+    cyan: 67.2
+    white: 54.5
+    brightBlack: 10.6
+    brightRed: 44.2
+    brightGreen: 81.3
+    brightYellow: 78.7
+    brightBlue: 67.2
+    brightMagenta: 60.7
+    brightCyan: 67.2
+    brightWhite: 54.5

@@ -1,0 +1,49 @@
+name: "isotope-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#454955"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#72B01D"
+  yellow: "#98BC3E"
+  blue: "#454955"
+  magenta: "#98BC3E"
+  cyan: "#72B01D"
+  white: "#505563"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#A5E251"
+  brightYellow: "#C1D888"
+  brightBlue: "#73798D"
+  brightMagenta: "#C1D888"
+  brightCyan: "#A5E251"
+  brightWhite: "#73798D"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 90.6
+    black: 0
+    red: 80.3
+    green: 51.2
+    yellow: 42.9
+    blue: 90.6
+    magenta: 42.9
+    cyan: 51.2
+    white: 85.9
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 24.9
+    brightYellow: 25.7
+    brightBlue: 70
+    brightMagenta: 25.7
+    brightCyan: 24.9
+    brightWhite: 70

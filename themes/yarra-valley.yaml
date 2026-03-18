@@ -1,0 +1,49 @@
+name: "Yarra Valley"
+source:
+  marketplace_id: "dustypomerleau.yarra-valley"
+  version: "0.29.14"
+  installs: 10151
+  author: "Dusty Pomerleau"
+  repo: "https://github.com/dustypomerleau/yarra-valley"
+  url: "https://marketplace.visualstudio.com/items?itemName=dustypomerleau.yarra-valley"
+colors:
+  bg: "#292D3E"
+  fg: "#CAC0A9"
+  black: "#242837"
+  red: "#F14360"
+  green: "#AECC00"
+  yellow: "#FF9D35"
+  blue: "#99C2EB"
+  magenta: "#C651E5"
+  cyan: "#4CE7FF"
+  white: "#FDF1D4"
+  brightBlack: "#535664"
+  brightRed: "#F14360"
+  brightGreen: "#8AF899"
+  brightYellow: "#FF9D35"
+  brightBlue: "#99C2EB"
+  brightMagenta: "#EE37AA"
+  brightCyan: "#4CE7FF"
+  brightWhite: "#FDF5E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  contrast:
+    fg: 64.4
+    black: 0
+    red: 34.1
+    green: 63.8
+    yellow: 57.6
+    blue: 62.8
+    magenta: 33.5
+    cyan: 76.4
+    white: 94.5
+    brightBlack: 12.1
+    brightRed: 34.1
+    brightGreen: 83.8
+    brightYellow: 57.6
+    brightBlue: 62.8
+    brightMagenta: 34.5
+    brightCyan: 76.4
+    brightWhite: 96.9

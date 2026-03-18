@@ -1,0 +1,49 @@
+name: "bluebracket-theme"
+source:
+  marketplace_id: "bluebracket.bluebracket-material"
+  version: "1.6.0"
+  installs: 3654
+  author: "bluebracket"
+  repo: "https://github.com/ppozniak/bluebracket-material-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebracket.bluebracket-material"
+colors:
+  bg: "#0F1E28"
+  fg: "#FEFEFE"
+  black: "#676E95"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 239
+  contrast:
+    fg: 105.5
+    black: 25.8
+    red: 43
+    green: 83.5
+    yellow: 78.3
+    blue: 55.3
+    magenta: 53.1
+    cyan: 77.6
+    white: 106.2
+    brightBlack: 25.8
+    brightRed: 43
+    brightGreen: 83.5
+    brightYellow: 78.3
+    brightBlue: 55.3
+    brightMagenta: 53.1
+    brightCyan: 77.6
+    brightWhite: 106.2

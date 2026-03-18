@@ -1,0 +1,49 @@
+name: "BakaNeo"
+source:
+  marketplace_id: "coelhomarcus.bakaneo"
+  version: "1.1.7"
+  installs: 114
+  author: "Marcus Coelho"
+  repo: "https://github.com/coelhomarcus/bakaneo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=coelhomarcus.bakaneo"
+colors:
+  bg: "#131313"
+  fg: "#FFFFFF"
+  black: "#333333"
+  red: "#88BBFF"
+  green: "#FFDD44"
+  yellow: "#88CC44"
+  blue: "#88BBFF"
+  magenta: "#88BBFF"
+  cyan: "#42BC7F"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#88BBFF"
+  brightGreen: "#FFDD44"
+  brightYellow: "#94A4FF"
+  brightBlue: "#88BBFF"
+  brightMagenta: "#88BBFF"
+  brightCyan: "#42BC7F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 107.2
+    black: 0
+    red: 63.6
+    green: 86.5
+    yellow: 64.5
+    blue: 63.6
+    magenta: 63.6
+    cyan: 54.4
+    white: 107.2
+    brightBlack: 22.4
+    brightRed: 63.6
+    brightGreen: 86.5
+    brightYellow: 55.6
+    brightBlue: 63.6
+    brightMagenta: 63.6
+    brightCyan: 54.4
+    brightWhite: 107.2

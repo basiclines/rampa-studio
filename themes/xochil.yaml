@@ -1,0 +1,49 @@
+name: "Xochil"
+source:
+  marketplace_id: "VARKODE.xochil"
+  version: "0.0.2"
+  installs: 73
+  author: "VARKODE"
+  repo: "https://github.com/varkode/xochil"
+  url: "https://marketplace.visualstudio.com/items?itemName=VARKODE.xochil"
+colors:
+  bg: "#19232D"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 249
+  contrast:
+    fg: 78
+    black: 0
+    red: 25.3
+    green: 51.6
+    yellow: 84.2
+    blue: 26
+    magenta: 28.3
+    cyan: 46.1
+    white: 88.6
+    brightBlack: 20.6
+    brightRed: 37.1
+    brightGreen: 62.1
+    brightYellow: 94.2
+    brightBlue: 38.6
+    brightMagenta: 43.9
+    brightCyan: 54
+    brightWhite: 88.6

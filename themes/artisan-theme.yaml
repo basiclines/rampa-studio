@@ -1,0 +1,49 @@
+name: "Artisan Theme"
+source:
+  marketplace_id: "VheissuLabs.artisan-theme"
+  version: "0.1.0"
+  installs: 39
+  author: "VheissuLabs"
+  repo: "https://github.com/VheissuLabs/artisan-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=VheissuLabs.artisan-theme"
+colors:
+  bg: "#F3F3F3"
+  fg: "#171717"
+  black: "#171717"
+  red: "#CA2606"
+  green: "#007A4C"
+  yellow: "#F9B803"
+  blue: "#2176D3"
+  magenta: "#EE9DAC"
+  cyan: "#007A4C"
+  white: "#F3F3F3"
+  brightBlack: "#6B6B6B"
+  brightRed: "#CA2606"
+  brightGreen: "#007A4C"
+  brightYellow: "#F9B803"
+  brightBlue: "#2176D3"
+  brightMagenta: "#EE9DAC"
+  brightCyan: "#007A4C"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97.5
+    black: 97.5
+    red: 68.7
+    green: 69.2
+    yellow: 25
+    blue: 64.1
+    magenta: 33.5
+    cyan: 69.2
+    white: 0
+    brightBlack: 69.4
+    brightRed: 68.7
+    brightGreen: 69.2
+    brightYellow: 25
+    brightBlue: 64.1
+    brightMagenta: 33.5
+    brightCyan: 69.2
+    brightWhite: 0

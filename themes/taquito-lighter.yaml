@@ -1,0 +1,49 @@
+name: "Taquito-Lighter"
+source:
+  marketplace_id: "darvy.darvypro"
+  version: "0.4.0"
+  installs: 158
+  author: "darvy"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=darvy.darvypro"
+colors:
+  bg: "#D5D6DB"
+  fg: "#343B59"
+  black: "#0F0F14"
+  red: "#8C4351"
+  green: "#41857A"
+  yellow: "#8F5E15"
+  blue: "#385D9C"
+  magenta: "#5A4A78"
+  cyan: "#0F4B6E"
+  white: "#828594"
+  brightBlack: "#0F0F14"
+  brightRed: "#8C4351"
+  brightGreen: "#41857A"
+  brightYellow: "#8F5E15"
+  brightBlue: "#385D9C"
+  brightMagenta: "#5A4A78"
+  brightCyan: "#0F4B6E"
+  brightWhite: "#828594"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 71.5
+    black: 81.7
+    red: 59.7
+    green: 45.9
+    yellow: 53.7
+    blue: 58.3
+    magenta: 63.2
+    cyan: 67.3
+    white: 40.4
+    brightBlack: 81.7
+    brightRed: 59.7
+    brightGreen: 45.9
+    brightYellow: 53.7
+    brightBlue: 58.3
+    brightMagenta: 63.2
+    brightCyan: 67.3
+    brightWhite: 40.4

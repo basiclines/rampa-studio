@@ -1,0 +1,49 @@
+name: "OpenSpace"
+source:
+  marketplace_id: "OpenSpace.openspace-theme"
+  version: "1.2.41"
+  installs: 256
+  author: "Open Space Technology"
+  repo: "https://github.com/hunqng/openspace-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OpenSpace.openspace-theme"
+colors:
+  bg: "#2A2D33"
+  fg: "#E1E1E1"
+  black: "#2A2D33"
+  red: "#FC6A67"
+  green: "#A9DC76"
+  yellow: "#FFD866"
+  blue: "#78DCE8"
+  magenta: "#FF79C6"
+  cyan: "#78E8C6"
+  white: "#E1E1E1"
+  brightBlack: "#78DCE8"
+  brightRed: "#FC6A67"
+  brightGreen: "#A9DC76"
+  brightYellow: "#FFD866"
+  brightBlue: "#78DCE8"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#78E8C6"
+  brightWhite: "#E1E1E1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 84.1
+    black: 0
+    red: 43.7
+    green: 71.9
+    yellow: 80.9
+    blue: 72
+    magenta: 51.2
+    cyan: 76.3
+    white: 84.1
+    brightBlack: 72
+    brightRed: 43.7
+    brightGreen: 71.9
+    brightYellow: 80.9
+    brightBlue: 72
+    brightMagenta: 51.2
+    brightCyan: 76.3
+    brightWhite: 84.1

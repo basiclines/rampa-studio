@@ -1,0 +1,49 @@
+name: "ezcord-light"
+source:
+  marketplace_id: "zkawiy.ezcord-theme"
+  version: "1.1.1"
+  installs: 46
+  author: "zkawiy"
+  repo: "https://github.com/Nico4devv/ezcord-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zkawiy.ezcord-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#2B2D31"
+  black: "#2B2D31"
+  red: "#CC0055"
+  green: "#00AA66"
+  yellow: "#CC8800"
+  blue: "#00AACC"
+  magenta: "#CC00CC"
+  cyan: "#00CCCC"
+  white: "#E3E5E8"
+  brightBlack: "#6A6D72"
+  brightRed: "#FF0077"
+  brightGreen: "#00FF88"
+  brightYellow: "#FFAA00"
+  brightBlue: "#00DDFF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 100.4
+    black: 100.4
+    red: 75.7
+    green: 56.3
+    yellow: 55.8
+    blue: 52.6
+    magenta: 70.2
+    cyan: 38
+    white: 13
+    brightBlack: 75.8
+    brightRed: 62.7
+    brightGreen: 15.9
+    brightYellow: 36
+    brightBlue: 27.8
+    brightMagenta: 55.6
+    brightCyan: 11.8
+    brightWhite: 0

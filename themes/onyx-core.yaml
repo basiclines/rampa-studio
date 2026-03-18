@@ -1,0 +1,49 @@
+name: "Onyx Core"
+source:
+  marketplace_id: "zemd.zemd-theme-dark"
+  version: "0.9.0"
+  installs: 293
+  author: "Dmytro Zelenetskyi"
+  repo: "https://github.com/zemd/vscode-theme-zemd"
+  url: "https://marketplace.visualstudio.com/items?itemName=zemd.zemd-theme-dark"
+colors:
+  bg: "#272727"
+  fg: "#B0B0B0"
+  black: "#000000"
+  red: "#D35656"
+  green: "#51902E"
+  yellow: "#F8C465"
+  blue: "#4965A1"
+  magenta: "#B792BD"
+  cyan: "#70AEA6"
+  white: "#C4C8C6"
+  brightBlack: "#4D4D4D"
+  brightRed: "#E03C3C"
+  brightGreen: "#5AC220"
+  brightYellow: "#FFDBAD"
+  brightBlue: "#5C86E0"
+  brightMagenta: "#DD8BEA"
+  brightCyan: "#7FE0D3"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 56.3
+    black: 0
+    red: 31.7
+    green: 32.1
+    yellow: 72.6
+    blue: 19.9
+    magenta: 46.7
+    cyan: 49.1
+    white: 69.5
+    brightBlack: 9.8
+    brightRed: 30
+    brightGreen: 54.1
+    brightYellow: 85
+    brightBlue: 35.7
+    brightMagenta: 52.8
+    brightCyan: 74.5
+    brightWhite: 87.8

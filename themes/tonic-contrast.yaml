@@ -1,0 +1,49 @@
+name: "tonic-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#111314"
+  fg: "#EEEEEE"
+  black: "#1D2022"
+  red: "#BA0E2E"
+  green: "#75A1A4"
+  yellow: "#B8CD44"
+  blue: "#FD9F59"
+  magenta: "#EF6E44"
+  cyan: "#B8CD44"
+  white: "#FBFBFB"
+  brightBlack: "#40474B"
+  brightRed: "#F03E5F"
+  brightGreen: "#B2CBCD"
+  brightYellow: "#D7E394"
+  brightBlue: "#FED9BE"
+  brightMagenta: "#F7B7A2"
+  brightCyan: "#D7E394"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.1
+    black: 0
+    red: 20.9
+    green: 46.7
+    yellow: 69.6
+    blue: 62.2
+    magenta: 45
+    cyan: 69.6
+    white: 104.6
+    brightBlack: 9.9
+    brightRed: 37.2
+    brightGreen: 71.6
+    brightYellow: 84.8
+    brightBlue: 87.2
+    brightMagenta: 71.4
+    brightCyan: 84.8
+    brightWhite: 107.3

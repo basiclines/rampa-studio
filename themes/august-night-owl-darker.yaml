@@ -1,0 +1,49 @@
+name: "August - Night Owl (Darker)"
+source:
+  marketplace_id: "inci-august.august-themes"
+  version: "2.8.0"
+  installs: 146390
+  author: "inci-august"
+  repo: "https://github.com/inci-august/august-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes"
+colors:
+  bg: "#010D16"
+  fg: "#5F7E97"
+  black: "#010D16"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#ADDB67"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 236
+  contrast:
+    fg: 31.9
+    black: 0
+    red: 40.1
+    green: 68
+    yellow: 75.7
+    blue: 56.7
+    magenta: 54.5
+    cyan: 60.4
+    white: 107.6
+    brightBlack: 16.3
+    brightRed: 40.1
+    brightGreen: 68
+    brightYellow: 94.5
+    brightBlue: 56.7
+    brightMagenta: 54.5
+    brightCyan: 74.7
+    brightWhite: 107.6

@@ -1,0 +1,49 @@
+name: "Carbon"
+source:
+  marketplace_id: "PhanTriVietHoang.theme4anyone"
+  version: "1.0.3"
+  installs: 6
+  author: "PhanTriVietHoang"
+  repo: "https://github.com/phantriviethoang/theme4anyone"
+  url: "https://marketplace.visualstudio.com/items?itemName=PhanTriVietHoang.theme4anyone"
+colors:
+  bg: "#172030"
+  fg: "#C9CCCD"
+  black: "#172030"
+  red: "#FF8A7A"
+  green: "#5AF78E"
+  yellow: "#F3F99D"
+  blue: "#94D0FF"
+  magenta: "#FF85B8"
+  cyan: "#9AEDFE"
+  white: "#F1F1F0"
+  brightBlack: "#686868"
+  brightRed: "#FF8A7A"
+  brightGreen: "#5AF78E"
+  brightYellow: "#F3F99D"
+  brightBlue: "#94D0FF"
+  brightMagenta: "#FF85B8"
+  brightCyan: "#9AEDFE"
+  brightWhite: "#EEFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 262
+  contrast:
+    fg: 73.2
+    black: 0
+    red: 55.2
+    green: 82.9
+    yellow: 97.6
+    blue: 72.1
+    magenta: 55.9
+    cyan: 85.9
+    white: 96.5
+    brightBlack: 21.8
+    brightRed: 55.2
+    brightGreen: 82.9
+    brightYellow: 97.6
+    brightBlue: 72.1
+    brightMagenta: 55.9
+    brightCyan: 85.9
+    brightWhite: 103.4

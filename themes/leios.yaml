@@ -1,0 +1,49 @@
+name: "Leios"
+source:
+  marketplace_id: "JahtominiOgunderu.leios-theme"
+  version: "0.0.3"
+  installs: 247
+  author: "jahtomini"
+  repo: "https://github.com/jahtomini/leios"
+  url: "https://marketplace.visualstudio.com/items?itemName=JahtominiOgunderu.leios-theme"
+colors:
+  bg: "#22242A"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#528BFF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 271
+  contrast:
+    fg: 57.6
+    black: 0
+    red: 40.3
+    green: 60.5
+    yellow: 68.8
+    blue: 39.7
+    magenta: 43.4
+    cyan: 52.8
+    white: 81.3
+    brightBlack: 33.8
+    brightRed: 36.7
+    brightGreen: 60.5
+    brightYellow: 68.8
+    brightBlue: 39.7
+    brightMagenta: 11
+    brightCyan: 52.8
+    brightWhite: 81.3

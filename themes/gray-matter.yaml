@@ -1,0 +1,49 @@
+name: "Gray matter"
+source:
+  marketplace_id: "Priyaank.radiancexx"
+  version: "1.1.0"
+  installs: 68
+  author: "Priyaank"
+  repo: "https://github.com/PRIYAANK2510/Radiance"
+  url: "https://marketplace.visualstudio.com/items?itemName=Priyaank.radiancexx"
+colors:
+  bg: "#1F1F1F"
+  fg: "#AAAAAA"
+  black: "#000000"
+  red: "#D71010"
+  green: "#19A736"
+  yellow: "#BAB126"
+  blue: "#1571FF"
+  magenta: "#A93191"
+  cyan: "#0B749D"
+  white: "#AAAAAA"
+  brightBlack: "#666666"
+  brightRed: "#D93C3C"
+  brightGreen: "#2BEA52"
+  brightYellow: "#FFEF00"
+  brightBlue: "#3E62F0"
+  brightMagenta: "#F772DC"
+  brightCyan: "#0ABEEA"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 54.3
+    black: 0
+    red: 25.9
+    green: 41.5
+    yellow: 56.3
+    blue: 30.5
+    magenta: 21.2
+    cyan: 24.2
+    white: 54.3
+    brightBlack: 21.1
+    brightRed: 29.7
+    brightGreen: 74.1
+    brightYellow: 93.1
+    brightBlue: 25.8
+    brightMagenta: 51.5
+    brightCyan: 57.7
+    brightWhite: 94.8

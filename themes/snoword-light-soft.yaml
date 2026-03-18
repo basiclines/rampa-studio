@@ -1,0 +1,49 @@
+name: "Snoword Light Soft"
+source:
+  marketplace_id: "Snoword.theme-snoword"
+  version: "0.4.6"
+  installs: 819
+  author: "Snoword Theme"
+  repo: "https://github.com/snowords/vscode-theme-vitesse"
+  url: "https://marketplace.visualstudio.com/items?itemName=Snoword.theme-snoword"
+colors:
+  bg: "#F1F0E9"
+  fg: "#393A34"
+  black: "#121212"
+  red: "#AB5959"
+  green: "#1E754F"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#B05A78"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#1E754F"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#B05A78"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 87.4
+    black: 96.2
+    red: 64.4
+    green: 68.8
+    yellow: 39.2
+    blue: 69.1
+    magenta: 62.4
+    cyan: 54.4
+    white: 12
+    brightBlack: 36.7
+    brightRed: 64.4
+    brightGreen: 68.8
+    brightYellow: 39.2
+    brightBlue: 69.1
+    brightMagenta: 62.4
+    brightCyan: 54.4
+    brightWhite: 8.5

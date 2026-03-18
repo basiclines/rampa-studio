@@ -1,0 +1,49 @@
+name: "Machine"
+source:
+  marketplace_id: "rafaelburghausen.rafa-theme"
+  version: "3.0.6"
+  installs: 1203
+  author: "rafaelburghausen"
+  repo: "https://github.com/marcos-burghausen/Extensao-Rafa"
+  url: "https://marketplace.visualstudio.com/items?itemName=rafaelburghausen.rafa-theme"
+colors:
+  bg: "#273136"
+  fg: "#F2FFFC"
+  black: "#3A4449"
+  red: "#FF6D7E"
+  green: "#A2E57B"
+  yellow: "#FFED72"
+  blue: "#FFB270"
+  magenta: "#BAA0F8"
+  cyan: "#7CD5F1"
+  white: "#F2FFFC"
+  brightBlack: "#6B7678"
+  brightRed: "#FF6D7E"
+  brightGreen: "#A2E57B"
+  brightYellow: "#FFED72"
+  brightBlue: "#FFB270"
+  brightMagenta: "#BAA0F8"
+  brightCyan: "#7CD5F1"
+  brightWhite: "#F2FFFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  contrast:
+    fg: 100.9
+    black: 0
+    red: 45
+    green: 75
+    yellow: 89.9
+    blue: 65.3
+    magenta: 53.6
+    cyan: 68.9
+    white: 100.9
+    brightBlack: 24.2
+    brightRed: 45
+    brightGreen: 75
+    brightYellow: 89.9
+    brightBlue: 65.3
+    brightMagenta: 53.6
+    brightCyan: 68.9
+    brightWhite: 100.9

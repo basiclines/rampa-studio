@@ -1,0 +1,49 @@
+name: "OhLED_MediumSeaGreen"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#3CB371"
+  black: "#3CB371"
+  red: "#2C8353"
+  green: "#308F5A"
+  yellow: "#246B44"
+  blue: "#38A769"
+  magenta: "#349B62"
+  cyan: "#28774B"
+  white: "#205F3C"
+  brightBlack: "#3CB371"
+  brightRed: "#2C8353"
+  brightGreen: "#308F5A"
+  brightYellow: "#246B44"
+  brightBlue: "#38A769"
+  brightMagenta: "#349B62"
+  brightCyan: "#28774B"
+  brightWhite: "#205F3C"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 50.4
+    black: 50.4
+    red: 29.4
+    green: 34.4
+    yellow: 20.2
+    blue: 44.9
+    magenta: 39.5
+    cyan: 24.7
+    white: 15.9
+    brightBlack: 50.4
+    brightRed: 29.4
+    brightGreen: 34.4
+    brightYellow: 20.2
+    brightBlue: 44.9
+    brightMagenta: 39.5
+    brightCyan: 24.7
+    brightWhite: 15.9

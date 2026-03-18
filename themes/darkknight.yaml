@@ -1,0 +1,49 @@
+name: "DarkKnight"
+source:
+  marketplace_id: "PyJOJO.pycodejojo"
+  version: "2025.11.13"
+  installs: 121
+  author: "PyJOJO"
+  repo: "https://github.com/SakuraMYK/PyCodeJOJO"
+  url: "https://marketplace.visualstudio.com/items?itemName=PyJOJO.pycodejojo"
+colors:
+  bg: "#151515"
+  fg: "#FFFFFF"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#2AC3DE"
+  white: "#A9B1D6"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#2AC3DE"
+  brightWhite: "#A9B1D6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 107.1
+    black: 0
+    red: 50.1
+    green: 67.7
+    yellow: 62.9
+    blue: 51.9
+    magenta: 55.7
+    cyan: 60.6
+    white: 60.1
+    brightBlack: 0
+    brightRed: 50.1
+    brightGreen: 67.7
+    brightYellow: 62.9
+    brightBlue: 51.9
+    brightMagenta: 55.7
+    brightCyan: 60.6
+    brightWhite: 60.1

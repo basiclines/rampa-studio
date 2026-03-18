@@ -1,0 +1,49 @@
+name: "Gantheory Dark"
+source:
+  marketplace_id: "gantheory.theme-gantheory"
+  version: "0.0.2"
+  installs: 4724
+  author: "gantheory"
+  repo: "https://github.com/gantheory/vscode-theme-gantheory"
+  url: "https://marketplace.visualstudio.com/items?itemName=gantheory.theme-gantheory"
+colors:
+  bg: "#040404"
+  fg: "#E4E4E4"
+  black: "#000000"
+  red: "#F44336"
+  green: "#8BC34A"
+  yellow: "#FFEB3B"
+  blue: "#03A9F4"
+  magenta: "#E92663"
+  cyan: "#00BCD4"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#EF9A9A"
+  brightGreen: "#C5E1A5"
+  brightYellow: "#FFF59D"
+  brightBlue: "#81D4FA"
+  brightMagenta: "#F48FB1"
+  brightCyan: "#80DEEA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 90.4
+    black: 0
+    red: 38.7
+    green: 61.3
+    yellow: 93.3
+    blue: 51.3
+    magenta: 34.1
+    cyan: 57.5
+    white: 72.7
+    brightBlack: 23.9
+    brightRed: 60.1
+    brightGreen: 82.8
+    brightYellow: 99.5
+    brightBlue: 74.3
+    brightMagenta: 58.4
+    brightCyan: 78
+    brightWhite: 107.9

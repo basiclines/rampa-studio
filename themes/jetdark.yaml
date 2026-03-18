@@ -1,0 +1,49 @@
+name: "JetDark"
+source:
+  marketplace_id: "AlexanderAlekseenko.jetdark"
+  version: "1.2.0"
+  installs: 2126
+  author: "Alexander Alekseenko"
+  repo: "https://github.com/Akaike/vsc-jetdark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexanderAlekseenko.jetdark"
+colors:
+  bg: "#1E1F22"
+  fg: "#CED0D6"
+  black: "#222325"
+  red: "#E05561"
+  green: "#76C67A"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#8DCF56"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 76.1
+    black: 0
+    red: 35.7
+    green: 60
+    yellow: 47.6
+    blue: 48.7
+    magenta: 38.1
+    cyan: 51.5
+    white: 89.7
+    brightBlack: 14.5
+    brightRed: 45.1
+    brightGreen: 65.2
+    brightYellow: 60.3
+    brightBlue: 62.8
+    brightMagenta: 49.3
+    brightCyan: 66.8
+    brightWhite: 82.1

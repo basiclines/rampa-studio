@@ -1,0 +1,49 @@
+name: "Dune Spacing Guild"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 237
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+colors:
+  bg: "#0A0B0D"
+  fg: "#E8ECF4"
+  black: "#0A0B0D"
+  red: "#FFD700"
+  green: "#4A90E2"
+  yellow: "#6BB6FF"
+  blue: "#FF9940"
+  magenta: "#8899B4"
+  cyan: "#A8B8D0"
+  white: "#E8ECF4"
+  brightBlack: "#68707C"
+  brightRed: "#E85855"
+  brightGreen: "#6BC46D"
+  brightYellow: "#FFAA40"
+  brightBlue: "#5CA7FF"
+  brightMagenta: "#B794F6"
+  brightCyan: "#68D4FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 95.1
+    black: 0
+    red: 84.1
+    green: 41.5
+    yellow: 60
+    blue: 60.8
+    magenta: 46.4
+    cyan: 63.1
+    white: 95.1
+    brightBlack: 26.9
+    brightRed: 39.6
+    brightGreen: 59.9
+    brightYellow: 66.5
+    brightBlue: 53.1
+    brightMagenta: 53.8
+    brightCyan: 72.9
+    brightWhite: 107.7

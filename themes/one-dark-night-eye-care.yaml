@@ -1,0 +1,49 @@
+name: "One Dark Night - Eye Care"
+source:
+  marketplace_id: "sojibahmed.one-dark-night-theme"
+  version: "0.0.7"
+  installs: 1362
+  author: "sojibAhmedSafi"
+  repo: "https://github.com/SojibAhmed114/One-Dark-Night-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sojibahmed.one-dark-night-theme"
+colors:
+  bg: "#171C2A"
+  fg: "#ADADAD"
+  black: "#5A5A5A"
+  red: "#9D0000"
+  green: "#006D5D"
+  yellow: "#997729"
+  blue: "#2472C8"
+  magenta: "#A700A7"
+  cyan: "#007B99"
+  white: "#C0C0C0"
+  brightBlack: "#666666"
+  brightRed: "#CF0000"
+  brightGreen: "#00B298"
+  brightYellow: "#7D5700"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#CF00CF"
+  brightCyan: "#009AC0"
+  brightWhite: "#C9C9C9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 269
+  contrast:
+    fg: 56.2
+    black: 16.5
+    red: 13.5
+    green: 19.5
+    yellow: 31.4
+    blue: 26.8
+    magenta: 20.1
+    cyan: 26.7
+    white: 67
+    brightBlack: 21.4
+    brightRed: 24.3
+    brightGreen: 48.8
+    brightYellow: 18.3
+    brightBlue: 39.4
+    brightMagenta: 30.6
+    brightCyan: 40.5
+    brightWhite: 72.3

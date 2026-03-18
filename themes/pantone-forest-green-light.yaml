@@ -1,0 +1,49 @@
+name: "Pantone Forest Green (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F7F7F4"
+  fg: "#11220A"
+  black: "#11220A"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F7F7F4"
+  brightBlack: "#6E8442"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F5F4F1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.7
+    black: 98.7
+    red: 73.9
+    green: 57.5
+    yellow: 41.7
+    blue: 84.9
+    magenta: 81.1
+    cyan: 74.2
+    white: 0
+    brightBlack: 63.7
+    brightRed: 63.6
+    brightGreen: 44.3
+    brightYellow: 25.4
+    brightBlue: 51
+    brightMagenta: 62.5
+    brightCyan: 43.7
+    brightWhite: 0

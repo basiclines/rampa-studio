@@ -1,0 +1,49 @@
+name: "MeOceanGray"
+source:
+  marketplace_id: "JaianeOliveira.meoceanthemes"
+  version: "0.0.5"
+  installs: 9230
+  author: "Jaiane Oliveira"
+  repo: "https://github.com/JaianeOliveira/meocean-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=JaianeOliveira.meoceanthemes"
+colors:
+  bg: "#1F1F1F"
+  fg: "#F1F1F1"
+  black: "#000000"
+  red: "#F14C4C"
+  green: "#F1F1F1"
+  yellow: "#E5E510"
+  blue: "#F1F1F1"
+  magenta: "#F1F1F1"
+  cyan: "#F1F1F1"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#F1F1F1"
+  brightYellow: "#F5F543"
+  brightBlue: "#F1F1F1"
+  brightMagenta: "#F1F1F1"
+  brightCyan: "#F1F1F1"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.7
+    black: 0
+    red: 37.6
+    green: 96.7
+    yellow: 84.6
+    blue: 96.7
+    magenta: 96.7
+    cyan: 96.7
+    white: 89
+    brightBlack: 21.1
+    brightRed: 37.6
+    brightGreen: 96.7
+    brightYellow: 94.7
+    brightBlue: 96.7
+    brightMagenta: 96.7
+    brightCyan: 96.7
+    brightWhite: 89

@@ -1,0 +1,49 @@
+name: "Aether Twilight"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#1E1E2E"
+  fg: "#CDD6F4"
+  black: "#45475A"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#CBA6F7"
+  cyan: "#94E2D5"
+  white: "#CDD6F4"
+  brightBlack: "#45475A"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#89B4FA"
+  brightMagenta: "#CBA6F7"
+  brightCyan: "#94E2D5"
+  brightWhite: "#CDD6F4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  contrast:
+    fg: 80
+    black: 9.3
+    red: 54.7
+    green: 78.3
+    yellow: 88.4
+    blue: 59.1
+    magenta: 60.8
+    cyan: 78.2
+    white: 80
+    brightBlack: 9.3
+    brightRed: 54.7
+    brightGreen: 78.3
+    brightYellow: 88.4
+    brightBlue: 59.1
+    brightMagenta: 60.8
+    brightCyan: 78.2
+    brightWhite: 80

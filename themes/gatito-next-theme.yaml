@@ -1,0 +1,49 @@
+name: "Gatito Next Theme"
+source:
+  marketplace_id: "kevinsperrine.gatito-next-theme"
+  version: "1.1.2"
+  installs: 1301
+  author: "Kevin S Perrine"
+  repo: "https://github.com/kevinsperrine/gatito-next-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kevinsperrine.gatito-next-theme"
+colors:
+  bg: "#242B2E"
+  fg: "#D4D4D4"
+  black: "#808080"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FAC863"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#808080"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FAC863"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 226
+  contrast:
+    fg: 76.7
+    black: 31
+    red: 35.1
+    green: 62.1
+    yellow: 73.9
+    blue: 41.4
+    magenta: 49.2
+    cyan: 50.2
+    white: 76.7
+    brightBlack: 31
+    brightRed: 35.1
+    brightGreen: 62.1
+    brightYellow: 73.9
+    brightBlue: 41.4
+    brightMagenta: 49.2
+    brightCyan: 50.2
+    brightWhite: 76.7

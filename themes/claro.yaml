@@ -1,0 +1,49 @@
+name: "Claro"
+source:
+  marketplace_id: "JosafaMarengo.foco"
+  version: "0.2.0"
+  installs: 139
+  author: "Josafá Marengo"
+  repo: "https://github.com/josafamarengo/VSCode-Foco-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JosafaMarengo.foco"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#E83B3B"
+  green: "#00DE00"
+  yellow: "#C7B100"
+  blue: "#036BDB"
+  magenta: "#EC0FEC"
+  cyan: "#05B0D9"
+  white: "#C4C4C4"
+  brightBlack: "#000000"
+  brightRed: "#FF5E5E"
+  brightGreen: "#18F218"
+  brightYellow: "#FFE619"
+  brightBlue: "#0C80FF"
+  brightMagenta: "#FF35FF"
+  brightCyan: "#06C9F9"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 66.7
+    green: 33.4
+    yellow: 42.2
+    blue: 74.3
+    magenta: 61.1
+    cyan: 49.4
+    white: 31.8
+    brightBlack: 106
+    brightRed: 55.6
+    brightGreen: 23.6
+    brightYellow: 13
+    brightBlue: 64.6
+    brightMagenta: 53.8
+    brightCyan: 37
+    brightWhite: 48.5

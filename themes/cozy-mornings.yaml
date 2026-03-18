@@ -1,0 +1,49 @@
+name: "Cozy Mornings"
+source:
+  marketplace_id: "Naous.cozy-coding"
+  version: "0.0.3"
+  installs: 634
+  author: "Naous"
+  repo: "https://github.com/Naawa/cozy-coding"
+  url: "https://marketplace.visualstudio.com/items?itemName=Naous.cozy-coding"
+colors:
+  bg: "#FFF6F0"
+  fg: "#493C3A"
+  black: "#000000"
+  red: "#7B0000"
+  green: "#009400"
+  yellow: "#FF8300"
+  blue: "#003875"
+  magenta: "#730073"
+  cyan: "#00637B"
+  white: "#A9A9A9"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#2CBE2C"
+  brightYellow: "#FFA84D"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#C0C0C0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 90
+    black: 101.6
+    red: 89.4
+    green: 62.1
+    yellow: 43.4
+    blue: 91.4
+    magenta: 88.1
+    cyan: 78.6
+    white: 41.9
+    brightBlack: 74.3
+    brightRed: 69.5
+    brightGreen: 43.4
+    brightYellow: 31.9
+    brightBlue: 81.6
+    brightMagenta: 70.1
+    brightCyan: 56.1
+    brightWhite: 29.5

@@ -1,0 +1,49 @@
+name: "Moin Dark"
+source:
+  marketplace_id: "nwwdles.moin-theme"
+  version: "1.2.2"
+  installs: 1024
+  author: "nwwdles"
+  repo: "https://gitlab.com/nwwdles/vscode-moin-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nwwdles.moin-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#222222"
+  red: "#CC0000"
+  green: "#66BBAA"
+  yellow: "#EECC00"
+  blue: "#99CCFF"
+  magenta: "#DD99FF"
+  cyan: "#44BBBB"
+  white: "#DDDDDD"
+  brightBlack: "#333333"
+  brightRed: "#FF0000"
+  brightGreen: "#88EECC"
+  brightYellow: "#FFEE00"
+  brightBlue: "#BBDDFF"
+  brightMagenta: "#FFAAFF"
+  brightCyan: "#55EEEE"
+  brightWhite: "#F3F3F3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 25.2
+    green: 57.5
+    yellow: 76.8
+    blue: 72.9
+    magenta: 61.7
+    cyan: 56.8
+    white: 86
+    brightBlack: 0
+    brightRed: 37.5
+    brightGreen: 84.9
+    brightYellow: 94.6
+    brightBlue: 83.7
+    brightMagenta: 73
+    brightCyan: 83.8
+    brightWhite: 100

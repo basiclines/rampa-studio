@@ -1,0 +1,49 @@
+name: "dark-night-pro"
+source:
+  marketplace_id: "ErickSosa.dark-night-pro"
+  version: "1.0.4"
+  installs: 759
+  author: "Erick Sosa"
+  repo: "https://github.com/buttercubz/dark-night-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=ErickSosa.dark-night-pro"
+colors:
+  bg: "#181825"
+  fg: "#FFFFFF"
+  black: "#181825"
+  red: "#F60055"
+  green: "#06C993"
+  yellow: "#433047"
+  blue: "#F69154"
+  magenta: "#EC89CB"
+  cyan: "#00DDED"
+  white: "#FFFFFF"
+  brightBlack: "#3F3F54"
+  brightRed: "#F60055"
+  brightGreen: "#06C993"
+  brightYellow: "#7001B9"
+  brightBlue: "#F69154"
+  brightMagenta: "#EC89CB"
+  brightCyan: "#00DDED"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  contrast:
+    fg: 106.6
+    black: 0
+    red: 34.7
+    green: 59.5
+    yellow: 0
+    blue: 55.7
+    magenta: 55.1
+    cyan: 72.9
+    white: 106.6
+    brightBlack: 7.5
+    brightRed: 34.7
+    brightGreen: 59.5
+    brightYellow: 13.2
+    brightBlue: 55.7
+    brightMagenta: 55.1
+    brightCyan: 72.9
+    brightWhite: 106.6

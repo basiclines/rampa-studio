@@ -1,0 +1,49 @@
+name: "Never Be Lost (Day)"
+source:
+  marketplace_id: "Fred-Vatin.never-be-lost"
+  version: "0.4.0"
+  installs: 446
+  author: "Fred Vatin"
+  repo: "https://github.com/Fred-Vatin/never-be-lost"
+  url: "https://marketplace.visualstudio.com/items?itemName=Fred-Vatin.never-be-lost"
+colors:
+  bg: "#1E2224"
+  fg: "#E7E7E7"
+  black: "#0C0C0C"
+  red: "#8CA421"
+  green: "#438341"
+  yellow: "#AE9019"
+  blue: "#2854D7"
+  magenta: "#7F3E3E"
+  cyan: "#519BAA"
+  white: "#CCCCCC"
+  brightBlack: "#767676"
+  brightRed: "#FF001E"
+  brightGreen: "#44B13E"
+  brightYellow: "#CBCE36"
+  brightBlue: "#4C97FF"
+  brightMagenta: "#E157D1"
+  brightCyan: "#42FFFF"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 90
+    black: 0
+    red: 45.5
+    green: 27.6
+    yellow: 41.8
+    blue: 18.9
+    magenta: 12.8
+    cyan: 40.7
+    white: 73.3
+    brightBlack: 27.8
+    brightRed: 35.3
+    brightGreen: 46.6
+    brightYellow: 70.5
+    brightBlue: 44.2
+    brightMagenta: 40.6
+    brightCyan: 90.5
+    brightWhite: 90.6

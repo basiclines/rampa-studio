@@ -1,0 +1,49 @@
+name: "Alignment darker (italic)"
+source:
+  marketplace_id: "natixco.alignment-theme-vsc"
+  version: "0.0.1"
+  installs: 117
+  author: "natixco"
+  repo: "https://github.com/natixco/alignment-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=natixco.alignment-theme-vsc"
+colors:
+  bg: "#161622"
+  fg: "#EADEDA"
+  black: "#000000"
+  red: "#EA5D36"
+  green: "#EADEDA"
+  yellow: "#EABF38"
+  blue: "#3C98F5"
+  magenta: "#D45CFF"
+  cyan: "#3C98F5"
+  white: "#EADEDA"
+  brightBlack: "#000000"
+  brightRed: "#EA5D36"
+  brightGreen: "#EADEDA"
+  brightYellow: "#EABF38"
+  brightBlue: "#3C98F5"
+  brightMagenta: "#D45CFF"
+  brightCyan: "#3C98F5"
+  brightWhite: "#EADEDA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 284
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 39.7
+    green: 87.1
+    yellow: 70
+    blue: 44.5
+    magenta: 43.5
+    cyan: 44.5
+    white: 87.1
+    brightBlack: 0
+    brightRed: 39.7
+    brightGreen: 87.1
+    brightYellow: 70
+    brightBlue: 44.5
+    brightMagenta: 43.5
+    brightCyan: 44.5
+    brightWhite: 87.1

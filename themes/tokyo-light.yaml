@@ -1,0 +1,49 @@
+name: "Tokyo (Light)"
+source:
+  marketplace_id: "akil-s.tokyo-light"
+  version: "0.0.4"
+  installs: 7302
+  author: "akil-s"
+  repo: "https://github.com/Salah-Akil/tokyo-vscode-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=akil-s.tokyo-light"
+colors:
+  bg: "#FFFFFF"
+  fg: "#24292E"
+  black: "#232627"
+  red: "#BF0C0C"
+  green: "#738D01"
+  yellow: "#D59200"
+  blue: "#009C8F"
+  magenta: "#AA62C8"
+  cyan: "#17B898"
+  white: "#42413F"
+  brightBlack: "#464E4F"
+  brightRed: "#CA1111"
+  brightGreen: "#7F990D"
+  brightYellow: "#9E6200"
+  brightBlue: "#00B6A4"
+  brightMagenta: "#8E44AD"
+  brightCyan: "#16A085"
+  brightWhite: "#5D5C5A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 101.5
+    black: 102.2
+    red: 79.4
+    green: 65.2
+    yellow: 51.2
+    blue: 61
+    magenta: 66.7
+    cyan: 48.8
+    white: 93.7
+    brightBlack: 89.4
+    brightRed: 76.8
+    brightGreen: 59.6
+    brightYellow: 74.2
+    brightBlue: 49.3
+    brightMagenta: 78.8
+    brightCyan: 59.6
+    brightWhite: 83

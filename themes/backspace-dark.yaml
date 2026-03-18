@@ -1,0 +1,49 @@
+name: "Backspace Dark"
+source:
+  marketplace_id: "SamiurRahmanMukul.backspace-theme"
+  version: "0.2.0"
+  installs: 289
+  author: "SamiurRahmanMukul"
+  repo: "https://github.com/SamiurRahmanMukul/backspace-vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SamiurRahmanMukul.backspace-theme"
+colors:
+  bg: "#161616"
+  fg: "#E8E6E3"
+  black: "#141414"
+  red: "#E6622E"
+  green: "#4D4D4D"
+  yellow: "#B3B3B3"
+  blue: "#E6622E"
+  magenta: "#F2F2F2"
+  cyan: "#2E2E2E"
+  white: "#F2F2F2"
+  brightBlack: "#141414"
+  brightRed: "#E6622E"
+  brightGreen: "#4D4D4D"
+  brightYellow: "#B3B3B3"
+  brightBlue: "#E6622E"
+  brightMagenta: "#F2F2F2"
+  brightCyan: "#2E2E2E"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 90.9
+    black: 0
+    red: 39.9
+    green: 12.2
+    yellow: 60.3
+    blue: 39.9
+    magenta: 98.4
+    cyan: 0
+    white: 98.4
+    brightBlack: 0
+    brightRed: 39.9
+    brightGreen: 12.2
+    brightYellow: 60.3
+    brightBlue: 39.9
+    brightMagenta: 98.4
+    brightCyan: 0
+    brightWhite: 98.4

@@ -1,0 +1,49 @@
+name: "Ef Melissa Dark"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#352718"
+  fg: "#E8E4B1"
+  black: "#E8E4B1"
+  red: "#FF7F7F"
+  green: "#6FD560"
+  yellow: "#E4B53F"
+  blue: "#57AFF6"
+  magenta: "#F0AAC5"
+  cyan: "#6FCAD0"
+  white: "#483426"
+  brightBlack: "#90918A"
+  brightRed: "#FF7F4F"
+  brightGreen: "#A0D13A"
+  brightYellow: "#FFA21F"
+  brightBlue: "#98BFFF"
+  brightMagenta: "#FA90AA"
+  brightCyan: "#7FC5DF"
+  brightWhite: "#352718"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 68
+  contrast:
+    fg: 85.2
+    black: 85.2
+    red: 50.6
+    green: 64.3
+    yellow: 62.3
+    blue: 51.8
+    magenta: 63.6
+    cyan: 62.6
+    white: 0
+    brightBlack: 38.9
+    brightRed: 49.7
+    brightGreen: 65.7
+    brightYellow: 59.9
+    brightBlue: 63.4
+    brightMagenta: 55.8
+    brightCyan: 62.1
+    brightWhite: 0

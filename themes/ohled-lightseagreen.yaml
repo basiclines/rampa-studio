@@ -1,0 +1,49 @@
+name: "OhLED_LightSeaGreen"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#20B2AA"
+  black: "#20B2AA"
+  red: "#17837D"
+  green: "#1A8E88"
+  yellow: "#136B66"
+  blue: "#1EA69F"
+  magenta: "#1C9A93"
+  cyan: "#157771"
+  white: "#115F5B"
+  brightBlack: "#20B2AA"
+  brightRed: "#17837D"
+  brightGreen: "#1A8E88"
+  brightYellow: "#136B66"
+  brightBlue: "#1EA69F"
+  brightMagenta: "#1C9A93"
+  brightCyan: "#157771"
+  brightWhite: "#115F5B"
+meta:
+  mode: "dark"
+  accent: "cyan"
+  hue: null
+  contrast:
+    fg: 51.3
+    black: 51.3
+    red: 30.2
+    green: 34.9
+    yellow: 20.8
+    blue: 45.6
+    magenta: 40.1
+    cyan: 25.4
+    white: 16.4
+    brightBlack: 51.3
+    brightRed: 30.2
+    brightGreen: 34.9
+    brightYellow: 20.8
+    brightBlue: 45.6
+    brightMagenta: 40.1
+    brightCyan: 25.4
+    brightWhite: 16.4

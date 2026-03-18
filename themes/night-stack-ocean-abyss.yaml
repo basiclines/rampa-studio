@@ -1,0 +1,49 @@
+name: "Night-Stack Ocean Abyss"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#040B12"
+  fg: "#D8F2FF"
+  black: "#0F1B26"
+  red: "#2DD4BF"
+  green: "#14B8A6"
+  yellow: "#7DD3FC"
+  blue: "#1D4ED8"
+  magenta: "#38BDF8"
+  cyan: "#22D3EE"
+  white: "#D8F2FF"
+  brightBlack: "#0F1B26"
+  brightRed: "#2DD4BF"
+  brightGreen: "#14B8A6"
+  brightYellow: "#7DD3FC"
+  brightBlue: "#1D4ED8"
+  brightMagenta: "#38BDF8"
+  brightCyan: "#22D3EE"
+  brightWhite: "#D8F2FF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 244
+  contrast:
+    fg: 96.5
+    black: 0
+    red: 67.7
+    green: 53.5
+    yellow: 73.5
+    blue: 19.6
+    magenta: 60.4
+    cyan: 69.4
+    white: 96.5
+    brightBlack: 0
+    brightRed: 67.7
+    brightGreen: 53.5
+    brightYellow: 73.5
+    brightBlue: 19.6
+    brightMagenta: 60.4
+    brightCyan: 69.4
+    brightWhite: 96.5

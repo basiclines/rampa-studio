@@ -1,0 +1,49 @@
+name: "4am session (aqua)"
+source:
+  marketplace_id: "4Themes.4am-session-theme"
+  version: "1.0.0"
+  installs: 270
+  author: "4Themes"
+  repo: "https://github.com/4-themes/4am-session-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=4Themes.4am-session-theme"
+colors:
+  bg: "#1E353E"
+  fg: "#D4D4D4"
+  black: "#3B3B3B"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 225
+  contrast:
+    fg: 74.9
+    black: 0
+    red: 22.1
+    green: 48.4
+    yellow: 81
+    blue: 22.8
+    magenta: 25.1
+    cyan: 42.9
+    white: 85.4
+    brightBlack: 17.4
+    brightRed: 33.9
+    brightGreen: 58.9
+    brightYellow: 91
+    brightBlue: 35.4
+    brightMagenta: 40.7
+    brightCyan: 50.8
+    brightWhite: 85.4

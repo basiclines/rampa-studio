@@ -1,0 +1,49 @@
+name: "dynamic"
+source:
+  marketplace_id: "zoydburger.workspace-theme-switcher"
+  version: "0.0.5"
+  installs: 0
+  author: "zoydburger"
+  repo: "https://github.com/zoydburger/workspace-theme-switcher"
+  url: "https://marketplace.visualstudio.com/items?itemName=zoydburger.workspace-theme-switcher"
+colors:
+  bg: "#002451"
+  fg: "#FFFFFF"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 256
+  contrast:
+    fg: 104.6
+    black: 0
+    red: 61.1
+    green: 88.6
+    yellow: 93.5
+    blue: 79
+    magenta: 72.5
+    cyan: 93.6
+    white: 72.4
+    brightBlack: 0
+    brightRed: 49.4
+    brightGreen: 84.5
+    brightYellow: 88.2
+    brightBlue: 59.9
+    brightMagenta: 48
+    brightCyan: 91.6
+    brightWhite: 104.6

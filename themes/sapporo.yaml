@@ -1,0 +1,49 @@
+name: "sapporo"
+source:
+  marketplace_id: "Feefoolec.sapporo"
+  version: "0.0.1"
+  installs: 50
+  author: "Feefoolec"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Feefoolec.sapporo"
+colors:
+  bg: "#1C1C1F"
+  fg: "#ADADBA"
+  black: "#484858"
+  red: "#FFA1BE"
+  green: "#80DEC7"
+  yellow: "#FFBC9C"
+  blue: "#98CBFD"
+  magenta: "#B1A1FF"
+  cyan: "#5D99A3"
+  white: "#AFAFC0"
+  brightBlack: "#676779"
+  brightRed: "#FFD0D9"
+  brightGreen: "#B9F2E8"
+  brightYellow: "#F2D5A4"
+  brightBlue: "#B2E6FF"
+  brightMagenta: "#CEBCFF"
+  brightCyan: "#88D3E0"
+  brightWhite: "#BFDAF5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 56.8
+    black: 10.1
+    red: 65.1
+    green: 74.8
+    yellow: 73.5
+    blue: 70.6
+    magenta: 56.7
+    cyan: 40.9
+    white: 58.1
+    brightBlack: 22.5
+    brightRed: 83.7
+    brightGreen: 90.5
+    brightYellow: 81.8
+    brightBlue: 85.3
+    brightMagenta: 70.4
+    brightCyan: 71.3
+    brightWhite: 80.6

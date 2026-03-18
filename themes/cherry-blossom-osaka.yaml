@@ -1,0 +1,49 @@
+name: "Cherry Blossom Osaka"
+source:
+  marketplace_id: "daitsuku.cherry-blossom-vscode-theme"
+  version: "1.2.1"
+  installs: 2129
+  author: "daitsuku"
+  repo: "https://gitlab.com/daitsuku/cherry-blossom-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daitsuku.cherry-blossom-vscode-theme"
+colors:
+  bg: "#1C2025"
+  fg: "#CED4DA"
+  black: "#16191D"
+  red: "#D98C71"
+  green: "#8ABF94"
+  yellow: "#E0C068"
+  blue: "#7DA3C4"
+  magenta: "#CEB195"
+  cyan: "#7DA3C4"
+  white: "#ADB5BD"
+  brightBlack: "#495057"
+  brightRed: "#EEBCB0"
+  brightGreen: "#A8D5B1"
+  brightYellow: "#EAD496"
+  brightBlue: "#9EC3E0"
+  brightMagenta: "#E6CCB2"
+  brightCyan: "#9EC3E0"
+  brightWhite: "#CED4DA"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 254
+  contrast:
+    fg: 77.9
+    black: 0
+    red: 48.5
+    green: 59
+    yellow: 68.4
+    blue: 48.2
+    magenta: 60.8
+    cyan: 48.2
+    white: 59.7
+    brightBlack: 11.8
+    brightRed: 70.9
+    brightGreen: 72.5
+    brightYellow: 79.3
+    brightBlue: 65.6
+    brightMagenta: 76.2
+    brightCyan: 65.6
+    brightWhite: 77.9

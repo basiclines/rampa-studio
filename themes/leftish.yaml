@@ -1,0 +1,49 @@
+name: "Leftish"
+source:
+  marketplace_id: "unkai.leftish"
+  version: "0.1.2"
+  installs: 117
+  author: "Philippa Markovics"
+  repo: "https://github.com/philippamarkovics/leftish"
+  url: "https://marketplace.visualstudio.com/items?itemName=unkai.leftish"
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#000000"
+  red: "#C40233"
+  green: "#00A368"
+  yellow: "#E16B1A"
+  blue: "#0088BF"
+  magenta: "#9B73DE"
+  cyan: "#00B2B0"
+  white: "#CCCCCC"
+  brightBlack: "#949B9E"
+  brightRed: "#FF7777"
+  brightGreen: "#77CC99"
+  brightYellow: "#EAC100"
+  brightBlue: "#219DF0"
+  brightMagenta: "#D73CD7"
+  brightCyan: "#72DEC2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 98.7
+    black: 106
+    red: 78.1
+    green: 59.3
+    yellow: 60
+    blue: 66.5
+    magenta: 63
+    cyan: 50.6
+    white: 27.3
+    brightBlack: 54.2
+    brightRed: 49.8
+    brightGreen: 36.8
+    brightYellow: 31.1
+    brightBlue: 55.3
+    brightMagenta: 64.3
+    brightCyan: 27.6
+    brightWhite: 0

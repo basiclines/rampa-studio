@@ -1,0 +1,49 @@
+name: "Macrodata Refiners - Cold Harbor"
+source:
+  marketplace_id: "guinetik.macrodata-refiners-severance-theme"
+  version: "1.0.3"
+  installs: 139
+  author: "guinetik"
+  repo: "https://github.com/guinetik/macrodata-refiners-severance-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=guinetik.macrodata-refiners-severance-theme"
+colors:
+  bg: "#020508"
+  fg: "#AAB5C0"
+  black: "#000000"
+  red: "#E85050"
+  green: "#5DD9F0"
+  yellow: "#D0B580"
+  blue: "#2EC2E0"
+  magenta: "#B070A0"
+  cyan: "#5DD9F0"
+  white: "#E8E8E8"
+  brightBlack: "#353A3F"
+  brightRed: "#E85050"
+  brightGreen: "#8FE9F4"
+  brightYellow: "#D0B580"
+  brightBlue: "#5DD9F0"
+  brightMagenta: "#B070A0"
+  brightCyan: "#8FE9F4"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 239
+  contrast:
+    fg: 61.5
+    black: 0
+    red: 38.2
+    green: 74
+    yellow: 64.1
+    blue: 61.2
+    magenta: 37.2
+    cyan: 74
+    white: 92.9
+    brightBlack: 0
+    brightRed: 38.2
+    brightGreen: 84.7
+    brightYellow: 64.1
+    brightBlue: 74
+    brightMagenta: 37.2
+    brightCyan: 84.7
+    brightWhite: 92.9

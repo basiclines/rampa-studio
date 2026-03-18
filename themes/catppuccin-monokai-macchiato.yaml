@@ -1,0 +1,49 @@
+name: "Catppuccin Monokai Macchiato"
+source:
+  marketplace_id: "dooez.alt-catppuccin-vsc"
+  version: "2.7.4"
+  installs: 50560
+  author: "dooez"
+  repo: "https://github.com/Dooez/alt-catppuccin-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dooez.alt-catppuccin-vsc"
+colors:
+  bg: "#24273A"
+  fg: "#CAD3F5"
+  black: "#6E738D"
+  red: "#ED8796"
+  green: "#A6DA95"
+  yellow: "#EED49F"
+  blue: "#8AADF4"
+  magenta: "#F5BDE6"
+  cyan: "#91D7E3"
+  white: "#939AB7"
+  brightBlack: "#8087A2"
+  brightRed: "#ED8796"
+  brightGreen: "#A6DA95"
+  brightYellow: "#EED49F"
+  brightBlue: "#8AADF4"
+  brightMagenta: "#F5BDE6"
+  brightCyan: "#91D7E3"
+  brightWhite: "#CAD3F5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 277
+  contrast:
+    fg: 76.9
+    black: 25.8
+    red: 50.3
+    green: 72.3
+    yellow: 78.7
+    blue: 54.5
+    magenta: 73.3
+    cyan: 72.1
+    white: 44.7
+    brightBlack: 35
+    brightRed: 50.3
+    brightGreen: 72.3
+    brightYellow: 78.7
+    brightBlue: 54.5
+    brightMagenta: 73.3
+    brightCyan: 72.1
+    brightWhite: 76.9

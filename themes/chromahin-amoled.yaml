@@ -1,0 +1,49 @@
+name: "CHROMAHIN AMOLED"
+source:
+  marketplace_id: "mahin-ltd.chromahin"
+  version: "1.0.0"
+  installs: 52
+  author: "Mahin Ltd"
+  repo: "https://github.com/mahinltd/chromahin"
+  url: "https://marketplace.visualstudio.com/items?itemName=mahin-ltd.chromahin"
+colors:
+  bg: "#000000"
+  fg: "#E8F1FF"
+  black: "#02070D"
+  red: "#FF4F73"
+  green: "#33D876"
+  yellow: "#F0C54A"
+  blue: "#3F77F0"
+  magenta: "#8B7CFF"
+  cyan: "#16D5EE"
+  white: "#E8F1FF"
+  brightBlack: "#172030"
+  brightRed: "#FF6A8A"
+  brightGreen: "#53E38A"
+  brightYellow: "#F5D562"
+  brightBlue: "#5C8FF3"
+  brightMagenta: "#A897FF"
+  brightCyan: "#3BE9F7"
+  brightWhite: "#F9FBFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 98.2
+    black: 0
+    red: 44.1
+    green: 67.7
+    yellow: 74.6
+    blue: 33.9
+    magenta: 42
+    cyan: 70.4
+    white: 98.2
+    brightBlack: 0
+    brightRed: 49.7
+    brightGreen: 74.5
+    brightYellow: 82.4
+    brightBlue: 43.5
+    brightMagenta: 53.7
+    brightCyan: 81.1
+    brightWhite: 105.1

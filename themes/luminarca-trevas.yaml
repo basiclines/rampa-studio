@@ -1,0 +1,49 @@
+name: "Luminarca (Trevas)"
+source:
+  marketplace_id: "ricarthlima.luminarca-theme"
+  version: "1.0.1"
+  installs: 207
+  author: "Ricarth Lima"
+  repo: "https://github.com/ricarthlima/luminarca-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=ricarthlima.luminarca-theme"
+colors:
+  bg: "#0A0F14"
+  fg: "#E0F7FA"
+  black: "#0A0F14"
+  red: "#FF4C3B"
+  green: "#2ECC71"
+  yellow: "#F77828"
+  blue: "#005593"
+  magenta: "#FF4C3B"
+  cyan: "#20BADB"
+  white: "#E0F7FA"
+  brightBlack: "#005593"
+  brightRed: "#FF4C3B"
+  brightGreen: "#2ECC71"
+  brightYellow: "#E0F7FA"
+  brightBlue: "#9CCCDC"
+  brightMagenta: "#9CCCDC"
+  brightCyan: "#9CCCDC"
+  brightWhite: "#E0F7FA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 42.3
+    green: 61.3
+    yellow: 49.2
+    blue: 15.5
+    magenta: 42.3
+    cyan: 56.8
+    white: 99.4
+    brightBlack: 15.5
+    brightRed: 42.3
+    brightGreen: 61.3
+    brightYellow: 99.4
+    brightBlue: 70.9
+    brightMagenta: 70.9
+    brightCyan: 70.9
+    brightWhite: 99.4

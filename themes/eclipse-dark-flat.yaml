@@ -1,0 +1,49 @@
+name: "Eclipse Dark Flat"
+source:
+  marketplace_id: "NoahLezama.eclipse-dark"
+  version: "0.0.8"
+  installs: 137
+  author: "Noah Lezama"
+  repo: "https://github.com/A5TUT0/Eclipse"
+  url: "https://marketplace.visualstudio.com/items?itemName=NoahLezama.eclipse-dark"
+colors:
+  bg: "#23283D"
+  fg: "#C9D1FF"
+  black: "#5A607D"
+  red: "#FF7A93"
+  green: "#5DD7C2"
+  yellow: "#FF9D6A"
+  blue: "#82AAFF"
+  magenta: "#D4A5FF"
+  cyan: "#7EE8FF"
+  white: "#9AA5CE"
+  brightBlack: "#6B7394"
+  brightRed: "#FF7A93"
+  brightGreen: "#5DD7C2"
+  brightYellow: "#FF9D6A"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#D4A5FF"
+  brightCyan: "#7EE8FF"
+  brightWhite: "#C9D1FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 273
+  contrast:
+    fg: 76.3
+    black: 17.4
+    red: 50.1
+    green: 67.2
+    yellow: 59.2
+    blue: 53.3
+    magenta: 60.7
+    cyan: 80.1
+    white: 50.5
+    brightBlack: 25.6
+    brightRed: 50.1
+    brightGreen: 67.2
+    brightYellow: 59.2
+    brightBlue: 53.3
+    brightMagenta: 60.7
+    brightCyan: 80.1
+    brightWhite: 76.3

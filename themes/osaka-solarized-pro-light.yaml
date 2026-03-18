@@ -1,0 +1,49 @@
+name: "Osaka Solarized Pro Light"
+source:
+  marketplace_id: "AashishKumar-3002.osaka-solarized-pro"
+  version: "1.0.2"
+  installs: 551
+  author: "AashishKumar-3002"
+  repo: "https://github.com/AashishKumar-3002/osaka-solarized-pro-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AashishKumar-3002.osaka-solarized-pro"
+colors:
+  bg: "#FDF6E3"
+  fg: "#657B83"
+  black: "#002731"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#586E75"
+  brightRed: "#E85D67"
+  brightGreen: "#9BB528"
+  brightYellow: "#CCB525"
+  brightBlue: "#5DB6EB"
+  brightMagenta: "#E899C3"
+  brightCyan: "#35A8A5"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 65.7
+    black: 97.2
+    red: 65.3
+    green: 53.8
+    yellow: 53.8
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
+    white: 0
+    brightBlack: 71.6
+    brightRed: 55.4
+    brightGreen: 40.4
+    brightYellow: 34.7
+    brightBlue: 38.8
+    brightMagenta: 36.8
+    brightCyan: 49.4
+    brightWhite: 0

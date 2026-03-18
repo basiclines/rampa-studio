@@ -1,0 +1,49 @@
+name: "Snazzy Operator Natural"
+source:
+  marketplace_id: "BenCai.snazzy-operator-natural"
+  version: "0.0.10"
+  installs: 2982
+  author: "Ben Cai"
+  repo: "https://github.com/code0312/VSCode-Theme-Snazzy"
+  url: "https://marketplace.visualstudio.com/items?itemName=BenCai.snazzy-operator-natural"
+colors:
+  bg: "#282A36"
+  fg: "#EFF0EB"
+  black: "#282A36"
+  red: "#FF716C"
+  green: "#5AF78E"
+  yellow: "#F758FF"
+  blue: "#57C7FF"
+  magenta: "#FF6AC1"
+  cyan: "#9AEDFE"
+  white: "#EFF0EB"
+  brightBlack: "#6C6E75"
+  brightRed: "#FF716C"
+  brightGreen: "#5AF78E"
+  brightYellow: "#F758FF"
+  brightBlue: "#57C7FF"
+  brightMagenta: "#FF6AC1"
+  brightCyan: "#9AEDFE"
+  brightWhite: "#EFF0EB"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  contrast:
+    fg: 93.7
+    black: 0
+    red: 46.5
+    green: 81.1
+    yellow: 46.7
+    blue: 62.5
+    magenta: 48
+    cyan: 84.1
+    white: 93.7
+    brightBlack: 22.6
+    brightRed: 46.5
+    brightGreen: 81.1
+    brightYellow: 46.7
+    brightBlue: 62.5
+    brightMagenta: 48
+    brightCyan: 84.1
+    brightWhite: 93.7

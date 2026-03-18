@@ -1,0 +1,49 @@
+name: "Prismatic Light"
+source:
+  marketplace_id: "cklimas.prismatic"
+  version: "1.17.0"
+  installs: 860
+  author: "Chris Klimas"
+  repo: "https://github.com/klembot/prismatic-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cklimas.prismatic"
+colors:
+  bg: "#F5F2F0"
+  fg: "#000000"
+  black: "#000000"
+  red: "#990624"
+  green: "#669900"
+  yellow: "#C49863"
+  blue: "#0077AA"
+  magenta: "#990055"
+  cyan: "#008888"
+  white: "#708090"
+  brightBlack: "#000000"
+  brightRed: "#550000"
+  brightGreen: "#225500"
+  brightYellow: "#80541F"
+  brightBlue: "#003366"
+  brightMagenta: "#550011"
+  brightCyan: "#004444"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 98.6
+    black: 98.6
+    red: 80.2
+    green: 54.1
+    yellow: 43.6
+    blue: 66.4
+    magenta: 79.3
+    cyan: 61.8
+    white: 60.3
+    brightBlack: 98.6
+    brightRed: 93
+    brightGreen: 82.5
+    brightYellow: 74.8
+    brightBlue: 90.6
+    brightMagenta: 93
+    brightCyan: 87.5
+    brightWhite: 0

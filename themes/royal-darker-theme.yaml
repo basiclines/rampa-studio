@@ -1,0 +1,49 @@
+name: "Royal Darker Theme"
+source:
+  marketplace_id: "EricHideki.Royal-Dark-Theme"
+  version: "0.1.1"
+  installs: 260
+  author: "Eric Hideki"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=EricHideki.Royal-Dark-Theme"
+colors:
+  bg: "#292736"
+  fg: "#E6E4FF"
+  black: "#000000"
+  red: "#FF5959"
+  green: "#31FBAD"
+  yellow: "#FFFF6C"
+  blue: "#9DA3FF"
+  magenta: "#FF87FF"
+  cyan: "#61E0FF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF8787"
+  brightGreen: "#5EFF77"
+  brightYellow: "#FFFFAA"
+  brightBlue: "#74B6FF"
+  brightMagenta: "#FFA3FF"
+  brightCyan: "#5ADFFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 291
+  contrast:
+    fg: 88.4
+    black: 0
+    red: 41.6
+    green: 83.4
+    yellow: 99.8
+    blue: 53.2
+    magenta: 58.8
+    cyan: 74.8
+    white: 87.4
+    brightBlack: 19.4
+    brightRed: 53.2
+    brightGreen: 85.4
+    brightYellow: 101.1
+    brightBlue: 57.1
+    brightMagenta: 67.1
+    brightCyan: 74
+    brightWhite: 87.4

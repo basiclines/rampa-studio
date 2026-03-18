@@ -1,0 +1,49 @@
+name: "PrismaPixel Studios - Dark Theme"
+source:
+  marketplace_id: "PrismaPixel-Studios.prismapixel-studios-theme"
+  version: "0.0.1"
+  installs: 228
+  author: "PrismaPixel Studios"
+  repo: "https://github.com/PrismaPixelStudios/PrismaPixel_Studios-vscode_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PrismaPixel-Studios.prismapixel-studios-theme"
+colors:
+  bg: "#2D2D2D"
+  fg: "#989998"
+  black: "#000000"
+  red: "#E1251B"
+  green: "#009D4F"
+  yellow: "#FFE800"
+  blue: "#1A428A"
+  magenta: "#E31D93"
+  cyan: "#00B2E3"
+  white: "#FFFFFF"
+  brightBlack: "#353331"
+  brightRed: "#FF9C8F"
+  brightGreen: "#78CC99"
+  brightYellow: "#FFF98D"
+  brightBlue: "#92AFEC"
+  brightMagenta: "#F08FC8"
+  brightCyan: "#81D3F7"
+  brightWhite: "#F1F1F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 42.6
+    black: 0
+    red: 26.7
+    green: 35
+    yellow: 87.4
+    blue: 0
+    magenta: 29.3
+    cyan: 49.6
+    white: 103.4
+    brightBlack: 0
+    brightRed: 59
+    brightGreen: 61.3
+    brightYellow: 96.6
+    brightBlue: 54.6
+    brightMagenta: 54.3
+    brightCyan: 69.2
+    brightWhite: 94.3

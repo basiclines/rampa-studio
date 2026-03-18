@@ -1,0 +1,49 @@
+name: "VSCode Nofrils Dark"
+source:
+  marketplace_id: "batteajd.vscode-nofrils"
+  version: "2.2.0"
+  installs: 102
+  author: "Jonathan Batteas"
+  repo: "https://github.com/sosukeinu/vscode-nofrils"
+  url: "https://marketplace.visualstudio.com/items?itemName=batteajd.vscode-nofrils"
+colors:
+  bg: "#121212"
+  fg: "#E4E4E4"
+  black: "#11151C"
+  red: "#EA6C73"
+  green: "#7FD962"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#CDA1FA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#AAD94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#D2A6FF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 89.8
+    black: 0
+    red: 44.5
+    green: 70.5
+    yellow: 67
+    blue: 61
+    magenta: 61.1
+    cyan: 78.3
+    white: 72.1
+    brightBlack: 23.3
+    brightRed: 47
+    brightGreen: 73.7
+    brightYellow: 70
+    brightBlue: 63.8
+    brightMagenta: 63.8
+    brightCyan: 81.3
+    brightWhite: 107.3

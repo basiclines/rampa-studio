@@ -1,0 +1,49 @@
+name: "Ztok"
+source:
+  marketplace_id: "KrlosDev.ztok"
+  version: "1.0.5"
+  installs: 885
+  author: "KrlosDev"
+  repo: "https://github.com/KrlosDev/ztok"
+  url: "https://marketplace.visualstudio.com/items?itemName=KrlosDev.ztok"
+colors:
+  bg: "#222222"
+  fg: "#ABB2BF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#49D59C"
+  blue: "#FAF7DC"
+  magenta: "#BC3FBC"
+  cyan: "#FAF7DC"
+  white: "#FAF7DC"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#49D59C"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 58
+    black: 0
+    red: 25.3
+    green: 51.6
+    yellow: 65.4
+    blue: 99.4
+    magenta: 28.3
+    cyan: 99.4
+    white: 99.4
+    brightBlack: 20.6
+    brightRed: 37.1
+    brightGreen: 62.1
+    brightYellow: 65.4
+    brightBlue: 38.6
+    brightMagenta: 44
+    brightCyan: 54
+    brightWhite: 88.6

@@ -1,0 +1,49 @@
+name: "Tundra Dusk"
+source:
+  marketplace_id: "exastone.exa-theme"
+  version: "1.0.9"
+  installs: 517
+  author: "Andrew Stone"
+  repo: "https://github.com/exastone/exa-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=exastone.exa-theme"
+colors:
+  bg: "#0C1426"
+  fg: "#D8DEE9"
+  black: "#000000"
+  red: "#FDB0BA"
+  green: "#25BA58"
+  yellow: "#F4CC67"
+  blue: "#68A9FF"
+  magenta: "#FE97E1"
+  cyan: "#0D9480"
+  white: "#D4CCB9"
+  brightBlack: "#A1A1A1"
+  brightRed: "#FD788B"
+  brightGreen: "#B3EBAB"
+  brightYellow: "#FFCA14"
+  brightBlue: "#8CDAFF"
+  brightMagenta: "#F970CD"
+  brightCyan: "#A5FFFA"
+  brightWhite: "#D8DEE9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 265
+  contrast:
+    fg: 85.6
+    black: 0
+    red: 70.5
+    green: 51.8
+    yellow: 77.7
+    blue: 53.9
+    magenta: 64.2
+    cyan: 36.1
+    white: 75.1
+    brightBlack: 50.6
+    brightRed: 51.8
+    brightGreen: 85
+    brightYellow: 78
+    brightBlue: 77.3
+    brightMagenta: 51.8
+    brightCyan: 96.8
+    brightWhite: 85.6

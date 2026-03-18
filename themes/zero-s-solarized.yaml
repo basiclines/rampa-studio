@@ -1,0 +1,49 @@
+name: "Zero's Solarized"
+source:
+  marketplace_id: "JavierdeMarco.zerossolarized"
+  version: "0.0.1"
+  installs: 82
+  author: "Javier de Marco"
+  repo: "https://github.com/javierdemarco/zerossolarized"
+  url: "https://marketplace.visualstudio.com/items?itemName=JavierdeMarco.zerossolarized"
+colors:
+  bg: "#073642"
+  fg: "#EEE8D5"
+  black: "#000000"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#000000"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#D33682"
+  brightCyan: "#2AA198"
+  brightWhite: "#EEE8D5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 25.5
+    green: 37.1
+    yellow: 37.1
+    blue: 32.1
+    magenta: 25.8
+    cyan: 37.8
+    white: 87.3
+    brightBlack: 0
+    brightRed: 25.5
+    brightGreen: 37.1
+    brightYellow: 37.1
+    brightBlue: 32.1
+    brightMagenta: 25.8
+    brightCyan: 37.8
+    brightWhite: 87.3

@@ -1,0 +1,49 @@
+name: "Pantone Tangerine Tango (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#230A08"
+  fg: "#F6E7E3"
+  black: "#230A08"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#76475A"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#F6E7E3"
+  brightBlack: "#DEA394"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#FCFBFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 27
+  contrast:
+    fg: 93.5
+    black: 0
+    red: 32.4
+    green: 52.1
+    yellow: 71.7
+    blue: 15.6
+    magenta: 33.5
+    cyan: 52.7
+    white: 93.5
+    brightBlack: 59.4
+    brightRed: 38.9
+    brightGreen: 59.3
+    brightYellow: 76.1
+    brightBlue: 29
+    brightMagenta: 42.1
+    brightCyan: 59.3
+    brightWhite: 104.6

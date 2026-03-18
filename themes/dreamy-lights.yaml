@@ -1,0 +1,49 @@
+name: "Dreamy Lights"
+source:
+  marketplace_id: "t3nsor.dreamy-lights"
+  version: "0.0.1"
+  installs: 30
+  author: "t3nsor"
+  repo: "https://github.com/t3nsor98/dreamy-lights-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=t3nsor.dreamy-lights"
+colors:
+  bg: "#1A1A1A"
+  fg: "#FEF9EF"
+  black: "#000000"
+  red: "#FE6D73"
+  green: "#17C3B2"
+  yellow: "#FFCB77"
+  blue: "#227C9D"
+  magenta: "#FE6D73"
+  cyan: "#17C3B2"
+  white: "#FEF9EF"
+  brightBlack: "#000000"
+  brightRed: "#FE6D73"
+  brightGreen: "#17C3B2"
+  brightYellow: "#FFCB77"
+  brightBlue: "#17C3B2"
+  brightMagenta: "#FE6D73"
+  brightCyan: "#17C3B2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.8
+    black: 0
+    red: 48.2
+    green: 57.8
+    yellow: 78.8
+    blue: 27.8
+    magenta: 48.2
+    cyan: 57.8
+    white: 102.8
+    brightBlack: 0
+    brightRed: 48.2
+    brightGreen: 57.8
+    brightYellow: 78.8
+    brightBlue: 57.8
+    brightMagenta: 48.2
+    brightCyan: 57.8
+    brightWhite: 106.5

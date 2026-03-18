@@ -1,0 +1,49 @@
+name: "Roxo theme"
+source:
+  marketplace_id: "rellyson.roxo-theme-vscode"
+  version: "1.2.1"
+  installs: 749
+  author: "Rellyson Silva"
+  repo: "https://github.com/roxo-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=rellyson.roxo-theme-vscode"
+colors:
+  bg: "#120D17"
+  fg: "#E0DEF4"
+  black: "#120D17"
+  red: "#F38BA8"
+  green: "#94E2D5"
+  yellow: "#F7BAA2"
+  blue: "#B4BEEE"
+  magenta: "#B4BEEE"
+  cyan: "#94E2D5"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#F38BA8"
+  brightGreen: "#B4BEEE"
+  brightYellow: "#F7BAA2"
+  brightBlue: "#B4BEEE"
+  brightMagenta: "#B4BEEE"
+  brightCyan: "#94E2D5"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 307
+  contrast:
+    fg: 87.6
+    black: 0
+    red: 56.3
+    green: 79.9
+    yellow: 72.8
+    blue: 68.2
+    magenta: 68.2
+    cyan: 79.9
+    white: 87.6
+    brightBlack: 41.9
+    brightRed: 56.3
+    brightGreen: 68.2
+    brightYellow: 72.8
+    brightBlue: 68.2
+    brightMagenta: 68.2
+    brightCyan: 79.9
+    brightWhite: 87.6

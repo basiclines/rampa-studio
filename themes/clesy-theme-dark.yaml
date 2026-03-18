@@ -1,0 +1,49 @@
+name: "clesy-theme-dark"
+source:
+  marketplace_id: "EvgeniyGerasimenko.clesy-theme-dark"
+  version: "1.0.1"
+  installs: 124
+  author: "Evgeniy Gerasimenko"
+  repo: "https://github.com/Clesy/clesy-theme-vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=EvgeniyGerasimenko.clesy-theme-dark"
+colors:
+  bg: "#142531"
+  fg: "#D6DEEB"
+  black: "#142531"
+  red: "#D43532"
+  green: "#3BB19D"
+  yellow: "#5C99CA"
+  blue: "#82AAFF"
+  magenta: "#7795D6"
+  cyan: "#03F841"
+  white: "#7E2929"
+  brightBlack: "#575656"
+  brightRed: "#500D0C"
+  brightGreen: "#5AC585"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#8A7373"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 240
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 27
+    green: 48.2
+    yellow: 41.8
+    blue: 54.3
+    magenta: 42.8
+    cyan: 80.3
+    white: 8.8
+    brightBlack: 13.9
+    brightRed: 0
+    brightGreen: 57.6
+    brightYellow: 92.1
+    brightBlue: 54.3
+    brightMagenta: 52.1
+    brightCyan: 72.3
+    brightWhite: 28.5

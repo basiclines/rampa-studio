@@ -1,0 +1,49 @@
+name: "Omni Monokai Dark"
+source:
+  marketplace_id: "Wellington-A.omni-dracula-dark"
+  version: "1.0.7"
+  installs: 4759
+  author: "Wellington-A"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Wellington-A.omni-dracula-dark"
+colors:
+  bg: "#0A0A0A"
+  fg: "#F7E767"
+  black: "#3D3D3D"
+  red: "#FF3333"
+  green: "#00FF64"
+  yellow: "#FFE779"
+  blue: "#1584FF"
+  magenta: "#FF02FF"
+  cyan: "#0AE1FF"
+  white: "#A3A3A3"
+  brightBlack: "#666666"
+  brightRed: "#FF6767"
+  brightGreen: "#97FFB1"
+  brightYellow: "#FFCE00"
+  brightBlue: "#95CCFF"
+  brightMagenta: "#FF9AFF"
+  brightCyan: "#8EF4FF"
+  brightWhite: "#C9C9C9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 90.6
+    black: 7.3
+    red: 39.5
+    green: 87
+    yellow: 92.2
+    blue: 38.3
+    magenta: 46.1
+    cyan: 77
+    white: 52.3
+    brightBlack: 22.9
+    brightRed: 48
+    brightGreen: 93.4
+    brightYellow: 80.3
+    brightBlue: 72.4
+    brightMagenta: 67.7
+    brightCyan: 90.5
+    brightWhite: 73.7

@@ -1,0 +1,49 @@
+name: "ghostty-synthwave"
+source:
+  marketplace_id: "closji.ghostty-synthwave"
+  version: "0.0.7"
+  installs: 71
+  author: "closji"
+  repo: "https://github.com/carlosejimenez/ghostty-synthwave"
+  url: "https://marketplace.visualstudio.com/items?itemName=closji.ghostty-synthwave"
+colors:
+  bg: "#000000"
+  fg: "#DAD9C7"
+  black: "#000000"
+  red: "#F6188F"
+  green: "#1EBB2B"
+  yellow: "#F8D146"
+  blue: "#2186EC"
+  magenta: "#F85A21"
+  cyan: "#12C3E2"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#F841A0"
+  brightGreen: "#25C141"
+  brightYellow: "#F8D146"
+  brightBlue: "#2F9DED"
+  brightMagenta: "#F97137"
+  brightCyan: "#19CDE6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 82.9
+    black: 0
+    red: 37.9
+    green: 52.5
+    yellow: 80.8
+    blue: 37.7
+    magenta: 43.1
+    cyan: 61.4
+    white: 107.9
+    brightBlack: 0
+    brightRed: 42.1
+    brightGreen: 55.6
+    brightYellow: 80.8
+    brightBlue: 46.5
+    brightMagenta: 48.4
+    brightCyan: 66.3
+    brightWhite: 107.9

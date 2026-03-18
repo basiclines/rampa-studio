@@ -1,0 +1,49 @@
+name: "Kabukichō"
+source:
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3734
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+colors:
+  bg: "#1F1529"
+  fg: "#D4CDDE"
+  black: "#34294F"
+  red: "#F92AAD"
+  green: "#54E484"
+  yellow: "#E0B401"
+  blue: "#58C7E0"
+  magenta: "#B141F1"
+  cyan: "#53C8E2"
+  white: "#495495"
+  brightBlack: "#34294F"
+  brightRed: "#F92AAD"
+  brightGreen: "#54E484"
+  brightYellow: "#E0B401"
+  brightBlue: "#53C8E2"
+  brightMagenta: "#B141F1"
+  brightCyan: "#53C8E2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 306
+  contrast:
+    fg: 76.7
+    black: 0
+    red: 39.5
+    green: 73.6
+    yellow: 63.6
+    blue: 63.4
+    magenta: 31.7
+    cyan: 63.7
+    white: 16.4
+    brightBlack: 0
+    brightRed: 39.5
+    brightGreen: 73.6
+    brightYellow: 63.6
+    brightBlue: 63.7
+    brightMagenta: 31.7
+    brightCyan: 63.7
+    brightWhite: 106.6

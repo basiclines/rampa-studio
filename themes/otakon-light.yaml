@@ -1,0 +1,49 @@
+name: "otakon-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#514B60"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#B1A6CA"
+  yellow: "#C6B3B9"
+  blue: "#E484B2"
+  magenta: "#A8A9BF"
+  cyan: "#F0B9D4"
+  white: "#5D566E"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#E9E6F0"
+  brightYellow: "#F2EDEF"
+  brightBlue: "#F6D8E6"
+  brightMagenta: "#E3E3EA"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#827A97"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.7
+    black: 0
+    red: 80.3
+    green: 45.1
+    yellow: 38.5
+    blue: 49.6
+    magenta: 45.6
+    cyan: 29.3
+    white: 84.1
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 11.5
+    brightYellow: 7.4
+    brightBlue: 15.9
+    brightMagenta: 13.8
+    brightCyan: 0
+    brightWhite: 67.8

@@ -1,0 +1,49 @@
+name: "neonmist"
+source:
+  marketplace_id: "locafe.neonmist"
+  version: "0.0.1"
+  installs: 39
+  author: "lo.cafe"
+  repo: "https://github.com/neonmist/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=locafe.neonmist"
+colors:
+  bg: "#252335"
+  fg: "#999999"
+  black: "#171623"
+  red: "#FF9A9A"
+  green: "#A3E7B6"
+  yellow: "#FFDEA2"
+  blue: "#A6C8FF"
+  magenta: "#B9B0FF"
+  cyan: "#6DDAF5"
+  white: "#D1D1E0"
+  brightBlack: "#666666"
+  brightRed: "#FFC0C0"
+  brightGreen: "#C9FFD8"
+  brightYellow: "#FFEDCB"
+  brightBlue: "#C4DAFF"
+  brightMagenta: "#D3CEFF"
+  brightCyan: "#ABEEFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 289
+  contrast:
+    fg: 44.3
+    black: 0
+    red: 60.2
+    green: 79.8
+    yellow: 86.3
+    blue: 69.4
+    magenta: 61.8
+    cyan: 72.6
+    white: 76.4
+    brightBlack: 20.1
+    brightRed: 74.9
+    brightGreen: 96.5
+    brightYellow: 94.3
+    brightBlue: 80.4
+    brightMagenta: 77
+    brightCyan: 87.1
+    brightWhite: 88.1

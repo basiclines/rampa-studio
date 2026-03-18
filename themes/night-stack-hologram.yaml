@@ -1,0 +1,49 @@
+name: "Night-Stack Hologram"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#090A14"
+  fg: "#E6E6FF"
+  black: "#1A1C33"
+  red: "#A855F7"
+  green: "#7DF9FF"
+  yellow: "#C084FC"
+  blue: "#6366F1"
+  magenta: "#A855F7"
+  cyan: "#7DF9FF"
+  white: "#E6E6FF"
+  brightBlack: "#1A1C33"
+  brightRed: "#A855F7"
+  brightGreen: "#7DF9FF"
+  brightYellow: "#C084FC"
+  brightBlue: "#6366F1"
+  brightMagenta: "#A855F7"
+  brightCyan: "#7DF9FF"
+  brightWhite: "#E6E6FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 279
+  contrast:
+    fg: 92.7
+    black: 0
+    red: 35.2
+    green: 91.9
+    yellow: 50.5
+    blue: 30.9
+    magenta: 35.2
+    cyan: 91.9
+    white: 92.7
+    brightBlack: 0
+    brightRed: 35.2
+    brightGreen: 91.9
+    brightYellow: 50.5
+    brightBlue: 30.9
+    brightMagenta: 35.2
+    brightCyan: 91.9
+    brightWhite: 92.7

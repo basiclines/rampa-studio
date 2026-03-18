@@ -1,0 +1,49 @@
+name: "rich-black-theme-no-italic"
+source:
+  marketplace_id: "mariusbegby.rich-black-theme"
+  version: "1.1.1"
+  installs: 2841
+  author: "Marius Begby"
+  repo: "https://github.com/mariusbegby/rich-black-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mariusbegby.rich-black-theme"
+colors:
+  bg: "#0F1217"
+  fg: "#CCCCCC"
+  black: "#62666D"
+  red: "#E48484"
+  green: "#85C27A"
+  yellow: "#CCC666"
+  blue: "#91B1E0"
+  magenta: "#E0A8FD"
+  cyan: "#71C2AA"
+  white: "#CCCCCC"
+  brightBlack: "#3C3F43"
+  brightRed: "#E45757"
+  brightGreen: "#65C253"
+  brightYellow: "#CCC43E"
+  brightBlue: "#6697E0"
+  brightMagenta: "#E0A8FD"
+  brightCyan: "#71C2AA"
+  brightWhite: "#E3E3E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 261
+  contrast:
+    fg: 75.1
+    black: 22.3
+    red: 50.1
+    green: 60.7
+    yellow: 69.5
+    blue: 58.5
+    magenta: 66.5
+    cyan: 60.7
+    white: 75.1
+    brightBlack: 7.4
+    brightRed: 38.2
+    brightGreen: 57.8
+    brightYellow: 68.2
+    brightBlue: 45.1
+    brightMagenta: 66.5
+    brightCyan: 60.7
+    brightWhite: 89.2

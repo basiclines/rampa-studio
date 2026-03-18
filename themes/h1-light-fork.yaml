@@ -1,0 +1,49 @@
+name: "H1 (Light) - Fork"
+source:
+  marketplace_id: "Hacker0x01.HackerOne-VS-Code-Theme"
+  version: "1.1.2"
+  installs: 5436
+  author: "Hacker0x01"
+  repo: "https://github.com/Hacker0x01/HackerOne-VS-Code-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Hacker0x01.HackerOne-VS-Code-Theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#5C5E6A"
+  black: "#0A0A0A"
+  red: "#AB000B"
+  green: "#006E4A"
+  yellow: "#734C00"
+  blue: "#0039C2"
+  magenta: "#4414A3"
+  cyan: "#0598BC"
+  white: "#5C5E6A"
+  brightBlack: "#5C5E6A"
+  brightRed: "#D92834"
+  brightGreen: "#008056"
+  brightYellow: "#946200"
+  brightBlue: "#2D68F4"
+  brightMagenta: "#6B39CC"
+  brightCyan: "#0598BC"
+  brightWhite: "#727581"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 82
+    black: 105.8
+    red: 84
+    green: 80.8
+    yellow: 86.1
+    blue: 89
+    magenta: 94.4
+    cyan: 60.6
+    white: 82
+    brightBlack: 82
+    brightRed: 72
+    brightGreen: 73.8
+    brightYellow: 75.7
+    brightBlue: 72.4
+    brightMagenta: 82.7
+    brightCyan: 60.6
+    brightWhite: 71.9

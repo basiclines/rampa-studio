@@ -1,0 +1,49 @@
+name: "Pantone True Red (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#1F0408"
+  fg: "#DFCACF"
+  black: "#1F0408"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#67335A"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#DFCACF"
+  brightBlack: "#923D53"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F5F1F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 13
+  contrast:
+    fg: 77
+    black: 0
+    red: 32.7
+    green: 52.3
+    yellow: 72
+    blue: 10.1
+    magenta: 33.7
+    cyan: 52.9
+    white: 77
+    brightBlack: 17.9
+    brightRed: 39.1
+    brightGreen: 59.5
+    brightYellow: 76.3
+    brightBlue: 29.3
+    brightMagenta: 42.3
+    brightCyan: 59.5
+    brightWhite: 98.8

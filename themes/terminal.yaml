@@ -1,0 +1,49 @@
+name: "Terminal"
+source:
+  marketplace_id: "VillageOfGamers.classic-terminal-revisited"
+  version: "1.0.0"
+  installs: 347
+  author: "Village of Gamers"
+  repo: "https://github.com/VillageOfGamers/classic-terminal-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=VillageOfGamers.classic-terminal-revisited"
+colors:
+  bg: "#000000"
+  fg: "#00FF00"
+  black: "#555555"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#555555"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 86.5
+    black: 16.1
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 16.2
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 16.1
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 16.2
+    brightMagenta: 46.2
+    brightCyan: 92.2
+    brightWhite: 107.9

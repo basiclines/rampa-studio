@@ -1,0 +1,49 @@
+name: "Polar Midnight"
+source:
+  marketplace_id: "postnumbers.polar-themes"
+  version: "0.0.8"
+  installs: 36
+  author: "Postnumbers"
+  repo: "https://github.com/postnumbers/polar-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=postnumbers.polar-themes"
+colors:
+  bg: "#000000"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 86.4
+    black: 9.1
+    red: 34
+    green: 62.7
+    yellow: 77.4
+    blue: 49.7
+    magenta: 47.5
+    cyan: 63.7
+    white: 93.4
+    brightBlack: 16.4
+    brightRed: 34
+    brightGreen: 62.7
+    brightYellow: 77.4
+    brightBlue: 49.7
+    brightMagenta: 47.5
+    brightCyan: 61.6
+    brightWhite: 97.2

@@ -1,0 +1,49 @@
+name: "laravel-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#0D0D0D"
+  red: "#BA0E2E"
+  green: "#FFC48C"
+  yellow: "#FC6B0A"
+  blue: "#FC580C"
+  magenta: "#FFA927"
+  cyan: "#FFC48C"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F03E5F"
+  brightGreen: "#FFF8F2"
+  brightYellow: "#FDA86F"
+  brightBlue: "#FD9D71"
+  brightMagenta: "#FFD28D"
+  brightCyan: "#FFF8F2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 21.5
+    green: 77.8
+    yellow: 47.4
+    blue: 43.6
+    magenta: 66.2
+    cyan: 77.8
+    white: 107.9
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 104
+    brightYellow: 66.3
+    brightBlue: 62.6
+    brightMagenta: 83.5
+    brightCyan: 104
+    brightWhite: 107.9

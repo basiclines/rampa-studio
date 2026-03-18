@@ -1,0 +1,49 @@
+name: "Electric Dreams"
+source:
+  marketplace_id: "nylanalyn.electric-dreams-neon"
+  version: "1.0.0"
+  installs: 133
+  author: "nylan cat"
+  repo: "https://github.com/nylanalyn/electric-dreams-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nylanalyn.electric-dreams-neon"
+colors:
+  bg: "#0A0A0F"
+  fg: "#D0D0E0"
+  black: "#0A0A0F"
+  red: "#FF1744"
+  green: "#1DE9B6"
+  yellow: "#FF006E"
+  blue: "#9C27B0"
+  magenta: "#FF006E"
+  cyan: "#00D9FF"
+  white: "#D0D0E0"
+  brightBlack: "#4A4A6A"
+  brightRed: "#C41E3A"
+  brightGreen: "#00BFA5"
+  brightYellow: "#E91E63"
+  brightBlue: "#BB86FC"
+  brightMagenta: "#D81B60"
+  brightCyan: "#1DE9B6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  contrast:
+    fg: 78.6
+    black: 0
+    red: 38
+    green: 77.6
+    yellow: 38.6
+    blue: 21.6
+    magenta: 38.6
+    cyan: 73.1
+    white: 78.6
+    brightBlack: 12.9
+    brightRed: 24.2
+    brightGreen: 56.6
+    brightYellow: 33.5
+    brightBlue: 50.4
+    brightMagenta: 29.3
+    brightCyan: 77.6
+    brightWhite: 107.7

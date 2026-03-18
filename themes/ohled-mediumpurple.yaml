@@ -1,0 +1,49 @@
+name: "OhLED_MediumPurple"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#9370DB"
+  black: "#9370DB"
+  red: "#6C52A1"
+  green: "#765AAF"
+  yellow: "#584383"
+  blue: "#8969CC"
+  magenta: "#7F61BE"
+  cyan: "#624B92"
+  white: "#4E3C75"
+  brightBlack: "#9370DB"
+  brightRed: "#6C52A1"
+  brightGreen: "#765AAF"
+  brightYellow: "#584383"
+  brightBlue: "#8969CC"
+  brightMagenta: "#7F61BE"
+  brightCyan: "#624B92"
+  brightWhite: "#4E3C75"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 36.7
+    black: 36.7
+    red: 20.9
+    green: 24.7
+    yellow: 13.8
+    blue: 32.6
+    magenta: 28.4
+    cyan: 17.4
+    white: 10.7
+    brightBlack: 36.7
+    brightRed: 20.9
+    brightGreen: 24.7
+    brightYellow: 13.8
+    brightBlue: 32.6
+    brightMagenta: 28.4
+    brightCyan: 17.4
+    brightWhite: 10.7

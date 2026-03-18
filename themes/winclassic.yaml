@@ -1,0 +1,49 @@
+name: "WinClassic"
+source:
+  marketplace_id: "disk0.win-classic-theme"
+  version: "0.0.23"
+  installs: 5037
+  author: "disk0"
+  repo: "https://github.com/disco0/win-classic-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=disk0.win-classic-theme"
+colors:
+  bg: "#EFEFEF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC41"
+  yellow: "#CC5500"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#BBBBBB"
+  brightBlack: "#666666"
+  brightRed: "#D51015"
+  brightGreen: "#14CE14"
+  brightYellow: "#FF7E00"
+  brightBlue: "#0066FF"
+  brightMagenta: "#DB05DB"
+  brightCyan: "#0598BC"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 96.5
+    black: 96.5
+    red: 64.5
+    green: 39.5
+    yellow: 59.5
+    blue: 76.5
+    magenta: 65.1
+    cyan: 51.1
+    white: 27.2
+    brightBlack: 69.2
+    brightRed: 64.7
+    brightGreen: 31.4
+    brightYellow: 39.7
+    brightBlue: 62.9
+    brightMagenta: 56.5
+    brightCyan: 51.1
+    brightWhite: 0

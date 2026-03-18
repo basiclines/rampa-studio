@@ -1,0 +1,49 @@
+name: "Linear Dark"
+source:
+  marketplace_id: "linear-app.linear-app-theme"
+  version: "1.0.0"
+  installs: 1
+  author: "Linear"
+  repo: "https://github.com/linear/linear-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=linear-app.linear-app-theme"
+colors:
+  bg: "#101012"
+  fg: "#E3E4E7"
+  black: "#101012"
+  red: "#FF9898"
+  green: "#59F3A6"
+  yellow: "#F3CF58"
+  blue: "#5896F3"
+  magenta: "#58EBDD"
+  cyan: "#55CDFF"
+  white: "#E3E4E7"
+  brightBlack: "#595A5C"
+  brightRed: "#FFB8BA"
+  brightGreen: "#7EF5B8"
+  brightYellow: "#F5DA7A"
+  brightBlue: "#7AB0F5"
+  brightMagenta: "#D5A0D0"
+  brightCyan: "#7EE2D0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 90
+    black: 0
+    red: 62
+    green: 83.2
+    yellow: 78.9
+    blue: 45.3
+    magenta: 81.2
+    cyan: 68.6
+    white: 90
+    brightBlack: 17.6
+    brightRed: 74.2
+    brightGreen: 86.6
+    brightYellow: 84.5
+    brightBlue: 57.6
+    brightMagenta: 59.6
+    brightCyan: 78.1
+    brightWhite: 107.4

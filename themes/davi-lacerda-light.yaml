@@ -1,0 +1,49 @@
+name: "Davi Lacerda Light"
+source:
+  marketplace_id: "DaviLacerda.davi-lacerda-themes"
+  version: "0.2.1"
+  installs: 124
+  author: "Davi Lacerda"
+  repo: "https://github.com/davilacerda/davi-lacerda-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=DaviLacerda.davi-lacerda-themes"
+colors:
+  bg: "#FAFAFA"
+  fg: "#09090B"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#4D7C0F"
+  yellow: "#F59E0B"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#6366F1"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 102.9
+    black: 85.6
+    red: 45.9
+    green: 71.3
+    yellow: 38.8
+    blue: 46.3
+    magenta: 46.2
+    cyan: 37.4
+    white: 34.9
+    brightBlack: 68.9
+    brightRed: 34.1
+    brightGreen: 33.5
+    brightYellow: 34.2
+    brightBlue: 34.2
+    brightMagenta: 67.6
+    brightCyan: 29.3
+    brightWhite: 0

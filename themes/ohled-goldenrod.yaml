@@ -1,0 +1,49 @@
+name: "OhLED_GoldenRod"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#DAA520"
+  black: "#DAA520"
+  red: "#A07917"
+  green: "#AE841A"
+  yellow: "#836313"
+  blue: "#CB9A1E"
+  magenta: "#BD8F1C"
+  cyan: "#916E15"
+  white: "#745811"
+  brightBlack: "#DAA520"
+  brightRed: "#A07917"
+  brightGreen: "#AE841A"
+  brightYellow: "#836313"
+  brightBlue: "#CB9A1E"
+  brightMagenta: "#BD8F1C"
+  brightCyan: "#916E15"
+  brightWhite: "#745811"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 58.3
+    black: 58.3
+    red: 34.5
+    green: 40
+    yellow: 24
+    blue: 51.9
+    magenta: 45.9
+    cyan: 29.1
+    white: 19.1
+    brightBlack: 58.3
+    brightRed: 34.5
+    brightGreen: 40
+    brightYellow: 24
+    brightBlue: 51.9
+    brightMagenta: 45.9
+    brightCyan: 29.1
+    brightWhite: 19.1

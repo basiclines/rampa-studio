@@ -1,0 +1,49 @@
+name: "Demon Slayer Light Theme"
+source:
+  marketplace_id: "TeteDeCactus.demon-slayer-light-theme"
+  version: "0.0.1"
+  installs: 8483
+  author: "TeteDeCactus"
+  repo: "https://github.com/tetedecactus/VScode-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TeteDeCactus.demon-slayer-light-theme"
+colors:
+  bg: "#EEEEED"
+  fg: "#004CFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 68.5
+    black: 95.9
+    red: 63.8
+    green: 39.1
+    yellow: 47.8
+    blue: 75.9
+    magenta: 64.4
+    cyan: 50.5
+    white: 75.8
+    brightBlack: 68.6
+    brightRed: 63.8
+    brightGreen: 30.8
+    brightYellow: 30.8
+    brightBlue: 75.9
+    brightMagenta: 64.4
+    brightCyan: 50.5
+    brightWhite: 38.3

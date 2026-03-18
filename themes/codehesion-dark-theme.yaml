@@ -1,0 +1,49 @@
+name: "Codehesion Dark Theme"
+source:
+  marketplace_id: "Codehesion.codehesion-themes"
+  version: "0.0.1"
+  installs: 34
+  author: "Codehesion"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Codehesion.codehesion-themes"
+colors:
+  bg: "#000F13"
+  fg: "#FFFFFF"
+  black: "#353535"
+  red: "#F92A82"
+  green: "#36DB54"
+  yellow: "#FAC748"
+  blue: "#128DFF"
+  magenta: "#5F5FFF"
+  cyan: "#0FA3B1"
+  white: "#FCFCFC"
+  brightBlack: "#535353"
+  brightRed: "#FF5FA4"
+  brightGreen: "#55FF74"
+  brightYellow: "#FFE29A"
+  brightBlue: "#57AEFF"
+  brightMagenta: "#6700FD"
+  brightCyan: "#42C9D5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 213
+  contrast:
+    fg: 107.6
+    black: 0
+    red: 38.7
+    green: 68.3
+    yellow: 76.7
+    blue: 41.2
+    magenta: 30
+    cyan: 44.7
+    white: 105.6
+    brightBlack: 15
+    brightRed: 48.1
+    brightGreen: 88.3
+    brightYellow: 90.5
+    brightBlue: 55.5
+    brightMagenta: 20.1
+    brightCyan: 63.9
+    brightWhite: 107.6

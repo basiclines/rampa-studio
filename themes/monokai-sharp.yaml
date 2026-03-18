@@ -1,0 +1,49 @@
+name: "Monokai Sharp"
+source:
+  marketplace_id: "0b5vr.theme-monokaisharp"
+  version: "1.1.2"
+  installs: 1757
+  author: "0b5vr"
+  repo: "https://github.com/0b5vr/vscode-monokai-sharp"
+  url: "https://marketplace.visualstudio.com/items?itemName=0b5vr.theme-monokaisharp"
+colors:
+  bg: "#191A1F"
+  fg: "#D0EDFF"
+  black: "#191A1F"
+  red: "#FF0066"
+  green: "#00FF91"
+  yellow: "#F7F025"
+  blue: "#00AAFF"
+  magenta: "#CA4FFF"
+  cyan: "#00C0B0"
+  white: "#ACC1CE"
+  brightBlack: "#3A3C47"
+  brightRed: "#EC5FA3"
+  brightGreen: "#53F8BD"
+  brightYellow: "#E7EF7C"
+  brightBlue: "#53C5FF"
+  brightMagenta: "#CC8EFF"
+  brightCyan: "#53D2D0"
+  brightWhite: "#D0EDFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 92
+    black: 0
+    red: 37.2
+    green: 86.6
+    yellow: 93
+    blue: 51.2
+    magenta: 39.2
+    cyan: 56.3
+    white: 66
+    brightBlack: 0
+    brightRed: 42.9
+    brightGreen: 85.4
+    brightYellow: 91.2
+    brightBlue: 64.1
+    brightMagenta: 54.3
+    brightCyan: 67.4
+    brightWhite: 92

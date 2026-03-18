@@ -1,0 +1,49 @@
+name: "Kroma Cardinal Light"
+source:
+  marketplace_id: "quzma.vscode-kroma"
+  version: "1.5.0"
+  installs: 82
+  author: "Darko Kuzmanovic"
+  repo: "https://github.com/DarkoKuzmanovic/vscode-kroma"
+  url: "https://marketplace.visualstudio.com/items?itemName=quzma.vscode-kroma"
+colors:
+  bg: "#FFFFFF"
+  fg: "#202124"
+  black: "#111111"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103.1
+    black: 105.4
+    red: 74
+    green: 48
+    yellow: 17
+    blue: 73.3
+    magenta: 70.9
+    cyan: 53.3
+    white: 12.9
+    brightBlack: 78.8
+    brightRed: 62.1
+    brightGreen: 37.9
+    brightYellow: 7.7
+    brightBlue: 60.7
+    brightMagenta: 55.4
+    brightCyan: 45.7
+    brightWhite: 12.9

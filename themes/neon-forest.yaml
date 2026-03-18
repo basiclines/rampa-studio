@@ -1,0 +1,49 @@
+name: "Neon Forest"
+source:
+  marketplace_id: "maxludden.neon-forest"
+  version: "0.0.1"
+  installs: 803
+  author: "maxludden"
+  repo: "https://github.com/maxludden/neon-forest"
+  url: "https://marketplace.visualstudio.com/items?itemName=maxludden.neon-forest"
+colors:
+  bg: "#000F03"
+  fg: "#D4D4D4"
+  black: "#4D4D4D"
+  red: "#BA4A4A"
+  green: "#38D50B"
+  yellow: "#96962F"
+  blue: "#2472C8"
+  magenta: "#FF00FF"
+  cyan: "#32A9C7"
+  white: "#E5E5E5"
+  brightBlack: "#686868"
+  brightRed: "#E41414"
+  brightGreen: "#00FF00"
+  brightYellow: "#CDCD1D"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#FF96FF"
+  brightCyan: "#80E4FD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 150
+  contrast:
+    fg: 80.2
+    black: 12.8
+    red: 27.3
+    green: 65
+    yellow: 43.2
+    blue: 28.2
+    magenta: 45.9
+    cyan: 48.8
+    white: 90.8
+    brightBlack: 23.6
+    brightRed: 30.8
+    brightGreen: 86.2
+    brightYellow: 72.3
+    brightBlue: 40.7
+    brightMagenta: 66.4
+    brightCyan: 81.6
+    brightWhite: 107.6

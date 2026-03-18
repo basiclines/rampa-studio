@@ -1,0 +1,49 @@
+name: "Ariake Sun"
+source:
+  marketplace_id: "radiolevity.ariake-sands"
+  version: "1.1.3"
+  installs: 6041
+  author: "Finn James"
+  repo: "https://github.com/radiolevity/ariake-sands"
+  url: "https://marketplace.visualstudio.com/items?itemName=radiolevity.ariake-sands"
+colors:
+  bg: "#F9FAFA"
+  fg: "#1F1F1F"
+  black: "#1F1F1F"
+  red: "#6A12ED"
+  green: "#1DAFA8"
+  yellow: "#BA45ED"
+  blue: "#6A12ED"
+  magenta: "#6A12ED"
+  cyan: "#7851B2"
+  white: "#F9FAFA"
+  brightBlack: "#B6BAC9"
+  brightRed: "#770034"
+  brightGreen: "#1DAFA8"
+  brightYellow: "#6A12ED"
+  brightBlue: "#3471B2"
+  brightMagenta: "#48215C"
+  brightCyan: "#43227D"
+  brightWhite: "#F9FAFA"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 100.3
+    black: 100.3
+    red: 79.7
+    green: 48.9
+    yellow: 63.8
+    blue: 79.7
+    magenta: 79.7
+    cyan: 75.6
+    white: 0
+    brightBlack: 34
+    brightRed: 91.1
+    brightGreen: 48.9
+    brightYellow: 79.7
+    brightBlue: 71.5
+    brightMagenta: 95.3
+    brightCyan: 93.5
+    brightWhite: 0

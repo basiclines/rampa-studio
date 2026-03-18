@@ -1,0 +1,49 @@
+name: "purple ish"
+source:
+  marketplace_id: "massoladb.purple-ish"
+  version: "0.2.0"
+  installs: 971
+  author: "Felipe Massola"
+  repo: "https://github.com/massoladb/purple-ish"
+  url: "https://marketplace.visualstudio.com/items?itemName=massoladb.purple-ish"
+colors:
+  bg: "#2D2D36"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  contrast:
+    fg: 103.3
+    black: 0
+    red: 23.1
+    green: 49.4
+    yellow: 82
+    blue: 23.8
+    magenta: 26.2
+    cyan: 44
+    white: 86.4
+    brightBlack: 18.4
+    brightRed: 35
+    brightGreen: 59.9
+    brightYellow: 92
+    brightBlue: 36.4
+    brightMagenta: 41.8
+    brightCyan: 51.8
+    brightWhite: 86.4

@@ -1,0 +1,49 @@
+name: "Milianor Theme"
+source:
+  marketplace_id: "MaxMilianoDelCantoQuezada.triage-theme"
+  version: "4.0.7"
+  installs: 13
+  author: "Max Miliano"
+  repo: "https://github.com/maxmx03/vscode-triage-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MaxMilianoDelCantoQuezada.triage-theme"
+colors:
+  bg: "#282C4D"
+  fg: "#F6EFEB"
+  black: "#000000"
+  red: "#E84A5F"
+  green: "#D2E603"
+  yellow: "#FFC93C"
+  blue: "#7C6FFF"
+  magenta: "#F5B5FC"
+  cyan: "#74F9FF"
+  white: "#74F9FF"
+  brightBlack: "#666666"
+  brightRed: "#FA7F7F"
+  brightGreen: "#94FC13"
+  brightYellow: "#FFF76A"
+  brightBlue: "#B2EBF2"
+  brightMagenta: "#F5B5FC"
+  brightCyan: "#E3F8FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 277
+  contrast:
+    fg: 93.3
+    black: 0
+    red: 32.7
+    green: 79.7
+    yellow: 73.7
+    blue: 32
+    magenta: 70.1
+    cyan: 86.7
+    white: 86.7
+    brightBlack: 18.2
+    brightRed: 48.6
+    brightGreen: 84.6
+    brightYellow: 94.6
+    brightBlue: 83.7
+    brightMagenta: 70.1
+    brightCyan: 96
+    brightWhite: 86.2

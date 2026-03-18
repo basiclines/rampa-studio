@@ -1,0 +1,49 @@
+name: "tiktok"
+source:
+  marketplace_id: "Volskaya.irrelevant"
+  version: "0.0.2"
+  installs: 33
+  author: "Volskaya"
+  repo: "https://github.com/volskaya/irrelevant"
+  url: "https://marketplace.visualstudio.com/items?itemName=Volskaya.irrelevant"
+colors:
+  bg: "#1C1C1C"
+  fg: "#FFFFFF"
+  black: "#1C1C1C"
+  red: "#FE2C55"
+  green: "#25F4EE"
+  yellow: "#FE2C55"
+  blue: "#878787"
+  magenta: "#979797"
+  cyan: "#A6A6A6"
+  white: "#444444"
+  brightBlack: "#666666"
+  brightRed: "#FE2C55"
+  brightGreen: "#25F4EE"
+  brightYellow: "#DDDDDD"
+  brightBlue: "#878787"
+  brightMagenta: "#979797"
+  brightCyan: "#A6A6A6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 106.3
+    black: 0
+    red: 37.7
+    green: 84.2
+    yellow: 37.7
+    blue: 36.6
+    magenta: 44.6
+    cyan: 52.5
+    white: 8.3
+    brightBlack: 21.5
+    brightRed: 37.7
+    brightGreen: 84.2
+    brightYellow: 84.4
+    brightBlue: 36.6
+    brightMagenta: 44.6
+    brightCyan: 52.5
+    brightWhite: 106.3

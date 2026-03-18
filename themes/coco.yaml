@@ -1,0 +1,49 @@
+name: "Coco"
+source:
+  marketplace_id: "Kifzuka.coco"
+  version: "16.1.2"
+  installs: 651
+  author: "Kifzuka"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Kifzuka.coco"
+colors:
+  bg: "#1E272E"
+  fg: "#D2DAE2"
+  black: "#000000"
+  red: "#F53B57"
+  green: "#0BE881"
+  yellow: "#FFD32A"
+  blue: "#3C40C6"
+  magenta: "#FF3F34"
+  cyan: "#0FBCF9"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#F53B57"
+  brightGreen: "#0BE881"
+  brightYellow: "#FFD32A"
+  brightBlue: "#3C40C6"
+  brightMagenta: "#FF3F34"
+  brightCyan: "#0FBCF9"
+  brightWhite: "#D2DAE2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 242
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 35.4
+    green: 72.5
+    yellow: 79.5
+    blue: 13.1
+    magenta: 37.8
+    cyan: 56.6
+    white: 104.8
+    brightBlack: 0
+    brightRed: 35.4
+    brightGreen: 72.5
+    brightYellow: 79.5
+    brightBlue: 13.1
+    brightMagenta: 37.8
+    brightCyan: 56.6
+    brightWhite: 80.4

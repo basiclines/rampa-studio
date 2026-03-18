@@ -1,0 +1,49 @@
+name: "OhLED_Lavender"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#E6E6FA"
+  black: "#E6E6FA"
+  red: "#A9A9B7"
+  green: "#B8B8C8"
+  yellow: "#8A8A96"
+  blue: "#D7D7E9"
+  magenta: "#C7C7D9"
+  cyan: "#9999A7"
+  white: "#7B7B85"
+  brightBlack: "#E6E6FA"
+  brightRed: "#A9A9B7"
+  brightGreen: "#B8B8C8"
+  brightYellow: "#8A8A96"
+  brightBlue: "#D7D7E9"
+  brightMagenta: "#C7C7D9"
+  brightCyan: "#9999A7"
+  brightWhite: "#7B7B85"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 92.6
+    black: 92.6
+    red: 56.3
+    green: 64.7
+    yellow: 40.1
+    blue: 83.2
+    magenta: 73.5
+    cyan: 47.7
+    white: 32.8
+    brightBlack: 92.6
+    brightRed: 56.3
+    brightGreen: 64.7
+    brightYellow: 40.1
+    brightBlue: 83.2
+    brightMagenta: 73.5
+    brightCyan: 47.7
+    brightWhite: 32.8

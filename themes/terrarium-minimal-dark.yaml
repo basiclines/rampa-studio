@@ -1,0 +1,49 @@
+name: "Terrarium Minimal (Dark)"
+source:
+  marketplace_id: "appliedscience.terrarium-theme"
+  version: "0.4.7"
+  installs: 73
+  author: "Applied Science"
+  repo: "https://github.com/appliedsciencegroup/terrarium-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=appliedscience.terrarium-theme"
+colors:
+  bg: "#242424"
+  fg: "#E8E8E8"
+  black: "#242424"
+  red: "#D83933"
+  green: "#5C7B57"
+  yellow: "#E0A030"
+  blue: "#E0CF8E"
+  magenta: "#E0CF8E"
+  cyan: "#5C7B57"
+  white: "#E8E8E8"
+  brightBlack: "#4F5252"
+  brightRed: "#D83933"
+  brightGreen: "#5C7B57"
+  brightYellow: "#E0A030"
+  brightBlue: "#E0CF8E"
+  brightMagenta: "#E0CF8E"
+  brightCyan: "#5C7B57"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 90.2
+    black: 0
+    red: 28.3
+    green: 26
+    yellow: 54.8
+    blue: 74.8
+    magenta: 74.8
+    cyan: 26
+    white: 90.2
+    brightBlack: 12
+    brightRed: 28.3
+    brightGreen: 26
+    brightYellow: 54.8
+    brightBlue: 74.8
+    brightMagenta: 74.8
+    brightCyan: 26
+    brightWhite: 105.1

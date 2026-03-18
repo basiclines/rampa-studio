@@ -1,0 +1,49 @@
+name: "MBP"
+source:
+  marketplace_id: "mbp.mbp"
+  version: "1.0.6"
+  installs: 1033
+  author: "mbp_dsm"
+  repo: "https://github.com/DanielSDM/mbp"
+  url: "https://marketplace.visualstudio.com/items?itemName=mbp.mbp"
+colors:
+  bg: "#100E13"
+  fg: "#FFFFFF"
+  black: "#181818"
+  red: "#FF0000"
+  green: "#00AA1C"
+  yellow: "#FFC400"
+  blue: "#3765FF"
+  magenta: "#C000C0"
+  cyan: "#2A788B"
+  white: "#EEEEEE"
+  brightBlack: "#363636"
+  brightRed: "#FF5B5B"
+  brightGreen: "#3DFF5E"
+  brightYellow: "#FFD650"
+  brightBlue: "#37C0FF"
+  brightMagenta: "#FF46FF"
+  brightCyan: "#2C9EBB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 303
+  contrast:
+    fg: 107.5
+    black: 0
+    red: 37.2
+    green: 44.2
+    yellow: 76
+    blue: 29.4
+    magenta: 27.8
+    cyan: 26.7
+    white: 96.4
+    brightBlack: 0
+    brightRed: 45.2
+    brightGreen: 87.2
+    brightYellow: 83.8
+    brightBlue: 62
+    brightMagenta: 49.4
+    brightCyan: 43.5
+    brightWhite: 107.5

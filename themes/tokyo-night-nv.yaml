@@ -1,0 +1,49 @@
+name: "Tokyo Night nv"
+source:
+  marketplace_id: "tokyo-night.nvtokyo"
+  version: "0.0.1"
+  installs: 1816
+  author: "tokyo-night"
+  repo: "https://github.com/betty2310/Tokyo-Night"
+  url: "https://marketplace.visualstudio.com/items?itemName=tokyo-night.nvtokyo"
+colors:
+  bg: "#1A1B26"
+  fg: "#C0CAF5"
+  black: "#000000"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#B4F9F8"
+  white: "#E5E5E5"
+  brightBlack: "#727779"
+  brightRed: "#F14C4C"
+  brightGreen: "#9CCE6A"
+  brightYellow: "#E4B571"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 280
+  contrast:
+    fg: 73.8
+    black: 0
+    red: 49.4
+    green: 66.9
+    yellow: 62.2
+    blue: 51.1
+    magenta: 55
+    cyan: 94.3
+    white: 89.5
+    brightBlack: 28.6
+    brightRed: 38
+    brightGreen: 66.8
+    brightYellow: 65.3
+    brightBlue: 39.5
+    brightMagenta: 44.8
+    brightCyan: 54.9
+    brightWhite: 89.5

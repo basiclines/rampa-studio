@@ -1,0 +1,49 @@
+name: "shoxwave"
+source:
+  marketplace_id: "Shoxwave.shoxwave-vscode-theme"
+  version: "0.0.2"
+  installs: 25
+  author: "Colt Shivers"
+  repo: "https://github.com/shoxwave/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Shoxwave.shoxwave-vscode-theme"
+colors:
+  bg: "#646464"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 57.4
+    black: 24.4
+    red: 0
+    green: 31
+    yellow: 63.6
+    blue: 0
+    magenta: 7.7
+    cyan: 25.5
+    white: 68
+    brightBlack: 0
+    brightRed: 16.5
+    brightGreen: 41.5
+    brightYellow: 73.6
+    brightBlue: 18
+    brightMagenta: 23.3
+    brightCyan: 33.4
+    brightWhite: 68

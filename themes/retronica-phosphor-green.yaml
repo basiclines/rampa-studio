@@ -1,0 +1,49 @@
+name: "Retronica Phosphor Green"
+source:
+  marketplace_id: "adham.retronica"
+  version: "1.0.0"
+  installs: 181
+  author: "Adham"
+  repo: "https://github.com/adham-dev/retronica"
+  url: "https://marketplace.visualstudio.com/items?itemName=adham.retronica"
+colors:
+  bg: "#0A0F0A"
+  fg: "#A8D8A8"
+  black: "#101810"
+  red: "#D08080"
+  green: "#80D080"
+  yellow: "#C0C080"
+  blue: "#80A0A0"
+  magenta: "#A090A0"
+  cyan: "#80C0B0"
+  white: "#A8D8A8"
+  brightBlack: "#406040"
+  brightRed: "#E0A0A0"
+  brightGreen: "#A0F0A0"
+  brightYellow: "#D8D8A0"
+  brightBlue: "#A0C0C0"
+  brightMagenta: "#C0B0C0"
+  brightCyan: "#A0E0D0"
+  brightWhite: "#C8F8C8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 145
+  contrast:
+    fg: 75.3
+    black: 0
+    red: 45.5
+    green: 67.1
+    yellow: 66.2
+    blue: 47.4
+    magenta: 44.7
+    cyan: 61.3
+    white: 75.3
+    brightBlack: 17.2
+    brightRed: 59.5
+    brightGreen: 85.9
+    brightYellow: 80.6
+    brightBlue: 64.8
+    brightMagenta: 61.9
+    brightCyan: 79.8
+    brightWhite: 95

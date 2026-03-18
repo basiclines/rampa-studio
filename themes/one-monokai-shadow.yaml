@@ -1,0 +1,49 @@
+name: "One Monokai Shadow"
+source:
+  marketplace_id: "2A5F.one-monokai-shadow"
+  version: "1.0.1"
+  installs: 1990
+  author: "2A5F"
+  repo: "https://github.com/2A5F/one-monokai-shadow"
+  url: "https://marketplace.visualstudio.com/items?itemName=2A5F.one-monokai-shadow"
+colors:
+  bg: "#1E1E1E"
+  fg: "#CCCCCC"
+  black: "#313131"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#528BFF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 73.8
+    black: 0
+    red: 41.2
+    green: 61.4
+    yellow: 69.7
+    blue: 40.6
+    magenta: 44.3
+    cyan: 53.7
+    white: 82.2
+    brightBlack: 34.7
+    brightRed: 37.6
+    brightGreen: 61.4
+    brightYellow: 69.7
+    brightBlue: 40.6
+    brightMagenta: 11.9
+    brightCyan: 53.7
+    brightWhite: 82.2

@@ -1,0 +1,49 @@
+name: "Urban Couple"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 402
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+colors:
+  bg: "#2F1B14"
+  fg: "#F5DEB3"
+  black: "#000000"
+  red: "#CD5C5C"
+  green: "#228B22"
+  yellow: "#D4AF37"
+  blue: "#4682B4"
+  magenta: "#9370DB"
+  cyan: "#5F9EA0"
+  white: "#F5DEB3"
+  brightBlack: "#000000"
+  brightRed: "#CD5C5C"
+  brightGreen: "#228B22"
+  brightYellow: "#D4AF37"
+  brightBlue: "#4682B4"
+  brightMagenta: "#9370DB"
+  brightCyan: "#5F9EA0"
+  brightWhite: "#F5DEB3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 40
+  contrast:
+    fg: 86
+    black: 0
+    red: 33
+    green: 29.6
+    yellow: 59.1
+    blue: 31.4
+    magenta: 34.5
+    cyan: 42.3
+    white: 86
+    brightBlack: 0
+    brightRed: 33
+    brightGreen: 29.6
+    brightYellow: 59.1
+    brightBlue: 31.4
+    brightMagenta: 34.5
+    brightCyan: 42.3
+    brightWhite: 86

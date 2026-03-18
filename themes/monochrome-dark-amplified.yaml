@@ -1,0 +1,49 @@
+name: "monochrome-dark-amplified"
+source:
+  marketplace_id: "anotherglitchinthematrix.monochrome"
+  version: "2.4.3"
+  installs: 47933
+  author: "glitch"
+  repo: "https://github.com/anotherglitchinthematrix/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=anotherglitchinthematrix.monochrome"
+colors:
+  bg: "#000000"
+  fg: "#B3B3B3"
+  black: "#000000"
+  red: "#808080"
+  green: "#4D4D4D"
+  yellow: "#B3B3B3"
+  blue: "#333333"
+  magenta: "#999999"
+  cyan: "#666666"
+  white: "#CCCCCC"
+  brightBlack: "#1A1A1A"
+  brightRed: "#808080"
+  brightGreen: "#4D4D4D"
+  brightYellow: "#B3B3B3"
+  brightBlue: "#333333"
+  brightMagenta: "#999999"
+  brightCyan: "#666666"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 61.2
+    black: 0
+    red: 34.8
+    green: 13.1
+    yellow: 61.2
+    blue: 0
+    magenta: 47.2
+    cyan: 23
+    white: 75.7
+    brightBlack: 0
+    brightRed: 34.8
+    brightGreen: 13.1
+    brightYellow: 61.2
+    brightBlue: 0
+    brightMagenta: 47.2
+    brightCyan: 23
+    brightWhite: 107.9

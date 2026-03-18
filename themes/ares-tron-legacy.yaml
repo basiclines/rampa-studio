@@ -1,0 +1,49 @@
+name: "Ares Tron Legacy"
+source:
+  marketplace_id: "rubenzn.encom-tron-legacy"
+  version: "1.0.0"
+  installs: 60
+  author: "rubenzn"
+  repo: "https://github.com/ruben-cxtx/best-tron-legacy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rubenzn.encom-tron-legacy"
+colors:
+  bg: "#110000"
+  fg: "#FFB3B3"
+  black: "#1A0000"
+  red: "#FF0022"
+  green: "#FF5A5A"
+  yellow: "#FFD400"
+  blue: "#FF6A3D"
+  magenta: "#8B1E2D"
+  cyan: "#5A141A"
+  white: "#FFD6D6"
+  brightBlack: "#1A0000"
+  brightRed: "#FF3355"
+  brightGreen: "#FF5A5A"
+  brightYellow: "#FFE066"
+  brightBlue: "#FF6A3D"
+  brightMagenta: "#8B1E2D"
+  brightCyan: "#5A141A"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 29
+  contrast:
+    fg: 72.4
+    black: 0
+    red: 37.5
+    green: 45.2
+    yellow: 82.9
+    blue: 48
+    magenta: 12.6
+    cyan: 0
+    white: 87.5
+    brightBlack: 0
+    brightRed: 40
+    brightGreen: 45.2
+    brightYellow: 88.7
+    brightBlue: 48
+    brightMagenta: 12.6
+    brightCyan: 0
+    brightWhite: 107.8

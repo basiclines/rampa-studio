@@ -1,0 +1,49 @@
+name: "OhLED_Khaki"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#F0E68C"
+  black: "#F0E68C"
+  red: "#B0A967"
+  green: "#C0B870"
+  yellow: "#908A54"
+  blue: "#E0D783"
+  magenta: "#D0C779"
+  cyan: "#A0995D"
+  white: "#807B4B"
+  brightBlack: "#F0E68C"
+  brightRed: "#B0A967"
+  brightGreen: "#C0B870"
+  brightYellow: "#908A54"
+  brightBlue: "#E0D783"
+  brightMagenta: "#D0C779"
+  brightCyan: "#A0995D"
+  brightWhite: "#807B4B"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 90
+    black: 90
+    red: 54.6
+    green: 62.8
+    yellow: 38.8
+    blue: 80.8
+    magenta: 71.4
+    cyan: 46.3
+    white: 31.7
+    brightBlack: 90
+    brightRed: 54.6
+    brightGreen: 62.8
+    brightYellow: 38.8
+    brightBlue: 80.8
+    brightMagenta: 71.4
+    brightCyan: 46.3
+    brightWhite: 31.7

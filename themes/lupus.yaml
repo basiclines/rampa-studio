@@ -1,0 +1,49 @@
+name: "lupus"
+source:
+  marketplace_id: "jwoelper.lupus"
+  version: "0.0.12"
+  installs: 769
+  author: "Johann Woelper"
+  repo: "https://github.com/woelper/lupus-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jwoelper.lupus"
+colors:
+  bg: "#4B4A4A"
+  fg: "#DEDEDE"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 73.4
+    black: 13.7
+    red: 14.5
+    green: 40.8
+    yellow: 73.4
+    blue: 15.2
+    magenta: 17.6
+    cyan: 35.4
+    white: 77.8
+    brightBlack: 9.8
+    brightRed: 26.4
+    brightGreen: 51.3
+    brightYellow: 83.4
+    brightBlue: 27.8
+    brightMagenta: 33.2
+    brightCyan: 43.2
+    brightWhite: 77.8

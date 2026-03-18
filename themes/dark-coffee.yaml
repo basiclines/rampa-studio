@@ -1,0 +1,49 @@
+name: "Dark Coffee"
+source:
+  marketplace_id: "sentientcoffee.dark-coffee-theme"
+  version: "0.0.40"
+  installs: 1397
+  author: "sentientcoffee"
+  repo: "https://github.com/SentientCoffee/DarkCoffeeTheme_VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sentientcoffee.dark-coffee-theme"
+colors:
+  bg: "#151515"
+  fg: "#D4D4D4"
+  black: "#1A1A1A"
+  red: "#993333"
+  green: "#339919"
+  yellow: "#B29933"
+  blue: "#194DB2"
+  magenta: "#B23399"
+  cyan: "#19B2CC"
+  white: "#B4B4B4"
+  brightBlack: "#4D4D4D"
+  brightRed: "#E64D4D"
+  brightGreen: "#33E64D"
+  brightYellow: "#E6CC4D"
+  brightBlue: "#3366E6"
+  brightMagenta: "#E64DCC"
+  brightCyan: "#4DE6E6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 79.7
+    black: 0
+    red: 16.7
+    green: 37
+    yellow: 47.2
+    blue: 15.3
+    magenta: 24.6
+    cyan: 52
+    white: 61
+    brightBlack: 12.3
+    brightRed: 36.4
+    brightGreen: 73.2
+    brightYellow: 75.1
+    brightBlue: 26.8
+    brightMagenta: 41.2
+    brightCyan: 78.4
+    brightWhite: 107.1

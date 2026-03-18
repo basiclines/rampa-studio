@@ -1,0 +1,49 @@
+name: "SJ Theme"
+source:
+  marketplace_id: "SAKSHAMJOSHI.sj-azure-theme"
+  version: "0.1.0"
+  installs: 10
+  author: "SAKSHAM JOSHI"
+  repo: "https://github.com/saksham-joshi/SJ-Theme-VsCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SAKSHAMJOSHI.sj-azure-theme"
+colors:
+  bg: "#0D1F2D"
+  fg: "#C8E6F4"
+  black: "#0D1F2D"
+  red: "#F07178"
+  green: "#4EC994"
+  yellow: "#FFC410"
+  blue: "#24AEDD"
+  magenta: "#BB9AF7"
+  cyan: "#24AEDD"
+  white: "#C8E6F4"
+  brightBlack: "#3A6482"
+  brightRed: "#F07178"
+  brightGreen: "#4EC994"
+  brightYellow: "#FFC410"
+  brightBlue: "#50D9FF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#4DCFFF"
+  brightWhite: "#E8F4FD"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 244
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 45.8
+    green: 60.2
+    yellow: 74.5
+    blue: 50.3
+    magenta: 54.7
+    cyan: 50.3
+    white: 86.8
+    brightBlack: 18.7
+    brightRed: 45.8
+    brightGreen: 60.2
+    brightYellow: 74.5
+    brightBlue: 72.6
+    brightMagenta: 52.9
+    brightCyan: 67.9
+    brightWhite: 97.6

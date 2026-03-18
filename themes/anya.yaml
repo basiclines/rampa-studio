@@ -1,0 +1,49 @@
+name: "Anya"
+source:
+  marketplace_id: "choednwn.anya"
+  version: "0.0.8"
+  installs: 331
+  author: "choednwn"
+  repo: "https://github.com/anya-theme/anya-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=choednwn.anya"
+colors:
+  bg: "#1E1E1E"
+  fg: "#CCCCCC"
+  black: "#282727"
+  red: "#E05656"
+  green: "#69AD7A"
+  yellow: "#DDB96C"
+  blue: "#6396BD"
+  magenta: "#DB89C0"
+  cyan: "#61AC93"
+  white: "#DDDDDD"
+  brightBlack: "#444444"
+  brightRed: "#E05656"
+  brightGreen: "#69AD7A"
+  brightYellow: "#DDB96C"
+  brightBlue: "#6396BD"
+  brightMagenta: "#DB89C0"
+  brightCyan: "#61AC93"
+  brightWhite: "#E4E4E4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 73.8
+    black: 0
+    red: 35.8
+    green: 48.2
+    yellow: 65.4
+    blue: 41.2
+    magenta: 51
+    cyan: 48.1
+    white: 84.2
+    brightBlack: 8
+    brightRed: 35.8
+    brightGreen: 48.2
+    brightYellow: 65.4
+    brightBlue: 41.2
+    brightMagenta: 51
+    brightCyan: 48.1
+    brightWhite: 88.6

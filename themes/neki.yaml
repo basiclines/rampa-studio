@@ -1,0 +1,49 @@
+name: "neki"
+source:
+  marketplace_id: "Azelky.neki"
+  version: "1.1.1"
+  installs: 302
+  author: "Azelky"
+  repo: "https://github.com/azelky/neki-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Azelky.neki"
+colors:
+  bg: "#2A293E"
+  fg: "#D4D4D4"
+  black: "#282936"
+  red: "#FF5797"
+  green: "#19F9D8"
+  yellow: "#FFC07D"
+  blue: "#45A9F9"
+  magenta: "#FF82BC"
+  cyan: "#B084EB"
+  white: "#CDCDCD"
+  brightBlack: "#757575"
+  brightRed: "#FF2C6D"
+  brightGreen: "#19F9D8"
+  brightYellow: "#FFCC95"
+  brightBlue: "#6FC1FF"
+  brightMagenta: "#FF9AC1"
+  brightCyan: "#BCAAFE"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 286
+  contrast:
+    fg: 76.4
+    black: 0
+    red: 42.4
+    green: 83.2
+    yellow: 71.8
+    blue: 48.6
+    magenta: 53.3
+    cyan: 43.2
+    white: 72.2
+    brightBlack: 25.6
+    brightRed: 36
+    brightGreen: 83.2
+    brightYellow: 77.2
+    brightBlue: 61
+    brightMagenta: 60.5
+    brightCyan: 58.7
+    brightWhite: 87.6

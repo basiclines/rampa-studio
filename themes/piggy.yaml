@@ -1,0 +1,49 @@
+name: "piggy"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#3D2F34"
+  fg: "#EDEBE6"
+  black: "#4B3A40"
+  red: "#BA0E2E"
+  green: "#F52E62"
+  yellow: "#FD6A5D"
+  blue: "#FF5D80"
+  magenta: "#FD6A5D"
+  cyan: "#F52E62"
+  white: "#F8F7F5"
+  brightBlack: "#775B65"
+  brightRed: "#F03E5F"
+  brightGreen: "#FA8FAB"
+  brightYellow: "#FEC7C2"
+  brightBlue: "#FFC3D0"
+  brightMagenta: "#FEC7C2"
+  brightCyan: "#FA8FAB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 355
+  contrast:
+    fg: 89.1
+    black: 0
+    red: 15.7
+    green: 31.7
+    yellow: 42.4
+    blue: 41
+    magenta: 42.4
+    cyan: 31.7
+    white: 96.8
+    brightBlack: 15.8
+    brightRed: 32
+    brightGreen: 53.6
+    brightYellow: 74.7
+    brightBlue: 73.9
+    brightMagenta: 74.7
+    brightCyan: 53.6
+    brightWhite: 102.1

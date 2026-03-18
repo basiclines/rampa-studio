@@ -1,0 +1,49 @@
+name: "fifties"
+source:
+  marketplace_id: "fifties.fifties"
+  version: "0.0.5"
+  installs: 1060
+  author: "fifties"
+  repo: "https://github.com/unmade/fifties"
+  url: "https://marketplace.visualstudio.com/items?itemName=fifties.fifties"
+colors:
+  bg: "#2B2926"
+  fg: "#C9C3B1"
+  black: "#757166"
+  red: "#DD5341"
+  green: "#90BB8F"
+  yellow: "#FACA78"
+  blue: "#73A1B0"
+  magenta: "#DB7C45"
+  cyan: "#7FB3BD"
+  white: "#C9C3B1"
+  brightBlack: "#757166"
+  brightRed: "#DD5341"
+  brightGreen: "#90BB8F"
+  brightYellow: "#FACA78"
+  brightBlue: "#73A1B0"
+  brightMagenta: "#DB7C45"
+  brightCyan: "#7FB3BD"
+  brightWhite: "#C9C3B1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 66.7
+    black: 24.2
+    red: 32.5
+    green: 56
+    yellow: 75.3
+    blue: 44
+    magenta: 41.7
+    cyan: 52.9
+    white: 66.7
+    brightBlack: 24.2
+    brightRed: 32.5
+    brightGreen: 56
+    brightYellow: 75.3
+    brightBlue: 44
+    brightMagenta: 41.7
+    brightCyan: 52.9
+    brightWhite: 66.7

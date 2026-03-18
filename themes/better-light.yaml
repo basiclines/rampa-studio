@@ -1,0 +1,49 @@
+name: "Better Light"
+source:
+  marketplace_id: "ShizamDaGeek.better-light"
+  version: "0.0.6"
+  installs: 43
+  author: "ShizamDa_Geek"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ShizamDaGeek.better-light"
+colors:
+  bg: "#D7E3FF"
+  fg: "#000000"
+  black: "#868686"
+  red: "#FF5470"
+  green: "#33D057"
+  yellow: "#E1C542"
+  blue: "#469DF1"
+  magenta: "#E557F9"
+  cyan: "#39CDE2"
+  white: "#D4D4D4"
+  brightBlack: "#ABABAB"
+  brightRed: "#FF718A"
+  brightGreen: "#67FF8A"
+  brightYellow: "#FFE05B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#74F2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 267
+  contrast:
+    fg: 89.4
+    black: 47.4
+    red: 40.3
+    green: 22.5
+    yellow: 14
+    blue: 37.7
+    magenta: 38.7
+    cyan: 19.3
+    white: 0
+    brightBlack: 28.7
+    brightRed: 34
+    brightGreen: 0
+    brightYellow: 0
+    brightBlue: 22.5
+    brightMagenta: 27.4
+    brightCyan: 0
+    brightWhite: 16.4

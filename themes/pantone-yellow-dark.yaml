@@ -1,0 +1,49 @@
+name: "Pantone Yellow (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#292007"
+  fg: "#E5DECB"
+  black: "#292007"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#878A57"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#E5DECB"
+  brightBlack: "#A98E44"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F5F4F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 89
+  contrast:
+    fg: 84.5
+    black: 0
+    red: 30.8
+    green: 50.5
+    yellow: 70.1
+    blue: 35.6
+    magenta: 31.9
+    cyan: 51.1
+    white: 84.5
+    brightBlack: 40.7
+    brightRed: 37.3
+    brightGreen: 57.7
+    brightYellow: 74.5
+    brightBlue: 27.4
+    brightMagenta: 40.5
+    brightCyan: 57.7
+    brightWhite: 98.3

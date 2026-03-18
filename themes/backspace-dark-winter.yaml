@@ -1,0 +1,49 @@
+name: "Backspace Dark Winter"
+source:
+  marketplace_id: "SamiurRahmanMukul.backspace-theme"
+  version: "0.2.0"
+  installs: 289
+  author: "SamiurRahmanMukul"
+  repo: "https://github.com/SamiurRahmanMukul/backspace-vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SamiurRahmanMukul.backspace-theme"
+colors:
+  bg: "#0B1420"
+  fg: "#E8E6E3"
+  black: "#0C1726"
+  red: "#FF7A7D"
+  green: "#7BD5C7"
+  yellow: "#F7D38A"
+  blue: "#FF7A3D"
+  magenta: "#DCC2FF"
+  cyan: "#7FE7FF"
+  white: "#F2FAFF"
+  brightBlack: "#0C1726"
+  brightRed: "#FF7A7D"
+  brightGreen: "#7BD5C7"
+  brightYellow: "#F7D38A"
+  brightBlue: "#FF7A3D"
+  brightMagenta: "#DCC2FF"
+  brightCyan: "#7FE7FF"
+  brightWhite: "#F2FAFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 256
+  contrast:
+    fg: 91.1
+    black: 0
+    red: 52.4
+    green: 71.1
+    yellow: 81.9
+    blue: 51.2
+    magenta: 75.6
+    cyan: 82.6
+    white: 103
+    brightBlack: 0
+    brightRed: 52.4
+    brightGreen: 71.1
+    brightYellow: 81.9
+    brightBlue: 51.2
+    brightMagenta: 75.6
+    brightCyan: 82.6
+    brightWhite: 103

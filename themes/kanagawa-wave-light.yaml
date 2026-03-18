@@ -1,0 +1,49 @@
+name: "Kanagawa Wave Light"
+source:
+  marketplace_id: "Icycoldveins.verum-monokai-themes"
+  version: "1.2.1"
+  installs: 46
+  author: "Icycoldveins"
+  repo: "https://github.com/icycoldveins/Ide-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Icycoldveins.verum-monokai-themes"
+colors:
+  bg: "#F5E6D3"
+  fg: "#1C2841"
+  black: "#F5E6D3"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E78A4E"
+  blue: "#2B7AAE"
+  magenta: "#FF6B6B"
+  cyan: "#89B482"
+  white: "#1C2841"
+  brightBlack: "#E0D5C7"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E78A4E"
+  brightBlue: "#2B7AAE"
+  brightMagenta: "#FF6B6B"
+  brightCyan: "#89B482"
+  brightWhite: "#1C2841"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 74
+  contrast:
+    fg: 87.9
+    black: 0
+    red: 45.1
+    green: 25.5
+    yellow: 36.5
+    blue: 58.5
+    magenta: 39.2
+    cyan: 32.8
+    white: 87.9
+    brightBlack: 7.8
+    brightRed: 45.1
+    brightGreen: 25.5
+    brightYellow: 36.5
+    brightBlue: 58.5
+    brightMagenta: 39.2
+    brightCyan: 32.8
+    brightWhite: 87.9

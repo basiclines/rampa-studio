@@ -1,0 +1,49 @@
+name: "Bamboo Green"
+source:
+  marketplace_id: "exoad.bamboo-light-green-color-theme"
+  version: "0.0.5"
+  installs: 3990
+  author: "exoad"
+  repo: "https://github.com/exoad/bamboo-light-green-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=exoad.bamboo-light-green-color-theme"
+colors:
+  bg: "#E9FBCB"
+  fg: "#000000"
+  black: "#000000"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#847B00"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#FF9EA6"
+  brightGreen: "#C6F2A6"
+  brightYellow: "#A39800"
+  brightBlue: "#99CFFB"
+  brightMagenta: "#ECB8FB"
+  brightCyan: "#8DE0EA"
+  brightWhite: "#757575"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 99.6
+    black: 99.6
+    red: 52.2
+    green: 32.6
+    yellow: 63.6
+    blue: 39.9
+    magenta: 49.2
+    cyan: 40
+    white: 79.5
+    brightBlack: 72.3
+    brightRed: 31.2
+    brightGreen: 0
+    brightYellow: 49.8
+    brightBlue: 22.5
+    brightMagenta: 21.9
+    brightCyan: 17
+    brightWhite: 65.6

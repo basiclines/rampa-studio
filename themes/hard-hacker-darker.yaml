@@ -1,0 +1,49 @@
+name: "Hard Hacker Darker"
+source:
+  marketplace_id: "HardHacker.hard-hacker-theme"
+  version: "0.2.3"
+  installs: 12846
+  author: "Hard Hacker"
+  repo: "https://github.com/hardhackerlabs/theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=HardHacker.hard-hacker-theme"
+colors:
+  bg: "#211E2A"
+  fg: "#EEE9FC"
+  black: "#211E2A"
+  red: "#E965A5"
+  green: "#B1F2A7"
+  yellow: "#EBDE76"
+  blue: "#B1BAF4"
+  magenta: "#E192EF"
+  cyan: "#B3F4F3"
+  white: "#EEE9FC"
+  brightBlack: "#8B81A7"
+  brightRed: "#E965A5"
+  brightGreen: "#B1F2A7"
+  brightYellow: "#EBDE76"
+  brightBlue: "#B1BAF4"
+  brightMagenta: "#E192EF"
+  brightCyan: "#B3F4F3"
+  brightWhite: "#EEE9FC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 296
+  contrast:
+    fg: 93.1
+    black: 0
+    red: 42.9
+    green: 86.8
+    yellow: 83.1
+    blue: 64.9
+    magenta: 57.1
+    cyan: 91
+    white: 93.1
+    brightBlack: 35.8
+    brightRed: 42.9
+    brightGreen: 86.8
+    brightYellow: 83.1
+    brightBlue: 64.9
+    brightMagenta: 57.1
+    brightCyan: 91
+    brightWhite: 93.1

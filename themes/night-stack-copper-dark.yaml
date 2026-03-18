@@ -1,0 +1,49 @@
+name: "Night-Stack Copper Dark"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#0D0705"
+  fg: "#FFE8DC"
+  black: "#1A120F"
+  red: "#B87333"
+  green: "#D4A373"
+  yellow: "#E6B98A"
+  blue: "#8C5A2B"
+  magenta: "#C08457"
+  cyan: "#FFD6BF"
+  white: "#FFE8DC"
+  brightBlack: "#1A120F"
+  brightRed: "#B87333"
+  brightGreen: "#D4A373"
+  brightYellow: "#E6B98A"
+  brightBlue: "#8C5A2B"
+  brightMagenta: "#C08457"
+  brightCyan: "#FFD6BF"
+  brightWhite: "#FFE8DC"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 44
+  contrast:
+    fg: 95.6
+    black: 0
+    red: 36.4
+    green: 57.5
+    yellow: 69.2
+    blue: 22.8
+    magenta: 43.3
+    cyan: 86.6
+    white: 95.6
+    brightBlack: 0
+    brightRed: 36.4
+    brightGreen: 57.5
+    brightYellow: 69.2
+    brightBlue: 22.8
+    brightMagenta: 43.3
+    brightCyan: 86.6
+    brightWhite: 95.6

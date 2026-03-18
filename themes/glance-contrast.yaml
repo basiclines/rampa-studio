@@ -1,0 +1,49 @@
+name: "glance-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#111219"
+  fg: "#FFFFFF"
+  black: "#1B1D28"
+  red: "#BA0E2E"
+  green: "#EF8354"
+  yellow: "#6E81A0"
+  blue: "#FFFFFF"
+  magenta: "#EF8354"
+  cyan: "#6E81A0"
+  white: "#FFFFFF"
+  brightBlack: "#3A3E56"
+  brightRed: "#F03E5F"
+  brightGreen: "#F8C7B1"
+  brightYellow: "#ACB7C8"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#F8C7B1"
+  brightCyan: "#ACB7C8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  contrast:
+    fg: 107.3
+    black: 0
+    red: 20.9
+    green: 50.8
+    yellow: 34.1
+    blue: 107.3
+    magenta: 50.8
+    cyan: 34.1
+    white: 107.3
+    brightBlack: 7.6
+    brightRed: 37.2
+    brightGreen: 78.3
+    brightYellow: 62.3
+    brightBlue: 107.3
+    brightMagenta: 78.3
+    brightCyan: 62.3
+    brightWhite: 107.3

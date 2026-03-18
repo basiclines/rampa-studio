@@ -1,0 +1,49 @@
+name: "Tlapalli 00: Obsidian"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+colors:
+  bg: "#020202"
+  fg: "#A7A7A7"
+  black: "#020202"
+  red: "#777777"
+  green: "#4C4C4C"
+  yellow: "#A1A1A1"
+  blue: "#373737"
+  magenta: "#8C8C8C"
+  cyan: "#616161"
+  white: "#B6B6B6"
+  brightBlack: "#212121"
+  brightRed: "#777777"
+  brightGreen: "#4C4C4C"
+  brightYellow: "#A1A1A1"
+  brightBlue: "#373737"
+  brightMagenta: "#8C8C8C"
+  brightCyan: "#616161"
+  brightWhite: "#E1E1E1"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 54.6
+    black: 0
+    red: 30.6
+    green: 12.7
+    yellow: 51.4
+    blue: 0
+    magenta: 40.6
+    cyan: 20.9
+    white: 62.9
+    brightBlack: 0
+    brightRed: 30.6
+    brightGreen: 12.7
+    brightYellow: 51.4
+    brightBlue: 0
+    brightMagenta: 40.6
+    brightCyan: 20.9
+    brightWhite: 88.5

@@ -1,0 +1,49 @@
+name: "WL-Neon Cascade"
+source:
+  marketplace_id: "WatkinsLabs.neon-cascade"
+  version: "1.0.1"
+  installs: 67
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.neon-cascade"
+colors:
+  bg: "#000033"
+  fg: "#00FFFC"
+  black: "#000000"
+  red: "#FF0066"
+  green: "#00FF66"
+  yellow: "#FF3300"
+  blue: "#FF66CC"
+  magenta: "#33CCCC"
+  cyan: "#FF66CC"
+  white: "#00FFFC"
+  brightBlack: "#666666"
+  brightRed: "#FF0066"
+  brightGreen: "#00FF66"
+  brightYellow: "#FF3300"
+  brightBlue: "#FF66CC"
+  brightMagenta: "#33CCCC"
+  brightCyan: "#FF66CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 91.5
+    black: 0
+    red: 38
+    green: 86.6
+    yellow: 38.9
+    blue: 51.2
+    magenta: 64.3
+    cyan: 51.2
+    white: 91.5
+    brightBlack: 22.5
+    brightRed: 38
+    brightGreen: 86.6
+    brightYellow: 38.9
+    brightBlue: 51.2
+    brightMagenta: 64.3
+    brightCyan: 51.2
+    brightWhite: 107.4

@@ -1,0 +1,49 @@
+name: "Sleepy Owl - Greenwich (Beta)"
+source:
+  marketplace_id: "santosned.theme-sleepy-owl"
+  version: "0.90.1"
+  installs: 93
+  author: "Sleepy Owl Theme"
+  repo: "https://github.com/santosned/vsc-sleepy-owl-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=santosned.theme-sleepy-owl"
+colors:
+  bg: "#24272D"
+  fg: "#C7C7CF"
+  black: "#0C0A12"
+  red: "#E86074"
+  green: "#A4D860"
+  yellow: "#E8BE56"
+  blue: "#5A84E8"
+  magenta: "#A484E8"
+  cyan: "#20C4E8"
+  white: "#E0E0E8"
+  brightBlack: "#747B88"
+  brightRed: "#E88484"
+  brightGreen: "#AEE0A4"
+  brightYellow: "#E8E090"
+  brightBlue: "#96B4FF"
+  brightMagenta: "#E090E0"
+  brightCyan: "#64DAD2"
+  brightWhite: "#F5F5FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  contrast:
+    fg: 69.8
+    black: 0
+    red: 38.8
+    green: 70.3
+    yellow: 67.3
+    blue: 35.5
+    magenta: 42.2
+    cyan: 59.1
+    white: 85
+    brightBlack: 29
+    brightRed: 48.1
+    brightGreen: 76.6
+    brightYellow: 83
+    brightBlue: 59.3
+    brightMagenta: 54.2
+    brightCyan: 70.1
+    brightWhite: 98.5

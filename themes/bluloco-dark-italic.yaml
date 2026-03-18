@@ -1,0 +1,49 @@
+name: "Bluloco Dark Italic"
+source:
+  marketplace_id: "uloco.theme-bluloco-dark"
+  version: "3.7.6"
+  installs: 510899
+  author: "Umut Topuzoğlu"
+  repo: "https://github.com/uloco/theme-bluloco-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-dark"
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#42444D"
+  red: "#FC2E51"
+  green: "#25A45C"
+  yellow: "#FF9369"
+  blue: "#3375FE"
+  magenta: "#9F7EFE"
+  cyan: "#4483AA"
+  white: "#CDD3E0"
+  brightBlack: "#8F9AAE"
+  brightRed: "#FF637F"
+  brightGreen: "#3FC56A"
+  brightYellow: "#F9C858"
+  brightBlue: "#10B0FE"
+  brightMagenta: "#FF78F8"
+  brightCyan: "#5FB9BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 34.6
+    green: 38.7
+    yellow: 55.5
+    blue: 29.9
+    magenta: 40.5
+    cyan: 29.2
+    white: 75.5
+    brightBlack: 43.2
+    brightRed: 43.7
+    brightGreen: 54.4
+    brightYellow: 73.2
+    brightBlue: 50.8
+    brightMagenta: 54
+    brightCyan: 52.8
+    brightWhite: 103.7

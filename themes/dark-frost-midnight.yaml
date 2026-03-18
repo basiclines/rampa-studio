@@ -1,0 +1,49 @@
+name: "Dark Frost Midnight"
+source:
+  marketplace_id: "sprovo.dark-frost"
+  version: "2.0.0"
+  installs: 2470
+  author: "Sandrico Provo"
+  repo: "https://github.com/sandricoprovo/dark-frost-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sprovo.dark-frost"
+colors:
+  bg: "#272629"
+  fg: "#DDDDDD"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 82.9
+    black: 24.3
+    red: 41.8
+    green: 63.7
+    yellow: 76.8
+    blue: 53.8
+    magenta: 51.6
+    cyan: 76.1
+    white: 104.7
+    brightBlack: 24.3
+    brightRed: 41.8
+    brightGreen: 82
+    brightYellow: 76.8
+    brightBlue: 53.8
+    brightMagenta: 51.6
+    brightCyan: 76.1
+    brightWhite: 104.7

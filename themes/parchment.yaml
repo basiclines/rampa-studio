@@ -1,0 +1,49 @@
+name: "Parchment"
+source:
+  marketplace_id: "lumiknit.parchment"
+  version: "0.0.11"
+  installs: 4107
+  author: "lumiknit"
+  repo: "https://github.com/lumiknit/vscode-parchment-theme/"
+  url: "https://marketplace.visualstudio.com/items?itemName=lumiknit.parchment"
+colors:
+  bg: "#F1EDE6"
+  fg: "#000000"
+  black: "#000000"
+  red: "#E41507"
+  green: "#329033"
+  yellow: "#9E7400"
+  blue: "#2981CA"
+  magenta: "#9805AE"
+  cyan: "#2E998E"
+  white: "#DDDDDD"
+  brightBlack: "#505050"
+  brightRed: "#FF675D"
+  brightGreen: "#62B135"
+  brightYellow: "#E6BB00"
+  brightBlue: "#4190F7"
+  brightMagenta: "#BA65DB"
+  brightCyan: "#20DDDD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 82
+  contrast:
+    fg: 95.6
+    black: 95.6
+    red: 60.1
+    green: 57
+    yellow: 58.6
+    blue: 57.5
+    magenta: 71.9
+    cyan: 51.4
+    white: 0
+    brightBlack: 77.5
+    brightRed: 43.4
+    brightGreen: 41.2
+    brightYellow: 23.5
+    brightBlue: 48.4
+    brightMagenta: 51.8
+    brightCyan: 18.9
+    brightWhite: 9.4

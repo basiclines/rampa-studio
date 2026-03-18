@@ -1,0 +1,49 @@
+name: "Phosphor Forest"
+source:
+  marketplace_id: "glidebuild.phosphor-themes"
+  version: "1.0.0"
+  installs: 40
+  author: "glide.build"
+  repo: "https://github.com/mo-shawa/phosphor-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=glidebuild.phosphor-themes"
+colors:
+  bg: "#141C18"
+  fg: "#A7B5B0"
+  black: "#2D3D37"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#38BDF8"
+  magenta: "#A78BFA"
+  cyan: "#2DD4BF"
+  white: "#D4D4D8"
+  brightBlack: "#6B8F80"
+  brightRed: "#FCA5A5"
+  brightGreen: "#86EFAC"
+  brightYellow: "#FDE047"
+  brightBlue: "#7DD3FC"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#5EEAD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 163
+  contrast:
+    fg: 59.2
+    black: 0
+    red: 47.7
+    green: 70.1
+    yellow: 77.4
+    blue: 59.2
+    magenta: 47.9
+    cyan: 66.5
+    white: 79.3
+    brightBlack: 36.9
+    brightRed: 65.2
+    brightGreen: 82.7
+    brightYellow: 86.8
+    brightBlue: 72.3
+    brightMagenta: 68.9
+    brightCyan: 79.6
+    brightWhite: 106.5

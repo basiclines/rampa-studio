@@ -1,0 +1,49 @@
+name: "cchl-color-theme"
+source:
+  marketplace_id: "lvchencheng.theme-ckai"
+  version: "1.3.0"
+  installs: 91
+  author: "lvchencheng"
+  repo: "https://gitee.com/lu-chencheng/ckai"
+  url: "https://marketplace.visualstudio.com/items?itemName=lvchencheng.theme-ckai"
+colors:
+  bg: "#292929"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 22
+    green: 50.4
+    yellow: 55
+    blue: 32
+    magenta: 29.6
+    cyan: 47.8
+    white: 85.9
+    brightBlack: 19.4
+    brightRed: 34.7
+    brightGreen: 74.4
+    brightYellow: 81.3
+    brightBlue: 47.2
+    brightMagenta: 43.9
+    brightCyan: 70.8
+    brightWhite: 99.3

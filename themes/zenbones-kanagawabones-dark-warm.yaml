@@ -1,0 +1,49 @@
+name: "Zenbones Kanagawabones Dark Warm"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2700
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+colors:
+  bg: "#25252F"
+  fg: "#DDD8BB"
+  black: "#1F1F28"
+  red: "#E46A78"
+  green: "#98BC6D"
+  yellow: "#E5C283"
+  blue: "#7EB3C9"
+  magenta: "#957FB8"
+  cyan: "#7EB3C9"
+  white: "#DDD8BB"
+  brightBlack: "#3C3C51"
+  brightRed: "#EC818C"
+  brightGreen: "#9EC967"
+  brightYellow: "#F1C982"
+  brightBlue: "#7BC2DF"
+  brightMagenta: "#A98FD2"
+  brightCyan: "#7BC2DF"
+  brightWhite: "#A8A48D"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  contrast:
+    fg: 79.4
+    black: 0
+    red: 40.4
+    green: 56.9
+    yellow: 69.5
+    blue: 54
+    magenta: 36.1
+    cyan: 54
+    white: 79.4
+    brightBlack: 0
+    brightRed: 48.5
+    brightGreen: 63.1
+    brightYellow: 74.2
+    brightBlue: 61.3
+    brightMagenta: 45.2
+    brightCyan: 61.3
+    brightWhite: 49.6

@@ -1,0 +1,49 @@
+name: "Siberia"
+source:
+  marketplace_id: "pavel-shatalov.siberia-theme"
+  version: "0.22.0"
+  installs: 278
+  author: "Pavel"
+  repo: "https://github.com/siberia-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=pavel-shatalov.siberia-theme"
+colors:
+  bg: "#292D39"
+  fg: "#97A6D7"
+  black: "#6F7893"
+  red: "#E98989"
+  green: "#6DAB9F"
+  yellow: "#ECBFA1"
+  blue: "#8BACD8"
+  magenta: "#ADA0D3"
+  cyan: "#70B6D0"
+  white: "#97A6D7"
+  brightBlack: "#C4CDEA"
+  brightRed: "#DD8F8F"
+  brightGreen: "#61AD9F"
+  brightYellow: "#EFBE9C"
+  brightBlue: "#86ACDD"
+  brightMagenta: "#AE9FD9"
+  brightCyan: "#64B7D4"
+  brightWhite: "#C9D2F4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 271
+  contrast:
+    fg: 50.3
+    black: 26.7
+    red: 48.7
+    green: 46.2
+    yellow: 68.8
+    blue: 51.5
+    magenta: 50.2
+    cyan: 53.2
+    white: 50.3
+    brightBlack: 72
+    brightRed: 48.6
+    brightGreen: 46.3
+    brightYellow: 68.7
+    brightBlue: 51.4
+    brightMagenta: 50.3
+    brightCyan: 53.1
+    brightWhite: 75.3

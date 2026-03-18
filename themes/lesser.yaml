@@ -1,0 +1,49 @@
+name: "Lesser"
+source:
+  marketplace_id: "funcdfs.lesser"
+  version: "1.4.3"
+  installs: 61
+  author: "funcdfs"
+  repo: "https://github.com/funcdfs/vscode-theme-lesser"
+  url: "https://marketplace.visualstudio.com/items?itemName=funcdfs.lesser"
+colors:
+  bg: "#1F1F1F"
+  fg: "#E4E4E4"
+  black: "#181818"
+  red: "#E05050"
+  green: "#5CB85C"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#E4E4E4"
+  brightBlack: "#6B6B6B"
+  brightRed: "#F07178"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.4
+    black: 0
+    red: 34.5
+    green: 51.5
+    yellow: 69.6
+    blue: 53.7
+    magenta: 44.2
+    cyan: 53.6
+    white: 88.4
+    brightBlack: 23.2
+    brightRed: 45.6
+    brightGreen: 61.3
+    brightYellow: 69.6
+    brightBlue: 53.7
+    brightMagenta: 44.2
+    brightCyan: 53.6
+    brightWhite: 105.9

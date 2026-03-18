@@ -1,0 +1,49 @@
+name: "Night-Stack Forest Night"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#070B08"
+  fg: "#E6F3EA"
+  black: "#122016"
+  red: "#B86B3C"
+  green: "#7CFF6B"
+  yellow: "#C2B280"
+  blue: "#3B6B4A"
+  magenta: "#6BBF7C"
+  cyan: "#66FFB5"
+  white: "#E6F3EA"
+  brightBlack: "#122016"
+  brightRed: "#B86B3C"
+  brightGreen: "#7CFF6B"
+  brightYellow: "#C2B280"
+  brightBlue: "#3B6B4A"
+  brightMagenta: "#6BBF7C"
+  brightCyan: "#66FFB5"
+  brightWhite: "#E6F3EA"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 97.7
+    black: 0
+    red: 34.2
+    green: 90
+    yellow: 60.9
+    blue: 20.9
+    magenta: 58
+    cyan: 90.7
+    white: 97.7
+    brightBlack: 0
+    brightRed: 34.2
+    brightGreen: 90
+    brightYellow: 60.9
+    brightBlue: 20.9
+    brightMagenta: 58
+    brightCyan: 90.7
+    brightWhite: 97.7

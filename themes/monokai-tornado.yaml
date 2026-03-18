@@ -1,0 +1,49 @@
+name: "Monokai Tornado"
+source:
+  marketplace_id: "mimo.monokai-rain"
+  version: "0.4.0"
+  installs: 807
+  author: "Michelle Mounde"
+  repo: "https://github.com/michellemounde/monokai-rainstorm"
+  url: "https://marketplace.visualstudio.com/items?itemName=mimo.monokai-rain"
+colors:
+  bg: "#2E2E2E"
+  fg: "#FFFFFF"
+  black: "#3D4750"
+  red: "#FF002B"
+  green: "#C4FF02"
+  yellow: "#FFA200"
+  blue: "#245FCC"
+  magenta: "#CC00FF"
+  cyan: "#00D8C6"
+  white: "#C5C5C0"
+  brightBlack: "#777E84"
+  brightRed: "#FF5F38"
+  brightGreen: "#ABEAAC"
+  brightYellow: "#F9EC2A"
+  brightBlue: "#51B9FF"
+  brightMagenta: "#FF5BE6"
+  brightCyan: "#8AEAEA"
+  brightWhite: "#FFFFF7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103.2
+    black: 0
+    red: 33
+    green: 90.6
+    yellow: 59
+    blue: 18.4
+    magenta: 30.8
+    cyan: 65.2
+    white: 66.7
+    brightBlack: 28.7
+    brightRed: 41.2
+    brightGreen: 79.9
+    brightYellow: 88.2
+    brightBlue: 55.5
+    brightMagenta: 46.5
+    brightCyan: 79.7
+    brightWhite: 102.8

@@ -1,0 +1,49 @@
+name: "argprocolor"
+source:
+  marketplace_id: "AnkurGoyal.argprocolor"
+  version: "3.3.0"
+  installs: 183
+  author: "Ankur Goyal"
+  repo: "https://github.com/argankur/argprocolor"
+  url: "https://marketplace.visualstudio.com/items?itemName=AnkurGoyal.argprocolor"
+colors:
+  bg: "#021013"
+  fg: "#B2CACD"
+  black: "#324A4D"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#B2CACD"
+  brightBlack: "#47686C"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#C1D4D7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 211
+  contrast:
+    fg: 71.4
+    black: 10.2
+    red: 41.2
+    green: 77.6
+    yellow: 67.6
+    blue: 52.6
+    magenta: 46.3
+    cyan: 71.2
+    white: 71.4
+    brightBlack: 21.2
+    brightRed: 46.4
+    brightGreen: 79.8
+    brightYellow: 54.5
+    brightBlue: 57.9
+    brightMagenta: 58.6
+    brightCyan: 74.5
+    brightWhite: 77.9

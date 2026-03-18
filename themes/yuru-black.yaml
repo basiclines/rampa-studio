@@ -1,0 +1,49 @@
+name: "yuru black"
+source:
+  marketplace_id: "yuru.yuru-black"
+  version: "2.3.4"
+  installs: 962
+  author: "yuru"
+  repo: "https://github.com/yuruko/yuru-black"
+  url: "https://marketplace.visualstudio.com/items?itemName=yuru.yuru-black"
+colors:
+  bg: "#000000"
+  fg: "#D9C8C8"
+  black: "#646464"
+  red: "#FF7171"
+  green: "#35FFB2"
+  yellow: "#FFFF64"
+  blue: "#588AFF"
+  magenta: "#FF78FF"
+  cyan: "#45DAFF"
+  white: "#E5E5E5"
+  brightBlack: "#8A8A8A"
+  brightRed: "#FFA6A6"
+  brightGreen: "#A8FFDC"
+  brightYellow: "#FFFFB5"
+  brightBlue: "#ADBEFF"
+  brightMagenta: "#FFC0FF"
+  brightCyan: "#8BE8FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 75.5
+    black: 22.2
+    red: 50.6
+    green: 89.3
+    yellow: 103.3
+    blue: 42.5
+    magenta: 58.7
+    cyan: 74.5
+    white: 91
+    brightBlack: 39.6
+    brightRed: 67.5
+    brightGreen: 96.5
+    brightYellow: 105
+    brightBlue: 68.9
+    brightMagenta: 80.9
+    brightCyan: 84.6
+    brightWhite: 91

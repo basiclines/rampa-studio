@@ -1,0 +1,49 @@
+name: "bamboo"
+source:
+  marketplace_id: "TiltShift.bamboo"
+  version: "0.0.6"
+  installs: 601
+  author: "Tilt Shift"
+  repo: "https://github.com/chrisdrackett/bamboo-vs"
+  url: "https://marketplace.visualstudio.com/items?itemName=TiltShift.bamboo"
+colors:
+  bg: "#FFFFFF"
+  fg: "#8F8C8C"
+  black: "#FF0000"
+  red: "#FF2C6D"
+  green: "#98C379"
+  yellow: "#D19A66"
+  blue: "#56B6C2"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D0D0D0"
+  brightBlack: "#808080"
+  brightRed: "#E06C75"
+  brightGreen: "#19F9D8"
+  brightYellow: "#FFCC95"
+  brightBlue: "#56B6C2"
+  brightMagenta: "#FF75B5"
+  brightCyan: "#56B6C2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 60.8
+    black: 64.1
+    red: 61.7
+    green: 39.1
+    yellow: 48.3
+    blue: 46.5
+    magenta: 55.6
+    cyan: 46.5
+    white: 25
+    brightBlack: 66.9
+    brightRed: 58.6
+    brightGreen: 16.4
+    brightYellow: 22
+    brightBlue: 46.5
+    brightMagenta: 48.2
+    brightCyan: 46.5
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Huacat Pink Dark"
+source:
+  marketplace_id: "huacat.pink-theme"
+  version: "1.1.2"
+  installs: 71463
+  author: "huacat"
+  repo: "https://github.com/huacat1017/huacat.pink-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=huacat.pink-theme"
+colors:
+  bg: "#3D173D"
+  fg: "#D1B9C8"
+  black: "#3D173D"
+  red: "#D14040"
+  green: "#489427"
+  yellow: "#C4990D"
+  blue: "#5782DF"
+  magenta: "#9045D6"
+  cyan: "#3CA89A"
+  white: "#D1B9C8"
+  brightBlack: "#978C94"
+  brightRed: "#EE7A7A"
+  brightGreen: "#72C45B"
+  brightYellow: "#D7B853"
+  brightBlue: "#7E97F9"
+  brightMagenta: "#BB80F1"
+  brightCyan: "#7ABECC"
+  brightWhite: "#DEC7D5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 327
+  contrast:
+    fg: 65
+    black: 0
+    red: 27.2
+    green: 33.2
+    yellow: 47.1
+    blue: 33.9
+    magenta: 23.1
+    cyan: 43.5
+    white: 65
+    brightBlack: 38.7
+    brightRed: 46.1
+    brightGreen: 56.8
+    brightYellow: 62.2
+    brightBlue: 45.7
+    brightMagenta: 44.6
+    brightCyan: 58.2
+    brightWhite: 73

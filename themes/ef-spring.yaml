@@ -1,0 +1,49 @@
+name: "Ef Spring"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#F6FFF9"
+  fg: "#34494A"
+  black: "#34494A"
+  red: "#C42D2F"
+  green: "#1A870F"
+  yellow: "#A45F22"
+  blue: "#375CC6"
+  magenta: "#D5206F"
+  cyan: "#1F6FBF"
+  white: "#E8F0F0"
+  brightBlack: "#777294"
+  brightRed: "#D03003"
+  brightGreen: "#4A7D00"
+  brightYellow: "#B6540F"
+  brightBlue: "#5F5FDF"
+  brightMagenta: "#CB26A0"
+  brightCyan: "#3F6FAF"
+  brightWhite: "#F6FFF9"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 90.7
+    black: 90.7
+    red: 75
+    green: 70.3
+    yellow: 72.6
+    blue: 78.1
+    magenta: 70.8
+    cyan: 73.6
+    white: 0
+    brightBlack: 70.2
+    brightRed: 72.2
+    brightGreen: 72.7
+    brightYellow: 72.1
+    brightBlue: 72.9
+    brightMagenta: 70.7
+    brightCyan: 73.7
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Cursor Theme"
+source:
+  marketplace_id: "ManitejaPratha.cursor-midnight-theme"
+  version: "0.0.3"
+  installs: 5028
+  author: "Maniteja Pratha"
+  repo: "https://github.com/Manitej66/cursor-theme-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ManitejaPratha.cursor-midnight-theme"
+colors:
+  bg: "#1E2127"
+  fg: "#7B88A1"
+  black: "#272C36"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#7D7C9B"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 36.1
+    black: 0
+    red: 31.7
+    green: 60.4
+    yellow: 75.1
+    blue: 47.4
+    magenta: 31.9
+    cyan: 61.4
+    white: 91.1
+    brightBlack: 14.1
+    brightRed: 31.7
+    brightGreen: 60.4
+    brightYellow: 75.1
+    brightBlue: 47.4
+    brightMagenta: 45.2
+    brightCyan: 59.3
+    brightWhite: 95

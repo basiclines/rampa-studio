@@ -1,0 +1,49 @@
+name: "Human Light"
+source:
+  marketplace_id: "TomHall.human-theme"
+  version: "1.1.1"
+  installs: 94
+  author: "Tom Hall"
+  repo: "https://github.com/tom-f-hall/human-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TomHall.human-theme"
+colors:
+  bg: "#EDF3EB"
+  fg: "#2D2520"
+  black: "#E0E8DD"
+  red: "#8A3A2A"
+  green: "#2E6B2F"
+  yellow: "#7A5B1F"
+  blue: "#1A5F6F"
+  magenta: "#8A4040"
+  cyan: "#256B7A"
+  white: "#6B5F52"
+  brightBlack: "#A89A90"
+  brightRed: "#A84545"
+  brightGreen: "#2E6B25"
+  brightYellow: "#7A5B1F"
+  brightBlue: "#2D6B7F"
+  brightMagenta: "#A84545"
+  brightCyan: "#2D6B7F"
+  brightWhite: "#2D2520"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 93.7
+    black: 0
+    red: 78
+    green: 73.5
+    yellow: 72.9
+    blue: 76.5
+    magenta: 76.6
+    cyan: 71.8
+    white: 72.7
+    brightBlack: 44.6
+    brightRed: 70.3
+    brightGreen: 73.6
+    brightYellow: 72.9
+    brightBlue: 71.4
+    brightMagenta: 70.3
+    brightCyan: 71.4
+    brightWhite: 93.7

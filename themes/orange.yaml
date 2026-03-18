@@ -1,0 +1,49 @@
+name: "orange"
+source:
+  marketplace_id: "natecrow.consonance-themes"
+  version: "1.2.0"
+  installs: 317
+  author: "natecrow"
+  repo: "https://github.com/natecrow/consonance-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=natecrow.consonance-themes"
+colors:
+  bg: "#111111"
+  fg: "#C8C4D7"
+  black: "#000000"
+  red: "#E4BEA8"
+  green: "#DA8955"
+  yellow: "#FFB17B"
+  blue: "#797586"
+  magenta: "#AE6231"
+  cyan: "#BA9681"
+  white: "#E4E0F4"
+  brightBlack: "#797586"
+  brightRed: "#E4BEA8"
+  brightGreen: "#DA8955"
+  brightYellow: "#FFB17B"
+  brightBlue: "#797586"
+  brightMagenta: "#AE6231"
+  brightCyan: "#BA9681"
+  brightWhite: "#FFFDFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 71.8
+    black: 0
+    red: 71.4
+    green: 48.8
+    yellow: 69.6
+    blue: 30.1
+    magenta: 29.8
+    cyan: 49
+    white: 88.9
+    brightBlack: 30.1
+    brightRed: 71.4
+    brightGreen: 48.8
+    brightYellow: 69.6
+    brightBlue: 30.1
+    brightMagenta: 29.8
+    brightCyan: 49
+    brightWhite: 106.4

@@ -1,0 +1,49 @@
+name: "CodeTest"
+source:
+  marketplace_id: "ArturGuedx.agx-code"
+  version: "0.0.1"
+  installs: 48
+  author: "ArturGuedx"
+  repo: "https://github.com/ArturGuedes/test"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArturGuedx.agx-code"
+colors:
+  bg: "#151515"
+  fg: "#BBBBBB"
+  black: "#000000"
+  red: "#FF8B92"
+  green: "#BDE873"
+  yellow: "#E9FF92"
+  blue: "#52547F"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#ABBECF"
+  brightBlack: "#666666"
+  brightRed: "#FF525C"
+  brightGreen: "#66FFB1"
+  brightYellow: "#FFAD3F"
+  brightBlue: "#6D7DFE"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 64.9
+    black: 0
+    red: 57.5
+    green: 83.2
+    yellow: 100.2
+    blue: 16.4
+    magenta: 29.9
+    cyan: 47.7
+    white: 65.2
+    brightBlack: 22.2
+    brightRed: 43.2
+    brightGreen: 89.9
+    brightYellow: 67
+    brightBlue: 38.7
+    brightMagenta: 45.6
+    brightCyan: 55.6
+    brightWhite: 90.2

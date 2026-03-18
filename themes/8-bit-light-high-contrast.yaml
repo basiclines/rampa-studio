@@ -1,0 +1,49 @@
+name: "8-Bit Light High Contrast"
+source:
+  marketplace_id: "pbower.8-bit-high-contrast"
+  version: "0.0.1"
+  installs: 248
+  author: "pbower"
+  repo: "https://github.com/pbower/8-Bit-High-Contrast"
+  url: "https://marketplace.visualstudio.com/items?itemName=pbower.8-bit-high-contrast"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#FFFFFF"
+  red: "#CC0000"
+  green: "#009933"
+  yellow: "#FFFF00"
+  blue: "#0033CC"
+  magenta: "#996633"
+  cyan: "#0033CC"
+  white: "#000000"
+  brightBlack: "#FFFFFF"
+  brightRed: "#CC0000"
+  brightGreen: "#009933"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0033CC"
+  brightMagenta: "#996633"
+  brightCyan: "#0033CC"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 106
+    black: 0
+    red: 76.5
+    green: 64.3
+    yellow: 0
+    blue: 89
+    magenta: 73.6
+    cyan: 89
+    white: 106
+    brightBlack: 0
+    brightRed: 76.5
+    brightGreen: 64.3
+    brightYellow: 0
+    brightBlue: 89
+    brightMagenta: 73.6
+    brightCyan: 89
+    brightWhite: 106

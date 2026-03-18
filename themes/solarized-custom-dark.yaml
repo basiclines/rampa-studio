@@ -1,0 +1,49 @@
+name: "Solarized Custom (Dark)"
+source:
+  marketplace_id: "AH-oss.soft2000"
+  version: "0.0.1"
+  installs: 18
+  author: "AH-oss"
+  repo: "https://github.com/jmatilai/soft2000"
+  url: "https://marketplace.visualstudio.com/items?itemName=AH-oss.soft2000"
+colors:
+  bg: "#2F2F56"
+  fg: "#8E8EA9"
+  black: "#2F2F56"
+  red: "#F35E5E"
+  green: "#899E00"
+  yellow: "#B58900"
+  blue: "#276CD3"
+  magenta: "#5B78D7"
+  cyan: "#2D9F96"
+  white: "#ADADC1"
+  brightBlack: "#7E7EA0"
+  brightRed: "#F35E5E"
+  brightGreen: "#899E00"
+  brightYellow: "#B58900"
+  brightBlue: "#276CD3"
+  brightMagenta: "#5B78D7"
+  brightCyan: "#2D9F96"
+  brightWhite: "#F0E3CB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 282
+  contrast:
+    fg: 36.7
+    black: 0
+    red: 37.5
+    green: 39.1
+    yellow: 36.7
+    blue: 21.5
+    magenta: 27.7
+    cyan: 36.6
+    white: 52.8
+    brightBlack: 29.2
+    brightRed: 37.5
+    brightGreen: 39.1
+    brightYellow: 36.7
+    brightBlue: 21.5
+    brightMagenta: 27.7
+    brightCyan: 36.6
+    brightWhite: 84.6

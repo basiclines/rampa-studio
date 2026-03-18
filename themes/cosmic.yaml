@@ -1,0 +1,49 @@
+name: "Cosmic"
+source:
+  marketplace_id: "carmelopullara.vscode-cosmic"
+  version: "0.0.4"
+  installs: 3991
+  author: "Carmelo Pullara"
+  repo: "https://github.com/carmelopullara/vscode-cosmic"
+  url: "https://marketplace.visualstudio.com/items?itemName=carmelopullara.vscode-cosmic"
+colors:
+  bg: "#21242B"
+  fg: "#F2F2F2"
+  black: "#000000"
+  red: "#EF3B7D"
+  green: "#6BD679"
+  yellow: "#FAC863"
+  blue: "#79B6F2"
+  magenta: "#FF69C1"
+  cyan: "#55B5DB"
+  white: "#F2F2F2"
+  brightBlack: "#000000"
+  brightRed: "#EF3B7D"
+  brightGreen: "#6BD679"
+  brightYellow: "#FAC863"
+  brightBlue: "#79B6F2"
+  brightMagenta: "#FF69C1"
+  brightCyan: "#55B5DB"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 267
+  contrast:
+    fg: 96.6
+    black: 0
+    red: 35.3
+    green: 66.1
+    yellow: 75
+    blue: 57.5
+    magenta: 49
+    cyan: 53.7
+    white: 96.6
+    brightBlack: 0
+    brightRed: 35.3
+    brightGreen: 66.1
+    brightYellow: 75
+    brightBlue: 57.5
+    brightMagenta: 49
+    brightCyan: 53.7
+    brightWhite: 96.6

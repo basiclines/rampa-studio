@@ -1,0 +1,49 @@
+name: "Herzha Flux"
+source:
+  marketplace_id: "madhanmaaz.vscode-herzha-theme"
+  version: "0.0.1"
+  installs: 17
+  author: "madhanmaaz"
+  repo: "https://github.com/madhanmaaz/herzha-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=madhanmaaz.vscode-herzha-theme"
+colors:
+  bg: "#0B0D14"
+  fg: "#B0B8E6"
+  black: "#0B0D14"
+  red: "#FF7A9A"
+  green: "#6ED1A7"
+  yellow: "#F3C677"
+  blue: "#82CFFF"
+  magenta: "#8F7CFF"
+  cyan: "#2EC4E6"
+  white: "#B0B8E6"
+  brightBlack: "#505E91"
+  brightRed: "#FF96B0"
+  brightGreen: "#86DFC0"
+  brightYellow: "#F6D38F"
+  brightBlue: "#7B96FF"
+  brightMagenta: "#A59BFF"
+  brightCyan: "#97DAFF"
+  brightWhite: "#FDFEFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 272
+  contrast:
+    fg: 65
+    black: 0
+    red: 53.7
+    green: 67.6
+    yellow: 75.9
+    blue: 72.1
+    magenta: 42.1
+    cyan: 62.1
+    white: 65
+    brightBlack: 20.4
+    brightRed: 62.4
+    brightGreen: 76.7
+    brightYellow: 82.3
+    brightBlue: 48.7
+    brightMagenta: 54.5
+    brightCyan: 78.7
+    brightWhite: 106.8

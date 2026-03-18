@@ -1,0 +1,49 @@
+name: "PurplePhantom"
+source:
+  marketplace_id: "PyJOJO.pycodejojo"
+  version: "2025.11.13"
+  installs: 121
+  author: "PyJOJO"
+  repo: "https://github.com/SakuraMYK/PyCodeJOJO"
+  url: "https://marketplace.visualstudio.com/items?itemName=PyJOJO.pycodejojo"
+colors:
+  bg: "#1A1B26"
+  fg: "#A9B1D6"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#2AC3DE"
+  white: "#A9B1D6"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#2AC3DE"
+  brightWhite: "#A9B1D6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 59.3
+    black: 0
+    red: 49.4
+    green: 66.9
+    yellow: 62.2
+    blue: 51.1
+    magenta: 55
+    cyan: 59.9
+    white: 59.3
+    brightBlack: 0
+    brightRed: 49.4
+    brightGreen: 66.9
+    brightYellow: 62.2
+    brightBlue: 51.1
+    brightMagenta: 55
+    brightCyan: 59.9
+    brightWhite: 59.3

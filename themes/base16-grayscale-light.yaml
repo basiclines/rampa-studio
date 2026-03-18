@@ -1,0 +1,49 @@
+name: "Base16 Grayscale Light"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#F7F7F7"
+  fg: "#464646"
+  black: "#B9B9B9"
+  red: "#7C7C7C"
+  green: "#8E8E8E"
+  yellow: "#999999"
+  blue: "#686868"
+  magenta: "#747474"
+  cyan: "#868686"
+  white: "#252525"
+  brightBlack: "#ABABAB"
+  brightRed: "#7C7C7C"
+  brightGreen: "#8E8E8E"
+  brightYellow: "#A0A0A0"
+  brightBlue: "#686868"
+  brightMagenta: "#747474"
+  brightCyan: "#868686"
+  brightWhite: "#101010"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 87.1
+    black: 33
+    red: 64
+    green: 55.3
+    yellow: 49.8
+    blue: 73.1
+    magenta: 67.7
+    cyan: 59.2
+    white: 97.5
+    brightBlack: 40.5
+    brightRed: 64
+    brightGreen: 55.3
+    brightYellow: 46.3
+    brightBlue: 73.1
+    brightMagenta: 67.7
+    brightCyan: 59.2
+    brightWhite: 100.7

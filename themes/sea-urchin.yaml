@@ -1,0 +1,49 @@
+name: "Sea Urchin"
+source:
+  marketplace_id: "anemones.anemone-colors"
+  version: "0.0.2"
+  installs: 378
+  author: "anemones"
+  repo: "https://github.com/radio-alice/anemone-colors"
+  url: "https://marketplace.visualstudio.com/items?itemName=anemones.anemone-colors"
+colors:
+  bg: "#150049"
+  fg: "#E6DCFF"
+  black: "#150049"
+  red: "#FF009C"
+  green: "#9BDABB"
+  yellow: "#FFF3C5"
+  blue: "#FFC8F5"
+  magenta: "#FF4AB9"
+  cyan: "#A2D2FF"
+  white: "#FFC8F5"
+  brightBlack: "#8C7EB1"
+  brightRed: "#FFA685"
+  brightGreen: "#A2D2FF"
+  brightYellow: "#FFF3C5"
+  brightBlue: "#E6DCFF"
+  brightMagenta: "#FF4AB9"
+  brightCyan: "#A2D2FF"
+  brightWhite: "#FFC8F5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 283
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 39
+    green: 74.7
+    yellow: 98.5
+    blue: 82.1
+    magenta: 44.7
+    cyan: 75
+    white: 82.1
+    brightBlack: 36.2
+    brightRed: 65.2
+    brightGreen: 75
+    brightYellow: 98.5
+    brightBlue: 87.1
+    brightMagenta: 44.7
+    brightCyan: 75
+    brightWhite: 82.1

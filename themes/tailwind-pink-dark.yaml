@@ -1,0 +1,49 @@
+name: "Tailwind Pink Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+colors:
+  bg: "#831843"
+  fg: "#FCE7F3"
+  black: "#9D174D"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#FBCFE8"
+  brightBlack: "#9D174D"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FBCFE8"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 2
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 36.6
+    green: 59
+    yellow: 66.3
+    blue: 39.9
+    magenta: 38.2
+    cyan: 57.1
+    white: 72.4
+    brightBlack: 0
+    brightRed: 36.6
+    brightGreen: 59
+    brightYellow: 66.3
+    brightBlue: 39.9
+    brightMagenta: 38.2
+    brightCyan: 57.1
+    brightWhite: 72.4

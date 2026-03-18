@@ -1,0 +1,49 @@
+name: "Mori"
+source:
+  marketplace_id: "rajshekhardev.mori"
+  version: "0.0.3"
+  installs: 184
+  author: "Raj Shekhar Dev"
+  repo: "https://github.com/blankRSD/mori"
+  url: "https://marketplace.visualstudio.com/items?itemName=rajshekhardev.mori"
+colors:
+  bg: "#FFF5DE"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 100.4
+    black: 100.4
+    red: 68.4
+    green: 43.6
+    yellow: 52.3
+    blue: 80.5
+    magenta: 69
+    cyan: 55
+    white: 80.3
+    brightBlack: 73.2
+    brightRed: 68.4
+    brightGreen: 35.3
+    brightYellow: 35.4
+    brightBlue: 80.5
+    brightMagenta: 69
+    brightCyan: 55
+    brightWhite: 42.9

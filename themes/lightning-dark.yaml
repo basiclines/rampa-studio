@@ -1,0 +1,49 @@
+name: "Lightning Dark"
+source:
+  marketplace_id: "zevross.lightning"
+  version: "2.1.1"
+  installs: 889
+  author: "Zev Ross"
+  repo: "https://github.com/Zev18/lightning"
+  url: "https://marketplace.visualstudio.com/items?itemName=zevross.lightning"
+colors:
+  bg: "#1A1745"
+  fg: "#76C6FF"
+  black: "#000000"
+  red: "#CF3E5B"
+  green: "#44EABD"
+  yellow: "#F5C86E"
+  blue: "#2681F9"
+  magenta: "#9172FF"
+  cyan: "#3EC5FF"
+  white: "#C4C6CB"
+  brightBlack: "#333333"
+  brightRed: "#FF477E"
+  brightGreen: "#66FFDE"
+  brightYellow: "#F07178"
+  brightBlue: "#44B1FF"
+  brightMagenta: "#B76DFF"
+  brightCyan: "#21FBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 281
+  contrast:
+    fg: 65.7
+    black: 0
+    red: 28.4
+    green: 77.2
+    yellow: 75.2
+    blue: 35.2
+    magenta: 37.8
+    cyan: 62.8
+    white: 70.1
+    brightBlack: 0
+    brightRed: 41.3
+    brightGreen: 90.5
+    brightYellow: 45.7
+    brightBlue: 54.4
+    brightMagenta: 41.5
+    brightCyan: 88.3
+    brightWhite: 105.9

@@ -1,0 +1,49 @@
+name: "Wise Owl Material High Contrast"
+source:
+  marketplace_id: "waseemakhter028.wise-owl-material-theme"
+  version: "1.0.0"
+  installs: 31
+  author: "WaseemAkhter"
+  repo: "https://github.com/waseem-developer-028/wise-owl-material-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=waseemakhter028.wise-owl-material-theme"
+colors:
+  bg: "#000000"
+  fg: "#D6DEEB"
+  black: "#000000"
+  red: "#FF5874"
+  green: "#22DA6F"
+  yellow: "#ECC48D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#7FDBCA"
+  white: "#D6DEEB"
+  brightBlack: "#464E57"
+  brightRed: "#FF5874"
+  brightGreen: "#22DA6F"
+  brightYellow: "#ECC48D"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 86.2
+    black: 0
+    red: 45.6
+    green: 68.3
+    yellow: 74.7
+    blue: 56.9
+    magenta: 54.8
+    cyan: 75
+    white: 86.2
+    brightBlack: 13.1
+    brightRed: 45.6
+    brightGreen: 68.3
+    brightYellow: 74.7
+    brightBlue: 56.9
+    brightMagenta: 54.8
+    brightCyan: 75
+    brightWhite: 107.9

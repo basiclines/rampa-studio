@@ -1,0 +1,49 @@
+name: "Pittaya Theme"
+source:
+  marketplace_id: "pittaya-org.pittaya-theme"
+  version: "1.0.1"
+  installs: 45
+  author: "pittaya-org"
+  repo: "https://github.com/pittaya-ui/pittaya-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme"
+colors:
+  bg: "#1A1A1A"
+  fg: "#E8E8E8"
+  black: "#1A1A1A"
+  red: "#FF637E"
+  green: "#8FD460"
+  yellow: "#FFCC66"
+  blue: "#4D9FFF"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#E0E0E0"
+  brightBlack: "#606060"
+  brightRed: "#FF637E"
+  brightGreen: "#8FD460"
+  brightYellow: "#FFCC66"
+  brightBlue: "#4D9FFF"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 91.6
+    black: 0
+    red: 46.6
+    green: 68.5
+    yellow: 78.9
+    blue: 48.2
+    magenta: 54.2
+    cyan: 83.6
+    white: 86.5
+    brightBlack: 19.2
+    brightRed: 46.6
+    brightGreen: 68.5
+    brightYellow: 78.9
+    brightBlue: 48.2
+    brightMagenta: 54.2
+    brightCyan: 83.6
+    brightWhite: 106.5

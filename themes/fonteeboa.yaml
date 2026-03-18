@@ -1,0 +1,49 @@
+name: "fonteeboa"
+source:
+  marketplace_id: "Fonteeboa.fonteeboa"
+  version: "1.0.1"
+  installs: 390
+  author: "Fonteeboa"
+  repo: "https://github.com/fonteeboa/vscode-theme-fonteeboa"
+  url: "https://marketplace.visualstudio.com/items?itemName=Fonteeboa.fonteeboa"
+colors:
+  bg: "#050A0F"
+  fg: "#FFFFFF"
+  black: "#290039"
+  red: "#FF0000"
+  green: "#18DA16"
+  yellow: "#FFFF00"
+  blue: "#3838FF"
+  magenta: "#C316DA"
+  cyan: "#00FFFF"
+  white: "#E5E5E5"
+  brightBlack: "#7B2DC6"
+  brightRed: "#FF6666"
+  brightGreen: "#66FF66"
+  brightYellow: "#F5F543"
+  brightBlue: "#6666FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 244
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 37.4
+    green: 67.2
+    yellow: 102.6
+    blue: 20.5
+    magenta: 30.8
+    cyan: 92
+    white: 90.9
+    brightBlack: 18.9
+    brightRed: 47.8
+    brightGreen: 88.9
+    brightYellow: 96.5
+    brightBlue: 32.4
+    brightMagenta: 54.7
+    brightCyan: 93.9
+    brightWhite: 107.7

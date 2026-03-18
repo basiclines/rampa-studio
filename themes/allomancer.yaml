@@ -1,0 +1,49 @@
+name: "Allomancer"
+source:
+  marketplace_id: "maneeshJohn.allomancer-vscode"
+  version: "1.0.1"
+  installs: 489
+  author: "Maneesh John"
+  repo: "https://github.com/maneeshjohn/allomancer-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=maneeshJohn.allomancer-vscode"
+colors:
+  bg: "#282C34"
+  fg: "#EEFFFF"
+  black: "#383838"
+  red: "#F44747"
+  green: "#87AF87"
+  yellow: "#FFCB6B"
+  blue: "#6E88A6"
+  magenta: "#C678DD"
+  cyan: "#5FAFAF"
+  white: "#D7DAE0"
+  brightBlack: "#787878"
+  brightRed: "#FF875F"
+  brightGreen: "#87AF87"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#875FAF"
+  brightCyan: "#5FAFAF"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 101.4
+    black: 0
+    red: 35.2
+    green: 49.3
+    yellow: 75.7
+    blue: 33.3
+    magenta: 41.9
+    cyan: 48
+    white: 79.8
+    brightBlack: 26.8
+    brightRed: 51.7
+    brightGreen: 49.3
+    brightYellow: 75.7
+    brightBlue: 52.7
+    brightMagenta: 23.7
+    brightCyan: 48
+    brightWhite: 78.7

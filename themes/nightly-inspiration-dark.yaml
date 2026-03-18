@@ -1,0 +1,49 @@
+name: "Nightly-Inspiration-Dark"
+source:
+  marketplace_id: "GGRusty.nightly-inspiration-dark"
+  version: "1.0.3"
+  installs: 308
+  author: "GGRusty"
+  repo: "https://github.com/GGRusty/nightly-inspiration-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GGRusty.nightly-inspiration-dark"
+colors:
+  bg: "#00161A"
+  fg: "#F2EEE7"
+  black: "#192440"
+  red: "#E27E88"
+  green: "#21C063"
+  yellow: "#EBC583"
+  blue: "#729AFF"
+  magenta: "#B62D65"
+  cyan: "#70E1E8"
+  white: "#F2EEE7"
+  brightBlack: "#192440"
+  brightRed: "#E27E88"
+  brightGreen: "#21C063"
+  brightYellow: "#EBC583"
+  brightBlue: "#729AFF"
+  brightMagenta: "#B62D65"
+  brightCyan: "#70E1E8"
+  brightWhite: "#F2EEE7"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 210
+  contrast:
+    fg: 96.2
+    black: 0
+    red: 47.9
+    green: 54.8
+    yellow: 74
+    blue: 49
+    magenta: 22.7
+    cyan: 77.6
+    white: 96.2
+    brightBlack: 0
+    brightRed: 47.9
+    brightGreen: 54.8
+    brightYellow: 74
+    brightBlue: 49
+    brightMagenta: 22.7
+    brightCyan: 77.6
+    brightWhite: 96.2

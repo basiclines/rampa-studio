@@ -1,0 +1,49 @@
+name: "miniml-dusk"
+source:
+  marketplace_id: "pantherandcub.miniml"
+  version: "4.3.0"
+  installs: 395
+  author: "pantherandcub"
+  repo: "https://github.com/Panther-Cub/miniml"
+  url: "https://marketplace.visualstudio.com/items?itemName=pantherandcub.miniml"
+colors:
+  bg: "#121212"
+  fg: "#B4B4B4"
+  black: "#404040"
+  red: "#C15A5A"
+  green: "#9EB88C"
+  yellow: "#C3E090"
+  blue: "#5A93BB"
+  magenta: "#5DC4AA"
+  cyan: "#57B3BD"
+  white: "#B4B4B4"
+  brightBlack: "#545454"
+  brightRed: "#C15A5A"
+  brightGreen: "#9EB88C"
+  brightYellow: "#C3E090"
+  brightBlue: "#5A93BB"
+  brightMagenta: "#5DC4AA"
+  brightCyan: "#57B3BD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 61.2
+    black: 7.9
+    red: 31.8
+    green: 59
+    yellow: 80.9
+    blue: 40.7
+    magenta: 60.5
+    cyan: 53.5
+    white: 61.2
+    brightBlack: 15.1
+    brightRed: 31.8
+    brightGreen: 59
+    brightYellow: 80.9
+    brightBlue: 40.7
+    brightMagenta: 60.5
+    brightCyan: 53.5
+    brightWhite: 107.3

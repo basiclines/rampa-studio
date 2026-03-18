@@ -1,0 +1,49 @@
+name: "Material Ocean"
+source:
+  marketplace_id: "AgraeonLabs.dev-themes"
+  version: "0.1.0"
+  installs: 283
+  author: "Agraeon Labs"
+  repo: "https://github.com/adiagcodelance/VS-Code-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AgraeonLabs.dev-themes"
+colors:
+  bg: "#0F111A"
+  fg: "#8F93A2"
+  black: "#0F111A"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#EEFFFF"
+  brightBlack: "#0F111A"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#EEFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  contrast:
+    fg: 43.7
+    black: 0
+    red: 47.1
+    green: 84.7
+    yellow: 79.4
+    blue: 56.4
+    magenta: 54.2
+    cyan: 78.7
+    white: 105
+    brightBlack: 0
+    brightRed: 47.1
+    brightGreen: 84.7
+    brightYellow: 79.4
+    brightBlue: 56.4
+    brightMagenta: 54.2
+    brightCyan: 78.7
+    brightWhite: 105

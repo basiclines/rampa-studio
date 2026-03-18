@@ -1,0 +1,49 @@
+name: "M2D - Fork"
+source:
+  marketplace_id: "VeniceTechnology.venice"
+  version: "1.0.0"
+  installs: 102
+  author: "Venice Technology"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=VeniceTechnology.venice"
+colors:
+  bg: "#303841"
+  fg: "#D9DEE9"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 251
+  contrast:
+    fg: 79.4
+    black: 0
+    red: 20.7
+    green: 47
+    yellow: 79.6
+    blue: 21.4
+    magenta: 23.7
+    cyan: 41.5
+    white: 84
+    brightBlack: 16
+    brightRed: 32.5
+    brightGreen: 57.5
+    brightYellow: 89.6
+    brightBlue: 34
+    brightMagenta: 39.3
+    brightCyan: 49.4
+    brightWhite: 84

@@ -1,0 +1,49 @@
+name: "Qubik Light"
+source:
+  marketplace_id: "qnbhd.qubik-themes"
+  version: "0.0.1"
+  installs: 21
+  author: "Templin Konstantin"
+  repo: "https://github.com/qnbhd/qubik-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=qnbhd.qubik-themes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#202020"
+  black: "#000000"
+  red: "#C83A4A"
+  green: "#3C9C7A"
+  yellow: "#9A9530"
+  blue: "#1B63B4"
+  magenta: "#706A80"
+  cyan: "#3C9C7A"
+  white: "#E0E0E0"
+  brightBlack: "#808080"
+  brightRed: "#FF4D4D"
+  brightGreen: "#3C9C7A"
+  brightYellow: "#D47F34"
+  brightBlue: "#1B63B4"
+  brightMagenta: "#706A80"
+  brightCyan: "#3C9C7A"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 103.3
+    black: 106
+    red: 73.7
+    green: 60.9
+    yellow: 58.2
+    blue: 79.6
+    magenta: 75.6
+    cyan: 60.9
+    white: 15.8
+    brightBlack: 66.9
+    brightRed: 58.7
+    brightGreen: 60.9
+    brightYellow: 57
+    brightBlue: 79.6
+    brightMagenta: 75.6
+    brightCyan: 60.9
+    brightWhite: 0

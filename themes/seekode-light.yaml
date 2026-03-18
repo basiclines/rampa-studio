@@ -1,0 +1,49 @@
+name: "seekode light"
+source:
+  marketplace_id: "seekode-official.seekode-new-theme"
+  version: "1.0.0"
+  installs: 186
+  author: "seekode-official"
+  repo: "https://github.com/seekode/seekode-vsc-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=seekode-official.seekode-new-theme"
+colors:
+  bg: "#ECEFF4"
+  fg: "#212121"
+  black: "#333333"
+  red: "#D32F2F"
+  green: "#77CC00"
+  yellow: "#F29718"
+  blue: "#E0E0E0"
+  magenta: "#9966CC"
+  cyan: "#4DBF99"
+  white: "#C7C7C7"
+  brightBlack: "#A1A1A1"
+  brightRed: "#D6656A"
+  brightGreen: "#A3D900"
+  brightYellow: "#E7C547"
+  brightBlue: "#6871FF"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#57D9AD"
+  brightWhite: "#7E7E7E"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 93.4
+    black: 89
+    red: 63.2
+    green: 29.1
+    yellow: 34.9
+    blue: 0
+    magenta: 58.2
+    cyan: 34.9
+    white: 20.4
+    brightBlack: 40.9
+    brightRed: 52.8
+    brightGreen: 19.9
+    brightYellow: 20
+    brightBlue: 56.3
+    brightMagenta: 51.5
+    brightCyan: 22.2
+    brightWhite: 58.2

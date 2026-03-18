@@ -1,0 +1,49 @@
+name: "Dark Aura"
+source:
+  marketplace_id: "Furqan.dark-aura-theme"
+  version: "1.0.0"
+  installs: 847
+  author: "Furqan"
+  repo: "https://github.com/furqanistic/darkaura"
+  url: "https://marketplace.visualstudio.com/items?itemName=Furqan.dark-aura-theme"
+colors:
+  bg: "#0A0A0F"
+  fg: "#E8E8F0"
+  black: "#2A2A3E"
+  red: "#FF6B6B"
+  green: "#51FA7B"
+  yellow: "#FFD93D"
+  blue: "#74C0FC"
+  magenta: "#D0BFFF"
+  cyan: "#00FFFF"
+  white: "#E8E8F0"
+  brightBlack: "#5A5A7A"
+  brightRed: "#FFA8A8"
+  brightGreen: "#8CFF8C"
+  brightYellow: "#FFE66D"
+  brightBlue: "#A4CAFE"
+  brightMagenta: "#E5D5FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 285
+  contrast:
+    fg: 93.1
+    black: 0
+    red: 48.9
+    green: 85.8
+    yellow: 85.1
+    blue: 64.6
+    magenta: 73.3
+    cyan: 92
+    white: 93.1
+    brightBlack: 19.1
+    brightRed: 68.1
+    brightGreen: 91.7
+    brightYellow: 91.5
+    brightBlue: 72.8
+    brightMagenta: 85.2
+    brightCyan: 93.8
+    brightWhite: 107.7

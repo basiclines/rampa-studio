@@ -1,0 +1,49 @@
+name: "Themenis"
+source:
+  marketplace_id: "RIRICHAN.themenis"
+  version: "0.0.4"
+  installs: 75
+  author: "RIRICHAN"
+  repo: "https://github.com/usiusa7991/Themenis"
+  url: "https://marketplace.visualstudio.com/items?itemName=RIRICHAN.themenis"
+colors:
+  bg: "#1E1E1E"
+  fg: "#FDEDE3"
+  black: "#362922"
+  red: "#FF825C"
+  green: "#2A7157"
+  yellow: "#F2C821"
+  blue: "#4F4BC2"
+  magenta: "#974FE2"
+  cyan: "#3885E8"
+  white: "#FDEDE3"
+  brightBlack: "#66554C"
+  brightRed: "#F05D30"
+  brightGreen: "#4B9278"
+  brightYellow: "#FFCB00"
+  brightBlue: "#433DF5"
+  brightMagenta: "#BD7DFF"
+  brightCyan: "#2484FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 96.1
+    black: 0
+    red: 52.6
+    green: 21
+    yellow: 74
+    blue: 17.3
+    magenta: 28.3
+    cyan: 35.8
+    white: 96.1
+    brightBlack: 15.6
+    brightRed: 40.2
+    brightGreen: 35.4
+    brightYellow: 77.3
+    brightBlue: 18.9
+    brightMagenta: 46.6
+    brightCyan: 36.8
+    brightWhite: 106

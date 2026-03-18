@@ -1,0 +1,49 @@
+name: "safira"
+source:
+  marketplace_id: "yinz.safira"
+  version: "0.0.9"
+  installs: 10360
+  author: "Yinz"
+  repo: "https://github.com/yinzdev/safira-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=yinz.safira"
+colors:
+  bg: "#161D26"
+  fg: "#DCDEDF"
+  black: "#5E5E5E"
+  red: "#FF465C"
+  green: "#0ED78A"
+  yellow: "#FFCE57"
+  blue: "#64C7FF"
+  magenta: "#E560E6"
+  cyan: "#00C5D3"
+  white: "#DCDEDF"
+  brightBlack: "#8C8C8C"
+  brightRed: "#FF465C"
+  brightGreen: "#2ADD75"
+  brightYellow: "#FFCE57"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#FF64FF"
+  brightCyan: "#A6F8E9"
+  brightWhite: "#EBEBEB"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 255
+  contrast:
+    fg: 84.8
+    black: 18.1
+    red: 40.6
+    green: 65.6
+    yellow: 79.2
+    blue: 65.4
+    magenta: 45.1
+    cyan: 59.9
+    white: 84.8
+    brightBlack: 38.9
+    brightRed: 40.6
+    brightGreen: 68.3
+    brightYellow: 79.2
+    brightBlue: 55.3
+    brightMagenta: 52.8
+    brightCyan: 91.7
+    brightWhite: 93.2

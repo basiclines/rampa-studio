@@ -1,0 +1,49 @@
+name: "Cinnamon"
+source:
+  marketplace_id: "imran.cinnamon"
+  version: "0.4.0"
+  installs: 714
+  author: "imran"
+  repo: "https://github.com/strongSoda/cinnamon-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=imran.cinnamon"
+colors:
+  bg: "#272A3F"
+  fg: "#A9BAEF"
+  black: "#000000"
+  red: "#FF4D58"
+  green: "#B2E16B"
+  yellow: "#FFB54D"
+  blue: "#4D85FF"
+  magenta: "#FB84E1"
+  cyan: "#6AD9FB"
+  white: "#A9BAEF"
+  brightBlack: "#6C77AC"
+  brightRed: "#FF4D58"
+  brightGreen: "#B2E16B"
+  brightYellow: "#FFB54D"
+  brightBlue: "#4D85FF"
+  brightMagenta: "#FB84E1"
+  brightCyan: "#6AD9FB"
+  brightWhite: "#A9BAEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 277
+  contrast:
+    fg: 61.7
+    black: 0
+    red: 39.1
+    green: 75.2
+    yellow: 66.7
+    blue: 36.1
+    magenta: 54.9
+    cyan: 71.2
+    white: 61.7
+    brightBlack: 27.7
+    brightRed: 39.1
+    brightGreen: 75.2
+    brightYellow: 66.7
+    brightBlue: 36.1
+    brightMagenta: 54.9
+    brightCyan: 71.2
+    brightWhite: 61.7

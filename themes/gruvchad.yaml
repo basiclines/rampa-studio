@@ -1,0 +1,49 @@
+name: "Gruvchad"
+source:
+  marketplace_id: "Koujir.gruvchad"
+  version: "0.0.1"
+  installs: 3463
+  author: "Koujir"
+  repo: "https://github.com/long-nc/gruvchad-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Koujir.gruvchad"
+colors:
+  bg: "#1E2122"
+  fg: "#C3B499"
+  black: "#2C2F30"
+  red: "#CE8196"
+  green: "#98971A"
+  yellow: "#D6B676"
+  blue: "#6D8DAD"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#EC6B64"
+  brightGreen: "#A9B665"
+  brightYellow: "#E0C080"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#CC7F94"
+  brightCyan: "#86B17F"
+  brightWhite: "#C3B499"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 60.5
+    black: 0
+    red: 44.3
+    green: 41.7
+    yellow: 63
+    blue: 37.4
+    magenta: 30.5
+    cyan: 40.8
+    white: 46.1
+    brightBlack: 35.2
+    brightRed: 42.7
+    brightGreen: 56.8
+    brightYellow: 68.7
+    brightBlue: 51
+    brightMagenta: 43.3
+    brightCyan: 51.9
+    brightWhite: 60.5

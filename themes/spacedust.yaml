@@ -1,0 +1,49 @@
+name: "Spacedust"
+source:
+  marketplace_id: "Wallsified.spacedust"
+  version: "0.0.1"
+  installs: 555
+  author: "Wallsified"
+  repo: "https://github.com/Wallsified/Spacedust-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wallsified.spacedust"
+colors:
+  bg: "#0A1E24"
+  fg: "#ECF0C1"
+  black: "#6E5346"
+  red: "#E35B00"
+  green: "#5CAB96"
+  yellow: "#E3CD7B"
+  blue: "#0F548B"
+  magenta: "#E35B00"
+  cyan: "#06AFC7"
+  white: "#F0F1CE"
+  brightBlack: "#684C31"
+  brightRed: "#FF8A3A"
+  brightGreen: "#AECAB8"
+  brightYellow: "#FFC878"
+  brightBlue: "#67A0CE"
+  brightMagenta: "#FF8A3A"
+  brightCyan: "#83A7B4"
+  brightWhite: "#FEFFF1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  contrast:
+    fg: 94
+    black: 16.1
+    red: 37
+    green: 47.8
+    yellow: 75.1
+    blue: 13.6
+    magenta: 37
+    cyan: 49.6
+    white: 95.5
+    brightBlack: 13.3
+    brightRed: 54.7
+    brightGreen: 68.9
+    brightYellow: 77.4
+    brightBlue: 46.5
+    brightMagenta: 54.7
+    brightCyan: 50
+    brightWhite: 105.5

@@ -1,0 +1,49 @@
+name: "Kuroir Light 02 Vermilion"
+source:
+  marketplace_id: "6o8.colorized-theme"
+  version: "26.0.1"
+  installs: 367
+  author: "6o8"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=6o8.colorized-theme"
+colors:
+  bg: "#FFFDFC"
+  fg: "#000000"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#116329"
+  yellow: "#4D2D00"
+  blue: "#0969DA"
+  magenta: "#8250DF"
+  cyan: "#1B7C83"
+  white: "#6E7781"
+  brightBlack: "#57606A"
+  brightRed: "#A40E26"
+  brightGreen: "#1A7F37"
+  brightYellow: "#633C01"
+  brightBlue: "#218BFF"
+  brightMagenta: "#A475F9"
+  brightCyan: "#3192AA"
+  brightWhite: "#8C959F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 105.1
+    black: 100.5
+    red: 73.8
+    green: 84.3
+    yellow: 97
+    blue: 74
+    magenta: 73.3
+    cyan: 72.8
+    white: 70.6
+    brightBlack: 80.8
+    brightRed: 84.2
+    brightGreen: 73.6
+    brightYellow: 91.1
+    brightBlue: 59.7
+    brightMagenta: 58.3
+    brightCyan: 62.4
+    brightWhite: 56.2

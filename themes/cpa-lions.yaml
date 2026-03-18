@@ -1,0 +1,49 @@
+name: "CPA Lions"
+source:
+  marketplace_id: "cmbell715.cpa-theme"
+  version: "1.0.0"
+  installs: 32
+  author: "cmbell715"
+  repo: "https://github.com/cmbell715/"
+  url: "https://marketplace.visualstudio.com/items?itemName=cmbell715.cpa-theme"
+colors:
+  bg: "#151323"
+  fg: "#AE9C66"
+  black: "#474438"
+  red: "#F60C2E"
+  green: "#08D058"
+  yellow: "#FFC617"
+  blue: "#138BDD"
+  magenta: "#F40092"
+  cyan: "#00F4DC"
+  white: "#AAA493"
+  brightBlack: "#5D5849"
+  brightRed: "#F8435D"
+  brightGreen: "#19F671"
+  brightYellow: "#FFCA63"
+  brightBlue: "#21A4FF"
+  brightMagenta: "#E5349D"
+  brightCyan: "#2BFDD7"
+  brightWhite: "#6A6453"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 289
+  contrast:
+    fg: 48.5
+    black: 9
+    red: 34.6
+    green: 62
+    yellow: 76.3
+    blue: 37.4
+    magenta: 36.4
+    cyan: 83.9
+    white: 52.2
+    brightBlack: 16.5
+    brightRed: 39.4
+    brightGreen: 81.7
+    brightYellow: 78.6
+    brightBlue: 49.5
+    brightMagenta: 35.4
+    brightCyan: 88.6
+    brightWhite: 21.5

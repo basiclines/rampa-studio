@@ -1,0 +1,49 @@
+name: "stained-glass-dark"
+source:
+  marketplace_id: "natecrow.stained-glass-theme"
+  version: "1.0.1"
+  installs: 1429
+  author: "natecrow"
+  repo: "https://github.com/natecrow/stained-glass-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=natecrow.stained-glass-theme"
+colors:
+  bg: "#111111"
+  fg: "#C0B7B1"
+  black: "#303030"
+  red: "#E9655F"
+  green: "#39A462"
+  yellow: "#A48F25"
+  blue: "#5793E9"
+  magenta: "#D469C7"
+  cyan: "#20A0AE"
+  white: "#C6C6C6"
+  brightBlack: "#919191"
+  brightRed: "#FC9BBB"
+  brightGreen: "#ACD372"
+  brightYellow: "#F9B887"
+  brightBlue: "#7ED2FE"
+  brightMagenta: "#D2BDFE"
+  brightCyan: "#24DFC4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 63.8
+    black: 0
+    red: 42.3
+    green: 43
+    yellow: 42
+    blue: 43.4
+    magenta: 43
+    cyan: 43.3
+    white: 71.6
+    brightBlack: 42.6
+    brightRed: 63.6
+    brightGreen: 71.8
+    brightYellow: 71.5
+    brightBlue: 72.9
+    brightMagenta: 72.4
+    brightCyan: 72.8
+    brightWhite: 107.4

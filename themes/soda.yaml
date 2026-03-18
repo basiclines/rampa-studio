@@ -1,0 +1,49 @@
+name: "Soda"
+source:
+  marketplace_id: "fnando.soda"
+  version: "0.0.3"
+  installs: 1195
+  author: "Nando Vieira"
+  repo: "https://github.com/fnando/vscode-soda"
+  url: "https://marketplace.visualstudio.com/items?itemName=fnando.soda"
+colors:
+  bg: "#FFFFFF"
+  fg: "#272727"
+  black: "#222222"
+  red: "#E45024"
+  green: "#5B9D4E"
+  yellow: "#F9AE02"
+  blue: "#0099D0"
+  magenta: "#66008D"
+  cyan: "#00A6B2"
+  white: "#777777"
+  brightBlack: "#222222"
+  brightRed: "#E45024"
+  brightGreen: "#5B9D4E"
+  brightYellow: "#F9AE02"
+  brightBlue: "#0099D0"
+  brightMagenta: "#66008D"
+  brightCyan: "#00A6B2"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 101.8
+    black: 102.9
+    red: 64.8
+    green: 60.1
+    yellow: 35.7
+    blue: 59.1
+    magenta: 92.8
+    cyan: 55.5
+    white: 71.1
+    brightBlack: 102.9
+    brightRed: 64.8
+    brightGreen: 60.1
+    brightYellow: 35.7
+    brightBlue: 59.1
+    brightMagenta: 92.8
+    brightCyan: 55.5
+    brightWhite: 71.1

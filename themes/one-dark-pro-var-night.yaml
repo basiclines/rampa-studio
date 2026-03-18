@@ -1,0 +1,49 @@
+name: "One Dark Pro Var Night"
+source:
+  marketplace_id: "csstools.onedarkprovar"
+  version: "1.1.0"
+  installs: 7893
+  author: "csstools"
+  repo: "https://github.com/csstools/onedarkprovar-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=csstools.onedarkprovar"
+colors:
+  bg: "#1A1A1A"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 59.1
+    black: 0
+    red: 41.8
+    green: 62
+    yellow: 70.2
+    blue: 54.3
+    magenta: 44.8
+    cyan: 54.2
+    white: 82.7
+    brightBlack: 35.2
+    brightRed: 38.1
+    brightGreen: 62
+    brightYellow: 70.2
+    brightBlue: 41.2
+    brightMagenta: 12.4
+    brightCyan: 54.2
+    brightWhite: 82.7

@@ -1,0 +1,49 @@
+name: "Luminarca (Luz)"
+source:
+  marketplace_id: "ricarthlima.luminarca-theme"
+  version: "1.0.1"
+  installs: 207
+  author: "Ricarth Lima"
+  repo: "https://github.com/ricarthlima/luminarca-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=ricarthlima.luminarca-theme"
+colors:
+  bg: "#E6F7FF"
+  fg: "#111821"
+  black: "#D4EFF7"
+  red: "#FF4C3B"
+  green: "#2ECC71"
+  yellow: "#F77828"
+  blue: "#005593"
+  magenta: "#FF4C3B"
+  cyan: "#20BADB"
+  white: "#111821"
+  brightBlack: "#005593"
+  brightRed: "#FF4C3B"
+  brightGreen: "#2ECC71"
+  brightYellow: "#111821"
+  brightBlue: "#495F77"
+  brightMagenta: "#495F77"
+  brightCyan: "#495F77"
+  brightWhite: "#111821"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.1
+    black: 0
+    red: 52.6
+    green: 34.1
+    yellow: 45.8
+    blue: 79.7
+    magenta: 52.6
+    cyan: 38.5
+    white: 98.1
+    brightBlack: 79.7
+    brightRed: 52.6
+    brightGreen: 34.1
+    brightYellow: 98.1
+    brightBlue: 76.1
+    brightMagenta: 76.1
+    brightCyan: 76.1
+    brightWhite: 98.1

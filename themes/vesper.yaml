@@ -1,0 +1,49 @@
+name: "Vesper ++"
+source:
+  marketplace_id: "opedrodev.vesper-pp-lighter"
+  version: "1.0.1"
+  installs: 1465
+  author: "opedrodev"
+  repo: "https://github.com/opedrodev/vesper"
+  url: "https://marketplace.visualstudio.com/items?itemName=opedrodev.vesper-pp-lighter"
+colors:
+  bg: "#161616"
+  fg: "#FFFFFF"
+  black: "#161616"
+  red: "#FF8080"
+  green: "#99FFE4"
+  yellow: "#FFC799"
+  blue: "#FFC799"
+  magenta: "#FBADFF"
+  cyan: "#99FFE4"
+  white: "#E3E3DD"
+  brightBlack: "#161616"
+  brightRed: "#FF8080"
+  brightGreen: "#99FFE4"
+  brightYellow: "#FFC799"
+  brightBlue: "#FFC799"
+  brightMagenta: "#FBADFF"
+  brightCyan: "#99FFE4"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 107
+    black: 0
+    red: 53.8
+    green: 94.7
+    yellow: 78.4
+    blue: 78.4
+    magenta: 72.4
+    cyan: 94.7
+    white: 88.6
+    brightBlack: 0
+    brightRed: 53.8
+    brightGreen: 94.7
+    brightYellow: 78.4
+    brightBlue: 78.4
+    brightMagenta: 72.4
+    brightCyan: 94.7
+    brightWhite: 102.1

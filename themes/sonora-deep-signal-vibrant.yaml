@@ -1,0 +1,49 @@
+name: "Sonora Deep Signal (vibrant)"
+source:
+  marketplace_id: "martinlatrille.sonora"
+  version: "0.0.8"
+  installs: 32
+  author: "martinlatrille"
+  repo: "https://github.com/martinlatrille/Sonora"
+  url: "https://marketplace.visualstudio.com/items?itemName=martinlatrille.sonora"
+colors:
+  bg: "#21252B"
+  fg: "#D7DAE6"
+  black: "#282C34"
+  red: "#F17497"
+  green: "#93DD8D"
+  yellow: "#F7D997"
+  blue: "#71A5F9"
+  magenta: "#F1ACDE"
+  cyan: "#7FDCCD"
+  white: "#B4B5BA"
+  brightBlack: "#435472"
+  brightRed: "#F37799"
+  brightGreen: "#89D88B"
+  brightYellow: "#EBD391"
+  brightBlue: "#74A8FC"
+  brightMagenta: "#F2AEDE"
+  brightCyan: "#6BD7CA"
+  brightWhite: "#C4C8D4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 258
+  contrast:
+    fg: 81.5
+    black: 0
+    red: 46.6
+    green: 72.5
+    yellow: 82.7
+    blue: 50.5
+    magenta: 66.6
+    cyan: 72.7
+    white: 59.6
+    brightBlack: 12.7
+    brightRed: 47.9
+    brightGreen: 69.3
+    brightYellow: 78.1
+    brightBlue: 52
+    brightMagenta: 67.5
+    brightCyan: 69.1
+    brightWhite: 70.5

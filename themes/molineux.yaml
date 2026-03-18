@@ -1,0 +1,49 @@
+name: "Molineux"
+source:
+  marketplace_id: "archiehicklin.molineux"
+  version: "0.0.1"
+  installs: 1012
+  author: "Archie Hicklin"
+  repo: "https://github.com/ArchieHicklin/Molineux-Theme-for-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=archiehicklin.molineux"
+colors:
+  bg: "#222222"
+  fg: "#BAD2D7"
+  black: "#222222"
+  red: "#222222"
+  green: "#34E2C1"
+  yellow: "#FFB400"
+  blue: "#4DC2FE"
+  magenta: "#F95B6B"
+  cyan: "#4DC2FE"
+  white: "#F6CDA2"
+  brightBlack: "#222222"
+  brightRed: "#FE4F8B"
+  brightGreen: "#34E2C1"
+  brightYellow: "#FFB400"
+  brightBlue: "#4DC2FE"
+  brightMagenta: "#FE4F8B"
+  brightCyan: "#4DC2FE"
+  brightWhite: "#F6CDA2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 74.2
+    black: 0
+    red: 0
+    green: 72.5
+    yellow: 67.7
+    blue: 61.4
+    magenta: 42.1
+    cyan: 61.4
+    white: 78.2
+    brightBlack: 0
+    brightRed: 42.1
+    brightGreen: 72.5
+    brightYellow: 67.7
+    brightBlue: 61.4
+    brightMagenta: 42.1
+    brightCyan: 61.4
+    brightWhite: 78.2

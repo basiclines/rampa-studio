@@ -1,0 +1,49 @@
+name: "Nord Operator Theme"
+source:
+  marketplace_id: "tomByrer.nord-city-theme"
+  version: "1.2.3"
+  installs: 5910
+  author: "tom byrer"
+  repo: "https://github.com/tomByrer/nord-city-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tomByrer.nord-city-theme"
+colors:
+  bg: "#0B0D10"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 86.1
+    black: 8.9
+    red: 33.7
+    green: 62.4
+    yellow: 77.1
+    blue: 49.4
+    magenta: 47.2
+    cyan: 63.4
+    white: 93.1
+    brightBlack: 16.1
+    brightRed: 33.7
+    brightGreen: 62.4
+    brightYellow: 77.1
+    brightBlue: 49.4
+    brightMagenta: 47.2
+    brightCyan: 61.3
+    brightWhite: 97

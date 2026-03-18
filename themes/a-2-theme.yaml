@@ -1,0 +1,49 @@
+name: "A.2 Theme"
+source:
+  marketplace_id: "AmitGupta60600.a2-theme"
+  version: "0.0.3"
+  installs: 83
+  author: "Amit.Gupta"
+  repo: "https://github.com/Amit7976/A.2-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AmitGupta60600.a2-theme"
+colors:
+  bg: "#0F0F0F"
+  fg: "#BABABA"
+  black: "#7B7B7B"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2777CF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E0E0E0"
+  brightBlack: "#9D9D9D"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 64.8
+    black: 32
+    red: 27.3
+    green: 53.6
+    yellow: 86.2
+    blue: 30.2
+    magenta: 30.4
+    cyan: 48.2
+    white: 87.5
+    brightBlack: 48.9
+    brightRed: 39.2
+    brightGreen: 64.2
+    brightYellow: 96.3
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 107.5

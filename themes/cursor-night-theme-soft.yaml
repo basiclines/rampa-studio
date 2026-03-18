@@ -1,0 +1,49 @@
+name: "Cursor Night Theme Soft"
+source:
+  marketplace_id: "DiegoMontejano.cursor-night-theme"
+  version: "1.0.0"
+  installs: 1011
+  author: "Diego Montejano"
+  repo: "https://github.com/diegomontejano/cursor-night-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DiegoMontejano.cursor-night-theme"
+colors:
+  bg: "#272B34"
+  fg: "#D6DADF"
+  black: "#272C36"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#E6CFA1"
+  blue: "#81A1C1"
+  magenta: "#7D7C9B"
+  cyan: "#90CADB"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#E6CFA1"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#D6DADF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  contrast:
+    fg: 79.8
+    black: 0
+    red: 30
+    green: 58.6
+    yellow: 74.9
+    blue: 45.6
+    magenta: 30.2
+    cyan: 65.2
+    white: 89.3
+    brightBlack: 12.4
+    brightRed: 30
+    brightGreen: 58.6
+    brightYellow: 74.9
+    brightBlue: 45.6
+    brightMagenta: 43.5
+    brightCyan: 57.6
+    brightWhite: 79.8

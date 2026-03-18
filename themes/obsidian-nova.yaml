@@ -1,0 +1,49 @@
+name: "Obsidian Nova"
+source:
+  marketplace_id: "JaSperryTech.obsidian-nova"
+  version: "1.0.3"
+  installs: 56
+  author: "JaSperryTech"
+  repo: "https://github.com/JaSperryTech-Main/nova-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JaSperryTech.obsidian-nova"
+colors:
+  bg: "#232632"
+  fg: "#AFB5CF"
+  black: "#272A37"
+  red: "#ED6977"
+  green: "#96D694"
+  yellow: "#E5AD61"
+  blue: "#6CA5F7"
+  magenta: "#C184EA"
+  cyan: "#6DCAEA"
+  white: "#C4C7D2"
+  brightBlack: "#4E556F"
+  brightRed: "#F76D7C"
+  brightGreen: "#8DCF92"
+  brightYellow: "#EFB465"
+  brightBlue: "#6DB0FC"
+  brightMagenta: "#CA8AF5"
+  brightCyan: "#70D4F4"
+  brightWhite: "#DBDCE7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 274
+  contrast:
+    fg: 59.6
+    black: 0
+    red: 41.9
+    green: 69.3
+    yellow: 60.5
+    blue: 49.7
+    magenta: 46.4
+    cyan: 64.4
+    white: 69.7
+    brightBlack: 13.3
+    brightRed: 45.1
+    brightGreen: 65.2
+    brightYellow: 64.9
+    brightBlue: 54.5
+    brightMagenta: 50.3
+    brightCyan: 69.7
+    brightWhite: 82.6

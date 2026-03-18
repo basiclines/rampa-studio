@@ -1,0 +1,49 @@
+name: "Poolside"
+source:
+  marketplace_id: "nsgrantham.poolside"
+  version: "1.2.0"
+  installs: 695
+  author: "nsgrantham"
+  repo: "https://github.com/nsgrantham/poolside-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nsgrantham.poolside"
+colors:
+  bg: "#1F1B36"
+  fg: "#F0F0FC"
+  black: "#5C4FB0"
+  red: "#F797AF"
+  green: "#CBF78D"
+  yellow: "#F7CD92"
+  blue: "#979FF7"
+  magenta: "#EF97F7"
+  cyan: "#92EFF7"
+  white: "#F0F0FC"
+  brightBlack: "#5C4FB0"
+  brightRed: "#F797AF"
+  brightGreen: "#CBF78D"
+  brightYellow: "#F7CD92"
+  brightBlue: "#979FF7"
+  brightMagenta: "#EF97F7"
+  brightCyan: "#92EFF7"
+  brightWhite: "#F0F0FC"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 289
+  contrast:
+    fg: 96.6
+    black: 17.7
+    red: 59.4
+    green: 91.4
+    yellow: 78.3
+    blue: 52.2
+    magenta: 61.6
+    cyan: 86.1
+    white: 96.6
+    brightBlack: 17.7
+    brightRed: 59.4
+    brightGreen: 91.4
+    brightYellow: 78.3
+    brightBlue: 52.2
+    brightMagenta: 61.6
+    brightCyan: 86.1
+    brightWhite: 96.6

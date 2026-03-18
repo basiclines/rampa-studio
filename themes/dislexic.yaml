@@ -1,0 +1,49 @@
+name: "dislexic"
+source:
+  marketplace_id: "SpeedyLom.dislexic-vscode"
+  version: "2.1.0"
+  installs: 2005
+  author: "SpeedyLom"
+  repo: "https://github.com/SpeedyLom/dislexic-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SpeedyLom.dislexic-vscode"
+colors:
+  bg: "#F7F3F3"
+  fg: "#242523"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#28A148"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#AD11C8"
+  cyan: "#005E85"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#E02525"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#008CE3"
+  brightMagenta: "#CA007D"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 95.7
+    black: 99.4
+    red: 67.3
+    green: 53.7
+    yellow: 51.3
+    blue: 79.4
+    magenta: 69.8
+    cyan: 77.6
+    white: 79.3
+    brightBlack: 72.1
+    brightRed: 64.1
+    brightGreen: 34.3
+    brightYellow: 34.3
+    brightBlue: 56
+    brightMagenta: 68.3
+    brightCyan: 54
+    brightWhite: 41.8

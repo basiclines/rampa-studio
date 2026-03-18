@@ -1,0 +1,49 @@
+name: "pantasio"
+source:
+  marketplace_id: "pantasio.pkit"
+  version: "0.0.3"
+  installs: 116
+  author: "pantasio"
+  repo: "https://github.com/pantasio/pkit-VScode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pantasio.pkit"
+colors:
+  bg: "#131A24"
+  fg: "#FFEFB8"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#20E3B2"
+  yellow: "#FDE181"
+  blue: "#BD93F9"
+  magenta: "#FF6BCB"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#8D92FF"
+  brightRed: "#FF6E6E"
+  brightGreen: "#20E3B2"
+  brightYellow: "#EAC394"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF6BCB"
+  brightCyan: "#2CCCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 257
+  contrast:
+    fg: 96.2
+    black: 0
+    red: 43.1
+    green: 73.3
+    yellow: 88.1
+    blue: 53.3
+    magenta: 51.3
+    cyan: 83.7
+    white: 101.7
+    brightBlack: 47.8
+    brightRed: 48.5
+    brightGreen: 73.3
+    brightYellow: 72.9
+    brightBlue: 53.3
+    brightMagenta: 51.3
+    brightCyan: 66.2
+    brightWhite: 106.6

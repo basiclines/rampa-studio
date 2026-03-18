@@ -1,0 +1,49 @@
+name: "Camula"
+source:
+  marketplace_id: "Vesko.theme-camula"
+  version: "1.0.0"
+  installs: 52
+  author: "Vesko"
+  repo: "https://github.com/veselink1/camula-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vesko.theme-camula"
+colors:
+  bg: "#22212C"
+  fg: "#F6F6F4"
+  black: "#262626"
+  red: "#EE6666"
+  green: "#95F28D"
+  yellow: "#F2F28D"
+  blue: "#9D8DF2"
+  magenta: "#F28DBF"
+  cyan: "#8DF2E1"
+  white: "#F6F6F4"
+  brightBlack: "#7B7F8B"
+  brightRed: "#F07C7C"
+  brightGreen: "#78F09A"
+  brightYellow: "#F6F6AE"
+  brightBlue: "#D6B4F7"
+  brightMagenta: "#F49DDA"
+  brightCyan: "#ADF6F6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 289
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 41.8
+    green: 83.4
+    yellow: 93.4
+    blue: 45.8
+    magenta: 55.6
+    cyan: 85.7
+    white: 99.4
+    brightBlack: 31.9
+    brightRed: 48
+    brightGreen: 80.7
+    brightYellow: 96.7
+    brightBlue: 67.1
+    brightMagenta: 62.3
+    brightCyan: 91.2
+    brightWhite: 105.4

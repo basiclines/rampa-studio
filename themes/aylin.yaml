@@ -1,0 +1,49 @@
+name: "Aylin"
+source:
+  marketplace_id: "AhmedAbdulrahman.aylin"
+  version: "1.13.0"
+  installs: 9802
+  author: "Ahmed Abdulrahman"
+  repo: "https://github.com/AhmedAbdulrahman/aylin-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AhmedAbdulrahman.aylin"
+colors:
+  bg: "#191F2B"
+  fg: "#CBCCC6"
+  black: "#191E2A"
+  red: "#ED8274"
+  green: "#A6CC70"
+  yellow: "#FAD07B"
+  blue: "#6DCBFA"
+  magenta: "#CFBAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFD580"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#D4BFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  contrast:
+    fg: 73.3
+    black: 0
+    red: 49.4
+    green: 66.5
+    yellow: 79.5
+    blue: 67
+    magenta: 69.1
+    cyan: 76.9
+    white: 70.7
+    brightBlack: 21.9
+    brightRed: 51.9
+    brightGreen: 80.9
+    brightYellow: 82.5
+    brightBlue: 69.9
+    brightMagenta: 72
+    brightCyan: 79.9
+    brightWhite: 105.9

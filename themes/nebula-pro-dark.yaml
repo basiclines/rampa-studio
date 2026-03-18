@@ -1,0 +1,49 @@
+name: "Nebula Pro Dark"
+source:
+  marketplace_id: "SecureDev01.vscode-multi-themes"
+  version: "0.0.51"
+  installs: 1834
+  author: "SecureDev"
+  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+colors:
+  bg: "#1E1F29"
+  fg: "#F8F8F2"
+  black: "#1E1F29"
+  red: "#FF6188"
+  green: "#A9DC76"
+  yellow: "#FFD866"
+  blue: "#78DCE8"
+  magenta: "#AB9DF2"
+  cyan: "#78DCE8"
+  white: "#F8F8F2"
+  brightBlack: "#5A5D6E"
+  brightRed: "#FF6188"
+  brightGreen: "#A9DC76"
+  brightYellow: "#FFD866"
+  brightBlue: "#78DCE8"
+  brightMagenta: "#AB9DF2"
+  brightCyan: "#A9DC76"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 100.9
+    black: 0
+    red: 45.7
+    green: 74.2
+    yellow: 83.3
+    blue: 74.4
+    magenta: 53.2
+    cyan: 74.4
+    white: 100.9
+    brightBlack: 17.5
+    brightRed: 45.7
+    brightGreen: 74.2
+    brightYellow: 83.3
+    brightBlue: 74.4
+    brightMagenta: 53.2
+    brightCyan: 74.2
+    brightWhite: 100.9

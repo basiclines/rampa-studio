@@ -1,0 +1,49 @@
+name: "codecourse-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#547F91"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#1EA8FC"
+  yellow: "#5DCDFD"
+  blue: "#547F91"
+  magenta: "#1EA8FC"
+  cyan: "#5DCDFD"
+  white: "#5D8DA1"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#83CFFD"
+  brightYellow: "#C2ECFE"
+  brightBlue: "#8EAFBD"
+  brightMagenta: "#83CFFD"
+  brightCyan: "#C2ECFE"
+  brightWhite: "#8EAFBD"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 70.1
+    black: 0
+    red: 80.3
+    green: 50.3
+    yellow: 33.4
+    blue: 70.1
+    magenta: 50.3
+    cyan: 33.4
+    white: 63.8
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 30.4
+    brightYellow: 12.7
+    brightBlue: 45.9
+    brightMagenta: 30.4
+    brightCyan: 12.7
+    brightWhite: 45.9

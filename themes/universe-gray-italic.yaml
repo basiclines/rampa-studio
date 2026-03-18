@@ -1,0 +1,49 @@
+name: "Universe Gray Italic"
+source:
+  marketplace_id: "MatiasOlivera.universe"
+  version: "1.9.0"
+  installs: 20196
+  author: "Matías Olivera"
+  repo: "https://github.com/MatiasOlivera/universe-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe"
+colors:
+  bg: "#1A1A1A"
+  fg: "#DDDDDD"
+  black: "#373737"
+  red: "#FFA2A2"
+  green: "#BBD99E"
+  yellow: "#E6D791"
+  blue: "#9AC6F2"
+  magenta: "#C1A2FF"
+  cyan: "#92D8E6"
+  white: "#DDDDDD"
+  brightBlack: "#4C4C4C"
+  brightRed: "#FFB3B3"
+  brightGreen: "#C9E2AF"
+  brightYellow: "#ECE0A5"
+  brightBlue: "#ACD1F5"
+  brightMagenta: "#CCB3FF"
+  brightCyan: "#A5E0EC"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 84.7
+    black: 0
+    red: 64.7
+    green: 76.4
+    yellow: 80.6
+    blue: 68.3
+    magenta: 59.3
+    cyan: 74.9
+    white: 84.7
+    brightBlack: 11.4
+    brightRed: 71.2
+    brightGreen: 82.7
+    brightYellow: 86
+    brightBlue: 74.9
+    brightMagenta: 67
+    brightCyan: 80.5
+    brightWhite: 98

@@ -1,0 +1,49 @@
+name: "BlackLite"
+source:
+  marketplace_id: "LiamRalph.blacklite"
+  version: "1.0.9"
+  installs: 27
+  author: "LiamRalph"
+  repo: "https://github.com/Liam-Ralph/blacklite"
+  url: "https://marketplace.visualstudio.com/items?itemName=LiamRalph.blacklite"
+colors:
+  bg: "#000000"
+  fg: "#BBBBBB"
+  black: "#000000"
+  red: "#AA0000"
+  green: "#00AA00"
+  yellow: "#AAAA00"
+  blue: "#0000AA"
+  magenta: "#AA00AA"
+  cyan: "#00AAAA"
+  white: "#808080"
+  brightBlack: "#555555"
+  brightRed: "#FF5555"
+  brightGreen: "#55FF55"
+  brightYellow: "#FFFF55"
+  brightBlue: "#5555FF"
+  brightMagenta: "#FF55FF"
+  brightCyan: "#55FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 65.7
+    black: 0
+    red: 17.8
+    green: 44.5
+    yellow: 53.4
+    blue: 0
+    magenta: 22.5
+    cyan: 47.6
+    white: 34.8
+    brightBlack: 16.1
+    brightRed: 44.4
+    brightGreen: 88.1
+    brightYellow: 103.1
+    brightBlue: 27.4
+    brightMagenta: 51.9
+    brightCyan: 93.4
+    brightWhite: 107.9

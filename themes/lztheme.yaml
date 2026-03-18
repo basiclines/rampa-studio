@@ -1,0 +1,49 @@
+name: "LzTheme"
+source:
+  marketplace_id: "LzTheme.LzTheme"
+  version: "0.0.1"
+  installs: 46
+  author: "LzTheme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=LzTheme.LzTheme"
+colors:
+  bg: "#1D1D1D"
+  fg: "#B0B0B0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 57.8
+    black: 0
+    red: 26
+    green: 52.3
+    yellow: 84.9
+    blue: 26.7
+    magenta: 29.1
+    cyan: 46.9
+    white: 106.2
+    brightBlack: 21.3
+    brightRed: 37.9
+    brightGreen: 62.8
+    brightYellow: 94.9
+    brightBlue: 39.3
+    brightMagenta: 44.7
+    brightCyan: 54.7
+    brightWhite: 89.3

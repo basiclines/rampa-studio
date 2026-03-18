@@ -1,0 +1,49 @@
+name: "Sceanic - Dark Gray"
+source:
+  marketplace_id: "TobiasTimm.sceanic"
+  version: "1.1.1"
+  installs: 1335
+  author: "Tobias Timm"
+  repo: "https://github.com/tobiastimm/sceanic"
+  url: "https://marketplace.visualstudio.com/items?itemName=TobiasTimm.sceanic"
+colors:
+  bg: "#1E232E"
+  fg: "#CED4DE"
+  black: "#7F7F7F"
+  red: "#EC5F66"
+  green: "#99C794"
+  yellow: "#FFE2A9"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#CED4DE"
+  brightBlack: "#7F7F7F"
+  brightRed: "#EC5F66"
+  brightGreen: "#99C794"
+  brightYellow: "#FFE2A9"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#CED4DE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  contrast:
+    fg: 77.6
+    black: 31.7
+    red: 39.7
+    green: 63.3
+    yellow: 88.6
+    blue: 42.6
+    magenta: 50.5
+    cyan: 51.5
+    white: 77.6
+    brightBlack: 31.7
+    brightRed: 39.7
+    brightGreen: 63.3
+    brightYellow: 88.6
+    brightBlue: 42.6
+    brightMagenta: 50.5
+    brightCyan: 51.5
+    brightWhite: 77.6

@@ -1,0 +1,49 @@
+name: "Slate Gray"
+source:
+  marketplace_id: "postnumbers.slate-themes"
+  version: "0.0.4"
+  installs: 37
+  author: "Postnumbers"
+  repo: "https://github.com/postnumbers/slate-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=postnumbers.slate-themes"
+colors:
+  bg: "#2B313B"
+  fg: "#D4D7DD"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 261
+  contrast:
+    fg: 76.9
+    black: 0
+    red: 22.4
+    green: 48.7
+    yellow: 81.3
+    blue: 23.2
+    magenta: 25.5
+    cyan: 43.3
+    white: 85.7
+    brightBlack: 17.8
+    brightRed: 34.3
+    brightGreen: 59.3
+    brightYellow: 91.4
+    brightBlue: 35.7
+    brightMagenta: 41.1
+    brightCyan: 51.1
+    brightWhite: 85.7

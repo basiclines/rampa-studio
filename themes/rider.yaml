@@ -1,0 +1,49 @@
+name: "Rider"
+source:
+  marketplace_id: "arzg.intellij-theme"
+  version: "1.11.0"
+  installs: 97297
+  author: "arzg"
+  repo: "https://github.com/arzg/intellij-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=arzg.intellij-theme"
+colors:
+  bg: "#2B2B2B"
+  fg: "#B4B4B4"
+  black: "#313131"
+  red: "#F0524F"
+  green: "#5C962C"
+  yellow: "#A68A0D"
+  blue: "#3993D4"
+  magenta: "#A771BF"
+  cyan: "#00A3A3"
+  white: "#B4B4B4"
+  brightBlack: "#818181"
+  brightRed: "#FF4050"
+  brightGreen: "#4FC414"
+  brightYellow: "#E5BF00"
+  brightBlue: "#1FB0FF"
+  brightMagenta: "#ED7EED"
+  brightCyan: "#00E5E5"
+  brightWhite: "#B4B4B4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 57.7
+    black: 0
+    red: 36.3
+    green: 34.4
+    yellow: 36.9
+    blue: 37.3
+    magenta: 33.7
+    cyan: 40.4
+    white: 57.7
+    brightBlack: 31.2
+    brightRed: 37.3
+    brightGreen: 53.8
+    brightYellow: 66
+    brightBlue: 51.1
+    brightMagenta: 51.5
+    brightCyan: 73.6
+    brightWhite: 57.7

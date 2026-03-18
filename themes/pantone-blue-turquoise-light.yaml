@@ -1,0 +1,49 @@
+name: "Pantone Blue Turquoise (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F9F9F9"
+  fg: "#0C1A1A"
+  black: "#0C1A1A"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F9F9F9"
+  brightBlack: "#7EA5A4"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 101
+    black: 101
+    red: 75.2
+    green: 58.8
+    yellow: 43
+    blue: 86.2
+    magenta: 82.4
+    cyan: 75.5
+    white: 0
+    brightBlack: 48.6
+    brightRed: 64.9
+    brightGreen: 45.6
+    brightYellow: 26.8
+    brightBlue: 52.3
+    brightMagenta: 63.9
+    brightCyan: 45
+    brightWhite: 0

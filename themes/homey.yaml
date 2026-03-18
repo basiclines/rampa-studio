@@ -1,0 +1,49 @@
+name: "Homey"
+source:
+  marketplace_id: "kepler0.homey-theme"
+  version: "0.0.1"
+  installs: 2507
+  author: "kepler0"
+  repo: "https://github.com/notAlaanor/homey-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kepler0.homey-theme"
+colors:
+  bg: "#221F1D"
+  fg: "#F5D7C2"
+  black: "#221F1D"
+  red: "#A0B461"
+  green: "#E39546"
+  yellow: "#E9785C"
+  blue: "#CF7E5C"
+  magenta: "#B8A63D"
+  cyan: "#95D053"
+  white: "#D9BEAC"
+  brightBlack: "#4C423B"
+  brightRed: "#C0A63A"
+  brightGreen: "#95D053"
+  brightYellow: "#E9785C"
+  brightBlue: "#CF7E5C"
+  brightMagenta: "#B8A63D"
+  brightCyan: "#95D053"
+  brightWhite: "#F5D7C2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 83.7
+    black: 0
+    red: 55.1
+    green: 52.4
+    yellow: 45.3
+    blue: 42.1
+    magenta: 51.8
+    cyan: 66.2
+    white: 68.3
+    brightBlack: 7.7
+    brightRed: 52.8
+    brightGreen: 66.2
+    brightYellow: 45.3
+    brightBlue: 42.1
+    brightMagenta: 51.8
+    brightCyan: 66.2
+    brightWhite: 83.7

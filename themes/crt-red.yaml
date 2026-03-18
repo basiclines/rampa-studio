@@ -1,0 +1,49 @@
+name: "CRT Red"
+source:
+  marketplace_id: "krueger71.crt-themes"
+  version: "0.5.2"
+  installs: 38247
+  author: "krueger71"
+  repo: "https://github.com/krueger71/crt-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=krueger71.crt-themes"
+colors:
+  bg: "#111111"
+  fg: "#FF2222"
+  black: "#FF2222"
+  red: "#C01D1D"
+  green: "#CF1F1F"
+  yellow: "#A01B1B"
+  blue: "#EF2121"
+  magenta: "#DF2020"
+  cyan: "#B01C1C"
+  white: "#901A1A"
+  brightBlack: "#FF2222"
+  brightRed: "#C01D1D"
+  brightGreen: "#CF1F1F"
+  brightYellow: "#A01B1B"
+  brightBlue: "#EF2121"
+  brightMagenta: "#DF2020"
+  brightCyan: "#B01C1C"
+  brightWhite: "#901A1A"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 37.8
+    black: 37.8
+    red: 22.7
+    green: 26.2
+    yellow: 15.9
+    blue: 33.8
+    magenta: 29.9
+    cyan: 19.2
+    white: 12.7
+    brightBlack: 37.8
+    brightRed: 22.7
+    brightGreen: 26.2
+    brightYellow: 15.9
+    brightBlue: 33.8
+    brightMagenta: 29.9
+    brightCyan: 19.2
+    brightWhite: 12.7

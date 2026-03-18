@@ -1,0 +1,49 @@
+name: "Solarized (light)"
+source:
+  marketplace_id: "zicong-zhang1996.theme-diy"
+  version: "2.0.0"
+  installs: 99
+  author: "zicong-zhang1996"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=zicong-zhang1996.theme-diy"
+colors:
+  bg: "#FAF8E8"
+  fg: "#000000"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#EEE8D5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 101.5
+    black: 94.4
+    red: 65.9
+    green: 54.5
+    yellow: 54.5
+    blue: 59.3
+    magenta: 65.7
+    cyan: 53.7
+    white: 0
+    brightBlack: 72.2
+    brightRed: 66.4
+    brightGreen: 72.2
+    brightYellow: 66.3
+    brightBlue: 54.2
+    brightMagenta: 65.6
+    brightCyan: 47.4
+    brightWhite: 0

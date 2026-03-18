@@ -1,0 +1,49 @@
+name: "Darkula"
+source:
+  marketplace_id: "JorgeDorio.darkula-theme"
+  version: "0.0.1"
+  installs: 3699
+  author: "Jorge Dorio"
+  repo: "https://github.com/JorgeDorio/darkula"
+  url: "https://marketplace.visualstudio.com/items?itemName=JorgeDorio.darkula-theme"
+colors:
+  bg: "#131313"
+  fg: "#F8F8F2"
+  black: "#131313"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 102.3
+    black: 0
+    red: 43.7
+    green: 85.2
+    yellow: 98.9
+    blue: 54
+    magenta: 54.9
+    cyan: 84.3
+    white: 102.3
+    brightBlack: 28.4
+    brightRed: 49.2
+    brightGreen: 89.4
+    brightYellow: 103.9
+    brightBlue: 66.5
+    brightMagenta: 63
+    brightCyan: 97.1
+    brightWhite: 107.2

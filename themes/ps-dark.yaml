@@ -1,0 +1,49 @@
+name: "PS Dark"
+source:
+  marketplace_id: "ps-designs.startbust-theme"
+  version: "0.1.1"
+  installs: 226
+  author: "Pavel Sanchez"
+  repo: "https://github.com/PaleBluDot/starburst-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ps-designs.startbust-theme"
+colors:
+  bg: "#171717"
+  fg: "#D4D4D4"
+  black: "#D4D4D4"
+  red: "#DD656D"
+  green: "#4EBD8F"
+  yellow: "#D9DF34"
+  blue: "#0076A9"
+  magenta: "#D37FAC"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#D4D4D4"
+  brightRed: "#DD656D"
+  brightGreen: "#4EBD8F"
+  brightYellow: "#D9DF34"
+  brightBlue: "#0076A9"
+  brightMagenta: "#D37FAC"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 79.5
+    black: 79.5
+    red: 39.6
+    green: 55.3
+    yellow: 81.3
+    blue: 26.5
+    magenta: 46.6
+    cyan: 53
+    white: 79.5
+    brightBlack: 79.5
+    brightRed: 39.6
+    brightGreen: 55.3
+    brightYellow: 81.3
+    brightBlue: 26.5
+    brightMagenta: 46.6
+    brightCyan: 53
+    brightWhite: 79.5

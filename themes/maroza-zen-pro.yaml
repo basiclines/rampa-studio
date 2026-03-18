@@ -1,0 +1,49 @@
+name: "Maroza Zen Pro"
+source:
+  marketplace_id: "thirawat27.maroza-theme"
+  version: "1.0.4"
+  installs: 331
+  author: "thirawat27"
+  repo: "https://github.com/thirawat27/maroza-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thirawat27.maroza-theme"
+colors:
+  bg: "#1E222A"
+  fg: "#D4D4D4"
+  black: "#2A323D"
+  red: "#E8987A"
+  green: "#98C379"
+  yellow: "#E8B87A"
+  blue: "#7EB8C4"
+  magenta: "#C9A8D4"
+  cyan: "#7EB8C4"
+  white: "#D4D4D4"
+  brightBlack: "#6B7D8A"
+  brightRed: "#F0A088"
+  brightGreen: "#A8D389"
+  brightYellow: "#F0C888"
+  brightBlue: "#8EC8D4"
+  brightMagenta: "#D9B8E4"
+  brightCyan: "#8EC8D4"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  contrast:
+    fg: 78.1
+    black: 0
+    red: 54.9
+    green: 60.9
+    yellow: 66.4
+    blue: 56.5
+    magenta: 58.9
+    cyan: 56.5
+    white: 78.1
+    brightBlack: 29.8
+    brightRed: 59.4
+    brightGreen: 70
+    brightYellow: 74.4
+    brightBlue: 65.4
+    brightMagenta: 68.1
+    brightCyan: 65.4
+    brightWhite: 94.4

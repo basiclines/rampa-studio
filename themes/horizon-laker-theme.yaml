@@ -1,0 +1,49 @@
+name: "Horizon Laker Theme"
+source:
+  marketplace_id: "julienquennehen.horizon-laker-theme"
+  version: "0.0.8"
+  installs: 512
+  author: "julienquennehen"
+  repo: "https://github.com/JulienQNN/vscode-horizon-laker-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=julienquennehen.horizon-laker-theme"
+colors:
+  bg: "#212121"
+  fg: "#D4BE98"
+  black: "#32302F"
+  red: "#EA6962"
+  green: "#FFA500"
+  yellow: "#DD936E"
+  blue: "#7DAEA3"
+  magenta: "#2CA9B4"
+  cyan: "#FFA500"
+  white: "#D4BE98"
+  brightBlack: "#928374"
+  brightRed: "#EA6962"
+  brightGreen: "#FFA500"
+  brightYellow: "#DD936E"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#2CA9B4"
+  brightCyan: "#FFA500"
+  brightWhite: "#DDC7A1"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 66.7
+    black: 0
+    red: 41.7
+    green: 62.5
+    yellow: 51.2
+    blue: 51
+    magenta: 45.8
+    cyan: 62.5
+    white: 66.7
+    brightBlack: 35.1
+    brightRed: 41.7
+    brightGreen: 62.5
+    brightYellow: 51.2
+    brightBlue: 51
+    brightMagenta: 45.8
+    brightCyan: 62.5
+    brightWhite: 72

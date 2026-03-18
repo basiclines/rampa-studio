@@ -1,0 +1,49 @@
+name: "y3m"
+source:
+  marketplace_id: "YesCode.y3m"
+  version: "0.0.2"
+  installs: 1
+  author: "YesCode"
+  repo: "https://github.com/y3mm/y3m-theme-vs"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.y3m"
+colors:
+  bg: "#020202"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#CFBDFA"
+  brightYellow: "#E7F0FF"
+  brightBlue: "#1E8094"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 105.6
+    black: 0
+    red: 43
+    green: 62
+    yellow: 74.1
+    blue: 48.5
+    magenta: 20.5
+    cyan: 50.5
+    white: 48.2
+    brightBlack: 19.6
+    brightRed: 43
+    brightGreen: 72.2
+    brightYellow: 97.6
+    brightBlue: 30.1
+    brightMagenta: 20.5
+    brightCyan: 50.5
+    brightWhite: 99.9

@@ -1,0 +1,49 @@
+name: "sweetdracula monokai"
+source:
+  marketplace_id: "lefd.sweetdracula-monokai"
+  version: "1.1.14"
+  installs: 8143
+  author: "lefd"
+  repo: "https://github.com/LEFD/sweetdracula-monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai"
+colors:
+  bg: "#161925"
+  fg: "#F8F8F2"
+  black: "#666666"
+  red: "#FD971F"
+  green: "#A6E22E"
+  yellow: "#E6DB74"
+  blue: "#AE81FF"
+  magenta: "#F92672"
+  cyan: "#66D9EF"
+  white: "#E3E3DD"
+  brightBlack: "#6272A4"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 273
+  contrast:
+    fg: 101.7
+    black: 21.8
+    red: 58.4
+    green: 76.7
+    yellow: 81.8
+    blue: 46.2
+    magenta: 37
+    cyan: 73.1
+    white: 88.2
+    brightBlack: 27.8
+    brightRed: 43.1
+    brightGreen: 84.6
+    brightYellow: 98.3
+    brightBlue: 53.4
+    brightMagenta: 54.3
+    brightCyan: 83.7
+    brightWhite: 101.7

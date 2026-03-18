@@ -1,0 +1,49 @@
+name: "Darkwaves: Obsidian"
+source:
+  marketplace_id: "spacelaxy.spacelaxy-darkwaves"
+  version: "0.0.8"
+  installs: 677
+  author: "Spacelaxy LLC"
+  repo: "https://github.com/spacelaxy/darkwaves"
+  url: "https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves"
+colors:
+  bg: "#0A0A0A"
+  fg: "#D0D0D0"
+  black: "#000000"
+  red: "#FF6B6B"
+  green: "#00FF88"
+  yellow: "#FFD93D"
+  blue: "#4EC9B0"
+  magenta: "#C586C0"
+  cyan: "#00D4FF"
+  white: "#E8E8E8"
+  brightBlack: "#000000"
+  brightRed: "#FF6B6B"
+  brightGreen: "#00FF88"
+  brightYellow: "#FFD93D"
+  brightBlue: "#4EC9B0"
+  brightMagenta: "#C586C0"
+  brightCyan: "#00D4FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 77.9
+    black: 0
+    red: 49
+    green: 87.6
+    yellow: 85.2
+    blue: 62.8
+    magenta: 48.2
+    cyan: 70.8
+    white: 92.8
+    brightBlack: 0
+    brightRed: 49
+    brightGreen: 87.6
+    brightYellow: 85.2
+    brightBlue: 62.8
+    brightMagenta: 48.2
+    brightCyan: 70.8
+    brightWhite: 107.7

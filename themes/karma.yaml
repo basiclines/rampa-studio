@@ -1,0 +1,49 @@
+name: "Karma"
+source:
+  marketplace_id: "SreetamD.karma"
+  version: "3.1.1"
+  installs: 23745
+  author: "Sreetam Das"
+  repo: "https://github.com/sreetamdas/karma"
+  url: "https://marketplace.visualstudio.com/items?itemName=SreetamD.karma"
+colors:
+  bg: "#FFFFFF"
+  fg: "#0A0E14"
+  black: "#FFFFFF"
+  red: "#FC618D"
+  green: "#2D972F"
+  yellow: "#EEAE11"
+  blue: "#6F42C1"
+  magenta: "#FA8D3E"
+  cyan: "#5688C7"
+  white: "#0A0E14"
+  brightBlack: "#999999"
+  brightRed: "#FC618D"
+  brightGreen: "#2D972F"
+  brightYellow: "#EEAE11"
+  brightBlue: "#6F42C1"
+  brightMagenta: "#FA8D3E"
+  brightCyan: "#5688C7"
+  brightWhite: "#0A0E14"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 105.6
+    black: 0
+    red: 54.5
+    green: 64.7
+    yellow: 37.5
+    blue: 81.7
+    magenta: 45.9
+    cyan: 64
+    white: 105.6
+    brightBlack: 54.6
+    brightRed: 54.5
+    brightGreen: 64.7
+    brightYellow: 37.5
+    brightBlue: 81.7
+    brightMagenta: 45.9
+    brightCyan: 64
+    brightWhite: 105.6

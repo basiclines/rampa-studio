@@ -1,0 +1,49 @@
+name: "monochrome-light-indigo"
+source:
+  marketplace_id: "anotherglitchinthematrix.monochrome"
+  version: "2.4.3"
+  installs: 47933
+  author: "glitch"
+  repo: "https://github.com/anotherglitchinthematrix/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=anotherglitchinthematrix.monochrome"
+colors:
+  bg: "#F8FAFC"
+  fg: "#545B69"
+  black: "#F8FAFC"
+  red: "#848993"
+  green: "#B2B6BD"
+  yellow: "#555B69"
+  blue: "#C9CDD2"
+  magenta: "#6C727E"
+  cyan: "#9B9FA8"
+  white: "#3E4454"
+  brightBlack: "#E1E3E7"
+  brightRed: "#848993"
+  brightGreen: "#B2B6BD"
+  brightYellow: "#555B69"
+  brightBlue: "#C9CDD2"
+  brightMagenta: "#6C727E"
+  brightCyan: "#9B9FA8"
+  brightWhite: "#0F172A"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 59.5
+    green: 36.4
+    yellow: 80.3
+    blue: 23.8
+    magenta: 70.4
+    cyan: 48.5
+    white: 89.4
+    brightBlack: 11
+    brightRed: 59.5
+    brightGreen: 36.4
+    brightYellow: 80.3
+    brightBlue: 23.8
+    brightMagenta: 70.4
+    brightCyan: 48.5
+    brightWhite: 101.4

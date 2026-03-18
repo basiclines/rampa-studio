@@ -1,0 +1,49 @@
+name: "Flat Light"
+source:
+  marketplace_id: "gungorn.themes-by-gungorn"
+  version: "1.0.7"
+  installs: 151
+  author: "gungorn"
+  repo: "https://github.com/gungorn/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=gungorn.themes-by-gungorn"
+colors:
+  bg: "#FCFCFC"
+  fg: "#29343D"
+  black: "#29343D"
+  red: "#F8961E"
+  green: "#128C7E"
+  yellow: "#F3722C"
+  blue: "#4A154B"
+  magenta: "#F9C74F"
+  cyan: "#128C7E"
+  white: "#555555"
+  brightBlack: "#394956"
+  brightRed: "#F8961E"
+  brightGreen: "#128C7E"
+  brightYellow: "#F3722C"
+  brightBlue: "#4A154B"
+  brightMagenta: "#F9C74F"
+  brightCyan: "#128C7E"
+  brightWhite: "#ABABAB"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 97
+    black: 97
+    red: 41.9
+    green: 66.2
+    yellow: 52.8
+    blue: 98.3
+    magenta: 24.3
+    cyan: 66.2
+    white: 84.1
+    brightBlack: 89.6
+    brightRed: 41.9
+    brightGreen: 66.2
+    brightYellow: 52.8
+    brightBlue: 98.3
+    brightMagenta: 24.3
+    brightCyan: 66.2
+    brightWhite: 43.5

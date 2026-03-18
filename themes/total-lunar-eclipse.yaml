@@ -1,0 +1,49 @@
+name: "Total Lunar Eclipse"
+source:
+  marketplace_id: "ginfuru.lunar-eclipse"
+  version: "0.1.4"
+  installs: 10309
+  author: "Ed Heltzel"
+  repo: "https://github.com/edheltzel/vscode-lunar-eclipse-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ginfuru.lunar-eclipse"
+colors:
+  bg: "#111418"
+  fg: "#AEB2B2"
+  black: "#63828A"
+  red: "#FF0046"
+  green: "#2DAE58"
+  yellow: "#CF9C00"
+  blue: "#09A1ED"
+  magenta: "#EA00D9"
+  cyan: "#AF79FE"
+  white: "#DDE4F1"
+  brightBlack: "#303742"
+  brightRed: "#FF2E87"
+  brightGreen: "#25DA6A"
+  brightYellow: "#FFC104"
+  brightBlue: "#41B9FF"
+  brightMagenta: "#C75AF3"
+  brightCyan: "#16DAD6"
+  brightWhite: "#E3EEFE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 59.5
+    black: 32.6
+    red: 37.2
+    green: 46.6
+    yellow: 52.5
+    blue: 47
+    magenta: 38
+    cyan: 44.6
+    white: 89.4
+    brightBlack: 0
+    brightRed: 40.2
+    brightGreen: 67.5
+    brightYellow: 74.4
+    brightBlue: 58.9
+    brightMagenta: 40.3
+    brightCyan: 70.9
+    brightWhite: 95.4

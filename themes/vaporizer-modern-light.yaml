@@ -1,0 +1,49 @@
+name: "Vaporizer Modern Light"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35736
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+colors:
+  bg: "#F5F4F8"
+  fg: "#D28EFF"
+  black: "#4F4F4F"
+  red: "#FF8181"
+  green: "#2FF5AB"
+  yellow: "#E2C421"
+  blue: "#53C0F5"
+  magenta: "#FD95FD"
+  cyan: "#4ADBFF"
+  white: "#555555"
+  brightBlack: "#A1A1A1"
+  brightRed: "#FB9393"
+  brightGreen: "#8DF9BC"
+  brightYellow: "#FBD06B"
+  brightBlue: "#87BFFD"
+  brightMagenta: "#FFB2FF"
+  brightCyan: "#06AED7"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "teal"
+  hue: null
+  contrast:
+    fg: 39.3
+    black: 82.1
+    red: 40.7
+    green: 13.5
+    yellow: 24.8
+    blue: 33.5
+    magenta: 30.3
+    cyan: 21.5
+    white: 79.7
+    brightBlack: 44.3
+    brightRed: 36
+    brightGreen: 7.4
+    brightYellow: 15.7
+    brightBlue: 30.5
+    brightMagenta: 20.9
+    brightCyan: 44.1
+    brightWhite: 42.2

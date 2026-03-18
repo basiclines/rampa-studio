@@ -1,0 +1,49 @@
+name: "Kiona"
+source:
+  marketplace_id: "isaacgarciavillacres.hue-mans-color-themes"
+  version: "0.0.3"
+  installs: 79
+  author: "Isaac Garcia Villacres"
+  repo: "https://github.com/isaacgarciavillacres/Hue-mans"
+  url: "https://marketplace.visualstudio.com/items?itemName=isaacgarciavillacres.hue-mans-color-themes"
+colors:
+  bg: "#181819"
+  fg: "#D4D4D4"
+  black: "#0A0909"
+  red: "#FF1984"
+  green: "#BCFFC3"
+  yellow: "#EDD668"
+  blue: "#7CB0E7"
+  magenta: "#F18DFF"
+  cyan: "#80D0CC"
+  white: "#BCBCBC"
+  brightBlack: "#000000"
+  brightRed: "#FF005D"
+  brightGreen: "#49FF5C"
+  brightYellow: "#FFD300"
+  brightBlue: "#3899FF"
+  brightMagenta: "#FF4CCA"
+  brightCyan: "#33FFF5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 79.4
+    black: 0
+    red: 38.6
+    green: 96.2
+    yellow: 80.6
+    blue: 56.2
+    magenta: 60.4
+    cyan: 68.9
+    white: 65.2
+    brightBlack: 0
+    brightRed: 37.2
+    brightGreen: 86.7
+    brightYellow: 81.4
+    brightBlue: 45.4
+    brightMagenta: 46
+    brightCyan: 90.9
+    brightWhite: 106.8

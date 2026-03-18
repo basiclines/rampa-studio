@@ -1,0 +1,49 @@
+name: "Obsidian"
+source:
+  marketplace_id: "georgeburt.obsidian-vscode"
+  version: "0.0.1"
+  installs: 144
+  author: "Burty"
+  repo: "https://github.com/georgeeburt/obsidian-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=georgeburt.obsidian-vscode"
+colors:
+  bg: "#2C2C2C"
+  fg: "#E8E8E8"
+  black: "#000000"
+  red: "#FF2E2E"
+  green: "#00F597"
+  yellow: "#D5D500"
+  blue: "#195DFF"
+  magenta: "#E600E6"
+  cyan: "#26D4FF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#35FF2F"
+  brightYellow: "#FFFF00"
+  brightBlue: "#00E7FF"
+  brightMagenta: "#FF16FF"
+  brightCyan: "#00FFDB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 88.7
+    black: 0
+    red: 34.9
+    green: 78.6
+    yellow: 72.9
+    blue: 22.8
+    magenta: 34.5
+    cyan: 66.9
+    white: 86.8
+    brightBlack: 18.8
+    brightRed: 33.3
+    brightGreen: 82.7
+    brightYellow: 98.5
+    brightBlue: 75.8
+    brightMagenta: 42.2
+    brightCyan: 86.2
+    brightWhite: 86.8

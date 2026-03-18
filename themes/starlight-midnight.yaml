@@ -1,0 +1,49 @@
+name: "Starlight - Midnight"
+source:
+  marketplace_id: "RussellOje.ruxy1212-starlight-theme"
+  version: "2.1.5"
+  installs: 72
+  author: "Russell Oje"
+  repo: "https://github.com/ruxy1212/starlight-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RussellOje.ruxy1212-starlight-theme"
+colors:
+  bg: "#1E272C"
+  fg: "#D8DEE9"
+  black: "#2E3B43"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#D8DEE9"
+  brightBlack: "#616E88"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 232
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 30.9
+    green: 59.6
+    yellow: 74.4
+    blue: 46.6
+    magenta: 44.4
+    cyan: 60.6
+    white: 83.3
+    brightBlack: 23.3
+    brightRed: 30.9
+    brightGreen: 59.6
+    brightYellow: 74.4
+    brightBlue: 46.6
+    brightMagenta: 44.4
+    brightCyan: 60.6
+    brightWhite: 94.2

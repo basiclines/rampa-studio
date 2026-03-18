@@ -1,0 +1,49 @@
+name: "Carbon Code Light"
+source:
+  marketplace_id: "sazardev.carbon-code-theme"
+  version: "1.2.0"
+  installs: 903
+  author: "sazardev"
+  repo: "https://github.com/sazardev/sazardev-minimal-brutal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sazardev.carbon-code-theme"
+colors:
+  bg: "#FCFCFF"
+  fg: "#0A0A0A"
+  black: "#000000"
+  red: "#FF0055"
+  green: "#6366F1"
+  yellow: "#FFBB00"
+  blue: "#0088FF"
+  magenta: "#FF00DD"
+  cyan: "#00DDFF"
+  white: "#000000"
+  brightBlack: "#666666"
+  brightRed: "#FF3377"
+  brightGreen: "#33FF99"
+  brightYellow: "#FFDD33"
+  brightBlue: "#3399FF"
+  brightMagenta: "#FF33DD"
+  brightCyan: "#33DDFF"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 104.2
+    black: 104.4
+    red: 61.8
+    green: 68.9
+    yellow: 28.4
+    blue: 60.3
+    magenta: 56.3
+    cyan: 26.1
+    white: 104.4
+    brightBlack: 77.1
+    brightRed: 59.2
+    brightGreen: 13.6
+    brightYellow: 15
+    brightBlue: 53.7
+    brightMagenta: 54.6
+    brightCyan: 25.7
+    brightWhite: 104.4

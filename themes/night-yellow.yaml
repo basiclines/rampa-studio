@@ -1,0 +1,49 @@
+name: "Night Yellow"
+source:
+  marketplace_id: "er-codee.themes-er"
+  version: "0.0.2"
+  installs: 1014
+  author: "er-codee"
+  repo: "https://github.com/Ernesto-Rosas/Themes-ER"
+  url: "https://marketplace.visualstudio.com/items?itemName=er-codee.themes-er"
+colors:
+  bg: "#181818"
+  fg: "#C8C6BF"
+  black: "#181818"
+  red: "#F07178"
+  green: "#B9E02D"
+  yellow: "#CDB749"
+  blue: "#313F54"
+  magenta: "#D4BFFF"
+  cyan: "#181818"
+  white: "#C8C6BF"
+  brightBlack: "#323946"
+  brightRed: "#FF6D48"
+  brightGreen: "#8BC17A"
+  brightYellow: "#CDB749"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#A6FDE1"
+  brightWhite: "#C8C6BF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 71
+    black: 0
+    red: 46.5
+    green: 77.8
+    yellow: 62.5
+    blue: 0
+    magenta: 72.9
+    cyan: 0
+    white: 71
+    brightBlack: 0
+    brightRed: 47.8
+    brightGreen: 60.2
+    brightYellow: 62.5
+    brightBlue: 34.6
+    brightMagenta: 57.3
+    brightCyan: 94.4
+    brightWhite: 71

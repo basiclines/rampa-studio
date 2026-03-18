@@ -1,0 +1,49 @@
+name: "Andromeda Light Italic Bordered"
+source:
+  marketplace_id: "kailoklum.perseus"
+  version: "1.0.0"
+  installs: 220
+  author: "kailoklum"
+  repo: "https://github.com/kailoklum/Perseus"
+  url: "https://marketplace.visualstudio.com/items?itemName=kailoklum.perseus"
+colors:
+  bg: "#FFFFFF"
+  fg: "#455059"
+  black: "#370067"
+  red: "#EF4444"
+  green: "#07D258"
+  yellow: "#EAB308"
+  blue: "#0284C7"
+  magenta: "#BF568B"
+  cyan: "#2F7ECD"
+  white: "#FFFFFF"
+  brightBlack: "#627E99"
+  brightRed: "#EF4444"
+  brightGreen: "#24966E"
+  brightYellow: "#EAB308"
+  brightBlue: "#8B56BF"
+  brightMagenta: "#BF568B"
+  brightCyan: "#20BCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 88.5
+    black: 101
+    red: 63.8
+    green: 38.6
+    yellow: 36.4
+    blue: 67.5
+    magenta: 69
+    cyan: 68.7
+    white: 0
+    brightBlack: 69.2
+    brightRed: 63.8
+    brightGreen: 64.3
+    brightYellow: 36.4
+    brightBlue: 74.4
+    brightMagenta: 69
+    brightCyan: 42
+    brightWhite: 0

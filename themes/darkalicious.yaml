@@ -1,0 +1,49 @@
+name: "Darkalicious"
+source:
+  marketplace_id: "shanedonburke.darkalicious-theme"
+  version: "0.0.4"
+  installs: 128
+  author: "shanedonburke"
+  repo: "https://github.com/shanedonburke/darkalicious-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shanedonburke.darkalicious-theme"
+colors:
+  bg: "#151F2C"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#FF0B45"
+  green: "#08C77D"
+  yellow: "#F0ED02"
+  blue: "#177CE8"
+  magenta: "#FF6FE1"
+  cyan: "#08C3F0"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF6177"
+  brightGreen: "#52E8AC"
+  brightYellow: "#F9F97C"
+  brightBlue: "#53A6FF"
+  brightMagenta: "#FFA1FF"
+  brightCyan: "#73CCE2"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 255
+  contrast:
+    fg: 78.6
+    black: 0
+    red: 36.1
+    green: 57.3
+    yellow: 90
+    blue: 32
+    magenta: 52.8
+    cyan: 60.3
+    white: 89.1
+    brightBlack: 21.1
+    brightRed: 45.4
+    brightGreen: 76
+    brightYellow: 98
+    brightBlue: 50.6
+    brightMagenta: 68.2
+    brightCyan: 66.5
+    brightWhite: 89.1

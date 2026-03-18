@@ -1,0 +1,49 @@
+name: "Pantone Tigerlily (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#FDFBFA"
+  fg: "#220D09"
+  black: "#220D09"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#FDFBFA"
+  brightBlack: "#E09E8B"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#FCFBFA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.9
+    black: 102.9
+    red: 76.6
+    green: 60.2
+    yellow: 44.4
+    blue: 87.6
+    magenta: 83.8
+    cyan: 77
+    white: 0
+    brightBlack: 41.6
+    brightRed: 66.3
+    brightGreen: 47
+    brightYellow: 28.2
+    brightBlue: 53.7
+    brightMagenta: 65.3
+    brightCyan: 46.4
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "GitHub Dark"
+source:
+  marketplace_id: "AnasFiguigui.dark-reign-theme"
+  version: "1.0.4"
+  installs: 24
+  author: "AnasFiguigui"
+  repo: "https://github.com/AnasFiguigui/dark-reign-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AnasFiguigui.dark-reign-theme"
+colors:
+  bg: "#0D1117"
+  fg: "#E6EDF3"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#522546"
+  yellow: "#D6AEDD"
+  blue: "#58A6FF"
+  magenta: "#8C72A4"
+  cyan: "#E7D5E2"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  contrast:
+    fg: 95
+    black: 13.1
+    red: 52.6
+    green: 0
+    yellow: 65.4
+    blue: 52.2
+    magenta: 32.6
+    cyan: 83.6
+    white: 64
+    brightBlack: 29.3
+    brightRed: 64.8
+    brightGreen: 65.5
+    brightYellow: 64.7
+    brightBlue: 64.7
+    brightMagenta: 64.6
+    brightCyan: 69.9
+    brightWhite: 107.4

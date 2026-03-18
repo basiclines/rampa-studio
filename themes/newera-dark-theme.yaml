@@ -1,0 +1,49 @@
+name: "Newera Dark Theme"
+source:
+  marketplace_id: "sguerson.newera-theme"
+  version: "1.1.2"
+  installs: 49
+  author: "sguerson"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=sguerson.newera-theme"
+colors:
+  bg: "#1A1E2C"
+  fg: "#E0E0E0"
+  black: "#CECFD3"
+  red: "#BCBCBC"
+  green: "#B2B2B2"
+  yellow: "#E9FF70"
+  blue: "#E9FF70"
+  magenta: "#8367C7"
+  cyan: "#70D6FF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#ADADAB"
+  brightGreen: "#E9FF70"
+  brightYellow: "#8367C7"
+  brightBlue: "#8367C7"
+  brightMagenta: "#70D6FF"
+  brightCyan: "#C2C0C1"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 272
+  contrast:
+    fg: 86
+    black: 75.6
+    red: 64.4
+    green: 58.7
+    yellow: 98.5
+    blue: 98.5
+    magenta: 29.1
+    cyan: 72.5
+    white: 89.1
+    brightBlack: 21.1
+    brightRed: 55.9
+    brightGreen: 98.5
+    brightYellow: 29.1
+    brightBlue: 29.1
+    brightMagenta: 72.5
+    brightCyan: 67
+    brightWhite: 89.1

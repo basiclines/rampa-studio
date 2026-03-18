@@ -1,0 +1,49 @@
+name: "LookiFy Dark mode"
+source:
+  marketplace_id: "prince.lookify"
+  version: "0.1.0"
+  installs: 639
+  author: "prince"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=prince.lookify"
+colors:
+  bg: "#1B1E28"
+  fg: "#E1E3E6"
+  black: "#1C1F27"
+  red: "#FF6F61"
+  green: "#61D1B2"
+  yellow: "#FFD580"
+  blue: "#3C91E6"
+  magenta: "#E798B3"
+  cyan: "#61D1B2"
+  white: "#A4B9C9"
+  brightBlack: "#4B6075"
+  brightRed: "#FF9282"
+  brightGreen: "#61D1B2"
+  brightYellow: "#FFD580"
+  brightBlue: "#3C91E6"
+  brightMagenta: "#E798B3"
+  brightCyan: "#61D1B2"
+  brightWhite: "#E1E3E6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 272
+  contrast:
+    fg: 87.8
+    black: 0
+    red: 47.9
+    green: 65.7
+    yellow: 82.6
+    blue: 40
+    magenta: 57.1
+    cyan: 65.7
+    white: 61.1
+    brightBlack: 17.8
+    brightRed: 58
+    brightGreen: 65.7
+    brightYellow: 82.6
+    brightBlue: 40
+    brightMagenta: 57.1
+    brightCyan: 65.7
+    brightWhite: 87.8

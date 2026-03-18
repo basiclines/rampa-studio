@@ -1,0 +1,49 @@
+name: "Colorizer"
+source:
+  marketplace_id: "MohammedShalabi.colorizer"
+  version: "0.0.2"
+  installs: 12128
+  author: "Mohammed Shalabi"
+  repo: "https://github.com/M-Shalabi/Colorizer"
+  url: "https://marketplace.visualstudio.com/items?itemName=MohammedShalabi.colorizer"
+colors:
+  bg: "#20252E"
+  fg: "#C3CBD9"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 262
+  contrast:
+    fg: 71.8
+    black: 0
+    red: 34.8
+    green: 58.5
+    yellow: 46.7
+    blue: 47.8
+    magenta: 37.2
+    cyan: 50.6
+    white: 88.8
+    brightBlack: 13.6
+    brightRed: 44.2
+    brightGreen: 74.9
+    brightYellow: 59.4
+    brightBlue: 61.9
+    brightMagenta: 48.4
+    brightCyan: 65.9
+    brightWhite: 81.2

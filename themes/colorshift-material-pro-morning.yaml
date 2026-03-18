@@ -1,0 +1,49 @@
+name: "ColorShift Material Pro - Morning"
+source:
+  marketplace_id: "ColorShift.colorshift-material-pro"
+  version: "1.0.0"
+  installs: 56
+  author: "ColorShift"
+  repo: "https://github.com/colorshift/colorshift-material-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=ColorShift.colorshift-material-pro"
+colors:
+  bg: "#2A3A45"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF7043"
+  green: "#9CCC65"
+  yellow: "#FFEE58"
+  blue: "#64B5F6"
+  magenta: "#BA68C8"
+  cyan: "#4DD0E1"
+  white: "#FFFFFF"
+  brightBlack: "#78909C"
+  brightRed: "#FFAB91"
+  brightGreen: "#C5E1A5"
+  brightYellow: "#FFF59D"
+  brightBlue: "#90CAF9"
+  brightMagenta: "#CE93D8"
+  brightCyan: "#80DEEA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 239
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 42.2
+    green: 60
+    yellow: 87.7
+    blue: 51.4
+    magenta: 31.5
+    cyan: 61.1
+    white: 100.6
+    brightBlack: 33.4
+    brightRed: 61.2
+    brightGreen: 75.5
+    brightYellow: 92.2
+    brightBlue: 63.6
+    brightMagenta: 47.8
+    brightCyan: 70.7
+    brightWhite: 100.6

@@ -1,0 +1,49 @@
+name: "Vela Spectrum Light+ Tritanopia"
+source:
+  marketplace_id: "telianedward.vela-spectrum"
+  version: "0.3.7"
+  installs: 75
+  author: "Vela Inc"
+  repo: "https://github.com/Telianedward/VelaSpectrum"
+  url: "https://marketplace.visualstudio.com/items?itemName=telianedward.vela-spectrum"
+colors:
+  bg: "#F6F8FA"
+  fg: "#000000"
+  black: "#111111"
+  red: "#B30000"
+  green: "#008300"
+  yellow: "#609400"
+  blue: "#3E1EFF"
+  magenta: "#C60073"
+  cyan: "#0085AA"
+  white: "#F6F8FA"
+  brightBlack: "#3D444D"
+  brightRed: "#D90000"
+  brightGreen: "#00A32A"
+  brightYellow: "#7CB400"
+  brightBlue: "#4E58FF"
+  brightMagenta: "#EB0091"
+  brightCyan: "#00A5CA"
+  brightWhite: "#F6F8FA"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 101.7
+    black: 101
+    red: 77.9
+    green: 69.1
+    yellow: 59.6
+    blue: 79.3
+    magenta: 71.9
+    cyan: 64.4
+    white: 0
+    brightBlack: 88.5
+    brightRed: 69.1
+    brightGreen: 55.8
+    brightYellow: 44.5
+    brightBlue: 69.7
+    brightMagenta: 62.3
+    brightCyan: 50.3
+    brightWhite: 0

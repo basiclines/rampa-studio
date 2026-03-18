@@ -1,0 +1,49 @@
+name: "Iditarod"
+source:
+  marketplace_id: "ludaub.iditarod"
+  version: "1.4.0"
+  installs: 135
+  author: "ludaub"
+  repo: "https://github.com/ludaub/iditarod"
+  url: "https://marketplace.visualstudio.com/items?itemName=ludaub.iditarod"
+colors:
+  bg: "#212B31"
+  fg: "#CFD8DC"
+  black: "#303E45"
+  red: "#EF9A9A"
+  green: "#C5E1A5"
+  yellow: "#FFE082"
+  blue: "#90CAF9"
+  magenta: "#CE93D8"
+  cyan: "#80DEEA"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#EF9A9A"
+  brightGreen: "#C5E1A5"
+  brightYellow: "#FFE082"
+  brightBlue: "#90CAF9"
+  brightMagenta: "#CE93D8"
+  brightCyan: "#80CBC4"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 235
+  contrast:
+    fg: 78.2
+    black: 0
+    red: 56.4
+    green: 79
+    yellow: 85.6
+    blue: 67.1
+    magenta: 51.3
+    cyan: 74.2
+    white: 89.6
+    brightBlack: 12.6
+    brightRed: 56.4
+    brightGreen: 79
+    brightYellow: 85.6
+    brightBlue: 67.1
+    brightMagenta: 51.3
+    brightCyan: 63.6
+    brightWhite: 93.5

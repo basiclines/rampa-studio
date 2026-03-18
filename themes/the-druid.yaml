@@ -1,0 +1,49 @@
+name: "The druid"
+source:
+  marketplace_id: "Yuritoledo.the-druid"
+  version: "1.0.6"
+  installs: 54
+  author: "Yuri toledo"
+  repo: "https://github.com/yuritoledo/the-druid-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Yuritoledo.the-druid"
+colors:
+  bg: "#081500"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#C26100"
+  cyan: "#349000"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#C26100"
+  brightCyan: "#349000"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 132
+  contrast:
+    fg: 107.3
+    black: 0
+    red: 27.1
+    green: 53.4
+    yellow: 86
+    blue: 27.8
+    magenta: 32.7
+    cyan: 33.5
+    white: 90.4
+    brightBlack: 22.4
+    brightRed: 39
+    brightGreen: 63.9
+    brightYellow: 96
+    brightBlue: 40.4
+    brightMagenta: 32.7
+    brightCyan: 33.5
+    brightWhite: 90.4

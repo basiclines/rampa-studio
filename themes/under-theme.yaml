@@ -1,0 +1,49 @@
+name: "Under Theme"
+source:
+  marketplace_id: "RLabsInc.rlabs-theme-collection"
+  version: "0.1.4"
+  installs: 181
+  author: "RLabs Inc."
+  repo: "https://github.com/rodrigoluglio/rlabs-themes-collection"
+  url: "https://marketplace.visualstudio.com/items?itemName=RLabsInc.rlabs-theme-collection"
+colors:
+  bg: "#0D101A"
+  fg: "#FFFFFF"
+  black: "#292929"
+  red: "#FF8686"
+  green: "#7BD19E"
+  yellow: "#FFC59E"
+  blue: "#78A4BD"
+  magenta: "#C871B4"
+  cyan: "#76A9AC"
+  white: "#FFFFFF"
+  brightBlack: "#D6D2DA"
+  brightRed: "#FF7575"
+  brightGreen: "#9FFFC6"
+  brightYellow: "#FFEFB7"
+  brightBlue: "#A6D9F7"
+  brightMagenta: "#6D8296"
+  brightCyan: "#9CBEC5"
+  brightWhite: "#C9C6C9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 271
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 56.1
+    green: 67.9
+    yellow: 78.2
+    blue: 49.4
+    magenta: 41.8
+    cyan: 50.5
+    white: 107.4
+    brightBlack: 79.7
+    brightRed: 51.2
+    brightGreen: 94.4
+    brightYellow: 97
+    brightBlue: 78.9
+    brightMagenta: 34.1
+    brightCyan: 63.6
+    brightWhite: 72.2

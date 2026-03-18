@@ -1,0 +1,49 @@
+name: "nicedark - Fork"
+source:
+  marketplace_id: "niceDark.nicedark"
+  version: "0.1.0"
+  installs: 83
+  author: "FathyMuhamed"
+  repo: "https://github.com/FathyMuhamed/darkTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=niceDark.nicedark"
+colors:
+  bg: "#193549"
+  fg: "#FCFCFC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 242
+  contrast:
+    fg: 100.1
+    black: 0
+    red: 21.9
+    green: 48.2
+    yellow: 80.8
+    blue: 22.6
+    magenta: 24.9
+    cyan: 42.7
+    white: 85.2
+    brightBlack: 17.2
+    brightRed: 33.7
+    brightGreen: 58.7
+    brightYellow: 90.8
+    brightBlue: 35.2
+    brightMagenta: 40.6
+    brightCyan: 50.6
+    brightWhite: 85.2

@@ -1,0 +1,49 @@
+name: "Pantone Aqua Sky (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F5F8F9"
+  fg: "#121D22"
+  black: "#121D22"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F5F8F9"
+  brightBlack: "#6898AF"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F2F4F6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.5
+    black: 99.5
+    red: 74.3
+    green: 57.8
+    yellow: 42.1
+    blue: 85.3
+    magenta: 81.5
+    cyan: 74.6
+    white: 0
+    brightBlack: 53.8
+    brightRed: 64
+    brightGreen: 44.7
+    brightYellow: 25.8
+    brightBlue: 51.3
+    brightMagenta: 62.9
+    brightCyan: 44
+    brightWhite: 0

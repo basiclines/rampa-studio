@@ -1,0 +1,49 @@
+name: "Golden Sky"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 402
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FFA500"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FFA500"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 16.2
+    magenta: 64.7
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 0
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 16.2
+    brightMagenta: 64.7
+    brightCyan: 92.2
+    brightWhite: 107.9

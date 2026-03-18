@@ -1,0 +1,49 @@
+name: "rdcd"
+source:
+  marketplace_id: "shoizz.rdcd"
+  version: "0.1.0"
+  installs: 1608
+  author: "denis"
+  repo: "git+https://github.com/Shoizz/rdcd-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shoizz.rdcd"
+colors:
+  bg: "#161820"
+  fg: "#CED3DB"
+  black: "#161820"
+  red: "#F44336"
+  green: "#00E676"
+  yellow: "#FFDE03"
+  blue: "#206DAC"
+  magenta: "#FF0266"
+  cyan: "#00E676"
+  white: "#613F83"
+  brightBlack: "#232635"
+  brightRed: "#FB4934"
+  brightGreen: "#CACC53"
+  brightYellow: "#FABD2F"
+  brightBlue: "#00E676"
+  brightMagenta: "#DF6495"
+  brightCyan: "#8EC07C"
+  brightWhite: "#C6C8D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 37.6
+    green: 73.2
+    yellow: 86.2
+    blue: 23.8
+    magenta: 37.4
+    cyan: 73.2
+    white: 12.7
+    brightBlack: 0
+    brightRed: 40
+    brightGreen: 71
+    brightYellow: 71.7
+    brightBlue: 73.2
+    brightMagenta: 41
+    brightCyan: 60
+    brightWhite: 72.3

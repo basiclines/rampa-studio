@@ -1,0 +1,49 @@
+name: "Yoncé"
+source:
+  marketplace_id: "minamarkham.yonce-theme"
+  version: "0.1.0"
+  installs: 19006
+  author: "minamarkham"
+  repo: "https://github.com/minamarkham/yonce-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=minamarkham.yonce-theme"
+colors:
+  bg: "#1C1C1C"
+  fg: "#D4D4D4"
+  black: "#1C1C1C"
+  red: "#FC4384"
+  green: "#98E342"
+  yellow: "#E6DB74"
+  blue: "#00A7AA"
+  magenta: "#FFB1F2"
+  cyan: "#37E5E7"
+  white: "#D4D4D4"
+  brightBlack: "#555555"
+  brightRed: "#FC4384"
+  brightGreen: "#98E342"
+  brightYellow: "#E6DB74"
+  brightBlue: "#00A7AA"
+  brightMagenta: "#FFB1F2"
+  brightCyan: "#37E5E7"
+  brightWhite: "#F1F1EF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 40.6
+    green: 75.8
+    yellow: 81.5
+    blue: 44.8
+    magenta: 73.1
+    cyan: 76.6
+    white: 78.9
+    brightBlack: 14.5
+    brightRed: 40.6
+    brightGreen: 75.8
+    brightYellow: 81.5
+    brightBlue: 44.8
+    brightMagenta: 73.1
+    brightCyan: 76.6
+    brightWhite: 97

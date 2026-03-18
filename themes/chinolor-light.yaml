@@ -1,0 +1,49 @@
+name: "Chinolor Light"
+source:
+  marketplace_id: "iwyvi.chinolor"
+  version: "0.2.19"
+  installs: 36136
+  author: "iwyvi"
+  repo: "https://github.com/iwyvi/chinolor"
+  url: "https://marketplace.visualstudio.com/items?itemName=iwyvi.chinolor"
+colors:
+  bg: "#F8F4ED"
+  fg: "#2B312C"
+  black: "#000000"
+  red: "#EE3F4D"
+  green: "#96C24E"
+  yellow: "#F9D367"
+  blue: "#619AC3"
+  magenta: "#D276A3"
+  cyan: "#57C3C2"
+  white: "#E4DFD7"
+  brightBlack: "#2B312C"
+  brightRed: "#EE3F4D"
+  brightGreen: "#41AE3C"
+  brightYellow: "#B78D12"
+  brightBlue: "#619AC3"
+  brightMagenta: "#CC5595"
+  brightCyan: "#12AA9C"
+  brightWhite: "#F8F4ED"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 93.4
+    black: 99.7
+    red: 58.2
+    green: 34
+    yellow: 14.8
+    blue: 50.7
+    magenta: 50.8
+    cyan: 34.6
+    white: 9.8
+    brightBlack: 93.4
+    brightRed: 58.2
+    brightGreen: 48
+    brightYellow: 51.1
+    brightBlue: 50.7
+    brightMagenta: 60
+    brightCyan: 48.3
+    brightWhite: 0

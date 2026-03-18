@@ -1,0 +1,49 @@
+name: "cocoa"
+source:
+  marketplace_id: "akirco.cocoa-theme"
+  version: "0.0.4"
+  installs: 130
+  author: "akirco"
+  repo: "https://github.com/akirco/vscode-theme-cocoa"
+  url: "https://marketplace.visualstudio.com/items?itemName=akirco.cocoa-theme"
+colors:
+  bg: "#0B0D19"
+  fg: "#6EBBFF"
+  black: "#7F68F5"
+  red: "#EA3592"
+  green: "#1EFFBF"
+  yellow: "#D1D14F"
+  blue: "#2378D5"
+  magenta: "#C970C9"
+  cyan: "#23C8F0"
+  white: "#9F7979"
+  brightBlack: "#897FFF"
+  brightRed: "#F01D89"
+  brightGreen: "#19FFA2"
+  brightYellow: "#FFFF00"
+  brightBlue: "#3F9AFF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#59DDFD"
+  brightWhite: "#C09B9B"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 276
+  contrast:
+    fg: 62.1
+    black: 34.1
+    red: 36.7
+    green: 89.1
+    yellow: 74.9
+    blue: 31
+    magenta: 43
+    cyan: 64.3
+    white: 35.6
+    brightBlack: 42.3
+    brightRed: 36.1
+    brightGreen: 88.2
+    brightYellow: 102.4
+    brightBlue: 46.8
+    brightMagenta: 54.5
+    brightCyan: 76.2
+    brightWhite: 52.6

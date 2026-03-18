@@ -1,0 +1,49 @@
+name: "WL-Volt Surge"
+source:
+  marketplace_id: "WatkinsLabs.volt-surge"
+  version: "1.0.1"
+  installs: 16
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.volt-surge"
+colors:
+  bg: "#000000"
+  fg: "#FFFF00"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#008000"
+  yellow: "#FF7700"
+  blue: "#FFAA00"
+  magenta: "#FFCC00"
+  cyan: "#FFAA00"
+  white: "#FFFF00"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#008000"
+  brightYellow: "#FF7700"
+  brightBlue: "#FFAA00"
+  brightMagenta: "#FFCC00"
+  brightCyan: "#FFAA00"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 37.5
+    green: 27.1
+    yellow: 50.9
+    blue: 66.5
+    magenta: 79.6
+    cyan: 66.5
+    white: 102.7
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 27.1
+    brightYellow: 50.9
+    brightBlue: 66.5
+    brightMagenta: 79.6
+    brightCyan: 66.5
+    brightWhite: 107.9

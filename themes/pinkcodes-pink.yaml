@@ -1,0 +1,49 @@
+name: "PinkCodes Pink"
+source:
+  marketplace_id: "PinkCodes.pinkcodes"
+  version: "0.0.22"
+  installs: 4034
+  author: "PinkCodes"
+  repo: "https://github.com/pinkc0des/pinkcodes-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=PinkCodes.pinkcodes"
+colors:
+  bg: "#0B010B"
+  fg: "#D4D4D4"
+  black: "#0B010B"
+  red: "#F03880"
+  green: "#5DD465"
+  yellow: "#DAD16F"
+  blue: "#78D1E1"
+  magenta: "#988BC7"
+  cyan: "#A1EFE4"
+  white: "#E1E1E6"
+  brightBlack: "#626483"
+  brightRed: "#ED4556"
+  brightGreen: "#00F769"
+  brightYellow: "#DAD16F"
+  brightBlue: "#78D1E1"
+  brightMagenta: "#988BC7"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#F7F7FB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 328
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 38
+    green: 66.7
+    yellow: 76.8
+    blue: 70.9
+    magenta: 44.2
+    cyan: 88.2
+    white: 88.7
+    brightBlack: 23.1
+    brightRed: 37.8
+    brightGreen: 82.9
+    brightYellow: 76.8
+    brightBlue: 70.9
+    brightMagenta: 44.2
+    brightCyan: 97.7
+    brightWhite: 102.7

@@ -1,0 +1,49 @@
+name: "Palestorm"
+source:
+  marketplace_id: "AlexanderAlekseenko.palestorm"
+  version: "1.3.0"
+  installs: 2695
+  author: "Alexander Alekseenko"
+  repo: "https://github.com/Akaike/vsc-palestorm-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexanderAlekseenko.palestorm"
+colors:
+  bg: "#282D3F"
+  fg: "#BEC6D4"
+  black: "#414868"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#7982A9"
+  brightBlack: "#414868"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#A9B1D6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 272
+  contrast:
+    fg: 67.2
+    black: 0
+    red: 46.3
+    green: 69.2
+    yellow: 59.1
+    blue: 48.1
+    magenta: 52
+    cyan: 67.5
+    white: 31.9
+    brightBlack: 0
+    brightRed: 46.3
+    brightGreen: 69.2
+    brightYellow: 59.1
+    brightBlue: 48.1
+    brightMagenta: 52
+    brightCyan: 67.5
+    brightWhite: 56.3

@@ -1,0 +1,49 @@
+name: "Phosphor Dreams"
+source:
+  marketplace_id: "glidebuild.phosphor-themes"
+  version: "1.0.0"
+  installs: 40
+  author: "glide.build"
+  repo: "https://github.com/mo-shawa/phosphor-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=glidebuild.phosphor-themes"
+colors:
+  bg: "#040604"
+  fg: "#22DD22"
+  black: "#0A140A"
+  red: "#FF3366"
+  green: "#33FF33"
+  yellow: "#FFFF33"
+  blue: "#33FFEE"
+  magenta: "#FF33FF"
+  cyan: "#33FF99"
+  white: "#88CC88"
+  brightBlack: "#446644"
+  brightRed: "#FF6699"
+  brightGreen: "#66FF66"
+  brightYellow: "#FFFF66"
+  brightBlue: "#66FFFF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFCC"
+  brightWhite: "#CCFFCC"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 68.9
+    black: 0
+    red: 40.4
+    green: 86.9
+    yellow: 102.8
+    blue: 91.6
+    magenta: 47.9
+    cyan: 88.5
+    white: 66.3
+    brightBlack: 19.7
+    brightRed: 49.3
+    brightGreen: 89
+    brightYellow: 103.3
+    brightBlue: 94
+    brightMagenta: 54.8
+    brightCyan: 91.7
+    brightWhite: 99.3

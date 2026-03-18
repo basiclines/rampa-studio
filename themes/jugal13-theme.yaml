@@ -1,0 +1,49 @@
+name: "jugal13-theme"
+source:
+  marketplace_id: "jugal13.jugal13-theme"
+  version: "1.1.4"
+  installs: 169
+  author: "Jugal"
+  repo: "https://github.com/jugalw13/jugal13-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jugal13.jugal13-theme"
+colors:
+  bg: "#000015"
+  fg: "#FFFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#0D6678"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#95C085"
+  brightYellow: "#FAC03B"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 107.8
+    black: 0
+    red: 42.9
+    green: 61.9
+    yellow: 74
+    blue: 19.7
+    magenta: 20.5
+    cyan: 50.4
+    white: 48.2
+    brightBlack: 19.5
+    brightRed: 42.9
+    brightGreen: 61.9
+    brightYellow: 74
+    brightBlue: 19.7
+    brightMagenta: 20.5
+    brightCyan: 50.4
+    brightWhite: 99.8

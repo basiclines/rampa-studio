@@ -1,0 +1,49 @@
+name: "JuniorCoder"
+source:
+  marketplace_id: "JuniorCoder.juniorcoders-theme"
+  version: "1.0.1"
+  installs: 106
+  author: "JuniorCoder"
+  repo: "https://github.com/juniorcoder2008/theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JuniorCoder.juniorcoders-theme"
+colors:
+  bg: "#292C35"
+  fg: "#F6FFFF"
+  black: "#252525"
+  red: "#FF0000"
+  green: "#16C851"
+  yellow: "#FFD001"
+  blue: "#568FF0"
+  magenta: "#CC00FF"
+  cyan: "#00FF9D"
+  white: "#FFFFFF"
+  brightBlack: "#464646"
+  brightRed: "#FB5A5A"
+  brightGreen: "#41FF80"
+  brightYellow: "#FAD73B"
+  brightBlue: "#568FF0"
+  brightMagenta: "#FF57F1"
+  brightCyan: "#27FFA9"
+  brightWhite: "#F6F5E4"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 271
+  contrast:
+    fg: 102.4
+    black: 0
+    red: 33.3
+    green: 54.6
+    yellow: 77
+    blue: 38.7
+    magenta: 31.2
+    cyan: 84
+    white: 103.6
+    brightBlack: 0
+    brightRed: 40.2
+    brightGreen: 84
+    brightYellow: 79.4
+    brightBlue: 38.7
+    brightMagenta: 46.9
+    brightCyan: 84.5
+    brightWhite: 96.4

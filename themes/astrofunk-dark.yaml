@@ -1,0 +1,49 @@
+name: "Astrofunk Dark"
+source:
+  marketplace_id: "JamesGulland.astrofunk-dark-theme"
+  version: "0.1.0"
+  installs: 35
+  author: "James Gulland"
+  repo: "https://github.com/james-gulland/astrofunk-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.astrofunk-dark-theme"
+colors:
+  bg: "#272635"
+  fg: "#B9C2E0"
+  black: "#272635"
+  red: "#FC8899"
+  green: "#93E2D4"
+  yellow: "#FFFFC5"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#B9C2E0"
+  brightRed: "#FC8899"
+  brightGreen: "#93E2D4"
+  brightYellow: "#FFFFC5"
+  brightBlue: "#B9C2E0"
+  brightMagenta: "#F087BD"
+  brightCyan: "#FFCA85"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 288
+  contrast:
+    fg: 66.7
+    black: 0
+    red: 53.7
+    green: 76.8
+    yellow: 102.1
+    blue: 75.9
+    magenta: 52.5
+    cyan: 75.9
+    white: 104.5
+    brightBlack: 66.7
+    brightRed: 53.7
+    brightGreen: 76.8
+    brightYellow: 102.1
+    brightBlue: 66.7
+    brightMagenta: 52.5
+    brightCyan: 76.7
+    brightWhite: 104.5

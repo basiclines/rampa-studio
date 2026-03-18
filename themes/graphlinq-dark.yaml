@@ -1,0 +1,49 @@
+name: "GraphLinq Dark"
+source:
+  marketplace_id: "GraphLinq.graphlinq-vscode-theme"
+  version: "0.2.1"
+  installs: 677
+  author: "GraphLinq"
+  repo: "https://github.com/GraphLinq/GraphLinq.VSCodeTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GraphLinq.graphlinq-vscode-theme"
+colors:
+  bg: "#131026"
+  fg: "#B4A5E7"
+  black: "#131026"
+  red: "#FF286F"
+  green: "#05F24F"
+  yellow: "#FDFE54"
+  blue: "#5029E5"
+  magenta: "#FF007A"
+  cyan: "#ECE7FD"
+  white: "#EDE8FD"
+  brightBlack: "#1C1836"
+  brightRed: "#2F2955"
+  brightGreen: "#ECE7FD"
+  brightYellow: "#FDFE54"
+  brightBlue: "#5029E5"
+  brightMagenta: "#FF007A"
+  brightCyan: "#ECE7FD"
+  brightWhite: "#ECE7FD"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 288
+  contrast:
+    fg: 57.8
+    black: 0
+    red: 39.1
+    green: 79.2
+    yellow: 101.6
+    blue: 16.6
+    magenta: 38.4
+    cyan: 93.3
+    white: 93.9
+    brightBlack: 0
+    brightRed: 0
+    brightGreen: 93.3
+    brightYellow: 101.6
+    brightBlue: 16.6
+    brightMagenta: 38.4
+    brightCyan: 93.3
+    brightWhite: 93.3

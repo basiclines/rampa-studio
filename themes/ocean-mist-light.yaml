@@ -1,0 +1,49 @@
+name: "Ocean Mist Light"
+source:
+  marketplace_id: "MalikHaziq.ocean-mist"
+  version: "0.2.1"
+  installs: 247
+  author: "Malik Haziq"
+  repo: "https://github.com/Malik-Haziq/Ocean-Mist-Vscode-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MalikHaziq.ocean-mist"
+colors:
+  bg: "#242E30"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#D9D9D9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 211
+  contrast:
+    fg: 76.2
+    black: 0
+    red: 23.4
+    green: 49.7
+    yellow: 82.3
+    blue: 24.1
+    magenta: 26.5
+    cyan: 44.3
+    white: 86.7
+    brightBlack: 18.7
+    brightRed: 35.3
+    brightGreen: 60.2
+    brightYellow: 92.3
+    brightBlue: 36.7
+    brightMagenta: 42.1
+    brightCyan: 52.1
+    brightWhite: 79.2

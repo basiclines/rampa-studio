@@ -1,0 +1,49 @@
+name: "Secuoyas Code"
+source:
+  marketplace_id: "Secuoyas.secuoyas-code"
+  version: "0.3.1"
+  installs: 1781
+  author: "Secuoyas"
+  repo: "https://github.com/Secuoyas-Experience/secuoyas-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Secuoyas.secuoyas-code"
+colors:
+  bg: "#101010"
+  fg: "#ACB5C3"
+  black: "#2C2E32"
+  red: "#FA0067"
+  green: "#13C887"
+  yellow: "#F9D310"
+  blue: "#3CC3DD"
+  magenta: "#A950CF"
+  cyan: "#AE926F"
+  white: "#E9EAEC"
+  brightBlack: "#393C41"
+  brightRed: "#FF4893"
+  brightGreen: "#19E99E"
+  brightYellow: "#FBE15C"
+  brightBlue: "#545C63"
+  brightMagenta: "#7D8BA1"
+  brightCyan: "#BEA382"
+  brightWhite: "#DEE0E2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 61.5
+    black: 0
+    red: 36.9
+    green: 59.6
+    yellow: 81.1
+    blue: 61.3
+    magenta: 31.1
+    cyan: 45.5
+    white: 93.7
+    brightBlack: 0
+    brightRed: 43.6
+    brightGreen: 76.5
+    brightYellow: 88.1
+    brightBlue: 18
+    brightMagenta: 39.2
+    brightCyan: 54.3
+    brightWhite: 87.3

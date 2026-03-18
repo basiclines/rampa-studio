@@ -1,0 +1,49 @@
+name: "Nephtis Dark"
+source:
+  marketplace_id: "Meastblue.orbital-frame"
+  version: "2.2.0"
+  installs: 66
+  author: "Meastblue"
+  repo: "https://github.com/meastblue/orbital-frame-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Meastblue.orbital-frame"
+colors:
+  bg: "#1A1611"
+  fg: "#F4F0E6"
+  black: "#1A1611"
+  red: "#8B0000"
+  green: "#2F4F2F"
+  yellow: "#B8860B"
+  blue: "#483D8B"
+  magenta: "#663399"
+  cyan: "#5F4B32"
+  white: "#F4F0E6"
+  brightBlack: "#6B5B73"
+  brightRed: "#DC143C"
+  brightGreen: "#556B2F"
+  brightYellow: "#DAA520"
+  brightBlue: "#9370DB"
+  brightMagenta: "#B19CD9"
+  brightCyan: "#8B7355"
+  brightWhite: "#F4F0E6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 73
+  contrast:
+    fg: 97.2
+    black: 0
+    red: 10.6
+    green: 10.2
+    yellow: 41.2
+    blue: 10.7
+    magenta: 12.8
+    cyan: 12.7
+    white: 97.2
+    brightBlack: 19.8
+    brightRed: 28.5
+    brightGreen: 21.2
+    brightYellow: 57.3
+    brightBlue: 35.7
+    brightMagenta: 53.1
+    brightCyan: 29.6
+    brightWhite: 97.2

@@ -1,0 +1,49 @@
+name: "Nord Frost"
+source:
+  marketplace_id: "AgraeonLabs.dev-themes"
+  version: "0.1.0"
+  installs: 283
+  author: "Agraeon Labs"
+  repo: "https://github.com/adiagcodelance/VS-Code-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AgraeonLabs.dev-themes"
+colors:
+  bg: "#2E3440"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#3B4252"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#E5E9F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 80.3
+    black: 0
+    red: 27.9
+    green: 56.6
+    yellow: 71.3
+    blue: 43.6
+    magenta: 41.4
+    cyan: 57.6
+    white: 87.3
+    brightBlack: 0
+    brightRed: 27.9
+    brightGreen: 56.6
+    brightYellow: 71.3
+    brightBlue: 43.6
+    brightMagenta: 41.4
+    brightCyan: 57.6
+    brightWhite: 87.3

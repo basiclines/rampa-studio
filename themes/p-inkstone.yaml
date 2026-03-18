@@ -1,0 +1,49 @@
+name: "P. \ Inkstone"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74756
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+colors:
+  bg: "#111B22"
+  fg: "#F5D8C3"
+  black: "#353D3D"
+  red: "#CE3521"
+  green: "#05A829"
+  yellow: "#D39E0D"
+  blue: "#276AC2"
+  magenta: "#E0024C"
+  cyan: "#04C4A4"
+  white: "#CFB5A9"
+  brightBlack: "#475050"
+  brightRed: "#FF553E"
+  brightGreen: "#2DDD68"
+  brightYellow: "#FFC918"
+  brightBlue: "#50A9FD"
+  brightMagenta: "#FF3478"
+  brightCyan: "#28F5D3"
+  brightWhite: "#FAE8E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 239
+  contrast:
+    fg: 84.8
+    black: 0
+    red: 26.9
+    green: 42.4
+    yellow: 53.2
+    blue: 24.2
+    magenta: 29.1
+    cyan: 57.7
+    white: 63.9
+    brightBlack: 12.2
+    brightRed: 42.7
+    brightGreen: 68.5
+    brightYellow: 77
+    brightBlue: 52.1
+    brightMagenta: 39.6
+    brightCyan: 83.8
+    brightWhite: 93.8

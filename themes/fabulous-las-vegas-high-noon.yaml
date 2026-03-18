@@ -1,0 +1,49 @@
+name: "Fabulous Las Vegas — High Noon"
+source:
+  marketplace_id: "alpharomercoma.fabulous-las-vegas"
+  version: "0.1.9"
+  installs: 16
+  author: "Alpha Romer Coma"
+  repo: "https://github.com/alpharomercoma/fabulous-las-vegas-extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=alpharomercoma.fabulous-las-vegas"
+colors:
+  bg: "#FFFBF5"
+  fg: "#352A1D"
+  black: "#352A1D"
+  red: "#C9122B"
+  green: "#0C7566"
+  yellow: "#A04500"
+  blue: "#00769B"
+  magenta: "#B5325E"
+  cyan: "#0C8C8C"
+  white: "#F5ECE0"
+  brightBlack: "#6B5A4A"
+  brightRed: "#E5334F"
+  brightGreen: "#12A68A"
+  brightYellow: "#D47800"
+  brightBlue: "#1097C4"
+  brightMagenta: "#D44A78"
+  brightCyan: "#12B5B5"
+  brightWhite: "#FFFBF5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.5
+    black: 98.5
+    red: 74.7
+    green: 75.4
+    yellow: 78.4
+    blue: 72.9
+    magenta: 76
+    cyan: 65.3
+    white: 0
+    brightBlack: 80.5
+    brightRed: 65.8
+    brightGreen: 54.9
+    brightYellow: 57
+    brightBlue: 58.4
+    brightMagenta: 65.6
+    brightCyan: 46.9
+    brightWhite: 0

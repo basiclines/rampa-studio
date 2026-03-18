@@ -1,0 +1,49 @@
+name: "ColorShift Material Pro - Evening"
+source:
+  marketplace_id: "ColorShift.colorshift-material-pro"
+  version: "1.0.0"
+  installs: 56
+  author: "ColorShift"
+  repo: "https://github.com/colorshift/colorshift-material-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=ColorShift.colorshift-material-pro"
+colors:
+  bg: "#1A2327"
+  fg: "#E0E0E0"
+  black: "#000000"
+  red: "#F57C00"
+  green: "#689F38"
+  yellow: "#FFA000"
+  blue: "#5C6BC0"
+  magenta: "#9575CD"
+  cyan: "#00ACC1"
+  white: "#E0E0E0"
+  brightBlack: "#546E7A"
+  brightRed: "#FFB74D"
+  brightGreen: "#AED581"
+  brightYellow: "#FFD54F"
+  brightBlue: "#7986CB"
+  brightMagenta: "#B39DDB"
+  brightCyan: "#4DD0E1"
+  brightWhite: "#ECEFF1"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 227
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 47.7
+    green: 40.6
+    yellow: 60.6
+    blue: 25.8
+    magenta: 35
+    cyan: 47.2
+    white: 85.5
+    brightBlack: 22.5
+    brightRed: 69.2
+    brightGreen: 71.4
+    brightYellow: 81.4
+    brightBlue: 37.3
+    brightMagenta: 52.5
+    brightCyan: 66.1
+    brightWhite: 94.7

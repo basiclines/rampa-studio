@@ -1,0 +1,49 @@
+name: "OhLED_Lime"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#00FF00"
+  black: "#00FF00"
+  red: "#00BB00"
+  green: "#00CC00"
+  yellow: "#009900"
+  blue: "#00EE00"
+  magenta: "#00DD00"
+  cyan: "#00AA00"
+  white: "#008800"
+  brightBlack: "#00FF00"
+  brightRed: "#00BB00"
+  brightGreen: "#00CC00"
+  brightYellow: "#009900"
+  brightBlue: "#00EE00"
+  brightMagenta: "#00DD00"
+  brightCyan: "#00AA00"
+  brightWhite: "#008800"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 86.5
+    black: 86.5
+    red: 52.3
+    green: 60.3
+    yellow: 37.2
+    blue: 77.5
+    magenta: 68.7
+    cyan: 44.5
+    white: 30.2
+    brightBlack: 86.5
+    brightRed: 52.3
+    brightGreen: 60.3
+    brightYellow: 37.2
+    brightBlue: 77.5
+    brightMagenta: 68.7
+    brightCyan: 44.5
+    brightWhite: 30.2

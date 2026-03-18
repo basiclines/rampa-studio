@@ -1,0 +1,49 @@
+name: "Guezwhoz"
+source:
+  marketplace_id: "guezwhoz-schema.guezwhoz-vscode-theme"
+  version: "1.2.0"
+  installs: 586
+  author: "Egor Lem"
+  repo: "https://github.com/guesswhozzz/guezwhoz-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=guezwhoz-schema.guezwhoz-vscode-theme"
+colors:
+  bg: "#1C1C1C"
+  fg: "#DADADA"
+  black: "#080808"
+  red: "#FF5F5F"
+  green: "#87D7AF"
+  yellow: "#D7D787"
+  blue: "#5FAFD7"
+  magenta: "#AFAFFF"
+  cyan: "#5FD7D7"
+  white: "#DADADA"
+  brightBlack: "#8A8A8A"
+  brightRed: "#D75F5F"
+  brightGreen: "#AFD7AF"
+  brightYellow: "#D7D7AF"
+  brightBlue: "#87AFD7"
+  brightMagenta: "#AFAFD7"
+  brightCyan: "#87D7D7"
+  brightWhite: "#DADADA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 82.6
+    black: 0
+    red: 44.8
+    green: 71
+    yellow: 78.1
+    blue: 52.6
+    magenta: 61.6
+    cyan: 70.3
+    white: 82.6
+    brightBlack: 38
+    brightRed: 36.2
+    brightGreen: 74.5
+    brightYellow: 79.2
+    brightBlue: 55.3
+    brightMagenta: 59.3
+    brightCyan: 72.7
+    brightWhite: 82.6

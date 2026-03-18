@@ -1,0 +1,49 @@
+name: "Ef Symbiosis"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#130911"
+  fg: "#D0D0D0"
+  black: "#D0D0D0"
+  red: "#EF6360"
+  green: "#0FAA26"
+  yellow: "#BF9032"
+  blue: "#3F95F6"
+  magenta: "#D369AF"
+  cyan: "#4FBAEF"
+  white: "#221920"
+  brightBlack: "#857F8F"
+  brightRed: "#FF7355"
+  brightGreen: "#6AAD0F"
+  brightYellow: "#D1843F"
+  brightBlue: "#6A9FFF"
+  brightMagenta: "#E580EA"
+  brightCyan: "#6FAFFF"
+  brightWhite: "#130911"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 334
+  contrast:
+    fg: 77.8
+    black: 77.8
+    red: 43.4
+    green: 44.4
+    yellow: 46.5
+    blue: 44.3
+    magenta: 41.8
+    cyan: 59.2
+    white: 0
+    brightBlack: 35.2
+    brightRed: 50.3
+    brightGreen: 48.5
+    brightYellow: 45.6
+    brightBlue: 50.8
+    brightMagenta: 54.1
+    brightCyan: 57.3
+    brightWhite: 0

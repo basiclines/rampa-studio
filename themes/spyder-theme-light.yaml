@@ -1,0 +1,49 @@
+name: "spyder-theme-light"
+source:
+  marketplace_id: "HilsianCapital.spyder-theme"
+  version: "0.0.3"
+  installs: 6895
+  author: "HilsianCapital"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=HilsianCapital.spyder-theme"
+colors:
+  bg: "#FDFDDF"
+  fg: "#3C3836"
+  black: "#EBDBB2"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#7C6F64"
+  brightBlack: "#928374"
+  brightRed: "#9D0006"
+  brightGreen: "#79740E"
+  brightYellow: "#B57614"
+  brightBlue: "#076678"
+  brightMagenta: "#8F3F71"
+  brightCyan: "#427B58"
+  brightWhite: "#3C3836"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 94.3
+    black: 15.8
+    red: 73.1
+    green: 55.4
+    yellow: 46.1
+    blue: 66.7
+    magenta: 66.6
+    cyan: 56.4
+    white: 71.4
+    brightBlack: 61.9
+    brightRed: 84.6
+    brightGreen: 71.2
+    brightYellow: 62.6
+    brightBlue: 79.8
+    brightMagenta: 80.3
+    brightCyan: 72
+    brightWhite: 94.3

@@ -1,0 +1,49 @@
+name: "the-fato-dark"
+source:
+  marketplace_id: "RenanTheFato.the-fato-dark"
+  version: "0.0.5"
+  installs: 36
+  author: "Renan The Fato"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=RenanTheFato.the-fato-dark"
+colors:
+  bg: "#0D0D0D"
+  fg: "#D4D4D4"
+  black: "#4B4B4B"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 80.2
+    black: 12.1
+    red: 27.5
+    green: 53.7
+    yellow: 86.4
+    blue: 28.2
+    magenta: 30.5
+    cyan: 48.3
+    white: 90.8
+    brightBlack: 22.8
+    brightRed: 39.3
+    brightGreen: 64.3
+    brightYellow: 96.4
+    brightBlue: 40.7
+    brightMagenta: 46.1
+    brightCyan: 56.1
+    brightWhite: 90.8

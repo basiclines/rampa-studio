@@ -1,0 +1,49 @@
+name: "Sceanic"
+source:
+  marketplace_id: "TobiasTimm.sceanic"
+  version: "1.1.1"
+  installs: 1335
+  author: "Tobias Timm"
+  repo: "https://github.com/tobiastimm/sceanic"
+  url: "https://marketplace.visualstudio.com/items?itemName=TobiasTimm.sceanic"
+colors:
+  bg: "#1A2A32"
+  fg: "#CED4DE"
+  black: "#7F7F7F"
+  red: "#EC5F66"
+  green: "#99C794"
+  yellow: "#FFE2A9"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#CED4DE"
+  brightBlack: "#7F7F7F"
+  brightRed: "#EC5F66"
+  brightGreen: "#99C794"
+  brightYellow: "#FFE2A9"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#CED4DE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 231
+  contrast:
+    fg: 76.7
+    black: 30.8
+    red: 38.9
+    green: 62.4
+    yellow: 87.7
+    blue: 41.7
+    magenta: 49.6
+    cyan: 50.6
+    white: 76.7
+    brightBlack: 30.8
+    brightRed: 38.9
+    brightGreen: 62.4
+    brightYellow: 87.7
+    brightBlue: 41.7
+    brightMagenta: 49.6
+    brightCyan: 50.6
+    brightWhite: 76.7

@@ -1,0 +1,49 @@
+name: "Posterpole"
+source:
+  marketplace_id: "ilof2.posterpole-theme"
+  version: "0.1.5"
+  installs: 328
+  author: "ilof2"
+  repo: "https://github.com/posterpole/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ilof2.posterpole-theme"
+colors:
+  bg: "#24232A"
+  fg: "#AFA79D"
+  black: "#2C2C30"
+  red: "#A97070"
+  green: "#778C73"
+  yellow: "#CC9166"
+  blue: "#6C7F93"
+  magenta: "#B894AF"
+  cyan: "#8EA4A2"
+  white: "#AFA79D"
+  brightBlack: "#A5A59C"
+  brightRed: "#BC8F8F"
+  brightGreen: "#92A38F"
+  brightYellow: "#D9AC8C"
+  brightBlue: "#8A99A8"
+  brightMagenta: "#CCB3C6"
+  brightCyan: "#8FA4A2"
+  brightWhite: "#C6C0B9"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 292
+  contrast:
+    fg: 52.5
+    black: 0
+    red: 31.7
+    green: 35.1
+    yellow: 47.1
+    blue: 30.6
+    magenta: 47.4
+    cyan: 47.9
+    white: 52.5
+    brightBlack: 50.5
+    brightRed: 45.1
+    brightGreen: 47.2
+    brightYellow: 59.6
+    brightBlue: 43.5
+    brightMagenta: 62.5
+    brightCyan: 48
+    brightWhite: 66.4

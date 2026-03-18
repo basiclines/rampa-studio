@@ -1,0 +1,49 @@
+name: "OhLED_SeaShell"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFF5EE"
+  black: "#FFF5EE"
+  red: "#BBB4AF"
+  green: "#CCC4BE"
+  yellow: "#99938F"
+  blue: "#EEE5DE"
+  magenta: "#DDD4CE"
+  cyan: "#AAA39F"
+  white: "#88837F"
+  brightBlack: "#FFF5EE"
+  brightRed: "#BBB4AF"
+  brightGreen: "#CCC4BE"
+  brightYellow: "#99938F"
+  brightBlue: "#EEE5DE"
+  brightMagenta: "#DDD4CE"
+  brightCyan: "#AAA39F"
+  brightWhite: "#88837F"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 102.4
+    black: 102.4
+    red: 62.4
+    green: 71.7
+    yellow: 44.6
+    blue: 92
+    magenta: 81.4
+    cyan: 53.1
+    white: 36.6
+    brightBlack: 102.4
+    brightRed: 62.4
+    brightGreen: 71.7
+    brightYellow: 44.6
+    brightBlue: 92
+    brightMagenta: 81.4
+    brightCyan: 53.1
+    brightWhite: 36.6

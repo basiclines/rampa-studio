@@ -1,0 +1,49 @@
+name: "Noirzen"
+source:
+  marketplace_id: "e108.noirzen-theme"
+  version: "1.6.0"
+  installs: 78
+  author: "e108"
+  repo: "https://github.com/Q2x38b/noirzen"
+  url: "https://marketplace.visualstudio.com/items?itemName=e108.noirzen-theme"
+colors:
+  bg: "#181818"
+  fg: "#D4D4D4"
+  black: "#181818"
+  red: "#E28D78"
+  green: "#B8D1A1"
+  yellow: "#E8C090"
+  blue: "#A1CCDD"
+  magenta: "#CEB0D3"
+  cyan: "#91B4D5"
+  white: "#D4D4D4"
+  brightBlack: "#545454"
+  brightRed: "#E28D78"
+  brightGreen: "#B8D1A1"
+  brightYellow: "#E8C090"
+  brightBlue: "#A1CCDD"
+  brightMagenta: "#CEB0D3"
+  brightCyan: "#91B4D5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 79.4
+    black: 0
+    red: 51.5
+    green: 72.8
+    yellow: 71.4
+    blue: 70.6
+    magenta: 63.9
+    cyan: 58.5
+    white: 79.4
+    brightBlack: 14.6
+    brightRed: 51.5
+    brightGreen: 72.8
+    brightYellow: 71.4
+    brightBlue: 70.6
+    brightMagenta: 63.9
+    brightCyan: 58.5
+    brightWhite: 106.8

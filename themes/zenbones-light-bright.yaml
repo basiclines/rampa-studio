@@ -1,0 +1,49 @@
+name: "Zenbones Light Bright"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2700
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+colors:
+  bg: "#F8F6F5"
+  fg: "#2C363C"
+  black: "#F0EDEC"
+  red: "#A8334C"
+  green: "#4F6C31"
+  yellow: "#944927"
+  blue: "#286486"
+  magenta: "#88507D"
+  cyan: "#3B8992"
+  white: "#2C363C"
+  brightBlack: "#CFC1BA"
+  brightRed: "#94253E"
+  brightGreen: "#3F5A22"
+  brightYellow: "#803D1C"
+  brightBlue: "#1D5573"
+  brightMagenta: "#7B3B70"
+  brightCyan: "#2B747C"
+  brightWhite: "#4F5E68"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 93
+    black: 0
+    red: 76
+    green: 74.6
+    yellow: 76.5
+    blue: 76.6
+    magenta: 74.7
+    cyan: 62.4
+    white: 93
+    brightBlack: 26.8
+    brightRed: 81.7
+    brightGreen: 81.8
+    brightYellow: 82.3
+    brightBlue: 82.6
+    brightMagenta: 81.4
+    brightCyan: 71.5
+    brightWhite: 77.9

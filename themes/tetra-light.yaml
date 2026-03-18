@@ -1,0 +1,49 @@
+name: "tetra-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#205A68"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#148B97"
+  yellow: "#C49A52"
+  blue: "#E8744A"
+  magenta: "#E2585D"
+  cyan: "#148B97"
+  white: "#266B7B"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#2ED3E3"
+  brightYellow: "#DEC69E"
+  brightBlue: "#F3BAA5"
+  brightMagenta: "#F1AFB1"
+  brightCyan: "#2ED3E3"
+  brightWhite: "#389DB6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 80.3
+    green: 67.4
+    yellow: 50.6
+    blue: 56
+    magenta: 63.1
+    cyan: 67.4
+    white: 80
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 33.5
+    brightYellow: 29
+    brightBlue: 30.2
+    brightMagenta: 34
+    brightCyan: 33.5
+    brightWhite: 58.3

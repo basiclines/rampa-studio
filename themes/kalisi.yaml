@@ -1,0 +1,49 @@
+name: "Kalisi"
+source:
+  marketplace_id: "freeo.vscode-kalisi"
+  version: "1.0.2"
+  installs: 706
+  author: "freeo"
+  repo: "https://github.com/freeo/vscode-kalisi"
+  url: "https://marketplace.visualstudio.com/items?itemName=freeo.vscode-kalisi"
+colors:
+  bg: "#FAFAFA"
+  fg: "#000000"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00DD00"
+  yellow: "#EEEE44"
+  blue: "#3C91E6"
+  magenta: "#DD00DD"
+  cyan: "#66D600"
+  white: "#888888"
+  brightBlack: "#000000"
+  brightRed: "#FF0000"
+  brightGreen: "#00AAAA"
+  brightYellow: "#EE8800"
+  brightBlue: "#3C91E6"
+  brightMagenta: "#CC00CC"
+  brightCyan: "#00DD00"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103
+    black: 103
+    red: 61.1
+    green: 30.9
+    yellow: 8.7
+    blue: 56.9
+    magenta: 62.5
+    cyan: 32.1
+    white: 60.1
+    brightBlack: 103
+    brightRed: 61.1
+    brightGreen: 51.2
+    brightYellow: 46.8
+    brightBlue: 56.9
+    brightMagenta: 67.2
+    brightCyan: 30.9
+    brightWhite: 103

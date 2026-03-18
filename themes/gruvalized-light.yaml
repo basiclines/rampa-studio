@@ -1,0 +1,49 @@
+name: "Gruvalized Light"
+source:
+  marketplace_id: "odlot-marco-lutz.gruvalized"
+  version: "0.0.3"
+  installs: 89
+  author: "Marco Lutz"
+  repo: "https://github.com/odlot/gruvalized"
+  url: "https://marketplace.visualstudio.com/items?itemName=odlot-marco-lutz.gruvalized"
+colors:
+  bg: "#FAF5E7"
+  fg: "#1A1A1A"
+  black: "#6A6A6A"
+  red: "#CC241D"
+  green: "#448C27"
+  yellow: "#D79921"
+  blue: "#4B83CD"
+  magenta: "#7A3E9D"
+  cyan: "#689D6A"
+  white: "#1A1A1A"
+  brightBlack: "#AAAAAA"
+  brightRed: "#7C1612"
+  brightGreen: "#214413"
+  brightYellow: "#876015"
+  brightBlue: "#295793"
+  brightMagenta: "#47245B"
+  brightCyan: "#436744"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.4
+    black: 71.1
+    red: 69.5
+    green: 62.6
+    yellow: 42.6
+    blue: 60
+    magenta: 77.8
+    cyan: 52.9
+    white: 98.4
+    brightBlack: 39.9
+    brightRed: 87.2
+    brightGreen: 89.5
+    brightYellow: 72.2
+    brightBlue: 79.1
+    brightMagenta: 92.3
+    brightCyan: 76
+    brightWhite: 100.1

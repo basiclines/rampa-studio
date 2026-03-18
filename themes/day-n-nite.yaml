@@ -1,0 +1,49 @@
+name: "Day 'n' Nite"
+source:
+  marketplace_id: "BrunoKawka.day-n-nite"
+  version: "0.0.1"
+  installs: 145
+  author: "Bruno Kawka"
+  repo: "https://github.com/letelete/day-n-nite-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BrunoKawka.day-n-nite"
+colors:
+  bg: "#000000"
+  fg: "#000000"
+  black: "#0A0A0A"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#FDF4FF"
+  cyan: "#06B6D4"
+  white: "#FFFFFF"
+  brightBlack: "#0A0A0A"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#E879F9"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 0
+    black: 0
+    red: 37.8
+    green: 57.8
+    yellow: 66.1
+    blue: 37.8
+    magenta: 102.4
+    cyan: 54.9
+    white: 107.9
+    brightBlack: 0
+    brightRed: 49.1
+    brightGreen: 71.5
+    brightYellow: 78.8
+    brightBlue: 52.4
+    brightMagenta: 54.1
+    brightCyan: 69.6
+    brightWhite: 107.9

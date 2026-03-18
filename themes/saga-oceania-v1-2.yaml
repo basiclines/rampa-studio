@@ -1,0 +1,49 @@
+name: "Saga - Oceania v1.2"
+source:
+  marketplace_id: "bcwsea.theme-saga"
+  version: "1.2.0"
+  installs: 2870
+  author: "bcwsea"
+  repo: "https://github.com/bcwdev/theme-saga"
+  url: "https://marketplace.visualstudio.com/items?itemName=bcwsea.theme-saga"
+colors:
+  bg: "#191514"
+  fg: "#A59A89"
+  black: "#4B4B4B"
+  red: "#CD3131"
+  green: "#689C6B"
+  yellow: "#FEF97B"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#75CB7A"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 47.5
+    black: 11.4
+    red: 26.8
+    green: 41.7
+    yellow: 99.7
+    blue: 27.5
+    magenta: 29.9
+    cyan: 47.7
+    white: 90.1
+    brightBlack: 22.1
+    brightRed: 38.7
+    brightGreen: 63.3
+    brightYellow: 95.7
+    brightBlue: 40.1
+    brightMagenta: 45.5
+    brightCyan: 55.5
+    brightWhite: 90.1

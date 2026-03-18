@@ -1,0 +1,49 @@
+name: "Vikkie!!! Light"
+source:
+  marketplace_id: "atomicnumberphi.vikkie-theme"
+  version: "1.0.3"
+  installs: 97
+  author: "Kaleidosium"
+  repo: "https://github.com/Kaleidosium/vikkie-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=atomicnumberphi.vikkie-theme"
+colors:
+  bg: "#F8F5FF"
+  fg: "#2A1E3A"
+  black: "#2A1E3A"
+  red: "#FF6F6F"
+  green: "#059669"
+  yellow: "#D97706"
+  blue: "#3B82F6"
+  magenta: "#A66BB8"
+  cyan: "#06B6D4"
+  white: "#E8E1F5"
+  brightBlack: "#6A6D77"
+  brightRed: "#FCA5A5"
+  brightGreen: "#34D399"
+  brightYellow: "#FCD34D"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 97.3
+    black: 97.3
+    red: 46.6
+    green: 59.5
+    yellow: 53.3
+    blue: 58.7
+    magenta: 60.9
+    cyan: 42
+    white: 8.3
+    brightBlack: 70.4
+    brightRed: 30.8
+    brightGreen: 31.1
+    brightYellow: 15.8
+    brightBlue: 44.4
+    brightMagenta: 46.1
+    brightCyan: 16
+    brightWhite: 0

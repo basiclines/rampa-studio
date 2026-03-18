@@ -1,0 +1,49 @@
+name: "Naps Dusk Gold"
+source:
+  marketplace_id: "kimmojae.naps-theme"
+  version: "0.1.0"
+  installs: 30
+  author: "kimmojae"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=kimmojae.naps-theme"
+colors:
+  bg: "#1E2629"
+  fg: "#C5C8C6"
+  black: "#242E33"
+  red: "#A54242"
+  green: "#8C9440"
+  yellow: "#DE935F"
+  blue: "#81A2BE"
+  magenta: "#85678F"
+  cyan: "#5E8D87"
+  white: "#6C7A80"
+  brightBlack: "#7A7A7A"
+  brightRed: "#CC6666"
+  brightGreen: "#B5BD68"
+  brightYellow: "#F0C674"
+  brightBlue: "#99DBFF"
+  brightMagenta: "#B894C0"
+  brightCyan: "#8ABEB7"
+  brightWhite: "#C5C8C6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 223
+  contrast:
+    fg: 70
+    black: 0
+    red: 19.3
+    green: 38.9
+    yellow: 50.5
+    blue: 47
+    magenta: 25.3
+    cyan: 34
+    white: 28
+    brightBlack: 29.1
+    brightRed: 34.6
+    brightGreen: 60.5
+    brightYellow: 72.7
+    brightBlue: 76.7
+    brightMagenta: 48.1
+    brightCyan: 59
+    brightWhite: 70

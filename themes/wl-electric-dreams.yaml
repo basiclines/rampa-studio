@@ -1,0 +1,49 @@
+name: "WL-Electric Dreams"
+source:
+  marketplace_id: "WatkinsLabs.electric-dreams"
+  version: "1.0.1"
+  installs: 38
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.electric-dreams"
+colors:
+  bg: "#06060F"
+  fg: "#FFFAFA"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FF8C00"
+  blue: "#00FFFF"
+  magenta: "#7FFF00"
+  cyan: "#00FFFF"
+  white: "#FFFAFA"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FF8C00"
+  brightBlue: "#00FFFF"
+  brightMagenta: "#7FFF00"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 283
+  contrast:
+    fg: 105.2
+    black: 0
+    red: 37.5
+    green: 86.4
+    yellow: 56.6
+    blue: 92.1
+    magenta: 89.6
+    cyan: 92.1
+    white: 105.2
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 86.4
+    brightYellow: 56.6
+    brightBlue: 92.1
+    brightMagenta: 89.6
+    brightCyan: 92.1
+    brightWhite: 107.8

@@ -1,0 +1,49 @@
+name: "Sweet Pascal"
+source:
+  marketplace_id: "PascalWelsch.sweet-pascal"
+  version: "0.0.5"
+  installs: 184
+  author: "Pascal Welsch"
+  repo: "https://github.com/passsy/sweet-pascal"
+  url: "https://marketplace.visualstudio.com/items?itemName=PascalWelsch.sweet-pascal"
+colors:
+  bg: "#222424"
+  fg: "#EEEEEE"
+  black: "#1C1A1A"
+  red: "#EA5E5E"
+  green: "#5C962C"
+  yellow: "#A68A0D"
+  blue: "#3993D4"
+  magenta: "#983498"
+  cyan: "#06969"
+  white: "#FFFFFF"
+  brightBlack: "#898989"
+  brightRed: "#FF6B68"
+  brightGreen: "#7BEA96"
+  brightYellow: "#E4E24A"
+  brightBlue: "#A4C2FF"
+  brightMagenta: "#FF92F1"
+  brightCyan: "#8DD2C5"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 94.1
+    black: 0
+    red: 38.8
+    green: 35.7
+    yellow: 38.2
+    blue: 38.6
+    magenta: 18.2
+    cyan: 17.5
+    white: 105.2
+    brightBlack: 36.4
+    brightRed: 46.4
+    brightGreen: 77.6
+    brightYellow: 82.7
+    brightBlue: 66.9
+    brightMagenta: 62
+    brightCyan: 68.9
+    brightWhite: 88.3

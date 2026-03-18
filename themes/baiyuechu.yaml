@@ -1,0 +1,49 @@
+name: "Baiyuechu"
+source:
+  marketplace_id: "DongFangBaiYue.DongFangBai"
+  version: "4.5.6"
+  installs: 2
+  author: "Dong Fang Bai Yue"
+  repo: "https://github.com/xiaowu-d3"
+  url: "https://marketplace.visualstudio.com/items?itemName=DongFangBaiYue.DongFangBai"
+colors:
+  bg: "#1E1E2E"
+  fg: "#CDD6F4"
+  black: "#A6ADC8"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#F5C2E7"
+  cyan: "#89DCEB"
+  white: "#BAC2DE"
+  brightBlack: "#585B70"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#89B4FA"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#89DCEB"
+  brightWhite: "#45475A"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  contrast:
+    fg: 80
+    black: 56.2
+    red: 54.7
+    green: 78.3
+    yellow: 88.4
+    blue: 59.1
+    magenta: 76.7
+    cyan: 75.6
+    white: 68.1
+    brightBlack: 16.9
+    brightRed: 54.7
+    brightGreen: 78.3
+    brightYellow: 88.4
+    brightBlue: 59.1
+    brightMagenta: 76.7
+    brightCyan: 75.6
+    brightWhite: 9.3

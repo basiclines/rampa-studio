@@ -1,0 +1,49 @@
+name: "Hacker"
+source:
+  marketplace_id: "brenix.hacker-theme"
+  version: "0.0.6"
+  installs: 69271
+  author: "brenix"
+  repo: "https://github.com/brenix/vscode-hacker"
+  url: "https://marketplace.visualstudio.com/items?itemName=brenix.hacker-theme"
+colors:
+  bg: "#0A0B0A"
+  fg: "#BBBBBB"
+  black: "#252525"
+  red: "#C05776"
+  green: "#A7ECB7"
+  yellow: "#87A1C5"
+  blue: "#81B38C"
+  magenta: "#507057"
+  cyan: "#7574A5"
+  white: "#858585"
+  brightBlack: "#454545"
+  brightRed: "#C05776"
+  brightGreen: "#A7ECB7"
+  brightYellow: "#87A1C5"
+  brightBlue: "#81B38C"
+  brightMagenta: "#507057"
+  brightCyan: "#7574A5"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 65.6
+    black: 0
+    red: 32.1
+    green: 85.4
+    yellow: 50.2
+    blue: 54.7
+    magenta: 24
+    cyan: 31.2
+    white: 37
+    brightBlack: 10
+    brightRed: 32.1
+    brightGreen: 85.4
+    brightYellow: 50.2
+    brightBlue: 54.7
+    brightMagenta: 24
+    brightCyan: 31.2
+    brightWhite: 92.8

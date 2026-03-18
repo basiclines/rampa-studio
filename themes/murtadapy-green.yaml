@@ -1,0 +1,49 @@
+name: "murtadapy-green"
+source:
+  marketplace_id: "Maltarouti.colored-programmer"
+  version: "1.0.7"
+  installs: 64
+  author: "Maltarouti"
+  repo: "https://github.com/murtadapy/colored-programmer"
+  url: "https://marketplace.visualstudio.com/items?itemName=Maltarouti.colored-programmer"
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CC1616"
+  green: "#15B73D"
+  yellow: "#DAB42B"
+  blue: "#1263A3"
+  magenta: "#C616CC"
+  cyan: "#4596D6"
+  white: "#DADADA"
+  brightBlack: "#666666"
+  brightRed: "#D64545"
+  brightGreen: "#45D569"
+  brightYellow: "#E1C355"
+  brightBlue: "#167CCC"
+  brightMagenta: "#D145D6"
+  brightCyan: "#73B0E0"
+  brightWhite: "#D1D1D1"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 23.7
+    green: 48.9
+    yellow: 62.2
+    blue: 19.2
+    magenta: 28.7
+    cyan: 41.1
+    white: 82.3
+    brightBlack: 21.2
+    brightRed: 30.6
+    brightGreen: 64.6
+    brightYellow: 69.7
+    brightBlue: 30
+    brightMagenta: 35.4
+    brightCyan: 54.4
+    brightWhite: 76.8

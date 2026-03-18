@@ -1,0 +1,49 @@
+name: "Tailwind Breeze"
+source:
+  marketplace_id: "praveenpuglia.tailwind-breeze"
+  version: "2.2.6"
+  installs: 16540
+  author: "Praveen Puglia"
+  repo: "https://github.com/praveenpuglia/tailwind-breeze"
+  url: "https://marketplace.visualstudio.com/items?itemName=praveenpuglia.tailwind-breeze"
+colors:
+  bg: "#FFFFFF"
+  fg: "#1A202C"
+  black: "#000000"
+  red: "#C53030"
+  green: "#38A169"
+  yellow: "#D69E2E"
+  blue: "#3182CE"
+  magenta: "#3182CE"
+  cyan: "#319795"
+  white: "#FFFFFF"
+  brightBlack: "#4A5568"
+  brightRed: "#E53E3E"
+  brightGreen: "#48BB78"
+  brightYellow: "#ECC94B"
+  brightBlue: "#4299E1"
+  brightMagenta: "#ED64A6"
+  brightCyan: "#38B2AC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 103.3
+    black: 106
+    red: 75.9
+    green: 59.4
+    yellow: 46.9
+    blue: 67.2
+    magenta: 67.2
+    cyan: 62.3
+    white: 0
+    brightBlack: 86.2
+    brightRed: 67
+    brightGreen: 47.4
+    brightYellow: 27.4
+    brightBlue: 57.1
+    brightMagenta: 56.1
+    brightCyan: 50.1
+    brightWhite: 0

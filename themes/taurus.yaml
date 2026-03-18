@@ -1,0 +1,49 @@
+name: "Taurus"
+source:
+  marketplace_id: "xyr0z1ne.taurus"
+  version: "0.0.5"
+  installs: 2808
+  author: "xyr0z1ne"
+  repo: "https://github.com/Xyr0s1gn/Taurus-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xyr0z1ne.taurus"
+colors:
+  bg: "#0D0D0D"
+  fg: "#ADB6C2"
+  black: "#000000"
+  red: "#CF4F71"
+  green: "#2DA800"
+  yellow: "#E38711"
+  blue: "#0088FF"
+  magenta: "#FB94FF"
+  cyan: "#6CD4D6"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#CF4F71"
+  brightGreen: "#2DA800"
+  brightYellow: "#E38711"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#6CD4D6"
+  brightWhite: "#151516"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 62.1
+    black: 0
+    red: 33.3
+    green: 43.8
+    yellow: 49.5
+    blue: 39.5
+    magenta: 65.1
+    cyan: 70.8
+    white: 107.6
+    brightBlack: 15.4
+    brightRed: 33.3
+    brightGreen: 43.8
+    brightYellow: 49.5
+    brightBlue: 39.5
+    brightMagenta: 65.1
+    brightCyan: 70.8
+    brightWhite: 0

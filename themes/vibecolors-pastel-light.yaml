@@ -1,0 +1,49 @@
+name: "VibeColors Pastel Light"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+colors:
+  bg: "#FEF7FF"
+  fg: "#5A5A5A"
+  black: "#7A7A7A"
+  red: "#FF9BB3"
+  green: "#99E6B3"
+  yellow: "#FFCC99"
+  blue: "#99C5FF"
+  magenta: "#D4A5D4"
+  cyan: "#99E6D6"
+  white: "#5A5A5A"
+  brightBlack: "#7A7A7A"
+  brightRed: "#FF9BB3"
+  brightGreen: "#99E6B3"
+  brightYellow: "#FFCC99"
+  brightBlue: "#99C5FF"
+  brightMagenta: "#D4A5D4"
+  brightCyan: "#99E6D6"
+  brightWhite: "#5A5A5A"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 80.3
+    black: 66.2
+    red: 34.5
+    green: 18.5
+    yellow: 18.4
+    blue: 29.3
+    magenta: 36.9
+    cyan: 17.2
+    white: 80.3
+    brightBlack: 66.2
+    brightRed: 34.5
+    brightGreen: 18.5
+    brightYellow: 18.4
+    brightBlue: 29.3
+    brightMagenta: 36.9
+    brightCyan: 17.2
+    brightWhite: 80.3

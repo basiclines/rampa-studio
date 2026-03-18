@@ -1,0 +1,49 @@
+name: "MagicUser Paladin"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1704
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+colors:
+  bg: "#001833"
+  fg: "#D8D8D8"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#F100F1"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 252
+  contrast:
+    fg: 81.7
+    black: 0
+    red: 40.9
+    green: 85.2
+    yellow: 101.4
+    blue: 14.9
+    magenta: 40.7
+    cyan: 90.9
+    white: 106.6
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 78.9
+    brightYellow: 101.7
+    brightBlue: 47.5
+    brightMagenta: 44.7
+    brightCyan: 83.8
+    brightWhite: 81.7

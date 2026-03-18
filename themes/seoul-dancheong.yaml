@@ -1,0 +1,49 @@
+name: "Seoul Dancheong"
+source:
+  marketplace_id: "lovema-kr.theme-seoul"
+  version: "0.1.6"
+  installs: 35
+  author: "Hue"
+  repo: "https://github.com/hue-lovemakr/lovema-kr"
+  url: "https://marketplace.visualstudio.com/items?itemName=lovema-kr.theme-seoul"
+colors:
+  bg: "#262F2B"
+  fg: "#D8C8B2"
+  black: "#1D1E23"
+  red: "#C4003B"
+  green: "#237A4E"
+  yellow: "#FFC454"
+  blue: "#0B6DB7"
+  magenta: "#BA4160"
+  cyan: "#5EB3FF"
+  white: "#EDF2F5"
+  brightBlack: "#1D1E23"
+  brightRed: "#C4003B"
+  brightGreen: "#237A4E"
+  brightYellow: "#FFC454"
+  brightBlue: "#0B6DB7"
+  brightMagenta: "#BA4160"
+  brightCyan: "#5EB3FF"
+  brightWhite: "#EDF2F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 167
+  contrast:
+    fg: 70.1
+    black: 0
+    red: 19.3
+    green: 21.3
+    yellow: 72.3
+    blue: 20.9
+    magenta: 22.2
+    cyan: 53.8
+    white: 94.4
+    brightBlack: 0
+    brightRed: 19.3
+    brightGreen: 21.3
+    brightYellow: 72.3
+    brightBlue: 20.9
+    brightMagenta: 22.2
+    brightCyan: 53.8
+    brightWhite: 94.4

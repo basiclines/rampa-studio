@@ -1,0 +1,49 @@
+name: "OhLED_PeachPuff"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#FFDAB9"
+  black: "#FFDAB9"
+  red: "#BBA088"
+  green: "#CCAE94"
+  yellow: "#99836F"
+  blue: "#EECBAD"
+  magenta: "#DDBDA0"
+  cyan: "#AA917B"
+  white: "#887463"
+  brightBlack: "#FFDAB9"
+  brightRed: "#BBA088"
+  brightGreen: "#CCAE94"
+  brightYellow: "#99836F"
+  brightBlue: "#EECBAD"
+  brightMagenta: "#DDBDA0"
+  brightCyan: "#AA917B"
+  brightWhite: "#887463"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 88.2
+    black: 88.2
+    red: 53.4
+    green: 61.4
+    yellow: 38.1
+    blue: 78.8
+    magenta: 70.2
+    cyan: 45.4
+    white: 30.8
+    brightBlack: 88.2
+    brightRed: 53.4
+    brightGreen: 61.4
+    brightYellow: 38.1
+    brightBlue: 78.8
+    brightMagenta: 70.2
+    brightCyan: 45.4
+    brightWhite: 30.8

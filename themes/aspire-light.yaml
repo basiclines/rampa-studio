@@ -1,0 +1,49 @@
+name: "Aspire Light"
+source:
+  marketplace_id: "adwardstark.catacino"
+  version: "1.0.2"
+  installs: 170
+  author: "Aditya Awasthi"
+  repo: "https://github.com/adwardstark/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=adwardstark.catacino"
+colors:
+  bg: "#FFFFFF"
+  fg: "#38383D"
+  black: "#0C0C0D"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#BE9B00"
+  blue: "#005BD3"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#737373"
+  brightBlack: "#424242"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#C7BC77"
+  brightBlue: "#0060DF"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 96.8
+    black: 105.7
+    red: 74
+    green: 49.2
+    yellow: 51.6
+    blue: 79.6
+    magenta: 74.6
+    cyan: 60.6
+    white: 72.9
+    brightBlack: 93.4
+    brightRed: 74
+    brightGreen: 40.9
+    brightYellow: 36.9
+    brightBlue: 77.1
+    brightMagenta: 74.6
+    brightCyan: 60.6
+    brightWhite: 48.5

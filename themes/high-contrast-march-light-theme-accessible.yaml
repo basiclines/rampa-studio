@@ -1,0 +1,49 @@
+name: "High Contrast March Light Theme - Accessible"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 821
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+colors:
+  bg: "#FEFBEA"
+  fg: "#333333"
+  black: "#424242"
+  red: "#D9534F"
+  green: "#4CAF50"
+  yellow: "#FFC107"
+  blue: "#1976D2"
+  magenta: "#9C27B0"
+  cyan: "#00BCD4"
+  white: "#E0E0E0"
+  brightBlack: "#737373"
+  brightRed: "#F44336"
+  brightGreen: "#66BB6A"
+  brightYellow: "#FFD54F"
+  brightBlue: "#42A5F5"
+  brightMagenta: "#BA68C8"
+  brightCyan: "#4DD0E1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96
+    black: 90.6
+    red: 63.4
+    green: 50.6
+    yellow: 25.1
+    blue: 68.7
+    magenta: 77.4
+    cyan: 41.9
+    white: 13.1
+    brightBlack: 70.2
+    brightRed: 60.2
+    brightGreen: 43.7
+    brightYellow: 17
+    brightBlue: 48.5
+    brightMagenta: 60.1
+    brightCyan: 31.4
+    brightWhite: 0

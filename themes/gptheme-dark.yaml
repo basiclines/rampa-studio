@@ -1,0 +1,49 @@
+name: "GPTheme Dark"
+source:
+  marketplace_id: "pedro-b-n.gptheme"
+  version: "4.0.0"
+  installs: 1258
+  author: "pedro-b-n"
+  repo: "https://github.com/pedro-b-n/GPTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pedro-b-n.gptheme"
+colors:
+  bg: "#F0F0F0"
+  fg: "#000000"
+  black: "#000000"
+  red: "#860000"
+  green: "#008A36"
+  yellow: "#8A8A00"
+  blue: "#0054AD"
+  magenta: "#8C008C"
+  cyan: "#00A9A1"
+  white: "#5E5E5E"
+  brightBlack: "#565656"
+  brightRed: "#D31616"
+  brightGreen: "#16D160"
+  brightYellow: "#DBDB0F"
+  brightBlue: "#2781E2"
+  brightMagenta: "#C413C4"
+  brightCyan: "#1CD5CC"
+  brightWhite: "#B8B8B8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 97.1
+    black: 97.1
+    red: 82.8
+    green: 61.5
+    yellow: 55.2
+    blue: 75.7
+    magenta: 77.8
+    cyan: 46
+    white: 73.3
+    brightBlack: 76.6
+    brightRed: 65.6
+    brightGreen: 30
+    brightYellow: 13.7
+    brightBlue: 57.4
+    brightMagenta: 63.3
+    brightCyan: 24.9
+    brightWhite: 29.4

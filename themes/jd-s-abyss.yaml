@@ -1,0 +1,49 @@
+name: "JD's Abyss"
+source:
+  marketplace_id: "jdboivin.jd-abyss"
+  version: "2025.1.14"
+  installs: 103
+  author: "Jean-Denis Boivin"
+  repo: "https://github.com/starburst997/jd-abyss"
+  url: "https://marketplace.visualstudio.com/items?itemName=jdboivin.jd-abyss"
+colors:
+  bg: "#0C1018"
+  fg: "#D0D0D9"
+  black: "#0C1018"
+  red: "#FF757F"
+  green: "#98D280"
+  yellow: "#FFE169"
+  blue: "#61AFFF"
+  magenta: "#E18CF5"
+  cyan: "#17BBDD"
+  white: "#D0D0D9"
+  brightBlack: "#555555"
+  brightRed: "#FF7373"
+  brightGreen: "#98D280"
+  brightYellow: "#FFE169"
+  brightBlue: "#61AFFF"
+  brightMagenta: "#E18CF5"
+  brightCyan: "#17BBDD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 78
+    black: 0
+    red: 51.5
+    green: 69.8
+    yellow: 88.9
+    blue: 56.3
+    magenta: 57.3
+    cyan: 57.2
+    white: 78
+    brightBlack: 15.7
+    brightRed: 50.7
+    brightGreen: 69.8
+    brightYellow: 88.9
+    brightBlue: 56.3
+    brightMagenta: 57.3
+    brightCyan: 57.2
+    brightWhite: 107.4

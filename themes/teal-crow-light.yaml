@@ -1,0 +1,49 @@
+name: "Teal Crow Light"
+source:
+  marketplace_id: "mdfaisal.mdfaisal-tealcrow"
+  version: "3.0.0"
+  installs: 312
+  author: "mdfaisal"
+  repo: "https://github.com/acej0k3r/mdfaisal-tealcrow"
+  url: "https://marketplace.visualstudio.com/items?itemName=mdfaisal.mdfaisal-tealcrow"
+colors:
+  bg: "#E5D4B1"
+  fg: "#3C3836"
+  black: "#A89984"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#7C6F64"
+  brightBlack: "#665C54"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#3C3836"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 85
+  contrast:
+    fg: 72.5
+    black: 29.4
+    red: 51.3
+    green: 33.6
+    yellow: 24.3
+    blue: 44.9
+    magenta: 44.8
+    cyan: 34.6
+    white: 49.6
+    brightBlack: 58.1
+    brightRed: 36.4
+    brightGreen: 16
+    brightYellow: 0
+    brightBlue: 28.1
+    brightMagenta: 28.7
+    brightCyan: 17
+    brightWhite: 72.5

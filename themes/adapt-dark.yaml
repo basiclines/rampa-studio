@@ -1,0 +1,49 @@
+name: "Adapt Dark"
+source:
+  marketplace_id: "Tone.adapt-vscode-colors"
+  version: "0.9.2"
+  installs: 19
+  author: "Tone"
+  repo: "https://github.com/ToneAr/adapt-vscode-colors"
+  url: "https://marketplace.visualstudio.com/items?itemName=Tone.adapt-vscode-colors"
+colors:
+  bg: "#0F0F0F"
+  fg: "#E8E8EC"
+  black: "#0F1419"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#DCDFE4"
+  brightBlack: "#5C6570"
+  brightRed: "#FF7B72"
+  brightGreen: "#B6E3A1"
+  brightYellow: "#FFD580"
+  brightBlue: "#93D6FF"
+  brightMagenta: "#E3A3F5"
+  brightCyan: "#8FD8E8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 92.7
+    black: 0
+    red: 42.7
+    green: 62.9
+    yellow: 71.2
+    blue: 55.3
+    magenta: 45.8
+    cyan: 55.2
+    white: 86.7
+    brightBlack: 21.8
+    brightRed: 52.7
+    brightGreen: 81.6
+    brightYellow: 84.1
+    brightBlue: 76.4
+    brightMagenta: 65
+    brightCyan: 75.8
+    brightWhite: 107.5

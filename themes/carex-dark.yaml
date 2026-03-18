@@ -1,0 +1,49 @@
+name: "Carex Dark"
+source:
+  marketplace_id: "OMERBABACO.carex-theme"
+  version: "2.0.0"
+  installs: 43
+  author: "OMERBABACO"
+  repo: "https://github.com/babajoeltdsti/carex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OMERBABACO.carex-theme"
+colors:
+  bg: "#1E1E2E"
+  fg: "#CDD6F4"
+  black: "#45475A"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#CBA6F7"
+  cyan: "#94E2D5"
+  white: "#BAC2DE"
+  brightBlack: "#585B70"
+  brightRed: "#F5C2E7"
+  brightGreen: "#B9E5B3"
+  brightYellow: "#FBEDC1"
+  brightBlue: "#A6C9F7"
+  brightMagenta: "#D9C0F5"
+  brightCyan: "#B5E8E0"
+  brightWhite: "#CDD6F4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  contrast:
+    fg: 80
+    black: 9.3
+    red: 54.7
+    green: 78.3
+    yellow: 88.4
+    blue: 59.1
+    magenta: 60.8
+    cyan: 78.2
+    white: 68.1
+    brightBlack: 16.9
+    brightRed: 76.7
+    brightGreen: 81.7
+    brightYellow: 94.3
+    brightBlue: 70.2
+    brightMagenta: 72.4
+    brightCyan: 84.5
+    brightWhite: 80

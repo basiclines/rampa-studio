@@ -1,0 +1,49 @@
+name: "mlv60 vintage light"
+source:
+  marketplace_id: "mlv60.mlv60-vintage-light"
+  version: "1.0.0"
+  installs: 107
+  author: "mlv60"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=mlv60.mlv60-vintage-light"
+colors:
+  bg: "#FFF7D6"
+  fg: "#1F040C"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 100.4
+    black: 101
+    red: 68.9
+    green: 44.2
+    yellow: 52.9
+    blue: 81
+    magenta: 69.5
+    cyan: 55.6
+    white: 80.9
+    brightBlack: 73.7
+    brightRed: 68.9
+    brightGreen: 35.9
+    brightYellow: 35.9
+    brightBlue: 81
+    brightMagenta: 69.5
+    brightCyan: 55.6
+    brightWhite: 43.4

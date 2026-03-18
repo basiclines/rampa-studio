@@ -1,0 +1,49 @@
+name: "Anisochromatic"
+source:
+  marketplace_id: "isomorph-research.anisochromatic"
+  version: "0.0.14"
+  installs: 424
+  author: "Isomorph Research Laboratories"
+  repo: "https://github.com/isomorph-research/anisochromatic-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=isomorph-research.anisochromatic"
+colors:
+  bg: "#2C313A"
+  fg: "#F2ECE1"
+  black: "#EDE7DD"
+  red: "#E3837A"
+  green: "#98CC79"
+  yellow: "#EEC76D"
+  blue: "#62B5F8"
+  magenta: "#B083F0"
+  cyan: "#8FBCB1"
+  white: "#909DAB"
+  brightBlack: "#363C47"
+  brightRed: "#E3837A"
+  brightGreen: "#98CC79"
+  brightYellow: "#EFBF8F"
+  brightBlue: "#62B5F8"
+  brightMagenta: "#DCBDFB"
+  brightCyan: "#A4DBF4"
+  brightWhite: "#EDE7DD"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 262
+  contrast:
+    fg: 90.5
+    black: 87.4
+    red: 44.6
+    green: 62
+    yellow: 70.3
+    blue: 53.5
+    magenta: 42
+    cyan: 55.9
+    white: 43.2
+    brightBlack: 0
+    brightRed: 44.6
+    brightGreen: 62
+    brightYellow: 67.9
+    brightBlue: 53.5
+    brightMagenta: 68.8
+    brightCyan: 74.6
+    brightWhite: 87.4

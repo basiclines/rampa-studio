@@ -1,0 +1,49 @@
+name: "Obsidian Void"
+source:
+  marketplace_id: "MohammadHasani.obsidian-void"
+  version: "0.0.4"
+  installs: 86
+  author: "Mohammad Hasani"
+  repo: "https://github.com/mohammadhasanii/obsidian-void"
+  url: "https://marketplace.visualstudio.com/items?itemName=MohammadHasani.obsidian-void"
+colors:
+  bg: "#10121C"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF5F5F"
+  green: "#87FF87"
+  yellow: "#FFFF87"
+  blue: "#5F87FF"
+  magenta: "#AF87FF"
+  cyan: "#5FD7D7"
+  white: "#EEEEEE"
+  brightBlack: "#444444"
+  brightRed: "#FF8787"
+  brightGreen: "#AFFFAF"
+  brightYellow: "#FFFFAF"
+  brightBlue: "#87AFFF"
+  brightMagenta: "#D7AFFF"
+  brightCyan: "#87FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  contrast:
+    fg: 105
+    black: 0
+    red: 45.8
+    green: 90.8
+    yellow: 103.2
+    blue: 41.2
+    magenta: 48.8
+    cyan: 71.3
+    white: 96.1
+    brightBlack: 9.2
+    brightRed: 56.2
+    brightGreen: 94.9
+    brightYellow: 104.2
+    brightBlue: 58.7
+    brightMagenta: 67.7
+    brightCyan: 95.1
+    brightWhite: 107.3

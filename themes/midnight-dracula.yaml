@@ -1,0 +1,49 @@
+name: "Midnight Dracula"
+source:
+  marketplace_id: "jvbs.midnight-dracula"
+  version: "0.0.2"
+  installs: 1252
+  author: "jvbs"
+  repo: "https://github.com/jvbs/midnight-dracula"
+  url: "https://marketplace.visualstudio.com/items?itemName=jvbs.midnight-dracula"
+colors:
+  bg: "#0B0D0F"
+  fg: "#F8F8F2"
+  black: "#131A20"
+  red: "#FF5555"
+  green: "#8AFF80"
+  yellow: "#FFFF80"
+  blue: "#9580FF"
+  magenta: "#FF80BF"
+  cyan: "#80FFEA"
+  white: "#F8F8F2"
+  brightBlack: "#5D758E"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 44.1
+    green: 91.2
+    yellow: 103.5
+    blue: 44
+    magenta: 56.8
+    cyan: 94
+    white: 102.7
+    brightBlack: 28.3
+    brightRed: 49.6
+    brightGreen: 89.8
+    brightYellow: 104.3
+    brightBlue: 66.9
+    brightMagenta: 63.4
+    brightCyan: 97.5
+    brightWhite: 107.6

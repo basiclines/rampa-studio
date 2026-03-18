@@ -1,0 +1,49 @@
+name: "nstlgy dark (josh w. comeau inspired)"
+source:
+  marketplace_id: "grymmjack.vscode-nstlgy-dark-joshwcomeau-theme"
+  version: "0.0.1"
+  installs: 73
+  author: "grymmjack"
+  repo: "https://github.com/grymmjack/vscode-nstlgy-dark-joshwcomeau-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=grymmjack.vscode-nstlgy-dark-joshwcomeau-theme"
+colors:
+  bg: "#1C1E26"
+  fg: "#FFFFFF"
+  black: "#3F4451"
+  red: "#FFD500"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#D2A6FF"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#FF38A9"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  contrast:
+    fg: 106
+    black: 8
+    red: 81.5
+    green: 59.5
+    yellow: 47.7
+    blue: 62.5
+    magenta: 38.2
+    cyan: 51.6
+    white: 82.2
+    brightBlack: 14.6
+    brightRed: 45.2
+    brightGreen: 75.9
+    brightYellow: 60.4
+    brightBlue: 41.3
+    brightMagenta: 49.4
+    brightCyan: 66.9
+    brightWhite: 89.8

@@ -1,0 +1,49 @@
+name: "Sakai Theme Moon"
+source:
+  marketplace_id: "Sakai.sakai"
+  version: "2.6.8"
+  installs: 1186
+  author: "Sakai"
+  repo: "https://github.com/Sakai-UI/Sakai-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sakai.sakai"
+colors:
+  bg: "#191724"
+  fg: "#E0DEF4"
+  black: "#26233A"
+  red: "#EB6F92"
+  green: "#31748F"
+  yellow: "#F6C177"
+  blue: "#9CCFD8"
+  magenta: "#C4A7E7"
+  cyan: "#988BC7"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#EB6F92"
+  brightGreen: "#9CCFD8"
+  brightYellow: "#31748F"
+  brightBlue: "#C4A7E7"
+  brightMagenta: "#C4A7E7"
+  brightCyan: "#C4A7E7"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 291
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 45.7
+    green: 24.9
+    yellow: 73.4
+    blue: 71.2
+    magenta: 60.1
+    cyan: 43.1
+    white: 86.8
+    brightBlack: 41.1
+    brightRed: 45.7
+    brightGreen: 71.2
+    brightYellow: 24.9
+    brightBlue: 60.1
+    brightMagenta: 60.1
+    brightCyan: 60.1
+    brightWhite: 86.8

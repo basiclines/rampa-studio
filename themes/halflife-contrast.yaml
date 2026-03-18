@@ -1,0 +1,49 @@
+name: "halflife-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#000000"
+  fg: "#CCCCCC"
+  black: "#0D0D0D"
+  red: "#BA0E2E"
+  green: "#FC913A"
+  yellow: "#7D8991"
+  blue: "#F9D423"
+  magenta: "#7D8991"
+  cyan: "#F85931"
+  white: "#D9D9D9"
+  brightBlack: "#333333"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEC99E"
+  brightYellow: "#B4BBC0"
+  brightBlue: "#FCE786"
+  brightMagenta: "#B4BBC0"
+  brightCyan: "#FBA894"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 21.5
+    green: 57.8
+    yellow: 38.2
+    blue: 82
+    magenta: 38.2
+    cyan: 43
+    white: 83.6
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 80.1
+    brightYellow: 65.1
+    brightBlue: 92.1
+    brightMagenta: 65.1
+    brightCyan: 66.9
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "filtered"
+source:
+  marketplace_id: "katcodes.filtered"
+  version: "1.0.6"
+  installs: 385
+  author: "Katie Walker"
+  repo: "https://github.com/Kat-Codes/filtered-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=katcodes.filtered"
+colors:
+  bg: "#0D2B36"
+  fg: "#F8F8F2"
+  black: "#1A1817"
+  red: "#FF6391"
+  green: "#A6DB92"
+  yellow: "#8F7BB4"
+  blue: "#70E7FF"
+  magenta: "#F565E2"
+  cyan: "#8BA59B"
+  white: "#F8F8F2"
+  brightBlack: "#665C54"
+  brightRed: "#FF6391"
+  brightGreen: "#A6DB92"
+  brightYellow: "#8F7BB4"
+  brightBlue: "#AFDDE6"
+  brightMagenta: "#F565E2"
+  brightCyan: "#8BA59B"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 226
+  contrast:
+    fg: 99.5
+    black: 0
+    red: 45
+    green: 72.7
+    yellow: 33.5
+    blue: 79
+    magenta: 47.1
+    cyan: 47
+    white: 99.5
+    brightBlack: 16.1
+    brightRed: 45
+    brightGreen: 72.7
+    brightYellow: 33.5
+    brightBlue: 77.7
+    brightMagenta: 47.1
+    brightCyan: 47
+    brightWhite: 99.5

@@ -1,0 +1,49 @@
+name: "Dracula.min White Darker Theme"
+source:
+  marketplace_id: "ashrafhadden.dracula-dot-min"
+  version: "2.1.1"
+  installs: 12878
+  author: "Ashraf Hadden"
+  repo: "https://github.com/ashrafhadden/dracula.min"
+  url: "https://marketplace.visualstudio.com/items?itemName=ashrafhadden.dracula-dot-min"
+colors:
+  bg: "#FFFFFF"
+  fg: "#282A36"
+  black: "#F1F2FF"
+  red: "#B60021"
+  green: "#006800"
+  yellow: "#515F00"
+  blue: "#6946A3"
+  magenta: "#A41D74"
+  cyan: "#006274"
+  white: "#282A36"
+  brightBlack: "#8393C7"
+  brightRed: "#AC202F"
+  brightGreen: "#006803"
+  brightYellow: "#585E06"
+  brightBlue: "#6C4993"
+  brightMagenta: "#962F7C"
+  brightCyan: "#006465"
+  brightWhite: "#595959"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 101
+    black: 0
+    red: 81.5
+    green: 83.7
+    yellow: 84.2
+    blue: 83.9
+    magenta: 82.7
+    cyan: 83.7
+    white: 101
+    brightBlack: 56.9
+    brightRed: 82.6
+    brightGreen: 83.7
+    brightYellow: 83.9
+    brightBlue: 83.9
+    brightMagenta: 83.4
+    brightCyan: 83.6
+    brightWhite: 84.3

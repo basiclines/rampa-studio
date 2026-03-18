@@ -1,0 +1,49 @@
+name: "Flatcap"
+source:
+  marketplace_id: "cheycron.flatcap-theme"
+  version: "1.1.0"
+  installs: 116
+  author: "cheycron"
+  repo: "https://github.com/cheycron/flatcap-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme"
+colors:
+  bg: "#121418"
+  fg: "#CBCED5"
+  black: "#2E3440"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E4E6E9"
+  brightBlack: "#484F5C"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76.1
+    black: 0
+    red: 33.2
+    green: 61.9
+    yellow: 76.7
+    blue: 48.9
+    magenta: 46.8
+    cyan: 62.9
+    white: 90.8
+    brightBlack: 13
+    brightRed: 33.2
+    brightGreen: 61.9
+    brightYellow: 76.7
+    brightBlue: 48.9
+    brightMagenta: 46.8
+    brightCyan: 60.8
+    brightWhite: 96.5

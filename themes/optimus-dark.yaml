@@ -1,0 +1,49 @@
+name: "Optimus Dark"
+source:
+  marketplace_id: "optsystems.optimus-dark-vscode-theme"
+  version: "0.0.4"
+  installs: 416
+  author: "Opt Systems"
+  repo: "https://github.com/opt-systems/optimus-dark-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=optsystems.optimus-dark-vscode-theme"
+colors:
+  bg: "#121212"
+  fg: "#FFFFFF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 107.3
+    black: 9.3
+    red: 37.2
+    green: 60.8
+    yellow: 49
+    blue: 50.1
+    magenta: 39.5
+    cyan: 52.9
+    white: 91.1
+    brightBlack: 15.9
+    brightRed: 46.5
+    brightGreen: 77.2
+    brightYellow: 61.7
+    brightBlue: 64.2
+    brightMagenta: 50.7
+    brightCyan: 68.2
+    brightWhite: 83.5

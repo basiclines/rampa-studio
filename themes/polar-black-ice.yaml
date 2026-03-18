@@ -1,0 +1,49 @@
+name: "Polar Black Ice"
+source:
+  marketplace_id: "nionx01.polar-black-themes"
+  version: "0.0.5"
+  installs: 184
+  author: "nionx01"
+  repo: "https://github.com/nionx01/polar-black-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nionx01.polar-black-themes"
+colors:
+  bg: "#000000"
+  fg: "#D8EDF5"
+  black: "#000000"
+  red: "#B8DCE8"
+  green: "#B8DCE8"
+  yellow: "#B8DCE8"
+  blue: "#B8DCE8"
+  magenta: "#B8DCE8"
+  cyan: "#B8DCE8"
+  white: "#B8DCE8"
+  brightBlack: "#3E4550"
+  brightRed: "#B8DCE8"
+  brightGreen: "#B8DCE8"
+  brightYellow: "#B8DCE8"
+  brightBlue: "#B8DCE8"
+  brightMagenta: "#B8DCE8"
+  brightCyan: "#B8DCE8"
+  brightWhite: "#B8DCE8"
+meta:
+  mode: "dark"
+  accent: "blue"
+  hue: null
+  contrast:
+    fg: 93.8
+    black: 0
+    red: 81.7
+    green: 81.7
+    yellow: 81.7
+    blue: 81.7
+    magenta: 81.7
+    cyan: 81.7
+    white: 81.7
+    brightBlack: 10
+    brightRed: 81.7
+    brightGreen: 81.7
+    brightYellow: 81.7
+    brightBlue: 81.7
+    brightMagenta: 81.7
+    brightCyan: 81.7
+    brightWhite: 81.7

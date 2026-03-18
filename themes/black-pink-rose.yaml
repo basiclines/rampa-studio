@@ -1,0 +1,49 @@
+name: "Black Pink Rose"
+source:
+  marketplace_id: "abenavidesh.theme-blackpink"
+  version: "0.0.5"
+  installs: 3276
+  author: "abenavidesh"
+  repo: "https://github.com/abenavidesh/vs-blackpink-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=abenavidesh.theme-blackpink"
+colors:
+  bg: "#1F2B31"
+  fg: "#F8BBD0"
+  black: "#1F2B31"
+  red: "#FF1744"
+  green: "#F48FB1"
+  yellow: "#F06292"
+  blue: "#1F2B31"
+  magenta: "#1F2B31"
+  cyan: "#1F2B31"
+  white: "#E91E63"
+  brightBlack: "#E91E63"
+  brightRed: "#FF1744"
+  brightGreen: "#F48FB1"
+  brightYellow: "#F06292"
+  brightBlue: "#1F2B31"
+  brightMagenta: "#1F2B31"
+  brightCyan: "#1F2B31"
+  brightWhite: "#1F2B31"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  contrast:
+    fg: 71.8
+    black: 0
+    red: 34.5
+    green: 54.7
+    yellow: 41.4
+    blue: 0
+    magenta: 0
+    cyan: 0
+    white: 29.9
+    brightBlack: 29.9
+    brightRed: 34.5
+    brightGreen: 54.7
+    brightYellow: 41.4
+    brightBlue: 0
+    brightMagenta: 0
+    brightCyan: 0
+    brightWhite: 0

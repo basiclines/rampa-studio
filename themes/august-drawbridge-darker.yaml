@@ -1,0 +1,49 @@
+name: "August - Drawbridge (Darker)"
+source:
+  marketplace_id: "inci-august.august-themes"
+  version: "2.8.0"
+  installs: 146390
+  author: "inci-august"
+  repo: "https://github.com/inci-august/august-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes"
+colors:
+  bg: "#0D0E15"
+  fg: "#B8CDFE"
+  black: "#252A41"
+  red: "#4961DA"
+  green: "#67C9E4"
+  yellow: "#627AF4"
+  blue: "#627AF4"
+  magenta: "#7289FD"
+  cyan: "#67C9E4"
+  white: "#B8CDFE"
+  brightBlack: "#4961DA"
+  brightRed: "#627AF4"
+  brightGreen: "#75D5F0"
+  brightYellow: "#B8CDFE"
+  brightBlue: "#67C9E4"
+  brightMagenta: "#7289FD"
+  brightCyan: "#75D5F0"
+  brightWhite: "#B8CDFE"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 278
+  contrast:
+    fg: 75.9
+    black: 0
+    red: 25.8
+    green: 66.2
+    yellow: 36.6
+    blue: 36.6
+    magenta: 43.3
+    cyan: 66.2
+    white: 75.9
+    brightBlack: 25.8
+    brightRed: 36.6
+    brightGreen: 73.1
+    brightYellow: 75.9
+    brightBlue: 66.2
+    brightMagenta: 43.3
+    brightCyan: 73.1
+    brightWhite: 75.9

@@ -1,0 +1,49 @@
+name: "Oneiroi caffeine"
+source:
+  marketplace_id: "OneiroiTheme.oneiroi-theme-vscode"
+  version: "0.0.4"
+  installs: 57
+  author: "OneiroiTheme"
+  repo: "https://github.com/OneiroiTheme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=OneiroiTheme.oneiroi-theme-vscode"
+colors:
+  bg: "#ECEEF3"
+  fg: "#181C20"
+  black: "#ECEEF3"
+  red: "#8A4A64"
+  green: "#456732"
+  yellow: "#7A580C"
+  blue: "#3D5F90"
+  magenta: "#725187"
+  cyan: "#166B54"
+  white: "#514347"
+  brightBlack: "#D5C2C6"
+  brightRed: "#6E334C"
+  brightGreen: "#2E4F1C"
+  brightYellow: "#5E4200"
+  brightBlue: "#234777"
+  brightMagenta: "#59376E"
+  brightCyan: "#166B54"
+  brightWhite: "#181C20"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 93.9
+    black: 0
+    red: 71.7
+    green: 71.9
+    yellow: 71.9
+    blue: 71.9
+    magenta: 71.9
+    cyan: 71.4
+    white: 81.5
+    brightBlack: 20.2
+    brightRed: 81.2
+    brightGreen: 81.3
+    brightYellow: 81.1
+    brightBlue: 81.3
+    brightMagenta: 81.8
+    brightCyan: 71.4
+    brightWhite: 93.9

@@ -1,0 +1,49 @@
+name: "Kactus Dream Theme Dark"
+source:
+  marketplace_id: "ColcaStudios.kactus-dream-theme"
+  version: "1.0.1"
+  installs: 60
+  author: "Colca Studios"
+  repo: "https://github.com/colcastudios/Kactus-Dream-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ColcaStudios.kactus-dream-theme"
+colors:
+  bg: "#211B26"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 309
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 26
+    green: 52.3
+    yellow: 84.9
+    blue: 26.7
+    magenta: 29
+    cyan: 46.8
+    white: 89.3
+    brightBlack: 21.3
+    brightRed: 37.8
+    brightGreen: 62.8
+    brightYellow: 94.9
+    brightBlue: 39.3
+    brightMagenta: 44.6
+    brightCyan: 54.6
+    brightWhite: 89.3

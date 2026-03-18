@@ -1,0 +1,49 @@
+name: "Molten Aurora"
+source:
+  marketplace_id: "InnaSodri.molten-aurora-theme"
+  version: "0.0.4"
+  installs: 37
+  author: "Inna Sodri"
+  repo: "https://example.com/inna/molten-aurora-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=InnaSodri.molten-aurora-theme"
+colors:
+  bg: "#0C0D0F"
+  fg: "#E9E6E1"
+  black: "#1A1E2A"
+  red: "#E25544"
+  green: "#58C08D"
+  yellow: "#F5C15C"
+  blue: "#7AA9FF"
+  magenta: "#A77DFF"
+  cyan: "#3FB8C0"
+  white: "#DDE0E6"
+  brightBlack: "#1A1E2A"
+  brightRed: "#E25544"
+  brightGreen: "#58C08D"
+  brightYellow: "#F5C15C"
+  brightBlue: "#7AA9FF"
+  brightMagenta: "#A77DFF"
+  brightCyan: "#3FB8C0"
+  brightWhite: "#DDE0E6"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 91.6
+    black: 0
+    red: 37.4
+    green: 57.8
+    yellow: 73.7
+    blue: 55.7
+    magenta: 45.2
+    cyan: 55.2
+    white: 87.5
+    brightBlack: 0
+    brightRed: 37.4
+    brightGreen: 57.8
+    brightYellow: 73.7
+    brightBlue: 55.7
+    brightMagenta: 45.2
+    brightCyan: 55.2
+    brightWhite: 87.5

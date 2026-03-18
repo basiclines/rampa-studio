@@ -1,0 +1,49 @@
+name: "Nur Dark"
+source:
+  marketplace_id: "michelefenu.nur-theme-vscode"
+  version: "1.1.1"
+  installs: 429
+  author: "Michele Fenu"
+  repo: "https://github.com/michelefenu/nur"
+  url: "https://marketplace.visualstudio.com/items?itemName=michelefenu.nur-theme-vscode"
+colors:
+  bg: "#23272B"
+  fg: "#E2DBC4"
+  black: "#23272B"
+  red: "#FC7261"
+  green: "#98BC6D"
+  yellow: "#E8C547"
+  blue: "#9D80B7"
+  magenta: "#E89B7E"
+  cyan: "#6FA3D2"
+  white: "#E2DBC4"
+  brightBlack: "#6E7F5C"
+  brightRed: "#FC7261"
+  brightGreen: "#98BC6D"
+  brightYellow: "#E8C547"
+  brightBlue: "#9D80B7"
+  brightMagenta: "#E89B7E"
+  brightCyan: "#6FA3D2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 46.7
+    green: 56.8
+    yellow: 70.1
+    blue: 37.2
+    magenta: 55.2
+    cyan: 46.8
+    white: 81.6
+    brightBlack: 28.5
+    brightRed: 46.7
+    brightGreen: 56.8
+    brightYellow: 70.1
+    brightBlue: 37.2
+    brightMagenta: 55.2
+    brightCyan: 46.8
+    brightWhite: 104.7

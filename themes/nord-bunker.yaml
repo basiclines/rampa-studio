@@ -1,0 +1,49 @@
+name: "nord-bunker"
+source:
+  marketplace_id: "sldobri.nord-5-stars"
+  version: "1.0.1"
+  installs: 10783
+  author: "dobbbri"
+  repo: "https://github.com/sldobri/nord-5-stars"
+  url: "https://marketplace.visualstudio.com/items?itemName=sldobri.nord-5-stars"
+colors:
+  bg: "#0B1015"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  contrast:
+    fg: 86
+    black: 8.7
+    red: 33.6
+    green: 62.3
+    yellow: 77
+    blue: 49.2
+    magenta: 47.1
+    cyan: 63.3
+    white: 92.9
+    brightBlack: 16
+    brightRed: 33.6
+    brightGreen: 62.3
+    brightYellow: 77
+    brightBlue: 49.2
+    brightMagenta: 47.1
+    brightCyan: 61.2
+    brightWhite: 96.8

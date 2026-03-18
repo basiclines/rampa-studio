@@ -1,0 +1,49 @@
+name: "blackula-theme"
+source:
+  marketplace_id: "crsayen.blackula-theme"
+  version: "0.0.4"
+  installs: 269
+  author: "Chris Sayen"
+  repo: "https://github.com/crsayen/blackula-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=crsayen.blackula-theme"
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#191919"
+  red: "#FF9797"
+  green: "#6AE2B4"
+  yellow: "#FFFD8D"
+  blue: "#767DFF"
+  magenta: "#FDA3FD"
+  cyan: "#9FECFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FFA6A6"
+  brightGreen: "#BDFFE4"
+  brightYellow: "#FFFEB1"
+  brightBlue: "#B2B3FF"
+  brightMagenta: "#FFC6FF"
+  brightCyan: "#BEF2FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 62.1
+    green: 76.3
+    yellow: 103
+    blue: 40.3
+    magenta: 70.2
+    cyan: 88
+    white: 107.9
+    brightBlack: 23
+    brightRed: 67.5
+    brightGreen: 98.7
+    brightYellow: 104.4
+    brightBlue: 65.1
+    brightMagenta: 83.2
+    brightCyan: 93.8
+    brightWhite: 91

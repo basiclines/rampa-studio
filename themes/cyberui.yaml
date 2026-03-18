@@ -1,0 +1,49 @@
+name: "cyberui"
+source:
+  marketplace_id: "AarMagic.cyberui"
+  version: "1.4.0"
+  installs: 349
+  author: "AarWeb"
+  repo: "https://github.com/aarweb/cyberui"
+  url: "https://marketplace.visualstudio.com/items?itemName=AarMagic.cyberui"
+colors:
+  bg: "#000000"
+  fg: "#55EAD4"
+  black: "#000000"
+  red: "#C5003C"
+  green: "#55EAD4"
+  yellow: "#F3E600"
+  blue: "#880425"
+  magenta: "#C5003C"
+  cyan: "#55EAD4"
+  white: "#55EAD4"
+  brightBlack: "#880425"
+  brightRed: "#C5003C"
+  brightGreen: "#55EAD4"
+  brightYellow: "#F3E600"
+  brightBlue: "#880425"
+  brightMagenta: "#C5003C"
+  brightCyan: "#55EAD4"
+  brightWhite: "#F3E600"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 80.6
+    black: 0
+    red: 24
+    green: 80.6
+    yellow: 89.1
+    blue: 11.2
+    magenta: 24
+    cyan: 80.6
+    white: 80.6
+    brightBlack: 11.2
+    brightRed: 24
+    brightGreen: 80.6
+    brightYellow: 89.1
+    brightBlue: 11.2
+    brightMagenta: 24
+    brightCyan: 80.6
+    brightWhite: 89.1

@@ -1,0 +1,49 @@
+name: "OhLED_MediumSlateBlue"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#7B68EE"
+  black: "#7B68EE"
+  red: "#5A4CAF"
+  green: "#6253BE"
+  yellow: "#4A3E8F"
+  blue: "#7361DE"
+  magenta: "#6B5ACE"
+  cyan: "#52459F"
+  white: "#42377F"
+  brightBlack: "#7B68EE"
+  brightRed: "#5A4CAF"
+  brightGreen: "#6253BE"
+  brightYellow: "#4A3E8F"
+  brightBlue: "#7361DE"
+  brightMagenta: "#6B5ACE"
+  brightCyan: "#52459F"
+  brightWhite: "#42377F"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 33.4
+    black: 33.4
+    red: 18.8
+    green: 22.1
+    yellow: 12.3
+    blue: 29.6
+    magenta: 25.8
+    cyan: 15.5
+    white: 9.3
+    brightBlack: 33.4
+    brightRed: 18.8
+    brightGreen: 22.1
+    brightYellow: 12.3
+    brightBlue: 29.6
+    brightMagenta: 25.8
+    brightCyan: 15.5
+    brightWhite: 9.3

@@ -1,0 +1,49 @@
+name: "Serendipity Midnight Electric"
+source:
+  marketplace_id: "wicked-labs.wvsc-serendipity"
+  version: "1.66.2"
+  installs: 70565
+  author: "Michael Andreuzza "
+  repo: "https://github.com/Serendipity-Theme/vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.wvsc-serendipity"
+colors:
+  bg: "#0A0E15"
+  fg: "#ACB9D9"
+  black: "#1C1C1C"
+  red: "#9E81C9"
+  green: "#748E4E"
+  yellow: "#C8A662"
+  blue: "#78A9FF"
+  magenta: "#E879F9"
+  cyan: "#73D0FF"
+  white: "#9CA3AF"
+  brightBlack: "#6B7280"
+  brightRed: "#D4BFFF"
+  brightGreen: "#A6CC70"
+  brightYellow: "#FAD07B"
+  brightBlue: "#78A9FF"
+  brightMagenta: "#F0ABFC"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 261
+  contrast:
+    fg: 64.3
+    black: 0
+    red: 41.5
+    green: 37.1
+    yellow: 56.3
+    blue: 55.5
+    magenta: 53.8
+    cyan: 71.6
+    white: 51.9
+    brightBlack: 27.8
+    brightRed: 73.7
+    brightGreen: 68.2
+    brightYellow: 81.2
+    brightBlue: 55.5
+    brightMagenta: 70.3
+    brightCyan: 81.9
+    brightWhite: 107.6

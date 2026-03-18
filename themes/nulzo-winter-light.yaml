@@ -1,0 +1,49 @@
+name: "nulzo-winter-light"
+source:
+  marketplace_id: "nulzo.nulzo-winter-light"
+  version: "0.0.1"
+  installs: 116
+  author: "nulzo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=nulzo.nulzo-winter-light"
+colors:
+  bg: "#EEEFF0"
+  fg: "#555555"
+  black: "#333333"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#D3D725"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#BCBCBC"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#E7EC1F"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 76.3
+    black: 89.1
+    red: 64.4
+    green: 39.6
+    yellow: 15.7
+    blue: 76.5
+    magenta: 65
+    cyan: 51
+    white: 26.6
+    brightBlack: 69.2
+    brightRed: 64.4
+    brightGreen: 31.3
+    brightYellow: 0
+    brightBlue: 76.5
+    brightMagenta: 65
+    brightCyan: 51
+    brightWhite: 8.4

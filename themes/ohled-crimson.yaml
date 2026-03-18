@@ -1,0 +1,49 @@
+name: "OhLED_Crimson"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#DE2946"
+  black: "#DE2946"
+  red: "#A31E33"
+  green: "#B22138"
+  yellow: "#85192A"
+  blue: "#CF2641"
+  magenta: "#C0243D"
+  cyan: "#941B2F"
+  white: "#761625"
+  brightBlack: "#DE2946"
+  brightRed: "#A31E33"
+  brightGreen: "#B22138"
+  brightYellow: "#85192A"
+  brightBlue: "#CF2641"
+  brightMagenta: "#C0243D"
+  brightCyan: "#941B2F"
+  brightWhite: "#761625"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 31.1
+    black: 31.1
+    red: 17.4
+    green: 20.7
+    yellow: 11.3
+    blue: 27.4
+    magenta: 23.9
+    cyan: 14.2
+    white: 8.4
+    brightBlack: 31.1
+    brightRed: 17.4
+    brightGreen: 20.7
+    brightYellow: 11.3
+    brightBlue: 27.4
+    brightMagenta: 23.9
+    brightCyan: 14.2
+    brightWhite: 8.4

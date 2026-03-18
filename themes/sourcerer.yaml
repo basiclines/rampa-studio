@@ -1,0 +1,49 @@
+name: "Sourcerer"
+source:
+  marketplace_id: "bpruitt-goddard.sourcerer"
+  version: "1.0.5"
+  installs: 1524
+  author: "Brian Pruitt-Goddard"
+  repo: "https://github.com/bpruitt-goddard/vscode-sourcerer"
+  url: "https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.sourcerer"
+colors:
+  bg: "#222222"
+  fg: "#C2C2B0"
+  black: "#111111"
+  red: "#AA4450"
+  green: "#719611"
+  yellow: "#CC8800"
+  blue: "#6688AA"
+  magenta: "#8F6F8F"
+  cyan: "#528B8B"
+  white: "#D3D3D3"
+  brightBlack: "#181818"
+  brightRed: "#FF6A6A"
+  brightGreen: "#B1D631"
+  brightYellow: "#FF9800"
+  brightBlue: "#90B0D1"
+  brightMagenta: "#8181A6"
+  brightCyan: "#87CEEB"
+  brightWhite: "#C1CDC1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 66.6
+    black: 0
+    red: 21.3
+    green: 37.3
+    yellow: 43.5
+    blue: 34.7
+    magenta: 29.2
+    cyan: 33.2
+    white: 77.5
+    brightBlack: 0
+    brightRed: 46.4
+    brightGreen: 71
+    brightYellow: 58
+    brightBlue: 55.3
+    brightMagenta: 34.3
+    brightCyan: 68.7
+    brightWhite: 71.9

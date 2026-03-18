@@ -1,0 +1,49 @@
+name: "Midnight Purple Deep"
+source:
+  marketplace_id: "bxstars-code.midnight-purple-dark-theme"
+  version: "1.1.3"
+  installs: 19
+  author: "Barbara_Xavier"
+  repo: "https://github.com/bxstars/midnight-purple-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bxstars-code.midnight-purple-dark-theme"
+colors:
+  bg: "#141523"
+  fg: "#E6E7F2"
+  black: "#141523"
+  red: "#E05A6F"
+  green: "#20BB94"
+  yellow: "#E6D66F"
+  blue: "#5F8DF0"
+  magenta: "#CA5DAD"
+  cyan: "#8EE6CF"
+  white: "#E6E7F2"
+  brightBlack: "#6B6E8F"
+  brightRed: "#F07178"
+  brightGreen: "#4CD9B0"
+  brightYellow: "#F0E68C"
+  brightBlue: "#8FA8FF"
+  brightMagenta: "#E6A3D0"
+  brightCyan: "#9FE8D5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 91.7
+    black: 0
+    red: 38.1
+    green: 53.5
+    yellow: 79.8
+    blue: 41.8
+    magenta: 36.7
+    cyan: 80.6
+    white: 91.7
+    brightBlack: 26.6
+    brightRed: 46.7
+    brightGreen: 69.6
+    brightYellow: 89
+    brightBlue: 56.3
+    brightMagenta: 62.9
+    brightCyan: 83.1
+    brightWhite: 106.9

@@ -1,0 +1,49 @@
+name: "Matchanaa"
+source:
+  marketplace_id: "TehMatcha.roselia-theme"
+  version: "4.4.0"
+  installs: 1278
+  author: "TehMatcha"
+  repo: "https://github.com/MatchaTi/cool-roselia-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TehMatcha.roselia-theme"
+colors:
+  bg: "#191919"
+  fg: "#D3C6AA"
+  black: "#000000"
+  red: "#E67E80"
+  green: "#A7C080"
+  yellow: "#DBBC7F"
+  blue: "#7FBBB3"
+  magenta: "#D699B6"
+  cyan: "#83C092"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F28FAD"
+  brightGreen: "#ABE9B3"
+  brightYellow: "#FAE3B0"
+  brightBlue: "#96CDFB"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#B5E8E0"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 71.5
+    black: 0
+    red: 48
+    green: 62.4
+    yellow: 67.3
+    blue: 58.3
+    magenta: 55.4
+    cyan: 59.6
+    white: 89.8
+    brightBlack: 21.8
+    brightRed: 56.7
+    brightGreen: 83.1
+    brightYellow: 89.9
+    brightBlue: 71.6
+    brightMagenta: 77.5
+    brightCyan: 85.4
+    brightWhite: 89.8

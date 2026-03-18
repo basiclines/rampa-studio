@@ -1,0 +1,49 @@
+name: "Hell Pine"
+source:
+  marketplace_id: "ABX.hell-pine"
+  version: "0.0.3"
+  installs: 722
+  author: "ABX"
+  repo: "https://github.com/AbiXnash/hell-pine"
+  url: "https://marketplace.visualstudio.com/items?itemName=ABX.hell-pine"
+colors:
+  bg: "#16181D"
+  fg: "#E0DEF4"
+  black: "#28263A"
+  red: "#D16D92"
+  green: "#5D7E80"
+  yellow: "#CA9F7C"
+  blue: "#9CCFD8"
+  magenta: "#C4A7E7"
+  cyan: "#EBBCBA"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#D16D92"
+  brightGreen: "#5D7E80"
+  brightYellow: "#CA9F7C"
+  brightBlue: "#9CCFD8"
+  brightMagenta: "#C4A7E7"
+  brightCyan: "#EBBCBA"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 268
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 40.3
+    green: 30
+    yellow: 53.7
+    blue: 71.2
+    magenta: 60.2
+    cyan: 71.7
+    white: 86.8
+    brightBlack: 41.1
+    brightRed: 40.3
+    brightGreen: 30
+    brightYellow: 53.7
+    brightBlue: 71.2
+    brightMagenta: 60.2
+    brightCyan: 71.7
+    brightWhite: 86.8

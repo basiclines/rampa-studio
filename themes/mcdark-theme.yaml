@@ -1,0 +1,49 @@
+name: "McDark Theme"
+source:
+  marketplace_id: "mcd005.mcdark-theme"
+  version: "1.0.2"
+  installs: 1184
+  author: "Jamie McDonald"
+  repo: "https://github.com/mcd005/mcdark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mcd005.mcdark-theme"
+colors:
+  bg: "#0D1117"
+  fg: "#C9D1D9"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#3FB950"
+  yellow: "#FFD16F"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#F0F6FC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  contrast:
+    fg: 77.5
+    black: 13.1
+    red: 52.6
+    green: 52.1
+    yellow: 82
+    blue: 52.2
+    magenta: 52.2
+    cyan: 61.4
+    white: 64
+    brightBlack: 29.3
+    brightRed: 64.8
+    brightGreen: 65.5
+    brightYellow: 64.7
+    brightBlue: 64.7
+    brightMagenta: 64.6
+    brightCyan: 69.9
+    brightWhite: 100.9

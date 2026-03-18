@@ -1,0 +1,49 @@
+name: "Ef Elea Light"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#EDF5E2"
+  fg: "#221321"
+  black: "#221321"
+  red: "#C3303A"
+  green: "#00601F"
+  yellow: "#9A501F"
+  blue: "#375CC6"
+  magenta: "#80308F"
+  cyan: "#1F70AF"
+  white: "#E3E9D6"
+  brightBlack: "#676470"
+  brightRed: "#D00000"
+  brightGreen: "#355500"
+  brightYellow: "#B04300"
+  brightBlue: "#444FCF"
+  brightMagenta: "#9F356A"
+  brightCyan: "#3F6FAF"
+  brightWhite: "#EDF5E2"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 96.8
+    black: 96.8
+    red: 68.4
+    green: 78.7
+    yellow: 71.5
+    blue: 71.7
+    magenta: 78.2
+    cyan: 68
+    white: 0
+    brightBlack: 71.2
+    brightRed: 67.9
+    brightGreen: 81.5
+    brightYellow: 70.1
+    brightBlue: 73.7
+    brightMagenta: 74
+    brightCyan: 67.3
+    brightWhite: 0

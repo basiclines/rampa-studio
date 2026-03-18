@@ -1,0 +1,49 @@
+name: "pg-may-be-concrete"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+colors:
+  bg: "#29343D"
+  fg: "#EAECF2"
+  black: "#5C5B5B"
+  red: "#DE3C3C"
+  green: "#46B885"
+  yellow: "#F0C648"
+  blue: "#779EFB"
+  magenta: "#D98EF4"
+  cyan: "#63E4EA"
+  white: "#E0E0E0"
+  brightBlack: "#000000"
+  brightRed: "#FF1F1F"
+  brightGreen: "#2BE491"
+  brightYellow: "#FFDC1E"
+  brightBlue: "#437BFF"
+  brightMagenta: "#D45CFF"
+  brightCyan: "#0FFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 243
+  contrast:
+    fg: 89.7
+    black: 12.8
+    red: 27.1
+    green: 47.7
+    yellow: 69.2
+    blue: 45.5
+    magenta: 51.2
+    cyan: 73.5
+    white: 82.1
+    brightBlack: 0
+    brightRed: 32.4
+    brightGreen: 68.4
+    brightYellow: 80.7
+    brightBlue: 30.8
+    brightMagenta: 38.8
+    brightCyan: 86.4
+    brightWhite: 102.1

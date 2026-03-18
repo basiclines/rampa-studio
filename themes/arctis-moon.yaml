@@ -1,0 +1,49 @@
+name: "Arctis Moon"
+source:
+  marketplace_id: "avidworks.arctis"
+  version: "2.3.1"
+  installs: 15547
+  author: "adamdotjs"
+  repo: "https://github.com/avidworks/arctis"
+  url: "https://marketplace.visualstudio.com/items?itemName=avidworks.arctis"
+colors:
+  bg: "#212337"
+  fg: "#CCCEE1"
+  black: "#323453"
+  red: "#F1855B"
+  green: "#13BE76"
+  yellow: "#E8C59B"
+  blue: "#9B90F4"
+  magenta: "#EB94B2"
+  cyan: "#8ACFEF"
+  white: "#D9DAE8"
+  brightBlack: "#525689"
+  brightRed: "#F1855B"
+  brightGreen: "#13BE76"
+  brightYellow: "#E8C59B"
+  brightBlue: "#9B90F4"
+  brightMagenta: "#EB94B2"
+  brightCyan: "#8ACFEF"
+  brightWhite: "#D9DAE8"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 279
+  contrast:
+    fg: 74.6
+    black: 0
+    red: 49.6
+    green: 52
+    yellow: 72
+    blue: 46.3
+    magenta: 55.5
+    cyan: 69.2
+    white: 81.8
+    brightBlack: 15.4
+    brightRed: 49.6
+    brightGreen: 52
+    brightYellow: 72
+    brightBlue: 46.3
+    brightMagenta: 55.5
+    brightCyan: 69.2
+    brightWhite: 81.8

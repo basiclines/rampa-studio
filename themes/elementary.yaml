@@ -1,0 +1,49 @@
+name: "Elementary"
+source:
+  marketplace_id: "rdnlsmith.linux-themes"
+  version: "1.3.0"
+  installs: 41699
+  author: "rdnlsmith"
+  repo: "https://github.com/rdnlsmith/vscode-arc-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rdnlsmith.linux-themes"
+colors:
+  bg: "#FDF6E3"
+  fg: "#5E5E5E"
+  black: "#586E75"
+  red: "#CB4B16"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEEEEE"
+  brightBlack: "#073642"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#EC0048"
+  brightCyan: "#2AA198"
+  brightWhite: "#94A3A5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76.9
+    black: 71.6
+    red: 65.8
+    green: 53.8
+    yellow: 53.8
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
+    white: 0
+    brightBlack: 93.7
+    brightRed: 65.3
+    brightGreen: 53.8
+    brightYellow: 53.8
+    brightBlue: 58.7
+    brightMagenta: 63.2
+    brightCyan: 53.1
+    brightWhite: 45.7

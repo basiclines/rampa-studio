@@ -1,0 +1,49 @@
+name: "Midnight Purple"
+source:
+  marketplace_id: "CodewithBismillah.chroma-library"
+  version: "1.2.1"
+  installs: 358
+  author: "Code with Bismillah"
+  repo: "https://github.com/mubashir1837/Chroma-Library"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.chroma-library"
+colors:
+  bg: "#0F0A1A"
+  fg: "#C080FF"
+  black: "#000000"
+  red: "#FF4080"
+  green: "#80FF40"
+  yellow: "#FFFF40"
+  blue: "#4080FF"
+  magenta: "#BF00FF"
+  cyan: "#40FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF4080"
+  brightGreen: "#80FF40"
+  brightYellow: "#FFFF40"
+  brightBlue: "#4080FF"
+  brightMagenta: "#BF00FF"
+  brightCyan: "#40FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 297
+  contrast:
+    fg: 49.5
+    black: 0
+    red: 42.1
+    green: 89.6
+    yellow: 102.6
+    blue: 37.8
+    magenta: 32.8
+    cyan: 92.5
+    white: 107.6
+    brightBlack: 0
+    brightRed: 42.1
+    brightGreen: 89.6
+    brightYellow: 102.6
+    brightBlue: 37.8
+    brightMagenta: 32.8
+    brightCyan: 92.5
+    brightWhite: 107.6

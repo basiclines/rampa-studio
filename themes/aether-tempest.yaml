@@ -1,0 +1,49 @@
+name: "Aether Tempest"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+colors:
+  bg: "#0A1929"
+  fg: "#D6E7FF"
+  black: "#0A1929"
+  red: "#FF6B6B"
+  green: "#26D9A6"
+  yellow: "#FFA726"
+  blue: "#2979FF"
+  magenta: "#BA68C8"
+  cyan: "#4DD0E1"
+  white: "#D6E7FF"
+  brightBlack: "#3665A4"
+  brightRed: "#FF8787"
+  brightGreen: "#69F0AE"
+  brightYellow: "#FFB74D"
+  brightBlue: "#66C3FF"
+  brightMagenta: "#CE93D8"
+  brightCyan: "#84FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 251
+  contrast:
+    fg: 90.1
+    black: 0
+    red: 47.9
+    green: 68.1
+    yellow: 64.3
+    blue: 34
+    magenta: 37.7
+    cyan: 67.2
+    white: 90.1
+    brightBlack: 21.3
+    brightRed: 55.6
+    brightGreen: 81.8
+    brightYellow: 70.4
+    brightBlue: 64.2
+    brightMagenta: 53.9
+    brightCyan: 94.3
+    brightWhite: 106.7

@@ -1,0 +1,49 @@
+name: "vegetable-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#161314"
+  fg: "#E2DCDD"
+  black: "#241F20"
+  red: "#BA0E2E"
+  green: "#F0A56C"
+  yellow: "#689D81"
+  blue: "#D8CA96"
+  magenta: "#F0A56C"
+  cyan: "#689D81"
+  white: "#EEEAEB"
+  brightBlack: "#4D4246"
+  brightRed: "#F03E5F"
+  brightGreen: "#F9DEC9"
+  brightYellow: "#A6C5B5"
+  brightBlue: "#F4F0E0"
+  brightMagenta: "#F9DEC9"
+  brightCyan: "#A6C5B5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 20.8
+    green: 62.1
+    yellow: 42.9
+    blue: 73.8
+    magenta: 62.1
+    cyan: 42.9
+    white: 94.1
+    brightBlack: 9.4
+    brightRed: 37.1
+    brightGreen: 88.9
+    brightYellow: 66.7
+    brightBlue: 97.2
+    brightMagenta: 88.9
+    brightCyan: 66.7
+    brightWhite: 107.2

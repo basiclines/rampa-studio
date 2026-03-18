@@ -1,0 +1,49 @@
+name: "Dark Code - Fork"
+source:
+  marketplace_id: "HasiburR.dark-hacker-theme-by-hasibur-r"
+  version: "9.0.1"
+  installs: 29903
+  author: "Hasibur R"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=HasiburR.dark-hacker-theme-by-hasibur-r"
+colors:
+  bg: "#000000"
+  fg: "#539BCF"
+  black: "#5A5A5A"
+  red: "#6D1F1F"
+  green: "#075637"
+  yellow: "#5C5C0D"
+  blue: "#1D4168"
+  magenta: "#5E205E"
+  cyan: "#0C5B6F"
+  white: "#AB8C8C"
+  brightBlack: "#666666"
+  brightRed: "#7B2A2A"
+  brightGreen: "#126242"
+  brightYellow: "#51511A"
+  brightBlue: "#245284"
+  brightMagenta: "#683868"
+  brightCyan: "#196D82"
+  brightWhite: "#807F7F"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 45
+    black: 18.1
+    red: 7.6
+    green: 12.7
+    yellow: 17.8
+    blue: 8.5
+    magenta: 0
+    cyan: 15.9
+    white: 44.3
+    brightBlack: 23
+    brightRed: 11.1
+    brightGreen: 16.8
+    brightYellow: 13.7
+    brightBlue: 14.6
+    brightMagenta: 12.1
+    brightCyan: 22.6
+    brightWhite: 34.4

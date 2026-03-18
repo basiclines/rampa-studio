@@ -1,0 +1,49 @@
+name: "Noxus"
+source:
+  marketplace_id: "alicanbasak.noxus-theme"
+  version: "2.1.0"
+  installs: 1779
+  author: "alicanbasak"
+  repo: "https://github.com/alicanbasak/noxus-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=alicanbasak.noxus-theme"
+colors:
+  bg: "#282C34"
+  fg: "#EEFFFF"
+  black: "#7F7F7F"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FAC863"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FAC863"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 101.4
+    black: 30.1
+    red: 34.7
+    green: 61.7
+    yellow: 73.5
+    blue: 41
+    magenta: 48.8
+    cyan: 49.8
+    white: 76.3
+    brightBlack: 30.1
+    brightRed: 34.7
+    brightGreen: 61.7
+    brightYellow: 73.5
+    brightBlue: 41
+    brightMagenta: 48.8
+    brightCyan: 49.8
+    brightWhite: 76.3

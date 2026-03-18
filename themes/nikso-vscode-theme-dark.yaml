@@ -1,0 +1,49 @@
+name: "nikso-vscode-theme-dark"
+source:
+  marketplace_id: "thenikso.nikso-vscode-theme"
+  version: "2.0.0"
+  installs: 96
+  author: "thenikso"
+  repo: "https://github.com/thenikso/nikso-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thenikso.nikso-vscode-theme"
+colors:
+  bg: "#282C33"
+  fg: "#D1D7E0"
+  black: "#414141"
+  red: "#D73A49"
+  green: "#90D259"
+  yellow: "#F7C400"
+  blue: "#005CC5"
+  magenta: "#FF73FD"
+  cyan: "#0BC7D7"
+  white: "#BFBFBF"
+  brightBlack: "#989898"
+  brightRed: "#FA6F71"
+  brightGreen: "#35D61C"
+  brightYellow: "#FFCA39"
+  brightBlue: "#1C23D6"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#3CD7E7"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 262
+  contrast:
+    fg: 77.8
+    black: 0
+    red: 27
+    green: 64.6
+    yellow: 70.8
+    blue: 17.2
+    magenta: 53.2
+    cyan: 58.5
+    white: 63.8
+    brightBlack: 42.5
+    brightRed: 44.9
+    brightGreen: 61.5
+    brightYellow: 74.7
+    brightBlue: 8.5
+    brightMagenta: 42
+    brightCyan: 67.3
+    brightWhite: 83.7

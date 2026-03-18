@@ -1,0 +1,49 @@
+name: "Flux"
+source:
+  marketplace_id: "Priyaank.ether"
+  version: "2.0.1"
+  installs: 55
+  author: "Priyaank"
+  repo: "https://github.com/PRIYAANK2510/Ether"
+  url: "https://marketplace.visualstudio.com/items?itemName=Priyaank.ether"
+colors:
+  bg: "#151515"
+  fg: "#808080"
+  black: "#101010"
+  red: "#A94B67"
+  green: "#499F71"
+  yellow: "#B4927A"
+  blue: "#73B3E4"
+  magenta: "#556FB6"
+  cyan: "#83918E"
+  white: "#CCCCCC"
+  brightBlack: "#707070"
+  brightRed: "#C15D7D"
+  brightGreen: "#5AB585"
+  brightYellow: "#CAA78E"
+  brightBlue: "#8BC4ED"
+  brightMagenta: "#6A83C7"
+  brightCyan: "#9AA8A5"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 33.9
+    black: 0
+    red: 24.5
+    green: 41.4
+    yellow: 46.2
+    blue: 56.9
+    magenta: 27.4
+    cyan: 40.7
+    white: 74.9
+    brightBlack: 26.6
+    brightRed: 33.2
+    brightGreen: 52.2
+    brightYellow: 57.5
+    brightBlue: 66.4
+    brightMagenta: 36.4
+    brightCyan: 52.7
+    brightWhite: 90.8

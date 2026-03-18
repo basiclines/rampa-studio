@@ -1,0 +1,49 @@
+name: "Dracula High Contract"
+source:
+  marketplace_id: "datvo.theme-monokai-v2"
+  version: "1.0.4"
+  installs: 1745
+  author: "Dat Vo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=datvo.theme-monokai-v2"
+colors:
+  bg: "#202232"
+  fg: "#FFFFFF"
+  black: "#171926"
+  red: "#FF4F4F"
+  green: "#48FF80"
+  yellow: "#FFFF90"
+  blue: "#D29BFF"
+  magenta: "#FF79DF"
+  cyan: "#8FFFFF"
+  white: "#FFFFFF"
+  brightBlack: "#6278BA"
+  brightRed: "#FF6E6E"
+  brightGreen: "#66FF9F"
+  brightYellow: "#FFFFAF"
+  brightBlue: "#F1BAFF"
+  brightMagenta: "#FF98FE"
+  brightCyan: "#AEFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 279
+  contrast:
+    fg: 105.3
+    black: 0
+    red: 40.7
+    green: 85.8
+    yellow: 101.4
+    blue: 58.1
+    magenta: 54.3
+    cyan: 93.6
+    white: 105.3
+    brightBlack: 29.6
+    brightRed: 47.2
+    brightGreen: 87.6
+    brightYellow: 102.2
+    brightBlue: 73.8
+    brightMagenta: 64.6
+    brightCyan: 96
+    brightWhite: 105.3

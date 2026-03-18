@@ -1,0 +1,49 @@
+name: "commadoor dark"
+source:
+  marketplace_id: "CommadoorBooks.commadoor-theme"
+  version: "1.0.1"
+  installs: 36
+  author: "Commadoor Books"
+  repo: "https://github.com/commadoor/commadoor-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=CommadoorBooks.commadoor-theme"
+colors:
+  bg: "#26231C"
+  fg: "#B2AA9A"
+  black: "#1F1C16"
+  red: "#8C1F3D"
+  green: "#6C7D0F"
+  yellow: "#944A00"
+  blue: "#0B7F99"
+  magenta: "#9B3D99"
+  cyan: "#186644"
+  white: "#B2AA9A"
+  brightBlack: "#69645A"
+  brightRed: "#8C1F3D"
+  brightGreen: "#6C7D0F"
+  brightYellow: "#944A00"
+  brightBlue: "#0B7F99"
+  brightMagenta: "#9B3D99"
+  brightCyan: "#186644"
+  brightWhite: "#E8D7C7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 88
+  contrast:
+    fg: 54
+    black: 0
+    red: 10.6
+    green: 27.3
+    yellow: 17.6
+    blue: 27.2
+    magenta: 20.1
+    cyan: 15.6
+    white: 54
+    brightBlack: 19.8
+    brightRed: 10.6
+    brightGreen: 27.3
+    brightYellow: 17.6
+    brightBlue: 27.2
+    brightMagenta: 20.1
+    brightCyan: 15.6
+    brightWhite: 81.4

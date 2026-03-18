@@ -1,0 +1,49 @@
+name: "Eldar1984"
+source:
+  marketplace_id: "Eldar1984.eldar1984"
+  version: "1.0.1"
+  installs: 1501
+  author: "Eldar1984"
+  repo: "https://github.com/eldare/Eldar1984_VSCodeColorTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Eldar1984.eldar1984"
+colors:
+  bg: "#30303F"
+  fg: "#F0F0F8"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  contrast:
+    fg: 93
+    black: 0
+    red: 22.3
+    green: 48.6
+    yellow: 81.2
+    blue: 23
+    magenta: 25.3
+    cyan: 43.1
+    white: 85.6
+    brightBlack: 17.6
+    brightRed: 34.1
+    brightGreen: 59.1
+    brightYellow: 91.2
+    brightBlue: 35.6
+    brightMagenta: 40.9
+    brightCyan: 51
+    brightWhite: 85.6

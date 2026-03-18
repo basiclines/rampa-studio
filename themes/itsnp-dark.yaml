@@ -1,0 +1,49 @@
+name: "ITSNP Dark "
+source:
+  marketplace_id: "Sachit.itsnp-theme"
+  version: "0.1.2"
+  installs: 358
+  author: "Sachit"
+  repo: "https://github.com/ASACHIT/itsnp-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sachit.itsnp-theme"
+colors:
+  bg: "#0F111A"
+  fg: "#C8CDE6"
+  black: "#000000"
+  red: "#9F8EFF"
+  green: "#C3E88D"
+  yellow: "#03FF67"
+  blue: "#82AAFF"
+  magenta: "#F72D81"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#9F8EFF"
+  brightGreen: "#C3E88D"
+  brightYellow: "#03FF67"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#F72D81"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 275
+  contrast:
+    fg: 76.3
+    black: 0
+    red: 49.2
+    green: 84.7
+    yellow: 86.6
+    blue: 56.4
+    magenta: 38.2
+    cyan: 78.7
+    white: 107.3
+    brightBlack: 12
+    brightRed: 49.2
+    brightGreen: 84.7
+    brightYellow: 86.6
+    brightBlue: 56.4
+    brightMagenta: 38.2
+    brightCyan: 78.7
+    brightWhite: 107.3

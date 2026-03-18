@@ -1,0 +1,49 @@
+name: "tonic-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#EEEEEE"
+  fg: "#2A2F31"
+  black: "#FBFBFB"
+  red: "#BA0E2E"
+  green: "#75A1A4"
+  yellow: "#B8CD44"
+  blue: "#FD9F59"
+  magenta: "#EF6E44"
+  cyan: "#B8CD44"
+  white: "#363C3F"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#B2CBCD"
+  brightYellow: "#D7E394"
+  brightBlue: "#FED9BE"
+  brightMagenta: "#F7B7A2"
+  brightCyan: "#D7E394"
+  brightWhite: "#596468"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 90
+    black: 0
+    red: 70.2
+    green: 44.4
+    yellow: 22.4
+    blue: 29.4
+    magenta: 46
+    cyan: 22.4
+    white: 85.8
+    brightBlack: 8.9
+    brightRed: 53.8
+    brightGreen: 20.4
+    brightYellow: 8
+    brightBlue: 0
+    brightMagenta: 20.6
+    brightCyan: 8
+    brightWhite: 70.3

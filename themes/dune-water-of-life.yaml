@@ -1,0 +1,49 @@
+name: "Dune Water of Life"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 237
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+colors:
+  bg: "#0A0E14"
+  fg: "#E8F0FF"
+  black: "#0A0E14"
+  red: "#FFD700"
+  green: "#87CEEB"
+  yellow: "#5EB3FF"
+  blue: "#9B88D3"
+  magenta: "#7AA2E3"
+  cyan: "#66E0CE"
+  white: "#E8F0FF"
+  brightBlack: "#5A6B88"
+  brightRed: "#FF6B9D"
+  brightGreen: "#48DBFB"
+  brightYellow: "#FECA57"
+  brightBlue: "#54A0FF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#80DEEA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 258
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 83.9
+    green: 70.8
+    yellow: 57.9
+    blue: 44
+    magenta: 51.1
+    cyan: 75.8
+    white: 97.4
+    brightBlack: 24.6
+    brightRed: 50.3
+    brightGreen: 74.6
+    brightYellow: 78.8
+    brightBlue: 49.9
+    brightMagenta: 54.5
+    brightCyan: 77.7
+    brightWhite: 107.6

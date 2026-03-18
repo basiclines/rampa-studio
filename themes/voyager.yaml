@@ -1,0 +1,49 @@
+name: "voyager"
+source:
+  marketplace_id: "VoyagerTeam.voyager-dark"
+  version: "0.0.7"
+  installs: 546
+  author: "Voyager Team"
+  repo: "https://github.com/andrewbgrant/voyager-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=VoyagerTeam.voyager-dark"
+colors:
+  bg: "#1A1A1A"
+  fg: "#B4B4B4"
+  black: "#171B24"
+  red: "#ED8274"
+  green: "#87D96C"
+  yellow: "#FACC6E"
+  blue: "#6DCBFA"
+  magenta: "#DABAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#D5FF80"
+  brightYellow: "#FFD173"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#DFBFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 60.4
+    black: 0
+    red: 50
+    green: 70.4
+    yellow: 78.2
+    blue: 67.7
+    magenta: 71.3
+    cyan: 77.5
+    white: 71.4
+    brightBlack: 22.6
+    brightRed: 52.5
+    brightGreen: 96.9
+    brightYellow: 81.2
+    brightBlue: 70.5
+    brightMagenta: 74.2
+    brightCyan: 80.5
+    brightWhite: 106.5

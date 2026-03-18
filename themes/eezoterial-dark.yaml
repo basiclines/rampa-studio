@@ -1,0 +1,49 @@
+name: "eezoterial dark"
+source:
+  marketplace_id: "unic0rn.theme-eezoterial"
+  version: "0.0.1"
+  installs: 500
+  author: "unic0rn"
+  repo: "https://github.com/unic0rn/eezoterial"
+  url: "https://marketplace.visualstudio.com/items?itemName=unic0rn.theme-eezoterial"
+colors:
+  bg: "#0D1240"
+  fg: "#9FA8DA"
+  black: "#260A47"
+  red: "#AD1457"
+  green: "#AB47BC"
+  yellow: "#388E3C"
+  blue: "#0288D1"
+  magenta: "#7E57C2"
+  cyan: "#009688"
+  white: "#F3E5F5"
+  brightBlack: "#0D1240"
+  brightRed: "#8D6E63"
+  brightGreen: "#3F51B5"
+  brightYellow: "#5C6BC0"
+  brightBlue: "#7986CB"
+  brightMagenta: "#607D8B"
+  brightCyan: "#9FA8DA"
+  brightWhite: "#E8EAF6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 272
+  contrast:
+    fg: 55.2
+    black: 0
+    red: 18.4
+    green: 27.7
+    yellow: 32.4
+    blue: 35
+    magenta: 24.9
+    cyan: 36.7
+    white: 92.4
+    brightBlack: 0
+    brightRed: 28.3
+    brightGreen: 17.3
+    brightYellow: 26.9
+    brightBlue: 38.4
+    brightMagenta: 30.1
+    brightCyan: 55.2
+    brightWhite: 93.2

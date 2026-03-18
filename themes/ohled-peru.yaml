@@ -1,0 +1,49 @@
+name: "OhLED_Peru"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#CD853F"
+  black: "#CD853F"
+  red: "#96622E"
+  green: "#A46A32"
+  yellow: "#7B5026"
+  blue: "#BF7C3B"
+  magenta: "#B27337"
+  cyan: "#89592A"
+  white: "#6D4722"
+  brightBlack: "#CD853F"
+  brightRed: "#96622E"
+  brightGreen: "#A46A32"
+  brightYellow: "#7B5026"
+  brightBlue: "#BF7C3B"
+  brightMagenta: "#B27337"
+  brightCyan: "#89592A"
+  brightWhite: "#6D4722"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 45.5
+    black: 45.5
+    red: 26.5
+    green: 30.8
+    yellow: 18.1
+    blue: 40.4
+    magenta: 35.6
+    cyan: 22.2
+    white: 14.1
+    brightBlack: 45.5
+    brightRed: 26.5
+    brightGreen: 30.8
+    brightYellow: 18.1
+    brightBlue: 40.4
+    brightMagenta: 35.6
+    brightCyan: 22.2
+    brightWhite: 14.1

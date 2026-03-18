@@ -1,0 +1,49 @@
+name: "cosmicsarthak-neon"
+source:
+  marketplace_id: "cosmicsarthak.cosmicsarthak-neon-theme"
+  version: "4.4.7"
+  installs: 24448
+  author: "cosmicsarthak"
+  repo: "https://github.com/cosmicsarthak/cosmicsarthak-neon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cosmicsarthak.cosmicsarthak-neon-theme"
+colors:
+  bg: "#030D22"
+  fg: "#FDFEFF"
+  black: "#3A1B75"
+  red: "#EE1682"
+  green: "#06AD00"
+  yellow: "#FFD400"
+  blue: "#3787D6"
+  magenta: "#26FF00"
+  cyan: "#0AB2FA"
+  white: "#FD6666"
+  brightBlack: "#5C6D75"
+  brightRed: "#FF2E97"
+  brightGreen: "#00FFF2"
+  brightYellow: "#FD6666"
+  brightBlue: "#5994CE"
+  brightMagenta: "#FFD400"
+  brightCyan: "#4BC5FA"
+  brightWhite: "#EE0077"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 260
+  contrast:
+    fg: 106.7
+    black: 0
+    red: 35.1
+    green: 45.5
+    yellow: 82.6
+    blue: 36.6
+    magenta: 86.3
+    cyan: 55.1
+    white: 47.1
+    brightBlack: 24.5
+    brightRed: 41.2
+    brightGreen: 91.1
+    brightYellow: 47.1
+    brightBlue: 42.2
+    brightMagenta: 82.6
+    brightCyan: 64.4
+    brightWhite: 34.5

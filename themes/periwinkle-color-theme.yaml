@@ -1,0 +1,49 @@
+name: "periwinkle-color-theme"
+source:
+  marketplace_id: "wavebeem.theme-unoduetre"
+  version: "5.11.1"
+  installs: 4290
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/vscode-theme-unoduetre"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.theme-unoduetre"
+colors:
+  bg: "#EAEAF6"
+  fg: "#0D0D73"
+  black: "#0F041B"
+  red: "#AB1732"
+  green: "#33754B"
+  yellow: "#9B5636"
+  blue: "#452DCD"
+  magenta: "#B620AF"
+  cyan: "#237385"
+  white: "#E6E6E6"
+  brightBlack: "#0F041B"
+  brightRed: "#AB1732"
+  brightGreen: "#33754B"
+  brightYellow: "#9B5636"
+  brightBlue: "#452DCD"
+  brightMagenta: "#B620AF"
+  brightCyan: "#237385"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 286
+  contrast:
+    fg: 89.8
+    black: 93.9
+    red: 71.4
+    green: 65.6
+    yellow: 65.5
+    blue: 75.8
+    magenta: 63.9
+    cyan: 64.9
+    white: 0
+    brightBlack: 93.9
+    brightRed: 71.4
+    brightGreen: 65.6
+    brightYellow: 65.5
+    brightBlue: 75.8
+    brightMagenta: 63.9
+    brightCyan: 64.9
+    brightWhite: 0

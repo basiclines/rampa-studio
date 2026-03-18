@@ -1,0 +1,49 @@
+name: "glance-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#2D3142"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#EF8354"
+  yellow: "#6E81A0"
+  blue: "#2D3142"
+  magenta: "#EF8354"
+  cyan: "#6E81A0"
+  white: "#373C51"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#F8C7B1"
+  brightYellow: "#ACB7C8"
+  brightBlue: "#565E7F"
+  brightMagenta: "#F8C7B1"
+  brightCyan: "#ACB7C8"
+  brightWhite: "#565E7F"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.1
+    black: 0
+    red: 80.3
+    green: 50.5
+    yellow: 66.9
+    blue: 99.1
+    magenta: 50.5
+    cyan: 66.9
+    white: 95.2
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 24.2
+    brightYellow: 39.4
+    brightBlue: 81.6
+    brightMagenta: 24.2
+    brightCyan: 39.4
+    brightWhite: 81.6

@@ -1,0 +1,49 @@
+name: "Quantum Dark Bordered"
+source:
+  marketplace_id: "CalebEphrem.quantum"
+  version: "2.0.3"
+  installs: 413
+  author: "Caleb Ephrem"
+  repo: "https://github.com/calebephrem/quantum-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=CalebEphrem.quantum"
+colors:
+  bg: "#000017"
+  fg: "#E5E5E5"
+  black: "#1E232B"
+  red: "#EA6C73"
+  green: "#7FD962"
+  yellow: "#DDCC55"
+  blue: "#53BDFA"
+  magenta: "#CDA1FA"
+  cyan: "#70EFEF"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#AAFF4C"
+  brightYellow: "#FFDD70"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#D2A6FF"
+  brightCyan: "#00DDEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  contrast:
+    fg: 90.9
+    black: 0
+    red: 45
+    green: 71
+    yellow: 74.7
+    blue: 61.5
+    magenta: 61.6
+    cyan: 85.5
+    white: 72.6
+    brightBlack: 23.8
+    brightRed: 47.5
+    brightGreen: 93
+    brightYellow: 87.6
+    brightBlue: 64.3
+    brightMagenta: 64.3
+    brightCyan: 74.1
+    brightWhite: 107.8

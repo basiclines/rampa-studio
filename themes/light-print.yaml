@@ -1,0 +1,49 @@
+name: "light-print"
+source:
+  marketplace_id: "AymanAli.light-print"
+  version: "1.0.1"
+  installs: 252
+  author: "Ayman Ali"
+  repo: "https://github.com/aymanabuali/light-print"
+  url: "https://marketplace.visualstudio.com/items?itemName=AymanAli.light-print"
+colors:
+  bg: "#FFFFFF"
+  fg: "#262626"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 102
+    black: 98.7
+    red: 76.1
+    green: 48
+    yellow: 43.5
+    blue: 66
+    magenta: 68.4
+    cyan: 50.5
+    white: 14.3
+    brightBlack: 78.8
+    brightRed: 63.4
+    brightGreen: 25.1
+    brightYellow: 18.6
+    brightBlue: 51
+    brightMagenta: 54.3
+    brightCyan: 28.5
+    brightWhite: 0

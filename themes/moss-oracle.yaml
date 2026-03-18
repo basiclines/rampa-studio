@@ -1,0 +1,49 @@
+name: "Moss Oracle"
+source:
+  marketplace_id: "InnaSodri.moss-oracle-theme"
+  version: "1.0.0"
+  installs: 186
+  author: "Inna Sodri"
+  repo: "https://github.com/InnaSodri/moss-oracle"
+  url: "https://marketplace.visualstudio.com/items?itemName=InnaSodri.moss-oracle-theme"
+colors:
+  bg: "#0F1410"
+  fg: "#E3D9B0"
+  black: "#121915"
+  red: "#E27D60"
+  green: "#9ED8BA"
+  yellow: "#EAC875"
+  blue: "#E2B7FF"
+  magenta: "#C99CE6"
+  cyan: "#82F0E0"
+  white: "#E3D9B0"
+  brightBlack: "#6B7965"
+  brightRed: "#F08A5D"
+  brightGreen: "#B8E8C8"
+  brightYellow: "#FFEBAF"
+  brightBlue: "#E2B7FF"
+  brightMagenta: "#D9A7EB"
+  brightCyan: "#A0F0E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 151
+  contrast:
+    fg: 82.7
+    black: 0
+    red: 46.8
+    green: 74.7
+    yellow: 74.9
+    blue: 72.3
+    magenta: 57.5
+    cyan: 85.7
+    white: 82.7
+    brightBlack: 29
+    brightRed: 53.1
+    brightGreen: 85.2
+    brightYellow: 94.8
+    brightBlue: 72.3
+    brightMagenta: 63.9
+    brightCyan: 87.9
+    brightWhite: 107.2

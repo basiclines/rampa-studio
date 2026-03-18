@@ -1,0 +1,49 @@
+name: "Nord Jujoco"
+source:
+  marketplace_id: "Jujoco.nord-jujoco"
+  version: "1.4.1"
+  installs: 310
+  author: "Jujoco"
+  repo: "https://github.com/jujoco/nord-jujoco-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Jujoco.nord-jujoco"
+colors:
+  bg: "#191D24"
+  fg: "#E8E8E9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#E8D892"
+  blue: "#90B3CB"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#E8D892"
+  brightBlue: "#90B3CB"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#6ECFBE"
+  brightWhite: "#E8E8E9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  contrast:
+    fg: 91.3
+    black: 7.4
+    red: 32.3
+    green: 61
+    yellow: 81
+    blue: 57
+    magenta: 45.8
+    cyan: 62
+    white: 91.7
+    brightBlack: 14.7
+    brightRed: 32.3
+    brightGreen: 61
+    brightYellow: 81
+    brightBlue: 57
+    brightMagenta: 45.8
+    brightCyan: 66.1
+    brightWhite: 91.3

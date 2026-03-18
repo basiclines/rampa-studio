@@ -1,0 +1,49 @@
+name: "Ydrgzm LIGHT Theme"
+source:
+  marketplace_id: "ydrgzm.yd-light-theme"
+  version: "0.0.4"
+  installs: 368
+  author: "ydrgzm"
+  repo: "https://github.com/ydrgzm/Ydrgzm-LIGHT-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ydrgzm.yd-light-theme"
+colors:
+  bg: "#FAFAFA"
+  fg: "#000000"
+  black: "#868686"
+  red: "#FF5470"
+  green: "#33D057"
+  yellow: "#E1C542"
+  blue: "#469DF1"
+  magenta: "#E557F9"
+  cyan: "#39CDE2"
+  white: "#D4D4D4"
+  brightBlack: "#ABABAB"
+  brightRed: "#FF718A"
+  brightGreen: "#67FF8A"
+  brightYellow: "#FFE05B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#74F2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103
+    black: 61
+    red: 54
+    green: 36.1
+    yellow: 27.6
+    blue: 51.4
+    magenta: 52.4
+    cyan: 33
+    white: 19.8
+    brightBlack: 42.3
+    brightRed: 47.6
+    brightGreen: 11.1
+    brightYellow: 12.1
+    brightBlue: 36.1
+    brightMagenta: 41.1
+    brightCyan: 12.7
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "fodder"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#2D4137"
+  fg: "#CCE0D6"
+  black: "#375044"
+  red: "#BA0E2E"
+  green: "#AD9895"
+  yellow: "#98D046"
+  blue: "#FCFCFA"
+  magenta: "#98D046"
+  cyan: "#AD9895"
+  white: "#DCEAE3"
+  brightBlack: "#577D6A"
+  brightRed: "#F03E5F"
+  brightGreen: "#D9D0CE"
+  brightYellow: "#C5E597"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#C5E597"
+  brightCyan: "#D9D0CE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 163
+  contrast:
+    fg: 76.2
+    black: 0
+    red: 12.7
+    green: 40.3
+    yellow: 59.6
+    blue: 97
+    magenta: 59.6
+    cyan: 40.3
+    white: 83.3
+    brightBlack: 20.9
+    brightRed: 29
+    brightGreen: 70.4
+    brightYellow: 75.5
+    brightBlue: 99.1
+    brightMagenta: 75.5
+    brightCyan: 70.4
+    brightWhite: 99.1

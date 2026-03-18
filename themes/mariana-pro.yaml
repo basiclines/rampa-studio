@@ -1,0 +1,49 @@
+name: "Mariana (Pro)"
+source:
+  marketplace_id: "rickynormandeau.mariana-pro"
+  version: "3.0.12"
+  installs: 48805
+  author: "ricky.normandeau"
+  repo: "https://github.com/n0rmand0/Mariana-Pro-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rickynormandeau.mariana-pro"
+colors:
+  bg: "#3D3734"
+  fg: "#FFFFFF"
+  black: "#FFFFFF"
+  red: "#EE6A6F"
+  green: "#A3CE9E"
+  yellow: "#FAB763"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#6699CC"
+  white: "#FFFFFF"
+  brightBlack: "#FFFFFF"
+  brightRed: "#EE6A6F"
+  brightGreen: "#A3CE9E"
+  brightYellow: "#FAB763"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#6699CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 100.5
+    black: 100.5
+    red: 38
+    green: 62.9
+    yellow: 63.7
+    blue: 37.8
+    magenta: 45.7
+    cyan: 37.8
+    white: 100.5
+    brightBlack: 100.5
+    brightRed: 38
+    brightGreen: 62.9
+    brightYellow: 63.7
+    brightBlue: 37.8
+    brightMagenta: 45.7
+    brightCyan: 37.8
+    brightWhite: 100.5

@@ -1,0 +1,49 @@
+name: "A GitHub Dark 🩶 Muted"
+source:
+  marketplace_id: "markmiro.colorful-github-vscode-theme"
+  version: "6.8.0"
+  installs: 889
+  author: "Mark Miro"
+  repo: "https://github.com/markmiro/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=markmiro.colorful-github-vscode-theme"
+colors:
+  bg: "#161C25"
+  fg: "#D6E2ED"
+  black: "#555D67"
+  red: "#E19088"
+  green: "#74AE77"
+  yellow: "#C59D58"
+  blue: "#76A7E0"
+  magenta: "#B499DD"
+  cyan: "#5FC1C9"
+  white: "#C0CAD6"
+  brightBlack: "#7C8590"
+  brightRed: "#F3A8A0"
+  brightGreen: "#8BC68E"
+  brightYellow: "#D8B66D"
+  brightBlue: "#88BFF1"
+  brightMagenta: "#CEADF1"
+  brightCyan: "#74D0D7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 258
+  contrast:
+    fg: 86.6
+    black: 17.4
+    red: 52.3
+    green: 49.6
+    yellow: 51.1
+    blue: 51.3
+    magenta: 52.1
+    cyan: 59.6
+    white: 72.3
+    brightBlack: 35.1
+    brightRed: 64.3
+    brightGreen: 62.5
+    brightYellow: 63.8
+    brightBlue: 63.5
+    brightMagenta: 63.9
+    brightCyan: 68.2
+    brightWhite: 106.3

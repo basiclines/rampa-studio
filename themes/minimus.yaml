@@ -1,0 +1,49 @@
+name: "Minimus"
+source:
+  marketplace_id: "spaceinvadev.minimus-theme"
+  version: "0.0.1"
+  installs: 1187
+  author: "Mauro Paternina"
+  repo: "https://github.com/spaceinvadev/minimus-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=spaceinvadev.minimus-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#343A40"
+  black: "#343A40"
+  red: "#080808"
+  green: "#868E96"
+  yellow: "#868E96"
+  blue: "#343A40"
+  magenta: "#343A40"
+  cyan: "#343A40"
+  white: "#F8F9FA"
+  brightBlack: "#171A1D"
+  brightRed: "#080808"
+  brightGreen: "#868E96"
+  brightYellow: "#868E96"
+  brightBlue: "#343A40"
+  brightMagenta: "#343A40"
+  brightCyan: "#323232"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "indigo"
+  hue: null
+  contrast:
+    fg: 96.5
+    black: 96.5
+    red: 105.9
+    green: 60.6
+    yellow: 60.6
+    blue: 96.5
+    magenta: 96.5
+    cyan: 96.5
+    white: 0
+    brightBlack: 104.3
+    brightRed: 105.9
+    brightGreen: 60.6
+    brightYellow: 60.6
+    brightBlue: 96.5
+    brightMagenta: 96.5
+    brightCyan: 99
+    brightWhite: 0

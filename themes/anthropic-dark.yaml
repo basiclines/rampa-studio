@@ -1,0 +1,49 @@
+name: "Anthropic Dark"
+source:
+  marketplace_id: "TeoVoss.antzed-theme"
+  version: "1.1.1"
+  installs: 136
+  author: "TeoVoss"
+  repo: "https://github.com/TeoVoss/antzed-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TeoVoss.antzed-theme"
+colors:
+  bg: "#151412"
+  fg: "#F0EDE3"
+  black: "#151412"
+  red: "#E68868"
+  green: "#9FB980"
+  yellow: "#E9B868"
+  blue: "#7AACDD"
+  magenta: "#E68868"
+  cyan: "#7AACDD"
+  white: "#F0EDE3"
+  brightBlack: "#6A6760"
+  brightRed: "#F09978"
+  brightGreen: "#AFC990"
+  brightYellow: "#F9C978"
+  brightBlue: "#8ABDEE"
+  brightMagenta: "#F09978"
+  brightCyan: "#8ABDEE"
+  brightWhite: "#FAF9F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.3
+    black: 0
+    red: 50.8
+    green: 59.1
+    yellow: 67.9
+    blue: 54.2
+    magenta: 50.8
+    cyan: 54.2
+    white: 95.3
+    brightBlack: 22.8
+    brightRed: 58.3
+    brightGreen: 68.1
+    brightYellow: 77.6
+    brightBlue: 63.4
+    brightMagenta: 58.3
+    brightCyan: 63.4
+    brightWhite: 103.1

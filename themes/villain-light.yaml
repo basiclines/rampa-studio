@@ -1,0 +1,49 @@
+name: "villain-light"
+source:
+  marketplace_id: "sahilkumardev.villan-theam"
+  version: "0.0.2"
+  installs: 558
+  author: "sahil kumar dev"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=sahilkumardev.villan-theam"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#44403C"
+  red: "#DC2626"
+  green: "#16A34A"
+  yellow: "#D97706"
+  blue: "#2563EB"
+  magenta: "#7C3AED"
+  cyan: "#0891B2"
+  white: "#A1A1AA"
+  brightBlack: "#78716C"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FBBF24"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#22D3EE"
+  brightWhite: "#E7E5E4"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 106
+    black: 93.9
+    red: 71.6
+    green: 59.7
+    yellow: 58.5
+    blue: 74.9
+    magenta: 77.5
+    cyan: 63.8
+    white: 50.2
+    brightBlack: 73.3
+    brightRed: 52.8
+    brightGreen: 31.3
+    brightYellow: 29.1
+    brightBlue: 63.9
+    brightMagenta: 66.2
+    brightCyan: 33
+    brightWhite: 12.7

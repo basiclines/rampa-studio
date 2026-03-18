@@ -1,0 +1,49 @@
+name: "Cherry Blossom Dark Vivid"
+source:
+  marketplace_id: "daitsuku.cherry-blossom-vscode-theme"
+  version: "1.2.1"
+  installs: 2129
+  author: "daitsuku"
+  repo: "https://gitlab.com/daitsuku/cherry-blossom-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daitsuku.cherry-blossom-vscode-theme"
+colors:
+  bg: "#1D1E26"
+  fg: "#D9D9D9"
+  black: "#2A2B34"
+  red: "#FDA4BA"
+  green: "#9CDBA8"
+  yellow: "#F5D6A0"
+  blue: "#7EB0E8"
+  magenta: "#D592BC"
+  cyan: "#78B3CD"
+  white: "#D9D9D9"
+  brightBlack: "#373740"
+  brightRed: "#FDB9CA"
+  brightGreen: "#B7E7C0"
+  brightYellow: "#F9E3BD"
+  brightBlue: "#A2C5EF"
+  brightMagenta: "#E3B1D0"
+  brightCyan: "#9CCADF"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 65.3
+    green: 74
+    yellow: 82.3
+    blue: 55.6
+    magenta: 52.5
+    cyan: 54.9
+    white: 81.6
+    brightBlack: 0
+    brightRed: 73.4
+    brightGreen: 83.1
+    brightYellow: 89.5
+    brightBlue: 67.8
+    brightMagenta: 66.4
+    brightCyan: 68.6
+    brightWhite: 97.4

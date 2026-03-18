@@ -1,0 +1,49 @@
+name: "Purppy"
+source:
+  marketplace_id: "1izardo.purppy-vs-code"
+  version: "0.2.1"
+  installs: 666
+  author: "Daniel Lazaro"
+  repo: "https://github.com/1izardo/purppy-vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=1izardo.purppy-vs-code"
+colors:
+  bg: "#332E40"
+  fg: "#DDD8E8"
+  black: "#4C435E"
+  red: "#D3787B"
+  green: "#B5C292"
+  yellow: "#ECB48F"
+  blue: "#8FAEEC"
+  magenta: "#A58AC7"
+  cyan: "#8AB8C5"
+  white: "#DDD8E8"
+  brightBlack: "#564D6B"
+  brightRed: "#DD7C80"
+  brightGreen: "#BDCC99"
+  brightYellow: "#F6BB95"
+  brightBlue: "#95B5F6"
+  brightMagenta: "#AD90D1"
+  brightCyan: "#91C1CF"
+  brightWhite: "#E7E4F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 297
+  contrast:
+    fg: 79
+    black: 0
+    red: 38.6
+    green: 61.2
+    yellow: 63.2
+    blue: 53.1
+    magenta: 40.2
+    cyan: 54.6
+    white: 79
+    brightBlack: 9.5
+    brightRed: 41.7
+    brightGreen: 66.7
+    brightYellow: 67.7
+    brightBlue: 57
+    brightMagenta: 43.8
+    brightCyan: 59.5
+    brightWhite: 86.1

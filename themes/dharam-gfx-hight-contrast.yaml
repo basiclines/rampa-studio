@@ -1,0 +1,49 @@
+name: "Dharam-gfx-Hight-Contrast"
+source:
+  marketplace_id: "dharam-gfx-theme.dharam-gfx-theme"
+  version: "0.0.7"
+  installs: 660
+  author: "dharmendra kumar"
+  repo: "https://github.com/dharam-gfx/dharam-gfx-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dharam-gfx-theme.dharam-gfx-theme"
+colors:
+  bg: "#191A2E"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#20E3B2"
+  yellow: "#FDE181"
+  blue: "#BD93F9"
+  magenta: "#FF6BCB"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#8D92FF"
+  brightRed: "#FF6E6E"
+  brightGreen: "#20E3B2"
+  brightYellow: "#EAC394"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF6BCB"
+  brightCyan: "#2CCCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 281
+  contrast:
+    fg: 101.4
+    black: 0
+    red: 42.8
+    green: 73
+    yellow: 87.9
+    blue: 53.1
+    magenta: 51.1
+    cyan: 83.4
+    white: 101.4
+    brightBlack: 47.6
+    brightRed: 48.3
+    brightGreen: 73
+    brightYellow: 72.6
+    brightBlue: 53.1
+    brightMagenta: 51.1
+    brightCyan: 65.9
+    brightWhite: 106.3

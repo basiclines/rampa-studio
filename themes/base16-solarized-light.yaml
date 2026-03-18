@@ -1,0 +1,49 @@
+name: "Base16 Solarized Light"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#FDF6E3"
+  fg: "#586E75"
+  black: "#93A1A1"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#CB4B16"
+  blue: "#268BD2"
+  magenta: "#6C71C4"
+  cyan: "#2AA198"
+  white: "#073642"
+  brightBlack: "#839496"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#2AA198"
+  brightWhite: "#002B36"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 71.6
+    black: 46.7
+    red: 65.3
+    green: 53.8
+    yellow: 65.8
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
+    white: 93.7
+    brightBlack: 53.5
+    brightRed: 65.3
+    brightGreen: 53.8
+    brightYellow: 53.8
+    brightBlue: 58.7
+    brightMagenta: 65
+    brightCyan: 53.1
+    brightWhite: 96.4

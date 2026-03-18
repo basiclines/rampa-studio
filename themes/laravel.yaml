@@ -1,0 +1,49 @@
+name: "Laravel"
+source:
+  marketplace_id: "nsouto.laravel"
+  version: "0.1.5"
+  installs: 21813
+  author: "Nuno Souto"
+  repo: "https://github.com/nsouto/vsce-laravel-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nsouto.laravel"
+colors:
+  bg: "#EEEEEE"
+  fg: "#000000"
+  black: "#333333"
+  red: "#DA564A"
+  green: "#2E7D32"
+  yellow: "#EEBB6E"
+  blue: "#0077AA"
+  magenta: "#E5C499"
+  cyan: "#4EA1DF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#DA564A"
+  brightGreen: "#399C3E"
+  brightYellow: "#FFB670"
+  brightBlue: "#0077AA"
+  brightMagenta: "#AA7900"
+  brightCyan: "#4EA1DF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 95.9
+    black: 88.6
+    red: 55.3
+    green: 64.9
+    yellow: 21.9
+    blue: 63.7
+    magenta: 18.8
+    cyan: 43.6
+    white: 8.9
+    brightBlack: 88.6
+    brightRed: 55.3
+    brightGreen: 52.1
+    brightYellow: 20.9
+    brightBlue: 63.7
+    brightMagenta: 55.7
+    brightCyan: 43.6
+    brightWhite: 8.9

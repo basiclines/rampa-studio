@@ -1,0 +1,49 @@
+name: "Azerite Dark"
+source:
+  marketplace_id: "wistb.azerite-dark"
+  version: "0.0.7"
+  installs: 248
+  author: "wistb"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=wistb.azerite-dark"
+colors:
+  bg: "#0B0D14"
+  fg: "#AEBBEA"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#828AFF"
+  magenta: "#C792EA"
+  cyan: "#98C2D2"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 272
+  contrast:
+    fg: 66.2
+    black: 27.2
+    red: 44.7
+    green: 66.5
+    yellow: 79.7
+    blue: 45.2
+    magenta: 54.5
+    cyan: 65.7
+    white: 107.6
+    brightBlack: 27.2
+    brightRed: 44.7
+    brightGreen: 84.9
+    brightYellow: 79.7
+    brightBlue: 56.6
+    brightMagenta: 54.5
+    brightCyan: 79
+    brightWhite: 107.6

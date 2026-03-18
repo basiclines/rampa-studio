@@ -1,0 +1,49 @@
+name: "aether"
+source:
+  marketplace_id: "Clicxl.aether-theme-pallete-picker"
+  version: "0.0.1"
+  installs: 67
+  author: "Hrishikesh H Puliga"
+  repo: "https://github.com/Clicxl/vscode-aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Clicxl.aether-theme-pallete-picker"
+colors:
+  bg: "#15151F"
+  fg: "#FFFFFF"
+  black: "#15151F"
+  red: "#FFFFFF"
+  green: "#15151F"
+  yellow: "#C9635F"
+  blue: "#FED539"
+  magenta: "#FB9F24"
+  cyan: "#959BC0"
+  white: "#FFFFFF"
+  brightBlack: "#A7B2CD"
+  brightRed: "#EEBBC1"
+  brightGreen: "#828298"
+  brightYellow: "#E3A3A1"
+  brightBlue: "#FFE994"
+  brightMagenta: "#FFC77C"
+  brightCyan: "#CED1E3"
+  brightWhite: "#E8D9E8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 284
+  contrast:
+    fg: 107
+    black: 0
+    red: 107
+    green: 0
+    yellow: 35.1
+    blue: 82.5
+    magenta: 61.1
+    cyan: 48.3
+    white: 107
+    brightBlack: 59.7
+    brightRed: 72.3
+    brightGreen: 35.7
+    brightYellow: 60.4
+    brightBlue: 92.9
+    brightMagenta: 77.7
+    brightCyan: 78.2
+    brightWhite: 85.4

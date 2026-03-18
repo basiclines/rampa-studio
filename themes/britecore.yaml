@@ -1,0 +1,49 @@
+name: "britecore"
+source:
+  marketplace_id: "z3by.vscode-theme-britecore"
+  version: "0.0.1"
+  installs: 866
+  author: "z3by"
+  repo: "https://github.com/z3by/vscode-theme-britecore"
+  url: "https://marketplace.visualstudio.com/items?itemName=z3by.vscode-theme-britecore"
+colors:
+  bg: "#032E35"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF628C"
+  green: "#3AD900"
+  yellow: "#EFB38F"
+  blue: "#099AB3"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#EFB38F"
+  brightBlue: "#099AB3"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#032E35"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 211
+  contrast:
+    fg: 104
+    black: 0
+    red: 44.2
+    green: 63.4
+    yellow: 64.7
+    blue: 37.6
+    magenta: 61.4
+    cyan: 89.9
+    white: 104
+    brightBlack: 11.8
+    brightRed: 44.2
+    brightGreen: 63.4
+    brightYellow: 64.7
+    brightBlue: 37.6
+    brightMagenta: 61.4
+    brightCyan: 89.9
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Ubuntu Dark"
+source:
+  marketplace_id: "AgraeonLabs.dev-themes"
+  version: "0.1.0"
+  installs: 283
+  author: "Agraeon Labs"
+  repo: "https://github.com/adiagcodelance/VS-Code-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AgraeonLabs.dev-themes"
+colors:
+  bg: "#2C2C2C"
+  fg: "#F0F0F0"
+  black: "#2C2C2C"
+  red: "#CC0000"
+  green: "#4E9A06"
+  yellow: "#C4A000"
+  blue: "#3465A4"
+  magenta: "#75507B"
+  cyan: "#06989A"
+  white: "#D3D7CF"
+  brightBlack: "#555753"
+  brightRed: "#EF2929"
+  brightGreen: "#8AE234"
+  brightYellow: "#FCE94F"
+  brightBlue: "#729FCF"
+  brightMagenta: "#AD7FA8"
+  brightCyan: "#34E2E2"
+  brightWhite: "#EEEEEC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 93.8
+    black: 0
+    red: 21
+    green: 34.9
+    yellow: 48.8
+    blue: 18.2
+    magenta: 15.2
+    cyan: 35.2
+    white: 77.2
+    brightBlack: 12.4
+    brightRed: 30.6
+    brightGreen: 71.5
+    brightYellow: 87.9
+    brightBlue: 44.2
+    brightMagenta: 37.3
+    brightCyan: 72.2
+    brightWhite: 92.4

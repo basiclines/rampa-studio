@@ -1,0 +1,49 @@
+name: "teal"
+source:
+  marketplace_id: "natecrow.consonance-themes"
+  version: "1.2.0"
+  installs: 317
+  author: "natecrow"
+  repo: "https://github.com/natecrow/consonance-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=natecrow.consonance-themes"
+colors:
+  bg: "#111111"
+  fg: "#CEC5B4"
+  black: "#000000"
+  red: "#98D1D5"
+  green: "#00B4C2"
+  yellow: "#00DEEC"
+  blue: "#7E7666"
+  magenta: "#008B9A"
+  cyan: "#70A8AC"
+  white: "#EAE1CF"
+  brightBlack: "#7E7666"
+  brightRed: "#98D1D5"
+  brightGreen: "#00B4C2"
+  brightYellow: "#00DEEC"
+  brightBlue: "#7E7666"
+  brightMagenta: "#008B9A"
+  brightCyan: "#70A8AC"
+  brightWhite: "#FFFEEC"
+meta:
+  mode: "dark"
+  accent: "blue"
+  hue: null
+  contrast:
+    fg: 71.5
+    black: 0
+    red: 72.2
+    green: 52.6
+    yellow: 74.1
+    blue: 29.9
+    magenta: 33.9
+    cyan: 49.7
+    white: 88.5
+    brightBlack: 29.9
+    brightRed: 72.2
+    brightGreen: 52.6
+    brightYellow: 74.1
+    brightBlue: 29.9
+    brightMagenta: 33.9
+    brightCyan: 49.7
+    brightWhite: 106

@@ -1,0 +1,49 @@
+name: "inksea Hacker"
+source:
+  marketplace_id: "inksea.inksea-theme"
+  version: "3.3.0"
+  installs: 12188
+  author: "_inkSea"
+  repo: "https://github.com/inksea/inksea-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=inksea.inksea-theme"
+colors:
+  bg: "#090D0C"
+  fg: "#BBBBBB"
+  black: "#090D0C"
+  red: "#C05776"
+  green: "#81B38C"
+  yellow: "#F6B352"
+  blue: "#7574A5"
+  magenta: "#C05776"
+  cyan: "#87A1C5"
+  white: "#C4CAD1"
+  brightBlack: "#6272A4"
+  brightRed: "#C05776"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#FFCC95"
+  brightBlue: "#7574A5"
+  brightMagenta: "#C05776"
+  brightCyan: "#8DB9E2"
+  brightWhite: "#C4CAD1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 65.5
+    black: 0
+    red: 32.1
+    green: 54.6
+    yellow: 68.4
+    blue: 31.1
+    magenta: 32.1
+    cyan: 50.1
+    white: 73.8
+    brightBlack: 28.8
+    brightRed: 32.1
+    brightGreen: 62.4
+    brightYellow: 81
+    brightBlue: 31.1
+    brightMagenta: 32.1
+    brightCyan: 61.8
+    brightWhite: 73.8

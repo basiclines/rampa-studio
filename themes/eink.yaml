@@ -1,0 +1,49 @@
+name: "eink"
+source:
+  marketplace_id: "henderjon.eink"
+  version: "0.0.5"
+  installs: 349
+  author: "henderjon"
+  repo: "https://github.com/henderjon/eink"
+  url: "https://marketplace.visualstudio.com/items?itemName=henderjon.eink"
+colors:
+  bg: "#F3F1EB"
+  fg: "#5F5F5E"
+  black: "#000000"
+  red: "#660000"
+  green: "#448C27"
+  yellow: "#AB6526"
+  blue: "#205988"
+  magenta: "#7A3E9D"
+  cyan: "#4B83CD"
+  white: "#5F5F5E"
+  brightBlack: "#75715E"
+  brightRed: "#660000"
+  brightGreen: "#448C27"
+  brightYellow: "#AB6526"
+  brightBlue: "#205988"
+  brightMagenta: "#7A3E9D"
+  brightCyan: "#4B83CD"
+  brightWhite: "#5F5F5E"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 73.5
+    black: 97.7
+    red: 89.5
+    green: 60.2
+    yellow: 62.9
+    blue: 77
+    magenta: 75.4
+    cyan: 57.6
+    white: 73.5
+    brightBlack: 65.7
+    brightRed: 89.5
+    brightGreen: 60.2
+    brightYellow: 62.9
+    brightBlue: 77
+    brightMagenta: 75.4
+    brightCyan: 57.6
+    brightWhite: 73.5

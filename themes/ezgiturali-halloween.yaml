@@ -1,0 +1,49 @@
+name: "ezgiturali-halloween"
+source:
+  marketplace_id: "ezgiturali.ezgiturali-halloween"
+  version: "0.6.0"
+  installs: 240
+  author: "ezgiturali"
+  repo: "https://github.com/ezgiturali/vscode-halloween-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ezgiturali.ezgiturali-halloween"
+colors:
+  bg: "#242423"
+  fg: "#A7B5E0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#0969FF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 60.1
+    black: 0
+    red: 25
+    green: 51.3
+    yellow: 83.9
+    blue: 27.4
+    magenta: 28
+    cyan: 45.8
+    white: 88.3
+    brightBlack: 20.3
+    brightRed: 36.8
+    brightGreen: 61.8
+    brightYellow: 93.9
+    brightBlue: 38.3
+    brightMagenta: 43.6
+    brightCyan: 53.7
+    brightWhite: 88.3

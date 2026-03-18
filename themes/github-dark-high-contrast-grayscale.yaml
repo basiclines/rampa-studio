@@ -1,0 +1,49 @@
+name: "GitHub Dark High Contrast (Grayscale)"
+source:
+  marketplace_id: "kontheocharis.github-vscode-theme-grayscale"
+  version: "1.0.1"
+  installs: 26
+  author: "kontheocharis"
+  repo: "https://github.com/kontheocharis/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kontheocharis.github-vscode-theme-grayscale"
+colors:
+  bg: "#0A0A0A"
+  fg: "#F0F3F6"
+  black: "#7A828E"
+  red: "#FF9492"
+  green: "#26CD4D"
+  yellow: "#F0B72F"
+  blue: "#71B7FF"
+  magenta: "#CB9EFF"
+  cyan: "#39C5CF"
+  white: "#D9DEE3"
+  brightBlack: "#9EA7B3"
+  brightRed: "#FFB1AF"
+  brightGreen: "#4AE168"
+  brightYellow: "#F7C843"
+  brightBlue: "#91CBFF"
+  brightMagenta: "#DBB7FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 99.6
+    black: 35.2
+    red: 60.8
+    green: 61.3
+    yellow: 68.6
+    blue: 60.8
+    magenta: 60.5
+    cyan: 61.7
+    white: 86.1
+    brightBlack: 54
+    brightRed: 71.5
+    brightGreen: 72.3
+    brightYellow: 76.7
+    brightBlue: 71.6
+    brightMagenta: 71.7
+    brightCyan: 70.3
+    brightWhite: 107.7

@@ -1,0 +1,49 @@
+name: "Ef Cyprus"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+colors:
+  bg: "#FCF7EF"
+  fg: "#242521"
+  black: "#242521"
+  red: "#9F0D0F"
+  green: "#006F00"
+  yellow: "#A7601F"
+  blue: "#375CC6"
+  magenta: "#9A456F"
+  cyan: "#1F70AF"
+  white: "#F0ECE0"
+  brightBlack: "#59786F"
+  brightRed: "#DD0020"
+  brightGreen: "#557400"
+  brightYellow: "#BF4400"
+  brightBlue: "#444FCF"
+  brightMagenta: "#BF456A"
+  brightCyan: "#3F6FAF"
+  brightWhite: "#FCF7EF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 97.9
+    black: 97.9
+    red: 82
+    green: 76.6
+    yellow: 68.7
+    blue: 75
+    magenta: 75.4
+    cyan: 71.2
+    white: 0
+    brightBlack: 69.1
+    brightRed: 68
+    brightGreen: 72.3
+    brightYellow: 70.2
+    brightBlue: 76.9
+    brightMagenta: 68.7
+    brightCyan: 70.6
+    brightWhite: 0

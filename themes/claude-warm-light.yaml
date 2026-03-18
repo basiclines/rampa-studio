@@ -1,0 +1,49 @@
+name: "Claude Warm Light"
+source:
+  marketplace_id: "nghiavo.claude-warm-light"
+  version: "0.2.5"
+  installs: 48
+  author: "Nghia SDET"
+  repo: "https://github.com/vodainghia/claude-warm-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nghiavo.claude-warm-light"
+colors:
+  bg: "#FAF6F0"
+  fg: "#3D3929"
+  black: "#3D3929"
+  red: "#B05050"
+  green: "#5A8A5A"
+  yellow: "#B08A40"
+  blue: "#5A7A9A"
+  magenta: "#8A5A8A"
+  cyan: "#2E7D7A"
+  white: "#E8E2D8"
+  brightBlack: "#9A9080"
+  brightRed: "#C06060"
+  brightGreen: "#6A9A6A"
+  brightYellow: "#C09A50"
+  brightBlue: "#6A8AAA"
+  brightMagenta: "#9A6A9A"
+  brightCyan: "#3E8D8A"
+  brightWhite: "#FAF6F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 91.5
+    black: 91.5
+    red: 69.6
+    green: 62.3
+    yellow: 54
+    blue: 65.9
+    magenta: 71.5
+    cyan: 68.3
+    white: 9.2
+    brightBlack: 53.4
+    brightRed: 62.9
+    brightGreen: 54.7
+    brightYellow: 46.1
+    brightBlue: 58.5
+    brightMagenta: 64.4
+    brightCyan: 61.1
+    brightWhite: 0

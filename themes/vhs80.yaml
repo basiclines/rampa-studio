@@ -1,0 +1,49 @@
+name: "VHS80"
+source:
+  marketplace_id: "TahaYVR.vhs80"
+  version: "1.0.1"
+  installs: 169
+  author: "Taha YVR"
+  repo: "https://github.com/tahayvr/vhs80-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TahaYVR.vhs80"
+colors:
+  bg: "#121212"
+  fg: "#EAEAEA"
+  black: "#0D0D0D"
+  red: "#862020"
+  green: "#A85511"
+  yellow: "#A85511"
+  blue: "#2F8383"
+  magenta: "#8B7F2E"
+  cyan: "#2F8383"
+  white: "#BEBEBE"
+  brightBlack: "#8A8A8D"
+  brightRed: "#F87171"
+  brightGreen: "#A85511"
+  brightYellow: "#A85511"
+  brightBlue: "#2F8383"
+  brightMagenta: "#8B7F2E"
+  brightCyan: "#2F8383"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 11.3
+    green: 25.4
+    yellow: 25.4
+    blue: 30.3
+    magenta: 33.3
+    cyan: 30.3
+    white: 66.9
+    brightBlack: 39.1
+    brightRed: 48.5
+    brightGreen: 25.4
+    brightYellow: 25.4
+    brightBlue: 30.3
+    brightMagenta: 33.3
+    brightCyan: 30.3
+    brightWhite: 107.3

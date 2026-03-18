@@ -1,0 +1,49 @@
+name: "Ocean Eyes"
+source:
+  marketplace_id: "SethCox.ocean-eyes"
+  version: "0.0.8"
+  installs: 5213
+  author: "Seth Cox"
+  repo: "https://github.com/sethaddison/ocean-eyes-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SethCox.ocean-eyes"
+colors:
+  bg: "#14202C"
+  fg: "#FFF9F1"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 249
+  contrast:
+    fg: 102.4
+    black: 7.8
+    red: 35.7
+    green: 59.4
+    yellow: 47.6
+    blue: 48.7
+    magenta: 38.1
+    cyan: 51.5
+    white: 89.7
+    brightBlack: 14.5
+    brightRed: 45.1
+    brightGreen: 75.8
+    brightYellow: 60.2
+    brightBlue: 62.7
+    brightMagenta: 49.3
+    brightCyan: 66.8
+    brightWhite: 82

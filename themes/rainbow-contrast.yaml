@@ -1,0 +1,49 @@
+name: "rainbow-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#16181A"
+  fg: "#C7D0D9"
+  black: "#222528"
+  red: "#BA0E2E"
+  green: "#B3CC57"
+  yellow: "#EF746F"
+  blue: "#FFBE40"
+  magenta: "#3FB4C5"
+  cyan: "#F86F50"
+  white: "#D6DDE3"
+  brightBlack: "#454B51"
+  brightRed: "#F03E5F"
+  brightGreen: "#D6E4A5"
+  brightYellow: "#F9CDCB"
+  brightBlue: "#FFE1A6"
+  brightMagenta: "#8DD3DD"
+  brightCyan: "#FCC0B2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 76.3
+    black: 0
+    red: 20.4
+    green: 68.3
+    yellow: 46.8
+    blue: 73.1
+    magenta: 52.9
+    cyan: 46.9
+    white: 84.3
+    brightBlack: 11
+    brightRed: 36.7
+    brightGreen: 85.1
+    brightYellow: 81.4
+    brightBlue: 89.6
+    brightMagenta: 72.1
+    brightCyan: 75.8
+    brightWhite: 106.8

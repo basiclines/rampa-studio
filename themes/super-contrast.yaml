@@ -1,0 +1,49 @@
+name: "super-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#15191D"
+  fg: "#FFFFFF"
+  black: "#20262C"
+  red: "#BA0E2E"
+  green: "#5D67AD"
+  yellow: "#D60257"
+  blue: "#E45635"
+  magenta: "#5D67AD"
+  cyan: "#E45635"
+  white: "#FFFFFF"
+  brightBlack: "#404C58"
+  brightRed: "#F03E5F"
+  brightGreen: "#A1A7CF"
+  brightYellow: "#FD418C"
+  brightBlue: "#F0A18F"
+  brightMagenta: "#A1A7CF"
+  brightCyan: "#F0A18F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 248
+  contrast:
+    fg: 106.7
+    black: 0
+    red: 20.3
+    green: 24.7
+    yellow: 27.2
+    blue: 36.9
+    magenta: 24.7
+    cyan: 36.9
+    white: 106.7
+    brightBlack: 11
+    brightRed: 36.6
+    brightGreen: 54.6
+    brightYellow: 41.3
+    brightBlue: 61.1
+    brightMagenta: 54.6
+    brightCyan: 61.1
+    brightWhite: 106.7

@@ -1,0 +1,49 @@
+name: "Watermelon"
+source:
+  marketplace_id: "mlkywy.watermelon-theme"
+  version: "0.3.0"
+  installs: 2753
+  author: "mlkywy"
+  repo: "https://github.com/alshei/vscode-watermelon"
+  url: "https://marketplace.visualstudio.com/items?itemName=mlkywy.watermelon-theme"
+colors:
+  bg: "#151317"
+  fg: "#E0E0E0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 87.2
+    black: 0
+    red: 27
+    green: 53.3
+    yellow: 85.9
+    blue: 27.7
+    magenta: 30
+    cyan: 47.8
+    white: 90.3
+    brightBlack: 22.3
+    brightRed: 38.9
+    brightGreen: 63.8
+    brightYellow: 95.9
+    brightBlue: 40.3
+    brightMagenta: 45.7
+    brightCyan: 55.7
+    brightWhite: 90.3

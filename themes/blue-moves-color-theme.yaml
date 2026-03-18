@@ -1,0 +1,49 @@
+name: "blue-moves-color-theme"
+source:
+  marketplace_id: "Synth1983GreenWave.blue-moves-theme"
+  version: "2.0.1"
+  installs: 366
+  author: "🧪 ovct 🧪"
+  repo: "https://github.com/Octaviocossy/blue-moves-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Synth1983GreenWave.blue-moves-theme"
+colors:
+  bg: "#0C1F3C"
+  fg: "#A5ABB3"
+  black: "#0C1F3C"
+  red: "#BE9164"
+  green: "#51BD99"
+  yellow: "#ADB96E"
+  blue: "#7096C2"
+  magenta: "#C08FD4"
+  cyan: "#51ADBB"
+  white: "#A5ABB3"
+  brightBlack: "#7096C2"
+  brightRed: "#BE9164"
+  brightGreen: "#51BD99"
+  brightYellow: "#ADB96E"
+  brightBlue: "#7096C2"
+  brightMagenta: "#C08FD4"
+  brightCyan: "#51ADBB"
+  brightWhite: "#A5ABB3"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 259
+  contrast:
+    fg: 54.3
+    black: 0
+    red: 45.5
+    green: 54.6
+    yellow: 58.8
+    blue: 42
+    magenta: 49.3
+    cyan: 49
+    white: 54.3
+    brightBlack: 42
+    brightRed: 45.5
+    brightGreen: 54.6
+    brightYellow: 58.8
+    brightBlue: 42
+    brightMagenta: 49.3
+    brightCyan: 49
+    brightWhite: 54.3

@@ -1,0 +1,49 @@
+name: "green-theme"
+source:
+  marketplace_id: "flyyn2.green-theme"
+  version: "1.0.2"
+  installs: 2721
+  author: "flyyn2"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=flyyn2.green-theme"
+colors:
+  bg: "#CCE8CF"
+  fg: "#46433C"
+  black: "#333333"
+  red: "#8F1B46"
+  green: "#62841F"
+  yellow: "#84841F"
+  blue: "#5566A1"
+  magenta: "#644C8F"
+  cyan: "#438893"
+  white: "#868683"
+  brightBlack: "#666666"
+  brightRed: "#C11D59"
+  brightGreen: "#557417"
+  brightYellow: "#93931E"
+  brightBlue: "#4B5994"
+  brightMagenta: "#5E468B"
+  brightCyan: "#326C76"
+  brightWhite: "#878784"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: 148
+  contrast:
+    fg: 75.1
+    black: 80.9
+    red: 70.6
+    green: 52.1
+    yellow: 49
+    blue: 59.7
+    magenta: 66.5
+    cyan: 49.8
+    white: 46.3
+    brightBlack: 60.9
+    brightRed: 59.7
+    brightGreen: 58.9
+    brightYellow: 42
+    brightBlue: 65
+    brightMagenta: 68.8
+    brightCyan: 61.7
+    brightWhite: 45.8

@@ -1,0 +1,49 @@
+name: "Galaxia"
+source:
+  marketplace_id: "LucasBandeira.galaxia"
+  version: "0.1.1"
+  installs: 293
+  author: "Lucas Bandeira"
+  repo: "https://github.com/LucasBandeira-MJ/Galaxia-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LucasBandeira.galaxia"
+colors:
+  bg: "#131D36"
+  fg: "#ECECEC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 266
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 25.8
+    green: 52.1
+    yellow: 84.7
+    blue: 26.5
+    magenta: 28.9
+    cyan: 46.7
+    white: 89.1
+    brightBlack: 21.2
+    brightRed: 37.7
+    brightGreen: 62.7
+    brightYellow: 94.8
+    brightBlue: 39.1
+    brightMagenta: 44.5
+    brightCyan: 54.5
+    brightWhite: 89.1

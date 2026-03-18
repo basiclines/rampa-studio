@@ -1,0 +1,49 @@
+name: "heroku-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#F7F7FC"
+  fg: "#1B1B24"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#585480"
+  yellow: "#7873AE"
+  blue: "#B0ADD3"
+  magenta: "#7873AE"
+  cyan: "#6DAF36"
+  white: "#262633"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#8C89B1"
+  brightYellow: "#B6B4D3"
+  brightBlue: "#F0EFF7"
+  brightMagenta: "#B6B4D3"
+  brightCyan: "#A1D576"
+  brightWhite: "#47475E"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 75.8
+    green: 79.7
+    yellow: 65.3
+    blue: 37.7
+    magenta: 65.3
+    cyan: 47.3
+    white: 97.2
+    brightBlack: 0
+    brightRed: 59.3
+    brightGreen: 56
+    brightYellow: 34.4
+    brightBlue: 0
+    brightMagenta: 34.4
+    brightCyan: 26
+    brightWhite: 86.1

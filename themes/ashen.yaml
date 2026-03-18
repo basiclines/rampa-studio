@@ -1,0 +1,49 @@
+name: "Ashen"
+source:
+  marketplace_id: "derder.ashen-theme"
+  version: "1.0.3"
+  installs: 187
+  author: "Der Der"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=derder.ashen-theme"
+colors:
+  bg: "#121212"
+  fg: "#B4B4B4"
+  black: "#151515"
+  red: "#B14242"
+  green: "#1E6F54"
+  yellow: "#E5A72A"
+  blue: "#4A8B8B"
+  magenta: "#C53030"
+  cyan: "#D87C4A"
+  white: "#B4B4B4"
+  brightBlack: "#535353"
+  brightRed: "#DF6464"
+  brightGreen: "#629C7D"
+  brightYellow: "#E49A44"
+  brightBlue: "#4A8B8B"
+  brightMagenta: "#DF6464"
+  brightCyan: "#C4693D"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 61.2
+    black: 0
+    red: 23.8
+    green: 21.2
+    yellow: 60.3
+    blue: 34.6
+    magenta: 25.3
+    cyan: 44.3
+    white: 61.2
+    brightBlack: 14.8
+    brightRed: 40.1
+    brightGreen: 42.1
+    brightYellow: 55.8
+    brightBlue: 34.6
+    brightMagenta: 40.1
+    brightCyan: 35.4
+    brightWhite: 90.4

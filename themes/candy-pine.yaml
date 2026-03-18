@@ -1,0 +1,49 @@
+name: "Candy Pine"
+source:
+  marketplace_id: "yuschick.candy-pine"
+  version: "0.2.5"
+  installs: 1594
+  author: "Yuschick"
+  repo: "https://github.com/candy-pine/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=yuschick.candy-pine"
+colors:
+  bg: "#161421"
+  fg: "#E4E1F0"
+  black: "#272336"
+  red: "#F962A0"
+  green: "#4D94A8"
+  yellow: "#F2B56B"
+  blue: "#88C6C5"
+  magenta: "#F99FB5"
+  cyan: "#F2B56B"
+  white: "#E4E1F0"
+  brightBlack: "#9B97B1"
+  brightRed: "#F962A0"
+  brightGreen: "#4D94A8"
+  brightYellow: "#F2B56B"
+  brightBlue: "#88C6C5"
+  brightMagenta: "#F99FB5"
+  brightCyan: "#F2B56B"
+  brightWhite: "#E4E1F0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 291
+  contrast:
+    fg: 88.7
+    black: 0
+    red: 46.6
+    green: 39.1
+    yellow: 68.1
+    blue: 64.9
+    magenta: 63.7
+    cyan: 68.1
+    white: 88.7
+    brightBlack: 46.8
+    brightRed: 46.6
+    brightGreen: 39.1
+    brightYellow: 68.1
+    brightBlue: 64.9
+    brightMagenta: 63.7
+    brightCyan: 68.1
+    brightWhite: 88.7

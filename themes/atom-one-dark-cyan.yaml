@@ -1,0 +1,49 @@
+name: "Atom One Dark Cyan"
+source:
+  marketplace_id: "kq996.atom-one-cyan"
+  version: "1.2.0"
+  installs: 300
+  author: "kq996"
+  repo: "https://github.com/keqing996/vscode-atom-one-cyan"
+  url: "https://marketplace.visualstudio.com/items?itemName=kq996.atom-one-cyan"
+colors:
+  bg: "#303845"
+  fg: "#ABB2BF"
+  black: "#303845"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#56B6C2"
+  magenta: "#C678DD"
+  cyan: "#61AFEF"
+  white: "#DCDFE4"
+  brightBlack: "#5C6370"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#56B6C2"
+  brightMagenta: "#C678DD"
+  brightCyan: "#61AFEF"
+  brightWhite: "#DCDFE4"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 260
+  contrast:
+    fg: 53.2
+    black: 0
+    red: 35.9
+    green: 56.1
+    yellow: 64.4
+    blue: 48.4
+    magenta: 39
+    cyan: 48.5
+    white: 79.9
+    brightBlack: 14.4
+    brightRed: 35.9
+    brightGreen: 56.1
+    brightYellow: 64.4
+    brightBlue: 48.4
+    brightMagenta: 39
+    brightCyan: 48.5
+    brightWhite: 79.9

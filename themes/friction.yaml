@@ -1,0 +1,49 @@
+name: "friction"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#26252D"
+  fg: "#7E7B99"
+  black: "#32303B"
+  red: "#BA0E2E"
+  green: "#8D89A5"
+  yellow: "#6AA7A7"
+  blue: "#C2BED6"
+  magenta: "#8D89A5"
+  cyan: "#6AA7A7"
+  white: "#8C89A4"
+  brightBlack: "#555365"
+  brightRed: "#F03E5F"
+  brightGreen: "#C5C3D1"
+  brightYellow: "#AACDCD"
+  brightBlue: "#FDFDFD"
+  brightMagenta: "#C5C3D1"
+  brightCyan: "#AACDCD"
+  brightWhite: "#B6B5C5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 291
+  contrast:
+    fg: 30.8
+    black: 0
+    red: 18.4
+    green: 37.6
+    yellow: 46.1
+    blue: 66
+    magenta: 37.6
+    cyan: 46.1
+    white: 37.4
+    brightBlack: 13
+    brightRed: 34.7
+    brightGreen: 68.2
+    brightYellow: 69.2
+    brightBlue: 103.5
+    brightMagenta: 68.2
+    brightCyan: 69.2
+    brightWhite: 60.1

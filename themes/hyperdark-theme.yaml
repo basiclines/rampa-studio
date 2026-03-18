@@ -1,0 +1,49 @@
+name: "Hyperdark Theme"
+source:
+  marketplace_id: "voidfaithnull.hypedown-theme"
+  version: "1.5.0"
+  installs: 3358
+  author: "wxgrzr"
+  repo: "https://github.com/wgrzr/hypedown-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=voidfaithnull.hypedown-theme"
+colors:
+  bg: "#191A1F"
+  fg: "#E8E6E0"
+  black: "#565454"
+  red: "#D1949E"
+  green: "#DFF7A9"
+  yellow: "#879071"
+  blue: "#747EA7"
+  magenta: "#6F6F6F"
+  cyan: "#8BA6A9"
+  white: "#8A8A8A"
+  brightBlack: "#3D3D3D"
+  brightRed: "#904E64"
+  brightGreen: "#D1FF69"
+  brightYellow: "#F5F543"
+  brightBlue: "#9EABDE"
+  brightMagenta: "#8A8A8A"
+  brightCyan: "#9ED8DE"
+  brightWhite: "#ABABAB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 90.3
+    black: 14.5
+    red: 51.8
+    green: 95.1
+    yellow: 39.3
+    blue: 33.2
+    magenta: 25.6
+    cyan: 50
+    white: 38.2
+    brightBlack: 0
+    brightRed: 20.4
+    brightGreen: 96
+    brightYellow: 95.3
+    brightBlue: 56.4
+    brightMagenta: 38.2
+    brightCyan: 75.5
+    brightWhite: 55.4

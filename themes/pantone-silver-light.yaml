@@ -1,0 +1,49 @@
+name: "Pantone Silver (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F8F8F8"
+  fg: "#151515"
+  black: "#151515"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F8F8F8"
+  brightBlack: "#8A8D8F"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 100.8
+    black: 100.8
+    red: 74.6
+    green: 58.2
+    yellow: 42.4
+    blue: 85.6
+    magenta: 81.8
+    cyan: 75
+    white: 0
+    brightBlack: 56.7
+    brightRed: 64.3
+    brightGreen: 45
+    brightYellow: 26.2
+    brightBlue: 51.7
+    brightMagenta: 63.3
+    brightCyan: 44.4
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "New Owl"
+source:
+  marketplace_id: "CarlosVQ.vscode-new-owl"
+  version: "2.0.0"
+  installs: 7334
+  author: "CarlosVQ"
+  repo: "https://github.com/carlosvq/vscode-new-owl"
+  url: "https://marketplace.visualstudio.com/items?itemName=CarlosVQ.vscode-new-owl"
+colors:
+  bg: "#0A1D2B"
+  fg: "#CDD3DE"
+  black: "#0D1A24"
+  red: "#EC5F67"
+  green: "#99C794"
+  yellow: "#FAC863"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#FFFFFF"
+  brightBlack: "#65737E"
+  brightRed: "#EC5F67"
+  brightGreen: "#99C794"
+  brightYellow: "#FAC863"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 243
+  contrast:
+    fg: 78
+    black: 0
+    red: 40.8
+    green: 64.3
+    yellow: 76.2
+    blue: 43.6
+    magenta: 51.5
+    cyan: 52.5
+    white: 106.3
+    brightBlack: 26.3
+    brightRed: 40.8
+    brightGreen: 64.3
+    brightYellow: 76.2
+    brightBlue: 43.6
+    brightMagenta: 51.5
+    brightCyan: 52.5
+    brightWhite: 106.3

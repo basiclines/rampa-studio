@@ -1,0 +1,49 @@
+name: "midnight-color-theme"
+source:
+  marketplace_id: "wavebeem.theme-unoduetre"
+  version: "5.11.1"
+  installs: 4290
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/vscode-theme-unoduetre"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.theme-unoduetre"
+colors:
+  bg: "#2C1F47"
+  fg: "#DFD1FA"
+  black: "#333333"
+  red: "#EB7A7E"
+  green: "#88DD9F"
+  yellow: "#EDC3A6"
+  blue: "#AC9DF1"
+  magenta: "#ED9CE3"
+  cyan: "#83E5EC"
+  white: "#EEEBF4"
+  brightBlack: "#333333"
+  brightRed: "#EB7A7E"
+  brightGreen: "#88DD9F"
+  brightYellow: "#EDC3A6"
+  brightBlue: "#AC9DF1"
+  brightMagenta: "#ED9CE3"
+  brightCyan: "#83E5EC"
+  brightWhite: "#EEEBF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 296
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 45.8
+    green: 71.7
+    yellow: 71.9
+    blue: 52.1
+    magenta: 60.4
+    cyan: 78.3
+    white: 92.4
+    brightBlack: 0
+    brightRed: 45.8
+    brightGreen: 71.7
+    brightYellow: 71.9
+    brightBlue: 52.1
+    brightMagenta: 60.4
+    brightCyan: 78.3
+    brightWhite: 92.4

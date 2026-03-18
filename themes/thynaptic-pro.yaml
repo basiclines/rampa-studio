@@ -1,0 +1,49 @@
+name: "Thynaptic Pro"
+source:
+  marketplace_id: "Thynaptic.thynaptic-color-themes"
+  version: "0.4.0"
+  installs: 26
+  author: "Thynaptic"
+  repo: "https://github.com/cassianwolfe/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Thynaptic.thynaptic-color-themes"
+colors:
+  bg: "#09090B"
+  fg: "#FAFAFA"
+  black: "#09090B"
+  red: "#EF4444"
+  green: "#10B981"
+  yellow: "#F59E0B"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#FAFAFA"
+  brightBlack: "#52525B"
+  brightRed: "#F87171"
+  brightGreen: "#34D399"
+  brightYellow: "#FBBF24"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 37.7
+    green: 52.7
+    yellow: 60.3
+    blue: 37.7
+    magenta: 35.3
+    cyan: 54.8
+    white: 104.5
+    brightBlack: 15.1
+    brightRed: 49
+    brightGreen: 66.1
+    brightYellow: 73.6
+    brightBlue: 52.3
+    brightMagenta: 50.6
+    brightCyan: 69.5
+    brightWhite: 104.5

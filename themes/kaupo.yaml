@@ -1,0 +1,49 @@
+name: "kaupo"
+source:
+  marketplace_id: "sc-mitton.kaupo"
+  version: "0.0.3"
+  installs: 124
+  author: "sc-mitton"
+  repo: "https://github.com/sc-mitton/kaupo"
+  url: "https://marketplace.visualstudio.com/items?itemName=sc-mitton.kaupo"
+colors:
+  bg: "#2A2A28"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#DA655F"
+  brightGreen: "#BCFF8C"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#A1D6FE"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 21.8
+    green: 50.2
+    yellow: 54.9
+    blue: 31.8
+    magenta: 29.4
+    cyan: 47.6
+    white: 85.7
+    brightBlack: 19.2
+    brightRed: 35.9
+    brightGreen: 92
+    brightYellow: 81.1
+    brightBlue: 47.1
+    brightMagenta: 43.7
+    brightCyan: 74.1
+    brightWhite: 99.2

@@ -1,0 +1,49 @@
+name: "Webstorm IntelliJ Darcula Theme"
+source:
+  marketplace_id: "xr0master.webstorm-intellij-darcula-theme"
+  version: "1.1.1"
+  installs: 131586
+  author: "Sergey Khomushin"
+  repo: "https://github.com/xr0master/vscode-intellij-darcula-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xr0master.webstorm-intellij-darcula-theme"
+colors:
+  bg: "#2B2B2B"
+  fg: "#A9B7C6"
+  black: "#FFFFFF"
+  red: "#FF6B68"
+  green: "#A8C023"
+  yellow: "#D6BF55"
+  blue: "#5394EC"
+  magenta: "#AE8ABE"
+  cyan: "#299999"
+  white: "#1F1F1F"
+  brightBlack: "#FFFFFF"
+  brightRed: "#FF8785"
+  brightGreen: "#A8C023"
+  brightYellow: "#FFFF00"
+  brightBlue: "#7EAEF1"
+  brightMagenta: "#FF99FF"
+  brightCyan: "#6CDADA"
+  brightWhite: "#1F1F1F"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 58.5
+    black: 103.8
+    red: 45
+    green: 58.4
+    yellow: 64.2
+    blue: 40.3
+    magenta: 42.1
+    cyan: 36.1
+    white: 0
+    brightBlack: 103.8
+    brightRed: 52.7
+    brightGreen: 58.4
+    brightYellow: 98.7
+    brightBlue: 53.2
+    brightMagenta: 63.5
+    brightCyan: 70.1
+    brightWhite: 0

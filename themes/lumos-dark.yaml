@@ -1,0 +1,49 @@
+name: "Lumos Dark"
+source:
+  marketplace_id: "nyxb.theme-lumos"
+  version: "0.0.12"
+  installs: 874
+  author: "nyxb"
+  repo: "https://github.com/nyxb/vscode-theme-lumos"
+  url: "https://marketplace.visualstudio.com/items?itemName=nyxb.theme-lumos"
+colors:
+  bg: "#121212"
+  fg: "#DBD7CA"
+  black: "#393A34"
+  red: "#ED4245"
+  green: "#14F195"
+  yellow: "#FEE75C"
+  blue: "#5865F2"
+  magenta: "#EB459E"
+  cyan: "#00FFFF"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#ED4245"
+  brightGreen: "#14F195"
+  brightYellow: "#FEE75C"
+  brightBlue: "#5865F2"
+  brightMagenta: "#EB459E"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 81.7
+    black: 0
+    red: 36.6
+    green: 80.2
+    yellow: 91.1
+    blue: 29.6
+    magenta: 39
+    cyan: 91.6
+    white: 81.7
+    brightBlack: 30
+    brightRed: 36.6
+    brightGreen: 80.2
+    brightYellow: 91.1
+    brightBlue: 29.6
+    brightMagenta: 39
+    brightCyan: 91.6
+    brightWhite: 107.3

@@ -1,0 +1,49 @@
+name: "One Dark Modern Pro"
+source:
+  marketplace_id: "aleksa-codes.one-dark-modern-pro"
+  version: "1.0.10"
+  installs: 2141
+  author: "aleksa-codes"
+  repo: "https://github.com/aleksa-codes/one-dark-modern-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=aleksa-codes.one-dark-modern-pro"
+colors:
+  bg: "#1F1F1F"
+  fg: "#CCCCCC"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 73.7
+    black: 7.9
+    red: 35.7
+    green: 59.4
+    yellow: 47.6
+    blue: 48.7
+    magenta: 38.1
+    cyan: 51.5
+    white: 82.1
+    brightBlack: 14.5
+    brightRed: 45.1
+    brightGreen: 75.8
+    brightYellow: 60.3
+    brightBlue: 62.8
+    brightMagenta: 49.3
+    brightCyan: 66.8
+    brightWhite: 89.7

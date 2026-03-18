@@ -1,0 +1,49 @@
+name: "pastel-light"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#FFFFFF"
+  fg: "#222222"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#9474A9"
+  yellow: "#04C4A5"
+  blue: "#C56C6C"
+  magenta: "#C5906C"
+  cyan: "#E2E060"
+  white: "#2F2F2F"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#C5B3D0"
+  brightYellow: "#33FBDB"
+  brightBlue: "#E2B5B5"
+  brightMagenta: "#E2C7B5"
+  brightCyan: "#F2F1B6"
+  brightWhite: "#555555"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.9
+    black: 0
+    red: 80.3
+    green: 66.7
+    yellow: 43.1
+    blue: 63.9
+    magenta: 53.4
+    cyan: 19
+    white: 99.8
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 37.7
+    brightYellow: 15.1
+    brightBlue: 34.1
+    brightMagenta: 27.3
+    brightCyan: 7.8
+    brightWhite: 85.9

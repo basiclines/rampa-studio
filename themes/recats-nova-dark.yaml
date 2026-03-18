@@ -1,0 +1,49 @@
+name: "recats-nova-dark"
+source:
+  marketplace_id: "senelway.recats-classic-dark"
+  version: "0.0.11"
+  installs: 638
+  author: "senelway"
+  repo: "https://github.com/recats/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=senelway.recats-classic-dark"
+colors:
+  bg: "#14161E"
+  fg: "#F2F4F4"
+  black: "#14161E"
+  red: "#CE606B"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#77B1EB"
+  magenta: "#B48EAD"
+  cyan: "#61C5E6"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#CE606B"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#77B1EB"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#A7AAE0"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 274
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 35.6
+    green: 61.7
+    yellow: 76.4
+    blue: 56.6
+    magenta: 46.5
+    cyan: 63.6
+    white: 92.4
+    brightBlack: 15.5
+    brightRed: 35.6
+    brightGreen: 61.7
+    brightYellow: 76.4
+    brightBlue: 56.6
+    brightMagenta: 46.5
+    brightCyan: 57.5
+    brightWhite: 96.3

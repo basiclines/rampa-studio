@@ -1,0 +1,49 @@
+name: "Thynaptic Dark (Base)"
+source:
+  marketplace_id: "Thynaptic.thynaptic-color-themes"
+  version: "0.4.0"
+  installs: 26
+  author: "Thynaptic"
+  repo: "https://github.com/cassianwolfe/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Thynaptic.thynaptic-color-themes"
+colors:
+  bg: "#0A0A0A"
+  fg: "#FAFAFA"
+  black: "#0A0A0A"
+  red: "#FF2056"
+  green: "#FAFAFA"
+  yellow: "#FE9A00"
+  blue: "#FAFAFA"
+  magenta: "#FAFAFA"
+  cyan: "#A1A1A1"
+  white: "#FAFAFA"
+  brightBlack: "#262626"
+  brightRed: "#FF2056"
+  brightGreen: "#FAFAFA"
+  brightYellow: "#FE9A00"
+  brightBlue: "#FAFAFA"
+  brightMagenta: "#FAFAFA"
+  brightCyan: "#A1A1A1"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 104.4
+    black: 0
+    red: 38.7
+    green: 104.4
+    yellow: 60.7
+    blue: 104.4
+    magenta: 104.4
+    cyan: 51.2
+    white: 104.4
+    brightBlack: 0
+    brightRed: 38.7
+    brightGreen: 104.4
+    brightYellow: 60.7
+    brightBlue: 104.4
+    brightMagenta: 104.4
+    brightCyan: 51.2
+    brightWhite: 104.4

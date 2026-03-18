@@ -1,0 +1,49 @@
+name: "WL-Electric Sunset"
+source:
+  marketplace_id: "WatkinsLabs.electric-sunset"
+  version: "1.0.1"
+  installs: 45
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.electric-sunset"
+colors:
+  bg: "#311D4E"
+  fg: "#FFAB29"
+  black: "#000000"
+  red: "#D8000C"
+  green: "#3F7E00"
+  yellow: "#FFAA00"
+  blue: "#FF6100"
+  magenta: "#FF8F00"
+  cyan: "#FF6100"
+  white: "#FFAB29"
+  brightBlack: "#666666"
+  brightRed: "#D8000C"
+  brightGreen: "#3F7E00"
+  brightYellow: "#FFAA00"
+  brightBlue: "#FF6100"
+  brightMagenta: "#FF8F00"
+  brightCyan: "#FF6100"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 300
+  contrast:
+    fg: 63.4
+    black: 0
+    red: 24.4
+    green: 23.9
+    yellow: 62.9
+    blue: 42.4
+    magenta: 54
+    cyan: 42.4
+    white: 63.4
+    brightBlack: 19.5
+    brightRed: 24.4
+    brightGreen: 23.9
+    brightYellow: 62.9
+    brightBlue: 42.4
+    brightMagenta: 54
+    brightCyan: 42.4
+    brightWhite: 104.3

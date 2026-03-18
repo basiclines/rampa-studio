@@ -1,0 +1,49 @@
+name: "sunbather"
+source:
+  marketplace_id: "jpokan.vscode-sunbather"
+  version: "0.0.4"
+  installs: 569
+  author: "jpokan"
+  repo: "https://github.com/jpokan/vscode-sunbather"
+  url: "https://marketplace.visualstudio.com/items?itemName=jpokan.vscode-sunbather"
+colors:
+  bg: "#080808"
+  fg: "#C6C6C6"
+  black: "#929292"
+  red: "#E27373"
+  green: "#94B979"
+  yellow: "#FFBA7B"
+  blue: "#97BEDC"
+  magenta: "#E1C0FA"
+  cyan: "#00988E"
+  white: "#DEDEDE"
+  brightBlack: "#BDBDBD"
+  brightRed: "#FFA1A1"
+  brightGreen: "#BDDEAB"
+  brightYellow: "#FFDCA0"
+  brightBlue: "#B1D8F6"
+  brightMagenta: "#FBDAFF"
+  brightCyan: "#1AB2A8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 72
+    black: 43.5
+    red: 45.1
+    green: 58.5
+    yellow: 73.4
+    blue: 64.6
+    magenta: 75.8
+    cyan: 38.9
+    white: 86.6
+    brightBlack: 66.8
+    brightRed: 65.5
+    brightGreen: 80.6
+    brightYellow: 88.2
+    brightBlue: 79.8
+    brightMagenta: 90.6
+    brightCyan: 51
+    brightWhite: 107.8

@@ -1,0 +1,49 @@
+name: "Pinky Promise Dark"
+source:
+  marketplace_id: "ZubairIbnZamir.pinky-promise-theme"
+  version: "1.0.6"
+  installs: 458
+  author: "Zubair Ibn Zamir"
+  repo: "https://github.com/2u841r/pinky-promise-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ZubairIbnZamir.pinky-promise-theme"
+colors:
+  bg: "#1D1921"
+  fg: "#D2C7E1"
+  black: "#7A6483"
+  red: "#F888B5"
+  green: "#96D0BB"
+  yellow: "#FFBC9E"
+  blue: "#A2DBFF"
+  magenta: "#BAA4ED"
+  cyan: "#96D0BB"
+  white: "#D2C7E1"
+  brightBlack: "#7A6483"
+  brightRed: "#F888B5"
+  brightGreen: "#96D0BB"
+  brightYellow: "#FFBC9E"
+  brightBlue: "#A2DBFF"
+  brightMagenta: "#E8A5E4"
+  brightCyan: "#96D0BB"
+  brightWhite: "#F2EBFA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 308
+  contrast:
+    fg: 73.9
+    black: 24.1
+    red: 55.9
+    green: 69.6
+    yellow: 73.8
+    blue: 78.9
+    magenta: 57.9
+    cyan: 69.6
+    white: 73.9
+    brightBlack: 24.1
+    brightRed: 55.9
+    brightGreen: 69.6
+    brightYellow: 73.8
+    brightBlue: 78.9
+    brightMagenta: 64.4
+    brightCyan: 69.6
+    brightWhite: 95.1

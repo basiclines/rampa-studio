@@ -1,0 +1,49 @@
+name: "Vegas Night Details Theme"
+source:
+  marketplace_id: "robpco.vegas-night-details-theme"
+  version: "0.2.2"
+  installs: 1016
+  author: "robpco"
+  repo: "https://github.com/robertpeteuil/vegas-night-details-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=robpco.vegas-night-details-theme"
+colors:
+  bg: "#131313"
+  fg: "#CCCCCC"
+  black: "#131313"
+  red: "#C91B00"
+  green: "#48C248"
+  yellow: "#C7C400"
+  blue: "#5A77F5"
+  magenta: "#DA9ED9"
+  cyan: "#00C5C7"
+  white: "#CCCCCC"
+  brightBlack: "#484848"
+  brightRed: "#FF6E67"
+  brightGreen: "#6DD872"
+  brightYellow: "#FFFC67"
+  brightBlue: "#6871FF"
+  brightMagenta: "#CB63CB"
+  brightCyan: "#60FDFF"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 75
+    black: 0
+    red: 24.4
+    green: 56.3
+    yellow: 67.2
+    blue: 35
+    magenta: 60
+    cyan: 60.3
+    white: 75
+    brightBlack: 10.6
+    brightRed: 49
+    brightGreen: 69.1
+    brightYellow: 101.2
+    brightBlue: 35
+    brightMagenta: 40.1
+    brightCyan: 92.1
+    brightWhite: 82.3

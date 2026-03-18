@@ -1,0 +1,49 @@
+name: "Lucid Labs Light"
+source:
+  marketplace_id: "lucidlabs.lucid-labs-theme"
+  version: "1.6.0"
+  installs: 144
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.lucid-labs-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#271D3B"
+  black: "#101820"
+  red: "#DC3545"
+  green: "#28A745"
+  yellow: "#B8860B"
+  blue: "#5A3D89"
+  magenta: "#9B59B6"
+  cyan: "#17A2B8"
+  white: "#FFFFFF"
+  brightBlack: "#6C757D"
+  brightRed: "#E74C3C"
+  brightGreen: "#2ECC71"
+  brightYellow: "#F39C12"
+  brightBlue: "#7454B3"
+  brightMagenta: "#8E44AD"
+  brightCyan: "#339999"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.7
+    black: 104.6
+    red: 69.9
+    green: 57.9
+    yellow: 59.6
+    blue: 89.1
+    magenta: 72.1
+    cyan: 56.8
+    white: 0
+    brightBlack: 72.6
+    brightRed: 64.6
+    brightGreen: 40.6
+    brightYellow: 42.8
+    brightBlue: 78.4
+    brightMagenta: 78.8
+    brightCyan: 61.3
+    brightWhite: 0

@@ -1,0 +1,49 @@
+name: "Owokai Hard"
+source:
+  marketplace_id: "fluffyfen.owokai-theme"
+  version: "1.0.3"
+  installs: 871
+  author: "fluffyfen"
+  repo: "https://github.com/toiletbril/Owokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=fluffyfen.owokai-theme"
+colors:
+  bg: "#161618"
+  fg: "#DDDDDD"
+  black: "#333333"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D7BC21"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#474038"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FAE62F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 85.1
+    black: 0
+    red: 25.3
+    green: 43
+    yellow: 65.8
+    blue: 31.7
+    magenta: 31.8
+    cyan: 42
+    white: 47.3
+    brightBlack: 7.9
+    brightRed: 40.2
+    brightGreen: 61.3
+    brightYellow: 89.3
+    brightBlue: 48.7
+    brightMagenta: 48
+    brightCyan: 60.2
+    brightWhite: 84.5

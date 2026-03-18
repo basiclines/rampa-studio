@@ -1,0 +1,49 @@
+name: "Tailwind Moon"
+source:
+  marketplace_id: "shadowblood.tailwind-moon"
+  version: "3.0.2"
+  installs: 43876
+  author: "Lucia Lovelace"
+  repo: "https://github.com/luciascarlet/tailwind-moon-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=shadowblood.tailwind-moon"
+colors:
+  bg: "#1F2937"
+  fg: "#E5E7EB"
+  black: "#000000"
+  red: "#C53030"
+  green: "#34D399"
+  yellow: "#D69E2E"
+  blue: "#60A5FA"
+  magenta: "#60A5FA"
+  cyan: "#319795"
+  white: "#374151"
+  brightBlack: "#4A5568"
+  brightRed: "#E53E3E"
+  brightGreen: "#48BB78"
+  brightYellow: "#ECC94B"
+  brightBlue: "#4299E1"
+  brightMagenta: "#ED64A6"
+  brightCyan: "#38B2AC"
+  brightWhite: "#374151"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 257
+  contrast:
+    fg: 88.7
+    black: 0
+    red: 22.3
+    green: 62.6
+    yellow: 51.6
+    blue: 48.8
+    magenta: 48.8
+    cyan: 35.8
+    white: 0
+    brightBlack: 12.4
+    brightRed: 31.2
+    brightGreen: 51
+    brightYellow: 72.1
+    brightBlue: 41.2
+    brightMagenta: 42.1
+    brightCyan: 48.3
+    brightWhite: 0

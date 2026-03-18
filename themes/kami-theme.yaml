@@ -1,0 +1,49 @@
+name: "kami theme"
+source:
+  marketplace_id: "Ruhan.kami-theme"
+  version: "0.0.1"
+  installs: 109
+  author: "Ruhan"
+  repo: "https://github.com/Ruhannn/kami-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ruhan.kami-theme"
+colors:
+  bg: "#1B141F"
+  fg: "#D4D4D4"
+  black: "#51576D"
+  red: "#71ADE9"
+  green: "#AB8CAE"
+  yellow: "#E59DB1"
+  blue: "#9EA0D3"
+  magenta: "#C4A7E7"
+  cyan: "#E1B4CE"
+  white: "#CEDAEB"
+  brightBlack: "#6E6A86"
+  brightRed: "#71ADE9"
+  brightGreen: "#9CCFD8"
+  brightYellow: "#E59DB1"
+  brightBlue: "#9EA0D3"
+  brightMagenta: "#C4A7E7"
+  brightCyan: "#EBBCBA"
+  brightWhite: "#CEDAEB"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 313
+  contrast:
+    fg: 79.5
+    black: 16.2
+    red: 54.5
+    green: 44.7
+    yellow: 59.2
+    blue: 52
+    magenta: 60.4
+    cyan: 68.1
+    white: 82.5
+    brightBlack: 25.2
+    brightRed: 54.5
+    brightGreen: 71.4
+    brightYellow: 59.2
+    brightBlue: 52
+    brightMagenta: 60.4
+    brightCyan: 71.8
+    brightWhite: 82.5

@@ -1,0 +1,49 @@
+name: "Pure Black"
+source:
+  marketplace_id: "SscSPs.pure-black"
+  version: "0.1.0"
+  installs: 4230
+  author: "Sahil Soni"
+  repo: "https://github.com/SscSPs/pure-black-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SscSPs.pure-black"
+colors:
+  bg: "#000000"
+  fg: "#DFDFDF"
+  black: "#1B2025"
+  red: "#BA0E2E"
+  green: "#00AE88"
+  yellow: "#C4C701"
+  blue: "#007AAE"
+  magenta: "#9100AE"
+  cyan: "#0490A0"
+  white: "#C3C3C3"
+  brightBlack: "#3B4651"
+  brightRed: "#F03E5F"
+  brightGreen: "#00C200"
+  brightYellow: "#E9DA57"
+  brightBlue: "#526AD4"
+  brightMagenta: "#C573EB"
+  brightCyan: "#00EEFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 21.5
+    green: 48.1
+    yellow: 68.7
+    blue: 29.2
+    magenta: 18.4
+    cyan: 36.6
+    white: 70.4
+    brightBlack: 10.1
+    brightRed: 37.8
+    brightGreen: 55.5
+    brightYellow: 82.6
+    brightBlue: 28.7
+    brightMagenta: 45.6
+    brightCyan: 83.5
+    brightWhite: 107.9

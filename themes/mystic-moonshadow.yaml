@@ -1,0 +1,49 @@
+name: "Mystic-MoonShadow"
+source:
+  marketplace_id: "TechArtem.mystic-moonshadow"
+  version: "1.0.9"
+  installs: 715
+  author: "TechArtem"
+  repo: "https://github.com/Rabbitarts/mystic-moonshadow-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TechArtem.mystic-moonshadow"
+colors:
+  bg: "#1A2035"
+  fg: "#8795A3"
+  black: "#1E1E30"
+  red: "#D74E4E"
+  green: "#69BB7B"
+  yellow: "#E7BE67"
+  blue: "#6F9ED9"
+  magenta: "#C586C0"
+  cyan: "#56B6C2"
+  white: "#C7C7D8"
+  brightBlack: "#696980"
+  brightRed: "#E87474"
+  brightGreen: "#9EC49E"
+  brightYellow: "#F0C674"
+  brightBlue: "#81A2BE"
+  brightMagenta: "#B294BB"
+  brightCyan: "#8ABEB7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 271
+  contrast:
+    fg: 42
+    black: 0
+    red: 31.9
+    green: 53.9
+    yellow: 68.4
+    blue: 46.1
+    magenta: 46
+    cyan: 53.3
+    white: 71.2
+    brightBlack: 22.9
+    brightRed: 44.3
+    brightGreen: 63
+    brightYellow: 73.3
+    brightBlue: 47.6
+    brightMagenta: 47.6
+    brightCyan: 59.6
+    brightWhite: 105.6

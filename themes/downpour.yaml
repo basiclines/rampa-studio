@@ -1,0 +1,49 @@
+name: "downpour"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#2C323D"
+  fg: "#D6DBDB"
+  black: "#373E4C"
+  red: "#BA0E2E"
+  green: "#BC4331"
+  yellow: "#908BBC"
+  blue: "#91B9C9"
+  magenta: "#ABAAB7"
+  cyan: "#908BBC"
+  white: "#E4E7E7"
+  brightBlack: "#576378"
+  brightRed: "#F03E5F"
+  brightGreen: "#DC8477"
+  brightYellow: "#CECCE1"
+  brightBlue: "#D5E5EB"
+  brightMagenta: "#E2E1E6"
+  brightCyan: "#CECCE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 263
+  contrast:
+    fg: 78.6
+    black: 0
+    red: 16
+    green: 20.9
+    yellow: 37.3
+    blue: 55.6
+    magenta: 51.4
+    cyan: 37.3
+    white: 86.3
+    brightBlack: 16
+    brightRed: 32.3
+    brightGreen: 43.3
+    brightYellow: 71.4
+    brightBlue: 83.7
+    brightMagenta: 83.3
+    brightCyan: 71.4
+    brightWhite: 102.3

@@ -1,0 +1,49 @@
+name: "Night Dragon"
+source:
+  marketplace_id: "DarkAlchemy.darkalchemy"
+  version: "0.0.3"
+  installs: 576
+  author: "Dark Alchemy"
+  repo: "https://github.com/dark-alchemy/darkalchemy-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkAlchemy.darkalchemy"
+colors:
+  bg: "#151824"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#DA8548"
+  green: "#23D18B"
+  yellow: "#ECBE7B"
+  blue: "#00BFF8"
+  magenta: "#BC3FBC"
+  cyan: "#46D9FF"
+  white: "#E5E5E5"
+  brightBlack: "#CFCFCF"
+  brightRed: "#DA8548"
+  brightGreen: "#23D18B"
+  brightYellow: "#ECBE7B"
+  brightBlue: "#00BFF8"
+  brightMagenta: "#D670D6"
+  brightCyan: "#46D9FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 273
+  contrast:
+    fg: 106.7
+    black: 0
+    red: 46.7
+    green: 63.4
+    yellow: 70.7
+    blue: 59.8
+    magenta: 29.6
+    cyan: 72.9
+    white: 89.8
+    brightBlack: 76.3
+    brightRed: 46.7
+    brightGreen: 63.4
+    brightYellow: 70.7
+    brightBlue: 59.8
+    brightMagenta: 45.2
+    brightCyan: 72.9
+    brightWhite: 89.8

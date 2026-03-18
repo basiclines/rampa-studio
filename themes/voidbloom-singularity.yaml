@@ -1,0 +1,49 @@
+name: "Voidbloom Singularity"
+source:
+  marketplace_id: "emery2547.voidbloom"
+  version: "0.1.0"
+  installs: 61
+  author: "emery"
+  repo: "https://github.com/r4chl/voidbloom"
+  url: "https://marketplace.visualstudio.com/items?itemName=emery2547.voidbloom"
+colors:
+  bg: "#1E172B"
+  fg: "#F1EFF5"
+  black: "#AFA4C1"
+  red: "#F27C92"
+  green: "#A3E2A4"
+  yellow: "#F6D37E"
+  blue: "#9DACFF"
+  magenta: "#F59BCA"
+  cyan: "#58D9F4"
+  white: "#382A4C"
+  brightBlack: "#7F6D99"
+  brightRed: "#E24D6A"
+  brightGreen: "#7AD383"
+  brightYellow: "#F4C15D"
+  brightBlue: "#718CFF"
+  brightMagenta: "#F06EB5"
+  brightCyan: "#25BFEA"
+  brightWhite: "#2F2240"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 299
+  contrast:
+    fg: 96.5
+    black: 54.1
+    red: 50.1
+    green: 78.3
+    yellow: 80.8
+    blue: 58.7
+    magenta: 62
+    cyan: 72.6
+    white: 0
+    brightBlack: 28.2
+    brightRed: 35.6
+    brightGreen: 67.1
+    brightYellow: 72.4
+    brightBlue: 43.3
+    brightMagenta: 47.7
+    brightCyan: 58.9
+    brightWhite: 0

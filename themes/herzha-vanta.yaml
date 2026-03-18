@@ -1,0 +1,49 @@
+name: "Herzha Vanta"
+source:
+  marketplace_id: "madhanmaaz.vscode-herzha-theme"
+  version: "0.0.1"
+  installs: 17
+  author: "madhanmaaz"
+  repo: "https://github.com/madhanmaaz/herzha-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=madhanmaaz.vscode-herzha-theme"
+colors:
+  bg: "#0A0A0D"
+  fg: "#A9B1D6"
+  black: "#0A0A0D"
+  red: "#FB899E"
+  green: "#85D0B7"
+  yellow: "#F2C98B"
+  blue: "#7DCFFF"
+  magenta: "#A779F3"
+  cyan: "#03BDE5"
+  white: "#A9B1D6"
+  brightBlack: "#5E5E7B"
+  brightRed: "#FF9FB1"
+  brightGreen: "#95DFC6"
+  brightYellow: "#F5D08A"
+  brightBlue: "#87A1FF"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#8BD5FF"
+  brightWhite: "#EEF0F7"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 60.7
+    black: 0
+    red: 57.2
+    green: 69.3
+    yellow: 77.5
+    blue: 71.9
+    magenta: 43.3
+    cyan: 58.7
+    white: 60.7
+    brightBlack: 20.6
+    brightRed: 65.4
+    brightGreen: 78.2
+    brightYellow: 80.9
+    brightBlue: 53.8
+    brightMagenta: 56.4
+    brightCyan: 75.6
+    brightWhite: 98

@@ -1,0 +1,49 @@
+name: "Refined (Night Owl)"
+source:
+  marketplace_id: "itsjonq.dark-refined"
+  version: "0.0.11"
+  installs: 10801
+  author: "itsjonq"
+  repo: "https://github.com/itsjonq/dark-refined"
+  url: "https://marketplace.visualstudio.com/items?itemName=itsjonq.dark-refined"
+colors:
+  bg: "#011627"
+  fg: "#D6DEEB"
+  black: "#011627"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#ECC48D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 244
+  contrast:
+    fg: 85.3
+    black: 0
+    red: 39.4
+    green: 67.3
+    yellow: 73.8
+    blue: 56
+    magenta: 53.8
+    cyan: 59.8
+    white: 107
+    brightBlack: 15.7
+    brightRed: 39.4
+    brightGreen: 67.3
+    brightYellow: 93.8
+    brightBlue: 56
+    brightMagenta: 53.8
+    brightCyan: 74.1
+    brightWhite: 107

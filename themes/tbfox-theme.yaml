@@ -1,0 +1,49 @@
+name: "TBFox Theme"
+source:
+  marketplace_id: "TristanMarkBarrow.tbfox-theme"
+  version: "0.0.1"
+  installs: 44
+  author: "TristanMarkBarrow"
+  repo: "https://github.com/tristanbarrow/vscode-tbfox-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TristanMarkBarrow.tbfox-theme"
+colors:
+  bg: "#131615"
+  fg: "#E5E5E0"
+  black: "#0F1211"
+  red: "#EA7A7A"
+  green: "#7CC896"
+  yellow: "#E4C574"
+  blue: "#6FA8D4"
+  magenta: "#E59A74"
+  cyan: "#4DD4BF"
+  white: "#E5E5E0"
+  brightBlack: "#6B7280"
+  brightRed: "#F199A1"
+  brightGreen: "#9DD6B3"
+  brightYellow: "#F2D999"
+  brightBlue: "#95C2E7"
+  brightMagenta: "#F2C199"
+  brightCyan: "#7DE4D1"
+  brightWhite: "#F8F8F3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 89.9
+    black: 0
+    red: 47.9
+    green: 63.2
+    yellow: 72.5
+    blue: 51.2
+    magenta: 56.5
+    cyan: 67.9
+    white: 89.9
+    brightBlack: 27.3
+    brightRed: 59.6
+    brightGreen: 73.2
+    brightYellow: 83.9
+    brightBlue: 66
+    brightMagenta: 73.9
+    brightCyan: 78.6
+    brightWhite: 102.2

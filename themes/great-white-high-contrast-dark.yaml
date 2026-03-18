@@ -1,0 +1,49 @@
+name: "Great White (High Contrast Dark)"
+source:
+  marketplace_id: "shark-labs.shark-labs-great-white-theme"
+  version: "0.6.3"
+  installs: 21
+  author: "theSharkArtist"
+  repo: "https://github.com/johnsirmon/shark-artist-great-white-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shark-labs.shark-labs-great-white-theme"
+colors:
+  bg: "#0B0F12"
+  fg: "#F6FBFF"
+  black: "#1B2229"
+  red: "#C44F5F"
+  green: "#4DAAAA"
+  yellow: "#D9A441"
+  blue: "#5D8FA8"
+  magenta: "#C96A7A"
+  cyan: "#9FC7D8"
+  white: "#D8E8EF"
+  brightBlack: "#2A3840"
+  brightRed: "#D56A7A"
+  brightGreen: "#5DBFBF"
+  brightYellow: "#E4B754"
+  brightBlue: "#6EA6C0"
+  brightMagenta: "#D07D8C"
+  brightCyan: "#A4DFF4"
+  brightWhite: "#EDF4F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 104.4
+    black: 0
+    red: 30.5
+    green: 48.6
+    yellow: 57.6
+    blue: 38.6
+    magenta: 38
+    cyan: 68.7
+    white: 90.8
+    brightBlack: 0
+    brightRed: 40.3
+    brightGreen: 59.4
+    brightYellow: 66.8
+    brightBlue: 49.8
+    brightMagenta: 44.9
+    brightCyan: 81.4
+    brightWhite: 99.5

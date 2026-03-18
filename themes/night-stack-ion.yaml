@@ -1,0 +1,49 @@
+name: "Night-Stack Ion"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+colors:
+  bg: "#030908"
+  fg: "#E6FFF7"
+  black: "#0F201C"
+  red: "#00F5A0"
+  green: "#A3FF12"
+  yellow: "#39FF14"
+  blue: "#00C27A"
+  magenta: "#00F5A0"
+  cyan: "#00FFD5"
+  white: "#E6FFF7"
+  brightBlack: "#0F201C"
+  brightRed: "#00F5A0"
+  brightGreen: "#A3FF12"
+  brightYellow: "#39FF14"
+  brightBlue: "#00C27A"
+  brightMagenta: "#00F5A0"
+  brightCyan: "#00FFD5"
+  brightWhite: "#E6FFF7"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 185
+  contrast:
+    fg: 104.1
+    black: 0
+    red: 83
+    green: 92.1
+    yellow: 86.9
+    blue: 56.7
+    magenta: 83
+    cyan: 90.1
+    white: 104.1
+    brightBlack: 0
+    brightRed: 83
+    brightGreen: 92.1
+    brightYellow: 86.9
+    brightBlue: 56.7
+    brightMagenta: 83
+    brightCyan: 90.1
+    brightWhite: 104.1

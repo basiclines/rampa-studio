@@ -1,0 +1,49 @@
+name: "Nothing Light"
+source:
+  marketplace_id: "nothing-design.nothing-theme"
+  version: "1.0.0"
+  installs: 367
+  author: "nothing-design"
+  repo: "https://github.com/nothing-design/nothing-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nothing-design.nothing-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#2A2A2A"
+  black: "#000000"
+  red: "#666666"
+  green: "#333333"
+  yellow: "#222222"
+  blue: "#444444"
+  magenta: "#555555"
+  cyan: "#333333"
+  white: "#000000"
+  brightBlack: "#666666"
+  brightRed: "#444444"
+  brightGreen: "#222222"
+  brightYellow: "#111111"
+  brightBlue: "#333333"
+  brightMagenta: "#333333"
+  brightCyan: "#222222"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 101.1
+    black: 106
+    red: 78.8
+    green: 98.7
+    yellow: 102.9
+    blue: 92.6
+    magenta: 85.9
+    cyan: 98.7
+    white: 106
+    brightBlack: 78.8
+    brightRed: 92.6
+    brightGreen: 102.9
+    brightYellow: 105.4
+    brightBlue: 98.7
+    brightMagenta: 98.7
+    brightCyan: 102.9
+    brightWhite: 106

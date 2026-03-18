@@ -1,0 +1,49 @@
+name: "i3 - Aurora X - Custom"
+source:
+  marketplace_id: "i3acksp4ce.tokyo-night-default-dark"
+  version: "0.6.62"
+  installs: 6247
+  author: "i3acksp4ce"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=i3acksp4ce.tokyo-night-default-dark"
+colors:
+  bg: "#141C24"
+  fg: "#F0F4F7"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#3FB950"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 249
+  contrast:
+    fg: 98.7
+    black: 12.1
+    red: 51.6
+    green: 51.1
+    yellow: 51.2
+    blue: 51.2
+    magenta: 51.2
+    cyan: 60.4
+    white: 63
+    brightBlack: 28.3
+    brightRed: 63.8
+    brightGreen: 64.5
+    brightYellow: 63.7
+    brightBlue: 63.7
+    brightMagenta: 63.6
+    brightCyan: 68.9
+    brightWhite: 106.4

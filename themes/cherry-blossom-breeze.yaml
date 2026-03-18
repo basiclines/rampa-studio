@@ -1,0 +1,49 @@
+name: "Cherry Blossom Breeze"
+source:
+  marketplace_id: "daitsuku.cherry-blossom-vscode-theme"
+  version: "1.2.1"
+  installs: 2129
+  author: "daitsuku"
+  repo: "https://gitlab.com/daitsuku/cherry-blossom-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daitsuku.cherry-blossom-vscode-theme"
+colors:
+  bg: "#1A2030"
+  fg: "#EFF1F5"
+  black: "#1D2438"
+  red: "#E296AF"
+  green: "#A8D0E3"
+  yellow: "#F0D1A3"
+  blue: "#92B2E5"
+  magenta: "#C79FD0"
+  cyan: "#86C4D2"
+  white: "#D9E0F0"
+  brightBlack: "#536180"
+  brightRed: "#EAA8BF"
+  brightGreen: "#BADCED"
+  brightYellow: "#F6DEBC"
+  brightBlue: "#A4BFED"
+  brightMagenta: "#D5B2DA"
+  brightCyan: "#A2D5E0"
+  brightWhite: "#EFF1F5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 268
+  contrast:
+    fg: 96.4
+    black: 0
+    red: 55.1
+    green: 72.3
+    yellow: 79.2
+    blue: 57.6
+    magenta: 55.5
+    cyan: 63.2
+    white: 85.5
+    brightBlack: 18.8
+    brightRed: 63.2
+    brightGreen: 80
+    brightYellow: 86.5
+    brightBlue: 65.1
+    brightMagenta: 64.9
+    brightCyan: 73.8
+    brightWhite: 96.4

@@ -1,0 +1,49 @@
+name: "MagicUser Neblina"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1704
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+colors:
+  bg: "#D8D8D8"
+  fg: "#000000"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 83.2
+    black: 82.6
+    red: 36.7
+    green: 0
+    yellow: 18.1
+    blue: 63
+    magenta: 32.8
+    cyan: 7.6
+    white: 23.3
+    brightBlack: 75.9
+    brightRed: 40
+    brightGreen: 0
+    brightYellow: 18.4
+    brightBlue: 30.3
+    brightMagenta: 33
+    brightCyan: 0
+    brightWhite: 0

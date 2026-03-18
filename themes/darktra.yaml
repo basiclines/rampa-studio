@@ -1,0 +1,49 @@
+name: "darktra"
+source:
+  marketplace_id: "fajismohd.darktra"
+  version: "1.4.0"
+  installs: 922
+  author: "fajis mohd"
+  repo: "https://github.com/fajismohd/Darktra"
+  url: "https://marketplace.visualstudio.com/items?itemName=fajismohd.darktra"
+colors:
+  bg: "#000000"
+  fg: "#FAFAFA"
+  black: "#262E36"
+  red: "#F07178"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#36A3D9"
+  magenta: "#D4BFFF"
+  cyan: "#95E6CB"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFCC66"
+  brightBlue: "#36A3D9"
+  brightMagenta: "#D4BFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#C7C7C7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 104.6
+    black: 0
+    red: 47.6
+    green: 82.9
+    yellow: 80.3
+    blue: 47.8
+    magenta: 74
+    cyan: 81.9
+    white: 72.7
+    brightBlack: 23.9
+    brightRed: 47.6
+    brightGreen: 82.9
+    brightYellow: 80.3
+    brightBlue: 47.8
+    brightMagenta: 74
+    brightCyan: 81.9
+    brightWhite: 72.7

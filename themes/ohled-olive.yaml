@@ -1,0 +1,49 @@
+name: "OhLED_Olive"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10961
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+colors:
+  bg: "#000000"
+  fg: "#808000"
+  black: "#808000"
+  red: "#5E5E00"
+  green: "#666600"
+  yellow: "#4D4D00"
+  blue: "#777700"
+  magenta: "#6F6F00"
+  cyan: "#555500"
+  white: "#444400"
+  brightBlack: "#808000"
+  brightRed: "#5E5E00"
+  brightGreen: "#666600"
+  brightYellow: "#4D4D00"
+  brightBlue: "#777700"
+  brightMagenta: "#6F6F00"
+  brightCyan: "#555500"
+  brightWhite: "#444400"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 32.9
+    black: 32.9
+    red: 18.5
+    green: 21.7
+    yellow: 12.2
+    blue: 28.9
+    magenta: 25.5
+    cyan: 15.1
+    white: 9.1
+    brightBlack: 32.9
+    brightRed: 18.5
+    brightGreen: 21.7
+    brightYellow: 12.2
+    brightBlue: 28.9
+    brightMagenta: 25.5
+    brightCyan: 15.1
+    brightWhite: 9.1

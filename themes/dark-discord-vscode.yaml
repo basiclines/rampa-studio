@@ -1,0 +1,49 @@
+name: "Dark Discord VSCode"
+source:
+  marketplace_id: "akis.dark-discord-vscode"
+  version: "2.0.3"
+  installs: 2730
+  author: "akisblack"
+  repo: "https://github.com/akisblack/dark-discord-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=akis.dark-discord-vscode"
+colors:
+  bg: "#141414"
+  fg: "#B6B6B6"
+  black: "#868686"
+  red: "#FF5470"
+  green: "#33D057"
+  yellow: "#E1C542"
+  blue: "#469DF1"
+  magenta: "#E557F9"
+  cyan: "#39CDE2"
+  white: "#D4D4D4"
+  brightBlack: "#ABABAB"
+  brightRed: "#FF718A"
+  brightGreen: "#67FF8A"
+  brightYellow: "#FFE05B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#74F2FF"
+  brightWhite: "#D9E0EE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 62.2
+    black: 36.9
+    red: 44.1
+    green: 62.5
+    yellow: 71.4
+    blue: 46.7
+    magenta: 45.7
+    cyan: 65.8
+    white: 79.8
+    brightBlack: 56.1
+    brightRed: 50.5
+    brightGreen: 89
+    brightYellow: 87.9
+    brightBlue: 62.5
+    brightMagenta: 57.3
+    brightCyan: 87.3
+    brightWhite: 86.9

@@ -1,0 +1,49 @@
+name: "Blue Light Filter - Dark"
+source:
+  marketplace_id: "SakshamYadav.blue-light-filter-theme"
+  version: "1.0.0"
+  installs: 153
+  author: "Saksham Yadav"
+  repo: "https://github.com/Sakshamyadav15/GitCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SakshamYadav.blue-light-filter-theme"
+colors:
+  bg: "#1A1512"
+  fg: "#D4B89C"
+  black: "#1A1512"
+  red: "#E67E80"
+  green: "#A7C080"
+  yellow: "#E6B673"
+  blue: "#D9A566"
+  magenta: "#D69999"
+  cyan: "#C9A678"
+  white: "#D4B89C"
+  brightBlack: "#4A3623"
+  brightRed: "#EC8E8E"
+  brightGreen: "#B5CE8F"
+  brightYellow: "#F0C486"
+  brightBlue: "#E8B380"
+  brightMagenta: "#E5A8A8"
+  brightCyan: "#D9B890"
+  brightWhite: "#E8C499"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 53
+  contrast:
+    fg: 65.8
+    black: 0
+    red: 48.3
+    green: 62.7
+    yellow: 66.7
+    blue: 58
+    magenta: 54.6
+    cyan: 56.3
+    white: 65.8
+    brightBlack: 0
+    brightRed: 54.5
+    brightGreen: 70.8
+    brightYellow: 74.3
+    brightBlue: 66.1
+    brightMagenta: 62.8
+    brightCyan: 66.2
+    brightWhite: 73.5

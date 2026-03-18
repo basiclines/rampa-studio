@@ -1,0 +1,49 @@
+name: "A GitHub Dark High Contrast 5 🟣 Purple"
+source:
+  marketplace_id: "markmiro.colorful-github-vscode-theme"
+  version: "6.8.0"
+  installs: 889
+  author: "Mark Miro"
+  repo: "https://github.com/markmiro/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=markmiro.colorful-github-vscode-theme"
+colors:
+  bg: "#171220"
+  fg: "#FFFDFF"
+  black: "#9188A3"
+  red: "#FF9492"
+  green: "#26CD4D"
+  yellow: "#F0B72F"
+  blue: "#71B7FF"
+  magenta: "#CB9EFF"
+  cyan: "#39C5CF"
+  white: "#EDE7FC"
+  brightBlack: "#B6ADC9"
+  brightRed: "#FFB1AF"
+  brightGreen: "#4AE168"
+  brightYellow: "#F7C843"
+  brightBlue: "#91CBFF"
+  brightMagenta: "#DBB7FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 300
+  contrast:
+    fg: 106.1
+    black: 39.9
+    red: 60.2
+    green: 60.6
+    yellow: 68
+    blue: 60.1
+    magenta: 59.9
+    cyan: 61.1
+    white: 93.3
+    brightBlack: 59.4
+    brightRed: 70.9
+    brightGreen: 71.7
+    brightYellow: 76.1
+    brightBlue: 71
+    brightMagenta: 71.1
+    brightCyan: 69.6
+    brightWhite: 107.1

@@ -1,0 +1,49 @@
+name: "DevMedia Dark Modern"
+source:
+  marketplace_id: "joaomjbraga.devmedia-theme"
+  version: "1.1.0"
+  installs: 137
+  author: "João M J Braga"
+  repo: "https://github.com/joaomjbraga/devmedia-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=joaomjbraga.devmedia-theme"
+colors:
+  bg: "#1E2227"
+  fg: "#E8ECF2"
+  black: "#1A1A1A"
+  red: "#F47070"
+  green: "#82C020"
+  yellow: "#D4913A"
+  blue: "#21BAD6"
+  magenta: "#D4913A"
+  cyan: "#21BAD6"
+  white: "#D8DBE4"
+  brightBlack: "#484E58"
+  brightRed: "#F47070"
+  brightGreen: "#9CD633"
+  brightYellow: "#F0C060"
+  brightBlue: "#5FF5FF"
+  brightMagenta: "#D4913A"
+  brightCyan: "#5FF5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 254
+  contrast:
+    fg: 92.9
+    black: 0
+    red: 45.6
+    green: 56.6
+    yellow: 48.1
+    blue: 54.5
+    magenta: 48.1
+    cyan: 54.5
+    white: 82.4
+    brightBlack: 10.9
+    brightRed: 45.6
+    brightGreen: 69
+    brightYellow: 70.5
+    brightBlue: 86.2
+    brightMagenta: 48.1
+    brightCyan: 86.2
+    brightWhite: 105.5

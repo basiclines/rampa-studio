@@ -1,0 +1,49 @@
+name: "aries"
+source:
+  marketplace_id: "ariebird.aries-pink-theme"
+  version: "0.0.1"
+  installs: 1912
+  author: "Aries Russin"
+  repo: "https://github.com/adragonqc/aries-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ariebird.aries-pink-theme"
+colors:
+  bg: "#FECFD9"
+  fg: "#9F0000"
+  black: "#000000"
+  red: "#FB5959"
+  green: "#169418"
+  yellow: "#FFEB47"
+  blue: "#0451A5"
+  magenta: "#8233DB"
+  cyan: "#0AA395"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#E21616"
+  brightGreen: "#90F791"
+  brightYellow: "#FFF38E"
+  brightBlue: "#CFE6FF"
+  brightMagenta: "#B676FF"
+  brightCyan: "#A9FBF3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: 4
+  contrast:
+    fg: 65.4
+    black: 84.9
+    red: 36.4
+    green: 45.3
+    yellow: 0
+    blue: 64.9
+    magenta: 58.2
+    cyan: 36.8
+    white: 64.8
+    brightBlack: 57.6
+    brightRed: 49.8
+    brightGreen: 0
+    brightYellow: 11.8
+    brightBlue: 0
+    brightMagenta: 35
+    brightCyan: 9.2
+    brightWhite: 21.5

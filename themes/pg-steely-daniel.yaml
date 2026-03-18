@@ -1,0 +1,49 @@
+name: "pg-steely-daniel"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+colors:
+  bg: "#272A2C"
+  fg: "#C7C2AC"
+  black: "#020202"
+  red: "#BE1E1E"
+  green: "#10AB66"
+  yellow: "#CDB600"
+  blue: "#3360CB"
+  magenta: "#9F19CF"
+  cyan: "#12C0B8"
+  white: "#E0E0E0"
+  brightBlack: "#4D4D4D"
+  brightRed: "#FF1F1F"
+  brightGreen: "#19E68A"
+  brightYellow: "#FFE515"
+  brightBlue: "#478FFF"
+  brightMagenta: "#D150FF"
+  brightCyan: "#1AECE3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 65.8
+    black: 0
+    red: 19.1
+    green: 42.2
+    yellow: 59.1
+    blue: 19.9
+    magenta: 19.9
+    cyan: 54.3
+    white: 84.1
+    brightBlack: 9.3
+    brightRed: 34.4
+    brightGreen: 71.1
+    brightYellow: 86.7
+    brightBlue: 39.7
+    brightMagenta: 38.2
+    brightCyan: 77.4
+    brightWhite: 104.1

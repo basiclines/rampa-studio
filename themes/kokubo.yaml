@@ -1,0 +1,49 @@
+name: "kokubo"
+source:
+  marketplace_id: "Kongaloosh.kongaloosh"
+  version: "0.0.1"
+  installs: 34
+  author: "Kongaloosh"
+  repo: "git push --set-upstream origin main"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kongaloosh.kongaloosh"
+colors:
+  bg: "#3A3D3F"
+  fg: "#CEE5C2"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#83ACBC"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 78
+    black: 8.5
+    red: 19
+    green: 45.3
+    yellow: 77.9
+    blue: 45.3
+    magenta: 22.1
+    cyan: 39.9
+    white: 82.3
+    brightBlack: 14.4
+    brightRed: 30.9
+    brightGreen: 55.9
+    brightYellow: 88
+    brightBlue: 32.3
+    brightMagenta: 37.7
+    brightCyan: 47.7
+    brightWhite: 82.3

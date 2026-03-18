@@ -1,0 +1,49 @@
+name: "Aether Emerald"
+source:
+  marketplace_id: "diogo-aether.aether-dark"
+  version: "1.4.0"
+  installs: 203
+  author: "Diogo Pereira"
+  repo: "https://github.com/Diiipereira/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=diogo-aether.aether-dark"
+colors:
+  bg: "#0D1311"
+  fg: "#E2E8F0"
+  black: "#0D1311"
+  red: "#F87171"
+  green: "#34D399"
+  yellow: "#FBBF24"
+  blue: "#38BDF8"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#6A8A80"
+  brightBlack: "#2D5045"
+  brightRed: "#FCA5A5"
+  brightGreen: "#6EE7B7"
+  brightYellow: "#FCD34D"
+  brightBlue: "#7DD3FC"
+  brightMagenta: "#E879F9"
+  brightCyan: "#67E8F9"
+  brightWhite: "#E2E8F0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 173
+  contrast:
+    fg: 91.9
+    black: 0
+    red: 48.5
+    green: 65.6
+    yellow: 73.1
+    blue: 60.1
+    magenta: 50.1
+    cyan: 69
+    white: 35.8
+    brightBlack: 11.3
+    brightRed: 66
+    brightGreen: 78.5
+    brightYellow: 81.8
+    brightBlue: 73.1
+    brightMagenta: 53.5
+    brightCyan: 81.6
+    brightWhite: 91.9

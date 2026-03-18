@@ -1,0 +1,49 @@
+name: "Thoughtworks Style Theme"
+source:
+  marketplace_id: "guzhongren.thoughtworks-styled-theme"
+  version: "1.0.2"
+  installs: 40
+  author: "guzhongren"
+  repo: "https://github.com/guzhongren/thoughtworks-styled-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=guzhongren.thoughtworks-styled-theme"
+colors:
+  bg: "#003D4F"
+  fg: "#EDF1F3"
+  black: "#000000"
+  red: "#F2617A"
+  green: "#6B9E78"
+  yellow: "#CC850A"
+  blue: "#47A1AD"
+  magenta: "#634F7D"
+  cyan: "#003D4F"
+  white: "#EDF1F3"
+  brightBlack: "#000000"
+  brightRed: "#F2617A"
+  brightGreen: "#6B9E78"
+  brightYellow: "#CC850A"
+  brightBlue: "#47A1AD"
+  brightMagenta: "#634F7D"
+  brightCyan: "#003D4F"
+  brightWhite: "#EDF1F3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 225
+  contrast:
+    fg: 90.7
+    black: 0
+    red: 36.9
+    green: 36.3
+    yellow: 37.4
+    blue: 37.6
+    magenta: 9.7
+    cyan: 0
+    white: 90.7
+    brightBlack: 0
+    brightRed: 36.9
+    brightGreen: 36.3
+    brightYellow: 37.4
+    brightBlue: 37.6
+    brightMagenta: 9.7
+    brightCyan: 0
+    brightWhite: 90.7

@@ -1,0 +1,49 @@
+name: "Angular Dark Theme"
+source:
+  marketplace_id: "MichaellAlavedraMunayco.angular-theme"
+  version: "7.1.1"
+  installs: 16333
+  author: "Michaell Alavedra"
+  repo: "https://github.com/gitchaell/angular-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme"
+colors:
+  bg: "#09090B"
+  fg: "#FAFAFA"
+  black: "#27272A"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#E4E4E7"
+  brightBlack: "#52525B"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 37.7
+    green: 57.7
+    yellow: 66
+    blue: 37.7
+    magenta: 35.3
+    cyan: 54.8
+    white: 90.4
+    brightBlack: 15.1
+    brightRed: 49
+    brightGreen: 71.3
+    brightYellow: 78.7
+    brightBlue: 52.3
+    brightMagenta: 50.6
+    brightCyan: 69.5
+    brightWhite: 104.5

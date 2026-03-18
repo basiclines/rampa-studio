@@ -1,0 +1,49 @@
+name: "Bohemian Light"
+source:
+  marketplace_id: "Alastair908.bohemian-theme"
+  version: "1.2.0"
+  installs: 309
+  author: "Alastair908"
+  repo: "https://github.com/Alastair908/BohemianTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Alastair908.bohemian-theme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#5A3A3A"
+  black: "#5A3A3A"
+  red: "#E65C5C"
+  green: "#68C945"
+  yellow: "#E9A700"
+  blue: "#4F99D9"
+  magenta: "#8E6FE4"
+  cyan: "#44A4AD"
+  white: "#8C4B2C"
+  brightBlack: "#754F4F"
+  brightRed: "#E65C5C"
+  brightGreen: "#68C945"
+  brightYellow: "#E9A700"
+  brightBlue: "#4F99D9"
+  brightMagenta: "#8E6FE4"
+  brightCyan: "#44A4AD"
+  brightWhite: "#BE9480"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 93.1
+    black: 93.1
+    red: 61.5
+    green: 40.7
+    yellow: 40.8
+    blue: 57.1
+    magenta: 65.2
+    cyan: 55.5
+    white: 82.5
+    brightBlack: 84.3
+    brightRed: 61.5
+    brightGreen: 40.7
+    brightYellow: 40.8
+    brightBlue: 57.1
+    brightMagenta: 65.2
+    brightCyan: 55.5
+    brightWhite: 52.5

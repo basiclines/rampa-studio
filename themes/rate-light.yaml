@@ -1,0 +1,49 @@
+name: "Rate Light"
+source:
+  marketplace_id: "Roll7.rate-theme"
+  version: "0.0.11"
+  installs: 157
+  author: "Roll7"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Roll7.rate-theme"
+colors:
+  bg: "#F8F8FF"
+  fg: "#393A34"
+  black: "#121212"
+  red: "#AB5959"
+  green: "#D73A49"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#D73A49"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 92.6
+    black: 101.4
+    red: 69.6
+    green: 66.6
+    yellow: 44.4
+    blue: 74.3
+    magenta: 77.2
+    cyan: 59.6
+    white: 17.2
+    brightBlack: 42
+    brightRed: 69.6
+    brightGreen: 66.6
+    brightYellow: 44.4
+    brightBlue: 74.3
+    brightMagenta: 77.2
+    brightCyan: 59.6
+    brightWhite: 13.7

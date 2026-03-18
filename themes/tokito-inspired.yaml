@@ -1,0 +1,49 @@
+name: "Tokito Inspired"
+source:
+  marketplace_id: "devLocifer.hashira-code-theme"
+  version: "0.0.1"
+  installs: 738
+  author: "devLocifer"
+  repo: "https://github.com/diazdjul19/hashira-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=devLocifer.hashira-code-theme"
+colors:
+  bg: "#141921"
+  fg: "#D1D5DB"
+  black: "#141921"
+  red: "#F472B6"
+  green: "#86EFAC"
+  yellow: "#FDE047"
+  blue: "#7DD3FC"
+  magenta: "#D8B4FE"
+  cyan: "#7DD3FC"
+  white: "#E5E7EB"
+  brightBlack: "#71717A"
+  brightRed: "#F472B6"
+  brightGreen: "#86EFAC"
+  brightYellow: "#FDE047"
+  brightBlue: "#7DD3FC"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#7DD3FC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 260
+  contrast:
+    fg: 79.7
+    black: 0
+    red: 49.7
+    green: 82.9
+    yellow: 87
+    blue: 72.5
+    magenta: 69.1
+    cyan: 72.5
+    white: 91
+    brightBlack: 26.9
+    brightRed: 49.7
+    brightGreen: 82.9
+    brightYellow: 87
+    brightBlue: 72.5
+    brightMagenta: 69.1
+    brightCyan: 72.5
+    brightWhite: 106.7

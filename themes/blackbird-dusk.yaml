@@ -1,0 +1,49 @@
+name: "🏴 blackbird → dusk"
+source:
+  marketplace_id: "MattGleich.theme-blackbird"
+  version: "6.0.1"
+  installs: 10037
+  author: "Matt Gleich"
+  repo: "https://github.com/blackbirdtheme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MattGleich.theme-blackbird"
+colors:
+  bg: "#0F0F0F"
+  fg: "#FDF7CD"
+  black: "#222029"
+  red: "#E92741"
+  green: "#3EC841"
+  yellow: "#E1DB3F"
+  blue: "#418EDD"
+  magenta: "#FF00CC"
+  cyan: "#00ECD8"
+  white: "#FDF7CD"
+  brightBlack: "#777777"
+  brightRed: "#E92741"
+  brightGreen: "#3EC841"
+  brightYellow: "#E1DB3F"
+  brightBlue: "#418EDD"
+  brightMagenta: "#FF00CC"
+  brightCyan: "#00ECD8"
+  brightWhite: "#FDF7CD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 101.3
+    black: 0
+    red: 33.1
+    green: 59
+    yellow: 81.3
+    blue: 39.9
+    magenta: 42.4
+    cyan: 80.1
+    white: 101.3
+    brightBlack: 30.2
+    brightRed: 33.1
+    brightGreen: 59
+    brightYellow: 81.3
+    brightBlue: 39.9
+    brightMagenta: 42.4
+    brightCyan: 80.1
+    brightWhite: 101.3

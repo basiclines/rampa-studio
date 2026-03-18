@@ -1,0 +1,49 @@
+name: "Shaant Shakti: SPFx Sanctuary"
+source:
+  marketplace_id: "shaant-shakti.shaant-shakti-color-theme"
+  version: "2.0.0"
+  installs: 50
+  author: "Aadityaa"
+  repo: "https://github.com/Aditya-Ace/Shaant-Shakti"
+  url: "https://marketplace.visualstudio.com/items?itemName=shaant-shakti.shaant-shakti-color-theme"
+colors:
+  bg: "#0F1419"
+  fg: "#E8F4FD"
+  black: "#161B22"
+  red: "#E74856"
+  green: "#32CD32"
+  yellow: "#FFB900"
+  blue: "#0078D4"
+  magenta: "#B146C2"
+  cyan: "#40E0D0"
+  white: "#E8F4FD"
+  brightBlack: "#6B7C93"
+  brightRed: "#FF6B7D"
+  brightGreen: "#52ED52"
+  brightYellow: "#FFD700"
+  brightBlue: "#4A9EFF"
+  brightMagenta: "#D166E2"
+  brightCyan: "#60F0E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 249
+  contrast:
+    fg: 98.8
+    black: 0
+    red: 36.2
+    green: 60.7
+    yellow: 71.3
+    blue: 30.3
+    magenta: 29.5
+    cyan: 74.2
+    white: 98.8
+    brightBlack: 31.5
+    brightRed: 48.9
+    brightGreen: 77.8
+    brightYellow: 83.6
+    brightBlue: 48.3
+    brightMagenta: 43.3
+    brightCyan: 83.9
+    brightWhite: 107.2

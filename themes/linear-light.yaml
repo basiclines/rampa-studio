@@ -1,0 +1,49 @@
+name: "Linear Light"
+source:
+  marketplace_id: "linear-app.linear-app-theme"
+  version: "1.0.0"
+  installs: 1
+  author: "Linear"
+  repo: "https://github.com/linear/linear-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=linear-app.linear-app-theme"
+colors:
+  bg: "#FCFCFC"
+  fg: "#1A1A1F"
+  black: "#1A1A1F"
+  red: "#D93026"
+  green: "#26A148"
+  yellow: "#C4841D"
+  blue: "#5E6AD2"
+  magenta: "#A855C2"
+  cyan: "#1A9BA5"
+  white: "#E8E8EC"
+  brightBlack: "#6B6F76"
+  brightRed: "#E04E44"
+  brightGreen: "#3CB860"
+  brightYellow: "#D69A2E"
+  brightBlue: "#7E8AE2"
+  brightMagenta: "#C275D8"
+  brightCyan: "#30B3BF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 102.4
+    black: 102.4
+    red: 69.7
+    green: 58.6
+    yellow: 56.5
+    blue: 70.6
+    magenta: 68.4
+    cyan: 58.6
+    white: 9.2
+    brightBlack: 73.1
+    brightRed: 63.9
+    brightGreen: 47.8
+    brightYellow: 46.4
+    brightBlue: 56.9
+    brightMagenta: 55.6
+    brightCyan: 47.3
+    brightWhite: 0

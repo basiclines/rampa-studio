@@ -1,0 +1,49 @@
+name: "NOVADUST"
+source:
+  marketplace_id: "novadust.novadust"
+  version: "0.0.3"
+  installs: 960
+  author: "NOVADUST"
+  repo: "https://github.com/mmartamg/novadust-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=novadust.novadust"
+colors:
+  bg: "#1D2833"
+  fg: "#CFD1D1"
+  black: "#000911"
+  red: "#FF695D"
+  green: "#B9E678"
+  yellow: "#FFD580"
+  blue: "#5FCBC3"
+  magenta: "#D689E3"
+  cyan: "#85DDA2"
+  white: "#F7F5E9"
+  brightBlack: "#596D84"
+  brightRed: "#FF695D"
+  brightGreen: "#B9E678"
+  brightYellow: "#FFD580"
+  brightBlue: "#5FCBC3"
+  brightMagenta: "#D689E3"
+  brightCyan: "#85DDA2"
+  brightWhite: "#F7F5E9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  contrast:
+    fg: 75.1
+    black: 0
+    red: 45.1
+    green: 79.4
+    yellow: 81.2
+    blue: 62.1
+    magenta: 50.6
+    cyan: 71.6
+    white: 97.8
+    brightBlack: 22
+    brightRed: 45.1
+    brightGreen: 79.4
+    brightYellow: 81.2
+    brightBlue: 62.1
+    brightMagenta: 50.6
+    brightCyan: 71.6
+    brightWhite: 97.8

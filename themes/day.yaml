@@ -1,0 +1,49 @@
+name: "day"
+source:
+  marketplace_id: "AninhaPardini.coffee-break-theme"
+  version: "1.5.0"
+  installs: 834
+  author: "Aninha Pardini"
+  repo: "https://github.com/AninhaPardini/coffee-break-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AninhaPardini.coffee-break-theme"
+colors:
+  bg: "#FFFAF6"
+  fg: "#1F1103"
+  black: "#502F04"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#D17E12"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#FF9A16"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 102.4
+    black: 94.7
+    red: 71.5
+    green: 46.7
+    yellow: 55.4
+    blue: 83.5
+    magenta: 72
+    cyan: 58.1
+    white: 83.4
+    brightBlack: 76.2
+    brightRed: 71.5
+    brightGreen: 38.4
+    brightYellow: 38.7
+    brightBlue: 83.5
+    brightMagenta: 72
+    brightCyan: 58.1
+    brightWhite: 45.9

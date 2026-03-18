@@ -1,0 +1,49 @@
+name: "Codehesion Light Theme"
+source:
+  marketplace_id: "Codehesion.codehesion-themes"
+  version: "0.0.1"
+  installs: 34
+  author: "Codehesion"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Codehesion.codehesion-themes"
+colors:
+  bg: "#FFFFFF"
+  fg: "#003A4E"
+  black: "#353535"
+  red: "#F92A82"
+  green: "#36DB54"
+  yellow: "#E2A100"
+  blue: "#128DFF"
+  magenta: "#5F5FFF"
+  cyan: "#0FA3B1"
+  white: "#FFFFFF"
+  brightBlack: "#535353"
+  brightRed: "#CF0059"
+  brightGreen: "#00A71E"
+  brightYellow: "#A57600"
+  brightBlue: "#0064C0"
+  brightMagenta: "#6700FD"
+  brightCyan: "#00818C"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 97.5
+    black: 98
+    red: 62.6
+    green: 33.9
+    yellow: 44
+    blue: 60.2
+    magenta: 71.3
+    cyan: 56.7
+    white: 0
+    brightBlack: 86.7
+    brightRed: 74.9
+    brightGreen: 58.5
+    brightYellow: 67.4
+    brightBlue: 78.5
+    brightMagenta: 81.5
+    brightCyan: 71.7
+    brightWhite: 0

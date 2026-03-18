@@ -1,0 +1,49 @@
+name: "_common"
+source:
+  marketplace_id: "IVSoftware.nononsense"
+  version: "0.0.2"
+  installs: 36
+  author: "IV Software"
+  repo: "https://github.com/JackShort/nononsense"
+  url: "https://marketplace.visualstudio.com/items?itemName=IVSoftware.nononsense"
+colors:
+  bg: "#121212"
+  fg: "#CBCCC6"
+  black: "#303030"
+  red: "#ED8274"
+  green: "#A6CC70"
+  yellow: "#FAD07B"
+  blue: "#6DCBFA"
+  magenta: "#CFBAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFD580"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#D4BFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 74.7
+    black: 0
+    red: 50.8
+    green: 67.9
+    yellow: 80.9
+    blue: 68.4
+    magenta: 70.5
+    cyan: 78.3
+    white: 72.1
+    brightBlack: 23.3
+    brightRed: 53.3
+    brightGreen: 82.3
+    brightYellow: 83.9
+    brightBlue: 71.3
+    brightMagenta: 73.4
+    brightCyan: 81.3
+    brightWhite: 107.3

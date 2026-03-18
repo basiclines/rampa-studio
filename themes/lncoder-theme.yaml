@@ -1,0 +1,49 @@
+name: "Lncoder_theme"
+source:
+  marketplace_id: "Lncoder.lncoder"
+  version: "0.0.1"
+  installs: 58
+  author: "Lncoder"
+  repo: "https://github.com/Lncod3r/vscode_theme.git#main"
+  url: "https://marketplace.visualstudio.com/items?itemName=Lncoder.lncoder"
+colors:
+  bg: "#1F1F1F"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 25.7
+    green: 52
+    yellow: 84.6
+    blue: 26.5
+    magenta: 28.8
+    cyan: 46.6
+    white: 89
+    brightBlack: 21.1
+    brightRed: 37.6
+    brightGreen: 62.6
+    brightYellow: 94.7
+    brightBlue: 39
+    brightMagenta: 44.4
+    brightCyan: 54.4
+    brightWhite: 89

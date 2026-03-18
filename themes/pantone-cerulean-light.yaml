@@ -1,0 +1,49 @@
+name: "Pantone Cerulean (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+colors:
+  bg: "#F5F5F6"
+  fg: "#171B20"
+  black: "#171B20"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F5F5F6"
+  brightBlack: "#6D7B8A"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F1F1F2"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 98.2
+    black: 98.2
+    red: 72.9
+    green: 56.4
+    yellow: 40.7
+    blue: 83.9
+    magenta: 80.1
+    cyan: 73.2
+    white: 0
+    brightBlack: 64.1
+    brightRed: 62.6
+    brightGreen: 43.3
+    brightYellow: 24.4
+    brightBlue: 49.9
+    brightMagenta: 61.5
+    brightCyan: 42.6
+    brightWhite: 0

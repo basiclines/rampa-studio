@@ -1,0 +1,49 @@
+name: "Custom Theme (light)"
+source:
+  marketplace_id: "Teambotics.theme-studio"
+  version: "0.0.2"
+  installs: 13
+  author: "Teambotics"
+  repo: "https://github.com/nickhilster/theme-crafter"
+  url: "https://marketplace.visualstudio.com/items?itemName=Teambotics.theme-studio"
+colors:
+  bg: "#FAFAFA"
+  fg: "#293229"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#008000"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#000000"
+  brightRed: "#CD3131"
+  brightGreen: "#008000"
+  brightYellow: "#949800"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#555555"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 96.7
+    black: 103
+    red: 71
+    green: 71.6
+    yellow: 54.9
+    blue: 83.1
+    magenta: 71.6
+    cyan: 57.6
+    white: 82.9
+    brightBlack: 103
+    brightRed: 71
+    brightGreen: 71.6
+    brightYellow: 54.9
+    brightBlue: 83.1
+    brightMagenta: 71.6
+    brightCyan: 57.6
+    brightWhite: 82.9

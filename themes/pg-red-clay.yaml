@@ -1,0 +1,49 @@
+name: "pg-red-clay"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+colors:
+  bg: "#493936"
+  fg: "#F5EDEE"
+  black: "#5C5B5B"
+  red: "#DE3C3C"
+  green: "#46B885"
+  yellow: "#FAD76E"
+  blue: "#77A5FB"
+  magenta: "#D98EF4"
+  cyan: "#63C5EA"
+  white: "#E0E0E0"
+  brightBlack: "#000000"
+  brightRed: "#FF1F1F"
+  brightGreen: "#2BE491"
+  brightYellow: "#FFBF00"
+  brightBlue: "#4384FF"
+  brightMagenta: "#D45CFF"
+  brightCyan: "#0FBDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 31
+  contrast:
+    fg: 88.5
+    black: 9.8
+    red: 24.1
+    green: 44.8
+    yellow: 75.5
+    blue: 45.2
+    magenta: 48.2
+    cyan: 56.1
+    white: 79.2
+    brightBlack: 8.6
+    brightRed: 29.4
+    brightGreen: 65.5
+    brightYellow: 65.6
+    brightBlue: 30.7
+    brightMagenta: 35.8
+    brightCyan: 51.8
+    brightWhite: 99.1

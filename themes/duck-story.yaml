@@ -1,0 +1,49 @@
+name: "Duck Story"
+source:
+  marketplace_id: "andzhr.duck-story"
+  version: "1.0.0"
+  installs: 437
+  author: "Andrey Zakharov"
+  repo: "https://github.com/andzhr/duck-story-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=andzhr.duck-story"
+colors:
+  bg: "#242423"
+  fg: "#EFE2BE"
+  black: "#151514"
+  red: "#E83221"
+  green: "#7ABC24"
+  yellow: "#FFB833"
+  blue: "#00CCF5"
+  magenta: "#D076C0"
+  cyan: "#19EDF0"
+  white: "#EBDDAD"
+  brightBlack: "#535350"
+  brightRed: "#EE6559"
+  brightGreen: "#99DB43"
+  brightYellow: "#FFCD70"
+  brightBlue: "#47E0FF"
+  brightMagenta: "#DB95CE"
+  brightCyan: "#52F1F4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 31.1
+    green: 53.8
+    yellow: 69
+    blue: 63.9
+    magenta: 42.9
+    cyan: 79.5
+    white: 83.4
+    brightBlack: 12.5
+    brightRed: 41
+    brightGreen: 70.9
+    brightYellow: 78.1
+    brightBlue: 74.7
+    brightMagenta: 54.5
+    brightCyan: 82.8
+    brightWhite: 105.1

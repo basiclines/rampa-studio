@@ -1,0 +1,49 @@
+name: "Base16 Flat Light"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#ECF0F1"
+  fg: "#7F8C8D"
+  black: "#E0E0E0"
+  red: "#E74C3C"
+  green: "#2ECC71"
+  yellow: "#E67E22"
+  blue: "#3498DB"
+  magenta: "#9B59B6"
+  cyan: "#1ABC9C"
+  white: "#34495E"
+  brightBlack: "#BDC3C7"
+  brightRed: "#E74C3C"
+  brightGreen: "#2ECC71"
+  brightYellow: "#F1C40F"
+  brightBlue: "#3498DB"
+  brightMagenta: "#9B59B6"
+  brightCyan: "#1ABC9C"
+  brightWhite: "#2C3E50"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 53
+    black: 0
+    red: 55.2
+    green: 31.2
+    yellow: 44.7
+    blue: 48.9
+    magenta: 62.7
+    cyan: 37.5
+    white: 82
+    brightBlack: 23.5
+    brightRed: 55.2
+    brightGreen: 31.2
+    brightYellow: 19.5
+    brightBlue: 48.9
+    brightMagenta: 62.7
+    brightCyan: 37.5
+    brightWhite: 86

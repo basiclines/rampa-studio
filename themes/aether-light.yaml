@@ -1,0 +1,49 @@
+name: "Aether Light"
+source:
+  marketplace_id: "diogo-aether.aether-dark"
+  version: "1.4.0"
+  installs: 203
+  author: "Diogo Pereira"
+  repo: "https://github.com/Diiipereira/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=diogo-aether.aether-dark"
+colors:
+  bg: "#F5F1ED"
+  fg: "#3D3835"
+  black: "#2C2826"
+  red: "#C76B6B"
+  green: "#4A7A5C"
+  yellow: "#A06840"
+  blue: "#3D7A7A"
+  magenta: "#8B5E83"
+  cyan: "#4A8080"
+  white: "#E8E2DB"
+  brightBlack: "#857D76"
+  brightRed: "#D98888"
+  brightGreen: "#6A9A7A"
+  brightYellow: "#C08050"
+  brightBlue: "#5A9898"
+  brightMagenta: "#A87AA0"
+  brightCyan: "#6AA0A0"
+  brightWhite: "#F5F1ED"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 88.7
+    black: 93.4
+    red: 55.8
+    green: 66.3
+    yellow: 63.9
+    blue: 66
+    magenta: 67.8
+    cyan: 63
+    white: 0
+    brightBlack: 59.7
+    brightRed: 43.9
+    brightGreen: 51.4
+    brightYellow: 51.7
+    brightBlue: 52.2
+    brightMagenta: 54.8
+    brightCyan: 47.8
+    brightWhite: 0

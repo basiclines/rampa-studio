@@ -1,0 +1,49 @@
+name: "WL-Retro Future"
+source:
+  marketplace_id: "WatkinsLabs.retro-future"
+  version: "1.0.1"
+  installs: 64
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.retro-future"
+colors:
+  bg: "#202833"
+  fg: "#A2ADD0"
+  black: "#000000"
+  red: "#F74E52"
+  green: "#69BF87"
+  yellow: "#F9AE58"
+  blue: "#F0C674"
+  magenta: "#9DB4CC"
+  cyan: "#F0C674"
+  white: "#A2ADD0"
+  brightBlack: "#666666"
+  brightRed: "#F74E52"
+  brightGreen: "#69BF87"
+  brightYellow: "#F9AE58"
+  brightBlue: "#F0C674"
+  brightMagenta: "#9DB4CC"
+  brightCyan: "#F0C674"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 256
+  contrast:
+    fg: 54.9
+    black: 0
+    red: 38
+    green: 55
+    yellow: 64
+    blue: 72.2
+    magenta: 57
+    cyan: 72.2
+    white: 54.9
+    brightBlack: 19.7
+    brightRed: 38
+    brightGreen: 55
+    brightYellow: 64
+    brightBlue: 72.2
+    brightMagenta: 57
+    brightCyan: 72.2
+    brightWhite: 104.5

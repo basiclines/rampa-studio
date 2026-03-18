@@ -1,0 +1,49 @@
+name: "Platzi Theme"
+source:
+  marketplace_id: "YesCode.platzi-theme"
+  version: "0.0.9"
+  installs: 1686
+  author: "YesCode"
+  repo: "https://github.com/yesomac/platziTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.platzi-theme"
+colors:
+  bg: "#03091E"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#A5DB8B"
+  brightYellow: "#7FAB3E"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 265
+  contrast:
+    fg: 105.3
+    black: 0
+    red: 42.8
+    green: 61.8
+    yellow: 73.8
+    blue: 48.3
+    magenta: 20.3
+    cyan: 50.2
+    white: 48
+    brightBlack: 19.4
+    brightRed: 42.8
+    brightGreen: 75.7
+    brightYellow: 49.5
+    brightBlue: 19.5
+    brightMagenta: 20.3
+    brightCyan: 50.2
+    brightWhite: 99.6

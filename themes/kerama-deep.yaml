@@ -1,0 +1,49 @@
+name: "Kerama Deep"
+source:
+  marketplace_id: "ky12228121.okinawan-themes"
+  version: "0.0.1"
+  installs: 10
+  author: "Keny Yahat"
+  repo: "https://github.com/ky12228121/okinawan"
+  url: "https://marketplace.visualstudio.com/items?itemName=ky12228121.okinawan-themes"
+colors:
+  bg: "#0F1C2E"
+  fg: "#DCE1E6"
+  black: "#0A131F"
+  red: "#FF6F61"
+  green: "#6B8C78"
+  yellow: "#F1C232"
+  blue: "#00A1E4"
+  magenta: "#F08F90"
+  cyan: "#40E0D0"
+  white: "#E6E6E6"
+  brightBlack: "#4D5B6A"
+  brightRed: "#FF6F61"
+  brightGreen: "#6B8C78"
+  brightYellow: "#F1C232"
+  brightBlue: "#00A1E4"
+  brightMagenta: "#F08F90"
+  brightCyan: "#40E0D0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 257
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 48.2
+    green: 35.4
+    yellow: 71.7
+    blue: 45.5
+    magenta: 54.9
+    cyan: 73.3
+    white: 90.1
+    brightBlack: 16.3
+    brightRed: 48.2
+    brightGreen: 35.4
+    brightYellow: 71.7
+    brightBlue: 45.5
+    brightMagenta: 54.9
+    brightCyan: 73.3
+    brightWhite: 90.1

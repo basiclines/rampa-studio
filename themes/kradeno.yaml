@@ -1,0 +1,49 @@
+name: "Kradeno"
+source:
+  marketplace_id: "NeoWees.onebadass-theme-neowees"
+  version: "0.6.0"
+  installs: 109
+  author: "Neo Wees"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=NeoWees.onebadass-theme-neowees"
+colors:
+  bg: "#1E2227"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 254
+  contrast:
+    fg: 58
+    black: 7.5
+    red: 35.4
+    green: 59
+    yellow: 47.2
+    blue: 48.3
+    magenta: 37.7
+    cyan: 51.1
+    white: 81.7
+    brightBlack: 14.1
+    brightRed: 44.7
+    brightGreen: 75.4
+    brightYellow: 59.9
+    brightBlue: 62.4
+    brightMagenta: 48.9
+    brightCyan: 66.4
+    brightWhite: 89.3

@@ -1,0 +1,49 @@
+name: "MuteNight"
+source:
+  marketplace_id: "sqwibDev.mutenight"
+  version: "0.0.1"
+  installs: 237
+  author: "sqwibDev"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=sqwibDev.mutenight"
+colors:
+  bg: "#000000"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 72.4
+    black: 27.4
+    red: 45
+    green: 66.8
+    yellow: 79.9
+    blue: 56.9
+    magenta: 54.8
+    cyan: 79.3
+    white: 107.9
+    brightBlack: 27.4
+    brightRed: 45
+    brightGreen: 85.2
+    brightYellow: 79.9
+    brightBlue: 56.9
+    brightMagenta: 54.8
+    brightCyan: 79.3
+    brightWhite: 107.9

@@ -1,0 +1,49 @@
+name: "ashao-color-theme"
+source:
+  marketplace_id: "ashao.theme-ashao"
+  version: "1.0.0"
+  installs: 52
+  author: "ashao"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ashao.theme-ashao"
+colors:
+  bg: "#2B2B2B"
+  fg: "#C5C8C6"
+  black: "#1E1E1E"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 68.8
+    black: 0
+    red: 21.6
+    green: 50
+    yellow: 54.6
+    blue: 31.6
+    magenta: 29.2
+    cyan: 47.4
+    white: 85.5
+    brightBlack: 19
+    brightRed: 34.3
+    brightGreen: 74
+    brightYellow: 80.9
+    brightBlue: 46.8
+    brightMagenta: 43.5
+    brightCyan: 70.4
+    brightWhite: 98.9

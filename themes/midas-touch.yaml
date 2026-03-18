@@ -1,0 +1,49 @@
+name: "Midas Touch"
+source:
+  marketplace_id: "vshakitskiy.midas-touch"
+  version: "1.0.0"
+  installs: 70
+  author: "vshakitskiy"
+  repo: "https://github.com/vshakitskiy/midas_touch"
+  url: "https://marketplace.visualstudio.com/items?itemName=vshakitskiy.midas-touch"
+colors:
+  bg: "#101010"
+  fg: "#FFE3EB"
+  black: "#181818"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#F5C2E7"
+  cyan: "#94E2D5"
+  white: "#CDD6F4"
+  brightBlack: "#6C7086"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#89B4FA"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#94E2D5"
+  brightWhite: "#BAC2DE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 93.7
+    black: 0
+    red: 56.3
+    green: 80
+    yellow: 90
+    blue: 60.7
+    magenta: 78.3
+    cyan: 79.9
+    white: 81.6
+    brightBlack: 27.4
+    brightRed: 56.3
+    brightGreen: 80
+    brightYellow: 90
+    brightBlue: 60.7
+    brightMagenta: 78.3
+    brightCyan: 79.9
+    brightWhite: 69.7

@@ -1,0 +1,49 @@
+name: "ErikWDevTheme-color-theme"
+source:
+  marketplace_id: "ErikWDev.erikwdevtheme"
+  version: "1.2.2"
+  installs: 152
+  author: "ErikWDev"
+  repo: "https://www.github.com/ErikWDev/ErikWDevTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ErikWDev.erikwdevtheme"
+colors:
+  bg: "#20223A"
+  fg: "#CBCCC6"
+  black: "#1A1D34"
+  red: "#A577DE"
+  green: "#A6CC70"
+  yellow: "#E9B93F"
+  blue: "#6DCBFA"
+  magenta: "#BAFAF2"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#AA7CE3"
+  brightGreen: "#67C988"
+  brightYellow: "#EEBE44"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#BFFFF7"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 279
+  contrast:
+    fg: 72.5
+    black: 0
+    red: 38.3
+    green: 65.7
+    yellow: 65.7
+    blue: 66.2
+    magenta: 93.8
+    cyan: 76.1
+    white: 69.9
+    brightBlack: 21.1
+    brightRed: 40.8
+    brightGreen: 60
+    brightYellow: 68.6
+    brightBlue: 69.1
+    brightMagenta: 97
+    brightCyan: 79.1
+    brightWhite: 105.1

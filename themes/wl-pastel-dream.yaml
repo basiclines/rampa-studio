@@ -1,0 +1,49 @@
+name: "WL-Pastel Dream"
+source:
+  marketplace_id: "WatkinsLabs.pastel-dream"
+  version: "1.0.1"
+  installs: 35
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.pastel-dream"
+colors:
+  bg: "#FCF5EF"
+  fg: "#383A42"
+  black: "#000000"
+  red: "#FF6666"
+  green: "#66CC99"
+  yellow: "#FFCC66"
+  blue: "#99FFCC"
+  magenta: "#99CCFF"
+  cyan: "#99FFCC"
+  white: "#383A42"
+  brightBlack: "#666666"
+  brightRed: "#FF6666"
+  brightGreen: "#66CC99"
+  brightYellow: "#FFCC66"
+  brightBlue: "#99FFCC"
+  brightMagenta: "#99CCFF"
+  brightCyan: "#99FFCC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 90.9
+    black: 100.7
+    red: 48.6
+    green: 32.4
+    yellow: 17.6
+    blue: 0
+    magenta: 24.6
+    cyan: 0
+    white: 90.9
+    brightBlack: 73.4
+    brightRed: 48.6
+    brightGreen: 32.4
+    brightYellow: 17.6
+    brightBlue: 0
+    brightMagenta: 24.6
+    brightCyan: 0
+    brightWhite: 0

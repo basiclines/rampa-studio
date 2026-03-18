@@ -1,0 +1,49 @@
+name: "kitty night"
+source:
+  marketplace_id: "goldyflakes.kitty-night"
+  version: "3.0.5"
+  installs: 2645
+  author: "goldyflakes"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=goldyflakes.kitty-night"
+colors:
+  bg: "#222024"
+  fg: "#FFFFFF"
+  black: "#282A2E"
+  red: "#DA627D"
+  green: "#8FDA8F"
+  yellow: "#FFB492"
+  blue: "#6694CC"
+  magenta: "#F8C2E2"
+  cyan: "#CEFDFF"
+  white: "#807A79"
+  brightBlack: "#373B41"
+  brightRed: "#D87389"
+  brightGreen: "#A7E9B0"
+  brightYellow: "#FCC899"
+  brightBlue: "#8DC0DC"
+  brightMagenta: "#F2C1F9"
+  brightCyan: "#AED0C9"
+  brightWhite: "#DAD8D8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 105.7
+    black: 0
+    red: 37.6
+    green: 71.4
+    yellow: 69.6
+    blue: 41.1
+    magenta: 76.7
+    cyan: 98.5
+    white: 30.3
+    brightBlack: 0
+    brightRed: 41.7
+    brightGreen: 81.6
+    brightYellow: 77
+    brightBlue: 62.5
+    brightMagenta: 76.6
+    brightCyan: 71.6
+    brightWhite: 81

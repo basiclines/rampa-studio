@@ -1,0 +1,49 @@
+name: "Little League Light"
+source:
+  marketplace_id: "MatthewStrom.little-league"
+  version: "1.3.1"
+  installs: 565
+  author: "Matthew Ström"
+  repo: "https://github.com/ilikescience/little-league"
+  url: "https://marketplace.visualstudio.com/items?itemName=MatthewStrom.little-league"
+colors:
+  bg: "#FFFFFF"
+  fg: "#5A5A5D"
+  black: "#F5F5F5"
+  red: "#CA7967"
+  green: "#4E864E"
+  yellow: "#A8853D"
+  blue: "#4771E2"
+  magenta: "#A447E2"
+  cyan: "#3472C7"
+  white: "#35353B"
+  brightBlack: "#5A5A5D"
+  brightRed: "#EF6C6A"
+  brightGreen: "#AED88D"
+  brightYellow: "#D5A23C"
+  brightBlue: "#6494F6"
+  brightMagenta: "#BB64F6"
+  brightCyan: "#4095DF"
+  brightWhite: "#5A5A5D"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 83.8
+    black: 0
+    red: 59.7
+    green: 69.9
+    yellow: 61.9
+    blue: 70.4
+    magenta: 71
+    cyan: 72.9
+    white: 97.8
+    brightBlack: 83.8
+    brightRed: 55.9
+    brightGreen: 27.5
+    brightYellow: 45.5
+    brightBlue: 55.8
+    brightMagenta: 60.4
+    brightCyan: 58.8
+    brightWhite: 83.8

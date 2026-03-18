@@ -1,0 +1,49 @@
+name: "Tidelight Shore"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+colors:
+  bg: "#F1F5F9"
+  fg: "#0F172A"
+  black: "#0F172A"
+  red: "#BE123C"
+  green: "#16A34A"
+  yellow: "#B45309"
+  blue: "#2563EB"
+  magenta: "#BE185D"
+  cyan: "#0891B2"
+  white: "#334155"
+  brightBlack: "#0F172A"
+  brightRed: "#BE123C"
+  brightGreen: "#16A34A"
+  brightYellow: "#B45309"
+  brightBlue: "#2563EB"
+  brightMagenta: "#BE185D"
+  brightCyan: "#0891B2"
+  brightWhite: "#334155"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 98.3
+    black: 98.3
+    red: 72.9
+    green: 53.4
+    yellow: 67.7
+    blue: 68.6
+    magenta: 72
+    cyan: 57.5
+    white: 87.7
+    brightBlack: 98.3
+    brightRed: 72.9
+    brightGreen: 53.4
+    brightYellow: 67.7
+    brightBlue: 68.6
+    brightMagenta: 72
+    brightCyan: 57.5
+    brightWhite: 87.7

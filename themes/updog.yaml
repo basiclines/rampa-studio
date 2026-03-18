@@ -1,0 +1,49 @@
+name: "updog"
+source:
+  marketplace_id: "douggrubba.updog"
+  version: "1.5.1"
+  installs: 206
+  author: "douggrubba"
+  repo: "https://github.com/douggrubba/updog-vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=douggrubba.updog"
+colors:
+  bg: "#090A09"
+  fg: "#7CFB9D"
+  black: "#0B0C0B"
+  red: "#DE186F"
+  green: "#78E02F"
+  yellow: "#B6E02F"
+  blue: "#3DCDCD"
+  magenta: "#B953D9"
+  cyan: "#35D27A"
+  white: "#9AB28A"
+  brightBlack: "#040404"
+  brightRed: "#F80A73"
+  brightGreen: "#73F21A"
+  brightYellow: "#C3F50B"
+  brightBlue: "#24EBEB"
+  brightMagenta: "#D476F2"
+  brightCyan: "#1CE474"
+  brightWhite: "#C3DEB0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 89
+    black: 0
+    red: 31
+    green: 73.3
+    yellow: 78.5
+    blue: 65.4
+    magenta: 35.2
+    cyan: 64.8
+    white: 56.5
+    brightBlack: 0
+    brightRed: 37.1
+    brightGreen: 82.1
+    brightYellow: 90
+    brightBlue: 81
+    brightMagenta: 49.2
+    brightCyan: 73.2
+    brightWhite: 81.4

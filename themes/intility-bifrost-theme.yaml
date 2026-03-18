@@ -1,0 +1,49 @@
+name: "Intility Bifrost Theme"
+source:
+  marketplace_id: "augigauki.intility-bifrost-theme"
+  version: "0.1.7"
+  installs: 309
+  author: "August Gaukstad"
+  repo: "https://github.com/Intility/bifrost-skins"
+  url: "https://marketplace.visualstudio.com/items?itemName=augigauki.intility-bifrost-theme"
+colors:
+  bg: "#071627"
+  fg: "#DAE8F6"
+  black: "#003C8A"
+  red: "#FF4B33"
+  green: "#00F597"
+  yellow: "#FFEB94"
+  blue: "#477EFF"
+  magenta: "#C669FC"
+  cyan: "#0DF2D7"
+  white: "#F8FBFF"
+  brightBlack: "#4D4C4C"
+  brightRed: "#FF1E00"
+  brightGreen: "#00FF7C"
+  brightYellow: "#FFD452"
+  brightBlue: "#6CA5FF"
+  brightMagenta: "#FF47B6"
+  brightCyan: "#21FFE5"
+  brightWhite: "#FBFDFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 253
+  contrast:
+    fg: 90.9
+    black: 8.1
+    red: 41.5
+    green: 81.9
+    yellow: 93.8
+    blue: 36.8
+    magenta: 43.7
+    cyan: 82.6
+    white: 104.1
+    brightBlack: 11.9
+    brightRed: 37.1
+    brightGreen: 86.6
+    brightYellow: 82.4
+    brightBlue: 52.5
+    brightMagenta: 44.5
+    brightCyan: 90.1
+    brightWhite: 105.4

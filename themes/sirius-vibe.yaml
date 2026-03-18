@@ -1,0 +1,49 @@
+name: "Sirius-Vibe"
+source:
+  marketplace_id: "VLMADev.siriusthemes"
+  version: "1.1.5"
+  installs: 509
+  author: "VLMADev"
+  repo: "https://github.com/VLMADev/siriusthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=VLMADev.siriusthemes"
+colors:
+  bg: "#1E1E1E"
+  fg: "#E8E8E8"
+  black: "#1E1E1E"
+  red: "#F44336"
+  green: "#4CAF50"
+  yellow: "#FFEB3B"
+  blue: "#81C784"
+  magenta: "#E91E63"
+  cyan: "#4DB6AC"
+  white: "#E8E8E8"
+  brightBlack: "#757575"
+  brightRed: "#FFCDD2"
+  brightGreen: "#C8E6C9"
+  brightYellow: "#FFF9C4"
+  brightBlue: "#A5D6A7"
+  brightMagenta: "#F8BBD9"
+  brightCyan: "#B2DFDB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 91.1
+    black: 0
+    red: 36.9
+    green: 46.7
+    yellow: 91.5
+    blue: 61.6
+    magenta: 31.8
+    cyan: 52.4
+    white: 91.1
+    brightBlack: 27.8
+    brightRed: 81.9
+    brightGreen: 84.9
+    brightYellow: 100.8
+    brightBlue: 72.5
+    brightMagenta: 74
+    brightCyan: 80
+    brightWhite: 106

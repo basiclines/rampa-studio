@@ -1,0 +1,49 @@
+name: "patriot-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#0D0E0F"
+  fg: "#CAD9E3"
+  black: "#191B1D"
+  red: "#BA0E2E"
+  green: "#DE333C"
+  yellow: "#2E6FD9"
+  blue: "#FFFFFF"
+  magenta: "#BBBCC4"
+  cyan: "#DE333C"
+  white: "#DBE5EC"
+  brightBlack: "#3C4146"
+  brightRed: "#F03E5F"
+  brightGreen: "#EC8B90"
+  brightYellow: "#84AAE9"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#F2F2F3"
+  brightCyan: "#EC8B90"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 81.8
+    black: 0
+    red: 21.2
+    green: 31.5
+    yellow: 28.7
+    blue: 107.6
+    magenta: 66.2
+    cyan: 31.5
+    white: 89.7
+    brightBlack: 8.3
+    brightRed: 37.5
+    brightGreen: 54.2
+    brightYellow: 55.3
+    brightBlue: 107.6
+    brightMagenta: 99.1
+    brightCyan: 54.2
+    brightWhite: 107.6

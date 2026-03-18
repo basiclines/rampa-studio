@@ -1,0 +1,49 @@
+name: "earthsong-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#12100F"
+  fg: "#EBD1B7"
+  black: "#201C1B"
+  red: "#BA0E2E"
+  green: "#95CC5E"
+  yellow: "#DB784D"
+  blue: "#60A365"
+  magenta: "#DB784D"
+  cyan: "#95CC5E"
+  white: "#F1DECB"
+  brightBlack: "#4A413D"
+  brightRed: "#F03E5F"
+  brightGreen: "#C8E5AB"
+  brightYellow: "#ECB8A2"
+  brightBlue: "#A1C8A4"
+  brightMagenta: "#ECB8A2"
+  brightCyan: "#C8E5AB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 80.8
+    black: 0
+    red: 21
+    green: 66.1
+    yellow: 43.9
+    blue: 44.3
+    magenta: 43.9
+    cyan: 66.1
+    white: 88
+    brightBlack: 9
+    brightRed: 37.3
+    brightGreen: 84.7
+    brightYellow: 70.1
+    brightBlue: 67.1
+    brightMagenta: 70.1
+    brightCyan: 84.7
+    brightWhite: 107.4

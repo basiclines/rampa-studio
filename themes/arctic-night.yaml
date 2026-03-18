@@ -1,0 +1,49 @@
+name: "Arctic Night"
+source:
+  marketplace_id: "k22pr.arctic-night-theme"
+  version: "1.0.6"
+  installs: 53
+  author: "k22pr"
+  repo: "https://github.com/k22pr/arctic-night-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=k22pr.arctic-night-theme"
+colors:
+  bg: "#1A1D21"
+  fg: "#E6EDF3"
+  black: "#484F58"
+  red: "#BF7E78"
+  green: "#7FA684"
+  yellow: "#BFA673"
+  blue: "#7FA1C4"
+  magenta: "#BC8CFF"
+  cyan: "#80B0B5"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#D1A8A4"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#A1BDD6"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#80B0B5"
+  brightWhite: "#F0F6FC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  contrast:
+    fg: 93.8
+    black: 11.9
+    red: 40.5
+    green: 47.4
+    yellow: 54
+    blue: 48
+    magenta: 51
+    cyan: 53.4
+    white: 62.9
+    brightBlack: 28.1
+    brightRed: 58.8
+    brightGreen: 64.3
+    brightYellow: 63.5
+    brightBlue: 63.3
+    brightMagenta: 63.4
+    brightCyan: 53.4
+    brightWhite: 99.7

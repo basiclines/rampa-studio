@@ -1,0 +1,49 @@
+name: "Corduroy"
+source:
+  marketplace_id: "TaylorSattenfield.corduroy-theme-vscode"
+  version: "1.2.3"
+  installs: 861
+  author: "taysatte"
+  repo: "https://github.com/taysatte/corduroy-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TaylorSattenfield.corduroy-theme-vscode"
+colors:
+  bg: "#1D1920"
+  fg: "#CDC8D0"
+  black: "#362D3B"
+  red: "#E06278"
+  green: "#4B8686"
+  yellow: "#EDB392"
+  blue: "#D27F91"
+  magenta: "#C285B2"
+  cyan: "#E99D90"
+  white: "#CDC8D0"
+  brightBlack: "#887B8C"
+  brightRed: "#E06278"
+  brightGreen: "#4B8686"
+  brightYellow: "#EDB392"
+  brightBlue: "#D27F91"
+  brightMagenta: "#C285B2"
+  brightCyan: "#E99D90"
+  brightWhite: "#CDC8D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 311
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 39.5
+    green: 31.8
+    yellow: 67
+    blue: 45
+    magenta: 45.5
+    cyan: 58.4
+    white: 72.9
+    brightBlack: 33
+    brightRed: 39.5
+    brightGreen: 31.8
+    brightYellow: 67
+    brightBlue: 45
+    brightMagenta: 45.5
+    brightCyan: 58.4
+    brightWhite: 72.9

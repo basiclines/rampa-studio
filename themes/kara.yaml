@@ -1,0 +1,49 @@
+name: "Kara"
+source:
+  marketplace_id: "metecan.kara"
+  version: "0.1.2"
+  installs: 223
+  author: "metecan"
+  repo: "https://github.com/metecan/kara"
+  url: "https://marketplace.visualstudio.com/items?itemName=metecan.kara"
+colors:
+  bg: "#0A0A0A"
+  fg: "#ADADAD"
+  black: "#3D3D3D"
+  red: "#FF3333"
+  green: "#00FF64"
+  yellow: "#E0CE7B"
+  blue: "#1584FF"
+  magenta: "#FF02FF"
+  cyan: "#0AE1FF"
+  white: "#A3A3A3"
+  brightBlack: "#666666"
+  brightRed: "#FF6767"
+  brightGreen: "#97FFB1"
+  brightYellow: "#F2C94C"
+  brightBlue: "#95CCFF"
+  brightMagenta: "#FF9AFF"
+  brightCyan: "#8EF4FF"
+  brightWhite: "#C9C9C9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 57.7
+    black: 7.3
+    red: 39.5
+    green: 87
+    yellow: 76.5
+    blue: 38.3
+    magenta: 46.1
+    cyan: 77
+    white: 52.3
+    brightBlack: 22.9
+    brightRed: 48
+    brightGreen: 93.4
+    brightYellow: 76.4
+    brightBlue: 72.4
+    brightMagenta: 67.7
+    brightCyan: 90.5
+    brightWhite: 73.7

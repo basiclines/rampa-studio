@@ -1,0 +1,49 @@
+name: "tm2rd3"
+source:
+  marketplace_id: "rd-theme3.tm2-rd3"
+  version: "0.0.1"
+  installs: 50
+  author: "rd-theme3"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=rd-theme3.tm2-rd3"
+colors:
+  bg: "#2B303B"
+  fg: "#C5C8C6"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 266
+  contrast:
+    fg: 67.7
+    black: 0
+    red: 22.6
+    green: 48.9
+    yellow: 81.5
+    blue: 23.3
+    magenta: 25.7
+    cyan: 43.5
+    white: 85.9
+    brightBlack: 17.9
+    brightRed: 34.5
+    brightGreen: 59.4
+    brightYellow: 91.5
+    brightBlue: 35.9
+    brightMagenta: 41.3
+    brightCyan: 51.3
+    brightWhite: 85.9

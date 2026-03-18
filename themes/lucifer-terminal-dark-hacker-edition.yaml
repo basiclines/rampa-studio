@@ -1,0 +1,49 @@
+name: "Lucifer Terminal Dark (Hacker Edition)"
+source:
+  marketplace_id: "NishantUnavane.lucifer-dark"
+  version: "1.1.0"
+  installs: 51
+  author: "Nishant Unavane"
+  repo: "https://github.com/IamNishant51/Lucifer-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=NishantUnavane.lucifer-dark"
+colors:
+  bg: "#0B0E14"
+  fg: "#E0E8F0"
+  black: "#2A2F3A"
+  red: "#E76F7C"
+  green: "#73DDAA"
+  yellow: "#F7E16D"
+  blue: "#5BA9E2"
+  magenta: "#CC88D9"
+  cyan: "#66E2F5"
+  white: "#E0E8F0"
+  brightBlack: "#6A7B8E"
+  brightRed: "#FF8A96"
+  brightGreen: "#88FFC9"
+  brightYellow: "#FFF18A"
+  brightBlue: "#7EC2FA"
+  brightMagenta: "#E0A0F0"
+  brightCyan: "#88F5FF"
+  brightWhite: "#F0F6FC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  contrast:
+    fg: 91.9
+    black: 0
+    red: 45.1
+    green: 73.7
+    yellow: 87.8
+    blue: 51.8
+    magenta: 51.1
+    cyan: 78.7
+    white: 91.9
+    brightBlack: 31.3
+    brightRed: 57.8
+    brightGreen: 93.1
+    brightYellow: 96.9
+    brightBlue: 65.8
+    brightMagenta: 63.2
+    brightCyan: 90.4
+    brightWhite: 101.1

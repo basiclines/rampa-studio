@@ -1,0 +1,49 @@
+name: "tealy"
+source:
+  marketplace_id: "3060ti.tealy"
+  version: "0.0.2"
+  installs: 262
+  author: "3060ti"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=3060ti.tealy"
+colors:
+  bg: "#24483A"
+  fg: "#FFFFFF"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 167
+  contrast:
+    fg: 97.6
+    black: 9.7
+    red: 54.1
+    green: 81.6
+    yellow: 86.5
+    blue: 72.1
+    magenta: 65.5
+    cyan: 86.7
+    white: 65.4
+    brightBlack: 0
+    brightRed: 42.4
+    brightGreen: 77.5
+    brightYellow: 81.2
+    brightBlue: 52.9
+    brightMagenta: 41
+    brightCyan: 84.6
+    brightWhite: 97.6

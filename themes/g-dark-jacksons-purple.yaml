@@ -1,0 +1,49 @@
+name: "G Dark (Jacksons Purple)"
+source:
+  marketplace_id: "Stonec0der.g-dark-theme"
+  version: "5.0.1"
+  installs: 10981
+  author: "stonecoder"
+  repo: "https://github.com/stoneC0der/g-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Stonec0der.g-dark-theme"
+colors:
+  bg: "#2A3A71"
+  fg: "#C2D1DA"
+  black: "#6D7D93"
+  red: "#EE405D"
+  green: "#A1DF45"
+  yellow: "#EEE151"
+  blue: "#4377E8"
+  magenta: "#B66EE6"
+  cyan: "#55B9E1"
+  white: "#EEE6E6"
+  brightBlack: "#6A828E"
+  brightRed: "#DF2040"
+  brightGreen: "#42CD2D"
+  brightYellow: "#EAF517"
+  brightBlue: "#3F76ED"
+  brightMagenta: "#9B36DF"
+  brightCyan: "#59CAF7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 269
+  contrast:
+    fg: 68.1
+    black: 23.6
+    red: 28.4
+    green: 67.1
+    yellow: 77.3
+    blue: 24.3
+    magenta: 32.6
+    cyan: 49.3
+    white: 83.6
+    brightBlack: 24.9
+    brightRed: 21.6
+    brightGreen: 52.6
+    brightYellow: 85.8
+    brightBlue: 24.2
+    brightMagenta: 17.5
+    brightCyan: 58.3
+    brightWhite: 98.8

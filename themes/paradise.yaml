@@ -1,0 +1,49 @@
+name: "Paradise"
+source:
+  marketplace_id: "Manas.paradise-vscode"
+  version: "0.0.2"
+  installs: 1552
+  author: "Manas"
+  repo: "https://github.com/paradise-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Manas.paradise-vscode"
+colors:
+  bg: "#151515"
+  fg: "#E8E3E3"
+  black: "#151515"
+  red: "#B66467"
+  green: "#8C977D"
+  yellow: "#D9BC8C"
+  blue: "#8DA3B9"
+  magenta: "#A988B0"
+  cyan: "#8AA6A2"
+  white: "#E8E3E3"
+  brightBlack: "#424242"
+  brightRed: "#B66467"
+  brightGreen: "#8C977D"
+  brightYellow: "#D9BC8C"
+  brightBlue: "#8DA3B9"
+  brightMagenta: "#A988B0"
+  brightCyan: "#8AA6A2"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 89.6
+    black: 0
+    red: 32.2
+    green: 43.3
+    yellow: 67.8
+    blue: 50.3
+    magenta: 43.3
+    cyan: 50.2
+    white: 89.6
+    brightBlack: 8.3
+    brightRed: 32.2
+    brightGreen: 43.3
+    brightYellow: 67.8
+    brightBlue: 50.3
+    brightMagenta: 43.3
+    brightCyan: 50.2
+    brightWhite: 90.8

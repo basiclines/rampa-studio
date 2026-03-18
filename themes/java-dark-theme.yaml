@@ -1,0 +1,49 @@
+name: "Java Dark Theme"
+source:
+  marketplace_id: "Heejunnet.java-dark-theme"
+  version: "1.0.8"
+  installs: 28
+  author: "Heejun.net"
+  repo: "https://github.com/popul9/java-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Heejunnet.java-dark-theme"
+colors:
+  bg: "#1E1E1E"
+  fg: "#A9B7C6"
+  black: "#1E1E1E"
+  red: "#FF6B68"
+  green: "#6A8759"
+  yellow: "#FFC66D"
+  blue: "#4A9EFF"
+  magenta: "#CC7832"
+  cyan: "#6BDFFF"
+  white: "#A9B7C6"
+  brightBlack: "#1E1E1E"
+  brightRed: "#FF8785"
+  brightGreen: "#8FC78B"
+  brightYellow: "#FFD891"
+  brightBlue: "#75BFFF"
+  brightMagenta: "#E89450"
+  brightCyan: "#8FEDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 60.7
+    black: 0
+    red: 47.2
+    green: 32.4
+    yellow: 76.1
+    blue: 47.2
+    magenta: 39.5
+    cyan: 76.5
+    white: 60.7
+    brightBlack: 0
+    brightRed: 54.9
+    brightGreen: 62.9
+    brightYellow: 84.4
+    brightBlue: 62.7
+    brightMagenta: 53.4
+    brightCyan: 85.4
+    brightWhite: 106

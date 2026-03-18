@@ -1,0 +1,49 @@
+name: "Astrus Nebula"
+source:
+  marketplace_id: "shailesh43.astrus"
+  version: "1.0.1"
+  installs: 170
+  author: "Shailesh Sathe"
+  repo: "https://github.com/shailesh43/Astrus"
+  url: "https://marketplace.visualstudio.com/items?itemName=shailesh43.astrus"
+colors:
+  bg: "#1F1A27"
+  fg: "#ACB9D9"
+  black: "#1C1C1C"
+  red: "#C98181"
+  green: "#60FB77"
+  yellow: "#E3D37B"
+  blue: "#78A9FF"
+  magenta: "#CA79F9"
+  cyan: "#73D0FF"
+  white: "#D9D9D9"
+  brightBlack: "#65686F"
+  brightRed: "#FFBFBF"
+  brightGreen: "#9DFAAB"
+  brightYellow: "#FAD07B"
+  brightBlue: "#6696E9"
+  brightMagenta: "#F0ABFC"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 302
+  contrast:
+    fg: 63
+    black: 0
+    red: 43.3
+    green: 85.3
+    yellow: 77.6
+    blue: 54.2
+    magenta: 47.3
+    cyan: 70.3
+    white: 81.9
+    brightBlack: 22.2
+    brightRed: 75.8
+    brightGreen: 89.7
+    brightYellow: 79.9
+    brightBlue: 44.2
+    brightMagenta: 69
+    brightCyan: 80.6
+    brightWhite: 106.3

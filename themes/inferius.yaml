@@ -1,0 +1,49 @@
+name: "inferius"
+source:
+  marketplace_id: "inferigang.inferius"
+  version: "1.0.1"
+  installs: 216
+  author: "inferigang"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=inferigang.inferius"
+colors:
+  bg: "#202020"
+  fg: "#F5F5F5"
+  black: "#303030"
+  red: "#E6002C"
+  green: "#3CF084"
+  yellow: "#F0DE3C"
+  blue: "#3C84F0"
+  magenta: "#A13CF0"
+  cyan: "#22A3D6"
+  white: "#F5F5F5"
+  brightBlack: "#CBCBCB"
+  brightRed: "#FF5D7B"
+  brightGreen: "#8FED31"
+  brightYellow: "#FFF384"
+  brightBlue: "#3CBAF0"
+  brightMagenta: "#C06EFF"
+  brightCyan: "#3CF0C5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 29.4
+    green: 78.2
+    yellow: 83.1
+    blue: 35.9
+    magenta: 27.7
+    cyan: 45.1
+    white: 99.2
+    brightBlack: 73
+    brightRed: 44.5
+    brightGreen: 79.4
+    brightYellow: 95.9
+    brightBlue: 56.8
+    brightMagenta: 42.9
+    brightCyan: 80.2
+    brightWhite: 105.8

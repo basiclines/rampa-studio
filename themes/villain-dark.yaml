@@ -1,0 +1,49 @@
+name: "villain-dark"
+source:
+  marketplace_id: "sahilkumardev.villan-theam"
+  version: "0.0.2"
+  installs: 558
+  author: "sahil kumar dev"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=sahilkumardev.villan-theam"
+colors:
+  bg: "#28282B"
+  fg: "#FFFFFF"
+  black: "#1E1E20"
+  red: "#FF6F5E"
+  green: "#7ED957"
+  yellow: "#FFC56C"
+  blue: "#9F6DFF"
+  magenta: "#FFA256"
+  cyan: "#B7A6FF"
+  white: "#D4CCFF"
+  brightBlack: "#3A3A3E"
+  brightRed: "#FF8A7A"
+  brightGreen: "#96E56F"
+  brightYellow: "#FFD280"
+  brightBlue: "#B7A6FF"
+  brightMagenta: "#FFB374"
+  brightCyan: "#C8B7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 104.4
+    black: 0
+    red: 46.2
+    green: 67.3
+    yellow: 74
+    blue: 36.7
+    magenta: 60.7
+    cyan: 57.3
+    white: 75.8
+    brightBlack: 0
+    brightRed: 53.9
+    brightGreen: 75.3
+    brightYellow: 79.8
+    brightBlue: 57.3
+    brightMagenta: 67.2
+    brightCyan: 65.8
+    brightWhite: 104.4

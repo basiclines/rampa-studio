@@ -1,0 +1,49 @@
+name: "Zenbones Seoulbones Light"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2700
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+colors:
+  bg: "#E2E2E2"
+  fg: "#555555"
+  black: "#E2E2E2"
+  red: "#DC5284"
+  green: "#628562"
+  yellow: "#C48562"
+  blue: "#0084A3"
+  magenta: "#896788"
+  cyan: "#008586"
+  white: "#555555"
+  brightBlack: "#BFBABB"
+  brightRed: "#BE3C6D"
+  brightGreen: "#487249"
+  brightYellow: "#A76B48"
+  brightBlue: "#006F89"
+  brightMagenta: "#7F4C7E"
+  brightCyan: "#006F70"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 68.9
+    black: 0
+    red: 47.3
+    green: 51.5
+    yellow: 40.1
+    blue: 52.4
+    magenta: 56.3
+    cyan: 53.4
+    white: 68.9
+    brightBlack: 19.6
+    brightRed: 57.6
+    brightGreen: 60.6
+    brightYellow: 52.8
+    brightBlue: 61.3
+    brightMagenta: 64.9
+    brightCyan: 62.3
+    brightWhite: 54

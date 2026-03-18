@@ -1,0 +1,49 @@
+name: "Levuaska"
+source:
+  marketplace_id: "AidenLeeIthink.levuaska"
+  version: "0.2.0"
+  installs: 117
+  author: "Aiden Lee I think"
+  repo: "https://github.com/snaapsh0t12/Levuaska"
+  url: "https://marketplace.visualstudio.com/items?itemName=AidenLeeIthink.levuaska"
+colors:
+  bg: "#0F0F17"
+  fg: "#D4D4D4"
+  black: "#1A1826"
+  red: "#D78787"
+  green: "#AFBEA2"
+  yellow: "#E4C9AF"
+  blue: "#96CDFB"
+  magenta: "#C98BBF"
+  cyan: "#A1BDCE"
+  white: "#B1B9C7"
+  brightBlack: "#988BA2"
+  brightRed: "#F28FAD"
+  brightGreen: "#ABE983"
+  brightYellow: "#FAE380"
+  brightBlue: "#B8DFFF"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#89DCEB"
+  brightWhite: "#D2D3C9"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 285
+  contrast:
+    fg: 80.1
+    black: 0
+    red: 48.9
+    green: 64.2
+    yellow: 76.2
+    blue: 72.4
+    magenta: 50
+    cyan: 64.1
+    white: 63.8
+    brightBlack: 42
+    brightRed: 57.5
+    brightGreen: 82.6
+    brightYellow: 89.4
+    brightBlue: 83.8
+    brightMagenta: 78.3
+    brightCyan: 77.3
+    brightWhite: 78.9

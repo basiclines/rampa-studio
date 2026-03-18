@@ -1,0 +1,49 @@
+name: "NiketaPrettier"
+source:
+  marketplace_id: "selfrefactor.allegory-theme"
+  version: "0.1.1"
+  installs: 768
+  author: "selfrefactor"
+  repo: "https://github.com/selfrefactor/allegory-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=selfrefactor.allegory-theme"
+colors:
+  bg: "#1A2B34"
+  fg: "#CEE2EE"
+  black: "#1A2B34"
+  red: "#8F001C"
+  green: "#005144"
+  yellow: "#BFAE73"
+  blue: "#73BDBB"
+  magenta: "#CBA2D0"
+  cyan: "#5EBDD9"
+  white: "#CEE2EE"
+  brightBlack: "#51636D"
+  brightRed: "#FF817D"
+  brightGreen: "#61C0AE"
+  brightYellow: "#BFAE73"
+  brightBlue: "#73BDBB"
+  brightMagenta: "#CBA2D0"
+  brightCyan: "#5EBDD9"
+  brightWhite: "#EEFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 232
+  contrast:
+    fg: 83.5
+    black: 0
+    red: 8.8
+    green: 7.7
+    yellow: 55.1
+    blue: 56.3
+    magenta: 55.6
+    cyan: 56.5
+    white: 83.5
+    brightBlack: 17
+    brightRed: 51.3
+    brightGreen: 56
+    brightYellow: 55.1
+    brightBlue: 56.3
+    brightMagenta: 55.6
+    brightCyan: 56.5
+    brightWhite: 101.9

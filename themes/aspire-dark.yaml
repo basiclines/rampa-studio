@@ -1,0 +1,49 @@
+name: "Aspire Dark"
+source:
+  marketplace_id: "adwardstark.catacino"
+  version: "1.0.2"
+  installs: 170
+  author: "Aditya Awasthi"
+  repo: "https://github.com/adwardstark/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=adwardstark.catacino"
+colors:
+  bg: "#293034"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#F56F51"
+  green: "#0DBC79"
+  yellow: "#FABC41"
+  blue: "#0969FF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F56F51"
+  brightGreen: "#23D18B"
+  brightYellow: "#FABC41"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 233
+  contrast:
+    fg: 103
+    black: 0
+    red: 42.5
+    green: 49.1
+    yellow: 67.7
+    blue: 25.2
+    magenta: 25.9
+    cyan: 43.7
+    white: 86.1
+    brightBlack: 18.2
+    brightRed: 42.5
+    brightGreen: 59.7
+    brightYellow: 67.7
+    brightBlue: 36.1
+    brightMagenta: 41.5
+    brightCyan: 51.5
+    brightWhite: 86.1

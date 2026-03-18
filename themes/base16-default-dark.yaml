@@ -1,0 +1,49 @@
+name: "Base16 Default Dark"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159085
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+colors:
+  bg: "#181818"
+  fg: "#D8D8D8"
+  black: "#383838"
+  red: "#AB4642"
+  green: "#A1B56C"
+  yellow: "#DC9656"
+  blue: "#7CAFC2"
+  magenta: "#BA8BAF"
+  cyan: "#86C1B9"
+  white: "#E8E8E8"
+  brightBlack: "#585858"
+  brightRed: "#AB4642"
+  brightGreen: "#A1B56C"
+  brightYellow: "#F7CA88"
+  brightBlue: "#7CAFC2"
+  brightMagenta: "#BA8BAF"
+  brightCyan: "#86C1B9"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 81.8
+    black: 0
+    red: 22.8
+    green: 56.7
+    yellow: 52.7
+    blue: 53.8
+    magenta: 46.3
+    cyan: 61.8
+    white: 91.8
+    brightBlack: 16.2
+    brightRed: 22.8
+    brightGreen: 56.7
+    brightYellow: 77.7
+    brightBlue: 53.8
+    brightMagenta: 46.3
+    brightCyan: 61.8
+    brightWhite: 102.1

@@ -1,0 +1,49 @@
+name: "Pushkin is White"
+source:
+  marketplace_id: "ispushkin.pushkin-is-white-theme"
+  version: "0.0.7"
+  installs: 12362
+  author: "IS. Pushkin"
+  repo: "https://github.com/llatigid/Pushkin-is-White-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ispushkin.pushkin-is-white-theme"
+colors:
+  bg: "#F4F4F4"
+  fg: "#000000"
+  black: "#262626"
+  red: "#D70000"
+  green: "#5F8700"
+  yellow: "#AF8700"
+  blue: "#0087FF"
+  magenta: "#AF005F"
+  cyan: "#00AFAF"
+  white: "#808080"
+  brightBlack: "#1C1C1C"
+  brightRed: "#D75F00"
+  brightGreen: "#585858"
+  brightYellow: "#626262"
+  brightBlue: "#808080"
+  brightMagenta: "#5F5FAF"
+  brightCyan: "#808080"
+  brightWhite: "#808080"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 99.5
+    black: 95.5
+    red: 67.4
+    green: 62.5
+    yellow: 54
+    blue: 55.7
+    magenta: 75.3
+    cyan: 45.3
+    white: 60.3
+    brightBlack: 97.4
+    brightRed: 58.1
+    brightGreen: 78.1
+    brightYellow: 73.9
+    brightBlue: 60.3
+    brightMagenta: 71.3
+    brightCyan: 60.3
+    brightWhite: 60.3

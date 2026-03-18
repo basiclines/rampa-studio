@@ -1,0 +1,49 @@
+name: "Xiali Vintage Rose Light"
+source:
+  marketplace_id: "xiali-themes.xiali-vintage-rose"
+  version: "1.1.1"
+  installs: 20
+  author: "xiali-themes"
+  repo: "https://github.com/Fernando-Leon/xiali-vintage-rose"
+  url: "https://marketplace.visualstudio.com/items?itemName=xiali-themes.xiali-vintage-rose"
+colors:
+  bg: "#FDF0F0"
+  fg: "#3E1022"
+  black: "#3E1022"
+  red: "#9C3348"
+  green: "#8A4A58"
+  yellow: "#B56070"
+  blue: "#A04D5E"
+  magenta: "#C2607A"
+  cyan: "#B56070"
+  white: "#EDD5C8"
+  brightBlack: "#7A3347"
+  brightRed: "#C2607A"
+  brightGreen: "#A04D5E"
+  brightYellow: "#C97B87"
+  brightBlue: "#D4758C"
+  brightMagenta: "#EAAEB2"
+  brightCyan: "#F2C4C4"
+  brightWhite: "#FDF0F0"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 95.4
+    black: 95.4
+    red: 76.3
+    green: 75
+    yellow: 62.3
+    blue: 70.6
+    magenta: 59.7
+    cyan: 62.3
+    white: 12.3
+    brightBlack: 82.3
+    brightRed: 59.7
+    brightGreen: 70.6
+    brightYellow: 51.1
+    brightBlue: 50.7
+    brightMagenta: 28.2
+    brightCyan: 18.4
+    brightWhite: 0

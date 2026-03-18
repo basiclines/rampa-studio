@@ -1,0 +1,49 @@
+name: "Nier: Automata Light Theme"
+source:
+  marketplace_id: "b5261b62-5943-495a-a2cd-2b281ddb7a76.vscode-nier-automata-theme"
+  version: "1.0.0"
+  installs: 15576
+  author: "Shelune"
+  repo: "https://github.com/shelune/vscode-nier-automata-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=b5261b62-5943-495a-a2cd-2b281ddb7a76.vscode-nier-automata-theme"
+colors:
+  bg: "#DAD3BA"
+  fg: "#4E4B42"
+  black: "#DAD3BA"
+  red: "#727B5B"
+  green: "#727B5B"
+  yellow: "#62473B"
+  blue: "#4A5246"
+  magenta: "#BA7F6E"
+  cyan: "#CC654C"
+  white: "#4F4E43"
+  brightBlack: "#8D8F7E"
+  brightRed: "#2E3335"
+  brightGreen: "#CC654C"
+  brightYellow: "#62473B"
+  brightBlue: "#4A5246"
+  brightMagenta: "#BA7F6E"
+  brightCyan: "#CC654C"
+  brightWhite: "#4E4B42"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 94
+  contrast:
+    fg: 64.2
+    black: 0
+    red: 45.3
+    green: 45.3
+    yellow: 63.4
+    blue: 62.4
+    magenta: 34.6
+    cyan: 39.3
+    white: 63.3
+    brightBlack: 34.7
+    brightRed: 73.2
+    brightGreen: 39.3
+    brightYellow: 63.4
+    brightBlue: 62.4
+    brightMagenta: 34.6
+    brightCyan: 39.3
+    brightWhite: 64.2

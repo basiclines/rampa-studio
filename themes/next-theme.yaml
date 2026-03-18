@@ -1,0 +1,49 @@
+name: "next-theme"
+source:
+  marketplace_id: "akirco.seabear-theme"
+  version: "0.0.3"
+  installs: 101
+  author: "akirco"
+  repo: "https://github.com/akirco/seaBear-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=akirco.seabear-theme"
+colors:
+  bg: "#1F2023"
+  fg: "#8DBCA4"
+  black: "#2C5A65"
+  red: "#00B4D8"
+  green: "#24936E"
+  yellow: "#9F86C0"
+  blue: "#DB1369"
+  magenta: "#00B4D8"
+  cyan: "#69B0AC"
+  white: "#EEE8D5"
+  brightBlack: "#666666"
+  brightRed: "#9F86C0"
+  brightGreen: "#5C8490"
+  brightYellow: "#657B83"
+  brightBlue: "#DB1369"
+  brightMagenta: "#646695"
+  brightCyan: "#93A1A1"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 58.4
+    black: 13.6
+    red: 52.1
+    green: 34.1
+    yellow: 40.9
+    blue: 28
+    magenta: 52.1
+    cyan: 50.9
+    white: 90.8
+    brightBlack: 20.9
+    brightRed: 40.9
+    brightGreen: 31.7
+    brightYellow: 28.6
+    brightBlue: 28
+    brightMagenta: 22.6
+    brightCyan: 47.8
+    brightWhite: 100

@@ -1,0 +1,49 @@
+name: "Electric Sheep"
+source:
+  marketplace_id: "JMWeeks.electric-sheep"
+  version: "0.1.2"
+  installs: 224
+  author: "JMWeeks"
+  repo: "https://github.com/cyanitol/Theme.VSCode.ElectricSheep"
+  url: "https://marketplace.visualstudio.com/items?itemName=JMWeeks.electric-sheep"
+colors:
+  bg: "#012456"
+  fg: "#F5F5F5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#107C10"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 258
+  contrast:
+    fg: 97.8
+    black: 0
+    red: 24.2
+    green: 22.1
+    yellow: 40.4
+    blue: 12.5
+    magenta: 23.7
+    cyan: 37.6
+    white: 12.6
+    brightBlack: 19.6
+    brightRed: 24.2
+    brightGreen: 57.9
+    brightYellow: 57.8
+    brightBlue: 12.5
+    brightMagenta: 23.7
+    brightCyan: 37.6
+    brightWhite: 50.1

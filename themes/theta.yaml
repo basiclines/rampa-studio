@@ -1,0 +1,49 @@
+name: ".Theta"
+source:
+  marketplace_id: "slepe.topl-theme"
+  version: "1.0.1"
+  installs: 824
+  author: "Slepe"
+  repo: "https://github.com/slepe/topl-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=slepe.topl-theme"
+colors:
+  bg: "#13131A"
+  fg: "#CFDEE6"
+  black: "#484E5B"
+  red: "#FF1654"
+  green: "#70C1B3"
+  yellow: "#F3FFBD"
+  blue: "#FF1654"
+  magenta: "#FF1654"
+  cyan: "#CFDEE6"
+  white: "#CFDEE6"
+  brightBlack: "#484E5B"
+  brightRed: "#FF1654"
+  brightGreen: "#70C1B3"
+  brightYellow: "#F3FFBD"
+  brightBlue: "#FF1654"
+  brightMagenta: "#FF1654"
+  brightCyan: "#CFDEE6"
+  brightWhite: "#CFDEE6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  contrast:
+    fg: 84.4
+    black: 12.7
+    red: 37.7
+    green: 60.4
+    yellow: 102.9
+    blue: 37.7
+    magenta: 37.7
+    cyan: 84.4
+    white: 84.4
+    brightBlack: 12.7
+    brightRed: 37.7
+    brightGreen: 60.4
+    brightYellow: 102.9
+    brightBlue: 37.7
+    brightMagenta: 37.7
+    brightCyan: 84.4
+    brightWhite: 84.4

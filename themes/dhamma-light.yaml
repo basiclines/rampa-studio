@@ -1,0 +1,49 @@
+name: "Dhamma Light"
+source:
+  marketplace_id: "tanmaybalwa.dhamma-theme"
+  version: "1.0.0"
+  installs: 16
+  author: "Tanmay Balwa"
+  repo: "https://github.com/your-username/dhamma-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tanmaybalwa.dhamma-theme"
+colors:
+  bg: "#F5F1E8"
+  fg: "#2B2B2B"
+  black: "#2B2B2B"
+  red: "#C74545"
+  green: "#5A8F5A"
+  yellow: "#C5A028"
+  blue: "#5A7A8F"
+  magenta: "#9A6FB8"
+  cyan: "#4A6A7A"
+  white: "#E8E4DB"
+  brightBlack: "#707070"
+  brightRed: "#E06C75"
+  brightGreen: "#6FA86F"
+  brightYellow: "#D4AF37"
+  brightBlue: "#6B8E9F"
+  brightMagenta: "#B88FD0"
+  brightCyan: "#5A7A8F"
+  brightWhite: "#F5F1E8"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 92.7
+    black: 92.7
+    red: 64.2
+    green: 57.3
+    yellow: 40.5
+    blue: 63.4
+    magenta: 58.4
+    cyan: 70.7
+    white: 0
+    brightBlack: 66.1
+    brightRed: 50.4
+    brightGreen: 45.6
+    brightYellow: 32.8
+    brightBlue: 54.4
+    brightMagenta: 43.6
+    brightCyan: 63.4
+    brightWhite: 0

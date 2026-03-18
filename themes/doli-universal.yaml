@@ -1,0 +1,49 @@
+name: "Doli Universal"
+source:
+  marketplace_id: "EthanLi.ethan-li-cyber-glow-theme"
+  version: "1.0.3"
+  installs: 58
+  author: "EthanLi"
+  repo: "https://github.com/LQYld/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EthanLi.ethan-li-cyber-glow-theme"
+colors:
+  bg: "#2B2B2B"
+  fg: "#C6CACD"
+  black: "#393A34"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 70.1
+    black: 0
+    red: 37.7
+    green: 33.7
+    yellow: 72.6
+    blue: 38.3
+    magenta: 40.9
+    cyan: 46.2
+    white: 78.3
+    brightBlack: 26.5
+    brightRed: 37.7
+    brightGreen: 33.7
+    brightYellow: 72.6
+    brightBlue: 38.3
+    brightMagenta: 40.9
+    brightCyan: 46.2
+    brightWhite: 103.8

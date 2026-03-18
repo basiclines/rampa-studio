@@ -1,0 +1,49 @@
+name: "Phosphor Event Horizon"
+source:
+  marketplace_id: "glidebuild.phosphor-themes"
+  version: "1.0.0"
+  installs: 40
+  author: "glide.build"
+  repo: "https://github.com/mo-shawa/phosphor-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=glidebuild.phosphor-themes"
+colors:
+  bg: "#000000"
+  fg: "#CC9999"
+  black: "#110808"
+  red: "#FF0044"
+  green: "#00FF88"
+  yellow: "#FFCC00"
+  blue: "#0088FF"
+  magenta: "#8800FF"
+  cyan: "#00CCFF"
+  white: "#AA8888"
+  brightBlack: "#554444"
+  brightRed: "#FF4488"
+  brightGreen: "#44FFAA"
+  brightYellow: "#FFEE44"
+  brightBlue: "#44AAFF"
+  brightMagenta: "#AA44FF"
+  brightCyan: "#44DDFF"
+  brightWhite: "#FFCCCC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  contrast:
+    fg: 53.9
+    black: 0
+    red: 37.9
+    green: 87.8
+    yellow: 79.6
+    blue: 39.8
+    magenta: 24.4
+    cyan: 67.2
+    white: 42.7
+    brightBlack: 11.3
+    brightRed: 43.2
+    brightGreen: 89.4
+    brightYellow: 94.8
+    brightBlue: 53.5
+    brightMagenta: 33.6
+    brightCyan: 75.9
+    brightWhite: 83.1

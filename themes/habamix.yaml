@@ -1,0 +1,49 @@
+name: "habamix"
+source:
+  marketplace_id: "dpdpdp.habamix"
+  version: "0.2.0"
+  installs: 671
+  author: "dpdpdp"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=dpdpdp.habamix"
+colors:
+  bg: "#1C1C1C"
+  fg: "#BCBCBC"
+  black: "#2C2C2C"
+  red: "#D75F5F"
+  green: "#87AF87"
+  yellow: "#AFAF87"
+  blue: "#5F87AF"
+  magenta: "#AF87AF"
+  cyan: "#5F8787"
+  white: "#B4B4B4"
+  brightBlack: "#767676"
+  brightRed: "#D7875F"
+  brightGreen: "#AFD7AF"
+  brightYellow: "#D7D787"
+  brightBlue: "#87AFD7"
+  brightMagenta: "#D7AFD7"
+  brightCyan: "#87AFAF"
+  brightWhite: "#BCBCBC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 64.7
+    black: 0
+    red: 36.2
+    green: 51.9
+    yellow: 56
+    blue: 34.9
+    magenta: 43
+    cyan: 33.1
+    white: 60.2
+    brightBlack: 28.5
+    brightRed: 46.7
+    brightGreen: 74.5
+    brightYellow: 78.1
+    brightBlue: 55.3
+    brightMagenta: 64.5
+    brightCyan: 53.4
+    brightWhite: 64.7

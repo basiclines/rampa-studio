@@ -1,0 +1,49 @@
+name: "Codely Dark Theme"
+source:
+  marketplace_id: "Rupesh9369.Codely-Dark-Pro-Theme"
+  version: "0.4.0"
+  installs: 477
+  author: "Rupesh9369"
+  repo: "https://github.com/Rupesh9369/Codely-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rupesh9369.Codely-Dark-Pro-Theme"
+colors:
+  bg: "#202124"
+  fg: "#EBDBB2"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#B8BB26"
+  blue: "#0747E0"
+  magenta: "#E46C8D"
+  cyan: "#2BB5D7"
+  white: "#E5E5E5"
+  brightBlack: "#DDDDDD"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#E8EC25"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#E4537A"
+  brightCyan: "#00CDFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  contrast:
+    fg: 83.1
+    black: 0
+    red: 25.4
+    green: 51.7
+    yellow: 59.9
+    blue: 16.5
+    magenta: 42.3
+    cyan: 52.6
+    white: 88.8
+    brightBlack: 83.7
+    brightRed: 37.3
+    brightGreen: 62.3
+    brightYellow: 88.1
+    brightBlue: 38.7
+    brightMagenta: 36.6
+    brightCyan: 65.4
+    brightWhite: 88.8

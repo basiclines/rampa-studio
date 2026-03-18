@@ -1,0 +1,49 @@
+name: "warlock"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#4B4060"
+  fg: "#FFFFFF"
+  black: "#574A6F"
+  red: "#BA0E2E"
+  green: "#F46036"
+  yellow: "#7EB1DD"
+  blue: "#7C86D6"
+  magenta: "#B67AE8"
+  cyan: "#F46036"
+  white: "#FFFFFF"
+  brightBlack: "#7B6A9C"
+  brightRed: "#F03E5F"
+  brightGreen: "#F9AC97"
+  brightYellow: "#CFE2F2"
+  brightBlue: "#CACEEE"
+  brightMagenta: "#E6D1F7"
+  brightCyan: "#F9AC97"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 300
+  contrast:
+    fg: 96.3
+    black: 0
+    red: 9.9
+    green: 32
+    yellow: 45.7
+    blue: 29.1
+    magenta: 33.4
+    cyan: 32
+    white: 96.3
+    brightBlack: 16.9
+    brightRed: 26.2
+    brightGreen: 56.4
+    brightYellow: 75.9
+    brightBlue: 66.3
+    brightMagenta: 71.8
+    brightCyan: 56.4
+    brightWhite: 96.3

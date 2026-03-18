@@ -1,0 +1,49 @@
+name: "Marcial Theme"
+source:
+  marketplace_id: "martial-theme.martial-theme"
+  version: "0.0.1"
+  installs: 664
+  author: "Martial Theme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=martial-theme.martial-theme"
+colors:
+  bg: "#252634"
+  fg: "#ABB2BF"
+  black: "#264EB2"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#F0EA4A"
+  blue: "#F0EA4A"
+  magenta: "#C162DE"
+  cyan: "#4C41C7"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0EA4A"
+  brightBlue: "#F0EA4A"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#F0EA4A"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 281
+  contrast:
+    fg: 57.1
+    black: 13.4
+    red: 34.4
+    green: 58.1
+    yellow: 87.5
+    blue: 87.5
+    magenta: 36.8
+    cyan: 14.1
+    white: 80.8
+    brightBlack: 13.2
+    brightRed: 43.8
+    brightGreen: 74.5
+    brightYellow: 87.5
+    brightBlue: 87.5
+    brightMagenta: 48
+    brightCyan: 87.5
+    brightWhite: 88.4

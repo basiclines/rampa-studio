@@ -1,0 +1,49 @@
+name: "vColdTheme"
+source:
+  marketplace_id: "vgColdTheme.vgColdTheme"
+  version: "0.0.4"
+  installs: 53
+  author: "vgColdTheme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=vgColdTheme.vgColdTheme"
+colors:
+  bg: "#393E4E"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#2E3240"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  contrast:
+    fg: 93.7
+    black: 0
+    red: 16.4
+    green: 44.8
+    yellow: 49.4
+    blue: 0
+    magenta: 24
+    cyan: 42.2
+    white: 80.2
+    brightBlack: 13.8
+    brightRed: 29.1
+    brightGreen: 68.7
+    brightYellow: 75.7
+    brightBlue: 41.6
+    brightMagenta: 38.3
+    brightCyan: 65.2
+    brightWhite: 93.7

@@ -1,0 +1,49 @@
+name: "Meitnerium Theme"
+source:
+  marketplace_id: "c-jaenicke.meitnerium-theme"
+  version: "0.2.1"
+  installs: 90
+  author: "c-jaenicke"
+  repo: "https://github.com/c-jaenicke/meitnerium-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=c-jaenicke.meitnerium-theme"
+colors:
+  bg: "#21262B"
+  fg: "#FEFBEC"
+  black: "#424B55"
+  red: "#F32E2E"
+  green: "#75EE37"
+  yellow: "#F2CF26"
+  blue: "#3160F2"
+  magenta: "#C930F3"
+  cyan: "#2BEEB4"
+  white: "#DEDEDD"
+  brightBlack: "#7D7A68"
+  brightRed: "#FF9F9F"
+  brightGreen: "#ACFF82"
+  brightYellow: "#FFE87B"
+  brightBlue: "#7C9CFF"
+  brightMagenta: "#E279FF"
+  brightCyan: "#75FFD6"
+  brightWhite: "#FEFBEC"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 248
+  contrast:
+    fg: 102
+    black: 9
+    red: 33.2
+    green: 77.4
+    yellow: 75.8
+    blue: 24
+    magenta: 32.6
+    cyan: 77.4
+    white: 83.6
+    brightBlack: 28.7
+    brightRed: 61.9
+    brightGreen: 91.1
+    brightYellow: 89.8
+    brightBlue: 48.2
+    brightMagenta: 50.4
+    brightCyan: 89.8
+    brightWhite: 102

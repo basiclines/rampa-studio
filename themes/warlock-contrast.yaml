@@ -1,0 +1,49 @@
+name: "warlock-contrast"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 527899
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+colors:
+  bg: "#171123"
+  fg: "#FFFFFF"
+  black: "#221934"
+  red: "#BA0E2E"
+  green: "#F46036"
+  yellow: "#5B85AA"
+  blue: "#5B64A3"
+  magenta: "#9559C6"
+  cyan: "#F46036"
+  white: "#FFFFFF"
+  brightBlack: "#443268"
+  brightRed: "#F03E5F"
+  brightGreen: "#F9AC97"
+  brightYellow: "#9EB7CD"
+  brightBlue: "#9CA2C8"
+  brightMagenta: "#C5A5E0"
+  brightCyan: "#F9AC97"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 298
+  contrast:
+    fg: 107.1
+    black: 0
+    red: 20.7
+    green: 42.8
+    yellow: 34.5
+    blue: 23.4
+    magenta: 29
+    cyan: 42.8
+    white: 107.1
+    brightBlack: 0
+    brightRed: 37
+    brightGreen: 67.2
+    brightYellow: 60.9
+    brightBlue: 52.2
+    brightMagenta: 59.6
+    brightCyan: 67.2
+    brightWhite: 107.1

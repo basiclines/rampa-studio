@@ -1,0 +1,49 @@
+name: "lazy yellow lemon"
+source:
+  marketplace_id: "arnorhs.lazy-yellow-lemon"
+  version: "0.0.2"
+  installs: 1250
+  author: "Arnor Heidar Sigurdsson"
+  repo: "https://github.com/arnorhs/lazy-yellow-lemon"
+  url: "https://marketplace.visualstudio.com/items?itemName=arnorhs.lazy-yellow-lemon"
+colors:
+  bg: "#FFFCD2"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 103
+    black: 103
+    red: 71
+    green: 46.2
+    yellow: 54.9
+    blue: 83
+    magenta: 71.5
+    cyan: 57.6
+    white: 82.9
+    brightBlack: 75.7
+    brightRed: 71
+    brightGreen: 37.9
+    brightYellow: 37.9
+    brightBlue: 83
+    brightMagenta: 71.5
+    brightCyan: 57.6
+    brightWhite: 45.4

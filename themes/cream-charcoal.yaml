@@ -1,0 +1,49 @@
+name: "Cream Charcoal"
+source:
+  marketplace_id: "Icycoldveins.verum-monokai-themes"
+  version: "1.2.1"
+  installs: 46
+  author: "Icycoldveins"
+  repo: "https://github.com/icycoldveins/Ide-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Icycoldveins.verum-monokai-themes"
+colors:
+  bg: "#2D2A2E"
+  fg: "#A89984"
+  black: "#1A1A1A"
+  red: "#E06C75"
+  green: "#5A5A5A"
+  yellow: "#E78A4E"
+  blue: "#5A5A5A"
+  magenta: "#F5F0E8"
+  cyan: "#E5D5C8"
+  white: "#E5D5C8"
+  brightBlack: "#A89984"
+  brightRed: "#E06C75"
+  brightGreen: "#5A5A5A"
+  brightYellow: "#E78A4E"
+  brightBlue: "#5A5A5A"
+  brightMagenta: "#F5F0E8"
+  brightCyan: "#E5D5C8"
+  brightWhite: "#F5F0E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  contrast:
+    fg: 44.2
+    black: 0
+    red: 39.1
+    green: 14.1
+    yellow: 47.8
+    blue: 14.1
+    magenta: 94.4
+    cyan: 78.7
+    white: 78.7
+    brightBlack: 44.2
+    brightRed: 39.1
+    brightGreen: 14.1
+    brightYellow: 47.8
+    brightBlue: 14.1
+    brightMagenta: 94.4
+    brightCyan: 78.7
+    brightWhite: 94.4

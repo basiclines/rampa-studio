@@ -1,0 +1,49 @@
+name: "theAIsphere-dark"
+source:
+  marketplace_id: "theAIsphere.theaisphere"
+  version: "0.1.0"
+  installs: 53
+  author: "theAIsphere"
+  repo: "https://github.com/admin-theaisphere/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=theAIsphere.theaisphere"
+colors:
+  bg: "#1D1D26"
+  fg: "#FCFCFC"
+  black: "#080D0A"
+  red: "#991E29"
+  green: "#149068"
+  yellow: "#BFAB25"
+  blue: "#002FD7"
+  magenta: "#703880"
+  cyan: "#1FB4FF"
+  white: "#CCCCCC"
+  brightBlack: "#545763"
+  brightRed: "#CC2936"
+  brightGreen: "#38E4AE"
+  brightYellow: "#DECC54"
+  brightBlue: "#4065E7"
+  brightMagenta: "#954BAA"
+  brightCyan: "#5CC8FF"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 285
+  contrast:
+    fg: 104.1
+    black: 0
+    red: 13.5
+    green: 32.8
+    yellow: 54.8
+    blue: 12.1
+    magenta: 12.4
+    cyan: 55
+    white: 73.9
+    brightBlack: 15.2
+    brightRed: 25
+    brightGreen: 73.5
+    brightYellow: 73.1
+    brightBlue: 26.1
+    brightMagenta: 23.3
+    brightCyan: 65.3
+    brightWhite: 86.1

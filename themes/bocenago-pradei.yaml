@@ -1,0 +1,49 @@
+name: "Bocenago: Pradei"
+source:
+  marketplace_id: "einar-hjortdal.bocenago-themes"
+  version: "3.0.2"
+  installs: 39
+  author: "Einar Hjortdal"
+  repo: "https://github.com/einar-hjortdal/Bocenago"
+  url: "https://marketplace.visualstudio.com/items?itemName=einar-hjortdal.bocenago-themes"
+colors:
+  bg: "#24211E"
+  fg: "#D7C484"
+  black: "#24211E"
+  red: "#AC987D"
+  green: "#5F865F"
+  yellow: "#77824A"
+  blue: "#B36B42"
+  magenta: "#BB7844"
+  cyan: "#C9A654"
+  white: "#D7C484"
+  brightBlack: "#24211E"
+  brightRed: "#AC987D"
+  brightGreen: "#5F865F"
+  brightYellow: "#77824A"
+  brightBlue: "#B36B42"
+  brightMagenta: "#BB7844"
+  brightCyan: "#C9A654"
+  brightWhite: "#D7C484"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  contrast:
+    fg: 69
+    black: 0
+    red: 45.8
+    green: 30.8
+    yellow: 30.9
+    blue: 31.3
+    magenta: 36.3
+    cyan: 54.2
+    white: 69
+    brightBlack: 0
+    brightRed: 45.8
+    brightGreen: 30.8
+    brightYellow: 30.9
+    brightBlue: 31.3
+    brightMagenta: 36.3
+    brightCyan: 54.2
+    brightWhite: 69

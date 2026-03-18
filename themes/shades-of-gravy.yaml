@@ -1,0 +1,49 @@
+name: "Shades Of Gravy"
+source:
+  marketplace_id: "Mr-Icecream.shades-of-gravy"
+  version: "1.1.0"
+  installs: 865
+  author: "Mr. Icecream"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Mr-Icecream.shades-of-gravy"
+colors:
+  bg: "#444649"
+  fg: "#C5C7C1"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  contrast:
+    fg: 60.5
+    black: 12
+    red: 16
+    green: 42.3
+    yellow: 74.9
+    blue: 16.7
+    magenta: 19.1
+    cyan: 36.9
+    white: 79.3
+    brightBlack: 11.4
+    brightRed: 27.9
+    brightGreen: 52.9
+    brightYellow: 85
+    brightBlue: 29.3
+    brightMagenta: 34.7
+    brightCyan: 44.7
+    brightWhite: 79.3

@@ -1,0 +1,49 @@
+name: "Soil Theme"
+source:
+  marketplace_id: "codesbiome.soil-theme-vscode"
+  version: "1.1.3"
+  installs: 1434
+  author: "Codesbiome"
+  repo: "https://github.com/codesbiome/soil-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=codesbiome.soil-theme-vscode"
+colors:
+  bg: "#222222"
+  fg: "#ACA490"
+  black: "#3A3A3A"
+  red: "#CF7C7C"
+  green: "#53AB62"
+  yellow: "#C1A860"
+  blue: "#4975AF"
+  magenta: "#BD688B"
+  cyan: "#3A9C93"
+  white: "#BEBEBE"
+  brightBlack: "#838383"
+  brightRed: "#E26A6A"
+  brightGreen: "#6EC07B"
+  brightYellow: "#D39A69"
+  brightBlue: "#699BDB"
+  brightMagenta: "#DF6A9A"
+  brightCyan: "#7AB8B2"
+  brightWhite: "#C0B699"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  contrast:
+    fg: 50.8
+    black: 0
+    red: 41.9
+    green: 45
+    yellow: 53.9
+    blue: 26.6
+    magenta: 33.9
+    cyan: 39.1
+    white: 65
+    brightBlack: 33.8
+    brightRed: 40.3
+    brightGreen: 56.3
+    brightYellow: 51.6
+    brightBlue: 44.6
+    brightMagenta: 41.2
+    brightCyan: 55.4
+    brightWhite: 60.7
