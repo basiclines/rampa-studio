@@ -67,7 +67,7 @@ ${bold}OPTIONS${reset}
   ${cyan}--show${reset}                 ${dim}Print theme colors and metadata${reset}
   ${cyan}--dry-run${reset}              ${dim}Print generated output without writing file${reset}
   ${cyan}--all${reset}                  ${dim}Show all themes (list shows 100 by default)${reset}
-  ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, mode${reset}
+  ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, rating, ratings, mode. Chain multiple: --sort rating --sort installs${reset}
   ${cyan}--local${reset}                ${dim}Use local themes/ directory instead of fetching from GitHub${reset}
   ${cyan}-h, --help${reset}             ${dim}Show this help${reset}
 
@@ -292,15 +292,12 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[]): Pr
     for (const [name, filename] of entries) {
       try {
         const raw = readFileSync(join(themesDir, filename), 'utf8');
-        const installsMatch = raw.match(/^\s*installs:\s*(\d+)/m);
-        const ratingMatch = raw.match(/^\s*rating:\s*([\d.]+)/m);
-        const ratingsMatch = raw.match(/^\s*ratings:\s*(\d+)/m);
-        const modeMatch = raw.match(/^\s*mode:\s*"?(dark|light)"?/m);
+        const theme = parseThemeYAML(raw);
         meta.set(name, {
-          installs: installsMatch ? parseInt(installsMatch[1]) : 0,
-          rating: ratingMatch ? parseFloat(ratingMatch[1]) : 0,
-          ratings: ratingsMatch ? parseInt(ratingsMatch[1]) : 0,
-          mode: modeMatch ? modeMatch[1] : 'dark',
+          installs: theme.source?.installs || 0,
+          rating: theme.source?.rating || 0,
+          ratings: theme.source?.ratings || 0,
+          mode: theme.meta?.mode || 'dark',
         });
       } catch {
         meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark' });
