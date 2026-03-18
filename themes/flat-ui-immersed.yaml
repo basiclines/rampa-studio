@@ -2,7 +2,7 @@ name: "flat-ui immersed"
 source:
   marketplace_id: "lkytal.FlatUI"
   version: "1.4.9"
-  installs: 263992
+  installs: 264006
   author: "Kaiyuan Liu"
   repo: "https://github.com/lkytal/vscode-theme-flatui"
   url: "https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 91.3
     black: 91.3

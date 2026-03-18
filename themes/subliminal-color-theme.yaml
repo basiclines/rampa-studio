@@ -2,7 +2,7 @@ name: "Subliminal-color-theme"
 source:
   marketplace_id: "josefssonrasmus.subliminal-remix"
   version: "1.0.0"
-  installs: 397
+  installs: 398
   author: "Rasmus Josefsson"
   repo: "https://github.com/gaearon/subliminal"
   url: "https://marketplace.visualstudio.com/items?itemName=josefssonrasmus.subliminal-remix"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 266
+  pair: null
   contrast:
     fg: 76.3
     black: 11.9

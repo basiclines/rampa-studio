@@ -2,7 +2,7 @@ name: "High Contrast February Theme - Accessible"
 source:
   marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
   version: "0.9.7"
-  installs: 821
+  installs: 822
   author: "Mickael Lherminez"
   repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
   url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 251
+  pair: null
   contrast:
     fg: 106.5
     black: 0

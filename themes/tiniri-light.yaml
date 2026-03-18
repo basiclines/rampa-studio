@@ -2,7 +2,7 @@ name: "Tiniri Light"
 source:
   marketplace_id: "vladstudio.vlad-studio-tiniri"
   version: "0.0.73"
-  installs: 1911
+  installs: 1915
   author: "Vlad.studio"
   repo: "https://github.com/vladstudio/tiniri-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=vladstudio.vlad-studio-tiniri"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "Tiniri Dark"
   contrast:
     fg: 102
     black: 92.8

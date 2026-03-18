@@ -7,7 +7,7 @@ source:
   repo: "https://github.com/y3mm/ThemeFramework"
   url: "https://marketplace.visualstudio.com/items?itemName=YesCode.themeframek"
 colors:
-  bg: "#141516"
+  bg: "#121212"
   fg: "#EEFFFF"
   black: "#1D2021"
   red: "#FB543F"
@@ -19,7 +19,7 @@ colors:
   white: "#A89984"
   brightBlack: "#665C54"
   brightRed: "#FB543F"
-  brightGreen: "#60AEF7"
+  brightGreen: "#FFF2B7"
   brightYellow: "#E7F0FF"
   brightBlue: "#0D6678"
   brightMagenta: "#8F4673"
@@ -29,21 +29,22 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
-    fg: 104.8
+    fg: 105
     black: 0
-    red: 42.2
-    green: 61.2
-    yellow: 73.3
-    blue: 47.7
-    magenta: 19.7
-    cyan: 49.6
-    white: 47.4
-    brightBlack: 18.8
-    brightRed: 42.2
-    brightGreen: 54.9
-    brightYellow: 96.8
-    brightBlue: 18.9
-    brightMagenta: 19.7
-    brightCyan: 49.6
-    brightWhite: 99.1
+    red: 42.4
+    green: 61.4
+    yellow: 73.5
+    blue: 47.9
+    magenta: 19.9
+    cyan: 49.9
+    white: 47.7
+    brightBlack: 19
+    brightRed: 42.4
+    brightGreen: 98.3
+    brightYellow: 97
+    brightBlue: 19.2
+    brightMagenta: 19.9
+    brightCyan: 49.9
+    brightWhite: 99.3

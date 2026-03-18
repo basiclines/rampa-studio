@@ -2,7 +2,7 @@ name: "one-piece-light"
 source:
   marketplace_id: "LeonardoTozoni.one-piece-theme"
   version: "2.0.0"
-  installs: 8040
+  installs: 8061
   author: "Leonardo Tozoni"
   repo: "https://github.com/Leonardo-Tozoni/one-piece-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=LeonardoTozoni.one-piece-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 101.7
     black: 101.7

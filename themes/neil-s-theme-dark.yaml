@@ -1,8 +1,8 @@
 name: "Neil's Theme (Dark)"
 source:
   marketplace_id: "njp-anderson.neils-vscode-theme"
-  version: "0.0.1"
-  installs: 14
+  version: "0.0.3"
+  installs: 15
   author: "N Anderson"
   repo: "https://github.com/njpanderson/neils-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=njp-anderson.neils-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 242
+  pair: null
   contrast:
     fg: 68.6
     black: 0

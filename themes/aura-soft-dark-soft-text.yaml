@@ -1,11 +1,11 @@
 name: "Aura Soft Dark (Soft Text)"
 source:
-  marketplace_id: "DaltonMenezes.aura-theme"
-  version: "2.1.2"
-  installs: 559627
-  author: "Dalton Menezes"
-  repo: "https://github.com/daltonmenezes/aura-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#21202E"
   fg: "#BDBDBD"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 288
+  pair: null
   contrast:
     fg: 64.5
     black: 0

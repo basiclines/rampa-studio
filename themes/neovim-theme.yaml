@@ -2,7 +2,7 @@ name: "neovim-theme"
 source:
   marketplace_id: "GustavoLins05.neovim-theme"
   version: "4.0.0"
-  installs: 838
+  installs: 839
   author: "Gustavo Lins"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=GustavoLins05.neovim-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 103.5
     black: 0

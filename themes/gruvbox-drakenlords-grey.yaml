@@ -2,7 +2,7 @@ name: "Gruvbox DrakenLords Grey"
 source:
   marketplace_id: "DrakenLords.gruvbox-draken-lords"
   version: "1.5.5"
-  installs: 8896
+  installs: 8900
   author: "DrakenLords"
   repo: "https://github.com/Drakenlords/Gruvbox-DrakenLords"
   url: "https://marketplace.visualstudio.com/items?itemName=DrakenLords.gruvbox-draken-lords"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 77.9
     black: 0

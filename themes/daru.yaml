@@ -1,11 +1,11 @@
 name: "daru"
 source:
-  marketplace_id: "baboyiban.daru"
+  marketplace_id: "daruhan.daru"
   version: "0.0.1"
-  installs: 143
-  author: "baboyiban"
+  installs: 138
+  author: "daruhan"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=baboyiban.daru"
+  url: "https://marketplace.visualstudio.com/items?itemName=daruhan.daru"
 colors:
   bg: "#FFFFFF"
   fg: "#000000"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 106
     black: 106

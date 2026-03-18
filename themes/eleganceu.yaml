@@ -2,7 +2,7 @@ name: "ELEGANCEu"
 source:
   marketplace_id: "ELEGANCEu.eleganceu-darkpurpletheme"
   version: "0.0.2"
-  installs: 278
+  installs: 281
   author: "ELEGANCEu"
   repo: "https://github.com/ELEGANCEu/temaDarkPurple"
   url: "https://marketplace.visualstudio.com/items?itemName=ELEGANCEu.eleganceu-darkpurpletheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 57.4
     black: 0

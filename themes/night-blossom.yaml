@@ -2,7 +2,7 @@ name: "night-blossom"
 source:
   marketplace_id: "RustedTurnip.night-blossom"
   version: "0.1.0"
-  installs: 1575
+  installs: 1576
   author: "RustedTurnip"
   repo: "https://github.com/RustedTurnip/night-blossom"
   url: "https://marketplace.visualstudio.com/items?itemName=RustedTurnip.night-blossom"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 263
+  pair: null
   contrast:
     fg: 98.1
     black: 0

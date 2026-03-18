@@ -2,7 +2,7 @@ name: "KatagawaTheme"
 source:
   marketplace_id: "hikionori.kanagawa-vscode-theme"
   version: "0.1.0"
-  installs: 6855
+  installs: 6856
   author: "hikionori"
   repo: "https://github.com/hikionori/kanagawa-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=hikionori.kanagawa-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 285
+  pair: null
   contrast:
     fg: 80.8
     black: 0

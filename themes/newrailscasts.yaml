@@ -2,7 +2,7 @@ name: "NewRailscasts"
 source:
   marketplace_id: "carakan.new-railscasts"
   version: "1.0.68"
-  installs: 4016
+  installs: 4018
   author: "Carlos Ramos"
   repo: "https://github.com/carakan/new-railscasts-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=carakan.new-railscasts"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 101.4
     black: 0

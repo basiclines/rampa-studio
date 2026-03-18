@@ -2,7 +2,7 @@ name: "VS Ghoul"
 source:
   marketplace_id: "NathanInbar.vs-ghoul"
   version: "0.0.3"
-  installs: 2474
+  installs: 2476
   author: "Nathan Inbar"
   repo: "https://github.com/NathanInbar/vs-ghoul"
   url: "https://marketplace.visualstudio.com/items?itemName=NathanInbar.vs-ghoul"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 55.1
     black: 0

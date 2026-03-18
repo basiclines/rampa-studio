@@ -2,7 +2,7 @@ name: "Perplexity"
 source:
   marketplace_id: "cottonable.perplexity"
   version: "1.0.2"
-  installs: 6579
+  installs: 6590
   author: "cottonable"
   repo: "https://github.com/cottonable/perplexity-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=cottonable.perplexity"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 106.6
     black: 0

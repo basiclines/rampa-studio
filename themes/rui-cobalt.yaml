@@ -2,7 +2,7 @@ name: "Rui Cobalt"
 source:
   marketplace_id: "ruixiao85.rui-color-themes"
   version: "1.3.0"
-  installs: 1770
+  installs: 1772
   author: "Rui Xiao"
   repo: "https://github.com/ruixiao85/VSCodeTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=ruixiao85.rui-color-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 255
+  pair: null
   contrast:
     fg: 82.4
     black: 0

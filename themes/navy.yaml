@@ -2,7 +2,7 @@ name: "Navy"
 source:
   marketplace_id: "eshiraishi.navy-theme"
   version: "0.0.16"
-  installs: 342
+  installs: 343
   author: "Enzo Shiraishi"
   repo: "https://github.com/eshiraishi/navy-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=eshiraishi.navy-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 248
+  pair: null
   contrast:
     fg: 90.4
     black: 0

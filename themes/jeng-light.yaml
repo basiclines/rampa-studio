@@ -2,7 +2,7 @@ name: "Jeng Light"
 source:
   marketplace_id: "jeng.jeng-theme-light"
   version: "1.0.5"
-  installs: 17375
+  installs: 17376
   author: "jeng"
   repo: "https://github.com/jengjeng/jeng-theme-light"
   url: "https://marketplace.visualstudio.com/items?itemName=jeng.jeng-theme-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 78.5
     black: 103

@@ -1,17 +1,17 @@
 name: "Vercel"
 source:
-  marketplace_id: "aurorascharff.vercel-docs-theme"
-  version: "0.3.1"
-  installs: 24
-  author: "aurorascharff"
-  repo: "https://github.com/aurorascharff/vercel-vscode-docs-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=aurorascharff.vercel-docs-theme"
+  marketplace_id: "natemcgrady.vercel-vscode-theme"
+  version: "1.0.2"
+  installs: 379
+  author: "natemcgrady"
+  repo: "https://github.com/sotan8/vercel-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=natemcgrady.vercel-vscode-theme"
 colors:
   bg: "#000000"
   fg: "#EEEEEE"
   black: "#000000"
   red: "#FF4D8D"
-  green: "#3ECF6E"
+  green: "#00CB50"
   yellow: "#FFCC47"
   blue: "#47A8FF"
   magenta: "#C473FC"
@@ -19,7 +19,7 @@ colors:
   white: "#EEEEEE"
   brightBlack: "#666666"
   brightRed: "#FF4D8D"
-  brightGreen: "#3ECF6E"
+  brightGreen: "#00CB50"
   brightYellow: "#FFCC47"
   brightBlue: "#47A8FF"
   brightMagenta: "#C473FC"
@@ -29,11 +29,12 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 96.8
     black: 0
     red: 44.6
-    green: 63.4
+    green: 60.3
     yellow: 79.9
     blue: 52.8
     magenta: 46.7
@@ -41,7 +42,7 @@ meta:
     white: 96.8
     brightBlack: 23
     brightRed: 44.6
-    brightGreen: 63.4
+    brightGreen: 60.3
     brightYellow: 79.9
     brightBlue: 52.8
     brightMagenta: 46.7

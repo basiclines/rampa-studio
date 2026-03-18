@@ -2,7 +2,7 @@ name: "MS Dev Theme"
 source:
   marketplace_id: "mhmdsulimn.msdev-vscode"
   version: "1.6.0"
-  installs: 456
+  installs: 457
   author: "Mohamed Suliman"
   repo: "https://github.com/mhmdsulimn/MS-Dev-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=mhmdsulimn.msdev-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 258
+  pair: null
   contrast:
     fg: 77.6
     black: 0

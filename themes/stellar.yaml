@@ -1,13 +1,13 @@
 name: "Stellar"
 source:
-  marketplace_id: "StarsTracker.stellar"
-  version: "1.0.0"
-  installs: 243
-  author: "Stars Tracker"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=StarsTracker.stellar"
+  marketplace_id: "PuneshBorkar.stellar-galaxy"
+  version: "1.3.0"
+  installs: 298
+  author: "Punesh Borkar"
+  repo: "https://github.com/punesh12/stellar-galaxy"
+  url: "https://marketplace.visualstudio.com/items?itemName=PuneshBorkar.stellar-galaxy"
 colors:
-  bg: "#1D1D1D"
+  bg: "#000F1C"
   fg: "#D4D4D4"
   black: "#000000"
   red: "#CD3131"
@@ -28,22 +28,23 @@ colors:
 meta:
   mode: "dark"
   accent: "pink"
-  hue: null
+  hue: 241
+  pair: null
   contrast:
-    fg: 78.8
+    fg: 80.1
     black: 0
-    red: 26
-    green: 52.3
-    yellow: 84.9
-    blue: 26.7
-    magenta: 29.1
-    cyan: 46.9
-    white: 89.3
-    brightBlack: 21.3
-    brightRed: 37.9
-    brightGreen: 62.8
-    brightYellow: 94.9
-    brightBlue: 39.3
-    brightMagenta: 44.7
-    brightCyan: 54.7
-    brightWhite: 89.3
+    red: 27.3
+    green: 53.6
+    yellow: 86.2
+    blue: 28
+    magenta: 30.4
+    cyan: 48.2
+    white: 90.6
+    brightBlack: 22.7
+    brightRed: 39.2
+    brightGreen: 64.2
+    brightYellow: 96.3
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 90.6

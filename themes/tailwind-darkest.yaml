@@ -2,7 +2,7 @@ name: "Tailwind - Darkest"
 source:
   marketplace_id: "WollaceBuarque.tailwind-theme"
   version: "0.5.7"
-  installs: 38182
+  installs: 38192
   author: "Wollace Buarque"
   repo: "https://github.com/wollace-buarque/tailwind-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=WollaceBuarque.tailwind-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 263
+  pair: null
   contrast:
     fg: 27.7
     black: 0

@@ -2,7 +2,7 @@ name: "Gamma"
 source:
   marketplace_id: "VenkataramanaSuryanarayanan.gamma"
   version: "1.0.0"
-  installs: 2347
+  installs: 2348
   author: "Venkataramana Suryanarayanan"
   repo: "https://github.com/HardCodeProgrammer/gamma-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=VenkataramanaSuryanarayanan.gamma"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 195
+  pair: null
   contrast:
     fg: 54.5
     black: 0

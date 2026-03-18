@@ -2,7 +2,7 @@ name: "New England light theme"
 source:
   marketplace_id: "dustypomerleau.new-england"
   version: "0.10.0"
-  installs: 7008
+  installs: 7010
   author: "Dusty Pomerleau"
   repo: "https://github.com/dustypomerleau/new-england"
   url: "https://marketplace.visualstudio.com/items?itemName=dustypomerleau.new-england"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 84.6
     black: 84.6

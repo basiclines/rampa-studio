@@ -2,7 +2,7 @@ name: "Stellar Void"
 source:
   marketplace_id: "ryno9341.stellar-void"
   version: "0.1.0"
-  installs: 40
+  installs: 41
   author: "Ryno9341"
   repo: "https://github.com/ryno9341/stellar-void"
   url: "https://marketplace.visualstudio.com/items?itemName=ryno9341.stellar-void"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 284
+  pair: null
   contrast:
     fg: 107.4
     black: 0

@@ -2,7 +2,7 @@ name: "Serendipity Morning"
 source:
   marketplace_id: "wicked-labs.wvsc-serendipity"
   version: "1.66.2"
-  installs: 70565
+  installs: 70595
   author: "Michael Andreuzza "
   repo: "https://github.com/Serendipity-Theme/vs-code"
   url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.wvsc-serendipity"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: "Serendipity Midnight"
   contrast:
     fg: 84.6
     black: 18

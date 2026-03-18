@@ -2,7 +2,7 @@ name: "OneMonokai80s"
 source:
   marketplace_id: "axiomaticstudios.one-monokai-80s"
   version: "2.6.6"
-  installs: 61821
+  installs: 61824
   author: "Axiomatic Studios"
   repo: "https://github.com/marcelo-mason/one-monokai-80s"
   url: "https://marketplace.visualstudio.com/items?itemName=axiomaticstudios.one-monokai-80s"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 277
+  pair: null
   contrast:
     fg: 57.2
     black: 28.1

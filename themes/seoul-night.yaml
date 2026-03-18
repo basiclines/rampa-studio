@@ -2,7 +2,7 @@ name: "Seoul Night"
 source:
   marketplace_id: "lovema-kr.theme-seoul"
   version: "0.1.6"
-  installs: 35
+  installs: 36
   author: "Hue"
   repo: "https://github.com/hue-lovemakr/lovema-kr"
   url: "https://marketplace.visualstudio.com/items?itemName=lovema-kr.theme-seoul"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Seoul Morning"
   contrast:
     fg: 72.7
     black: 0

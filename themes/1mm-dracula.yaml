@@ -2,7 +2,7 @@ name: "1mm - Dracula"
 source:
   marketplace_id: "joytrekker.1mm-themes"
   version: "0.0.1"
-  installs: 37030
+  installs: 37036
   author: "joytrekker"
   repo: "https://github.com/joytrekker/1mm-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=joytrekker.1mm-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 278
+  pair: null
   contrast:
     fg: 49.3
     black: 12.9

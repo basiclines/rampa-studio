@@ -2,7 +2,7 @@ name: "Shades of Midnight Blue dark theme"
 source:
   marketplace_id: "moondevaa.shadesofmidnightbluedarktheme"
   version: "0.5.8"
-  installs: 17308
+  installs: 17323
   author: "moondevaa"
   repo: "https://github.com/AaBbdev29/shades-of-midnight-blue-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.shadesofmidnightbluedarktheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 264
+  pair: null
   contrast:
     fg: 88.2
     black: 0

@@ -2,7 +2,7 @@ name: "imexoodeex"
 source:
   marketplace_id: "imexoodeex.neonjet"
   version: "1.1.0"
-  installs: 2730
+  installs: 2732
   author: "imexoodeex"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=imexoodeex.neonjet"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 79.8
     black: 0

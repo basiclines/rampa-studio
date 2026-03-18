@@ -2,7 +2,7 @@ name: "Apex"
 source:
   marketplace_id: "FluffyBear1111.apex-theme"
   version: "1.0.0"
-  installs: 160
+  installs: 161
   author: "FluffyBear"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=FluffyBear1111.apex-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 254
+  pair: null
   contrast:
     fg: 80.4
     black: 0

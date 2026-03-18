@@ -2,7 +2,7 @@ name: "seti-classic-vscode"
 source:
   marketplace_id: "ecool.seti-classic-vscode"
   version: "1.0.7"
-  installs: 1193
+  installs: 1194
   author: "ecool"
   repo: "https://github.com/ecool/seti-classic-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=ecool.seti-classic-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 80.5
     black: 0

@@ -2,7 +2,7 @@ name: "Vsc-Blue-theme"
 source:
   marketplace_id: "Mdb05.vsc-theme"
   version: "1.0.1"
-  installs: 667
+  installs: 668
   author: "Mdb05"
   repo: "https://github.com/Mdb05/Vsc-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Mdb05.vsc-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 79.2
     black: 0

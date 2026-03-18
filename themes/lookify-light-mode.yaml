@@ -2,7 +2,7 @@ name: "LookiFy Light mode"
 source:
   marketplace_id: "prince.lookify"
   version: "0.1.0"
-  installs: 639
+  installs: 641
   author: "prince"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=prince.lookify"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: "LookiFy Dark mode"
   contrast:
     fg: 95.8
     black: 0

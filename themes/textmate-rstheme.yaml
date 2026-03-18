@@ -2,7 +2,7 @@ name: "textmate.rstheme"
 source:
   marketplace_id: "nanxstats.textmate-rstheme"
   version: "2026.1.0"
-  installs: 2611
+  installs: 2612
   author: "Nan Xiao"
   repo: "https://github.com/nanxstats/vscode-textmate-rstheme"
   url: "https://marketplace.visualstudio.com/items?itemName=nanxstats.textmate-rstheme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 106
     black: 101.5

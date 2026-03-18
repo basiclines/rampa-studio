@@ -2,7 +2,7 @@ name: "Helios Solarized Dark"
 source:
   marketplace_id: "santoso-wijaya.helios-selene"
   version: "0.3.18"
-  installs: 3053
+  installs: 3055
   author: "Santoso Wijaya"
   repo: "https://github.com/santoso-wijaya/vscode-helios-selene"
   url: "https://marketplace.visualstudio.com/items?itemName=santoso-wijaya.helios-selene"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 220
+  pair: "Helios Solarized Light"
   contrast:
     fg: 46.3
     black: 0

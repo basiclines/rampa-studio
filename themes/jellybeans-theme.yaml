@@ -2,7 +2,7 @@ name: "jellybeans-theme"
 source:
   marketplace_id: "DimitarNonov.jellybeans-theme"
   version: "1.14.1"
-  installs: 13625
+  installs: 13628
   author: "Dimitar Nonov"
   repo: "https://github.com/DNonov/jellybeans-code"
   url: "https://marketplace.visualstudio.com/items?itemName=DimitarNonov.jellybeans-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 91.2
     black: 91.2

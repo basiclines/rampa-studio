@@ -2,7 +2,7 @@ name: "grapevine"
 source:
   marketplace_id: "rautenbergf.grapevine"
   version: "1.0.0"
-  installs: 1602
+  installs: 1603
   author: "rautenbergf"
   repo: "https://github.com/rautenbergf/grapevine"
   url: "https://marketplace.visualstudio.com/items?itemName=rautenbergf.grapevine"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 279
+  pair: null
   contrast:
     fg: 65.4
     black: 0

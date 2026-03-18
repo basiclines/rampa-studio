@@ -2,7 +2,7 @@ name: "animetheme"
 source:
   marketplace_id: "animetheme.animetheme"
   version: "0.0.2"
-  installs: 3931
+  installs: 3932
   author: "animetheme"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=animetheme.animetheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 283
+  pair: null
   contrast:
     fg: 76.3
     black: 0

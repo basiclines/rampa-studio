@@ -2,7 +2,7 @@ name: "8-Bit Dark"
 source:
   marketplace_id: "handsomeone.8bit"
   version: "0.2.3"
-  installs: 29597
+  installs: 29600
   author: "Zhou Qi"
   repo: "https://github.com/HandsomeOne/8bit"
   url: "https://marketplace.visualstudio.com/items?itemName=handsomeone.8bit"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: "8-Bit Light"
   contrast:
     fg: 107.9
     black: 0

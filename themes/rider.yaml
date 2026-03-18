@@ -2,7 +2,7 @@ name: "Rider"
 source:
   marketplace_id: "arzg.intellij-theme"
   version: "1.11.0"
-  installs: 97297
+  installs: 97329
   author: "arzg"
   repo: "https://github.com/arzg/intellij-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=arzg.intellij-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 57.7
     black: 0

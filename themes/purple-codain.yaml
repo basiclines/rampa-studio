@@ -2,7 +2,7 @@ name: "Purple Codain"
 source:
   marketplace_id: "ymaninho.theme-purple-codain"
   version: "0.0.6"
-  installs: 3749
+  installs: 3759
   author: "ymaninho"
   repo: "https://github.com/ymaninho54/Theme-Vscode-Purple"
   url: "https://marketplace.visualstudio.com/items?itemName=ymaninho.theme-purple-codain"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 87.6
     black: 10.1

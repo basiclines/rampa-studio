@@ -2,7 +2,7 @@ name: "Neutron"
 source:
   marketplace_id: "Avetis.neutron-palette"
   version: "0.0.3"
-  installs: 1017
+  installs: 1018
   author: "Avetis"
   repo: "https://github.com/AvetisDN/neutron-palette"
   url: "https://marketplace.visualstudio.com/items?itemName=Avetis.neutron-palette"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 89.9
     black: 0

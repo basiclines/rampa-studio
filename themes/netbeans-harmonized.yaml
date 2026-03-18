@@ -2,7 +2,7 @@ name: "NetBeans Harmonized"
 source:
   marketplace_id: "drkcode.clasic-harmonized-theme"
   version: "0.0.5"
-  installs: 558
+  installs: 559
   author: "drkcode"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=drkcode.clasic-harmonized-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 92.2
     black: 92.5

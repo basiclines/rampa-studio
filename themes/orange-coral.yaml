@@ -1,11 +1,11 @@
 name: "orange coral"
 source:
-  marketplace_id: "FinnyComet.coral"
-  version: "1.9.0"
-  installs: 1464
+  marketplace_id: "FinnyComet.coral-ico"
+  version: "1.6.0"
+  installs: 545
   author: "Lorenzo"
   repo: "https://github.com/FinnyComet32985/Coral-theme-for-vs-code"
-  url: "https://marketplace.visualstudio.com/items?itemName=FinnyComet.coral"
+  url: "https://marketplace.visualstudio.com/items?itemName=FinnyComet.coral-ico"
 colors:
   bg: "#131C26"
   fg: "#D4D4D4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 252
+  pair: null
   contrast:
     fg: 79
     black: 0

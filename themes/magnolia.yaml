@@ -2,7 +2,7 @@ name: "Magnolia"
 source:
   marketplace_id: "kgnio.sprinklepack"
   version: "0.2.5"
-  installs: 80
+  installs: 81
   author: "Kagan Mamak"
   repo: "https://github.com/kgnio/sprinklepack"
   url: "https://marketplace.visualstudio.com/items?itemName=kgnio.sprinklepack"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 94.5
     black: 34.3

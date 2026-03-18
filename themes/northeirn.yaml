@@ -2,7 +2,7 @@ name: "Northeirn"
 source:
   marketplace_id: "murilonicemento.northeirn"
   version: "1.0.1"
-  installs: 197
+  installs: 198
   author: "Murilo Nascimento"
   repo: "https://github.com/murilonicemento/northeirn-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=murilonicemento.northeirn"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 78.7
     black: 0

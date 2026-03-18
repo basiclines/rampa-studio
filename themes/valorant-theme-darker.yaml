@@ -2,7 +2,7 @@ name: "Valorant Theme - Darker"
 source:
   marketplace_id: "TasnimulHasan.valorant-theme"
   version: "4.2.4"
-  installs: 8379
+  installs: 8382
   author: "Tasnimul Hasan"
   repo: "https://github.com/Tasnimul-Hasan/valorant-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=TasnimulHasan.valorant-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 262
+  pair: null
   contrast:
     fg: 84.6
     black: 27.7

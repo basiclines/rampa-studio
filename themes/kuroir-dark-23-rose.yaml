@@ -1,11 +1,11 @@
 name: "Kuroir Dark 23 Rose"
 source:
-  marketplace_id: "6o8.colorized-theme"
-  version: "26.0.1"
-  installs: 367
+  marketplace_id: "6o8.kuroir-github-vscode-theme"
+  version: "25.1.11"
+  installs: 235
   author: "6o8"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=6o8.colorized-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=6o8.kuroir-github-vscode-theme"
 colors:
   bg: "#232021"
   fg: "#D4D4D4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Kuroir Light 23 Rose"
   contrast:
     fg: 78.3
     black: 16.7

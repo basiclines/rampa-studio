@@ -2,7 +2,7 @@ name: "bat"
 source:
   marketplace_id: "JohannesFreutel.bat"
   version: "0.0.12"
-  installs: 3383
+  installs: 3384
   author: "JohannesFreutel"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=JohannesFreutel.bat"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 244
+  pair: null
   contrast:
     fg: 36
     black: 0

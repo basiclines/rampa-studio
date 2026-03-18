@@ -2,7 +2,7 @@ name: "mariana-light"
 source:
   marketplace_id: "mani-sh-reddy.mariana-refined"
   version: "0.1.4"
-  installs: 3259
+  installs: 3261
   author: "Manish Reddy"
   repo: "https://github.com/mani-sh-reddy/mariana-refined"
   url: "https://marketplace.visualstudio.com/items?itemName=mani-sh-reddy.mariana-refined"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 97.3
     black: 104.7

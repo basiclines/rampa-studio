@@ -2,7 +2,7 @@ name: "Genshin Vibes: Pyro Scout"
 source:
   marketplace_id: "bubaic.genshin-vibes"
   version: "1.0.2"
-  installs: 175
+  installs: 176
   author: "Subrata"
   repo: "https://github.com/bubaic/genshin-vibes"
   url: "https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 89.4
     black: 0

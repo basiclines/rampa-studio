@@ -1,11 +1,11 @@
 name: "Catppuccin Macchiato"
 source:
-  marketplace_id: "Catppuccin.catppuccin-vsc"
-  version: "3.18.1"
-  installs: 1123950
-  author: "Catppuccin"
-  repo: "https://github.com/catppuccin/vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc"
+  marketplace_id: "codelogix.catppuccin-darker-vsc"
+  version: "0.0.3"
+  installs: 1329
+  author: "Carl Weis"
+  repo: "https://github.com/carlweis/catppuccin-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=codelogix.catppuccin-darker-vsc"
 colors:
   bg: "#24273A"
   fg: "#CAD3F5"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 277
+  pair: null
   contrast:
     fg: 76.9
     black: 10

@@ -2,7 +2,7 @@ name: "LigiaPink"
 source:
   marketplace_id: "CodeBabel.codebabel-obscure-pink"
   version: "0.0.1"
-  installs: 1651
+  installs: 1654
   author: "CodeBabel"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=CodeBabel.codebabel-obscure-pink"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 331
+  pair: null
   contrast:
     fg: 80.4
     black: 0

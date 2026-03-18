@@ -1,17 +1,17 @@
 name: "Abyss"
 source:
-  marketplace_id: "filip-bydalek.abyss-tweaked"
-  version: "0.2.2"
-  installs: 261
-  author: "Filip Bydałek"
-  repo: "https://github.com/AGameDevPhilip/abyss-tweaked"
-  url: "https://marketplace.visualstudio.com/items?itemName=filip-bydalek.abyss-tweaked"
+  marketplace_id: "tommy-tang.custom-abyss-theme"
+  version: "0.0.1"
+  installs: 68
+  author: "Tommytang111"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=tommy-tang.custom-abyss-theme"
 colors:
   bg: "#000C18"
   fg: "#6688CC"
   black: "#111111"
   red: "#FF9DA4"
-  green: "#D1F1A9"
+  green: "#B4FF82"
   yellow: "#FFEEAD"
   blue: "#BBDAFF"
   magenta: "#EBBBFF"
@@ -19,7 +19,7 @@ colors:
   white: "#CCCCCC"
   brightBlack: "#333333"
   brightRed: "#FF7882"
-  brightGreen: "#B8F171"
+  brightGreen: "#77F171"
   brightYellow: "#FFE580"
   brightBlue: "#80BAFF"
   brightMagenta: "#D778FF"
@@ -29,11 +29,12 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 242
+  pair: null
   contrast:
     fg: 38.7
     black: 0
     red: 64.2
-    green: 91.6
+    green: 94.6
     yellow: 96.5
     blue: 82.1
     magenta: 75.5
@@ -41,7 +42,7 @@ meta:
     white: 75.4
     brightBlack: 0
     brightRed: 52.5
-    brightGreen: 87.6
+    brightGreen: 82.5
     brightYellow: 91.3
     brightBlue: 63
     brightMagenta: 51

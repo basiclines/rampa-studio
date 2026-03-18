@@ -2,7 +2,7 @@ name: "Palette"
 source:
   marketplace_id: "palette-theme.Palette-Dark"
   version: "0.2.0"
-  installs: 5840
+  installs: 5842
   author: "Zakiullah"
   repo: "https://github.com/zbarakzai/Palette-VSCode-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=palette-theme.Palette-Dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 249
+  pair: null
   contrast:
     fg: 83.3
     black: 0

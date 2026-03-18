@@ -2,7 +2,7 @@ name: "Greyout"
 source:
   marketplace_id: "Eses.greyout"
   version: "0.0.6"
-  installs: 2033
+  installs: 2034
   author: "Eses"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Eses.greyout"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 93.9
     black: 93.9

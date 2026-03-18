@@ -2,7 +2,7 @@ name: "Solo Leveling"
 source:
   marketplace_id: "Amanpandey.solo-leveling-theme"
   version: "0.1.0"
-  installs: 4005
+  installs: 4010
   author: "Amanpandey"
   repo: "https://github.com/losercodes/solo-leveling-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Amanpandey.solo-leveling-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 270
+  pair: null
   contrast:
     fg: 87.7
     black: 0

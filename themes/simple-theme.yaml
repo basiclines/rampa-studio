@@ -2,7 +2,7 @@ name: "Simple Theme"
 source:
   marketplace_id: "Fleuquer.simple-theme"
   version: "1.0.0"
-  installs: 1154
+  installs: 1155
   author: "Fleuquer"
   repo: "https://github.com/fleuquer/simple-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Fleuquer.simple-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 94.2
     black: 0

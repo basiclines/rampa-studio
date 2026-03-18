@@ -2,7 +2,7 @@ name: "Fabi"
 source:
   marketplace_id: "Fabius.fa"
   version: "0.0.3"
-  installs: 194
+  installs: 195
   author: "Fabius"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Fabius.fa"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 217
+  pair: null
   contrast:
     fg: 102.1
     black: 0

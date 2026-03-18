@@ -2,7 +2,7 @@ name: "Theo-Swarg-Dark"
 source:
   marketplace_id: "Theoraclenyt.theo-swarg-dark"
   version: "0.1.2"
-  installs: 49
+  installs: 50
   author: "Theoraclenyt"
   repo: "https://github.com/Ishesensei/theo-swarg-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=Theoraclenyt.theo-swarg-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 282
+  pair: null
   contrast:
     fg: 98.9
     black: 42.4

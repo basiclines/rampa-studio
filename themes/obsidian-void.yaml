@@ -2,7 +2,7 @@ name: "Obsidian Void"
 source:
   marketplace_id: "MohammadHasani.obsidian-void"
   version: "0.0.4"
-  installs: 86
+  installs: 88
   author: "Mohammad Hasani"
   repo: "https://github.com/mohammadhasanii/obsidian-void"
   url: "https://marketplace.visualstudio.com/items?itemName=MohammadHasani.obsidian-void"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 275
+  pair: null
   contrast:
     fg: 105
     black: 0

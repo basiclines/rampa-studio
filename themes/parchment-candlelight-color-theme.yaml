@@ -2,7 +2,7 @@ name: "parchment-candlelight-color-theme"
 source:
   marketplace_id: "johv.parchment-light"
   version: "1.10.0"
-  installs: 3881
+  installs: 3883
   author: "Jonas Hvid"
   repo: "https://github.com/c2d7fa/vscode-parchment-light"
   url: "https://marketplace.visualstudio.com/items?itemName=johv.parchment-light"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 66
+  pair: null
   contrast:
     fg: 79.6
     black: 9.6

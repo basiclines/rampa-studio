@@ -1,11 +1,11 @@
 name: "Mellow"
 source:
-  marketplace_id: "kvrohit.mellow-theme"
-  version: "0.0.1"
-  installs: 1491
-  author: "Rohit K Viswanath"
-  repo: "https://github.com/kvrohit/mellow-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=kvrohit.mellow-theme"
+  marketplace_id: "Umi-l.mellow-minimal-theme"
+  version: "0.0.2"
+  installs: 608
+  author: "Umi-l"
+  repo: "https://github.com/Umi-L/mellow-minimal"
+  url: "https://marketplace.visualstudio.com/items?itemName=Umi-l.mellow-minimal-theme"
 colors:
   bg: "#161617"
   fg: "#C9C7CD"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 72.3
     black: 0

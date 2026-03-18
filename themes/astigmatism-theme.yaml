@@ -2,7 +2,7 @@ name: "Astigmatism Theme"
 source:
   marketplace_id: "GabrielFacioni.astigmatism-theme"
   version: "1.0.3"
-  installs: 259
+  installs: 261
   author: "GabrielFacioni"
   repo: "https://github.com/GabrielMMC/astigmatism-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=GabrielFacioni.astigmatism-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 266
+  pair: null
   contrast:
     fg: 77.5
     black: 0

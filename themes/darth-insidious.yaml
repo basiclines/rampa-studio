@@ -2,7 +2,7 @@ name: "Darth Insidious"
 source:
   marketplace_id: "Dutchorange.space-wars"
   version: "1.1.7"
-  installs: 1710
+  installs: 1711
   author: "Dutchorange"
   repo: "https://github.com/entropy-glitch/space-wars"
   url: "https://marketplace.visualstudio.com/items?itemName=Dutchorange.space-wars"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 307
+  pair: null
   contrast:
     fg: 88.6
     black: 0

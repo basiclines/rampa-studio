@@ -2,7 +2,7 @@ name: "PinkCodes Pink"
 source:
   marketplace_id: "PinkCodes.pinkcodes"
   version: "0.0.22"
-  installs: 4034
+  installs: 4040
   author: "PinkCodes"
   repo: "https://github.com/pinkc0des/pinkcodes-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=PinkCodes.pinkcodes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 328
+  pair: null
   contrast:
     fg: 80.4
     black: 0

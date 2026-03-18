@@ -2,7 +2,7 @@ name: "Rust & Brown"
 source:
   marketplace_id: "LukianovII.rust-and-brown"
   version: "1.0.0"
-  installs: 5
+  installs: 8
   author: "LukianovII"
   repo: "https://github.com/LukianovII/rust-and-brown-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=LukianovII.rust-and-brown"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 67
+  pair: null
   contrast:
     fg: 104.5
     black: 0

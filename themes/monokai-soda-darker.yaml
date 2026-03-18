@@ -2,7 +2,7 @@ name: "Monokai soda darker"
 source:
   marketplace_id: "carlossantos74.monokai-classic-darker"
   version: "0.0.6"
-  installs: 6557
+  installs: 6558
   author: "Carlos Santos"
   repo: "https://github.com/carlossantos74/Monokai-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=carlossantos74.monokai-classic-darker"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 106.3
     black: 0

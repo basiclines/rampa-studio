@@ -2,7 +2,7 @@ name: "Samurai"
 source:
   marketplace_id: "ParsaSam.samurai"
   version: "0.5.3"
-  installs: 2179
+  installs: 2180
   author: "Parsa Samadnejad"
   repo: "https://github.com/TroddenSpade/Samurai-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=ParsaSam.samurai"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 78.1
     black: 0

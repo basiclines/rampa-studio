@@ -2,7 +2,7 @@ name: "TW40 - Gigi"
 source:
   marketplace_id: "chrsolr.rose-pine-nvchad-theme"
   version: "0.0.3"
-  installs: 6735
+  installs: 6739
   author: "Christian Soler"
   repo: "https://github.com/chrsolr/rose-pine-nvchad-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=chrsolr.rose-pine-nvchad-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 288
+  pair: null
   contrast:
     fg: 29.3
     black: 0

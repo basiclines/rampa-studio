@@ -2,7 +2,7 @@ name: "Patina Colors"
 source:
   marketplace_id: "SantiagoBobrik.patina-colors"
   version: "0.2.1"
-  installs: 18
+  installs: 21
   author: "SantiagoBobrik"
   repo: "https://github.com/SantiagoBobrik/patina-colors"
   url: "https://marketplace.visualstudio.com/items?itemName=SantiagoBobrik.patina-colors"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 81.6
     black: 0

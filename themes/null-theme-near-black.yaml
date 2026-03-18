@@ -2,7 +2,7 @@ name: "Null Theme - Near Black"
 source:
   marketplace_id: "kimberlycasamina.null-theme"
   version: "1.0.8"
-  installs: 212
+  installs: 213
   author: "kimberlycasamina"
   repo: "https://github.com/kimicasamina/vscode-null-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 73.2
     black: 0

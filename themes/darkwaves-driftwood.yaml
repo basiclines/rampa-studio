@@ -2,7 +2,7 @@ name: "Darkwaves: Driftwood"
 source:
   marketplace_id: "spacelaxy.spacelaxy-darkwaves"
   version: "0.0.8"
-  installs: 677
+  installs: 678
   author: "Spacelaxy LLC"
   repo: "https://github.com/spacelaxy/darkwaves"
   url: "https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: null
+  pair: null
   contrast:
     fg: 66.3
     black: 0

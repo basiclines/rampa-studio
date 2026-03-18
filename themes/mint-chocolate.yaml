@@ -2,7 +2,7 @@ name: "Mint Chocolate"
 source:
   marketplace_id: "onulu.mint-chocolate"
   version: "1.0.1"
-  installs: 577
+  installs: 579
   author: "onulu"
   repo: "https://github.com/onulu/mint-chocolate-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=onulu.mint-chocolate"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 56
+  pair: null
   contrast:
     fg: 75.8
     black: 0

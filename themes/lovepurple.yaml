@@ -2,7 +2,7 @@ name: "LovePurple"
 source:
   marketplace_id: "MahdiBehkar.lovely-purple-theme"
   version: "0.0.4"
-  installs: 3146
+  installs: 3149
   author: "MahdiBehkar"
   repo: "https://codeberg.org/behkar/lovely_purple_theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MahdiBehkar.lovely-purple-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 308
+  pair: null
   contrast:
     fg: 41.2
     black: 62.1

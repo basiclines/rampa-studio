@@ -2,7 +2,7 @@ name: "Aldrico's Gruvbox"
 source:
   marketplace_id: "HeavenAldrico.aldrico-s-gruvbox"
   version: "0.2.3"
-  installs: 4288
+  installs: 4290
   author: "Heaven Aldrico"
   repo: "https://github.com/ldriko/gruvbox-in-black"
   url: "https://marketplace.visualstudio.com/items?itemName=HeavenAldrico.aldrico-s-gruvbox"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 69
     black: 0

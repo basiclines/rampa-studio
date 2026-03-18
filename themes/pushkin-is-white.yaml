@@ -2,7 +2,7 @@ name: "Pushkin is White"
 source:
   marketplace_id: "ispushkin.pushkin-is-white-theme"
   version: "0.0.7"
-  installs: 12362
+  installs: 12365
   author: "IS. Pushkin"
   repo: "https://github.com/llatigid/Pushkin-is-White-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ispushkin.pushkin-is-white-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 99.5
     black: 95.5

@@ -2,7 +2,7 @@ name: "Coder Vai Forest"
 source:
   marketplace_id: "umorfaruksupto.coder-vai"
   version: "1.0.0"
-  installs: 428
+  installs: 429
   author: "umorfaruksupto"
   repo: "https://github.com/umorfaruksupto/coder-vai"
   url: "https://marketplace.visualstudio.com/items?itemName=umorfaruksupto.coder-vai"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 145
+  pair: null
   contrast:
     fg: 85.4
     black: 0

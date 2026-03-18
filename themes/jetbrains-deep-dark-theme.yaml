@@ -2,7 +2,7 @@ name: "JetBrains Deep Dark Theme"
 source:
   marketplace_id: "kenethriera.jb-theme"
   version: "1.0.27"
-  installs: 5676
+  installs: 5693
   author: "Keneth Riera"
   repo: "https://github.com/rierarizzo/jetbrains-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=kenethriera.jb-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 66.5
     black: 0

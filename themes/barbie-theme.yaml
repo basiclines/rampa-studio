@@ -2,7 +2,7 @@ name: "Barbie Theme"
 source:
   marketplace_id: "mihtoa.barbie-theme"
   version: "0.0.2"
-  installs: 10582
+  installs: 10608
   author: "Milene Toazza"
   repo: "https://github.com/mihtoa/barbie-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=mihtoa.barbie-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 83.7
     black: 0

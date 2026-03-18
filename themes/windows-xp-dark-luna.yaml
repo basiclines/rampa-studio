@@ -2,7 +2,7 @@ name: "Windows Xp Dark Luna"
 source:
   marketplace_id: "mssjim.windows-xp-dark"
   version: "1.0.1"
-  installs: 3362
+  installs: 3366
   author: "Mssjim"
   repo: "https://github.com/Mssjim/windows-xp-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=mssjim.windows-xp-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 78.2
     black: 40.3

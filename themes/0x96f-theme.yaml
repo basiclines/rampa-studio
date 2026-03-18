@@ -2,7 +2,7 @@ name: "0x96f Theme"
 source:
   marketplace_id: "filipjane.0x96f-vscode-theme"
   version: "0.2.0"
-  installs: 622
+  installs: 625
   author: "Filip"
   repo: "https://github.com/filipjanevski/0x96f-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=filipjane.0x96f-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 103
     black: 0

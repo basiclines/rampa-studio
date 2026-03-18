@@ -2,7 +2,7 @@ name: "VS Code Deep F.lux - Fork - Fork"
 source:
   marketplace_id: "valentinesamuel.fallout-dark"
   version: "0.0.1"
-  installs: 2242
+  installs: 2243
   author: "valentine samuel"
   repo: "https://github.com/valentinesamuel/themes"
   url: "https://marketplace.visualstudio.com/items?itemName=valentinesamuel.fallout-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 82
+  pair: null
   contrast:
     fg: 79.1
     black: 79.1

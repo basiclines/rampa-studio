@@ -2,7 +2,7 @@ name: "NotionLikeTheme"
 source:
   marketplace_id: "TARA6.notion-like-theme"
   version: "0.2.4"
-  installs: 589
+  installs: 590
   author: "TARA6"
   repo: "https://github.com/tarataracodfish/notion-like-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=TARA6.notion-like-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 98
     black: 98

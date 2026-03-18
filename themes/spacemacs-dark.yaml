@@ -1,11 +1,11 @@
 name: "Spacemacs - dark"
 source:
-  marketplace_id: "cometeer.spacemacs"
-  version: "1.1.1"
-  installs: 69534
-  author: "cometeer"
-  repo: "git+https://github.com/cometeer/spacemacs-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=cometeer.spacemacs"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#292B2E"
   fg: "#CBC1D5"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Spacemacs - light"
   contrast:
     fg: 67.4
     black: 56.7

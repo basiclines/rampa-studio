@@ -2,7 +2,7 @@ name: "AnOldHope"
 source:
   marketplace_id: "dustinsanders.an-old-hope-theme-vscode"
   version: "4.4.0"
-  installs: 102953
+  installs: 102957
   author: "Dustin Sanders"
   repo: "https://github.com/git@github.com:dustinsanders/an-old-hope-theme-vscode.git"
   url: "https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 74.5
     black: 35.1

@@ -2,7 +2,7 @@ name: "Night Owl Oled Dim 80"
 source:
   marketplace_id: "WeiyuWang.night-owl-oled-dim"
   version: "1.0.1"
-  installs: 4585
+  installs: 4590
   author: "Weiyu Wang"
   repo: "https://github.com/wwang1110/night-owl-oled-dim"
   url: "https://marketplace.visualstudio.com/items?itemName=WeiyuWang.night-owl-oled-dim"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: null
+  pair: null
   contrast:
     fg: 59.9
     black: 0

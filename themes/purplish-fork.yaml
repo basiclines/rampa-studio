@@ -2,7 +2,7 @@ name: "Purplish - Fork"
 source:
   marketplace_id: "xynny.purple-theme"
   version: "0.0.2"
-  installs: 6243
+  installs: 6245
   author: "xynny"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=xynny.purple-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 331
+  pair: null
   contrast:
     fg: 79.7
     black: 13.1

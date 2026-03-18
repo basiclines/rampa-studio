@@ -2,7 +2,7 @@ name: "Blue Light Theme"
 source:
   marketplace_id: "msnilshartmann.blue-light"
   version: "0.6.4"
-  installs: 94952
+  installs: 94971
   author: "Nils Hartmann"
   repo: "https://github.com/nilshartmann/vscode-blue-light-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=msnilshartmann.blue-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "Blue Dark theme"
   contrast:
     fg: 53.6
     black: 104.3

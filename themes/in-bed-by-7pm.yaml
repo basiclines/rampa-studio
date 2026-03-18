@@ -2,7 +2,7 @@ name: "In Bed by 7pm"
 source:
   marketplace_id: "sdras.inbedby7pm"
   version: "0.4.0"
-  installs: 47500
+  installs: 47506
   author: "sarah.drasner"
   repo: "https://github.com/sdras/inbedby7pm"
   url: "https://marketplace.visualstudio.com/items?itemName=sdras.inbedby7pm"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 277
+  pair: null
   contrast:
     fg: 91.1
     black: 0

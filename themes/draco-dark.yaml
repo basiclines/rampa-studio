@@ -2,7 +2,7 @@ name: "Draco-dark"
 source:
   marketplace_id: "Draco.draco-dark"
   version: "0.0.3"
-  installs: 6842
+  installs: 6845
   author: "Draco"
   repo: "https://github.com/PR7JW7L/vsc-draco-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=Draco.draco-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 65.5
     black: 0

@@ -2,7 +2,7 @@ name: "vsc-minimalist-theme-odp"
 source:
   marketplace_id: "MuhammadMohsen.vsc-minimalist-theme"
   version: "1.5.4"
-  installs: 1321
+  installs: 1322
   author: "Muhammad Mohsen"
   repo: "https://github.com/Muhammad-Mohsen/vsc-minimalist-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MuhammadMohsen.vsc-minimalist-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 79.6
     black: 0

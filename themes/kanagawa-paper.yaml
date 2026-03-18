@@ -2,7 +2,7 @@ name: "Kanagawa Paper"
 source:
   marketplace_id: "SimonHo.kanagawa-paper"
   version: "1.0.10"
-  installs: 5475
+  installs: 5479
   author: "sho-87"
   repo: "https://github.com/sho-87/kanagawa-paper.vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=SimonHo.kanagawa-paper"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 285
+  pair: null
   contrast:
     fg: 79.7
     black: 0

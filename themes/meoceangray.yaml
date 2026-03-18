@@ -1,11 +1,11 @@
 name: "MeOceanGray"
 source:
-  marketplace_id: "JaianeOliveira.meoceanthemes"
-  version: "0.0.5"
-  installs: 9230
+  marketplace_id: "JaianeOliveira.meoceangray"
+  version: "0.0.1"
+  installs: 1
   author: "Jaiane Oliveira"
-  repo: "https://github.com/JaianeOliveira/meocean-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=JaianeOliveira.meoceanthemes"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=JaianeOliveira.meoceangray"
 colors:
   bg: "#1F1F1F"
   fg: "#F1F1F1"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 96.7
     black: 0

@@ -2,7 +2,7 @@ name: "purble 0.0.2 - Fork - Fork"
 source:
   marketplace_id: "PSJoon.psjoon"
   version: "0.0.3"
-  installs: 5171
+  installs: 5174
   author: "PSJoon"
   repo: "https://github.com/PSjoon/testes"
   url: "https://marketplace.visualstudio.com/items?itemName=PSJoon.psjoon"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 305
+  pair: null
   contrast:
     fg: 107.8
     black: 0

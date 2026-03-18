@@ -2,7 +2,7 @@ name: "Chinolor Light"
 source:
   marketplace_id: "iwyvi.chinolor"
   version: "0.2.19"
-  installs: 36136
+  installs: 36140
   author: "iwyvi"
   repo: "https://github.com/iwyvi/chinolor"
   url: "https://marketplace.visualstudio.com/items?itemName=iwyvi.chinolor"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 93.4
     black: 99.7

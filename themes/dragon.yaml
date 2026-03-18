@@ -2,7 +2,7 @@ name: "Dragon"
 source:
   marketplace_id: "sserafy.ttera-themes"
   version: "2.0.7"
-  installs: 2036
+  installs: 2044
   author: "sserafy"
   repo: "https://github.com/azhou555/naturefy-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ttera-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 66
+  pair: null
   contrast:
     fg: 82.7
     black: 0

@@ -1,11 +1,11 @@
 name: "Neon Cyber"
 source:
-  marketplace_id: "CodewithBismillah.axion-themes"
-  version: "1.1.1"
-  installs: 111
+  marketplace_id: "CodewithBismillah.chroma-library"
+  version: "1.2.1"
+  installs: 358
   author: "Code with Bismillah"
-  repo: "https://github.com/mubashir1837/Axion-Themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.axion-themes"
+  repo: "https://github.com/mubashir1837/Chroma-Library"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.chroma-library"
 colors:
   bg: "#0A0A0F"
   fg: "#E0E0FF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 285
+  pair: null
   contrast:
     fg: 89.3
     black: 0

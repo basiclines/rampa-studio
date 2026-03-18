@@ -2,7 +2,7 @@ name: "Dev+ Dark - Fork - Fork"
 source:
   marketplace_id: "Thzin.Thzin-theme"
   version: "1.0.2"
-  installs: 2031
+  installs: 2034
   author: "Thzin"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Thzin.Thzin-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 78.5
     black: 0

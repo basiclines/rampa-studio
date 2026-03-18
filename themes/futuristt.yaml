@@ -2,7 +2,7 @@ name: "Futuristt"
 source:
   marketplace_id: "carlowisse.futuristt"
   version: "1.6.0"
-  installs: 5356
+  installs: 5358
   author: "carlowisse"
   repo: "https://github.com/carlowisse/futuristt-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=carlowisse.futuristt"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 107.9
     black: 0

@@ -2,7 +2,7 @@ name: "Wind Dark Slate"
 source:
   marketplace_id: "calvinludwig.wind-theme"
   version: "1.0.0"
-  installs: 1681
+  installs: 1682
   author: "Calvin Ludwig"
   repo: "https://github.com/calvinludwig/wind-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=calvinludwig.wind-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 266
+  pair: null
   contrast:
     fg: 79.3
     black: 0

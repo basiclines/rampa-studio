@@ -1,11 +1,11 @@
 name: "1️⃣"
 source:
-  marketplace_id: "PhanTriVietHoang.think-in-react"
-  version: "1.0.0"
-  installs: 5
+  marketplace_id: "PhanTriVietHoang.theme4anyone"
+  version: "1.0.3"
+  installs: 6
   author: "PhanTriVietHoang"
-  repo: "https://github.com/phantriviethoang/think-in-react"
-  url: "https://marketplace.visualstudio.com/items?itemName=PhanTriVietHoang.think-in-react"
+  repo: "https://github.com/phantriviethoang/theme4anyone"
+  url: "https://marketplace.visualstudio.com/items?itemName=PhanTriVietHoang.theme4anyone"
 colors:
   bg: "#282C34"
   fg: "#ABB2BF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 264
+  pair: null
   contrast:
     fg: 56.2
     black: 0

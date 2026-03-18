@@ -2,7 +2,7 @@ name: "CSS Battle"
 source:
   marketplace_id: "JamesGulland.solar-storm-dark-theme"
   version: "0.1.0"
-  installs: 177
+  installs: 179
   author: "James Gulland"
   repo: "https://github.com/james-gulland/solar-storm-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.solar-storm-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 272
+  pair: null
   contrast:
     fg: 36.2
     black: 0

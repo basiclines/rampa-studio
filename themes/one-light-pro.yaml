@@ -1,11 +1,11 @@
 name: "One Light Pro"
 source:
-  marketplace_id: "andrewm098.OneLight-Pro"
-  version: "1.0.1"
-  installs: 21008
-  author: "andrewm098"
-  repo: "https://github.com/andrew-ma/One-Light-Pro"
-  url: "https://marketplace.visualstudio.com/items?itemName=andrewm098.OneLight-Pro"
+  marketplace_id: "smdfuck.best-themes"
+  version: "0.0.15"
+  installs: 149
+  author: "smdfuck"
+  repo: "https://github.com/smdfuck/best-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=smdfuck.best-themes"
 colors:
   bg: "#E4E0CC"
   fg: "#111113"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 98
+  pair: "One Dark Pro"
   contrast:
     fg: 86.8
     black: 83.3

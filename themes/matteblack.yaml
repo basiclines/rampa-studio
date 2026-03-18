@@ -2,7 +2,7 @@ name: "MatteBlack"
 source:
   marketplace_id: "TahaYVR.matteblack"
   version: "1.0.2"
-  installs: 27880
+  installs: 27912
   author: "Taha YVR"
   repo: "https://github.com/tahayvr/matte-black-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=TahaYVR.matteblack"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 93.6
     black: 0

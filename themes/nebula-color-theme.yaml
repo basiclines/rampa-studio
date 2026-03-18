@@ -1,11 +1,11 @@
 name: "Nebula-color-theme"
 source:
-  marketplace_id: "ChirtleLovesDolls.nebula-theme"
-  version: "1.3.3"
-  installs: 146100
-  author: "ChirtleLovesDolls"
-  repo: "https://github.com/eating-coleslaw/vscode-nebula-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=ChirtleLovesDolls.nebula-theme"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#27273A"
   fg: "#FCF6FF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 284
+  pair: null
   contrast:
     fg: 99.6
     black: 0

@@ -2,7 +2,7 @@ name: "Yet Another Solarized Theme (Dark)"
 source:
   marketplace_id: "JulianSchelb.yet-another-solarized-theme"
   version: "1.0.5"
-  installs: 2704
+  installs: 2705
   author: "Julian Schelb"
   repo: "https://github.com/julianschelb/vscode-theme-solarized"
   url: "https://marketplace.visualstudio.com/items?itemName=JulianSchelb.yet-another-solarized-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 263
+  pair: null
   contrast:
     fg: 74.4
     black: 0

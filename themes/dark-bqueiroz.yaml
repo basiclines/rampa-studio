@@ -2,7 +2,7 @@ name: "dark-bqueiroz"
 source:
   marketplace_id: "dark-bqueiroz.dark-bqueiroz"
   version: "0.0.11"
-  installs: 2402
+  installs: 2406
   author: "dark-bqueiroz"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=dark-bqueiroz.dark-bqueiroz"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 303
+  pair: null
   contrast:
     fg: 94.2
     black: 0

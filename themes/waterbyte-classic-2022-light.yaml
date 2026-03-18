@@ -2,7 +2,7 @@ name: "Waterbyte - Classic 2022 Light"
 source:
   marketplace_id: "ungarmichael.wbyt-theme"
   version: "0.2.3"
-  installs: 239
+  installs: 240
   author: "Michael Ungar"
   repo: "https://github.com/ungarmichael/wbyt-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ungarmichael.wbyt-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 90.4
     black: 106

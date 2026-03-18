@@ -2,7 +2,7 @@ name: "Atom One dark Coal"
 source:
   marketplace_id: "shiftybody.atom-one-dark-coal"
   version: "1.5.0"
-  installs: 10664
+  installs: 10668
   author: "shiftybody"
   repo: "https://github.com/shiftybody/atom-one-dark-coal"
   url: "https://marketplace.visualstudio.com/items?itemName=shiftybody.atom-one-dark-coal"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 66.9
     black: 12

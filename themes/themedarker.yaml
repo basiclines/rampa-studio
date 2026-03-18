@@ -2,7 +2,7 @@ name: "ThemeDarker"
 source:
   marketplace_id: "tal7aouy.theme"
   version: "3.1.0"
-  installs: 1510124
+  installs: 1510543
   author: "Mhammed Talhaouy"
   repo: "https://github.com/tal7aouy/theme"
   url: "https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 262
+  pair: null
   contrast:
     fg: 57.2
     black: 0

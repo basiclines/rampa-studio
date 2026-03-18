@@ -2,7 +2,7 @@ name: "darkEST"
 source:
   marketplace_id: "RakeshKannaS.darkest-theme"
   version: "0.0.2"
-  installs: 439
+  installs: 441
   author: "Rakesh Kanna S"
   repo: "https://github.com/rakeshkanna-rk/darkest"
   url: "https://marketplace.visualstudio.com/items?itemName=RakeshKannaS.darkest-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 80.5
     black: 0

@@ -2,7 +2,7 @@ name: "Zenbones Rosebones Light Bright"
 source:
   marketplace_id: "rpbritton.zenbones"
   version: "0.0.2"
-  installs: 2700
+  installs: 2701
   author: "rpbritton"
   repo: "https://github.com/rpbritton/zenbones.nvim"
   url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "yellow"
   hue: null
+  pair: null
   contrast:
     fg: 87.8
     black: 0

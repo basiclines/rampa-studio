@@ -2,7 +2,7 @@ name: "Bluloco Light Italic"
 source:
   marketplace_id: "uloco.theme-bluloco-light"
   version: "3.7.5"
-  installs: 484924
+  installs: 485005
   author: "Umut Topuzoğlu"
   repo: "https://github.com/uloco/theme-bluloco-light"
   url: "https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: "Bluloco Dark Italic"
   contrast:
     fg: 92.6
     black: 92.7

@@ -2,7 +2,7 @@ name: "Nord Midnight"
 source:
   marketplace_id: "adorabilis.nord-midnight"
   version: "0.0.1"
-  installs: 4986
+  installs: 4995
   author: "adorabilis"
   repo: "https://github.com/adorabilis/nord-midnight-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=adorabilis.nord-midnight"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: "Nord Light"
   contrast:
     fg: 84.7
     black: 7.4

@@ -2,7 +2,7 @@ name: "C/C++ Theme"
 source:
   marketplace_id: "Xen.ccpp-theme"
   version: "0.3.4"
-  installs: 18872
+  installs: 18877
   author: "Xen"
   repo: "https://github.com/xenkuo/ccpp_theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Xen.ccpp-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 278
+  pair: null
   contrast:
     fg: 97.1
     black: 0

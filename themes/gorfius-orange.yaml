@@ -1,11 +1,11 @@
 name: "Gorfius Orange"
 source:
-  marketplace_id: "GorIvanov.gorfius-orange-theme"
-  version: "0.0.4"
-  installs: 537
+  marketplace_id: "GorIvanov.gorfius-smoke"
+  version: "0.1.0"
+  installs: 85
   author: "Gor Ivanov"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=GorIvanov.gorfius-orange-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GorIvanov.gorfius-smoke"
 colors:
   bg: "#1B1B1B"
   fg: "#9D9D9D"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 47.8
     black: 21.6

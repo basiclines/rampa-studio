@@ -2,7 +2,7 @@ name: "Mosaic"
 source:
   marketplace_id: "vitoravelino.mosaic"
   version: "0.0.1"
-  installs: 11257
+  installs: 11258
   author: "vitoravelino"
   repo: "https://github.com/vitoravelino/vscode-mosaic"
   url: "https://marketplace.visualstudio.com/items?itemName=vitoravelino.mosaic"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 267
+  pair: null
   contrast:
     fg: 80.1
     black: 0

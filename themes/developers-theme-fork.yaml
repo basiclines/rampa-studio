@@ -2,7 +2,7 @@ name: "Developers theme - Fork"
 source:
   marketplace_id: "Rajeshwaran.developer-theme-dark"
   version: "5.0.0"
-  installs: 162112
+  installs: 162179
   author: "Rajeshwaran"
   repo: "https://github.com/Rajeshwaran2001/developer-theme-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=Rajeshwaran.developer-theme-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 290
+  pair: null
   contrast:
     fg: 107.2
     black: 19.6

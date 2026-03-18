@@ -2,7 +2,7 @@ name: "LightBlack"
 source:
   marketplace_id: "theboringkid.lightblack"
   version: "0.1.0"
-  installs: 630
+  installs: 631
   author: "theboringkid"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=theboringkid.lightblack"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 98.1
     black: 0

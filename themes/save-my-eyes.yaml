@@ -2,7 +2,7 @@ name: "Save My Eyes"
 source:
   marketplace_id: "ZaphodAndo.save-my-eyes"
   version: "1.0.4"
-  installs: 1765
+  installs: 1766
   author: "ZaphodAndo"
   repo: "https://github.com/ZaphodAndo/save-my-eyes"
   url: "https://marketplace.visualstudio.com/items?itemName=ZaphodAndo.save-my-eyes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: null
+  pair: null
   contrast:
     fg: 60
     black: 18.6

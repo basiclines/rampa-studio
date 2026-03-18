@@ -2,7 +2,7 @@ name: "Earl Grey"
 source:
   marketplace_id: "EarlGrey.earl-grey"
   version: "1.0.1"
-  installs: 3413
+  installs: 3414
   author: "Earl Grey"
   repo: "https://github.com/earl-grey-theme/earl-grey-vsc"
   url: "https://marketplace.visualstudio.com/items?itemName=EarlGrey.earl-grey"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 81.2
     black: 81.2

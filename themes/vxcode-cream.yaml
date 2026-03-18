@@ -2,7 +2,7 @@ name: "vxcode cream"
 source:
   marketplace_id: "evertjunior.vxcode-theme"
   version: "0.0.15"
-  installs: 3237
+  installs: 3239
   author: "Evert Junior"
   repo: "https://github.com/evertjr/vxcode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=evertjunior.vxcode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 91.7
     black: 78.9

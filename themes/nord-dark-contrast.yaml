@@ -2,7 +2,7 @@ name: "Nord Dark Contrast"
 source:
   marketplace_id: "simojanhunen.nord-dark-contrast"
   version: "0.4.0"
-  installs: 8763
+  installs: 8767
   author: "Simo Janhunen"
   repo: "https://github.com/simojanhunen/nord-dark-contrast"
   url: "https://marketplace.visualstudio.com/items?itemName=simojanhunen.nord-dark-contrast"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 84.1
     black: 0

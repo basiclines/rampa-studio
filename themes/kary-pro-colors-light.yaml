@@ -2,7 +2,7 @@ name: "Kary Pro Colors - Light"
 source:
   marketplace_id: "karyfoundation.theme-karyfoundation-themes"
   version: "37.0.0"
-  installs: 158320
+  installs: 158331
   author: "Pouya Kary"
   repo: "https://github.com/pouyakary/procolors"
   url: "https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Kary Pro Colors - Dark"
   contrast:
     fg: 66
     black: 98.4

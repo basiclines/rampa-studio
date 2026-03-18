@@ -2,7 +2,7 @@ name: "gleam-theme-minimal-dark"
 source:
   marketplace_id: "nicklasxyz.gleam-themes"
   version: "0.0.3"
-  installs: 3219
+  installs: 3220
   author: "nicklasxyz"
   repo: "https://github.com/NicklasXYZ/vscode-gleam-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=nicklasxyz.gleam-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 85
     black: 50

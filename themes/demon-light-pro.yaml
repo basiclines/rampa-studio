@@ -2,7 +2,7 @@ name: "Demon Light Pro"
 source:
   marketplace_id: "mrsiddharthsolanki.demon-dark-pro-theme"
   version: "2.6.7"
-  installs: 140
+  installs: 141
   author: "mrsiddharthsolanki"
   repo: "https://github.com/mrsiddharthsolanki/demon-dark-pro"
   url: "https://marketplace.visualstudio.com/items?itemName=mrsiddharthsolanki.demon-dark-pro-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "Demon Dark Pro"
   contrast:
     fg: 94.7
     black: 94.7

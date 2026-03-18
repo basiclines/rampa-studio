@@ -2,7 +2,7 @@ name: "Concoctis - Light : Hard"
 source:
   marketplace_id: "wheredoesyourmindgo.gruvbox-concoctis"
   version: "10.30.27"
-  installs: 74043
+  installs: 74058
   author: "wheredoesyourmindgo"
   repo: "https://github.com/wheredoesyourmindgo/gruvbox-concoctis"
   url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-concoctis"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Concoctis - Dark : Hard"
   contrast:
     fg: 82.2
     black: 88.5

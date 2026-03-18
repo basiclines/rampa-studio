@@ -2,7 +2,7 @@ name: "monochrome-light-amplified"
 source:
   marketplace_id: "anotherglitchinthematrix.monochrome"
   version: "2.4.3"
-  installs: 47933
+  installs: 47953
   author: "glitch"
   repo: "https://github.com/anotherglitchinthematrix/monochrome"
   url: "https://marketplace.visualstudio.com/items?itemName=anotherglitchinthematrix.monochrome"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "yellow"
   hue: null
+  pair: null
   contrast:
     fg: 89.5
     black: 0

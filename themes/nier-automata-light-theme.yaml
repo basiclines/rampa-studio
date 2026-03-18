@@ -2,7 +2,7 @@ name: "Nier: Automata Light Theme"
 source:
   marketplace_id: "b5261b62-5943-495a-a2cd-2b281ddb7a76.vscode-nier-automata-theme"
   version: "1.0.0"
-  installs: 15576
+  installs: 15582
   author: "Shelune"
   repo: "https://github.com/shelune/vscode-nier-automata-light"
   url: "https://marketplace.visualstudio.com/items?itemName=b5261b62-5943-495a-a2cd-2b281ddb7a76.vscode-nier-automata-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: 94
+  pair: null
   contrast:
     fg: 64.2
     black: 0

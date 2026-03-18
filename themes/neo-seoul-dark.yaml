@@ -2,7 +2,7 @@ name: "Neo Seoul Dark"
 source:
   marketplace_id: "taotao7.neo-seoul-theme"
   version: "0.0.3"
-  installs: 250
+  installs: 251
   author: "taotao7"
   repo: "https://github.com/taotao7/neoseoul-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=taotao7.neo-seoul-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: "Neo Seoul Light"
   contrast:
     fg: 70.2
     black: 0

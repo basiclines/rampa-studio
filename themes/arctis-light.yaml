@@ -1,11 +1,11 @@
 name: "Arctis Light"
 source:
-  marketplace_id: "avidworks.arctis"
-  version: "2.3.1"
-  installs: 15547
-  author: "adamdotjs"
-  repo: "https://github.com/avidworks/arctis"
-  url: "https://marketplace.visualstudio.com/items?itemName=avidworks.arctis"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#EAECF0"
   fg: "#404859"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: "Arctis Night"
   contrast:
     fg: 79.8
     black: 13.3

@@ -2,7 +2,7 @@ name: "Solarized-light-functional"
 source:
   marketplace_id: "veggiemonk.solarized-light-functional"
   version: "2.0.0"
-  installs: 3698
+  installs: 3699
   author: "veggiemonk"
   repo: "https://github.com/veggiemonk/theme-solarized-light-functional"
   url: "https://marketplace.visualstudio.com/items?itemName=veggiemonk.solarized-light-functional"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 71.6
     black: 93.7

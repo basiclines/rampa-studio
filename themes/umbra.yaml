@@ -2,7 +2,7 @@ name: "umbra"
 source:
   marketplace_id: "greven.umbra"
   version: "1.4.10"
-  installs: 17301
+  installs: 17302
   author: "greven"
   repo: "https://github.com/greven/umbra-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=greven.umbra"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 74.9
     black: 0

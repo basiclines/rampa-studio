@@ -2,7 +2,7 @@ name: "Qt Creator-Like Dark Theme"
 source:
   marketplace_id: "MichaelH.qtlike-dark-theme"
   version: "0.0.1"
-  installs: 3267
+  installs: 3268
   author: "Michael H"
   repo: "https://github.com/Michael-H7/vscode-qtlike-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MichaelH.qtlike-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 71.6
     black: 0

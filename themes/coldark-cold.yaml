@@ -2,7 +2,7 @@ name: "Coldark - Cold"
 source:
   marketplace_id: "ArmandPhilippot.coldark"
   version: "1.2.11"
-  installs: 6466
+  installs: 6471
   author: "Armand Philippot"
   repo: "https://github.com/ArmandPhilippot/coldark-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=ArmandPhilippot.coldark"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 252
+  pair: null
   contrast:
     fg: 91.2
     black: 0

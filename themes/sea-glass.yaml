@@ -2,7 +2,7 @@ name: "Sea Glass"
 source:
   marketplace_id: "KyleStewart.sea-glass-color-theme"
   version: "0.4.0"
-  installs: 4859
+  installs: 4862
   author: "Kyle Stewart"
   repo: "https://github.com/KStew1017/sea-glass-vscode-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=KyleStewart.sea-glass-color-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 83.3
     black: 0

@@ -1,11 +1,11 @@
 name: "Honkai: Star Rail - Dan Heng (Dark)"
 source:
-  marketplace_id: "frostmoon-dev.genshin-hsr-themes"
-  version: "0.1.6"
-  installs: 518
-  author: "⏾ frostmoon"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.genshin-hsr-themes"
+  marketplace_id: "horizon-core.horizon-theme"
+  version: "3.6.1"
+  installs: 79
+  author: "Horizon"
+  repo: "https://github.com/Abdelrahman968/horizon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=horizon-core.horizon-theme"
 colors:
   bg: "#0E1A1E"
   fg: "#E8ECEC"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 221
+  pair: null
   contrast:
     fg: 93.8
     black: 0

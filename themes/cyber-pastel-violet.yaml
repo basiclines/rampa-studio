@@ -2,7 +2,7 @@ name: "Cyber Pastel - Violet"
 source:
   marketplace_id: "cyber-pastel-themes.cyber-pastel-theme-pack"
   version: "1.0.0"
-  installs: 424
+  installs: 425
   author: "cyber-pastel-themes"
   repo: "https://github.com/your-username/cyber-pastel-theme-pack"
   url: "https://marketplace.visualstudio.com/items?itemName=cyber-pastel-themes.cyber-pastel-theme-pack"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 93.4
     black: 93.4

@@ -2,7 +2,7 @@ name: "a_green_cat dimmed"
 source:
   marketplace_id: "agreencat.a-green-cat-theme"
   version: "1.0.3"
-  installs: 368
+  installs: 369
   author: "a_green_cat"
   repo: "https://github.com/KiraGreifeneder/a-green-cat-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=agreencat.a-green-cat-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 280
+  pair: null
   contrast:
     fg: 76.7
     black: 0

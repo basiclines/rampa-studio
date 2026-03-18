@@ -2,7 +2,7 @@ name: "Tsukuyomi (Light)"
 source:
   marketplace_id: "developerayo.Tsukuyomi"
   version: "1.2.7"
-  installs: 12459
+  installs: 12461
   author: "Shodipo Ayomide"
   repo: "https://github.com/Developerayo/tsukuyomi-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=developerayo.Tsukuyomi"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 90
     black: 90

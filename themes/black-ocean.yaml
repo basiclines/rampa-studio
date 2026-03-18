@@ -2,7 +2,7 @@ name: "Black Ocean"
 source:
   marketplace_id: "zamerick.black-ocean"
   version: "1.1.3"
-  installs: 87734
+  installs: 87742
   author: "zamerick"
   repo: "https://github.com/Zamerick/black-ocean"
   url: "https://marketplace.visualstudio.com/items?itemName=zamerick.black-ocean"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 86.6
     black: 0

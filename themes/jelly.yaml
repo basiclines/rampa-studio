@@ -2,7 +2,7 @@ name: "jelly"
 source:
   marketplace_id: "kylethebaker.jelly-theme"
   version: "0.0.4"
-  installs: 21817
+  installs: 21823
   author: "kylethebaker"
   repo: "https://github.com/kylethebaker/jelly-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=kylethebaker.jelly-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 278
+  pair: null
   contrast:
     fg: 72.6
     black: 0

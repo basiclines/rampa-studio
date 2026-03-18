@@ -2,7 +2,7 @@ name: "Sunset Boulevard"
 source:
   marketplace_id: "Wasted69.dark-theme-sos"
   version: "2.7.0"
-  installs: 402
+  installs: 403
   author: "Wasted"
   repo: "https://github.com/riel-fas/VScode_theme_extension"
   url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 90.9
     black: 81.8

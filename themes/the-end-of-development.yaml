@@ -2,7 +2,7 @@ name: "The End Of Development"
 source:
   marketplace_id: "tecnomazov.evas-code"
   version: "1.0.0"
-  installs: 1059
+  installs: 1061
   author: "TecnoMazov"
   repo: "https://github.com/JuditKaramazov/TCA-EVASCode"
   url: "https://marketplace.visualstudio.com/items?itemName=tecnomazov.evas-code"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 83
     black: 0

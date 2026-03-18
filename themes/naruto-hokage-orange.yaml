@@ -2,7 +2,7 @@ name: "Naruto (Hokage Orange)"
 source:
   marketplace_id: "LunaCode.anime-theme"
   version: "0.0.3"
-  installs: 373
+  installs: 377
   author: "LunaCode"
   repo: "https://github.com/BuildXO/anime-theme-pack"
   url: "https://marketplace.visualstudio.com/items?itemName=LunaCode.anime-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 67
+  pair: null
   contrast:
     fg: 92
     black: 0

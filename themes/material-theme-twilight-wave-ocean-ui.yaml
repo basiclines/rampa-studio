@@ -2,7 +2,7 @@ name: "Material Theme Twilight Wave Ocean Ui ~"
 source:
   marketplace_id: "ZahidNazir.Material-Theme-Twilight-Wave"
   version: "0.0.3"
-  installs: 2564
+  installs: 2567
   author: "Zahid Nazir"
   repo: "https://github.com/Tactition/Twilight-Wave-VsCode-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ZahidNazir.Material-Theme-Twilight-Wave"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 275
+  pair: null
   contrast:
     fg: 67.6
     black: 0

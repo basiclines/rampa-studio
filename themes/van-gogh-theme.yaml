@@ -2,7 +2,7 @@ name: "Van Gogh Theme"
 source:
   marketplace_id: "kyawzinhtet.van-gogh"
   version: "0.0.8"
-  installs: 8
+  installs: 9
   author: "Kyaw Zin Htet"
   repo: "https://github.com/kyawzinhtett/Van-Gogh-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=kyawzinhtet.van-gogh"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: 258
+  pair: null
   contrast:
     fg: 87.8
     black: 0

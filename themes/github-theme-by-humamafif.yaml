@@ -2,7 +2,7 @@ name: "Github-theme-by-humamafif"
 source:
   marketplace_id: "humamafif.github-theme-by-humamafif"
   version: "0.0.3"
-  installs: 178
+  installs: 179
   author: "humamafif"
   repo: "https://github.com/humamafif/my-github-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=humamafif.github-theme-by-humamafif"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 258
+  pair: null
   contrast:
     fg: 96.3
     black: 0

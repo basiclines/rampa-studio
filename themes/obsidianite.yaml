@@ -2,7 +2,7 @@ name: "Obsidianite"
 source:
   marketplace_id: "shd0w.obsidianite-vscode"
   version: "1.0.0"
-  installs: 0
+  installs: 2
   author: "shd0w"
   repo: "https://github.com/shd0w/obsidianite-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=shd0w.obsidianite-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 295
+  pair: null
   contrast:
     fg: 67.1
     black: 0

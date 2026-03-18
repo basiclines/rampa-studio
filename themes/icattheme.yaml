@@ -2,7 +2,7 @@ name: "icatTheme"
 source:
   marketplace_id: "ahmeticat.icat-dark-theme"
   version: "0.0.11"
-  installs: 5290
+  installs: 5291
   author: "ahmeticat"
   repo: "https://github.com/ahmeticat/Icat-Dark-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ahmeticat.icat-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 99.7
     black: 0

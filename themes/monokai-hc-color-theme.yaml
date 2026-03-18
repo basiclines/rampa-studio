@@ -2,7 +2,7 @@ name: "monokai-hc-color-theme"
 source:
   marketplace_id: "iZDT.theme-monokai-hc"
   version: "1.0.1"
-  installs: 5112
+  installs: 5113
   author: "iZDT"
   repo: "https://github.com/Simple-Tools/VSCode-MonokaiHC-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=iZDT.theme-monokai-hc"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 103
     black: 0

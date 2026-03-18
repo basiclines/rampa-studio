@@ -2,7 +2,7 @@ name: "Gruvbox Material Flat Light"
 source:
   marketplace_id: "GrzegorzKozub.gruvbox-material-flat"
   version: "0.2.8"
-  installs: 685
+  installs: 687
   author: "greg"
   repo: "https://github.com/GrzegorzKozub/gruvbox-material-flat"
   url: "https://marketplace.visualstudio.com/items?itemName=GrzegorzKozub.gruvbox-material-flat"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: 93
+  pair: "Gruvbox Material Flat Dark"
   contrast:
     fg: 73.6
     black: 0

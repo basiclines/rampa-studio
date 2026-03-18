@@ -2,7 +2,7 @@ name: "lubasiverse"
 source:
   marketplace_id: "lubasiverse.lubasiverse"
   version: "1.0.0"
-  installs: 34
+  installs: 35
   author: "lubasiverse"
   repo: "https://github.com/yourusername/lubasiverse"
   url: "https://marketplace.visualstudio.com/items?itemName=lubasiverse.lubasiverse"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 73.7
     black: 0

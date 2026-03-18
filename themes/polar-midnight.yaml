@@ -2,7 +2,7 @@ name: "Polar Midnight"
 source:
   marketplace_id: "postnumbers.polar-themes"
   version: "0.0.8"
-  installs: 36
+  installs: 37
   author: "Postnumbers"
   repo: "https://github.com/postnumbers/polar-vscode-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=postnumbers.polar-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 86.4
     black: 9.1

@@ -2,7 +2,7 @@ name: "Islands Dark"
 source:
   marketplace_id: "PhanTriVietHoang.island"
   version: "1.0.1"
-  installs: 84
+  installs: 85
   author: "PhanTriVietHoang"
   repo: "https://github.com/phantriviethoang/wip"
   url: "https://marketplace.visualstudio.com/items?itemName=PhanTriVietHoang.island"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: "Islands Light"
   contrast:
     fg: 66.2
     black: 0

@@ -2,7 +2,7 @@ name: "LuminaShade-Amethyst"
 source:
   marketplace_id: "JackPritomSoren.luminashade"
   version: "1.0.5"
-  installs: 138
+  installs: 140
   author: "Jack Pritom Soren"
   repo: "https://github.com/jps27CSE/LuminaShade-VSCode-Extension"
   url: "https://marketplace.visualstudio.com/items?itemName=JackPritomSoren.luminashade"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 292
+  pair: null
   contrast:
     fg: 86.1
     black: 0

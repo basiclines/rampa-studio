@@ -2,7 +2,7 @@ name: "GameBoy Classic Light"
 source:
   marketplace_id: "sanchodelniglo.gameboy-classic-theme"
   version: "0.0.4"
-  installs: 832
+  installs: 835
   author: "sanchodelniglo"
   repo: "https://github.com/Sanchodelniglo/gameboy-classic-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sanchodelniglo.gameboy-classic-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: 122
+  pair: "GameBoy Classic Dark"
   contrast:
     fg: 69
     black: 69

@@ -2,7 +2,7 @@ name: "Soudev semi dark Andromeda"
 source:
   marketplace_id: "soudev.soudev-theme"
   version: "1.0.3"
-  installs: 11535
+  installs: 11536
   author: "soudev"
   repo: "https://github.com/jefersonpassos/soudev-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=soudev.soudev-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 310
+  pair: null
   contrast:
     fg: 104.8
     black: 0

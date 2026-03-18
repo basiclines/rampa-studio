@@ -2,7 +2,7 @@ name: "Python-Bright-Colors-Theme"
 source:
   marketplace_id: "Meda2dAsada.python-bright-colors-theme"
   version: "0.0.1"
-  installs: 892
+  installs: 893
   author: "Meda2dAsada"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Meda2dAsada.python-bright-colors-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 319
+  pair: null
   contrast:
     fg: 44.5
     black: 0

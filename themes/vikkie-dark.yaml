@@ -2,7 +2,7 @@ name: "Vikkie!!! Dark"
 source:
   marketplace_id: "atomicnumberphi.vikkie-theme"
   version: "1.0.3"
-  installs: 97
+  installs: 98
   author: "Kaleidosium"
   repo: "https://github.com/Kaleidosium/vikkie-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=atomicnumberphi.vikkie-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 302
+  pair: "Vikkie!!! Light"
   contrast:
     fg: 84.6
     black: 0

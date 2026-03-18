@@ -2,7 +2,7 @@ name: "Elypink Light (Summer)"
 source:
   marketplace_id: "barineco.elypink-theme"
   version: "0.6.0"
-  installs: 37
+  installs: 38
   author: "barineco"
   repo: "https://github.com/barineco/elypink-theme-vsc"
   url: "https://marketplace.visualstudio.com/items?itemName=barineco.elypink-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 64.2
     black: 91.9

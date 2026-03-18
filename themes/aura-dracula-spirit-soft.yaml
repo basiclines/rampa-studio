@@ -2,7 +2,7 @@ name: "Aura Dracula Spirit (Soft)"
 source:
   marketplace_id: "JoseMurilloc.aura-spirit-dracula"
   version: "0.1.10"
-  installs: 70846
+  installs: 70920
   author: "JoseMurilloc"
   repo: "https://github.com/josemurilloc/aura-spirit-dracula"
   url: "https://marketplace.visualstudio.com/items?itemName=JoseMurilloc.aura-spirit-dracula"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 300
+  pair: null
   contrast:
     fg: 94.7
     black: 0

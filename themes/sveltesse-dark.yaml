@@ -2,7 +2,7 @@ name: "Sveltesse Dark"
 source:
   marketplace_id: "AntonioSarcevic.theme-sveltesse"
   version: "0.0.1"
-  installs: 770
+  installs: 771
   author: "Antonio Sarcevic"
   repo: "https://github.com/SarcevicAntonio/vscode-theme-sveltesse"
   url: "https://marketplace.visualstudio.com/items?itemName=AntonioSarcevic.theme-sveltesse"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 90.3
     black: 0

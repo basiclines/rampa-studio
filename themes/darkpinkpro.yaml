@@ -2,7 +2,7 @@ name: "DarkPinkPro"
 source:
   marketplace_id: "AhmedSaid.darkpinkpro"
   version: "0.3.4"
-  installs: 12745
+  installs: 12754
   author: "Ahmed Said"
   repo: "https://github.com/AhmeddSaid/darkpinkpro"
   url: "https://marketplace.visualstudio.com/items?itemName=AhmedSaid.darkpinkpro"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 106.8
     black: 0

@@ -2,7 +2,7 @@ name: "Dracula Pro Black"
 source:
   marketplace_id: "caiovellani.dracula-pro-free"
   version: "1.2.0"
-  installs: 447
+  installs: 448
   author: "caiovellani"
   repo: "https://github.com/caiovellani/dracula-pro"
   url: "https://marketplace.visualstudio.com/items?itemName=caiovellani.dracula-pro-free"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 103
     black: 0

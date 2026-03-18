@@ -2,7 +2,7 @@ name: "Ztok"
 source:
   marketplace_id: "KrlosDev.ztok"
   version: "1.0.5"
-  installs: 885
+  installs: 886
   author: "KrlosDev"
   repo: "https://github.com/KrlosDev/ztok"
   url: "https://marketplace.visualstudio.com/items?itemName=KrlosDev.ztok"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 58
     black: 0

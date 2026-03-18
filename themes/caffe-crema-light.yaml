@@ -2,7 +2,7 @@ name: "Caffe Crema Light"
 source:
   marketplace_id: "MonicaVilla.caffe-crema-theme"
   version: "1.0.1"
-  installs: 298
+  installs: 301
   author: "Mónica Villarroel"
   repo: "https://github.com/MonicaVillap/CaffeCremaTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=MonicaVilla.caffe-crema-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Caffe Crema Dark"
   contrast:
     fg: 95.5
     black: 85.9

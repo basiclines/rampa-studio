@@ -2,7 +2,7 @@ name: "Compline"
 source:
   marketplace_id: "rivethorn.compline"
   version: "1.0.1"
-  installs: 547
+  installs: 548
   author: "Rivethorn"
   repo: "https://github.com/jblais493/compline"
   url: "https://marketplace.visualstudio.com/items?itemName=rivethorn.compline"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 95.7
     black: 0

@@ -2,7 +2,7 @@ name: "Windwaker"
 source:
   marketplace_id: "endg4me.windwaker"
   version: "1.0.3"
-  installs: 182
+  installs: 183
   author: "Endg4me_"
   repo: "https://github.com/Endg4meZer0/Windwaker-VSCode-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=endg4me.windwaker"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 88.9
     black: 0

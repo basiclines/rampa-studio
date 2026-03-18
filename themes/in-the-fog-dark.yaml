@@ -2,7 +2,7 @@ name: "In The Fog Dark"
 source:
   marketplace_id: "ganevru.in-the-fog-theme"
   version: "0.3.1"
-  installs: 3344
+  installs: 3367
   author: "ganevru"
   repo: "https://github.com/ganevru/in-the-fog-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ganevru.in-the-fog-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 77
     black: 19.6

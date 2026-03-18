@@ -2,7 +2,7 @@ name: "quantxz"
 source:
   marketplace_id: "quantxz.quantxz"
   version: "0.0.9"
-  installs: 1986
+  installs: 1990
   author: "anderson"
   repo: "https://github.com/quantxz/dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=quantxz.quantxz"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 274
+  pair: null
   contrast:
     fg: 78.6
     black: 0

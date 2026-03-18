@@ -2,7 +2,7 @@ name: "Purple Void"
 source:
   marketplace_id: "Rej.purpleVoid"
   version: "1.0.3"
-  installs: 5013
+  installs: 5015
   author: "Rej"
   repo: "https://github.com/Rejdesu/purpleVoid"
   url: "https://marketplace.visualstudio.com/items?itemName=Rej.purpleVoid"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 80.5
     black: 0

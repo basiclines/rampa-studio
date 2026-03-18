@@ -2,7 +2,7 @@ name: "Aesthetic"
 source:
   marketplace_id: "sophtli.cute-aesthetic"
   version: "1.1.4"
-  installs: 4504
+  installs: 4505
   author: "Sophtli"
   repo: "https://github.com/Sophtli/cute-aesthetic"
   url: "https://marketplace.visualstudio.com/items?itemName=sophtli.cute-aesthetic"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 98.7
     black: 106

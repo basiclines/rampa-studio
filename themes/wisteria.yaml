@@ -2,7 +2,7 @@ name: "Wisteria"
 source:
   marketplace_id: "raleigh-hansen.wisteria-vscode"
   version: "1.0.1"
-  installs: 935
+  installs: 936
   author: "Raleigh Hansen"
   repo: "https://github.com/raleighsedona/wisteria-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=raleigh-hansen.wisteria-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 292
+  pair: null
   contrast:
     fg: 60.4
     black: 24.7

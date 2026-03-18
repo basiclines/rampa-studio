@@ -2,7 +2,7 @@ name: "GitLab Light"
 source:
   marketplace_id: "AlbertoRestifo.gitlab-webide-theme"
   version: "1.0.1"
-  installs: 5706
+  installs: 5712
   author: "Alberto Restifo"
   repo: "https://github.com/albertorestifo/gitlab-webide-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AlbertoRestifo.gitlab-webide-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: "GitLab Dark"
   contrast:
     fg: 96.8
     black: 96.8

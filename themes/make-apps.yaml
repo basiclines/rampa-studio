@@ -2,7 +2,7 @@ name: "Make Apps"
 source:
   marketplace_id: "dannyconnell.make-apps-theme"
   version: "1.0.4"
-  installs: 19987
+  installs: 19989
   author: "Danny Connell"
   repo: "https://github.com/dannyconnell/vscode-make-apps-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=dannyconnell.make-apps-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 230
+  pair: null
   contrast:
     fg: 68.5
     black: 0

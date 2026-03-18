@@ -1,11 +1,11 @@
 name: "Cosmic Sea"
 source:
-  marketplace_id: "sserafy.ttera-themes"
-  version: "2.0.7"
-  installs: 2036
+  marketplace_id: "sserafy.ssera-themes"
+  version: "2.0.2"
+  installs: 334
   author: "sserafy"
   repo: "https://github.com/azhou555/naturefy-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ttera-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ssera-themes"
 colors:
   bg: "#0F1A2E"
   fg: "#B3E5FC"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 262
+  pair: null
   contrast:
     fg: 85
     black: 0

@@ -2,7 +2,7 @@ name: "Cyan Dark"
 source:
   marketplace_id: "ceciljacob.code-color-theme"
   version: "1.0.0"
-  installs: 22121
+  installs: 22125
   author: "Cecil Jacob"
   repo: "https://github.com/ceciljacob/code-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ceciljacob.code-color-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: 260
+  pair: null
   contrast:
     fg: 84.7
     black: 0

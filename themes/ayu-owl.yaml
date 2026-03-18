@@ -2,7 +2,7 @@ name: "ayu-owl"
 source:
   marketplace_id: "dermohamad.ayu-owl"
   version: "0.5.0"
-  installs: 17992
+  installs: 17994
   author: "dermohamad"
   repo: "https://github.com/mo-develop/ayu-owl"
   url: "https://marketplace.visualstudio.com/items?itemName=dermohamad.ayu-owl"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 244
+  pair: null
   contrast:
     fg: 74.4
     black: 0

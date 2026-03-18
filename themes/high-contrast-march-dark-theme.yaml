@@ -2,7 +2,7 @@ name: "High Contrast March Dark Theme"
 source:
   marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
   version: "0.9.7"
-  installs: 821
+  installs: 822
   author: "Mickael Lherminez"
   repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
   url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 234
+  pair: null
   contrast:
     fg: 54.1
     black: 0

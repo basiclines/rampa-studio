@@ -2,7 +2,7 @@ name: "Ballerini Theme"
 source:
   marketplace_id: "BalleriniServer.ballerini-theme"
   version: "1.2.4"
-  installs: 55161
+  installs: 55189
   author: "Ballerini Theme"
   repo: "https://github.com/Ballerini-Server/Ballerini-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=BalleriniServer.ballerini-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 5
+  pair: null
   contrast:
     fg: 98.8
     black: 0

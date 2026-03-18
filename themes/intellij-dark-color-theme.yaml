@@ -2,7 +2,7 @@ name: "intellij-dark-color-theme"
 source:
   marketplace_id: "zerodind.familiar-java-themes"
   version: "0.1.7"
-  installs: 58649
+  installs: 58663
   author: "0dinD"
   repo: "https://gitlab.com/zerodind/familiar-java-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=zerodind.familiar-java-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 58.5
     black: 103.8

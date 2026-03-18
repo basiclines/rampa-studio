@@ -2,7 +2,7 @@ name: "Parkside Light"
 source:
   marketplace_id: "marcuskaz.parkside-light-theme"
   version: "1.3.4"
-  installs: 21
+  installs: 22
   author: "Marcus Kazmierczak"
   repo: "https://github.com/mkaz/parkside-light-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=marcuskaz.parkside-light-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 97.5
     black: 97.5

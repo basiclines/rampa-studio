@@ -1,7 +1,7 @@
 name: "Australian Food & Fibre Light"
 source:
   marketplace_id: "lucidlabs.australian-food-fibre-theme"
-  version: "1.1.0"
+  version: "1.4.0"
   installs: 8
   author: "Lucid Labs"
   repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "Australian Food & Fibre Dark"
   contrast:
     fg: 104.5
     black: 104.5

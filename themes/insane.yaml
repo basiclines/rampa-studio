@@ -2,7 +2,7 @@ name: "Insane"
 source:
   marketplace_id: "VitorRubimPassos.insane-dark-theme"
   version: "2.0.1"
-  installs: 822
+  installs: 823
   author: "Vitor Rubim Passos"
   repo: "https://github.com/vitorrubim1/insane-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=VitorRubimPassos.insane-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 89.5
     black: 0

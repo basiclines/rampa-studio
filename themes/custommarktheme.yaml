@@ -1,11 +1,11 @@
 name: "CustomMarkTheme"
 source:
-  marketplace_id: "Meuid3.headfox-theme-intense"
-  version: "1.0.0"
-  installs: 89
+  marketplace_id: "Meuid3.headfox-theme"
+  version: "1.0.1"
+  installs: 281
   author: "meuid3"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=Meuid3.headfox-theme-intense"
+  url: "https://marketplace.visualstudio.com/items?itemName=Meuid3.headfox-theme"
 colors:
   bg: "#303845"
   fg: "#B4BDCD"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 260
+  pair: null
   contrast:
     fg: 59.4
     black: 0

@@ -2,7 +2,7 @@ name: "firewatch"
 source:
   marketplace_id: "gmtstephane.firewatch"
   version: "0.0.1"
-  installs: 916
+  installs: 917
   author: "gmtstephane"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=gmtstephane.firewatch"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: null
   contrast:
     fg: 56.2
     black: 0

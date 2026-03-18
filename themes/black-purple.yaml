@@ -2,7 +2,7 @@ name: "Black Purple"
 source:
   marketplace_id: "VishalMaurya.zenith-ui"
   version: "0.2.4"
-  installs: 189
+  installs: 191
   author: "Vishal Maurya"
   repo: "https://github.com/maurya-07/zenith-ui"
   url: "https://marketplace.visualstudio.com/items?itemName=VishalMaurya.zenith-ui"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 88.5
     black: 10.9

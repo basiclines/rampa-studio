@@ -1,11 +1,11 @@
 name: "Gum"
 source:
-  marketplace_id: "RobinNaghshbandi.gum"
-  version: "0.2.0"
-  installs: 0
-  author: "Robin Naghshbandi"
+  marketplace_id: "RobinBandi.cherry-gum-v2"
+  version: "0.19.0"
+  installs: 394
+  author: "Robin Bandi"
   repo: "https://github.com/robbandi/Cherry-Gum"
-  url: "https://marketplace.visualstudio.com/items?itemName=RobinNaghshbandi.gum"
+  url: "https://marketplace.visualstudio.com/items?itemName=RobinBandi.cherry-gum-v2"
 colors:
   bg: "#171717"
   fg: "#90D8F0"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 75.6
     black: 0

@@ -1,11 +1,11 @@
 name: "Sandcastle"
 source:
-  marketplace_id: "ryanolsonx.sandcastle-theme"
-  version: "0.3.1"
-  installs: 2543
+  marketplace_id: "ryanolsonx.sandcastle"
+  version: "0.1.0"
+  installs: 846
   author: "Ryan Olson"
   repo: "https://github.com/ryanolsonx/vscode-sandcastle-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=ryanolsonx.sandcastle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ryanolsonx.sandcastle"
 colors:
   bg: "#272C35"
   fg: "#FFF4BA"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: 262
+  pair: null
   contrast:
     fg: 95.7
     black: 0

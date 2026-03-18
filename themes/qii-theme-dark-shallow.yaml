@@ -2,7 +2,7 @@ name: "Qii Theme Dark Shallow"
 source:
   marketplace_id: "qiqi29.qii-theme"
   version: "1.6.4"
-  installs: 3873
+  installs: 3877
   author: "qiqi29"
   repo: "https://github.com/Qiqi29/qii-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=qiqi29.qii-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 254
+  pair: null
   contrast:
     fg: 73
     black: 0

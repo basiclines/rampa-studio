@@ -2,7 +2,7 @@ name: "Cyber Purple 77"
 source:
   marketplace_id: "flep.cyber-purple-77"
   version: "1.2.1"
-  installs: 4861
+  installs: 4865
   author: "flep"
   repo: "https://github.com/fleps/cyber-purple-77-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=flep.cyber-purple-77"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 307
+  pair: null
   contrast:
     fg: 56.4
     black: 37.3

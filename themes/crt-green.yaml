@@ -1,11 +1,11 @@
 name: "CRT Green"
 source:
-  marketplace_id: "krueger71.crt-themes"
-  version: "0.5.2"
-  installs: 38247
-  author: "krueger71"
-  repo: "https://github.com/krueger71/crt-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=krueger71.crt-themes"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#111111"
   fg: "#33FF00"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 86.3
     black: 86.3

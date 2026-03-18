@@ -2,7 +2,7 @@ name: "Coder Coder Dark Redefined"
 source:
   marketplace_id: "moondevaa.codercoderdarkredefined"
   version: "0.1.2"
-  installs: 1532
+  installs: 1534
   author: "moondevaa"
   repo: "https://github.com/AaBbdev29/Redefined-coder"
   url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.codercoderdarkredefined"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 287
+  pair: null
   contrast:
     fg: 49
     black: 0

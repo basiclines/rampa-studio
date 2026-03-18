@@ -2,7 +2,7 @@ name: "H1 (Light) - Fork"
 source:
   marketplace_id: "Hacker0x01.HackerOne-VS-Code-Theme"
   version: "1.1.2"
-  installs: 5436
+  installs: 5438
   author: "Hacker0x01"
   repo: "https://github.com/Hacker0x01/HackerOne-VS-Code-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Hacker0x01.HackerOne-VS-Code-Theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 82
     black: 105.8

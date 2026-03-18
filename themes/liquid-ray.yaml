@@ -1,7 +1,7 @@
 name: "Liquid Ray"
 source:
   marketplace_id: "wiidede.liquid-ray"
-  version: "1.2.2"
+  version: "1.4.3"
   installs: 1903
   author: "wiidede"
   repo: "https://github.com/wiidede/Liquid-Ray"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 52
     black: 17.6

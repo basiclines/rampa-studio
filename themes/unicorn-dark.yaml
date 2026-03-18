@@ -2,7 +2,7 @@ name: "Unicorn dark"
 source:
   marketplace_id: "MarfahTechnologies.unicorn-dark"
   version: "1.0.0"
-  installs: 215
+  installs: 216
   author: "Marfah Technologies"
   repo: "https://github.com/FahadQasim283/unicorn-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MarfahTechnologies.unicorn-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 79.9
     black: 65.2

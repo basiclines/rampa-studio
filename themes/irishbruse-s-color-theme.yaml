@@ -2,7 +2,7 @@ name: "IrishBruse's Color Theme"
 source:
   marketplace_id: "IrishBruse.dark-theme"
   version: "1.6.2"
-  installs: 807
+  installs: 808
   author: "Ethan Conneely"
   repo: "https://github.com/IrishBruse/IrishBruse-Dark-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=IrishBruse.dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 103.9
     black: 106

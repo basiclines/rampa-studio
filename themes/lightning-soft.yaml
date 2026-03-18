@@ -2,7 +2,7 @@ name: "Lightning Soft"
 source:
   marketplace_id: "zevross.lightning"
   version: "2.1.1"
-  installs: 889
+  installs: 891
   author: "Zev Ross"
   repo: "https://github.com/Zev18/lightning"
   url: "https://marketplace.visualstudio.com/items?itemName=zevross.lightning"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 284
+  pair: null
   contrast:
     fg: 66.5
     black: 0

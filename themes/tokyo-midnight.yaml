@@ -2,7 +2,7 @@ name: "Tokyo Midnight"
 source:
   marketplace_id: "nacholaciar.tokyo-midnight"
   version: "0.1.9"
-  installs: 14438
+  installs: 14443
   author: "nacholaciar"
   repo: "https://github.com/nacholaciar/tokyo-midnight"
   url: "https://marketplace.visualstudio.com/items?itemName=nacholaciar.tokyo-midnight"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 285
+  pair: null
   contrast:
     fg: 59.1
     black: 7.6

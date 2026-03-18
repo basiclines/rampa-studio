@@ -2,7 +2,7 @@ name: "Azure Iris Light"
 source:
   marketplace_id: "Codetown-3.azure-iris-theme"
   version: "0.0.39"
-  installs: 109
+  installs: 110
   author: "Lielisk"
   repo: "https://github.com/your-username/azure-iris-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Codetown-3.azure-iris-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: "Azure Iris Dark"
   contrast:
     fg: 93.4
     black: 106

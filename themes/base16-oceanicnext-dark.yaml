@@ -2,7 +2,7 @@ name: "Base16 OceanicNext Dark"
 source:
   marketplace_id: "AndrsDC.base16-themes"
   version: "1.4.5"
-  installs: 159085
+  installs: 159110
   author: "AndrsDC"
   repo: "https://github.com/AndrsDC/base16-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 234
+  pair: "Base16 OceanicNext Light"
   contrast:
     fg: 67.6
     black: 14.2

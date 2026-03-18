@@ -1,11 +1,11 @@
 name: "sweet-vscode"
 source:
-  marketplace_id: "EliverLara.sweet-vscode"
-  version: "1.1.1"
-  installs: 46712
-  author: "Eliver  Lara"
-  repo: "https://github.com/EliverLara/sweet-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=EliverLara.sweet-vscode"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#1E1E2E"
   fg: "#FFFFFF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 284
+  pair: null
   contrast:
     fg: 105.8
     black: 0

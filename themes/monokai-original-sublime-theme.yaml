@@ -2,7 +2,7 @@ name: "monokai-original-sublime-theme"
 source:
   marketplace_id: "badrouu-laabed.monokai-original-sublime-theme"
   version: "1.0.0"
-  installs: 13536
+  installs: 13539
   author: "badrouu-laabed"
   repo: "https://github.com/Badrouu17/monokai-original-sublime-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=badrouu-laabed.monokai-original-sublime-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 115
+  pair: null
   contrast:
     fg: 99.6
     black: 19.7

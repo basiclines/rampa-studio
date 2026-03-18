@@ -2,7 +2,7 @@ name: "Lavender Light theme"
 source:
   marketplace_id: "LavenderTheme.lavender-code-theme"
   version: "1.0.1"
-  installs: 1591
+  installs: 1592
   author: "Ademir Silva"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=LavenderTheme.lavender-code-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "Lavender Dark Theme"
   contrast:
     fg: 72.2
     black: 101.7

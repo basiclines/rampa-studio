@@ -2,7 +2,7 @@ name: "obito akatsuki theme"
 source:
   marketplace_id: "obito-dev.obito-akatsuki-theme"
   version: "1.2.0"
-  installs: 694
+  installs: 697
   author: "obito-dev"
   repo: "https://github.com/ton-user/obito-akatsuki-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=obito-dev.obito-akatsuki-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 83.5
     black: 0

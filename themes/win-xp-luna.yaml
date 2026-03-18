@@ -2,7 +2,7 @@ name: "Win XP Luna"
 source:
   marketplace_id: "sinedied.vscode-windows-xp-theme"
   version: "0.1.5"
-  installs: 28277
+  installs: 28284
   author: "Yohan Lasorsa"
   repo: "https://github.com/sinedied/vscode-win-xp-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sinedied.vscode-windows-xp-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 106
     black: 59.1

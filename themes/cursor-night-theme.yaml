@@ -2,7 +2,7 @@ name: "Cursor Night Theme"
 source:
   marketplace_id: "DiegoMontejano.cursor-night-theme"
   version: "1.0.0"
-  installs: 1011
+  installs: 1013
   author: "Diego Montejano"
   repo: "https://github.com/diegomontejano/cursor-night-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=DiegoMontejano.cursor-night-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 242
+  pair: null
   contrast:
     fg: 82.2
     black: 0

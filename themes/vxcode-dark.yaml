@@ -2,7 +2,7 @@ name: "vxcode dark"
 source:
   marketplace_id: "evertjunior.vxcode-theme"
   version: "0.0.15"
-  installs: 3237
+  installs: 3239
   author: "Evert Junior"
   repo: "https://github.com/evertjr/vxcode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=evertjunior.vxcode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 286
+  pair: null
   contrast:
     fg: 85.8
     black: 0

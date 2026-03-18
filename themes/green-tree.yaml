@@ -2,7 +2,7 @@ name: "Green Tree"
 source:
   marketplace_id: "stevennyang.green-tree"
   version: "1.2.1"
-  installs: 5715
+  installs: 5716
   author: "Steven N. Yang"
   repo: "https://github.com/snyang/vscode-theme-green-tree"
   url: "https://marketplace.visualstudio.com/items?itemName=stevennyang.green-tree"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 100.6
     black: 103.9

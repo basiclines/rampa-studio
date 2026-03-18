@@ -2,7 +2,7 @@ name: "Retronica Vintage Computing"
 source:
   marketplace_id: "adham.retronica"
   version: "1.0.0"
-  installs: 181
+  installs: 183
   author: "Adham"
   repo: "https://github.com/adham-dev/retronica"
   url: "https://marketplace.visualstudio.com/items?itemName=adham.retronica"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 85.7
     black: 85.7

@@ -2,7 +2,7 @@ name: "Golden Eye"
 source:
   marketplace_id: "ProphezAI.golden-eye"
   version: "1.0.3"
-  installs: 1032
+  installs: 1033
   author: "ProphezAI"
   repo: "https://github.com/ProphezAI/golden-eye"
   url: "https://marketplace.visualstudio.com/items?itemName=ProphezAI.golden-eye"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 138
+  pair: null
   contrast:
     fg: 76.9
     black: 0

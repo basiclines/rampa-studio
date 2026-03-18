@@ -1,11 +1,11 @@
 name: "Better Solarized Dark Italic"
 source:
-  marketplace_id: "ginfuru.ginfuru-better-solarized-dark-theme"
-  version: "0.10.9"
-  installs: 146723
-  author: "Ed Heltzel"
-  repo: "https://github.com/ginfuru/vscode-better-solarized"
-  url: "https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-better-solarized-dark-theme"
+  marketplace_id: "joelsantos.darkerized-better-solarized-dark-theme"
+  version: "0.10.11"
+  installs: 566
+  author: "joelsantos"
+  repo: "https://github.com/joelsantosjunior/vscode-better-solarized"
+  url: "https://marketplace.visualstudio.com/items?itemName=joelsantos.darkerized-better-solarized-dark-theme"
 colors:
   bg: "#002B36"
   fg: "#839496"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 220
+  pair: null
   contrast:
     fg: 39.5
     black: 0

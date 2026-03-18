@@ -2,7 +2,7 @@ name: "DarkASP"
 source:
   marketplace_id: "aspeditor.asp-language-editor-dlv2"
   version: "0.1.5"
-  installs: 2188
+  installs: 2189
   author: "aspeditor"
   repo: "https://github.com/pierpaolosestito-dev/ASPEditorPlugin"
   url: "https://marketplace.visualstudio.com/items?itemName=aspeditor.asp-language-editor-dlv2"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 101.3
     black: 0

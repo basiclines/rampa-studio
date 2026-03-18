@@ -1,8 +1,8 @@
 name: "Queensland Dark"
 source:
   marketplace_id: "lucidlabs.queensland-theme"
-  version: "1.2.0"
-  installs: 1
+  version: "1.4.0"
+  installs: 2
   author: "Lucid Labs"
   repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.queensland-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Queensland Light"
   contrast:
     fg: 95.1
     black: 0

@@ -1,49 +1,50 @@
 name: "Iceberg"
 source:
-  marketplace_id: "securisec.hapsida-securisec"
-  version: "0.0.30"
-  installs: 226
-  author: "securisec"
-  repo: "https://github.com/securisec/code-hapsida"
-  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+  marketplace_id: "iAldo80.basic-themes"
+  version: "1.5.1"
+  installs: 425
+  author: "Aldo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=iAldo80.basic-themes"
 colors:
   bg: "#161821"
-  fg: "#C6C8D0"
-  black: "#000000"
-  red: "#D47D7B"
-  green: "#34D399"
-  yellow: "#FCD34D"
-  blue: "#818CF8"
-  magenta: "#FB94FF"
-  cyan: "#80FCFF"
-  white: "#FFFFFF"
-  brightBlack: "#0050A4"
-  brightRed: "#FF628C"
-  brightGreen: "#3AD900"
-  brightYellow: "#FCD34D"
-  brightBlue: "#0088FF"
-  brightMagenta: "#FB94FF"
-  brightCyan: "#80FCFF"
-  brightWhite: "#193549"
+  fg: "#C6C8D1"
+  black: "#1E2132"
+  red: "#E27878"
+  green: "#B4BE82"
+  yellow: "#E2A478"
+  blue: "#84A0C6"
+  magenta: "#A093C7"
+  cyan: "#89B8C2"
+  white: "#C6C8D1"
+  brightBlack: "#6B7089"
+  brightRed: "#E98989"
+  brightGreen: "#C0CA8E"
+  brightYellow: "#E9B189"
+  brightBlue: "#91ACD1"
+  brightMagenta: "#ADA0D3"
+  brightCyan: "#95C4CE"
+  brightWhite: "#D2D4DE"
 meta:
   mode: "dark"
-  accent: "green"
+  accent: "orange"
   hue: 275
+  pair: null
   contrast:
-    fg: 72.2
+    fg: 72.3
     black: 0
-    red: 44.3
-    green: 65
-    yellow: 81.2
-    blue: 44.3
-    magenta: 64.2
-    cyan: 92.6
-    white: 106.7
-    brightBlack: 14.5
-    brightRed: 47
-    brightGreen: 66.1
-    brightYellow: 81.2
-    brightBlue: 38.6
-    brightMagenta: 64.2
-    brightCyan: 92.6
-    brightWhite: 0
+    red: 45.4
+    green: 63.1
+    yellow: 59.2
+    blue: 48.6
+    magenta: 46.8
+    cyan: 58.5
+    white: 72.3
+    brightBlack: 26.7
+    brightRed: 52
+    brightGreen: 70
+    brightYellow: 65.5
+    brightBlue: 55
+    brightMagenta: 53.6
+    brightCyan: 65.2
+    brightWhite: 79.5

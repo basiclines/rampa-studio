@@ -1,11 +1,11 @@
 name: "Chai Light"
 source:
-  marketplace_id: "hiteshchoudharycode.chai-theme"
-  version: "0.2.0"
-  installs: 167423
-  author: "hitesh choudhary"
-  repo: "https://github.com/hiteshchoudhary/vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=hiteshchoudharycode.chai-theme"
+  marketplace_id: "vs-code-theme.FantasyTheme"
+  version: "0.1.4"
+  installs: 565
+  author: "PradeepSahu"
+  repo: "https://github.com/PradeepSahhu/vscode-theme-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=vs-code-theme.FantasyTheme"
 colors:
   bg: "#F7F7F7"
   fg: "#383A42"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 91.4
     black: 91.5

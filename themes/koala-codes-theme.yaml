@@ -2,7 +2,7 @@ name: "Koala codes theme"
 source:
   marketplace_id: "VigneshwaranK.koala"
   version: "0.0.2"
-  installs: 788
+  installs: 789
   author: "Vigneshwaran K"
   repo: "https://github.com/Vigneshwaran-dev/Koala-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=VigneshwaranK.koala"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 79.3
     black: 0

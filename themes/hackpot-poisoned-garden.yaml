@@ -2,7 +2,7 @@ name: "Hackpot Poisoned Garden"
 source:
   marketplace_id: "wwmyers.hackpot"
   version: "3.0.0"
-  installs: 24355
+  installs: 24357
   author: "wwmyers"
   repo: "https://github.com/wwmyers/hackpot"
   url: "https://marketplace.visualstudio.com/items?itemName=wwmyers.hackpot"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 144
+  pair: null
   contrast:
     fg: 81.4
     black: 0

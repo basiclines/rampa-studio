@@ -2,7 +2,7 @@ name: "Arabian Nights"
 source:
   marketplace_id: "andrejkoller.arabian-nights-theme"
   version: "1.0.4"
-  installs: 132
+  installs: 134
   author: "andrejkoller"
   repo: "https://github.com/andrejkoller/arabian-nights-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=andrejkoller.arabian-nights-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 302
+  pair: null
   contrast:
     fg: 92.9
     black: 0

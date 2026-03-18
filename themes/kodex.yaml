@@ -2,7 +2,7 @@ name: "Kodex"
 source:
   marketplace_id: "pnx.kodex"
   version: "0.4.1"
-  installs: 232
+  installs: 233
   author: "Henrik Hautakoski"
   repo: "https://github.com/pnx/kodex-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=pnx.kodex"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 258
+  pair: null
   contrast:
     fg: 96.2
     black: 0

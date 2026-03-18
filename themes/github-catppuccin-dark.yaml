@@ -2,7 +2,7 @@ name: "Github Catppuccin Dark"
 source:
   marketplace_id: "DevGauravJatt.github-catppuccin-dark"
   version: "1.0.0"
-  installs: 4012
+  installs: 4015
   author: "Dev Gaurav Jatt"
   repo: "https://github.com/devgauravjatt/github-catppuccin-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=DevGauravJatt.github-catppuccin-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 257
+  pair: null
   contrast:
     fg: 77.2
     black: 55.1

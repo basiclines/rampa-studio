@@ -1,11 +1,11 @@
 name: "PrismMagic"
 source:
-  marketplace_id: "PrismMagicTheme.PrismCode"
-  version: "1.0.2"
-  installs: 358
+  marketplace_id: "PrismMagicTheme.PrismMagic"
+  version: "0.8.0"
+  installs: 47
   author: "PrismMagic Theme"
   repo: "https://github.com/slotherinee/PrismMagic"
-  url: "https://marketplace.visualstudio.com/items?itemName=PrismMagicTheme.PrismCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=PrismMagicTheme.PrismMagic"
 colors:
   bg: "#282A36"
   fg: "#F8F8F2"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 278
+  pair: null
   contrast:
     fg: 99
     black: 0

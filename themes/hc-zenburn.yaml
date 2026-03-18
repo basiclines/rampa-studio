@@ -2,7 +2,7 @@ name: "hc-zenburn"
 source:
   marketplace_id: "drzix.hc-zenburn-vscode"
   version: "0.3.0"
-  installs: 7767
+  installs: 7768
   author: "Kyeongmin Cho"
   repo: "https://github.com/drzix/hc-zenburn-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=drzix.hc-zenburn-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 79.4
     black: 8.1

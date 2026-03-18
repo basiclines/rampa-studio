@@ -2,7 +2,7 @@ name: "Dark Brown"
 source:
   marketplace_id: "blono.dark-brown"
   version: "0.0.1"
-  installs: 4045
+  installs: 4047
   author: "blono"
   repo: "https://github.com/blono/vscode-theme-dark-brown"
   url: "https://marketplace.visualstudio.com/items?itemName=blono.dark-brown"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 83.9
     black: 0

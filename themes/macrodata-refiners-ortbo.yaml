@@ -2,7 +2,7 @@ name: "Macrodata Refiners - ORTBO"
 source:
   marketplace_id: "guinetik.macrodata-refiners-severance-theme"
   version: "1.0.3"
-  installs: 139
+  installs: 140
   author: "guinetik"
   repo: "https://github.com/guinetik/macrodata-refiners-severance-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=guinetik.macrodata-refiners-severance-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 93.6
     black: 102.8

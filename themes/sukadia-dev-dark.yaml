@@ -2,7 +2,7 @@ name: "sukadia.dev/dark"
 source:
   marketplace_id: "Sukadia.sukadia-dev-dark"
   version: "1.0.6"
-  installs: 1606
+  installs: 1607
   author: "Sukadia"
   repo: "https://github.com/Sukadia/sukadia.dev-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=Sukadia.sukadia-dev-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 84.1
     black: 0

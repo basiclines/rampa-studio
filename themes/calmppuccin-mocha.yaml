@@ -2,7 +2,7 @@ name: "Calmppuccin Mocha"
 source:
   marketplace_id: "kenan-salar.calmppuccin-vscode"
   version: "1.9.9"
-  installs: 6402
+  installs: 6413
   author: "Kenan Salar"
   repo: "https://github.com/KenanSalar/calmppuccin-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=kenan-salar.calmppuccin-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 284
+  pair: null
   contrast:
     fg: 61.2
     black: 9.4

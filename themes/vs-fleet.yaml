@@ -2,7 +2,7 @@ name: "vs-fleet"
 source:
   marketplace_id: "anto.vs-fleet"
   version: "2.0.1"
-  installs: 2759
+  installs: 2760
   author: "anto"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=anto.vs-fleet"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 87.2
     black: 0

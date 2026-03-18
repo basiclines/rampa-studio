@@ -2,7 +2,7 @@ name: "Rain"
 source:
   marketplace_id: "Getcode.raindiaz"
   version: "0.3.0"
-  installs: 5174
+  installs: 5177
   author: "Getcode"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Getcode.raindiaz"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 245
+  pair: null
   contrast:
     fg: 107.1
     black: 0

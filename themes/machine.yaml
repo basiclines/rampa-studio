@@ -2,7 +2,7 @@ name: "Machine"
 source:
   marketplace_id: "rafaelburghausen.rafa-theme"
   version: "3.0.6"
-  installs: 1203
+  installs: 1204
   author: "rafaelburghausen"
   repo: "https://github.com/marcos-burghausen/Extensao-Rafa"
   url: "https://marketplace.visualstudio.com/items?itemName=rafaelburghausen.rafa-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 230
+  pair: null
   contrast:
     fg: 100.9
     black: 0

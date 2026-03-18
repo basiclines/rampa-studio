@@ -2,7 +2,7 @@ name: "blackai-theme"
 source:
   marketplace_id: "asilverio.blackai-visual-studio-code"
   version: "0.1.9"
-  installs: 51213
+  installs: 51216
   author: "asilverio"
   repo: "https://github.com/slipnox/blackai-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=asilverio.blackai-visual-studio-code"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 102.9
     black: 0

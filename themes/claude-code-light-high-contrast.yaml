@@ -2,7 +2,7 @@ name: "Claude Code Light High Contrast"
 source:
   marketplace_id: "ashwingopalsamy.claude-code-theme"
   version: "1.2.2"
-  installs: 889
+  installs: 913
   author: "Ashwin Gopalsamy"
   repo: "https://github.com/ashwingopalsamy/claude-code-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ashwingopalsamy.claude-code-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: "Claude Code Dark High Contrast"
   contrast:
     fg: 97.9
     black: 97.9

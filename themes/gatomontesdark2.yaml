@@ -2,7 +2,7 @@ name: "gatomontesDark2"
 source:
   marketplace_id: "GatomontesRoseIII.gatomontes"
   version: "1.0.0"
-  installs: 599
+  installs: 601
   author: "GatomontesRoseIII"
   repo: "https://github.com/ramirezherreranoeelvis/gatitomontes"
   url: "https://marketplace.visualstudio.com/items?itemName=GatomontesRoseIII.gatomontes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 290
+  pair: null
   contrast:
     fg: 66.8
     black: 0

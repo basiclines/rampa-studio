@@ -2,7 +2,7 @@ name: "monokai-seti-dark"
 source:
   marketplace_id: "adityavm.vscode-monokai-seti"
   version: "0.0.8"
-  installs: 19546
+  installs: 19548
   author: "Aditya Mukherjee"
   repo: "https://github.com/adityavm/vscode-monokai-seti"
   url: "https://marketplace.visualstudio.com/items?itemName=adityavm.vscode-monokai-seti"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 78.9
     black: 0

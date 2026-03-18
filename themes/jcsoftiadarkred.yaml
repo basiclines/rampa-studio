@@ -2,7 +2,7 @@ name: "jcsoftiaDarkRed"
 source:
   marketplace_id: "JCsoftIA.JCsoftIA"
   version: "1.5.3"
-  installs: 8460
+  installs: 8461
   author: "Dark Black Theme jcsoftia"
   repo: "https://github.com/jcsoftia/ThemeVisualStudioCode"
   url: "https://marketplace.visualstudio.com/items?itemName=JCsoftIA.JCsoftIA"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 29
+  pair: null
   contrast:
     fg: 57.5
     black: 0

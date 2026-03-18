@@ -2,7 +2,7 @@ name: "Pulse Soft Purple"
 source:
   marketplace_id: "IrvinBenitez.Pulse-theme-vscode"
   version: "1.0.2"
-  installs: 104
+  installs: 105
   author: "Irvin Benitez"
   repo: "https://github.com/PulseStudio07/VScode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=IrvinBenitez.Pulse-theme-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 285
+  pair: null
   contrast:
     fg: 74.6
     black: 0

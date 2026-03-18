@@ -2,7 +2,7 @@ name: "Claude Dark"
 source:
   marketplace_id: "SamiHindi.claude-theme-sami-hindi"
   version: "0.0.1"
-  installs: 1290
+  installs: 1293
   author: "Sami Hindi"
   repo: "https://github.com/FujiwaraChoki/claude-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=SamiHindi.claude-theme-sami-hindi"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: "Claude Light"
   contrast:
     fg: 65.4
     black: 0

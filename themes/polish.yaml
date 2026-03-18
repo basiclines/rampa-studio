@@ -2,7 +2,7 @@ name: "Polish"
 source:
   marketplace_id: "zhiking.polish-theme"
   version: "0.0.5"
-  installs: 2261
+  installs: 2262
   author: "zhiking"
   repo: "https://github.com/zyj1022/vscode-polish-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=zhiking.polish-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 74.9
     black: 99.5

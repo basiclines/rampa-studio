@@ -1,15 +1,15 @@
 name: "Nord Deep"
 source:
-  marketplace_id: "marlosirapuan.nord-deep"
-  version: "0.1.625"
-  installs: 62713
-  author: "Marlos Irapuan"
-  repo: "https://github.com/marlosirapuan/vscode-theme-nord-deep"
-  url: "https://marketplace.visualstudio.com/items?itemName=marlosirapuan.nord-deep"
+  marketplace_id: "BalintGyarmathy.nord-deep-visible-comments"
+  version: "0.1.0"
+  installs: 2379
+  author: "Bálint Gyarmathy"
+  repo: "https://github.com/gyaur/vscode-theme-nord-deep"
+  url: "https://marketplace.visualstudio.com/items?itemName=BalintGyarmathy.nord-deep-visible-comments"
 colors:
-  bg: "#1D2129"
+  bg: "#232731"
   fg: "#D8DEE9"
-  black: "#292E39"
+  black: "#3B4252"
   red: "#BF616A"
   green: "#A3BE8C"
   yellow: "#EBCB8B"
@@ -28,22 +28,23 @@ colors:
 meta:
   mode: "dark"
   accent: "orange"
-  hue: 264
+  hue: 268
+  pair: null
   contrast:
-    fg: 84.1
+    fg: 83.1
     black: 0
-    red: 31.7
-    green: 60.4
-    yellow: 75.1
-    blue: 47.4
-    magenta: 45.2
-    cyan: 61.4
-    white: 91.1
-    brightBlack: 14.1
-    brightRed: 31.7
-    brightGreen: 60.4
-    brightYellow: 75.1
-    brightBlue: 47.4
-    brightMagenta: 45.2
-    brightCyan: 59.3
-    brightWhite: 95
+    red: 30.7
+    green: 59.4
+    yellow: 74.1
+    blue: 46.4
+    magenta: 44.2
+    cyan: 60.4
+    white: 90.1
+    brightBlack: 13.1
+    brightRed: 30.7
+    brightGreen: 59.4
+    brightYellow: 74.1
+    brightBlue: 46.4
+    brightMagenta: 44.2
+    brightCyan: 58.3
+    brightWhite: 94

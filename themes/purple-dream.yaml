@@ -2,7 +2,7 @@ name: "Purple Dream"
 source:
   marketplace_id: "LR6549-extensions.purple-dream"
   version: "1.8.7"
-  installs: 557
+  installs: 558
   author: "LR6549"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=LR6549-extensions.purple-dream"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 306
+  pair: null
   contrast:
     fg: 85.7
     black: 0

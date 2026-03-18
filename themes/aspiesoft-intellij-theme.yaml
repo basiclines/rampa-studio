@@ -2,7 +2,7 @@ name: "AspieSoft IntelliJ Theme"
 source:
   marketplace_id: "AspieSoft.aspiesoft-intellij-theme"
   version: "1.0.3"
-  installs: 3790
+  installs: 3791
   author: "AspieSoft"
   repo: "https://github.com/aspiesoft/vscode-intellij-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AspieSoft.aspiesoft-intellij-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 59.2
     black: 104.6

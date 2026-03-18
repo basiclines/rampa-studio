@@ -2,7 +2,7 @@ name: "Origamid"
 source:
   marketplace_id: "origamid.origamid-theme"
   version: "1.1.7"
-  installs: 63053
+  installs: 63070
   author: "Origamid"
   repo: "https://github.com/origamid/origamid-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=origamid.origamid-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 105.5
     black: 0

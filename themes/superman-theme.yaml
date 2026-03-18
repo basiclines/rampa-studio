@@ -2,7 +2,7 @@ name: "Superman Theme"
 source:
   marketplace_id: "AndresCespedesMorales.superman-vscode"
   version: "0.1.0"
-  installs: 1606
+  installs: 1608
   author: "Andres Cespedes Morales"
   repo: "https://github.com/pedes/superman-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=AndresCespedesMorales.superman-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 230
+  pair: null
   contrast:
     fg: 100.4
     black: 0

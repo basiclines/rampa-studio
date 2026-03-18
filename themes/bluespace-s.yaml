@@ -7,7 +7,7 @@ source:
   repo: "https://github.com/yesomac/BlueSpaceVSC"
   url: "https://marketplace.visualstudio.com/items?itemName=YesCode.bluespace"
 colors:
-  bg: "#16181F"
+  bg: "#232530"
   fg: "#EEFFFF"
   black: "#1D2021"
   red: "#FB543F"
@@ -28,22 +28,23 @@ colors:
 meta:
   mode: "dark"
   accent: "orange"
-  hue: 273
+  hue: 277
+  pair: null
   contrast:
-    fg: 104.4
+    fg: 102.6
     black: 0
-    red: 41.8
-    green: 60.8
-    yellow: 72.9
-    blue: 47.4
-    magenta: 19.4
-    cyan: 49.3
-    white: 47.1
-    brightBlack: 18.5
-    brightRed: 41.8
-    brightGreen: 90.8
-    brightYellow: 96.4
-    brightBlue: 18.6
-    brightMagenta: 19.4
-    brightCyan: 49.3
-    brightWhite: 98.7
+    red: 40
+    green: 59
+    yellow: 71.1
+    blue: 45.5
+    magenta: 17.5
+    cyan: 47.4
+    white: 45.2
+    brightBlack: 16.6
+    brightRed: 40
+    brightGreen: 89
+    brightYellow: 94.6
+    brightBlue: 16.7
+    brightMagenta: 17.5
+    brightCyan: 47.4
+    brightWhite: 96.9

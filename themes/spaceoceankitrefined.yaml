@@ -2,7 +2,7 @@ name: "SpaceOceanKitRefined"
 source:
   marketplace_id: "space-ocean-kit-refined.space-ocean-kit-refined"
   version: "0.3.1"
-  installs: 81263
+  installs: 81267
   author: "space-ocean-kit-refined"
   repo: "https://github.com/aichbauer/space-ocean-kit-refined/"
   url: "https://marketplace.visualstudio.com/items?itemName=space-ocean-kit-refined.space-ocean-kit-refined"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 266
+  pair: null
   contrast:
     fg: 75.4
     black: 0

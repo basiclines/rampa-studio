@@ -1,11 +1,11 @@
 name: "Dark Magic Dracula"
 source:
-  marketplace_id: "DavidMorais.dark-magic-themes"
-  version: "0.3.1"
-  installs: 47308
-  author: "David Morais"
-  repo: "https://github.com/Dark-Magic-Studios/dark-magic-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=DavidMorais.dark-magic-themes"
+  marketplace_id: "AbdoGhonim.ghonim-dark-themes"
+  version: "0.0.2"
+  installs: 138
+  author: "Abdo Ghonim"
+  repo: "https://github.com/AbdoGhonim/ghonim-dark-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AbdoGhonim.ghonim-dark-themes"
 colors:
   bg: "#282A36"
   fg: "#CCE3F5"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 278
+  pair: null
   contrast:
     fg: 83.8
     black: 0

@@ -2,7 +2,7 @@ name: "One Dark Vibrant Theme"
 source:
   marketplace_id: "josergz.one-dark-vibrant-theme"
   version: "1.2.2"
-  installs: 353
+  installs: 355
   author: "José Rodríguez "
   repo: "https://github.com/josergz/one-dark-vibrant-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=josergz.one-dark-vibrant-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 87.3
     black: 0

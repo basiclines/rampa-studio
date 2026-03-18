@@ -2,7 +2,7 @@ name: "Retronica Amber Terminal"
 source:
   marketplace_id: "adham.retronica"
   version: "1.0.0"
-  installs: 181
+  installs: 183
   author: "Adham"
   repo: "https://github.com/adham-dev/retronica"
   url: "https://marketplace.visualstudio.com/items?itemName=adham.retronica"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 73.9
     black: 0

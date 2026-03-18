@@ -2,7 +2,7 @@ name: "Arctic Depth"
 source:
   marketplace_id: "MarvellinusVincent.arctic-depth"
   version: "1.0.11"
-  installs: 393
+  installs: 395
   author: "Marvellinus Vincent"
   repo: "https://github.com/MarvellinusVincent/Arctic-Depth"
   url: "https://marketplace.visualstudio.com/items?itemName=MarvellinusVincent.arctic-depth"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 269
+  pair: null
   contrast:
     fg: 59.8
     black: 0

@@ -2,7 +2,7 @@ name: "graygraygray"
 source:
   marketplace_id: "kendama1980.graygraygray"
   version: "0.0.1"
-  installs: 9405
+  installs: 9406
   author: "kendama1980"
   repo: "https://github.com/kendama1980/graygraygray"
   url: "https://marketplace.visualstudio.com/items?itemName=kendama1980.graygraygray"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 71.1
     black: 71.1

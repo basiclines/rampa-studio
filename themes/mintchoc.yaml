@@ -1,11 +1,11 @@
 name: "mintchoc"
 source:
-  marketplace_id: "daylerees.rainglow"
-  version: "1.5.2"
-  installs: 527899
-  author: "Dayle Rees"
-  repo: "https://github.com/rainglow/vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  marketplace_id: "humbanew.flawuldragon"
+  version: "0.0.19"
+  installs: 901
+  author: "Humbanew Project"
+  repo: "https://github.com/humbanew/flawuldragon"
+  url: "https://marketplace.visualstudio.com/items?itemName=humbanew.flawuldragon"
 colors:
   bg: "#2B221C"
   fg: "#BABABA"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 55
+  pair: null
   contrast:
     fg: 62.5
     black: 0

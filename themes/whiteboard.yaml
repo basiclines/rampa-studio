@@ -2,7 +2,7 @@ name: "Whiteboard"
 source:
   marketplace_id: "jsm-dev.whiteboard-theme"
   version: "1.0.1"
-  installs: 244
+  installs: 245
   author: "jsm"
   repo: "https://github.com/jsm04/whiteboard-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=jsm-dev.whiteboard-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "yellow"
   hue: null
+  pair: null
   contrast:
     fg: 104.2
     black: 97

@@ -2,7 +2,7 @@ name: "unicornio dark"
 source:
   marketplace_id: "unicorniodev.unicornio-dark"
   version: "1.1.0"
-  installs: 229
+  installs: 230
   author: "FlorLuzDuarte"
   repo: "https://github.com/unicorniodev/unicornio-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=unicorniodev.unicornio-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 78.7
     black: 0

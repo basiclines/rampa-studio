@@ -2,7 +2,7 @@ name: "Osmoz Dark"
 source:
   marketplace_id: "ArthurRasera.osmoz"
   version: "1.1.1"
-  installs: 58
+  installs: 59
   author: "Arthur Rasera"
   repo: "https://github.com/Raseraa0/osmoz-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ArthurRasera.osmoz"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 287
+  pair: null
   contrast:
     fg: 62
     black: 0

@@ -2,7 +2,7 @@ name: "Rapture"
 source:
   marketplace_id: "Pustur.rapture-vscode"
   version: "1.7.0"
-  installs: 4827
+  installs: 4843
   author: "Pustur"
   repo: "https://github.com/Pustur/rapture-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Pustur.rapture-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 247
+  pair: null
   contrast:
     fg: 72.4
     black: 0

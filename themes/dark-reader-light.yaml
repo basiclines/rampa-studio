@@ -2,7 +2,7 @@ name: "Dark Reader (Light)"
 source:
   marketplace_id: "akil-s.dark-reader-light"
   version: "0.0.4"
-  installs: 607
+  installs: 608
   author: "akil-s"
   repo: "https://github.com/Salah-Akil/darkreader-vscode-light"
   url: "https://marketplace.visualstudio.com/items?itemName=akil-s.dark-reader-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 73.6
     black: 78.9

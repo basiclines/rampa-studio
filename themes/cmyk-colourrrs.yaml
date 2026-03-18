@@ -2,7 +2,7 @@ name: "CMYK colourrrs"
 source:
   marketplace_id: "techygrrrl.techygrrrl-cmyk-colourrrs"
   version: "0.2.2"
-  installs: 1382
+  installs: 1383
   author: "techygrrrl"
   repo: "https://github.com/techygrrrl/techygrrrl-cmyk-colourrrs-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=techygrrrl.techygrrrl-cmyk-colourrrs"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 105.5
     black: 105.5

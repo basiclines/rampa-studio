@@ -2,7 +2,7 @@ name: "Jinshi Dark Theme"
 source:
   marketplace_id: "apothecary-diary-theme.apothecary-diary-theme"
   version: "0.1.0"
-  installs: 58
+  installs: 59
   author: "Matheus Montemurro"
   repo: "https://github.com/montemurro19/apothecary-diary-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=apothecary-diary-theme.apothecary-diary-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 303
+  pair: "Jinshi Light Theme"
   contrast:
     fg: 96.9
     black: 0

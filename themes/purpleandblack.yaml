@@ -2,7 +2,7 @@ name: "PurpleAndBlack"
 source:
   marketplace_id: "Pab-Theme.purpleandblack"
   version: "0.0.2"
-  installs: 984
+  installs: 986
   author: "Pab-Theme"
   repo: "https://github.com/DweOfisial/Theme-Visual-PaB"
   url: "https://marketplace.visualstudio.com/items?itemName=Pab-Theme.purpleandblack"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 46.5
     black: 0

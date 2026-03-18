@@ -1,11 +1,11 @@
 name: "Catppuccin Monokai Frappe"
 source:
-  marketplace_id: "dooez.alt-catppuccin-vsc"
-  version: "2.7.4"
-  installs: 50560
+  marketplace_id: "dooez.catppuccin-monokai-vsc"
+  version: "2.7.1"
+  installs: 28
   author: "dooez"
-  repo: "https://github.com/Dooez/alt-catppuccin-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=dooez.alt-catppuccin-vsc"
+  repo: "https://github.com/Dooez/catppuccin-monokai-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dooez.catppuccin-monokai-vsc"
 colors:
   bg: "#303446"
   fg: "#C6D0F5"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 275
+  pair: null
   contrast:
     fg: 72.3
     black: 25.6

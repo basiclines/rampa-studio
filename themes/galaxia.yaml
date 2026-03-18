@@ -2,7 +2,7 @@ name: "Galaxia"
 source:
   marketplace_id: "LucasBandeira.galaxia"
   version: "0.1.1"
-  installs: 293
+  installs: 294
   author: "Lucas Bandeira"
   repo: "https://github.com/LucasBandeira-MJ/Galaxia-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=LucasBandeira.galaxia"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 266
+  pair: null
   contrast:
     fg: 93.6
     black: 0

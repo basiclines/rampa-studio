@@ -2,7 +2,7 @@ name: "Cucumber - Light"
 source:
   marketplace_id: "jbird.cucumber-color-theme"
   version: "0.0.1"
-  installs: 40
+  installs: 41
   author: "Jason Hulbert"
   repo: "https://github.com/jasonhulbert/cucumber-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=jbird.cucumber-color-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: "Cucumber - Dark"
   contrast:
     fg: 95.1
     black: 0

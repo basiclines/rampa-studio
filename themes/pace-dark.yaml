@@ -2,7 +2,7 @@ name: "Pace Dark"
 source:
   marketplace_id: "fabian-hiller.pace-theme"
   version: "0.3.0"
-  installs: 4449
+  installs: 4450
   author: "Fabian Hiller"
   repo: "https://github.com/fabian-hiller/vscode-pace-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=fabian-hiller.pace-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 265
+  pair: "Pace Light"
   contrast:
     fg: 50.6
     black: 0

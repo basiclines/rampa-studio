@@ -2,7 +2,7 @@ name: "British Racing Green Theme"
 source:
   marketplace_id: "Danesed.british-racing-green-theme"
   version: "1.0.1"
-  installs: 13
+  installs: 15
   author: "Danesed"
   repo: "https://github.com/danesed/colorsea-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Danesed.british-racing-green-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 179
+  pair: null
   contrast:
     fg: 73.8
     black: 9.3

@@ -2,7 +2,7 @@ name: "trueAmber"
 source:
   marketplace_id: "headintheclout.trueamber"
   version: "1.0.9"
-  installs: 2797
+  installs: 2798
   author: "headintheclout"
   repo: "https://github.com/headintheclout/trueAmber"
   url: "https://marketplace.visualstudio.com/items?itemName=headintheclout.trueamber"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 55
+  pair: null
   contrast:
     fg: 66.5
     black: 36.9

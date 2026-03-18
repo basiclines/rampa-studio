@@ -2,7 +2,7 @@ name: "Ganbaru blue"
 source:
   marketplace_id: "Marlodev.ganbaru"
   version: "1.0.0"
-  installs: 1847
+  installs: 1850
   author: "Marlodev"
   repo: "https://github.com/marlodevhub/ganbaru"
   url: "https://marketplace.visualstudio.com/items?itemName=Marlodev.ganbaru"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 256
+  pair: null
   contrast:
     fg: 82.1
     black: 0

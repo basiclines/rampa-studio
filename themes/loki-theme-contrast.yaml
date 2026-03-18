@@ -2,7 +2,7 @@ name: "Loki Theme Contrast"
 source:
   marketplace_id: "Outbound.loki-theme"
   version: "0.1.4"
-  installs: 427
+  installs: 428
   author: "Outbound"
   repo: "https://github.com/melquisedecfelipe/loki-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Outbound.loki-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 90
     black: 0

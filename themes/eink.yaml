@@ -2,7 +2,7 @@ name: "eink"
 source:
   marketplace_id: "henderjon.eink"
   version: "0.0.5"
-  installs: 349
+  installs: 350
   author: "henderjon"
   repo: "https://github.com/henderjon/eink"
   url: "https://marketplace.visualstudio.com/items?itemName=henderjon.eink"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 73.5
     black: 97.7

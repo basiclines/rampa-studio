@@ -1,14 +1,14 @@
 name: "Outrun Dark"
 source:
-  marketplace_id: "hhochart29.outrun"
-  version: "1.1.3"
-  installs: 6264
-  author: "hhochart29"
-  repo: "https://github.com/hhochart29/outrun-theme-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=hhochart29.outrun"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#161130"
-  fg: "#EEEEEE"
+  fg: "#EBECF8"
   black: "#283034"
   red: "#FF2E97"
   green: "#62A9CF"
@@ -29,8 +29,9 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 287
+  pair: null
   contrast:
-    fg: 95.8
+    fg: 94.9
     black: 0
     red: 40.6
     green: 50.4

@@ -2,7 +2,7 @@ name: "EVA-01 Berserk Theme"
 source:
   marketplace_id: "engr.eva-unit-01-berserk-theme"
   version: "0.1.0"
-  installs: 590
+  installs: 591
   author: "engr"
   repo: "https://github.com/engrx0/eva-unit01-berserk-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=engr.eva-unit-01-berserk-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 292
+  pair: null
   contrast:
     fg: 85.1
     black: 0

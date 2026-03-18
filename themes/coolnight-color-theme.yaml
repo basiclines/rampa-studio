@@ -2,7 +2,7 @@ name: "coolnight-color-theme"
 source:
   marketplace_id: "kpatdev.coolnight-theme"
   version: "0.1.1"
-  installs: 155
+  installs: 157
   author: "kpatdev"
   repo: "https://github.com/kpatdev/coolnight"
   url: "https://marketplace.visualstudio.com/items?itemName=kpatdev.coolnight-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 242
+  pair: null
   contrast:
     fg: 85.3
     black: 10

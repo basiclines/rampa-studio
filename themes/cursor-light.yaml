@@ -2,7 +2,7 @@ name: "Cursor Light"
 source:
   marketplace_id: "MohdZaid.vscode-cursor-theme"
   version: "0.0.1"
-  installs: 2733
+  installs: 2750
   author: "Mohd Zaid"
   repo: "https://github.com/BioHazard786/cursor-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=MohdZaid.vscode-cursor-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 103.3
     black: 103.3

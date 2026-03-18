@@ -2,7 +2,7 @@ name: "sweetdracula monokai"
 source:
   marketplace_id: "lefd.sweetdracula-monokai"
   version: "1.1.14"
-  installs: 8143
+  installs: 8144
   author: "lefd"
   repo: "https://github.com/LEFD/sweetdracula-monokai"
   url: "https://marketplace.visualstudio.com/items?itemName=lefd.sweetdracula-monokai"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 273
+  pair: null
   contrast:
     fg: 101.7
     black: 21.8

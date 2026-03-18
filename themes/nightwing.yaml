@@ -2,7 +2,7 @@ name: "Nightwing"
 source:
   marketplace_id: "bwielgosz.nightwing"
   version: "1.0.3"
-  installs: 408
+  installs: 409
   author: "Bartek Wielgosz 💻"
   repo: "https://github.com/bwielgosz/nightwing-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=bwielgosz.nightwing"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 243
+  pair: null
   contrast:
     fg: 85.7
     black: 0

@@ -1,49 +1,50 @@
 name: "CRT Blue"
 source:
-  marketplace_id: "leandro-rodrigues.crt-vscode"
-  version: "0.1.0"
-  installs: 6563
-  author: "Leandro Rodrigues"
-  repo: "https://github.com/TheOld/legacy-term"
-  url: "https://marketplace.visualstudio.com/items?itemName=leandro-rodrigues.crt-vscode"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
-  bg: "#00000C"
-  fg: "#00B7FF"
-  black: "#00B7FF"
-  red: "#0DB4C6"
-  green: "#0AC1D4"
-  yellow: "#129BA9"
-  blue: "#05DAF1"
-  magenta: "#08CEE2"
-  cyan: "#0FA7B7"
-  white: "#148E9B"
-  brightBlack: "#00B7FF"
-  brightRed: "#0DB4C6"
-  brightGreen: "#0AC1D4"
-  brightYellow: "#129BA9"
-  brightBlue: "#05DAF1"
-  brightMagenta: "#08CEE2"
-  brightCyan: "#0FA7B7"
-  brightWhite: "#148E9B"
+  bg: "#111111"
+  fg: "#0099FF"
+  black: "#0099FF"
+  red: "#0575C0"
+  green: "#037ECF"
+  yellow: "#0763A0"
+  blue: "#0190EF"
+  magenta: "#0287DF"
+  cyan: "#066CB0"
+  white: "#085A90"
+  brightBlack: "#0099FF"
+  brightRed: "#0575C0"
+  brightGreen: "#037ECF"
+  brightYellow: "#0763A0"
+  brightBlue: "#0190EF"
+  brightMagenta: "#0287DF"
+  brightCyan: "#066CB0"
+  brightWhite: "#085A90"
 meta:
   mode: "dark"
   accent: "indigo"
-  hue: 264
+  hue: null
+  pair: null
   contrast:
-    fg: 57.9
-    black: 57.9
-    red: 53.3
-    green: 59.7
-    yellow: 41.4
-    blue: 72.9
-    magenta: 66.4
-    cyan: 47
-    white: 35.6
-    brightBlack: 57.9
-    brightRed: 53.3
-    brightGreen: 59.7
-    brightYellow: 41.4
-    brightBlue: 72.9
-    brightMagenta: 66.4
-    brightCyan: 47
-    brightWhite: 35.6
+    fg: 45.4
+    black: 45.4
+    red: 28.1
+    green: 32.1
+    yellow: 20.3
+    blue: 40.8
+    magenta: 36.4
+    cyan: 24.1
+    white: 16.7
+    brightBlack: 45.4
+    brightRed: 28.1
+    brightGreen: 32.1
+    brightYellow: 20.3
+    brightBlue: 40.8
+    brightMagenta: 36.4
+    brightCyan: 24.1
+    brightWhite: 16.7

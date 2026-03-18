@@ -2,7 +2,7 @@ name: "Slack Theme Dark"
 source:
   marketplace_id: "tanmay.slack-theme"
   version: "1.0.0"
-  installs: 5528
+  installs: 5530
   author: "tanmay"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=tanmay.slack-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 303
+  pair: null
   contrast:
     fg: 107.3
     black: 0

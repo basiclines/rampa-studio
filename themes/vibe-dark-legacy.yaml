@@ -2,7 +2,7 @@ name: "Vibe Dark Legacy"
 source:
   marketplace_id: "yondav.vibe"
   version: "2.0.1"
-  installs: 1540
+  installs: 1541
   author: "yondav"
   repo: "https://github.com/yondav-configs/vibe"
   url: "https://marketplace.visualstudio.com/items?itemName=yondav.vibe"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 95.1
     black: 0

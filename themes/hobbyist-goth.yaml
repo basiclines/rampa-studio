@@ -2,7 +2,7 @@ name: "hobbyist goth"
 source:
   marketplace_id: "timmyha.hobbyist-goth"
   version: "0.0.3"
-  installs: 1576
+  installs: 1577
   author: "timhansher"
   repo: "https://github.com/timmyha/hobbyist-goth"
   url: "https://marketplace.visualstudio.com/items?itemName=timmyha.hobbyist-goth"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: null
   contrast:
     fg: 66.3
     black: 0

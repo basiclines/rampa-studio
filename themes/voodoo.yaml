@@ -2,7 +2,7 @@ name: "Voodoo"
 source:
   marketplace_id: "liamsheppard.voodoo"
   version: "0.10.0"
-  installs: 6341
+  installs: 6343
   author: "liamsheppard"
   repo: "https://github.com/liamsheppard/voodoo-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=liamsheppard.voodoo"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 279
+  pair: null
   contrast:
     fg: 77
     black: 15.1

@@ -1,11 +1,11 @@
 name: "Nothing OS Gray"
 source:
-  marketplace_id: "SecureDev01.vscode-multi-themes"
-  version: "0.0.51"
-  installs: 1834
-  author: "SecureDev"
-  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+  marketplace_id: "xexefe.nothing-os-theme"
+  version: "1.2.0"
+  installs: 219
+  author: "xexefe"
+  repo: "https://github.com/shahriaravi/nothing-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xexefe.nothing-os-theme"
 colors:
   bg: "#14151F"
   fg: "#FFFFFF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 280
+  pair: null
   contrast:
     fg: 107
     black: 0

@@ -2,7 +2,7 @@ name: "Phosphor Dark"
 source:
   marketplace_id: "phosphor-icons.phosphor-theme"
   version: "0.1.2"
-  installs: 1669
+  installs: 1671
   author: "Phosphor Icons"
   repo: "https://github.com/phosphor-icons/theme"
   url: "https://marketplace.visualstudio.com/items?itemName=phosphor-icons.phosphor-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 68.1
     black: 18.6

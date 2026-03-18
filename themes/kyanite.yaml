@@ -1,11 +1,11 @@
 name: "Kyanite"
 source:
-  marketplace_id: "NyctibiusVII.descomplica-theme"
-  version: "1.4.18"
-  installs: 387
+  marketplace_id: "NyctibiusVII.nyctibiusvii-theme"
+  version: "1.1.4"
+  installs: 254
   author: "NyctibiusVII"
-  repo: "https://github.com/Descomplica-ADS/vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=NyctibiusVII.descomplica-theme"
+  repo: "https://github.com/NyctibiusVII/nyctibiusvii-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=NyctibiusVII.nyctibiusvii-theme"
 colors:
   bg: "#071321"
   fg: "#737EA1"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 253
+  pair: null
   contrast:
     fg: 33.6
     black: 8.1

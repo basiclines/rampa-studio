@@ -2,7 +2,7 @@ name: "felixo-orange-light"
 source:
   marketplace_id: "waroi.felixo"
   version: "1.0.0"
-  installs: 845
+  installs: 846
   author: "waroi"
   repo: "https://github.com/waroi/felixoTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=waroi.felixo"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 99
     black: 0

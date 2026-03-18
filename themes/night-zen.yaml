@@ -1,11 +1,11 @@
 name: "Night Zen"
 source:
-  marketplace_id: "sachin915t.night-zen-theme"
-  version: "0.0.1"
-  installs: 6
+  marketplace_id: "sachin915.logan-night-theme"
+  version: "0.0.2"
+  installs: 4
   author: "sachin"
   repo: "https://github.com/sachin915t/logan-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=sachin915t.night-zen-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sachin915.logan-night-theme"
 colors:
   bg: "#0F1117"
   fg: "#D4D4D4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 271
+  pair: null
   contrast:
     fg: 80
     black: 0

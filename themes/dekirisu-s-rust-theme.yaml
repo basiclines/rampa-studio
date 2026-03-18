@@ -2,7 +2,7 @@ name: "Dekirisu's Rust Theme"
 source:
   marketplace_id: "dekirisu.dekirisu-rust-themes"
   version: "0.0.1"
-  installs: 3896
+  installs: 3898
   author: "Dekirisu"
   repo: "https://github.com/dekirisu/vscode-rust-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=dekirisu.dekirisu-rust-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 71.3
     black: 0

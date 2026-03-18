@@ -2,7 +2,7 @@ name: "minimal_green"
 source:
   marketplace_id: "moldaz.minimal-green"
   version: "0.0.7"
-  installs: 11291
+  installs: 11293
   author: "moldaz"
   repo: "https://github.com/mdoyleaz/vs-code-theme-minimal_green"
   url: "https://marketplace.visualstudio.com/items?itemName=moldaz.minimal-green"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 57.3
     black: 0

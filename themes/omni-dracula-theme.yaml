@@ -2,7 +2,7 @@ name: "Omni Dracula Theme"
 source:
   marketplace_id: "ThiagoLcioBittencourt.omni-dracula-theme"
   version: "1.0.7"
-  installs: 36314
+  installs: 36326
   author: "Thiago Lúcio Bittencourt"
   repo: "https://github.com/thiagolucio/omni-dracula-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ThiagoLcioBittencourt.omni-dracula-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 278
+  pair: null
   contrast:
     fg: 103.9
     black: 11.8

@@ -2,7 +2,7 @@ name: "Lotus Flat Midnight"
 source:
   marketplace_id: "alewtschuk.lotus-flat-dark-theme"
   version: "2.0.0"
-  installs: 394
+  installs: 395
   author: "alewtschuk"
   repo: "https://github.com/alewtschuk/lotus-flat-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=alewtschuk.lotus-flat-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 60.3
     black: 9.7

@@ -2,7 +2,7 @@ name: "Ocean High Contrast"
 source:
   marketplace_id: "NotYasho.ocean-high-contrast"
   version: "4.1.0"
-  installs: 9850
+  installs: 9851
   author: "NotYasho"
   repo: "https://github.com/NotYasho/ocean-high-contrast"
   url: "https://marketplace.visualstudio.com/items?itemName=NotYasho.ocean-high-contrast"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 278
+  pair: null
   contrast:
     fg: 94.3
     black: 31.7

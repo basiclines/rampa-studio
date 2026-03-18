@@ -2,7 +2,7 @@ name: "gigaaa"
 source:
   marketplace_id: "sneed1337.giga"
   version: "0.0.2"
-  installs: 91
+  installs: 92
   author: "sneed"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=sneed1337.giga"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 261
+  pair: null
   contrast:
     fg: 79.1
     black: 0

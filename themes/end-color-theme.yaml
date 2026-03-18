@@ -2,7 +2,7 @@ name: "End-color-theme"
 source:
   marketplace_id: "hzao.theme-end"
   version: "0.3.0"
-  installs: 3155
+  installs: 3158
   author: "hzao"
   repo: "https://github.com/hezeao/theme-end"
   url: "https://marketplace.visualstudio.com/items?itemName=hzao.theme-end"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 98.1
     black: 0

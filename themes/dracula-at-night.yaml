@@ -1,11 +1,11 @@
 name: "Dracula At Night"
 source:
-  marketplace_id: "bceskavich.theme-dracula-at-night"
-  version: "2.7.1"
-  installs: 567159
-  author: "bceskavich"
-  repo: "https://github.com/bceskavich/dracula-at-night"
-  url: "https://marketplace.visualstudio.com/items?itemName=bceskavich.theme-dracula-at-night"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#0E1419"
   fg: "#F8F8F2"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 244
+  pair: null
   contrast:
     fg: 102.3
     black: 10.6

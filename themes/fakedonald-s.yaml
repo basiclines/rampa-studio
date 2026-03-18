@@ -2,7 +2,7 @@ name: "FakeDonald's"
 source:
   marketplace_id: "SamuelePignone.fakedonalds"
   version: "0.0.1"
-  installs: 11830
+  installs: 11836
   author: "Samuele Pignone"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=SamuelePignone.fakedonalds"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 24
+  pair: null
   contrast:
     fg: 43.2
     black: 26.2

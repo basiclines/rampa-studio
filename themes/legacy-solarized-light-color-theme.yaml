@@ -2,7 +2,7 @@ name: "legacy-solarized-light-color-theme"
 source:
   marketplace_id: "ryanolsonx.solarized"
   version: "3.0.0"
-  installs: 183408
+  installs: 183454
   author: "Ryan Olson"
   repo: "https://github.com/ryanolsonx/vscode-solarized-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ryanolsonx.solarized"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 65.7
     black: 65.7

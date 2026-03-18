@@ -2,7 +2,7 @@ name: "Willi-Style Dracula flavour"
 source:
   marketplace_id: "wq.willi-style"
   version: "0.0.4"
-  installs: 434
+  installs: 436
   author: "wQ"
   repo: "https://github.com/iamstrawberry/willi-style"
   url: "https://marketplace.visualstudio.com/items?itemName=wq.willi-style"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 76.5
     black: 0

@@ -2,7 +2,7 @@ name: "Swablu"
 source:
   marketplace_id: "zaneadix.Swablu"
   version: "0.0.5"
-  installs: 943
+  installs: 944
   author: "Zane Adickes"
   repo: "https://github.com/zaneadix/swablu-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=zaneadix.Swablu"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 89.4
     black: 90.7

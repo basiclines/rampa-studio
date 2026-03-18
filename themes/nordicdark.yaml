@@ -2,7 +2,7 @@ name: "NordicDark"
 source:
   marketplace_id: "Avetis.codeme-theme"
   version: "0.1.1"
-  installs: 8079
+  installs: 8080
   author: "Avetis"
   repo: "https://github.com/AvetisDN/codeme-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Avetis.codeme-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 264
+  pair: null
   contrast:
     fg: 89.5
     black: 0

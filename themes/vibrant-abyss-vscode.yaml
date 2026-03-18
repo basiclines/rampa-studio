@@ -2,7 +2,7 @@ name: "vibrant-abyss-vscode"
 source:
   marketplace_id: "noelhorvath.vibrant-abyss"
   version: "0.4.13"
-  installs: 1574
+  installs: 1576
   author: "Noel Horváth"
   repo: "https://github.com/noelhorvath/vibrant-abyss"
   url: "https://marketplace.visualstudio.com/items?itemName=noelhorvath.vibrant-abyss"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 86.6
     black: 0

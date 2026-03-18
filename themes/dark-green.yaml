@@ -1,11 +1,11 @@
 name: "Dark-Green"
 source:
-  marketplace_id: "bakrimoharram.shades-of-green"
-  version: "0.0.1"
-  installs: 2132
+  marketplace_id: "bakrimoharram.dark-green"
+  version: "0.0.2"
+  installs: 1855
   author: "bakrimoharram"
-  repo: "https://github.com/bakrimoharram/shades-of-green"
-  url: "https://marketplace.visualstudio.com/items?itemName=bakrimoharram.shades-of-green"
+  repo: "https://github.com/bakrimoharram/dark-green"
+  url: "https://marketplace.visualstudio.com/items?itemName=bakrimoharram.dark-green"
 colors:
   bg: "#0E2810"
   fg: "#BC7B7B"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 145
+  pair: null
   contrast:
     fg: 38.2
     black: 0

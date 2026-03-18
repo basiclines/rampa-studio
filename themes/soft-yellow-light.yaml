@@ -2,7 +2,7 @@ name: "Soft Yellow Light"
 source:
   marketplace_id: "SwaggyPinguin.soft-yellow-light"
   version: "0.0.6"
-  installs: 2281
+  installs: 2282
   author: "SwaggyPinguin"
   repo: "https://github.com/SwaggyPinguin/vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=SwaggyPinguin.soft-yellow-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 73
     black: 98.9

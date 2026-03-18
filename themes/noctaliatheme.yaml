@@ -2,7 +2,7 @@ name: "NoctaliaTheme"
 source:
   marketplace_id: "Noctalia.noctaliatheme"
   version: "0.0.5"
-  installs: 1304
+  installs: 1310
   author: "Noctalia Team"
   repo: "https://github.com/tuibird/noctalia-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Noctalia.noctaliatheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 277
+  pair: null
   contrast:
     fg: 107.6
     black: 51.2

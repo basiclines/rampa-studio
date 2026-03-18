@@ -2,7 +2,7 @@ name: "Snazzy Light"
 source:
   marketplace_id: "loilo.snazzy-light"
   version: "1.4.1"
-  installs: 161513
+  installs: 161547
   author: "Florian Reuschel"
   repo: "https://github.com/loilo/vscode-snazzy-light"
   url: "https://marketplace.visualstudio.com/items?itemName=loilo.snazzy-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 81.8
     black: 81.8

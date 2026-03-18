@@ -2,7 +2,7 @@ name: "Purply (Dark)"
 source:
   marketplace_id: "jeremy-gower.purply-theme"
   version: "2.0.5"
-  installs: 3048
+  installs: 3049
   author: "Jeremy Gower"
   repo: "https://github.com/jdgower/purply-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=jeremy-gower.purply-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 264
+  pair: null
   contrast:
     fg: 56.2
     black: 0

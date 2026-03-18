@@ -2,7 +2,7 @@ name: "Vaporizer Moon-Light Dark"
 source:
   marketplace_id: "Vaporizer.vaporizer-dark"
   version: "2.1.9"
-  installs: 35736
+  installs: 35746
   author: "Vaporizer"
   repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 265
+  pair: null
   contrast:
     fg: 77.9
     black: 44.2

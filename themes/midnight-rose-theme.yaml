@@ -2,7 +2,7 @@ name: "Midnight Rose Theme"
 source:
   marketplace_id: "nathan-dev.midnight-rose-theme"
   version: "1.1.4"
-  installs: 115
+  installs: 119
   author: "Nathan-extension"
   repo: "https://github.com/nathan/rose-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=nathan-dev.midnight-rose-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 88.4
     black: 0

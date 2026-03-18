@@ -1,11 +1,11 @@
 name: "Koi Pond Light"
 source:
-  marketplace_id: "sserafy.naturefy-themes"
+  marketplace_id: "sserafy.ssera-themes"
   version: "2.0.2"
-  installs: 1655
+  installs: 334
   author: "sserafy"
   repo: "https://github.com/azhou555/naturefy-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.naturefy-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ssera-themes"
 colors:
   bg: "#FCFAF4"
   fg: "#2C3E34"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Koi Pond Dark"
   contrast:
     fg: 93.2
     black: 93.2

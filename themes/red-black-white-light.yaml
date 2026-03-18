@@ -2,7 +2,7 @@ name: "Red Black White Light"
 source:
   marketplace_id: "chenzilve.gundam-rx78-theme"
   version: "0.1.0"
-  installs: 4
+  installs: 6
   author: "chenzilve"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=chenzilve.gundam-rx78-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Red Black White Dark"
   contrast:
     fg: 103.1
     black: 103.1

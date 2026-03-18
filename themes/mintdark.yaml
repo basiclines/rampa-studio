@@ -2,7 +2,7 @@ name: "MintDark"
 source:
   marketplace_id: "daniel-lvovsky.mintdark-theme"
   version: "0.0.1"
-  installs: 2895
+  installs: 2896
   author: "Daniel Lvovsky"
   repo: "https://github.com/DanielLvovsky/MintDark/issues"
   url: "https://marketplace.visualstudio.com/items?itemName=daniel-lvovsky.mintdark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 89.3
     black: 0

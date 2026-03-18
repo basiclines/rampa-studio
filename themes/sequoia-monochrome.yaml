@@ -2,7 +2,7 @@ name: "Sequoia Monochrome"
 source:
   marketplace_id: "wicked-labs.sequoia"
   version: "1.31.3"
-  installs: 23648
+  installs: 23654
   author: "Michael Andreuzza "
   repo: "https://github.com/Sequoia-Theme/vs-code"
   url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.sequoia"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 37.6
     black: 0

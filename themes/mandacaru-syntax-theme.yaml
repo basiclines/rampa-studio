@@ -2,7 +2,7 @@ name: "Mandacaru Syntax Theme"
 source:
   marketplace_id: "oxechicao.mandacaru-syntax-theme"
   version: "1.2.0"
-  installs: 7
+  installs: 8
   author: "Francisco Thiago"
   repo: "https://github.com/oxechicao/mandacaru-vs"
   url: "https://marketplace.visualstudio.com/items?itemName=oxechicao.mandacaru-syntax-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: 314
+  pair: null
   contrast:
     fg: 98.7
     black: 0

@@ -2,7 +2,7 @@ name: "Black Pink Rose"
 source:
   marketplace_id: "abenavidesh.theme-blackpink"
   version: "0.0.5"
-  installs: 3276
+  installs: 3278
   author: "abenavidesh"
   repo: "https://github.com/abenavidesh/vs-blackpink-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=abenavidesh.theme-blackpink"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 230
+  pair: null
   contrast:
     fg: 71.8
     black: 0

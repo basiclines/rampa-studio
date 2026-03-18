@@ -2,7 +2,7 @@ name: "Gruvbox Dark Soft"
 source:
   marketplace_id: "MrMartian.gruvbox-dark-moist"
   version: "0.0.1"
-  installs: 896
+  installs: 897
   author: "MrMartian"
   repo: "https://github.com/CraigglesO/gruvbox-dark-moist-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=MrMartian.gruvbox-dark-moist"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 239
+  pair: "Gruvbox Light Soft"
   contrast:
     fg: 62.8
     black: 0

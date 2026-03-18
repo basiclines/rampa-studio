@@ -2,7 +2,7 @@ name: "Night"
 source:
   marketplace_id: "fem12N.night"
   version: "1.1.1"
-  installs: 8327
+  installs: 8334
   author: "fem12N"
   repo: "https://github.com/FEM12/Night"
   url: "https://marketplace.visualstudio.com/items?itemName=fem12N.night"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 275
+  pair: null
   contrast:
     fg: 104.2
     black: 0

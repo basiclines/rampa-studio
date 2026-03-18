@@ -2,7 +2,7 @@ name: "Colorways - Cheers (Soft)"
 source:
   marketplace_id: "Franthormel.colorways"
   version: "0.2.1"
-  installs: 1011
+  installs: 1012
   author: "Franthormel"
   repo: "https://github.com/franthormel/colorways-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Franthormel.colorways"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 101.5
     black: 93.7

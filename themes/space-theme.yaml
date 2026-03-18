@@ -2,7 +2,7 @@ name: "space-theme"
 source:
   marketplace_id: "hosana.space-github-theme"
   version: "1.8.0"
-  installs: 559
+  installs: 561
   author: "hosana"
   repo: "https://github.com/hosanabarcelos/vscode-extension"
   url: "https://marketplace.visualstudio.com/items?itemName=hosana.space-github-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 258
+  pair: null
   contrast:
     fg: 77.5
     black: 0

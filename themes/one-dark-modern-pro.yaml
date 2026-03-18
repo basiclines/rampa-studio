@@ -2,7 +2,7 @@ name: "One Dark Modern Pro"
 source:
   marketplace_id: "aleksa-codes.one-dark-modern-pro"
   version: "1.0.10"
-  installs: 2141
+  installs: 2144
   author: "aleksa-codes"
   repo: "https://github.com/aleksa-codes/one-dark-modern-pro"
   url: "https://marketplace.visualstudio.com/items?itemName=aleksa-codes.one-dark-modern-pro"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 73.7
     black: 7.9

@@ -2,7 +2,7 @@ name: "Moss Oracle"
 source:
   marketplace_id: "InnaSodri.moss-oracle-theme"
   version: "1.0.0"
-  installs: 186
+  installs: 187
   author: "Inna Sodri"
   repo: "https://github.com/InnaSodri/moss-oracle"
   url: "https://marketplace.visualstudio.com/items?itemName=InnaSodri.moss-oracle-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 151
+  pair: null
   contrast:
     fg: 82.7
     black: 0

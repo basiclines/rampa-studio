@@ -2,7 +2,7 @@ name: "Winter Pearl"
 source:
   marketplace_id: "suryashanm.winter-pearl-theme"
   version: "1.0.0"
-  installs: 2356
+  installs: 2357
   author: "suryashanm"
   repo: "https://github.com/suryashanm/winter-pearl"
   url: "https://marketplace.visualstudio.com/items?itemName=suryashanm.winter-pearl-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 261
+  pair: null
   contrast:
     fg: 88.4
     black: 0

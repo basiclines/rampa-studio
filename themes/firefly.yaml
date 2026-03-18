@@ -1,49 +1,50 @@
-name: "Firefly"
+name: "FireFly"
 source:
-  marketplace_id: "vagalumedev.firefly"
-  version: "0.0.1"
-  installs: 14081
-  author: "Vagalume Dev"
-  repo: "https://github.com/vagalumedev/firefly-vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=vagalumedev.firefly"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
-  bg: "#1D1D1B"
-  fg: "#D6DEEB"
-  black: "#001F47"
-  red: "#EF5350"
-  green: "#22DA6E"
-  yellow: "#C5E478"
-  blue: "#82AAFF"
-  magenta: "#C792EA"
-  cyan: "#21C7A8"
-  white: "#FFFFFF"
-  brightBlack: "#575656"
-  brightRed: "#EF5350"
-  brightGreen: "#22DA6E"
-  brightYellow: "#FFEB95"
-  brightBlue: "#82AAFF"
-  brightMagenta: "#C792EA"
-  brightCyan: "#7FDBCA"
+  bg: "#151515"
+  fg: "#B3B8C5"
+  black: "#01060E"
+  red: "#EA6C73"
+  green: "#91B362"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#FAE994"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#C2D94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#FFEE99"
+  brightCyan: "#95E6CB"
   brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "teal"
+  accent: "green"
   hue: null
+  pair: null
   contrast:
-    fg: 84.5
+    fg: 63.2
     black: 0
-    red: 38.6
-    green: 66.6
-    yellow: 81.4
-    blue: 55.2
-    magenta: 53.1
-    cyan: 59
-    white: 106.2
-    brightBlack: 14.9
-    brightRed: 38.6
-    brightGreen: 66.6
-    brightYellow: 93
-    brightBlue: 55.2
-    brightMagenta: 53.1
-    brightCyan: 73.3
-    brightWhite: 106.2
+    red: 44.2
+    green: 54.4
+    yellow: 66.8
+    blue: 60.8
+    magenta: 92.2
+    cyan: 78.1
+    white: 71.9
+    brightBlack: 23.1
+    brightRed: 46.8
+    brightGreen: 76.1
+    brightYellow: 69.8
+    brightBlue: 63.5
+    brightMagenta: 95.4
+    brightCyan: 81.1
+    brightWhite: 107.1

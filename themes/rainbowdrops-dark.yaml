@@ -2,7 +2,7 @@ name: "RainbowDrops Dark"
 source:
   marketplace_id: "WithOutCat.theme-rainbowdrops"
   version: "3.0.0"
-  installs: 5114
+  installs: 5115
   author: "WithOutCat"
   repo: "https://github.com/withoutcat/rainbowdrops"
   url: "https://marketplace.visualstudio.com/items?itemName=WithOutCat.theme-rainbowdrops"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 89.6
     black: 0

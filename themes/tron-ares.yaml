@@ -2,7 +2,7 @@ name: "Tron-Ares"
 source:
   marketplace_id: "AdibKhondoker.tron-ares-theme"
   version: "0.1.5"
-  installs: 364
+  installs: 365
   author: "Adib Khondoker"
   repo: "https://github.com/adib82302/tron-ares-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AdibKhondoker.tron-ares-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 17.3
     black: 0

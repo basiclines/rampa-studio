@@ -2,7 +2,7 @@ name: "Calming Theme"
 source:
   marketplace_id: "diff001a.calming-theme"
   version: "1.0.1"
-  installs: 4034
+  installs: 4037
   author: "diff001a"
   repo: "https://github.com/diff001a/CalmingTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=diff001a.calming-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 264
+  pair: null
   contrast:
     fg: 76
     black: 0

@@ -2,7 +2,7 @@ name: "Zenbones Neobones Dark Stark"
 source:
   marketplace_id: "rpbritton.zenbones"
   version: "0.0.2"
-  installs: 2700
+  installs: 2701
   author: "rpbritton"
   repo: "https://github.com/rpbritton/zenbones.nvim"
   url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 233
+  pair: null
   contrast:
     fg: 78.5
     black: 0

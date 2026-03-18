@@ -2,7 +2,7 @@ name: "Taurus"
 source:
   marketplace_id: "xyr0z1ne.taurus"
   version: "0.0.5"
-  installs: 2808
+  installs: 2809
   author: "xyr0z1ne"
   repo: "https://github.com/Xyr0s1gn/Taurus-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=xyr0z1ne.taurus"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 62.1
     black: 0

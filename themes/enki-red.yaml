@@ -1,11 +1,11 @@
 name: "Enki Red"
 source:
-  marketplace_id: "HasibX2000.slab-theme"
-  version: "0.0.3"
-  installs: 3734
-  author: "Hasibur Rahman"
-  repo: "https://github.com/HasibX2000/SLab"
-  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+  marketplace_id: "enkia.enki-vscode-theme"
+  version: "0.5.0"
+  installs: 12063
+  author: "enkia"
+  repo: "https://github.com/enkia/enki-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=enkia.enki-vscode-theme"
 colors:
   bg: "#19191F"
   fg: "#9699A8"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 285
+  pair: null
   contrast:
     fg: 46.2
     black: 32.3

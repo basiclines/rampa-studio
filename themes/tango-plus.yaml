@@ -2,7 +2,7 @@ name: "tango-plus"
 source:
   marketplace_id: "ludwigkr.emacs-tango-plus"
   version: "0.2.0"
-  installs: 725
+  installs: 726
   author: "ludwigkr"
   repo: "https://github.com/ludwigkr/vscode-tango-plus-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ludwigkr.emacs-tango-plus"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 106
     black: 106

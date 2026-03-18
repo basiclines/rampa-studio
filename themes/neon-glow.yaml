@@ -2,7 +2,7 @@ name: "Neon Glow"
 source:
   marketplace_id: "LittleWaterfall.neon-cyberpunk-theme"
   version: "1.0.0"
-  installs: 1547
+  installs: 1549
   author: "Little Waterfall"
   repo: "https://github.com/LittleWaterfall/vscode-neon-glow"
   url: "https://marketplace.visualstudio.com/items?itemName=LittleWaterfall.neon-cyberpunk-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 284
+  pair: null
   contrast:
     fg: 91.9
     black: 0

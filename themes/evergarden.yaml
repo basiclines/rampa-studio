@@ -2,7 +2,7 @@ name: "Evergarden"
 source:
   marketplace_id: "icarrera.evergarden-theme"
   version: "1.3.0"
-  installs: 757
+  installs: 759
   author: "Ignacio Carrera"
   repo: "https://github.com/nachokb/vscode-evergarden-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=icarrera.evergarden-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 229
+  pair: null
   contrast:
     fg: 71.8
     black: 0

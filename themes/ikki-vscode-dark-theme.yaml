@@ -2,7 +2,7 @@ name: "IKKI-VSCode-Dark-Theme"
 source:
   marketplace_id: "IKKI2000.ikki-vscode-dark-theme"
   version: "1.88.1"
-  installs: 3764
+  installs: 3765
   author: "IKKI"
   repo: "https://github.com/IKKI2000/IKKI-VSCode-Dark-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=IKKI2000.ikki-vscode-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 65.3
     black: 77

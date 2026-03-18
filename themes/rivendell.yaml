@@ -2,7 +2,7 @@ name: "Rivendell"
 source:
   marketplace_id: "sortbyfirstname.rivendell"
   version: "0.0.3"
-  installs: 508
+  installs: 509
   author: "sortbyfirstname"
   repo: "https://github.com/sortbyfirstname/rivendell-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sortbyfirstname.rivendell"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 102.5
     black: 102.5

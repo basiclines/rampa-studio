@@ -2,7 +2,7 @@ name: "Ironman Theme Dark"
 source:
   marketplace_id: "rohit-chouhan.ironman-theme"
   version: "1.0.6"
-  installs: 3738
+  installs: 3739
   author: "Rohit Chouhan"
   repo: "https://github.com/rohit-chouhan/"
   url: "https://marketplace.visualstudio.com/items?itemName=rohit-chouhan.ironman-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 300
+  pair: "Ironman Theme Light"
   contrast:
     fg: 21.5
     black: 0

@@ -1,11 +1,11 @@
 name: "Kuroir Light 19 Violet"
 source:
-  marketplace_id: "6o8.colorized-theme"
-  version: "26.0.1"
-  installs: 367
+  marketplace_id: "6o8.kuroir-github-vscode-theme"
+  version: "25.1.11"
+  installs: 235
   author: "6o8"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=6o8.colorized-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=6o8.kuroir-github-vscode-theme"
 colors:
   bg: "#FEFDFF"
   fg: "#000000"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 105.1
     black: 100.5

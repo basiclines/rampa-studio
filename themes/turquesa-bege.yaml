@@ -2,7 +2,7 @@ name: "Turquesa/bege"
 source:
   marketplace_id: "srtakennedy.turquesa"
   version: "0.0.4"
-  installs: 222
+  installs: 224
   author: "srtakennedy"
   repo: "https://github.com/SrtaKennedy"
   url: "https://marketplace.visualstudio.com/items?itemName=srtakennedy.turquesa"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 80.8
     black: 0

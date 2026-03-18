@@ -1,11 +1,11 @@
 name: "Vishwakarma Sunset Glow"
 source:
-  marketplace_id: "VishwakarmaIndustries0abhishek.vishwakarma-theme"
-  version: "1.0.0"
-  installs: 872
+  marketplace_id: "VishwakarmaIndustries.vishwa"
+  version: "0.0.1"
+  installs: 25
   author: "Vishwakarma Industries"
-  repo: "https://github.com/vishwakarma-industries/vishwakarma-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=VishwakarmaIndustries0abhishek.vishwakarma-theme"
+  repo: "https://github.com/vishwakarma-industries/vishwa"
+  url: "https://marketplace.visualstudio.com/items?itemName=VishwakarmaIndustries.vishwa"
 colors:
   bg: "#FAF8F5"
   fg: "#2D2A26"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 97
     black: 97.4

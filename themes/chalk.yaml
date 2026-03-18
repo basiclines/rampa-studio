@@ -2,7 +2,7 @@ name: "Chalk"
 source:
   marketplace_id: "emmakrause.chalk"
   version: "1.0.0"
-  installs: 3042
+  installs: 3044
   author: "Emma Krause"
   repo: "https://github.com/emkrause14/chalk-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=emmakrause.chalk"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 77.3
     black: 22.8

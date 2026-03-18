@@ -2,7 +2,7 @@ name: "Ocean Mist Light"
 source:
   marketplace_id: "MalikHaziq.ocean-mist"
   version: "0.2.1"
-  installs: 247
+  installs: 248
   author: "Malik Haziq"
   repo: "https://github.com/Malik-Haziq/Ocean-Mist-Vscode-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MalikHaziq.ocean-mist"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 211
+  pair: null
   contrast:
     fg: 76.2
     black: 0

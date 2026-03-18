@@ -2,7 +2,7 @@ name: "Minty Dark"
 source:
   marketplace_id: "ShanukaKFernando.Minty"
   version: "1.0.2"
-  installs: 185
+  installs: 186
   author: "Shanuka Kavinda"
   repo: "https://github.com/shanukavinda/Minty"
   url: "https://marketplace.visualstudio.com/items?itemName=ShanukaKFernando.Minty"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 78.6
     black: 0

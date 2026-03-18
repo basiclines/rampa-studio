@@ -2,7 +2,7 @@ name: "Amp Light"
 source:
   marketplace_id: "hrose.amp-theme"
   version: "0.1.0"
-  installs: 492
+  installs: 495
   author: "Hanna Rose"
   repo: "https://codeberg.org/hanna/amp-theme#vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=hrose.amp-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Amp Dark"
   contrast:
     fg: 101.1
     black: 15.2

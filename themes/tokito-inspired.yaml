@@ -2,7 +2,7 @@ name: "Tokito Inspired"
 source:
   marketplace_id: "devLocifer.hashira-code-theme"
   version: "0.0.1"
-  installs: 738
+  installs: 739
   author: "devLocifer"
   repo: "https://github.com/diazdjul19/hashira-code-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=devLocifer.hashira-code-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 260
+  pair: null
   contrast:
     fg: 79.7
     black: 0

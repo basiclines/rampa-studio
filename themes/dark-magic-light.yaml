@@ -2,7 +2,7 @@ name: "Dark Magic - Light"
 source:
   marketplace_id: "DavidMorais.dark-magic-themes"
   version: "0.3.1"
-  installs: 47308
+  installs: 47330
   author: "David Morais"
   repo: "https://github.com/Dark-Magic-Studios/dark-magic-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=DavidMorais.dark-magic-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: 286
+  pair: "Dark Magic Night"
   contrast:
     fg: 82.4
     black: 93.9

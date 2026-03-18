@@ -2,7 +2,7 @@ name: "Joker Neon"
 source:
   marketplace_id: "fidelp27.joker-neon-theme"
   version: "1.0.1"
-  installs: 267
+  installs: 271
   author: "fidelp27"
   repo: "https://github.com/fidelp27/joker-neon-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=fidelp27.joker-neon-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 299
+  pair: null
   contrast:
     fg: 91.4
     black: 0

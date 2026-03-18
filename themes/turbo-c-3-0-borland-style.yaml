@@ -2,7 +2,7 @@ name: "Turbo C 3.0 Borland Style"
 source:
   marketplace_id: "WatkinsLabs.turboc-3-0-theme"
   version: "0.0.1"
-  installs: 1306
+  installs: 1308
   author: "Watkins Labs"
   repo: "https://github.com/chris17453/vscode-turboc3.0-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.turboc-3-0-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 264
+  pair: null
   contrast:
     fg: 84.7
     black: 0

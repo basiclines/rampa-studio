@@ -2,7 +2,7 @@ name: "Aurora Borealis Theme"
 source:
   marketplace_id: "mister-gold.aurora-borealis-theme"
   version: "1.5.0"
-  installs: 636
+  installs: 637
   author: "Anton Zolotukhin"
   repo: "https://github.com/bandantonio/aurora-borealis-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=mister-gold.aurora-borealis-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 266
+  pair: null
   contrast:
     fg: 84.8
     black: 0

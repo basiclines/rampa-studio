@@ -2,7 +2,7 @@ name: "jelly-theme"
 source:
   marketplace_id: "NemanjaManojlovic.jelly"
   version: "0.0.5"
-  installs: 20202
+  installs: 20209
   author: "Nemanja Manojlovic"
   repo: "https://github.com/Manojlovic1998/vscode-jelly-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=NemanjaManojlovic.jelly"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 103.4
     black: 0

@@ -9,7 +9,6 @@
 
 import { mkdirSync, writeFileSync, existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { createHash } from 'node:crypto';
 import { serializeThemeYAML, ANSI_KEYS, type ThemeYAML, type ThemeColors, type ThemeContrast } from '../cli/src/theme-schema';
 import { computeApcaLc } from '../src/engine/ApcaEngine';
 import { hexToOklch } from '../src/engine/OklchMathEngine';
@@ -20,7 +19,7 @@ const MARKETPLACE_URL = 'https://marketplace.visualstudio.com/_apis/public/galle
 const THEMES_DIR = join(import.meta.dir, '..', 'themes');
 const PAGE_SIZE = 100;
 const DEFAULT_CONCURRENCY = 5;
-const DELAY_BETWEEN_PAGES = 500;
+const DELAY_BETWEEN_PAGES = 1500;
 
 // ── CLI args ──
 
@@ -57,36 +56,48 @@ interface MarketplaceExtension {
   statistics: Array<{ statisticName: string; value: number }>;
 }
 
-async function fetchPage(page: number): Promise<{ extensions: MarketplaceExtension[]; total: number }> {
-  const res = await fetch(MARKETPLACE_URL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json;api-version=7.2-preview.1',
-    },
-    body: JSON.stringify({
-      filters: [{
-        criteria: [
-          { filterType: 8, value: 'Microsoft.VisualStudio.Code' },
-          { filterType: 10, value: 'tag:"color-theme"' },
-        ],
-        pageSize: PAGE_SIZE,
-        pageNumber: page,
-        sortBy: 12, // Install count
-        sortOrder: 0,
-      }],
-      flags: 914,
-    }),
-  });
+async function fetchPage(page: number, retries = 5): Promise<{ extensions: MarketplaceExtension[]; total: number }> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const res = await fetch(MARKETPLACE_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json;api-version=7.2-preview.1',
+      },
+      body: JSON.stringify({
+        filters: [{
+          criteria: [
+            { filterType: 8, value: 'Microsoft.VisualStudio.Code' },
+            { filterType: 10, value: 'tag:"color-theme"' },
+          ],
+          pageSize: PAGE_SIZE,
+          pageNumber: page,
+          sortBy: 12, // Install count
+          sortOrder: 0,
+        }],
+        flags: 914,
+      }),
+    });
 
-  if (!res.ok) {
-    throw new Error(`Marketplace API error: ${res.status} ${await res.text()}`);
+    if (res.status === 429) {
+      const wait = Math.pow(2, attempt) * 2000;
+      console.log(`   ⏳ Rate limited on page ${page}, retrying in ${wait / 1000}s... (attempt ${attempt + 1}/${retries})`);
+      await Bun.sleep(wait);
+      continue;
+    }
+
+    if (!res.ok) {
+      throw new Error(`Marketplace API error: ${res.status} ${await res.text()}`);
+    }
+
+    const data = await res.json();
+    const result = data.results[0];
+    const total = result.resultMetadata?.[0]?.metadataItems?.[0]?.count || 0;
+    return { extensions: result.extensions || [], total };
   }
 
-  const data = await res.json();
-  const result = data.results[0];
-  const total = result.resultMetadata?.[0]?.metadataItems?.[0]?.count || 0;
-  return { extensions: result.extensions || [], total };
+  console.log(`   ⚠️  Skipping page ${page} after ${retries} retries`);
+  return { extensions: [], total: 0 };
 }
 
 // ── VSIX download + extraction ──
@@ -99,10 +110,19 @@ async function downloadAndExtractThemes(ext: MarketplaceExtension): Promise<Extr
   if (!vsixFile) return [];
 
   try {
-    const res = await fetch(vsixFile.source);
-    if (!res.ok) return [];
-
-    const buffer = await res.arrayBuffer();
+    let buffer: ArrayBuffer | null = null;
+    for (let attempt = 0; attempt < 4; attempt++) {
+      const res = await fetch(vsixFile.source);
+      if (res.status === 429) {
+        const wait = Math.pow(2, attempt) * 2000;
+        await Bun.sleep(wait);
+        continue;
+      }
+      if (!res.ok) return [];
+      buffer = await res.arrayBuffer();
+      break;
+    }
+    if (!buffer) return [];
 
     // Write to temp file, use system unzip (fast + reliable)
     const tmpDir = join(THEMES_DIR, '.tmp', ext.extensionId || 'ext');
@@ -305,6 +325,8 @@ function enrichTheme(name: string, colors: ThemeColors, ext: MarketplaceExtensio
       marketplace_id: `${ext.publisher.publisherName}.${ext.extensionName}`,
       version: ext.versions[0]?.version || '0.0.0',
       installs: Math.round(getStat('install')),
+      rating: Math.round(getStat('averagerating') * 100) / 100,
+      ratings: Math.round(getStat('ratingcount')),
       author,
       repo: cleanRepo,
       url: `https://marketplace.visualstudio.com/items?itemName=${ext.publisher.publisherName}.${ext.extensionName}`,
@@ -327,12 +349,7 @@ function closestCssColor(hue: number): string {
   return closest;
 }
 
-// ── Deduplication ──
-
-function colorFingerprint(colors: ThemeColors): string {
-  const values = [colors.bg, colors.fg, ...ANSI_KEYS.map(k => colors[k as keyof ThemeColors])];
-  return createHash('md5').update(values.join(',')).digest('hex');
-}
+// ── Filename ──
 
 function themeFilename(name: string): string {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.yaml';
@@ -351,11 +368,9 @@ async function main() {
     ? JSON.parse(readFileSync(indexPath, 'utf8'))
     : {};
 
-  const seenFingerprints = new Set<string>();
   const index: Record<string, string> = { ...existingIndex };
   let totalProcessed = 0;
   let totalWritten = 0;
-  let totalSkipped = 0;
   let page = 1;
 
   // Phase 1: Paginate marketplace
@@ -378,14 +393,6 @@ async function main() {
       for (const themes of results) {
         for (const { name, colors, extension } of themes) {
           totalProcessed++;
-
-          // Deduplicate
-          const fp = colorFingerprint(colors);
-          if (seenFingerprints.has(fp)) {
-            totalSkipped++;
-            continue;
-          }
-          seenFingerprints.add(fp);
 
           // Enrich + write
           const theme = enrichTheme(name, colors, extension);
@@ -424,8 +431,7 @@ async function main() {
 
   console.log(`\n\n📊 Done!`);
   console.log(`   Processed: ${totalProcessed} theme files`);
-  console.log(`   Written: ${totalWritten} unique themes`);
-  console.log(`   Skipped: ${totalSkipped} duplicates`);
+  console.log(`   Written: ${totalWritten} themes`);
   console.log(`   Index: ${Object.keys(index).length} entries → themes/index.json`);
 }
 

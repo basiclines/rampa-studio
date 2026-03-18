@@ -2,7 +2,7 @@ name: "Min Gruvbox"
 source:
   marketplace_id: "cnmorocho.min-gruvbox-theme"
   version: "0.0.10"
-  installs: 3528
+  installs: 3530
   author: "Carlos Nahuel Morocho"
   repo: "https://github.com/cnmorocho/min-gruvbox-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=cnmorocho.min-gruvbox-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 97
     black: 0

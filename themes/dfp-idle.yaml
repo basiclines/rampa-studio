@@ -2,7 +2,7 @@ name: "DFP-IDLE"
 source:
   marketplace_id: "anto.dafluffypotato-s-idle-theme"
   version: "0.0.2"
-  installs: 990
+  installs: 991
   author: "anto"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=anto.dafluffypotato-s-idle-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 225
+  pair: null
   contrast:
     fg: 68
     black: 0

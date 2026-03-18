@@ -2,7 +2,7 @@ name: "Photonica Light"
 source:
   marketplace_id: "ConAntares.Photonica"
   version: "1.0.10"
-  installs: 17844
+  installs: 17846
   author: "Luke Niu"
   repo: "https://github.com/Photonico/Photonica"
   url: "https://marketplace.visualstudio.com/items?itemName=ConAntares.Photonica"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Photonica Dark"
   contrast:
     fg: 105.1
     black: 105.1

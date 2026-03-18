@@ -2,7 +2,7 @@ name: "McDonalds Theme"
 source:
   marketplace_id: "OttonielMatheus.mcdonalds-theme"
   version: "0.0.1"
-  installs: 4586
+  installs: 4588
   author: "Ottoniel Matheus"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=OttonielMatheus.mcdonalds-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 29
+  pair: null
   contrast:
     fg: 91.3
     black: 0

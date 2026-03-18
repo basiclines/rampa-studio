@@ -1,11 +1,11 @@
 name: "Kite Light"
 source:
-  marketplace_id: "yudinikita.vscode-theme-kite"
-  version: "1.1.2"
-  installs: 8249
-  author: "Yudin Nikita"
-  repo: "https://github.com/nblackninja/vscode-theme-kite"
-  url: "https://marketplace.visualstudio.com/items?itemName=yudinikita.vscode-theme-kite"
+  marketplace_id: "Zhouscar.vscode-theme-kite-wcag"
+  version: "0.0.1"
+  installs: 1278
+  author: "Zhouscar"
+  repo: "https://github.com/Zhouscar/vscode-theme-kite-hc"
+  url: "https://marketplace.visualstudio.com/items?itemName=Zhouscar.vscode-theme-kite-wcag"
 colors:
   bg: "#FFFFFF"
   fg: "#04274E"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: "Kite Dark"
   contrast:
     fg: 101.5
     black: 105.9

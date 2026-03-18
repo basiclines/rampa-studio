@@ -2,7 +2,7 @@ name: "all-black"
 source:
   marketplace_id: "xiaobai.all-black"
   version: "0.6.4"
-  installs: 5846
+  installs: 5847
   author: "xiaobai"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=xiaobai.all-black"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 101.1
     black: 0

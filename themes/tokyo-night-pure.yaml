@@ -2,7 +2,7 @@ name: "Tokyo Night Pure"
 source:
   marketplace_id: "nishantg96.tokyo-night-pure"
   version: "0.0.3"
-  installs: 1743
+  installs: 1744
   author: "Nishant Gajjar"
   repo: "https://github.com/nishantg96/Tokyo-Night-Pure-VSCode"
   url: "https://marketplace.visualstudio.com/items?itemName=nishantg96.tokyo-night-pure"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 280
+  pair: null
   contrast:
     fg: 72.8
     black: 0

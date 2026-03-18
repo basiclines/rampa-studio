@@ -1,49 +1,50 @@
 name: "monochrome-dark"
 source:
-  marketplace_id: "dkamyshov.monochrome"
-  version: "2.3.3"
-  installs: 2227
-  author: "dkamyshov"
-  repo: "https://github.com/dkamyshov/monochrome"
-  url: "https://marketplace.visualstudio.com/items?itemName=dkamyshov.monochrome"
+  marketplace_id: "anotherglitchinthematrix.monochrome"
+  version: "2.4.3"
+  installs: 47953
+  author: "glitch"
+  repo: "https://github.com/anotherglitchinthematrix/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=anotherglitchinthematrix.monochrome"
 colors:
   bg: "#101010"
-  fg: "#EBEBEB"
+  fg: "#AAAAAA"
   black: "#101010"
-  red: "#D0D0D0"
-  green: "#838383"
-  yellow: "#EBEBEB"
-  blue: "#5D5D5D"
-  magenta: "#EBEBEB"
-  cyan: "#A9A9A9"
-  white: "#EBEBEB"
-  brightBlack: "#363636"
-  brightRed: "#D0D0D0"
-  brightGreen: "#838383"
-  brightYellow: "#EBEBEB"
-  brightBlue: "#5D5D5D"
-  brightMagenta: "#EBEBEB"
-  brightCyan: "#A9A9A9"
+  red: "#7E7E7E"
+  green: "#525252"
+  yellow: "#A9A9A9"
+  blue: "#3C3C3C"
+  magenta: "#939393"
+  cyan: "#686868"
+  white: "#BFBFBF"
+  brightBlack: "#262626"
+  brightRed: "#7E7E7E"
+  brightGreen: "#525252"
+  brightYellow: "#A9A9A9"
+  brightBlue: "#3C3C3C"
+  brightMagenta: "#939393"
+  brightCyan: "#686868"
   brightWhite: "#EBEBEB"
 meta:
   mode: "dark"
   accent: "yellow"
   hue: null
+  pair: null
   contrast:
-    fg: 94.4
+    fg: 55.8
     black: 0
-    red: 77.6
-    green: 35.8
-    yellow: 94.4
-    blue: 18.9
-    magenta: 94.4
-    cyan: 55.3
-    white: 94.4
+    red: 33.4
+    green: 14.5
+    yellow: 55.3
+    blue: 0
+    magenta: 43.7
+    cyan: 23.5
+    white: 67.6
     brightBlack: 0
-    brightRed: 77.6
-    brightGreen: 35.8
-    brightYellow: 94.4
-    brightBlue: 18.9
-    brightMagenta: 94.4
-    brightCyan: 55.3
+    brightRed: 33.4
+    brightGreen: 14.5
+    brightYellow: 55.3
+    brightBlue: 0
+    brightMagenta: 43.7
+    brightCyan: 23.5
     brightWhite: 94.4

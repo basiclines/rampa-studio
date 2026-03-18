@@ -1,11 +1,11 @@
 name: "Sonokai Maia"
 source:
-  marketplace_id: "sainnhe.sonokai"
-  version: "0.2.9"
-  installs: 24096
-  author: "sainnhe"
-  repo: "https://github.com/sainnhe/sonokai-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai"
+  marketplace_id: "slava0135.sonokai-pro"
+  version: "0.3.0"
+  installs: 92
+  author: "slava0135"
+  repo: "https://github.com/slava0135/sonokai-pro-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=slava0135.sonokai-pro"
 colors:
   bg: "#273136"
   fg: "#E1E2E3"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 230
+  pair: null
   contrast:
     fg: 84
     black: 0

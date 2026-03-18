@@ -2,7 +2,7 @@ name: "Team Pastel Colors Theme"
 source:
   marketplace_id: "zumba29.team-pastel-colors"
   version: "0.0.1"
-  installs: 346
+  installs: 347
   author: "zumba29"
   repo: "https://github.com/sahilmtayade/pastel-colors-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=zumba29.team-pastel-colors"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 94.5
     black: 0

@@ -2,7 +2,7 @@ name: "one-piece-dark"
 source:
   marketplace_id: "LeonardoTozoni.one-piece-theme"
   version: "2.0.0"
-  installs: 8040
+  installs: 8061
   author: "Leonardo Tozoni"
   repo: "https://github.com/Leonardo-Tozoni/one-piece-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=LeonardoTozoni.one-piece-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 270
+  pair: null
   contrast:
     fg: 90.9
     black: 0

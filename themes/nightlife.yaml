@@ -2,7 +2,7 @@ name: "Nightlife"
 source:
   marketplace_id: "spacesick.nightlife-vscode-theme"
   version: "1.0.1"
-  installs: 797
+  installs: 798
   author: "Vincent Yovian"
   repo: "https://github.com/spacesick/nightlife-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=spacesick.nightlife-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 272
+  pair: null
   contrast:
     fg: 99.5
     black: 0

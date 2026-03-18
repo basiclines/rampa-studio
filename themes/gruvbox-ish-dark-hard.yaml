@@ -2,7 +2,7 @@ name: "Gruvbox ish Dark Hard"
 source:
   marketplace_id: "GracefulPotato.gruvbox-ish"
   version: "0.8.0"
-  installs: 14928
+  installs: 14935
   author: "GracefulPotato"
   repo: "https://github.com/graceful-potato/gruvbox-ish"
   url: "https://marketplace.visualstudio.com/items?itemName=GracefulPotato.gruvbox-ish"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 68.7
     black: 0

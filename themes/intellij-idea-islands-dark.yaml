@@ -2,7 +2,7 @@ name: "intellij-idea-islands-dark"
 source:
   marketplace_id: "OleksandrHavrysh.vscode-intellij-theme"
   version: "1.1.1"
-  installs: 2829
+  installs: 2852
   author: "Oleksandr Havrysh"
   repo: "https://github.com/a-havrysh/vscode-intellij-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=OleksandrHavrysh.vscode-intellij-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 66.1
     black: 0

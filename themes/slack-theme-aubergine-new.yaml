@@ -2,7 +2,7 @@ name: "Slack Theme Aubergine New"
 source:
   marketplace_id: "felipe-mendes.slack-theme"
   version: "1.9.17"
-  installs: 514450
+  installs: 514505
   author: "Felipe Mendes"
   repo: "https://github.com/felipemendes/slack-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=felipe-mendes.slack-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 96.2
     black: 106

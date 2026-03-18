@@ -2,7 +2,7 @@ name: "Tangere Dark"
 source:
   marketplace_id: "MihailDolghintev.tangere"
   version: "0.0.4"
-  installs: 47
+  installs: 48
   author: "Mihail Dolghintev"
   repo: "https://github.com/mihaildolghintev/tangere"
   url: "https://marketplace.visualstudio.com/items?itemName=MihailDolghintev.tangere"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 249
+  pair: "Tangere Light"
   contrast:
     fg: 101.6
     black: 0

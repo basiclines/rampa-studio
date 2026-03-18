@@ -2,7 +2,7 @@ name: "Midnight Rainbow"
 source:
   marketplace_id: "parallaxshiftdj.midnightrainbow"
   version: "1.0.11"
-  installs: 2334
+  installs: 2335
   author: "Parallax Shift"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=parallaxshiftdj.midnightrainbow"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 301
+  pair: null
   contrast:
     fg: 107.8
     black: 107.8

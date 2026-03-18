@@ -2,7 +2,7 @@ name: "Bright Colors Blue"
 source:
   marketplace_id: "nikhil2007.Bright-Color"
   version: "1.4.2"
-  installs: 17799
+  installs: 17810
   author: "Nikhil Nath Jha"
   repo: "https://github.com/jhanikhilnath/bright_colors_theme"
   url: "https://marketplace.visualstudio.com/items?itemName=nikhil2007.Bright-Color"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 242
+  pair: null
   contrast:
     fg: 102.1
     black: 0

@@ -2,7 +2,7 @@ name: "Pink Candy Dark Warm"
 source:
   marketplace_id: "kuba-p.theme-pink-candy"
   version: "1.6.0"
-  installs: 31744
+  installs: 31786
   author: "kuba_p"
   repo: "https://github.com/KubaP/vscode-pink-candy"
   url: "https://marketplace.visualstudio.com/items?itemName=kuba-p.theme-pink-candy"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 57.3
     black: 96.3

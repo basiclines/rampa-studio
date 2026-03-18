@@ -1,11 +1,11 @@
 name: "ppy-like"
 source:
-  marketplace_id: "reiisen.hi"
+  marketplace_id: "Fran4end.ppy-light"
   version: "0.0.1"
-  installs: 1297
-  author: "reiisen"
+  installs: 60
+  author: "Fran4end"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=reiisen.hi"
+  url: "https://marketplace.visualstudio.com/items?itemName=Fran4end.ppy-light"
 colors:
   bg: "#20202A"
   fg: "#D7D7FF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 285
+  pair: null
   contrast:
     fg: 82.1
     black: 0

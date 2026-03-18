@@ -2,7 +2,7 @@ name: "Fluffy Theme"
 source:
   marketplace_id: "ayakoSky.fluffy-theme"
   version: "0.0.10"
-  installs: 14342
+  installs: 14347
   author: "ayako"
   repo: "https://github.com/ayako02/fluffy-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ayakoSky.fluffy-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 37.1
     black: 98.7

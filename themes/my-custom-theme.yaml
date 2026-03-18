@@ -1,49 +1,50 @@
 name: "My Custom Theme"
 source:
-  marketplace_id: "GautamSagarMallela.my-custom-theme-extension"
-  version: "1.0.2"
-  installs: 219
-  author: "Gautam Sagar Mallela"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=GautamSagarMallela.my-custom-theme-extension"
+  marketplace_id: "daniel-duc.daniel-yaruna-theme"
+  version: "1.3.2"
+  installs: 255
+  author: "Daniel Duc"
+  repo: "https://github.com/binhduc1211/daniel-yaruna-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniel-duc.daniel-yaruna-theme"
 colors:
-  bg: "#1E1E1E"
-  fg: "#D4D4D4"
-  black: "#000000"
-  red: "#FF0000"
-  green: "#00FF00"
-  yellow: "#FFFF00"
-  blue: "#0000FF"
-  magenta: "#FF00FF"
-  cyan: "#00FFFF"
-  white: "#D4D4D4"
-  brightBlack: "#666666"
-  brightRed: "#FF6666"
-  brightGreen: "#66FF66"
-  brightYellow: "#FFFF66"
-  brightBlue: "#6666FF"
-  brightMagenta: "#FF66FF"
-  brightCyan: "#66FFFF"
-  brightWhite: "#D4D4D4"
+  bg: "#2E3440"
+  fg: "#E5E9F0"
+  black: "#373D49"
+  red: "#EBCB8B"
+  green: "#A3BE8C"
+  yellow: "#8FBCBB"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#C7CBD2"
+  white: "#E5E9F0"
+  brightBlack: "#616E88"
+  brightRed: "#EBCB8B"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#88C0D0"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#C7CBD2"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "pink"
-  hue: null
+  accent: "yellow"
+  hue: 264
+  pair: null
   contrast:
-    fg: 78.7
+    fg: 87.3
     black: 0
-    red: 35.7
-    green: 84.6
-    yellow: 100.9
-    blue: 14.4
-    magenta: 44.4
-    cyan: 90.3
-    white: 78.7
-    brightBlack: 21.2
-    brightRed: 46.1
-    brightGreen: 87.2
-    brightYellow: 101.4
-    brightBlue: 30.7
-    brightMagenta: 53
-    brightCyan: 92.2
-    brightWhite: 78.7
+    red: 71.3
+    green: 56.6
+    yellow: 55.5
+    blue: 43.6
+    magenta: 41.4
+    cyan: 68.8
+    white: 87.3
+    brightBlack: 20.3
+    brightRed: 71.3
+    brightGreen: 56.6
+    brightYellow: 71.3
+    brightBlue: 57.6
+    brightMagenta: 41.4
+    brightCyan: 68.8
+    brightWhite: 101.8

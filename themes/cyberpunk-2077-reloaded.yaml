@@ -2,7 +2,7 @@ name: "Cyberpunk 2077 Reloaded"
 source:
   marketplace_id: "andre-s-nascimento.cyberpunk-reloaded-theme"
   version: "1.0.3"
-  installs: 2791
+  installs: 2792
   author: "André Soares Nascimento"
   repo: "https://github.com/andre-s-nascimento/cyberpunk-reloaded-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=andre-s-nascimento.cyberpunk-reloaded-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 275
+  pair: null
   contrast:
     fg: 93.9
     black: 0

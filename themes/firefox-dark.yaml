@@ -2,7 +2,7 @@ name: "Firefox Dark"
 source:
   marketplace_id: "shaobeichen.gradient-theme"
   version: "1.19.0"
-  installs: 24126
+  installs: 24140
   author: "shaobeichen"
   repo: "https://github.com/shaobeichen/gradient-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=shaobeichen.gradient-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 56.3
     black: 0

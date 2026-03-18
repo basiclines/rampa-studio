@@ -2,7 +2,7 @@ name: "Tokyo Night Void"
 source:
   marketplace_id: "SatoruCode.tokyo-night-void"
   version: "0.0.1"
-  installs: 418
+  installs: 419
   author: "Satoru Code"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=SatoruCode.tokyo-night-void"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 60.9
     black: 0

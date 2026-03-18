@@ -1,11 +1,11 @@
 name: "onedark.nvim"
 source:
-  marketplace_id: "nanndo.nanndo-onedark"
-  version: "1.0.0"
-  installs: 51
-  author: "nanndo"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=nanndo.nanndo-onedark"
+  marketplace_id: "bartoszmaka95.onedark"
+  version: "0.2.1"
+  installs: 8582
+  author: "bartoszmaka95"
+  repo: "https://github.com/bartoszmaka/vscode-onedark"
+  url: "https://marketplace.visualstudio.com/items?itemName=bartoszmaka95.onedark"
 colors:
   bg: "#1A212E"
   fg: "#ABB2BF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 263
+  pair: null
   contrast:
     fg: 58.1
     black: 7.6

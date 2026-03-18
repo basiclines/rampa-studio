@@ -2,7 +2,7 @@ name: "CyberTrauma's Dark Theme"
 source:
   marketplace_id: "CyberTrauma.cybertrauma-s-dark-theme"
   version: "0.1.11"
-  installs: 2108
+  installs: 2109
   author: "CyberTrauma"
   repo: "https://github.com/siddarthreddygsr/CyberTrauma-Dark-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=CyberTrauma.cybertrauma-s-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 78
     black: 0

@@ -2,7 +2,7 @@ name: "MECHA.01"
 source:
   marketplace_id: "Bytemore.mecha-01"
   version: "0.12.0"
-  installs: 3197
+  installs: 3199
   author: "Bytemore"
   repo: "https://github.com/gianmazzoran/mecha-01"
   url: "https://marketplace.visualstudio.com/items?itemName=Bytemore.mecha-01"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 289
+  pair: null
   contrast:
     fg: 78.8
     black: 0

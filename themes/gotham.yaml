@@ -1,11 +1,11 @@
 name: "Gotham"
 source:
-  marketplace_id: "jach.gotham-theme"
-  version: "0.1.3"
-  installs: 3895
-  author: "Michael Jach"
+  marketplace_id: "MichalJach.gotham"
+  version: "0.1.2"
+  installs: 2296
+  author: "Michal Jach"
   repo: "https://github.com/michaljach/gotham-vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=jach.gotham-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MichalJach.gotham"
 colors:
   bg: "#000000"
   fg: "#D7DAE1"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 84.1
     black: 0

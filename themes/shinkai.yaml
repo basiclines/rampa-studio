@@ -2,7 +2,7 @@ name: "Shinkai"
 source:
   marketplace_id: "TobiasTimm.umi"
   version: "1.1.2"
-  installs: 2886
+  installs: 2887
   author: "Tobias Timm"
   repo: "https://github.com/tobiastimm/umi"
   url: "https://marketplace.visualstudio.com/items?itemName=TobiasTimm.umi"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 258
+  pair: null
   contrast:
     fg: 79.8
     black: 30.8

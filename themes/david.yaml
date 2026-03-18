@@ -2,7 +2,7 @@ name: "david"
 source:
   marketplace_id: "batdavid70.david"
   version: "0.0.1"
-  installs: 233
+  installs: 234
   author: "batdavid70"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=batdavid70.david"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 80.2
     black: 0

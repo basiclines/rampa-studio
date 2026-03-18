@@ -1,11 +1,11 @@
 name: "dark.codely-theme"
 source:
-  marketplace_id: "codely.dark-codely-theme"
+  marketplace_id: "codely.codely-theme"
   version: "0.0.1"
-  installs: 39
+  installs: 23888
   author: "Codely"
   repo: "https://github.com/CodelyTV/vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=codely.dark-codely-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=codely.codely-theme"
 colors:
   bg: "#1E1E1E"
   fg: "#EBDBB2"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 83.6
     black: 0

@@ -2,7 +2,7 @@ name: "Satu"
 source:
   marketplace_id: "Docutheme.docutheme"
   version: "0.0.2"
-  installs: 61
+  installs: 62
   author: "Docutheme"
   repo: "https://github.com/feanra/docutheme"
   url: "https://marketplace.visualstudio.com/items?itemName=Docutheme.docutheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 285
+  pair: null
   contrast:
     fg: 78
     black: 0

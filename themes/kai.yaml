@@ -2,7 +2,7 @@ name: "Kai"
 source:
   marketplace_id: "igordvlpr.kai-theme"
   version: "1.0.4"
-  installs: 1612
+  installs: 1614
   author: "Igor Dimitrijević"
   repo: "https://github.com/igorskyflyer/vscode-theme-kai"
   url: "https://marketplace.visualstudio.com/items?itemName=igordvlpr.kai-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 284
+  pair: null
   contrast:
     fg: 80.2
     black: 0

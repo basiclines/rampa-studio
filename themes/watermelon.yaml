@@ -2,7 +2,7 @@ name: "Watermelon"
 source:
   marketplace_id: "mlkywy.watermelon-theme"
   version: "0.3.0"
-  installs: 2753
+  installs: 2754
   author: "mlkywy"
   repo: "https://github.com/alshei/vscode-watermelon"
   url: "https://marketplace.visualstudio.com/items?itemName=mlkywy.watermelon-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 87.2
     black: 0

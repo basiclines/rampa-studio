@@ -1,11 +1,11 @@
 name: "Yet Another Solarized Theme (Light)"
 source:
-  marketplace_id: "JulianSchelb.yet-another-solarized-theme"
-  version: "1.0.5"
-  installs: 2704
-  author: "Julian Schelb"
-  repo: "https://github.com/julianschelb/vscode-theme-solarized"
-  url: "https://marketplace.visualstudio.com/items?itemName=JulianSchelb.yet-another-solarized-theme"
+  marketplace_id: "beigeowl.wrapped-owl"
+  version: "1.1.0"
+  installs: 885
+  author: "beigeowl"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=beigeowl.wrapped-owl"
 colors:
   bg: "#F9F6EF"
   fg: "#193F49"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 90.8
     black: 100.8

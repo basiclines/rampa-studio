@@ -1,11 +1,11 @@
 name: "eye-care"
 source:
-  marketplace_id: "NazmusSayad.onnokicu"
-  version: "2.4.12"
-  installs: 561
+  marketplace_id: "NazmusSayad.one-eye-care"
+  version: "1.0.0"
+  installs: 648
   author: "Nazmus Sayad"
   repo: "git+github.com:nazmussayad/vscode-theme.onnokicu--"
-  url: "https://marketplace.visualstudio.com/items?itemName=NazmusSayad.onnokicu"
+  url: "https://marketplace.visualstudio.com/items?itemName=NazmusSayad.one-eye-care"
 colors:
   bg: "#21252C"
   fg: "#ABB2BF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 262
+  pair: null
   contrast:
     fg: 57.5
     black: 10.9

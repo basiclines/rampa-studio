@@ -2,7 +2,7 @@ name: "Noir Poimandres Darker"
 source:
   marketplace_id: "andrewberty.noir-theme-bundle"
   version: "1.7.0"
-  installs: 13968
+  installs: 13972
   author: "andrewberty"
   repo: "https://github.com/andrew-george/Noir-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=andrewberty.noir-theme-bundle"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 278
+  pair: null
   contrast:
     fg: 57.7
     black: 0

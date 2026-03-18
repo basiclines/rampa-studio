@@ -2,7 +2,7 @@ name: "Nier: Automata Theme"
 source:
   marketplace_id: "israelyagopereira.nier-automata-theme"
   version: "0.0.4"
-  installs: 2275
+  installs: 2277
   author: "Israel Yago Pereira"
   repo: "https://github.com/israelyago/nier-automata-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=israelyagopereira.nier-automata-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: 88
+  pair: null
   contrast:
     fg: 76.8
     black: 76

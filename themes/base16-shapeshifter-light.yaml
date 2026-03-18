@@ -2,7 +2,7 @@ name: "Base16 Shapeshifter Light"
 source:
   marketplace_id: "AndrsDC.base16-themes"
   version: "1.4.5"
-  installs: 159085
+  installs: 159110
   author: "AndrsDC"
   repo: "https://github.com/AndrsDC/base16-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: "Base16 Shapeshifter Dark"
   contrast:
     fg: 100.2
     black: 41.7

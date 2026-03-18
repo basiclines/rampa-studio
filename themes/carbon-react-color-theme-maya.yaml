@@ -2,7 +2,7 @@ name: "Carbon React Color Theme - Maya"
 source:
   marketplace_id: "yathink3.carbon-react-color-theme"
   version: "1.4.5"
-  installs: 6737
+  installs: 6741
   author: "yathink3"
   repo: "https://github.com/yathink3/carbon-react-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=yathink3.carbon-react-color-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 270
+  pair: null
   contrast:
     fg: 65.5
     black: 0

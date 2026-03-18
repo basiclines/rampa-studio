@@ -2,7 +2,7 @@ name: "darcula-solid-color-theme"
 source:
   marketplace_id: "jussiemion.darcula-solid"
   version: "1.2.1"
-  installs: 3515
+  installs: 3516
   author: "jussiemion"
   repo: "https://github.com/jussiemion/darcula-solid"
   url: "https://marketplace.visualstudio.com/items?itemName=jussiemion.darcula-solid"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 74.6
     black: 0

@@ -2,7 +2,7 @@ name: "Blueberry Theme"
 source:
   marketplace_id: "sylten.strawberry-theme"
   version: "1.0.5"
-  installs: 8896
+  installs: 8899
   author: "Jonas Siltamäki Håkansson"
   repo: "https://github.com/sylten/strawberry-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sylten.strawberry-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 229
+  pair: null
   contrast:
     fg: 76.6
     black: 34.3

@@ -1,49 +1,50 @@
 name: "Kanao"
 source:
-  marketplace_id: "MuhammadHanif.narato"
+  marketplace_id: "BayuSetiawan.kanao"
   version: "1.4.0"
-  installs: 439
-  author: "Muhammad Hanif"
-  repo: "https://github.com/mhaniflab/narato"
-  url: "https://marketplace.visualstudio.com/items?itemName=MuhammadHanif.narato"
+  installs: 1890
+  author: "Bayu Setiawan"
+  repo: "https://github.com/Bayusetiawan45/kanao"
+  url: "https://marketplace.visualstudio.com/items?itemName=BayuSetiawan.kanao"
 colors:
-  bg: "#191919"
-  fg: "#F5E8C7"
-  black: "#191919"
+  bg: "#F5EEE6"
+  fg: "#776B5D"
+  black: "#F5EEE6"
   red: "#E82424"
-  green: "#323232"
+  green: "#76946A"
   yellow: "#FF9E3B"
-  blue: "#E6A4B4"
-  magenta: "#FFD369"
-  cyan: "#F5E8C7"
-  white: "#F5E8C7"
-  brightBlack: "#0F0F0F"
+  blue: "#EEC759"
+  magenta: "#AC7D88"
+  cyan: "#776B5D"
+  white: "#776B5D"
+  brightBlack: "#F4DFC8"
   brightRed: "#FF5D62"
   brightGreen: "#98BB6C"
-  brightYellow: "#EEEEEE"
+  brightYellow: "#65647C"
   brightBlue: "#7FB4CA"
-  brightMagenta: "#F5E8C7"
+  brightMagenta: "#D27E99"
   brightCyan: "#A3D4D5"
-  brightWhite: "#F5E8C7"
+  brightWhite: "#776B5D"
 meta:
-  mode: "dark"
+  mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
-    fg: 92.2
+    fg: 66.2
     black: 0
-    red: 31.6
-    green: 0
-    yellow: 61.3
-    blue: 61.7
-    magenta: 82
-    cyan: 92.2
-    white: 92.2
+    red: 59.3
+    green: 51.7
+    yellow: 30.2
+    blue: 18.2
+    magenta: 52.7
+    cyan: 66.2
+    white: 66.2
     brightBlack: 0
-    brightRed: 44.8
-    brightGreen: 58.3
-    brightYellow: 95.5
-    brightBlue: 56.4
-    brightMagenta: 92.2
-    brightCyan: 73.9
-    brightWhite: 92.2
+    brightRed: 46.2
+    brightGreen: 33.2
+    brightYellow: 69.1
+    brightBlue: 35
+    brightMagenta: 45.9
+    brightCyan: 18.3
+    brightWhite: 66.2

@@ -2,7 +2,7 @@ name: "Lavanda"
 source:
   marketplace_id: "TheodorLundin.lavanda-color-theme"
   version: "1.1.0"
-  installs: 137
+  installs: 138
   author: "Theodor Lundin"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=TheodorLundin.lavanda-color-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 275
+  pair: null
   contrast:
     fg: 54.6
     black: 0

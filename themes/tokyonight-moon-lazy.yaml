@@ -2,7 +2,7 @@ name: "TokyoNight Moon (Lazy)"
 source:
   marketplace_id: "gyro-uyt.lazy-themes"
   version: "0.1.5"
-  installs: 17
+  installs: 18
   author: "Uday Thakur"
   repo: "https://github.com/gyro-uyt/lazy-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=gyro-uyt.lazy-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 279
+  pair: null
   contrast:
     fg: 77.2
     black: 0

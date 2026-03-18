@@ -2,7 +2,7 @@ name: "Barbie Light"
 source:
   marketplace_id: "LuanKisaki.barbie-light-theme"
   version: "1.0.0"
-  installs: 3028
+  installs: 3038
   author: "Luan Kisaki"
   repo: "https://github.com/LuanKisaki/barbie-light-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=LuanKisaki.barbie-light-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 89.7
     black: 100.9

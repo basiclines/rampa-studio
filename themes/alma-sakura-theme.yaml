@@ -2,7 +2,7 @@ name: "Alma Sakura Theme"
 source:
   marketplace_id: "hoshinokanade.alma-sakura"
   version: "0.1.2"
-  installs: 9216
+  installs: 9217
   author: "hoshinokanade"
   repo: "https://github.com/as-alma/Alma-Sakura"
   url: "https://marketplace.visualstudio.com/items?itemName=hoshinokanade.alma-sakura"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 65.1
     black: 0

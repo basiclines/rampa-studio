@@ -2,7 +2,7 @@ name: "Hadar"
 source:
   marketplace_id: "cristianvasquez.hadar-theme"
   version: "1.0.0"
-  installs: 48
+  installs: 49
   author: "Cristian Vásquez"
   repo: "https://github.com/cristianvasquezc/hadar-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=cristianvasquez.hadar-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 258
+  pair: null
   contrast:
     fg: 56.1
     black: 0

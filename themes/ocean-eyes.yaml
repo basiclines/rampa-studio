@@ -2,7 +2,7 @@ name: "Ocean Eyes"
 source:
   marketplace_id: "SethCox.ocean-eyes"
   version: "0.0.8"
-  installs: 5213
+  installs: 5214
   author: "Seth Cox"
   repo: "https://github.com/sethaddison/ocean-eyes-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=SethCox.ocean-eyes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 249
+  pair: null
   contrast:
     fg: 102.4
     black: 7.8

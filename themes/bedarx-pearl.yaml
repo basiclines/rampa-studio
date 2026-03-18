@@ -2,7 +2,7 @@ name: "BedarX Pearl"
 source:
   marketplace_id: "saqibbedar.bedarx-pro"
   version: "2.0.0"
-  installs: 136
+  installs: 137
   author: "saqibbedar"
   repo: "https://github.com/saqibbedar/BedarX-Pro"
   url: "https://marketplace.visualstudio.com/items?itemName=saqibbedar.bedarx-pro"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 96.7
     black: 96.7

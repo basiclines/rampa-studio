@@ -2,7 +2,7 @@ name: "Night Rainbow"
 source:
   marketplace_id: "allan-carlos.night-rainbow"
   version: "3.0.0"
-  installs: 10393
+  installs: 10397
   author: "Allan Carlos"
   repo: "https://github.com/this-is-allan/night-rainbow-dark-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=allan-carlos.night-rainbow"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 87.3
     black: 0

@@ -1,11 +1,11 @@
 name: "Doom One"
 source:
-  marketplace_id: "NTBBloodbath.doom-one"
+  marketplace_id: "L-Nafaryus.doom-one-theme"
   version: "0.1.1"
-  installs: 8955
-  author: "NTBBloodbath"
-  repo: "https://github.com/NTBBloodbath/doom-one-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=NTBBloodbath.doom-one"
+  installs: 2628
+  author: "L-Nafaryus"
+  repo: "https://github.com/L-Nafaryus/doom-one-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=L-Nafaryus.doom-one-theme"
 colors:
   bg: "#282C34"
   fg: "#BBC2CF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: null
   contrast:
     fg: 65.3
     black: 0

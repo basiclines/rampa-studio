@@ -2,7 +2,7 @@ name: "monokai-prime"
 source:
   marketplace_id: "nhoekstra.monokai-prime"
   version: "0.0.2"
-  installs: 681
+  installs: 682
   author: "Nicholas Hoekstra"
   repo: "https://github.com/nhoekstra/monokai-prime"
   url: "https://marketplace.visualstudio.com/items?itemName=nhoekstra.monokai-prime"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 101.1
     black: 0

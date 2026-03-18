@@ -2,7 +2,7 @@ name: "Colorizer"
 source:
   marketplace_id: "MohammedShalabi.colorizer"
   version: "0.0.2"
-  installs: 12128
+  installs: 12129
   author: "Mohammed Shalabi"
   repo: "https://github.com/M-Shalabi/Colorizer"
   url: "https://marketplace.visualstudio.com/items?itemName=MohammedShalabi.colorizer"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 262
+  pair: null
   contrast:
     fg: 71.8
     black: 0

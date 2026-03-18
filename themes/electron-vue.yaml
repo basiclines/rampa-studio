@@ -1,11 +1,11 @@
 name: "Electron vue"
 source:
-  marketplace_id: "icao.electron-vue"
-  version: "3.2.0"
-  installs: 49016
-  author: "icao"
-  repo: "https://github.com/icao/electron-vue"
-  url: "https://marketplace.visualstudio.com/items?itemName=icao.electron-vue"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#1B202C"
   fg: "#BAC7E4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 267
+  pair: null
   contrast:
     fg: 70.4
     black: 0

@@ -2,7 +2,7 @@ name: "August - City Lights (Darker)"
 source:
   marketplace_id: "inci-august.august-themes"
   version: "2.8.0"
-  installs: 146390
+  installs: 146457
   author: "inci-august"
   repo: "https://github.com/inci-august/august-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 248
+  pair: null
   contrast:
     fg: 41.9
     black: 12.1

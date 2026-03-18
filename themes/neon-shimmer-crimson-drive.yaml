@@ -2,7 +2,7 @@ name: "Neon Shimmer (Crimson Drive)"
 source:
   marketplace_id: "piperunner.neon-shimmer"
   version: "1.2.0"
-  installs: 16855
+  installs: 16857
   author: "Pipe Runner"
   repo: "https://github.com/Pipe-Runner-Lab/neon-shimmer"
   url: "https://marketplace.visualstudio.com/items?itemName=piperunner.neon-shimmer"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 2
+  pair: null
   contrast:
     fg: 74.1
     black: 0

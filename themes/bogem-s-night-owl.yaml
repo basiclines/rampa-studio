@@ -2,7 +2,7 @@ name: "Bogem's Night Owl"
 source:
   marketplace_id: "bogem.bogems-night-owl"
   version: "1.2.0"
-  installs: 18234
+  installs: 18240
   author: "Albert Nigmatzianov"
   repo: "https://github.com/bogem/bogems-night-owl-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=bogem.bogems-night-owl"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 244
+  pair: null
   contrast:
     fg: 83.2
     black: 0

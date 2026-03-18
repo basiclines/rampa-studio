@@ -1,11 +1,11 @@
 name: "ZemarColorTheme"
 source:
-  marketplace_id: "ZColorTheme.ZColorThemeV2"
+  marketplace_id: "ZColorTheme.ct"
   version: "0.0.1"
-  installs: 1803
+  installs: 106
   author: "ZColorTheme"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=ZColorTheme.ZColorThemeV2"
+  repo: "https://github.com/ZacZemar/ZColorTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ZColorTheme.ct"
 colors:
   bg: "#080E21"
   fg: "#00CFFF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 268
+  pair: null
   contrast:
     fg: 68.2
     black: 0

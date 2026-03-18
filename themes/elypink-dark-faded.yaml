@@ -2,7 +2,7 @@ name: "Elypink Dark (Faded)"
 source:
   marketplace_id: "barineco.elypink-theme"
   version: "0.6.0"
-  installs: 37
+  installs: 38
   author: "barineco"
   repo: "https://github.com/barineco/elypink-theme-vsc"
   url: "https://marketplace.visualstudio.com/items?itemName=barineco.elypink-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: "Elypink Light (Faded)"
   contrast:
     fg: 50.4
     black: 0

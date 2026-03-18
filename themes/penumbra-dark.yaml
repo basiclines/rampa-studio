@@ -2,7 +2,7 @@ name: "Penumbra Dark"
 source:
   marketplace_id: "PenumbraTheme.penumbra"
   version: "0.4.0"
-  installs: 11879
+  installs: 11883
   author: "Penumbra Theme"
   repo: "https://github.com/nealmckee/penumbra_vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=PenumbraTheme.penumbra"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: "Penumbra Light"
   contrast:
     fg: 36.3
     black: 0

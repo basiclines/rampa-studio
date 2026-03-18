@@ -2,7 +2,7 @@ name: "Lyra's Vega"
 source:
   marketplace_id: "Mubariz.a-pastel-fever-dream"
   version: "1.0.1"
-  installs: 4448
+  installs: 4449
   author: "Mubariz"
   repo: "https://github.com/Cyna298/a-pastel-fever-dream"
   url: "https://marketplace.visualstudio.com/items?itemName=Mubariz.a-pastel-fever-dream"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 65.6
     black: 0

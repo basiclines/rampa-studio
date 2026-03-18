@@ -2,7 +2,7 @@ name: "Kanso Pearl"
 source:
   marketplace_id: "Webhooked.kanso-theme"
   version: "0.2.3"
-  installs: 3026
+  installs: 3037
   author: "Webhooked"
   repo: "https://github.com/webhooked/kanso-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Webhooked.kanso-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 93.8
     black: 95

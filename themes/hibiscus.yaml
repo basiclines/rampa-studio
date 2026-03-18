@@ -1,11 +1,11 @@
 name: "Hibiscus"
 source:
-  marketplace_id: "colinlienard.hibiscus-theme"
-  version: "0.3.1"
-  installs: 1246
-  author: "Colin Lienard"
-  repo: "https://github.com/colinlienard/hibiscus-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=colinlienard.hibiscus-theme"
+  marketplace_id: "Sarfaraz.Bahej"
+  version: "1.0.1"
+  installs: 102
+  author: "Sarfaraz"
+  repo: "https://github.com/Muhammad-Sarfaraz/Bahej"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sarfaraz.Bahej"
 colors:
   bg: "#1F1F1F"
   fg: "#9FABB1"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 53.7
     black: 0

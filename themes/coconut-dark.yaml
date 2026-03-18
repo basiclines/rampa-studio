@@ -1,8 +1,8 @@
-name: "coconut dark"
+name: "coconut dark+"
 source:
   marketplace_id: "coconut.coconut-vscode-theme"
   version: "0.0.4"
-  installs: 226
+  installs: 227
   author: "coconut"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=coconut.coconut-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 80
     black: 0

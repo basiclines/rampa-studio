@@ -2,7 +2,7 @@ name: "base-color-theme"
 source:
   marketplace_id: "electricduck.elementary-theme"
   version: "1.51.2"
-  installs: 4186
+  installs: 4187
   author: "Ducky"
   repo: "https://github.com/electricduck/vscode-elementary-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=electricduck.elementary-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 105.4
     black: 99

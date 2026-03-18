@@ -2,7 +2,7 @@ name: "lunar vscode"
 source:
   marketplace_id: "JuniorSchmidt.lunar-vscode-theme"
   version: "1.0.8"
-  installs: 4284
+  installs: 4286
   author: "Junior Schmidt"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=JuniorSchmidt.lunar-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 280
+  pair: null
   contrast:
     fg: 63.7
     black: 0

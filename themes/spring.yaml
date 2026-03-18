@@ -2,7 +2,7 @@ name: "Spring"
 source:
   marketplace_id: "malinatrash.spring"
   version: "0.0.2"
-  installs: 132
+  installs: 144
   author: "malinatrash"
   repo: "https://github.com/malinatrash/spring"
   url: "https://marketplace.visualstudio.com/items?itemName=malinatrash.spring"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 85.5
     black: 0

@@ -2,7 +2,7 @@ name: "Netlify Theme"
 source:
   marketplace_id: "ohheyjosh.netlify-vscode-theme"
   version: "1.2.4"
-  installs: 522
+  installs: 523
   author: "ohheyjosh"
   repo: "https://github.com/ohheyjosh/netlify-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ohheyjosh.netlify-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 220
+  pair: null
   contrast:
     fg: 102.7
     black: 0

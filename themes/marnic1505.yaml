@@ -2,7 +2,7 @@ name: "Marnic1505"
 source:
   marketplace_id: "Marnic1505.more-colorful"
   version: "0.0.1"
-  installs: 759
+  installs: 760
   author: "Marnic1505"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Marnic1505.more-colorful"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 91.6
     black: 0

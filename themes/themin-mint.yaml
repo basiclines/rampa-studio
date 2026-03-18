@@ -2,7 +2,7 @@ name: "Themin - Mint"
 source:
   marketplace_id: "Homerotto.themin"
   version: "3.0.1"
-  installs: 2229
+  installs: 2230
   author: "Homerotto"
   repo: "https://github.com/FredMSJ/themin"
   url: "https://marketplace.visualstudio.com/items?itemName=Homerotto.themin"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: null
+  pair: null
   contrast:
     fg: 87.7
     black: 0

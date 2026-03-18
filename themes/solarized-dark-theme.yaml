@@ -2,7 +2,7 @@ name: "Solarized Dark Theme"
 source:
   marketplace_id: "mjlaufer.vscode-themes"
   version: "0.1.0"
-  installs: 1787
+  installs: 1788
   author: "mjlaufer"
   repo: "https://github.com/mjlaufer/vscode-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=mjlaufer.vscode-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 65.7
     black: 0

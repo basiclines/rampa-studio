@@ -2,7 +2,7 @@ name: "Tara-Theme-Ocean"
 source:
   marketplace_id: "Taraldinn.nishuuu-themes"
   version: "4.2.0"
-  installs: 547
+  installs: 548
   author: "Taraldinn"
   repo: "https://github.com/nishuuu/nishuuu-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=Taraldinn.nishuuu-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 275
+  pair: null
   contrast:
     fg: 78.6
     black: 0

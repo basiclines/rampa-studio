@@ -2,7 +2,7 @@ name: "Terafox"
 source:
   marketplace_id: "keifererikson.nightfox"
   version: "0.0.14"
-  installs: 17378
+  installs: 17385
   author: "Keifer Erikson"
   repo: "https://github.com/keifererikson/vscode-nightfox"
   url: "https://marketplace.visualstudio.com/items?itemName=keifererikson.nightfox"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 211
+  pair: null
   contrast:
     fg: 74.3
     black: 0

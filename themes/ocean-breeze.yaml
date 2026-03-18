@@ -1,11 +1,11 @@
 name: "Ocean Breeze"
 source:
-  marketplace_id: "nhcarrigan.ocean-breeze"
-  version: "1.1.1"
-  installs: 28
+  marketplace_id: "nhcarrigan.naomis-themes"
+  version: "2.3.0"
+  installs: 68
   author: "NHCarrigan"
-  repo: "https://codeberg.org/nhcarrigan/ocean-breeze"
-  url: "https://marketplace.visualstudio.com/items?itemName=nhcarrigan.ocean-breeze"
+  repo: "https://git.nhcarrigan.com/nhcarrigan/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=nhcarrigan.naomis-themes"
 colors:
   bg: "#012A22"
   fg: "#ABFCEC"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 176
+  pair: null
   contrast:
     fg: 93
     black: 0

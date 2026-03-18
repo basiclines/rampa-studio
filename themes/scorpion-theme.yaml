@@ -2,7 +2,7 @@ name: "Scorpion Theme"
 source:
   marketplace_id: "TudorAlexandru.scorpion"
   version: "1.0.6"
-  installs: 2416
+  installs: 2417
   author: "Tudor Alexandru"
   repo: "https://github.com/tudorale/scorpion-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=TudorAlexandru.scorpion"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 271
+  pair: null
   contrast:
     fg: 103.4
     black: 0

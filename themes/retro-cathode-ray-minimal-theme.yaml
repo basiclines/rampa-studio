@@ -2,7 +2,7 @@ name: "Retro Cathode-Ray Minimal Theme"
 source:
   marketplace_id: "xXBalestraroXx.wired-reality-theme"
   version: "1.0.0"
-  installs: 240
+  installs: 241
   author: "xXBalestraroXx"
   repo: "https://github.com/xxbalestraroxx/WiredRealityTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=xXBalestraroXx.wired-reality-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 76.5
     black: 0

@@ -1,11 +1,11 @@
 name: "Ghibli Forest (Dark)"
 source:
-  marketplace_id: "SecureDev01.vscode-multi-themes"
-  version: "0.0.51"
-  installs: 1834
-  author: "SecureDev"
-  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+  marketplace_id: "danibram.ghibli-inspired-theme"
+  version: "1.0.0"
+  installs: 274
+  author: "Daniel Biedma"
+  repo: "https://github.com/danibram/ghibli-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=danibram.ghibli-inspired-theme"
 colors:
   bg: "#1E2A24"
   fg: "#E8DFD0"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: 163
+  pair: null
   contrast:
     fg: 84.5
     black: 0

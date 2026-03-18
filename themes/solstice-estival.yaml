@@ -1,11 +1,11 @@
 name: "Solstice Estival"
 source:
-  marketplace_id: "SecureDev01.vscode-multi-themes"
-  version: "0.0.51"
-  installs: 1834
-  author: "SecureDev"
-  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+  marketplace_id: "kev1nweng.solstice"
+  version: "0.4.2"
+  installs: 38
+  author: "小翁同学"
+  repo: "https://github.com/kev1nweng/solstice"
+  url: "https://marketplace.visualstudio.com/items?itemName=kev1nweng.solstice"
 colors:
   bg: "#F0EEE7"
   fg: "#1B3C3C"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 87.1
     black: 88.9

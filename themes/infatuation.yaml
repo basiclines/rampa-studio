@@ -1,49 +1,50 @@
 name: "Infatuation"
 source:
-  marketplace_id: "PixelsInTheSky.infatuation"
-  version: "0.1.0"
-  installs: 9174
-  author: "PixelsInTheSky"
-  repo: "https://github.com/Seytani/Infatuation-VS-Code-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=PixelsInTheSky.infatuation"
+  marketplace_id: "yuna495.pinklily"
+  version: "1.0.6"
+  installs: 114
+  author: "yuna495"
+  repo: "https://github.com/yuna495/PinkLily"
+  url: "https://marketplace.visualstudio.com/items?itemName=yuna495.pinklily"
 colors:
-  bg: "#2A2A2C"
-  fg: "#E3E3E3"
+  bg: "#080808"
+  fg: "#FD9BCC"
   black: "#000000"
   red: "#E73752"
-  green: "#ADFFA6"
-  yellow: "#FFE7AF"
-  blue: "#BB57FF"
-  magenta: "#46D2E8"
-  cyan: "#FF59A0"
-  white: "#FFFFFF"
-  brightBlack: "#666666"
-  brightRed: "#E41535"
-  brightGreen: "#70DE66"
-  brightYellow: "#F7D380"
-  brightBlue: "#CA7DFF"
-  brightMagenta: "#0ABAFF"
-  brightCyan: "#FFA3CA"
+  green: "#00C060"
+  yellow: "#F7D380"
+  blue: "#505DF0"
+  magenta: "#C010A0"
+  cyan: "#46D2E8"
+  white: "#FD9BCC"
+  brightBlack: "#808080"
+  brightRed: "#FF5570"
+  brightGreen: "#11FF84"
+  brightYellow: "#FFE090"
+  brightBlue: "#7580FF"
+  brightMagenta: "#FF14E0"
+  brightCyan: "#80E5F2"
   brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "magenta"
+  accent: "pink"
   hue: null
+  pair: null
   contrast:
-    fg: 85.9
+    fg: 64.9
     black: 0
-    red: 30.8
-    green: 91.2
-    yellow: 89.8
-    blue: 35.5
-    magenta: 65.6
-    cyan: 43.3
-    white: 104
-    brightBlack: 19.2
-    brightRed: 27.5
-    brightGreen: 68.7
-    brightYellow: 78.5
-    brightBlue: 46.6
-    brightMagenta: 55.4
-    brightCyan: 64
-    brightWhite: 104
+    red: 34.6
+    green: 55.2
+    yellow: 82.3
+    blue: 27.4
+    magenta: 26.3
+    cyan: 69.4
+    white: 64.9
+    brightBlack: 34.7
+    brightRed: 44.9
+    brightGreen: 87.6
+    brightYellow: 89.6
+    brightBlue: 41.1
+    brightMagenta: 44.1
+    brightCyan: 81.6
+    brightWhite: 107.8

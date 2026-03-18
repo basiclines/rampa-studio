@@ -2,7 +2,7 @@ name: "Polykai"
 source:
   marketplace_id: "adamgraham.polykai-theme"
   version: "1.0.1"
-  installs: 16964
+  installs: 16966
   author: "Adam Graham"
   repo: "https://github.com/adamgraham/polykai-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=adamgraham.polykai-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 102.2
     black: 41.6

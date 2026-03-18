@@ -2,7 +2,7 @@ name: "Tokyo (Light)"
 source:
   marketplace_id: "akil-s.tokyo-light"
   version: "0.0.4"
-  installs: 7302
+  installs: 7308
   author: "akil-s"
   repo: "https://github.com/Salah-Akil/tokyo-vscode-light"
   url: "https://marketplace.visualstudio.com/items?itemName=akil-s.tokyo-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 101.5
     black: 102.2

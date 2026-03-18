@@ -2,7 +2,7 @@ name: "Moon Purple"
 source:
   marketplace_id: "Imagineee.moon-purple"
   version: "1.0.3"
-  installs: 12906
+  installs: 12916
   author: "Imagineee"
   repo: "https://github.com/imagineeeinc/Moon-Purple"
   url: "https://marketplace.visualstudio.com/items?itemName=Imagineee.moon-purple"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 312
+  pair: null
   contrast:
     fg: 107.8
     black: 0

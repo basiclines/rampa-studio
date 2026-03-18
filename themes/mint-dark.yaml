@@ -2,7 +2,7 @@ name: "Mint Dark"
 source:
   marketplace_id: "marcbruederlin.mint-theme"
   version: "0.1.2"
-  installs: 9168
+  installs: 9169
   author: "Marc Brüderlin"
   repo: "https://github.com/marcbruederlin/vscode-mint-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=marcbruederlin.mint-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 107.8
     black: 0

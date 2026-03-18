@@ -2,7 +2,7 @@ name: "Wuthering Waves : Scar (Dark)"
 source:
   marketplace_id: "frostmoon-dev.wuwa-themes"
   version: "1.0.7"
-  installs: 120
+  installs: 123
   author: "⏾ frostmoon"
   repo: "https://github.com/frostmoon-dev/wuwa-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 79.6
     black: 0

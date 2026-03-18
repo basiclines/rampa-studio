@@ -2,7 +2,7 @@ name: "pinkandwhite"
 source:
   marketplace_id: "AninhaPardini.pinkandwhite"
   version: "0.0.1"
-  installs: 2237
+  installs: 2238
   author: "Aninha Pardini"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=AninhaPardini.pinkandwhite"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 69.5
     black: 106

@@ -2,7 +2,7 @@ name: "Hot Stuff"
 source:
   marketplace_id: "HarshRastogi.harsh"
   version: "1.4.0"
-  installs: 301
+  installs: 302
   author: "Harsh Rastogi"
   repo: "https://github.com/theharshrastogi/Hot-Stuff-VSCODE-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=HarshRastogi.harsh"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 75
     black: 0

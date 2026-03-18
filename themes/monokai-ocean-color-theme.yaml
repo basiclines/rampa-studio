@@ -2,7 +2,7 @@ name: "monokai-ocean-color-theme"
 source:
   marketplace_id: "rofrol.monokai-ocean"
   version: "1.0.6"
-  installs: 10812
+  installs: 10813
   author: "rofrol"
   repo: "https://github.com/rofrol/monokai-ocean"
   url: "https://marketplace.visualstudio.com/items?itemName=rofrol.monokai-ocean"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 266
+  pair: null
   contrast:
     fg: 66.8
     black: 0

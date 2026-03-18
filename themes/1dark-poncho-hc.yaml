@@ -2,7 +2,7 @@ name: "1Dark Poncho HC"
 source:
   marketplace_id: "ginfuru.ginfuru-onedark-raincoat-theme"
   version: "0.9.9"
-  installs: 24972
+  installs: 24975
   author: "Ed Heltzel"
   repo: "https://github.com/ginfuru/vscode-1dark-raincoat"
   url: "https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-onedark-raincoat-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 260
+  pair: null
   contrast:
     fg: 106.7
     black: 0

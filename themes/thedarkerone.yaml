@@ -2,7 +2,7 @@ name: "TheDarkerOne"
 source:
   marketplace_id: "ozguncagri.thedarkerone"
   version: "0.0.4"
-  installs: 334
+  installs: 335
   author: "Özgün Çağrı AYDIN"
   repo: "https://github.com/ozguncagri/TheDarkerOne"
   url: "https://marketplace.visualstudio.com/items?itemName=ozguncagri.thedarkerone"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 60
     black: 9.5

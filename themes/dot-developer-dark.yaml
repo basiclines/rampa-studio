@@ -2,7 +2,7 @@ name: "Dot Developer (Dark)"
 source:
   marketplace_id: "n-devs.vscode-dot-developer"
   version: "1.1.9"
-  installs: 796
+  installs: 797
   author: "n-devs"
   repo: "https://github.com/n-devs/vscode-dot-developer"
   url: "https://marketplace.visualstudio.com/items?itemName=n-devs.vscode-dot-developer"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 266
+  pair: null
   contrast:
     fg: 71.4
     black: 0

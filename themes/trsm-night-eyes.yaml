@@ -2,7 +2,7 @@ name: "trsm-night-eyes"
 source:
   marketplace_id: "Trsm.trsm-night-eyes"
   version: "0.0.4"
-  installs: 43
+  installs: 44
   author: "Tiago Machado"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Trsm.trsm-night-eyes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 229
+  pair: null
   contrast:
     fg: 71.7
     black: 0

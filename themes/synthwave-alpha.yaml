@@ -2,7 +2,7 @@ name: "Synthwave Alpha"
 source:
   marketplace_id: "vikpe.synthwave-alpha"
   version: "0.2.1"
-  installs: 790
+  installs: 791
   author: "Viktor Persson"
   repo: "https://github.com/vikpe/synthwave-alpha-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=vikpe.synthwave-alpha"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 303
+  pair: null
   contrast:
     fg: 96.6
     black: 0

@@ -2,7 +2,7 @@ name: "pretty-dark-theme"
 source:
   marketplace_id: "CJL.pretty-dark-theme"
   version: "1.0.3"
-  installs: 1988
+  installs: 1992
   author: "CJL"
   repo: "https://github.com/beixiyo/vsc-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=CJL.pretty-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 68.7
     black: 8.7

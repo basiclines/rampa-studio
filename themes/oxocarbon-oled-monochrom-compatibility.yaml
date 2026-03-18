@@ -2,7 +2,7 @@ name: "Oxocarbon OLED Monochrom (compatibility)"
 source:
   marketplace_id: "NyoomEngineering.oxocarbon-vscode"
   version: "1.2.0"
-  installs: 1556
+  installs: 1561
   author: "Nyoom Engineering"
   repo: "https://github.com/nyoom-engineering/oxocarbon-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=NyoomEngineering.oxocarbon-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "indigo"
   hue: null
+  pair: null
   contrast:
     fg: 100.6
     black: 0

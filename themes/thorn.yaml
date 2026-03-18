@@ -1,11 +1,11 @@
 name: "Thorn"
 source:
-  marketplace_id: "jpwol.thorn"
-  version: "1.0.0"
-  installs: 107
-  author: "jpwol"
+  marketplace_id: "synapse42.thorn-variant"
+  version: "0.1.1"
+  installs: 11
+  author: "synapse_42"
   repo: "https://github.com/jpwol/thorn-vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=jpwol.thorn"
+  url: "https://marketplace.visualstudio.com/items?itemName=synapse42.thorn-variant"
 colors:
   bg: "#1D282F"
   fg: "#DBD0C6"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 236
+  pair: null
   contrast:
     fg: 75.9
     black: 0

@@ -2,7 +2,7 @@ name: "Codiefy optimas prime color theme"
 source:
   marketplace_id: "siyam.Codeify"
   version: "1.1.2"
-  installs: 2979
+  installs: 2981
   author: "siyam"
   repo: "https://github.com/SISIYAM/codiefy-color-theme-vs-code-extension"
   url: "https://marketplace.visualstudio.com/items?itemName=siyam.Codeify"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 99.3
     black: 0

@@ -2,7 +2,7 @@ name: "Root Bear"
 source:
   marketplace_id: "Reuben.root-bear"
   version: "0.2.1"
-  installs: 7009
+  installs: 7010
   author: "RobiMez"
   repo: "https://github.com/RobiMez/void_blue"
   url: "https://marketplace.visualstudio.com/items?itemName=Reuben.root-bear"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 258
+  pair: null
   contrast:
     fg: 99.9
     black: 0

@@ -1,11 +1,11 @@
 name: "Shades of Cyan theme"
 source:
-  marketplace_id: "SecureDev01.vscode-multi-themes"
-  version: "0.0.51"
-  installs: 1834
-  author: "SecureDev"
-  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+  marketplace_id: "moondevaa.shades-of-cyan-theme"
+  version: "0.1.1"
+  installs: 4948
+  author: "moondevaa"
+  repo: "https://github.com/AaBbdev29/Shades-of-Cyan-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.shades-of-cyan-theme"
 colors:
   bg: "#00101A"
   fg: "#C4D8E2"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 233
+  pair: null
   contrast:
     fg: 80.5
     black: 20.1

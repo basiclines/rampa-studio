@@ -2,7 +2,7 @@ name: "sailor-at-sea"
 source:
   marketplace_id: "rikkarth.ship-at-sea"
   version: "0.0.3"
-  installs: 561
+  installs: 564
   author: "rikkarth"
   repo: "https://github.com/rikkarth/ship-at-sea"
   url: "https://marketplace.visualstudio.com/items?itemName=rikkarth.ship-at-sea"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 94.1
     black: 0

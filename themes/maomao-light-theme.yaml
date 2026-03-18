@@ -2,7 +2,7 @@ name: "Maomao Light Theme"
 source:
   marketplace_id: "apothecary-diary-theme.apothecary-diary-theme"
   version: "0.1.0"
-  installs: 58
+  installs: 59
   author: "Matheus Montemurro"
   repo: "https://github.com/montemurro19/apothecary-diary-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=apothecary-diary-theme.apothecary-diary-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Maomao Dark Theme"
   contrast:
     fg: 95
     black: 95

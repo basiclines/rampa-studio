@@ -2,7 +2,7 @@ name: "Zhongli"
 source:
   marketplace_id: "jeooo.lapis-dei"
   version: "1.0.1"
-  installs: 1685
+  installs: 1686
   author: "jeooo`"
   repo: "https://github.com/jeoooo/zhongli-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=jeooo.lapis-dei"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 24
+  pair: null
   contrast:
     fg: 74.9
     black: 0

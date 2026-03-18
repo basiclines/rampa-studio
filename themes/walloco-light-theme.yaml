@@ -2,7 +2,7 @@ name: "Walloco Light Theme"
 source:
   marketplace_id: "StevenWaller.walloco-light-theme"
   version: "0.0.1"
-  installs: 74
+  installs: 75
   author: "Steven Waller"
   repo: "https://github.com/stevenwaller/walloco-light-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=StevenWaller.walloco-light-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 88.9
     black: 106

@@ -2,7 +2,7 @@ name: "Primer Light"
 source:
   marketplace_id: "andrewmarkle.primer-light"
   version: "0.0.8"
-  installs: 43111
+  installs: 43116
   author: "Andrew Markle"
   repo: "https://github.com/andrewmarkle/primer-light"
   url: "https://marketplace.visualstudio.com/items?itemName=andrewmarkle.primer-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 98.7
     black: 106

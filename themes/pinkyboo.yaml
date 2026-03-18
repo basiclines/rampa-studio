@@ -2,7 +2,7 @@ name: "Pinkyboo"
 source:
   marketplace_id: "kissa1001.pinkyboo-theme"
   version: "1.0.3"
-  installs: 3324
+  installs: 3325
   author: "kissa1001"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=kissa1001.pinkyboo-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 81.5
     black: 70.8

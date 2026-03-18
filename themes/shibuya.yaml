@@ -2,7 +2,7 @@ name: "Shibuya"
 source:
   marketplace_id: "jeroen-meijer.shibuya"
   version: "1.0.2"
-  installs: 9101
+  installs: 9103
   author: "Jeroen Meijer"
   repo: "https://github.com/jeroen-meijer/shibuya"
   url: "https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.shibuya"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 276
+  pair: null
   contrast:
     fg: 75.1
     black: 0

@@ -2,7 +2,7 @@ name: "SpiderVerse Spider-Man"
 source:
   marketplace_id: "GabrielBrown.spider-verse-theme"
   version: "1.0.1"
-  installs: 2460
+  installs: 2466
   author: "Gabriel Brown"
   repo: "https://github.com/GabrielPereira146/VsCode-SpiderVerse-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=GabrielBrown.spider-verse-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 19
+  pair: null
   contrast:
     fg: 77
     black: 0

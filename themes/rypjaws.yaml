@@ -2,7 +2,7 @@ name: "rypjaws"
 source:
   marketplace_id: "MihirPanchal.rypjaws"
   version: "0.5.1"
-  installs: 385
+  installs: 386
   author: "Mihir Panchal"
   repo: "https://github.com/MihirRajeshPanchal/rypjaws"
   url: "https://marketplace.visualstudio.com/items?itemName=MihirPanchal.rypjaws"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 260
+  pair: null
   contrast:
     fg: 51.1
     black: 0

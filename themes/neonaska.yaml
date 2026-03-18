@@ -2,7 +2,7 @@ name: "NeonAska"
 source:
   marketplace_id: "Askka.neon-aska-theme"
   version: "0.0.3"
-  installs: 92
+  installs: 93
   author: "Askka"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Askka.neon-aska-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 106.7
     black: 0

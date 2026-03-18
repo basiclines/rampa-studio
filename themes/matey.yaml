@@ -2,7 +2,7 @@ name: "Matey"
 source:
   marketplace_id: "arickho.matey-vscode"
   version: "1.2.5"
-  installs: 1978
+  installs: 1979
   author: "Jordan Garcia"
   repo: "https://github.com/arickho/matey-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=arickho.matey-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 265
+  pair: null
   contrast:
     fg: 72.3
     black: 0

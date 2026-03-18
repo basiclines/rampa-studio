@@ -2,7 +2,7 @@ name: "Neon Color - Dark Theme"
 source:
   marketplace_id: "mdmarufsarker.maruf-sarker"
   version: "0.1.1"
-  installs: 29145
+  installs: 29154
   author: "Md. Maruf Sarker"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=mdmarufsarker.maruf-sarker"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 245
+  pair: null
   contrast:
     fg: 73.1
     black: 0

@@ -2,7 +2,7 @@ name: "A GitHub Dark Dimmed 4 🔵 Blue"
 source:
   marketplace_id: "markmiro.colorful-github-vscode-theme"
   version: "6.8.0"
-  installs: 889
+  installs: 893
   author: "Mark Miro"
   repo: "https://github.com/markmiro/github-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=markmiro.colorful-github-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 242
+  pair: null
   contrast:
     fg: 61.3
     black: 16

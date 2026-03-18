@@ -2,7 +2,7 @@ name: "Midnight Grove"
 source:
   marketplace_id: "lela.midnight-grove"
   version: "1.0.1"
-  installs: 12
+  installs: 13
   author: "lela"
   repo: "https://github.com/lelamanolio/midnight-grove-vstheme"
   url: "https://marketplace.visualstudio.com/items?itemName=lela.midnight-grove"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 171
+  pair: null
   contrast:
     fg: 85.7
     black: 0

@@ -2,7 +2,7 @@ name: "C# Dracula"
 source:
   marketplace_id: "Gabrieldp-dev.reduc-csharp-dracula"
   version: "1.0.2"
-  installs: 9010
+  installs: 9012
   author: "Gabriel-dp"
   repo: "https://github.com/gabrieldp23/sBotics_Snippets_vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Gabrieldp-dev.reduc-csharp-dracula"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 278
+  pair: null
   contrast:
     fg: 99
     black: 0

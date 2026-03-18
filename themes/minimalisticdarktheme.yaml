@@ -2,7 +2,7 @@ name: "MinimalisticDarkTheme"
 source:
   marketplace_id: "MiguelLuisHernandezBrocat.minimalisticdarktheme"
   version: "0.0.1"
-  installs: 253
+  installs: 254
   author: "Miguel Luis HernandezBrocat"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=MiguelLuisHernandezBrocat.minimalisticdarktheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 284
+  pair: null
   contrast:
     fg: 80.2
     black: 0

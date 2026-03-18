@@ -2,7 +2,7 @@ name: "Saturn Moonlight"
 source:
   marketplace_id: "ArturSponchiado.saturnmoonlight"
   version: "0.0.2"
-  installs: 3888
+  installs: 3889
   author: "Artur Sponchiado"
   repo: "https://github.com/arturspon/SaturnMoonlight"
   url: "https://marketplace.visualstudio.com/items?itemName=ArturSponchiado.saturnmoonlight"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 278
+  pair: null
   contrast:
     fg: 75.3
     black: 0

@@ -1,11 +1,11 @@
 name: "Goku Code - Dragon Ball Z Power (Eye-Safe)"
 source:
-  marketplace_id: "SecureDev01.vscode-multi-themes"
-  version: "0.0.51"
-  installs: 1834
+  marketplace_id: "SecureDev01.theme-icon-pack"
+  version: "1.0.4"
+  installs: 906
   author: "SecureDev"
-  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+  repo: "https://github.com/codewithevilxd/theme-icon-pack"
+  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.theme-icon-pack"
 colors:
   bg: "#0F0E1A"
   fg: "#E8D5B7"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 287
+  pair: null
   contrast:
     fg: 82.1
     black: 0

@@ -2,7 +2,7 @@ name: "Space Purple Dark"
 source:
   marketplace_id: "zzAIMoo.space-purple"
   version: "0.11.0"
-  installs: 11289
+  installs: 11295
   author: "zzAIMoo"
   repo: "https://github.com/zzAIMoo/space-purple-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=zzAIMoo.space-purple"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 302
+  pair: "Space Purple Light"
   contrast:
     fg: 103
     black: 0

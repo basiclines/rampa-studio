@@ -2,7 +2,7 @@ name: "Eye Comfort Light"
 source:
   marketplace_id: "SaikatDas.eye-comfort-themes"
   version: "1.0.1"
-  installs: 1296
+  installs: 1298
   author: "Saikat Das"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=SaikatDas.eye-comfort-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 83.6
     black: 77.1

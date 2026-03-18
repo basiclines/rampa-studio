@@ -2,7 +2,7 @@ name: "oXocarbonix dark theme"
 source:
   marketplace_id: "RonitGandhi.oxocarbonix"
   version: "2.3.1"
-  installs: 452
+  installs: 453
   author: "Ronit Gandhi"
   repo: "https://github.com/ronit18/oXocarbonix-vsc"
   url: "https://marketplace.visualstudio.com/items?itemName=RonitGandhi.oxocarbonix"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 92.5
     black: 0

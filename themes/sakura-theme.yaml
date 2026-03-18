@@ -1,49 +1,50 @@
-name: "sakura-theme"
+name: "Sakura Theme"
 source:
-  marketplace_id: "DevangTomar.vscode-diverse-dye"
-  version: "1.3.0"
-  installs: 2595
-  author: "Devang Tomar ⭐"
-  repo: "https://github.com/devangtomar/vscode-diverse-dye"
-  url: "https://marketplace.visualstudio.com/items?itemName=DevangTomar.vscode-diverse-dye"
+  marketplace_id: "AetherDes.sakura-aetherdes"
+  version: "0.0.1"
+  installs: 1087
+  author: "AetherDes"
+  repo: "https://github.com/AetherDeS/Sakura-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AetherDes.sakura-aetherdes"
 colors:
-  bg: "#181C21"
-  fg: "#F2A2D6"
-  black: "#BC8DAB"
-  red: "#EC3737"
-  green: "#05925C"
+  bg: "#070B11"
+  fg: "#00D7FF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
   yellow: "#E5E510"
   blue: "#2472C8"
-  magenta: "#EC34EC"
-  cyan: "#75BEFF"
-  white: "#F2A2D6"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
   brightBlack: "#666666"
-  brightRed: "#FF7B7B"
-  brightGreen: "#77E2B7"
-  brightYellow: "#F7F79A"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
   brightBlue: "#3B8EEA"
-  brightMagenta: "#EA8FEA"
+  brightMagenta: "#D670D6"
   brightCyan: "#29B8DB"
-  brightWhite: "#FFB3F7"
+  brightWhite: "#E5E5E5"
 meta:
   mode: "dark"
   accent: "pink"
-  hue: 254
+  hue: 257
+  pair: null
   contrast:
-    fg: 64.3
-    black: 46.7
-    red: 33.9
-    green: 33.6
-    yellow: 85.1
-    blue: 26.9
-    magenta: 40.9
-    cyan: 62.6
-    white: 64.3
-    brightBlack: 21.5
-    brightRed: 51.8
-    brightGreen: 75.6
-    brightYellow: 97.7
-    brightBlue: 39.5
-    brightMagenta: 58
-    brightCyan: 54.9
-    brightWhite: 74.1
+    fg: 72.1
+    black: 0
+    red: 27.5
+    green: 53.8
+    yellow: 86.4
+    blue: 28.3
+    magenta: 30.6
+    cyan: 48.4
+    white: 90.8
+    brightBlack: 22.9
+    brightRed: 39.4
+    brightGreen: 64.4
+    brightYellow: 96.5
+    brightBlue: 40.8
+    brightMagenta: 46.2
+    brightCyan: 56.2
+    brightWhite: 90.8

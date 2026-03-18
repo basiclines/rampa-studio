@@ -2,7 +2,7 @@ name: "Violet Dream"
 source:
   marketplace_id: "AlexandreFPGoncalves.violet-dream"
   version: "1.0.3"
-  installs: 5422
+  installs: 5431
   author: "AlexandreFPGoncalves"
   repo: "https://github.com/AlexandreFPGoncalves/violet-dream"
   url: "https://marketplace.visualstudio.com/items?itemName=AlexandreFPGoncalves.violet-dream"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 284
+  pair: null
   contrast:
     fg: 89.8
     black: 0

@@ -2,7 +2,7 @@ name: "Dracula At Dusk"
 source:
   marketplace_id: "Telokis.theme-dracula-at-dusk"
   version: "1.0.6"
-  installs: 12062
+  installs: 12064
   author: "Telokis"
   repo: "https://gitlab.com/Telokis/dracula-at-dusk"
   url: "https://marketplace.visualstudio.com/items?itemName=Telokis.theme-dracula-at-dusk"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 244
+  pair: null
   contrast:
     fg: 93.9
     black: 10.6

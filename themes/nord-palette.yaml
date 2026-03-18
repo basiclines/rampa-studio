@@ -2,7 +2,7 @@ name: "Nord Palette"
 source:
   marketplace_id: "Avetis.nord-palette"
   version: "0.1.0"
-  installs: 27386
+  installs: 27396
   author: "Avetis"
   repo: "https://github.com/AvetisDN/nord-palette"
   url: "https://marketplace.visualstudio.com/items?itemName=Avetis.nord-palette"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 263
+  pair: null
   contrast:
     fg: 86.1
     black: 0

@@ -2,7 +2,7 @@ name: "Noctis Red Flow"
 source:
   marketplace_id: "doc-extentions.doctis"
   version: "1.0.9"
-  installs: 4845
+  installs: 4846
   author: "Doc"
   repo: "https://github.com/doc-code-hub/noctis"
   url: "https://marketplace.visualstudio.com/items?itemName=doc-extentions.doctis"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 13
+  pair: null
   contrast:
     fg: 67.1
     black: 0

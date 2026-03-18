@@ -2,7 +2,7 @@ name: "Dark Modern One without italics"
 source:
   marketplace_id: "nicolaerario.dark-modern-one"
   version: "0.3.1"
-  installs: 3338
+  installs: 3342
   author: "Nicola Erario"
   repo: "https://github.com/nicolaerario/dark-modern-one"
   url: "https://marketplace.visualstudio.com/items?itemName=nicolaerario.dark-modern-one"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 258
+  pair: null
   contrast:
     fg: 73.6
     black: 7.8

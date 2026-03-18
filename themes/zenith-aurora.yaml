@@ -2,7 +2,7 @@ name: "Zenith Aurora"
 source:
   marketplace_id: "TheSamonide.zenith-theme"
   version: "6.0.3"
-  installs: 108
+  installs: 109
   author: "Samonide"
   repo: "https://github.com/samonide/zenith-vsc"
   url: "https://marketplace.visualstudio.com/items?itemName=TheSamonide.zenith-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 258
+  pair: null
   contrast:
     fg: 87.7
     black: 0

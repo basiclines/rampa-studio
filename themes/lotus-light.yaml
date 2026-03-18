@@ -2,7 +2,7 @@ name: "Lotus Light"
 source:
   marketplace_id: "SkyLiss.lotus-theme"
   version: "1.1.5"
-  installs: 12508
+  installs: 12514
   author: "SkyLissh"
   repo: "https://github.com/SkyLissh/lotus-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=SkyLiss.lotus-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: "Lotus Dark"
   contrast:
     fg: 98.5
     black: 96.2

@@ -2,7 +2,7 @@ name: "Dark Code - Fork"
 source:
   marketplace_id: "HasiburR.dark-hacker-theme-by-hasibur-r"
   version: "9.0.1"
-  installs: 29903
+  installs: 29917
   author: "Hasibur R"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=HasiburR.dark-hacker-theme-by-hasibur-r"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 45
     black: 18.1

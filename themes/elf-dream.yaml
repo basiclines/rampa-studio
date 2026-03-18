@@ -2,7 +2,7 @@ name: "Elf Dream"
 source:
   marketplace_id: "kgnio.sprinklepack"
   version: "0.2.5"
-  installs: 80
+  installs: 81
   author: "Kagan Mamak"
   repo: "https://github.com/kgnio/sprinklepack"
   url: "https://marketplace.visualstudio.com/items?itemName=kgnio.sprinklepack"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 83.9
     black: 83.9

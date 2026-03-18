@@ -1,49 +1,49 @@
 name: "Generated Color Theme"
 source:
-  marketplace_id: "prabinshrestha.classic"
-  version: "0.0.1"
-  installs: 32
-  author: "prabin shrestha"
-  repo: "https://github.com/Prabin70/classic-vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=prabinshrestha.classic"
+  marketplace_id: "RLabsInc.rlabs-theme-collection"
+  version: "0.1.4"
+  installs: 181
+  author: "RLabs Inc."
+  repo: "https://github.com/rodrigoluglio/rlabs-themes-collection"
+  url: "https://marketplace.visualstudio.com/items?itemName=RLabsInc.rlabs-theme-collection"
 colors:
-  bg: "#010309"
-  fg: "#CCD7C9"
+  bg: "#000000"
+  fg: "#EDEDED"
   black: "#000000"
-  red: "#937471"
-  green: "#747F76"
-  yellow: "#AB6740"
-  blue: "#4B79AD"
-  magenta: "#A151DA"
-  cyan: "#737F81"
-  white: "#F2F1ED"
-  brightBlack: "#434343"
-  brightRed: "#BD5C54"
-  brightGreen: "#CDE6D2"
-  brightYellow: "#DE9F7B"
-  brightBlue: "#297AD5"
-  brightMagenta: "#A457DC"
-  brightCyan: "#A5C5CB"
-  brightWhite: "#FCFBFB"
+  red: "#D872A4"
+  green: "#ACCEA9"
+  yellow: "#AB6D33"
+  blue: "#3C7CC4"
+  magenta: "#B35C99"
+  cyan: "#39869A"
+  white: "#F4F4F0"
+  brightBlack: "#373737"
+  brightRed: "#FCC6E1"
+  brightGreen: "#ECF9EB"
+  brightYellow: "#F7C596"
+  brightBlue: "#ADCEF4"
+  brightMagenta: "#F4CBE8"
+  brightCyan: "#66D5F2"
+  brightWhite: "#FEFEFE"
 meta:
   mode: "dark"
-  accent: "magenta"
-  hue: 259
+  accent: "red"
+  hue: null
   contrast:
-    fg: 80.3
+    fg: 96.1
     black: 0
-    red: 32.5
-    green: 32.9
-    yellow: 31.2
-    blue: 30.4
-    magenta: 31.3
-    cyan: 33.2
-    white: 98.6
-    brightBlack: 9.5
-    brightRed: 32
-    brightGreen: 87.6
-    brightYellow: 58
-    brightBlue: 32.1
-    brightMagenta: 33
-    brightCyan: 68.2
-    brightWhite: 105.4
+    red: 44.7
+    green: 71.5
+    yellow: 32.7
+    blue: 32.1
+    magenta: 32.4
+    cyan: 33.3
+    white: 100.5
+    brightBlack: 0
+    brightRed: 81.2
+    brightGreen: 101.5
+    brightYellow: 77.1
+    brightBlue: 75
+    brightMagenta: 82.2
+    brightCyan: 72.7
+    brightWhite: 107.2

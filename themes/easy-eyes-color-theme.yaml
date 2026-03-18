@@ -2,7 +2,7 @@ name: "easy-eyes-color-theme"
 source:
   marketplace_id: "vvhg1.theme-easy-eyes"
   version: "1.2.1"
-  installs: 5650
+  installs: 5656
   author: "vvhg1"
   repo: "https://github.com/vvhg1/easyeyes"
   url: "https://marketplace.visualstudio.com/items?itemName=vvhg1.theme-easy-eyes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 72.1
     black: 0

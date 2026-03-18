@@ -1,15 +1,15 @@
 name: "Gruvbox Dark Medium"
 source:
-  marketplace_id: "jdinhlife.theme-gruvbox-dark-medium"
-  version: "1.1.0"
-  installs: 4080
-  author: "jdinhlife"
-  repo: "https://github.com/jdinhlife/vscode-theme-gruvbox"
-  url: "https://marketplace.visualstudio.com/items?itemName=jdinhlife.theme-gruvbox-dark-medium"
+  marketplace_id: "anhoder.gruvbox-anhoder"
+  version: "1.8.6"
+  installs: 3783
+  author: "anhoder"
+  repo: "https://github.com/anhoder/vscode-theme-gruvbox"
+  url: "https://marketplace.visualstudio.com/items?itemName=anhoder.gruvbox-anhoder"
 colors:
   bg: "#282828"
-  fg: "#FBF1C7"
-  black: "#1D2021"
+  fg: "#EBDBB2"
+  black: "#3C3836"
   red: "#CC241D"
   green: "#98971A"
   yellow: "#D79921"
@@ -29,8 +29,9 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Gruvbox Light Medium"
   contrast:
-    fg: 94.9
+    fg: 81.9
     black: 0
     red: 22.8
     green: 40.5

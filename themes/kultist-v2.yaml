@@ -2,7 +2,7 @@ name: "Kultist v2"
 source:
   marketplace_id: "codekult.kultist-color-theme"
   version: "1.1.0"
-  installs: 312
+  installs: 313
   author: "codekult"
   repo: "https://github.com/codekult/kultist-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=codekult.kultist-color-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 107.9
     black: 0

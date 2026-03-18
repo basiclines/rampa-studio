@@ -2,7 +2,7 @@ name: "Cosmic Iris"
 source:
   marketplace_id: "shravaninikam.cosmic-iris"
   version: "0.1.0"
-  installs: 826
+  installs: 827
   author: "Shravani Nikam"
   repo: "https://github.com/shravaninikam/Cosmic-Iris"
   url: "https://marketplace.visualstudio.com/items?itemName=shravaninikam.cosmic-iris"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 76.4
     black: 15.2

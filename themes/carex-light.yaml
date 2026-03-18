@@ -2,7 +2,7 @@ name: "Carex Light"
 source:
   marketplace_id: "OMERBABACO.carex-theme"
   version: "2.0.0"
-  installs: 43
+  installs: 45
   author: "OMERBABACO"
   repo: "https://github.com/babajoeltdsti/carex-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=OMERBABACO.carex-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: "Carex Dark"
   contrast:
     fg: 79.3
     black: 72.8

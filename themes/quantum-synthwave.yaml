@@ -2,7 +2,7 @@ name: "Quantum Synthwave"
 source:
   marketplace_id: "GatomontesRoselll.quantum-vscode"
   version: "0.1.22"
-  installs: 639
+  installs: 640
   author: "GatomontesRoseIII"
   repo: "https://github.com/ramirezherreranoeelvis/quantum-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=GatomontesRoselll.quantum-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 290
+  pair: null
   contrast:
     fg: 100
     black: 0

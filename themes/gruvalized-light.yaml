@@ -2,7 +2,7 @@ name: "Gruvalized Light"
 source:
   marketplace_id: "odlot-marco-lutz.gruvalized"
   version: "0.0.3"
-  installs: 89
+  installs: 91
   author: "Marco Lutz"
   repo: "https://github.com/odlot/gruvalized"
   url: "https://marketplace.visualstudio.com/items?itemName=odlot-marco-lutz.gruvalized"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Gruvalized Dark"
   contrast:
     fg: 98.4
     black: 71.1

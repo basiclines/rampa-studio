@@ -2,7 +2,7 @@ name: "Asuka-Theme"
 source:
   marketplace_id: "MennyfSoryu.asuka-theme"
   version: "0.1.1"
-  installs: 4076
+  installs: 4079
   author: "MennyfSoryu"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=MennyfSoryu.asuka-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 286
+  pair: null
   contrast:
     fg: 45.9
     black: 0

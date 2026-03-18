@@ -1,11 +1,11 @@
 name: "Gruvbox Minor Light Medium"
 source:
-  marketplace_id: "adamsome.vscode-theme-gruvbox-minor"
-  version: "2.7.2"
-  installs: 27651
-  author: "adamsome"
-  repo: "https://github.com/adamsome/vscode-theme-gruvbox-minor"
-  url: "https://marketplace.visualstudio.com/items?itemName=adamsome.vscode-theme-gruvbox-minor"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#FBF1C7"
   fg: "#928374"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Gruvbox Minor Dark Medium"
   contrast:
     fg: 55.7
     black: 9.5

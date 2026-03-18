@@ -2,7 +2,7 @@ name: "Blinds (Dark)"
 source:
   marketplace_id: "tankashing.blinds-theme"
   version: "8.0.0"
-  installs: 4025
+  installs: 4027
   author: "Tan Ka-Shing"
   repo: "https://github.com/orbulant/blinds-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=tankashing.blinds-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 100.6
     black: 0

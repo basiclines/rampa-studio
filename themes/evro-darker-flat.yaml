@@ -2,7 +2,7 @@ name: "Evro Darker Flat"
 source:
   marketplace_id: "EvroHQ.evro-dark"
   version: "1.9.8"
-  installs: 3672
+  installs: 3673
   author: "EvroHQ"
   repo: "https://github.com/evrohq/EvroDark"
   url: "https://marketplace.visualstudio.com/items?itemName=EvroHQ.evro-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 59.6
     black: 0

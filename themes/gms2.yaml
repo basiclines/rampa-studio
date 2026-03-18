@@ -2,7 +2,7 @@ name: "GMS2"
 source:
   marketplace_id: "347Online.gms2-theme"
   version: "0.0.1"
-  installs: 356
+  installs: 357
   author: "347Online"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=347Online.gms2-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 66.8
     black: 0

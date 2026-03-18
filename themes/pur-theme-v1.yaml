@@ -2,7 +2,7 @@ name: "Pur+ Theme V1"
 source:
   marketplace_id: "DevEduardo.purplus-theme"
   version: "1.0.1"
-  installs: 397
+  installs: 398
   author: "DevEduardo"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=DevEduardo.purplus-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 285
+  pair: null
   contrast:
     fg: 79.3
     black: 54.4

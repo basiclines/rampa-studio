@@ -2,7 +2,7 @@ name: "nord-bunker"
 source:
   marketplace_id: "sldobri.nord-5-stars"
   version: "1.0.1"
-  installs: 10783
+  installs: 10785
   author: "dobbbri"
   repo: "https://github.com/sldobri/nord-5-stars"
   url: "https://marketplace.visualstudio.com/items?itemName=sldobri.nord-5-stars"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 249
+  pair: null
   contrast:
     fg: 86
     black: 8.7

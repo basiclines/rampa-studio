@@ -2,7 +2,7 @@ name: "Kalidozza"
 source:
   marketplace_id: "afrolino02.Kalidozza-theme"
   version: "0.0.1"
-  installs: 29
+  installs: 30
   author: "afrolino02"
   repo: "https://github.com/Kalidozza-theme/vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=afrolino02.Kalidozza-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 79
+  pair: null
   contrast:
     fg: 80.4
     black: 0

@@ -2,7 +2,7 @@ name: "EVA-01"
 source:
   marketplace_id: "kvx.evangelion-unit-eva-01-theme"
   version: "0.1.2"
-  installs: 748
+  installs: 751
   author: "kvx"
   repo: "https://github.com/luqezr/eva-01-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=kvx.evangelion-unit-eva-01-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 289
+  pair: null
   contrast:
     fg: 99.6
     black: 0

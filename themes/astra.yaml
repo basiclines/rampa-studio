@@ -2,7 +2,7 @@ name: "Astra"
 source:
   marketplace_id: "fulin.astra"
   version: "1.0.1"
-  installs: 1585
+  installs: 1587
   author: "Giovanni Fu Lin"
   repo: "https://github.com/aeither/vscode-astra-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=fulin.astra"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 106.8
     black: 0

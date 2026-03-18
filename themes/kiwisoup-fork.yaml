@@ -2,7 +2,7 @@ name: "Kiwisoup - Fork"
 source:
   marketplace_id: "0xJariel.chatgp-theme"
   version: "0.0.5"
-  installs: 2495
+  installs: 2496
   author: "0xJariel"
   repo: "https://github.com/0xJariel/ChatGP-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=0xJariel.chatgp-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 286
+  pair: null
   contrast:
     fg: 75.2
     black: 0

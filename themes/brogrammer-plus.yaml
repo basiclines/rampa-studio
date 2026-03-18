@@ -2,7 +2,7 @@ name: "Brogrammer Plus"
 source:
   marketplace_id: "jackjyq.brogrammer-plus"
   version: "1.0.1"
-  installs: 8954
+  installs: 8958
   author: "Jack Jiang"
   repo: "https://github.com/jackjyq/vscode-theme-brogrammer-plus"
   url: "https://marketplace.visualstudio.com/items?itemName=jackjyq.brogrammer-plus"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 107.3
     black: 0

@@ -2,7 +2,7 @@ name: "McDark Theme"
 source:
   marketplace_id: "mcd005.mcdark-theme"
   version: "1.0.2"
-  installs: 1184
+  installs: 1185
   author: "Jamie McDonald"
   repo: "https://github.com/mcd005/mcdark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=mcd005.mcdark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 258
+  pair: null
   contrast:
     fg: 77.5
     black: 13.1

@@ -2,7 +2,7 @@ name: "Yukinord"
 source:
   marketplace_id: "yukina.yukinord"
   version: "0.0.65"
-  installs: 1364
+  installs: 1367
   author: "Yukina"
   repo: "https://github.com/yukina3230/yukinord"
   url: "https://marketplace.visualstudio.com/items?itemName=yukina.yukinord"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: null
   contrast:
     fg: 84.1
     black: 0

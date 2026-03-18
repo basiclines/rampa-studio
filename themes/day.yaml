@@ -2,7 +2,7 @@ name: "day"
 source:
   marketplace_id: "AninhaPardini.coffee-break-theme"
   version: "1.5.0"
-  installs: 834
+  installs: 835
   author: "Aninha Pardini"
   repo: "https://github.com/AninhaPardini/coffee-break-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AninhaPardini.coffee-break-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 102.4
     black: 94.7

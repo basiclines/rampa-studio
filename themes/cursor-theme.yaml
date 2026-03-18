@@ -2,7 +2,7 @@ name: "Cursor Theme"
 source:
   marketplace_id: "ManitejaPratha.cursor-midnight-theme"
   version: "0.0.3"
-  installs: 5028
+  installs: 5048
   author: "Maniteja Pratha"
   repo: "https://github.com/Manitej66/cursor-theme-for-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=ManitejaPratha.cursor-midnight-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: null
   contrast:
     fg: 36.1
     black: 0

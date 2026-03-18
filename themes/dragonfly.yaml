@@ -2,7 +2,7 @@ name: "Dragonfly"
 source:
   marketplace_id: "thelayeredmind.dragonfly-theme"
   version: "1.0.1"
-  installs: 1884
+  installs: 1885
   author: "thelayeredmind"
   repo: "https://github.com/thelayeredmind/dragonfly-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=thelayeredmind.dragonfly-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 63.6
     black: 0

@@ -2,7 +2,7 @@ name: "WinClassic"
 source:
   marketplace_id: "disk0.win-classic-theme"
   version: "0.0.23"
-  installs: 5037
+  installs: 5038
   author: "disk0"
   repo: "https://github.com/disco0/win-classic-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=disk0.win-classic-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 96.5
     black: 96.5

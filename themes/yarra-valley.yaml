@@ -2,7 +2,7 @@ name: "Yarra Valley"
 source:
   marketplace_id: "dustypomerleau.yarra-valley"
   version: "0.29.14"
-  installs: 10151
+  installs: 10152
   author: "Dusty Pomerleau"
   repo: "https://github.com/dustypomerleau/yarra-valley"
   url: "https://marketplace.visualstudio.com/items?itemName=dustypomerleau.yarra-valley"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 274
+  pair: null
   contrast:
     fg: 64.4
     black: 0

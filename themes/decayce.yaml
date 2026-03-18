@@ -2,7 +2,7 @@ name: "Decayce"
 source:
   marketplace_id: "decaycs.decay"
   version: "1.0.9"
-  installs: 37704
+  installs: 37708
   author: "decaycs"
   repo: "https://github.com/decaycs/vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=decaycs.decay"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 275
+  pair: null
   contrast:
     fg: 61.7
     black: 0

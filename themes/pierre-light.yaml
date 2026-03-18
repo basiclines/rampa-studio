@@ -2,7 +2,7 @@ name: "Pierre Light"
 source:
   marketplace_id: "pierrecomputer.pierre-theme"
   version: "0.0.24"
-  installs: 295
+  installs: 297
   author: "The Pierre Computer Co"
   repo: "https://github.com/pierrecomputer/theme"
   url: "https://marketplace.visualstudio.com/items?itemName=pierrecomputer.pierre-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "Pierre Dark"
   contrast:
     fg: 106
     black: 103.4

@@ -2,7 +2,7 @@ name: "Water Grape"
 source:
   marketplace_id: "qfilip.watergrape-theme"
   version: "0.0.2"
-  installs: 5217
+  installs: 5218
   author: "qfilip"
   repo: "https://github.com/qfilip/watergrape-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=qfilip.watergrape-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 86.8
     black: 0

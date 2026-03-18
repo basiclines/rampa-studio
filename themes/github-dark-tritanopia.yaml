@@ -2,7 +2,7 @@ name: "Github Dark Tritanopia"
 source:
   marketplace_id: "zanaty.github-dark-tritanopia"
   version: "0.0.5"
-  installs: 62
+  installs: 63
   author: "zanaty"
   repo: "https://github.com/moelzanaty3/github-dark-tritanopia"
   url: "https://marketplace.visualstudio.com/items?itemName=zanaty.github-dark-tritanopia"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 258
+  pair: null
   contrast:
     fg: 100.9
     black: 0

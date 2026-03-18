@@ -2,7 +2,7 @@ name: "SuperBright"
 source:
   marketplace_id: "DIYST.super-bright"
   version: "1.0.1"
-  installs: 1021
+  installs: 1022
   author: "DIYST"
   repo: "https://github.com/diyst/SuperBrightTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=DIYST.super-bright"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 307
+  pair: null
   contrast:
     fg: 107.5
     black: 10.8

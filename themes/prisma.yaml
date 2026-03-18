@@ -2,7 +2,7 @@ name: "Prisma"
 source:
   marketplace_id: "Quernest.prisma"
   version: "0.0.3"
-  installs: 8578
+  installs: 8583
   author: "Quernest"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Quernest.prisma"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 100.9
     black: 0

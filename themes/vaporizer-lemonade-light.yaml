@@ -2,7 +2,7 @@ name: "Vaporizer Lemonade Light"
 source:
   marketplace_id: "Vaporizer.vaporizer-dark"
   version: "2.1.9"
-  installs: 35736
+  installs: 35746
   author: "Vaporizer"
   repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "teal"
   hue: null
+  pair: null
   contrast:
     fg: 12.7
     black: 84.8

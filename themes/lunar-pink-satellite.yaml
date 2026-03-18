@@ -2,7 +2,7 @@ name: "Lunar Pink Satellite"
 source:
   marketplace_id: "nicolasdschmidt.lunar-pink"
   version: "1.4.0"
-  installs: 194247
+  installs: 194473
   author: "Nícolas D. Schmidt"
   repo: "https://github.com/tronfy/lunar-pink"
   url: "https://marketplace.visualstudio.com/items?itemName=nicolasdschmidt.lunar-pink"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 82.9
     black: 27.5

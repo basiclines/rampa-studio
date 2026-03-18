@@ -2,7 +2,7 @@ name: "pastelfairy"
 source:
   marketplace_id: "tetracalibers.pastelfairy"
   version: "1.0.0"
-  installs: 873
+  installs: 874
   author: "tomixy"
   repo: "https://github.com/tetracalibers/PastelFairy"
   url: "https://marketplace.visualstudio.com/items?itemName=tetracalibers.pastelfairy"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 36.2
     black: 98.7

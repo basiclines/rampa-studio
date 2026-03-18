@@ -2,7 +2,7 @@ name: "word-color-theme"
 source:
   marketplace_id: "coastermcgee.word-theme"
   version: "1.3.6"
-  installs: 54117
+  installs: 54172
   author: "Coaster McGee"
   repo: "https://github.com/coastermcgee/vscode-word-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=coastermcgee.word-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 264
+  pair: null
   contrast:
     fg: 100.3
     black: 0

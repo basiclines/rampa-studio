@@ -2,7 +2,7 @@ name: "Learn with Sumit Theme"
 source:
   marketplace_id: "SumitSaha.learn-with-sumit-theme"
   version: "12.1.0"
-  installs: 157486
+  installs: 157511
   author: "Learn with Sumit"
   repo: "https://github.com/learnwithsumit/learn-with-sumit-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=SumitSaha.learn-with-sumit-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 269
+  pair: null
   contrast:
     fg: 106.2
     black: 0

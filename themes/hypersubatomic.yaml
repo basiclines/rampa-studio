@@ -2,7 +2,7 @@ name: "Hypersubatomic"
 source:
   marketplace_id: "neilpanchal.hypersubatomic"
   version: "0.1.5"
-  installs: 6114
+  installs: 6115
   author: "Neil Panchal"
   repo: "https://github.com/neilpanchal/hypersubatomic-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=neilpanchal.hypersubatomic"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 275
+  pair: null
   contrast:
     fg: 43.7
     black: 0

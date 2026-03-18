@@ -1,13 +1,13 @@
 name: "Ayyour"
 source:
-  marketplace_id: "akil-s.ayyour"
-  version: "0.0.1"
-  installs: 195
+  marketplace_id: "akil-s.tahiti-retro"
+  version: "0.0.2"
+  installs: 611
   author: "akil-s"
   repo: "https://github.com/Salah-Akil/ayyour-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=akil-s.ayyour"
+  url: "https://marketplace.visualstudio.com/items?itemName=akil-s.tahiti-retro"
 colors:
-  bg: "#EAE7E1"
+  bg: "#DCDAD7"
   fg: "#323435"
   black: "#232627"
   red: "#BF0C0C"
@@ -29,21 +29,22 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
-    fg: 84.4
-    black: 88.1
-    red: 65.4
-    green: 51.2
-    yellow: 37.1
-    blue: 47
-    magenta: 52.6
-    cyan: 34.8
-    white: 79.6
-    brightBlack: 75.3
-    brightRed: 62.8
-    brightGreen: 45.5
-    brightYellow: 60.2
-    brightBlue: 35.3
-    brightMagenta: 64.7
-    brightCyan: 45.6
-    brightWhite: 69
+    fg: 76.9
+    black: 80.6
+    red: 57.9
+    green: 43.7
+    yellow: 29.6
+    blue: 39.5
+    magenta: 45.2
+    cyan: 27.3
+    white: 72.2
+    brightBlack: 67.8
+    brightRed: 55.3
+    brightGreen: 38.1
+    brightYellow: 52.7
+    brightBlue: 27.8
+    brightMagenta: 57.3
+    brightCyan: 38.1
+    brightWhite: 61.5

@@ -2,7 +2,7 @@ name: "MarsiDark"
 source:
   marketplace_id: "marsi.marsidark"
   version: "1.0.1"
-  installs: 1553
+  installs: 1554
   author: "marsi"
   repo: "https://github.com/marsidev/MarsiDarkTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=marsi.marsidark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 297
+  pair: null
   contrast:
     fg: 54.6
     black: 0

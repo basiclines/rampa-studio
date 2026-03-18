@@ -2,7 +2,7 @@ name: "darkLover"
 source:
   marketplace_id: "rayan2228.darkLover"
   version: "1.0.0"
-  installs: 340
+  installs: 341
   author: "rayan2228"
   repo: "https://github.com/rayan2228/darkLover"
   url: "https://marketplace.visualstudio.com/items?itemName=rayan2228.darkLover"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 273
+  pair: null
   contrast:
     fg: 96.1
     black: 23

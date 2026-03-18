@@ -1,11 +1,11 @@
 name: "Melange Redux: Light"
 source:
-  marketplace_id: "rtud.melange-redux"
-  version: "0.2.1"
-  installs: 1805
-  author: "rtud"
-  repo: "https://github.com/rtud/melange-redux"
-  url: "https://marketplace.visualstudio.com/items?itemName=rtud.melange-redux"
+  marketplace_id: "fostertheweb.melange-redux-iterum"
+  version: "0.2.7"
+  installs: 416
+  author: "fostertheweb"
+  repo: "https://github.com/fostertheweb/melange-redux"
+  url: "https://marketplace.visualstudio.com/items?itemName=fostertheweb.melange-redux-iterum"
 colors:
   bg: "#F1F1F1"
   fg: "#423324"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Melange Redux: Dark"
   contrast:
     fg: 89.4
     black: 68.4

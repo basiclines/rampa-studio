@@ -2,7 +2,7 @@ name: "DavionTheme"
 source:
   marketplace_id: "MahdiAlavitabar.daviontheme"
   version: "1.1.4"
-  installs: 102
+  installs: 104
   author: "Mahdi Alavitabar"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=MahdiAlavitabar.daviontheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 70.7
     black: 0

@@ -1,11 +1,11 @@
 name: "Vitesse Dark Soft"
 source:
-  marketplace_id: "antfu.theme-vitesse"
-  version: "1.0.1"
-  installs: 108742
-  author: "Anthony Fu"
-  repo: "https://github.com/antfu/vscode-theme-vitesse"
-  url: "https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse"
+  marketplace_id: "5ett.motion-blue"
+  version: "0.0.7"
+  installs: 534
+  author: "5ett"
+  repo: "https://github.com/5ett/motion-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=5ett.motion-blue"
 colors:
   bg: "#222222"
   fg: "#DBD7CA"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 79.9
     black: 0

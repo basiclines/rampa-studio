@@ -1,11 +1,11 @@
 name: "Vivid Blue"
 source:
-  marketplace_id: "WelkerArantes.sweet-code-theme"
-  version: "1.0.0"
-  installs: 4062
+  marketplace_id: "WelkerArantes.sweet-candy-theme"
+  version: "0.0.2"
+  installs: 3156
   author: "Welker Arantes"
-  repo: "https://github.com/taikio/sweet-code-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=WelkerArantes.sweet-code-theme"
+  repo: "https://github.com/taikio/sweet-candy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=WelkerArantes.sweet-candy-theme"
 colors:
   bg: "#333333"
   fg: "#D4D4D4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 74.6
     black: 0

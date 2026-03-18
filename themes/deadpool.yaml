@@ -2,7 +2,7 @@ name: "DeadPool"
 source:
   marketplace_id: "MukeshJoshi.dodopool"
   version: "0.0.6"
-  installs: 1803
+  installs: 1805
   author: "Mukesh Joshi"
   repo: "https://github.com/orangepreneur/dodopool"
   url: "https://marketplace.visualstudio.com/items?itemName=MukeshJoshi.dodopool"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 248
+  pair: null
   contrast:
     fg: 59.4
     black: 0

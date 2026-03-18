@@ -2,7 +2,7 @@ name: "Ocean Blue Theme"
 source:
   marketplace_id: "wipaaaid.oceanish-blue-theme"
   version: "0.0.1"
-  installs: 596
+  installs: 597
   author: "wipaaa"
   repo: "https://github.com/wipaaa/vscode-oceanish-blue-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=wipaaaid.oceanish-blue-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 254
+  pair: null
   contrast:
     fg: 81.9
     black: 0

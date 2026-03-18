@@ -2,7 +2,7 @@ name: "Darcula Dark Theme"
 source:
   marketplace_id: "CyrilLeblanc.amoled-darcula"
   version: "1.0.1"
-  installs: 3271
+  installs: 3275
   author: "CyrilLeblanc"
   repo: "https://github.com/CyrilLeblanc/vscode-amoled-darcula-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=CyrilLeblanc.amoled-darcula"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 47.2
     black: 0

@@ -2,7 +2,7 @@ name: "reVisual_Assist-color-theme"
 source:
   marketplace_id: "Cydo.re-theme"
   version: "3.0.0"
-  installs: 695
+  installs: 696
   author: "Cydo"
   repo: "https://github.com/CydoEntis/reThemes"
   url: "https://marketplace.visualstudio.com/items?itemName=Cydo.re-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 78.7
     black: 0

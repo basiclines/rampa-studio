@@ -2,7 +2,7 @@ name: "Claude Dark Italic"
 source:
   marketplace_id: "AlvinUnreal.claude-vscode-theme"
   version: "1.2.0"
-  installs: 2138
+  installs: 2148
   author: "Alvin Unreal"
   repo: "https://github.com/alvinunreal/awesome-claude"
   url: "https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 89.7
     black: 0

@@ -2,7 +2,7 @@ name: "Zenbones Vimbones Light Dim"
 source:
   marketplace_id: "rpbritton.zenbones"
   version: "0.0.2"
-  installs: 2700
+  installs: 2701
   author: "rpbritton"
   repo: "https://github.com/rpbritton/zenbones.nvim"
   url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: 107
+  pair: null
   contrast:
     fg: 82.6
     black: 0

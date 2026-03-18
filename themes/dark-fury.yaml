@@ -2,7 +2,7 @@ name: "Dark Fury"
 source:
   marketplace_id: "alive-ninja.dark-fury-theme"
   version: "1.0.13"
-  installs: 152
+  installs: 153
   author: "alive ninja"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=alive-ninja.dark-fury-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 23
     black: 0

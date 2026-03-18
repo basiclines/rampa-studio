@@ -2,7 +2,7 @@ name: "Almond Cream"
 source:
   marketplace_id: "wicked-labs.cocoa-butter"
   version: "0.1.4"
-  installs: 1140
+  installs: 1141
   author: "Michael Andreuzza "
   repo: "https://github.com/michael-andreuzza/cocoabutter"
   url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.cocoa-butter"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 74.2
     black: 0

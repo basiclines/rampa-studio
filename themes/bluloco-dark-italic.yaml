@@ -1,11 +1,11 @@
 name: "Bluloco Dark Italic"
 source:
-  marketplace_id: "uloco.theme-bluloco-dark"
-  version: "3.7.6"
-  installs: 510899
-  author: "Umut Topuzoğlu"
-  repo: "https://github.com/uloco/theme-bluloco-dark"
-  url: "https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-dark"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#282C34"
   fg: "#ABB2BF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: "Bluloco Light Italic"
   contrast:
     fg: 56.2
     black: 0

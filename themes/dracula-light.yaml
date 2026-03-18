@@ -2,7 +2,7 @@ name: "Dracula Light"
 source:
   marketplace_id: "f-hossen.dracula-theme-light-dark"
   version: "0.0.2"
-  installs: 1097
+  installs: 1099
   author: "Farhad H."
   repo: "https://github.com/f-hossen/dracula-theme-light-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=f-hossen.dracula-theme-light-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: "Dracula Dark"
   contrast:
     fg: 87.8
     black: 0

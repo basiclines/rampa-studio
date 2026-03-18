@@ -2,7 +2,7 @@ name: "Quirky Contrast Theme"
 source:
   marketplace_id: "DarkMannn.quirky-contrast-theme"
   version: "0.0.10"
-  installs: 616
+  installs: 617
   author: "DarkMannn"
   repo: "https://github.com/DarkMannn/quirky-contrast-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=DarkMannn.quirky-contrast-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 84.3
     black: 0

@@ -1,11 +1,11 @@
 name: "Dark Purple Flat"
 source:
-  marketplace_id: "Ayrz.vscode-theme-ayrz-arcticfox"
-  version: "1.0.2"
-  installs: 212
-  author: "Ayrz"
-  repo: "https://github.com/ayrzDev/ArcticFox-Themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=Ayrz.vscode-theme-ayrz-arcticfox"
+  marketplace_id: "jannisberndt.dark-orange"
+  version: "0.4.0"
+  installs: 21524
+  author: "Jannis Berndt"
+  repo: "https://github.com/jb3rndt/dark-orange"
+  url: "https://marketplace.visualstudio.com/items?itemName=jannisberndt.dark-orange"
 colors:
   bg: "#1C1E26"
   fg: "#E1E4E8"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 274
+  pair: null
   contrast:
     fg: 88.3
     black: 8

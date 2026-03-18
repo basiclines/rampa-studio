@@ -1,11 +1,11 @@
 name: "jwrdark"
 source:
-  marketplace_id: "ibrhalilaydn.galactus-theme"
-  version: "0.1.0"
-  installs: 305
-  author: "ibrhalil"
-  repo: "https://github.com/ibrhalil/galactus-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=ibrhalilaydn.galactus-theme"
+  marketplace_id: "oloier.jwrdark"
+  version: "0.2.0"
+  installs: 160
+  author: "oloier"
+  repo: "https://github.com/oloier/jwrdark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=oloier.jwrdark"
 colors:
   bg: "#0C0C0C"
   fg: "#999999"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 47
     black: 0

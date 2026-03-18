@@ -2,7 +2,7 @@ name: "Vague neovim Theme Extended Light"
 source:
   marketplace_id: "EmmettHintz.Kanagawa-Vague"
   version: "0.1.6"
-  installs: 1197
+  installs: 1199
   author: "Emmett Hintz"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=EmmettHintz.Kanagawa-Vague"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 103.9
     black: 100.9

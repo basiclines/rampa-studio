@@ -2,7 +2,7 @@ name: "Dimmed Theme"
 source:
   marketplace_id: "AleCaste.dimmed-theme"
   version: "0.0.16"
-  installs: 1127
+  installs: 1128
   author: "AleCaste"
   repo: "https://github.com/AleCaste/dimmed-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AleCaste.dimmed-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 18.3
     black: 0

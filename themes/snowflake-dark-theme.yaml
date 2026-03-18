@@ -2,7 +2,7 @@ name: "Snowflake-Dark-Theme"
 source:
   marketplace_id: "snowflake107.snowflake-dark"
   version: "1.0.2"
-  installs: 4869
+  installs: 4870
   author: "Snowflake Studio ❄"
   repo: "https://github.com/DevSnowflake/VSCode-Snowflake"
   url: "https://marketplace.visualstudio.com/items?itemName=snowflake107.snowflake-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 275
+  pair: null
   contrast:
     fg: 57.6
     black: 0

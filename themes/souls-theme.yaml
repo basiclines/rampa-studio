@@ -2,7 +2,7 @@ name: "Souls Theme"
 source:
   marketplace_id: "Gussv4z.souls-theme"
   version: "0.1.3"
-  installs: 16
+  installs: 17
   author: "Gussv4z"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=Gussv4z.souls-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 115
+  pair: null
   contrast:
     fg: 87.9
     black: 0

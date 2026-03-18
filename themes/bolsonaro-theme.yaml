@@ -2,7 +2,7 @@ name: "bolsonaro theme"
 source:
   marketplace_id: "higordevv.bolsonarodarktheme"
   version: "0.0.1"
-  installs: 1818
+  installs: 1823
   author: "Higor Devkkkjj"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=higordevv.bolsonarodarktheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 36.9
     black: 0

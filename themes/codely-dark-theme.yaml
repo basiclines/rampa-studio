@@ -1,11 +1,11 @@
 name: "Codely Dark Theme"
 source:
-  marketplace_id: "Rupesh9369.Codely-Dark-Pro-Theme"
-  version: "0.4.0"
-  installs: 477
+  marketplace_id: "Rupesh9369.Themess"
+  version: "0.5.0"
+  installs: 150
   author: "Rupesh9369"
   repo: "https://github.com/Rupesh9369/Codely-Dark-Theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=Rupesh9369.Codely-Dark-Pro-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rupesh9369.Themess"
 colors:
   bg: "#202124"
   fg: "#EBDBB2"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 83.1
     black: 0

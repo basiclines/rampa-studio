@@ -1,11 +1,11 @@
 name: "XxHTML"
 source:
-  marketplace_id: "xxhtml.xxhtml-themes"
-  version: "0.0.15"
-  installs: 1165
+  marketplace_id: "xxhtml.xxhtml-theme"
+  version: "0.0.3"
+  installs: 2
   author: "Isaac"
   repo: "https://github.com/XxHTMLStudios/xxhtml-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=xxhtml.xxhtml-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=xxhtml.xxhtml-theme"
 colors:
   bg: "#282828"
   fg: "#C0C0C0"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 65.2
     black: 0

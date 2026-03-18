@@ -2,7 +2,7 @@ name: "replt.it"
 source:
   marketplace_id: "manigandancodes.repl-it-theme"
   version: "0.4.0"
-  installs: 7621
+  installs: 7622
   author: "Manigandan Saravanan"
   repo: "https://github.com/manigandancodes/repl.it-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=manigandancodes.repl-it-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 265
+  pair: null
   contrast:
     fg: 84.6
     black: 0

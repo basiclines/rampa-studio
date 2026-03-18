@@ -2,7 +2,7 @@ name: "Kubesong"
 source:
   marketplace_id: "Kubes.kubesong"
   version: "1.0.13"
-  installs: 1082
+  installs: 1083
   author: "Kubes"
   repo: "https://github.com/helgelol/kubesong-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Kubes.kubesong"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 252
+  pair: null
   contrast:
     fg: 77.1
     black: 0

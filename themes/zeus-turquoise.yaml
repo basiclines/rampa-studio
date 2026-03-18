@@ -2,7 +2,7 @@ name: "Zeus Turquoise"
 source:
   marketplace_id: "UllasKunder.zeus-vscode-theme"
   version: "0.0.1"
-  installs: 694
+  installs: 696
   author: "Ullas Kunder"
   repo: "https://github.com/ullaskunder3/zeus-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=UllasKunder.zeus-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 244
+  pair: null
   contrast:
     fg: 77.4
     black: 13

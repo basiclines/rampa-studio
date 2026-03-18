@@ -2,7 +2,7 @@ name: "Great White (Light)"
 source:
   marketplace_id: "shark-labs.shark-labs-great-white-theme"
   version: "0.6.3"
-  installs: 21
+  installs: 22
   author: "theSharkArtist"
   repo: "https://github.com/johnsirmon/shark-artist-great-white-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=shark-labs.shark-labs-great-white-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 95.1
     black: 96.1

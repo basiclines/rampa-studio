@@ -2,7 +2,7 @@ name: "Brownista"
 source:
   marketplace_id: "hubaldium.brownista-hubaldium"
   version: "0.0.1"
-  installs: 69
+  installs: 70
   author: "Brownista"
   repo: "https://github.com/theBoss-png/brownista-hubaldium"
   url: "https://marketplace.visualstudio.com/items?itemName=hubaldium.brownista-hubaldium"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 79.4
     black: 0

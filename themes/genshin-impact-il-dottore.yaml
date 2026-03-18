@@ -1,11 +1,11 @@
 name: "Genshin Impact - Il Dottore"
 source:
-  marketplace_id: "frostmoon-dev.genshin-hsr-themes"
-  version: "0.1.6"
-  installs: 518
-  author: "⏾ frostmoon"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.genshin-hsr-themes"
+  marketplace_id: "horizon-core.horizon-theme"
+  version: "3.6.1"
+  installs: 79
+  author: "Horizon"
+  repo: "https://github.com/Abdelrahman968/horizon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=horizon-core.horizon-theme"
 colors:
   bg: "#F6F9FC"
   fg: "#1A2848"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 97.4
     black: 97.4

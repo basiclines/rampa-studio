@@ -2,7 +2,7 @@ name: "Hardwired - Electric Lime"
 source:
   marketplace_id: "thwilson3.hardwired-color-theme"
   version: "0.0.1"
-  installs: 624
+  installs: 625
   author: "thwilson3"
   repo: "https://github.com/thwilson3/hardwired-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=thwilson3.hardwired-color-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 98.9
     black: 58.4

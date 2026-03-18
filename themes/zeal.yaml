@@ -2,7 +2,7 @@ name: "Zeal"
 source:
   marketplace_id: "kqadem.zeal-theme"
   version: "1.1.0"
-  installs: 2762
+  installs: 2763
   author: "kq.adem"
   repo: "https://github.com/kqadem/zeal"
   url: "https://marketplace.visualstudio.com/items?itemName=kqadem.zeal-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 230
+  pair: null
   contrast:
     fg: 102.7
     black: 0

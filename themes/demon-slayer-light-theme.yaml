@@ -2,7 +2,7 @@ name: "Demon Slayer Light Theme"
 source:
   marketplace_id: "TeteDeCactus.demon-slayer-light-theme"
   version: "0.0.1"
-  installs: 8483
+  installs: 8489
   author: "TeteDeCactus"
   repo: "https://github.com/tetedecactus/VScode-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=TeteDeCactus.demon-slayer-light-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 68.5
     black: 95.9

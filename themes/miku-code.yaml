@@ -1,11 +1,11 @@
 name: "Miku Code"
 source:
-  marketplace_id: "SecureDev01.vscode-multi-themes"
-  version: "0.0.51"
-  installs: 1834
-  author: "SecureDev"
-  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
+  marketplace_id: "biglexj.miku-code"
+  version: "1.3.6"
+  installs: 2157
+  author: "biglexj"
+  repo: "https://github.com/biglexj/miku-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=biglexj.miku-code"
 colors:
   bg: "#1A1B26"
   fg: "#7DCFFF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 280
+  pair: null
   contrast:
     fg: 70.5
     black: 59.3

@@ -2,7 +2,7 @@ name: "Claude Dark (Anthropic)"
 source:
   marketplace_id: "duca.claude-anthropic-theme"
   version: "1.0.0"
-  installs: 16
+  installs: 39
   author: "duca"
   repo: "https://github.com/igorfelipeduca/claude-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=duca.claude-anthropic-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 87.5
     black: 0

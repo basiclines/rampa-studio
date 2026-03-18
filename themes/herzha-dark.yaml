@@ -2,7 +2,7 @@ name: "Herzha Dark"
 source:
   marketplace_id: "madhanmaaz.vscode-herzha-theme"
   version: "0.0.1"
-  installs: 17
+  installs: 18
   author: "madhanmaaz"
   repo: "https://github.com/madhanmaaz/herzha-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=madhanmaaz.vscode-herzha-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 60.1
     black: 0

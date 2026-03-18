@@ -2,7 +2,7 @@ name: "Seti"
 source:
   marketplace_id: "seti.seti"
   version: "0.0.6"
-  installs: 21997
+  installs: 22001
   author: "sriosv"
   repo: "https://github.com/Sarchis/seti-syntax"
   url: "https://marketplace.visualstudio.com/items?itemName=seti.seti"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 59.9
     black: 0

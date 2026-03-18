@@ -1,11 +1,11 @@
 name: "Yoncé"
 source:
-  marketplace_id: "minamarkham.yonce-theme"
-  version: "0.1.0"
-  installs: 19006
-  author: "minamarkham"
-  repo: "https://github.com/minamarkham/yonce-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=minamarkham.yonce-theme"
+  marketplace_id: "Gixo.yue-theme"
+  version: "1.0.2"
+  installs: 686
+  author: "Gixo"
+  repo: "https://github.com/thegixo/yue-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gixo.yue-theme"
 colors:
   bg: "#1C1C1C"
   fg: "#D4D4D4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 78.9
     black: 0

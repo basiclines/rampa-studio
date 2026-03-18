@@ -2,7 +2,7 @@ name: "pastel inu"
 source:
   marketplace_id: "d-end.pastel-inu"
   version: "0.0.6"
-  installs: 1569
+  installs: 1571
   author: "d end"
   repo: "https://github.com/itsdend/pastel_inu"
   url: "https://marketplace.visualstudio.com/items?itemName=d-end.pastel-inu"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 277
+  pair: null
   contrast:
     fg: 51.1
     black: 13.4

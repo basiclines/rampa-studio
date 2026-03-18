@@ -2,7 +2,7 @@ name: "Candy Red"
 source:
   marketplace_id: "xynny.candy-red"
   version: "1.0.0"
-  installs: 3492
+  installs: 3494
   author: "xynny"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=xynny.candy-red"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 2
+  pair: null
   contrast:
     fg: 104.9
     black: 0

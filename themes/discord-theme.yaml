@@ -2,7 +2,7 @@ name: "Discord Theme"
 source:
   marketplace_id: "tanmay.discord-theme"
   version: "1.0.6"
-  installs: 61655
+  installs: 61671
   author: "tanmay"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=tanmay.discord-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 286
+  pair: null
   contrast:
     fg: 71.3
     black: 0

@@ -2,7 +2,7 @@ name: "Rosé Pine"
 source:
   marketplace_id: "SulSami.rose-pine-burnt"
   version: "1.0.3"
-  installs: 3258
+  installs: 3259
   author: "Sami"
   repo: "https://github.com/rose-pine-vscode/vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=SulSami.rose-pine-burnt"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 94
+  pair: null
   contrast:
     fg: 75.2
     black: 0

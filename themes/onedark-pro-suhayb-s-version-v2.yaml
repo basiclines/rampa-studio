@@ -2,7 +2,7 @@ name: "OneDark Pro - Suhayb's Version v2"
 source:
   marketplace_id: "Suhaybu.onedarkpro-colorblind"
   version: "1.0.1"
-  installs: 2278
+  installs: 2280
   author: "Suhaybu"
   repo: "https://github.com/suhaybu/onedarkpro-colorblind"
   url: "https://marketplace.visualstudio.com/items?itemName=Suhaybu.onedarkpro-colorblind"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 264
+  pair: null
   contrast:
     fg: 90.7
     black: 0

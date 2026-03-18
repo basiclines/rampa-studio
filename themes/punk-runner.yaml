@@ -2,7 +2,7 @@ name: "punk-runner"
 source:
   marketplace_id: "TheEdgesofBen.punk-runner"
   version: "0.0.5"
-  installs: 8802
+  installs: 8804
   author: "TheEdgesofBen"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=TheEdgesofBen.punk-runner"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 188
+  pair: null
   contrast:
     fg: 93.2
     black: 0

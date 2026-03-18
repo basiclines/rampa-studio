@@ -2,7 +2,7 @@ name: "Barney PRO"
 source:
   marketplace_id: "barney-pro-one.barney-pro"
   version: "0.0.1"
-  installs: 1280
+  installs: 1282
   author: "barney-pro-one"
   repo: "https://github.com/armando10rafael10/theme-barney-pro"
   url: "https://marketplace.visualstudio.com/items?itemName=barney-pro-one.barney-pro"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 307
+  pair: null
   contrast:
     fg: 91.6
     black: 20

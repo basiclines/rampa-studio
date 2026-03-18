@@ -2,7 +2,7 @@ name: "Snazzy Operator Natural"
 source:
   marketplace_id: "BenCai.snazzy-operator-natural"
   version: "0.0.10"
-  installs: 2982
+  installs: 2983
   author: "Ben Cai"
   repo: "https://github.com/code0312/VSCode-Theme-Snazzy"
   url: "https://marketplace.visualstudio.com/items?itemName=BenCai.snazzy-operator-natural"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 278
+  pair: null
   contrast:
     fg: 93.7
     black: 0

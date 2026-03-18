@@ -2,7 +2,7 @@ name: "WL-Signal Wave"
 source:
   marketplace_id: "WatkinsLabs.signal-wave"
   version: "1.0.1"
-  installs: 40
+  installs: 41
   author: "Watkins Labs"
   repo: "https://github.com/watkinslabs/vscode-theme-generator"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.signal-wave"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 89.6
     black: 0

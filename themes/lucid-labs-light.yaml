@@ -1,7 +1,7 @@
 name: "Lucid Labs Light"
 source:
   marketplace_id: "lucidlabs.lucid-labs-theme"
-  version: "1.6.0"
+  version: "1.9.0"
   installs: 144
   author: "Lucid Labs"
   repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Lucid Labs Dark"
   contrast:
     fg: 102.7
     black: 104.6

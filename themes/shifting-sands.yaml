@@ -2,7 +2,7 @@ name: "Shifting Sands"
 source:
   marketplace_id: "MrLizardAndCompany.shifting-sands"
   version: "0.2.6"
-  installs: 394
+  installs: 395
   author: "Mr Lizard & Company"
   repo: "https://github.com/webstek/shifting_sands"
   url: "https://marketplace.visualstudio.com/items?itemName=MrLizardAndCompany.shifting-sands"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: 71
+  pair: null
   contrast:
     fg: 49.2
     black: 66.6

@@ -2,7 +2,7 @@ name: "One Dark Night - Professional"
 source:
   marketplace_id: "sojibahmed.one-dark-night-theme"
   version: "0.0.7"
-  installs: 1362
+  installs: 1363
   author: "sojibAhmedSafi"
   repo: "https://github.com/SojibAhmed114/One-Dark-Night-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sojibahmed.one-dark-night-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 256
+  pair: null
   contrast:
     fg: 67.8
     black: 0

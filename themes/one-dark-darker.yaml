@@ -1,11 +1,11 @@
 name: "One Dark Darker"
 source:
-  marketplace_id: "JoelCrosby.one-dark-darker"
-  version: "1.0.4"
-  installs: 82879
-  author: "Joel Crosby"
-  repo: "https://github.com/JoelCrosby/OneDarkDarker"
-  url: "https://marketplace.visualstudio.com/items?itemName=JoelCrosby.one-dark-darker"
+  marketplace_id: "lazyComedian.sentimental-dark"
+  version: "0.1.4"
+  installs: 518
+  author: "lazyComedian"
+  repo: "https://github.com/lazycomedian/SentimentalDark"
+  url: "https://marketplace.visualstudio.com/items?itemName=lazyComedian.sentimental-dark"
 colors:
   bg: "#181A1F"
   fg: "#ABB2BF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 268
+  pair: null
   contrast:
     fg: 59.1
     black: 8.5

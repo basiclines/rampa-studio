@@ -2,7 +2,7 @@ name: "Human Dark"
 source:
   marketplace_id: "TomHall.human-theme"
   version: "1.1.1"
-  installs: 94
+  installs: 95
   author: "Tom Hall"
   repo: "https://github.com/tom-f-hall/human-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=TomHall.human-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 160
+  pair: "Human Light"
   contrast:
     fg: 79.3
     black: 0

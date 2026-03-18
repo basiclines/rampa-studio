@@ -2,7 +2,7 @@ name: "villain-dark"
 source:
   marketplace_id: "sahilkumardev.villan-theam"
   version: "0.0.2"
-  installs: 558
+  installs: 561
   author: "sahil kumar dev"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=sahilkumardev.villan-theam"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 104.4
     black: 0

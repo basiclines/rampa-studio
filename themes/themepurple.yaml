@@ -2,7 +2,7 @@ name: "ThemePurple"
 source:
   marketplace_id: "KelsonCarvalho.roxotema"
   version: "2.0.0"
-  installs: 1035
+  installs: 1039
   author: "Kelson Carvalho"
   repo: "https://github.com/NoslekCode/VsCode_Tema_Roxo_Dark"
   url: "https://marketplace.visualstudio.com/items?itemName=KelsonCarvalho.roxotema"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 333
+  pair: null
   contrast:
     fg: 79
     black: 0

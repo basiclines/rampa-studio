@@ -2,7 +2,7 @@ name: "yuyuko.vscode ocean"
 source:
   marketplace_id: "hylwxqwq.yuyuko-vim-vsc"
   version: "0.2.1"
-  installs: 6332
+  installs: 6339
   author: "hylwxqwq"
   repo: "https://github.com/hylwxqwq/yuyuko-vim-vsc"
   url: "https://marketplace.visualstudio.com/items?itemName=hylwxqwq.yuyuko-vim-vsc"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 275
+  pair: null
   contrast:
     fg: 105
     black: 0

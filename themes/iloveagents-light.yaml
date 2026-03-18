@@ -2,7 +2,7 @@ name: "iLoveAgents Light"
 source:
   marketplace_id: "iLoveAgents.iloveagents-ai-foundry-theme"
   version: "0.5.3"
-  installs: 160
+  installs: 161
   author: "iLoveAgents"
   repo: "https://github.com/iLoveAgents/vscode-iloveagents-foundry-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=iLoveAgents.iloveagents-ai-foundry-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: "iLoveAgents Dark"
   contrast:
     fg: 101.5
     black: 98.3

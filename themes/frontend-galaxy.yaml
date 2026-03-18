@@ -2,7 +2,7 @@ name: "Frontend Galaxy"
 source:
   marketplace_id: "Avetis.frontend-galaxy"
   version: "0.0.2"
-  installs: 1428
+  installs: 1429
   author: "Avetis"
   repo: "https://github.com/AvetisDN/frontend-galaxy"
   url: "https://marketplace.visualstudio.com/items?itemName=Avetis.frontend-galaxy"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 256
+  pair: null
   contrast:
     fg: 89.4
     black: 0

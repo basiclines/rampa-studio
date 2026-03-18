@@ -2,7 +2,7 @@ name: "JolliFake"
 source:
   marketplace_id: "jeooo.jollifake"
   version: "1.0.0"
-  installs: 1037
+  installs: 1038
   author: "jeooo`"
   repo: "https://github.com/jeoooo/jollifake"
   url: "https://marketplace.visualstudio.com/items?itemName=jeooo.jollifake"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 84.5
     black: 106

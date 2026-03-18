@@ -2,7 +2,7 @@ name: "colorful-dark-theme"
 source:
   marketplace_id: "leonex16.colorful-theme"
   version: "1.1.4"
-  installs: 3551
+  installs: 3554
   author: "Leonel Espinoza Sotelo"
   repo: "https://github.com/leonex16/colorful-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=leonex16.colorful-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 102.4
     black: 0

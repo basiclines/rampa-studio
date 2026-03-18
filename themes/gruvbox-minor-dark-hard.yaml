@@ -1,11 +1,11 @@
 name: "Gruvbox Minor Dark Hard"
 source:
-  marketplace_id: "adamsome.vscode-theme-gruvbox-minor"
-  version: "2.7.2"
-  installs: 27651
-  author: "adamsome"
-  repo: "https://github.com/adamsome/vscode-theme-gruvbox-minor"
-  url: "https://marketplace.visualstudio.com/items?itemName=adamsome.vscode-theme-gruvbox-minor"
+  marketplace_id: "sagaban.dark-gruvbox-with-italics"
+  version: "0.0.4"
+  installs: 2296
+  author: "Santiago Bandiera"
+  repo: "https://github.com/sagaban/dark-gruvbox-with-italics"
+  url: "https://marketplace.visualstudio.com/items?itemName=sagaban.dark-gruvbox-with-italics"
 colors:
   bg: "#1D2021"
   fg: "#928374"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Gruvbox Minor Light Hard"
   contrast:
     fg: 35.3
     black: 0

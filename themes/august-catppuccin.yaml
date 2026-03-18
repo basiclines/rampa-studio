@@ -1,11 +1,11 @@
 name: "August - Catppuccin"
 source:
-  marketplace_id: "inci-august.august-themes"
-  version: "2.8.0"
-  installs: 146390
-  author: "inci-august"
-  repo: "https://github.com/inci-august/august-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes"
+  marketplace_id: "SofiDev.sofidev"
+  version: "6.1.9"
+  installs: 591
+  author: "SofiDev"
+  repo: "https://github.com/SofiDevO/sofidev-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SofiDev.sofidev"
 colors:
   bg: "#1E2030"
   fg: "#CAD3F5"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 278
+  pair: null
   contrast:
     fg: 78.1
     black: 56

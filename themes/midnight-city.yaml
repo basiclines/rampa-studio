@@ -1,11 +1,11 @@
 name: "Midnight City"
 source:
-  marketplace_id: "dillonchanis.midnight-city"
-  version: "0.6.0"
-  installs: 44289
-  author: "Dillon Chanis"
-  repo: "https://github.com/dillonchanis/theme-midnight-city"
-  url: "https://marketplace.visualstudio.com/items?itemName=dillonchanis.midnight-city"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#0D011E"
   fg: "#FFFFD8"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 300
+  pair: null
   contrast:
     fg: 106
     black: 0

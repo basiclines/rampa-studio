@@ -2,7 +2,7 @@ name: "Catppuccin Mocha"
 source:
   marketplace_id: "skyrocket-qy.whisper"
   version: "0.1.3"
-  installs: 576
+  installs: 578
   author: "skyrocket-qy"
   repo: "https://github.com/skyrocket-qy/Whisper"
   url: "https://marketplace.visualstudio.com/items?itemName=skyrocket-qy.whisper"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 81.1
     black: 10.7

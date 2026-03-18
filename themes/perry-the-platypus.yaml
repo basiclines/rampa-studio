@@ -2,7 +2,7 @@ name: "Perry-the-platypus"
 source:
   marketplace_id: "ArkaBanerjee.compact-vs-code"
   version: "1.1.1"
-  installs: 103
+  installs: 106
   author: "Arka Banerjee"
   repo: "https://github.com/thearkabanerjee/Compact-VS-Code"
   url: "https://marketplace.visualstudio.com/items?itemName=ArkaBanerjee.compact-vs-code"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 261
+  pair: null
   contrast:
     fg: 63.6
     black: 0

@@ -2,7 +2,7 @@ name: "'80 Neon Vibes - Fluor"
 source:
   marketplace_id: "caiqueex.neon-beat"
   version: "0.0.5"
-  installs: 1202
+  installs: 1204
   author: "Caique Lourenço"
   repo: "https://github.com/caiqueex/neon-beat-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=caiqueex.neon-beat"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 250
+  pair: null
   contrast:
     fg: 84.8
     black: 0

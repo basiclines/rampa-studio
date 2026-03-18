@@ -2,7 +2,7 @@ name: "Moegi Dark"
 source:
   marketplace_id: "ddiu8081.moegi-theme"
   version: "0.7.1"
-  installs: 36944
+  installs: 36950
   author: "Diu"
   repo: "https://github.com/moegi-design/vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ddiu8081.moegi-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Moegi Light"
   contrast:
     fg: 83.9
     black: 0

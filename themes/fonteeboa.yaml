@@ -2,7 +2,7 @@ name: "fonteeboa"
 source:
   marketplace_id: "Fonteeboa.fonteeboa"
   version: "1.0.1"
-  installs: 390
+  installs: 392
   author: "Fonteeboa"
   repo: "https://github.com/fonteeboa/vscode-theme-fonteeboa"
   url: "https://marketplace.visualstudio.com/items?itemName=Fonteeboa.fonteeboa"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 244
+  pair: null
   contrast:
     fg: 107.7
     black: 0

@@ -1,11 +1,11 @@
 name: "New Moon"
 source:
-  marketplace_id: "taniarascia.new-moon-vscode"
-  version: "1.8.8"
-  installs: 117734
-  author: "Tania Rascia"
-  repo: "https://github.com/taniarascia/new-moon-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=taniarascia.new-moon-vscode"
+  marketplace_id: "ganevru.solid-moon-theme"
+  version: "0.0.7"
+  installs: 667
+  author: "ganevru"
+  repo: "https://github.com/ganevru/solid-moon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ganevru.solid-moon-theme"
 colors:
   bg: "#2D2D2D"
   fg: "#B3B9C5"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 60
     black: 18.6

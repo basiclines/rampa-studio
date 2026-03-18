@@ -2,7 +2,7 @@ name: "DevMedia Light"
 source:
   marketplace_id: "joaomjbraga.devmedia-theme"
   version: "1.1.0"
-  installs: 137
+  installs: 138
   author: "João M J Braga"
   repo: "https://github.com/joaomjbraga/devmedia-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=joaomjbraga.devmedia-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: "DevMedia Dark"
   contrast:
     fg: 92.5
     black: 96.4

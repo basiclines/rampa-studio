@@ -2,7 +2,7 @@ name: "sublime-vscode-theme"
 source:
   marketplace_id: "yurihs.sublime-vscode-theme"
   version: "1.5.0"
-  installs: 86323
+  installs: 86333
   author: "yurihs"
   repo: "https://github.com/yurihs/sublime-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=yurihs.sublime-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 115
+  pair: null
   contrast:
     fg: 99.5
     black: 0

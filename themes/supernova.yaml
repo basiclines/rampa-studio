@@ -1,49 +1,50 @@
-name: "Supernova"
+name: "superNova"
 source:
-  marketplace_id: "MikeBell.supernova-color-theme"
-  version: "0.1.6"
-  installs: 6737
-  author: "Mike Bell"
-  repo: "https://github.com/mikeybell/supernova-color-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=MikeBell.supernova-color-theme"
+  marketplace_id: "bvgross.supernova-theme"
+  version: "0.0.2"
+  installs: 269
+  author: "Bruno Ventura Gross"
+  repo: "https://github.com/bvgross/superNovaTheme.git#master"
+  url: "https://marketplace.visualstudio.com/items?itemName=bvgross.supernova-theme"
 colors:
-  bg: "#202633"
-  fg: "#D6DEEB"
-  black: "#202633"
-  red: "#E97178"
-  green: "#C3E88D"
-  yellow: "#F1DC3D"
-  blue: "#82AAFF"
-  magenta: "#C792EA"
-  cyan: "#89DDFF"
-  white: "#D6DEEB"
-  brightBlack: "#575656"
-  brightRed: "#E97178"
-  brightGreen: "#C3E88D"
-  brightYellow: "#F1DC3D"
-  brightBlue: "#82AAFF"
-  brightMagenta: "#C792EA"
-  brightCyan: "#89DDFF"
-  brightWhite: "#FFFFFF"
+  bg: "#282828"
+  fg: "#CFCFCF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
 meta:
   mode: "dark"
-  accent: "green"
-  hue: 265
+  accent: "pink"
+  hue: null
+  pair: null
   contrast:
-    fg: 83.1
+    fg: 74
     black: 0
-    red: 43.1
-    green: 82.1
-    yellow: 81.3
-    blue: 53.8
-    magenta: 51.7
-    cyan: 76.2
-    white: 83.1
-    brightBlack: 13.5
-    brightRed: 43.1
-    brightGreen: 82.1
-    brightYellow: 81.3
-    brightBlue: 53.8
-    brightMagenta: 51.7
-    brightCyan: 76.2
-    brightWhite: 104.8
+    red: 24.3
+    green: 50.6
+    yellow: 83.2
+    blue: 25
+    magenta: 27.3
+    cyan: 45.1
+    white: 87.6
+    brightBlack: 19.6
+    brightRed: 36.1
+    brightGreen: 61.1
+    brightYellow: 93.2
+    brightBlue: 37.6
+    brightMagenta: 42.9
+    brightCyan: 53
+    brightWhite: 87.6

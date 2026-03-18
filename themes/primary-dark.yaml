@@ -2,7 +2,7 @@ name: "Primary Dark"
 source:
   marketplace_id: "negativeone.primary-theme"
   version: "0.2.1"
-  installs: 230
+  installs: 231
   author: "negative.one"
   repo: "https://github.com/OliverDudgeon/primary-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=negativeone.primary-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 81
+  pair: "Primary Light"
   contrast:
     fg: 58.6
     black: 0

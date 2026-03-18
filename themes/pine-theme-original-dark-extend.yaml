@@ -2,7 +2,7 @@ name: "Pine Theme Original Dark Extend"
 source:
   marketplace_id: "salbert11.pinescript-helper"
   version: "3.4.3"
-  installs: 9795
+  installs: 9799
   author: "salbert11"
   repo: "https://github.com/salbert11/pinescript"
   url: "https://marketplace.visualstudio.com/items?itemName=salbert11.pinescript-helper"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "teal"
   hue: 274
+  pair: null
   contrast:
     fg: 106.9
     black: 0

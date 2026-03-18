@@ -1,11 +1,11 @@
 name: "Green Kingdom"
 source:
-  marketplace_id: "YesCode.inspiration"
-  version: "0.0.19"
-  installs: 1076
+  marketplace_id: "YesCode.morita"
+  version: "0.0.18"
+  installs: 228
   author: "YesCode"
-  repo: "https://github.com/yesomac/inspiration_themevsc"
-  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.inspiration"
+  repo: "https://github.com/yesomac/MyThemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.morita"
 colors:
   bg: "#2D2D53"
   fg: "#D1D1F1"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 282
+  pair: null
   contrast:
     fg: 74.8
     black: 0

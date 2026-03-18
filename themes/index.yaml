@@ -2,7 +2,7 @@ name: "index"
 source:
   marketplace_id: "sudoaugustin.vslook"
   version: "0.3.2"
-  installs: 10350
+  installs: 10351
   author: "Augustin Joseph"
   repo: "https://github.com/sudoaugustin/vslook"
   url: "https://marketplace.visualstudio.com/items?itemName=sudoaugustin.vslook"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 266
+  pair: null
   contrast:
     fg: 106.8
     black: 7.4

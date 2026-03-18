@@ -2,7 +2,7 @@ name: "WL-Cyber Punk"
 source:
   marketplace_id: "WatkinsLabs.cyber-punk"
   version: "1.0.1"
-  installs: 457
+  installs: 458
   author: "Watkins Labs"
   repo: "https://github.com/watkinslabs/vscode-theme-generator"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.cyber-punk"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 285
+  pair: null
   contrast:
     fg: 64.8
     black: 0

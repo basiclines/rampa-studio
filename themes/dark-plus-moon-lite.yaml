@@ -2,7 +2,7 @@ name: "dark  Plus  moon  lite"
 source:
   marketplace_id: "moondevaa.darkplusmoonlite"
   version: "0.8.7"
-  installs: 15869
+  installs: 15882
   author: "moondevaa"
   repo: "https://github.com/AaBbdev29/Darkplusmoonlite"
   url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.darkplusmoonlite"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 262
+  pair: null
   contrast:
     fg: 64.1
     black: 0

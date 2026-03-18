@@ -2,7 +2,7 @@ name: "Ghibli Sky (Light)"
 source:
   marketplace_id: "danibram.ghibli-inspired-theme"
   version: "1.0.0"
-  installs: 267
+  installs: 274
   author: "Daniel Biedma"
   repo: "https://github.com/danibram/ghibli-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=danibram.ghibli-inspired-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "yellow"
   hue: null
+  pair: null
   contrast:
     fg: 85.6
     black: 85.6

@@ -1,11 +1,11 @@
 name: "Pine FriZz"
 source:
-  marketplace_id: "frizLabz.pinescript-v5-vscode"
-  version: "0.1.7"
-  installs: 12635
-  author: "FFriZz"
-  repo: "https://github.com/FFriZ/Pine-Script-v5-VS-Code"
-  url: "https://marketplace.visualstudio.com/items?itemName=frizLabz.pinescript-v5-vscode"
+  marketplace_id: "TradesDontLie.pinescript-v6-vscode"
+  version: "0.1.0"
+  installs: 4946
+  author: "TradesDontLie"
+  repo: "https://github.com/yourusername/Pine-Script-v6-VS-Code"
+  url: "https://marketplace.visualstudio.com/items?itemName=TradesDontLie.pinescript-v6-vscode"
 colors:
   bg: "#22262E"
   fg: "#FFFFFF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 264
+  pair: null
   contrast:
     fg: 104.8
     black: 0

@@ -2,7 +2,7 @@ name: "Astro Dark"
 source:
   marketplace_id: "wicked-labs.astro-theme"
   version: "0.9.7"
-  installs: 5253
+  installs: 5255
   author: "Michael Andreuzza "
   repo: "https://github.com/michael-andreuzza/astro-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.astro-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: "Astro Light"
   contrast:
     fg: 46.6
     black: 107.4

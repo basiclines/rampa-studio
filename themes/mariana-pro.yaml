@@ -2,7 +2,7 @@ name: "Mariana (Pro)"
 source:
   marketplace_id: "rickynormandeau.mariana-pro"
   version: "3.0.12"
-  installs: 48805
+  installs: 48810
   author: "ricky.normandeau"
   repo: "https://github.com/n0rmand0/Mariana-Pro-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=rickynormandeau.mariana-pro"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 100.5
     black: 100.5

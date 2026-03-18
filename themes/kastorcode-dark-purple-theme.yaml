@@ -2,7 +2,7 @@ name: "KastorCode Dark Purple Theme"
 source:
   marketplace_id: "kastorcode.kastorcode-dark-purple-theme"
   version: "1.0.0"
-  installs: 4412
+  installs: 4413
   author: "KastorCode"
   repo: "https://github.com/kastorcode/kastorcode-dark-purple-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=kastorcode.kastorcode-dark-purple-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 294
+  pair: null
   contrast:
     fg: 107.8
     black: 30.4

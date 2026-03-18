@@ -2,7 +2,7 @@ name: "Andromeda"
 source:
   marketplace_id: "apoorvkhare07.andromeda-vscode"
   version: "1.1.0"
-  installs: 35967
+  installs: 35973
   author: "apoorvkhare07"
   repo: "https://github.com/apoorvkhare07/andromeda"
   url: "https://marketplace.visualstudio.com/items?itemName=apoorvkhare07.andromeda-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 107.7
     black: 22.9

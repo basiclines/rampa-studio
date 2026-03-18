@@ -2,7 +2,7 @@ name: "Syntax Palette"
 source:
   marketplace_id: "aqsa.syntax-palette"
   version: "0.0.5"
-  installs: 216
+  installs: 218
   author: "aqsa"
   repo: "https://github.com/Bacteria007/syntax-palette"
   url: "https://marketplace.visualstudio.com/items?itemName=aqsa.syntax-palette"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 267
+  pair: null
   contrast:
     fg: 99.2
     black: 0

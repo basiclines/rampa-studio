@@ -2,7 +2,7 @@ name: "Moon Violet Dark Plus"
 source:
   marketplace_id: "moondevaa.moon-violet-dark-plus"
   version: "0.1.9"
-  installs: 8121
+  installs: 8129
   author: "moondevaa"
   repo: "https://github.com/AaBbdev29/moon-violet-dark-plus"
   url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.moon-violet-dark-plus"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 91.1
     black: 0

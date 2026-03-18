@@ -2,7 +2,7 @@ name: "satoru-gojo-blue"
 source:
   marketplace_id: "dev-alm.satoru-gojo-theme"
   version: "0.1.8"
-  installs: 1310
+  installs: 1317
   author: "Gustavo Cezar de Almeida"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=dev-alm.satoru-gojo-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 89.5
     black: 0

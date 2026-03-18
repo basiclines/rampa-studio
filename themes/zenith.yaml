@@ -2,7 +2,7 @@ name: "Zenith"
 source:
   marketplace_id: "britown.vscode-theme-zenith"
   version: "0.0.23"
-  installs: 577
+  installs: 578
   author: "Britown"
   repo: "https://github.com/bkuzmanoski/vscode-theme-zenith"
   url: "https://marketplace.visualstudio.com/items?itemName=britown.vscode-theme-zenith"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 63.9
     black: 0

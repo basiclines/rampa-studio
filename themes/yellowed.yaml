@@ -2,7 +2,7 @@ name: "Yellowed"
 source:
   marketplace_id: "gael-lopes-da-silva.yellowed"
   version: "2.4.0"
-  installs: 2756
+  installs: 2757
   author: "Gaël Lopes Da Silva"
   repo: "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode"
   url: "https://marketplace.visualstudio.com/items?itemName=gael-lopes-da-silva.yellowed"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 105.1
     black: 0

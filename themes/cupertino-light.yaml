@@ -2,7 +2,7 @@ name: "Cupertino Light"
 source:
   marketplace_id: "EuraIndustries.cupertino-vscode"
   version: "1.3.1"
-  installs: 14
+  installs: 15
   author: "Eura Industries"
   repo: "https://github.com/eura-industries/cupertino-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=EuraIndustries.cupertino-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "Cupertino Dark"
   contrast:
     fg: 98.5
     black: 101.8

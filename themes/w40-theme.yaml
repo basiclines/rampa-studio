@@ -2,7 +2,7 @@ name: "w40 Theme"
 source:
   marketplace_id: "emersonsm.pinkcode-theme"
   version: "1.3.4"
-  installs: 698
+  installs: 702
   author: "emersonsm"
   repo: "https://github.com/emersonsm/pinkcode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=emersonsm.pinkcode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 264
+  pair: null
   contrast:
     fg: 89.5
     black: 0

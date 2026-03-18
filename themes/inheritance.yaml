@@ -2,7 +2,7 @@ name: "Inheritance"
 source:
   marketplace_id: "icao.inheritance"
   version: "0.3.0"
-  installs: 3310
+  installs: 3311
   author: "icao"
   repo: "https://github.com/icao/inheritance"
   url: "https://marketplace.visualstudio.com/items?itemName=icao.inheritance"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 71.3
     black: 0

@@ -2,7 +2,7 @@ name: "mono-cl"
 source:
   marketplace_id: "arx9781.mono-cl"
   version: "1.0.0"
-  installs: 1679
+  installs: 1680
   author: "arx9781"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=arx9781.mono-cl"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 79.3
     black: 0

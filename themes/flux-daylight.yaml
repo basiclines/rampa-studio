@@ -1,11 +1,11 @@
 name: "Flux Daylight"
 source:
-  marketplace_id: "CrappyCodeMaker.crappycode-theme"
-  version: "2.3.5"
-  installs: 1206
-  author: "Danil_Reznichenko_(Legacy)"
+  marketplace_id: "danilrez.flux-theme"
+  version: "2.5.1"
+  installs: 261
+  author: "Danil Reznichenko "
   repo: "https://github.com/danilrez/flux-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=danilrez.flux-theme"
 colors:
   bg: "#FFFFFF"
   fg: "#252B37"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 100.9
     black: 94.5

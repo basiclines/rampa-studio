@@ -2,7 +2,7 @@ name: "rextax bright! - Fork"
 source:
   marketplace_id: "xynny.prowhite-theme"
   version: "0.0.1"
-  installs: 1578
+  installs: 1580
   author: "xynny"
   repo: "https://github.com/xynnylol/vsthemes"
   url: "https://marketplace.visualstudio.com/items?itemName=xynny.prowhite-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 102.5
     black: 102.5

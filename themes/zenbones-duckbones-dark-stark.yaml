@@ -2,7 +2,7 @@ name: "Zenbones Duckbones Dark Stark"
 source:
   marketplace_id: "rpbritton.zenbones"
   version: "0.0.2"
-  installs: 2700
+  installs: 2701
   author: "rpbritton"
   repo: "https://github.com/rpbritton/zenbones.nvim"
   url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 277
+  pair: null
   contrast:
     fg: 94.9
     black: 0

@@ -2,7 +2,7 @@ name: "Forest Night - Ethereal Magic"
 source:
   marketplace_id: "forrest-knight.forest-night-theme"
   version: "1.0.3"
-  installs: 2762
+  installs: 2766
   author: "Forrest Knight"
   repo: "https://github.com/ForrestKnight/forest-night-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=forrest-knight.forest-night-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 233
+  pair: null
   contrast:
     fg: 75.9
     black: 0

@@ -2,7 +2,7 @@ name: "Fluffy Dark Theme"
 source:
   marketplace_id: "ayakoSky.fluffy-dark-theme"
   version: "0.0.6"
-  installs: 16560
+  installs: 16564
   author: "ayako"
   repo: "https://github.com/ayako02/fluff-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ayakoSky.fluffy-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 230
+  pair: null
   contrast:
     fg: 60.2
     black: 0

@@ -2,7 +2,7 @@ name: "Concoctis - Dark : Soft"
 source:
   marketplace_id: "wheredoesyourmindgo.gruvbox-concoctis"
   version: "10.30.27"
-  installs: 74043
+  installs: 74058
   author: "wheredoesyourmindgo"
   repo: "https://github.com/wheredoesyourmindgo/gruvbox-concoctis"
   url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-concoctis"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Concoctis - Light : Soft"
   contrast:
     fg: 63.8
     black: 0

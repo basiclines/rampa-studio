@@ -2,7 +2,7 @@ name: "Tokyo Night Blackout"
 source:
   marketplace_id: "EdmundYong.tokyo-night-blackout"
   version: "0.0.1"
-  installs: 1987
+  installs: 1991
   author: "Edmund Yong"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=EdmundYong.tokyo-night-blackout"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 60.9
     black: 0

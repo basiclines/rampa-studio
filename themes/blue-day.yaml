@@ -2,7 +2,7 @@ name: "Blue-Day"
 source:
   marketplace_id: "thiagobessimo.bluenight"
   version: "1.0.1"
-  installs: 1347
+  installs: 1348
   author: "Thiago P B Bessimo"
   repo: "https://github.com/thiagobessimo/bluenight"
   url: "https://marketplace.visualstudio.com/items?itemName=thiagobessimo.bluenight"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 101.7
     black: 0

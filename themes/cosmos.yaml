@@ -2,7 +2,7 @@ name: "cosmos"
 source:
   marketplace_id: "Ark-Platforms-Inc.galaxyum-theme-arkcorporation"
   version: "0.0.1"
-  installs: 302
+  installs: 303
   author: "Ark Platforms"
   repo: "https://github.com/ArkCorporation/Cosmic"
   url: "https://marketplace.visualstudio.com/items?itemName=Ark-Platforms-Inc.galaxyum-theme-arkcorporation"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 258
+  pair: null
   contrast:
     fg: 106.8
     black: 0

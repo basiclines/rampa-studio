@@ -2,7 +2,7 @@ name: "Cobalt9"
 source:
   marketplace_id: "pydemia.cobalt9"
   version: "1.4.2"
-  installs: 7244
+  installs: 7246
   author: "Youngju Jaden Kim"
   repo: "https://github.com/pydemia/pydemia-vscode-syntax/cobalt9"
   url: "https://marketplace.visualstudio.com/items?itemName=pydemia.cobalt9"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 242
+  pair: null
   contrast:
     fg: 105.2
     black: 0

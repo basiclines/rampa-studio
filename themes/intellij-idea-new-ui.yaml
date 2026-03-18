@@ -1,11 +1,11 @@
 name: "IntelliJ IDEA New UI"
 source:
-  marketplace_id: "compassak.intellij-idea-new-ui"
-  version: "1.4.0"
-  installs: 14999
-  author: "compassak"
-  repo: "https://github.com/compassak/vscode-intellij-idea-new-ui"
-  url: "https://marketplace.visualstudio.com/items?itemName=compassak.intellij-idea-new-ui"
+  marketplace_id: "AnandaBibekRay.intellij-idea-new-ui-theme"
+  version: "1.0.5"
+  installs: 23361
+  author: "Ananda Bibek Ray"
+  repo: "https://github.com/anandbibek/vscode-intellij-new-ui-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AnandaBibekRay.intellij-idea-new-ui-theme"
 colors:
   bg: "#FFFFFF"
   fg: "#000000"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 106
     black: 75.2

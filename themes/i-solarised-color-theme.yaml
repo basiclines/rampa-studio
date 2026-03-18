@@ -2,7 +2,7 @@ name: "i-solarised-color-theme"
 source:
   marketplace_id: "ctrlplusb.i-minimal-theme"
   version: "1.1.5"
-  installs: 10232
+  installs: 10233
   author: "ctrlplusb"
   repo: "https://github.com/ctrlplusb/i-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ctrlplusb.i-minimal-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 100.8
     black: 100.8

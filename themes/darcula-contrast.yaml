@@ -2,7 +2,7 @@ name: "Darcula Contrast"
 source:
   marketplace_id: "nashpatty.darculacontrast"
   version: "1.3.1"
-  installs: 1838
+  installs: 1842
   author: "nashpatty"
   repo: "https://github.com/nashpatty/vscode-darcula"
   url: "https://marketplace.visualstudio.com/items?itemName=nashpatty.darculacontrast"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 60.5
     black: 0

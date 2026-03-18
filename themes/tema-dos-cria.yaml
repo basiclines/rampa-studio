@@ -2,7 +2,7 @@ name: "Tema dos cria"
 source:
   marketplace_id: "nul0.tema-dos-cria"
   version: "0.0.1"
-  installs: 924
+  installs: 925
   author: "nul0"
   repo: "https://github.com/Nulo0/tema-dos-cria"
   url: "https://marketplace.visualstudio.com/items?itemName=nul0.tema-dos-cria"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 280
+  pair: null
   contrast:
     fg: 59.3
     black: 0

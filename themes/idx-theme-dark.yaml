@@ -2,7 +2,7 @@ name: "Idx Theme Dark"
 source:
   marketplace_id: "PabitraBanerjee.idx-dark-theme"
   version: "1.0.0"
-  installs: 6270
+  installs: 6273
   author: "Pabitra Banerjee"
   repo: "https://github.com/PB2204/IDX-Dark-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=PabitraBanerjee.idx-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 258
+  pair: null
   contrast:
     fg: 84.9
     black: 22.4

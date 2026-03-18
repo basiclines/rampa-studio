@@ -2,7 +2,7 @@ name: "WL-Amber Monitor"
 source:
   marketplace_id: "WatkinsLabs.amber-monitor"
   version: "1.0.1"
-  installs: 125
+  installs: 126
   author: "Watkins Labs"
   repo: "https://github.com/watkinslabs/vscode-theme-generator"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.amber-monitor"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 104
     black: 0

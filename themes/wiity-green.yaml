@@ -22,13 +22,14 @@ colors:
   brightGreen: "#33FF00"
   brightYellow: "#EEFF00"
   brightBlue: "#00E1FF"
-  brightMagenta: "#FF00FF"
+  brightMagenta: "#33FF00"
   brightCyan: "#00FFF7"
   brightWhite: "#BBFFAC"
 meta:
   mode: "dark"
-  accent: "pink"
+  accent: "green"
   hue: 145
+  pair: null
   contrast:
     fg: 88.7
     black: 0
@@ -44,6 +45,6 @@ meta:
     brightGreen: 86.6
     brightYellow: 100.1
     brightBlue: 76.8
-    brightMagenta: 45.9
+    brightMagenta: 86.6
     brightCyan: 91.5
     brightWhite: 96.3

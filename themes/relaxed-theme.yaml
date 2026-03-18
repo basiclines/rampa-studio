@@ -2,7 +2,7 @@ name: "Relaxed Theme"
 source:
   marketplace_id: "mischah.relaxed-theme"
   version: "1.0.5"
-  installs: 31466
+  installs: 31469
   author: "Michael Kühnel"
   repo: "https://github.com/Relaxed-Theme/vscode-theme-releaxed"
   url: "https://marketplace.visualstudio.com/items?itemName=mischah.relaxed-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 260
+  pair: null
   contrast:
     fg: 77.8
     black: 0

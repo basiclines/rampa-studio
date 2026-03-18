@@ -1,11 +1,11 @@
 name: "VS Code Next.Js"
 source:
-  marketplace_id: "ShayanAliJalbani.nextjs-theme"
+  marketplace_id: "ShayanAliJalbani.vs-nextjs"
   version: "0.0.1"
-  installs: 12564
+  installs: 1748
   author: "Shayan Ali Jalbani"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=ShayanAliJalbani.nextjs-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ShayanAliJalbani.vs-nextjs"
 colors:
   bg: "#0A0A0A"
   fg: "#EDEDED"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 96
     black: 0

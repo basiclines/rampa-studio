@@ -2,7 +2,7 @@ name: "White Winter"
 source:
   marketplace_id: "jker.white-winter"
   version: "1.0.1"
-  installs: 12430
+  installs: 12433
   author: "jker"
   repo: "https://github.com/guidolee/jker-white-winter"
   url: "https://marketplace.visualstudio.com/items?itemName=jker.white-winter"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 106
     black: 67.4

@@ -1,11 +1,11 @@
 name: "Vim Night"
 source:
-  marketplace_id: "Rasla.rassotheme"
-  version: "0.5.0"
-  installs: 74
+  marketplace_id: "Rasla.vimnight"
+  version: "0.4.0"
+  installs: 4326
   author: "Rasla"
   repo: "https://github.com/0xrasla/rassotheme"
-  url: "https://marketplace.visualstudio.com/items?itemName=Rasla.rassotheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rasla.vimnight"
 colors:
   bg: "#000000"
   fg: "#7436B1"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 17.6
     black: 0

@@ -2,7 +2,7 @@ name: "Video-Contrast"
 source:
   marketplace_id: "valentinesamuel.fallout-dark"
   version: "0.0.1"
-  installs: 2242
+  installs: 2243
   author: "valentine samuel"
   repo: "https://github.com/valentinesamuel/themes"
   url: "https://marketplace.visualstudio.com/items?itemName=valentinesamuel.fallout-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 107.9
     black: 0

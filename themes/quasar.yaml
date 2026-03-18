@@ -2,7 +2,7 @@ name: "Quasar"
 source:
   marketplace_id: "AarushAgarwal.quasar"
   version: "0.4.0"
-  installs: 1584
+  installs: 1585
   author: "Aarush Agarwal"
   repo: "https://github.com/AgarwalAarush/Quasar"
   url: "https://marketplace.visualstudio.com/items?itemName=AarushAgarwal.quasar"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 99.2
     black: 0

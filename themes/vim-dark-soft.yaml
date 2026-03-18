@@ -2,7 +2,7 @@ name: "Vim Dark Soft"
 source:
   marketplace_id: "HarryHopkinson.vim-theme"
   version: "1.1.8"
-  installs: 181121
+  installs: 181189
   author: "HarryHopkinson"
   repo: "https://github.com/Harry-Hopkinson/vim-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: "Vim Light Soft"
   contrast:
     fg: 80.2
     black: 0

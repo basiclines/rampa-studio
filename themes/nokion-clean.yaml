@@ -2,7 +2,7 @@ name: "Nokion Clean"
 source:
   marketplace_id: "NokionThemes.nokion-clean"
   version: "0.1.2"
-  installs: 293
+  installs: 294
   author: "Nokion"
   repo: "https://github.com/Vbrand01/nokion-clean"
   url: "https://marketplace.visualstudio.com/items?itemName=NokionThemes.nokion-clean"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 92.8
     black: 0

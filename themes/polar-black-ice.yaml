@@ -2,7 +2,7 @@ name: "Polar Black Ice"
 source:
   marketplace_id: "nionx01.polar-black-themes"
   version: "0.0.5"
-  installs: 184
+  installs: 190
   author: "nionx01"
   repo: "https://github.com/nionx01/polar-black-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=nionx01.polar-black-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "blue"
   hue: null
+  pair: null
   contrast:
     fg: 93.8
     black: 0

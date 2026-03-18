@@ -1,14 +1,14 @@
 name: "Solarized (light)"
 source:
-  marketplace_id: "zicong-zhang1996.theme-diy"
-  version: "2.0.0"
-  installs: 99
-  author: "zicong-zhang1996"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=zicong-zhang1996.theme-diy"
+  marketplace_id: "Braver.vscode-solarized"
+  version: "2.1.0"
+  installs: 38112
+  author: "Koen Lageveen"
+  repo: "https://github.com/braver/vscode-solarized"
+  url: "https://marketplace.visualstudio.com/items?itemName=Braver.vscode-solarized"
 colors:
-  bg: "#FAF8E8"
-  fg: "#000000"
+  bg: "#FDF6E3"
+  fg: "#657B83"
   black: "#073642"
   red: "#DC322F"
   green: "#859900"
@@ -17,33 +17,34 @@ colors:
   magenta: "#D33682"
   cyan: "#2AA198"
   white: "#EEE8D5"
-  brightBlack: "#586E75"
+  brightBlack: "#002B36"
   brightRed: "#CB4B16"
   brightGreen: "#586E75"
   brightYellow: "#657B83"
   brightBlue: "#839496"
   brightMagenta: "#6C71C4"
   brightCyan: "#93A1A1"
-  brightWhite: "#EEE8D5"
+  brightWhite: "#FDF6E3"
 meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
-    fg: 101.5
-    black: 94.4
-    red: 65.9
-    green: 54.5
-    yellow: 54.5
-    blue: 59.3
-    magenta: 65.7
-    cyan: 53.7
+    fg: 65.7
+    black: 93.7
+    red: 65.3
+    green: 53.8
+    yellow: 53.8
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
     white: 0
-    brightBlack: 72.2
-    brightRed: 66.4
-    brightGreen: 72.2
-    brightYellow: 66.3
-    brightBlue: 54.2
-    brightMagenta: 65.6
-    brightCyan: 47.4
+    brightBlack: 96.4
+    brightRed: 65.8
+    brightGreen: 71.6
+    brightYellow: 65.7
+    brightBlue: 53.5
+    brightMagenta: 65
+    brightCyan: 46.7
     brightWhite: 0

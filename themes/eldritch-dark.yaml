@@ -2,7 +2,7 @@ name: "Eldritch Dark"
 source:
   marketplace_id: "Eldritch.eldritch"
   version: "1.1.1"
-  installs: 1477
+  installs: 1478
   author: "Eldritch"
   repo: "https://github.com/eldritch-theme/eldritch"
   url: "https://marketplace.visualstudio.com/items?itemName=Eldritch.eldritch"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 278
+  pair: null
   contrast:
     fg: 101.2
     black: 0

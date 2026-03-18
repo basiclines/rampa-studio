@@ -2,7 +2,7 @@ name: "Office Light"
 source:
   marketplace_id: "PowerTech.powerthemes"
   version: "23.1.31"
-  installs: 6957
+  installs: 6961
   author: "PowerTech"
   repo: "https://github.com/powertech-center/vscode-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=PowerTech.powerthemes"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "yellow"
   hue: null
+  pair: "Office Dark"
   contrast:
     fg: 106
     black: 106

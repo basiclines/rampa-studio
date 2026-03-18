@@ -2,7 +2,7 @@ name: "HyprLuna"
 source:
   marketplace_id: "HyprLuna.hyprluna-theme"
   version: "1.0.2"
-  installs: 1276
+  installs: 1279
   author: "HyprLuna"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=HyprLuna.hyprluna-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 26
+  pair: null
   contrast:
     fg: 88.5
     black: 42.1

@@ -2,7 +2,7 @@ name: "Cobalt3Dark"
 source:
   marketplace_id: "hendrikbeutlin.Cobalt3Dark"
   version: "0.5.0"
-  installs: 1521
+  installs: 1522
   author: "hendrikbeutlin"
   repo: "https://github.com/hendrikbeutlin/Cobalt3Dark"
   url: "https://marketplace.visualstudio.com/items?itemName=hendrikbeutlin.Cobalt3Dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 241
+  pair: null
   contrast:
     fg: 91.5
     black: 0

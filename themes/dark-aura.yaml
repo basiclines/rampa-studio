@@ -2,7 +2,7 @@ name: "Dark Aura"
 source:
   marketplace_id: "Furqan.dark-aura-theme"
   version: "1.0.0"
-  installs: 847
+  installs: 850
   author: "Furqan"
   repo: "https://github.com/furqanistic/darkaura"
   url: "https://marketplace.visualstudio.com/items?itemName=Furqan.dark-aura-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 285
+  pair: null
   contrast:
     fg: 93.1
     black: 0

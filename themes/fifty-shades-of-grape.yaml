@@ -2,7 +2,7 @@ name: "Fifty Shades of Grape"
 source:
   marketplace_id: "ChenYefet.fifty-shades-of-grape"
   version: "0.56.0"
-  installs: 1234
+  installs: 1235
   author: "Chen Yefet"
   repo: "https://github.com/ChenYefet/fifty-shades-of-grape"
   url: "https://marketplace.visualstudio.com/items?itemName=ChenYefet.fifty-shades-of-grape"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 297
+  pair: null
   contrast:
     fg: 83.1
     black: 43.6

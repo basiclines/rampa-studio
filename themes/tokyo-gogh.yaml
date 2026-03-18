@@ -2,7 +2,7 @@ name: "Tokyo Gogh"
 source:
   marketplace_id: "Avetis.tokyo-night"
   version: "1.0.2"
-  installs: 110908
+  installs: 110968
   author: "Avetis"
   repo: "https://github.com/AvetisDN/tokyo-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Avetis.tokyo-night"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 275
+  pair: null
   contrast:
     fg: 71.7
     black: 0

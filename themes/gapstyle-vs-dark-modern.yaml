@@ -2,7 +2,7 @@ name: "GapStyle VS Dark Modern"
 source:
   marketplace_id: "gaplo917.gapstylevs"
   version: "2.2.0"
-  installs: 8662
+  installs: 8666
   author: "Gary Lo"
   repo: "https://github.com/gaplo917/GapStyle"
   url: "https://marketplace.visualstudio.com/items?itemName=gaplo917.gapstylevs"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 73.7
     black: 0

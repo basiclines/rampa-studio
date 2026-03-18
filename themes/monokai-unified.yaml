@@ -1,11 +1,11 @@
 name: "Monokai++ Unified"
 source:
-  marketplace_id: "dcasella.monokai-plusplus"
-  version: "2.0.4"
-  installs: 246540
-  author: "Davide Casella"
-  repo: "https://github.com/dcasella/monokai-plusplus"
-  url: "https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus"
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3736
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
 colors:
   bg: "#1C1C1C"
   fg: "#CCCCCC"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 74.1
     black: 0

@@ -2,7 +2,7 @@ name: "Ash Lumen Light"
 source:
   marketplace_id: "edfl.ash-lumen"
   version: "0.1.0"
-  installs: 9
+  installs: 11
   author: "edfl"
   repo: "https://github.com/emersxw/edfl"
   url: "https://marketplace.visualstudio.com/items?itemName=edfl.ash-lumen"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 77.9
     black: 77.9

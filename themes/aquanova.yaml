@@ -2,7 +2,7 @@ name: "AquaNova"
 source:
   marketplace_id: "AarMagic.aquanova"
   version: "0.0.5"
-  installs: 231
+  installs: 232
   author: "AarWeb"
   repo: "https://github.com/aarweb/aquanova"
   url: "https://marketplace.visualstudio.com/items?itemName=AarMagic.aquanova"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 81.9
     black: 0

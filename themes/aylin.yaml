@@ -2,7 +2,7 @@ name: "Aylin"
 source:
   marketplace_id: "AhmedAbdulrahman.aylin"
   version: "1.13.0"
-  installs: 9802
+  installs: 9805
   author: "Ahmed Abdulrahman"
   repo: "https://github.com/AhmedAbdulrahman/aylin-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AhmedAbdulrahman.aylin"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 264
+  pair: null
   contrast:
     fg: 73.3
     black: 0

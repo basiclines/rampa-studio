@@ -2,7 +2,7 @@ name: "sargam"
 source:
   marketplace_id: "sargam.sargam"
   version: "0.1.2"
-  installs: 74
+  installs: 75
   author: "sargam"
   repo: "https://github.com/SargamDesign/sargam-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sargam.sargam"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 90.6
     black: 27.8

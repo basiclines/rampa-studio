@@ -2,7 +2,7 @@ name: "Islands Light"
 source:
   marketplace_id: "kangsou.islands-theme"
   version: "1.0.5"
-  installs: 2877
+  installs: 2889
   author: "kangsou"
   repo: "https://github.com/guxiaohui/islands-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=kangsou.islands-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "Islands Dark"
   contrast:
     fg: 105.9
     black: 106

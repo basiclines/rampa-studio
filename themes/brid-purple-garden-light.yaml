@@ -2,7 +2,7 @@ name: "Brid Purple Garden Light"
 source:
   marketplace_id: "layon-extensions.brid-purple-garden"
   version: "1.0.0"
-  installs: 8
+  installs: 10
   author: "layon-extensions"
   repo: "https://github.com/Fernando-Leon/theme-brid"
   url: "https://marketplace.visualstudio.com/items?itemName=layon-extensions.brid-purple-garden"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "magenta"
   hue: null
+  pair: "Brid Purple Garden Dark"
   contrast:
     fg: 93.6
     black: 93.6

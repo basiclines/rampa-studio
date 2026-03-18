@@ -2,7 +2,7 @@ name: "Cobalt Next Dark"
 source:
   marketplace_id: "dline.CobaltNext"
   version: "0.4.5"
-  installs: 125771
+  installs: 125787
   author: "David Leininger"
   repo: "https://github.com/davidleininger/cobaltnext-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=dline.CobaltNext"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 233
+  pair: null
   contrast:
     fg: 106.5
     black: 0

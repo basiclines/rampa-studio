@@ -2,7 +2,7 @@ name: "Notion Code Theme"
 source:
   marketplace_id: "HarshitGangwar.notion-code-theme"
   version: "0.0.2"
-  installs: 5257
+  installs: 5258
   author: "Harshit Gangwar"
   repo: "https://github.com/harshjoeyit/vscode-notion-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=HarshitGangwar.notion-code-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 92.6
     black: 84.9

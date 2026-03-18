@@ -1,11 +1,11 @@
 name: "Best Themes - One Monokai"
 source:
-  marketplace_id: "lakshits11.best-themes-redefined"
-  version: "0.4.6"
-  installs: 145966
-  author: "Lakshit Somani"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=lakshits11.best-themes-redefined"
+  marketplace_id: "EstevamSouza.the-best-themes-for-programmers"
+  version: "1.1.0"
+  installs: 4137
+  author: "Estevam Souza"
+  repo: "https://github.com/estevam5s/extensions"
+  url: "https://marketplace.visualstudio.com/items?itemName=EstevamSouza.the-best-themes-for-programmers"
 colors:
   bg: "#1E222A"
   fg: "#ABB2BF"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 264
+  pair: null
   contrast:
     fg: 58
     black: 0

@@ -2,7 +2,7 @@ name: "Adey Coder"
 source:
   marketplace_id: "AdeyCoder.adey-coder-dark"
   version: "1.0.3"
-  installs: 1786
+  installs: 1787
   author: "Adey Coder"
   repo: "https://github.com/yohanstesfaye/adey-coder-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=AdeyCoder.adey-coder-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 144
+  pair: null
   contrast:
     fg: 106.3
     black: 0

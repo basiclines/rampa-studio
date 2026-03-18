@@ -2,7 +2,7 @@ name: "Quarkus Dark Theme"
 source:
   marketplace_id: "tsurdilovic.theme-quarkus-dark"
   version: "0.0.1"
-  installs: 8880
+  installs: 8881
   author: "Tihomir Surdilovic"
   repo: "https://github.com/tsurdilo/theme-quarkus-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=tsurdilovic.theme-quarkus-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 278
+  pair: null
   contrast:
     fg: 40.8
     black: 0

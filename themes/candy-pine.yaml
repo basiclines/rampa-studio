@@ -2,7 +2,7 @@ name: "Candy Pine"
 source:
   marketplace_id: "yuschick.candy-pine"
   version: "0.2.5"
-  installs: 1594
+  installs: 1596
   author: "Yuschick"
   repo: "https://github.com/candy-pine/vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=yuschick.candy-pine"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 291
+  pair: null
   contrast:
     fg: 88.7
     black: 0

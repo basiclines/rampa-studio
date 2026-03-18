@@ -2,7 +2,7 @@ name: "Cold Python Theme"
 source:
   marketplace_id: "nparamonov.cold-python-theme"
   version: "1.14.1"
-  installs: 31692
+  installs: 31709
   author: "nparamonov"
   repo: "https://github.com/nparamonov/vscode-cold-python-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=nparamonov.cold-python-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 65.5
     black: 0

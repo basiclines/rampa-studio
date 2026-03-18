@@ -2,7 +2,7 @@ name: "Lumon Theme"
 source:
   marketplace_id: "cluzier.lumon"
   version: "0.0.42"
-  installs: 206
+  installs: 208
   author: "Conner Luzier"
   repo: "https://github.com/cluzier/lumon"
   url: "https://marketplace.visualstudio.com/items?itemName=cluzier.lumon"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 230
+  pair: null
   contrast:
     fg: 80.9
     black: 0

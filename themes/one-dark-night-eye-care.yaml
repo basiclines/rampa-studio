@@ -2,7 +2,7 @@ name: "One Dark Night - Eye Care"
 source:
   marketplace_id: "sojibahmed.one-dark-night-theme"
   version: "0.0.7"
-  installs: 1362
+  installs: 1363
   author: "sojibAhmedSafi"
   repo: "https://github.com/SojibAhmed114/One-Dark-Night-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sojibahmed.one-dark-night-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 269
+  pair: null
   contrast:
     fg: 56.2
     black: 16.5

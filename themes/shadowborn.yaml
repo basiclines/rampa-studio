@@ -2,7 +2,7 @@ name: "Shadowborn"
 source:
   marketplace_id: "RyzenFromFire.vscode-shadowborn-theme"
   version: "1.0.2"
-  installs: 438
+  installs: 439
   author: "RyzenFromFire"
   repo: "https://github.com/RyzenFromFire/vscode-shadowborn"
   url: "https://marketplace.visualstudio.com/items?itemName=RyzenFromFire.vscode-shadowborn-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 73.5
     black: 0

@@ -2,7 +2,7 @@ name: "DomTheme"
 source:
   marketplace_id: "DomTheme.DomTheme"
   version: "0.0.1"
-  installs: 2261
+  installs: 2262
   author: "DomTheme"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=DomTheme.DomTheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 24.3
     black: 7.3

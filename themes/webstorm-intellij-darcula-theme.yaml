@@ -2,7 +2,7 @@ name: "Webstorm IntelliJ Darcula Theme"
 source:
   marketplace_id: "xr0master.webstorm-intellij-darcula-theme"
   version: "1.1.1"
-  installs: 131586
+  installs: 131610
   author: "Sergey Khomushin"
   repo: "https://github.com/xr0master/vscode-intellij-darcula-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=xr0master.webstorm-intellij-darcula-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 58.5
     black: 103.8

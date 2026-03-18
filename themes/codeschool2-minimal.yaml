@@ -2,7 +2,7 @@ name: "CodeSchool2 Minimal"
 source:
   marketplace_id: "gargakshit.theme-alabaster-dark"
   version: "0.1.3"
-  installs: 4222
+  installs: 4225
   author: "Akshit Garg"
   repo: "https://github.com/gargakshit/vscode-theme-alabaster-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=gargakshit.theme-alabaster-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 76.2
     black: 0

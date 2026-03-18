@@ -2,7 +2,7 @@ name: "spyder-theme-light"
 source:
   marketplace_id: "HilsianCapital.spyder-theme"
   version: "0.0.3"
-  installs: 6895
+  installs: 6902
   author: "HilsianCapital"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=HilsianCapital.spyder-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 94.3
     black: 15.8

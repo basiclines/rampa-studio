@@ -2,7 +2,7 @@ name: "Papaya"
 source:
   marketplace_id: "fethalen.papaya"
   version: "0.1.2"
-  installs: 4323
+  installs: 4328
   author: "fethalen"
   repo: "git://github.com/fethalen/papaya"
   url: "https://marketplace.visualstudio.com/items?itemName=fethalen.papaya"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 293
+  pair: null
   contrast:
     fg: 75.3
     black: 0

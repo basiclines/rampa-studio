@@ -2,7 +2,7 @@ name: "Anthropic"
 source:
   marketplace_id: "bryanr.anthropic-theme"
   version: "0.0.1"
-  installs: 966
+  installs: 970
   author: "Bryan Russett"
   repo: "https://github.com/od0/anthropic-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=bryanr.anthropic-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 76.2
     black: 0

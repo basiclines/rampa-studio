@@ -2,7 +2,7 @@ name: "Tailwind Moon Blue"
 source:
   marketplace_id: "shadowblood.tailwind-moon"
   version: "3.0.2"
-  installs: 43876
+  installs: 43889
   author: "Lucia Lovelace"
   repo: "https://github.com/luciascarlet/tailwind-moon-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=shadowblood.tailwind-moon"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 260
+  pair: null
   contrast:
     fg: 88.9
     black: 0

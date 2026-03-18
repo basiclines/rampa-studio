@@ -2,7 +2,7 @@ name: "sourc"
 source:
   marketplace_id: "vitormalencar.sourc"
   version: "0.4.0"
-  installs: 1269
+  installs: 1270
   author: "Vitor Alencar"
   repo: "git+https://github.com/vitormalencar/sourc"
   url: "https://marketplace.visualstudio.com/items?itemName=vitormalencar.sourc"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 227
+  pair: null
   contrast:
     fg: 65.6
     black: 0

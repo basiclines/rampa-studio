@@ -2,7 +2,7 @@ name: "Deep Rainforest"
 source:
   marketplace_id: "yeskunall.deep-rainforest"
   version: "0.3.0"
-  installs: 646
+  installs: 647
   author: "Kunall Banerjee"
   repo: "https://github.com/yeskunall/deep-rainforest"
   url: "https://marketplace.visualstudio.com/items?itemName=yeskunall.deep-rainforest"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 222
+  pair: null
   contrast:
     fg: 18.7
     black: 0

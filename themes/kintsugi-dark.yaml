@@ -2,7 +2,7 @@ name: "Kintsugi Dark"
 source:
   marketplace_id: "ahmedhatem.kintsugi"
   version: "0.1.1"
-  installs: 543
+  installs: 544
   author: "Ahmed Hatem"
   repo: "https://github.com/ahatem/vscode-kintsugi"
   url: "https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "indigo"
   hue: null
+  pair: "Kintsugi Light"
   contrast:
     fg: 85.1
     black: 0

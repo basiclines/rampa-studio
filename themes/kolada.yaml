@@ -2,7 +2,7 @@ name: "Kolada"
 source:
   marketplace_id: "KaliaHayes.kolada"
   version: "0.4.0"
-  installs: 7953
+  installs: 7962
   author: "Kalia Hayes"
   repo: "https://github.com/KaliaHayes/Kolada-VS-Code-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=KaliaHayes.kolada"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 107.9
     black: 7.5

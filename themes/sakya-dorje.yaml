@@ -2,7 +2,7 @@ name: "Sakya Dorje"
 source:
   marketplace_id: "mouselee.sakya-theme"
   version: "0.2.0"
-  installs: 16
+  installs: 19
   author: "mouselee"
   repo: "https://github.com/XuanLee-HEALER/sakya-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=mouselee.sakya-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 284
+  pair: null
   contrast:
     fg: 86.8
     black: 0

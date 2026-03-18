@@ -2,7 +2,7 @@ name: "Caffeinated Rust"
 source:
   marketplace_id: "CaffeinatedMinds.caffeinated-rust-dark"
   version: "0.1.0"
-  installs: 139
+  installs: 140
   author: "Caffeinated Minds"
   repo: "https://github.com/caffeinated-minds/caffeinated-rust"
   url: "https://marketplace.visualstudio.com/items?itemName=CaffeinatedMinds.caffeinated-rust-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 94.8
     black: 0

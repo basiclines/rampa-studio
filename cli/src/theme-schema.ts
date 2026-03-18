@@ -8,6 +8,8 @@ export interface ThemeSource {
   marketplace_id: string;
   version: string;
   installs: number;
+  rating: number;
+  ratings: number;
   url: string;
   author: string;
   repo: string | null;
@@ -58,6 +60,7 @@ export interface ThemeMeta {
   mode: 'dark' | 'light';
   accent: string;
   hue: number | null;
+  pair: string | null;
   contrast: ThemeContrast;
 }
 
@@ -177,6 +180,8 @@ export function serializeThemeYAML(theme: ThemeYAML): string {
   lines.push(`  marketplace_id: "${theme.source.marketplace_id}"`);
   lines.push(`  version: "${theme.source.version}"`);
   lines.push(`  installs: ${theme.source.installs}`);
+  lines.push(`  rating: ${Math.round((theme.source.rating || 0) * 100) / 100}`);
+  lines.push(`  ratings: ${theme.source.ratings || 0}`);
   lines.push(`  author: "${theme.source.author}"`);
   lines.push(`  repo: ${theme.source.repo ? '"' + theme.source.repo + '"' : 'null'}`);
   lines.push(`  url: "${theme.source.url}"`);
@@ -190,6 +195,7 @@ export function serializeThemeYAML(theme: ThemeYAML): string {
   lines.push(`  mode: "${theme.meta.mode}"`);
   lines.push(`  accent: "${theme.meta.accent}"`);
   lines.push(`  hue: ${theme.meta.hue === null ? 'null' : theme.meta.hue}`);
+  lines.push(`  pair: ${theme.meta.pair ? '"' + theme.meta.pair + '"' : 'null'}`);
   lines.push('  contrast:');
   for (const key of ['fg', ...ANSI_KEYS]) {
     const val = theme.meta.contrast[key as keyof ThemeContrast];

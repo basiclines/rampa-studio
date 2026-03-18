@@ -2,7 +2,7 @@ name: "Purple Dark Theme - Unicode"
 source:
   marketplace_id: "LeehXD.unicode-purple-dark-theme"
   version: "0.0.4"
-  installs: 959
+  installs: 960
   author: "leehxd"
   repo: "https://github.com/LeehXD/unicode-purple-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=LeehXD.unicode-purple-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 102.6
     black: 0

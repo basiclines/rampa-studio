@@ -2,7 +2,7 @@ name: "Poolside"
 source:
   marketplace_id: "nsgrantham.poolside"
   version: "1.2.0"
-  installs: 695
+  installs: 696
   author: "nsgrantham"
   repo: "https://github.com/nsgrantham/poolside-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=nsgrantham.poolside"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 289
+  pair: null
   contrast:
     fg: 96.6
     black: 17.7

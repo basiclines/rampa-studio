@@ -1,11 +1,11 @@
 name: "Rito"
 source:
-  marketplace_id: "EminBayrak.rito-dark-italic"
-  version: "0.0.3"
-  installs: 794
+  marketplace_id: "EminBayrak.rito-dark"
+  version: "0.0.2"
+  installs: 76
   author: "Emin Bayrak"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=EminBayrak.rito-dark-italic"
+  url: "https://marketplace.visualstudio.com/items?itemName=EminBayrak.rito-dark"
 colors:
   bg: "#32373D"
   fg: "#D4D4D4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 253
+  pair: null
   contrast:
     fg: 73.7
     black: 0

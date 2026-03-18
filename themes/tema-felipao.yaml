@@ -1,11 +1,11 @@
 name: "tema felipao"
 source:
-  marketplace_id: "FelipeGalati.felipaptest"
+  marketplace_id: "FelipeGalati.felipaotema"
   version: "0.0.1"
-  installs: 64
+  installs: 54
   author: "Felipe Galati"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=FelipeGalati.felipaptest"
+  url: "https://marketplace.visualstudio.com/items?itemName=FelipeGalati.felipaotema"
 colors:
   bg: "#0E0619"
   fg: "#B2ACBC"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 302
+  pair: null
   contrast:
     fg: 58.5
     black: 0

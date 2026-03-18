@@ -2,7 +2,7 @@ name: "Apollo Light"
 source:
   marketplace_id: "lufutu.apollo-theme"
   version: "1.0.0"
-  installs: 148
+  installs: 149
   author: "lufutu"
   repo: "https://github.com/lufutu/apollo-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=lufutu.apollo-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: null
+  pair: "Apollo Dark"
   contrast:
     fg: 94.7
     black: 94.7

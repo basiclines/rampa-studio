@@ -2,7 +2,7 @@ name: "Retro Keyboard Dark"
 source:
   marketplace_id: "nicolasmengual.retro-keyboard-theme"
   version: "1.1.2"
-  installs: 63
+  installs: 64
   author: "Nicolás Mengual"
   repo: "https://github.com/nmengual/retro-keyboard-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=nicolasmengual.retro-keyboard-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 67
+  pair: "Retro Keyboard Light"
   contrast:
     fg: 88
     black: 0

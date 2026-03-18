@@ -2,7 +2,7 @@ name: "One-Piece-High-Contrast"
 source:
   marketplace_id: "TeteDeCactus.onepiece-dark-theme"
   version: "0.0.1"
-  installs: 7811
+  installs: 7812
   author: "TeteDeCactus"
   repo: "https://github.com/tetedecactus/VScode-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=TeteDeCactus.onepiece-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 90.5
     black: 0

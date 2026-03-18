@@ -2,7 +2,7 @@ name: "Korean Dancheong Dark"
 source:
   marketplace_id: "weston0713.korean-dancheong-dark"
   version: "1.1.2"
-  installs: 189
+  installs: 190
   author: "weston0713"
   repo: "https://github.com/HC-kang/korean-dancheong-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=weston0713.korean-dancheong-dark"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 163
+  pair: null
   contrast:
     fg: 88.6
     black: 0

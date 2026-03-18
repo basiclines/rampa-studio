@@ -2,7 +2,7 @@ name: "Huacat Pink Dark"
 source:
   marketplace_id: "huacat.pink-theme"
   version: "1.1.2"
-  installs: 71463
+  installs: 71499
   author: "huacat"
   repo: "https://github.com/huacat1017/huacat.pink-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=huacat.pink-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 327
+  pair: null
   contrast:
     fg: 65
     black: 0

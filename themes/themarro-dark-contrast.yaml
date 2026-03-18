@@ -2,7 +2,7 @@ name: "Themarro Dark Contrast"
 source:
   marketplace_id: "aelmessaarab.themarro"
   version: "0.1.2"
-  installs: 10029
+  installs: 10032
   author: "aelmessaarab"
   repo: "https://github.com/adamthecro/Themarro"
   url: "https://marketplace.visualstudio.com/items?itemName=aelmessaarab.themarro"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 251
+  pair: null
   contrast:
     fg: 80.4
     black: 8.7

@@ -2,7 +2,7 @@ name: "Solarized Monokai (dark)"
 source:
   marketplace_id: "linjing.solarized-dark-monokai"
   version: "1.0.0"
-  installs: 5
+  installs: 6
   author: "linjing"
   repo: "https://github.com/quickmove/solarized-dark-monokai"
   url: "https://marketplace.visualstudio.com/items?itemName=linjing.solarized-dark-monokai"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 221
+  pair: null
   contrast:
     fg: 40.2
     black: 0

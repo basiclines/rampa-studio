@@ -1,49 +1,50 @@
 name: "Mayukai"
 source:
-  marketplace_id: "GulajavaMinistudio.mayukaithemevsc"
-  version: "3.2.5"
-  installs: 359345
-  author: "GulajavaMinistudio"
-  repo: "https://github.com/GulajavaMinistudio/Mayukai-Theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=GulajavaMinistudio.mayukaithemevsc"
+  marketplace_id: "rafaelburghausen.rafa-theme"
+  version: "3.0.6"
+  installs: 1204
+  author: "rafaelburghausen"
+  repo: "https://github.com/marcos-burghausen/Extensao-Rafa"
+  url: "https://marketplace.visualstudio.com/items?itemName=rafaelburghausen.rafa-theme"
 colors:
-  bg: "#0D1016"
-  fg: "#DADBC0"
-  black: "#01060E"
-  red: "#EA6C73"
-  green: "#91B362"
-  yellow: "#F9AF4F"
+  bg: "#141824"
+  fg: "#CBCEBC"
+  black: "#191E2A"
+  red: "#ED8274"
+  green: "#A6CC70"
+  yellow: "#FAD07B"
   blue: "#95E6CB"
-  magenta: "#FAE994"
-  cyan: "#90E1C6"
+  magenta: "#CFBAFA"
+  cyan: "#95E6CB"
   white: "#C7C7C7"
   brightBlack: "#686868"
-  brightRed: "#F07178"
-  brightGreen: "#C2D94C"
-  brightYellow: "#FFB454"
+  brightRed: "#F28779"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFD580"
   brightBlue: "#95E6CB"
-  brightMagenta: "#FFEE99"
+  brightMagenta: "#D4BFFF"
   brightCyan: "#95E6CB"
   brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
   accent: "green"
-  hue: 264
+  hue: 270
+  pair: null
   contrast:
-    fg: 83.1
+    fg: 74.6
     black: 0
-    red: 44.6
-    green: 54.8
-    yellow: 67.2
-    blue: 81.4
-    magenta: 92.6
-    cyan: 78.4
-    white: 72.3
-    brightBlack: 23.5
-    brightRed: 47.2
-    brightGreen: 76.5
-    brightYellow: 70.1
-    brightBlue: 81.4
-    brightMagenta: 95.8
-    brightCyan: 81.4
-    brightWhite: 107.4
+    red: 50.2
+    green: 67.3
+    yellow: 80.3
+    blue: 80.7
+    magenta: 69.9
+    cyan: 80.7
+    white: 71.5
+    brightBlack: 22.7
+    brightRed: 52.7
+    brightGreen: 81.8
+    brightYellow: 83.4
+    brightBlue: 80.7
+    brightMagenta: 72.8
+    brightCyan: 80.7
+    brightWhite: 106.7

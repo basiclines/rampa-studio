@@ -2,7 +2,7 @@ name: "Unity Theme"
 source:
   marketplace_id: "TallesSouza.Unity-theme"
   version: "1.1.0"
-  installs: 1389
+  installs: 1392
   author: "Talles Souza"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=TallesSouza.Unity-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 107.6
     black: 15.5

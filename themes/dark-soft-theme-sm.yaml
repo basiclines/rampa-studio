@@ -2,7 +2,7 @@ name: "Dark Soft Theme(SM)"
 source:
   marketplace_id: "SIRILMP.dark-theme-sm"
   version: "3.11.3"
-  installs: 21064
+  installs: 21087
   author: "SIRIL M P"
   repo: "https://github.com/sirilmp/dark-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=SIRILMP.dark-theme-sm"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 264
+  pair: null
   contrast:
     fg: 68.6
     black: 0

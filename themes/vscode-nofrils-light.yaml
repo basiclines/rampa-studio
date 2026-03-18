@@ -1,11 +1,11 @@
 name: "VSCode Nofrils Light"
 source:
-  marketplace_id: "batteajd.vscode-nofrils-light"
-  version: "1.1.1"
-  installs: 7
+  marketplace_id: "batteajd.vscode-nofrils"
+  version: "2.2.0"
+  installs: 102
   author: "Jonathan Batteas"
-  repo: "https://github.com/urld/vscode-nofrils"
-  url: "https://marketplace.visualstudio.com/items?itemName=batteajd.vscode-nofrils-light"
+  repo: "https://github.com/sosukeinu/vscode-nofrils"
+  url: "https://marketplace.visualstudio.com/items?itemName=batteajd.vscode-nofrils"
 colors:
   bg: "#DADADA"
   fg: "#000000"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "green"
   hue: null
+  pair: "VSCode Nofrils Dark"
   contrast:
     fg: 84.4
     black: 84.4

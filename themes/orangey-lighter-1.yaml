@@ -2,7 +2,7 @@ name: "Orangey (Lighter 1)"
 source:
   marketplace_id: "ricafolio.orangey-vscode-theme"
   version: "1.1.1"
-  installs: 969
+  installs: 973
   author: "ricafolio"
   repo: "https://github.com/ricafolio/orangey-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ricafolio.orangey-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 89.5
     black: 0

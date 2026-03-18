@@ -2,7 +2,7 @@ name: "Pare Colors Theme"
 source:
   marketplace_id: "jliima.pare-colors-theme"
   version: "1.0.1"
-  installs: 1271
+  installs: 1272
   author: "Jere Liimatainen"
   repo: "https://github.com/jliima/vscode-pare-colors-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=jliima.pare-colors-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 246
+  pair: null
   contrast:
     fg: 83
     black: 0

@@ -2,7 +2,7 @@ name: "Zenitria AMOLED"
 source:
   marketplace_id: "Zenitria.zenitria-amoled"
   version: "1.0.2"
-  installs: 2551
+  installs: 2553
   author: "Zenitria"
   repo: "https://github.com/Zenitria/zenitria-amoled-vsc"
   url: "https://marketplace.visualstudio.com/items?itemName=Zenitria.zenitria-amoled"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 47.2
     black: 0

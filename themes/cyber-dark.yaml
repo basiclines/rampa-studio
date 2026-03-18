@@ -1,11 +1,11 @@
 name: "Cyber Dark"
 source:
-  marketplace_id: "tryToDEv.cyber-dark-theme-collection"
-  version: "1.0.0"
-  installs: 22
+  marketplace_id: "tryToDEv.cyber-qoder-themes"
+  version: "1.2.0"
+  installs: 15
   author: "tryToDEv"
   repo: "https://github.com/shivam20/cyber-dark-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=tryToDEv.cyber-dark-theme-collection"
+  url: "https://marketplace.visualstudio.com/items?itemName=tryToDEv.cyber-qoder-themes"
 colors:
   bg: "#0D1117"
   fg: "#C9D1D9"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 258
+  pair: "Cyber Light"
   contrast:
     fg: 77.5
     black: 0

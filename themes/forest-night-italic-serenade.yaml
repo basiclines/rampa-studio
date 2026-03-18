@@ -2,7 +2,7 @@ name: "Forest Night (Italic) Serenade"
 source:
   marketplace_id: "rul3r.forest-night-serenade"
   version: "0.1.9"
-  installs: 2139
+  installs: 2140
   author: "rul3r"
   repo: "https://github.com/rul3rst4/forest-night-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=rul3r.forest-night-serenade"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 232
+  pair: null
   contrast:
     fg: 66.9
     black: 0

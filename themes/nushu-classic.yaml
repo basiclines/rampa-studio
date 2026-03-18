@@ -2,7 +2,7 @@ name: "Nushu Classic"
 source:
   marketplace_id: "wheredoesyourmindgo.nushu-vscode-theme"
   version: "2.2.18"
-  installs: 32055
+  installs: 32063
   author: "wheredoesyourmindgo"
   repo: "https://github.com/wheredoesyourmindgo/nushu-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.nushu-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 96.2
     black: 17.1

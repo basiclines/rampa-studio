@@ -2,7 +2,7 @@ name: "new-sphere"
 source:
   marketplace_id: "FSharaf.new-sphere"
   version: "0.1.1"
-  installs: 277
+  installs: 279
   author: "Sharaf Feyzullayev"
   repo: "https://github.com/FSharafff/new-sphere"
   url: "https://marketplace.visualstudio.com/items?itemName=FSharaf.new-sphere"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 80.3
     black: 0

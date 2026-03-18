@@ -2,7 +2,7 @@ name: "Hellfire"
 source:
   marketplace_id: "AlexCharbonneau.hellfire-theme"
   version: "1.0.5"
-  installs: 22
+  installs: 23
   author: "Alex Charbonneau"
   repo: "https://github.com/alexandrec90/hellfire_theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AlexCharbonneau.hellfire-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 29
+  pair: null
   contrast:
     fg: 73.8
     black: 0

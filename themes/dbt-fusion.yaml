@@ -2,7 +2,7 @@ name: "dbt Fusion"
 source:
   marketplace_id: "dbtLabsInc.dbt"
   version: "0.54.0"
-  installs: 76524
+  installs: 76805
   author: "dbt Labs Inc"
   repo: "https://github.com/dbt-labs/dbt-fusion"
   url: "https://marketplace.visualstudio.com/items?itemName=dbtLabsInc.dbt"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 261
+  pair: null
   contrast:
     fg: 84.8
     black: 12

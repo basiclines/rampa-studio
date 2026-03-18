@@ -2,7 +2,7 @@ name: "marcoSven"
 source:
   marketplace_id: "marcoSven.marcosventheme"
   version: "1.0.4"
-  installs: 481
+  installs: 482
   author: "marcoSven"
   repo: "https://github.com/marcoSven/masrcoSven_VSCode"
   url: "https://marketplace.visualstudio.com/items?itemName=marcoSven.marcosventheme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: null
+  pair: null
   contrast:
     fg: 58
     black: 0

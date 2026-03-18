@@ -2,7 +2,7 @@ name: "Steffula"
 source:
   marketplace_id: "steffo.steffula-code"
   version: "0.15.2"
-  installs: 330
+  installs: 331
   author: "Stefano Pigozzi"
   repo: "https://forge.steffo.eu/steffo/steffula-code"
   url: "https://marketplace.visualstudio.com/items?itemName=steffo.steffula-code"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 58.5
     black: 0

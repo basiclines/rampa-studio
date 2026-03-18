@@ -2,7 +2,7 @@ name: "WL-Misty Mountain"
 source:
   marketplace_id: "WatkinsLabs.misty-mountain"
   version: "1.0.1"
-  installs: 30
+  installs: 31
   author: "Watkins Labs"
   repo: "https://github.com/watkinslabs/vscode-theme-generator"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.misty-mountain"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 149
+  pair: null
   contrast:
     fg: 97.9
     black: 0

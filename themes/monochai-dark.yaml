@@ -1,11 +1,11 @@
 name: "Monochai Dark"
 source:
-  marketplace_id: "JesusChavez.chi-chavez"
-  version: "1.0.4"
-  installs: 31
-  author: "Jesus Chavez"
-  repo: "https://github.com/chavezutajara/themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=JesusChavez.chi-chavez"
+  marketplace_id: "381181295.monochai"
+  version: "1.0.5"
+  installs: 213
+  author: "381181295"
+  repo: "https://github.com/381181295/monochai"
+  url: "https://marketplace.visualstudio.com/items?itemName=381181295.monochai"
 colors:
   bg: "#101010"
   fg: "#AAAAAA"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "yellow"
   hue: null
+  pair: null
   contrast:
     fg: 55.8
     black: 0

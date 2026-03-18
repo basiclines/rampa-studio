@@ -2,7 +2,7 @@ name: "Solarized+"
 source:
   marketplace_id: "SzilardLeventeFarkas.solarizedplus"
   version: "1.0.2"
-  installs: 4826
+  installs: 4827
   author: "Szilard Levente Farkas"
   repo: "https://github.com/CrHasher/SolarizedPlus"
   url: "https://marketplace.visualstudio.com/items?itemName=SzilardLeventeFarkas.solarizedplus"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 220
+  pair: null
   contrast:
     fg: 39.5
     black: 0

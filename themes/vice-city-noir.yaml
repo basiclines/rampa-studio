@@ -2,7 +2,7 @@ name: "Vice City Noir"
 source:
   marketplace_id: "Wasted69.dark-theme-sos"
   version: "2.7.0"
-  installs: 402
+  installs: 403
   author: "Wasted"
   repo: "https://github.com/riel-fas/VScode_theme_extension"
   url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 251
+  pair: null
   contrast:
     fg: 106.5
     black: 0

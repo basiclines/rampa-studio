@@ -2,7 +2,7 @@ name: "GreyStillPlays"
 source:
   marketplace_id: "jaredbest.greystillplays-vscode"
   version: "0.0.2"
-  installs: 5741
+  installs: 5742
   author: "Jared Best"
   repo: "https://github.com/jaredbest/greystillplays-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=jaredbest.greystillplays-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 49.7
     black: 0

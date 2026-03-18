@@ -1,49 +1,50 @@
 name: "Vim Light Soft"
 source:
-  marketplace_id: "HarryHopkinson.vim-theme"
-  version: "1.1.8"
-  installs: 181121
-  author: "HarryHopkinson"
-  repo: "https://github.com/Harry-Hopkinson/vim-vscode-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme"
+  marketplace_id: "AndreaCombette.SweetWood"
+  version: "0.5.5"
+  installs: 249
+  author: "AndreaCombette"
+  repo: "https://github.com/Chatr0uge/SweetWood-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreaCombette.SweetWood"
 colors:
-  bg: "#F2E5BC"
-  fg: "#3C3836"
-  black: "#EBDBB2"
-  red: "#CC241D"
-  green: "#98971A"
-  yellow: "#D79921"
-  blue: "#458588"
-  magenta: "#B16286"
-  cyan: "#689D6A"
-  white: "#7C6F64"
-  brightBlack: "#928374"
-  brightRed: "#9D0006"
-  brightGreen: "#79740E"
-  brightYellow: "#B57614"
-  brightBlue: "#076678"
-  brightMagenta: "#8F3F71"
-  brightCyan: "#427B58"
-  brightWhite: "#3C3836"
+  bg: "#D6DFEE"
+  fg: "#3D2D27"
+  black: "#D6DFEE"
+  red: "#975F0E"
+  green: "#B5761A"
+  yellow: "#D0850D"
+  blue: "#5D768F"
+  magenta: "#767A7E"
+  cyan: "#767A7E"
+  white: "#656A6B"
+  brightBlack: "#767A7E"
+  brightRed: "#794115"
+  brightGreen: "#975F0E"
+  brightYellow: "#B5761A"
+  brightBlue: "#495D65"
+  brightMagenta: "#855D44"
+  brightCyan: "#495D65"
+  brightWhite: "#3D2D27"
 meta:
   mode: "light"
-  accent: "orange"
-  hue: 93
+  accent: "yellow"
+  hue: 261
+  pair: "Vim Dark Soft"
   contrast:
-    fg: 81.5
+    fg: 80.1
     black: 0
-    red: 60.3
-    green: 42.6
-    yellow: 33.3
-    blue: 53.9
-    magenta: 53.8
-    cyan: 43.6
-    white: 58.6
-    brightBlack: 49.1
-    brightRed: 71.8
-    brightGreen: 58.4
-    brightYellow: 49.8
-    brightBlue: 67
-    brightMagenta: 67.5
-    brightCyan: 59.2
-    brightWhite: 81.5
+    red: 56.9
+    green: 45.7
+    yellow: 36.9
+    blue: 53.5
+    magenta: 50.8
+    cyan: 50.8
+    white: 58.2
+    brightBlack: 50.8
+    brightRed: 68.6
+    brightGreen: 56.9
+    brightYellow: 45.7
+    brightBlue: 64.7
+    brightMagenta: 59.5
+    brightCyan: 64.7
+    brightWhite: 80.1

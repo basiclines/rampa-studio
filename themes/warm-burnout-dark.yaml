@@ -2,7 +2,7 @@ name: "warm-burnout-dark"
 source:
   marketplace_id: "felip3fdl.warm-burnout"
   version: "0.1.6"
-  installs: 14
+  installs: 15
   author: "Felipe F Lima"
   repo: "https://github.com/felipefdl/warm-burnout"
   url: "https://marketplace.visualstudio.com/items?itemName=felip3fdl.warm-burnout"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 67
+  pair: null
   contrast:
     fg: 65.9
     black: 0

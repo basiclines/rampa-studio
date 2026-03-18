@@ -2,7 +2,7 @@ name: "MagicUser Light"
 source:
   marketplace_id: "BernardoPires.magicuser-color-themes"
   version: "8.5.2"
-  installs: 1704
+  installs: 1705
   author: "Bernardo Pires"
   repo: "https://github.com/drbap/magicuser-themes-for-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "MagicUser Night"
   contrast:
     fg: 106
     black: 105.4

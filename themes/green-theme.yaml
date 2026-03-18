@@ -2,7 +2,7 @@ name: "green-theme"
 source:
   marketplace_id: "flyyn2.green-theme"
   version: "1.0.2"
-  installs: 2721
+  installs: 2722
   author: "flyyn2"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=flyyn2.green-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "red"
   hue: 148
+  pair: null
   contrast:
     fg: 75.1
     black: 80.9

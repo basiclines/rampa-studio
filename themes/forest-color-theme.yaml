@@ -2,7 +2,7 @@ name: "forest-color-theme"
 source:
   marketplace_id: "feb19.theme-forest"
   version: "0.1.1"
-  installs: 3191
+  installs: 3192
   author: "feb19"
   repo: "https://github.com/feb19/theme-forest"
   url: "https://marketplace.visualstudio.com/items?itemName=feb19.theme-forest"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 67
     black: 0

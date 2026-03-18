@@ -2,7 +2,7 @@ name: "oxocarbon-port"
 source:
   marketplace_id: "beamlnwza.oxocarbon-port"
   version: "0.0.2"
-  installs: 1122
+  installs: 1123
   author: "beamlnwza"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=beamlnwza.oxocarbon-port"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 10
     black: 0

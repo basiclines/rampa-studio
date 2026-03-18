@@ -2,7 +2,7 @@ name: "rainbow-material-theme"
 source:
   marketplace_id: "yasgreen93.rainbow-material-theme"
   version: "0.3.0"
-  installs: 3285
+  installs: 3287
   author: "yasgreen93"
   repo: "https://github.com/yasgreen93/rainbow-material-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=yasgreen93.rainbow-material-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 61.9
     black: 0

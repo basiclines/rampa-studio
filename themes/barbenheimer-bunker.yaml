@@ -2,7 +2,7 @@ name: "Barbenheimer Bunker"
 source:
   marketplace_id: "jayvicsanantonio.barbenheimer"
   version: "1.0.0"
-  installs: 4071
+  installs: 4072
   author: "Jayvic San Antonio"
   repo: "https://github.com/jayvicsanantonio/barbenheimer-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=jayvicsanantonio.barbenheimer"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 108
+  pair: null
   contrast:
     fg: 68.9
     black: 0

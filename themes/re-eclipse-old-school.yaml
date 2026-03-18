@@ -2,7 +2,7 @@ name: "re:Eclipse Old School"
 source:
   marketplace_id: "Cydo.re-theme"
   version: "3.0.0"
-  installs: 695
+  installs: 696
   author: "Cydo"
   repo: "https://github.com/CydoEntis/reThemes"
   url: "https://marketplace.visualstudio.com/items?itemName=Cydo.re-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 103.3
     black: 105.6

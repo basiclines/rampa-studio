@@ -2,7 +2,7 @@ name: "GAME MODE"
 source:
   marketplace_id: "sfkmt.game-mode-theme"
   version: "1.0.4"
-  installs: 855
+  installs: 856
   author: "sfkmt"
   repo: "https://github.com/sfkmt/gamemode"
   url: "https://marketplace.visualstudio.com/items?itemName=sfkmt.game-mode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 269
+  pair: null
   contrast:
     fg: 87.4
     black: 0

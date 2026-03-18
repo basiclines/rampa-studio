@@ -2,7 +2,7 @@ name: "luiz-dark-theme"
 source:
   marketplace_id: "LUIZDARKTHEME.luiz-dark-theme"
   version: "0.0.8"
-  installs: 2945
+  installs: 2946
   author: "LUIZ DARK THEME"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=LUIZDARKTHEME.luiz-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 107.6
     black: 0

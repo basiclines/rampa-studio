@@ -2,7 +2,7 @@ name: "Flatcap"
 source:
   marketplace_id: "cheycron.flatcap-theme"
   version: "1.1.0"
-  installs: 116
+  installs: 117
   author: "cheycron"
   repo: "https://github.com/cheycron/flatcap-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 76.1
     black: 0

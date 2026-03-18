@@ -2,7 +2,7 @@ name: "Jammy Jellyfish"
 source:
   marketplace_id: "kevinnorman.jammy-jellyfish-color-theme"
   version: "1.1.1"
-  installs: 7081
+  installs: 7085
   author: "Kevin Norman"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=kevinnorman.jammy-jellyfish-color-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 60.2
     black: 0

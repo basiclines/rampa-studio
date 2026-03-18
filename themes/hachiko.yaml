@@ -2,7 +2,7 @@ name: "Hachiko"
 source:
   marketplace_id: "charlottielove.kitty-hachiko"
   version: "0.0.1"
-  installs: 19
+  installs: 20
   author: "charlottielove"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=charlottielove.kitty-hachiko"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 75.2
     black: 0

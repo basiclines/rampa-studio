@@ -2,7 +2,7 @@ name: "Green Valley Neo"
 source:
   marketplace_id: "helciopenha.green-valley"
   version: "1.0.1"
-  installs: 773
+  installs: 774
   author: "Helcio Penha"
   repo: "https://github.com/helciopenha/green-valley-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=helciopenha.green-valley"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 100.7
     black: 0

@@ -2,7 +2,7 @@ name: "Posh"
 source:
   marketplace_id: "lucasdecastro.posh"
   version: "1.0.6"
-  installs: 491
+  installs: 492
   author: "Lucas de Castro"
   repo: "https://github.com/lucasdecstro/posh"
   url: "https://marketplace.visualstudio.com/items?itemName=lucasdecastro.posh"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 91.8
     black: 0

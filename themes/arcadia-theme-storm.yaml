@@ -1,11 +1,11 @@
 name: "Arcadia Theme Storm"
 source:
-  marketplace_id: "Kodi.arcadia-theme"
+  marketplace_id: "Kodi.kuiro-theme"
   version: "1.3.2"
-  installs: 1149
+  installs: 59
   author: "Moti"
-  repo: "https://github.com/motidev/arcadia-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=Kodi.arcadia-theme"
+  repo: "https://github.com/motidev/kuiro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kodi.kuiro-theme"
 colors:
   bg: "#1A1B27"
   fg: "#9DA5B4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 281
+  pair: null
   contrast:
     fg: 51.7
     black: 26.1

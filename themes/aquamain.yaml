@@ -2,7 +2,7 @@ name: "AquaMain"
 source:
   marketplace_id: "JohnnyBoySou.aqua-main"
   version: "0.0.9"
-  installs: 1646
+  installs: 1650
   author: "JohnnyBoySou"
   repo: "https://github.com/JohnnyBoySou/aqua-main"
   url: "https://marketplace.visualstudio.com/items?itemName=JohnnyBoySou.aqua-main"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 270
+  pair: null
   contrast:
     fg: 106.7
     black: 52.4

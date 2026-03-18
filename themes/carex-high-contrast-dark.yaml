@@ -2,7 +2,7 @@ name: "Carex High Contrast Dark"
 source:
   marketplace_id: "OMERBABACO.carex-theme"
   version: "2.0.0"
-  installs: 43
+  installs: 45
   author: "OMERBABACO"
   repo: "https://github.com/babajoeltdsti/carex-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=OMERBABACO.carex-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 107.9
     black: 0

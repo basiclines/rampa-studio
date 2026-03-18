@@ -2,7 +2,7 @@ name: "Vesper ++"
 source:
   marketplace_id: "opedrodev.vesper-pp-lighter"
   version: "1.0.1"
-  installs: 1465
+  installs: 1467
   author: "opedrodev"
   repo: "https://github.com/opedrodev/vesper"
   url: "https://marketplace.visualstudio.com/items?itemName=opedrodev.vesper-pp-lighter"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 107
     black: 0

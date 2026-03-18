@@ -2,7 +2,7 @@ name: "natasha-theme"
 source:
   marketplace_id: "LucasAlmeida.natasha-tema"
   version: "1.6.0"
-  installs: 1804
+  installs: 1805
   author: "Lucas Almeida"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=LucasAlmeida.natasha-tema"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 297
+  pair: null
   contrast:
     fg: 105.9
     black: 0

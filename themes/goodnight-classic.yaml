@@ -2,7 +2,7 @@ name: "Goodnight Classic"
 source:
   marketplace_id: "MatheusPiovezan.Goodnight"
   version: "0.0.7"
-  installs: 2769
+  installs: 2770
   author: "Matheus Piovezan"
   repo: "https://github.com/MatheusPiovezan/vscode-theme-goodnight"
   url: "https://marketplace.visualstudio.com/items?itemName=MatheusPiovezan.Goodnight"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 267
+  pair: null
   contrast:
     fg: 23.1
     black: 9.8

@@ -2,7 +2,7 @@ name: "Luke Skywriter"
 source:
   marketplace_id: "Dutchorange.space-wars"
   version: "1.1.7"
-  installs: 1710
+  installs: 1711
   author: "Dutchorange"
   repo: "https://github.com/entropy-glitch/space-wars"
   url: "https://marketplace.visualstudio.com/items?itemName=Dutchorange.space-wars"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 256
+  pair: null
   contrast:
     fg: 89.8
     black: 0

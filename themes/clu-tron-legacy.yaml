@@ -2,7 +2,7 @@ name: "CLU Tron Legacy"
 source:
   marketplace_id: "rubenzn.encom-tron-legacy"
   version: "1.0.0"
-  installs: 60
+  installs: 61
   author: "rubenzn"
   repo: "https://github.com/ruben-cxtx/best-tron-legacy-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=rubenzn.encom-tron-legacy"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 82
+  pair: null
   contrast:
     fg: 87.8
     black: 0

@@ -2,7 +2,7 @@ name: "Nord Native"
 source:
   marketplace_id: "divanvisagie.nord-native-theme"
   version: "0.0.7"
-  installs: 9775
+  installs: 9781
   author: "Divan Visagie"
   repo: "git+https://github.com/divanvisagie/nord-native"
   url: "https://marketplace.visualstudio.com/items?itemName=divanvisagie.nord-native-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 81.5
     black: 0

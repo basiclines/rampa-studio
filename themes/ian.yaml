@@ -2,7 +2,7 @@ name: "ian"
 source:
   marketplace_id: "iansergio.Dark-theme-ian"
   version: "0.0.1"
-  installs: 75
+  installs: 76
   author: "Ian Sergio H."
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=iansergio.Dark-theme-ian"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 86.7
     black: 0

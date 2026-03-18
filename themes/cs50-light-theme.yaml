@@ -2,7 +2,7 @@ name: "cs50-light-theme"
 source:
   marketplace_id: "whitehat4u.cs50-theme-harvard"
   version: "1.1.0"
-  installs: 4449
+  installs: 4452
   author: "juan santos"
   repo: "https://github.com/juanpumpkinpie/cs50-theme-harvard"
   url: "https://marketplace.visualstudio.com/items?itemName=whitehat4u.cs50-theme-harvard"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 90
     black: 90

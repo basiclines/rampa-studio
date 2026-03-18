@@ -2,7 +2,7 @@ name: "defdo base"
 source:
   marketplace_id: "defdo.defdo-themes"
   version: "0.0.15"
-  installs: 1254
+  installs: 1255
   author: "defdo"
   repo: "https://github.com/defdo-dev/defdo-vscode-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=defdo.defdo-themes"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 233
+  pair: null
   contrast:
     fg: 104.1
     black: 0

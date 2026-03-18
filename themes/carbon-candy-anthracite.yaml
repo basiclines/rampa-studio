@@ -2,7 +2,7 @@ name: "carbon-candy-anthracite"
 source:
   marketplace_id: "viral-team.carbon-candy"
   version: "0.2.9"
-  installs: 835
+  installs: 842
   author: "Viral Team Theme"
   repo: "https://github.com/viral-team/carbon-candy-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=viral-team.carbon-candy"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 73.4
     black: 0

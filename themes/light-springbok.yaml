@@ -2,7 +2,7 @@ name: "Light Springbok"
 source:
   marketplace_id: "chrp.springbok-theme"
   version: "0.12.0"
-  installs: 620
+  installs: 621
   author: "chrp"
   repo: "https://github.com/christophehurpeau/springbok-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=chrp.springbok-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: "Dark Springbok"
   contrast:
     fg: 73.7
     black: 69.6

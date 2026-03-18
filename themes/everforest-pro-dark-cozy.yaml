@@ -2,7 +2,7 @@ name: "Everforest Pro Dark Cozy"
 source:
   marketplace_id: "AndreiLucaci.everforest-pro"
   version: "2.0.0"
-  installs: 2464
+  installs: 2489
   author: "Andrei Lucaci"
   repo: "https://github.com/AndreiLucaci/everforest-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=AndreiLucaci.everforest-pro"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 241
+  pair: "Everforest Pro Light Cozy"
   contrast:
     fg: 64.6
     black: 0

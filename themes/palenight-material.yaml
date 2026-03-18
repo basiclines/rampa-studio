@@ -2,7 +2,7 @@ name: "Palenight Material"
 source:
   marketplace_id: "Lebster.enough-with-the-palenight"
   version: "1.0.6"
-  installs: 7172
+  installs: 7176
   author: "Lebster"
   repo: "https://github.com/LebsterFace/enough-with-the-palenight"
   url: "https://marketplace.visualstudio.com/items?itemName=Lebster.enough-with-the-palenight"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 274
+  pair: null
   contrast:
     fg: 67.7
     black: 0

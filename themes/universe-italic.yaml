@@ -2,7 +2,7 @@ name: "Universe Italic"
 source:
   marketplace_id: "MatiasOlivera.universe"
   version: "1.9.0"
-  installs: 20196
+  installs: 20199
   author: "Matías Olivera"
   repo: "https://github.com/MatiasOlivera/universe-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MatiasOlivera.universe"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 263
+  pair: null
   contrast:
     fg: 82.4
     black: 0

@@ -2,7 +2,7 @@ name: "Ash & Ember"
 source:
   marketplace_id: "InnaSodri.ash-ember-theme"
   version: "0.0.3"
-  installs: 127
+  installs: 129
   author: "Inna Sodri"
   repo: "https://example.com/inna/ash-ember-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=InnaSodri.ash-ember-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 95.5
     black: 0

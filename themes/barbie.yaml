@@ -2,7 +2,7 @@ name: "Barbie"
 source:
   marketplace_id: "Miraz007.Barbie"
   version: "0.0.2"
-  installs: 5930
+  installs: 5936
   author: "Miraz"
   repo: "https://github.com/PiyushYadav007/Barbie-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=Miraz007.Barbie"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: 324
+  pair: null
   contrast:
     fg: 85.4
     black: 85.4

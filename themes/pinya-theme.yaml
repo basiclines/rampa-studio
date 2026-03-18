@@ -2,7 +2,7 @@ name: "Pinya Theme"
 source:
   marketplace_id: "Pinya.pinya-theme"
   version: "1.0.16"
-  installs: 112
+  installs: 113
   author: "Pinya"
   repo: "https://github.com/CarlesRojas/pinya-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Pinya.pinya-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 89.7
     black: 0

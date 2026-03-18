@@ -2,7 +2,7 @@ name: "NihilLeaf-Theme"
 source:
   marketplace_id: "NihilLeaf.nihilleaf-theme"
   version: "1.0.3"
-  installs: 835
+  installs: 874
   author: "NihilLeaf"
   repo: "https://github.com/NihilLeaf/NihilLeaf-VScode-Green-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=NihilLeaf.nihilleaf-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 233
+  pair: null
   contrast:
     fg: 95.2
     black: 0

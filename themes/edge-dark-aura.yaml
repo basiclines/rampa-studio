@@ -2,7 +2,7 @@ name: "Edge Dark (Aura)"
 source:
   marketplace_id: "sainnhe.edge"
   version: "0.1.8"
-  installs: 20558
+  installs: 20560
   author: "sainnhe"
   repo: "https://github.com/sainnhe/edge-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.edge"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 276
+  pair: null
   contrast:
     fg: 71.3
     black: 0

@@ -2,7 +2,7 @@ name: "Total Lunar Eclipse"
 source:
   marketplace_id: "ginfuru.lunar-eclipse"
   version: "0.1.4"
-  installs: 10309
+  installs: 10316
   author: "Ed Heltzel"
   repo: "https://github.com/edheltzel/vscode-lunar-eclipse-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ginfuru.lunar-eclipse"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 59.5
     black: 32.6

@@ -2,7 +2,7 @@ name: "Alchemy Theme"
 source:
   marketplace_id: "thgmhz.alchemy"
   version: "1.1.0"
-  installs: 425
+  installs: 426
   author: "thgmhz"
   repo: "https://github.com/thgmhz/alchemy-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=thgmhz.alchemy"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 301
+  pair: null
   contrast:
     fg: 89.3
     black: 0

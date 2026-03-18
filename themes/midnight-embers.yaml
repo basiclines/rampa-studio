@@ -2,7 +2,7 @@ name: "Midnight Embers"
 source:
   marketplace_id: "ShadowSlayer.midnightembers"
   version: "1.0.0"
-  installs: 158
+  installs: 159
   author: "ShadowSlayer"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=ShadowSlayer.midnightembers"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 14.8
     black: 0

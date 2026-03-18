@@ -1,11 +1,11 @@
 name: "Amoled Dark Theme"
 source:
-  marketplace_id: "HasibX2000.slab-theme"
-  version: "0.0.3"
-  installs: 3734
-  author: "Hasibur Rahman"
-  repo: "https://github.com/HasibX2000/SLab"
-  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+  marketplace_id: "rendinjast.amoled-black"
+  version: "0.1.0"
+  installs: 58362
+  author: "Erfan khadivar"
+  repo: "https://github.com/rendinjast/amoled-black"
+  url: "https://marketplace.visualstudio.com/items?itemName=rendinjast.amoled-black"
 colors:
   bg: "#0E0E0E"
   fg: "#999999"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 46.9
     black: 0

@@ -2,7 +2,7 @@ name: "Shades-Of-Blue"
 source:
   marketplace_id: "bakrimoharram.shades-of-blue"
   version: "0.0.6"
-  installs: 1964
+  installs: 1965
   author: "bakrimoharram"
   repo: "https://github.com/bakrimoharram/shades-of-blue"
   url: "https://marketplace.visualstudio.com/items?itemName=bakrimoharram.shades-of-blue"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 268
+  pair: null
   contrast:
     fg: 31.6
     black: 0

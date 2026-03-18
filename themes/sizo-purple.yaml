@@ -2,7 +2,7 @@ name: "Sizo Purple"
 source:
   marketplace_id: "Sizo.sizo-purple"
   version: "1.0.3"
-  installs: 47
+  installs: 48
   author: "Sizo"
   repo: "https://github.com/sizoroot/vscode-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=Sizo.sizo-purple"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 74.2
     black: 0

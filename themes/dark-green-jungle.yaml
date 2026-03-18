@@ -1,11 +1,11 @@
 name: "Dark Green Jungle"
 source:
-  marketplace_id: "moondevaa.DarkGreenJungle"
-  version: "0.4.3"
-  installs: 29594
-  author: "moondevaa"
-  repo: "https://github.com/AaBbdev29/Dark-Green-Jungle"
-  url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.DarkGreenJungle"
+  marketplace_id: "SecureDev01.vscode-multi-themes"
+  version: "0.0.51"
+  installs: 1840
+  author: "SecureDev"
+  repo: "https://github.com/codewithevilxd/vscode-multi-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes"
 colors:
   bg: "#18211E"
   fg: "#D4D4D4"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 173
+  pair: null
   contrast:
     fg: 78.5
     black: 0

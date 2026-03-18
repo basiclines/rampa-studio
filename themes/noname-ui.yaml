@@ -2,7 +2,7 @@ name: "NoName UI"
 source:
   marketplace_id: "iseos.noname-ui"
   version: "1.1.2"
-  installs: 1738
+  installs: 1739
   author: "iseos"
   repo: "https://github.com/iseos/noname-ui"
   url: "https://marketplace.visualstudio.com/items?itemName=iseos.noname-ui"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 258
+  pair: null
   contrast:
     fg: 57.5
     black: 0

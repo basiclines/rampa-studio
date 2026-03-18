@@ -2,7 +2,7 @@ name: "Nostromo"
 source:
   marketplace_id: "martintheimer.nostromo-theme"
   version: "1.0.2"
-  installs: 9916
+  installs: 9919
   author: "Martin Theimer"
   repo: "https://github.com/pappkamerad/nostromo-theme-visual-studio-code"
   url: "https://marketplace.visualstudio.com/items?itemName=martintheimer.nostromo-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 243
+  pair: null
   contrast:
     fg: 99.7
     black: 0

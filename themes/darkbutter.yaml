@@ -2,7 +2,7 @@ name: "DarkButter"
 source:
   marketplace_id: "SaiRohith.DarkButter"
   version: "0.0.8"
-  installs: 2976
+  installs: 2977
   author: "SaiRohith"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=SaiRohith.DarkButter"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: null
+  pair: null
   contrast:
     fg: 71.6
     black: 0

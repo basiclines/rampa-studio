@@ -2,7 +2,7 @@ name: "BLACKPINK"
 source:
   marketplace_id: "banebo.black-pink-theme"
   version: "0.0.1"
-  installs: 3832
+  installs: 3836
   author: "banebo"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=banebo.black-pink-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 107.9
     black: 8.1

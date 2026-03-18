@@ -2,7 +2,7 @@ name: "One Dark Pro Var Night"
 source:
   marketplace_id: "csstools.onedarkprovar"
   version: "1.1.0"
-  installs: 7893
+  installs: 7895
   author: "csstools"
   repo: "https://github.com/csstools/onedarkprovar-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=csstools.onedarkprovar"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 59.1
     black: 0

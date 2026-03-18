@@ -2,7 +2,7 @@ name: "WL-Electric Sunset"
 source:
   marketplace_id: "WatkinsLabs.electric-sunset"
   version: "1.0.1"
-  installs: 45
+  installs: 46
   author: "Watkins Labs"
   repo: "https://github.com/watkinslabs/vscode-theme-generator"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.electric-sunset"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 300
+  pair: null
   contrast:
     fg: 63.4
     black: 0

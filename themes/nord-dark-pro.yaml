@@ -2,7 +2,7 @@ name: "Nord Dark Pro"
 source:
   marketplace_id: "Curve.nord-dark-pro"
   version: "0.0.6"
-  installs: 13169
+  installs: 13171
   author: "Curve"
   repo: "https://github.com/Curve/Nord-Dark-Pro"
   url: "https://marketplace.visualstudio.com/items?itemName=Curve.nord-dark-pro"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 268
+  pair: null
   contrast:
     fg: 56.9
     black: 0

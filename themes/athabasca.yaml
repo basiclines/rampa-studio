@@ -2,7 +2,7 @@ name: "Athabasca"
 source:
   marketplace_id: "ianlord.athabasca"
   version: "0.0.3"
-  installs: 637
+  installs: 638
   author: "Ian Lord"
   repo: "https://github.com/ianlord/athabasca"
   url: "https://marketplace.visualstudio.com/items?itemName=ianlord.athabasca"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 249
+  pair: null
   contrast:
     fg: 96.6
     black: 0

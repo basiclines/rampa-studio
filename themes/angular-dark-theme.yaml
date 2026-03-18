@@ -2,7 +2,7 @@ name: "Angular Dark Theme"
 source:
   marketplace_id: "MichaellAlavedraMunayco.angular-theme"
   version: "7.1.1"
-  installs: 16333
+  installs: 16338
   author: "Michaell Alavedra"
   repo: "https://github.com/gitchaell/angular-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MichaellAlavedraMunayco.angular-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 104.5
     black: 0

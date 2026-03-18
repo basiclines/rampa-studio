@@ -2,7 +2,7 @@ name: "Hard Hacker Darker"
 source:
   marketplace_id: "HardHacker.hard-hacker-theme"
   version: "0.2.3"
-  installs: 12846
+  installs: 12849
   author: "Hard Hacker"
   repo: "https://github.com/hardhackerlabs/theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=HardHacker.hard-hacker-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 296
+  pair: "Hard Hacker Light"
   contrast:
     fg: 93.1
     black: 0

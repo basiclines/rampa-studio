@@ -2,7 +2,7 @@ name: "Soft Midnight"
 source:
   marketplace_id: "JeanCastle.soft-midnight"
   version: "0.0.2"
-  installs: 199
+  installs: 200
   author: "Jean Castle"
   repo: "https://github.com/jeangoo/soft-midnight"
   url: "https://marketplace.visualstudio.com/items?itemName=JeanCastle.soft-midnight"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 280
+  pair: null
   contrast:
     fg: 81.7
     black: 0

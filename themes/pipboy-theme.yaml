@@ -2,7 +2,7 @@ name: "PipBoy Theme"
 source:
   marketplace_id: "smv7.pipboy-theme"
   version: "0.1.0"
-  installs: 1810
+  installs: 1811
   author: "smv7"
   repo: "https://github.com/smv7/pipboy-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=smv7.pipboy-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 153
+  pair: null
   contrast:
     fg: 71.6
     black: 71.6

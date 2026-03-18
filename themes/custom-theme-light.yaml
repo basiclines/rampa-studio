@@ -2,7 +2,7 @@ name: "Custom Theme (light)"
 source:
   marketplace_id: "Teambotics.theme-studio"
   version: "0.0.2"
-  installs: 13
+  installs: 14
   author: "Teambotics"
   repo: "https://github.com/nickhilster/theme-crafter"
   url: "https://marketplace.visualstudio.com/items?itemName=Teambotics.theme-studio"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 96.7
     black: 103

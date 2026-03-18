@@ -2,7 +2,7 @@ name: "Purple/Dark"
 source:
   marketplace_id: "purple-theme-vs.purple-theme-vscode"
   version: "0.0.2"
-  installs: 2772
+  installs: 2773
   author: "purple-theme-vs"
   repo: "https://github.com/dbedoya04/purple-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=purple-theme-vs.purple-theme-vscode"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 80.5
     black: 0

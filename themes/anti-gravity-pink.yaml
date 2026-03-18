@@ -2,7 +2,7 @@ name: "Anti-Gravity Pink"
 source:
   marketplace_id: "hap4114.antigravity-pink"
   version: "0.1.0"
-  installs: 117
+  installs: 134
   author: "Himani Anil Patil"
   repo: "https://github.com/hap4114/antigravity-pink"
   url: "https://marketplace.visualstudio.com/items?itemName=hap4114.antigravity-pink"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 322
+  pair: null
   contrast:
     fg: 107.8
     black: 0

@@ -2,7 +2,7 @@ name: "Dark-Wolf"
 source:
   marketplace_id: "ThiagoSaytson.dark-wolf"
   version: "1.0.1"
-  installs: 1363
+  installs: 1366
   author: "Thiago Saytson"
   repo: "https://github.com/TSaytson/Dark-Wolf-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ThiagoSaytson.dark-wolf"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 285
+  pair: null
   contrast:
     fg: 79.6
     black: 0

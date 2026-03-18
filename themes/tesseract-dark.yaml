@@ -2,7 +2,7 @@ name: "Tesseract Dark"
 source:
   marketplace_id: "martian.tesseract"
   version: "1.5.0"
-  installs: 6300
+  installs: 6308
   author: "Endurance the Martian 👽"
   repo: "https://github.com/hendurhance/tesseract"
   url: "https://marketplace.visualstudio.com/items?itemName=martian.tesseract"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 262
+  pair: null
   contrast:
     fg: 104.1
     black: 0

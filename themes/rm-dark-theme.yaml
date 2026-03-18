@@ -2,7 +2,7 @@ name: "Rm Dark Theme"
 source:
   marketplace_id: "raihaninfo.rm-dark-theme"
   version: "1.0.5"
-  installs: 1543
+  installs: 1544
   author: "raihaninfo"
   repo: "https://github.com/raihaninfo/rm-dark-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=raihaninfo.rm-dark-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 255
+  pair: null
   contrast:
     fg: 107.2
     black: 0

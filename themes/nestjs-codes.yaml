@@ -2,7 +2,7 @@ name: "nestjs.codes"
 source:
   marketplace_id: "EstevamSouza.nestjs-codes-vscode-theme"
   version: "0.0.4"
-  installs: 10564
+  installs: 10567
   author: "Estevam Souza"
   repo: "https://github.com/estevam5s/nestjs-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=EstevamSouza.nestjs-codes-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: null
+  pair: null
   contrast:
     fg: 56.9
     black: 33.4

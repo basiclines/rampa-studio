@@ -2,7 +2,7 @@ name: "BedarX Onyx"
 source:
   marketplace_id: "saqibbedar.bedarx-pro"
   version: "2.0.0"
-  installs: 136
+  installs: 137
   author: "saqibbedar"
   repo: "https://github.com/saqibbedar/BedarX-Pro"
   url: "https://marketplace.visualstudio.com/items?itemName=saqibbedar.bedarx-pro"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 87.8
     black: 0

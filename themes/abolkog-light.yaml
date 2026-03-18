@@ -2,7 +2,7 @@ name: "ABOLKOG Light"
 source:
   marketplace_id: "abolkog.vscode-abolkog-light"
   version: "1.1.0"
-  installs: 2729
+  installs: 2730
   author: "Khalid Elshafie"
   repo: "https://github.com/abolkog/vscode-abolkog-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=abolkog.vscode-abolkog-light"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "ABOLKOG Dark"
   contrast:
     fg: 101.5
     black: 93.4

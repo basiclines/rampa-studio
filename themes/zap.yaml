@@ -2,7 +2,7 @@ name: "zap"
 source:
   marketplace_id: "giovanicavila.zap-theme"
   version: "0.0.10"
-  installs: 106
+  installs: 108
   author: "Giovani Avila"
   repo: "https://github.com/giovanicavila/Zap"
   url: "https://marketplace.visualstudio.com/items?itemName=giovanicavila.zap-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 142
+  pair: null
   contrast:
     fg: 78.5
     black: 0

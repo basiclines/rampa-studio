@@ -2,7 +2,7 @@ name: "morgan.codes"
 source:
   marketplace_id: "morgan-codes.morgan-codes-vscode-theme"
   version: "0.0.5"
-  installs: 49373
+  installs: 49380
   author: "morgan-codes"
   repo: "https://github.com/morganrmarie/morgancodes-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=morgan-codes.morgan-codes-vscode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: null
+  pair: null
   contrast:
     fg: 56.4
     black: 0

@@ -32,12 +32,16 @@ const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/basiclines/rampa-stud
 
 // ── Args ──
 
+type SortOption = 'name' | 'installs' | 'rating' | 'ratings' | 'mode';
+
 interface ThemeArgs {
   command: 'list' | 'show' | 'install';
   name: string;
   app: string;
   dryRun: boolean;
   local: boolean;
+  all: boolean;
+  sort: SortOption[];
 }
 
 function showThemeHelp(): void {
@@ -62,6 +66,8 @@ ${bold}OPTIONS${reset}
   ${cyan}--install <app>${reset}        ${dim}Target app to generate theme for${reset}
   ${cyan}--show${reset}                 ${dim}Print theme colors and metadata${reset}
   ${cyan}--dry-run${reset}              ${dim}Print generated output without writing file${reset}
+  ${cyan}--all${reset}                  ${dim}Show all themes (list shows 100 by default)${reset}
+  ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, mode${reset}
   ${cyan}--local${reset}                ${dim}Use local themes/ directory instead of fetching from GitHub${reset}
   ${cyan}-h, --help${reset}             ${dim}Show this help${reset}
 
@@ -83,6 +89,8 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
     app: '',
     dryRun: false,
     local: false,
+    all: false,
+    sort: ['name'],
   };
 
   let i = 0;
@@ -118,6 +126,25 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
       continue;
     }
 
+    if (arg === '--all') {
+      args.all = true;
+      i++;
+      continue;
+    }
+
+    if (arg === '--sort' && argv[i + 1]) {
+      const val = argv[++i] as SortOption;
+      if (['name', 'installs', 'rating', 'ratings', 'mode'].includes(val)) {
+        if (args.sort.length === 1 && args.sort[0] === 'name') {
+          args.sort = [val]; // replace default
+        } else {
+          args.sort.push(val);
+        }
+      }
+      i++;
+      continue;
+    }
+
     if (arg === 'list') {
       args.command = 'list';
       i++;
@@ -140,14 +167,21 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
 // ── Theme loading ──
 
 function resolveThemesDir(): string {
-  // Walk up from __dirname to find themes/
-  let dir = dirname(new URL(import.meta.url).pathname);
-  for (let i = 0; i < 10; i++) {
-    const candidate = join(dir, 'themes');
-    if (existsSync(candidate)) return candidate;
-    dir = dirname(dir);
+  // Try multiple starting points — compiled binaries can't use import.meta.url
+  const startDirs = [
+    process.cwd(),
+    dirname(process.argv[0]),
+  ];
+  try { startDirs.push(dirname(new URL(import.meta.url).pathname)); } catch {}
+
+  for (const start of startDirs) {
+    let dir = start;
+    for (let i = 0; i < 10; i++) {
+      const candidate = join(dir, 'themes');
+      if (existsSync(candidate)) return candidate;
+      dir = dirname(dir);
+    }
   }
-  // Fallback: CWD
   return join(process.cwd(), 'themes');
 }
 
@@ -237,18 +271,90 @@ function resolveInstallPath(basePath: string): string {
 
 // ── Commands ──
 
-async function listThemes(local: boolean): Promise<void> {
+async function listThemes(local: boolean, all: boolean, sorts: SortOption[]): Promise<void> {
   const index = await fetchIndex(local);
-  const entries = Object.entries(index);
+  let entries = Object.entries(index);
+  const total = entries.length;
 
-  if (entries.length === 0) {
+  if (total === 0) {
     console.log('No themes found. Run the scraper first or check your themes/ directory.');
     return;
   }
 
-  console.log(`\n  ${entries.length} themes available:\n`);
-  for (const [name] of entries.sort((a, b) => a[0].localeCompare(b[0]))) {
-    console.log(`  ${name}`);
+  const dim = '\x1b[2m';
+  const reset = '\x1b[0m';
+  const needsMeta = sorts.some(s => s !== 'name');
+
+  // Read metadata from YAML files when sorting by anything other than name
+  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string }>();
+  if (needsMeta && local) {
+    const themesDir = resolveThemesDir();
+    for (const [name, filename] of entries) {
+      try {
+        const raw = readFileSync(join(themesDir, filename), 'utf8');
+        const installsMatch = raw.match(/^\s*installs:\s*(\d+)/m);
+        const ratingMatch = raw.match(/^\s*rating:\s*([\d.]+)/m);
+        const ratingsMatch = raw.match(/^\s*ratings:\s*(\d+)/m);
+        const modeMatch = raw.match(/^\s*mode:\s*"?(dark|light)"?/m);
+        meta.set(name, {
+          installs: installsMatch ? parseInt(installsMatch[1]) : 0,
+          rating: ratingMatch ? parseFloat(ratingMatch[1]) : 0,
+          ratings: ratingsMatch ? parseInt(ratingsMatch[1]) : 0,
+          mode: modeMatch ? modeMatch[1] : 'dark',
+        });
+      } catch {
+        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark' });
+      }
+    }
+  }
+
+  // Apply sorts in order (first sort is primary, chained sorts break ties)
+  entries.sort((a, b) => {
+    for (const sort of sorts) {
+      let cmp = 0;
+      switch (sort) {
+        case 'name':
+          cmp = a[0].localeCompare(b[0]);
+          break;
+        case 'installs':
+          cmp = (meta.get(b[0])?.installs || 0) - (meta.get(a[0])?.installs || 0);
+          break;
+        case 'rating':
+          cmp = (meta.get(b[0])?.rating || 0) - (meta.get(a[0])?.rating || 0);
+          break;
+        case 'ratings':
+          cmp = (meta.get(b[0])?.ratings || 0) - (meta.get(a[0])?.ratings || 0);
+          break;
+        case 'mode':
+          cmp = (meta.get(a[0])?.mode || '').localeCompare(meta.get(b[0])?.mode || '');
+          break;
+      }
+      if (cmp !== 0) return cmp;
+    }
+    return 0;
+  });
+
+  const limit = 100;
+  const shown = all ? entries : entries.slice(0, limit);
+  const sortLabel = sorts.join(', ');
+
+  console.log(`\n  ${total} themes available (sorted by ${sortLabel}):\n`);
+  for (const [name] of shown) {
+    const m = meta.get(name);
+    const parts: string[] = [name];
+    if (m && needsMeta) {
+      const info: string[] = [];
+      if (sorts.includes('installs')) info.push(`${m.installs.toLocaleString()} installs`);
+      if (sorts.includes('rating')) info.push(`★ ${m.rating.toFixed(1)}`);
+      if (sorts.includes('ratings')) info.push(`${m.ratings} ratings`);
+      if (sorts.includes('mode')) info.push(`(${m.mode})`);
+      if (info.length) parts.push(`${dim}${info.join('  ')}${reset}`);
+    }
+    console.log(`  ${parts.join('  ')}`);
+  }
+
+  if (!all && total > limit) {
+    console.log(`\n  ${dim}Showing ${limit} of ${total} themes. Use --all to see full list.${reset}`);
   }
   console.log('');
 }
@@ -389,7 +495,7 @@ export async function runTheme(argv: string[]): Promise<void> {
 
   switch (args.command) {
     case 'list':
-      await listThemes(args.local);
+      await listThemes(args.local, args.all, args.sort);
       break;
 
     case 'show':

@@ -2,7 +2,7 @@ name: "theme-joey"
 source:
   marketplace_id: "xshapira.joey-theme"
   version: "3.3.8"
-  installs: 1134
+  installs: 1136
   author: "xshapira"
   repo: "https://github.com/xshapira/joey"
   url: "https://marketplace.visualstudio.com/items?itemName=xshapira.joey-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 58.5
     black: 13.6

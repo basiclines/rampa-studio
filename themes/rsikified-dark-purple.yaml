@@ -2,7 +2,7 @@ name: "Rsikified Dark Purple"
 source:
   marketplace_id: "eliorc.riskified-theme"
   version: "1.0.4"
-  installs: 38
+  installs: 39
   author: "eliorc"
   repo: "https://github.com/eliorc/riskified-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=eliorc.riskified-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 269
+  pair: null
   contrast:
     fg: 91
     black: 0

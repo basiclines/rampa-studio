@@ -2,7 +2,7 @@ name: "Skyline"
 source:
   marketplace_id: "hydralite.hydralite-skyline"
   version: "0.0.3"
-  installs: 3715
+  installs: 3717
   author: "Hydralite"
   repo: "https://github.com/hydralite/skyline"
   url: "https://marketplace.visualstudio.com/items?itemName=hydralite.hydralite-skyline"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 274
+  pair: null
   contrast:
     fg: 106
     black: 0

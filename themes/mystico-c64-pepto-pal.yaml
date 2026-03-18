@@ -2,7 +2,7 @@ name: "Mystico - C64 Pepto PAL"
 source:
   marketplace_id: "Chibantichic.mystico-c64"
   version: "0.16.0"
-  installs: 1456
+  installs: 1459
   author: "Chibantichic"
   repo: "https://github.com/chibanti/mystico-c64-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Chibantichic.mystico-c64"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 284
+  pair: null
   contrast:
     fg: 26.6
     black: 0

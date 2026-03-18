@@ -7,7 +7,7 @@ source:
   repo: "https://github.com/wheredoesyourmindgo/harmonized-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.harmonized-vscode-theme"
 colors:
-  bg: "#001920"
+  bg: "#002B36"
   fg: "#BBBBBB"
   black: "#073642"
   red: "#DC322F"
@@ -28,22 +28,23 @@ colors:
 meta:
   mode: "dark"
   accent: "orange"
-  hue: 218
+  hue: 220
+  pair: "Harmonized light"
   contrast:
-    fg: 64.7
+    fg: 62.3
     black: 0
-    red: 30.1
-    green: 41.6
-    yellow: 41.6
-    blue: 36.7
-    magenta: 30.4
-    cyan: 42.4
-    white: 91.9
+    red: 27.7
+    green: 39.2
+    yellow: 39.2
+    blue: 34.3
+    magenta: 28
+    cyan: 40
+    white: 89.5
     brightBlack: 0
-    brightRed: 29.6
-    brightGreen: 23.9
-    brightYellow: 29.7
-    brightBlue: 41.9
-    brightMagenta: 30.4
-    brightCyan: 48.8
-    brightWhite: 101
+    brightRed: 27.2
+    brightGreen: 21.5
+    brightYellow: 27.3
+    brightBlue: 39.5
+    brightMagenta: 28
+    brightCyan: 46.4
+    brightWhite: 98.6

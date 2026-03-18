@@ -2,7 +2,7 @@ name: "Matrix"
 source:
   marketplace_id: "PabloAndroetto.a-matrix-theme"
   version: "0.0.3"
-  installs: 1796
+  installs: 1799
   author: "Pablo Androetto"
   repo: "https://github.com/androettop/matrix-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=PabloAndroetto.a-matrix-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 218
+  pair: null
   contrast:
     fg: 18.5
     black: 0

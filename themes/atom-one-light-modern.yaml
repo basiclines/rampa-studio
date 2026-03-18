@@ -2,7 +2,7 @@ name: "Atom One Light Modern"
 source:
   marketplace_id: "mani-sh-reddy.atom-one-light-modern"
   version: "1.0.5"
-  installs: 2192
+  installs: 2195
   author: "Manish Reddy"
   repo: "https://github.com/mani-sh-reddy/atom-one-light-modern"
   url: "https://marketplace.visualstudio.com/items?itemName=mani-sh-reddy.atom-one-light-modern"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 93.8
     black: 93.8

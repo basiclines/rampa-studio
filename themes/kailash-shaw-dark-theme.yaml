@@ -2,7 +2,7 @@ name: "Kailash shaw Dark Theme"
 source:
   marketplace_id: "vs-code-red-theme.vs-code-red-theme"
   version: "0.3.0"
-  installs: 595
+  installs: 596
   author: "vs-code-red-theme"
   repo: "https://github.com/karmickphp61/vs-code-red-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=vs-code-red-theme.vs-code-red-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 257
+  pair: null
   contrast:
     fg: 107.7
     black: 0

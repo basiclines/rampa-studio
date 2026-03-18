@@ -2,7 +2,7 @@ name: "semi dark theme in yellow"
 source:
   marketplace_id: "moondevaa.Semi-dark-theme-in-yellow"
   version: "0.2.4"
-  installs: 2844
+  installs: 2846
   author: "moondevaa"
   repo: "https://github.com/AaBbdev29/semi-dark-theme-in-yellow"
   url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.Semi-dark-theme-in-yellow"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 68.1
     black: 10.3

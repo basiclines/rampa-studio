@@ -2,7 +2,7 @@ name: "TwilightSparkle"
 source:
   marketplace_id: "nanoparsec.twilightsparkle"
   version: "0.1.0"
-  installs: 557
+  installs: 558
   author: "nanoparsec"
   repo: "https://github.com/nanoparsec/twilightsparkle-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=nanoparsec.twilightsparkle"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 301
+  pair: null
   contrast:
     fg: 73.9
     black: 22.9

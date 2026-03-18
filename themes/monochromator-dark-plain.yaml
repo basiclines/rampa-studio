@@ -2,7 +2,7 @@ name: "Monochromator Dark Plain"
 source:
   marketplace_id: "beem.monochromator"
   version: "0.31.1"
-  installs: 552
+  installs: 555
   author: "Josias Beem"
   repo: "https://codeberg.org/beem/monochromator"
   url: "https://marketplace.visualstudio.com/items?itemName=beem.monochromator"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: "Monochromator Light Plain"
   contrast:
     fg: 91.9
     black: 0

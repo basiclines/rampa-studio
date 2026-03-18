@@ -2,7 +2,7 @@ name: "vxcode lavender"
 source:
   marketplace_id: "evertjunior.vxcode-theme"
   version: "0.0.15"
-  installs: 3237
+  installs: 3239
   author: "Evert Junior"
   repo: "https://github.com/evertjr/vxcode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=evertjunior.vxcode-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: 321
+  pair: null
   contrast:
     fg: 83.2
     black: 70.5

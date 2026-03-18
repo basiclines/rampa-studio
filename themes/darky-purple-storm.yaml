@@ -2,7 +2,7 @@ name: "Darky Purple Storm"
 source:
   marketplace_id: "AlexanderAlekseenko.darky-purple-theme"
   version: "1.4.0"
-  installs: 11695
+  installs: 11700
   author: "Alexander Alekseenko"
   repo: "https://github.com/Akaike0/vsc-darky-purple-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AlexanderAlekseenko.darky-purple-theme"
@@ -29,6 +29,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 288
+  pair: null
   contrast:
     fg: 43.9
     black: 19.8
