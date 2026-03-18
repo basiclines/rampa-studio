@@ -12,9 +12,11 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { homedir, platform } from 'node:os';
+import { spawnSync } from 'node:child_process';
 import { parseThemeYAML, type ThemeYAML } from './theme-schema';
 import { generators, SUPPORTED_APPS, themeFileName } from './theme-generators/index';
 import { supportsTruecolor } from './utils/terminal-colors';
+import { PREVIEW_TEMPLATE } from './theme-preview-template';
 
 function hexToRgbTuple(hex: string): [number, number, number] {
   const h = hex.replace('#', '');
@@ -35,7 +37,7 @@ const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/basiclines/rampa-stud
 type SortOption = 'name' | 'installs' | 'rating' | 'ratings' | 'mode';
 
 interface ThemeArgs {
-  command: 'list' | 'show' | 'install';
+  command: 'list' | 'show' | 'install' | 'preview';
   name: string;
   app: string;
   dryRun: boolean;
@@ -65,6 +67,7 @@ ${bold}SUPPORTED APPS${reset}
 ${bold}OPTIONS${reset}
   ${cyan}--install <app>${reset}        ${dim}Target app to generate theme for${reset}
   ${cyan}--show${reset}                 ${dim}Print theme colors and metadata${reset}
+  ${cyan}--preview${reset}              ${dim}Open interactive browser preview${reset}
   ${cyan}--dry-run${reset}              ${dim}Print generated output without writing file${reset}
   ${cyan}--all${reset}                  ${dim}Show all themes (list shows 100 by default)${reset}
   ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, rating, ratings, mode. Chain multiple: --sort rating --sort installs${reset}
@@ -128,6 +131,12 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
 
     if (arg === '--all') {
       args.all = true;
+      i++;
+      continue;
+    }
+
+    if (arg === '--preview') {
+      args.command = 'preview';
       i++;
       continue;
     }
@@ -485,7 +494,178 @@ function suggestSimilar(query: string, names: string[]): void {
   }
 }
 
-// ── Main ──
+// ── Preview ──
+
+function buildThemeJS(theme: ThemeYAML, mode: 'dark' | 'light'): string {
+  const c = theme.colors;
+  const contrast = theme.meta.contrast;
+  const makeDescs = () => {
+    const result: Record<string, string> = {
+      bg: `mode: ${theme.meta.mode}`,
+      fg: `Lc ${contrast.fg}`,
+    };
+    for (const k of ['black','red','green','yellow','blue','magenta','cyan','white',
+                      'brightBlack','brightRed','brightGreen','brightYellow',
+                      'brightBlue','brightMagenta','brightCyan','brightWhite']) {
+      result[k] = `Lc ${contrast[k as keyof typeof contrast]}`;
+    }
+    return result;
+  };
+
+  return JSON.stringify({
+    name: theme.name,
+    variant: mode === 'dark' ? 'Dark' : 'Light',
+    subtitle: [
+      `${theme.meta.mode} mode`,
+      theme.meta.accent ? `accent: ${theme.meta.accent}` : null,
+      theme.meta.hue !== null ? `hue: ${theme.meta.hue}°` : null,
+      theme.source?.installs ? `${theme.source.installs.toLocaleString()} installs` : null,
+    ].filter(Boolean).join(' · '),
+    terminalComment: `# ${theme.name}`,
+    bg: c.bg, fg: c.fg,
+    black: c.black, white: c.white,
+    black_bright: c.brightBlack, white_bright: c.brightWhite,
+    colors: {
+      red: c.red, green: c.green, blue: c.blue, yellow: c.yellow,
+      magenta: c.magenta, cyan: c.cyan,
+      red_bright: c.brightRed, green_bright: c.brightGreen,
+      blue_bright: c.brightBlue, yellow_bright: c.brightYellow,
+      magenta_bright: c.brightMagenta, cyan_bright: c.brightCyan,
+    },
+    descs: makeDescs(),
+  });
+}
+
+function buildCSSVars(theme: ThemeYAML, selector: string): string {
+  const c = theme.colors;
+  const isLight = theme.meta.mode === 'light';
+  const cardBg = isLight ? '#ffffff' : adjustHex(c.bg, 8);
+  const muted = isLight
+    ? `rgba(${hexToRgbTuple(c.fg).join(',')}, 0.5)`
+    : `rgba(${hexToRgbTuple(c.fg).join(',')}, 0.45)`;
+  return `  ${selector} {
+    --bg: ${c.bg};
+    --fg: ${c.fg};
+    --card-bg: ${cardBg};
+    --card-border: rgba(${hexToRgbTuple(c.fg).join(',')}, 0.08);
+    --card-shadow: rgba(0,0,0,0.25);
+    --card-shadow-hover: rgba(0,0,0,0.4);
+    --muted: ${muted};
+    --terminal-bg: ${c.bg};
+    --terminal-fg: ${c.fg};
+    --terminal-bar: rgba(${isLight ? '0,0,0,0.06' : '255,255,255,0.06'});
+    --red: ${c.red};
+    --green: ${c.green};
+    --blue: ${c.blue};
+    --yellow: ${c.yellow};
+    --magenta: ${c.magenta};
+    --cyan: ${c.cyan};
+    --red-bright: ${c.brightRed};
+    --green-bright: ${c.brightGreen};
+    --blue-bright: ${c.brightBlue};
+    --yellow-bright: ${c.brightYellow};
+    --magenta-bright: ${c.brightMagenta};
+    --cyan-bright: ${c.brightCyan};
+  }`;
+}
+
+function adjustHex(hex: string, amount: number): string {
+  const [r, g, b] = hexToRgbTuple(hex);
+  const clamp = (v: number) => Math.max(0, Math.min(255, v));
+  return `#${[r, g, b].map(v => clamp(v + amount).toString(16).padStart(2, '0')).join('')}`;
+}
+
+async function previewTheme(name: string, local: boolean): Promise<void> {
+  const index = await fetchIndex(local);
+  const file = findTheme(index, name);
+  if (!file) {
+    console.error(`Theme not found: "${name}"`);
+    suggestSimilar(name, Object.keys(index));
+    process.exit(1);
+  }
+
+  const theme = await fetchTheme(file, local);
+  let pairTheme: ThemeYAML | null = null;
+
+  if (theme.meta.pair) {
+    const pairFile = findTheme(index, theme.meta.pair);
+    if (pairFile) {
+      try { pairTheme = await fetchTheme(pairFile, local); } catch {}
+    }
+  }
+
+  // Determine which is dark and which is light
+  const darkTheme = theme.meta.mode === 'dark' ? theme : (pairTheme?.meta.mode === 'dark' ? pairTheme : theme);
+  const lightTheme = theme.meta.mode === 'light' ? theme : (pairTheme?.meta.mode === 'light' ? pairTheme : null);
+
+  // Load template — embedded at build time for compiled binary support
+  let html = PREVIEW_TEMPLATE;
+
+  // Inject override <style> and <script> just before </body>
+  const darkSelector = ':root, [data-theme="dark"]';
+  const lightSelector = '[data-theme="light"]';
+
+  const darkCSS = buildCSSVars(darkTheme, darkSelector);
+  const lightCSS = lightTheme ? buildCSSVars(lightTheme, lightSelector) : buildCSSVars(darkTheme, lightSelector);
+
+  const darkJS = buildThemeJS(darkTheme, 'dark');
+  const lightJS = lightTheme ? buildThemeJS(lightTheme, 'light') : buildThemeJS(darkTheme, 'light');
+
+  const injected = `
+  <style>
+  /* ── Theme override: ${theme.name} ── */
+  ${darkCSS}
+  ${lightCSS}
+  </style>
+  <script>
+  // Override theme data
+  themes.dark = ${darkJS};
+  themes.light = ${lightJS};
+  document.title = '${theme.name.replace(/'/g, "\\'")} — rampa theme preview';
+  setTheme('${theme.meta.mode}');
+  renderColorViews();
+  </script>`;
+
+  html = html.replace('</body>', injected + '\n</body>');
+
+  // Replace exact footer content
+  const footerOld = `Built with <a href="https://github.com/basiclines/rampa-studio" target="_blank" rel="noopener">rampa</a> by <a href="https://github.com/basiclines" target="_blank" rel="noopener">@basiclines</a>
+      <span class="footer-dot">·</span>
+      Colors extracted from photographs using k-means++ clustering`;
+  const authorLine = theme.source?.author
+    ? `Theme by <a href="${theme.source.url}" target="_blank" rel="noopener">${theme.source.author}</a> &nbsp;·&nbsp; `
+    : '';
+  const footerNew = `${authorLine}Built with <a href="https://github.com/basiclines/rampa-studio" target="_blank" rel="noopener">rampa</a> — theme preview`;
+  html = html.replace(footerOld, footerNew);
+
+  // Serve with Bun
+  const PORT = 7432;
+  const server = Bun.serve({
+    port: PORT,
+    fetch() {
+      return new Response(html, { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+    },
+  });
+
+  const url = `http://localhost:${PORT}`;
+  console.log(`\n  🎨 Previewing: ${theme.name}`);
+  if (pairTheme) console.log(`  🔗 Paired with: ${pairTheme.name}`);
+  console.log(`  ${url}\n`);
+  console.log(`  Press Ctrl+C to stop\n`);
+
+  // Open browser
+  const opener = platform() === 'darwin' ? 'open' : platform() === 'win32' ? 'start' : 'xdg-open';
+  spawnSync(opener, [url]);
+
+  // Keep server alive — setInterval prevents the process from exiting
+  await new Promise<void>((resolve) => {
+    const interval = setInterval(() => {
+      if (!server.url) { clearInterval(interval); resolve(); }
+    }, 1000);
+    process.on('SIGINT', () => { clearInterval(interval); server.stop(); resolve(); });
+    process.on('SIGTERM', () => { clearInterval(interval); server.stop(); resolve(); });
+  });
+}
 
 export async function runTheme(argv: string[]): Promise<void> {
   const args = parseThemeArgs(argv);
@@ -514,6 +694,14 @@ export async function runTheme(argv: string[]): Promise<void> {
         process.exit(1);
       }
       await installTheme(args.name, args.app, args.dryRun, args.local);
+      break;
+
+    case 'preview':
+      if (!args.name) {
+        console.error('Usage: rampa theme <name> --preview');
+        process.exit(1);
+      }
+      await previewTheme(args.name, args.local);
       break;
   }
 }
