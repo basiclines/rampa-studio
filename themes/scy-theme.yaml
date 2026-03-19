@@ -1,0 +1,53 @@
+name: "SCY-Theme"
+source:
+  marketplace_id: "SCY-Theme.scy-theme"
+  version: "0.0.2"
+  installs: 7
+  rating: 0
+  ratings: 0
+  author: "SCY-Theme"
+  repo: "https://github.com/itztevy/scy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SCY-Theme.scy-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF5555"
+  green: "#FFFFFF"
+  yellow: "#FFFFFF"
+  blue: "#FFFFFF"
+  magenta: "#FFFFFF"
+  cyan: "#FFFFFF"
+  white: "#FFFFFF"
+  brightBlack: "#555555"
+  brightRed: "#FF7777"
+  brightGreen: "#FFFFFF"
+  brightYellow: "#FFFFFF"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 0
+    black: 106
+    red: 57.4
+    green: 0
+    yellow: 0
+    blue: 0
+    magenta: 0
+    cyan: 0
+    white: 0
+    brightBlack: 85.9
+    brightRed: 49.8
+    brightGreen: 0
+    brightYellow: 0
+    brightBlue: 0
+    brightMagenta: 0
+    brightCyan: 0
+    brightWhite: 0

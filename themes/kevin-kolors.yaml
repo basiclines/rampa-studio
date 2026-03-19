@@ -1,0 +1,53 @@
+name: "KEVIN-KOLORS"
+source:
+  marketplace_id: "dazon.kevin-kolor-theme"
+  version: "0.1.2"
+  installs: 1203
+  rating: 0
+  ratings: 0
+  author: "dazon"
+  repo: "https://github.com/FakeDazon/kevin-kolor"
+  url: "https://marketplace.visualstudio.com/items?itemName=dazon.kevin-kolor-theme"
+  formats: null
+colors:
+  bg: "#1C1F2A"
+  fg: "#F0FEFF"
+  black: "#373A3F"
+  red: "#F9ACB9"
+  green: "#D4FFA8"
+  yellow: "#EFED9F"
+  blue: "#73CFE7"
+  magenta: "#BD99DB"
+  cyan: "#9BE4D4"
+  white: "#D2DEE1"
+  brightBlack: "#464A50"
+  brightRed: "#F7BCC7"
+  brightGreen: "#DAFFB9"
+  brightYellow: "#EFF0B2"
+  brightBlue: "#8CD8EC"
+  brightMagenta: "#C7ADE2"
+  brightCyan: "#ACE9DD"
+  brightWhite: "#F0FEFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 273
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 0
+    red: 67.1
+    green: 97
+    yellow: 91.5
+    blue: 68
+    magenta: 52.7
+    cyan: 79.7
+    white: 83.2
+    brightBlack: 9.8
+    brightRed: 73.3
+    brightGreen: 98.2
+    brightYellow: 93.5
+    brightBlue: 74.1
+    brightMagenta: 61.6
+    brightCyan: 84
+    brightWhite: 103.3

@@ -1,0 +1,57 @@
+name: "Polar"
+source:
+  marketplace_id: "merithayan.polar"
+  version: "0.1.1"
+  installs: 5888
+  rating: 5
+  ratings: 2
+  author: "Tim Hull"
+  repo: "https://www.github.com/mtyn/polar"
+  url: "https://marketplace.visualstudio.com/items?itemName=merithayan.polar"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/mtyn/polar/master/polar/iterm2/polar.itermcolors"
+    warp: "https://raw.githubusercontent.com/mtyn/polar/master/polar/warp/polar.yaml"
+    xcode: "https://raw.githubusercontent.com/mtyn/polar/master/legacy/pre-generated/xcode/Polar.xccolortheme"
+    sublime: "https://raw.githubusercontent.com/mtyn/polar/master/polar/sublime-text/Polar.sublime-color-scheme"
+colors:
+  bg: "#F9FAFB"
+  fg: "#4C566A"
+  black: "#ECEFF4"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#D8DEE9"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#3B4252"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.6
+    black: 0
+    red: 64.6
+    green: 36.6
+    yellow: 22.6
+    blue: 49.1
+    magenta: 51.3
+    cyan: 35.6
+    white: 7.7
+    brightBlack: 14.2
+    brightRed: 64.6
+    brightGreen: 36.6
+    brightYellow: 22.6
+    brightBlue: 49.1
+    brightMagenta: 51.3
+    brightCyan: 37.6
+    brightWhite: 90.3

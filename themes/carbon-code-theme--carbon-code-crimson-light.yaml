@@ -1,0 +1,53 @@
+name: "Carbon Code Theme (Carbon Code Crimson Light)"
+source:
+  marketplace_id: "sazardev.carbon-code-theme"
+  version: "1.2.0"
+  installs: 904
+  rating: 5
+  ratings: 1
+  author: "sazardev"
+  repo: "https://github.com/sazardev/sazardev-minimal-brutal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sazardev.carbon-code-theme"
+  formats: null
+colors:
+  bg: "#FEFCFC"
+  fg: "#0A0A0A"
+  black: "#000000"
+  red: "#DC2626"
+  green: "#16A34A"
+  yellow: "#F59E0B"
+  blue: "#2563EB"
+  magenta: "#C026D3"
+  cyan: "#0891B2"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#DC2626"
+  brightGreen: "#16A34A"
+  brightYellow: "#F59E0B"
+  brightBlue: "#2563EB"
+  brightMagenta: "#C026D3"
+  brightCyan: "#0891B2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104.3
+    black: 104.5
+    red: 70
+    green: 58.2
+    yellow: 40.2
+    blue: 73.3
+    magenta: 69.5
+    cyan: 62.3
+    white: 0
+    brightBlack: 104.5
+    brightRed: 70
+    brightGreen: 58.2
+    brightYellow: 40.2
+    brightBlue: 73.3
+    brightMagenta: 69.5
+    brightCyan: 62.3
+    brightWhite: 0

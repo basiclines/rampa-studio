@@ -1,0 +1,53 @@
+name: "Light Theme Grey"
+source:
+  marketplace_id: "gthbccnt.light-theme-grey"
+  version: "1.0.4"
+  installs: 348
+  rating: 0
+  ratings: 0
+  author: "gthbccnt"
+  repo: "https://github.com/gthbccnt/gthbccnt.light-theme-grey"
+  url: "https://marketplace.visualstudio.com/items?itemName=gthbccnt.light-theme-grey"
+  formats: null
+colors:
+  bg: "#F5F4F2"
+  fg: "#000000"
+  black: "#393735"
+  red: "#D8636B"
+  green: "#97BA85"
+  yellow: "#EBB95E"
+  blue: "#8BB4E3"
+  magenta: "#C88AC8"
+  cyan: "#6FBEBC"
+  white: "#E1DFDF"
+  brightBlack: "#666666"
+  brightRed: "#E57373"
+  brightGreen: "#8AB96C"
+  brightYellow: "#D9B74C"
+  brightBlue: "#9BC0E8"
+  brightMagenta: "#C78BC7"
+  brightCyan: "#6DD1D1"
+  brightWhite: "#C6C4C0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.5
+    black: 90.7
+    red: 56
+    green: 36.1
+    yellow: 26.9
+    blue: 35.8
+    magenta: 44.9
+    cyan: 35.6
+    white: 9.6
+    brightBlack: 72.2
+    brightRed: 49.5
+    brightGreen: 38.2
+    brightYellow: 30.6
+    brightBlue: 29.4
+    brightMagenta: 44.8
+    brightCyan: 26.6
+    brightWhite: 25.2

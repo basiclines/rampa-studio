@@ -1,0 +1,53 @@
+name: "Rainglow (allure-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#17191C"
+  fg: "#C0CCDB"
+  black: "#23262A"
+  red: "#BA0E2E"
+  green: "#5DA892"
+  yellow: "#E4D294"
+  blue: "#FFFFFF"
+  magenta: "#5DA892"
+  cyan: "#E4D294"
+  white: "#D0D9E4"
+  brightBlack: "#454B54"
+  brightRed: "#F03E5F"
+  brightGreen: "#9FCCBF"
+  brightYellow: "#F9F4E5"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#9FCCBF"
+  brightCyan: "#F9F4E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.7
+    black: 0
+    red: 20.3
+    green: 46.8
+    yellow: 78.4
+    blue: 106.7
+    magenta: 46.8
+    cyan: 78.4
+    white: 81.7
+    brightBlack: 10.9
+    brightRed: 36.6
+    brightGreen: 69
+    brightYellow: 99.5
+    brightBlue: 106.7
+    brightMagenta: 69
+    brightCyan: 99.5
+    brightWhite: 106.7

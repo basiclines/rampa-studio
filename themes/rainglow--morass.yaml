@@ -1,0 +1,53 @@
+name: "Rainglow (morass)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#313A36"
+  fg: "#E4E3E1"
+  black: "#3D4843"
+  red: "#BA0E2E"
+  green: "#FDEC5A"
+  yellow: "#68875A"
+  blue: "#AFB54C"
+  magenta: "#AFD0C4"
+  cyan: "#677C71"
+  white: "#F0F0EE"
+  brightBlack: "#607169"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEF8BF"
+  brightYellow: "#9DB691"
+  brightBlue: "#CFD394"
+  brightMagenta: "#EFF6F3"
+  brightCyan: "#9CADA4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 167
+  pair: null
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 14.2
+    green: 86.5
+    yellow: 26.8
+    blue: 51.6
+    magenta: 66.4
+    cyan: 23.4
+    white: 90.7
+    brightBlack: 18.8
+    brightRed: 30.5
+    brightGreen: 94.5
+    brightYellow: 51.5
+    brightBlue: 69.9
+    brightMagenta: 93.6
+    brightCyan: 48.4
+    brightWhite: 100.6

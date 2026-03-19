@@ -1,0 +1,53 @@
+name: "Rainglow (codecourse-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#05080A"
+  fg: "#B6CED8"
+  black: "#0D161B"
+  red: "#BA0E2E"
+  green: "#1EA8FC"
+  yellow: "#5DCDFD"
+  blue: "#FFFFFF"
+  magenta: "#1EA8FC"
+  cyan: "#5DCDFD"
+  white: "#C7D9E1"
+  brightBlack: "#273E4E"
+  brightRed: "#F03E5F"
+  brightGreen: "#83CFFD"
+  brightYellow: "#C2ECFE"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#83CFFD"
+  brightCyan: "#C2ECFE"
+  brightWhite: "#F8FBFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.4
+    black: 0
+    red: 21.4
+    green: 51.6
+    yellow: 69.2
+    blue: 107.8
+    magenta: 51.6
+    cyan: 69.2
+    white: 81.6
+    brightBlack: 0
+    brightRed: 37.7
+    brightGreen: 72.3
+    brightYellow: 91.2
+    brightBlue: 107.8
+    brightMagenta: 72.3
+    brightCyan: 91.2
+    brightWhite: 104.8

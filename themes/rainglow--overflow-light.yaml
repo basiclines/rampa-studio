@@ -1,0 +1,53 @@
+name: "Rainglow (overflow-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#3E4956"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#FE532C"
+  yellow: "#B0CA48"
+  blue: "#1F9AA8"
+  magenta: "#FE532C"
+  cyan: "#B0CA48"
+  white: "#495665"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEA692"
+  brightYellow: "#D2E197"
+  brightBlue: "#4FD0DE"
+  brightMagenta: "#FEA692"
+  brightCyan: "#D2E197"
+  brightWhite: "#697B91"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.1
+    black: 0
+    red: 80.3
+    green: 58.4
+    yellow: 34.5
+    blue: 60.6
+    magenta: 58.4
+    cyan: 34.5
+    white: 86
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 35.8
+    brightYellow: 19.5
+    brightBlue: 34.2
+    brightMagenta: 35.8
+    brightCyan: 19.5
+    brightWhite: 70

@@ -1,0 +1,53 @@
+name: "Azul (Azul)"
+source:
+  marketplace_id: "YesCode.azul"
+  version: "0.0.3"
+  installs: 1013
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://github.com/yesomac/Azul"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.azul"
+  formats: null
+colors:
+  bg: "#1C2530"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#FF7C44"
+  brightYellow: "#20473A"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 254
+  pair: null
+  contrast:
+    fg: 102.8
+    black: 0
+    red: 40.2
+    green: 59.2
+    yellow: 71.3
+    blue: 45.7
+    magenta: 17.7
+    cyan: 47.6
+    white: 45.4
+    brightBlack: 16.8
+    brightRed: 40.2
+    brightGreen: 49.7
+    brightYellow: 0
+    brightBlue: 16.9
+    brightMagenta: 17.7
+    brightCyan: 47.6
+    brightWhite: 97.1

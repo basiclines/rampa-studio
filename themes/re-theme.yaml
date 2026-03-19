@@ -1,0 +1,53 @@
+name: "re:Theme"
+source:
+  marketplace_id: "Cydo.re-theme"
+  version: "3.0.0"
+  installs: 696
+  rating: 0
+  ratings: 0
+  author: "Cydo"
+  repo: "https://github.com/CydoEntis/reThemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Cydo.re-theme"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#1E1E1E"
+  red: "#CC241D"
+  green: "#87AD72"
+  yellow: "#CEA800"
+  blue: "#569CD6"
+  magenta: "#D8A0DF"
+  cyan: "#4CE2E2"
+  white: "#EEEEEE"
+  brightBlack: "#131313"
+  brightRed: "#FB4934"
+  brightGreen: "#B5CEA8"
+  brightYellow: "#FFD700"
+  brightBlue: "#7ABCF3"
+  brightMagenta: "#F0C2F7"
+  brightCyan: "#9FFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 24.4
+    green: 50.3
+    yellow: 55.6
+    blue: 44.2
+    magenta: 59.5
+    cyan: 75.2
+    white: 94.9
+    brightBlack: 0
+    brightRed: 39.3
+    brightGreen: 70.6
+    brightYellow: 82.4
+    brightBlue: 61
+    brightMagenta: 77
+    brightCyan: 95.5
+    brightWhite: 106

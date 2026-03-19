@@ -1,0 +1,53 @@
+name: "Mak1na Theme (Mak1na Theme)"
+source:
+  marketplace_id: "KevinMancini.palenight-mak1na-theme"
+  version: "0.0.3"
+  installs: 85
+  rating: 5
+  ratings: 1
+  author: "Kevin Mancini"
+  repo: "https://github.com/KevinMancini/palenight-mak1na-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=KevinMancini.palenight-mak1na-theme"
+  formats: null
+colors:
+  bg: "#201A24"
+  fg: "#BFC7D5"
+  black: "#826998"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#F1B866"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#826998"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#F1B866"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 312
+  pair: null
+  contrast:
+    fg: 70.7
+    black: 27.2
+    red: 43.4
+    green: 65.2
+    yellow: 68.3
+    blue: 55.3
+    magenta: 53.1
+    cyan: 77.6
+    white: 106.3
+    brightBlack: 27.2
+    brightRed: 43.4
+    brightGreen: 83.6
+    brightYellow: 68.3
+    brightBlue: 55.3
+    brightMagenta: 53.1
+    brightCyan: 77.6
+    brightWhite: 106.3

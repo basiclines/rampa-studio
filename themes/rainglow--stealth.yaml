@@ -1,0 +1,53 @@
+name: "Rainglow (stealth)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#27292B"
+  fg: "#5F656D"
+  black: "#333638"
+  red: "#BA0E2E"
+  green: "#3C4044"
+  yellow: "#474C51"
+  blue: "#545A60"
+  magenta: "#474C51"
+  cyan: "#3C4044"
+  white: "#6B727B"
+  brightBlack: "#575C60"
+  brightRed: "#F03E5F"
+  brightGreen: "#6C737A"
+  brightYellow: "#777F87"
+  brightBlue: "#858D95"
+  brightMagenta: "#777F87"
+  brightCyan: "#6C737A"
+  brightWhite: "#9298A0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 18.8
+    black: 0
+    red: 17.9
+    green: 0
+    yellow: 8.9
+    blue: 14.2
+    magenta: 8.9
+    cyan: 0
+    white: 24.4
+    brightBlack: 15
+    brightRed: 34.2
+    brightGreen: 24.7
+    brightYellow: 30.2
+    brightBlue: 37
+    brightMagenta: 30.2
+    brightCyan: 24.7
+    brightWhite: 42.8

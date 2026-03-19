@@ -1,0 +1,53 @@
+name: "Noctis (Noctis Hibernus)"
+source:
+  marketplace_id: "Zylve.noctis-italicized"
+  version: "1.0.2"
+  installs: 5649
+  rating: 0
+  ratings: 0
+  author: "Zylve"
+  repo: "https://github.com/liviuschera/noctis"
+  url: "https://marketplace.visualstudio.com/items?itemName=Zylve.noctis-italicized"
+  formats: null
+colors:
+  bg: "#F4F6F6"
+  fg: "#005661"
+  black: "#003B42"
+  red: "#E34E1C"
+  green: "#00B368"
+  yellow: "#F49725"
+  blue: "#0094F0"
+  magenta: "#FF5792"
+  cyan: "#00BDD6"
+  white: "#8CA6A6"
+  brightBlack: "#004D57"
+  brightRed: "#FF4000"
+  brightGreen: "#00D17A"
+  brightYellow: "#FF8C00"
+  brightBlue: "#0FA3FF"
+  brightMagenta: "#FF6B9F"
+  brightCyan: "#00CBE6"
+  brightWhite: "#BBC3C4"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.8
+    black: 92
+    red: 59.7
+    green: 46.7
+    yellow: 38.5
+    blue: 53.2
+    magenta: 49.9
+    cyan: 38.5
+    white: 44.9
+    brightBlack: 86
+    brightRed: 55.3
+    brightGreen: 32.8
+    brightYellow: 39.8
+    brightBlue: 46.5
+    brightMagenta: 45.6
+    brightCyan: 31.5
+    brightWhite: 27.6

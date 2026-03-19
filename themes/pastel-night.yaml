@@ -1,0 +1,53 @@
+name: "Pastel night"
+source:
+  marketplace_id: "GracefulPotato.pastel-night"
+  version: "0.1.0"
+  installs: 4197
+  rating: 5
+  ratings: 1
+  author: "GracefulPotato"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=GracefulPotato.pastel-night"
+  formats: null
+colors:
+  bg: "#2A2A35"
+  fg: "#BABABA"
+  black: "#343442"
+  red: "#D3869B"
+  green: "#83A598"
+  yellow: "#CFCEAB"
+  blue: "#A7C4C8"
+  magenta: "#AF95BB"
+  cyan: "#CFCEAB"
+  white: "#BABABA"
+  brightBlack: "#60617B"
+  brightRed: "#D3869B"
+  brightGreen: "#83A598"
+  brightYellow: "#CFCEAB"
+  brightBlue: "#A7C4C8"
+  brightMagenta: "#AF95BB"
+  brightCyan: "#CFCEAB"
+  brightWhite: "#BABABA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 61.1
+    black: 0
+    red: 45
+    green: 45.6
+    yellow: 71.6
+    blue: 63.8
+    magenta: 45.8
+    cyan: 71.6
+    white: 61.1
+    brightBlack: 17.8
+    brightRed: 45
+    brightGreen: 45.6
+    brightYellow: 71.6
+    brightBlue: 63.8
+    brightMagenta: 45.8
+    brightCyan: 71.6
+    brightWhite: 61.1

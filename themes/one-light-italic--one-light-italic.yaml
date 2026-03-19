@@ -1,0 +1,54 @@
+name: "One Light Italic (One Light Italic)"
+source:
+  marketplace_id: "laggardkernel.vscode-theme-onelight"
+  version: "0.2.1"
+  installs: 10333
+  rating: 0
+  ratings: 0
+  author: "laggardkernel"
+  repo: "https://github.com/laggardkernel/vscode-theme-onelight"
+  url: "https://marketplace.visualstudio.com/items?itemName=laggardkernel.vscode-theme-onelight"
+  formats:
+    sublime: "https://raw.githubusercontent.com/laggardkernel/vscode-theme-onelight/master/themes/one-half-light-italic.tmTheme"
+colors:
+  bg: "#FAFAFA"
+  fg: "#24292E"
+  black: "#383A42"
+  red: "#E45649"
+  green: "#50A14F"
+  yellow: "#C18401"
+  blue: "#2F5AF3"
+  magenta: "#A626A4"
+  cyan: "#00B7EB"
+  white: "#FAFAFA"
+  brightBlack: "#797979"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#4B72FF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#00B7EB"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.5
+    black: 93.2
+    red: 60.4
+    green: 56
+    yellow: 55.8
+    blue: 73.2
+    magenta: 76.2
+    cyan: 42.4
+    white: 0
+    brightBlack: 67.2
+    brightRed: 55.7
+    brightGreen: 36.1
+    brightYellow: 28.2
+    brightBlue: 64.5
+    brightMagenta: 52.7
+    brightCyan: 42.4
+    brightWhite: 0

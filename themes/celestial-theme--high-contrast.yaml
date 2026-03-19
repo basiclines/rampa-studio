@@ -1,0 +1,53 @@
+name: "Celestial Theme (High Contrast)"
+source:
+  marketplace_id: "Letsmoe.celestial-themes"
+  version: "0.0.2"
+  installs: 194
+  rating: 0
+  ratings: 0
+  author: "Letsmoe"
+  repo: "https://github.com/Letsmoe/celestial-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Letsmoe.celestial-themes"
+  formats: null
+colors:
+  bg: "#F7F7FF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.6
+    black: 101.6
+    red: 69.6
+    green: 44.8
+    yellow: 53.5
+    blue: 81.6
+    magenta: 70.1
+    cyan: 56.2
+    white: 81.5
+    brightBlack: 74.3
+    brightRed: 69.6
+    brightGreen: 36.5
+    brightYellow: 36.5
+    brightBlue: 81.6
+    brightMagenta: 70.1
+    brightCyan: 56.2
+    brightWhite: 44

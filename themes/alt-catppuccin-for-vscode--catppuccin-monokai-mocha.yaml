@@ -1,0 +1,53 @@
+name: "Alt Catppuccin for VSCode (Catppuccin Monokai Mocha)"
+source:
+  marketplace_id: "dooez.alt-catppuccin-vsc"
+  version: "2.7.4"
+  installs: 50663
+  rating: 5
+  ratings: 3
+  author: "dooez"
+  repo: "https://github.com/Dooez/alt-catppuccin-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dooez.alt-catppuccin-vsc"
+  formats: null
+colors:
+  bg: "#1E1E2E"
+  fg: "#CDD6F4"
+  black: "#6C7086"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#F5C2E7"
+  cyan: "#89DCEB"
+  white: "#9399B2"
+  brightBlack: "#7F849C"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#89B4FA"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#89DCEB"
+  brightWhite: "#CDD6F4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 80
+    black: 25.8
+    red: 54.7
+    green: 78.3
+    yellow: 88.4
+    blue: 59.1
+    magenta: 76.7
+    cyan: 75.6
+    white: 45.5
+    brightBlack: 35.1
+    brightRed: 54.7
+    brightGreen: 78.3
+    brightYellow: 88.4
+    brightBlue: 59.1
+    brightMagenta: 76.7
+    brightCyan: 75.6
+    brightWhite: 80

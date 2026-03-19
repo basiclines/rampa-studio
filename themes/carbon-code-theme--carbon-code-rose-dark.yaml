@@ -1,0 +1,53 @@
+name: "Carbon Code Theme (Carbon Code Rose Dark)"
+source:
+  marketplace_id: "sazardev.carbon-code-theme"
+  version: "1.2.0"
+  installs: 904
+  rating: 5
+  ratings: 1
+  author: "sazardev"
+  repo: "https://github.com/sazardev/sazardev-minimal-brutal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sazardev.carbon-code-theme"
+  formats: null
+colors:
+  bg: "#110E10"
+  fg: "#E6E6E6"
+  black: "#000000"
+  red: "#F43F5E"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#EC4899"
+  cyan: "#06B6D4"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#F43F5E"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#EC4899"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.3
+    black: 0
+    red: 38.5
+    green: 57.4
+    yellow: 65.7
+    blue: 37.4
+    magenta: 39.6
+    cyan: 54.5
+    white: 107.5
+    brightBlack: 0
+    brightRed: 38.5
+    brightGreen: 57.4
+    brightYellow: 65.7
+    brightBlue: 37.4
+    brightMagenta: 39.6
+    brightCyan: 54.5
+    brightWhite: 107.5

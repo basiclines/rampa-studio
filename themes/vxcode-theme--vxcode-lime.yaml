@@ -1,0 +1,53 @@
+name: "VXcode Theme (vxcode lime)"
+source:
+  marketplace_id: "evertjunior.vxcode-theme"
+  version: "0.0.15"
+  installs: 3242
+  rating: 5
+  ratings: 3
+  author: "Evert Junior"
+  repo: "https://github.com/evertjr/vxcode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=evertjunior.vxcode-theme"
+  formats: null
+colors:
+  bg: "#DDF2E5"
+  fg: "#333333"
+  black: "#555555"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B290BA"
+  cyan: "#6AB8C0"
+  white: "#DDDDDD"
+  brightBlack: "#888888"
+  brightRed: "#F48484"
+  brightGreen: "#76C3A5"
+  brightYellow: "#F2D98E"
+  brightBlue: "#80A8E4"
+  brightMagenta: "#C2A0CA"
+  brightCyan: "#7AC8D0"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 159
+  pair: null
+  contrast:
+    fg: 87.9
+    black: 75.2
+    red: 45.2
+    green: 37.9
+    yellow: 17.2
+    blue: 45.1
+    magenta: 42.6
+    cyan: 33.9
+    white: 0
+    brightBlack: 52.3
+    brightRed: 37.5
+    brightGreen: 29.6
+    brightYellow: 8.2
+    brightBlue: 37
+    brightMagenta: 34.3
+    brightCyan: 25.5
+    brightWhite: 0

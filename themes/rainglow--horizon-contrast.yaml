@@ -1,0 +1,53 @@
+name: "Rainglow (horizon-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#11101C"
+  fg: "#EDEBE6"
+  black: "#1B192C"
+  red: "#BA0E2E"
+  green: "#FD8A25"
+  yellow: "#B133DC"
+  blue: "#FED230"
+  magenta: "#E5194B"
+  cyan: "#E524A9"
+  white: "#F8F7F5"
+  brightBlack: "#38355D"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEC08A"
+  brightYellow: "#D28AEB"
+  brightBlue: "#FEE895"
+  brightMagenta: "#F07492"
+  brightCyan: "#F07FCD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 287
+  pair: null
+  contrast:
+    fg: 94.3
+    black: 0
+    red: 21
+    green: 55.2
+    yellow: 29.1
+    blue: 81.5
+    magenta: 31.5
+    cyan: 35.1
+    white: 102.1
+    brightBlack: 0
+    brightRed: 37.3
+    brightGreen: 75.5
+    brightYellow: 53.5
+    brightBlue: 92.7
+    brightMagenta: 48.6
+    brightCyan: 53.9
+    brightWhite: 107.3

@@ -1,0 +1,53 @@
+name: "Gruvbox Material (Gruvbox Material Dark)"
+source:
+  marketplace_id: "sainnhe.gruvbox-material"
+  version: "6.5.2"
+  installs: 328189
+  rating: 4.92
+  ratings: 39
+  author: "sainnhe"
+  repo: "https://github.com/sainnhe/gruvbox-material-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material"
+  formats: null
+colors:
+  bg: "#292828"
+  fg: "#D4BE98"
+  black: "#32302F"
+  red: "#EA6962"
+  green: "#A9B665"
+  yellow: "#D8A657"
+  blue: "#7DAEA3"
+  magenta: "#D3869B"
+  cyan: "#89B482"
+  white: "#D4BE98"
+  brightBlack: "#928374"
+  brightRed: "#EA6962"
+  brightGreen: "#A9B665"
+  brightYellow: "#D8A657"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#D3869B"
+  brightCyan: "#89B482"
+  brightWhite: "#DDC7A1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.5
+    black: 0
+    red: 40.5
+    green: 55.5
+    yellow: 55.3
+    blue: 49.7
+    magenta: 45.5
+    cyan: 52.2
+    white: 65.5
+    brightBlack: 33.9
+    brightRed: 40.5
+    brightGreen: 55.5
+    brightYellow: 55.3
+    brightBlue: 49.7
+    brightMagenta: 45.5
+    brightCyan: 52.2
+    brightWhite: 70.8

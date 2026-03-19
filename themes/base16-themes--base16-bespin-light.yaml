@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Bespin Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#BAAE9E"
+  fg: "#5E5D5C"
+  black: "#8A8986"
+  red: "#CF6A4C"
+  green: "#54BE0D"
+  yellow: "#CF7D34"
+  blue: "#5EA6EA"
+  magenta: "#9B859D"
+  cyan: "#AFC4DB"
+  white: "#36312E"
+  brightBlack: "#797977"
+  brightRed: "#CF6A4C"
+  brightGreen: "#54BE0D"
+  brightYellow: "#F9EE98"
+  brightBlue: "#5EA6EA"
+  brightMagenta: "#9B859D"
+  brightCyan: "#AFC4DB"
+  brightWhite: "#28211C"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: 75
+  pair: null
+  contrast:
+    fg: 37.6
+    black: 17.6
+    red: 18.3
+    green: 0
+    yellow: 13.5
+    blue: 0
+    magenta: 16.2
+    cyan: 9.3
+    white: 54
+    brightBlack: 25.3
+    brightRed: 18.3
+    brightGreen: 0
+    brightYellow: 35
+    brightBlue: 0
+    brightMagenta: 16.2
+    brightCyan: 9.3
+    brightWhite: 57.9

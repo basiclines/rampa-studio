@@ -1,0 +1,53 @@
+name: "Outrun"
+source:
+  marketplace_id: "hhochart29.outrun"
+  version: "1.1.3"
+  installs: 6266
+  rating: 5
+  ratings: 1
+  author: "hhochart29"
+  repo: "https://github.com/hhochart29/outrun-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=hhochart29.outrun"
+  formats: null
+colors:
+  bg: "#161130"
+  fg: "#EEEEEE"
+  black: "#283034"
+  red: "#FF2E97"
+  green: "#62A9CF"
+  yellow: "#FFD400"
+  blue: "#42C6FF"
+  magenta: "#FF2AFC"
+  cyan: "#42C6FF"
+  white: "#D9E0E9"
+  brightBlack: "#435056"
+  brightRed: "#FF2E97"
+  brightGreen: "#ADD0E5"
+  brightYellow: "#FFD400"
+  brightBlue: "#42C6FF"
+  brightMagenta: "#FF2AFC"
+  brightCyan: "#42C6FF"
+  brightWhite: "#F4F6F9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 287
+  pair: null
+  contrast:
+    fg: 95.8
+    black: 0
+    red: 40.6
+    green: 50.4
+    yellow: 82
+    blue: 64.3
+    magenta: 46.1
+    cyan: 64.3
+    white: 86.4
+    brightBlack: 12.5
+    brightRed: 40.6
+    brightGreen: 74.1
+    brightYellow: 82
+    brightBlue: 64.3
+    brightMagenta: 46.1
+    brightCyan: 64.3
+    brightWhite: 100.8

@@ -1,0 +1,53 @@
+name: "Rainglow (crackpot)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#3A385B"
+  fg: "#D2C9EF"
+  black: "#44426B"
+  red: "#BA0E2E"
+  green: "#E4B363"
+  yellow: "#EF6461"
+  blue: "#908CD8"
+  magenta: "#E4B363"
+  cyan: "#E8E9EB"
+  white: "#E2DDF5"
+  brightBlack: "#625F9A"
+  brightRed: "#F03E5F"
+  brightGreen: "#F3DDBA"
+  brightYellow: "#F8BFBE"
+  brightBlue: "#DAD8F2"
+  brightMagenta: "#F3DDBA"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 286
+  pair: null
+  contrast:
+    fg: 68.4
+    black: 0
+    red: 13
+    green: 57.3
+    yellow: 35.4
+    blue: 36.2
+    magenta: 57.3
+    cyan: 85
+    white: 79.3
+    brightBlack: 14.4
+    brightRed: 29.3
+    brightGreen: 79.2
+    brightYellow: 67.7
+    brightBlue: 75.9
+    brightMagenta: 79.2
+    brightCyan: 99.4
+    brightWhite: 99.4

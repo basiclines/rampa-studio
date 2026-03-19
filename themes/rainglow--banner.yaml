@@ -1,0 +1,53 @@
+name: "Rainglow (banner)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#1D1A26"
+  fg: "#C5BEDD"
+  black: "#292435"
+  red: "#BA0E2E"
+  green: "#7CD827"
+  yellow: "#A25CDB"
+  blue: "#FFFFFF"
+  magenta: "#A6EF61"
+  cyan: "#A6EF61"
+  white: "#D4CFE6"
+  brightBlack: "#4B4363"
+  brightRed: "#F03E5F"
+  brightGreen: "#B0E87D"
+  brightYellow: "#D2B0ED"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#DAF8BE"
+  brightCyan: "#DAF8BE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 296
+  pair: null
+  contrast:
+    fg: 68.2
+    black: 0
+    red: 19.9
+    green: 68.2
+    yellow: 32.2
+    blue: 106.3
+    magenta: 83.3
+    cyan: 83.3
+    white: 77.6
+    brightBlack: 9.6
+    brightRed: 36.2
+    brightGreen: 81.3
+    brightYellow: 65.4
+    brightBlue: 106.3
+    brightMagenta: 95.4
+    brightCyan: 95.4
+    brightWhite: 106.3

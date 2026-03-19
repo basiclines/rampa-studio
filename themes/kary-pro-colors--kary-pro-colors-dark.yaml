@@ -1,0 +1,53 @@
+name: "Kary Pro Colors (Kary Pro Colors - Dark)"
+source:
+  marketplace_id: "karyfoundation.theme-karyfoundation-themes"
+  version: "37.0.0"
+  installs: 158339
+  rating: 4.81
+  ratings: 26
+  author: "Pouya Kary"
+  repo: "https://github.com/pouyakary/procolors"
+  url: "https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#CCCCCC"
+  black: "#1A1A1A"
+  red: "#D38569"
+  green: "#7DA76F"
+  yellow: "#BC9550"
+  blue: "#819DC2"
+  magenta: "#B98EB2"
+  cyan: "#819DC2"
+  white: "#CCCCCC"
+  brightBlack: "#474747"
+  brightRed: "#D38569"
+  brightGreen: "#7DA76F"
+  brightYellow: "#BC9550"
+  brightBlue: "#819DC2"
+  brightMagenta: "#B98EB2"
+  brightCyan: "#819DC2"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.3
+    black: 0
+    red: 45.9
+    green: 47.4
+    yellow: 47
+    blue: 46.8
+    magenta: 47.1
+    cyan: 46.8
+    white: 74.3
+    brightBlack: 9.6
+    brightRed: 45.9
+    brightGreen: 47.4
+    brightYellow: 47
+    brightBlue: 46.8
+    brightMagenta: 47.1
+    brightCyan: 46.8
+    brightWhite: 101.3

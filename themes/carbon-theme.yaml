@@ -1,0 +1,53 @@
+name: "Carbon Theme"
+source:
+  marketplace_id: "OscarNewman.carbon-theme-dark"
+  version: "0.0.1"
+  installs: 3318
+  rating: 5
+  ratings: 1
+  author: "Oscar Newman"
+  repo: "https://github.com/oscarnewman/carbon-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=OscarNewman.carbon-theme-dark"
+  formats: null
+colors:
+  bg: "#152031"
+  fg: "#BAC8CB"
+  black: "#000000"
+  red: "#FF4262"
+  green: "#9CDE65"
+  yellow: "#E1E797"
+  blue: "#65B7EC"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#CDD3D3"
+  brightBlack: "#666666"
+  brightRed: "#FF4262"
+  brightGreen: "#9CDE65"
+  brightYellow: "#D8DE90"
+  brightBlue: "#65B7EC"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 259
+  pair: null
+  contrast:
+    fg: 69.6
+    black: 0
+    red: 39.8
+    green: 73.6
+    yellow: 86.5
+    blue: 56.9
+    magenta: 28.7
+    cyan: 46.5
+    white: 77
+    brightBlack: 20.9
+    brightRed: 39.8
+    brightGreen: 73.6
+    brightYellow: 81
+    brightBlue: 56.9
+    brightMagenta: 44.3
+    brightCyan: 54.3
+    brightWhite: 88.9

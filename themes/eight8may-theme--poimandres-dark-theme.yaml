@@ -1,0 +1,53 @@
+name: "Eight8May Theme (poimandres dark theme)"
+source:
+  marketplace_id: "ShravanYadav.eight8may-theme"
+  version: "0.0.4"
+  installs: 52
+  rating: 5
+  ratings: 1
+  author: "Shravan"
+  repo: "https://github.com/3-shravan/Eight8May-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=ShravanYadav.eight8may-theme"
+  formats: null
+colors:
+  bg: "#161C1F"
+  fg: "#CFDEE6"
+  black: "#161C1F"
+  red: "#ED537A"
+  green: "#4EC9B0"
+  yellow: "#CFE8E7"
+  blue: "#70899E"
+  magenta: "#B6D1CD"
+  cyan: "#70899E"
+  white: "#FFFFFF"
+  brightBlack: "#CFDEE6"
+  brightRed: "#ED537A"
+  brightGreen: "#4EC9B0"
+  brightYellow: "#CFE8E7"
+  brightBlue: "#A7CDD9"
+  brightMagenta: "#B6D1CD"
+  brightCyan: "#A7CDD9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 229
+  pair: null
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 39.4
+    green: 61.5
+    yellow: 88.3
+    blue: 36.2
+    magenta: 73.8
+    cyan: 36.2
+    white: 106.4
+    brightBlack: 83.6
+    brightRed: 39.4
+    brightGreen: 61.5
+    brightYellow: 88.3
+    brightBlue: 71.1
+    brightMagenta: 73.8
+    brightCyan: 71.1
+    brightWhite: 106.4

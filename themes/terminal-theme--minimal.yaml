@@ -1,0 +1,53 @@
+name: "Terminal Theme (Minimal)"
+source:
+  marketplace_id: "YesCode.terminal-theme"
+  version: "0.0.9"
+  installs: 9273
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://github.com/yesomac/terminal"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.terminal-theme"
+  formats: null
+colors:
+  bg: "#292A37"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#BDEFFA"
+  brightYellow: "#E7F0FF"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 281
+  pair: null
+  contrast:
+    fg: 101.6
+    black: 0
+    red: 39
+    green: 58
+    yellow: 70
+    blue: 44.5
+    magenta: 16.5
+    cyan: 46.4
+    white: 44.2
+    brightBlack: 15.6
+    brightRed: 39
+    brightGreen: 87.9
+    brightYellow: 93.6
+    brightBlue: 15.7
+    brightMagenta: 16.5
+    brightCyan: 46.4
+    brightWhite: 95.8

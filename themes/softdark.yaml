@@ -1,0 +1,53 @@
+name: "SoftDark"
+source:
+  marketplace_id: "jovejonovski.softdark"
+  version: "1.0.3"
+  installs: 1024
+  rating: 0
+  ratings: 0
+  author: "Jove Jonovski"
+  repo: "https://github.com/datyin/softdark"
+  url: "https://marketplace.visualstudio.com/items?itemName=jovejonovski.softdark"
+  formats: null
+colors:
+  bg: "#161E20"
+  fg: "#8D9FA3"
+  black: "#000000"
+  red: "#D15F5F"
+  green: "#5EA55E"
+  yellow: "#BBA466"
+  blue: "#6DA6E7"
+  magenta: "#B972B9"
+  cyan: "#20E2E2"
+  white: "#EFEFEF"
+  brightBlack: "#666666"
+  brightRed: "#DB9696"
+  brightGreen: "#86CC86"
+  brightYellow: "#BEAC7A"
+  brightBlue: "#89BAF1"
+  brightMagenta: "#E49FE4"
+  brightCyan: "#7DE0E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 215
+  pair: null
+  contrast:
+    fg: 46.9
+    black: 0
+    red: 35
+    green: 43.7
+    yellow: 52.4
+    blue: 50.6
+    magenta: 38.7
+    cyan: 74.5
+    white: 95.7
+    brightBlack: 21.4
+    brightRed: 53.5
+    brightGreen: 64.5
+    brightYellow: 56.3
+    brightBlue: 61.3
+    brightMagenta: 61.5
+    brightCyan: 76.6
+    brightWhite: 106.2

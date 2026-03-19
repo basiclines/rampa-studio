@@ -1,0 +1,53 @@
+name: "Monochrome (monochrome-light-cool-gray)"
+source:
+  marketplace_id: "anotherglitchinthematrix.monochrome"
+  version: "2.4.3"
+  installs: 47972
+  rating: 4.38
+  ratings: 8
+  author: "glitch"
+  repo: "https://github.com/anotherglitchinthematrix/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=anotherglitchinthematrix.monochrome"
+  formats: null
+colors:
+  bg: "#F9FAFB"
+  fg: "#565B66"
+  black: "#F9FAFB"
+  red: "#858991"
+  green: "#B3B6BB"
+  yellow: "#575C67"
+  blue: "#CBCDD1"
+  magenta: "#6E727C"
+  cyan: "#9CA0A6"
+  white: "#3F4551"
+  brightBlack: "#E2E3E6"
+  brightRed: "#858991"
+  brightGreen: "#B3B6BB"
+  brightYellow: "#575C67"
+  brightBlue: "#CBCDD1"
+  brightMagenta: "#6E727C"
+  brightCyan: "#9CA0A6"
+  brightWhite: "#111827"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 59.6
+    green: 36.5
+    yellow: 80
+    blue: 23.7
+    magenta: 70.4
+    cyan: 48.2
+    white: 89.2
+    brightBlack: 11
+    brightRed: 59.6
+    brightGreen: 36.5
+    brightYellow: 80
+    brightBlue: 23.7
+    brightMagenta: 70.4
+    brightCyan: 48.2
+    brightWhite: 101.4

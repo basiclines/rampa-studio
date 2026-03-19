@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Mornye (Dark))"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#1A1520"
+  fg: "#F4F3F6"
+  black: "#1A1520"
+  red: "#E18DA9"
+  green: "#88A890"
+  yellow: "#FAB3CA"
+  blue: "#DDCEFC"
+  magenta: "#A88EBB"
+  cyan: "#C8A8D8"
+  white: "#F4F3F6"
+  brightBlack: "#635860"
+  brightRed: "#F0A0C0"
+  brightGreen: "#98B8A0"
+  brightYellow: "#FFC8DC"
+  brightBlue: "#EEDEFC"
+  brightMagenta: "#C8AECB"
+  brightCyan: "#D8B8E8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 305
+  pair: null
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 53
+    green: 50
+    yellow: 71.5
+    blue: 80.1
+    magenta: 45.5
+    cyan: 60.4
+    white: 99.2
+    brightBlack: 17.5
+    brightRed: 62.7
+    brightGreen: 58.6
+    brightYellow: 81.2
+    brightBlue: 89.3
+    brightMagenta: 62
+    brightCyan: 69.5
+    brightWhite: 106.9

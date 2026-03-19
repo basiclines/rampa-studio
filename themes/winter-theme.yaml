@@ -1,0 +1,53 @@
+name: "Winter Theme"
+source:
+  marketplace_id: "matthewwithanm.vscode-theme-winter"
+  version: "0.0.4"
+  installs: 4492
+  rating: 5
+  ratings: 1
+  author: "matthewwithanm"
+  repo: "https://github.com/matthewwithanm/vscode-theme-winter"
+  url: "https://marketplace.visualstudio.com/items?itemName=matthewwithanm.vscode-theme-winter"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#555555"
+  red: "#F36F69"
+  green: "#2DA36E"
+  yellow: "#318FFF"
+  blue: "#2C36E8"
+  magenta: "#A71D5D"
+  cyan: "#703FDE"
+  white: "#999988"
+  brightBlack: "#55555"
+  brightRed: "#F36F69"
+  brightGreen: "#2DA36E"
+  brightYellow: "#318FFF"
+  brightBlue: "#2C36E8"
+  brightMagenta: "#A71D5D"
+  brightCyan: "#703FDE"
+  brightWhite: "#999988"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 85.9
+    red: 54.4
+    green: 58.7
+    yellow: 59
+    blue: 84.7
+    magenta: 82.9
+    cyan: 79.5
+    white: 55.2
+    brightBlack: 89.2
+    brightRed: 54.4
+    brightGreen: 58.7
+    brightYellow: 59
+    brightBlue: 84.7
+    brightMagenta: 82.9
+    brightCyan: 79.5
+    brightWhite: 55.2

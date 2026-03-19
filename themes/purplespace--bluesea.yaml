@@ -1,0 +1,53 @@
+name: "PurpleSpace (BlueSea)"
+source:
+  marketplace_id: "YesCode.purplespace"
+  version: "0.0.7"
+  installs: 4013
+  rating: 5
+  ratings: 1
+  author: "YesCode"
+  repo: "https://github.com/yesomac/purplespace"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.purplespace"
+  formats: null
+colors:
+  bg: "#5F0A24"
+  fg: "#F7EEFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#F9F8FA"
+  brightYellow: "#C4A2EB"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 10
+  pair: null
+  contrast:
+    fg: 93
+    black: 0
+    red: 37.2
+    green: 56.2
+    yellow: 68.3
+    blue: 42.7
+    magenta: 14.7
+    cyan: 44.6
+    white: 42.4
+    brightBlack: 13.8
+    brightRed: 37.2
+    brightGreen: 97.7
+    brightYellow: 54
+    brightBlue: 13.9
+    brightMagenta: 14.7
+    brightCyan: 44.6
+    brightWhite: 94.1

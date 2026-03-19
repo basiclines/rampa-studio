@@ -1,0 +1,53 @@
+name: "Monte Cristo"
+source:
+  marketplace_id: "monte-cristo-theme.monte-cristo"
+  version: "1.1.0"
+  installs: 142
+  rating: 0
+  ratings: 0
+  author: "Monte Cristo Theme"
+  repo: "https://github.com/monte-cristos/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=monte-cristo-theme.monte-cristo"
+  formats: null
+colors:
+  bg: "#1C1D26"
+  fg: "#FAFAFA"
+  black: "#140021"
+  red: "#FF2E52"
+  green: "#30F1A0"
+  yellow: "#FFF94B"
+  blue: "#0060E0"
+  magenta: "#FF4396"
+  cyan: "#42D3F2"
+  white: "#FAFAFA"
+  brightBlack: "#00B3F5"
+  brightRed: "#FF505F"
+  brightGreen: "#53FEBE"
+  brightYellow: "#FFEA7F"
+  brightBlue: "#00B3F5"
+  brightMagenta: "#FF6BBB"
+  brightCyan: "#00DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 102.8
+    black: 0
+    red: 37.8
+    green: 79.5
+    yellow: 98.3
+    blue: 22.9
+    magenta: 41.8
+    cyan: 68.6
+    white: 102.8
+    brightBlack: 53.8
+    brightRed: 42
+    brightGreen: 88.1
+    brightYellow: 92
+    brightBlue: 53.8
+    brightMagenta: 50.1
+    brightCyan: 73.4
+    brightWhite: 106.1

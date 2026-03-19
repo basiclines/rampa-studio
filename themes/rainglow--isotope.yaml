@@ -1,0 +1,53 @@
+name: "Rainglow (isotope)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#454955"
+  fg: "#F3EFF5"
+  black: "#505563"
+  red: "#BA0E2E"
+  green: "#72B01D"
+  yellow: "#B3DD49"
+  blue: "#FFFFFF"
+  magenta: "#B3DD49"
+  cyan: "#72B01D"
+  white: "#FFFFFF"
+  brightBlack: "#73798D"
+  brightRed: "#F03E5F"
+  brightGreen: "#A5E251"
+  brightYellow: "#D7ED9F"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#D7ED9F"
+  brightCyan: "#A5E251"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 85.4
+    black: 0
+    red: 8.7
+    green: 37.8
+    yellow: 64.3
+    blue: 95
+    magenta: 64.3
+    cyan: 37.8
+    white: 95
+    brightBlack: 18.8
+    brightRed: 25
+    brightGreen: 65.4
+    brightYellow: 77.6
+    brightBlue: 95
+    brightMagenta: 77.6
+    brightCyan: 65.4
+    brightWhite: 95

@@ -1,0 +1,53 @@
+name: "DevStack (Afterglow-Fade)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#2C2025"
+  fg: "#F1E9E5"
+  black: "#2C2025"
+  red: "#E63745"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#FF8163"
+  magenta: "#FF8163"
+  cyan: "#29C3A0"
+  white: "#F1E9E5"
+  brightBlack: "#2C2025"
+  brightRed: "#E63745"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#FF8163"
+  brightMagenta: "#FF8163"
+  brightCyan: "#29C3A0"
+  brightWhite: "#F1E9E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 352
+  pair: null
+  contrast:
+    fg: 91.8
+    black: 0
+    red: 31.6
+    green: 56
+    yellow: 50.1
+    blue: 51.7
+    magenta: 51.7
+    cyan: 56
+    white: 91.8
+    brightBlack: 0
+    brightRed: 31.6
+    brightGreen: 56
+    brightYellow: 50.1
+    brightBlue: 51.7
+    brightMagenta: 51.7
+    brightCyan: 56
+    brightWhite: 91.8

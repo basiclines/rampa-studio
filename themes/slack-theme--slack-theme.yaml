@@ -1,0 +1,53 @@
+name: "Slack Theme (slack-theme)"
+source:
+  marketplace_id: "tanmay.slack-theme"
+  version: "1.0.0"
+  installs: 5535
+  rating: 3
+  ratings: 2
+  author: "tanmay"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=tanmay.slack-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#EDB625"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#6B266D"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#6B266D"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 74
+    green: 49.2
+    yellow: 34.7
+    blue: 86.1
+    magenta: 74.6
+    cyan: 92.3
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 74
+    brightGreen: 40.9
+    brightYellow: 40.9
+    brightBlue: 86.1
+    brightMagenta: 74.6
+    brightCyan: 92.3
+    brightWhite: 48.5

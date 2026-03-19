@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_LemonChiffon)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFACD"
+  black: "#FFFACD"
+  red: "#BBB796"
+  green: "#CCC8A4"
+  yellow: "#99967B"
+  blue: "#EEE9BF"
+  magenta: "#DDD9B2"
+  cyan: "#AAA789"
+  white: "#88856D"
+  brightBlack: "#FFFACD"
+  brightRed: "#BBB796"
+  brightGreen: "#CCC8A4"
+  brightYellow: "#99967B"
+  brightBlue: "#EEE9BF"
+  brightMagenta: "#DDD9B2"
+  brightCyan: "#AAA789"
+  brightWhite: "#88856D"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.4
+    black: 103.4
+    red: 62.8
+    green: 72.5
+    yellow: 45.1
+    blue: 92.6
+    magenta: 82.6
+    cyan: 53.9
+    white: 36.7
+    brightBlack: 103.4
+    brightRed: 62.8
+    brightGreen: 72.5
+    brightYellow: 45.1
+    brightBlue: 92.6
+    brightMagenta: 82.6
+    brightCyan: 53.9
+    brightWhite: 36.7

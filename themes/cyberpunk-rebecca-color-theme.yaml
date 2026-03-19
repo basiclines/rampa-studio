@@ -1,0 +1,53 @@
+name: "Cyberpunk Rebecca color theme"
+source:
+  marketplace_id: "LazzyE.cyberpunk-rebecca-color-theme"
+  version: "0.0.5"
+  installs: 28
+  rating: 5
+  ratings: 1
+  author: "LazzyE"
+  repo: "https://github.com/ErliCai/cyberpunk-rebecca-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LazzyE.cyberpunk-rebecca-color-theme"
+  formats: null
+colors:
+  bg: "#0E2025"
+  fg: "#CFFFF0"
+  black: "#0E2025"
+  red: "#FF2D95"
+  green: "#56E0B0"
+  yellow: "#E8B830"
+  blue: "#2D8CCC"
+  magenta: "#FF2D95"
+  cyan: "#7AECC8"
+  white: "#CFFFF0"
+  brightBlack: "#183038"
+  brightRed: "#FF69B4"
+  brightGreen: "#7AECC8"
+  brightYellow: "#F0D060"
+  brightBlue: "#5AAFEE"
+  brightMagenta: "#FF69B4"
+  brightCyan: "#FFB8D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 218
+  pair: null
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 39.6
+    green: 72.5
+    yellow: 66
+    blue: 36
+    magenta: 39.6
+    cyan: 81
+    white: 99.3
+    brightBlack: 0
+    brightRed: 49.3
+    brightGreen: 81
+    brightYellow: 77.6
+    brightBlue: 53.4
+    brightMagenta: 49.3
+    brightCyan: 73.9
+    brightWhite: 106.1

@@ -1,0 +1,53 @@
+name: "Do You Even Dev, bro? (Telescope)"
+source:
+  marketplace_id: "hmseeb.seeb"
+  version: "1.1.3"
+  installs: 2028
+  rating: 5
+  ratings: 1
+  author: "hmseeb"
+  repo: "https://github.com/hmseeb/dark-owl"
+  url: "https://marketplace.visualstudio.com/items?itemName=hmseeb.seeb"
+  formats: null
+colors:
+  bg: "#16171F"
+  fg: "#BFC3E2"
+  black: "#121319"
+  red: "#BF616A"
+  green: "#72C2A2"
+  yellow: "#78B7E2"
+  blue: "#84A0C6"
+  magenta: "#A093C7"
+  cyan: "#89B8C2"
+  white: "#BCC5D8"
+  brightBlack: "#3E4960"
+  brightRed: "#E29199"
+  brightGreen: "#A0DBC2"
+  brightYellow: "#A8D2EE"
+  brightBlue: "#A3BEE3"
+  brightMagenta: "#C8B5E6"
+  brightCyan: "#B6D8DE"
+  brightWhite: "#E1EBFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 70.3
+    black: 0
+    red: 32.9
+    green: 60
+    yellow: 58.5
+    blue: 48.7
+    magenta: 46.9
+    cyan: 58.6
+    white: 70.2
+    brightBlack: 10.5
+    brightRed: 53.8
+    brightGreen: 76.2
+    brightYellow: 74.8
+    brightBlue: 65.2
+    brightMagenta: 66
+    brightCyan: 78.1
+    brightWhite: 93.4

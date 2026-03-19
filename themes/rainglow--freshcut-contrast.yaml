@@ -1,0 +1,53 @@
+name: "Rainglow (freshcut-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#F8F8F2"
+  black: "#0D0D0D"
+  red: "#BA0E2E"
+  green: "#4ECDC4"
+  yellow: "#00A8C6"
+  blue: "#AEE239"
+  magenta: "#C8D7E8"
+  cyan: "#4ECDC4"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F03E5F"
+  brightGreen: "#9EE3DF"
+  brightYellow: "#2DDFFF"
+  brightBlue: "#D2EF92"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#9EE3DF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103
+    black: 0
+    red: 21.5
+    green: 65.7
+    yellow: 48.2
+    blue: 78.8
+    magenta: 81.3
+    cyan: 65.7
+    white: 107.9
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 82.1
+    brightYellow: 76.4
+    brightBlue: 90.4
+    brightMagenta: 107.9
+    brightCyan: 82.1
+    brightWhite: 107.9

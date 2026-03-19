@@ -1,0 +1,53 @@
+name: "LuminaShade"
+source:
+  marketplace_id: "JackPritomSoren.luminashade"
+  version: "1.0.5"
+  installs: 141
+  rating: 0
+  ratings: 0
+  author: "Jack Pritom Soren"
+  repo: "https://github.com/jps27CSE/LuminaShade-VSCode-Extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=JackPritomSoren.luminashade"
+  formats: null
+colors:
+  bg: "#1E1B2C"
+  fg: "#E0DFE8"
+  black: "#1B1826"
+  red: "#FF9AB8"
+  green: "#7FE6A5"
+  yellow: "#FFDF80"
+  blue: "#8FD8FF"
+  magenta: "#C18FFF"
+  cyan: "#A0C0FF"
+  white: "#E0DFE8"
+  brightBlack: "#7E7399"
+  brightRed: "#FFB6C1"
+  brightGreen: "#A0D6A0"
+  brightYellow: "#FFE699"
+  brightBlue: "#B0E0FF"
+  brightMagenta: "#D4BFFF"
+  brightCyan: "#C0D0FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 86.1
+    black: 0
+    red: 62.5
+    green: 77.2
+    yellow: 87.1
+    blue: 75.6
+    magenta: 52.6
+    cyan: 66.6
+    white: 86.1
+    brightBlack: 29.6
+    brightRed: 72.4
+    brightGreen: 71.9
+    brightYellow: 90.8
+    brightBlue: 82.2
+    brightMagenta: 72.2
+    brightCyan: 76.8
+    brightWhite: 106.1

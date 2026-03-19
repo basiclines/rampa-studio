@@ -1,0 +1,53 @@
+name: "buby"
+source:
+  marketplace_id: "kerneldevs.buby"
+  version: "0.0.1"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "kernel_devs"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=kerneldevs.buby"
+  formats: null
+colors:
+  bg: "#D9D2E9"
+  fg: "#8E7CC3"
+  black: "#D9D2E9"
+  red: "#B4A7D6"
+  green: "#594197"
+  yellow: "#674EA7"
+  blue: "#5C4497"
+  magenta: "#351C75"
+  cyan: "#7A62B7"
+  white: "#9988C8"
+  brightBlack: "#CEC6E4"
+  brightRed: "#7767A4"
+  brightGreen: "#7A62B7"
+  brightYellow: "#674EA7"
+  brightBlue: "#5C4497"
+  brightMagenta: "#351C75"
+  brightCyan: "#7A62B7"
+  brightWhite: "#8E7CC3"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: 300
+  pair: null
+  contrast:
+    fg: 39.3
+    black: 0
+    red: 19.5
+    green: 63.1
+    yellow: 57.7
+    blue: 62.1
+    magenta: 74.8
+    cyan: 49.7
+    white: 34
+    brightBlack: 0
+    brightRed: 49.7
+    brightGreen: 49.7
+    brightYellow: 57.7
+    brightBlue: 62.1
+    brightMagenta: 74.8
+    brightCyan: 49.7
+    brightWhite: 39.3

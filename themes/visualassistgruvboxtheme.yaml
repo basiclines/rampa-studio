@@ -1,0 +1,53 @@
+name: "VisualAssistGruvboxTheme"
+source:
+  marketplace_id: "MinchCoder.visual-assist-gruvbox-theme"
+  version: "0.7.11"
+  installs: 377
+  rating: 5
+  ratings: 1
+  author: "Minch Coder"
+  repo: "https://github.com/Minchh/vscode-gruvbox-visualassist-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MinchCoder.visual-assist-gruvbox-theme"
+  formats: null
+colors:
+  bg: "#1D2021"
+  fg: "#EBDBB2"
+  black: "#1E1E1E"
+  red: "#CC241D"
+  green: "#87AD72"
+  yellow: "#CEA800"
+  blue: "#569CD6"
+  magenta: "#D8A0DF"
+  cyan: "#4CE2E2"
+  white: "#EEEEEE"
+  brightBlack: "#131313"
+  brightRed: "#FB4934"
+  brightGreen: "#B5CEA8"
+  brightYellow: "#FFD700"
+  brightBlue: "#7ABCF3"
+  brightMagenta: "#F0C2F7"
+  brightCyan: "#9FFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 24.2
+    green: 50.1
+    yellow: 55.4
+    blue: 44
+    magenta: 59.3
+    cyan: 75
+    white: 94.7
+    brightBlack: 0
+    brightRed: 39.1
+    brightGreen: 70.4
+    brightYellow: 82.2
+    brightBlue: 60.8
+    brightMagenta: 76.7
+    brightCyan: 95.3
+    brightWhite: 105.8

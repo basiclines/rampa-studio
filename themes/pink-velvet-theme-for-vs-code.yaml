@@ -1,0 +1,53 @@
+name: "Pink Velvet Theme for VS Code"
+source:
+  marketplace_id: "LisaFalth.pink-velvet-theme"
+  version: "1.0.2"
+  installs: 24
+  rating: 5
+  ratings: 1
+  author: "Lisa Fälth"
+  repo: "https://github.com/De1ora/my-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LisaFalth.pink-velvet-theme"
+  formats: null
+colors:
+  bg: "#1E1E25"
+  fg: "#E0E3EB"
+  black: "#45475A"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#FFE797"
+  blue: "#85D4FF"
+  magenta: "#F5BCE1"
+  cyan: "#8CE6D5"
+  white: "#A6ADC8"
+  brightBlack: "#585B70"
+  brightRed: "#F37799"
+  brightGreen: "#89D88B"
+  brightYellow: "#EBD391"
+  brightBlue: "#74A8FC"
+  brightMagenta: "#F2AEDE"
+  brightCyan: "#6BD7CA"
+  brightWhite: "#BAC2DE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 87.8
+    black: 9.4
+    red: 54.8
+    green: 78.5
+    yellow: 91
+    blue: 72.9
+    magenta: 74.2
+    cyan: 79.7
+    white: 56.4
+    brightBlack: 17
+    brightRed: 48.8
+    brightGreen: 70.2
+    brightYellow: 79
+    brightBlue: 53
+    brightMagenta: 68.4
+    brightCyan: 70
+    brightWhite: 68.2

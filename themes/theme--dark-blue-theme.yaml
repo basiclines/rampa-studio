@@ -1,0 +1,53 @@
+name: "Theme + (Dark Blue Theme)"
+source:
+  marketplace_id: "ceciljacob.code-plus-theme"
+  version: "1.28.0"
+  installs: 202059
+  rating: 5
+  ratings: 8
+  author: "Cecil Jacob"
+  repo: "https://github.com/ceciljacob/code-plus-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ceciljacob.code-plus-theme"
+  formats: null
+colors:
+  bg: "#081620"
+  fg: "#F6FAFD"
+  black: "#020202"
+  red: "#C45E04"
+  green: "#82A48F"
+  yellow: "#F4DB60"
+  blue: "#76ABDC"
+  magenta: "#B68DB2"
+  cyan: "#56B8C8"
+  white: "#EFEFEF"
+  brightBlack: "#424242"
+  brightRed: "#C45E04"
+  brightGreen: "#82A48F"
+  brightYellow: "#F4DB60"
+  brightBlue: "#76ABDC"
+  brightMagenta: "#B68DB2"
+  brightCyan: "#56B8C8"
+  brightWhite: "#FEFEFE"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 241
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 0
+    red: 32.2
+    green: 48
+    yellow: 84
+    blue: 53.4
+    magenta: 46.8
+    cyan: 55.9
+    white: 96.6
+    brightBlack: 8.3
+    brightRed: 32.2
+    brightGreen: 48
+    brightYellow: 84
+    brightBlue: 53.4
+    brightMagenta: 46.8
+    brightCyan: 55.9
+    brightWhite: 106.4

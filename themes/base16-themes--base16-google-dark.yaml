@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Google Dark)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#1D1F21"
+  fg: "#C5C8C6"
+  black: "#373B41"
+  red: "#CC342B"
+  green: "#198844"
+  yellow: "#F96A38"
+  blue: "#3971ED"
+  magenta: "#A36AC7"
+  cyan: "#3971ED"
+  white: "#E0E0E0"
+  brightBlack: "#969896"
+  brightRed: "#CC342B"
+  brightGreen: "#198844"
+  brightYellow: "#FBA922"
+  brightBlue: "#3971ED"
+  brightMagenta: "#A36AC7"
+  brightCyan: "#3971ED"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 70.9
+    black: 0
+    red: 25.8
+    green: 28.8
+    yellow: 44.8
+    blue: 29.6
+    magenta: 33.9
+    cyan: 29.6
+    white: 85.9
+    brightBlack: 44.4
+    brightRed: 25.8
+    brightGreen: 28.8
+    brightYellow: 63.5
+    brightBlue: 29.6
+    brightMagenta: 33.9
+    brightCyan: 29.6
+    brightWhite: 105.9

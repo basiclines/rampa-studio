@@ -1,0 +1,53 @@
+name: "Paddy Color Themes (P. \ Neptune)"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74833
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+  formats: null
+colors:
+  bg: "#070C25"
+  fg: "#FDC0BE"
+  black: "#242334"
+  red: "#E72006"
+  green: "#068020"
+  yellow: "#D37D0D"
+  blue: "#3465A5"
+  magenta: "#C40B48"
+  cyan: "#08A087"
+  white: "#CFA9BB"
+  brightBlack: "#444367"
+  brightRed: "#F7614D"
+  brightGreen: "#1B9E47"
+  brightYellow: "#FF9B18"
+  brightBlue: "#3A89D3"
+  brightMagenta: "#FF246D"
+  brightCyan: "#1BDFBE"
+  brightWhite: "#FAE0E8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 77.1
+    black: 0
+    red: 31.8
+    green: 26.8
+    yellow: 43.4
+    blue: 22.1
+    magenta: 23.6
+    cyan: 41.7
+    white: 61
+    brightBlack: 10.4
+    brightRed: 44.3
+    brightGreen: 39.4
+    brightYellow: 61
+    brightBlue: 37.2
+    brightMagenta: 39.1
+    brightCyan: 72.6
+    brightWhite: 91.5

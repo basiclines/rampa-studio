@@ -1,0 +1,53 @@
+name: "Coldark (Coldark - Cold)"
+source:
+  marketplace_id: "ArmandPhilippot.coldark"
+  version: "1.2.11"
+  installs: 6473
+  rating: 5
+  ratings: 1
+  author: "Armand Philippot"
+  repo: "https://github.com/ArmandPhilippot/coldark-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArmandPhilippot.coldark"
+  formats: null
+colors:
+  bg: "#E3EAF2"
+  fg: "#111B27"
+  black: "#E3EAF2"
+  red: "#C22F2E"
+  green: "#116B00"
+  yellow: "#755F00"
+  blue: "#005A8E"
+  magenta: "#AF00AF"
+  cyan: "#006D6D"
+  white: "#111B27"
+  brightBlack: "#3C526D"
+  brightRed: "#C22F2E"
+  brightGreen: "#116B00"
+  brightYellow: "#755F00"
+  brightBlue: "#005A8E"
+  brightMagenta: "#AF00AF"
+  brightCyan: "#006D6D"
+  brightWhite: "#0B121B"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 252
+  pair: null
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 63.7
+    green: 69.6
+    yellow: 67.7
+    blue: 72
+    magenta: 65.1
+    cyan: 67.3
+    white: 91.2
+    brightBlack: 74.8
+    brightRed: 63.7
+    brightGreen: 69.6
+    brightYellow: 67.7
+    brightBlue: 72
+    brightMagenta: 65.1
+    brightCyan: 67.3
+    brightWhite: 92.3

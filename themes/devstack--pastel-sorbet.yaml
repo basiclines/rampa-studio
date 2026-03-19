@@ -1,0 +1,53 @@
+name: "DevStack (Pastel-Sorbet)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#091F1B"
+  fg: "#EAFFD1"
+  black: "#091F1B"
+  red: "#7C1D1D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#95DFD2"
+  magenta: "#95DFD2"
+  cyan: "#29C3A0"
+  white: "#EAFFD1"
+  brightBlack: "#091F1B"
+  brightRed: "#7C1D1D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#95DFD2"
+  brightMagenta: "#95DFD2"
+  brightCyan: "#29C3A0"
+  brightWhite: "#EAFFD1"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 180
+  pair: null
+  contrast:
+    fg: 101.5
+    black: 0
+    red: 8.3
+    green: 57.1
+    yellow: 51.1
+    blue: 77.3
+    magenta: 77.3
+    cyan: 57.1
+    white: 101.5
+    brightBlack: 0
+    brightRed: 8.3
+    brightGreen: 57.1
+    brightYellow: 51.1
+    brightBlue: 77.3
+    brightMagenta: 77.3
+    brightCyan: 57.1
+    brightWhite: 101.5

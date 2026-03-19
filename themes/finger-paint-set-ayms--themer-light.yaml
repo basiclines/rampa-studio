@@ -1,0 +1,53 @@
+name: "Finger Paint Set AYMS (Themer Light)"
+source:
+  marketplace_id: "ayms-data.fingerpaint-ayms"
+  version: "2.4.0"
+  installs: 203
+  rating: 0
+  ratings: 0
+  author: "Ayman Sahyoun"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ayms-data.fingerpaint-ayms"
+  formats: null
+colors:
+  bg: "#EDEBEE"
+  fg: "#2A2021"
+  black: "#EDEBEE"
+  red: "#BA394A"
+  green: "#78992A"
+  yellow: "#BA991A"
+  blue: "#485A9F"
+  magenta: "#A1684F"
+  cyan: "#509B6B"
+  white: "#463D3E"
+  brightBlack: "#D1CED1"
+  brightRed: "#D3833F"
+  brightGreen: "#509B6B"
+  brightYellow: "#BA991A"
+  brightBlue: "#485A9F"
+  brightMagenta: "#A1684F"
+  brightCyan: "#509B6B"
+  brightWhite: "#2A2021"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.3
+    black: 0
+    red: 65.3
+    green: 48.6
+    yellow: 41.4
+    blue: 70.5
+    magenta: 60
+    cyan: 49.4
+    white: 82.9
+    brightBlack: 14.2
+    brightRed: 44.4
+    brightGreen: 49.4
+    brightYellow: 41.4
+    brightBlue: 70.5
+    brightMagenta: 60
+    brightCyan: 49.4
+    brightWhite: 91.3

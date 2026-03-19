@@ -1,0 +1,53 @@
+name: "Rainglow (github)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#333333"
+  fg: "#FFFFFF"
+  black: "#404040"
+  red: "#BA0E2E"
+  green: "#7385BC"
+  yellow: "#66C4C4"
+  blue: "#E53D67"
+  magenta: "#CCCCCC"
+  cyan: "#5A6FAD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F03E5F"
+  brightGreen: "#B8C1DD"
+  brightYellow: "#B0E0E0"
+  brightBlue: "#F197AD"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#9EAACF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102
+    black: 0
+    red: 15.6
+    green: 32.1
+    yellow: 56.8
+    blue: 29.5
+    magenta: 69.8
+    cyan: 22.2
+    white: 102
+    brightBlack: 17.2
+    brightRed: 31.9
+    brightGreen: 63.6
+    brightYellow: 76.5
+    brightBlue: 54.4
+    brightMagenta: 102
+    brightCyan: 50.7
+    brightWhite: 102

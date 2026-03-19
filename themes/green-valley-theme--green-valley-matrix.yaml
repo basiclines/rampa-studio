@@ -1,0 +1,53 @@
+name: "Green Valley Theme (Green Valley Matrix)"
+source:
+  marketplace_id: "helciopenha.green-valley"
+  version: "1.0.1"
+  installs: 775
+  rating: 5
+  ratings: 1
+  author: "Helcio Penha"
+  repo: "https://github.com/helciopenha/green-valley-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=helciopenha.green-valley"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#F5F5F5"
+  black: "#21222C"
+  red: "#FF5C57"
+  green: "#00E185"
+  yellow: "#FFD866"
+  blue: "#A480FF"
+  magenta: "#00B46E"
+  cyan: "#25D0D0"
+  white: "#F5F5F5"
+  brightBlack: "#7A8C99"
+  brightRed: "#FFBFB3"
+  brightGreen: "#B9FFB3"
+  brightYellow: "#FFFFB3"
+  brightBlue: "#BFB3FF"
+  brightMagenta: "#FFB3D9"
+  brightCyan: "#B3FFF2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.7
+    black: 0
+    red: 45.1
+    green: 71.5
+    yellow: 84.8
+    blue: 45.4
+    magenta: 49.5
+    cyan: 66.1
+    white: 100.7
+    brightBlack: 38.8
+    brightRed: 76.4
+    brightGreen: 96
+    brightYellow: 104.4
+    brightBlue: 66
+    brightMagenta: 73.5
+    brightCyan: 97.9
+    brightWhite: 107.3

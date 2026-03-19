@@ -1,0 +1,53 @@
+name: "Nix (Lunar)"
+source:
+  marketplace_id: "alvarosannas.nix"
+  version: "1.4.8"
+  installs: 2952
+  rating: 5
+  ratings: 1
+  author: "Alvaro Santana"
+  repo: "https://github.com/alvarosannas/nix"
+  url: "https://marketplace.visualstudio.com/items?itemName=alvarosannas.nix"
+  formats: null
+colors:
+  bg: "#1C1E26"
+  fg: "#F8F8F2"
+  black: "#1A1A1A"
+  red: "#F24B78"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#30BCED"
+  magenta: "#A978FF"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#1A1A1A"
+  brightRed: "#F24B78"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#30BCED"
+  brightMagenta: "#A978FF"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 101.1
+    black: 0
+    red: 38.7
+    green: 84
+    yellow: 97.7
+    blue: 57.4
+    magenta: 42.5
+    cyan: 83.1
+    white: 101.1
+    brightBlack: 0
+    brightRed: 38.7
+    brightGreen: 84
+    brightYellow: 97.7
+    brightBlue: 57.4
+    brightMagenta: 42.5
+    brightCyan: 83.1
+    brightWhite: 101.1

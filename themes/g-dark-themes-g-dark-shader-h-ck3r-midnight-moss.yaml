@@ -1,0 +1,53 @@
+name: "G Dark-Themes (G Dark-Shader - H@ck3r (Midnight Moss))"
+source:
+  marketplace_id: "Stonec0der.g-dark-theme"
+  version: "5.0.1"
+  installs: 10986
+  rating: 5
+  ratings: 3
+  author: "stonecoder"
+  repo: "https://github.com/stoneC0der/g-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Stonec0der.g-dark-theme"
+  formats: null
+colors:
+  bg: "#030C0C"
+  fg: "#B5DFCA"
+  black: "#648464"
+  red: "#F23857"
+  green: "#9FDA47"
+  yellow: "#F5E044"
+  blue: "#5B8DF8"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#EDECEC"
+  brightBlack: "#576E6E"
+  brightRed: "#E92445"
+  brightGreen: "#4BDD1A"
+  brightYellow: "#E4D828"
+  brightBlue: "#175DF4"
+  brightMagenta: "#C792EA"
+  brightCyan: "#3CCFE9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 195
+  pair: null
+  contrast:
+    fg: 81.2
+    black: 32.7
+    red: 37.3
+    green: 73.5
+    yellow: 86.7
+    blue: 42.9
+    magenta: 54.6
+    cyan: 79.1
+    white: 95.4
+    brightBlack: 24.4
+    brightRed: 33.2
+    brightGreen: 69.6
+    brightYellow: 80.5
+    brightBlue: 25.8
+    brightMagenta: 54.6
+    brightCyan: 67.7
+    brightWhite: 107.7

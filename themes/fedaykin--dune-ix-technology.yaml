@@ -1,0 +1,53 @@
+name: "Fedaykin (Dune Ix Technology)"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 238
+  rating: 0
+  ratings: 0
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+  formats: null
+colors:
+  bg: "#0A0C0F"
+  fg: "#E8ECF0"
+  black: "#0A0C0F"
+  red: "#FFB86C"
+  green: "#50FA7B"
+  yellow: "#6272A4"
+  blue: "#BD93F9"
+  magenta: "#8897B4"
+  cyan: "#66D9EF"
+  white: "#E8ECF0"
+  brightBlack: "#6B7585"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1B644"
+  brightBlue: "#6272A4"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.9
+    black: 0
+    red: 72.2
+    green: 85.7
+    yellow: 28.8
+    blue: 54.4
+    magenta: 45.6
+    cyan: 74.2
+    white: 94.9
+    brightBlack: 29.1
+    brightRed: 44.2
+    brightGreen: 85.7
+    brightYellow: 68.5
+    brightBlue: 28.8
+    brightMagenta: 55.4
+    brightCyan: 84.8
+    brightWhite: 102.8

@@ -1,0 +1,53 @@
+name: "Snazzy Plus"
+source:
+  marketplace_id: "akarlsten.vscode-snazzy-akarlsten"
+  version: "1.3.1"
+  installs: 21439
+  rating: 5
+  ratings: 3
+  author: "akarlsten"
+  repo: "https://github.com/akarlsten/snazzy-plus"
+  url: "https://marketplace.visualstudio.com/items?itemName=akarlsten.vscode-snazzy-akarlsten"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#EFF0EB"
+  black: "#282A36"
+  red: "#FF5C57"
+  green: "#5AF78E"
+  yellow: "#FFBC58"
+  blue: "#57C7FF"
+  magenta: "#FF6AC1"
+  cyan: "#9AEDFE"
+  white: "#EFF0EB"
+  brightBlack: "#6C6E75"
+  brightRed: "#FF5C57"
+  brightGreen: "#5AF78E"
+  brightYellow: "#FFBC58"
+  brightBlue: "#57C7FF"
+  brightMagenta: "#FF6AC1"
+  brightCyan: "#9AEDFE"
+  brightWhite: "#EFF0EB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 93.7
+    black: 0
+    red: 41.7
+    green: 81.1
+    yellow: 69.7
+    blue: 62.5
+    magenta: 48
+    cyan: 84.1
+    white: 93.7
+    brightBlack: 22.6
+    brightRed: 41.7
+    brightGreen: 81.1
+    brightYellow: 69.7
+    brightBlue: 62.5
+    brightMagenta: 48
+    brightCyan: 84.1
+    brightWhite: 93.7

@@ -1,0 +1,53 @@
+name: "Rainglow (mintchoc-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0C0A08"
+  fg: "#BABABA"
+  black: "#1B1712"
+  red: "#BA0E2E"
+  green: "#9D8262"
+  yellow: "#008D62"
+  blue: "#00E08C"
+  magenta: "#9D8262"
+  cyan: "#008D62"
+  white: "#C7C7C7"
+  brightBlack: "#493D31"
+  brightRed: "#F03E5F"
+  brightGreen: "#C4B4A1"
+  brightYellow: "#00F3A9"
+  brightBlue: "#47FFBA"
+  brightMagenta: "#C4B4A1"
+  brightCyan: "#00F3A9"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65
+    black: 0
+    red: 21.3
+    green: 37.8
+    yellow: 33.1
+    blue: 71.6
+    magenta: 37.8
+    cyan: 33.1
+    white: 72.6
+    brightBlack: 8
+    brightRed: 37.6
+    brightGreen: 62.9
+    brightYellow: 82.2
+    brightBlue: 89.8
+    brightMagenta: 62.9
+    brightCyan: 82.2
+    brightWhite: 96

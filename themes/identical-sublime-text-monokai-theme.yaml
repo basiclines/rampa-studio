@@ -1,0 +1,53 @@
+name: "Identical Sublime Text Monokai theme"
+source:
+  marketplace_id: "maximetinu.identical-sublime-monokai-csharp-theme-colorizer"
+  version: "1.2.3"
+  installs: 286480
+  rating: 5
+  ratings: 24
+  author: "Maximetinu"
+  repo: "https://github.com/Maximetinu/Sublime-Text-Monokai-theme-for-Visual-Studio-Code"
+  url: "https://marketplace.visualstudio.com/items?itemName=maximetinu.identical-sublime-monokai-csharp-theme-colorizer"
+  formats: null
+colors:
+  bg: "#272822"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 115
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 22.3
+    green: 50.7
+    yellow: 55.3
+    blue: 32.3
+    magenta: 29.9
+    cyan: 48.1
+    white: 86.2
+    brightBlack: 19.7
+    brightRed: 35
+    brightGreen: 74.7
+    brightYellow: 81.6
+    brightBlue: 47.5
+    brightMagenta: 44.2
+    brightCyan: 71.1
+    brightWhite: 99.6

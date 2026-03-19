@@ -1,0 +1,53 @@
+name: "Nightcall (Nightcall)"
+source:
+  marketplace_id: "bpat86.nightcall"
+  version: "1.0.0"
+  installs: 8141
+  rating: 5
+  ratings: 3
+  author: "Bobby Patterson"
+  repo: "https://github.com/bpat86/nightcall-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bpat86.nightcall"
+  formats: null
+colors:
+  bg: "#141629"
+  fg: "#E4CCFF"
+  black: "#141629"
+  red: "#F4598E"
+  green: "#85D483"
+  yellow: "#D9F99D"
+  blue: "#639EE5"
+  magenta: "#C792EA"
+  cyan: "#67E8F9"
+  white: "#E4CCFF"
+  brightBlack: "#575656"
+  brightRed: "#F4598E"
+  brightGreen: "#86EFAC"
+  brightYellow: "#F2E3BF"
+  brightBlue: "#7E90FF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#A5F3FC"
+  brightWhite: "#E4CCFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 80.3
+    black: 0
+    red: 43
+    green: 68.6
+    yellow: 95.3
+    blue: 47.3
+    magenta: 53.7
+    cyan: 81.1
+    white: 80.3
+    brightBlack: 15.5
+    brightRed: 43
+    brightGreen: 83
+    brightYellow: 89.3
+    brightBlue: 46
+    brightMagenta: 53.7
+    brightCyan: 90.7
+    brightWhite: 80.3

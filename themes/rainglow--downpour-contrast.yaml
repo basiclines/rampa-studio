@@ -1,0 +1,53 @@
+name: "Rainglow (downpour-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#121419"
+  fg: "#D6DBDB"
+  black: "#1D2028"
+  red: "#BA0E2E"
+  green: "#BC4331"
+  yellow: "#908BBC"
+  blue: "#91B9C9"
+  magenta: "#ABAAB7"
+  cyan: "#908BBC"
+  white: "#E4E7E7"
+  brightBlack: "#3D4354"
+  brightRed: "#F03E5F"
+  brightGreen: "#DC8477"
+  brightYellow: "#CECCE1"
+  brightBlue: "#D5E5EB"
+  brightMagenta: "#E2E1E6"
+  brightCyan: "#CECCE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 83.4
+    black: 0
+    red: 20.8
+    green: 25.7
+    yellow: 42.1
+    blue: 60.4
+    magenta: 56.2
+    cyan: 42.1
+    white: 91.2
+    brightBlack: 8.8
+    brightRed: 37.1
+    brightGreen: 48.1
+    brightYellow: 76.2
+    brightBlue: 88.5
+    brightMagenta: 88.1
+    brightCyan: 76.2
+    brightWhite: 107.1

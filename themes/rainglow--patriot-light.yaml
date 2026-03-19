@@ -1,0 +1,53 @@
+name: "Rainglow (patriot-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#DE333C"
+  yellow: "#2E6FD9"
+  blue: "#333333"
+  magenta: "#AAAAAA"
+  cyan: "#DE333C"
+  white: "#404040"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#EC8B90"
+  brightYellow: "#84AAE9"
+  brightBlue: "#666666"
+  brightMagenta: "#DDDDDD"
+  brightCyan: "#EC8B90"
+  brightWhite: "#666666"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 80.3
+    green: 69.8
+    yellow: 72.7
+    blue: 98.7
+    magenta: 45.8
+    cyan: 69.8
+    white: 94.1
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 47.5
+    brightYellow: 46.4
+    brightBlue: 78.8
+    brightMagenta: 17.6
+    brightCyan: 47.5
+    brightWhite: 78.8

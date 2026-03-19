@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Mocha Dark)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#3B3228"
+  fg: "#D0C8C6"
+  black: "#645240"
+  red: "#CB6077"
+  green: "#BEB55B"
+  yellow: "#D28B71"
+  blue: "#8AB3B5"
+  magenta: "#A89BB9"
+  cyan: "#7BBDA4"
+  white: "#E9E1DD"
+  brightBlack: "#7E705A"
+  brightRed: "#CB6077"
+  brightGreen: "#BEB55B"
+  brightYellow: "#F4BC87"
+  brightBlue: "#8AB3B5"
+  brightMagenta: "#A89BB9"
+  brightCyan: "#7BBDA4"
+  brightWhite: "#F5EEEB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 70
+  pair: null
+  contrast:
+    fg: 68.3
+    black: 10.2
+    red: 30.3
+    green: 55
+    yellow: 43.1
+    blue: 51.1
+    magenta: 45
+    cyan: 53.5
+    white: 83.4
+    brightBlack: 22.2
+    brightRed: 30.3
+    brightGreen: 55
+    brightYellow: 66.7
+    brightBlue: 51.1
+    brightMagenta: 45
+    brightCyan: 53.5
+    brightWhite: 91.6

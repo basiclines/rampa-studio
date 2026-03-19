@@ -1,0 +1,53 @@
+name: "Calmppuccin (Calmppuccin Mocha)"
+source:
+  marketplace_id: "kenan-salar.calmppuccin-vscode"
+  version: "1.9.9"
+  installs: 6431
+  rating: 5
+  ratings: 4
+  author: "Kenan Salar"
+  repo: "https://github.com/KenanSalar/calmppuccin-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=kenan-salar.calmppuccin-vscode"
+  formats: null
+colors:
+  bg: "#1D1D2C"
+  fg: "#AEB6CF"
+  black: "#45475A"
+  red: "#D47B95"
+  green: "#95CE8F"
+  yellow: "#D6C08F"
+  blue: "#789CD6"
+  magenta: "#CFA0C2"
+  cyan: "#81C4BC"
+  white: "#A6ADC8"
+  brightBlack: "#585B70"
+  brightRed: "#E27894"
+  brightGreen: "#89D88B"
+  brightYellow: "#E4CC8C"
+  brightBlue: "#6796E2"
+  brightMagenta: "#E6A3D1"
+  brightCyan: "#6BD7CA"
+  brightWhite: "#BAC2DE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 61.2
+    black: 9.4
+    red: 43.8
+    green: 66.6
+    yellow: 67.9
+    blue: 46.3
+    magenta: 56.6
+    cyan: 62.1
+    white: 56.4
+    brightBlack: 17
+    brightRed: 45.6
+    brightGreen: 70.2
+    brightYellow: 74.9
+    brightBlue: 43.6
+    brightMagenta: 62
+    brightCyan: 70
+    brightWhite: 68.2

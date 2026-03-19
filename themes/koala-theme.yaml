@@ -1,0 +1,53 @@
+name: "Koala Theme"
+source:
+  marketplace_id: "VigneshwaranK.koala"
+  version: "0.0.2"
+  installs: 789
+  rating: 0
+  ratings: 0
+  author: "Vigneshwaran K"
+  repo: "https://github.com/Vigneshwaran-dev/Koala-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=VigneshwaranK.koala"
+  formats: null
+colors:
+  bg: "#18191D"
+  fg: "#D4D4D4"
+  black: "#282A36"
+  red: "#FD6969"
+  green: "#B4FFE2"
+  yellow: "#FFFFA5"
+  blue: "#248AC8"
+  magenta: "#DA86DA"
+  cyan: "#5DD9F8"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF5353"
+  brightGreen: "#47CF99"
+  brightYellow: "#FFFF5D"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#A46CEE"
+  brightCyan: "#0CD2FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 46.9
+    green: 96.6
+    yellow: 103.3
+    blue: 35.5
+    magenta: 51.9
+    cyan: 73.3
+    white: 89.8
+    brightBlack: 21.8
+    brightRed: 42.8
+    brightGreen: 63.5
+    brightYellow: 101.9
+    brightBlue: 39.8
+    brightMagenta: 38
+    brightCyan: 68.7
+    brightWhite: 89.8

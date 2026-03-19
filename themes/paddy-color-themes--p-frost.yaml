@@ -1,0 +1,53 @@
+name: "Paddy Color Themes (P. \ Frost)"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74833
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#186554"
+  black: "#000000"
+  red: "#B61702"
+  green: "#068020"
+  yellow: "#D37D0D"
+  blue: "#3465A5"
+  magenta: "#C40B48"
+  cyan: "#08A087"
+  white: "#A5B4AB"
+  brightBlack: "#4A574D"
+  brightRed: "#D43E2A"
+  brightGreen: "#1B9E47"
+  brightYellow: "#FF9B18"
+  brightBlue: "#3A89D3"
+  brightMagenta: "#FF246D"
+  brightCyan: "#1BDFBE"
+  brightWhite: "#C7CECB"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83.7
+    black: 106
+    red: 81.2
+    green: 74.5
+    yellow: 57.9
+    blue: 79.3
+    magenta: 77.8
+    cyan: 59.6
+    white: 42.5
+    brightBlack: 86.4
+    brightRed: 71
+    brightGreen: 61.8
+    brightYellow: 40.9
+    brightBlue: 64.1
+    brightMagenta: 62.1
+    brightCyan: 29.8
+    brightWhite: 27.1

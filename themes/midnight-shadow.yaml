@@ -1,0 +1,53 @@
+name: "Midnight Shadow"
+source:
+  marketplace_id: "Vjecni.Midnight-Shadow"
+  version: "0.8.0"
+  installs: 196
+  rating: 0
+  ratings: 0
+  author: "Vjecni"
+  repo: "https://github.com/Vjecni/midnight-shadow-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vjecni.Midnight-Shadow"
+  formats: null
+colors:
+  bg: "#18191D"
+  fg: "#FFFFFF"
+  black: "#1A1D25"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#9B9B00"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#A9A9A9"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.6
+    black: 0
+    red: 26.5
+    green: 52.8
+    yellow: 44.5
+    blue: 27.2
+    magenta: 29.5
+    cyan: 47.3
+    white: 89.8
+    brightBlack: 54.5
+    brightRed: 38.3
+    brightGreen: 63.3
+    brightYellow: 95.4
+    brightBlue: 39.8
+    brightMagenta: 45.1
+    brightCyan: 55.2
+    brightWhite: 89.8

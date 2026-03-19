@@ -1,0 +1,53 @@
+name: "Rainglow (arstotzka-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0F0E0D"
+  fg: "#EDEBE6"
+  black: "#1D1B19"
+  red: "#BA0E2E"
+  green: "#A2A797"
+  yellow: "#516B6B"
+  blue: "#70807B"
+  magenta: "#A2A797"
+  cyan: "#CF433E"
+  white: "#F8F7F5"
+  brightBlack: "#46413C"
+  brightRed: "#F03E5F"
+  brightGreen: "#D3D6CE"
+  brightYellow: "#82A0A0"
+  brightBlue: "#A5B1AD"
+  brightMagenta: "#D3D6CE"
+  brightCyan: "#E39390"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.6
+    black: 0
+    red: 21.2
+    green: 53.1
+    yellow: 22.8
+    blue: 32.8
+    magenta: 53.1
+    cyan: 30.2
+    white: 102.3
+    brightBlack: 8.7
+    brightRed: 37.5
+    brightGreen: 80.7
+    brightYellow: 47.5
+    brightBlue: 58.2
+    brightMagenta: 80.7
+    brightCyan: 55.1
+    brightWhite: 107.6

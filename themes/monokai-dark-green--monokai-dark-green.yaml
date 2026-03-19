@@ -1,0 +1,53 @@
+name: "Monokai Dark Green (Monokai Dark Green)"
+source:
+  marketplace_id: "alvaro-israel-nunes-leite.theme-monokai-dark-green"
+  version: "0.1.4"
+  installs: 4832
+  rating: 0
+  ratings: 0
+  author: "Alvaro Israel Nunes Leite"
+  repo: "https://github.com/AlvaroIsrael/monokai-dark-green"
+  url: "https://marketplace.visualstudio.com/items?itemName=alvaro-israel-nunes-leite.theme-monokai-dark-green"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#CFBFAD"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F32569"
+  brightGreen: "#B1F325"
+  brightYellow: "#C3E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#CFBFAD"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 68.1
+    black: 0
+    red: 24.3
+    green: 52.7
+    yellow: 57.3
+    blue: 34.3
+    magenta: 31.9
+    cyan: 50.1
+    white: 88.2
+    brightBlack: 21.7
+    brightRed: 35.2
+    brightGreen: 86
+    brightYellow: 79.7
+    brightBlue: 49.5
+    brightMagenta: 46.2
+    brightCyan: 73.1
+    brightWhite: 68.1

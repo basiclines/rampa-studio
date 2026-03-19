@@ -1,0 +1,53 @@
+name: "Coffee Break Theme (night)"
+source:
+  marketplace_id: "AninhaPardini.coffee-break-theme"
+  version: "1.5.0"
+  installs: 836
+  rating: 5
+  ratings: 2
+  author: "Aninha Pardini"
+  repo: "https://github.com/AninhaPardini/coffee-break-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AninhaPardini.coffee-break-theme"
+  formats: null
+colors:
+  bg: "#130901"
+  fg: "#FFF3E7"
+  black: "#FFFFFF"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#D17E12"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#FF9A16"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 70
+  pair: null
+  contrast:
+    fg: 100.9
+    black: 107.7
+    red: 27.5
+    green: 52.5
+    yellow: 43.6
+    blue: 15.8
+    magenta: 26.9
+    cyan: 40.9
+    white: 15.9
+    brightBlack: 22.8
+    brightRed: 27.5
+    brightGreen: 61.1
+    brightYellow: 60.8
+    brightBlue: 15.8
+    brightMagenta: 26.9
+    brightCyan: 40.9
+    brightWhite: 53.3

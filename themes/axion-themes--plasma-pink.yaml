@@ -1,0 +1,53 @@
+name: "Axion Themes (Plasma Pink)"
+source:
+  marketplace_id: "CodewithBismillah.axion-themes"
+  version: "1.1.1"
+  installs: 111
+  rating: 5
+  ratings: 1
+  author: "Code with Bismillah"
+  repo: "https://github.com/mubashir1837/Axion-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.axion-themes"
+  formats: null
+colors:
+  bg: "#1A092D"
+  fg: "#FFD6F5"
+  black: "#2D1A3A"
+  red: "#FF69B4"
+  green: "#B4FF69"
+  yellow: "#FFE066"
+  blue: "#B469FF"
+  magenta: "#FF85C2"
+  cyan: "#69FFE0"
+  white: "#FFD6F5"
+  brightBlack: "#A86EBF"
+  brightRed: "#FF85C2"
+  brightGreen: "#D6FFB4"
+  brightYellow: "#FFF0B4"
+  brightBlue: "#D6B4FF"
+  brightMagenta: "#FFB3E6"
+  brightCyan: "#B4FFF0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 302
+  pair: null
+  contrast:
+    fg: 88.3
+    black: 0
+    red: 50.4
+    green: 93.6
+    yellow: 88.1
+    blue: 41.3
+    magenta: 57.7
+    cyan: 91.9
+    white: 88.3
+    brightBlack: 36.4
+    brightRed: 57.7
+    brightGreen: 98.9
+    brightYellow: 97.1
+    brightBlue: 69.3
+    brightMagenta: 74
+    brightCyan: 97.7
+    brightWhite: 107.1

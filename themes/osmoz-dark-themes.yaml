@@ -1,0 +1,53 @@
+name: "Osmoz Dark Themes"
+source:
+  marketplace_id: "ArthurRasera.osmoz"
+  version: "1.1.1"
+  installs: 60
+  rating: 5
+  ratings: 2
+  author: "Arthur Rasera"
+  repo: "https://github.com/Raseraa0/osmoz-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArthurRasera.osmoz"
+  formats: null
+colors:
+  bg: "#1E1A3A"
+  fg: "#B9B5CF"
+  black: "#1E1E1E"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D0D0D0"
+  brightBlack: "#666666"
+  brightRed: "#FF7B82"
+  brightGreen: "#B4F59E"
+  brightYellow: "#FFD98F"
+  brightBlue: "#82CFFF"
+  brightMagenta: "#E19EF5"
+  brightCyan: "#6FE7F7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 287
+  pair: null
+  contrast:
+    fg: 62
+    black: 0
+    red: 41.1
+    green: 61.3
+    yellow: 69.6
+    blue: 53.7
+    magenta: 44.2
+    cyan: 53.6
+    white: 76.1
+    brightBlack: 21.1
+    brightRed: 51.5
+    brightGreen: 88.5
+    brightYellow: 84.6
+    brightBlue: 70.4
+    brightMagenta: 61.4
+    brightCyan: 80
+    brightWhite: 105.9

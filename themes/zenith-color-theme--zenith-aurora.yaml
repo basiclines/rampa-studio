@@ -1,0 +1,53 @@
+name: "Zenith Color Theme (Zenith Aurora)"
+source:
+  marketplace_id: "TheSamonide.zenith-theme"
+  version: "6.0.3"
+  installs: 111
+  rating: 5
+  ratings: 1
+  author: "Samonide"
+  repo: "https://github.com/samonide/zenith-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheSamonide.zenith-theme"
+  formats: null
+colors:
+  bg: "#1A1E24"
+  fg: "#D8E5E8"
+  black: "#1A1E24"
+  red: "#E8A5B8"
+  green: "#A8DFC5"
+  yellow: "#E8D8B0"
+  blue: "#9FC5E8"
+  magenta: "#C8B5E8"
+  cyan: "#A0E8E0"
+  white: "#D8E5E8"
+  brightBlack: "#3E4450"
+  brightRed: "#E8A5B8"
+  brightGreen: "#B8E5D0"
+  brightYellow: "#E8D8B0"
+  brightBlue: "#88B3D6"
+  brightMagenta: "#B8A5D8"
+  brightCyan: "#96D6D0"
+  brightWhite: "#D8E5E8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 62
+    green: 78.1
+    yellow: 81.8
+    blue: 67.3
+    magenta: 65.4
+    cyan: 82.8
+    white: 87.7
+    brightBlack: 8
+    brightRed: 62
+    brightGreen: 83
+    brightYellow: 81.8
+    brightBlue: 56.7
+    brightMagenta: 56.4
+    brightCyan: 72.8
+    brightWhite: 87.7

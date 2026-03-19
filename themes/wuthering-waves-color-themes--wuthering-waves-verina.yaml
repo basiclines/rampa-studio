@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Verina)"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#FDFEF8"
+  fg: "#252B1D"
+  black: "#252B1D"
+  red: "#B87860"
+  green: "#70A870"
+  yellow: "#C8B860"
+  blue: "#6888A0"
+  magenta: "#A87890"
+  cyan: "#6C8C81"
+  white: "#FBFDF5"
+  brightBlack: "#7A8272"
+  brightRed: "#D89078"
+  brightGreen: "#88C088"
+  brightYellow: "#DFD48B"
+  brightBlue: "#7898B0"
+  brightMagenta: "#C890A8"
+  brightCyan: "#7C9C91"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.4
+    black: 100.4
+    red: 62.1
+    green: 52.7
+    yellow: 37.8
+    blue: 63.9
+    magenta: 63
+    cyan: 63.4
+    white: 0
+    brightBlack: 66.3
+    brightRed: 49.1
+    brightGreen: 40.3
+    brightYellow: 22.7
+    brightBlue: 56.1
+    brightMagenta: 50.1
+    brightCyan: 55.6
+    brightWhite: 0

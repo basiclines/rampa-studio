@@ -1,0 +1,53 @@
+name: "G Dark-Themes (G Dark-light (Glitter))"
+source:
+  marketplace_id: "Stonec0der.g-dark-theme"
+  version: "5.0.1"
+  installs: 10986
+  rating: 5
+  ratings: 3
+  author: "stonecoder"
+  repo: "https://github.com/stoneC0der/g-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Stonec0der.g-dark-theme"
+  formats: null
+colors:
+  bg: "#E3ECFC"
+  fg: "#546A7B"
+  black: "#586C77"
+  red: "#C92541"
+  green: "#2CBC1F"
+  yellow: "#9C9816"
+  blue: "#2254C1"
+  magenta: "#7F25BB"
+  cyan: "#1482AD"
+  white: "#2B3A40"
+  brightBlack: "#607783"
+  brightRed: "#EB2244"
+  brightGreen: "#1EC542"
+  brightYellow: "#998F04"
+  brightBlue: "#1A56D8"
+  brightMagenta: "#9313E8"
+  brightCyan: "#0E9BD3"
+  brightWhite: "#2A3A40"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 66.5
+    black: 65.8
+    red: 64
+    green: 37.2
+    yellow: 45.4
+    blue: 71
+    magenta: 72.4
+    cyan: 58
+    white: 85.4
+    brightBlack: 61
+    brightRed: 56.3
+    brightGreen: 33.1
+    brightYellow: 49
+    brightBlue: 68.6
+    brightMagenta: 66.3
+    brightCyan: 46.5
+    brightWhite: 85.4

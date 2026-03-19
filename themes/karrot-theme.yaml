@@ -1,0 +1,53 @@
+name: "Karrot theme"
+source:
+  marketplace_id: "ooAkira.Karrot"
+  version: "0.0.7"
+  installs: 2631
+  rating: 4.83
+  ratings: 6
+  author: "ooAkira"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ooAkira.Karrot"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#9EA4B2"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 50.8
+    black: 0
+    red: 25.6
+    green: 51.9
+    yellow: 84.5
+    blue: 26.3
+    magenta: 28.6
+    cyan: 46.4
+    white: 88.9
+    brightBlack: 20.9
+    brightRed: 37.4
+    brightGreen: 62.4
+    brightYellow: 94.5
+    brightBlue: 38.9
+    brightMagenta: 44.3
+    brightCyan: 54.3
+    brightWhite: 88.9

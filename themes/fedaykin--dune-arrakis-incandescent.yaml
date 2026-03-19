@@ -1,0 +1,53 @@
+name: "Fedaykin (Dune Arrakis Incandescent)"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 238
+  rating: 0
+  ratings: 0
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+  formats: null
+colors:
+  bg: "#151313"
+  fg: "#CECDC3"
+  black: "#151313"
+  red: "#E2AD4A"
+  green: "#7FB069"
+  yellow: "#5A96BC"
+  blue: "#CC6B49"
+  magenta: "#E0A98E"
+  cyan: "#DE956A"
+  white: "#CECDC3"
+  brightBlack: "#878580"
+  brightRed: "#C15849"
+  brightGreen: "#7FB069"
+  brightYellow: "#E8B04B"
+  brightBlue: "#5A96BC"
+  brightMagenta: "#C17B8D"
+  brightCyan: "#6B8FA3"
+  brightWhite: "#E6DCC6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.3
+    black: 0
+    red: 62.2
+    green: 51.8
+    yellow: 41.7
+    blue: 37.4
+    magenta: 61.7
+    cyan: 53.5
+    white: 75.3
+    brightBlack: 36.5
+    brightRed: 30.9
+    brightGreen: 51.8
+    brightYellow: 64.3
+    brightBlue: 41.7
+    brightMagenta: 41.5
+    brightCyan: 39
+    brightWhite: 85.2

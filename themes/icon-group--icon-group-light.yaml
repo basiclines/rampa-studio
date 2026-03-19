@@ -1,0 +1,53 @@
+name: "Icon Group (Icon Group Light)"
+source:
+  marketplace_id: "lucidlabs.icon-group-theme"
+  version: "1.5.0"
+  installs: 2
+  rating: 0
+  ratings: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.icon-group-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#15406F"
+  black: "#05101A"
+  red: "#D63B30"
+  green: "#009572"
+  yellow: "#B8860B"
+  blue: "#15406F"
+  magenta: "#7C4399"
+  cyan: "#00897B"
+  white: "#FFFFFF"
+  brightBlack: "#6B7D8E"
+  brightRed: "#E74C3C"
+  brightGreen: "#2ECC71"
+  brightYellow: "#F39C12"
+  brightBlue: "#006FB9"
+  brightMagenta: "#9B59B6"
+  brightCyan: "#009572"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.1
+    black: 105.5
+    red: 70.9
+    green: 64.8
+    yellow: 59.6
+    blue: 94.1
+    magenta: 82.8
+    cyan: 69.3
+    white: 0
+    brightBlack: 69.3
+    brightRed: 64.6
+    brightGreen: 40.6
+    brightYellow: 42.8
+    brightBlue: 75.6
+    brightMagenta: 72.1
+    brightCyan: 64.8
+    brightWhite: 0

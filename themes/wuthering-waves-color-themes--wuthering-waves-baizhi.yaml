@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Baizhi)"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#FEFEFF"
+  fg: "#1D1F20"
+  black: "#1D1F20"
+  red: "#D86870"
+  green: "#70A890"
+  yellow: "#D8C8B8"
+  blue: "#A0A6AD"
+  magenta: "#A89898"
+  cyan: "#78A898"
+  white: "#FCFDFC"
+  brightBlack: "#72787A"
+  brightRed: "#E87880"
+  brightGreen: "#88C0A0"
+  brightYellow: "#E8E8E8"
+  brightBlue: "#B0B6BD"
+  brightMagenta: "#B8A8A8"
+  brightCyan: "#88B8A8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.9
+    black: 102.9
+    red: 60.7
+    green: 52.2
+    yellow: 27.6
+    blue: 47.8
+    magenta: 52.7
+    cyan: 51.4
+    white: 0
+    brightBlack: 70.6
+    brightRed: 53.3
+    brightGreen: 40
+    brightYellow: 10.6
+    brightBlue: 39.3
+    brightMagenta: 44.4
+    brightCyan: 43.1
+    brightWhite: 0

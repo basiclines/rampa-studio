@@ -1,0 +1,53 @@
+name: "borealis-theme"
+source:
+  marketplace_id: "Misophistful.borealis-theme"
+  version: "0.1.4"
+  installs: 1720
+  rating: 5
+  ratings: 2
+  author: "Misophistful"
+  repo: "https://github.com/Misophistful/borealis-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Misophistful.borealis-theme"
+  formats: null
+colors:
+  bg: "#282C33"
+  fg: "#EBECF0"
+  black: "#282C33"
+  red: "#F7B7B7"
+  green: "#BFEEC5"
+  yellow: "#EEDDAF"
+  blue: "#B2D8FA"
+  magenta: "#E7C7F9"
+  cyan: "#C8FAF2"
+  white: "#EBECF0"
+  brightBlack: "#3D424C"
+  brightRed: "#F38E8E"
+  brightGreen: "#9EEEA9"
+  brightYellow: "#ECD28B"
+  brightBlue: "#8DC5F7"
+  brightMagenta: "#D8A4F7"
+  brightCyan: "#A6F8EB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 91.3
+    black: 0
+    red: 68.6
+    green: 85.2
+    yellow: 82.4
+    blue: 76
+    magenta: 75.3
+    cyan: 93.8
+    white: 91.3
+    brightBlack: 0
+    brightRed: 52.5
+    brightGreen: 81.1
+    brightYellow: 76.3
+    brightBlue: 64.2
+    brightMagenta: 59.9
+    brightCyan: 89.3
+    brightWhite: 103.7

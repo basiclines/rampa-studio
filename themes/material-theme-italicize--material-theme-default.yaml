@@ -1,0 +1,53 @@
+name: "Material Theme Italicize (Material-Theme-Default)"
+source:
+  marketplace_id: "Serge.vsc-material-theme-italicize"
+  version: "0.0.14"
+  installs: 22611
+  rating: 5
+  ratings: 1
+  author: "Serge"
+  repo: "https://github.com/faultless/vsc-material-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Serge.vsc-material-theme-italicize"
+  formats: null
+colors:
+  bg: "#263238"
+  fg: "#EEFFFF"
+  black: "#546E7A"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#546E7A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 100.4
+    black: 19.7
+    red: 39.4
+    green: 80
+    yellow: 74.7
+    blue: 51.7
+    magenta: 49.6
+    cyan: 74.1
+    white: 102.7
+    brightBlack: 19.7
+    brightRed: 39.4
+    brightGreen: 80
+    brightYellow: 74.7
+    brightBlue: 51.7
+    brightMagenta: 49.6
+    brightCyan: 74.1
+    brightWhite: 102.7

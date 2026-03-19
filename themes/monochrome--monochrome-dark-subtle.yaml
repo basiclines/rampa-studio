@@ -1,0 +1,53 @@
+name: "Monochrome (monochrome-dark-subtle)"
+source:
+  marketplace_id: "anotherglitchinthematrix.monochrome"
+  version: "2.4.3"
+  installs: 47972
+  rating: 4.38
+  ratings: 8
+  author: "glitch"
+  repo: "https://github.com/anotherglitchinthematrix/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=anotherglitchinthematrix.monochrome"
+  formats: null
+colors:
+  bg: "#0A1219"
+  fg: "#ACB1B6"
+  black: "#0A1219"
+  red: "#7E8489"
+  green: "#4F565C"
+  yellow: "#ACB1B6"
+  blue: "#383F46"
+  magenta: "#959A9F"
+  cyan: "#666D73"
+  white: "#C3C8CC"
+  brightBlack: "#21292F"
+  brightRed: "#7E8489"
+  brightGreen: "#4F565C"
+  brightYellow: "#ACB1B6"
+  brightBlue: "#383F46"
+  brightMagenta: "#959A9F"
+  brightCyan: "#666D73"
+  brightWhite: "#F1F5F9"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 246
+  pair: null
+  contrast:
+    fg: 59.2
+    black: 0
+    red: 35.7
+    green: 15.6
+    yellow: 59.2
+    blue: 7.3
+    magenta: 46.8
+    cyan: 25.1
+    white: 72.3
+    brightBlack: 0
+    brightRed: 35.7
+    brightGreen: 15.6
+    brightYellow: 59.2
+    brightBlue: 7.3
+    brightMagenta: 46.8
+    brightCyan: 25.1
+    brightWhite: 100.4

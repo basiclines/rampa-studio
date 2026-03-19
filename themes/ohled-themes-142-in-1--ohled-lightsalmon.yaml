@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_LightSalmon)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFA07A"
+  black: "#FFA07A"
+  red: "#BB7559"
+  green: "#CC8062"
+  yellow: "#996049"
+  blue: "#EE9572"
+  magenta: "#DD8B6A"
+  cyan: "#AA6B51"
+  white: "#885541"
+  brightBlack: "#FFA07A"
+  brightRed: "#BB7559"
+  brightGreen: "#CC8062"
+  brightYellow: "#996049"
+  brightBlue: "#EE9572"
+  brightMagenta: "#DD8B6A"
+  brightCyan: "#AA6B51"
+  brightWhite: "#885541"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 64.2
+    black: 64.2
+    red: 38.1
+    green: 44.3
+    yellow: 26.8
+    blue: 57.2
+    magenta: 50.8
+    cyan: 32.4
+    white: 21.4
+    brightBlack: 64.2
+    brightRed: 38.1
+    brightGreen: 44.3
+    brightYellow: 26.8
+    brightBlue: 57.2
+    brightMagenta: 50.8
+    brightCyan: 32.4
+    brightWhite: 21.4

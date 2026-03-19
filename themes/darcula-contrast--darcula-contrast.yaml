@@ -1,0 +1,53 @@
+name: "Darcula Contrast (Darcula Contrast)"
+source:
+  marketplace_id: "nashpatty.darculacontrast"
+  version: "1.3.1"
+  installs: 1845
+  rating: 0
+  ratings: 0
+  author: "nashpatty"
+  repo: "https://github.com/nashpatty/vscode-darcula"
+  url: "https://marketplace.visualstudio.com/items?itemName=nashpatty.darculacontrast"
+  formats: null
+colors:
+  bg: "#1E1F22"
+  fg: "#A9B7C6"
+  black: "#000000"
+  red: "#BC3F3C"
+  green: "#6A8759"
+  yellow: "#FFC66D"
+  blue: "#6897BB"
+  magenta: "#9876AA"
+  cyan: "#BCA5C4"
+  white: "#F5F5F5"
+  brightBlack: "#000000"
+  brightRed: "#BC3F3C"
+  brightGreen: "#6A8759"
+  brightYellow: "#FFC66D"
+  brightBlue: "#6897BB"
+  brightMagenta: "#9876AA"
+  brightCyan: "#BCA5C4"
+  brightWhite: "#F5F5F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.5
+    black: 0
+    red: 24
+    green: 32.2
+    yellow: 76
+    blue: 41.6
+    magenta: 34.1
+    cyan: 55.7
+    white: 99.3
+    brightBlack: 0
+    brightRed: 24
+    brightGreen: 32.2
+    brightYellow: 76
+    brightBlue: 41.6
+    brightMagenta: 34.1
+    brightCyan: 55.7
+    brightWhite: 99.3

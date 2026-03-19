@@ -1,0 +1,53 @@
+name: "jb Autumn"
+source:
+  marketplace_id: "brinklju.jb-autumn"
+  version: "0.4.0"
+  installs: 294
+  rating: 5
+  ratings: 1
+  author: "brinklju"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=brinklju.jb-autumn"
+  formats: null
+colors:
+  bg: "#171316"
+  fg: "#FFF8BC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2473C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A7CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8DEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B7DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.1
+    black: 0
+    red: 27
+    green: 53.3
+    yellow: 85.9
+    blue: 28
+    magenta: 30
+    cyan: 47.4
+    white: 90.3
+    brightBlack: 22.3
+    brightRed: 38.8
+    brightGreen: 63.8
+    brightYellow: 95.9
+    brightBlue: 39.9
+    brightMagenta: 45.6
+    brightCyan: 55.2
+    brightWhite: 90.3

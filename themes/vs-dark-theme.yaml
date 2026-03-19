@@ -1,0 +1,53 @@
+name: "vs-dark-theme"
+source:
+  marketplace_id: "unemil.unemil-theme"
+  version: "0.1.0"
+  installs: 48
+  rating: 5
+  ratings: 1
+  author: "unemil"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=unemil.unemil-theme"
+  formats: null
+colors:
+  bg: "#0F1014"
+  fg: "#9898A6"
+  black: "#111216"
+  red: "#ECD3E4"
+  green: "#D6DAEC"
+  yellow: "#9898A6"
+  blue: "#9898A6"
+  magenta: "#E2E4ED"
+  cyan: "#9898A6"
+  white: "#9898A6"
+  brightBlack: "#575861"
+  brightRed: "#ECD3E4"
+  brightGreen: "#D6DAEC"
+  brightYellow: "#9898A6"
+  brightBlue: "#9898A6"
+  brightMagenta: "#E2E4ED"
+  brightCyan: "#9898A6"
+  brightWhite: "#9898A6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 46.8
+    black: 0
+    red: 83.7
+    green: 84
+    yellow: 46.8
+    blue: 46.8
+    magenta: 90.1
+    cyan: 46.8
+    white: 46.8
+    brightBlack: 17
+    brightRed: 83.7
+    brightGreen: 84
+    brightYellow: 46.8
+    brightBlue: 46.8
+    brightMagenta: 90.1
+    brightCyan: 46.8
+    brightWhite: 46.8

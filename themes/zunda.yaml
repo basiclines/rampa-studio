@@ -1,0 +1,53 @@
+name: "Zunda"
+source:
+  marketplace_id: "Matcha.zunda"
+  version: "0.0.9"
+  installs: 385
+  rating: 0
+  ratings: 0
+  author: "Matcha"
+  repo: "https://github.com/MatchaScript/zunda"
+  url: "https://marketplace.visualstudio.com/items?itemName=Matcha.zunda"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#DFDEDF"
+  black: "#000000"
+  red: "#C72E2E"
+  green: "#158844"
+  yellow: "#FF9500"
+  blue: "#2A6DD7"
+  magenta: "#5E5CE7"
+  cyan: "#2480B5"
+  white: "#DFDEDF"
+  brightBlack: "#EBEBF5"
+  brightRed: "#FF375F"
+  brightGreen: "#30D158"
+  brightYellow: "#FFE620"
+  brightBlue: "#2094FA"
+  brightMagenta: "#BF5AF2"
+  brightCyan: "#00E4E3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 26.1
+    green: 30.7
+    yellow: 59.4
+    blue: 28.1
+    magenta: 27.3
+    cyan: 31.9
+    white: 86.8
+    brightBlack: 95.3
+    brightRed: 40.6
+    brightGreen: 63.7
+    brightYellow: 90.9
+    brightBlue: 43.8
+    brightMagenta: 39.6
+    brightCyan: 77
+    brightWhite: 107.9

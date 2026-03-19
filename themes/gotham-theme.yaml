@@ -1,0 +1,53 @@
+name: "Gotham Theme"
+source:
+  marketplace_id: "alireza94.theme-gotham"
+  version: "0.5.1"
+  installs: 35230
+  rating: 5
+  ratings: 5
+  author: "alireza94"
+  repo: "https://github.com/alireza-ahmadi/vscode-theme-gotham"
+  url: "https://marketplace.visualstudio.com/items?itemName=alireza94.theme-gotham"
+  formats: null
+colors:
+  bg: "#0A0F14"
+  fg: "#98D1CE"
+  black: "#505050"
+  red: "#DC362C"
+  green: "#26A98B"
+  yellow: "#EDB54B"
+  blue: "#13789C"
+  magenta: "#888BA5"
+  cyan: "#33859D"
+  white: "#98D1CE"
+  brightBlack: "#62807F"
+  brightRed: "#D26939"
+  brightGreen: "#ABE4BB"
+  brightYellow: "#F6D8A1"
+  brightBlue: "#72B3CA"
+  brightMagenta: "#B8BCDF"
+  brightCyan: "#599CAA"
+  brightWhite: "#D3EBE9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 72.1
+    black: 13.8
+    red: 31.2
+    green: 45.9
+    yellow: 67.4
+    blue: 27.2
+    magenta: 40.5
+    cyan: 32.5
+    white: 72.1
+    brightBlack: 31.8
+    brightRed: 38.2
+    brightGreen: 81.8
+    brightYellow: 84.8
+    brightBlue: 55.9
+    brightMagenta: 67.1
+    brightCyan: 43.5
+    brightWhite: 91.3

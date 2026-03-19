@@ -1,0 +1,53 @@
+name: "Night Zen Theme"
+source:
+  marketplace_id: "sachin915t.night-zen-theme"
+  version: "0.0.1"
+  installs: 6
+  rating: 0
+  ratings: 0
+  author: "sachin"
+  repo: "https://github.com/sachin915t/logan-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sachin915t.night-zen-theme"
+  formats: null
+colors:
+  bg: "#0F1117"
+  fg: "#D4D4D4"
+  black: "#282C34"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#282C34"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#ABB2BF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 42.6
+    green: 62.8
+    yellow: 71.1
+    blue: 55.2
+    magenta: 45.6
+    cyan: 55.1
+    white: 59.9
+    brightBlack: 0
+    brightRed: 42.6
+    brightGreen: 62.8
+    brightYellow: 71.1
+    brightBlue: 55.2
+    brightMagenta: 45.6
+    brightCyan: 55.1
+    brightWhite: 59.9

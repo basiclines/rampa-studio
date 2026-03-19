@@ -1,0 +1,53 @@
+name: "Ttera Themes (Sunset Beach Dark)"
+source:
+  marketplace_id: "sserafy.ttera-themes"
+  version: "2.0.7"
+  installs: 2054
+  rating: 5
+  ratings: 1
+  author: "sserafy"
+  repo: "https://github.com/azhou555/naturefy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ttera-themes"
+  formats: null
+colors:
+  bg: "#1A1F2E"
+  fg: "#E8F4FD"
+  black: "#252B3D"
+  red: "#E55039"
+  green: "#26D0CE"
+  yellow: "#FFD93D"
+  blue: "#74C0FC"
+  magenta: "#B53471"
+  cyan: "#17A2B8"
+  white: "#E8F4FD"
+  brightBlack: "#6C7B95"
+  brightRed: "#FF6B47"
+  brightGreen: "#4DABF7"
+  brightYellow: "#F6C23E"
+  brightBlue: "#87CEEB"
+  brightMagenta: "#D63384"
+  brightCyan: "#20B2AA"
+  brightWhite: "#F8F4F0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 270
+  pair: null
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 35.2
+    green: 64.5
+    yellow: 83.3
+    blue: 62.7
+    magenta: 22.4
+    cyan: 43
+    white: 97.4
+    brightBlack: 30
+    brightRed: 46.4
+    brightGreen: 51.6
+    brightYellow: 72.2
+    brightBlue: 69.1
+    brightMagenta: 29.8
+    brightCyan: 49.2
+    brightWhite: 99

@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Lynae (Dark))"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#252830"
+  fg: "#E0DCD8"
+  black: "#252830"
+  red: "#D87A8A"
+  green: "#6AAA8A"
+  yellow: "#D4BCB5"
+  blue: "#5A8A9A"
+  magenta: "#B887A5"
+  cyan: "#79B2B9"
+  white: "#E0DCD8"
+  brightBlack: "#6A7280"
+  brightRed: "#E88A9A"
+  brightGreen: "#7ABAA0"
+  brightYellow: "#E4CCC5"
+  brightBlue: "#6A9AAA"
+  brightMagenta: "#C898B0"
+  brightCyan: "#89C2C9"
+  brightWhite: "#FDFBFA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 269
+  pair: null
+  contrast:
+    fg: 82.3
+    black: 0
+    red: 42.3
+    green: 45.9
+    yellow: 65.7
+    blue: 32.8
+    magenta: 42
+    cyan: 52
+    white: 82.3
+    brightBlack: 24.6
+    brightRed: 50.4
+    brightGreen: 54.5
+    brightYellow: 75.2
+    brightBlue: 40.6
+    brightMagenta: 50.4
+    brightCyan: 60.8
+    brightWhite: 102

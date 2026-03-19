@@ -1,0 +1,53 @@
+name: "Carbon Code Theme (Carbon Code Amber Light)"
+source:
+  marketplace_id: "sazardev.carbon-code-theme"
+  version: "1.2.0"
+  installs: 904
+  rating: 5
+  ratings: 1
+  author: "sazardev"
+  repo: "https://github.com/sazardev/sazardev-minimal-brutal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sazardev.carbon-code-theme"
+  formats: null
+colors:
+  bg: "#FFFBF0"
+  fg: "#0A0A0A"
+  black: "#000000"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#F59E0B"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#F59E0B"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.5
+    black: 103.7
+    red: 61.5
+    green: 42
+    yellow: 39.4
+    blue: 61.6
+    magenta: 63.9
+    cyan: 44.8
+    white: 0
+    brightBlack: 103.7
+    brightRed: 61.5
+    brightGreen: 42
+    brightYellow: 39.4
+    brightBlue: 61.6
+    brightMagenta: 63.9
+    brightCyan: 44.8
+    brightWhite: 0

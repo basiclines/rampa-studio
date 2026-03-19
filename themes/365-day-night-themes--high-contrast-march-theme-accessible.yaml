@@ -1,0 +1,53 @@
+name: "365 Day & Night Themes (High Contrast March Theme - Accessible)"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 823
+  rating: 5
+  ratings: 1
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+  formats: null
+colors:
+  bg: "#162C36"
+  fg: "#E5E5E5"
+  black: "#162C36"
+  red: "#FF6347"
+  green: "#32CD32"
+  yellow: "#FFD700"
+  blue: "#1E90FF"
+  magenta: "#8A2BE2"
+  cyan: "#00FFFF"
+  white: "#E5E5E5"
+  brightBlack: "#A9A9A9"
+  brightRed: "#FF4500"
+  brightGreen: "#7CFC00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#4682B4"
+  brightMagenta: "#DA70D6"
+  brightCyan: "#AFEEEE"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 229
+  pair: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 43
+    green: 57.6
+    yellow: 80.5
+    blue: 39
+    magenta: 19.6
+    cyan: 88.4
+    white: 87.3
+    brightBlack: 51.9
+    brightRed: 37.6
+    brightGreen: 84.1
+    brightYellow: 99
+    brightBlue: 29.9
+    brightMagenta: 43.3
+    brightCyan: 85.8
+    brightWhite: 87.3

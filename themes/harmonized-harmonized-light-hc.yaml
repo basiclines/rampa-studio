@@ -1,0 +1,53 @@
+name: "Harmonized (Harmonized light (hc))"
+source:
+  marketplace_id: "wheredoesyourmindgo.harmonized-vscode-theme"
+  version: "0.8.7"
+  installs: 824
+  rating: 5
+  ratings: 1
+  author: "wheredoesyourmindgo"
+  repo: "https://github.com/wheredoesyourmindgo/harmonized-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.harmonized-vscode-theme"
+  formats: null
+colors:
+  bg: "#FDF9EE"
+  fg: "#333333"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#002B36"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.1
+    black: 95.4
+    red: 67
+    green: 55.5
+    yellow: 55.5
+    blue: 60.4
+    magenta: 66.7
+    cyan: 54.8
+    white: 7.6
+    brightBlack: 98.1
+    brightRed: 67.5
+    brightGreen: 73.3
+    brightYellow: 67.4
+    brightBlue: 55.2
+    brightMagenta: 66.7
+    brightCyan: 48.5
+    brightWhite: 0

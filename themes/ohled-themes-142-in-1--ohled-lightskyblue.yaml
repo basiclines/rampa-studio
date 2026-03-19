@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_LightSkyBlue)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#87CEFA"
+  black: "#87CEFA"
+  red: "#6397B7"
+  green: "#6CA5C8"
+  yellow: "#517C96"
+  blue: "#7EC0E9"
+  magenta: "#75B3D9"
+  cyan: "#5A89A7"
+  white: "#486E85"
+  brightBlack: "#87CEFA"
+  brightRed: "#6397B7"
+  brightGreen: "#6CA5C8"
+  brightYellow: "#517C96"
+  brightBlue: "#7EC0E9"
+  brightMagenta: "#75B3D9"
+  brightCyan: "#5A89A7"
+  brightWhite: "#486E85"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72
+    black: 72
+    red: 43.1
+    green: 50
+    yellow: 30.6
+    blue: 64.2
+    magenta: 57.2
+    cyan: 36.5
+    white: 24.6
+    brightBlack: 72
+    brightRed: 43.1
+    brightGreen: 50
+    brightYellow: 30.6
+    brightBlue: 64.2
+    brightMagenta: 57.2
+    brightCyan: 36.5
+    brightWhite: 24.6

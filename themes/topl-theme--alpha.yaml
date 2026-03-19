@@ -1,0 +1,53 @@
+name: "Topl Theme (.Alpha)"
+source:
+  marketplace_id: "slepe.topl-theme"
+  version: "1.0.1"
+  installs: 824
+  rating: 0
+  ratings: 0
+  author: "Slepe"
+  repo: "https://github.com/slepe/topl-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=slepe.topl-theme"
+  formats: null
+colors:
+  bg: "#24242A"
+  fg: "#A6A9B7"
+  black: "#484E5B"
+  red: "#E56F92"
+  green: "#8CD7AA"
+  yellow: "#E9967E"
+  blue: "#E56F92"
+  magenta: "#E56F92"
+  cyan: "#7ABCE4"
+  white: "#DADDEE"
+  brightBlack: "#484E5B"
+  brightRed: "#E56F92"
+  brightGreen: "#8CD7AA"
+  brightYellow: "#E9967E"
+  brightBlue: "#E56F92"
+  brightMagenta: "#E56F92"
+  brightCyan: "#7ABCE4"
+  brightWhite: "#DADDEE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 286
+  pair: null
+  contrast:
+    fg: 53.1
+    black: 10.6
+    red: 42.9
+    green: 70
+    yellow: 54.1
+    blue: 42.9
+    magenta: 42.9
+    cyan: 59.1
+    white: 83.6
+    brightBlack: 10.6
+    brightRed: 42.9
+    brightGreen: 70
+    brightYellow: 54.1
+    brightBlue: 42.9
+    brightMagenta: 42.9
+    brightCyan: 59.1
+    brightWhite: 83.6

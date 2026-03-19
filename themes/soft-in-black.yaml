@@ -1,0 +1,53 @@
+name: "Soft-in-black"
+source:
+  marketplace_id: "catapillie.soft-in-black"
+  version: "1.0.0"
+  installs: 77
+  rating: 0
+  ratings: 0
+  author: "catapillie"
+  repo: "https://github.com/catapillie/soft-in-black"
+  url: "https://marketplace.visualstudio.com/items?itemName=catapillie.soft-in-black"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#D5CCC5"
+  black: "#4F4C4B"
+  red: "#CB5F7D"
+  green: "#79A73D"
+  yellow: "#F7B267"
+  blue: "#6869AB"
+  magenta: "#B27FBC"
+  cyan: "#588399"
+  white: "#F2EDE9"
+  brightBlack: "#4F4C4B"
+  brightRed: "#E88492"
+  brightGreen: "#B2E075"
+  brightYellow: "#FFD572"
+  brightBlue: "#8A90F5"
+  brightMagenta: "#DE9FDE"
+  brightCyan: "#80CED7"
+  brightWhite: "#F2EDE9"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.6
+    black: 12.9
+    red: 36.3
+    green: 47.6
+    yellow: 68.7
+    blue: 27.2
+    magenta: 43.2
+    cyan: 33.6
+    white: 96.6
+    brightBlack: 12.9
+    brightRed: 51.8
+    brightGreen: 79.1
+    brightYellow: 84.2
+    brightBlue: 47.4
+    brightMagenta: 61.9
+    brightCyan: 69.6
+    brightWhite: 96.6

@@ -1,0 +1,53 @@
+name: "Arctis (Arctis)"
+source:
+  marketplace_id: "avidworks.arctis"
+  version: "2.3.1"
+  installs: 15552
+  rating: 5
+  ratings: 5
+  author: "adamdotjs"
+  repo: "https://github.com/avidworks/arctis"
+  url: "https://marketplace.visualstudio.com/items?itemName=avidworks.arctis"
+  formats: null
+colors:
+  bg: "#2E3440"
+  fg: "#D3D7DF"
+  black: "#3E4656"
+  red: "#F1855B"
+  green: "#13BE76"
+  yellow: "#E8C59B"
+  blue: "#9B90F4"
+  magenta: "#EB94B2"
+  cyan: "#8ACFEF"
+  white: "#DEE1E7"
+  brightBlack: "#5F6B83"
+  brightRed: "#F1855B"
+  brightGreen: "#13BE76"
+  brightYellow: "#E8C59B"
+  brightBlue: "#9B90F4"
+  brightMagenta: "#EB94B2"
+  brightCyan: "#8ACFEF"
+  brightWhite: "#DEE1E7"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 76.1
+    black: 0
+    red: 46.4
+    green: 48.8
+    yellow: 68.8
+    blue: 43
+    magenta: 52.3
+    cyan: 66
+    white: 82.3
+    brightBlack: 19
+    brightRed: 46.4
+    brightGreen: 48.8
+    brightYellow: 68.8
+    brightBlue: 43
+    brightMagenta: 52.3
+    brightCyan: 66
+    brightWhite: 82.3

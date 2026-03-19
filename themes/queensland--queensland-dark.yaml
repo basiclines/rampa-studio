@@ -1,0 +1,53 @@
+name: "Queensland (Queensland Dark)"
+source:
+  marketplace_id: "lucidlabs.queensland-theme"
+  version: "1.4.0"
+  installs: 3
+  rating: 0
+  ratings: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.queensland-theme"
+  formats: null
+colors:
+  bg: "#131212"
+  fg: "#E8EDF3"
+  black: "#131212"
+  red: "#E22339"
+  green: "#6BBE27"
+  yellow: "#FFCC2C"
+  blue: "#005EB8"
+  magenta: "#73182C"
+  cyan: "#0085B3"
+  white: "#E8EDF3"
+  brightBlack: "#78797E"
+  brightRed: "#FF4D5E"
+  brightGreen: "#78D65B"
+  brightYellow: "#FFE066"
+  brightBlue: "#3D8FD6"
+  brightMagenta: "#C88DF7"
+  brightCyan: "#33A8CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.1
+    black: 0
+    red: 30.9
+    green: 55.9
+    yellow: 79.1
+    blue: 20.3
+    magenta: 7.5
+    cyan: 32.8
+    white: 95.1
+    brightBlack: 31
+    brightRed: 42.7
+    brightGreen: 68.4
+    brightYellow: 88.2
+    brightBlue: 39.5
+    brightMagenta: 53.6
+    brightCyan: 48.4
+    brightWhite: 107.3

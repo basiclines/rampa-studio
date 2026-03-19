@@ -1,0 +1,53 @@
+name: "Gruvbox Minor (Gruvbox Minor Light Medium)"
+source:
+  marketplace_id: "adamsome.vscode-theme-gruvbox-minor"
+  version: "2.7.2"
+  installs: 27669
+  rating: 5
+  ratings: 10
+  author: "adamsome"
+  repo: "https://github.com/adamsome/vscode-theme-gruvbox-minor"
+  url: "https://marketplace.visualstudio.com/items?itemName=adamsome.vscode-theme-gruvbox-minor"
+  formats: null
+colors:
+  bg: "#FBF1C7"
+  fg: "#928374"
+  black: "#EBDBB2"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#7C6F64"
+  brightBlack: "#928374"
+  brightRed: "#9D0006"
+  brightGreen: "#79740E"
+  brightYellow: "#B57614"
+  brightBlue: "#076678"
+  brightMagenta: "#8F3F71"
+  brightCyan: "#427B58"
+  brightWhite: "#3C3836"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Gruvbox Minor (Gruvbox Minor Dark Medium)"
+  contrast:
+    fg: 55.7
+    black: 9.5
+    red: 66.8
+    green: 49.2
+    yellow: 39.9
+    blue: 60.5
+    magenta: 60.3
+    cyan: 50.2
+    white: 65.1
+    brightBlack: 55.7
+    brightRed: 78.4
+    brightGreen: 65
+    brightYellow: 56.3
+    brightBlue: 73.6
+    brightMagenta: 74.1
+    brightCyan: 65.8
+    brightWhite: 88.1

@@ -1,0 +1,53 @@
+name: "Bio Dark"
+source:
+  marketplace_id: "studiobio.bio-dark-theme"
+  version: "0.1.5"
+  installs: 15559
+  rating: 4.33
+  ratings: 3
+  author: "studiobio"
+  repo: "https://github.com/joshuaiz/bio-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=studiobio.bio-dark-theme"
+  formats: null
+colors:
+  bg: "#1E242E"
+  fg: "#CECECE"
+  black: "#111929"
+  red: "#F26D58"
+  green: "#35BE81"
+  yellow: "#FAC863"
+  blue: "#486388"
+  magenta: "#BB80B3"
+  cyan: "#4885DB"
+  white: "#F6F8FA"
+  brightBlack: "#575656"
+  brightRed: "#F12A26"
+  brightGreen: "#DEF59A"
+  brightYellow: "#FFDD43"
+  brightBlue: "#B0C3E7"
+  brightMagenta: "#C792EA"
+  brightCyan: "#A0C4EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 261
+  pair: null
+  contrast:
+    fg: 74.2
+    black: 0
+    red: 43.7
+    green: 52.9
+    yellow: 75
+    blue: 18.5
+    magenta: 41.6
+    cyan: 34.5
+    white: 100.4
+    brightBlack: 13.9
+    brightRed: 32.7
+    brightGreen: 92.3
+    brightYellow: 84.4
+    brightBlue: 67.2
+    brightMagenta: 52.1
+    brightCyan: 66.4
+    brightWhite: 105.2

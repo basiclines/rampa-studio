@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Railscasts Dark)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#2B2B2B"
+  fg: "#E6E1DC"
+  black: "#3A4055"
+  red: "#DA4939"
+  green: "#A5C261"
+  yellow: "#CC7833"
+  blue: "#6D9CBE"
+  magenta: "#B6B3EB"
+  cyan: "#519F50"
+  white: "#F4F1ED"
+  brightBlack: "#5A647E"
+  brightRed: "#DA4939"
+  brightGreen: "#A5C261"
+  brightYellow: "#FFC66D"
+  brightBlue: "#6D9CBE"
+  brightMagenta: "#B6B3EB"
+  brightCyan: "#519F50"
+  brightWhite: "#F9F7F3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.9
+    black: 0
+    red: 29.7
+    green: 59.6
+    yellow: 37.3
+    blue: 42
+    magenta: 60.3
+    cyan: 37.9
+    white: 94.9
+    brightBlack: 18.3
+    brightRed: 29.7
+    brightGreen: 59.6
+    brightYellow: 73.9
+    brightBlue: 42
+    brightMagenta: 60.3
+    brightCyan: 37.9
+    brightWhite: 98.7

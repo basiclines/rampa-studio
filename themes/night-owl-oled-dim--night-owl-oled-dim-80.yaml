@@ -1,0 +1,53 @@
+name: "Night Owl Oled Dim (Night Owl Oled Dim 80)"
+source:
+  marketplace_id: "WeiyuWang.night-owl-oled-dim"
+  version: "1.0.1"
+  installs: 4595
+  rating: 5
+  ratings: 1
+  author: "Weiyu Wang"
+  repo: "https://github.com/wwang1110/night-owl-oled-dim"
+  url: "https://marketplace.visualstudio.com/items?itemName=WeiyuWang.night-owl-oled-dim"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#ABB1BC"
+  black: "#00111F"
+  red: "#BF4240"
+  green: "#1BAE58"
+  yellow: "#9DB660"
+  blue: "#6888CC"
+  magenta: "#9F74BB"
+  cyan: "#1A9F86"
+  white: "#CCCCCC"
+  brightBlack: "#454444"
+  brightRed: "#BF4240"
+  brightGreen: "#1BAE58"
+  brightYellow: "#CCBC77"
+  brightBlue: "#6888CC"
+  brightMagenta: "#9F74BB"
+  brightCyan: "#65AFA1"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 59.9
+    black: 0
+    red: 27.1
+    green: 47.1
+    yellow: 57.6
+    blue: 39.1
+    magenta: 37.3
+    cyan: 41.7
+    white: 75.7
+    brightBlack: 9.9
+    brightRed: 27.1
+    brightGreen: 47.1
+    brightYellow: 66.2
+    brightBlue: 39.1
+    brightMagenta: 37.3
+    brightCyan: 51.9
+    brightWhite: 75.7

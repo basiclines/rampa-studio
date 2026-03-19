@@ -1,0 +1,53 @@
+name: "pink-serena"
+source:
+  marketplace_id: "tselmeg.pink-serena"
+  version: "0.2.0"
+  installs: 2492
+  rating: 0
+  ratings: 0
+  author: "Serena"
+  repo: "https://github.com/utselmeg/perf-pink-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tselmeg.pink-serena"
+  formats: null
+colors:
+  bg: "#111010"
+  fg: "#FFE9F2"
+  black: "#262626"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#BCBCBC"
+  brightBlack: "#6F6666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.7
+    black: 0
+    red: 27.3
+    green: 53.6
+    yellow: 86.2
+    blue: 28
+    magenta: 30.3
+    cyan: 48.1
+    white: 65.9
+    brightBlack: 23.4
+    brightRed: 39.1
+    brightGreen: 64.1
+    brightYellow: 96.2
+    brightBlue: 40.6
+    brightMagenta: 45.9
+    brightCyan: 56
+    brightWhite: 107.4

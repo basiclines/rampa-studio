@@ -1,0 +1,53 @@
+name: "Penumbra (Penumbra Dark)"
+source:
+  marketplace_id: "PenumbraTheme.penumbra"
+  version: "0.4.0"
+  installs: 11887
+  rating: 5
+  ratings: 3
+  author: "Penumbra Theme"
+  repo: "https://github.com/nealmckee/penumbra_vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=PenumbraTheme.penumbra"
+  formats: null
+colors:
+  bg: "#303338"
+  fg: "#8F8F8F"
+  black: "#24272B"
+  red: "#CB7459"
+  green: "#46A473"
+  yellow: "#A38F2D"
+  blue: "#7E87D6"
+  magenta: "#BD72A8"
+  cyan: "#00A0BE"
+  white: "#FFF7ED"
+  brightBlack: "#636363"
+  brightRed: "#CB7459"
+  brightGreen: "#46A473"
+  brightYellow: "#A38F2D"
+  brightBlue: "#7E87D6"
+  brightMagenta: "#BD72A8"
+  brightCyan: "#00A0BE"
+  brightWhite: "#FFFDFB"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 36.3
+    black: 0
+    red: 34.8
+    green: 38.5
+    yellow: 36.6
+    blue: 35.4
+    magenta: 34.4
+    cyan: 38.6
+    white: 97.5
+    brightBlack: 16
+    brightRed: 34.8
+    brightGreen: 38.5
+    brightYellow: 36.6
+    brightBlue: 35.4
+    brightMagenta: 34.4
+    brightCyan: 38.6
+    brightWhite: 100.9

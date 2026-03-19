@@ -1,0 +1,53 @@
+name: "Nord Deep but you can actually see comments"
+source:
+  marketplace_id: "BalintGyarmathy.nord-deep-visible-comments"
+  version: "0.1.0"
+  installs: 2379
+  rating: 2
+  ratings: 1
+  author: "Bálint Gyarmathy"
+  repo: "https://github.com/gyaur/vscode-theme-nord-deep"
+  url: "https://marketplace.visualstudio.com/items?itemName=BalintGyarmathy.nord-deep-visible-comments"
+  formats: null
+colors:
+  bg: "#232731"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 83.1
+    black: 0
+    red: 30.7
+    green: 59.4
+    yellow: 74.1
+    blue: 46.4
+    magenta: 44.2
+    cyan: 60.4
+    white: 90.1
+    brightBlack: 13.1
+    brightRed: 30.7
+    brightGreen: 59.4
+    brightYellow: 74.1
+    brightBlue: 46.4
+    brightMagenta: 44.2
+    brightCyan: 58.3
+    brightWhite: 94

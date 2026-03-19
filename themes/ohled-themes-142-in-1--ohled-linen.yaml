@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_Linen)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FAF0E6"
+  black: "#FAF0E6"
+  red: "#B7B0A9"
+  green: "#C8C0B8"
+  yellow: "#96908A"
+  blue: "#E9E0D7"
+  magenta: "#D9D0C7"
+  cyan: "#A7A099"
+  white: "#85807B"
+  brightBlack: "#FAF0E6"
+  brightRed: "#B7B0A9"
+  brightGreen: "#C8C0B8"
+  brightYellow: "#96908A"
+  brightBlue: "#E9E0D7"
+  brightMagenta: "#D9D0C7"
+  brightCyan: "#A7A099"
+  brightWhite: "#85807B"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99
+    black: 99
+    red: 60.1
+    green: 69.3
+    yellow: 43
+    blue: 88.7
+    magenta: 78.9
+    cyan: 51.4
+    white: 35.1
+    brightBlack: 99
+    brightRed: 60.1
+    brightGreen: 69.3
+    brightYellow: 43
+    brightBlue: 88.7
+    brightMagenta: 78.9
+    brightCyan: 51.4
+    brightWhite: 35.1

@@ -1,0 +1,53 @@
+name: "Rainglow (penitent)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#1F352E"
+  fg: "#B9CEC7"
+  black: "#28453C"
+  red: "#BA0E2E"
+  green: "#E54334"
+  yellow: "#EA983A"
+  blue: "#11A361"
+  magenta: "#E54334"
+  cyan: "#EA983A"
+  white: "#C8D8D3"
+  brightBlack: "#457566"
+  brightRed: "#F03E5F"
+  brightGreen: "#F1978E"
+  brightYellow: "#F4C896"
+  brightBlue: "#31E996"
+  brightMagenta: "#F1978E"
+  brightCyan: "#F4C896"
+  brightWhite: "#F5F8F7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 172
+  pair: null
+  contrast:
+    fg: 68.7
+    black: 0
+    red: 16.2
+    green: 29.9
+    yellow: 51.3
+    blue: 37
+    magenta: 29.9
+    cyan: 51.3
+    white: 75.4
+    brightBlack: 20.3
+    brightRed: 32.5
+    brightGreen: 53.8
+    brightYellow: 72.5
+    brightBlue: 71.6
+    brightMagenta: 53.8
+    brightCyan: 72.5
+    brightWhite: 97.5

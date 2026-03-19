@@ -1,0 +1,53 @@
+name: "Rainglow (crisp-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#221A22"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#99769B"
+  yellow: "#765478"
+  blue: "#FC6A0F"
+  magenta: "#FC6A0F"
+  cyan: "#99769B"
+  white: "#302530"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#C5B1C6"
+  brightYellow: "#A987AB"
+  brightBlue: "#FDA974"
+  brightMagenta: "#FDA974"
+  brightCyan: "#C5B1C6"
+  brightWhite: "#5C465C"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 0
+    red: 80.3
+    green: 66.2
+    yellow: 81.5
+    blue: 54.6
+    magenta: 54.6
+    cyan: 66.2
+    white: 101.5
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 38.8
+    brightYellow: 58.1
+    brightBlue: 35.7
+    brightMagenta: 35.7
+    brightCyan: 38.8
+    brightWhite: 89.1

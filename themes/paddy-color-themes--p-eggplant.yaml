@@ -1,0 +1,53 @@
+name: "Paddy Color Themes (P. \ Eggplant)"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74833
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+  formats: null
+colors:
+  bg: "#1C1525"
+  fg: "#FFD9BB"
+  black: "#39353D"
+  red: "#CE3521"
+  green: "#05A829"
+  yellow: "#D37D0D"
+  blue: "#276AC2"
+  magenta: "#E0024C"
+  cyan: "#04C4A4"
+  white: "#CFB5A9"
+  brightBlack: "#4B4750"
+  brightRed: "#FF553E"
+  brightGreen: "#2DDD68"
+  brightYellow: "#FFB618"
+  brightBlue: "#50A9FD"
+  brightMagenta: "#FF3478"
+  brightCyan: "#28F5D3"
+  brightWhite: "#FAE8E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 304
+  pair: null
+  contrast:
+    fg: 86.7
+    black: 0
+    red: 27.1
+    green: 42.6
+    yellow: 42.7
+    blue: 24.4
+    magenta: 29.3
+    cyan: 57.9
+    white: 64.1
+    brightBlack: 10.3
+    brightRed: 42.9
+    brightGreen: 68.6
+    brightYellow: 69.8
+    brightBlue: 52.2
+    brightMagenta: 39.8
+    brightCyan: 84
+    brightWhite: 94

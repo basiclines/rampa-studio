@@ -1,0 +1,53 @@
+name: "Rainglow (violaceous-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0B0A11"
+  fg: "#BDB2F7"
+  black: "#151321"
+  red: "#BA0E2E"
+  green: "#725AC1"
+  yellow: "#8D86C9"
+  blue: "#CAC4CE"
+  magenta: "#725AC1"
+  cyan: "#CAC4CE"
+  white: "#D1C9F9"
+  brightBlack: "#353051"
+  brightRed: "#F03E5F"
+  brightGreen: "#B1A4DD"
+  brightYellow: "#CFCDE8"
+  brightBlue: "#FCFCFC"
+  brightMagenta: "#B1A4DD"
+  brightCyan: "#FCFCFC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 291
+  pair: null
+  contrast:
+    fg: 65.3
+    black: 0
+    red: 21.3
+    green: 25.3
+    yellow: 41.3
+    blue: 72
+    magenta: 25.3
+    cyan: 72
+    white: 77.1
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 57.1
+    brightYellow: 77.6
+    brightBlue: 105.7
+    brightMagenta: 57.1
+    brightCyan: 105.7
+    brightWhite: 107.7

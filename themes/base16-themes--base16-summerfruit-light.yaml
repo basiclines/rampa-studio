@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Summerfruit Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#101010"
+  black: "#D0D0D0"
+  red: "#FF0086"
+  green: "#00C918"
+  yellow: "#FD8900"
+  blue: "#3777E6"
+  magenta: "#AD00A1"
+  cyan: "#1FAAAA"
+  white: "#151515"
+  brightBlack: "#B0B0B0"
+  brightRed: "#FF0086"
+  brightGreen: "#00C918"
+  brightYellow: "#ABA800"
+  brightBlue: "#3777E6"
+  brightMagenta: "#AD00A1"
+  brightCyan: "#1FAAAA"
+  brightWhite: "#202020"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 105.5
+    black: 25
+    red: 62.2
+    green: 43.3
+    yellow: 46.6
+    blue: 68.9
+    magenta: 79.3
+    cyan: 54
+    white: 104.9
+    brightBlack: 42.7
+    brightRed: 62.2
+    brightGreen: 43.3
+    brightYellow: 49.2
+    brightBlue: 68.9
+    brightMagenta: 79.3
+    brightCyan: 54
+    brightWhite: 103.3

@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_CadetBlue)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#5F9EA0"
+  black: "#5F9EA0"
+  red: "#467475"
+  green: "#4C7E80"
+  yellow: "#395F60"
+  blue: "#599395"
+  magenta: "#52898B"
+  cyan: "#3F696B"
+  white: "#335455"
+  brightBlack: "#5F9EA0"
+  brightRed: "#467475"
+  brightGreen: "#4C7E80"
+  brightYellow: "#395F60"
+  brightBlue: "#599395"
+  brightMagenta: "#52898B"
+  brightCyan: "#3F696B"
+  brightWhite: "#335455"
+meta:
+  mode: "dark"
+  accent: "cyan"
+  hue: null
+  pair: null
+  contrast:
+    fg: 44.5
+    black: 44.5
+    red: 25.9
+    green: 30.1
+    yellow: 17.6
+    blue: 39.4
+    magenta: 34.8
+    cyan: 21.5
+    white: 13.7
+    brightBlack: 44.5
+    brightRed: 25.9
+    brightGreen: 30.1
+    brightYellow: 17.6
+    brightBlue: 39.4
+    brightMagenta: 34.8
+    brightCyan: 21.5
+    brightWhite: 13.7

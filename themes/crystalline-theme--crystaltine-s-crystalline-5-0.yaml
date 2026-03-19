@@ -1,0 +1,53 @@
+name: "Crystalline Theme (Crystaltine's Crystalline 5.0)"
+source:
+  marketplace_id: "nonagon.crystalline-theme"
+  version: "5.0.10"
+  installs: 1895
+  rating: 5
+  ratings: 2
+  author: "crystaltine"
+  repo: "https://github.com/crystaltine/Crystalline-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nonagon.crystalline-theme"
+  formats: null
+colors:
+  bg: "#1D1D1F"
+  fg: "#A0A0B0"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#FCE56E"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#FBE291"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 49.8
+    black: 8.1
+    red: 36
+    green: 59.6
+    yellow: 89
+    blue: 48.9
+    magenta: 38.3
+    cyan: 51.8
+    white: 89.9
+    brightBlack: 14.7
+    brightRed: 45.4
+    brightGreen: 76.1
+    brightYellow: 88.2
+    brightBlue: 63
+    brightMagenta: 49.5
+    brightCyan: 67.1
+    brightWhite: 106.2

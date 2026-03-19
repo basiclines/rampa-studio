@@ -1,0 +1,53 @@
+name: "Rainglow (mellow-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0B0A09"
+  fg: "#F8F8F2"
+  black: "#191714"
+  red: "#BA0E2E"
+  green: "#F2BC79"
+  yellow: "#1F8181"
+  blue: "#F28972"
+  magenta: "#F2BC79"
+  cyan: "#F55D79"
+  white: "#FFFFFF"
+  brightBlack: "#433D37"
+  brightRed: "#F03E5F"
+  brightGreen: "#FBEAD6"
+  brightYellow: "#37CFCF"
+  brightBlue: "#FBD7CF"
+  brightMagenta: "#FBEAD6"
+  brightCyan: "#FBBDC8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.8
+    black: 0
+    red: 21.4
+    green: 71.9
+    yellow: 29.6
+    blue: 54.1
+    magenta: 71.9
+    cyan: 44.2
+    white: 107.7
+    brightBlack: 7.6
+    brightRed: 37.6
+    brightGreen: 95.6
+    brightYellow: 66.3
+    brightBlue: 87
+    brightMagenta: 95.6
+    brightCyan: 76.2
+    brightWhite: 107.7

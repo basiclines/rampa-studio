@@ -1,0 +1,53 @@
+name: "Cosy Orange Themes"
+source:
+  marketplace_id: "btarg.cosy-orange-theme"
+  version: "1.3.0"
+  installs: 709
+  rating: 3.5
+  ratings: 2
+  author: "btarg"
+  repo: "https://github.com/btarg/vscode-cosy-orange-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=btarg.cosy-orange-theme"
+  formats: null
+colors:
+  bg: "#252221"
+  fg: "#A89C8A"
+  black: "#252221"
+  red: "#C65F5F"
+  green: "#859E82"
+  yellow: "#D9B27C"
+  blue: "#728797"
+  magenta: "#998396"
+  cyan: "#829E9B"
+  white: "#C8BAA4"
+  brightBlack: "#3D3837"
+  brightRed: "#D87575"
+  brightGreen: "#9AB598"
+  brightYellow: "#E5C592"
+  brightBlue: "#88A0B0"
+  brightMagenta: "#B099AC"
+  brightCyan: "#98B5B1"
+  brightWhite: "#D1C6B4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 47
+    black: 0
+    red: 32
+    green: 43.8
+    yellow: 61.7
+    blue: 34.3
+    magenta: 36.9
+    cyan: 44.4
+    white: 63.6
+    brightBlack: 0
+    brightRed: 41.3
+    brightGreen: 55.8
+    brightYellow: 71.7
+    brightBlue: 46.6
+    brightMagenta: 48.2
+    brightCyan: 56.5
+    brightWhite: 70.3

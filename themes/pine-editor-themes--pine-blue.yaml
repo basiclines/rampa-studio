@@ -1,0 +1,53 @@
+name: "Pine Editor Themes (Pine Blue)"
+source:
+  marketplace_id: "JeylaniB.pine-editor-themes"
+  version: "1.0.0"
+  installs: 12533
+  rating: 5
+  ratings: 1
+  author: "JeylaniB"
+  repo: "https://github.com/jeyllani/pinethemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=JeylaniB.pine-editor-themes"
+  formats: null
+colors:
+  bg: "#01101C"
+  fg: "#D6DEEB"
+  black: "#01101C"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 240
+  pair: null
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 39.9
+    green: 67.8
+    yellow: 82.6
+    blue: 56.5
+    magenta: 54.3
+    cyan: 60.3
+    white: 107.4
+    brightBlack: 16.2
+    brightRed: 39.9
+    brightGreen: 67.8
+    brightYellow: 94.3
+    brightBlue: 56.5
+    brightMagenta: 54.3
+    brightCyan: 74.6
+    brightWhite: 107.4

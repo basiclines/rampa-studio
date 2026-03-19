@@ -1,0 +1,53 @@
+name: "Rainglow (solarflare-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#222222"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#D87627"
+  yellow: "#FF4E50"
+  blue: "#C6BB15"
+  magenta: "#FF4E50"
+  cyan: "#D87627"
+  white: "#2F2F2F"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#E8AD7D"
+  brightYellow: "#FFB4B5"
+  brightBlue: "#EDE354"
+  brightMagenta: "#FFB4B5"
+  brightCyan: "#E8AD7D"
+  brightWhite: "#555555"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.9
+    black: 0
+    red: 80.3
+    green: 58.9
+    yellow: 58.5
+    blue: 38.5
+    magenta: 58.5
+    cyan: 58.9
+    white: 99.8
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 37.7
+    brightYellow: 29.9
+    brightBlue: 16.4
+    brightMagenta: 29.9
+    brightCyan: 37.7
+    brightWhite: 85.9

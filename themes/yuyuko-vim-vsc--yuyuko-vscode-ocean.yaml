@@ -1,0 +1,53 @@
+name: "yuyuko-vim-vsc (yuyuko.vscode ocean)"
+source:
+  marketplace_id: "hylwxqwq.yuyuko-vim-vsc"
+  version: "0.2.1"
+  installs: 6348
+  rating: 5
+  ratings: 4
+  author: "hylwxqwq"
+  repo: "https://github.com/hylwxqwq/yuyuko-vim-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=hylwxqwq.yuyuko-vim-vsc"
+  formats: null
+colors:
+  bg: "#0F111A"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 105
+    black: 0
+    red: 44.1
+    green: 84.7
+    yellow: 79.4
+    blue: 56.4
+    magenta: 54.2
+    cyan: 78.7
+    white: 107.3
+    brightBlack: 11.4
+    brightRed: 44.1
+    brightGreen: 84.7
+    brightYellow: 79.4
+    brightBlue: 56.4
+    brightMagenta: 54.2
+    brightCyan: 78.7
+    brightWhite: 107.3

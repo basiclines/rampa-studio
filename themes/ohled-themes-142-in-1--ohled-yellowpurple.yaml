@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_YellowPurple)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFB0FF"
+  black: "#FFB0FF"
+  red: "#BB81BB"
+  green: "#CC8DCC"
+  yellow: "#996A99"
+  blue: "#EEA4EE"
+  magenta: "#DD99DD"
+  cyan: "#AA75AA"
+  white: "#885E88"
+  brightBlack: "#FFB0FF"
+  brightRed: "#BB81BB"
+  brightGreen: "#CC8DCC"
+  brightYellow: "#996A99"
+  brightBlue: "#EEA4EE"
+  brightMagenta: "#DD99DD"
+  brightCyan: "#AA75AA"
+  brightWhite: "#885E88"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.1
+    black: 75.1
+    red: 45
+    green: 52.2
+    yellow: 32
+    blue: 67.1
+    magenta: 59.7
+    cyan: 38.2
+    white: 25.8
+    brightBlack: 75.1
+    brightRed: 45
+    brightGreen: 52.2
+    brightYellow: 32
+    brightBlue: 67.1
+    brightMagenta: 59.7
+    brightCyan: 38.2
+    brightWhite: 25.8

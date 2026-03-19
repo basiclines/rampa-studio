@@ -1,0 +1,53 @@
+name: "Nebula Colorscheme"
+source:
+  marketplace_id: "gmyk.nebula-colorscheme"
+  version: "0.1.0"
+  installs: 762
+  rating: 0
+  ratings: 0
+  author: "Mayank Gujrathi"
+  repo: "https://github.com/mayankgujrathi/nebula"
+  url: "https://marketplace.visualstudio.com/items?itemName=gmyk.nebula-colorscheme"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#E2E3E3"
+  black: "#535353"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#D5D5D5"
+  brightBlack: "#737373"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#F5F5F5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.1
+    black: 14.8
+    red: 27.1
+    green: 53.4
+    yellow: 86
+    blue: 27.9
+    magenta: 30.2
+    cyan: 48
+    white: 80.5
+    brightBlack: 28.2
+    brightRed: 39
+    brightGreen: 64
+    brightYellow: 96.1
+    brightBlue: 40.4
+    brightMagenta: 45.8
+    brightCyan: 55.8
+    brightWhite: 100.7

@@ -1,0 +1,53 @@
+name: "Blue Night (Blue-Day)"
+source:
+  marketplace_id: "thiagobessimo.bluenight"
+  version: "1.0.1"
+  installs: 1350
+  rating: 0
+  ratings: 0
+  author: "Thiago P B Bessimo"
+  repo: "https://github.com/thiagobessimo/bluenight"
+  url: "https://marketplace.visualstudio.com/items?itemName=thiagobessimo.bluenight"
+  formats: null
+colors:
+  bg: "#F5F8FF"
+  fg: "#000510"
+  black: "#F5F8FF"
+  red: "#CC3333"
+  green: "#08DDAA"
+  yellow: "#FFC500"
+  blue: "#2080FF"
+  magenta: "#FF60DD"
+  cyan: "#20EEEE"
+  white: "#000510"
+  brightBlack: "#88ADFF"
+  brightRed: "#CC3333"
+  brightGreen: "#08DDAA"
+  brightYellow: "#FFC500"
+  brightBlue: "#2080FF"
+  brightMagenta: "#FF60DD"
+  brightCyan: "#20EEEE"
+  brightWhite: "#000510"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.7
+    black: 0
+    red: 69.7
+    green: 27.3
+    yellow: 22
+    blue: 60.2
+    magenta: 46.2
+    cyan: 16.4
+    white: 101.7
+    brightBlack: 39.3
+    brightRed: 69.7
+    brightGreen: 27.3
+    brightYellow: 22
+    brightBlue: 60.2
+    brightMagenta: 46.2
+    brightCyan: 16.4
+    brightWhite: 101.7

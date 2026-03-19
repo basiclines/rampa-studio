@@ -1,0 +1,53 @@
+name: "Jetbrains Fleet Theme"
+source:
+  marketplace_id: "MichaelZhou.fleet-theme"
+  version: "1.3.10"
+  installs: 84487
+  rating: 5
+  ratings: 8
+  author: "Michael Zhou"
+  repo: "https://github.com/Michaelzhouisnotwhite/Jetbrains-Fleet-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MichaelZhou.fleet-theme"
+  formats: null
+colors:
+  bg: "#181818"
+  fg: "#D6D6DD"
+  black: "#676767"
+  red: "#F14C4C"
+  green: "#15AC91"
+  yellow: "#E5B95C"
+  blue: "#4C9DF3"
+  magenta: "#E567DC"
+  cyan: "#75D3BA"
+  white: "#D6D6DD"
+  brightBlack: "#676767"
+  brightRed: "#F14C4C"
+  brightGreen: "#15AC91"
+  brightYellow: "#E5B95C"
+  brightBlue: "#4C9DF3"
+  brightMagenta: "#E567DC"
+  brightCyan: "#75D3BA"
+  brightWhite: "#D6D6DD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.9
+    black: 22.4
+    red: 38.5
+    green: 46.5
+    yellow: 67.1
+    blue: 46.7
+    magenta: 46.4
+    cyan: 68.8
+    white: 80.9
+    brightBlack: 22.4
+    brightRed: 38.5
+    brightGreen: 46.5
+    brightYellow: 67.1
+    brightBlue: 46.7
+    brightMagenta: 46.4
+    brightCyan: 68.8
+    brightWhite: 80.9

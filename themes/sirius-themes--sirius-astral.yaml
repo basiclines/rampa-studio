@@ -1,0 +1,53 @@
+name: "Sirius Themes (Sirius-Astral)"
+source:
+  marketplace_id: "VLMADev.siriusthemes"
+  version: "1.1.5"
+  installs: 517
+  rating: 5
+  ratings: 1
+  author: "VLMADev"
+  repo: "https://github.com/VLMADev/siriusthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=VLMADev.siriusthemes"
+  formats: null
+colors:
+  bg: "#0C0C0C"
+  fg: "#E8E8E8"
+  black: "#353535"
+  red: "#E06C75"
+  green: "#A4D29A"
+  yellow: "#F0C270"
+  blue: "#BB6CC1"
+  magenta: "#D685D6"
+  cyan: "#7BD2D2"
+  white: "#E8E8E8"
+  brightBlack: "#7A7A7A"
+  brightRed: "#F07C85"
+  brightGreen: "#B4E2A4"
+  brightYellow: "#FFE280"
+  brightBlue: "#B88BC2"
+  brightMagenta: "#E292D2"
+  brightCyan: "#8CE2E2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.7
+    black: 0
+    red: 42.9
+    green: 71.8
+    yellow: 73.7
+    blue: 39.4
+    magenta: 51.7
+    cyan: 70.7
+    white: 92.7
+    brightBlack: 31.7
+    brightRed: 50.5
+    brightGreen: 81.1
+    brightYellow: 90
+    brightBlue: 47.9
+    brightMagenta: 57.5
+    brightCyan: 80.1
+    brightWhite: 107.7

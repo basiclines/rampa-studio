@@ -1,0 +1,54 @@
+name: "Papaya Theme"
+source:
+  marketplace_id: "fethalen.papaya"
+  version: "0.1.2"
+  installs: 4335
+  rating: 5
+  ratings: 1
+  author: "fethalen"
+  repo: "git://github.com/fethalen/papaya"
+  url: "https://marketplace.visualstudio.com/items?itemName=fethalen.papaya"
+  formats:
+    sublime: "https://raw.githubusercontent.com/fethalen/papaya/main/node_modules/generator-code/generators/app/templates/ext-colortheme/themes/theme.tmTheme"
+colors:
+  bg: "#1F1E24"
+  fg: "#B6D3E3"
+  black: "#2A2732"
+  red: "#C35066"
+  green: "#608867"
+  yellow: "#CDA55E"
+  blue: "#366DB8"
+  magenta: "#8F64CB"
+  cyan: "#5A7491"
+  white: "#D8D8D8"
+  brightBlack: "#686868"
+  brightRed: "#D76979"
+  brightGreen: "#75BC77"
+  brightYellow: "#F0C06B"
+  brightBlue: "#3688F7"
+  brightMagenta: "#CA61B2"
+  brightCyan: "#82B9D8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 293
+  pair: null
+  contrast:
+    fg: 75.3
+    black: 0
+    red: 29.1
+    green: 32.2
+    yellow: 54.9
+    blue: 24.3
+    magenta: 30
+    cyan: 26.2
+    white: 81
+    brightBlack: 22
+    brightRed: 38.8
+    brightGreen: 55.4
+    brightYellow: 71.1
+    brightBlue: 37.8
+    brightMagenta: 36.8
+    brightCyan: 58.7
+    brightWhite: 105.9

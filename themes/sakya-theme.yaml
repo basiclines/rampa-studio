@@ -1,0 +1,54 @@
+name: "Sakya Theme"
+source:
+  marketplace_id: "mouselee.sakya-theme"
+  version: "0.2.0"
+  installs: 20
+  rating: 5
+  ratings: 1
+  author: "mouselee"
+  repo: "https://github.com/XuanLee-HEALER/sakya-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mouselee.sakya-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/XuanLee-HEALER/sakya-theme/main/iterm2/sakya-dorje.itermcolors"
+colors:
+  bg: "#1B1B2A"
+  fg: "#E8E0D4"
+  black: "#0C0C14"
+  red: "#BB4441"
+  green: "#527559"
+  yellow: "#D2B450"
+  blue: "#5B8AB8"
+  magenta: "#C88090"
+  cyan: "#527559"
+  white: "#C4BCAE"
+  brightBlack: "#46465C"
+  brightRed: "#BB4441"
+  brightGreen: "#527559"
+  brightYellow: "#E0C888"
+  brightBlue: "#5B8AB8"
+  brightMagenta: "#C88090"
+  brightCyan: "#527559"
+  brightWhite: "#E8E0D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 25
+    green: 24.4
+    yellow: 61.5
+    blue: 36.2
+    magenta: 43.3
+    cyan: 24.4
+    white: 65.1
+    brightBlack: 9.6
+    brightRed: 25
+    brightGreen: 24.4
+    brightYellow: 72.8
+    brightBlue: 36.2
+    brightMagenta: 43.3
+    brightCyan: 24.4
+    brightWhite: 86.8

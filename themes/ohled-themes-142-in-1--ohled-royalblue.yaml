@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_RoyalBlue)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#476CE2"
+  black: "#476CE2"
+  red: "#344FA6"
+  green: "#3956B5"
+  yellow: "#2B4188"
+  blue: "#4265D3"
+  magenta: "#3E5EC4"
+  cyan: "#2F4897"
+  white: "#263A79"
+  brightBlack: "#476CE2"
+  brightRed: "#344FA6"
+  brightGreen: "#3956B5"
+  brightYellow: "#2B4188"
+  brightBlue: "#4265D3"
+  brightMagenta: "#3E5EC4"
+  brightCyan: "#2F4897"
+  brightWhite: "#263A79"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 29.8
+    black: 29.8
+    red: 16.5
+    green: 19.5
+    yellow: 10.7
+    blue: 26.3
+    magenta: 23
+    cyan: 13.5
+    white: 8.1
+    brightBlack: 29.8
+    brightRed: 16.5
+    brightGreen: 19.5
+    brightYellow: 10.7
+    brightBlue: 26.3
+    brightMagenta: 23
+    brightCyan: 13.5
+    brightWhite: 8.1

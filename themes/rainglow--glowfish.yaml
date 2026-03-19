@@ -1,0 +1,53 @@
+name: "Rainglow (glowfish)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#191F13"
+  fg: "#6EA240"
+  black: "#262F1D"
+  red: "#BA0E2E"
+  green: "#95CC5E"
+  yellow: "#DB784D"
+  blue: "#60A365"
+  magenta: "#D65940"
+  cyan: "#95CC5E"
+  white: "#7AB447"
+  brightBlack: "#4C5E3A"
+  brightRed: "#F03E5F"
+  brightGreen: "#C8E5AB"
+  brightYellow: "#ECB8A2"
+  brightBlue: "#A1C8A4"
+  brightMagenta: "#E8A294"
+  brightCyan: "#C8E5AB"
+  brightWhite: "#A2CB7D"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 130
+  pair: null
+  contrast:
+    fg: 43
+    black: 0
+    red: 19.8
+    green: 64.8
+    yellow: 42.6
+    blue: 43.1
+    magenta: 34.1
+    cyan: 64.8
+    white: 51.6
+    brightBlack: 15.8
+    brightRed: 36.1
+    brightGreen: 83.4
+    brightYellow: 68.9
+    brightBlue: 65.8
+    brightMagenta: 59.7
+    brightCyan: 83.4
+    brightWhite: 66.2

@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_SpringGreen)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#00FF7F"
+  black: "#00FF7F"
+  red: "#00BB5D"
+  green: "#00CC66"
+  yellow: "#00994C"
+  blue: "#00EE77"
+  magenta: "#00DD6E"
+  cyan: "#00AA55"
+  white: "#008844"
+  brightBlack: "#00FF7F"
+  brightRed: "#00BB5D"
+  brightGreen: "#00CC66"
+  brightYellow: "#00994C"
+  brightBlue: "#00EE77"
+  brightMagenta: "#00DD6E"
+  brightCyan: "#00AA55"
+  brightWhite: "#008844"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.6
+    black: 87.6
+    red: 52.9
+    green: 61.1
+    yellow: 37.7
+    blue: 78.4
+    magenta: 69.6
+    cyan: 45.1
+    white: 30.7
+    brightBlack: 87.6
+    brightRed: 52.9
+    brightGreen: 61.1
+    brightYellow: 37.7
+    brightBlue: 78.4
+    brightMagenta: 69.6
+    brightCyan: 45.1
+    brightWhite: 30.7

@@ -1,0 +1,53 @@
+name: "Cherry Blossom Theme (Cherry Blossom Airy)"
+source:
+  marketplace_id: "daitsuku.cherry-blossom-vscode-theme"
+  version: "1.2.1"
+  installs: 2134
+  rating: 0
+  ratings: 0
+  author: "daitsuku"
+  repo: "https://gitlab.com/daitsuku/cherry-blossom-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daitsuku.cherry-blossom-vscode-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#5C5C5C"
+  black: "#5C5C5C"
+  red: "#FFB7C5"
+  green: "#A2D8A2"
+  yellow: "#FFD6A2"
+  blue: "#A2C8FF"
+  magenta: "#FFC8D6"
+  cyan: "#A2D8D8"
+  white: "#EDEDED"
+  brightBlack: "#A3A3A3"
+  brightRed: "#FADADD"
+  brightGreen: "#D6FFD6"
+  brightYellow: "#FFE4B7"
+  brightBlue: "#D6E4FF"
+  brightMagenta: "#FFE4E6"
+  brightCyan: "#D6FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83
+    black: 83
+    red: 28.2
+    green: 28.1
+    yellow: 17.8
+    blue: 30.8
+    magenta: 21.4
+    cyan: 26.1
+    white: 8.2
+    brightBlack: 49.5
+    brightRed: 14.9
+    brightGreen: 0
+    brightYellow: 11.5
+    brightBlue: 13.9
+    brightMagenta: 9.8
+    brightCyan: 0
+    brightWhite: 0

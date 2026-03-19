@@ -1,0 +1,54 @@
+name: "Solarized Light Enhanced"
+source:
+  marketplace_id: "imkasen.vscode-solarized-light-enhanced"
+  version: "0.6.3"
+  installs: 53
+  rating: 0
+  ratings: 0
+  author: "Kasen"
+  repo: "https://github.com/imkasen/vscode-solarized-light-enhanced"
+  url: "https://marketplace.visualstudio.com/items?itemName=imkasen.vscode-solarized-light-enhanced"
+  formats:
+    zed: "https://raw.githubusercontent.com/imkasen/vscode-solarized-light-enhanced/main/themes/solarized-light-enhanced-color-theme.json"
+colors:
+  bg: "#FDF6E3"
+  fg: "#53676D"
+  black: "#073642"
+  red: "#CC1729"
+  green: "#428B00"
+  yellow: "#A78300"
+  blue: "#006DCE"
+  magenta: "#C44392"
+  cyan: "#00978A"
+  white: "#EEE8D5"
+  brightBlack: "#586E75"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#D33682"
+  brightCyan: "#2AA198"
+  brightWhite: "#FBF3DB"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.5
+    black: 93.7
+    red: 70.8
+    green: 63.8
+    yellow: 57.8
+    blue: 69.5
+    magenta: 65.8
+    cyan: 58
+    white: 0
+    brightBlack: 71.6
+    brightRed: 65.3
+    brightGreen: 53.8
+    brightYellow: 53.8
+    brightBlue: 58.7
+    brightMagenta: 65
+    brightCyan: 53.1
+    brightWhite: 0

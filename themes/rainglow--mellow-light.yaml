@@ -1,0 +1,53 @@
+name: "Rainglow (mellow-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#555555"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#F2BC79"
+  yellow: "#1F8181"
+  blue: "#F28972"
+  magenta: "#F2BC79"
+  cyan: "#F55D79"
+  white: "#626262"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#FBEAD6"
+  brightYellow: "#37CFCF"
+  brightBlue: "#FBD7CF"
+  brightMagenta: "#FBEAD6"
+  brightCyan: "#FBBDC8"
+  brightWhite: "#888888"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.9
+    black: 0
+    red: 80.3
+    green: 30.7
+    yellow: 71.9
+    blue: 47.7
+    magenta: 30.7
+    cyan: 57.4
+    white: 80.5
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 8.5
+    brightYellow: 36
+    brightBlue: 16.5
+    brightMagenta: 8.5
+    brightCyan: 26.6
+    brightWhite: 63.1

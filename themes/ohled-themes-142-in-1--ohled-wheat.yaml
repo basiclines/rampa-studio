@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_Wheat)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#F5DEB3"
+  black: "#F5DEB3"
+  red: "#B4A383"
+  green: "#C4B28F"
+  yellow: "#93856B"
+  blue: "#E5CFA7"
+  magenta: "#D4C09B"
+  cyan: "#A39477"
+  white: "#83765F"
+  brightBlack: "#F5DEB3"
+  brightRed: "#B4A383"
+  brightGreen: "#C4B28F"
+  brightYellow: "#93856B"
+  brightBlue: "#E5CFA7"
+  brightMagenta: "#D4C09B"
+  brightCyan: "#A39477"
+  brightWhite: "#83765F"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.2
+    black: 88.2
+    red: 53.5
+    green: 61.7
+    yellow: 37.9
+    blue: 79
+    magenta: 69.9
+    cyan: 45.4
+    white: 30.8
+    brightBlack: 88.2
+    brightRed: 53.5
+    brightGreen: 61.7
+    brightYellow: 37.9
+    brightBlue: 79
+    brightMagenta: 69.9
+    brightCyan: 45.4
+    brightWhite: 30.8

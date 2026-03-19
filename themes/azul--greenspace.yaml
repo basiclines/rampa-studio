@@ -1,0 +1,53 @@
+name: "Azul (GreenSpace)"
+source:
+  marketplace_id: "YesCode.azul"
+  version: "0.0.3"
+  installs: 1013
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://github.com/yesomac/Azul"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.azul"
+  formats: null
+colors:
+  bg: "#242F3A"
+  fg: "#CDCDCD"
+  black: "#1D211D"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00F95F"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#B7CCB1"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 71.6
+    black: 0
+    red: 38.3
+    green: 57.3
+    yellow: 69.4
+    blue: 79.2
+    magenta: 15.9
+    cyan: 45.8
+    white: 43.6
+    brightBlack: 14.9
+    brightRed: 38.3
+    brightGreen: 67.4
+    brightYellow: 76.1
+    brightBlue: 15.1
+    brightMagenta: 15.9
+    brightCyan: 45.8
+    brightWhite: 95.2

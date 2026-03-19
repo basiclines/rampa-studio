@@ -1,0 +1,53 @@
+name: "hjqTheme"
+source:
+  marketplace_id: "hjqInAmood-fiber.hjqTheme"
+  version: "0.1.5"
+  installs: 118
+  rating: 5
+  ratings: 1
+  author: "hjqInAmood"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=hjqInAmood-fiber.hjqTheme"
+  formats: null
+colors:
+  bg: "#282828"
+  fg: "#FFCC44"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#FAA70C"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#F0B940"
+  brightBlack: "#666666"
+  brightRed: "#00CC99"
+  brightGreen: "#EE629F"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#F0B940"
+  brightWhite: "#F0B940"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.4
+    black: 0
+    red: 22.2
+    green: 61
+    yellow: 55.2
+    blue: 32.2
+    magenta: 29.8
+    cyan: 48
+    white: 66.2
+    brightBlack: 19.6
+    brightRed: 58.9
+    brightGreen: 41.7
+    brightYellow: 81.5
+    brightBlue: 47.4
+    brightMagenta: 44.1
+    brightCyan: 66.2
+    brightWhite: 66.2

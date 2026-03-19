@@ -1,0 +1,53 @@
+name: "365 Day & Night Themes (High Contrast July Light Theme)"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 823
+  rating: 5
+  ratings: 1
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+  formats: null
+colors:
+  bg: "#FFFDE7"
+  fg: "#3E2723"
+  black: "#4E342E"
+  red: "#D84315"
+  green: "#8BC34A"
+  yellow: "#FFC107"
+  blue: "#1976D2"
+  magenta: "#7B1FA2"
+  cyan: "#0097A7"
+  white: "#E0E0E0"
+  brightBlack: "#616161"
+  brightRed: "#E64A19"
+  brightGreen: "#AED581"
+  brightYellow: "#FFD54F"
+  brightBlue: "#64B5F6"
+  brightMagenta: "#CE93D8"
+  brightCyan: "#4DD0E1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.5
+    black: 94.2
+    red: 67.7
+    green: 39.1
+    yellow: 26
+    blue: 69.5
+    magenta: 85.3
+    cyan: 60.2
+    white: 14
+    brightBlack: 79.1
+    brightRed: 63.5
+    brightGreen: 27.3
+    brightYellow: 17.9
+    brightBlue: 41.6
+    brightMagenta: 45.1
+    brightCyan: 32.3
+    brightWhite: 0

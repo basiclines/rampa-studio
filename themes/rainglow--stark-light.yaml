@@ -1,0 +1,53 @@
+name: "Rainglow (stark-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#FFBB29"
+  yellow: "#F03113"
+  blue: "#F03113"
+  magenta: "#666666"
+  cyan: "#FFBB29"
+  white: "#404040"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#FFDB8F"
+  brightYellow: "#F68573"
+  brightBlue: "#F68573"
+  brightMagenta: "#999999"
+  brightCyan: "#FFDB8F"
+  brightWhite: "#666666"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 80.3
+    green: 29.9
+    yellow: 66.1
+    blue: 66.1
+    magenta: 78.8
+    cyan: 29.9
+    white: 94.1
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 16.2
+    brightYellow: 48.1
+    brightBlue: 48.1
+    brightMagenta: 54.6
+    brightCyan: 16.2
+    brightWhite: 78.8

@@ -1,0 +1,53 @@
+name: "ac-theme"
+source:
+  marketplace_id: "acidev.ac-theme"
+  version: "0.0.51"
+  installs: 207
+  rating: 5
+  ratings: 1
+  author: "acidev"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=acidev.ac-theme"
+  formats: null
+colors:
+  bg: "#FFFFFE"
+  fg: "#475569"
+  black: "#333333"
+  red: "#BD5151"
+  green: "#547000"
+  yellow: "#9C5E1C"
+  blue: "#057D9E"
+  magenta: "#726293"
+  cyan: "#127D52"
+  white: "#F3F2F2"
+  brightBlack: "#666666"
+  brightRed: "#BD5151"
+  brightGreen: "#547000"
+  brightYellow: "#9C5E1C"
+  brightBlue: "#057D9E"
+  brightMagenta: "#726293"
+  brightCyan: "#127D52"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.3
+    black: 98.6
+    red: 72
+    green: 78.2
+    yellow: 75.5
+    blue: 72.3
+    magenta: 76.9
+    cyan: 75
+    white: 0
+    brightBlack: 78.7
+    brightRed: 72
+    brightGreen: 78.2
+    brightYellow: 75.5
+    brightBlue: 72.3
+    brightMagenta: 76.9
+    brightCyan: 75
+    brightWhite: 0

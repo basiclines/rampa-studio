@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_AliceBlue)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#F0F8FF"
+  black: "#F0F8FF"
+  red: "#B0B6BB"
+  green: "#C0C6CC"
+  yellow: "#909599"
+  blue: "#E0E7EE"
+  magenta: "#D0D7DD"
+  cyan: "#A0A5AA"
+  white: "#808488"
+  brightBlack: "#F0F8FF"
+  brightRed: "#B0B6BB"
+  brightGreen: "#C0C6CC"
+  brightYellow: "#909599"
+  brightBlue: "#E0E7EE"
+  brightMagenta: "#D0D7DD"
+  brightCyan: "#A0A5AA"
+  brightWhite: "#808488"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 102.5
+    red: 62.4
+    green: 71.6
+    yellow: 44.8
+    blue: 91.7
+    magenta: 81.7
+    cyan: 53.2
+    white: 36.4
+    brightBlack: 102.5
+    brightRed: 62.4
+    brightGreen: 71.6
+    brightYellow: 44.8
+    brightBlue: 91.7
+    brightMagenta: 81.7
+    brightCyan: 53.2
+    brightWhite: 36.4

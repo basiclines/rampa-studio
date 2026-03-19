@@ -1,0 +1,53 @@
+name: "Arcaea Theme (Arcaea)"
+source:
+  marketplace_id: "ayatough.arcaea-theme"
+  version: "0.1.2"
+  installs: 2255
+  rating: 5
+  ratings: 4
+  author: "ayatough"
+  repo: "https://github.com/ayatough/vscode-arcaea-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ayatough.arcaea-theme"
+  formats: null
+colors:
+  bg: "#1C1C1C"
+  fg: "#BDBCDB"
+  black: "#1F1F1F"
+  red: "#CC7F65"
+  green: "#70C184"
+  yellow: "#CCCC4F"
+  blue: "#7099C1"
+  magenta: "#AD70C1"
+  cyan: "#70C1C1"
+  white: "#F1F1F1"
+  brightBlack: "#1F1F1F"
+  brightRed: "#CC7F65"
+  brightGreen: "#70C184"
+  brightYellow: "#CCCC4F"
+  brightBlue: "#7099C1"
+  brightMagenta: "#AD70C1"
+  brightCyan: "#70C1C1"
+  brightWhite: "#F1F1F1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 66.3
+    black: 0
+    red: 42.5
+    green: 58
+    yellow: 70.8
+    blue: 43.7
+    magenta: 36.9
+    cyan: 60.1
+    white: 97.1
+    brightBlack: 0
+    brightRed: 42.5
+    brightGreen: 58
+    brightYellow: 70.8
+    brightBlue: 43.7
+    brightMagenta: 36.9
+    brightCyan: 60.1
+    brightWhite: 97.1

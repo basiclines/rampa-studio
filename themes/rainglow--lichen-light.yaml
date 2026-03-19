@@ -1,0 +1,53 @@
+name: "Rainglow (lichen-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#E6E9ED"
+  fg: "#414549"
+  black: "#F5F6F8"
+  red: "#BA0E2E"
+  green: "#249388"
+  yellow: "#64964C"
+  blue: "#1A9D6B"
+  magenta: "#246C82"
+  cyan: "#1A9D6B"
+  white: "#4D5256"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#4AD3C5"
+  brightYellow: "#9AC286"
+  brightBlue: "#3EDFA2"
+  brightMagenta: "#41AACB"
+  brightCyan: "#3EDFA2"
+  brightWhite: "#71787F"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.2
+    black: 0
+    red: 67.1
+    green: 51.4
+    yellow: 49.2
+    blue: 48.4
+    magenta: 66.2
+    cyan: 48.4
+    white: 74.2
+    brightBlack: 12.5
+    brightRed: 50.7
+    brightGreen: 21
+    brightYellow: 25.8
+    brightBlue: 17
+    brightMagenta: 38.5
+    brightCyan: 17
+    brightWhite: 57.9

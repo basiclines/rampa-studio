@@ -1,0 +1,53 @@
+name: "Moegi Theme (Moegi Space)"
+source:
+  marketplace_id: "ddiu8081.moegi-theme"
+  version: "0.7.1"
+  installs: 36965
+  rating: 5
+  ratings: 22
+  author: "Diu"
+  repo: "https://github.com/moegi-design/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ddiu8081.moegi-theme"
+  formats: null
+colors:
+  bg: "#221E30"
+  fg: "#DDD8E4"
+  black: "#38324D"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B290BA"
+  cyan: "#6AB8C0"
+  white: "#DDDDDD"
+  brightBlack: "#68627D"
+  brightRed: "#F48484"
+  brightGreen: "#76C3A5"
+  brightYellow: "#F2D98E"
+  brightBlue: "#80A8E4"
+  brightMagenta: "#C2A0CA"
+  brightCyan: "#7AC8D0"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 294
+  pair: null
+  contrast:
+    fg: 81.9
+    black: 0
+    red: 43.6
+    green: 51.1
+    yellow: 72.7
+    blue: 43.7
+    magenta: 46.3
+    cyan: 55.2
+    white: 83.8
+    brightBlack: 20.6
+    brightRed: 51.5
+    brightGreen: 59.7
+    brightYellow: 82.3
+    brightBlue: 52
+    brightMagenta: 54.8
+    brightCyan: 64
+    brightWhite: 99.7

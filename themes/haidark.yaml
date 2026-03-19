@@ -1,0 +1,53 @@
+name: "haidark"
+source:
+  marketplace_id: "phongtranhai.haidark"
+  version: "0.0.3"
+  installs: 117
+  rating: 5
+  ratings: 1
+  author: "Huu Nhan Tran"
+  repo: "https://github.com/thnhan1/haidark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=phongtranhai.haidark"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#D6DEEB"
+  black: "#282A36"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 82.3
+    black: 0
+    red: 36.4
+    green: 64.3
+    yellow: 79.1
+    blue: 53
+    magenta: 50.8
+    cyan: 56.7
+    white: 103.9
+    brightBlack: 12.6
+    brightRed: 36.4
+    brightGreen: 64.3
+    brightYellow: 90.8
+    brightBlue: 53
+    brightMagenta: 50.8
+    brightCyan: 71
+    brightWhite: 103.9

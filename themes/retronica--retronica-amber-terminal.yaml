@@ -1,0 +1,53 @@
+name: "Retronica (Retronica Amber Terminal)"
+source:
+  marketplace_id: "adham.retronica"
+  version: "1.0.0"
+  installs: 192
+  rating: 5
+  ratings: 1
+  author: "Adham"
+  repo: "https://github.com/adham-dev/retronica"
+  url: "https://marketplace.visualstudio.com/items?itemName=adham.retronica"
+  formats: null
+colors:
+  bg: "#0F0E0A"
+  fg: "#D8C8A8"
+  black: "#1A1810"
+  red: "#D88060"
+  green: "#A8C080"
+  yellow: "#D8B060"
+  blue: "#A8A080"
+  magenta: "#C8A080"
+  cyan: "#B8C090"
+  white: "#D8C8A8"
+  brightBlack: "#5A5040"
+  brightRed: "#E8A080"
+  brightGreen: "#C0D8A0"
+  brightYellow: "#E8C880"
+  brightBlue: "#C0B8A0"
+  brightMagenta: "#E0C0A0"
+  brightCyan: "#D0D8B0"
+  brightWhite: "#F0E8D0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.9
+    black: 0
+    red: 46.1
+    green: 63.4
+    yellow: 62.4
+    blue: 50.4
+    magenta: 54.7
+    cyan: 65.6
+    white: 73.9
+    brightBlack: 14.4
+    brightRed: 59.8
+    brightGreen: 77.6
+    brightYellow: 75.1
+    brightBlue: 63.8
+    brightMagenta: 71.5
+    brightCyan: 80
+    brightWhite: 92.7

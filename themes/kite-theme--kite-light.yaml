@@ -1,0 +1,53 @@
+name: "Kite Theme (Kite Light)"
+source:
+  marketplace_id: "yudinikita.vscode-theme-kite"
+  version: "1.1.2"
+  installs: 8253
+  rating: 5
+  ratings: 3
+  author: "Yudin Nikita"
+  repo: "https://github.com/nblackninja/vscode-theme-kite"
+  url: "https://marketplace.visualstudio.com/items?itemName=yudinikita.vscode-theme-kite"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#04274E"
+  black: "#000913"
+  red: "#C8433C"
+  green: "#4FC83C"
+  yellow: "#C8BF3C"
+  blue: "#3C7DC8"
+  magenta: "#9E3CC8"
+  cyan: "#3CA3C8"
+  white: "#78818C"
+  brightBlack: "#606871"
+  brightRed: "#F14F46"
+  brightGreen: "#53EC3C"
+  brightYellow: "#F1E646"
+  brightBlue: "#5097E7"
+  brightMagenta: "#D165FF"
+  brightCyan: "#46C3F1"
+  brightWhite: "#949BA4"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.5
+    black: 105.9
+    red: 72.7
+    green: 42.3
+    yellow: 36.4
+    blue: 68.9
+    magenta: 75.7
+    cyan: 54.9
+    white: 66.9
+    brightBlack: 78.3
+    brightRed: 61.7
+    brightGreen: 25.3
+    brightYellow: 14.7
+    brightBlue: 56.9
+    brightMagenta: 55.9
+    brightCyan: 39.1
+    brightWhite: 54

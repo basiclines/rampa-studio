@@ -1,0 +1,53 @@
+name: "Ethereum Dark Theme (Ethereum Dark Grey Theme)"
+source:
+  marketplace_id: "karolk.ethereum-dark"
+  version: "1.8.15"
+  installs: 4740
+  rating: 5
+  ratings: 4
+  author: "karolk"
+  repo: "https://github.com/karolkozer/one-dark-ethereum-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=karolk.ethereum-dark"
+  formats: null
+colors:
+  bg: "#240530"
+  fg: "#B48CC0"
+  black: "#2A0B36"
+  red: "#00E6D4"
+  green: "#E7BDF3"
+  yellow: "#B48CC0"
+  blue: "#835E8F"
+  magenta: "#B48CC0"
+  cyan: "#B48CC0"
+  white: "#E7BDF3"
+  brightBlack: "#22072B"
+  brightRed: "#00E6D4"
+  brightGreen: "#E7BDF3"
+  brightYellow: "#B48CC0"
+  brightBlue: "#835E8F"
+  brightMagenta: "#B48CC0"
+  brightCyan: "#B48CC0"
+  brightWhite: "#E7BDF3"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 315
+  pair: null
+  contrast:
+    fg: 46.7
+    black: 0
+    red: 76.3
+    green: 74.2
+    yellow: 46.7
+    blue: 24.4
+    magenta: 46.7
+    cyan: 46.7
+    white: 74.2
+    brightBlack: 0
+    brightRed: 76.3
+    brightGreen: 74.2
+    brightYellow: 46.7
+    brightBlue: 24.4
+    brightMagenta: 46.7
+    brightCyan: 46.7
+    brightWhite: 74.2

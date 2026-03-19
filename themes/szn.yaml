@@ -1,0 +1,53 @@
+name: "szn"
+source:
+  marketplace_id: "6.6szn-dark"
+  version: "1.11.0"
+  installs: 358
+  rating: 5
+  ratings: 1
+  author: "6"
+  repo: "https://github.com/exeDavid/6szn-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=6.6szn-dark"
+  formats: null
+colors:
+  bg: "#1A1B26"
+  fg: "#AAB3E5"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C7F59B"
+  yellow: "#FFDB8E"
+  blue: "#70B0FF"
+  magenta: "#BAACFF"
+  cyan: "#7FDAFF"
+  white: "#E4F3FA"
+  brightBlack: "#7C85B3"
+  brightRed: "#FF5370"
+  brightGreen: "#C7F59B"
+  brightYellow: "#FFDB8E"
+  brightBlue: "#70B0FF"
+  brightMagenta: "#BAACFF"
+  brightCyan: "#7FDAFF"
+  brightWhite: "#E4F3FA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 61
+    black: 0
+    red: 43.1
+    green: 90.7
+    yellow: 85.9
+    blue: 56.5
+    magenta: 61.8
+    cyan: 75.6
+    white: 96.8
+    brightBlack: 36.7
+    brightRed: 43.1
+    brightGreen: 90.7
+    brightYellow: 85.9
+    brightBlue: 56.5
+    brightMagenta: 61.8
+    brightCyan: 75.6
+    brightWhite: 96.8

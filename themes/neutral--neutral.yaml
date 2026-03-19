@@ -1,0 +1,53 @@
+name: "Neutral (Neutral)"
+source:
+  marketplace_id: "YesCode.neutral"
+  version: "0.0.9"
+  installs: 609
+  rating: 5
+  ratings: 1
+  author: "YesCode"
+  repo: "https://github.com/yesomac/NeutralThemeVSC"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.neutral"
+  formats: null
+colors:
+  bg: "#1E2031"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#98ABFF"
+  brightYellow: "#20473A"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 0
+    red: 40.7
+    green: 59.7
+    yellow: 71.8
+    blue: 46.2
+    magenta: 18.2
+    cyan: 48.1
+    white: 45.9
+    brightBlack: 17.3
+    brightRed: 40.7
+    brightGreen: 56.9
+    brightYellow: 0
+    brightBlue: 17.4
+    brightMagenta: 18.2
+    brightCyan: 48.1
+    brightWhite: 97.6

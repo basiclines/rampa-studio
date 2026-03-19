@@ -1,0 +1,53 @@
+name: "DevStack (Modern-Retro)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#151E29"
+  fg: "#F5F5F5"
+  black: "#151E29"
+  red: "#7F1D1D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#FC4F83"
+  magenta: "#FC4F83"
+  cyan: "#29C3A0"
+  white: "#F5F5F5"
+  brightBlack: "#151E29"
+  brightRed: "#7F1D1D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#FC4F83"
+  brightMagenta: "#FC4F83"
+  brightCyan: "#29C3A0"
+  brightWhite: "#F5F5F5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 254
+  pair: null
+  contrast:
+    fg: 99.5
+    black: 0
+    red: 8.6
+    green: 56.9
+    yellow: 50.9
+    blue: 42.1
+    magenta: 42.1
+    cyan: 56.9
+    white: 99.5
+    brightBlack: 0
+    brightRed: 8.6
+    brightGreen: 56.9
+    brightYellow: 50.9
+    brightBlue: 42.1
+    brightMagenta: 42.1
+    brightCyan: 56.9
+    brightWhite: 99.5

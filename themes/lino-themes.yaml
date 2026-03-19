@@ -1,0 +1,53 @@
+name: "Lino Themes"
+source:
+  marketplace_id: "Lino.lino-themes"
+  version: "0.0.1"
+  installs: 270
+  rating: 0
+  ratings: 0
+  author: "Lino"
+  repo: "https://github.com/AronCodes21/lino-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Lino.lino-themes"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#9B9B9B"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.6
+    black: 0
+    red: 27.5
+    green: 53.7
+    yellow: 86.4
+    blue: 28.2
+    magenta: 30.5
+    cyan: 48.3
+    white: 48
+    brightBlack: 22.8
+    brightRed: 39.3
+    brightGreen: 64.3
+    brightYellow: 96.4
+    brightBlue: 40.7
+    brightMagenta: 46.1
+    brightCyan: 56.1
+    brightWhite: 90.8

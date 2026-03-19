@@ -1,0 +1,53 @@
+name: "Rainglow (hyrule-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#C0D5C1"
+  fg: "#2D2C2B"
+  black: "#CFDFD0"
+  red: "#BA0E2E"
+  green: "#B7950C"
+  yellow: "#407710"
+  blue: "#68912E"
+  magenta: "#68912E"
+  cyan: "#B7950C"
+  white: "#3A3937"
+  brightBlack: "#FDFEFD"
+  brightRed: "#F03E5F"
+  brightGreen: "#F2CD37"
+  brightYellow: "#70D11C"
+  brightBlue: "#9CCB5A"
+  brightMagenta: "#9CCB5A"
+  brightCyan: "#F2CD37"
+  brightWhite: "#615F5D"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: 147
+  pair: null
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 52.7
+    green: 27
+    yellow: 49.2
+    blue: 36.8
+    magenta: 36.8
+    cyan: 27
+    white: 68.9
+    brightBlack: 27.9
+    brightRed: 36.2
+    brightGreen: 0
+    brightYellow: 9.2
+    brightBlue: 8.2
+    brightMagenta: 8.2
+    brightCyan: 0
+    brightWhite: 54

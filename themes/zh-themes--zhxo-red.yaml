@@ -1,0 +1,53 @@
+name: "zh'themes (zhxo'red)"
+source:
+  marketplace_id: "shwuy.zhxo-themes"
+  version: "2.0.1"
+  installs: 1482
+  rating: 5
+  ratings: 4
+  author: "shwuy"
+  repo: "https://github.com/sxhk0/.theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shwuy.zhxo-themes"
+  formats: null
+colors:
+  bg: "#1A1A1D"
+  fg: "#ABABAB"
+  black: "#3B3B3B"
+  red: "#E03C3C"
+  green: "#22CD8B"
+  yellow: "#EEC051"
+  blue: "#668BE2"
+  magenta: "#A34BB0"
+  cyan: "#10CCD5"
+  white: "#CBCBCB"
+  brightBlack: "#66676F"
+  brightRed: "#F08359"
+  brightGreen: "#3FE6A3"
+  brightYellow: "#FBFB7B"
+  brightBlue: "#81A6FD"
+  brightMagenta: "#C970D6"
+  brightCyan: "#4DEAEA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 55.4
+    black: 0
+    red: 31.9
+    green: 61.2
+    yellow: 70.9
+    blue: 40.1
+    magenta: 26.2
+    cyan: 63.5
+    white: 73.7
+    brightBlack: 22.3
+    brightRed: 50.3
+    brightGreen: 74.7
+    brightYellow: 99.7
+    brightBlue: 53.8
+    brightMagenta: 42.8
+    brightCyan: 80
+    brightWhite: 106.5

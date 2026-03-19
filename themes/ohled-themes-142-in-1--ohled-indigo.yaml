@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_Indigo)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#806AA3"
+  black: "#806AA3"
+  red: "#5E4E78"
+  green: "#665582"
+  yellow: "#4D4062"
+  blue: "#776398"
+  magenta: "#6F5C8D"
+  cyan: "#55476D"
+  white: "#443957"
+  brightBlack: "#806AA3"
+  brightRed: "#5E4E78"
+  brightGreen: "#665582"
+  brightYellow: "#4D4062"
+  brightBlue: "#776398"
+  brightMagenta: "#6F5C8D"
+  brightCyan: "#55476D"
+  brightWhite: "#443957"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 29.4
+    black: 29.4
+    red: 16.4
+    green: 19.3
+    yellow: 10.6
+    blue: 25.9
+    magenta: 22.6
+    cyan: 13.4
+    white: 7.9
+    brightBlack: 29.4
+    brightRed: 16.4
+    brightGreen: 19.3
+    brightYellow: 10.6
+    brightBlue: 25.9
+    brightMagenta: 22.6
+    brightCyan: 13.4
+    brightWhite: 7.9

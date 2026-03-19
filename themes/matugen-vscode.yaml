@@ -1,0 +1,53 @@
+name: "Matugen VSCode"
+source:
+  marketplace_id: "SatanAlphabet.matugen-vscode"
+  version: "1.2.0"
+  installs: 0
+  rating: 0
+  ratings: 0
+  author: "SatanAlphabet"
+  repo: "https://github.com/SatanAlphabet/vscode-matugen"
+  url: "https://marketplace.visualstudio.com/items?itemName=SatanAlphabet.matugen-vscode"
+  formats: null
+colors:
+  bg: "#161217"
+  fg: "#EAE0E7"
+  black: "#161217"
+  red: "#FF8994"
+  green: "#A6C568"
+  yellow: "#FFA057"
+  blue: "#B095FD"
+  magenta: "#E493E2"
+  cyan: "#61C7DA"
+  white: "#ECDFE9"
+  brightBlack: "#7E747D"
+  brightRed: "#FFB2B9"
+  brightGreen: "#B7D085"
+  brightYellow: "#FFB780"
+  brightBlue: "#CEBDFE"
+  brightMagenta: "#ECB4EB"
+  brightCyan: "#82D3E2"
+  brightWhite: "#FFF7FB"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 319
+  pair: null
+  contrast:
+    fg: 88.9
+    black: 0
+    red: 57.1
+    green: 64.5
+    yellow: 62.9
+    blue: 53.2
+    magenta: 58.5
+    cyan: 64.1
+    white: 88.8
+    brightBlack: 29.8
+    brightRed: 71.7
+    brightGreen: 71.9
+    brightYellow: 71.8
+    brightBlue: 71.7
+    brightMagenta: 71.5
+    brightCyan: 71.9
+    brightWhite: 103.2

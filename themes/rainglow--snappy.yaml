@@ -1,0 +1,53 @@
+name: "Rainglow (snappy)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#393939"
+  fg: "#E3E2E0"
+  black: "#464646"
+  red: "#BA0E2E"
+  green: "#4EA1DF"
+  yellow: "#F66153"
+  blue: "#808DD3"
+  magenta: "#F66153"
+  cyan: "#808DD3"
+  white: "#EFEFED"
+  brightBlack: "#6C6C6C"
+  brightRed: "#F03E5F"
+  brightGreen: "#A4CFEF"
+  brightYellow: "#FBBAB4"
+  brightBlue: "#CCD1ED"
+  brightMagenta: "#FBBAB4"
+  brightCyan: "#CCD1ED"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 13.9
+    green: 40.5
+    yellow: 36.9
+    blue: 35.6
+    magenta: 36.9
+    cyan: 35.6
+    white: 89.7
+    brightBlack: 18
+    brightRed: 30.2
+    brightGreen: 66.7
+    brightYellow: 66.9
+    brightBlue: 71.8
+    brightMagenta: 66.9
+    brightCyan: 71.8
+    brightWhite: 100.3

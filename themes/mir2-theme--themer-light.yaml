@@ -1,0 +1,53 @@
+name: "Mir2 Theme (Themer Light)"
+source:
+  marketplace_id: "XadillaX.mir2"
+  version: "1.0.0"
+  installs: 249
+  rating: 0
+  ratings: 0
+  author: "XadillaX"
+  repo: "https://github.com/XadillaX/vscode-mir2-colorscheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=XadillaX.mir2"
+  formats: null
+colors:
+  bg: "#E0CDAB"
+  fg: "#1C1815"
+  black: "#E0CDAB"
+  red: "#B09872"
+  green: "#564932"
+  yellow: "#473023"
+  blue: "#9D1308"
+  magenta: "#DE640D"
+  cyan: "#9A602A"
+  white: "#38322A"
+  brightBlack: "#C4B396"
+  brightRed: "#655D59"
+  brightGreen: "#9A602A"
+  brightYellow: "#473023"
+  brightBlue: "#9D1308"
+  brightMagenta: "#DE640D"
+  brightCyan: "#9A602A"
+  brightWhite: "#1C1815"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: 82
+  pair: null
+  contrast:
+    fg: 76.7
+    black: 0
+    red: 25.6
+    green: 62.2
+    yellow: 70.1
+    blue: 58.9
+    magenta: 34.4
+    cyan: 47.4
+    white: 70.9
+    brightBlack: 12.2
+    brightRed: 54.2
+    brightGreen: 47.4
+    brightYellow: 70.1
+    brightBlue: 58.9
+    brightMagenta: 34.4
+    brightCyan: 47.4
+    brightWhite: 76.7

@@ -1,0 +1,54 @@
+name: "Apathy Theme (Apathy Experimental)"
+source:
+  marketplace_id: "CooperMaruyama.apathy-theme"
+  version: "2.3.0"
+  installs: 264
+  rating: 5
+  ratings: 2
+  author: "Cooper Maruyama"
+  repo: "https://github.com/coopmoney/apathy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=CooperMaruyama.apathy-theme"
+  formats:
+    zed: "https://raw.githubusercontent.com/coopmoney/apathy-theme/main/dist/zed/apathetic-ocean.json"
+colors:
+  bg: "#12121C"
+  fg: "#E1E2E5"
+  black: "#2A273F"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#ECEFF4"
+  brightBlack: "#3B3853"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 88.5
+    black: 0
+    red: 46.9
+    green: 84.5
+    yellow: 79.3
+    blue: 56.3
+    magenta: 54.1
+    cyan: 78.6
+    white: 96.6
+    brightBlack: 0
+    brightRed: 44
+    brightGreen: 84.5
+    brightYellow: 79.3
+    brightBlue: 56.3
+    brightMagenta: 54.1
+    brightCyan: 78.6
+    brightWhite: 107.2

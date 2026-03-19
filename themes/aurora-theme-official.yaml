@@ -1,0 +1,53 @@
+name: "Aurora Theme - Official"
+source:
+  marketplace_id: "tscmdabdurrakib.md-abdur-rakib-theme"
+  version: "2.0.0"
+  installs: 1740
+  rating: 5
+  ratings: 1
+  author: "Md Abdur Rakib"
+  repo: "https://github.com/tscmdabdurrakib/md-abdur-rakib-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tscmdabdurrakib.md-abdur-rakib-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#9B9B9B"
+  black: "#012339"
+  red: "#A56416"
+  green: "#428226"
+  yellow: "#A56416"
+  blue: "#3778B7"
+  magenta: "#B052A1"
+  cyan: "#3778B7"
+  white: "#F7F7F7"
+  brightBlack: "#9B9B9B"
+  brightRed: "#A56416"
+  brightGreen: "#428226"
+  brightYellow: "#A56416"
+  brightBlue: "#3778B7"
+  brightMagenta: "#B052A1"
+  brightCyan: "#3778B7"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 53.6
+    black: 102.8
+    red: 72.5
+    green: 72.5
+    yellow: 72.5
+    blue: 71.9
+    magenta: 71.4
+    cyan: 71.9
+    white: 0
+    brightBlack: 53.6
+    brightRed: 72.5
+    brightGreen: 72.5
+    brightYellow: 72.5
+    brightBlue: 71.9
+    brightMagenta: 71.4
+    brightCyan: 71.9
+    brightWhite: 0

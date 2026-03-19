@@ -1,0 +1,53 @@
+name: "Rainglow (violaceous-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#E5E3EF"
+  fg: "#444349"
+  black: "#F4F3F8"
+  red: "#BA0E2E"
+  green: "#725AC1"
+  yellow: "#8D86C9"
+  blue: "#8D8593"
+  magenta: "#725AC1"
+  cyan: "#8D8593"
+  white: "#504F56"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#B1A4DD"
+  brightYellow: "#CFCDE8"
+  brightBlue: "#C0BBC3"
+  brightMagenta: "#B1A4DD"
+  brightCyan: "#C0BBC3"
+  brightWhite: "#76747E"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 294
+  pair: null
+  contrast:
+    fg: 77
+    black: 7.8
+    red: 64.6
+    green: 60.5
+    yellow: 44.5
+    blue: 47.4
+    magenta: 60.5
+    cyan: 47.4
+    white: 72.3
+    brightBlack: 15.4
+    brightRed: 48.1
+    brightGreen: 29.1
+    brightYellow: 9.6
+    brightBlue: 20.1
+    brightMagenta: 29.1
+    brightCyan: 20.1
+    brightWhite: 56.2

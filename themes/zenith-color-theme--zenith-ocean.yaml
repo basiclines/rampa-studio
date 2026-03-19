@@ -1,0 +1,53 @@
+name: "Zenith Color Theme (Zenith Ocean)"
+source:
+  marketplace_id: "TheSamonide.zenith-theme"
+  version: "6.0.3"
+  installs: 111
+  rating: 5
+  ratings: 1
+  author: "Samonide"
+  repo: "https://github.com/samonide/zenith-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheSamonide.zenith-theme"
+  formats: null
+colors:
+  bg: "#14191F"
+  fg: "#D8E8F0"
+  black: "#14191F"
+  red: "#A8B8D5"
+  green: "#A8D5C8"
+  yellow: "#D5E0C8"
+  blue: "#8FB8D8"
+  magenta: "#B8C8E8"
+  cyan: "#A8D8E8"
+  white: "#D8E8F0"
+  brightBlack: "#363C44"
+  brightRed: "#A8B8D5"
+  brightGreen: "#B5E0D5"
+  brightYellow: "#D5E0C8"
+  brightBlue: "#78A8C8"
+  brightMagenta: "#A8B8D8"
+  brightCyan: "#88C8D8"
+  brightWhite: "#D8E8F0"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 253
+  pair: null
+  contrast:
+    fg: 90.1
+    black: 0
+    red: 62.4
+    green: 74.3
+    yellow: 84.3
+    blue: 60.1
+    magenta: 71.7
+    cyan: 77.1
+    white: 90.1
+    brightBlack: 0
+    brightRed: 62.4
+    brightGreen: 81.2
+    brightYellow: 84.3
+    brightBlue: 50.9
+    brightMagenta: 62.5
+    brightCyan: 66.4
+    brightWhite: 90.1

@@ -1,0 +1,53 @@
+name: "FireFly Pro (FireFly)"
+source:
+  marketplace_id: "ankitcode.firefly"
+  version: "4.0.0"
+  installs: 184318
+  rating: 4.95
+  ratings: 20
+  author: "Ankit Mishra"
+  repo: "https://github.com/ankitmlive/firefly-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ankitcode.firefly"
+  formats: null
+colors:
+  bg: "#0A0F17"
+  fg: "#BAC6DB"
+  black: "#01060E"
+  red: "#EA6C73"
+  green: "#91B362"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#FAE994"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#C2D94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#69C8FF"
+  brightMagenta: "#FFEE99"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 71.3
+    black: 0
+    red: 44.7
+    green: 54.8
+    yellow: 67.2
+    blue: 61.2
+    magenta: 92.6
+    cyan: 78.5
+    white: 72.3
+    brightBlack: 23.5
+    brightRed: 47.2
+    brightGreen: 76.5
+    brightYellow: 70.2
+    brightBlue: 67.4
+    brightMagenta: 95.8
+    brightCyan: 81.5
+    brightWhite: 107.5

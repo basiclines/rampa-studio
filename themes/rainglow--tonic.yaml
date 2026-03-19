@@ -1,0 +1,53 @@
+name: "Rainglow (tonic)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#2A2F31"
+  fg: "#EEEEEE"
+  black: "#363C3F"
+  red: "#BA0E2E"
+  green: "#75A1A4"
+  yellow: "#B8CD44"
+  blue: "#FD9F59"
+  magenta: "#EF6E44"
+  cyan: "#B8CD44"
+  white: "#FBFBFB"
+  brightBlack: "#596468"
+  brightRed: "#F03E5F"
+  brightGreen: "#B2CBCD"
+  brightYellow: "#D7E394"
+  brightBlue: "#FED9BE"
+  brightMagenta: "#F7B7A2"
+  brightCyan: "#D7E394"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.1
+    black: 0
+    red: 16.8
+    green: 42.7
+    yellow: 65.5
+    blue: 58.2
+    magenta: 41
+    cyan: 65.5
+    white: 100.5
+    brightBlack: 16.7
+    brightRed: 33.1
+    brightGreen: 67.5
+    brightYellow: 80.7
+    brightBlue: 83.1
+    brightMagenta: 67.3
+    brightCyan: 80.7
+    brightWhite: 103.2

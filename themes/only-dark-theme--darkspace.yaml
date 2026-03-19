@@ -1,0 +1,53 @@
+name: "Only Dark Theme (DarkSpace)"
+source:
+  marketplace_id: "YesCode.only-dark-theme"
+  version: "0.0.16"
+  installs: 383
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://github.com/yesomac/only_dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.only-dark-theme"
+  formats: null
+colors:
+  bg: "#04060A"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#A2F1F7"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 259
+  pair: null
+  contrast:
+    fg: 105.5
+    black: 0
+    red: 42.9
+    green: 61.9
+    yellow: 74
+    blue: 48.5
+    magenta: 20.5
+    cyan: 50.4
+    white: 48.2
+    brightBlack: 19.5
+    brightRed: 42.9
+    brightGreen: 90.2
+    brightYellow: 80.7
+    brightBlue: 19.7
+    brightMagenta: 20.5
+    brightCyan: 50.4
+    brightWhite: 99.8

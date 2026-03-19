@@ -1,0 +1,53 @@
+name: "Chroma Library (Deep Ocean)"
+source:
+  marketplace_id: "CodewithBismillah.chroma-library"
+  version: "1.2.1"
+  installs: 360
+  rating: 5
+  ratings: 1
+  author: "Code with Bismillah"
+  repo: "https://github.com/mubashir1837/Chroma-Library"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.chroma-library"
+  formats: null
+colors:
+  bg: "#0A1420"
+  fg: "#80D0FF"
+  black: "#000000"
+  red: "#FF4080"
+  green: "#40FF80"
+  yellow: "#FFFF40"
+  blue: "#0080FF"
+  magenta: "#8040FF"
+  cyan: "#00BFFF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF4080"
+  brightGreen: "#40FF80"
+  brightYellow: "#FFFF40"
+  brightBlue: "#0080FF"
+  brightMagenta: "#8040FF"
+  brightCyan: "#00BFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 254
+  pair: null
+  contrast:
+    fg: 72
+    black: 0
+    red: 41.7
+    green: 87.5
+    yellow: 102.2
+    blue: 36.3
+    magenta: 26.7
+    cyan: 60.7
+    white: 107.2
+    brightBlack: 0
+    brightRed: 41.7
+    brightGreen: 87.5
+    brightYellow: 102.2
+    brightBlue: 36.3
+    brightMagenta: 26.7
+    brightCyan: 60.7
+    brightWhite: 107.2

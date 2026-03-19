@@ -1,0 +1,53 @@
+name: "Tailwind Colour Themes (Tailwind Moon Grey)"
+source:
+  marketplace_id: "shadowblood.tailwind-moon"
+  version: "3.0.2"
+  installs: 43898
+  rating: 5
+  ratings: 3
+  author: "Lucia Lovelace"
+  repo: "https://github.com/luciascarlet/tailwind-moon-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=shadowblood.tailwind-moon"
+  formats: null
+colors:
+  bg: "#27272A"
+  fg: "#E4E4E7"
+  black: "#000000"
+  red: "#C53030"
+  green: "#34D399"
+  yellow: "#D69E2E"
+  blue: "#60A5FA"
+  magenta: "#60A5FA"
+  cyan: "#319795"
+  white: "#3F3F46"
+  brightBlack: "#4A5568"
+  brightRed: "#E53E3E"
+  brightGreen: "#48BB78"
+  brightYellow: "#ECC94B"
+  brightBlue: "#4299E1"
+  brightMagenta: "#ED64A6"
+  brightCyan: "#38B2AC"
+  brightWhite: "#3F3F46"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.2
+    black: 0
+    red: 22.6
+    green: 62.9
+    yellow: 51.9
+    blue: 49.1
+    magenta: 49.1
+    cyan: 36.1
+    white: 0
+    brightBlack: 12.6
+    brightRed: 31.4
+    brightGreen: 51.3
+    brightYellow: 72.3
+    brightBlue: 41.4
+    brightMagenta: 42.3
+    brightCyan: 48.5
+    brightWhite: 0

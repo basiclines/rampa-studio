@@ -1,0 +1,53 @@
+name: "Rainglow (frantic-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0E1114"
+  fg: "#AEB9C4"
+  black: "#181E23"
+  red: "#BA0E2E"
+  green: "#EF6462"
+  yellow: "#89A7BC"
+  blue: "#E6EAEF"
+  magenta: "#EF6462"
+  cyan: "#89A7BC"
+  white: "#BDC6CF"
+  brightBlack: "#384450"
+  brightRed: "#F03E5F"
+  brightGreen: "#F8BFBF"
+  brightYellow: "#CAD8E1"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#F8BFBF"
+  brightCyan: "#CAD8E1"
+  brightWhite: "#E9ECEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 63.3
+    black: 0
+    red: 21
+    green: 43.4
+    yellow: 52
+    blue: 93.4
+    magenta: 43.4
+    cyan: 52
+    white: 70.9
+    brightBlack: 8.9
+    brightRed: 37.3
+    brightGreen: 75.8
+    brightYellow: 81.1
+    brightBlue: 107.4
+    brightMagenta: 75.8
+    brightCyan: 81.1
+    brightWhite: 94.7

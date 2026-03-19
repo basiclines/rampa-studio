@@ -1,0 +1,53 @@
+name: "Gru (Gru Black)"
+source:
+  marketplace_id: "Silitonix.gru"
+  version: "0.1.1"
+  installs: 926
+  rating: 5
+  ratings: 2
+  author: "Silitonix"
+  repo: "https://github.com/Silitonix/GruTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Silitonix.gru"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#EA6962"
+  green: "#A9B665"
+  yellow: "#E78A4E"
+  blue: "#7DAEA3"
+  magenta: "#D3869B"
+  cyan: "#89B482"
+  white: "#928374"
+  brightBlack: "#484848"
+  brightRed: "#EA6962"
+  brightGreen: "#A9B665"
+  brightYellow: "#E78A4E"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#D3869B"
+  brightCyan: "#89B482"
+  brightWhite: "#D4BE98"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 44
+    green: 59
+    yellow: 51.8
+    blue: 53.2
+    magenta: 49
+    cyan: 55.7
+    white: 37.4
+    brightBlack: 11.3
+    brightRed: 44
+    brightGreen: 59
+    brightYellow: 51.8
+    brightBlue: 53.2
+    brightMagenta: 49
+    brightCyan: 55.7
+    brightWhite: 69

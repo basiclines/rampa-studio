@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Mocha Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#F5EEEB"
+  fg: "#645240"
+  black: "#D0C8C6"
+  red: "#CB6077"
+  green: "#BEB55B"
+  yellow: "#D28B71"
+  blue: "#8AB3B5"
+  magenta: "#A89BB9"
+  cyan: "#7BBDA4"
+  white: "#534636"
+  brightBlack: "#B8AFAD"
+  brightRed: "#CB6077"
+  brightGreen: "#BEB55B"
+  brightYellow: "#F4BC87"
+  brightBlue: "#8AB3B5"
+  brightMagenta: "#A89BB9"
+  brightCyan: "#7BBDA4"
+  brightWhite: "#3B3228"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.5
+    black: 19.3
+    red: 56
+    green: 32
+    yellow: 43.4
+    blue: 35.7
+    magenta: 41.6
+    cyan: 33.3
+    white: 81.7
+    brightBlack: 32.9
+    brightRed: 56
+    brightGreen: 32
+    brightYellow: 20.8
+    brightBlue: 35.7
+    brightMagenta: 41.6
+    brightCyan: 33.3
+    brightWhite: 89.2

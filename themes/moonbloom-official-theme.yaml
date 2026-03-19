@@ -1,0 +1,53 @@
+name: "Moonbloom Official Theme"
+source:
+  marketplace_id: "Moonbloom.moonbloom-theme"
+  version: "1.1.2"
+  installs: 838
+  rating: 5
+  ratings: 1
+  author: "Moonbloom"
+  repo: "https://github.com/moonbloom-theme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=Moonbloom.moonbloom-theme"
+  formats: null
+colors:
+  bg: "#1D1E27"
+  fg: "#D1D2E8"
+  black: "#191A21"
+  red: "#E66D75"
+  green: "#93C591"
+  yellow: "#D9B469"
+  blue: "#5A9BCF"
+  magenta: "#BB83D8"
+  cyan: "#4FA8B8"
+  white: "#9B9BBA"
+  brightBlack: "#8282A9"
+  brightRed: "#F17C88"
+  brightGreen: "#A1D79F"
+  brightYellow: "#E8C87E"
+  brightBlue: "#6EB4E0"
+  brightMagenta: "#C993E9"
+  brightCyan: "#68C7D6"
+  brightWhite: "#E1E2ED"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 78.3
+    black: 0
+    red: 42.6
+    green: 62.4
+    yellow: 62.7
+    blue: 43.5
+    magenta: 45.3
+    cyan: 46.9
+    white: 47.6
+    brightBlack: 35.4
+    brightRed: 49.1
+    brightGreen: 72.3
+    brightYellow: 73.5
+    brightBlue: 55.7
+    brightMagenta: 53.4
+    brightCyan: 63
+    brightWhite: 87.6

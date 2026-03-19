@@ -1,0 +1,54 @@
+name: "Evangelion Unit EVA-01 Theme"
+source:
+  marketplace_id: "kvx.evangelion-unit-eva-01-theme"
+  version: "0.1.2"
+  installs: 757
+  rating: 0
+  ratings: 0
+  author: "kvx"
+  repo: "https://github.com/luqezr/eva-01-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=kvx.evangelion-unit-eva-01-theme"
+  formats:
+    sublime: "https://raw.githubusercontent.com/luqezr/eva-01-theme-vscode/main/eva-01-theme.tmTheme"
+colors:
+  bg: "#1D1A2F"
+  fg: "#F5F5F5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#6CB0FB"
+  magenta: "#734F9A"
+  cyan: "#11A8CD"
+  white: "#B6B6B6"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#965FD4"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 289
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 26
+    green: 52.3
+    yellow: 84.9
+    blue: 55.8
+    magenta: 18.8
+    cyan: 46.9
+    white: 61.2
+    brightBlack: 21.3
+    brightRed: 37.9
+    brightGreen: 62.8
+    brightYellow: 94.9
+    brightBlue: 39.3
+    brightMagenta: 30.6
+    brightCyan: 54.7
+    brightWhite: 106.2

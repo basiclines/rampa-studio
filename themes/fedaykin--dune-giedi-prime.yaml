@@ -1,0 +1,53 @@
+name: "Fedaykin (Dune Giedi Prime)"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 238
+  rating: 0
+  ratings: 0
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#D4D4D4"
+  black: "#0A0A0A"
+  red: "#E3BDAD"
+  green: "#B6D8E6"
+  yellow: "#A2BEE8"
+  blue: "#DCCDBE"
+  magenta: "#EDCBB8"
+  cyan: "#C0DCC0"
+  white: "#D4D4D4"
+  brightBlack: "#7C7C7C"
+  brightRed: "#9E6A6A"
+  brightGreen: "#6A8E6A"
+  brightYellow: "#9E8A6A"
+  brightBlue: "#6A7E9E"
+  brightMagenta: "#A5A5A5"
+  brightCyan: "#ADADAD"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.3
+    black: 0
+    red: 71.3
+    green: 79.4
+    yellow: 66.3
+    blue: 77.5
+    magenta: 78.9
+    cyan: 80.7
+    white: 80.3
+    brightBlack: 32.7
+    brightRed: 30.8
+    brightGreen: 37.1
+    brightYellow: 40.8
+    brightBlue: 33.2
+    brightMagenta: 53.4
+    brightCyan: 57.7
+    brightWhite: 101.8

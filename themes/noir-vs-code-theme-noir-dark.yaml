@@ -1,0 +1,53 @@
+name: "Noir VS Code Theme (Noir (Dark))"
+source:
+  marketplace_id: "SectorZ.noir-vs-code-theme"
+  version: "1.5.0"
+  installs: 772
+  rating: 0
+  ratings: 0
+  author: "Sector Z"
+  repo: "https://github.com/SenpaiSumpie/Noir"
+  url: "https://marketplace.visualstudio.com/items?itemName=SectorZ.noir-vs-code-theme"
+  formats: null
+colors:
+  bg: "#191919"
+  fg: "#FFFFFF"
+  black: "#585858"
+  red: "#FF4444"
+  green: "#0FFFA3"
+  yellow: "#FFFF11"
+  blue: "#3896FF"
+  magenta: "#FF58FF"
+  cyan: "#15D1FF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF6262"
+  brightGreen: "#44FFB4"
+  brightYellow: "#FFFFAA"
+  brightBlue: "#58A7FF"
+  brightMagenta: "#FF87FF"
+  brightCyan: "#30D6FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.7
+    black: 16.1
+    red: 40.4
+    green: 87.2
+    yellow: 101.5
+    blue: 44.2
+    magenta: 51.1
+    cyan: 68.3
+    white: 89.8
+    brightBlack: 21.8
+    brightRed: 45.8
+    brightGreen: 88.5
+    brightYellow: 103.5
+    brightBlue: 51.9
+    brightMagenta: 61.2
+    brightCyan: 71
+    brightWhite: 89.8

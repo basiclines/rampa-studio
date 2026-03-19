@@ -1,0 +1,53 @@
+name: "SmoothBurn (Smooth Burn Dark)"
+source:
+  marketplace_id: "AndreaCombette.smoothburn"
+  version: "0.5.4"
+  installs: 938
+  rating: 5
+  ratings: 1
+  author: "AndreaCombette"
+  repo: "https://github.com/Chatr0uge/smoothburn-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreaCombette.smoothburn"
+  formats: null
+colors:
+  bg: "#23334E"
+  fg: "#F8BD94"
+  black: "#23334E"
+  red: "#A77166"
+  green: "#C5937C"
+  yellow: "#C5937C"
+  blue: "#61767D"
+  magenta: "#A77166"
+  cyan: "#61767D"
+  white: "#CBB39B"
+  brightBlack: "#A77166"
+  brightRed: "#A77166"
+  brightGreen: "#C5937C"
+  brightYellow: "#F8BD94"
+  brightBlue: "#9B968C"
+  brightMagenta: "#9B968C"
+  brightCyan: "#CBB39B"
+  brightWhite: "#F8BD94"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 68.2
+    black: 0
+    red: 28.3
+    green: 44
+    yellow: 44
+    blue: 22.7
+    magenta: 28.3
+    cyan: 22.7
+    white: 57.6
+    brightBlack: 28.3
+    brightRed: 28.3
+    brightGreen: 44
+    brightYellow: 68.2
+    brightBlue: 40
+    brightMagenta: 40
+    brightCyan: 57.6
+    brightWhite: 68.2

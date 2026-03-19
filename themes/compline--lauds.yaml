@@ -1,0 +1,58 @@
+name: "Compline (Lauds)"
+source:
+  marketplace_id: "rivethorn.compline"
+  version: "1.0.1"
+  installs: 550
+  rating: 5
+  ratings: 1
+  author: "Rivethorn"
+  repo: "https://github.com/jblais493/compline"
+  url: "https://marketplace.visualstudio.com/items?itemName=rivethorn.compline"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/jblais493/compline/main/ghostty/README.md"
+    alacritty: "https://raw.githubusercontent.com/jblais493/compline/main/alacritty/compline.toml"
+    kitty: "https://raw.githubusercontent.com/jblais493/compline/main/kitty/kitty.conf"
+    windows-terminal: "https://raw.githubusercontent.com/jblais493/compline/main/windows-terminal/scheme.json"
+    sublime: "https://raw.githubusercontent.com/jblais493/compline/main/bat/themes/compline.tmTheme"
+colors:
+  bg: "#F0EFEB"
+  fg: "#1A1D21"
+  black: "#5F5C58"
+  red: "#8B6666"
+  green: "#5A6B5A"
+  yellow: "#8B7E52"
+  blue: "#5A6B7A"
+  magenta: "#8B7E52"
+  cyan: "#64757D"
+  white: "#7D7A75"
+  brightBlack: "#9B9894"
+  brightRed: "#8B6666"
+  brightGreen: "#5A6B5A"
+  brightYellow: "#8B7E52"
+  brightBlue: "#5A6B7A"
+  brightMagenta: "#8B7E52"
+  brightCyan: "#64757D"
+  brightWhite: "#2D2A27"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.3
+    black: 73.3
+    red: 65.1
+    green: 69
+    yellow: 58
+    blue: 67.9
+    magenta: 58
+    cyan: 63.7
+    white: 60
+    brightBlack: 45.4
+    brightRed: 65.1
+    brightGreen: 69
+    brightYellow: 58
+    brightBlue: 67.9
+    brightMagenta: 58
+    brightCyan: 63.7
+    brightWhite: 91.5

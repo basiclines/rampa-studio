@@ -1,0 +1,53 @@
+name: "CRT Themes (CRT Blue)"
+source:
+  marketplace_id: "krueger71.crt-themes"
+  version: "0.5.2"
+  installs: 38260
+  rating: 5
+  ratings: 9
+  author: "krueger71"
+  repo: "https://github.com/krueger71/crt-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=krueger71.crt-themes"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#0099FF"
+  black: "#0099FF"
+  red: "#0575C0"
+  green: "#037ECF"
+  yellow: "#0763A0"
+  blue: "#0190EF"
+  magenta: "#0287DF"
+  cyan: "#066CB0"
+  white: "#085A90"
+  brightBlack: "#0099FF"
+  brightRed: "#0575C0"
+  brightGreen: "#037ECF"
+  brightYellow: "#0763A0"
+  brightBlue: "#0190EF"
+  brightMagenta: "#0287DF"
+  brightCyan: "#066CB0"
+  brightWhite: "#085A90"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: null
+  contrast:
+    fg: 45.4
+    black: 45.4
+    red: 28.1
+    green: 32.1
+    yellow: 20.3
+    blue: 40.8
+    magenta: 36.4
+    cyan: 24.1
+    white: 16.7
+    brightBlack: 45.4
+    brightRed: 28.1
+    brightGreen: 32.1
+    brightYellow: 20.3
+    brightBlue: 40.8
+    brightMagenta: 36.4
+    brightCyan: 24.1
+    brightWhite: 16.7

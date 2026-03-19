@@ -1,0 +1,53 @@
+name: "Monochrome (fork by dkamyshov) (monochrome-dark)"
+source:
+  marketplace_id: "dkamyshov.monochrome"
+  version: "2.3.3"
+  installs: 2229
+  rating: 0
+  ratings: 0
+  author: "dkamyshov"
+  repo: "https://github.com/dkamyshov/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=dkamyshov.monochrome"
+  formats: null
+colors:
+  bg: "#101010"
+  fg: "#EBEBEB"
+  black: "#101010"
+  red: "#D0D0D0"
+  green: "#838383"
+  yellow: "#EBEBEB"
+  blue: "#5D5D5D"
+  magenta: "#EBEBEB"
+  cyan: "#A9A9A9"
+  white: "#EBEBEB"
+  brightBlack: "#363636"
+  brightRed: "#D0D0D0"
+  brightGreen: "#838383"
+  brightYellow: "#EBEBEB"
+  brightBlue: "#5D5D5D"
+  brightMagenta: "#EBEBEB"
+  brightCyan: "#A9A9A9"
+  brightWhite: "#EBEBEB"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.4
+    black: 0
+    red: 77.6
+    green: 35.8
+    yellow: 94.4
+    blue: 18.9
+    magenta: 94.4
+    cyan: 55.3
+    white: 94.4
+    brightBlack: 0
+    brightRed: 77.6
+    brightGreen: 35.8
+    brightYellow: 94.4
+    brightBlue: 18.9
+    brightMagenta: 94.4
+    brightCyan: 55.3
+    brightWhite: 94.4

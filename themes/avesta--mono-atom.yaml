@@ -1,0 +1,53 @@
+name: "Avesta (Mono Atom)"
+source:
+  marketplace_id: "Avetis.avesta"
+  version: "0.1.4"
+  installs: 663
+  rating: 0
+  ratings: 0
+  author: "Avetis"
+  repo: "https://github.com/AvetisDN/avesta-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Avetis.avesta"
+  formats: null
+colors:
+  bg: "#222228"
+  fg: "#D4DAE1"
+  black: "#000000"
+  red: "#E62C2C"
+  green: "#0DBC79"
+  yellow: "#E6BD1E"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#C6CCD1"
+  brightBlack: "#666666"
+  brightRed: "#F56464"
+  brightGreen: "#23D18B"
+  brightYellow: "#EADC6A"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 286
+  pair: null
+  contrast:
+    fg: 81.2
+    black: 0
+    red: 30.4
+    green: 51.5
+    yellow: 66.9
+    blue: 25.9
+    magenta: 28.3
+    cyan: 46.1
+    white: 72.6
+    brightBlack: 20.5
+    brightRed: 42.8
+    brightGreen: 62
+    brightYellow: 81.4
+    brightBlue: 38.5
+    brightMagenta: 43.9
+    brightCyan: 53.9
+    brightWhite: 105.4

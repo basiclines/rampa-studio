@@ -1,0 +1,53 @@
+name: "One Hunter Theme (One Hunter Theme)"
+source:
+  marketplace_id: "RaillyHugo.one-hunter"
+  version: "1.4.0"
+  installs: 36303
+  rating: 5
+  ratings: 7
+  author: "Railly Hugo"
+  repo: "https://github.com/Railly/one-hunter-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=RaillyHugo.one-hunter"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#DCE3EA"
+  black: "#34393E"
+  red: "#E61F44"
+  green: "#5BD1B9"
+  yellow: "#43AAF9"
+  blue: "#43AAF9"
+  magenta: "#DD4F7D"
+  cyan: "#B267E6"
+  white: "#DCE3EA"
+  brightBlack: "#454D54"
+  brightRed: "#E61F44"
+  brightGreen: "#B7F0E5"
+  brightYellow: "#A7D1F5"
+  brightBlue: "#A7D1F5"
+  brightMagenta: "#DD4F7D"
+  brightCyan: "#D7C9F0"
+  brightWhite: "#DCE3EA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.2
+    black: 0
+    red: 32.4
+    green: 67.6
+    yellow: 53
+    blue: 53
+    magenta: 36.8
+    cyan: 39.4
+    white: 89.2
+    brightBlack: 12.7
+    brightRed: 32.4
+    brightGreen: 90.8
+    brightYellow: 75.8
+    brightBlue: 75.8
+    brightMagenta: 36.8
+    brightCyan: 77.6
+    brightWhite: 89.2

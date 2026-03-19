@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Eighties Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#F2F0EC"
+  fg: "#515151"
+  black: "#D3D0C8"
+  red: "#F2777A"
+  green: "#99CC99"
+  yellow: "#F99157"
+  blue: "#6699CC"
+  magenta: "#CC99CC"
+  cyan: "#66CCCC"
+  white: "#393939"
+  brightBlack: "#A09F93"
+  brightRed: "#F2777A"
+  brightGreen: "#99CC99"
+  brightYellow: "#FFCC66"
+  brightBlue: "#6699CC"
+  brightMagenta: "#CC99CC"
+  brightCyan: "#66CCCC"
+  brightWhite: "#2D2D2D"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 16.1
+    red: 43.5
+    green: 25.5
+    yellow: 35.7
+    blue: 47.8
+    magenta: 37.1
+    cyan: 27
+    white: 87.8
+    brightBlack: 43
+    brightRed: 43.5
+    brightGreen: 25.5
+    brightYellow: 14.1
+    brightBlue: 47.8
+    brightMagenta: 37.1
+    brightCyan: 27
+    brightWhite: 91.5

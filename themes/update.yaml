@@ -1,0 +1,53 @@
+name: "Update"
+source:
+  marketplace_id: "ZColorTheme.ZColorThemeV2"
+  version: "0.0.1"
+  installs: 1804
+  rating: 0
+  ratings: 0
+  author: "ZColorTheme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ZColorTheme.ZColorThemeV2"
+  formats: null
+colors:
+  bg: "#080E21"
+  fg: "#00CFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#238BFF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 68.2
+    black: 0
+    red: 27.3
+    green: 53.6
+    yellow: 86.2
+    blue: 40.6
+    magenta: 30.3
+    cyan: 48.1
+    white: 107.5
+    brightBlack: 22.6
+    brightRed: 39.1
+    brightGreen: 64.1
+    brightYellow: 96.2
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 90.6

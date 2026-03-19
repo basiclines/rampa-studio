@@ -1,0 +1,53 @@
+name: "hapsida.securisec (Mountain)"
+source:
+  marketplace_id: "securisec.hapsida-securisec"
+  version: "0.0.30"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "securisec"
+  repo: "https://github.com/securisec/code-hapsida"
+  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+  formats: null
+colors:
+  bg: "#0C0C0C"
+  fg: "#E7E7E7"
+  black: "#000000"
+  red: "#C49EA0"
+  green: "#9EC49F"
+  yellow: "#CEB188"
+  blue: "#9EC3C4"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#CEB188"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#193549"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.1
+    black: 0
+    red: 54.5
+    green: 65.1
+    yellow: 62.3
+    blue: 66.1
+    magenta: 65.1
+    cyan: 93.5
+    white: 107.7
+    brightBlack: 15.4
+    brightRed: 47.9
+    brightGreen: 67.1
+    brightYellow: 62.3
+    brightBlue: 39.5
+    brightMagenta: 65.1
+    brightCyan: 93.5
+    brightWhite: 0

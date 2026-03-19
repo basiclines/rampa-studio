@@ -1,0 +1,53 @@
+name: "Zoren Theme"
+source:
+  marketplace_id: "viniciuslazzari.zoren"
+  version: "1.3.1"
+  installs: 83
+  rating: 5
+  ratings: 1
+  author: "viniciuslazzari"
+  repo: "https://github.com/viniciuslaz/zoren-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=viniciuslazzari.zoren"
+  formats: null
+colors:
+  bg: "#1E2228"
+  fg: "#D4D7DD"
+  black: "#1E2228"
+  red: "#E07856"
+  green: "#6AB06A"
+  yellow: "#E0B95A"
+  blue: "#4D9DE0"
+  magenta: "#B884D6"
+  cyan: "#5AC5C5"
+  white: "#D4D7DD"
+  brightBlack: "#5A6270"
+  brightRed: "#F09070"
+  brightGreen: "#84C884"
+  brightYellow: "#F5D078"
+  brightBlue: "#6EB4F7"
+  brightMagenta: "#D0A0F0"
+  brightCyan: "#78DADA"
+  brightWhite: "#E8EAED"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 79.8
+    black: 0
+    red: 43.1
+    green: 48.7
+    yellow: 65
+    blue: 44.2
+    magenta: 44.6
+    cyan: 60.2
+    white: 79.8
+    brightBlack: 18.8
+    brightRed: 53.6
+    brightGreen: 61.7
+    brightYellow: 78.3
+    brightBlue: 56.6
+    brightMagenta: 58.7
+    brightCyan: 72.4
+    brightWhite: 91.7

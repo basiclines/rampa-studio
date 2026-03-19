@@ -1,0 +1,53 @@
+name: "Sirius Themes (Sirius-Nebula)"
+source:
+  marketplace_id: "VLMADev.siriusthemes"
+  version: "1.1.5"
+  installs: 517
+  rating: 5
+  ratings: 1
+  author: "VLMADev"
+  repo: "https://github.com/VLMADev/siriusthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=VLMADev.siriusthemes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#F8F8F8"
+  black: "#3A3A3A"
+  red: "#E85A5A"
+  green: "#85D685"
+  yellow: "#FFD485"
+  blue: "#90D690"
+  magenta: "#D685D6"
+  cyan: "#85D6D6"
+  white: "#F8F8F8"
+  brightBlack: "#7A7A7A"
+  brightRed: "#E85A5A"
+  brightGreen: "#85D685"
+  brightYellow: "#FFD485"
+  brightBlue: "#90D690"
+  brightMagenta: "#D685D6"
+  brightCyan: "#85D6D6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 0
+    red: 40.2
+    green: 70.7
+    yellow: 84.2
+    blue: 71.9
+    magenta: 52
+    cyan: 73.6
+    white: 103.3
+    brightBlack: 31.9
+    brightRed: 40.2
+    brightGreen: 70.7
+    brightYellow: 84.2
+    brightBlue: 71.9
+    brightMagenta: 52
+    brightCyan: 73.6
+    brightWhite: 107.9

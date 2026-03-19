@@ -1,0 +1,53 @@
+name: "JustCode Theme"
+source:
+  marketplace_id: "psxcode.justcode"
+  version: "0.7.1"
+  installs: 2056
+  rating: 0
+  ratings: 0
+  author: "psxcode"
+  repo: "https://github.com/psxcode/justcode-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=psxcode.justcode"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#CBCCC6"
+  black: "#303030"
+  red: "#ED8274"
+  green: "#A6CC70"
+  yellow: "#FAD07B"
+  blue: "#6DCBFA"
+  magenta: "#CFBAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFD580"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#D4BFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.2
+    black: 0
+    red: 49.2
+    green: 66.4
+    yellow: 79.4
+    blue: 66.9
+    magenta: 68.9
+    cyan: 76.8
+    white: 70.6
+    brightBlack: 21.8
+    brightRed: 51.8
+    brightGreen: 80.8
+    brightYellow: 82.4
+    brightBlue: 69.8
+    brightMagenta: 71.9
+    brightCyan: 79.8
+    brightWhite: 105.8

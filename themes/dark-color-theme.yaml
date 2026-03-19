@@ -1,0 +1,53 @@
+name: "dark-color-theme"
+source:
+  marketplace_id: "Rsanttos.dark-color-theme"
+  version: "0.0.0"
+  installs: 107
+  rating: 0
+  ratings: 0
+  author: "Rsanttos"
+  repo: "https://github.com/vricardo5/dark-themev1"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rsanttos.dark-color-theme"
+  formats: null
+colors:
+  bg: "#151B26"
+  fg: "#D4D4D4"
+  black: "#640606"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#717171"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 79
+    black: 0
+    red: 26.3
+    green: 52.6
+    yellow: 85.2
+    blue: 27
+    magenta: 29.3
+    cyan: 47.1
+    white: 89.6
+    brightBlack: 26.4
+    brightRed: 38.1
+    brightGreen: 63.1
+    brightYellow: 95.2
+    brightBlue: 39.6
+    brightMagenta: 44.9
+    brightCyan: 55
+    brightWhite: 89.6

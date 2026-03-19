@@ -1,0 +1,53 @@
+name: "DJPurple"
+source:
+  marketplace_id: "GroganSoft.djpurple"
+  version: "1.1.3"
+  installs: 121
+  rating: 0
+  ratings: 0
+  author: "GroganSoft"
+  repo: "https://dev.azure.com/grogansoft/DJPurple%20VS%20Code%20Theme/"
+  url: "https://marketplace.visualstudio.com/items?itemName=GroganSoft.djpurple"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#15B21F"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 47.2
+    black: 0
+    red: 26.7
+    green: 53
+    yellow: 85.6
+    blue: 27.4
+    magenta: 29.8
+    cyan: 47.6
+    white: 90
+    brightBlack: 22
+    brightRed: 38.6
+    brightGreen: 63.5
+    brightYellow: 95.6
+    brightBlue: 40
+    brightMagenta: 45.4
+    brightCyan: 55.4
+    brightWhite: 90

@@ -1,0 +1,53 @@
+name: "CRT Themes (CRT Green)"
+source:
+  marketplace_id: "krueger71.crt-themes"
+  version: "0.5.2"
+  installs: 38260
+  rating: 5
+  ratings: 9
+  author: "krueger71"
+  repo: "https://github.com/krueger71/crt-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=krueger71.crt-themes"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#33FF00"
+  black: "#33FF00"
+  red: "#2AC005"
+  green: "#2CCF03"
+  yellow: "#25A007"
+  blue: "#31EF01"
+  magenta: "#2EDF02"
+  cyan: "#28B006"
+  white: "#239008"
+  brightBlack: "#33FF00"
+  brightRed: "#2AC005"
+  brightGreen: "#2CCF03"
+  brightYellow: "#25A007"
+  brightBlue: "#31EF01"
+  brightMagenta: "#2EDF02"
+  brightCyan: "#28B006"
+  brightWhite: "#239008"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.3
+    black: 86.3
+    red: 54.4
+    green: 61.6
+    yellow: 39.9
+    blue: 77.8
+    magenta: 69.5
+    cyan: 47
+    white: 33.2
+    brightBlack: 86.3
+    brightRed: 54.4
+    brightGreen: 61.6
+    brightYellow: 39.9
+    brightBlue: 77.8
+    brightMagenta: 69.5
+    brightCyan: 47
+    brightWhite: 33.2

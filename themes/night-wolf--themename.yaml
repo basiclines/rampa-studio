@@ -1,0 +1,53 @@
+name: "Night Wolf (themename)"
+source:
+  marketplace_id: "MaoSantaella.night-wolf"
+  version: "2.5.0"
+  installs: 133279
+  rating: 5
+  ratings: 18
+  author: "MaoSantaella"
+  repo: "https://github.com/maoma87/NightWolfTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MaoSantaella.night-wolf"
+  formats: null
+colors:
+  bg: "#252525"
+  fg: "#CECECE"
+  black: "#000000"
+  red: "#FF7878"
+  green: "#AAE682"
+  yellow: "#FFDC96"
+  blue: "#00B1FF"
+  magenta: "#FF50FF"
+  cyan: "#00DCDC"
+  white: "#CECECE"
+  brightBlack: "#757575"
+  brightRed: "#FF7878"
+  brightGreen: "#AAE682"
+  brightYellow: "#FFDC96"
+  brightBlue: "#00B1FF"
+  brightMagenta: "#FF50FF"
+  brightCyan: "#00DCDC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74
+    black: 0
+    red: 49.5
+    green: 78.5
+    yellow: 85.1
+    blue: 52.5
+    magenta: 48.2
+    cyan: 69.9
+    white: 74
+    brightBlack: 26.7
+    brightRed: 49.5
+    brightGreen: 78.5
+    brightYellow: 85.1
+    brightBlue: 52.5
+    brightMagenta: 48.2
+    brightCyan: 69.9
+    brightWhite: 105

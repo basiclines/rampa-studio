@@ -1,0 +1,53 @@
+name: "Maple Theme (Maple Light)"
+source:
+  marketplace_id: "subframe7536.theme-maple"
+  version: "0.7.17"
+  installs: 15087
+  rating: 5
+  ratings: 2
+  author: "subframe7536"
+  repo: "https://github.com/subframe7536/vscode-theme-maple"
+  url: "https://marketplace.visualstudio.com/items?itemName=subframe7536.theme-maple"
+  formats: null
+colors:
+  bg: "#FFFFFE"
+  fg: "#475569"
+  black: "#333333"
+  red: "#BD5151"
+  green: "#547000"
+  yellow: "#B26B1F"
+  blue: "#057D9E"
+  magenta: "#726293"
+  cyan: "#127D52"
+  white: "#F3F2F2"
+  brightBlack: "#666666"
+  brightRed: "#BD5151"
+  brightGreen: "#547000"
+  brightYellow: "#B26B1F"
+  brightBlue: "#057D9E"
+  brightMagenta: "#726293"
+  brightCyan: "#127D52"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.3
+    black: 98.6
+    red: 72
+    green: 78.2
+    yellow: 68.5
+    blue: 72.3
+    magenta: 76.9
+    cyan: 75
+    white: 0
+    brightBlack: 78.7
+    brightRed: 72
+    brightGreen: 78.2
+    brightYellow: 68.5
+    brightBlue: 72.3
+    brightMagenta: 76.9
+    brightCyan: 75
+    brightWhite: 0

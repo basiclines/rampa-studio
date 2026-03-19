@@ -1,0 +1,53 @@
+name: "Wolves League Theme"
+source:
+  marketplace_id: "WolvesLeague.wolves-league"
+  version: "3.0.0"
+  installs: 1847
+  rating: 0
+  ratings: 0
+  author: "Wolves League"
+  repo: "https://github.com/WolvesLeague/wolves-league-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=WolvesLeague.wolves-league"
+  formats: null
+colors:
+  bg: "#141516"
+  fg: "#BCBFC2"
+  black: "#141516"
+  red: "#FF5252"
+  green: "#29D196"
+  yellow: "#FFBA52"
+  blue: "#52A0FF"
+  magenta: "#FF85C4"
+  cyan: "#3DD6F5"
+  white: "#BCBFC2"
+  brightBlack: "#BCBFC2"
+  brightRed: "#FF0000"
+  brightGreen: "#66FFC9"
+  brightYellow: "#FFCE85"
+  brightBlue: "#85BCFF"
+  brightMagenta: "#F061AB"
+  brightCyan: "#85EBFF"
+  brightWhite: "#F8F8FF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67
+    black: 0
+    red: 43
+    green: 64.1
+    yellow: 72
+    blue: 49.3
+    magenta: 57.8
+    cyan: 71.1
+    white: 67
+    brightBlack: 67
+    brightRed: 36.7
+    brightGreen: 90.8
+    brightYellow: 80.9
+    brightBlue: 63.6
+    brightMagenta: 45.1
+    brightCyan: 84.8
+    brightWhite: 102.8

@@ -1,0 +1,53 @@
+name: "Rainglow (solarflare-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E3E2E0"
+  black: "#0D0D0D"
+  red: "#BA0E2E"
+  green: "#FC913A"
+  yellow: "#FF4E50"
+  blue: "#EDE574"
+  magenta: "#FF4E50"
+  cyan: "#FC913A"
+  white: "#EFEFED"
+  brightBlack: "#333333"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEC99E"
+  brightYellow: "#FFB4B5"
+  brightBlue: "#F9F6CE"
+  brightMagenta: "#FFB4B5"
+  brightCyan: "#FEC99E"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.2
+    black: 0
+    red: 21.5
+    green: 57.8
+    yellow: 43.2
+    blue: 88.6
+    magenta: 43.2
+    cyan: 57.8
+    white: 97.3
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 80.1
+    brightYellow: 73
+    brightBlue: 100.7
+    brightMagenta: 73
+    brightCyan: 80.1
+    brightWhite: 107.9

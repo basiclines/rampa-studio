@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Ocean Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#EFF1F5"
+  fg: "#4F5B66"
+  black: "#C0C5CE"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#D08770"
+  blue: "#8FA1B3"
+  magenta: "#B48EAD"
+  cyan: "#96B5B4"
+  white: "#343D46"
+  brightBlack: "#A7ADBA"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#8FA1B3"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#96B5B4"
+  brightWhite: "#2B303B"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.7
+    black: 23
+    red: 59.3
+    green: 31.2
+    yellow: 46
+    blue: 43.2
+    magenta: 45.9
+    cyan: 34.8
+    white: 87.1
+    brightBlack: 36
+    brightRed: 59.3
+    brightGreen: 31.2
+    brightYellow: 17.3
+    brightBlue: 43.2
+    brightMagenta: 45.9
+    brightCyan: 34.8
+    brightWhite: 91.2

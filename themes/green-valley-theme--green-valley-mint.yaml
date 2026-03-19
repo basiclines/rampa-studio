@@ -1,0 +1,53 @@
+name: "Green Valley Theme (Green Valley Mint)"
+source:
+  marketplace_id: "helciopenha.green-valley"
+  version: "1.0.1"
+  installs: 775
+  rating: 5
+  ratings: 1
+  author: "Helcio Penha"
+  repo: "https://github.com/helciopenha/green-valley-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=helciopenha.green-valley"
+  formats: null
+colors:
+  bg: "#F7F7F7"
+  fg: "#1A1A1A"
+  black: "#F0F0F0"
+  red: "#CF2929"
+  green: "#00A362"
+  yellow: "#B58A00"
+  blue: "#7748B7"
+  magenta: "#D1336C"
+  cyan: "#008C99"
+  white: "#1A1A1A"
+  brightBlack: "#5AAD88"
+  brightRed: "#E74E4E"
+  brightGreen: "#00B974"
+  brightYellow: "#D6A81F"
+  brightBlue: "#9B75D7"
+  brightMagenta: "#E55A87"
+  brightCyan: "#1CADB7"
+  brightWhite: "#333333"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.5
+    black: 0
+    red: 69.5
+    green: 54.6
+    yellow: 53.9
+    blue: 75.6
+    magenta: 67
+    cyan: 62.2
+    white: 99.5
+    brightBlack: 47.5
+    brightRed: 59.2
+    brightGreen: 44.7
+    brightYellow: 38.6
+    brightBlue: 58.1
+    brightMagenta: 56.1
+    brightCyan: 47.5
+    brightWhite: 93.9

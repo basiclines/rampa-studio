@@ -1,0 +1,53 @@
+name: "DangerDark"
+source:
+  marketplace_id: "jynfairchild.dangerdark-theme"
+  version: "0.1.0"
+  installs: 614
+  rating: 5
+  ratings: 1
+  author: "jynfairchild"
+  repo: "https://github.com/jpfairchild/dangergrey-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jynfairchild.dangerdark-theme"
+  formats: null
+colors:
+  bg: "#1F1F1F"
+  fg: "#F7F7F7"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#C82424"
+  magenta: "#BC3FBC"
+  cyan: "#E2AF37"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#EA5C3B"
+  brightMagenta: "#D670D6"
+  brightCyan: "#DBAE29"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 25.7
+    green: 52
+    yellow: 84.6
+    blue: 23.4
+    magenta: 28.8
+    cyan: 61.5
+    white: 89
+    brightBlack: 21.1
+    brightRed: 37.6
+    brightGreen: 62.6
+    brightYellow: 94.7
+    brightBlue: 38.6
+    brightMagenta: 44.4
+    brightCyan: 59.9
+    brightWhite: 89

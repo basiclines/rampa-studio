@@ -1,0 +1,53 @@
+name: "Xeon Light"
+source:
+  marketplace_id: "zhiqiangx.xeon-light"
+  version: "0.0.2"
+  installs: 2788
+  rating: 5
+  ratings: 1
+  author: "zhiqiangx"
+  repo: "https://github.com/zhiqiangx/tinylight-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=zhiqiangx.xeon-light"
+  formats: null
+colors:
+  bg: "#FFFBE8"
+  fg: "#499504"
+  black: "#000000"
+  red: "#FD6C67"
+  green: "#097E00"
+  yellow: "#CDCB00"
+  blue: "#5597EF"
+  magenta: "#FE76FF"
+  cyan: "#39CBCC"
+  white: "#BBBBBB"
+  brightBlack: "#686868"
+  brightRed: "#FE8885"
+  brightGreen: "#74FA61"
+  brightYellow: "#FFFB00"
+  brightBlue: "#7FAFF4"
+  brightMagenta: "#FE9CFF"
+  brightCyan: "#6FDADA"
+  brightWhite: "#F1F1F1"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 62.1
+    black: 103.4
+    red: 50.4
+    green: 72.7
+    yellow: 28.4
+    blue: 53.4
+    magenta: 41.5
+    cyan: 35.3
+    white: 34.1
+    brightBlack: 75.2
+    brightRed: 42.6
+    brightGreen: 14
+    brightYellow: 0
+    brightBlue: 41.5
+    brightMagenta: 31.6
+    brightCyan: 25.9
+    brightWhite: 0

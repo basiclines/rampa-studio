@@ -1,0 +1,53 @@
+name: "Sirius Themes (Sirius-Glow)"
+source:
+  marketplace_id: "VLMADev.siriusthemes"
+  version: "1.1.5"
+  installs: 517
+  rating: 5
+  ratings: 1
+  author: "VLMADev"
+  repo: "https://github.com/VLMADev/siriusthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=VLMADev.siriusthemes"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#E6EDF3"
+  black: "#484F58"
+  red: "#F85149"
+  green: "#7EE787"
+  yellow: "#F7CC6B"
+  blue: "#00D4AA"
+  magenta: "#D2A8FF"
+  cyan: "#00D4AA"
+  white: "#E6EDF3"
+  brightBlack: "#6E7681"
+  brightRed: "#F85149"
+  brightGreen: "#7EE787"
+  brightYellow: "#F7CC6B"
+  brightBlue: "#00D4AA"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#00D4AA"
+  brightWhite: "#F0F6FC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 95
+    black: 13.1
+    red: 41.4
+    green: 78.1
+    yellow: 78.5
+    blue: 66.3
+    magenta: 64.6
+    cyan: 66.3
+    white: 95
+    brightBlack: 29.3
+    brightRed: 41.4
+    brightGreen: 78.1
+    brightYellow: 78.5
+    brightBlue: 66.3
+    brightMagenta: 64.6
+    brightCyan: 66.3
+    brightWhite: 100.9

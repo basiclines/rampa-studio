@@ -1,0 +1,53 @@
+name: "Kindfeeling-light"
+source:
+  marketplace_id: "Aromatibus.kindfeeling"
+  version: "0.3.19"
+  installs: 3600
+  rating: 5
+  ratings: 3
+  author: "Aromatibus"
+  repo: "https://github.com/Aromatibus/vscode-kindfeeling-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=Aromatibus.kindfeeling"
+  formats: null
+colors:
+  bg: "#FFEEF9"
+  fg: "#101010"
+  black: "#D0D0D0"
+  red: "#FF0086"
+  green: "#00C918"
+  yellow: "#FD8900"
+  blue: "#3777E6"
+  magenta: "#AD00A1"
+  cyan: "#1FAAAA"
+  white: "#151515"
+  brightBlack: "#B0B0B0"
+  brightRed: "#FF0086"
+  brightGreen: "#00C918"
+  brightYellow: "#ABA800"
+  brightBlue: "#3777E6"
+  brightMagenta: "#AD00A1"
+  brightCyan: "#1FAAAA"
+  brightWhite: "#202020"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98
+    black: 17.6
+    red: 54.8
+    green: 35.9
+    yellow: 39.2
+    blue: 61.5
+    magenta: 71.9
+    cyan: 46.6
+    white: 97.5
+    brightBlack: 35.2
+    brightRed: 54.8
+    brightGreen: 35.9
+    brightYellow: 41.8
+    brightBlue: 61.5
+    brightMagenta: 71.9
+    brightCyan: 46.6
+    brightWhite: 95.8

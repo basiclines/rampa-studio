@@ -1,0 +1,53 @@
+name: "dbt (dbt light theme)"
+source:
+  marketplace_id: "dbtLabsInc.dbt"
+  version: "0.54.0"
+  installs: 77126
+  rating: 4.19
+  ratings: 27
+  author: "dbt Labs Inc"
+  repo: "https://github.com/dbt-labs/dbt-fusion"
+  url: "https://marketplace.visualstudio.com/items?itemName=dbtLabsInc.dbt"
+  formats: null
+colors:
+  bg: "#FDFDFD"
+  fg: "#1C1A19"
+  black: "#1C1A19"
+  red: "#8D0D10"
+  green: "#105A20"
+  yellow: "#AB5100"
+  blue: "#004895"
+  magenta: "#8B0839"
+  cyan: "#105748"
+  white: "#CFCDCC"
+  brightBlack: "#4E4A49"
+  brightRed: "#C42C28"
+  brightGreen: "#188435"
+  brightYellow: "#D47500"
+  brightBlue: "#006DCE"
+  brightMagenta: "#CA0356"
+  brightCyan: "#17806C"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "dbt (dbt dark theme)"
+  contrast:
+    fg: 103
+    black: 103
+    red: 89
+    green: 87.3
+    yellow: 74.9
+    blue: 88.4
+    magenta: 89
+    cyan: 87.6
+    white: 25.3
+    brightBlack: 88.8
+    brightRed: 75.3
+    brightGreen: 71.5
+    brightYellow: 58.8
+    brightBlue: 73.5
+    brightMagenta: 75
+    brightCyan: 71.9
+    brightWhite: 0

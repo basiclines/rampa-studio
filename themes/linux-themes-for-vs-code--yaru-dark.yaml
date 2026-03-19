@@ -1,0 +1,53 @@
+name: "Linux Themes for VS Code (Yaru Dark)"
+source:
+  marketplace_id: "rdnlsmith.linux-themes"
+  version: "1.3.0"
+  installs: 41725
+  rating: 4.75
+  ratings: 4
+  author: "rdnlsmith"
+  repo: "https://github.com/rdnlsmith/vscode-arc-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rdnlsmith.linux-themes"
+  formats: null
+colors:
+  bg: "#2F2F2F"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#AA0000"
+  green: "#00AA00"
+  yellow: "#AA5500"
+  blue: "#0000AA"
+  magenta: "#AA00AA"
+  cyan: "#00AAAA"
+  white: "#AAAAAA"
+  brightBlack: "#555555"
+  brightRed: "#FF5555"
+  brightGreen: "#55FF55"
+  brightYellow: "#FFFF55"
+  brightBlue: "#5555FF"
+  brightMagenta: "#FF55FF"
+  brightCyan: "#55FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103
+    black: 0
+    red: 12.9
+    green: 39.6
+    yellow: 21.4
+    blue: 0
+    magenta: 17.6
+    cyan: 42.8
+    white: 51.3
+    brightBlack: 11.2
+    brightRed: 39.5
+    brightGreen: 83.2
+    brightYellow: 98.2
+    brightBlue: 22.5
+    brightMagenta: 47
+    brightCyan: 88.5
+    brightWhite: 103

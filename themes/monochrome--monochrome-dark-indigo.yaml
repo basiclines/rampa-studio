@@ -1,0 +1,53 @@
+name: "Monochrome (monochrome-dark-indigo)"
+source:
+  marketplace_id: "anotherglitchinthematrix.monochrome"
+  version: "2.4.3"
+  installs: 47972
+  rating: 4.38
+  ratings: 8
+  author: "glitch"
+  repo: "https://github.com/anotherglitchinthematrix/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=anotherglitchinthematrix.monochrome"
+  formats: null
+colors:
+  bg: "#0F172A"
+  fg: "#B3B6BD"
+  black: "#0F172A"
+  red: "#848993"
+  green: "#555B69"
+  yellow: "#B2B6BD"
+  blue: "#3E4454"
+  magenta: "#9B9FA8"
+  cyan: "#6C727E"
+  white: "#C9CDD2"
+  brightBlack: "#262E3F"
+  brightRed: "#848993"
+  brightGreen: "#555B69"
+  brightYellow: "#B2B6BD"
+  brightBlue: "#3E4454"
+  brightMagenta: "#9B9FA8"
+  brightCyan: "#6C727E"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 266
+  pair: null
+  contrast:
+    fg: 61.7
+    black: 0
+    red: 37.9
+    green: 17.3
+    yellow: 61.6
+    blue: 8.8
+    magenta: 49.1
+    cyan: 27
+    white: 74.9
+    brightBlack: 0
+    brightRed: 37.9
+    brightGreen: 17.3
+    brightYellow: 61.6
+    brightBlue: 8.8
+    brightMagenta: 49.1
+    brightCyan: 27
+    brightWhite: 103.3

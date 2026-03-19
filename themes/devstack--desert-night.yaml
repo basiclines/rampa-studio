@@ -1,0 +1,53 @@
+name: "DevStack (Desert-Night)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#141415"
+  fg: "#EBEBD0"
+  black: "#141415"
+  red: "#811D1D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#629DAC"
+  magenta: "#629DAC"
+  cyan: "#29C3A0"
+  white: "#EBEBD0"
+  brightBlack: "#141415"
+  brightRed: "#811D1D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#629DAC"
+  brightMagenta: "#629DAC"
+  brightCyan: "#29C3A0"
+  brightWhite: "#EBEBD0"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.9
+    black: 0
+    red: 10
+    green: 57.9
+    yellow: 52
+    blue: 44.1
+    magenta: 44.1
+    cyan: 57.9
+    white: 92.9
+    brightBlack: 0
+    brightRed: 10
+    brightGreen: 57.9
+    brightYellow: 52
+    brightBlue: 44.1
+    brightMagenta: 44.1
+    brightCyan: 57.9
+    brightWhite: 92.9

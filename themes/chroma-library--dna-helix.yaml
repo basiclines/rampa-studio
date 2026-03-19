@@ -1,0 +1,53 @@
+name: "Chroma Library (DNA Helix)"
+source:
+  marketplace_id: "CodewithBismillah.chroma-library"
+  version: "1.2.1"
+  installs: 360
+  rating: 5
+  ratings: 1
+  author: "Code with Bismillah"
+  repo: "https://github.com/mubashir1837/Chroma-Library"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.chroma-library"
+  formats: null
+colors:
+  bg: "#0A0F1A"
+  fg: "#E0F0FF"
+  black: "#000000"
+  red: "#FF4757"
+  green: "#00FF99"
+  yellow: "#FFA502"
+  blue: "#3742FA"
+  magenta: "#E056FD"
+  cyan: "#00FFCC"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF6B7A"
+  brightGreen: "#33FFAA"
+  brightYellow: "#FFB733"
+  brightBlue: "#5865F2"
+  brightMagenta: "#E67EFF"
+  brightCyan: "#33FFDD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 96.3
+    black: 0
+    red: 41.9
+    green: 87.8
+    yellow: 64.3
+    blue: 21.2
+    magenta: 45.2
+    cyan: 89.4
+    white: 107.5
+    brightBlack: 22.6
+    brightRed: 49.1
+    brightGreen: 88.6
+    brightYellow: 71
+    brightBlue: 29.7
+    brightMagenta: 55
+    brightCyan: 90.5
+    brightWhite: 107.5

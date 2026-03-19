@@ -1,0 +1,53 @@
+name: "Rainglow (vegetable-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#E2DCDD"
+  fg: "#514547"
+  black: "#EEEAEB"
+  red: "#BA0E2E"
+  green: "#F0A56C"
+  yellow: "#689D81"
+  blue: "#C6A52D"
+  magenta: "#F0A56C"
+  cyan: "#689D81"
+  white: "#5F5153"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#F9DEC9"
+  brightYellow: "#A6C5B5"
+  brightBlue: "#E0CA79"
+  brightMagenta: "#F9DEC9"
+  brightCyan: "#A6C5B5"
+  brightWhite: "#887477"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 71.4
+    black: 0
+    red: 60.6
+    green: 19.7
+    yellow: 38.4
+    blue: 27
+    magenta: 19.7
+    cyan: 38.4
+    white: 66.4
+    brightBlack: 19.9
+    brightRed: 44.1
+    brightGreen: 0
+    brightYellow: 15.4
+    brightBlue: 8.3
+    brightMagenta: 0
+    brightCyan: 15.4
+    brightWhite: 50.5

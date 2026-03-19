@@ -1,0 +1,53 @@
+name: "Greeeeen Theme"
+source:
+  marketplace_id: "Kakamotobi.greeeeen"
+  version: "1.0.0"
+  installs: 45
+  rating: 0
+  ratings: 0
+  author: "Kakamotobi"
+  repo: "https://github.com/Kakamotobi/Greeeeen"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kakamotobi.greeeeen"
+  formats: null
+colors:
+  bg: "#2E412E"
+  fg: "#FEFDD5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 145
+  pair: null
+  contrast:
+    fg: 96.3
+    black: 8.5
+    red: 19.1
+    green: 45.4
+    yellow: 78
+    blue: 19.8
+    magenta: 22.1
+    cyan: 39.9
+    white: 82.4
+    brightBlack: 14.4
+    brightRed: 30.9
+    brightGreen: 55.9
+    brightYellow: 88
+    brightBlue: 32.4
+    brightMagenta: 37.7
+    brightCyan: 47.8
+    brightWhite: 82.4

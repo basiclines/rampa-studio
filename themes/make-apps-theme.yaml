@@ -1,0 +1,53 @@
+name: "Make Apps Theme"
+source:
+  marketplace_id: "dannyconnell.make-apps-theme"
+  version: "1.0.4"
+  installs: 19991
+  rating: 5
+  ratings: 4
+  author: "Danny Connell"
+  repo: "https://github.com/dannyconnell/vscode-make-apps-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dannyconnell.make-apps-theme"
+  formats: null
+colors:
+  bg: "#242E33"
+  fg: "#C5C8C6"
+  black: "#242E33"
+  red: "#A54242"
+  green: "#8C9440"
+  yellow: "#DE935F"
+  blue: "#81A2BE"
+  magenta: "#85678F"
+  cyan: "#5E8D87"
+  white: "#6C7A80"
+  brightBlack: "#7A7A7A"
+  brightRed: "#CC6666"
+  brightGreen: "#B5BD68"
+  brightYellow: "#F0C674"
+  brightBlue: "#99DBFF"
+  brightMagenta: "#B294BB"
+  brightCyan: "#8ABEB7"
+  brightWhite: "#C5C8C6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 68.5
+    black: 0
+    red: 17.8
+    green: 37.4
+    yellow: 49
+    blue: 45.5
+    magenta: 23.8
+    cyan: 32.5
+    white: 26.5
+    brightBlack: 27.6
+    brightRed: 33.1
+    brightGreen: 59
+    brightYellow: 71.2
+    brightBlue: 75.2
+    brightMagenta: 45.5
+    brightCyan: 57.5
+    brightWhite: 68.5

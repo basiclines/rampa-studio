@@ -1,0 +1,53 @@
+name: "Rainglow (brave-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#101216"
+  fg: "#D6DBDB"
+  black: "#1B1E25"
+  red: "#BA0E2E"
+  green: "#BC4331"
+  yellow: "#908BBC"
+  blue: "#91B9C9"
+  magenta: "#ABAAB7"
+  cyan: "#908BBC"
+  white: "#E4E7E7"
+  brightBlack: "#3B4251"
+  brightRed: "#F03E5F"
+  brightGreen: "#DC8477"
+  brightYellow: "#CECCE1"
+  brightBlue: "#D5E5EB"
+  brightMagenta: "#E2E1E6"
+  brightCyan: "#CECCE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 20.9
+    green: 25.9
+    yellow: 42.2
+    blue: 60.5
+    magenta: 56.3
+    cyan: 42.2
+    white: 91.3
+    brightBlack: 8.5
+    brightRed: 37.2
+    brightGreen: 48.2
+    brightYellow: 76.3
+    brightBlue: 88.7
+    brightMagenta: 88.3
+    brightCyan: 76.3
+    brightWhite: 107.3

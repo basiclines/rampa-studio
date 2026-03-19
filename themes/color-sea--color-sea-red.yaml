@@ -1,0 +1,53 @@
+name: "Color Sea (Color Sea Red)"
+source:
+  marketplace_id: "Danesed.color-sea"
+  version: "1.0.0"
+  installs: 18
+  rating: 0
+  ratings: 0
+  author: "Danesed"
+  repo: "https://github.com/danesed/colorsea-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Danesed.color-sea"
+  formats: null
+colors:
+  bg: "#301820"
+  fg: "#B8A6AA"
+  black: "#6F3046"
+  red: "#FF2D3B"
+  green: "#72E3FF"
+  yellow: "#FF4D5A"
+  blue: "#3A86FF"
+  magenta: "#FF4D5A"
+  cyan: "#3A86FF"
+  white: "#B8A6AA"
+  brightBlack: "#5A484A"
+  brightRed: "#FF2D3B"
+  brightGreen: "#72E3FF"
+  brightYellow: "#FF4D5A"
+  brightBlue: "#3A86FF"
+  brightMagenta: "#FF4D5A"
+  brightCyan: "#3A86FF"
+  brightWhite: "#B8A6AA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 359
+  pair: null
+  contrast:
+    fg: 54.3
+    black: 8.5
+    red: 37.1
+    green: 78.5
+    yellow: 41.1
+    blue: 37.7
+    magenta: 41.1
+    cyan: 37.7
+    white: 54.3
+    brightBlack: 10.8
+    brightRed: 37.1
+    brightGreen: 78.5
+    brightYellow: 41.1
+    brightBlue: 37.7
+    brightMagenta: 41.1
+    brightCyan: 37.7
+    brightWhite: 54.3

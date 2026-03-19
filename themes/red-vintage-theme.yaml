@@ -1,0 +1,53 @@
+name: "Red Vintage Theme"
+source:
+  marketplace_id: "Crnobog.red-vintage-theme"
+  version: "0.0.2"
+  installs: 142
+  rating: 0
+  ratings: 0
+  author: "Crnobog"
+  repo: "https://github.com/crnobog69/red-vintage"
+  url: "https://marketplace.visualstudio.com/items?itemName=Crnobog.red-vintage-theme"
+  formats: null
+colors:
+  bg: "#1C1414"
+  fg: "#D4C7B9"
+  black: "#1C1414"
+  red: "#A13C32"
+  green: "#8C7C60"
+  yellow: "#C9A554"
+  blue: "#5C5088"
+  magenta: "#976983"
+  cyan: "#807C99"
+  white: "#D4C7B9"
+  brightBlack: "#8A7570"
+  brightRed: "#D4827C"
+  brightGreen: "#B0A68D"
+  brightYellow: "#E6CC94"
+  brightBlue: "#9590B3"
+  brightMagenta: "#C498B3"
+  brightCyan: "#B0ACC9"
+  brightWhite: "#E9D9C9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 18
+  pair: null
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 19.3
+    green: 32.9
+    yellow: 55.2
+    blue: 16.5
+    magenta: 29.6
+    cyan: 33.5
+    white: 72.9
+    brightBlack: 30.8
+    brightRed: 46
+    brightGreen: 53.5
+    brightYellow: 76.4
+    brightBlue: 43.7
+    brightMagenta: 52.5
+    brightCyan: 58.2
+    brightWhite: 84.1

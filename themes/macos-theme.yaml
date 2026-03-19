@@ -1,0 +1,53 @@
+name: "macOS Theme"
+source:
+  marketplace_id: "easyaspi314.macos-theme"
+  version: "0.0.3"
+  installs: 21996
+  rating: 5
+  ratings: 1
+  author: "easyaspi314"
+  repo: "https://github.com/easyaspi314/vscode-macOS"
+  url: "https://marketplace.visualstudio.com/items?itemName=easyaspi314.macos-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#990000"
+  green: "#00A600"
+  yellow: "#999900"
+  blue: "#0000B2"
+  magenta: "#B200B2"
+  cyan: "#00A6B2"
+  white: "#BFBFBF"
+  brightBlack: "#666666"
+  brightRed: "#E50000"
+  brightGreen: "#00D900"
+  brightYellow: "#E5E500"
+  brightBlue: "#0000FF"
+  brightMagenta: "#E500E5"
+  brightCyan: "#00E5E5"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 87.8
+    green: 59
+    yellow: 57
+    blue: 95.7
+    magenta: 77.2
+    cyan: 55.5
+    white: 34.5
+    brightBlack: 78.8
+    brightRed: 70.6
+    brightGreen: 35.8
+    brightYellow: 17
+    brightBlue: 85.8
+    brightMagenta: 63.2
+    brightCyan: 25.4
+    brightWhite: 12.9

@@ -1,0 +1,53 @@
+name: "DevStack (Acid-Trip)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#252525"
+  fg: "#FBFBFB"
+  black: "#252525"
+  red: "#DC2828"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#AFEC46"
+  magenta: "#AFEC46"
+  cyan: "#29C3A0"
+  white: "#FBFBFB"
+  brightBlack: "#252525"
+  brightRed: "#DC2828"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#AFEC46"
+  brightMagenta: "#AFEC46"
+  brightCyan: "#29C3A0"
+  brightWhite: "#FBFBFB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.3
+    black: 0
+    red: 27.3
+    green: 55.7
+    yellow: 49.8
+    blue: 81
+    magenta: 81
+    cyan: 55.7
+    white: 102.3
+    brightBlack: 0
+    brightRed: 27.3
+    brightGreen: 55.7
+    brightYellow: 49.8
+    brightBlue: 81
+    brightMagenta: 81
+    brightCyan: 55.7
+    brightWhite: 102.3

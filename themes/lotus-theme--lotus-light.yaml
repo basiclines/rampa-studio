@@ -1,0 +1,53 @@
+name: "Lotus Theme (Lotus Light)"
+source:
+  marketplace_id: "SkyLiss.lotus-theme"
+  version: "1.1.5"
+  installs: 12517
+  rating: 5
+  ratings: 3
+  author: "SkyLissh"
+  repo: "https://github.com/SkyLissh/lotus-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SkyLiss.lotus-theme"
+  formats: null
+colors:
+  bg: "#FFF0F6"
+  fg: "#121212"
+  black: "#222222"
+  red: "#D33C62"
+  green: "#81B84A"
+  yellow: "#C09C31"
+  blue: "#D97645"
+  magenta: "#7B6CC9"
+  cyan: "#4EADB8"
+  white: "#C7C7C5"
+  brightBlack: "#595959"
+  brightRed: "#FF6188"
+  brightGreen: "#6FDE00"
+  brightYellow: "#CF9A00"
+  brightBlue: "#FC9867"
+  brightMagenta: "#836DF2"
+  brightCyan: "#78DCE8"
+  brightWhite: "#C7C7C5"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.5
+    black: 96.2
+    red: 63.8
+    green: 39.7
+    yellow: 44.1
+    blue: 51.7
+    magenta: 63.2
+    cyan: 44.3
+    white: 23.5
+    brightBlack: 77.6
+    brightRed: 47.3
+    brightGreen: 24.2
+    brightYellow: 42.7
+    brightBlue: 34.9
+    brightMagenta: 59.1
+    brightCyan: 19.9
+    brightWhite: 23.5

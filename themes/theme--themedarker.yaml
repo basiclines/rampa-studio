@@ -1,0 +1,53 @@
+name: "Theme (ThemeDarker)"
+source:
+  marketplace_id: "tal7aouy.theme"
+  version: "3.1.0"
+  installs: 1511105
+  rating: 4.76
+  ratings: 34
+  author: "Mhammed Talhaouy"
+  repo: "https://github.com/tal7aouy/theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"
+  formats: null
+colors:
+  bg: "#23272E"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 57.2
+    black: 0
+    red: 34.5
+    green: 58.1
+    yellow: 46.4
+    blue: 47.4
+    magenta: 36.8
+    cyan: 50.3
+    white: 80.8
+    brightBlack: 13.2
+    brightRed: 43.9
+    brightGreen: 74.6
+    brightYellow: 59
+    brightBlue: 61.5
+    brightMagenta: 48
+    brightCyan: 65.6
+    brightWhite: 88.4

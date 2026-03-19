@@ -1,0 +1,53 @@
+name: "Vesper Purple Theme (Vesper Purple Light)"
+source:
+  marketplace_id: "xinyao27.vesper-purple-theme"
+  version: "0.2.2"
+  installs: 2424
+  rating: 0
+  ratings: 0
+  author: "Xinyao"
+  repo: "https://github.com/xinyao27/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xinyao27.vesper-purple-theme"
+  formats: null
+colors:
+  bg: "#F5F5F5"
+  fg: "#323232"
+  black: "#0A0A0A"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#0EA5E9"
+  magenta: "#9066DF"
+  cyan: "#06B6D4"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#0EA5E9"
+  brightMagenta: "#9066DF"
+  brightCyan: "#06B6D4"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93
+    black: 99.9
+    red: 57.9
+    green: 38.4
+    yellow: 30.4
+    blue: 46.9
+    magenta: 61.7
+    cyan: 41.2
+    white: 15.1
+    brightBlack: 39.9
+    brightRed: 57.9
+    brightGreen: 38.4
+    brightYellow: 30.4
+    brightBlue: 46.9
+    brightMagenta: 61.7
+    brightCyan: 41.2
+    brightWhite: 11.6

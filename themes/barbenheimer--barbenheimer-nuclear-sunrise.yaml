@@ -1,0 +1,53 @@
+name: "Barbenheimer (Barbenheimer Nuclear Sunrise)"
+source:
+  marketplace_id: "jayvicsanantonio.barbenheimer"
+  version: "1.0.0"
+  installs: 4075
+  rating: 5
+  ratings: 2
+  author: "Jayvic San Antonio"
+  repo: "https://github.com/jayvicsanantonio/barbenheimer-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jayvicsanantonio.barbenheimer"
+  formats: null
+colors:
+  bg: "#0F0F0A"
+  fg: "#FFFFFF"
+  black: "#0F0F0A"
+  red: "#FF69B4"
+  green: "#80C0A0"
+  yellow: "#C0C080"
+  blue: "#80A0C0"
+  magenta: "#C080C0"
+  cyan: "#80C0C0"
+  white: "#D0D0D0"
+  brightBlack: "#EEEEEE"
+  brightRed: "#FF69B4"
+  brightGreen: "#80C0A0"
+  brightYellow: "#C0C080"
+  brightBlue: "#80A0C0"
+  brightMagenta: "#C080C0"
+  brightCyan: "#80C0C0"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 107
+  pair: null
+  contrast:
+    fg: 107.5
+    black: 0
+    red: 50.7
+    green: 60.7
+    yellow: 66.2
+    blue: 48.8
+    magenta: 45.4
+    cyan: 62
+    white: 77.7
+    brightBlack: 96.4
+    brightRed: 50.7
+    brightGreen: 60.7
+    brightYellow: 66.2
+    brightBlue: 48.8
+    brightMagenta: 45.4
+    brightCyan: 62
+    brightWhite: 87.5

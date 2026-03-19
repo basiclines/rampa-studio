@@ -1,0 +1,53 @@
+name: "chai theme (Chai Light)"
+source:
+  marketplace_id: "hiteshchoudharycode.chai-theme"
+  version: "0.2.0"
+  installs: 167632
+  rating: 4.96
+  ratings: 115
+  author: "hitesh choudhary"
+  repo: "https://github.com/hiteshchoudhary/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=hiteshchoudharycode.chai-theme"
+  formats: null
+colors:
+  bg: "#F7F7F7"
+  fg: "#383A42"
+  black: "#373A41"
+  red: "#D52652"
+  green: "#239749"
+  yellow: "#DF621B"
+  blue: "#275FE4"
+  magenta: "#823EF0"
+  cyan: "#26608C"
+  white: "#B9BAC1"
+  brightBlack: "#676A77"
+  brightRed: "#FF637F"
+  brightGreen: "#3CBC66"
+  brightYellow: "#C5A231"
+  brightBlue: "#0099E0"
+  brightMagenta: "#CE32C0"
+  brightCyan: "#6D92BA"
+  brightWhite: "#D3D3D3"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.4
+    black: 91.5
+    red: 67.8
+    green: 59.8
+    yellow: 57.6
+    blue: 71.8
+    magenta: 71.1
+    cyan: 78
+    white: 32.3
+    brightBlack: 72
+    brightRed: 49.1
+    brightGreen: 43
+    brightYellow: 43.2
+    brightBlue: 53.3
+    brightMagenta: 63.9
+    brightCyan: 54.9
+    brightWhite: 18.5

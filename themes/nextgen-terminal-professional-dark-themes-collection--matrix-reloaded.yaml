@@ -1,0 +1,53 @@
+name: "NextGen Terminal - Professional Dark Themes Collection (Matrix Reloaded)"
+source:
+  marketplace_id: "nextgencode.nextgen-terminal"
+  version: "1.2.1"
+  installs: 106
+  rating: 0
+  ratings: 0
+  author: "NextGenCode"
+  repo: "https://github.com/Mattzey/nextgen-terminal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nextgencode.nextgen-terminal"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#00CC00"
+  black: "#000000"
+  red: "#FF3333"
+  green: "#00FF00"
+  yellow: "#CCFF00"
+  blue: "#00CC44"
+  magenta: "#00FF66"
+  cyan: "#66FF00"
+  white: "#00FF00"
+  brightBlack: "#004400"
+  brightRed: "#FF0000"
+  brightGreen: "#39FF14"
+  brightYellow: "#CCFF00"
+  brightBlue: "#00CC00"
+  brightMagenta: "#98FB98"
+  brightCyan: "#00FF66"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.3
+    black: 0
+    red: 39.6
+    green: 86.5
+    yellow: 96.2
+    blue: 60.6
+    magenta: 87.1
+    cyan: 88.4
+    white: 86.5
+    brightBlack: 0
+    brightRed: 37.5
+    brightGreen: 87
+    brightYellow: 96.2
+    brightBlue: 60.3
+    brightMagenta: 90.9
+    brightCyan: 87.1
+    brightWhite: 107.9

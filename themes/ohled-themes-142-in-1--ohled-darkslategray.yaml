@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_DarkSlateGray)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#677878"
+  black: "#677878"
+  red: "#4C5858"
+  green: "#526060"
+  yellow: "#3E4848"
+  blue: "#607070"
+  magenta: "#596868"
+  cyan: "#455050"
+  white: "#374040"
+  brightBlack: "#677878"
+  brightRed: "#4C5858"
+  brightGreen: "#526060"
+  brightYellow: "#3E4848"
+  brightBlue: "#607070"
+  brightMagenta: "#596868"
+  brightCyan: "#455050"
+  brightWhite: "#374040"
+meta:
+  mode: "dark"
+  accent: "cyan"
+  hue: null
+  pair: null
+  contrast:
+    fg: 29.5
+    black: 29.5
+    red: 16.4
+    green: 19.4
+    yellow: 10.6
+    blue: 26
+    magenta: 22.6
+    cyan: 13.4
+    white: 7.9
+    brightBlack: 29.5
+    brightRed: 16.4
+    brightGreen: 19.4
+    brightYellow: 10.6
+    brightBlue: 26
+    brightMagenta: 22.6
+    brightCyan: 13.4
+    brightWhite: 7.9

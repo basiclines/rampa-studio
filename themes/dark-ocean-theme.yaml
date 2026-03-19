@@ -1,0 +1,53 @@
+name: "Dark Ocean theme"
+source:
+  marketplace_id: "NathanHermes.dark-ocean-theme"
+  version: "0.0.0"
+  installs: 494
+  rating: 0
+  ratings: 0
+  author: "NathanHermes"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=NathanHermes.dark-ocean-theme"
+  formats: null
+colors:
+  bg: "#131622"
+  fg: "#8F93A2"
+  black: "#000000"
+  red: "#E25822"
+  green: "#14B37D"
+  yellow: "#F2F27A"
+  blue: "#3A75C4"
+  magenta: "#703FAF"
+  cyan: "#87D3F8"
+  white: "#F3EFE0"
+  brightBlack: "#FFFFFF"
+  brightRed: "#E25822"
+  brightGreen: "#14B37D"
+  brightYellow: "#F2F27A"
+  brightBlue: "#3A75C4"
+  brightMagenta: "#703FAF"
+  brightCyan: "#87D3F8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 273
+  pair: null
+  contrast:
+    fg: 43.3
+    black: 0
+    red: 36.9
+    green: 49.1
+    yellow: 94.5
+    blue: 28.7
+    magenta: 17.4
+    cyan: 73.2
+    white: 96.3
+    brightBlack: 106.9
+    brightRed: 36.9
+    brightGreen: 49.1
+    brightYellow: 94.5
+    brightBlue: 28.7
+    brightMagenta: 17.4
+    brightCyan: 73.2
+    brightWhite: 106.9

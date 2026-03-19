@@ -1,0 +1,53 @@
+name: "Claude Code Theme (Claude Code Light)"
+source:
+  marketplace_id: "ashwingopalsamy.claude-code-theme"
+  version: "1.2.2"
+  installs: 946
+  rating: 5
+  ratings: 2
+  author: "Ashwin Gopalsamy"
+  repo: "https://github.com/ashwingopalsamy/claude-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ashwingopalsamy.claude-code-theme"
+  formats: null
+colors:
+  bg: "#FAF9F5"
+  fg: "#1A1917"
+  black: "#1A1917"
+  red: "#A84B3A"
+  green: "#2E7C4C"
+  yellow: "#8A6220"
+  blue: "#207FDE"
+  magenta: "#6A5BCC"
+  cyan: "#2E5F99"
+  white: "#746E64"
+  brightBlack: "#8D877D"
+  brightRed: "#C45F4A"
+  brightGreen: "#5E8F6D"
+  brightYellow: "#9C7A39"
+  brightBlue: "#4F79A8"
+  brightMagenta: "#6D5DBD"
+  brightCyan: "#45809E"
+  brightWhite: "#4A473F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.8
+    black: 100.8
+    red: 73.9
+    green: 71.4
+    yellow: 73.4
+    blue: 63.8
+    magenta: 72.3
+    cyan: 78.5
+    white: 71.3
+    brightBlack: 59.6
+    brightRed: 64.3
+    brightGreen: 61.2
+    brightYellow: 63.5
+    brightBlue: 67.7
+    brightMagenta: 72.6
+    brightCyan: 66.3
+    brightWhite: 87.8

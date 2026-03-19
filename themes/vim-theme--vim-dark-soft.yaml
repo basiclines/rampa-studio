@@ -1,0 +1,53 @@
+name: "Vim Theme (Vim Dark Soft)"
+source:
+  marketplace_id: "HarryHopkinson.vim-theme"
+  version: "1.1.8"
+  installs: 181274
+  rating: 5
+  ratings: 8
+  author: "HarryHopkinson"
+  repo: "https://github.com/Harry-Hopkinson/vim-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HarryHopkinson.vim-theme"
+  formats: null
+colors:
+  bg: "#32302F"
+  fg: "#EBDBB2"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Vim Theme (Vim Light Soft)"
+  contrast:
+    fg: 80.2
+    black: 0
+    red: 21.1
+    green: 38.7
+    yellow: 48.3
+    blue: 27.4
+    magenta: 27.5
+    cyan: 37.7
+    white: 43
+    brightBlack: 32.2
+    brightRed: 36
+    brightGreen: 57
+    brightYellow: 67.6
+    brightBlue: 44.4
+    brightMagenta: 43.8
+    brightCyan: 55.9
+    brightWhite: 80.2

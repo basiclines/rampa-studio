@@ -1,0 +1,53 @@
+name: "Godot Theme for VS Code"
+source:
+  marketplace_id: "mariodebono.godot-4-vscode-theme"
+  version: "1.0.2"
+  installs: 909
+  rating: 5
+  ratings: 1
+  author: "Mario Debono"
+  repo: "https://github.com/mariodebono/godot-4-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mariodebono.godot-4-vscode-theme"
+  formats: null
+colors:
+  bg: "#1D2229"
+  fg: "#CDCFD2"
+  black: "#373D49"
+  red: "#EE7987"
+  green: "#66E5FF"
+  yellow: "#F9ECA8"
+  blue: "#B7FDE2"
+  magenta: "#EE7987"
+  cyan: "#82FBC6"
+  white: "#E0E0E0"
+  brightBlack: "#76787D"
+  brightRed: "#EE7987"
+  brightGreen: "#82FBC6"
+  brightYellow: "#F9ECA8"
+  brightBlue: "#B1C8FA"
+  brightMagenta: "#EE7987"
+  brightCyan: "#66E5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 257
+  pair: null
+  contrast:
+    fg: 75
+    black: 0
+    red: 47.3
+    green: 78.6
+    yellow: 92.4
+    blue: 94.7
+    magenta: 47.3
+    cyan: 88.5
+    white: 85.5
+    brightBlack: 28.6
+    brightRed: 47.3
+    brightGreen: 88.5
+    brightYellow: 92.4
+    brightBlue: 70.8
+    brightMagenta: 47.3
+    brightCyan: 78.6
+    brightWhite: 105.5

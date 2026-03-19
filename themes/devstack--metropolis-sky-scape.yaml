@@ -1,0 +1,53 @@
+name: "DevStack (Metropolis-Sky-Scape)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#333333"
+  fg: "#F4F4DD"
+  black: "#333333"
+  red: "#FF4400"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#FFBE14"
+  magenta: "#FFBE14"
+  cyan: "#29C3A0"
+  white: "#F4F4DD"
+  brightBlack: "#333333"
+  brightRed: "#FF4400"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#FFBE14"
+  brightMagenta: "#FFBE14"
+  brightCyan: "#29C3A0"
+  brightWhite: "#F4F4DD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.8
+    black: 0
+    red: 35.4
+    green: 52.8
+    yellow: 46.8
+    blue: 68.1
+    magenta: 68.1
+    cyan: 52.8
+    white: 93.8
+    brightBlack: 0
+    brightRed: 35.4
+    brightGreen: 52.8
+    brightYellow: 46.8
+    brightBlue: 68.1
+    brightMagenta: 68.1
+    brightCyan: 52.8
+    brightWhite: 93.8

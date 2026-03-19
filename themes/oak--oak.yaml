@@ -1,0 +1,54 @@
+name: "Oak (Oak)"
+source:
+  marketplace_id: "Rekihyt.oak"
+  version: "2.1.7"
+  installs: 753
+  rating: 0
+  ratings: 0
+  author: "Rekihyt"
+  repo: "https://github.com/rekihyt/oak"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rekihyt.oak"
+  formats:
+    sublime: "https://raw.githubusercontent.com/rekihyt/oak/master/tmThemes/Oak-Dark-merged.tmTheme"
+colors:
+  bg: "#F5F5F5"
+  fg: "#505050"
+  black: "#000000"
+  red: "#C26F9B"
+  green: "#52B84E"
+  yellow: "#8A671E"
+  blue: "#5086CE"
+  magenta: "#9779DF"
+  cyan: "#49B4BE"
+  white: "#FFFFFF"
+  brightBlack: "#303030"
+  brightRed: "#B44882"
+  brightGreen: "#30B040"
+  brightYellow: "#CFA957"
+  brightBlue: "#7CACE0"
+  brightMagenta: "#A493CC"
+  brightCyan: "#74C9D1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82
+    black: 100.1
+    red: 56.1
+    green: 43.2
+    yellow: 69.6
+    blue: 58.6
+    magenta: 55.7
+    cyan: 42
+    white: 0
+    brightBlack: 93.6
+    brightRed: 68
+    brightGreen: 47.9
+    brightYellow: 37.6
+    brightBlue: 40.8
+    brightMagenta: 47.2
+    brightCyan: 30.2
+    brightWhite: 0

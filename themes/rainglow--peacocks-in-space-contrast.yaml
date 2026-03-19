@@ -1,0 +1,53 @@
+name: "Rainglow (peacocks-in-space-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#121419"
+  fg: "#DEE3EC"
+  black: "#1D2028"
+  red: "#BA0E2E"
+  green: "#26A6A6"
+  yellow: "#FF5D38"
+  blue: "#BCD42A"
+  magenta: "#26A6A6"
+  cyan: "#FF5D38"
+  white: "#EEF1F5"
+  brightBlack: "#3D4354"
+  brightRed: "#F03E5F"
+  brightGreen: "#59D9D9"
+  brightYellow: "#FFB09E"
+  brightBlue: "#D7E67E"
+  brightMagenta: "#59D9D9"
+  brightCyan: "#FFB09E"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 88.8
+    black: 0
+    red: 20.8
+    green: 45.3
+    yellow: 44.7
+    blue: 72.9
+    magenta: 45.3
+    cyan: 44.7
+    white: 97.7
+    brightBlack: 8.8
+    brightRed: 37.1
+    brightGreen: 72
+    brightYellow: 70
+    brightBlue: 85.6
+    brightMagenta: 72
+    brightCyan: 70
+    brightWhite: 107.1

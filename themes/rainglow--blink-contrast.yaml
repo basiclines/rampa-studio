@@ -1,0 +1,53 @@
+name: "Rainglow (blink-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#131719"
+  fg: "#C0CCDB"
+  black: "#1E2427"
+  red: "#BA0E2E"
+  green: "#5298C4"
+  yellow: "#D4856A"
+  blue: "#43B5B3"
+  magenta: "#D4856A"
+  cyan: "#43B5B3"
+  white: "#D0D9E4"
+  brightBlack: "#3F4C53"
+  brightRed: "#F03E5F"
+  brightGreen: "#9EC5DE"
+  brightYellow: "#EBC6B9"
+  brightBlue: "#8AD4D2"
+  brightMagenta: "#EBC6B9"
+  brightCyan: "#8AD4D2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.9
+    black: 0
+    red: 20.5
+    green: 42.3
+    yellow: 46.4
+    blue: 52.8
+    magenta: 46.4
+    cyan: 52.8
+    white: 82
+    brightBlack: 11
+    brightRed: 36.8
+    brightGreen: 67.5
+    brightYellow: 75.8
+    brightBlue: 71.9
+    brightMagenta: 75.8
+    brightCyan: 71.9
+    brightWhite: 106.9

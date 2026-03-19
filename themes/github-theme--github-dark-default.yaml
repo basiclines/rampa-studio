@@ -1,0 +1,53 @@
+name: "GitHub Theme (GitHub Dark Default)"
+source:
+  marketplace_id: "GitHub.github-vscode-theme"
+  version: "6.3.5"
+  installs: 18506606
+  rating: 4.58
+  ratings: 165
+  author: "GitHub"
+  repo: "https://github.com/primer/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#E6EDF3"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#3FB950"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  pair: "GitHub Theme (GitHub Light Default)"
+  contrast:
+    fg: 95
+    black: 13.1
+    red: 52.6
+    green: 52.1
+    yellow: 52.2
+    blue: 52.2
+    magenta: 52.2
+    cyan: 61.4
+    white: 64
+    brightBlack: 29.3
+    brightRed: 64.8
+    brightGreen: 65.5
+    brightYellow: 64.7
+    brightBlue: 64.7
+    brightMagenta: 64.6
+    brightCyan: 69.9
+    brightWhite: 107.4

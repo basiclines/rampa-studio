@@ -1,0 +1,53 @@
+name: "Monochrome (monochrome-light)"
+source:
+  marketplace_id: "anotherglitchinthematrix.monochrome"
+  version: "2.4.3"
+  installs: 47972
+  rating: 4.38
+  ratings: 8
+  author: "glitch"
+  repo: "https://github.com/anotherglitchinthematrix/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=anotherglitchinthematrix.monochrome"
+  formats: null
+colors:
+  bg: "#EBEBEB"
+  fg: "#515151"
+  black: "#EBEBEB"
+  red: "#7E7E7E"
+  green: "#A9A9A9"
+  yellow: "#525252"
+  blue: "#BFBFBF"
+  magenta: "#686868"
+  cyan: "#939393"
+  white: "#3C3C3C"
+  brightBlack: "#D5D5D5"
+  brightRed: "#7E7E7E"
+  brightGreen: "#A9A9A9"
+  brightYellow: "#525252"
+  brightBlue: "#BFBFBF"
+  brightMagenta: "#686868"
+  brightCyan: "#939393"
+  brightWhite: "#101010"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 56
+    green: 34.5
+    yellow: 75.3
+    blue: 22.7
+    magenta: 66
+    cyan: 45.8
+    white: 83.7
+    brightBlack: 10.3
+    brightRed: 56
+    brightGreen: 34.5
+    brightYellow: 75.3
+    brightBlue: 22.7
+    brightMagenta: 66
+    brightCyan: 45.8
+    brightWhite: 93.6

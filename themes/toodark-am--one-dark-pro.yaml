@@ -1,0 +1,53 @@
+name: "TooDark-AM (One Dark Pro)"
+source:
+  marketplace_id: "glade-software.toodark-am-theme"
+  version: "1.0.1"
+  installs: 1040
+  rating: 5
+  ratings: 1
+  author: "glade-software"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=glade-software.toodark-am-theme"
+  formats: null
+colors:
+  bg: "#011835"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 254
+  pair: null
+  contrast:
+    fg: 59.1
+    black: 0
+    red: 41.8
+    green: 62
+    yellow: 70.3
+    blue: 54.4
+    magenta: 44.8
+    cyan: 54.3
+    white: 82.7
+    brightBlack: 35.2
+    brightRed: 38.1
+    brightGreen: 62
+    brightYellow: 70.3
+    brightBlue: 41.2
+    brightMagenta: 12.4
+    brightCyan: 54.3
+    brightWhite: 82.7

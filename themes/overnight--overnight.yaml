@@ -1,0 +1,53 @@
+name: "Overnight (Overnight)"
+source:
+  marketplace_id: "cev.overnight"
+  version: "1.8.4"
+  installs: 25657
+  rating: 5
+  ratings: 9
+  author: "cev"
+  repo: "https://github.com/cevr/overnight"
+  url: "https://marketplace.visualstudio.com/items?itemName=cev.overnight"
+  formats: null
+colors:
+  bg: "#0E1729"
+  fg: "#D6D9E0"
+  black: "#2E384D"
+  red: "#F87086"
+  green: "#BBD99E"
+  yellow: "#ECC48D"
+  blue: "#8EACE3"
+  magenta: "#C792EA"
+  cyan: "#92D8E6"
+  white: "#D6D9E0"
+  brightBlack: "#3D485F"
+  brightRed: "#FFB3B3"
+  brightGreen: "#C9E2AF"
+  brightYellow: "#ECC48D"
+  brightBlue: "#ACD1F5"
+  brightMagenta: "#CCB3FF"
+  brightCyan: "#A5E0EC"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 263
+  pair: null
+  contrast:
+    fg: 82.4
+    black: 0
+    red: 48.4
+    green: 76.7
+    yellow: 73.6
+    blue: 55.9
+    magenta: 53.7
+    cyan: 75.2
+    white: 82.4
+    brightBlack: 10.2
+    brightRed: 71.4
+    brightGreen: 82.9
+    brightYellow: 73.6
+    brightBlue: 75.2
+    brightMagenta: 67.2
+    brightCyan: 80.8
+    brightWhite: 98.3

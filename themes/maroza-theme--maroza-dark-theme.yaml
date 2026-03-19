@@ -1,0 +1,53 @@
+name: "Maroza Theme (Maroza Dark Theme)"
+source:
+  marketplace_id: "thirawat27.maroza-theme"
+  version: "1.0.4"
+  installs: 333
+  rating: 5
+  ratings: 2
+  author: "thirawat27"
+  repo: "https://github.com/thirawat27/maroza-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thirawat27.maroza-theme"
+  formats: null
+colors:
+  bg: "#0C1021"
+  fg: "#D3D3D3"
+  black: "#3C4048"
+  red: "#FF6E6E"
+  green: "#7BD88F"
+  yellow: "#E7C36F"
+  blue: "#58A6FF"
+  magenta: "#D77BE2"
+  cyan: "#4CA3B2"
+  white: "#E4E4E7"
+  brightBlack: "#8892B0"
+  brightRed: "#FF9E9E"
+  brightGreen: "#98E4A9"
+  brightYellow: "#F0D58F"
+  brightBlue: "#67E8F9"
+  brightMagenta: "#E699FF"
+  brightCyan: "#65D9EF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 272
+  pair: "Maroza Theme (Maroza Light Theme)"
+  contrast:
+    fg: 79.3
+    black: 7.9
+    red: 49.3
+    green: 70.7
+    yellow: 72.3
+    blue: 52.2
+    magenta: 49.5
+    cyan: 45.9
+    white: 90
+    brightBlack: 43.3
+    brightRed: 64
+    brightGreen: 79.4
+    brightYellow: 82
+    brightBlue: 81.6
+    brightMagenta: 62.6
+    brightCyan: 73.8
+    brightWhite: 107.3

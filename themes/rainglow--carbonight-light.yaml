@@ -1,0 +1,53 @@
+name: "Rainglow (carbonight-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#2E2C2B"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#C4C4C4"
+  yellow: "#8C8C8C"
+  blue: "#222222"
+  magenta: "#555555"
+  cyan: "#222222"
+  white: "#3B3937"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#F7F7F7"
+  brightYellow: "#BFBFBF"
+  brightBlue: "#555555"
+  brightMagenta: "#888888"
+  brightCyan: "#555555"
+  brightWhite: "#635E5C"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.5
+    black: 0
+    red: 80.3
+    green: 31.8
+    yellow: 61.1
+    blue: 102.9
+    magenta: 85.9
+    cyan: 102.9
+    white: 96.5
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 0
+    brightYellow: 34.5
+    brightBlue: 85.9
+    brightMagenta: 63.1
+    brightCyan: 85.9
+    brightWhite: 81.8

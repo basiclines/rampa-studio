@@ -1,0 +1,53 @@
+name: "Bee Theme (bee-theme-color-theme-tow)"
+source:
+  marketplace_id: "eulukasthyago.bee-theme"
+  version: "2.0.0"
+  installs: 1473
+  rating: 5
+  ratings: 2
+  author: "Lucas Tiago"
+  repo: "https://github.com/webcolmeia/bee-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eulukasthyago.bee-theme"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104.2
+    black: 0
+    red: 46.3
+    green: 83.9
+    yellow: 78.6
+    blue: 55.6
+    magenta: 53.4
+    cyan: 77.9
+    white: 106.5
+    brightBlack: 10.6
+    brightRed: 46.3
+    brightGreen: 83.9
+    brightYellow: 78.6
+    brightBlue: 55.6
+    brightMagenta: 53.4
+    brightCyan: 77.9
+    brightWhite: 106.5

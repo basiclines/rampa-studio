@@ -1,0 +1,53 @@
+name: "Cool-girls-theme"
+source:
+  marketplace_id: "suwanqing.girls-theme"
+  version: "0.0.2"
+  installs: 5263
+  rating: 5
+  ratings: 2
+  author: "suwanqing"
+  repo: "https://github.com/sususususususs/girls-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=suwanqing.girls-theme"
+  formats: null
+colors:
+  bg: "#123555"
+  fg: "#E1EED2"
+  black: "#353551"
+  red: "#E34F8C"
+  green: "#FEADA6"
+  yellow: "#F8C275"
+  blue: "#C7ADFB"
+  magenta: "#FF69B4"
+  cyan: "#24E8D8"
+  white: "#FBD3E1"
+  brightBlack: "#919CB9"
+  brightRed: "#F36F89"
+  brightGreen: "#AFFA90"
+  brightYellow: "#F8C275"
+  brightBlue: "#74D6E9"
+  brightMagenta: "#F799C7"
+  brightCyan: "#8DF9F9"
+  brightWhite: "#D7D6DF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 32.5
+    green: 63.6
+    yellow: 69.2
+    blue: 59
+    magenta: 45
+    cyan: 72.6
+    white: 80.1
+    brightBlack: 42.7
+    brightRed: 42.1
+    brightGreen: 86
+    brightYellow: 69.2
+    brightBlue: 67.3
+    brightMagenta: 56.9
+    brightCyan: 86.6
+    brightWhite: 76.1

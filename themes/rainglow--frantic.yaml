@@ -1,0 +1,53 @@
+name: "Rainglow (frantic)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#252C33"
+  fg: "#AEB9C4"
+  black: "#303942"
+  red: "#BA0E2E"
+  green: "#EF6462"
+  yellow: "#89A7BC"
+  blue: "#E6EAEF"
+  magenta: "#EF6462"
+  cyan: "#89A7BC"
+  white: "#BDC6CF"
+  brightBlack: "#505F6E"
+  brightRed: "#F03E5F"
+  brightGreen: "#F8BFBF"
+  brightYellow: "#CAD8E1"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#F8BFBF"
+  brightCyan: "#CAD8E1"
+  brightWhite: "#E9ECEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 59.7
+    black: 0
+    red: 17.4
+    green: 39.8
+    yellow: 48.4
+    blue: 89.8
+    magenta: 39.8
+    cyan: 48.4
+    white: 67.3
+    brightBlack: 15.4
+    brightRed: 33.7
+    brightGreen: 72.2
+    brightYellow: 77.5
+    brightBlue: 103.8
+    brightMagenta: 72.2
+    brightCyan: 77.5
+    brightWhite: 91.1

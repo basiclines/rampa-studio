@@ -1,0 +1,53 @@
+name: "Rainglow (mintchoc)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#2B221C"
+  fg: "#BABABA"
+  black: "#3A2E26"
+  red: "#BA0E2E"
+  green: "#9D8262"
+  yellow: "#008D62"
+  blue: "#00E08C"
+  magenta: "#9D8262"
+  cyan: "#008D62"
+  white: "#C7C7C7"
+  brightBlack: "#695344"
+  brightRed: "#F03E5F"
+  brightGreen: "#C4B4A1"
+  brightYellow: "#00F3A9"
+  brightBlue: "#47FFBA"
+  brightMagenta: "#C4B4A1"
+  brightCyan: "#00F3A9"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 55
+  pair: null
+  contrast:
+    fg: 62.5
+    black: 0
+    red: 18.8
+    green: 35.2
+    yellow: 30.5
+    blue: 69.1
+    magenta: 35.2
+    cyan: 30.5
+    white: 70
+    brightBlack: 14.4
+    brightRed: 35.1
+    brightGreen: 60.4
+    brightYellow: 79.6
+    brightBlue: 87.2
+    brightMagenta: 60.4
+    brightCyan: 79.6
+    brightWhite: 93.4

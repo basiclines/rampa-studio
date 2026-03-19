@@ -1,0 +1,53 @@
+name: "A Colorful GitHub Theme Pack (A GitHub Dark Dimmed 4 🔵 Blue)"
+source:
+  marketplace_id: "markmiro.colorful-github-vscode-theme"
+  version: "6.8.0"
+  installs: 894
+  rating: 5
+  ratings: 1
+  author: "Mark Miro"
+  repo: "https://github.com/markmiro/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=markmiro.colorful-github-vscode-theme"
+  formats: null
+colors:
+  bg: "#1B2832"
+  fg: "#A6BCCC"
+  black: "#4D5F6C"
+  red: "#EF7756"
+  green: "#42AD6E"
+  yellow: "#BA962E"
+  blue: "#6E96F2"
+  magenta: "#BC80E2"
+  cyan: "#49C2D8"
+  white: "#889FB0"
+  brightBlack: "#5B707F"
+  brightRed: "#FB987E"
+  brightGreen: "#56C682"
+  brightYellow: "#CDB048"
+  brightBlue: "#81B1FE"
+  brightMagenta: "#E4BBF2"
+  brightCyan: "#62D1E6"
+  brightWhite: "#C6DBEA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 61.3
+    black: 16
+    red: 45
+    green: 44.7
+    yellow: 44.8
+    blue: 43.8
+    magenta: 43.9
+    cyan: 58.2
+    white: 45.5
+    brightBlack: 23
+    brightRed: 57.7
+    brightGreen: 57.2
+    brightYellow: 57.6
+    brightBlue: 56.3
+    brightMagenta: 70.8
+    brightCyan: 66.8
+    brightWhite: 79.7

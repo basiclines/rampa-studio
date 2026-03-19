@@ -1,0 +1,53 @@
+name: "Unicorn Dark Theme"
+source:
+  marketplace_id: "MarfahTechnologies.unicorn-dark"
+  version: "1.0.0"
+  installs: 217
+  rating: 5
+  ratings: 2
+  author: "Marfah Technologies"
+  repo: "https://github.com/FahadQasim283/unicorn-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MarfahTechnologies.unicorn-dark"
+  formats: null
+colors:
+  bg: "#131212"
+  fg: "#D4D4D4"
+  black: "#E8ACAC"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E4B23D"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E6D577"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.9
+    black: 65.2
+    red: 27.1
+    green: 53.4
+    yellow: 86
+    blue: 27.8
+    magenta: 30.2
+    cyan: 48
+    white: 64.4
+    brightBlack: 22.4
+    brightRed: 39
+    brightGreen: 63.9
+    brightYellow: 96
+    brightBlue: 40.4
+    brightMagenta: 45.8
+    brightCyan: 55.8
+    brightWhite: 79.9

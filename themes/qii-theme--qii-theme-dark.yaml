@@ -1,0 +1,53 @@
+name: "Qii Theme (Qii Theme Dark)"
+source:
+  marketplace_id: "qiqi29.qii-theme"
+  version: "1.6.4"
+  installs: 3885
+  rating: 5
+  ratings: 2
+  author: "qiqi29"
+  repo: "https://github.com/Qiqi29/qii-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=qiqi29.qii-theme"
+  formats: null
+colors:
+  bg: "#18191B"
+  fg: "#CACBD4"
+  black: "#2D3139"
+  red: "#E68096"
+  green: "#A7E28B"
+  yellow: "#E2B77E"
+  blue: "#82B8FA"
+  magenta: "#C589E0"
+  cyan: "#75CAD3"
+  white: "#CACBD4"
+  brightBlack: "#7F848E"
+  brightRed: "#E68096"
+  brightGreen: "#A7E28B"
+  brightYellow: "#E2B77E"
+  brightBlue: "#82B8FA"
+  brightMagenta: "#C589E0"
+  brightCyan: "#75CAD3"
+  brightWhite: "#CACBD4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.1
+    black: 0
+    red: 49.2
+    green: 78.2
+    yellow: 66.4
+    blue: 61
+    magenta: 49.8
+    cyan: 65.7
+    white: 74.1
+    brightBlack: 35.3
+    brightRed: 49.2
+    brightGreen: 78.2
+    brightYellow: 66.4
+    brightBlue: 61
+    brightMagenta: 49.8
+    brightCyan: 65.7
+    brightWhite: 74.1

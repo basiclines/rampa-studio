@@ -1,0 +1,53 @@
+name: "Nightfox (Nightfox)"
+source:
+  marketplace_id: "keifererikson.nightfox"
+  version: "0.0.14"
+  installs: 17396
+  rating: 5
+  ratings: 3
+  author: "Keifer Erikson"
+  repo: "https://github.com/keifererikson/vscode-nightfox"
+  url: "https://marketplace.visualstudio.com/items?itemName=keifererikson.nightfox"
+  formats: null
+colors:
+  bg: "#192330"
+  fg: "#CDCECF"
+  black: "#393B44"
+  red: "#C94F6D"
+  green: "#81B29A"
+  yellow: "#DBC074"
+  blue: "#719CD6"
+  magenta: "#9D79D6"
+  cyan: "#63CDCF"
+  white: "#DFDFE0"
+  brightBlack: "#484A55"
+  brightRed: "#D16982"
+  brightGreen: "#90C7AC"
+  brightYellow: "#E0C989"
+  brightBlue: "#86ABDC"
+  brightMagenta: "#BAA1E2"
+  brightCyan: "#7AD4D6"
+  brightWhite: "#E3E3E4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 255
+  pair: null
+  contrast:
+    fg: 74.3
+    black: 0
+    red: 29.7
+    green: 52.4
+    yellow: 67.4
+    blue: 45.1
+    magenta: 37.6
+    cyan: 64.6
+    white: 84.8
+    brightBlack: 9.6
+    brightRed: 37.4
+    brightGreen: 63.4
+    brightYellow: 72.4
+    brightBlue: 52.9
+    brightMagenta: 55.1
+    brightCyan: 69.4
+    brightWhite: 87.3

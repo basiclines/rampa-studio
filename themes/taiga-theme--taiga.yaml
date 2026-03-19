@@ -1,0 +1,55 @@
+name: "Taiga Theme (Taiga)"
+source:
+  marketplace_id: "joshdales.taiga-theme"
+  version: "4.0.2"
+  installs: 1413
+  rating: 5
+  ratings: 3
+  author: "Josh Dales"
+  repo: "https://github.com/joshdales/taiga-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=joshdales.taiga-theme"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/joshdales/taiga-theme/main/packages/ghostty/taiga-dark..ini"
+    zed: "https://raw.githubusercontent.com/joshdales/taiga-theme/main/src/templates/zed/theme.json"
+colors:
+  bg: "#000924"
+  fg: "#D3DEF5"
+  black: "#0F171F"
+  red: "#FF6551"
+  green: "#51B67A"
+  yellow: "#F0B135"
+  blue: "#59A0F9"
+  magenta: "#B17EFF"
+  cyan: "#43B2AC"
+  white: "#A4AEC4"
+  brightBlack: "#5A6377"
+  brightRed: "#FFA191"
+  brightGreen: "#72D699"
+  brightYellow: "#FFD896"
+  brightBlue: "#91C1FF"
+  brightMagenta: "#C9ACFF"
+  brightCyan: "#67D2CC"
+  brightWhite: "#D3DEF5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 86
+    black: 0
+    red: 47
+    green: 52.4
+    yellow: 66.2
+    blue: 49.7
+    magenta: 46.8
+    cyan: 51.8
+    white: 58
+    brightBlack: 21.4
+    brightRed: 64.8
+    brightGreen: 69.7
+    brightYellow: 86
+    brightBlue: 67.2
+    brightMagenta: 65
+    brightCyan: 69.1
+    brightWhite: 86

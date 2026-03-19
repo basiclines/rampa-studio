@@ -1,0 +1,53 @@
+name: "HeadFox Dark"
+source:
+  marketplace_id: "Meuid3.headfox-theme"
+  version: "1.0.1"
+  installs: 281
+  rating: 0
+  ratings: 0
+  author: "meuid3"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Meuid3.headfox-theme"
+  formats: null
+colors:
+  bg: "#303845"
+  fg: "#B4BDCD"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 59.4
+    black: 0
+    red: 20.6
+    green: 46.8
+    yellow: 79.5
+    blue: 21.3
+    magenta: 23.6
+    cyan: 41.4
+    white: 83.9
+    brightBlack: 15.9
+    brightRed: 32.4
+    brightGreen: 57.4
+    brightYellow: 89.5
+    brightBlue: 33.8
+    brightMagenta: 39.2
+    brightCyan: 49.2
+    brightWhite: 83.9

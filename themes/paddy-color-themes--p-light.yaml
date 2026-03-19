@@ -1,0 +1,53 @@
+name: "Paddy Color Themes (P. \ Light)"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74833
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+  formats: null
+colors:
+  bg: "#F3E7E2"
+  fg: "#423926"
+  black: "#000000"
+  red: "#B61702"
+  green: "#068020"
+  yellow: "#EE8F13"
+  blue: "#3465A5"
+  magenta: "#C40B48"
+  cyan: "#08A087"
+  white: "#CFB5A9"
+  brightBlack: "#5C5442"
+  brightRed: "#D43E2A"
+  brightGreen: "#1B9E47"
+  brightYellow: "#FFC936"
+  brightBlue: "#3A89D3"
+  brightMagenta: "#FF246D"
+  brightCyan: "#1BDFBE"
+  brightWhite: "#FAE8E0"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: 44
+  pair: null
+  contrast:
+    fg: 83.4
+    black: 93.2
+    red: 68.3
+    green: 61.7
+    yellow: 34.9
+    blue: 66.5
+    magenta: 64.9
+    cyan: 46.8
+    white: 24.3
+    brightBlack: 73.2
+    brightRed: 58.1
+    brightGreen: 49
+    brightYellow: 11.8
+    brightBlue: 51.2
+    brightMagenta: 49.3
+    brightCyan: 16.9
+    brightWhite: 0

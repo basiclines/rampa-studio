@@ -1,0 +1,53 @@
+name: "Ttera Themes (Cyberpunk)"
+source:
+  marketplace_id: "sserafy.ttera-themes"
+  version: "2.0.7"
+  installs: 2054
+  rating: 5
+  ratings: 1
+  author: "sserafy"
+  repo: "https://github.com/azhou555/naturefy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ttera-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF007F"
+  green: "#39FF14"
+  yellow: "#FFFF00"
+  blue: "#1B03A3"
+  magenta: "#8A2BE2"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#FF3399"
+  brightGreen: "#66FF33"
+  brightYellow: "#FFFF66"
+  brightBlue: "#3366FF"
+  brightMagenta: "#CC66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 39.2
+    green: 87
+    yellow: 102.7
+    blue: 0
+    magenta: 23.3
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 0
+    brightRed: 42
+    brightGreen: 88.5
+    brightYellow: 103.3
+    brightBlue: 29.9
+    brightMagenta: 45.2
+    brightCyan: 94
+    brightWhite: 107.9

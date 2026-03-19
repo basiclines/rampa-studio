@@ -1,0 +1,53 @@
+name: "nb monochrome"
+source:
+  marketplace_id: "nicco.n234234"
+  version: "0.2.0"
+  installs: 416
+  rating: 5
+  ratings: 1
+  author: "nicco"
+  repo: "https://github.com/nicco-b/n"
+  url: "https://marketplace.visualstudio.com/items?itemName=nicco.n234234"
+  formats: null
+colors:
+  bg: "#1D1D1B"
+  fg: "#EBEBEB"
+  black: "#1D1D1B"
+  red: "#E88388"
+  green: "#98C379"
+  yellow: "#EACB8D"
+  blue: "#71BBEF"
+  magenta: "#D290E4"
+  cyan: "#66C2CD"
+  white: "#B9BFCB"
+  brightBlack: "#313131"
+  brightRed: "#E88388"
+  brightGreen: "#A7CB8C"
+  brightYellow: "#E3CA7F"
+  brightBlue: "#72BEF3"
+  brightMagenta: "#D191E4"
+  brightCyan: "#64C2CD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.1
+    black: 0
+    red: 49.5
+    green: 61.6
+    yellow: 75.6
+    blue: 59.9
+    magenta: 53.7
+    cyan: 60.5
+    white: 66.2
+    brightBlack: 0
+    brightRed: 49.5
+    brightGreen: 67.1
+    brightYellow: 73.8
+    brightBlue: 61.5
+    brightMagenta: 53.9
+    brightCyan: 60.4
+    brightWhite: 106.2

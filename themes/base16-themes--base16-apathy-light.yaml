@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Apathy Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#D2E7E4"
+  fg: "#184E45"
+  black: "#81B5AC"
+  red: "#3E9688"
+  green: "#883E96"
+  yellow: "#3E7996"
+  blue: "#96883E"
+  magenta: "#4C963E"
+  cyan: "#963E4C"
+  white: "#0B342D"
+  brightBlack: "#5F9C92"
+  brightRed: "#3E9688"
+  brightGreen: "#883E96"
+  brightYellow: "#3E4C96"
+  brightBlue: "#96883E"
+  brightMagenta: "#4C963E"
+  brightCyan: "#963E4C"
+  brightWhite: "#031A16"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 186
+  pair: null
+  contrast:
+    fg: 74.9
+    black: 28.5
+    red: 46
+    green: 65.4
+    yellow: 56.3
+    blue: 46.4
+    magenta: 47.2
+    cyan: 66.1
+    white: 83.2
+    brightBlack: 41.8
+    brightRed: 46
+    brightGreen: 65.4
+    brightYellow: 70.2
+    brightBlue: 46.4
+    brightMagenta: 47.2
+    brightCyan: 66.1
+    brightWhite: 87.9

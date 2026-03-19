@@ -1,0 +1,53 @@
+name: "Horizon Extended Theme (Horizon Extended)"
+source:
+  marketplace_id: "LanceWilhelm.horizon-extended"
+  version: "1.1.1"
+  installs: 25398
+  rating: 4.8
+  ratings: 10
+  author: "Lance Wilhelm"
+  repo: "https://github.com/lancewilhelm/horizon-extended"
+  url: "https://marketplace.visualstudio.com/items?itemName=LanceWilhelm.horizon-extended"
+  formats: null
+colors:
+  bg: "#1C1E26"
+  fg: "#D5D8DA"
+  black: "#565C75"
+  red: "#D68492"
+  green: "#9EC08A"
+  yellow: "#E0CAA3"
+  blue: "#389EA8"
+  magenta: "#B08EC2"
+  cyan: "#E9C4A9"
+  white: "#E39D90"
+  brightBlack: "#414557"
+  brightRed: "#F6637C"
+  brightGreen: "#99D279"
+  brightYellow: "#F8D28A"
+  brightBlue: "#21B1BE"
+  brightMagenta: "#B774DC"
+  brightCyan: "#F9C199"
+  brightWhite: "#F88E7C"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 80.8
+    black: 17.4
+    red: 46.7
+    green: 61.1
+    yellow: 74.1
+    blue: 41.3
+    magenta: 46.1
+    cyan: 73.2
+    white: 56.8
+    brightBlack: 8.6
+    brightRed: 44
+    brightGreen: 68.3
+    brightYellow: 80.5
+    brightBlue: 49.9
+    brightMagenta: 40.8
+    brightCyan: 74.1
+    brightWhite: 55.3

@@ -1,0 +1,53 @@
+name: "Hibiscus Theme"
+source:
+  marketplace_id: "colinlienard.hibiscus-theme"
+  version: "0.3.1"
+  installs: 1246
+  rating: 5
+  ratings: 3
+  author: "Colin Lienard"
+  repo: "https://github.com/colinlienard/hibiscus-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=colinlienard.hibiscus-theme"
+  formats: null
+colors:
+  bg: "#1F1F1F"
+  fg: "#9FABB1"
+  black: "#181818"
+  red: "#993D3D"
+  green: "#1E7C4D"
+  yellow: "#AC8747"
+  blue: "#2E6E9C"
+  magenta: "#7260AA"
+  cyan: "#2B9088"
+  white: "#D6DFE4"
+  brightBlack: "#232424"
+  brightRed: "#C16565"
+  brightGreen: "#46A475"
+  brightYellow: "#D4AF6F"
+  brightBlue: "#5696C4"
+  brightMagenta: "#9A88D2"
+  brightCyan: "#53B8B0"
+  brightWhite: "#D6DFE4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 53.7
+    black: 0
+    red: 17.1
+    green: 24.4
+    yellow: 39.1
+    blue: 22.6
+    magenta: 23.6
+    cyan: 34
+    white: 84.3
+    brightBlack: 0
+    brightRed: 33.2
+    brightGreen: 42.4
+    brightYellow: 60
+    brightBlue: 40.7
+    brightMagenta: 42.2
+    brightCyan: 53.5
+    brightWhite: 84.3

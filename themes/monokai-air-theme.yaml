@@ -1,0 +1,53 @@
+name: "Monokai Air Theme"
+source:
+  marketplace_id: "destcode.monokai-air"
+  version: "1.0.1"
+  installs: 214
+  rating: 5
+  ratings: 1
+  author: "destcode"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=destcode.monokai-air"
+  formats: null
+colors:
+  bg: "#232421"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.3
+    black: 0
+    red: 22.9
+    green: 51.3
+    yellow: 56
+    blue: 33
+    magenta: 30.5
+    cyan: 48.8
+    white: 86.8
+    brightBlack: 20.4
+    brightRed: 35.6
+    brightGreen: 75.3
+    brightYellow: 82.2
+    brightBlue: 48.2
+    brightMagenta: 44.9
+    brightCyan: 71.7
+    brightWhite: 100.3

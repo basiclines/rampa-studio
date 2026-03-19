@@ -1,0 +1,53 @@
+name: "Eldritch (Eldritch)"
+source:
+  marketplace_id: "Eldritch.eldritch"
+  version: "1.1.1"
+  installs: 1479
+  rating: 0
+  ratings: 0
+  author: "Eldritch"
+  repo: "https://github.com/eldritch-theme/eldritch"
+  url: "https://marketplace.visualstudio.com/items?itemName=Eldritch.eldritch"
+  formats: null
+colors:
+  bg: "#212337"
+  fg: "#EBFAFA"
+  black: "#21222C"
+  red: "#F9515D"
+  green: "#37F499"
+  yellow: "#E9F941"
+  blue: "#9071F4"
+  magenta: "#F265B5"
+  cyan: "#04D1F9"
+  white: "#EBFAFA"
+  brightBlack: "#7081D0"
+  brightRed: "#F16C75"
+  brightGreen: "#69F8B3"
+  brightYellow: "#F1FC79"
+  brightBlue: "#A48CF2"
+  brightMagenta: "#FD92CE"
+  brightCyan: "#66E4FD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 99.7
+    black: 0
+    red: 39.6
+    green: 80
+    yellow: 94.1
+    blue: 35.7
+    magenta: 44.7
+    cyan: 66.3
+    white: 99.7
+    brightBlack: 34.8
+    brightRed: 43.7
+    brightGreen: 84.4
+    brightYellow: 97.3
+    brightBlue: 45.9
+    brightMagenta: 59.5
+    brightCyan: 77.6
+    brightWhite: 105

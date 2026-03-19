@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Cartethyia)"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#FAFCFD"
+  fg: "#2C3845"
+  black: "#2C3845"
+  red: "#C86868"
+  green: "#60A880"
+  yellow: "#D4A860"
+  blue: "#4888C0"
+  magenta: "#A878C0"
+  cyan: "#6BA8D8"
+  white: "#E8F2F8"
+  brightBlack: "#586878"
+  brightRed: "#D87878"
+  brightGreen: "#70B890"
+  brightYellow: "#E4B870"
+  brightBlue: "#5898C8"
+  brightMagenta: "#B888D0"
+  brightCyan: "#88C8F0"
+  brightWhite: "#F2F8FC"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.3
+    black: 95.3
+    red: 62.4
+    green: 52.2
+    yellow: 41.1
+    blue: 63.1
+    magenta: 59.7
+    cyan: 47.9
+    white: 0
+    brightBlack: 76.6
+    brightRed: 55
+    brightGreen: 44.2
+    brightYellow: 32.6
+    brightBlue: 56
+    brightMagenta: 51.9
+    brightCyan: 31.7
+    brightWhite: 0

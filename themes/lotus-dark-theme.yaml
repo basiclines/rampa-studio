@@ -1,0 +1,53 @@
+name: "Lotus Dark Theme"
+source:
+  marketplace_id: "Birdlinux.lotus-dark-theme"
+  version: "0.1.1"
+  installs: 1934
+  rating: 5
+  ratings: 1
+  author: "Birdlinux"
+  repo: "https://github.com/birdlinux/lotus-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Birdlinux.lotus-dark-theme"
+  formats: null
+colors:
+  bg: "#11111B"
+  fg: "#CDD6F4"
+  black: "#756E87"
+  red: "#8C82A6"
+  green: "#9F94BC"
+  yellow: "#ADA2C9"
+  blue: "#9F94BC"
+  magenta: "#CCC4E4"
+  cyan: "#DDD7EF"
+  white: "#F4F1FA"
+  brightBlack: "#756E87"
+  brightRed: "#8C82A6"
+  brightGreen: "#9F94BC"
+  brightYellow: "#ADA2C9"
+  brightBlue: "#9F94BC"
+  brightMagenta: "#CCC4E4"
+  brightCyan: "#DDD7EF"
+  brightWhite: "#F4F1FA"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 81.5
+    black: 27.5
+    red: 37.7
+    green: 47
+    yellow: 54.4
+    blue: 47
+    magenta: 72.9
+    cyan: 83.7
+    white: 99
+    brightBlack: 27.5
+    brightRed: 37.7
+    brightGreen: 47
+    brightYellow: 54.4
+    brightBlue: 47
+    brightMagenta: 72.9
+    brightCyan: 83.7
+    brightWhite: 99

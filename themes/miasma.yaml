@@ -1,0 +1,53 @@
+name: "Miasma"
+source:
+  marketplace_id: "wavebeem.miasma-vscode"
+  version: "0.2.0"
+  installs: 1184
+  rating: 0
+  ratings: 0
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/miasma-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.miasma-vscode"
+  formats: null
+colors:
+  bg: "#12362A"
+  fg: "#A8F0D8"
+  black: "#295647"
+  red: "#F28C9D"
+  green: "#BEF76E"
+  yellow: "#F09E75"
+  blue: "#86ACF9"
+  magenta: "#E18CF2"
+  cyan: "#6EF7F7"
+  white: "#EDE3DE"
+  brightBlack: "#295647"
+  brightRed: "#F28C9D"
+  brightGreen: "#BEF76E"
+  brightYellow: "#F09E75"
+  brightBlue: "#86ACF9"
+  brightMagenta: "#E18CF2"
+  brightCyan: "#6EF7F7"
+  brightWhite: "#EDE3DE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 168
+  pair: null
+  contrast:
+    fg: 83.6
+    black: 8.3
+    red: 51.2
+    green: 86.2
+    yellow: 55.4
+    blue: 52.4
+    magenta: 52.3
+    cyan: 84.6
+    white: 85.7
+    brightBlack: 8.3
+    brightRed: 51.2
+    brightGreen: 86.2
+    brightYellow: 55.4
+    brightBlue: 52.4
+    brightMagenta: 52.3
+    brightCyan: 84.6
+    brightWhite: 85.7

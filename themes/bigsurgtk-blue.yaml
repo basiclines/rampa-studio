@@ -1,0 +1,53 @@
+name: "BigSurGTK-Blue"
+source:
+  marketplace_id: "zeriax.bigsurgtk-blue"
+  version: "0.0.2"
+  installs: 1249
+  rating: 0
+  ratings: 0
+  author: "zeriax"
+  repo: "https://github.com/zeriaxdev/bigsurgtk-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=zeriax.bigsurgtk-blue"
+  formats: null
+colors:
+  bg: "#191F22"
+  fg: "#FBE179"
+  black: "#050606"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#D5F1FF"
+  brightBlack: "#354147"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#ECF9FF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 229
+  pair: null
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 25.9
+    green: 52.2
+    yellow: 84.8
+    blue: 26.6
+    magenta: 28.9
+    cyan: 46.7
+    white: 94
+    brightBlack: 0
+    brightRed: 37.7
+    brightGreen: 62.7
+    brightYellow: 94.8
+    brightBlue: 39.2
+    brightMagenta: 44.5
+    brightCyan: 54.6
+    brightWhite: 100.6

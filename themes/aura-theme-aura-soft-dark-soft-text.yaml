@@ -1,0 +1,62 @@
+name: "Aura Theme (Aura Soft Dark (Soft Text))"
+source:
+  marketplace_id: "DaltonMenezes.aura-theme"
+  version: "2.1.2"
+  installs: 560307
+  rating: 4.95
+  ratings: 43
+  author: "Dalton Menezes"
+  repo: "https://github.com/daltonmenezes/aura-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/iterm/aura-theme-soft.itermcolors"
+    alacritty: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/alacritty/aura-theme.toml"
+    kitty: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/kitty/aura-theme.conf"
+    windows-terminal: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/windows-terminal/aura-theme-soft-dark-soft-text.json"
+    warp: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/warp/aura-theme.yaml"
+    hyper: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/hyper/index.js"
+    xcode: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/xcode/Aura Dark (Soft Text).xccolortheme"
+    nvim: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/neovim/lua/aura-theme/common/color.lua"
+    sublime: "https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/sublime-text/aura-theme-soft.tmTheme"
+colors:
+  bg: "#21202E"
+  fg: "#BDBDBD"
+  black: "#21202E"
+  red: "#C55858"
+  green: "#54C59F"
+  yellow: "#C7A06F"
+  blue: "#8464C6"
+  magenta: "#54C59F"
+  cyan: "#8464C6"
+  white: "#B4B4B4"
+  brightBlack: "#444444"
+  brightRed: "#C7A06F"
+  brightGreen: "#8464C6"
+  brightYellow: "#C7A06F"
+  brightBlue: "#8464C6"
+  brightMagenta: "#54C59F"
+  brightCyan: "#54C59F"
+  brightWhite: "#BDBDBD"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 288
+  pair: null
+  contrast:
+    fg: 64.5
+    black: 0
+    red: 30.3
+    green: 58.4
+    yellow: 52.1
+    blue: 28
+    magenta: 58.4
+    cyan: 28
+    white: 59.4
+    brightBlack: 7.5
+    brightRed: 52.1
+    brightGreen: 28
+    brightYellow: 52.1
+    brightBlue: 28
+    brightMagenta: 58.4
+    brightCyan: 58.4
+    brightWhite: 64.5

@@ -1,0 +1,53 @@
+name: "Nebula Theme"
+source:
+  marketplace_id: "ChirtleLovesDolls.nebula-theme"
+  version: "1.3.3"
+  installs: 146180
+  rating: 5
+  ratings: 17
+  author: "ChirtleLovesDolls"
+  repo: "https://github.com/eating-coleslaw/vscode-nebula-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ChirtleLovesDolls.nebula-theme"
+  formats: null
+colors:
+  bg: "#27273A"
+  fg: "#FCF6FF"
+  black: "#353551"
+  red: "#E34F8C"
+  green: "#97F36D"
+  yellow: "#F8C275"
+  blue: "#C7ADFB"
+  magenta: "#E752A1"
+  cyan: "#24E8D8"
+  white: "#FBD3E1"
+  brightBlack: "#919CB9"
+  brightRed: "#F36F98"
+  brightGreen: "#AFFA90"
+  brightYellow: "#FAFAA0"
+  brightBlue: "#74D6E9"
+  brightMagenta: "#F799C7"
+  brightCyan: "#8DF9F9"
+  brightWhite: "#D7D6DF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 35
+    green: 82.2
+    yellow: 71.7
+    blue: 61.5
+    magenta: 37.2
+    cyan: 75.1
+    white: 82.6
+    brightBlack: 45.2
+    brightRed: 45.1
+    brightGreen: 88.5
+    brightYellow: 97.7
+    brightBlue: 69.8
+    brightMagenta: 59.4
+    brightCyan: 89.2
+    brightWhite: 78.6

@@ -1,0 +1,53 @@
+name: "Firefox Theme"
+source:
+  marketplace_id: "Heron.firefox-devtools-theme"
+  version: "4.10.8"
+  installs: 182652
+  rating: 5
+  ratings: 13
+  author: "Heron Silva"
+  repo: "https://github.com/firefox-theme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
+  formats: null
+colors:
+  bg: "#2A2A2E"
+  fg: "#B1B1B3"
+  black: "#2A2A2E"
+  red: "#CC3D3D"
+  green: "#86DE74"
+  yellow: "#FCE2A1"
+  blue: "#6B89FF"
+  magenta: "#FF7DE9"
+  cyan: "#0A84FF"
+  white: "#FFFFFF"
+  brightBlack: "#0C0C0D"
+  brightRed: "#CC3D3D"
+  brightGreen: "#86DE74"
+  brightYellow: "#FCE2A1"
+  brightBlue: "#6B89FF"
+  brightMagenta: "#FF7DE9"
+  brightCyan: "#0A84FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.3
+    black: 0
+    red: 25.1
+    green: 70.4
+    yellow: 86.6
+    blue: 39.4
+    magenta: 54.6
+    cyan: 34.5
+    white: 104
+    brightBlack: 0
+    brightRed: 25.1
+    brightGreen: 70.4
+    brightYellow: 86.6
+    brightBlue: 39.4
+    brightMagenta: 54.6
+    brightCyan: 34.5
+    brightWhite: 104

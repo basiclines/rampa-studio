@@ -1,0 +1,53 @@
+name: "YoRHa Theme"
+source:
+  marketplace_id: "ayms-data.theme-themer-vscode"
+  version: "2.4.0"
+  installs: 1490
+  rating: 0
+  ratings: 0
+  author: "Ayman Sahyoun"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ayms-data.theme-themer-vscode"
+  formats: null
+colors:
+  bg: "#BCB791"
+  fg: "#4A5246"
+  black: "#BCB791"
+  red: "#B56151"
+  green: "#FFEDBC"
+  yellow: "#BA6714"
+  blue: "#287BD7"
+  magenta: "#585897"
+  cyan: "#805E53"
+  white: "#5A6051"
+  brightBlack: "#ACA986"
+  brightRed: "#798E48"
+  brightGreen: "#805E53"
+  brightYellow: "#BA6714"
+  brightBlue: "#287BD7"
+  brightMagenta: "#585897"
+  brightCyan: "#805E53"
+  brightWhite: "#4A5246"
+meta:
+  mode: "light"
+  accent: "indigo"
+  hue: 101
+  pair: null
+  contrast:
+    fg: 46.4
+    black: 0
+    red: 28.3
+    green: 33
+    yellow: 26.6
+    blue: 27.4
+    magenta: 40.2
+    cyan: 37.1
+    white: 40.6
+    brightBlack: 0
+    brightRed: 22.2
+    brightGreen: 37.1
+    brightYellow: 26.6
+    brightBlue: 27.4
+    brightMagenta: 40.2
+    brightCyan: 37.1
+    brightWhite: 46.4

@@ -1,0 +1,53 @@
+name: "Gruvbox ish (Gruvbox ish Dark Soft)"
+source:
+  marketplace_id: "GracefulPotato.gruvbox-ish"
+  version: "0.8.0"
+  installs: 14937
+  rating: 5
+  ratings: 3
+  author: "GracefulPotato"
+  repo: "https://github.com/graceful-potato/gruvbox-ish"
+  url: "https://marketplace.visualstudio.com/items?itemName=GracefulPotato.gruvbox-ish"
+  formats: null
+colors:
+  bg: "#32302F"
+  fg: "#DFBF8E"
+  black: "#3C3836"
+  red: "#D75F5F"
+  green: "#A8A81C"
+  yellow: "#D69617"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#D75F5F"
+  brightGreen: "#8B9553"
+  brightYellow: "#CEA64A"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#87AF87"
+  brightWhite: "#DFBF8E"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.5
+    black: 0
+    red: 32.6
+    green: 47.2
+    yellow: 47.1
+    blue: 27.4
+    magenta: 27.5
+    cyan: 37.7
+    white: 43
+    brightBlack: 32.2
+    brightRed: 32.6
+    brightGreen: 37.1
+    brightYellow: 51.9
+    brightBlue: 44.4
+    brightMagenta: 43.8
+    brightCyan: 48.3
+    brightWhite: 65.5

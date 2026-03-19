@@ -1,0 +1,53 @@
+name: "Soudev Theme (Soudev Purple Andromeda)"
+source:
+  marketplace_id: "soudev.soudev-theme"
+  version: "1.0.3"
+  installs: 11544
+  rating: 5
+  ratings: 1
+  author: "soudev"
+  repo: "https://github.com/jefersonpassos/soudev-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=soudev.soudev-theme"
+  formats: null
+colors:
+  bg: "#3D1653"
+  fg: "#FFFFFF"
+  black: "#3D1653"
+  red: "#F7005B"
+  green: "#46D028"
+  yellow: "#DDCB0A"
+  blue: "#EF8354"
+  magenta: "#A100DF"
+  cyan: "#40B4BB"
+  white: "#FFFFFF"
+  brightBlack: "#4A4F53"
+  brightRed: "#F7005B"
+  brightGreen: "#46D028"
+  brightYellow: "#DDCB0A"
+  brightBlue: "#EF8354"
+  brightMagenta: "#A100DF"
+  brightCyan: "#40B4BB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 311
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 0
+    red: 32.3
+    green: 59.3
+    yellow: 69.9
+    blue: 47.4
+    magenta: 21
+    cyan: 49.6
+    white: 103.9
+    brightBlack: 9.6
+    brightRed: 32.3
+    brightGreen: 59.3
+    brightYellow: 69.9
+    brightBlue: 47.4
+    brightMagenta: 21
+    brightCyan: 49.6
+    brightWhite: 103.9

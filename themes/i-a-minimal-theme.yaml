@@ -1,0 +1,53 @@
+name: "i - A Minimal Theme"
+source:
+  marketplace_id: "ctrlplusb.i-minimal-theme"
+  version: "1.1.5"
+  installs: 10237
+  rating: 5
+  ratings: 3
+  author: "ctrlplusb"
+  repo: "https://github.com/ctrlplusb/i-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ctrlplusb.i-minimal-theme"
+  formats: null
+colors:
+  bg: "#FDF6E3"
+  fg: "#000000"
+  black: "#000000"
+  red: "#FF0032"
+  green: "#00FF68"
+  yellow: "#FFCA00"
+  blue: "#004BFF"
+  magenta: "#7D46FC"
+  cyan: "#00D2FF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF0032"
+  brightGreen: "#00FF68"
+  brightYellow: "#FFCA00"
+  brightBlue: "#004BFF"
+  brightMagenta: "#7D46FC"
+  brightCyan: "#00D2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.8
+    black: 100.8
+    red: 58.7
+    green: 11.3
+    yellow: 19.1
+    blue: 73.6
+    magenta: 68.8
+    cyan: 27.4
+    white: 0
+    brightBlack: 100.8
+    brightRed: 58.7
+    brightGreen: 11.3
+    brightYellow: 19.1
+    brightBlue: 73.6
+    brightMagenta: 68.8
+    brightCyan: 27.4
+    brightWhite: 0

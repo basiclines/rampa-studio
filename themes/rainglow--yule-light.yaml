@@ -1,0 +1,53 @@
+name: "Rainglow (yule-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#444444"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#39B81F"
+  yellow: "#D63131"
+  blue: "#EBB626"
+  magenta: "#39B81F"
+  cyan: "#D63131"
+  white: "#515151"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#71E35A"
+  brightYellow: "#E78686"
+  brightBlue: "#F4D583"
+  brightMagenta: "#71E35A"
+  brightCyan: "#E78686"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 80.3
+    green: 50.4
+    yellow: 72
+    blue: 35
+    magenta: 50.4
+    cyan: 72
+    white: 87.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 28
+    brightYellow: 50.1
+    brightBlue: 20.5
+    brightMagenta: 28
+    brightCyan: 50.1
+    brightWhite: 71.1

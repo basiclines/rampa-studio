@@ -1,0 +1,53 @@
+name: "Rainglow (earthsong-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#4D463E"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#95CC5E"
+  yellow: "#DB784D"
+  blue: "#60A365"
+  magenta: "#DB784D"
+  cyan: "#95CC5E"
+  white: "#5B5349"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#C8E5AB"
+  brightYellow: "#ECB8A2"
+  brightBlue: "#A1C8A4"
+  brightMagenta: "#ECB8A2"
+  brightCyan: "#C8E5AB"
+  brightWhite: "#85796B"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.5
+    black: 0
+    red: 80.3
+    green: 35.9
+    yellow: 57.4
+    blue: 57
+    magenta: 57.4
+    cyan: 35.9
+    white: 86.3
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 18.4
+    brightYellow: 32.1
+    brightBlue: 35
+    brightMagenta: 32.1
+    brightCyan: 18.4
+    brightWhite: 69.4

@@ -1,0 +1,53 @@
+name: "Perfection Fresh (Perfection Fresh Light)"
+source:
+  marketplace_id: "lucidlabs.perfection-fresh-theme"
+  version: "1.4.0"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.perfection-fresh-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#1A1A1A"
+  black: "#1A1A1A"
+  red: "#CC2936"
+  green: "#1B5633"
+  yellow: "#A86B20"
+  blue: "#2874A6"
+  magenta: "#8B2870"
+  cyan: "#186B5E"
+  white: "#FFFFFF"
+  brightBlack: "#6B6B6B"
+  brightRed: "#E03040"
+  brightGreen: "#238040"
+  brightYellow: "#B87828"
+  brightBlue: "#3088C0"
+  brightMagenta: "#A03888"
+  brightCyan: "#208070"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104.3
+    black: 104.3
+    red: 74.9
+    green: 89.4
+    yellow: 70.1
+    blue: 74.7
+    magenta: 86.7
+    cyan: 81.3
+    white: 0
+    brightBlack: 76.5
+    brightRed: 69.6
+    brightGreen: 73.9
+    brightYellow: 63.8
+    brightBlue: 65.9
+    brightMagenta: 79.9
+    brightCyan: 72.9
+    brightWhite: 0

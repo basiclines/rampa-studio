@@ -1,0 +1,53 @@
+name: "Pierre Theme (Pierre Light)"
+source:
+  marketplace_id: "pierrecomputer.pierre-theme"
+  version: "0.0.24"
+  installs: 302
+  rating: 5
+  ratings: 1
+  author: "The Pierre Computer Co"
+  repo: "https://github.com/pierrecomputer/theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pierrecomputer.pierre-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#070707"
+  black: "#1F1F21"
+  red: "#FF2E3F"
+  green: "#0DBE4E"
+  yellow: "#FFCA00"
+  blue: "#009FFF"
+  magenta: "#C635E4"
+  cyan: "#08C0EF"
+  white: "#C6C6C8"
+  brightBlack: "#1F1F21"
+  brightRed: "#FF2E3F"
+  brightGreen: "#0DBE4E"
+  brightYellow: "#FFCA00"
+  brightBlue: "#009FFF"
+  brightMagenta: "#C635E4"
+  brightCyan: "#08C0EF"
+  brightWhite: "#C6C6C8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 103.4
+    red: 62.3
+    green: 47.9
+    yellow: 24.4
+    blue: 53.7
+    magenta: 67.4
+    cyan: 41.4
+    white: 30.6
+    brightBlack: 103.4
+    brightRed: 62.3
+    brightGreen: 47.9
+    brightYellow: 24.4
+    brightBlue: 53.7
+    brightMagenta: 67.4
+    brightCyan: 41.4
+    brightWhite: 30.6

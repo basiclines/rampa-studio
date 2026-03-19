@@ -1,0 +1,53 @@
+name: "Elypink Theme (Elypink Light (Faded))"
+source:
+  marketplace_id: "barineco.elypink-theme"
+  version: "0.6.0"
+  installs: 39
+  rating: 5
+  ratings: 2
+  author: "barineco"
+  repo: "https://github.com/barineco/elypink-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=barineco.elypink-theme"
+  formats: null
+colors:
+  bg: "#EEF4F9"
+  fg: "#6D7687"
+  black: "#2D2D2D"
+  red: "#FF72B9"
+  green: "#00DD00"
+  yellow: "#F5C400"
+  blue: "#00BFFF"
+  magenta: "#F78BFF"
+  cyan: "#00EFEF"
+  white: "#F8F8F8"
+  brightBlack: "#ECECEC"
+  brightRed: "#FF83C1"
+  brightGreen: "#73FF73"
+  brightYellow: "#FEE16B"
+  brightBlue: "#72DCFF"
+  brightMagenta: "#F89CFF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: "Elypink Theme (Elypink Dark (Faded))"
+  contrast:
+    fg: 64.7
+    black: 93.3
+    red: 41.6
+    green: 26.8
+    yellow: 21.2
+    blue: 33.8
+    magenta: 33.2
+    cyan: 13.2
+    white: 0
+    brightBlack: 0
+    brightRed: 37.1
+    brightGreen: 0
+    brightYellow: 7.5
+    brightBlue: 18.6
+    brightMagenta: 28.2
+    brightCyan: 0
+    brightWhite: 0

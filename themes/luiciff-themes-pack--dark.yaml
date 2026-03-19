@@ -1,0 +1,53 @@
+name: "Luiciff Themes Pack (Dark)"
+source:
+  marketplace_id: "luiciff.luiciff-theme"
+  version: "0.0.3"
+  installs: 142
+  rating: 5
+  ratings: 3
+  author: "luiciff"
+  repo: "https://github.com/luic1ff/vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=luiciff.luiciff-theme"
+  formats: null
+colors:
+  bg: "#1E2030"
+  fg: "#E0DEF4"
+  black: "#393552"
+  red: "#F84061"
+  green: "#1B96C7"
+  yellow: "#F6C177"
+  blue: "#57E6FF"
+  magenta: "#63D88C"
+  cyan: "#B57DD8"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#F84061"
+  brightGreen: "#1B96C7"
+  brightYellow: "#F6C177"
+  brightBlue: "#57E6FF"
+  brightMagenta: "#63D88C"
+  brightCyan: "#B57DD8"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 37.7
+    green: 38.8
+    yellow: 72.3
+    blue: 78.6
+    magenta: 67.5
+    cyan: 42.3
+    white: 85.7
+    brightBlack: 40
+    brightRed: 37.7
+    brightGreen: 38.8
+    brightYellow: 72.3
+    brightBlue: 78.6
+    brightMagenta: 67.5
+    brightCyan: 42.3
+    brightWhite: 85.7

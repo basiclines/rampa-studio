@@ -1,0 +1,53 @@
+name: "YTheme"
+source:
+  marketplace_id: "czfadmin.ytheme"
+  version: "1.3.21"
+  installs: 1129
+  rating: 0
+  ratings: 0
+  author: "czfadmin"
+  repo: "https://github.com/czfadmin/Atom-One-Dark-Pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=czfadmin.ytheme"
+  formats: null
+colors:
+  bg: "#2A2A31"
+  fg: "#CECECE"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#D49D35"
+  blue: "#839BDD"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#256B7A"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#C07639"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#BDBDBD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 286
+  pair: null
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 39.1
+    green: 59.3
+    yellow: 50.6
+    blue: 45.2
+    magenta: 42.2
+    cyan: 51.6
+    white: 56.5
+    brightBlack: 17.8
+    brightRed: 39.1
+    brightGreen: 59.3
+    brightYellow: 34.8
+    brightBlue: 51.7
+    brightMagenta: 42.2
+    brightCyan: 51.6
+    brightWhite: 62.9

@@ -1,0 +1,53 @@
+name: "Paddy Color Themes (P. \ Ultramarine)"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74833
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+  formats: null
+colors:
+  bg: "#050809"
+  fg: "#FFFFFF"
+  black: "#454545"
+  red: "#CE3521"
+  green: "#24943C"
+  yellow: "#BB8F18"
+  blue: "#276AC2"
+  magenta: "#E0024C"
+  cyan: "#04BEC4"
+  white: "#FFFFFF"
+  brightBlack: "#707070"
+  brightRed: "#FF553E"
+  brightGreen: "#76DD61"
+  brightYellow: "#FFD518"
+  brightBlue: "#50A9FD"
+  brightMagenta: "#FF3478"
+  brightCyan: "#28F5EB"
+  brightWhite: "#FAE8E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.8
+    black: 10.1
+    red: 28.2
+    green: 35.6
+    yellow: 45.6
+    blue: 25.5
+    magenta: 30.4
+    cyan: 57.5
+    white: 107.8
+    brightBlack: 27.3
+    brightRed: 44
+    brightGreen: 72.3
+    brightYellow: 83.3
+    brightBlue: 53.3
+    brightMagenta: 40.9
+    brightCyan: 86.1
+    brightWhite: 95

@@ -1,0 +1,53 @@
+name: "Vercel VSCode Theme"
+source:
+  marketplace_id: "natemcgrady.vercel-vscode-theme"
+  version: "1.0.2"
+  installs: 381
+  rating: 0
+  ratings: 0
+  author: "natemcgrady"
+  repo: "https://github.com/sotan8/vercel-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=natemcgrady.vercel-vscode-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#EEEEEE"
+  black: "#000000"
+  red: "#FF4D8D"
+  green: "#00CB50"
+  yellow: "#FFCC47"
+  blue: "#47A8FF"
+  magenta: "#C473FC"
+  cyan: "#0070F3"
+  white: "#EEEEEE"
+  brightBlack: "#666666"
+  brightRed: "#FF4D8D"
+  brightGreen: "#00CB50"
+  brightYellow: "#FFCC47"
+  brightBlue: "#47A8FF"
+  brightMagenta: "#C473FC"
+  brightCyan: "#47A8FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.8
+    black: 0
+    red: 44.6
+    green: 60.3
+    yellow: 79.9
+    blue: 52.8
+    magenta: 46.7
+    cyan: 31
+    white: 96.8
+    brightBlack: 23
+    brightRed: 44.6
+    brightGreen: 60.3
+    brightYellow: 79.9
+    brightBlue: 52.8
+    brightMagenta: 46.7
+    brightCyan: 52.8
+    brightWhite: 107.9

@@ -1,0 +1,53 @@
+name: "Hackpot (Hackpot Poisoned Garden)"
+source:
+  marketplace_id: "wwmyers.hackpot"
+  version: "3.0.0"
+  installs: 24360
+  rating: 5
+  ratings: 5
+  author: "wwmyers"
+  repo: "https://github.com/wwmyers/hackpot"
+  url: "https://marketplace.visualstudio.com/items?itemName=wwmyers.hackpot"
+  formats: null
+colors:
+  bg: "#0C270C"
+  fg: "#B1E7B1"
+  black: "#123B12"
+  red: "#FF704D"
+  green: "#1E621E"
+  yellow: "#FFFF99"
+  blue: "#268BD2"
+  magenta: "#9933FF"
+  cyan: "#1B9891"
+  white: "#B1E7B1"
+  brightBlack: "#174F17"
+  brightRed: "#FF661A"
+  brightGreen: "#32CD32"
+  brightYellow: "#FFFF1A"
+  brightBlue: "#1FADA6"
+  brightMagenta: "#B366FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#C4EDC4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 144
+  pair: null
+  contrast:
+    fg: 81.4
+    black: 0
+    red: 47.2
+    green: 14.1
+    yellow: 101.8
+    blue: 35.3
+    magenta: 26.5
+    cyan: 36.8
+    white: 81.4
+    brightBlack: 7.8
+    brightRed: 44.6
+    brightGreen: 58.9
+    brightYellow: 100.3
+    brightBlue: 46.5
+    brightMagenta: 38.8
+    brightCyan: 89.7
+    brightWhite: 86.9

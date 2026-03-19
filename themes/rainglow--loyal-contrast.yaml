@@ -1,0 +1,53 @@
+name: "Rainglow (loyal-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#1D1B23"
+  fg: "#BBB1C9"
+  black: "#292631"
+  red: "#BA0E2E"
+  green: "#3CBBB1"
+  yellow: "#EE4266"
+  blue: "#B3ADBA"
+  magenta: "#9484D6"
+  cyan: "#B3ADBA"
+  white: "#C8C0D3"
+  brightBlack: "#4D475D"
+  brightRed: "#F03E5F"
+  brightGreen: "#85D8D1"
+  brightYellow: "#F6A0B2"
+  brightBlue: "#E6E4E9"
+  brightMagenta: "#D7D0EF"
+  brightCyan: "#E6E4E9"
+  brightWhite: "#F0EDF3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 297
+  pair: null
+  contrast:
+    fg: 60.8
+    black: 0
+    red: 19.9
+    green: 54.5
+    yellow: 36.4
+    blue: 57.5
+    magenta: 40.8
+    cyan: 57.5
+    white: 68.9
+    brightBlack: 10.4
+    brightRed: 36.2
+    brightGreen: 72.7
+    brightYellow: 62.7
+    brightBlue: 89.3
+    brightMagenta: 78.9
+    brightCyan: 89.3
+    brightWhite: 95.2

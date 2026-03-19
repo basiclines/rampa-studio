@@ -1,0 +1,53 @@
+name: "Rainglow (pastel)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#EEEEEE"
+  black: "#2F2F2F"
+  red: "#BA0E2E"
+  green: "#9474A9"
+  yellow: "#04C4A5"
+  blue: "#C56C6C"
+  magenta: "#C5906C"
+  cyan: "#E2E060"
+  white: "#FBFBFB"
+  brightBlack: "#555555"
+  brightRed: "#F03E5F"
+  brightGreen: "#C5B3D0"
+  brightYellow: "#33FBDB"
+  brightBlue: "#E2B5B5"
+  brightMagenta: "#E2C7B5"
+  brightCyan: "#F2F1B6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.3
+    black: 0
+    red: 19.1
+    green: 32.5
+    yellow: 56.6
+    blue: 35.4
+    magenta: 46.1
+    cyan: 82
+    white: 102.8
+    brightBlack: 13.7
+    brightRed: 35.4
+    brightGreen: 62.3
+    brightYellow: 86.3
+    brightBlue: 66.1
+    brightMagenta: 73.2
+    brightCyan: 94.1
+    brightWhite: 105.5

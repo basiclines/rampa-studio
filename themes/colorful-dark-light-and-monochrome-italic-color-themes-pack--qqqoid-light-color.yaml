@@ -1,0 +1,53 @@
+name: "Colorful dark, light and monochrome italic color themes pack (qqqoid light color)"
+source:
+  marketplace_id: "SalavatDSamigoullin.another-one-theme-pack"
+  version: "0.0.6"
+  installs: 334
+  rating: 0
+  ratings: 0
+  author: "Salavat D. Samigoullin"
+  repo: "https://github.com/SalavatSamigoullin/qqqoid-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=SalavatDSamigoullin.another-one-theme-pack"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#24292E"
+  black: "#24292E"
+  red: "#D73A49"
+  green: "#28A745"
+  yellow: "#DBAB09"
+  blue: "#0366D6"
+  magenta: "#7C3AED"
+  cyan: "#1B7C83"
+  white: "#6A737D"
+  brightBlack: "#959DA5"
+  brightRed: "#CB2431"
+  brightGreen: "#22863A"
+  brightYellow: "#B08800"
+  brightBlue: "#2563EB"
+  brightMagenta: "#7C3AED"
+  brightCyan: "#3192AA"
+  brightWhite: "#D1D5DA"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.5
+    black: 101.5
+    red: 70.4
+    green: 57.9
+    yellow: 41.6
+    blue: 76.2
+    magenta: 77.5
+    cyan: 73.8
+    white: 73.4
+    brightBlack: 53.1
+    brightRed: 75.5
+    brightGreen: 71.7
+    brightYellow: 60.1
+    brightBlue: 74.9
+    brightMagenta: 77.5
+    brightCyan: 63.3
+    brightWhite: 22.4

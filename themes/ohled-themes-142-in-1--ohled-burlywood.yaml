@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_BurlyWood)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#DEB887"
+  black: "#DEB887"
+  red: "#A38763"
+  green: "#B2936C"
+  yellow: "#856E51"
+  blue: "#CFAC7E"
+  magenta: "#C09F75"
+  cyan: "#947B5A"
+  white: "#766248"
+  brightBlack: "#DEB887"
+  brightRed: "#A38763"
+  brightGreen: "#B2936C"
+  brightYellow: "#856E51"
+  brightBlue: "#CFAC7E"
+  brightMagenta: "#C09F75"
+  brightCyan: "#947B5A"
+  brightWhite: "#766248"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.6
+    black: 67.6
+    red: 40.4
+    green: 46.8
+    yellow: 28.2
+    blue: 60.5
+    magenta: 53.2
+    cyan: 34.3
+    white: 22.7
+    brightBlack: 67.6
+    brightRed: 40.4
+    brightGreen: 46.8
+    brightYellow: 28.2
+    brightBlue: 60.5
+    brightMagenta: 53.2
+    brightCyan: 34.3
+    brightWhite: 22.7

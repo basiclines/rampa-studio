@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_MediumOrchid)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#BA55D3"
+  black: "#BA55D3"
+  red: "#883E9B"
+  green: "#9544A9"
+  yellow: "#70337F"
+  blue: "#AE4FC5"
+  magenta: "#A14AB7"
+  cyan: "#7C398D"
+  white: "#632D71"
+  brightBlack: "#BA55D3"
+  brightRed: "#883E9B"
+  brightGreen: "#9544A9"
+  brightYellow: "#70337F"
+  brightBlue: "#AE4FC5"
+  brightMagenta: "#A14AB7"
+  brightCyan: "#7C398D"
+  brightWhite: "#632D71"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 35.5
+    black: 35.5
+    red: 20
+    green: 23.8
+    yellow: 13.4
+    blue: 31.4
+    magenta: 27.5
+    cyan: 16.7
+    white: 10.2
+    brightBlack: 35.5
+    brightRed: 20
+    brightGreen: 23.8
+    brightYellow: 13.4
+    brightBlue: 31.4
+    brightMagenta: 27.5
+    brightCyan: 16.7
+    brightWhite: 10.2

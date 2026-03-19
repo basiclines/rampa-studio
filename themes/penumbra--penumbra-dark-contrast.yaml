@@ -1,0 +1,53 @@
+name: "Penumbra (Penumbra Dark Contrast++)"
+source:
+  marketplace_id: "PenumbraTheme.penumbra"
+  version: "0.4.0"
+  installs: 11887
+  rating: 5
+  ratings: 3
+  author: "Penumbra Theme"
+  repo: "https://github.com/nealmckee/penumbra_vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=PenumbraTheme.penumbra"
+  formats: null
+colors:
+  bg: "#181B1F"
+  fg: "#AEAEAE"
+  black: "#0D0F13"
+  red: "#F48E74"
+  green: "#61C68A"
+  yellow: "#C7AD40"
+  blue: "#97A6FF"
+  magenta: "#E18DCE"
+  cyan: "#1AC2E1"
+  white: "#FFF7ED"
+  brightBlack: "#636363"
+  brightRed: "#F48E74"
+  brightGreen: "#61C68A"
+  brightYellow: "#C7AD40"
+  brightBlue: "#97A6FF"
+  brightMagenta: "#E18DCE"
+  brightCyan: "#1AC2E1"
+  brightWhite: "#FFFDFB"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 57
+    black: 0
+    red: 54.8
+    green: 59.7
+    yellow: 57.2
+    blue: 55.8
+    magenta: 54.3
+    cyan: 59.6
+    white: 101.9
+    brightBlack: 20.4
+    brightRed: 54.8
+    brightGreen: 59.7
+    brightYellow: 57.2
+    brightBlue: 55.8
+    brightMagenta: 54.3
+    brightCyan: 59.6
+    brightWhite: 105.3

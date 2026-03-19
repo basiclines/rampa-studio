@@ -1,0 +1,53 @@
+name: "Jeng Theme Light"
+source:
+  marketplace_id: "jeng.jeng-theme-light"
+  version: "1.0.5"
+  installs: 17378
+  rating: 5
+  ratings: 2
+  author: "jeng"
+  repo: "https://github.com/jengjeng/jeng-theme-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=jeng.jeng-theme-light"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#5C6066"
+  black: "#000000"
+  red: "#F2590C"
+  green: "#77CC00"
+  yellow: "#F29718"
+  blue: "#41A6D9"
+  magenta: "#9966CC"
+  cyan: "#4DBF99"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#D6656A"
+  brightGreen: "#A3D900"
+  brightYellow: "#E7C547"
+  brightBlue: "#6871FF"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#57D9AD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.5
+    black: 103
+    red: 57.2
+    green: 35.7
+    yellow: 41.5
+    blue: 49.6
+    magenta: 64.9
+    cyan: 41.6
+    white: 27.1
+    brightBlack: 74.9
+    brightRed: 59.5
+    brightGreen: 26.5
+    brightYellow: 26.7
+    brightBlue: 63
+    brightMagenta: 58.2
+    brightCyan: 28.9
+    brightWhite: 0

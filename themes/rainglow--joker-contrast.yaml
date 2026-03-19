@@ -1,0 +1,53 @@
+name: "Rainglow (joker-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#141619"
+  fg: "#C0CCDB"
+  black: "#1F2227"
+  red: "#BA0E2E"
+  green: "#00B27D"
+  yellow: "#9A6FC4"
+  blue: "#FFFFFF"
+  magenta: "#00B27D"
+  cyan: "#9A6FC4"
+  white: "#D0D9E4"
+  brightBlack: "#414852"
+  brightRed: "#F03E5F"
+  brightGreen: "#19FFBB"
+  brightYellow: "#CDB7E2"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#19FFBB"
+  brightCyan: "#CDB7E2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74
+    black: 0
+    red: 20.6
+    green: 48.7
+    yellow: 34.9
+    blue: 107
+    magenta: 48.7
+    cyan: 34.9
+    white: 82
+    brightBlack: 10.1
+    brightRed: 36.9
+    brightGreen: 88.4
+    brightYellow: 67.4
+    brightBlue: 107
+    brightMagenta: 88.4
+    brightCyan: 67.4
+    brightWhite: 107

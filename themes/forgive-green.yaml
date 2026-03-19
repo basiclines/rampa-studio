@@ -1,0 +1,53 @@
+name: "Forgive Green"
+source:
+  marketplace_id: "luqimin.forgive-green"
+  version: "0.2.1"
+  installs: 24177
+  rating: 4.8
+  ratings: 5
+  author: "luqimin"
+  repo: "https://github.com/luqimin/green-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=luqimin.forgive-green"
+  formats: null
+colors:
+  bg: "#C7EDCC"
+  fg: "#499504"
+  black: "#000000"
+  red: "#FD6C67"
+  green: "#097E00"
+  yellow: "#CDCB00"
+  blue: "#5597EF"
+  magenta: "#FE76FF"
+  cyan: "#39CBCC"
+  white: "#BBBBBB"
+  brightBlack: "#686868"
+  brightRed: "#FE8885"
+  brightGreen: "#74FA61"
+  brightYellow: "#FFFB00"
+  brightBlue: "#7FAFF4"
+  brightMagenta: "#FE9CFF"
+  brightCyan: "#6FDADA"
+  brightWhite: "#F1F1F1"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 149
+  pair: null
+  contrast:
+    fg: 48.5
+    black: 89.8
+    red: 36.8
+    green: 59.1
+    yellow: 14.8
+    blue: 39.8
+    magenta: 27.8
+    cyan: 21.6
+    white: 20.4
+    brightBlack: 61.6
+    brightRed: 29
+    brightGreen: 0
+    brightYellow: 8.8
+    brightBlue: 27.9
+    brightMagenta: 18
+    brightCyan: 12.3
+    brightWhite: 0

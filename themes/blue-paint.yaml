@@ -1,0 +1,53 @@
+name: "Blue Paint"
+source:
+  marketplace_id: "anweber.bluepaint"
+  version: "0.8.0"
+  installs: 1236
+  rating: 0
+  ratings: 0
+  author: "Andreas Weber"
+  repo: "https://github.com/AnWeber/bluepaint"
+  url: "https://marketplace.visualstudio.com/items?itemName=anweber.bluepaint"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#263238"
+  red: "#D32F2F"
+  green: "#43A047"
+  yellow: "#F57C00"
+  blue: "#1565C0"
+  magenta: "#6A1B9A"
+  cyan: "#0097A7"
+  white: "#F5F5F5"
+  brightBlack: "#37474F"
+  brightRed: "#F44336"
+  brightGreen: "#66BB6A"
+  brightYellow: "#FFA726"
+  brightBlue: "#4472C4"
+  brightMagenta: "#9C27B0"
+  brightCyan: "#26C6DA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 99.5
+    red: 72.8
+    green: 60.1
+    yellow: 51.8
+    blue: 78.2
+    magenta: 90.5
+    cyan: 62
+    white: 0
+    brightBlack: 92.3
+    brightRed: 63
+    brightGreen: 46.4
+    brightYellow: 37
+    brightBlue: 72.5
+    brightMagenta: 80.1
+    brightCyan: 39.8
+    brightWhite: 0

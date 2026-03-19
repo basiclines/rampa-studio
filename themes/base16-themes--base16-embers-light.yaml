@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Embers Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#DBD6D1"
+  fg: "#433B32"
+  black: "#A39A90"
+  red: "#826D57"
+  green: "#57826D"
+  yellow: "#828257"
+  blue: "#6D5782"
+  magenta: "#82576D"
+  cyan: "#576D82"
+  white: "#2C2620"
+  brightBlack: "#8A8075"
+  brightRed: "#826D57"
+  brightGreen: "#57826D"
+  brightYellow: "#6D8257"
+  brightBlue: "#6D5782"
+  brightMagenta: "#82576D"
+  brightCyan: "#576D82"
+  brightWhite: "#16130F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 71.9
+    black: 29.9
+    red: 50.5
+    green: 46.6
+    yellow: 43.6
+    blue: 57.8
+    magenta: 56.1
+    cyan: 53.2
+    white: 78.3
+    brightBlack: 42.7
+    brightRed: 50.5
+    brightGreen: 46.6
+    brightYellow: 45.6
+    brightBlue: 57.8
+    brightMagenta: 56.1
+    brightCyan: 53.2
+    brightWhite: 81.6

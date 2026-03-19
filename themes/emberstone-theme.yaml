@@ -1,0 +1,53 @@
+name: "Emberstone Theme"
+source:
+  marketplace_id: "dfmknz.emberstone-theme-vscode"
+  version: "0.1.1"
+  installs: 66
+  rating: 0
+  ratings: 0
+  author: "dfmknz"
+  repo: "https://github.com/dfmknz/emberstone-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dfmknz.emberstone-theme-vscode"
+  formats: null
+colors:
+  bg: "#28353E"
+  fg: "#FFD37C"
+  black: "#28353E"
+  red: "#BE8967"
+  green: "#FFD37C"
+  yellow: "#F8D079"
+  blue: "#FFD37C"
+  magenta: "#BFCDCD"
+  cyan: "#FFFFFF"
+  white: "#FFD37C"
+  brightBlack: "#FFD37C"
+  brightRed: "#BE8967"
+  brightGreen: "#FFFFFF"
+  brightYellow: "#F8D079"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#BFCDCD"
+  brightCyan: "#FFD37C"
+  brightWhite: "#FFD37C"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 239
+  pair: null
+  contrast:
+    fg: 77.6
+    black: 0
+    red: 39
+    green: 77.6
+    yellow: 75.2
+    blue: 77.6
+    magenta: 68.6
+    cyan: 101.9
+    white: 77.6
+    brightBlack: 77.6
+    brightRed: 39
+    brightGreen: 101.9
+    brightYellow: 75.2
+    brightBlue: 101.9
+    brightMagenta: 68.6
+    brightCyan: 77.6
+    brightWhite: 77.6

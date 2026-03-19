@@ -1,0 +1,53 @@
+name: "genshin impact & hsr color themes (Genshin Impact - Sandrone (Dark))"
+source:
+  marketplace_id: "frostmoon-dev.genshin-hsr-themes"
+  version: "0.1.6"
+  installs: 533
+  rating: 5
+  ratings: 1
+  author: "⏾ frostmoon"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.genshin-hsr-themes"
+  formats: null
+colors:
+  bg: "#12141A"
+  fg: "#E0DCE8"
+  black: "#282430"
+  red: "#C08090"
+  green: "#90B8A0"
+  yellow: "#C8B890"
+  blue: "#8090C0"
+  magenta: "#B08898"
+  cyan: "#90A8C0"
+  white: "#D8D0E0"
+  brightBlack: "#787080"
+  brightRed: "#D0A8B0"
+  brightGreen: "#A8D0B8"
+  brightYellow: "#E0D8B0"
+  brightBlue: "#A0B0D8"
+  brightMagenta: "#D0B0B8"
+  brightCyan: "#B0C0D8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 42.9
+    green: 58.2
+    yellow: 63.9
+    blue: 42.4
+    magenta: 43.3
+    cyan: 52.9
+    white: 79.1
+    brightBlack: 28
+    brightRed: 60
+    brightGreen: 71.8
+    brightYellow: 81.7
+    brightBlue: 58.9
+    brightMagenta: 63.3
+    brightCyan: 67.1
+    brightWhite: 107.1

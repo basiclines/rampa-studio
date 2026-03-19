@@ -1,0 +1,53 @@
+name: "Cherry Blossom Theme (Cherry Blossom Dimmed Dusk)"
+source:
+  marketplace_id: "daitsuku.cherry-blossom-vscode-theme"
+  version: "1.2.1"
+  installs: 2134
+  rating: 0
+  ratings: 0
+  author: "daitsuku"
+  repo: "https://gitlab.com/daitsuku/cherry-blossom-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daitsuku.cherry-blossom-vscode-theme"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#C6CAC9"
+  black: "#1A1A1A"
+  red: "#A34242"
+  green: "#4F9E64"
+  yellow: "#C4B483"
+  blue: "#4A8399"
+  magenta: "#9A5085"
+  cyan: "#36575E"
+  white: "#C6CAC9"
+  brightBlack: "#404040"
+  brightRed: "#C24A4A"
+  brightGreen: "#5FBE78"
+  brightYellow: "#D9C999"
+  brightBlue: "#5CA5C0"
+  brightMagenta: "#B266A1"
+  brightCyan: "#9ED4E0"
+  brightWhite: "#D9E3F4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.2
+    black: 0
+    red: 21.1
+    green: 41.1
+    yellow: 61.4
+    blue: 32.1
+    magenta: 24.2
+    cyan: 14.3
+    white: 73.2
+    brightBlack: 7.7
+    brightRed: 28.4
+    brightGreen: 56.2
+    brightYellow: 73.6
+    brightBlue: 47.9
+    brightMagenta: 34.3
+    brightCyan: 74.4
+    brightWhite: 88.5

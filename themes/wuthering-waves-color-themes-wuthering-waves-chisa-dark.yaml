@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Chisa (Dark))"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#1A1816"
+  fg: "#F5F0EB"
+  black: "#1A1816"
+  red: "#C83540"
+  green: "#80B080"
+  yellow: "#F8D7BD"
+  blue: "#8898A8"
+  magenta: "#B87888"
+  cyan: "#6E6C78"
+  white: "#F5F0EB"
+  brightBlack: "#645C58"
+  brightRed: "#E84550"
+  brightGreen: "#90C090"
+  brightYellow: "#FFE8D0"
+  brightBlue: "#98A8B8"
+  brightMagenta: "#D89098"
+  brightCyan: "#8E8C98"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 26.1
+    green: 52
+    yellow: 84.8
+    blue: 44.5
+    magenta: 38.6
+    cyan: 25.1
+    white: 97.4
+    brightBlack: 18.4
+    brightRed: 35.4
+    brightGreen: 60.7
+    brightYellow: 94.1
+    brightBlue: 52.9
+    brightMagenta: 51.7
+    brightCyan: 40.1
+    brightWhite: 106.7

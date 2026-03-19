@@ -1,0 +1,53 @@
+name: "Rainglow (isotope-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0E0F11"
+  fg: "#F3EFF5"
+  black: "#191B1F"
+  red: "#BA0E2E"
+  green: "#72B01D"
+  yellow: "#B3DD49"
+  blue: "#FFFFFF"
+  magenta: "#B3DD49"
+  cyan: "#72B01D"
+  white: "#FFFFFF"
+  brightBlack: "#3C4049"
+  brightRed: "#F03E5F"
+  brightGreen: "#A5E251"
+  brightYellow: "#D7ED9F"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#D7ED9F"
+  brightCyan: "#A5E251"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.9
+    black: 0
+    red: 21.1
+    green: 50.3
+    yellow: 76.7
+    blue: 107.5
+    magenta: 76.7
+    cyan: 50.3
+    white: 107.5
+    brightBlack: 8
+    brightRed: 37.4
+    brightGreen: 77.8
+    brightYellow: 90
+    brightBlue: 107.5
+    brightMagenta: 90
+    brightCyan: 77.8
+    brightWhite: 107.5

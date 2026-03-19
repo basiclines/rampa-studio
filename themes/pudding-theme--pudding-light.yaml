@@ -1,0 +1,54 @@
+name: "Pudding Theme (Pudding Light)"
+source:
+  marketplace_id: "Bitcookies.pudding-vscode-theme"
+  version: "3.1.5"
+  installs: 1916
+  rating: 5
+  ratings: 2
+  author: "Bitcookies"
+  repo: "https://github.com/bitcookies/pudding-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Bitcookies.pudding-vscode-theme"
+  formats:
+    sublime: "https://raw.githubusercontent.com/bitcookies/pudding-vscode-theme/main/themes/tmTheme/dark-bluedawn.tmTheme"
+colors:
+  bg: "#F9ECDD"
+  fg: "#A88809"
+  black: "#24292E"
+  red: "#D73A49"
+  green: "#28A745"
+  yellow: "#DBAB09"
+  blue: "#0366D6"
+  magenta: "#5A32A3"
+  cyan: "#1B7C83"
+  white: "#6A737D"
+  brightBlack: "#959DA5"
+  brightRed: "#CB2431"
+  brightGreen: "#22863A"
+  brightYellow: "#B08800"
+  brightBlue: "#005CC5"
+  brightMagenta: "#5A32A3"
+  brightCyan: "#3192AA"
+  brightWhite: "#803618"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 71
+  pair: null
+  contrast:
+    fg: 51
+    black: 91.3
+    red: 60.2
+    green: 47.7
+    yellow: 31.4
+    blue: 66
+    magenta: 79
+    cyan: 63.6
+    white: 63.2
+    brightBlack: 42.9
+    brightRed: 65.3
+    brightGreen: 61.5
+    brightYellow: 49.9
+    brightBlue: 70.3
+    brightMagenta: 79
+    brightCyan: 53.1
+    brightWhite: 78.6

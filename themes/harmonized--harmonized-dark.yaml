@@ -1,0 +1,53 @@
+name: "Harmonized (Harmonized dark)"
+source:
+  marketplace_id: "wheredoesyourmindgo.harmonized-vscode-theme"
+  version: "0.8.7"
+  installs: 824
+  rating: 5
+  ratings: 1
+  author: "wheredoesyourmindgo"
+  repo: "https://github.com/wheredoesyourmindgo/harmonized-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.harmonized-vscode-theme"
+  formats: null
+colors:
+  bg: "#002B36"
+  fg: "#BBBBBB"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#002B36"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  pair: null
+  contrast:
+    fg: 62.3
+    black: 0
+    red: 27.7
+    green: 39.2
+    yellow: 39.2
+    blue: 34.3
+    magenta: 28
+    cyan: 40
+    white: 89.5
+    brightBlack: 0
+    brightRed: 27.2
+    brightGreen: 21.5
+    brightYellow: 27.3
+    brightBlue: 39.5
+    brightMagenta: 28
+    brightCyan: 46.4
+    brightWhite: 98.6

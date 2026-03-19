@@ -1,0 +1,53 @@
+name: "Clear (Clear Dark)"
+source:
+  marketplace_id: "nanakon.clear"
+  version: "1.1.1"
+  installs: 1252
+  rating: 0
+  ratings: 0
+  author: "nana_kon"
+  repo: "https://github.com/va1kio/clear-white"
+  url: "https://marketplace.visualstudio.com/items?itemName=nanakon.clear"
+  formats: null
+colors:
+  bg: "#131313"
+  fg: "#6B6B6B"
+  black: "#2E2E2E"
+  red: "#DB4A4A"
+  green: "#0DBC79"
+  yellow: "#C9C918"
+  blue: "#2B66A7"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#D1D1D1"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#E2E24C"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 24.5
+    black: 0
+    red: 33.7
+    green: 53.4
+    yellow: 69.6
+    blue: 22
+    magenta: 30.1
+    cyan: 47.9
+    white: 78
+    brightBlack: 22.4
+    brightRed: 38.9
+    brightGreen: 63.9
+    brightYellow: 84.5
+    brightBlue: 40.4
+    brightMagenta: 45.7
+    brightCyan: 55.8
+    brightWhite: 90.4

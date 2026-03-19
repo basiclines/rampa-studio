@@ -1,0 +1,53 @@
+name: "Color Contrast Theme (Color contrast)"
+source:
+  marketplace_id: "HironTez.color-contrast-theme"
+  version: "0.0.1"
+  installs: 3764
+  rating: 0
+  ratings: 0
+  author: "Hiron Tez"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=HironTez.color-contrast-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#8F8F8F"
+  red: "#F82A5D"
+  green: "#98D800"
+  yellow: "#E7DC60"
+  blue: "#5CCAEF"
+  magenta: "#F57F00"
+  cyan: "#A57FFF"
+  white: "#F1F1F1"
+  brightBlack: "#8F8F8F"
+  brightRed: "#F82A5D"
+  brightGreen: "#98D800"
+  brightYellow: "#E7DC60"
+  brightBlue: "#5CCAEF"
+  brightMagenta: "#F57F00"
+  brightCyan: "#A57FFF"
+  brightWhite: "#F1F1F1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 42.1
+    red: 37.8
+    green: 71.8
+    yellow: 83.4
+    blue: 67
+    magenta: 50.9
+    cyan: 45.8
+    white: 98.7
+    brightBlack: 42.1
+    brightRed: 37.8
+    brightGreen: 71.8
+    brightYellow: 83.4
+    brightBlue: 67
+    brightMagenta: 50.9
+    brightCyan: 45.8
+    brightWhite: 98.7

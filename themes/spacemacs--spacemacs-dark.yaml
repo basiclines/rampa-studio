@@ -1,0 +1,53 @@
+name: "Spacemacs (Spacemacs - dark)"
+source:
+  marketplace_id: "cometeer.spacemacs"
+  version: "1.1.1"
+  installs: 69548
+  rating: 4.89
+  ratings: 9
+  author: "cometeer"
+  repo: "git+https://github.com/cometeer/spacemacs-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=cometeer.spacemacs"
+  formats: null
+colors:
+  bg: "#292B2E"
+  fg: "#CBC1D5"
+  black: "#B2B2B2"
+  red: "#BA2F59"
+  green: "#67B11D"
+  yellow: "#B1951D"
+  blue: "#3A81C3"
+  magenta: "#800080"
+  cyan: "#21B8C7"
+  white: "#B2B2B2"
+  brightBlack: "#B2B2B2"
+  brightRed: "#F2241F"
+  brightGreen: "#86DC2F"
+  brightYellow: "#B1951D"
+  brightBlue: "#D7DFFF"
+  brightMagenta: "#A31DB1"
+  brightCyan: "#28DEF0"
+  brightWhite: "#B2B2B2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.4
+    black: 56.7
+    red: 20.2
+    green: 46.4
+    yellow: 42.3
+    blue: 29.7
+    magenta: 8.7
+    cyan: 51.2
+    white: 56.7
+    brightBlack: 56.7
+    brightRed: 31.2
+    brightGreen: 68.4
+    brightYellow: 42.3
+    brightBlue: 83.8
+    brightMagenta: 18.3
+    brightCyan: 71
+    brightWhite: 56.7

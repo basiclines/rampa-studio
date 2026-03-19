@@ -1,0 +1,53 @@
+name: "Rainglow (waste-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#444444"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#43BDB2"
+  yellow: "#95AD97"
+  blue: "#D3B298"
+  magenta: "#F7A8A5"
+  cyan: "#43BDB2"
+  white: "#515151"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#8ED7D1"
+  brightYellow: "#CED9CF"
+  brightBlue: "#F2E7DF"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#8ED7D1"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 80.3
+    green: 44.9
+    yellow: 47.5
+    blue: 38.3
+    magenta: 35.8
+    cyan: 44.9
+    white: 87.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 28.4
+    brightYellow: 21.6
+    brightBlue: 10.6
+    brightMagenta: 0
+    brightCyan: 28.4
+    brightWhite: 71.1

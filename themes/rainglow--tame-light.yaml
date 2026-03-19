@@ -1,0 +1,53 @@
+name: "Rainglow (tame-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#495760"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#4571A8"
+  yellow: "#707BA0"
+  blue: "#495760"
+  magenta: "#4571A8"
+  cyan: "#707BA0"
+  white: "#54646E"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#86A6CD"
+  brightYellow: "#ADB4C9"
+  brightBlue: "#778B98"
+  brightMagenta: "#86A6CD"
+  brightCyan: "#ADB4C9"
+  brightWhite: "#778B98"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.9
+    black: 0
+    red: 80.3
+    green: 74.6
+    yellow: 68.8
+    blue: 85.9
+    magenta: 74.6
+    cyan: 68.8
+    white: 80.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 49.3
+    brightYellow: 40.4
+    brightBlue: 63
+    brightMagenta: 49.3
+    brightCyan: 40.4
+    brightWhite: 63

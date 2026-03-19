@@ -1,0 +1,53 @@
+name: "Naturefy Themes (Koi Pond Dark)"
+source:
+  marketplace_id: "sserafy.naturefy-themes"
+  version: "2.0.2"
+  installs: 1665
+  rating: 5
+  ratings: 1
+  author: "sserafy"
+  repo: "https://github.com/azhou555/naturefy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.naturefy-themes"
+  formats: null
+colors:
+  bg: "#0F1419"
+  fg: "#C7D2CC"
+  black: "#2D3B4F"
+  red: "#D73027"
+  green: "#7FB069"
+  yellow: "#F4A261"
+  blue: "#2166AC"
+  magenta: "#762A83"
+  cyan: "#5AAE61"
+  white: "#C7D2CC"
+  brightBlack: "#5C6B73"
+  brightRed: "#E85749"
+  brightGreen: "#8BC275"
+  brightYellow: "#F6B73C"
+  brightBlue: "#4393C3"
+  brightMagenta: "#9970AB"
+  brightCyan: "#7FB069"
+  brightWhite: "#E8F0E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 77
+    black: 0
+    red: 29.1
+    green: 51.8
+    yellow: 61.6
+    blue: 22
+    magenta: 12.6
+    cyan: 48.4
+    white: 77
+    brightBlack: 23.5
+    brightRed: 38.7
+    brightGreen: 60.9
+    brightYellow: 69.2
+    brightBlue: 39.9
+    brightMagenta: 33.8
+    brightCyan: 51.8
+    brightWhite: 95.9

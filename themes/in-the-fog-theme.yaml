@@ -1,0 +1,53 @@
+name: "In The Fog Theme"
+source:
+  marketplace_id: "ganevru.in-the-fog-theme"
+  version: "0.3.1"
+  installs: 3398
+  rating: 5
+  ratings: 3
+  author: "ganevru"
+  repo: "https://github.com/ganevru/in-the-fog-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ganevru.in-the-fog-theme"
+  formats: null
+colors:
+  bg: "#24292B"
+  fg: "#D4D4D4"
+  black: "#666666"
+  red: "#CD6564"
+  green: "#AEC199"
+  yellow: "#FFF099"
+  blue: "#6D9CBE"
+  magenta: "#B081B9"
+  cyan: "#80B5B3"
+  white: "#EFEFEF"
+  brightBlack: "#666666"
+  brightRed: "#CD6564"
+  brightGreen: "#AEC199"
+  brightYellow: "#FFF099"
+  brightBlue: "#6D9CBE"
+  brightMagenta: "#B081B9"
+  brightCyan: "#80B5B3"
+  brightWhite: "#EFEFEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77
+    black: 19.6
+    red: 33.9
+    green: 62
+    yellow: 93.6
+    blue: 42.5
+    magenta: 39.9
+    cyan: 53.6
+    white: 93.9
+    brightBlack: 19.6
+    brightRed: 33.9
+    brightGreen: 62
+    brightYellow: 93.6
+    brightBlue: 42.5
+    brightMagenta: 39.9
+    brightCyan: 53.6
+    brightWhite: 93.9

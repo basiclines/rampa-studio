@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Aemeath)"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#FEFBF8"
+  fg: "#3D2D35"
+  black: "#3D2D35"
+  red: "#D87098"
+  green: "#70A888"
+  yellow: "#E8B8D8"
+  blue: "#5AB8C0"
+  magenta: "#E488AC"
+  cyan: "#77C1C8"
+  white: "#FFF8FB"
+  brightBlack: "#8D7A82"
+  brightRed: "#E890B0"
+  brightGreen: "#88C8A0"
+  brightYellow: "#F8D8F0"
+  brightBlue: "#70C8D0"
+  brightMagenta: "#F498BC"
+  brightCyan: "#8AD8E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97
+    black: 97
+    red: 55.9
+    green: 50.9
+    yellow: 28.5
+    blue: 43.4
+    magenta: 46.6
+    cyan: 37.7
+    white: 0
+    brightBlack: 65.3
+    brightRed: 43.4
+    brightGreen: 35
+    brightYellow: 13
+    brightBlue: 34.8
+    brightMagenta: 38.4
+    brightCyan: 25.4
+    brightWhite: 0

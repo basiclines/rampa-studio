@@ -1,0 +1,53 @@
+name: "Pulse Studio Theme (Pulse Balanced Purple)"
+source:
+  marketplace_id: "IrvinBenitez.Pulse-theme-vscode"
+  version: "1.0.2"
+  installs: 106
+  rating: 5
+  ratings: 1
+  author: "Irvin Benitez"
+  repo: "https://github.com/PulseStudio07/VScode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=IrvinBenitez.Pulse-theme-vscode"
+  formats: null
+colors:
+  bg: "#1E1E2E"
+  fg: "#D5D5E3"
+  black: "#1E1E2E"
+  red: "#D89AAA"
+  green: "#A8C99A"
+  yellow: "#DDC8A3"
+  blue: "#9D9DDB"
+  magenta: "#C49AD8"
+  cyan: "#9AD8D8"
+  white: "#D5D5E3"
+  brightBlack: "#5A5A6E"
+  brightRed: "#E8AABA"
+  brightGreen: "#B8D9AA"
+  brightYellow: "#EDD8B3"
+  brightBlue: "#ADADEB"
+  brightMagenta: "#D4AAE8"
+  brightCyan: "#AAE8E8"
+  brightWhite: "#EBEBF5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 79.7
+    black: 0
+    red: 54.7
+    green: 66.3
+    yellow: 72.7
+    blue: 50.2
+    magenta: 53.9
+    cyan: 74.2
+    white: 79.7
+    brightBlack: 16.7
+    brightRed: 63.5
+    brightGreen: 75.7
+    brightYellow: 82.4
+    brightBlue: 58.9
+    brightMagenta: 62.7
+    brightCyan: 83.8
+    brightWhite: 93.3

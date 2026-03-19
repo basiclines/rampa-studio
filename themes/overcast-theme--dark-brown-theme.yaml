@@ -1,0 +1,53 @@
+name: "Overcast Theme (Dark Brown Theme)"
+source:
+  marketplace_id: "ceciljacob.overcast-code-theme"
+  version: "1.1.0"
+  installs: 768
+  rating: 5
+  ratings: 1
+  author: "Cecil Jacob"
+  repo: "https://github.com/ceciljacob/overcast-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ceciljacob.overcast-code-theme"
+  formats: null
+colors:
+  bg: "#180F08"
+  fg: "#FCFAF6"
+  black: "#020202"
+  red: "#C45E04"
+  green: "#80A28E"
+  yellow: "#F4DB60"
+  blue: "#76ABDC"
+  magenta: "#B68DB2"
+  cyan: "#56B8C8"
+  white: "#EFEFEF"
+  brightBlack: "#424242"
+  brightRed: "#C45E04"
+  brightGreen: "#80A28E"
+  brightYellow: "#F4DB60"
+  brightBlue: "#76ABDC"
+  brightMagenta: "#B68DB2"
+  brightCyan: "#56B8C8"
+  brightWhite: "#FEFEFE"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 59
+  pair: null
+  contrast:
+    fg: 104.1
+    black: 0
+    red: 32.5
+    green: 47.3
+    yellow: 84.3
+    blue: 53.7
+    magenta: 47.1
+    cyan: 56.2
+    white: 96.9
+    brightBlack: 8.6
+    brightRed: 32.5
+    brightGreen: 47.3
+    brightYellow: 84.3
+    brightBlue: 53.7
+    brightMagenta: 47.1
+    brightCyan: 56.2
+    brightWhite: 106.7

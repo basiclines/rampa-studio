@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Scar)"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#F5F5F7"
+  fg: "#1E1E24"
+  black: "#1E1E24"
+  red: "#D81E3D"
+  green: "#2E8B57"
+  yellow: "#E6C200"
+  blue: "#4A6A8A"
+  magenta: "#8B0000"
+  cyan: "#5BA4C8"
+  white: "#EAEAEF"
+  brightBlack: "#5A5A65"
+  brightRed: "#FF4D6D"
+  brightGreen: "#50C878"
+  brightYellow: "#FFD700"
+  brightBlue: "#6A8AA8"
+  brightMagenta: "#A03040"
+  brightCyan: "#7BC8E8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.7
+    black: 97.7
+    red: 66.9
+    green: 63.1
+    yellow: 25.4
+    blue: 72.3
+    magenta: 84.9
+    cyan: 47.4
+    white: 0
+    brightBlack: 77.6
+    brightRed: 52.2
+    brightGreen: 35.5
+    brightYellow: 13.3
+    brightBlue: 57.8
+    brightMagenta: 77.4
+    brightCyan: 29.2
+    brightWhite: 0

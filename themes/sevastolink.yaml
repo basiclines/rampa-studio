@@ -1,0 +1,54 @@
+name: "Sevastolink"
+source:
+  marketplace_id: "paulopacitti.sevastolink"
+  version: "0.0.4"
+  installs: 1280
+  rating: 5
+  ratings: 2
+  author: "Paulo Pacitti 💎"
+  repo: "https://github.com/paulopacitti/sevastolink"
+  url: "https://marketplace.visualstudio.com/items?itemName=paulopacitti.sevastolink"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/paulopacitti/sevastolink/master/iterm/sevastolink.itermcolors"
+colors:
+  bg: "#0C290C"
+  fg: "#CCD5D4"
+  black: "#0C290C"
+  red: "#F07826"
+  green: "#05B669"
+  yellow: "#F07826"
+  blue: "#05B669"
+  magenta: "#F07826"
+  cyan: "#05B669"
+  white: "#7A807F"
+  brightBlack: "#0C290C"
+  brightRed: "#F07826"
+  brightGreen: "#05B669"
+  brightYellow: "#F07826"
+  brightBlue: "#05B669"
+  brightMagenta: "#F07826"
+  brightCyan: "#05B669"
+  brightWhite: "#CCD5D4"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 143
+  pair: null
+  contrast:
+    fg: 77.2
+    black: 0
+    red: 45.4
+    green: 48.1
+    yellow: 45.4
+    blue: 48.1
+    magenta: 45.4
+    cyan: 48.1
+    white: 31.4
+    brightBlack: 0
+    brightRed: 45.4
+    brightGreen: 48.1
+    brightYellow: 45.4
+    brightBlue: 48.1
+    brightMagenta: 45.4
+    brightCyan: 48.1
+    brightWhite: 77.2

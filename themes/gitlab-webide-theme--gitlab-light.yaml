@@ -1,0 +1,53 @@
+name: "GitLab WebIDE Theme (GitLab Light)"
+source:
+  marketplace_id: "AlbertoRestifo.gitlab-webide-theme"
+  version: "1.0.1"
+  installs: 5720
+  rating: 0
+  ratings: 0
+  author: "Alberto Restifo"
+  repo: "https://github.com/albertorestifo/gitlab-webide-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlbertoRestifo.gitlab-webide-theme"
+  formats: null
+colors:
+  bg: "#FAFAFF"
+  fg: "#303030"
+  black: "#303030"
+  red: "#A31700"
+  green: "#0A7F3D"
+  yellow: "#AF551D"
+  blue: "#006CD8"
+  magenta: "#583CAC"
+  cyan: "#00798A"
+  white: "#303030"
+  brightBlack: "#303030"
+  brightRed: "#A31700"
+  brightGreen: "#0A7F3D"
+  brightYellow: "#AF551D"
+  brightBlue: "#006CD8"
+  brightMagenta: "#583CAC"
+  brightCyan: "#00798A"
+  brightWhite: "#303030"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.8
+    black: 96.8
+    red: 82.5
+    green: 71.9
+    yellow: 71.7
+    blue: 71.4
+    magenta: 84.1
+    cyan: 72
+    white: 96.8
+    brightBlack: 96.8
+    brightRed: 82.5
+    brightGreen: 71.9
+    brightYellow: 71.7
+    brightBlue: 71.4
+    brightMagenta: 84.1
+    brightCyan: 72
+    brightWhite: 96.8

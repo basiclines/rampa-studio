@@ -1,0 +1,53 @@
+name: "Rainglow (prime-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0B0B11"
+  fg: "#9090B2"
+  black: "#151520"
+  red: "#BA0E2E"
+  green: "#9D50BA"
+  yellow: "#EE4266"
+  blue: "#FFD23F"
+  magenta: "#F3FCF0"
+  cyan: "#EE4266"
+  white: "#9F9FBC"
+  brightBlack: "#33334F"
+  brightRed: "#F03E5F"
+  brightGreen: "#C699D7"
+  brightYellow: "#F6A0B2"
+  brightBlue: "#FFEAA5"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#F6A0B2"
+  brightWhite: "#CCCCDC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 43.8
+    black: 0
+    red: 21.3
+    green: 28
+    yellow: 37.8
+    blue: 82.1
+    magenta: 103.9
+    cyan: 37.8
+    white: 51.4
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 55.6
+    brightYellow: 64
+    brightBlue: 94.5
+    brightMagenta: 107.7
+    brightCyan: 64
+    brightWhite: 76.2

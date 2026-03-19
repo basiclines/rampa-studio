@@ -1,0 +1,53 @@
+name: "CRT Themes (CRT Amber)"
+source:
+  marketplace_id: "krueger71.crt-themes"
+  version: "0.5.2"
+  installs: 38260
+  rating: 5
+  ratings: 9
+  author: "krueger71"
+  repo: "https://github.com/krueger71/crt-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=krueger71.crt-themes"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#FFB000"
+  black: "#FFB000"
+  red: "#C08605"
+  green: "#CF9003"
+  yellow: "#A07007"
+  blue: "#EFA501"
+  magenta: "#DF9B02"
+  cyan: "#B07B06"
+  white: "#906608"
+  brightBlack: "#FFB000"
+  brightRed: "#C08605"
+  brightGreen: "#CF9003"
+  brightYellow: "#A07007"
+  brightBlue: "#EFA501"
+  brightMagenta: "#DF9B02"
+  brightCyan: "#B07B06"
+  brightWhite: "#906608"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 68.1
+    black: 68.1
+    red: 42.9
+    green: 48.6
+    yellow: 31.2
+    blue: 61.3
+    magenta: 55
+    cyan: 36.9
+    white: 26.1
+    brightBlack: 68.1
+    brightRed: 42.9
+    brightGreen: 48.6
+    brightYellow: 31.2
+    brightBlue: 61.3
+    brightMagenta: 55
+    brightCyan: 36.9
+    brightWhite: 26.1

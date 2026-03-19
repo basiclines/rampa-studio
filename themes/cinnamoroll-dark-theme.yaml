@@ -1,0 +1,53 @@
+name: "Cinnamoroll | DARK THEME"
+source:
+  marketplace_id: "dango.cinnamoroll-dark-theme"
+  version: "1.1.1"
+  installs: 653
+  rating: 5
+  ratings: 1
+  author: "Daniel Radosa"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=dango.cinnamoroll-dark-theme"
+  formats: null
+colors:
+  bg: "#191919"
+  fg: "#FF7B7B"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Cinnamoroll | LIGHT THEME"
+  contrast:
+    fg: 52.1
+    black: 0
+    red: 26.5
+    green: 51.5
+    yellow: 42.6
+    blue: 14.8
+    magenta: 25.9
+    cyan: 39.9
+    white: 14.9
+    brightBlack: 21.8
+    brightRed: 26.5
+    brightGreen: 60.1
+    brightYellow: 60.1
+    brightBlue: 14.8
+    brightMagenta: 25.9
+    brightCyan: 39.9
+    brightWhite: 52.3

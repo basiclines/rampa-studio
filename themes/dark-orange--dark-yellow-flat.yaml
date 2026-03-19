@@ -1,0 +1,53 @@
+name: "Dark Orange (Dark Yellow Flat)"
+source:
+  marketplace_id: "jannisberndt.dark-orange"
+  version: "0.4.0"
+  installs: 21541
+  rating: 5
+  ratings: 1
+  author: "Jannis Berndt"
+  repo: "https://github.com/jb3rndt/dark-orange"
+  url: "https://marketplace.visualstudio.com/items?itemName=jannisberndt.dark-orange"
+  formats: null
+colors:
+  bg: "#23272E"
+  fg: "#E1E4E8"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#98C379"
+  yellow: "#F69D50"
+  blue: "#4AA5F0"
+  magenta: "#C792EA"
+  cyan: "#82AAFF"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 87
+    black: 0
+    red: 34.5
+    green: 60.1
+    yellow: 57.5
+    blue: 47.4
+    magenta: 51.5
+    cyan: 53.7
+    white: 88.4
+    brightBlack: 13.2
+    brightRed: 43.9
+    brightGreen: 74.6
+    brightYellow: 59
+    brightBlue: 61.5
+    brightMagenta: 48
+    brightCyan: 65.6
+    brightWhite: 80.8

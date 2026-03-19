@@ -1,0 +1,53 @@
+name: "Sprinkle Pack (Darker Than Black)"
+source:
+  marketplace_id: "kgnio.sprinklepack"
+  version: "0.2.5"
+  installs: 83
+  rating: 5
+  ratings: 2
+  author: "Kagan Mamak"
+  repo: "https://github.com/kgnio/sprinklepack"
+  url: "https://marketplace.visualstudio.com/items?itemName=kgnio.sprinklepack"
+  formats: null
+colors:
+  bg: "#0B0C0F"
+  fg: "#E0E0E0"
+  black: "#2E3440"
+  red: "#FF6B6B"
+  green: "#50FA7B"
+  yellow: "#FFD700"
+  blue: "#5FD4FB"
+  magenta: "#D291FF"
+  cyan: "#8BE9FD"
+  white: "#E0E0E0"
+  brightBlack: "#4C566A"
+  brightRed: "#FF5F5F"
+  brightGreen: "#B3E85F"
+  brightYellow: "#FFFF99"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#C084FC"
+  brightCyan: "#9AEDFE"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 48.9
+    green: 85.7
+    yellow: 84
+    blue: 72.2
+    magenta: 57.3
+    cyan: 84.7
+    white: 87.7
+    brightBlack: 16.2
+    brightRed: 46.2
+    brightGreen: 82.4
+    brightYellow: 104
+    brightBlue: 49.4
+    brightMagenta: 50.5
+    brightCyan: 87.8
+    brightWhite: 97

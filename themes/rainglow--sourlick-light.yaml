@@ -1,0 +1,53 @@
+name: "Rainglow (sourlick-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#BFC431"
+  yellow: "#6BA05D"
+  blue: "#94C117"
+  magenta: "#AFC425"
+  cyan: "#D89E20"
+  white: "#404040"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#DBDE7D"
+  brightYellow: "#A6C69D"
+  brightBlue: "#C3EB53"
+  brightMagenta: "#D3E36C"
+  brightCyan: "#EAC574"
+  brightWhite: "#666666"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 80.3
+    green: 35.6
+    yellow: 57.6
+    blue: 41.4
+    magenta: 37.4
+    cyan: 46.6
+    white: 94.1
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 20.3
+    brightYellow: 35.6
+    brightBlue: 17.9
+    brightMagenta: 19.4
+    brightCyan: 28.6
+    brightWhite: 78.8

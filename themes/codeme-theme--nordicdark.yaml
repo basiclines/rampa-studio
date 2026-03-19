@@ -1,0 +1,53 @@
+name: "CodeMe Theme (NordicDark)"
+source:
+  marketplace_id: "Avetis.codeme-theme"
+  version: "0.1.1"
+  installs: 8081
+  rating: 0
+  ratings: 0
+  author: "Avetis"
+  repo: "https://github.com/AvetisDN/codeme-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Avetis.codeme-theme"
+  formats: null
+colors:
+  bg: "#252A34"
+  fg: "#E5E9F0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E9F0"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 89.5
+    black: 0
+    red: 23.9
+    green: 50.2
+    yellow: 82.8
+    blue: 24.6
+    magenta: 27
+    cyan: 44.8
+    white: 89.5
+    brightBlack: 19.2
+    brightRed: 35.8
+    brightGreen: 60.7
+    brightYellow: 92.8
+    brightBlue: 37.2
+    brightMagenta: 42.6
+    brightCyan: 52.6
+    brightWhite: 104.1

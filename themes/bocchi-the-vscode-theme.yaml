@@ -1,0 +1,53 @@
+name: "Bocchi-the-vscode-theme"
+source:
+  marketplace_id: "ReadingSteiner.bocchi-the-vscode-theme"
+  version: "0.0.3"
+  installs: 5120
+  rating: 4.5
+  ratings: 2
+  author: "ReadingSteiner"
+  repo: "https://github.com/Arunava-K/Bocchi-the-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ReadingSteiner.bocchi-the-vscode-theme"
+  formats: null
+colors:
+  bg: "#FEC1C6"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#AB800D"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#F9F9F9"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#805909"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 13
+  pair: null
+  contrast:
+    fg: 79
+    black: 79
+    red: 46.9
+    green: 20.9
+    yellow: 36.4
+    blue: 46.2
+    magenta: 43.9
+    cyan: 26.2
+    white: 24.1
+    brightBlack: 51.7
+    brightRed: 35.1
+    brightGreen: 10.8
+    brightYellow: 53.9
+    brightBlue: 33.6
+    brightMagenta: 28.4
+    brightCyan: 18.6
+    brightWhite: 28.1

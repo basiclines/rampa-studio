@@ -1,0 +1,53 @@
+name: "Runic Theme (Runic Minimal)"
+source:
+  marketplace_id: "pyxel.runic-theme"
+  version: "1.2.0"
+  installs: 2358
+  rating: 5
+  ratings: 1
+  author: "Pyxel"
+  repo: "https://github.com/xpyxel/runic-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pyxel.runic-theme"
+  formats: null
+colors:
+  bg: "#181A1B"
+  fg: "#D1D1D1"
+  black: "#000000"
+  red: "#FF3B30"
+  green: "#4CD964"
+  yellow: "#FFCC00"
+  blue: "#0095FF"
+  magenta: "#FF2D55"
+  cyan: "#5AC8FA"
+  white: "#FFFFFF"
+  brightBlack: "#686868"
+  brightRed: "#FF3B30"
+  brightGreen: "#4CD964"
+  brightYellow: "#FFCC00"
+  brightBlue: "#0095FF"
+  brightMagenta: "#FF2D55"
+  brightCyan: "#5AC8FA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77.4
+    black: 0
+    red: 39.1
+    green: 67.2
+    yellow: 78.3
+    blue: 43.1
+    magenta: 38.3
+    cyan: 65.4
+    white: 106.6
+    brightBlack: 22.6
+    brightRed: 39.1
+    brightGreen: 67.2
+    brightYellow: 78.3
+    brightBlue: 43.1
+    brightMagenta: 38.3
+    brightCyan: 65.4
+    brightWhite: 106.6

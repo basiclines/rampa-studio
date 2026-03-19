@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_Chartreuse)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#7FFF00"
+  black: "#7FFF00"
+  red: "#5DBB00"
+  green: "#66CC00"
+  yellow: "#4C9900"
+  blue: "#77EE00"
+  magenta: "#6EDD00"
+  cyan: "#55AA00"
+  white: "#448800"
+  brightBlack: "#7FFF00"
+  brightRed: "#5DBB00"
+  brightGreen: "#66CC00"
+  brightYellow: "#4C9900"
+  brightBlue: "#77EE00"
+  brightMagenta: "#6EDD00"
+  brightCyan: "#55AA00"
+  brightWhite: "#448800"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.7
+    black: 89.7
+    red: 54.2
+    green: 62.6
+    yellow: 38.7
+    blue: 80.3
+    magenta: 71.3
+    cyan: 46.3
+    white: 31.5
+    brightBlack: 89.7
+    brightRed: 54.2
+    brightGreen: 62.6
+    brightYellow: 38.7
+    brightBlue: 80.3
+    brightMagenta: 71.3
+    brightCyan: 46.3
+    brightWhite: 31.5

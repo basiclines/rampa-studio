@@ -1,0 +1,53 @@
+name: "Colorful Theme"
+source:
+  marketplace_id: "leonex16.colorful-theme"
+  version: "1.1.4"
+  installs: 3557
+  rating: 5
+  ratings: 1
+  author: "Leonel Espinoza Sotelo"
+  repo: "https://github.com/leonex16/colorful-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=leonex16.colorful-theme"
+  formats: null
+colors:
+  bg: "#202022"
+  fg: "#FAFAFA"
+  black: "#000000"
+  red: "#FF4C42"
+  green: "#34CB5A"
+  yellow: "#FFD814"
+  blue: "#148AFF"
+  magenta: "#C363F2"
+  cyan: "#47CAE1"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF4C42"
+  brightGreen: "#34CB5A"
+  brightYellow: "#FFD814"
+  brightBlue: "#148AFF"
+  brightMagenta: "#C363F2"
+  brightCyan: "#47CAE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.4
+    black: 0
+    red: 40.6
+    green: 58.7
+    yellow: 82.6
+    blue: 38.4
+    magenta: 39.9
+    cyan: 63.3
+    white: 105.7
+    brightBlack: 0
+    brightRed: 40.6
+    brightGreen: 58.7
+    brightYellow: 82.6
+    brightBlue: 38.4
+    brightMagenta: 39.9
+    brightCyan: 63.3
+    brightWhite: 105.7

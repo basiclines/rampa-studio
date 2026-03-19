@@ -1,0 +1,53 @@
+name: "Mayukai Theme (Mayukai)"
+source:
+  marketplace_id: "GulajavaMinistudio.mayukaithemevsc"
+  version: "3.2.5"
+  installs: 359491
+  rating: 4.96
+  ratings: 24
+  author: "GulajavaMinistudio"
+  repo: "https://github.com/GulajavaMinistudio/Mayukai-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GulajavaMinistudio.mayukaithemevsc"
+  formats: null
+colors:
+  bg: "#141824"
+  fg: "#CBCEBC"
+  black: "#191E2A"
+  red: "#ED8274"
+  green: "#A6CC70"
+  yellow: "#FAD07B"
+  blue: "#95E6CB"
+  magenta: "#CFBAFA"
+  cyan: "#95E6CB"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFD580"
+  brightBlue: "#95E6CB"
+  brightMagenta: "#D4BFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 270
+  pair: null
+  contrast:
+    fg: 74.6
+    black: 0
+    red: 50.2
+    green: 67.3
+    yellow: 80.3
+    blue: 80.7
+    magenta: 69.9
+    cyan: 80.7
+    white: 71.5
+    brightBlack: 22.7
+    brightRed: 52.7
+    brightGreen: 81.8
+    brightYellow: 83.4
+    brightBlue: 80.7
+    brightMagenta: 72.8
+    brightCyan: 80.7
+    brightWhite: 106.7

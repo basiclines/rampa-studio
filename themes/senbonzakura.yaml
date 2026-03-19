@@ -1,0 +1,53 @@
+name: "Senbonzakura"
+source:
+  marketplace_id: "Ferupin.senbonzakura"
+  version: "1.0.2"
+  installs: 80
+  rating: 0
+  ratings: 0
+  author: "Ferupin"
+  repo: "https://github.com/ferupin/senbonzakura-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ferupin.senbonzakura"
+  formats: null
+colors:
+  bg: "#1C1828"
+  fg: "#FF54AC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 295
+  pair: null
+  contrast:
+    fg: 45.5
+    black: 0
+    red: 26.3
+    green: 52.6
+    yellow: 85.2
+    blue: 27
+    magenta: 29.4
+    cyan: 47.2
+    white: 89.6
+    brightBlack: 21.6
+    brightRed: 38.2
+    brightGreen: 63.1
+    brightYellow: 95.2
+    brightBlue: 39.6
+    brightMagenta: 45
+    brightCyan: 55
+    brightWhite: 89.6

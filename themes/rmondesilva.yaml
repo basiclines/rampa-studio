@@ -1,0 +1,53 @@
+name: "rmondesilva"
+source:
+  marketplace_id: "rmondesilva.rmondesilva"
+  version: "0.0.1"
+  installs: 87
+  rating: 0
+  ratings: 0
+  author: "Richmond De Silva"
+  repo: "https://github.com/rmondesilva/vscode-color-theme-rmondesilva"
+  url: "https://marketplace.visualstudio.com/items?itemName=rmondesilva.rmondesilva"
+  formats: null
+colors:
+  bg: "#121414"
+  fg: "#D6DBDB"
+  black: "#1E2121"
+  red: "#BA0E2E"
+  green: "#A7DA1E"
+  yellow: "#9BB7A7"
+  blue: "#F9F7F1"
+  magenta: "#9BB7A7"
+  cyan: "#C24E4B"
+  white: "#E4E7E7"
+  brightBlack: "#424A4A"
+  brightRed: "#F03E5F"
+  brightGreen: "#A7DA1E"
+  brightYellow: "#D6E2DB"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#D6E2DB"
+  brightCyan: "#DC9997"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83.4
+    black: 0
+    red: 20.8
+    green: 73.5
+    yellow: 59.1
+    blue: 101.9
+    magenta: 59.1
+    cyan: 29.2
+    white: 91.2
+    brightBlack: 10.7
+    brightRed: 37.1
+    brightGreen: 73.5
+    brightYellow: 86.6
+    brightBlue: 107.2
+    brightMagenta: 86.6
+    brightCyan: 55.7
+    brightWhite: 107.2

@@ -1,0 +1,53 @@
+name: "DevStack (Solstice-Heat)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#2B221A"
+  fg: "#F9CA9C"
+  black: "#2B221A"
+  red: "#B71A1A"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#F66E60"
+  magenta: "#F66E60"
+  cyan: "#29C3A0"
+  white: "#F9CA9C"
+  brightBlack: "#2B221A"
+  brightRed: "#B71A1A"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#F66E60"
+  brightMagenta: "#F66E60"
+  brightCyan: "#29C3A0"
+  brightWhite: "#F9CA9C"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 63
+  pair: null
+  contrast:
+    fg: 76.9
+    black: 0
+    red: 18.4
+    green: 56
+    yellow: 50
+    blue: 44.9
+    magenta: 44.9
+    cyan: 56
+    white: 76.9
+    brightBlack: 0
+    brightRed: 18.4
+    brightGreen: 56
+    brightYellow: 50
+    brightBlue: 44.9
+    brightMagenta: 44.9
+    brightCyan: 56
+    brightWhite: 76.9

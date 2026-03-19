@@ -1,0 +1,53 @@
+name: "Neon Shimmer (Neon Shimmer (Amethyst Core))"
+source:
+  marketplace_id: "piperunner.neon-shimmer"
+  version: "1.2.0"
+  installs: 16863
+  rating: 5
+  ratings: 2
+  author: "Pipe Runner"
+  repo: "https://github.com/Pipe-Runner-Lab/neon-shimmer"
+  url: "https://marketplace.visualstudio.com/items?itemName=piperunner.neon-shimmer"
+  formats: null
+colors:
+  bg: "#070012"
+  fg: "#E6D9FF"
+  black: "#070012"
+  red: "#8E4AF5"
+  green: "#73C991"
+  yellow: "#FFDF7E"
+  blue: "#B377FF"
+  magenta: "#B377FF"
+  cyan: "#04D9C4"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#8E4AF5"
+  brightGreen: "#04D9C4"
+  brightYellow: "#EE4CFC"
+  brightBlue: "#A78BFF"
+  brightMagenta: "#D1A3FF"
+  brightCyan: "#45FFED"
+  brightWhite: "#E6D9FF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 304
+  pair: null
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 29.6
+    green: 63.7
+    yellow: 88.8
+    blue: 45.4
+    magenta: 45.4
+    cyan: 70.2
+    white: 91
+    brightBlack: 23
+    brightRed: 29.6
+    brightGreen: 70.2
+    brightYellow: 46.7
+    brightBlue: 49.6
+    brightMagenta: 63.2
+    brightCyan: 91.9
+    brightWhite: 87.1

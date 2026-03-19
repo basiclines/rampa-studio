@@ -1,0 +1,53 @@
+name: "Arctis (Arctis High Contrast)"
+source:
+  marketplace_id: "avidworks.arctis"
+  version: "2.3.1"
+  installs: 15552
+  rating: 5
+  ratings: 5
+  author: "adamdotjs"
+  repo: "https://github.com/avidworks/arctis"
+  url: "https://marketplace.visualstudio.com/items?itemName=avidworks.arctis"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#C7CCD6"
+  black: "#313744"
+  red: "#F1855B"
+  green: "#13BE76"
+  yellow: "#E8C59B"
+  blue: "#9B90F4"
+  magenta: "#EB94B2"
+  cyan: "#8ACFEF"
+  white: "#D3D7DF"
+  brightBlack: "#515B71"
+  brightRed: "#F1855B"
+  brightGreen: "#13BE76"
+  brightYellow: "#E8C59B"
+  brightBlue: "#9B90F4"
+  brightMagenta: "#EB94B2"
+  brightCyan: "#8ACFEF"
+  brightWhite: "#D3D7DF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.5
+    black: 0
+    red: 52.5
+    green: 54.9
+    yellow: 74.9
+    blue: 49.1
+    magenta: 58.4
+    cyan: 72
+    white: 82.2
+    brightBlack: 18.4
+    brightRed: 52.5
+    brightGreen: 54.9
+    brightYellow: 74.9
+    brightBlue: 49.1
+    brightMagenta: 58.4
+    brightCyan: 72
+    brightWhite: 82.2

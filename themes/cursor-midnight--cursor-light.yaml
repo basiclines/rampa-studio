@@ -1,0 +1,53 @@
+name: "Cursor Midnight (Cursor Light)"
+source:
+  marketplace_id: "MohdZaid.vscode-cursor-theme"
+  version: "0.0.1"
+  installs: 2770
+  rating: 5
+  ratings: 1
+  author: "Mohd Zaid"
+  repo: "https://github.com/BioHazard786/cursor-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MohdZaid.vscode-cursor-theme"
+  formats: null
+colors:
+  bg: "#FCFCFC"
+  fg: "#141414"
+  black: "#141414"
+  red: "#CF2D56"
+  green: "#1F8A65"
+  yellow: "#A16900"
+  blue: "#3C7CAB"
+  magenta: "#B8448B"
+  cyan: "#4C7F8C"
+  white: "#FCFCFC"
+  brightBlack: "#141414"
+  brightRed: "#E75E78"
+  brightGreen: "#55A583"
+  brightYellow: "#C08532"
+  brightBlue: "#6299C3"
+  brightMagenta: "#D06BA6"
+  brightCyan: "#6F9BA6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 103.3
+    red: 71.5
+    green: 67.6
+    yellow: 70
+    blue: 69.2
+    magenta: 71.7
+    cyan: 69
+    white: 0
+    brightBlack: 103.3
+    brightRed: 58.4
+    brightGreen: 54.2
+    brightYellow: 56.7
+    brightBlue: 55.5
+    brightMagenta: 58.3
+    brightCyan: 55.3
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Default Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#F8F8F8"
+  fg: "#383838"
+  black: "#D8D8D8"
+  red: "#AB4642"
+  green: "#A1B56C"
+  yellow: "#DC9656"
+  blue: "#7CAFC2"
+  magenta: "#BA8BAF"
+  cyan: "#86C1B9"
+  white: "#282828"
+  brightBlack: "#B8B8B8"
+  brightRed: "#AB4642"
+  brightGreen: "#A1B56C"
+  brightYellow: "#F7CA88"
+  brightBlue: "#7CAFC2"
+  brightMagenta: "#BA8BAF"
+  brightCyan: "#86C1B9"
+  brightWhite: "#181818"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.8
+    black: 16.3
+    red: 73.6
+    green: 40.1
+    yellow: 44
+    blue: 42.9
+    magenta: 50.2
+    cyan: 35.2
+    white: 97.4
+    brightBlack: 34.2
+    brightRed: 73.6
+    brightGreen: 40.1
+    brightYellow: 20.2
+    brightBlue: 42.9
+    brightMagenta: 50.2
+    brightCyan: 35.2
+    brightWhite: 100.4

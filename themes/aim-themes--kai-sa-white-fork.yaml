@@ -1,0 +1,53 @@
+name: "Aim Themes (Kai'sa - white - Fork)"
+source:
+  marketplace_id: "EmeAim.aim"
+  version: "0.0.8"
+  installs: 1799
+  rating: 5
+  ratings: 1
+  author: "EmeAim"
+  repo: "https://github.com/EmePin/aim-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmeAim.aim"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 74
+    green: 48
+    yellow: 17
+    blue: 73.3
+    magenta: 70.9
+    cyan: 53.3
+    white: 12.9
+    brightBlack: 78.8
+    brightRed: 62.1
+    brightGreen: 37.9
+    brightYellow: 7.7
+    brightBlue: 60.7
+    brightMagenta: 55.4
+    brightCyan: 45.7
+    brightWhite: 12.9

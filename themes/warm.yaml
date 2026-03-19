@@ -1,0 +1,53 @@
+name: "warm"
+source:
+  marketplace_id: "indigo.warm"
+  version: "1.0.1"
+  installs: 2595
+  rating: 4
+  ratings: 1
+  author: "indigo"
+  repo: "https://github.com/gabriela-tomazzi/warm-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=indigo.warm"
+  formats: null
+colors:
+  bg: "#110D10"
+  fg: "#E1B473"
+  black: "#241C22"
+  red: "#6B7D7A"
+  green: "#6B7D7A"
+  yellow: "#DF8038"
+  blue: "#5F2F45"
+  magenta: "#5F2F45"
+  cyan: "#6B7D7A"
+  white: "#E0D8C9"
+  brightBlack: "#666666"
+  brightRed: "#6B7D7A"
+  brightGreen: "#6B7D7A"
+  brightYellow: "#DF8038"
+  brightBlue: "#5F2F45"
+  brightMagenta: "#5F2F45"
+  brightCyan: "#6B7D7A"
+  brightWhite: "#E0D8C9"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.7
+    black: 0
+    red: 31.3
+    green: 31.3
+    yellow: 46.8
+    blue: 7.9
+    magenta: 7.9
+    cyan: 31.3
+    white: 83
+    brightBlack: 22.7
+    brightRed: 31.3
+    brightGreen: 31.3
+    brightYellow: 46.8
+    brightBlue: 7.9
+    brightMagenta: 7.9
+    brightCyan: 31.3
+    brightWhite: 83

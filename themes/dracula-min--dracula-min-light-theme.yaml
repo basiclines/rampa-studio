@@ -1,0 +1,53 @@
+name: "Dracula.min (Dracula.min Light Theme)"
+source:
+  marketplace_id: "ashrafhadden.dracula-dot-min"
+  version: "2.1.1"
+  installs: 12881
+  rating: 5
+  ratings: 5
+  author: "Ashraf Hadden"
+  repo: "https://github.com/ashrafhadden/dracula.min"
+  url: "https://marketplace.visualstudio.com/items?itemName=ashrafhadden.dracula-dot-min"
+  formats: null
+colors:
+  bg: "#F8F8F2"
+  fg: "#282A36"
+  black: "#EAEBF9"
+  red: "#D82F39"
+  green: "#008504"
+  yellow: "#6C7908"
+  blue: "#855FBF"
+  magenta: "#C13F8E"
+  cyan: "#007E90"
+  white: "#282A36"
+  brightBlack: "#7E8EC2"
+  brightRed: "#CB4046"
+  brightGreen: "#008525"
+  brightYellow: "#727724"
+  brightBlue: "#8762AE"
+  brightMagenta: "#B34B97"
+  brightCyan: "#157F80"
+  brightWhite: "#727272"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.5
+    black: 0
+    red: 67.2
+    green: 68.2
+    yellow: 68.7
+    blue: 68.6
+    magenta: 68
+    cyan: 68.2
+    white: 96.5
+    brightBlack: 54.9
+    brightRed: 67.9
+    brightGreen: 68.1
+    brightYellow: 68.7
+    brightBlue: 68.6
+    brightMagenta: 68.3
+    brightCyan: 68.4
+    brightWhite: 69

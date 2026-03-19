@@ -1,0 +1,53 @@
+name: "Ganbaru (Ganbaru blue)"
+source:
+  marketplace_id: "Marlodev.ganbaru"
+  version: "1.0.0"
+  installs: 1854
+  rating: 5
+  ratings: 1
+  author: "Marlodev"
+  repo: "https://github.com/marlodevhub/ganbaru"
+  url: "https://marketplace.visualstudio.com/items?itemName=Marlodev.ganbaru"
+  formats: null
+colors:
+  bg: "#151B23"
+  fg: "#D0DBDE"
+  black: "#293039"
+  red: "#FF6D7E"
+  green: "#A2E57B"
+  yellow: "#F3ACE2"
+  blue: "#FFB270"
+  magenta: "#BAA0F8"
+  cyan: "#7CD5F1"
+  white: "#D0DBDE"
+  brightBlack: "#6B7678"
+  brightRed: "#FF6D7E"
+  brightGreen: "#A2E57B"
+  brightYellow: "#F3ACE2"
+  brightBlue: "#FFB270"
+  brightMagenta: "#BAA0F8"
+  brightCyan: "#7CD5F1"
+  brightWhite: "#D0DBDE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 256
+  pair: null
+  contrast:
+    fg: 82.1
+    black: 0
+    red: 48.6
+    green: 78.6
+    yellow: 68.6
+    blue: 68.9
+    magenta: 57.2
+    cyan: 72.5
+    white: 82.1
+    brightBlack: 27.8
+    brightRed: 48.6
+    brightGreen: 78.6
+    brightYellow: 68.6
+    brightBlue: 68.9
+    brightMagenta: 57.2
+    brightCyan: 72.5
+    brightWhite: 82.1

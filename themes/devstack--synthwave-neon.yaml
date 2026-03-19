@@ -1,0 +1,53 @@
+name: "DevStack (Synthwave-Neon)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#153C51"
+  fg: "#FAFAFA"
+  black: "#153C51"
+  red: "#DF6891"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#F551D1"
+  magenta: "#F551D1"
+  cyan: "#29C3A0"
+  white: "#FAFAFA"
+  brightBlack: "#153C51"
+  brightRed: "#DF6891"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#F551D1"
+  brightMagenta: "#F551D1"
+  brightCyan: "#29C3A0"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 236
+  pair: null
+  contrast:
+    fg: 97
+    black: 0
+    red: 35.3
+    green: 51.1
+    yellow: 45.1
+    blue: 38.5
+    magenta: 38.5
+    cyan: 51.1
+    white: 97
+    brightBlack: 0
+    brightRed: 35.3
+    brightGreen: 51.1
+    brightYellow: 45.1
+    brightBlue: 38.5
+    brightMagenta: 38.5
+    brightCyan: 51.1
+    brightWhite: 97

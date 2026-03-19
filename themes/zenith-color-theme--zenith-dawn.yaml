@@ -1,0 +1,53 @@
+name: "Zenith Color Theme (Zenith Dawn)"
+source:
+  marketplace_id: "TheSamonide.zenith-theme"
+  version: "6.0.3"
+  installs: 111
+  rating: 5
+  ratings: 1
+  author: "Samonide"
+  repo: "https://github.com/samonide/zenith-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheSamonide.zenith-theme"
+  formats: null
+colors:
+  bg: "#EFF1F5"
+  fg: "#4C4F69"
+  black: "#EFF1F5"
+  red: "#D20F39"
+  green: "#40A02B"
+  yellow: "#DF8E1D"
+  blue: "#1E66F5"
+  magenta: "#8839EF"
+  cyan: "#04A5E5"
+  white: "#4C4F69"
+  brightBlack: "#9CA0B0"
+  brightRed: "#D20F39"
+  brightGreen: "#5FB268"
+  brightYellow: "#DF8E1D"
+  brightBlue: "#1E66F5"
+  brightMagenta: "#7C3AED"
+  brightCyan: "#179299"
+  brightWhite: "#4C4F69"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 66.3
+    green: 52.1
+    yellow: 42.3
+    blue: 64.8
+    magenta: 67.5
+    cyan: 44.7
+    white: 79.3
+    brightBlack: 42.4
+    brightRed: 66.3
+    brightGreen: 42.3
+    brightYellow: 42.3
+    brightBlue: 64.8
+    brightMagenta: 69.1
+    brightCyan: 56.1
+    brightWhite: 79.3

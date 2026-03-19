@@ -1,0 +1,53 @@
+name: "Rainglow (pleasure-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#474E56"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#A175BA"
+  yellow: "#DD5D7A"
+  blue: "#A1CBC6"
+  magenta: "#DD5D7A"
+  cyan: "#A1CBC6"
+  white: "#535B64"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#CFB9DC"
+  brightYellow: "#EFB1BF"
+  brightBlue: "#E3EFEE"
+  brightMagenta: "#EFB1BF"
+  brightCyan: "#E3EFEE"
+  brightWhite: "#76818D"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.1
+    black: 0
+    red: 80.3
+    green: 63.9
+    yellow: 62.4
+    blue: 32.5
+    magenta: 62.4
+    cyan: 32.5
+    white: 83.8
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 33.6
+    brightYellow: 33.1
+    brightBlue: 8.5
+    brightMagenta: 33.1
+    brightCyan: 8.5
+    brightWhite: 67

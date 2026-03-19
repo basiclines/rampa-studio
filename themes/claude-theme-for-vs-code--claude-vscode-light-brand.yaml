@@ -1,0 +1,53 @@
+name: "Claude Theme for VS Code (Claude VSCode Light Brand)"
+source:
+  marketplace_id: "jmramos.claude-ui-theme"
+  version: "1.0.3"
+  installs: 40
+  rating: 0
+  ratings: 0
+  author: "jmramos"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=jmramos.claude-ui-theme"
+  formats: null
+colors:
+  bg: "#FAF9F5"
+  fg: "#3D3929"
+  black: "#3D3929"
+  red: "#CC785C"
+  green: "#535146"
+  yellow: "#B26842"
+  blue: "#61AAF2"
+  magenta: "#C3DDF7"
+  cyan: "#6E6D68"
+  white: "#FAF9F5"
+  brightBlack: "#6E6D68"
+  brightRed: "#B26842"
+  brightGreen: "#3D3929"
+  brightYellow: "#CC785C"
+  brightBlue: "#61AAF2"
+  brightMagenta: "#C3DDF7"
+  brightCyan: "#535146"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "indigo"
+  hue: null
+  pair: "Claude Theme for VS Code (Claude VSCode Dark Brand)"
+  contrast:
+    fg: 93
+    black: 93
+    red: 56.2
+    green: 84
+    yellow: 65.4
+    blue: 44.5
+    magenta: 15.7
+    cyan: 72.1
+    white: 0
+    brightBlack: 72.1
+    brightRed: 65.4
+    brightGreen: 93
+    brightYellow: 56.2
+    brightBlue: 44.5
+    brightMagenta: 15.7
+    brightCyan: 84
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Adam"
+source:
+  marketplace_id: "origin.adam"
+  version: "0.1.2"
+  installs: 1985
+  rating: 5
+  ratings: 1
+  author: "Ricardo Brito"
+  repo: "https://github.com/souzk/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=origin.adam"
+  formats: null
+colors:
+  bg: "#FCFCFD"
+  fg: "#9393A8"
+  black: "#787892"
+  red: "#F7768E"
+  green: "#79F391"
+  yellow: "#FFDB89"
+  blue: "#8DDDFF"
+  magenta: "#B1B2FF"
+  cyan: "#8DDDFF"
+  white: "#FCFCFD"
+  brightBlack: "#9393A8"
+  brightRed: "#F7768E"
+  brightGreen: "#79F391"
+  brightYellow: "#FFDB89"
+  brightBlue: "#8DDDFF"
+  brightMagenta: "#B1B2FF"
+  brightCyan: "#8DDDFF"
+  brightWhite: "#F7F7F8"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 55.1
+    black: 67.9
+    red: 49.2
+    green: 17.2
+    yellow: 14.6
+    blue: 21.9
+    magenta: 36.1
+    cyan: 21.9
+    white: 0
+    brightBlack: 55.1
+    brightRed: 49.2
+    brightGreen: 17.2
+    brightYellow: 14.6
+    brightBlue: 21.9
+    brightMagenta: 36.1
+    brightCyan: 21.9
+    brightWhite: 0

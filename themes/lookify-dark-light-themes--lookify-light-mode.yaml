@@ -1,0 +1,53 @@
+name: "LookiFy - Dark & Light Themes (LookiFy Light mode)"
+source:
+  marketplace_id: "prince.lookify"
+  version: "0.1.0"
+  installs: 644
+  rating: 5
+  ratings: 4
+  author: "prince"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=prince.lookify"
+  formats: null
+colors:
+  bg: "#F6F7FA"
+  fg: "#2C2C2C"
+  black: "#F0F8FC"
+  red: "#D74C3C"
+  green: "#61D1B2"
+  yellow: "#FFD64D"
+  blue: "#3A8DD5"
+  magenta: "#E2A3B8"
+  cyan: "#61D1B2"
+  white: "#2C2C2C"
+  brightBlack: "#A8C8E9"
+  brightRed: "#FF6F61"
+  brightGreen: "#00B300"
+  brightYellow: "#FFFF00"
+  brightBlue: "#007FFF"
+  brightMagenta: "#D74C3C"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: "LookiFy - Dark & Light Themes (LookiFy Dark mode)"
+  contrast:
+    fg: 95.8
+    black: 0
+    red: 63.3
+    green: 30.2
+    yellow: 14.5
+    blue: 57.8
+    magenta: 35.5
+    cyan: 30.2
+    white: 95.8
+    brightBlack: 26.7
+    brightRed: 47.3
+    brightGreen: 48.5
+    brightYellow: 0
+    brightBlue: 60.1
+    brightMagenta: 63.3
+    brightCyan: 0
+    brightWhite: 0

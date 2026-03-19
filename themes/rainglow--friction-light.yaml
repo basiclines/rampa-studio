@@ -1,0 +1,53 @@
+name: "Rainglow (friction-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#38363F"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#8D89A5"
+  yellow: "#6AA7A7"
+  blue: "#C2BED6"
+  magenta: "#8D89A5"
+  cyan: "#6AA7A7"
+  white: "#44424D"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#C5C3D1"
+  brightYellow: "#AACDCD"
+  brightBlue: "#FDFDFD"
+  brightMagenta: "#C5C3D1"
+  brightCyan: "#AACDCD"
+  brightWhite: "#696576"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.3
+    black: 0
+    red: 80.3
+    green: 61
+    yellow: 52.7
+    blue: 33.6
+    magenta: 61
+    cyan: 52.7
+    white: 92.9
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 31.5
+    brightYellow: 30.5
+    brightBlue: 0
+    brightMagenta: 31.5
+    brightCyan: 30.5
+    brightWhite: 78.2

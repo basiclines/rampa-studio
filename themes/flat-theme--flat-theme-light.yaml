@@ -1,0 +1,53 @@
+name: "Flat-Theme (Flat-Theme Light)"
+source:
+  marketplace_id: "Aatricks.flat-theme"
+  version: "0.1.2"
+  installs: 88
+  rating: 0
+  ratings: 0
+  author: "Aatricks"
+  repo: "https://github.com/Aatricks/flat-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Aatricks.flat-theme"
+  formats: null
+colors:
+  bg: "#F5F5F5"
+  fg: "#37474F"
+  black: "#263238"
+  red: "#EF5350"
+  green: "#7CB342"
+  yellow: "#F9AE58"
+  blue: "#42A5F5"
+  magenta: "#AB47BC"
+  cyan: "#26C6DA"
+  white: "#ECEFF1"
+  brightBlack: "#546E7A"
+  brightRed: "#EF5350"
+  brightGreen: "#7CB342"
+  brightYellow: "#F9AE58"
+  brightBlue: "#42A5F5"
+  brightMagenta: "#AB47BC"
+  brightCyan: "#26C6DA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.4
+    black: 93.5
+    red: 55.4
+    green: 43
+    yellow: 29.2
+    blue: 45.2
+    magenta: 66.7
+    cyan: 33.8
+    white: 0
+    brightBlack: 70.9
+    brightRed: 55.4
+    brightGreen: 43
+    brightYellow: 29.2
+    brightBlue: 45.2
+    brightMagenta: 66.7
+    brightCyan: 33.8
+    brightWhite: 0

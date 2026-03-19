@@ -1,0 +1,53 @@
+name: "Paddy Color Themes (P. \ Wolf)"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74833
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+  formats: null
+colors:
+  bg: "#221F1E"
+  fg: "#DCBD9D"
+  black: "#473E3B"
+  red: "#B61702"
+  green: "#74AD45"
+  yellow: "#D37D0D"
+  blue: "#3465A5"
+  magenta: "#C40B48"
+  cyan: "#08A087"
+  white: "#DCBD9D"
+  brightBlack: "#575249"
+  brightRed: "#D43E2A"
+  brightGreen: "#84C32B"
+  brightYellow: "#FF9B18"
+  brightBlue: "#3A89D3"
+  brightMagenta: "#FF246D"
+  brightCyan: "#1BDFBE"
+  brightWhite: "#FAE8E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.8
+    black: 0
+    red: 18.6
+    green: 47.7
+    yellow: 41.8
+    blue: 20.4
+    magenta: 22
+    cyan: 40
+    white: 67.8
+    brightBlack: 13.1
+    brightRed: 28.6
+    brightGreen: 58.4
+    brightYellow: 59.3
+    brightBlue: 35.5
+    brightMagenta: 37.5
+    brightCyan: 70.9
+    brightWhite: 93.1

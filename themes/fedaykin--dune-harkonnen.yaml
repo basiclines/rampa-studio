@@ -1,0 +1,53 @@
+name: "Fedaykin (Dune Harkonnen)"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 238
+  rating: 0
+  ratings: 0
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+  formats: null
+colors:
+  bg: "#090A0C"
+  fg: "#D4D7DE"
+  black: "#090A0C"
+  red: "#D2D895"
+  green: "#73BD96"
+  yellow: "#7DACE4"
+  blue: "#A88BBF"
+  magenta: "#86A6CF"
+  cyan: "#8BBBB0"
+  white: "#D4D7DE"
+  brightBlack: "#565760"
+  brightRed: "#C77374"
+  brightGreen: "#8FB5A3"
+  brightYellow: "#C4C7A0"
+  brightBlue: "#8FA9D0"
+  brightMagenta: "#9F93A8"
+  brightCyan: "#8FB0A8"
+  brightWhite: "#D4D7DE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.1
+    black: 0
+    red: 79.6
+    green: 58.3
+    yellow: 55.4
+    blue: 45.6
+    magenta: 52.6
+    cyan: 60.2
+    white: 82.1
+    brightBlack: 16.9
+    brightRed: 40.1
+    brightGreen: 57.5
+    brightYellow: 70.7
+    brightBlue: 54.6
+    brightMagenta: 46.2
+    brightCyan: 55.6
+    brightWhite: 82.1

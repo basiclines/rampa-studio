@@ -1,0 +1,53 @@
+name: "Soho Theme"
+source:
+  marketplace_id: "smlombardi.soho"
+  version: "2.1.3"
+  installs: 3066
+  rating: 5
+  ratings: 2
+  author: "smlombardi"
+  repo: "https://github.com/smlombardi/theme-soho"
+  url: "https://marketplace.visualstudio.com/items?itemName=smlombardi.soho"
+  formats: null
+colors:
+  bg: "#F0F0F0"
+  fg: "#363636"
+  black: "#666666"
+  red: "#CD6564"
+  green: "#AEC199"
+  yellow: "#DAC340"
+  blue: "#6D9CBE"
+  magenta: "#B081B9"
+  cyan: "#80B5B3"
+  white: "#EFEFEF"
+  brightBlack: "#666666"
+  brightRed: "#CD6564"
+  brightGreen: "#AEC199"
+  brightYellow: "#DAC340"
+  brightBlue: "#6D9CBE"
+  brightMagenta: "#B081B9"
+  brightCyan: "#80B5B3"
+  brightWhite: "#EFEFEF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.7
+    black: 69.8
+    red: 55.4
+    green: 28
+    yellow: 23.5
+    blue: 46.8
+    magenta: 49.5
+    cyan: 36.1
+    white: 0
+    brightBlack: 69.8
+    brightRed: 55.4
+    brightGreen: 28
+    brightYellow: 23.5
+    brightBlue: 46.8
+    brightMagenta: 49.5
+    brightCyan: 36.1
+    brightWhite: 0

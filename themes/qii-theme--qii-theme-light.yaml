@@ -1,0 +1,53 @@
+name: "Qii Theme (Qii Theme Light)"
+source:
+  marketplace_id: "qiqi29.qii-theme"
+  version: "1.6.4"
+  installs: 3885
+  rating: 5
+  ratings: 2
+  author: "qiqi29"
+  repo: "https://github.com/Qiqi29/qii-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=qiqi29.qii-theme"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#5D5F62"
+  black: "#2D3139"
+  red: "#E1496A"
+  green: "#4CA438"
+  yellow: "#FF9900"
+  blue: "#2F86F0"
+  magenta: "#C82FBB"
+  cyan: "#0DA6A6"
+  white: "#5D5F62"
+  brightBlack: "#7F848E"
+  brightRed: "#E1496A"
+  brightGreen: "#4CA438"
+  brightYellow: "#FF9900"
+  brightBlue: "#2F86F0"
+  brightMagenta: "#C82FBB"
+  brightCyan: "#0DA6A6"
+  brightWhite: "#5D5F62"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.9
+    black: 96.3
+    red: 62.5
+    green: 55.2
+    yellow: 38.5
+    blue: 60.4
+    magenta: 67.4
+    cyan: 53
+    white: 78.9
+    brightBlack: 62.1
+    brightRed: 62.5
+    brightGreen: 55.2
+    brightYellow: 38.5
+    brightBlue: 60.4
+    brightMagenta: 67.4
+    brightCyan: 53
+    brightWhite: 78.9

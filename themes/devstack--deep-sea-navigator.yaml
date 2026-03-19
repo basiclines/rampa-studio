@@ -1,0 +1,53 @@
+name: "DevStack (Deep-Sea-Navigator)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#011D23"
+  fg: "#EEF5F6"
+  black: "#011D23"
+  red: "#7C1D1D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#258FA7"
+  magenta: "#258FA7"
+  cyan: "#29C3A0"
+  white: "#EEF5F6"
+  brightBlack: "#011D23"
+  brightRed: "#7C1D1D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#258FA7"
+  brightMagenta: "#258FA7"
+  brightCyan: "#29C3A0"
+  brightWhite: "#EEF5F6"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 214
+  pair: null
+  contrast:
+    fg: 99
+    black: 0
+    red: 8.4
+    green: 57.2
+    yellow: 51.3
+    blue: 35.3
+    magenta: 35.3
+    cyan: 57.2
+    white: 99
+    brightBlack: 0
+    brightRed: 8.4
+    brightGreen: 57.2
+    brightYellow: 51.3
+    brightBlue: 35.3
+    brightMagenta: 35.3
+    brightCyan: 57.2
+    brightWhite: 99

@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_AquaMarine)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#7FFFD4"
+  black: "#7FFFD4"
+  red: "#5DBB9B"
+  green: "#66CCAA"
+  yellow: "#4C997F"
+  blue: "#77EEC6"
+  magenta: "#6EDDB8"
+  cyan: "#55AA8D"
+  white: "#448871"
+  brightBlack: "#7FFFD4"
+  brightRed: "#5DBB9B"
+  brightGreen: "#66CCAA"
+  brightYellow: "#4C997F"
+  brightBlue: "#77EEC6"
+  brightMagenta: "#6EDDB8"
+  brightCyan: "#55AA8D"
+  brightWhite: "#448871"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.3
+    black: 93.3
+    red: 56.5
+    green: 65.2
+    yellow: 40.3
+    blue: 83.6
+    magenta: 74.2
+    cyan: 48.2
+    white: 32.9
+    brightBlack: 93.3
+    brightRed: 56.5
+    brightGreen: 65.2
+    brightYellow: 40.3
+    brightBlue: 83.6
+    brightMagenta: 74.2
+    brightCyan: 48.2
+    brightWhite: 32.9

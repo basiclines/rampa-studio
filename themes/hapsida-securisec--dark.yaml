@@ -1,0 +1,53 @@
+name: "hapsida.securisec (Dark)"
+source:
+  marketplace_id: "securisec.hapsida-securisec"
+  version: "0.0.30"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "securisec"
+  repo: "https://github.com/securisec/code-hapsida"
+  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+  formats: null
+colors:
+  bg: "#0C0F1B"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF628C"
+  green: "#3AD900"
+  yellow: "#FFC600"
+  blue: "#0088FF"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#FFC600"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#193549"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 273
+  pair: null
+  contrast:
+    fg: 105.1
+    black: 0
+    red: 47.7
+    green: 66.9
+    yellow: 76.7
+    blue: 39.3
+    magenta: 64.9
+    cyan: 93.3
+    white: 107.5
+    brightBlack: 15.2
+    brightRed: 47.7
+    brightGreen: 66.9
+    brightYellow: 76.7
+    brightBlue: 39.3
+    brightMagenta: 64.9
+    brightCyan: 93.3
+    brightWhite: 0

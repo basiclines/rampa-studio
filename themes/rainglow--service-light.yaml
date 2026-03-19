@@ -1,0 +1,53 @@
+name: "Rainglow (service-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#4D5151"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#6C8375"
+  yellow: "#A0AFA1"
+  blue: "#8C9191"
+  magenta: "#A0AFA1"
+  cyan: "#6C8375"
+  white: "#595E5E"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#A2B3A9"
+  brightYellow: "#D7DED8"
+  brightBlue: "#C0C3C3"
+  brightMagenta: "#D7DED8"
+  brightCyan: "#A2B3A9"
+  brightWhite: "#7F8585"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.9
+    black: 0
+    red: 80.3
+    green: 68
+    yellow: 45.3
+    blue: 59.2
+    magenta: 45.3
+    cyan: 68
+    white: 82.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 43.3
+    brightYellow: 18.1
+    brightBlue: 32.7
+    brightMagenta: 18.1
+    brightCyan: 43.3
+    brightWhite: 65.1

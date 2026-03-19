@@ -1,0 +1,53 @@
+name: "Pink Candy Theme (Pink Candy Dark Warm)"
+source:
+  marketplace_id: "kuba-p.theme-pink-candy"
+  version: "1.6.0"
+  installs: 31831
+  rating: 5
+  ratings: 3
+  author: "kuba_p"
+  repo: "https://github.com/KubaP/vscode-pink-candy"
+  url: "https://marketplace.visualstudio.com/items?itemName=kuba-p.theme-pink-candy"
+  formats: null
+colors:
+  bg: "#1D2021"
+  fg: "#BDAE93"
+  black: "#FBF1C7"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#1D2021"
+  brightBlack: "#666666"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#FBF1C7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 57.3
+    black: 96.3
+    red: 24.2
+    green: 41.9
+    yellow: 51.5
+    blue: 30.5
+    magenta: 30.7
+    cyan: 40.9
+    white: 0
+    brightBlack: 21
+    brightRed: 39.1
+    brightGreen: 60.1
+    brightYellow: 70.8
+    brightBlue: 47.6
+    brightMagenta: 46.9
+    brightCyan: 59.1
+    brightWhite: 96.3

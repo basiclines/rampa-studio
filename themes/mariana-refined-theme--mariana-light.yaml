@@ -1,0 +1,53 @@
+name: "Mariana Refined Theme (mariana-light)"
+source:
+  marketplace_id: "mani-sh-reddy.mariana-refined"
+  version: "0.1.4"
+  installs: 3262
+  rating: 5
+  ratings: 3
+  author: "Manish Reddy"
+  repo: "https://github.com/mani-sh-reddy/mariana-refined"
+  url: "https://marketplace.visualstudio.com/items?itemName=mani-sh-reddy.mariana-refined"
+  formats: null
+colors:
+  bg: "#FCFDFD"
+  fg: "#333333"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.3
+    black: 104.7
+    red: 72.7
+    green: 47.9
+    yellow: 56.6
+    blue: 84.7
+    magenta: 73.2
+    cyan: 59.3
+    white: 84.6
+    brightBlack: 77.4
+    brightRed: 72.7
+    brightGreen: 39.6
+    brightYellow: 39.6
+    brightBlue: 84.7
+    brightMagenta: 73.2
+    brightCyan: 59.3
+    brightWhite: 47.1

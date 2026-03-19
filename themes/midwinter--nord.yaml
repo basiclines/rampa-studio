@@ -1,0 +1,53 @@
+name: "Midwinter (Nord)"
+source:
+  marketplace_id: "merithayan.midwinter"
+  version: "0.1.1"
+  installs: 165
+  rating: 0
+  ratings: 0
+  author: "Tim Hull"
+  repo: "https://www.github.com/mtyn/midwinter"
+  url: "https://marketplace.visualstudio.com/items?itemName=merithayan.midwinter"
+  formats: null
+colors:
+  bg: "#303036"
+  fg: "#FFFFFF"
+  black: "#474850"
+  red: "#AF5550"
+  green: "#79B488"
+  yellow: "#EBB861"
+  blue: "#8896BB"
+  magenta: "#A796BC"
+  cyan: "#4397C4"
+  white: "#E5E9F0"
+  brightBlack: "#5F606C"
+  brightRed: "#AF5550"
+  brightGreen: "#79B488"
+  brightYellow: "#EBB861"
+  brightBlue: "#8896BB"
+  brightMagenta: "#A796BC"
+  brightCyan: "#459BA0"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 286
+  pair: null
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 22.6
+    green: 49.3
+    yellow: 63.6
+    blue: 40.6
+    magenta: 44
+    cyan: 37
+    white: 88.1
+    brightBlack: 15.6
+    brightRed: 22.6
+    brightGreen: 49.3
+    brightYellow: 63.6
+    brightBlue: 40.6
+    brightMagenta: 44
+    brightCyan: 36.8
+    brightWhite: 99.3

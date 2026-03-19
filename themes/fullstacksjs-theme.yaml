@@ -1,0 +1,53 @@
+name: "FullstacksJS Theme"
+source:
+  marketplace_id: "FullstacksJS.fullstacksjs-vscode"
+  version: "1.5.1"
+  installs: 1405
+  rating: 5
+  ratings: 5
+  author: "FullstacksJS"
+  repo: "https://github.com/fullstacksjs/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=FullstacksJS.fullstacksjs-vscode"
+  formats: null
+colors:
+  bg: "#23252E"
+  fg: "#FFFFFF"
+  black: "#313744"
+  red: "#E17E85"
+  green: "#5ECB8C"
+  yellow: "#F6CA52"
+  blue: "#4CB2FF"
+  magenta: "#9292FF"
+  cyan: "#2DCED0"
+  white: "#F8F8F8"
+  brightBlack: "#556570"
+  brightRed: "#FF7272"
+  brightGreen: "#5BF29A"
+  brightYellow: "#FFD04F"
+  brightBlue: "#4CB2FF"
+  brightMagenta: "#A7A7FF"
+  brightCyan: "#24E8EA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 104.9
+    black: 0
+    red: 45.4
+    green: 60.4
+    yellow: 74.7
+    blue: 54
+    magenta: 46.7
+    cyan: 62.9
+    white: 100.3
+    brightBlack: 18.7
+    brightRed: 47.9
+    brightGreen: 79.9
+    brightYellow: 78.7
+    brightBlue: 54
+    brightMagenta: 56.3
+    brightCyan: 76.6
+    brightWhite: 104.9

@@ -1,0 +1,53 @@
+name: "chee themes"
+source:
+  marketplace_id: "chee.chee-vscode-themes"
+  version: "1.0.0"
+  installs: 105
+  rating: 0
+  ratings: 0
+  author: "chee"
+  repo: "https://github.com/chee/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=chee.chee-vscode-themes"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#3B434C"
+  red: "#FE4E5C"
+  green: "#3AC364"
+  yellow: "#FBB13D"
+  blue: "#316BF4"
+  magenta: "#EF7FEB"
+  cyan: "#04A29F"
+  white: "#BBBBBB"
+  brightBlack: "#4D565F"
+  brightRed: "#FE8382"
+  brightGreen: "#93F5A5"
+  brightYellow: "#FACD6F"
+  brightBlue: "#80ABFA"
+  brightMagenta: "#F3A8EE"
+  brightCyan: "#32E6E2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 93.3
+    red: 58.6
+    green: 44.7
+    yellow: 34.1
+    blue: 71.5
+    magenta: 46.1
+    cyan: 57.9
+    white: 36.7
+    brightBlack: 86
+    brightRed: 46.7
+    brightGreen: 15.9
+    brightYellow: 23.2
+    brightBlue: 45.3
+    brightMagenta: 33.4
+    brightCyan: 24.8
+    brightWhite: 0

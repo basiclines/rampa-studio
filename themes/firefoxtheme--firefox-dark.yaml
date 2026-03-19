@@ -1,0 +1,53 @@
+name: "FirefoxTheme (Firefox Dark)"
+source:
+  marketplace_id: "LinLong-95.FirefoxTheme"
+  version: "1.0.3"
+  installs: 5052
+  rating: 5
+  ratings: 3
+  author: "LinLong"
+  repo: "https://gitee.com/gcfkhy/vs-code---fox-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LinLong-95.FirefoxTheme"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#4A505D"
+  red: "#F81141"
+  green: "#23974A"
+  yellow: "#FD7E57"
+  blue: "#285BFF"
+  magenta: "#8C62FD"
+  cyan: "#3A8AB2"
+  white: "#CCD5E5"
+  brightBlack: "#61697A"
+  brightRed: "#FC4A6D"
+  brightGreen: "#37BD58"
+  brightYellow: "#F6BE48"
+  brightBlue: "#199FFD"
+  brightMagenta: "#FC58F6"
+  brightCyan: "#50ACAE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 56.2
+    black: 9.9
+    red: 32.1
+    green: 32.8
+    yellow: 48.7
+    blue: 22.6
+    magenta: 30.8
+    cyan: 31.8
+    white: 76.5
+    brightBlack: 20
+    brightRed: 38.3
+    brightGreen: 50.1
+    brightYellow: 68.5
+    brightBlue: 43.9
+    brightMagenta: 46.9
+    brightCyan: 45.9
+    brightWhite: 103.7
