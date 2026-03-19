@@ -8,6 +8,8 @@ source:
   author: "matheusps"
   repo: "https://github.com/matheusps/transylvania"
   url: "https://marketplace.visualstudio.com/items?itemName=matheusps.transylvania"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/matheusps/transylvania/master/matches/iterm/Transylvania.itermcolors"
 colors:
   bg: "#22212C"
   fg: "#F5F5F0"

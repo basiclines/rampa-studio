@@ -1,52 +1,53 @@
 name: "Onyx"
 source:
-  marketplace_id: "Priyaank.ether"
-  version: "2.0.1"
-  installs: 55
+  marketplace_id: "doay.onyx"
+  version: "0.0.4"
+  installs: 1235
   rating: 0
   ratings: 0
-  author: "Priyaank"
-  repo: "https://github.com/PRIYAANK2510/Ether"
-  url: "https://marketplace.visualstudio.com/items?itemName=Priyaank.ether"
+  author: "Doa Yakut Kilic"
+  repo: "https://github.com/doayakut/onyx"
+  url: "https://marketplace.visualstudio.com/items?itemName=doay.onyx"
+  formats: null
 colors:
-  bg: "#1F1F1F"
-  fg: "#808080"
-  black: "#181818"
-  red: "#A94B67"
-  green: "#499F71"
-  yellow: "#B4927A"
-  blue: "#73B3E4"
-  magenta: "#556FB6"
-  cyan: "#83918E"
-  white: "#DFDFDF"
-  brightBlack: "#707070"
-  brightRed: "#C15D7D"
-  brightGreen: "#5AB585"
-  brightYellow: "#CAA78E"
-  brightBlue: "#8BC4ED"
-  brightMagenta: "#6A83C7"
-  brightCyan: "#9AA8A5"
-  brightWhite: "#F0F0F0"
+  bg: "#222222"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#AA3731"
+  green: "#448C27"
+  yellow: "#CB9000"
+  blue: "#325CC0"
+  magenta: "#7A3E9D"
+  cyan: "#0083B2"
+  white: "#CCCCCC"
+  brightBlack: "#777777"
+  brightRed: "#F05050"
+  brightGreen: "#60CB00"
+  brightYellow: "#FFBC5D"
+  brightBlue: "#007ACC"
+  brightMagenta: "#E64CE6"
+  brightCyan: "#00AACB"
+  brightWhite: "#CCCCCC"
 meta:
   mode: "dark"
-  accent: "red"
+  accent: "pink"
   hue: null
   pair: null
   contrast:
-    fg: 32.8
+    fg: 73.2
     black: 0
-    red: 23.4
-    green: 40.3
-    yellow: 45.1
-    blue: 55.7
-    magenta: 26.3
-    cyan: 39.6
-    white: 85.3
-    brightBlack: 25.4
-    brightRed: 32
-    brightGreen: 51
-    brightYellow: 56.3
-    brightBlue: 65.2
-    brightMagenta: 35.3
-    brightCyan: 51.5
-    brightWhite: 96.1
+    red: 18.8
+    green: 30.7
+    yellow: 46
+    blue: 19.3
+    magenta: 15.8
+    cyan: 30.2
+    white: 73.2
+    brightBlack: 28.1
+    brightRed: 37.6
+    brightGreen: 59.4
+    brightYellow: 71.3
+    brightBlue: 28.6
+    brightMagenta: 41.1
+    brightCyan: 46.8
+    brightWhite: 73.2

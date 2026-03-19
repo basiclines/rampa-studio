@@ -8,6 +8,8 @@ source:
   author: "Las"
   repo: "https://github.com/laander/riviera-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=laander.riviera"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/laander/riviera-theme/main/iterm2/riviera.itermcolors"
 colors:
   bg: "#101114"
   fg: "#E9E9ED"

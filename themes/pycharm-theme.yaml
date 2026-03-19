@@ -8,6 +8,8 @@ source:
   author: "Keneth Riera"
   repo: "https://github.com/rierarizzo/pycharm-kr-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=kenethriera.jb-pycharm-theme"
+  formats:
+    android-studio: "https://raw.githubusercontent.com/rierarizzo/pycharm-kr-theme/main/jetbrains-dark-color-scheme.icls"
 colors:
   bg: "#212121"
   fg: "#D0D0D0"

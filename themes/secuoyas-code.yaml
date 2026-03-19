@@ -8,6 +8,8 @@ source:
   author: "Secuoyas"
   repo: "https://github.com/Secuoyas-Experience/secuoyas-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Secuoyas.secuoyas-code"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/Secuoyas-Experience/secuoyas-theme/master/assets/secuoyas-20.itermcolors"
 colors:
   bg: "#101010"
   fg: "#ACB5C3"

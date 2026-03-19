@@ -3,9 +3,13 @@ source:
   marketplace_id: "fefafe.glowminerals"
   version: "0.4.5"
   installs: 459
+  rating: 0
+  ratings: 0
   author: "Felix Faber"
   repo: "https://github.com/fefafe/glowminerals-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=fefafe.glowminerals"
+  formats:
+    sublime: "https://raw.githubusercontent.com/fefafe/glowminerals-color-theme/main/themes/GlowMinerals.tmTheme"
 colors:
   bg: "#0B0F14"
   fg: "#D8D6DC"

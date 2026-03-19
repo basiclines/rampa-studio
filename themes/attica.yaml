@@ -1,4 +1,4 @@
-name: "Attica"
+name: "attica"
 source:
   marketplace_id: "Alekzandriia.attica"
   version: "0.4.0"
@@ -8,6 +8,7 @@ source:
   author: "Alekzandriia"
   repo: "https://github.com/alekzandria/attica"
   url: "https://marketplace.visualstudio.com/items?itemName=Alekzandriia.attica"
+  formats: null
 colors:
   bg: "#E1DEE9"
   fg: "#7E7F9A"

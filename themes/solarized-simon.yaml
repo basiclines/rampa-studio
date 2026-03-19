@@ -8,6 +8,8 @@ source:
   author: "Simon Alford"
   repo: "https://github.com/simonalford42/dotfiles"
   url: "https://marketplace.visualstudio.com/items?itemName=SimonAlford.solarized-simon"
+  formats:
+    zed: "https://raw.githubusercontent.com/simonalford42/dotfiles/main/config/iterm_solarized.json"
 colors:
   bg: "#002B36"
   fg: "#C3C8C8"

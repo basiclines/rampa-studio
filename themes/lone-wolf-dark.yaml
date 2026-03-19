@@ -1,4 +1,4 @@
-name: "Lone wolf dark"
+name: "lone-wolf-dark"
 source:
   marketplace_id: "Sidwebworks.lone-wolf-dark"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Sidwebworks"
   repo: "https://github.com/sidwebworks/lone-wolf-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=Sidwebworks.lone-wolf-dark"
+  formats: null
 colors:
   bg: "#181818"
   fg: "#DBD7CA"

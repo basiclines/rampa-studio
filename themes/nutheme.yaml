@@ -1,4 +1,4 @@
-name: "nuTheme"
+name: "NuTheme"
 source:
   marketplace_id: "TheWebDev.nutheme"
   version: "0.2.1"
@@ -8,6 +8,7 @@ source:
   author: "TheWebDev"
   repo: "https://github.com/stevie2codes/TatangoTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=TheWebDev.nutheme"
+  formats: null
 colors:
   bg: "#1D1F21"
   fg: "#FFFFFF"

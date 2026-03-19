@@ -2,12 +2,13 @@ name: "Tokyo Night Dark"
 source:
   marketplace_id: "drewxs.tokyo-night-dark"
   version: "0.3.3"
-  installs: 76477
+  installs: 76547
   rating: 4.67
   ratings: 3
   author: "Andrew X. Shah"
   repo: "https://github.com/kito0/tokyo-night-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=drewxs.tokyo-night-dark"
+  formats: null
 colors:
   bg: "#0A0A0D"
   fg: "#A9B1D6"
@@ -31,7 +32,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
-  pair: "Tokyo Night Light"
+  pair: null
   contrast:
     fg: 60.7
     black: 0

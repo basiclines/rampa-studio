@@ -3,9 +3,12 @@ source:
   marketplace_id: "AndlzEngineering.pantone-theme"
   version: "0.1.0"
   installs: 11
+  rating: 0
+  ratings: 0
   author: "Andlz Engineering"
   repo: "https://github.com/and-lz/pantone-vscode-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
 colors:
   bg: "#F5F5F5"
   fg: "#0F0F1A"
@@ -29,6 +32,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 99.5
     black: 99.5

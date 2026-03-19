@@ -8,6 +8,8 @@ source:
   author: "chtenb"
   repo: "https://github.com/chtenb/vscode-ansi16"
   url: "https://marketplace.visualstudio.com/items?itemName=ctenbrinke.ansi16"
+  formats:
+    sublime: "https://raw.githubusercontent.com/chtenb/vscode-ansi16/main/themes/material-ansi16.tmTheme"
 colors:
   bg: "#FEF8EC"
   fg: "#005661"

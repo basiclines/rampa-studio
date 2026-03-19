@@ -1,4 +1,4 @@
-name: "Taurus"
+name: "taurus"
 source:
   marketplace_id: "xyr0z1ne.taurus"
   version: "0.0.5"
@@ -8,6 +8,7 @@ source:
   author: "xyr0z1ne"
   repo: "https://github.com/Xyr0s1gn/Taurus-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=xyr0z1ne.taurus"
+  formats: null
 colors:
   bg: "#0D0D0D"
   fg: "#ADB6C2"

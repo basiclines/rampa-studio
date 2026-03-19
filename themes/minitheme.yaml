@@ -1,4 +1,4 @@
-name: "MiniTheme"
+name: "miniTheme"
 source:
   marketplace_id: "Orobiti.orobiti"
   version: "1.0.0"
@@ -8,6 +8,7 @@ source:
   author: "Orobiti"
   repo: "https://github.com/MtheusR/MinimalTheme-Dark-VsCode"
   url: "https://marketplace.visualstudio.com/items?itemName=Orobiti.orobiti"
+  formats: null
 colors:
   bg: "#1A1B26"
   fg: "#E4E1C4"

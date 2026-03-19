@@ -1,4 +1,4 @@
-name: "nordicBox"
+name: "nordicbox"
 source:
   marketplace_id: "fedmag.nordicbox"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "fedmag"
   repo: "https://github.com/fedmag/nordicbox"
   url: "https://marketplace.visualstudio.com/items?itemName=fedmag.nordicbox"
+  formats: null
 colors:
   bg: "#1D2021"
   fg: "#D8DEE9"

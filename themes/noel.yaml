@@ -8,6 +8,8 @@ source:
   author: "arzg"
   repo: "https://github.com/arzg/noel"
   url: "https://marketplace.visualstudio.com/items?itemName=arzg.noel"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/arzg/noel/master/noel.itermcolors"
 colors:
   bg: "#2A3235"
   fg: "#DEEEF3"

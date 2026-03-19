@@ -1,52 +1,53 @@
 name: "boo"
 source:
-  marketplace_id: "ene-ne.mio"
-  version: "0.1.0"
-  installs: 101
-  rating: 0
-  ratings: 0
-  author: "ene-ne"
-  repo: "https://github.com/ene-ne/mio"
-  url: "https://marketplace.visualstudio.com/items?itemName=ene-ne.mio"
+  marketplace_id: "oz.boo"
+  version: "0.0.3"
+  installs: 2424
+  rating: 5
+  ratings: 1
+  author: "oz"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=oz.boo"
+  formats: null
 colors:
-  bg: "#FFFAFA"
-  fg: "#250E07"
-  black: "#D8B8B3"
-  red: "#873E40"
-  green: "#839A53"
-  yellow: "#D4A520"
-  blue: "#A6B6CE"
-  magenta: "#D68482"
-  cyan: "#89BEB7"
-  white: "#ECC3C2"
-  brightBlack: "#F3EAE9"
-  brightRed: "#832426"
-  brightGreen: "#6F873E"
-  brightYellow: "#C39104"
-  brightBlue: "#7B91B3"
-  brightMagenta: "#C97270"
-  brightCyan: "#63A098"
-  brightWhite: "#F2CC60"
+  bg: "#FFFFFF"
+  fg: "#331E26"
+  black: "#000000"
+  red: "#DC6F83"
+  green: "#95E279"
+  yellow: "#EF95A4"
+  blue: "#508FFF"
+  magenta: "#EC79BA"
+  cyan: "#A781B4"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#E23C57"
+  brightGreen: "#9CFF6A"
+  brightYellow: "#EF95A4"
+  brightBlue: "#508FFF"
+  brightMagenta: "#A781B4"
+  brightCyan: "#E37463"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "light"
-  accent: "yellow"
+  accent: "green"
   hue: null
   pair: null
   contrast:
-    fg: 102.5
-    black: 32.1
-    red: 83.3
-    green: 55.9
-    yellow: 42.4
-    blue: 37.8
-    magenta: 51.4
-    cyan: 38.2
-    white: 24.6
-    brightBlack: 0
-    brightRed: 88.2
-    brightGreen: 65.1
-    brightYellow: 52
-    brightBlue: 56.9
-    brightMagenta: 59.2
-    brightCyan: 54.2
-    brightWhite: 22.7
+    fg: 102.4
+    black: 106
+    red: 58.3
+    green: 25.6
+    yellow: 43.3
+    blue: 58
+    magenta: 50.7
+    cyan: 59.8
+    white: 0
+    brightBlack: 82.9
+    brightRed: 67.5
+    brightGreen: 11.7
+    brightYellow: 43.3
+    brightBlue: 58
+    brightMagenta: 59.8
+    brightCyan: 56.5
+    brightWhite: 0

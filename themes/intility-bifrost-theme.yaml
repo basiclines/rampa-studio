@@ -8,6 +8,8 @@ source:
   author: "August Gaukstad"
   repo: "https://github.com/Intility/bifrost-skins"
   url: "https://marketplace.visualstudio.com/items?itemName=augigauki.intility-bifrost-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/Intility/bifrost-skins/main/iTerm2/Bifrost3.0.itermcolors"
 colors:
   bg: "#071627"
   fg: "#DAE8F6"

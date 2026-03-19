@@ -2,12 +2,14 @@ name: "Tokyo Midnight"
 source:
   marketplace_id: "nacholaciar.tokyo-midnight"
   version: "0.1.9"
-  installs: 14443
+  installs: 14452
   rating: 5
   ratings: 1
   author: "nacholaciar"
   repo: "https://github.com/nacholaciar/tokyo-midnight"
   url: "https://marketplace.visualstudio.com/items?itemName=nacholaciar.tokyo-midnight"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/nacholaciar/tokyo-midnight/main/tokyo-night.itermcolors"
 colors:
   bg: "#26262E"
   fg: "#B5B5B5"

@@ -1,13 +1,14 @@
 name: "Srcery"
 source:
-  marketplace_id: "srcery-colors.srcery-colors"
-  version: "0.3.8"
-  installs: 7371
+  marketplace_id: "gagbo.srcery"
+  version: "0.2.0"
+  installs: 1726
   rating: 5
-  ratings: 2
-  author: "srcery-colors"
-  repo: "https://github.com/srcery-colors/srcery-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=srcery-colors.srcery-colors"
+  ratings: 1
+  author: "gagbo"
+  repo: "https://github.com/gagbo/vscode-srcery"
+  url: "https://marketplace.visualstudio.com/items?itemName=gagbo.srcery"
+  formats: null
 colors:
   bg: "#1C1B19"
   fg: "#FCE8C3"
@@ -18,8 +19,8 @@ colors:
   blue: "#2C78BF"
   magenta: "#E02C6D"
   cyan: "#0AAEB3"
-  white: "#D0BFA1"
-  brightBlack: "#918175"
+  white: "#918175"
+  brightBlack: "#2D2C29"
   brightRed: "#F75341"
   brightGreen: "#98BC37"
   brightYellow: "#FED06E"
@@ -41,8 +42,8 @@ meta:
     blue: 28.5
     magenta: 31.2
     cyan: 48.3
-    white: 67.7
-    brightBlack: 35.1
+    white: 35.1
+    brightBlack: 0
     brightRed: 40.5
     brightGreen: 57.7
     brightYellow: 80.4

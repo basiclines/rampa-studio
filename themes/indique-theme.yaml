@@ -1,4 +1,4 @@
-name: "Indique Theme"
+name: "indique-theme"
 source:
   marketplace_id: "IDNQ.indique-theme"
   version: "1.1.0"
@@ -8,6 +8,7 @@ source:
   author: "IDNQ"
   repo: "https://github.com/IDNQ/indique-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=IDNQ.indique-theme"
+  formats: null
 colors:
   bg: "#16191D"
   fg: "#E1E4E8"

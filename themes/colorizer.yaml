@@ -1,4 +1,4 @@
-name: "Colorizer"
+name: "colorizer"
 source:
   marketplace_id: "MohammedShalabi.colorizer"
   version: "0.0.2"
@@ -8,6 +8,7 @@ source:
   author: "Mohammed Shalabi"
   repo: "https://github.com/M-Shalabi/Colorizer"
   url: "https://marketplace.visualstudio.com/items?itemName=MohammedShalabi.colorizer"
+  formats: null
 colors:
   bg: "#20252E"
   fg: "#C3CBD9"

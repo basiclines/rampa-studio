@@ -1,4 +1,4 @@
-name: "dark-flow"
+name: "Dark Flow"
 source:
   marketplace_id: "MauroBalades.dark-flow-vscode"
   version: "1.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Mauro Balades"
   repo: "https://github.com/dark-flow/vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=MauroBalades.dark-flow-vscode"
+  formats: null
 colors:
   bg: "#2C303A"
   fg: "#D4D4D4"

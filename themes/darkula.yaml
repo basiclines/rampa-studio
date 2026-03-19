@@ -1,31 +1,32 @@
-name: "Darkula"
+name: "darkula"
 source:
-  marketplace_id: "JorgeDorio.darkula-theme"
-  version: "0.0.1"
-  installs: 3699
+  marketplace_id: "MaxineKrebs.theme-darkula"
+  version: "1.1.0"
+  installs: 5019
   rating: 0
   ratings: 0
-  author: "Jorge Dorio"
-  repo: "https://github.com/JorgeDorio/darkula"
-  url: "https://marketplace.visualstudio.com/items?itemName=JorgeDorio.darkula-theme"
+  author: "Maxine Krebs"
+  repo: "https://github.com/git@github.com:maxinekrebs/darkula.git"
+  url: "https://marketplace.visualstudio.com/items?itemName=MaxineKrebs.theme-darkula"
+  formats: null
 colors:
-  bg: "#131313"
-  fg: "#F8F8F2"
-  black: "#131313"
-  red: "#FF5555"
-  green: "#50FA7B"
-  yellow: "#F1FA8C"
-  blue: "#BD93F9"
-  magenta: "#FF79C6"
-  cyan: "#8BE9FD"
-  white: "#F8F8F2"
-  brightBlack: "#6272A4"
-  brightRed: "#FF6E6E"
-  brightGreen: "#69FF94"
-  brightYellow: "#FFFFA5"
-  brightBlue: "#D6ACFF"
-  brightMagenta: "#FF92DF"
-  brightCyan: "#A4FFFF"
+  bg: "#000000"
+  fg: "#F6F6F4"
+  black: "#262626"
+  red: "#EE6666"
+  green: "#62E884"
+  yellow: "#E7EE98"
+  blue: "#BF9EEE"
+  magenta: "#F286C4"
+  cyan: "#97E1F1"
+  white: "#F6F6F4"
+  brightBlack: "#7B7F8B"
+  brightRed: "#F07C7C"
+  brightGreen: "#78F09A"
+  brightYellow: "#F6F6AE"
+  brightBlue: "#D6B4F7"
+  brightMagenta: "#F49DDA"
+  brightCyan: "#ADF6F6"
   brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
@@ -33,20 +34,20 @@ meta:
   hue: null
   pair: null
   contrast:
-    fg: 102.3
+    fg: 101.9
     black: 0
-    red: 43.7
-    green: 85.2
-    yellow: 98.9
-    blue: 54
-    magenta: 54.9
-    cyan: 84.3
-    white: 102.3
-    brightBlack: 28.4
-    brightRed: 49.2
-    brightGreen: 89.4
-    brightYellow: 103.9
-    brightBlue: 66.5
-    brightMagenta: 63
-    brightCyan: 97.1
-    brightWhite: 107.2
+    red: 44.2
+    green: 77.5
+    yellow: 92.7
+    blue: 57.9
+    magenta: 56.3
+    cyan: 81.4
+    white: 101.9
+    brightBlack: 34.3
+    brightRed: 50.5
+    brightGreen: 83.2
+    brightYellow: 99.2
+    brightBlue: 69.6
+    brightMagenta: 64.7
+    brightCyan: 93.6
+    brightWhite: 107.9

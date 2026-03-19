@@ -1,13 +1,14 @@
-name: "Soda"
+name: "soda"
 source:
   marketplace_id: "fnando.soda"
   version: "0.0.3"
-  installs: 1195
+  installs: 1196
   rating: 0
   ratings: 0
   author: "Nando Vieira"
   repo: "https://github.com/fnando/vscode-soda"
   url: "https://marketplace.visualstudio.com/items?itemName=fnando.soda"
+  formats: null
 colors:
   bg: "#FFFFFF"
   fg: "#272727"

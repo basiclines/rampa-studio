@@ -3,9 +3,12 @@ source:
   marketplace_id: "AgraeonLabs.dev-themes"
   version: "0.1.0"
   installs: 283
+  rating: 0
+  ratings: 0
   author: "Agraeon Labs"
   repo: "https://github.com/adiagcodelance/VS-Code-Themes"
   url: "https://marketplace.visualstudio.com/items?itemName=AgraeonLabs.dev-themes"
+  formats: null
 colors:
   bg: "#2C2C2C"
   fg: "#F0F0F0"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 93.8
     black: 0

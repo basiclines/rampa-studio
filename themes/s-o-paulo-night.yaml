@@ -8,6 +8,9 @@ source:
   author: "CarlosDanielDev"
   repo: "https://github.com/CarlosDanielDev/saopaulo-night"
   url: "https://marketplace.visualstudio.com/items?itemName=carlosdanieldev.saopaulo-night"
+  formats:
+    vim: "https://raw.githubusercontent.com/CarlosDanielDev/saopaulo-night/main/packages/neovim/colors/saopaulo-night.vim"
+    nvim: "https://raw.githubusercontent.com/CarlosDanielDev/saopaulo-night/main/packages/neovim/lua/saopaulo-night/init.lua"
 colors:
   bg: "#1A1D23"
   fg: "#B4B8C4"

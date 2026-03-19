@@ -1,52 +1,53 @@
 name: "Jellyfish"
 source:
-  marketplace_id: "sserafy.ssera-themes"
-  version: "2.0.2"
-  installs: 334
-  rating: 0
-  ratings: 0
-  author: "sserafy"
-  repo: "https://github.com/azhou555/naturefy-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ssera-themes"
+  marketplace_id: "nerudevs.jellyfish-dark"
+  version: "1.0.5"
+  installs: 93914
+  rating: 5
+  ratings: 3
+  author: "neru devs"
+  repo: "https://github.com/isneru/vsc-themes.git#main"
+  url: "https://marketplace.visualstudio.com/items?itemName=nerudevs.jellyfish-dark"
+  formats: null
 colors:
-  bg: "#0F1419"
-  fg: "#C2A5F0"
-  black: "#2D3748"
-  red: "#FF66B3"
-  green: "#80FFEE"
-  yellow: "#FF99FF"
-  blue: "#C299FF"
-  magenta: "#FF66B3"
-  cyan: "#80FFEE"
-  white: "#FF99DD"
-  brightBlack: "#4A5568"
-  brightRed: "#FF80CC"
-  brightGreen: "#99FFF2"
-  brightYellow: "#FFB3FF"
-  brightBlue: "#D6B3FF"
-  brightMagenta: "#FF80CC"
-  brightCyan: "#B3FFF7"
-  brightWhite: "#FFCCEE"
+  bg: "#151517"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
 meta:
   mode: "dark"
-  accent: "red"
-  hue: 249
+  accent: "pink"
+  hue: null
   pair: null
   contrast:
-    fg: 60.2
+    fg: 74.8
     black: 0
-    red: 49.7
-    green: 93.8
-    yellow: 66.9
-    blue: 57
-    magenta: 49.7
-    cyan: 93.8
-    white: 64.9
-    brightBlack: 15.2
-    brightRed: 56.9
-    brightGreen: 95.6
-    brightYellow: 75.4
-    brightBlue: 69
-    brightMagenta: 56.9
-    brightCyan: 98
-    brightWhite: 84
+    red: 26.9
+    green: 53.2
+    yellow: 85.8
+    blue: 27.6
+    magenta: 29.9
+    cyan: 47.7
+    white: 90.2
+    brightBlack: 22.2
+    brightRed: 38.7
+    brightGreen: 63.7
+    brightYellow: 95.8
+    brightBlue: 40.2
+    brightMagenta: 45.5
+    brightCyan: 55.6
+    brightWhite: 90.2

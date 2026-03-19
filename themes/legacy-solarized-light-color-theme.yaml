@@ -8,6 +8,9 @@ source:
   author: "Ryan Olson"
   repo: "https://github.com/ryanolsonx/vscode-solarized-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ryanolsonx.solarized"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/ryanolsonx/vscode-solarized-theme/master/Solarized Dark.itermcolors"
+    zed: "https://raw.githubusercontent.com/ryanolsonx/vscode-solarized-theme/master/themes/legacy-solarized-dark-color-theme.json"
 colors:
   bg: "#FDF6E3"
   fg: "#657B83"

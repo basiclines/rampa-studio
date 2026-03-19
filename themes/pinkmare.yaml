@@ -1,13 +1,15 @@
-name: "Pinkmare"
+name: "pinkmare"
 source:
   marketplace_id: "Matsuuu.pinkmare"
   version: "0.4.0"
-  installs: 1333
+  installs: 1334
   rating: 0
   ratings: 0
   author: "Matsuuu"
   repo: "https://github.com/Matsuuu/pinkmare"
   url: "https://marketplace.visualstudio.com/items?itemName=Matsuuu.pinkmare"
+  formats:
+    vim: "https://raw.githubusercontent.com/Matsuuu/pinkmare/main/colors/pinkmare.vim"
 colors:
   bg: "#202330"
   fg: "#FAE8B6"

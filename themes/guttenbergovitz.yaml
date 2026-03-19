@@ -8,6 +8,15 @@ source:
   author: "Guttenbergovitz"
   repo: "https://github.com/guttenbergovitz/guttenbergovitz-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=guttenbergovitz.guttenbergovitz"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/guttenbergovitz/guttenbergovitz-theme/main/ghostty/README.md"
+    iterm2: "https://raw.githubusercontent.com/guttenbergovitz/guttenbergovitz-theme/main/iterm/Guttenbergovitz.itermcolors"
+    kitty: "https://raw.githubusercontent.com/guttenbergovitz/guttenbergovitz-theme/main/kitty/guttenbergovitz.conf"
+    warp: "https://raw.githubusercontent.com/guttenbergovitz/guttenbergovitz-theme/main/warp/guttenbergovitz.yaml"
+    android-studio: "https://raw.githubusercontent.com/guttenbergovitz/guttenbergovitz-theme/main/jetbrains/Guttenbergovitz.icls"
+    vim: "https://raw.githubusercontent.com/guttenbergovitz/guttenbergovitz-theme/main/vim/colors/guttenbergovitz.vim"
+    nvim: "https://raw.githubusercontent.com/guttenbergovitz/guttenbergovitz-theme/main/lua/guttenbergovitz/init.lua"
+    zed: "https://raw.githubusercontent.com/guttenbergovitz/guttenbergovitz-theme/main/zed/guttenbergovitz.json"
 colors:
   bg: "#232326"
   fg: "#D4BE98"

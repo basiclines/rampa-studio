@@ -1,4 +1,4 @@
-name: "Platzi Theme"
+name: "Platzi_theme"
 source:
   marketplace_id: "YesCode.platzi-theme"
   version: "0.0.9"
@@ -8,6 +8,7 @@ source:
   author: "YesCode"
   repo: "https://github.com/yesomac/platziTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=YesCode.platzi-theme"
+  formats: null
 colors:
   bg: "#03091E"
   fg: "#EEFFFF"

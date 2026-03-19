@@ -1,4 +1,4 @@
-name: "Hirakata"
+name: "hirakata"
 source:
   marketplace_id: "wisdom.hirakata"
   version: "0.1.0"
@@ -8,6 +8,7 @@ source:
   author: "wisdom"
   repo: "https://github.com/wisdom-plus/vscode-theme-hirakata"
   url: "https://marketplace.visualstudio.com/items?itemName=wisdom.hirakata"
+  formats: null
 colors:
   bg: "#2F3542"
   fg: "#BDC2CC"

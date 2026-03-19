@@ -1,11 +1,14 @@
-name: "Walking in the dark - RED"
+name: "Walking-in-the-dark-RED"
 source:
   marketplace_id: "mayconfelipe.walking-in-the-dark-red"
   version: "3.0.0"
   installs: 173
+  rating: 0
+  ratings: 0
   author: "Maycon Felipe Silva"
   repo: "https://github.com/mayconfelipes/VsCodeTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=mayconfelipe.walking-in-the-dark-red"
+  formats: null
 colors:
   bg: "#191919"
   fg: "#E2E2E2"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 87.9
     black: 0

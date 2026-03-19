@@ -1,52 +1,53 @@
-name: "_Dark"
+name: "/dark"
 source:
-  marketplace_id: "Cleo.cleo"
-  version: "0.1.7"
-  installs: 1576
-  rating: 3.25
-  ratings: 4
-  author: "Cleo"
-  repo: "https://github.com/FabioKaelin/cleo-vscode-extension"
-  url: "https://marketplace.visualstudio.com/items?itemName=Cleo.cleo"
+  marketplace_id: "Sukadia.sukadia-dev-dark"
+  version: "1.0.6"
+  installs: 1608
+  rating: 5
+  ratings: 1
+  author: "Sukadia"
+  repo: "https://github.com/Sukadia/sukadia.dev-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sukadia.sukadia-dev-dark"
+  formats: null
 colors:
-  bg: "#FFFFFF"
-  fg: "#FFFFFF"
-  black: "#FFFFFF"
-  red: "#FFFFFF"
-  green: "#FFFFFF"
-  yellow: "#FFFFFF"
-  blue: "#FFFFFF"
-  magenta: "#FFFFFF"
-  cyan: "#FFFFFF"
-  white: "#FFFFFF"
-  brightBlack: "#FFFFFF"
-  brightRed: "#FFFFFF"
-  brightGreen: "#FFFFFF"
-  brightYellow: "#FFFFFF"
-  brightBlue: "#FFFFFF"
-  brightMagenta: "#FFFFFF"
-  brightCyan: "#FFFFFF"
-  brightWhite: "#FFFFFF"
+  bg: "#1D1F21"
+  fg: "#DDDDDD"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
 meta:
-  mode: "light"
-  accent: "yellow"
+  mode: "dark"
+  accent: "pink"
   hue: null
   pair: null
   contrast:
-    fg: 0
+    fg: 84.1
     black: 0
-    red: 0
-    green: 0
-    yellow: 0
-    blue: 0
-    magenta: 0
-    cyan: 0
-    white: 0
-    brightBlack: 0
-    brightRed: 0
-    brightGreen: 0
-    brightYellow: 0
-    brightBlue: 0
-    brightMagenta: 0
-    brightCyan: 0
-    brightWhite: 0
+    red: 25.8
+    green: 52.1
+    yellow: 84.7
+    blue: 26.5
+    magenta: 28.8
+    cyan: 46.6
+    white: 89.1
+    brightBlack: 21.1
+    brightRed: 37.6
+    brightGreen: 62.6
+    brightYellow: 94.7
+    brightBlue: 39.1
+    brightMagenta: 44.4
+    brightCyan: 54.5
+    brightWhite: 89.1

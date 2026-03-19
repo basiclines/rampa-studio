@@ -8,6 +8,8 @@ source:
   author: "alligator-vscode-color-theme"
   repo: "https://github.com/lianghx-319/Alligator-color-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=alligator-vscode-color-theme.alligator"
+  formats:
+    zed: "https://raw.githubusercontent.com/lianghx-319/Alligator-color-theme/master/themes/alligator-solarized-dark-color-theme.json"
 colors:
   bg: "#FCF9EF"
   fg: "#586E75"

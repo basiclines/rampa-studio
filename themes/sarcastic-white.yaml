@@ -8,6 +8,10 @@ source:
   author: "Tristan White"
   repo: "https://github.com/triss90/sarcastic_white"
   url: "https://marketplace.visualstudio.com/items?itemName=TristanWhite.sarcastic-white"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/triss90/sarcastic_white/master/public_html/ports/iterm2/sarcastic-white.itermcolors"
+    warp: "https://raw.githubusercontent.com/triss90/sarcastic_white/master/public_html/ports/warp/sarcastic-white.yaml"
+    sublime: "https://raw.githubusercontent.com/triss90/sarcastic_white/master/sarcastic-white-sublimetext4/Sarcastic White.sublime-color-scheme"
 colors:
   bg: "#171423"
   fg: "#D8DDE7"

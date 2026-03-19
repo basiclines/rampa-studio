@@ -3,9 +3,12 @@ source:
   marketplace_id: "TristanTheme.tristan"
   version: "1.0.0"
   installs: 224
+  rating: 0
+  ratings: 0
   author: "Tristan Theme"
   repo: "https://github.com/tristanHdez18/Tristan-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=TristanTheme.tristan"
+  formats: null
 colors:
   bg: "#1C1C1D"
   fg: "#3A86FF"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
+  pair: null
   contrast:
     fg: 38.2
     black: 0

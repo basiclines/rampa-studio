@@ -1,11 +1,14 @@
-name: "Default dimmed"
+name: "default-dimmed"
 source:
   marketplace_id: "arthurimmich.default-dimmed"
   version: "0.3.0"
-  installs: 450
+  installs: 451
+  rating: 0
+  ratings: 0
   author: "arthurimmich"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=arthurimmich.default-dimmed"
+  formats: null
 colors:
   bg: "#252526"
   fg: "#D4D4D4"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 77.6
     black: 0

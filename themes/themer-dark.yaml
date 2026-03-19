@@ -8,6 +8,8 @@ source:
   author: "sansbrina"
   repo: "https://github.com/sansbrina/poolside-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=sansbrina.poolside"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/sansbrina/poolside-themes/release/iTerm/poolside.itermcolors"
 colors:
   bg: "#6261A1"
   fg: "#FFC9C9"

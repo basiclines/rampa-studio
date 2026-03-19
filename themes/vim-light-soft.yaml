@@ -8,6 +8,7 @@ source:
   author: "AndreaCombette"
   repo: "https://github.com/Chatr0uge/SweetWood-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AndreaCombette.SweetWood"
+  formats: null
 colors:
   bg: "#D6DFEE"
   fg: "#3D2D27"
@@ -31,7 +32,7 @@ meta:
   mode: "light"
   accent: "yellow"
   hue: 261
-  pair: "Vim Dark Soft"
+  pair: null
   contrast:
     fg: 80.1
     black: 0

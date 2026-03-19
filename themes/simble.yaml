@@ -1,4 +1,4 @@
-name: "Simble"
+name: "simble"
 source:
   marketplace_id: "tylandavis.simble-theme"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Tylan Davis"
   repo: "https://github.com/tylandavis/simble-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=tylandavis.simble-theme"
+  formats: null
 colors:
   bg: "#111111"
   fg: "#888888"

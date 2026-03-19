@@ -1,4 +1,4 @@
-name: "Moonokai"
+name: "moonokai"
 source:
   marketplace_id: "mtayllan.moonokai"
   version: "0.0.4"
@@ -8,6 +8,7 @@ source:
   author: "mtayllan"
   repo: "https://github.com/mtayllan/moonokai"
   url: "https://marketplace.visualstudio.com/items?itemName=mtayllan.moonokai"
+  formats: null
 colors:
   bg: "#0F111B"
   fg: "#FFFFFF"

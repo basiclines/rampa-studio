@@ -1,4 +1,4 @@
-name: "Front Matter CMS Theme"
+name: "Front Matter CMS - Theme"
 source:
   marketplace_id: "eliostruyf.vscode-frontmatter-theme"
   version: "0.0.7"
@@ -8,6 +8,7 @@ source:
   author: "Elio Struyf"
   repo: "https://github.com/estruyf/vscode-frontmatter-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-frontmatter-theme"
+  formats: null
 colors:
   bg: "#FFFFFF"
   fg: "#0E131F"

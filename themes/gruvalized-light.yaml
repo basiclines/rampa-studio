@@ -3,9 +3,13 @@ source:
   marketplace_id: "odlot-marco-lutz.gruvalized"
   version: "0.0.3"
   installs: 91
+  rating: 0
+  ratings: 0
   author: "Marco Lutz"
   repo: "https://github.com/odlot/gruvalized"
   url: "https://marketplace.visualstudio.com/items?itemName=odlot-marco-lutz.gruvalized"
+  formats:
+    zed: "https://raw.githubusercontent.com/odlot/gruvalized/main/themes/gruvalized-dark-color-theme.json"
 colors:
   bg: "#FAF5E7"
   fg: "#1A1A1A"

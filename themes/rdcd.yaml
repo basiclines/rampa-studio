@@ -1,4 +1,4 @@
-name: "rdcd"
+name: "RDCD"
 source:
   marketplace_id: "shoizz.rdcd"
   version: "0.1.0"
@@ -8,6 +8,7 @@ source:
   author: "denis"
   repo: "git+https://github.com/Shoizz/rdcd-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=shoizz.rdcd"
+  formats: null
 colors:
   bg: "#161820"
   fg: "#CED3DB"

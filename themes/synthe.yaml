@@ -3,9 +3,12 @@ source:
   marketplace_id: "sesav.synthe-theme"
   version: "1.0.3"
   installs: 68
+  rating: 0
+  ratings: 0
   author: "sesav"
   repo: "https://github.com/sesav/synthe-theme-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=sesav.synthe-theme"
+  formats: null
 colors:
   bg: "#26222A"
   fg: "#C7C7C7"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 308
+  pair: null
   contrast:
     fg: 70
     black: 0

@@ -8,6 +8,11 @@ source:
   author: "Tim Hull"
   repo: "https://www.github.com/mtyn/highland-winter"
   url: "https://marketplace.visualstudio.com/items?itemName=merithayan.highland-winter"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/mtyn/highland-winter/master/iterm2/highland_winter.itermcolors"
+    xcode: "https://raw.githubusercontent.com/mtyn/highland-winter/master/xcode/Highland Winter.xccolortheme"
+    android-studio: "https://raw.githubusercontent.com/mtyn/highland-winter/master/jetbrains/Highland Winter.icls"
+    vim: "https://raw.githubusercontent.com/mtyn/highland-winter/master/vim/colors/highland-winter.vim"
 colors:
   bg: "#FAFAFA"
   fg: "#303036"

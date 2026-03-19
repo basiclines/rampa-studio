@@ -1,4 +1,4 @@
-name: "tokyo-dive"
+name: "Tokyo Dive"
 source:
   marketplace_id: "sukemoritech.tokyo-dive"
   version: "0.1.0"
@@ -8,6 +8,7 @@ source:
   author: "sukemoritech"
   repo: "https://github.com/sukemoritech/tokyo-dive"
   url: "https://marketplace.visualstudio.com/items?itemName=sukemoritech.tokyo-dive"
+  formats: null
 colors:
   bg: "#202123"
   fg: "#DADBDD"

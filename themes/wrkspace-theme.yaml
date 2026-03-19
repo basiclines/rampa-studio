@@ -1,4 +1,4 @@
-name: "wrkspace-theme"
+name: "Wrkspace Theme"
 source:
   marketplace_id: "Wrkspace.wrkspace-theme"
   version: "0.0.2"
@@ -8,6 +8,7 @@ source:
   author: "Wrkspace"
   repo: "https://github.com/wrkspace-co/vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Wrkspace.wrkspace-theme"
+  formats: null
 colors:
   bg: "#0F0F0F"
   fg: "#6F6F6F"

@@ -1,15 +1,16 @@
 name: "Gamma"
 source:
-  marketplace_id: "VenkataramanaSuryanarayanan.gamma"
-  version: "1.0.0"
-  installs: 2348
-  rating: 5
-  ratings: 1
-  author: "Venkataramana Suryanarayanan"
-  repo: "https://github.com/HardCodeProgrammer/gamma-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=VenkataramanaSuryanarayanan.gamma"
+  marketplace_id: "xynny.gamma-theme"
+  version: "0.0.1"
+  installs: 242
+  rating: 0
+  ratings: 0
+  author: "xynny"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=xynny.gamma-theme"
+  formats: null
 colors:
-  bg: "#033535"
+  bg: "#001D1D"
   fg: "#0EC4B4"
   black: "#000000"
   red: "#CD3131"
@@ -33,20 +34,20 @@ meta:
   hue: 195
   pair: null
   contrast:
-    fg: 54.5
+    fg: 58.3
     black: 0
-    red: 22.6
-    green: 48.9
-    yellow: 81.5
-    blue: 23.3
-    magenta: 25.6
-    cyan: 43.4
-    white: 85.9
-    brightBlack: 17.9
-    brightRed: 34.5
-    brightGreen: 59.4
-    brightYellow: 91.5
-    brightBlue: 35.9
-    brightMagenta: 41.3
-    brightCyan: 51.3
-    brightWhite: 85.9
+    red: 26.4
+    green: 52.6
+    yellow: 85.3
+    blue: 27.1
+    magenta: 29.4
+    cyan: 47.2
+    white: 89.7
+    brightBlack: 21.7
+    brightRed: 38.2
+    brightGreen: 63.2
+    brightYellow: 95.3
+    brightBlue: 39.6
+    brightMagenta: 45
+    brightCyan: 55
+    brightWhite: 89.7

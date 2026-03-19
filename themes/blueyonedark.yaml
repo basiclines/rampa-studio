@@ -1,16 +1,17 @@
 name: "BlueyOneDark"
 source:
-  marketplace_id: "BlueyThemes.blueymonokai"
-  version: "1.4.0"
-  installs: 116
+  marketplace_id: "BlueyThemes.blueyonedark"
+  version: "2.2.1"
+  installs: 190
   rating: 0
   ratings: 0
   author: "BlueyThemes"
   repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=BlueyThemes.blueymonokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=BlueyThemes.blueyonedark"
+  formats: null
 colors:
   bg: "#282C34"
-  fg: "#A3A3A3"
+  fg: "#D9DBE0"
   black: "#3F4451"
   red: "#E05561"
   green: "#8CC265"
@@ -33,7 +34,7 @@ meta:
   hue: 264
   pair: null
   contrast:
-    fg: 48.2
+    fg: 80.5
     black: 0
     red: 33.5
     green: 57.2

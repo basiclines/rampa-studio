@@ -8,6 +8,13 @@ source:
   author: "Davy Jones"
   repo: "https://github.com/ADWilkinson/the-flying-dutchman-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=DavyJones.the-flying-dutchman-theme"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/ghostty/The-Flying-Dutchman"
+    iterm2: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/iterm/The-Flying-Dutchman.itermcolors"
+    windows-terminal: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/windows-terminal/The-Flying-Dutchman.json"
+    warp: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/warp/the-flying-dutchman.yaml"
+    vim: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/vim/colors/flying-dutchman.vim"
+    sublime: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/sublime-text/The-Flying-Dutchman.tmTheme"
 colors:
   bg: "#0B1117"
   fg: "#C1D1E1"

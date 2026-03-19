@@ -1,16 +1,17 @@
 name: "Elegant Red"
 source:
-  marketplace_id: "hudadamar21.monokai-red-moon"
-  version: "1.0.0"
-  installs: 2319
-  rating: 0
-  ratings: 0
+  marketplace_id: "hudadamar21.elegant-red"
+  version: "0.0.4"
+  installs: 13171
+  rating: 5
+  ratings: 1
   author: "hudadamar21"
   repo: "https://themes.vscode.one/theme/hudadamar21/29medjnT"
-  url: "https://marketplace.visualstudio.com/items?itemName=hudadamar21.monokai-red-moon"
+  url: "https://marketplace.visualstudio.com/items?itemName=hudadamar21.elegant-red"
+  formats: null
 colors:
   bg: "#000000"
-  fg: "#FFFFFF"
+  fg: "#FFF5A0"
   black: "#868686"
   red: "#CD3131"
   green: "#0DBC79"
@@ -33,7 +34,7 @@ meta:
   hue: null
   pair: null
   contrast:
-    fg: 107.9
+    fg: 99.6
     black: 37.6
     red: 27.7
     green: 54

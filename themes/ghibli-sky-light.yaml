@@ -8,6 +8,9 @@ source:
   author: "Daniel Biedma"
   repo: "https://github.com/danibram/ghibli-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=danibram.ghibli-inspired-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/danibram/ghibli-theme/main/terminal/ghibli-forest.itermcolors"
+    alacritty: "https://raw.githubusercontent.com/danibram/ghibli-theme/main/terminal/alacritty-ghibli-forest.toml"
 colors:
   bg: "#F8F4ED"
   fg: "#4A4540"

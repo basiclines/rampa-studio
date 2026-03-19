@@ -3,9 +3,12 @@ source:
   marketplace_id: "lucagaerisch.gipsy-vscode-theme"
   version: "0.0.2"
   installs: 128
+  rating: 0
+  ratings: 0
   author: "Luca Gärisch"
   repo: "https://github.com/lucagaerisch/gipsy-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=lucagaerisch.gipsy-vscode-theme"
+  formats: null
 colors:
   bg: "#151515"
   fg: "#F7F1FF"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 99.4
     black: 0

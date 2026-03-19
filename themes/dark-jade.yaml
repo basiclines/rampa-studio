@@ -8,6 +8,7 @@ source:
   author: "ErikDCAlmeida"
   repo: "https://github.com/ErikDCAlmeida/jade-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=edca-jadetheme.jade"
+  formats: null
 colors:
   bg: "#000000"
   fg: "#A7A7A7"
@@ -31,7 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
-  pair: "Light Jade"
+  pair: null
   contrast:
     fg: 54.6
     black: 0

@@ -1,11 +1,14 @@
-name: "Pizarra"
+name: "pizarra"
 source:
   marketplace_id: "afgomez.pizarra"
   version: "0.2.1"
   installs: 278
+  rating: 0
+  ratings: 0
   author: "Alejandro Fernández"
   repo: "http://github.com/afgomez/pizarra.vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=afgomez.pizarra"
+  formats: null
 colors:
   bg: "#171717"
   fg: "#FFFFFF"

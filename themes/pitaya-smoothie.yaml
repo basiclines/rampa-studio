@@ -8,6 +8,8 @@ source:
   author: "Tania Allard"
   repo: "https://github.com/trallard/pitaya_smoothie"
   url: "https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie"
+  formats:
+    sublime: "https://raw.githubusercontent.com/trallard/pitaya_smoothie/main/themes/pitaya_milkshake.tmTheme"
 colors:
   bg: "#181036"
   fg: "#FEFEFF"

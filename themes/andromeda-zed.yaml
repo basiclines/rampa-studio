@@ -1,4 +1,4 @@
-name: "Andromeda Zed"
+name: "andromeda-zed"
 source:
   marketplace_id: "AdrienLeloup.andromeda-zed"
   version: "0.0.1"
@@ -8,6 +8,8 @@ source:
   author: "Adrien Leloup"
   repo: "https://github.com/voidgraphics/andromeda-zed-vs-code"
   url: "https://marketplace.visualstudio.com/items?itemName=AdrienLeloup.andromeda-zed"
+  formats:
+    zed: "https://raw.githubusercontent.com/voidgraphics/andromeda-zed-vs-code/main/themes/Andromeda-Zed-color-theme.json"
 colors:
   bg: "#1E2025"
   fg: "#F7F7F8"

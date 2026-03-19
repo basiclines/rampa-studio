@@ -1,52 +1,53 @@
 name: "Minimal"
 source:
-  marketplace_id: "amirmajdi.minimal-themes-amirmajdi"
-  version: "1.0.7"
-  installs: 331
+  marketplace_id: "EphraimAtta-Duncan.vscode-minimal-theme-dark"
+  version: "0.0.1"
+  installs: 1459
   rating: 0
   ratings: 0
-  author: "Amir Majdi"
-  repo: "https://github.com/Amir-Majdi/minimal-themes"
-  url: "https://marketplace.visualstudio.com/items?itemName=amirmajdi.minimal-themes-amirmajdi"
+  author: "Ephraim Atta-Duncan"
+  repo: "https://github.com/dephraiim/minimal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EphraimAtta-Duncan.vscode-minimal-theme-dark"
+  formats: null
 colors:
-  bg: "#222222"
-  fg: "#FFFFFF"
-  black: "#222222"
-  red: "#E29090"
-  green: "#B5BD68"
-  yellow: "#F7DF9B"
-  blue: "#81A2BE"
-  magenta: "#B294BB"
-  cyan: "#8ABEB7"
-  white: "#FFFFFF"
-  brightBlack: "#222222"
-  brightRed: "#E29090"
-  brightGreen: "#B5BD68"
-  brightYellow: "#F7DF9B"
-  brightBlue: "#81A2BE"
-  brightMagenta: "#B294BB"
-  brightCyan: "#8ABEB7"
-  brightWhite: "#FFFFFF"
+  bg: "#2A2A29"
+  fg: "#CED3DB"
+  black: "#2A2A29"
+  red: "#F44336"
+  green: "#00E676"
+  yellow: "#FFDE03"
+  blue: "#206DAC"
+  magenta: "#FF0266"
+  cyan: "#00E676"
+  white: "#613F83"
+  brightBlack: "#232635"
+  brightRed: "#FB4934"
+  brightGreen: "#CACC53"
+  brightYellow: "#FABD2F"
+  brightBlue: "#00E676"
+  brightMagenta: "#DF6495"
+  brightCyan: "#8EC07C"
+  brightWhite: "#F9FBFC"
 meta:
   mode: "dark"
-  accent: "green"
+  accent: "red"
   hue: null
   pair: null
   contrast:
-    fg: 105.5
+    fg: 75.8
     black: 0
-    red: 51.9
-    green: 61
-    yellow: 85.8
-    blue: 47.5
-    magenta: 47.5
-    cyan: 59.4
-    white: 105.5
+    red: 34.9
+    green: 70.5
+    yellow: 83.5
+    blue: 21.1
+    magenta: 34.7
+    cyan: 70.5
+    white: 10.1
     brightBlack: 0
-    brightRed: 51.9
-    brightGreen: 61
-    brightYellow: 85.8
-    brightBlue: 47.5
-    brightMagenta: 47.5
-    brightCyan: 59.4
-    brightWhite: 105.5
+    brightRed: 37.3
+    brightGreen: 68.3
+    brightYellow: 69
+    brightBlue: 70.5
+    brightMagenta: 38.3
+    brightCyan: 57.3
+    brightWhite: 101.2

@@ -8,6 +8,8 @@ source:
   author: "suin"
   repo: "https://github.com/suin/winternacht"
   url: "https://marketplace.visualstudio.com/items?itemName=suin.winternacht-by-suin"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/suin/winternacht/main/ghostty/README.md"
 colors:
   bg: "#FCFCFB"
   fg: "#3A3835"

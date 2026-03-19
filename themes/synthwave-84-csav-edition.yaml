@@ -1,13 +1,14 @@
-name: "Synthwave '84 - CSAV edition"
+name: "Synthwave '84 csav edition"
 source:
-  marketplace_id: "csdotav.synthwave84-monokai-edition"
-  version: "0.0.1"
-  installs: 3772
+  marketplace_id: "csdotav.synthwave84-csav-edition"
+  version: "1.0.1"
+  installs: 3923
   rating: 0
   ratings: 0
   author: "csdotav"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=csdotav.synthwave84-monokai-edition"
+  repo: "https://github.com/ArielCalisaya/synthwave84-csdotav"
+  url: "https://marketplace.visualstudio.com/items?itemName=csdotav.synthwave84-csav-edition"
+  formats: null
 colors:
   bg: "#262335"
   fg: "#D4D4D4"

@@ -8,6 +8,8 @@ source:
   author: "madhanmaaz"
   repo: "https://github.com/madhanmaaz/herzha-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=madhanmaaz.vscode-herzha-theme"
+  formats:
+    sublime: "https://raw.githubusercontent.com/madhanmaaz/herzha-theme/main/packages/sublime-text/themes/herzha-dark.tmTheme"
 colors:
   bg: "#0A0A0D"
   fg: "#A9B1D6"

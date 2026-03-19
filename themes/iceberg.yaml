@@ -1,13 +1,14 @@
 name: "Iceberg"
 source:
-  marketplace_id: "iAldo80.basic-themes"
-  version: "1.5.1"
-  installs: 425
-  rating: 0
-  ratings: 0
-  author: "Aldo"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=iAldo80.basic-themes"
+  marketplace_id: "harg.iceberg"
+  version: "1.2.0"
+  installs: 27193
+  rating: 5
+  ratings: 2
+  author: "harg"
+  repo: "https://github.com/harg/iceberg-visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=harg.iceberg"
+  formats: null
 colors:
   bg: "#161821"
   fg: "#C6C8D1"
@@ -19,14 +20,14 @@ colors:
   magenta: "#A093C7"
   cyan: "#89B8C2"
   white: "#C6C8D1"
-  brightBlack: "#6B7089"
-  brightRed: "#E98989"
-  brightGreen: "#C0CA8E"
-  brightYellow: "#E9B189"
-  brightBlue: "#91ACD1"
-  brightMagenta: "#ADA0D3"
-  brightCyan: "#95C4CE"
-  brightWhite: "#D2D4DE"
+  brightBlack: "#7D8199"
+  brightRed: "#E27878"
+  brightGreen: "#B4BE82"
+  brightYellow: "#E2A478"
+  brightBlue: "#84A0C6"
+  brightMagenta: "#A093C7"
+  brightCyan: "#89B8C2"
+  brightWhite: "#C6C8D1"
 meta:
   mode: "dark"
   accent: "orange"
@@ -42,11 +43,11 @@ meta:
     magenta: 46.8
     cyan: 58.5
     white: 72.3
-    brightBlack: 26.7
-    brightRed: 52
-    brightGreen: 70
-    brightYellow: 65.5
-    brightBlue: 55
-    brightMagenta: 53.6
-    brightCyan: 65.2
-    brightWhite: 79.5
+    brightBlack: 34.6
+    brightRed: 45.4
+    brightGreen: 63.1
+    brightYellow: 59.2
+    brightBlue: 48.6
+    brightMagenta: 46.8
+    brightCyan: 58.5
+    brightWhite: 72.3

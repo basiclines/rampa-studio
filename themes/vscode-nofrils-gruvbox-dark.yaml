@@ -8,6 +8,8 @@ source:
   author: "Jonathan Batteas"
   repo: "https://github.com/sosukeinu/vscode-nofrils"
   url: "https://marketplace.visualstudio.com/items?itemName=batteajd.vscode-nofrils"
+  formats:
+    zed: "https://raw.githubusercontent.com/sosukeinu/vscode-nofrils/main/themes/vs-code-nofrils-solarized-light-color-theme.json"
 colors:
   bg: "#3C3836"
   fg: "#EBDBB2"

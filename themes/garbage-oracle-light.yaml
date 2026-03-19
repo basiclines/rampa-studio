@@ -8,6 +8,9 @@ source:
   author: "sansbrina"
   repo: "https://github.com/sansbrina/garbage-oracle-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=sansbrina.garbage-oracle"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/sansbrina/garbage-oracle-themes/release/iTerm/garbage-oracle-dark.itermcolors"
+    windows-terminal: "https://raw.githubusercontent.com/sansbrina/garbage-oracle-themes/release/windows terminal/windows-terminal-light.json"
 colors:
   bg: "#F2E2F1"
   fg: "#870058"

@@ -1,13 +1,14 @@
 name: "Houston"
 source:
-  marketplace_id: "HasibX2000.slab-theme"
-  version: "0.0.3"
-  installs: 3736
+  marketplace_id: "astro-build.houston"
+  version: "0.1.2"
+  installs: 80767
   rating: 5
-  ratings: 1
-  author: "Hasibur Rahman"
-  repo: "https://github.com/HasibX2000/SLab"
-  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+  ratings: 13
+  author: "Astro"
+  repo: "https://github.com/withastro/houston-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=astro-build.houston"
+  formats: null
 colors:
   bg: "#17191E"
   fg: "#EEF0F9"

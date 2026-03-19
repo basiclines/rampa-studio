@@ -2,12 +2,13 @@ name: "Frog Terminal"
 source:
   marketplace_id: "cobalt-frog.frog-terminal"
   version: "0.0.2"
-  installs: 78
+  installs: 79
   rating: 0
   ratings: 0
   author: "Cobalt Frog"
   repo: "https://github.com/CobaltFrog/frog-terminal"
   url: "https://marketplace.visualstudio.com/items?itemName=cobalt-frog.frog-terminal"
+  formats: null
 colors:
   bg: "#000000"
   fg: "#52A535"

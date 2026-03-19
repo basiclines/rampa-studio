@@ -8,6 +8,8 @@ source:
   author: "Leandro Aparecido de Siqueira"
   repo: "https://github.com/leandroaps/midnight-breeze"
   url: "https://marketplace.visualstudio.com/items?itemName=leandroaps.vscode-theme-midnight-breeze"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/leandroaps/midnight-breeze/main/themes/MidnightBreeze.itermcolors"
 colors:
   bg: "#1A1C2C"
   fg: "#D6DEEB"

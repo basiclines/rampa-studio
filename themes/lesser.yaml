@@ -1,52 +1,53 @@
-name: "lesser"
+name: "Lesser"
 source:
-  marketplace_id: "OvO.konng"
-  version: "5.0.0"
-  installs: 1352
+  marketplace_id: "funcdfs.lesser"
+  version: "1.4.3"
+  installs: 61
   rating: 5
-  ratings: 3
-  author: "fengwei2002"
+  ratings: 1
+  author: "funcdfs"
   repo: "https://github.com/funcdfs/vscode-theme-lesser"
-  url: "https://marketplace.visualstudio.com/items?itemName=OvO.konng"
+  url: "https://marketplace.visualstudio.com/items?itemName=funcdfs.lesser"
+  formats: null
 colors:
-  bg: "#211D25"
-  fg: "#ABB2BF"
-  black: "#2A2530"
-  red: "#FF8080"
-  green: "#7DD3C0"
-  yellow: "#FFF2B3"
-  blue: "#6A9BE8"
-  magenta: "#AFB6FF"
-  cyan: "#80FFB5"
-  white: "#BDC3CF"
-  brightBlack: "#636D83"
-  brightRed: "#FF8080"
-  brightGreen: "#7DD3C0"
-  brightYellow: "#FFF2B3"
-  brightBlue: "#6A9BE8"
-  brightMagenta: "#AFB6FF"
-  brightCyan: "#80FFB5"
-  brightWhite: "#EEEEEE"
+  bg: "#1F1F1F"
+  fg: "#E4E4E4"
+  black: "#181818"
+  red: "#E05050"
+  green: "#5CB85C"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#E4E4E4"
+  brightBlack: "#6B6B6B"
+  brightRed: "#F07178"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
   accent: "orange"
-  hue: 308
+  hue: null
   pair: null
   contrast:
-    fg: 58.5
+    fg: 88.4
     black: 0
-    red: 52.8
-    green: 68.8
-    yellow: 96.9
-    blue: 46
-    magenta: 64
-    cyan: 90.3
-    white: 68.2
-    brightBlack: 24.1
-    brightRed: 52.8
-    brightGreen: 68.8
-    brightYellow: 96.9
-    brightBlue: 46
-    brightMagenta: 64
-    brightCyan: 90.3
-    brightWhite: 94.8
+    red: 34.5
+    green: 51.5
+    yellow: 69.6
+    blue: 53.7
+    magenta: 44.2
+    cyan: 53.6
+    white: 88.4
+    brightBlack: 23.2
+    brightRed: 45.6
+    brightGreen: 61.3
+    brightYellow: 69.6
+    brightBlue: 53.7
+    brightMagenta: 44.2
+    brightCyan: 53.6
+    brightWhite: 105.9

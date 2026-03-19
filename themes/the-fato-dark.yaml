@@ -1,11 +1,14 @@
-name: "the-fato-dark"
+name: "The Fato Dark"
 source:
   marketplace_id: "RenanTheFato.the-fato-dark"
   version: "0.0.5"
   installs: 36
+  rating: 0
+  ratings: 0
   author: "Renan The Fato"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=RenanTheFato.the-fato-dark"
+  formats: null
 colors:
   bg: "#0D0D0D"
   fg: "#D4D4D4"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 80.2
     black: 12.1

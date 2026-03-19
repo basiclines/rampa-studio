@@ -1,4 +1,4 @@
-name: "Microhouse"
+name: "microhouse"
 source:
   marketplace_id: "DiscreteProjects.microhouse"
   version: "0.1.3"
@@ -8,6 +8,7 @@ source:
   author: "Discrete_Projects"
   repo: "https://github.com/discrete-projects/op-one"
   url: "https://marketplace.visualstudio.com/items?itemName=DiscreteProjects.microhouse"
+  formats: null
 colors:
   bg: "#0E0C11"
   fg: "#E9E9E9"

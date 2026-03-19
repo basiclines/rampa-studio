@@ -3,9 +3,17 @@ source:
   marketplace_id: "LuisCMarkmann.patina-theme"
   version: "0.9.0"
   installs: 43
+  rating: 0
+  ratings: 0
   author: "Luis C. Markmann"
   repo: "https://github.com/lmarkmann/patina-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=LuisCMarkmann.patina-theme"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/ghostty/patina-dark"
+    alacritty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/alacritty/patina-dark.toml"
+    kitty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/kitty/patina-dark.conf"
+    android-studio: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/intellij/Patina_Dark.icls"
+    zed: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/zed/patina-dark.json"
 colors:
   bg: "#DDD7C4"
   fg: "#393A34"

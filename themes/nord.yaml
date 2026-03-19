@@ -1,52 +1,53 @@
 name: "Nord"
 source:
-  marketplace_id: "swashata.beautiful-ui"
-  version: "1.7.0"
-  installs: 121108
-  rating: 4.38
-  ratings: 13
-  author: "swashata"
-  repo: "https://github.com/swashata/vscode-beautiful-ui"
-  url: "https://marketplace.visualstudio.com/items?itemName=swashata.beautiful-ui"
+  marketplace_id: "Nord.nord"
+  version: "0.0.1"
+  installs: 17054
+  rating: 0
+  ratings: 0
+  author: "Freezy"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Nord.nord"
+  formats: null
 colors:
-  bg: "#2F3541"
+  bg: "#272C36"
   fg: "#D8DEE9"
-  black: "#000000"
-  red: "#D81E00"
-  green: "#5EA702"
-  yellow: "#CFAE00"
-  blue: "#427AB3"
-  magenta: "#89658E"
-  cyan: "#00A7AA"
-  white: "#DBDED8"
-  brightBlack: "#686A66"
-  brightRed: "#F54235"
-  brightGreen: "#99E343"
-  brightYellow: "#FDEB61"
-  brightBlue: "#84B0D8"
-  brightMagenta: "#BC94B7"
-  brightCyan: "#37E6E8"
-  brightWhite: "#F1F1F0"
+  black: "#2E3440"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
 meta:
   mode: "dark"
   accent: "orange"
   hue: 264
   pair: null
   contrast:
-    fg: 80
+    fg: 82.2
     black: 0
-    red: 22.2
-    green: 39.1
-    yellow: 53.6
-    blue: 24.3
-    magenta: 21.7
-    cyan: 40
-    white: 79.6
-    brightBlack: 18.1
-    brightRed: 32.5
-    brightGreen: 71.1
-    brightYellow: 87.1
-    brightBlue: 50.7
-    brightMagenta: 44.7
-    brightCyan: 72.4
-    brightWhite: 92.3
+    red: 29.8
+    green: 58.5
+    yellow: 73.2
+    blue: 45.4
+    magenta: 43.3
+    cyan: 59.5
+    white: 89.1
+    brightBlack: 12.2
+    brightRed: 29.8
+    brightGreen: 58.5
+    brightYellow: 73.2
+    brightBlue: 45.4
+    brightMagenta: 43.3
+    brightCyan: 57.4
+    brightWhite: 93

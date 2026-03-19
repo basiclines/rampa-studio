@@ -1,13 +1,14 @@
-name: "wallbash"
+name: "Wallbash"
 source:
   marketplace_id: "TheHyDEProject.wallbash"
   version: "0.3.7"
-  installs: 2230
+  installs: 2232
   rating: 5
   ratings: 1
   author: "The HyDE Project"
   repo: "https://github.com/HyDE-Project/vscode-wallbash"
   url: "https://marketplace.visualstudio.com/items?itemName=TheHyDEProject.wallbash"
+  formats: null
 colors:
   bg: "#2C2525"
   fg: "#FFFFFF"

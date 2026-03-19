@@ -3,9 +3,12 @@ source:
   marketplace_id: "DariusBau.telax"
   version: "1.0.1"
   installs: 63
+  rating: 0
+  ratings: 0
   author: "Darius Bau"
   repo: "https://github.com/baudarius/telax"
   url: "https://marketplace.visualstudio.com/items?itemName=DariusBau.telax"
+  formats: null
 colors:
   bg: "#202328"
   fg: "#DADADA"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 261
+  pair: null
   contrast:
     fg: 81.6
     black: 20.5

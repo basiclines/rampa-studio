@@ -8,6 +8,8 @@ source:
   author: "Mike Hamrah"
   repo: "https://github.com/mhamrah/subliminal-nightfall"
   url: "https://marketplace.visualstudio.com/items?itemName=hamrahm.subliminal-nightfall"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/mhamrah/subliminal-nightfall/main/ghostty/subliminal-nightfall"
 colors:
   bg: "#03021A"
   fg: "#E0DEF4"

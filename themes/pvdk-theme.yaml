@@ -1,4 +1,4 @@
-name: "pvdk-theme"
+name: ">_pvdk-theme"
 source:
   marketplace_id: "gpovidaiko.pvdk-theme"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "gpovidaiko"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=gpovidaiko.pvdk-theme"
+  formats: null
 colors:
   bg: "#161316"
   fg: "#F8F1F8"

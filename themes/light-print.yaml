@@ -1,4 +1,4 @@
-name: "light-print"
+name: "Light Print"
 source:
   marketplace_id: "AymanAli.light-print"
   version: "1.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Ayman Ali"
   repo: "https://github.com/aymanabuali/light-print"
   url: "https://marketplace.visualstudio.com/items?itemName=AymanAli.light-print"
+  formats: null
 colors:
   bg: "#FFFFFF"
   fg: "#262626"

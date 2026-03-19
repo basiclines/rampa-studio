@@ -1,4 +1,4 @@
-name: "TodePond Theme"
+name: "TodePond-Theme"
 source:
   marketplace_id: "TodePond.TodePond-Theme"
   version: "0.0.2"
@@ -8,6 +8,7 @@ source:
   author: "TodePond"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=TodePond.TodePond-Theme"
+  formats: null
 colors:
   bg: "#1F2736"
   fg: "#FFCC00"

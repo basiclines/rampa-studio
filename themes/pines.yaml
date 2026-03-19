@@ -1,4 +1,4 @@
-name: "pines"
+name: "Pines"
 source:
   marketplace_id: "deeppines.pines-visual-studio-code"
   version: "0.3.0"
@@ -8,6 +8,7 @@ source:
   author: "Lucas Kane"
   repo: "https://github.com/deeppines/pines-visual-studio-code"
   url: "https://marketplace.visualstudio.com/items?itemName=deeppines.pines-visual-studio-code"
+  formats: null
 colors:
   bg: "#253447"
   fg: "#D4D4D4"

@@ -1,13 +1,14 @@
-name: "Anisochromatic"
+name: "anisochromatic"
 source:
   marketplace_id: "isomorph-research.anisochromatic"
   version: "0.0.14"
-  installs: 424
+  installs: 425
   rating: 5
   ratings: 1
   author: "Isomorph Research Laboratories"
   repo: "https://github.com/isomorph-research/anisochromatic-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=isomorph-research.anisochromatic"
+  formats: null
 colors:
   bg: "#2C313A"
   fg: "#F2ECE1"

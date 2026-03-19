@@ -8,6 +8,8 @@ source:
   author: "Sandrico Provo"
   repo: "https://github.com/sandricoprovo/dark-frost-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sprovo.dark-frost"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/sandricoprovo/dark-frost-vscode-theme/master/Dark Frost iTerm Theme.itermcolors"
 colors:
   bg: "#202733"
   fg: "#BFC7D5"

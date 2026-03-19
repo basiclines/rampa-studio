@@ -8,6 +8,8 @@ source:
   author: "itsjonq"
   repo: "https://github.com/itsjonq/owlet"
   url: "https://marketplace.visualstudio.com/items?itemName=itsjonq.owlet"
+  formats:
+    zed: "https://raw.githubusercontent.com/itsjonq/owlet/master/themes/owlet-theme-solarized.json"
 colors:
   bg: "#101010"
   fg: "#EEEEEE"

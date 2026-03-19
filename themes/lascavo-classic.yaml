@@ -3,9 +3,12 @@ source:
   marketplace_id: "mdrsh.lascavo"
   version: "0.2.5"
   installs: 146
+  rating: 0
+  ratings: 0
   author: "mdrsh"
   repo: "https://github.com/mdrsh/lascavo-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=mdrsh.lascavo"
+  formats: null
 colors:
   bg: "#202022"
   fg: "#FFFFFF"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 105.7
     black: 0

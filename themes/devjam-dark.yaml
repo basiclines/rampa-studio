@@ -3,9 +3,12 @@ source:
   marketplace_id: "alisonsantosofc.devjam-theme"
   version: "0.0.5"
   installs: 163
+  rating: 0
+  ratings: 0
   author: "alisonsantosofc"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=alisonsantosofc.devjam-theme"
+  formats: null
 colors:
   bg: "#131724"
   fg: "#F2F2F2"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 271
+  pair: null
   contrast:
     fg: 98.3
     black: 0

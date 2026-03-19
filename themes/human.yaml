@@ -8,6 +8,8 @@ source:
   author: "fielding"
   repo: "https://github.com/fielding/human-plus-plus"
   url: "https://marketplace.visualstudio.com/items?itemName=fielding.human-plus-plus"
+  formats:
+    nvim: "https://raw.githubusercontent.com/fielding/human-plus-plus/main/packages/neovim-plugin/lua/human-plus-plus/config.lua"
 colors:
   bg: "#1A1C22"
   fg: "#F8F6F2"

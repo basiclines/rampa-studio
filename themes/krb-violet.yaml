@@ -1,15 +1,16 @@
 name: "Krb_Violet"
 source:
-  marketplace_id: "KUSHALSAHA.krbblue"
-  version: "2.0.0"
-  installs: 241
+  marketplace_id: "KUSHALSAHA.krbviolet"
+  version: "1.0.2"
+  installs: 810
   rating: 0
   ratings: 0
   author: "KUSHAL SAHA"
-  repo: "https://github.com/krbfx/krbblue"
-  url: "https://marketplace.visualstudio.com/items?itemName=KUSHALSAHA.krbblue"
+  repo: "https://github.com/krbfx/krbviolet"
+  url: "https://marketplace.visualstudio.com/items?itemName=KUSHALSAHA.krbviolet"
+  formats: null
 colors:
-  bg: "#403A4B"
+  bg: "#312A3F"
   fg: "#D4D4D4"
   black: "#000000"
   red: "#CD3131"
@@ -30,23 +31,23 @@ colors:
 meta:
   mode: "dark"
   accent: "pink"
-  hue: 301
+  hue: 299
   pair: null
   contrast:
-    fg: 71.7
-    black: 8.6
-    red: 19
-    green: 45.3
-    yellow: 69.6
-    blue: 19.7
-    magenta: 22
-    cyan: 39.8
-    white: 82.3
-    brightBlack: 14.3
-    brightRed: 30.8
-    brightGreen: 55.8
-    brightYellow: 94.5
-    brightBlue: 32.3
-    brightMagenta: 37.6
-    brightCyan: 47.7
-    brightWhite: 82.3
+    fg: 75.9
+    black: 0
+    red: 23.2
+    green: 49.4
+    yellow: 73.7
+    blue: 23.9
+    magenta: 26.2
+    cyan: 44
+    white: 86.5
+    brightBlack: 18.5
+    brightRed: 35
+    brightGreen: 60
+    brightYellow: 98.7
+    brightBlue: 36.4
+    brightMagenta: 41.8
+    brightCyan: 51.8
+    brightWhite: 86.5

@@ -13,6 +13,9 @@ export interface ThemeSource {
   url: string;
   author: string;
   repo: string | null;
+  /** Pinned raw.githubusercontent.com URLs keyed by app name. Populated by detect-theme-formats script.
+   *  undefined = not yet scanned, null = scanned but no native formats found */
+  formats?: Record<string, string> | null;
 }
 
 export interface ThemeColors {
@@ -143,8 +146,9 @@ export function parseThemeYAML(raw: string): ThemeYAML {
   return validateTheme(data);
 }
 
-function parseScalar(value: string): string | number | null {
+function parseScalar(value: string): string | number | null | Record<string, never> {
   if (value === 'null' || value === '~') return null;
+  if (value === '{}') return {};
   const unquoted = value.replace(/^["']|["']$/g, '');
   if (HEX_RE.test(unquoted)) return unquoted;
   const num = Number(value);
@@ -185,6 +189,16 @@ export function serializeThemeYAML(theme: ThemeYAML): string {
   lines.push(`  author: "${theme.source.author}"`);
   lines.push(`  repo: ${theme.source.repo ? '"' + theme.source.repo + '"' : 'null'}`);
   lines.push(`  url: "${theme.source.url}"`);
+  if (theme.source.formats !== undefined) {
+    if (theme.source.formats && Object.keys(theme.source.formats).length > 0) {
+      lines.push('  formats:');
+      for (const [app, url] of Object.entries(theme.source.formats)) {
+        lines.push(`    ${app}: "${url}"`);
+      }
+    } else {
+      lines.push('  formats: null');
+    }
+  }
 
   lines.push('colors:');
   for (const key of COLOR_KEYS) {

@@ -1,4 +1,4 @@
-name: "Modus Vivendi Tinted"
+name: "Modus-Vivendi-Tinted"
 source:
   marketplace_id: "morokiane.modus-vivendi-tinted"
   version: "0.0.5"
@@ -8,6 +8,7 @@ source:
   author: "morokiane"
   repo: "https://github.com/Morokiane/Modus-Vivendi-Tinted-VSCode"
   url: "https://marketplace.visualstudio.com/items?itemName=morokiane.modus-vivendi-tinted"
+  formats: null
 colors:
   bg: "#0D0E1C"
   fg: "#FFFFFF"

@@ -1,4 +1,4 @@
-name: "'One Moon'"
+name: "One Moon"
 source:
   marketplace_id: "ThisNameWasTaken.one-moon"
   version: "1.2.0"
@@ -8,6 +8,7 @@ source:
   author: "ThisNameWasTaken"
   repo: "https://github.com/ThisNameWasTaken/one-moon"
   url: "https://marketplace.visualstudio.com/items?itemName=ThisNameWasTaken.one-moon"
+  formats: null
 colors:
   bg: "#242B2E"
   fg: "#D4D4D4"

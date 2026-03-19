@@ -1,4 +1,4 @@
-name: "4-Colours"
+name: "4 Colours"
 source:
   marketplace_id: "gpem.4-colours"
   version: "1.1.27"
@@ -8,6 +8,7 @@ source:
   author: "gpem"
   repo: "https://github.com/Germain-Gadel/4-colours"
   url: "https://marketplace.visualstudio.com/items?itemName=gpem.4-colours"
+  formats: null
 colors:
   bg: "#1F2127"
   fg: "#F1F1F1"

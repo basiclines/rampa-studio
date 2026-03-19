@@ -3,9 +3,12 @@ source:
   marketplace_id: "bananaspy.bananaspy"
   version: "0.0.4"
   installs: 169
+  rating: 0
+  ratings: 0
   author: "Vitaliy Starov"
   repo: "https://github.com/bananaspy/bananalight"
   url: "https://marketplace.visualstudio.com/items?itemName=bananaspy.bananaspy"
+  formats: null
 colors:
   bg: "#FFFFFF"
   fg: "#410E0E"
@@ -29,6 +32,7 @@ meta:
   mode: "light"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 102.6
     black: 106

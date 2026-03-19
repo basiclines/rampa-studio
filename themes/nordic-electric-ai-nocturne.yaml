@@ -1,4 +1,4 @@
-name: "Nordic Electric AI – Nocturne"
+name: "Nordic Electric AI Nocturne"
 source:
   marketplace_id: "freyja-one.nordic-electric-ai"
   version: "1.0.2"
@@ -8,6 +8,10 @@ source:
   author: "freyja-one"
   repo: "https://github.com/CosmicFreyjaLab/aurora-colorschemes"
   url: "https://marketplace.visualstudio.com/items?itemName=freyja-one.nordic-electric-ai"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/CosmicFreyjaLab/aurora-colorschemes/main/iterm/nordic_electric_ai.itermcolors"
+    kitty: "https://raw.githubusercontent.com/CosmicFreyjaLab/aurora-colorschemes/main/kitty/nordic_electric_ai_kitty.conf"
+    android-studio: "https://raw.githubusercontent.com/CosmicFreyjaLab/aurora-colorschemes/main/jetbrains/nordic_electric_ai.icls"
 colors:
   bg: "#101628"
   fg: "#CBDAF3"

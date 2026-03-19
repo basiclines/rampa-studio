@@ -8,6 +8,8 @@ source:
   author: "No Pixie"
   repo: "https://github.com/nopixie/nopixie-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/nopixie/nopixie-theme/main/iterm/No Pixie Blue Dark.itermcolors"
 colors:
   bg: "#F8FAFE"
   fg: "#2A3340"

@@ -8,6 +8,7 @@ source:
   author: "Mehdi Talalha"
   repo: "https://github.com/mehdi1-T/ZENE-vscode-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MehdiTalalha.zene-theme"
+  formats: null
 colors:
   bg: "#1E1E2E"
   fg: "#CAD3F5"
@@ -31,7 +32,7 @@ meta:
   mode: "dark"
   accent: "magenta"
   hue: 284
-  pair: "Zene Light Theme"
+  pair: null
   contrast:
     fg: 78.4
     black: 0

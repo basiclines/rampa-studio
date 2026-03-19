@@ -1,16 +1,17 @@
-name: "DarkSpace"
+name: "darkspace"
 source:
-  marketplace_id: "YesCode.grayspace"
-  version: "0.0.23"
-  installs: 768
+  marketplace_id: "YesCode.darkspace"
+  version: "0.0.7"
+  installs: 174
   rating: 0
   ratings: 0
   author: "YesCode"
-  repo: "https://github.com/yesomac/platzi_theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.grayspace"
+  repo: "https://github.com/yesomac/darkSpace"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.darkspace"
+  formats: null
 colors:
-  bg: "#212121"
-  fg: "#EEFFFF"
+  bg: "#000000"
+  fg: "#FAE8D8"
   black: "#1D2021"
   red: "#FB543F"
   green: "#95C085"
@@ -21,7 +22,7 @@ colors:
   white: "#A89984"
   brightBlack: "#665C54"
   brightRed: "#FB543F"
-  brightGreen: "#C1A2F7"
+  brightGreen: "#0687FF"
   brightYellow: "#FFCC80"
   brightBlue: "#0D6678"
   brightMagenta: "#8F4673"
@@ -33,20 +34,20 @@ meta:
   hue: null
   pair: null
   contrast:
-    fg: 103.3
+    fg: 94.8
     black: 0
-    red: 40.7
-    green: 59.7
-    yellow: 71.8
-    blue: 46.2
-    magenta: 18.3
-    cyan: 48.2
-    white: 46
-    brightBlack: 17.3
-    brightRed: 40.7
-    brightGreen: 57.9
-    brightYellow: 78.5
-    brightBlue: 17.5
-    brightMagenta: 18.3
-    brightCyan: 48.2
-    brightWhite: 97.6
+    red: 43
+    green: 62
+    yellow: 74.1
+    blue: 48.5
+    magenta: 20.5
+    cyan: 50.5
+    white: 48.2
+    brightBlack: 19.6
+    brightRed: 43
+    brightGreen: 39.4
+    brightYellow: 80.8
+    brightBlue: 19.7
+    brightMagenta: 20.5
+    brightCyan: 50.5
+    brightWhite: 99.9

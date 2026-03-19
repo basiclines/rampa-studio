@@ -1,4 +1,4 @@
-name: "Kopo-Theme"
+name: "Kopo Theme"
 source:
   marketplace_id: "Itayon.kopo-theme"
   version: "1.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Itayon"
   repo: "https://github.com/KopoCorp/VS-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Itayon.kopo-theme"
+  formats: null
 colors:
   bg: "#191920"
   fg: "#E8E8E8"

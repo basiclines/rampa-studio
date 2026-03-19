@@ -3,9 +3,12 @@ source:
   marketplace_id: "Kochan.vs-nord-theme"
   version: "1.0.2"
   installs: 528
+  rating: 0
+  ratings: 0
   author: "Koiverse"
   repo: "https://github.com/koimoee/VSNordTheme"
   url: "https://marketplace.visualstudio.com/items?itemName=Kochan.vs-nord-theme"
+  formats: null
 colors:
   bg: "#FFFFFF"
   fg: "#1E1E1E"
@@ -29,6 +32,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: null
   contrast:
     fg: 103.6
     black: 98.3

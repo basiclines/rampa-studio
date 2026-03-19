@@ -8,6 +8,8 @@ source:
   author: "yyynnn"
   repo: "https://github.com/yyynnn/cherry-wild-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=yyynnn.cherry-wild-theme"
+  formats:
+    sublime: "https://raw.githubusercontent.com/yyynnn/cherry-wild-vscode/master/themes/ref.tmTheme"
 colors:
   bg: "#2B1F32"
   fg: "#FFFFFF"

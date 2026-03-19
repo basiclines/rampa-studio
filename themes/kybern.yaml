@@ -1,4 +1,4 @@
-name: "Kybern"
+name: "kybern"
 source:
   marketplace_id: "EnzoMourany.kybern"
   version: "0.1.0"
@@ -8,6 +8,7 @@ source:
   author: "Enzo Mourany"
   repo: "https://github.com/enzo-mourany/kybern-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=EnzoMourany.kybern"
+  formats: null
 colors:
   bg: "#0B0E14"
   fg: "#FFFFFF"

@@ -8,6 +8,7 @@ source:
   author: "Pieersx"
   repo: "https://github.com/pieersx/onedarker-pro"
   url: "https://marketplace.visualstudio.com/items?itemName=pieersx.onedarker-pro"
+  formats: null
 colors:
   bg: "#181818"
   fg: "#ABB2BF"
@@ -31,7 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
-  pair: null
+  pair: "One Light Pro"
   contrast:
     fg: 59.3
     black: 8.7

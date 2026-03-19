@@ -3,9 +3,14 @@ source:
   marketplace_id: "LifeBusinessBuilders.lbb-vsc-theme"
   version: "1.1.4"
   installs: 12
+  rating: 0
+  ratings: 0
   author: "LifeBusiness Builders"
   repo: "https://github.com/LifeBusinessBuilders/lbb-vsc-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=LifeBusinessBuilders.lbb-vsc-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/LifeBusinessBuilders/lbb-vsc-theme/main/extras/iterm2/LBB Builder Dark.itermcolors"
+    windows-terminal: "https://raw.githubusercontent.com/LifeBusinessBuilders/lbb-vsc-theme/main/extras/windows-terminal/schemes.json"
 colors:
   bg: "#F7F8FC"
   fg: "#2B2D33"

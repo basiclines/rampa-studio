@@ -1,4 +1,4 @@
-name: "Flex Appeal"
+name: "flex appeal"
 source:
   marketplace_id: "lotterleben.flex-appeal"
   version: "0.0.1"
@@ -8,6 +8,8 @@ source:
   author: "lotterleben"
   repo: "https://github.com/Lotterleben/flex-appeal"
   url: "https://marketplace.visualstudio.com/items?itemName=lotterleben.flex-appeal"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/Lotterleben/flex-appeal/master/synthwave-x-fluoromachine.itermcolors"
 colors:
   bg: "#262335"
   fg: "#FFFFFF"

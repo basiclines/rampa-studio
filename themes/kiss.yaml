@@ -8,6 +8,9 @@ source:
   author: "rileytwo"
   repo: "https://github.com/rileytwo/kiss"
   url: "https://marketplace.visualstudio.com/items?itemName=rileytwo.kiss"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/rileytwo/kiss/main/iterm2/kiss.itermcolors"
+    sublime: "https://raw.githubusercontent.com/rileytwo/kiss/main/textmate/kiss.tmTheme"
 colors:
   bg: "#181818"
   fg: "#FCFCFC"

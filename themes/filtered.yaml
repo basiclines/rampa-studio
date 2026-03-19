@@ -8,6 +8,8 @@ source:
   author: "Katie Walker"
   repo: "https://github.com/Kat-Codes/filtered-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=katcodes.filtered"
+  formats:
+    sublime: "https://raw.githubusercontent.com/Kat-Codes/filtered-vscode/develop/themes/filtered.tmTheme"
 colors:
   bg: "#0D2B36"
   fg: "#F8F8F2"

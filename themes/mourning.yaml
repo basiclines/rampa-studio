@@ -1,4 +1,4 @@
-name: "Mourning"
+name: "mourning"
 source:
   marketplace_id: "zakj.mourning"
   version: "0.0.5"
@@ -8,6 +8,7 @@ source:
   author: "zakj"
   repo: "https://github.com/zakj/vscode-mourning"
   url: "https://marketplace.visualstudio.com/items?itemName=zakj.mourning"
+  formats: null
 colors:
   bg: "#1C1C1C"
   fg: "#8A8A8A"

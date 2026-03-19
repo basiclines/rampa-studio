@@ -8,6 +8,8 @@ source:
   author: "Cody Loyd"
   repo: "https://github.com/codyloyd/bellair-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=codyloyd.bellair-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/codyloyd/bellair-theme/master/bellair.itermcolors"
 colors:
   bg: "#0E0F18"
   fg: "#DEE6EE"

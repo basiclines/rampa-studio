@@ -8,6 +8,8 @@ source:
   author: "henderjon"
   repo: "https://github.com/henderjon/monokai22"
   url: "https://marketplace.visualstudio.com/items?itemName=henderjon.monokai22"
+  formats:
+    sublime: "https://raw.githubusercontent.com/henderjon/monokai22/dev/archives/monokai-no-italic.tmTheme"
 colors:
   bg: "#1E1E1E"
   fg: "#F8F8F2"

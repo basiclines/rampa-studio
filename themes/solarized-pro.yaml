@@ -2,12 +2,14 @@ name: "Solarized Pro"
 source:
   marketplace_id: "IIInsomnia.solarized-pro"
   version: "1.0.13"
-  installs: 1347
+  installs: 1348
   rating: 5
   ratings: 2
   author: "noble-gase"
   repo: "https://github.com/noble-gase/ng"
   url: "https://marketplace.visualstudio.com/items?itemName=IIInsomnia.solarized-pro"
+  formats:
+    zed: "https://raw.githubusercontent.com/noble-gase/ng/main/themes/solarized-pro-color-theme.json"
 colors:
   bg: "#002B36"
   fg: "#839496"

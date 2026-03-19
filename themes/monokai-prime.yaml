@@ -1,4 +1,4 @@
-name: "monokai-prime"
+name: "Monokai Prime"
 source:
   marketplace_id: "nhoekstra.monokai-prime"
   version: "0.0.2"
@@ -8,6 +8,7 @@ source:
   author: "Nicholas Hoekstra"
   repo: "https://github.com/nhoekstra/monokai-prime"
   url: "https://marketplace.visualstudio.com/items?itemName=nhoekstra.monokai-prime"
+  formats: null
 colors:
   bg: "#1E1E1E"
   fg: "#F8F8F2"

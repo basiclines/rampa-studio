@@ -1,11 +1,14 @@
-name: "Fruity Loops"
+name: "fruity-loops"
 source:
   marketplace_id: "virk.fruity-loops"
   version: "0.0.3"
   installs: 89
+  rating: 0
+  ratings: 0
   author: "Harminder Virk"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=virk.fruity-loops"
+  formats: null
 colors:
   bg: "#10181E"
   fg: "#CDD6F4"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 241
+  pair: null
   contrast:
     fg: 81
     black: 57.2

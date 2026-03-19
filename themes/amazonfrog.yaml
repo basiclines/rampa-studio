@@ -1,4 +1,4 @@
-name: "AmazonFrog"
+name: "amazonFrog"
 source:
   marketplace_id: "TiagoMarcial.AmazonFrog"
   version: "0.1.8"
@@ -8,6 +8,7 @@ source:
   author: "Tiago Marcial"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=TiagoMarcial.AmazonFrog"
+  formats: null
 colors:
   bg: "#011627"
   fg: "#FFFFFF"

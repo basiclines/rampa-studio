@@ -1,4 +1,4 @@
-name: "Pall Theme"
+name: "Pall-Theme"
 source:
   marketplace_id: "Goek.pall"
   version: "0.0.5"
@@ -8,6 +8,7 @@ source:
   author: "Goek"
   repo: "https://github.com/aligoek/Pall-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Goek.pall"
+  formats: null
 colors:
   bg: "#EBEEF5"
   fg: "#292B4F"

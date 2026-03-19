@@ -1,50 +1,53 @@
-name: "Konng"
+name: "KONNG"
 source:
-  marketplace_id: "dockerissoslow.konngPublishTest"
-  version: "2.0.2"
-  installs: 351
-  author: "dockerissoslow"
-  repo: "https://github.com/fengwei2002/vscode-theme-KONNG"
-  url: "https://marketplace.visualstudio.com/items?itemName=dockerissoslow.konngPublishTest"
+  marketplace_id: "OvO.konng"
+  version: "5.0.0"
+  installs: 1352
+  rating: 5
+  ratings: 3
+  author: "fengwei2002"
+  repo: "https://github.com/funcdfs/vscode-theme-lesser"
+  url: "https://marketplace.visualstudio.com/items?itemName=OvO.konng"
+  formats: null
 colors:
-  bg: "#1C1E26"
+  bg: "#211D25"
   fg: "#ABB2BF"
-  black: "#544F4F"
-  red: "#E15A60"
-  green: "#42B983"
-  yellow: "#FAC863"
-  blue: "#406285"
-  magenta: "#C594C5"
-  cyan: "#DD1EDD"
-  white: "#B4B4B4"
-  brightBlack: "#544F4F"
-  brightRed: "#E15A60"
-  brightGreen: "#1F593F"
-  brightYellow: "#FAC863"
-  brightBlue: "#406285"
-  brightMagenta: "#C594C5"
-  brightCyan: "#9E2494"
-  brightWhite: "#B4B4B4"
+  black: "#2A2530"
+  red: "#FF8080"
+  green: "#7DD3C0"
+  yellow: "#FFF2B3"
+  blue: "#6A9BE8"
+  magenta: "#AFB6FF"
+  cyan: "#80FFB5"
+  white: "#BDC3CF"
+  brightBlack: "#636D83"
+  brightRed: "#FF8080"
+  brightGreen: "#7DD3C0"
+  brightYellow: "#FFF2B3"
+  brightBlue: "#6A9BE8"
+  brightMagenta: "#AFB6FF"
+  brightCyan: "#80FFB5"
+  brightWhite: "#EEEEEE"
 meta:
   mode: "dark"
-  accent: "pink"
-  hue: 274
+  accent: "orange"
+  hue: 308
   pair: null
   contrast:
     fg: 58.5
-    black: 12.4
-    red: 37
-    green: 51.9
-    yellow: 75.9
-    blue: 18.5
-    magenta: 51.2
-    cyan: 34.8
-    white: 59.9
-    brightBlack: 12.4
-    brightRed: 37
-    brightGreen: 12.1
-    brightYellow: 75.9
-    brightBlue: 18.5
-    brightMagenta: 51.2
-    brightCyan: 18.2
-    brightWhite: 59.9
+    black: 0
+    red: 52.8
+    green: 68.8
+    yellow: 96.9
+    blue: 46
+    magenta: 64
+    cyan: 90.3
+    white: 68.2
+    brightBlack: 24.1
+    brightRed: 52.8
+    brightGreen: 68.8
+    brightYellow: 96.9
+    brightBlue: 46
+    brightMagenta: 64
+    brightCyan: 90.3
+    brightWhite: 94.8

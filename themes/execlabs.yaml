@@ -2,12 +2,13 @@ name: "ExecLabs"
 source:
   marketplace_id: "ExecLabs.execlabs"
   version: "0.0.3"
-  installs: 1511
+  installs: 1515
   rating: 5
   ratings: 2
   author: "ExecLabs"
   repo: "https://github.com/mkuchak/execlabs-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ExecLabs.execlabs"
+  formats: null
 colors:
   bg: "#000213"
   fg: "#858494"

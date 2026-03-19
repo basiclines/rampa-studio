@@ -1,4 +1,4 @@
-name: "Ember"
+name: "ember"
 source:
   marketplace_id: "jgibson.ember-color-theme"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "jgibson"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=jgibson.ember-color-theme"
+  formats: null
 colors:
   bg: "#1F1F1F"
   fg: "#D9D9D9"

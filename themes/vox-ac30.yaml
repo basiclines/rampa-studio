@@ -3,9 +3,12 @@ source:
   marketplace_id: "sainomeS.vox-ac30-theme"
   version: "0.0.2"
   installs: 32
+  rating: 0
+  ratings: 0
   author: "sainomeS"
   repo: "https://github.com/sainomeS/vox-ac30-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=sainomeS.vox-ac30-theme"
+  formats: null
 colors:
   bg: "#4D3129"
   fg: "#D4D4D4"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 37
+  pair: null
   contrast:
     fg: 73.1
     black: 0

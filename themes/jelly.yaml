@@ -1,52 +1,53 @@
 name: "jelly"
 source:
-  marketplace_id: "kylethebaker.jelly-theme"
-  version: "0.0.4"
-  installs: 21823
-  rating: 0
-  ratings: 0
-  author: "kylethebaker"
-  repo: "https://github.com/kylethebaker/jelly-theme-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=kylethebaker.jelly-theme"
+  marketplace_id: "NemanjaManojlovic.jelly"
+  version: "0.0.5"
+  installs: 20221
+  rating: 5
+  ratings: 3
+  author: "Nemanja Manojlovic"
+  repo: "https://github.com/Manojlovic1998/vscode-jelly-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=NemanjaManojlovic.jelly"
+  formats: null
 colors:
-  bg: "#0A0B12"
-  fg: "#C5C8C6"
-  black: "#1C1C1C"
-  red: "#B85335"
-  green: "#799D6A"
-  yellow: "#FFB964"
-  blue: "#667899"
-  magenta: "#8787AF"
-  cyan: "#668799"
-  white: "#546B88"
-  brightBlack: "#3D3A53"
-  brightRed: "#CF6A4C"
-  brightGreen: "#99AD6A"
-  brightYellow: "#FAD07A"
-  brightBlue: "#8197BF"
-  brightMagenta: "#C6B6EE"
-  brightCyan: "#8FBFDC"
-  brightWhite: "#E8E8D3"
+  bg: "#18181B"
+  fg: "#FAFAFA"
+  black: "#0A0A0A"
+  red: "#E11D48"
+  green: "#16A34A"
+  yellow: "#FBBF24"
+  blue: "#2563EB"
+  magenta: "#C026D3"
+  cyan: "#0891B2"
+  white: "#F5F5F5"
+  brightBlack: "#737373"
+  brightRed: "#FB7185"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FDE68A"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#E879F9"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FAFAFA"
 meta:
   mode: "dark"
-  accent: "orange"
-  hue: 278
+  accent: "pink"
+  hue: null
   pair: null
   contrast:
-    fg: 72.6
+    fg: 103.4
     black: 0
-    red: 28.4
-    green: 44
-    yellow: 72.5
-    blue: 30.6
-    magenta: 39.6
-    cyan: 35.7
-    white: 24.3
-    brightBlack: 0
-    brightRed: 38.3
-    brightGreen: 53.5
-    brightYellow: 81.3
-    brightBlue: 45.6
-    brightMagenta: 67.4
-    brightCyan: 64.2
-    brightWhite: 91.8
+    red: 30
+    green: 40.8
+    yellow: 72.6
+    blue: 25.7
+    magenta: 29.5
+    cyan: 36.7
+    white: 100.2
+    brightBlack: 27.6
+    brightRed: 49.1
+    brightGreen: 70.3
+    brightYellow: 90.7
+    brightBlue: 51.2
+    brightMagenta: 53
+    brightCyan: 68.5
+    brightWhite: 103.4

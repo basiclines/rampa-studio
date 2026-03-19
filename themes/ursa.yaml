@@ -1,4 +1,4 @@
-name: "ursa"
+name: "Ursa"
 source:
   marketplace_id: "ursanor.ursa"
   version: "0.0.2"
@@ -8,6 +8,7 @@ source:
   author: "ursanor"
   repo: "https://github.com/OnurUrsar/ursa-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=ursanor.ursa"
+  formats: null
 colors:
   bg: "#1F1E13"
   fg: "#EAEAEA"

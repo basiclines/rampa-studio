@@ -1,11 +1,14 @@
-name: "ftrblue."
+name: "ftrblue"
 source:
   marketplace_id: "FSharaf.ftrblue"
   version: "1.0.4"
   installs: 22
+  rating: 5
+  ratings: 1
   author: "Sharaf Feyzullayev"
   repo: "https://github.com/FSharafff/vsctheme"
   url: "https://marketplace.visualstudio.com/items?itemName=FSharaf.ftrblue"
+  formats: null
 colors:
   bg: "#0C0E15"
   fg: "#2D72CB"

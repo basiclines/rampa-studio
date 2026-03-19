@@ -8,6 +8,8 @@ source:
   author: "VheissuLabs"
   repo: "https://github.com/VheissuLabs/artisan-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=VheissuLabs.artisan-theme"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/VheissuLabs/artisan-theme/main/ghostty/artisan"
 colors:
   bg: "#F3F3F3"
   fg: "#171717"

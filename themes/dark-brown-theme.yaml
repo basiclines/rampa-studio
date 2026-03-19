@@ -1,52 +1,53 @@
 name: "Dark Brown Theme"
 source:
-  marketplace_id: "ceciljacob.overcast-code-theme"
-  version: "1.1.0"
-  installs: 768
+  marketplace_id: "blono.dark-brown"
+  version: "0.0.1"
+  installs: 4048
   rating: 5
   ratings: 1
-  author: "Cecil Jacob"
-  repo: "https://github.com/ceciljacob/overcast-code-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=ceciljacob.overcast-code-theme"
+  author: "blono"
+  repo: "https://github.com/blono/vscode-theme-dark-brown"
+  url: "https://marketplace.visualstudio.com/items?itemName=blono.dark-brown"
+  formats: null
 colors:
-  bg: "#180F08"
-  fg: "#FCFAF6"
-  black: "#020202"
-  red: "#C45E04"
-  green: "#80A28E"
-  yellow: "#F4DB60"
-  blue: "#76ABDC"
-  magenta: "#B68DB2"
-  cyan: "#56B8C8"
-  white: "#EFEFEF"
-  brightBlack: "#424242"
-  brightRed: "#C45E04"
-  brightGreen: "#80A28E"
-  brightYellow: "#F4DB60"
-  brightBlue: "#76ABDC"
-  brightMagenta: "#B68DB2"
-  brightCyan: "#56B8C8"
-  brightWhite: "#FEFEFE"
+  bg: "#202020"
+  fg: "#DDDDDD"
+  black: "#1B1B1B"
+  red: "#EE6767"
+  green: "#9A4D24"
+  yellow: "#C49B3D"
+  blue: "#E8B77B"
+  magenta: "#9A4D24"
+  cyan: "#E8B77B"
+  white: "#C0C0C0"
+  brightBlack: "#2D2D2D"
+  brightRed: "#F694FF"
+  brightGreen: "#9A4D24"
+  brightYellow: "#C49B3D"
+  brightBlue: "#E8B77B"
+  brightMagenta: "#9A4D24"
+  brightCyan: "#E8B77B"
+  brightWhite: "#DDDDDD"
 meta:
   mode: "dark"
-  accent: "yellow"
-  hue: 59
+  accent: "pink"
+  hue: null
   pair: null
   contrast:
-    fg: 104.1
+    fg: 83.9
     black: 0
-    red: 32.5
-    green: 47.3
-    yellow: 84.3
-    blue: 53.7
-    magenta: 47.1
-    cyan: 56.2
-    white: 96.9
-    brightBlack: 8.6
-    brightRed: 32.5
-    brightGreen: 47.3
-    brightYellow: 84.3
-    brightBlue: 53.7
-    brightMagenta: 47.1
-    brightCyan: 56.2
-    brightWhite: 106.7
+    red: 42.3
+    green: 19.9
+    yellow: 49.3
+    blue: 66.4
+    magenta: 19.9
+    cyan: 66.4
+    white: 66.5
+    brightBlack: 0
+    brightRed: 62.3
+    brightGreen: 19.9
+    brightYellow: 49.3
+    brightBlue: 66.4
+    brightMagenta: 19.9
+    brightCyan: 66.4
+    brightWhite: 83.9

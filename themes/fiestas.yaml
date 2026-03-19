@@ -1,4 +1,4 @@
-name: "Fiestas"
+name: "fiestas"
 source:
   marketplace_id: "AdrielZarate.fiestas-vscode"
   version: "0.2.0"
@@ -8,6 +8,7 @@ source:
   author: "Adriel Zarate"
   repo: "https://github.com/adrielzarate/fiestas-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AdrielZarate.fiestas-vscode"
+  formats: null
 colors:
   bg: "#141D15"
   fg: "#FFFFFF"

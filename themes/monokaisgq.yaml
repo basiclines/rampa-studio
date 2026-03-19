@@ -8,6 +8,8 @@ source:
   author: "marketideas"
   repo: "https://github.com/marketideas/MonokaiSGQ"
   url: "https://marketplace.visualstudio.com/items?itemName=marketideas.monokaisgq"
+  formats:
+    sublime: "https://raw.githubusercontent.com/marketideas/MonokaiSGQ/main/themes/Monokai-SGQ.tmTheme"
 colors:
   bg: "#000000"
   fg: "#00FFFF"

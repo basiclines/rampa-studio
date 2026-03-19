@@ -1,13 +1,14 @@
 name: "Dark Forest"
 source:
-  marketplace_id: "JavierdeMarco.dark-forest-vsc"
-  version: "0.0.2"
-  installs: 412
+  marketplace_id: "JavierdeMarco.darkforest"
+  version: "0.0.1"
+  installs: 79
   rating: 0
   ratings: 0
   author: "Javier de Marco"
   repo: "https://github.com/javierdemarco/dark-forest-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=JavierdeMarco.dark-forest-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=JavierdeMarco.darkforest"
+  formats: null
 colors:
   bg: "#20282F"
   fg: "#C5CDD9"

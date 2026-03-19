@@ -8,6 +8,8 @@ source:
   author: "PRUFT"
   repo: "https://github.com/microsoft/vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=PRUFT.theme-black"
+  formats:
+    zed: "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/theme-solarized-dark/themes/solarized-dark-color-theme.json"
 colors:
   bg: "#171717"
   fg: "#FFFFFF"

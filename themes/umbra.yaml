@@ -1,13 +1,14 @@
-name: "umbra"
+name: "Umbra"
 source:
   marketplace_id: "greven.umbra"
   version: "1.4.10"
-  installs: 17302
+  installs: 17308
   rating: 4.5
   ratings: 4
   author: "greven"
   repo: "https://github.com/greven/umbra-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=greven.umbra"
+  formats: null
 colors:
   bg: "#141414"
   fg: "#CCCCCC"

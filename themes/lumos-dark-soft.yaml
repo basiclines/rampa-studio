@@ -8,6 +8,7 @@ source:
   author: "nyxb"
   repo: "https://github.com/nyxb/vscode-theme-lumos"
   url: "https://marketplace.visualstudio.com/items?itemName=nyxb.theme-lumos"
+  formats: null
 colors:
   bg: "#222222"
   fg: "#DBD7CA"
@@ -31,7 +32,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: null
-  pair: "Lumos Light Soft"
+  pair: null
   contrast:
     fg: 79.9
     black: 0

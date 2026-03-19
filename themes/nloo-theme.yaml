@@ -1,4 +1,4 @@
-name: "nloo-Theme"
+name: "nloo-theme"
 source:
   marketplace_id: "nloo.nlootheme"
   version: "0.0.4"
@@ -8,6 +8,7 @@ source:
   author: "nloo"
   repo: "https://github.com/n-loo/nielstheme"
   url: "https://marketplace.visualstudio.com/items?itemName=nloo.nlootheme"
+  formats: null
 colors:
   bg: "#3B3947"
   fg: "#EFEEE3"

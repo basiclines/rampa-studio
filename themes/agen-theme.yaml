@@ -8,6 +8,8 @@ source:
   author: "Maxx Borer"
   repo: "https://github.com/maxxborer/agen-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=maxxborer.agen-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/maxxborer/agen-theme/main/iterm.agen-theme/agen-theme.itermcolors"
 colors:
   bg: "#161619"
   fg: "#EFEEEE"

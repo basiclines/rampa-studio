@@ -1,4 +1,4 @@
-name: "Hybrid Dim"
+name: "Hybrid dim"
 source:
   marketplace_id: "meronz.hybrid-dim"
   version: "0.0.3"
@@ -8,6 +8,7 @@ source:
   author: "meronz"
   repo: "https://github.com/meronz/hybrid-dim"
   url: "https://marketplace.visualstudio.com/items?itemName=meronz.hybrid-dim"
+  formats: null
 colors:
   bg: "#1D1F21"
   fg: "#C5C8C6"

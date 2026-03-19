@@ -8,6 +8,8 @@ source:
   author: "xivilay"
   repo: "https://github.com/xivilay/vs-code-themes"
   url: "https://marketplace.visualstudio.com/items?itemName=xivilay.simplified-themes-mods-pack"
+  formats:
+    zed: "https://raw.githubusercontent.com/xivilay/vs-code-themes/main/themes/solarized_light.json"
 colors:
   bg: "#263035"
   fg: "#C5C8C6"

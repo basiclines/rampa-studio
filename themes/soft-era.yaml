@@ -2,12 +2,14 @@ name: "soft era"
 source:
   marketplace_id: "soft-aesthetic.soft-era-theme"
   version: "1.0.3"
-  installs: 37416
+  installs: 37422
   rating: 4.4
   ratings: 5
   author: "soft aesthetic"
   repo: "https://github.com/soft-aesthetic/soft-era-vs-code"
   url: "https://marketplace.visualstudio.com/items?itemName=soft-aesthetic.soft-era-theme"
+  formats:
+    sublime: "https://raw.githubusercontent.com/soft-aesthetic/soft-era-vs-code/master/themes/soft-era-test-1.tmTheme"
 colors:
   bg: "#F9F5F5"
   fg: "#C29BA3"

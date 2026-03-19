@@ -8,6 +8,8 @@ source:
   author: "Marvellinus Vincent"
   repo: "https://github.com/MarvellinusVincent/Arctic-Depth"
   url: "https://marketplace.visualstudio.com/items?itemName=MarvellinusVincent.arctic-depth"
+  formats:
+    zed: "https://raw.githubusercontent.com/MarvellinusVincent/Arctic-Depth/main/themes/arctic-depth-color-theme-zed.json"
 colors:
   bg: "#171A22"
   fg: "#78BAE7"

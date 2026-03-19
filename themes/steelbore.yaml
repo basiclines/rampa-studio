@@ -8,6 +8,15 @@ source:
   author: "SteelBore"
   repo: "https://github.com/UnbreakableMJ/Steelbore"
   url: "https://marketplace.visualstudio.com/items?itemName=SteelBore.steelbore"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/UnbreakableMJ/Steelbore/main/Theme/Terminals/Ghostty/INSTALL.md"
+    iterm2: "https://raw.githubusercontent.com/UnbreakableMJ/Steelbore/main/Theme/Terminals/iTerm2/Steelbore.itermcolors"
+    alacritty: "https://raw.githubusercontent.com/UnbreakableMJ/Steelbore/main/Theme/Terminals/Alacritty/steelbore.toml"
+    kitty: "https://raw.githubusercontent.com/UnbreakableMJ/Steelbore/main/Theme/Terminals/Kitty/steelbore.conf"
+    windows-terminal: "https://raw.githubusercontent.com/UnbreakableMJ/Steelbore/main/Theme/Terminals/Windows_Terminal/settings.json"
+    warp: "https://raw.githubusercontent.com/UnbreakableMJ/Steelbore/main/Theme/Terminals/Warp/steelbore.yaml"
+    android-studio: "https://raw.githubusercontent.com/UnbreakableMJ/Steelbore/main/Theme/Editors/JetBrains/Steelbore.icls"
+    zed: "https://raw.githubusercontent.com/UnbreakableMJ/Steelbore/main/Theme/Editors/Zed/steelbore.json"
 colors:
   bg: "#000027"
   fg: "#D98E32"

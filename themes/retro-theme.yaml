@@ -1,49 +1,53 @@
-name: "retro theme"
+name: "Retro Theme"
 source:
-  marketplace_id: "mssxmt.vintage-story-theme"
-  version: "0.1.2"
-  installs: 10
-  author: "mssxmt"
-  repo: "https://github.com/mssxmt/vintage-story-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=mssxmt.vintage-story-theme"
+  marketplace_id: "RylanReese.retro-theme"
+  version: "0.4.0"
+  installs: 1571
+  rating: 5
+  ratings: 2
+  author: "Rylan Reese"
+  repo: "https://github.com/RAC11/retro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RylanReese.retro-theme"
+  formats: null
 colors:
-  bg: "#0C5071"
-  fg: "#D4D4D4"
+  bg: "#1C1D46"
+  fg: "#FFFFFF"
   black: "#000000"
   red: "#CD3131"
   green: "#0DBC79"
-  yellow: "#E5E510"
+  yellow: "#FFFF1B"
   blue: "#2472C8"
   magenta: "#BC3FBC"
-  cyan: "#00CDFF"
-  white: "#E5E5E5"
+  cyan: "#11A8CD"
+  white: "#D7D7D7"
   brightBlack: "#666666"
   brightRed: "#F14C4C"
   brightGreen: "#23D18B"
   brightYellow: "#F5F543"
-  brightBlue: "#1383FF"
+  brightBlue: "#3B8EEA"
   brightMagenta: "#D670D6"
   brightCyan: "#29B8DB"
   brightWhite: "#E5E5E5"
 meta:
   mode: "dark"
   accent: "pink"
-  hue: 236
+  hue: 279
+  pair: null
   contrast:
-    fg: 66.7
-    black: 14.4
-    red: 13.9
-    green: 40.2
-    yellow: 72.8
-    blue: 14.6
-    magenta: 17
-    cyan: 53.9
-    white: 77.2
-    brightBlack: 9.2
-    brightRed: 25.8
-    brightGreen: 50.7
-    brightYellow: 82.8
-    brightBlue: 24.3
-    brightMagenta: 32.6
-    brightCyan: 42.6
-    brightWhite: 77.2
+    fg: 105.4
+    black: 0
+    red: 25.2
+    green: 51.5
+    yellow: 100.2
+    blue: 25.9
+    magenta: 28.3
+    cyan: 46.1
+    white: 79.8
+    brightBlack: 20.6
+    brightRed: 37.1
+    brightGreen: 62
+    brightYellow: 94.1
+    brightBlue: 38.5
+    brightMagenta: 43.9
+    brightCyan: 53.9
+    brightWhite: 88.5

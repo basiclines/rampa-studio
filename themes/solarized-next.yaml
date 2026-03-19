@@ -1,4 +1,4 @@
-name: "Solarized Next"
+name: "Solarized Next+"
 source:
   marketplace_id: "Gipphe.solarized-next-plus"
   version: "2.1.4"
@@ -8,6 +8,8 @@ source:
   author: "Gipphe"
   repo: "https://github.com/Gipphe/solarized-next"
   url: "https://marketplace.visualstudio.com/items?itemName=Gipphe.solarized-next-plus"
+  formats:
+    zed: "https://raw.githubusercontent.com/Gipphe/solarized-next/master/themes/Solarized Next-color-theme.json"
 colors:
   bg: "#002B36"
   fg: "#839496"

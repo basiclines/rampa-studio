@@ -1,11 +1,14 @@
-name: "Infinity Night Theme"
+name: "Infinity Night theme"
 source:
   marketplace_id: "AmmarDev.Infinity-night-theme"
   version: "1.0.1"
   installs: 107
+  rating: 0
+  ratings: 0
   author: "Ammar Dev"
   repo: "https://github.com/ammardevz/Infinity-Night-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=AmmarDev.Infinity-night-theme"
+  formats: null
 colors:
   bg: "#1D252C"
   fg: "#D4D4D4"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 245
+  pair: null
   contrast:
     fg: 77.7
     black: 0

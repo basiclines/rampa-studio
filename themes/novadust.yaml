@@ -2,12 +2,13 @@ name: "NOVADUST"
 source:
   marketplace_id: "novadust.novadust"
   version: "0.0.3"
-  installs: 960
+  installs: 961
   rating: 5
   ratings: 3
   author: "NOVADUST"
   repo: "https://github.com/mmartamg/novadust-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=novadust.novadust"
+  formats: null
 colors:
   bg: "#1D2833"
   fg: "#CFD1D1"

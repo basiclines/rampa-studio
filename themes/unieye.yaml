@@ -8,6 +8,8 @@ source:
   author: "hb"
   repo: "https://github.com/hbthen3rd/unieye-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=hbthen3rd.unieye"
+  formats:
+    sublime: "https://raw.githubusercontent.com/hbthen3rd/unieye-vscode/master/themes/UniEye.tmTheme"
 colors:
   bg: "#0B0A10"
   fg: "#CAC3DF"

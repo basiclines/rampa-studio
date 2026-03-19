@@ -3,9 +3,12 @@ source:
   marketplace_id: "Consolvis.consolvis-vscode-theme"
   version: "1.0.1"
   installs: 222
+  rating: 0
+  ratings: 0
   author: "Consolvis"
   repo: "https://github.com/Consolvis/consolvis-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Consolvis.consolvis-vscode-theme"
+  formats: null
 colors:
   bg: "#111827"
   fg: "#9CA3AF"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "purple"
   hue: 265
+  pair: null
   contrast:
     fg: 51
     black: 0

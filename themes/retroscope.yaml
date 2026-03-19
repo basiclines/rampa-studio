@@ -1,4 +1,4 @@
-name: "Retroscope"
+name: "retroscope"
 source:
   marketplace_id: "dvsu.retroscope"
   version: "0.2.4"
@@ -8,6 +8,7 @@ source:
   author: "David Su"
   repo: "https://github.com/dvsu/retroscope"
   url: "https://marketplace.visualstudio.com/items?itemName=dvsu.retroscope"
+  formats: null
 colors:
   bg: "#1D1B19"
   fg: "#C9B19F"

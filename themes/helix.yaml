@@ -1,13 +1,14 @@
-name: "Helix+"
+name: "Helix"
 source:
   marketplace_id: "codewonders.helix"
   version: "0.1.0"
-  installs: 3406
+  installs: 3407
   rating: 5
   ratings: 1
   author: "Adenekan Wonderful"
   repo: "git+https://github.com/adenekan41/Helix"
   url: "https://marketplace.visualstudio.com/items?itemName=codewonders.helix"
+  formats: null
 colors:
   bg: "#1A1B2F"
   fg: "#D6DEEB"

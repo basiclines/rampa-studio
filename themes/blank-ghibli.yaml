@@ -8,6 +8,8 @@ source:
   author: "kiritocode1"
   repo: "https://github.com/kiritocode1/Blank-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=kiritocode1.blank-theme"
+  formats:
+    nvim: "https://raw.githubusercontent.com/kiritocode1/Blank-Theme/main/neovim/Blank-Ghibli.lua"
 colors:
   bg: "#000000"
   fg: "#868690"

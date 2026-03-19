@@ -8,6 +8,9 @@ source:
   author: "Hydralite"
   repo: "https://github.com/hydralite/skyline"
   url: "https://marketplace.visualstudio.com/items?itemName=hydralite.hydralite-skyline"
+  formats:
+    android-studio: "https://raw.githubusercontent.com/hydralite/skyline/master/intellij/skyline.icls"
+    sublime: "https://raw.githubusercontent.com/hydralite/skyline/master/themes/skyline.tmTheme"
 colors:
   bg: "#1C1E26"
   fg: "#FFFFFF"

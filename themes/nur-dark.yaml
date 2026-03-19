@@ -8,6 +8,9 @@ source:
   author: "Michele Fenu"
   repo: "https://github.com/michelefenu/nur"
   url: "https://marketplace.visualstudio.com/items?itemName=michelefenu.nur-theme-vscode"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/michelefenu/nur/main/ghostty/LICENSE"
+    iterm2: "https://raw.githubusercontent.com/michelefenu/nur/main/iterm2/themes/nur-iterm2-dark.itermcolors"
 colors:
   bg: "#23272B"
   fg: "#E2DBC4"

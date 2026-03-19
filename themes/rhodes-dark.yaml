@@ -8,6 +8,8 @@ source:
   author: "gaebalgom"
   repo: "https://github.com/dodok8/rhodes-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=gaebalgom.rhodes"
+  formats:
+    zed: "https://raw.githubusercontent.com/dodok8/rhodes-theme/master/zed/rhodes.json"
 colors:
   bg: "#1A1A1A"
   fg: "#FDFDFD"

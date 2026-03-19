@@ -1,4 +1,4 @@
-name: "Dalton"
+name: "dalton"
 source:
   marketplace_id: "edersonferreira.dalton"
   version: "1.0.1"
@@ -8,6 +8,7 @@ source:
   author: "ederson ferreira"
   repo: "https://github.com/edersonferreira/dalton-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=edersonferreira.dalton"
+  formats: null
 colors:
   bg: "#0C0A0F"
   fg: "#FFFFFF"

@@ -1,4 +1,4 @@
-name: "Drifter"
+name: "drifter"
 source:
   marketplace_id: "dhruvkoli.drifter"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "DhruvKoli"
   repo: "https://github.com/dask-58/turbocodertheme"
   url: "https://marketplace.visualstudio.com/items?itemName=dhruvkoli.drifter"
+  formats: null
 colors:
   bg: "#260D22"
   fg: "#FFFFFF"

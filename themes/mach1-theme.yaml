@@ -1,4 +1,4 @@
-name: "Mach1 Theme"
+name: "MACH1 Theme"
 source:
   marketplace_id: "mach1-theme-color.mach1-theme-color"
   version: "1.0.3"
@@ -8,6 +8,7 @@ source:
   author: "MACH1-Theme"
   repo: "https://github.com/agnos-goncalves/mach1-theme-color-vscode"
   url: "https://marketplace.visualstudio.com/items?itemName=mach1-theme-color.mach1-theme-color"
+  formats: null
 colors:
   bg: "#090E3A"
   fg: "#D4D4D4"

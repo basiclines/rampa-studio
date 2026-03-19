@@ -1,4 +1,4 @@
-name: "velvet-chrome"
+name: "Velvet Chrome"
 source:
   marketplace_id: "willduque.velvet-chrome-theme"
   version: "0.0.3"
@@ -8,6 +8,7 @@ source:
   author: "Willian Duque"
   repo: "https://github.com/wduqu001/velvet-chrome-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=willduque.velvet-chrome-theme"
+  formats: null
 colors:
   bg: "#191919"
   fg: "#ECECEC"

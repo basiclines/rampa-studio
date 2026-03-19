@@ -8,6 +8,12 @@ source:
   author: "Felipe F Lima"
   repo: "https://github.com/felipefdl/warm-burnout"
   url: "https://marketplace.visualstudio.com/items?itemName=felip3fdl.warm-burnout"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/ghostty/AGENTS.md"
+    iterm2: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/iterm2/Warm Burnout Dark.itermcolors"
+    windows-terminal: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/windows-terminal/warm-burnout-dark.json"
+    xcode: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/xcode/Warm Burnout Dark.xccolortheme"
+    nvim: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/nvim/lua/warm-burnout/highlights.lua"
 colors:
   bg: "#F5EDE0"
   fg: "#3A3630"

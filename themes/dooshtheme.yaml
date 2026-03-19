@@ -1,4 +1,4 @@
-name: "DooshTheme"
+name: "dooshtheme"
 source:
   marketplace_id: "dooshii.dooshtheme"
   version: "0.0.1"
@@ -8,6 +8,8 @@ source:
   author: "dooshii"
   repo: "https://github.com/dooshiifox/dotfiles"
   url: "https://marketplace.visualstudio.com/items?itemName=dooshii.dooshtheme"
+  formats:
+    nvim: "https://raw.githubusercontent.com/dooshiifox/dotfiles/main/home-manager/programs/nvim/init.lua"
 colors:
   bg: "#282C34"
   fg: "#ABB2BF"

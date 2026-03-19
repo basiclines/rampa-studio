@@ -1,52 +1,53 @@
 name: "Monokai Flow"
 source:
-  marketplace_id: "MaheshSinghChouhan.monokai-mahesh"
-  version: "0.0.1"
-  installs: 229
-  rating: 0
-  ratings: 0
-  author: "Mahesh Singh Chouhan"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=MaheshSinghChouhan.monokai-mahesh"
+  marketplace_id: "ahmed-hadjou.monokai-flow"
+  version: "0.0.3"
+  installs: 2931
+  rating: 5
+  ratings: 3
+  author: "Ahmed Hadjou"
+  repo: "https://github.com/hidjou/vs-code-theme-monokai-flow"
+  url: "https://marketplace.visualstudio.com/items?itemName=ahmed-hadjou.monokai-flow"
+  formats: null
 colors:
   bg: "#171717"
-  fg: "#55B5B5"
-  black: "#333333"
-  red: "#C4265E"
-  green: "#14A333"
-  yellow: "#E6E62B"
-  blue: "#6A7EC8"
-  magenta: "#734DB9"
-  cyan: "#49CAE0"
-  white: "#E3E3DD"
-  brightBlack: "#666666"
-  brightRed: "#00FF00"
+  fg: "#F8F8F2"
+  black: "#272822"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#E2E22E"
+  blue: "#66D9EF"
+  magenta: "#AE81FF"
+  cyan: "#66D9EF"
+  white: "#F8F8F2"
+  brightBlack: "#75715E"
+  brightRed: "#F92672"
   brightGreen: "#A6E22E"
   brightYellow: "#E2E22E"
-  brightBlue: "#819AFF"
+  brightBlue: "#66D9EF"
   brightMagenta: "#AE81FF"
   brightCyan: "#66D9EF"
-  brightWhite: "#F8F8F2"
+  brightWhite: "#F9F8F5"
 meta:
   mode: "dark"
-  accent: "green"
+  accent: "red"
   hue: null
   pair: null
   contrast:
-    fg: 53.5
+    fg: 102
     black: 0
-    red: 24.6
-    green: 40.7
-    yellow: 86.3
-    blue: 34.6
-    magenta: 21.1
-    cyan: 64.5
-    white: 88.5
-    brightBlack: 22
-    brightRed: 85.5
+    red: 37.3
+    green: 77
+    yellow: 83.9
+    blue: 73.4
+    magenta: 46.5
+    cyan: 73.4
+    white: 102
+    brightBlack: 26.7
+    brightRed: 37.3
     brightGreen: 77
     brightYellow: 83.9
-    brightBlue: 49.9
+    brightBlue: 73.4
     brightMagenta: 46.5
     brightCyan: 73.4
-    brightWhite: 102
+    brightWhite: 102.2

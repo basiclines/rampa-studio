@@ -1,4 +1,4 @@
-name: "Clorest"
+name: "clorest"
 source:
   marketplace_id: "avysridhar.clorest"
   version: "0.0.3"
@@ -8,6 +8,7 @@ source:
   author: "Avinash Sridhar"
   repo: "https://github.com/dionysus98/clorest"
   url: "https://marketplace.visualstudio.com/items?itemName=avysridhar.clorest"
+  formats: null
 colors:
   bg: "#1E1E1E"
   fg: "#ADBAC7"

@@ -8,6 +8,8 @@ source:
   author: "Nevyk"
   repo: "https://github.com/nevyk/draculight"
   url: "https://marketplace.visualstudio.com/items?itemName=Nevyk.draculight"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/nevyk/draculight/main/themes/iterm/draculight.itermcolors"
 colors:
   bg: "#F7F7F6"
   fg: "#21253F"

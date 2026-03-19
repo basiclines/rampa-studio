@@ -1,11 +1,14 @@
-name: "Hot Stuff"
+name: "Hot-Stuff"
 source:
   marketplace_id: "HarshRastogi.harsh"
   version: "1.4.0"
   installs: 302
+  rating: 5
+  ratings: 1
   author: "Harsh Rastogi"
   repo: "https://github.com/theharshrastogi/Hot-Stuff-VSCODE-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=HarshRastogi.harsh"
+  formats: null
 colors:
   bg: "#131410"
   fg: "#CCCCCC"

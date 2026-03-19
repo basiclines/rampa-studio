@@ -1,4 +1,4 @@
-name: "vampurr"
+name: "Vampurr"
 source:
   marketplace_id: "Sajjad.vampurr"
   version: "1.2.0"
@@ -8,6 +8,8 @@ source:
   author: "Sajjad"
   repo: "https://github.com/sajadabedi/vampurr"
   url: "https://marketplace.visualstudio.com/items?itemName=Sajjad.vampurr"
+  formats:
+    sublime: "https://raw.githubusercontent.com/sajadabedi/vampurr/main/themes/Vampurr.tmTheme"
 colors:
   bg: "#21212C"
   fg: "#F8F8F2"

@@ -1,4 +1,4 @@
-name: "Invi"
+name: "invi"
 source:
   marketplace_id: "Siris.invi"
   version: "0.2.2"
@@ -8,6 +8,7 @@ source:
   author: "Siris"
   repo: "https://github.com/Siris01/invi-vsc-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Siris.invi"
+  formats: null
 colors:
   bg: "#1A1B26"
   fg: "#A9B1D6"

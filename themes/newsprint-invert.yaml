@@ -8,6 +8,8 @@ source:
   author: "lumiknit"
   repo: "https://github.com/lumiknit/vscode-newsprint-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=lumiknit.newsprint"
+  formats:
+    sublime: "https://raw.githubusercontent.com/lumiknit/vscode-newsprint-theme/main/Newsprint.tmTheme"
 colors:
   bg: "#1F1F1F"
   fg: "#BBBBBB"

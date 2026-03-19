@@ -1,4 +1,4 @@
-name: "Sleepy Nights"
+name: "sleepy-nights"
 source:
   marketplace_id: "deformal.sleepy-nights"
   version: "0.0.2"
@@ -8,6 +8,7 @@ source:
   author: "saurabh jainwal"
   repo: "https://github.com/deformal/sleepy-nights"
   url: "https://marketplace.visualstudio.com/items?itemName=deformal.sleepy-nights"
+  formats: null
 colors:
   bg: "#21252B"
   fg: "#DFD0B8"

@@ -1,15 +1,16 @@
 name: "Monokai GRS"
 source:
-  marketplace_id: "ChrisFreeze.monokai-grs-elixir"
-  version: "0.1.0"
-  installs: 1
-  rating: 0
-  ratings: 0
-  author: "Chris Freeze"
-  repo: "https://github.com/cjfreeze/Monokai-GRS"
-  url: "https://marketplace.visualstudio.com/items?itemName=ChrisFreeze.monokai-grs-elixir"
+  marketplace_id: "GoliafRS.monokai-grs"
+  version: "1.0.15"
+  installs: 28368
+  rating: 5
+  ratings: 5
+  author: "GoliafRS"
+  repo: "https://github.com/goliafrs/monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=GoliafRS.monokai-grs"
+  formats: null
 colors:
-  bg: "#202020"
+  bg: "#161616"
   fg: "#F0F0F0"
   black: "#505050"
   red: "#D32F2F"
@@ -33,20 +34,20 @@ meta:
   hue: null
   pair: null
   contrast:
-    fg: 95.9
-    black: 12.1
-    red: 26.7
-    green: 31.6
-    yellow: 72
-    blue: 28.2
-    magenta: 12.9
-    cyan: 37.5
-    white: 95.9
-    brightBlack: 18.4
-    brightRed: 36.1
-    brightGreen: 72.2
-    brightYellow: 90.6
-    brightBlue: 33
-    brightMagenta: 34.6
-    brightCyan: 76.9
-    brightWhite: 105.8
+    fg: 97.1
+    black: 13.3
+    red: 27.9
+    green: 32.8
+    yellow: 73.2
+    blue: 29.4
+    magenta: 14.1
+    cyan: 38.7
+    white: 97.1
+    brightBlack: 19.6
+    brightRed: 37.3
+    brightGreen: 73.4
+    brightYellow: 91.8
+    brightBlue: 34.3
+    brightMagenta: 35.8
+    brightCyan: 78.1
+    brightWhite: 107

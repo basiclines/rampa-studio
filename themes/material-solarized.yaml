@@ -3,9 +3,13 @@ source:
   marketplace_id: "syahrizaldev.material-solarized"
   version: "1.4.7"
   installs: 266
+  rating: 0
+  ratings: 0
   author: "Syahrizal"
   repo: "https://github.com/syahrizaldev/material-solarized"
   url: "https://marketplace.visualstudio.com/items?itemName=syahrizaldev.material-solarized"
+  formats:
+    zed: "https://raw.githubusercontent.com/syahrizaldev/material-solarized/main/theme/material-solarized-color-theme.json"
 colors:
   bg: "#101A1E"
   fg: "#E3E8E8"

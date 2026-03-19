@@ -3,9 +3,13 @@ source:
   marketplace_id: "verdure.verdure-vscode-theme"
   version: "0.0.2"
   installs: 181
+  rating: 0
+  ratings: 0
   author: "Ada Rachel"
   repo: "https://github.com/adarachel/verdure-vscode-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=verdure.verdure-vscode-theme"
+  formats:
+    sublime: "https://raw.githubusercontent.com/adarachel/verdure-vscode-theme/verdure-theme/node_modules/generator-code/generators/app/templates/ext-colortheme/themes/theme.tmTheme"
 colors:
   bg: "#FFFFFF"
   fg: "#000000"

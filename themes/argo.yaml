@@ -1,13 +1,14 @@
-name: "Argo"
+name: "argo"
 source:
   marketplace_id: "smir45.argo"
   version: "1.0.0"
-  installs: 779
+  installs: 780
   rating: 4
   ratings: 4
   author: "Samir Mishra"
   repo: "https://github.com/smir45/argo-theme-source-code"
   url: "https://marketplace.visualstudio.com/items?itemName=smir45.argo"
+  formats: null
 colors:
   bg: "#191919"
   fg: "#D4D4D4"

@@ -8,6 +8,9 @@ source:
   author: "Vitor Nunes"
   repo: "https://github.com/vitornovictor/capitola"
   url: "https://marketplace.visualstudio.com/items?itemName=vitornovictor.capitola"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/vitornovictor/capitola/main/iterm2/Capitola.itermcolors"
+    android-studio: "https://raw.githubusercontent.com/vitornovictor/capitola/main/jetbrains/Capitola.icls"
 colors:
   bg: "#E4E4E4"
   fg: "#000000"

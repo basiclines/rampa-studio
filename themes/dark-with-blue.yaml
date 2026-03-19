@@ -1,11 +1,14 @@
-name: "dark-with-blue"
+name: "Dark with blue"
 source:
   marketplace_id: "nicolaslimaaaa.dark-with-blue"
   version: "0.0.1"
   installs: 118
+  rating: 0
+  ratings: 0
   author: "nicolaslimaaaa"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=nicolaslimaaaa.dark-with-blue"
+  formats: null
 colors:
   bg: "#000203"
   fg: "#0EA5E9"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 219
+  pair: null
   contrast:
     fg: 49
     black: 15.9

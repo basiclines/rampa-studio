@@ -1,13 +1,14 @@
-name: "Doom One"
+name: "doom-one"
 source:
-  marketplace_id: "L-Nafaryus.doom-one-theme"
+  marketplace_id: "NTBBloodbath.doom-one"
   version: "0.1.1"
-  installs: 2628
+  installs: 8958
   rating: 5
-  ratings: 1
-  author: "L-Nafaryus"
-  repo: "https://github.com/L-Nafaryus/doom-one-theme"
-  url: "https://marketplace.visualstudio.com/items?itemName=L-Nafaryus.doom-one-theme"
+  ratings: 4
+  author: "NTBBloodbath"
+  repo: "https://github.com/NTBBloodbath/doom-one-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=NTBBloodbath.doom-one"
+  formats: null
 colors:
   bg: "#282C34"
   fg: "#BBC2CF"

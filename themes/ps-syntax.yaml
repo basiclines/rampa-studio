@@ -1,4 +1,4 @@
-name: "PS-Syntax"
+name: "Ps-Syntax"
 source:
   marketplace_id: "pstaub.ps-syntax"
   version: "0.0.4"
@@ -8,6 +8,7 @@ source:
   author: "pstaub"
   repo: "https://github.com/pstaubs/ps-syntax"
   url: "https://marketplace.visualstudio.com/items?itemName=pstaub.ps-syntax"
+  formats: null
 colors:
   bg: "#1D1F21"
   fg: "#FFFFFF"

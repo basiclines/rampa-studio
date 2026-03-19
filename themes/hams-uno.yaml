@@ -1,4 +1,4 @@
-name: "hams-uno"
+name: "Hams Uno"
 source:
   marketplace_id: "CoreyHamren.hams-uno"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Corey Hamren"
   repo: "https://github.com/TheHamhams/hams-uno"
   url: "https://marketplace.visualstudio.com/items?itemName=CoreyHamren.hams-uno"
+  formats: null
 colors:
   bg: "#1D1D1D"
   fg: "#FFFFFF"

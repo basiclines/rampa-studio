@@ -1,52 +1,53 @@
-name: "Purple/Dark"
+name: "Purple dark"
 source:
-  marketplace_id: "purple-theme-vs.purple-theme-vscode"
-  version: "0.0.2"
-  installs: 2773
+  marketplace_id: "JefersonPc.purple-dark"
+  version: "15.0.5"
+  installs: 220
   rating: 0
   ratings: 0
-  author: "purple-theme-vs"
-  repo: "https://github.com/dbedoya04/purple-theme-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=purple-theme-vs.purple-theme-vscode"
+  author: "JefersonPc"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=JefersonPc.purple-dark"
+  formats: null
 colors:
-  bg: "#000000"
-  fg: "#D4D4D4"
+  bg: "#1E1E1E"
+  fg: "#FFFFFF"
   black: "#000000"
   red: "#CD3131"
   green: "#0DBC79"
   yellow: "#E5E510"
-  blue: "#7E24C8"
+  blue: "#2472C8"
   magenta: "#BC3FBC"
-  cyan: "#6F11CD"
-  white: "#E5E5E5"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
   brightBlack: "#666666"
   brightRed: "#F14C4C"
   brightGreen: "#23D18B"
   brightYellow: "#F5F543"
-  brightBlue: "#9B3BEA"
+  brightBlue: "#3B8EEA"
   brightMagenta: "#D670D6"
-  brightCyan: "#6929DB"
-  brightWhite: "#E5E5E5"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "magenta"
+  accent: "pink"
   hue: null
   pair: null
   contrast:
-    fg: 80.5
+    fg: 106
     black: 0
-    red: 27.7
-    green: 54
-    yellow: 86.6
-    blue: 18.8
-    magenta: 30.8
-    cyan: 16.3
-    white: 91
-    brightBlack: 23
-    brightRed: 39.6
-    brightGreen: 64.5
-    brightYellow: 96.6
-    brightBlue: 28.2
-    brightMagenta: 46.4
-    brightCyan: 18.5
-    brightWhite: 91
+    red: 25.9
+    green: 52.2
+    yellow: 84.8
+    blue: 26.6
+    magenta: 28.9
+    cyan: 46.7
+    white: 106
+    brightBlack: 21.2
+    brightRed: 37.7
+    brightGreen: 62.7
+    brightYellow: 94.8
+    brightBlue: 39.2
+    brightMagenta: 44.5
+    brightCyan: 54.6
+    brightWhite: 106

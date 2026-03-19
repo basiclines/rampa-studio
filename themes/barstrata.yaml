@@ -1,11 +1,14 @@
-name: "Barstrata"
+name: "barstrata"
 source:
   marketplace_id: "w3barsi.barstrata"
   version: "0.1.0"
   installs: 47
+  rating: 0
+  ratings: 0
   author: "w3barsi"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=w3barsi.barstrata"
+  formats: null
 colors:
   bg: "#111319"
   fg: "#D4D4D4"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 271
+  pair: null
   contrast:
     fg: 79.8
     black: 0

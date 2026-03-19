@@ -148,24 +148,31 @@ async function downloadAndExtractThemes(ext: MarketplaceExtension): Promise<Extr
     });
     await extractProc.exited;
 
-    const themes: ExtractedTheme[] = [];
+    const parsed: Array<{ name: string | null; colors: ThemeColors }> = [];
     for (const filePath of themeFiles) {
       try {
         const fullPath = join(tmpDir, filePath);
         if (!existsSync(fullPath)) continue;
         const content = readFileSync(fullPath, 'utf8');
-        const parsed = parseVSCodeThemeJson(content);
-        if (parsed) {
-          themes.push({
-            name: parsed.name || filePath.replace(/\.json$/, '').replace(/.*\//, ''),
-            colors: parsed.colors,
-            extension: ext,
-          });
-        }
+        const result = parseVSCodeThemeJson(content);
+        if (result) parsed.push(result);
       } catch {
         // Skip unparseable files
       }
     }
+
+    const themes: ExtractedTheme[] = parsed.map(p => {
+      let name: string;
+      if (parsed.length === 1) {
+        // Single theme — use marketplace display name, ignore internal JSON name
+        name = ext.displayName;
+      } else {
+        // Multiple variants — combine display name + JSON name for disambiguation
+        const jsonName = p.name || '';
+        name = jsonName ? `${ext.displayName} (${jsonName})` : ext.displayName;
+      }
+      return { name, colors: p.colors, extension: ext };
+    });
 
     cleanup(tmpDir);
     return themes;
@@ -352,7 +359,10 @@ function closestCssColor(hue: number): string {
 // ── Filename ──
 
 function themeFilename(name: string): string {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '.yaml';
+  const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const parenMatch = name.match(/^(.*?)\s*\(([^)]+)\)$/);
+  if (parenMatch) return `${slug(parenMatch[1])}--${slug(parenMatch[2])}.yaml`;
+  return slug(name) + '.yaml';
 }
 
 // ── Main ──

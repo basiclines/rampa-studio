@@ -1,52 +1,53 @@
 name: "Giza"
 source:
-  marketplace_id: "svygzhryr.inei"
-  version: "0.0.3"
-  installs: 53
+  marketplace_id: "svygzhryr.giza"
+  version: "1.4.2"
+  installs: 176
   rating: 0
   ratings: 0
   author: "Pavel Mihailov"
-  repo: "https://github.com/Svygzhryr/Inei"
-  url: "https://marketplace.visualstudio.com/items?itemName=svygzhryr.inei"
+  repo: "https://github.com/Svygzhryr/Giza"
+  url: "https://marketplace.visualstudio.com/items?itemName=svygzhryr.giza"
+  formats: null
 colors:
-  bg: "#0E0D12"
-  fg: "#D0CAE3"
-  black: "#1A1821"
-  red: "#F04279"
-  green: "#957BF5"
-  yellow: "#B6A5F1"
-  blue: "#957BF5"
-  magenta: "#8775C7"
-  cyan: "#C0B3E7"
-  white: "#D0CAE3"
-  brightBlack: "#36304B"
-  brightRed: "#EF004C"
-  brightGreen: "#8160F8"
-  brightYellow: "#D27D68"
-  brightBlue: "#D0CAE3"
-  brightMagenta: "#E52B91"
-  brightCyan: "#957BF5"
+  bg: "#090707"
+  fg: "#E4CB99"
+  black: "#47413D"
+  red: "#DD3737"
+  green: "#F2849C"
+  yellow: "#F6D066"
+  blue: "#EF3434"
+  magenta: "#E765A6"
+  cyan: "#E61E1E"
+  white: "#D8D8D8"
+  brightBlack: "#543636"
+  brightRed: "#F09898"
+  brightGreen: "#E597DC"
+  brightYellow: "#FDD629"
+  brightBlue: "#E4CB99"
+  brightMagenta: "#F79ACD"
+  brightCyan: "#B5FFFB"
   brightWhite: "#FAFAFA"
 meta:
   mode: "dark"
   accent: "orange"
-  hue: 294
+  hue: null
   pair: null
   contrast:
-    fg: 76.1
-    black: 0
-    red: 38.6
-    green: 41.7
-    yellow: 59.1
-    blue: 41.7
-    magenta: 35.1
-    cyan: 65
-    white: 76.1
-    brightBlack: 0
-    brightRed: 33.8
-    brightGreen: 32.6
-    brightYellow: 44.3
-    brightBlue: 76.1
-    brightMagenta: 34.7
-    brightCyan: 41.7
-    brightWhite: 104.3
+    fg: 76.6
+    black: 9.1
+    red: 31.9
+    green: 54
+    yellow: 80.4
+    blue: 35.8
+    magenta: 44.5
+    cyan: 31.9
+    white: 82.9
+    brightBlack: 7.8
+    brightRed: 59.5
+    brightGreen: 60.2
+    brightYellow: 83.5
+    brightBlue: 76.6
+    brightMagenta: 63.6
+    brightCyan: 99
+    brightWhite: 104.5

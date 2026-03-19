@@ -8,6 +8,8 @@ source:
   author: "Samuel Bran"
   repo: "https://github.com/samuelbran/Cooland"
   url: "https://marketplace.visualstudio.com/items?itemName=samuelbran.cooland"
+  formats:
+    sublime: "https://raw.githubusercontent.com/samuelbran/Cooland/master/themes/Cooland.tmTheme"
 colors:
   bg: "#212121"
   fg: "#E0E2F0"

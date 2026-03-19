@@ -1,4 +1,4 @@
-name: "Perfect Dark"
+name: "perfect-dark"
 source:
   marketplace_id: "PerfectThings.perfect-dark"
   version: "0.0.7"
@@ -8,6 +8,7 @@ source:
   author: "Perfect Things"
   repo: "https://github.com/perfect-things/vscode-perfect-dark"
   url: "https://marketplace.visualstudio.com/items?itemName=PerfectThings.perfect-dark"
+  formats: null
 colors:
   bg: "#292A2B"
   fg: "#ABB2BF"

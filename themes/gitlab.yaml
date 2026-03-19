@@ -1,4 +1,4 @@
-name: "GitLab"
+name: "gitlab"
 source:
   marketplace_id: "RedstoneWizard08.gitlab"
   version: "0.2.0"
@@ -8,6 +8,7 @@ source:
   author: "RedstoneWizard08"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=RedstoneWizard08.gitlab"
+  formats: null
 colors:
   bg: "#1F1F1F"
   fg: "#DBDBDB"

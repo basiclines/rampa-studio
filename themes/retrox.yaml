@@ -1,4 +1,4 @@
-name: "Retrox"
+name: "retrox"
 source:
   marketplace_id: "dalloriam.retrox"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "William Dussault"
   repo: "https://github.com/dalloriam/retrox"
   url: "https://marketplace.visualstudio.com/items?itemName=dalloriam.retrox"
+  formats: null
 colors:
   bg: "#0E1418"
   fg: "#D2D1D4"

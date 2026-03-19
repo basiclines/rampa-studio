@@ -3,9 +3,13 @@ source:
   marketplace_id: "tommalitz.simplethemes"
   version: "0.0.10"
   installs: 65
+  rating: 0
+  ratings: 0
   author: "tommalitz"
   repo: "https://github.com/TomMalitz/zedromeda"
   url: "https://marketplace.visualstudio.com/items?itemName=tommalitz.simplethemes"
+  formats:
+    zed: "https://raw.githubusercontent.com/TomMalitz/zedromeda/main/themes/Zedromeda-color-theme.json"
 colors:
   bg: "#171717"
   fg: "#F7F7F8"

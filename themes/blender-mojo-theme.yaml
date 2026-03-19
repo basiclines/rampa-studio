@@ -1,4 +1,4 @@
-name: "Blender Mojo theme"
+name: "Blender mojo theme"
 source:
   marketplace_id: "rubbietheone.blender-mojo-theme"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Rubbie Kelvin"
   repo: "https://github.com/rubbieKelvin/blender-mojo-code-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=rubbietheone.blender-mojo-theme"
+  formats: null
 colors:
   bg: "#2A2A2A"
   fg: "#FFFFFF"

@@ -8,6 +8,8 @@ source:
   author: "Volskaya"
   repo: "https://github.com/volskaya/irrelevant"
   url: "https://marketplace.visualstudio.com/items?itemName=Volskaya.irrelevant"
+  formats:
+    nvim: "https://raw.githubusercontent.com/volskaya/irrelevant/main/extensions/neovim/lua/irrelevant/colors.lua"
 colors:
   bg: "#1C1C1C"
   fg: "#FFFFFF"

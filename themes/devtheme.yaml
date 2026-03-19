@@ -1,4 +1,4 @@
-name: "DevTheme"
+name: "devTheme"
 source:
   marketplace_id: "devTheme.devtheme"
   version: "0.0.3"
@@ -8,6 +8,7 @@ source:
   author: "devTheme"
   repo: "https://github.com/mrgold92/devtheme"
   url: "https://marketplace.visualstudio.com/items?itemName=devTheme.devtheme"
+  formats: null
 colors:
   bg: "#353538"
   fg: "#D4D4D4"

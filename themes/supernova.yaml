@@ -8,6 +8,8 @@ source:
   author: "Bruno Ventura Gross"
   repo: "https://github.com/bvgross/superNovaTheme.git#master"
   url: "https://marketplace.visualstudio.com/items?itemName=bvgross.supernova-theme"
+  formats:
+    vim: "https://raw.githubusercontent.com/bvgross/superNovaTheme/master/colors/superNova.vim"
 colors:
   bg: "#282828"
   fg: "#CFCFCF"

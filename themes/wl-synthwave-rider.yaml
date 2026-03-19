@@ -3,9 +3,12 @@ source:
   marketplace_id: "WatkinsLabs.synthwave-rider"
   version: "1.0.1"
   installs: 91
+  rating: 0
+  ratings: 0
   author: "Watkins Labs"
   repo: "https://github.com/watkinslabs/vscode-theme-generator"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.synthwave-rider"
+  formats: null
 colors:
   bg: "#090A31"
   fg: "#EEBBF4"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "green"
   hue: 274
+  pair: null
   contrast:
     fg: 75
     black: 0

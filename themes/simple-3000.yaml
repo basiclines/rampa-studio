@@ -1,4 +1,4 @@
-name: "simple-3000"
+name: "simple 3000"
 source:
   marketplace_id: "simpleshadow.simple-3000"
   version: "0.0.17"
@@ -8,6 +8,7 @@ source:
   author: "simpleshadow"
   repo: "https://github.com/simpleshadow/simple-3000"
   url: "https://marketplace.visualstudio.com/items?itemName=simpleshadow.simple-3000"
+  formats: null
 colors:
   bg: "#0D111A"
   fg: "#FFFFFF"

@@ -1,4 +1,4 @@
-name: "Faerie.Online"
+name: "faerie-online"
 source:
   marketplace_id: "FaerieOnline.faerie-online"
   version: "1.0.0"
@@ -8,6 +8,7 @@ source:
   author: "Faerie.Online"
   repo: "https://github.com/lunatisenpai/faerie-online"
   url: "https://marketplace.visualstudio.com/items?itemName=FaerieOnline.faerie-online"
+  formats: null
 colors:
   bg: "#170934"
   fg: "#C7F0F6"

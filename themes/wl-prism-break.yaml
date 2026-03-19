@@ -2,10 +2,13 @@ name: "WL-Prism Break"
 source:
   marketplace_id: "WatkinsLabs.prism-break"
   version: "1.0.1"
-  installs: 28
+  installs: 29
+  rating: 0
+  ratings: 0
   author: "Watkins Labs"
   repo: "https://github.com/watkinslabs/vscode-theme-generator"
   url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.prism-break"
+  formats: null
 colors:
   bg: "#2C2C34"
   fg: "#FFFFFF"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: 285
+  pair: null
   contrast:
     fg: 103.5
     black: 0

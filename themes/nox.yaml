@@ -1,52 +1,53 @@
-name: "nox"
+name: "Nox"
 source:
-  marketplace_id: "JohannesFreutel.noxx"
-  version: "0.0.1"
-  installs: 44
-  rating: 0
-  ratings: 0
-  author: "JohannesFreutel"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=JohannesFreutel.noxx"
+  marketplace_id: "jshstw.nox"
+  version: "0.7.2"
+  installs: 1073
+  rating: 5
+  ratings: 2
+  author: "Josh Stow"
+  repo: "https://github.com/joshstow/nox"
+  url: "https://marketplace.visualstudio.com/items?itemName=jshstw.nox"
+  formats: null
 colors:
-  bg: "#0A0E1B"
-  fg: "#E5A6A6"
-  black: "#000000"
-  red: "#CD3131"
-  green: "#0DBC79"
-  yellow: "#E5E510"
-  blue: "#2472C8"
-  magenta: "#BC3FBC"
-  cyan: "#11A8CD"
-  white: "#E5E5E5"
-  brightBlack: "#666666"
-  brightRed: "#F14C4C"
-  brightGreen: "#23D18B"
-  brightYellow: "#F5F543"
-  brightBlue: "#3B8EEA"
-  brightMagenta: "#D670D6"
-  brightCyan: "#29B8DB"
-  brightWhite: "#E5E5E5"
+  bg: "#1D1D1D"
+  fg: "#EEFFFF"
+  black: "#1D1D1D"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#FFDC17"
+  blue: "#0F8ADF"
+  magenta: "#AE81FF"
+  cyan: "#66D9EF"
+  white: "#EEFFFF"
+  brightBlack: "#929292"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#FFDC17"
+  brightBlue: "#0F8ADF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#EEFFFF"
 meta:
   mode: "dark"
-  accent: "pink"
-  hue: 270
+  accent: "red"
+  hue: null
   pair: null
   contrast:
-    fg: 62.5
+    fg: 103.9
     black: 0
-    red: 27.4
-    green: 53.6
-    yellow: 86.3
-    blue: 28.1
-    magenta: 30.4
-    cyan: 48.2
-    white: 90.7
-    brightBlack: 22.7
-    brightRed: 39.2
-    brightGreen: 64.2
-    brightYellow: 96.3
-    brightBlue: 40.6
-    brightMagenta: 46
-    brightCyan: 56
-    brightWhite: 90.7
+    red: 36.6
+    green: 76.3
+    yellow: 84.7
+    blue: 36.3
+    magenta: 45.8
+    cyan: 72.7
+    white: 103.9
+    brightBlack: 41.9
+    brightRed: 36.6
+    brightGreen: 76.3
+    brightYellow: 84.7
+    brightBlue: 36.3
+    brightMagenta: 45.8
+    brightCyan: 72.7
+    brightWhite: 103.9

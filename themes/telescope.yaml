@@ -1,52 +1,53 @@
-name: "Telescope"
+name: "telescope"
 source:
-  marketplace_id: "hmseeb.seeb"
-  version: "1.1.3"
-  installs: 2026
-  rating: 5
-  ratings: 1
-  author: "hmseeb"
-  repo: "https://github.com/hmseeb/dark-owl"
-  url: "https://marketplace.visualstudio.com/items?itemName=hmseeb.seeb"
+  marketplace_id: "anyavyazemskaya.telesc0pe"
+  version: "0.0.1"
+  installs: 3
+  rating: 0
+  ratings: 0
+  author: "anya vyazemskaya"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=anyavyazemskaya.telesc0pe"
+  formats: null
 colors:
-  bg: "#16171F"
-  fg: "#BFC3E2"
-  black: "#121319"
-  red: "#BF616A"
-  green: "#72C2A2"
-  yellow: "#78B7E2"
-  blue: "#84A0C6"
-  magenta: "#A093C7"
-  cyan: "#89B8C2"
-  white: "#BCC5D8"
-  brightBlack: "#3E4960"
-  brightRed: "#E29199"
-  brightGreen: "#A0DBC2"
-  brightYellow: "#A8D2EE"
-  brightBlue: "#A3BEE3"
-  brightMagenta: "#C8B5E6"
-  brightCyan: "#B6D8DE"
-  brightWhite: "#E1EBFF"
+  bg: "#262734"
+  fg: "#CDC6FF"
+  black: "#000000"
+  red: "#FFB0AC"
+  green: "#AFFFC8"
+  yellow: "#FFE7BB"
+  blue: "#A3B6FF"
+  magenta: "#D7ABFF"
+  cyan: "#B9DDD2"
+  white: "#C4C4C4"
+  brightBlack: "#5E5E5E"
+  brightRed: "#FFB0AC"
+  brightGreen: "#AFFFC8"
+  brightYellow: "#FFE7BB"
+  brightBlue: "#A3B6FF"
+  brightMagenta: "#D7ABFF"
+  brightCyan: "#B9DDD2"
+  brightWhite: "#E4E3E2"
 meta:
   mode: "dark"
-  accent: "orange"
-  hue: 279
+  accent: "magenta"
+  hue: 281
   pair: null
   contrast:
-    fg: 70.3
+    fg: 72.4
     black: 0
-    red: 32.9
-    green: 60
-    yellow: 58.5
-    blue: 48.7
-    magenta: 46.9
-    cyan: 58.6
-    white: 70.2
-    brightBlack: 10.5
-    brightRed: 53.8
-    brightGreen: 76.2
-    brightYellow: 74.8
-    brightBlue: 65.2
-    brightMagenta: 66
-    brightCyan: 78.1
-    brightWhite: 93.4
+    red: 67.7
+    green: 92.9
+    yellow: 90.6
+    blue: 61.2
+    magenta: 63.5
+    cyan: 77.8
+    white: 67.5
+    brightBlack: 16.3
+    brightRed: 67.7
+    brightGreen: 92.9
+    brightYellow: 90.6
+    brightBlue: 61.2
+    brightMagenta: 63.5
+    brightCyan: 77.8
+    brightWhite: 86.4

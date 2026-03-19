@@ -1,4 +1,4 @@
-name: "Noah Theme"
+name: "Noah theme"
 source:
   marketplace_id: "johnnyghost.noah-theme"
   version: "0.4.4"
@@ -8,6 +8,7 @@ source:
   author: "johnnyghost"
   repo: "https://github.com/johnnyghost/vsc-noah-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=johnnyghost.noah-theme"
+  formats: null
 colors:
   bg: "#1A1B26"
   fg: "#A9B1D6"

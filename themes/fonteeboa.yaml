@@ -1,11 +1,14 @@
-name: "fonteeboa"
+name: "Fonteeboa"
 source:
   marketplace_id: "Fonteeboa.fonteeboa"
   version: "1.0.1"
-  installs: 392
+  installs: 393
+  rating: 0
+  ratings: 0
   author: "Fonteeboa"
   repo: "https://github.com/fonteeboa/vscode-theme-fonteeboa"
   url: "https://marketplace.visualstudio.com/items?itemName=Fonteeboa.fonteeboa"
+  formats: null
 colors:
   bg: "#050A0F"
   fg: "#FFFFFF"

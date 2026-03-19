@@ -8,6 +8,8 @@ source:
   author: "j4rviscmd"
   repo: "https://github.com/j4rviscmd/vscode-theme-solarized-deep"
   url: "https://marketplace.visualstudio.com/items?itemName=j4rviscmd.solarized-deep"
+  formats:
+    zed: "https://raw.githubusercontent.com/j4rviscmd/vscode-theme-solarized-deep/main/themes/solarized-deep-color-theme.json"
 colors:
   bg: "#000A0F"
   fg: "#93A1A1"

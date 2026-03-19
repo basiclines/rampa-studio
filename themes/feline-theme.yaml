@@ -1,4 +1,4 @@
-name: "Feline-theme"
+name: "feline-theme"
 source:
   marketplace_id: "feline-theme.feline-theme"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Feline Theme"
   repo: "https://github.com/thailanelopes/Meu_tema_VsCode"
   url: "https://marketplace.visualstudio.com/items?itemName=feline-theme.feline-theme"
+  formats: null
 colors:
   bg: "#1E1E1E"
   fg: "#D4D4D4"

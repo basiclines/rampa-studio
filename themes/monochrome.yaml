@@ -1,52 +1,53 @@
-name: "Monochrome"
+name: "monochrome."
 source:
-  marketplace_id: "toufiqahmedshr.monochrome-theme"
-  version: "1.1.0"
-  installs: 3264
-  rating: 3.33
-  ratings: 3
-  author: "Toufiq Ahmed"
-  repo: "https://github.com/toufiq-ahmed/monochrome"
-  url: "https://marketplace.visualstudio.com/items?itemName=toufiqahmedshr.monochrome-theme"
+  marketplace_id: "simojanhunen.monochrome-color-theme"
+  version: "0.0.3"
+  installs: 1692
+  rating: 5
+  ratings: 1
+  author: "Simo Janhunen"
+  repo: "https://github.com/simojanhunen/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=simojanhunen.monochrome-color-theme"
+  formats: null
 colors:
-  bg: "#1A1A1A"
-  fg: "#EEFFFF"
-  black: "#3B4252"
-  red: "#BF616A"
-  green: "#A3BE8C"
-  yellow: "#EBCB8B"
-  blue: "#81A1C1"
-  magenta: "#B48EAD"
-  cyan: "#88C0D0"
-  white: "#E5E9F0"
-  brightBlack: "#4C566A"
-  brightRed: "#BF616A"
-  brightGreen: "#A3BE8C"
-  brightYellow: "#EBCB8B"
-  brightBlue: "#81A1C1"
-  brightMagenta: "#B48EAD"
-  brightCyan: "#8FBCBB"
-  brightWhite: "#ECEFF4"
+  bg: "#101010"
+  fg: "#EAEAEA"
+  black: "#101010"
+  red: "#7E7E7E"
+  green: "#525252"
+  yellow: "#A9A9A9"
+  blue: "#3C3C3C"
+  magenta: "#939393"
+  cyan: "#686868"
+  white: "#BFBFBF"
+  brightBlack: "#262626"
+  brightRed: "#7E7E7E"
+  brightGreen: "#525252"
+  brightYellow: "#A9A9A9"
+  brightBlue: "#3C3C3C"
+  brightMagenta: "#939393"
+  brightCyan: "#686868"
+  brightWhite: "#EBEBEB"
 meta:
   mode: "dark"
-  accent: "orange"
+  accent: "yellow"
   hue: null
   pair: null
   contrast:
-    fg: 104.2
-    black: 7.8
-    red: 32.6
-    green: 61.3
-    yellow: 76.1
-    blue: 48.3
-    magenta: 46.1
-    cyan: 62.3
-    white: 92
-    brightBlack: 15.1
-    brightRed: 32.6
-    brightGreen: 61.3
-    brightYellow: 76.1
-    brightBlue: 48.3
-    brightMagenta: 46.1
-    brightCyan: 60.2
-    brightWhite: 95.9
+    fg: 93.8
+    black: 0
+    red: 33.4
+    green: 14.5
+    yellow: 55.3
+    blue: 0
+    magenta: 43.7
+    cyan: 23.5
+    white: 67.6
+    brightBlack: 0
+    brightRed: 33.4
+    brightGreen: 14.5
+    brightYellow: 55.3
+    brightBlue: 0
+    brightMagenta: 43.7
+    brightCyan: 23.5
+    brightWhite: 94.4

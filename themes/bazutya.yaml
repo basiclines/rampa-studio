@@ -1,4 +1,4 @@
-name: "Bazutya"
+name: "bazutya"
 source:
   marketplace_id: "bazutya.bazutya"
   version: "0.0.5"
@@ -8,6 +8,7 @@ source:
   author: "Bazutya"
   repo: "https://github.com/kotuck/bazutya"
   url: "https://marketplace.visualstudio.com/items?itemName=bazutya.bazutya"
+  formats: null
 colors:
   bg: "#202030"
   fg: "#D5D5E8"

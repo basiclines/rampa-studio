@@ -1,4 +1,4 @@
-name: "KORSR theme"
+name: "KORSR Theme"
 source:
   marketplace_id: "Killuox.korsr-theme"
   version: "0.7.0"
@@ -8,6 +8,7 @@ source:
   author: "Killuox"
   repo: "https://github.com/killuox/korsr-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Killuox.korsr-theme"
+  formats: null
 colors:
   bg: "#21242C"
   fg: "#DCE5F8"

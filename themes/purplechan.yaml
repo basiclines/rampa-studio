@@ -1,4 +1,4 @@
-name: "Purplechan"
+name: "purplechan"
 source:
   marketplace_id: "morizkay.purplechan"
   version: "0.0.7"
@@ -8,6 +8,7 @@ source:
   author: "Morizkay"
   repo: "https://github.com/blangkohq/purplechan"
   url: "https://marketplace.visualstudio.com/items?itemName=morizkay.purplechan"
+  formats: null
 colors:
   bg: "#000000"
   fg: "#FF00AA"

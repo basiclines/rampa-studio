@@ -1,4 +1,4 @@
-name: "origami-theme"
+name: "Origami Theme"
 source:
   marketplace_id: "febriadji.origami-theme"
   version: "0.0.5"
@@ -8,6 +8,7 @@ source:
   author: "febriadji"
   repo: "git+https://github.com/febriadj/vscode-origami-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=febriadji.origami-theme"
+  formats: null
 colors:
   bg: "#0F111A"
   fg: "#FFFFFF"

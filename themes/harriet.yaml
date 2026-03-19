@@ -1,15 +1,16 @@
 name: "Harriet"
 source:
-  marketplace_id: "MatthewCocker.focal"
-  version: "1.0.0"
-  installs: 119
-  rating: 0
-  ratings: 0
+  marketplace_id: "MatthewCocker.harriet"
+  version: "0.0.5"
+  installs: 774
+  rating: 5
+  ratings: 1
   author: "Matthew Cocker"
-  repo: "https://github.com/matthewcocker/focal"
-  url: "https://marketplace.visualstudio.com/items?itemName=MatthewCocker.focal"
+  repo: "git+https://github.com/matthewcocker/Harriet"
+  url: "https://marketplace.visualstudio.com/items?itemName=MatthewCocker.harriet"
+  formats: null
 colors:
-  bg: "#171717"
+  bg: "#282C34"
   fg: "#B7C5D3"
   black: "#41505E"
   red: "#D95468"
@@ -30,23 +31,23 @@ colors:
 meta:
   mode: "dark"
   accent: "red"
-  hue: null
+  hue: 264
   pair: null
   contrast:
-    fg: 69.5
-    black: 12.6
-    red: 35.2
-    green: 69.9
-    yellow: 71.3
-    blue: 46.7
-    magenta: 22.5
-    cyan: 77.3
-    white: 106.9
-    brightBlack: 12.6
-    brightRed: 35.2
-    brightGreen: 69.9
-    brightYellow: 71.3
-    brightBlue: 46.7
-    brightMagenta: 22.5
-    brightCyan: 77.3
-    brightWhite: 106.9
+    fg: 66.3
+    black: 9.4
+    red: 32
+    green: 66.7
+    yellow: 68.1
+    blue: 43.5
+    magenta: 19.3
+    cyan: 74.1
+    white: 103.7
+    brightBlack: 9.4
+    brightRed: 32
+    brightGreen: 66.7
+    brightYellow: 68.1
+    brightBlue: 43.5
+    brightMagenta: 19.3
+    brightCyan: 74.1
+    brightWhite: 103.7

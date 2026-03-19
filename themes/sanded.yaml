@@ -1,4 +1,4 @@
-name: "sanded"
+name: "Sanded"
 source:
   marketplace_id: "PaulBoelens.sanded"
   version: "0.0.1"
@@ -8,6 +8,7 @@ source:
   author: "Paul Boelens"
   repo: "https://dev.azure.com/zerorain/_git/sanded"
   url: "https://marketplace.visualstudio.com/items?itemName=PaulBoelens.sanded"
+  formats: null
 colors:
   bg: "#FFF7E3"
   fg: "#C9C9C9"

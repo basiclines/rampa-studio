@@ -8,6 +8,8 @@ source:
   author: "nashpatty"
   repo: "https://github.com/nashpatty/vs-code-basterdized"
   url: "https://marketplace.visualstudio.com/items?itemName=nashpatty.basterdized"
+  formats:
+    zed: "https://raw.githubusercontent.com/nashpatty/vs-code-basterdized/main/themes/Basterdized-color-theme.json"
 colors:
   bg: "#1E1F20"
   fg: "#839496"

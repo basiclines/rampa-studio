@@ -1,50 +1,53 @@
-name: "Halloween Theme"
+name: "halloween-theme"
 source:
-  marketplace_id: "Joeel56.halloween-theme-color-theme"
-  version: "1.0.1"
-  installs: 57
-  author: "Joeel56"
-  repo: null
-  url: "https://marketplace.visualstudio.com/items?itemName=Joeel56.halloween-theme-color-theme"
+  marketplace_id: "swordensen.halloween-theme"
+  version: "0.0.2"
+  installs: 4662
+  rating: 0
+  ratings: 0
+  author: "swordensen"
+  repo: "https://github.com/Mikkal24/VSCodeHalloweenTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=swordensen.halloween-theme"
+  formats: null
 colors:
-  bg: "#201D31"
-  fg: "#7770A3"
+  bg: "#212121"
+  fg: "#FFFFFF"
   black: "#000000"
-  red: "#CD3131"
-  green: "#0DBC79"
-  yellow: "#E5E510"
-  blue: "#2472C8"
-  magenta: "#BC3FBC"
-  cyan: "#11A8CD"
-  white: "#E5E5E5"
-  brightBlack: "#666666"
-  brightRed: "#F14C4C"
-  brightGreen: "#23D18B"
-  brightYellow: "#F5F543"
-  brightBlue: "#3B8EEA"
-  brightMagenta: "#D670D6"
-  brightCyan: "#29B8DB"
-  brightWhite: "#E5E5E5"
+  red: "#FF628C"
+  green: "#3AD900"
+  yellow: "#FF9900"
+  blue: "#FFAE00"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#A46B00"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#FF9900"
+  brightBlue: "#FFAE00"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
 meta:
   mode: "dark"
-  accent: "pink"
-  hue: 290
+  accent: "green"
+  hue: null
   pair: null
   contrast:
-    fg: 28.1
+    fg: 105.6
     black: 0
-    red: 25.6
-    green: 51.9
-    yellow: 84.5
-    blue: 26.4
-    magenta: 28.7
-    cyan: 46.5
-    white: 88.9
-    brightBlack: 21
-    brightRed: 37.5
-    brightGreen: 62.5
-    brightYellow: 94.6
-    brightBlue: 38.9
-    brightMagenta: 44.3
-    brightCyan: 54.3
-    brightWhite: 88.9
+    red: 45.9
+    green: 65
+    yellow: 58.4
+    blue: 65.6
+    magenta: 63.1
+    cyan: 91.5
+    white: 105.6
+    brightBlack: 28.6
+    brightRed: 45.9
+    brightGreen: 65
+    brightYellow: 58.4
+    brightBlue: 65.6
+    brightMagenta: 63.1
+    brightCyan: 91.5
+    brightWhite: 105.6

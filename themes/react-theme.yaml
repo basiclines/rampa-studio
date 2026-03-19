@@ -1,15 +1,16 @@
 name: "React Theme"
 source:
-  marketplace_id: "MamoruDS.react-theme-vscode"
-  version: "1.4.5"
-  installs: 3450
-  rating: 0
-  ratings: 0
-  author: "Mamoru"
-  repo: "https://github.com/MamoruDS/react-theme-vscode"
-  url: "https://marketplace.visualstudio.com/items?itemName=MamoruDS.react-theme-vscode"
+  marketplace_id: "mikaelkristiansson87.react-theme-vscode"
+  version: "2.0.0"
+  installs: 106458
+  rating: 5
+  ratings: 4
+  author: "mikaelkristiansson"
+  repo: "https://github.com/mikaelkristiansson/react-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=mikaelkristiansson87.react-theme-vscode"
+  formats: null
 colors:
-  bg: "#23272E"
+  bg: "#282C34"
   fg: "#F8F8F2"
   black: "#21222C"
   red: "#FF5555"
@@ -30,23 +31,23 @@ colors:
 meta:
   mode: "dark"
   accent: "green"
-  hue: 262
+  hue: 264
   pair: null
   contrast:
-    fg: 99.8
+    fg: 98.8
     black: 0
-    red: 41.2
-    green: 82.7
-    yellow: 96.3
-    blue: 51.4
-    magenta: 52.4
-    cyan: 81.7
-    white: 99.8
-    brightBlack: 25.8
-    brightRed: 46.6
-    brightGreen: 86.8
-    brightYellow: 101.3
-    brightBlue: 63.9
-    brightMagenta: 60.4
-    brightCyan: 94.6
-    brightWhite: 104.7
+    red: 40.2
+    green: 81.7
+    yellow: 95.3
+    blue: 50.4
+    magenta: 51.4
+    cyan: 80.8
+    white: 98.8
+    brightBlack: 24.8
+    brightRed: 45.6
+    brightGreen: 85.8
+    brightYellow: 100.3
+    brightBlue: 62.9
+    brightMagenta: 59.4
+    brightCyan: 93.6
+    brightWhite: 103.7

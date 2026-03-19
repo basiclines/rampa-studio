@@ -3,9 +3,12 @@ source:
   marketplace_id: "MSZS.corbatita"
   version: "0.0.1"
   installs: 43
+  rating: 0
+  ratings: 0
   author: "MSZS"
   repo: "https://github.com/MoisesOliveira/corbatita-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=MSZS.corbatita"
+  formats: null
 colors:
   bg: "#383838"
   fg: "#D4D4D4"
@@ -29,6 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: null
+  pair: null
   contrast:
     fg: 73.2
     black: 0

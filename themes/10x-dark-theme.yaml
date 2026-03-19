@@ -8,6 +8,10 @@ source:
   author: "Mark Gutenberger"
   repo: "https://github.com/gutenfries/10x-Dark-Theme"
   url: "https://marketplace.visualstudio.com/items?itemName=gutenfries.10x-dark-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/gutenfries/10x-Dark-Theme/main/build/templates/10xDark.itermcolors"
+    kitty: "https://raw.githubusercontent.com/gutenfries/10x-Dark-Theme/main/build/templates/10xDark.kitty"
+    vim: "https://raw.githubusercontent.com/gutenfries/10x-Dark-Theme/main/colors/10xDark.vim"
 colors:
   bg: "#313135"
   fg: "#C5CDD9"
