@@ -209,6 +209,11 @@ function findPairs(entries: ThemeEntry[]): Map<string, string> {
     if (implicit.theme.meta.mode === entry.theme.meta.mode) continue; // same polarity
     if (paired.has(implicit.theme.name)) continue;
 
+    // Require same publisher to avoid false positives across unrelated themes
+    const samePublisher = entry.theme.source.marketplace_id.split('.')[0] ===
+                          implicit.theme.source.marketplace_id.split('.')[0];
+    if (!samePublisher) continue;
+
     const [dark, light] = entry.theme.meta.mode === 'dark'
       ? [entry, implicit]
       : [implicit, entry];
