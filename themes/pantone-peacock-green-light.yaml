@@ -1,0 +1,53 @@
+name: "Pantone Peacock Green (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#F8F9F9"
+  fg: "#0A1818"
+  black: "#0A1818"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F8F9F9"
+  brightBlack: "#6F8B89"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Peacock Green (Dark)"
+  contrast:
+    fg: 101.1
+    black: 101.1
+    red: 75.1
+    green: 58.6
+    yellow: 42.9
+    blue: 86.1
+    magenta: 82.3
+    cyan: 75.4
+    white: 0
+    brightBlack: 60.5
+    brightRed: 64.8
+    brightGreen: 45.5
+    brightYellow: 26.6
+    brightBlue: 52.1
+    brightMagenta: 63.7
+    brightCyan: 44.9
+    brightWhite: 0

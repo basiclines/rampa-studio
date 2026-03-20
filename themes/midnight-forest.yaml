@@ -1,0 +1,53 @@
+name: "Midnight Forest"
+source:
+  marketplace_id: "ExtRise.midnight-dark-theme"
+  version: "1.0.0"
+  installs: 92
+  rating: 0
+  ratings: 0
+  author: "ExtRise"
+  repo: "https://github.com/extrise/midnight-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ExtRise.midnight-dark-theme"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#C9D1D9"
+  black: "#0D1117"
+  red: "#F87171"
+  green: "#22C55E"
+  yellow: "#FBBF24"
+  blue: "#7DD3FC"
+  magenta: "#A78BFA"
+  cyan: "#06B6D4"
+  white: "#C9D1D9"
+  brightBlack: "#6B7280"
+  brightRed: "#FCA5A5"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FCD34D"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#C4B5FD"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F3F4F6"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 77.5
+    black: 0
+    red: 48.6
+    green: 57.3
+    yellow: 73.2
+    blue: 73.2
+    magenta: 48.8
+    cyan: 54.4
+    white: 77.5
+    brightBlack: 27.7
+    brightRed: 66.1
+    brightGreen: 71
+    brightYellow: 81.9
+    brightBlue: 68.7
+    brightMagenta: 67.4
+    brightCyan: 81.7
+    brightWhite: 100.1

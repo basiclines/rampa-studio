@@ -1,0 +1,54 @@
+name: "newsprint-so"
+source:
+  marketplace_id: "lumiknit.newsprint"
+  version: "0.0.12"
+  installs: 357
+  rating: 0
+  ratings: 0
+  author: "lumiknit"
+  repo: "https://github.com/lumiknit/vscode-newsprint-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lumiknit.newsprint"
+  formats:
+    sublime: "https://raw.githubusercontent.com/lumiknit/vscode-newsprint-theme/main/Newsprint.tmTheme"
+colors:
+  bg: "#F2F2F2"
+  fg: "#0C0D0F"
+  black: "#3B4044"
+  red: "#9C2021"
+  green: "#567A0D"
+  yellow: "#B75300"
+  blue: "#005493"
+  magenta: "#803378"
+  cyan: "#4290A0"
+  white: "#D5D9DB"
+  brightBlack: "#626B74"
+  brightRed: "#C83232"
+  brightGreen: "#88B52C"
+  brightYellow: "#E67A22"
+  brightBlue: "#0680DB"
+  brightMagenta: "#B962B0"
+  brightCyan: "#43BFD8"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.9
+    black: 86.6
+    red: 78.4
+    green: 66.8
+    yellow: 65.7
+    blue: 78.7
+    magenta: 79
+    cyan: 56.3
+    white: 12.5
+    brightBlack: 69.3
+    brightRed: 67.2
+    brightGreen: 39.7
+    brightYellow: 47.4
+    brightBlue: 59.7
+    brightMagenta: 58
+    brightCyan: 34.6
+    brightWhite: 0

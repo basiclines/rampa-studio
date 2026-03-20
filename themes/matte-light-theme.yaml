@@ -1,0 +1,53 @@
+name: "Matte Light Theme"
+source:
+  marketplace_id: "bgmeulem.matte-light"
+  version: "0.1.0"
+  installs: 145
+  rating: 5
+  ratings: 1
+  author: "bgmeulem"
+  repo: "https://github.com/bgmeulem/matte-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=bgmeulem.matte-light"
+  formats: null
+colors:
+  bg: "#E2E2E2"
+  fg: "#4B4B4B"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#C9C631"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFFF21"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.9
+    black: 89
+    red: 56.9
+    green: 30.9
+    yellow: 16.5
+    blue: 56.2
+    magenta: 53.8
+    cyan: 36.2
+    white: 0
+    brightBlack: 61.7
+    brightRed: 45
+    brightGreen: 20.8
+    brightYellow: 11.7
+    brightBlue: 43.6
+    brightMagenta: 38.3
+    brightCyan: 28.6
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Starfield"
+source:
+  marketplace_id: "steffenboe.starfield-color-theme"
+  version: "1.0.0"
+  installs: 152
+  rating: 0
+  ratings: 0
+  author: "steffenboe"
+  repo: "https://github.com/steffenb91/starfield-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=steffenboe.starfield-color-theme"
+  formats: null
+colors:
+  bg: "#253646"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 247
+  pair: null
+  contrast:
+    fg: 74.2
+    black: 0
+    red: 21.4
+    green: 47.7
+    yellow: 80.3
+    blue: 22.2
+    magenta: 24.5
+    cyan: 42.3
+    white: 84.8
+    brightBlack: 16.8
+    brightRed: 33.3
+    brightGreen: 58.3
+    brightYellow: 90.4
+    brightBlue: 34.7
+    brightMagenta: 40.1
+    brightCyan: 50.1
+    brightWhite: 84.8

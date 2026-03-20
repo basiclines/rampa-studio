@@ -1,0 +1,53 @@
+name: "YD Light"
+source:
+  marketplace_id: "YellowDeer.yd-theme"
+  version: "2.3.1"
+  installs: 165
+  rating: 0
+  ratings: 0
+  author: "YellowDeer"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=YellowDeer.yd-theme"
+  formats: null
+colors:
+  bg: "#FFFCFF"
+  fg: "#282629"
+  black: "#FFFCFF"
+  red: "#F03E4D"
+  green: "#97BD2D"
+  yellow: "#EEBA21"
+  blue: "#53A6E1"
+  magenta: "#EE4EB8"
+  cyan: "#1FC598"
+  white: "#474247"
+  brightBlack: "#E0DCE0"
+  brightRed: "#F37735"
+  brightGreen: "#1FC598"
+  brightYellow: "#EEBA21"
+  brightBlue: "#53A6E1"
+  brightMagenta: "#EE4EB8"
+  brightCyan: "#1FC598"
+  brightWhite: "#282629"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "YD Dark"
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 62.9
+    green: 41.4
+    yellow: 31.8
+    blue: 50.1
+    magenta: 57.7
+    cyan: 41.7
+    white: 91.5
+    brightBlack: 16.2
+    brightRed: 52
+    brightGreen: 41.7
+    brightYellow: 31.8
+    brightBlue: 50.1
+    brightMagenta: 57.7
+    brightCyan: 41.7
+    brightWhite: 100.6

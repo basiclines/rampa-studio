@@ -1,0 +1,53 @@
+name: "Brogrammer Plus"
+source:
+  marketplace_id: "jackjyq.brogrammer-plus"
+  version: "1.0.1"
+  installs: 8964
+  rating: 5
+  ratings: 3
+  author: "Jack Jiang"
+  repo: "https://github.com/jackjyq/vscode-theme-brogrammer-plus"
+  url: "https://marketplace.visualstudio.com/items?itemName=jackjyq.brogrammer-plus"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#FFFFFF"
+  black: "#121212"
+  red: "#E74C3C"
+  green: "#2ECC71"
+  yellow: "#F1C40F"
+  blue: "#3498DB"
+  magenta: "#6C71C4"
+  cyan: "#3CC9D6"
+  white: "#FBFBFB"
+  brightBlack: "#373737"
+  brightRed: "#FF5542"
+  brightGreen: "#3BFB9D"
+  brightYellow: "#FFD60D"
+  brightBlue: "#48C0FF"
+  brightMagenta: "#9EA7FF"
+  brightCyan: "#51F1FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.3
+    black: 0
+    red: 36.5
+    green: 61.1
+    yellow: 73.4
+    blue: 42.9
+    magenta: 30.9
+    cyan: 63.6
+    white: 104.7
+    brightBlack: 0
+    brightRed: 43.5
+    brightGreen: 86.1
+    brightYellow: 83.3
+    brightBlue: 62.2
+    brightMagenta: 57.8
+    brightCyan: 85.5
+    brightWhite: 107.3

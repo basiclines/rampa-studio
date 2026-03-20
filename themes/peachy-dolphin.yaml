@@ -1,0 +1,53 @@
+name: "Peachy dolphin"
+source:
+  marketplace_id: "Durelius.peachy-dolphin"
+  version: "0.0.2"
+  installs: 64
+  rating: 0
+  ratings: 0
+  author: "Durelius"
+  repo: "https://github.com/durelius/notyet"
+  url: "https://marketplace.visualstudio.com/items?itemName=Durelius.peachy-dolphin"
+  formats: null
+colors:
+  bg: "#181818"
+  fg: "#F0F0F0"
+  black: "#002B36"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#1CD6C7"
+  white: "#EEE8D5"
+  brightBlack: "#073642"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.9
+    black: 0
+    red: 30
+    green: 41.6
+    yellow: 41.6
+    blue: 36.6
+    magenta: 30.3
+    cyan: 67.9
+    white: 91.8
+    brightBlack: 0
+    brightRed: 29.5
+    brightGreen: 23.8
+    brightYellow: 29.6
+    brightBlue: 41.9
+    brightMagenta: 30.3
+    brightCyan: 48.8
+    brightWhite: 101

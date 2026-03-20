@@ -1,0 +1,54 @@
+name: "Darkish"
+source:
+  marketplace_id: "SylvioRandrianarisata.darkish-gray"
+  version: "0.0.1"
+  installs: 781
+  rating: 0
+  ratings: 0
+  author: "Sylvio Randrianarisata"
+  repo: "https://github.com/Microsoft/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=SylvioRandrianarisata.darkish-gray"
+  formats:
+    sublime: "https://raw.githubusercontent.com/Microsoft/vscode-themes/main/1337/themes/1337.tmTheme"
+colors:
+  bg: "#1B1B1B"
+  fg: "#D9D9D9"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E4E4E4"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.1
+    black: 0
+    red: 26.3
+    green: 52.6
+    yellow: 85.2
+    blue: 27
+    magenta: 29.3
+    cyan: 47.1
+    white: 88.9
+    brightBlack: 21.6
+    brightRed: 38.1
+    brightGreen: 63.1
+    brightYellow: 95.2
+    brightBlue: 39.6
+    brightMagenta: 44.9
+    brightCyan: 54.9
+    brightWhite: 89.6

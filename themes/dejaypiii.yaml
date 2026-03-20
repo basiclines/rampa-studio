@@ -1,0 +1,53 @@
+name: "dejaypiii"
+source:
+  marketplace_id: "dejaypiii.dejaypiii-theme"
+  version: "0.1.0"
+  installs: 42
+  rating: 0
+  ratings: 0
+  author: "Johann-Peter Duchon"
+  repo: "https://github.com/dejaypiii/dejaypiii-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dejaypiii.dejaypiii-theme"
+  formats: null
+colors:
+  bg: "#181818"
+  fg: "#E4E4EF"
+  black: "#52494E"
+  red: "#C73C3F"
+  green: "#73C936"
+  yellow: "#FFDD33"
+  blue: "#96A6C8"
+  magenta: "#9E95C7"
+  cyan: "#95A99F"
+  white: "#E4E4EF"
+  brightBlack: "#484848"
+  brightRed: "#C73C3F"
+  brightGreen: "#73C936"
+  brightYellow: "#FFDD33"
+  brightBlue: "#96A6C8"
+  brightMagenta: "#9E95C7"
+  brightCyan: "#95A99F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.8
+    black: 11.4
+    red: 26.8
+    green: 61
+    yellow: 85.9
+    blue: 52.8
+    magenta: 47.3
+    cyan: 52
+    white: 89.8
+    brightBlack: 10.1
+    brightRed: 26.8
+    brightGreen: 61
+    brightYellow: 85.9
+    brightBlue: 52.8
+    brightMagenta: 47.3
+    brightCyan: 52
+    brightWhite: 106.8

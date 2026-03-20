@@ -1,0 +1,53 @@
+name: "MagicUser Camouflage Light"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1705
+  rating: 5
+  ratings: 2
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+  formats: null
+colors:
+  bg: "#E1E8D3"
+  fg: "#000000"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 122
+  pair: "MagicUser Camouflage"
+  contrast:
+    fg: 90.8
+    black: 90.1
+    red: 44.2
+    green: 0
+    yellow: 9.7
+    blue: 70.5
+    magenta: 40.3
+    cyan: 0
+    white: 14.8
+    brightBlack: 83.4
+    brightRed: 47.5
+    brightGreen: 7.8
+    brightYellow: 9.9
+    brightBlue: 37.8
+    brightMagenta: 40.5
+    brightCyan: 0
+    brightWhite: 0

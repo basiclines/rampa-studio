@@ -1,0 +1,53 @@
+name: "WL-Terminal Green"
+source:
+  marketplace_id: "WatkinsLabs.terminal-green"
+  version: "1.0.1"
+  installs: 147
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.terminal-green"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#00FF00"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#00CC66"
+  magenta: "#33CC33"
+  cyan: "#00CC66"
+  white: "#00FF00"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#00CC66"
+  brightMagenta: "#33CC33"
+  brightCyan: "#00CC66"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 61.1
+    magenta: 60.9
+    cyan: 61.1
+    white: 86.5
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 61.1
+    brightMagenta: 60.9
+    brightCyan: 61.1
+    brightWhite: 107.9

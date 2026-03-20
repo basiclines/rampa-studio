@@ -1,0 +1,53 @@
+name: "Rainglow (jumper-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#222A2A"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#36A595"
+  yellow: "#C9B230"
+  blue: "#DB515C"
+  magenta: "#E08E4C"
+  cyan: "#36A595"
+  white: "#2D3838"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#71D0C3"
+  brightYellow: "#E0D27F"
+  brightBlue: "#ECA6AB"
+  brightMagenta: "#EFC5A3"
+  brightCyan: "#71D0C3"
+  brightWhite: "#506262"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (jumper-contrast)"
+  contrast:
+    fg: 101.5
+    black: 0
+    red: 80.3
+    green: 56.5
+    yellow: 41.5
+    blue: 65.8
+    magenta: 50.2
+    cyan: 56.5
+    white: 97.7
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 33.9
+    brightYellow: 24.6
+    brightBlue: 38.1
+    brightMagenta: 26.8
+    brightCyan: 33.9
+    brightWhite: 82

@@ -1,0 +1,53 @@
+name: "Blue Light Filter - Warm Dark"
+source:
+  marketplace_id: "SakshamYadav.blue-light-filter-theme"
+  version: "1.0.0"
+  installs: 156
+  rating: 0
+  ratings: 0
+  author: "Saksham Yadav"
+  repo: "https://github.com/Sakshamyadav15/GitCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=SakshamYadav.blue-light-filter-theme"
+  formats: null
+colors:
+  bg: "#1C1108"
+  fg: "#D9B896"
+  black: "#1C1108"
+  red: "#E87860"
+  green: "#B0BA70"
+  yellow: "#F0B55C"
+  blue: "#E0A556"
+  magenta: "#DB9A8A"
+  cyan: "#D4A76A"
+  white: "#D9B896"
+  brightBlack: "#4D3318"
+  brightRed: "#F08A75"
+  brightGreen: "#BFCE82"
+  brightYellow: "#FCC270"
+  brightBlue: "#F0B570"
+  brightMagenta: "#ECA99C"
+  brightCyan: "#E0B880"
+  brightWhite: "#F0CA88"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 60
+  pair: null
+  contrast:
+    fg: 66.5
+    black: 0
+    red: 46.5
+    green: 61
+    yellow: 67.7
+    blue: 59
+    magenta: 55.5
+    cyan: 58.2
+    white: 66.5
+    brightBlack: 0
+    brightRed: 53.6
+    brightGreen: 71.8
+    brightYellow: 75.2
+    brightBlue: 68.1
+    brightMagenta: 64.1
+    brightCyan: 67
+    brightWhite: 77

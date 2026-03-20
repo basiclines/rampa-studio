@@ -1,0 +1,53 @@
+name: "Tailwind Amber Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#78350F"
+  fg: "#FEF3C7"
+  black: "#92400E"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#FDE68A"
+  brightBlack: "#92400E"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FDE68A"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 46
+  pair: "Tailwind Amber Light"
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 36
+    green: 58.3
+    yellow: 65.6
+    blue: 39.2
+    magenta: 37.5
+    cyan: 56.5
+    white: 78.7
+    brightBlack: 0
+    brightRed: 36
+    brightGreen: 58.3
+    brightYellow: 65.6
+    brightBlue: 39.2
+    brightMagenta: 37.5
+    brightCyan: 56.5
+    brightWhite: 78.7

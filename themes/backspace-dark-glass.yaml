@@ -1,0 +1,53 @@
+name: "Backspace Dark Glass"
+source:
+  marketplace_id: "SamiurRahmanMukul.backspace-theme"
+  version: "0.2.0"
+  installs: 289
+  rating: 5
+  ratings: 2
+  author: "SamiurRahmanMukul"
+  repo: "https://github.com/SamiurRahmanMukul/backspace-vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SamiurRahmanMukul.backspace-theme"
+  formats: null
+colors:
+  bg: "#0F0F0F"
+  fg: "#E8E6E3"
+  black: "#141414"
+  red: "#E6622E"
+  green: "#B3B3B3"
+  yellow: "#F2F2F2"
+  blue: "#4D4D4D"
+  magenta: "#E6622E"
+  cyan: "#B3B3B3"
+  white: "#F2F2F2"
+  brightBlack: "#2E2E2E"
+  brightRed: "#E6622E"
+  brightGreen: "#B3B3B3"
+  brightYellow: "#F2F2F2"
+  brightBlue: "#4D4D4D"
+  brightMagenta: "#E6622E"
+  brightCyan: "#B3B3B3"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.4
+    black: 0
+    red: 40.5
+    green: 60.8
+    yellow: 99
+    blue: 12.7
+    magenta: 40.5
+    cyan: 60.8
+    white: 99
+    brightBlack: 0
+    brightRed: 40.5
+    brightGreen: 60.8
+    brightYellow: 99
+    brightBlue: 12.7
+    brightMagenta: 40.5
+    brightCyan: 60.8
+    brightWhite: 99

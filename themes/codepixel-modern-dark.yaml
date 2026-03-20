@@ -1,0 +1,54 @@
+name: "CodePixel Modern Dark"
+source:
+  marketplace_id: "AmirPhilipAdam.codepixelmodern"
+  version: "0.0.4"
+  installs: 43
+  rating: 5
+  ratings: 1
+  author: "Amir Philip Adam"
+  repo: "https://github.com/amirphiladam2/CoderPixel"
+  url: "https://marketplace.visualstudio.com/items?itemName=AmirPhilipAdam.codepixelmodern"
+  formats:
+    zed: "https://raw.githubusercontent.com/amirphiladam2/CoderPixel/main/themes/- Markdown optimized with special formatting for documentation-color-theme.json"
+colors:
+  bg: "#0A0A0F"
+  fg: "#E2E8F0"
+  black: "#1E293B"
+  red: "#EF4444"
+  green: "#10B981"
+  yellow: "#F59E0B"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#F1F5F9"
+  brightBlack: "#475569"
+  brightRed: "#F87171"
+  brightGreen: "#34D399"
+  brightYellow: "#FBBF24"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 92.3
+    black: 0
+    red: 37.7
+    green: 52.7
+    yellow: 60.3
+    blue: 37.6
+    magenta: 35.3
+    cyan: 54.7
+    white: 100.8
+    brightBlack: 15.6
+    brightRed: 48.9
+    brightGreen: 66
+    brightYellow: 73.5
+    brightBlue: 52.2
+    brightMagenta: 50.5
+    brightCyan: 69.4
+    brightWhite: 107.7

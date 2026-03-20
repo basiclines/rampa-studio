@@ -1,0 +1,53 @@
+name: "Rubi Theme"
+source:
+  marketplace_id: "sd-tools.sd-ruby-extension-vs"
+  version: "2.1.3"
+  installs: 50
+  rating: 0
+  ratings: 0
+  author: "Serez Dev"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=sd-tools.sd-ruby-extension-vs"
+  formats: null
+colors:
+  bg: "#3B0000"
+  fg: "#DBCEA3"
+  black: "#3B0000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#DBCEA3"
+  brightBlack: "#530000"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#DBCEA3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 29
+  pair: null
+  contrast:
+    fg: 75
+    black: 0
+    red: 42.7
+    green: 83.2
+    yellow: 78
+    blue: 55
+    magenta: 52.8
+    cyan: 77.3
+    white: 75
+    brightBlack: 0
+    brightRed: 42.7
+    brightGreen: 83.2
+    brightYellow: 78
+    brightBlue: 55
+    brightMagenta: 52.8
+    brightCyan: 77.3
+    brightWhite: 75

@@ -1,0 +1,53 @@
+name: "Tailwind Stone Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#FAFAF9"
+  fg: "#292524"
+  black: "#1C1917"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#F5F5F4"
+  brightBlack: "#1C1917"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#F5F5F4"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Tailwind Stone Dark"
+  contrast:
+    fg: 99
+    black: 101.3
+    red: 60.8
+    green: 41.3
+    yellow: 33.3
+    blue: 60.9
+    magenta: 63.2
+    cyan: 44.1
+    white: 0
+    brightBlack: 101.3
+    brightRed: 60.8
+    brightGreen: 41.3
+    brightYellow: 33.3
+    brightBlue: 60.9
+    brightMagenta: 63.2
+    brightCyan: 44.1
+    brightWhite: 0

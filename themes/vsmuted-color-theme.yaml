@@ -1,0 +1,53 @@
+name: "VSMuted-color-theme"
+source:
+  marketplace_id: "PJWalker.vs-muted"
+  version: "1.2.0"
+  installs: 1189
+  rating: 0
+  ratings: 0
+  author: "PJ Walker"
+  repo: "https://github.com/PJWalker/VS-Muted"
+  url: "https://marketplace.visualstudio.com/items?itemName=PJWalker.vs-muted"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000D"
+  black: "#000D"
+  red: "#CC1155"
+  green: "#119944"
+  yellow: "#EEAA11"
+  blue: "#007ACC"
+  magenta: "#BC05BC"
+  cyan: "#007ACC"
+  white: "#000A"
+  brightBlack: "#000A"
+  brightRed: "#CC1155"
+  brightGreen: "#119944"
+  brightYellow: "#EEAA11"
+  brightBlue: "#007ACC"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#007ACC"
+  brightWhite: "#AAAAAA"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 75.6
+    green: 64.1
+    yellow: 38.9
+    blue: 70.6
+    magenta: 74.6
+    cyan: 70.6
+    white: 106
+    brightBlack: 106
+    brightRed: 75.6
+    brightGreen: 64.1
+    brightYellow: 38.9
+    brightBlue: 70.6
+    brightMagenta: 74.6
+    brightCyan: 70.6
+    brightWhite: 45.8

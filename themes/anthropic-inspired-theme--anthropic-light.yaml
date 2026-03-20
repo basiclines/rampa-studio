@@ -1,0 +1,53 @@
+name: "Anthropic Inspired Theme (Anthropic Light)"
+source:
+  marketplace_id: "BrianSuhit.anthropic-inspired-theme"
+  version: "1.0.1"
+  installs: 44
+  rating: 0
+  ratings: 0
+  author: "Brian Suhit"
+  repo: "https://github.com/BrianSuhit/anthropic-inspired-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BrianSuhit.anthropic-inspired-theme"
+  formats: null
+colors:
+  bg: "#FAFAF7"
+  fg: "#191919"
+  black: "#191919"
+  red: "#BF4D43"
+  green: "#778D5E"
+  yellow: "#D4A27F"
+  blue: "#61AAF2"
+  magenta: "#CC785C"
+  cyan: "#91918D"
+  white: "#BFBFBA"
+  brightBlack: "#666663"
+  brightRed: "#BF4D43"
+  brightGreen: "#778D5E"
+  brightYellow: "#EBDBBC"
+  brightBlue: "#61AAF2"
+  brightMagenta: "#CC785C"
+  brightCyan: "#BFBFBA"
+  brightWhite: "#FAFAF7"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Anthropic Inspired Theme (Anthropic Dark)"
+  contrast:
+    fg: 101.3
+    black: 101.3
+    red: 69.6
+    green: 60.9
+    yellow: 41.4
+    blue: 45
+    magenta: 56.7
+    cyan: 55.7
+    white: 31.6
+    brightBlack: 75.7
+    brightRed: 69.6
+    brightGreen: 60.9
+    brightYellow: 14.7
+    brightBlue: 45
+    brightMagenta: 56.7
+    brightCyan: 31.6
+    brightWhite: 0

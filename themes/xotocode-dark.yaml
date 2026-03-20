@@ -1,0 +1,53 @@
+name: "xotocode-dark"
+source:
+  marketplace_id: "xotosphere.xotocode-theme"
+  version: "0.0.9"
+  installs: 296
+  rating: 0
+  ratings: 0
+  author: "xotosphere"
+  repo: "https://github.com/xotocode/xotocode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xotosphere.xotocode-theme"
+  formats: null
+colors:
+  bg: "#1D2031"
+  fg: "#C8D3F5"
+  black: "#000000"
+  red: "#FF757F"
+  green: "#C3E88D"
+  yellow: "#FFC777"
+  blue: "#82AAFF"
+  magenta: "#FCA7EA"
+  cyan: "#86E1FC"
+  white: "#C8D3F5"
+  brightBlack: "#828BB8"
+  brightRed: "#FF757F"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFC777"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#FCA7EA"
+  brightCyan: "#86E1FC"
+  brightWhite: "#C8D3F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 77.9
+    black: 0
+    red: 49.6
+    green: 82.9
+    yellow: 76.2
+    blue: 54.6
+    magenta: 68
+    cyan: 78.5
+    white: 77.9
+    brightBlack: 38.9
+    brightRed: 49.6
+    brightGreen: 82.9
+    brightYellow: 76.2
+    brightBlue: 54.6
+    brightMagenta: 68
+    brightCyan: 78.5
+    brightWhite: 77.9

@@ -1,0 +1,53 @@
+name: "Serene"
+source:
+  marketplace_id: "thisisroi.serene"
+  version: "1.0.2"
+  installs: 1437
+  rating: 5
+  ratings: 1
+  author: "thisisroi"
+  repo: "https://github.com/thisisroi/serene-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thisisroi.serene"
+  formats: null
+colors:
+  bg: "#201928"
+  fg: "#9A88B0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#F0E056"
+  blue: "#63AEFF"
+  magenta: "#BC3FBC"
+  cyan: "#63E0FF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFEE93"
+  brightBlue: "#7CBBFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#84E7FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 305
+  pair: null
+  contrast:
+    fg: 40.7
+    black: 0
+    red: 26.1
+    green: 52.4
+    yellow: 84.7
+    blue: 54.9
+    magenta: 29.2
+    cyan: 76.9
+    white: 106.3
+    brightBlack: 21.5
+    brightRed: 38
+    brightGreen: 62.9
+    brightYellow: 94.5
+    brightBlue: 61.7
+    brightMagenta: 44.8
+    brightCyan: 82.1
+    brightWhite: 89.4

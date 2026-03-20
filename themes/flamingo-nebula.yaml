@@ -1,0 +1,53 @@
+name: "Flamingo Nebula"
+source:
+  marketplace_id: "kgrubb.flamingo-nebula"
+  version: "0.0.3"
+  installs: 2902
+  rating: 0
+  ratings: 0
+  author: "kgrubb"
+  repo: "https://github.com/kgrubb/flamingo-nebula"
+  url: "https://marketplace.visualstudio.com/items?itemName=kgrubb.flamingo-nebula"
+  formats: null
+colors:
+  bg: "#263647"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FD6E72"
+  green: "#1DBB9B"
+  yellow: "#FEF035"
+  blue: "#69AFF8"
+  magenta: "#A665A6"
+  cyan: "#1DAFEC"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#FDA0A0"
+  brightGreen: "#3CC5AA"
+  brightYellow: "#FFFC67"
+  brightBlue: "#69AFF8"
+  brightMagenta: "#EE70A9"
+  brightCyan: "#478DC8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 251
+  pair: null
+  contrast:
+    fg: 101.5
+    black: 0
+    red: 43.2
+    green: 48.3
+    yellow: 89.2
+    blue: 50.4
+    magenta: 26.8
+    cyan: 47.1
+    white: 66.4
+    brightBlack: 17.6
+    brightRed: 58.5
+    brightGreen: 54
+    brightYellow: 95.5
+    brightBlue: 50.4
+    brightMagenta: 42.3
+    brightCyan: 32.5
+    brightWhite: 101.5

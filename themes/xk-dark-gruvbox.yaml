@@ -1,0 +1,51 @@
+name: "XK Dark Gruvbox"
+source:
+  marketplace_id: "x1ngkong.vscode-xk-theme"
+  version: "0.1.0"
+  installs: 31
+  author: "x1ngkong"
+  repo: "https://github.com/x1ngkong/vscode-xk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=x1ngkong.vscode-xk-theme"
+  formats: null
+colors:
+  bg: "#1D2021"
+  fg: "#EBDBB2"
+  black: "#000000"
+  red: "#FB4934"
+  green: "#B8BB26"
+  yellow: "#FABD2F"
+  blue: "#FABD2F"
+  magenta: "#FE8019"
+  cyan: "#83A598"
+  white: "#EBDBB2"
+  brightBlack: "#EBDBB2"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#FABD2F"
+  brightMagenta: "#FE8019"
+  brightCyan: "#83A598"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 39.1
+    green: 60.1
+    yellow: 70.8
+    blue: 70.8
+    magenta: 51.1
+    cyan: 47.6
+    white: 83.3
+    brightBlack: 83.3
+    brightRed: 39.1
+    brightGreen: 60.1
+    brightYellow: 70.8
+    brightBlue: 70.8
+    brightMagenta: 51.1
+    brightCyan: 47.6
+    brightWhite: 105.8

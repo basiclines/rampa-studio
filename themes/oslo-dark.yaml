@@ -1,0 +1,53 @@
+name: "Oslo Dark"
+source:
+  marketplace_id: "lazerai.oslo-dark"
+  version: "1.4.0"
+  installs: 27
+  rating: 0
+  ratings: 0
+  author: "Lazerai"
+  repo: "https://github.com/LAZERAI/oslo-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=lazerai.oslo-dark"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#C8F0FA"
+  black: "#1A1A1A"
+  red: "#E8A0A0"
+  green: "#A0E8A0"
+  yellow: "#E8E8A0"
+  blue: "#A0A0E8"
+  magenta: "#E8A0E8"
+  cyan: "#A0E8E8"
+  white: "#E6F5FF"
+  brightBlack: "#3B5B78"
+  brightRed: "#F0B0B0"
+  brightGreen: "#B0F0B0"
+  brightYellow: "#F0F0B0"
+  brightBlue: "#B0B0F0"
+  brightMagenta: "#F0B0F0"
+  brightCyan: "#B0F0F0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.3
+    black: 0
+    red: 59.8
+    green: 80.9
+    yellow: 89
+    blue: 53.1
+    magenta: 63.1
+    cyan: 83.7
+    white: 98.4
+    brightBlack: 16.1
+    brightRed: 67.4
+    brightGreen: 86.8
+    brightYellow: 94.2
+    brightBlue: 61.4
+    brightMagenta: 70.3
+    brightCyan: 89.3
+    brightWhite: 106.5

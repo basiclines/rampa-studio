@@ -1,0 +1,53 @@
+name: "Rainglow (scorch-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#160D0E"
+  fg: "#BAA0A2"
+  black: "#261618"
+  red: "#BA0E2E"
+  green: "#D39452"
+  yellow: "#BD4549"
+  blue: "#CF9E51"
+  magenta: "#F6EA82"
+  cyan: "#E77757"
+  white: "#C5AFB0"
+  brightBlack: "#563337"
+  brightRed: "#F03E5F"
+  brightGreen: "#E8C6A3"
+  brightYellow: "#D89093"
+  brightBlue: "#E5CBA1"
+  brightMagenta: "#FDFAE1"
+  brightCyan: "#F4BFB0"
+  brightWhite: "#E5DBDC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 11
+  pair: "Rainglow (scorch-light)"
+  contrast:
+    fg: 53.7
+    black: 0
+    red: 21.1
+    green: 51.2
+    yellow: 26.9
+    blue: 54
+    magenta: 92.1
+    cyan: 46.2
+    white: 61.4
+    brightBlack: 0
+    brightRed: 37.4
+    brightGreen: 75.1
+    brightYellow: 52.2
+    brightBlue: 76.7
+    brightMagenta: 103.5
+    brightCyan: 74.7
+    brightWhite: 85.8

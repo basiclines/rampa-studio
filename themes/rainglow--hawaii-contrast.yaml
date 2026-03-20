@@ -1,0 +1,53 @@
+name: "Rainglow (hawaii-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#111110"
+  fg: "#E8E1DE"
+  black: "#1E1E1C"
+  red: "#BA0E2E"
+  green: "#EDBD44"
+  yellow: "#F75431"
+  blue: "#52B4D8"
+  magenta: "#E2922F"
+  cyan: "#92D8E8"
+  white: "#F2EFED"
+  brightBlack: "#464641"
+  brightRed: "#F03E5F"
+  brightGreen: "#F6DEA1"
+  brightYellow: "#FBA593"
+  brightBlue: "#A5D8EB"
+  brightMagenta: "#EEC188"
+  brightCyan: "#E6F6FA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (hawaii-light)"
+  contrast:
+    fg: 88.8
+    black: 0
+    red: 21
+    green: 70.3
+    yellow: 41.4
+    blue: 55.2
+    magenta: 52.6
+    cyan: 75.9
+    white: 97.2
+    brightBlack: 9.9
+    brightRed: 37.3
+    brightGreen: 87.3
+    brightYellow: 65.3
+    brightBlue: 77.7
+    brightMagenta: 73.2
+    brightCyan: 99.5
+    brightWhite: 107.4

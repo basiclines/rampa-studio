@@ -1,0 +1,53 @@
+name: "Xerobi Light Theme"
+source:
+  marketplace_id: "anisafifi.xerobi-theme"
+  version: "1.0.1"
+  installs: 13
+  rating: 0
+  ratings: 0
+  author: "Anis Afifi"
+  repo: "https://github.com/anisafifi/xerobi-vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=anisafifi.xerobi-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#334155"
+  black: "#1E293B"
+  red: "#B91C1C"
+  green: "#15803D"
+  yellow: "#B45309"
+  blue: "#0369A1"
+  magenta: "#7E22CE"
+  cyan: "#0E7490"
+  white: "#64748B"
+  brightBlack: "#475569"
+  brightRed: "#DC2626"
+  brightGreen: "#16A34A"
+  brightYellow: "#D97706"
+  brightBlue: "#0891B2"
+  brightMagenta: "#9333EA"
+  brightCyan: "#06B6D4"
+  brightWhite: "#0F172A"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Xerobi Dark Theme"
+  contrast:
+    fg: 94
+    black: 101.4
+    red: 80.2
+    green: 74.2
+    yellow: 74
+    blue: 79.1
+    magenta: 82.8
+    cyan: 76.2
+    white: 73
+    brightBlack: 86.3
+    brightRed: 71.6
+    brightGreen: 59.7
+    brightYellow: 58.5
+    brightBlue: 63.8
+    brightMagenta: 75.6
+    brightCyan: 47.1
+    brightWhite: 104.6

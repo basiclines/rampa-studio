@@ -1,0 +1,53 @@
+name: "wildcat"
+source:
+  marketplace_id: "ergenekonyigit.wildcat"
+  version: "0.1.1"
+  installs: 100
+  rating: 5
+  ratings: 1
+  author: "Ergenekon Yigit"
+  repo: "https://github.com/ergenekonyigit/wildcat-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ergenekonyigit.wildcat"
+  formats: null
+colors:
+  bg: "#0C120F"
+  fg: "#A6ACCD"
+  black: "#0A0E0C"
+  red: "#D0679D"
+  green: "#5DE4C7"
+  yellow: "#FFFAC2"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#A6ACCD"
+  brightRed: "#D0679D"
+  brightGreen: "#5DE4C7"
+  brightYellow: "#FFFAC2"
+  brightBlue: "#ADD7FF"
+  brightMagenta: "#F087BD"
+  brightCyan: "#ADD7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 163
+  pair: null
+  contrast:
+    fg: 57.6
+    black: 0
+    red: 39.7
+    green: 76.9
+    yellow: 102.5
+    blue: 78.8
+    magenta: 55.4
+    cyan: 78.8
+    white: 107.4
+    brightBlack: 57.6
+    brightRed: 39.7
+    brightGreen: 76.9
+    brightYellow: 102.5
+    brightBlue: 79.1
+    brightMagenta: 55.4
+    brightCyan: 79.1
+    brightWhite: 107.4

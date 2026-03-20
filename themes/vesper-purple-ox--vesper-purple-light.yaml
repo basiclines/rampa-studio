@@ -1,0 +1,53 @@
+name: "Vesper Purple Ox (Vesper Purple Light)"
+source:
+  marketplace_id: "0xfell.vesper-purple-ox"
+  version: "0.0.1"
+  installs: 298
+  rating: 5
+  ratings: 1
+  author: "0xfell"
+  repo: "https://github.com/0xfell/vesper-purple"
+  url: "https://marketplace.visualstudio.com/items?itemName=0xfell.vesper-purple-ox"
+  formats: null
+colors:
+  bg: "#F5F5F5"
+  fg: "#323232"
+  black: "#E5E5E5"
+  red: "#DC2626"
+  green: "#16A34A"
+  yellow: "#D97706"
+  blue: "#0284C7"
+  magenta: "#9066DF"
+  cyan: "#0891B2"
+  white: "#525252"
+  brightBlack: "#525252"
+  brightRed: "#DC2626"
+  brightGreen: "#16A34A"
+  brightYellow: "#D97706"
+  brightBlue: "#0284C7"
+  brightMagenta: "#7C3AED"
+  brightCyan: "#0891B2"
+  brightWhite: "#323232"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Vesper Purple Ox (Vesper Purple Dark)"
+  contrast:
+    fg: 93
+    black: 0
+    red: 65.6
+    green: 53.8
+    yellow: 52.5
+    blue: 61.5
+    magenta: 61.7
+    cyan: 57.9
+    white: 81.2
+    brightBlack: 81.2
+    brightRed: 65.6
+    brightGreen: 53.8
+    brightYellow: 52.5
+    brightBlue: 61.5
+    brightMagenta: 71.5
+    brightCyan: 57.9
+    brightWhite: 93

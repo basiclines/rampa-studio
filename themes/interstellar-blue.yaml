@@ -1,0 +1,53 @@
+name: "Interstellar Blue"
+source:
+  marketplace_id: "JavRedstone.interstellar-blue"
+  version: "0.5.0"
+  installs: 1005
+  rating: 5
+  ratings: 1
+  author: "JavRedstone"
+  repo: "https://github.com/JavRedstone/interstellar-blue-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JavRedstone.interstellar-blue"
+  formats: null
+colors:
+  bg: "#10002E"
+  fg: "#C2A6FF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 291
+  pair: null
+  contrast:
+    fg: 61.7
+    black: 0
+    red: 27.2
+    green: 53.5
+    yellow: 86.1
+    blue: 27.9
+    magenta: 30.3
+    cyan: 48.1
+    white: 107.4
+    brightBlack: 22.6
+    brightRed: 39.1
+    brightGreen: 64.1
+    brightYellow: 96.2
+    brightBlue: 40.5
+    brightMagenta: 45.9
+    brightCyan: 55.9
+    brightWhite: 107.4

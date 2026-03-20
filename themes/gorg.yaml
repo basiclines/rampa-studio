@@ -1,0 +1,53 @@
+name: "Gorg"
+source:
+  marketplace_id: "adpawr.gorg"
+  version: "0.0.4"
+  installs: 52
+  rating: 0
+  ratings: 0
+  author: "adpawr"
+  repo: "https://github.com/adpawr/gorg-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=adpawr.gorg"
+  formats: null
+colors:
+  bg: "#12161A"
+  fg: "#C9CDD1"
+  black: "#000000"
+  red: "#EB7575"
+  green: "#6DB078"
+  yellow: "#DBC179"
+  blue: "#45A0E6"
+  magenta: "#D188C7"
+  cyan: "#18B0B5"
+  white: "#C9CDD1"
+  brightBlack: "#0D1012"
+  brightRed: "#F09090"
+  brightGreen: "#8AB890"
+  brightYellow: "#D9CBA3"
+  brightBlue: "#91CFFF"
+  brightMagenta: "#D9B8D4"
+  brightCyan: "#8ECFD1"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 75.1
+    black: 0
+    red: 46.6
+    green: 50.7
+    yellow: 69.6
+    blue: 47
+    magenta: 50.3
+    cyan: 49.9
+    white: 75.1
+    brightBlack: 0
+    brightRed: 55.9
+    brightGreen: 57
+    brightYellow: 74.6
+    brightBlue: 72.6
+    brightMagenta: 68.8
+    brightCyan: 70
+    brightWhite: 98.5

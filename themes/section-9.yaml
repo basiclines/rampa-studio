@@ -1,0 +1,53 @@
+name: "Section 9"
+source:
+  marketplace_id: "y4m3.section9-theme"
+  version: "0.0.1"
+  installs: 61
+  rating: 0
+  ratings: 0
+  author: "y4m3"
+  repo: "https://github.com/y4m3/vscode-section9-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=y4m3.section9-theme"
+  formats: null
+colors:
+  bg: "#0E121A"
+  fg: "#A8B0BE"
+  black: "#151A21"
+  red: "#C62828"
+  green: "#808C80"
+  yellow: "#FFA000"
+  blue: "#26A69A"
+  magenta: "#7E57C2"
+  cyan: "#4DB6AC"
+  white: "#A8B0BE"
+  brightBlack: "#607D8B"
+  brightRed: "#E57373"
+  brightGreen: "#A5D6A7"
+  brightYellow: "#FFB74D"
+  brightBlue: "#4DD0E1"
+  brightMagenta: "#BA68C8"
+  brightCyan: "#80CBC4"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 58.6
+    black: 0
+    red: 24.7
+    green: 38.4
+    yellow: 62.4
+    blue: 45
+    magenta: 25.6
+    cyan: 53.6
+    white: 58.6
+    brightBlack: 30.8
+    brightRed: 45.2
+    brightGreen: 73.8
+    brightYellow: 71
+    brightBlue: 67.9
+    brightMagenta: 38.3
+    brightCyan: 66.8
+    brightWhite: 87.3

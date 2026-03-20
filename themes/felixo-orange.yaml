@@ -1,0 +1,53 @@
+name: "felixo-orange"
+source:
+  marketplace_id: "waroi.felixo"
+  version: "1.0.0"
+  installs: 846
+  rating: 5
+  ratings: 3
+  author: "waroi"
+  repo: "https://github.com/waroi/felixoTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=waroi.felixo"
+  formats: null
+colors:
+  bg: "#36312C"
+  fg: "#F8F8F2"
+  black: "#443E37"
+  red: "#BA0E2E"
+  green: "#FF4A03"
+  yellow: "#F23A3A"
+  blue: "#F8BB39"
+  magenta: "#FC803D"
+  cyan: "#FF4A03"
+  white: "#FFFFFF"
+  brightBlack: "#6E645A"
+  brightRed: "#F03E5F"
+  brightGreen: "#75DEAF"
+  brightYellow: "#F89A9A"
+  brightBlue: "#FBDD9B"
+  brightMagenta: "#FEC2A1"
+  brightCyan: "#75DEAF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 67
+  pair: "felixo-orange-light"
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 15.9
+    green: 36.5
+    yellow: 31.7
+    blue: 66.2
+    magenta: 47.4
+    cyan: 36.5
+    white: 102.3
+    brightBlack: 17.3
+    brightRed: 32.2
+    brightGreen: 69.2
+    brightYellow: 56.2
+    brightBlue: 82.4
+    brightMagenta: 71.9
+    brightCyan: 69.2
+    brightWhite: 102.3

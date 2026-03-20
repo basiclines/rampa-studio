@@ -1,0 +1,53 @@
+name: "Monokai Octagon"
+source:
+  marketplace_id: "mhmdsulimn.msdev-vscode"
+  version: "1.6.0"
+  installs: 457
+  rating: 5
+  ratings: 2
+  author: "Mohamed Suliman"
+  repo: "https://github.com/mhmdsulimn/MS-Dev-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mhmdsulimn.msdev-vscode"
+  formats: null
+colors:
+  bg: "#282A39"
+  fg: "#E9F1F0"
+  black: "#000000"
+  red: "#D81E00"
+  green: "#5EA702"
+  yellow: "#CFAE00"
+  blue: "#427AB3"
+  magenta: "#89658E"
+  cyan: "#00A7AA"
+  white: "#DBDED8"
+  brightBlack: "#686A66"
+  brightRed: "#F54235"
+  brightGreen: "#99E343"
+  brightYellow: "#FDEB61"
+  brightBlue: "#84B0D8"
+  brightMagenta: "#BC94B7"
+  brightCyan: "#37E6E8"
+  brightWhite: "#F1F1F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 93.5
+    black: 0
+    red: 24.6
+    green: 41.4
+    yellow: 55.9
+    blue: 26.6
+    magenta: 24
+    cyan: 42.4
+    white: 82
+    brightBlack: 20.4
+    brightRed: 34.8
+    brightGreen: 73.5
+    brightYellow: 89.4
+    brightBlue: 53
+    brightMagenta: 47
+    brightCyan: 74.7
+    brightWhite: 94.6

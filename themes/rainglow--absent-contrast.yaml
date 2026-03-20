@@ -1,0 +1,53 @@
+name: "Rainglow (absent-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0E1114"
+  fg: "#AEB9C4"
+  black: "#181E23"
+  red: "#BA0E2E"
+  green: "#228A96"
+  yellow: "#6BA77F"
+  blue: "#E6EAEF"
+  magenta: "#228A96"
+  cyan: "#6BA77F"
+  white: "#BDC6CF"
+  brightBlack: "#384450"
+  brightRed: "#F03E5F"
+  brightGreen: "#48C7D6"
+  brightYellow: "#ABCDB6"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#48C7D6"
+  brightCyan: "#ABCDB6"
+  brightWhite: "#E9ECEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (absent-light)"
+  contrast:
+    fg: 63.3
+    black: 0
+    red: 21
+    green: 33.5
+    yellow: 47.3
+    blue: 93.4
+    magenta: 33.5
+    cyan: 47.3
+    white: 70.9
+    brightBlack: 8.9
+    brightRed: 37.3
+    brightGreen: 63.1
+    brightYellow: 71
+    brightBlue: 107.4
+    brightMagenta: 63.1
+    brightCyan: 71
+    brightWhite: 94.7

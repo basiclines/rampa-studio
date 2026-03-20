@@ -1,0 +1,51 @@
+name: "mlia-soft"
+source:
+  marketplace_id: "grdthh.mliaa"
+  version: "0.2.0"
+  installs: 192
+  author: "grdthh"
+  repo: "https://github.com/hashyael/mlia"
+  url: "https://marketplace.visualstudio.com/items?itemName=grdthh.mliaa"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#CCCCCC"
+  black: "#333333"
+  red: "#F7A597"
+  green: "#CFE8B7"
+  yellow: "#E1E0C8"
+  blue: "#75CAF2"
+  magenta: "#F1D6DD"
+  cyan: "#DBDCF3"
+  white: "#CCCCCC"
+  brightBlack: "#959595"
+  brightRed: "#F7A597"
+  brightGreen: "#D7E3CD"
+  brightYellow: "#E1E0C8"
+  brightBlue: "#CCE1F1"
+  brightMagenta: "#F1D6DD"
+  brightCyan: "#DBDCF3"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.2
+    black: 0
+    red: 62.8
+    green: 85.4
+    yellow: 84.6
+    blue: 66.1
+    magenta: 83.4
+    cyan: 83.9
+    white: 73.2
+    brightBlack: 42.7
+    brightRed: 62.8
+    brightGreen: 84.8
+    brightYellow: 84.6
+    brightBlue: 84.2
+    brightMagenta: 83.4
+    brightCyan: 83.9
+    brightWhite: 94.3

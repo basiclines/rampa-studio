@@ -1,0 +1,53 @@
+name: "Rainglow (goldfish)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#2E3336"
+  fg: "#F8F8F2"
+  black: "#3A4044"
+  red: "#BA0E2E"
+  green: "#F38630"
+  yellow: "#FA6900"
+  blue: "#69D2E7"
+  magenta: "#A7DBD8"
+  cyan: "#F38630"
+  white: "#FFFFFF"
+  brightBlack: "#5D676D"
+  brightRed: "#F03E5F"
+  brightGreen: "#F9BE90"
+  brightYellow: "#FFA361"
+  brightBlue: "#C1ECF5"
+  brightMagenta: "#EFF9F8"
+  brightCyan: "#F9BE90"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (goldfish-light)"
+  contrast:
+    fg: 97.3
+    black: 0
+    red: 15.8
+    green: 47
+    yellow: 40.9
+    blue: 65.2
+    magenta: 73.1
+    cyan: 47
+    white: 102.2
+    brightBlack: 17.1
+    brightRed: 32.1
+    brightGreen: 68.9
+    brightYellow: 59.1
+    brightBlue: 85
+    brightMagenta: 96.8
+    brightCyan: 68.9
+    brightWhite: 102.2

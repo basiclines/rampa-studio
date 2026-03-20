@@ -1,0 +1,53 @@
+name: "Ako Theme"
+source:
+  marketplace_id: "wxn0brP.wxn0brp-ako-theme"
+  version: "0.0.1"
+  installs: 1
+  rating: 0
+  ratings: 0
+  author: "wxn0brP"
+  repo: "https://github.com/wxn0brP/ako-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wxn0brP.wxn0brp-ako-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#C51E14"
+  green: "#1DC121"
+  yellow: "#C7C329"
+  blue: "#0A2FC4"
+  magenta: "#C839C5"
+  cyan: "#20C5C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#FD6F6B"
+  brightGreen: "#67F86F"
+  brightYellow: "#FFFA72"
+  brightBlue: "#6A76FB"
+  brightMagenta: "#FD7CFC"
+  brightCyan: "#68FDFE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 24.3
+    green: 55.2
+    yellow: 67.5
+    blue: 11.9
+    magenta: 32.9
+    cyan: 61
+    white: 72.7
+    brightBlack: 23.9
+    brightRed: 49.6
+    brightGreen: 85.5
+    brightYellow: 101
+    brightBlue: 36.9
+    brightMagenta: 59
+    brightCyan: 93
+    brightWhite: 107.9

@@ -1,0 +1,53 @@
+name: "Mellow"
+source:
+  marketplace_id: "kvrohit.mellow-theme"
+  version: "0.0.1"
+  installs: 1492
+  rating: 5
+  ratings: 3
+  author: "Rohit K Viswanath"
+  repo: "https://github.com/kvrohit/mellow-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kvrohit.mellow-theme"
+  formats: null
+colors:
+  bg: "#161617"
+  fg: "#C9C7CD"
+  black: "#27272A"
+  red: "#F5A191"
+  green: "#90B99F"
+  yellow: "#E6B99D"
+  blue: "#ACA1CF"
+  magenta: "#E29ECA"
+  cyan: "#EA83A5"
+  white: "#C1C0D4"
+  brightBlack: "#353539"
+  brightRed: "#FFAE9F"
+  brightGreen: "#9DC6AC"
+  brightYellow: "#F0C5A9"
+  brightBlue: "#B9AEDA"
+  brightMagenta: "#ECAAD6"
+  brightCyan: "#F591B2"
+  brightWhite: "#CAC9DD"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.3
+    black: 0
+    red: 62.4
+    green: 58.4
+    yellow: 68.9
+    blue: 53.8
+    magenta: 60.2
+    cyan: 51.7
+    white: 68.7
+    brightBlack: 0
+    brightRed: 69.1
+    brightGreen: 65.7
+    brightYellow: 75.6
+    brightBlue: 60.9
+    brightMagenta: 66.6
+    brightCyan: 58.4
+    brightWhite: 74

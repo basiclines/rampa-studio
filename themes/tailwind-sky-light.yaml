@@ -1,0 +1,53 @@
+name: "Tailwind Sky Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#F0F9FF"
+  fg: "#075985"
+  black: "#0C4A6E"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#E0F2FE"
+  brightBlack: "#0C4A6E"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#E0F2FE"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Tailwind Sky Dark"
+  contrast:
+    fg: 81.3
+    black: 87
+    red: 59.4
+    green: 39.9
+    yellow: 31.9
+    blue: 59.5
+    magenta: 61.8
+    cyan: 42.7
+    white: 0
+    brightBlack: 87
+    brightRed: 59.4
+    brightGreen: 39.9
+    brightYellow: 31.9
+    brightBlue: 59.5
+    brightMagenta: 61.8
+    brightCyan: 42.7
+    brightWhite: 0

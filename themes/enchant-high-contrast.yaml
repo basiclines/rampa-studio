@@ -1,0 +1,53 @@
+name: "Enchant - High Contrast"
+source:
+  marketplace_id: "Ansub.enchant"
+  version: "0.3.4"
+  installs: 1032
+  rating: 5
+  ratings: 4
+  author: "Ansub"
+  repo: "https://github.com/ansub/enchant"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ansub.enchant"
+  formats: null
+colors:
+  bg: "#090909"
+  fg: "#DEE0EF"
+  black: "#090909"
+  red: "#EE8679"
+  green: "#5BA2D0"
+  yellow: "#A78BFA"
+  blue: "#94B8FF"
+  magenta: "#9CCFD8"
+  cyan: "#5BA2D0"
+  white: "#DEE0EF"
+  brightBlack: "#6B6D7C"
+  brightRed: "#EE8679"
+  brightGreen: "#5BA2D0"
+  brightYellow: "#A78BFA"
+  brightBlue: "#94B8FF"
+  brightMagenta: "#9CCFD8"
+  brightCyan: "#5BA2D0"
+  brightWhite: "#DEE0EF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.2
+    black: 0
+    red: 52.7
+    green: 48.1
+    yellow: 49.2
+    blue: 63.9
+    magenta: 72.2
+    cyan: 48.1
+    white: 88.2
+    brightBlack: 26.3
+    brightRed: 52.7
+    brightGreen: 48.1
+    brightYellow: 49.2
+    brightBlue: 63.9
+    brightMagenta: 72.2
+    brightCyan: 48.1
+    brightWhite: 88.2

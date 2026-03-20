@@ -1,0 +1,54 @@
+name: "alligator-light"
+source:
+  marketplace_id: "alligator-vscode-color-theme.alligator"
+  version: "1.3.2"
+  installs: 1108
+  rating: 5
+  ratings: 1
+  author: "alligator-vscode-color-theme"
+  repo: "https://github.com/lianghx-319/Alligator-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=alligator-vscode-color-theme.alligator"
+  formats:
+    zed: "https://raw.githubusercontent.com/lianghx-319/Alligator-color-theme/master/themes/alligator-solarized-dark-color-theme.json"
+colors:
+  bg: "#FCFCFC"
+  fg: "#6C7757"
+  black: "#403F53"
+  red: "#DE3D3B"
+  green: "#08916A"
+  yellow: "#E0AF02"
+  blue: "#288ED7"
+  magenta: "#D6438A"
+  cyan: "#2AA298"
+  white: "#F0F0F0"
+  brightBlack: "#403F53"
+  brightRed: "#DE3D3B"
+  brightGreen: "#08916A"
+  brightYellow: "#DAAA01"
+  brightBlue: "#288ED7"
+  brightMagenta: "#D6438A"
+  brightCyan: "#2AA298"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 71.2
+    black: 91.9
+    red: 66.9
+    green: 64.8
+    yellow: 37.6
+    blue: 60.7
+    magenta: 65.9
+    cyan: 56.1
+    white: 0
+    brightBlack: 91.9
+    brightRed: 66.9
+    brightGreen: 64.8
+    brightYellow: 40.3
+    brightBlue: 60.7
+    brightMagenta: 65.9
+    brightCyan: 56.1
+    brightWhite: 0

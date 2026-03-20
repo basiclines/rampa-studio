@@ -1,0 +1,53 @@
+name: "Kalmia High Contrast"
+source:
+  marketplace_id: "qexat.kalmia"
+  version: "0.1.1"
+  installs: 202
+  rating: 5
+  ratings: 2
+  author: "Qexat"
+  repo: "https://github.com/qexat/kalmia"
+  url: "https://marketplace.visualstudio.com/items?itemName=qexat.kalmia"
+  formats: null
+colors:
+  bg: "#171115"
+  fg: "#EDBFDB"
+  black: "#000000"
+  red: "#D9737E"
+  green: "#B0D973"
+  yellow: "#D9CE73"
+  blue: "#737ED9"
+  magenta: "#CF73D9"
+  cyan: "#73B0D9"
+  white: "#F8E7F1"
+  brightBlack: "#5D4654"
+  brightRed: "#EFC7CB"
+  brightGreen: "#DFEFC7"
+  brightYellow: "#EFEBC7"
+  brightBlue: "#C7CBEF"
+  brightMagenta: "#EBC7EF"
+  brightCyan: "#C7DFEF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 339
+  pair: null
+  contrast:
+    fg: 75.1
+    black: 0
+    red: 43.1
+    green: 74.9
+    yellow: 74.9
+    blue: 36.8
+    magenta: 45.4
+    cyan: 55.2
+    white: 94.5
+    brightBlack: 12.3
+    brightRed: 77.9
+    brightGreen: 93
+    brightYellow: 93.3
+    brightBlue: 75.7
+    brightMagenta: 78.9
+    brightCyan: 84.4
+    brightWhite: 107.2

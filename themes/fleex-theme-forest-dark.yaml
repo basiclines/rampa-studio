@@ -1,0 +1,53 @@
+name: "Fleex Theme Forest Dark"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  rating: 5
+  ratings: 1
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+  formats: null
+colors:
+  bg: "#151A16"
+  fg: "#E7EFE7"
+  black: "#101411"
+  red: "#FF8A73"
+  green: "#91B563"
+  yellow: "#D8A45B"
+  blue: "#7BCB8F"
+  magenta: "#BEA4FF"
+  cyan: "#79D7B7"
+  white: "#E7EFE7"
+  brightBlack: "#101411"
+  brightRed: "#FF8A73"
+  brightGreen: "#91B563"
+  brightYellow: "#D8A45B"
+  brightBlue: "#7BCB8F"
+  brightMagenta: "#BEA4FF"
+  brightCyan: "#79D7B7"
+  brightWhite: "#E7EFE7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 151
+  pair: "Fleex Theme Forest Light"
+  contrast:
+    fg: 94.8
+    black: 0
+    red: 56
+    green: 54.9
+    yellow: 57
+    blue: 63.9
+    magenta: 59.8
+    cyan: 70.7
+    white: 94.8
+    brightBlack: 0
+    brightRed: 56
+    brightGreen: 54.9
+    brightYellow: 57
+    brightBlue: 63.9
+    brightMagenta: 59.8
+    brightCyan: 70.7
+    brightWhite: 94.8

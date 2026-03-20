@@ -1,0 +1,53 @@
+name: "qtz-theme"
+source:
+  marketplace_id: "qiupeng.qtz-theme"
+  version: "0.1.3"
+  installs: 134
+  rating: 0
+  ratings: 0
+  author: "qiupeng"
+  repo: "https://gitcode.com/qiupeng/qtz-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=qiupeng.qtz-theme"
+  formats: null
+colors:
+  bg: "#303845"
+  fg: "#CCCAC2"
+  black: "#171B24"
+  red: "#ED8274"
+  green: "#87D96C"
+  yellow: "#FACC6E"
+  blue: "#6DCBFA"
+  magenta: "#DABAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#D5FF80"
+  brightYellow: "#FFD173"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#DFBFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 67.2
+    black: 0
+    red: 44.2
+    green: 64.6
+    yellow: 72.4
+    blue: 61.8
+    magenta: 65.4
+    cyan: 71.7
+    white: 65.5
+    brightBlack: 16.7
+    brightRed: 46.7
+    brightGreen: 91.1
+    brightYellow: 75.4
+    brightBlue: 64.7
+    brightMagenta: 68.4
+    brightCyan: 74.7
+    brightWhite: 100.7

@@ -1,0 +1,53 @@
+name: "Neo Theme"
+source:
+  marketplace_id: "palashmon.theme-neo"
+  version: "1.1.1"
+  installs: 2100
+  rating: 5
+  ratings: 3
+  author: "Palash Mondal"
+  repo: "https://github.com/palashmon/neo-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=palashmon.theme-neo"
+  formats: null
+colors:
+  bg: "#0B1B2D"
+  fg: "#89C4F4"
+  black: "#000000"
+  red: "#F64747"
+  green: "#3AD900"
+  yellow: "#65E6B8"
+  blue: "#0088FF"
+  magenta: "#DDA0DD"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#F64747"
+  brightGreen: "#3AD900"
+  brightYellow: "#65E6B8"
+  brightBlue: "#0088FF"
+  brightMagenta: "#DDA0DD"
+  brightCyan: "#80FCFF"
+  brightWhite: "#193549"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 253
+  pair: null
+  contrast:
+    fg: 66
+    black: 0
+    red: 38.5
+    green: 65.8
+    yellow: 76.7
+    blue: 38.3
+    magenta: 60.6
+    cyan: 92.3
+    white: 106.4
+    brightBlack: 14.2
+    brightRed: 38.5
+    brightGreen: 65.8
+    brightYellow: 76.7
+    brightBlue: 38.3
+    brightMagenta: 60.6
+    brightCyan: 92.3
+    brightWhite: 0

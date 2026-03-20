@@ -1,0 +1,53 @@
+name: "Neon Palette Themes (Neon Palette Themes (Red))"
+source:
+  marketplace_id: "Jofa8.neon-palette-themes"
+  version: "0.0.1"
+  installs: 1871
+  rating: 5
+  ratings: 1
+  author: "Jofa8"
+  repo: "https://github.com/Jofa8/neon-palette-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Jofa8.neon-palette-themes"
+  formats: null
+colors:
+  bg: "#12130F"
+  fg: "#D0CCD1"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#7FE960"
+  yellow: "#FFEC03"
+  blue: "#03B4FF"
+  magenta: "#FF5CE4"
+  cyan: "#02E1D9"
+  white: "#D0CCD1"
+  brightBlack: "#8C8C8C"
+  brightRed: "#FF5E5E"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.8
+    black: 0
+    red: 27.1
+    green: 78.3
+    yellow: 93
+    blue: 56.1
+    magenta: 50.6
+    cyan: 74.5
+    white: 75.8
+    brightBlack: 40
+    brightRed: 45.6
+    brightGreen: 63.9
+    brightYellow: 96
+    brightBlue: 40.4
+    brightMagenta: 45.8
+    brightCyan: 55.8
+    brightWhite: 90.4

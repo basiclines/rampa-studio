@@ -1,0 +1,53 @@
+name: "MoonKai"
+source:
+  marketplace_id: "halcolo.moonkai"
+  version: "1.1.0"
+  installs: 1669
+  rating: 5
+  ratings: 2
+  author: "Halcolo"
+  repo: "https://github.com/halcolo/MoonKai"
+  url: "https://marketplace.visualstudio.com/items?itemName=halcolo.moonkai"
+  formats: null
+colors:
+  bg: "#212634"
+  fg: "#E4F0FF"
+  black: "#2C2423"
+  red: "#F557A0"
+  green: "#A9EE55"
+  yellow: "#F5A255"
+  blue: "#5EA2EC"
+  magenta: "#A957EC"
+  cyan: "#5EEEA0"
+  white: "#918988"
+  brightBlack: "#918988"
+  brightRed: "#F579B2"
+  brightGreen: "#BBEE78"
+  brightYellow: "#F5B378"
+  brightBlue: "#81B3EC"
+  brightMagenta: "#BB79EC"
+  brightCyan: "#81EEB2"
+  brightWhite: "#F5EEEC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 269
+  pair: null
+  contrast:
+    fg: 94
+    black: 0
+    red: 41.5
+    green: 81.3
+    yellow: 59.2
+    blue: 47
+    magenta: 31.9
+    cyan: 77.9
+    white: 36.8
+    brightBlack: 36.8
+    brightRed: 49.5
+    brightGreen: 83.6
+    brightYellow: 65.9
+    brightBlue: 56.1
+    brightMagenta: 42.6
+    brightCyan: 80.3
+    brightWhite: 94.5

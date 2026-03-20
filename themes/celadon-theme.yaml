@@ -1,0 +1,53 @@
+name: "Celadon Theme"
+source:
+  marketplace_id: "alif-naufal.celadon-theme"
+  version: "0.0.12"
+  installs: 8
+  rating: 0
+  ratings: 0
+  author: "Alif Naufal"
+  repo: "https://github.com/alif898/celadon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=alif-naufal.celadon-theme"
+  formats: null
+colors:
+  bg: "#1B2222"
+  fg: "#CEDDDD"
+  black: "#1B2222"
+  red: "#E66E6E"
+  green: "#90B36B"
+  yellow: "#C1B374"
+  blue: "#62ABE3"
+  magenta: "#8C74A8"
+  cyan: "#509FB3"
+  white: "#CEDDDD"
+  brightBlack: "#1B2222"
+  brightRed: "#E66E6E"
+  brightGreen: "#90B36B"
+  brightYellow: "#C1B374"
+  brightBlue: "#62ABE3"
+  brightMagenta: "#8C74A8"
+  brightCyan: "#509FB3"
+  brightWhite: "#CEDDDD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 197
+  pair: null
+  contrast:
+    fg: 81.9
+    black: 0
+    red: 42.4
+    green: 53.1
+    yellow: 58.8
+    blue: 51.1
+    magenta: 31.7
+    cyan: 42.8
+    white: 81.9
+    brightBlack: 0
+    brightRed: 42.4
+    brightGreen: 53.1
+    brightYellow: 58.8
+    brightBlue: 51.1
+    brightMagenta: 31.7
+    brightCyan: 42.8
+    brightWhite: 81.9

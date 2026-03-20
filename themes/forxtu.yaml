@@ -1,0 +1,53 @@
+name: "FORXTU"
+source:
+  marketplace_id: "forxtu.forxtu-vscode-theme"
+  version: "0.2.1"
+  installs: 1551
+  rating: 5
+  ratings: 3
+  author: "forxtu"
+  repo: "https://github.com/forxtu/forxtu-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=forxtu.forxtu-vscode-theme"
+  formats: null
+colors:
+  bg: "#272A3E"
+  fg: "#CECEC7"
+  black: "#272A3E"
+  red: "#FA5653"
+  green: "#22DA6E"
+  yellow: "#9EF2FF"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#FA5653"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 277
+  pair: null
+  contrast:
+    fg: 72.5
+    black: 0
+    red: 39.3
+    green: 64.2
+    yellow: 86.8
+    blue: 52.8
+    magenta: 50.7
+    cyan: 56.6
+    white: 103.8
+    brightBlack: 12.5
+    brightRed: 39.3
+    brightGreen: 64.2
+    brightYellow: 90.6
+    brightBlue: 52.8
+    brightMagenta: 50.7
+    brightCyan: 70.9
+    brightWhite: 103.8

@@ -1,0 +1,51 @@
+name: "Fluxish"
+source:
+  marketplace_id: "sjsepan.sjsepan-fluxish"
+  version: "0.0.1"
+  installs: 36
+  author: "sjsepan"
+  repo: "https://gitlab.com/sjsepan/sjsepan-fluxish"
+  url: "https://marketplace.visualstudio.com/items?itemName=sjsepan.sjsepan-fluxish"
+  formats: null
+colors:
+  bg: "#FDC969"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#261C1C"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 81
+  pair: null
+  contrast:
+    fg: 79.4
+    black: 79.4
+    red: 47.3
+    green: 22.6
+    yellow: 31.2
+    blue: 59.4
+    magenta: 47.9
+    cyan: 33.9
+    white: 76.9
+    brightBlack: 52.1
+    brightRed: 47.3
+    brightGreen: 14.2
+    brightYellow: 14.3
+    brightBlue: 59.4
+    brightMagenta: 47.9
+    brightCyan: 33.9
+    brightWhite: 27.6

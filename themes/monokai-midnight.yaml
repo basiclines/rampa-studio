@@ -1,0 +1,53 @@
+name: "Monokai Midnight"
+source:
+  marketplace_id: "syahrizaldev.monokai-midnight"
+  version: "1.5.2"
+  installs: 314
+  rating: 0
+  ratings: 0
+  author: "Syahrizal"
+  repo: "https://github.com/syahrizaldev/monokai-midnight"
+  url: "https://marketplace.visualstudio.com/items?itemName=syahrizaldev.monokai-midnight"
+  formats: null
+colors:
+  bg: "#0E0E11"
+  fg: "#E2E4E9"
+  black: "#282C33"
+  red: "#E96379"
+  green: "#7BC059"
+  yellow: "#E0B16C"
+  blue: "#5E8EED"
+  magenta: "#E96379"
+  cyan: "#59B7C0"
+  white: "#E3E5E8"
+  brightBlack: "#282C33"
+  brightRed: "#E96379"
+  brightGreen: "#7BC059"
+  brightYellow: "#E0B16C"
+  brightBlue: "#5E8EED"
+  brightMagenta: "#E96379"
+  brightCyan: "#59B7C0"
+  brightWhite: "#E3E5E8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90
+    black: 0
+    red: 42.7
+    green: 58.6
+    yellow: 64.2
+    blue: 42.5
+    magenta: 42.7
+    cyan: 55.7
+    white: 90.6
+    brightBlack: 0
+    brightRed: 42.7
+    brightGreen: 58.6
+    brightYellow: 64.2
+    brightBlue: 42.5
+    brightMagenta: 42.7
+    brightCyan: 55.7
+    brightWhite: 90.6

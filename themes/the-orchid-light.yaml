@@ -1,0 +1,53 @@
+name: "the-orchid-light"
+source:
+  marketplace_id: "403forbidden.the-orchid-theme"
+  version: "1.1.8"
+  installs: 183
+  rating: 5
+  ratings: 1
+  author: "403 Forbidden"
+  repo: "https://github.com/mario-garcia-dev/the-orchid-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=403forbidden.the-orchid-theme"
+  formats: null
+colors:
+  bg: "#F3F3F3"
+  fg: "#222222"
+  black: "#222222"
+  red: "#B62D2D"
+  green: "#0DA56B"
+  yellow: "#C4C40E"
+  blue: "#226AB8"
+  magenta: "#A538A5"
+  cyan: "#0F96B8"
+  white: "#C5C5C5"
+  brightBlack: "#666666"
+  brightRed: "#DA4646"
+  brightGreen: "#20B87B"
+  brightYellow: "#C4C437"
+  brightBlue: "#3582DA"
+  brightMagenta: "#C266C2"
+  brightCyan: "#249DBB"
+  brightWhite: "#E9E9E9"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "the-orchid-dark"
+  contrast:
+    fg: 95.7
+    black: 95.7
+    red: 72.3
+    green: 51.2
+    yellow: 27.9
+    blue: 69.8
+    magenta: 70.3
+    cyan: 54.4
+    white: 24.1
+    brightBlack: 71.6
+    brightRed: 61.1
+    brightGreen: 42.4
+    brightYellow: 27.8
+    brightBlue: 59.1
+    brightMagenta: 55.2
+    brightCyan: 51.3
+    brightWhite: 0

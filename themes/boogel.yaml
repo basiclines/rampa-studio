@@ -1,0 +1,53 @@
+name: "Boogel"
+source:
+  marketplace_id: "ArmOwOn.Boogel"
+  version: "0.0.1"
+  installs: 25
+  rating: 0
+  ratings: 0
+  author: "ArmOwOn"
+  repo: "https://github.com/ArmOwOn/Boogel"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArmOwOn.Boogel"
+  formats: null
+colors:
+  bg: "#292940"
+  fg: "#A7AED2"
+  black: "#1A1A28"
+  red: "#CE5473"
+  green: "#58CE81"
+  yellow: "#FFE277"
+  blue: "#69C6FF"
+  magenta: "#F170F5"
+  cyan: "#5EFFDC"
+  white: "#C8CDE3"
+  brightBlack: "#444469"
+  brightRed: "#D97E95"
+  brightGreen: "#81DAA0"
+  brightYellow: "#FFE896"
+  brightBlue: "#8FD4FF"
+  brightMagenta: "#F492F7"
+  brightCyan: "#83FFE4"
+  brightWhite: "#D6DAEA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 55.2
+    black: 0
+    red: 30.2
+    green: 60.2
+    yellow: 85.9
+    blue: 62.8
+    magenta: 49.3
+    cyan: 87.9
+    white: 72.6
+    brightBlack: 0
+    brightRed: 43.4
+    brightGreen: 69
+    brightYellow: 89.3
+    brightBlue: 71.5
+    brightMagenta: 58.9
+    brightCyan: 90.1
+    brightWhite: 80.3

@@ -1,0 +1,53 @@
+name: "Ravenwood Dark"
+source:
+  marketplace_id: "RaymondThurman.ravenwood"
+  version: "0.2.2"
+  installs: 45
+  rating: 5
+  ratings: 1
+  author: "Raymond Thurman"
+  repo: "https://github.com/raythurman2386/ravenwood-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=RaymondThurman.ravenwood"
+  formats: null
+colors:
+  bg: "#222822"
+  fg: "#E8D5B7"
+  black: "#2D3830"
+  red: "#E67E80"
+  green: "#4ADE80"
+  yellow: "#FBBF24"
+  blue: "#22D3EE"
+  magenta: "#F472B6"
+  cyan: "#34D399"
+  white: "#E8D5B7"
+  brightBlack: "#859289"
+  brightRed: "#E67E80"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FBBF24"
+  brightBlue: "#22D3EE"
+  brightMagenta: "#F472B6"
+  brightCyan: "#34D399"
+  brightWhite: "#E8D5B7"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 145
+  pair: "Ravenwood Light"
+  contrast:
+    fg: 79.4
+    black: 0
+    red: 46
+    green: 68.3
+    yellow: 70.5
+    blue: 66.4
+    magenta: 47.7
+    cyan: 63
+    white: 79.4
+    brightBlack: 38.8
+    brightRed: 46
+    brightGreen: 68.3
+    brightYellow: 70.5
+    brightBlue: 66.4
+    brightMagenta: 47.7
+    brightCyan: 63
+    brightWhite: 79.4

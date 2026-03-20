@@ -1,0 +1,53 @@
+name: "DevStack (Tactical-Ops)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#180809"
+  fg: "#FCFCFC"
+  black: "#180809"
+  red: "#FEA901"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#FF4756"
+  magenta: "#FF4756"
+  cyan: "#29C3A0"
+  white: "#FCFCFC"
+  brightBlack: "#180809"
+  brightRed: "#FEA901"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#FF4756"
+  brightMagenta: "#FF4756"
+  brightCyan: "#29C3A0"
+  brightWhite: "#FCFCFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 17
+  pair: null
+  contrast:
+    fg: 105.6
+    black: 0
+    red: 65.6
+    green: 58.3
+    yellow: 52.4
+    blue: 42
+    magenta: 42
+    cyan: 58.3
+    white: 105.6
+    brightBlack: 0
+    brightRed: 65.6
+    brightGreen: 58.3
+    brightYellow: 52.4
+    brightBlue: 42
+    brightMagenta: 42
+    brightCyan: 58.3
+    brightWhite: 105.6

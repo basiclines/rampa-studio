@@ -1,0 +1,53 @@
+name: "seti-classic-vscode"
+source:
+  marketplace_id: "ecool.seti-classic-vscode"
+  version: "1.0.7"
+  installs: 1194
+  rating: 0
+  ratings: 0
+  author: "ecool"
+  repo: "https://github.com/ecool/seti-classic-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ecool.seti-classic-vscode"
+  formats: null
+colors:
+  bg: "#191B1C"
+  fg: "#D4D7D6"
+  black: "#151718"
+  red: "#CD3F45"
+  green: "#9FCA56"
+  yellow: "#E6CD69"
+  blue: "#55B5DB"
+  magenta: "#A074C4"
+  cyan: "#55DBBE"
+  white: "#D6D6D6"
+  brightBlack: "#41535B"
+  brightRed: "#FF7278"
+  brightGreen: "#D2FD89"
+  brightYellow: "#FFFF9C"
+  brightBlue: "#88E8FF"
+  brightMagenta: "#D3A7F7"
+  brightCyan: "#88FFF1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 0
+    red: 28.2
+    green: 65
+    yellow: 75.4
+    blue: 55
+    magenta: 36.5
+    cyan: 70.9
+    white: 80.3
+    brightBlack: 12.9
+    brightRed: 49.6
+    brightGreen: 95.7
+    brightYellow: 102.9
+    brightBlue: 83
+    brightMagenta: 63
+    brightCyan: 93.7
+    brightWhite: 106.5

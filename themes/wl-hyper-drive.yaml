@@ -1,0 +1,53 @@
+name: "WL-Hyper Drive"
+source:
+  marketplace_id: "WatkinsLabs.hyper-drive"
+  version: "1.0.1"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.hyper-drive"
+  formats: null
+colors:
+  bg: "#0E0F14"
+  fg: "#F2F5FA"
+  black: "#000000"
+  red: "#FF2400"
+  green: "#32CD32"
+  yellow: "#FF6A00"
+  blue: "#FFAA00"
+  magenta: "#FF7300"
+  cyan: "#FFAA00"
+  white: "#F2F5FA"
+  brightBlack: "#666666"
+  brightRed: "#FF2400"
+  brightGreen: "#32CD32"
+  brightYellow: "#FF6A00"
+  brightBlue: "#FFAA00"
+  brightMagenta: "#FF7300"
+  brightCyan: "#FFAA00"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 100.7
+    black: 0
+    red: 38
+    green: 61
+    yellow: 47.5
+    blue: 66.1
+    magenta: 49.6
+    cyan: 66.1
+    white: 100.7
+    brightBlack: 22.7
+    brightRed: 38
+    brightGreen: 61
+    brightYellow: 47.5
+    brightBlue: 66.1
+    brightMagenta: 49.6
+    brightCyan: 66.1
+    brightWhite: 107.5

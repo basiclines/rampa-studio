@@ -1,0 +1,53 @@
+name: "Tailwind"
+source:
+  marketplace_id: "securisec.hapsida-securisec"
+  version: "0.0.30"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "securisec"
+  repo: "https://github.com/securisec/code-hapsida"
+  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+  formats: null
+colors:
+  bg: "#181E29"
+  fg: "#EDF2F7"
+  black: "#000000"
+  red: "#FEB2B2"
+  green: "#9AE6B4"
+  yellow: "#FBD38D"
+  blue: "#A3BFFA"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#FBD38D"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#193549"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 97.1
+    black: 0
+    red: 70.1
+    green: 79.6
+    yellow: 81.5
+    blue: 66.1
+    magenta: 63.5
+    cyan: 91.9
+    white: 106.1
+    brightBlack: 13.8
+    brightRed: 46.3
+    brightGreen: 65.5
+    brightYellow: 81.5
+    brightBlue: 37.9
+    brightMagenta: 63.5
+    brightCyan: 91.9
+    brightWhite: 0

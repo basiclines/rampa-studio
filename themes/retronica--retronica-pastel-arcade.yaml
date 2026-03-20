@@ -1,0 +1,53 @@
+name: "Retronica (Retronica Pastel Arcade)"
+source:
+  marketplace_id: "adham.retronica"
+  version: "1.0.0"
+  installs: 192
+  rating: 5
+  ratings: 1
+  author: "Adham"
+  repo: "https://github.com/adham-dev/retronica"
+  url: "https://marketplace.visualstudio.com/items?itemName=adham.retronica"
+  formats: null
+colors:
+  bg: "#F8F5F0"
+  fg: "#4A4555"
+  black: "#4A4555"
+  red: "#C06060"
+  green: "#609070"
+  yellow: "#B08040"
+  blue: "#5080A0"
+  magenta: "#A06080"
+  cyan: "#508090"
+  white: "#F0EBE5"
+  brightBlack: "#7A7080"
+  brightRed: "#D08080"
+  brightGreen: "#70A080"
+  brightYellow: "#C09050"
+  brightBlue: "#6090B0"
+  brightMagenta: "#B07090"
+  brightCyan: "#6090A0"
+  brightWhite: "#F8F5F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.5
+    black: 85.5
+    red: 62.2
+    green: 58.4
+    yellow: 56.6
+    blue: 63.5
+    magenta: 66.6
+    cyan: 64.2
+    white: 0
+    brightBlack: 66.9
+    brightRed: 50.2
+    brightGreen: 50.7
+    brightYellow: 48.8
+    brightBlue: 56
+    brightMagenta: 59.3
+    brightCyan: 56.7
+    brightWhite: 0

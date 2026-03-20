@@ -1,0 +1,53 @@
+name: "spacegrey"
+source:
+  marketplace_id: "huodon.spacegrey"
+  version: "0.1.4"
+  installs: 647
+  rating: 5
+  ratings: 1
+  author: "huodon"
+  repo: "https://github.com/FlatMapIO/vscode-spacegrey-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=huodon.spacegrey"
+  formats: null
+colors:
+  bg: "#F1F3F8"
+  fg: "#383F51"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00AC00"
+  yellow: "#D89E00"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0089AC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#F5C800"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#B0BDC7"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.2
+    black: 98.9
+    red: 66.8
+    green: 49.2
+    yellow: 39.5
+    blue: 78.9
+    magenta: 67.4
+    cyan: 60
+    white: 78.8
+    brightBlack: 71.6
+    brightRed: 66.8
+    brightGreen: 33.7
+    brightYellow: 19.5
+    brightBlue: 78.9
+    brightMagenta: 67.4
+    brightCyan: 53.4
+    brightWhite: 29.5

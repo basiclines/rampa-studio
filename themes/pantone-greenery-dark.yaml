@@ -1,0 +1,53 @@
+name: "Pantone Greenery (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#161C0C"
+  fg: "#DDDDCD"
+  black: "#161C0C"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#4C7E66"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#DDDDCD"
+  brightBlack: "#85874D"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F5F4F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 126
+  pair: "Pantone Greenery (Light)"
+  contrast:
+    fg: 84
+    black: 0
+    red: 31.8
+    green: 51.4
+    yellow: 71.1
+    blue: 27.9
+    magenta: 32.9
+    cyan: 52.1
+    white: 84
+    brightBlack: 35.1
+    brightRed: 38.2
+    brightGreen: 58.7
+    brightYellow: 75.5
+    brightBlue: 28.4
+    brightMagenta: 41.5
+    brightCyan: 58.7
+    brightWhite: 99.3

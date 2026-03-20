@@ -1,0 +1,53 @@
+name: "Yurei Dark Theme"
+source:
+  marketplace_id: "vanreagan.yurei-dark-theme"
+  version: "1.1.0"
+  installs: 282
+  rating: 5
+  ratings: 1
+  author: "vanreagan"
+  repo: "https://github.com/vanreagan/yurei-dark-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=vanreagan.yurei-dark-theme"
+  formats: null
+colors:
+  bg: "#151515"
+  fg: "#B4B4B4"
+  black: "#514E4E"
+  red: "#BC5E5E"
+  green: "#5BB492"
+  yellow: "#D5D567"
+  blue: "#71849B"
+  magenta: "#BC71BC"
+  cyan: "#5AB6CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F57979"
+  brightGreen: "#7EF2C4"
+  brightYellow: "#FFFFB0"
+  brightBlue: "#99CAFF"
+  brightMagenta: "#E6B4E6"
+  brightCyan: "#6AE2FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 61
+    black: 12.9
+    red: 31.6
+    green: 52.2
+    yellow: 77
+    blue: 35
+    magenta: 39.9
+    cyan: 55.5
+    white: 90.2
+    brightBlack: 22.2
+    brightRed: 49.8
+    brightGreen: 85.1
+    brightYellow: 104
+    brightBlue: 71.2
+    brightMagenta: 70.2
+    brightCyan: 78.9
+    brightWhite: 90.2

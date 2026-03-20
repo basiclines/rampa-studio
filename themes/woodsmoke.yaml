@@ -1,0 +1,53 @@
+name: "Woodsmoke"
+source:
+  marketplace_id: "QuentinLowette.woodsmoke"
+  version: "0.2.1"
+  installs: 483
+  rating: 5
+  ratings: 1
+  author: "Quentin Lowette"
+  repo: "https://github.com/quentinlowette/woodsmoke"
+  url: "https://marketplace.visualstudio.com/items?itemName=QuentinLowette.woodsmoke"
+  formats: null
+colors:
+  bg: "#16191C"
+  fg: "#F6F8FA"
+  black: "#212121"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#EEFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.9
+    black: 0
+    red: 46.4
+    green: 84
+    yellow: 78.8
+    blue: 55.7
+    magenta: 53.6
+    cyan: 78.1
+    white: 104.4
+    brightBlack: 10.8
+    brightRed: 46.4
+    brightGreen: 84
+    brightYellow: 78.8
+    brightBlue: 55.7
+    brightMagenta: 53.6
+    brightCyan: 78.1
+    brightWhite: 106.7

@@ -1,0 +1,53 @@
+name: "Matrix Mint"
+source:
+  marketplace_id: "Barkerbg001.matrix-mint-vscode"
+  version: "1.1.0"
+  installs: 285
+  rating: 0
+  ratings: 0
+  author: "Barkerbg001"
+  repo: "https://github.com/barkerbg001/matrix-mint-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Barkerbg001.matrix-mint-vscode"
+  formats: null
+colors:
+  bg: "#0F1F0F"
+  fg: "#A2AABC"
+  black: "#1A4D1A"
+  red: "#FF4444"
+  green: "#66FFAA"
+  yellow: "#00FF41"
+  blue: "#00FF88"
+  magenta: "#00FF41"
+  cyan: "#00FF88"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#FF4444"
+  brightGreen: "#66FFAA"
+  brightYellow: "#00FF41"
+  brightBlue: "#00FF88"
+  brightMagenta: "#00FF41"
+  brightCyan: "#00FF88"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 144
+  pair: null
+  contrast:
+    fg: 54.6
+    black: 8.2
+    red: 40.1
+    green: 89
+    yellow: 85.2
+    blue: 86.2
+    magenta: 85.2
+    cyan: 86.2
+    white: 54.6
+    brightBlack: 10.6
+    brightRed: 40.1
+    brightGreen: 89
+    brightYellow: 85.2
+    brightBlue: 86.2
+    brightMagenta: 85.2
+    brightCyan: 86.2
+    brightWhite: 54.6

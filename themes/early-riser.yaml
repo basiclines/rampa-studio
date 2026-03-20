@@ -1,0 +1,53 @@
+name: "Early Riser"
+source:
+  marketplace_id: "mikemcbride.early-riser"
+  version: "1.2.2"
+  installs: 441
+  rating: 0
+  ratings: 0
+  author: "Mike McBride"
+  repo: "https://github.com/mikemcbride/vscode-early-riser"
+  url: "https://marketplace.visualstudio.com/items?itemName=mikemcbride.early-riser"
+  formats: null
+colors:
+  bg: "#F7FAFC"
+  fg: "#6E7F91"
+  black: "#424C57"
+  red: "#EF4444"
+  green: "#10B981"
+  yellow: "#F59E0B"
+  blue: "#2563EB"
+  magenta: "#7C3AED"
+  cyan: "#06B6D4"
+  white: "#F7FAFC"
+  brightBlack: "#8B99A7"
+  brightRed: "#EF4444"
+  brightGreen: "#10B981"
+  brightYellow: "#F59E0B"
+  brightBlue: "#2563EB"
+  brightMagenta: "#7C3AED"
+  brightCyan: "#06B6D4"
+  brightWhite: "#F7FAFC"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65
+    black: 86.7
+    red: 60.5
+    green: 45.8
+    yellow: 38.5
+    blue: 71.6
+    magenta: 74.2
+    cyan: 43.9
+    white: 0
+    brightBlack: 52.2
+    brightRed: 60.5
+    brightGreen: 45.8
+    brightYellow: 38.5
+    brightBlue: 71.6
+    brightMagenta: 74.2
+    brightCyan: 43.9
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "frost-spark-dark"
+source:
+  marketplace_id: "pbarnum.frost-spark-theme"
+  version: "1.1.0"
+  installs: 83
+  rating: 0
+  ratings: 0
+  author: "pbarnum"
+  repo: "https://github.com/pbarnum/frost-spark-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pbarnum.frost-spark-theme"
+  formats: null
+colors:
+  bg: "#07161B"
+  fg: "#CFCFCF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 221
+  pair: null
+  contrast:
+    fg: 76.7
+    black: 0
+    red: 26.9
+    green: 53.2
+    yellow: 85.8
+    blue: 27.7
+    magenta: 30
+    cyan: 47.8
+    white: 90.2
+    brightBlack: 22.3
+    brightRed: 38.8
+    brightGreen: 63.8
+    brightYellow: 95.9
+    brightBlue: 40.2
+    brightMagenta: 45.6
+    brightCyan: 55.6
+    brightWhite: 90.2

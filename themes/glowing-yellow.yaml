@@ -1,0 +1,53 @@
+name: "Glowing Yellow"
+source:
+  marketplace_id: "JFeser.darkercolor"
+  version: "2.1.0"
+  installs: 13
+  rating: 0
+  ratings: 0
+  author: "J. Feser"
+  repo: "https://github.com/redo7370/darkercolors"
+  url: "https://marketplace.visualstudio.com/items?itemName=JFeser.darkercolor"
+  formats: null
+colors:
+  bg: "#0A0A05"
+  fg: "#F2F2F2"
+  black: "#0D0D06"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFCC00"
+  blue: "#00CCCC"
+  magenta: "#CC00CC"
+  cyan: "#00CCCC"
+  white: "#F2F2F2"
+  brightBlack: "#111108"
+  brightRed: "#FF6666"
+  brightGreen: "#66FF66"
+  brightYellow: "#CCCC00"
+  brightBlue: "#00FFFF"
+  brightMagenta: "#FF33FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 108
+  pair: null
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 37.4
+    green: 86.4
+    yellow: 79.5
+    blue: 64.3
+    magenta: 31.3
+    cyan: 64.3
+    white: 99.2
+    brightBlack: 0
+    brightRed: 47.8
+    brightGreen: 88.9
+    brightYellow: 71.8
+    brightBlue: 92
+    brightMagenta: 47.8
+    brightCyan: 92
+    brightWhite: 99.2

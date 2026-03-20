@@ -1,0 +1,53 @@
+name: "VXcode Theme (vxcode darker)"
+source:
+  marketplace_id: "evertjunior.vxcode-theme"
+  version: "0.0.15"
+  installs: 3242
+  rating: 5
+  ratings: 3
+  author: "Evert Junior"
+  repo: "https://github.com/evertjr/vxcode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=evertjunior.vxcode-theme"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#E3E3E3"
+  black: "#333333"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B290BA"
+  cyan: "#6AB8C0"
+  white: "#E3E3E3"
+  brightBlack: "#666666"
+  brightRed: "#F48484"
+  brightGreen: "#76C3A5"
+  brightYellow: "#F2D98E"
+  brightBlue: "#80A8E4"
+  brightMagenta: "#C2A0CA"
+  brightCyan: "#7AC8D0"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "VXcode Theme (vxcode lime)"
+  contrast:
+    fg: 89.6
+    black: 0
+    red: 45.7
+    green: 53.1
+    yellow: 74.8
+    blue: 45.8
+    magenta: 48.3
+    cyan: 57.2
+    white: 89.6
+    brightBlack: 22.9
+    brightRed: 53.6
+    brightGreen: 61.7
+    brightYellow: 84.4
+    brightBlue: 54.1
+    brightMagenta: 56.8
+    brightCyan: 66
+    brightWhite: 101.8

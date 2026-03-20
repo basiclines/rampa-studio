@@ -1,0 +1,53 @@
+name: "Liquor Theme"
+source:
+  marketplace_id: "gen9009.Liquor-Theme"
+  version: "0.0.7"
+  installs: 36
+  rating: 0
+  ratings: 0
+  author: "gen9009"
+  repo: "https://github.com/gen9009/Liquor-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gen9009.Liquor-Theme"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#595959"
+  black: "#000000"
+  red: "#D81E00"
+  green: "#7D9D56"
+  yellow: "#A4755D"
+  blue: "#6183A5"
+  magenta: "#89658E"
+  cyan: "#00A7AA"
+  white: "#515050"
+  brightBlack: "#686A66"
+  brightRed: "#BD736E"
+  brightGreen: "#88AA61"
+  brightYellow: "#AF513A"
+  brightBlue: "#739ABE"
+  brightMagenta: "#B772AE"
+  brightCyan: "#63B4B6"
+  brightWhite: "#BEBEBB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 17.5
+    black: 0
+    red: 28.5
+    green: 44
+    yellow: 34.5
+    blue: 34.6
+    magenta: 27.9
+    cyan: 46.2
+    white: 14.1
+    brightBlack: 24.3
+    brightRed: 38.2
+    brightGreen: 50.5
+    brightYellow: 26.5
+    brightBlue: 45.5
+    brightMagenta: 39.4
+    brightCyan: 54.7
+    brightWhite: 67.2

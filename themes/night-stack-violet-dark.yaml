@@ -1,0 +1,53 @@
+name: "Night-Stack Violet Dark"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#070509"
+  fg: "#F3E8FF"
+  black: "#1A1222"
+  red: "#A855F7"
+  green: "#C084FC"
+  yellow: "#DDD6FE"
+  blue: "#7C3AED"
+  magenta: "#9333EA"
+  cyan: "#C4B5FD"
+  white: "#F3E8FF"
+  brightBlack: "#1A1222"
+  brightRed: "#A855F7"
+  brightGreen: "#C084FC"
+  brightYellow: "#DDD6FE"
+  brightBlue: "#7C3AED"
+  brightMagenta: "#9333EA"
+  brightCyan: "#C4B5FD"
+  brightWhite: "#F3E8FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 309
+  pair: null
+  contrast:
+    fg: 95.5
+    black: 0
+    red: 35.4
+    green: 50.6
+    yellow: 84.6
+    blue: 24.3
+    magenta: 26.1
+    cyan: 67.8
+    white: 95.5
+    brightBlack: 0
+    brightRed: 35.4
+    brightGreen: 50.6
+    brightYellow: 84.6
+    brightBlue: 24.3
+    brightMagenta: 26.1
+    brightCyan: 67.8
+    brightWhite: 95.5

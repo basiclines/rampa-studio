@@ -1,0 +1,53 @@
+name: "TechSwahili Color Theme"
+source:
+  marketplace_id: "Ramadhanmkoma.techswahili"
+  version: "1.1.0"
+  installs: 112
+  rating: 5
+  ratings: 1
+  author: "TechSWahili"
+  repo: "https://github.com/Ramadhanmkoma/VSCode-Color-Theme-Extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ramadhanmkoma.techswahili"
+  formats: null
+colors:
+  bg: "#1A1C36"
+  fg: "#F1F1FF"
+  black: "#3A3D4B"
+  red: "#FF657A"
+  green: "#BAD761"
+  yellow: "#FFD76D"
+  blue: "#62B0FF"
+  magenta: "#C39AC9"
+  cyan: "#9CD1BB"
+  white: "#EAF2F1"
+  brightBlack: "#696D77"
+  brightRed: "#FF657A"
+  brightGreen: "#BAD761"
+  brightYellow: "#FFD76D"
+  brightBlue: "#FF9B5E"
+  brightMagenta: "#C39AC9"
+  brightCyan: "#9CD1BB"
+  brightWhite: "#EAF2F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 46.3
+    green: 73.4
+    yellow: 83.1
+    blue: 55.3
+    magenta: 53
+    cyan: 70.1
+    white: 96.3
+    brightBlack: 24.1
+    brightRed: 46.3
+    brightGreen: 73.4
+    brightYellow: 83.1
+    brightBlue: 60.1
+    brightMagenta: 53
+    brightCyan: 70.1
+    brightWhite: 96.3

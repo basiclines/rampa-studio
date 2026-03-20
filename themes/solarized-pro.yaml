@@ -1,0 +1,54 @@
+name: "Solarized Pro"
+source:
+  marketplace_id: "IIInsomnia.solarized-pro"
+  version: "1.0.13"
+  installs: 1348
+  rating: 5
+  ratings: 2
+  author: "noble-gase"
+  repo: "https://github.com/noble-gase/ng"
+  url: "https://marketplace.visualstudio.com/items?itemName=IIInsomnia.solarized-pro"
+  formats:
+    zed: "https://raw.githubusercontent.com/noble-gase/ng/main/themes/solarized-pro-color-theme.json"
+colors:
+  bg: "#002B36"
+  fg: "#839496"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#073642"
+  brightRed: "#CB4B16"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#268BD2"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  pair: null
+  contrast:
+    fg: 39.5
+    black: 0
+    red: 27.7
+    green: 39.2
+    yellow: 39.2
+    blue: 34.3
+    magenta: 28
+    cyan: 40
+    white: 89.5
+    brightBlack: 0
+    brightRed: 27.2
+    brightGreen: 39.2
+    brightYellow: 39.2
+    brightBlue: 34.3
+    brightMagenta: 28
+    brightCyan: 34.3
+    brightWhite: 98.6

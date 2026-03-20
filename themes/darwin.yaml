@@ -1,0 +1,53 @@
+name: "Darwin"
+source:
+  marketplace_id: "chriskseidel.darwin"
+  version: "1.5.1"
+  installs: 12800
+  rating: 4.86
+  ratings: 7
+  author: "Chris K. Seidel"
+  repo: "https://chriskseidel.visualstudio.com/_git/Darwin"
+  url: "https://marketplace.visualstudio.com/items?itemName=chriskseidel.darwin"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#3A3A3A"
+  red: "#F90086"
+  green: "#08FBCF"
+  yellow: "#FFF900"
+  blue: "#54D4FF"
+  magenta: "#F90086"
+  cyan: "#54D4FF"
+  white: "#FFFFFF"
+  brightBlack: "#3A3A3A"
+  brightRed: "#F90086"
+  brightGreen: "#08FBCF"
+  brightYellow: "#FFF900"
+  brightBlue: "#54D4FF"
+  brightMagenta: "#F90086"
+  brightCyan: "#54D4FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 38
+    green: 87.9
+    yellow: 99.8
+    blue: 72.2
+    magenta: 38
+    cyan: 72.2
+    white: 107.9
+    brightBlack: 0
+    brightRed: 38
+    brightGreen: 87.9
+    brightYellow: 99.8
+    brightBlue: 72.2
+    brightMagenta: 38
+    brightCyan: 72.2
+    brightWhite: 107.9

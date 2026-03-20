@@ -1,0 +1,53 @@
+name: "Fleeting Theme"
+source:
+  marketplace_id: "fleeting-sound.fleeting-theme"
+  version: "0.1.6"
+  installs: 470
+  rating: 5
+  ratings: 1
+  author: "fleeting-sound"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=fleeting-sound.fleeting-theme"
+  formats: null
+colors:
+  bg: "#1E232C"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#528BFF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 57.8
+    black: 0
+    red: 40.5
+    green: 60.7
+    yellow: 69
+    blue: 39.9
+    magenta: 43.6
+    cyan: 53
+    white: 81.5
+    brightBlack: 34
+    brightRed: 36.9
+    brightGreen: 60.7
+    brightYellow: 69
+    brightBlue: 39.9
+    brightMagenta: 11.2
+    brightCyan: 53
+    brightWhite: 81.5

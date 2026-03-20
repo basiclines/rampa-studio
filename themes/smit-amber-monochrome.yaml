@@ -1,0 +1,53 @@
+name: "Smit Amber Monochrome"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#1A1510"
+  fg: "#F4A460"
+  black: "#1A1510"
+  red: "#CC5522"
+  green: "#CC8833"
+  yellow: "#FFAA44"
+  blue: "#CC7A33"
+  magenta: "#DD8844"
+  cyan: "#EEBB66"
+  white: "#FFCC88"
+  brightBlack: "#4A3520"
+  brightRed: "#DD6633"
+  brightGreen: "#DD9944"
+  brightYellow: "#FFBB55"
+  brightBlue: "#DD8844"
+  brightMagenta: "#EE9955"
+  brightCyan: "#FFCC77"
+  brightWhite: "#FFDD99"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 67
+  pair: null
+  contrast:
+    fg: 62.1
+    black: 0
+    red: 31.8
+    green: 45.2
+    yellow: 65.9
+    blue: 41
+    magenta: 48.4
+    cyan: 69.7
+    white: 80
+    brightBlack: 0
+    brightRed: 39
+    brightGreen: 53.9
+    brightYellow: 72.3
+    brightBlue: 48.4
+    brightMagenta: 57.1
+    brightCyan: 79.7
+    brightWhite: 87.7

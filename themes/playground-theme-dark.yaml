@@ -1,0 +1,53 @@
+name: "Playground Theme Dark"
+source:
+  marketplace_id: "zer0deck.playground-theme-dark"
+  version: "1.0.0"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "zer0deck"
+  repo: "https://github.com/zer0deck/Playground-Themes-VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=zer0deck.playground-theme-dark"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#35BB9B"
+  yellow: "#E5E510"
+  blue: "#4B89DA"
+  magenta: "#BC3FBC"
+  cyan: "#4CABD7"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#62DDBD"
+  brightYellow: "#F5F543"
+  brightBlue: "#5E9CEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#5DBEE6"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Playground Theme"
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 25.9
+    green: 53.2
+    yellow: 84.8
+    blue: 36.9
+    magenta: 28.9
+    cyan: 49.8
+    white: 89.2
+    brightBlack: 21.2
+    brightRed: 37.7
+    brightGreen: 72
+    brightYellow: 94.8
+    brightBlue: 45.9
+    brightMagenta: 44.5
+    brightCyan: 59.4
+    brightWhite: 89.2

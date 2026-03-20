@@ -1,0 +1,53 @@
+name: "Phosphor Aurora"
+source:
+  marketplace_id: "glidebuild.phosphor-themes"
+  version: "1.0.0"
+  installs: 40
+  rating: 0
+  ratings: 0
+  author: "glide.build"
+  repo: "https://github.com/mo-shawa/phosphor-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=glidebuild.phosphor-themes"
+  formats: null
+colors:
+  bg: "#080C18"
+  fg: "#C0D0E8"
+  black: "#101828"
+  red: "#FF5F8F"
+  green: "#00FFA3"
+  yellow: "#FFE066"
+  blue: "#00D4FF"
+  magenta: "#BF7FFF"
+  cyan: "#00E5CC"
+  white: "#C0D0E8"
+  brightBlack: "#5070A0"
+  brightRed: "#FF9EC4"
+  brightGreen: "#7FFFD4"
+  brightYellow: "#FFF7A0"
+  brightBlue: "#7FEFFF"
+  brightMagenta: "#D8B4FF"
+  brightCyan: "#7FFFF0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 269
+  pair: null
+  contrast:
+    fg: 77
+    black: 0
+    red: 47.4
+    green: 88.2
+    yellow: 88.6
+    blue: 70.6
+    magenta: 49.1
+    cyan: 76.2
+    white: 77
+    brightBlack: 26.7
+    brightRed: 65.7
+    brightGreen: 93
+    brightYellow: 100.3
+    brightBlue: 87
+    brightMagenta: 70.1
+    brightCyan: 94.2
+    brightWhite: 107.6

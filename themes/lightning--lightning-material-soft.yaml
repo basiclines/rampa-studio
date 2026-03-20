@@ -1,0 +1,53 @@
+name: "Lightning (Lightning Material - Soft)"
+source:
+  marketplace_id: "zevross.lightning"
+  version: "2.1.1"
+  installs: 892
+  rating: 0
+  ratings: 0
+  author: "Zev Ross"
+  repo: "https://github.com/Zev18/lightning"
+  url: "https://marketplace.visualstudio.com/items?itemName=zevross.lightning"
+  formats: null
+colors:
+  bg: "#262B3D"
+  fg: "#76C6FF"
+  black: "#000000"
+  red: "#CF3E5B"
+  green: "#44EABD"
+  yellow: "#F5C86E"
+  blue: "#2681F9"
+  magenta: "#9172FF"
+  cyan: "#3EC5FF"
+  white: "#C4C6CB"
+  brightBlack: "#333333"
+  brightRed: "#FF477E"
+  brightGreen: "#66FFDE"
+  brightYellow: "#F07178"
+  brightBlue: "#44B1FF"
+  brightMagenta: "#B76DFF"
+  brightCyan: "#21FBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 272
+  pair: "Lightning (Lightning Cloud)"
+  contrast:
+    fg: 63.4
+    black: 0
+    red: 26.2
+    green: 75
+    yellow: 72.9
+    blue: 33
+    magenta: 35.6
+    cyan: 60.5
+    white: 67.9
+    brightBlack: 0
+    brightRed: 39.1
+    brightGreen: 88.2
+    brightYellow: 43.4
+    brightBlue: 52.2
+    brightMagenta: 39.3
+    brightCyan: 86
+    brightWhite: 103.7

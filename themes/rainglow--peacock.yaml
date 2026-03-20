@@ -1,0 +1,53 @@
+name: "Rainglow (peacock)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#2B2A27"
+  fg: "#EDE0CE"
+  black: "#383733"
+  red: "#BA0E2E"
+  green: "#26A6A6"
+  yellow: "#FF5D38"
+  blue: "#BCD42A"
+  magenta: "#26A6A6"
+  cyan: "#FF5D38"
+  white: "#F4ECE1"
+  brightBlack: "#605E57"
+  brightRed: "#F03E5F"
+  brightGreen: "#59D9D9"
+  brightYellow: "#FFB09E"
+  brightBlue: "#D7E67E"
+  brightMagenta: "#59D9D9"
+  brightCyan: "#FFB09E"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (peacock-light)"
+  contrast:
+    fg: 85.1
+    black: 0
+    red: 17.7
+    green: 42.2
+    yellow: 41.6
+    blue: 69.8
+    magenta: 42.2
+    cyan: 41.6
+    white: 92.3
+    brightBlack: 15.8
+    brightRed: 34
+    brightGreen: 68.9
+    brightYellow: 66.9
+    brightBlue: 82.5
+    brightMagenta: 68.9
+    brightCyan: 66.9
+    brightWhite: 104

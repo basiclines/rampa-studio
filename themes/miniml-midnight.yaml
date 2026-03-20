@@ -1,0 +1,53 @@
+name: "miniml-midnight"
+source:
+  marketplace_id: "pantherandcub.miniml"
+  version: "4.3.0"
+  installs: 395
+  rating: 0
+  ratings: 0
+  author: "pantherandcub"
+  repo: "https://github.com/Panther-Cub/miniml"
+  url: "https://marketplace.visualstudio.com/items?itemName=pantherandcub.miniml"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#B4B4B4"
+  black: "#404040"
+  red: "#C15A5A"
+  green: "#9EB88C"
+  yellow: "#C3E090"
+  blue: "#5A93B8"
+  magenta: "#5DC4AA"
+  cyan: "#57B3BD"
+  white: "#B4B4B4"
+  brightBlack: "#545454"
+  brightRed: "#C15A5A"
+  brightGreen: "#9EB88C"
+  brightYellow: "#C3E090"
+  brightBlue: "#5A93B8"
+  brightMagenta: "#5DC4AA"
+  brightCyan: "#57B3BD"
+  brightWhite: "#B4B4B4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 61.8
+    black: 8.5
+    red: 32.4
+    green: 59.6
+    yellow: 81.5
+    blue: 41.1
+    magenta: 61.1
+    cyan: 54.1
+    white: 61.8
+    brightBlack: 15.7
+    brightRed: 32.4
+    brightGreen: 59.6
+    brightYellow: 81.5
+    brightBlue: 41.1
+    brightMagenta: 61.1
+    brightCyan: 54.1
+    brightWhite: 61.8

@@ -1,0 +1,53 @@
+name: "WL-Dial Tone"
+source:
+  marketplace_id: "WatkinsLabs.dial-tone"
+  version: "1.0.1"
+  installs: 37
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.dial-tone"
+  formats: null
+colors:
+  bg: "#254441"
+  fg: "#CFCFCF"
+  black: "#000000"
+  red: "#CC0000"
+  green: "#89C47C"
+  yellow: "#FF9900"
+  blue: "#95B3D7"
+  magenta: "#F9CB9C"
+  cyan: "#95B3D7"
+  white: "#CFCFCF"
+  brightBlack: "#666666"
+  brightRed: "#CC0000"
+  brightGreen: "#89C47C"
+  brightYellow: "#FF9900"
+  brightBlue: "#95B3D7"
+  brightMagenta: "#F9CB9C"
+  brightCyan: "#95B3D7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 188
+  pair: null
+  contrast:
+    fg: 68
+    black: 9.4
+    red: 15.8
+    green: 53.1
+    yellow: 51.3
+    blue: 50.3
+    magenta: 70.6
+    cyan: 50.3
+    white: 68
+    brightBlack: 13.6
+    brightRed: 15.8
+    brightGreen: 53.1
+    brightYellow: 51.3
+    brightBlue: 50.3
+    brightMagenta: 70.6
+    brightCyan: 50.3
+    brightWhite: 98.5

@@ -1,0 +1,53 @@
+name: "The Digital Life"
+source:
+  marketplace_id: "xcad2k.vscode-thedigitallife"
+  version: "1.1.0"
+  installs: 11902
+  rating: 5
+  ratings: 6
+  author: "Christian Lempa"
+  repo: "git+https://github.com/xcad2k/vscode-thedigitallife"
+  url: "https://marketplace.visualstudio.com/items?itemName=xcad2k.vscode-thedigitallife"
+  formats: null
+colors:
+  bg: "#1D1D1D"
+  fg: "#D1D1D1"
+  black: "#000000"
+  red: "#A52AFF"
+  green: "#7129FF"
+  yellow: "#3D2AFF"
+  blue: "#2B4FFF"
+  magenta: "#2883FF"
+  cyan: "#28B9FF"
+  white: "#CFCFCF"
+  brightBlack: "#2F2F2F"
+  brightRed: "#BA5AFF"
+  brightGreen: "#905AFF"
+  brightYellow: "#685AFF"
+  brightBlue: "#5C78FF"
+  brightMagenta: "#5EA2FF"
+  brightCyan: "#5AC8FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77
+    black: 0
+    red: 28.3
+    green: 21.4
+    yellow: 17.5
+    blue: 22.5
+    magenta: 36.7
+    cyan: 57.3
+    white: 75.8
+    brightBlack: 0
+    brightRed: 38.1
+    brightGreen: 32.2
+    brightYellow: 28.1
+    brightBlue: 35.2
+    brightMagenta: 49.8
+    brightCyan: 65.3
+    brightWhite: 106.2

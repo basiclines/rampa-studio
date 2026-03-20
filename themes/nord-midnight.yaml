@@ -1,0 +1,53 @@
+name: "Nord Midnight"
+source:
+  marketplace_id: "adorabilis.nord-midnight"
+  version: "0.0.1"
+  installs: 5006
+  rating: 5
+  ratings: 3
+  author: "adorabilis"
+  repo: "https://github.com/adorabilis/nord-midnight-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=adorabilis.nord-midnight"
+  formats: null
+colors:
+  bg: "#1A1D23"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: "Nord Light"
+  contrast:
+    fg: 84.7
+    black: 7.4
+    red: 32.3
+    green: 61
+    yellow: 75.7
+    blue: 48
+    magenta: 45.8
+    cyan: 62
+    white: 91.7
+    brightBlack: 14.7
+    brightRed: 32.3
+    brightGreen: 61
+    brightYellow: 75.7
+    brightBlue: 48
+    brightMagenta: 45.8
+    brightCyan: 59.9
+    brightWhite: 95.5

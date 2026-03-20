@@ -1,0 +1,53 @@
+name: "nanami-madobe-theme"
+source:
+  marketplace_id: "tyvy.nanami-madobe-theme"
+  version: "2.0.0"
+  installs: 192
+  rating: 5
+  ratings: 1
+  author: "tyvy"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=tyvy.nanami-madobe-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#D9430D"
+  green: "#00BC00"
+  yellow: "#F2BC1B"
+  blue: "#085CA6"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#FF4400"
+  brightGreen: "#14CE14"
+  brightYellow: "#FFBF00"
+  brightBlue: "#004079"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 69.3
+    green: 49.2
+    yellow: 31.7
+    blue: 82.8
+    magenta: 74.6
+    cyan: 60.6
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 60.4
+    brightGreen: 40.9
+    brightYellow: 28.5
+    brightBlue: 93.6
+    brightMagenta: 74.6
+    brightCyan: 60.6
+    brightWhite: 48.5

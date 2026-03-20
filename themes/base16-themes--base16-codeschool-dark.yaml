@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Codeschool Dark)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#232C31"
+  fg: "#9EA7A6"
+  black: "#2A343A"
+  red: "#2A5491"
+  green: "#237986"
+  yellow: "#43820D"
+  blue: "#484D79"
+  magenta: "#C59820"
+  cyan: "#B02F30"
+  white: "#A7CFA3"
+  brightBlack: "#3F4944"
+  brightRed: "#2A5491"
+  brightGreen: "#237986"
+  brightYellow: "#A03B1E"
+  brightBlue: "#484D79"
+  brightMagenta: "#C59820"
+  brightCyan: "#B02F30"
+  brightWhite: "#B5D8F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 232
+  pair: "Base16 Themes (Base16 Codeschool Light)"
+  contrast:
+    fg: 49.6
+    black: 0
+    red: 12.1
+    green: 23.1
+    yellow: 25.2
+    blue: 10.4
+    magenta: 46.3
+    cyan: 17.4
+    white: 67.3
+    brightBlack: 0
+    brightRed: 12.1
+    brightGreen: 23.1
+    brightYellow: 15.7
+    brightBlue: 10.4
+    brightMagenta: 46.3
+    brightCyan: 17.4
+    brightWhite: 76.3

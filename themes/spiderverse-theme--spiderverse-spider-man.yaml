@@ -1,0 +1,53 @@
+name: "SpiderVerse Theme (SpiderVerse Spider-Man)"
+source:
+  marketplace_id: "GabrielBrown.spider-verse-theme"
+  version: "1.0.1"
+  installs: 2470
+  rating: 0
+  ratings: 0
+  author: "Gabriel Brown"
+  repo: "https://github.com/GabrielPereira146/VsCode-SpiderVerse-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GabrielBrown.spider-verse-theme"
+  formats: null
+colors:
+  bg: "#372323"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 19
+  pair: null
+  contrast:
+    fg: 77
+    black: 0
+    red: 24.2
+    green: 50.5
+    yellow: 83.1
+    blue: 24.9
+    magenta: 27.2
+    cyan: 45
+    white: 87.5
+    brightBlack: 19.5
+    brightRed: 36
+    brightGreen: 61
+    brightYellow: 93.1
+    brightBlue: 37.5
+    brightMagenta: 42.8
+    brightCyan: 52.9
+    brightWhite: 87.5

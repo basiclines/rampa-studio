@@ -1,0 +1,53 @@
+name: "Triad Dragon"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 403
+  rating: 5
+  ratings: 1
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+  formats: null
+colors:
+  bg: "#1A0A0A"
+  fg: "#F5F5DC"
+  black: "#000000"
+  red: "#DC143C"
+  green: "#006400"
+  yellow: "#FFD700"
+  blue: "#191970"
+  magenta: "#8B008B"
+  cyan: "#008B8B"
+  white: "#F5F5DC"
+  brightBlack: "#000000"
+  brightRed: "#DC143C"
+  brightGreen: "#006400"
+  brightYellow: "#FFD700"
+  brightBlue: "#191970"
+  brightMagenta: "#8B008B"
+  brightCyan: "#008B8B"
+  brightWhite: "#F5F5DC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 20
+  pair: null
+  contrast:
+    fg: 99.8
+    black: 0
+    red: 29.1
+    green: 16.5
+    yellow: 83.8
+    blue: 0
+    magenta: 14.7
+    cyan: 33.3
+    white: 99.8
+    brightBlack: 0
+    brightRed: 29.1
+    brightGreen: 16.5
+    brightYellow: 83.8
+    brightBlue: 0
+    brightMagenta: 14.7
+    brightCyan: 33.3
+    brightWhite: 99.8

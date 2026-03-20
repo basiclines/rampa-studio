@@ -1,0 +1,53 @@
+name: "Gatito Theme"
+source:
+  marketplace_id: "pawelgrzybek.gatito-theme"
+  version: "0.2.3"
+  installs: 139168
+  rating: 4.97
+  ratings: 29
+  author: "Paweł Grzybek"
+  repo: "https://github.com/pawelgrzybek/gatito-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pawelgrzybek.gatito-theme"
+  formats: null
+colors:
+  bg: "#242B2E"
+  fg: "#D4D4D4"
+  black: "#7F7F7F"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FAC863"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FAC863"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 226
+  pair: null
+  contrast:
+    fg: 76.7
+    black: 30.5
+    red: 35.1
+    green: 62.1
+    yellow: 73.9
+    blue: 41.4
+    magenta: 49.2
+    cyan: 50.2
+    white: 76.7
+    brightBlack: 30.5
+    brightRed: 35.1
+    brightGreen: 62.1
+    brightYellow: 73.9
+    brightBlue: 41.4
+    brightMagenta: 49.2
+    brightCyan: 50.2
+    brightWhite: 76.7

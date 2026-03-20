@@ -1,0 +1,53 @@
+name: "empire-monokai-light"
+source:
+  marketplace_id: "herohiralal.empire-vscode-themepack"
+  version: "0.8.6"
+  installs: 373
+  rating: 0
+  ratings: 0
+  author: "herohiralal"
+  repo: "https://github.com/herohiralal/empire-vscode-themepack"
+  url: "https://marketplace.visualstudio.com/items?itemName=herohiralal.empire-vscode-themepack"
+  formats: null
+colors:
+  bg: "#E1E1E1"
+  fg: "#000000"
+  black: "#BDBDBD"
+  red: "#970032"
+  green: "#067647"
+  yellow: "#887300"
+  blue: "#984C00"
+  magenta: "#330F8A"
+  cyan: "#007183"
+  white: "#000000"
+  brightBlack: "#121A45"
+  brightRed: "#970032"
+  brightGreen: "#067647"
+  brightYellow: "#887300"
+  brightBlue: "#984C00"
+  brightMagenta: "#330F8A"
+  brightCyan: "#007183"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: "empire-monokai-dark"
+  contrast:
+    fg: 88.4
+    black: 18
+    red: 70.3
+    green: 60.3
+    yellow: 54.6
+    blue: 62.9
+    magenta: 80.8
+    cyan: 60.3
+    white: 88.4
+    brightBlack: 85.8
+    brightRed: 70.3
+    brightGreen: 60.3
+    brightYellow: 54.6
+    brightBlue: 62.9
+    brightMagenta: 80.8
+    brightCyan: 60.3
+    brightWhite: 88.4

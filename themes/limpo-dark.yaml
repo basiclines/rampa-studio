@@ -1,0 +1,53 @@
+name: "limpo Dark"
+source:
+  marketplace_id: "zieu.limpo"
+  version: "1.0.0"
+  installs: 218
+  rating: 5
+  ratings: 1
+  author: "zieu"
+  repo: "https://github.com/zieu/limpo"
+  url: "https://marketplace.visualstudio.com/items?itemName=zieu.limpo"
+  formats: null
+colors:
+  bg: "#18202B"
+  fg: "#D6D7DE"
+  black: "#000000"
+  red: "#FF8080"
+  green: "#0DBC79"
+  yellow: "#C4973F"
+  blue: "#309EFF"
+  magenta: "#796679"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF6C6C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFB352"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D574D5"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 256
+  pair: null
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 52.7
+    green: 51.9
+    yellow: 48
+    blue: 46.2
+    magenta: 23.5
+    cyan: 46.5
+    white: 89
+    brightBlack: 21
+    brightRed: 47.3
+    brightGreen: 62.5
+    brightYellow: 68.1
+    brightBlue: 38.9
+    brightMagenta: 45.1
+    brightCyan: 54.3
+    brightWhite: 89

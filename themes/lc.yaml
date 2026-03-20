@@ -1,0 +1,53 @@
+name: "lc"
+source:
+  marketplace_id: "gronk-droid.lowcontrast"
+  version: "0.2.4"
+  installs: 216
+  rating: 0
+  ratings: 0
+  author: "gronk-droid"
+  repo: "https://github.com/gronk-droid/lowcontrast"
+  url: "https://marketplace.visualstudio.com/items?itemName=gronk-droid.lowcontrast"
+  formats: null
+colors:
+  bg: "#2D2A2E"
+  fg: "#978C8C"
+  black: "#3F3A3F"
+  red: "#FC5C65"
+  green: "#C2E69F"
+  yellow: "#F7D794"
+  blue: "#7ED6DF"
+  magenta: "#F78FB4"
+  cyan: "#BAB7CB"
+  white: "#978C8C"
+  brightBlack: "#746B6F"
+  brightRed: "#FC5C65"
+  brightGreen: "#E0F3C8"
+  brightYellow: "#F7D794"
+  brightBlue: "#BEEAE8"
+  brightMagenta: "#F78FB4"
+  brightCyan: "#BAB7CB"
+  brightWhite: "#FDFFF1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 37.8
+    black: 0
+    red: 41.2
+    green: 80.6
+    yellow: 80.5
+    blue: 69.5
+    magenta: 55.1
+    cyan: 60.7
+    white: 37.8
+    brightBlack: 22.2
+    brightRed: 41.2
+    brightGreen: 91.7
+    brightYellow: 80.5
+    brightBlue: 84.8
+    brightMagenta: 55.1
+    brightCyan: 60.7
+    brightWhite: 102.9

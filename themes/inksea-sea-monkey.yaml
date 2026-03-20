@@ -1,0 +1,53 @@
+name: "inksea Sea Monkey"
+source:
+  marketplace_id: "inksea.inksea-theme"
+  version: "3.3.0"
+  installs: 12188
+  rating: 5
+  ratings: 3
+  author: "_inkSea"
+  repo: "https://github.com/inksea/inksea-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=inksea.inksea-theme"
+  formats: null
+colors:
+  bg: "#1A1D21"
+  fg: "#C4CAD1"
+  black: "#212529"
+  red: "#E68680"
+  green: "#A3DEA1"
+  yellow: "#E1AB89"
+  blue: "#9586CF"
+  magenta: "#DEA6B6"
+  cyan: "#4A9BF2"
+  white: "#C4CAD1"
+  brightBlack: "#6272A4"
+  brightRed: "#E68680"
+  brightGreen: "#14B5A5"
+  brightYellow: "#D8EBA1"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#7BE1E3"
+  brightWhite: "#C4CAD1"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.4
+    black: 0
+    red: 49.8
+    green: 76.1
+    yellow: 61.5
+    blue: 41.1
+    magenta: 60.7
+    cyan: 45.3
+    white: 72.4
+    brightBlack: 27.4
+    brightRed: 49.8
+    brightGreen: 50.6
+    brightYellow: 87.9
+    brightBlue: 65.4
+    brightMagenta: 61.9
+    brightCyan: 77.1
+    brightWhite: 72.4

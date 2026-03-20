@@ -1,0 +1,53 @@
+name: "ramazzotti gruvbox"
+source:
+  marketplace_id: "panquequelol.ramazzotti"
+  version: "2.2.0"
+  installs: 561
+  rating: 0
+  ratings: 0
+  author: "panquequelol"
+  repo: "https://github.com/panquequelol/ramazzotti"
+  url: "https://marketplace.visualstudio.com/items?itemName=panquequelol.ramazzotti"
+  formats: null
+colors:
+  bg: "#100F0F"
+  fg: "#EBDBB2"
+  black: "#100F0F"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85
+    black: 0
+    red: 25.9
+    green: 43.5
+    yellow: 53.1
+    blue: 32.2
+    magenta: 32.3
+    cyan: 42.6
+    white: 47.9
+    brightBlack: 37
+    brightRed: 40.8
+    brightGreen: 61.8
+    brightYellow: 72.4
+    brightBlue: 49.2
+    brightMagenta: 48.6
+    brightCyan: 60.7
+    brightWhite: 85

@@ -1,0 +1,53 @@
+name: "Minimal Dark"
+source:
+  marketplace_id: "ArturGuedx.minimaldark"
+  version: "0.0.2"
+  installs: 797
+  rating: 0
+  ratings: 0
+  author: "ArturGuedx"
+  repo: "https://github.com/ArturGuedes/MinimalDark"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArturGuedx.minimaldark"
+  formats: null
+colors:
+  bg: "#3C3F41"
+  fg: "#999999"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 37.9
+    black: 9.3
+    red: 18.4
+    green: 44.7
+    yellow: 77.3
+    blue: 19.1
+    magenta: 21.5
+    cyan: 39.3
+    white: 81.7
+    brightBlack: 13.7
+    brightRed: 30.3
+    brightGreen: 55.2
+    brightYellow: 87.3
+    brightBlue: 31.7
+    brightMagenta: 37.1
+    brightCyan: 47.1
+    brightWhite: 81.7

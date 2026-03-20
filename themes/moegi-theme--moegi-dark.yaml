@@ -1,0 +1,53 @@
+name: "Moegi Theme (Moegi Dark)"
+source:
+  marketplace_id: "ddiu8081.moegi-theme"
+  version: "0.7.1"
+  installs: 36965
+  rating: 5
+  ratings: 22
+  author: "Diu"
+  repo: "https://github.com/moegi-design/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ddiu8081.moegi-theme"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#DDDDDD"
+  black: "#333333"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B290BA"
+  cyan: "#6AB8C0"
+  white: "#DDDDDD"
+  brightBlack: "#666666"
+  brightRed: "#F48484"
+  brightGreen: "#76C3A5"
+  brightYellow: "#F2D98E"
+  brightBlue: "#80A8E4"
+  brightMagenta: "#C2A0CA"
+  brightCyan: "#7AC8D0"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Moegi Theme (Moegi Light)"
+  contrast:
+    fg: 83.9
+    black: 0
+    red: 43.7
+    green: 51.2
+    yellow: 72.8
+    blue: 43.8
+    magenta: 46.4
+    cyan: 55.3
+    white: 83.9
+    brightBlack: 20.9
+    brightRed: 51.6
+    brightGreen: 59.8
+    brightYellow: 82.4
+    brightBlue: 52.1
+    brightMagenta: 54.9
+    brightCyan: 64.1
+    brightWhite: 99.8

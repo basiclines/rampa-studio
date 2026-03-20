@@ -1,0 +1,53 @@
+name: "Polar Ice Light"
+source:
+  marketplace_id: "hbarcelos.theme-polar-ice-vscode"
+  version: "2.4.0"
+  installs: 1103
+  rating: 0
+  ratings: 0
+  author: "Henrique Barcelos"
+  repo: "https://github.com/hbarcelos/polar-ice-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=hbarcelos.theme-polar-ice-vscode"
+  formats: null
+colors:
+  bg: "#DBF7FF"
+  fg: "#3E444F"
+  black: "#DBF7FF"
+  red: "#E11418"
+  green: "#61AB16"
+  yellow: "#D2A623"
+  blue: "#34A4E7"
+  magenta: "#CC52AD"
+  cyan: "#06B38B"
+  white: "#545E68"
+  brightBlack: "#C5DDE6"
+  brightRed: "#E0530D"
+  brightGreen: "#06B38B"
+  brightYellow: "#D2A623"
+  brightBlue: "#34A4E7"
+  brightMagenta: "#CC52AD"
+  brightCyan: "#06B38B"
+  brightWhite: "#3E444F"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Polar Ice Dark"
+  contrast:
+    fg: 85
+    black: 0
+    red: 63.6
+    green: 46.7
+    yellow: 37
+    blue: 45.1
+    magenta: 58
+    cyan: 43.7
+    white: 75
+    brightBlack: 12.2
+    brightRed: 57.5
+    brightGreen: 43.7
+    brightYellow: 37
+    brightBlue: 45.1
+    brightMagenta: 58
+    brightCyan: 43.7
+    brightWhite: 85

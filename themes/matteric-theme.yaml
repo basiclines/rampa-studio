@@ -1,0 +1,53 @@
+name: "Matteric Theme"
+source:
+  marketplace_id: "rodinalex.matteric"
+  version: "1.1.0"
+  installs: 494
+  rating: 0
+  ratings: 0
+  author: "Alexey Rodin"
+  repo: "https://github.com/philosatom/vscode-theme-matteric"
+  url: "https://marketplace.visualstudio.com/items?itemName=rodinalex.matteric"
+  formats: null
+colors:
+  bg: "#1B1F23"
+  fg: "#ACAEB0"
+  black: "#16191C"
+  red: "#E35339"
+  green: "#84A360"
+  yellow: "#D9C671"
+  blue: "#315173"
+  magenta: "#4B4063"
+  cyan: "#6F91AD"
+  white: "#ACAEB0"
+  brightBlack: "#4D535C"
+  brightRed: "#E35339"
+  brightGreen: "#9FC474"
+  brightYellow: "#D9C671"
+  brightBlue: "#5389C2"
+  brightMagenta: "#A087D4"
+  brightCyan: "#89B3D5"
+  brightWhite: "#D2D4D6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.4
+    black: 0
+    red: 35.4
+    green: 45.5
+    yellow: 70.2
+    blue: 12
+    magenta: 8.6
+    cyan: 39.2
+    white: 56.4
+    brightBlack: 13.2
+    brightRed: 35.4
+    brightGreen: 62.4
+    brightYellow: 70.2
+    brightBlue: 35.6
+    brightMagenta: 42.7
+    brightCyan: 56.6
+    brightWhite: 78.4

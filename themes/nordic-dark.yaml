@@ -1,0 +1,53 @@
+name: "Nordic Dark"
+source:
+  marketplace_id: "AdiKurniawan.rhapsody-theme"
+  version: "1.2.0"
+  installs: 146
+  rating: 0
+  ratings: 0
+  author: "Adi Kurniawan"
+  repo: "https://github.com/adikurniawanid/rhapsody-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AdiKurniawan.rhapsody-theme"
+  formats: null
+colors:
+  bg: "#2E3440"
+  fg: "#D8DEE9"
+  black: "#000000"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#8FBCBB"
+  white: "#ECEFF4"
+  brightBlack: "#666666"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#88C0D0"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 80.3
+    black: 0
+    red: 27.9
+    green: 56.6
+    yellow: 71.3
+    blue: 43.6
+    magenta: 41.4
+    cyan: 55.5
+    white: 91.2
+    brightBlack: 17
+    brightRed: 27.9
+    brightGreen: 56.6
+    brightYellow: 71.3
+    brightBlue: 57.6
+    brightMagenta: 41.4
+    brightCyan: 55.5
+    brightWhite: 91.2

@@ -1,0 +1,53 @@
+name: "Ef Deuteranopia Dark"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#000A1F"
+  fg: "#DDDDEE"
+  black: "#DDDDEE"
+  red: "#CF8560"
+  green: "#3FAA26"
+  yellow: "#AA9F32"
+  blue: "#3F90F0"
+  magenta: "#B379BF"
+  cyan: "#5FAAEF"
+  white: "#121F34"
+  brightBlack: "#7F8797"
+  brightRed: "#E47360"
+  brightGreen: "#7AAD0F"
+  brightYellow: "#CFAF00"
+  brightBlue: "#6A9FFF"
+  brightMagenta: "#AF80EA"
+  brightCyan: "#7FAFFF"
+  brightWhite: "#000A1F"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 256
+  pair: "Ef Deuteranopia Light"
+  contrast:
+    fg: 86.6
+    black: 86.6
+    red: 46.1
+    green: 45.2
+    yellow: 49
+    blue: 42
+    magenta: 41.5
+    cyan: 53.3
+    white: 0
+    brightBlack: 37.7
+    brightRed: 44.9
+    brightGreen: 49.7
+    brightYellow: 60.1
+    brightBlue: 50.8
+    brightMagenta: 45.6
+    brightCyan: 58.4
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "updog light"
+source:
+  marketplace_id: "douggrubba.updog"
+  version: "1.5.1"
+  installs: 206
+  rating: 5
+  ratings: 1
+  author: "douggrubba"
+  repo: "https://github.com/douggrubba/updog-vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=douggrubba.updog"
+  formats: null
+colors:
+  bg: "#EDEDF6"
+  fg: "#1F2526"
+  black: "#000309"
+  red: "#D1383E"
+  green: "#43BA79"
+  yellow: "#E6A055"
+  blue: "#186CCC"
+  magenta: "#D149E6"
+  cyan: "#0BD6BB"
+  white: "#CFE0E7"
+  brightBlack: "#000714"
+  brightRed: "#EB4046"
+  brightGreen: "#5AFAA2"
+  brightYellow: "#FFB25E"
+  brightBlue: "#1C7BE6"
+  brightMagenta: "#E952FF"
+  brightCyan: "#07F4D5"
+  brightWhite: "#EAF1F4"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 286
+  pair: "updog"
+  contrast:
+    fg: 92.2
+    black: 95.7
+    red: 61.9
+    green: 37.7
+    yellow: 32.9
+    blue: 64.8
+    magenta: 52.4
+    cyan: 23.9
+    white: 0
+    brightBlack: 95.6
+    brightRed: 54.9
+    brightGreen: 0
+    brightYellow: 22.4
+    brightBlue: 57.9
+    brightMagenta: 44.7
+    brightCyan: 8.7
+    brightWhite: 0

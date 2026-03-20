@@ -1,0 +1,53 @@
+name: "Polychrome themes (Polychrome Dark)"
+source:
+  marketplace_id: "cdonohue.polychrome-vscode-themes"
+  version: "1.0.0"
+  installs: 6863
+  rating: 0
+  ratings: 0
+  author: "Chad Donohue"
+  repo: "https://github.com/cdonohue/polychrome-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=cdonohue.polychrome-vscode-themes"
+  formats: null
+colors:
+  bg: "#2A2833"
+  fg: "#BBB4D8"
+  black: "#484459"
+  red: "#FF6347"
+  green: "#A59CCC"
+  yellow: "#FFE685"
+  blue: "#BBB4D8"
+  magenta: "#FFE685"
+  cyan: "#767092"
+  white: "#F5F5F5"
+  brightBlack: "#B7A870"
+  brightRed: "#FFE685"
+  brightGreen: "#A59CCC"
+  brightYellow: "#B7A870"
+  brightBlue: "#D2CDE5"
+  brightMagenta: "#B7A870"
+  brightCyan: "#D2CDE5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 293
+  pair: "Polychrome themes (Polychrome Light)"
+  contrast:
+    fg: 60.6
+    black: 0
+    red: 43.1
+    green: 48.2
+    yellow: 88.4
+    blue: 60.6
+    magenta: 88.4
+    cyan: 25.6
+    white: 97.6
+    brightBlack: 51.6
+    brightRed: 88.4
+    brightGreen: 48.2
+    brightYellow: 51.6
+    brightBlue: 74.3
+    brightMagenta: 51.6
+    brightCyan: 74.3
+    brightWhite: 104.2

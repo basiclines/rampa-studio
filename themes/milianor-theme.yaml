@@ -1,0 +1,53 @@
+name: "Milianor Theme"
+source:
+  marketplace_id: "MaxMilianoDelCantoQuezada.milianor-theme"
+  version: "4.0.8"
+  installs: 163
+  rating: 0
+  ratings: 0
+  author: "Max Miliano"
+  repo: "https://github.com/maxmx03/milianor-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MaxMilianoDelCantoQuezada.milianor-theme"
+  formats: null
+colors:
+  bg: "#2B2E4A"
+  fg: "#F6EFEB"
+  black: "#000000"
+  red: "#E84A5F"
+  green: "#D2E603"
+  yellow: "#FFC93C"
+  blue: "#7C6FFF"
+  magenta: "#F5B5FC"
+  cyan: "#74F9FF"
+  white: "#74F9FF"
+  brightBlack: "#666666"
+  brightRed: "#FA7F7F"
+  brightGreen: "#94FC13"
+  brightYellow: "#FFF76A"
+  brightBlue: "#B2EBF2"
+  brightMagenta: "#F5B5FC"
+  brightCyan: "#E3F8FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 93
+    black: 0
+    red: 32.4
+    green: 79.4
+    yellow: 73.4
+    blue: 31.6
+    magenta: 69.8
+    cyan: 86.4
+    white: 86.4
+    brightBlack: 17.9
+    brightRed: 48.2
+    brightGreen: 84.3
+    brightYellow: 94.3
+    brightBlue: 83.4
+    brightMagenta: 69.8
+    brightCyan: 95.6
+    brightWhite: 85.8

@@ -1,0 +1,53 @@
+name: "Night-Stack Quantum"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#05070F"
+  fg: "#DCE6FF"
+  black: "#111428"
+  red: "#4CC9F0"
+  green: "#7B2FF7"
+  yellow: "#5DA9FF"
+  blue: "#3A86FF"
+  magenta: "#9D4EDD"
+  cyan: "#4CC9F0"
+  white: "#DCE6FF"
+  brightBlack: "#111428"
+  brightRed: "#4CC9F0"
+  brightGreen: "#7B2FF7"
+  brightYellow: "#5DA9FF"
+  brightBlue: "#3A86FF"
+  brightMagenta: "#9D4EDD"
+  brightCyan: "#4CC9F0"
+  brightWhite: "#DCE6FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 270
+  pair: null
+  contrast:
+    fg: 91.5
+    black: 0
+    red: 65.9
+    green: 23.8
+    yellow: 54.1
+    blue: 39.8
+    magenta: 30.3
+    cyan: 65.9
+    white: 91.5
+    brightBlack: 0
+    brightRed: 65.9
+    brightGreen: 23.8
+    brightYellow: 54.1
+    brightBlue: 39.8
+    brightMagenta: 30.3
+    brightCyan: 65.9
+    brightWhite: 91.5

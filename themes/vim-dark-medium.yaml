@@ -1,0 +1,53 @@
+name: "Vim Dark Medium"
+source:
+  marketplace_id: "AndreaCombette.SweetWood"
+  version: "0.5.5"
+  installs: 249
+  rating: 5
+  ratings: 1
+  author: "AndreaCombette"
+  repo: "https://github.com/Chatr0uge/SweetWood-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreaCombette.SweetWood"
+  formats: null
+colors:
+  bg: "#33221B"
+  fg: "#D6DFEE"
+  black: "#3D2D27"
+  red: "#975F0E"
+  green: "#B5761A"
+  yellow: "#D0850D"
+  blue: "#5D768F"
+  magenta: "#767A7E"
+  cyan: "#767A7E"
+  white: "#8294A7"
+  brightBlack: "#767A7E"
+  brightRed: "#D0850D"
+  brightGreen: "#D3923F"
+  brightYellow: "#D3923F"
+  brightBlue: "#8294A7"
+  brightMagenta: "#96A8BF"
+  brightCyan: "#8294A7"
+  brightWhite: "#D6DFEE"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 43
+  pair: null
+  contrast:
+    fg: 83.7
+    black: 0
+    red: 22.5
+    green: 33.6
+    yellow: 42.6
+    blue: 25.8
+    magenta: 28.6
+    cyan: 28.6
+    white: 40.5
+    brightBlack: 28.6
+    brightRed: 42.6
+    brightGreen: 47.6
+    brightYellow: 47.6
+    brightBlue: 40.5
+    brightMagenta: 51.1
+    brightCyan: 40.5
+    brightWhite: 83.7

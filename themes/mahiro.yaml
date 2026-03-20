@@ -1,0 +1,53 @@
+name: "Mahiro"
+source:
+  marketplace_id: "rynco.mihari"
+  version: "0.4.0"
+  installs: 866
+  rating: 5
+  ratings: 1
+  author: "rynco"
+  repo: "https://github.com/01010101lzy/mihari"
+  url: "https://marketplace.visualstudio.com/items?itemName=rynco.mihari"
+  formats: null
+colors:
+  bg: "#E9F2FA"
+  fg: "#454D63"
+  black: "#E9F2FA"
+  red: "#E32636"
+  green: "#8BA66A"
+  yellow: "#E1BD09"
+  blue: "#7B92C9"
+  magenta: "#DF3D8B"
+  cyan: "#649AA2"
+  white: "#454D63"
+  brightBlack: "#454D53"
+  brightRed: "#E32636"
+  brightGreen: "#8BA66A"
+  brightYellow: "#E1BD09"
+  brightBlue: "#7B92C9"
+  brightMagenta: "#DF3D8B"
+  brightCyan: "#649AA2"
+  brightWhite: "#C4CDD5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 0
+    red: 61.3
+    green: 43.9
+    yellow: 25.5
+    blue: 49.3
+    magenta: 58
+    cyan: 49.9
+    white: 80.5
+    brightBlack: 81.1
+    brightRed: 61.3
+    brightGreen: 43.9
+    brightYellow: 25.5
+    brightBlue: 49.3
+    brightMagenta: 58
+    brightCyan: 49.9
+    brightWhite: 18.9

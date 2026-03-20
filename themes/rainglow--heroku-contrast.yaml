@@ -1,0 +1,53 @@
+name: "Rainglow (heroku-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0B0B0F"
+  fg: "#C8C7D5"
+  black: "#16161E"
+  red: "#BA0E2E"
+  green: "#585480"
+  yellow: "#7873AE"
+  blue: "#FFFFFF"
+  magenta: "#7873AE"
+  cyan: "#A6FA62"
+  white: "#D6D6E0"
+  brightBlack: "#36364A"
+  brightRed: "#F03E5F"
+  brightGreen: "#8C89B1"
+  brightYellow: "#B6B4D3"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#B6B4D3"
+  brightCyan: "#DEFDC5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (heroku-light)"
+  contrast:
+    fg: 73.3
+    black: 0
+    red: 21.3
+    green: 17.5
+    yellow: 31.6
+    blue: 107.7
+    magenta: 31.6
+    cyan: 90.3
+    white: 82
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 40.9
+    brightYellow: 63.2
+    brightBlue: 107.7
+    brightMagenta: 63.2
+    brightCyan: 100
+    brightWhite: 107.7

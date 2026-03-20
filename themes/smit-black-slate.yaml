@@ -1,0 +1,53 @@
+name: "Smit Black Slate"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#0B0E14"
+  fg: "#E6EAF0"
+  black: "#1A1F29"
+  red: "#F07178"
+  green: "#7FD962"
+  yellow: "#FFCC66"
+  blue: "#59C2FF"
+  magenta: "#D4BFFF"
+  cyan: "#73D0FF"
+  white: "#E6EAF0"
+  brightBlack: "#4D5966"
+  brightRed: "#FF8B92"
+  brightGreen: "#95E179"
+  brightYellow: "#FFDF80"
+  brightBlue: "#73D6FF"
+  brightMagenta: "#E6D5FF"
+  brightCyan: "#8AE6FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 47.3
+    green: 70.7
+    yellow: 79.9
+    blue: 64
+    magenta: 73.7
+    cyan: 71.6
+    white: 93.6
+    brightBlack: 16.9
+    brightRed: 58
+    brightGreen: 76.6
+    brightYellow: 88.5
+    brightBlue: 74.3
+    brightMagenta: 85.1
+    brightCyan: 83.2
+    brightWhite: 107.6

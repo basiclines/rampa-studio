@@ -1,0 +1,53 @@
+name: "Hygge Kyst Dark"
+source:
+  marketplace_id: "ostahl.hygge-kyst-dark"
+  version: "1.0.0"
+  installs: 26
+  rating: 0
+  ratings: 0
+  author: "Ole Stahl"
+  repo: "https://github.com/ostahl8/hygge-kyst"
+  url: "https://marketplace.visualstudio.com/items?itemName=ostahl.hygge-kyst-dark"
+  formats: null
+colors:
+  bg: "#191920"
+  fg: "#E0E0E8"
+  black: "#2A2A35"
+  red: "#F08080"
+  green: "#A8D8B8"
+  yellow: "#E8B080"
+  blue: "#9AC0D8"
+  magenta: "#DCB8D8"
+  cyan: "#98D8D0"
+  white: "#E0E0E8"
+  brightBlack: "#6A6A78"
+  brightRed: "#FFA0A0"
+  brightGreen: "#C0F0D0"
+  brightYellow: "#F8D0A0"
+  brightBlue: "#B8D8F0"
+  brightMagenta: "#F0D0F0"
+  brightCyan: "#B8F0E8"
+  brightWhite: "#F8F8FF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 87
+    black: 0
+    red: 50.4
+    green: 74.9
+    yellow: 64.6
+    blue: 64.3
+    magenta: 69
+    cyan: 74.4
+    white: 87
+    brightBlack: 23.9
+    brightRed: 64
+    brightGreen: 89.6
+    brightYellow: 80.8
+    brightBlue: 79
+    brightMagenta: 82.7
+    brightCyan: 89.8
+    brightWhite: 102.3

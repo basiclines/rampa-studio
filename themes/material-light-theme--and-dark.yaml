@@ -1,0 +1,53 @@
+name: "Material Light Theme (And Dark)"
+source:
+  marketplace_id: "JonaDuran.my-light-theme"
+  version: "1.1.9"
+  installs: 31529
+  rating: 5
+  ratings: 5
+  author: "Jonathan Durán"
+  repo: "https://github.com/JonaDuran/Material-Light-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JonaDuran.my-light-theme"
+  formats: null
+colors:
+  bg: "#282828"
+  fg: "#D0D0D0"
+  black: "#212121"
+  red: "#E57373"
+  green: "#8BC34A"
+  yellow: "#E5C07B"
+  blue: "#40C4FF"
+  magenta: "#EA80FC"
+  cyan: "#00BCD4"
+  white: "#D0D0D0"
+  brightBlack: "#212121"
+  brightRed: "#E57373"
+  brightGreen: "#8BC34A"
+  brightYellow: "#E5C07B"
+  brightBlue: "#40C4FF"
+  brightMagenta: "#EA80FC"
+  brightCyan: "#00BCD4"
+  brightWhite: "#D0D0D0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.6
+    black: 0
+    red: 42.3
+    green: 57.9
+    yellow: 68.1
+    blue: 60.9
+    magenta: 53
+    cyan: 54.1
+    white: 74.6
+    brightBlack: 0
+    brightRed: 42.3
+    brightGreen: 57.9
+    brightYellow: 68.1
+    brightBlue: 60.9
+    brightMagenta: 53
+    brightCyan: 54.1
+    brightWhite: 74.6

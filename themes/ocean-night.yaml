@@ -1,0 +1,53 @@
+name: "Ocean Night"
+source:
+  marketplace_id: "KaydenIreland.kiki-themes"
+  version: "1.0.1"
+  installs: 23
+  rating: 0
+  ratings: 0
+  author: "Kayden Ireland"
+  repo: "https://github.com/kaydenireland/vs-kiki"
+  url: "https://marketplace.visualstudio.com/items?itemName=KaydenIreland.kiki-themes"
+  formats: null
+colors:
+  bg: "#1E272E"
+  fg: "#E8F5F7"
+  black: "#1E272E"
+  red: "#FF5252"
+  green: "#7BED9F"
+  yellow: "#FFD32A"
+  blue: "#5AB0EF"
+  magenta: "#A29BFE"
+  cyan: "#4ECDC4"
+  white: "#E8F5F7"
+  brightBlack: "#546E7A"
+  brightRed: "#FF6B9D"
+  brightGreen: "#A0D468"
+  brightYellow: "#FFCE54"
+  brightBlue: "#78D9FF"
+  brightMagenta: "#B388FF"
+  brightCyan: "#78E0DC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 96.6
+    black: 0
+    red: 40.8
+    green: 78.9
+    yellow: 79.5
+    blue: 52.7
+    magenta: 51.3
+    cyan: 62.6
+    white: 96.6
+    brightBlack: 21.8
+    brightRed: 47.5
+    brightGreen: 68.3
+    brightYellow: 77.8
+    brightBlue: 73.2
+    brightMagenta: 47.2
+    brightCyan: 74.7
+    brightWhite: 104.8

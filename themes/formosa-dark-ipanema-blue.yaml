@@ -1,0 +1,53 @@
+name: "Formosa Dark - Ipanema Blue"
+source:
+  marketplace_id: "TakeshiYu.formosa-theme"
+  version: "1.0.0"
+  installs: 46
+  rating: 0
+  ratings: 0
+  author: "Takeshi Yu"
+  repo: "https://github.com/takeshiyu/formosa-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TakeshiYu.formosa-theme"
+  formats: null
+colors:
+  bg: "#1A2332"
+  fg: "#E8E4DF"
+  black: "#141C28"
+  red: "#E08080"
+  green: "#6ABA7A"
+  yellow: "#E0B050"
+  blue: "#5BBCD6"
+  magenta: "#B080A0"
+  cyan: "#7BCCE6"
+  white: "#E8E4DF"
+  brightBlack: "#5A6A80"
+  brightRed: "#F0909A"
+  brightGreen: "#8ADA9A"
+  brightYellow: "#F0C060"
+  brightBlue: "#7BCCE6"
+  brightMagenta: "#C090B0"
+  brightCyan: "#9BDCF6"
+  brightWhite: "#F0ECE7"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 260
+  pair: "Formosa Light - Ipanema Blue"
+  contrast:
+    fg: 88.2
+    black: 0
+    red: 46.1
+    green: 53.2
+    yellow: 61.2
+    blue: 56.9
+    magenta: 39.3
+    cyan: 66.6
+    white: 88.2
+    brightBlack: 21.7
+    brightRed: 54.6
+    brightGreen: 71
+    brightYellow: 70.3
+    brightBlue: 66.6
+    brightMagenta: 47.4
+    brightCyan: 77.1
+    brightWhite: 93.2

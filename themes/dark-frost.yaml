@@ -1,0 +1,54 @@
+name: "Dark Frost"
+source:
+  marketplace_id: "sprovo.dark-frost"
+  version: "2.0.0"
+  installs: 2470
+  rating: 5
+  ratings: 3
+  author: "Sandrico Provo"
+  repo: "https://github.com/sandricoprovo/dark-frost-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sprovo.dark-frost"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/sandricoprovo/dark-frost-vscode-theme/master/Dark Frost iTerm Theme.itermcolors"
+colors:
+  bg: "#202733"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 261
+  pair: null
+  contrast:
+    fg: 69.1
+    black: 24.2
+    red: 41.8
+    green: 63.6
+    yellow: 76.7
+    blue: 53.7
+    magenta: 51.5
+    cyan: 76
+    white: 104.7
+    brightBlack: 24.2
+    brightRed: 41.8
+    brightGreen: 82
+    brightYellow: 76.7
+    brightBlue: 53.7
+    brightMagenta: 51.5
+    brightCyan: 76
+    brightWhite: 104.7

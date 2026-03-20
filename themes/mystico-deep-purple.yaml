@@ -1,0 +1,53 @@
+name: "Mystico - Deep Purple"
+source:
+  marketplace_id: "Chibantichic.mystico-deep-purple"
+  version: "0.28.0"
+  installs: 621
+  rating: 0
+  ratings: 0
+  author: "Chibantichic"
+  repo: "https://github.com/chibanti/mystico-deep-purple-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Chibantichic.mystico-deep-purple"
+  formats: null
+colors:
+  bg: "#0B0324"
+  fg: "#93BCF0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 288
+  pair: null
+  contrast:
+    fg: 64.4
+    black: 0
+    red: 27.5
+    green: 53.7
+    yellow: 86.4
+    blue: 28.2
+    magenta: 30.5
+    cyan: 48.3
+    white: 90.8
+    brightBlack: 22.8
+    brightRed: 39.3
+    brightGreen: 64.3
+    brightYellow: 96.4
+    brightBlue: 40.7
+    brightMagenta: 46.1
+    brightCyan: 56.1
+    brightWhite: 90.8

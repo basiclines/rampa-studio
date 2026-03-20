@@ -1,0 +1,53 @@
+name: "Night-Stack Hacker Soft"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#0D1110"
+  fg: "#CFE8CF"
+  black: "#1A1A1A"
+  red: "#D16969"
+  green: "#7FBF7F"
+  yellow: "#C5C56A"
+  blue: "#6CA0DC"
+  magenta: "#B084D6"
+  cyan: "#6FBFBF"
+  white: "#D4D4D4"
+  brightBlack: "#1A1A1A"
+  brightRed: "#D16969"
+  brightGreen: "#7FBF7F"
+  brightYellow: "#C5C56A"
+  brightBlue: "#6CA0DC"
+  brightMagenta: "#B084D6"
+  brightCyan: "#6FBFBF"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.2
+    black: 0
+    red: 38.7
+    green: 59.1
+    yellow: 68.4
+    blue: 48.7
+    magenta: 45.4
+    cyan: 60.2
+    white: 80
+    brightBlack: 0
+    brightRed: 38.7
+    brightGreen: 59.1
+    brightYellow: 68.4
+    brightBlue: 48.7
+    brightMagenta: 45.4
+    brightCyan: 60.2
+    brightWhite: 80

@@ -1,0 +1,53 @@
+name: "Rainglow (dare-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#6E7A87"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#3A8881"
+  yellow: "#D15736"
+  blue: "#6E7A87"
+  magenta: "#3A8881"
+  cyan: "#D15736"
+  white: "#7B8793"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#69BFB7"
+  brightYellow: "#E49C89"
+  brightBlue: "#A5ADB6"
+  brightMagenta: "#69BFB7"
+  brightCyan: "#E49C89"
+  brightWhite: "#A5ADB6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (dare-contrast)"
+  contrast:
+    fg: 70.4
+    black: 0
+    red: 80.3
+    green: 68.6
+    yellow: 67.4
+    blue: 70.4
+    magenta: 68.6
+    cyan: 67.4
+    white: 64.3
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 42.2
+    brightYellow: 43.8
+    brightBlue: 44.8
+    brightMagenta: 42.2
+    brightCyan: 43.8
+    brightWhite: 44.8

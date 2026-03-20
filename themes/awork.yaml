@@ -1,0 +1,53 @@
+name: "awork"
+source:
+  marketplace_id: "sils.awork-dark"
+  version: "0.0.9"
+  installs: 22
+  rating: 0
+  ratings: 0
+  author: "Sil's"
+  repo: "https://github.com/silvandiepen/awork-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sils.awork-dark"
+  formats: null
+colors:
+  bg: "#1A1C28"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 277
+  pair: null
+  contrast:
+    fg: 78.8
+    black: 0
+    red: 26
+    green: 52.3
+    yellow: 85
+    blue: 26.8
+    magenta: 29.1
+    cyan: 46.9
+    white: 89.4
+    brightBlack: 21.4
+    brightRed: 37.9
+    brightGreen: 62.9
+    brightYellow: 95
+    brightBlue: 39.3
+    brightMagenta: 44.7
+    brightCyan: 54.7
+    brightWhite: 89.4

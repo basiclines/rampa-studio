@@ -1,0 +1,53 @@
+name: "Rainglow (userscape-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#15181C"
+  fg: "#DCE2E8"
+  black: "#20242B"
+  red: "#BA0E2E"
+  green: "#A8C0E0"
+  yellow: "#507DB7"
+  blue: "#E3BD14"
+  magenta: "#B3BECC"
+  cyan: "#DE4D3A"
+  white: "#EBEFF2"
+  brightBlack: "#414A56"
+  brightRed: "#F03E5F"
+  brightGreen: "#F3F6FB"
+  brightYellow: "#98B3D5"
+  brightBlue: "#F2D96B"
+  brightMagenta: "#F0F2F5"
+  brightCyan: "#ED9C91"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (userscape-light)"
+  contrast:
+    fg: 87.5
+    black: 0
+    red: 20.4
+    green: 66.3
+    yellow: 31.5
+    blue: 67.8
+    magenta: 65.7
+    cyan: 34.2
+    white: 95.9
+    brightBlack: 10.6
+    brightRed: 36.7
+    brightGreen: 100.7
+    brightYellow: 58.8
+    brightBlue: 82.7
+    brightMagenta: 98.1
+    brightCyan: 59.1
+    brightWhite: 106.8

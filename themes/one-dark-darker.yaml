@@ -1,0 +1,53 @@
+name: "One Dark Darker"
+source:
+  marketplace_id: "JoelCrosby.one-dark-darker"
+  version: "1.0.4"
+  installs: 82939
+  rating: 5
+  ratings: 8
+  author: "Joel Crosby"
+  repo: "https://github.com/JoelCrosby/OneDarkDarker"
+  url: "https://marketplace.visualstudio.com/items?itemName=JoelCrosby.one-dark-darker"
+  formats: null
+colors:
+  bg: "#181A1F"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 59.1
+    black: 8.5
+    red: 36.4
+    green: 60
+    yellow: 48.3
+    blue: 49.3
+    magenta: 38.7
+    cyan: 52.2
+    white: 90.3
+    brightBlack: 15.1
+    brightRed: 45.8
+    brightGreen: 76.4
+    brightYellow: 60.9
+    brightBlue: 63.4
+    brightMagenta: 49.9
+    brightCyan: 67.5
+    brightWhite: 106.5

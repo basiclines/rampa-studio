@@ -1,0 +1,53 @@
+name: "hapsida.securisec (Spring)"
+source:
+  marketplace_id: "securisec.hapsida-securisec"
+  version: "0.0.30"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "securisec"
+  repo: "https://github.com/securisec/code-hapsida"
+  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+  formats: null
+colors:
+  bg: "#030324"
+  fg: "#C7C8CA"
+  black: "#000000"
+  red: "#E5BAB2"
+  green: "#A9BDB3"
+  yellow: "#E6CA9C"
+  blue: "#ACBED0"
+  magenta: "#E0AC98"
+  cyan: "#ABADC7"
+  white: "#C7C8CA"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#C7C8CA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 73
+    black: 0
+    red: 70.6
+    green: 64
+    yellow: 76.5
+    blue: 66
+    magenta: 63.6
+    cyan: 58.6
+    white: 73
+    brightBlack: 22.8
+    brightRed: 39.3
+    brightGreen: 64.3
+    brightYellow: 96.4
+    brightBlue: 40.8
+    brightMagenta: 46.1
+    brightCyan: 56.2
+    brightWhite: 73

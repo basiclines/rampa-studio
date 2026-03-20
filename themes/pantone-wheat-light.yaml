@@ -1,0 +1,53 @@
+name: "Pantone Wheat (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#FBFAF8"
+  fg: "#1E1A13"
+  black: "#1E1A13"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#FBFAF8"
+  brightBlack: "#BEA781"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F9F8F5"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Wheat (Dark)"
+  contrast:
+    fg: 101.2
+    black: 101.2
+    red: 75.9
+    green: 59.4
+    yellow: 43.6
+    blue: 86.9
+    magenta: 83.1
+    cyan: 76.2
+    white: 0
+    brightBlack: 42.9
+    brightRed: 65.6
+    brightGreen: 46.2
+    brightYellow: 27.4
+    brightBlue: 52.9
+    brightMagenta: 64.5
+    brightCyan: 45.6
+    brightWhite: 0

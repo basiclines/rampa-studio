@@ -1,0 +1,53 @@
+name: "zyrotec"
+source:
+  marketplace_id: "zyrotec.zyrotec-theme"
+  version: "0.0.1"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "zyrotec"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=zyrotec.zyrotec-theme"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#FFFFFF"
+  black: "#171717"
+  red: "#A65548"
+  green: "#94AD4F"
+  yellow: "#D9C188"
+  blue: "#43888B"
+  magenta: "#A26B88"
+  cyan: "#598B6F"
+  white: "#EAD7A9"
+  brightBlack: "#757575"
+  brightRed: "#C76A5C"
+  brightGreen: "#AEC964"
+  brightYellow: "#EBD7A8"
+  brightBlue: "#46B4B9"
+  brightMagenta: "#C082A2"
+  brightCyan: "#68B188"
+  brightWhite: "#F7EBCF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.9
+    black: 0
+    red: 25.1
+    green: 51.7
+    yellow: 69.5
+    blue: 32.7
+    magenta: 31.8
+    cyan: 34
+    white: 82.2
+    brightBlack: 28.6
+    brightRed: 36.3
+    brightGreen: 66.7
+    brightYellow: 82.3
+    brightBlue: 52.6
+    brightMagenta: 43.9
+    brightCyan: 51.1
+    brightWhite: 94.3

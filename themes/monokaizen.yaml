@@ -1,0 +1,53 @@
+name: "Monokaizen"
+source:
+  marketplace_id: "AlexanderSanchez.monokaizen"
+  version: "0.2.4"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Alexander Sanchez"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexanderSanchez.monokaizen"
+  formats: null
+colors:
+  bg: "#272822"
+  fg: "#F8F8F1"
+  black: "#272822"
+  red: "#FF0071"
+  green: "#94E400"
+  yellow: "#EADA61"
+  blue: "#B47EFF"
+  magenta: "#F8F8F1"
+  cyan: "#B47EFF"
+  white: "#F8F8F1"
+  brightBlack: "#75705B"
+  brightRed: "#FF0071"
+  brightGreen: "#94E400"
+  brightYellow: "#EADA61"
+  brightBlue: "#B47EFF"
+  brightMagenta: "#F8F8F1"
+  brightCyan: "#B47EFF"
+  brightWhite: "#F8F8F1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 115
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 35.5
+    green: 74
+    yellow: 79.6
+    blue: 44.1
+    magenta: 99.6
+    cyan: 44.1
+    white: 99.6
+    brightBlack: 24
+    brightRed: 35.5
+    brightGreen: 74
+    brightYellow: 79.6
+    brightBlue: 44.1
+    brightMagenta: 99.6
+    brightCyan: 44.1
+    brightWhite: 99.6

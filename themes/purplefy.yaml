@@ -1,0 +1,53 @@
+name: "Purplefy"
+source:
+  marketplace_id: "VictorLima.victory-theme"
+  version: "0.1.0"
+  installs: 238
+  rating: 0
+  ratings: 0
+  author: "Victor Lima"
+  repo: "https://github.com/victorlim4/victory-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=VictorLima.victory-theme"
+  formats: null
+colors:
+  bg: "#110E16"
+  fg: "#EDECEE"
+  black: "#15141B"
+  red: "#FF6767"
+  green: "#8B61FF"
+  yellow: "#FFCA85"
+  blue: "#A277FF"
+  magenta: "#8B61FF"
+  cyan: "#A277FF"
+  white: "#CDCCCE"
+  brightBlack: "#2D2D2D"
+  brightRed: "#FFCA85"
+  brightGreen: "#A277FF"
+  brightYellow: "#FFCA85"
+  brightBlue: "#A277FF"
+  brightMagenta: "#8B61FF"
+  brightCyan: "#8B61FF"
+  brightWhite: "#EDECEE"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 302
+  pair: null
+  contrast:
+    fg: 95.3
+    black: 0
+    red: 47.8
+    green: 34.5
+    yellow: 79.6
+    blue: 42.8
+    magenta: 34.5
+    cyan: 42.8
+    white: 75.5
+    brightBlack: 0
+    brightRed: 79.6
+    brightGreen: 42.8
+    brightYellow: 79.6
+    brightBlue: 42.8
+    brightMagenta: 34.5
+    brightCyan: 34.5
+    brightWhite: 95.3

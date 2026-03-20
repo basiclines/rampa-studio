@@ -1,0 +1,53 @@
+name: "Mimesis Dark"
+source:
+  marketplace_id: "AlexanderDyriavin.mimesis"
+  version: "1.2.2"
+  installs: 408
+  rating: 0
+  ratings: 0
+  author: "Alexander Dyriavin"
+  repo: "https://github.com/dyriavin/mimesis-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#E9ECEC"
+  black: "#24292E"
+  red: "#DB5860"
+  green: "#12BC00"
+  yellow: "#FFE900"
+  blue: "#63B0FF"
+  magenta: "#E354AF"
+  cyan: "#51C9B7"
+  white: "#E9ECEC"
+  brightBlack: "#959DA5"
+  brightRed: "#FF0039"
+  brightGreen: "#058B00"
+  brightYellow: "#FFE900"
+  brightBlue: "#63B0FF"
+  brightMagenta: "#FF1AD9"
+  brightCyan: "#51C9B7"
+  brightWhite: "#D1D5DA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Mimesis Light"
+  contrast:
+    fg: 92.9
+    black: 0
+    red: 35.1
+    green: 50.6
+    yellow: 90.2
+    blue: 55.1
+    magenta: 38.8
+    cyan: 61.3
+    white: 92.9
+    brightBlack: 46.6
+    brightRed: 35.7
+    brightGreen: 29.3
+    brightYellow: 90.2
+    brightBlue: 55.1
+    brightMagenta: 41.8
+    brightCyan: 61.3
+    brightWhite: 78.7

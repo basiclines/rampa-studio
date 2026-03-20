@@ -1,0 +1,53 @@
+name: "Prism (Light)"
+source:
+  marketplace_id: "friggeri.prism-vscode-theme"
+  version: "1.0.6"
+  installs: 2591
+  rating: 0
+  ratings: 0
+  author: "Adrien Friggeri"
+  repo: "https://github.com/friggeri/prism"
+  url: "https://marketplace.visualstudio.com/items?itemName=friggeri.prism-vscode-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#242728"
+  black: "#020303"
+  red: "#E60000"
+  green: "#88CC00"
+  yellow: "#B39500"
+  blue: "#7733FF"
+  magenta: "#FF006A"
+  cyan: "#0099E6"
+  white: "#FCFCFD"
+  brightBlack: "#020303"
+  brightRed: "#E60000"
+  brightGreen: "#88CC00"
+  brightYellow: "#B39500"
+  brightBlue: "#7733FF"
+  brightMagenta: "#FF006A"
+  brightCyan: "#0099E6"
+  brightWhite: "#FCFCFD"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Prism (Dark)"
+  contrast:
+    fg: 101.9
+    black: 106
+    red: 70.3
+    green: 37.6
+    yellow: 55.2
+    blue: 77
+    magenta: 63
+    cyan: 57.7
+    white: 0
+    brightBlack: 106
+    brightRed: 70.3
+    brightGreen: 37.6
+    brightYellow: 55.2
+    brightBlue: 77
+    brightMagenta: 63
+    brightCyan: 57.7
+    brightWhite: 0

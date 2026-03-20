@@ -1,0 +1,53 @@
+name: "ENCOM"
+source:
+  marketplace_id: "emeraldio.encom"
+  version: "0.0.3"
+  installs: 680
+  rating: 5
+  ratings: 1
+  author: "emerald.io"
+  repo: "https://github.com/emeraldio/encom"
+  url: "https://marketplace.visualstudio.com/items?itemName=emeraldio.encom"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#00A595"
+  black: "#000000"
+  red: "#9F0000"
+  green: "#008B00"
+  yellow: "#FFD000"
+  blue: "#0081FF"
+  magenta: "#BC00CA"
+  cyan: "#008B8B"
+  white: "#BBBBBB"
+  brightBlack: "#555555"
+  brightRed: "#FF0000"
+  brightGreen: "#00EE00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00CDCD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 44.7
+    black: 0
+    red: 15.5
+    green: 31.4
+    yellow: 81.3
+    blue: 37.4
+    magenta: 28.1
+    cyan: 33.7
+    white: 65.7
+    brightBlack: 16.1
+    brightRed: 37.5
+    brightGreen: 77.5
+    brightYellow: 102.7
+    brightBlue: 16.2
+    brightMagenta: 46.2
+    brightCyan: 64.9
+    brightWhite: 107.9

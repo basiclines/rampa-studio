@@ -1,0 +1,54 @@
+name: "Owlet (Default)"
+source:
+  marketplace_id: "itsjonq.owlet"
+  version: "0.1.22"
+  installs: 10596
+  rating: 5
+  ratings: 3
+  author: "itsjonq"
+  repo: "https://github.com/itsjonq/owlet"
+  url: "https://marketplace.visualstudio.com/items?itemName=itsjonq.owlet"
+  formats:
+    zed: "https://raw.githubusercontent.com/itsjonq/owlet/master/themes/owlet-theme-solarized.json"
+colors:
+  bg: "#1E222A"
+  fg: "#D6DEEB"
+  black: "#1E222A"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#ECC48D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 83.8
+    black: 0
+    red: 37.9
+    green: 65.9
+    yellow: 72.3
+    blue: 54.5
+    magenta: 52.4
+    cyan: 58.3
+    white: 105.5
+    brightBlack: 14.2
+    brightRed: 37.9
+    brightGreen: 65.9
+    brightYellow: 92.3
+    brightBlue: 54.5
+    brightMagenta: 52.4
+    brightCyan: 72.6
+    brightWhite: 105.5

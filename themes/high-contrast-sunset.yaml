@@ -1,0 +1,53 @@
+name: "High Contrast Sunset"
+source:
+  marketplace_id: "krishnakumarmehta.high-contrast-sunset"
+  version: "1.0.2"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Krishna Kumar Mehta"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=krishnakumarmehta.high-contrast-sunset"
+  formats: null
+colors:
+  bg: "#0A0608"
+  fg: "#FFF0DC"
+  black: "#0A0608"
+  red: "#FF2052"
+  green: "#FFB347"
+  yellow: "#FF6B35"
+  blue: "#C2410C"
+  magenta: "#FF4500"
+  cyan: "#D4956A"
+  white: "#FFF0DC"
+  brightBlack: "#4A2535"
+  brightRed: "#FF4D6D"
+  brightGreen: "#FFD580"
+  brightYellow: "#FF8C55"
+  brightBlue: "#C2410C"
+  brightMagenta: "#FF6B35"
+  brightCyan: "#EEC9A0"
+  brightWhite: "#FFF8F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 38.7
+    green: 70
+    yellow: 48.2
+    blue: 27.1
+    magenta: 41.3
+    cyan: 52.5
+    white: 99.3
+    brightBlack: 0
+    brightRed: 43.6
+    brightGreen: 84.5
+    brightYellow: 57.1
+    brightBlue: 27.1
+    brightMagenta: 48.2
+    brightCyan: 77.5
+    brightWhite: 103.8

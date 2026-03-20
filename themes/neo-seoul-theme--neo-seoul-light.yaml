@@ -1,0 +1,53 @@
+name: "Neo Seoul Theme (Neo Seoul Light)"
+source:
+  marketplace_id: "taotao7.neo-seoul-theme"
+  version: "0.0.3"
+  installs: 253
+  rating: 5
+  ratings: 1
+  author: "taotao7"
+  repo: "https://github.com/taotao7/neoseoul-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=taotao7.neo-seoul-theme"
+  formats: null
+colors:
+  bg: "#DADADA"
+  fg: "#4E4E4E"
+  black: "#DADADA"
+  red: "#BF2172"
+  green: "#719872"
+  yellow: "#875F5F"
+  blue: "#25709A"
+  magenta: "#875F5F"
+  cyan: "#009799"
+  white: "#4E4E4E"
+  brightBlack: "#C8C8C8"
+  brightRed: "#E12672"
+  brightGreen: "#98BC99"
+  brightYellow: "#FFDE99"
+  brightBlue: "#98BEDE"
+  brightMagenta: "#FFBD98"
+  brightCyan: "#BCDEDE"
+  brightWhite: "#262626"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Neo Seoul Theme (Neo Seoul Dark)"
+  contrast:
+    fg: 67.1
+    black: 0
+    red: 55.3
+    green: 38.2
+    yellow: 55.6
+    blue: 55.1
+    magenta: 55.6
+    cyan: 41
+    white: 67.1
+    brightBlack: 7.9
+    brightRed: 47.4
+    brightGreen: 19.5
+    brightYellow: 0
+    brightBlue: 15.9
+    brightMagenta: 0
+    brightCyan: 0
+    brightWhite: 80.4

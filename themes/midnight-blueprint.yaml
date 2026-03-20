@@ -1,0 +1,53 @@
+name: "Midnight Blueprint"
+source:
+  marketplace_id: "GaganGoswami.midnight-blueprint"
+  version: "1.0.0"
+  installs: 64
+  rating: 0
+  ratings: 0
+  author: "Gagan Goswami"
+  repo: "https://github.com/GaganGoswami/midnight-blueprint-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GaganGoswami.midnight-blueprint"
+  formats: null
+colors:
+  bg: "#1A1F2E"
+  fg: "#9DB7D6"
+  black: "#1A1F2E"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#F9E79F"
+  blue: "#69B7FF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#9DB7D6"
+  brightBlack: "#4A5568"
+  brightRed: "#FF7A85"
+  brightGreen: "#D5F4A7"
+  brightYellow: "#FCECB8"
+  brightBlue: "#82C8FF"
+  brightMagenta: "#D4B0F0"
+  brightCyan: "#A3E7FF"
+  brightWhite: "#B8CBE6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 270
+  pair: null
+  contrast:
+    fg: 60
+    black: 0
+    red: 42.6
+    green: 83.1
+    yellow: 90.2
+    blue: 58.4
+    magenta: 52.7
+    cyan: 77.2
+    white: 60
+    brightBlack: 13.9
+    brightRed: 51.3
+    brightGreen: 91.7
+    brightYellow: 93.7
+    brightBlue: 67.2
+    brightMagenta: 65.3
+    brightCyan: 83.9
+    brightWhite: 72

@@ -1,0 +1,53 @@
+name: "KH Gold (Subtle)"
+source:
+  marketplace_id: "emoralesb05.kh-vscode-theme"
+  version: "0.1.0"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "Ed Morales"
+  repo: "https://github.com/emoralesb05/kh-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=emoralesb05.kh-vscode-theme"
+  formats: null
+colors:
+  bg: "#09070F"
+  fg: "#F7F1E2"
+  black: "#0A0F1A"
+  red: "#FF6B7A"
+  green: "#8CF0C8"
+  yellow: "#DAB878"
+  blue: "#60A5FA"
+  magenta: "#C9A6FF"
+  cyan: "#22D3EE"
+  white: "#ECF4FF"
+  brightBlack: "#6B7F9E"
+  brightRed: "#FF9AAA"
+  brightGreen: "#B9F7DE"
+  brightYellow: "#FFE9A3"
+  brightBlue: "#9CC7FF"
+  brightMagenta: "#DEC9FF"
+  brightCyan: "#A4EEFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 297
+  pair: null
+  contrast:
+    fg: 98.8
+    black: 0
+    red: 49.4
+    green: 85.9
+    yellow: 66.5
+    blue: 52.3
+    magenta: 63
+    cyan: 69.5
+    white: 100
+    brightBlack: 33.6
+    brightRed: 63.6
+    brightGreen: 94
+    brightYellow: 94.1
+    brightBlue: 70.9
+    brightMagenta: 79.3
+    brightCyan: 89.3
+    brightWhite: 107.8

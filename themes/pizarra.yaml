@@ -1,0 +1,53 @@
+name: "pizarra"
+source:
+  marketplace_id: "afgomez.pizarra"
+  version: "0.2.1"
+  installs: 278
+  rating: 0
+  ratings: 0
+  author: "Alejandro Fernández"
+  repo: "http://github.com/afgomez/pizarra.vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=afgomez.pizarra"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#EF3E30"
+  green: "#9CDD2D"
+  yellow: "#EED130"
+  blue: "#407CA5"
+  magenta: "#E469A7"
+  cyan: "#90C8DA"
+  white: "#DCDCDC"
+  brightBlack: "#515151"
+  brightRed: "#FF7F75"
+  brightGreen: "#C3F470"
+  brightYellow: "#FFEC81"
+  brightBlue: "#95BFDD"
+  brightMagenta: "#FABADA"
+  brightCyan: "#C1E4F0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.9
+    black: 0
+    red: 35.9
+    green: 73.7
+    yellow: 78.1
+    blue: 29.4
+    magenta: 43.9
+    cyan: 67.3
+    white: 84.4
+    brightBlack: 13.6
+    brightRed: 53.2
+    brightGreen: 89.4
+    brightYellow: 93.7
+    brightBlue: 64
+    brightMagenta: 74.9
+    brightCyan: 85.7
+    brightWhite: 106.9

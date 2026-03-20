@@ -1,0 +1,53 @@
+name: "WL-Silk Road"
+source:
+  marketplace_id: "WatkinsLabs.silk-road"
+  version: "1.0.1"
+  installs: 32
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.silk-road"
+  formats: null
+colors:
+  bg: "#F4CCA1"
+  fg: "#6A4E42"
+  black: "#000000"
+  red: "#E74C3C"
+  green: "#27AE60"
+  yellow: "#E67E22"
+  blue: "#DD6B3D"
+  magenta: "#FCA15D"
+  cyan: "#DD6B3D"
+  white: "#6A4E42"
+  brightBlack: "#666666"
+  brightRed: "#E74C3C"
+  brightGreen: "#27AE60"
+  brightYellow: "#E67E22"
+  brightBlue: "#DD6B3D"
+  brightMagenta: "#FCA15D"
+  brightCyan: "#DD6B3D"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 69
+  pair: null
+  contrast:
+    fg: 60.5
+    black: 80.4
+    red: 38.9
+    green: 28.8
+    yellow: 28.4
+    blue: 34.8
+    magenta: 13.3
+    cyan: 34.8
+    white: 60.5
+    brightBlack: 53.1
+    brightRed: 38.9
+    brightGreen: 28.8
+    brightYellow: 28.4
+    brightBlue: 34.8
+    brightMagenta: 13.3
+    brightCyan: 34.8
+    brightWhite: 26.5

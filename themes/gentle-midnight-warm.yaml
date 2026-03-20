@@ -1,0 +1,53 @@
+name: "Gentle Midnight Warm"
+source:
+  marketplace_id: "carlossalguero.gentle-theme"
+  version: "1.0.0"
+  installs: 109
+  rating: 5
+  ratings: 1
+  author: "carlossalguero"
+  repo: "https://github.com/salgue441/gentle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlossalguero.gentle-theme"
+  formats: null
+colors:
+  bg: "#100E0C"
+  fg: "#D0C8C0"
+  black: "#181410"
+  red: "#D89080"
+  green: "#80B080"
+  yellow: "#D8B060"
+  blue: "#98A8B8"
+  magenta: "#B898A8"
+  cyan: "#80B8A8"
+  white: "#D0C8C0"
+  brightBlack: "#3A3530"
+  brightRed: "#E8A898"
+  brightGreen: "#A0D0A0"
+  brightYellow: "#E8D088"
+  brightBlue: "#A8B8C8"
+  brightMagenta: "#C8A8B8"
+  brightCyan: "#A0D0C0"
+  brightWhite: "#E8E0D8"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.7
+    black: 0
+    red: 51.7
+    green: 52.8
+    yellow: 62.4
+    blue: 53.8
+    magenta: 50.9
+    cyan: 57.5
+    white: 73.7
+    brightBlack: 0
+    brightRed: 63.3
+    brightGreen: 70.6
+    brightYellow: 78.6
+    brightBlue: 62.6
+    brightMagenta: 59.6
+    brightCyan: 71.8
+    brightWhite: 88.3

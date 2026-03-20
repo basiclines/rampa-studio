@@ -1,0 +1,53 @@
+name: "Twin Black"
+source:
+  marketplace_id: "twin-themes.twin-vsc"
+  version: "1.0.5"
+  installs: 893
+  rating: 0
+  ratings: 0
+  author: "Twin Themes"
+  repo: "https://github.com/twin-themes/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=twin-themes.twin-vsc"
+  formats: null
+colors:
+  bg: "#2A2D2C"
+  fg: "#BCC0CC"
+  black: "#6A6D6C"
+  red: "#E47267"
+  green: "#25D483"
+  yellow: "#DBEC79"
+  blue: "#71BAEF"
+  magenta: "#C181E4"
+  cyan: "#F4BF5D"
+  white: "#DADDDC"
+  brightBlack: "#8A8D8C"
+  brightRed: "#E69F99"
+  brightGreen: "#58D59B"
+  brightYellow: "#E3EDAB"
+  brightBlue: "#A4D0EF"
+  brightMagenta: "#D5AFE9"
+  brightCyan: "#F1D093"
+  brightWhite: "#FAFDFC"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 64.4
+    black: 21.5
+    red: 40.7
+    green: 61.5
+    yellow: 85.2
+    blue: 56.9
+    magenta: 44
+    cyan: 68.7
+    white: 81.3
+    brightBlack: 36.4
+    brightRed: 55.9
+    brightGreen: 64
+    brightYellow: 88
+    brightBlue: 70.4
+    brightMagenta: 62.5
+    brightCyan: 76.3
+    brightWhite: 101.8

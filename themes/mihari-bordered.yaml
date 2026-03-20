@@ -1,0 +1,53 @@
+name: "Mihari Bordered"
+source:
+  marketplace_id: "rynco.mihari"
+  version: "0.4.0"
+  installs: 866
+  rating: 5
+  ratings: 1
+  author: "rynco"
+  repo: "https://github.com/01010101lzy/mihari"
+  url: "https://marketplace.visualstudio.com/items?itemName=rynco.mihari"
+  formats: null
+colors:
+  bg: "#1E252A"
+  fg: "#C4CDD5"
+  black: "#0F171C"
+  red: "#E32636"
+  green: "#8BA66A"
+  yellow: "#E1BD09"
+  blue: "#7B92C9"
+  magenta: "#DF3D8B"
+  cyan: "#649AA2"
+  white: "#90989F"
+  brightBlack: "#454D53"
+  brightRed: "#E32636"
+  brightGreen: "#8BA66A"
+  brightYellow: "#E1BD09"
+  brightBlue: "#7B92C9"
+  brightMagenta: "#DF3D8B"
+  brightCyan: "#649AA2"
+  brightWhite: "#C4CDD5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 239
+  pair: null
+  contrast:
+    fg: 72.8
+    black: 0
+    red: 29.1
+    green: 46.7
+    yellow: 65.9
+    blue: 41.2
+    magenta: 32.4
+    cyan: 40.6
+    white: 43.3
+    brightBlack: 9.9
+    brightRed: 29.1
+    brightGreen: 46.7
+    brightYellow: 65.9
+    brightBlue: 41.2
+    brightMagenta: 32.4
+    brightCyan: 40.6
+    brightWhite: 72.8

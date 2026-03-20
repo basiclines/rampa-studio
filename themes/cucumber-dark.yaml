@@ -1,0 +1,53 @@
+name: "Cucumber - Dark"
+source:
+  marketplace_id: "jbird.cucumber-color-theme"
+  version: "0.0.1"
+  installs: 41
+  rating: 0
+  ratings: 0
+  author: "Jason Hulbert"
+  repo: "https://github.com/jasonhulbert/cucumber-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jbird.cucumber-color-theme"
+  formats: null
+colors:
+  bg: "#141A1A"
+  fg: "#B3C2BF"
+  black: "#000000"
+  red: "#DD9482"
+  green: "#21B9B9"
+  yellow: "#E2E3B3"
+  blue: "#40A6FF"
+  magenta: "#788AF2"
+  cyan: "#47BBFF"
+  white: "#B3C2BF"
+  brightBlack: "#000000"
+  brightRed: "#DD9482"
+  brightGreen: "#21B9B9"
+  brightYellow: "#E2E3B3"
+  brightBlue: "#40A6FF"
+  brightMagenta: "#788AF2"
+  brightCyan: "#47BBFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: "Cucumber - Light"
+  contrast:
+    fg: 66.7
+    black: 0
+    red: 53.1
+    green: 53.8
+    yellow: 86.5
+    blue: 50.6
+    magenta: 42.4
+    cyan: 59.4
+    white: 66.7
+    brightBlack: 0
+    brightRed: 53.1
+    brightGreen: 53.8
+    brightYellow: 86.5
+    brightBlue: 50.6
+    brightMagenta: 42.4
+    brightCyan: 59.4
+    brightWhite: 106.7

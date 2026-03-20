@@ -1,0 +1,53 @@
+name: "Darkroom"
+source:
+  marketplace_id: "LokeshKavisth.darkroom"
+  version: "0.0.6"
+  installs: 597
+  rating: 0
+  ratings: 0
+  author: "Lokesh Kavisth"
+  repo: "https://github.com/lokeshkavisth/darkroom"
+  url: "https://marketplace.visualstudio.com/items?itemName=LokeshKavisth.darkroom"
+  formats: null
+colors:
+  bg: "#121421"
+  fg: "#07CFBC"
+  black: "#CB8989"
+  red: "#D51D1D"
+  green: "#0DBC79"
+  yellow: "#D1D100"
+  blue: "#2472C8"
+  magenta: "#C73CC7"
+  cyan: "#11A8CD"
+  white: "#CBCBCB"
+  brightBlack: "#CB9C54"
+  brightRed: "#FF6161"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFFF33"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#E8A9E8"
+  brightCyan: "#29B8DB"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 277
+  pair: null
+  contrast:
+    fg: 64.3
+    black: 47.1
+    red: 27.1
+    green: 53.2
+    yellow: 74
+    blue: 27.6
+    magenta: 32.3
+    cyan: 47.7
+    white: 74.3
+    brightBlack: 52.3
+    brightRed: 46
+    brightGreen: 63.7
+    brightYellow: 102
+    brightBlue: 40.2
+    brightMagenta: 66.6
+    brightCyan: 55.6
+    brightWhite: 98.5

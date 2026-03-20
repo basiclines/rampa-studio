@@ -1,0 +1,53 @@
+name: "Camula Sun"
+source:
+  marketplace_id: "Vesko.theme-camula"
+  version: "1.0.0"
+  installs: 52
+  rating: 0
+  ratings: 0
+  author: "Vesko"
+  repo: "https://github.com/veselink1/camula-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vesko.theme-camula"
+  formats: null
+colors:
+  bg: "#2D2A2E"
+  fg: "#FBFBFB"
+  black: "#262626"
+  red: "#EE6666"
+  green: "#A9CB87"
+  yellow: "#F0D175"
+  blue: "#B2A8E7"
+  magenta: "#EF7190"
+  cyan: "#88D0D8"
+  white: "#FBFBFB"
+  brightBlack: "#717171"
+  brightRed: "#F07C7C"
+  brightGreen: "#78F09A"
+  brightYellow: "#F6F6AE"
+  brightBlue: "#D6B4F7"
+  brightMagenta: "#F49DDA"
+  brightCyan: "#ADF6F6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.2
+    black: 0
+    red: 40.2
+    green: 64.8
+    yellow: 76.2
+    blue: 55.4
+    magenta: 44.1
+    cyan: 67.1
+    white: 101.2
+    brightBlack: 23.8
+    brightRed: 46.5
+    brightGreen: 79.2
+    brightYellow: 95.2
+    brightBlue: 65.5
+    brightMagenta: 60.7
+    brightCyan: 89.6
+    brightWhite: 103.9

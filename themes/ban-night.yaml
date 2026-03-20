@@ -1,0 +1,53 @@
+name: "Ban Night"
+source:
+  marketplace_id: "drujban.ban-theme"
+  version: "0.1.1"
+  installs: 62
+  rating: 5
+  ratings: 1
+  author: "drujban"
+  repo: "https://github.com/drujbanjo/ban-theme-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=drujban.ban-theme"
+  formats: null
+colors:
+  bg: "#191A25"
+  fg: "#A9B1D6"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#FF9E64"
+  blue: "#7AA2F7"
+  magenta: "#919FF1"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#FF9E64"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#919FF1"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  pair: "Ban Light"
+  contrast:
+    fg: 59.5
+    black: 0
+    red: 49.5
+    green: 72.3
+    yellow: 61.6
+    blue: 51.3
+    magenta: 51.7
+    cyan: 70.6
+    white: 32.2
+    brightBlack: 0
+    brightRed: 49.5
+    brightGreen: 72.3
+    brightYellow: 61.6
+    brightBlue: 51.3
+    brightMagenta: 51.7
+    brightCyan: 70.6
+    brightWhite: 59.1

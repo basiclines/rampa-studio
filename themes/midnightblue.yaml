@@ -1,0 +1,53 @@
+name: "MidnightBlue"
+source:
+  marketplace_id: "priteshlad3.katanax"
+  version: "0.0.1"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "priteshlad3"
+  repo: "https://github.com/pritesh88/katanax-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=priteshlad3.katanax"
+  formats: null
+colors:
+  bg: "#0D1B3E"
+  fg: "#D4E8F8"
+  black: "#111F45"
+  red: "#FF6B9D"
+  green: "#6ADBA8"
+  yellow: "#89C8E8"
+  blue: "#3461C1"
+  magenta: "#C589E8"
+  cyan: "#7AB8D8"
+  white: "#A8C8E8"
+  brightBlack: "#2A3A6A"
+  brightRed: "#FF8BB8"
+  brightGreen: "#8AEBC8"
+  brightYellow: "#ACD8F0"
+  brightBlue: "#5A88D8"
+  brightMagenta: "#D8A8F0"
+  brightCyan: "#9ACCE8"
+  brightWhite: "#D4E8F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 89.3
+    black: 0
+    red: 48.7
+    green: 70.6
+    yellow: 66.6
+    blue: 21.4
+    magenta: 49.7
+    cyan: 57.8
+    white: 69.4
+    brightBlack: 0
+    brightRed: 57.9
+    brightGreen: 81.5
+    brightYellow: 77.3
+    brightBlue: 37.2
+    brightMagenta: 63.2
+    brightCyan: 69.8
+    brightWhite: 89.3

@@ -1,0 +1,55 @@
+name: "Skyline"
+source:
+  marketplace_id: "hydralite.hydralite-skyline"
+  version: "0.0.3"
+  installs: 3717
+  rating: 5
+  ratings: 3
+  author: "Hydralite"
+  repo: "https://github.com/hydralite/skyline"
+  url: "https://marketplace.visualstudio.com/items?itemName=hydralite.hydralite-skyline"
+  formats:
+    android-studio: "https://raw.githubusercontent.com/hydralite/skyline/master/intellij/skyline.icls"
+    sublime: "https://raw.githubusercontent.com/hydralite/skyline/master/themes/skyline.tmTheme"
+colors:
+  bg: "#1C1E26"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#E64444"
+  green: "#2CECA2"
+  yellow: "#FFEA43"
+  blue: "#439CFF"
+  magenta: "#FF39FF"
+  cyan: "#20C4EC"
+  white: "#E5E5E5"
+  brightBlack: "#6B6B6B"
+  brightRed: "#FF6363"
+  brightGreen: "#68FFC2"
+  brightYellow: "#FFFF5F"
+  brightBlue: "#68B0FF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#59DEFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 106
+    black: 0
+    red: 33.9
+    green: 76.9
+    yellow: 91.1
+    blue: 46.1
+    magenta: 46.5
+    cyan: 60.7
+    white: 89.1
+    brightBlack: 23.3
+    brightRed: 45.4
+    brightGreen: 89.5
+    brightYellow: 101.3
+    brightBlue: 55.7
+    brightMagenta: 44.5
+    brightCyan: 75.2
+    brightWhite: 106

@@ -1,0 +1,53 @@
+name: "Ogone"
+source:
+  marketplace_id: "SRNV.otone"
+  version: "0.1.202"
+  installs: 330
+  rating: 5
+  ratings: 1
+  author: "Rudy Alula"
+  repo: "https://github.com/SRNV/Otone"
+  url: "https://marketplace.visualstudio.com/items?itemName=SRNV.otone"
+  formats: null
+colors:
+  bg: "#1A181D"
+  fg: "#C4C4C4"
+  black: "#3D3D3D"
+  red: "#AC5588"
+  green: "#3D8F81"
+  yellow: "#ECC777"
+  blue: "#A4C8E6"
+  magenta: "#DB30A5"
+  cyan: "#000000"
+  white: "#929292"
+  brightBlack: "#3F3F3F"
+  brightRed: "#DB30A5"
+  brightGreen: "#43CAB4"
+  brightYellow: "#E5D691"
+  brightBlue: "#CFC2F3"
+  brightMagenta: "#DD75BC"
+  brightCyan: "#47FFE6"
+  brightWhite: "#E5E2E2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 304
+  pair: null
+  contrast:
+    fg: 69.7
+    black: 0
+    red: 27.8
+    green: 34.6
+    yellow: 74.2
+    blue: 69.5
+    magenta: 32.9
+    cyan: 0
+    white: 42.4
+    brightBlack: 0
+    brightRed: 32.9
+    brightGreen: 62
+    brightYellow: 80.2
+    brightBlue: 72.6
+    brightMagenta: 46.2
+    brightCyan: 90.5
+    brightWhite: 88.3

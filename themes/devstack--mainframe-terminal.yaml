@@ -1,0 +1,53 @@
+name: "DevStack (Mainframe-Terminal)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#0E111B"
+  fg: "#D8DFE4"
+  black: "#0E111B"
+  red: "#FF1648"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#26ACF4"
+  magenta: "#26ACF4"
+  cyan: "#29C3A0"
+  white: "#D8DFE4"
+  brightBlack: "#0E111B"
+  brightRed: "#FF1648"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#26ACF4"
+  brightMagenta: "#26ACF4"
+  brightCyan: "#29C3A0"
+  brightWhite: "#D8DFE4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 86
+    black: 0
+    red: 37.7
+    green: 58.1
+    yellow: 52.2
+    blue: 52.3
+    magenta: 52.3
+    cyan: 58.1
+    white: 86
+    brightBlack: 0
+    brightRed: 37.7
+    brightGreen: 58.1
+    brightYellow: 52.2
+    brightBlue: 52.3
+    brightMagenta: 52.3
+    brightCyan: 58.1
+    brightWhite: 86

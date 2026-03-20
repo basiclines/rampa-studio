@@ -1,0 +1,53 @@
+name: "Lumen Dark"
+source:
+  marketplace_id: "devimicael.lumen-dark"
+  version: "1.0.5"
+  installs: 344
+  rating: 0
+  ratings: 0
+  author: "Devimicael"
+  repo: "https://github.com/devimicael/lumen-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=devimicael.lumen-dark"
+  formats: null
+colors:
+  bg: "#1A1B1E"
+  fg: "#E8EAED"
+  black: "#1E1F22"
+  red: "#E06B74"
+  green: "#91C96F"
+  yellow: "#D4B106"
+  blue: "#6DB3F2"
+  magenta: "#C77DBB"
+  cyan: "#56C8D8"
+  white: "#DDE1E6"
+  brightBlack: "#6B7075"
+  brightRed: "#F07178"
+  brightGreen: "#A9DC76"
+  brightYellow: "#E6C547"
+  brightBlue: "#82B1FF"
+  brightMagenta: "#E091C7"
+  brightCyan: "#7DD6E8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 41.4
+    green: 63.7
+    yellow: 60.4
+    blue: 56.7
+    magenta: 44.3
+    cyan: 63.2
+    white: 86.8
+    brightBlack: 25.6
+    brightRed: 46.1
+    brightGreen: 74.8
+    brightYellow: 71.5
+    brightBlue: 58.2
+    brightMagenta: 55
+    brightCyan: 72.5
+    brightWhite: 106.4

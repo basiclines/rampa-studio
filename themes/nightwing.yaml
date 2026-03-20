@@ -1,0 +1,53 @@
+name: "Nightwing"
+source:
+  marketplace_id: "bwielgosz.nightwing"
+  version: "1.0.3"
+  installs: 409
+  rating: 0
+  ratings: 0
+  author: "Bartek Wielgosz 💻"
+  repo: "https://github.com/bwielgosz/nightwing-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bwielgosz.nightwing"
+  formats: null
+colors:
+  bg: "#01111F"
+  fg: "#D6DEEB"
+  black: "#01111F"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#A6DD54"
+  blue: "#82AAFF"
+  magenta: "#00C0E2"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#00C0E2"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 243
+  pair: null
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 39.8
+    green: 67.7
+    yellow: 75.4
+    blue: 56.4
+    magenta: 59.5
+    cyan: 60.2
+    white: 107.4
+    brightBlack: 16.1
+    brightRed: 39.8
+    brightGreen: 67.7
+    brightYellow: 94.2
+    brightBlue: 56.4
+    brightMagenta: 59.5
+    brightCyan: 74.5
+    brightWhite: 107.4

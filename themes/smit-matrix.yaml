@@ -1,0 +1,53 @@
+name: "Smit Matrix"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#00FF00"
+  black: "#000000"
+  red: "#008800"
+  green: "#00FF00"
+  yellow: "#00DD00"
+  blue: "#00AA00"
+  magenta: "#00CC00"
+  cyan: "#00EE00"
+  white: "#00FF00"
+  brightBlack: "#004400"
+  brightRed: "#009900"
+  brightGreen: "#00FF00"
+  brightYellow: "#00EE00"
+  brightBlue: "#00BB00"
+  brightMagenta: "#00DD00"
+  brightCyan: "#00FF00"
+  brightWhite: "#00FF00"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 30.2
+    green: 86.5
+    yellow: 68.7
+    blue: 44.5
+    magenta: 60.3
+    cyan: 77.5
+    white: 86.5
+    brightBlack: 0
+    brightRed: 37.2
+    brightGreen: 86.5
+    brightYellow: 77.5
+    brightBlue: 52.3
+    brightMagenta: 68.7
+    brightCyan: 86.5
+    brightWhite: 86.5

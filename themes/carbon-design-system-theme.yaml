@@ -1,0 +1,53 @@
+name: "Carbon Design System Theme"
+source:
+  marketplace_id: "taotao7.ibm-carbon-theme"
+  version: "1.0.0"
+  installs: 130
+  rating: 0
+  ratings: 0
+  author: "taotao7"
+  repo: "https://github.com/taotao7/carbon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=taotao7.ibm-carbon-theme"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#F4F4F4"
+  black: "#161616"
+  red: "#DA1E28"
+  green: "#24A148"
+  yellow: "#F1C21B"
+  blue: "#4589FF"
+  magenta: "#EE5396"
+  cyan: "#82CFFF"
+  white: "#F4F4F4"
+  brightBlack: "#393939"
+  brightRed: "#FF8389"
+  brightGreen: "#42BE65"
+  brightYellow: "#F1C21B"
+  brightBlue: "#78A9FF"
+  brightMagenta: "#BE95FF"
+  brightCyan: "#A6C8FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.7
+    black: 0
+    red: 28.3
+    green: 40.3
+    yellow: 72.3
+    blue: 40.3
+    magenta: 41.1
+    cyan: 71.5
+    white: 99.7
+    brightBlack: 0
+    brightRed: 54.9
+    brightGreen: 54.4
+    brightYellow: 72.3
+    brightBlue: 54.9
+    brightMagenta: 54.9
+    brightCyan: 71.4
+    brightWhite: 107

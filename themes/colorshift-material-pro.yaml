@@ -1,0 +1,53 @@
+name: "ColorShift Material Pro"
+source:
+  marketplace_id: "ColorShift.colorshift-material-pro"
+  version: "1.0.0"
+  installs: 56
+  rating: 5
+  ratings: 1
+  author: "ColorShift"
+  repo: "https://github.com/colorshift/colorshift-material-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=ColorShift.colorshift-material-pro"
+  formats: null
+colors:
+  bg: "#263238"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF5252"
+  green: "#C3E88D"
+  yellow: "#FFCA28"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#EEFFFF"
+  brightBlack: "#546E7A"
+  brightRed: "#FF8A80"
+  brightGreen: "#E6EE9C"
+  brightYellow: "#FFE57F"
+  brightBlue: "#B0C9FF"
+  brightMagenta: "#E1BEE7"
+  brightCyan: "#B2EBF2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 100.4
+    black: 0
+    red: 38.7
+    green: 80
+    yellow: 73.7
+    blue: 51.7
+    magenta: 49.6
+    cyan: 74.1
+    white: 100.4
+    brightBlack: 19.7
+    brightRed: 52.3
+    brightGreen: 87.5
+    brightYellow: 86.3
+    brightBlue: 68.6
+    brightMagenta: 68.9
+    brightCyan: 83.4
+    brightWhite: 102.7

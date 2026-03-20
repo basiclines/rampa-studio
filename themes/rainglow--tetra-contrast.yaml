@@ -1,0 +1,53 @@
+name: "Rainglow (tetra-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#050F11"
+  fg: "#C9D7DB"
+  black: "#0B2025"
+  red: "#BA0E2E"
+  green: "#148B97"
+  yellow: "#FDCE7F"
+  blue: "#E8744A"
+  magenta: "#E2585D"
+  cyan: "#148B97"
+  white: "#D8E2E5"
+  brightBlack: "#1C5560"
+  brightRed: "#F03E5F"
+  brightGreen: "#2ED3E3"
+  brightYellow: "#FFF4E3"
+  brightBlue: "#F3BAA5"
+  brightMagenta: "#F1AFB1"
+  brightCyan: "#2ED3E3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 210
+  pair: "Rainglow (tetra-light)"
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 21.2
+    green: 34
+    yellow: 80.9
+    blue: 45.5
+    magenta: 38.3
+    cyan: 34
+    white: 87.7
+    brightBlack: 13.3
+    brightRed: 37.5
+    brightGreen: 68.8
+    brightYellow: 101.1
+    brightBlue: 72.3
+    brightMagenta: 68.3
+    brightCyan: 68.8
+    brightWhite: 107.6

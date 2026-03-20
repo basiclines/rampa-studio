@@ -1,0 +1,53 @@
+name: "Liftoff"
+source:
+  marketplace_id: "KevinPek.liftoff"
+  version: "1.1.0"
+  installs: 61
+  rating: 0
+  ratings: 0
+  author: "Kevin Pek"
+  repo: "https://github.com/kevin-pek/liftoff-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=KevinPek.liftoff"
+  formats: null
+colors:
+  bg: "#17161F"
+  fg: "#E0DEF2"
+  black: "#1E1D2A"
+  red: "#CE5076"
+  green: "#66C5AE"
+  yellow: "#EAAE7E"
+  blue: "#7BC1E4"
+  magenta: "#B18CE7"
+  cyan: "#56CDCB"
+  white: "#BFBFBF"
+  brightBlack: "#262432"
+  brightRed: "#E9678C"
+  brightGreen: "#5DE4C7"
+  brightYellow: "#F4C886"
+  brightBlue: "#8AE3F8"
+  brightMagenta: "#C9AFF0"
+  brightCyan: "#A4EEED"
+  brightWhite: "#D7D7D7"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 290
+  pair: null
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 32.7
+    green: 61.1
+    yellow: 64.4
+    blue: 63.2
+    magenta: 48.6
+    cyan: 65.3
+    white: 67
+    brightBlack: 0
+    brightRed: 43.4
+    brightGreen: 76.4
+    brightYellow: 76.4
+    brightBlue: 80.7
+    brightMagenta: 64.5
+    brightCyan: 87.5
+    brightWhite: 81.3

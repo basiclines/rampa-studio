@@ -1,0 +1,53 @@
+name: "npp-color Dark hard"
+source:
+  marketplace_id: "gaoyia.npp-theme"
+  version: "0.0.1"
+  installs: 364
+  rating: 0
+  ratings: 0
+  author: "gaoyia"
+  repo: "https://github.com/gaoyia/npp-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gaoyia.npp-theme"
+  formats: null
+colors:
+  bg: "#212424"
+  fg: "#ABB2BF"
+  black: "#4A505D"
+  red: "#F81141"
+  green: "#23974A"
+  yellow: "#FD7E57"
+  blue: "#285BFF"
+  magenta: "#8C62FD"
+  cyan: "#3A8AB2"
+  white: "#CCD5E5"
+  brightBlack: "#61697A"
+  brightRed: "#FC4A6D"
+  brightGreen: "#37BD58"
+  brightYellow: "#F6BE48"
+  brightBlue: "#199FFD"
+  brightMagenta: "#FC58F6"
+  brightCyan: "#50ACAE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "npp-color light hard"
+  contrast:
+    fg: 57.8
+    black: 11.5
+    red: 33.6
+    green: 34.4
+    yellow: 50.3
+    blue: 24.2
+    magenta: 32.4
+    cyan: 33.3
+    white: 78.1
+    brightBlack: 21.6
+    brightRed: 39.8
+    brightGreen: 51.7
+    brightYellow: 70.1
+    brightBlue: 45.5
+    brightMagenta: 48.4
+    brightCyan: 47.5
+    brightWhite: 105.2

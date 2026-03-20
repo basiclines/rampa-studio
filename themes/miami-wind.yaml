@@ -1,0 +1,53 @@
+name: "miami-wind"
+source:
+  marketplace_id: "hanakin.miami-wind"
+  version: "0.4.0"
+  installs: 93
+  rating: 0
+  ratings: 0
+  author: "hanakin"
+  repo: "https://github.com/hanakin/miami-wind-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=hanakin.miami-wind"
+  formats: null
+colors:
+  bg: "#1E1E2E"
+  fg: "#CDD6F4"
+  black: "#11111B"
+  red: "#F87171"
+  green: "#34D399"
+  yellow: "#FEF08A"
+  blue: "#818CF8"
+  magenta: "#F472B6"
+  cyan: "#22D3EE"
+  white: "#A6ADC8"
+  brightBlack: "#585B70"
+  brightRed: "#F43F5E"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FDE047"
+  brightBlue: "#2563EB"
+  brightMagenta: "#EC4899"
+  brightCyan: "#38BDF8"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 47
+    green: 64.1
+    yellow: 94.6
+    blue: 43.4
+    magenta: 48.8
+    cyan: 67.5
+    white: 56.2
+    brightBlack: 16.9
+    brightRed: 36.8
+    brightGreen: 69.4
+    brightYellow: 86.1
+    brightBlue: 24.8
+    brightMagenta: 37.9
+    brightCyan: 58.6
+    brightWhite: 100.9

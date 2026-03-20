@@ -1,0 +1,53 @@
+name: "GitLab WebIDE Theme (GitLab Dark Grey)"
+source:
+  marketplace_id: "AlbertoRestifo.gitlab-webide-theme"
+  version: "1.0.1"
+  installs: 5720
+  rating: 0
+  ratings: 0
+  author: "Alberto Restifo"
+  repo: "https://github.com/albertorestifo/gitlab-webide-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlbertoRestifo.gitlab-webide-theme"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#F57F6C"
+  green: "#52B87A"
+  yellow: "#D99530"
+  blue: "#7FB6ED"
+  magenta: "#F88AAF"
+  cyan: "#32C5D2"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FCB5AA"
+  brightGreen: "#91D4A8"
+  brightYellow: "#E9BE74"
+  brightBlue: "#498DD1"
+  brightMagenta: "#FCACC5"
+  brightCyan: "#5EDEE3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 105.5
+    black: 0
+    red: 49.5
+    green: 51.2
+    yellow: 50.1
+    blue: 57.9
+    magenta: 55.2
+    cyan: 59.5
+    white: 105.5
+    brightBlack: 20.6
+    brightRed: 70
+    brightGreen: 69.3
+    brightYellow: 68.8
+    brightBlue: 37
+    brightMagenta: 67.8
+    brightCyan: 73.4
+    brightWhite: 105.5

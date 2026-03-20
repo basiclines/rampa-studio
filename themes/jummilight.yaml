@@ -1,0 +1,53 @@
+name: "jummilight"
+source:
+  marketplace_id: "jummiterm.jummiterm-vscode"
+  version: "0.0.4"
+  installs: 163
+  rating: 0
+  ratings: 0
+  author: "jummiterm"
+  repo: "https://github.com/jcherven/jummiterm-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=jummiterm.jummiterm-vscode"
+  formats: null
+colors:
+  bg: "#E4E4E4"
+  fg: "#262626"
+  black: "#262626"
+  red: "#D75F87"
+  green: "#008787"
+  yellow: "#AF8700"
+  blue: "#AF5FFF"
+  magenta: "#BC05BC"
+  cyan: "#008787"
+  white: "#8A8A8A"
+  brightBlack: "#4E4E4E"
+  brightRed: "#D7005F"
+  brightGreen: "#00D7D7"
+  brightYellow: "#AF8700"
+  brightBlue: "#8700FF"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#00D7D7"
+  brightWhite: "#B2B2B2"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.1
+    black: 86.1
+    red: 46.8
+    green: 53.7
+    yellow: 44.7
+    blue: 46.6
+    magenta: 58.6
+    cyan: 53.7
+    white: 46.2
+    brightBlack: 72.8
+    brightRed: 57
+    brightGreen: 16.6
+    brightYellow: 44.7
+    brightBlue: 61.6
+    brightMagenta: 58.6
+    brightCyan: 16.6
+    brightWhite: 25.7

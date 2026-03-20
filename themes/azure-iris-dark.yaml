@@ -1,0 +1,53 @@
+name: "Azure Iris Dark"
+source:
+  marketplace_id: "Codetown-3.azure-iris-theme"
+  version: "0.0.39"
+  installs: 110
+  rating: 0
+  ratings: 0
+  author: "Lielisk"
+  repo: "https://github.com/your-username/azure-iris-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Codetown-3.azure-iris-theme"
+  formats: null
+colors:
+  bg: "#0F1419"
+  fg: "#E0E0E0"
+  black: "#000000"
+  red: "#F44336"
+  green: "#4CAF50"
+  yellow: "#FF9800"
+  blue: "#3B6CF6"
+  magenta: "#E91E63"
+  cyan: "#00BCD4"
+  white: "#E0E0E0"
+  brightBlack: "#424242"
+  brightRed: "#F44336"
+  brightGreen: "#4CAF50"
+  brightYellow: "#FFEB3B"
+  brightBlue: "#3B6CF6"
+  brightMagenta: "#E91E63"
+  brightCyan: "#00BCD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 249
+  pair: "Azure Iris Light"
+  contrast:
+    fg: 87.2
+    black: 0
+    red: 38
+    green: 47.9
+    yellow: 59.7
+    blue: 30.3
+    magenta: 33
+    cyan: 56.8
+    white: 87.2
+    brightBlack: 8.4
+    brightRed: 38
+    brightGreen: 47.9
+    brightYellow: 92.7
+    brightBlue: 30.3
+    brightMagenta: 33
+    brightCyan: 56.8
+    brightWhite: 107.2

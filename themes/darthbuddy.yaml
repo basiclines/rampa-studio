@@ -1,0 +1,53 @@
+name: "darthbuddy"
+source:
+  marketplace_id: "darthp87.darthbuddy"
+  version: "1.0.0"
+  installs: 64
+  rating: 0
+  ratings: 0
+  author: "darthp87"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=darthp87.darthbuddy"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#FFFFFF"
+  black: "#121212"
+  red: "#EC144C"
+  green: "#00FF77"
+  yellow: "#FFFFFF"
+  blue: "#B0B0B0"
+  magenta: "#7A7A7A"
+  cyan: "#D5D5D5"
+  white: "#FFFFFF"
+  brightBlack: "#737373"
+  brightRed: "#EC144C"
+  brightGreen: "#EC144C"
+  brightYellow: "#FDFDFD"
+  brightBlue: "#BEBEBE"
+  brightMagenta: "#939393"
+  brightCyan: "#F5F5F5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107
+    black: 0
+    red: 32.6
+    green: 86.5
+    yellow: 107
+    blue: 58.6
+    magenta: 31
+    cyan: 80.2
+    white: 107
+    brightBlack: 27.8
+    brightRed: 32.6
+    brightGreen: 32.6
+    brightYellow: 105.6
+    brightBlue: 66.5
+    brightMagenta: 43.2
+    brightCyan: 100.4
+    brightWhite: 107

@@ -1,0 +1,53 @@
+name: "Dark_Army"
+source:
+  marketplace_id: "BhaskarNeogi.dark-army"
+  version: "0.1.0"
+  installs: 498
+  rating: 5
+  ratings: 1
+  author: "Bhaskar Neogi"
+  repo: "https://github.com/Ellipse404/Dark-Army-Theme[VS Code]"
+  url: "https://marketplace.visualstudio.com/items?itemName=BhaskarNeogi.dark-army"
+  formats: null
+colors:
+  bg: "#1B1A1A"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#C4C416"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#56DBCF"
+  brightBlack: "#C08686"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#E0E02B"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.1
+    black: 0
+    red: 26.4
+    green: 52.6
+    yellow: 66.1
+    blue: 27.1
+    magenta: 29.4
+    cyan: 47.2
+    white: 71.7
+    brightBlack: 43.8
+    brightRed: 38.2
+    brightGreen: 63.2
+    brightYellow: 82.3
+    brightBlue: 39.6
+    brightMagenta: 45
+    brightCyan: 55
+    brightWhite: 89.7

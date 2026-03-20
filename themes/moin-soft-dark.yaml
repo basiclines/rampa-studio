@@ -1,0 +1,53 @@
+name: "Moin Soft Dark"
+source:
+  marketplace_id: "nwwdles.moin-theme"
+  version: "1.2.2"
+  installs: 1024
+  rating: 5
+  ratings: 1
+  author: "nwwdles"
+  repo: "https://gitlab.com/nwwdles/vscode-moin-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nwwdles.moin-theme"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#FFFFFF"
+  black: "#222222"
+  red: "#CC0000"
+  green: "#66BBAA"
+  yellow: "#EECC00"
+  blue: "#99CCFF"
+  magenta: "#DD99FF"
+  cyan: "#44BBBB"
+  white: "#DDDDDD"
+  brightBlack: "#333333"
+  brightRed: "#FF0000"
+  brightGreen: "#88EECC"
+  brightYellow: "#FFEE00"
+  brightBlue: "#BBDDFF"
+  brightMagenta: "#FFAAFF"
+  brightCyan: "#55EEEE"
+  brightWhite: "#F3F3F3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107
+    black: 0
+    red: 24.3
+    green: 56.6
+    yellow: 75.9
+    blue: 71.9
+    magenta: 60.8
+    cyan: 55.8
+    white: 85.1
+    brightBlack: 0
+    brightRed: 36.6
+    brightGreen: 84
+    brightYellow: 93.7
+    brightBlue: 82.8
+    brightMagenta: 72.1
+    brightCyan: 82.9
+    brightWhite: 99.1

@@ -1,0 +1,53 @@
+name: "Nihil"
+source:
+  marketplace_id: "CocaineJohnsson.nihil"
+  version: "1.0.2"
+  installs: 285
+  rating: 0
+  ratings: 0
+  author: "Cocaine Johnsson"
+  repo: "https://github.com/CocaineJohnsson/vscode-nihil-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=CocaineJohnsson.nihil"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#FCE8CB"
+  black: "#080808"
+  red: "#F92649"
+  green: "#D66990"
+  yellow: "#A6E22E"
+  blue: "#376DAD"
+  magenta: "#724284"
+  cyan: "#69B3C1"
+  white: "#E0E0E0"
+  brightBlack: "#515151"
+  brightRed: "#FF2222"
+  brightGreen: "#008540"
+  brightYellow: "#FCE8CB"
+  brightBlue: "#3CDFB5"
+  brightMagenta: "#724284"
+  brightCyan: "#66A9EC"
+  brightWhite: "#F5F5F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.7
+    black: 0
+    red: 36.5
+    green: 40.4
+    yellow: 77.1
+    blue: 24.7
+    magenta: 15.6
+    cyan: 54.3
+    white: 87
+    brightBlack: 13.7
+    brightRed: 37.4
+    brightGreen: 28.5
+    brightYellow: 93.7
+    brightBlue: 72.2
+    brightMagenta: 15.6
+    brightCyan: 52.4
+    brightWhite: 100.4

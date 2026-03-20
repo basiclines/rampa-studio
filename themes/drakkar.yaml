@@ -1,0 +1,53 @@
+name: "Drakkar"
+source:
+  marketplace_id: "ubbeck.drakkar"
+  version: "1.1.2"
+  installs: 266
+  rating: 0
+  ratings: 0
+  author: "ubbeck"
+  repo: "https://github.com/ubbeck/drakkar.theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ubbeck.drakkar"
+  formats: null
+colors:
+  bg: "#24292E"
+  fg: "#E1E4E8"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#98C379"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#98C379"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 86.7
+    black: 0
+    red: 34.2
+    green: 59.8
+    yellow: 46.1
+    blue: 47.1
+    magenta: 36.5
+    cyan: 50
+    white: 80.5
+    brightBlack: 12.9
+    brightRed: 43.6
+    brightGreen: 59.8
+    brightYellow: 58.7
+    brightBlue: 61.2
+    brightMagenta: 47.7
+    brightCyan: 65.3
+    brightWhite: 88.1

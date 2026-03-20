@@ -1,0 +1,53 @@
+name: "Aether Dawn"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#FEF6E4"
+  fg: "#2D3748"
+  black: "#2D3748"
+  red: "#F6416C"
+  green: "#00B8A9"
+  yellow: "#F8B500"
+  blue: "#3490DE"
+  magenta: "#9561E2"
+  cyan: "#00BCD4"
+  white: "#FFFFFF"
+  brightBlack: "#2D3748"
+  brightRed: "#F6416C"
+  brightGreen: "#00B8A9"
+  brightYellow: "#F8B500"
+  brightBlue: "#3490DE"
+  brightMagenta: "#9561E2"
+  brightCyan: "#00BCD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Aether Twilight"
+  contrast:
+    fg: 92.4
+    black: 92.4
+    red: 56.8
+    green: 43.2
+    yellow: 28.3
+    blue: 55.9
+    magenta: 62.9
+    cyan: 39.5
+    white: 0
+    brightBlack: 92.4
+    brightRed: 56.8
+    brightGreen: 43.2
+    brightYellow: 28.3
+    brightBlue: 55.9
+    brightMagenta: 62.9
+    brightCyan: 39.5
+    brightWhite: 0

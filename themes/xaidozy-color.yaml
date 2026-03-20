@@ -1,0 +1,51 @@
+name: "xaidozy_Color"
+source:
+  marketplace_id: "xaidozy.xaidozy"
+  version: "0.0.1"
+  installs: 36
+  author: "xaidozy"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=xaidozy.xaidozy"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#00FF00"
+  black: "#333333"
+  red: "#D10F1B"
+  green: "#54C600"
+  yellow: "#FBCC30"
+  blue: "#3A6FF4"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86
+    black: 0
+    red: 26
+    green: 58.4
+    yellow: 78.5
+    blue: 31.1
+    magenta: 32.7
+    cyan: 50.9
+    white: 89
+    brightBlack: 22.5
+    brightRed: 37.8
+    brightGreen: 77.5
+    brightYellow: 84.4
+    brightBlue: 50.4
+    brightMagenta: 47
+    brightCyan: 73.9
+    brightWhite: 102.5

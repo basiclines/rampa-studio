@@ -1,0 +1,53 @@
+name: "Dark Lavender (Dark Lavender (Tailwind))"
+source:
+  marketplace_id: "t7yang.dark-lavender"
+  version: "6.2.1"
+  installs: 8092
+  rating: 5
+  ratings: 6
+  author: "t7yang"
+  repo: "https://github.com/t7yang/dark-lavender"
+  url: "https://marketplace.visualstudio.com/items?itemName=t7yang.dark-lavender"
+  formats: null
+colors:
+  bg: "#07090F"
+  fg: "#F1F5F9"
+  black: "#0F172A"
+  red: "#BE123C"
+  green: "#047857"
+  yellow: "#A16207"
+  blue: "#1E3A8A"
+  magenta: "#BE185D"
+  cyan: "#0E7490"
+  white: "#64748B"
+  brightBlack: "#334155"
+  brightRed: "#F43F5E"
+  brightGreen: "#10B981"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#EC4899"
+  brightCyan: "#06B6D4"
+  brightWhite: "#CBD5E1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 100.8
+    black: 0
+    red: 22.5
+    green: 24.8
+    yellow: 27.8
+    blue: 8.8
+    magenta: 23.4
+    cyan: 25.4
+    white: 28.5
+    brightBlack: 8.4
+    brightRed: 38.7
+    brightGreen: 52.7
+    brightYellow: 66
+    brightBlue: 37.7
+    brightMagenta: 39.9
+    brightCyan: 54.8
+    brightWhite: 80.3

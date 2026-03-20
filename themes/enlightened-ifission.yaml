@@ -1,0 +1,53 @@
+name: "enlightened-ifission"
+source:
+  marketplace_id: "ifission.enlightened-ifission"
+  version: "0.0.6"
+  installs: 91
+  rating: 0
+  ratings: 0
+  author: "ifission"
+  repo: "https://github.com/iFission/enlightened-ifission"
+  url: "https://marketplace.visualstudio.com/items?itemName=ifission.enlightened-ifission"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#F8F8F2"
+  black: "#002111"
+  red: "#0074B4"
+  green: "#00C200"
+  yellow: "#C7C400"
+  blue: "#C4E810"
+  magenta: "#C930C7"
+  cyan: "#00C5C7"
+  white: "#C7C7C7"
+  brightBlack: "#002111"
+  brightRed: "#0074B4"
+  brightGreen: "#00C200"
+  brightYellow: "#C7C400"
+  brightBlue: "#C4E810"
+  brightMagenta: "#C930C7"
+  brightCyan: "#00C5C7"
+  brightWhite: "#C7C7C7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103
+    black: 0
+    red: 27.5
+    green: 55.5
+    yellow: 67.8
+    blue: 83.9
+    magenta: 32.3
+    cyan: 60.9
+    white: 72.7
+    brightBlack: 0
+    brightRed: 27.5
+    brightGreen: 55.5
+    brightYellow: 67.8
+    brightBlue: 83.9
+    brightMagenta: 32.3
+    brightCyan: 60.9
+    brightWhite: 72.7

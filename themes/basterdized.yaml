@@ -1,0 +1,54 @@
+name: "Basterdized"
+source:
+  marketplace_id: "nashpatty.basterdized"
+  version: "1.0.0"
+  installs: 115
+  rating: 0
+  ratings: 0
+  author: "nashpatty"
+  repo: "https://github.com/nashpatty/vs-code-basterdized"
+  url: "https://marketplace.visualstudio.com/items?itemName=nashpatty.basterdized"
+  formats:
+    zed: "https://raw.githubusercontent.com/nashpatty/vs-code-basterdized/main/themes/Basterdized-color-theme.json"
+colors:
+  bg: "#1E1F20"
+  fg: "#839496"
+  black: "#000000"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#FDF6E3"
+  brightBlack: "#000000"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#D33682"
+  brightCyan: "#2AA198"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 41
+    black: 0
+    red: 29.2
+    green: 40.7
+    yellow: 40.7
+    blue: 35.8
+    magenta: 29.4
+    cyan: 41.5
+    white: 100.1
+    brightBlack: 0
+    brightRed: 29.2
+    brightGreen: 40.7
+    brightYellow: 40.7
+    brightBlue: 35.8
+    brightMagenta: 29.4
+    brightCyan: 41.5
+    brightWhite: 100.1

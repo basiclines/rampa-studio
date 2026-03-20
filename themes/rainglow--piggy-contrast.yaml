@@ -1,0 +1,53 @@
+name: "Rainglow (piggy-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#1C1618"
+  fg: "#EDEBE6"
+  black: "#2A2124"
+  red: "#BA0E2E"
+  green: "#F52E62"
+  yellow: "#FD6A5D"
+  blue: "#FF5D80"
+  magenta: "#FD6A5D"
+  cyan: "#F52E62"
+  white: "#F8F7F5"
+  brightBlack: "#554349"
+  brightRed: "#F03E5F"
+  brightGreen: "#FA8FAB"
+  brightYellow: "#FEC7C2"
+  brightBlue: "#FFC3D0"
+  brightMagenta: "#FEC7C2"
+  brightCyan: "#FA8FAB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 356
+  pair: "Rainglow (piggy-light)"
+  contrast:
+    fg: 93.8
+    black: 0
+    red: 20.4
+    green: 36.4
+    yellow: 47.1
+    blue: 45.7
+    magenta: 47.1
+    cyan: 36.4
+    white: 101.6
+    brightBlack: 10.1
+    brightRed: 36.7
+    brightGreen: 58.3
+    brightYellow: 79.5
+    brightBlue: 78.6
+    brightMagenta: 79.5
+    brightCyan: 58.3
+    brightWhite: 106.8

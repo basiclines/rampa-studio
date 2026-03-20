@@ -1,0 +1,53 @@
+name: "Earl Grey"
+source:
+  marketplace_id: "EarlGrey.earl-grey"
+  version: "1.0.1"
+  installs: 3414
+  rating: 5
+  ratings: 1
+  author: "Earl Grey"
+  repo: "https://github.com/earl-grey-theme/earl-grey-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=EarlGrey.earl-grey"
+  formats: null
+colors:
+  bg: "#FCFBF9"
+  fg: "#605A52"
+  black: "#605A52"
+  red: "#A57773"
+  green: "#8F956F"
+  yellow: "#9F8768"
+  blue: "#7686A9"
+  magenta: "#9B7896"
+  cyan: "#6B9494"
+  white: "#FCFBF9"
+  brightBlack: "#605A52"
+  brightRed: "#8F5652"
+  brightGreen: "#747B4D"
+  brightYellow: "#886A44"
+  brightBlue: "#556995"
+  brightMagenta: "#83577D"
+  brightCyan: "#477A7B"
+  brightWhite: "#FCFBF9"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.2
+    black: 81.2
+    red: 63.4
+    green: 56.1
+    yellow: 59.3
+    blue: 61.7
+    magenta: 63.2
+    cyan: 58.4
+    white: 0
+    brightBlack: 81.2
+    brightRed: 76.5
+    brightGreen: 68.8
+    brightYellow: 72.2
+    brightBlue: 74.9
+    brightMagenta: 76.5
+    brightCyan: 71.1
+    brightWhite: 0

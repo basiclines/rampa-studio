@@ -1,0 +1,53 @@
+name: "Silot (Dark Classic)"
+source:
+  marketplace_id: "Joshimcse.silot-ui-theme"
+  version: "0.1.2"
+  installs: 696
+  rating: 5
+  ratings: 2
+  author: "Joshim Uddin"
+  repo: "https://github.com/joshimcse/vscode-syloti-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Joshimcse.silot-ui-theme"
+  formats: null
+colors:
+  bg: "#242424"
+  fg: "#D9D9D9"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.8
+    black: 0
+    red: 41.6
+    green: 83.1
+    yellow: 96.8
+    blue: 51.9
+    magenta: 52.8
+    cyan: 82.2
+    white: 100.2
+    brightBlack: 26.3
+    brightRed: 47.1
+    brightGreen: 87.3
+    brightYellow: 101.8
+    brightBlue: 64.4
+    brightMagenta: 60.9
+    brightCyan: 95
+    brightWhite: 105.1

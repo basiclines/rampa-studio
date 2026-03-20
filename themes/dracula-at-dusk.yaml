@@ -1,0 +1,53 @@
+name: "Dracula At Dusk"
+source:
+  marketplace_id: "Telokis.theme-dracula-at-dusk"
+  version: "1.0.6"
+  installs: 12068
+  rating: 0
+  ratings: 0
+  author: "Telokis"
+  repo: "https://gitlab.com/Telokis/dracula-at-dusk"
+  url: "https://marketplace.visualstudio.com/items?itemName=Telokis.theme-dracula-at-dusk"
+  formats: null
+colors:
+  bg: "#0E1419"
+  fg: "#EBEBE6"
+  black: "#44475A"
+  red: "#DE312B"
+  green: "#2FD651"
+  yellow: "#D0D662"
+  blue: "#9C6FCF"
+  magenta: "#DE559C"
+  cyan: "#6AC5D3"
+  white: "#656B84"
+  brightBlack: "#656B84"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 244
+  pair: null
+  contrast:
+    fg: 93.9
+    black: 10.6
+    red: 30.8
+    green: 65.3
+    yellow: 76.9
+    blue: 36
+    magenta: 38.5
+    cyan: 63.3
+    white: 24.9
+    brightBlack: 24.9
+    brightRed: 43.7
+    brightGreen: 85.2
+    brightYellow: 98.9
+    brightBlue: 54
+    brightMagenta: 54.9
+    brightCyan: 84.3
+    brightWhite: 102.3

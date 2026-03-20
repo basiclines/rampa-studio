@@ -1,0 +1,53 @@
+name: "Pure Light"
+source:
+  marketplace_id: "me7uiz.pure-themes"
+  version: "0.1.6"
+  installs: 641
+  rating: 5
+  ratings: 1
+  author: "me7uiz"
+  repo: "https://github.com/meluiz/pure-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=me7uiz.pure-themes"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#27272A"
+  black: "#3F3F46"
+  red: "#DC2626"
+  green: "#77CC00"
+  yellow: "#F29718"
+  blue: "#F4F4F5"
+  magenta: "#9966CC"
+  cyan: "#4DBF99"
+  white: "#C7C7C7"
+  brightBlack: "#A1A1AA"
+  brightRed: "#D6656A"
+  brightGreen: "#A3D900"
+  brightYellow: "#E7C547"
+  brightBlue: "#6871FF"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#57D9AD"
+  brightWhite: "#71717A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pure Black"
+  contrast:
+    fg: 101.8
+    black: 94.3
+    red: 71.6
+    green: 38.7
+    yellow: 44.5
+    blue: 0
+    magenta: 67.9
+    cyan: 44.6
+    white: 30.1
+    brightBlack: 50.2
+    brightRed: 62.5
+    brightGreen: 29.5
+    brightYellow: 29.7
+    brightBlue: 66
+    brightMagenta: 61.1
+    brightCyan: 31.9
+    brightWhite: 73.5

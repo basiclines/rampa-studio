@@ -1,0 +1,53 @@
+name: "Rainglow (yitzchok-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#6A7684"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#E7BE45"
+  yellow: "#7A8289"
+  blue: "#6A7684"
+  magenta: "#E7BE45"
+  cyan: "#7A8289"
+  white: "#768391"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#F3DE9F"
+  brightYellow: "#B0B5B9"
+  brightBlue: "#A1A9B3"
+  brightMagenta: "#F3DE9F"
+  brightCyan: "#B0B5B9"
+  brightWhite: "#A1A9B3"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (yitzchok-contrast)"
+  contrast:
+    fg: 72.2
+    black: 0
+    red: 80.3
+    green: 32.4
+    yellow: 66.5
+    blue: 72.2
+    magenta: 32.4
+    cyan: 66.5
+    white: 66.2
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 16.4
+    brightYellow: 40.4
+    brightBlue: 46.8
+    brightMagenta: 16.4
+    brightCyan: 40.4
+    brightWhite: 46.8

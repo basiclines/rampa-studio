@@ -1,0 +1,53 @@
+name: "Smit High Contrast"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#808080"
+  brightRed: "#FF4444"
+  brightGreen: "#44FF44"
+  brightYellow: "#FFFF44"
+  brightBlue: "#4444FF"
+  brightMagenta: "#FF44FF"
+  brightCyan: "#44FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 16.2
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 34.8
+    brightRed: 41.6
+    brightGreen: 87.4
+    brightYellow: 102.9
+    brightBlue: 23.1
+    brightMagenta: 49.6
+    brightCyan: 92.9
+    brightWhite: 107.9

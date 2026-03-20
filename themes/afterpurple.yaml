@@ -1,0 +1,53 @@
+name: "AfterPurple"
+source:
+  marketplace_id: "lukearch.after-purple"
+  version: "0.0.1"
+  installs: 1
+  rating: 0
+  ratings: 0
+  author: "lukearch"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=lukearch.after-purple"
+  formats: null
+colors:
+  bg: "#221F26"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#469DF1"
+  magenta: "#BC3FBC"
+  cyan: "#39CDE2"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#74F2FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 305
+  pair: null
+  contrast:
+    fg: 73.5
+    black: 0
+    red: 25.6
+    green: 51.9
+    yellow: 84.5
+    blue: 45.3
+    magenta: 28.6
+    cyan: 64.4
+    white: 88.9
+    brightBlack: 20.9
+    brightRed: 37.4
+    brightGreen: 62.4
+    brightYellow: 94.5
+    brightBlue: 61.1
+    brightMagenta: 44.2
+    brightCyan: 85.9
+    brightWhite: 88.9

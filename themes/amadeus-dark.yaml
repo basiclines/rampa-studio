@@ -1,0 +1,53 @@
+name: "Amadeus Dark"
+source:
+  marketplace_id: "gbrachetta.amadeus-dark-theme"
+  version: "0.0.17"
+  installs: 1760
+  rating: 3.5
+  ratings: 2
+  author: "gbrachetta"
+  repo: "https://github.com/GBrachetta/amadeus-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gbrachetta.amadeus-dark-theme"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#91A7C4"
+  black: "#521212"
+  red: "#AD364E"
+  green: "#91AC41"
+  yellow: "#DDB26F"
+  blue: "#6FC2EF"
+  magenta: "#E1A3EE"
+  cyan: "#12CFC0"
+  white: "#D0D0D0"
+  brightBlack: "#505050"
+  brightRed: "#FB9FB1"
+  brightGreen: "#A0C72D"
+  brightYellow: "#DDB26F"
+  brightBlue: "#6FC2EF"
+  brightMagenta: "#E1A3EE"
+  brightCyan: "#12CFC0"
+  brightWhite: "#F5F5F5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 51.5
+    black: 0
+    red: 20
+    green: 49.7
+    yellow: 62.4
+    blue: 62.4
+    magenta: 62.5
+    cyan: 63.2
+    white: 75.9
+    brightBlack: 12.1
+    brightRed: 62.7
+    brightGreen: 62.7
+    brightYellow: 62.4
+    brightBlue: 62.4
+    brightMagenta: 62.5
+    brightCyan: 63.2
+    brightWhite: 99.2

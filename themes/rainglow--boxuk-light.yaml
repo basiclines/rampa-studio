@@ -1,0 +1,53 @@
+name: "Rainglow (boxuk-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#414F5C"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#017C9D"
+  yellow: "#019D76"
+  blue: "#15B8AE"
+  magenta: "#017C9D"
+  cyan: "#019D76"
+  white: "#4C5C6B"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#07C9FD"
+  brightYellow: "#07FDC0"
+  brightBlue: "#49EAE0"
+  brightMagenta: "#07C9FD"
+  brightCyan: "#07FDC0"
+  brightWhite: "#6C8297"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (boxuk-contrast)"
+  contrast:
+    fg: 89
+    black: 0
+    red: 80.3
+    green: 72.7
+    yellow: 61.4
+    blue: 48
+    magenta: 72.7
+    cyan: 61.4
+    white: 83.8
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 36.7
+    brightYellow: 15.4
+    brightBlue: 22.5
+    brightMagenta: 36.7
+    brightCyan: 15.4
+    brightWhite: 67.1

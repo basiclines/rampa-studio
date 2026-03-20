@@ -1,0 +1,53 @@
+name: "Mimesis Light"
+source:
+  marketplace_id: "AlexanderDyriavin.mimesis"
+  version: "1.2.2"
+  installs: 408
+  rating: 0
+  ratings: 0
+  author: "Alexander Dyriavin"
+  repo: "https://github.com/dyriavin/mimesis-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexanderDyriavin.mimesis"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#24292E"
+  black: "#24292E"
+  red: "#D70022"
+  green: "#12BC00"
+  yellow: "#D7B600"
+  blue: "#0060DF"
+  magenta: "#B5007F"
+  cyan: "#008EA4"
+  white: "#6A737D"
+  brightBlack: "#959DA5"
+  brightRed: "#FF0039"
+  brightGreen: "#058B00"
+  brightYellow: "#FFE900"
+  brightBlue: "#0060DF"
+  brightMagenta: "#FF1AD9"
+  brightCyan: "#00C8D7"
+  brightWhite: "#D1D5DA"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Mimesis Dark"
+  contrast:
+    fg: 101.5
+    black: 101.5
+    red: 73.9
+    green: 49.2
+    yellow: 38.1
+    blue: 77.1
+    magenta: 79.4
+    cyan: 65.7
+    white: 73.4
+    brightBlack: 53.1
+    brightRed: 63.9
+    brightGreen: 70.2
+    brightYellow: 11.7
+    brightBlue: 77.1
+    brightMagenta: 57.9
+    brightCyan: 39.2
+    brightWhite: 22.4

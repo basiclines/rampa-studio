@@ -1,0 +1,53 @@
+name: "BoxLang Dark (Neon)"
+source:
+  marketplace_id: "ortus-solutions.vscode-boxlang-theme"
+  version: "1.1.0"
+  installs: 276
+  rating: 0
+  ratings: 0
+  author: "Ortus Solutions"
+  repo: "https://github.com/ortus-boxlang/vscode-boxlang-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ortus-solutions.vscode-boxlang-theme"
+  formats: null
+colors:
+  bg: "#1C1E2D"
+  fg: "#F5F5F5"
+  black: "#000000"
+  red: "#FF407B"
+  green: "#85EEA7"
+  yellow: "#FFEA16"
+  blue: "#78A8D6"
+  magenta: "#F806FA"
+  cyan: "#59E1E3"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF407B"
+  brightGreen: "#85EEA7"
+  brightYellow: "#FFEA16"
+  brightBlue: "#78A8D6"
+  brightMagenta: "#F806FA"
+  brightCyan: "#6BE4E6"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 40.3
+    green: 81.4
+    yellow: 90.8
+    blue: 50.8
+    magenta: 42.3
+    cyan: 75.1
+    white: 89
+    brightBlack: 21.1
+    brightRed: 40.3
+    brightGreen: 81.4
+    brightYellow: 90.8
+    brightBlue: 50.8
+    brightMagenta: 42.3
+    brightCyan: 77.5
+    brightWhite: 89

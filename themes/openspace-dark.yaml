@@ -1,0 +1,53 @@
+name: "OpenSpace Dark"
+source:
+  marketplace_id: "OpenSpace.openspace-theme"
+  version: "1.2.41"
+  installs: 256
+  rating: 5
+  ratings: 2
+  author: "Open Space Technology"
+  repo: "https://github.com/hunqng/openspace-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OpenSpace.openspace-theme"
+  formats: null
+colors:
+  bg: "#2A2D31"
+  fg: "#E1E1E1"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.1
+    black: 0
+    red: 40
+    green: 81.5
+    yellow: 95.2
+    blue: 50.3
+    magenta: 51.2
+    cyan: 80.6
+    white: 98.6
+    brightBlack: 24.7
+    brightRed: 45.5
+    brightGreen: 85.7
+    brightYellow: 100.2
+    brightBlue: 62.7
+    brightMagenta: 59.2
+    brightCyan: 93.4
+    brightWhite: 103.5

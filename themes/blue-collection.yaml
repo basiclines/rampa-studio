@@ -1,0 +1,53 @@
+name: "Blue Collection"
+source:
+  marketplace_id: "RLabsInc.rlabs-theme-collection"
+  version: "0.1.4"
+  installs: 181
+  rating: 0
+  ratings: 0
+  author: "RLabs Inc."
+  repo: "https://github.com/rodrigoluglio/rlabs-themes-collection"
+  url: "https://marketplace.visualstudio.com/items?itemName=RLabsInc.rlabs-theme-collection"
+  formats: null
+colors:
+  bg: "#13151B"
+  fg: "#F7F6F5"
+  black: "#292929"
+  red: "#FF7575"
+  green: "#0CA26B"
+  yellow: "#FFAC75"
+  blue: "#759EC9"
+  magenta: "#9B7AB9"
+  cyan: "#76A9AC"
+  white: "#F7F6F5"
+  brightBlack: "#BBB9B6"
+  brightRed: "#FF7575"
+  brightGreen: "#6DCBA9"
+  brightYellow: "#FFFAA1"
+  brightBlue: "#AFD8FF"
+  brightMagenta: "#C096E7"
+  brightCyan: "#A5D2D4"
+  brightWhite: "#C9C7C6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 101.2
+    black: 0
+    red: 50.8
+    green: 41.3
+    yellow: 67.4
+    blue: 47.1
+    magenta: 37.6
+    cyan: 50.2
+    white: 101.2
+    brightBlack: 63.9
+    brightRed: 50.8
+    brightGreen: 64.3
+    brightYellow: 101.2
+    brightBlue: 79.4
+    brightMagenta: 54
+    brightCyan: 73.5
+    brightWhite: 72.1

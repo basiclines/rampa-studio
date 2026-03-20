@@ -1,0 +1,53 @@
+name: "Aether Stellar"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#10141A"
+  fg: "#D4E0F0"
+  black: "#20252E"
+  red: "#FF6666"
+  green: "#66FFB3"
+  yellow: "#FFD700"
+  blue: "#66D9FF"
+  magenta: "#FF66B3"
+  cyan: "#66B3FF"
+  white: "#D4E0F0"
+  brightBlack: "#505A70"
+  brightRed: "#FF8C8C"
+  brightGreen: "#8CFFC6"
+  brightYellow: "#FFEB3B"
+  brightBlue: "#8CE3FF"
+  brightMagenta: "#FF8CC6"
+  brightCyan: "#8CC6FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 258
+  pair: "Aether Zen"
+  contrast:
+    fg: 86.4
+    black: 0
+    red: 47.2
+    green: 90.1
+    yellow: 83.5
+    blue: 74.6
+    magenta: 49.7
+    cyan: 57.9
+    white: 86.4
+    brightBlack: 17.3
+    brightRed: 57.7
+    brightGreen: 92.8
+    brightYellow: 92.6
+    brightBlue: 81.6
+    brightMagenta: 59.9
+    brightCyan: 68.5
+    brightWhite: 107.2

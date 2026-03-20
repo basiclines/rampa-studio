@@ -1,0 +1,53 @@
+name: "Ef Trio Dark"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#160F0F"
+  fg: "#D8CFD5"
+  black: "#D8CFD5"
+  red: "#F48359"
+  green: "#60B444"
+  yellow: "#D4A052"
+  blue: "#7FA5F6"
+  magenta: "#D37FAF"
+  cyan: "#8FBAFF"
+  white: "#2A2228"
+  brightBlack: "#908890"
+  brightRed: "#FF7560"
+  brightGreen: "#A0C27F"
+  brightYellow: "#EF926F"
+  brightBlue: "#8895FF"
+  brightMagenta: "#E772DF"
+  brightCyan: "#9AC2FF"
+  brightWhite: "#160F0F"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 18
+  pair: "Ef Trio Light"
+  contrast:
+    fg: 78.4
+    black: 78.4
+    red: 52
+    green: 51.1
+    yellow: 55.4
+    blue: 53.7
+    magenta: 47.3
+    cyan: 63.9
+    white: 0
+    brightBlack: 39.3
+    brightRed: 50.7
+    brightGreen: 63.3
+    brightYellow: 55.9
+    brightBlue: 49.2
+    brightMagenta: 50
+    brightCyan: 68.2
+    brightWhite: 0

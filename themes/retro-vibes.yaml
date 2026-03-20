@@ -1,0 +1,53 @@
+name: "Retro Vibes"
+source:
+  marketplace_id: "Babadzhanov.retro-vibes"
+  version: "1.0.3"
+  installs: 10463
+  rating: 0
+  ratings: 0
+  author: "Simeon Babadzhanov"
+  repo: "https://github.com/Babadzhanov/retro-vibes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Babadzhanov.retro-vibes"
+  formats: null
+colors:
+  bg: "#1A202D"
+  fg: "#C4CCE4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00AA00"
+  yellow: "#FFBB00"
+  blue: "#0048FF"
+  magenta: "#C322AD"
+  cyan: "#00A2CA"
+  white: "#AAAAAA"
+  brightBlack: "#555555"
+  brightRed: "#FF877E"
+  brightGreen: "#58FF77"
+  brightYellow: "#FFFF2B"
+  brightBlue: "#6E8BFF"
+  brightMagenta: "#FFC4D6"
+  brightCyan: "#88FCDD"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 73.7
+    black: 0
+    red: 25.6
+    green: 42.4
+    yellow: 70.6
+    blue: 20.2
+    magenta: 26.3
+    cyan: 43.8
+    white: 54.1
+    brightBlack: 14
+    brightRed: 54.5
+    brightGreen: 86.6
+    brightYellow: 100.6
+    brightBlue: 42
+    brightMagenta: 78.2
+    brightCyan: 90.5
+    brightWhite: 88.9

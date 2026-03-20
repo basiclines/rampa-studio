@@ -1,0 +1,53 @@
+name: "Dragonfly"
+source:
+  marketplace_id: "thelayeredmind.dragonfly-theme"
+  version: "1.0.1"
+  installs: 1885
+  rating: 0
+  ratings: 0
+  author: "thelayeredmind"
+  repo: "https://github.com/thelayeredmind/dragonfly-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thelayeredmind.dragonfly-theme"
+  formats: null
+colors:
+  bg: "#100F13"
+  fg: "#B3B8C5"
+  black: "#01060E"
+  red: "#EA6C73"
+  green: "#91B362"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#FAE994"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#C2D94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#FFEE99"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 63.6
+    black: 0
+    red: 44.6
+    green: 54.8
+    yellow: 67.2
+    blue: 61.2
+    magenta: 92.6
+    cyan: 78.5
+    white: 72.3
+    brightBlack: 23.5
+    brightRed: 47.2
+    brightGreen: 76.5
+    brightYellow: 70.2
+    brightBlue: 63.9
+    brightMagenta: 95.8
+    brightCyan: 81.5
+    brightWhite: 107.5

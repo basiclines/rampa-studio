@@ -1,0 +1,53 @@
+name: "Retro Keyboard Theme (Retro Keyboard Light)"
+source:
+  marketplace_id: "nicolasmengual.retro-keyboard-theme"
+  version: "1.1.2"
+  installs: 66
+  rating: 5
+  ratings: 2
+  author: "Nicolás Mengual"
+  repo: "https://github.com/nmengual/retro-keyboard-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nicolasmengual.retro-keyboard-theme"
+  formats: null
+colors:
+  bg: "#F5F0E8"
+  fg: "#3D3529"
+  black: "#3D3529"
+  red: "#C04040"
+  green: "#3E8A5E"
+  yellow: "#8A6A10"
+  blue: "#3E7A94"
+  magenta: "#7E5EAA"
+  cyan: "#3A8A80"
+  white: "#EDE4D6"
+  brightBlack: "#7A6E5E"
+  brightRed: "#D94B4B"
+  brightGreen: "#5E9E74"
+  brightYellow: "#A87A18"
+  brightBlue: "#5E8EA4"
+  brightMagenta: "#9B7BBE"
+  brightCyan: "#5A9A90"
+  brightWhite: "#F5F0E8"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Retro Keyboard Theme (Retro Keyboard Dark)"
+  contrast:
+    fg: 89
+    black: 89
+    red: 66.1
+    green: 60.1
+    yellow: 66.2
+    blue: 64.2
+    magenta: 66.8
+    cyan: 59.3
+    white: 0
+    brightBlack: 65.8
+    brightRed: 59
+    brightGreen: 50.1
+    brightYellow: 57.1
+    brightBlue: 54.6
+    brightMagenta: 54.1
+    brightCyan: 51.1
+    brightWhite: 0

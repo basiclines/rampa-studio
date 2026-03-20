@@ -1,0 +1,53 @@
+name: "Rainglow (tweed)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#3B3F4C"
+  fg: "#FFFFFF"
+  black: "#464B5A"
+  red: "#BA0E2E"
+  green: "#777F93"
+  yellow: "#5E9989"
+  blue: "#CAB696"
+  magenta: "#E2975F"
+  cyan: "#E75B4B"
+  white: "#FFFFFF"
+  brightBlack: "#686F85"
+  brightRed: "#F03E5F"
+  brightGreen: "#B0B4C0"
+  brightYellow: "#9BC2B7"
+  brightBlue: "#ECE5DA"
+  brightMagenta: "#F2CFB5"
+  brightCyan: "#F3ADA5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 272
+  pair: "Rainglow (tweed-light)"
+  contrast:
+    fg: 98.3
+    black: 0
+    red: 12
+    green: 24.7
+    yellow: 32.1
+    blue: 54.8
+    magenta: 45.8
+    cyan: 30.4
+    white: 98.3
+    brightBlack: 17.6
+    brightRed: 28.3
+    brightGreen: 52.3
+    brightYellow: 55.5
+    brightBlue: 82
+    brightMagenta: 71.9
+    brightCyan: 58.2
+    brightWhite: 98.3

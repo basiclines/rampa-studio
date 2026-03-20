@@ -1,0 +1,53 @@
+name: "tesselate"
+source:
+  marketplace_id: "MrMartian.tesselate"
+  version: "0.0.6"
+  installs: 198
+  rating: 0
+  ratings: 0
+  author: "MrMartian"
+  repo: "https://github.com/CraigglesO/tesselate-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MrMartian.tesselate"
+  formats: null
+colors:
+  bg: "#383B43"
+  fg: "#E0DED5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 269
+  pair: null
+  contrast:
+    fg: 78.3
+    black: 8
+    red: 19.5
+    green: 45.8
+    yellow: 78.4
+    blue: 20.2
+    magenta: 22.6
+    cyan: 40.4
+    white: 82.8
+    brightBlack: 14.8
+    brightRed: 31.4
+    brightGreen: 56.3
+    brightYellow: 88.4
+    brightBlue: 32.8
+    brightMagenta: 38.2
+    brightCyan: 48.2
+    brightWhite: 82.8

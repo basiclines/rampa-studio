@@ -1,0 +1,53 @@
+name: "tsukiroku"
+source:
+  marketplace_id: "tsukiroku.tsukiroku"
+  version: "2.0.2"
+  installs: 72
+  rating: 5
+  ratings: 1
+  author: "tsukiroku"
+  repo: "https://github.com/tsukiroku/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tsukiroku.tsukiroku"
+  formats: null
+colors:
+  bg: "#0F0F0F"
+  fg: "#A2AABC"
+  black: "#252525"
+  red: "#EF6B73"
+  green: "#BAE67E"
+  yellow: "#DADADA"
+  blue: "#BAC7FB"
+  magenta: "#C3A6FF"
+  cyan: "#BAC7FB"
+  white: "#A2AABC"
+  brightBlack: "#353535"
+  brightRed: "#F7757D"
+  brightGreen: "#D1FF54"
+  brightYellow: "#ECFFA8"
+  brightBlue: "#94AAFF"
+  brightMagenta: "#F889F3"
+  brightCyan: "#91E9FF"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 55.7
+    black: 0
+    red: 45.5
+    green: 82.5
+    yellow: 83.8
+    blue: 73.4
+    magenta: 61.9
+    cyan: 73.4
+    white: 55.7
+    brightBlack: 0
+    brightRed: 49.8
+    brightGreen: 96.7
+    brightYellow: 101.6
+    brightBlue: 58.1
+    brightMagenta: 60.5
+    brightCyan: 85.1
+    brightWhite: 91.3

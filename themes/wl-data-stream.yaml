@@ -1,0 +1,53 @@
+name: "WL-Data Stream"
+source:
+  marketplace_id: "WatkinsLabs.data-stream"
+  version: "1.0.1"
+  installs: 26
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.data-stream"
+  formats: null
+colors:
+  bg: "#0000FF"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#8888FF"
+  magenta: "#BBBBFF"
+  cyan: "#8888FF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#8888FF"
+  brightMagenta: "#BBBBFF"
+  brightCyan: "#8888FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 90.7
+    black: 18.2
+    red: 20.3
+    green: 69.3
+    yellow: 85.5
+    blue: 28.1
+    magenta: 52
+    cyan: 28.1
+    white: 90.7
+    brightBlack: 0
+    brightRed: 20.3
+    brightGreen: 69.3
+    brightYellow: 85.5
+    brightBlue: 28.1
+    brightMagenta: 52
+    brightCyan: 28.1
+    brightWhite: 90.7

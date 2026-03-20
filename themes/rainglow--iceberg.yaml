@@ -1,0 +1,53 @@
+name: "Rainglow (iceberg)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#323B3D"
+  fg: "#BDD6DB"
+  black: "#3D494B"
+  red: "#BA0E2E"
+  green: "#59C0E3"
+  yellow: "#2D8DA1"
+  blue: "#FFFFFF"
+  magenta: "#B1E2F2"
+  cyan: "#FFFFFF"
+  white: "#CEE0E4"
+  brightBlack: "#607175"
+  brightRed: "#F03E5F"
+  brightGreen: "#B0E1F2"
+  brightYellow: "#61BFD3"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 213
+  pair: null
+  contrast:
+    fg: 71.2
+    black: 0
+    red: 13.8
+    green: 54.1
+    yellow: 28.2
+    blue: 100.2
+    magenta: 76.5
+    cyan: 100.2
+    white: 78.1
+    brightBlack: 18.8
+    brightRed: 30.1
+    brightGreen: 76
+    brightYellow: 53.1
+    brightBlue: 100.2
+    brightMagenta: 100.2
+    brightCyan: 100.2
+    brightWhite: 100.2

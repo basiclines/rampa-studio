@@ -1,0 +1,53 @@
+name: "MatteBlack"
+source:
+  marketplace_id: "TahaYVR.matteblack"
+  version: "1.0.2"
+  installs: 27984
+  rating: 5
+  ratings: 1
+  author: "Taha YVR"
+  repo: "https://github.com/tahayvr/matte-black-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TahaYVR.matteblack"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#EAEAEA"
+  black: "#333333"
+  red: "#B91C1C"
+  green: "#129B70"
+  yellow: "#F59E0B"
+  blue: "#325DCA"
+  magenta: "#8D20B2"
+  cyan: "#1EA7A0"
+  white: "#BEBEBE"
+  brightBlack: "#8A8A8D"
+  brightRed: "#E62222"
+  brightGreen: "#22C55E"
+  brightYellow: "#F1CB42"
+  brightBlue: "#3C71F6"
+  brightMagenta: "#B027DE"
+  brightCyan: "#24D0C7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 21.1
+    green: 38.8
+    yellow: 59.9
+    blue: 22.2
+    magenta: 18.3
+    cyan: 45.5
+    white: 66.9
+    brightBlack: 39.1
+    brightRed: 31.6
+    brightGreen: 57.2
+    brightYellow: 76.6
+    brightBlue: 31.9
+    brightMagenta: 28
+    brightCyan: 65.7
+    brightWhite: 107.3

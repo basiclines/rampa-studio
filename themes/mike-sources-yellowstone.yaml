@@ -1,0 +1,53 @@
+name: "Mike Sources YellowStone"
+source:
+  marketplace_id: "mikesources.mike-sources-pack"
+  version: "1.1.1"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "Mike Sources"
+  repo: "https://github.com/mwfontes/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mikesources.mike-sources-pack"
+  formats: null
+colors:
+  bg: "#FCC22D"
+  fg: "#000000"
+  black: "#000000"
+  red: "#000000"
+  green: "#000000"
+  yellow: "#000000"
+  blue: "#000000"
+  magenta: "#000000"
+  cyan: "#000000"
+  white: "#FFFFFF"
+  brightBlack: "#FFFFFF"
+  brightRed: "#FFFFFF"
+  brightGreen: "#FFFFFF"
+  brightYellow: "#FFFFFF"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: 85
+  pair: null
+  contrast:
+    fg: 76
+    black: 76
+    red: 76
+    green: 76
+    yellow: 76
+    blue: 76
+    magenta: 76
+    cyan: 76
+    white: 31.4
+    brightBlack: 31.4
+    brightRed: 31.4
+    brightGreen: 31.4
+    brightYellow: 31.4
+    brightBlue: 31.4
+    brightMagenta: 31.4
+    brightCyan: 31.4
+    brightWhite: 31.4

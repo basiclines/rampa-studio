@@ -1,0 +1,51 @@
+name: "Sinequanone Apple"
+source:
+  marketplace_id: "EmmettHintz.sinequanone"
+  version: "0.12.0"
+  installs: 48
+  author: "Emmett Hintz"
+  repo: "https://github.com/Sinequanone-Themes/vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmmettHintz.sinequanone"
+  formats: null
+colors:
+  bg: "#FAF4ED"
+  fg: "#575279"
+  black: "#F2E9E1"
+  red: "#E13B3E"
+  green: "#049DDC"
+  yellow: "#E3961E"
+  blue: "#973C96"
+  magenta: "#5DBD46"
+  cyan: "#F6821E"
+  white: "#575279"
+  brightBlack: "#797593"
+  brightRed: "#E13B3E"
+  brightGreen: "#049DDC"
+  brightYellow: "#E3961E"
+  brightBlue: "#973C96"
+  brightMagenta: "#5DBD46"
+  brightCyan: "#F6821E"
+  brightWhite: "#575279"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.1
+    black: 0
+    red: 62.2
+    green: 50.7
+    yellow: 41.4
+    blue: 74
+    magenta: 40.5
+    cyan: 43.8
+    white: 79.1
+    brightBlack: 64.4
+    brightRed: 62.2
+    brightGreen: 50.7
+    brightYellow: 41.4
+    brightBlue: 74
+    brightMagenta: 40.5
+    brightCyan: 43.8
+    brightWhite: 79.1

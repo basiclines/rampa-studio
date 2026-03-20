@@ -1,0 +1,53 @@
+name: "Batsignal"
+source:
+  marketplace_id: "tamagui.batsignal"
+  version: "0.0.9"
+  installs: 2046
+  rating: 0
+  ratings: 0
+  author: "tamagui"
+  repo: "https://github.com/natew/batsignal"
+  url: "https://marketplace.visualstudio.com/items?itemName=tamagui.batsignal"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#FF0032"
+  green: "#00FF68"
+  yellow: "#FFCA00"
+  blue: "#5A5A5A"
+  magenta: "#7D46FC"
+  cyan: "#00D2FF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF0032"
+  brightGreen: "#00FF68"
+  brightYellow: "#FFCA00"
+  brightBlue: "#7A7A7A"
+  brightMagenta: "#7D46FC"
+  brightCyan: "#00D2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 63.9
+    green: 16.5
+    yellow: 24.4
+    blue: 83.9
+    magenta: 74
+    cyan: 32.7
+    white: 0
+    brightBlack: 106
+    brightRed: 63.9
+    brightGreen: 16.5
+    brightYellow: 24.4
+    brightBlue: 69.7
+    brightMagenta: 74
+    brightCyan: 32.7
+    brightWhite: 0

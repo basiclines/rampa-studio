@@ -1,0 +1,53 @@
+name: "Melyon"
+source:
+  marketplace_id: "cair71.melyon-vscode"
+  version: "0.1.4"
+  installs: 895
+  rating: 5
+  ratings: 3
+  author: "cair71"
+  repo: "https://github.com/CA1R7/melyon"
+  url: "https://marketplace.visualstudio.com/items?itemName=cair71.melyon-vscode"
+  formats: null
+colors:
+  bg: "#0D111B"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#EF6B73"
+  green: "#BAE67E"
+  yellow: "#5BCC7D"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#BAE67E"
+  brightYellow: "#5BCC7D"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 55.6
+    black: 0
+    red: 45.3
+    green: 82.4
+    yellow: 62.8
+    blue: 68.3
+    magenta: 61.8
+    cyan: 68.3
+    white: 55.6
+    brightBlack: 11.6
+    brightRed: 45.3
+    brightGreen: 82.4
+    brightYellow: 62.8
+    brightBlue: 68.3
+    brightMagenta: 61.8
+    brightCyan: 68.3
+    brightWhite: 55.6

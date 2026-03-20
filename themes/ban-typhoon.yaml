@@ -1,0 +1,53 @@
+name: "Ban Typhoon"
+source:
+  marketplace_id: "drujban.ban-theme"
+  version: "0.1.1"
+  installs: 62
+  rating: 5
+  ratings: 1
+  author: "drujban"
+  repo: "https://github.com/drujbanjo/ban-theme-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=drujban.ban-theme"
+  formats: null
+colors:
+  bg: "#1A1D2B"
+  fg: "#A9B1D6"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#FFA46E"
+  blue: "#7AA2F7"
+  magenta: "#919FF1"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#FFA46E"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#919FF1"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 59.1
+    black: 0
+    red: 49.1
+    green: 72
+    yellow: 63.5
+    blue: 50.9
+    magenta: 51.3
+    cyan: 70.2
+    white: 31.8
+    brightBlack: 0
+    brightRed: 49.1
+    brightGreen: 72
+    brightYellow: 63.5
+    brightBlue: 50.9
+    brightMagenta: 51.3
+    brightCyan: 70.2
+    brightWhite: 58.7

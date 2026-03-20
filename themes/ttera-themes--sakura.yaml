@@ -1,0 +1,53 @@
+name: "Ttera Themes (Sakura)"
+source:
+  marketplace_id: "sserafy.ttera-themes"
+  version: "2.0.7"
+  installs: 2054
+  rating: 5
+  ratings: 1
+  author: "sserafy"
+  repo: "https://github.com/azhou555/naturefy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ttera-themes"
+  formats: null
+colors:
+  bg: "#1F1A16"
+  fg: "#EDE3D5"
+  black: "#3D2F2A"
+  red: "#A0303E"
+  green: "#7D8471"
+  yellow: "#D4A574"
+  blue: "#8B9DC3"
+  magenta: "#FF9CB3"
+  cyan: "#A8C0A0"
+  white: "#F5F0E8"
+  brightBlack: "#5C4F47"
+  brightRed: "#C73E4A"
+  brightGreen: "#94A085"
+  brightYellow: "#E6B787"
+  brightBlue: "#A0B3D6"
+  brightMagenta: "#FFB3CC"
+  brightCyan: "#BCD3B4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 61
+  pair: null
+  contrast:
+    fg: 89.1
+    black: 0
+    red: 17.1
+    green: 33.9
+    yellow: 56.9
+    blue: 47.7
+    magenta: 63.2
+    cyan: 63.2
+    white: 96.9
+    brightBlack: 13.3
+    brightRed: 26.9
+    brightGreen: 47.2
+    brightYellow: 67
+    brightBlue: 59.3
+    brightMagenta: 72.1
+    brightCyan: 74.4
+    brightWhite: 106.4

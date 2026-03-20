@@ -1,0 +1,53 @@
+name: "Null Theme - Vivid"
+source:
+  marketplace_id: "kimberlycasamina.null-theme"
+  version: "1.0.8"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "kimberlycasamina"
+  repo: "https://github.com/kimicasamina/vscode-null-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#00F5FF"
+  black: "#0D0D0D"
+  red: "#FF0040"
+  green: "#00FF80"
+  yellow: "#FFFF00"
+  blue: "#0080FF"
+  magenta: "#FF0080"
+  cyan: "#00F5FF"
+  white: "#FFFFFF"
+  brightBlack: "#888888"
+  brightRed: "#FF4080"
+  brightGreen: "#40FF80"
+  brightYellow: "#FFFF80"
+  brightBlue: "#4080FF"
+  brightMagenta: "#FF40FF"
+  brightCyan: "#80F5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 37.6
+    green: 87.3
+    yellow: 102.4
+    blue: 36.8
+    magenta: 39
+    cyan: 86.8
+    white: 107.6
+    brightBlack: 38.4
+    brightRed: 42.2
+    brightGreen: 87.9
+    brightYellow: 103.4
+    brightBlue: 37.8
+    brightMagenta: 48.8
+    brightCyan: 90
+    brightWhite: 107.6

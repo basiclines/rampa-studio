@@ -1,0 +1,53 @@
+name: "Pantone Chartreuse (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#232300"
+  fg: "#E3E0C8"
+  black: "#232300"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#769541"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#E3E0C8"
+  brightBlack: "#9F9437"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F5F4F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 110
+  pair: "Pantone Chartreuse (Light)"
+  contrast:
+    fg: 84.9
+    black: 0
+    red: 30.7
+    green: 50.4
+    yellow: 70
+    blue: 37.7
+    magenta: 31.8
+    cyan: 51
+    white: 84.9
+    brightBlack: 41.4
+    brightRed: 37.2
+    brightGreen: 57.6
+    brightYellow: 74.4
+    brightBlue: 27.3
+    brightMagenta: 40.4
+    brightCyan: 57.6
+    brightWhite: 98.2

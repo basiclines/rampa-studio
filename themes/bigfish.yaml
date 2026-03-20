@@ -1,0 +1,53 @@
+name: "BigFish"
+source:
+  marketplace_id: "lemonshark.bigfish"
+  version: "0.0.1"
+  installs: 95
+  rating: 0
+  ratings: 0
+  author: "Lemonshark"
+  repo: "https://github.com/N-Nikolaev/bigfish"
+  url: "https://marketplace.visualstudio.com/items?itemName=lemonshark.bigfish"
+  formats: null
+colors:
+  bg: "#252930"
+  fg: "#E2E2E2"
+  black: "#161616"
+  red: "#995C5E"
+  green: "#55A171"
+  yellow: "#C7AD56"
+  blue: "#5474B8"
+  magenta: "#9A62A3"
+  cyan: "#6B9FB3"
+  white: "#D3D3D3"
+  brightBlack: "#696969"
+  brightRed: "#D15C5C"
+  brightGreen: "#8ADB98"
+  brightYellow: "#E3CB7B"
+  brightBlue: "#8CA4DB"
+  brightMagenta: "#D992DE"
+  brightCyan: "#A7D8EB"
+  brightWhite: "#E2E2E2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 22.6
+    green: 40.1
+    yellow: 55.3
+    blue: 26.3
+    magenta: 26.9
+    cyan: 42.9
+    white: 76.3
+    brightBlack: 20.7
+    brightRed: 32.3
+    brightGreen: 70.4
+    brightYellow: 72.2
+    brightBlue: 49.6
+    brightMagenta: 53.2
+    brightCyan: 74.7
+    brightWhite: 85.5

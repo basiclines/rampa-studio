@@ -1,0 +1,53 @@
+name: "Dusk Rider"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 403
+  rating: 5
+  ratings: 1
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+  formats: null
+colors:
+  bg: "#0D0A0F"
+  fg: "#F3E5F5"
+  black: "#0D0A0F"
+  red: "#F44336"
+  green: "#4CAF50"
+  yellow: "#FF9800"
+  blue: "#3F51B5"
+  magenta: "#9C27B0"
+  cyan: "#00BCD4"
+  white: "#F3E5F5"
+  brightBlack: "#7B1FA2"
+  brightRed: "#EF5350"
+  brightGreen: "#81C784"
+  brightYellow: "#FFB74D"
+  brightBlue: "#7986CB"
+  brightMagenta: "#BA68C8"
+  brightCyan: "#4DD0E1"
+  brightWhite: "#F3E5F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 312
+  pair: null
+  contrast:
+    fg: 93.5
+    black: 0
+    red: 38.5
+    green: 48.4
+    yellow: 60.2
+    blue: 18.4
+    magenta: 21.5
+    cyan: 57.3
+    white: 93.5
+    brightBlack: 14.8
+    brightRed: 40.1
+    brightGreen: 63.3
+    brightYellow: 71.4
+    brightBlue: 39.5
+    brightMagenta: 38.7
+    brightCyan: 68.2
+    brightWhite: 93.5

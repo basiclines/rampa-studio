@@ -1,0 +1,53 @@
+name: "elixir-theme-with-italics-less-dark-2"
+source:
+  marketplace_id: "maiquitome.elixir-theme"
+  version: "0.12.0"
+  installs: 9237
+  rating: 5
+  ratings: 1
+  author: "Maiqui Tomé"
+  repo: "https://github.com/maiquitome/vscode_elixir_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=maiquitome.elixir-theme"
+  formats: null
+colors:
+  bg: "#201B2D"
+  fg: "#8F93A2"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 296
+  pair: null
+  contrast:
+    fg: 42.4
+    black: 0
+    red: 42.8
+    green: 83.4
+    yellow: 78.1
+    blue: 55.1
+    magenta: 52.9
+    cyan: 77.4
+    white: 106.1
+    brightBlack: 10.7
+    brightRed: 42.8
+    brightGreen: 83.4
+    brightYellow: 78.1
+    brightBlue: 55.1
+    brightMagenta: 52.9
+    brightCyan: 77.4
+    brightWhite: 106.1

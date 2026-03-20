@@ -1,0 +1,53 @@
+name: "jojobii-vscode-colors"
+source:
+  marketplace_id: "jojobii.jojobii-vscode-colors"
+  version: "0.1.0"
+  installs: 254
+  rating: 0
+  ratings: 0
+  author: "jojobii"
+  repo: "https://github.com/jojobii-arks/jojobii-arks"
+  url: "https://marketplace.visualstudio.com/items?itemName=jojobii.jojobii-vscode-colors"
+  formats: null
+colors:
+  bg: "#282A3A"
+  fg: "#EAF2F1"
+  black: "#3A3D4B"
+  red: "#FF657A"
+  green: "#BAD761"
+  yellow: "#FFD76D"
+  blue: "#FF9B5E"
+  magenta: "#C39AC9"
+  cyan: "#9CD1BB"
+  white: "#EAF2F1"
+  brightBlack: "#696D77"
+  brightRed: "#FF657A"
+  brightGreen: "#BAD761"
+  brightYellow: "#FFD76D"
+  brightBlue: "#FF9B5E"
+  brightMagenta: "#C39AC9"
+  brightCyan: "#9CD1BB"
+  brightWhite: "#EAF2F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 94.2
+    black: 0
+    red: 44.2
+    green: 71.3
+    yellow: 81
+    blue: 58
+    magenta: 50.9
+    cyan: 67.9
+    white: 94.2
+    brightBlack: 22
+    brightRed: 44.2
+    brightGreen: 71.3
+    brightYellow: 81
+    brightBlue: 58
+    brightMagenta: 50.9
+    brightCyan: 67.9
+    brightWhite: 94.2

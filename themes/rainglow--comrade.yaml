@@ -1,0 +1,53 @@
+name: "Rainglow (comrade)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#343939"
+  fg: "#D6DBDB"
+  black: "#404646"
+  red: "#BA0E2E"
+  green: "#C24E4B"
+  yellow: "#9BB7A7"
+  blue: "#F9F7F1"
+  magenta: "#9BB7A7"
+  cyan: "#C24E4B"
+  white: "#E4E7E7"
+  brightBlack: "#656E6E"
+  brightRed: "#F03E5F"
+  brightGreen: "#DC9997"
+  brightYellow: "#D6E2DB"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#D6E2DB"
+  brightCyan: "#DC9997"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (comrade-light)"
+  contrast:
+    fg: 76.8
+    black: 0
+    red: 14.2
+    green: 22.6
+    yellow: 52.5
+    blue: 95.3
+    magenta: 52.5
+    cyan: 22.6
+    white: 84.6
+    brightBlack: 18.4
+    brightRed: 30.5
+    brightGreen: 49.1
+    brightYellow: 80
+    brightBlue: 100.6
+    brightMagenta: 80
+    brightCyan: 49.1
+    brightWhite: 100.6

@@ -1,0 +1,53 @@
+name: "Darkwaves Spectrum"
+source:
+  marketplace_id: "spacelaxy.spacelaxy-darkwaves"
+  version: "0.0.8"
+  installs: 678
+  rating: 5
+  ratings: 3
+  author: "Spacelaxy LLC"
+  repo: "https://github.com/spacelaxy/darkwaves"
+  url: "https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#E0E0E0"
+  black: "#121212"
+  red: "#FF4C4C"
+  green: "#E07A7A"
+  yellow: "#E6B965"
+  blue: "#61AFEF"
+  magenta: "#C586C0"
+  cyan: "#4EC9B0"
+  white: "#E0E0E0"
+  brightBlack: "#0F0F0F"
+  brightRed: "#FF4C4C"
+  brightGreen: "#E07A7A"
+  brightYellow: "#E6B965"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C586C0"
+  brightCyan: "#4EC9B0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 42.3
+    green: 46.2
+    yellow: 67.9
+    blue: 55.1
+    magenta: 47.8
+    cyan: 62.4
+    white: 87.3
+    brightBlack: 0
+    brightRed: 42.3
+    brightGreen: 46.2
+    brightYellow: 67.9
+    brightBlue: 55.1
+    brightMagenta: 47.8
+    brightCyan: 62.4
+    brightWhite: 107.3

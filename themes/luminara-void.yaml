@@ -1,0 +1,53 @@
+name: "Luminara Void"
+source:
+  marketplace_id: "zaidkhan.novaflux"
+  version: "0.0.1"
+  installs: 40
+  rating: 0
+  ratings: 0
+  author: "zaid_khan"
+  repo: "https://github.com/zaidkhan/novaflux-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zaidkhan.novaflux"
+  formats: null
+colors:
+  bg: "#0B001A"
+  fg: "#ECECEC"
+  black: "#0B001A"
+  red: "#FF5C5C"
+  green: "#4AF626"
+  yellow: "#E6DB74"
+  blue: "#00AFFF"
+  magenta: "#FF2ECC"
+  cyan: "#00FFF7"
+  white: "#ECECEC"
+  brightBlack: "#6C6CA0"
+  brightRed: "#FF5C5C"
+  brightGreen: "#4AF626"
+  brightYellow: "#E6DB74"
+  brightBlue: "#6C9BCF"
+  brightMagenta: "#FF33A6"
+  brightCyan: "#00FFF7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 302
+  pair: null
+  contrast:
+    fg: 95.3
+    black: 0
+    red: 45.6
+    green: 82.5
+    yellow: 82.9
+    blue: 54.4
+    magenta: 44
+    cyan: 91.6
+    white: 95.3
+    brightBlack: 27.7
+    brightRed: 45.6
+    brightGreen: 82.5
+    brightYellow: 82.9
+    brightBlue: 46.4
+    brightMagenta: 42.4
+    brightCyan: 91.6
+    brightWhite: 107.7

@@ -1,0 +1,53 @@
+name: "Sublette"
+source:
+  marketplace_id: "minmul117.sublette"
+  version: "0.2.4"
+  installs: 421
+  rating: 0
+  ratings: 0
+  author: "minmul117"
+  repo: "https://github.com/minmul117/vscode-sublette"
+  url: "https://marketplace.visualstudio.com/items?itemName=minmul117.sublette"
+  formats: null
+colors:
+  bg: "#202535"
+  fg: "#CCCED0"
+  black: "#253045"
+  red: "#EE5577"
+  green: "#55EE77"
+  yellow: "#FFDD88"
+  blue: "#5588FF"
+  magenta: "#FF77CC"
+  cyan: "#44EEEE"
+  white: "#F5F5DA"
+  brightBlack: "#405570"
+  brightRed: "#EE6655"
+  brightGreen: "#99EE77"
+  brightYellow: "#FFFF77"
+  brightBlue: "#77BBFF"
+  brightMagenta: "#AA88FF"
+  brightCyan: "#55FFBB"
+  brightWhite: "#FFFFEE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 73.7
+    black: 0
+    red: 38.3
+    green: 76.7
+    yellow: 85.1
+    blue: 38.6
+    magenta: 52.4
+    cyan: 80.3
+    white: 97.1
+    brightBlack: 12.6
+    brightRed: 40.9
+    brightGreen: 80.6
+    brightYellow: 100.5
+    brightBlue: 60
+    brightMagenta: 46.1
+    brightCyan: 87.4
+    brightWhite: 104.1

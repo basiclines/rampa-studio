@@ -1,0 +1,53 @@
+name: "Rainglow (rebellion)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#23231A"
+  fg: "#D6C7AB"
+  black: "#323225"
+  red: "#BA0E2E"
+  green: "#FE5F00"
+  yellow: "#988F2A"
+  blue: "#8E7547"
+  magenta: "#FE5F00"
+  cyan: "#988F2A"
+  white: "#DED2BC"
+  brightBlack: "#5E5E45"
+  brightRed: "#F03E5F"
+  brightGreen: "#FF9F65"
+  brightYellow: "#D1C757"
+  brightBlue: "#BEA77D"
+  brightMagenta: "#FF9F65"
+  brightCyan: "#D1C757"
+  brightWhite: "#F7F5F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 108
+  pair: "Rainglow (rebellion-light)"
+  contrast:
+    fg: 71.1
+    black: 0
+    red: 19
+    green: 42.9
+    yellow: 38.5
+    blue: 28.8
+    magenta: 42.9
+    cyan: 38.5
+    white: 77.5
+    brightBlack: 16.6
+    brightRed: 35.3
+    brightGreen: 60.9
+    brightYellow: 68.5
+    brightBlue: 53.6
+    brightMagenta: 60.9
+    brightCyan: 68.5
+    brightWhite: 98.8

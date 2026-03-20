@@ -1,0 +1,53 @@
+name: "Zenbones Rosebones Dark Warm"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#232137"
+  fg: "#E1D4D4"
+  black: "#1A1825"
+  red: "#EB7193"
+  green: "#317490"
+  yellow: "#F6C074"
+  blue: "#9CCFD8"
+  magenta: "#C4A7E7"
+  cyan: "#9CCFD8"
+  white: "#E1D4D4"
+  brightBlack: "#3A3651"
+  brightRed: "#F289A4"
+  brightGreen: "#358DAF"
+  brightYellow: "#F9CA8E"
+  brightBlue: "#94DAE6"
+  brightMagenta: "#CEB3EF"
+  brightCyan: "#94DAE6"
+  brightWhite: "#BF9B99"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 287
+  pair: "Zenbones Rosebones Light Bright"
+  contrast:
+    fg: 79.5
+    black: 0
+    red: 44.7
+    green: 23.4
+    yellow: 71.5
+    blue: 69.7
+    magenta: 58.6
+    cyan: 69.7
+    white: 79.5
+    brightBlack: 0
+    brightRed: 53.1
+    brightGreen: 34.1
+    brightYellow: 76.6
+    brightBlue: 74.7
+    brightMagenta: 64.9
+    brightCyan: 74.7
+    brightWhite: 50

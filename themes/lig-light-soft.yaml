@@ -1,0 +1,53 @@
+name: "LiG Light Soft"
+source:
+  marketplace_id: "froQ.lig-theme"
+  version: "0.1.0"
+  installs: 19
+  rating: 0
+  ratings: 0
+  author: "froQ"
+  repo: "https://github.com/Fro-Q/vscode-theme-LiG"
+  url: "https://marketplace.visualstudio.com/items?itemName=froQ.lig-theme"
+  formats: null
+colors:
+  bg: "#E6E0DD"
+  fg: "#575655"
+  black: "#E6E0DD"
+  red: "#E79A9A"
+  green: "#69C493"
+  yellow: "#D7B366"
+  blue: "#6FA8F0"
+  magenta: "#B57AA7"
+  cyan: "#68B7B7"
+  white: "#0F1010"
+  brightBlack: "#E7E2DE"
+  brightRed: "#F7C7C7"
+  brightGreen: "#A3E4B8"
+  brightYellow: "#F1D89B"
+  brightBlue: "#AACDF7"
+  brightMagenta: "#E1B9D5"
+  brightCyan: "#A2E1E1"
+  brightWhite: "#0F1010"
+meta:
+  mode: "light"
+  accent: "indigo"
+  hue: null
+  pair: "LiG Dark Soft"
+  contrast:
+    fg: 67.9
+    black: 0
+    red: 25.8
+    green: 23.7
+    yellow: 20.9
+    blue: 30.6
+    magenta: 43
+    cyan: 28
+    white: 87.9
+    brightBlack: 0
+    brightRed: 0
+    brightGreen: 0
+    brightYellow: 0
+    brightBlue: 10.9
+    brightMagenta: 13.8
+    brightCyan: 0
+    brightWhite: 87.9

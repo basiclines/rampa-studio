@@ -1,0 +1,53 @@
+name: "Eyesore"
+source:
+  marketplace_id: "joonaskivikunnas.eyesore"
+  version: "1.1.0"
+  installs: 1343
+  rating: 0
+  ratings: 0
+  author: "Joonas Kivikunnas"
+  repo: "https://github.com/joonaskoo/eyesore"
+  url: "https://marketplace.visualstudio.com/items?itemName=joonaskivikunnas.eyesore"
+  formats: null
+colors:
+  bg: "#F4F4F4"
+  fg: "#4F4F4F"
+  black: "#000000"
+  red: "#A80000"
+  green: "#00A80B"
+  yellow: "#A8A800"
+  blue: "#0013A8"
+  magenta: "#A200A8"
+  cyan: "#00A5A8"
+  white: "#E5E5E5"
+  brightBlack: "#6B6B6B"
+  brightRed: "#FC2323"
+  brightGreen: "#4BFC23"
+  brightYellow: "#F1FC23"
+  brightBlue: "#2360FC"
+  brightMagenta: "#F823FC"
+  brightCyan: "#23FCFC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.8
+    black: 99.5
+    red: 78.1
+    green: 51.5
+    yellow: 43
+    blue: 89.9
+    magenta: 74.4
+    cyan: 49.8
+    white: 0
+    brightBlack: 70
+    brightRed: 57.5
+    brightGreen: 11.2
+    brightYellow: 0
+    brightBlue: 67.5
+    brightMagenta: 50.1
+    brightCyan: 0
+    brightWhite: 0

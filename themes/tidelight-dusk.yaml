@@ -1,0 +1,53 @@
+name: "Tidelight Dusk"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+  formats: null
+colors:
+  bg: "#0F172A"
+  fg: "#CBD5E1"
+  black: "#0F172A"
+  red: "#FB7185"
+  green: "#A3E635"
+  yellow: "#F59E0B"
+  blue: "#38BDF8"
+  magenta: "#F472B6"
+  cyan: "#22D3EE"
+  white: "#E2E8F0"
+  brightBlack: "#0F172A"
+  brightRed: "#FB7185"
+  brightGreen: "#A3E635"
+  brightYellow: "#F59E0B"
+  brightBlue: "#38BDF8"
+  brightMagenta: "#F472B6"
+  brightCyan: "#22D3EE"
+  brightWhite: "#E2E8F0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 266
+  pair: "Tidelight Daybreak"
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 49.2
+    green: 78.6
+    yellow: 59.3
+    blue: 59.5
+    magenta: 49.8
+    cyan: 68.5
+    white: 91.4
+    brightBlack: 0
+    brightRed: 49.2
+    brightGreen: 78.6
+    brightYellow: 59.3
+    brightBlue: 59.5
+    brightMagenta: 49.8
+    brightCyan: 68.5
+    brightWhite: 91.4

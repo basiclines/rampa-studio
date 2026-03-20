@@ -1,0 +1,53 @@
+name: "tenebris"
+source:
+  marketplace_id: "devShed.tenebris"
+  version: "0.2.0"
+  installs: 116
+  rating: 5
+  ratings: 1
+  author: "devShed"
+  repo: "https://github.com/5h3d/Tenebris"
+  url: "https://marketplace.visualstudio.com/items?itemName=devShed.tenebris"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#A2AABC"
+  black: "#3D3E42"
+  red: "#EF6B73"
+  green: "#78D1E9"
+  yellow: "#BABBBB"
+  blue: "#B9C6C9"
+  magenta: "#C3A6FF"
+  cyan: "#B9C6C9"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#78D1E9"
+  brightYellow: "#BABBBB"
+  brightBlue: "#B9C6C9"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#B9C6C9"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 53.7
+    black: 0
+    red: 43.4
+    green: 69
+    yellow: 63.2
+    blue: 68.3
+    magenta: 59.9
+    cyan: 68.3
+    white: 53.7
+    brightBlack: 9.7
+    brightRed: 43.4
+    brightGreen: 69
+    brightYellow: 63.2
+    brightBlue: 68.3
+    brightMagenta: 59.9
+    brightCyan: 68.3
+    brightWhite: 53.7

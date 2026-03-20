@@ -1,0 +1,53 @@
+name: "Nyctophilia"
+source:
+  marketplace_id: "abhiraj-chaudhuri.nyctophilia-color-theme"
+  version: "0.0.1"
+  installs: 169
+  rating: 5
+  ratings: 2
+  author: "Abhiraj Chaudhuri"
+  repo: "https://github.com/abhie7/NyctophiliaTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=abhiraj-chaudhuri.nyctophilia-color-theme"
+  formats: null
+colors:
+  bg: "#05070A"
+  fg: "#4BE496"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#A2E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#C4C4C4"
+  brightBlack: "#343434"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#C6F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75
+    black: 0
+    red: 27.7
+    green: 53.9
+    yellow: 78.9
+    blue: 28.4
+    magenta: 30.7
+    cyan: 48.5
+    white: 70.9
+    brightBlack: 0
+    brightRed: 39.5
+    brightGreen: 64.5
+    brightYellow: 90.7
+    brightBlue: 40.9
+    brightMagenta: 46.3
+    brightCyan: 56.3
+    brightWhite: 107.8

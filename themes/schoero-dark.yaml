@@ -1,0 +1,53 @@
+name: "schoero-dark"
+source:
+  marketplace_id: "schoero.schoero-dark"
+  version: "0.4.9"
+  installs: 268
+  rating: 0
+  ratings: 0
+  author: "schoero"
+  repo: "https://github.com/schoero/schoero-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=schoero.schoero-dark"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#B1B6C1"
+  black: "#1E2127"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#D19A66"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#5C6370"
+  brightRed: "#E07C75"
+  brightGreen: "#98C379"
+  brightYellow: "#D1A066"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#A9ABAE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 58.6
+    black: 0
+    red: 38.9
+    green: 59.1
+    yellow: 49.5
+    blue: 51.5
+    magenta: 41.9
+    cyan: 51.4
+    white: 56.2
+    brightBlack: 17.4
+    brightRed: 43
+    brightGreen: 59.1
+    brightYellow: 51.6
+    brightBlue: 51.5
+    brightMagenta: 41.9
+    brightCyan: 51.4
+    brightWhite: 52.5

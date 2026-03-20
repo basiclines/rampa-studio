@@ -1,0 +1,53 @@
+name: "Jelly Theme"
+source:
+  marketplace_id: "kylethebaker.jelly-theme"
+  version: "0.0.4"
+  installs: 21829
+  rating: 0
+  ratings: 0
+  author: "kylethebaker"
+  repo: "https://github.com/kylethebaker/jelly-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=kylethebaker.jelly-theme"
+  formats: null
+colors:
+  bg: "#0A0B12"
+  fg: "#C5C8C6"
+  black: "#1C1C1C"
+  red: "#B85335"
+  green: "#799D6A"
+  yellow: "#FFB964"
+  blue: "#667899"
+  magenta: "#8787AF"
+  cyan: "#668799"
+  white: "#546B88"
+  brightBlack: "#3D3A53"
+  brightRed: "#CF6A4C"
+  brightGreen: "#99AD6A"
+  brightYellow: "#FAD07A"
+  brightBlue: "#8197BF"
+  brightMagenta: "#C6B6EE"
+  brightCyan: "#8FBFDC"
+  brightWhite: "#E8E8D3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 72.6
+    black: 0
+    red: 28.4
+    green: 44
+    yellow: 72.5
+    blue: 30.6
+    magenta: 39.6
+    cyan: 35.7
+    white: 24.3
+    brightBlack: 0
+    brightRed: 38.3
+    brightGreen: 53.5
+    brightYellow: 81.3
+    brightBlue: 45.6
+    brightMagenta: 67.4
+    brightCyan: 64.2
+    brightWhite: 91.8

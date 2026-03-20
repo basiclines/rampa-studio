@@ -1,0 +1,53 @@
+name: "Oxide Theme"
+source:
+  marketplace_id: "oxidescheme.oxide-theme"
+  version: "0.1.1"
+  installs: 15
+  rating: 0
+  ratings: 0
+  author: "oxidescheme"
+  repo: "https://github.com/oxidescheme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=oxidescheme.oxide-theme"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#CECECE"
+  black: "#262626"
+  red: "#ED756E"
+  green: "#5BB661"
+  yellow: "#C39900"
+  blue: "#3BA6F5"
+  magenta: "#968FF7"
+  cyan: "#00BAAA"
+  white: "#CECECE"
+  brightBlack: "#8F8F8F"
+  brightRed: "#FF9890"
+  brightGreen: "#7BD77F"
+  brightYellow: "#E3B831"
+  brightBlue: "#6FC6FF"
+  brightMagenta: "#B5B2FF"
+  brightCyan: "#00DCCA"
+  brightWhite: "#DEDEDE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76
+    black: 0
+    red: 46.8
+    green: 51.7
+    yellow: 49.4
+    blue: 50
+    magenta: 47.5
+    cyan: 53.8
+    white: 76
+    brightBlack: 41.2
+    brightRed: 61.3
+    brightGreen: 69.5
+    brightYellow: 66.1
+    brightBlue: 66.3
+    brightMagenta: 64.1
+    brightCyan: 71
+    brightWhite: 85.7

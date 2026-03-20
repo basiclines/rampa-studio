@@ -1,0 +1,53 @@
+name: "Night-Stack DOS Blue"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#000080"
+  fg: "#FFFFFF"
+  black: "#000066"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#000066"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 0
+    red: 33.5
+    green: 82.5
+    yellow: 98.7
+    blue: 12.2
+    magenta: 42.2
+    cyan: 88.2
+    white: 103.9
+    brightBlack: 0
+    brightRed: 33.5
+    brightGreen: 82.5
+    brightYellow: 98.7
+    brightBlue: 12.2
+    brightMagenta: 42.2
+    brightCyan: 88.2
+    brightWhite: 103.9

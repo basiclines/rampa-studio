@@ -1,0 +1,53 @@
+name: "Quiet Hacker"
+source:
+  marketplace_id: "ManuelArtero.quiet-hacker"
+  version: "1.0.1"
+  installs: 38
+  rating: 0
+  ratings: 0
+  author: "Manuel Artero"
+  repo: "https://github.com/manuartero/vscode-theme-quiet-hacker"
+  url: "https://marketplace.visualstudio.com/items?itemName=ManuelArtero.quiet-hacker"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#A0C8A0"
+  black: "#000000"
+  red: "#666666"
+  green: "#00FF41"
+  yellow: "#00802A"
+  blue: "#00802A"
+  magenta: "#666666"
+  cyan: "#00802A"
+  white: "#C8C8C8"
+  brightBlack: "#333333"
+  brightRed: "#888888"
+  brightGreen: "#00FF41"
+  brightYellow: "#00FF41"
+  brightBlue: "#00FF41"
+  brightMagenta: "#888888"
+  brightCyan: "#00FF41"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.3
+    black: 0
+    red: 23
+    green: 86.7
+    yellow: 27.2
+    blue: 27.2
+    magenta: 23
+    cyan: 27.2
+    white: 73.3
+    brightBlack: 0
+    brightRed: 38.6
+    brightGreen: 86.7
+    brightYellow: 86.7
+    brightBlue: 86.7
+    brightMagenta: 38.6
+    brightCyan: 86.7
+    brightWhite: 107.9

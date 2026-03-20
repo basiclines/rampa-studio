@@ -1,0 +1,54 @@
+name: "Beautiful UI (Material)"
+source:
+  marketplace_id: "swashata.beautiful-ui"
+  version: "1.7.0"
+  installs: 121127
+  rating: 4.38
+  ratings: 13
+  author: "swashata"
+  repo: "https://github.com/swashata/vscode-beautiful-ui"
+  url: "https://marketplace.visualstudio.com/items?itemName=swashata.beautiful-ui"
+  formats:
+    zed: "https://raw.githubusercontent.com/swashata/vscode-beautiful-ui/master/themes/Solarized Dark-color-theme.json"
+colors:
+  bg: "#253137"
+  fg: "#E6FFFF"
+  black: "#000000"
+  red: "#D81E00"
+  green: "#5EA702"
+  yellow: "#CFAE00"
+  blue: "#427AB3"
+  magenta: "#89658E"
+  cyan: "#00A7AA"
+  white: "#DBDED8"
+  brightBlack: "#686A66"
+  brightRed: "#F54235"
+  brightGreen: "#99E343"
+  brightYellow: "#FDEB61"
+  brightBlue: "#84B0D8"
+  brightMagenta: "#BC94B7"
+  brightCyan: "#37E6E8"
+  brightWhite: "#F1F1F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 23.6
+    green: 40.5
+    yellow: 55
+    blue: 25.7
+    magenta: 23.1
+    cyan: 41.4
+    white: 81
+    brightBlack: 19.5
+    brightRed: 33.9
+    brightGreen: 72.5
+    brightYellow: 88.5
+    brightBlue: 52.1
+    brightMagenta: 46.1
+    brightCyan: 73.8
+    brightWhite: 93.7

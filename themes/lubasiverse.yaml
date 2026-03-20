@@ -1,0 +1,51 @@
+name: "lubasiverse"
+source:
+  marketplace_id: "lubasiverse.lubasiverse"
+  version: "1.0.0"
+  installs: 35
+  author: "lubasiverse"
+  repo: "https://github.com/yourusername/lubasiverse"
+  url: "https://marketplace.visualstudio.com/items?itemName=lubasiverse.lubasiverse"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#C8C8D0"
+  black: "#000000"
+  red: "#FF5A7C"
+  green: "#5AFF9D"
+  yellow: "#FFDC5A"
+  blue: "#5A9DFF"
+  magenta: "#FF5ADC"
+  cyan: "#5AFFDC"
+  white: "#E0E0E8"
+  brightBlack: "#4A4A5A"
+  brightRed: "#FF7A9C"
+  brightGreen: "#7AFFBD"
+  brightYellow: "#FFEC7A"
+  brightBlue: "#7ABDFF"
+  brightMagenta: "#FF7AEC"
+  brightCyan: "#7AFFEC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.7
+    black: 0
+    red: 46.1
+    green: 89.7
+    yellow: 86.9
+    blue: 49.4
+    magenta: 50.4
+    cyan: 91.9
+    white: 88.3
+    brightBlack: 12.5
+    brightRed: 54.1
+    brightGreen: 92.1
+    brightYellow: 94.6
+    brightBlue: 64
+    brightMagenta: 57.9
+    brightCyan: 94
+    brightWhite: 107.9

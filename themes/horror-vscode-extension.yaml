@@ -1,0 +1,53 @@
+name: "Horror VSCode Extension"
+source:
+  marketplace_id: "seonwookim.horror-vscode-extension"
+  version: "0.0.2"
+  installs: 105
+  rating: 0
+  ratings: 0
+  author: "seonwoo kim"
+  repo: "https://github.com/seonwookim/horror-vscode-extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=seonwookim.horror-vscode-extension"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#E0E0E0"
+  black: "#0A0A0A"
+  red: "#FF4444"
+  green: "#44FF44"
+  yellow: "#FF8C00"
+  blue: "#4444FF"
+  magenta: "#FF44FF"
+  cyan: "#44FFFF"
+  white: "#E0E0E0"
+  brightBlack: "#0A0A0A"
+  brightRed: "#FF4444"
+  brightGreen: "#44FF44"
+  brightYellow: "#FF8C00"
+  brightBlue: "#4444FF"
+  brightMagenta: "#FF44FF"
+  brightCyan: "#44FFFF"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 41.5
+    green: 87.3
+    yellow: 56.5
+    blue: 22.9
+    magenta: 49.4
+    cyan: 92.7
+    white: 87.7
+    brightBlack: 0
+    brightRed: 41.5
+    brightGreen: 87.3
+    brightYellow: 56.5
+    brightBlue: 22.9
+    brightMagenta: 49.4
+    brightCyan: 92.7
+    brightWhite: 87.7

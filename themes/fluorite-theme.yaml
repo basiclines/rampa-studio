@@ -1,0 +1,53 @@
+name: "💎Fluorite Theme"
+source:
+  marketplace_id: "rnbsov.fluorite-theme"
+  version: "1.2.6"
+  installs: 1602
+  rating: 5
+  ratings: 7
+  author: "Rnbsov"
+  repo: "https://github.com/Rnbsov/fluorite-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=rnbsov.fluorite-theme"
+  formats: null
+colors:
+  bg: "#16111B"
+  fg: "#6E9BBC"
+  black: "#333333"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B290BA"
+  cyan: "#6AB8C0"
+  white: "#DDDDDD"
+  brightBlack: "#666666"
+  brightRed: "#F48484"
+  brightGreen: "#76C3A5"
+  brightYellow: "#F2D98E"
+  brightBlue: "#80A8E4"
+  brightMagenta: "#C2A0CA"
+  brightCyan: "#7AC8D0"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 307
+  pair: null
+  contrast:
+    fg: 44.9
+    black: 0
+    red: 45.2
+    green: 52.6
+    yellow: 74.2
+    blue: 45.3
+    magenta: 47.8
+    cyan: 56.7
+    white: 85.4
+    brightBlack: 22.4
+    brightRed: 53
+    brightGreen: 61.2
+    brightYellow: 83.9
+    brightBlue: 53.6
+    brightMagenta: 56.3
+    brightCyan: 65.5
+    brightWhite: 101.3

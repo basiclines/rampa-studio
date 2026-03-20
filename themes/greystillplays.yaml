@@ -1,0 +1,53 @@
+name: "GreyStillPlays"
+source:
+  marketplace_id: "jaredbest.greystillplays-vscode"
+  version: "0.0.2"
+  installs: 5742
+  rating: 0
+  ratings: 0
+  author: "Jared Best"
+  repo: "https://github.com/jaredbest/greystillplays-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=jaredbest.greystillplays-vscode"
+  formats: null
+colors:
+  bg: "#242424"
+  fg: "#A3A3A3"
+  black: "#292929"
+  red: "#FB88B2"
+  green: "#A3D96D"
+  yellow: "#D6D6D6"
+  blue: "#85E0EA"
+  magenta: "#17BCDE"
+  cyan: "#85E0EA"
+  white: "#A3A3A3"
+  brightBlack: "#3C3C3C"
+  brightRed: "#FB88B2"
+  brightGreen: "#A3D96D"
+  brightYellow: "#D6D6D6"
+  brightBlue: "#85E0EA"
+  brightMagenta: "#17BCDE"
+  brightCyan: "#85E0EA"
+  brightWhite: "#A3A3A3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 49.7
+    black: 0
+    red: 55.1
+    green: 71.4
+    yellow: 79
+    blue: 76.5
+    magenta: 55.4
+    cyan: 76.5
+    white: 49.7
+    brightBlack: 0
+    brightRed: 55.1
+    brightGreen: 71.4
+    brightYellow: 79
+    brightBlue: 76.5
+    brightMagenta: 55.4
+    brightCyan: 76.5
+    brightWhite: 49.7

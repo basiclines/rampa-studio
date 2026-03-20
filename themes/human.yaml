@@ -1,0 +1,54 @@
+name: "Human++"
+source:
+  marketplace_id: "fielding.human-plus-plus"
+  version: "1.5.0"
+  installs: 18
+  rating: 5
+  ratings: 1
+  author: "fielding"
+  repo: "https://github.com/fielding/human-plus-plus"
+  url: "https://marketplace.visualstudio.com/items?itemName=fielding.human-plus-plus"
+  formats:
+    nvim: "https://raw.githubusercontent.com/fielding/human-plus-plus/main/packages/neovim-plugin/lua/human-plus-plus/config.lua"
+colors:
+  bg: "#1A1C22"
+  fg: "#F8F6F2"
+  black: "#1A1C22"
+  red: "#E7349C"
+  green: "#04B372"
+  yellow: "#F2A633"
+  blue: "#458AE2"
+  magenta: "#9871FE"
+  cyan: "#1AD0D6"
+  white: "#F8F6F2"
+  brightBlack: "#5A5D62"
+  brightRed: "#C8518F"
+  brightGreen: "#61B186"
+  brightYellow: "#DFB683"
+  brightBlue: "#5E84B6"
+  brightMagenta: "#8F72E3"
+  brightCyan: "#91CBCD"
+  brightWhite: "#F8F6F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 100.5
+    black: 0
+    red: 35.1
+    green: 48.1
+    yellow: 61.2
+    blue: 37.8
+    magenta: 38.7
+    cyan: 65.3
+    white: 100.5
+    brightBlack: 17.6
+    brightRed: 32
+    brightGreen: 50.1
+    brightYellow: 65.3
+    brightBlue: 34.2
+    brightMagenta: 35.8
+    brightCyan: 67.5
+    brightWhite: 100.5

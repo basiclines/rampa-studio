@@ -1,0 +1,53 @@
+name: "Emerald"
+source:
+  marketplace_id: "zecuse.emerald-theme"
+  version: "1.0.2"
+  installs: 491
+  rating: 0
+  ratings: 0
+  author: "zecuse"
+  repo: "https://github.com/zecuse/emerald-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zecuse.emerald-theme"
+  formats: null
+colors:
+  bg: "#00281E"
+  fg: "#FFFFFF"
+  black: "#414141"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#8C8C8C"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 172
+  pair: null
+  contrast:
+    fg: 105.2
+    black: 0
+    red: 25.1
+    green: 51.3
+    yellow: 84
+    blue: 25.8
+    magenta: 28.1
+    cyan: 45.9
+    white: 88.4
+    brightBlack: 37.9
+    brightRed: 36.9
+    brightGreen: 61.9
+    brightYellow: 94
+    brightBlue: 38.3
+    brightMagenta: 43.7
+    brightCyan: 53.7
+    brightWhite: 105.2

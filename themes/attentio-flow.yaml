@@ -1,0 +1,53 @@
+name: "Attentio Flow"
+source:
+  marketplace_id: "shadz-dev.attentio"
+  version: "1.1.4"
+  installs: 250
+  rating: 5
+  ratings: 2
+  author: "Shaditya Kinlekar"
+  repo: "https://github.com/Shaditya-Kinlekar/Attentio-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shadz-dev.attentio"
+  formats: null
+colors:
+  bg: "#010107"
+  fg: "#C0C4D8"
+  black: "#28353E"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#AEC3D0"
+  brightBlack: "#475E6C"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#BECFDA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 71.4
+    black: 0
+    red: 41.5
+    green: 78
+    yellow: 68
+    blue: 53
+    magenta: 46.6
+    cyan: 71.5
+    white: 68.5
+    brightBlack: 18.5
+    brightRed: 46.8
+    brightGreen: 80.2
+    brightYellow: 54.9
+    brightBlue: 58.3
+    brightMagenta: 59
+    brightCyan: 74.9
+    brightWhite: 75.9

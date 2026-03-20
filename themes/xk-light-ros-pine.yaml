@@ -1,0 +1,51 @@
+name: "XK Light Rosé Pine"
+source:
+  marketplace_id: "x1ngkong.vscode-xk-theme"
+  version: "0.1.0"
+  installs: 31
+  author: "x1ngkong"
+  repo: "https://github.com/x1ngkong/vscode-xk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=x1ngkong.vscode-xk-theme"
+  formats: null
+colors:
+  bg: "#FAF4ED"
+  fg: "#3D3951"
+  black: "#000000"
+  red: "#96344A"
+  green: "#3A7A84"
+  yellow: "#B85E00"
+  blue: "#1A5F78"
+  magenta: "#B85C58"
+  cyan: "#1A5F78"
+  white: "#3D3951"
+  brightBlack: "#3D3951"
+  brightRed: "#96344A"
+  brightGreen: "#3A7A84"
+  brightYellow: "#B85E00"
+  brightBlue: "#1A5F78"
+  brightMagenta: "#B85C58"
+  brightCyan: "#1A5F78"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.4
+    black: 100
+    red: 78.4
+    green: 67.6
+    yellow: 64.8
+    blue: 78.3
+    magenta: 64.4
+    cyan: 78.3
+    white: 89.4
+    brightBlack: 89.4
+    brightRed: 78.4
+    brightGreen: 67.6
+    brightYellow: 64.8
+    brightBlue: 78.3
+    brightMagenta: 64.4
+    brightCyan: 78.3
+    brightWhite: 0

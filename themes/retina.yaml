@@ -1,0 +1,53 @@
+name: "Retina"
+source:
+  marketplace_id: "RafaCMur.retina"
+  version: "0.0.6"
+  installs: 1792
+  rating: 5
+  ratings: 4
+  author: "RafaCMur"
+  repo: "https://github.com/RafaCMur/retina"
+  url: "https://marketplace.visualstudio.com/items?itemName=RafaCMur.retina"
+  formats: null
+colors:
+  bg: "#1C1C1C"
+  fg: "#DDDDDD"
+  black: "#363537"
+  red: "#FC618D"
+  green: "#7BD88F"
+  yellow: "#E6C64F"
+  blue: "#FD9353"
+  magenta: "#948AE3"
+  cyan: "#5AD4E6"
+  white: "#DDDDDD"
+  brightBlack: "#69676C"
+  brightRed: "#FC618D"
+  brightGreen: "#7BD88F"
+  brightYellow: "#E6C64F"
+  brightBlue: "#FD9353"
+  brightMagenta: "#948AE3"
+  brightCyan: "#5AD4E6"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.4
+    black: 0
+    red: 45.7
+    green: 69.7
+    yellow: 71.9
+    blue: 57.3
+    magenta: 43.6
+    cyan: 69.5
+    white: 84.4
+    brightBlack: 22.2
+    brightRed: 45.7
+    brightGreen: 69.7
+    brightYellow: 71.9
+    brightBlue: 57.3
+    brightMagenta: 43.6
+    brightCyan: 69.5
+    brightWhite: 84.4

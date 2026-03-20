@@ -1,0 +1,53 @@
+name: "Tidelight Midnight"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+  formats: null
+colors:
+  bg: "#070B14"
+  fg: "#E2E8F0"
+  black: "#0B1220"
+  red: "#FB7185"
+  green: "#A3E635"
+  yellow: "#F59E0B"
+  blue: "#38BDF8"
+  magenta: "#F472B6"
+  cyan: "#22D3EE"
+  white: "#F8FAFC"
+  brightBlack: "#0B1220"
+  brightRed: "#FB7185"
+  brightGreen: "#A3E635"
+  brightYellow: "#F59E0B"
+  brightBlue: "#38BDF8"
+  brightMagenta: "#F472B6"
+  brightCyan: "#22D3EE"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: "Tidelight Dawn"
+  contrast:
+    fg: 92.3
+    black: 0
+    red: 50.1
+    green: 79.5
+    yellow: 60.3
+    blue: 60.4
+    magenta: 50.7
+    cyan: 69.4
+    white: 104.2
+    brightBlack: 0
+    brightRed: 50.1
+    brightGreen: 79.5
+    brightYellow: 60.3
+    brightBlue: 60.4
+    brightMagenta: 50.7
+    brightCyan: 69.4
+    brightWhite: 104.2

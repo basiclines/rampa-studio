@@ -1,0 +1,53 @@
+name: "Night-Stack EyeStrain Green"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#101512"
+  fg: "#D6EFD6"
+  black: "#1C1C1C"
+  red: "#C96A6A"
+  green: "#8FCF8F"
+  yellow: "#CFCF8F"
+  blue: "#7FAFD4"
+  magenta: "#B39DDB"
+  cyan: "#7FCFCF"
+  white: "#E0E0E0"
+  brightBlack: "#1C1C1C"
+  brightRed: "#C96A6A"
+  brightGreen: "#8FCF8F"
+  brightYellow: "#CFCF8F"
+  brightBlue: "#7FAFD4"
+  brightMagenta: "#B39DDB"
+  brightCyan: "#7FCFCF"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.4
+    black: 0
+    red: 37.2
+    green: 67.8
+    yellow: 74.5
+    blue: 55.3
+    magenta: 54.1
+    cyan: 68.9
+    white: 87.2
+    brightBlack: 0
+    brightRed: 37.2
+    brightGreen: 67.8
+    brightYellow: 74.5
+    brightBlue: 55.3
+    brightMagenta: 54.1
+    brightCyan: 68.9
+    brightWhite: 87.2

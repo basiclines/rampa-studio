@@ -1,0 +1,53 @@
+name: "Eyeball Dark"
+source:
+  marketplace_id: "vipinpal.eyeball-dark"
+  version: "0.0.4"
+  installs: 1
+  rating: 0
+  ratings: 0
+  author: "vipinpal"
+  repo: "https://github.com/vipinpal70/Eyeball-Dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=vipinpal.eyeball-dark"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#BECFDA"
+  black: "#28353E"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#AEC3D0"
+  brightBlack: "#475E6C"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#BECFDA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.1
+    black: 0
+    red: 39.7
+    green: 76.1
+    yellow: 66.1
+    blue: 51.1
+    magenta: 44.8
+    cyan: 69.7
+    white: 66.7
+    brightBlack: 16.6
+    brightRed: 44.9
+    brightGreen: 78.3
+    brightYellow: 53
+    brightBlue: 56.4
+    brightMagenta: 57.2
+    brightCyan: 73
+    brightWhite: 74.1

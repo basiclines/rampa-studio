@@ -1,0 +1,53 @@
+name: "kurdor-light"
+source:
+  marketplace_id: "rashidfarhad.kurdor"
+  version: "1.4.1"
+  installs: 27
+  rating: 5
+  ratings: 1
+  author: "KurdorTheme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=rashidfarhad.kurdor"
+  formats: null
+colors:
+  bg: "#F8F9FA"
+  fg: "#5C6166"
+  black: "#000000"
+  red: "#F06B6C"
+  green: "#6CBF43"
+  yellow: "#E7A100"
+  blue: "#21A1E2"
+  magenta: "#A176CB"
+  cyan: "#4ABC96"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07171"
+  brightGreen: "#86B300"
+  brightYellow: "#EBA400"
+  brightBlue: "#22A4E6"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#4CBF99"
+  brightWhite: "#D1D1D1"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77.5
+    black: 102.4
+    red: 52.2
+    green: 41.2
+    yellow: 39.5
+    blue: 51
+    magenta: 58.9
+    cyan: 42.4
+    white: 26.4
+    brightBlack: 74.2
+    brightRed: 50.7
+    brightGreen: 44.8
+    brightYellow: 37.8
+    brightBlue: 49.6
+    brightMagenta: 57.5
+    brightCyan: 41
+    brightWhite: 20.8

@@ -1,0 +1,53 @@
+name: "Shadcn Red Light"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  rating: 0
+  ratings: 0
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#09090B"
+  black: "#FFFFFF"
+  red: "#E7000B"
+  green: "#FB2C36"
+  yellow: "#FFA2A2"
+  blue: "#FF6467"
+  magenta: "#E7000B"
+  cyan: "#9F0712"
+  white: "#09090B"
+  brightBlack: "#F4F4F5"
+  brightRed: "#E7000B"
+  brightGreen: "#FFA2A2"
+  brightYellow: "#FEF2F2"
+  brightBlue: "#E7000B"
+  brightMagenta: "#FFE2D9"
+  brightCyan: "#E7000B"
+  brightWhite: "#09090B"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Shadcn Red Dark"
+  contrast:
+    fg: 105.9
+    black: 0
+    red: 70.1
+    green: 63.6
+    yellow: 36.5
+    blue: 54.3
+    magenta: 70.1
+    cyan: 86.5
+    white: 105.9
+    brightBlack: 0
+    brightRed: 70.1
+    brightGreen: 36.5
+    brightYellow: 0
+    brightBlue: 70.1
+    brightMagenta: 11.1
+    brightCyan: 70.1
+    brightWhite: 105.9

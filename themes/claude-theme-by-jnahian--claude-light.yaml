@@ -1,0 +1,53 @@
+name: "Claude Theme by jnahian (Claude Light)"
+source:
+  marketplace_id: "jnahian.jnahian-claude-theme"
+  version: "0.2.0"
+  installs: 1195
+  rating: 5
+  ratings: 1
+  author: "jnahian"
+  repo: "https://github.com/jnahian/vscode-claude-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jnahian.jnahian-claude-theme"
+  formats: null
+colors:
+  bg: "#FAF9F5"
+  fg: "#2C2C2C"
+  black: "#2C2C2C"
+  red: "#D73A49"
+  green: "#28A745"
+  yellow: "#C15F3C"
+  blue: "#0366D6"
+  magenta: "#EA4AAA"
+  cyan: "#39C5CF"
+  white: "#FDFCFB"
+  brightBlack: "#2C2C2C"
+  brightRed: "#D73A49"
+  brightGreen: "#28A745"
+  brightYellow: "#C15F3C"
+  brightBlue: "#0366D6"
+  brightMagenta: "#EA4AAA"
+  brightCyan: "#39C5CF"
+  brightWhite: "#FDFCFB"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Claude Theme by jnahian (Claude Dark)"
+  contrast:
+    fg: 97
+    black: 97
+    red: 66.8
+    green: 54.2
+    yellow: 65
+    blue: 72.6
+    magenta: 57.5
+    cyan: 36.8
+    white: 0
+    brightBlack: 97
+    brightRed: 66.8
+    brightGreen: 54.2
+    brightYellow: 65
+    brightBlue: 72.6
+    brightMagenta: 57.5
+    brightCyan: 36.8
+    brightWhite: 0

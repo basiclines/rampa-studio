@@ -1,0 +1,54 @@
+name: "Flat UI"
+source:
+  marketplace_id: "lkytal.FlatUI"
+  version: "1.4.9"
+  installs: 264034
+  rating: 4.93
+  ratings: 28
+  author: "Kaiyuan Liu"
+  repo: "https://github.com/lkytal/vscode-theme-flatui"
+  url: "https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI"
+  formats:
+    sublime: "https://raw.githubusercontent.com/lkytal/vscode-theme-flatui/master/themes/flatDark.tmTheme"
+colors:
+  bg: "#FBFBFB"
+  fg: "#414141"
+  black: "#414141"
+  red: "#DE3D3B"
+  green: "#08916A"
+  yellow: "#E0AF02"
+  blue: "#288ED7"
+  magenta: "#D6438A"
+  cyan: "#2AA298"
+  white: "#F0F0F0"
+  brightBlack: "#414141"
+  brightRed: "#DE3D3B"
+  brightGreen: "#08916A"
+  brightYellow: "#FDC602"
+  brightBlue: "#288ED7"
+  brightMagenta: "#D6438A"
+  brightCyan: "#2AA298"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.3
+    black: 91.3
+    red: 66.3
+    green: 64.2
+    yellow: 37
+    blue: 60.1
+    magenta: 65.3
+    cyan: 55.5
+    white: 0
+    brightBlack: 91.3
+    brightRed: 66.3
+    brightGreen: 64.2
+    brightYellow: 23.8
+    brightBlue: 60.1
+    brightMagenta: 65.3
+    brightCyan: 55.5
+    brightWhite: 0

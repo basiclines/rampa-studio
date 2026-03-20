@@ -1,0 +1,53 @@
+name: "Acario"
+source:
+  marketplace_id: "gagbo.acario"
+  version: "0.0.1"
+  installs: 506
+  rating: 0
+  ratings: 0
+  author: "gagbo"
+  repo: "https://github.com/gagbo/acario-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=gagbo.acario"
+  formats: null
+colors:
+  bg: "#12141F"
+  fg: "#CEDBE5"
+  black: "#12141F"
+  red: "#D83441"
+  green: "#79D836"
+  yellow: "#D8B941"
+  blue: "#3679D8"
+  magenta: "#8041D8"
+  cyan: "#36D8BD"
+  white: "#959EA5"
+  brightBlack: "#2D304C"
+  brightRed: "#FF7266"
+  brightGreen: "#B2FF66"
+  brightYellow: "#FFDF66"
+  brightBlue: "#66A5FF"
+  brightMagenta: "#9866FF"
+  brightCyan: "#66FFD8"
+  brightWhite: "#E5F4FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 82.8
+    black: 0
+    red: 29.9
+    green: 68.9
+    yellow: 65.1
+    blue: 31.5
+    magenta: 23.1
+    cyan: 69.1
+    white: 48.3
+    brightBlack: 0
+    brightRed: 49.8
+    brightGreen: 93.3
+    brightYellow: 87.6
+    brightBlue: 52.3
+    brightMagenta: 36.8
+    brightCyan: 91.4
+    brightWhite: 98.4

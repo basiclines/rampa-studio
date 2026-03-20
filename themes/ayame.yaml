@@ -1,0 +1,53 @@
+name: "Ayame"
+source:
+  marketplace_id: "Nurdoidz.ayame"
+  version: "1.1.2"
+  installs: 302
+  rating: 0
+  ratings: 0
+  author: "Nurdoidz"
+  repo: "https://github.com/AyameTheme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Nurdoidz.ayame"
+  formats: null
+colors:
+  bg: "#130F1E"
+  fg: "#CBBADE"
+  black: "#564585"
+  red: "#C43053"
+  green: "#76B65B"
+  yellow: "#FF874B"
+  blue: "#2B7BBD"
+  magenta: "#9768F8"
+  cyan: "#41BAC8"
+  white: "#8A7D9B"
+  brightBlack: "#342950"
+  brightRed: "#FF4B73"
+  brightGreen: "#96E474"
+  brightYellow: "#F5CB40"
+  brightBlue: "#44A3F5"
+  brightMagenta: "#F76EF1"
+  brightCyan: "#54E7F8"
+  brightWhite: "#E5DCEF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 295
+  pair: null
+  contrast:
+    fg: 68.4
+    black: 13.6
+    red: 25.7
+    green: 53.6
+    yellow: 55.1
+    blue: 30.3
+    magenta: 36.8
+    cyan: 56.3
+    white: 35.3
+    brightBlack: 0
+    brightRed: 42.9
+    brightGreen: 77.8
+    brightYellow: 77.2
+    brightBlue: 49.5
+    brightMagenta: 53.3
+    brightCyan: 80.3
+    brightWhite: 87

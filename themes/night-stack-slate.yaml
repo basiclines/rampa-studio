@@ -1,0 +1,53 @@
+name: "Night-Stack Slate"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#0F1115"
+  fg: "#D4D7DD"
+  black: "#1C2028"
+  red: "#8A94A6"
+  green: "#9AA4B2"
+  yellow: "#B6BEC9"
+  blue: "#6B7280"
+  magenta: "#7C8596"
+  cyan: "#AAB2BF"
+  white: "#D4D7DD"
+  brightBlack: "#1C2028"
+  brightRed: "#8A94A6"
+  brightGreen: "#9AA4B2"
+  brightYellow: "#B6BEC9"
+  brightBlue: "#6B7280"
+  brightMagenta: "#7C8596"
+  brightCyan: "#AAB2BF"
+  brightWhite: "#D4D7DD"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.7
+    black: 0
+    red: 43.8
+    green: 52
+    yellow: 66.5
+    blue: 27.6
+    magenta: 36.4
+    cyan: 59.8
+    white: 81.7
+    brightBlack: 0
+    brightRed: 43.8
+    brightGreen: 52
+    brightYellow: 66.5
+    brightBlue: 27.6
+    brightMagenta: 36.4
+    brightCyan: 59.8
+    brightWhite: 81.7

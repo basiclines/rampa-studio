@@ -1,0 +1,53 @@
+name: "iv"
+source:
+  marketplace_id: "riyuzenn.iv"
+  version: "0.0.3"
+  installs: 1278
+  rating: 5
+  ratings: 2
+  author: "riyuzenn"
+  repo: "https://github.com/riyuzenn/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=riyuzenn.iv"
+  formats: null
+colors:
+  bg: "#0C0C0C"
+  fg: "#A0A0A0"
+  black: "#212121"
+  red: "#9D7B7D"
+  green: "#7B9D7C"
+  yellow: "#B7976A"
+  blue: "#687589"
+  magenta: "#937193"
+  cyan: "#628483"
+  white: "#A0A0A0"
+  brightBlack: "#353535"
+  brightRed: "#A78587"
+  brightGreen: "#85A786"
+  brightYellow: "#C1A174"
+  brightBlue: "#8593A7"
+  brightMagenta: "#C8B5E6"
+  brightCyan: "#85A7A6"
+  brightWhite: "#BEBEBE"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 50.6
+    black: 0
+    red: 36.2
+    green: 44.6
+    yellow: 48.6
+    blue: 29
+    magenta: 32.7
+    cyan: 33.5
+    white: 50.6
+    brightBlack: 0
+    brightRed: 41
+    brightGreen: 49.8
+    brightYellow: 53.9
+    brightBlue: 43.3
+    brightMagenta: 66.8
+    brightCyan: 50.9
+    brightWhite: 67.2

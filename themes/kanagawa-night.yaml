@@ -1,0 +1,53 @@
+name: "Kanagawa Night"
+source:
+  marketplace_id: "Avetis.kanagawa-night"
+  version: "1.0.1"
+  installs: 1265
+  rating: 0
+  ratings: 0
+  author: "Avetis"
+  repo: "https://github.com/AvetisDN/kanagawa-night"
+  url: "https://marketplace.visualstudio.com/items?itemName=Avetis.kanagawa-night"
+  formats: null
+colors:
+  bg: "#1F1F28"
+  fg: "#E2DDC2"
+  black: "#000000"
+  red: "#D15765"
+  green: "#8BB852"
+  yellow: "#FFBC65"
+  blue: "#4F76C6"
+  magenta: "#957FB8"
+  cyan: "#7CAFC4"
+  white: "#DCD7BA"
+  brightBlack: "#7F7D71"
+  brightRed: "#DE6674"
+  brightGreen: "#98BB6C"
+  brightYellow: "#FFCF84"
+  brightBlue: "#7E9CD8"
+  brightMagenta: "#AE95D5"
+  brightCyan: "#9AD6EE"
+  brightWhite: "#ECE7CA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 83.5
+    black: 0
+    red: 33
+    green: 54.5
+    yellow: 71.8
+    blue: 29
+    magenta: 37.1
+    cyan: 52.9
+    white: 79.7
+    brightBlack: 31.1
+    brightRed: 39.2
+    brightGreen: 57.4
+    brightYellow: 80
+    brightBlue: 46.7
+    brightMagenta: 49
+    brightCyan: 74.3
+    brightWhite: 89.7

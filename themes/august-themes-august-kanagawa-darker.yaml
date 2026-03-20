@@ -1,0 +1,53 @@
+name: "August Themes (August - Kanagawa (Darker))"
+source:
+  marketplace_id: "inci-august.august-themes"
+  version: "2.8.0"
+  installs: 146546
+  rating: 5
+  ratings: 8
+  author: "inci-august"
+  repo: "https://github.com/inci-august/august-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes"
+  formats: null
+colors:
+  bg: "#16161E"
+  fg: "#DCD7BA"
+  black: "#16161E"
+  red: "#E82424"
+  green: "#76946A"
+  yellow: "#FF9E3B"
+  blue: "#658594"
+  magenta: "#957FB8"
+  cyan: "#9CABCA"
+  white: "#DCD7BA"
+  brightBlack: "#2A2A37"
+  brightRed: "#FF5D62"
+  brightGreen: "#98BB6C"
+  brightYellow: "#E6C384"
+  brightBlue: "#7FB4CA"
+  brightMagenta: "#D27E99"
+  brightCyan: "#A3D4D5"
+  brightWhite: "#DCD7BA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 80.8
+    black: 0
+    red: 31.8
+    green: 39.5
+    yellow: 61.6
+    blue: 33.9
+    magenta: 38.2
+    cyan: 55.5
+    white: 80.8
+    brightBlack: 0
+    brightRed: 45.1
+    brightGreen: 58.5
+    brightYellow: 72.2
+    brightBlue: 56.6
+    brightMagenta: 45.4
+    brightCyan: 74.1
+    brightWhite: 80.8

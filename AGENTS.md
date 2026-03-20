@@ -46,7 +46,9 @@ sdk/src/             ← npm package (@basiclines/rampa-sdk)
 cli/src/             ← npm package (@basiclines/rampa)
   ├── index.ts             Main CLI entry (citty framework)
   ├── colorspace.ts        `rampa colorspace` subcommand
-  └── palette.ts           `rampa palette` subcommand
+  ├── palette.ts           `rampa palette` subcommand
+  ├── theme.ts             `rampa theme` subcommand — list/search/install/show/preview
+  └── theme-generators/    Per-app theme generators (ghostty, iterm2, alacritty, kitty, warp…)
 
 src/                 ← React web app (rampa.studio)
   ├── components/          shadcn/ui + @react-three/fiber for 3D viewer
@@ -107,11 +109,22 @@ All color space constructors validate that input colors use the same format (hex
 When adding a new color space type, update ALL export functions in `src/usecases/GenerateExports.ts`: `getSpaceColors`, `generateSpaceJsonExport`, `generateSpaceSdkExport`, `generateSpaceCliExport`, `generateSpaceCssExport`.
 
 ### CLI Argument Patterns
-CLI uses manual argument parsing (not a framework for `colorspace` subcommand). When adding flags:
-- Add parsing in `parseColorspaceArgs()`
-- Add config file support in `loadConfig()`
+CLI uses manual argument parsing (not a framework for `colorspace` and `theme` subcommands). When adding flags:
+- Add parsing in `parseColorspaceArgs()` or `parseThemeArgs()`
+- Add config file support in `loadConfig()` (colorspace)
 - Preserve new fields in the config merge block (lines ~339-348)
 - Guard `interpolation === false` for modes that need it
+
+### Theme Subcommand
+`rampa theme` installs/lists color themes from the VS Code marketplace. Key files:
+- `cli/src/theme.ts` — `parseThemeArgs()`, `listThemes()`, `showTheme()`, `installTheme()`
+- `cli/src/theme-generators/` — one file per app (ghostty, iterm2, alacritty, kitty, windows-terminal, warp, hyper, vscode, xcode, android-studio)
+- `themes/` — 7,800+ YAML files, each with `colors`, `meta` (mode/pair/contrast), `source`
+- `scripts/pair-themes.ts` — Pairs dark/light variants; run after scraping
+
+Theme pairing uses 4 passes: (1) same-publisher exact token match, (2) cross-publisher token match, (3) implicit counterpart (no token on one side), (4) full OKLCH color signature + name similarity for flavor-named families (Catppuccin etc.).
+
+List filters: `--paired`, `--sort`, `--min-installs`, `--min-contrast` (avg APCA), `--min-distinct` (full OKLCH signature dedup, same-publisher scoped).
 
 ### Testing
 - Runtime: `bun:test` with `describe`/`it`/`expect`

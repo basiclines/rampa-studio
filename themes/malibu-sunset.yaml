@@ -1,0 +1,53 @@
+name: "Malibu Sunset"
+source:
+  marketplace_id: "wicked-labs.malibu"
+  version: "0.12.5"
+  installs: 4079
+  rating: 5
+  ratings: 2
+  author: "Michael Andreuzza "
+  repo: "https://github.com/michael-andreuzza/malibutheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.malibu"
+  formats: null
+colors:
+  bg: "#1F1D32"
+  fg: "#F2E9E1"
+  black: "#393552"
+  red: "#EFC3A1"
+  green: "#DB7B75"
+  yellow: "#83B4B5"
+  blue: "#E79680"
+  magenta: "#8B95BB"
+  cyan: "#A7C8BD"
+  white: "#F2E9E1"
+  brightBlack: "#908CAA"
+  brightRed: "#EFC3A1"
+  brightGreen: "#DB7B75"
+  brightYellow: "#83B4B5"
+  brightBlue: "#E79680"
+  brightMagenta: "#8B95BB"
+  brightCyan: "#A7C8BD"
+  brightWhite: "#F2E9E1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 287
+  pair: null
+  contrast:
+    fg: 92.4
+    black: 0
+    red: 73.3
+    green: 43.9
+    yellow: 54.9
+    blue: 54.6
+    magenta: 43.7
+    cyan: 67
+    white: 92.4
+    brightBlack: 40.2
+    brightRed: 73.3
+    brightGreen: 43.9
+    brightYellow: 54.9
+    brightBlue: 54.6
+    brightMagenta: 43.7
+    brightCyan: 67
+    brightWhite: 92.4

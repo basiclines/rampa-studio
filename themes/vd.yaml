@@ -1,0 +1,53 @@
+name: "vd"
+source:
+  marketplace_id: "Virtuos.virtuos-dark"
+  version: "1.0.3"
+  installs: 27
+  rating: 5
+  ratings: 1
+  author: "Virtuos"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Virtuos.virtuos-dark"
+  formats: null
+colors:
+  bg: "#080808"
+  fg: "#F5F5F5"
+  black: "#868686"
+  red: "#FF5470"
+  green: "#0DBC79"
+  yellow: "#FFD300"
+  blue: "#2472C8"
+  magenta: "#C74DED"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF2020"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.2
+    black: 37.6
+    red: 44.7
+    green: 53.9
+    yellow: 82.5
+    blue: 28.3
+    magenta: 38.2
+    cyan: 48.5
+    white: 90.9
+    brightBlack: 23
+    brightRed: 38.1
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 40.9
+    brightMagenta: 46.3
+    brightCyan: 56.3
+    brightWhite: 107.8

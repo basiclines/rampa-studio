@@ -1,0 +1,53 @@
+name: "Ef Reverie"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#F3EDDF"
+  fg: "#4F204F"
+  black: "#4F204F"
+  red: "#BA2D2F"
+  green: "#007A0A"
+  yellow: "#87591F"
+  blue: "#375CC6"
+  magenta: "#9F4E74"
+  cyan: "#3060AF"
+  white: "#E5D6D4"
+  brightBlack: "#6F6877"
+  brightRed: "#B21F00"
+  brightGreen: "#5A7400"
+  brightYellow: "#A05900"
+  brightBlue: "#5059C0"
+  brightMagenta: "#A73080"
+  brightCyan: "#4F60A0"
+  brightWhite: "#F3EDDF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 88
+  pair: null
+  contrast:
+    fg: 87.9
+    black: 87.9
+    red: 68.1
+    green: 66.5
+    yellow: 69.5
+    blue: 69
+    magenta: 66.6
+    cyan: 69.8
+    white: 9.3
+    brightBlack: 66.2
+    brightRed: 71.1
+    brightGreen: 65.9
+    brightYellow: 65.7
+    brightBlue: 68.9
+    brightMagenta: 69.5
+    brightCyan: 69.3
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Tomorrow Dark)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#1D1F21"
+  fg: "#D6D6D6"
+  black: "#4D4D4C"
+  red: "#C82829"
+  green: "#718C00"
+  yellow: "#F5871F"
+  blue: "#4271AE"
+  magenta: "#8959A8"
+  cyan: "#3E999F"
+  white: "#E0E0E0"
+  brightBlack: "#969896"
+  brightRed: "#C82829"
+  brightGreen: "#718C00"
+  brightYellow: "#EAB700"
+  brightBlue: "#4271AE"
+  brightMagenta: "#8959A8"
+  brightCyan: "#3E999F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Base16 Themes (Base16 Tomorrow Light)"
+  contrast:
+    fg: 79.8
+    black: 11.1
+    red: 23.8
+    green: 33.9
+    yellow: 51.3
+    blue: 25.4
+    magenta: 24.4
+    cyan: 39
+    white: 85.9
+    brightBlack: 44.4
+    brightRed: 23.8
+    brightGreen: 33.9
+    brightYellow: 65.7
+    brightBlue: 25.4
+    brightMagenta: 24.4
+    brightCyan: 39
+    brightWhite: 105.9

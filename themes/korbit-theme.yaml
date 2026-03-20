@@ -1,0 +1,53 @@
+name: "Korbit Theme"
+source:
+  marketplace_id: "RATIU5DEV.korbit-theme"
+  version: "0.1.2"
+  installs: 982
+  rating: 5
+  ratings: 1
+  author: "RATIU5DEV"
+  repo: "https://github.com/RATIU5/korbit"
+  url: "https://marketplace.visualstudio.com/items?itemName=RATIU5DEV.korbit-theme"
+  formats: null
+colors:
+  bg: "#2A2725"
+  fg: "#A79C95"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E2D5CC"
+  brightBlack: "#655D56"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#F4E6DB"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 46.4
+    black: 0
+    red: 24.4
+    green: 50.6
+    yellow: 83.3
+    blue: 25.1
+    magenta: 27.4
+    cyan: 45.2
+    white: 79.1
+    brightBlack: 16.5
+    brightRed: 36.2
+    brightGreen: 61.2
+    brightYellow: 93.3
+    brightBlue: 37.6
+    brightMagenta: 43
+    brightCyan: 53
+    brightWhite: 89.8

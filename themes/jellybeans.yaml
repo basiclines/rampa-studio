@@ -1,0 +1,53 @@
+name: "Jellybeans"
+source:
+  marketplace_id: "sdwn.jellybeans-vscode-sdwn"
+  version: "0.0.2"
+  installs: 13
+  rating: 0
+  ratings: 0
+  author: "sdwn"
+  repo: "https://github.com/sdawn29/jellybeans-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sdwn.jellybeans-vscode-sdwn"
+  formats: null
+colors:
+  bg: "#151515"
+  fg: "#E8E8D3"
+  black: "#252525"
+  red: "#CF6A4C"
+  green: "#99AD6A"
+  yellow: "#FAD07A"
+  blue: "#8197BF"
+  magenta: "#C6B6EE"
+  cyan: "#8FBFDC"
+  white: "#E8E8D3"
+  brightBlack: "#7A7268"
+  brightRed: "#E5786D"
+  brightGreen: "#B8C993"
+  brightYellow: "#FFB964"
+  brightBlue: "#A5B5D0"
+  brightMagenta: "#D9CFF5"
+  brightCyan: "#AAD2E8"
+  brightWhite: "#F5F5EB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 37.6
+    green: 52.8
+    yellow: 80.6
+    blue: 44.9
+    magenta: 66.8
+    cyan: 63.6
+    white: 91.2
+    brightBlack: 28
+    brightRed: 46.1
+    brightGreen: 69.1
+    brightYellow: 71.9
+    brightBlue: 60.9
+    brightMagenta: 79.8
+    brightCyan: 75
+    brightWhite: 100

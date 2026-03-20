@@ -1,0 +1,53 @@
+name: "Adech Theme Superior"
+source:
+  marketplace_id: "Adechlien.adech-theme"
+  version: "0.1.2"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "Adechlien"
+  repo: "https://github.com/adechlien/adech-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=Adechlien.adech-theme"
+  formats: null
+colors:
+  bg: "#142039"
+  fg: "#9AC0FF"
+  black: "#000000"
+  red: "#D19090"
+  green: "#A6D2B9"
+  yellow: "#D1CE90"
+  blue: "#7088C8"
+  magenta: "#D19090"
+  cyan: "#8CAEED"
+  white: "#DFE5F9"
+  brightBlack: "#666666"
+  brightRed: "#D19090"
+  brightGreen: "#CCE8CC"
+  brightYellow: "#E8E6B9"
+  brightBlue: "#7E9BDA"
+  brightMagenta: "#ECB5B5"
+  brightCyan: "#9AC0FF"
+  brightWhite: "#ECF0FD"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 65.6
+    black: 0
+    red: 49.1
+    green: 71
+    yellow: 72.8
+    blue: 37.2
+    magenta: 49.1
+    cyan: 55.9
+    white: 88.9
+    brightBlack: 20.8
+    brightRed: 49.1
+    brightGreen: 85.9
+    brightYellow: 87.9
+    brightBlue: 46.2
+    brightMagenta: 67.8
+    brightCyan: 65.6
+    brightWhite: 95.9

@@ -1,0 +1,53 @@
+name: "shades-of-life (Shades of Life)"
+source:
+  marketplace_id: "rafael-bertelli-borges.shades-of-life"
+  version: "0.0.2"
+  installs: 93
+  rating: 0
+  ratings: 0
+  author: "Rafael Bertelli Borges"
+  repo: "https://github.com/rafaelbertelli/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=rafael-bertelli-borges.shades-of-life"
+  formats: null
+colors:
+  bg: "#1D0A2F"
+  fg: "#E0E0E0"
+  black: "#000000"
+  red: "#FF3A00"
+  green: "#00FF50"
+  yellow: "#FFCC00"
+  blue: "#00CCFF"
+  magenta: "#880088"
+  cyan: "#00BCD4"
+  white: "#FFFFFF"
+  brightBlack: "#757575"
+  brightRed: "#FF3A00"
+  brightGreen: "#00FF50"
+  brightYellow: "#FFCC00"
+  brightBlue: "#00CCFF"
+  brightMagenta: "#880088"
+  brightCyan: "#00BCD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 304
+  pair: "shades-of-life (Shades of Life (Light))"
+  contrast:
+    fg: 87
+    black: 0
+    red: 39.2
+    green: 86
+    yellow: 78.7
+    blue: 66.3
+    magenta: 13.5
+    cyan: 56.6
+    white: 107
+    brightBlack: 28.8
+    brightRed: 39.2
+    brightGreen: 86
+    brightYellow: 78.7
+    brightBlue: 66.3
+    brightMagenta: 13.5
+    brightCyan: 56.6
+    brightWhite: 107

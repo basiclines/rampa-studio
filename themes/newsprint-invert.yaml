@@ -1,0 +1,54 @@
+name: "newsprint-invert"
+source:
+  marketplace_id: "lumiknit.newsprint"
+  version: "0.0.12"
+  installs: 357
+  rating: 0
+  ratings: 0
+  author: "lumiknit"
+  repo: "https://github.com/lumiknit/vscode-newsprint-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lumiknit.newsprint"
+  formats:
+    sublime: "https://raw.githubusercontent.com/lumiknit/vscode-newsprint-theme/main/Newsprint.tmTheme"
+colors:
+  bg: "#1F1F1F"
+  fg: "#BBBBBB"
+  black: "#FFFFFF"
+  red: "#E9483D"
+  green: "#57BD66"
+  yellow: "#FFBD5E"
+  blue: "#2981CA"
+  magenta: "#A464D1"
+  cyan: "#51D2FF"
+  white: "#DDDDDD"
+  brightBlack: "#505050"
+  brightRed: "#FF675D"
+  brightGreen: "#99E391"
+  brightYellow: "#FFDE82"
+  brightBlue: "#4190F7"
+  brightMagenta: "#D9B9F0"
+  brightCyan: "#A3FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "newsprint"
+  contrast:
+    fg: 63.8
+    black: 105.9
+    red: 35
+    green: 53.7
+    yellow: 72.2
+    blue: 31.7
+    magenta: 33.2
+    cyan: 69.2
+    white: 84
+    brightBlack: 12.2
+    brightRed: 46
+    brightGreen: 76.8
+    brightYellow: 86.5
+    brightBlue: 40.9
+    brightMagenta: 69.5
+    brightCyan: 95.7
+    brightWhite: 105.9

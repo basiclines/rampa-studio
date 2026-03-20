@@ -1,0 +1,53 @@
+name: "Nevermore"
+source:
+  marketplace_id: "cassiocardoso.nevermore"
+  version: "0.1.5"
+  installs: 469
+  rating: 0
+  ratings: 0
+  author: "Cassio Cardoso"
+  repo: "https://github.com/cassiocardoso/nevermore-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cassiocardoso.nevermore"
+  formats: null
+colors:
+  bg: "#131214"
+  fg: "#F4F3F3"
+  black: "#131214"
+  red: "#C44F69"
+  green: "#00C9A8"
+  yellow: "#DBDB60"
+  blue: "#388DAB"
+  magenta: "#B5A5C7"
+  cyan: "#A3CFC6"
+  white: "#F4F3F3"
+  brightBlack: "#575656"
+  brightRed: "#C44F69"
+  brightGreen: "#00C9A8"
+  brightYellow: "#F9F871"
+  brightBlue: "#00C0FF"
+  brightMagenta: "#B5A5C7"
+  brightCyan: "#8BECD9"
+  brightWhite: "#F4F3F3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.5
+    black: 0
+    red: 30.5
+    green: 60.9
+    yellow: 80.6
+    blue: 36.1
+    magenta: 56.3
+    cyan: 71.6
+    white: 99.5
+    brightBlack: 16
+    brightRed: 30.5
+    brightGreen: 60.9
+    brightYellow: 98.6
+    brightBlue: 61.2
+    brightMagenta: 56.3
+    brightCyan: 84
+    brightWhite: 99.5

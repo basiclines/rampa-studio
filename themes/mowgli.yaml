@@ -1,0 +1,53 @@
+name: "Mowgli"
+source:
+  marketplace_id: "wapenshaw.mowgli"
+  version: "1.1.4"
+  installs: 821
+  rating: 0
+  ratings: 0
+  author: "Siddharth Abbineni"
+  repo: "https://github.com/wapenshaw/mowgli/"
+  url: "https://marketplace.visualstudio.com/items?itemName=wapenshaw.mowgli"
+  formats: null
+colors:
+  bg: "#0F1519"
+  fg: "#DCDCDC"
+  black: "#2E2A31"
+  red: "#D8137F"
+  green: "#17AD98"
+  yellow: "#DC8A0E"
+  blue: "#796AF5"
+  magenta: "#BB60EA"
+  cyan: "#149BDA"
+  white: "#BCBABE"
+  brightBlack: "#838085"
+  brightRed: "#D8137F"
+  brightGreen: "#17AD98"
+  brightYellow: "#DC8A0E"
+  brightBlue: "#796AF5"
+  brightMagenta: "#BB60EA"
+  brightCyan: "#149BDA"
+  brightWhite: "#F5F4F7"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 237
+  pair: null
+  contrast:
+    fg: 84.6
+    black: 0
+    red: 29.4
+    green: 47.5
+    yellow: 48.6
+    blue: 33.6
+    magenta: 38.7
+    cyan: 43.3
+    white: 64.8
+    brightBlack: 34.5
+    brightRed: 29.4
+    brightGreen: 47.5
+    brightYellow: 48.6
+    brightBlue: 33.6
+    brightMagenta: 38.7
+    brightCyan: 43.3
+    brightWhite: 100.2

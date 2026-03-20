@@ -1,0 +1,53 @@
+name: "CoolShine"
+source:
+  marketplace_id: "Daiki.coolshine"
+  version: "0.0.1"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "Daiki"
+  repo: "https://github.com/Daiki48/CoolShine"
+  url: "https://marketplace.visualstudio.com/items?itemName=Daiki.coolshine"
+  formats: null
+colors:
+  bg: "#CADCE0"
+  fg: "#333333"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 213
+  pair: null
+  contrast:
+    fg: 76.2
+    black: 83.6
+    red: 51.6
+    green: 26.8
+    yellow: 35.5
+    blue: 63.6
+    magenta: 52.1
+    cyan: 38.2
+    white: 63.5
+    brightBlack: 56.3
+    brightRed: 51.6
+    brightGreen: 18.5
+    brightYellow: 18.5
+    brightBlue: 63.6
+    brightMagenta: 52.1
+    brightCyan: 38.2
+    brightWhite: 26

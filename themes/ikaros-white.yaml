@@ -1,0 +1,53 @@
+name: "IkarOS White"
+source:
+  marketplace_id: "HantigoZore.amber-studio"
+  version: "1.2.0"
+  installs: 77
+  rating: 5
+  ratings: 1
+  author: "HantigoZore"
+  repo: "https://github.com/HantigoZore/AmberStudio"
+  url: "https://marketplace.visualstudio.com/items?itemName=HantigoZore.amber-studio"
+  formats: null
+colors:
+  bg: "#F8F5F3"
+  fg: "#1A1614"
+  black: "#E8E2DE"
+  red: "#C73300"
+  green: "#3A7A3A"
+  yellow: "#8A6800"
+  blue: "#1A4A7A"
+  magenta: "#7A3A58"
+  cyan: "#1A6A6A"
+  white: "#4A4440"
+  brightBlack: "#B0A8A3"
+  brightRed: "#E04500"
+  brightGreen: "#4E9E4E"
+  brightYellow: "#B08800"
+  brightBlue: "#2A6A9A"
+  brightMagenta: "#A05078"
+  brightCyan: "#2A8A8A"
+  brightWhite: "#1A1614"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "IkarOS"
+  contrast:
+    fg: 99
+    black: 8.4
+    red: 69.6
+    green: 70
+    yellow: 69.7
+    blue: 85
+    magenta: 82.2
+    cyan: 75.5
+    white: 86.5
+    brightBlack: 40.5
+    brightRed: 61.8
+    brightGreen: 54.7
+    brightYellow: 54.4
+    brightBlue: 73
+    brightMagenta: 70.7
+    brightCyan: 62.3
+    brightWhite: 99

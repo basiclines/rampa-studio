@@ -1,0 +1,51 @@
+name: "AroAce High Contrast"
+source:
+  marketplace_id: "philbschmidt.aroace"
+  version: "1.3.0"
+  installs: 46
+  author: "Philipp Schmidt"
+  repo: "https://codeberg.org/philbschmidt/Aro-Ace"
+  url: "https://marketplace.visualstudio.com/items?itemName=philbschmidt.aroace"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#3DA542"
+  yellow: "#ECCD00"
+  blue: "#62AEDC"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#3DA542"
+  brightYellow: "#ECCD00"
+  brightBlue: "#62AEDC"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 43.5
+    yellow: 77
+    blue: 54.2
+    magenta: 54.8
+    cyan: 79.3
+    white: 107.9
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 43.5
+    brightYellow: 77
+    brightBlue: 54.2
+    brightMagenta: 54.8
+    brightCyan: 79.3
+    brightWhite: 107.9

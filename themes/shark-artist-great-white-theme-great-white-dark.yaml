@@ -1,0 +1,53 @@
+name: "Shark Artist: Great White Theme (Great White (Dark))"
+source:
+  marketplace_id: "shark-labs.shark-labs-great-white-theme"
+  version: "0.6.3"
+  installs: 23
+  rating: 0
+  ratings: 0
+  author: "theSharkArtist"
+  repo: "https://github.com/johnsirmon/shark-artist-great-white-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shark-labs.shark-labs-great-white-theme"
+  formats: null
+colors:
+  bg: "#0E1A22"
+  fg: "#D8E8EF"
+  black: "#1B2229"
+  red: "#C44F5F"
+  green: "#4DAAAA"
+  yellow: "#D9A441"
+  blue: "#5D8FA8"
+  magenta: "#C96A7A"
+  cyan: "#9FC7D8"
+  white: "#D8E8EF"
+  brightBlack: "#2A3840"
+  brightRed: "#D56A7A"
+  brightGreen: "#5DBFBF"
+  brightYellow: "#E4B754"
+  brightBlue: "#6EA6C0"
+  brightMagenta: "#D07D8C"
+  brightCyan: "#A4DFF4"
+  brightWhite: "#EDF4F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 239
+  pair: "Shark Artist: Great White Theme (Great White (Light))"
+  contrast:
+    fg: 90
+    black: 0
+    red: 29.7
+    green: 47.8
+    yellow: 56.8
+    blue: 37.7
+    magenta: 37.2
+    cyan: 67.9
+    white: 90
+    brightBlack: 0
+    brightRed: 39.4
+    brightGreen: 58.5
+    brightYellow: 65.9
+    brightBlue: 48.9
+    brightMagenta: 44.1
+    brightCyan: 80.5
+    brightWhite: 98.7

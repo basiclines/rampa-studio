@@ -1,0 +1,56 @@
+name: "Sarcastic White"
+source:
+  marketplace_id: "TristanWhite.sarcastic-white"
+  version: "1.0.7"
+  installs: 1311
+  rating: 5
+  ratings: 3
+  author: "Tristan White"
+  repo: "https://github.com/triss90/sarcastic_white"
+  url: "https://marketplace.visualstudio.com/items?itemName=TristanWhite.sarcastic-white"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/triss90/sarcastic_white/master/public_html/ports/iterm2/sarcastic-white.itermcolors"
+    warp: "https://raw.githubusercontent.com/triss90/sarcastic_white/master/public_html/ports/warp/sarcastic-white.yaml"
+    sublime: "https://raw.githubusercontent.com/triss90/sarcastic_white/master/sarcastic-white-sublimetext4/Sarcastic White.sublime-color-scheme"
+colors:
+  bg: "#171423"
+  fg: "#D8DDE7"
+  black: "#3E4658"
+  red: "#D9534F"
+  green: "#4EBA88"
+  yellow: "#FFAD60"
+  blue: "#5E82AC"
+  magenta: "#987CD3"
+  cyan: "#94B7E1"
+  white: "#F1F6FE"
+  brightBlack: "#4E586F"
+  brightRed: "#E47875"
+  brightGreen: "#96CEB4"
+  brightYellow: "#FFEEAD"
+  brightBlue: "#759AC5"
+  brightMagenta: "#A696C8"
+  brightCyan: "#94D6E1"
+  brightWhite: "#FEFEFE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 293
+  pair: null
+  contrast:
+    fg: 84.9
+    black: 9.6
+    red: 34.6
+    green: 53.8
+    yellow: 67.3
+    blue: 33.6
+    magenta: 39.3
+    cyan: 60.9
+    white: 100.7
+    brightBlack: 16.4
+    brightRed: 46
+    brightGreen: 68.9
+    brightYellow: 95.8
+    brightBlue: 45.3
+    brightMagenta: 48.8
+    brightCyan: 74.3
+    brightWhite: 106.3

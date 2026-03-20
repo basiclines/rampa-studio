@@ -1,0 +1,53 @@
+name: "Nkalai Dark"
+source:
+  marketplace_id: "nkalait.nkalai-theme"
+  version: "0.0.5"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "Tsepo Nkalai"
+  repo: "https://github.com/nkalait/nkalai-vscode-colour-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=nkalait.nkalai-theme"
+  formats: null
+colors:
+  bg: "#1E2A30"
+  fg: "#E6E2D9"
+  black: "#2F353B"
+  red: "#E8A06D"
+  green: "#77B58D"
+  yellow: "#DDB06F"
+  blue: "#7A90AE"
+  magenta: "#A48EB5"
+  cyan: "#85B9C8"
+  white: "#E3DDD2"
+  brightBlack: "#555B63"
+  brightRed: "#F3B081"
+  brightGreen: "#A9D9C2"
+  brightYellow: "#E8C89C"
+  brightBlue: "#90A4C4"
+  brightMagenta: "#C4B0CF"
+  brightCyan: "#B3DCE9"
+  brightWhite: "#F3EEE2"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 230
+  pair: "Nkalai Light"
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 56.2
+    green: 51.5
+    yellow: 60.3
+    blue: 38.2
+    magenta: 42.2
+    cyan: 56.5
+    white: 82.8
+    brightBlack: 14.7
+    brightRed: 64.3
+    brightGreen: 73.6
+    brightYellow: 72.6
+    brightBlue: 48.8
+    brightMagenta: 59.9
+    brightCyan: 77.7
+    brightWhite: 93.4

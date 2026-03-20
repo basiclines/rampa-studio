@@ -1,0 +1,53 @@
+name: "Rainglow (shrek-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#222222"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#B2DE62"
+  yellow: "#857A5E"
+  blue: "#AFB2A7"
+  magenta: "#BFB59B"
+  cyan: "#B2DE62"
+  white: "#2F2F2F"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#DBF0B6"
+  brightYellow: "#B4AB95"
+  brightBlue: "#E0E2DD"
+  brightMagenta: "#E7E3D9"
+  brightCyan: "#DBF0B6"
+  brightWhite: "#555555"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (shrek-contrast)"
+  contrast:
+    fg: 102.9
+    black: 0
+    red: 80.3
+    green: 25.3
+    yellow: 69.4
+    blue: 42.3
+    magenta: 39.7
+    cyan: 25.3
+    white: 99.8
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 11.1
+    brightYellow: 45
+    brightBlue: 15.1
+    brightMagenta: 14
+    brightCyan: 11.1
+    brightWhite: 85.9

@@ -1,0 +1,53 @@
+name: "Sonora Deep Signal (faded)"
+source:
+  marketplace_id: "martinlatrille.sonora"
+  version: "0.0.8"
+  installs: 32
+  rating: 0
+  ratings: 0
+  author: "martinlatrille"
+  repo: "https://github.com/martinlatrille/Sonora"
+  url: "https://marketplace.visualstudio.com/items?itemName=martinlatrille.sonora"
+  formats: null
+colors:
+  bg: "#21252B"
+  fg: "#D7DAE6"
+  black: "#45475A"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#F5C2E7"
+  cyan: "#94E2D5"
+  white: "#A6ADC8"
+  brightBlack: "#585B70"
+  brightRed: "#F37799"
+  brightGreen: "#89D88B"
+  brightYellow: "#EBD391"
+  brightBlue: "#74A8FC"
+  brightMagenta: "#F2AEDE"
+  brightCyan: "#6BD7CA"
+  brightWhite: "#BAC2DE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 81.5
+    black: 8.5
+    red: 53.9
+    green: 77.5
+    yellow: 87.6
+    blue: 58.3
+    magenta: 75.9
+    cyan: 77.4
+    white: 55.4
+    brightBlack: 16.1
+    brightRed: 47.9
+    brightGreen: 69.3
+    brightYellow: 78.1
+    brightBlue: 52
+    brightMagenta: 67.5
+    brightCyan: 69.1
+    brightWhite: 67.3

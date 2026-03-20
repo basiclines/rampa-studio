@@ -1,0 +1,53 @@
+name: "Eclipse Dark (Eclipse Optics)"
+source:
+  marketplace_id: "NoahLezama.eclipse-dark"
+  version: "0.0.8"
+  installs: 140
+  rating: 5
+  ratings: 1
+  author: "Noah Lezama"
+  repo: "https://github.com/A5TUT0/Eclipse"
+  url: "https://marketplace.visualstudio.com/items?itemName=NoahLezama.eclipse-dark"
+  formats: null
+colors:
+  bg: "#262626"
+  fg: "#CCCCCC"
+  black: "#262626"
+  red: "#D98C8C"
+  green: "#8CD9B3"
+  yellow: "#B3864D"
+  blue: "#668099"
+  magenta: "#B38CD9"
+  cyan: "#8CB3D9"
+  white: "#CCCCCC"
+  brightBlack: "#737373"
+  brightRed: "#D98C8C"
+  brightGreen: "#8CD9B3"
+  brightYellow: "#B3864D"
+  brightBlue: "#668099"
+  brightMagenta: "#B38CD9"
+  brightCyan: "#8CB3D9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.6
+    black: 0
+    red: 48.2
+    green: 71
+    yellow: 38.8
+    blue: 30.4
+    magenta: 45.9
+    cyan: 55.9
+    white: 72.6
+    brightBlack: 25.7
+    brightRed: 48.2
+    brightGreen: 71
+    brightYellow: 38.8
+    brightBlue: 30.4
+    brightMagenta: 45.9
+    brightCyan: 55.9
+    brightWhite: 104.8

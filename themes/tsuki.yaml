@@ -1,0 +1,53 @@
+name: "Tsuki"
+source:
+  marketplace_id: "re1san.tsuki"
+  version: "1.0.0"
+  installs: 2174
+  rating: 5
+  ratings: 1
+  author: "Aniketto"
+  repo: "https://github.com/re1san/Tsuki"
+  url: "https://marketplace.visualstudio.com/items?itemName=re1san.tsuki"
+  formats: null
+colors:
+  bg: "#151515"
+  fg: "#DFDDDD"
+  black: "#1B1B1B"
+  red: "#C14D53"
+  green: "#56966E"
+  yellow: "#DC8C61"
+  blue: "#6E95BD"
+  magenta: "#A56DB1"
+  cyan: "#6A9F98"
+  white: "#B7B7B7"
+  brightBlack: "#272727"
+  brightRed: "#DA4B52"
+  brightGreen: "#57A274"
+  brightYellow: "#E1956C"
+  brightBlue: "#6FADEA"
+  brightMagenta: "#D466E9"
+  brightCyan: "#63B4B5"
+  brightWhite: "#C7C7C7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 28.8
+    green: 38.3
+    yellow: 49.9
+    blue: 42.6
+    magenta: 34.8
+    cyan: 44.5
+    white: 62.6
+    brightBlack: 0
+    brightRed: 33.6
+    brightGreen: 43.4
+    brightYellow: 53.9
+    brightBlue: 54.5
+    brightMagenta: 44.1
+    brightCyan: 53.9
+    brightWhite: 71.9

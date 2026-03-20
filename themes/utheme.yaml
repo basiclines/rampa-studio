@@ -1,0 +1,53 @@
+name: "uTheme"
+source:
+  marketplace_id: "uEriic.utheme"
+  version: "0.0.2"
+  installs: 220
+  rating: 5
+  ratings: 1
+  author: "uEriic"
+  repo: "https://github.com/uEriic/uTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=uEriic.utheme"
+  formats: null
+colors:
+  bg: "#141015"
+  fg: "#B6CBE0"
+  black: "#000000"
+  red: "#C10000"
+  green: "#00FF7F"
+  yellow: "#FFD700"
+  blue: "#4169E1"
+  magenta: "#FF00FF"
+  cyan: "#11A8CD"
+  white: "#F8F8FF"
+  brightBlack: "#696969"
+  brightRed: "#FF4949"
+  brightGreen: "#4AFDA3"
+  brightYellow: "#FFE558"
+  brightBlue: "#1E90FF"
+  brightMagenta: "#FF40FF"
+  brightCyan: "#29B8DB"
+  brightWhite: "#DDDDE2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 319
+  pair: null
+  contrast:
+    fg: 73
+    black: 0
+    red: 22.2
+    green: 87
+    yellow: 83.7
+    blue: 28
+    magenta: 45.7
+    cyan: 48
+    white: 103.1
+    brightBlack: 23.8
+    brightRed: 41.8
+    brightGreen: 87.7
+    brightYellow: 90.4
+    brightBlue: 42.2
+    brightMagenta: 48.6
+    brightCyan: 55.9
+    brightWhite: 85.7

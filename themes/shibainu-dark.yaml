@@ -1,0 +1,53 @@
+name: "ShibaInu Dark"
+source:
+  marketplace_id: "hky.theme-ShibaInu"
+  version: "0.1.0"
+  installs: 311
+  rating: 0
+  ratings: 0
+  author: "hky"
+  repo: "https://github.com/hky301/vscode-theme-koki"
+  url: "https://marketplace.visualstudio.com/items?itemName=hky.theme-ShibaInu"
+  formats: null
+colors:
+  bg: "#0E0F11"
+  fg: "#DBD7CA"
+  black: "#393A34"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#DB889A"
+  cyan: "#5EAAB5"
+  white: "#FFFFFF"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#DB889A"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.9
+    black: 0
+    red: 41.4
+    green: 37.3
+    yellow: 76.2
+    blue: 42
+    magenta: 50.5
+    cyan: 49.9
+    white: 107.5
+    brightBlack: 30.2
+    brightRed: 41.4
+    brightGreen: 37.3
+    brightYellow: 76.2
+    brightBlue: 42
+    brightMagenta: 50.5
+    brightCyan: 49.9
+    brightWhite: 107.5

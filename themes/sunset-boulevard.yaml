@@ -1,0 +1,53 @@
+name: "Sunset Boulevard"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 403
+  rating: 5
+  ratings: 1
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+  formats: null
+colors:
+  bg: "#FDF1C2"
+  fg: "#3A2F1A"
+  black: "#4A4A4A"
+  red: "#B73838"
+  green: "#E19E4B"
+  yellow: "#FFE8B7"
+  blue: "#E19E4B"
+  magenta: "#B881A7"
+  cyan: "#F7E5C7"
+  white: "#FDF1C2"
+  brightBlack: "#A19D80"
+  brightRed: "#B73838"
+  brightGreen: "#E19E4B"
+  brightYellow: "#FFE8B7"
+  brightBlue: "#E19E4B"
+  brightMagenta: "#B881A7"
+  brightCyan: "#F7E5C7"
+  brightWhite: "#FFF7E6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.9
+    black: 81.8
+    red: 69.3
+    green: 36.3
+    yellow: 0
+    blue: 36.3
+    magenta: 49.6
+    cyan: 0
+    white: 0
+    brightBlack: 44.6
+    brightRed: 69.3
+    brightGreen: 36.3
+    brightYellow: 0
+    brightBlue: 36.3
+    brightMagenta: 49.6
+    brightCyan: 0
+    brightWhite: 0

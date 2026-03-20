@@ -1,0 +1,53 @@
+name: "Space Purple (Space Purple Light)"
+source:
+  marketplace_id: "zzAIMoo.space-purple"
+  version: "0.11.0"
+  installs: 11302
+  rating: 5
+  ratings: 1
+  author: "zzAIMoo"
+  repo: "https://github.com/zzAIMoo/space-purple-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zzAIMoo.space-purple"
+  formats: null
+colors:
+  bg: "#EDC4FF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 315
+  pair: "Space Purple (Space Purple Dark)"
+  contrast:
+    fg: 80.1
+    black: 80.1
+    red: 48.1
+    green: 23.3
+    yellow: 32
+    blue: 60.1
+    magenta: 48.6
+    cyan: 34.7
+    white: 60
+    brightBlack: 52.8
+    brightRed: 48.1
+    brightGreen: 15
+    brightYellow: 15
+    brightBlue: 60.1
+    brightMagenta: 48.6
+    brightCyan: 34.7
+    brightWhite: 22.5

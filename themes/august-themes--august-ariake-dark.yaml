@@ -1,0 +1,53 @@
+name: "August Themes (August - Ariake Dark)"
+source:
+  marketplace_id: "inci-august.august-themes"
+  version: "2.8.0"
+  installs: 146546
+  rating: 5
+  ratings: 8
+  author: "inci-august"
+  repo: "https://github.com/inci-august/august-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes"
+  formats: null
+colors:
+  bg: "#191C22"
+  fg: "#7B88A1"
+  black: "#272C36"
+  red: "#DDA2F6"
+  green: "#9AEFEA"
+  yellow: "#EBCB8B"
+  blue: "#69B1E0"
+  magenta: "#7E7EDD"
+  cyan: "#9AEFEA"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#DDA2F6"
+  brightGreen: "#93C7E9"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#93C7E9"
+  brightMagenta: "#A571F4"
+  brightCyan: "#9AEFEA"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 36.8
+    black: 0
+    red: 62.5
+    green: 86.4
+    yellow: 75.8
+    blue: 54.5
+    magenta: 37.2
+    cyan: 86.4
+    white: 91.8
+    brightBlack: 14.8
+    brightRed: 62.5
+    brightGreen: 67.3
+    brightYellow: 75.8
+    brightBlue: 67.3
+    brightMagenta: 39.5
+    brightCyan: 86.4
+    brightWhite: 95.7

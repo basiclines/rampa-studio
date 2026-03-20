@@ -1,0 +1,53 @@
+name: "volcanofr"
+source:
+  marketplace_id: "volcanofr.volcanofr-theme"
+  version: "1.0.2"
+  installs: 55
+  rating: 4
+  ratings: 1
+  author: "volcanofr"
+  repo: "https://github.com/volcanofr/volcanofr-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=volcanofr.volcanofr-theme"
+  formats: null
+colors:
+  bg: "#25252D"
+  fg: "#DED7D1"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00AA00"
+  yellow: "#AA5500"
+  blue: "#0000AA"
+  magenta: "#AA00AA"
+  cyan: "#00AAAA"
+  white: "#AAAAAA"
+  brightBlack: "#555555"
+  brightRed: "#FF5555"
+  brightGreen: "#55FF55"
+  brightYellow: "#FFFF55"
+  brightBlue: "#5555FF"
+  brightMagenta: "#FF55FF"
+  brightCyan: "#55FFFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 34.5
+    green: 41.5
+    yellow: 23.3
+    blue: 0
+    magenta: 19.5
+    cyan: 44.6
+    white: 53.2
+    brightBlack: 13.1
+    brightRed: 41.4
+    brightGreen: 85.1
+    brightYellow: 100.1
+    brightBlue: 24.3
+    brightMagenta: 48.8
+    brightCyan: 90.3
+    brightWhite: 88

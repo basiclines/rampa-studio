@@ -1,0 +1,53 @@
+name: "MagicUser Power"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1705
+  rating: 5
+  ratings: 2
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+  formats: null
+colors:
+  bg: "#1B1235"
+  fg: "#D8D8D8"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#F100F1"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 292
+  pair: "MagicUser Sun"
+  contrast:
+    fg: 81.7
+    black: 0
+    red: 41
+    green: 85.2
+    yellow: 101.5
+    blue: 15
+    magenta: 40.8
+    cyan: 90.9
+    white: 106.6
+    brightBlack: 0
+    brightRed: 37.7
+    brightGreen: 78.9
+    brightYellow: 101.7
+    brightBlue: 47.5
+    brightMagenta: 44.8
+    brightCyan: 83.8
+    brightWhite: 81.7

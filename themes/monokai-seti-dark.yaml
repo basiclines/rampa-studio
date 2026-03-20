@@ -1,0 +1,53 @@
+name: "monokai-seti-dark"
+source:
+  marketplace_id: "adityavm.vscode-monokai-seti"
+  version: "0.0.8"
+  installs: 19548
+  rating: 5
+  ratings: 1
+  author: "Aditya Mukherjee"
+  repo: "https://github.com/adityavm/vscode-monokai-seti"
+  url: "https://marketplace.visualstudio.com/items?itemName=adityavm.vscode-monokai-seti"
+  formats: null
+colors:
+  bg: "#15191B"
+  fg: "#D1D4D3"
+  black: "#1D242C"
+  red: "#FD971F"
+  green: "#C2D94C"
+  yellow: "#FD971F"
+  blue: "#66D9EF"
+  magenta: "#CA30C7"
+  cyan: "#95E6CB"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#CBE645"
+  brightYellow: "#FFEE99"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#A6FDE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Monokai Seti"
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 58.6
+    green: 75.8
+    yellow: 58.6
+    blue: 73.3
+    magenta: 31.3
+    cyan: 80.7
+    white: 71.6
+    brightBlack: 22.7
+    brightRed: 46.4
+    brightGreen: 82.8
+    brightYellow: 95
+    brightBlue: 34.5
+    brightMagenta: 57.3
+    brightCyan: 94.4
+    brightWhite: 106.7

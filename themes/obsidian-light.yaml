@@ -1,0 +1,53 @@
+name: "Obsidian Light"
+source:
+  marketplace_id: "narcilee7.obsidian-light"
+  version: "1.2.0"
+  installs: 87
+  rating: 0
+  ratings: 0
+  author: "narcilee7"
+  repo: "https://github.com/narcilee7/obsidian-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=narcilee7.obsidian-light"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#2E2E2E"
+  black: "#2E2E2E"
+  red: "#C53030"
+  green: "#0A6A3D"
+  yellow: "#B7791F"
+  blue: "#007ACC"
+  magenta: "#9C27B0"
+  cyan: "#00ACC1"
+  white: "#9CA3AF"
+  brightBlack: "#6C757D"
+  brightRed: "#D73A49"
+  brightGreen: "#28A745"
+  brightYellow: "#E36209"
+  brightBlue: "#4C9EFF"
+  brightMagenta: "#C2185B"
+  brightCyan: "#00BCD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Obsidian Dark"
+  contrast:
+    fg: 100.1
+    black: 100.1
+    red: 75.9
+    green: 82.5
+    yellow: 63.7
+    blue: 70.6
+    magenta: 80.1
+    cyan: 52.3
+    white: 49.8
+    brightBlack: 72.6
+    brightRed: 70.4
+    brightGreen: 57.9
+    brightYellow: 61.6
+    brightBlue: 52.8
+    brightMagenta: 77.4
+    brightCyan: 44.6
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Edge (Edge Light)"
+source:
+  marketplace_id: "sainnhe.edge"
+  version: "0.1.8"
+  installs: 20566
+  rating: 5
+  ratings: 2
+  author: "sainnhe"
+  repo: "https://github.com/sainnhe/edge-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.edge"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#4B505B"
+  black: "#E8EBF0"
+  red: "#D05858"
+  green: "#608E32"
+  yellow: "#BE7E05"
+  blue: "#5079BE"
+  magenta: "#B05CCC"
+  cyan: "#3A8B84"
+  white: "#4B505B"
+  brightBlack: "#E8EBF0"
+  brightRed: "#D05858"
+  brightGreen: "#608E32"
+  brightYellow: "#BE7E05"
+  brightBlue: "#5079BE"
+  brightMagenta: "#B05CCC"
+  brightCyan: "#3A8B84"
+  brightWhite: "#4B505B"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Edge (Edge Dark)"
+  contrast:
+    fg: 85
+    black: 0
+    red: 63.8
+    green: 63.1
+    yellow: 58.2
+    blue: 67
+    magenta: 63.9
+    cyan: 64.4
+    white: 85
+    brightBlack: 0
+    brightRed: 63.8
+    brightGreen: 63.1
+    brightYellow: 58.2
+    brightBlue: 67
+    brightMagenta: 63.9
+    brightCyan: 64.4
+    brightWhite: 85

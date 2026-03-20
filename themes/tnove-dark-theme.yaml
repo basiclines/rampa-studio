@@ -1,0 +1,53 @@
+name: "Tnove Dark Theme"
+source:
+  marketplace_id: "nafiulkabirbd.tnove-dark-theme"
+  version: "1.0.0"
+  installs: 251
+  rating: 5
+  ratings: 1
+  author: "Nafiul Kabir"
+  repo: "https://github.com/nafiulkabirbd/tnove-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nafiulkabirbd.tnove-dark-theme"
+  formats: null
+colors:
+  bg: "#161828"
+  fg: "#B4B4B4"
+  black: "#282341"
+  red: "#AA3C4B"
+  green: "#55735F"
+  yellow: "#AF8C55"
+  blue: "#2472C8"
+  magenta: "#7D5AAA"
+  cyan: "#326987"
+  white: "#DCDCDC"
+  brightBlack: "#3C375F"
+  brightRed: "#DC5A69"
+  brightGreen: "#698778"
+  brightYellow: "#D2AA69"
+  brightBlue: "#645AB4"
+  brightMagenta: "#916EC3"
+  brightCyan: "#468CB4"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 60.5
+    black: 0
+    red: 21
+    green: 24.5
+    yellow: 42.2
+    blue: 27.2
+    magenta: 23.9
+    cyan: 20.8
+    white: 84.1
+    brightBlack: 0
+    brightRed: 36.8
+    brightGreen: 33.7
+    brightYellow: 58.4
+    brightBlue: 22
+    brightMagenta: 33.1
+    brightCyan: 36
+    brightWhite: 96.8

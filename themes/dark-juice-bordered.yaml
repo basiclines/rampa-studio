@@ -1,0 +1,53 @@
+name: "Dark Juice Bordered"
+source:
+  marketplace_id: "nachop51.nachop-theme"
+  version: "2.0.0"
+  installs: 303
+  rating: 5
+  ratings: 1
+  author: "Nachop Peralta"
+  repo: "https://github.com/nachop51/nachop-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nachop51.nachop-theme"
+  formats: null
+colors:
+  bg: "#0B0E14"
+  fg: "#DCDFEB"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#F0C758"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#FFEC80"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 87.1
+    black: 9.5
+    red: 37.4
+    green: 61
+    yellow: 75.2
+    blue: 50.3
+    magenta: 39.7
+    cyan: 53.2
+    white: 83.7
+    brightBlack: 16.1
+    brightRed: 46.8
+    brightGreen: 77.5
+    brightYellow: 94.4
+    brightBlue: 64.4
+    brightMagenta: 50.9
+    brightCyan: 68.5
+    brightWhite: 91.3

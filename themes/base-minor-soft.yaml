@@ -1,0 +1,53 @@
+name: "Base Minor Soft"
+source:
+  marketplace_id: "adamsome.vscode-theme-base-minor"
+  version: "1.1.2"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "adamsome"
+  repo: "https://github.com/adamsome/vscode-theme-base-minor"
+  url: "https://marketplace.visualstudio.com/items?itemName=adamsome.vscode-theme-base-minor"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#E5E5E5"
+  black: "#000000"
+  red: "#FF453A"
+  green: "#32D74B"
+  yellow: "#FFD60A"
+  blue: "#0A84FF"
+  magenta: "#BF5AF2"
+  cyan: "#6AC4DC"
+  white: "#FFFFFF"
+  brightBlack: "#1B1B1B"
+  brightRed: "#FF453A"
+  brightGreen: "#32D74B"
+  brightYellow: "#FFD60A"
+  brightBlue: "#0A84FF"
+  brightMagenta: "#BF5AF2"
+  brightCyan: "#6AC4DC"
+  brightWhite: "#EAEAEA"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.2
+    black: 0
+    red: 39.8
+    green: 64.6
+    yellow: 82
+    blue: 36.6
+    magenta: 37.7
+    cyan: 62.2
+    white: 106
+    brightBlack: 0
+    brightRed: 39.8
+    brightGreen: 64.6
+    brightYellow: 82
+    brightBlue: 36.6
+    brightMagenta: 37.7
+    brightCyan: 62.2
+    brightWhite: 92.4

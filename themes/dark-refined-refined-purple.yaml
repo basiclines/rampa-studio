@@ -1,0 +1,53 @@
+name: "Dark Refined (Refined (Purple))"
+source:
+  marketplace_id: "itsjonq.dark-refined"
+  version: "0.0.11"
+  installs: 10802
+  rating: 5
+  ratings: 3
+  author: "itsjonq"
+  repo: "https://github.com/itsjonq/dark-refined"
+  url: "https://marketplace.visualstudio.com/items?itemName=itsjonq.dark-refined"
+  formats: null
+colors:
+  bg: "#221E46"
+  fg: "#D6DEEB"
+  black: "#221E46"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#ECC48D"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 83.5
+    black: 0
+    red: 37.6
+    green: 65.5
+    yellow: 72
+    blue: 54.2
+    magenta: 52
+    cyan: 58
+    white: 105.1
+    brightBlack: 13.8
+    brightRed: 37.6
+    brightGreen: 65.5
+    brightYellow: 92
+    brightBlue: 54.2
+    brightMagenta: 52
+    brightCyan: 72.2
+    brightWhite: 105.1

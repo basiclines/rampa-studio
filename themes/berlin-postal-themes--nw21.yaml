@@ -1,0 +1,53 @@
+name: "Berlin Postal Themes (NW21)"
+source:
+  marketplace_id: "heikopanjas.berlin-postal-themes"
+  version: "2.0.2"
+  installs: 39
+  rating: 5
+  ratings: 1
+  author: "Heiko Panjas"
+  repo: "https://github.com/heikopanjas/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=heikopanjas.berlin-postal-themes"
+  formats: null
+colors:
+  bg: "#E8EEFE"
+  fg: "#1F2328"
+  black: "#24292F"
+  red: "#D1242F"
+  green: "#116329"
+  yellow: "#4D2D00"
+  blue: "#0969DA"
+  magenta: "#8250DF"
+  cyan: "#1B7C83"
+  white: "#6E7781"
+  brightBlack: "#656D76"
+  brightRed: "#A40E26"
+  brightGreen: "#1A7F37"
+  brightYellow: "#633C01"
+  brightBlue: "#218BFF"
+  brightMagenta: "#A475F9"
+  brightCyan: "#3192AA"
+  brightWhite: "#8C959F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: 269
+  pair: "Berlin Postal Themes (SW61)"
+  contrast:
+    fg: 92.6
+    black: 91.4
+    red: 64.1
+    green: 75.1
+    yellow: 87.9
+    blue: 64.8
+    magenta: 64.2
+    cyan: 63.7
+    white: 61.5
+    brightBlack: 66
+    brightRed: 75.1
+    brightGreen: 64.5
+    brightYellow: 81.9
+    brightBlue: 50.6
+    brightMagenta: 49.2
+    brightCyan: 53.2
+    brightWhite: 47.1

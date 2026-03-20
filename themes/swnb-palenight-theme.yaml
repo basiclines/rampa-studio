@@ -1,0 +1,53 @@
+name: "Swnb PaleNight Theme"
+source:
+  marketplace_id: "Swnb.swnb-material-palenight-theme"
+  version: "0.8.3"
+  installs: 3133
+  rating: 0
+  ratings: 0
+  author: "Swnb"
+  repo: "https://github.com/swnb/vscode-palenight-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Swnb.swnb-material-palenight-theme"
+  formats: null
+colors:
+  bg: "#292D3E"
+  fg: "#9CB3F5"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#8FE4E4"
+  magenta: "#6ED4FF"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#8FE4E4"
+  brightMagenta: "#6ED4FF"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 57.5
+    black: 0
+    red: 40
+    green: 80.6
+    yellow: 75.3
+    blue: 77
+    magenta: 68.8
+    cyan: 74.6
+    white: 103.3
+    brightBlack: 22.8
+    brightRed: 40
+    brightGreen: 80.6
+    brightYellow: 75.3
+    brightBlue: 77
+    brightMagenta: 68.8
+    brightCyan: 74.6
+    brightWhite: 103.3

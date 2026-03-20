@@ -1,0 +1,53 @@
+name: "Caffeinated Rust"
+source:
+  marketplace_id: "CaffeinatedMinds.caffeinated-rust-dark"
+  version: "0.1.0"
+  installs: 140
+  rating: 0
+  ratings: 0
+  author: "Caffeinated Minds"
+  repo: "https://github.com/caffeinated-minds/caffeinated-rust"
+  url: "https://marketplace.visualstudio.com/items?itemName=CaffeinatedMinds.caffeinated-rust-dark"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#EDEDED"
+  black: "#1A1A1A"
+  red: "#D1604D"
+  green: "#76C7A5"
+  yellow: "#F4BE68"
+  blue: "#70AFFF"
+  magenta: "#B7410E"
+  cyan: "#F7A072"
+  white: "#EDEDED"
+  brightBlack: "#6C6C6C"
+  brightRed: "#D1604D"
+  brightGreen: "#76C7A5"
+  brightYellow: "#F4BE68"
+  brightBlue: "#70AFFF"
+  brightMagenta: "#B7410E"
+  brightCyan: "#F7A072"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.8
+    black: 0
+    red: 35.2
+    green: 62.3
+    yellow: 71.5
+    blue: 56.3
+    magenta: 23.6
+    cyan: 61.2
+    white: 94.8
+    brightBlack: 24.3
+    brightRed: 35.2
+    brightGreen: 62.3
+    brightYellow: 71.5
+    brightBlue: 56.3
+    brightMagenta: 23.6
+    brightCyan: 61.2
+    brightWhite: 94.8

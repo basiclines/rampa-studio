@@ -1,0 +1,53 @@
+name: "Gelato"
+source:
+  marketplace_id: "walele993.fable-code-theme"
+  version: "1.2.0"
+  installs: 46
+  rating: 0
+  ratings: 0
+  author: "Gabriele Meucci"
+  repo: "https://github.com/walele993/fable_a_vsc_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=walele993.fable-code-theme"
+  formats: null
+colors:
+  bg: "#FDFAF5"
+  fg: "#554D44"
+  black: "#FDFAF5"
+  red: "#D6409F"
+  green: "#6C9C86"
+  yellow: "#B8A898"
+  blue: "#7A4EBF"
+  magenta: "#D6409F"
+  cyan: "#A3C9A3"
+  white: "#554D44"
+  brightBlack: "#B8A898"
+  brightRed: "#D6409F"
+  brightGreen: "#6C9C86"
+  brightYellow: "#B8A898"
+  brightBlue: "#7A4EBF"
+  brightMagenta: "#D6409F"
+  brightCyan: "#A3C9A3"
+  brightWhite: "#554D44"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 64.4
+    green: 55.3
+    yellow: 42.7
+    blue: 75.4
+    magenta: 64.4
+    cyan: 31.6
+    white: 85.8
+    brightBlack: 42.7
+    brightRed: 64.4
+    brightGreen: 55.3
+    brightYellow: 42.7
+    brightBlue: 75.4
+    brightMagenta: 64.4
+    brightCyan: 31.6
+    brightWhite: 85.8

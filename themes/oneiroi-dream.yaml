@@ -1,0 +1,53 @@
+name: "Oneiroi dream"
+source:
+  marketplace_id: "OneiroiTheme.oneiroi-theme-vscode"
+  version: "0.0.4"
+  installs: 57
+  rating: 5
+  ratings: 1
+  author: "OneiroiTheme"
+  repo: "https://github.com/OneiroiTheme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=OneiroiTheme.oneiroi-theme-vscode"
+  formats: null
+colors:
+  bg: "#25282C"
+  fg: "#E0E2E8"
+  black: "#25282C"
+  red: "#FFB0CD"
+  green: "#AAD291"
+  yellow: "#EDC06C"
+  blue: "#A6C8FF"
+  magenta: "#E0B8F6"
+  cyan: "#89D6B9"
+  white: "#ECD7DB"
+  brightBlack: "#9D8C90"
+  brightRed: "#FFD9E4"
+  brightGreen: "#C5EFA7"
+  brightYellow: "#FFDEA7"
+  brightBlue: "#D5E3FF"
+  brightMagenta: "#F4DAFF"
+  brightCyan: "#89D6B9"
+  brightWhite: "#E0E2E8"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 69.1
+    green: 69
+    yellow: 69.1
+    blue: 68.9
+    magenta: 69.1
+    cyan: 69.3
+    white: 82
+    brightBlack: 39.3
+    brightRed: 86.1
+    brightGreen: 86.1
+    brightYellow: 86
+    brightBlue: 86
+    brightMagenta: 86.2
+    brightCyan: 69.3
+    brightWhite: 85.8

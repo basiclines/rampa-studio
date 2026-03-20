@@ -1,0 +1,53 @@
+name: "NuTheme"
+source:
+  marketplace_id: "TheWebDev.nutheme"
+  version: "0.2.1"
+  installs: 397
+  rating: 0
+  ratings: 0
+  author: "TheWebDev"
+  repo: "https://github.com/stevie2codes/TatangoTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheWebDev.nutheme"
+  formats: null
+colors:
+  bg: "#1D1F21"
+  fg: "#FFFFFF"
+  black: "#1D1F21"
+  red: "#E06C75"
+  green: "#45C476"
+  yellow: "#FBA922"
+  blue: "#4E81EE"
+  magenta: "#A36AC7"
+  cyan: "#4E81EE"
+  white: "#C5C8C6"
+  brightBlack: "#969896"
+  brightRed: "#E06C75"
+  brightGreen: "#198844"
+  brightYellow: "#FBA922"
+  brightBlue: "#4E81EE"
+  brightMagenta: "#A36AC7"
+  brightCyan: "#4E81EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 105.9
+    black: 0
+    red: 41.1
+    green: 56.6
+    yellow: 63.5
+    blue: 35.6
+    magenta: 33.9
+    cyan: 35.6
+    white: 70.9
+    brightBlack: 44.4
+    brightRed: 41.1
+    brightGreen: 28.8
+    brightYellow: 63.5
+    brightBlue: 35.6
+    brightMagenta: 33.9
+    brightCyan: 35.6
+    brightWhite: 105.9

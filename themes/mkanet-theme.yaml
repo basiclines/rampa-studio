@@ -1,0 +1,53 @@
+name: "MKANET Theme"
+source:
+  marketplace_id: "MKANET.mkanet-theme"
+  version: "0.1.9"
+  installs: 437
+  rating: 0
+  ratings: 0
+  author: "Michael K. Avanessian"
+  repo: "https://github.com/mkanet/MKANET-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MKANET.mkanet-theme"
+  formats: null
+colors:
+  bg: "#C0C0C0"
+  fg: "#464668"
+  black: "#000000"
+  red: "#C23621"
+  green: "#25BC24"
+  yellow: "#ADAD27"
+  blue: "#492EE1"
+  magenta: "#D338D3"
+  cyan: "#33BBC8"
+  white: "#CBCCCD"
+  brightBlack: "#818383"
+  brightRed: "#FC391F"
+  brightGreen: "#31E722"
+  brightYellow: "#EAEC23"
+  brightBlue: "#5833FF"
+  brightMagenta: "#F935F8"
+  brightCyan: "#14F0F0"
+  brightWhite: "#E9EBEB"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 54.5
+    black: 69.9
+    red: 39.8
+    green: 12.8
+    yellow: 10.8
+    blue: 49
+    magenta: 29.7
+    cyan: 9
+    white: 0
+    brightBlack: 29.5
+    brightRed: 26.2
+    brightGreen: 0
+    brightYellow: 20.8
+    brightBlue: 43.8
+    brightMagenta: 19.4
+    brightCyan: 13.9
+    brightWhite: 24.8

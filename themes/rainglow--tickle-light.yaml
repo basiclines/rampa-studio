@@ -1,0 +1,53 @@
+name: "Rainglow (tickle-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#444444"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#65C699"
+  yellow: "#40A5A5"
+  blue: "#FF8552"
+  magenta: "#65C699"
+  cyan: "#FF8552"
+  white: "#515151"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#AFE2CA"
+  brightYellow: "#7ECDCD"
+  brightBlue: "#FFCDB8"
+  brightMagenta: "#AFE2CA"
+  brightCyan: "#FFCDB8"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (tickle-contrast)"
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 80.3
+    green: 40.5
+    yellow: 55.6
+    blue: 46.9
+    magenta: 40.5
+    cyan: 46.9
+    white: 87.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 21.1
+    brightYellow: 34
+    brightBlue: 20.6
+    brightMagenta: 21.1
+    brightCyan: 20.6
+    brightWhite: 71.1

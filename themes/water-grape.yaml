@@ -1,0 +1,53 @@
+name: "Water Grape"
+source:
+  marketplace_id: "qfilip.watergrape-theme"
+  version: "0.0.2"
+  installs: 5218
+  rating: 0
+  ratings: 0
+  author: "qfilip"
+  repo: "https://github.com/qfilip/watergrape-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=qfilip.watergrape-theme"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#E3E2E0"
+  black: "#2F2F2F"
+  red: "#CF433E"
+  green: "#C3CB4C"
+  yellow: "#F7C53C"
+  blue: "#00BBAA"
+  magenta: "#F03E5F"
+  cyan: "#00BBAA"
+  white: "#EFEFED"
+  brightBlack: "#555555"
+  brightRed: "#F03E5F"
+  brightGreen: "#F4FF60"
+  brightYellow: "#F7C53C"
+  brightBlue: "#1EFFEC"
+  brightMagenta: "#EC5773"
+  brightCyan: "#00BBAA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 28.1
+    green: 68.3
+    yellow: 73.2
+    blue: 52.7
+    magenta: 35.4
+    cyan: 52.7
+    white: 94.9
+    brightBlack: 13.7
+    brightRed: 35.4
+    brightGreen: 99.2
+    brightYellow: 73.2
+    brightBlue: 88.9
+    brightMagenta: 38.7
+    brightCyan: 52.7
+    brightWhite: 105.5

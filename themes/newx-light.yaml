@@ -1,0 +1,53 @@
+name: "NewX Light"
+source:
+  marketplace_id: "xiongshuo1225.newx-time-manager"
+  version: "2.0.19"
+  installs: 48
+  rating: 0
+  ratings: 0
+  author: "xiongshuo"
+  repo: "http://gitlab.alibaba-inc.com/ais-cost-group/time-manager"
+  url: "https://marketplace.visualstudio.com/items?itemName=xiongshuo1225.newx-time-manager"
+  formats: null
+colors:
+  bg: "#F6F7FA"
+  fg: "#2B3547"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#107C10"
+  yellow: "#777A00"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#037A98"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#0C860C"
+  brightYellow: "#757900"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#037A98"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.3
+    black: 101.3
+    red: 69.2
+    green: 71.3
+    yellow: 67
+    blue: 81.3
+    magenta: 69.8
+    cyan: 68.9
+    white: 81.2
+    brightBlack: 74
+    brightRed: 69.2
+    brightGreen: 67.4
+    brightYellow: 67.5
+    brightBlue: 81.3
+    brightMagenta: 69.8
+    brightCyan: 68.9
+    brightWhite: 66.3

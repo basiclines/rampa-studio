@@ -1,0 +1,53 @@
+name: "Purple-Cloud-Minimal"
+source:
+  marketplace_id: "Keith-sys.purple-cloud-theme"
+  version: "1.0.0"
+  installs: 635
+  rating: 0
+  ratings: 0
+  author: "Keith-sys"
+  repo: "https://github.com/Keith-sys/purple-cloud-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Keith-sys.purple-cloud-theme"
+  formats: null
+colors:
+  bg: "#090B10"
+  fg: "#FFFFFF"
+  black: "#2F3B54"
+  red: "#FF0000"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFCC66"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 37.4
+    green: 82.7
+    yellow: 80.1
+    blue: 68.6
+    magenta: 62.1
+    cyan: 68.6
+    white: 55.9
+    brightBlack: 12
+    brightRed: 45.7
+    brightGreen: 82.7
+    brightYellow: 80.1
+    brightBlue: 68.6
+    brightMagenta: 62.1
+    brightCyan: 68.6
+    brightWhite: 107.7

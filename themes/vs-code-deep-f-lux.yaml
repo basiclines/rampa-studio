@@ -1,0 +1,53 @@
+name: "VS Code Deep F.lux"
+source:
+  marketplace_id: "suleman-el.vs-code-flux-intense"
+  version: "0.0.1"
+  installs: 555
+  rating: 0
+  ratings: 0
+  author: "Suleman Elahi"
+  repo: "https://github.com/Suleman-Elahi/vs-code-flux-intense"
+  url: "https://marketplace.visualstudio.com/items?itemName=suleman-el.vs-code-flux-intense"
+  formats: null
+colors:
+  bg: "#FFCE5E"
+  fg: "#5C0000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#261C1C"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 85
+  pair: null
+  contrast:
+    fg: 74.9
+    black: 81.4
+    red: 49.4
+    green: 24.6
+    yellow: 33.3
+    blue: 61.4
+    magenta: 50
+    cyan: 36
+    white: 78.9
+    brightBlack: 54.1
+    brightRed: 49.4
+    brightGreen: 16.3
+    brightYellow: 16.3
+    brightBlue: 61.4
+    brightMagenta: 50
+    brightCyan: 36
+    brightWhite: 25.3

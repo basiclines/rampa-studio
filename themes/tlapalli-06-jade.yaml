@@ -1,0 +1,53 @@
+name: "Tlapalli 06: Jade"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+  formats: null
+colors:
+  bg: "#070B09"
+  fg: "#6AAD8F"
+  black: "#070B09"
+  red: "#5A9D7A"
+  green: "#3D7F5F"
+  yellow: "#8FD9AD"
+  blue: "#2A4D3E"
+  magenta: "#70BD99"
+  cyan: "#509E7A"
+  white: "#9DE3B8"
+  brightBlack: "#1E3829"
+  brightRed: "#5A9D7A"
+  brightGreen: "#3D7F5F"
+  brightYellow: "#8FD9AD"
+  brightBlue: "#2A4D3E"
+  brightMagenta: "#70BD99"
+  brightCyan: "#509E7A"
+  brightWhite: "#A3FFC4"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 50.6
+    black: 0
+    red: 42.4
+    green: 28.6
+    yellow: 73.9
+    blue: 10.5
+    magenta: 58.2
+    cyan: 42.3
+    white: 80.2
+    brightBlack: 0
+    brightRed: 42.4
+    brightGreen: 28.6
+    brightYellow: 73.9
+    brightBlue: 10.5
+    brightMagenta: 58.2
+    brightCyan: 42.3
+    brightWhite: 95

@@ -1,0 +1,53 @@
+name: "Quantum Night"
+source:
+  marketplace_id: "NGdust.quantum-night"
+  version: "1.0.0"
+  installs: 99
+  rating: 5
+  ratings: 1
+  author: "NGdust"
+  repo: "https://github.com/NGdust/quantum-night"
+  url: "https://marketplace.visualstudio.com/items?itemName=NGdust.quantum-night"
+  formats: null
+colors:
+  bg: "#1A1B26"
+  fg: "#E4F0FB"
+  black: "#1A1B26"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#F7CB7A"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#E4F0FB"
+  brightBlack: "#565F89"
+  brightRed: "#F7768E"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#E0AF68"
+  brightBlue: "#F7CB7A"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#E4F0FB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 95.4
+    black: 0
+    red: 49.4
+    green: 66.9
+    yellow: 62.2
+    blue: 77.3
+    magenta: 55
+    cyan: 70.5
+    white: 95.4
+    brightBlack: 19.5
+    brightRed: 49.4
+    brightGreen: 66.9
+    brightYellow: 62.2
+    brightBlue: 77.3
+    brightMagenta: 55
+    brightCyan: 70.5
+    brightWhite: 95.4

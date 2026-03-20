@@ -1,0 +1,53 @@
+name: "N-DarkTheme"
+source:
+  marketplace_id: "Akako.n-darktheme"
+  version: "0.3.3"
+  installs: 2113
+  rating: 5
+  ratings: 2
+  author: "Akakø"
+  repo: "https://github.com/Akako0/N-darkTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Akako.n-darktheme"
+  formats: null
+colors:
+  bg: "#171722"
+  fg: "#EEF0FF"
+  black: "#000000"
+  red: "#DF001E"
+  green: "#46C079"
+  yellow: "#F1F88E"
+  blue: "#212188"
+  magenta: "#E65BE6"
+  cyan: "#00AEFF"
+  white: "#FFFFFF"
+  brightBlack: "#353535"
+  brightRed: "#DF001E"
+  brightGreen: "#1EFF00"
+  brightYellow: "#FFFB00"
+  brightBlue: "#3765FD"
+  brightMagenta: "#E100FF"
+  brightCyan: "#00CCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 97.4
+    black: 0
+    red: 28.6
+    green: 55.7
+    yellow: 97.5
+    blue: 0
+    magenta: 44.8
+    cyan: 53.1
+    white: 106.8
+    brightBlack: 0
+    brightRed: 28.6
+    brightGreen: 85.5
+    brightYellow: 99.6
+    brightBlue: 28.5
+    brightMagenta: 38.6
+    brightCyan: 66.1
+    brightWhite: 106.8

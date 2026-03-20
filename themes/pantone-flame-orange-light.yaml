@@ -1,0 +1,53 @@
+name: "Pantone Flame Orange (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#FDFCFA"
+  fg: "#26120A"
+  black: "#26120A"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#FDFCFA"
+  brightBlack: "#EBAC8D"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#FCFBFA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Flame Orange (Dark)"
+  contrast:
+    fg: 102.8
+    black: 102.8
+    red: 77.1
+    green: 60.6
+    yellow: 44.8
+    blue: 88.1
+    magenta: 84.3
+    cyan: 77.4
+    white: 0
+    brightBlack: 35.4
+    brightRed: 66.8
+    brightGreen: 47.4
+    brightYellow: 28.6
+    brightBlue: 54.1
+    brightMagenta: 65.7
+    brightCyan: 46.8
+    brightWhite: 0

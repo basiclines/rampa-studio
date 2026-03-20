@@ -1,0 +1,58 @@
+name: "Patina Light"
+source:
+  marketplace_id: "LuisCMarkmann.patina-theme"
+  version: "0.9.0"
+  installs: 43
+  rating: 0
+  ratings: 0
+  author: "Luis C. Markmann"
+  repo: "https://github.com/lmarkmann/patina-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LuisCMarkmann.patina-theme"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/ghostty/patina-dark"
+    alacritty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/alacritty/patina-dark.toml"
+    kitty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/kitty/patina-dark.conf"
+    android-studio: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/intellij/Patina_Dark.icls"
+    zed: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/zed/patina-dark.json"
+colors:
+  bg: "#DDD7C4"
+  fg: "#393A34"
+  black: "#393A34"
+  red: "#AB5959"
+  green: "#3E7A5E"
+  yellow: "#BDA437"
+  blue: "#4E8FA0"
+  magenta: "#A65E4F"
+  cyan: "#3E918F"
+  white: "#DDD7C4"
+  brightBlack: "#8A8A80"
+  brightRed: "#AB5959"
+  brightGreen: "#3E7A5E"
+  brightYellow: "#BDA437"
+  brightBlue: "#4E8FA0"
+  brightMagenta: "#A65E4F"
+  brightCyan: "#3E918F"
+  brightWhite: "#393A34"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: 92
+  pair: "Patina Dark"
+  contrast:
+    fg: 73.1
+    black: 73.1
+    red: 50.1
+    green: 51.4
+    yellow: 24.9
+    blue: 40.6
+    magenta: 50
+    cyan: 41.2
+    white: 0
+    brightBlack: 39.1
+    brightRed: 50.1
+    brightGreen: 51.4
+    brightYellow: 24.9
+    brightBlue: 40.6
+    brightMagenta: 50
+    brightCyan: 41.2
+    brightWhite: 73.1

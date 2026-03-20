@@ -1,0 +1,53 @@
+name: "Hypersubatomic"
+source:
+  marketplace_id: "neilpanchal.hypersubatomic"
+  version: "0.1.5"
+  installs: 6115
+  rating: 5
+  ratings: 2
+  author: "Neil Panchal"
+  repo: "https://github.com/neilpanchal/hypersubatomic-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=neilpanchal.hypersubatomic"
+  formats: null
+colors:
+  bg: "#0F111A"
+  fg: "#8F93A2"
+  black: "#000000"
+  red: "#F2283C"
+  green: "#00AE6B"
+  yellow: "#FFC200"
+  blue: "#277DFF"
+  magenta: "#875AFB"
+  cyan: "#00A1B4"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#F2283C"
+  brightGreen: "#00AE6B"
+  brightYellow: "#FFC200"
+  brightBlue: "#277DFF"
+  brightMagenta: "#875AFB"
+  brightCyan: "#00A1B4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 43.7
+    black: 0
+    red: 35.1
+    green: 46.8
+    yellow: 75
+    blue: 35.9
+    magenta: 32
+    cyan: 43.8
+    white: 107.3
+    brightBlack: 12
+    brightRed: 35.1
+    brightGreen: 46.8
+    brightYellow: 75
+    brightBlue: 35.9
+    brightMagenta: 32
+    brightCyan: 43.8
+    brightWhite: 107.3

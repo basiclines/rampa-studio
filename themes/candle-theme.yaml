@@ -1,0 +1,53 @@
+name: "Candle Theme"
+source:
+  marketplace_id: "creasty.vscode-candle-theme"
+  version: "0.0.3"
+  installs: 1855
+  rating: 5
+  ratings: 1
+  author: "Creasty"
+  repo: "https://github.com/creasty/vscode-candle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=creasty.vscode-candle-theme"
+  formats: null
+colors:
+  bg: "#1B1B1B"
+  fg: "#C0C0C0"
+  black: "#0F0F0F"
+  red: "#A57572"
+  green: "#A6B083"
+  yellow: "#D0B888"
+  blue: "#8CA2B6"
+  magenta: "#A186A3"
+  cyan: "#9ABBB6"
+  white: "#E7E7E7"
+  brightBlack: "#575757"
+  brightRed: "#A57572"
+  brightGreen: "#A6B083"
+  brightYellow: "#D0B888"
+  brightBlue: "#8CA2B6"
+  brightMagenta: "#A186A3"
+  brightCyan: "#9ABBB6"
+  brightWhite: "#E7E7E7"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.2
+    black: 0
+    red: 33.9
+    green: 55.4
+    yellow: 64.1
+    blue: 49
+    magenta: 40.4
+    cyan: 60.5
+    white: 90.8
+    brightBlack: 15.4
+    brightRed: 33.9
+    brightGreen: 55.4
+    brightYellow: 64.1
+    brightBlue: 49
+    brightMagenta: 40.4
+    brightCyan: 60.5
+    brightWhite: 90.8

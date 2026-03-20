@@ -1,0 +1,51 @@
+name: "Purplue"
+source:
+  marketplace_id: "ICU2D.purpule"
+  version: "0.0.3"
+  installs: 419
+  author: "ICU2D"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ICU2D.purpule"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#FFFFFF"
+  black: "#121212"
+  red: "#A52AFF"
+  green: "#7129FF"
+  yellow: "#3D2AFF"
+  blue: "#2B4FFF"
+  magenta: "#2883FF"
+  cyan: "#28B9FF"
+  white: "#F1F1F1"
+  brightBlack: "#666666"
+  brightRed: "#BA5AFF"
+  brightGreen: "#905AFF"
+  brightYellow: "#685AFF"
+  brightBlue: "#5C78FF"
+  brightMagenta: "#5EA2FF"
+  brightCyan: "#5AC8FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.5
+    black: 0
+    red: 28.6
+    green: 21.8
+    yellow: 17.9
+    blue: 22.9
+    magenta: 37
+    cyan: 57.7
+    white: 97.4
+    brightBlack: 21.7
+    brightRed: 38.5
+    brightGreen: 32.6
+    brightYellow: 28.5
+    brightBlue: 35.6
+    brightMagenta: 50.1
+    brightCyan: 65.7
+    brightWhite: 106.5

@@ -1,0 +1,53 @@
+name: "Rainglow (juicy-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E3E2E0"
+  black: "#0D0D0D"
+  red: "#BA0E2E"
+  green: "#FF4E50"
+  yellow: "#3BC7B8"
+  blue: "#C3CB4C"
+  magenta: "#EDB92E"
+  cyan: "#F85931"
+  white: "#EFEFED"
+  brightBlack: "#333333"
+  brightRed: "#F03E5F"
+  brightGreen: "#FFB4B5"
+  brightYellow: "#8ADED5"
+  brightBlue: "#DDE29B"
+  brightMagenta: "#F5D88C"
+  brightCyan: "#FBA894"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (juicy-light)"
+  contrast:
+    fg: 89.2
+    black: 0
+    red: 21.5
+    green: 43.2
+    yellow: 61.8
+    blue: 70.7
+    magenta: 69
+    cyan: 43
+    white: 97.3
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 73
+    brightYellow: 77.7
+    brightBlue: 85.9
+    brightMagenta: 84.5
+    brightCyan: 66.9
+    brightWhite: 107.9

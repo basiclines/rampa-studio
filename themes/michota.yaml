@@ -1,0 +1,53 @@
+name: "Michota"
+source:
+  marketplace_id: "michota.Michota"
+  version: "0.2.8"
+  installs: 220
+  rating: 0
+  ratings: 0
+  author: "michota"
+  repo: "https://github.com/Michota/michota-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=michota.Michota"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#FF52A3"
+  magenta: "#D186D8"
+  cyan: "#56C2B0"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#FF52A3"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56C2B0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 58.3
+    black: 0
+    red: 41
+    green: 61.2
+    yellow: 69.5
+    blue: 44
+    magenta: 49.4
+    cyan: 58
+    white: 81.9
+    brightBlack: 34.4
+    brightRed: 37.3
+    brightGreen: 61.2
+    brightYellow: 69.5
+    brightBlue: 44
+    brightMagenta: 11.6
+    brightCyan: 58
+    brightWhite: 81.9

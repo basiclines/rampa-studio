@@ -1,0 +1,53 @@
+name: "coco-theme-DE-palette"
+source:
+  marketplace_id: "Kifzuka.coco"
+  version: "16.1.2"
+  installs: 651
+  rating: 5
+  ratings: 1
+  author: "Kifzuka"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Kifzuka.coco"
+  formats: null
+colors:
+  bg: "#4B6584"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FC5C65"
+  green: "#26DE81"
+  yellow: "#FED330"
+  blue: "#45AAF2"
+  magenta: "#B71540"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#2D98DA"
+  brightRed: "#FC5C65"
+  brightGreen: "#26DE81"
+  brightYellow: "#FED330"
+  brightBlue: "#45AAF2"
+  brightMagenta: "#B71540"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 253
+  pair: null
+  contrast:
+    fg: 85.2
+    black: 24.1
+    red: 22.6
+    green: 48
+    yellow: 59.8
+    blue: 29.9
+    magenta: 0
+    cyan: 71.1
+    white: 85.2
+    brightBlack: 20.6
+    brightRed: 22.6
+    brightGreen: 48
+    brightYellow: 59.8
+    brightBlue: 29.9
+    brightMagenta: 0
+    brightCyan: 71.1
+    brightWhite: 85.2

@@ -1,0 +1,53 @@
+name: "Neutral"
+source:
+  marketplace_id: "YesCode.sober-code"
+  version: "0.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://git@github.com/yesomac/vs-sober"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.sober-code"
+  formats: null
+colors:
+  bg: "#15161A"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#B0C5C3"
+  brightYellow: "#20473A"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104.6
+    black: 0
+    red: 42.1
+    green: 61.1
+    yellow: 73.1
+    blue: 47.6
+    magenta: 19.6
+    cyan: 49.5
+    white: 47.3
+    brightBlack: 18.7
+    brightRed: 42.1
+    brightGreen: 68.1
+    brightYellow: 7.7
+    brightBlue: 18.8
+    brightMagenta: 19.6
+    brightCyan: 49.5
+    brightWhite: 98.9

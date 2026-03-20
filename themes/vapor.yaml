@@ -1,0 +1,53 @@
+name: "vapor"
+source:
+  marketplace_id: "Swerve.vapor-color-theme"
+  version: "0.0.1"
+  installs: 2
+  rating: 0
+  ratings: 0
+  author: "Swerve"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Swerve.vapor-color-theme"
+  formats: null
+colors:
+  bg: "#070825"
+  fg: "#46BDFF"
+  black: "#181A1F"
+  red: "#FF16B0"
+  green: "#848BBD"
+  yellow: "#FCEE54"
+  blue: "#46BDFF"
+  magenta: "#FF92DF"
+  cyan: "#DF81FC"
+  white: "#FFFFFF"
+  brightBlack: "#FF16B0"
+  brightRed: "#F85353"
+  brightGreen: "#FCEE54"
+  brightYellow: "#FFFFFF"
+  brightBlue: "#46BDFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#FF901F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 61.2
+    black: 0
+    red: 41.2
+    green: 41.3
+    yellow: 94.2
+    blue: 61.2
+    magenta: 63.3
+    cyan: 54.5
+    white: 107.6
+    brightBlack: 41.2
+    brightRed: 42.1
+    brightGreen: 94.2
+    brightYellow: 107.6
+    brightBlue: 61.2
+    brightMagenta: 63.3
+    brightCyan: 57.6
+    brightWhite: 107.6

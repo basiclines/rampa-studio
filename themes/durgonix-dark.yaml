@@ -1,0 +1,53 @@
+name: "Durgonix Dark"
+source:
+  marketplace_id: "i8o8i.durgonix-dark-theme"
+  version: "1.0.6"
+  installs: 23
+  rating: 0
+  ratings: 0
+  author: "i8o8i"
+  repo: "https://github.com/i8o8i-Developer/Durgonix-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=i8o8i.durgonix-dark-theme"
+  formats: null
+colors:
+  bg: "#0B0C0E"
+  fg: "#CFCFCF"
+  black: "#090300"
+  red: "#DB2D20"
+  green: "#00FF41"
+  yellow: "#FED604"
+  blue: "#01A0E4"
+  magenta: "#A16A94"
+  cyan: "#0BA9DD"
+  white: "#F37676"
+  brightBlack: "#F39C12"
+  brightRed: "#0A37FF"
+  brightGreen: "#00FF41"
+  brightYellow: "#FED604"
+  brightBlue: "#01A0E4"
+  brightMagenta: "#EB64CB"
+  brightCyan: "#FF0FF3"
+  brightWhite: "#240EE2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77.2
+    black: 0
+    red: 30.2
+    green: 86.5
+    yellow: 83.4
+    blue: 46.4
+    magenta: 32.6
+    cyan: 49.7
+    white: 49.2
+    brightBlack: 59.2
+    brightRed: 19.3
+    brightGreen: 86.5
+    brightYellow: 83.4
+    brightBlue: 46.4
+    brightMagenta: 46.8
+    brightCyan: 45.2
+    brightWhite: 12.9

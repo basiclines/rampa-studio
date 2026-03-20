@@ -1,0 +1,53 @@
+name: "Nanowise"
+source:
+  marketplace_id: "nanowise.nanowise"
+  version: "1.2.1"
+  installs: 2163
+  rating: 5
+  ratings: 3
+  author: "nanowise"
+  repo: "https://github.com/istevkovski/nanowise-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nanowise.nanowise"
+  formats: null
+colors:
+  bg: "#FAFBFC"
+  fg: "#565869"
+  black: "#565869"
+  red: "#FF5C57"
+  green: "#2DAE58"
+  yellow: "#EBB100"
+  blue: "#09A1ED"
+  magenta: "#FF3E78"
+  cyan: "#04D1BC"
+  white: "#FAFBF9"
+  brightBlack: "#75798F"
+  brightRed: "#FFAEAC"
+  brightGreen: "#35CF68"
+  brightYellow: "#F5B900"
+  brightBlue: "#14B1FF"
+  brightMagenta: "#FF94D2"
+  brightCyan: "#04D1BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.8
+    black: 81.8
+    red: 53.6
+    green: 52
+    yellow: 34.5
+    blue: 51.7
+    magenta: 57.3
+    cyan: 33.9
+    white: 0
+    brightBlack: 67.3
+    brightRed: 29.7
+    brightGreen: 36.8
+    brightYellow: 29.9
+    brightBlue: 44.1
+    brightMagenta: 36.3
+    brightCyan: 33.9
+    brightWhite: 0

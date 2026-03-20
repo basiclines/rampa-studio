@@ -1,0 +1,53 @@
+name: "Natural green"
+source:
+  marketplace_id: "xynny.naturalgreen-theme"
+  version: "0.0.1"
+  installs: 519
+  rating: 0
+  ratings: 0
+  author: "xynny"
+  repo: "https://github.com/xynnylol/vsthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=xynny.naturalgreen-theme"
+  formats: null
+colors:
+  bg: "#309F4C"
+  fg: "#052234"
+  black: "#000000"
+  red: "#B23D10"
+  green: "#19DB25"
+  yellow: "#B3B800"
+  blue: "#0451A5"
+  magenta: "#9F1683"
+  cyan: "#4B6E77"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#DB4D4D"
+  brightGreen: "#00E20E"
+  brightYellow: "#CBD100"
+  brightBlue: "#0451A5"
+  brightMagenta: "#AD0DAD"
+  brightCyan: "#117994"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: 148
+  pair: null
+  contrast:
+    fg: 40.1
+    black: 43.1
+    red: 15.4
+    green: 26.4
+    yellow: 18.8
+    blue: 23.1
+    magenta: 20.3
+    cyan: 14.6
+    white: 66.5
+    brightBlack: 43.1
+    brightRed: 0
+    brightGreen: 29.8
+    brightYellow: 32.6
+    brightBlue: 23.1
+    brightMagenta: 15.5
+    brightCyan: 11.2
+    brightWhite: 66.5

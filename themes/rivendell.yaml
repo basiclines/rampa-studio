@@ -1,0 +1,53 @@
+name: "Rivendell"
+source:
+  marketplace_id: "sortbyfirstname.rivendell"
+  version: "0.0.3"
+  installs: 509
+  rating: 0
+  ratings: 0
+  author: "sortbyfirstname"
+  repo: "https://github.com/sortbyfirstname/rivendell-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sortbyfirstname.rivendell"
+  formats: null
+colors:
+  bg: "#FEFAE0"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#616161"
+  brightBlack: "#616161"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#BBC000"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 102.5
+    red: 70.5
+    green: 45.7
+    yellow: 54.4
+    blue: 82.5
+    magenta: 71
+    cyan: 57.1
+    white: 77.4
+    brightBlack: 77.4
+    brightRed: 70.5
+    brightGreen: 37.4
+    brightYellow: 34.3
+    brightBlue: 82.5
+    brightMagenta: 71
+    brightCyan: 57.1
+    brightWhite: 44.9

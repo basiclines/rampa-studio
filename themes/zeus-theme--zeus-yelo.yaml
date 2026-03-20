@@ -1,0 +1,53 @@
+name: "Zeus Theme (Zeus Yelo)"
+source:
+  marketplace_id: "UllasKunder.zeus-vscode-theme"
+  version: "0.0.1"
+  installs: 698
+  rating: 4
+  ratings: 1
+  author: "Ullas Kunder"
+  repo: "https://github.com/ullaskunder3/zeus-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=UllasKunder.zeus-vscode-theme"
+  formats: null
+colors:
+  bg: "#171724"
+  fg: "#C9D1D9"
+  black: "#484F58"
+  red: "#EC8E2C"
+  green: "#58A6FF"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FDAC54"
+  brightGreen: "#79C0FF"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 76.9
+    black: 12.4
+    red: 52.5
+    green: 51.6
+    yellow: 51.6
+    blue: 51.6
+    magenta: 51.6
+    cyan: 60.7
+    white: 63.4
+    brightBlack: 28.6
+    brightRed: 66.1
+    brightGreen: 64.1
+    brightYellow: 64.1
+    brightBlue: 64.1
+    brightMagenta: 64
+    brightCyan: 69.3
+    brightWhite: 106.7

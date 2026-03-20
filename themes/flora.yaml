@@ -1,0 +1,53 @@
+name: "Flora"
+source:
+  marketplace_id: "merle.flora"
+  version: "1.1.2"
+  installs: 541
+  rating: 0
+  ratings: 0
+  author: "mmerle"
+  repo: "https://github.com/mmerle/flora"
+  url: "https://marketplace.visualstudio.com/items?itemName=merle.flora"
+  formats: null
+colors:
+  bg: "#1A1B1E"
+  fg: "#E9E8E6"
+  black: "#1F2023"
+  red: "#FC8466"
+  green: "#1FA2AF"
+  yellow: "#F6C177"
+  blue: "#9DD5D9"
+  magenta: "#D7AAFD"
+  cyan: "#F4B1E1"
+  white: "#E9E8E6"
+  brightBlack: "#1F2023"
+  brightRed: "#FC8466"
+  brightGreen: "#1FA2AF"
+  brightYellow: "#F6C177"
+  brightBlue: "#9DD5D9"
+  brightMagenta: "#D7AAFD"
+  brightCyan: "#F4B1E1"
+  brightWhite: "#E9E8E6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.5
+    black: 0
+    red: 53.1
+    green: 43.2
+    yellow: 73.2
+    blue: 73.7
+    magenta: 65
+    cyan: 70.4
+    white: 91.5
+    brightBlack: 0
+    brightRed: 53.1
+    brightGreen: 43.2
+    brightYellow: 73.2
+    brightBlue: 73.7
+    brightMagenta: 65
+    brightCyan: 70.4
+    brightWhite: 91.5

@@ -1,0 +1,53 @@
+name: "Islands Theme (Islands Dark)"
+source:
+  marketplace_id: "kangsou.islands-theme"
+  version: "1.0.5"
+  installs: 2907
+  rating: 5
+  ratings: 1
+  author: "kangsou"
+  repo: "https://github.com/guxiaohui/islands-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kangsou.islands-theme"
+  formats: null
+colors:
+  bg: "#191A1C"
+  fg: "#BCBEC4"
+  black: "#191A1C"
+  red: "#F75464"
+  green: "#6AAB73"
+  yellow: "#E0BB65"
+  blue: "#56A8F5"
+  magenta: "#C77DBB"
+  cyan: "#2AACB8"
+  white: "#BCBEC4"
+  brightBlack: "#6F737A"
+  brightRed: "#FA6675"
+  brightGreen: "#73BD79"
+  brightYellow: "#F2C55C"
+  brightBlue: "#70AEFF"
+  brightMagenta: "#CF84CF"
+  brightCyan: "#42C3D4"
+  brightWhite: "#CED0D6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Islands Theme (Islands Light)"
+  contrast:
+    fg: 66.1
+    black: 0
+    red: 41.3
+    green: 47.8
+    yellow: 67
+    blue: 51.4
+    magenta: 44.4
+    cyan: 48.1
+    white: 66.1
+    brightBlack: 27.3
+    brightRed: 45.8
+    brightGreen: 56.3
+    brightYellow: 73.8
+    brightBlue: 55.9
+    brightMagenta: 48.8
+    brightCyan: 60.1
+    brightWhite: 76.8

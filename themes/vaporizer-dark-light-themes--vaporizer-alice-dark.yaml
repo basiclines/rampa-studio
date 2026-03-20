@@ -1,0 +1,53 @@
+name: "Vaporizer Dark & Light Themes (Vaporizer Alice Dark)"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35761
+  rating: 5
+  ratings: 6
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+  formats: null
+colors:
+  bg: "#414141"
+  fg: "#7ADAEC"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Vaporizer Dark & Light Themes (Vaporizer Alice Light)"
+  contrast:
+    fg: 65.7
+    black: 10.2
+    red: 17.6
+    green: 42.6
+    yellow: 33.7
+    blue: 0
+    magenta: 17
+    cyan: 31
+    white: 0
+    brightBlack: 12.9
+    brightRed: 17.6
+    brightGreen: 51.3
+    brightYellow: 51.2
+    brightBlue: 0
+    brightMagenta: 17
+    brightCyan: 31
+    brightWhite: 43.4

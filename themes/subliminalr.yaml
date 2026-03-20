@@ -1,0 +1,53 @@
+name: "SubliminalR"
+source:
+  marketplace_id: "TobiasTimm.subliminalr"
+  version: "0.3.2"
+  installs: 2782
+  rating: 5
+  ratings: 3
+  author: "Tobias Timm"
+  repo: "https://github.com/tobiastimm/subliminalr"
+  url: "https://marketplace.visualstudio.com/items?itemName=TobiasTimm.subliminalr"
+  formats: null
+colors:
+  bg: "#2A2D37"
+  fg: "#D4D4D4"
+  black: "#7F7F7F"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FFE2A9"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FFE2A9"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 76
+    black: 29.8
+    red: 34.4
+    green: 61.4
+    yellow: 86.7
+    blue: 40.7
+    magenta: 48.5
+    cyan: 49.5
+    white: 76
+    brightBlack: 29.8
+    brightRed: 34.4
+    brightGreen: 61.4
+    brightYellow: 86.7
+    brightBlue: 40.7
+    brightMagenta: 48.5
+    brightCyan: 49.5
+    brightWhite: 76

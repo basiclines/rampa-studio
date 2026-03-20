@@ -1,0 +1,53 @@
+name: "Terrarium Minimal (Light)"
+source:
+  marketplace_id: "appliedscience.terrarium-theme"
+  version: "0.4.7"
+  installs: 73
+  rating: 0
+  ratings: 0
+  author: "Applied Science"
+  repo: "https://github.com/appliedsciencegroup/terrarium-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=appliedscience.terrarium-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#4F5252"
+  black: "#4F5252"
+  red: "#D83933"
+  green: "#5C7B57"
+  yellow: "#E0A030"
+  blue: "#E0CF8E"
+  magenta: "#E0CF8E"
+  cyan: "#5C7B57"
+  white: "#FFFFFF"
+  brightBlack: "#4F5252"
+  brightRed: "#D83933"
+  brightGreen: "#5C7B57"
+  brightYellow: "#E0A030"
+  brightBlue: "#E0CF8E"
+  brightMagenta: "#E0CF8E"
+  brightCyan: "#5C7B57"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Terrarium Minimal (Dark)"
+  contrast:
+    fg: 87.4
+    black: 87.4
+    red: 70.6
+    green: 72.9
+    yellow: 44.6
+    blue: 25.5
+    magenta: 25.5
+    cyan: 72.9
+    white: 0
+    brightBlack: 87.4
+    brightRed: 70.6
+    brightGreen: 72.9
+    brightYellow: 44.6
+    brightBlue: 25.5
+    brightMagenta: 25.5
+    brightCyan: 72.9
+    brightWhite: 0

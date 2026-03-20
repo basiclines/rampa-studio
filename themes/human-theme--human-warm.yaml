@@ -1,0 +1,53 @@
+name: "Human Theme (Human Warm)"
+source:
+  marketplace_id: "TomHall.human-theme"
+  version: "1.1.1"
+  installs: 99
+  rating: 0
+  ratings: 0
+  author: "Tom Hall"
+  repo: "https://github.com/tom-f-hall/human-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TomHall.human-theme"
+  formats: null
+colors:
+  bg: "#F5F0E8"
+  fg: "#2D2520"
+  black: "#E8DED0"
+  red: "#9A4A2A"
+  green: "#357A2F"
+  yellow: "#7A5B1F"
+  blue: "#2A6F5F"
+  magenta: "#9A5040"
+  cyan: "#357A6A"
+  white: "#6B5F52"
+  brightBlack: "#B8AA90"
+  brightRed: "#B85545"
+  brightGreen: "#357A25"
+  brightYellow: "#7A5B1F"
+  brightBlue: "#3D7A6F"
+  brightMagenta: "#B85545"
+  brightCyan: "#3D7A6F"
+  brightWhite: "#2D2520"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: "Human Theme (Human Low Light)"
+  contrast:
+    fg: 93.3
+    black: 7.7
+    red: 71.8
+    green: 67.4
+    yellow: 72.5
+    blue: 70.8
+    magenta: 70.2
+    cyan: 66.2
+    white: 72.3
+    brightBlack: 36.4
+    brightRed: 63.8
+    brightGreen: 67.4
+    brightYellow: 72.5
+    brightBlue: 65.7
+    brightMagenta: 63.8
+    brightCyan: 65.7
+    brightWhite: 93.3

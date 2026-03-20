@@ -1,0 +1,53 @@
+name: "Super Dark Cyberpunk Purple"
+source:
+  marketplace_id: "JFeser.darkercolor"
+  version: "2.1.0"
+  installs: 13
+  rating: 0
+  ratings: 0
+  author: "J. Feser"
+  repo: "https://github.com/redo7370/darkercolors"
+  url: "https://marketplace.visualstudio.com/items?itemName=JFeser.darkercolor"
+  formats: null
+colors:
+  bg: "#0A0510"
+  fg: "#F2F2F2"
+  black: "#0D0614"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FF6600"
+  blue: "#00CCCC"
+  magenta: "#CC00CC"
+  cyan: "#00CCCC"
+  white: "#F2F2F2"
+  brightBlack: "#110817"
+  brightRed: "#FF6666"
+  brightGreen: "#66FF66"
+  brightYellow: "#FF8533"
+  brightBlue: "#00FFFF"
+  brightMagenta: "#FF33FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 306
+  pair: null
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 37.5
+    green: 86.4
+    yellow: 46.9
+    blue: 64.3
+    magenta: 31.3
+    cyan: 64.3
+    white: 99.3
+    brightBlack: 0
+    brightRed: 47.8
+    brightGreen: 88.9
+    brightYellow: 54.7
+    brightBlue: 92.1
+    brightMagenta: 47.8
+    brightCyan: 92.1
+    brightWhite: 99.3

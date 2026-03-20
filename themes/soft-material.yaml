@@ -1,0 +1,53 @@
+name: "Soft Material"
+source:
+  marketplace_id: "sainnhe.soft-material"
+  version: "0.1.1"
+  installs: 981
+  rating: 5
+  ratings: 1
+  author: "sainnhe"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.soft-material"
+  formats: null
+colors:
+  bg: "#F9F5F5"
+  fg: "#BE9898"
+  black: "#BE9898"
+  red: "#F165BD"
+  green: "#96AD01"
+  yellow: "#EC9157"
+  blue: "#75A9D9"
+  magenta: "#AEA6E1"
+  cyan: "#25B7B8"
+  white: "#DFC5C5"
+  brightBlack: "#BE9898"
+  brightRed: "#F165BD"
+  brightGreen: "#96AD01"
+  brightYellow: "#EC9157"
+  brightBlue: "#75A9D9"
+  brightMagenta: "#AEA6E1"
+  brightCyan: "#25B7B8"
+  brightWhite: "#F4F0F0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 45
+    black: 45
+    red: 48.6
+    green: 44.1
+    yellow: 41.5
+    blue: 43.4
+    magenta: 38.8
+    cyan: 42.4
+    white: 22.4
+    brightBlack: 45
+    brightRed: 48.6
+    brightGreen: 44.1
+    brightYellow: 41.5
+    brightBlue: 43.4
+    brightMagenta: 38.8
+    brightCyan: 42.4
+    brightWhite: 0

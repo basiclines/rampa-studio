@@ -1,0 +1,53 @@
+name: "ICC Light Theme"
+source:
+  marketplace_id: "icatalina.vscode-icc-theme"
+  version: "1.1.1"
+  installs: 706
+  rating: 0
+  ratings: 0
+  author: "icatalina"
+  repo: "https://github.com/icatalina/vscode-icc-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=icatalina.vscode-icc-theme"
+  formats: null
+colors:
+  bg: "#F9F9FB"
+  fg: "#1A1A1A"
+  black: "#1A1A1A"
+  red: "#C91B00"
+  green: "#00A200"
+  yellow: "#F97D00"
+  blue: "#0361D3"
+  magenta: "#B21CAA"
+  cyan: "#00C5C7"
+  white: "#C7C7C7"
+  brightBlack: "#1A1A1A"
+  brightRed: "#C91B00"
+  brightGreen: "#00A200"
+  brightYellow: "#F97D00"
+  brightBlue: "#0361D3"
+  brightMagenta: "#B21CAA"
+  brightCyan: "#00C5C7"
+  brightWhite: "#C7C7C7"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.8
+    black: 100.8
+    red: 73.2
+    green: 57.2
+    yellow: 47.2
+    blue: 74.4
+    magenta: 73.7
+    cyan: 37.8
+    white: 26.6
+    brightBlack: 100.8
+    brightRed: 73.2
+    brightGreen: 57.2
+    brightYellow: 47.2
+    brightBlue: 74.4
+    brightMagenta: 73.7
+    brightCyan: 37.8
+    brightWhite: 26.6

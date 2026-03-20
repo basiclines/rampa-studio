@@ -1,0 +1,53 @@
+name: "dull-sun-light"
+source:
+  marketplace_id: "DullSun.dull-sun"
+  version: "0.0.3"
+  installs: 521
+  rating: 0
+  ratings: 0
+  author: "Dull Sun"
+  repo: "https://github.com/leutzed/Dull-Sun-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DullSun.dull-sun"
+  formats: null
+colors:
+  bg: "#212733"
+  fg: "#CCCAC2"
+  black: "#171B24"
+  red: "#ED8274"
+  green: "#87D96C"
+  yellow: "#FACC6E"
+  blue: "#6DCBFA"
+  magenta: "#DABAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#D5FF80"
+  brightYellow: "#FFD173"
+  brightBlue: "#569CD6"
+  brightMagenta: "#DFBFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 71.2
+    black: 0
+    red: 48.1
+    green: 68.5
+    yellow: 76.3
+    blue: 65.7
+    magenta: 69.3
+    cyan: 75.6
+    white: 69.5
+    brightBlack: 20.6
+    brightRed: 50.6
+    brightGreen: 95
+    brightYellow: 79.3
+    brightBlue: 42.7
+    brightMagenta: 72.3
+    brightCyan: 78.6
+    brightWhite: 104.6

@@ -1,0 +1,53 @@
+name: "WL-Pixel Punch"
+source:
+  marketplace_id: "WatkinsLabs.pixel-punch"
+  version: "1.0.1"
+  installs: 50
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.pixel-punch"
+  formats: null
+colors:
+  bg: "#0A063B"
+  fg: "#D8E0EA"
+  black: "#000000"
+  red: "#E82741"
+  green: "#1ED2F4"
+  yellow: "#F0DF2D"
+  blue: "#1ED2F4"
+  magenta: "#F0DF2D"
+  cyan: "#1ED2F4"
+  white: "#D8E0EA"
+  brightBlack: "#666666"
+  brightRed: "#E82741"
+  brightGreen: "#1ED2F4"
+  brightYellow: "#F0DF2D"
+  brightBlue: "#1ED2F4"
+  brightMagenta: "#F0DF2D"
+  brightCyan: "#1ED2F4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 32.5
+    green: 68.7
+    yellow: 84.8
+    blue: 68.7
+    magenta: 84.8
+    cyan: 68.7
+    white: 86.5
+    brightBlack: 22.3
+    brightRed: 32.5
+    brightGreen: 68.7
+    brightYellow: 84.8
+    brightBlue: 68.7
+    brightMagenta: 84.8
+    brightCyan: 68.7
+    brightWhite: 107.1

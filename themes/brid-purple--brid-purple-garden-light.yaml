@@ -1,0 +1,53 @@
+name: "Brid · Purple (Brid Purple Garden Light)"
+source:
+  marketplace_id: "layon-extensions.brid-purple-garden"
+  version: "1.0.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "layon-extensions"
+  repo: "https://github.com/Fernando-Leon/theme-brid"
+  url: "https://marketplace.visualstudio.com/items?itemName=layon-extensions.brid-purple-garden"
+  formats: null
+colors:
+  bg: "#F4EEFF"
+  fg: "#2D1A4A"
+  black: "#2D1A4A"
+  red: "#D4202A"
+  green: "#2A8030"
+  yellow: "#CC6600"
+  blue: "#0066CC"
+  magenta: "#8A5CFF"
+  cyan: "#0088AA"
+  white: "#F4EEFF"
+  brightBlack: "#4A3380"
+  brightRed: "#FF4040"
+  brightGreen: "#40A040"
+  brightYellow: "#FF8800"
+  brightBlue: "#2288FF"
+  brightMagenta: "#B084FF"
+  brightCyan: "#00AACC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Brid · Purple (Brid Purple Garden Dark)"
+  contrast:
+    fg: 93.6
+    black: 93.6
+    red: 65.2
+    green: 65.4
+    yellow: 56.7
+    blue: 68.4
+    magenta: 59.4
+    cyan: 59.1
+    white: 0
+    brightBlack: 84.6
+    brightRed: 52
+    brightGreen: 51.7
+    brightYellow: 37.9
+    brightBlue: 53.1
+    brightMagenta: 44.6
+    brightCyan: 44
+    brightWhite: 0

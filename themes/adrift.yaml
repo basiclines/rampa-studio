@@ -1,0 +1,53 @@
+name: "Adrift"
+source:
+  marketplace_id: "JBoggsDev.adrift-theme"
+  version: "0.0.3"
+  installs: 268
+  rating: 0
+  ratings: 0
+  author: "JBoggsDev"
+  repo: "https://github.com/jaredb1011/VSCode-Theme-Adrift"
+  url: "https://marketplace.visualstudio.com/items?itemName=JBoggsDev.adrift-theme"
+  formats: null
+colors:
+  bg: "#061115"
+  fg: "#DDD6C2"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#3D624C"
+  yellow: "#BFA26B"
+  blue: "#24A9C8"
+  magenta: "#AA69E0"
+  cyan: "#20B8B8"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#CB645D"
+  brightGreen: "#66987B"
+  brightYellow: "#BDA02C"
+  brightBlue: "#63B7F5"
+  brightMagenta: "#DE95D9"
+  brightCyan: "#29DBCA"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 222
+  pair: null
+  contrast:
+    fg: 81.4
+    black: 0
+    red: 27.3
+    green: 17.8
+    yellow: 53.5
+    blue: 48.5
+    magenta: 37.8
+    cyan: 54.1
+    white: 90.6
+    brightBlack: 22.6
+    brightRed: 36.1
+    brightGreen: 40.8
+    brightYellow: 51.7
+    brightBlue: 59
+    brightMagenta: 57.9
+    brightCyan: 71.3
+    brightWhite: 90.6

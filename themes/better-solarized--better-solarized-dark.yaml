@@ -1,0 +1,54 @@
+name: "Better Solarized (Better Solarized Dark)"
+source:
+  marketplace_id: "ginfuru.ginfuru-better-solarized-dark-theme"
+  version: "0.10.9"
+  installs: 146812
+  rating: 4.84
+  ratings: 19
+  author: "Ed Heltzel"
+  repo: "https://github.com/ginfuru/vscode-better-solarized"
+  url: "https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-better-solarized-dark-theme"
+  formats:
+    zed: "https://raw.githubusercontent.com/ginfuru/vscode-better-solarized/master/old-themes/better-selenized-dark.json"
+colors:
+  bg: "#002B36"
+  fg: "#839496"
+  black: "#EEE8D5"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#073642"
+  brightBlack: "#FDF6E3"
+  brightRed: "#CB4B16"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#268BD2"
+  brightWhite: "#002B36"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  pair: null
+  contrast:
+    fg: 39.5
+    black: 89.5
+    red: 27.7
+    green: 39.2
+    yellow: 39.2
+    blue: 34.3
+    magenta: 28
+    cyan: 40
+    white: 0
+    brightBlack: 98.6
+    brightRed: 27.2
+    brightGreen: 39.2
+    brightYellow: 39.2
+    brightBlue: 39.5
+    brightMagenta: 28
+    brightCyan: 34.3
+    brightWhite: 0

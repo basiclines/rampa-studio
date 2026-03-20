@@ -1,0 +1,53 @@
+name: "Tlapalli l-06: Jade Light"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+  formats: null
+colors:
+  bg: "#F4F8F6"
+  fg: "#3C7159"
+  black: "#F4F8F6"
+  red: "#62A582"
+  green: "#80C2A2"
+  yellow: "#267044"
+  blue: "#B2D5C6"
+  magenta: "#428F6B"
+  cyan: "#61AF8B"
+  white: "#1C6237"
+  brightBlack: "#C7E1D2"
+  brightRed: "#62A582"
+  brightGreen: "#80C2A2"
+  brightYellow: "#267044"
+  brightBlue: "#B2D5C6"
+  brightMagenta: "#428F6B"
+  brightCyan: "#61AF8B"
+  brightWhite: "#005C21"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.5
+    black: 0
+    red: 50.5
+    green: 35.5
+    yellow: 75.1
+    blue: 21.9
+    magenta: 61.5
+    cyan: 46.2
+    white: 80.5
+    brightBlack: 14.1
+    brightRed: 50.5
+    brightGreen: 35.5
+    brightYellow: 75.1
+    brightBlue: 21.9
+    brightMagenta: 61.5
+    brightCyan: 46.2
+    brightWhite: 83.1

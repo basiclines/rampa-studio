@@ -1,0 +1,53 @@
+name: "Iceberg"
+source:
+  marketplace_id: "harg.iceberg"
+  version: "1.2.0"
+  installs: 27193
+  rating: 5
+  ratings: 2
+  author: "harg"
+  repo: "https://github.com/harg/iceberg-visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=harg.iceberg"
+  formats: null
+colors:
+  bg: "#161821"
+  fg: "#C6C8D1"
+  black: "#1E2132"
+  red: "#E27878"
+  green: "#B4BE82"
+  yellow: "#E2A478"
+  blue: "#84A0C6"
+  magenta: "#A093C7"
+  cyan: "#89B8C2"
+  white: "#C6C8D1"
+  brightBlack: "#7D8199"
+  brightRed: "#E27878"
+  brightGreen: "#B4BE82"
+  brightYellow: "#E2A478"
+  brightBlue: "#84A0C6"
+  brightMagenta: "#A093C7"
+  brightCyan: "#89B8C2"
+  brightWhite: "#C6C8D1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 72.3
+    black: 0
+    red: 45.4
+    green: 63.1
+    yellow: 59.2
+    blue: 48.6
+    magenta: 46.8
+    cyan: 58.5
+    white: 72.3
+    brightBlack: 34.6
+    brightRed: 45.4
+    brightGreen: 63.1
+    brightYellow: 59.2
+    brightBlue: 48.6
+    brightMagenta: 46.8
+    brightCyan: 58.5
+    brightWhite: 72.3

@@ -1,0 +1,53 @@
+name: "Slimy (light)"
+source:
+  marketplace_id: "chancestrickland.slimy-theme"
+  version: "0.4.8"
+  installs: 865
+  rating: 5
+  ratings: 1
+  author: "Chance Strickland"
+  repo: "https://github.com/chancestrickland/slimy"
+  url: "https://marketplace.visualstudio.com/items?itemName=chancestrickland.slimy-theme"
+  formats: null
+colors:
+  bg: "#F4F4F4"
+  fg: "#121515"
+  black: "#121515"
+  red: "#9B4040"
+  green: "#749948"
+  yellow: "#60572F"
+  blue: "#427C8E"
+  magenta: "#967176"
+  cyan: "#4BADC4"
+  white: "#EAEAEA"
+  brightBlack: "#070C0C"
+  brightRed: "#AB4E4C"
+  brightGreen: "#82A755"
+  brightYellow: "#6E643B"
+  brightBlue: "#508A9C"
+  brightMagenta: "#A47F84"
+  brightCyan: "#5CBCD3"
+  brightWhite: "#DFDFDF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Slimy"
+  contrast:
+    fg: 98.5
+    black: 98.5
+    red: 75.3
+    green: 53.5
+    yellow: 78.5
+    blue: 65.7
+    magenta: 62.9
+    cyan: 44
+    white: 0
+    brightBlack: 99.2
+    brightRed: 69.6
+    brightGreen: 46.7
+    brightYellow: 73
+    brightBlue: 59.3
+    brightMagenta: 56.3
+    brightCyan: 36.3
+    brightWhite: 9.8

@@ -1,0 +1,53 @@
+name: "XSTheme"
+source:
+  marketplace_id: "JoseXS.xstheme"
+  version: "0.0.3"
+  installs: 787
+  rating: 5
+  ratings: 3
+  author: "JoseXS"
+  repo: "https://github.com/josexs/vscode-xstheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JoseXS.xstheme"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#FB5245"
+  green: "#CC0000"
+  yellow: "#FAC149"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#CCCCCC"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#CC0000"
+  brightYellow: "#F5F543"
+  brightBlue: "#95B7F7"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.8
+    black: 0
+    red: 40.9
+    green: 23.4
+    yellow: 72.7
+    blue: 26.6
+    magenta: 28.9
+    cyan: 46.7
+    white: 73.8
+    brightBlack: 21.2
+    brightRed: 37.7
+    brightGreen: 23.4
+    brightYellow: 94.8
+    brightBlue: 61.3
+    brightMagenta: 44.5
+    brightCyan: 54.6
+    brightWhite: 89.2

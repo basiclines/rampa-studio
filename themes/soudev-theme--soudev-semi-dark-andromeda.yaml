@@ -1,0 +1,53 @@
+name: "Soudev Theme (Soudev semi dark Andromeda)"
+source:
+  marketplace_id: "soudev.soudev-theme"
+  version: "1.0.3"
+  installs: 11544
+  rating: 5
+  ratings: 1
+  author: "soudev"
+  repo: "https://github.com/jefersonpassos/soudev-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=soudev.soudev-theme"
+  formats: null
+colors:
+  bg: "#2B2331"
+  fg: "#FFFFFF"
+  black: "#2B2331"
+  red: "#F7005B"
+  green: "#46D028"
+  yellow: "#DDCB0A"
+  blue: "#EF8354"
+  magenta: "#A100DF"
+  cyan: "#40B4BB"
+  white: "#FFFFFF"
+  brightBlack: "#4A4F53"
+  brightRed: "#F7005B"
+  brightGreen: "#46D028"
+  brightYellow: "#DDCB0A"
+  brightBlue: "#EF8354"
+  brightMagenta: "#A100DF"
+  brightCyan: "#40B4BB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 310
+  pair: null
+  contrast:
+    fg: 104.8
+    black: 0
+    red: 33.2
+    green: 60.2
+    yellow: 70.8
+    blue: 48.3
+    magenta: 21.8
+    cyan: 50.4
+    white: 104.8
+    brightBlack: 10.4
+    brightRed: 33.2
+    brightGreen: 60.2
+    brightYellow: 70.8
+    brightBlue: 48.3
+    brightMagenta: 21.8
+    brightCyan: 50.4
+    brightWhite: 104.8

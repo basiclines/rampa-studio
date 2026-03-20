@@ -1,0 +1,53 @@
+name: "calming-coding-dark-theme"
+source:
+  marketplace_id: "CalmingCoding.calming-coding"
+  version: "1.0.2"
+  installs: 58
+  rating: 0
+  ratings: 0
+  author: "Calming Coding"
+  repo: "https://github.com/tianrodez/calming-coding"
+  url: "https://marketplace.visualstudio.com/items?itemName=CalmingCoding.calming-coding"
+  formats: null
+colors:
+  bg: "#282523"
+  fg: "#D7C8B6"
+  black: "#211F1D"
+  red: "#D95B5B"
+  green: "#98C379"
+  yellow: "#D17D3B"
+  blue: "#81A1C1"
+  magenta: "#B58DAE"
+  cyan: "#5FADAD"
+  white: "#A1988E"
+  brightBlack: "#615B51"
+  brightRed: "#E06C75"
+  brightGreen: "#A4D489"
+  brightYellow: "#E08B41"
+  brightBlue: "#88C0D0"
+  brightMagenta: "#C678DD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#D7C8B6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 71.6
+    black: 0
+    red: 34.3
+    green: 60.3
+    yellow: 40.7
+    blue: 46.6
+    magenta: 44.3
+    cyan: 48.2
+    white: 44.3
+    brightBlack: 15.8
+    brightRed: 40.1
+    brightGreen: 69.5
+    brightYellow: 47.7
+    brightBlue: 60.7
+    brightMagenta: 43.1
+    brightCyan: 60.7
+    brightWhite: 71.6

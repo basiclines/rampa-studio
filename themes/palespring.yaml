@@ -1,0 +1,53 @@
+name: "palespring"
+source:
+  marketplace_id: "palespring.palespring"
+  version: "0.0.1"
+  installs: 255
+  rating: 0
+  ratings: 0
+  author: "lucast"
+  repo: "https://github.com/luciantr24/palespring"
+  url: "https://marketplace.visualstudio.com/items?itemName=palespring.palespring"
+  formats: null
+colors:
+  bg: "#006A8B"
+  fg: "#FFFBF8"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#489FFF"
+  magenta: "#BC3FBC"
+  cyan: "#35D4FB"
+  white: "#E5E5E5"
+  brightBlack: "#AAA4A4"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#65AEFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 228
+  pair: null
+  contrast:
+    fg: 82.9
+    black: 24.1
+    red: 0
+    green: 31.3
+    yellow: 63.9
+    blue: 26.6
+    magenta: 8
+    cyan: 48.4
+    white: 68.3
+    brightBlack: 31
+    brightRed: 16.8
+    brightGreen: 41.8
+    brightYellow: 73.9
+    brightBlue: 33.8
+    brightMagenta: 23.6
+    brightCyan: 33.7
+    brightWhite: 68.3

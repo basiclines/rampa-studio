@@ -1,0 +1,53 @@
+name: "Ahoy theme"
+source:
+  marketplace_id: "alexNeto.ahoy-theme"
+  version: "0.0.4"
+  installs: 872
+  rating: 5
+  ratings: 1
+  author: "alexNeto"
+  repo: "https://github.com/alexNeto/ahoy-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=alexNeto.ahoy-theme"
+  formats: null
+colors:
+  bg: "#1D1C1A"
+  fg: "#ECECEC"
+  black: "#414141"
+  red: "#FF7F7F"
+  green: "#A7E18C"
+  yellow: "#FFD166"
+  blue: "#81BECB"
+  magenta: "#B497FF"
+  cyan: "#8AE1FC"
+  white: "#ECECEC"
+  brightBlack: "#414141"
+  brightRed: "#FFC1C1"
+  brightGreen: "#C1E0A2"
+  brightYellow: "#FFFF93"
+  brightBlue: "#99C2CA"
+  brightMagenta: "#CBB9FF"
+  brightCyan: "#A9FFFF"
+  brightWhite: "#ECECEC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.9
+    black: 0
+    red: 52.8
+    green: 77.4
+    yellow: 80.8
+    blue: 60.4
+    magenta: 53.6
+    cyan: 79.4
+    white: 93.9
+    brightBlack: 0
+    brightRed: 76.7
+    brightGreen: 80.2
+    brightYellow: 102.5
+    brightBlue: 64.1
+    brightMagenta: 68.9
+    brightCyan: 96.6
+    brightWhite: 93.9

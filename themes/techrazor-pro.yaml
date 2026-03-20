@@ -1,0 +1,53 @@
+name: "TechRazor Pro"
+source:
+  marketplace_id: "tech-razor.techrazor-pro-theme"
+  version: "1.0.3"
+  installs: 172
+  rating: 0
+  ratings: 0
+  author: "Tech Razor"
+  repo: "https://github.com/tech-razor/techrazor-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tech-razor.techrazor-pro-theme"
+  formats: null
+colors:
+  bg: "#392A48"
+  fg: "#FAF9F6"
+  black: "#6A6A6A"
+  red: "#FF6D67"
+  green: "#00C200"
+  yellow: "#FEFB67"
+  blue: "#1F75FE"
+  magenta: "#FFC7EA"
+  cyan: "#5FFDFF"
+  white: "#FAF9F6"
+  brightBlack: "#9A9A9A"
+  brightRed: "#FF6D67"
+  brightGreen: "#5FF967"
+  brightYellow: "#FFFF00"
+  brightBlue: "#1F75FE"
+  brightMagenta: "#FFC7EA"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 306
+  pair: null
+  contrast:
+    fg: 98.6
+    black: 19.5
+    red: 44.2
+    green: 50.3
+    yellow: 96
+    blue: 28.4
+    magenta: 77.2
+    cyan: 87.4
+    white: 98.6
+    brightBlack: 42.4
+    brightRed: 44.2
+    brightGreen: 80.3
+    brightYellow: 97.4
+    brightBlue: 28.4
+    brightMagenta: 77.2
+    brightCyan: 86.9
+    brightWhite: 102.6

@@ -1,0 +1,53 @@
+name: "Gloam"
+source:
+  marketplace_id: "exthitblast.gloam"
+  version: "1.2.2"
+  installs: 285
+  rating: 0
+  ratings: 0
+  author: "hitblast_"
+  repo: "https://github.com/hitblast/Gloam"
+  url: "https://marketplace.visualstudio.com/items?itemName=exthitblast.gloam"
+  formats: null
+colors:
+  bg: "#0E0E0E"
+  fg: "#FFFDF2"
+  black: "#0E0E0E"
+  red: "#FFA0A0"
+  green: "#C0DC99"
+  yellow: "#FFDA97"
+  blue: "#B2CCD6"
+  magenta: "#E3D3F1"
+  cyan: "#B0E2FF"
+  white: "#FFFDF2"
+  brightBlack: "#0E0E0E"
+  brightRed: "#FFC2CC"
+  brightGreen: "#D7F7A9"
+  brightYellow: "#FFDA97"
+  brightBlue: "#CBE8F3"
+  brightMagenta: "#D8BAF4"
+  brightCyan: "#C5EAFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 0
+    red: 64.9
+    green: 79.2
+    yellow: 86.9
+    blue: 72.8
+    magenta: 83.1
+    cyan: 84.5
+    white: 106
+    brightBlack: 0
+    brightRed: 78.8
+    brightGreen: 95.2
+    brightYellow: 86.9
+    brightBlue: 89.5
+    brightMagenta: 71.6
+    brightCyan: 90.4
+    brightWhite: 107.6

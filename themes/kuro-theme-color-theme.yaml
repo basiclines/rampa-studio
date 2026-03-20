@@ -1,0 +1,53 @@
+name: "kuro_theme-color-theme"
+source:
+  marketplace_id: "kuroanh.kuro-theme"
+  version: "1.3.2"
+  installs: 343
+  rating: 0
+  ratings: 0
+  author: "kuro_anh"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=kuroanh.kuro-theme"
+  formats: null
+colors:
+  bg: "#181A1F"
+  fg: "#BBBBBB"
+  black: "#181A1F"
+  red: "#C13838"
+  green: "#18B576"
+  yellow: "#C9A022"
+  blue: "#2196F3"
+  magenta: "#CC71BC"
+  cyan: "#24B5A8"
+  white: "#BBBBBB"
+  brightBlack: "#2196F3"
+  brightRed: "#C13838"
+  brightGreen: "#18B576"
+  brightYellow: "#C9A022"
+  brightBlue: "#2196F3"
+  brightMagenta: "#CC71BC"
+  brightCyan: "#24B5A8"
+  brightWhite: "#BBBBBB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 64.4
+    black: 0
+    red: 24.7
+    green: 49.5
+    yellow: 52.5
+    blue: 42.7
+    magenta: 42.1
+    cyan: 51.2
+    white: 64.4
+    brightBlack: 42.7
+    brightRed: 24.7
+    brightGreen: 49.5
+    brightYellow: 52.5
+    brightBlue: 42.7
+    brightMagenta: 42.1
+    brightCyan: 51.2
+    brightWhite: 64.4

@@ -1,0 +1,53 @@
+name: "Smit Monokai Inspired"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#272822"
+  fg: "#F8F8F2"
+  black: "#48483E"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#E6DB74"
+  blue: "#66D9EF"
+  magenta: "#AE81FF"
+  cyan: "#A1EFE4"
+  white: "#F8F8F2"
+  brightBlack: "#75715E"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E6DB74"
+  brightBlue: "#66D9EF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#A1EFE4"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 115
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 7.7
+    red: 35
+    green: 74.7
+    yellow: 79.7
+    blue: 71.1
+    magenta: 44.2
+    cyan: 85
+    white: 99.6
+    brightBlack: 24.3
+    brightRed: 35
+    brightGreen: 74.7
+    brightYellow: 79.7
+    brightBlue: 71.1
+    brightMagenta: 44.2
+    brightCyan: 85
+    brightWhite: 99.6

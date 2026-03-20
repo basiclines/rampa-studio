@@ -1,0 +1,53 @@
+name: "Vaporizer Dark & Light Themes (Vaporizer Dark Turquoise)"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35761
+  rating: 5
+  ratings: 6
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+  formats: null
+colors:
+  bg: "#191919"
+  fg: "#9BC793"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC64"
+  yellow: "#949800"
+  blue: "#5F9FE6"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#00BC64"
+  brightYellow: "#B5BA00"
+  brightBlue: "#3F75B0"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Vaporizer Dark & Light Themes (Vaporizer Turquoise Light)"
+  contrast:
+    fg: 64.8
+    black: 0
+    red: 26.5
+    green: 52.3
+    yellow: 42.6
+    blue: 47.4
+    magenta: 25.9
+    cyan: 39.9
+    white: 14.9
+    brightBlack: 21.8
+    brightRed: 26.5
+    brightGreen: 52.3
+    brightYellow: 60.1
+    brightBlue: 27.4
+    brightMagenta: 25.9
+    brightCyan: 39.9
+    brightWhite: 52.3

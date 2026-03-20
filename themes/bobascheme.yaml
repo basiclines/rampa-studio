@@ -1,0 +1,53 @@
+name: "bobascheme"
+source:
+  marketplace_id: "bbaovanc.bobascheme"
+  version: "0.0.3"
+  installs: 35
+  rating: 0
+  ratings: 0
+  author: "BBaoVanC"
+  repo: "https://github.com/BBaoVanC/bobascheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bbaovanc.bobascheme"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#D4D4D4"
+  black: "#2B2B2B"
+  red: "#B04744"
+  green: "#167A42"
+  yellow: "#8C6110"
+  blue: "#216DBF"
+  magenta: "#9F4B95"
+  cyan: "#29757F"
+  white: "#BFBFBF"
+  brightBlack: "#5E5E5E"
+  brightRed: "#EB7C74"
+  brightGreen: "#54B073"
+  brightYellow: "#B78738"
+  brightBlue: "#66A1F8"
+  brightMagenta: "#D87FCC"
+  brightCyan: "#61AAB3"
+  brightWhite: "#E9E9E9"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 24.6
+    green: 24.8
+    yellow: 24.1
+    blue: 25.7
+    magenta: 25
+    cyan: 25
+    white: 67.5
+    brightBlack: 19.2
+    brightRed: 48.8
+    brightGreen: 49.5
+    brightYellow: 42
+    brightBlue: 50.5
+    brightMagenta: 49.5
+    brightCyan: 49.8
+    brightWhite: 93.1

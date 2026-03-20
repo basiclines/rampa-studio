@@ -1,0 +1,53 @@
+name: "Squeak"
+source:
+  marketplace_id: "LinqLover.squeak-theme"
+  version: "0.0.1"
+  installs: 372
+  rating: 5
+  ratings: 3
+  author: "LinqLover"
+  repo: "https://github.com/LinqLover/vscode-squeak-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LinqLover.squeak-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF8888"
+  brightGreen: "#88FF88"
+  brightYellow: "#FFFF88"
+  brightBlue: "#8888FF"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 64.1
+    green: 17.1
+    yellow: 0
+    blue: 85.8
+    magenta: 74.6
+    cyan: 60.6
+    white: 0
+    brightBlack: 78.8
+    brightRed: 45
+    brightGreen: 12.5
+    brightYellow: 0
+    brightBlue: 56.4
+    brightMagenta: 74.6
+    brightCyan: 60.6
+    brightWhite: 48.5

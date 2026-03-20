@@ -1,0 +1,53 @@
+name: "Tranquillity Theme"
+source:
+  marketplace_id: "OmerFarukGungor.tranquillity-code"
+  version: "0.0.3"
+  installs: 179
+  rating: 5
+  ratings: 1
+  author: "Omer Faruk Gungor"
+  repo: "https://github.com/o-fgungor/tranquility-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OmerFarukGungor.tranquillity-code"
+  formats: null
+colors:
+  bg: "#1F2125"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 58.1
+    black: 7.6
+    red: 35.5
+    green: 59.1
+    yellow: 47.3
+    blue: 48.4
+    magenta: 37.8
+    cyan: 51.3
+    white: 81.8
+    brightBlack: 14.2
+    brightRed: 44.8
+    brightGreen: 75.5
+    brightYellow: 60
+    brightBlue: 62.5
+    brightMagenta: 49
+    brightCyan: 66.6
+    brightWhite: 89.4

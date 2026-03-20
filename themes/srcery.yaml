@@ -1,0 +1,53 @@
+name: "Srcery"
+source:
+  marketplace_id: "gagbo.srcery"
+  version: "0.2.0"
+  installs: 1726
+  rating: 5
+  ratings: 1
+  author: "gagbo"
+  repo: "https://github.com/gagbo/vscode-srcery"
+  url: "https://marketplace.visualstudio.com/items?itemName=gagbo.srcery"
+  formats: null
+colors:
+  bg: "#1C1B19"
+  fg: "#FCE8C3"
+  black: "#1C1B19"
+  red: "#EF2F27"
+  green: "#519F50"
+  yellow: "#FBB829"
+  blue: "#2C78BF"
+  magenta: "#E02C6D"
+  cyan: "#0AAEB3"
+  white: "#918175"
+  brightBlack: "#2D2C29"
+  brightRed: "#F75341"
+  brightGreen: "#98BC37"
+  brightYellow: "#FED06E"
+  brightBlue: "#68A8E4"
+  brightMagenta: "#FF5C8F"
+  brightCyan: "#53FDE9"
+  brightWhite: "#FCE8C3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.8
+    black: 0
+    red: 33.8
+    green: 40.5
+    yellow: 69.5
+    blue: 28.5
+    magenta: 31.2
+    cyan: 48.3
+    white: 35.1
+    brightBlack: 0
+    brightRed: 40.5
+    brightGreen: 57.7
+    brightYellow: 80.4
+    brightBlue: 51.1
+    brightMagenta: 45.6
+    brightCyan: 89.7
+    brightWhite: 92.8

@@ -1,0 +1,53 @@
+name: "Lumina theme"
+source:
+  marketplace_id: "Gustavo2022003.lumina-theme-dark"
+  version: "1.0.3"
+  installs: 525
+  rating: 0
+  ratings: 0
+  author: "Gustavo2022003"
+  repo: "https://github.com/Gustavo2022003/Lumina"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gustavo2022003.lumina-theme-dark"
+  formats: null
+colors:
+  bg: "#1B1B1B"
+  fg: "#D3D3D3"
+  black: "#000000"
+  red: "#EC2929"
+  green: "#0DBC79"
+  yellow: "#DBFF00"
+  blue: "#2472C8"
+  magenta: "#C03FFD"
+  cyan: "#11A8CD"
+  white: "#D9D9D9"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#EDFF7E"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#DB8EFF"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.4
+    black: 0
+    red: 32.7
+    green: 52.6
+    yellow: 96.5
+    blue: 27
+    magenta: 34.9
+    cyan: 47.1
+    white: 82.1
+    brightBlack: 21.6
+    brightRed: 38.1
+    brightGreen: 63.1
+    brightYellow: 99.7
+    brightBlue: 39.6
+    brightMagenta: 56.5
+    brightCyan: 54.9
+    brightWhite: 89.6

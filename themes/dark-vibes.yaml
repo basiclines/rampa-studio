@@ -1,0 +1,53 @@
+name: "Dark Vibes"
+source:
+  marketplace_id: "rishabkumar.dark-vibes-theme"
+  version: "0.1.3"
+  installs: 81
+  rating: 0
+  ratings: 0
+  author: "Rishab Kumar"
+  repo: "https://github.com/rishabkumar7/dark-vibes"
+  url: "https://marketplace.visualstudio.com/items?itemName=rishabkumar.dark-vibes-theme"
+  formats: null
+colors:
+  bg: "#1E2433"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#F92672"
+  green: "#4EC9B0"
+  yellow: "#FFD700"
+  blue: "#569CD6"
+  magenta: "#C586C0"
+  cyan: "#4EC9B0"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#F92672"
+  brightGreen: "#4EC9B0"
+  brightYellow: "#FFD700"
+  brightBlue: "#569CD6"
+  brightMagenta: "#C586C0"
+  brightCyan: "#4EC9B0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 77.7
+    black: 0
+    red: 35.5
+    green: 60.2
+    yellow: 81.5
+    blue: 43.2
+    magenta: 45.5
+    cyan: 60.2
+    white: 105.1
+    brightBlack: 0
+    brightRed: 35.5
+    brightGreen: 60.2
+    brightYellow: 81.5
+    brightBlue: 43.2
+    brightMagenta: 45.5
+    brightCyan: 60.2
+    brightWhite: 105.1

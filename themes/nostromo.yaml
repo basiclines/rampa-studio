@@ -1,0 +1,53 @@
+name: "Nostromo"
+source:
+  marketplace_id: "martintheimer.nostromo-theme"
+  version: "1.0.2"
+  installs: 9919
+  rating: 5
+  ratings: 3
+  author: "Martin Theimer"
+  repo: "https://github.com/pappkamerad/nostromo-theme-visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=martintheimer.nostromo-theme"
+  formats: null
+colors:
+  bg: "#282E33"
+  fg: "#FDFAE9"
+  black: "#34404A"
+  red: "#E75D57"
+  green: "#87D68A"
+  yellow: "#F6E78A"
+  blue: "#6B9DD0"
+  magenta: "#AA97D3"
+  cyan: "#81D9C3"
+  white: "#BEBEB4"
+  brightBlack: "#415F73"
+  brightRed: "#E75D57"
+  brightGreen: "#87D68A"
+  brightYellow: "#F6E78A"
+  brightBlue: "#6B9DD0"
+  brightMagenta: "#AA97D3"
+  brightCyan: "#81D9C3"
+  brightWhite: "#FDFAE9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 243
+  pair: null
+  contrast:
+    fg: 99.7
+    black: 0
+    red: 36
+    green: 66.5
+    yellow: 86.8
+    blue: 42.8
+    magenta: 46.7
+    cyan: 69.4
+    white: 62.6
+    brightBlack: 14.2
+    brightRed: 36
+    brightGreen: 66.5
+    brightYellow: 86.8
+    brightBlue: 42.8
+    brightMagenta: 46.7
+    brightCyan: 69.4
+    brightWhite: 99.7

@@ -1,0 +1,53 @@
+name: "Maeel Theme"
+source:
+  marketplace_id: "Birdlinux.maeel-dark-theme"
+  version: "0.0.4"
+  installs: 428
+  rating: 0
+  ratings: 0
+  author: "Birdlinux"
+  repo: "https://github.com/birdlinux/maeel-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Birdlinux.maeel-dark-theme"
+  formats: null
+colors:
+  bg: "#1D1E2C"
+  fg: "#CDD6F4"
+  black: "#756E87"
+  red: "#8C82A6"
+  green: "#9F94BC"
+  yellow: "#ADA2C9"
+  blue: "#9F94BC"
+  magenta: "#CCC4E4"
+  cyan: "#DDD7EF"
+  white: "#F4F1FA"
+  brightBlack: "#756E87"
+  brightRed: "#8C82A6"
+  brightGreen: "#9F94BC"
+  brightYellow: "#ADA2C9"
+  brightBlue: "#9F94BC"
+  brightMagenta: "#CCC4E4"
+  brightCyan: "#DDD7EF"
+  brightWhite: "#F4F1FA"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 281
+  pair: null
+  contrast:
+    fg: 80
+    black: 26.1
+    red: 36.2
+    green: 45.6
+    yellow: 52.9
+    blue: 45.6
+    magenta: 71.5
+    cyan: 82.3
+    white: 97.5
+    brightBlack: 26.1
+    brightRed: 36.2
+    brightGreen: 45.6
+    brightYellow: 52.9
+    brightBlue: 45.6
+    brightMagenta: 71.5
+    brightCyan: 82.3
+    brightWhite: 97.5

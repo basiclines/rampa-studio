@@ -1,0 +1,53 @@
+name: "Malibun Sunrise"
+source:
+  marketplace_id: "wicked-labs.malibu"
+  version: "0.12.5"
+  installs: 4079
+  rating: 5
+  ratings: 2
+  author: "Michael Andreuzza "
+  repo: "https://github.com/michael-andreuzza/malibutheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.malibu"
+  formats: null
+colors:
+  bg: "#FAF4ED"
+  fg: "#526479"
+  black: "#F2E9E1"
+  red: "#E7A26E"
+  green: "#C8342A"
+  yellow: "#418B8D"
+  blue: "#DA5D3C"
+  magenta: "#3C63A6"
+  cyan: "#78AA9A"
+  white: "#526479"
+  brightBlack: "#758C93"
+  brightRed: "#E7A26E"
+  brightGreen: "#C8342A"
+  brightYellow: "#418B8D"
+  brightBlue: "#DA5D3C"
+  brightMagenta: "#3C63A6"
+  brightCyan: "#78AA9A"
+  brightWhite: "#526479"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.2
+    black: 0
+    red: 35.9
+    green: 68.7
+    yellow: 60.7
+    blue: 58.2
+    magenta: 73.5
+    cyan: 45
+    white: 74.2
+    brightBlack: 56.9
+    brightRed: 35.9
+    brightGreen: 68.7
+    brightYellow: 60.7
+    brightBlue: 58.2
+    brightMagenta: 73.5
+    brightCyan: 45
+    brightWhite: 74.2

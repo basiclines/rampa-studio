@@ -1,0 +1,53 @@
+name: "Blackroulette"
+source:
+  marketplace_id: "j-schneble.blackroulette-theme"
+  version: "0.2.0"
+  installs: 166
+  rating: 5
+  ratings: 1
+  author: "j-schneble"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=j-schneble.blackroulette-theme"
+  formats: null
+colors:
+  bg: "#131313"
+  fg: "#DCE3EA"
+  black: "#282626"
+  red: "#E61F44"
+  green: "#5BD1B9"
+  yellow: "#43AAF9"
+  blue: "#43AAF9"
+  magenta: "#DD4F7D"
+  cyan: "#B267E6"
+  white: "#DCE3EA"
+  brightBlack: "#454D54"
+  brightRed: "#E61F44"
+  brightGreen: "#B7F0E5"
+  brightYellow: "#A7D1F5"
+  brightBlue: "#A7D1F5"
+  brightMagenta: "#DD4F7D"
+  brightCyan: "#D7C9F0"
+  brightWhite: "#DCE3EA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.5
+    black: 0
+    red: 31.7
+    green: 66.9
+    yellow: 52.4
+    blue: 52.4
+    magenta: 36.1
+    cyan: 38.7
+    white: 88.5
+    brightBlack: 12
+    brightRed: 31.7
+    brightGreen: 90.2
+    brightYellow: 75.1
+    brightBlue: 75.1
+    brightMagenta: 36.1
+    brightCyan: 76.9
+    brightWhite: 88.5

@@ -1,0 +1,53 @@
+name: "QiHui Tech"
+source:
+  marketplace_id: "DamonSongYu.qihui-tech"
+  version: "0.0.5"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "Damon Song Yu"
+  repo: "https://github.com/damonsongyu-source/vscode-qihui-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DamonSongYu.qihui-tech"
+  formats: null
+colors:
+  bg: "#344E41"
+  fg: "#DAD7CD"
+  black: "#344E41"
+  red: "#A3B18A"
+  green: "#DAD7CD"
+  yellow: "#A3B18A"
+  blue: "#588157"
+  magenta: "#A3B18A"
+  cyan: "#DAD7CD"
+  white: "#DAD7CD"
+  brightBlack: "#344E41"
+  brightRed: "#A3B18A"
+  brightGreen: "#DAD7CD"
+  brightYellow: "#A3B18A"
+  brightBlue: "#588157"
+  brightMagenta: "#A3B18A"
+  brightCyan: "#DAD7CD"
+  brightWhite: "#DAD7CD"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 162
+  pair: null
+  contrast:
+    fg: 69.6
+    black: 0
+    red: 44.5
+    green: 69.6
+    yellow: 44.5
+    blue: 18
+    magenta: 44.5
+    cyan: 69.6
+    white: 69.6
+    brightBlack: 0
+    brightRed: 44.5
+    brightGreen: 69.6
+    brightYellow: 44.5
+    brightBlue: 18
+    brightMagenta: 44.5
+    brightCyan: 69.6
+    brightWhite: 69.6

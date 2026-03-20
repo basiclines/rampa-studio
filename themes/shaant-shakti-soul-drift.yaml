@@ -1,0 +1,53 @@
+name: "Shaant Shakti: Soul Drift"
+source:
+  marketplace_id: "shaant-shakti.shaant-shakti-color-theme"
+  version: "2.0.0"
+  installs: 50
+  rating: 5
+  ratings: 1
+  author: "Aadityaa"
+  repo: "https://github.com/Aditya-Ace/Shaant-Shakti"
+  url: "https://marketplace.visualstudio.com/items?itemName=shaant-shakti.shaant-shakti-color-theme"
+  formats: null
+colors:
+  bg: "#141314"
+  fg: "#F8F8F2"
+  black: "#1C1C1C"
+  red: "#FF5C57"
+  green: "#5AF78E"
+  yellow: "#F3F99D"
+  blue: "#57C7FF"
+  magenta: "#FF6AC1"
+  cyan: "#9AEDFE"
+  white: "#F1F1F0"
+  brightBlack: "#686868"
+  brightRed: "#FF7B77"
+  brightGreen: "#7AFF9E"
+  brightYellow: "#FFF9BD"
+  brightBlue: "#77D7FF"
+  brightMagenta: "#FF8AD1"
+  brightCyan: "#BAFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.3
+    black: 0
+    red: 45
+    green: 84.4
+    yellow: 99.1
+    blue: 65.8
+    magenta: 51.2
+    cyan: 87.4
+    white: 98
+    brightBlack: 23.2
+    brightRed: 52.5
+    brightGreen: 90.5
+    brightYellow: 101.7
+    brightBlue: 74.6
+    brightMagenta: 59.9
+    brightCyan: 99
+    brightWhite: 107.2

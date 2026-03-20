@@ -1,0 +1,53 @@
+name: "pg-ruby-soho"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+  formats: null
+colors:
+  bg: "#170E0E"
+  fg: "#F0E8E9"
+  black: "#2E2E2E"
+  red: "#7D161B"
+  green: "#0B6415"
+  yellow: "#9B6D00"
+  blue: "#12377D"
+  magenta: "#801F79"
+  cyan: "#127A80"
+  white: "#ABABAB"
+  brightBlack: "#494949"
+  brightRed: "#AB0810"
+  brightGreen: "#0D8E1C"
+  brightYellow: "#E4A101"
+  brightBlue: "#1B51B6"
+  brightMagenta: "#B62BAC"
+  brightCyan: "#169FA7"
+  brightWhite: "#C2C2C2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 19
+  pair: null
+  contrast:
+    fg: 93.6
+    black: 0
+    red: 9.1
+    green: 16.5
+    yellow: 29.6
+    blue: 0
+    magenta: 12.8
+    cyan: 26.5
+    white: 56.3
+    brightBlack: 11.1
+    brightRed: 17.6
+    brightGreen: 32.2
+    brightYellow: 58
+    brightBlue: 17
+    brightMagenta: 26
+    brightCyan: 42.5
+    brightWhite: 69.3

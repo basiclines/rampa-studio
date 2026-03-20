@@ -1,0 +1,53 @@
+name: "Material Monokai Theme"
+source:
+  marketplace_id: "repeale.material-monokai"
+  version: "1.1.1"
+  installs: 46374
+  rating: 5
+  ratings: 10
+  author: "Alessio Enrico Repetti"
+  repo: "https://github.com/repeale/material-monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=repeale.material-monokai"
+  formats: null
+colors:
+  bg: "#263238"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF2C96"
+  green: "#9DFF00"
+  yellow: "#E6DB74"
+  blue: "#82AAFF"
+  magenta: "#B78AFF"
+  cyan: "#2EDCFF"
+  white: "#FFFFFF"
+  brightBlack: "#5F7A87"
+  brightRed: "#FF2C96"
+  brightGreen: "#9DFF00"
+  brightYellow: "#E6DB74"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#B78AFF"
+  brightCyan: "#2EDCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 36.2
+    green: 86.5
+    yellow: 77.9
+    blue: 51.7
+    magenta: 46.2
+    cyan: 69.8
+    white: 102.7
+    brightBlack: 24.9
+    brightRed: 36.2
+    brightGreen: 86.5
+    brightYellow: 77.9
+    brightBlue: 51.7
+    brightMagenta: 46.2
+    brightCyan: 69.8
+    brightWhite: 102.7

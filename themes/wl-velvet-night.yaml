@@ -1,0 +1,53 @@
+name: "WL-Velvet Night"
+source:
+  marketplace_id: "WatkinsLabs.velvet-night"
+  version: "1.0.1"
+  installs: 25
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.velvet-night"
+  formats: null
+colors:
+  bg: "#240046"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#990000"
+  green: "#00B300"
+  yellow: "#FF5733"
+  blue: "#5A189A"
+  magenta: "#800080"
+  cyan: "#5A189A"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#990000"
+  brightGreen: "#00B300"
+  brightYellow: "#FF5733"
+  brightBlue: "#5A189A"
+  brightMagenta: "#800080"
+  brightCyan: "#5A189A"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 300
+  pair: null
+  contrast:
+    fg: 106.2
+    black: 0
+    red: 12.7
+    green: 46.9
+    yellow: 42.7
+    blue: 8.1
+    magenta: 11
+    cyan: 8.1
+    white: 106.2
+    brightBlack: 21.4
+    brightRed: 12.7
+    brightGreen: 46.9
+    brightYellow: 42.7
+    brightBlue: 8.1
+    brightMagenta: 11
+    brightCyan: 8.1
+    brightWhite: 106.2

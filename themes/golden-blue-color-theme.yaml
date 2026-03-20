@@ -1,0 +1,53 @@
+name: "Golden-Blue Color Theme"
+source:
+  marketplace_id: "BrunoDaSilvaThemes.golden-blue"
+  version: "0.0.8"
+  installs: 2492
+  rating: 5
+  ratings: 1
+  author: "Bruno DaSilva"
+  repo: "https://github.com/Brunno-DaSilva/golden-blue-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BrunoDaSilvaThemes.golden-blue"
+  formats: null
+colors:
+  bg: "#002451"
+  fg: "#FFFFFF"
+  black: "#063164"
+  red: "#DA4939"
+  green: "#A5C261"
+  yellow: "#FFC66D"
+  blue: "#6D9CBE"
+  magenta: "#B6B3EB"
+  cyan: "#519F50"
+  white: "#E6E1DC"
+  brightBlack: "#5A647E"
+  brightRed: "#DA4939"
+  brightGreen: "#A5C261"
+  brightYellow: "#FFC66D"
+  brightBlue: "#6D9CBE"
+  brightMagenta: "#B6B3EB"
+  brightCyan: "#519F50"
+  brightWhite: "#F9F7F3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 256
+  pair: null
+  contrast:
+    fg: 104.6
+    black: 0
+    red: 30.4
+    green: 60.4
+    yellow: 74.7
+    blue: 42.7
+    magenta: 61
+    cyan: 38.6
+    white: 85.7
+    brightBlack: 19
+    brightRed: 30.4
+    brightGreen: 60.4
+    brightYellow: 74.7
+    brightBlue: 42.7
+    brightMagenta: 61
+    brightCyan: 38.6
+    brightWhite: 99.4

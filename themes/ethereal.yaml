@@ -1,0 +1,53 @@
+name: "ethereal"
+source:
+  marketplace_id: "brandonkong.ethereal"
+  version: "0.1.2"
+  installs: 388
+  rating: 5
+  ratings: 2
+  author: "Brandon Kong"
+  repo: "https://github.com/brandon-kong/ethereal"
+  url: "https://marketplace.visualstudio.com/items?itemName=brandonkong.ethereal"
+  formats: null
+colors:
+  bg: "#210B20"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 329
+  pair: null
+  contrast:
+    fg: 79.7
+    black: 0
+    red: 26.9
+    green: 53.2
+    yellow: 85.8
+    blue: 27.6
+    magenta: 30
+    cyan: 47.8
+    white: 90.2
+    brightBlack: 22.2
+    brightRed: 38.8
+    brightGreen: 63.7
+    brightYellow: 95.8
+    brightBlue: 40.2
+    brightMagenta: 45.6
+    brightCyan: 55.6
+    brightWhite: 90.2

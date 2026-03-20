@@ -1,0 +1,53 @@
+name: "Shuri Midnight"
+source:
+  marketplace_id: "ky12228121.okinawan-themes"
+  version: "0.0.1"
+  installs: 10
+  rating: 0
+  ratings: 0
+  author: "Keny Yahat"
+  repo: "https://github.com/ky12228121/okinawan"
+  url: "https://marketplace.visualstudio.com/items?itemName=ky12228121.okinawan-themes"
+  formats: null
+colors:
+  bg: "#150A0A"
+  fg: "#DCE1E6"
+  black: "#1A0F0F"
+  red: "#8E4439"
+  green: "#6B8171"
+  yellow: "#D1A658"
+  blue: "#3D2525"
+  magenta: "#8E4439"
+  cyan: "#C59358"
+  white: "#DCE1E6"
+  brightBlack: "#5D4D4D"
+  brightRed: "#B36D61"
+  brightGreen: "#6B8171"
+  brightYellow: "#D1A658"
+  brightBlue: "#8E4439"
+  brightMagenta: "#A65A4E"
+  brightCyan: "#C59358"
+  brightWhite: "#DCE1E6"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 19
+  pair: null
+  contrast:
+    fg: 87.8
+    black: 0
+    red: 18.2
+    green: 32.4
+    yellow: 57.5
+    blue: 0
+    magenta: 18.2
+    cyan: 48.8
+    white: 87.8
+    brightBlack: 14.2
+    brightRed: 34.4
+    brightGreen: 32.4
+    brightYellow: 57.5
+    brightBlue: 18.2
+    brightMagenta: 27.1
+    brightCyan: 48.8
+    brightWhite: 87.8

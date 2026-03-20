@@ -1,0 +1,53 @@
+name: "Graymium Theme"
+source:
+  marketplace_id: "olegfedak.graymium-vscode"
+  version: "0.2.8"
+  installs: 1031
+  rating: 0
+  ratings: 0
+  author: "olegfedak"
+  repo: "https://github.com/olegfedak/graymium"
+  url: "https://marketplace.visualstudio.com/items?itemName=olegfedak.graymium-vscode"
+  formats: null
+colors:
+  bg: "#252627"
+  fg: "#C9CED6"
+  black: "#666666"
+  red: "#E8808C"
+  green: "#9FCF9F"
+  yellow: "#E4C586"
+  blue: "#80B0E8"
+  magenta: "#CC97DB"
+  cyan: "#72C4CF"
+  white: "#FAFAFA"
+  brightBlack: "#777777"
+  brightRed: "#E8808C"
+  brightGreen: "#9FCF9F"
+  brightYellow: "#E4C586"
+  brightBlue: "#80B2E8"
+  brightMagenta: "#CC97DB"
+  brightCyan: "#62CFCF"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.5
+    black: 20
+    red: 47.4
+    green: 67.3
+    yellow: 70.7
+    blue: 54.6
+    magenta: 53.2
+    cyan: 60.8
+    white: 101.5
+    brightBlack: 27.5
+    brightRed: 47.4
+    brightGreen: 67.3
+    brightYellow: 70.7
+    brightBlue: 55.4
+    brightMagenta: 53.2
+    brightCyan: 64.9
+    brightWhite: 101.5

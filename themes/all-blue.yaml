@@ -1,0 +1,53 @@
+name: "All Blue"
+source:
+  marketplace_id: "njshockey.all-blue"
+  version: "1.2.0"
+  installs: 360
+  rating: 0
+  ratings: 0
+  author: "njshockey"
+  repo: "https://github.com/njshockey/all-blue-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=njshockey.all-blue"
+  formats: null
+colors:
+  bg: "#002138"
+  fg: "#63C5DA"
+  black: "#000000"
+  red: "#F9968B"
+  green: "#50C878"
+  yellow: "#FEF08A"
+  blue: "#4F86F7"
+  magenta: "#FC8EAC"
+  cyan: "#AEC6CF"
+  white: "#E5E9F0"
+  brightBlack: "#2E3440"
+  brightRed: "#FF7566"
+  brightGreen: "#0BDA51"
+  brightYellow: "#FFFD37"
+  brightBlue: "#079BF5"
+  brightMagenta: "#F77FBE"
+  brightCyan: "#00CCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 244
+  pair: null
+  contrast:
+    fg: 61.8
+    black: 0
+    red: 58
+    green: 58.7
+    yellow: 94.4
+    blue: 37.8
+    magenta: 57.3
+    cyan: 67.5
+    white: 91.1
+    brightBlack: 0
+    brightRed: 49.1
+    brightGreen: 65.4
+    brightYellow: 99.7
+    brightBlue: 43.7
+    brightMagenta: 52.9
+    brightCyan: 65
+    brightWhite: 105.7

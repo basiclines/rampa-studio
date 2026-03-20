@@ -1,0 +1,53 @@
+name: "phocus"
+source:
+  marketplace_id: "phisch.phocus-vscode"
+  version: "1.1.0"
+  installs: 2020
+  rating: 0
+  ratings: 0
+  author: "Philipp Schaffrath"
+  repo: "https://github.com/phocus/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=phisch.phocus-vscode"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#DA5858"
+  green: "#3FC661"
+  yellow: "#E8CA5E"
+  blue: "#497EE9"
+  magenta: "#7154F2"
+  cyan: "#5CD8E6"
+  white: "#FFFFFF"
+  brightBlack: "#FFFFFF"
+  brightRed: "#E36D6D"
+  brightGreen: "#61D67E"
+  brightYellow: "#E8CA5E"
+  brightBlue: "#5D8DEE"
+  brightMagenta: "#8066F5"
+  brightCyan: "#7EEAF6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.8
+    black: 0
+    red: 36.1
+    green: 58.2
+    yellow: 74.9
+    blue: 35.2
+    magenta: 27.4
+    cyan: 72.3
+    white: 107.1
+    brightBlack: 107.1
+    brightRed: 43
+    brightGreen: 67.7
+    brightYellow: 74.9
+    brightBlue: 41.7
+    brightMagenta: 33.3
+    brightCyan: 83.5
+    brightWhite: 107.1

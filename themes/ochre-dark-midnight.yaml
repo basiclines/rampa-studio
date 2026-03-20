@@ -1,0 +1,53 @@
+name: "Ochre Dark - Midnight"
+source:
+  marketplace_id: "ochre-crafts.ochre"
+  version: "0.2.0"
+  installs: 22
+  rating: 0
+  ratings: 0
+  author: "ochre-crafts"
+  repo: "https://github.com/ochre-crafts/ochre-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ochre-crafts.ochre"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#F5F5F5"
+  black: "#0A0A0A"
+  red: "#9F886A"
+  green: "#AD9474"
+  yellow: "#C2A47B"
+  blue: "#707B84"
+  magenta: "#7A858B"
+  cyan: "#AFA193"
+  white: "#F5F5F5"
+  brightBlack: "#404040"
+  brightRed: "#9F886A"
+  brightGreen: "#AD9474"
+  brightYellow: "#C2A47B"
+  brightBlue: "#707B84"
+  brightMagenta: "#7A858B"
+  brightCyan: "#AFA193"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.2
+    black: 0
+    red: 40.2
+    green: 46.5
+    yellow: 55.4
+    blue: 31.6
+    magenta: 36.2
+    cyan: 52.4
+    white: 101.2
+    brightBlack: 8.3
+    brightRed: 40.2
+    brightGreen: 46.5
+    brightYellow: 55.4
+    brightBlue: 31.6
+    brightMagenta: 36.2
+    brightCyan: 52.4
+    brightWhite: 104.4

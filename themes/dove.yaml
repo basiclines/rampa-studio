@@ -1,0 +1,53 @@
+name: "Dove"
+source:
+  marketplace_id: "meyash.dove"
+  version: "0.0.1"
+  installs: 461
+  rating: 5
+  ratings: 1
+  author: "Yashwant"
+  repo: "https://github.com/meyash/dove-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=meyash.dove"
+  formats: null
+colors:
+  bg: "#0E0B16"
+  fg: "#A2AABC"
+  black: "#26213B"
+  red: "#CD5360"
+  green: "#00FF00"
+  yellow: "#00FF7F"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#CD5360"
+  brightGreen: "#00FF00"
+  brightYellow: "#00FF7F"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 296
+  pair: null
+  contrast:
+    fg: 55.8
+    black: 0
+    red: 33.2
+    green: 86.2
+    yellow: 87.3
+    blue: 68.6
+    magenta: 62.1
+    cyan: 68.6
+    white: 55.8
+    brightBlack: 11.9
+    brightRed: 33.2
+    brightGreen: 86.2
+    brightYellow: 87.3
+    brightBlue: 68.6
+    brightMagenta: 62.1
+    brightCyan: 68.6
+    brightWhite: 55.8

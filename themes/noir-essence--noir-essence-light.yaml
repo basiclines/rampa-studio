@@ -1,0 +1,53 @@
+name: "Noir Essence (Noir Essence Light)"
+source:
+  marketplace_id: "u1145h.u1145h-heme-ark"
+  version: "0.6.1"
+  installs: 1490
+  rating: 5
+  ratings: 1
+  author: "u1145h"
+  repo: "https://github.com/u1145h/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark"
+  formats: null
+colors:
+  bg: "#F7F3EA"
+  fg: "#000000"
+  black: "#111314"
+  red: "#D15F59"
+  green: "#A9B665"
+  yellow: "#EADB62"
+  blue: "#699289"
+  magenta: "#C47D90"
+  cyan: "#81A97A"
+  white: "#C7C3BA"
+  brightBlack: "#666666"
+  brightRed: "#EA6962"
+  brightGreen: "#A9B665"
+  brightYellow: "#EADB62"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#D3869B"
+  brightCyan: "#89B482"
+  brightWhite: "#B4B1AA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Noir Essence (Noir Essence Dark)"
+  contrast:
+    fg: 99
+    black: 98.2
+    red: 58.1
+    green: 36.1
+    yellow: 13
+    blue: 55.1
+    magenta: 51.3
+    cyan: 44.7
+    white: 25.2
+    brightBlack: 71.7
+    brightRed: 50.8
+    brightGreen: 36.1
+    brightYellow: 13
+    brightBlue: 41.7
+    brightMagenta: 45.9
+    brightCyan: 39.4
+    brightWhite: 35

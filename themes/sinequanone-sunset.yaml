@@ -1,0 +1,51 @@
+name: "Sinequanone Sunset"
+source:
+  marketplace_id: "EmmettHintz.sinequanone"
+  version: "0.12.0"
+  installs: 48
+  author: "Emmett Hintz"
+  repo: "https://github.com/Sinequanone-Themes/vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=EmmettHintz.sinequanone"
+  formats: null
+colors:
+  bg: "#232136"
+  fg: "#E7D2C5"
+  black: "#393552"
+  red: "#7DEDFF"
+  green: "#7C83FD"
+  yellow: "#E1897A"
+  blue: "#96BAFF"
+  magenta: "#F9C46B"
+  cyan: "#8DCDDA"
+  white: "#E7D2C5"
+  brightBlack: "#908CAA"
+  brightRed: "#7DEDFF"
+  brightGreen: "#7C83FD"
+  brightYellow: "#E1897A"
+  brightBlue: "#96BAFF"
+  brightMagenta: "#F9C46B"
+  brightCyan: "#8DCDDA"
+  brightWhite: "#E7D2C5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 288
+  pair: null
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 83.4
+    green: 39.8
+    yellow: 48.6
+    blue: 62.3
+    magenta: 73.4
+    cyan: 67.6
+    white: 78.9
+    brightBlack: 39.6
+    brightRed: 83.4
+    brightGreen: 39.8
+    brightYellow: 48.6
+    brightBlue: 62.3
+    brightMagenta: 73.4
+    brightCyan: 67.6
+    brightWhite: 78.9

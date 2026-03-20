@@ -1,0 +1,53 @@
+name: "Korean Dancheong Dark"
+source:
+  marketplace_id: "weston0713.korean-dancheong-dark"
+  version: "1.1.2"
+  installs: 194
+  rating: 0
+  ratings: 0
+  author: "weston0713"
+  repo: "https://github.com/HC-kang/korean-dancheong-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=weston0713.korean-dancheong-dark"
+  formats: null
+colors:
+  bg: "#121A16"
+  fg: "#EAE2D8"
+  black: "#1E2A24"
+  red: "#C84C3A"
+  green: "#3FA45B"
+  yellow: "#E0B62C"
+  blue: "#3F75B6"
+  magenta: "#B85C8A"
+  cyan: "#4CBF6E"
+  white: "#DAD2C8"
+  brightBlack: "#6A655C"
+  brightRed: "#FF6E5A"
+  brightGreen: "#3AB865"
+  brightYellow: "#FFDE3E"
+  brightBlue: "#4A8FD8"
+  brightMagenta: "#C878A2"
+  brightCyan: "#6FD488"
+  brightWhite: "#F5F0E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 163
+  pair: "Korean Dancheong Light"
+  contrast:
+    fg: 88.6
+    black: 0
+    red: 29.3
+    green: 42.4
+    yellow: 64.6
+    blue: 27.9
+    magenta: 31.5
+    cyan: 55.2
+    white: 78.8
+    brightBlack: 21.7
+    brightRed: 48.3
+    brightGreen: 51.2
+    brightYellow: 86.4
+    brightBlue: 39.5
+    brightMagenta: 42.2
+    brightCyan: 67.3
+    brightWhite: 97.2

@@ -1,0 +1,53 @@
+name: "Piggy Bordered"
+source:
+  marketplace_id: "nachop51.nachop-theme"
+  version: "2.0.0"
+  installs: 303
+  rating: 5
+  ratings: 1
+  author: "Nachop Peralta"
+  repo: "https://github.com/nachop51/nachop-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nachop51.nachop-theme"
+  formats: null
+colors:
+  bg: "#242430"
+  fg: "#DDC8EB"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#F0C758"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#FFEC80"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 74.8
+    black: 0
+    red: 34.8
+    green: 58.4
+    yellow: 72.6
+    blue: 47.7
+    magenta: 37.1
+    cyan: 50.6
+    white: 81.1
+    brightBlack: 13.5
+    brightRed: 44.2
+    brightGreen: 74.9
+    brightYellow: 91.8
+    brightBlue: 61.8
+    brightMagenta: 48.3
+    brightCyan: 65.9
+    brightWhite: 88.7

@@ -1,0 +1,53 @@
+name: "Hydro Soft"
+source:
+  marketplace_id: "Henriquehnnm.hydro-theme"
+  version: "1.0.8"
+  installs: 20
+  rating: 0
+  ratings: 0
+  author: "Henrique"
+  repo: "https://github.com/Henriquehnnm/Hydro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Henriquehnnm.hydro-theme"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#FAFAFA"
+  black: "#262626"
+  red: "#FF8585"
+  green: "#85FFAD"
+  yellow: "#FFBE85"
+  blue: "#85ADFF"
+  magenta: "#AD85FF"
+  cyan: "#85FFFF"
+  white: "#D4D4D4"
+  brightBlack: "#A1A1A1"
+  brightRed: "#FF8585"
+  brightGreen: "#85FFAD"
+  brightYellow: "#FFD9B3"
+  brightBlue: "#85ADFF"
+  brightMagenta: "#F585ED"
+  brightCyan: "#85FFFF"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.6
+    black: 0
+    red: 55.2
+    green: 91.2
+    yellow: 74.3
+    blue: 57.3
+    magenta: 47.6
+    cyan: 94.6
+    white: 79.5
+    brightBlack: 50.4
+    brightRed: 55.2
+    brightGreen: 91.2
+    brightYellow: 86.6
+    brightBlue: 57.3
+    brightMagenta: 57.8
+    brightCyan: 94.6
+    brightWhite: 103.6

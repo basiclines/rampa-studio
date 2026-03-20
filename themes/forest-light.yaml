@@ -1,0 +1,53 @@
+name: "forest light"
+source:
+  marketplace_id: "charst4r.forest-light"
+  version: "0.0.3"
+  installs: 83
+  rating: 0
+  ratings: 0
+  author: "charst4r"
+  repo: "https://github.com/charst4r/forest-light-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=charst4r.forest-light"
+  formats: null
+colors:
+  bg: "#DDE0DC"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Dark Forest"
+  contrast:
+    fg: 87.3
+    black: 87.3
+    red: 55.2
+    green: 30.5
+    yellow: 39.2
+    blue: 67.3
+    magenta: 55.8
+    cyan: 41.8
+    white: 67.2
+    brightBlack: 60
+    brightRed: 55.2
+    brightGreen: 22.2
+    brightYellow: 22.2
+    brightBlue: 67.3
+    brightMagenta: 55.8
+    brightCyan: 41.8
+    brightWhite: 29.7

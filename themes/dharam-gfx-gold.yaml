@@ -1,0 +1,53 @@
+name: "dharam-gfx-gold"
+source:
+  marketplace_id: "dharam-gfx-theme.dharam-gfx-theme"
+  version: "0.0.7"
+  installs: 660
+  rating: 5
+  ratings: 1
+  author: "dharmendra kumar"
+  repo: "https://github.com/dharam-gfx/dharam-gfx-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dharam-gfx-theme.dharam-gfx-theme"
+  formats: null
+colors:
+  bg: "#111418"
+  fg: "#BEC6D0"
+  black: "#111418"
+  red: "#E35535"
+  green: "#00A884"
+  yellow: "#C7910C"
+  blue: "#11B7D4"
+  magenta: "#D46EC0"
+  cyan: "#38C7BD"
+  white: "#BEC6D0"
+  brightBlack: "#3A4551"
+  brightRed: "#FF4319"
+  brightGreen: "#00A884"
+  brightYellow: "#D39600"
+  brightBlue: "#00C3E5"
+  brightMagenta: "#F052D1"
+  brightCyan: "#12EDDE"
+  brightWhite: "#F9FAFB"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 70.9
+    black: 0
+    red: 37
+    green: 44.7
+    yellow: 47.4
+    blue: 54.6
+    magenta: 43.6
+    cyan: 61.2
+    white: 70.9
+    brightBlack: 9.1
+    brightRed: 40.5
+    brightGreen: 44.7
+    brightYellow: 51
+    brightBlue: 60.9
+    brightMagenta: 44.4
+    brightCyan: 80.6
+    brightWhite: 103.8

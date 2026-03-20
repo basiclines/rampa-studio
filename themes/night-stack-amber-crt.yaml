@@ -1,0 +1,53 @@
+name: "Night-Stack Amber CRT"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#120A02"
+  fg: "#FFB347"
+  black: "#2A1807"
+  red: "#FFB347"
+  green: "#FFCC66"
+  yellow: "#FFD580"
+  blue: "#B87333"
+  magenta: "#FF9E2C"
+  cyan: "#FFE0B2"
+  white: "#FFD8A8"
+  brightBlack: "#2A1807"
+  brightRed: "#FFB347"
+  brightGreen: "#FFCC66"
+  brightYellow: "#FFD580"
+  brightBlue: "#B87333"
+  brightMagenta: "#FF9E2C"
+  brightCyan: "#FFE0B2"
+  brightWhite: "#FFD8A8"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 74
+  pair: null
+  contrast:
+    fg: 69.8
+    black: 0
+    red: 69.8
+    green: 80
+    yellow: 84.3
+    blue: 36.3
+    magenta: 62.2
+    cyan: 90.4
+    white: 86.6
+    brightBlack: 0
+    brightRed: 69.8
+    brightGreen: 80
+    brightYellow: 84.3
+    brightBlue: 36.3
+    brightMagenta: 62.2
+    brightCyan: 90.4
+    brightWhite: 86.6

@@ -1,0 +1,53 @@
+name: "Gruvbox Material Mix"
+source:
+  marketplace_id: "nd2204.gruvbox-material-mix"
+  version: "0.4.6"
+  installs: 465
+  rating: 0
+  ratings: 0
+  author: "nd2204"
+  repo: "https://github.com/nd2204/vscode-gruvbox"
+  url: "https://marketplace.visualstudio.com/items?itemName=nd2204.gruvbox-material-mix"
+  formats: null
+colors:
+  bg: "#181818"
+  fg: "#EBDBB2"
+  black: "#282828"
+  red: "#FB4934"
+  green: "#B8BB26"
+  yellow: "#FABD2F"
+  blue: "#8AA98A"
+  magenta: "#D3869B"
+  cyan: "#8EC07C"
+  white: "#EBDBB2"
+  brightBlack: "#32302F"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#8AA98A"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.3
+    black: 0
+    red: 40.1
+    green: 61.1
+    yellow: 71.7
+    blue: 50.3
+    magenta: 47.9
+    cyan: 60
+    white: 84.3
+    brightBlack: 0
+    brightRed: 40.1
+    brightGreen: 61.1
+    brightYellow: 71.7
+    brightBlue: 50.3
+    brightMagenta: 47.9
+    brightCyan: 60
+    brightWhite: 84.3

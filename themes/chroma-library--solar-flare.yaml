@@ -1,0 +1,53 @@
+name: "Chroma Library (Solar Flare)"
+source:
+  marketplace_id: "CodewithBismillah.chroma-library"
+  version: "1.2.1"
+  installs: 360
+  rating: 5
+  ratings: 1
+  author: "Code with Bismillah"
+  repo: "https://github.com/mubashir1837/Chroma-Library"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.chroma-library"
+  formats: null
+colors:
+  bg: "#1A0A00"
+  fg: "#FFAA40"
+  black: "#000000"
+  red: "#FF4040"
+  green: "#40FF40"
+  yellow: "#FFFF40"
+  blue: "#4040FF"
+  magenta: "#FF40FF"
+  cyan: "#40FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF4040"
+  brightGreen: "#40FF40"
+  brightYellow: "#FFFF40"
+  brightBlue: "#4040FF"
+  brightMagenta: "#FF40FF"
+  brightCyan: "#40FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 62
+  pair: null
+  contrast:
+    fg: 66.3
+    black: 0
+    red: 40.7
+    green: 86.9
+    yellow: 102.5
+    blue: 21.8
+    magenta: 48.7
+    cyan: 92.4
+    white: 107.5
+    brightBlack: 0
+    brightRed: 40.7
+    brightGreen: 86.9
+    brightYellow: 102.5
+    brightBlue: 21.8
+    brightMagenta: 48.7
+    brightCyan: 92.4
+    brightWhite: 107.5

@@ -1,0 +1,53 @@
+name: "Prismatic Dark"
+source:
+  marketplace_id: "cklimas.prismatic"
+  version: "1.17.0"
+  installs: 860
+  rating: 5
+  ratings: 1
+  author: "Chris Klimas"
+  repo: "https://github.com/klembot/prismatic-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cklimas.prismatic"
+  formats: null
+colors:
+  bg: "#242424"
+  fg: "#CCCCCC"
+  black: "#000000"
+  red: "#DD4A68"
+  green: "#A0BE63"
+  yellow: "#8F7454"
+  blue: "#539BBA"
+  magenta: "#BE6396"
+  cyan: "#00ACAC"
+  white: "#708090"
+  brightBlack: "#444444"
+  brightRed: "#FF8EAC"
+  brightGreen: "#EEFFA7"
+  brightYellow: "#FFDCA7"
+  brightBlue: "#97DFFE"
+  brightMagenta: "#FFA7DA"
+  brightCyan: "#00F0F0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "Prismatic Light"
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 32.6
+    green: 58.7
+    yellow: 28.6
+    blue: 41.1
+    magenta: 33
+    cyan: 45.8
+    white: 31.1
+    brightBlack: 0
+    brightRed: 57.3
+    brightGreen: 99.5
+    brightYellow: 85.8
+    brightBlue: 78.4
+    brightMagenta: 67.2
+    brightCyan: 81
+    brightWhite: 105.1

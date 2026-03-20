@@ -1,0 +1,53 @@
+name: "DevDojo Seppuku"
+source:
+  marketplace_id: "JSSamurai.devdojoseppuku"
+  version: "0.1.0"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "A. Jay Chambers"
+  repo: "https://github.com/JSSamurai/DevDojoSeppuku"
+  url: "https://marketplace.visualstudio.com/items?itemName=JSSamurai.devdojoseppuku"
+  formats: null
+colors:
+  bg: "#040A11"
+  fg: "#CCC840"
+  black: "#000000"
+  red: "#C8402D"
+  green: "#14A424"
+  yellow: "#C5C034"
+  blue: "#2888E8"
+  magenta: "#BB40BB"
+  cyan: "#40BBBF"
+  white: "#C4C4C4"
+  brightBlack: "#444444"
+  brightRed: "#FF1A00"
+  brightGreen: "#FF0A40"
+  brightYellow: "#FFF234"
+  brightBlue: "#48AAFF"
+  brightMagenta: "#FF40FF"
+  brightCyan: "#40FFFF"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 247
+  pair: null
+  contrast:
+    fg: 70.3
+    black: 0
+    red: 28.3
+    green: 41.9
+    yellow: 65.9
+    blue: 38.1
+    magenta: 30.5
+    cyan: 56.7
+    white: 70.8
+    brightBlack: 9.7
+    brightRed: 37.8
+    brightGreen: 37.8
+    brightYellow: 96.4
+    brightBlue: 53.5
+    brightMagenta: 49
+    brightCyan: 92.6
+    brightWhite: 96.6

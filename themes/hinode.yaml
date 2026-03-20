@@ -1,0 +1,53 @@
+name: "hinode"
+source:
+  marketplace_id: "aimof.hinode"
+  version: "0.0.7"
+  installs: 242
+  rating: 5
+  ratings: 1
+  author: "aimof"
+  repo: "https://github.com/aimof/hinode"
+  url: "https://marketplace.visualstudio.com/items?itemName=aimof.hinode"
+  formats: null
+colors:
+  bg: "#000822"
+  fg: "#FBFBF6"
+  black: "#000822"
+  red: "#D13939"
+  green: "#5EAD1C"
+  yellow: "#B3B00E"
+  blue: "#424BBF"
+  magenta: "#903292"
+  cyan: "#0086CC"
+  white: "#E3E3DE"
+  brightBlack: "#00295A"
+  brightRed: "#E85B59"
+  brightGreen: "#ABC900"
+  brightYellow: "#ECE038"
+  brightBlue: "#7F7CE3"
+  brightMagenta: "#EB6EE5"
+  brightCyan: "#00D5EF"
+  brightWhite: "#FBFBF6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 104.7
+    black: 0
+    red: 29.3
+    green: 47.8
+    yellow: 56.7
+    blue: 17.9
+    magenta: 18.8
+    cyan: 35
+    white: 89.3
+    brightBlack: 0
+    brightRed: 40.1
+    brightGreen: 66.5
+    brightYellow: 85.2
+    brightBlue: 38.4
+    brightMagenta: 50.5
+    brightCyan: 70.2
+    brightWhite: 104.7

@@ -1,0 +1,53 @@
+name: "Seed7 Tokyo Night Dark"
+source:
+  marketplace_id: "YehudaGurovich.seed7-language-support"
+  version: "0.1.3"
+  installs: 48
+  rating: 0
+  ratings: 0
+  author: "Yehuda Gurovich"
+  repo: "https://github.com/YehudaGurovich/seed7-language-support"
+  url: "https://marketplace.visualstudio.com/items?itemName=YehudaGurovich.seed7-language-support"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#C5C5C5"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#41A6B5"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#41A6B5"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 70.2
+    black: 0
+    red: 49.6
+    green: 46
+    yellow: 62.4
+    blue: 51.4
+    magenta: 55.2
+    cyan: 70.7
+    white: 32.3
+    brightBlack: 0
+    brightRed: 49.6
+    brightGreen: 46
+    brightYellow: 62.4
+    brightBlue: 51.4
+    brightMagenta: 55.2
+    brightCyan: 70.7
+    brightWhite: 59.2

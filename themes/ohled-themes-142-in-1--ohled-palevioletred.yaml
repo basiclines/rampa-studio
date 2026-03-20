@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_PaleVioletRed)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#DB7093"
+  black: "#DB7093"
+  red: "#A1526C"
+  green: "#AF5A76"
+  yellow: "#834358"
+  blue: "#CC6989"
+  magenta: "#BE617F"
+  cyan: "#924B62"
+  white: "#753C4E"
+  brightBlack: "#DB7093"
+  brightRed: "#A1526C"
+  brightGreen: "#AF5A76"
+  brightYellow: "#834358"
+  brightBlue: "#CC6989"
+  brightMagenta: "#BE617F"
+  brightCyan: "#924B62"
+  brightWhite: "#753C4E"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 44.1
+    black: 44.1
+    red: 25.6
+    green: 29.9
+    yellow: 17.2
+    blue: 39.2
+    magenta: 34.4
+    cyan: 21.4
+    white: 13.6
+    brightBlack: 44.1
+    brightRed: 25.6
+    brightGreen: 29.9
+    brightYellow: 17.2
+    brightBlue: 39.2
+    brightMagenta: 34.4
+    brightCyan: 21.4
+    brightWhite: 13.6

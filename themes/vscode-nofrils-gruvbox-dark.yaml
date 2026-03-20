@@ -1,0 +1,54 @@
+name: "VSCode Nofrils Gruvbox Dark"
+source:
+  marketplace_id: "batteajd.vscode-nofrils"
+  version: "2.2.0"
+  installs: 102
+  rating: 0
+  ratings: 0
+  author: "Jonathan Batteas"
+  repo: "https://github.com/sosukeinu/vscode-nofrils"
+  url: "https://marketplace.visualstudio.com/items?itemName=batteajd.vscode-nofrils"
+  formats:
+    zed: "https://raw.githubusercontent.com/sosukeinu/vscode-nofrils/main/themes/vs-code-nofrils-solarized-light-color-theme.json"
+colors:
+  bg: "#3C3836"
+  fg: "#EBDBB2"
+  black: "#EBDBB2"
+  red: "#EA6C6D"
+  green: "#6CBF43"
+  yellow: "#ECA944"
+  blue: "#3199E1"
+  magenta: "#9E75C7"
+  cyan: "#46BA94"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07171"
+  brightGreen: "#86B300"
+  brightYellow: "#F2AE49"
+  brightBlue: "#399EE6"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#4CBF99"
+  brightWhite: "#D1D1D1"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: "VSCode Nofrils Gruvbox Light"
+  contrast:
+    fg: 77.9
+    black: 77.9
+    red: 37.4
+    green: 49.7
+    yellow: 55.5
+    blue: 36.7
+    magenta: 30.6
+    cyan: 47.3
+    white: 65.2
+    brightBlack: 16.4
+    brightRed: 39.9
+    brightGreen: 46
+    brightYellow: 58.4
+    brightBlue: 39.2
+    brightMagenta: 33
+    brightCyan: 50
+    brightWhite: 71.2

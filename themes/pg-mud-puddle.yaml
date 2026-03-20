@@ -1,0 +1,53 @@
+name: "pg-mud-puddle"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+  formats: null
+colors:
+  bg: "#413D38"
+  fg: "#F5F3F1"
+  black: "#5C5B5B"
+  red: "#DE3C3C"
+  green: "#46B885"
+  yellow: "#FAD76E"
+  blue: "#77A5FB"
+  magenta: "#D98EF4"
+  cyan: "#63C5EA"
+  white: "#E0E0E0"
+  brightBlack: "#000000"
+  brightRed: "#FF1F1F"
+  brightGreen: "#2BE491"
+  brightYellow: "#FFBF00"
+  brightBlue: "#4384FF"
+  brightMagenta: "#D45CFF"
+  brightCyan: "#0FBDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 74
+  pair: null
+  contrast:
+    fg: 91.2
+    black: 9.6
+    red: 23.8
+    green: 44.5
+    yellow: 75.2
+    blue: 44.9
+    magenta: 47.9
+    cyan: 55.9
+    white: 78.9
+    brightBlack: 8.9
+    brightRed: 29.2
+    brightGreen: 65.2
+    brightYellow: 65.3
+    brightBlue: 30.5
+    brightMagenta: 35.6
+    brightCyan: 51.6
+    brightWhite: 98.9

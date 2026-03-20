@@ -1,0 +1,53 @@
+name: "BLACK/PINK Theme"
+source:
+  marketplace_id: "banebo.black-pink-theme"
+  version: "0.0.1"
+  installs: 3838
+  rating: 0
+  ratings: 0
+  author: "banebo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=banebo.black-pink-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#3F3F3F"
+  red: "#FF3333"
+  green: "#0BFFA2"
+  yellow: "#FFFF24"
+  blue: "#3597FF"
+  magenta: "#FF07FF"
+  cyan: "#07CFFF"
+  white: "#D5D5D5"
+  brightBlack: "#6D6D6D"
+  brightRed: "#FF7B7B"
+  brightGreen: "#6DFFC4"
+  brightYellow: "#FFFF7C"
+  brightBlue: "#7EBBFF"
+  brightMagenta: "#FF62FF"
+  brightCyan: "#80E6FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 8.1
+    red: 39.6
+    green: 88.4
+    yellow: 102.8
+    blue: 45.7
+    magenta: 46.2
+    cyan: 68.6
+    white: 81.1
+    brightBlack: 26.1
+    brightRed: 53.3
+    brightGreen: 91.7
+    brightYellow: 103.6
+    brightBlue: 63.5
+    brightMagenta: 54.1
+    brightCyan: 82.9
+    brightWhite: 107.9

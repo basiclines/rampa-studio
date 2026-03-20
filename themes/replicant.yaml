@@ -1,0 +1,53 @@
+name: "Replicant"
+source:
+  marketplace_id: "kenziebottoms.replicant"
+  version: "1.3.0"
+  installs: 3117
+  rating: 5
+  ratings: 1
+  author: "Kenzie Bottoms"
+  repo: "https://github.com/kenziebottoms/vscode-theme-replicant"
+  url: "https://marketplace.visualstudio.com/items?itemName=kenziebottoms.replicant"
+  formats: null
+colors:
+  bg: "#00234A"
+  fg: "#E7F7FF"
+  black: "#A2B7C9"
+  red: "#E180B8"
+  green: "#72FFC6"
+  yellow: "#2DBDE0"
+  blue: "#0DB39D"
+  magenta: "#E180B8"
+  cyan: "#9CD3F1"
+  white: "#E7F7FF"
+  brightBlack: "#A2B7C9"
+  brightRed: "#E180B8"
+  brightGreen: "#72FFC6"
+  brightYellow: "#2DBDE0"
+  brightBlue: "#9CD3F1"
+  brightMagenta: "#72FFC6"
+  brightCyan: "#9CD3F1"
+  brightWhite: "#E7F7FF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 254
+  pair: null
+  contrast:
+    fg: 97.9
+    black: 59
+    red: 48
+    green: 89.1
+    yellow: 56
+    blue: 48.1
+    magenta: 48
+    cyan: 72.5
+    white: 97.9
+    brightBlack: 59
+    brightRed: 48
+    brightGreen: 89.1
+    brightYellow: 56
+    brightBlue: 72.5
+    brightMagenta: 89.1
+    brightCyan: 72.5
+    brightWhite: 97.9

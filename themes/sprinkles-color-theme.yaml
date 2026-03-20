@@ -1,0 +1,53 @@
+name: "sprinkles-color-theme"
+source:
+  marketplace_id: "wavebeem.theme-unoduetre"
+  version: "5.11.1"
+  installs: 4290
+  rating: 5
+  ratings: 5
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/vscode-theme-unoduetre"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.theme-unoduetre"
+  formats: null
+colors:
+  bg: "#3A1F47"
+  fg: "#ECD1FA"
+  black: "#333333"
+  red: "#ED7D81"
+  green: "#8CDE9F"
+  yellow: "#F0C2A3"
+  blue: "#AF9DF1"
+  magenta: "#EF9FE5"
+  cyan: "#89E5EC"
+  white: "#F1EBF4"
+  brightBlack: "#333333"
+  brightRed: "#ED7D81"
+  brightGreen: "#8CDE9F"
+  brightYellow: "#F0C2A3"
+  brightBlue: "#AF9DF1"
+  brightMagenta: "#EF9FE5"
+  brightCyan: "#89E5EC"
+  brightWhite: "#F1EBF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 314
+  pair: null
+  contrast:
+    fg: 80.3
+    black: 0
+    red: 46.3
+    green: 71.7
+    yellow: 71.1
+    blue: 51.6
+    magenta: 61
+    cyan: 78
+    white: 92
+    brightBlack: 0
+    brightRed: 46.3
+    brightGreen: 71.7
+    brightYellow: 71.1
+    brightBlue: 51.6
+    brightMagenta: 61
+    brightCyan: 78
+    brightWhite: 92

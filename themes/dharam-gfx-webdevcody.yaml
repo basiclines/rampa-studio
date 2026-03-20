@@ -1,0 +1,53 @@
+name: "dharam-gfx-webdevcody"
+source:
+  marketplace_id: "dharam-gfx-theme.dharam-gfx-theme"
+  version: "0.0.7"
+  installs: 660
+  rating: 5
+  ratings: 1
+  author: "dharmendra kumar"
+  repo: "https://github.com/dharam-gfx/dharam-gfx-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dharam-gfx-theme.dharam-gfx-theme"
+  formats: null
+colors:
+  bg: "#00171A"
+  fg: "#81F0FE"
+  black: "#00171A"
+  red: "#E61E3F"
+  green: "#60E66F"
+  yellow: "#F1D868"
+  blue: "#F1D868"
+  magenta: "#F75F94"
+  cyan: "#F1D868"
+  white: "#81F0FE"
+  brightBlack: "#006F7B"
+  brightRed: "#FF052E"
+  brightGreen: "#47FF5C"
+  brightYellow: "#FFE15A"
+  brightBlue: "#FFE15A"
+  brightMagenta: "#FF5792"
+  brightCyan: "#FFE15A"
+  brightWhite: "#E6FCFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 206
+  pair: null
+  contrast:
+    fg: 86.9
+    black: 0
+    red: 31.4
+    green: 75.1
+    yellow: 82.3
+    blue: 82.3
+    magenta: 45.2
+    cyan: 82.3
+    white: 86.9
+    brightBlack: 22
+    brightRed: 36.9
+    brightGreen: 86.9
+    brightYellow: 88.3
+    brightBlue: 88.3
+    brightMagenta: 45.5
+    brightCyan: 88.3
+    brightWhite: 102.3

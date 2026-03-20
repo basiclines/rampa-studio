@@ -1,0 +1,53 @@
+name: "syl forest"
+source:
+  marketplace_id: "Sylex.syl-themes"
+  version: "1.2.0"
+  installs: 32
+  rating: 5
+  ratings: 1
+  author: "Sylex"
+  repo: "https://github.com/ItzSylex/syl-themes-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sylex.syl-themes"
+  formats: null
+colors:
+  bg: "#1A211C"
+  fg: "#D3C6AA"
+  black: "#333333"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#EEEEEE"
+  brightBlack: "#555555"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 154
+  pair: null
+  contrast:
+    fg: 70.7
+    black: 0
+    red: 25.7
+    green: 52
+    yellow: 84.6
+    blue: 26.4
+    magenta: 28.7
+    cyan: 46.5
+    white: 94.7
+    brightBlack: 14.1
+    brightRed: 37.5
+    brightGreen: 62.5
+    brightYellow: 94.6
+    brightBlue: 39
+    brightMagenta: 44.4
+    brightCyan: 54.4
+    brightWhite: 105.9

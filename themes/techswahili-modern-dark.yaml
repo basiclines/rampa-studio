@@ -1,0 +1,53 @@
+name: "TechSwahili Modern Dark"
+source:
+  marketplace_id: "Ramadhanmkoma.techswahili"
+  version: "1.1.0"
+  installs: 112
+  rating: 5
+  ratings: 1
+  author: "TechSWahili"
+  repo: "https://github.com/Ramadhanmkoma/VSCode-Color-Theme-Extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ramadhanmkoma.techswahili"
+  formats: null
+colors:
+  bg: "#0F172A"
+  fg: "#E2E8F0"
+  black: "#1E293B"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#F59E0B"
+  blue: "#3B82F6"
+  magenta: "#047857"
+  cyan: "#06B6D4"
+  white: "#E2E8F0"
+  brightBlack: "#475569"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FBBF24"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#34D399"
+  brightCyan: "#22D3EE"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  pair: null
+  contrast:
+    fg: 91.4
+    black: 0
+    red: 36.7
+    green: 56.7
+    yellow: 59.3
+    blue: 36.7
+    magenta: 23.8
+    cyan: 53.8
+    white: 91.4
+    brightBlack: 14.6
+    brightRed: 48
+    brightGreen: 70.4
+    brightYellow: 72.6
+    brightBlue: 51.3
+    brightMagenta: 65.1
+    brightCyan: 68.5
+    brightWhite: 103.3

@@ -1,0 +1,53 @@
+name: "MK Mono Dark"
+source:
+  marketplace_id: "mvtkvm.mk-mono"
+  version: "1.0.0"
+  installs: 968
+  rating: 0
+  ratings: 0
+  author: "MVTKVM"
+  repo: "https://github.com/matkammusic/mk-mono"
+  url: "https://marketplace.visualstudio.com/items?itemName=mvtkvm.mk-mono"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#AAAAAA"
+  black: "#000000"
+  red: "#808080"
+  green: "#4D4D4D"
+  yellow: "#AAAAAA"
+  blue: "#333333"
+  magenta: "#999999"
+  cyan: "#666666"
+  white: "#CCCCCC"
+  brightBlack: "#1A1A1A"
+  brightRed: "#808080"
+  brightGreen: "#4D4D4D"
+  brightYellow: "#AAAAAA"
+  brightBlue: "#333333"
+  brightMagenta: "#999999"
+  brightCyan: "#666666"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 34.8
+    green: 13.1
+    yellow: 56.2
+    blue: 0
+    magenta: 47.2
+    cyan: 23
+    white: 75.7
+    brightBlack: 0
+    brightRed: 34.8
+    brightGreen: 13.1
+    brightYellow: 56.2
+    brightBlue: 0
+    brightMagenta: 47.2
+    brightCyan: 23
+    brightWhite: 107.9

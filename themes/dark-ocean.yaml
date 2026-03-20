@@ -1,0 +1,53 @@
+name: "Dark Ocean"
+source:
+  marketplace_id: "patricklopes33.theme-dark-ocean"
+  version: "1.0.7"
+  installs: 4534
+  rating: 5
+  ratings: 3
+  author: "patricklopes33"
+  repo: "https://github.com/patlopes/vscode-dark-ocean"
+  url: "https://marketplace.visualstudio.com/items?itemName=patricklopes33.theme-dark-ocean"
+  formats: null
+colors:
+  bg: "#100E16"
+  fg: "#E1E1E6"
+  black: "#201B2D"
+  red: "#FF4D4F"
+  green: "#67E480"
+  yellow: "#E7DE79"
+  blue: "#78D1E1"
+  magenta: "#988BC7"
+  cyan: "#A1EFE4"
+  white: "#E1E1E6"
+  brightBlack: "#626483"
+  brightRed: "#ED4556"
+  brightGreen: "#00F769"
+  brightYellow: "#E7DE79"
+  brightBlue: "#78D1E1"
+  brightMagenta: "#988BC7"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#F7F7FB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 296
+  pair: null
+  contrast:
+    fg: 88.4
+    black: 0
+    red: 42.6
+    green: 75.2
+    yellow: 84.3
+    blue: 70.6
+    magenta: 43.9
+    cyan: 87.9
+    white: 88.4
+    brightBlack: 22.8
+    brightRed: 37.4
+    brightGreen: 82.5
+    brightYellow: 84.3
+    brightBlue: 70.6
+    brightMagenta: 43.9
+    brightCyan: 97.4
+    brightWhite: 102.4

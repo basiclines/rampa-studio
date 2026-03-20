@@ -1,0 +1,53 @@
+name: "Bladerunner"
+source:
+  marketplace_id: "NeilSchroeder.vscode-theme-bladerunner"
+  version: "0.3.1"
+  installs: 214
+  rating: 0
+  ratings: 0
+  author: "Neil Schroeder"
+  repo: "https://github.com/neilSchroeder/vscode-theme-bladerunner"
+  url: "https://marketplace.visualstudio.com/items?itemName=NeilSchroeder.vscode-theme-bladerunner"
+  formats: null
+colors:
+  bg: "#03151F"
+  fg: "#2BB900"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 234
+  pair: "Bladerunner-light"
+  contrast:
+    fg: 50.9
+    black: 0
+    red: 27
+    green: 53.3
+    yellow: 85.9
+    blue: 27.7
+    magenta: 30
+    cyan: 47.8
+    white: 90.3
+    brightBlack: 22.3
+    brightRed: 38.8
+    brightGreen: 63.8
+    brightYellow: 95.9
+    brightBlue: 40.3
+    brightMagenta: 45.6
+    brightCyan: 55.7
+    brightWhite: 90.3

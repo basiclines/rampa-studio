@@ -1,0 +1,53 @@
+name: "Noctilux"
+source:
+  marketplace_id: "madgrid.noctilux-theme"
+  version: "0.0.1"
+  installs: 1964
+  rating: 0
+  ratings: 0
+  author: "madgrid"
+  repo: "https://github.com/madgrid/vscode-noctilux"
+  url: "https://marketplace.visualstudio.com/items?itemName=madgrid.noctilux-theme"
+  formats: null
+colors:
+  bg: "#0A0B0A"
+  fg: "#FFFFFF"
+  black: "#252525"
+  red: "#FF3333"
+  green: "#AAFFAA"
+  yellow: "#AAEECC"
+  blue: "#AACCFF"
+  magenta: "#CCAAFF"
+  cyan: "#CCAAFF"
+  white: "#858585"
+  brightBlack: "#454545"
+  brightRed: "#FF3333"
+  brightGreen: "#AAFFAA"
+  brightYellow: "#AAEECC"
+  brightBlue: "#AACCFF"
+  brightMagenta: "#CCAAFF"
+  brightCyan: "#CCAAFF"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 39.4
+    green: 94.7
+    yellow: 87.4
+    blue: 74.3
+    magenta: 64.8
+    cyan: 64.8
+    white: 37
+    brightBlack: 10
+    brightRed: 39.4
+    brightGreen: 94.7
+    brightYellow: 87.4
+    brightBlue: 74.3
+    brightMagenta: 64.8
+    brightCyan: 64.8
+    brightWhite: 92.8

@@ -1,0 +1,53 @@
+name: "Sobrio (sobrio)"
+source:
+  marketplace_id: "elvessousa.sobrio"
+  version: "0.2.0"
+  installs: 2230
+  rating: 0
+  ratings: 0
+  author: "Elves Sousa"
+  repo: "https://github.com/elvessousa/sobrio-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=elvessousa.sobrio"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#FFFFFF"
+  black: "#3A3B3F"
+  red: "#CC5500"
+  green: "#00DDAA"
+  yellow: "#D7AF87"
+  blue: "#87AFD7"
+  magenta: "#FD6389"
+  cyan: "#7CDCE7"
+  white: "#FFFFFF"
+  brightBlack: "#5F5F5F"
+  brightRed: "#FD6389"
+  brightGreen: "#7CFFE7"
+  brightYellow: "#FFDD55"
+  brightBlue: "#D7D7FF"
+  brightMagenta: "#FD6389"
+  brightCyan: "#7CDCE7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "Sobrio (sobrio-light)"
+  contrast:
+    fg: 105.8
+    black: 0
+    red: 30.5
+    green: 69.1
+    yellow: 60.9
+    blue: 54.7
+    magenta: 45.7
+    cyan: 74.5
+    white: 105.8
+    brightBlack: 18
+    brightRed: 45.7
+    brightGreen: 91.8
+    brightYellow: 85.2
+    brightBlue: 82.2
+    brightMagenta: 45.7
+    brightCyan: 74.5
+    brightWhite: 105.8

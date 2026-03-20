@@ -1,0 +1,53 @@
+name: "Notchy Dark"
+source:
+  marketplace_id: "chnotchy.notchy-theme"
+  version: "0.0.4"
+  installs: 115
+  rating: 0
+  ratings: 0
+  author: "Notchy"
+  repo: "https://github.com/chnotchy/notchy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=chnotchy.notchy-theme"
+  formats: null
+colors:
+  bg: "#051521"
+  fg: "#AAABAE"
+  black: "#697077"
+  red: "#EBA4BB"
+  green: "#94C674"
+  yellow: "#D6B538"
+  blue: "#89BDED"
+  magenta: "#CEAAED"
+  cyan: "#48C8D8"
+  white: "#D0D2D5"
+  brightBlack: "#72787F"
+  brightRed: "#FFB0C8"
+  brightGreen: "#A0D57B"
+  brightYellow: "#E8C33A"
+  brightBlue: "#95CCFF"
+  brightMagenta: "#DFB7FF"
+  brightCyan: "#4ED8E8"
+  brightWhite: "#E2E2E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 56
+    black: 26.2
+    red: 63.3
+    green: 63.4
+    yellow: 63.1
+    blue: 63.3
+    magenta: 63.4
+    cyan: 63.3
+    white: 78.4
+    brightBlack: 29.9
+    brightRed: 71.5
+    brightGreen: 71.5
+    brightYellow: 71.6
+    brightBlue: 71.7
+    brightMagenta: 71.7
+    brightCyan: 71.8
+    brightWhite: 88.5

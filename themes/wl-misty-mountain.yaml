@@ -1,0 +1,53 @@
+name: "WL-Misty Mountain"
+source:
+  marketplace_id: "WatkinsLabs.misty-mountain"
+  version: "1.0.1"
+  installs: 31
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.misty-mountain"
+  formats: null
+colors:
+  bg: "#1A2F1E"
+  fg: "#F5F6F7"
+  black: "#000000"
+  red: "#FF5349"
+  green: "#7FCD91"
+  yellow: "#FFAA00"
+  blue: "#98C79E"
+  magenta: "#6CAD7B"
+  cyan: "#98C79E"
+  white: "#F5F6F7"
+  brightBlack: "#666666"
+  brightRed: "#FF5349"
+  brightGreen: "#7FCD91"
+  brightYellow: "#FFAA00"
+  brightBlue: "#98C79E"
+  brightMagenta: "#6CAD7B"
+  brightCyan: "#98C79E"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 149
+  pair: null
+  contrast:
+    fg: 97.9
+    black: 0
+    red: 39.9
+    green: 62.4
+    yellow: 62.5
+    blue: 62.1
+    magenta: 46.3
+    cyan: 62.1
+    white: 97.9
+    brightBlack: 19.1
+    brightRed: 39.9
+    brightGreen: 62.4
+    brightYellow: 62.5
+    brightBlue: 62.1
+    brightMagenta: 46.3
+    brightCyan: 62.1
+    brightWhite: 103.9

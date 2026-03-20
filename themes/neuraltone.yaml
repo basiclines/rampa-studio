@@ -1,0 +1,53 @@
+name: "NeuralTone"
+source:
+  marketplace_id: "KaioDutra.neural-tone-theme"
+  version: "1.0.3"
+  installs: 233
+  rating: 0
+  ratings: 0
+  author: "Kaio Dutra"
+  repo: "https://github.com/kaioodutra/neural-tone-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=KaioDutra.neural-tone-theme"
+  formats: null
+colors:
+  bg: "#02021C"
+  fg: "#DFDFF4"
+  black: "#656572"
+  red: "#CE7446"
+  green: "#46CE67"
+  yellow: "#CEAA46"
+  blue: "#468DCE"
+  magenta: "#8946CE"
+  cyan: "#46CEC1"
+  white: "#DFDFF4"
+  brightBlack: "#AAAABF"
+  brightRed: "#FC7E3F"
+  brightGreen: "#3FFC6C"
+  brightYellow: "#FCCB3F"
+  brightBlue: "#3FA2FC"
+  brightMagenta: "#9B3FFC"
+  brightCyan: "#3FFCE9"
+  brightWhite: "#F5F5FC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 88.1
+    black: 22.9
+    red: 40.7
+    green: 62.9
+    yellow: 58.4
+    blue: 39
+    magenta: 24.9
+    cyan: 65.6
+    white: 88.1
+    brightBlack: 57
+    brightRed: 52.3
+    brightGreen: 86.1
+    brightYellow: 78.8
+    brightBlue: 49.8
+    brightMagenta: 30.3
+    brightCyan: 90
+    brightWhite: 101.5

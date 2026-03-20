@@ -1,0 +1,53 @@
+name: "Ocean"
+source:
+  marketplace_id: "cluzier.ocean"
+  version: "0.0.1"
+  installs: 13556
+  rating: 0
+  ratings: 0
+  author: "Conner Luzier"
+  repo: "https://github.com/cluzier/Ocean"
+  url: "https://marketplace.visualstudio.com/items?itemName=cluzier.ocean"
+  formats: null
+colors:
+  bg: "#24305E"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#F76C6C"
+  green: "#BAE67E"
+  yellow: "#F8E9A1"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#F76C6C"
+  brightGreen: "#BAE67E"
+  brightYellow: "#F8E9A1"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 270
+  pair: null
+  contrast:
+    fg: 50.1
+    black: 0
+    red: 41.6
+    green: 76.9
+    yellow: 87.1
+    blue: 62.8
+    magenta: 56.3
+    cyan: 62.8
+    white: 50.1
+    brightBlack: 0
+    brightRed: 41.6
+    brightGreen: 76.9
+    brightYellow: 87.1
+    brightBlue: 62.8
+    brightMagenta: 56.3
+    brightCyan: 62.8
+    brightWhite: 50.1

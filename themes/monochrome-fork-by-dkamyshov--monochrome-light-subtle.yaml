@@ -1,0 +1,53 @@
+name: "Monochrome (fork by dkamyshov) (monochrome-light-subtle)"
+source:
+  marketplace_id: "dkamyshov.monochrome"
+  version: "2.3.3"
+  installs: 2229
+  rating: 0
+  ratings: 0
+  author: "dkamyshov"
+  repo: "https://github.com/dkamyshov/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=dkamyshov.monochrome"
+  formats: null
+colors:
+  bg: "#F1F5F9"
+  fg: "#0A1219"
+  black: "#F1F5F9"
+  red: "#272E35"
+  green: "#787E83"
+  yellow: "#0A1219"
+  blue: "#A0A6AB"
+  magenta: "#0A1219"
+  cyan: "#4F565C"
+  white: "#0A1219"
+  brightBlack: "#C9CDD2"
+  brightRed: "#272E35"
+  brightGreen: "#787E83"
+  brightYellow: "#0A1219"
+  brightBlue: "#A0A6AB"
+  brightMagenta: "#0A1219"
+  brightCyan: "#4F565C"
+  brightWhite: "#0A1219"
+meta:
+  mode: "light"
+  accent: "indigo"
+  hue: null
+  pair: "Monochrome (fork by dkamyshov) (monochrome-dark-subtle)"
+  contrast:
+    fg: 99
+    black: 0
+    red: 94
+    green: 62
+    yellow: 99
+    blue: 42.1
+    magenta: 99
+    cyan: 79.6
+    white: 99
+    brightBlack: 20.7
+    brightRed: 94
+    brightGreen: 62
+    brightYellow: 99
+    brightBlue: 42.1
+    brightMagenta: 99
+    brightCyan: 79.6
+    brightWhite: 99

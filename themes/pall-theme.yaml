@@ -1,0 +1,53 @@
+name: "Pall-Theme"
+source:
+  marketplace_id: "Goek.pall"
+  version: "0.0.5"
+  installs: 93
+  rating: 0
+  ratings: 0
+  author: "Goek"
+  repo: "https://github.com/aligoek/Pall-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Goek.pall"
+  formats: null
+colors:
+  bg: "#EBEEF5"
+  fg: "#292B4F"
+  black: "#000000"
+  red: "#920000"
+  green: "#3B9200"
+  yellow: "#928200"
+  blue: "#001792"
+  magenta: "#920089"
+  cyan: "#008B92"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#B20000"
+  brightGreen: "#4BBA00"
+  brightYellow: "#B29E00"
+  brightBlue: "#0021D3"
+  brightMagenta: "#B200A7"
+  brightCyan: "#00B1BA"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.8
+    black: 95.9
+    red: 79.1
+    green: 56.4
+    yellow: 55.9
+    blue: 88.5
+    magenta: 75.7
+    cyan: 57.5
+    white: 75.8
+    brightBlack: 68.6
+    brightRed: 72.3
+    brightGreen: 38.8
+    brightYellow: 42
+    brightBlue: 80.2
+    brightMagenta: 67.8
+    brightCyan: 40.4
+    brightWhite: 38.3

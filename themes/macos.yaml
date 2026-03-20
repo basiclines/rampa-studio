@@ -1,0 +1,53 @@
+name: "macOS"
+source:
+  marketplace_id: "sidiousvic.glitch-dark"
+  version: "6.6.693"
+  installs: 6200
+  rating: 5
+  ratings: 1
+  author: "sidiousvic"
+  repo: "https://github.com/sidiousvic/glitch-dark-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sidiousvic.glitch-dark"
+  formats: null
+colors:
+  bg: "#0F0F0F"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#E100FF"
+  blue: "#0000FF"
+  magenta: "#B200B2"
+  cyan: "#00A6B2"
+  white: "#FFFFFF"
+  brightBlack: "#D4D4D4"
+  brightRed: "#FF00FF"
+  brightGreen: "#00D900"
+  brightYellow: "#E5E500"
+  brightBlue: "#0000FF"
+  brightMagenta: "#E90AC0"
+  brightCyan: "#00E5E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.5
+    black: 0
+    red: 37.2
+    green: 86.1
+    yellow: 39.3
+    blue: 15.8
+    magenta: 24.2
+    cyan: 45.9
+    white: 107.5
+    brightBlack: 80.1
+    brightRed: 45.8
+    brightGreen: 66.3
+    brightYellow: 86.2
+    brightBlue: 15.8
+    brightMagenta: 36.6
+    brightCyan: 77.3
+    brightWhite: 107.5

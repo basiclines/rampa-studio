@@ -1,0 +1,53 @@
+name: "Aurbis Dark"
+source:
+  marketplace_id: "dara.aurbis-theme"
+  version: "0.2.0"
+  installs: 29
+  rating: 5
+  ratings: 1
+  author: "dara"
+  repo: "https://github.com/azuradara/aurbis-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dara.aurbis-theme"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#DDDDDD"
+  black: "#151515"
+  red: "#C38B8B"
+  green: "#8FA897"
+  yellow: "#C4B591"
+  blue: "#8094B8"
+  magenta: "#A787A5"
+  cyan: "#7AA2A6"
+  white: "#B8B8B8"
+  brightBlack: "#4A4A4A"
+  brightRed: "#D49999"
+  brightGreen: "#A4BBAD"
+  brightYellow: "#D8C9A3"
+  brightBlue: "#91A8CC"
+  brightMagenta: "#B898B8"
+  brightCyan: "#8DB8BC"
+  brightWhite: "#D0D0D0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 47.1
+    green: 51.6
+    yellow: 62.7
+    blue: 43.9
+    magenta: 42.8
+    cyan: 48
+    white: 63.8
+    brightBlack: 11.7
+    brightRed: 54.9
+    brightGreen: 62.3
+    brightYellow: 74.2
+    brightBlue: 54.1
+    brightMagenta: 51.7
+    brightCyan: 59.5
+    brightWhite: 77.8

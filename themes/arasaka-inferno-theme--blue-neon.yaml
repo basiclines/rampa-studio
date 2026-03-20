@@ -1,0 +1,53 @@
+name: "Arasaka Inferno Theme (Blue Neon)"
+source:
+  marketplace_id: "puszkarek.arasaka-inferno-vscode-theme"
+  version: "1.2.0"
+  installs: 270
+  rating: 0
+  ratings: 0
+  author: "Puszkarek"
+  repo: "https://github.com/Puszkarek/arasaka-inferno-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=puszkarek.arasaka-inferno-vscode-theme"
+  formats: null
+colors:
+  bg: "#0E0E17"
+  fg: "#63A6FD"
+  black: "#0E0E17"
+  red: "#FF2E6E"
+  green: "#2570D4"
+  yellow: "#F0B437"
+  blue: "#00FFCC"
+  magenta: "#FF00AA"
+  cyan: "#00FFF7"
+  white: "#2570D4"
+  brightBlack: "#030305"
+  brightRed: "#FF2E6E"
+  brightGreen: "#2570D4"
+  brightYellow: "#F0B437"
+  brightBlue: "#00FFCC"
+  brightMagenta: "#FF00A8"
+  brightCyan: "#00FFF7"
+  brightWhite: "#8FBFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 52.8
+    black: 0
+    red: 39.8
+    green: 28.3
+    yellow: 67.3
+    blue: 89.5
+    magenta: 40.6
+    cyan: 91.4
+    white: 28.3
+    brightBlack: 0
+    brightRed: 39.8
+    brightGreen: 28.3
+    brightYellow: 67.3
+    brightBlue: 89.5
+    brightMagenta: 40.5
+    brightCyan: 91.4
+    brightWhite: 66.1

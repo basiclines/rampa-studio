@@ -1,0 +1,53 @@
+name: "Gipsy Dark"
+source:
+  marketplace_id: "lucagaerisch.gipsy-vscode-theme"
+  version: "0.0.2"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "Luca Gärisch"
+  repo: "https://github.com/lucagaerisch/gipsy-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucagaerisch.gipsy-vscode-theme"
+  formats: null
+colors:
+  bg: "#151515"
+  fg: "#F7F1FF"
+  black: "#050505"
+  red: "#FB1C5C"
+  green: "#47C963"
+  yellow: "#FBDB21"
+  blue: "#2264DE"
+  magenta: "#CC00CC"
+  cyan: "#22C6DE"
+  white: "#F7F1FF"
+  brightBlack: "#696969"
+  brightRed: "#FF80C0"
+  brightGreen: "#ABFFC7"
+  brightYellow: "#FFFF85"
+  brightBlue: "#86C8FF"
+  brightMagenta: "#FF64FF"
+  brightCyan: "#86FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 37
+    green: 59.8
+    yellow: 84.6
+    blue: 25.1
+    magenta: 30.6
+    cyan: 61.9
+    white: 99.4
+    brightBlack: 23.5
+    brightRed: 56.2
+    brightGreen: 95.1
+    brightYellow: 103
+    brightBlue: 68.8
+    brightMagenta: 53.6
+    brightCyan: 94.8
+    brightWhite: 107.1

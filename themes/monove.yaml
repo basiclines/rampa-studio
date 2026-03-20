@@ -1,0 +1,53 @@
+name: "monove"
+source:
+  marketplace_id: "0xdhrv.monove"
+  version: "0.0.2"
+  installs: 123
+  rating: 0
+  ratings: 0
+  author: "Dhruv Suthar"
+  repo: "https://github.com/0xdhrv/monove-vscode-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=0xdhrv.monove"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#CDCDCD"
+  black: "#000000"
+  red: "#717171"
+  green: "#4B4B4B"
+  yellow: "#8F8F8F"
+  blue: "#3C3C3C"
+  magenta: "#575757"
+  cyan: "#444444"
+  white: "#CDCDCD"
+  brightBlack: "#3C3C3C"
+  brightRed: "#909090"
+  brightGreen: "#575757"
+  brightYellow: "#8F8F8F"
+  brightBlue: "#444444"
+  brightMagenta: "#717171"
+  brightCyan: "#4B4B4B"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.3
+    black: 0
+    red: 27.8
+    green: 12.3
+    yellow: 42.1
+    blue: 0
+    magenta: 16.9
+    cyan: 9.8
+    white: 76.3
+    brightBlack: 0
+    brightRed: 42.6
+    brightGreen: 16.9
+    brightYellow: 42.1
+    brightBlue: 9.8
+    brightMagenta: 27.8
+    brightCyan: 12.3
+    brightWhite: 107.9

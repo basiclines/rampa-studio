@@ -1,0 +1,53 @@
+name: "Jazari Light"
+source:
+  marketplace_id: "aala.jazari"
+  version: "1.2.1"
+  installs: 22
+  rating: 0
+  ratings: 0
+  author: "AALA IT Solutions"
+  repo: "https://github.com/aalasolutions/vscode-jazari"
+  url: "https://marketplace.visualstudio.com/items?itemName=aala.jazari"
+  formats: null
+colors:
+  bg: "#E7EBF5"
+  fg: "#24292E"
+  black: "#24292E"
+  red: "#CF2236"
+  green: "#2E8B3E"
+  yellow: "#B87514"
+  blue: "#2871A8"
+  magenta: "#7C3E9C"
+  cyan: "#1A8A95"
+  white: "#E7EBF5"
+  brightBlack: "#656D76"
+  brightRed: "#E0394E"
+  brightGreen: "#3DA050"
+  brightYellow: "#D08A20"
+  brightBlue: "#3888C0"
+  brightMagenta: "#9650B8"
+  brightCyan: "#20A0AC"
+  brightWhite: "#FAFBFC"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 268
+  pair: "Jazari Dark"
+  contrast:
+    fg: 89.6
+    black: 89.6
+    red: 62.8
+    green: 57.5
+    yellow: 52.9
+    blue: 63.7
+    magenta: 71.6
+    cyan: 55.9
+    white: 0
+    brightBlack: 64.2
+    brightRed: 56.5
+    brightGreen: 48.3
+    brightYellow: 42.6
+    brightBlue: 53.8
+    brightMagenta: 62.7
+    brightCyan: 46.1
+    brightWhite: 8.3

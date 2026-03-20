@@ -1,0 +1,53 @@
+name: "Darker-B"
+source:
+  marketplace_id: "zarkooi.darker-b"
+  version: "0.0.3"
+  installs: 378
+  rating: 0
+  ratings: 0
+  author: "Joao Pedro Lima Pereira"
+  repo: "https://github.com/JoaoPDeveloper/darkerstHours-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zarkooi.darker-b"
+  formats: null
+colors:
+  bg: "#151432"
+  fg: "#00FF28"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 282
+  pair: null
+  contrast:
+    fg: 85.4
+    black: 0
+    red: 26.6
+    green: 52.9
+    yellow: 85.5
+    blue: 27.3
+    magenta: 29.6
+    cyan: 47.4
+    white: 106.7
+    brightBlack: 21.9
+    brightRed: 38.4
+    brightGreen: 63.4
+    brightYellow: 95.5
+    brightBlue: 39.9
+    brightMagenta: 45.2
+    brightCyan: 55.3
+    brightWhite: 89.9

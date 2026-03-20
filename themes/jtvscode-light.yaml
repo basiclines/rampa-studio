@@ -1,0 +1,53 @@
+name: "jtVSCode Light"
+source:
+  marketplace_id: "javiertdev.jtvscode"
+  version: "1.0.0"
+  installs: 18
+  rating: 0
+  ratings: 0
+  author: "javiert.dev"
+  repo: "https://github.com/javiertdev/jtVSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=javiertdev.jtvscode"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#212121"
+  black: "#212121"
+  red: "#C72E2E"
+  green: "#3A822C"
+  yellow: "#BF7B10"
+  blue: "#0451A5"
+  magenta: "#8A3ABF"
+  cyan: "#267F99"
+  white: "#F0F0F0"
+  brightBlack: "#666666"
+  brightRed: "#F44747"
+  brightGreen: "#6FCF50"
+  brightYellow: "#E8A830"
+  brightBlue: "#569CD6"
+  brightMagenta: "#C586C0"
+  brightCyan: "#4EC9B0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "jtVSCode Dark"
+  contrast:
+    fg: 103.1
+    black: 103.1
+    red: 75.6
+    green: 72.8
+    yellow: 61.9
+    blue: 86.1
+    magenta: 79.7
+    cyan: 71.5
+    white: 0
+    brightBlack: 78.8
+    brightRed: 62.2
+    brightGreen: 37.4
+    brightYellow: 40.5
+    brightBlue: 55.8
+    brightMagenta: 53.5
+    brightCyan: 39.3
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Obsidian Pro White"
+source:
+  marketplace_id: "williamkoller.obsidian-pro-theme"
+  version: "1.0.1"
+  installs: 42
+  rating: 5
+  ratings: 1
+  author: "williamkoller"
+  repo: "https://github.com/williamkoller/obsidian-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=williamkoller.obsidian-pro-theme"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#1F1F1F"
+  black: "#111111"
+  red: "#DC2626"
+  green: "#059669"
+  yellow: "#CA8A04"
+  blue: "#2563EB"
+  magenta: "#7C3AED"
+  cyan: "#0891B2"
+  white: "#1F1F1F"
+  brightBlack: "#6B7280"
+  brightRed: "#EF4444"
+  brightGreen: "#10B981"
+  brightYellow: "#FBBF24"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#8B5CF6"
+  brightCyan: "#22D3EE"
+  brightWhite: "#374151"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Obsidian Pro - Dark Blue Purple"
+  contrast:
+    fg: 100.5
+    black: 102.4
+    red: 68.6
+    green: 61.6
+    yellow: 52.5
+    blue: 71.9
+    magenta: 74.5
+    cyan: 60.8
+    white: 100.5
+    brightBlack: 70.6
+    brightRed: 60.8
+    brightGreen: 46.1
+    brightYellow: 26.2
+    brightBlue: 60.9
+    brightMagenta: 65.7
+    brightCyan: 30.1
+    brightWhite: 90.9

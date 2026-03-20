@@ -1,0 +1,53 @@
+name: "Monza Dark"
+source:
+  marketplace_id: "JamesGulland.monza-dark-theme"
+  version: "0.0.1"
+  installs: 50
+  rating: 0
+  ratings: 0
+  author: "James Gulland"
+  repo: "https://github.com/james-gulland/monza-dark-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.monza-dark-theme"
+  formats: null
+colors:
+  bg: "#1B1C22"
+  fg: "#88DBFD"
+  black: "#1B1C22"
+  red: "#F07178"
+  green: "#FFCC99"
+  yellow: "#FFCC99"
+  blue: "#9FB2E5"
+  magenta: "#9FB2E5"
+  cyan: "#FFCC99"
+  white: "#E4F4F4"
+  brightBlack: "#88DBFD"
+  brightRed: "#F07178"
+  brightGreen: "#FFCC99"
+  brightYellow: "#FFCC99"
+  brightBlue: "#9FB2E5"
+  brightMagenta: "#9FB2E5"
+  brightCyan: "#FFCC99"
+  brightWhite: "#E4F4F4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 76.5
+    black: 0
+    red: 46
+    green: 79.8
+    yellow: 79.8
+    blue: 59.4
+    magenta: 59.4
+    cyan: 79.8
+    white: 96.9
+    brightBlack: 76.5
+    brightRed: 46
+    brightGreen: 79.8
+    brightYellow: 79.8
+    brightBlue: 59.4
+    brightMagenta: 59.4
+    brightCyan: 79.8
+    brightWhite: 96.9

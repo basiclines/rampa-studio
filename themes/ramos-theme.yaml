@@ -1,0 +1,53 @@
+name: "ramos-theme"
+source:
+  marketplace_id: "dgleyramos.dgleyramos"
+  version: "0.0.3"
+  installs: 141
+  rating: 5
+  ratings: 1
+  author: "dgleyramos"
+  repo: "https://github.com/dgleyramos1/ramos-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dgleyramos.dgleyramos"
+  formats: null
+colors:
+  bg: "#1D1D2E"
+  fg: "#FFFFFF"
+  black: "#C72020"
+  red: "#961B1B"
+  green: "#28C086"
+  yellow: "#FFFF00"
+  blue: "#72AFF2"
+  magenta: "#DB10DB"
+  cyan: "#00CDFF"
+  white: "#2CFF00"
+  brightBlack: "#FF4242"
+  brightRed: "#FF3333"
+  brightGreen: "#1D9B68"
+  brightYellow: "#929204"
+  brightBlue: "#0B519F"
+  brightMagenta: "#8C128C"
+  brightCyan: "#10596B"
+  brightWhite: "#2BC275"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 105.9
+    black: 23
+    red: 12.5
+    green: 54.5
+    yellow: 100.8
+    blue: 54.9
+    magenta: 33.8
+    cyan: 65.7
+    white: 84.8
+    brightBlack: 39.4
+    brightRed: 37.7
+    brightGreen: 37.3
+    brightYellow: 39.4
+    brightBlue: 13.7
+    brightMagenta: 13.6
+    brightCyan: 13.2
+    brightWhite: 55

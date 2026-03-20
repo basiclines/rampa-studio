@@ -1,0 +1,53 @@
+name: "Tyrian Night"
+source:
+  marketplace_id: "renbkna.tyrian-night"
+  version: "1.5.2"
+  installs: 24
+  rating: 5
+  ratings: 1
+  author: "renbkna"
+  repo: "https://github.com/renbkna/tyrian-night"
+  url: "https://marketplace.visualstudio.com/items?itemName=renbkna.tyrian-night"
+  formats: null
+colors:
+  bg: "#0C0C0C"
+  fg: "#D0C8E0"
+  black: "#252530"
+  red: "#C06868"
+  green: "#489060"
+  yellow: "#C09040"
+  blue: "#5A78C0"
+  magenta: "#8B6ABD"
+  cyan: "#3A9690"
+  white: "#D0C8E0"
+  brightBlack: "#404050"
+  brightRed: "#D08888"
+  brightGreen: "#68B080"
+  brightYellow: "#D0B060"
+  brightBlue: "#7A98D0"
+  brightMagenta: "#A888C8"
+  brightCyan: "#58B0A8"
+  brightWhite: "#E0D8F0"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.2
+    black: 0
+    red: 35.6
+    green: 35.5
+    yellow: 46.8
+    blue: 31.8
+    magenta: 31.9
+    cyan: 38.8
+    white: 75.2
+    brightBlack: 8.7
+    brightRed: 48.2
+    brightGreen: 51.2
+    brightYellow: 61.3
+    brightBlue: 46.3
+    brightMagenta: 45
+    brightCyan: 51.7
+    brightWhite: 84.9

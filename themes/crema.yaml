@@ -1,0 +1,53 @@
+name: "Crema"
+source:
+  marketplace_id: "Le-BlitzZz.vscode-crema-theme"
+  version: "7.0.0"
+  installs: 124
+  rating: 0
+  ratings: 0
+  author: "Le-BlitzZz"
+  repo: "https://github.com/Le-BlitzZz/vscode-crema-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Le-BlitzZz.vscode-crema-theme"
+  formats: null
+colors:
+  bg: "#1F1F1F"
+  fg: "#CCCCCC"
+  black: "#51576D"
+  red: "#E78284"
+  green: "#A6D189"
+  yellow: "#E5C890"
+  blue: "#8CAAEE"
+  magenta: "#F4B8E4"
+  cyan: "#81C8BE"
+  white: "#A5ADCE"
+  brightBlack: "#626880"
+  brightRed: "#E67172"
+  brightGreen: "#8EC772"
+  brightYellow: "#D9BA73"
+  brightBlue: "#7B9EF0"
+  brightMagenta: "#F2A4DB"
+  brightCyan: "#5ABFB5"
+  brightWhite: "#B5BFE2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.7
+    black: 15.2
+    red: 48.6
+    green: 69.3
+    yellow: 73.4
+    blue: 54.7
+    magenta: 72.6
+    cyan: 63.9
+    white: 56.5
+    brightBlack: 22.3
+    brightRed: 43.4
+    brightGreen: 62.1
+    brightYellow: 65.2
+    brightBlue: 48.8
+    brightMagenta: 64.7
+    brightCyan: 57.2
+    brightWhite: 66.5

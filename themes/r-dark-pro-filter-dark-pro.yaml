@@ -1,0 +1,53 @@
+name: "R Dark Pro (Filter Dark Pro)"
+source:
+  marketplace_id: "Rezky.r-dark-pro"
+  version: "0.0.44"
+  installs: 3273
+  rating: 5
+  ratings: 1
+  author: "Rezky P. Budihartono"
+  repo: "https://github.com/rezkycodes/rdark.pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rezky.r-dark-pro"
+  formats: null
+colors:
+  bg: "#0C0F14"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 261
+  pair: null
+  contrast:
+    fg: 60
+    black: 9.5
+    red: 37.4
+    green: 61
+    yellow: 49.2
+    blue: 50.3
+    magenta: 39.7
+    cyan: 53.1
+    white: 83.7
+    brightBlack: 16.1
+    brightRed: 46.7
+    brightGreen: 77.4
+    brightYellow: 61.9
+    brightBlue: 64.4
+    brightMagenta: 50.9
+    brightCyan: 68.4
+    brightWhite: 91.3

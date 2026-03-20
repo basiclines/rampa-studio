@@ -1,0 +1,53 @@
+name: "darkvoid ocean"
+source:
+  marketplace_id: "Aliqyan-21.darkvoid"
+  version: "2.1.1"
+  installs: 517
+  rating: 5
+  ratings: 1
+  author: "darkvoid"
+  repo: "https://github.com/darkvoid-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Aliqyan-21.darkvoid"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#C0C0C0"
+  black: "#121212"
+  red: "#FF3131"
+  green: "#2E8B57"
+  yellow: "#D1D1D1"
+  blue: "#66B2B2"
+  magenta: "#B16286"
+  cyan: "#00FFFD"
+  white: "#F1F1F1"
+  brightBlack: "#404040"
+  brightRed: "#FF7F50"
+  brightGreen: "#7FCDFF"
+  brightYellow: "#FFFFBA"
+  brightBlue: "#93C6C6"
+  brightMagenta: "#D3869B"
+  brightCyan: "#00FFFD"
+  brightWhite: "#F1F1F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.9
+    black: 0
+    red: 38.7
+    green: 31.9
+    yellow: 77.9
+    blue: 53.2
+    magenta: 32
+    cyan: 91.3
+    white: 98
+    brightBlack: 7.7
+    brightRed: 52.8
+    brightGreen: 70.6
+    brightYellow: 104.4
+    brightBlue: 66
+    brightMagenta: 48.2
+    brightCyan: 91.3
+    brightWhite: 98

@@ -1,0 +1,53 @@
+name: "Colorado Theme (Theme³ Dark)"
+source:
+  marketplace_id: "StevenJborik.colorado-theme"
+  version: "0.0.15"
+  installs: 84
+  rating: 5
+  ratings: 1
+  author: "StevenJBorik"
+  repo: "https://github.com/StevenJBorik/colorado-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=StevenJborik.colorado-theme"
+  formats: null
+colors:
+  bg: "#2E3440"
+  fg: "#D3D7DF"
+  black: "#3E4656"
+  red: "#609BBC"
+  green: "#05BE9F"
+  yellow: "#E6BA5C"
+  blue: "#05BE9F"
+  magenta: "#E57373"
+  cyan: "#99AAB5"
+  white: "#DEE1E7"
+  brightBlack: "#5F6B83"
+  brightRed: "#E57373"
+  brightGreen: "#05BE9F"
+  brightYellow: "#E6BA5C"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#99AAB5"
+  brightWhite: "#DEE1E7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: "Colorado Theme (Theme³)"
+  contrast:
+    fg: 76.1
+    black: 0
+    red: 38.6
+    green: 50
+    yellow: 62.7
+    blue: 50
+    magenta: 39.7
+    cyan: 48.8
+    white: 82.3
+    brightBlack: 19
+    brightRed: 39.7
+    brightGreen: 50
+    brightYellow: 62.7
+    brightBlue: 36.4
+    brightMagenta: 7.7
+    brightCyan: 48.8
+    brightWhite: 82.3

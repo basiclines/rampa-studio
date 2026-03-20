@@ -1,0 +1,53 @@
+name: "GameBoy Classic Theme (GameBoy Classic Light)"
+source:
+  marketplace_id: "sanchodelniglo.gameboy-classic-theme"
+  version: "0.0.4"
+  installs: 837
+  rating: 0
+  ratings: 0
+  author: "sanchodelniglo"
+  repo: "https://github.com/Sanchodelniglo/gameboy-classic-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sanchodelniglo.gameboy-classic-theme"
+  formats: null
+colors:
+  bg: "#C0D297"
+  fg: "#0F380F"
+  black: "#0F380F"
+  red: "#9A2257"
+  green: "#79970B"
+  yellow: "#9BBC0F"
+  blue: "#494786"
+  magenta: "#9A2257"
+  cyan: "#306850"
+  white: "#C4BEBB"
+  brightBlack: "#526525"
+  brightRed: "#B84A7A"
+  brightGreen: "#9BBC0F"
+  brightYellow: "#B3D80E"
+  brightBlue: "#5855A0"
+  brightMagenta: "#B84A7A"
+  brightCyan: "#88C070"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: 122
+  pair: "GameBoy Classic Theme (GameBoy Classic Dark)"
+  contrast:
+    fg: 69
+    black: 69
+    red: 55.1
+    green: 30.7
+    yellow: 12.6
+    blue: 58.3
+    magenta: 55.1
+    cyan: 51.9
+    white: 0
+    brightBlack: 51.8
+    brightRed: 43
+    brightGreen: 12.6
+    brightYellow: 0
+    brightBlue: 51.9
+    brightMagenta: 43
+    brightCyan: 11.6
+    brightWhite: 26.7

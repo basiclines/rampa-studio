@@ -1,0 +1,54 @@
+name: "Bellair"
+source:
+  marketplace_id: "codyloyd.bellair-theme"
+  version: "0.12.0"
+  installs: 189
+  rating: 5
+  ratings: 1
+  author: "Cody Loyd"
+  repo: "https://github.com/codyloyd/bellair-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=codyloyd.bellair-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/codyloyd/bellair-theme/master/bellair.itermcolors"
+colors:
+  bg: "#0E0F18"
+  fg: "#DEE6EE"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#5ADF86"
+  yellow: "#FCBC5B"
+  blue: "#3D87FF"
+  magenta: "#FB94FF"
+  cyan: "#89DDFF"
+  white: "#DEE6EE"
+  brightBlack: "#0050A4"
+  brightRed: "#FF5370"
+  brightGreen: "#5ADF86"
+  brightYellow: "#FCBC5B"
+  brightBlue: "#3D87FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#89DDFF"
+  brightWhite: "#193549"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 90.6
+    black: 0
+    red: 44.2
+    green: 72.3
+    yellow: 72.8
+    blue: 39.8
+    magenta: 64.9
+    cyan: 78.8
+    white: 90.6
+    brightBlack: 15.2
+    brightRed: 44.2
+    brightGreen: 72.3
+    brightYellow: 72.8
+    brightBlue: 39.8
+    brightMagenta: 64.9
+    brightCyan: 78.8
+    brightWhite: 0

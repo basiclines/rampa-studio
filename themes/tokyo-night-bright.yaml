@@ -1,0 +1,53 @@
+name: "Tokyo Night Bright"
+source:
+  marketplace_id: "danarnold.tokyo-night-bright"
+  version: "0.0.1"
+  installs: 470
+  rating: 0
+  ratings: 0
+  author: "danarnold"
+  repo: "https://github.com/danarnold/tokyonight-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=danarnold.tokyo-night-bright"
+  formats: null
+colors:
+  bg: "#1A1B26"
+  fg: "#C0CAF5"
+  black: "#15161E"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#A9B1D6"
+  brightBlack: "#414868"
+  brightRed: "#FF899D"
+  brightGreen: "#9FE044"
+  brightYellow: "#FABA4A"
+  brightBlue: "#8DB0FF"
+  brightMagenta: "#C7A9FF"
+  brightCyan: "#A4DAFF"
+  brightWhite: "#C0CAF5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 73.8
+    black: 0
+    red: 49.4
+    green: 66.9
+    yellow: 62.2
+    blue: 51.1
+    magenta: 55
+    cyan: 70.5
+    white: 59.3
+    brightBlack: 10.3
+    brightRed: 56.5
+    brightGreen: 75
+    brightYellow: 70.3
+    brightBlue: 58.6
+    brightMagenta: 62.4
+    brightCyan: 78.5
+    brightWhite: 73.8

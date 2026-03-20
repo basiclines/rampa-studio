@@ -1,0 +1,53 @@
+name: "Zach's Blue Theme"
+source:
+  marketplace_id: "ZachFauser.ZachsBlueTheme"
+  version: "9.0.1"
+  installs: 1740
+  rating: 5
+  ratings: 3
+  author: "Zach Fauser"
+  repo: "https://github.com/Zfauser/Zachs-BLUE-vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=ZachFauser.ZachsBlueTheme"
+  formats: null
+colors:
+  bg: "#0E2434"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 78
+    black: 0
+    red: 25.2
+    green: 51.5
+    yellow: 84.1
+    blue: 25.9
+    magenta: 28.2
+    cyan: 46
+    white: 88.5
+    brightBlack: 20.5
+    brightRed: 37
+    brightGreen: 62
+    brightYellow: 94.1
+    brightBlue: 38.5
+    brightMagenta: 43.9
+    brightCyan: 53.9
+    brightWhite: 88.5

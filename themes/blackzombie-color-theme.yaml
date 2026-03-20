@@ -1,0 +1,53 @@
+name: "blackzombie-color-theme"
+source:
+  marketplace_id: "RaMeZ.theme-blackzombie"
+  version: "1.0.3"
+  installs: 115
+  rating: 0
+  ratings: 0
+  author: "RaMeZ"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=RaMeZ.theme-blackzombie"
+  formats: null
+colors:
+  bg: "#1D1D1D"
+  fg: "#BDBDBD"
+  black: "#363537"
+  red: "#FC618D"
+  green: "#7BD88F"
+  yellow: "#FCE566"
+  blue: "#FD9353"
+  magenta: "#948AE3"
+  cyan: "#5AD4E6"
+  white: "#F7F1FF"
+  brightBlack: "#69676C"
+  brightRed: "#FC618D"
+  brightGreen: "#7BD88F"
+  brightYellow: "#FCE566"
+  brightBlue: "#FD9353"
+  brightMagenta: "#948AE3"
+  brightCyan: "#5AD4E6"
+  brightWhite: "#F7F1FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.2
+    black: 0
+    red: 45.6
+    green: 69.5
+    yellow: 88.9
+    blue: 57.2
+    magenta: 43.5
+    cyan: 69.3
+    white: 98.5
+    brightBlack: 22.1
+    brightRed: 45.6
+    brightGreen: 69.5
+    brightYellow: 88.9
+    brightBlue: 57.2
+    brightMagenta: 43.5
+    brightCyan: 69.3
+    brightWhite: 98.5

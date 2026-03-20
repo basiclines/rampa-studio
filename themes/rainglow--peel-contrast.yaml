@@ -1,0 +1,53 @@
+name: "Rainglow (peel-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0C0B0A"
+  fg: "#EDEBE6"
+  black: "#1A1816"
+  red: "#BA0E2E"
+  green: "#94C7B6"
+  yellow: "#D3643B"
+  blue: "#D6E1C7"
+  magenta: "#94C7B6"
+  cyan: "#D3643B"
+  white: "#F8F7F5"
+  brightBlack: "#443E38"
+  brightRed: "#F03E5F"
+  brightGreen: "#D7EAE4"
+  brightYellow: "#E6A68E"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#D7EAE4"
+  brightCyan: "#E6A68E"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (peel-light)"
+  contrast:
+    fg: 94.7
+    black: 0
+    red: 21.3
+    green: 66.4
+    yellow: 37.4
+    blue: 85.8
+    magenta: 66.4
+    cyan: 37.4
+    white: 102.5
+    brightBlack: 7.9
+    brightRed: 37.6
+    brightGreen: 91.3
+    brightYellow: 62.1
+    brightBlue: 107.7
+    brightMagenta: 91.3
+    brightCyan: 62.1
+    brightWhite: 107.7

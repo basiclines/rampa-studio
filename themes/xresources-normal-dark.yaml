@@ -1,0 +1,53 @@
+name: "xresources_normal_dark"
+source:
+  marketplace_id: "NekkiNeks.xresources-theme-plus"
+  version: "2.0.1"
+  installs: 22
+  rating: 0
+  ratings: 0
+  author: "NekkiNeks"
+  repo: "https://github.com/NekkiNeks/xresources-theme-plus"
+  url: "https://marketplace.visualstudio.com/items?itemName=NekkiNeks.xresources-theme-plus"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#EAEAEA"
+  black: "#232323"
+  red: "#B30303"
+  green: "#8AB800"
+  yellow: "#DC4904"
+  blue: "#2527CE"
+  magenta: "#B20B6D"
+  cyan: "#277890"
+  white: "#AFAFAF"
+  brightBlack: "#4D4D4D"
+  brightRed: "#FF0100"
+  brightGreen: "#BAF602"
+  brightYellow: "#FD6C13"
+  brightBlue: "#2E31FC"
+  brightMagenta: "#F01294"
+  brightCyan: "#3BB1D4"
+  brightWhite: "#D6D6D6"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.2
+    black: 0
+    red: 19.7
+    green: 56
+    yellow: 33.9
+    blue: 12.4
+    magenta: 21.1
+    cyan: 27.2
+    white: 59
+    brightBlack: 13.1
+    brightRed: 37.5
+    brightGreen: 89.7
+    brightYellow: 47.9
+    brightBlue: 19
+    brightMagenta: 36.5
+    brightCyan: 53.4
+    brightWhite: 81.7

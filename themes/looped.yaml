@@ -1,0 +1,53 @@
+name: "looped"
+source:
+  marketplace_id: "RatulMaharaj.nightwind"
+  version: "0.0.6"
+  installs: 827
+  rating: 5
+  ratings: 1
+  author: "Ratul Maharaj"
+  repo: "https://github.com/RatulMaharaj/nightwind"
+  url: "https://marketplace.visualstudio.com/items?itemName=RatulMaharaj.nightwind"
+  formats: null
+colors:
+  bg: "#111827"
+  fg: "#F9FAFB"
+  black: "#616161"
+  red: "#EF4444"
+  green: "#84CC16"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#8B5CF6"
+  cyan: "#0891B2"
+  white: "#F9FAFB"
+  brightBlack: "#616161"
+  brightRed: "#DC2626"
+  brightGreen: "#A3E635"
+  brightYellow: "#FACC15"
+  brightBlue: "#2563EB"
+  brightMagenta: "#7C3AED"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 19.8
+    red: 36.7
+    green: 63.4
+    yellow: 64.9
+    blue: 36.6
+    magenta: 31.8
+    cyan: 36.7
+    white: 103.3
+    brightBlack: 19.8
+    brightRed: 29
+    brightGreen: 78.5
+    brightYellow: 77.6
+    brightBlue: 25.7
+    brightMagenta: 23.1
+    brightCyan: 53.7
+    brightWhite: 106.7

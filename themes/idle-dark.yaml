@@ -1,0 +1,53 @@
+name: "Idle Dark"
+source:
+  marketplace_id: "luojiahai.idle-theme"
+  version: "0.0.3"
+  installs: 48
+  rating: 0
+  ratings: 0
+  author: "luojiahai"
+  repo: "https://github.com/idlegram/idle-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=luojiahai.idle-theme"
+  formats: null
+colors:
+  bg: "#0F0F0F"
+  fg: "#CCD6DB"
+  black: "#35393B"
+  red: "#BF6073"
+  green: "#4D9974"
+  yellow: "#BFAC60"
+  blue: "#5996B3"
+  magenta: "#BF73AC"
+  cyan: "#4D9999"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#BF6073"
+  brightGreen: "#4D9974"
+  brightYellow: "#BFAC60"
+  brightBlue: "#5996B3"
+  brightMagenta: "#BF73AC"
+  brightCyan: "#4D9999"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "Idle Light"
+  contrast:
+    fg: 80.3
+    black: 0
+    red: 33.6
+    green: 39.7
+    yellow: 57.2
+    blue: 41.5
+    magenta: 40.6
+    cyan: 40.9
+    white: 81.9
+    brightBlack: 30.2
+    brightRed: 33.6
+    brightGreen: 39.7
+    brightYellow: 57.2
+    brightBlue: 41.5
+    brightMagenta: 40.6
+    brightCyan: 40.9
+    brightWhite: 107.5

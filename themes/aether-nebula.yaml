@@ -1,0 +1,53 @@
+name: "Aether Nebula"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#1A0F2E"
+  fg: "#E9D5FF"
+  black: "#1A0F2E"
+  red: "#FF79C6"
+  green: "#50FA7B"
+  yellow: "#FFB86C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#E9D5FF"
+  brightBlack: "#1A0F2E"
+  brightRed: "#FF79C6"
+  brightGreen: "#50FA7B"
+  brightYellow: "#FFB86C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#E9D5FF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 297
+  pair: "Aether Zen"
+  contrast:
+    fg: 85
+    black: 0
+    red: 54.6
+    green: 84.9
+    yellow: 71.5
+    blue: 53.7
+    magenta: 54.6
+    cyan: 84
+    white: 85
+    brightBlack: 0
+    brightRed: 54.6
+    brightGreen: 84.9
+    brightYellow: 71.5
+    brightBlue: 53.7
+    brightMagenta: 54.6
+    brightCyan: 84
+    brightWhite: 85

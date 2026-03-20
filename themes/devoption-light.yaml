@@ -1,0 +1,53 @@
+name: "DevOption Light"
+source:
+  marketplace_id: "DevOption.devoption-theme"
+  version: "0.0.5"
+  installs: 304
+  rating: 0
+  ratings: 0
+  author: "DevOption"
+  repo: "git+https://github.com/devoption/vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DevOption.devoption-theme"
+  formats: null
+colors:
+  bg: "#F1F5F8"
+  fg: "#3D4852"
+  black: "#3D4852"
+  red: "#D32F2F"
+  green: "#009688"
+  yellow: "#FFA000"
+  blue: "#1976D2"
+  magenta: "#C2185B"
+  cyan: "#B2EBF2"
+  white: "#F1F5F8"
+  brightBlack: "#3D4852"
+  brightRed: "#D32F2F"
+  brightGreen: "#009688"
+  brightYellow: "#FFA000"
+  brightBlue: "#1976D2"
+  brightMagenta: "#C2185B"
+  brightCyan: "#B2EBF2"
+  brightWhite: "#F1F5F8"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.3
+    black: 85.3
+    red: 66.5
+    green: 57.4
+    yellow: 33
+    blue: 65.1
+    magenta: 71.1
+    cyan: 8.8
+    white: 0
+    brightBlack: 85.3
+    brightRed: 66.5
+    brightGreen: 57.4
+    brightYellow: 33
+    brightBlue: 65.1
+    brightMagenta: 71.1
+    brightCyan: 8.8
+    brightWhite: 0

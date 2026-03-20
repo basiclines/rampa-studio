@@ -1,0 +1,53 @@
+name: "Rainglow (lichen-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#090D11"
+  fg: "#9CADBC"
+  black: "#121A22"
+  red: "#BA0E2E"
+  green: "#249388"
+  yellow: "#9CE878"
+  blue: "#1A9D6B"
+  magenta: "#246C82"
+  cyan: "#1A9D6B"
+  white: "#ABBAC6"
+  brightBlack: "#2C4054"
+  brightRed: "#F03E5F"
+  brightGreen: "#4AD3C5"
+  brightYellow: "#DCF7CF"
+  brightBlue: "#3EDFA2"
+  brightMagenta: "#41AACB"
+  brightCyan: "#3EDFA2"
+  brightWhite: "#D9DFE5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  pair: "Rainglow (lichen-light)"
+  contrast:
+    fg: 56.4
+    black: 0
+    red: 21.2
+    green: 36.8
+    yellow: 80.7
+    blue: 39.9
+    magenta: 22.2
+    cyan: 39.9
+    white: 63.7
+    brightBlack: 7.7
+    brightRed: 37.5
+    brightGreen: 68.1
+    brightYellow: 97.1
+    brightBlue: 72.3
+    brightMagenta: 49.9
+    brightCyan: 72.3
+    brightWhite: 86.5

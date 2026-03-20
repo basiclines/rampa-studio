@@ -1,0 +1,53 @@
+name: "R Dark Pro (Filter Nightlate)"
+source:
+  marketplace_id: "Rezky.r-dark-pro"
+  version: "0.0.44"
+  installs: 3273
+  rating: 5
+  ratings: 1
+  author: "Rezky P. Budihartono"
+  repo: "https://github.com/rezkycodes/rdark.pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rezky.r-dark-pro"
+  formats: null
+colors:
+  bg: "#16161E"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 59.4
+    black: 8.9
+    red: 36.7
+    green: 60.4
+    yellow: 48.6
+    blue: 49.7
+    magenta: 39.1
+    cyan: 52.5
+    white: 83.1
+    brightBlack: 15.5
+    brightRed: 46.1
+    brightGreen: 76.8
+    brightYellow: 61.3
+    brightBlue: 63.8
+    brightMagenta: 50.3
+    brightCyan: 67.8
+    brightWhite: 90.7

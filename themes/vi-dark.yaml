@@ -1,0 +1,53 @@
+name: "Vi_Dark"
+source:
+  marketplace_id: "higornabuco.vi-dark"
+  version: "0.0.3"
+  installs: 269
+  rating: 5
+  ratings: 1
+  author: "Higor Nabuco"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=higornabuco.vi-dark"
+  formats: null
+colors:
+  bg: "#1B2423"
+  fg: "#FFFFFF"
+  black: "#2A2929"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#00FFCF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#28C988"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 188
+  pair: null
+  contrast:
+    fg: 105.4
+    black: 0
+    red: 25.3
+    green: 51.5
+    yellow: 84.2
+    blue: 26
+    magenta: 28.3
+    cyan: 46.1
+    white: 87.5
+    brightBlack: 20.6
+    brightRed: 37.1
+    brightGreen: 58.2
+    brightYellow: 94.2
+    brightBlue: 38.5
+    brightMagenta: 43.9
+    brightCyan: 53.9
+    brightWhite: 105.4

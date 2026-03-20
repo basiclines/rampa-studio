@@ -1,0 +1,53 @@
+name: "Olive Light"
+source:
+  marketplace_id: "Jeigsaw.olive-light-theme"
+  version: "1.0.1"
+  installs: 588
+  rating: 5
+  ratings: 1
+  author: "Jeigsaw"
+  repo: "https://github.com/Jeigsaw/olive-light-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Jeigsaw.olive-light-theme"
+  formats: null
+colors:
+  bg: "#FBFBFB"
+  fg: "#4D4D4D"
+  black: "#000000"
+  red: "#B22B2B"
+  green: "#47B88E"
+  yellow: "#A5A528"
+  blue: "#5190D5"
+  magenta: "#D360B6"
+  cyan: "#47A0B6"
+  white: "#5E5E5E"
+  brightBlack: "#666666"
+  brightRed: "#F56363"
+  brightGreen: "#55CFA2"
+  brightYellow: "#B8B830"
+  brightBlue: "#70AEF2"
+  brightMagenta: "#D37ABD"
+  brightCyan: "#46BCD9"
+  brightWhite: "#A1A1A1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Olive Dark"
+  contrast:
+    fg: 86.7
+    black: 103.6
+    red: 78.1
+    green: 45.8
+    yellow: 48.6
+    blue: 58.1
+    magenta: 58.9
+    cyan: 54.2
+    white: 79.8
+    brightBlack: 76.4
+    brightRed: 54.3
+    brightGreen: 34.5
+    brightYellow: 38.9
+    brightBlue: 43.3
+    brightMagenta: 52.4
+    brightCyan: 41
+    brightWhite: 48.1

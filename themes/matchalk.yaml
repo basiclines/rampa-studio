@@ -1,0 +1,53 @@
+name: "Matchalk"
+source:
+  marketplace_id: "lucafalasco.matchalk"
+  version: "0.0.7"
+  installs: 4245
+  rating: 3.67
+  ratings: 3
+  author: "Luca Falasco"
+  repo: "https://github.com/lucafalasco/matchalk"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucafalasco.matchalk"
+  formats: null
+colors:
+  bg: "#273136"
+  fg: "#D1DED3"
+  black: "#323E45"
+  red: "#FF819F"
+  green: "#7EB08A"
+  yellow: "#D2B48C"
+  blue: "#7EA4B0"
+  magenta: "#BA8EAF"
+  cyan: "#7EA4B0"
+  white: "#D1DED3"
+  brightBlack: "#323E45"
+  brightRed: "#FF819F"
+  brightGreen: "#7EB08A"
+  brightYellow: "#D2B48C"
+  brightBlue: "#7EA4B0"
+  brightMagenta: "#BA8EAF"
+  brightCyan: "#7EA4B0"
+  brightWhite: "#D1DED3"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 79.5
+    black: 0
+    red: 51
+    green: 48.3
+    yellow: 59.4
+    blue: 44.8
+    magenta: 43.4
+    cyan: 44.8
+    white: 79.5
+    brightBlack: 0
+    brightRed: 51
+    brightGreen: 48.3
+    brightYellow: 59.4
+    brightBlue: 44.8
+    brightMagenta: 43.4
+    brightCyan: 44.8
+    brightWhite: 79.5

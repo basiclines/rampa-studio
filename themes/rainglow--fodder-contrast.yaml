@@ -1,0 +1,53 @@
+name: "Rainglow (fodder-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#131C17"
+  fg: "#CCE0D6"
+  black: "#1D2B23"
+  red: "#BA0E2E"
+  green: "#AD9895"
+  yellow: "#98D046"
+  blue: "#FCFCFA"
+  magenta: "#98D046"
+  cyan: "#AD9895"
+  white: "#DCEAE3"
+  brightBlack: "#3C5949"
+  brightRed: "#F03E5F"
+  brightGreen: "#D9D0CE"
+  brightYellow: "#C5E597"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#C5E597"
+  brightCyan: "#D9D0CE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 160
+  pair: "Rainglow (fodder-light)"
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 20.2
+    green: 47.7
+    yellow: 67
+    blue: 104.5
+    magenta: 67
+    cyan: 47.7
+    white: 90.7
+    brightBlack: 13.9
+    brightRed: 36.4
+    brightGreen: 77.8
+    brightYellow: 82.9
+    brightBlue: 106.5
+    brightMagenta: 82.9
+    brightCyan: 77.8
+    brightWhite: 106.5

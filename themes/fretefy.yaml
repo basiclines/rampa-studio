@@ -1,0 +1,53 @@
+name: "Fretefy"
+source:
+  marketplace_id: "Fretefy.fretefy-theme"
+  version: "0.0.2"
+  installs: 43
+  rating: 0
+  ratings: 0
+  author: "Fretefy"
+  repo: "https://github.com/fretefy/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Fretefy.fretefy-theme"
+  formats: null
+colors:
+  bg: "#003250"
+  fg: "#E7ECEF"
+  black: "#2D2B55"
+  red: "#D63300"
+  green: "#20D800"
+  yellow: "#FFCE00"
+  blue: "#0096ED"
+  magenta: "#ED7C00"
+  cyan: "#69EDE9"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#D63300"
+  brightGreen: "#20D800"
+  brightYellow: "#FFCE00"
+  brightBlue: "#0096ED"
+  brightMagenta: "#ED7C00"
+  brightCyan: "#69EDE9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 89.7
+    black: 0
+    red: 24.4
+    green: 61.1
+    yellow: 75.1
+    blue: 38.1
+    magenta: 43.2
+    cyan: 78.6
+    white: 102.6
+    brightBlack: 13.8
+    brightRed: 24.4
+    brightGreen: 61.1
+    brightYellow: 75.1
+    brightBlue: 38.1
+    brightMagenta: 43.2
+    brightCyan: 78.6
+    brightWhite: 102.6

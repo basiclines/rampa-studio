@@ -1,0 +1,53 @@
+name: "Nord Light"
+source:
+  marketplace_id: "IllegalStudio.nord-light-theme"
+  version: "1.0.0"
+  installs: 55
+  rating: 0
+  ratings: 0
+  author: "Illegal Studio"
+  repo: "https://github.com/nord-light/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=IllegalStudio.nord-light-theme"
+  formats: null
+colors:
+  bg: "#ECEFF4"
+  fg: "#2E3440"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#6B8B4F"
+  yellow: "#B8941E"
+  blue: "#3B5E85"
+  magenta: "#8B5E84"
+  cyan: "#0D7D8C"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#5E81AC"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: "Nord Midnight"
+  contrast:
+    fg: 88.7
+    black: 83.7
+    red: 58
+    green: 56.4
+    yellow: 45.2
+    blue: 73.4
+    magenta: 66.1
+    cyan: 63.5
+    white: 0
+    brightBlack: 76
+    brightRed: 58
+    brightGreen: 30
+    brightYellow: 16
+    brightBlue: 57.8
+    brightMagenta: 44.7
+    brightCyan: 29
+    brightWhite: 0

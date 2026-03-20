@@ -1,0 +1,53 @@
+name: "Gentle Clean Monokai"
+source:
+  marketplace_id: "kricsleo.gentle-clean"
+  version: "1.0.4"
+  installs: 1711
+  rating: 5
+  ratings: 1
+  author: "kricsleo"
+  repo: "https://github.com/kricsleo/vscode-theme-gentle-clean"
+  url: "https://marketplace.visualstudio.com/items?itemName=kricsleo.gentle-clean"
+  formats: null
+colors:
+  bg: "#303841"
+  fg: "#CBD0D9"
+  black: "#E6E6E6"
+  red: "#EE6A6F"
+  green: "#A3CE9E"
+  yellow: "#FAB763"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#6699CC"
+  white: "#FFFFFF"
+  brightBlack: "#E6E6E6"
+  brightRed: "#EE6A6F"
+  brightGreen: "#A3CE9E"
+  brightYellow: "#FAB763"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#6699CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 251
+  pair: "Gentle Clean Light"
+  contrast:
+    fg: 70.8
+    black: 84.6
+    red: 38.3
+    green: 63.2
+    yellow: 64
+    blue: 38.1
+    magenta: 46
+    cyan: 38.1
+    white: 100.8
+    brightBlack: 84.6
+    brightRed: 38.3
+    brightGreen: 63.2
+    brightYellow: 64
+    brightBlue: 38.1
+    brightMagenta: 46
+    brightCyan: 38.1
+    brightWhite: 100.8

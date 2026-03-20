@@ -1,0 +1,53 @@
+name: "nightOWL"
+source:
+  marketplace_id: "devTH.owlTh"
+  version: "0.3.0"
+  installs: 3835
+  rating: 5
+  ratings: 1
+  author: "devTH"
+  repo: "https://github.com/Ajay-308/devTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=devTH.owlTh"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#2DE3FF"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#929292"
+  brightRed: "#F14C4C"
+  brightGreen: "#3EFFF6"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#6796D1"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 27.7
+    green: 78.3
+    yellow: 86.6
+    blue: 28.4
+    magenta: 30.8
+    cyan: 48.6
+    white: 91
+    brightBlack: 43.6
+    brightRed: 39.6
+    brightGreen: 92.3
+    brightYellow: 96.6
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 56.4
+    brightWhite: 44.4

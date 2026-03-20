@@ -1,0 +1,53 @@
+name: "nestjs full color theme"
+source:
+  marketplace_id: "EstevamSouza.nestjs-codes-vscode-theme"
+  version: "0.0.4"
+  installs: 10576
+  rating: 0
+  ratings: 0
+  author: "Estevam Souza"
+  repo: "https://github.com/estevam5s/nestjs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EstevamSouza.nestjs-codes-vscode-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FF8B56"
+  black: "#EE0F0F"
+  red: "#610692"
+  green: "#55E513"
+  yellow: "#A553C6"
+  blue: "#F00909"
+  magenta: "#AE89FE"
+  cyan: "#708387"
+  white: "#D5D5D0"
+  brightBlack: "#FF0000"
+  brightRed: "#A706EC"
+  brightGreen: "#A308EB"
+  brightYellow: "#F10202"
+  brightBlue: "#F10707"
+  brightMagenta: "#F60707"
+  brightCyan: "#FF0D0D"
+  brightWhite: "#FA100C"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.9
+    black: 33.4
+    red: 9.4
+    green: 74.1
+    yellow: 30.8
+    blue: 33.8
+    magenta: 49.9
+    cyan: 34.6
+    white: 80.9
+    brightBlack: 37.5
+    brightRed: 27.1
+    brightGreen: 26.4
+    brightYellow: 34
+    brightBlue: 34
+    brightMagenta: 35.3
+    brightCyan: 37.6
+    brightWhite: 36.4

@@ -1,0 +1,53 @@
+name: "MossFrame — Light"
+source:
+  marketplace_id: "404mat.mossframe"
+  version: "2.1.2"
+  installs: 299
+  rating: 0
+  ratings: 0
+  author: "404mat"
+  repo: "https://github.com/404mat/mossframe"
+  url: "https://marketplace.visualstudio.com/items?itemName=404mat.mossframe"
+  formats: null
+colors:
+  bg: "#F9F5ED"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "MossFrame"
+  contrast:
+    fg: 100.2
+    black: 100.2
+    red: 68.2
+    green: 43.4
+    yellow: 52.1
+    blue: 80.3
+    magenta: 68.8
+    cyan: 54.8
+    white: 80.1
+    brightBlack: 73
+    brightRed: 68.2
+    brightGreen: 35.1
+    brightYellow: 35.2
+    brightBlue: 80.3
+    brightMagenta: 68.8
+    brightCyan: 54.8
+    brightWhite: 42.7

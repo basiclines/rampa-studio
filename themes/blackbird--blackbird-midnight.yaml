@@ -1,0 +1,53 @@
+name: "blackbird (🏴 blackbird → midnight)"
+source:
+  marketplace_id: "MattGleich.theme-blackbird"
+  version: "6.0.1"
+  installs: 10040
+  rating: 5
+  ratings: 5
+  author: "Matt Gleich"
+  repo: "https://github.com/blackbirdtheme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MattGleich.theme-blackbird"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FDF7CD"
+  black: "#222029"
+  red: "#E92741"
+  green: "#3EC841"
+  yellow: "#E1DB3F"
+  blue: "#418EDD"
+  magenta: "#FF00CC"
+  cyan: "#00ECD8"
+  white: "#FDF7CD"
+  brightBlack: "#343C50"
+  brightRed: "#E92741"
+  brightGreen: "#3EC841"
+  brightYellow: "#E1DB3F"
+  brightBlue: "#418EDD"
+  brightMagenta: "#FF00CC"
+  brightCyan: "#00ECD8"
+  brightWhite: "#FDF7CD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.7
+    black: 0
+    red: 33.5
+    green: 59.4
+    yellow: 81.7
+    blue: 40.3
+    magenta: 42.7
+    cyan: 80.5
+    white: 101.7
+    brightBlack: 0
+    brightRed: 33.5
+    brightGreen: 59.4
+    brightYellow: 81.7
+    brightBlue: 40.3
+    brightMagenta: 42.7
+    brightCyan: 80.5
+    brightWhite: 101.7

@@ -1,0 +1,53 @@
+name: "alpine"
+source:
+  marketplace_id: "snapperito.alpine"
+  version: "0.0.1"
+  installs: 3297
+  rating: 0
+  ratings: 0
+  author: "snapper"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=snapperito.alpine"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#A3A5AA"
+  black: "#000000"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#5E81AC"
+  magenta: "#B48EAD"
+  cyan: "#81A1C1"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#EE7682"
+  brightGreen: "#BEE29F"
+  brightYellow: "#FFEAC0"
+  brightBlue: "#8BBFFF"
+  brightMagenta: "#E08BD0"
+  brightCyan: "#A3CEF9"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 51.1
+    black: 0
+    red: 31.6
+    green: 60.2
+    yellow: 75
+    blue: 31.7
+    magenta: 45.1
+    cyan: 47.2
+    white: 88.6
+    brightBlack: 20.6
+    brightRed: 46.3
+    brightGreen: 79.9
+    brightYellow: 93.1
+    brightBlue: 63.7
+    brightMagenta: 52.7
+    brightCyan: 71.9
+    brightWhite: 88.6

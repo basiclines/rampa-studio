@@ -1,0 +1,53 @@
+name: "Felixoux-theme"
+source:
+  marketplace_id: "Felixouxtheme.felixoux-theme"
+  version: "0.2.0"
+  installs: 125
+  rating: 0
+  ratings: 0
+  author: "felixoux_theme"
+  repo: "https://github.com/Felixoux/Felixoux"
+  url: "https://marketplace.visualstudio.com/items?itemName=Felixouxtheme.felixoux-theme"
+  formats: null
+colors:
+  bg: "#171933"
+  fg: "#D4DCFF"
+  black: "#414141"
+  red: "#F04747"
+  green: "#43B581"
+  yellow: "#FFDA88"
+  blue: "#4191F3"
+  magenta: "#D68FD6"
+  cyan: "#2BC3E8"
+  white: "#D4DCFF"
+  brightBlack: "#8A8A8A"
+  brightRed: "#FF5C5C"
+  brightGreen: "#43B581"
+  brightYellow: "#FDB61A"
+  brightBlue: "#4191F3"
+  brightMagenta: "#F276F2"
+  brightCyan: "#0BA2C7"
+  brightWhite: "#F0F3FF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 84.6
+    black: 0
+    red: 37
+    green: 50.4
+    yellow: 85.3
+    blue: 41.4
+    magenta: 53.4
+    cyan: 60.5
+    white: 84.6
+    brightBlack: 38.1
+    brightRed: 44.2
+    brightGreen: 50.4
+    brightYellow: 69
+    brightBlue: 41.4
+    brightMagenta: 53.2
+    brightCyan: 44.2
+    brightWhite: 98.6

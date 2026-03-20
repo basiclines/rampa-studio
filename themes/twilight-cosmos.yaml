@@ -1,0 +1,53 @@
+name: "Twilight Cosmos"
+source:
+  marketplace_id: "zellwk.twilight-cosmos-theme"
+  version: "1.0.13"
+  installs: 106
+  rating: 0
+  ratings: 0
+  author: "Zell Liew"
+  repo: "https://github.com/zellwk/twilight-cosmos"
+  url: "https://marketplace.visualstudio.com/items?itemName=zellwk.twilight-cosmos-theme"
+  formats: null
+colors:
+  bg: "#222027"
+  fg: "#E5E7F2"
+  black: "#000000"
+  red: "#FA5858"
+  green: "#66E9A5"
+  yellow: "#F7BD2B"
+  blue: "#3E9EEE"
+  magenta: "#F08EDB"
+  cyan: "#00DAF6"
+  white: "#E5E7F2"
+  brightBlack: "#8B8FAC"
+  brightRed: "#FF757F"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFC777"
+  brightBlue: "#7CAFFF"
+  brightMagenta: "#F08EDB"
+  brightCyan: "#78DBFF"
+  brightWhite: "#E5E7F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 298
+  pair: null
+  contrast:
+    fg: 90.3
+    black: 0
+    red: 41.5
+    green: 76.8
+    yellow: 70
+    blue: 45.1
+    magenta: 57.1
+    cyan: 70.9
+    white: 90.3
+    brightBlack: 40.6
+    brightRed: 49.6
+    brightGreen: 82.9
+    brightYellow: 76.3
+    brightBlue: 56.2
+    brightMagenta: 57.1
+    brightCyan: 75
+    brightWhite: 90.3

@@ -1,0 +1,53 @@
+name: "Ef Maris Dark"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#131C2B"
+  fg: "#EAEDEF"
+  black: "#EAEDEF"
+  red: "#FF6F6F"
+  green: "#41BF4F"
+  yellow: "#D0D24F"
+  blue: "#57B0FF"
+  magenta: "#F59ACF"
+  cyan: "#2FD0DB"
+  white: "#1D2C39"
+  brightBlack: "#969FAF"
+  brightRed: "#FF7A5F"
+  brightGreen: "#7FCE5F"
+  brightYellow: "#F0C060"
+  brightBlue: "#70A0FF"
+  brightMagenta: "#FA90EA"
+  brightCyan: "#7FCFDF"
+  brightWhite: "#131C2B"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 260
+  pair: "Ef Maris Light"
+  contrast:
+    fg: 94.2
+    black: 94.2
+    red: 48.5
+    green: 53.8
+    yellow: 73.9
+    blue: 55.1
+    magenta: 61.8
+    cyan: 65.8
+    white: 0
+    brightBlack: 48.4
+    brightRed: 50.8
+    brightGreen: 64.2
+    brightYellow: 71.2
+    brightBlue: 50.2
+    brightMagenta: 61.1
+    brightCyan: 68.8
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Nightshade"
+source:
+  marketplace_id: "rbolsius.theme-nightshade"
+  version: "1.0.1"
+  installs: 1957
+  rating: 0
+  ratings: 0
+  author: "rbolsius"
+  repo: "https://github.com/rbolsius/vscode-theme-nightshade"
+  url: "https://marketplace.visualstudio.com/items?itemName=rbolsius.theme-nightshade"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#DCDCD0"
+  black: "#222222"
+  red: "#B76F6A"
+  green: "#7F9F7F"
+  yellow: "#DFAF8F"
+  blue: "#6092BF"
+  magenta: "#A87390"
+  cyan: "#72AEB0"
+  white: "#BABAB0"
+  brightBlack: "#878780"
+  brightRed: "#CC8A8A"
+  brightGreen: "#C5D47F"
+  brightYellow: "#F0DCA5"
+  brightBlue: "#7CB1E0"
+  brightMagenta: "#BF86A5"
+  brightCyan: "#8CD0D3"
+  brightWhite: "#DCDCD0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 33.7
+    green: 43.7
+    yellow: 62.1
+    blue: 39
+    magenta: 33.8
+    cyan: 50.5
+    white: 62.3
+    brightBlack: 35.5
+    brightRed: 46
+    brightGreen: 73.4
+    brightYellow: 83.7
+    brightBlue: 54.9
+    brightMagenta: 43.7
+    brightCyan: 68.8
+    brightWhite: 82.5

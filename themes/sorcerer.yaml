@@ -1,0 +1,53 @@
+name: "Sorcerer"
+source:
+  marketplace_id: "arzg.apprentice"
+  version: "1.3.0"
+  installs: 660
+  rating: 1
+  ratings: 1
+  author: "arzg"
+  repo: "https://github.com/arzg/apprentice-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=arzg.apprentice"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#C2C2B0"
+  black: "#171717"
+  red: "#996666"
+  green: "#719611"
+  yellow: "#808070"
+  blue: "#6689AD"
+  magenta: "#5D6A85"
+  cyan: "#528B8B"
+  white: "#C2C2B0"
+  brightBlack: "#444444"
+  brightRed: "#CC8800"
+  brightGreen: "#779B70"
+  brightYellow: "#FAF4C6"
+  brightBlue: "#90B0D1"
+  brightMagenta: "#7E8AA2"
+  brightCyan: "#58B8B8"
+  brightWhite: "#FFFFE8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 66.9
+    black: 0
+    red: 26.9
+    green: 37.6
+    yellow: 32.1
+    blue: 35.5
+    magenta: 22.5
+    cyan: 33.5
+    white: 66.9
+    brightBlack: 7.7
+    brightRed: 43.8
+    brightGreen: 41.3
+    brightYellow: 97.5
+    brightBlue: 55.6
+    brightMagenta: 37.3
+    brightCyan: 54
+    brightWhite: 104.7

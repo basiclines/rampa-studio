@@ -1,0 +1,53 @@
+name: "SLab Theme (Monokai++ Unified)"
+source:
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3737
+  rating: 5
+  ratings: 1
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+  formats: null
+colors:
+  bg: "#1C1C1C"
+  fg: "#CCCCCC"
+  black: "#1C1C1C"
+  red: "#E62A19"
+  green: "#2BE98A"
+  yellow: "#E6DB74"
+  blue: "#328EFF"
+  magenta: "#F92672"
+  cyan: "#49E0FD"
+  white: "#CCCCCC"
+  brightBlack: "#696D70"
+  brightRed: "#E62A19"
+  brightGreen: "#2BE98A"
+  brightYellow: "#E6DB74"
+  brightBlue: "#328EFF"
+  brightMagenta: "#F92672"
+  brightCyan: "#49E0FD"
+  brightWhite: "#F1F1F1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.1
+    black: 0
+    red: 31.1
+    green: 75
+    yellow: 81.5
+    blue: 40.8
+    magenta: 36.7
+    cyan: 75.8
+    white: 74.1
+    brightBlack: 24.2
+    brightRed: 31.1
+    brightGreen: 75
+    brightYellow: 81.5
+    brightBlue: 40.8
+    brightMagenta: 36.7
+    brightCyan: 75.8
+    brightWhite: 97.1

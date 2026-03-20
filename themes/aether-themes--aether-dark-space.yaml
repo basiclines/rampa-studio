@@ -1,0 +1,53 @@
+name: "Aether Themes (Aether Dark Space)"
+source:
+  marketplace_id: "diogo-aether.aether-dark"
+  version: "1.4.0"
+  installs: 204
+  rating: 5
+  ratings: 1
+  author: "Diogo Pereira"
+  repo: "https://github.com/Diiipereira/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=diogo-aether.aether-dark"
+  formats: null
+colors:
+  bg: "#0F0B14"
+  fg: "#E3E1E6"
+  black: "#0F0B14"
+  red: "#FF5F5F"
+  green: "#4FFFD0"
+  yellow: "#FFCB6B"
+  blue: "#7ACFFF"
+  magenta: "#BD5EFF"
+  cyan: "#5EE6FF"
+  white: "#7A6E8A"
+  brightBlack: "#3A2850"
+  brightRed: "#FF8080"
+  brightGreen: "#8AFFDE"
+  brightYellow: "#FFE0A3"
+  brightBlue: "#A3E4FF"
+  brightMagenta: "#D699FF"
+  brightCyan: "#99F2FF"
+  brightWhite: "#E3E1E6"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 305
+  pair: null
+  contrast:
+    fg: 88.7
+    black: 0
+    red: 46.1
+    green: 90.7
+    yellow: 79.7
+    blue: 71.6
+    magenta: 40.8
+    cyan: 80.9
+    white: 28.5
+    brightBlack: 0
+    brightRed: 54.5
+    brightGreen: 94.1
+    brightYellow: 89.9
+    brightBlue: 84.3
+    brightMagenta: 60.4
+    brightCyan: 90.2
+    brightWhite: 88.7

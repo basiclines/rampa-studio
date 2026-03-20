@@ -1,0 +1,51 @@
+name: "XK Dark Dracula"
+source:
+  marketplace_id: "x1ngkong.vscode-xk-theme"
+  version: "0.1.0"
+  installs: 31
+  author: "x1ngkong"
+  repo: "https://github.com/x1ngkong/vscode-xk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=x1ngkong.vscode-xk-theme"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#F8F8F2"
+  black: "#000000"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#FFB86C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#F8F8F2"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#FFB86C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 99
+    black: 0
+    red: 40.4
+    green: 81.9
+    yellow: 68.5
+    blue: 50.7
+    magenta: 51.6
+    cyan: 81
+    white: 99
+    brightBlack: 99
+    brightRed: 40.4
+    brightGreen: 81.9
+    brightYellow: 68.5
+    brightBlue: 50.7
+    brightMagenta: 51.6
+    brightCyan: 81
+    brightWhite: 103.9

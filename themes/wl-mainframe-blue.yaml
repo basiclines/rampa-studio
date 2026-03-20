@@ -1,0 +1,53 @@
+name: "WL-Mainframe Blue"
+source:
+  marketplace_id: "WatkinsLabs.mainframe-blue"
+  version: "1.0.1"
+  installs: 35
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.mainframe-blue"
+  formats: null
+colors:
+  bg: "#132C33"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#C71C22"
+  green: "#008744"
+  yellow: "#FFC75F"
+  blue: "#33A2CC"
+  magenta: "#005799"
+  cyan: "#33A2CC"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#C71C22"
+  brightGreen: "#008744"
+  brightYellow: "#FFC75F"
+  brightBlue: "#33A2CC"
+  brightMagenta: "#005799"
+  brightCyan: "#33A2CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 218
+  pair: null
+  contrast:
+    fg: 104.2
+    black: 0
+    red: 21.1
+    green: 26.6
+    yellow: 74.5
+    blue: 42.9
+    magenta: 13.2
+    cyan: 42.9
+    white: 104.2
+    brightBlack: 19.4
+    brightRed: 21.1
+    brightGreen: 26.6
+    brightYellow: 74.5
+    brightBlue: 42.9
+    brightMagenta: 13.2
+    brightCyan: 42.9
+    brightWhite: 104.2

@@ -1,0 +1,53 @@
+name: "Tanuki"
+source:
+  marketplace_id: "YUNSUBAE.tanuki"
+  version: "1.1.4"
+  installs: 970
+  rating: 5
+  ratings: 1
+  author: "Yunsu Bae"
+  repo: "https://github.com/mniYUNSU/Tanuki"
+  url: "https://marketplace.visualstudio.com/items?itemName=YUNSUBAE.tanuki"
+  formats: null
+colors:
+  bg: "#0C0D12"
+  fg: "#DEDDD7"
+  black: "#0C0D12"
+  red: "#E82424"
+  green: "#87D034"
+  yellow: "#FF9E3B"
+  blue: "#658594"
+  magenta: "#957FB8"
+  cyan: "#B1CAFD"
+  white: "#DEDDD7"
+  brightBlack: "#16161E"
+  brightRed: "#FF5D62"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#E6C384"
+  brightBlue: "#67CBF6"
+  brightMagenta: "#D27E99"
+  brightCyan: "#5ED4D6"
+  brightWhite: "#DEDDD7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 85.6
+    black: 0
+    red: 32.5
+    green: 66.5
+    yellow: 62.3
+    blue: 34.7
+    magenta: 38.9
+    cyan: 73.9
+    white: 85.6
+    brightBlack: 0
+    brightRed: 45.8
+    brightGreen: 68.2
+    brightYellow: 72.9
+    brightBlue: 68.2
+    brightMagenta: 46.1
+    brightCyan: 70.1
+    brightWhite: 85.6

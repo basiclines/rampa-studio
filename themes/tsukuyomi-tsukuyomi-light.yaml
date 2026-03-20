@@ -1,0 +1,53 @@
+name: "Tsukuyomi (Tsukuyomi (Light))"
+source:
+  marketplace_id: "developerayo.Tsukuyomi"
+  version: "1.2.7"
+  installs: 12464
+  rating: 5
+  ratings: 2
+  author: "Shodipo Ayomide"
+  repo: "https://github.com/Developerayo/tsukuyomi-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=developerayo.Tsukuyomi"
+  formats: null
+colors:
+  bg: "#F5F5F0"
+  fg: "#383A42"
+  black: "#383A42"
+  red: "#E45649"
+  green: "#4E8F35"
+  yellow: "#986801"
+  blue: "#0B76D4"
+  magenta: "#8954A8"
+  cyan: "#0184BC"
+  white: "#383A42"
+  brightBlack: "#9D9D9D"
+  brightRed: "#E45649"
+  brightGreen: "#4E8F35"
+  brightYellow: "#986801"
+  brightBlue: "#0B76D4"
+  brightMagenta: "#8954A8"
+  brightCyan: "#0184BC"
+  brightWhite: "#383A42"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Tsukuyomi (Tsukuyomi)"
+  contrast:
+    fg: 90
+    black: 90
+    red: 57.2
+    green: 60.6
+    yellow: 67.3
+    blue: 65.2
+    magenta: 70.4
+    cyan: 62
+    white: 90
+    brightBlack: 46.4
+    brightRed: 57.2
+    brightGreen: 60.6
+    brightYellow: 67.3
+    brightBlue: 65.2
+    brightMagenta: 70.4
+    brightCyan: 62
+    brightWhite: 90

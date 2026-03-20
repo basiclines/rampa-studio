@@ -1,0 +1,53 @@
+name: "Pittaya Theme (Pittaya Theme Light)"
+source:
+  marketplace_id: "pittaya-org.pittaya-theme"
+  version: "1.0.1"
+  installs: 46
+  rating: 5
+  ratings: 2
+  author: "pittaya-org"
+  repo: "https://github.com/pittaya-ui/pittaya-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pittaya-org.pittaya-theme"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#2A2A2A"
+  black: "#000000"
+  red: "#D91656"
+  green: "#2F9E44"
+  yellow: "#D97900"
+  blue: "#1864AB"
+  magenta: "#AE3EC9"
+  cyan: "#0C8599"
+  white: "#2A2A2A"
+  brightBlack: "#606060"
+  brightRed: "#FF637E"
+  brightGreen: "#50C878"
+  brightYellow: "#FFAA00"
+  brightBlue: "#4D9FFF"
+  brightMagenta: "#DA77F2"
+  brightCyan: "#15AABF"
+  brightWhite: "#1A1A1A"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Pittaya Theme (Pittaya Theme)"
+  contrast:
+    fg: 98.1
+    black: 103
+    red: 69.4
+    green: 58.6
+    yellow: 55
+    blue: 76.9
+    magenta: 69.7
+    cyan: 66.6
+    white: 98.1
+    brightBlack: 78.3
+    brightRed: 50.9
+    brightGreen: 38.4
+    brightYellow: 33
+    brightBlue: 49.4
+    brightMagenta: 48.3
+    brightCyan: 50.2
+    brightWhite: 101.3

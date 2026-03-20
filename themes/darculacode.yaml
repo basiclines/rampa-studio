@@ -1,0 +1,53 @@
+name: "DarculaCode"
+source:
+  marketplace_id: "nejcbw.darcula-code"
+  version: "1.0.9"
+  installs: 1115
+  rating: 5
+  ratings: 1
+  author: "Nejc Brelih-Wasowski"
+  repo: "https://github.com/nejcbw/darcula-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=nejcbw.darcula-code"
+  formats: null
+colors:
+  bg: "#2B2B2B"
+  fg: "#A9B7C6"
+  black: "#FFFFFF"
+  red: "#FF6B68"
+  green: "#ABC023"
+  yellow: "#D6BF55"
+  blue: "#5394EC"
+  magenta: "#AE8ABE"
+  cyan: "#299999"
+  white: "#999999"
+  brightBlack: "#555555"
+  brightRed: "#FF8785"
+  brightGreen: "#A8C023"
+  brightYellow: "#FFFF00"
+  brightBlue: "#7EAEF1"
+  brightMagenta: "#299999"
+  brightCyan: "#6CDADA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 58.5
+    black: 103.8
+    red: 45
+    green: 58.8
+    yellow: 64.2
+    blue: 40.3
+    magenta: 42.1
+    cyan: 36.1
+    white: 43.2
+    brightBlack: 12.1
+    brightRed: 52.7
+    brightGreen: 58.4
+    brightYellow: 98.7
+    brightBlue: 53.2
+    brightMagenta: 36.1
+    brightCyan: 70.1
+    brightWhite: 103.8

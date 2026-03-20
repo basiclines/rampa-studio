@@ -1,0 +1,53 @@
+name: "pg-punkin-spice"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+  formats: null
+colors:
+  bg: "#171515"
+  fg: "#928B8C"
+  black: "#2E2E2E"
+  red: "#7D161B"
+  green: "#0B6415"
+  yellow: "#9B6D00"
+  blue: "#12377D"
+  magenta: "#801F79"
+  cyan: "#127A80"
+  white: "#ABABAB"
+  brightBlack: "#494949"
+  brightRed: "#AB0810"
+  brightGreen: "#0D8E1C"
+  brightYellow: "#E4A101"
+  brightBlue: "#1B51B6"
+  brightMagenta: "#B62BAC"
+  brightCyan: "#169FA7"
+  brightWhite: "#C2C2C2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 40
+    black: 0
+    red: 8.7
+    green: 16.1
+    yellow: 29.2
+    blue: 0
+    magenta: 12.4
+    cyan: 26.1
+    white: 55.9
+    brightBlack: 10.7
+    brightRed: 17.2
+    brightGreen: 31.8
+    brightYellow: 57.6
+    brightBlue: 16.6
+    brightMagenta: 25.6
+    brightCyan: 42.1
+    brightWhite: 68.9

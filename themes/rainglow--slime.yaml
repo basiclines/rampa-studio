@@ -1,0 +1,53 @@
+name: "Rainglow (slime)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#292D30"
+  fg: "#FFFFFF"
+  black: "#353A3E"
+  red: "#BA0E2E"
+  green: "#FAFFDB"
+  yellow: "#9FB3C2"
+  blue: "#C7AF3F"
+  magenta: "#9FB3C2"
+  cyan: "#C7AF3F"
+  white: "#FFFFFF"
+  brightBlack: "#586167"
+  brightRed: "#F03E5F"
+  brightGreen: "#FFFFFF"
+  brightYellow: "#DDE4EA"
+  brightBlue: "#DED08E"
+  brightMagenta: "#DDE4EA"
+  brightCyan: "#DED08E"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (slime-light)"
+  contrast:
+    fg: 103.6
+    black: 0
+    red: 17.2
+    green: 101.3
+    yellow: 55.3
+    blue: 55.1
+    magenta: 55.3
+    cyan: 55.1
+    white: 103.6
+    brightBlack: 16.1
+    brightRed: 33.5
+    brightGreen: 103.6
+    brightYellow: 85.4
+    brightBlue: 73.4
+    brightMagenta: 85.4
+    brightCyan: 73.4
+    brightWhite: 103.6

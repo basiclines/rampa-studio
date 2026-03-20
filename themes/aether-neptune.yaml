@@ -1,0 +1,53 @@
+name: "Aether Neptune"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#031419"
+  fg: "#B8D4E3"
+  black: "#0A2832"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FBBF24"
+  blue: "#00E5FF"
+  magenta: "#B794F6"
+  cyan: "#22D3EE"
+  white: "#B8D4E3"
+  brightBlack: "#3D6680"
+  brightRed: "#FCA5A5"
+  brightGreen: "#86EFAC"
+  brightYellow: "#FDE047"
+  brightBlue: "#67E8F9"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#A5F3FC"
+  brightWhite: "#E0F2FE"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 218
+  pair: "Aether Zen"
+  contrast:
+    fg: 77.2
+    black: 0
+    red: 48.5
+    green: 70.8
+    yellow: 73.1
+    blue: 78.4
+    magenta: 53.3
+    cyan: 69
+    white: 77.2
+    brightBlack: 20.6
+    brightRed: 65.9
+    brightGreen: 83.5
+    brightYellow: 87.5
+    brightBlue: 81.6
+    brightMagenta: 69.7
+    brightCyan: 91.1
+    brightWhite: 96.9

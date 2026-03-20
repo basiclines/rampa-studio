@@ -1,0 +1,53 @@
+name: "Electron Highlighter"
+source:
+  marketplace_id: "drg.electron-highlighter-remake"
+  version: "1.4.0"
+  installs: 936
+  rating: 0
+  ratings: 0
+  author: "drg"
+  repo: "https://github.com/DrgOv/vscode-electron-highlighter"
+  url: "https://marketplace.visualstudio.com/items?itemName=drg.electron-highlighter-remake"
+  formats: null
+colors:
+  bg: "#181818"
+  fg: "#EFEFEF"
+  black: "#161616"
+  red: "#FF5874"
+  green: "#6AF699"
+  yellow: "#FFFA9E"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#4FF2F8"
+  white: "#99A3B8"
+  brightBlack: "#7992B4"
+  brightRed: "#FF5874"
+  brightGreen: "#6AF699"
+  brightYellow: "#FFFA9E"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#4FF2F8"
+  brightWhite: "#99A3B8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.3
+    black: 0
+    red: 44.5
+    green: 84.4
+    yellow: 100.8
+    blue: 55.8
+    magenta: 53.6
+    cyan: 85
+    white: 51.1
+    brightBlack: 41.6
+    brightRed: 44.5
+    brightGreen: 84.4
+    brightYellow: 100.8
+    brightBlue: 55.8
+    brightMagenta: 53.6
+    brightCyan: 85
+    brightWhite: 51.1

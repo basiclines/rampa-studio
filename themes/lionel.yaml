@@ -1,0 +1,53 @@
+name: "Lionel"
+source:
+  marketplace_id: "Tksi.lionel-theme"
+  version: "0.0.5"
+  installs: 256
+  rating: 0
+  ratings: 0
+  author: "Tksi"
+  repo: "https://github.com/Tksi/lionel-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Tksi.lionel-theme"
+  formats: null
+colors:
+  bg: "#2D2E30"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#FF4E6B"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C37AD2"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 55.7
+    black: 0
+    red: 39.1
+    green: 58.6
+    yellow: 66.9
+    blue: 51
+    magenta: 40.9
+    cyan: 50.9
+    white: 79.4
+    brightBlack: 31.9
+    brightRed: 34.8
+    brightGreen: 58.6
+    brightYellow: 66.9
+    brightBlue: 37.8
+    brightMagenta: 9.1
+    brightCyan: 50.9
+    brightWhite: 79.4

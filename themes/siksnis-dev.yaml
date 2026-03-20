@@ -1,0 +1,53 @@
+name: "siksnis.dev"
+source:
+  marketplace_id: "siksnisdev.siksnis-dev-theme"
+  version: "0.1.3"
+  installs: 420
+  rating: 0
+  ratings: 0
+  author: "siksnisdev"
+  repo: "https://github.com/msiksnis/siksnis.dev-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=siksnisdev.siksnis-dev-theme"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#FF8B56"
+  black: "#2A3134"
+  red: "#673DFF"
+  green: "#55E513"
+  yellow: "#F2FF00"
+  blue: "#098CFF"
+  magenta: "#AE89FE"
+  cyan: "#708387"
+  white: "#D5D5D0"
+  brightBlack: "#4A4E4F"
+  brightRed: "#FC4384"
+  brightGreen: "#55E513"
+  brightYellow: "#41F0FF"
+  brightBlue: "#41F0FF"
+  brightMagenta: "#AE89FE"
+  brightCyan: "#41F0FF"
+  brightWhite: "#F9F9F4"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.4
+    black: 0
+    red: 23.9
+    green: 73.6
+    yellow: 100.4
+    blue: 40.7
+    magenta: 49.4
+    cyan: 34.1
+    white: 80.4
+    brightBlack: 12.7
+    brightRed: 41.7
+    brightGreen: 73.6
+    brightYellow: 84.6
+    brightBlue: 84.6
+    brightMagenta: 49.4
+    brightCyan: 84.6
+    brightWhite: 103.2

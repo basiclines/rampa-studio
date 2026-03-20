@@ -1,0 +1,53 @@
+name: "Nexus"
+source:
+  marketplace_id: "lusignan.nexus"
+  version: "0.4.3"
+  installs: 1233
+  rating: 5
+  ratings: 1
+  author: "Zac de Lusignan"
+  repo: "https://github.com/lusignan/nexus-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=lusignan.nexus"
+  formats: null
+colors:
+  bg: "#21222A"
+  fg: "#A3A9D0"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C2FCFF"
+  yellow: "#FFC795"
+  blue: "#5EC4FF"
+  magenta: "#C792EA"
+  cyan: "#5EC4FF"
+  white: "#EBF1FF"
+  brightBlack: "#464B5D"
+  brightRed: "#F07178"
+  brightGreen: "#C2FCFF"
+  brightYellow: "#FFC795"
+  brightBlue: "#5EC4FF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#5EC4FF"
+  brightWhite: "#EBF1FF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 54.3
+    black: 0
+    red: 45.1
+    green: 96.5
+    yellow: 76.7
+    blue: 62.9
+    magenta: 52.3
+    cyan: 62.9
+    white: 96.1
+    brightBlack: 10
+    brightRed: 45.1
+    brightGreen: 96.5
+    brightYellow: 76.7
+    brightBlue: 62.9
+    brightMagenta: 52.3
+    brightCyan: 62.9
+    brightWhite: 96.1

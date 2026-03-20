@@ -1,0 +1,53 @@
+name: "Dimi Theme (Dimi Theme (Dark))"
+source:
+  marketplace_id: "Dimi.dimi"
+  version: "1.0.9"
+  installs: 2864
+  rating: 5
+  ratings: 1
+  author: "Dimi"
+  repo: "https://github.com/Dimi15/dimi-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Dimi.dimi"
+  formats: null
+colors:
+  bg: "#242A36"
+  fg: "#CED4DF"
+  black: "#313848"
+  red: "#B55760"
+  green: "#99B482"
+  yellow: "#E1C181"
+  blue: "#7797B7"
+  magenta: "#AA84A3"
+  cyan: "#7EB6C6"
+  white: "#DBDFE6"
+  brightBlack: "#424C60"
+  brightRed: "#B55760"
+  brightGreen: "#99B482"
+  brightYellow: "#E1C181"
+  brightBlue: "#7797B7"
+  brightMagenta: "#AA84A3"
+  brightCyan: "#85B2B1"
+  brightWhite: "#E2E5EA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 76.4
+    black: 0
+    red: 25.9
+    green: 53.3
+    yellow: 67.7
+    blue: 40.7
+    magenta: 38.6
+    cyan: 54.3
+    white: 83.2
+    brightBlack: 8.8
+    brightRed: 25.9
+    brightGreen: 53.3
+    brightYellow: 67.7
+    brightBlue: 40.7
+    brightMagenta: 38.6
+    brightCyan: 52.3
+    brightWhite: 87

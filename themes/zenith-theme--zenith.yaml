@@ -1,0 +1,53 @@
+name: "Zenith Theme (Zenith)"
+source:
+  marketplace_id: "britown.vscode-theme-zenith"
+  version: "0.0.23"
+  installs: 579
+  rating: 5
+  ratings: 1
+  author: "Britown"
+  repo: "https://github.com/bkuzmanoski/vscode-theme-zenith"
+  url: "https://marketplace.visualstudio.com/items?itemName=britown.vscode-theme-zenith"
+  formats: null
+colors:
+  bg: "#161A1D"
+  fg: "#B4BBC2"
+  black: "#161A1D"
+  red: "#DE6E7C"
+  green: "#64B280"
+  yellow: "#D68C67"
+  blue: "#61ABDA"
+  magenta: "#CF86C1"
+  cyan: "#65B8C1"
+  white: "#B4BBC2"
+  brightBlack: "#637079"
+  brightRed: "#FC8C9A"
+  brightGreen: "#86CC92"
+  brightYellow: "#F4AA85"
+  brightBlue: "#7FC9F8"
+  brightMagenta: "#ECA4DF"
+  brightCyan: "#83D6DF"
+  brightWhite: "#839099"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 63.9
+    black: 0
+    red: 42.1
+    green: 50.8
+    yellow: 48.6
+    blue: 51.5
+    magenta: 48.7
+    cyan: 55.9
+    white: 63.9
+    brightBlack: 25.3
+    brightRed: 57
+    brightGreen: 65.2
+    brightYellow: 64.6
+    brightBlue: 67.8
+    brightMagenta: 64.6
+    brightCyan: 72.6
+    brightWhite: 40.3

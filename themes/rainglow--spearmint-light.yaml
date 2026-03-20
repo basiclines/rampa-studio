@@ -1,0 +1,53 @@
+name: "Rainglow (spearmint-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#E1F0EE"
+  fg: "#719692"
+  black: "#F2F8F8"
+  red: "#BA0E2E"
+  green: "#69ADB5"
+  yellow: "#25808A"
+  blue: "#4CD7E0"
+  magenta: "#69ADB5"
+  cyan: "#199FA8"
+  white: "#80A19D"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#ADD2D7"
+  brightYellow: "#47C0CE"
+  brightBlue: "#A3EAEF"
+  brightMagenta: "#ADD2D7"
+  brightCyan: "#44D9E3"
+  brightWhite: "#ACC1BF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 187
+  pair: "Rainglow (spearmint-contrast)"
+  contrast:
+    fg: 48.8
+    black: 0
+    red: 69.5
+    green: 39
+    yellow: 61
+    blue: 20.3
+    magenta: 39
+    cyan: 47.9
+    white: 43
+    brightBlack: 9.8
+    brightRed: 53.1
+    brightGreen: 16.9
+    brightYellow: 31.4
+    brightBlue: 0
+    brightMagenta: 16.9
+    brightCyan: 19.5
+    brightWhite: 25

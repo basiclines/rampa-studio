@@ -1,0 +1,53 @@
+name: "Peacock"
+source:
+  marketplace_id: "marnix.peacock"
+  version: "1.1.6"
+  installs: 33098
+  rating: 5
+  ratings: 2
+  author: "Marnix Koops"
+  repo: "https://github.com/marnixkoops/peacock"
+  url: "https://marketplace.visualstudio.com/items?itemName=marnix.peacock"
+  formats: null
+colors:
+  bg: "#1E2336"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 57.7
+    black: 0
+    red: 35
+    green: 58.6
+    yellow: 46.9
+    blue: 47.9
+    magenta: 37.3
+    cyan: 50.8
+    white: 88.9
+    brightBlack: 13.7
+    brightRed: 44.4
+    brightGreen: 75
+    brightYellow: 59.5
+    brightBlue: 62
+    brightMagenta: 48.5
+    brightCyan: 66.1
+    brightWhite: 81.3

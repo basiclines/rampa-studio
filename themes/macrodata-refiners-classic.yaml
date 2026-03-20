@@ -1,0 +1,53 @@
+name: "Macrodata Refiners - Classic"
+source:
+  marketplace_id: "guinetik.macrodata-refiners-severance-theme"
+  version: "1.0.3"
+  installs: 140
+  rating: 0
+  ratings: 0
+  author: "guinetik"
+  repo: "https://github.com/guinetik/macrodata-refiners-severance-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=guinetik.macrodata-refiners-severance-theme"
+  formats: null
+colors:
+  bg: "#04090D"
+  fg: "#B0B8B8"
+  black: "#000000"
+  red: "#E85050"
+  green: "#70B0A0"
+  yellow: "#D0B580"
+  blue: "#2EC2E0"
+  magenta: "#B070A0"
+  cyan: "#00D5D5"
+  white: "#E8E8E8"
+  brightBlack: "#3A4545"
+  brightRed: "#E85050"
+  brightGreen: "#80C0B0"
+  brightYellow: "#D0B580"
+  brightBlue: "#00D5D5"
+  brightMagenta: "#B070A0"
+  brightCyan: "#00E5E5"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 236
+  pair: "Macrodata Refiners - ORTBO"
+  contrast:
+    fg: 63
+    black: 0
+    red: 38.1
+    green: 52.9
+    yellow: 64.1
+    blue: 61.1
+    magenta: 37.1
+    cyan: 69
+    white: 92.8
+    brightBlack: 9.3
+    brightRed: 38.1
+    brightGreen: 61.6
+    brightYellow: 64.1
+    brightBlue: 69
+    brightMagenta: 37.1
+    brightCyan: 77.5
+    brightWhite: 92.8

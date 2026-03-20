@@ -1,0 +1,53 @@
+name: "DanteTheme"
+source:
+  marketplace_id: "DanteTheme.dantetheme"
+  version: "0.0.9"
+  installs: 204
+  rating: 5
+  ratings: 1
+  author: "DanteTheme"
+  repo: "https://github.com/peidrao/DanteTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DanteTheme.dantetheme"
+  formats: null
+colors:
+  bg: "#181913"
+  fg: "#FFF1E6"
+  black: "#FFFFFF"
+  red: "#6FA571"
+  green: "#2BFF00"
+  yellow: "#F92672"
+  blue: "#0F919F"
+  magenta: "#AE81FF"
+  cyan: "#66D9EF"
+  white: "#66D9EF"
+  brightBlack: "#75715E"
+  brightRed: "#B81C1C"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#EF66D1"
+  brightWhite: "#FF0000"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 115
+  pair: null
+  contrast:
+    fg: 99
+    black: 106.7
+    red: 45.7
+    green: 85.6
+    yellow: 37.1
+    blue: 35.8
+    magenta: 46.4
+    cyan: 73.3
+    white: 73.3
+    brightBlack: 26.5
+    brightRed: 20.3
+    brightGreen: 76.8
+    brightYellow: 83.7
+    brightBlue: 49.7
+    brightMagenta: 46.4
+    brightCyan: 47.4
+    brightWhite: 36.4

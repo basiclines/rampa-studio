@@ -1,0 +1,53 @@
+name: "Tecoma Theme"
+source:
+  marketplace_id: "monket.karl-okeeffes-theme"
+  version: "5.1.0"
+  installs: 794
+  rating: 5
+  ratings: 2
+  author: "Karl O'Keeffe"
+  repo: "https://github.com/karl/vscode-karl-okeeffes-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=monket.karl-okeeffes-theme"
+  formats: null
+colors:
+  bg: "#1F1F1F"
+  fg: "#BDBDBD"
+  black: "#000000"
+  red: "#BD414D"
+  green: "#759C58"
+  yellow: "#C6975C"
+  blue: "#397CB3"
+  magenta: "#9C57B0"
+  cyan: "#3A7277"
+  white: "#D6D6D6"
+  brightBlack: "#808080"
+  brightRed: "#E06C75"
+  brightGreen: "#94C470"
+  brightYellow: "#EFBC81"
+  brightBlue: "#4CA1E7"
+  brightMagenta: "#C678DD"
+  brightCyan: "#4F989E"
+  brightWhite: "#ECECEC"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 64.9
+    black: 0
+    red: 24.8
+    green: 41.2
+    yellow: 48.7
+    blue: 29
+    magenta: 26.9
+    cyan: 22.7
+    white: 79.7
+    brightBlack: 32.8
+    brightRed: 41.1
+    brightGreen: 61.2
+    brightYellow: 69.7
+    brightBlue: 46.6
+    brightMagenta: 44.2
+    brightCyan: 39.2
+    brightWhite: 93.5

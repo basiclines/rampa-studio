@@ -1,0 +1,53 @@
+name: "Vaporizer Dark & Light Themes (Vaporizer Dark Pansy)"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35761
+  rating: 5
+  ratings: 6
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+  formats: null
+colors:
+  bg: "#3B3551"
+  fg: "#744290"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 294
+  pair: "Vaporizer Dark & Light Themes (Vaporizer Ava Light)"
+  contrast:
+    fg: 9.8
+    black: 0
+    red: 20.1
+    green: 46.4
+    yellow: 79
+    blue: 20.8
+    magenta: 23.2
+    cyan: 41
+    white: 83.4
+    brightBlack: 15.5
+    brightRed: 32
+    brightGreen: 56.9
+    brightYellow: 89
+    brightBlue: 33.4
+    brightMagenta: 38.8
+    brightCyan: 48.8
+    brightWhite: 83.4

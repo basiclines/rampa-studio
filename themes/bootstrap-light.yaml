@@ -1,0 +1,53 @@
+name: "Bootstrap Light"
+source:
+  marketplace_id: "Bootstrap.bootstrap-vscode-theme"
+  version: "0.0.9"
+  installs: 73
+  rating: 0
+  ratings: 0
+  author: "Bootstrap"
+  repo: "https://github.com/twbs/bootstrap-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Bootstrap.bootstrap-vscode-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#0B0C0D"
+  black: "#18191A"
+  red: "#E62845"
+  green: "#00B15A"
+  yellow: "#FFC900"
+  blue: "#0075FF"
+  magenta: "#AE29C9"
+  cyan: "#00B4F8"
+  white: "#ABB2B8"
+  brightBlack: "#18191A"
+  brightRed: "#E62845"
+  brightGreen: "#00B15A"
+  brightYellow: "#FFC900"
+  brightBlue: "#0075FF"
+  brightMagenta: "#AE29C9"
+  brightCyan: "#00B4F8"
+  brightWhite: "#ABB2B8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Bootstrap Dark"
+  contrast:
+    fg: 105.7
+    black: 104.4
+    red: 68.7
+    green: 53.5
+    yellow: 24.8
+    blue: 68.1
+    magenta: 74.9
+    cyan: 45.9
+    white: 42.1
+    brightBlack: 104.4
+    brightRed: 68.7
+    brightGreen: 53.5
+    brightYellow: 24.8
+    brightBlue: 68.1
+    brightMagenta: 74.9
+    brightCyan: 45.9
+    brightWhite: 42.1

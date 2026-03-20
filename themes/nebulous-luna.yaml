@@ -1,0 +1,53 @@
+name: "Nebulous Luna"
+source:
+  marketplace_id: "jtpeller.nebulous-color-themes"
+  version: "0.0.4"
+  installs: 41
+  rating: 5
+  ratings: 1
+  author: "jtpeller"
+  repo: "https://github.com/jtpeller/nebulous-color-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=jtpeller.nebulous-color-themes"
+  formats: null
+colors:
+  bg: "#CFCFCF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#7A7D00"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#3EFF3E"
+  brightYellow: "#F8FF00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.2
+    black: 78.2
+    red: 46.1
+    green: 21.4
+    yellow: 42.6
+    blue: 58.2
+    magenta: 46.7
+    cyan: 32.7
+    white: 58.1
+    brightBlack: 50.9
+    brightRed: 46.1
+    brightGreen: 8.3
+    brightYellow: 22.8
+    brightBlue: 58.2
+    brightMagenta: 46.7
+    brightCyan: 32.7
+    brightWhite: 29

@@ -1,0 +1,53 @@
+name: "Shaddy LightA"
+source:
+  marketplace_id: "Francisco.shaddy"
+  version: "0.1.0"
+  installs: 17
+  rating: 0
+  ratings: 0
+  author: "Francisco"
+  repo: "https://github.com/franciscoamado/shaddy-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Francisco.shaddy"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#0A0A0A"
+  black: "#F5F5F5"
+  red: "#DC2626"
+  green: "#16A34A"
+  yellow: "#FACC15"
+  blue: "#2563EB"
+  magenta: "#E11D48"
+  cyan: "#0891B2"
+  white: "#0A0A0A"
+  brightBlack: "#FAFAFA"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#FDE047"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#F43F5E"
+  brightCyan: "#06B6D4"
+  brightWhite: "#0A0A0A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Shaddy"
+  contrast:
+    fg: 102.9
+    black: 0
+    red: 68.6
+    green: 56.7
+    yellow: 21.4
+    blue: 71.9
+    magenta: 67.5
+    cyan: 60.8
+    white: 102.9
+    brightBlack: 0
+    brightRed: 60.8
+    brightGreen: 41.3
+    brightYellow: 12.6
+    brightBlue: 60.9
+    brightMagenta: 59.9
+    brightCyan: 44.2
+    brightWhite: 102.9

@@ -1,0 +1,53 @@
+name: "Abstract MH"
+source:
+  marketplace_id: "MiguelHP.Abstract-MH"
+  version: "1.0.0"
+  installs: 620
+  rating: 5
+  ratings: 1
+  author: "Miguel HP"
+  repo: "https://github.com/MHP24/vsc-abstract-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MiguelHP.Abstract-MH"
+  formats: null
+colors:
+  bg: "#1C1C1C"
+  fg: "#D4DCE0"
+  black: "#272727"
+  red: "#F55F6B"
+  green: "#9ED776"
+  yellow: "#FECB6D"
+  blue: "#4684FF"
+  magenta: "#D470F3"
+  cyan: "#51CBDC"
+  white: "#DDE0E6"
+  brightBlack: "#757981"
+  brightRed: "#FD4B4B"
+  brightGreen: "#A2DF76"
+  brightYellow: "#EBBD67"
+  brightBlue: "#528CFF"
+  brightMagenta: "#84019E"
+  brightCyan: "#59C3D1"
+  brightWhite: "#DCE0E7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83
+    black: 0
+    red: 42.8
+    green: 71.3
+    yellow: 78.2
+    blue: 38
+    magenta: 46.4
+    cyan: 64.4
+    white: 86.2
+    brightBlack: 29.8
+    brightRed: 40.6
+    brightGreen: 75.5
+    brightYellow: 69.3
+    brightBlue: 41.3
+    brightMagenta: 13.6
+    brightCyan: 60.6
+    brightWhite: 86.1

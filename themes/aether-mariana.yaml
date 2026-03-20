@@ -1,0 +1,53 @@
+name: "Aether Mariana"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#051214"
+  fg: "#B0C5C8"
+  black: "#334B50"
+  red: "#E7704A"
+  green: "#40D4A6"
+  yellow: "#D19A66"
+  blue: "#4AB0D9"
+  magenta: "#E17BA5"
+  cyan: "#39C5D7"
+  white: "#B0C5C8"
+  brightBlack: "#486D73"
+  brightRed: "#EA8260"
+  brightGreen: "#5BD9B3"
+  brightYellow: "#D89544"
+  brightBlue: "#5DB9DF"
+  brightMagenta: "#E799BB"
+  brightCyan: "#5DD5E5"
+  brightWhite: "#C0D5D8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 208
+  pair: "Aether Zen"
+  contrast:
+    fg: 68.7
+    black: 10.5
+    red: 44.1
+    green: 66.9
+    yellow: 53.2
+    blue: 53.3
+    magenta: 48.2
+    cyan: 61.8
+    white: 68.7
+    brightBlack: 23.1
+    brightRed: 49.9
+    brightGreen: 70.7
+    brightYellow: 52.1
+    brightBlue: 58.2
+    brightMagenta: 59.2
+    brightCyan: 71.1
+    brightWhite: 78.2

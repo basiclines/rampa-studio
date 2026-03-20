@@ -1,0 +1,53 @@
+name: "Vibey Theme"
+source:
+  marketplace_id: "FusionTerror.vibey-theme"
+  version: "0.0.3"
+  installs: 910
+  rating: 5
+  ratings: 1
+  author: "Fusion Terror"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=FusionTerror.vibey-theme"
+  formats: null
+colors:
+  bg: "#301830"
+  fg: "#C0D8F0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 327
+  pair: null
+  contrast:
+    fg: 78.8
+    black: 0
+    red: 25.4
+    green: 51.7
+    yellow: 84.3
+    blue: 26.1
+    magenta: 28.4
+    cyan: 46.2
+    white: 88.7
+    brightBlack: 20.7
+    brightRed: 37.2
+    brightGreen: 62.2
+    brightYellow: 94.3
+    brightBlue: 38.7
+    brightMagenta: 44
+    brightCyan: 54.1
+    brightWhite: 88.7

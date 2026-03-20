@@ -1,0 +1,53 @@
+name: "KDshade-darkBG"
+source:
+  marketplace_id: "kdl.kdshade"
+  version: "0.0.4"
+  installs: 207
+  rating: 0
+  ratings: 0
+  author: "kdl"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=kdl.kdshade"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 105.1
+    black: 0
+    red: 44.1
+    green: 84.7
+    yellow: 79.4
+    blue: 56.4
+    magenta: 54.3
+    cyan: 78.8
+    white: 107.4
+    brightBlack: 11.5
+    brightRed: 44.1
+    brightGreen: 84.7
+    brightYellow: 79.4
+    brightBlue: 56.4
+    brightMagenta: 54.3
+    brightCyan: 78.8
+    brightWhite: 107.4

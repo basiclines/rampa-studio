@@ -1,0 +1,53 @@
+name: "VSLook"
+source:
+  marketplace_id: "sudoaugustin.vslook"
+  version: "0.3.2"
+  installs: 10352
+  rating: 4.33
+  ratings: 6
+  author: "Augustin Joseph"
+  repo: "https://github.com/sudoaugustin/vslook"
+  url: "https://marketplace.visualstudio.com/items?itemName=sudoaugustin.vslook"
+  formats: null
+colors:
+  bg: "#0F172A"
+  fg: "#FFFFFF"
+  black: "#334155"
+  red: "#E11D48"
+  green: "#059669"
+  yellow: "#D97706"
+  blue: "#2563EB"
+  magenta: "#C026D3"
+  cyan: "#0891B2"
+  white: "#94A3B8"
+  brightBlack: "#1E293B"
+  brightRed: "#FB7185"
+  brightGreen: "#34D399"
+  brightYellow: "#FBBF24"
+  brightBlue: "#0EA5E9"
+  brightMagenta: "#E879F9"
+  brightCyan: "#22D3EE"
+  brightWhite: "#E2E8F0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 266
+  pair: null
+  contrast:
+    fg: 106.8
+    black: 7.4
+    red: 30.1
+    green: 35.9
+    yellow: 42.1
+    blue: 25.7
+    magenta: 29.5
+    cyan: 36.7
+    white: 50.6
+    brightBlack: 0
+    brightRed: 49.2
+    brightGreen: 65.1
+    brightYellow: 72.6
+    brightBlue: 47.9
+    brightMagenta: 53
+    brightCyan: 68.5
+    brightWhite: 91.4

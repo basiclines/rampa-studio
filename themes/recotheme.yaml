@@ -1,0 +1,53 @@
+name: "RecoTheme"
+source:
+  marketplace_id: "recoluan.vscode-theme-reco"
+  version: "0.0.6"
+  installs: 692
+  rating: 5
+  ratings: 1
+  author: "reco_luan"
+  repo: "https://github.com/recoluan/vscode-theme-reco"
+  url: "https://marketplace.visualstudio.com/items?itemName=recoluan.vscode-theme-reco"
+  formats: null
+colors:
+  bg: "#222225"
+  fg: "#D6D6DD"
+  black: "#676767"
+  red: "#F26D6D"
+  green: "#15AC91"
+  yellow: "#E5B95C"
+  blue: "#4C9DF3"
+  magenta: "#E567DC"
+  cyan: "#75D3BA"
+  white: "#D6D6DD"
+  brightBlack: "#676767"
+  brightRed: "#F26D6D"
+  brightGreen: "#15AC91"
+  brightYellow: "#E5B95C"
+  brightBlue: "#4C9DF3"
+  brightMagenta: "#E567DC"
+  brightCyan: "#75D3BA"
+  brightWhite: "#D6D6DD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.6
+    black: 21
+    red: 44.3
+    green: 45.1
+    yellow: 65.7
+    blue: 45.4
+    magenta: 45
+    cyan: 67.5
+    white: 79.6
+    brightBlack: 21
+    brightRed: 44.3
+    brightGreen: 45.1
+    brightYellow: 65.7
+    brightBlue: 45.4
+    brightMagenta: 45
+    brightCyan: 67.5
+    brightWhite: 79.6

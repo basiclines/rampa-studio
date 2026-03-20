@@ -1,0 +1,54 @@
+name: "Verdure"
+source:
+  marketplace_id: "verdure.verdure-vscode-theme"
+  version: "0.0.2"
+  installs: 181
+  rating: 0
+  ratings: 0
+  author: "Ada Rachel"
+  repo: "https://github.com/adarachel/verdure-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=verdure.verdure-vscode-theme"
+  formats:
+    sublime: "https://raw.githubusercontent.com/adarachel/verdure-vscode-theme/verdure-theme/node_modules/generator-code/generators/app/templates/ext-colortheme/themes/theme.tmTheme"
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#B25E5E"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#8A2E2E"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 74
+    green: 49.2
+    yellow: 57.9
+    blue: 86.1
+    magenta: 74.6
+    cyan: 60.6
+    white: 71
+    brightBlack: 78.8
+    brightRed: 74
+    brightGreen: 40.9
+    brightYellow: 40.9
+    brightBlue: 86.1
+    brightMagenta: 74.6
+    brightCyan: 60.6
+    brightWhite: 88

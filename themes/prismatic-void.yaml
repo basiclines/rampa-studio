@@ -1,0 +1,53 @@
+name: "Prismatic Void"
+source:
+  marketplace_id: "cklimas.prismatic"
+  version: "1.17.0"
+  installs: 860
+  rating: 5
+  ratings: 1
+  author: "Chris Klimas"
+  repo: "https://github.com/klembot/prismatic-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cklimas.prismatic"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#AAAAAA"
+  black: "#000000"
+  red: "#BB2846"
+  green: "#7E9141"
+  yellow: "#6D5232"
+  blue: "#317998"
+  magenta: "#9C4174"
+  cyan: "#008A8A"
+  white: "#4E5E6E"
+  brightBlack: "#222222"
+  brightRed: "#DD6C8A"
+  brightGreen: "#CCDD85"
+  brightYellow: "#DDBA85"
+  brightBlue: "#75BDDC"
+  brightMagenta: "#DD85B8"
+  brightCyan: "#00CECE"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 23.3
+    green: 39.3
+    yellow: 17
+    blue: 28.2
+    magenta: 21.8
+    cyan: 33.3
+    white: 19
+    brightBlack: 0
+    brightRed: 43.1
+    brightGreen: 80.9
+    brightYellow: 68.2
+    brightBlue: 61.6
+    brightMagenta: 51.6
+    brightCyan: 65.4
+    brightWhite: 86

@@ -1,0 +1,53 @@
+name: "Serendipity (Serendipity Sunset)"
+source:
+  marketplace_id: "wicked-labs.wvsc-serendipity"
+  version: "1.66.2"
+  installs: 70609
+  rating: 4.76
+  ratings: 17
+  author: "Michael Andreuzza "
+  repo: "https://github.com/Serendipity-Theme/vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.wvsc-serendipity"
+  formats: null
+colors:
+  bg: "#202231"
+  fg: "#DEE0EF"
+  black: "#363847"
+  red: "#D1918F"
+  green: "#709BBD"
+  yellow: "#A392DC"
+  blue: "#A0B6E8"
+  magenta: "#AAC9D4"
+  cyan: "#D6B4B4"
+  white: "#DEE0EF"
+  brightBlack: "#6B6D7C"
+  brightRed: "#D1918F"
+  brightGreen: "#709BBD"
+  brightYellow: "#A392DC"
+  brightBlue: "#A0B6E8"
+  brightMagenta: "#AAC9D4"
+  brightCyan: "#D6B4B4"
+  brightWhite: "#DEE0EF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 49.1
+    green: 43.2
+    yellow: 46.5
+    blue: 60.3
+    magenta: 68.3
+    cyan: 63.7
+    white: 85.7
+    brightBlack: 23.8
+    brightRed: 49.1
+    brightGreen: 43.2
+    brightYellow: 46.5
+    brightBlue: 60.3
+    brightMagenta: 68.3
+    brightCyan: 63.7
+    brightWhite: 85.7

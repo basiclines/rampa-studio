@@ -1,0 +1,53 @@
+name: "Section 9 - Hacker"
+source:
+  marketplace_id: "y4m3.section9-theme"
+  version: "0.0.1"
+  installs: 61
+  rating: 0
+  ratings: 0
+  author: "y4m3"
+  repo: "https://github.com/y4m3/vscode-section9-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=y4m3.section9-theme"
+  formats: null
+colors:
+  bg: "#081208"
+  fg: "#7CDC87"
+  black: "#061006"
+  red: "#AA3333"
+  green: "#40BB40"
+  yellow: "#AAAA30"
+  blue: "#609CAD"
+  magenta: "#A070C0"
+  cyan: "#40B5B5"
+  white: "#AACCAA"
+  brightBlack: "#507050"
+  brightRed: "#CC5555"
+  brightGreen: "#70BB70"
+  brightYellow: "#C0C030"
+  brightBlue: "#80B0D0"
+  brightMagenta: "#B090D0"
+  brightCyan: "#60C0C0"
+  brightWhite: "#C0D0C0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 144
+  pair: null
+  contrast:
+    fg: 72.6
+    black: 0
+    red: 20.3
+    green: 52.9
+    yellow: 53.1
+    blue: 43.9
+    magenta: 36.2
+    cyan: 53.3
+    white: 70
+    brightBlack: 23.6
+    brightRed: 32.9
+    brightGreen: 55.9
+    brightYellow: 64.9
+    brightBlue: 55.9
+    brightMagenta: 48.9
+    brightCyan: 59.9
+    brightWhite: 75

@@ -1,0 +1,53 @@
+name: "Smit Neon Cyberpunk"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#0A0A0F"
+  fg: "#00FFFF"
+  black: "#0A0A0F"
+  red: "#FF0080"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0080FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#3A1A3A"
+  brightRed: "#FF00AA"
+  brightGreen: "#00FF80"
+  brightYellow: "#FFFF80"
+  brightBlue: "#00AAFF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 92
+    black: 0
+    red: 39.1
+    green: 86.3
+    yellow: 102.5
+    blue: 36.9
+    magenta: 46.1
+    cyan: 92
+    white: 107.7
+    brightBlack: 0
+    brightRed: 40.8
+    brightGreen: 87.4
+    brightYellow: 103.6
+    brightBlue: 52.4
+    brightMagenta: 46.1
+    brightCyan: 92
+    brightWhite: 107.7

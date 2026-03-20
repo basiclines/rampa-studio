@@ -1,0 +1,53 @@
+name: "Neon Cyberpunk Theme (Neon Matrix)"
+source:
+  marketplace_id: "LittleWaterfall.neon-cyberpunk-theme"
+  version: "1.0.0"
+  installs: 1553
+  rating: 0
+  ratings: 0
+  author: "Little Waterfall"
+  repo: "https://github.com/LittleWaterfall/vscode-neon-glow"
+  url: "https://marketplace.visualstudio.com/items?itemName=LittleWaterfall.neon-cyberpunk-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#00FF00"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0080FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#808080"
+  brightRed: "#FF8080"
+  brightGreen: "#80FF80"
+  brightYellow: "#FFFF80"
+  brightBlue: "#8080FF"
+  brightMagenta: "#FF80FF"
+  brightCyan: "#80FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 37.1
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 34.8
+    brightRed: 54.7
+    brightGreen: 90.8
+    brightYellow: 103.7
+    brightBlue: 42.1
+    brightMagenta: 60.6
+    brightCyan: 95.3
+    brightWhite: 107.9

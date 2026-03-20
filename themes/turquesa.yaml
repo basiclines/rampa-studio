@@ -1,0 +1,53 @@
+name: "turquesa"
+source:
+  marketplace_id: "srtakennedy.turquesa"
+  version: "0.0.4"
+  installs: 224
+  rating: 0
+  ratings: 0
+  author: "srtakennedy"
+  repo: "https://github.com/SrtaKennedy"
+  url: "https://marketplace.visualstudio.com/items?itemName=srtakennedy.turquesa"
+  formats: null
+colors:
+  bg: "#282828"
+  fg: "#FFD700"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.8
+    black: 0
+    red: 24.3
+    green: 50.6
+    yellow: 83.2
+    blue: 25
+    magenta: 27.3
+    cyan: 45.1
+    white: 87.6
+    brightBlack: 19.6
+    brightRed: 36.1
+    brightGreen: 61.1
+    brightYellow: 93.2
+    brightBlue: 37.6
+    brightMagenta: 42.9
+    brightCyan: 53
+    brightWhite: 87.6

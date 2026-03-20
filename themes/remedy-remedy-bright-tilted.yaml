@@ -1,0 +1,54 @@
+name: "Remedy (Remedy - Bright (Tilted))"
+source:
+  marketplace_id: "robertrossmann.remedy"
+  version: "5.28.0"
+  installs: 66579
+  rating: 4.62
+  ratings: 13
+  author: "Robert Rossmann"
+  repo: "https://github.com/robertrossmann/vscode-remedy"
+  url: "https://marketplace.visualstudio.com/items?itemName=robertrossmann.remedy"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/robertrossmann/vscode-remedy/master/resources/iTerm2/Remedy - Bright.itermcolors"
+colors:
+  bg: "#FEF8EB"
+  fg: "#563D0E"
+  black: "#282A2E"
+  red: "#A54242"
+  green: "#8C9440"
+  yellow: "#DE935F"
+  blue: "#5F819D"
+  magenta: "#85678F"
+  cyan: "#5E8D87"
+  white: "#707880"
+  brightBlack: "#9CA19E"
+  brightRed: "#CC6666"
+  brightGreen: "#B5BD68"
+  brightYellow: "#D79A22"
+  brightBlue: "#81A2BE"
+  brightMagenta: "#B294BB"
+  brightCyan: "#8ABEB7"
+  brightWhite: "#535961"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: "Remedy (Remedy - Dark (Tilted))"
+  contrast:
+    fg: 89.5
+    black: 97.2
+    red: 75.7
+    green: 56
+    yellow: 44.7
+    blue: 64.2
+    magenta: 69.6
+    cyan: 60.8
+    white: 67.2
+    brightBlack: 47.2
+    brightRed: 60.3
+    brightGreen: 35
+    brightYellow: 44.2
+    brightBlue: 48
+    brightMagenta: 48
+    brightCyan: 36.5
+    brightWhite: 80.6

@@ -1,0 +1,53 @@
+name: "Evondev Tailwind Theme"
+source:
+  marketplace_id: "evondev.evondev-tailwind-theme"
+  version: "0.0.38"
+  installs: 4791
+  rating: 5
+  ratings: 3
+  author: "evondev"
+  repo: "https://github.com/evondev/evondev-tailwind-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=evondev.evondev-tailwind-theme"
+  formats: null
+colors:
+  bg: "#1B1E28"
+  fg: "#EEFFFF"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#20E3B2"
+  yellow: "#FFB86C"
+  blue: "#00AEFD"
+  magenta: "#FF79C6"
+  cyan: "#7DD3FC"
+  white: "#F8FAFC"
+  brightBlack: "#8D92FF"
+  brightRed: "#FF5555"
+  brightGreen: "#20E3B2"
+  brightYellow: "#FFB86C"
+  brightBlue: "#00AEFD"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#7DD3FC"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 103.7
+    black: 0
+    red: 42.5
+    green: 72.7
+    yellow: 70.6
+    blue: 52.2
+    magenta: 53.7
+    cyan: 71.8
+    white: 102.5
+    brightBlack: 47.3
+    brightRed: 42.5
+    brightGreen: 72.7
+    brightYellow: 70.6
+    brightBlue: 52.2
+    brightMagenta: 53.7
+    brightCyan: 71.8
+    brightWhite: 102.5

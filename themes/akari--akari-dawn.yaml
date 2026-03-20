@@ -1,0 +1,57 @@
+name: "Akari (Akari Dawn)"
+source:
+  marketplace_id: "cappyzawa.akari-theme"
+  version: "1.18.0"
+  installs: 59
+  rating: 0
+  ratings: 0
+  author: "Shu Kutsuzawa"
+  repo: "https://github.com/cappyzawa/akari-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cappyzawa.akari-theme"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/cappyzawa/akari-theme/main/dist/ghostty/README.md"
+    alacritty: "https://raw.githubusercontent.com/cappyzawa/akari-theme/main/dist/alacritty/akari-dawn.toml"
+    nvim: "https://raw.githubusercontent.com/cappyzawa/akari-theme/main/dist/nvim/lua/akari/highlights/editor.lua"
+    sublime: "https://raw.githubusercontent.com/cappyzawa/akari-theme/main/dist/bat/akari-dawn.tmTheme"
+colors:
+  bg: "#E4DED6"
+  fg: "#1A1816"
+  black: "#1A1816"
+  red: "#6A2828"
+  green: "#3A5830"
+  yellow: "#B07840"
+  blue: "#304050"
+  magenta: "#806080"
+  cyan: "#305858"
+  white: "#E4DED6"
+  brightBlack: "#514B45"
+  brightRed: "#3E1717"
+  brightGreen: "#20301A"
+  brightYellow: "#78522C"
+  brightBlue: "#131A20"
+  brightMagenta: "#543F54"
+  brightCyan: "#152727"
+  brightWhite: "#D0C5B7"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: 75
+  pair: "Akari (Akari Night)"
+  contrast:
+    fg: 85.6
+    black: 85.6
+    red: 75.5
+    green: 68.8
+    yellow: 45.9
+    blue: 75.7
+    magenta: 57.8
+    cyan: 68.3
+    white: 0
+    brightBlack: 70.6
+    brightRed: 83.4
+    brightGreen: 81.7
+    brightYellow: 64.8
+    brightBlue: 85.4
+    brightMagenta: 72.9
+    brightCyan: 83.5
+    brightWhite: 11.4

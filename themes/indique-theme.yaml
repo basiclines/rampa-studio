@@ -1,0 +1,53 @@
+name: "indique-theme"
+source:
+  marketplace_id: "IDNQ.indique-theme"
+  version: "1.1.0"
+  installs: 42
+  rating: 0
+  ratings: 0
+  author: "IDNQ"
+  repo: "https://github.com/IDNQ/indique-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=IDNQ.indique-theme"
+  formats: null
+colors:
+  bg: "#16191D"
+  fg: "#E1E4E8"
+  black: "#586069"
+  red: "#EA4A5A"
+  green: "#34D058"
+  yellow: "#FFEA7F"
+  blue: "#2188FF"
+  magenta: "#B392F0"
+  cyan: "#39C5CF"
+  white: "#D1D5DA"
+  brightBlack: "#959DA5"
+  brightRed: "#F97583"
+  brightGreen: "#85E89D"
+  brightYellow: "#FFEA7F"
+  brightBlue: "#79B8FF"
+  brightMagenta: "#B392F0"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FAFBFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89
+    black: 19
+    red: 36.7
+    green: 62.1
+    yellow: 92.6
+    blue: 38.8
+    magenta: 51.2
+    cyan: 60.7
+    white: 79.6
+    brightBlack: 47.5
+    brightRed: 49.6
+    brightGreen: 78.9
+    brightYellow: 92.6
+    brightBlue: 60.7
+    brightMagenta: 51.2
+    brightCyan: 69.2
+    brightWhite: 103.9

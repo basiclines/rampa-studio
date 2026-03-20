@@ -1,0 +1,53 @@
+name: "Tailwind Yellow Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#713F12"
+  fg: "#FEF9C3"
+  black: "#854D0E"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#FEF08A"
+  brightBlack: "#854D0E"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FEF08A"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 58
+  pair: "Tailwind Yellow Light"
+  contrast:
+    fg: 88.5
+    black: 0
+    red: 35.2
+    green: 57.5
+    yellow: 64.8
+    blue: 38.4
+    magenta: 36.7
+    cyan: 55.7
+    white: 82.7
+    brightBlack: 0
+    brightRed: 35.2
+    brightGreen: 57.5
+    brightYellow: 64.8
+    brightBlue: 38.4
+    brightMagenta: 36.7
+    brightCyan: 55.7
+    brightWhite: 82.7

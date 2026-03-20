@@ -1,0 +1,53 @@
+name: "Space Invader - Light"
+source:
+  marketplace_id: "samogorman1993.space-invader"
+  version: "1.3.0"
+  installs: 1935
+  rating: 0
+  ratings: 0
+  author: "Sam Ogorman"
+  repo: "https://github.com/samogorm/space-invader-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=samogorman1993.space-invader"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#454857"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#457DFF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#454857"
+  brightRed: "#DB3434"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Space Invader - Darker"
+  contrast:
+    fg: 90.8
+    black: 99.3
+    red: 58.6
+    green: 39.1
+    yellow: 31.2
+    blue: 64.4
+    magenta: 55.6
+    cyan: 46.5
+    white: 19.4
+    brightBlack: 90.8
+    brightRed: 70.5
+    brightGreen: 39.1
+    brightYellow: 31.2
+    brightBlue: 59.2
+    brightMagenta: 88.4
+    brightCyan: 46.5
+    brightWhite: 19.4

@@ -1,0 +1,53 @@
+name: "Grewee-colorscheme"
+source:
+  marketplace_id: "Salledelavage.grewee"
+  version: "0.0.1"
+  installs: 66
+  rating: 0
+  ratings: 0
+  author: "Salledelavage"
+  repo: "https://github.com/grosheth/grewee-colorsheme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Salledelavage.grewee"
+  formats: null
+colors:
+  bg: "#1C2023"
+  fg: "#EBDAB4"
+  black: "#1C2023"
+  red: "#C04E41"
+  green: "#8D9973"
+  yellow: "#F8D883"
+  blue: "#9EABBC"
+  magenta: "#DDA17D"
+  cyan: "#83A598"
+  white: "#A89984"
+  brightBlack: "#3D434E"
+  brightRed: "#D5835D"
+  brightGreen: "#C4C59B"
+  brightYellow: "#F5C878"
+  brightBlue: "#B7C3D2"
+  brightMagenta: "#FDAF87"
+  brightCyan: "#8D9973"
+  brightWhite: "#E6DFC1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83
+    black: 0
+    red: 27.3
+    green: 42.7
+    yellow: 82.7
+    blue: 54
+    magenta: 56.5
+    cyan: 47.6
+    white: 46.2
+    brightBlack: 7.3
+    brightRed: 44.7
+    brightGreen: 67.8
+    brightYellow: 75.3
+    brightBlue: 67.6
+    brightMagenta: 67.3
+    brightCyan: 42.7
+    brightWhite: 84.9

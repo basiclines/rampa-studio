@@ -1,0 +1,53 @@
+name: "TwoDark"
+source:
+  marketplace_id: "Avetis.twodark"
+  version: "0.4.3"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "Avetis"
+  repo: "https://github.com/AvetisDN/twodark-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Avetis.twodark"
+  formats: null
+colors:
+  bg: "#191B21"
+  fg: "#E1E4E8"
+  black: "#2C2A31"
+  red: "#F0406C"
+  green: "#34D058"
+  yellow: "#F0FF68"
+  blue: "#1495FF"
+  magenta: "#B87FFA"
+  cyan: "#2EDBE7"
+  white: "#D1D5DA"
+  brightBlack: "#959DA5"
+  brightRed: "#FF5882"
+  brightGreen: "#85E89D"
+  brightYellow: "#F0FF68"
+  brightBlue: "#2EC4FF"
+  brightMagenta: "#B87FFA"
+  brightCyan: "#3EDCE7"
+  brightWhite: "#FAFBFC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 88.7
+    black: 0
+    red: 36.9
+    green: 61.8
+    yellow: 99.8
+    blue: 43
+    magenta: 46.5
+    cyan: 71.7
+    white: 79.3
+    brightBlack: 47.3
+    brightRed: 44.5
+    brightGreen: 78.6
+    brightYellow: 99.8
+    brightBlue: 62.5
+    brightMagenta: 46.5
+    brightCyan: 72.5
+    brightWhite: 103.7

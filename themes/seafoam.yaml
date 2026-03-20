@@ -1,0 +1,53 @@
+name: "Seafoam"
+source:
+  marketplace_id: "ScottishPuffin.theme-sf"
+  version: "1.2.5"
+  installs: 135
+  rating: 0
+  ratings: 0
+  author: "ScottishPuffin"
+  repo: "https://github.com/WeeScottishPuffin/Seafoam"
+  url: "https://marketplace.visualstudio.com/items?itemName=ScottishPuffin.theme-sf"
+  formats: null
+colors:
+  bg: "#152526"
+  fg: "#D4E7D4"
+  black: "#757575"
+  red: "#825D4D"
+  green: "#728C62"
+  yellow: "#ADA16D"
+  blue: "#4D7B82"
+  magenta: "#8E7AB5"
+  cyan: "#729494"
+  white: "#E0E0E0"
+  brightBlack: "#8A8A8A"
+  brightRed: "#A07B6B"
+  brightGreen: "#90AA80"
+  brightYellow: "#CBBF8B"
+  brightBlue: "#6B99A0"
+  brightMagenta: "#AC98D3"
+  brightCyan: "#90B2B2"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 201
+  pair: null
+  contrast:
+    fg: 86.5
+    black: 27.1
+    red: 20.4
+    green: 34.4
+    yellow: 48.7
+    blue: 26.6
+    magenta: 34.2
+    cyan: 38.9
+    white: 85.4
+    brightBlack: 37.1
+    brightRed: 33.8
+    brightGreen: 49.6
+    brightYellow: 65.3
+    brightBlue: 40.8
+    brightMagenta: 49.3
+    brightCyan: 54.6
+    brightWhite: 85.4

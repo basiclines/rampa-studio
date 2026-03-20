@@ -1,0 +1,53 @@
+name: "Ef Duo Dark"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#070019"
+  fg: "#D0D0D0"
+  black: "#D0D0D0"
+  red: "#EF656A"
+  green: "#1FA526"
+  yellow: "#C48702"
+  blue: "#379CF6"
+  magenta: "#D369AF"
+  cyan: "#5FAAEF"
+  white: "#1D1A26"
+  brightBlack: "#857F8F"
+  brightRed: "#F47360"
+  brightGreen: "#50A22F"
+  brightYellow: "#D0730F"
+  brightBlue: "#6F80FF"
+  brightMagenta: "#E580EA"
+  brightCyan: "#7FAFFF"
+  brightWhite: "#070019"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 294
+  pair: "Ef Duo Light"
+  contrast:
+    fg: 78
+    black: 78
+    red: 44.2
+    green: 42.5
+    yellow: 44.2
+    blue: 46.9
+    magenta: 42
+    cyan: 53.4
+    white: 0
+    brightBlack: 35.4
+    brightRed: 48.3
+    brightGreen: 42.7
+    brightYellow: 40.4
+    brightBlue: 40.6
+    brightMagenta: 54.3
+    brightCyan: 58.6
+    brightWhite: 0

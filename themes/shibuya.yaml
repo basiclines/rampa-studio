@@ -1,0 +1,53 @@
+name: "Shibuya"
+source:
+  marketplace_id: "jeroen-meijer.shibuya"
+  version: "1.0.2"
+  installs: 9104
+  rating: 5
+  ratings: 3
+  author: "Jeroen Meijer"
+  repo: "https://github.com/jeroen-meijer/shibuya"
+  url: "https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.shibuya"
+  formats: null
+colors:
+  bg: "#0C0D12"
+  fg: "#C7CCD4"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#41A6B5"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#41A6B5"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 75.1
+    black: 0
+    red: 50.6
+    green: 47.1
+    yellow: 63.5
+    blue: 52.4
+    magenta: 56.3
+    cyan: 71.8
+    white: 33.3
+    brightBlack: 0
+    brightRed: 50.6
+    brightGreen: 47.1
+    brightYellow: 63.5
+    brightBlue: 52.4
+    brightMagenta: 56.3
+    brightCyan: 71.8
+    brightWhite: 60.2

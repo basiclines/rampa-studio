@@ -1,0 +1,53 @@
+name: "Spotly Light"
+source:
+  marketplace_id: "MaksymBukator.spotly"
+  version: "1.1.1"
+  installs: 174
+  rating: 5
+  ratings: 1
+  author: "Maksym Bukator"
+  repo: "https://github.com/Spotly-Tech/spotly-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MaksymBukator.spotly"
+  formats: null
+colors:
+  bg: "#FFFCF5"
+  fg: "#161316"
+  black: "#000000"
+  red: "#AC2C3F"
+  green: "#0DBC79"
+  yellow: "#DBAD2C"
+  blue: "#21499F"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFCF5"
+  brightBlack: "#666666"
+  brightRed: "#C8727F"
+  brightGreen: "#23D18B"
+  brightYellow: "#CCA844"
+  brightBlue: "#3F68C2"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Spotly Dark"
+  contrast:
+    fg: 103.4
+    black: 104.3
+    red: 79.7
+    green: 46.3
+    yellow: 39.1
+    blue: 86.6
+    magenta: 69.2
+    cyan: 51.6
+    white: 0
+    brightBlack: 77
+    brightRed: 59.6
+    brightGreen: 36.2
+    brightYellow: 42.9
+    brightBlue: 74.3
+    brightMagenta: 53.7
+    brightCyan: 44
+    brightWhite: 0

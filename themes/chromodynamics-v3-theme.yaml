@@ -1,0 +1,53 @@
+name: "Chromodynamics V3 Theme"
+source:
+  marketplace_id: "leelhn2345.chromodynamics-v3-theme"
+  version: "0.4.7"
+  installs: 612
+  rating: 0
+  ratings: 0
+  author: "leelhn2345"
+  repo: "https://github.com/leelhn2345/chromodynamics-v3-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=leelhn2345.chromodynamics-v3-theme"
+  formats: null
+colors:
+  bg: "#060606"
+  fg: "#C6C6C6"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#3FB950"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.1
+    black: 13.5
+    red: 53
+    green: 52.6
+    yellow: 52.7
+    blue: 52.7
+    magenta: 52.7
+    cyan: 61.8
+    white: 64.5
+    brightBlack: 29.7
+    brightRed: 65.3
+    brightGreen: 65.9
+    brightYellow: 65.2
+    brightBlue: 65.2
+    brightMagenta: 65.1
+    brightCyan: 70.4
+    brightWhite: 107.8

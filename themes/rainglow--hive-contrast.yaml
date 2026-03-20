@@ -1,0 +1,53 @@
+name: "Rainglow (hive-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0F1016"
+  fg: "#FFFFFF"
+  black: "#191B25"
+  red: "#BA0E2E"
+  green: "#7CB8BA"
+  yellow: "#6E81A0"
+  blue: "#FFFFFF"
+  magenta: "#7CB8BA"
+  cyan: "#6E81A0"
+  white: "#FFFFFF"
+  brightBlack: "#383C53"
+  brightRed: "#F03E5F"
+  brightGreen: "#BFDCDD"
+  brightYellow: "#ACB7C8"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#BFDCDD"
+  brightCyan: "#ACB7C8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  pair: "Rainglow (hive-light)"
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 21
+    green: 57.8
+    yellow: 34.3
+    blue: 107.4
+    magenta: 57.8
+    cyan: 34.3
+    white: 107.4
+    brightBlack: 0
+    brightRed: 37.3
+    brightGreen: 81.5
+    brightYellow: 62.5
+    brightBlue: 107.4
+    brightMagenta: 81.5
+    brightCyan: 62.5
+    brightWhite: 107.4

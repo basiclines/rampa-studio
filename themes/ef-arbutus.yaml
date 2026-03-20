@@ -1,0 +1,53 @@
+name: "Ef Arbutus"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#FFEAD8"
+  fg: "#393330"
+  black: "#393330"
+  red: "#B0000F"
+  green: "#007000"
+  yellow: "#906200"
+  blue: "#375CC6"
+  magenta: "#A23EA4"
+  cyan: "#3F69AF"
+  white: "#F0D8CF"
+  brightBlack: "#6E678F"
+  brightRed: "#B20F00"
+  brightGreen: "#557000"
+  brightYellow: "#B44405"
+  brightBlue: "#5F55DF"
+  brightMagenta: "#BF2C90"
+  brightCyan: "#4060A0"
+  brightWhite: "#FFEAD8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 63
+  pair: null
+  contrast:
+    fg: 87.9
+    black: 87.9
+    red: 72.5
+    green: 70.3
+    yellow: 65.9
+    blue: 69.1
+    magenta: 66.8
+    cyan: 66.6
+    white: 0
+    brightBlack: 65.7
+    brightRed: 71.9
+    brightGreen: 67.8
+    brightYellow: 66.5
+    brightBlue: 66.3
+    brightMagenta: 64.5
+    brightCyan: 70.2
+    brightWhite: 0

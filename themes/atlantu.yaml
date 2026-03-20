@@ -1,0 +1,53 @@
+name: "Atlantu"
+source:
+  marketplace_id: "yradex.atlantu"
+  version: "1.4.2"
+  installs: 355
+  rating: 0
+  ratings: 0
+  author: "yradex"
+  repo: "https://github.com/Yradex/Atlantu"
+  url: "https://marketplace.visualstudio.com/items?itemName=yradex.atlantu"
+  formats: null
+colors:
+  bg: "#1B1C1E"
+  fg: "#D1D3D8"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.3
+    black: 0
+    red: 41.5
+    green: 61.7
+    yellow: 70
+    blue: 54.1
+    magenta: 44.6
+    cyan: 54
+    white: 82.5
+    brightBlack: 35
+    brightRed: 37.9
+    brightGreen: 61.7
+    brightYellow: 70
+    brightBlue: 40.9
+    brightMagenta: 12.2
+    brightCyan: 54
+    brightWhite: 82.5

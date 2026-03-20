@@ -1,0 +1,53 @@
+name: "Dark Springbok"
+source:
+  marketplace_id: "chrp.springbok-theme"
+  version: "0.12.0"
+  installs: 621
+  rating: 5
+  ratings: 1
+  author: "chrp"
+  repo: "https://github.com/christophehurpeau/springbok-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=chrp.springbok-theme"
+  formats: null
+colors:
+  bg: "#080808"
+  fg: "#E0E0E0"
+  black: "#797979"
+  red: "#D34F4A"
+  green: "#4AD34F"
+  yellow: "#D3C64A"
+  blue: "#4A61D3"
+  magenta: "#D34AC1"
+  cyan: "#4AC1D3"
+  white: "#D7D7D7"
+  brightBlack: "#A0A0A0"
+  brightRed: "#E60800"
+  brightGreen: "#00E608"
+  brightYellow: "#E6CF00"
+  brightBlue: "#0026E6"
+  brightMagenta: "#E600C7"
+  brightCyan: "#00C7E6"
+  brightWhite: "#FEFEFE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Light Springbok"
+  contrast:
+    fg: 87.8
+    black: 31.4
+    red: 33.4
+    green: 65.1
+    yellow: 70.6
+    blue: 25.5
+    magenta: 37
+    cyan: 60.7
+    white: 82.2
+    brightBlack: 50.8
+    brightRed: 31.3
+    brightGreen: 73.2
+    brightYellow: 76.8
+    brightBlue: 14.5
+    brightMagenta: 36.6
+    brightCyan: 63.4
+    brightWhite: 107.1

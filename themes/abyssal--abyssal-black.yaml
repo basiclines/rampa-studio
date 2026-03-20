@@ -1,0 +1,53 @@
+name: "Abyssal (Abyssal-Black)"
+source:
+  marketplace_id: "zen0x.abyssal"
+  version: "0.0.5"
+  installs: 43
+  rating: 0
+  ratings: 0
+  author: "zen0x"
+  repo: "https://github.com/zen0x00/abyssal-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zen0x.abyssal"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#FFFFFF"
+  black: "#0D0D0D"
+  red: "#A4A4A4"
+  green: "#B6B6B6"
+  yellow: "#CECECE"
+  blue: "#8D8D8D"
+  magenta: "#9B9B9B"
+  cyan: "#B0B0B0"
+  white: "#FFFFFF"
+  brightBlack: "#8D8D8D"
+  brightRed: "#A4A4A4"
+  brightGreen: "#B6B6B6"
+  brightYellow: "#CECECE"
+  brightBlue: "#8D8D8D"
+  brightMagenta: "#9B9B9B"
+  brightCyan: "#B0B0B0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: "Abyssal (Abyssal-E-Ink)"
+  contrast:
+    fg: 107.6
+    black: 0
+    red: 52.7
+    green: 62.6
+    yellow: 76.6
+    blue: 40.8
+    magenta: 48
+    cyan: 59.3
+    white: 107.6
+    brightBlack: 40.8
+    brightRed: 52.7
+    brightGreen: 62.6
+    brightYellow: 76.6
+    brightBlue: 40.8
+    brightMagenta: 48
+    brightCyan: 59.3
+    brightWhite: 107.6

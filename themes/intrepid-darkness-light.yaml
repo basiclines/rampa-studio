@@ -1,0 +1,53 @@
+name: "Intrepid Darkness Light"
+source:
+  marketplace_id: "KeineAhnung.intepriddarkness"
+  version: "1.9.2"
+  installs: 218
+  rating: 5
+  ratings: 1
+  author: "KeineAhnung"
+  repo: "https://github.com/TheKeineAhnung/Intrepid-Darkness"
+  url: "https://marketplace.visualstudio.com/items?itemName=KeineAhnung.intepriddarkness"
+  formats: null
+colors:
+  bg: "#F1F1F1"
+  fg: "#0F0F0F"
+  black: "#E9E5DE"
+  red: "#69FCC3"
+  green: "#AE3A74"
+  yellow: "#414ED4"
+  blue: "#DE690C"
+  magenta: "#32F074"
+  cyan: "#FE4030"
+  white: "#4B4B4B"
+  brightBlack: "#5F5541"
+  brightRed: "#00C5B7"
+  brightGreen: "#9C0C54"
+  brightYellow: "#1325CD"
+  brightBlue: "#FF3C00"
+  brightMagenta: "#00FF55"
+  brightCyan: "#FF1200"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: "Intrepid Darkness"
+  contrast:
+    fg: 97.2
+    black: 0
+    red: 0
+    green: 69.5
+    yellow: 73
+    blue: 52.7
+    magenta: 15.1
+    cyan: 52.7
+    white: 81.6
+    brightBlack: 77.2
+    brightRed: 33.7
+    brightGreen: 77.8
+    brightYellow: 82.3
+    brightBlue: 53
+    brightMagenta: 8.4
+    brightCyan: 55.6
+    brightWhite: 97.7

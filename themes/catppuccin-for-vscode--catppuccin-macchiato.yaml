@@ -1,0 +1,53 @@
+name: "Catppuccin for VSCode (Catppuccin Macchiato)"
+source:
+  marketplace_id: "Catppuccin.catppuccin-vsc"
+  version: "3.18.1"
+  installs: 1126745
+  rating: 4.96
+  ratings: 53
+  author: "Catppuccin"
+  repo: "https://github.com/catppuccin/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc"
+  formats: null
+colors:
+  bg: "#24273A"
+  fg: "#CAD3F5"
+  black: "#494D64"
+  red: "#ED8796"
+  green: "#A6DA95"
+  yellow: "#EED49F"
+  blue: "#8AADF4"
+  magenta: "#F5BDE6"
+  cyan: "#8BD5CA"
+  white: "#A5ADCB"
+  brightBlack: "#5B6078"
+  brightRed: "#EC7486"
+  brightGreen: "#8CCF7F"
+  brightYellow: "#E1C682"
+  brightBlue: "#78A1F6"
+  brightMagenta: "#F2A9DD"
+  brightCyan: "#63CBC0"
+  brightWhite: "#B8C0E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 277
+  pair: "Catppuccin for VSCode (Catppuccin Latte)"
+  contrast:
+    fg: 76.9
+    black: 10
+    red: 50.3
+    green: 72.3
+    yellow: 78.7
+    blue: 54.5
+    magenta: 73.3
+    cyan: 69.5
+    white: 54.8
+    brightBlack: 17.5
+    brightRed: 44.4
+    brightGreen: 64.3
+    brightYellow: 70.1
+    brightBlue: 48.6
+    brightMagenta: 65
+    brightCyan: 62
+    brightWhite: 65.7

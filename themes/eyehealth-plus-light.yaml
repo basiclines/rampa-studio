@@ -1,0 +1,53 @@
+name: "EyeHealth Plus Light"
+source:
+  marketplace_id: "jonathanhild.eyehealth"
+  version: "0.3.0"
+  installs: 5036
+  rating: 5
+  ratings: 2
+  author: "Jonathan Hildenbrand"
+  repo: "https://github.com/jonathanhild/eyehealth"
+  url: "https://marketplace.visualstudio.com/items?itemName=jonathanhild.eyehealth"
+  formats: null
+colors:
+  bg: "#FFFAE8"
+  fg: "#8D634A"
+  black: "#434A54"
+  red: "#DA4453"
+  green: "#37BC9B"
+  yellow: "#FF9800"
+  blue: "#4A89DC"
+  magenta: "#D770AD"
+  cyan: "#3BAFDA"
+  white: "#8CC152"
+  brightBlack: "#656D78"
+  brightRed: "#ED5565"
+  brightGreen: "#48CFAD"
+  brightYellow: "#FFB74D"
+  brightBlue: "#5D9CEC"
+  brightMagenta: "#EC87C0"
+  brightCyan: "#4FC1E9"
+  brightWhite: "#A0D468"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "EyeHealth Dark"
+  contrast:
+    fg: 72.8
+    black: 87.5
+    red: 65.2
+    green: 43.4
+    yellow: 38.8
+    blue: 59.8
+    magenta: 54.3
+    cyan: 46
+    white: 38.5
+    brightBlack: 72.9
+    brightRed: 58
+    brightGreen: 33.9
+    brightYellow: 28
+    brightBlue: 51
+    brightMagenta: 43.7
+    brightCyan: 37.1
+    brightWhite: 28.2

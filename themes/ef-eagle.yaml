@@ -1,0 +1,53 @@
+name: "Ef Eagle"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#F1ECD0"
+  fg: "#231A1F"
+  black: "#231A1F"
+  red: "#882000"
+  green: "#226022"
+  yellow: "#6B4500"
+  blue: "#113384"
+  magenta: "#822478"
+  cyan: "#125A7F"
+  white: "#E4DBC0"
+  brightBlack: "#685F53"
+  brightRed: "#9A0000"
+  brightGreen: "#3A7800"
+  brightYellow: "#843300"
+  brightBlue: "#3A3DA0"
+  brightMagenta: "#960F4F"
+  brightCyan: "#4A5D90"
+  brightWhite: "#F1ECD0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 99
+  pair: null
+  contrast:
+    fg: 92.1
+    black: 92.1
+    red: 78.5
+    green: 74.4
+    yellow: 77.2
+    blue: 84.1
+    magenta: 76.5
+    cyan: 74
+    white: 0
+    brightBlack: 69.5
+    brightRed: 75.9
+    brightGreen: 65
+    brightYellow: 76.9
+    brightBlue: 78.3
+    brightMagenta: 75.6
+    brightCyan: 70.2
+    brightWhite: 0

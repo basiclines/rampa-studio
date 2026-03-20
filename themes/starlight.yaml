@@ -1,0 +1,53 @@
+name: "StarLight"
+source:
+  marketplace_id: "D3W10.starlight"
+  version: "0.1.4"
+  installs: 515
+  rating: 0
+  ratings: 0
+  author: "D3W10"
+  repo: "https://github.com/D3W10/StarLight"
+  url: "https://marketplace.visualstudio.com/items?itemName=D3W10.starlight"
+  formats: null
+colors:
+  bg: "#170A1F"
+  fg: "#E5E5EA"
+  black: "#8E8E93"
+  red: "#FF3B30"
+  green: "#34C759"
+  yellow: "#FFCC00"
+  blue: "#007AFF"
+  magenta: "#AF52DE"
+  cyan: "#5AC8FA"
+  white: "#C7C7CC"
+  brightBlack: "#8E8E93"
+  brightRed: "#FF3B30"
+  brightGreen: "#34C759"
+  brightYellow: "#FFCC00"
+  brightBlue: "#007AFF"
+  brightMagenta: "#AF52DE"
+  brightCyan: "#5AC8FA"
+  brightWhite: "#E5E5EA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 311
+  pair: null
+  contrast:
+    fg: 90.8
+    black: 41.3
+    red: 39.9
+    green: 58.5
+    yellow: 79.1
+    blue: 34.7
+    magenta: 33.4
+    cyan: 66.2
+    white: 72.4
+    brightBlack: 41.3
+    brightRed: 39.9
+    brightGreen: 58.5
+    brightYellow: 79.1
+    brightBlue: 34.7
+    brightMagenta: 33.4
+    brightCyan: 66.2
+    brightWhite: 90.8

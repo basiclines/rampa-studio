@@ -1,0 +1,53 @@
+name: "Pantone Sand Dollar (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#1B1917"
+  fg: "#F6F1ED"
+  black: "#1B1917"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#778DA0"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#F6F1ED"
+  brightBlack: "#DECDBE"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#FCFBFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Sand Dollar (Light)"
+  contrast:
+    fg: 97.9
+    black: 0
+    red: 31.9
+    green: 51.5
+    yellow: 71.2
+    blue: 38.5
+    magenta: 32.9
+    cyan: 52.2
+    white: 97.9
+    brightBlack: 76.7
+    brightRed: 38.3
+    brightGreen: 58.8
+    brightYellow: 75.5
+    brightBlue: 28.5
+    brightMagenta: 41.6
+    brightCyan: 58.7
+    brightWhite: 104.1

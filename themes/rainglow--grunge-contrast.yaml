@@ -1,0 +1,53 @@
+name: "Rainglow (grunge-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0C0C0A"
+  fg: "#F8F8F2"
+  black: "#1A1A16"
+  red: "#BA0E2E"
+  green: "#D1F2A5"
+  yellow: "#F56991"
+  blue: "#FFC48C"
+  magenta: "#91A374"
+  cyan: "#FFC48C"
+  white: "#FFFFFF"
+  brightBlack: "#444438"
+  brightRed: "#F03E5F"
+  brightGreen: "#FFFFFE"
+  brightYellow: "#FBC9D7"
+  brightBlue: "#FFF8F2"
+  brightMagenta: "#C2CCB1"
+  brightCyan: "#FFF8F2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (grunge-light)"
+  contrast:
+    fg: 102.8
+    black: 0
+    red: 21.3
+    green: 92
+    yellow: 47.4
+    blue: 77.6
+    magenta: 48.8
+    cyan: 77.6
+    white: 107.7
+    brightBlack: 9.3
+    brightRed: 37.6
+    brightGreen: 107.6
+    brightYellow: 81.5
+    brightBlue: 103.8
+    brightMagenta: 73.2
+    brightCyan: 103.8
+    brightWhite: 107.7

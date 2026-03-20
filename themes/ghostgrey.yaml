@@ -1,0 +1,53 @@
+name: "GhostGrey"
+source:
+  marketplace_id: "gtocaia.theme-ghost"
+  version: "1.0.0"
+  installs: 678
+  rating: 0
+  ratings: 0
+  author: "gtocaia"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=gtocaia.theme-ghost"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#CCCCCC"
+  black: "#333333"
+  red: "#880000"
+  green: "#008800"
+  yellow: "#888800"
+  blue: "#000088"
+  magenta: "#880088"
+  cyan: "#008888"
+  white: "#AAAAAA"
+  brightBlack: "#555555"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 11
+    green: 30.2
+    yellow: 36.6
+    blue: 0
+    magenta: 14.4
+    cyan: 32.5
+    white: 56.2
+    brightBlack: 16.1
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 16.2
+    brightMagenta: 46.2
+    brightCyan: 92.2
+    brightWhite: 107.9

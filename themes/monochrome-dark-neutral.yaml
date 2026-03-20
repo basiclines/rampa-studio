@@ -1,0 +1,53 @@
+name: "monochrome-dark-neutral"
+source:
+  marketplace_id: "ccssmnn.monochrome-tailwind-colors"
+  version: "1.0.0"
+  installs: 1193
+  rating: 0
+  ratings: 0
+  author: "Carl Assmann"
+  repo: "https://github.com/ccssmnn/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=ccssmnn.monochrome-tailwind-colors"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#F5F5F5"
+  black: "#171717"
+  red: "#F5F5F5"
+  green: "#9C9C9C"
+  yellow: "#F5F5F5"
+  blue: "#707070"
+  magenta: "#F5F5F5"
+  cyan: "#C9C9C9"
+  white: "#F5F5F5"
+  brightBlack: "#434343"
+  brightRed: "#F5F5F5"
+  brightGreen: "#9C9C9C"
+  brightYellow: "#F5F5F5"
+  brightBlue: "#707070"
+  brightMagenta: "#F5F5F5"
+  brightCyan: "#C9C9C9"
+  brightWhite: "#F5F5F5"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: "monochrome-light-neutral"
+  contrast:
+    fg: 100.3
+    black: 0
+    red: 100.3
+    green: 47.7
+    yellow: 100.3
+    blue: 26.4
+    magenta: 100.3
+    cyan: 72.9
+    white: 100.3
+    brightBlack: 8.5
+    brightRed: 100.3
+    brightGreen: 47.7
+    brightYellow: 100.3
+    brightBlue: 26.4
+    brightMagenta: 100.3
+    brightCyan: 72.9
+    brightWhite: 100.3

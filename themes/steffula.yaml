@@ -1,0 +1,53 @@
+name: "Steffula"
+source:
+  marketplace_id: "steffo.steffula-code"
+  version: "0.15.2"
+  installs: 331
+  rating: 5
+  ratings: 1
+  author: "Stefano Pigozzi"
+  repo: "https://forge.steffo.eu/steffo/steffula-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=steffo.steffula-code"
+  formats: null
+colors:
+  bg: "#2B2B2B"
+  fg: "#A9B7C6"
+  black: "#000000"
+  red: "#F0524F"
+  green: "#5C962C"
+  yellow: "#A68A0D"
+  blue: "#3993D4"
+  magenta: "#A771BF"
+  cyan: "#00A3A3"
+  white: "#808080"
+  brightBlack: "#595959"
+  brightRed: "#FF4050"
+  brightGreen: "#4FC414"
+  brightYellow: "#E5BF00"
+  brightBlue: "#10B0FF"
+  brightMagenta: "#ED7EED"
+  brightCyan: "#00E5E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 58.5
+    black: 0
+    red: 36.3
+    green: 34.4
+    yellow: 36.9
+    blue: 37.3
+    magenta: 33.7
+    cyan: 40.4
+    white: 30.7
+    brightBlack: 13.7
+    brightRed: 37.3
+    brightGreen: 53.8
+    brightYellow: 66
+    brightBlue: 51
+    brightMagenta: 51.5
+    brightCyan: 73.6
+    brightWhite: 103.8

@@ -1,0 +1,53 @@
+name: "Rainglow (loyal)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#413E4F"
+  fg: "#BBB1C9"
+  black: "#4D495D"
+  red: "#BA0E2E"
+  green: "#3CBBB1"
+  yellow: "#EE4266"
+  blue: "#B3ADBA"
+  magenta: "#9484D6"
+  cyan: "#B3ADBA"
+  white: "#C8C0D3"
+  brightBlack: "#706B88"
+  brightRed: "#F03E5F"
+  brightGreen: "#85D8D1"
+  brightYellow: "#F6A0B2"
+  brightBlue: "#E6E4E9"
+  brightMagenta: "#D7D0EF"
+  brightCyan: "#E6E4E9"
+  brightWhite: "#F0EDF3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 293
+  pair: "Rainglow (loyal-light)"
+  contrast:
+    fg: 52.6
+    black: 0
+    red: 11.7
+    green: 46.3
+    yellow: 28.2
+    blue: 49.3
+    magenta: 32.6
+    cyan: 49.3
+    white: 60.7
+    brightBlack: 16.9
+    brightRed: 28
+    brightGreen: 64.5
+    brightYellow: 54.4
+    brightBlue: 81.1
+    brightMagenta: 70.7
+    brightCyan: 81.1
+    brightWhite: 87

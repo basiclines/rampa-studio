@@ -1,0 +1,53 @@
+name: "Pantone Indigo (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#040916"
+  fg: "#CACDD4"
+  black: "#040916"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#154187"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#CACDD4"
+  brightBlack: "#3F4A68"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F1F1F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 263
+  pair: "Pantone Indigo (Light)"
+  contrast:
+    fg: 76.1
+    black: 0
+    red: 33
+    green: 52.6
+    yellow: 72.3
+    blue: 10
+    magenta: 34
+    cyan: 53.3
+    white: 76.1
+    brightBlack: 12.1
+    brightRed: 39.4
+    brightGreen: 59.9
+    brightYellow: 76.7
+    brightBlue: 29.6
+    brightMagenta: 42.7
+    brightCyan: 59.9
+    brightWhite: 98.6

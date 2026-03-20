@@ -1,0 +1,53 @@
+name: "Montana"
+source:
+  marketplace_id: "NicotsouThemes.montana"
+  version: "0.3.3"
+  installs: 56
+  rating: 0
+  ratings: 0
+  author: "Nicos Tsourektsidis"
+  repo: "https://github.com/nicotsou/montana-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=NicotsouThemes.montana"
+  formats: null
+colors:
+  bg: "#0C0340"
+  fg: "#EDEDED"
+  black: "#868686"
+  red: "#A1381E"
+  green: "#B0C0AA"
+  yellow: "#EEE1C8"
+  blue: "#58729D"
+  magenta: "#FF1A6B"
+  cyan: "#11A8CD"
+  white: "#A0A2B0"
+  brightBlack: "#ABABAB"
+  brightRed: "#DD4D4D"
+  brightGreen: "#B0C0AA"
+  brightYellow: "#EFDFC6"
+  brightBlue: "#4B7FD1"
+  brightMagenta: "#C7255E"
+  brightCyan: "#29B8DB"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 95.2
+    black: 36.7
+    red: 18.6
+    green: 65
+    yellow: 88.4
+    blue: 27.1
+    magenta: 38.1
+    cyan: 47.7
+    white: 51.4
+    brightBlack: 55.9
+    brightRed: 34.4
+    brightGreen: 65
+    brightYellow: 87.5
+    brightBlue: 33.7
+    brightMagenta: 25.3
+    brightCyan: 55.5
+    brightWhite: 95.2

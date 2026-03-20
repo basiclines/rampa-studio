@@ -1,0 +1,53 @@
+name: "Dioximo Dark"
+source:
+  marketplace_id: "omisai.dioximo"
+  version: "1.0.3"
+  installs: 32
+  rating: 5
+  ratings: 1
+  author: "Omisai Technologies"
+  repo: "https://github.com/omisai-tech/dioximo"
+  url: "https://marketplace.visualstudio.com/items?itemName=omisai.dioximo"
+  formats: null
+colors:
+  bg: "#18181B"
+  fg: "#C6C6C8"
+  black: "#2B2B2F"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#3B82F6"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#C6C6C8"
+  brightBlack: "#3B3B3F"
+  brightRed: "#FF6B73"
+  brightGreen: "#9FD36B"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#C973FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: "Dioximo Light"
+  contrast:
+    fg: 71.1
+    black: 0
+    red: 36.6
+    green: 60.2
+    yellow: 48.5
+    blue: 36.6
+    magenta: 38.9
+    cyan: 52.4
+    white: 71.1
+    brightBlack: 0
+    brightRed: 48.1
+    brightGreen: 69.8
+    brightYellow: 61.1
+    brightBlue: 63.6
+    brightMagenta: 46.6
+    brightCyan: 67.7
+    brightWhite: 90.5

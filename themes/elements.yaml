@@ -1,0 +1,53 @@
+name: "Elements"
+source:
+  marketplace_id: "gordonhch.elements-vscode-theme"
+  version: "1.0.2"
+  installs: 6037
+  rating: 5
+  ratings: 1
+  author: "Gordon Ho"
+  repo: "https://github.com/gordonhch/elements-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gordonhch.elements-vscode-theme"
+  formats: null
+colors:
+  bg: "#0E151B"
+  fg: "#D6DEEB"
+  black: "#011624"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#F6BB42"
+  blue: "#4245F6"
+  magenta: "#CC30BF"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#F6BB42"
+  brightMagenta: "#CC30BF"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 245
+  pair: null
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 39.5
+    green: 67.5
+    yellow: 70.7
+    blue: 21.4
+    magenta: 31.6
+    cyan: 59.9
+    white: 107.1
+    brightBlack: 15.8
+    brightRed: 39.5
+    brightGreen: 67.5
+    brightYellow: 93.9
+    brightBlue: 70.7
+    brightMagenta: 31.6
+    brightCyan: 74.2
+    brightWhite: 107.1

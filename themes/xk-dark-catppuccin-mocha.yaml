@@ -1,0 +1,51 @@
+name: "XK Dark Catppuccin Mocha"
+source:
+  marketplace_id: "x1ngkong.vscode-xk-theme"
+  version: "0.1.0"
+  installs: 31
+  author: "x1ngkong"
+  repo: "https://github.com/x1ngkong/vscode-xk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=x1ngkong.vscode-xk-theme"
+  formats: null
+colors:
+  bg: "#1E1E2E"
+  fg: "#CDD6F4"
+  black: "#000000"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#FAB387"
+  blue: "#CBA6F7"
+  magenta: "#89B4FA"
+  cyan: "#89B4FA"
+  white: "#CDD6F4"
+  brightBlack: "#CDD6F4"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#FAB387"
+  brightBlue: "#CBA6F7"
+  brightMagenta: "#89B4FA"
+  brightCyan: "#89B4FA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 54.7
+    green: 78.3
+    yellow: 68.2
+    blue: 60.8
+    magenta: 59.1
+    cyan: 59.1
+    white: 80
+    brightBlack: 80
+    brightRed: 54.7
+    brightGreen: 78.3
+    brightYellow: 68.2
+    brightBlue: 60.8
+    brightMagenta: 59.1
+    brightCyan: 59.1
+    brightWhite: 105.8

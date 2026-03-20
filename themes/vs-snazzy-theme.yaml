@@ -1,0 +1,53 @@
+name: "VS Snazzy Theme"
+source:
+  marketplace_id: "xdae.vscode-snazzy-theme"
+  version: "0.1.0"
+  installs: 3070
+  rating: 5
+  ratings: 2
+  author: "jose miguel bejarano"
+  repo: "https://github.com/xDae/vscode-snazzy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xdae.vscode-snazzy-theme"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#EFF0EB"
+  black: "#282A36"
+  red: "#FF5C57"
+  green: "#5AF78E"
+  yellow: "#F3F99D"
+  blue: "#57C7FF"
+  magenta: "#FF6AC1"
+  cyan: "#9AEDFE"
+  white: "#F1F1F0"
+  brightBlack: "#686868"
+  brightRed: "#FF5C57"
+  brightGreen: "#5AF78E"
+  brightYellow: "#F3F99D"
+  brightBlue: "#57C7FF"
+  brightMagenta: "#FF6AC1"
+  brightCyan: "#9AEDFE"
+  brightWhite: "#EFF0EB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 93.7
+    black: 0
+    red: 41.7
+    green: 81.1
+    yellow: 95.8
+    blue: 62.5
+    magenta: 48
+    cyan: 84.1
+    white: 94.7
+    brightBlack: 19.9
+    brightRed: 41.7
+    brightGreen: 81.1
+    brightYellow: 95.8
+    brightBlue: 62.5
+    brightMagenta: 48
+    brightCyan: 84.1
+    brightWhite: 93.7

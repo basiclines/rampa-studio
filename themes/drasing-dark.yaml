@@ -1,0 +1,53 @@
+name: "Drasing Dark"
+source:
+  marketplace_id: "drasing.drasing-dark-theme"
+  version: "0.0.6"
+  installs: 13
+  rating: 0
+  ratings: 0
+  author: "drasing"
+  repo: "https://github.com/thiagoboize/drasing-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=drasing.drasing-dark-theme"
+  formats: null
+colors:
+  bg: "#101010"
+  fg: "#FFFFFF"
+  black: "#101010"
+  red: "#FF8080"
+  green: "#FFC799"
+  yellow: "#99FFE4"
+  blue: "#FFC799"
+  magenta: "#99FFE4"
+  cyan: "#FFC799"
+  white: "#FFFFFF"
+  brightBlack: "#505050"
+  brightRed: "#FF8080"
+  brightGreen: "#FFC799"
+  brightYellow: "#99FFE4"
+  brightBlue: "#FFC799"
+  brightMagenta: "#99FFE4"
+  brightCyan: "#FFC799"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 54.3
+    green: 78.9
+    yellow: 95.2
+    blue: 78.9
+    magenta: 95.2
+    cyan: 78.9
+    white: 107.4
+    brightBlack: 13.8
+    brightRed: 54.3
+    brightGreen: 78.9
+    brightYellow: 95.2
+    brightBlue: 78.9
+    brightMagenta: 95.2
+    brightCyan: 78.9
+    brightWhite: 107.4

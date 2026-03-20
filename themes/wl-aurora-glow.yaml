@@ -1,0 +1,53 @@
+name: "WL-Aurora Glow"
+source:
+  marketplace_id: "WatkinsLabs.aurora-glow"
+  version: "1.0.1"
+  installs: 41
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.aurora-glow"
+  formats: null
+colors:
+  bg: "#001C1E"
+  fg: "#D1FDF6"
+  black: "#000000"
+  red: "#F75050"
+  green: "#60F2A5"
+  yellow: "#F9C846"
+  blue: "#45E8B8"
+  magenta: "#28E0AA"
+  cyan: "#45E8B8"
+  white: "#D1FDF6"
+  brightBlack: "#666666"
+  brightRed: "#F75050"
+  brightGreen: "#60F2A5"
+  brightYellow: "#F9C846"
+  brightBlue: "#45E8B8"
+  brightMagenta: "#28E0AA"
+  brightCyan: "#45E8B8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 201
+  pair: null
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 40.4
+    green: 82.1
+    yellow: 75.9
+    blue: 76.7
+    magenta: 71.6
+    cyan: 76.7
+    white: 99.4
+    brightBlack: 21.8
+    brightRed: 40.4
+    brightGreen: 82.1
+    brightYellow: 75.9
+    brightBlue: 76.7
+    brightMagenta: 71.6
+    brightCyan: 76.7
+    brightWhite: 106.6

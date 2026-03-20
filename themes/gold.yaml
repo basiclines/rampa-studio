@@ -1,0 +1,53 @@
+name: "gold"
+source:
+  marketplace_id: "natecrow.consonance-themes"
+  version: "1.2.0"
+  installs: 317
+  rating: 0
+  ratings: 0
+  author: "natecrow"
+  repo: "https://github.com/natecrow/consonance-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=natecrow.consonance-themes"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#B1CCCF"
+  black: "#000000"
+  red: "#D1C6A1"
+  green: "#B19C3F"
+  yellow: "#DCC566"
+  blue: "#637C7F"
+  magenta: "#887616"
+  cyan: "#A89D7A"
+  white: "#CDE8EB"
+  brightBlack: "#637C7F"
+  brightRed: "#D1C6A1"
+  brightGreen: "#B19C3F"
+  brightYellow: "#DCC566"
+  brightBlue: "#637C7F"
+  brightMagenta: "#887616"
+  brightCyan: "#A89D7A"
+  brightWhite: "#E9FFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.2
+    black: 0
+    red: 71.7
+    green: 48.6
+    yellow: 71.4
+    blue: 30.3
+    magenta: 29.9
+    cyan: 48.9
+    white: 89.2
+    brightBlack: 30.3
+    brightRed: 71.7
+    brightGreen: 48.6
+    brightYellow: 71.4
+    brightBlue: 30.3
+    brightMagenta: 29.9
+    brightCyan: 48.9
+    brightWhite: 104.4

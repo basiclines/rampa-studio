@@ -1,0 +1,53 @@
+name: "Gothic"
+source:
+  marketplace_id: "ryoh827.gothic-theme-vscode"
+  version: "0.0.2"
+  installs: 171
+  rating: 0
+  ratings: 0
+  author: "ryoh827"
+  repo: "https://github.com/Ryoh827/gothic-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ryoh827.gothic-theme-vscode"
+  formats: null
+colors:
+  bg: "#3B3B3B"
+  fg: "#F2F2F2"
+  black: "#1B1B1B"
+  red: "#FF948A"
+  green: "#A7FF9D"
+  yellow: "#FFFF00"
+  blue: "#B3D8FF"
+  magenta: "#E599FF"
+  cyan: "#C1FFFD"
+  white: "#BDBDBD"
+  brightBlack: "#2B2B2B"
+  brightRed: "#FF948A"
+  brightGreen: "#A7FF9D"
+  brightYellow: "#FFFF00"
+  brightBlue: "#B3D8FF"
+  brightMagenta: "#E599FF"
+  brightCyan: "#C1FFFD"
+  brightWhite: "#F2F2F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.1
+    black: 0
+    red: 52.5
+    green: 86.1
+    yellow: 94.5
+    blue: 72.4
+    magenta: 54.8
+    cyan: 92.1
+    white: 58.7
+    brightBlack: 0
+    brightRed: 52.5
+    brightGreen: 86.1
+    brightYellow: 94.5
+    brightBlue: 72.4
+    brightMagenta: 54.8
+    brightCyan: 92.1
+    brightWhite: 91.1

@@ -1,0 +1,53 @@
+name: "New Wave Theme"
+source:
+  marketplace_id: "Fdiazg.new-wave-theme"
+  version: "0.0.2"
+  installs: 98
+  rating: 0
+  ratings: 0
+  author: "Fdiazg"
+  repo: "https://github.com/Fdiazg/new-wave-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Fdiazg.new-wave-theme"
+  formats: null
+colors:
+  bg: "#262335"
+  fg: "#EEFFFF"
+  black: "#1C1A29"
+  red: "#FE4450"
+  green: "#72F1B8"
+  yellow: "#F3E70F"
+  blue: "#8096EC"
+  magenta: "#C74DED"
+  cyan: "#2BC9C6"
+  white: "#DCE3EB"
+  brightBlack: "#464364"
+  brightRed: "#FE627E"
+  brightGreen: "#A4F9C9"
+  brightYellow: "#E2A739"
+  brightBlue: "#A6C1FF"
+  brightMagenta: "#DD76FF"
+  brightCyan: "#8DF8FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 102.6
+    black: 0
+    red: 38.6
+    green: 81.3
+    yellow: 86.6
+    blue: 45
+    magenta: 35.3
+    cyan: 60
+    white: 86.2
+    brightBlack: 7.8
+    brightRed: 44.5
+    brightGreen: 89.4
+    brightYellow: 57.5
+    brightBlue: 66.4
+    brightMagenta: 48.8
+    brightCyan: 89.6
+    brightWhite: 104.9

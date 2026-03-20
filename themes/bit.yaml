@@ -1,0 +1,53 @@
+name: "Bit"
+source:
+  marketplace_id: "bit-theme.bit-theme"
+  version: "1.0.4"
+  installs: 1062
+  rating: 5
+  ratings: 1
+  author: "Bit Theme"
+  repo: "https://github.com/bit-theme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=bit-theme.bit-theme"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#E2E2E2"
+  black: "#121212"
+  red: "#F55258"
+  green: "#41B883"
+  yellow: "#F4F564"
+  blue: "#79B4E2"
+  magenta: "#E25698"
+  cyan: "#50CCD0"
+  white: "#E2E2E2"
+  brightBlack: "#555555"
+  brightRed: "#FB3F3F"
+  brightGreen: "#41B847"
+  brightYellow: "#F7E100"
+  brightBlue: "#63A4DD"
+  brightMagenta: "#E14985"
+  brightCyan: "#45C2CA"
+  brightWhite: "#FEFEFE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.1
+    black: 0
+    red: 40.6
+    green: 52.3
+    yellow: 95.8
+    blue: 57.4
+    magenta: 39
+    cyan: 64.8
+    white: 88.1
+    brightBlack: 15.1
+    brightRed: 39
+    brightGreen: 51.1
+    brightYellow: 86.4
+    brightBlue: 49.2
+    brightMagenta: 36
+    brightCyan: 59.6
+    brightWhite: 106.2

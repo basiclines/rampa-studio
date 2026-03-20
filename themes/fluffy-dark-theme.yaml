@@ -1,0 +1,53 @@
+name: "Fluffy Dark Theme"
+source:
+  marketplace_id: "ayakoSky.fluffy-dark-theme"
+  version: "0.0.6"
+  installs: 16574
+  rating: 5
+  ratings: 5
+  author: "ayako"
+  repo: "https://github.com/ayako02/fluff-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ayakoSky.fluffy-dark-theme"
+  formats: null
+colors:
+  bg: "#263238"
+  fg: "#FF9EB5"
+  black: "#333333"
+  red: "#CF426F"
+  green: "#318B8C"
+  yellow: "#F6EFA7"
+  blue: "#4B83CD"
+  magenta: "#888CCC"
+  cyan: "#9DDBD6"
+  white: "#72696F"
+  brightBlack: "#444343"
+  brightRed: "#E27B7B"
+  brightGreen: "#58BBBD"
+  brightYellow: "#F3D36B"
+  brightBlue: "#78B1FC"
+  brightMagenta: "#DB81CC"
+  brightCyan: "#B2E6E1"
+  brightWhite: "#978C94"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 230
+  pair: "Fluffy Theme"
+  contrast:
+    fg: 60.2
+    black: 0
+    red: 26.2
+    green: 29.1
+    yellow: 90.5
+    blue: 30.5
+    magenta: 38
+    cyan: 72.6
+    white: 20.2
+    brightBlack: 0
+    brightRed: 42.3
+    brightGreen: 52.4
+    brightYellow: 76.2
+    brightBlue: 53.6
+    brightMagenta: 45.9
+    brightCyan: 80.2
+    brightWhite: 36.9

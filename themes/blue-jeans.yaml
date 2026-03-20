@@ -1,0 +1,53 @@
+name: "Blue Jeans"
+source:
+  marketplace_id: "victorseara.blue-jeans"
+  version: "0.0.1"
+  installs: 198
+  rating: 0
+  ratings: 0
+  author: "victorseara"
+  repo: "https://github.com/victorseara/blue-jeans-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=victorseara.blue-jeans"
+  formats: null
+colors:
+  bg: "#2B2A33"
+  fg: "#D7D7DB"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FBFBFE"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 290
+  pair: null
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 23.7
+    green: 50
+    yellow: 82.6
+    blue: 24.4
+    magenta: 26.7
+    cyan: 44.5
+    white: 101.4
+    brightBlack: 19
+    brightRed: 35.5
+    brightGreen: 60.5
+    brightYellow: 92.6
+    brightBlue: 37
+    brightMagenta: 42.4
+    brightCyan: 52.4
+    brightWhite: 103.9

@@ -1,0 +1,53 @@
+name: "vscode-pink-and-puple-theme"
+source:
+  marketplace_id: "KelsonCarvalho.vscode-pink-and-puple-theme"
+  version: "2.0.0"
+  installs: 1130
+  rating: 0
+  ratings: 0
+  author: "Kelson Carvalho"
+  repo: "https://github.com/NoslekCode/vscode-pink-and-puple-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=KelsonCarvalho.vscode-pink-and-puple-theme"
+  formats: null
+colors:
+  bg: "#563760"
+  fg: "#D4D4D4"
+  black: "#FB005E"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C5C"
+  brightRed: "#B9B9B9"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 318
+  pair: null
+  contrast:
+    fg: 69.7
+    black: 26.6
+    red: 16.9
+    green: 43.2
+    yellow: 75.8
+    blue: 17.6
+    magenta: 20
+    cyan: 37.8
+    white: 97.1
+    brightBlack: 8.1
+    brightRed: 53.8
+    brightGreen: 53.8
+    brightYellow: 85.9
+    brightBlue: 30.2
+    brightMagenta: 35.6
+    brightCyan: 45.6
+    brightWhite: 97.1

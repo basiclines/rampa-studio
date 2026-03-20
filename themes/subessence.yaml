@@ -1,0 +1,53 @@
+name: "Subessence"
+source:
+  marketplace_id: "vinhphm.subessence"
+  version: "0.1.6"
+  installs: 309
+  rating: 5
+  ratings: 2
+  author: "Vinh Pham"
+  repo: "https://github.com/vinhphm/subessence"
+  url: "https://marketplace.visualstudio.com/items?itemName=vinhphm.subessence"
+  formats: null
+colors:
+  bg: "#232830"
+  fg: "#D4D4D4"
+  black: "#252A33"
+  red: "#FFA5C3"
+  green: "#95E5A6"
+  yellow: "#FFDFA5"
+  blue: "#8CD8D8"
+  magenta: "#FFA5C3"
+  cyan: "#8CD8D8"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#FFA5C3"
+  brightGreen: "#95E5A6"
+  brightYellow: "#FFDFA5"
+  brightBlue: "#8CD8D8"
+  brightMagenta: "#FFA5C3"
+  brightCyan: "#8CD8D8"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 77.1
+    black: 0
+    red: 64.9
+    green: 76.7
+    yellow: 86.4
+    blue: 71.7
+    magenta: 64.9
+    cyan: 71.7
+    white: 77.1
+    brightBlack: 30.9
+    brightRed: 64.9
+    brightGreen: 76.7
+    brightYellow: 86.4
+    brightBlue: 71.7
+    brightMagenta: 64.9
+    brightCyan: 71.7
+    brightWhite: 77.1

@@ -1,0 +1,53 @@
+name: "digitaliss Light"
+source:
+  marketplace_id: "dgtlss.digitaliss"
+  version: "2.0.2"
+  installs: 122
+  rating: 0
+  ratings: 0
+  author: "dgtlss"
+  repo: "https://github.com/dgtlss/digitaliss"
+  url: "https://marketplace.visualstudio.com/items?itemName=dgtlss.digitaliss"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#4A4A4A"
+  black: "#383A42"
+  red: "#E45649"
+  green: "#44A14F"
+  yellow: "#C18401"
+  blue: "#4078F2"
+  magenta: "#A626A4"
+  cyan: "#0997B3"
+  white: "#F0F0F3"
+  brightBlack: "#A0A1A7"
+  brightRed: "#E45649"
+  brightGreen: "#50A14F"
+  brightYellow: "#C18401"
+  brightBlue: "#5589F5"
+  brightMagenta: "#A626A4"
+  brightCyan: "#0184BC"
+  brightWhite: "#383A42"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "digitaliss"
+  contrast:
+    fg: 87.3
+    black: 93.2
+    red: 60.4
+    green: 56.5
+    yellow: 55.8
+    blue: 64.3
+    magenta: 76.2
+    cyan: 58.5
+    white: 0
+    brightBlack: 47.4
+    brightRed: 60.4
+    brightGreen: 56
+    brightYellow: 55.8
+    brightBlue: 57.6
+    brightMagenta: 76.2
+    brightCyan: 65.1
+    brightWhite: 93.2

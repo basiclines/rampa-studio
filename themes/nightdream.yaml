@@ -1,0 +1,53 @@
+name: "Nightdream"
+source:
+  marketplace_id: "mrheio.nightdream"
+  version: "0.3.1"
+  installs: 52
+  rating: 0
+  ratings: 0
+  author: "mrheio"
+  repo: "https://github.com/masterodi/nightdream-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mrheio.nightdream"
+  formats: null
+colors:
+  bg: "#20232F"
+  fg: "#DFE6FF"
+  black: "#1B1E28"
+  red: "#D0679D"
+  green: "#5DE4C7"
+  yellow: "#FFFAC2"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#A6ACCD"
+  brightRed: "#D0679D"
+  brightGreen: "#5DE4C7"
+  brightYellow: "#FFFAC2"
+  brightBlue: "#ADD7FF"
+  brightMagenta: "#F087BD"
+  brightCyan: "#ADD7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 89.3
+    black: 0
+    red: 37.6
+    green: 74.7
+    yellow: 100.4
+    blue: 76.6
+    magenta: 53.2
+    cyan: 76.6
+    white: 105.2
+    brightBlack: 55.5
+    brightRed: 37.6
+    brightGreen: 74.7
+    brightYellow: 100.4
+    brightBlue: 76.9
+    brightMagenta: 53.2
+    brightCyan: 76.9
+    brightWhite: 105.2

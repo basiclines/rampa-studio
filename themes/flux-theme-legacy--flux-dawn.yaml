@@ -1,0 +1,53 @@
+name: "Flux Theme (Legacy) (Flux Dawn)"
+source:
+  marketplace_id: "CrappyCodeMaker.crappycode-theme"
+  version: "2.3.5"
+  installs: 1207
+  rating: 5
+  ratings: 2
+  author: "Danil_Reznichenko_(Legacy)"
+  repo: "https://github.com/danilrez/flux-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#B36F4D"
+  black: "#E2875A"
+  red: "#F50A51"
+  green: "#04D279"
+  yellow: "#FDA92B"
+  blue: "#2B94FD"
+  magenta: "#FD2BEF"
+  cyan: "#05E1FA"
+  white: "#FEEBE2"
+  brightBlack: "#F99B6C"
+  brightRed: "#F73B73"
+  brightGreen: "#35DE95"
+  brightYellow: "#FDB953"
+  brightBlue: "#53A8FD"
+  brightMagenta: "#FD53F2"
+  brightCyan: "#35E9FD"
+  brightWhite: "#FEF8F5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Flux Theme (Legacy) (Flux Night)"
+  contrast:
+    fg: 66.8
+    black: 51.7
+    red: 66
+    green: 38
+    yellow: 36.6
+    blue: 57.5
+    magenta: 56.1
+    cyan: 26.2
+    white: 0
+    brightBlack: 41.2
+    brightRed: 62.1
+    brightGreen: 31.3
+    brightYellow: 30.7
+    brightBlue: 48.9
+    brightMagenta: 51.7
+    brightCyan: 22
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Plane"
+source:
+  marketplace_id: "Planetheme.plane-theme"
+  version: "4.18.0"
+  installs: 425
+  rating: 5
+  ratings: 2
+  author: "Plane theme"
+  repo: "https://github.com/wfpaisa/plane-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Planetheme.plane-theme"
+  formats: null
+colors:
+  bg: "#222635"
+  fg: "#FFFFFF"
+  black: "#7A7A7A"
+  red: "#FF84BD"
+  green: "#72F9C8"
+  yellow: "#FFF6B5"
+  blue: "#8EDFFF"
+  magenta: "#BDA2E8"
+  cyan: "#8EDFFF"
+  white: "#FFFFFF"
+  brightBlack: "#9A9A9A"
+  brightRed: "#FF1A72"
+  brightGreen: "#37E888"
+  brightYellow: "#FFEF7C"
+  brightBlue: "#2990FA"
+  brightMagenta: "#8750DE"
+  brightCyan: "#2990FA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 273
+  pair: null
+  contrast:
+    fg: 104.7
+    black: 28.7
+    red: 54.8
+    green: 85.8
+    yellow: 97.5
+    blue: 77.4
+    magenta: 55.5
+    cyan: 77.4
+    white: 104.7
+    brightBlack: 44.5
+    brightRed: 36
+    brightGreen: 73
+    brightYellow: 92.8
+    brightBlue: 39.3
+    brightMagenta: 24.7
+    brightCyan: 39.3
+    brightWhite: 104.7

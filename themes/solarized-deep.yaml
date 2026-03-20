@@ -1,0 +1,54 @@
+name: "Solarized Deep"
+source:
+  marketplace_id: "j4rviscmd.solarized-deep"
+  version: "0.1.4"
+  installs: 47
+  rating: 5
+  ratings: 1
+  author: "j4rviscmd"
+  repo: "https://github.com/j4rviscmd/vscode-theme-solarized-deep"
+  url: "https://marketplace.visualstudio.com/items?itemName=j4rviscmd.solarized-deep"
+  formats:
+    zed: "https://raw.githubusercontent.com/j4rviscmd/vscode-theme-solarized-deep/main/themes/solarized-deep-color-theme.json"
+colors:
+  bg: "#000A0F"
+  fg: "#93A1A1"
+  black: "#021B26"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#586E75"
+  brightRed: "#DC322F"
+  brightGreen: "#859900"
+  brightYellow: "#B58900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#D33682"
+  brightCyan: "#2AA198"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 222
+  pair: null
+  contrast:
+    fg: 49.8
+    black: 0
+    red: 31
+    green: 42.6
+    yellow: 42.5
+    blue: 37.6
+    magenta: 31.3
+    cyan: 43.3
+    white: 92.8
+    brightBlack: 24.8
+    brightRed: 31
+    brightGreen: 42.6
+    brightYellow: 42.5
+    brightBlue: 37.6
+    brightMagenta: 31.3
+    brightCyan: 43.3
+    brightWhite: 102

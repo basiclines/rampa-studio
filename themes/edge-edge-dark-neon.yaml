@@ -1,0 +1,53 @@
+name: "Edge (Edge Dark (Neon))"
+source:
+  marketplace_id: "sainnhe.edge"
+  version: "0.1.8"
+  installs: 20566
+  rating: 5
+  ratings: 2
+  author: "sainnhe"
+  repo: "https://github.com/sainnhe/edge-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.edge"
+  formats: null
+colors:
+  bg: "#2B2D3A"
+  fg: "#C5CDD9"
+  black: "#363A4E"
+  red: "#EC7279"
+  green: "#A0C980"
+  yellow: "#DEB974"
+  blue: "#6CB6EB"
+  magenta: "#D38AEA"
+  cyan: "#5DBBC1"
+  white: "#C5CDD9"
+  brightBlack: "#363A4E"
+  brightRed: "#EC7279"
+  brightGreen: "#A0C980"
+  brightYellow: "#DEB974"
+  brightBlue: "#6CB6EB"
+  brightMagenta: "#D38AEA"
+  brightCyan: "#5DBBC1"
+  brightWhite: "#C5CDD9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 71.2
+    black: 0
+    red: 42.4
+    green: 62.3
+    yellow: 62.9
+    blue: 54.3
+    magenta: 49.5
+    cyan: 53.4
+    white: 71.2
+    brightBlack: 0
+    brightRed: 42.4
+    brightGreen: 62.3
+    brightYellow: 62.9
+    brightBlue: 54.3
+    brightMagenta: 49.5
+    brightCyan: 53.4
+    brightWhite: 71.2

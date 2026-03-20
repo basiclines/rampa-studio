@@ -1,0 +1,53 @@
+name: "Nightdream Monokai"
+source:
+  marketplace_id: "mrheio.nightdream"
+  version: "0.3.1"
+  installs: 52
+  rating: 0
+  ratings: 0
+  author: "mrheio"
+  repo: "https://github.com/masterodi/nightdream-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mrheio.nightdream"
+  formats: null
+colors:
+  bg: "#282A39"
+  fg: "#FFFFFF"
+  black: "#1B1E28"
+  red: "#D0679D"
+  green: "#5DE4C7"
+  yellow: "#FFFAC2"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#A6ACCD"
+  brightRed: "#D0679D"
+  brightGreen: "#5DE4C7"
+  brightYellow: "#FFFAC2"
+  brightBlue: "#ADD7FF"
+  brightMagenta: "#F087BD"
+  brightCyan: "#ADD7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 0
+    red: 36.2
+    green: 73.4
+    yellow: 99
+    blue: 75.2
+    magenta: 51.9
+    cyan: 75.2
+    white: 103.9
+    brightBlack: 54.1
+    brightRed: 36.2
+    brightGreen: 73.4
+    brightYellow: 99
+    brightBlue: 75.5
+    brightMagenta: 51.9
+    brightCyan: 75.5
+    brightWhite: 103.9

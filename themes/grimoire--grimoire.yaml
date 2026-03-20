@@ -1,0 +1,53 @@
+name: "Grimoire (Grimoire)"
+source:
+  marketplace_id: "NathanEdwards.grimoire"
+  version: "0.1.0"
+  installs: 1038
+  rating: 5
+  ratings: 2
+  author: "Nathan Edwards"
+  repo: "https://github.com/nathan-edwards/grimoire"
+  url: "https://marketplace.visualstudio.com/items?itemName=NathanEdwards.grimoire"
+  formats: null
+colors:
+  bg: "#252134"
+  fg: "#E0DCE8"
+  black: "#302F3D"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#B6B3CC"
+  brightBlack: "#504E65"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#C5C2D6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 293
+  pair: null
+  contrast:
+    fg: 83.8
+    black: 0
+    red: 38.8
+    green: 75.3
+    yellow: 65.3
+    blue: 50.3
+    magenta: 43.9
+    cyan: 68.8
+    white: 60
+    brightBlack: 11.6
+    brightRed: 44.1
+    brightGreen: 77.5
+    brightYellow: 52.2
+    brightBlue: 55.6
+    brightMagenta: 56.3
+    brightCyan: 72.2
+    brightWhite: 68.3

@@ -1,0 +1,53 @@
+name: "Eidolon Less Dark"
+source:
+  marketplace_id: "eidolon.eidolon-theme"
+  version: "4.0.8"
+  installs: 110
+  rating: 0
+  ratings: 0
+  author: "Eurico Magalhães Neto"
+  repo: "https://github.com/Eurico77/eidolon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eidolon.eidolon-theme"
+  formats: null
+colors:
+  bg: "#1D1D2F"
+  fg: "#DADDFF"
+  black: "#222236"
+  red: "#BD4277"
+  green: "#74D2B7"
+  yellow: "#E5DCA4"
+  blue: "#87BFF7"
+  magenta: "#9486E4"
+  cyan: "#9BE9F8"
+  white: "#D4D7FF"
+  brightBlack: "#4F5071"
+  brightRed: "#BF4A7F"
+  brightGreen: "#7ED7C0"
+  brightYellow: "#ECDFAC"
+  brightBlue: "#8FC8FA"
+  brightMagenta: "#9F95E9"
+  brightCyan: "#AAECF8"
+  brightWhite: "#DADDFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 85.4
+    black: 0
+    red: 26.1
+    green: 67.3
+    yellow: 82.6
+    blue: 63.4
+    magenta: 42
+    cyan: 83.9
+    white: 82
+    brightBlack: 13.3
+    brightRed: 28
+    brightGreen: 70.7
+    brightYellow: 85.2
+    brightBlue: 68
+    brightMagenta: 48.6
+    brightCyan: 86.7
+    brightWhite: 85.4

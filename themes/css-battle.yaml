@@ -1,0 +1,53 @@
+name: "CSS Battle"
+source:
+  marketplace_id: "JamesGulland.solar-storm-dark-theme"
+  version: "0.1.0"
+  installs: 179
+  rating: 0
+  ratings: 0
+  author: "James Gulland"
+  repo: "https://github.com/james-gulland/solar-storm-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.solar-storm-dark-theme"
+  formats: null
+colors:
+  bg: "#101219"
+  fg: "#86819C"
+  black: "#101219"
+  red: "#FB7186"
+  green: "#A3E2D3"
+  yellow: "#FFCC99"
+  blue: "#9A86FD"
+  magenta: "#9A86FD"
+  cyan: "#A3E2D3"
+  white: "#EEEBFF"
+  brightBlack: "#86819C"
+  brightRed: "#FB7186"
+  brightGreen: "#A3E2D3"
+  brightYellow: "#FFCC99"
+  brightBlue: "#9A86FD"
+  brightMagenta: "#9A86FD"
+  brightCyan: "#A3E2D3"
+  brightWhite: "#EEEBFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 36.2
+    black: 0
+    red: 49.7
+    green: 80.9
+    yellow: 80.8
+    blue: 45.9
+    magenta: 45.9
+    cyan: 80.9
+    white: 95.6
+    brightBlack: 36.2
+    brightRed: 49.7
+    brightGreen: 80.9
+    brightYellow: 80.8
+    brightBlue: 45.9
+    brightMagenta: 45.9
+    brightCyan: 80.9
+    brightWhite: 95.6

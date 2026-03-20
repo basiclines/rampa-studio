@@ -1,0 +1,53 @@
+name: "Sizo Purple"
+source:
+  marketplace_id: "Sizo.sizo-purple"
+  version: "1.0.3"
+  installs: 48
+  rating: 0
+  ratings: 0
+  author: "Sizo"
+  repo: "https://github.com/sizoroot/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sizo.sizo-purple"
+  formats: null
+colors:
+  bg: "#151517"
+  fg: "#CBCBCB"
+  black: "#000000"
+  red: "#E23737"
+  green: "#47C4A7"
+  yellow: "#FFD738"
+  blue: "#2D91FF"
+  magenta: "#CB6FFF"
+  cyan: "#2BD5FF"
+  white: "#E8E8E8"
+  brightBlack: "#585858"
+  brightRed: "#FF5C5C"
+  brightGreen: "#77FFC8"
+  brightYellow: "#FFDE79"
+  brightBlue: "#6EB3FF"
+  brightMagenta: "#DDA2FF"
+  brightCyan: "#66E1FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.2
+    black: 0
+    red: 32.3
+    green: 59.3
+    yellow: 83.6
+    blue: 42.5
+    magenta: 46.2
+    cyan: 70.8
+    white: 92.1
+    brightBlack: 16.5
+    brightRed: 44.9
+    brightGreen: 91.5
+    brightYellow: 87.4
+    brightBlue: 58.3
+    brightMagenta: 63.8
+    brightCyan: 78.3
+    brightWhite: 107

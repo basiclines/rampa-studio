@@ -1,0 +1,53 @@
+name: "Joker Neon"
+source:
+  marketplace_id: "fidelp27.joker-neon-theme"
+  version: "1.0.1"
+  installs: 271
+  rating: 0
+  ratings: 0
+  author: "fidelp27"
+  repo: "https://github.com/fidelp27/joker-neon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=fidelp27.joker-neon-theme"
+  formats: null
+colors:
+  bg: "#0A0514"
+  fg: "#E8E4F0"
+  black: "#0A0514"
+  red: "#FF1E8C"
+  green: "#00FF41"
+  yellow: "#FFED4E"
+  blue: "#BF00FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#E8E4F0"
+  brightBlack: "#4A2961"
+  brightRed: "#FF3DA1"
+  brightGreen: "#39FF6D"
+  brightYellow: "#FFF176"
+  brightBlue: "#D633FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 299
+  pair: null
+  contrast:
+    fg: 91.4
+    black: 0
+    red: 40.1
+    green: 86.6
+    yellow: 94.3
+    blue: 32.9
+    magenta: 46.1
+    cyan: 92.1
+    white: 91.4
+    brightBlack: 0
+    brightRed: 43.2
+    brightGreen: 87.6
+    brightYellow: 96.7
+    brightBlue: 39.2
+    brightMagenta: 54.7
+    brightCyan: 93.9
+    brightWhite: 107.8

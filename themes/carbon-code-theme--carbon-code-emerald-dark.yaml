@@ -1,0 +1,53 @@
+name: "Carbon Code Theme (Carbon Code Emerald Dark)"
+source:
+  marketplace_id: "sazardev.carbon-code-theme"
+  version: "1.2.0"
+  installs: 904
+  rating: 5
+  ratings: 1
+  author: "sazardev"
+  repo: "https://github.com/sazardev/sazardev-minimal-brutal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sazardev.carbon-code-theme"
+  formats: null
+colors:
+  bg: "#0E110E"
+  fg: "#E6E6E6"
+  black: "#000000"
+  red: "#FF0055"
+  green: "#00FF88"
+  yellow: "#FFDD00"
+  blue: "#0088FF"
+  magenta: "#FF00DD"
+  cyan: "#00FFDD"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#FF3377"
+  brightGreen: "#33FFAA"
+  brightYellow: "#FFEE33"
+  brightBlue: "#3399FF"
+  brightMagenta: "#FF33EE"
+  brightCyan: "#33FFEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Carbon Code Theme (Carbon Code Emerald Light)"
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 37.7
+    green: 87.3
+    yellow: 86.4
+    blue: 39.3
+    magenta: 43.3
+    cyan: 90.1
+    white: 107.4
+    brightBlack: 0
+    brightRed: 40.4
+    brightGreen: 88.6
+    brightYellow: 94.2
+    brightBlue: 46
+    brightMagenta: 46.2
+    brightCyan: 91.2
+    brightWhite: 107.4

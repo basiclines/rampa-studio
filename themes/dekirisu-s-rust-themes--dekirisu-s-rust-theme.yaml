@@ -1,0 +1,53 @@
+name: "Dekirisu's Rust Themes (Dekirisu's Rust Theme)"
+source:
+  marketplace_id: "dekirisu.dekirisu-rust-themes"
+  version: "0.0.1"
+  installs: 3901
+  rating: 5
+  ratings: 3
+  author: "Dekirisu"
+  repo: "https://github.com/dekirisu/vscode-rust-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=dekirisu.dekirisu-rust-themes"
+  formats: null
+colors:
+  bg: "#101316"
+  fg: "#C3C6CB"
+  black: "#101316"
+  red: "#E35535"
+  green: "#00A884"
+  yellow: "#5AD8B2"
+  blue: "#11B7D4"
+  magenta: "#D46EC0"
+  cyan: "#5AD8B2"
+  white: "#C3C6CB"
+  brightBlack: "#11B7D4"
+  brightRed: "#E35535"
+  brightGreen: "#00A884"
+  brightYellow: "#5AD8B2"
+  brightBlue: "#11B7D4"
+  brightMagenta: "#D46EC0"
+  brightCyan: "#5AD8B2"
+  brightWhite: "#C3C6CB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 71.3
+    black: 0
+    red: 37.1
+    green: 44.8
+    yellow: 70
+    blue: 54.7
+    magenta: 43.7
+    cyan: 70
+    white: 71.3
+    brightBlack: 54.7
+    brightRed: 37.1
+    brightGreen: 44.8
+    brightYellow: 70
+    brightBlue: 54.7
+    brightMagenta: 43.7
+    brightCyan: 70
+    brightWhite: 71.3

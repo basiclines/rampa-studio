@@ -1,0 +1,53 @@
+name: "Amber Delight"
+source:
+  marketplace_id: "PrimalSkill.amber-delight"
+  version: "1.0.2"
+  installs: 333
+  rating: 0
+  ratings: 0
+  author: "Primal Skill"
+  repo: "https://github.com/primalskill/amber-delight-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PrimalSkill.amber-delight"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E4E4E4"
+  black: "#734915"
+  red: "#E35B00"
+  green: "#5CAB96"
+  yellow: "#E3CD7B"
+  blue: "#0F548B"
+  magenta: "#E35B00"
+  cyan: "#06AFC7"
+  white: "#CBCBCB"
+  brightBlack: "#8E5814"
+  brightRed: "#FF8A3A"
+  brightGreen: "#AECAB8"
+  brightYellow: "#FFC878"
+  brightBlue: "#67A0CE"
+  brightMagenta: "#FF8A3A"
+  brightCyan: "#83A7B4"
+  brightWhite: "#FEFFF1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.4
+    black: 15.3
+    red: 38.6
+    green: 49.3
+    yellow: 76.7
+    blue: 15.2
+    magenta: 38.6
+    cyan: 51.2
+    white: 75.1
+    brightBlack: 22.6
+    brightRed: 56.3
+    brightGreen: 70.5
+    brightYellow: 79
+    brightBlue: 48
+    brightMagenta: 56.3
+    brightCyan: 51.6
+    brightWhite: 107.1

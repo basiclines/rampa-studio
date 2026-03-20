@@ -1,0 +1,53 @@
+name: "Vitesse Dragon Dark"
+source:
+  marketplace_id: "simonhe.vitesse-theme-colorful"
+  version: "0.0.6"
+  installs: 855
+  rating: 0
+  ratings: 0
+  author: "simonhe"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=simonhe.vitesse-theme-colorful"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#FFA2CB"
+  black: "#4A3C53"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#FFA2CB"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "Vitesse Dragon"
+  contrast:
+    fg: 67
+    black: 8.3
+    red: 41.2
+    green: 37.1
+    yellow: 76
+    blue: 41.8
+    magenta: 44.3
+    cyan: 49.7
+    white: 67
+    brightBlack: 30
+    brightRed: 41.2
+    brightGreen: 37.1
+    brightYellow: 76
+    brightBlue: 41.8
+    brightMagenta: 44.3
+    brightCyan: 49.7
+    brightWhite: 107.3

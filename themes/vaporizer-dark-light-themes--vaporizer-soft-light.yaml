@@ -1,0 +1,53 @@
+name: "Vaporizer Dark & Light Themes (Vaporizer Soft Light)"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35761
+  rating: 5
+  ratings: 6
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+  formats: null
+colors:
+  bg: "#F0F7FE"
+  fg: "#B4B4B4"
+  black: "#999999"
+  red: "#FDA9A9"
+  green: "#5ED55E"
+  yellow: "#CFC67D"
+  blue: "#76B2F5"
+  magenta: "#EA7EEA"
+  cyan: "#4EC8E6"
+  white: "#999999"
+  brightBlack: "#B8B3B3"
+  brightRed: "#F9A2A2"
+  brightGreen: "#89CF89"
+  brightYellow: "#D5C152"
+  brightBlue: "#9DCCFF"
+  brightMagenta: "#F59CF5"
+  brightCyan: "#51CAE8"
+  brightWhite: "#9D9D9D"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: "Vaporizer Dark & Light Themes (Vaporizer Splash Dark)"
+  contrast:
+    fg: 35.2
+    black: 49.3
+    red: 29
+    green: 30
+    yellow: 26.4
+    blue: 38.3
+    magenta: 41.9
+    cyan: 32
+    white: 49.3
+    brightBlack: 35.1
+    brightRed: 32.2
+    brightGreen: 29.4
+    brightYellow: 28.4
+    brightBlue: 24.3
+    brightMagenta: 31.1
+    brightCyan: 30.9
+    brightWhite: 47.2

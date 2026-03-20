@@ -1,0 +1,53 @@
+name: "Midwinter Light"
+source:
+  marketplace_id: "merithayan.midwinter"
+  version: "0.1.1"
+  installs: 165
+  rating: 0
+  ratings: 0
+  author: "Tim Hull"
+  repo: "https://www.github.com/mtyn/midwinter"
+  url: "https://marketplace.visualstudio.com/items?itemName=merithayan.midwinter"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#303036"
+  black: "#EEEFF1"
+  red: "#AF5550"
+  green: "#79B488"
+  yellow: "#EBB861"
+  blue: "#4397C4"
+  magenta: "#A796BC"
+  cyan: "#459BA0"
+  white: "#F4F4F5"
+  brightBlack: "#E4E4E7"
+  brightRed: "#AF5550"
+  brightGreen: "#79B488"
+  brightYellow: "#EBB861"
+  brightBlue: "#4397C4"
+  brightMagenta: "#A796BC"
+  brightCyan: "#459BA0"
+  brightWhite: "#E4E4E7"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: "Midwinter (Nord)"
+  contrast:
+    fg: 99.4
+    black: 0
+    red: 73.9
+    green: 47.5
+    yellow: 33.7
+    blue: 59.5
+    magenta: 52.6
+    cyan: 59.7
+    white: 0
+    brightBlack: 13.4
+    brightRed: 73.9
+    brightGreen: 47.5
+    brightYellow: 33.7
+    brightBlue: 59.5
+    brightMagenta: 52.6
+    brightCyan: 59.7
+    brightWhite: 13.4

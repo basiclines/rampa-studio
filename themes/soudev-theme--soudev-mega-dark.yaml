@@ -1,0 +1,53 @@
+name: "Soudev Theme (Soudev mega dark)"
+source:
+  marketplace_id: "soudev.soudev-theme"
+  version: "1.0.3"
+  installs: 11544
+  rating: 5
+  ratings: 1
+  author: "soudev"
+  repo: "https://github.com/jefersonpassos/soudev-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=soudev.soudev-theme"
+  formats: null
+colors:
+  bg: "#070E13"
+  fg: "#FFFFFF"
+  black: "#250E48"
+  red: "#F7005B"
+  green: "#46D028"
+  yellow: "#DDCB0A"
+  blue: "#EF8354"
+  magenta: "#A100DF"
+  cyan: "#40B4BB"
+  white: "#FFFFFF"
+  brightBlack: "#4A4F53"
+  brightRed: "#F7005B"
+  brightGreen: "#46D028"
+  brightYellow: "#DDCB0A"
+  brightBlue: "#EF8354"
+  brightMagenta: "#A100DF"
+  brightCyan: "#40B4BB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 239
+  pair: null
+  contrast:
+    fg: 107.6
+    black: 0
+    red: 36
+    green: 63
+    yellow: 73.6
+    blue: 51.1
+    magenta: 24.7
+    cyan: 53.3
+    white: 107.6
+    brightBlack: 13.3
+    brightRed: 36
+    brightGreen: 63
+    brightYellow: 73.6
+    brightBlue: 51.1
+    brightMagenta: 24.7
+    brightCyan: 53.3
+    brightWhite: 107.6

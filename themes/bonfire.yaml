@@ -1,0 +1,53 @@
+name: "bonfire"
+source:
+  marketplace_id: "cozybonfire.bonfire"
+  version: "0.2.0"
+  installs: 310
+  rating: 0
+  ratings: 0
+  author: "cozybonfire"
+  repo: "https://github.com/cozybonfire/bonfire"
+  url: "https://marketplace.visualstudio.com/items?itemName=cozybonfire.bonfire"
+  formats: null
+colors:
+  bg: "#123F4A"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 217
+  pair: null
+  contrast:
+    fg: 95
+    black: 0
+    red: 17.6
+    green: 46
+    yellow: 50.7
+    blue: 27.6
+    magenta: 25.2
+    cyan: 43.4
+    white: 81.5
+    brightBlack: 15
+    brightRed: 30.3
+    brightGreen: 70
+    brightYellow: 76.9
+    brightBlue: 42.9
+    brightMagenta: 39.5
+    brightCyan: 66.4
+    brightWhite: 95

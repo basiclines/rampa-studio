@@ -1,0 +1,53 @@
+name: "Aether Neon"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#020705"
+  fg: "#39FF14"
+  black: "#020705"
+  red: "#FF073A"
+  green: "#39FF14"
+  yellow: "#FFFF00"
+  blue: "#0080FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#C0C0C0"
+  brightBlack: "#0A1F0F"
+  brightRed: "#FF3366"
+  brightGreen: "#66FF33"
+  brightYellow: "#FFFF66"
+  brightBlue: "#3399FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 171
+  pair: "Aether Zen"
+  contrast:
+    fg: 86.9
+    black: 0
+    red: 37.8
+    green: 86.9
+    yellow: 102.7
+    blue: 37
+    magenta: 46.2
+    cyan: 92.1
+    white: 68.6
+    brightBlack: 0
+    brightRed: 40.4
+    brightGreen: 88.4
+    brightYellow: 103.2
+    brightBlue: 46.4
+    brightMagenta: 54.8
+    brightCyan: 93.9
+    brightWhite: 107.8

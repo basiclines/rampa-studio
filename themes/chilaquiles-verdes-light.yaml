@@ -1,0 +1,53 @@
+name: "Chilaquiles Verdes (Light)"
+source:
+  marketplace_id: "agzertuche.chilaquiles-theme"
+  version: "1.0.0"
+  installs: 16
+  rating: 0
+  ratings: 0
+  author: "Arturo De la Garza Zertuche"
+  repo: "https://github.com/agzertuche/chilaquiles-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=agzertuche.chilaquiles-theme"
+  formats: null
+colors:
+  bg: "#E8EDE8"
+  fg: "#1C2A1C"
+  black: "#1C2A1C"
+  red: "#C0392B"
+  green: "#2A7530"
+  yellow: "#A0720A"
+  blue: "#2471A3"
+  magenta: "#8E3A65"
+  cyan: "#1A6B62"
+  white: "#DFE6DF"
+  brightBlack: "#4A7050"
+  brightRed: "#E05C4B"
+  brightGreen: "#4CAF50"
+  brightYellow: "#8C6200"
+  brightBlue: "#2E86C1"
+  brightMagenta: "#853678"
+  brightCyan: "#1F8B80"
+  brightWhite: "#E8EDE8"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Chilaquiles Verdes (Dark)"
+  contrast:
+    fg: 90.4
+    black: 90.4
+    red: 64.4
+    green: 66.7
+    yellow: 57.8
+    blue: 64.5
+    magenta: 72.7
+    cyan: 69.6
+    white: 0
+    brightBlack: 66.6
+    brightRed: 51.5
+    brightGreen: 41.8
+    brightYellow: 65.3
+    brightBlue: 55.1
+    brightMagenta: 74
+    brightCyan: 56.6
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Bushland"
+source:
+  marketplace_id: "wicked-labs.bushland"
+  version: "0.4.8"
+  installs: 1430
+  rating: 5
+  ratings: 1
+  author: "Michael Andreuzza "
+  repo: "https://github.com/michael-andreuzza/bushland"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.bushland"
+  formats: null
+colors:
+  bg: "#313531"
+  fg: "#FAFAFA"
+  black: "#626A62"
+  red: "#A2C1E0"
+  green: "#FEA090"
+  yellow: "#D3B58F"
+  blue: "#FD6043"
+  magenta: "#E4DEC8"
+  cyan: "#D99E63"
+  white: "#EDD1B5"
+  brightBlack: "#D7DAD7"
+  brightRed: "#A2C1E0"
+  brightGreen: "#FEA090"
+  brightYellow: "#D3B58F"
+  brightBlue: "#FD6043"
+  brightMagenta: "#E4DEC8"
+  brightCyan: "#D99E63"
+  brightWhite: "#EDD1B5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.5
+    black: 17.7
+    red: 61.1
+    green: 58.5
+    yellow: 58.9
+    blue: 39.6
+    magenta: 80.4
+    cyan: 50.2
+    white: 75.4
+    brightBlack: 77.5
+    brightRed: 61.1
+    brightGreen: 58.5
+    brightYellow: 58.9
+    brightBlue: 39.6
+    brightMagenta: 80.4
+    brightCyan: 50.2
+    brightWhite: 75.4

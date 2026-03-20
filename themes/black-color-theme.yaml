@@ -1,0 +1,53 @@
+name: "black-color-theme"
+source:
+  marketplace_id: "ctf0.seti-ux"
+  version: "0.1.7"
+  installs: 1554
+  rating: 5
+  ratings: 1
+  author: "ctf0"
+  repo: "https://github.com/ctf0/Seti_UX-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ctf0.seti-ux"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#FFFFFF"
+  black: "#3A3A3A"
+  red: "#FF4545"
+  green: "#42E0AC"
+  yellow: "#FFD200"
+  blue: "#009FFF"
+  magenta: "#CF3BE9"
+  cyan: "#94DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#FF4545"
+  brightRed: "#FF4545"
+  brightGreen: "#42E0AC"
+  brightYellow: "#FFD200"
+  brightBlue: "#009FFF"
+  brightMagenta: "#CF3BE9"
+  brightCyan: "#94DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.5
+    black: 0
+    red: 40.4
+    green: 72.1
+    yellow: 80.8
+    blue: 46.8
+    magenta: 35.7
+    cyan: 78.7
+    white: 106.5
+    brightBlack: 40.4
+    brightRed: 40.4
+    brightGreen: 72.1
+    brightYellow: 80.8
+    brightBlue: 46.8
+    brightMagenta: 35.7
+    brightCyan: 78.7
+    brightWhite: 106.5

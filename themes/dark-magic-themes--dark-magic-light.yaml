@@ -1,0 +1,53 @@
+name: "Dark Magic Themes (Dark Magic - Light)"
+source:
+  marketplace_id: "DavidMorais.dark-magic-themes"
+  version: "0.3.1"
+  installs: 47351
+  rating: 5
+  ratings: 6
+  author: "David Morais"
+  repo: "https://github.com/Dark-Magic-Studios/dark-magic-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=DavidMorais.dark-magic-themes"
+  formats: null
+colors:
+  bg: "#EAEAFF"
+  fg: "#3E3F54"
+  black: "#111111"
+  red: "#D90000"
+  green: "#00FF28"
+  yellow: "#CBA402"
+  blue: "#009FFF"
+  magenta: "#FF003C"
+  cyan: "#00FFFF"
+  white: "#E3E3FF"
+  brightBlack: "#333333"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF80"
+  brightYellow: "#FFCE00"
+  brightBlue: "#004BFF"
+  brightMagenta: "#FF006B"
+  brightCyan: "#00FFFF"
+  brightWhite: "#F0F0FF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: 286
+  pair: "Dark Magic Themes (Dark Magic Night)"
+  contrast:
+    fg: 82.4
+    black: 93.9
+    red: 62
+    green: 0
+    yellow: 35
+    blue: 42.2
+    magenta: 52.3
+    cyan: 0
+    white: 0
+    brightBlack: 87.2
+    brightRed: 52.6
+    brightGreen: 0
+    brightYellow: 11.3
+    brightBlue: 67.4
+    brightMagenta: 51.5
+    brightCyan: 0
+    brightWhite: 0

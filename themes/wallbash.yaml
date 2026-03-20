@@ -1,0 +1,53 @@
+name: "Wallbash"
+source:
+  marketplace_id: "TheHyDEProject.wallbash"
+  version: "0.3.7"
+  installs: 2232
+  rating: 5
+  ratings: 1
+  author: "The HyDE Project"
+  repo: "https://github.com/HyDE-Project/vscode-wallbash"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheHyDEProject.wallbash"
+  formats: null
+colors:
+  bg: "#2C2525"
+  fg: "#FFFFFF"
+  black: "#FFFFFF"
+  red: "#F8F8F0"
+  green: "#F92672"
+  yellow: "#E6C39A"
+  blue: "#F0BEAA"
+  magenta: "#FFEDCC"
+  cyan: "#E6C39A"
+  white: "#141515"
+  brightBlack: "#8F6757"
+  brightRed: "#F8F8F0"
+  brightGreen: "#F92672"
+  brightYellow: "#E6C39A"
+  brightBlue: "#F0BEAA"
+  brightMagenta: "#FFEDCC"
+  brightCyan: "#E6C39A"
+  brightWhite: "#7D594B"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 18
+  pair: null
+  contrast:
+    fg: 104.7
+    black: 104.7
+    red: 99.7
+    green: 35.1
+    yellow: 70.5
+    blue: 70.6
+    magenta: 94.1
+    cyan: 70.5
+    white: 0
+    brightBlack: 24.3
+    brightRed: 99.7
+    brightGreen: 35.1
+    brightYellow: 70.5
+    brightBlue: 70.6
+    brightMagenta: 94.1
+    brightCyan: 70.5
+    brightWhite: 17.9

@@ -1,0 +1,53 @@
+name: "Galizur"
+source:
+  marketplace_id: "razielanarki.vscode-galizur-theme"
+  version: "1.3.11"
+  installs: 233
+  rating: 0
+  ratings: 0
+  author: "Raziel Anarki"
+  repo: "https://github.com/razielanarki/vscode-galizur-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=razielanarki.vscode-galizur-theme"
+  formats: null
+colors:
+  bg: "#2A2C2E"
+  fg: "#AABBCC"
+  black: "#223344"
+  red: "#991122"
+  green: "#339911"
+  yellow: "#AA8822"
+  blue: "#2244AA"
+  magenta: "#6644AA"
+  cyan: "#2288AA"
+  white: "#778899"
+  brightBlack: "#445566"
+  brightRed: "#FF2233"
+  brightGreen: "#77CC33"
+  brightYellow: "#FFCC33"
+  brightBlue: "#3377FF"
+  brightMagenta: "#AA77FF"
+  brightCyan: "#33CCFF"
+  brightWhite: "#AABBCC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.4
+    black: 0
+    red: 10.4
+    green: 33.6
+    yellow: 36.7
+    blue: 9.4
+    magenta: 13.7
+    cyan: 30
+    white: 33.5
+    brightBlack: 11.3
+    brightRed: 34.3
+    brightGreen: 59.6
+    brightYellow: 75.5
+    brightBlue: 30.6
+    brightMagenta: 40
+    brightCyan: 63.4
+    brightWhite: 60.4

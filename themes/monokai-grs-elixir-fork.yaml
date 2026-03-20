@@ -1,0 +1,53 @@
+name: "Monokai GRS Elixir Fork"
+source:
+  marketplace_id: "ChrisFreeze.monokai-grs-elixir"
+  version: "0.1.0"
+  installs: 1
+  rating: 0
+  ratings: 0
+  author: "Chris Freeze"
+  repo: "https://github.com/cjfreeze/Monokai-GRS"
+  url: "https://marketplace.visualstudio.com/items?itemName=ChrisFreeze.monokai-grs-elixir"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#F0F0F0"
+  black: "#505050"
+  red: "#D32F2F"
+  green: "#388E3C"
+  yellow: "#FBC02D"
+  blue: "#1976D2"
+  magenta: "#7B1FA2"
+  cyan: "#0097A7"
+  white: "#F0F0F0"
+  brightBlack: "#606060"
+  brightRed: "#FF1744"
+  brightGreen: "#00E676"
+  brightYellow: "#FFEA00"
+  brightBlue: "#2979FF"
+  brightMagenta: "#D500F9"
+  brightCyan: "#00E5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.9
+    black: 12.1
+    red: 26.7
+    green: 31.6
+    yellow: 72
+    blue: 28.2
+    magenta: 12.9
+    cyan: 37.5
+    white: 95.9
+    brightBlack: 18.4
+    brightRed: 36.1
+    brightGreen: 72.2
+    brightYellow: 90.6
+    brightBlue: 33
+    brightMagenta: 34.6
+    brightCyan: 76.9
+    brightWhite: 105.8

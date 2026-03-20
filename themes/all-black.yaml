@@ -1,0 +1,53 @@
+name: "all-black"
+source:
+  marketplace_id: "xiaobai.all-black"
+  version: "0.6.4"
+  installs: 5848
+  rating: 5
+  ratings: 1
+  author: "xiaobai"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=xiaobai.all-black"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#E2E22E"
+  blue: "#819AFF"
+  magenta: "#AE81FF"
+  cyan: "#66D9EF"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.1
+    black: 0
+    red: 36.5
+    green: 76.2
+    yellow: 83.1
+    blue: 49
+    magenta: 45.7
+    cyan: 72.6
+    white: 87.7
+    brightBlack: 21.2
+    brightRed: 36.5
+    brightGreen: 76.2
+    brightYellow: 83.1
+    brightBlue: 49
+    brightMagenta: 45.7
+    brightCyan: 72.6
+    brightWhite: 101.1

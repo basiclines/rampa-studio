@@ -1,0 +1,53 @@
+name: "Snazzy Light"
+source:
+  marketplace_id: "loilo.snazzy-light"
+  version: "1.4.1"
+  installs: 161593
+  rating: 4.78
+  ratings: 9
+  author: "Florian Reuschel"
+  repo: "https://github.com/loilo/vscode-snazzy-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=loilo.snazzy-light"
+  formats: null
+colors:
+  bg: "#FAFBFC"
+  fg: "#565869"
+  black: "#565869"
+  red: "#FF5C57"
+  green: "#2DAE58"
+  yellow: "#CF9C00"
+  blue: "#09A1ED"
+  magenta: "#F767BB"
+  cyan: "#13BBB7"
+  white: "#FAFBF9"
+  brightBlack: "#75798F"
+  brightRed: "#FFAEAC"
+  brightGreen: "#35CF68"
+  brightYellow: "#F5B900"
+  brightBlue: "#14B1FF"
+  brightMagenta: "#FF94D2"
+  brightCyan: "#13BBB7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.8
+    black: 81.8
+    red: 53.6
+    green: 52
+    yellow: 46.3
+    blue: 51.7
+    magenta: 50.1
+    cyan: 43.9
+    white: 0
+    brightBlack: 67.3
+    brightRed: 29.7
+    brightGreen: 36.8
+    brightYellow: 29.9
+    brightBlue: 44.1
+    brightMagenta: 36.3
+    brightCyan: 43.9
+    brightWhite: 0

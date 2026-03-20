@@ -1,0 +1,53 @@
+name: "arunika"
+source:
+  marketplace_id: "ansandi.arunika"
+  version: "4.0.5"
+  installs: 80
+  rating: 0
+  ratings: 0
+  author: "ansandi"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ansandi.arunika"
+  formats: null
+colors:
+  bg: "#202231"
+  fg: "#DEE0EF"
+  black: "#363847"
+  red: "#D1918F"
+  green: "#D980FA"
+  yellow: "#FD73BB"
+  blue: "#A0B6E8"
+  magenta: "#FFA089"
+  cyan: "#D6B4B4"
+  white: "#DEE0EF"
+  brightBlack: "#6B6D7C"
+  brightRed: "#D1918F"
+  brightGreen: "#D6B4B4"
+  brightYellow: "#B3BDCA"
+  brightBlue: "#A0B6E8"
+  brightMagenta: "#AAC9D4"
+  brightCyan: "#D6B4B4"
+  brightWhite: "#C9D3DF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 49.1
+    green: 50.8
+    yellow: 50.6
+    blue: 60.3
+    magenta: 62
+    cyan: 63.7
+    white: 85.7
+    brightBlack: 23.8
+    brightRed: 49.1
+    brightGreen: 63.7
+    brightYellow: 63.7
+    brightBlue: 60.3
+    brightMagenta: 68.3
+    brightCyan: 63.7
+    brightWhite: 76.6

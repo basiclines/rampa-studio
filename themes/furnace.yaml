@@ -1,0 +1,53 @@
+name: "Furnace"
+source:
+  marketplace_id: "solomonsscott.furnace"
+  version: "1.0.2"
+  installs: 2266
+  rating: 5
+  ratings: 1
+  author: "solomonsscott"
+  repo: "https://github.com/SolomonSScott/furnace-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=solomonsscott.furnace"
+  formats: null
+colors:
+  bg: "#141D3C"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#E42C48"
+  green: "#3AD900"
+  yellow: "#F8D82D"
+  blue: "#6943FF"
+  magenta: "#E42C48"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#E42C48"
+  brightGreen: "#3AD900"
+  brightYellow: "#F8D82D"
+  brightBlue: "#6943FF"
+  brightMagenta: "#7D77B3"
+  brightCyan: "#80FCFF"
+  brightWhite: "#2C206C"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 269
+  pair: null
+  contrast:
+    fg: 105.8
+    black: 0
+    red: 30.7
+    green: 65.2
+    yellow: 81.6
+    blue: 23.5
+    magenta: 30.7
+    cyan: 91.7
+    white: 105.8
+    brightBlack: 17
+    brightRed: 30.7
+    brightGreen: 65.2
+    brightYellow: 81.6
+    brightBlue: 23.5
+    brightMagenta: 31.8
+    brightCyan: 91.7
+    brightWhite: 0

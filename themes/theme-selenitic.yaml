@@ -1,0 +1,53 @@
+name: "theme-selenitic"
+source:
+  marketplace_id: "fopitz.theme-selenitic"
+  version: "0.1.0"
+  installs: 951
+  rating: 5
+  ratings: 1
+  author: "Forrest Pitz"
+  repo: "https://forrestpitz.visualstudio.com/_git/Seleitic%20Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=fopitz.theme-selenitic"
+  formats: null
+colors:
+  bg: "#333333"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#EFC986"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.1
+    black: 0
+    red: 19.8
+    green: 48.2
+    yellow: 52.8
+    blue: 29.8
+    magenta: 27.4
+    cyan: 45.6
+    white: 83.6
+    brightBlack: 17.2
+    brightRed: 71.2
+    brightGreen: 72.1
+    brightYellow: 79.1
+    brightBlue: 45
+    brightMagenta: 41.7
+    brightCyan: 68.6
+    brightWhite: 97.1

@@ -1,0 +1,53 @@
+name: "0x96f Theme"
+source:
+  marketplace_id: "filipjane.0x96f-vscode-theme"
+  version: "0.2.0"
+  installs: 625
+  rating: 0
+  ratings: 0
+  author: "Filip"
+  repo: "https://github.com/filipjanevski/0x96f-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=filipjane.0x96f-vscode-theme"
+  formats: null
+colors:
+  bg: "#262427"
+  fg: "#FCFCFC"
+  black: "#262427"
+  red: "#FF7272"
+  green: "#BCDF59"
+  yellow: "#FFCA58"
+  blue: "#49CAE4"
+  magenta: "#A093E2"
+  cyan: "#AEE8F4"
+  white: "#FCFCFC"
+  brightBlack: "#545452"
+  brightRed: "#FF8787"
+  brightGreen: "#C6E472"
+  brightYellow: "#FFD271"
+  brightBlue: "#64D2E8"
+  brightMagenta: "#AEA3E6"
+  brightCyan: "#BAEBF6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103
+    black: 0
+    red: 48
+    green: 76.3
+    yellow: 76.4
+    blue: 62.8
+    magenta: 46.6
+    cyan: 84
+    white: 103
+    brightBlack: 12.8
+    brightRed: 54
+    brightGreen: 80.2
+    brightYellow: 80.1
+    brightBlue: 67.8
+    brightMagenta: 54.2
+    brightCyan: 86.7
+    brightWhite: 105

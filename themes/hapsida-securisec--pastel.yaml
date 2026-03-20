@@ -1,0 +1,53 @@
+name: "hapsida.securisec (Pastel)"
+source:
+  marketplace_id: "securisec.hapsida-securisec"
+  version: "0.0.30"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "securisec"
+  repo: "https://github.com/securisec/code-hapsida"
+  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+  formats: null
+colors:
+  bg: "#16181E"
+  fg: "#E8E8E8"
+  black: "#000000"
+  red: "#ED858A"
+  green: "#85EDB3"
+  yellow: "#EDA685"
+  blue: "#85B8ED"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#EDA685"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#193549"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 91.8
+    black: 0
+    red: 51.7
+    green: 82.1
+    yellow: 62.1
+    blue: 60.5
+    magenta: 64.2
+    cyan: 92.6
+    white: 106.8
+    brightBlack: 14.5
+    brightRed: 47
+    brightGreen: 66.2
+    brightYellow: 62.1
+    brightBlue: 38.6
+    brightMagenta: 64.2
+    brightCyan: 92.6
+    brightWhite: 0

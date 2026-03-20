@@ -1,0 +1,53 @@
+name: "SLab Theme (Material-Theme-Default)"
+source:
+  marketplace_id: "HasibX2000.slab-theme"
+  version: "0.0.3"
+  installs: 3737
+  rating: 5
+  ratings: 1
+  author: "Hasibur Rahman"
+  repo: "https://github.com/HasibX2000/SLab"
+  url: "https://marketplace.visualstudio.com/items?itemName=HasibX2000.slab-theme"
+  formats: null
+colors:
+  bg: "#263238"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#546E7A"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  pair: "SLab Theme (Material-Theme-Lighter-High-Contrast)"
+  contrast:
+    fg: 100.4
+    black: 0
+    red: 42.4
+    green: 80
+    yellow: 74.7
+    blue: 51.7
+    magenta: 49.6
+    cyan: 74.1
+    white: 102.7
+    brightBlack: 19.7
+    brightRed: 42.4
+    brightGreen: 80
+    brightYellow: 74.7
+    brightBlue: 51.7
+    brightMagenta: 49.6
+    brightCyan: 74.1
+    brightWhite: 102.7

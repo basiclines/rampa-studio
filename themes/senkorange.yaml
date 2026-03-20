@@ -1,0 +1,53 @@
+name: "Senkorange"
+source:
+  marketplace_id: "Michii.senkorange"
+  version: "1.0.0"
+  installs: 71
+  rating: 5
+  ratings: 1
+  author: "Michii"
+  repo: "https://github.com/hi-doki/Senkorange"
+  url: "https://marketplace.visualstudio.com/items?itemName=Michii.senkorange"
+  formats: null
+colors:
+  bg: "#2B251E"
+  fg: "#FEFAE6"
+  black: "#2B251E"
+  red: "#FF6B6B"
+  green: "#98D982"
+  yellow: "#F8C860"
+  blue: "#74C0FC"
+  magenta: "#F06292"
+  cyan: "#4DD0E1"
+  white: "#FEFAE6"
+  brightBlack: "#6B5D47"
+  brightRed: "#FF8A80"
+  brightGreen: "#C8E6C9"
+  brightYellow: "#FAE57B"
+  brightBlue: "#90CAF9"
+  brightMagenta: "#F8BBD9"
+  brightCyan: "#84FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 71
+  pair: null
+  contrast:
+    fg: 101.2
+    black: 0
+    red: 46
+    green: 70.5
+    yellow: 74.3
+    blue: 61.6
+    magenta: 42
+    cyan: 65.3
+    white: 101.2
+    brightBlack: 17
+    brightRed: 54.4
+    brightGreen: 83.6
+    brightYellow: 87.6
+    brightBlue: 67.8
+    brightMagenta: 72.8
+    brightCyan: 92.4
+    brightWhite: 104.8

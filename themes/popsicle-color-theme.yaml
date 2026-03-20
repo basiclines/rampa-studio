@@ -1,0 +1,53 @@
+name: "popsicle-color-theme"
+source:
+  marketplace_id: "wavebeem.fresh-green-vscode"
+  version: "1.0.0"
+  installs: 318
+  rating: 0
+  ratings: 0
+  author: "Sage Fennel"
+  repo: "https://github.com/wavebeem/fresh-green-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=wavebeem.fresh-green-vscode"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#380000"
+  black: "#5B403B"
+  red: "#D2004F"
+  green: "#007A00"
+  yellow: "#905300"
+  blue: "#0069CC"
+  magenta: "#C3009B"
+  cyan: "#00747B"
+  white: "#FFF6F1"
+  brightBlack: "#5B403B"
+  brightRed: "#D2004F"
+  brightGreen: "#007A00"
+  brightYellow: "#905300"
+  brightBlue: "#0069CC"
+  brightMagenta: "#C3009B"
+  brightCyan: "#00747B"
+  brightWhite: "#FFF6F1"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.7
+    black: 91.6
+    red: 74.5
+    green: 77
+    yellow: 80.2
+    blue: 76.1
+    magenta: 75.1
+    cyan: 77.2
+    white: 0
+    brightBlack: 91.6
+    brightRed: 74.5
+    brightGreen: 77
+    brightYellow: 80.2
+    brightBlue: 76.1
+    brightMagenta: 75.1
+    brightCyan: 77.2
+    brightWhite: 0

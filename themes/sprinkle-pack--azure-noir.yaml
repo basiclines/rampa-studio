@@ -1,0 +1,53 @@
+name: "Sprinkle Pack (Azure Noir)"
+source:
+  marketplace_id: "kgnio.sprinklepack"
+  version: "0.2.5"
+  installs: 83
+  rating: 5
+  ratings: 2
+  author: "Kagan Mamak"
+  repo: "https://github.com/kgnio/sprinklepack"
+  url: "https://marketplace.visualstudio.com/items?itemName=kgnio.sprinklepack"
+  formats: null
+colors:
+  bg: "#0A0F1F"
+  fg: "#DCEFFF"
+  black: "#101423"
+  red: "#FF6E6E"
+  green: "#B4FF97"
+  yellow: "#FFD56E"
+  blue: "#78DCE8"
+  magenta: "#BE8FFF"
+  cyan: "#5FEFC4"
+  white: "#E2F3F1"
+  brightBlack: "#4F5B6E"
+  brightRed: "#FF7A7A"
+  brightGreen: "#C4FFB4"
+  brightYellow: "#FFEB9C"
+  brightBlue: "#A5CCFF"
+  brightMagenta: "#D4A8FF"
+  brightCyan: "#8FFFF4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 269
+  pair: "Sprinkle Pack (Ice)"
+  contrast:
+    fg: 95.3
+    black: 0
+    red: 49.4
+    green: 94.8
+    yellow: 83.7
+    blue: 76
+    magenta: 53.5
+    cyan: 82.4
+    white: 97.2
+    brightBlack: 17.7
+    brightRed: 52.6
+    brightGreen: 97.2
+    brightYellow: 94.4
+    brightBlue: 73.5
+    brightMagenta: 64.9
+    brightCyan: 95.2
+    brightWhite: 107.4

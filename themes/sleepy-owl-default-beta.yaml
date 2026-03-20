@@ -1,0 +1,53 @@
+name: "Sleepy Owl - Default (Beta)"
+source:
+  marketplace_id: "santosned.theme-sleepy-owl"
+  version: "0.90.1"
+  installs: 93
+  rating: 0
+  ratings: 0
+  author: "Sleepy Owl Theme"
+  repo: "https://github.com/santosned/vsc-sleepy-owl-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=santosned.theme-sleepy-owl"
+  formats: null
+colors:
+  bg: "#24242F"
+  fg: "#C7C7CF"
+  black: "#0C0A12"
+  red: "#E86074"
+  green: "#A4D860"
+  yellow: "#E8BE56"
+  blue: "#5A84E8"
+  magenta: "#A484E8"
+  cyan: "#20C4E8"
+  white: "#E0E0E8"
+  brightBlack: "#747488"
+  brightRed: "#E88484"
+  brightGreen: "#AEE0A4"
+  brightYellow: "#E8E090"
+  brightBlue: "#96B4FF"
+  brightMagenta: "#E090E0"
+  brightCyan: "#64DAD2"
+  brightWhite: "#F5F5FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 70.2
+    black: 0
+    red: 39.1
+    green: 70.6
+    yellow: 67.7
+    blue: 35.8
+    magenta: 42.6
+    cyan: 59.4
+    white: 85.3
+    brightBlack: 27
+    brightRed: 48.5
+    brightGreen: 76.9
+    brightYellow: 83.3
+    brightBlue: 59.7
+    brightMagenta: 54.6
+    brightCyan: 70.4
+    brightWhite: 98.9

@@ -1,0 +1,53 @@
+name: "Cielo"
+source:
+  marketplace_id: "PeterAhlgren.cielo-theme"
+  version: "1.0.0"
+  installs: 20
+  rating: 5
+  ratings: 1
+  author: "Peter Ahlgren"
+  repo: "https://github.com/ahlgren1234/cielo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PeterAhlgren.cielo-theme"
+  formats: null
+colors:
+  bg: "#1E2337"
+  fg: "#E2F0FF"
+  black: "#171C2C"
+  red: "#FF6E9C"
+  green: "#80E79A"
+  yellow: "#FFD76E"
+  blue: "#6096FF"
+  magenta: "#C894FF"
+  cyan: "#78E3FF"
+  white: "#E2F0FF"
+  brightBlack: "#171C2C"
+  brightRed: "#FF6E9C"
+  brightGreen: "#80E79A"
+  brightYellow: "#FFD76E"
+  brightBlue: "#6096FF"
+  brightMagenta: "#C894FF"
+  brightCyan: "#78E3FF"
+  brightWhite: "#E2F0FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 273
+  pair: null
+  contrast:
+    fg: 94.2
+    black: 0
+    red: 48.4
+    green: 76.4
+    yellow: 82.3
+    blue: 44.3
+    magenta: 54.2
+    cyan: 78.2
+    white: 94.2
+    brightBlack: 0
+    brightRed: 48.4
+    brightGreen: 76.4
+    brightYellow: 82.3
+    brightBlue: 44.3
+    brightMagenta: 54.2
+    brightCyan: 78.2
+    brightWhite: 94.2

@@ -1,0 +1,53 @@
+name: "BBogdanov Dark"
+source:
+  marketplace_id: "BBogdanov.bbogdanov-color-themes"
+  version: "1.0.1"
+  installs: 679
+  rating: 0
+  ratings: 0
+  author: "BBogdanov"
+  repo: "https://github.com/bbogdanov/bbogdanov-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=BBogdanov.bbogdanov-color-themes"
+  formats: null
+colors:
+  bg: "#444847"
+  fg: "#E0E2DD"
+  black: "#444847"
+  red: "#E29288"
+  green: "#A4CC78"
+  yellow: "#DBB66D"
+  blue: "#7EB9D0"
+  magenta: "#C08DA4"
+  cyan: "#71CA98"
+  white: "#CACCC8"
+  brightBlack: "#5A5E5C"
+  brightRed: "#E4A572"
+  brightGreen: "#71CA98"
+  brightYellow: "#DBB66D"
+  brightBlue: "#7EB9D0"
+  brightMagenta: "#C08DA4"
+  brightCyan: "#71CA98"
+  brightWhite: "#E0E2DD"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: "BBogdanov Light"
+  contrast:
+    fg: 76.5
+    black: 0
+    red: 42.5
+    green: 56.3
+    yellow: 53.6
+    blue: 47.8
+    magenta: 36.4
+    cyan: 52.2
+    white: 63.1
+    brightBlack: 0
+    brightRed: 48.8
+    brightGreen: 52.2
+    brightYellow: 53.6
+    brightBlue: 47.8
+    brightMagenta: 36.4
+    brightCyan: 52.2
+    brightWhite: 76.5

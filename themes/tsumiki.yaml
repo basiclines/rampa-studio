@@ -1,0 +1,53 @@
+name: "Tsumiki"
+source:
+  marketplace_id: "ArivanHouten.tsumiki"
+  version: "0.0.1"
+  installs: 134
+  rating: 0
+  ratings: 0
+  author: "Ari van Houten"
+  repo: "https://github.com/Ari24-cb24/tsumiki-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArivanHouten.tsumiki"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#B6B60B"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#C9C9C9"
+  brightBlack: "#929292"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#ECEC39"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#DEDEDE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 0
+    red: 27.7
+    green: 54
+    yellow: 59.8
+    blue: 28.4
+    magenta: 30.8
+    cyan: 48.6
+    white: 73.9
+    brightBlack: 43.6
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 91
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 56.4
+    brightWhite: 86.6

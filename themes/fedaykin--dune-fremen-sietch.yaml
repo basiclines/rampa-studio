@@ -1,0 +1,53 @@
+name: "Fedaykin (Dune Fremen Sietch)"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 238
+  rating: 0
+  ratings: 0
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+  formats: null
+colors:
+  bg: "#FAF8F3"
+  fg: "#2C2416"
+  black: "#FAF8F3"
+  red: "#8B6239"
+  green: "#2A7F9E"
+  yellow: "#1E6B8C"
+  blue: "#A0522D"
+  magenta: "#6B4226"
+  cyan: "#4A7C59"
+  white: "#2C2416"
+  brightBlack: "#8B7355"
+  brightRed: "#C2410C"
+  brightGreen: "#4A7C59"
+  brightYellow: "#B45309"
+  brightBlue: "#2A7F9E"
+  brightMagenta: "#8B4A8C"
+  brightCyan: "#3C9FBC"
+  brightWhite: "#1A1511"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.1
+    black: 0
+    red: 72.5
+    green: 67.1
+    yellow: 75.2
+    blue: 73.5
+    magenta: 85.3
+    cyan: 69.5
+    white: 98.1
+    brightBlack: 67
+    brightRed: 70.4
+    brightGreen: 69.5
+    brightYellow: 69.9
+    brightBlue: 67.1
+    brightMagenta: 75.9
+    brightCyan: 52.9
+    brightWhite: 100.7

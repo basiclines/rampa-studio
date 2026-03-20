@@ -1,0 +1,53 @@
+name: "Dark+ Remix (One Dark)"
+source:
+  marketplace_id: "daydev.dark-pastels-remix"
+  version: "0.2.0"
+  installs: 2455
+  rating: 5
+  ratings: 1
+  author: "daydev"
+  repo: "https://github.com/daydev/vscode-dark-remix"
+  url: "https://marketplace.visualstudio.com/items?itemName=daydev.dark-pastels-remix"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#1E1E1E"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#569CD6"
+  magenta: "#C586C0"
+  cyan: "#2AA198"
+  white: "#D4D4D4"
+  brightBlack: "#002B36"
+  brightRed: "#DC322F"
+  brightGreen: "#50FA7B"
+  brightYellow: "#859900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#D33682"
+  brightCyan: "#9CDCFE"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 41.2
+    green: 61.4
+    yellow: 69.7
+    blue: 44.2
+    magenta: 46.5
+    cyan: 41.6
+    white: 78.7
+    brightBlack: 0
+    brightRed: 29.3
+    brightGreen: 84
+    brightYellow: 40.8
+    brightBlue: 35.9
+    brightMagenta: 29.6
+    brightCyan: 78.4
+    brightWhite: 100.3

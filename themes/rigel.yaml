@@ -1,0 +1,53 @@
+name: "Rigel"
+source:
+  marketplace_id: "mrmartineau.rigel-vscode"
+  version: "0.1.1"
+  installs: 1392
+  rating: 0
+  ratings: 0
+  author: "mrmartineau"
+  repo: "https://github.com/mrmartineau/rigel-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=mrmartineau.rigel-vscode"
+  formats: null
+colors:
+  bg: "#002536"
+  fg: "#E5E5DB"
+  black: "#001B29"
+  red: "#FF6188"
+  green: "#7EB2DC"
+  yellow: "#9BF087"
+  blue: "#9BF087"
+  magenta: "#FF5A66"
+  cyan: "#FF5A66"
+  white: "#E5E5DB"
+  brightBlack: "#77919E"
+  brightRed: "#FF6188"
+  brightGreen: "#7EB2DC"
+  brightYellow: "#9BF087"
+  brightBlue: "#9BF087"
+  brightMagenta: "#FF5A66"
+  brightCyan: "#FF5A66"
+  brightWhite: "#E5E5DB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 233
+  pair: null
+  contrast:
+    fg: 87.9
+    black: 0
+    red: 45.2
+    green: 55
+    yellow: 82.5
+    blue: 82.5
+    magenta: 43
+    cyan: 43
+    white: 87.9
+    brightBlack: 38.5
+    brightRed: 45.2
+    brightGreen: 55
+    brightYellow: 82.5
+    brightBlue: 82.5
+    brightMagenta: 43
+    brightCyan: 43
+    brightWhite: 87.9

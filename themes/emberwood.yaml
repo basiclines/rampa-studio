@@ -1,0 +1,53 @@
+name: "Emberwood"
+source:
+  marketplace_id: "Lucpc.emberwood-theme"
+  version: "0.0.2"
+  installs: 47
+  rating: 0
+  ratings: 0
+  author: "Lucas Pinheiro Caldas"
+  repo: "https://github.com/lucpc/emberwood-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Lucpc.emberwood-theme"
+  formats: null
+colors:
+  bg: "#171C1A"
+  fg: "#FFB86C"
+  black: "#141917"
+  red: "#FF5572"
+  green: "#86CEA4"
+  yellow: "#F5E3A6"
+  blue: "#8D9E97"
+  magenta: "#D3B5D6"
+  cyan: "#A1D9B9"
+  white: "#E0E5E3"
+  brightBlack: "#5A6964"
+  brightRed: "#FF8095"
+  brightGreen: "#A1D9B9"
+  brightYellow: "#F8EEBD"
+  brightBlue: "#A3B1AB"
+  brightMagenta: "#E0CCE2"
+  brightCyan: "#B3E6D1"
+  brightWhite: "#F1F6F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 71
+    black: 0
+    red: 43.6
+    green: 66.5
+    yellow: 88.6
+    blue: 46.3
+    magenta: 66.3
+    cyan: 74.6
+    white: 88.8
+    brightBlack: 21.5
+    brightRed: 53.9
+    brightGreen: 74.6
+    brightYellow: 94.8
+    brightBlue: 56.8
+    brightMagenta: 77.9
+    brightCyan: 83.3
+    brightWhite: 99.9

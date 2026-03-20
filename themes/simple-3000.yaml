@@ -1,0 +1,53 @@
+name: "simple 3000"
+source:
+  marketplace_id: "simpleshadow.simple-3000"
+  version: "0.0.17"
+  installs: 837
+  rating: 0
+  ratings: 0
+  author: "simpleshadow"
+  repo: "https://github.com/simpleshadow/simple-3000"
+  url: "https://marketplace.visualstudio.com/items?itemName=simpleshadow.simple-3000"
+  formats: null
+colors:
+  bg: "#0D111A"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#990040"
+  green: "#05DB61"
+  yellow: "#FFC107"
+  blue: "#0063C5"
+  magenta: "#993BAA"
+  cyan: "#7DF9FF"
+  white: "#E6E6E6"
+  brightBlack: "#232323"
+  brightRed: "#FF2F55"
+  brightGreen: "#A5E075"
+  brightYellow: "#FFD700"
+  brightBlue: "#0096FF"
+  brightMagenta: "#FF0086"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 266
+  pair: null
+  contrast:
+    fg: 107.4
+    black: 0
+    red: 14.3
+    green: 67.9
+    yellow: 74.6
+    blue: 22.8
+    magenta: 22.5
+    cyan: 91.6
+    white: 91.1
+    brightBlack: 0
+    brightRed: 39.2
+    brightGreen: 77.3
+    brightYellow: 83.7
+    brightBlue: 44.3
+    brightMagenta: 39
+    brightCyan: 91.7
+    brightWhite: 107.4

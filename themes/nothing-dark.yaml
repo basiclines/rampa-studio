@@ -1,0 +1,53 @@
+name: "Nothing Dark"
+source:
+  marketplace_id: "nothing-design.nothing-theme"
+  version: "1.0.0"
+  installs: 367
+  rating: 0
+  ratings: 0
+  author: "nothing-design"
+  repo: "https://github.com/nothing-design/nothing-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=nothing-design.nothing-theme"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#E8E8E8"
+  black: "#000000"
+  red: "#999999"
+  green: "#CCCCCC"
+  yellow: "#DDDDDD"
+  blue: "#BBBBBB"
+  magenta: "#AAAAAA"
+  cyan: "#CCCCCC"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#BBBBBB"
+  brightGreen: "#DDDDDD"
+  brightYellow: "#EEEEEE"
+  brightBlue: "#CCCCCC"
+  brightMagenta: "#CCCCCC"
+  brightCyan: "#DDDDDD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: "Nothing Light"
+  contrast:
+    fg: 92.8
+    black: 0
+    red: 47
+    green: 75.5
+    yellow: 85.9
+    blue: 65.6
+    magenta: 56.1
+    cyan: 75.5
+    white: 107.7
+    brightBlack: 0
+    brightRed: 65.6
+    brightGreen: 85.9
+    brightYellow: 96.6
+    brightBlue: 75.5
+    brightMagenta: 75.5
+    brightCyan: 85.9
+    brightWhite: 107.7

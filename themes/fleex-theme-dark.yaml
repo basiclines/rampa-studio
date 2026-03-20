@@ -1,0 +1,53 @@
+name: "Fleex Theme Dark"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  rating: 5
+  ratings: 1
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+  formats: null
+colors:
+  bg: "#111315"
+  fg: "#E6E8EB"
+  black: "#0E1012"
+  red: "#FF6B6B"
+  green: "#4CB782"
+  yellow: "#E6A23C"
+  blue: "#4C9FFF"
+  magenta: "#B18AFF"
+  cyan: "#5EC8C3"
+  white: "#E6E8EB"
+  brightBlack: "#0E1012"
+  brightRed: "#FF6B6B"
+  brightGreen: "#4CB782"
+  brightYellow: "#E6A23C"
+  brightBlue: "#4C9FFF"
+  brightMagenta: "#B18AFF"
+  brightCyan: "#5EC8C3"
+  brightWhite: "#E6E8EB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Fleex Theme Light"
+  contrast:
+    fg: 92.2
+    black: 0
+    red: 48.5
+    green: 52.6
+    yellow: 58.7
+    blue: 48.8
+    magenta: 50
+    cyan: 63.4
+    white: 92.2
+    brightBlack: 0
+    brightRed: 48.5
+    brightGreen: 52.6
+    brightYellow: 58.7
+    brightBlue: 48.8
+    brightMagenta: 50
+    brightCyan: 63.4
+    brightWhite: 92.2

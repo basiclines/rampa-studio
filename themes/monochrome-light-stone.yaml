@@ -1,0 +1,53 @@
+name: "monochrome-light-stone"
+source:
+  marketplace_id: "ccssmnn.monochrome-tailwind-colors"
+  version: "1.0.0"
+  installs: 1193
+  rating: 0
+  ratings: 0
+  author: "Carl Assmann"
+  repo: "https://github.com/ccssmnn/monochrome"
+  url: "https://marketplace.visualstudio.com/items?itemName=ccssmnn.monochrome-tailwind-colors"
+  formats: null
+colors:
+  bg: "#F5F5F4"
+  fg: "#1C1917"
+  black: "#F5F5F4"
+  red: "#1C1917"
+  green: "#73716F"
+  yellow: "#1C1917"
+  blue: "#9E9D9C"
+  magenta: "#1C1917"
+  cyan: "#474543"
+  white: "#1C1917"
+  brightBlack: "#CAC9C8"
+  brightRed: "#1C1917"
+  brightGreen: "#73716F"
+  brightYellow: "#1C1917"
+  brightBlue: "#9E9D9C"
+  brightMagenta: "#1C1917"
+  brightCyan: "#474543"
+  brightWhite: "#1C1917"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: "monochrome-dark-stone"
+  contrast:
+    fg: 98.3
+    black: 0
+    red: 98.3
+    green: 67.7
+    yellow: 98.3
+    blue: 46.5
+    magenta: 98.3
+    cyan: 86.1
+    white: 98.3
+    brightBlack: 22.9
+    brightRed: 98.3
+    brightGreen: 67.7
+    brightYellow: 98.3
+    brightBlue: 46.5
+    brightMagenta: 98.3
+    brightCyan: 86.1
+    brightWhite: 98.3

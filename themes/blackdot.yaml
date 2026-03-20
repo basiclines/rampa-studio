@@ -1,0 +1,53 @@
+name: "Blackdot"
+source:
+  marketplace_id: "ignaprados.blackdot"
+  version: "1.6.0"
+  installs: 1713
+  rating: 5
+  ratings: 3
+  author: "Ignacio Prados"
+  repo: "https://github.com/IgnacioPrados/Blackdot"
+  url: "https://marketplace.visualstudio.com/items?itemName=ignaprados.blackdot"
+  formats: null
+colors:
+  bg: "#0A0A0D"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.2
+    black: 9.7
+    red: 37.6
+    green: 61.2
+    yellow: 49.4
+    blue: 50.5
+    magenta: 39.9
+    cyan: 53.4
+    white: 91.5
+    brightBlack: 16.3
+    brightRed: 46.9
+    brightGreen: 77.6
+    brightYellow: 62.1
+    brightBlue: 64.6
+    brightMagenta: 51.1
+    brightCyan: 68.7
+    brightWhite: 107.7

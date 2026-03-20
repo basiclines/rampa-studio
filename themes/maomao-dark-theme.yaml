@@ -1,0 +1,53 @@
+name: "Maomao Dark Theme"
+source:
+  marketplace_id: "apothecary-diary-theme.apothecary-diary-theme"
+  version: "0.1.0"
+  installs: 59
+  rating: 0
+  ratings: 0
+  author: "Matheus Montemurro"
+  repo: "https://github.com/montemurro19/apothecary-diary-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=apothecary-diary-theme.apothecary-diary-theme"
+  formats: null
+colors:
+  bg: "#22322E"
+  fg: "#F8F7F3"
+  black: "#1A2323"
+  red: "#C94349"
+  green: "#7AAE8F"
+  yellow: "#F4E5B0"
+  blue: "#6596BD"
+  magenta: "#5C6475"
+  cyan: "#AEE4CE"
+  white: "#F8F7F3"
+  brightBlack: "#454E4E"
+  brightRed: "#F2856B"
+  brightGreen: "#ACDFB2"
+  brightYellow: "#FFF5D5"
+  brightBlue: "#8CBCCF"
+  brightMagenta: "#8A90AB"
+  brightCyan: "#D2FADE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 178
+  pair: "Maomao Light Theme"
+  contrast:
+    fg: 97.7
+    black: 0
+    red: 24.6
+    green: 47.4
+    yellow: 86.2
+    blue: 38.3
+    magenta: 17.2
+    cyan: 78.4
+    white: 97.7
+    brightBlack: 7.9
+    brightRed: 48.1
+    brightGreen: 74.7
+    brightYellow: 96.5
+    brightBlue: 57.4
+    brightMagenta: 38.2
+    brightCyan: 93.4
+    brightWhite: 103

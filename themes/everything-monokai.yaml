@@ -1,0 +1,53 @@
+name: "Everything Monokai"
+source:
+  marketplace_id: "xckomorebi.everythingmonokai"
+  version: "0.1.1"
+  installs: 818
+  rating: 0
+  ratings: 0
+  author: "xckomorebi"
+  repo: "https://github.com/xckomorebi/EverythingMonokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=xckomorebi.everythingmonokai"
+  formats: null
+colors:
+  bg: "#212121"
+  fg: "#EEFFFF"
+  black: "#454444"
+  red: "#ED5E7B"
+  green: "#99D798"
+  yellow: "#E2C264"
+  blue: "#52AED8"
+  magenta: "#E27DE2"
+  cyan: "#76B7BC"
+  white: "#C1C0C0"
+  brightBlack: "#666565"
+  brightRed: "#EA99AA"
+  brightGreen: "#B1D3B0"
+  brightYellow: "#E7E698"
+  brightBlue: "#80C7E7"
+  brightMagenta: "#EB9DEB"
+  brightCyan: "#A5E1E1"
+  brightWhite: "#E5E4E4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 7.6
+    red: 40.6
+    green: 71
+    yellow: 69.2
+    blue: 50.9
+    magenta: 50.3
+    cyan: 55.3
+    white: 66.5
+    brightBlack: 20.4
+    brightRed: 57.2
+    brightGreen: 72.3
+    brightYellow: 86.7
+    brightBlue: 65.1
+    brightMagenta: 61.8
+    brightCyan: 79.5
+    brightWhite: 88.3

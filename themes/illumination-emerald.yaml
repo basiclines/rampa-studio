@@ -1,0 +1,50 @@
+name: "Illumination-Emerald"
+source:
+  marketplace_id: "FabiusAndriamaroson.illumination"
+  version: "0.2.7"
+  installs: 196
+  author: "Fabius Andriamaroson"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=FabiusAndriamaroson.illumination"
+  formats: null
+colors:
+  bg: "#0A0E14"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF4D4D"
+  green: "#3AE374"
+  yellow: "#FFF200"
+  blue: "#17C0EB"
+  magenta: "#7D5FFF"
+  cyan: "#67E6DC"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF4D4D"
+  brightGreen: "#3AE374"
+  brightYellow: "#FFF200"
+  brightBlue: "#17C0EB"
+  brightMagenta: "#7D5FFF"
+  brightCyan: "#67E6DC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 258
+  contrast:
+    fg: 107.6
+    black: 0
+    red: 42.7
+    green: 73
+    yellow: 96.1
+    blue: 60.3
+    magenta: 32.6
+    cyan: 79.4
+    white: 107.6
+    brightBlack: 0
+    brightRed: 42.7
+    brightGreen: 73
+    brightYellow: 96.1
+    brightBlue: 60.3
+    brightMagenta: 32.6
+    brightCyan: 79.4
+    brightWhite: 107.6

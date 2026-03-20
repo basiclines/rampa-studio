@@ -1,0 +1,53 @@
+name: "forestfly Light Hard"
+source:
+  marketplace_id: "AndreaCombette.FOREST-FLY"
+  version: "0.3.1"
+  installs: 802
+  rating: 0
+  ratings: 0
+  author: "AndreaCombette"
+  repo: "https://github.com/Chatr0uge/ForestFly-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreaCombette.FOREST-FLY"
+  formats: null
+colors:
+  bg: "#FBBEA3"
+  fg: "#3C2729"
+  black: "#FBBEA3"
+  red: "#FF2322"
+  green: "#B7665C"
+  yellow: "#FF8533"
+  blue: "#7C6966"
+  magenta: "#B7665C"
+  cyan: "#7C6966"
+  white: "#7C6966"
+  brightBlack: "#7C6966"
+  brightRed: "#993836"
+  brightGreen: "#993836"
+  brightYellow: "#B7665C"
+  brightBlue: "#4E4442"
+  brightMagenta: "#7C6966"
+  brightCyan: "#4E4442"
+  brightWhite: "#3C2729"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 45
+  pair: "forestfly Dark Hard"
+  contrast:
+    fg: 70.6
+    black: 0
+    red: 33.5
+    green: 38.4
+    yellow: 17.4
+    blue: 45.8
+    magenta: 38.4
+    cyan: 45.8
+    white: 45.8
+    brightBlack: 45.8
+    brightRed: 53.9
+    brightGreen: 53.9
+    brightYellow: 38.4
+    brightBlue: 62
+    brightMagenta: 45.8
+    brightCyan: 62
+    brightWhite: 70.6

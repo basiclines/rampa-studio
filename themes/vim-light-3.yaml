@@ -1,0 +1,53 @@
+name: "Vim Light 3"
+source:
+  marketplace_id: "theprogrammergary.atom-themes"
+  version: "2.1.9"
+  installs: 614
+  rating: 5
+  ratings: 1
+  author: "theprogrammergary"
+  repo: "https://github.com/gary-ix/Gary-VS-Code-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=theprogrammergary.atom-themes"
+  formats: null
+colors:
+  bg: "#F7F3E6"
+  fg: "#3C3836"
+  black: "#DED3B0"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#CF8900"
+  blue: "#32302F"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#7C6F64"
+  brightBlack: "#928374"
+  brightRed: "#9D0006"
+  brightGreen: "#79740E"
+  brightYellow: "#B57614"
+  brightBlue: "#076678"
+  brightMagenta: "#8F3F71"
+  brightCyan: "#427B58"
+  brightWhite: "#3C3836"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.5
+    black: 16
+    red: 68.3
+    green: 50.6
+    yellow: 47.8
+    blue: 92.3
+    magenta: 61.8
+    cyan: 51.6
+    white: 66.6
+    brightBlack: 57.1
+    brightRed: 79.8
+    brightGreen: 66.4
+    brightYellow: 57.8
+    brightBlue: 75
+    brightMagenta: 75.5
+    brightCyan: 67.2
+    brightWhite: 89.5

@@ -1,0 +1,53 @@
+name: "Tron: Ares"
+source:
+  marketplace_id: "eschalk0.tron-ares"
+  version: "0.1.5"
+  installs: 199
+  rating: 0
+  ratings: 0
+  author: "Etienne Schalk"
+  repo: "https://github.com/etienneschalk/tron-ares-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eschalk0.tron-ares"
+  formats: null
+colors:
+  bg: "#0D0000"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 29
+  pair: null
+  contrast:
+    fg: 80.4
+    black: 0
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 28.4
+    magenta: 30.7
+    cyan: 48.5
+    white: 91
+    brightBlack: 23
+    brightRed: 39.5
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 40.9
+    brightMagenta: 46.3
+    brightCyan: 56.3
+    brightWhite: 91

@@ -1,0 +1,53 @@
+name: "Charmed Dark"
+source:
+  marketplace_id: "mikhail-kirsanov.charmed-dark"
+  version: "1.0.1"
+  installs: 13
+  rating: 0
+  ratings: 0
+  author: "Mikhail Kirsanov"
+  repo: "https://github.com/m-kirsanov/charmed-dark-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=mikhail-kirsanov.charmed-dark"
+  formats: null
+colors:
+  bg: "#11151D"
+  fg: "#F0EFB7"
+  black: "#191A27"
+  red: "#FF074B"
+  green: "#45FF69"
+  yellow: "#FFCC00"
+  blue: "#82AAFF"
+  magenta: "#B175DC"
+  cyan: "#4EE7FF"
+  white: "#F0EFB7"
+  brightBlack: "#4E5579"
+  brightRed: "#F74A4A"
+  brightGreen: "#45FF69"
+  brightYellow: "#FFCC00"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#A482FF"
+  brightCyan: "#4EE7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 94.5
+    black: 0
+    red: 37.2
+    green: 87.1
+    yellow: 78.8
+    blue: 56.1
+    magenta: 41.3
+    cyan: 80.2
+    white: 94.5
+    brightBlack: 16.1
+    brightRed: 39.8
+    brightGreen: 87.1
+    brightYellow: 78.8
+    brightBlue: 56.1
+    brightMagenta: 45.7
+    brightCyan: 80.2
+    brightWhite: 107.1

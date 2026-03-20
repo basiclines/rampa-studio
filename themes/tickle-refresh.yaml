@@ -1,0 +1,53 @@
+name: "tickle-refresh"
+source:
+  marketplace_id: "jetpackguy.tangerine"
+  version: "0.1.2"
+  installs: 2608
+  rating: 5
+  ratings: 2
+  author: "jetpackguy"
+  repo: "https://github.com/jetpackguy/tangerine-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jetpackguy.tangerine"
+  formats: null
+colors:
+  bg: "#39393A"
+  fg: "#CBCBCB"
+  black: "#464647"
+  red: "#BA0E2E"
+  green: "#85FFC7"
+  yellow: "#40A5A5"
+  blue: "#FF8552"
+  magenta: "#85FFC7"
+  cyan: "#FF8552"
+  white: "#CECECE"
+  brightBlack: "#6C6C6D"
+  brightRed: "#F03E5F"
+  brightGreen: "#EBFFF6"
+  brightYellow: "#7ECDCD"
+  brightBlue: "#FFCDB8"
+  brightMagenta: "#EBFFF6"
+  brightCyan: "#FFCDB8"
+  brightWhite: "#F4F4F4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.5
+    black: 0
+    red: 13.9
+    green: 85.5
+    yellow: 38.6
+    blue: 47.5
+    magenta: 85.5
+    cyan: 47.5
+    white: 69.3
+    brightBlack: 18
+    brightRed: 30.2
+    brightGreen: 97.1
+    brightYellow: 60.9
+    brightBlue: 75.1
+    brightMagenta: 97.1
+    brightCyan: 75.1
+    brightWhite: 93

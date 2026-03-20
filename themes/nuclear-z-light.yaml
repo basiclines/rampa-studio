@@ -1,0 +1,53 @@
+name: "Nuclear'z light"
+source:
+  marketplace_id: "NuclleaR.nuclear-light"
+  version: "1.0.0"
+  installs: 468
+  rating: 0
+  ratings: 0
+  author: "Sergey Korenuk"
+  repo: "https://github.com/NuclleaR/vscode-theme-nuclear-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=NuclleaR.nuclear-light"
+  formats: null
+colors:
+  bg: "#FFF7EE"
+  fg: "#383838"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.8
+    black: 101.9
+    red: 69.9
+    green: 45.1
+    yellow: 53.8
+    blue: 81.9
+    magenta: 70.4
+    cyan: 56.5
+    white: 81.8
+    brightBlack: 74.6
+    brightRed: 69.9
+    brightGreen: 36.8
+    brightYellow: 36.8
+    brightBlue: 81.9
+    brightMagenta: 70.4
+    brightCyan: 56.5
+    brightWhite: 44.3

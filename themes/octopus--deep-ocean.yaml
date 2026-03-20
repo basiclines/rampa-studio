@@ -1,0 +1,53 @@
+name: "Octopus (Deep ocean)"
+source:
+  marketplace_id: "simecek.octopus"
+  version: "1.0.0"
+  installs: 946
+  rating: 0
+  ratings: 0
+  author: "Martin Šimeček"
+  repo: "https://github.com/simecek-m/octopus"
+  url: "https://marketplace.visualstudio.com/items?itemName=simecek.octopus"
+  formats: null
+colors:
+  bg: "#000011"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#F12D52"
+  green: "#0AE78D"
+  yellow: "#FFFC67"
+  blue: "#4883F7"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F6516F"
+  brightGreen: "#3DFCB0"
+  brightYellow: "#FFFD94"
+  brightBlue: "#6096FF"
+  brightMagenta: "#D573D5"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 107.8
+    black: 0
+    red: 36.1
+    green: 75.3
+    yellow: 101.8
+    blue: 38.6
+    magenta: 30.7
+    cyan: 48.5
+    white: 91
+    brightBlack: 23
+    brightRed: 42.2
+    brightGreen: 87.8
+    brightYellow: 103.1
+    brightBlue: 47.1
+    brightMagenta: 46.8
+    brightCyan: 56.4
+    brightWhite: 91

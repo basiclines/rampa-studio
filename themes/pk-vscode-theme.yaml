@@ -1,0 +1,53 @@
+name: "pk-vscode-theme"
+source:
+  marketplace_id: "krudi.pk-vscode-theme"
+  version: "1.0.6"
+  installs: 23
+  rating: 5
+  ratings: 1
+  author: "krudi"
+  repo: "https://github.com/krudi/pk-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=krudi.pk-vscode-theme"
+  formats: null
+colors:
+  bg: "#202020"
+  fg: "#E1E4E8"
+  black: "#586069"
+  red: "#EA4A5A"
+  green: "#34D058"
+  yellow: "#FFEA7F"
+  blue: "#2188FF"
+  magenta: "#B392F0"
+  cyan: "#39C5CF"
+  white: "#D1D5DA"
+  brightBlack: "#959DA5"
+  brightRed: "#F97583"
+  brightGreen: "#85E89D"
+  brightYellow: "#FFEA7F"
+  brightBlue: "#79B8FF"
+  brightMagenta: "#B392F0"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FAFBFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.1
+    black: 18
+    red: 35.8
+    green: 61.1
+    yellow: 91.7
+    blue: 37.8
+    magenta: 50.3
+    cyan: 59.8
+    white: 78.7
+    brightBlack: 46.6
+    brightRed: 48.6
+    brightGreen: 78
+    brightYellow: 91.7
+    brightBlue: 59.8
+    brightMagenta: 50.3
+    brightCyan: 68.3
+    brightWhite: 103

@@ -1,0 +1,53 @@
+name: "Nerd light"
+source:
+  marketplace_id: "AshinBerish.nerd-theme"
+  version: "2.0.4"
+  installs: 280
+  rating: 0
+  ratings: 0
+  author: "Ashin Berish"
+  repo: "https://github.com/ashinberish/nerd-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AshinBerish.nerd-theme"
+  formats: null
+colors:
+  bg: "#EDF2F4"
+  fg: "#171C28"
+  black: "#2F3B54"
+  red: "#FF3D4A"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#FF3D4A"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFCC66"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.6
+    black: 87.6
+    red: 52.5
+    green: 12.2
+    yellow: 14.7
+    blue: 25.5
+    magenta: 31.7
+    cyan: 25.5
+    white: 37.7
+    brightBlack: 81.8
+    brightRed: 52.5
+    brightGreen: 12.2
+    brightYellow: 14.7
+    brightBlue: 25.5
+    brightMagenta: 31.7
+    brightCyan: 25.5
+    brightWhite: 37.7

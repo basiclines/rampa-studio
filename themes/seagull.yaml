@@ -1,0 +1,53 @@
+name: "seagull"
+source:
+  marketplace_id: "bbrakenhoff.seabird"
+  version: "0.0.4"
+  installs: 754
+  rating: 4.5
+  ratings: 2
+  author: "bbrakenhoff"
+  repo: "https://github.com/bbrakenhoff/seabird-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=bbrakenhoff.seabird"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#6D767D"
+  black: "#6D767D"
+  red: "#FF4053"
+  green: "#11AB00"
+  yellow: "#BF8C00"
+  blue: "#0099FF"
+  magenta: "#FF549B"
+  cyan: "#00A5AB"
+  white: "#FFFFFF"
+  brightBlack: "#6D767D"
+  brightRed: "#FF4053"
+  brightGreen: "#11AB00"
+  brightYellow: "#BF8C00"
+  brightBlue: "#0099FF"
+  brightMagenta: "#FF549B"
+  brightCyan: "#00A5AB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.2
+    black: 72.2
+    red: 60.3
+    green: 56.8
+    yellow: 56.6
+    blue: 55.9
+    magenta: 55.6
+    cyan: 56.2
+    white: 0
+    brightBlack: 72.2
+    brightRed: 60.3
+    brightGreen: 56.8
+    brightYellow: 56.6
+    brightBlue: 55.9
+    brightMagenta: 55.6
+    brightCyan: 56.2
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Cherry Blossom Theme (Cherry Blossom Night Harmony)"
+source:
+  marketplace_id: "daitsuku.cherry-blossom-vscode-theme"
+  version: "1.2.1"
+  installs: 2134
+  rating: 0
+  ratings: 0
+  author: "daitsuku"
+  repo: "https://gitlab.com/daitsuku/cherry-blossom-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daitsuku.cherry-blossom-vscode-theme"
+  formats: null
+colors:
+  bg: "#16172E"
+  fg: "#F8FAFF"
+  black: "#1A1B34"
+  red: "#E06796"
+  green: "#5DA68C"
+  yellow: "#D4964C"
+  blue: "#4A88C7"
+  magenta: "#C0579D"
+  cyan: "#4BA7BE"
+  white: "#DBE6F7"
+  brightBlack: "#5D6A85"
+  brightRed: "#E87CA6"
+  brightGreen: "#7FCEA8"
+  brightYellow: "#E6B575"
+  brightBlue: "#78A8DB"
+  brightMagenta: "#D07EB3"
+  brightCyan: "#6CBFD2"
+  brightWhite: "#F8FAFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  pair: "Cherry Blossom Theme (Cherry Blossom Warm)"
+  contrast:
+    fg: 103.2
+    black: 0
+    red: 41.7
+    green: 45.7
+    yellow: 51.1
+    blue: 35.8
+    magenta: 32.5
+    cyan: 47.3
+    white: 89.8
+    brightBlack: 23.4
+    brightRed: 49.1
+    brightGreen: 66.3
+    brightYellow: 66
+    brightBlue: 51.8
+    brightMagenta: 45.9
+    brightCyan: 60.1
+    brightWhite: 103.2

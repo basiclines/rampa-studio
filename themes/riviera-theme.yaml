@@ -1,0 +1,54 @@
+name: "Riviera theme"
+source:
+  marketplace_id: "laander.riviera"
+  version: "0.0.3"
+  installs: 12
+  rating: 0
+  ratings: 0
+  author: "Las"
+  repo: "https://github.com/laander/riviera-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=laander.riviera"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/laander/riviera-theme/main/iterm2/riviera.itermcolors"
+colors:
+  bg: "#101114"
+  fg: "#E9E9ED"
+  black: "#454658"
+  red: "#FBD9B2"
+  green: "#FBD9B2"
+  yellow: "#FBD9B2"
+  blue: "#9CC4D3"
+  magenta: "#ECC3E4"
+  cyan: "#9CC4D3"
+  white: "#E5E5E5"
+  brightBlack: "#454658"
+  brightRed: "#FBD9B2"
+  brightGreen: "#FBD9B2"
+  brightYellow: "#FBD9B2"
+  brightBlue: "#9CC4D3"
+  brightMagenta: "#ECC3E4"
+  brightCyan: "#9CC4D3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.2
+    black: 10.5
+    red: 86.4
+    green: 86.4
+    yellow: 86.4
+    blue: 66.8
+    magenta: 77.1
+    cyan: 66.8
+    white: 90.5
+    brightBlack: 10.5
+    brightRed: 86.4
+    brightGreen: 86.4
+    brightYellow: 86.4
+    brightBlue: 66.8
+    brightMagenta: 77.1
+    brightCyan: 66.8
+    brightWhite: 107.4

@@ -1,0 +1,53 @@
+name: "GitHub Theme (GitHub Dark Dimmed)"
+source:
+  marketplace_id: "GitHub.github-vscode-theme"
+  version: "6.3.5"
+  installs: 18506606
+  rating: 4.58
+  ratings: 165
+  author: "GitHub"
+  repo: "https://github.com/primer/github-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+  formats: null
+colors:
+  bg: "#22272E"
+  fg: "#ADBAC7"
+  black: "#545D68"
+  red: "#F47067"
+  green: "#57AB5A"
+  yellow: "#C69026"
+  blue: "#539BF5"
+  magenta: "#B083F0"
+  cyan: "#39C5CF"
+  white: "#909DAB"
+  brightBlack: "#636E7B"
+  brightRed: "#FF938A"
+  brightGreen: "#6BC46D"
+  brightYellow: "#DAAA3F"
+  brightBlue: "#6CB6FF"
+  brightMagenta: "#DCBDFB"
+  brightCyan: "#56D4DD"
+  brightWhite: "#CDD9E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 257
+  pair: null
+  contrast:
+    fg: 61
+    black: 15.7
+    red: 44.6
+    green: 44.3
+    yellow: 44.5
+    blue: 44.3
+    magenta: 44.1
+    cyan: 58.7
+    white: 45.3
+    brightBlack: 22.8
+    brightRed: 57.3
+    brightGreen: 56.9
+    brightYellow: 57.1
+    brightBlue: 57
+    brightMagenta: 70.9
+    brightCyan: 67.2
+    brightWhite: 79.4

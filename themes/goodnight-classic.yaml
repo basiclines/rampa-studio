@@ -1,0 +1,53 @@
+name: "Goodnight Classic"
+source:
+  marketplace_id: "MatheusPiovezan.Goodnight"
+  version: "0.0.7"
+  installs: 2770
+  rating: 0
+  ratings: 0
+  author: "Matheus Piovezan"
+  repo: "https://github.com/MatheusPiovezan/vscode-theme-goodnight"
+  url: "https://marketplace.visualstudio.com/items?itemName=MatheusPiovezan.Goodnight"
+  formats: null
+colors:
+  bg: "#3D4047"
+  fg: "#7C7C7C"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 23.1
+    black: 9.8
+    red: 18
+    green: 44.3
+    yellow: 76.9
+    blue: 18.7
+    magenta: 21
+    cyan: 38.8
+    white: 81.3
+    brightBlack: 13.3
+    brightRed: 29.8
+    brightGreen: 54.8
+    brightYellow: 86.9
+    brightBlue: 31.3
+    brightMagenta: 36.6
+    brightCyan: 46.7
+    brightWhite: 81.3

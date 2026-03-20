@@ -1,0 +1,53 @@
+name: "Posh"
+source:
+  marketplace_id: "lucasdecastro.posh"
+  version: "1.0.6"
+  installs: 492
+  rating: 5
+  ratings: 1
+  author: "Lucas de Castro"
+  repo: "https://github.com/lucasdecstro/posh"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucasdecastro.posh"
+  formats: null
+colors:
+  bg: "#181818"
+  fg: "#E8E8E8"
+  black: "#101010"
+  red: "#C88E8A"
+  green: "#8CC8B8"
+  yellow: "#E8B89A"
+  blue: "#E8B89A"
+  magenta: "#A68EA8"
+  cyan: "#8CC8B8"
+  white: "#D8D8D0"
+  brightBlack: "#101010"
+  brightRed: "#C88E8A"
+  brightGreen: "#8CC8B8"
+  brightYellow: "#E8B89A"
+  brightBlue: "#E8B89A"
+  brightMagenta: "#A68EA8"
+  brightCyan: "#8CC8B8"
+  brightWhite: "#F0F0E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.8
+    black: 0
+    red: 48
+    green: 65.3
+    yellow: 68.6
+    blue: 68.6
+    magenta: 44.3
+    cyan: 65.3
+    white: 81.5
+    brightBlack: 0
+    brightRed: 48
+    brightGreen: 65.3
+    brightYellow: 68.6
+    brightBlue: 68.6
+    brightMagenta: 44.3
+    brightCyan: 65.3
+    brightWhite: 96.6

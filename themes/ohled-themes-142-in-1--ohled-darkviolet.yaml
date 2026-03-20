@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_DarkViolet)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#A249DC"
+  black: "#A249DC"
+  red: "#7736A1"
+  green: "#823AB0"
+  yellow: "#612C84"
+  blue: "#9744CD"
+  magenta: "#8C3FBF"
+  cyan: "#6C3193"
+  white: "#562775"
+  brightBlack: "#A249DC"
+  brightRed: "#7736A1"
+  brightGreen: "#823AB0"
+  brightYellow: "#612C84"
+  brightBlue: "#9744CD"
+  brightMagenta: "#8C3FBF"
+  brightCyan: "#6C3193"
+  brightWhite: "#562775"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 30.2
+    black: 30.2
+    red: 16.8
+    green: 19.9
+    yellow: 10.9
+    blue: 26.5
+    magenta: 23.1
+    cyan: 13.8
+    white: 8.1
+    brightBlack: 30.2
+    brightRed: 16.8
+    brightGreen: 19.9
+    brightYellow: 10.9
+    brightBlue: 26.5
+    brightMagenta: 23.1
+    brightCyan: 13.8
+    brightWhite: 8.1

@@ -1,0 +1,53 @@
+name: "2_colors"
+source:
+  marketplace_id: "AC34.vscode-night-cruise"
+  version: "0.1.0"
+  installs: 1011
+  rating: 0
+  ratings: 0
+  author: "AC34"
+  repo: "https://github.com/AC34/VSCode-Night-Cruise"
+  url: "https://marketplace.visualstudio.com/items?itemName=AC34.vscode-night-cruise"
+  formats: null
+colors:
+  bg: "#0E0E13"
+  fg: "#9798A5"
+  black: "#929292"
+  red: "#C54C27"
+  green: "#26DA95"
+  yellow: "#EEA02C"
+  blue: "#5285F3"
+  magenta: "#C126DD"
+  cyan: "#20BEEE"
+  white: "#CACACA"
+  brightBlack: "#B1B1B1"
+  brightRed: "#C54C27"
+  brightGreen: "#7DE0BA"
+  brightYellow: "#E6BA78"
+  brightBlue: "#789BE6"
+  brightMagenta: "#D469E7"
+  brightCyan: "#6CCDEB"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 46.7
+    black: 43.3
+    red: 29.3
+    green: 68.9
+    yellow: 59.6
+    blue: 39.2
+    magenta: 31.2
+    cyan: 59.7
+    white: 74.1
+    brightBlack: 59.8
+    brightRed: 29.3
+    brightGreen: 76.3
+    brightYellow: 68.9
+    brightBlue: 48.4
+    brightMagenta: 45.1
+    brightCyan: 68.6
+    brightWhite: 96.4

@@ -1,0 +1,53 @@
+name: "ystheme"
+source:
+  marketplace_id: "ystheme.ystheme"
+  version: "1.3.0"
+  installs: 3
+  rating: 0
+  ratings: 0
+  author: "Yirsis Serrano Theme"
+  repo: "https://github.com/YirsisHertz/yirsis-serrano-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ystheme.ystheme"
+  formats: null
+colors:
+  bg: "#15141B"
+  fg: "#EDECEE"
+  black: "#15141B"
+  red: "#FF6767"
+  green: "#F2F2F2"
+  yellow: "#FFCA85"
+  blue: "#A277FF"
+  magenta: "#F2F2F2"
+  cyan: "#A277FF"
+  white: "#CDCCCE"
+  brightBlack: "#2D2D2D"
+  brightRed: "#FFCA85"
+  brightGreen: "#A277FF"
+  brightYellow: "#FFCA85"
+  brightBlue: "#A277FF"
+  brightMagenta: "#F2F2F2"
+  brightCyan: "#F2F2F2"
+  brightWhite: "#EDECEE"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 94.9
+    black: 0
+    red: 47.3
+    green: 98.5
+    yellow: 79.2
+    blue: 42.4
+    magenta: 98.5
+    cyan: 42.4
+    white: 75.1
+    brightBlack: 0
+    brightRed: 79.2
+    brightGreen: 42.4
+    brightYellow: 79.2
+    brightBlue: 42.4
+    brightMagenta: 98.5
+    brightCyan: 98.5
+    brightWhite: 94.9

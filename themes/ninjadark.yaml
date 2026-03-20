@@ -1,0 +1,53 @@
+name: "NinjaDark"
+source:
+  marketplace_id: "Manikandan.ninjadark"
+  version: "0.2.0"
+  installs: 469
+  rating: 5
+  ratings: 1
+  author: "Manikandan"
+  repo: "https://github.com/mani-cmd/ninjadark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Manikandan.ninjadark"
+  formats: null
+colors:
+  bg: "#171728"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00C978"
+  yellow: "#BABA00"
+  blue: "#066BD9"
+  magenta: "#BC3FBC"
+  cyan: "#00AFD9"
+  white: "#BABABA"
+  brightBlack: "#6B6B6B"
+  brightRed: "#F14C4C"
+  brightGreen: "#00FF98"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0079FF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#00CDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 283
+  pair: null
+  contrast:
+    fg: 106.7
+    black: 0
+    red: 26.5
+    green: 58.8
+    yellow: 60.7
+    blue: 26.1
+    magenta: 29.6
+    cyan: 50.9
+    white: 64
+    brightBlack: 24
+    brightRed: 38.4
+    brightGreen: 86.9
+    brightYellow: 101.5
+    brightBlue: 33.6
+    brightMagenta: 45.2
+    brightCyan: 66.5
+    brightWhite: 106.7

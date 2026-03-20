@@ -1,0 +1,53 @@
+name: "shirotelin"
+source:
+  marketplace_id: "yasukotelin.shirotelin"
+  version: "2.12.0"
+  installs: 1134
+  rating: 4
+  ratings: 1
+  author: "yasukotelin"
+  repo: "https://github.com/yasukotelin/shirotelin-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=yasukotelin.shirotelin"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#005F00"
+  yellow: "#7A7946"
+  blue: "#0000AF"
+  magenta: "#AF00AF"
+  cyan: "#005F5F"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF0000"
+  brightGreen: "#005F00"
+  brightYellow: "#7A7946"
+  brightBlue: "#0000AF"
+  brightMagenta: "#AF00AF"
+  brightCyan: "#005F5F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 64.1
+    green: 86.9
+    yellow: 71.3
+    blue: 96.1
+    magenta: 78
+    cyan: 85.5
+    white: 0
+    brightBlack: 106
+    brightRed: 64.1
+    brightGreen: 86.9
+    brightYellow: 71.3
+    brightBlue: 96.1
+    brightMagenta: 78
+    brightCyan: 85.5
+    brightWhite: 0

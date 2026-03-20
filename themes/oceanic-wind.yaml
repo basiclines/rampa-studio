@@ -1,0 +1,53 @@
+name: "Oceanic Wind"
+source:
+  marketplace_id: "javifm.oceanic-wind"
+  version: "0.2.0"
+  installs: 1587
+  rating: 5
+  ratings: 1
+  author: "Javier Fernández"
+  repo: "https://github.com/javifm86/oceanic-wind"
+  url: "https://marketplace.visualstudio.com/items?itemName=javifm.oceanic-wind"
+  formats: null
+colors:
+  bg: "#27272A"
+  fg: "#E2E8F0"
+  black: "#000000"
+  red: "#DC2626"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#0284C7"
+  magenta: "#C026D3"
+  cyan: "#0891B2"
+  white: "#FFFFFF"
+  brightBlack: "#71717A"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#38BDF8"
+  brightMagenta: "#E879F9"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.2
+    black: 0
+    red: 26.8
+    green: 54.5
+    yellow: 62.8
+    blue: 30.9
+    magenta: 27.3
+    cyan: 34.5
+    white: 104.6
+    brightBlack: 24.8
+    brightRed: 45.8
+    brightGreen: 68.2
+    brightYellow: 75.5
+    brightBlue: 57.3
+    brightMagenta: 50.8
+    brightCyan: 66.3
+    brightWhite: 104.6

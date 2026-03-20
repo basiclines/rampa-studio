@@ -1,0 +1,53 @@
+name: "Glu Dark Lighter"
+source:
+  marketplace_id: "gabilungu.glu-dark-theme"
+  version: "0.0.1"
+  installs: 104
+  rating: 0
+  ratings: 0
+  author: "Gabriel Lungu"
+  repo: "https://gabilungu@dev.azure.com/gabilungu/Glu%20dark%20theme/_git/Glu%20dark%20theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gabilungu.glu-dark-theme"
+  formats: null
+colors:
+  bg: "#2D2B34"
+  fg: "#D9CECC"
+  black: "#37343C"
+  red: "#FF83A2"
+  green: "#7FDEC5"
+  yellow: "#FFD863"
+  blue: "#F89B84"
+  magenta: "#A888CE"
+  cyan: "#5EC7D5"
+  white: "#D9CECC"
+  brightBlack: "#7A707B"
+  brightRed: "#FF83A2"
+  brightGreen: "#7FDEC5"
+  brightYellow: "#FFD863"
+  brightBlue: "#F89B84"
+  brightMagenta: "#A888CE"
+  brightCyan: "#5EC7D5"
+  brightWhite: "#D9CECC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 296
+  pair: null
+  contrast:
+    fg: 74
+    black: 0
+    red: 52.3
+    green: 71.9
+    yellow: 81
+    blue: 57.2
+    magenta: 41.3
+    cyan: 60.1
+    white: 74
+    brightBlack: 24.5
+    brightRed: 52.3
+    brightGreen: 71.9
+    brightYellow: 81
+    brightBlue: 57.2
+    brightMagenta: 41.3
+    brightCyan: 60.1
+    brightWhite: 74

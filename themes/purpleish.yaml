@@ -1,0 +1,53 @@
+name: "purpleish"
+source:
+  marketplace_id: "Maneki404.purpleish"
+  version: "0.4.0"
+  installs: 109
+  rating: 0
+  ratings: 0
+  author: "Maneki404"
+  repo: "https://github.com/Maneki404/purplishTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Maneki404.purpleish"
+  formats: null
+colors:
+  bg: "#190030"
+  fg: "#ABB2BF"
+  black: "#6F6D6D"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#929292"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 303
+  pair: null
+  contrast:
+    fg: 59.7
+    black: 25.6
+    red: 27
+    green: 53.3
+    yellow: 85.9
+    blue: 27.7
+    magenta: 30.1
+    cyan: 47.9
+    white: 107.2
+    brightBlack: 42.9
+    brightRed: 38.9
+    brightGreen: 63.8
+    brightYellow: 95.9
+    brightBlue: 40.3
+    brightMagenta: 45.7
+    brightCyan: 55.7
+    brightWhite: 107.2

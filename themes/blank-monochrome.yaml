@@ -1,0 +1,54 @@
+name: "Blank Monochrome"
+source:
+  marketplace_id: "kiritocode1.blank-theme"
+  version: "1.0.3"
+  installs: 420
+  rating: 5
+  ratings: 4
+  author: "kiritocode1"
+  repo: "https://github.com/kiritocode1/Blank-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kiritocode1.blank-theme"
+  formats:
+    nvim: "https://raw.githubusercontent.com/kiritocode1/Blank-Theme/main/neovim/Blank-Ghibli.lua"
+colors:
+  bg: "#000000"
+  fg: "#868690"
+  black: "#131317"
+  red: "#999EB2"
+  green: "#626983"
+  yellow: "#D3D5DE"
+  blue: "#7C829D"
+  magenta: "#E2E4ED"
+  cyan: "#B6BAC8"
+  white: "#868690"
+  brightBlack: "#575861"
+  brightRed: "#999EB2"
+  brightGreen: "#626983"
+  brightYellow: "#D3D5DE"
+  brightBlue: "#7C829D"
+  brightMagenta: "#E2E4ED"
+  brightCyan: "#B6BAC8"
+  brightWhite: "#868690"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 38
+    black: 0
+    red: 50.1
+    green: 24.7
+    yellow: 81.3
+    blue: 36.2
+    magenta: 90.6
+    cyan: 65.3
+    white: 38
+    brightBlack: 17.5
+    brightRed: 50.1
+    brightGreen: 24.7
+    brightYellow: 81.3
+    brightBlue: 36.2
+    brightMagenta: 90.6
+    brightCyan: 65.3
+    brightWhite: 38

@@ -1,0 +1,53 @@
+name: "PVC (Light)"
+source:
+  marketplace_id: "friggeri.pvc-vscode-theme"
+  version: "1.0.8"
+  installs: 251
+  rating: 0
+  ratings: 0
+  author: "Adrien Friggeri"
+  repo: "https://github.com/friggeri/pvc"
+  url: "https://marketplace.visualstudio.com/items?itemName=friggeri.pvc-vscode-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#242728"
+  black: "#020303"
+  red: "#E60000"
+  green: "#88CC00"
+  yellow: "#E6BF00"
+  blue: "#7733FF"
+  magenta: "#FF006A"
+  cyan: "#00AAFF"
+  white: "#FCFCFD"
+  brightBlack: "#020303"
+  brightRed: "#E60000"
+  brightGreen: "#88CC00"
+  brightYellow: "#E6BF00"
+  brightBlue: "#7733FF"
+  brightMagenta: "#FF006A"
+  brightCyan: "#00AAFF"
+  brightWhite: "#FCFCFD"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.9
+    black: 106
+    red: 70.3
+    green: 37.6
+    yellow: 32.5
+    blue: 77
+    magenta: 63
+    cyan: 49.4
+    white: 0
+    brightBlack: 106
+    brightRed: 70.3
+    brightGreen: 37.6
+    brightYellow: 32.5
+    brightBlue: 77
+    brightMagenta: 63
+    brightCyan: 49.4
+    brightWhite: 0

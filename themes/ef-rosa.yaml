@@ -1,0 +1,53 @@
+name: "Ef Rosa"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#322023"
+  fg: "#E4D3E1"
+  black: "#E4D3E1"
+  red: "#FF707F"
+  green: "#5FBB5F"
+  yellow: "#E4C53F"
+  blue: "#57AFF6"
+  magenta: "#FFB2D6"
+  cyan: "#5FC0DC"
+  white: "#432E32"
+  brightBlack: "#9D9D9D"
+  brightRed: "#FF7F5F"
+  brightGreen: "#8AD05A"
+  brightYellow: "#F2A85F"
+  brightBlue: "#78B2FF"
+  brightMagenta: "#F28FDF"
+  brightCyan: "#7FC5DF"
+  brightWhite: "#322023"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 8
+  pair: null
+  contrast:
+    fg: 79.9
+    black: 79.9
+    red: 47.8
+    green: 52.1
+    yellow: 69.6
+    blue: 52.7
+    magenta: 70.7
+    cyan: 58.7
+    white: 0
+    brightBlack: 46.3
+    brightRed: 50.8
+    brightGreen: 64.5
+    brightYellow: 61.1
+    brightBlue: 56.4
+    brightMagenta: 57.4
+    brightCyan: 63
+    brightWhite: 0

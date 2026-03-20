@@ -1,0 +1,53 @@
+name: "Chroma Library (Neon Synthwave)"
+source:
+  marketplace_id: "CodewithBismillah.chroma-library"
+  version: "1.2.1"
+  installs: 360
+  rating: 5
+  ratings: 1
+  author: "Code with Bismillah"
+  repo: "https://github.com/mubashir1837/Chroma-Library"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodewithBismillah.chroma-library"
+  formats: null
+colors:
+  bg: "#1A0D1A"
+  fg: "#FF80FF"
+  black: "#000000"
+  red: "#FF0080"
+  green: "#FF80FF"
+  yellow: "#FFFF80"
+  blue: "#8080FF"
+  magenta: "#FF00FF"
+  cyan: "#80FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF4080"
+  brightGreen: "#FF80FF"
+  brightYellow: "#FFFF80"
+  brightBlue: "#8080FF"
+  brightMagenta: "#FF40FF"
+  brightCyan: "#80FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 327
+  pair: null
+  contrast:
+    fg: 60
+    black: 0
+    red: 38.7
+    green: 60
+    yellow: 103.1
+    blue: 41.5
+    magenta: 45.6
+    cyan: 94.7
+    white: 107.3
+    brightBlack: 22.5
+    brightRed: 41.8
+    brightGreen: 60
+    brightYellow: 103.1
+    brightBlue: 41.5
+    brightMagenta: 48.5
+    brightCyan: 94.7
+    brightWhite: 107.3

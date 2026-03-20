@@ -1,0 +1,53 @@
+name: "Dark Mode VS"
+source:
+  marketplace_id: "DarkModeVS.dark-mode-vs"
+  version: "1.3.0"
+  installs: 2691
+  rating: 4.33
+  ratings: 3
+  author: "Dark Mode VS"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkModeVS.dark-mode-vs"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFF00"
+  black: "#201B2D"
+  red: "#FF79C6"
+  green: "#67E480"
+  yellow: "#A6B144"
+  blue: "#78D1E1"
+  magenta: "#FF00DD"
+  cyan: "#FF0000"
+  white: "#E1E1E1"
+  brightBlack: "#626483"
+  brightRed: "#ED4556"
+  brightGreen: "#00F769"
+  brightYellow: "#E7DE79"
+  brightBlue: "#78D1E1"
+  brightMagenta: "#988BC7"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#F7F7FB"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 55.6
+    green: 75.6
+    yellow: 56.1
+    blue: 71
+    magenta: 43.8
+    cyan: 37.5
+    white: 88.5
+    brightBlack: 23.2
+    brightRed: 37.8
+    brightGreen: 82.9
+    brightYellow: 84.7
+    brightBlue: 71
+    brightMagenta: 44.3
+    brightCyan: 97.8
+    brightWhite: 102.8

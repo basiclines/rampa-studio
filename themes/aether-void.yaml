@@ -1,0 +1,53 @@
+name: "Aether Void"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#07090F"
+  fg: "#C5CDD9"
+  black: "#07090F"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#70C0E8"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#C5CDD9"
+  brightBlack: "#2D3548"
+  brightRed: "#F07178"
+  brightGreen: "#B3D39C"
+  brightYellow: "#F0C674"
+  brightBlue: "#8CC4FF"
+  brightMagenta: "#E2A6FF"
+  brightCyan: "#6FC3DF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 268
+  pair: "Aether Zen"
+  contrast:
+    fg: 75.7
+    black: 0
+    red: 43
+    green: 63.2
+    yellow: 71.5
+    blue: 63.2
+    magenta: 46
+    cyan: 55.5
+    white: 75.7
+    brightBlack: 0
+    brightRed: 47.5
+    brightGreen: 74
+    brightYellow: 75.5
+    brightBlue: 68.2
+    brightMagenta: 66.7
+    brightCyan: 63.9
+    brightWhite: 107.8

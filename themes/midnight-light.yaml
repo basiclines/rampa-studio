@@ -1,0 +1,53 @@
+name: "Midnight Light"
+source:
+  marketplace_id: "ExtRise.midnight-dark-theme"
+  version: "1.0.0"
+  installs: 92
+  rating: 0
+  ratings: 0
+  author: "ExtRise"
+  repo: "https://github.com/extrise/midnight-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ExtRise.midnight-dark-theme"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#2E3440"
+  black: "#1F2937"
+  red: "#DC2626"
+  green: "#059669"
+  yellow: "#D97706"
+  blue: "#0EA5E9"
+  magenta: "#7C3AED"
+  cyan: "#0891B2"
+  white: "#F9FAFB"
+  brightBlack: "#6B7280"
+  brightRed: "#EF4444"
+  brightGreen: "#10B981"
+  brightYellow: "#F59E0B"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#8B5CF6"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Midnight Dark"
+  contrast:
+    fg: 95.4
+    black: 98.5
+    red: 68.6
+    green: 61.6
+    yellow: 55.5
+    blue: 49.8
+    magenta: 74.5
+    cyan: 60.8
+    white: 0
+    brightBlack: 70.6
+    brightRed: 60.8
+    brightGreen: 46.1
+    brightYellow: 38.8
+    brightBlue: 60.9
+    brightMagenta: 65.7
+    brightCyan: 44.2
+    brightWhite: 0

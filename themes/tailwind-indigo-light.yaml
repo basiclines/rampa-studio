@@ -1,0 +1,53 @@
+name: "Tailwind Indigo Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#EEF2FF"
+  fg: "#3730A3"
+  black: "#312E81"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#E0E7FF"
+  brightBlack: "#312E81"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#E0E7FF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Tailwind Indigo Dark"
+  contrast:
+    fg: 84.7
+    black: 88.2
+    red: 56.2
+    green: 36.7
+    yellow: 28.7
+    blue: 56.2
+    magenta: 58.6
+    cyan: 39.5
+    white: 0
+    brightBlack: 88.2
+    brightRed: 56.2
+    brightGreen: 36.7
+    brightYellow: 28.7
+    brightBlue: 56.2
+    brightMagenta: 58.6
+    brightCyan: 39.5
+    brightWhite: 0

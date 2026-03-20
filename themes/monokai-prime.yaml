@@ -1,0 +1,53 @@
+name: "Monokai Prime"
+source:
+  marketplace_id: "nhoekstra.monokai-prime"
+  version: "0.0.2"
+  installs: 682
+  rating: 0
+  ratings: 0
+  author: "Nicholas Hoekstra"
+  repo: "https://github.com/nhoekstra/monokai-prime"
+  url: "https://marketplace.visualstudio.com/items?itemName=nhoekstra.monokai-prime"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#F8F8F2"
+  black: "#1A1A1A"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#FD971F"
+  blue: "#AE81FF"
+  magenta: "#F92672"
+  cyan: "#66D9EF"
+  white: "#CFCFC2"
+  brightBlack: "#75715E"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E6DB74"
+  brightBlue: "#AE81FF"
+  brightMagenta: "#F92672"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.1
+    black: 0
+    red: 36.5
+    green: 76.2
+    yellow: 57.9
+    blue: 45.7
+    magenta: 36.5
+    cyan: 72.6
+    white: 75.1
+    brightBlack: 25.8
+    brightRed: 36.5
+    brightGreen: 76.2
+    brightYellow: 81.2
+    brightBlue: 45.7
+    brightMagenta: 36.5
+    brightCyan: 72.6
+    brightWhite: 101.1

@@ -1,0 +1,53 @@
+name: "Zenbones Neobones Dark Stark"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#091217"
+  fg: "#C6D5CF"
+  black: "#0F191F"
+  red: "#DE6E7C"
+  green: "#90FF6B"
+  yellow: "#B77E64"
+  blue: "#8190D4"
+  magenta: "#B279A7"
+  cyan: "#66A5AD"
+  white: "#C6D5CF"
+  brightBlack: "#263945"
+  brightRed: "#E8838F"
+  brightGreen: "#A0FF85"
+  brightYellow: "#D68C67"
+  brightBlue: "#92A0E2"
+  brightMagenta: "#CF86C1"
+  brightCyan: "#65B8C1"
+  brightWhite: "#98A39E"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 233
+  pair: "Zenbones Neobones Light Dim"
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 42.9
+    green: 90.9
+    yellow: 39.9
+    blue: 43.9
+    magenta: 39.9
+    cyan: 47.8
+    white: 78.5
+    brightBlack: 0
+    brightRed: 50.9
+    brightGreen: 92.6
+    brightYellow: 49.3
+    brightBlue: 52.1
+    brightMagenta: 49.5
+    brightCyan: 56.6
+    brightWhite: 50.6

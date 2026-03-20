@@ -1,0 +1,53 @@
+name: "inksea Midnight"
+source:
+  marketplace_id: "inksea.inksea-theme"
+  version: "3.3.0"
+  installs: 12188
+  rating: 5
+  ratings: 3
+  author: "_inkSea"
+  repo: "https://github.com/inksea/inksea-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=inksea.inksea-theme"
+  formats: null
+colors:
+  bg: "#0A0B0F"
+  fg: "#C4CAD1"
+  black: "#212529"
+  red: "#EF5285"
+  green: "#63E6BE"
+  yellow: "#F6B352"
+  blue: "#B084EB"
+  magenta: "#FF9AC1"
+  cyan: "#45A9F9"
+  white: "#C4CAD1"
+  brightBlack: "#6272A4"
+  brightRed: "#EF5285"
+  brightGreen: "#63E6BE"
+  brightYellow: "#FFCC95"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#6FC1FF"
+  brightWhite: "#C4CAD1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.9
+    black: 0
+    red: 41.3
+    green: 78.1
+    yellow: 68.4
+    blue: 47.1
+    magenta: 64.4
+    cyan: 52.5
+    white: 73.9
+    brightBlack: 28.9
+    brightRed: 41.3
+    brightGreen: 78.1
+    brightYellow: 81.1
+    brightBlue: 66.9
+    brightMagenta: 63.4
+    brightCyan: 64.8
+    brightWhite: 73.9

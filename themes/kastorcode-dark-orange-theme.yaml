@@ -1,0 +1,53 @@
+name: "KastorCode Dark Orange Theme"
+source:
+  marketplace_id: "kastorcode.kastorcode-dark-orange-theme"
+  version: "1.0.1"
+  installs: 6970
+  rating: 5
+  ratings: 1
+  author: "KastorCode"
+  repo: "https://github.com/kastorcode/kastorcode-dark-orange-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=kastorcode.kastorcode-dark-orange-theme"
+  formats: null
+colors:
+  bg: "#190802"
+  fg: "#FFFFFF"
+  black: "#777777"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#A2A2A2"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 48
+  pair: null
+  contrast:
+    fg: 107.6
+    black: 30.2
+    red: 27.4
+    green: 53.7
+    yellow: 86.3
+    blue: 28.1
+    magenta: 30.4
+    cyan: 48.2
+    white: 90.7
+    brightBlack: 51.6
+    brightRed: 39.2
+    brightGreen: 64.2
+    brightYellow: 96.3
+    brightBlue: 40.7
+    brightMagenta: 46
+    brightCyan: 56.1
+    brightWhite: 90.7

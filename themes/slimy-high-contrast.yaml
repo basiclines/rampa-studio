@@ -1,0 +1,53 @@
+name: "Slimy (high-contrast)"
+source:
+  marketplace_id: "chancestrickland.slimy-theme"
+  version: "0.4.8"
+  installs: 865
+  rating: 5
+  ratings: 1
+  author: "Chance Strickland"
+  repo: "https://github.com/chancestrickland/slimy"
+  url: "https://marketplace.visualstudio.com/items?itemName=chancestrickland.slimy-theme"
+  formats: null
+colors:
+  bg: "#121515"
+  fg: "#E0E0E0"
+  black: "#1D2020"
+  red: "#D86161"
+  green: "#BBE887"
+  yellow: "#EFD154"
+  blue: "#9DD2EA"
+  magenta: "#E8B5BB"
+  cyan: "#88E0FF"
+  white: "#FFFFFF"
+  brightBlack: "#242727"
+  brightRed: "#E86F6E"
+  brightGreen: "#CAF895"
+  brightYellow: "#FFE063"
+  brightBlue: "#ACE1FA"
+  brightMagenta: "#F8C4CA"
+  brightCyan: "#98EFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 37.7
+    green: 83.4
+    yellow: 78.8
+    blue: 73.9
+    magenta: 68.9
+    cyan: 79.8
+    white: 107.1
+    brightBlack: 0
+    brightRed: 44.5
+    brightGreen: 93.2
+    brightYellow: 88
+    brightBlue: 83
+    brightMagenta: 77.9
+    brightCyan: 88.2
+    brightWhite: 107.1

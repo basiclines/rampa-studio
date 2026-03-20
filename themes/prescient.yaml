@@ -1,0 +1,53 @@
+name: "Prescient"
+source:
+  marketplace_id: "zevross.prescient-theme"
+  version: "1.1.0"
+  installs: 20
+  rating: 0
+  ratings: 0
+  author: "Zev Ross"
+  repo: "https://github.com/zev18/prescient-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zevross.prescient-theme"
+  formats: null
+colors:
+  bg: "#1E1F2C"
+  fg: "#89859F"
+  black: "#1E1F2C"
+  red: "#FF4D73"
+  green: "#A0FFC0"
+  yellow: "#E7FF59"
+  blue: "#D1FF9D"
+  magenta: "#FF6C9D"
+  cyan: "#D1FF9D"
+  white: "#FFFFFF"
+  brightBlack: "#89859F"
+  brightRed: "#FF4D73"
+  brightGreen: "#A0FFC0"
+  brightYellow: "#E7FF59"
+  brightBlue: "#BAFF7E"
+  brightMagenta: "#FF6C9D"
+  brightCyan: "#BAFF7E"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 281
+  pair: null
+  contrast:
+    fg: 36.5
+    black: 0
+    red: 41.7
+    green: 92.7
+    yellow: 97.7
+    blue: 96.3
+    magenta: 48.7
+    cyan: 96.3
+    white: 105.8
+    brightBlack: 36.5
+    brightRed: 41.7
+    brightGreen: 92.7
+    brightYellow: 97.7
+    brightBlue: 93.2
+    brightMagenta: 48.7
+    brightCyan: 93.2
+    brightWhite: 105.8

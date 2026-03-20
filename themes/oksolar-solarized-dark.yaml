@@ -1,0 +1,54 @@
+name: "OKSolar (Solarized (dark))"
+source:
+  marketplace_id: "dalen.vscode-oksolar"
+  version: "0.0.2"
+  installs: 645
+  rating: 5
+  ratings: 2
+  author: "dalen"
+  repo: "https://github.com/dalen/vscode-oksolar"
+  url: "https://marketplace.visualstudio.com/items?itemName=dalen.vscode-oksolar"
+  formats:
+    zed: "https://raw.githubusercontent.com/dalen/vscode-oksolar/master/themes/oklabs-solarized-dark-color-theme.json"
+colors:
+  bg: "#002D38"
+  fg: "#98A8A8"
+  black: "#093946"
+  red: "#F23749"
+  green: "#819500"
+  yellow: "#AC8300"
+  blue: "#2B90D8"
+  magenta: "#DD459D"
+  cyan: "#259D94"
+  white: "#F1E9D2"
+  brightBlack: "#002D38"
+  brightRed: "#D56500"
+  brightGreen: "#5B7279"
+  brightYellow: "#657377"
+  brightBlue: "#98A8A8"
+  brightMagenta: "#7D80D1"
+  brightCyan: "#8FAAAB"
+  brightWhite: "#F8F5EC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 219
+  pair: "OKSolar (Solarized (light))"
+  contrast:
+    fg: 49.6
+    black: 0
+    red: 33.3
+    green: 37
+    yellow: 35.6
+    blue: 36.3
+    magenta: 32.7
+    cyan: 37.7
+    white: 89.9
+    brightBlack: 0
+    brightRed: 34.1
+    brightGreen: 22.8
+    brightYellow: 23.8
+    brightBlue: 49.6
+    brightMagenta: 34.7
+    brightCyan: 49.7
+    brightWhite: 97.5

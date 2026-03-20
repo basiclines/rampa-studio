@@ -1,0 +1,53 @@
+name: "Purstel"
+source:
+  marketplace_id: "synanesthetics.purstel-theme"
+  version: "0.1.0"
+  installs: 235
+  rating: 0
+  ratings: 0
+  author: "synanesthetics"
+  repo: "https://github.com/synanesthetics/Purstel"
+  url: "https://marketplace.visualstudio.com/items?itemName=synanesthetics.purstel-theme"
+  formats: null
+colors:
+  bg: "#15111B"
+  fg: "#CDD6F4"
+  black: "#45475A"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#2472C8"
+  magenta: "#F5C2E7"
+  cyan: "#94E2D5"
+  white: "#BAC2DE"
+  brightBlack: "#585B70"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#94E2D5"
+  brightWhite: "#A6ADC8"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 303
+  pair: null
+  contrast:
+    fg: 81.4
+    black: 10.7
+    red: 56.1
+    green: 79.8
+    yellow: 89.8
+    blue: 27.8
+    magenta: 78.1
+    cyan: 79.7
+    white: 69.5
+    brightBlack: 18.3
+    brightRed: 56.1
+    brightGreen: 79.8
+    brightYellow: 89.8
+    brightBlue: 40.4
+    brightMagenta: 78.1
+    brightCyan: 79.7
+    brightWhite: 57.6

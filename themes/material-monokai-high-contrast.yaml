@@ -1,0 +1,53 @@
+name: "Material Monokai High Contrast"
+source:
+  marketplace_id: "Cystee.vceyefriendtheme"
+  version: "1.1.0"
+  installs: 1348
+  rating: 5
+  ratings: 1
+  author: "Cystee"
+  repo: "https://github.com/Cystee/VCEyeFriendTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Cystee.vceyefriendtheme"
+  formats: null
+colors:
+  bg: "#263238"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF2C96"
+  green: "#9DFF00"
+  yellow: "#E6DB74"
+  blue: "#82AAFF"
+  magenta: "#B78AFF"
+  cyan: "#2EDCFF"
+  white: "#FFFFFF"
+  brightBlack: "#8BAFC0"
+  brightRed: "#FF2C96"
+  brightGreen: "#9DFF00"
+  brightYellow: "#E6DB74"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#B78AFF"
+  brightCyan: "#2EDCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 102.7
+    black: 0
+    red: 36.2
+    green: 86.5
+    yellow: 77.9
+    blue: 51.7
+    magenta: 46.2
+    cyan: 69.8
+    white: 102.7
+    brightBlack: 50.8
+    brightRed: 36.2
+    brightGreen: 86.5
+    brightYellow: 77.9
+    brightBlue: 51.7
+    brightMagenta: 46.2
+    brightCyan: 69.8
+    brightWhite: 102.7

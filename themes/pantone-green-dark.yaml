@@ -1,0 +1,53 @@
+name: "Pantone Green (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#131E05"
+  fg: "#DCDDCA"
+  black: "#131E05"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#448551"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#DCDDCA"
+  brightBlack: "#808B40"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F5F4F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 129
+  pair: "Pantone Green (Light)"
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 31.7
+    green: 51.3
+    yellow: 71
+    blue: 29.5
+    magenta: 32.7
+    cyan: 51.9
+    white: 83.6
+    brightBlack: 35.7
+    brightRed: 38.1
+    brightGreen: 58.5
+    brightYellow: 75.3
+    brightBlue: 28.3
+    brightMagenta: 41.3
+    brightCyan: 58.5
+    brightWhite: 99.2

@@ -1,0 +1,53 @@
+name: "Rainglow (jewel-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#5C6470"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#6299C4"
+  yellow: "#C262C4"
+  blue: "#62C47C"
+  magenta: "#6299C4"
+  cyan: "#62C47C"
+  white: "#68717E"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#ACC9E0"
+  brightYellow: "#DFACE0"
+  brightBlue: "#ACE0BA"
+  brightMagenta: "#ACC9E0"
+  brightCyan: "#ACE0BA"
+  brightWhite: "#8F97A3"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (jewel-contrast)"
+  contrast:
+    fg: 79.9
+    black: 0
+    red: 80.3
+    green: 57.3
+    yellow: 63.1
+    blue: 42.3
+    magenta: 57.3
+    cyan: 42.3
+    white: 74.2
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 31.1
+    brightYellow: 35.8
+    brightBlue: 22.9
+    brightMagenta: 31.1
+    brightCyan: 22.9
+    brightWhite: 56

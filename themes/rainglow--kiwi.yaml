@@ -1,0 +1,53 @@
+name: "Rainglow (kiwi)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#2A3330"
+  fg: "#EDEBE6"
+  black: "#36413D"
+  red: "#BA0E2E"
+  green: "#229986"
+  yellow: "#95C72A"
+  blue: "#0B6D5C"
+  magenta: "#229986"
+  cyan: "#95C72A"
+  white: "#F8F7F5"
+  brightBlack: "#586B65"
+  brightRed: "#F03E5F"
+  brightGreen: "#4AD7C0"
+  brightYellow: "#BFE275"
+  brightBlue: "#14CAAA"
+  brightMagenta: "#4AD7C0"
+  brightCyan: "#BFE275"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 173
+  pair: "Rainglow (kiwi-light)"
+  contrast:
+    fg: 89.5
+    black: 0
+    red: 16.1
+    green: 34
+    yellow: 58.4
+    blue: 15.8
+    magenta: 34
+    cyan: 58.4
+    white: 97.3
+    brightBlack: 18.1
+    brightRed: 32.4
+    brightGreen: 64.7
+    brightYellow: 76
+    brightBlue: 56.7
+    brightMagenta: 64.7
+    brightCyan: 76
+    brightWhite: 102.5

@@ -1,0 +1,53 @@
+name: "Zenbones Zenwritten Dark Warm"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#1F1F1F"
+  fg: "#BBBBBB"
+  black: "#191919"
+  red: "#DE6E7C"
+  green: "#819B69"
+  yellow: "#B77E64"
+  blue: "#6099C0"
+  magenta: "#B279A7"
+  cyan: "#66A5AD"
+  white: "#BBBBBB"
+  brightBlack: "#3D3839"
+  brightRed: "#E8838F"
+  brightGreen: "#8BAE68"
+  brightYellow: "#D68C67"
+  brightBlue: "#61ABDA"
+  brightMagenta: "#CF86C1"
+  brightCyan: "#65B8C1"
+  brightWhite: "#8E8E8E"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "Zenbones Zenwritten Light Bright"
+  contrast:
+    fg: 63.8
+    black: 0
+    red: 41.4
+    green: 42.1
+    yellow: 38.4
+    blue: 42.2
+    magenta: 38.4
+    cyan: 46.3
+    white: 63.8
+    brightBlack: 0
+    brightRed: 49.5
+    brightGreen: 50.7
+    brightYellow: 47.9
+    brightBlue: 50.8
+    brightMagenta: 48
+    brightCyan: 55.2
+    brightWhite: 39.6

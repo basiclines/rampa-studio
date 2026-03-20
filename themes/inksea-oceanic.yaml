@@ -1,0 +1,53 @@
+name: "inksea Oceanic"
+source:
+  marketplace_id: "inksea.inksea-theme"
+  version: "3.3.0"
+  installs: 12188
+  rating: 5
+  ratings: 3
+  author: "_inkSea"
+  repo: "https://github.com/inksea/inksea-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=inksea.inksea-theme"
+  formats: null
+colors:
+  bg: "#15171C"
+  fg: "#A7AEC4"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#00B5A6"
+  yellow: "#B59964"
+  blue: "#BD93F9"
+  magenta: "#C5A6C4"
+  cyan: "#6699CC"
+  white: "#C4CAD1"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#99C794"
+  brightYellow: "#E3B686"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#00A9EF"
+  brightWhite: "#C4CAD1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 57.6
+    black: 0
+    red: 43.4
+    green: 51.3
+    yellow: 48.1
+    blue: 53.6
+    magenta: 58.3
+    cyan: 44.2
+    white: 73
+    brightBlack: 28
+    brightRed: 48.8
+    brightGreen: 64.9
+    brightYellow: 66.5
+    brightBlue: 66.1
+    brightMagenta: 62.6
+    brightCyan: 50
+    brightWhite: 73

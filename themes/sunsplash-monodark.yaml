@@ -1,0 +1,53 @@
+name: "SunSplash monodark"
+source:
+  marketplace_id: "Rsanttos.sunsplash-monodark"
+  version: "1.0.0"
+  installs: 66
+  rating: 0
+  ratings: 0
+  author: "Rsanttos"
+  repo: "https://github.com/vricardo5/monodark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Rsanttos.sunsplash-monodark"
+  formats: null
+colors:
+  bg: "#1B1C22"
+  fg: "#BABE34"
+  black: "#4F4A1C"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 62.2
+    black: 10
+    red: 26.1
+    green: 52.4
+    yellow: 85
+    blue: 26.8
+    magenta: 29.1
+    cyan: 46.9
+    white: 89.4
+    brightBlack: 21.4
+    brightRed: 38
+    brightGreen: 62.9
+    brightYellow: 95
+    brightBlue: 39.4
+    brightMagenta: 44.8
+    brightCyan: 54.8
+    brightWhite: 89.4

@@ -1,0 +1,53 @@
+name: "Calmppuccin (Calmppuccin Frappe)"
+source:
+  marketplace_id: "kenan-salar.calmppuccin-vscode"
+  version: "1.9.9"
+  installs: 6431
+  rating: 5
+  ratings: 4
+  author: "Kenan Salar"
+  repo: "https://github.com/KenanSalar/calmppuccin-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=kenan-salar.calmppuccin-vscode"
+  formats: null
+colors:
+  bg: "#2F3344"
+  fg: "#C6D0F5"
+  black: "#51576D"
+  red: "#DD7D9A"
+  green: "#A6D189"
+  yellow: "#E5C890"
+  blue: "#79A0DF"
+  magenta: "#F4B8E4"
+  cyan: "#89D3CA"
+  white: "#A5ADCE"
+  brightBlack: "#626880"
+  brightRed: "#E67172"
+  brightGreen: "#8EC772"
+  brightYellow: "#D9BA73"
+  brightBlue: "#7B9EF0"
+  brightMagenta: "#F2A4DB"
+  brightCyan: "#5ABFB5"
+  brightWhite: "#B5BFE2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 274
+  pair: "Calmppuccin (Calmppuccin Latte)"
+  contrast:
+    fg: 72.6
+    black: 11.1
+    red: 42.1
+    green: 65.3
+    yellow: 69.3
+    blue: 44.2
+    magenta: 68.6
+    cyan: 65.9
+    white: 52.4
+    brightBlack: 18.2
+    brightRed: 39.4
+    brightGreen: 58
+    brightYellow: 61.1
+    brightBlue: 44.7
+    brightMagenta: 60.7
+    brightCyan: 53.1
+    brightWhite: 62.5

@@ -1,0 +1,53 @@
+name: "Muted Mirage"
+source:
+  marketplace_id: "mouhany.muted-mirage"
+  version: "1.0.4"
+  installs: 333
+  rating: 0
+  ratings: 0
+  author: "Mouhany"
+  repo: "https://github.com/mouhany/muted-mirage"
+  url: "https://marketplace.visualstudio.com/items?itemName=mouhany.muted-mirage"
+  formats: null
+colors:
+  bg: "#1B202C"
+  fg: "#878889"
+  black: "#0D1117"
+  red: "#B0635B"
+  green: "#738054"
+  yellow: "#E6C074"
+  blue: "#75ABBE"
+  magenta: "#B59599"
+  cyan: "#84BDBD"
+  white: "#C7C8C9"
+  brightBlack: "#000000"
+  brightRed: "#C7544A"
+  brightGreen: "#768947"
+  brightYellow: "#FEC555"
+  brightBlue: "#60B1CD"
+  brightMagenta: "#BF8F95"
+  brightCyan: "#84C7C7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 36.4
+    black: 0
+    red: 29.4
+    green: 30.2
+    yellow: 69.4
+    blue: 50.4
+    magenta: 47.1
+    cyan: 59
+    white: 71.1
+    brightBlack: 0
+    brightRed: 29.8
+    brightGreen: 33.5
+    brightYellow: 74.9
+    brightBlue: 52.3
+    brightMagenta: 46.3
+    brightCyan: 63.9
+    brightWhite: 105.7

@@ -1,0 +1,53 @@
+name: "Rainglow (hub-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#24292E"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#D73A49"
+  yellow: "#005CC5"
+  blue: "#005CC5"
+  magenta: "#D73A49"
+  cyan: "#6F42C1"
+  white: "#2F363C"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#E88F97"
+  brightYellow: "#2C8FFF"
+  brightBlue: "#2C8FFF"
+  brightMagenta: "#E88F97"
+  brightCyan: "#AA8FDA"
+  brightWhite: "#515C67"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (hub-contrast)"
+  contrast:
+    fg: 101.5
+    black: 0
+    red: 80.3
+    green: 70.4
+    yellow: 80.5
+    blue: 80.5
+    magenta: 70.4
+    cyan: 81.7
+    white: 98
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 46.8
+    brightYellow: 59.1
+    brightBlue: 59.1
+    brightMagenta: 46.8
+    brightCyan: 53
+    brightWhite: 83.6

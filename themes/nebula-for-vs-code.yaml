@@ -1,0 +1,53 @@
+name: "Nebula for VS Code"
+source:
+  marketplace_id: "tjk.nebula-vscode"
+  version: "0.0.1"
+  installs: 519
+  rating: 0
+  ratings: 0
+  author: "TJ Kohli"
+  repo: "https://github.com/tjkohli/nebula-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=tjk.nebula-vscode"
+  formats: null
+colors:
+  bg: "#161921"
+  fg: "#D4D4D4"
+  black: "#494F5E"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#737B8E"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 269
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 12.6
+    red: 26.5
+    green: 52.8
+    yellow: 85.4
+    blue: 27.2
+    magenta: 29.5
+    cyan: 47.3
+    white: 89.8
+    brightBlack: 31.1
+    brightRed: 38.3
+    brightGreen: 63.3
+    brightYellow: 95.4
+    brightBlue: 39.8
+    brightMagenta: 45.1
+    brightCyan: 55.2
+    brightWhite: 89.8

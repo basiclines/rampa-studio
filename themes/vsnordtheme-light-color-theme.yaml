@@ -1,0 +1,53 @@
+name: "VSNordTheme-light-color-theme"
+source:
+  marketplace_id: "Kochan.vs-nord-theme"
+  version: "1.0.2"
+  installs: 528
+  rating: 0
+  ratings: 0
+  author: "Koiverse"
+  repo: "https://github.com/koimoee/VSNordTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kochan.vs-nord-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#2E3440"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#2E3440"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.4
+    black: 93.4
+    red: 67.7
+    green: 39.7
+    yellow: 25.7
+    blue: 52.2
+    magenta: 54.3
+    cyan: 38.7
+    white: 98.4
+    brightBlack: 85.6
+    brightRed: 67.7
+    brightGreen: 39.7
+    brightYellow: 25.7
+    brightBlue: 52.2
+    brightMagenta: 54.3
+    brightCyan: 40.7
+    brightWhite: 0

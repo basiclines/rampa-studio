@@ -1,0 +1,53 @@
+name: "Rm Dark Theme"
+source:
+  marketplace_id: "raihaninfo.rm-dark-theme"
+  version: "1.0.5"
+  installs: 1544
+  rating: 5
+  ratings: 8
+  author: "raihaninfo"
+  repo: "https://github.com/raihaninfo/rm-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=raihaninfo.rm-dark-theme"
+  formats: null
+colors:
+  bg: "#041225"
+  fg: "#FFFFFF"
+  black: "#041225"
+  red: "#E35535"
+  green: "#52AB62"
+  yellow: "#E6C553"
+  blue: "#00B3BD"
+  magenta: "#E991E3"
+  cyan: "#78E8C6"
+  white: "#FFFFFF"
+  brightBlack: "#00B3BD"
+  brightRed: "#E35535"
+  brightGreen: "#52AB62"
+  brightYellow: "#E6C553"
+  brightBlue: "#00B3BD"
+  brightMagenta: "#E991E3"
+  brightCyan: "#78E8C6"
+  brightWhite: "#00B3BD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 255
+  pair: null
+  contrast:
+    fg: 107.2
+    black: 0
+    red: 37
+    green: 46.8
+    yellow: 72.4
+    blue: 51.7
+    magenta: 58.9
+    cyan: 80
+    white: 107.2
+    brightBlack: 51.7
+    brightRed: 37
+    brightGreen: 46.8
+    brightYellow: 72.4
+    brightBlue: 51.7
+    brightMagenta: 58.9
+    brightCyan: 80
+    brightWhite: 51.7

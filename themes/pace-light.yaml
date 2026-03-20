@@ -1,0 +1,53 @@
+name: "Pace Light"
+source:
+  marketplace_id: "fabian-hiller.pace-theme"
+  version: "0.3.0"
+  installs: 4450
+  rating: 5
+  ratings: 4
+  author: "Fabian Hiller"
+  repo: "https://github.com/fabian-hiller/vscode-pace-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=fabian-hiller.pace-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#64748B"
+  black: "#E2E8F0"
+  red: "#B91C1C"
+  green: "#047857"
+  yellow: "#A16207"
+  blue: "#1D4ED8"
+  magenta: "#7E22CE"
+  cyan: "#0F766E"
+  white: "#334155"
+  brightBlack: "#94A3B8"
+  brightRed: "#DC2626"
+  brightGreen: "#047857"
+  brightYellow: "#A16207"
+  brightBlue: "#1D4ED8"
+  brightMagenta: "#E879F9"
+  brightCyan: "#0F766E"
+  brightWhite: "#334155"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Pace Dark"
+  contrast:
+    fg: 73
+    black: 11.5
+    red: 80.2
+    green: 76.8
+    yellow: 73.7
+    blue: 82.2
+    magenta: 82.8
+    cyan: 76.9
+    white: 94
+    brightBlack: 50.2
+    brightRed: 71.6
+    brightGreen: 76.8
+    brightYellow: 73.7
+    brightBlue: 82.2
+    brightMagenta: 47.9
+    brightCyan: 76.9
+    brightWhite: 94

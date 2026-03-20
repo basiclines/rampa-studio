@@ -1,0 +1,50 @@
+name: "EyeBreaker"
+source:
+  marketplace_id: "Berpcor.eyebreakertheme"
+  version: "0.0.1"
+  installs: 68
+  author: "Berpcor"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Berpcor.eyebreakertheme"
+  formats: null
+colors:
+  bg: "#130C43"
+  fg: "#31B2D1"
+  black: "#482FC2"
+  red: "#CD5757"
+  green: "#0DBC79"
+  yellow: "#CB9E17"
+  blue: "#1463BA"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#BDDDFF"
+  brightBlack: "#5432FF"
+  brightRed: "#D51515"
+  brightGreen: "#23D18B"
+  brightYellow: "#D7D719"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 280
+  contrast:
+    fg: 52.2
+    black: 12.6
+    red: 32.8
+    green: 52.8
+    yellow: 52.1
+    blue: 21.4
+    magenta: 29.5
+    cyan: 47.3
+    white: 82.7
+    brightBlack: 20.2
+    brightRed: 26.4
+    brightGreen: 63.3
+    brightYellow: 77.1
+    brightBlue: 39.8
+    brightMagenta: 45.2
+    brightCyan: 55.2
+    brightWhite: 106.7

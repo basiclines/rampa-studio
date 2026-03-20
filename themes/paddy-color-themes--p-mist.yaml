@@ -1,0 +1,53 @@
+name: "Paddy Color Themes (P. \ Mist)"
+source:
+  marketplace_id: "yile-ou.paddy-color-theme"
+  version: "1.11.9"
+  installs: 74833
+  rating: 5
+  ratings: 20
+  author: "Yile"
+  repo: "https://github.com/yl92/paddy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yile-ou.paddy-color-theme"
+  formats: null
+colors:
+  bg: "#3A4444"
+  fg: "#FFE3CC"
+  black: "#606D6D"
+  red: "#FA5C47"
+  green: "#25AC42"
+  yellow: "#CCA63C"
+  blue: "#4779BB"
+  magenta: "#E02D69"
+  cyan: "#46B9B9"
+  white: "#FAE5D6"
+  brightBlack: "#899494"
+  brightRed: "#FD8677"
+  brightGreen: "#2FEC6E"
+  brightYellow: "#FFDD47"
+  brightBlue: "#68B6FF"
+  brightMagenta: "#FF6D9E"
+  brightCyan: "#7BE6E6"
+  brightWhite: "#FFF2EC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 197
+  pair: "Paddy Color Themes (P. \ Frost)"
+  contrast:
+    fg: 82.4
+    black: 14.5
+    red: 33.8
+    green: 35.5
+    yellow: 46.2
+    blue: 20.6
+    magenta: 22.2
+    cyan: 45.4
+    white: 82.9
+    brightBlack: 33
+    brightRed: 45.3
+    brightGreen: 67.1
+    brightYellow: 76.7
+    brightBlue: 49.5
+    brightMagenta: 40.6
+    brightCyan: 70.9
+    brightWhite: 90.5

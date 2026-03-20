@@ -1,0 +1,53 @@
+name: "vegetation"
+source:
+  marketplace_id: "samlazrak.vegetation"
+  version: "1.1.0"
+  installs: 967
+  rating: 5
+  ratings: 1
+  author: "samlazrak"
+  repo: "https://github.com/samlazrak/vegetation"
+  url: "https://marketplace.visualstudio.com/items?itemName=samlazrak.vegetation"
+  formats: null
+colors:
+  bg: "#1F1F1F"
+  fg: "#916255"
+  black: "#1F1F1F"
+  red: "#B06698"
+  green: "#9AC2BE"
+  yellow: "#C78547"
+  blue: "#EBC17A"
+  magenta: "#BB90D8"
+  cyan: "#83A06C"
+  white: "#AFCAAF"
+  brightBlack: "#916255"
+  brightRed: "#B06698"
+  brightGreen: "#9AC2BE"
+  brightYellow: "#C78547"
+  brightBlue: "#EBC17A"
+  brightMagenta: "#BB90D8"
+  brightCyan: "#83A06C"
+  brightWhite: "#AFCAAF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 24.4
+    black: 0
+    red: 32.3
+    green: 63.3
+    yellow: 42.6
+    blue: 70.9
+    magenta: 49.3
+    cyan: 44.3
+    white: 68.3
+    brightBlack: 24.4
+    brightRed: 32.3
+    brightGreen: 63.3
+    brightYellow: 42.6
+    brightBlue: 70.9
+    brightMagenta: 49.3
+    brightCyan: 44.3
+    brightWhite: 68.3

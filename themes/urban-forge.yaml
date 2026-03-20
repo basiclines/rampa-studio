@@ -1,0 +1,53 @@
+name: "Urban Forge"
+source:
+  marketplace_id: "UrbanForge.urbanforge-vscode-theme"
+  version: "1.2.1"
+  installs: 504
+  rating: 5
+  ratings: 2
+  author: "UrbanForge"
+  repo: "https://github.com/rilex037/urbanforge-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=UrbanForge.urbanforge-vscode-theme"
+  formats: null
+colors:
+  bg: "#20222C"
+  fg: "#C4C4C4"
+  black: "#000000"
+  red: "#F74E4E"
+  green: "#5FD392"
+  yellow: "#E28045"
+  blue: "#5F96D3"
+  magenta: "#CF5FD3"
+  cyan: "#22C3E8"
+  white: "#9F9191"
+  brightBlack: "#666666"
+  brightRed: "#FF5C5C"
+  brightGreen: "#71FFAF"
+  brightYellow: "#F9A36F"
+  brightBlue: "#90C4FF"
+  brightMagenta: "#FF9ADC"
+  brightCyan: "#34FFF5"
+  brightWhite: "#E2E2E2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 68.4
+    black: 0
+    red: 38.8
+    green: 64.9
+    yellow: 45.3
+    blue: 41.5
+    magenta: 38.6
+    cyan: 59.4
+    white: 42.2
+    brightBlack: 20.5
+    brightRed: 43.3
+    brightGreen: 88.7
+    brightYellow: 61.3
+    brightBlue: 66.2
+    brightMagenta: 63.4
+    brightCyan: 89.5
+    brightWhite: 86.6

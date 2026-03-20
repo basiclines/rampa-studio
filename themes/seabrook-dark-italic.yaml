@@ -1,0 +1,53 @@
+name: "Seabrook Dark - Italic"
+source:
+  marketplace_id: "sortbyfirstname.seabrook"
+  version: "0.0.5"
+  installs: 393
+  rating: 0
+  ratings: 0
+  author: "sortbyfirstname"
+  repo: "https://github.com/sortbyfirstname/seabrook-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sortbyfirstname.seabrook"
+  formats: null
+colors:
+  bg: "#212529"
+  fg: "#DEE2E6"
+  black: "#000000"
+  red: "#FFADAD"
+  green: "#CAFFBF"
+  yellow: "#FDFFB6"
+  blue: "#A0C4FF"
+  magenta: "#BDB2FF"
+  cyan: "#9BF6FF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FFADAD"
+  brightGreen: "#CAFFBF"
+  brightYellow: "#FDFFB6"
+  brightBlue: "#A0C4FF"
+  brightMagenta: "#BDB2FF"
+  brightCyan: "#9BF6FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: "Seabrook Light - Italic"
+  contrast:
+    fg: 86
+    black: 0
+    red: 67.3
+    green: 95.8
+    yellow: 101.9
+    blue: 67.2
+    magenta: 63.1
+    cyan: 89.8
+    white: 88.2
+    brightBlack: 20.2
+    brightRed: 67.3
+    brightGreen: 95.8
+    brightYellow: 101.9
+    brightBlue: 67.2
+    brightMagenta: 63.1
+    brightCyan: 89.8
+    brightWhite: 88.2

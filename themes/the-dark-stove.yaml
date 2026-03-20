@@ -1,0 +1,53 @@
+name: "The Dark Stove"
+source:
+  marketplace_id: "andrewbrey.the-dark-stove"
+  version: "0.0.1"
+  installs: 239
+  rating: 5
+  ratings: 1
+  author: "Andrew Brey"
+  repo: "https://github.com/andrewbrey/vscode-stove-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=andrewbrey.the-dark-stove"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#444444"
+  red: "#F2ABA8"
+  green: "#A8F2B4"
+  yellow: "#F0F2A8"
+  blue: "#A8C1F2"
+  magenta: "#F2A8E3"
+  cyan: "#A8F2E4"
+  white: "#DDDDDD"
+  brightBlack: "#666666"
+  brightRed: "#F2534D"
+  brightGreen: "#51EE6A"
+  brightYellow: "#ECF04A"
+  brightBlue: "#5188F5"
+  brightMagenta: "#F06BD5"
+  brightCyan: "#4AF2D3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 9.8
+    red: 67
+    green: 88.5
+    yellow: 96.3
+    blue: 68.8
+    magenta: 68.5
+    cyan: 90.4
+    white: 86
+    brightBlack: 23
+    brightRed: 40.9
+    brightGreen: 79.4
+    brightYellow: 93
+    brightBlue: 40.6
+    brightMagenta: 50.1
+    brightCyan: 84.3
+    brightWhite: 107.9

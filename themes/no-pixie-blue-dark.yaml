@@ -1,0 +1,54 @@
+name: "No Pixie Blue Dark"
+source:
+  marketplace_id: "no-pixie.nopixie-theme"
+  version: "2.1.0"
+  installs: 28
+  rating: 0
+  ratings: 0
+  author: "No Pixie"
+  repo: "https://github.com/nopixie/nopixie-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/nopixie/nopixie-theme/main/iterm/No Pixie Blue Dark.itermcolors"
+colors:
+  bg: "#242B38"
+  fg: "#F0F5FA"
+  black: "#1A2028"
+  red: "#F65A5A"
+  green: "#5AC8C8"
+  yellow: "#50D8FF"
+  blue: "#5AA8E8"
+  magenta: "#4A7FB8"
+  cyan: "#4AC8C5"
+  white: "#D8E2EA"
+  brightBlack: "#6A7888"
+  brightRed: "#FF7B7B"
+  brightGreen: "#80D8D0"
+  brightYellow: "#4DD8FF"
+  brightBlue: "#78B8F8"
+  brightMagenta: "#7AB8E8"
+  brightCyan: "#5AE8E5"
+  brightWhite: "#A0E5F8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 263
+  pair: "No Pixie Blue Light"
+  contrast:
+    fg: 96.9
+    black: 0
+    red: 39.3
+    green: 60
+    yellow: 69.9
+    blue: 48
+    magenta: 29
+    cyan: 59.3
+    white: 84.2
+    brightBlack: 26.3
+    brightRed: 49.3
+    brightGreen: 69.9
+    brightYellow: 69.8
+    brightBlue: 57.4
+    brightMagenta: 56.5
+    brightCyan: 76.6
+    brightWhite: 80.4

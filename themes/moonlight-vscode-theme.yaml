@@ -1,0 +1,53 @@
+name: "Moonlight VSCode Theme 🌌"
+source:
+  marketplace_id: "v-amorim.moonlight-vscode-theme"
+  version: "5.4.0"
+  installs: 155
+  rating: 5
+  ratings: 3
+  author: "v-amorim"
+  repo: "https://github.com/v-amorim/moonlight-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=v-amorim.moonlight-vscode-theme"
+  formats: null
+colors:
+  bg: "#0D0E17"
+  fg: "#F8EAF8"
+  black: "#191726"
+  red: "#CA5F71"
+  green: "#49EF95"
+  yellow: "#FAB958"
+  blue: "#7386D0"
+  magenta: "#B86CB3"
+  cyan: "#A5CFFF"
+  white: "#F8EAF8"
+  brightBlack: "#4C4C4C"
+  brightRed: "#E83974"
+  brightGreen: "#99E6B3"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#B58EE8"
+  brightCyan: "#89DDFF"
+  brightWhite: "#F8EAF8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 96.5
+    black: 0
+    red: 35.4
+    green: 80.2
+    yellow: 71.3
+    blue: 39.2
+    magenta: 38
+    cyan: 74.9
+    white: 96.5
+    brightBlack: 12.3
+    brightRed: 35.6
+    brightGreen: 80.9
+    brightYellow: 79.6
+    brightBlue: 64.9
+    brightMagenta: 50.5
+    brightCyan: 78.9
+    brightWhite: 96.5

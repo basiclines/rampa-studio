@@ -1,0 +1,53 @@
+name: "Decay (Cosmic Decay)"
+source:
+  marketplace_id: "decaycs.decay"
+  version: "1.0.9"
+  installs: 37714
+  rating: 5
+  ratings: 3
+  author: "decaycs"
+  repo: "https://github.com/decaycs/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=decaycs.decay"
+  formats: null
+colors:
+  bg: "#12131C"
+  fg: "#A5B7D5"
+  black: "#2C2F44"
+  red: "#CA7E9E"
+  green: "#8FC8A8"
+  yellow: "#EFD9B0"
+  blue: "#A9ACDB"
+  magenta: "#C296EB"
+  cyan: "#91CEDF"
+  white: "#C1C4CB"
+  brightBlack: "#1C1E27"
+  brightRed: "#CA7E9E"
+  brightGreen: "#8FC8A8"
+  brightYellow: "#FFC19F"
+  brightBlue: "#A9ACDB"
+  brightMagenta: "#C296EB"
+  brightCyan: "#91CEDF"
+  brightWhite: "#A5B7D5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 62.1
+    black: 0
+    red: 44.5
+    green: 65.4
+    yellow: 84.3
+    blue: 58.5
+    magenta: 54.7
+    cyan: 70.6
+    white: 70.2
+    brightBlack: 0
+    brightRed: 44.5
+    brightGreen: 65.4
+    brightYellow: 76.4
+    brightBlue: 58.5
+    brightMagenta: 54.7
+    brightCyan: 70.6
+    brightWhite: 62.1

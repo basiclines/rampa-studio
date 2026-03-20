@@ -1,0 +1,53 @@
+name: "nightfall"
+source:
+  marketplace_id: "nightfall.nightfall"
+  version: "0.0.3"
+  installs: 7561
+  rating: 5
+  ratings: 2
+  author: "nightfall"
+  repo: "https://github.com/nghtfall/nightfall-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=nightfall.nightfall"
+  formats: null
+colors:
+  bg: "#13161D"
+  fg: "#D7D9DD"
+  black: "#000000"
+  red: "#BE5959"
+  green: "#7EC26E"
+  yellow: "#9C9F45"
+  blue: "#2472C8"
+  magenta: "#BC64B7"
+  cyan: "#54B2A8"
+  white: "#D7D9DD"
+  brightBlack: "#666666"
+  brightRed: "#FF7878"
+  brightGreen: "#91FF78"
+  brightYellow: "#FAFF78"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#F969F0"
+  brightCyan: "#78FFF1"
+  brightWhite: "#ECEEF3"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 30.7
+    green: 59.5
+    yellow: 46.9
+    blue: 27.5
+    magenta: 36.3
+    cyan: 51.7
+    white: 82.5
+    brightBlack: 22.1
+    brightRed: 51.5
+    brightGreen: 90.8
+    brightYellow: 101.9
+    brightBlue: 40.1
+    brightMagenta: 52.2
+    brightCyan: 93.2
+    brightWhite: 95.8

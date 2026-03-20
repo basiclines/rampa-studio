@@ -1,0 +1,53 @@
+name: "Cybermoon"
+source:
+  marketplace_id: "JulianoVentola.cybermoon-theme"
+  version: "1.2.3"
+  installs: 1002
+  rating: 5
+  ratings: 1
+  author: "Juliano Ventola"
+  repo: "https://github.com/julianoventola/cybermoon"
+  url: "https://marketplace.visualstudio.com/items?itemName=JulianoVentola.cybermoon-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#B22A2A"
+  green: "#0BA369"
+  yellow: "#C6C60E"
+  blue: "#1F63AD"
+  magenta: "#A337A3"
+  cyan: "#0F92B2"
+  white: "#C6C6C6"
+  brightBlack: "#585858"
+  brightRed: "#DD0000"
+  brightGreen: "#00DD84"
+  brightYellow: "#DDDD00"
+  brightBlue: "#066FE3"
+  brightMagenta: "#DD00DD"
+  brightCyan: "#00B2DD"
+  brightWhite: "#C6C6C6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 21.3
+    green: 42.5
+    yellow: 68.6
+    blue: 21.8
+    magenta: 23.8
+    cyan: 38.3
+    white: 72.1
+    brightBlack: 17.3
+    brightRed: 29.2
+    brightGreen: 70.1
+    brightYellow: 81.8
+    brightBlue: 29.3
+    brightMagenta: 36.2
+    brightCyan: 53.7
+    brightWhite: 72.1

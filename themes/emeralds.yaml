@@ -1,0 +1,53 @@
+name: "Emeralds"
+source:
+  marketplace_id: "salmanjt.emeralds"
+  version: "1.1.3"
+  installs: 58
+  rating: 5
+  ratings: 1
+  author: "Salman Tahir"
+  repo: "https://github.com/salmanjt/emerald"
+  url: "https://marketplace.visualstudio.com/items?itemName=salmanjt.emeralds"
+  formats: null
+colors:
+  bg: "#1A1A18"
+  fg: "#AFD4CD"
+  black: "#111110"
+  red: "#EA8785"
+  green: "#C0CA91"
+  yellow: "#EFD56C"
+  blue: "#83BCD8"
+  magenta: "#BEA5DF"
+  cyan: "#95C6BD"
+  white: "#F5F5F5"
+  brightBlack: "#787868"
+  brightRed: "#EA8785"
+  brightGreen: "#C0CA91"
+  brightYellow: "#EFD56C"
+  brightBlue: "#83BCD8"
+  brightMagenta: "#BEA5DF"
+  brightCyan: "#95C6BD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.6
+    black: 0
+    red: 51.3
+    green: 69.9
+    yellow: 80.3
+    blue: 60.7
+    magenta: 58
+    cyan: 65.2
+    white: 100
+    brightBlack: 29.2
+    brightRed: 51.3
+    brightGreen: 69.9
+    brightYellow: 80.3
+    brightBlue: 60.7
+    brightMagenta: 58
+    brightCyan: 65.2
+    brightWhite: 106.6

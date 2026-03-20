@@ -1,0 +1,53 @@
+name: "Hardwired - Purple"
+source:
+  marketplace_id: "thwilson3.hardwired-color-theme"
+  version: "0.0.1"
+  installs: 625
+  rating: 0
+  ratings: 0
+  author: "thwilson3"
+  repo: "https://github.com/thwilson3/hardwired-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thwilson3.hardwired-color-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#D3B6E6"
+  black: "#5E5564"
+  red: "#B599C9"
+  green: "#B39987"
+  yellow: "#A5A1A7"
+  blue: "#916AAB"
+  magenta: "#825E9B"
+  cyan: "#B39487"
+  white: "#C8B4D5"
+  brightBlack: "#897F90"
+  brightRed: "#D1B3E6"
+  brightGreen: "#B39987"
+  brightYellow: "#DACDE4"
+  brightBlue: "#AF87CB"
+  brightMagenta: "#BA79E6"
+  brightCyan: "#B39487"
+  brightWhite: "#F1DEFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 68.9
+    black: 17.4
+    red: 52.7
+    green: 49.8
+    yellow: 52.1
+    blue: 31.8
+    magenta: 25.9
+    cyan: 48
+    white: 65.8
+    brightBlack: 36
+    brightRed: 67.5
+    brightGreen: 49.8
+    brightYellow: 79
+    brightBlue: 46
+    brightMagenta: 45.2
+    brightCyan: 48
+    brightWhite: 90.9

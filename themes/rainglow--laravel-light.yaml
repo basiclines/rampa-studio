@@ -1,0 +1,53 @@
+name: "Rainglow (laravel-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#444444"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#FFC48C"
+  yellow: "#FC6B0A"
+  blue: "#FC580C"
+  magenta: "#FFA927"
+  cyan: "#FFC48C"
+  white: "#515151"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#FFF8F2"
+  brightYellow: "#FDA86F"
+  brightBlue: "#FD9D71"
+  brightMagenta: "#FFD28D"
+  brightCyan: "#FFF8F2"
+  brightWhite: "#777777"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (laravel-contrast)"
+  contrast:
+    fg: 92.6
+    black: 0
+    red: 80.3
+    green: 25.3
+    yellow: 54.4
+    blue: 58.1
+    magenta: 36.3
+    cyan: 25.3
+    white: 87.6
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 0
+    brightYellow: 36.2
+    brightBlue: 39.7
+    brightMagenta: 19.9
+    brightCyan: 0
+    brightWhite: 71.1

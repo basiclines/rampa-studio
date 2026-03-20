@@ -1,0 +1,53 @@
+name: "Warm Black"
+source:
+  marketplace_id: "vaghylevente.warm-black"
+  version: "0.0.7"
+  installs: 815
+  rating: 0
+  ratings: 0
+  author: "vaghylevente"
+  repo: "https://github.com/vaghylevente/warm-black-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=vaghylevente.warm-black"
+  formats: null
+colors:
+  bg: "#060606"
+  fg: "#EBDBB2"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.4
+    black: 0
+    red: 26.2
+    green: 43.9
+    yellow: 53.5
+    blue: 32.6
+    magenta: 32.7
+    cyan: 42.9
+    white: 48.2
+    brightBlack: 37.3
+    brightRed: 41.1
+    brightGreen: 62.1
+    brightYellow: 72.8
+    brightBlue: 49.6
+    brightMagenta: 48.9
+    brightCyan: 61.1
+    brightWhite: 85.4

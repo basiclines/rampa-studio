@@ -1,0 +1,53 @@
+name: "PS Mid-Blue"
+source:
+  marketplace_id: "ps-designs.startbust-theme"
+  version: "0.1.1"
+  installs: 226
+  rating: 4
+  ratings: 1
+  author: "Pavel Sanchez"
+  repo: "https://github.com/PaleBluDot/starburst-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ps-designs.startbust-theme"
+  formats: null
+colors:
+  bg: "#252B30"
+  fg: "#D4D4D4"
+  black: "#D4D4D4"
+  red: "#DD656D"
+  green: "#4EBD8F"
+  yellow: "#D9DF34"
+  blue: "#0076A9"
+  magenta: "#D37FAC"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#D4D4D4"
+  brightRed: "#DD656D"
+  brightGreen: "#4EBD8F"
+  brightYellow: "#D9DF34"
+  brightBlue: "#0076A9"
+  brightMagenta: "#D37FAC"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 243
+  pair: null
+  contrast:
+    fg: 76.6
+    black: 76.6
+    red: 36.8
+    green: 52.5
+    yellow: 78.5
+    blue: 23.6
+    magenta: 43.7
+    cyan: 50.2
+    white: 76.6
+    brightBlack: 76.6
+    brightRed: 36.8
+    brightGreen: 52.5
+    brightYellow: 78.5
+    brightBlue: 23.6
+    brightMagenta: 43.7
+    brightCyan: 50.2
+    brightWhite: 76.6

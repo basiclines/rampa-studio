@@ -1,0 +1,53 @@
+name: "Section 9 - Ranger"
+source:
+  marketplace_id: "y4m3.section9-theme"
+  version: "0.0.1"
+  installs: 61
+  rating: 0
+  ratings: 0
+  author: "y4m3"
+  repo: "https://github.com/y4m3/vscode-section9-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=y4m3.section9-theme"
+  formats: null
+colors:
+  bg: "#20241C"
+  fg: "#D0D0C8"
+  black: "#121410"
+  red: "#C06040"
+  green: "#A8C090"
+  yellow: "#C89070"
+  blue: "#8090C0"
+  magenta: "#A080A0"
+  cyan: "#80A0A0"
+  white: "#C8C8C8"
+  brightBlack: "#808078"
+  brightRed: "#D88060"
+  brightGreen: "#C0C098"
+  brightYellow: "#D8A888"
+  brightBlue: "#A0B0D8"
+  brightMagenta: "#C0A0C0"
+  brightCyan: "#A0C0C0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 129
+  pair: null
+  contrast:
+    fg: 75.2
+    black: 0
+    red: 30.6
+    green: 61.6
+    yellow: 46.5
+    blue: 40.6
+    magenta: 37.2
+    cyan: 45.2
+    white: 70.8
+    brightBlack: 32
+    brightRed: 43.9
+    brightGreen: 64.6
+    brightYellow: 58.1
+    brightBlue: 57.1
+    brightMagenta: 53.7
+    brightCyan: 62.5
+    brightWhite: 105.3

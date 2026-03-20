@@ -1,0 +1,53 @@
+name: "Original Theme"
+source:
+  marketplace_id: "RLabsInc.rlabs-theme-collection"
+  version: "0.1.4"
+  installs: 181
+  rating: 0
+  ratings: 0
+  author: "RLabs Inc."
+  repo: "https://github.com/rodrigoluglio/rlabs-themes-collection"
+  url: "https://marketplace.visualstudio.com/items?itemName=RLabsInc.rlabs-theme-collection"
+  formats: null
+colors:
+  bg: "#131211"
+  fg: "#F7F5F5"
+  black: "#292929"
+  red: "#C26B6B"
+  green: "#667566"
+  yellow: "#FFBB77"
+  blue: "#445270"
+  magenta: "#9B7AB9"
+  cyan: "#76A9AC"
+  white: "#F7F5F7"
+  brightBlack: "#717571"
+  brightRed: "#FF7575"
+  brightGreen: "#99B999"
+  brightYellow: "#FFFFBB"
+  brightBlue: "#9CB0C5"
+  brightMagenta: "#C096E7"
+  brightCyan: "#9CBEC5"
+  brightWhite: "#C9C6C9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101
+    black: 0
+    red: 36.4
+    green: 27.3
+    yellow: 73.2
+    blue: 14.4
+    magenta: 37.8
+    cyan: 50.4
+    white: 101.1
+    brightBlack: 28.6
+    brightRed: 51.1
+    brightGreen: 59.3
+    brightYellow: 104.6
+    brightBlue: 57.7
+    brightMagenta: 54.3
+    brightCyan: 63.5
+    brightWhite: 72

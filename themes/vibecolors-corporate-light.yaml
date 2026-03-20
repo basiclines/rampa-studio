@@ -1,0 +1,53 @@
+name: "VibeColors Corporate Light"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  rating: 5
+  ratings: 1
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#2C3E50"
+  black: "#7F8C8D"
+  red: "#E74C3C"
+  green: "#27AE60"
+  yellow: "#F39C12"
+  blue: "#3498DB"
+  magenta: "#9B59B6"
+  cyan: "#1ABC9C"
+  white: "#2C3E50"
+  brightBlack: "#7F8C8D"
+  brightRed: "#E74C3C"
+  brightGreen: "#27AE60"
+  brightYellow: "#F39C12"
+  brightBlue: "#3498DB"
+  brightMagenta: "#9B59B6"
+  brightCyan: "#1ABC9C"
+  brightWhite: "#2C3E50"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.4
+    black: 62.4
+    red: 64.6
+    green: 54.4
+    yellow: 42.8
+    blue: 58.2
+    magenta: 72.1
+    cyan: 46.9
+    white: 95.4
+    brightBlack: 62.4
+    brightRed: 64.6
+    brightGreen: 54.4
+    brightYellow: 42.8
+    brightBlue: 58.2
+    brightMagenta: 72.1
+    brightCyan: 46.9
+    brightWhite: 95.4

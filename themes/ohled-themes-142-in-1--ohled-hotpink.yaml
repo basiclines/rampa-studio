@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_HotPink)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FF69B4"
+  black: "#FF69B4"
+  red: "#BB4D84"
+  green: "#CC5490"
+  yellow: "#993F6C"
+  blue: "#EE62A8"
+  magenta: "#DD5B9C"
+  cyan: "#AA4678"
+  white: "#883860"
+  brightBlack: "#FF69B4"
+  brightRed: "#BB4D84"
+  brightGreen: "#CC5490"
+  brightYellow: "#993F6C"
+  brightBlue: "#EE62A8"
+  brightMagenta: "#DD5B9C"
+  brightCyan: "#AA4678"
+  brightWhite: "#883860"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 51.1
+    black: 51.1
+    red: 30
+    green: 34.9
+    yellow: 20.6
+    blue: 45.5
+    magenta: 40.1
+    cyan: 25.2
+    white: 16.3
+    brightBlack: 51.1
+    brightRed: 30
+    brightGreen: 34.9
+    brightYellow: 20.6
+    brightBlue: 45.5
+    brightMagenta: 40.1
+    brightCyan: 25.2
+    brightWhite: 16.3

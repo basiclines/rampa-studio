@@ -1,0 +1,53 @@
+name: "Plotka Amethyst"
+source:
+  marketplace_id: "vilopesp.plotka-theme"
+  version: "1.6.1"
+  installs: 1409
+  rating: 0
+  ratings: 0
+  author: "Vitoria Lopes"
+  repo: "https://github.com/vilopesp/plotka-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=vilopesp.plotka-theme"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#F8F8F2"
+  black: "#222222"
+  red: "#F52E01"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#686868"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#4D4C4B"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#686868"
+  brightMagenta: "#686868"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.2
+    black: 0
+    red: 35.8
+    green: 85.2
+    yellow: 98.8
+    blue: 53.9
+    magenta: 23.2
+    cyan: 84.2
+    white: 102.2
+    brightBlack: 12
+    brightRed: 49.1
+    brightGreen: 89.3
+    brightYellow: 103.8
+    brightBlue: 23.2
+    brightMagenta: 23.2
+    brightCyan: 97
+    brightWhite: 107.1

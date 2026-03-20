@@ -1,0 +1,53 @@
+name: "Voodoo"
+source:
+  marketplace_id: "liamsheppard.voodoo"
+  version: "0.10.0"
+  installs: 6343
+  rating: 5
+  ratings: 4
+  author: "liamsheppard"
+  repo: "https://github.com/liamsheppard/voodoo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=liamsheppard.voodoo"
+  formats: null
+colors:
+  bg: "#25273E"
+  fg: "#D3D4D9"
+  black: "#525889"
+  red: "#EF476F"
+  green: "#93FF66"
+  yellow: "#F1D302"
+  blue: "#18A5FC"
+  magenta: "#6E61FF"
+  cyan: "#00EA8C"
+  white: "#E5E9F0"
+  brightBlack: "#525889"
+  brightRed: "#EF476F"
+  brightGreen: "#93FF66"
+  brightYellow: "#F1D302"
+  brightBlue: "#18A5FC"
+  brightMagenta: "#6E61FF"
+  brightCyan: "#00EA8C"
+  brightWhite: "#E5E9F0"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 77
+    black: 15.1
+    red: 35.5
+    green: 88
+    yellow: 76.7
+    blue: 46.8
+    magenta: 28.4
+    cyan: 73.2
+    white: 89.7
+    brightBlack: 15.1
+    brightRed: 35.5
+    brightGreen: 88
+    brightYellow: 76.7
+    brightBlue: 46.8
+    brightMagenta: 28.4
+    brightCyan: 73.2
+    brightWhite: 89.7

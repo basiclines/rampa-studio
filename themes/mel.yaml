@@ -1,0 +1,53 @@
+name: "mel"
+source:
+  marketplace_id: "jakeevans00.arcane"
+  version: "0.0.6"
+  installs: 845
+  rating: 5
+  ratings: 3
+  author: "Jake Evans"
+  repo: "https://github.com/jakeevans00/arcane-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=jakeevans00.arcane"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#BA6F6F"
+  green: "#75A975"
+  yellow: "#D9AF4C"
+  blue: "#4E79A7"
+  magenta: "#9B539B"
+  cyan: "#58A3B6"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#B23838"
+  brightGreen: "#569456"
+  brightYellow: "#CD9616"
+  brightBlue: "#38699F"
+  brightMagenta: "#9B419B"
+  brightCyan: "#3890A5"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 64.9
+    green: 52.8
+    yellow: 40.1
+    blue: 71.5
+    magenta: 75
+    cyan: 54.7
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 78.8
+    brightGreen: 63.9
+    brightYellow: 51.1
+    brightBlue: 78.3
+    brightMagenta: 78.4
+    brightCyan: 64.2
+    brightWhite: 48.5

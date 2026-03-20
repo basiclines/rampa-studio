@@ -1,0 +1,53 @@
+name: "rediohead theme"
+source:
+  marketplace_id: "ChiliMelon.rediohead-theme"
+  version: "0.0.2"
+  installs: 44
+  rating: 0
+  ratings: 0
+  author: "ChiliMelon"
+  repo: "https://github.com/chilimelon/rediohead_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ChiliMelon.rediohead-theme"
+  formats: null
+colors:
+  bg: "#1C1414"
+  fg: "#D9BCBC"
+  black: "#000000"
+  red: "#FF5A5A"
+  green: "#67FF8A"
+  yellow: "#E1C542"
+  blue: "#74BCFF"
+  magenta: "#E557F9"
+  cyan: "#39CDE2"
+  white: "#D4D4D4"
+  brightBlack: "#000000"
+  brightRed: "#FF6D6D"
+  brightGreen: "#9AFFB2"
+  brightYellow: "#FFE05B"
+  brightBlue: "#9CD0FF"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#74F2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 18
+  pair: null
+  contrast:
+    fg: 69.3
+    black: 0
+    red: 44.4
+    green: 88.8
+    yellow: 71.2
+    blue: 62.3
+    magenta: 45.5
+    cyan: 65.6
+    white: 79.6
+    brightBlack: 0
+    brightRed: 48.7
+    brightGreen: 92.9
+    brightYellow: 87.8
+    brightBlue: 74
+    brightMagenta: 57.2
+    brightCyan: 87.2
+    brightWhite: 107

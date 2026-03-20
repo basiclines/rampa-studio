@@ -1,0 +1,53 @@
+name: "Molokai Dark"
+source:
+  marketplace_id: "gabrielcaussi.molokai-dark"
+  version: "1.1.0"
+  installs: 2809
+  rating: 5
+  ratings: 1
+  author: "Gabriel Caussi"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=gabrielcaussi.molokai-dark"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#F8F8F2"
+  black: "#000000"
+  red: "#FF0044"
+  green: "#82B414"
+  yellow: "#FD971F"
+  blue: "#266C98"
+  magenta: "#AC0CB1"
+  cyan: "#AE81FF"
+  white: "#CCCCCC"
+  brightBlack: "#808080"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E6DB74"
+  brightBlue: "#7070F0"
+  brightMagenta: "#D63AE1"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 0
+    red: 37.4
+    green: 53.1
+    yellow: 59.2
+    blue: 23
+    magenta: 22.9
+    cyan: 47
+    white: 75.2
+    brightBlack: 34.3
+    brightRed: 37.8
+    brightGreen: 77.5
+    brightYellow: 82.6
+    brightBlue: 34.3
+    brightMagenta: 37.2
+    brightCyan: 73.9
+    brightWhite: 102.5

@@ -1,0 +1,53 @@
+name: "Lascavo Classic contrast"
+source:
+  marketplace_id: "mdrsh.lascavo"
+  version: "0.2.5"
+  installs: 146
+  rating: 0
+  ratings: 0
+  author: "mdrsh"
+  repo: "https://github.com/mdrsh/lascavo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mdrsh.lascavo"
+  formats: null
+colors:
+  bg: "#202022"
+  fg: "#FFFFFF"
+  black: "#222222"
+  red: "#FF194F"
+  green: "#1FE21F"
+  yellow: "#FFE65B"
+  blue: "#50A6FF"
+  magenta: "#FF6EEB"
+  cyan: "#56E3F5"
+  white: "#FFFFFF"
+  brightBlack: "#444444"
+  brightRed: "#FF962F"
+  brightGreen: "#67DE67"
+  brightYellow: "#FFEE9C"
+  brightBlue: "#8BCFFF"
+  brightMagenta: "#986EE5"
+  brightCyan: "#56E3F5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 105.7
+    black: 0
+    red: 36.3
+    green: 69.3
+    yellow: 89.2
+    blue: 50.2
+    magenta: 53
+    cyan: 76.7
+    white: 105.7
+    brightBlack: 7.7
+    brightRed: 57.7
+    brightGreen: 70
+    brightYellow: 94.1
+    brightBlue: 70.9
+    brightMagenta: 35.3
+    brightCyan: 76.7
+    brightWhite: 105.7

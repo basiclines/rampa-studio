@@ -1,0 +1,53 @@
+name: "Remedy - Bright (Tilted)"
+source:
+  marketplace_id: "VishwakarmaIndustries0abhishek.vishwakarma-remedy"
+  version: "5.28.0"
+  installs: 24
+  rating: 0
+  ratings: 0
+  author: "Vishwakarma Industries"
+  repo: "https://github.com/vishwakarmaindustries/vscode-remedy"
+  url: "https://marketplace.visualstudio.com/items?itemName=VishwakarmaIndustries0abhishek.vishwakarma-remedy"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#282828"
+  black: "#2C2C2C"
+  red: "#C1392B"
+  green: "#4A8F29"
+  yellow: "#D4A338"
+  blue: "#3A7CA5"
+  magenta: "#9C3A7A"
+  cyan: "#2E9C7C"
+  white: "#A0A0A0"
+  brightBlack: "#8D8D8D"
+  brightRed: "#EC7063"
+  brightGreen: "#58D68D"
+  brightYellow: "#F4D03F"
+  brightBlue: "#5DADE2"
+  brightMagenta: "#AF7AC5"
+  brightCyan: "#48C9B0"
+  brightWhite: "#5A5A5A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Remedy - Dark (Tilted)"
+  contrast:
+    fg: 101.6
+    black: 100.6
+    red: 75.7
+    green: 67
+    yellow: 45.4
+    blue: 71.4
+    magenta: 80.9
+    cyan: 61.2
+    white: 51
+    brightBlack: 60.6
+    brightRed: 55.7
+    brightGreen: 34.2
+    brightYellow: 23.5
+    brightBlue: 48.2
+    brightMagenta: 59.9
+    brightCyan: 39.5
+    brightWhite: 83.9

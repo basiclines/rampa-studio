@@ -1,0 +1,53 @@
+name: "Night-Stack Plasma"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#070511"
+  fg: "#FFE6FF"
+  black: "#1A132B"
+  red: "#FF2DAF"
+  green: "#00F5FF"
+  yellow: "#FF5ACD"
+  blue: "#8A2BE2"
+  magenta: "#FF69B4"
+  cyan: "#00F5FF"
+  white: "#FFE6FF"
+  brightBlack: "#1A132B"
+  brightRed: "#FF2DAF"
+  brightGreen: "#00F5FF"
+  brightYellow: "#FF5ACD"
+  brightBlue: "#8A2BE2"
+  brightMagenta: "#FF69B4"
+  brightCyan: "#00F5FF"
+  brightWhite: "#FFE6FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 291
+  pair: null
+  contrast:
+    fg: 96.4
+    black: 0
+    red: 42.4
+    green: 87
+    yellow: 49.4
+    blue: 23.3
+    magenta: 51
+    cyan: 87
+    white: 96.4
+    brightBlack: 0
+    brightRed: 42.4
+    brightGreen: 87
+    brightYellow: 49.4
+    brightBlue: 23.3
+    brightMagenta: 51
+    brightCyan: 87
+    brightWhite: 96.4

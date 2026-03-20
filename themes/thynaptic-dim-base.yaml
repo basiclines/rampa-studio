@@ -1,0 +1,53 @@
+name: "Thynaptic Dim (Base)"
+source:
+  marketplace_id: "Thynaptic.thynaptic-color-themes"
+  version: "0.4.0"
+  installs: 26
+  rating: 0
+  ratings: 0
+  author: "Thynaptic"
+  repo: "https://github.com/cassianwolfe/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Thynaptic.thynaptic-color-themes"
+  formats: null
+colors:
+  bg: "#0F0F0F"
+  fg: "#EAEAEA"
+  black: "#0F0F0F"
+  red: "#FF2056"
+  green: "#EAEAEA"
+  yellow: "#FE9A00"
+  blue: "#EAEAEA"
+  magenta: "#EAEAEA"
+  cyan: "#8B8B8B"
+  white: "#EAEAEA"
+  brightBlack: "#373737"
+  brightRed: "#FF2056"
+  brightGreen: "#EAEAEA"
+  brightYellow: "#FE9A00"
+  brightBlue: "#EAEAEA"
+  brightMagenta: "#EAEAEA"
+  brightCyan: "#8B8B8B"
+  brightWhite: "#EAEAEA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.8
+    black: 0
+    red: 38.5
+    green: 93.8
+    yellow: 60.5
+    blue: 93.8
+    magenta: 93.8
+    cyan: 39.7
+    white: 93.8
+    brightBlack: 0
+    brightRed: 38.5
+    brightGreen: 93.8
+    brightYellow: 60.5
+    brightBlue: 93.8
+    brightMagenta: 93.8
+    brightCyan: 39.7
+    brightWhite: 93.8

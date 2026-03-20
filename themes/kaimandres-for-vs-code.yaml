@@ -1,0 +1,53 @@
+name: "Kaimandres for VS Code"
+source:
+  marketplace_id: "martellev.kaimandres-vscode"
+  version: "1.3.1"
+  installs: 67
+  rating: 5
+  ratings: 1
+  author: "MartelleV"
+  repo: "https://github.com/MartelleV/kaimandres-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=martellev.kaimandres-vscode"
+  formats: null
+colors:
+  bg: "#16161E"
+  fg: "#E4E4EB"
+  black: "#16161E"
+  red: "#D0679D"
+  green: "#91D7A3"
+  yellow: "#FFFAC2"
+  blue: "#78A9FF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#E4E4EB"
+  brightBlack: "#767C9D"
+  brightRed: "#EA9BBA"
+  brightGreen: "#A8E6B8"
+  brightYellow: "#E7D66D"
+  brightBlue: "#ADD7FF"
+  brightMagenta: "#D0C9FF"
+  brightCyan: "#A3E5FF"
+  brightWhite: "#E4E4EB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 89.7
+    black: 0
+    red: 39.2
+    green: 72
+    yellow: 102
+    blue: 54.8
+    magenta: 54.9
+    cyan: 78.3
+    white: 89.7
+    brightBlack: 32.6
+    brightRed: 59.8
+    brightGreen: 81.8
+    brightYellow: 79.9
+    brightBlue: 78.6
+    brightMagenta: 76.5
+    brightCyan: 84.1
+    brightWhite: 89.7

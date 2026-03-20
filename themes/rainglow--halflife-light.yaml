@@ -1,0 +1,53 @@
+name: "Rainglow (halflife-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#F0F0F0"
+  fg: "#222222"
+  black: "#FDFDFD"
+  red: "#BA0E2E"
+  green: "#FC913A"
+  yellow: "#7D8991"
+  blue: "#F9D423"
+  magenta: "#7D8991"
+  cyan: "#F85931"
+  white: "#2F2F2F"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEC99E"
+  brightYellow: "#B4BBC0"
+  brightBlue: "#FCE786"
+  brightMagenta: "#B4BBC0"
+  brightCyan: "#FBA894"
+  brightWhite: "#555555"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (halflife-contrast)"
+  contrast:
+    fg: 94
+    black: 0
+    red: 71.4
+    green: 35.4
+    yellow: 54.5
+    blue: 12.4
+    magenta: 54.5
+    cyan: 49.8
+    white: 90.9
+    brightBlack: 7.6
+    brightRed: 55
+    brightGreen: 14.2
+    brightYellow: 28.4
+    brightBlue: 0
+    brightMagenta: 28.4
+    brightCyan: 26.7
+    brightWhite: 77

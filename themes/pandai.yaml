@@ -1,0 +1,53 @@
+name: "pandai"
+source:
+  marketplace_id: "tenf0ld.pandai-dark"
+  version: "0.1.0"
+  installs: 184
+  rating: 0
+  ratings: 0
+  author: "tenf0ld"
+  repo: "https://github.com/tenf0ld/pandai"
+  url: "https://marketplace.visualstudio.com/items?itemName=tenf0ld.pandai-dark"
+  formats: null
+colors:
+  bg: "#4A4E69"
+  fg: "#B4B4B4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 46.7
+    black: 15.9
+    red: 12.6
+    green: 38.9
+    yellow: 71.5
+    blue: 13.3
+    magenta: 15.6
+    cyan: 33.4
+    white: 75.9
+    brightBlack: 7.9
+    brightRed: 24.4
+    brightGreen: 49.4
+    brightYellow: 81.5
+    brightBlue: 25.9
+    brightMagenta: 31.3
+    brightCyan: 41.3
+    brightWhite: 75.9

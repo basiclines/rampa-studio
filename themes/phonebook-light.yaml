@@ -1,0 +1,53 @@
+name: "Phonebook Light"
+source:
+  marketplace_id: "nick-carnival.phonebook-theme"
+  version: "1.1.2"
+  installs: 1098
+  rating: 5
+  ratings: 1
+  author: "Nick Carnival"
+  repo: "https://github.com/nickcarnival/vscode-phonebook"
+  url: "https://marketplace.visualstudio.com/items?itemName=nick-carnival.phonebook-theme"
+  formats: null
+colors:
+  bg: "#E4D7C4"
+  fg: "#4A341C"
+  black: "#231E1A"
+  red: "#F54E42"
+  green: "#2F9369"
+  yellow: "#D69A00"
+  blue: "#1E88E5"
+  magenta: "#6547B8"
+  cyan: "#00ACC1"
+  white: "#EEE7DD"
+  brightBlack: "#666666"
+  brightRed: "#DB6057"
+  brightGreen: "#42B885"
+  brightYellow: "#D69A00"
+  brightBlue: "#64B5F6"
+  brightMagenta: "#A993E6"
+  brightCyan: "#00BCD4"
+  brightWhite: "#F7F3EE"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 78
+  pair: "Phonebook Dark"
+  contrast:
+    fg: 74.3
+    black: 81
+    red: 38.6
+    green: 42.9
+    yellow: 25.9
+    blue: 41.3
+    magenta: 60.1
+    cyan: 29.8
+    white: 7.9
+    brightBlack: 56.3
+    brightRed: 40.5
+    brightGreen: 26.2
+    brightYellow: 25.9
+    brightBlue: 20.9
+    brightMagenta: 28.6
+    brightCyan: 22.1
+    brightWhite: 15.4

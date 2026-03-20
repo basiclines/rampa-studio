@@ -1,0 +1,53 @@
+name: "Onyx Ghost"
+source:
+  marketplace_id: "zemd.zemd-theme-dark"
+  version: "0.9.0"
+  installs: 293
+  rating: 5
+  ratings: 1
+  author: "Dmytro Zelenetskyi"
+  repo: "https://github.com/zemd/vscode-theme-zemd"
+  url: "https://marketplace.visualstudio.com/items?itemName=zemd.zemd-theme-dark"
+  formats: null
+colors:
+  bg: "#242424"
+  fg: "#B0B0B0"
+  black: "#000000"
+  red: "#D35656"
+  green: "#51902E"
+  yellow: "#F8C465"
+  blue: "#4965A1"
+  magenta: "#B792BD"
+  cyan: "#70AEA6"
+  white: "#C4C8C6"
+  brightBlack: "#4D4D4D"
+  brightRed: "#E03C3C"
+  brightGreen: "#5AC220"
+  brightYellow: "#FFDBAD"
+  brightBlue: "#5C86E0"
+  brightMagenta: "#DD8BEA"
+  brightCyan: "#7FE0D3"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.8
+    black: 0
+    red: 32.2
+    green: 32.7
+    yellow: 73.1
+    blue: 20.5
+    magenta: 47.2
+    cyan: 49.7
+    white: 70
+    brightBlack: 10.3
+    brightRed: 30.5
+    brightGreen: 54.6
+    brightYellow: 85.5
+    brightBlue: 36.2
+    brightMagenta: 53.3
+    brightCyan: 75
+    brightWhite: 88.3

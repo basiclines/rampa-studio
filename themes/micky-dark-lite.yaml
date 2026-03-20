@@ -1,0 +1,53 @@
+name: "micky-dark-lite"
+source:
+  marketplace_id: "Micky.micky-dark"
+  version: "0.2.0"
+  installs: 267
+  rating: 0
+  ratings: 0
+  author: "Micky"
+  repo: "https://github.com/meetusadadiya/micky-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Micky.micky-dark"
+  formats: null
+colors:
+  bg: "#1A1C25"
+  fg: "#B3B1AD"
+  black: "#01060E"
+  red: "#EA6C73"
+  green: "#91B362"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#FAE994"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#C2D94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#FFEE99"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 58.5
+    black: 0
+    red: 43.4
+    green: 53.6
+    yellow: 66
+    blue: 60
+    magenta: 91.4
+    cyan: 77.3
+    white: 71.1
+    brightBlack: 22.3
+    brightRed: 46
+    brightGreen: 75.3
+    brightYellow: 69
+    brightBlue: 62.7
+    brightMagenta: 94.6
+    brightCyan: 80.2
+    brightWhite: 106.3

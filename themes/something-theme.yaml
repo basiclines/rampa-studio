@@ -1,0 +1,53 @@
+name: "Something Theme"
+source:
+  marketplace_id: "monadica.something-theme"
+  version: "0.0.3"
+  installs: 51
+  rating: 5
+  ratings: 1
+  author: "Monadica"
+  repo: "https://github.com/monadicarts/something-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=monadica.something-theme"
+  formats: null
+colors:
+  bg: "#151514"
+  fg: "#FFFFFF"
+  black: "#232322"
+  red: "#C99492"
+  green: "#52D98F"
+  yellow: "#FFD700"
+  blue: "#82AAFF"
+  magenta: "#B07CC3"
+  cyan: "#00D0E6"
+  white: "#FFFFFF"
+  brightBlack: "#8B94B8"
+  brightRed: "#C99492"
+  brightGreen: "#52D98F"
+  brightYellow: "#FFD700"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#B07CC3"
+  brightCyan: "#00D0E6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.1
+    black: 0
+    red: 50.7
+    green: 68.8
+    yellow: 83.4
+    blue: 56.1
+    magenta: 41.6
+    cyan: 66.8
+    white: 107.1
+    brightBlack: 44.4
+    brightRed: 50.7
+    brightGreen: 68.8
+    brightYellow: 83.4
+    brightBlue: 56.1
+    brightMagenta: 41.6
+    brightCyan: 66.8
+    brightWhite: 107.1

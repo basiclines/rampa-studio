@@ -1,0 +1,53 @@
+name: "Null Theme - Absolute Black"
+source:
+  marketplace_id: "kimberlycasamina.null-theme"
+  version: "1.0.8"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "kimberlycasamina"
+  repo: "https://github.com/kimicasamina/vscode-null-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#B0E0E6"
+  black: "#000000"
+  red: "#FF0066"
+  green: "#00FF66"
+  yellow: "#FFFF00"
+  blue: "#0066FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF3399"
+  brightGreen: "#33FF99"
+  brightYellow: "#FFFF66"
+  brightBlue: "#3399FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.6
+    black: 0
+    red: 38.6
+    green: 87.1
+    yellow: 102.7
+    blue: 29.3
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 23
+    brightRed: 42
+    brightGreen: 88.5
+    brightYellow: 103.3
+    brightBlue: 46.4
+    brightMagenta: 54.8
+    brightCyan: 94
+    brightWhite: 107.9

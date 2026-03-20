@@ -1,0 +1,53 @@
+name: "Omni Dracula VSCode Theme (Omni Dracula Theme Tradicional)"
+source:
+  marketplace_id: "ThiagoLcioBittencourt.omni-dracula-theme"
+  version: "1.0.7"
+  installs: 36339
+  rating: 5
+  ratings: 4
+  author: "Thiago Lúcio Bittencourt"
+  repo: "https://github.com/thiagolucio/omni-dracula-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ThiagoLcioBittencourt.omni-dracula-theme"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 99
+    black: 0
+    red: 40.4
+    green: 81.9
+    yellow: 95.6
+    blue: 50.7
+    magenta: 51.6
+    cyan: 81
+    white: 99
+    brightBlack: 25.1
+    brightRed: 45.9
+    brightGreen: 86.1
+    brightYellow: 100.6
+    brightBlue: 63.2
+    brightMagenta: 59.7
+    brightCyan: 93.8
+    brightWhite: 103.9

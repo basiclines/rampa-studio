@@ -1,0 +1,53 @@
+name: "Noctis (Noctis Azureus)"
+source:
+  marketplace_id: "Zylve.noctis-italicized"
+  version: "1.0.2"
+  installs: 5649
+  rating: 0
+  ratings: 0
+  author: "Zylve"
+  repo: "https://github.com/liviuschera/noctis"
+  url: "https://marketplace.visualstudio.com/items?itemName=Zylve.noctis-italicized"
+  formats: null
+colors:
+  bg: "#07273B"
+  fg: "#BECFDA"
+  black: "#28353E"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#AEC3D0"
+  brightBlack: "#475E6C"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#BECFDA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 241
+  pair: "Noctis (Noctis Lux)"
+  contrast:
+    fg: 72.9
+    black: 0
+    red: 38.5
+    green: 75
+    yellow: 65
+    blue: 50
+    magenta: 43.6
+    cyan: 68.5
+    white: 65.5
+    brightBlack: 15.5
+    brightRed: 43.8
+    brightGreen: 77.2
+    brightYellow: 51.8
+    brightBlue: 55.3
+    brightMagenta: 56
+    brightCyan: 71.9
+    brightWhite: 72.9

@@ -1,0 +1,53 @@
+name: "Arete Theme"
+source:
+  marketplace_id: "PlatoArete.arete-theme"
+  version: "0.0.5"
+  installs: 24
+  rating: 0
+  ratings: 0
+  author: "PlatoArete"
+  repo: "https://github.com/PlatoArete/arete-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PlatoArete.arete-theme"
+  formats: null
+colors:
+  bg: "#110F10"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#FF6B47"
+  green: "#98FB98"
+  yellow: "#FFD700"
+  blue: "#FF8C42"
+  magenta: "#DDA0DD"
+  cyan: "#FFCC66"
+  white: "#D4D4D4"
+  brightBlack: "#000000"
+  brightRed: "#FF6347"
+  brightGreen: "#90EE90"
+  brightYellow: "#FFFF00"
+  brightBlue: "#FFA500"
+  brightMagenta: "#FF69B4"
+  brightCyan: "#FFD700"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.1
+    black: 0
+    red: 48.1
+    green: 90.5
+    yellow: 83.8
+    blue: 56.6
+    magenta: 61.6
+    cyan: 79.9
+    white: 80.1
+    brightBlack: 0
+    brightRed: 46.4
+    brightGreen: 83.1
+    brightYellow: 102.3
+    brightBlue: 64.3
+    brightMagenta: 50.7
+    brightCyan: 83.8
+    brightWhite: 107.5

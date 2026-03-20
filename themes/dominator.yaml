@@ -1,0 +1,53 @@
+name: "Dominator"
+source:
+  marketplace_id: "tomocy.dominator"
+  version: "0.7.0"
+  installs: 1228
+  rating: 5
+  ratings: 3
+  author: "tomocy"
+  repo: "https://github.com/tomocy/dominator-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=tomocy.dominator"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E0E7FF"
+  black: "#000000"
+  red: "#DE2163"
+  green: "#00FFD8"
+  yellow: "#DEC32C"
+  blue: "#09E7FB"
+  magenta: "#DE2163"
+  cyan: "#09E7FB"
+  white: "#E0E7FF"
+  brightBlack: "#E0E7FF"
+  brightRed: "#DE2163"
+  brightGreen: "#00FFD8"
+  brightYellow: "#DEC32C"
+  brightBlue: "#09E7FB"
+  brightMagenta: "#DE2163"
+  brightCyan: "#09E7FB"
+  brightWhite: "#E0E7FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.5
+    black: 0
+    red: 31.2
+    green: 90.3
+    yellow: 70.7
+    blue: 79.8
+    magenta: 31.2
+    cyan: 79.8
+    white: 92.5
+    brightBlack: 92.5
+    brightRed: 31.2
+    brightGreen: 90.3
+    brightYellow: 70.7
+    brightBlue: 79.8
+    brightMagenta: 31.2
+    brightCyan: 79.8
+    brightWhite: 92.5

@@ -1,0 +1,53 @@
+name: "Hyper Ctrl Theme"
+source:
+  marketplace_id: "bprabhus.hyper-ctrl-theme"
+  version: "0.4.0"
+  installs: 609
+  rating: 0
+  ratings: 0
+  author: "Bharath Prabhuswamy"
+  repo: "https://github.com/bprabhus/hyper-ctrl-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bprabhus.hyper-ctrl-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#959595"
+  black: "#000000"
+  red: "#E31A1C"
+  green: "#31A354"
+  yellow: "#DCA060"
+  blue: "#3182BD"
+  magenta: "#756BB1"
+  cyan: "#80B1D3"
+  white: "#B7B8B9"
+  brightBlack: "#737475"
+  brightRed: "#E31A1C"
+  brightGreen: "#31A354"
+  brightYellow: "#DCA060"
+  brightBlue: "#3182BD"
+  brightMagenta: "#756BB1"
+  brightCyan: "#80B1D3"
+  brightWhite: "#FCFDFE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 45.1
+    black: 0
+    red: 31.1
+    green: 42.6
+    yellow: 57.5
+    blue: 33.4
+    magenta: 29.3
+    cyan: 56.9
+    white: 64
+    brightBlack: 29.1
+    brightRed: 31.1
+    brightGreen: 42.6
+    brightYellow: 57.5
+    brightBlue: 33.4
+    brightMagenta: 29.3
+    brightCyan: 56.9
+    brightWhite: 106.5

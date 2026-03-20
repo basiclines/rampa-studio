@@ -1,0 +1,53 @@
+name: "WL-Pulse Wave"
+source:
+  marketplace_id: "WatkinsLabs.pulse-wave"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.pulse-wave"
+  formats: null
+colors:
+  bg: "#1F2041"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF5F5F"
+  green: "#29FF88"
+  yellow: "#FFC766"
+  blue: "#2DE1FC"
+  magenta: "#FCAB10"
+  cyan: "#2DE1FC"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF5F5F"
+  brightGreen: "#29FF88"
+  brightYellow: "#FFC766"
+  brightBlue: "#2DE1FC"
+  brightMagenta: "#FCAB10"
+  brightCyan: "#2DE1FC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 105.2
+    black: 0
+    red: 43.7
+    green: 85.3
+    yellow: 75.5
+    blue: 74.5
+    magenta: 63.6
+    cyan: 74.5
+    white: 105.2
+    brightBlack: 20.3
+    brightRed: 43.7
+    brightGreen: 85.3
+    brightYellow: 75.5
+    brightBlue: 74.5
+    brightMagenta: 63.6
+    brightCyan: 74.5
+    brightWhite: 105.2

@@ -1,0 +1,53 @@
+name: "Homer"
+source:
+  marketplace_id: "dustinsanders.homer-theme-vscode"
+  version: "1.0.0"
+  installs: 736
+  rating: 0
+  ratings: 0
+  author: "Dustin Sanders"
+  repo: "https://github.com/dustinsanders/homer-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dustinsanders.homer-theme-vscode"
+  formats: null
+colors:
+  bg: "#353434"
+  fg: "#F8F8F8"
+  black: "#353434"
+  red: "#FF419E"
+  green: "#CEF296"
+  yellow: "#70D1FE"
+  blue: "#70D1FE"
+  magenta: "#FF419E"
+  cyan: "#D1B271"
+  white: "#F8F8F8"
+  brightBlack: "#353434"
+  brightRed: "#FF419E"
+  brightGreen: "#CEF296"
+  brightYellow: "#FED90F"
+  brightBlue: "#70D1FE"
+  brightMagenta: "#FF419E"
+  brightCyan: "#D1B271"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.1
+    black: 0
+    red: 37.4
+    green: 85.3
+    yellow: 65.9
+    blue: 65.9
+    magenta: 37.4
+    cyan: 56.6
+    white: 97.1
+    brightBlack: 0
+    brightRed: 37.4
+    brightGreen: 85.3
+    brightYellow: 78.8
+    brightBlue: 65.9
+    brightMagenta: 37.4
+    brightCyan: 56.6
+    brightWhite: 97.1

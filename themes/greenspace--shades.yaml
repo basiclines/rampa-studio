@@ -1,0 +1,53 @@
+name: "greenspace (Shades)"
+source:
+  marketplace_id: "YesCode.greenspace"
+  version: "0.0.7"
+  installs: 3692
+  rating: 5
+  ratings: 3
+  author: "YesCode"
+  repo: "https://github.com/yesomac/greenspace_VSCT"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.greenspace"
+  formats: null
+colors:
+  bg: "#DAE9CC"
+  fg: "#001A0C"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#0687FF"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 130
+  pair: null
+  contrast:
+    fg: 88.8
+    black: 87.4
+    red: 42.8
+    green: 24.4
+    yellow: 12.9
+    blue: 37.4
+    magenta: 65.4
+    cyan: 35.5
+    white: 37.7
+    brightBlack: 66.4
+    brightRed: 42.8
+    brightGreen: 46.3
+    brightYellow: 0
+    brightBlue: 66.2
+    brightMagenta: 65.4
+    brightCyan: 35.5
+    brightWhite: 7.6

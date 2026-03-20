@@ -1,0 +1,53 @@
+name: "WL-Vacuum Glow"
+source:
+  marketplace_id: "WatkinsLabs.vacuum-glow"
+  version: "1.0.1"
+  installs: 36
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.vacuum-glow"
+  formats: null
+colors:
+  bg: "#221B15"
+  fg: "#FF9A58"
+  black: "#000000"
+  red: "#FF3232"
+  green: "#AAFF32"
+  yellow: "#FF9632"
+  blue: "#FFC299"
+  magenta: "#FFAA69"
+  cyan: "#FFC299"
+  white: "#FF9A58"
+  brightBlack: "#666666"
+  brightRed: "#FF3232"
+  brightGreen: "#AAFF32"
+  brightYellow: "#FF9632"
+  brightBlue: "#FFC299"
+  brightMagenta: "#FFAA69"
+  brightCyan: "#FFC299"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 63
+  pair: null
+  contrast:
+    fg: 60
+    black: 0
+    red: 37.9
+    green: 91.3
+    yellow: 58.3
+    blue: 75.7
+    magenta: 65.7
+    cyan: 75.7
+    white: 60
+    brightBlack: 21.4
+    brightRed: 37.9
+    brightGreen: 91.3
+    brightYellow: 58.3
+    brightBlue: 75.7
+    brightMagenta: 65.7
+    brightCyan: 75.7
+    brightWhite: 106.3

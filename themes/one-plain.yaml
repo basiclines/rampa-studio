@@ -1,0 +1,53 @@
+name: "one plain"
+source:
+  marketplace_id: "yutent.one-plain"
+  version: "1.7.0"
+  installs: 4247
+  rating: 5
+  ratings: 4
+  author: "yutent"
+  repo: "https://git.wkit.fun/yutent/one-plain"
+  url: "https://marketplace.visualstudio.com/items?itemName=yutent.one-plain"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#546E7A"
+  black: "#000000"
+  red: "#EA4224"
+  green: "#27AE60"
+  yellow: "#E67E22"
+  blue: "#0096FF"
+  magenta: "#9437FF"
+  cyan: "#19B491"
+  white: "#B3B5AB"
+  brightBlack: "#35373B"
+  brightRed: "#FF4628"
+  brightGreen: "#2ECC71"
+  brightYellow: "#FFB62C"
+  brightBlue: "#70ACF7"
+  brightMagenta: "#BE7EE7"
+  brightCyan: "#3FC2A7"
+  brightWhite: "#C7C8CB"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.9
+    black: 106
+    red: 65.5
+    green: 54.4
+    yellow: 54.1
+    blue: 57
+    magenta: 73
+    cyan: 50.8
+    white: 40.6
+    brightBlack: 97.4
+    brightRed: 60.1
+    brightGreen: 40.6
+    brightYellow: 31.7
+    brightBlue: 46.2
+    brightMagenta: 54.6
+    brightCyan: 43.2
+    brightWhite: 29.5

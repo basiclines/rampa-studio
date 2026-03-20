@@ -1,0 +1,53 @@
+name: "Midnight Theme Light"
+source:
+  marketplace_id: "kaivanwong.vscode-midnight-theme"
+  version: "0.1.3"
+  installs: 842
+  rating: 5
+  ratings: 1
+  author: "Kaivan Wong"
+  repo: "https://github.com/kaivanwong/vscode-midnight-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kaivanwong.vscode-midnight-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#393A34"
+  black: "#1C2630"
+  red: "#AB5959"
+  green: "#1E754F"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#1E754F"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Midnight Theme (Midnight Theme)"
+  contrast:
+    fg: 96.5
+    black: 102.2
+    red: 73.5
+    green: 77.9
+    yellow: 48.3
+    blue: 78.2
+    magenta: 81.1
+    cyan: 63.5
+    white: 21.1
+    brightBlack: 45.8
+    brightRed: 73.5
+    brightGreen: 77.9
+    brightYellow: 48.3
+    brightBlue: 78.2
+    brightMagenta: 81.1
+    brightCyan: 63.5
+    brightWhite: 17.6

@@ -1,0 +1,53 @@
+name: "OneDark Vibrant"
+source:
+  marketplace_id: "onedark-vibrant-theme-dev.onedark-vibrant-vscode"
+  version: "1.2.1"
+  installs: 21
+  rating: 0
+  ratings: 0
+  author: "onedark-vibrant-theme-dev"
+  repo: "https://github.com/aschoettler/onedark-vibrant"
+  url: "https://marketplace.visualstudio.com/items?itemName=onedark-vibrant-theme-dev.onedark-vibrant-vscode"
+  formats: null
+colors:
+  bg: "#1A1B26"
+  fg: "#DCDFE4"
+  black: "#11111C"
+  red: "#F7768E"
+  green: "#8CCF7E"
+  yellow: "#E0C787"
+  blue: "#6DB3F2"
+  magenta: "#C69AF7"
+  cyan: "#76E0EA"
+  white: "#DCDFE4"
+  brightBlack: "#4F586A"
+  brightRed: "#F7768E"
+  brightGreen: "#8CCF7E"
+  brightYellow: "#E0C787"
+  brightBlue: "#6DB3F2"
+  brightMagenta: "#C69AF7"
+  brightCyan: "#76E0EA"
+  brightWhite: "#F6F9FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 49.4
+    green: 66.3
+    yellow: 72.4
+    blue: 56.6
+    magenta: 56.5
+    cyan: 76.8
+    white: 85.5
+    brightBlack: 15.6
+    brightRed: 49.4
+    brightGreen: 66.3
+    brightYellow: 72.4
+    brightBlue: 56.6
+    brightMagenta: 56.5
+    brightCyan: 76.8
+    brightWhite: 102.2

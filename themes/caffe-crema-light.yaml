@@ -1,0 +1,53 @@
+name: "Caffe Crema Light"
+source:
+  marketplace_id: "MonicaVilla.caffe-crema-theme"
+  version: "1.0.1"
+  installs: 301
+  rating: 0
+  ratings: 0
+  author: "Mónica Villarroel"
+  repo: "https://github.com/MonicaVillap/CaffeCremaTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MonicaVilla.caffe-crema-theme"
+  formats: null
+colors:
+  bg: "#FDF8F3"
+  fg: "#3B2E2E"
+  black: "#5A4747"
+  red: "#C55353"
+  green: "#669966"
+  yellow: "#D9A441"
+  blue: "#6688AA"
+  magenta: "#996699"
+  cyan: "#669999"
+  white: "#3B2E2E"
+  brightBlack: "#5A4747"
+  brightRed: "#C55353"
+  brightGreen: "#669966"
+  brightYellow: "#D9A441"
+  brightBlue: "#6688AA"
+  brightMagenta: "#996699"
+  brightCyan: "#669999"
+  brightWhite: "#3B2E2E"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Caffe Crema Dark"
+  contrast:
+    fg: 95.5
+    black: 85.9
+    red: 66.3
+    green: 56.8
+    yellow: 40.4
+    blue: 60.8
+    magenta: 67
+    cyan: 55.3
+    white: 95.5
+    brightBlack: 85.9
+    brightRed: 66.3
+    brightGreen: 56.8
+    brightYellow: 40.4
+    brightBlue: 60.8
+    brightMagenta: 67
+    brightCyan: 55.3
+    brightWhite: 95.5

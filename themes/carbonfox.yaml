@@ -1,0 +1,53 @@
+name: "carbonfox"
+source:
+  marketplace_id: "letrieu.tornado-themes"
+  version: "0.0.7"
+  installs: 356
+  rating: 0
+  ratings: 0
+  author: "Le Trieu"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=letrieu.tornado-themes"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#CBCCC6"
+  black: "#161616"
+  red: "#FA4D56"
+  green: "#42BE65"
+  yellow: "#F1C21B"
+  blue: "#78A9FF"
+  magenta: "#BE95FF"
+  cyan: "#3DDBD9"
+  white: "#CBCCC6"
+  brightBlack: "#6F6F6F"
+  brightRed: "#FA4D56"
+  brightGreen: "#42BE65"
+  brightYellow: "#F1C21B"
+  brightBlue: "#78A9FF"
+  brightMagenta: "#BE95FF"
+  brightCyan: "#3DDBD9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.4
+    black: 0
+    red: 41.1
+    green: 54.4
+    yellow: 72.3
+    blue: 54.9
+    magenta: 54.9
+    cyan: 71.9
+    white: 74.4
+    brightBlack: 26
+    brightRed: 41.1
+    brightGreen: 54.4
+    brightYellow: 72.3
+    brightBlue: 54.9
+    brightMagenta: 54.9
+    brightCyan: 71.9
+    brightWhite: 107

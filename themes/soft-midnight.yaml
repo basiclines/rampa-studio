@@ -1,0 +1,53 @@
+name: "Soft Midnight"
+source:
+  marketplace_id: "JeanCastle.soft-midnight"
+  version: "0.0.2"
+  installs: 200
+  rating: 5
+  ratings: 1
+  author: "Jean Castle"
+  repo: "https://github.com/jeangoo/soft-midnight"
+  url: "https://marketplace.visualstudio.com/items?itemName=JeanCastle.soft-midnight"
+  formats: null
+colors:
+  bg: "#1A1B26"
+  fg: "#E6D9A2"
+  black: "#1A1B26"
+  red: "#CB80AB"
+  green: "#9ECE6A"
+  yellow: "#FFD700"
+  blue: "#4EC9B0"
+  magenta: "#8967B3"
+  cyan: "#9ECE6A"
+  white: "#E6D9A2"
+  brightBlack: "#232530"
+  brightRed: "#CB80AB"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#FFD700"
+  brightBlue: "#4EC9B0"
+  brightMagenta: "#8967B3"
+  brightCyan: "#9ECE6A"
+  brightWhite: "#E6D9A2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 81.7
+    black: 0
+    red: 45
+    green: 66.9
+    yellow: 82.7
+    blue: 61.4
+    magenta: 28.9
+    cyan: 66.9
+    white: 81.7
+    brightBlack: 0
+    brightRed: 45
+    brightGreen: 66.9
+    brightYellow: 82.7
+    brightBlue: 61.4
+    brightMagenta: 28.9
+    brightCyan: 66.9
+    brightWhite: 81.7

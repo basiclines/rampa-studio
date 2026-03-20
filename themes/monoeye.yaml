@@ -1,0 +1,53 @@
+name: "Monoeye"
+source:
+  marketplace_id: "EyemonoRin.monoeye"
+  version: "0.1.6"
+  installs: 667
+  rating: 5
+  ratings: 2
+  author: "Eyemono Rin"
+  repo: "https://github.com/eyemono/monoeye-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=EyemonoRin.monoeye"
+  formats: null
+colors:
+  bg: "#19151F"
+  fg: "#F2EEF6"
+  black: "#0C0A0F"
+  red: "#FF66CC"
+  green: "#A2DB57"
+  yellow: "#EDD861"
+  blue: "#8F98FF"
+  magenta: "#C688F2"
+  cyan: "#75F0DB"
+  white: "#B2ABBA"
+  brightBlack: "#130F17"
+  brightRed: "#FF66CC"
+  brightGreen: "#A2DB57"
+  brightYellow: "#EDD861"
+  brightBlue: "#8F98FF"
+  brightMagenta: "#C688F2"
+  brightCyan: "#75F0DB"
+  brightWhite: "#F2EEF6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 303
+  pair: null
+  contrast:
+    fg: 96.7
+    black: 0
+    red: 50.7
+    green: 73.6
+    yellow: 81.5
+    blue: 50.4
+    magenta: 51
+    cyan: 84.4
+    white: 57.2
+    brightBlack: 0
+    brightRed: 50.7
+    brightGreen: 73.6
+    brightYellow: 81.5
+    brightBlue: 50.4
+    brightMagenta: 51
+    brightCyan: 84.4
+    brightWhite: 96.7

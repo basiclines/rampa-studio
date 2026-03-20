@@ -1,0 +1,53 @@
+name: "Victoria (Victoria Light)"
+source:
+  marketplace_id: "lucidlabs.victoria-theme"
+  version: "1.3.0"
+  installs: 6
+  rating: 0
+  ratings: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.victoria-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#0C0E18"
+  black: "#0C0E18"
+  red: "#E22339"
+  green: "#0A690D"
+  yellow: "#B38800"
+  blue: "#0052C2"
+  magenta: "#003174"
+  cyan: "#006A8F"
+  white: "#FFFFFF"
+  brightBlack: "#78797E"
+  brightRed: "#8A1220"
+  brightGreen: "#339D37"
+  brightYellow: "#FFCC2C"
+  brightBlue: "#003DA0"
+  brightMagenta: "#001E50"
+  brightCyan: "#5B9BD5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Victoria (Victoria Dark)"
+  contrast:
+    fg: 105.6
+    black: 105.6
+    red: 70.2
+    green: 83.3
+    yellow: 59.7
+    blue: 83.4
+    magenta: 97.5
+    cyan: 79.8
+    white: 0
+    brightBlack: 70.1
+    brightRed: 90.5
+    brightGreen: 62
+    brightYellow: 23.5
+    brightBlue: 91.4
+    brightMagenta: 102.6
+    brightCyan: 56
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Null Theme - Near Black"
+source:
+  marketplace_id: "kimberlycasamina.null-theme"
+  version: "1.0.8"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "kimberlycasamina"
+  repo: "https://github.com/kimicasamina/vscode-null-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#C8C8C8"
+  black: "#0A0A0A"
+  red: "#FF0066"
+  green: "#00FF66"
+  yellow: "#FFFF00"
+  blue: "#0066FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#777777"
+  brightRed: "#FF3399"
+  brightGreen: "#33FF99"
+  brightYellow: "#FFFF66"
+  brightBlue: "#3399FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.2
+    black: 0
+    red: 38.4
+    green: 87
+    yellow: 102.6
+    blue: 29.1
+    magenta: 46.1
+    cyan: 92
+    white: 107.7
+    brightBlack: 30.4
+    brightRed: 41.9
+    brightGreen: 88.4
+    brightYellow: 103.1
+    brightBlue: 46.3
+    brightMagenta: 54.7
+    brightCyan: 93.8
+    brightWhite: 107.7

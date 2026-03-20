@@ -1,0 +1,53 @@
+name: "Frog Terminal"
+source:
+  marketplace_id: "cobalt-frog.frog-terminal"
+  version: "0.0.2"
+  installs: 79
+  rating: 0
+  ratings: 0
+  author: "Cobalt Frog"
+  repo: "https://github.com/CobaltFrog/frog-terminal"
+  url: "https://marketplace.visualstudio.com/items?itemName=cobalt-frog.frog-terminal"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#52A535"
+  black: "#000000"
+  red: "#AA0000"
+  green: "#00AA00"
+  yellow: "#FFAA00"
+  blue: "#0000AA"
+  magenta: "#AA00AA"
+  cyan: "#00AAAA"
+  white: "#AAAAAA"
+  brightBlack: "#555555"
+  brightRed: "#FF5555"
+  brightGreen: "#55FF55"
+  brightYellow: "#F5F543"
+  brightBlue: "#5555FF"
+  brightMagenta: "#FF55FF"
+  brightCyan: "#55FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 44.2
+    black: 0
+    red: 17.8
+    green: 44.5
+    yellow: 66.5
+    blue: 0
+    magenta: 22.5
+    cyan: 47.6
+    white: 56.2
+    brightBlack: 16.1
+    brightRed: 44.4
+    brightGreen: 88.1
+    brightYellow: 96.6
+    brightBlue: 27.4
+    brightMagenta: 51.9
+    brightCyan: 93.4
+    brightWhite: 107.9

@@ -1,0 +1,53 @@
+name: "designONEv2"
+source:
+  marketplace_id: "danilamdesign.designone-v2"
+  version: "0.0.1"
+  installs: 65
+  rating: 0
+  ratings: 0
+  author: "danilamdesign"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=danilamdesign.designone-v2"
+  formats: null
+colors:
+  bg: "#282C3D"
+  fg: "#8595AD"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 40.1
+    black: 0
+    red: 23.3
+    green: 49.6
+    yellow: 82.2
+    blue: 24
+    magenta: 26.4
+    cyan: 44.2
+    white: 86.6
+    brightBlack: 18.6
+    brightRed: 35.2
+    brightGreen: 60.1
+    brightYellow: 92.2
+    brightBlue: 36.6
+    brightMagenta: 42
+    brightCyan: 52
+    brightWhite: 86.6

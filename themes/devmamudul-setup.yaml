@@ -1,0 +1,53 @@
+name: "DevMamudul Setup"
+source:
+  marketplace_id: "DevMamudulsetup.devmamudulsetup"
+  version: "0.0.2"
+  installs: 2
+  rating: 0
+  ratings: 0
+  author: "DevMamudulsetup"
+  repo: "https://github.com/mamudulislam/devmamudulsetup"
+  url: "https://marketplace.visualstudio.com/items?itemName=DevMamudulsetup.devmamudulsetup"
+  formats: null
+colors:
+  bg: "#1E1E2E"
+  fg: "#CDD6F4"
+  black: "#45475A"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#F5C2E7"
+  cyan: "#94E2D5"
+  white: "#CDD6F4"
+  brightBlack: "#6C7086"
+  brightRed: "#EBA0AC"
+  brightGreen: "#94E2D5"
+  brightYellow: "#F2CDCD"
+  brightBlue: "#89DCEB"
+  brightMagenta: "#F5E0DE"
+  brightCyan: "#A6E3A1"
+  brightWhite: "#BAC2DE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 80
+    black: 9.3
+    red: 54.7
+    green: 78.3
+    yellow: 88.4
+    blue: 59.1
+    magenta: 76.7
+    cyan: 78.2
+    white: 80
+    brightBlack: 25.8
+    brightRed: 60
+    brightGreen: 78.2
+    brightYellow: 79.4
+    brightBlue: 75.6
+    brightMagenta: 88.7
+    brightCyan: 78.3
+    brightWhite: 68.1

@@ -1,0 +1,53 @@
+name: "OneCalm"
+source:
+  marketplace_id: "volkovpishet.one-calm-theme"
+  version: "0.2.5"
+  installs: 2122
+  rating: 5
+  ratings: 4
+  author: "volkovpishet"
+  repo: "https://github.com/volkovpishet/one-calm-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=volkovpishet.one-calm-theme"
+  formats: null
+colors:
+  bg: "#2D3440"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#F08585"
+  green: "#A7D984"
+  yellow: "#E2C08D"
+  blue: "#7FC1F7"
+  magenta: "#BF9FFE"
+  cyan: "#8DC4B2"
+  white: "#D7DAE0"
+  brightBlack: "#22262D"
+  brightRed: "#C24038"
+  brightGreen: "#A7D984"
+  brightYellow: "#E2C08D"
+  brightBlue: "#457DFF"
+  brightMagenta: "#BF9FFE"
+  brightCyan: "#8DC4B2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 261
+  pair: null
+  contrast:
+    fg: 101.9
+    black: 0
+    red: 47.2
+    green: 69
+    yellow: 65.5
+    blue: 59.5
+    magenta: 53.2
+    cyan: 58.5
+    white: 78
+    brightBlack: 0
+    brightRed: 21.3
+    brightGreen: 69
+    brightYellow: 65.5
+    brightBlue: 31.2
+    brightMagenta: 53.2
+    brightCyan: 58.5
+    brightWhite: 78

@@ -1,0 +1,53 @@
+name: "knowit-dark"
+source:
+  marketplace_id: "knowit.knowit-color-theme"
+  version: "1.0.0"
+  installs: 586
+  rating: 0
+  ratings: 0
+  author: "KnowIT"
+  repo: "https://github.com/JoseRa-KnowIT/knowit-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=knowit.knowit-color-theme"
+  formats: null
+colors:
+  bg: "#090C13"
+  fg: "#D6D6D6"
+  black: "#7F7F7F"
+  red: "#E15A60"
+  green: "#99C794"
+  yellow: "#FAC863"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#D4D4D4"
+  brightBlack: "#7F7F7F"
+  brightRed: "#E15A60"
+  brightGreen: "#99C794"
+  brightYellow: "#FAC863"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  pair: null
+  contrast:
+    fg: 81.5
+    black: 34.1
+    red: 38.6
+    green: 65.6
+    yellow: 77.5
+    blue: 44.9
+    magenta: 52.8
+    cyan: 53.8
+    white: 80.3
+    brightBlack: 34.1
+    brightRed: 38.6
+    brightGreen: 65.6
+    brightYellow: 77.5
+    brightBlue: 44.9
+    brightMagenta: 52.8
+    brightCyan: 53.8
+    brightWhite: 80.3

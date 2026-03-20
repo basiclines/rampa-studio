@@ -1,0 +1,53 @@
+name: "Tycho Crater"
+source:
+  marketplace_id: "MrLizardAndCompany.sea-of-serenity"
+  version: "0.2.15"
+  installs: 58
+  rating: 4
+  ratings: 1
+  author: "Mr Lizard & Company"
+  repo: "https://github.com/webstek/sea-of-serenity"
+  url: "https://marketplace.visualstudio.com/items?itemName=MrLizardAndCompany.sea-of-serenity"
+  formats: null
+colors:
+  bg: "#D4D0CC"
+  fg: "#787470"
+  black: "#181818"
+  red: "#A02020"
+  green: "#406040"
+  yellow: "#005888"
+  blue: "#284090"
+  magenta: "#804080"
+  cyan: "#C04010"
+  white: "#B8A080"
+  brightBlack: "#503028"
+  brightRed: "#D05868"
+  brightGreen: "#60A040"
+  brightYellow: "#00A0C0"
+  brightBlue: "#A0B0E0"
+  brightMagenta: "#B868B8"
+  brightCyan: "#FF8000"
+  brightWhite: "#F8FFFF"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 45.2
+    black: 77.6
+    red: 58.3
+    green: 57.5
+    yellow: 59
+    blue: 64.4
+    magenta: 57.2
+    cyan: 48.1
+    white: 22.2
+    brightBlack: 69.8
+    brightRed: 39.5
+    brightGreen: 31.8
+    brightYellow: 30.2
+    brightBlue: 15.2
+    brightMagenta: 37.1
+    brightCyan: 21.7
+    brightWhite: 27

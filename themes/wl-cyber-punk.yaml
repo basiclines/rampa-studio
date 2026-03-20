@@ -1,0 +1,53 @@
+name: "WL-Cyber Punk"
+source:
+  marketplace_id: "WatkinsLabs.cyber-punk"
+  version: "1.0.1"
+  installs: 459
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.cyber-punk"
+  formats: null
+colors:
+  bg: "#0D0C1D"
+  fg: "#B8B8D0"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#00FF00"
+  magenta: "#00FFFF"
+  cyan: "#00FF00"
+  white: "#B8B8D0"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#00FF00"
+  brightMagenta: "#00FFFF"
+  brightCyan: "#00FF00"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 64.8
+    black: 0
+    red: 37.2
+    green: 86.1
+    yellow: 102.4
+    blue: 86.1
+    magenta: 91.8
+    cyan: 86.1
+    white: 64.8
+    brightBlack: 22.7
+    brightRed: 37.2
+    brightGreen: 86.1
+    brightYellow: 102.4
+    brightBlue: 86.1
+    brightMagenta: 91.8
+    brightCyan: 86.1
+    brightWhite: 107.5

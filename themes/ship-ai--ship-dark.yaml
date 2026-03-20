@@ -1,0 +1,53 @@
+name: "SHIP-AI (SHIP-dark)"
+source:
+  marketplace_id: "SHIP-AI.ship-ai"
+  version: "0.0.2"
+  installs: 282
+  rating: 0
+  ratings: 0
+  author: "SHIP-AI"
+  repo: "https://github.com/vkyprmr/ship-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SHIP-AI.ship-ai"
+  formats: null
+colors:
+  bg: "#171C26"
+  fg: "#E2E8F0"
+  black: "#000000"
+  red: "#B40000"
+  green: "#019746"
+  yellow: "#DAB22E"
+  blue: "#064A9A"
+  magenta: "#A4005D"
+  cyan: "#006EC8"
+  white: "#DEDEDE"
+  brightBlack: "#3D4454"
+  brightRed: "#FF0400"
+  brightGreen: "#00FF6E"
+  brightYellow: "#FFEC00"
+  brightBlue: "#0077FF"
+  brightMagenta: "#FA8685"
+  brightCyan: "#009DFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: "SHIP-AI (SHIP-light)"
+  contrast:
+    fg: 90.9
+    black: 0
+    red: 18.3
+    green: 35.2
+    yellow: 61.7
+    blue: 11.9
+    magenta: 16.1
+    cyan: 25.3
+    white: 85.1
+    brightBlack: 8.2
+    brightRed: 36
+    brightGreen: 85.7
+    brightYellow: 92.1
+    brightBlue: 32.6
+    brightMagenta: 53.9
+    brightCyan: 45.8
+    brightWhite: 106.3

@@ -1,0 +1,53 @@
+name: "Nicely Neon Theme"
+source:
+  marketplace_id: "eight84.nicely-neon-theme"
+  version: "1.9.8"
+  installs: 311
+  rating: 0
+  ratings: 0
+  author: "eight84"
+  repo: "https://github.com/eight84/nicely-neon-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eight84.nicely-neon-theme"
+  formats: null
+colors:
+  bg: "#18181C"
+  fg: "#E0E0E0"
+  black: "#18181C"
+  red: "#FE6262"
+  green: "#1AFF90"
+  yellow: "#FEE462"
+  blue: "#62A8FE"
+  magenta: "#FE62B5"
+  cyan: "#62FECA"
+  white: "#E0E0E0"
+  brightBlack: "#18181C"
+  brightRed: "#FE6262"
+  brightGreen: "#62FE9B"
+  brightYellow: "#FEE462"
+  brightBlue: "#62A8FE"
+  brightMagenta: "#FE62B5"
+  brightCyan: "#62FECA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.7
+    black: 0
+    red: 45.6
+    green: 86.9
+    yellow: 89.3
+    blue: 52.8
+    magenta: 48.4
+    cyan: 89.8
+    white: 86.7
+    brightBlack: 0
+    brightRed: 45.6
+    brightGreen: 88.2
+    brightYellow: 89.3
+    brightBlue: 52.8
+    brightMagenta: 48.4
+    brightCyan: 89.8
+    brightWhite: 106.7

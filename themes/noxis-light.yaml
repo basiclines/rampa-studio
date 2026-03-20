@@ -1,0 +1,53 @@
+name: "Noxis-Light"
+source:
+  marketplace_id: "valentinocossar.noxis"
+  version: "1.1.0"
+  installs: 67
+  rating: 0
+  ratings: 0
+  author: "Valentino Cossar"
+  repo: "https://github.com/valentinocossar/noxis"
+  url: "https://marketplace.visualstudio.com/items?itemName=valentinocossar.noxis"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#434F65"
+  black: "#A9B4CB"
+  red: "#E75A5A"
+  green: "#3DB931"
+  yellow: "#E0AF00"
+  blue: "#4C71F6"
+  magenta: "#5654BC"
+  cyan: "#00B6C2"
+  white: "#252D3A"
+  brightBlack: "#A9B4CB"
+  brightRed: "#E75A5A"
+  brightGreen: "#3DB931"
+  brightYellow: "#E0AF00"
+  brightBlue: "#4C71F6"
+  brightMagenta: "#5654BC"
+  brightCyan: "#00B6C2"
+  brightWhite: "#252D3A"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.5
+    black: 40.7
+    red: 61.7
+    green: 49.7
+    yellow: 39.4
+    blue: 68.5
+    magenta: 80.6
+    cyan: 48
+    white: 100.5
+    brightBlack: 40.7
+    brightRed: 61.7
+    brightGreen: 49.7
+    brightYellow: 39.4
+    brightBlue: 68.5
+    brightMagenta: 80.6
+    brightCyan: 48
+    brightWhite: 100.5

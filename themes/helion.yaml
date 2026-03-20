@@ -1,0 +1,53 @@
+name: "Helion"
+source:
+  marketplace_id: "BrandonGandy.helion"
+  version: "1.0.1"
+  installs: 37
+  rating: 0
+  ratings: 0
+  author: "Brandon Gandy"
+  repo: "https://github.com/brandongandy/vscode-helion"
+  url: "https://marketplace.visualstudio.com/items?itemName=BrandonGandy.helion"
+  formats: null
+colors:
+  bg: "#263849"
+  fg: "#A8B6C0"
+  black: "#4E7A98"
+  red: "#F6606D"
+  green: "#68A82C"
+  yellow: "#CE8900"
+  blue: "#40ABE5"
+  magenta: "#D76AF1"
+  cyan: "#3FA89D"
+  white: "#D8DAD3"
+  brightBlack: "#4E7A98"
+  brightRed: "#F6606D"
+  brightGreen: "#68A82C"
+  brightYellow: "#CE8900"
+  brightBlue: "#40ABE5"
+  brightMagenta: "#D76AF1"
+  brightCyan: "#3FA89D"
+  brightWhite: "#D8DAD3"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 54.9
+    black: 22.9
+    red: 38
+    green: 39.8
+    yellow: 39.8
+    blue: 45.2
+    magenta: 40.1
+    cyan: 40.3
+    white: 76.8
+    brightBlack: 22.9
+    brightRed: 38
+    brightGreen: 39.8
+    brightYellow: 39.8
+    brightBlue: 45.2
+    brightMagenta: 40.1
+    brightCyan: 40.3
+    brightWhite: 76.8

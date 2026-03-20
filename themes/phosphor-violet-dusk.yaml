@@ -1,0 +1,53 @@
+name: "Phosphor Violet Dusk"
+source:
+  marketplace_id: "glidebuild.phosphor-themes"
+  version: "1.0.0"
+  installs: 40
+  rating: 0
+  ratings: 0
+  author: "glide.build"
+  repo: "https://github.com/mo-shawa/phosphor-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=glidebuild.phosphor-themes"
+  formats: null
+colors:
+  bg: "#171422"
+  fg: "#B8B5C8"
+  black: "#3D3858"
+  red: "#FB7185"
+  green: "#4ADE80"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#D4D4D8"
+  brightBlack: "#8B7FAD"
+  brightRed: "#FDA4AF"
+  brightGreen: "#86EFAC"
+  brightYellow: "#FDE047"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 294
+  pair: null
+  contrast:
+    fg: 62.6
+    black: 0
+    red: 49.3
+    green: 70.5
+    yellow: 72.8
+    blue: 51.4
+    magenta: 49.8
+    cyan: 68.7
+    white: 79.7
+    brightBlack: 36.6
+    brightRed: 65.8
+    brightGreen: 83.2
+    brightYellow: 87.2
+    brightBlue: 68.3
+    brightMagenta: 69.3
+    brightCyan: 81.3
+    brightWhite: 107

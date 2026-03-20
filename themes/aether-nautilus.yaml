@@ -1,0 +1,53 @@
+name: "Aether Nautilus"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#021316"
+  fg: "#B8CACD"
+  black: "#31484B"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#B8CACD"
+  brightBlack: "#456568"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#C3D3D6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 209
+  pair: "Aether Zen"
+  contrast:
+    fg: 71.9
+    black: 9.4
+    red: 41
+    green: 77.4
+    yellow: 67.4
+    blue: 52.5
+    magenta: 46.1
+    cyan: 71
+    white: 71.9
+    brightBlack: 19.8
+    brightRed: 46.2
+    brightGreen: 79.6
+    brightYellow: 54.3
+    brightBlue: 57.7
+    brightMagenta: 58.5
+    brightCyan: 74.3
+    brightWhite: 77.5

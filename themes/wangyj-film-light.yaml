@@ -1,0 +1,53 @@
+name: "wangyj-film-light"
+source:
+  marketplace_id: "wangyjhh.nice-vscode-extension"
+  version: "0.9.1"
+  installs: 39
+  rating: 5
+  ratings: 1
+  author: "wyj"
+  repo: "https://github.com/wangyjhh/nice_vscode_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=wangyjhh.nice-vscode-extension"
+  formats: null
+colors:
+  bg: "#D9D1BD"
+  fg: "#0D0F10"
+  black: "#181C1E"
+  red: "#6D2E2E"
+  green: "#3E8D6B"
+  yellow: "#7A4A26"
+  blue: "#2A5273"
+  magenta: "#6A2D50"
+  cyan: "#0F5E6D"
+  white: "#707070"
+  brightBlack: "#181C1E"
+  brightRed: "#6D2E2E"
+  brightGreen: "#3E8D6B"
+  brightYellow: "#7A4A26"
+  brightBlue: "#2A5273"
+  brightMagenta: "#6A2D50"
+  brightCyan: "#0F5E6D"
+  brightWhite: "#707070"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: 89
+  pair: "wangyj-film-black"
+  contrast:
+    fg: 79
+    black: 77.5
+    red: 66.4
+    green: 40.7
+    yellow: 59
+    blue: 61.7
+    magenta: 66.2
+    cyan: 58.8
+    white: 47.8
+    brightBlack: 77.5
+    brightRed: 66.4
+    brightGreen: 40.7
+    brightYellow: 59
+    brightBlue: 61.7
+    brightMagenta: 66.2
+    brightCyan: 58.8
+    brightWhite: 47.8

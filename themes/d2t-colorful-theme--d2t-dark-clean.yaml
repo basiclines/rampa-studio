@@ -1,0 +1,53 @@
+name: "D2T Colorful Theme (D2T Dark Clean)"
+source:
+  marketplace_id: "dthanhtoan.d2t-colorful-theme"
+  version: "0.4.0"
+  installs: 1926
+  rating: 4.5
+  ratings: 2
+  author: "dthanhtoan"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=dthanhtoan.d2t-colorful-theme"
+  formats: null
+colors:
+  bg: "#1E2030"
+  fg: "#E4E7F3"
+  black: "#6F748E"
+  red: "#EE8897"
+  green: "#A7DB94"
+  yellow: "#EFD59E"
+  blue: "#8BAEF5"
+  magenta: "#F6BCE7"
+  cyan: "#92D8E4"
+  white: "#949BB8"
+  brightBlack: "#8188A3"
+  brightRed: "#EE8897"
+  brightGreen: "#A7DB94"
+  brightYellow: "#EFD59E"
+  brightBlue: "#8BAEF5"
+  brightMagenta: "#F6BCE7"
+  brightCyan: "#92D8E4"
+  brightWhite: "#CBD4F6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 90.2
+    black: 27.4
+    red: 52
+    green: 74
+    yellow: 80.5
+    blue: 56.3
+    magenta: 74.3
+    cyan: 73.9
+    white: 46.4
+    brightBlack: 36.7
+    brightRed: 52
+    brightGreen: 74
+    brightYellow: 80.5
+    brightBlue: 56.3
+    brightMagenta: 74.3
+    brightCyan: 73.9
+    brightWhite: 78.7

@@ -1,0 +1,53 @@
+name: "Codeastro Dark"
+source:
+  marketplace_id: "codeastro.codeastro-vscode-themes"
+  version: "0.0.1"
+  installs: 137
+  rating: 0
+  ratings: 0
+  author: "Codeastro"
+  repo: "https://github.com/zaryabdev/codeastro-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=codeastro.codeastro-vscode-themes"
+  formats: null
+colors:
+  bg: "#0F172A"
+  fg: "#E2E8F0"
+  black: "#0F172A"
+  red: "#F43F5E"
+  green: "#34D399"
+  yellow: "#FB923C"
+  blue: "#A5F3FC"
+  magenta: "#5EEAD4"
+  cyan: "#22D3EE"
+  white: "#C4CAD4"
+  brightBlack: "#2D3546"
+  brightRed: "#CBD5E1"
+  brightGreen: "#22D3EE"
+  brightYellow: "#FB923C"
+  brightBlue: "#A5F3FC"
+  brightMagenta: "#5EEAD4"
+  brightCyan: "#22D3EE"
+  brightWhite: "#E2E8F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  pair: null
+  contrast:
+    fg: 91.4
+    black: 0
+    red: 37.7
+    green: 65.1
+    yellow: 56.8
+    blue: 90.7
+    magenta: 79.9
+    cyan: 68.5
+    white: 73.1
+    brightBlack: 0
+    brightRed: 79.3
+    brightGreen: 68.5
+    brightYellow: 56.8
+    brightBlue: 90.7
+    brightMagenta: 79.9
+    brightCyan: 68.5
+    brightWhite: 91.4

@@ -1,0 +1,53 @@
+name: "Dhamma Dark"
+source:
+  marketplace_id: "tanmaybalwa.dhamma-theme"
+  version: "1.0.0"
+  installs: 16
+  rating: 0
+  ratings: 0
+  author: "Tanmay Balwa"
+  repo: "https://github.com/your-username/dhamma-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tanmaybalwa.dhamma-theme"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#E8E4DB"
+  black: "#1E1E1E"
+  red: "#E06C75"
+  green: "#8FBC8F"
+  yellow: "#D4AF37"
+  blue: "#7B9FB8"
+  magenta: "#C9A0DC"
+  cyan: "#6B8E9F"
+  white: "#E8E4DB"
+  brightBlack: "#5A5A5A"
+  brightRed: "#E88388"
+  brightGreen: "#A8D5A8"
+  brightYellow: "#E6B87D"
+  brightBlue: "#8FB0C8"
+  brightMagenta: "#D8B4E8"
+  brightCyan: "#7B9FB8"
+  brightWhite: "#F5F1E8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Dhamma Light"
+  contrast:
+    fg: 88.7
+    black: 0
+    red: 41.2
+    green: 58.1
+    yellow: 59.4
+    blue: 46.1
+    magenta: 57.1
+    cyan: 37.3
+    white: 88.7
+    brightBlack: 16.2
+    brightRed: 49.4
+    brightGreen: 72.4
+    brightYellow: 66.8
+    brightBlue: 55.3
+    brightMagenta: 67.2
+    brightCyan: 46.1
+    brightWhite: 97

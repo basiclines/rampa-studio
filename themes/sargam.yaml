@@ -1,0 +1,53 @@
+name: "sargam"
+source:
+  marketplace_id: "sargam.sargam"
+  version: "0.1.2"
+  installs: 75
+  rating: 0
+  ratings: 0
+  author: "sargam"
+  repo: "https://github.com/SargamDesign/sargam-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sargam.sargam"
+  formats: null
+colors:
+  bg: "#100F0F"
+  fg: "#E7E5DF"
+  black: "#72726E"
+  red: "#F55452"
+  green: "#3BB55F"
+  yellow: "#CDAD0E"
+  blue: "#33AEA8"
+  magenta: "#9F6CB7"
+  cyan: "#33AEA8"
+  white: "#E7E5DF"
+  brightBlack: "#72726E"
+  brightRed: "#F55452"
+  brightGreen: "#3BB55F"
+  brightYellow: "#CDAD0E"
+  brightBlue: "#33AEA8"
+  brightMagenta: "#9F6CB7"
+  brightCyan: "#33AEA8"
+  brightWhite: "#E7E5DF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.6
+    black: 27.8
+    red: 41.5
+    green: 50.5
+    yellow: 58.9
+    blue: 49.4
+    magenta: 34.5
+    cyan: 49.4
+    white: 90.6
+    brightBlack: 27.8
+    brightRed: 41.5
+    brightGreen: 50.5
+    brightYellow: 58.9
+    brightBlue: 49.4
+    brightMagenta: 34.5
+    brightCyan: 49.4
+    brightWhite: 90.6

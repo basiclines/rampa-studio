@@ -1,0 +1,53 @@
+name: "Pantone Sage (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#141510"
+  fg: "#DFDDD1"
+  black: "#141510"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#597E84"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#DFDDD1"
+  brightBlack: "#8D865F"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F5F4F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Sage (Light)"
+  contrast:
+    fg: 85
+    black: 0
+    red: 32.4
+    green: 52
+    yellow: 71.7
+    blue: 30.2
+    magenta: 33.4
+    cyan: 52.6
+    white: 85
+    brightBlack: 36.5
+    brightRed: 38.8
+    brightGreen: 59.2
+    brightYellow: 76
+    brightBlue: 29
+    brightMagenta: 42
+    brightCyan: 59.2
+    brightWhite: 99.9

@@ -1,0 +1,53 @@
+name: "Rainglow (zacks)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#F0F0F0"
+  black: "#2F2F2F"
+  red: "#BA0E2E"
+  green: "#9C7DDB"
+  yellow: "#FF6A38"
+  blue: "#BCD42A"
+  magenta: "#FF6A38"
+  cyan: "#9C7DDB"
+  white: "#FDFDFD"
+  brightBlack: "#555555"
+  brightRed: "#F03E5F"
+  brightGreen: "#D9CDF1"
+  brightYellow: "#FFB69E"
+  brightBlue: "#D7E67E"
+  brightMagenta: "#FFB69E"
+  brightCyan: "#D9CDF1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (zacks-light)"
+  contrast:
+    fg: 95.6
+    black: 0
+    red: 19.1
+    green: 39.1
+    yellow: 45.7
+    blue: 71.2
+    magenta: 45.7
+    cyan: 39.1
+    white: 104.1
+    brightBlack: 13.7
+    brightRed: 35.4
+    brightGreen: 77.1
+    brightYellow: 70.5
+    brightBlue: 83.9
+    brightMagenta: 70.5
+    brightCyan: 77.1
+    brightWhite: 105.5

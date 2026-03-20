@@ -1,0 +1,53 @@
+name: "Gooey Theme"
+source:
+  marketplace_id: "TheMartes.GooeyTheme"
+  version: "0.0.2"
+  installs: 5205
+  rating: 0
+  ratings: 0
+  author: "TheMartes"
+  repo: "https://github.com/TheMartes/Gooey-VSCodeTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TheMartes.GooeyTheme"
+  formats: null
+colors:
+  bg: "#101218"
+  fg: "#D1D4E0"
+  black: "#252936"
+  red: "#EE829F"
+  green: "#A5FFE1"
+  yellow: "#F99170"
+  blue: "#97BBF7"
+  magenta: "#C0B7F9"
+  cyan: "#97E0FF"
+  white: "#C9CCDB"
+  brightBlack: "#7780A1"
+  brightRed: "#EE829F"
+  brightGreen: "#A5FFE1"
+  brightYellow: "#FFEFCC"
+  brightBlue: "#97BBF7"
+  brightMagenta: "#C0B7F9"
+  brightCyan: "#97E0FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 80.1
+    black: 0
+    red: 52.3
+    green: 95.9
+    yellow: 57.4
+    blue: 64.4
+    magenta: 67.3
+    cyan: 81.1
+    white: 75.4
+    brightBlack: 34.7
+    brightRed: 52.3
+    brightGreen: 95.9
+    brightYellow: 97.6
+    brightBlue: 64.4
+    brightMagenta: 67.3
+    brightCyan: 81.1
+    brightWhite: 107.3

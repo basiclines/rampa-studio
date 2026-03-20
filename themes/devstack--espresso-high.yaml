@@ -1,0 +1,53 @@
+name: "DevStack (Espresso-High)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#EEEEEE"
+  black: "#121212"
+  red: "#E55031"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#FCDFC2"
+  magenta: "#FCDFC2"
+  cyan: "#29C3A0"
+  white: "#EEEEEE"
+  brightBlack: "#121212"
+  brightRed: "#E55031"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#FCDFC2"
+  brightMagenta: "#FCDFC2"
+  brightCyan: "#29C3A0"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.2
+    black: 0
+    red: 36.6
+    green: 58.1
+    yellow: 52.1
+    blue: 89.7
+    magenta: 89.7
+    cyan: 58.1
+    white: 96.2
+    brightBlack: 0
+    brightRed: 36.6
+    brightGreen: 58.1
+    brightYellow: 52.1
+    brightBlue: 89.7
+    brightMagenta: 89.7
+    brightCyan: 58.1
+    brightWhite: 96.2

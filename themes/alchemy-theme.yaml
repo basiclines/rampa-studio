@@ -1,0 +1,53 @@
+name: "Alchemy Theme"
+source:
+  marketplace_id: "thgmhz.alchemy"
+  version: "1.1.0"
+  installs: 426
+  rating: 0
+  ratings: 0
+  author: "thgmhz"
+  repo: "https://github.com/thgmhz/alchemy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thgmhz.alchemy"
+  formats: null
+colors:
+  bg: "#0F0918"
+  fg: "#E2E2EA"
+  black: "#1E0F39"
+  red: "#FF5B5B"
+  green: "#70E27A"
+  yellow: "#40C263"
+  blue: "#194AB3"
+  magenta: "#988BC7"
+  cyan: "#2B243C"
+  white: "#E9E9E9"
+  brightBlack: "#626483"
+  brightRed: "#FF2828"
+  brightGreen: "#00F769"
+  brightYellow: "#E0A91D"
+  brightBlue: "#78D1E1"
+  brightMagenta: "#231548"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 301
+  pair: null
+  contrast:
+    fg: 89.3
+    black: 0
+    red: 45.3
+    green: 74.7
+    yellow: 56.8
+    blue: 15.2
+    magenta: 44
+    cyan: 0
+    white: 93.3
+    brightBlack: 22.9
+    brightRed: 38.5
+    brightGreen: 82.7
+    brightYellow: 60.5
+    brightBlue: 70.7
+    brightMagenta: 0
+    brightCyan: 97.5
+    brightWhite: 107.6

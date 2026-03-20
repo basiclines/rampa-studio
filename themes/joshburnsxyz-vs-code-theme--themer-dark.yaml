@@ -1,0 +1,53 @@
+name: "JoshBurnsXYZ VS Code Theme (Themer Dark)"
+source:
+  marketplace_id: "JoshBurnsXYZ.joshburnsxyz-vscode"
+  version: "2.3.3"
+  installs: 429
+  rating: 0
+  ratings: 0
+  author: "Josh Burns"
+  repo: "https://github.com/joshburnsxyz/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JoshBurnsXYZ.joshburnsxyz-vscode"
+  formats: null
+colors:
+  bg: "#14181B"
+  fg: "#FDFDFD"
+  black: "#14181B"
+  red: "#EF4E7C"
+  green: "#6EBB82"
+  yellow: "#F79532"
+  blue: "#1299AD"
+  magenta: "#AE7BB7"
+  cyan: "#09B399"
+  white: "#DCDCDD"
+  brightBlack: "#35393B"
+  brightRed: "#F37055"
+  brightGreen: "#09B399"
+  brightYellow: "#F79532"
+  brightBlue: "#1299AD"
+  brightMagenta: "#AE7BB7"
+  brightCyan: "#09B399"
+  brightWhite: "#FDFDFD"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "JoshBurnsXYZ VS Code Theme (Themer Light)"
+  contrast:
+    fg: 105.5
+    black: 0
+    red: 39.5
+    green: 55.6
+    yellow: 57
+    blue: 39.7
+    magenta: 40.1
+    cyan: 49.8
+    white: 84.4
+    brightBlack: 0
+    brightRed: 46.2
+    brightGreen: 49.8
+    brightYellow: 57
+    brightBlue: 39.7
+    brightMagenta: 40.1
+    brightCyan: 49.8
+    brightWhite: 105.5

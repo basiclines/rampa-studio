@@ -1,0 +1,53 @@
+name: "Sublime VSCode Theme"
+source:
+  marketplace_id: "yurihs.sublime-vscode-theme"
+  version: "1.5.0"
+  installs: 86349
+  rating: 5
+  ratings: 6
+  author: "yurihs"
+  repo: "https://github.com/yurihs/sublime-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yurihs.sublime-vscode-theme"
+  formats: null
+colors:
+  bg: "#282923"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 115
+  pair: null
+  contrast:
+    fg: 99.5
+    black: 0
+    red: 22.1
+    green: 50.5
+    yellow: 55.1
+    blue: 32.1
+    magenta: 29.7
+    cyan: 47.9
+    white: 86
+    brightBlack: 19.5
+    brightRed: 34.8
+    brightGreen: 74.5
+    brightYellow: 81.4
+    brightBlue: 47.3
+    brightMagenta: 44
+    brightCyan: 70.9
+    brightWhite: 99.5

@@ -1,0 +1,53 @@
+name: "Xaeon Dark"
+source:
+  marketplace_id: "AalaeBl.ui-xaeon-dark"
+  version: "0.0.7"
+  installs: 441
+  rating: 5
+  ratings: 2
+  author: "aalaeDev"
+  repo: "https://github.com/aalaeDev/xaeon-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=AalaeBl.ui-xaeon-dark"
+  formats: null
+colors:
+  bg: "#100F1C"
+  fg: "#8C88BE"
+  black: "#393656"
+  red: "#F9626E"
+  green: "#8BCB5D"
+  yellow: "#F7BB4B"
+  blue: "#2E99E5"
+  magenta: "#C678DD"
+  cyan: "#45C9D9"
+  white: "#BBB2D3"
+  brightBlack: "#676484"
+  brightRed: "#EE7983"
+  brightGreen: "#98C379"
+  brightYellow: "#D19A66"
+  brightBlue: "#66A9F2"
+  brightMagenta: "#E89CFF"
+  brightCyan: "#56B6C2"
+  brightWhite: "#E8E0FF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 287
+  pair: null
+  contrast:
+    fg: 41
+    black: 0
+    red: 45.5
+    green: 64.8
+    yellow: 71.3
+    blue: 43.9
+    magenta: 45.7
+    cyan: 64.1
+    white: 62.8
+    brightBlack: 23.2
+    brightRed: 49
+    brightGreen: 62.8
+    brightYellow: 53.2
+    brightBlue: 53.3
+    brightMagenta: 64
+    brightCyan: 55.1
+    brightWhite: 90

@@ -1,0 +1,53 @@
+name: "MinimalGold"
+source:
+  marketplace_id: "diegoleteliers.minimalgold"
+  version: "1.0.2"
+  installs: 38
+  rating: 0
+  ratings: 0
+  author: "Diego Jose Letelier"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=diegoleteliers.minimalgold"
+  formats: null
+colors:
+  bg: "#212121"
+  fg: "#ABB2BF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#D4D4D4"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 58.1
+    black: 0
+    red: 25.4
+    green: 51.7
+    yellow: 84.4
+    blue: 26.2
+    magenta: 28.5
+    cyan: 46.3
+    white: 78.2
+    brightBlack: 20.8
+    brightRed: 37.3
+    brightGreen: 62.3
+    brightYellow: 94.4
+    brightBlue: 38.7
+    brightMagenta: 44.1
+    brightCyan: 54.1
+    brightWhite: 105.6

@@ -1,0 +1,53 @@
+name: "Catppuccin Dark Theme"
+source:
+  marketplace_id: "Birdlinux.catppuccin-dark-theme"
+  version: "0.0.2"
+  installs: 10666
+  rating: 5
+  ratings: 1
+  author: "Birdlinux"
+  repo: "https://github.com/birdlinux/catppuccin-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Birdlinux.catppuccin-dark-theme"
+  formats: null
+colors:
+  bg: "#11111B"
+  fg: "#C6D0F5"
+  black: "#45475A"
+  red: "#F38BA8"
+  green: "#A6E3A1"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#F5C2E7"
+  cyan: "#94E2D5"
+  white: "#C6D0F5"
+  brightBlack: "#585B70"
+  brightRed: "#F38BA8"
+  brightGreen: "#A6E3A1"
+  brightYellow: "#F9E2AF"
+  brightBlue: "#89B4FA"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#94E2D5"
+  brightWhite: "#F4F1FA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 78.1
+    black: 10.7
+    red: 56.1
+    green: 79.8
+    yellow: 89.9
+    blue: 60.5
+    magenta: 78.2
+    cyan: 79.7
+    white: 78.1
+    brightBlack: 18.4
+    brightRed: 56.1
+    brightGreen: 79.8
+    brightYellow: 89.9
+    brightBlue: 60.5
+    brightMagenta: 78.2
+    brightCyan: 79.7
+    brightWhite: 99

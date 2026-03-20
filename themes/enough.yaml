@@ -1,0 +1,53 @@
+name: "Enough"
+source:
+  marketplace_id: "marcusolsson.enough-visual-studio-code"
+  version: "1.0.0"
+  installs: 887
+  rating: 5
+  ratings: 1
+  author: "Marcus Olsson"
+  repo: "https://github.com/marcusolsson/vscode-theme-enough"
+  url: "https://marketplace.visualstudio.com/items?itemName=marcusolsson.enough-visual-studio-code"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#FFFFFF"
+  black: "#1E1E1E"
+  red: "#CC6666"
+  green: "#B5BD68"
+  yellow: "#F0C674"
+  blue: "#81A2BE"
+  magenta: "#B294BB"
+  cyan: "#8ABEB7"
+  white: "#FFFFFF"
+  brightBlack: "#1E1E1E"
+  brightRed: "#CC6666"
+  brightGreen: "#B5BD68"
+  brightYellow: "#F0C674"
+  brightBlue: "#81A2BE"
+  brightMagenta: "#B294BB"
+  brightCyan: "#8ABEB7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 0
+    red: 35.6
+    green: 61.6
+    yellow: 73.8
+    blue: 48
+    magenta: 48.1
+    cyan: 60
+    white: 106
+    brightBlack: 0
+    brightRed: 35.6
+    brightGreen: 61.6
+    brightYellow: 73.8
+    brightBlue: 48
+    brightMagenta: 48.1
+    brightCyan: 60
+    brightWhite: 106

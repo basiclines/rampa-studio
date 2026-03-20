@@ -1,0 +1,53 @@
+name: "Kenobi Dark Theme"
+source:
+  marketplace_id: "BrunoDaSilva.kenobi-dark-theme"
+  version: "0.5.3"
+  installs: 512
+  rating: 0
+  ratings: 0
+  author: "Bruno DaSilva"
+  repo: "https://github.com/Brunno-DaSilva/Kenobi-dark-vs-code-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BrunoDaSilva.kenobi-dark-theme"
+  formats: null
+colors:
+  bg: "#060931"
+  fg: "#9999E6"
+  black: "#0B1C2C"
+  red: "#BF8B56"
+  green: "#56BF8B"
+  yellow: "#8BBF56"
+  blue: "#8B56BF"
+  magenta: "#4FC1FF"
+  cyan: "#568BBF"
+  white: "#CBD6E2"
+  brightBlack: "#627E99"
+  brightRed: "#BF8B56"
+  brightGreen: "#56BF8B"
+  brightYellow: "#8BBF56"
+  brightBlue: "#8B56BF"
+  brightMagenta: "#BF568B"
+  brightCyan: "#568BBF"
+  brightWhite: "#F7F9FB"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 50.5
+    black: 0
+    red: 44.9
+    green: 56.9
+    yellow: 59.2
+    blue: 26.8
+    magenta: 63
+    cyan: 37.7
+    white: 80.3
+    brightBlack: 31.9
+    brightRed: 44.9
+    brightGreen: 56.9
+    brightYellow: 59.2
+    brightBlue: 26.8
+    brightMagenta: 32.1
+    brightCyan: 37.7
+    brightWhite: 103.2

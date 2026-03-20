@@ -1,0 +1,53 @@
+name: "Astro by Mike (Astro Dark)"
+source:
+  marketplace_id: "wicked-labs.astro-theme"
+  version: "0.9.7"
+  installs: 5261
+  rating: 5
+  ratings: 1
+  author: "Michael Andreuzza "
+  repo: "https://github.com/michael-andreuzza/astro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.astro-theme"
+  formats: null
+colors:
+  bg: "#0F1014"
+  fg: "#9898A2"
+  black: "#FFFFFF"
+  red: "#EEF0F9"
+  green: "#5CC9F5"
+  yellow: "#23EBC0"
+  blue: "#ACAFFF"
+  magenta: "#DA68FB"
+  cyan: "#FFD493"
+  white: "#9898A2"
+  brightBlack: "#686974"
+  brightRed: "#EEF0F9"
+  brightGreen: "#5CC9F5"
+  brightYellow: "#23EBC0"
+  brightBlue: "#ACAFFF"
+  brightMagenta: "#DA68FB"
+  brightCyan: "#FFD493"
+  brightWhite: "#9898A2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Astro by Mike (Astro Light)"
+  contrast:
+    fg: 46.6
+    black: 107.4
+    red: 97.8
+    green: 66.5
+    yellow: 78.7
+    blue: 62.4
+    magenta: 47.3
+    cyan: 84.1
+    white: 46.6
+    brightBlack: 24.2
+    brightRed: 97.8
+    brightGreen: 66.5
+    brightYellow: 78.7
+    brightBlue: 62.4
+    brightMagenta: 47.3
+    brightCyan: 84.1
+    brightWhite: 46.6

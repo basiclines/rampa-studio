@@ -1,0 +1,53 @@
+name: "Cold Python Theme"
+source:
+  marketplace_id: "nparamonov.cold-python-theme"
+  version: "1.14.1"
+  installs: 31736
+  rating: 5
+  ratings: 9
+  author: "nparamonov"
+  repo: "https://github.com/nparamonov/vscode-cold-python-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nparamonov.cold-python-theme"
+  formats: null
+colors:
+  bg: "#1E1F22"
+  fg: "#BCBEC4"
+  black: "#000000"
+  red: "#F0524F"
+  green: "#5C962C"
+  yellow: "#A68A0D"
+  blue: "#3993D4"
+  magenta: "#A771BF"
+  cyan: "#00A3A3"
+  white: "#808080"
+  brightBlack: "#595959"
+  brightRed: "#FF4050"
+  brightGreen: "#4FC414"
+  brightYellow: "#E5BF00"
+  brightBlue: "#1FB0FF"
+  brightMagenta: "#ED7EED"
+  brightCyan: "#00E5E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.5
+    black: 0
+    red: 38.4
+    green: 36.4
+    yellow: 38.9
+    blue: 39.3
+    magenta: 35.8
+    cyan: 42.4
+    white: 32.8
+    brightBlack: 15.7
+    brightRed: 39.3
+    brightGreen: 55.8
+    brightYellow: 68.1
+    brightBlue: 53.2
+    brightMagenta: 53.5
+    brightCyan: 75.7
+    brightWhite: 105.9

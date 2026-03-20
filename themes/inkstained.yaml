@@ -1,0 +1,53 @@
+name: "Inkstained"
+source:
+  marketplace_id: "bfulop.inkstained"
+  version: "0.1.5"
+  installs: 358
+  rating: 5
+  ratings: 1
+  author: "Balint Fulop"
+  repo: "https://github.com/bfulop/inkstained"
+  url: "https://marketplace.visualstudio.com/items?itemName=bfulop.inkstained"
+  formats: null
+colors:
+  bg: "#EDEBE9"
+  fg: "#557498"
+  black: "#000000"
+  red: "#DC7786"
+  green: "#6BA480"
+  yellow: "#949800"
+  blue: "#5E99B1"
+  magenta: "#B0789B"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#DC7786"
+  brightGreen: "#6BA480"
+  brightYellow: "#B5BA00"
+  brightBlue: "#5E99B1"
+  brightMagenta: "#A05B89"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 61.8
+    black: 94.4
+    red: 44.5
+    green: 43.5
+    yellow: 46.2
+    blue: 46.8
+    magenta: 50.7
+    cyan: 48.9
+    white: 74.3
+    brightBlack: 67.1
+    brightRed: 44.5
+    brightGreen: 43.5
+    brightYellow: 29.3
+    brightBlue: 46.8
+    brightMagenta: 61.5
+    brightCyan: 48.9
+    brightWhite: 36.8

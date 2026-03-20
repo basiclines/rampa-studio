@@ -1,0 +1,54 @@
+name: "Herzha Dark"
+source:
+  marketplace_id: "madhanmaaz.vscode-herzha-theme"
+  version: "0.0.1"
+  installs: 18
+  rating: 0
+  ratings: 0
+  author: "madhanmaaz"
+  repo: "https://github.com/madhanmaaz/herzha-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=madhanmaaz.vscode-herzha-theme"
+  formats:
+    sublime: "https://raw.githubusercontent.com/madhanmaaz/herzha-theme/main/packages/sublime-text/themes/herzha-dark.tmTheme"
+colors:
+  bg: "#141418"
+  fg: "#A9B1D6"
+  black: "#141418"
+  red: "#FB899E"
+  green: "#85D0B7"
+  yellow: "#F2C98B"
+  blue: "#7DCFFF"
+  magenta: "#A779F3"
+  cyan: "#03BDE5"
+  white: "#A9B1D6"
+  brightBlack: "#6C6C82"
+  brightRed: "#FF9FB1"
+  brightGreen: "#95DFC6"
+  brightYellow: "#F5D08A"
+  brightBlue: "#87A1FF"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#8BD5FF"
+  brightWhite: "#EEF0F7"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.1
+    black: 0
+    red: 56.6
+    green: 68.7
+    yellow: 76.9
+    blue: 71.3
+    magenta: 42.7
+    cyan: 58.1
+    white: 60.1
+    brightBlack: 25.7
+    brightRed: 64.8
+    brightGreen: 77.6
+    brightYellow: 80.3
+    brightBlue: 53.2
+    brightMagenta: 55.8
+    brightCyan: 75
+    brightWhite: 97.3

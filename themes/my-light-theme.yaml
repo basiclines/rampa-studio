@@ -1,0 +1,53 @@
+name: "My Light Theme"
+source:
+  marketplace_id: "Akilan.akil"
+  version: "0.0.1"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Akilan"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Akilan.akil"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#28A745"
+  yellow: "#BF8700"
+  blue: "#0969DA"
+  magenta: "#5A32A3"
+  cyan: "#1B7C83"
+  white: "#6E7781"
+  brightBlack: "#656D76"
+  brightRed: "#DA3633"
+  brightGreen: "#1A7F37"
+  brightYellow: "#D1242F"
+  brightBlue: "#218BFF"
+  brightMagenta: "#A475F9"
+  brightCyan: "#3192AA"
+  brightWhite: "#F6F8FA"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.7
+    black: 101.5
+    red: 74.8
+    green: 57.9
+    yellow: 58.2
+    blue: 74.9
+    magenta: 89.2
+    cyan: 73.8
+    white: 71.6
+    brightBlack: 76.1
+    brightRed: 70.5
+    brightGreen: 74.6
+    brightYellow: 74.2
+    brightBlue: 60.7
+    brightMagenta: 59.3
+    brightCyan: 63.3
+    brightWhite: 0

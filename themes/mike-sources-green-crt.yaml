@@ -1,0 +1,53 @@
+name: "Mike Sources Green CRT"
+source:
+  marketplace_id: "mikesources.mike-sources-pack"
+  version: "1.1.1"
+  installs: 325
+  rating: 0
+  ratings: 0
+  author: "Mike Sources"
+  repo: "https://github.com/mwfontes/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mikesources.mike-sources-pack"
+  formats: null
+colors:
+  bg: "#081D02"
+  fg: "#38C41F"
+  black: "#39FF14"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 138
+  pair: null
+  contrast:
+    fg: 55.8
+    black: 85.7
+    red: 26.5
+    green: 52.7
+    yellow: 85.4
+    blue: 27.2
+    magenta: 29.5
+    cyan: 47.3
+    white: 89.8
+    brightBlack: 21.8
+    brightRed: 38.3
+    brightGreen: 63.3
+    brightYellow: 95.4
+    brightBlue: 39.7
+    brightMagenta: 45.1
+    brightCyan: 55.1
+    brightWhite: 89.8

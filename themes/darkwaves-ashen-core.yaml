@@ -1,0 +1,53 @@
+name: "Darkwaves: Ashen Core"
+source:
+  marketplace_id: "spacelaxy.spacelaxy-darkwaves"
+  version: "0.0.8"
+  installs: 678
+  rating: 5
+  ratings: 3
+  author: "Spacelaxy LLC"
+  repo: "https://github.com/spacelaxy/darkwaves"
+  url: "https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves"
+  formats: null
+colors:
+  bg: "#181A1B"
+  fg: "#C9C9C9"
+  black: "#181A1B"
+  red: "#E87D7D"
+  green: "#9FDB7D"
+  yellow: "#E5C07B"
+  blue: "#6CA0FF"
+  magenta: "#E5C07B"
+  cyan: "#8BC6FF"
+  white: "#C9C9C9"
+  brightBlack: "#181A1B"
+  brightRed: "#E87D7D"
+  brightGreen: "#9FDB7D"
+  brightYellow: "#E5C07B"
+  brightBlue: "#6CA0FF"
+  brightMagenta: "#E5C07B"
+  brightCyan: "#8BC6FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.6
+    black: 0
+    red: 47.9
+    green: 73.7
+    yellow: 70.3
+    blue: 50.2
+    magenta: 70.3
+    cyan: 67.8
+    white: 72.6
+    brightBlack: 0
+    brightRed: 47.9
+    brightGreen: 73.7
+    brightYellow: 70.3
+    brightBlue: 50.2
+    brightMagenta: 70.3
+    brightCyan: 67.8
+    brightWhite: 106.6

@@ -1,0 +1,55 @@
+name: "Kiss"
+source:
+  marketplace_id: "rileytwo.kiss"
+  version: "0.8.6"
+  installs: 1718
+  rating: 0
+  ratings: 0
+  author: "rileytwo"
+  repo: "https://github.com/rileytwo/kiss"
+  url: "https://marketplace.visualstudio.com/items?itemName=rileytwo.kiss"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/rileytwo/kiss/main/iterm2/kiss.itermcolors"
+    sublime: "https://raw.githubusercontent.com/rileytwo/kiss/main/textmate/kiss.tmTheme"
+colors:
+  bg: "#181818"
+  fg: "#FCFCFC"
+  black: "#333333"
+  red: "#FF7E81"
+  green: "#00FF67"
+  yellow: "#FFF094"
+  blue: "#3FB2FF"
+  magenta: "#9F91FF"
+  cyan: "#2FFEFF"
+  white: "#E6E6E6"
+  brightBlack: "#888888"
+  brightRed: "#FF8F86"
+  brightGreen: "#73FF96"
+  brightYellow: "#F9F1A5"
+  brightBlue: "#00C6FF"
+  brightMagenta: "#ACA8FF"
+  brightCyan: "#00E5FF"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104.8
+    black: 0
+    red: 53.1
+    green: 86
+    yellow: 95.9
+    blue: 55.5
+    magenta: 49.6
+    cyan: 90.8
+    white: 90.5
+    brightBlack: 37.5
+    brightRed: 58
+    brightGreen: 89.5
+    brightYellow: 95.9
+    brightBlue: 63.4
+    brightMagenta: 59.1
+    brightCyan: 77.9
+    brightWhite: 100.8

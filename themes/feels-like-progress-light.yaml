@@ -1,0 +1,53 @@
+name: "Feels Like Progress Light"
+source:
+  marketplace_id: "PhilippComans.feels-like-progress"
+  version: "1.0.0"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "Philipp Comans"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=PhilippComans.feels-like-progress"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#133928"
+  black: "#2A2A2A"
+  red: "#EA819B"
+  green: "#1EC677"
+  yellow: "#FFEB84"
+  blue: "#8DCFD3"
+  magenta: "#F7BDFE"
+  cyan: "#3CCD88"
+  white: "#FFFFFF"
+  brightBlack: "#767676"
+  brightRed: "#EE7979"
+  brightGreen: "#AEE3C1"
+  brightYellow: "#FFF9D8"
+  brightBlue: "#CFF9F6"
+  brightMagenta: "#FDE3FF"
+  brightCyan: "#DDF1DC"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "light"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.7
+    black: 101.1
+    red: 50.3
+    green: 43.4
+    yellow: 9.8
+    blue: 31.9
+    magenta: 24.7
+    cyan: 39.3
+    white: 0
+    brightBlack: 71.6
+    brightRed: 52.6
+    brightGreen: 21.1
+    brightYellow: 0
+    brightBlue: 0
+    brightMagenta: 9.4
+    brightCyan: 9.1
+    brightWhite: 0

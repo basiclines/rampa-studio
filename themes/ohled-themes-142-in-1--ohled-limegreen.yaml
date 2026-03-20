@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_LimeGreen)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#32CD32"
+  black: "#32CD32"
+  red: "#259625"
+  green: "#28A428"
+  yellow: "#1E7B1E"
+  blue: "#2FBF2F"
+  magenta: "#2BB22B"
+  cyan: "#218921"
+  white: "#1B6D1B"
+  brightBlack: "#32CD32"
+  brightRed: "#259625"
+  brightGreen: "#28A428"
+  brightYellow: "#1E7B1E"
+  brightBlue: "#2FBF2F"
+  brightMagenta: "#2BB22B"
+  brightCyan: "#218921"
+  brightWhite: "#1B6D1B"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 61.4
+    black: 61.4
+    red: 36.3
+    green: 42.3
+    yellow: 25.4
+    blue: 54.6
+    magenta: 48.6
+    cyan: 30.9
+    white: 20.3
+    brightBlack: 61.4
+    brightRed: 36.3
+    brightGreen: 42.3
+    brightYellow: 25.4
+    brightBlue: 54.6
+    brightMagenta: 48.6
+    brightCyan: 30.9
+    brightWhite: 20.3

@@ -1,0 +1,53 @@
+name: "Alice's Theme"
+source:
+  marketplace_id: "CadeteSinx.alices-theme"
+  version: "1.0.0"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "CadeteSinx"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=CadeteSinx.alices-theme"
+  formats: null
+colors:
+  bg: "#0F0F0F"
+  fg: "#FF5C2A"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 44.8
+    black: 0
+    red: 27.3
+    green: 53.6
+    yellow: 86.2
+    blue: 28.1
+    magenta: 30.4
+    cyan: 48.2
+    white: 90.6
+    brightBlack: 22.7
+    brightRed: 39.2
+    brightGreen: 64.2
+    brightYellow: 96.3
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 90.6

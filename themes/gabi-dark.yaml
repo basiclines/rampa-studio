@@ -1,0 +1,53 @@
+name: "Gabi Dark"
+source:
+  marketplace_id: "gabisantosdev.gabi-theme"
+  version: "0.0.2"
+  installs: 331
+  rating: 0
+  ratings: 0
+  author: "Gabriel Santos"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=gabisantosdev.gabi-theme"
+  formats: null
+colors:
+  bg: "#050A30"
+  fg: "#7EC8E3"
+  black: "#666666"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#7D7D7D"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 269
+  pair: null
+  contrast:
+    fg: 66.9
+    black: 22.5
+    red: 27.2
+    green: 53.5
+    yellow: 86.1
+    blue: 27.9
+    magenta: 30.2
+    cyan: 48
+    white: 90.5
+    brightBlack: 32.8
+    brightRed: 39
+    brightGreen: 64
+    brightYellow: 96.1
+    brightBlue: 40.5
+    brightMagenta: 45.8
+    brightCyan: 55.9
+    brightWhite: 90.5

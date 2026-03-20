@@ -1,0 +1,54 @@
+name: "VSCode Nofrils One Light"
+source:
+  marketplace_id: "batteajd.vscode-nofrils"
+  version: "2.2.0"
+  installs: 102
+  rating: 0
+  ratings: 0
+  author: "Jonathan Batteas"
+  repo: "https://github.com/sosukeinu/vscode-nofrils"
+  url: "https://marketplace.visualstudio.com/items?itemName=batteajd.vscode-nofrils"
+  formats:
+    zed: "https://raw.githubusercontent.com/sosukeinu/vscode-nofrils/main/themes/vs-code-nofrils-solarized-light-color-theme.json"
+colors:
+  bg: "#FAFAFA"
+  fg: "#383A42"
+  black: "#383A42"
+  red: "#E45649"
+  green: "#50A14F"
+  yellow: "#C18401"
+  blue: "#4078F2"
+  magenta: "#A626A4"
+  cyan: "#0184BC"
+  white: "#FAFAFA"
+  brightBlack: "#4F525D"
+  brightRed: "#E45649"
+  brightGreen: "#50A14F"
+  brightYellow: "#C18401"
+  brightBlue: "#4078F2"
+  brightMagenta: "#A626A4"
+  brightCyan: "#0184BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "VSCode Nofrils One Dark"
+  contrast:
+    fg: 93.2
+    black: 93.2
+    red: 60.4
+    green: 56
+    yellow: 55.8
+    blue: 64.3
+    magenta: 76.2
+    cyan: 65.1
+    white: 0
+    brightBlack: 84.1
+    brightRed: 60.4
+    brightGreen: 56
+    brightYellow: 55.8
+    brightBlue: 64.3
+    brightMagenta: 76.2
+    brightCyan: 65.1
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Pantone Navy (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#F4F4F5"
+  fg: "#060918"
+  black: "#060918"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F4F4F5"
+  brightBlack: "#3A4360"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F1F1F2"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Navy (Dark)"
+  contrast:
+    fg: 99.3
+    black: 99.3
+    red: 72.3
+    green: 55.8
+    yellow: 40.1
+    blue: 83.3
+    magenta: 79.5
+    cyan: 72.6
+    white: 0
+    brightBlack: 86.1
+    brightRed: 62
+    brightGreen: 42.7
+    brightYellow: 23.8
+    brightBlue: 49.3
+    brightMagenta: 60.9
+    brightCyan: 42.1
+    brightWhite: 0

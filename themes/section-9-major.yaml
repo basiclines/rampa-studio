@@ -1,0 +1,53 @@
+name: "Section 9 - Major"
+source:
+  marketplace_id: "y4m3.section9-theme"
+  version: "0.0.1"
+  installs: 61
+  rating: 0
+  ratings: 0
+  author: "y4m3"
+  repo: "https://github.com/y4m3/vscode-section9-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=y4m3.section9-theme"
+  formats: null
+colors:
+  bg: "#15121A"
+  fg: "#C5C8C6"
+  black: "#0D0B10"
+  red: "#D84040"
+  green: "#70C0E0"
+  yellow: "#D0B0A0"
+  blue: "#80A0D0"
+  magenta: "#C090F0"
+  cyan: "#90B0B0"
+  white: "#C5C8C6"
+  brightBlack: "#807C88"
+  brightRed: "#F06060"
+  brightGreen: "#A0E0F0"
+  brightYellow: "#E8C8B8"
+  brightBlue: "#A0C0E8"
+  brightMagenta: "#D8B8F8"
+  brightCyan: "#B0D0D0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 302
+  pair: null
+  contrast:
+    fg: 72.2
+    black: 0
+    red: 31.4
+    green: 62.1
+    yellow: 62.5
+    blue: 49.3
+    magenta: 52.8
+    cyan: 55.5
+    white: 72.2
+    brightBlack: 33
+    brightRed: 42.6
+    brightGreen: 81
+    brightYellow: 76.4
+    brightBlue: 66.4
+    brightMagenta: 70.7
+    brightCyan: 73.7
+    brightWhite: 107.2

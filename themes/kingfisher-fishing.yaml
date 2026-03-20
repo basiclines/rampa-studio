@@ -1,0 +1,53 @@
+name: "kingfisher-fishing"
+source:
+  marketplace_id: "williamsteffens.kingfisher-fishing-after-dark"
+  version: "0.5.2"
+  installs: 852
+  rating: 5
+  ratings: 1
+  author: "williamsteffens"
+  repo: "https://github.com/williamsteffens/vscode-kingfisher-fishing-after-dark-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=williamsteffens.kingfisher-fishing-after-dark"
+  formats: null
+colors:
+  bg: "#22282E"
+  fg: "#E1E4E8"
+  black: "#586069"
+  red: "#EA4A5A"
+  green: "#34D058"
+  yellow: "#FFEA7F"
+  blue: "#2188FF"
+  magenta: "#B392F0"
+  cyan: "#39C5CF"
+  white: "#D1D5DA"
+  brightBlack: "#959DA5"
+  brightRed: "#F97583"
+  brightGreen: "#85E89D"
+  brightYellow: "#FFEA7F"
+  brightBlue: "#79B8FF"
+  brightMagenta: "#B392F0"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FAFBFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 86.9
+    black: 16.8
+    red: 34.6
+    green: 59.9
+    yellow: 90.4
+    blue: 36.6
+    magenta: 49.1
+    cyan: 58.6
+    white: 77.5
+    brightBlack: 45.4
+    brightRed: 47.4
+    brightGreen: 76.8
+    brightYellow: 90.4
+    brightBlue: 58.5
+    brightMagenta: 49.1
+    brightCyan: 67.1
+    brightWhite: 101.8

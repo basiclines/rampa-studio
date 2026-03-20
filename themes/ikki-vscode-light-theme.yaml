@@ -1,0 +1,53 @@
+name: "IKKI VSCode Light Theme"
+source:
+  marketplace_id: "IKKI2000.ikki-vscode-light-theme"
+  version: "1.88.1"
+  installs: 4733
+  rating: 5
+  ratings: 2
+  author: "IKKI"
+  repo: "https://github.com/IKKI2000/IKKI-VSCode-Light-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=IKKI2000.ikki-vscode-light-theme"
+  formats: null
+colors:
+  bg: "#FFFCF4"
+  fg: "#8D634A"
+  black: "#434A54"
+  red: "#DA4453"
+  green: "#37BC9B"
+  yellow: "#FF9800"
+  blue: "#4A89DC"
+  magenta: "#D770AD"
+  cyan: "#3BAFDA"
+  white: "#8CC152"
+  brightBlack: "#656D78"
+  brightRed: "#ED5565"
+  brightGreen: "#48CFAD"
+  brightYellow: "#FFB74D"
+  brightBlue: "#5D9CEC"
+  brightMagenta: "#EC87C0"
+  brightCyan: "#4FC1E9"
+  brightWhite: "#A0D468"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "IKKI VSCode Dark Theme"
+  contrast:
+    fg: 74.1
+    black: 88.8
+    red: 66.5
+    green: 44.7
+    yellow: 40.1
+    blue: 61.1
+    magenta: 55.6
+    cyan: 47.3
+    white: 39.9
+    brightBlack: 74.2
+    brightRed: 59.3
+    brightGreen: 35.2
+    brightYellow: 29.4
+    brightBlue: 52.3
+    brightMagenta: 45
+    brightCyan: 38.4
+    brightWhite: 29.6

@@ -1,0 +1,53 @@
+name: "Pare Colors Theme"
+source:
+  marketplace_id: "jliima.pare-colors-theme"
+  version: "1.0.1"
+  installs: 1272
+  rating: 0
+  ratings: 0
+  author: "Jere Liimatainen"
+  repo: "https://github.com/jliima/vscode-pare-colors-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jliima.pare-colors-theme"
+  formats: null
+colors:
+  bg: "#131C24"
+  fg: "#CFDCEB"
+  black: "#10171E"
+  red: "#CD222F"
+  green: "#0BDE96"
+  yellow: "#EE8109"
+  blue: "#61AFEF"
+  magenta: "#556072"
+  cyan: "#0BA3A4"
+  white: "#CFDCEB"
+  brightBlack: "#556072"
+  brightRed: "#F3170D"
+  brightGreen: "#0BDE96"
+  brightYellow: "#EE8109"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C91B8E"
+  brightCyan: "#0BA3A4"
+  brightWhite: "#CFDCEB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 246
+  pair: null
+  contrast:
+    fg: 83
+    black: 0
+    red: 25
+    green: 69.6
+    yellow: 48.6
+    blue: 54.2
+    magenta: 18.8
+    cyan: 43
+    white: 83
+    brightBlack: 18.8
+    brightRed: 33.3
+    brightGreen: 69.6
+    brightYellow: 48.6
+    brightBlue: 54.2
+    brightMagenta: 26.3
+    brightCyan: 43
+    brightWhite: 83

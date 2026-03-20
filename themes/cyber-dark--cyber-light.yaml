@@ -1,0 +1,53 @@
+name: "Cyber Dark (Cyber Light)"
+source:
+  marketplace_id: "tryToDEv.cyber-dark-theme-collection"
+  version: "1.0.0"
+  installs: 24
+  rating: 0
+  ratings: 0
+  author: "tryToDEv"
+  repo: "https://github.com/shivam20/cyber-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tryToDEv.cyber-dark-theme-collection"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#24292F"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#1A7F37"
+  yellow: "#D29922"
+  blue: "#0969DA"
+  magenta: "#8250DF"
+  cyan: "#1F6FEB"
+  white: "#8C959F"
+  brightBlack: "#6E7781"
+  brightRed: "#CF222E"
+  brightGreen: "#1A7F37"
+  brightYellow: "#D29922"
+  brightBlue: "#1F6FEB"
+  brightMagenta: "#8250DF"
+  brightCyan: "#1F6FEB"
+  brightWhite: "#24292F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Cyber Dark (Cyber Dark)"
+  contrast:
+    fg: 101.5
+    black: 101.5
+    red: 74.8
+    green: 74.6
+    yellow: 49.3
+    blue: 74.9
+    magenta: 74.3
+    cyan: 71.5
+    white: 57.2
+    brightBlack: 71.6
+    brightRed: 74.8
+    brightGreen: 74.6
+    brightYellow: 49.3
+    brightBlue: 71.5
+    brightMagenta: 74.3
+    brightCyan: 71.5
+    brightWhite: 101.5

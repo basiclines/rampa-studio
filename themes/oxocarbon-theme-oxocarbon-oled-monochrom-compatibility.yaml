@@ -1,0 +1,54 @@
+name: "Oxocarbon Theme (Oxocarbon OLED Monochrom (compatibility))"
+source:
+  marketplace_id: "NyoomEngineering.oxocarbon-vscode"
+  version: "1.2.0"
+  installs: 1566
+  rating: 5
+  ratings: 1
+  author: "Nyoom Engineering"
+  repo: "https://github.com/nyoom-engineering/oxocarbon-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=NyoomEngineering.oxocarbon-vscode"
+  formats:
+    zed: "https://raw.githubusercontent.com/nyoom-engineering/oxocarbon-vscode/main/assets/settings-zed.json"
+colors:
+  bg: "#000000"
+  fg: "#F2F4F8"
+  black: "#000000"
+  red: "#A8A8A8"
+  green: "#A8A8A8"
+  yellow: "#A8A8A8"
+  blue: "#A8A8A8"
+  magenta: "#C6C6C6"
+  cyan: "#A8A8A8"
+  white: "#DDE1E6"
+  brightBlack: "#393939"
+  brightRed: "#A8A8A8"
+  brightGreen: "#A8A8A8"
+  brightYellow: "#A8A8A8"
+  brightBlue: "#A8A8A8"
+  brightMagenta: "#C6C6C6"
+  brightCyan: "#A8A8A8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: "Oxocarbon Theme (Oxocarbon OLED Monochrom)"
+  contrast:
+    fg: 100.6
+    black: 0
+    red: 55.2
+    green: 55.2
+    yellow: 55.2
+    blue: 55.2
+    magenta: 72.1
+    cyan: 55.2
+    white: 88.2
+    brightBlack: 0
+    brightRed: 55.2
+    brightGreen: 55.2
+    brightYellow: 55.2
+    brightBlue: 55.2
+    brightMagenta: 72.1
+    brightCyan: 55.2
+    brightWhite: 107.9

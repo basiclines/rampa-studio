@@ -1,0 +1,53 @@
+name: "Rainglow (newton-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#121014"
+  fg: "#EAEBFF"
+  black: "#1F1B22"
+  red: "#BA0E2E"
+  green: "#FA824C"
+  yellow: "#FFBF69"
+  blue: "#3C91E6"
+  magenta: "#FA824C"
+  cyan: "#FFBF69"
+  white: "#FFFFFF"
+  brightBlack: "#453D4D"
+  brightRed: "#F03E5F"
+  brightGreen: "#FDC7AF"
+  brightYellow: "#FFEBCF"
+  brightBlue: "#96C4F2"
+  brightMagenta: "#FDC7AF"
+  brightCyan: "#FFEBCF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (newton-light)"
+  contrast:
+    fg: 95.2
+    black: 0
+    red: 21
+    green: 52.7
+    yellow: 74.6
+    blue: 41.4
+    magenta: 52.7
+    cyan: 74.6
+    white: 107.4
+    brightBlack: 8
+    brightRed: 37.3
+    brightGreen: 79.2
+    brightYellow: 96
+    brightBlue: 67.9
+    brightMagenta: 79.2
+    brightCyan: 96
+    brightWhite: 107.4

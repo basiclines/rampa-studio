@@ -1,0 +1,53 @@
+name: "witcher"
+source:
+  marketplace_id: "Devpenzil.witcher"
+  version: "0.1.1"
+  installs: 667
+  rating: 5
+  ratings: 2
+  author: "Devpenzil"
+  repo: "https://github.com/devpenzil/Witcher-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Devpenzil.witcher"
+  formats: null
+colors:
+  bg: "#222831"
+  fg: "#FFFFFF"
+  black: "#565869"
+  red: "#FF5C57"
+  green: "#2DAE58"
+  yellow: "#EBB100"
+  blue: "#09A1ED"
+  magenta: "#FF3E78"
+  cyan: "#04D1BC"
+  white: "#FAFBF9"
+  brightBlack: "#75798F"
+  brightRed: "#FFAEAC"
+  brightGreen: "#35CF68"
+  brightYellow: "#F5B900"
+  brightBlue: "#14B1FF"
+  brightMagenta: "#FF94D2"
+  brightCyan: "#04D1BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 104.5
+    black: 14.3
+    red: 42.3
+    green: 44
+    yellow: 62.1
+    blue: 44.3
+    magenta: 38.6
+    cyan: 62.7
+    white: 101.6
+    brightBlack: 28.5
+    brightRed: 67.1
+    brightGreen: 59.7
+    brightYellow: 66.9
+    brightBlue: 52.1
+    brightMagenta: 60.2
+    brightCyan: 62.7
+    brightWhite: 104.5

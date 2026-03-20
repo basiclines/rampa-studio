@@ -1,0 +1,53 @@
+name: "Pantone Classic Blue (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#F8F8F9"
+  fg: "#03111C"
+  black: "#03111C"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F8F8F9"
+  brightBlack: "#5E788E"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F6F7F7"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Classic Blue (Dark)"
+  contrast:
+    fg: 101.2
+    black: 101.2
+    red: 74.7
+    green: 58.2
+    yellow: 42.4
+    blue: 85.7
+    magenta: 81.9
+    cyan: 75
+    white: 0
+    brightBlack: 67.9
+    brightRed: 64.4
+    brightGreen: 45
+    brightYellow: 26.2
+    brightBlue: 51.7
+    brightMagenta: 63.3
+    brightCyan: 44.4
+    brightWhite: 0

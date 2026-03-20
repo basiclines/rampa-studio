@@ -1,0 +1,53 @@
+name: "Human Theme (Human High Contrast)"
+source:
+  marketplace_id: "TomHall.human-theme"
+  version: "1.1.1"
+  installs: 99
+  rating: 0
+  ratings: 0
+  author: "Tom Hall"
+  repo: "https://github.com/tom-f-hall/human-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=TomHall.human-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00EE00"
+  yellow: "#FFCC00"
+  blue: "#00DDFF"
+  magenta: "#EE0000"
+  cyan: "#00CCEE"
+  white: "#CCCCCC"
+  brightBlack: "#666666"
+  brightRed: "#FF4444"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFCC00"
+  brightBlue: "#00BBDD"
+  brightMagenta: "#FF4444"
+  brightCyan: "#00BBDD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: "Human Theme (Human Soft)"
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 77.5
+    yellow: 79.6
+    blue: 75.2
+    magenta: 33.3
+    cyan: 66.2
+    white: 75.7
+    brightBlack: 23
+    brightRed: 41.6
+    brightGreen: 86.5
+    brightYellow: 79.6
+    brightBlue: 57.6
+    brightMagenta: 41.6
+    brightCyan: 57.6
+    brightWhite: 107.9

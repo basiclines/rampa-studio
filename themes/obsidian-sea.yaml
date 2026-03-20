@@ -1,0 +1,53 @@
+name: "Obsidian Sea"
+source:
+  marketplace_id: "eight84.obsidian-sea"
+  version: "1.8.0"
+  installs: 68
+  rating: 0
+  ratings: 0
+  author: "eight84"
+  repo: "https://github.com/eight84/obsidian-sea-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eight84.obsidian-sea"
+  formats: null
+colors:
+  bg: "#0F111A"
+  fg: "#E0E6ED"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#8BE9FD"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 90.7
+    black: 0
+    red: 43.9
+    green: 85.3
+    yellow: 99
+    blue: 84.4
+    magenta: 55
+    cyan: 84.4
+    white: 102.4
+    brightBlack: 28.5
+    brightRed: 49.3
+    brightGreen: 89.5
+    brightYellow: 104
+    brightBlue: 66.6
+    brightMagenta: 63.1
+    brightCyan: 97.2
+    brightWhite: 107.3

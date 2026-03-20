@@ -1,0 +1,53 @@
+name: "felixo-orange-contrast"
+source:
+  marketplace_id: "waroi.felixo"
+  version: "1.0.0"
+  installs: 846
+  rating: 5
+  ratings: 3
+  author: "waroi"
+  repo: "https://github.com/waroi/felixoTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=waroi.felixo"
+  formats: null
+colors:
+  bg: "#110F0E"
+  fg: "#F8F8F2"
+  black: "#1F1B19"
+  red: "#BA0E2E"
+  green: "#FF4A03"
+  yellow: "#F23A3A"
+  blue: "#F8BB39"
+  magenta: "#FC803D"
+  cyan: "#FF4A03"
+  white: "#FFFFFF"
+  brightBlack: "#49403C"
+  brightRed: "#F03E5F"
+  brightGreen: "#75DEAF"
+  brightYellow: "#F89A9A"
+  brightBlue: "#FBDD9B"
+  brightMagenta: "#FEC2A1"
+  brightCyan: "#75DEAF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.6
+    black: 0
+    red: 21.1
+    green: 41.7
+    yellow: 36.8
+    blue: 71.3
+    magenta: 52.5
+    cyan: 41.7
+    white: 107.5
+    brightBlack: 8.7
+    brightRed: 37.4
+    brightGreen: 74.4
+    brightYellow: 61.4
+    brightBlue: 87.6
+    brightMagenta: 77
+    brightCyan: 74.4
+    brightWhite: 107.5

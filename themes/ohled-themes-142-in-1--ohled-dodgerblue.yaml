@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_DodgerBlue)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#1E90FF"
+  black: "#1E90FF"
+  red: "#166ABB"
+  green: "#1873CC"
+  yellow: "#125699"
+  blue: "#1C86EE"
+  magenta: "#1A7DDD"
+  cyan: "#1460AA"
+  white: "#104D88"
+  brightBlack: "#1E90FF"
+  brightRed: "#166ABB"
+  brightGreen: "#1873CC"
+  brightYellow: "#125699"
+  brightBlue: "#1C86EE"
+  brightMagenta: "#1A7DDD"
+  brightCyan: "#1460AA"
+  brightWhite: "#104D88"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: null
+  contrast:
+    fg: 42.7
+    black: 42.7
+    red: 24.8
+    green: 28.9
+    yellow: 16.6
+    blue: 37.8
+    magenta: 33.4
+    cyan: 20.6
+    white: 13.1
+    brightBlack: 42.7
+    brightRed: 24.8
+    brightGreen: 28.9
+    brightYellow: 16.6
+    brightBlue: 37.8
+    brightMagenta: 33.4
+    brightCyan: 20.6
+    brightWhite: 13.1

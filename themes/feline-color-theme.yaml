@@ -1,0 +1,53 @@
+name: "feline-color-theme"
+source:
+  marketplace_id: "feline-color-theme.feline-color-theme"
+  version: "0.0.1"
+  installs: 119
+  rating: 0
+  ratings: 0
+  author: "Feline Color Theme"
+  repo: "https://github.com/thailanelopes/Meu_tema_VsCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=feline-color-theme.feline-color-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#D4D4D4"
+  black: "#FF0000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#2CFF00"
+  brightBlack: "#65F900"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 37.5
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 28.4
+    magenta: 30.8
+    cyan: 48.6
+    white: 86.7
+    brightBlack: 85.1
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 56.4
+    brightWhite: 107.9

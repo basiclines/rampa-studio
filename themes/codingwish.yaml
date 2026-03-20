@@ -1,0 +1,53 @@
+name: "CodingWish"
+source:
+  marketplace_id: "CodingWish.codingwish-theme"
+  version: "1.0.0"
+  installs: 86
+  rating: 0
+  ratings: 0
+  author: "CodingWish"
+  repo: "https://github.com/codingwish/codingwish-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodingWish.codingwish-theme"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#C9D1D9"
+  black: "#484F58"
+  red: "#569CD6"
+  green: "#3FB950"
+  yellow: "#D29922"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#01CFFF"
+  brightGreen: "#56D364"
+  brightYellow: "#E3B341"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#01CFFF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#F0F6FC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 77.5
+    black: 13.1
+    red: 45.5
+    green: 52.1
+    yellow: 52.2
+    blue: 52.2
+    magenta: 52.2
+    cyan: 61.4
+    white: 64
+    brightBlack: 29.3
+    brightRed: 68.1
+    brightGreen: 65.5
+    brightYellow: 64.7
+    brightBlue: 64.7
+    brightMagenta: 68.1
+    brightCyan: 69.9
+    brightWhite: 100.9

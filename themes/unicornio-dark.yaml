@@ -1,0 +1,53 @@
+name: "Unicornio Dark"
+source:
+  marketplace_id: "unicorniodev.unicornio-dark"
+  version: "1.1.0"
+  installs: 230
+  rating: 5
+  ratings: 1
+  author: "FlorLuzDuarte"
+  repo: "https://github.com/unicorniodev/unicornio-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=unicorniodev.unicornio-dark"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#FF9580"
+  green: "#33FFD3"
+  yellow: "#FFFAAD"
+  blue: "#569CFF"
+  magenta: "#FB36DB"
+  cyan: "#32CCFF"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF9580"
+  brightGreen: "#33FFD3"
+  brightYellow: "#FFFAAD"
+  brightBlue: "#569CFF"
+  brightMagenta: "#FB36DB"
+  brightCyan: "#32CCFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 59
+    green: 88.6
+    yellow: 100.5
+    blue: 46.9
+    magenta: 42.9
+    cyan: 65.8
+    white: 89.2
+    brightBlack: 21.2
+    brightRed: 59
+    brightGreen: 88.6
+    brightYellow: 100.5
+    brightBlue: 46.9
+    brightMagenta: 42.9
+    brightCyan: 65.8
+    brightWhite: 89.2

@@ -1,0 +1,53 @@
+name: "Aether Glass"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#0A0B0E"
+  fg: "#E8F0FF"
+  black: "#14161B"
+  red: "#FFB5B5"
+  green: "#A8FF90"
+  yellow: "#FFD6A5"
+  blue: "#94E2FF"
+  magenta: "#E5B5FF"
+  cyan: "#B8E7FF"
+  white: "#E8F0FF"
+  brightBlack: "#404650"
+  brightRed: "#FFCCCC"
+  brightGreen: "#C5FFB5"
+  brightYellow: "#FFE8CC"
+  brightBlue: "#B8EDFF"
+  brightMagenta: "#F0D5FF"
+  brightCyan: "#D5F0FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: "Aether Zen"
+  contrast:
+    fg: 97.5
+    black: 0
+    red: 73.1
+    green: 93.9
+    yellow: 85.7
+    blue: 82.2
+    magenta: 72.4
+    cyan: 87.8
+    white: 97.5
+    brightBlack: 10.2
+    brightRed: 82.9
+    brightGreen: 97.6
+    brightYellow: 94.9
+    brightBlue: 90.6
+    brightMagenta: 86.7
+    brightCyan: 95.2
+    brightWhite: 107.7

@@ -1,0 +1,53 @@
+name: "Krishna - Default Dark Theme"
+source:
+  marketplace_id: "BhootStudio.bhoot-theme"
+  version: "1.0.4"
+  installs: 78
+  rating: 0
+  ratings: 0
+  author: "Bhoot Studio"
+  repo: "https://github.com/DebkantaMondal/Bhoot-VS-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BhootStudio.bhoot-theme"
+  formats: null
+colors:
+  bg: "#000D1A"
+  fg: "#D9E0EE"
+  black: "#1A1B26"
+  red: "#FF6E6E"
+  green: "#B9F27C"
+  yellow: "#FFD700"
+  blue: "#89DDFF"
+  magenta: "#D67AD2"
+  cyan: "#8BE9FD"
+  white: "#E0E0E0"
+  brightBlack: "#5A5A5A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#FF9CEB"
+  brightCyan: "#A3F7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 243
+  pair: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 49.5
+    green: 88.3
+    yellow: 84
+    blue: 79
+    magenta: 48.4
+    cyan: 84.7
+    white: 87.6
+    brightBlack: 17.8
+    brightRed: 44.3
+    brightGreen: 84.9
+    brightYellow: 94.4
+    brightBlue: 56.6
+    brightMagenta: 67
+    brightCyan: 93.4
+    brightWhite: 107.6

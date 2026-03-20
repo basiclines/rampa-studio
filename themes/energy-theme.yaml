@@ -1,0 +1,53 @@
+name: "Energy Theme"
+source:
+  marketplace_id: "visual-interpretation-of-technology.energy-theme"
+  version: "1.0.1"
+  installs: 17
+  rating: 0
+  ratings: 0
+  author: "Visual Interpretation of Technology (VIT)"
+  repo: "https://github.com/Zarnovitch/energy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=visual-interpretation-of-technology.energy-theme"
+  formats: null
+colors:
+  bg: "#222635"
+  fg: "#BABED8"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 273
+  pair: null
+  contrast:
+    fg: 65
+    black: 0
+    red: 44.4
+    green: 82
+    yellow: 76.7
+    blue: 53.7
+    magenta: 51.6
+    cyan: 76.1
+    white: 104.7
+    brightBlack: 24.2
+    brightRed: 44.4
+    brightGreen: 82
+    brightYellow: 76.7
+    brightBlue: 53.7
+    brightMagenta: 51.6
+    brightCyan: 76.1
+    brightWhite: 104.7

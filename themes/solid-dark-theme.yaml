@@ -1,0 +1,53 @@
+name: "Solid_Dark_theme"
+source:
+  marketplace_id: "tayyabk993.tayyabk993-theme"
+  version: "0.0.1"
+  installs: 36
+  rating: 0
+  ratings: 0
+  author: "tayyabk993"
+  repo: "https://github.com/Tayyabkhalid993/PIAIC56.git#main"
+  url: "https://marketplace.visualstudio.com/items?itemName=tayyabk993.tayyabk993-theme"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#F2F2F2"
+  black: "#717171"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E2E2E2"
+  brightBlack: "#797979"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.8
+    black: 27.3
+    red: 27.2
+    green: 53.5
+    yellow: 86.1
+    blue: 27.9
+    magenta: 30.3
+    cyan: 48.1
+    white: 88.6
+    brightBlack: 31
+    brightRed: 39.1
+    brightGreen: 64
+    brightYellow: 96.1
+    brightBlue: 40.5
+    brightMagenta: 45.9
+    brightCyan: 55.9
+    brightWhite: 92.4

@@ -1,0 +1,53 @@
+name: "Team Pastel Colors Theme"
+source:
+  marketplace_id: "zumba29.team-pastel-colors"
+  version: "0.0.1"
+  installs: 348
+  rating: 0
+  ratings: 0
+  author: "zumba29"
+  repo: "https://github.com/sahilmtayade/pastel-colors-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zumba29.team-pastel-colors"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#F3EBFF"
+  black: "#403F41"
+  red: "#FC618D"
+  green: "#77D78C"
+  yellow: "#FCE874"
+  blue: "#FD9B60"
+  magenta: "#958CE3"
+  cyan: "#B3F3FF"
+  white: "#F3EBFF"
+  brightBlack: "#6A676C"
+  brightRed: "#FC618D"
+  brightGreen: "#77D78C"
+  brightYellow: "#FCE874"
+  brightBlue: "#FD9B60"
+  brightMagenta: "#958CE3"
+  brightCyan: "#B3F3FF"
+  brightWhite: "#F3EBFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.5
+    black: 0
+    red: 44.9
+    green: 68
+    yellow: 89.8
+    blue: 59.2
+    magenta: 43.6
+    cyan: 90.7
+    white: 94.5
+    brightBlack: 21.5
+    brightRed: 44.9
+    brightGreen: 68
+    brightYellow: 89.8
+    brightBlue: 59.2
+    brightMagenta: 43.6
+    brightCyan: 90.7
+    brightWhite: 94.5

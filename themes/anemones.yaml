@@ -1,0 +1,53 @@
+name: "Anemones"
+source:
+  marketplace_id: "anemones.anemone-colors"
+  version: "0.0.2"
+  installs: 378
+  rating: 0
+  ratings: 0
+  author: "anemones"
+  repo: "https://github.com/radio-alice/anemone-colors"
+  url: "https://marketplace.visualstudio.com/items?itemName=anemones.anemone-colors"
+  formats: null
+colors:
+  bg: "#EAE2FF"
+  fg: "#150049"
+  black: "#EAE2FF"
+  red: "#F14100"
+  green: "#009892"
+  yellow: "#750091"
+  blue: "#007699"
+  magenta: "#0024F3"
+  cyan: "#ED0090"
+  white: "#332063"
+  brightBlack: "#CCC2E5"
+  brightRed: "#00BCE1"
+  brightGreen: "#ED0090"
+  brightYellow: "#750091"
+  brightBlue: "#007699"
+  brightMagenta: "#0024F3"
+  brightCyan: "#ED0090"
+  brightWhite: "#150049"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: 298
+  pair: null
+  contrast:
+    fg: 89.5
+    black: 0
+    red: 49.4
+    green: 47.7
+    yellow: 75.5
+    blue: 60.3
+    magenta: 71.3
+    cyan: 51.4
+    white: 85.2
+    brightBlack: 15.3
+    brightRed: 29.1
+    brightGreen: 51.4
+    brightYellow: 75.5
+    brightBlue: 60.3
+    brightMagenta: 71.3
+    brightCyan: 51.4
+    brightWhite: 89.5

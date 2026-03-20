@@ -1,0 +1,53 @@
+name: "zzc (dark)"
+source:
+  marketplace_id: "zicong-zhang1996.theme-zzc-diy"
+  version: "7.2.1"
+  installs: 86
+  rating: 0
+  ratings: 0
+  author: "zicong-zhang1996"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=zicong-zhang1996.theme-zzc-diy"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#000000"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#EEE8D5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: "zzc (light)"
+  contrast:
+    fg: 0
+    black: 0
+    red: 26.9
+    green: 38.5
+    yellow: 38.5
+    blue: 33.5
+    magenta: 27.2
+    cyan: 39.2
+    white: 88.7
+    brightBlack: 20.7
+    brightRed: 26.4
+    brightGreen: 20.7
+    brightYellow: 26.5
+    brightBlue: 38.8
+    brightMagenta: 27.2
+    brightCyan: 45.7
+    brightWhite: 88.7

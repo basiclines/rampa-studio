@@ -1,0 +1,53 @@
+name: "Drukyul Light"
+source:
+  marketplace_id: "kashgurung.drukyul-themes"
+  version: "1.1.0"
+  installs: 529
+  rating: 5
+  ratings: 2
+  author: "Bikash Gurung"
+  repo: "https://github.com/kashgurung/drukyul-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=kashgurung.drukyul-themes"
+  formats: null
+colors:
+  bg: "#F8F8F8"
+  fg: "#2D3232"
+  black: "#252929"
+  red: "#F56B82"
+  green: "#40C86D"
+  yellow: "#F78C6C"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#38B3BC"
+  white: "#EEFFFF"
+  brightBlack: "#6B7280"
+  brightRed: "#F56B82"
+  brightGreen: "#40C86D"
+  brightYellow: "#F78C6C"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#38B3BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "teal"
+  hue: null
+  pair: "Drukyul Dark"
+  contrast:
+    fg: 95.1
+    black: 97.4
+    red: 50.1
+    green: 37.9
+    yellow: 41.9
+    blue: 41
+    magenta: 43.1
+    cyan: 44.8
+    white: 0
+    brightBlack: 69.4
+    brightRed: 50.1
+    brightGreen: 37.9
+    brightYellow: 41.9
+    brightBlue: 41
+    brightMagenta: 43.1
+    brightCyan: 44.8
+    brightWhite: 0

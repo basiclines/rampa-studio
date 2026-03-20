@@ -1,0 +1,53 @@
+name: "Kubesong"
+source:
+  marketplace_id: "Kubes.kubesong"
+  version: "1.0.13"
+  installs: 1084
+  rating: 5
+  ratings: 1
+  author: "Kubes"
+  repo: "https://github.com/helgelol/kubesong-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kubes.kubesong"
+  formats: null
+colors:
+  bg: "#252C34"
+  fg: "#EBD1B7"
+  black: "#443E37"
+  red: "#BA0E2E"
+  green: "#95CC5E"
+  yellow: "#DB784D"
+  blue: "#60A365"
+  magenta: "#DB784D"
+  cyan: "#95CC5E"
+  white: "#F1DECB"
+  brightBlack: "#6E645A"
+  brightRed: "#F03E5F"
+  brightGreen: "#C8E5AB"
+  brightYellow: "#ECB8A2"
+  brightBlue: "#A1C8A4"
+  brightMagenta: "#ECB8A2"
+  brightCyan: "#C8E5AB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 252
+  pair: null
+  contrast:
+    fg: 77.1
+    black: 0
+    red: 17.4
+    green: 62.5
+    yellow: 40.3
+    blue: 40.7
+    magenta: 40.3
+    cyan: 62.5
+    white: 84.4
+    brightBlack: 18.8
+    brightRed: 33.7
+    brightGreen: 81.1
+    brightYellow: 66.5
+    brightBlue: 63.5
+    brightMagenta: 66.5
+    brightCyan: 81.1
+    brightWhite: 103.8

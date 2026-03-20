@@ -1,0 +1,53 @@
+name: "Rainglow (mauve-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#191119"
+  fg: "#AF92B2"
+  black: "#281B28"
+  red: "#BA0E2E"
+  green: "#C89933"
+  yellow: "#74526C"
+  blue: "#DBD053"
+  magenta: "#C89933"
+  cyan: "#DBD053"
+  white: "#BAA1BD"
+  brightBlack: "#563A56"
+  brightRed: "#F03E5F"
+  brightGreen: "#DFC282"
+  brightYellow: "#A884A0"
+  brightBlue: "#EDE7A7"
+  brightMagenta: "#DFC282"
+  brightCyan: "#EDE7A7"
+  brightWhite: "#DBCEDC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 326
+  pair: "Rainglow (mauve-light)"
+  contrast:
+    fg: 47.7
+    black: 0
+    red: 20.8
+    green: 50.5
+    yellow: 18.5
+    blue: 75.5
+    magenta: 50.5
+    cyan: 75.5
+    white: 54.9
+    brightBlack: 9
+    brightRed: 37.1
+    brightGreen: 70.9
+    brightYellow: 41.3
+    brightBlue: 90
+    brightMagenta: 70.9
+    brightCyan: 90
+    brightWhite: 78.5

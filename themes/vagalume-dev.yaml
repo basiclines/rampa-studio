@@ -1,0 +1,53 @@
+name: "Vagalume Dev"
+source:
+  marketplace_id: "vagalumedev.vagalume-dev-theme"
+  version: "1.0.1"
+  installs: 375
+  rating: 5
+  ratings: 1
+  author: "Vagalume Dev"
+  repo: "https://github.com/vagalumedev/vagalume-dev-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=vagalumedev.vagalume-dev-theme"
+  formats: null
+colors:
+  bg: "#040402"
+  fg: "#FBBA00"
+  black: "#3D3D3D"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E1C542"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#39CDE2"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFE05B"
+  brightBlue: "#74BCFF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#74F2FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 71.7
+    black: 7.4
+    red: 27.7
+    green: 54
+    yellow: 72.1
+    blue: 28.4
+    magenta: 30.8
+    cyan: 66.5
+    white: 91
+    brightBlack: 23
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 88.7
+    brightBlue: 63.2
+    brightMagenta: 46.4
+    brightCyan: 88.1
+    brightWhite: 91

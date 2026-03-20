@@ -1,0 +1,53 @@
+name: "Shadcn Neutral Light"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  rating: 0
+  ratings: 0
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#0A0A0A"
+  black: "#FFFFFF"
+  red: "#E7000B"
+  green: "#009689"
+  yellow: "#F54900"
+  blue: "#A1A1A1"
+  magenta: "#104E64"
+  cyan: "#016630"
+  white: "#0A0A0A"
+  brightBlack: "#F5F5F5"
+  brightRed: "#E7000B"
+  brightGreen: "#F54900"
+  brightYellow: "#FAFAFA"
+  brightBlue: "#171717"
+  brightMagenta: "#D3E2E7"
+  brightCyan: "#104E64"
+  brightWhite: "#0A0A0A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Shadcn Neutral Dark"
+  contrast:
+    fg: 105.8
+    black: 0
+    red: 70.1
+    green: 63.7
+    yellow: 62.1
+    blue: 50.5
+    magenta: 90.7
+    cyan: 84.2
+    white: 105.8
+    brightBlack: 0
+    brightRed: 70.1
+    brightGreen: 62.1
+    brightYellow: 0
+    brightBlue: 104.7
+    brightMagenta: 16.2
+    brightCyan: 90.7
+    brightWhite: 105.8

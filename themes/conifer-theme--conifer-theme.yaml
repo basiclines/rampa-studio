@@ -1,0 +1,53 @@
+name: "Conifer Theme (Conifer Theme)"
+source:
+  marketplace_id: "imalbert.conifer-theme"
+  version: "2.4.3"
+  installs: 1381
+  rating: 5
+  ratings: 3
+  author: "imalbert"
+  repo: "https://github.com/imalbert/conifer-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=imalbert.conifer-theme"
+  formats: null
+colors:
+  bg: "#292929"
+  fg: "#A7BEB1"
+  black: "#292929"
+  red: "#C1918B"
+  green: "#8BC191"
+  yellow: "#A59F5D"
+  blue: "#A7BEB1"
+  magenta: "#C18BBB"
+  cyan: "#A59F5D"
+  white: "#A7BEB1"
+  brightBlack: "#6D8571"
+  brightRed: "#C1918B"
+  brightGreen: "#8BC191"
+  brightYellow: "#A59F5D"
+  brightBlue: "#A7BEB1"
+  brightMagenta: "#C18BBB"
+  brightCyan: "#A59F5D"
+  brightWhite: "#A7BEB1"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.7
+    black: 0
+    red: 45.4
+    green: 58.3
+    yellow: 45.5
+    blue: 60.7
+    magenta: 45.4
+    cyan: 45.5
+    white: 60.7
+    brightBlack: 30.7
+    brightRed: 45.4
+    brightGreen: 58.3
+    brightYellow: 45.5
+    brightBlue: 60.7
+    brightMagenta: 45.4
+    brightCyan: 45.5
+    brightWhite: 60.7

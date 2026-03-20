@@ -1,0 +1,53 @@
+name: "Meridian Theme (Meridian)"
+source:
+  marketplace_id: "britown.vscode-theme-meridian"
+  version: "0.0.14"
+  installs: 167
+  rating: 0
+  ratings: 0
+  author: "Britown"
+  repo: "https://github.com/bkuzmanoski/vscode-theme-meridian"
+  url: "https://marketplace.visualstudio.com/items?itemName=britown.vscode-theme-meridian"
+  formats: null
+colors:
+  bg: "#FCFCFD"
+  fg: "#2E363C"
+  black: "#2E363C"
+  red: "#B03645"
+  green: "#446F53"
+  yellow: "#9F5A38"
+  blue: "#3378A3"
+  magenta: "#9F5090"
+  cyan: "#417B81"
+  white: "#B4BBC2"
+  brightBlack: "#839099"
+  brightRed: "#DE6E7C"
+  brightGreen: "#68AE7F"
+  brightYellow: "#D68C67"
+  brightBlue: "#61ABDA"
+  brightMagenta: "#CF86C1"
+  brightCyan: "#65B8C1"
+  brightWhite: "#637079"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96.3
+    black: 96.3
+    red: 77.5
+    green: 77
+    yellow: 74.1
+    blue: 71.4
+    magenta: 73.8
+    cyan: 71.4
+    white: 35.5
+    brightBlack: 58.3
+    brightRed: 56.6
+    brightGreen: 49.6
+    brightYellow: 50.3
+    brightBlue: 47.4
+    brightMagenta: 50.2
+    brightCyan: 43.2
+    brightWhite: 73.4

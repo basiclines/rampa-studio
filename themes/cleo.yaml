@@ -1,0 +1,53 @@
+name: "Cleo"
+source:
+  marketplace_id: "Cleo.cleo"
+  version: "0.1.7"
+  installs: 1576
+  rating: 3.25
+  ratings: 4
+  author: "Cleo"
+  repo: "https://github.com/FabioKaelin/cleo-vscode-extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Cleo.cleo"
+  formats: null
+colors:
+  bg: "#071D36"
+  fg: "#B6DDE4"
+  black: "#111111"
+  red: "#E42C39"
+  green: "#0CBA78"
+  yellow: "#E5E510"
+  blue: "#0073FF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 254
+  pair: "Cleo (_Dark)"
+  contrast:
+    fg: 80
+    black: 0
+    red: 30.8
+    green: 51.3
+    yellow: 84.8
+    blue: 31.2
+    magenta: 29
+    cyan: 46.8
+    white: 73.9
+    brightBlack: 0
+    brightRed: 50.9
+    brightGreen: 86.1
+    brightYellow: 89.8
+    brightBlue: 61.4
+    brightMagenta: 49.5
+    brightCyan: 93.1
+    brightWhite: 106.1

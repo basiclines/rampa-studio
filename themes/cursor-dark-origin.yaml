@@ -1,0 +1,53 @@
+name: "Cursor Dark Origin"
+source:
+  marketplace_id: "mpulido.cursor-dark-origin"
+  version: "0.0.2"
+  installs: 250
+  rating: 0
+  ratings: 0
+  author: "Michael Pulido"
+  repo: "https://github.com/michaeljpulido/cursor-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mpulido.cursor-dark-origin"
+  formats: null
+colors:
+  bg: "#191919"
+  fg: "#F3F3F3"
+  black: "#242424"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#F3F3F3"
+  brightBlack: "#494949"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#88C0D0"
+  brightWhite: "#F3F3F3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.8
+    black: 0
+    red: 32.8
+    green: 61.4
+    yellow: 76.2
+    blue: 48.4
+    magenta: 46.3
+    cyan: 62.5
+    white: 98.8
+    brightBlack: 10.4
+    brightRed: 32.8
+    brightGreen: 61.4
+    brightYellow: 76.2
+    brightBlue: 48.4
+    brightMagenta: 46.3
+    brightCyan: 62.5
+    brightWhite: 98.8

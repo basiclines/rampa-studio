@@ -1,0 +1,53 @@
+name: "threedark"
+source:
+  marketplace_id: "theegamesVSMarketPlace.threedark"
+  version: "0.0.5"
+  installs: 323
+  rating: 0
+  ratings: 0
+  author: "3ee Games"
+  repo: "https://github.com/3ee-Games/three-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=theegamesVSMarketPlace.threedark"
+  formats: null
+colors:
+  bg: "#070F1C"
+  fg: "#EEFFFF"
+  black: "#011627"
+  red: "#FA2CCA"
+  green: "#1FE00A"
+  yellow: "#E0FF4A"
+  blue: "#389BED"
+  magenta: "#BB64F9"
+  cyan: "#2CFADB"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#FA2CCA"
+  brightGreen: "#1FE00A"
+  brightYellow: "#E0FF4A"
+  brightBlue: "#389BED"
+  brightMagenta: "#BB64F9"
+  brightCyan: "#2CFADB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 259
+  pair: null
+  contrast:
+    fg: 105.2
+    black: 0
+    red: 42.3
+    green: 70
+    yellow: 98.4
+    blue: 45.6
+    magenta: 41.1
+    cyan: 87.7
+    white: 107.5
+    brightBlack: 16.2
+    brightRed: 42.3
+    brightGreen: 70
+    brightYellow: 98.4
+    brightBlue: 45.6
+    brightMagenta: 41.1
+    brightCyan: 87.7
+    brightWhite: 107.5

@@ -1,0 +1,53 @@
+name: "Rainglow (otakon)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#3F373F"
+  fg: "#F9F3F9"
+  black: "#4D434D"
+  red: "#BA0E2E"
+  green: "#B1A6CA"
+  yellow: "#F6E6EB"
+  blue: "#E484B2"
+  magenta: "#CACBDD"
+  cyan: "#F0B9D4"
+  white: "#FFFFFF"
+  brightBlack: "#756775"
+  brightRed: "#F03E5F"
+  brightGreen: "#E9E6F0"
+  brightYellow: "#FFFFFF"
+  brightBlue: "#F6D8E6"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 326
+  pair: "Rainglow (otakon-light)"
+  contrast:
+    fg: 93.4
+    black: 0
+    red: 13.8
+    green: 49.2
+    yellow: 86.4
+    blue: 44.6
+    magenta: 68
+    cyan: 65.8
+    white: 100.2
+    brightBlack: 17.6
+    brightRed: 30.1
+    brightGreen: 84.8
+    brightYellow: 100.2
+    brightBlue: 80.1
+    brightMagenta: 100.2
+    brightCyan: 100.2
+    brightWhite: 100.2

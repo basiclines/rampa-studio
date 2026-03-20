@@ -1,0 +1,53 @@
+name: "Magenta One Dark Pro"
+source:
+  marketplace_id: "pit00.magenta-one-dark-pro"
+  version: "1.0.0"
+  installs: 3500
+  rating: 0
+  ratings: 0
+  author: "Pitu"
+  repo: "https://github.com/pit00/magenta-one-dark-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=pit00.magenta-one-dark-pro"
+  formats: null
+colors:
+  bg: "#0A1016"
+  fg: "#B3B1AD"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#44475A"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 59.8
+    black: 0
+    red: 44
+    green: 85.5
+    yellow: 99.1
+    blue: 54.2
+    magenta: 55.2
+    cyan: 84.6
+    white: 102.6
+    brightBlack: 10.8
+    brightRed: 49.4
+    brightGreen: 89.6
+    brightYellow: 104.1
+    brightBlue: 66.7
+    brightMagenta: 63.2
+    brightCyan: 97.4
+    brightWhite: 107.5

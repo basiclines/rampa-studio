@@ -1,0 +1,53 @@
+name: "Matitheme"
+source:
+  marketplace_id: "Omatita.matitheme"
+  version: "1.0.2"
+  installs: 145
+  rating: 5
+  ratings: 2
+  author: "Omatita"
+  repo: "https://github.com/Omatita/matitheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Omatita.matitheme"
+  formats: null
+colors:
+  bg: "#151515"
+  fg: "#DBC5C5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.6
+    black: 0
+    red: 26.9
+    green: 53.2
+    yellow: 85.8
+    blue: 27.6
+    magenta: 29.9
+    cyan: 47.7
+    white: 107.1
+    brightBlack: 22.2
+    brightRed: 38.7
+    brightGreen: 63.7
+    brightYellow: 95.8
+    brightBlue: 40.2
+    brightMagenta: 45.6
+    brightCyan: 55.6
+    brightWhite: 90.2

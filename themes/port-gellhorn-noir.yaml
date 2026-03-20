@@ -1,0 +1,53 @@
+name: "Port Gellhorn Noir"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 403
+  rating: 5
+  ratings: 1
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+  formats: null
+colors:
+  bg: "#1C1C1C"
+  fg: "#FFFFFF"
+  black: "#1C1C1C"
+  red: "#FF4500"
+  green: "#32CD32"
+  yellow: "#FFD700"
+  blue: "#4169E1"
+  magenta: "#8B008B"
+  cyan: "#00CED1"
+  white: "#FFFFFF"
+  brightBlack: "#1C1C1C"
+  brightRed: "#FF4500"
+  brightGreen: "#32CD32"
+  brightYellow: "#FFD700"
+  brightBlue: "#4169E1"
+  brightMagenta: "#8B008B"
+  brightCyan: "#00CED1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.3
+    black: 0
+    red: 39.8
+    green: 59.8
+    yellow: 82.7
+    blue: 27
+    magenta: 13.5
+    cyan: 64
+    white: 106.3
+    brightBlack: 0
+    brightRed: 39.8
+    brightGreen: 59.8
+    brightYellow: 82.7
+    brightBlue: 27
+    brightMagenta: 13.5
+    brightCyan: 64
+    brightWhite: 106.3

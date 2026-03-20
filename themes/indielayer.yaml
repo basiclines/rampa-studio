@@ -1,0 +1,53 @@
+name: "Indielayer"
+source:
+  marketplace_id: "Indielayer.vscode-indielayer-theme"
+  version: "1.1.2"
+  installs: 230
+  rating: 0
+  ratings: 0
+  author: "Indielayer"
+  repo: "https://github.com/indielayer/vscode-indielayer-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Indielayer.vscode-indielayer-theme"
+  formats: null
+colors:
+  bg: "#222937"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#528BFF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 56.8
+    black: 0
+    red: 39.5
+    green: 59.7
+    yellow: 67.9
+    blue: 38.9
+    magenta: 42.5
+    cyan: 51.9
+    white: 80.4
+    brightBlack: 32.9
+    brightRed: 35.8
+    brightGreen: 59.7
+    brightYellow: 67.9
+    brightBlue: 38.9
+    brightMagenta: 10.1
+    brightCyan: 51.9
+    brightWhite: 80.4

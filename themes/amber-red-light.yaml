@@ -1,0 +1,53 @@
+name: "Amber-Red-Light"
+source:
+  marketplace_id: "HantigoZore.amber-studio"
+  version: "1.2.0"
+  installs: 77
+  rating: 5
+  ratings: 1
+  author: "HantigoZore"
+  repo: "https://github.com/HantigoZore/AmberStudio"
+  url: "https://marketplace.visualstudio.com/items?itemName=HantigoZore.amber-studio"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#C8C8C8"
+  red: "#E05561"
+  green: "#98C379"
+  yellow: "#F69D50"
+  blue: "#4AA5F0"
+  magenta: "#C792EA"
+  cyan: "#82AAFF"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Amber-Red"
+  contrast:
+    fg: 98.7
+    black: 29.5
+    red: 63.9
+    green: 39.1
+    yellow: 41.5
+    blue: 51.2
+    magenta: 47.3
+    cyan: 45.2
+    white: 12.3
+    brightBlack: 85.6
+    brightRed: 54.7
+    brightGreen: 25.3
+    brightYellow: 40.1
+    brightBlue: 37.7
+    brightMagenta: 50.7
+    brightCyan: 33.8
+    brightWhite: 19.4

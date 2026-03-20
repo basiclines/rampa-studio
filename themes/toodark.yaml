@@ -1,0 +1,53 @@
+name: "TooDark"
+source:
+  marketplace_id: "blankrsd.toodark"
+  version: "0.0.2"
+  installs: 796
+  rating: 5
+  ratings: 2
+  author: "Raj Shekhar"
+  repo: "https://github.com/blankRSD/TooDark"
+  url: "https://marketplace.visualstudio.com/items?itemName=blankrsd.toodark"
+  formats: null
+colors:
+  bg: "#121416"
+  fg: "#C8C8C8"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.6
+    black: 0
+    red: 42.4
+    green: 62.6
+    yellow: 70.9
+    blue: 55
+    magenta: 45.4
+    cyan: 54.9
+    white: 83.3
+    brightBlack: 35.8
+    brightRed: 38.7
+    brightGreen: 62.6
+    brightYellow: 70.9
+    brightBlue: 41.8
+    brightMagenta: 13
+    brightCyan: 54.9
+    brightWhite: 83.3

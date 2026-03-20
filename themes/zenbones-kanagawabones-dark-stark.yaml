@@ -1,0 +1,53 @@
+name: "Zenbones Kanagawabones Dark Stark"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#181825"
+  fg: "#DDD8BB"
+  black: "#1F1F28"
+  red: "#E46A78"
+  green: "#98BC6D"
+  yellow: "#E5C283"
+  blue: "#7EB3C9"
+  magenta: "#957FB8"
+  cyan: "#7EB3C9"
+  white: "#DDD8BB"
+  brightBlack: "#3C3C51"
+  brightRed: "#EC818C"
+  brightGreen: "#9EC967"
+  brightYellow: "#F1C982"
+  brightBlue: "#7BC2DF"
+  brightMagenta: "#A98FD2"
+  brightCyan: "#7BC2DF"
+  brightWhite: "#A8A48D"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 81.2
+    black: 0
+    red: 42.2
+    green: 58.7
+    yellow: 71.3
+    blue: 55.8
+    magenta: 37.9
+    cyan: 55.8
+    white: 81.2
+    brightBlack: 0
+    brightRed: 50.3
+    brightGreen: 64.9
+    brightYellow: 76
+    brightBlue: 63.1
+    brightMagenta: 47
+    brightCyan: 63.1
+    brightWhite: 51.4

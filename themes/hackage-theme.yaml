@@ -1,0 +1,53 @@
+name: "hackage-theme"
+source:
+  marketplace_id: "dmarticus.hackage-theme"
+  version: "0.0.3"
+  installs: 1465
+  rating: 5
+  ratings: 2
+  author: "dmarticus"
+  repo: "https://github.com/dmarticus/hackage-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dmarticus.hackage-theme"
+  formats: null
+colors:
+  bg: "#FDF6E3"
+  fg: "#6688CC"
+  black: "#073642"
+  red: "#DC322F"
+  green: "#859900"
+  yellow: "#B58900"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#B58900"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#586E75"
+  brightYellow: "#657B83"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#B58900"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 57.5
+    black: 93.7
+    red: 65.3
+    green: 53.8
+    yellow: 53.8
+    blue: 58.7
+    magenta: 65
+    cyan: 53.1
+    white: 53.8
+    brightBlack: 71.6
+    brightRed: 65.8
+    brightGreen: 71.6
+    brightYellow: 65.7
+    brightBlue: 53.5
+    brightMagenta: 65
+    brightCyan: 46.7
+    brightWhite: 53.8

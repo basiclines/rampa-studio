@@ -1,0 +1,53 @@
+name: "Wildtype"
+source:
+  marketplace_id: "wildtype.wildtype"
+  version: "0.0.6"
+  installs: 4150
+  rating: 5
+  ratings: 1
+  author: "wildtype"
+  repo: "https://github.com/wtype/wildtype-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wildtype.wildtype"
+  formats: null
+colors:
+  bg: "#020A12"
+  fg: "#AACBF1"
+  black: "#519EEB"
+  red: "#F87E4E"
+  green: "#CFCF75"
+  yellow: "#FFFF99"
+  blue: "#268BD2"
+  magenta: "#F06FA0"
+  cyan: "#1B9891"
+  white: "#AACBF1"
+  brightBlack: "#00126E"
+  brightRed: "#FF5B1A"
+  brightGreen: "#CACACA"
+  brightYellow: "#E1E2B3"
+  brightBlue: "#7DCBFF"
+  brightMagenta: "#CFCF75"
+  brightCyan: "#389C76"
+  brightWhite: "#C4EDC4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 241
+  pair: null
+  contrast:
+    fg: 73.1
+    black: 47.7
+    red: 51.6
+    green: 74.5
+    yellow: 104.1
+    blue: 37.6
+    magenta: 48.3
+    cyan: 39.1
+    white: 73.1
+    brightBlack: 0
+    brightRed: 44.7
+    brightGreen: 74.3
+    brightYellow: 87
+    brightBlue: 70.1
+    brightMagenta: 74.5
+    brightCyan: 40.4
+    brightWhite: 89.2

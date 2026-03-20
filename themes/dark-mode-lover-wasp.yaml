@@ -1,0 +1,53 @@
+name: "Dark Mode Lover - Wasp"
+source:
+  marketplace_id: "Lovervoid.dark-mode-lover"
+  version: "0.8.31"
+  installs: 25
+  rating: 0
+  ratings: 0
+  author: "Lovervoid"
+  repo: "https://github.com/Kailuss/dark-mode-lover"
+  url: "https://marketplace.visualstudio.com/items?itemName=Lovervoid.dark-mode-lover"
+  formats: null
+colors:
+  bg: "#1C1D26"
+  fg: "#969FA3"
+  black: "#010103"
+  red: "#ED8274"
+  green: "#88DD77"
+  yellow: "#FF9900"
+  blue: "#3399FF"
+  magenta: "#DABAFA"
+  cyan: "#70E1CC"
+  white: "#ABB2BF"
+  brightBlack: "#4C4C64"
+  brightRed: "#EE6677"
+  brightGreen: "#99CC66"
+  brightYellow: "#EECC66"
+  brightBlue: "#66BBFF"
+  brightMagenta: "#DD77AA"
+  brightCyan: "#99EEDD"
+  brightWhite: "#CCCAC2"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 47.7
+    black: 0
+    red: 49.6
+    green: 72.2
+    yellow: 58.9
+    blue: 44.6
+    magenta: 70.8
+    cyan: 75.3
+    white: 58.6
+    brightBlack: 11.7
+    brightRed: 42.9
+    brightGreen: 65.3
+    brightYellow: 75.7
+    brightBlue: 60.2
+    brightMagenta: 45.3
+    brightCyan: 85.1
+    brightWhite: 72.6

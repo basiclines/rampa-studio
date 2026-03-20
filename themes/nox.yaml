@@ -1,0 +1,53 @@
+name: "Nox"
+source:
+  marketplace_id: "jshstw.nox"
+  version: "0.7.2"
+  installs: 1073
+  rating: 5
+  ratings: 2
+  author: "Josh Stow"
+  repo: "https://github.com/joshstow/nox"
+  url: "https://marketplace.visualstudio.com/items?itemName=jshstw.nox"
+  formats: null
+colors:
+  bg: "#1D1D1D"
+  fg: "#EEFFFF"
+  black: "#1D1D1D"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#FFDC17"
+  blue: "#0F8ADF"
+  magenta: "#AE81FF"
+  cyan: "#66D9EF"
+  white: "#EEFFFF"
+  brightBlack: "#929292"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#FFDC17"
+  brightBlue: "#0F8ADF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#EEFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 0
+    red: 36.6
+    green: 76.3
+    yellow: 84.7
+    blue: 36.3
+    magenta: 45.8
+    cyan: 72.7
+    white: 103.9
+    brightBlack: 41.9
+    brightRed: 36.6
+    brightGreen: 76.3
+    brightYellow: 84.7
+    brightBlue: 36.3
+    brightMagenta: 45.8
+    brightCyan: 72.7
+    brightWhite: 103.9

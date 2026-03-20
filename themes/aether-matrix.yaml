@@ -1,0 +1,53 @@
+name: "Aether Matrix"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#0A0F0A"
+  fg: "#D4F4DD"
+  black: "#0A0F0A"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#D4F4DD"
+  brightBlack: "#1A2F1A"
+  brightRed: "#FCA5A5"
+  brightGreen: "#86EFAC"
+  brightYellow: "#FDE047"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#67E8F9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 145
+  pair: "Aether Zen"
+  contrast:
+    fg: 95.2
+    black: 0
+    red: 48.8
+    green: 71.2
+    yellow: 73.4
+    blue: 52.1
+    magenta: 50.4
+    cyan: 69.3
+    white: 95.2
+    brightBlack: 0
+    brightRed: 66.2
+    brightGreen: 83.8
+    brightYellow: 87.8
+    brightBlue: 68.9
+    brightMagenta: 70
+    brightCyan: 81.9
+    brightWhite: 107.6

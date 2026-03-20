@@ -1,0 +1,53 @@
+name: "Shaant Shakti: Sand Storm"
+source:
+  marketplace_id: "shaant-shakti.shaant-shakti-color-theme"
+  version: "2.0.0"
+  installs: 50
+  rating: 5
+  ratings: 1
+  author: "Aadityaa"
+  repo: "https://github.com/Aditya-Ace/Shaant-Shakti"
+  url: "https://marketplace.visualstudio.com/items?itemName=shaant-shakti.shaant-shakti-color-theme"
+  formats: null
+colors:
+  bg: "#181614"
+  fg: "#F0E6D2"
+  black: "#1E1815"
+  red: "#FF6B6B"
+  green: "#A6B07A"
+  yellow: "#E2BB77"
+  blue: "#9AB0B8"
+  magenta: "#C78C99"
+  cyan: "#92B8B0"
+  white: "#F0E6D2"
+  brightBlack: "#7A665B"
+  brightRed: "#FF8A80"
+  brightGreen: "#C8E6C9"
+  brightYellow: "#FFF59D"
+  brightBlue: "#B3E5FC"
+  brightMagenta: "#F8BBD9"
+  brightCyan: "#B2DFDB"
+  brightWhite: "#F7EEDD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 48.2
+    green: 55.7
+    yellow: 68.1
+    blue: 56.5
+    magenta: 47.9
+    cyan: 58.7
+    white: 91.2
+    brightBlack: 23.8
+    brightRed: 56.6
+    brightGreen: 85.8
+    brightYellow: 98.6
+    brightBlue: 85.4
+    brightMagenta: 74.9
+    brightCyan: 80.9
+    brightWhite: 96.3

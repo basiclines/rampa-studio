@@ -1,0 +1,53 @@
+name: "Matey"
+source:
+  marketplace_id: "arickho.matey-vscode"
+  version: "1.2.5"
+  installs: 1979
+  rating: 4.5
+  ratings: 2
+  author: "Jordan Garcia"
+  repo: "https://github.com/arickho/matey-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=arickho.matey-vscode"
+  formats: null
+colors:
+  bg: "#1D2433"
+  fg: "#C9CCC7"
+  black: "#171C28"
+  red: "#E87A78"
+  green: "#BFD874"
+  yellow: "#EFD87B"
+  blue: "#FDAB77"
+  magenta: "#C39AC9"
+  cyan: "#6BB4CC"
+  white: "#C9CCC7"
+  brightBlack: "#797E83"
+  brightRed: "#E87A78"
+  brightGreen: "#BFD874"
+  brightYellow: "#EFD87B"
+  brightBlue: "#FDAB77"
+  brightMagenta: "#C39AC9"
+  brightCyan: "#6BB4CC"
+  brightWhite: "#C9CCC7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 72.3
+    black: 0
+    red: 45.5
+    green: 73.9
+    yellow: 80.4
+    blue: 64.8
+    magenta: 52.2
+    cyan: 53.6
+    white: 72.3
+    brightBlack: 30.7
+    brightRed: 45.5
+    brightGreen: 73.9
+    brightYellow: 80.4
+    brightBlue: 64.8
+    brightMagenta: 52.2
+    brightCyan: 53.6
+    brightWhite: 72.3

@@ -1,0 +1,53 @@
+name: "Discord Onyx"
+source:
+  marketplace_id: "zangetsu002.dark-discord-theme"
+  version: "1.0.0"
+  installs: 307
+  rating: 0
+  ratings: 0
+  author: "zangetsu002"
+  repo: "https://github.com/zangetsu02/dark-discord-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zangetsu002.dark-discord-theme"
+  formats: null
+colors:
+  bg: "#070709"
+  fg: "#B5B4B4"
+  black: "#000000"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 61.8
+    black: 0
+    red: 41.7
+    green: 37.6
+    yellow: 76.5
+    blue: 42.3
+    magenta: 44.8
+    cyan: 50.2
+    white: 82.2
+    brightBlack: 30.5
+    brightRed: 41.7
+    brightGreen: 37.6
+    brightYellow: 76.5
+    brightBlue: 42.3
+    brightMagenta: 44.8
+    brightCyan: 50.2
+    brightWhite: 107.8

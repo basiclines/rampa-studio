@@ -1,0 +1,53 @@
+name: "Pur+ Theme V1"
+source:
+  marketplace_id: "DevEduardo.purplus-theme"
+  version: "1.0.1"
+  installs: 398
+  rating: 5
+  ratings: 1
+  author: "DevEduardo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=DevEduardo.purplus-theme"
+  formats: null
+colors:
+  bg: "#181820"
+  fg: "#D4D4D4"
+  black: "#FF79C6"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#7B9BFF"
+  magenta: "#BD93F9"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#BC5E94"
+  brightRed: "#CF4D4D"
+  brightGreen: "#37BC59"
+  brightYellow: "#C6CD74"
+  brightBlue: "#6484E6"
+  brightMagenta: "#9576C2"
+  brightCyan: "#55BFD5"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 54.4
+    red: 43.2
+    green: 84.7
+    yellow: 98.4
+    blue: 49.6
+    magenta: 53.5
+    cyan: 83.8
+    white: 101.8
+    brightBlack: 33
+    brightRed: 31.2
+    brightGreen: 52.7
+    brightYellow: 71.4
+    brightBlue: 38
+    brightMagenta: 35.8
+    brightCyan: 59.2
+    brightWhite: 89.8

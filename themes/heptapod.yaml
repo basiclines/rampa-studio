@@ -1,0 +1,53 @@
+name: "Heptapod"
+source:
+  marketplace_id: "kenziebottoms.heptapod"
+  version: "2.0.1"
+  installs: 431
+  rating: 0
+  ratings: 0
+  author: "Kenzie Bottoms"
+  repo: "git+https://github.com/kenziebottoms/vscode-theme-heptapod"
+  url: "https://marketplace.visualstudio.com/items?itemName=kenziebottoms.heptapod"
+  formats: null
+colors:
+  bg: "#0D2935"
+  fg: "#F7F7F7"
+  black: "#B1B9BD"
+  red: "#CD8062"
+  green: "#74ABAB"
+  yellow: "#BFE6F7"
+  blue: "#74ABAB"
+  magenta: "#E3AE7B"
+  cyan: "#EBBCBC"
+  white: "#F7F7F7"
+  brightBlack: "#B1B9BD"
+  brightRed: "#CD8062"
+  brightGreen: "#74ABAB"
+  brightYellow: "#BFE6F7"
+  brightBlue: "#EBBCBC"
+  brightMagenta: "#6EBEE6"
+  brightCyan: "#EBBCBC"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 229
+  pair: null
+  contrast:
+    fg: 99.4
+    black: 60.6
+    red: 41.3
+    green: 48.4
+    yellow: 84.6
+    blue: 48.4
+    magenta: 61.1
+    cyan: 69.7
+    white: 99.4
+    brightBlack: 60.6
+    brightRed: 41.3
+    brightGreen: 48.4
+    brightYellow: 84.6
+    brightBlue: 69.7
+    brightMagenta: 59
+    brightCyan: 69.7
+    brightWhite: 99.4

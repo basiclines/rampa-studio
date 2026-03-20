@@ -1,0 +1,53 @@
+name: "Rainglow (bold-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0F0D0D"
+  fg: "#FFFFFF"
+  black: "#1D1919"
+  red: "#BA0E2E"
+  green: "#3D8E91"
+  yellow: "#F0624B"
+  blue: "#B4B7AD"
+  magenta: "#F0624B"
+  cyan: "#3D8E91"
+  white: "#FFFFFF"
+  brightBlack: "#463C3C"
+  brightRed: "#F03E5F"
+  brightGreen: "#71C0C3"
+  brightYellow: "#F8B4A9"
+  brightBlue: "#E6E7E3"
+  brightMagenta: "#F8B4A9"
+  brightCyan: "#71C0C3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (bold-light)"
+  contrast:
+    fg: 107.6
+    black: 0
+    red: 21.2
+    green: 35.7
+    yellow: 43
+    blue: 62.4
+    magenta: 43
+    cyan: 35.7
+    white: 107.6
+    brightBlack: 7.6
+    brightRed: 37.5
+    brightGreen: 61.1
+    brightYellow: 71
+    brightBlue: 91.7
+    brightMagenta: 71
+    brightCyan: 61.1
+    brightWhite: 107.6

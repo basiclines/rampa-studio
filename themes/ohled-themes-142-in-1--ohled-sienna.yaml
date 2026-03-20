@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_Sienna)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#A86248"
+  black: "#A86248"
+  red: "#7B4835"
+  green: "#864E3A"
+  yellow: "#653B2B"
+  blue: "#9D5B43"
+  magenta: "#92553E"
+  cyan: "#704130"
+  white: "#5A3426"
+  brightBlack: "#A86248"
+  brightRed: "#7B4835"
+  brightGreen: "#864E3A"
+  brightYellow: "#653B2B"
+  brightBlue: "#9D5B43"
+  brightMagenta: "#92553E"
+  brightCyan: "#704130"
+  brightWhite: "#5A3426"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 29.6
+    black: 29.6
+    red: 16.4
+    green: 19.3
+    yellow: 10.6
+    blue: 26
+    magenta: 22.8
+    cyan: 13.3
+    white: 7.9
+    brightBlack: 29.6
+    brightRed: 16.4
+    brightGreen: 19.3
+    brightYellow: 10.6
+    brightBlue: 26
+    brightMagenta: 22.8
+    brightCyan: 13.3
+    brightWhite: 7.9

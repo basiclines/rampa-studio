@@ -1,0 +1,53 @@
+name: "Yaruna Midnight"
+source:
+  marketplace_id: "daniel-duc.daniel-yaruna-theme"
+  version: "1.3.2"
+  installs: 255
+  rating: 5
+  ratings: 2
+  author: "Daniel Duc"
+  repo: "https://github.com/binhduc1211/daniel-yaruna-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniel-duc.daniel-yaruna-theme"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#C9D1D9"
+  black: "#161A20"
+  red: "#FF9E64"
+  green: "#7EE787"
+  yellow: "#79C0FF"
+  blue: "#8B949E"
+  magenta: "#F7768E"
+  cyan: "#ABB3BB"
+  white: "#C9D1D9"
+  brightBlack: "#6E7681"
+  brightRed: "#FF9E64"
+  brightGreen: "#7EE787"
+  brightYellow: "#F2CC60"
+  brightBlue: "#58A6FF"
+  brightMagenta: "#F7768E"
+  brightCyan: "#ABB3BB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 77.5
+    black: 0
+    red: 62.6
+    green: 78.1
+    yellow: 64.7
+    blue: 43.6
+    magenta: 50.4
+    cyan: 60.1
+    white: 77.5
+    brightBlack: 29.3
+    brightRed: 62.6
+    brightGreen: 78.1
+    brightYellow: 77.6
+    brightBlue: 52.2
+    brightMagenta: 50.4
+    brightCyan: 60.1
+    brightWhite: 107.4

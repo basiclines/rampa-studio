@@ -1,0 +1,53 @@
+name: "Aether Abyss"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#020810"
+  fg: "#C8D8E8"
+  black: "#0A1420"
+  red: "#EF4444"
+  green: "#10B981"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#F472B6"
+  cyan: "#22D3EE"
+  white: "#C8D8E8"
+  brightBlack: "#3E5575"
+  brightRed: "#F87171"
+  brightGreen: "#34D399"
+  brightYellow: "#FDE047"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#F9A8D4"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F1F5F9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 246
+  pair: "Aether Zen"
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 37.8
+    green: 52.8
+    yellow: 78.7
+    blue: 52.3
+    magenta: 50.8
+    cyan: 69.5
+    white: 81.6
+    brightBlack: 15.6
+    brightRed: 49
+    brightGreen: 66.1
+    brightYellow: 88.1
+    brightBlue: 69.1
+    brightMagenta: 68.9
+    brightCyan: 82.1
+    brightWhite: 100.8

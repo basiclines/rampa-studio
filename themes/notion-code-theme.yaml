@@ -1,0 +1,53 @@
+name: "Notion Code Theme"
+source:
+  marketplace_id: "HarshitGangwar.notion-code-theme"
+  version: "0.0.2"
+  installs: 5260
+  rating: 5
+  ratings: 2
+  author: "Harshit Gangwar"
+  repo: "https://github.com/harshjoeyit/vscode-notion-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HarshitGangwar.notion-code-theme"
+  formats: null
+colors:
+  bg: "#F7F6F3"
+  fg: "#37352F"
+  black: "#454B4E"
+  red: "#E255A1"
+  green: "#36D1B5"
+  yellow: "#FFA344"
+  blue: "#529CCA"
+  magenta: "#E255A1"
+  cyan: "#0077DF"
+  white: "#F3F3F3"
+  brightBlack: "#2F3437"
+  brightRed: "#E255A1"
+  brightGreen: "#36D1B5"
+  brightYellow: "#FFA344"
+  brightBlue: "#529CCA"
+  brightMagenta: "#996DD7"
+  brightCyan: "#9A6DD7"
+  brightWhite: "#F3F3F3"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.6
+    black: 84.9
+    red: 56.1
+    green: 30.9
+    yellow: 32.7
+    blue: 51.3
+    magenta: 56.1
+    cyan: 64.8
+    white: 0
+    brightBlack: 93.2
+    brightRed: 56.1
+    brightGreen: 30.9
+    brightYellow: 32.7
+    brightBlue: 51.3
+    brightMagenta: 59.9
+    brightCyan: 59.8
+    brightWhite: 0

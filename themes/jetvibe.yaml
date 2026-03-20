@@ -1,0 +1,53 @@
+name: "JetVibe"
+source:
+  marketplace_id: "igorhaf.jetvibe"
+  version: "0.1.11"
+  installs: 80
+  rating: 0
+  ratings: 0
+  author: "Igor Herson"
+  repo: "https://github.com/igorhaf/jetvibe"
+  url: "https://marketplace.visualstudio.com/items?itemName=igorhaf.jetvibe"
+  formats: null
+colors:
+  bg: "#1E1F22"
+  fg: "#E2E8F0"
+  black: "#000000"
+  red: "#CC6666"
+  green: "#6A8759"
+  yellow: "#C2C277"
+  blue: "#6699CC"
+  magenta: "#B77DBA"
+  cyan: "#5FB3B3"
+  white: "#A9B7C6"
+  brightBlack: "#5B5B5B"
+  brightRed: "#FF6B68"
+  brightGreen: "#8DCB6C"
+  brightYellow: "#E6E677"
+  brightBlue: "#7CA7D8"
+  brightMagenta: "#CFA0D4"
+  brightCyan: "#7FCFCF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.5
+    black: 0
+    red: 35.5
+    green: 32.2
+    yellow: 65.4
+    blue: 43.2
+    magenta: 41.2
+    cyan: 52.1
+    white: 60.5
+    brightBlack: 16.5
+    brightRed: 47.1
+    brightGreen: 63.7
+    brightYellow: 86.2
+    brightBlue: 50.8
+    brightMagenta: 57.4
+    brightCyan: 67.7
+    brightWhite: 105.9

@@ -1,0 +1,53 @@
+name: "Dark+ Remix (Nord)"
+source:
+  marketplace_id: "daydev.dark-pastels-remix"
+  version: "0.2.0"
+  installs: 2455
+  rating: 5
+  ratings: 1
+  author: "daydev"
+  repo: "https://github.com/daydev/vscode-dark-remix"
+  url: "https://marketplace.visualstudio.com/items?itemName=daydev.dark-pastels-remix"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#1E1E1E"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#5E81AC"
+  magenta: "#B48EAD"
+  cyan: "#2AA198"
+  white: "#D4D4D4"
+  brightBlack: "#2E3440"
+  brightRed: "#DC322F"
+  brightGreen: "#50FA7B"
+  brightYellow: "#859900"
+  brightBlue: "#268BD2"
+  brightMagenta: "#D33682"
+  brightCyan: "#88C0D0"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 32.1
+    green: 60.8
+    yellow: 75.6
+    blue: 32.3
+    magenta: 45.6
+    cyan: 41.6
+    white: 78.7
+    brightBlack: 0
+    brightRed: 29.3
+    brightGreen: 84
+    brightYellow: 40.8
+    brightBlue: 35.9
+    brightMagenta: 29.6
+    brightCyan: 61.8
+    brightWhite: 100.3

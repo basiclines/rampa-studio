@@ -1,0 +1,53 @@
+name: "Aether Depths"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#030F11"
+  fg: "#AFC5C8"
+  black: "#294146"
+  red: "#D65D6E"
+  green: "#55D98C"
+  yellow: "#C99C5C"
+  blue: "#4AB9D0"
+  magenta: "#D76B91"
+  cyan: "#4AC8D1"
+  white: "#AFC5C8"
+  brightBlack: "#3C5A60"
+  brightRed: "#E17180"
+  brightGreen: "#6CE19B"
+  brightYellow: "#D4AD71"
+  brightBlue: "#5EC6DA"
+  brightMagenta: "#E180A2"
+  brightCyan: "#5ED5DA"
+  brightWhite: "#C6D8DB"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 207
+  pair: "Aether Zen"
+  contrast:
+    fg: 68.8
+    black: 0
+    red: 37.2
+    green: 69.4
+    yellow: 52.6
+    blue: 56.8
+    magenta: 41.7
+    cyan: 63.5
+    white: 68.8
+    brightBlack: 15.9
+    brightRed: 44.5
+    brightGreen: 74.8
+    brightYellow: 61
+    brightBlue: 63.9
+    brightMagenta: 49.7
+    brightCyan: 70.8
+    brightWhite: 80.5

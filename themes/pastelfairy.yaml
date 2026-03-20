@@ -1,0 +1,53 @@
+name: "pastelfairy"
+source:
+  marketplace_id: "tetracalibers.pastelfairy"
+  version: "1.0.0"
+  installs: 874
+  rating: 5
+  ratings: 1
+  author: "tomixy"
+  repo: "https://github.com/tetracalibers/PastelFairy"
+  url: "https://marketplace.visualstudio.com/items?itemName=tetracalibers.pastelfairy"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#B2BEC3"
+  black: "#2D3436"
+  red: "#D63031"
+  green: "#00B894"
+  yellow: "#FDCB6E"
+  blue: "#0984E3"
+  magenta: "#E84393"
+  cyan: "#00CEC9"
+  white: "#B2BEC3"
+  brightBlack: "#636E72"
+  brightRed: "#FF7675"
+  brightGreen: "#55EFC4"
+  brightYellow: "#FFEAA7"
+  brightBlue: "#74B9FF"
+  brightMagenta: "#FD79A8"
+  brightCyan: "#81ECEC"
+  brightWhite: "#DFE6E9"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 36.2
+    black: 98.7
+    red: 72.1
+    green: 49
+    yellow: 23.5
+    blue: 65.5
+    magenta: 63.5
+    cyan: 37.2
+    white: 36.2
+    brightBlack: 76.1
+    brightRed: 50
+    brightGreen: 20.9
+    brightYellow: 9.4
+    brightBlue: 40.3
+    brightMagenta: 48.2
+    brightCyan: 18.6
+    brightWhite: 13

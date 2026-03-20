@@ -1,0 +1,53 @@
+name: "Cosmical"
+source:
+  marketplace_id: "jorgemrtr.cosmical"
+  version: "0.5.0"
+  installs: 1081
+  rating: 5
+  ratings: 1
+  author: "jorgemrtr"
+  repo: "https://github.com/jorgemrtr/cosmical-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jorgemrtr.cosmical"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#DEDEDE"
+  black: "#121212"
+  red: "#F3836D"
+  green: "#9BD180"
+  yellow: "#FCCB88"
+  blue: "#65A4E7"
+  magenta: "#CC9DEC"
+  cyan: "#99DCFF"
+  white: "#DEDEDE"
+  brightBlack: "#121212"
+  brightRed: "#F3836D"
+  brightGreen: "#9BD180"
+  brightYellow: "#FCCB88"
+  brightBlue: "#65A4E7"
+  brightMagenta: "#CC9DEC"
+  brightCyan: "#99DCFF"
+  brightWhite: "#DEDEDE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.1
+    black: 0
+    red: 52.1
+    green: 69.5
+    yellow: 79.4
+    blue: 50.4
+    magenta: 58.7
+    cyan: 79.4
+    white: 86.1
+    brightBlack: 0
+    brightRed: 52.1
+    brightGreen: 69.5
+    brightYellow: 79.4
+    brightBlue: 50.4
+    brightMagenta: 58.7
+    brightCyan: 79.4
+    brightWhite: 86.1

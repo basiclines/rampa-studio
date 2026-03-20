@@ -1,0 +1,53 @@
+name: "APcodespaces"
+source:
+  marketplace_id: "ap-dev.theme-customs"
+  version: "1.7.3"
+  installs: 197
+  rating: 0
+  ratings: 0
+  author: "AP"
+  repo: "https://github.com/MrParindiyal/apcodespaces-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ap-dev.theme-customs"
+  formats: null
+colors:
+  bg: "#021B21"
+  fg: "#D4D4D4"
+  black: "#073642"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#002B36"
+  brightRed: "#CB4B16"
+  brightGreen: "#53D77A"
+  brightYellow: "#F7FF00"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 216
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 26.5
+    green: 52.8
+    yellow: 85.4
+    blue: 36.5
+    magenta: 30.2
+    cyan: 42.2
+    white: 91.7
+    brightBlack: 0
+    brightRed: 29.4
+    brightGreen: 67
+    brightYellow: 100.3
+    brightBlue: 39.8
+    brightMagenta: 45.2
+    brightCyan: 55.2
+    brightWhite: 89.8

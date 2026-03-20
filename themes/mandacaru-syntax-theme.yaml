@@ -1,0 +1,53 @@
+name: "Mandacaru Syntax Theme"
+source:
+  marketplace_id: "oxechicao.mandacaru-syntax-theme"
+  version: "1.2.0"
+  installs: 8
+  rating: 0
+  ratings: 0
+  author: "Francisco Thiago"
+  repo: "https://github.com/oxechicao/mandacaru-vs"
+  url: "https://marketplace.visualstudio.com/items?itemName=oxechicao.mandacaru-syntax-theme"
+  formats: null
+colors:
+  bg: "#302834"
+  fg: "#F8F8EB"
+  black: "#37283E"
+  red: "#A7D9E6"
+  green: "#E0647E"
+  yellow: "#A7D9E6"
+  blue: "#FDAF05"
+  magenta: "#A7E39C"
+  cyan: "#F8CF91"
+  white: "#F8F8EB"
+  brightBlack: "#D2A0C6"
+  brightRed: "#A7D9E6"
+  brightGreen: "#E0647E"
+  brightYellow: "#A7D9E6"
+  brightBlue: "#FDAF05"
+  brightMagenta: "#A7E39C"
+  brightCyan: "#F8CF91"
+  brightWhite: "#F8F8EB"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 314
+  pair: null
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 74.5
+    green: 37.5
+    yellow: 74.5
+    blue: 63.9
+    magenta: 76.3
+    cyan: 77.2
+    white: 98.7
+    brightBlack: 55.1
+    brightRed: 74.5
+    brightGreen: 37.5
+    brightYellow: 74.5
+    brightBlue: 63.9
+    brightMagenta: 76.3
+    brightCyan: 77.2
+    brightWhite: 98.7

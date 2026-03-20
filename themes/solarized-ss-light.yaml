@@ -1,0 +1,53 @@
+name: "Solarized SS Light"
+source:
+  marketplace_id: "sergeysinoptik.solarized-ss-light-theme"
+  version: "1.1.1"
+  installs: 1240
+  rating: 0
+  ratings: 0
+  author: "sergeysinoptik"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=sergeysinoptik.solarized-ss-light-theme"
+  formats: null
+colors:
+  bg: "#FFF2CE"
+  fg: "#000000"
+  black: "#767676"
+  red: "#E74856"
+  green: "#574657"
+  yellow: "#9B9665"
+  blue: "#474F88"
+  magenta: "#B46E90"
+  cyan: "#37A382"
+  white: "#4D4444"
+  brightBlack: "#767676"
+  brightRed: "#E74856"
+  brightGreen: "#574657"
+  brightYellow: "#9B9665"
+  brightBlue: "#474F88"
+  brightMagenta: "#B46E90"
+  brightCyan: "#539D86"
+  brightWhite: "#8E8585"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.6
+    black: 64.1
+    red: 57.4
+    green: 82.3
+    yellow: 49.6
+    blue: 79.1
+    magenta: 57.6
+    cyan: 50.5
+    white: 84.4
+    brightBlack: 64.1
+    brightRed: 57.4
+    brightGreen: 82.3
+    brightYellow: 49.6
+    brightBlue: 79.1
+    brightMagenta: 57.6
+    brightCyan: 51.8
+    brightWhite: 56.1

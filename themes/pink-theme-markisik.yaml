@@ -1,0 +1,53 @@
+name: "pink_theme-markisik"
+source:
+  marketplace_id: "Markisik.pink-theme-markisik"
+  version: "0.1.0"
+  installs: 244
+  rating: 0
+  ratings: 0
+  author: "Murk"
+  repo: "https://github.com/markisik/theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Markisik.pink-theme-markisik"
+  formats: null
+colors:
+  bg: "#643232"
+  fg: "#FFE16D"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#7B7B7B"
+  brightBlack: "#5A5A5A"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 21
+  pair: null
+  contrast:
+    fg: 79.1
+    black: 10.4
+    red: 17.5
+    green: 43.8
+    yellow: 76.4
+    blue: 18.2
+    magenta: 20.5
+    cyan: 38.3
+    white: 22.2
+    brightBlack: 7.8
+    brightRed: 29.3
+    brightGreen: 54.3
+    brightYellow: 86.4
+    brightBlue: 30.8
+    brightMagenta: 36.1
+    brightCyan: 46.2
+    brightWhite: 97.6

@@ -1,0 +1,53 @@
+name: "nevejestvo-theme"
+source:
+  marketplace_id: "nevejestvo.nevejestvo-theme"
+  version: "0.0.3"
+  installs: 68
+  rating: 0
+  ratings: 0
+  author: "nevejestvo"
+  repo: "https://github.com/nevejestvo/nevejestvo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nevejestvo.nevejestvo-theme"
+  formats: null
+colors:
+  bg: "#273136"
+  fg: "#D4D4D4"
+  black: "#3A4449"
+  red: "#FF6D7E"
+  green: "#A2E57B"
+  yellow: "#FFED72"
+  blue: "#FFB270"
+  magenta: "#BAA0F8"
+  cyan: "#7CD5F1"
+  white: "#F2FFFC"
+  brightBlack: "#6B7678"
+  brightRed: "#FF6D7E"
+  brightGreen: "#A2E57B"
+  brightYellow: "#FFED72"
+  brightBlue: "#FFB270"
+  brightMagenta: "#BAA0F8"
+  brightCyan: "#7CD5F1"
+  brightWhite: "#F2FFFC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 75.5
+    black: 0
+    red: 45
+    green: 75
+    yellow: 89.9
+    blue: 65.3
+    magenta: 53.6
+    cyan: 68.9
+    white: 100.9
+    brightBlack: 24.2
+    brightRed: 45
+    brightGreen: 75
+    brightYellow: 89.9
+    brightBlue: 65.3
+    brightMagenta: 53.6
+    brightCyan: 68.9
+    brightWhite: 100.9

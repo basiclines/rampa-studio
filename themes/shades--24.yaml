@@ -1,0 +1,53 @@
+name: "Shades (24)"
+source:
+  marketplace_id: "YesCode.shadesTheme"
+  version: "0.0.13"
+  installs: 3084
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://github.com/yesomac/ShadesThemeVSC"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.shadesTheme"
+  formats: null
+colors:
+  bg: "#F9F7F3"
+  fg: "#03031F"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#3B3B3F"
+  brightYellow: "#FFCC80"
+  brightBlue: "#606066"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Shades (Minimal)"
+  contrast:
+    fg: 101.1
+    black: 98.7
+    red: 54
+    green: 35.6
+    yellow: 24.1
+    blue: 48.6
+    magenta: 76.6
+    cyan: 46.7
+    white: 48.9
+    brightBlack: 77.6
+    brightRed: 54
+    brightGreen: 91.1
+    brightYellow: 17.8
+    brightBlue: 76.5
+    brightMagenta: 76.6
+    brightCyan: 46.7
+    brightWhite: 0

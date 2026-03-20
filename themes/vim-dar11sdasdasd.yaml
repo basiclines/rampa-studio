@@ -1,0 +1,53 @@
+name: "Vim Dar11sdasdasd"
+source:
+  marketplace_id: "AndreaCombette.SweetWood"
+  version: "0.5.5"
+  installs: 249
+  rating: 5
+  ratings: 1
+  author: "AndreaCombette"
+  repo: "https://github.com/Chatr0uge/SweetWood-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreaCombette.SweetWood"
+  formats: null
+colors:
+  bg: "#3D2D27"
+  fg: "#B1C1D7"
+  black: "#3D2D27"
+  red: "#A16B38"
+  green: "#D3923F"
+  yellow: "#D3923F"
+  blue: "#6D859C"
+  magenta: "#A16B38"
+  cyan: "#6D859C"
+  white: "#96A8BF"
+  brightBlack: "#A16B38"
+  brightRed: "#A16B38"
+  brightGreen: "#D3923F"
+  brightYellow: "#B1C1D7"
+  brightBlue: "#96A8BF"
+  brightMagenta: "#96A8BF"
+  brightCyan: "#96A8BF"
+  brightWhite: "#B1C1D7"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 42
+  pair: null
+  contrast:
+    fg: 63
+    black: 0
+    red: 25.4
+    green: 45.4
+    yellow: 45.4
+    blue: 30.6
+    magenta: 25.4
+    cyan: 30.6
+    white: 48.9
+    brightBlack: 25.4
+    brightRed: 25.4
+    brightGreen: 45.4
+    brightYellow: 63
+    brightBlue: 48.9
+    brightMagenta: 48.9
+    brightCyan: 48.9
+    brightWhite: 63

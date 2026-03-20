@@ -1,0 +1,53 @@
+name: "PowerTech Themes (Office Dark)"
+source:
+  marketplace_id: "PowerTech.powerthemes"
+  version: "23.1.31"
+  installs: 6962
+  rating: 0
+  ratings: 0
+  author: "PowerTech"
+  repo: "https://github.com/powertech-center/vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=PowerTech.powerthemes"
+  formats: null
+colors:
+  bg: "#262626"
+  fg: "#F6F6F6"
+  black: "#000000"
+  red: "#ED7D31"
+  green: "#70AD47"
+  yellow: "#FFC000"
+  blue: "#4472C4"
+  magenta: "#8064A2"
+  cyan: "#5B9BD5"
+  white: "#F6F6F6"
+  brightBlack: "#A5A5A5"
+  brightRed: "#F4B183"
+  brightGreen: "#A8D08D"
+  brightYellow: "#FFD965"
+  brightBlue: "#8EAADB"
+  brightMagenta: "#B2A1C7"
+  brightCyan: "#9CC3E5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: "PowerTech Themes (Office Light)"
+  contrast:
+    fg: 98.9
+    black: 0
+    red: 45.8
+    green: 46.5
+    yellow: 71.7
+    blue: 26.1
+    magenta: 24.6
+    cyan: 42.7
+    white: 98.9
+    brightBlack: 50.4
+    brightRed: 65.3
+    brightGreen: 68.1
+    brightYellow: 82.7
+    brightBlue: 52.6
+    brightMagenta: 52
+    brightCyan: 64.7
+    brightWhite: 104.8

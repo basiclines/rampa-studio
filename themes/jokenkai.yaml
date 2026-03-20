@@ -1,0 +1,53 @@
+name: "JoKenKai"
+source:
+  marketplace_id: "EduardoAlmeida.jokenpo-theme"
+  version: "0.2.1"
+  installs: 151
+  rating: 0
+  ratings: 0
+  author: "Eduardo Almeida"
+  repo: "https://github.com/JoKenPo/jokenpo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EduardoAlmeida.jokenpo-theme"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#E1E1E6"
+  black: "#393A34"
+  red: "#CB7676"
+  green: "#4D9352"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#E1E1E6"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9352"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.3
+    black: 0
+    red: 39.4
+    green: 34.4
+    yellow: 74.2
+    blue: 39.9
+    magenta: 42.5
+    cyan: 47.9
+    white: 86.3
+    brightBlack: 28.1
+    brightRed: 39.4
+    brightGreen: 34.4
+    brightYellow: 74.2
+    brightBlue: 39.9
+    brightMagenta: 42.5
+    brightCyan: 47.9
+    brightWhite: 105.5

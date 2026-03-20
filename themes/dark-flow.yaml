@@ -1,0 +1,53 @@
+name: "Dark Flow"
+source:
+  marketplace_id: "MauroBalades.dark-flow-vscode"
+  version: "1.0.1"
+  installs: 260
+  rating: 0
+  ratings: 0
+  author: "Mauro Balades"
+  repo: "https://github.com/dark-flow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=MauroBalades.dark-flow-vscode"
+  formats: null
+colors:
+  bg: "#2C303A"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 75.4
+    black: 0
+    red: 22.6
+    green: 48.9
+    yellow: 81.5
+    blue: 23.3
+    magenta: 25.6
+    cyan: 43.4
+    white: 85.9
+    brightBlack: 17.9
+    brightRed: 34.4
+    brightGreen: 59.4
+    brightYellow: 91.5
+    brightBlue: 35.9
+    brightMagenta: 41.3
+    brightCyan: 51.3
+    brightWhite: 85.9

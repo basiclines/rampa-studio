@@ -1,0 +1,53 @@
+name: "COSMO Theme"
+source:
+  marketplace_id: "sociale11.cosmo"
+  version: "0.1.4"
+  installs: 41
+  rating: 5
+  ratings: 1
+  author: "Sociale11"
+  repo: "https://github.com/sociale11/vscode-cosmo"
+  url: "https://marketplace.visualstudio.com/items?itemName=sociale11.cosmo"
+  formats: null
+colors:
+  bg: "#161B25"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#B39C4D"
+  blue: "#B39C4D"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#B39C4D"
+  brightBlue: "#B39C4D"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 58.9
+    black: 0
+    red: 41.6
+    green: 61.8
+    yellow: 48.1
+    blue: 48.1
+    magenta: 44.7
+    cyan: 54.1
+    white: 82.6
+    brightBlack: 35.1
+    brightRed: 38
+    brightGreen: 61.8
+    brightYellow: 48.1
+    brightBlue: 48.1
+    brightMagenta: 12.3
+    brightCyan: 54.1
+    brightWhite: 82.6

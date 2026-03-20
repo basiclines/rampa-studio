@@ -1,0 +1,53 @@
+name: "Golden Eye"
+source:
+  marketplace_id: "ProphezAI.golden-eye"
+  version: "1.0.3"
+  installs: 1033
+  rating: 5
+  ratings: 2
+  author: "ProphezAI"
+  repo: "https://github.com/ProphezAI/golden-eye"
+  url: "https://marketplace.visualstudio.com/items?itemName=ProphezAI.golden-eye"
+  formats: null
+colors:
+  bg: "#144000"
+  fg: "#FFD700"
+  black: "#000000"
+  red: "#8B0000"
+  green: "#006400"
+  yellow: "#FFFF00"
+  blue: "#00008B"
+  magenta: "#8B008B"
+  cyan: "#008B8B"
+  white: "#FBFBFB"
+  brightBlack: "#696969"
+  brightRed: "#FF0000"
+  brightGreen: "#008000"
+  brightYellow: "#FF0000"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 138
+  pair: null
+  contrast:
+    fg: 76.9
+    black: 0
+    red: 0
+    green: 9.6
+    yellow: 95.4
+    blue: 0
+    magenta: 7.8
+    cyan: 26.4
+    white: 97.9
+    brightBlack: 17
+    brightRed: 30.2
+    brightGreen: 19.8
+    brightYellow: 30.2
+    brightBlue: 8.9
+    brightMagenta: 38.9
+    brightCyan: 84.9
+    brightWhite: 100.6

@@ -1,0 +1,53 @@
+name: "EyeCooler"
+source:
+  marketplace_id: "thedevtechub.eyecooler"
+  version: "0.3.11"
+  installs: 117
+  rating: 5
+  ratings: 1
+  author: "TheDevTecHub"
+  repo: "https://github.com/devendew/eyecooler"
+  url: "https://marketplace.visualstudio.com/items?itemName=thedevtechub.eyecooler"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#FF5F56"
+  green: "#27C93F"
+  yellow: "#FFBD2E"
+  blue: "#1E90FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#555555"
+  brightRed: "#FF6E67"
+  brightGreen: "#5FFA68"
+  brightYellow: "#FFF75E"
+  brightBlue: "#6A9FFF"
+  brightMagenta: "#FF9FFF"
+  brightCyan: "#9FFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 105.6
+    black: 0
+    red: 46.2
+    green: 59.4
+    yellow: 73.7
+    blue: 42.7
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 16.1
+    brightRed: 49.7
+    brightGreen: 86.1
+    brightYellow: 99.3
+    brightBlue: 51
+    brightMagenta: 69.4
+    brightCyan: 97.4
+    brightWhite: 107.9

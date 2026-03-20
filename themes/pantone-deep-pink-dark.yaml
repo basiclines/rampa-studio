@@ -1,0 +1,53 @@
+name: "Pantone Deep Pink (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#22030E"
+  fg: "#E1C9D2"
+  black: "#22030E"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#72306E"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#E1C9D2"
+  brightBlack: "#983C5F"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F5F1F2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 1
+  pair: "Pantone Deep Pink (Light)"
+  contrast:
+    fg: 76.9
+    black: 0
+    red: 32.6
+    green: 52.2
+    yellow: 71.8
+    blue: 11.8
+    magenta: 33.6
+    cyan: 52.8
+    white: 76.9
+    brightBlack: 19
+    brightRed: 39
+    brightGreen: 59.4
+    brightYellow: 76.2
+    brightBlue: 29.1
+    brightMagenta: 42.2
+    brightCyan: 59.4
+    brightWhite: 98.7

@@ -1,0 +1,53 @@
+name: "blackamp"
+source:
+  marketplace_id: "KevinTerry.blackamp"
+  version: "0.2.1"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "Kevin Terry"
+  repo: "https://github.com/kevinjterry/blackamp-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=KevinTerry.blackamp"
+  formats: null
+colors:
+  bg: "#1B1B1C"
+  fg: "#D3DADE"
+  black: "#5E5E5E"
+  red: "#C57575"
+  green: "#8BB374"
+  yellow: "#C8A368"
+  blue: "#6B8DB5"
+  magenta: "#B58DB5"
+  cyan: "#7A9AA3"
+  white: "#D3DADE"
+  brightBlack: "#8C8C8C"
+  brightRed: "#D89595"
+  brightGreen: "#A5C796"
+  brightYellow: "#D9B584"
+  brightBlue: "#8DB1D4"
+  brightMagenta: "#D1A8D1"
+  brightCyan: "#9BB8C2"
+  brightWhite: "#EBEBEB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82
+    black: 18.2
+    red: 39
+    green: 53.6
+    yellow: 54.1
+    blue: 38.3
+    magenta: 46.2
+    cyan: 43.5
+    white: 82
+    brightBlack: 39.1
+    brightRed: 52.9
+    brightGreen: 65.6
+    brightYellow: 64.1
+    brightBlue: 56.5
+    brightMagenta: 60.9
+    brightCyan: 59.8
+    brightWhite: 93.4

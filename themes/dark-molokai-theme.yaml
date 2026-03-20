@@ -1,0 +1,53 @@
+name: "Dark Molokai Theme"
+source:
+  marketplace_id: "nonylene.dark-molokai-theme"
+  version: "1.0.10"
+  installs: 33289
+  rating: 5
+  ratings: 3
+  author: "nonylene"
+  repo: "https://github.com/nonylene/vscode-dark-molokai-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nonylene.dark-molokai-theme"
+  formats: null
+colors:
+  bg: "#1B1D1E"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.3
+    black: 0
+    red: 23.9
+    green: 52.4
+    yellow: 57
+    blue: 34
+    magenta: 31.5
+    cyan: 49.8
+    white: 87.8
+    brightBlack: 21.4
+    brightRed: 36.6
+    brightGreen: 76.3
+    brightYellow: 83.2
+    brightBlue: 49.2
+    brightMagenta: 45.9
+    brightCyan: 72.8
+    brightWhite: 101.3

@@ -1,0 +1,53 @@
+name: "365 Day & Night Themes (High Contrast September Light Theme)"
+source:
+  marketplace_id: "MickaelLherminez.365-daynight-vscode-theme-ext"
+  version: "0.9.7"
+  installs: 823
+  rating: 5
+  ratings: 1
+  author: "Mickael Lherminez"
+  repo: "https://github.com/mickaellherminez/365-daynight-vscode-theme-ext"
+  url: "https://marketplace.visualstudio.com/items?itemName=MickaelLherminez.365-daynight-vscode-theme-ext"
+  formats: null
+colors:
+  bg: "#E3F2FD"
+  fg: "#0D47A1"
+  black: "#0D47A1"
+  red: "#E53935"
+  green: "#43A047"
+  yellow: "#FBC02D"
+  blue: "#1E88E5"
+  magenta: "#8E24AA"
+  cyan: "#00ACC1"
+  white: "#E0E0E0"
+  brightBlack: "#616161"
+  brightRed: "#FF5252"
+  brightGreen: "#81C784"
+  brightYellow: "#FFD54F"
+  brightBlue: "#64B5F6"
+  brightMagenta: "#BA68C8"
+  brightCyan: "#4DD0E1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.9
+    black: 79.9
+    red: 58.6
+    green: 51
+    yellow: 19.7
+    blue: 54.7
+    magenta: 74.1
+    cyan: 43.2
+    white: 0
+    brightBlack: 71.8
+    brightRed: 48.8
+    brightGreen: 29.9
+    brightYellow: 10.6
+    brightBlue: 34.3
+    brightMagenta: 53.8
+    brightCyan: 25.1
+    brightWhite: 7.8

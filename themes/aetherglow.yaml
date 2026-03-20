@@ -1,0 +1,51 @@
+name: "Aetherglow"
+source:
+  marketplace_id: "WebCraftID.aetherglow"
+  version: "0.0.2"
+  installs: 101
+  author: "WebCraftID"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=WebCraftID.aetherglow"
+  formats: null
+colors:
+  bg: "#000B1A"
+  fg: "#00FFF7"
+  black: "#1FFFEC"
+  red: "#D70000"
+  green: "#007700"
+  yellow: "#FFBF00"
+  blue: "#268BD2"
+  magenta: "#D33682"
+  cyan: "#2AA198"
+  white: "#EEE8D5"
+  brightBlack: "#586E75"
+  brightRed: "#CB4B16"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#839496"
+  brightMagenta: "#6C71C4"
+  brightCyan: "#93A1A1"
+  brightWhite: "#FDF6E3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 91.5
+    black: 91.1
+    red: 27.5
+    green: 23.4
+    yellow: 74.1
+    blue: 37.5
+    magenta: 31.2
+    cyan: 43.2
+    white: 92.7
+    brightBlack: 24.7
+    brightRed: 30.4
+    brightGreen: 86.3
+    brightYellow: 102.5
+    brightBlue: 42.7
+    brightMagenta: 31.2
+    brightCyan: 49.7
+    brightWhite: 101.9

@@ -1,0 +1,53 @@
+name: "zh'themes (Collapse)"
+source:
+  marketplace_id: "shwuy.zhxo-themes"
+  version: "2.0.1"
+  installs: 1482
+  rating: 5
+  ratings: 4
+  author: "shwuy"
+  repo: "https://github.com/sxhk0/.theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=shwuy.zhxo-themes"
+  formats: null
+colors:
+  bg: "#111827"
+  fg: "#DEDEDE"
+  black: "#3B3B3B"
+  red: "#E03C3C"
+  green: "#22CD8B"
+  yellow: "#EEC051"
+  blue: "#668BE2"
+  magenta: "#A34BB0"
+  cyan: "#10CCD5"
+  white: "#CBCBCB"
+  brightBlack: "#66676F"
+  brightRed: "#F08359"
+  brightGreen: "#3FE6A3"
+  brightYellow: "#FBFB7B"
+  brightBlue: "#81A6FD"
+  brightMagenta: "#C970D6"
+  brightCyan: "#4DEAEA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 32.1
+    green: 61.4
+    yellow: 71.1
+    blue: 40.3
+    magenta: 26.4
+    cyan: 63.7
+    white: 73.9
+    brightBlack: 22.5
+    brightRed: 50.5
+    brightGreen: 74.9
+    brightYellow: 99.9
+    brightBlue: 54
+    brightMagenta: 43
+    brightCyan: 80.2
+    brightWhite: 106.7

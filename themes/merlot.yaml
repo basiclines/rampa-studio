@@ -1,0 +1,53 @@
+name: "Merlot"
+source:
+  marketplace_id: "yubiDev.yoobdev"
+  version: "0.0.7"
+  installs: 195
+  rating: 0
+  ratings: 0
+  author: "yoobdev"
+  repo: "https://github.com/kimkom369/VSCode-Theme-Pack"
+  url: "https://marketplace.visualstudio.com/items?itemName=yubiDev.yoobdev"
+  formats: null
+colors:
+  bg: "#A53860"
+  fg: "#F9DBBD"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 1
+  pair: null
+  contrast:
+    fg: 65.7
+    black: 23.5
+    red: 0
+    green: 31.8
+    yellow: 64.4
+    blue: 0
+    magenta: 8.6
+    cyan: 26.4
+    white: 68.8
+    brightBlack: 0
+    brightRed: 17.4
+    brightGreen: 42.3
+    brightYellow: 74.4
+    brightBlue: 18.8
+    brightMagenta: 24.2
+    brightCyan: 34.2
+    brightWhite: 68.8

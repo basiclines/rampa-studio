@@ -1,0 +1,53 @@
+name: "Neon Cyberpunk Theme (Neon Synthwave)"
+source:
+  marketplace_id: "LittleWaterfall.neon-cyberpunk-theme"
+  version: "1.0.0"
+  installs: 1553
+  rating: 0
+  ratings: 0
+  author: "Little Waterfall"
+  repo: "https://github.com/LittleWaterfall/vscode-neon-glow"
+  url: "https://marketplace.visualstudio.com/items?itemName=LittleWaterfall.neon-cyberpunk-theme"
+  formats: null
+colors:
+  bg: "#1A0033"
+  fg: "#FFEEFF"
+  black: "#330066"
+  red: "#FF2080"
+  green: "#80FF80"
+  yellow: "#FF9900"
+  blue: "#8080FF"
+  magenta: "#FF80FF"
+  cyan: "#80FFFF"
+  white: "#FFEEFF"
+  brightBlack: "#663399"
+  brightRed: "#FF40A0"
+  brightGreen: "#A0FFA0"
+  brightYellow: "#FFB340"
+  brightBlue: "#A0A0FF"
+  brightMagenta: "#FFA0FF"
+  brightCyan: "#A0FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 301
+  pair: null
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 39.1
+    green: 90
+    yellow: 59.9
+    blue: 41.3
+    magenta: 59.8
+    cyan: 94.5
+    white: 99.2
+    brightBlack: 13
+    brightRed: 42.8
+    brightGreen: 93
+    brightYellow: 69.2
+    brightBlue: 55.2
+    brightMagenta: 69
+    brightCyan: 96.7
+    brightWhite: 107.1

@@ -1,0 +1,53 @@
+name: "Matter"
+source:
+  marketplace_id: "TobiasTimm.matter"
+  version: "1.0.0"
+  installs: 2322
+  rating: 5
+  ratings: 1
+  author: "Tobias Timm"
+  repo: "https://github.com/tobiastimm/vscode-matter-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TobiasTimm.matter"
+  formats: null
+colors:
+  bg: "#14191F"
+  fg: "#E6E6E6"
+  black: "#516A88"
+  red: "#7A9BC2"
+  green: "#95CC5E"
+  yellow: "#748AA6"
+  blue: "#267FB5"
+  magenta: "#4CBBFF"
+  cyan: "#6EE2FF"
+  white: "#EFFBFF"
+  brightBlack: "#516A88"
+  brightRed: "#7A9BC2"
+  brightGreen: "#95CC5E"
+  brightYellow: "#748AA6"
+  brightBlue: "#267FB5"
+  brightMagenta: "#4CBBFF"
+  brightCyan: "#6EE2FF"
+  brightWhite: "#EFFBFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 253
+  pair: null
+  contrast:
+    fg: 90.5
+    black: 22.8
+    red: 45.6
+    green: 65.4
+    yellow: 37.5
+    blue: 30.4
+    magenta: 59.6
+    cyan: 78.8
+    white: 102.6
+    brightBlack: 22.8
+    brightRed: 45.6
+    brightGreen: 65.4
+    brightYellow: 37.5
+    brightBlue: 30.4
+    brightMagenta: 59.6
+    brightCyan: 78.8
+    brightWhite: 102.6

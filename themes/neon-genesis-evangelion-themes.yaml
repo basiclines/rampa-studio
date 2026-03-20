@@ -1,0 +1,53 @@
+name: "Neon Genesis Evangelion Themes"
+source:
+  marketplace_id: "engr.neon-genesis-evangelion-themes"
+  version: "0.3.0"
+  installs: 1747
+  rating: 5
+  ratings: 3
+  author: "engr"
+  repo: "https://github.com/engrx0/neon-genesis-evangelion-vscode-theme-extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=engr.neon-genesis-evangelion-themes"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#FBE6E5"
+  black: "#0A0A0A"
+  red: "#E6122B"
+  green: "#65AF50"
+  yellow: "#E07A3F"
+  blue: "#65AF50"
+  magenta: "#E07A3F"
+  cyan: "#65AF50"
+  white: "#F93431"
+  brightBlack: "#101010"
+  brightRed: "#F93431"
+  brightGreen: "#65AF50"
+  brightYellow: "#E07A3F"
+  brightBlue: "#65AF50"
+  brightMagenta: "#E07A3F"
+  brightCyan: "#65AF50"
+  brightWhite: "#FBE6E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.4
+    black: 0
+    red: 31.5
+    green: 49.7
+    yellow: 45.5
+    blue: 49.7
+    magenta: 45.5
+    cyan: 49.7
+    white: 38.1
+    brightBlack: 0
+    brightRed: 38.1
+    brightGreen: 49.7
+    brightYellow: 45.5
+    brightBlue: 49.7
+    brightMagenta: 45.5
+    brightCyan: 49.7
+    brightWhite: 94.4

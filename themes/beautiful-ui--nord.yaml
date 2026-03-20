@@ -1,0 +1,54 @@
+name: "Beautiful UI (Nord)"
+source:
+  marketplace_id: "swashata.beautiful-ui"
+  version: "1.7.0"
+  installs: 121127
+  rating: 4.38
+  ratings: 13
+  author: "swashata"
+  repo: "https://github.com/swashata/vscode-beautiful-ui"
+  url: "https://marketplace.visualstudio.com/items?itemName=swashata.beautiful-ui"
+  formats:
+    zed: "https://raw.githubusercontent.com/swashata/vscode-beautiful-ui/master/themes/Solarized Dark-color-theme.json"
+colors:
+  bg: "#2F3541"
+  fg: "#D8DEE9"
+  black: "#000000"
+  red: "#D81E00"
+  green: "#5EA702"
+  yellow: "#CFAE00"
+  blue: "#427AB3"
+  magenta: "#89658E"
+  cyan: "#00A7AA"
+  white: "#DBDED8"
+  brightBlack: "#686A66"
+  brightRed: "#F54235"
+  brightGreen: "#99E343"
+  brightYellow: "#FDEB61"
+  brightBlue: "#84B0D8"
+  brightMagenta: "#BC94B7"
+  brightCyan: "#37E6E8"
+  brightWhite: "#F1F1F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 22.2
+    green: 39.1
+    yellow: 53.6
+    blue: 24.3
+    magenta: 21.7
+    cyan: 40
+    white: 79.6
+    brightBlack: 18.1
+    brightRed: 32.5
+    brightGreen: 71.1
+    brightYellow: 87.1
+    brightBlue: 50.7
+    brightMagenta: 44.7
+    brightCyan: 72.4
+    brightWhite: 92.3

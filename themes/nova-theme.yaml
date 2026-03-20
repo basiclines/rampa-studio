@@ -1,0 +1,53 @@
+name: "Nova Theme"
+source:
+  marketplace_id: "LA1CH3.nova-vscode-theme"
+  version: "0.0.1"
+  installs: 295
+  rating: 0
+  ratings: 0
+  author: "LA1CH3"
+  repo: "https://github.com/la1ch3/nova-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LA1CH3.nova-vscode-theme"
+  formats: null
+colors:
+  bg: "#1E262A"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 77.6
+    black: 0
+    red: 24.8
+    green: 51.1
+    yellow: 83.7
+    blue: 25.5
+    magenta: 27.9
+    cyan: 45.7
+    white: 88.1
+    brightBlack: 20.2
+    brightRed: 36.7
+    brightGreen: 61.7
+    brightYellow: 93.8
+    brightBlue: 38.1
+    brightMagenta: 43.5
+    brightCyan: 53.5
+    brightWhite: 88.1

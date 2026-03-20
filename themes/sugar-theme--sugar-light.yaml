@@ -1,0 +1,53 @@
+name: "Sugar Theme (Sugar Light)"
+source:
+  marketplace_id: "Banlify.sugar-vscode-theme"
+  version: "0.26.0"
+  installs: 327
+  rating: 5
+  ratings: 1
+  author: "Libon"
+  repo: "https://github.com/libondev/sugar-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Banlify.sugar-vscode-theme"
+  formats: null
+colors:
+  bg: "#FCFCFC"
+  fg: "#424242"
+  black: "#777777"
+  red: "#E5484D"
+  green: "#46A758"
+  yellow: "#E5C07B"
+  blue: "#0070F3"
+  magenta: "#E93D82"
+  cyan: "#14B8A6"
+  white: "#CCCCCC"
+  brightBlack: "#393A34"
+  brightRed: "#DA3036"
+  brightGreen: "#63C174"
+  brightYellow: "#E5C07B"
+  brightBlue: "#0060D1"
+  brightMagenta: "#DE2670"
+  brightCyan: "#0D8C7D"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Sugar Theme (Sugar Dark)"
+  contrast:
+    fg: 91.6
+    black: 69.3
+    red: 63.6
+    green: 55
+    yellow: 29.4
+    blue: 68.9
+    magenta: 62.8
+    cyan: 46.5
+    white: 25.5
+    brightBlack: 94.7
+    brightRed: 69.3
+    brightGreen: 41.9
+    brightYellow: 29.4
+    brightBlue: 76.5
+    brightMagenta: 68
+    brightCyan: 66.2
+    brightWhite: 25.5

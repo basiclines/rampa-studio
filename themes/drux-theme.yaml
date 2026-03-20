@@ -1,0 +1,53 @@
+name: "Drux Theme"
+source:
+  marketplace_id: "DruxTech.drux-theme"
+  version: "1.0.1"
+  installs: 70
+  rating: 0
+  ratings: 0
+  author: "DruxTech"
+  repo: "https://gitlab.com/khaniuk/drux-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=DruxTech.drux-theme"
+  formats: null
+colors:
+  bg: "#EAE4E1"
+  fg: "#36221D"
+  black: "#EAE4E1"
+  red: "#FF3A3A"
+  green: "#8BC34A"
+  yellow: "#AD8200"
+  blue: "#009DB5"
+  magenta: "#CE4985"
+  cyan: "#00A47B"
+  white: "#36221D"
+  brightBlack: "#009DB5"
+  brightRed: "#FF3A3A"
+  brightGreen: "#8BC34A"
+  brightYellow: "#AD8200"
+  brightBlue: "#009DB5"
+  brightMagenta: "#CE4985"
+  brightCyan: "#00A47B"
+  brightWhite: "#36221D"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 46
+    green: 25.6
+    yellow: 47.2
+    blue: 43.7
+    magenta: 53.4
+    cyan: 43.1
+    white: 86.5
+    brightBlack: 43.7
+    brightRed: 46
+    brightGreen: 25.6
+    brightYellow: 47.2
+    brightBlue: 43.7
+    brightMagenta: 53.4
+    brightCyan: 43.1
+    brightWhite: 86.5

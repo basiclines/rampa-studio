@@ -1,0 +1,53 @@
+name: "Monokai GRS"
+source:
+  marketplace_id: "GoliafRS.monokai-grs"
+  version: "1.0.15"
+  installs: 28368
+  rating: 5
+  ratings: 5
+  author: "GoliafRS"
+  repo: "https://github.com/goliafrs/monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=GoliafRS.monokai-grs"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#F0F0F0"
+  black: "#505050"
+  red: "#D32F2F"
+  green: "#388E3C"
+  yellow: "#FBC02D"
+  blue: "#1976D2"
+  magenta: "#7B1FA2"
+  cyan: "#0097A7"
+  white: "#F0F0F0"
+  brightBlack: "#606060"
+  brightRed: "#FF1744"
+  brightGreen: "#00E676"
+  brightYellow: "#FFEA00"
+  brightBlue: "#2979FF"
+  brightMagenta: "#D500F9"
+  brightCyan: "#00E5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.1
+    black: 13.3
+    red: 27.9
+    green: 32.8
+    yellow: 73.2
+    blue: 29.4
+    magenta: 14.1
+    cyan: 38.7
+    white: 97.1
+    brightBlack: 19.6
+    brightRed: 37.3
+    brightGreen: 73.4
+    brightYellow: 91.8
+    brightBlue: 34.3
+    brightMagenta: 35.8
+    brightCyan: 78.1
+    brightWhite: 107

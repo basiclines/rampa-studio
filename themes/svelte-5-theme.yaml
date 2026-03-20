@@ -1,0 +1,53 @@
+name: "Svelte 5 theme"
+source:
+  marketplace_id: "ZubairIbnZamir.svelte-theme-v5"
+  version: "5.0.2"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "Zubair Ibn Zamir"
+  repo: "https://github.com/2u841r/svelte-theme-v5"
+  url: "https://marketplace.visualstudio.com/items?itemName=ZubairIbnZamir.svelte-theme-v5"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#E6EDF3"
+  black: "#484F58"
+  red: "#F38BA3"
+  green: "#0BA95B"
+  yellow: "#F99157"
+  blue: "#12B5E5"
+  magenta: "#9D7DCE"
+  cyan: "#39C5CF"
+  white: "#C0C5CE"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#56D364"
+  brightYellow: "#FCBA28"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 95
+    black: 13.1
+    red: 56
+    green: 44.3
+    yellow: 57.1
+    blue: 55
+    magenta: 40.3
+    cyan: 61.4
+    white: 70.8
+    brightBlack: 29.3
+    brightRed: 64.8
+    brightGreen: 65.5
+    brightYellow: 71.5
+    brightBlue: 64.7
+    brightMagenta: 64.6
+    brightCyan: 69.9
+    brightWhite: 107.4

@@ -1,0 +1,53 @@
+name: "Turbo"
+source:
+  marketplace_id: "kliucn.turbo"
+  version: "0.2.0"
+  installs: 3477
+  rating: 5
+  ratings: 1
+  author: "Kai Liu"
+  repo: "https://github.com/nebulabox/vscode_turbo_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kliucn.turbo"
+  formats: null
+colors:
+  bg: "#000058"
+  fg: "#FFFF55"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 101.3
+    black: 0
+    red: 62.7
+    green: 90.1
+    yellow: 95
+    blue: 80.6
+    magenta: 74
+    cyan: 95.2
+    white: 73.9
+    brightBlack: 0
+    brightRed: 51
+    brightGreen: 86.1
+    brightYellow: 89.8
+    brightBlue: 61.4
+    brightMagenta: 49.5
+    brightCyan: 93.1
+    brightWhite: 106.1

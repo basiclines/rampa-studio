@@ -1,0 +1,53 @@
+name: "Rainglow (potpourri-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#C491C4"
+  yellow: "#ED1153"
+  blue: "#B866FA"
+  magenta: "#ED1153"
+  cyan: "#F76ACB"
+  white: "#404040"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#E8D3E8"
+  brightYellow: "#F56F97"
+  brightBlue: "#E6C9FD"
+  brightMagenta: "#F56F97"
+  brightCyan: "#FCCBED"
+  brightWhite: "#666666"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Rainglow (potpourri-contrast)"
+  contrast:
+    fg: 98.7
+    black: 0
+    red: 80.3
+    green: 50.1
+    yellow: 67.8
+    blue: 60.1
+    magenta: 67.8
+    cyan: 51.1
+    white: 94.1
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 19.7
+    brightYellow: 52.7
+    brightBlue: 22.8
+    brightMagenta: 52.7
+    brightCyan: 19.7
+    brightWhite: 78.8

@@ -1,0 +1,53 @@
+name: "C0V3R"
+source:
+  marketplace_id: "LiamLoughty.c0v3r"
+  version: "0.0.1"
+  installs: 99
+  rating: 0
+  ratings: 0
+  author: "Liam Loughty"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=LiamLoughty.c0v3r"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#4B4B4B"
+  red: "#960000"
+  green: "#007D00"
+  yellow: "#7D7D00"
+  blue: "#004B96"
+  magenta: "#6400C8"
+  cyan: "#0082AA"
+  white: "#C8C8C8"
+  brightBlack: "#646464"
+  brightRed: "#C80000"
+  brightGreen: "#00AF00"
+  brightYellow: "#C8C800"
+  brightBlue: "#0064C8"
+  brightMagenta: "#9600C8"
+  brightCyan: "#00AFC8"
+  brightWhite: "#969696"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 10.5
+    red: 11.9
+    green: 24.1
+    yellow: 29.7
+    blue: 11.6
+    magenta: 12.5
+    cyan: 29.9
+    white: 71.5
+    brightBlack: 20.4
+    brightRed: 22.5
+    brightGreen: 44.9
+    brightYellow: 67.9
+    brightBlue: 22
+    brightMagenta: 19.4
+    brightCyan: 49.4
+    brightWhite: 43.8

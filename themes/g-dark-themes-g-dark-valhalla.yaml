@@ -1,0 +1,53 @@
+name: "G Dark-Themes (G Dark (Valhalla))"
+source:
+  marketplace_id: "Stonec0der.g-dark-theme"
+  version: "5.0.1"
+  installs: 10986
+  rating: 5
+  ratings: 3
+  author: "stonecoder"
+  repo: "https://github.com/stoneC0der/g-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Stonec0der.g-dark-theme"
+  formats: null
+colors:
+  bg: "#292F46"
+  fg: "#C4D2E0"
+  black: "#708095"
+  red: "#EE405D"
+  green: "#A1DF45"
+  yellow: "#EEE151"
+  blue: "#4377E8"
+  magenta: "#B66EE6"
+  cyan: "#55B9E1"
+  white: "#EEE6E6"
+  brightBlack: "#59737F"
+  brightRed: "#DF2040"
+  brightGreen: "#42CD2D"
+  brightYellow: "#EAF517"
+  brightBlue: "#3F76ED"
+  brightMagenta: "#9B36DF"
+  brightCyan: "#59CAF7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 273
+  pair: "G Dark-Themes (G Dark-light (Glitter))"
+  contrast:
+    fg: 73.1
+    black: 28.9
+    red: 32.4
+    green: 71.1
+    yellow: 81.3
+    blue: 28.2
+    magenta: 36.5
+    cyan: 53.3
+    white: 87.6
+    brightBlack: 21.9
+    brightRed: 25.6
+    brightGreen: 56.6
+    brightYellow: 89.8
+    brightBlue: 28.2
+    brightMagenta: 21.5
+    brightCyan: 62.2
+    brightWhite: 102.7

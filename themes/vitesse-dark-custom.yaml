@@ -1,0 +1,53 @@
+name: "Vitesse Dark Custom"
+source:
+  marketplace_id: "fxzer.theme-vitesse-dark-custom"
+  version: "0.2.1"
+  installs: 1326
+  rating: 5
+  ratings: 1
+  author: "Vitesse Theme Custom"
+  repo: "https://github.com/fxzer/theme-vitesse-dark-custom"
+  url: "https://marketplace.visualstudio.com/items?itemName=fxzer.theme-vitesse-dark-custom"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#BFBAAA"
+  black: "#BFBAAA"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#BFBAAA"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 64.6
+    black: 64.6
+    red: 41.2
+    green: 37.1
+    yellow: 76
+    blue: 41.8
+    magenta: 44.3
+    cyan: 49.7
+    white: 64.6
+    brightBlack: 30
+    brightRed: 41.2
+    brightGreen: 37.1
+    brightYellow: 76
+    brightBlue: 41.8
+    brightMagenta: 44.3
+    brightCyan: 49.7
+    brightWhite: 107.3

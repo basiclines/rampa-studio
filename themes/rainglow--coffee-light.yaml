@@ -1,0 +1,53 @@
+name: "Rainglow (coffee-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#F4F2F2"
+  fg: "#282122"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#0A9F9B"
+  yellow: "#282122"
+  blue: "#E77757"
+  magenta: "#80B2B0"
+  cyan: "#E77757"
+  white: "#362D2E"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#1EF1EB"
+  brightYellow: "#604F52"
+  brightBlue: "#F4BFB0"
+  brightMagenta: "#C0D8D7"
+  brightCyan: "#F4BFB0"
+  brightWhite: "#604F52"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (coffee-contrast)"
+  contrast:
+    fg: 95.2
+    black: 0
+    red: 72.8
+    green: 51.8
+    yellow: 95.2
+    blue: 47.7
+    magenta: 38.9
+    cyan: 47.7
+    white: 92.3
+    brightBlack: 0
+    brightRed: 56.4
+    brightGreen: 11.9
+    brightYellow: 79.2
+    brightBlue: 20.4
+    brightMagenta: 15.8
+    brightCyan: 20.4
+    brightWhite: 79.2

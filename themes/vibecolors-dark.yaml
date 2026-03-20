@@ -1,0 +1,53 @@
+name: "VibeColors Dark"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  rating: 5
+  ratings: 1
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+  formats: null
+colors:
+  bg: "#1A1B26"
+  fg: "#C0CAF5"
+  black: "#414868"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#C0CAF5"
+  brightBlack: "#565F89"
+  brightRed: "#F7768E"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#C0CAF5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 280
+  pair: "VibeColors Light"
+  contrast:
+    fg: 73.8
+    black: 10.3
+    red: 49.4
+    green: 66.9
+    yellow: 62.2
+    blue: 51.1
+    magenta: 55
+    cyan: 70.5
+    white: 73.8
+    brightBlack: 19.5
+    brightRed: 49.4
+    brightGreen: 66.9
+    brightYellow: 62.2
+    brightBlue: 51.1
+    brightMagenta: 55
+    brightCyan: 70.5
+    brightWhite: 73.8

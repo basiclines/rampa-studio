@@ -1,0 +1,53 @@
+name: "LaraDark"
+source:
+  marketplace_id: "erenkucukersoftware.laravel"
+  version: "1.0.6"
+  installs: 1655
+  rating: 5
+  ratings: 1
+  author: "erenkucukersoftware"
+  repo: "https://github.com/erenkucukersoftware/vscode-laradark-laravel-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=erenkucukersoftware.laravel"
+  formats: null
+colors:
+  bg: "#0D1321"
+  fg: "#FFFF"
+  black: "#333333"
+  red: "#DA564A"
+  green: "#2E7D32"
+  yellow: "#EEBB6E"
+  blue: "#0077AA"
+  magenta: "#E5C499"
+  cyan: "#4EA1DF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#DA564A"
+  brightGreen: "#399C3E"
+  brightYellow: "#FFB670"
+  brightBlue: "#0077AA"
+  brightMagenta: "#AA7900"
+  brightCyan: "#4EA1DF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 266
+  pair: null
+  contrast:
+    fg: 91.5
+    black: 0
+    red: 35.5
+    green: 26
+    yellow: 70
+    blue: 27.2
+    magenta: 73.3
+    cyan: 47.4
+    white: 107.2
+    brightBlack: 0
+    brightRed: 35.5
+    brightGreen: 38.8
+    brightYellow: 71.1
+    brightBlue: 27.2
+    brightMagenta: 35.2
+    brightCyan: 47.4
+    brightWhite: 107.2

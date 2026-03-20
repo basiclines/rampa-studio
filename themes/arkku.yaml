@@ -1,0 +1,53 @@
+name: "Arkku"
+source:
+  marketplace_id: "arkku.arkku-color-theme"
+  version: "1.1.0"
+  installs: 356
+  rating: 0
+  ratings: 0
+  author: "Kimmo Kulovesi"
+  repo: "https://github.com/arkku/arkku-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=arkku.arkku-color-theme"
+  formats: null
+colors:
+  bg: "#080811"
+  fg: "#AAABAC"
+  black: "#000000"
+  red: "#CC0000"
+  green: "#009900"
+  yellow: "#CC6600"
+  blue: "#0033CC"
+  magenta: "#AA00AA"
+  cyan: "#6699CC"
+  white: "#BBBBBB"
+  brightBlack: "#333333"
+  brightRed: "#FF6633"
+  brightGreen: "#00CC33"
+  brightYellow: "#FF9900"
+  brightBlue: "#0099FF"
+  brightMagenta: "#CC33FF"
+  brightCyan: "#00CCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 56.6
+    black: 0
+    red: 25.1
+    green: 37.1
+    yellow: 36.3
+    blue: 13.1
+    magenta: 22.4
+    cyan: 45.1
+    white: 65.6
+    brightBlack: 0
+    brightRed: 47.1
+    brightGreen: 60.4
+    brightYellow: 60.6
+    brightBlue: 45.8
+    brightMagenta: 37.3
+    brightCyan: 67.1
+    brightWhite: 107.8

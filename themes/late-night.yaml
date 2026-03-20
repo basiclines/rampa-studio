@@ -1,0 +1,53 @@
+name: "Late Night"
+source:
+  marketplace_id: "ozgurgunes.vscode-late-night-theme"
+  version: "0.3.0"
+  installs: 1878
+  rating: 0
+  ratings: 0
+  author: "Özgür Güneş"
+  repo: "https://github.com/ozgurgunes/vscode-late-night-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ozgurgunes.vscode-late-night-theme"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D5D5D5"
+  black: "#141414"
+  red: "#E57878"
+  green: "#78D578"
+  yellow: "#F5CB63"
+  blue: "#5997E5"
+  magenta: "#E578D5"
+  cyan: "#78D5E5"
+  white: "#EDEDED"
+  brightBlack: "#222222"
+  brightRed: "#F1B6B6"
+  brightGreen: "#B6E9B6"
+  brightYellow: "#F9E3AB"
+  brightBlue: "#A6C7F1"
+  brightMagenta: "#F1B6E9"
+  brightCyan: "#B6E9F1"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 45.3
+    green: 67.2
+    yellow: 76.3
+    blue: 43.4
+    magenta: 49.2
+    cyan: 71.2
+    white: 94.3
+    brightBlack: 0
+    brightRed: 69.5
+    brightGreen: 83.6
+    brightYellow: 88.9
+    brightBlue: 69.2
+    brightMagenta: 71.8
+    brightCyan: 86.1
+    brightWhite: 101.4

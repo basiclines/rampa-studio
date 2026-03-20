@@ -1,0 +1,53 @@
+name: "Ragnarok"
+source:
+  marketplace_id: "RagnarokCoding.ragnarok-coder-dark"
+  version: "1.0.3"
+  installs: 496
+  rating: 3
+  ratings: 1
+  author: "Filip Dzankic"
+  repo: "https://github.com/CaptRagnarok/vscode-ragnarok-coder-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RagnarokCoding.ragnarok-coder-dark"
+  formats: null
+colors:
+  bg: "#131313"
+  fg: "#C6CFE2"
+  black: "#333300"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.6
+    black: 0
+    red: 39.7
+    green: 67.6
+    yellow: 82.4
+    blue: 56.3
+    magenta: 54.1
+    cyan: 60.1
+    white: 107.2
+    brightBlack: 15.9
+    brightRed: 39.7
+    brightGreen: 67.6
+    brightYellow: 94.1
+    brightBlue: 56.3
+    brightMagenta: 54.1
+    brightCyan: 74.3
+    brightWhite: 107.2

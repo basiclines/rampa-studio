@@ -1,0 +1,53 @@
+name: "Null Theme - Electric Enhanced"
+source:
+  marketplace_id: "kimberlycasamina.null-theme"
+  version: "1.0.8"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "kimberlycasamina"
+  repo: "https://github.com/kimicasamina/vscode-null-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
+  formats: null
+colors:
+  bg: "#050510"
+  fg: "#E0E0E0"
+  black: "#050510"
+  red: "#FF4400"
+  green: "#00FF44"
+  yellow: "#FFDD00"
+  blue: "#0044FF"
+  magenta: "#FF00DD"
+  cyan: "#00DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#999999"
+  brightRed: "#FF6600"
+  brightGreen: "#66FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0066FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 282
+  pair: null
+  contrast:
+    fg: 87.8
+    black: 0
+    red: 41.2
+    green: 86.7
+    yellow: 86.8
+    blue: 21.5
+    magenta: 43.7
+    cyan: 75.1
+    white: 107.8
+    brightBlack: 47.1
+    brightRed: 47
+    brightGreen: 88.3
+    brightYellow: 102.7
+    brightBlue: 29.2
+    brightMagenta: 54.8
+    brightCyan: 93.9
+    brightWhite: 107.8

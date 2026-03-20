@@ -1,0 +1,53 @@
+name: "Janus Light"
+source:
+  marketplace_id: "Janus.janus-light"
+  version: "0.2.4"
+  installs: 119
+  rating: 0
+  ratings: 0
+  author: "Janus"
+  repo: "https://github.com/Janus1984/janus-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=Janus.janus-light"
+  formats: null
+colors:
+  bg: "#FFFFFB"
+  fg: "#333333"
+  black: "#000000"
+  red: "#FF6C69"
+  green: "#56FA48"
+  yellow: "#FFD864"
+  blue: "#85E7FA"
+  magenta: "#AE90E9"
+  cyan: "#85E7EE"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#CBE645"
+  brightYellow: "#FFD864"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#85E7EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.5
+    black: 105.9
+    red: 52.4
+    green: 18
+    yellow: 18.1
+    blue: 19.8
+    magenta: 51.1
+    cyan: 20.4
+    white: 29.9
+    brightBlack: 77.7
+    brightRed: 54.1
+    brightGreen: 19.3
+    brightYellow: 18.1
+    brightBlue: 65.8
+    brightMagenta: 43.5
+    brightCyan: 20.4
+    brightWhite: 0

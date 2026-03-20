@@ -1,0 +1,53 @@
+name: "Dang-Jedi"
+source:
+  marketplace_id: "aaqaIshtyaq.dang-theme-vscode"
+  version: "1.0.4"
+  installs: 3302
+  rating: 0
+  ratings: 0
+  author: "Aaqa Ishtyaq"
+  repo: "https://github.com/aaqaishtyaq/dang-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=aaqaIshtyaq.dang-theme-vscode"
+  formats: null
+colors:
+  bg: "#0F111A"
+  fg: "#8F93A2"
+  black: "#0F111D"
+  red: "#EB2940"
+  green: "#78F868"
+  yellow: "#FFB835"
+  blue: "#27A9D8"
+  magenta: "#7834D1"
+  cyan: "#5B8FFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#EB3D54"
+  brightGreen: "#78BD65"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#89DDFF"
+  brightMagenta: "#7834D1"
+  brightCyan: "#82AAFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 43.7
+    black: 0
+    red: 33.6
+    green: 85.7
+    yellow: 71.2
+    blue: 49.3
+    magenta: 19.9
+    cyan: 43.8
+    white: 107.3
+    brightBlack: 12
+    brightRed: 35.8
+    brightGreen: 57
+    brightYellow: 79.4
+    brightBlue: 78.7
+    brightMagenta: 19.9
+    brightCyan: 56.4
+    brightWhite: 107.3

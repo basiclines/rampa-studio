@@ -1,0 +1,53 @@
+name: "Pantone Neon Blue (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#F5F7F9"
+  fg: "#002831"
+  black: "#002831"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F5F7F9"
+  brightBlack: "#3792AF"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F2F4F6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Neon Blue (Dark)"
+  contrast:
+    fg: 97.3
+    black: 97.3
+    red: 73.9
+    green: 57.4
+    yellow: 41.6
+    blue: 84.9
+    magenta: 81.1
+    cyan: 74.2
+    white: 0
+    brightBlack: 58
+    brightRed: 63.6
+    brightGreen: 44.2
+    brightYellow: 25.4
+    brightBlue: 50.9
+    brightMagenta: 62.5
+    brightCyan: 43.6
+    brightWhite: 0

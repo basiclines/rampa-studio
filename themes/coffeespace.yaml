@@ -1,0 +1,53 @@
+name: "coffeespace"
+source:
+  marketplace_id: "YesCode.morita"
+  version: "0.0.18"
+  installs: 228
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://github.com/yesomac/MyThemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.morita"
+  formats: null
+colors:
+  bg: "#3A2844"
+  fg: "#FAEBD8"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#0687FF"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 313
+  pair: null
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 38
+    green: 57
+    yellow: 69.1
+    blue: 43.6
+    magenta: 15.6
+    cyan: 45.5
+    white: 43.3
+    brightBlack: 14.6
+    brightRed: 38
+    brightGreen: 34.5
+    brightYellow: 75.8
+    brightBlue: 14.8
+    brightMagenta: 15.6
+    brightCyan: 45.5
+    brightWhite: 94.9

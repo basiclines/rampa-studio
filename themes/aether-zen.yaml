@@ -1,0 +1,53 @@
+name: "Aether Zen"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#383A42"
+  black: "#383A42"
+  red: "#E45649"
+  green: "#50A14F"
+  yellow: "#C18401"
+  blue: "#4078F2"
+  magenta: "#A626A4"
+  cyan: "#0997B3"
+  white: "#FAFAFA"
+  brightBlack: "#383A42"
+  brightRed: "#E45649"
+  brightGreen: "#50A14F"
+  brightYellow: "#C18401"
+  brightBlue: "#4078F2"
+  brightMagenta: "#A626A4"
+  brightCyan: "#0997B3"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Aether Aurora"
+  contrast:
+    fg: 93.2
+    black: 93.2
+    red: 60.4
+    green: 56
+    yellow: 55.8
+    blue: 64.3
+    magenta: 76.2
+    cyan: 58.5
+    white: 0
+    brightBlack: 93.2
+    brightRed: 60.4
+    brightGreen: 56
+    brightYellow: 55.8
+    brightBlue: 64.3
+    brightMagenta: 76.2
+    brightCyan: 58.5
+    brightWhite: 0

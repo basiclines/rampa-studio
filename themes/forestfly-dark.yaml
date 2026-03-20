@@ -1,0 +1,53 @@
+name: "forestfly Dark"
+source:
+  marketplace_id: "AndreaCombette.FOREST-FLY"
+  version: "0.3.1"
+  installs: 802
+  rating: 0
+  ratings: 0
+  author: "AndreaCombette"
+  repo: "https://github.com/Chatr0uge/ForestFly-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreaCombette.FOREST-FLY"
+  formats: null
+colors:
+  bg: "#3C2729"
+  fg: "#FBBEA3"
+  black: "#3C2729"
+  red: "#B7665C"
+  green: "#F19681"
+  yellow: "#F19681"
+  blue: "#7C6966"
+  magenta: "#B7665C"
+  cyan: "#7C6966"
+  white: "#B09F9C"
+  brightBlack: "#B7665C"
+  brightRed: "#B7665C"
+  brightGreen: "#F19681"
+  brightYellow: "#FBBEA3"
+  brightBlue: "#B09F9C"
+  brightMagenta: "#B09F9C"
+  brightCyan: "#B09F9C"
+  brightWhite: "#FBBEA3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 13
+  pair: null
+  contrast:
+    fg: 71
+    black: 0
+    red: 29
+    green: 54.1
+    yellow: 54.1
+    blue: 21.8
+    magenta: 29
+    cyan: 21.8
+    white: 47.8
+    brightBlack: 29
+    brightRed: 29
+    brightGreen: 54.1
+    brightYellow: 71
+    brightBlue: 47.8
+    brightMagenta: 47.8
+    brightCyan: 47.8
+    brightWhite: 71

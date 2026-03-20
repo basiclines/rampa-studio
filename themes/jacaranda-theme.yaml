@@ -1,0 +1,53 @@
+name: "Jacaranda Theme"
+source:
+  marketplace_id: "AlejandroHernandez.jacarandatheme"
+  version: "0.1.8"
+  installs: 165
+  rating: 0
+  ratings: 0
+  author: "Alejandro Hernandez"
+  repo: "https://github.com/josuebautista/JacarandaTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlejandroHernandez.jacarandatheme"
+  formats: null
+colors:
+  bg: "#00020F"
+  fg: "#DAC7FC"
+  black: "#574286"
+  red: "#FF198F"
+  green: "#39B246"
+  yellow: "#E59C10"
+  blue: "#2E73E0"
+  magenta: "#A82EEC"
+  cyan: "#56B1D5"
+  white: "#B9B2EA"
+  brightBlack: "#7A6AB4"
+  brightRed: "#FF3535"
+  brightGreen: "#21D7D7"
+  brightYellow: "#F5D143"
+  brightBlue: "#724AFF"
+  brightMagenta: "#DD62FF"
+  brightCyan: "#15E2E2"
+  brightWhite: "#E5C1F9"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 261
+  pair: null
+  contrast:
+    fg: 77.8
+    black: 13.7
+    red: 40.1
+    green: 49.1
+    yellow: 56.9
+    blue: 30.8
+    magenta: 29
+    cyan: 54.4
+    white: 64.2
+    brightBlack: 29.7
+    brightRed: 39.8
+    brightGreen: 70.2
+    brightYellow: 80.3
+    brightBlue: 27.5
+    brightMagenta: 47.3
+    brightCyan: 76
+    brightWhite: 76.8

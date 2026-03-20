@@ -1,0 +1,53 @@
+name: "Dark Ink Brightest"
+source:
+  marketplace_id: "DarkMannn.dark-ink-theme"
+  version: "0.0.9"
+  installs: 413
+  rating: 0
+  ratings: 0
+  author: "DarkMannn"
+  repo: "https://github.com/DarkMannn/dark-ink-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkMannn.dark-ink-theme"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#919CAE"
+  black: "#555555"
+  red: "#FF8080"
+  green: "#33D057"
+  yellow: "#EDED88"
+  blue: "#919CAE"
+  magenta: "#E557F9"
+  cyan: "#50D2F7"
+  white: "#F8F8F8"
+  brightBlack: "#777777"
+  brightRed: "#E64444"
+  brightGreen: "#67FF8A"
+  brightYellow: "#D9CE9B"
+  brightBlue: "#AFCBF3"
+  brightMagenta: "#EC84FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 46.5
+    black: 14.3
+    red: 52.9
+    green: 61.4
+    yellow: 90.9
+    blue: 46.5
+    magenta: 44.6
+    cyan: 68.8
+    white: 101.4
+    brightBlack: 28.7
+    brightRed: 33.9
+    brightGreen: 87.9
+    brightYellow: 74.6
+    brightBlue: 72
+    brightMagenta: 56.2
+    brightCyan: 90.3
+    brightWhite: 106

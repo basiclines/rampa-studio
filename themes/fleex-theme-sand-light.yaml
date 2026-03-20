@@ -1,0 +1,53 @@
+name: "Fleex Theme Sand Light"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  rating: 5
+  ratings: 1
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+  formats: null
+colors:
+  bg: "#FDF9F2"
+  fg: "#2B241D"
+  black: "#5B5045"
+  red: "#B85D42"
+  green: "#7F8E4F"
+  yellow: "#B98842"
+  blue: "#A77642"
+  magenta: "#7B63BA"
+  cyan: "#347E79"
+  white: "#FBF6EF"
+  brightBlack: "#5B5045"
+  brightRed: "#B85D42"
+  brightGreen: "#7F8E4F"
+  brightYellow: "#B98842"
+  brightBlue: "#A77642"
+  brightMagenta: "#7B63BA"
+  brightCyan: "#347E79"
+  brightWhite: "#FBF6EF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Fleex Theme Sand Dark"
+  contrast:
+    fg: 98.8
+    black: 83.9
+    red: 67.3
+    green: 59.9
+    yellow: 55.1
+    blue: 63.4
+    magenta: 70.1
+    cyan: 69.5
+    white: 0
+    brightBlack: 83.9
+    brightRed: 67.3
+    brightGreen: 59.9
+    brightYellow: 55.1
+    brightBlue: 63.4
+    brightMagenta: 70.1
+    brightCyan: 69.5
+    brightWhite: 0

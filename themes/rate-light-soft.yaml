@@ -1,0 +1,53 @@
+name: "Rate Light Soft"
+source:
+  marketplace_id: "Roll7.rate-theme"
+  version: "0.0.11"
+  installs: 157
+  rating: 5
+  ratings: 2
+  author: "Roll7"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Roll7.rate-theme"
+  formats: null
+colors:
+  bg: "#FFFFF0"
+  fg: "#393A34"
+  black: "#121212"
+  red: "#AB5959"
+  green: "#D73A49"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#D73A49"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.9
+    black: 104.6
+    red: 72.8
+    green: 69.8
+    yellow: 47.7
+    blue: 77.6
+    magenta: 80.5
+    cyan: 62.8
+    white: 20.4
+    brightBlack: 45.2
+    brightRed: 72.8
+    brightGreen: 69.8
+    brightYellow: 47.7
+    brightBlue: 77.6
+    brightMagenta: 80.5
+    brightCyan: 62.8
+    brightWhite: 16.9

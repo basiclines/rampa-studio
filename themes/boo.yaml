@@ -1,0 +1,53 @@
+name: "boo"
+source:
+  marketplace_id: "oz.boo"
+  version: "0.0.3"
+  installs: 2424
+  rating: 5
+  ratings: 1
+  author: "oz"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=oz.boo"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#331E26"
+  black: "#000000"
+  red: "#DC6F83"
+  green: "#95E279"
+  yellow: "#EF95A4"
+  blue: "#508FFF"
+  magenta: "#EC79BA"
+  cyan: "#A781B4"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#E23C57"
+  brightGreen: "#9CFF6A"
+  brightYellow: "#EF95A4"
+  brightBlue: "#508FFF"
+  brightMagenta: "#A781B4"
+  brightCyan: "#E37463"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.4
+    black: 106
+    red: 58.3
+    green: 25.6
+    yellow: 43.3
+    blue: 58
+    magenta: 50.7
+    cyan: 59.8
+    white: 0
+    brightBlack: 82.9
+    brightRed: 67.5
+    brightGreen: 11.7
+    brightYellow: 43.3
+    brightBlue: 58
+    brightMagenta: 59.8
+    brightCyan: 56.5
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "blue"
+source:
+  marketplace_id: "natecrow.consonance-themes"
+  version: "1.2.0"
+  installs: 317
+  rating: 0
+  ratings: 0
+  author: "natecrow"
+  repo: "https://github.com/natecrow/consonance-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=natecrow.consonance-themes"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#D9C1BD"
+  black: "#000000"
+  red: "#B7C7EC"
+  green: "#66A1F7"
+  yellow: "#93C9FF"
+  blue: "#88726F"
+  magenta: "#367ACD"
+  cyan: "#8E9FC1"
+  white: "#F6DDD9"
+  brightBlack: "#88726F"
+  brightRed: "#B7C7EC"
+  brightGreen: "#66A1F7"
+  brightYellow: "#93C9FF"
+  brightBlue: "#88726F"
+  brightMagenta: "#367ACD"
+  brightCyan: "#8E9FC1"
+  brightWhite: "#FFF9F6"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 71.7
+    black: 0
+    red: 72.1
+    green: 50.5
+    yellow: 70.5
+    blue: 30
+    magenta: 31.3
+    cyan: 49.6
+    white: 88.9
+    brightBlack: 30
+    brightRed: 72.1
+    brightGreen: 50.5
+    brightYellow: 70.5
+    brightBlue: 30
+    brightMagenta: 31.3
+    brightCyan: 49.6
+    brightWhite: 104.1

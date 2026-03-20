@@ -1,0 +1,53 @@
+name: "Aether Quantum"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#0D0F14"
+  fg: "#E3E8F0"
+  black: "#161922"
+  red: "#FF5252"
+  green: "#76FF03"
+  yellow: "#FFEA00"
+  blue: "#00E5FF"
+  magenta: "#E91E63"
+  cyan: "#00ACC1"
+  white: "#E3E8F0"
+  brightBlack: "#3F455A"
+  brightRed: "#FF6E6E"
+  brightGreen: "#9CFF57"
+  brightYellow: "#FFF176"
+  brightBlue: "#40EBFF"
+  brightMagenta: "#FF4081"
+  brightCyan: "#84FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 268
+  pair: "Aether Zen"
+  contrast:
+    fg: 92.3
+    black: 0
+    red: 43.5
+    green: 88.8
+    yellow: 92.4
+    blue: 78.7
+    magenta: 33.3
+    cyan: 49.2
+    white: 92.3
+    brightBlack: 10
+    brightRed: 49.5
+    brightGreen: 91.7
+    brightYellow: 96.5
+    brightBlue: 82.3
+    brightMagenta: 42.1
+    brightCyan: 95.2
+    brightWhite: 107.5

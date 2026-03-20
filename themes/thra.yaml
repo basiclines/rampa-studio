@@ -1,0 +1,53 @@
+name: "Thra"
+source:
+  marketplace_id: "whatsadelane.thra"
+  version: "0.11.0"
+  installs: 718
+  rating: 0
+  ratings: 0
+  author: "whatsadelane"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=whatsadelane.thra"
+  formats: null
+colors:
+  bg: "#241F24"
+  fg: "#9D78CF"
+  black: "#000000"
+  red: "#D33B58"
+  green: "#59927C"
+  yellow: "#C0863A"
+  blue: "#9843FF"
+  magenta: "#BC3FBC"
+  cyan: "#3E8FA3"
+  white: "#D7A7D4"
+  brightBlack: "#666666"
+  brightRed: "#FF7777"
+  brightGreen: "#B0DECB"
+  brightYellow: "#D3B799"
+  brightBlue: "#B392EC"
+  brightMagenta: "#E280E2"
+  brightCyan: "#7FCBDE"
+  brightWhite: "#ECCEEA"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 326
+  pair: null
+  contrast:
+    fg: 37.2
+    black: 0
+    red: 28.6
+    green: 35.9
+    yellow: 41.4
+    blue: 28.6
+    magenta: 28.6
+    cyan: 35
+    white: 60.8
+    brightBlack: 20.8
+    brightRed: 50
+    brightGreen: 78.3
+    brightYellow: 63.9
+    brightBlue: 49.9
+    brightMagenta: 51.1
+    brightCyan: 66.4
+    brightWhite: 80.1

@@ -1,0 +1,53 @@
+name: "Cobalt2"
+source:
+  marketplace_id: "AgraeonLabs.dev-themes"
+  version: "0.1.0"
+  installs: 283
+  rating: 0
+  ratings: 0
+  author: "Agraeon Labs"
+  repo: "https://github.com/adiagcodelance/VS-Code-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AgraeonLabs.dev-themes"
+  formats: null
+colors:
+  bg: "#193549"
+  fg: "#FFFFFF"
+  black: "#193549"
+  red: "#FF0088"
+  green: "#3AD900"
+  yellow: "#FFC600"
+  blue: "#0088FF"
+  magenta: "#9D41FF"
+  cyan: "#80FFBB"
+  white: "#FFFFFF"
+  brightBlack: "#193549"
+  brightRed: "#FF0088"
+  brightGreen: "#3AD900"
+  brightYellow: "#FFC600"
+  brightBlue: "#0088FF"
+  brightMagenta: "#9D41FF"
+  brightCyan: "#80FFBB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 102.1
+    black: 0
+    red: 33.7
+    green: 61.5
+    yellow: 71.3
+    blue: 33.9
+    magenta: 25.4
+    cyan: 86.6
+    white: 102.1
+    brightBlack: 0
+    brightRed: 33.7
+    brightGreen: 61.5
+    brightYellow: 71.3
+    brightBlue: 33.9
+    brightMagenta: 25.4
+    brightCyan: 86.6
+    brightWhite: 102.1

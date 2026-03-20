@@ -1,0 +1,53 @@
+name: "Forge (Light)"
+source:
+  marketplace_id: "FollowUpBoss.forge-vscode-theme"
+  version: "0.0.2"
+  installs: 898
+  rating: 0
+  ratings: 0
+  author: "Follow Up Boss"
+  repo: "https://github.com/FollowUpBoss/fub-spa"
+  url: "https://marketplace.visualstudio.com/items?itemName=FollowUpBoss.forge-vscode-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#415662"
+  black: "#000000"
+  red: "#EB484B"
+  green: "#00A367"
+  yellow: "#F3B942"
+  blue: "#4EADDD"
+  magenta: "#9B00C2"
+  cyan: "#00BBC2"
+  white: "#7A8991"
+  brightBlack: "#666666"
+  brightRed: "#A5252B"
+  brightGreen: "#006F42"
+  brightYellow: "#A97B0C"
+  brightBlue: "#0076A4"
+  brightMagenta: "#6B0089"
+  brightCyan: "#007F83"
+  brightWhite: "#B2BBC0"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Forge (Dark)"
+  contrast:
+    fg: 86.7
+    black: 106
+    red: 64.1
+    green: 59.3
+    yellow: 32.5
+    blue: 49.1
+    magenta: 80.3
+    cyan: 45.9
+    white: 63.7
+    brightBlack: 78.8
+    brightRed: 83.8
+    brightGreen: 80.6
+    brightYellow: 65.3
+    brightBlue: 74.5
+    brightMagenta: 92.4
+    brightCyan: 72.8
+    brightWhite: 37.5

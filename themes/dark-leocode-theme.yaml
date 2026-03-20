@@ -1,0 +1,53 @@
+name: "dark-leocode-theme"
+source:
+  marketplace_id: "LeonardoEspinosaCassales.dark-leocode-theme"
+  version: "0.0.1"
+  installs: 42
+  rating: 5
+  ratings: 1
+  author: "Leonardo Espinosa Cassales"
+  repo: "https://github.com/leointhecode/lionleo-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LeonardoEspinosaCassales.dark-leocode-theme"
+  formats: null
+colors:
+  bg: "#262424"
+  fg: "#BEB9B9"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 62.4
+    black: 0
+    red: 24.9
+    green: 51.2
+    yellow: 83.8
+    blue: 25.6
+    magenta: 27.9
+    cyan: 45.7
+    white: 88.2
+    brightBlack: 20.2
+    brightRed: 36.7
+    brightGreen: 61.7
+    brightYellow: 93.8
+    brightBlue: 38.2
+    brightMagenta: 43.6
+    brightCyan: 53.6
+    brightWhite: 88.2

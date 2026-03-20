@@ -1,0 +1,53 @@
+name: "MagicUser Light Orange"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1705
+  rating: 5
+  ratings: 2
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+  formats: null
+colors:
+  bg: "#FFF0E1"
+  fg: "#000000"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.5
+    black: 97.8
+    red: 51.9
+    green: 9.6
+    yellow: 0
+    blue: 78.2
+    magenta: 48
+    cyan: 0
+    white: 0
+    brightBlack: 91.1
+    brightRed: 55.2
+    brightGreen: 15.5
+    brightYellow: 0
+    brightBlue: 45.5
+    brightMagenta: 48.2
+    brightCyan: 10.9
+    brightWhite: 12.9

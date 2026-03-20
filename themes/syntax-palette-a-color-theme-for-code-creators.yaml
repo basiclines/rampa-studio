@@ -1,0 +1,53 @@
+name: "Syntax Palette – A Color Theme for Code Creators"
+source:
+  marketplace_id: "aqsa.syntax-palette"
+  version: "0.0.5"
+  installs: 219
+  rating: 5
+  ratings: 1
+  author: "aqsa"
+  repo: "https://github.com/Bacteria007/syntax-palette"
+  url: "https://marketplace.visualstudio.com/items?itemName=aqsa.syntax-palette"
+  formats: null
+colors:
+  bg: "#1A1D24"
+  fg: "#F1F5F9"
+  black: "#1F2937"
+  red: "#EF4444"
+  green: "#10B981"
+  yellow: "#F59E0B"
+  blue: "#3B82F6"
+  magenta: "#8B5CF6"
+  cyan: "#06B6D4"
+  white: "#F8FAFC"
+  brightBlack: "#1F2937"
+  brightRed: "#EF4444"
+  brightGreen: "#10B981"
+  brightYellow: "#F59E0B"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#8B5CF6"
+  brightCyan: "#06B6D4"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 99.2
+    black: 0
+    red: 36.1
+    green: 51.2
+    yellow: 58.7
+    blue: 36.1
+    magenta: 31.2
+    cyan: 53.2
+    white: 102.7
+    brightBlack: 0
+    brightRed: 36.1
+    brightGreen: 51.2
+    brightYellow: 58.7
+    brightBlue: 36.1
+    brightMagenta: 31.2
+    brightCyan: 53.2
+    brightWhite: 102.7

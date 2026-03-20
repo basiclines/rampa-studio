@@ -1,0 +1,53 @@
+name: "Darker + Monokai (Gold)"
+source:
+  marketplace_id: "kylesgl.dark-monokai"
+  version: "2.0.4"
+  installs: 1289
+  rating: 0
+  ratings: 0
+  author: "kylesgl"
+  repo: "https://github.com/kylesgl/dark-monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=kylesgl.dark-monokai"
+  formats: null
+colors:
+  bg: "#1B1B1B"
+  fg: "#CECECE"
+  black: "#000000"
+  red: "#FF7878"
+  green: "#AAE682"
+  yellow: "#FFDC96"
+  blue: "#00B1FF"
+  magenta: "#FF50FF"
+  cyan: "#00DCDC"
+  white: "#CECECE"
+  brightBlack: "#7C7C7C"
+  brightRed: "#FF7878"
+  brightGreen: "#AAE682"
+  brightYellow: "#FFDC96"
+  brightBlue: "#00B1FF"
+  brightMagenta: "#FF50FF"
+  brightCyan: "#00DCDC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.4
+    black: 0
+    red: 51
+    green: 80
+    yellow: 86.6
+    blue: 54
+    magenta: 49.7
+    cyan: 71.3
+    white: 75.4
+    brightBlack: 31.4
+    brightRed: 51
+    brightGreen: 80
+    brightYellow: 86.6
+    brightBlue: 54
+    brightMagenta: 49.7
+    brightCyan: 71.3
+    brightWhite: 106.4

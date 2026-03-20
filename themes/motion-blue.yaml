@@ -1,0 +1,53 @@
+name: "Motion Blue"
+source:
+  marketplace_id: "5ett.motion-blue"
+  version: "0.0.7"
+  installs: 534
+  rating: 4
+  ratings: 1
+  author: "5ett"
+  repo: "https://github.com/5ett/motion-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=5ett.motion-blue"
+  formats: null
+colors:
+  bg: "#183752"
+  fg: "#BBD5ED"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 247
+  pair: null
+  contrast:
+    fg: 72.6
+    black: 0
+    red: 21.2
+    green: 47.5
+    yellow: 80.1
+    blue: 21.9
+    magenta: 24.2
+    cyan: 42
+    white: 84.5
+    brightBlack: 16.5
+    brightRed: 33
+    brightGreen: 58
+    brightYellow: 90.1
+    brightBlue: 34.5
+    brightMagenta: 39.8
+    brightCyan: 49.9
+    brightWhite: 84.5

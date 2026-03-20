@@ -1,0 +1,53 @@
+name: "Dracula Theme with Italic Keywords"
+source:
+  marketplace_id: "shidhincr.theme-dracula-italics"
+  version: "1.0.1"
+  installs: 16536
+  rating: 5
+  ratings: 4
+  author: "shidhincr"
+  repo: "https://github.com/shidhincr/vscode-dracula-italics"
+  url: "https://marketplace.visualstudio.com/items?itemName=shidhincr.theme-dracula-italics"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#F8F8F2"
+  black: "#575757"
+  red: "#FF6E67"
+  green: "#5AF78E"
+  yellow: "#F4F99D"
+  blue: "#CAA9FA"
+  magenta: "#FF92D0"
+  cyan: "#9AEDFE"
+  white: "#F8F8F2"
+  brightBlack: "#4D4D4D"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#BFBFBF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 99
+    black: 12.9
+    red: 45.7
+    green: 81.1
+    yellow: 95.9
+    blue: 60.1
+    magenta: 58.9
+    cyan: 84.1
+    white: 99
+    brightBlack: 9.1
+    brightRed: 40.4
+    brightGreen: 81.9
+    brightYellow: 95.6
+    brightBlue: 50.7
+    brightMagenta: 51.6
+    brightCyan: 81
+    brightWhite: 64.1

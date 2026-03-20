@@ -1,0 +1,53 @@
+name: "Custom Theme (dark)"
+source:
+  marketplace_id: "Teambotics.theme-studio"
+  version: "0.0.2"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "Teambotics"
+  repo: "https://github.com/nickhilster/theme-crafter"
+  url: "https://marketplace.visualstudio.com/items?itemName=Teambotics.theme-studio"
+  formats: null
+colors:
+  bg: "#1A1A23"
+  fg: "#D1D0D7"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#000000"
+  brightRed: "#CD3131"
+  brightGreen: "#0DBC79"
+  brightYellow: "#E5E510"
+  brightBlue: "#2472C8"
+  brightMagenta: "#BC3FBC"
+  brightCyan: "#11A8CD"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: "Custom Theme (light)"
+  contrast:
+    fg: 77.1
+    black: 0
+    red: 26.3
+    green: 52.6
+    yellow: 85.2
+    blue: 27
+    magenta: 29.3
+    cyan: 47.1
+    white: 89.6
+    brightBlack: 0
+    brightRed: 26.3
+    brightGreen: 52.6
+    brightYellow: 85.2
+    brightBlue: 27
+    brightMagenta: 29.3
+    brightCyan: 47.1
+    brightWhite: 89.6

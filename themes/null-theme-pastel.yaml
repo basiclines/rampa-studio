@@ -1,0 +1,53 @@
+name: "Null Theme - Pastel"
+source:
+  marketplace_id: "kimberlycasamina.null-theme"
+  version: "1.0.8"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "kimberlycasamina"
+  repo: "https://github.com/kimicasamina/vscode-null-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
+  formats: null
+colors:
+  bg: "#1A1A1F"
+  fg: "#D4D4D9"
+  black: "#1A1A1F"
+  red: "#E5B3B3"
+  green: "#B3E5B3"
+  yellow: "#E5E5B3"
+  blue: "#B3B3E5"
+  magenta: "#E5B3E5"
+  cyan: "#B3E5E5"
+  white: "#F0F0F0"
+  brightBlack: "#8888AA"
+  brightRed: "#FFD6D6"
+  brightGreen: "#D6FFD6"
+  brightYellow: "#FFFFD6"
+  brightBlue: "#D6D6FF"
+  brightMagenta: "#FFD6FF"
+  brightCyan: "#D6FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 0
+    red: 66.8
+    green: 81.8
+    yellow: 87.7
+    blue: 62.2
+    magenta: 69
+    cyan: 83.8
+    white: 96.7
+    brightBlack: 38.6
+    brightRed: 86.3
+    brightGreen: 99.4
+    brightYellow: 104.7
+    brightBlue: 82.4
+    brightMagenta: 88.2
+    brightCyan: 101.3
+    brightWhite: 106.5

@@ -1,0 +1,53 @@
+name: "Rainglow (brave)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#333846"
+  fg: "#D6DBDB"
+  black: "#3E4455"
+  red: "#BA0E2E"
+  green: "#BC4331"
+  yellow: "#908BBC"
+  blue: "#91B9C9"
+  magenta: "#ABAAB7"
+  cyan: "#908BBC"
+  white: "#E4E7E7"
+  brightBlack: "#5E6781"
+  brightRed: "#F03E5F"
+  brightGreen: "#DC8477"
+  brightYellow: "#CECCE1"
+  brightBlue: "#D5E5EB"
+  brightMagenta: "#E2E1E6"
+  brightCyan: "#CECCE1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 270
+  pair: "Rainglow (brave-light)"
+  contrast:
+    fg: 76.8
+    black: 0
+    red: 14.1
+    green: 19.1
+    yellow: 35.4
+    blue: 53.8
+    magenta: 49.5
+    cyan: 35.4
+    white: 84.5
+    brightBlack: 16.3
+    brightRed: 30.4
+    brightGreen: 41.5
+    brightYellow: 69.5
+    brightBlue: 81.9
+    brightMagenta: 81.5
+    brightCyan: 69.5
+    brightWhite: 100.5

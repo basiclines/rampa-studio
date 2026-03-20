@@ -1,0 +1,53 @@
+name: "EndeavourOS Dark Night Shift"
+source:
+  marketplace_id: "jordojordo.endeavouros-dark"
+  version: "0.1.2"
+  installs: 272
+  rating: 5
+  ratings: 1
+  author: "Jordon Leach"
+  repo: "https://github.com/jordojordo/endeavouros-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jordojordo.endeavouros-dark"
+  formats: null
+colors:
+  bg: "#1B1C1E"
+  fg: "#FFFFFF"
+  black: "#1B1C1E"
+  red: "#FF7F7F"
+  green: "#98C379"
+  yellow: "#F67400"
+  blue: "#7FBAFF"
+  magenta: "#CC3980"
+  cyan: "#7F3FBF"
+  white: "#FFFFFF"
+  brightBlack: "#B0B0B0"
+  brightRed: "#FF7F7F"
+  brightGreen: "#98C379"
+  brightYellow: "#F67400"
+  brightBlue: "#7F7FFF"
+  brightMagenta: "#CC3980"
+  brightCyan: "#7F3FBF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.3
+    black: 0
+    red: 52.9
+    green: 61.7
+    yellow: 46.7
+    blue: 61.6
+    magenta: 28.6
+    cyan: 19.8
+    white: 106.3
+    brightBlack: 58
+    brightRed: 52.9
+    brightGreen: 61.7
+    brightYellow: 46.7
+    brightBlue: 40.1
+    brightMagenta: 28.6
+    brightCyan: 19.8
+    brightWhite: 106.3

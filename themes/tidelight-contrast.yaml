@@ -1,0 +1,53 @@
+name: "Tidelight Contrast"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+  formats: null
+colors:
+  bg: "#05070C"
+  fg: "#F8FAFC"
+  black: "#0B1220"
+  red: "#FB7185"
+  green: "#A3E635"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#F472B6"
+  cyan: "#22D3EE"
+  white: "#FFFFFF"
+  brightBlack: "#0B1220"
+  brightRed: "#FB7185"
+  brightGreen: "#A3E635"
+  brightYellow: "#FBBF24"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#F472B6"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: "Tidelight Contrast (Light)"
+  contrast:
+    fg: 104.3
+    black: 0
+    red: 50.2
+    green: 79.6
+    yellow: 73.6
+    blue: 52.3
+    magenta: 50.8
+    cyan: 69.5
+    white: 107.8
+    brightBlack: 0
+    brightRed: 50.2
+    brightGreen: 79.6
+    brightYellow: 73.6
+    brightBlue: 52.3
+    brightMagenta: 50.8
+    brightCyan: 69.5
+    brightWhite: 107.8

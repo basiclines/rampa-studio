@@ -1,0 +1,53 @@
+name: "Rider Melon Night"
+source:
+  marketplace_id: "AbYzzX.rider-melon-theme"
+  version: "0.1.2"
+  installs: 518
+  rating: 0
+  ratings: 0
+  author: "AbYzzX"
+  repo: "https://github.com/abYzzX/vscode.rider.melon.night"
+  url: "https://marketplace.visualstudio.com/items?itemName=AbYzzX.rider-melon-theme"
+  formats: null
+colors:
+  bg: "#262626"
+  fg: "#D0D0D0"
+  black: "#303030"
+  red: "#D25252"
+  green: "#7FE173"
+  yellow: "#FFC66D"
+  blue: "#4099FF"
+  magenta: "#F680FF"
+  cyan: "#BED6FF"
+  white: "#EEEEEC"
+  brightBlack: "#535353"
+  brightRed: "#F07070"
+  brightGreen: "#9DFF91"
+  brightYellow: "#FFE48B"
+  brightBlue: "#5EB7F7"
+  brightMagenta: "#FF9DFF"
+  brightCyan: "#DCF4FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75
+    black: 0
+    red: 30.9
+    green: 72.1
+    yellow: 74.9
+    blue: 43.7
+    magenta: 55.8
+    cyan: 77.8
+    white: 93.6
+    brightBlack: 12.3
+    brightRed: 44.1
+    brightGreen: 90.1
+    brightYellow: 88.2
+    brightBlue: 56.3
+    brightMagenta: 65.7
+    brightCyan: 95
+    brightWhite: 104.8

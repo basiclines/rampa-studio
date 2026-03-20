@@ -1,0 +1,53 @@
+name: "Z-DarkTheme"
+source:
+  marketplace_id: "Akako.z-darktheme"
+  version: "0.1.0"
+  installs: 321
+  rating: 4.5
+  ratings: 2
+  author: "Akakø"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Akako.z-darktheme"
+  formats: null
+colors:
+  bg: "#311E40"
+  fg: "#FFFEE1"
+  black: "#1B0D25"
+  red: "#FC6363"
+  green: "#DAE987"
+  yellow: "#F8F1B2"
+  blue: "#2725B1"
+  magenta: "#E982F7"
+  cyan: "#AFFFF8"
+  white: "#CECECE"
+  brightBlack: "#493F4E"
+  brightRed: "#F72626"
+  brightGreen: "#87EE12"
+  brightYellow: "#F0DA78"
+  brightBlue: "#5B1BFF"
+  brightMagenta: "#EB50FF"
+  brightCyan: "#05EBD7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 309
+  pair: null
+  contrast:
+    fg: 102.9
+    black: 0
+    red: 43.3
+    green: 85.1
+    yellow: 94
+    blue: 0
+    magenta: 53.2
+    cyan: 95.1
+    white: 73.6
+    brightBlack: 0
+    brightRed: 33.4
+    brightGreen: 78.1
+    brightYellow: 81
+    brightBlue: 16.9
+    brightMagenta: 43.7
+    brightCyan: 76.7
+    brightWhite: 104.7

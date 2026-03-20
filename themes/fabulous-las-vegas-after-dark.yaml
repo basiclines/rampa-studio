@@ -1,0 +1,53 @@
+name: "Fabulous Las Vegas — After Dark"
+source:
+  marketplace_id: "alpharomercoma.fabulous-las-vegas"
+  version: "0.1.9"
+  installs: 16
+  rating: 0
+  ratings: 0
+  author: "Alpha Romer Coma"
+  repo: "https://github.com/alpharomercoma/fabulous-las-vegas-extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=alpharomercoma.fabulous-las-vegas"
+  formats: null
+colors:
+  bg: "#1E1B24"
+  fg: "#E8DDD0"
+  black: "#1E1B24"
+  red: "#F0455D"
+  green: "#0E9783"
+  yellow: "#FCBA05"
+  blue: "#0090BE"
+  magenta: "#D45D85"
+  cyan: "#0EAFAF"
+  white: "#E8DDD0"
+  brightBlack: "#7A6E8E"
+  brightRed: "#F87088"
+  brightGreen: "#30C4A0"
+  brightYellow: "#FFD050"
+  brightBlue: "#40C0E8"
+  brightMagenta: "#E890B0"
+  brightCyan: "#30D8D8"
+  brightWhite: "#FFFBF5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 300
+  pair: "Fabulous Las Vegas — High Noon"
+  contrast:
+    fg: 85.3
+    black: 0
+    red: 37
+    green: 36.6
+    yellow: 70.2
+    blue: 36.5
+    magenta: 36.2
+    cyan: 48.4
+    white: 85.3
+    brightBlack: 27.3
+    brightRed: 47.9
+    brightGreen: 57.6
+    brightYellow: 80
+    brightBlue: 59.5
+    brightMagenta: 54.9
+    brightCyan: 69.4
+    brightWhite: 103.9

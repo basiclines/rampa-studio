@@ -1,0 +1,53 @@
+name: "Tidelight Daybreak"
+source:
+  marketplace_id: "slow-clap-software.tidelight-theme"
+  version: "0.0.5"
+  installs: 14
+  rating: 0
+  ratings: 0
+  author: "Slow Clap Software"
+  repo: "https://github.com/melnicorn/tidelight-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=slow-clap-software.tidelight-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#0B1220"
+  black: "#0B1220"
+  red: "#9F1239"
+  green: "#15803D"
+  yellow: "#A16207"
+  blue: "#1D4ED8"
+  magenta: "#A21CAF"
+  cyan: "#0284C7"
+  white: "#334155"
+  brightBlack: "#0B1220"
+  brightRed: "#9F1239"
+  brightGreen: "#15803D"
+  brightYellow: "#A16207"
+  brightBlue: "#1D4ED8"
+  brightMagenta: "#A21CAF"
+  brightCyan: "#0284C7"
+  brightWhite: "#334155"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Tidelight Dusk"
+  contrast:
+    fg: 105.2
+    black: 105.2
+    red: 85.9
+    green: 74.2
+    yellow: 73.7
+    blue: 82.2
+    magenta: 79.9
+    cyan: 67.5
+    white: 94
+    brightBlack: 105.2
+    brightRed: 85.9
+    brightGreen: 74.2
+    brightYellow: 73.7
+    brightBlue: 82.2
+    brightMagenta: 79.9
+    brightCyan: 67.5
+    brightWhite: 94

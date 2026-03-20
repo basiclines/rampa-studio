@@ -1,0 +1,53 @@
+name: "Anufemist Dark"
+source:
+  marketplace_id: "Anufemist.anufemist-dark"
+  version: "2.1.0"
+  installs: 50
+  rating: 0
+  ratings: 0
+  author: "Anufemist"
+  repo: "https://github.com/anufemist/vscode-theme-anufemist-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=Anufemist.anufemist-dark"
+  formats: null
+colors:
+  bg: "#151515"
+  fg: "#DDDDDD"
+  black: "#000000"
+  red: "#DD3131"
+  green: "#31DE3F"
+  yellow: "#DEA731"
+  blue: "#314EDE"
+  magenta: "#DE319C"
+  cyan: "#31DEDE"
+  white: "#DDDDDD"
+  brightBlack: "#666666"
+  brightRed: "#FF4D4D"
+  brightGreen: "#4DFF5B"
+  brightYellow: "#FFC64D"
+  brightBlue: "#4D6AFF"
+  brightMagenta: "#FF4DBB"
+  brightCyan: "#4DFFFF"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.2
+    black: 0
+    red: 30.5
+    green: 69
+    yellow: 58.9
+    blue: 20
+    magenta: 33.6
+    cyan: 73.4
+    white: 85.2
+    brightBlack: 22.2
+    brightRed: 42.2
+    brightGreen: 87.1
+    brightYellow: 76.7
+    brightBlue: 31.2
+    brightMagenta: 45.7
+    brightCyan: 92.3
+    brightWhite: 95.9

@@ -1,0 +1,51 @@
+name: "RessGame-Advance-Coding-Theme"
+source:
+  marketplace_id: "RessGame.ressgame-advance-coding-gold-theme"
+  version: "1.9.0"
+  installs: 226
+  author: "RessGame"
+  repo: "https://github.com/RessGame/Advance-Coding-Gold-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RessGame.ressgame-advance-coding-gold-theme"
+  formats: null
+colors:
+  bg: "#1D343D"
+  fg: "#FFFFFF"
+  black: "#000915"
+  red: "#FF003C"
+  green: "#74FF52"
+  yellow: "#FFB700"
+  blue: "#0066B8"
+  magenta: "#912853"
+  cyan: "#12BBA2"
+  white: "#C9C9C9"
+  brightBlack: "#272727"
+  brightRed: "#FF3967"
+  brightGreen: "#B2FF9E"
+  brightYellow: "#E9C46A"
+  brightBlue: "#0274D1"
+  brightMagenta: "#C72D6D"
+  brightCyan: "#6FFFE9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 225
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 0
+    red: 32.4
+    green: 84
+    yellow: 65.9
+    blue: 17.9
+    magenta: 10
+    cyan: 49.5
+    white: 68.5
+    brightBlack: 0
+    brightRed: 35.6
+    brightGreen: 89.9
+    brightYellow: 68.1
+    brightBlue: 24.1
+    brightMagenta: 21.9
+    brightCyan: 87.9
+    brightWhite: 102.5

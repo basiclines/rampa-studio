@@ -1,0 +1,53 @@
+name: "AS Theme"
+source:
+  marketplace_id: "ArpitTheme.as-theme"
+  version: "1.0.3"
+  installs: 111
+  rating: 5
+  ratings: 1
+  author: "Arpit Shukla"
+  repo: "https://github.com/arpitshukla9/AS-VsCode-Theme-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArpitTheme.as-theme"
+  formats: null
+colors:
+  bg: "#040204"
+  fg: "#E8E8E8"
+  black: "#040204"
+  red: "#FF0040"
+  green: "#007A33"
+  yellow: "#FF6600"
+  blue: "#0080FF"
+  magenta: "#CC00CC"
+  cyan: "#00CCCC"
+  white: "#E8E8E8"
+  brightBlack: "#666666"
+  brightRed: "#FF4D66"
+  brightGreen: "#4DFF80"
+  brightYellow: "#FFCC4D"
+  brightBlue: "#4DA6FF"
+  brightMagenta: "#FF4DFF"
+  brightCyan: "#4DFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 327
+  pair: null
+  contrast:
+    fg: 92.9
+    black: 0
+    red: 37.9
+    green: 25
+    yellow: 47
+    blue: 37.1
+    magenta: 31.4
+    cyan: 64.4
+    white: 92.9
+    brightBlack: 23
+    brightRed: 43.5
+    brightGreen: 88.5
+    brightYellow: 79.9
+    brightBlue: 52.2
+    brightMagenta: 50.7
+    brightCyan: 93.1
+    brightWhite: 107.9

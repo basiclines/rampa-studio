@@ -1,0 +1,53 @@
+name: "Obsidian Pro - White Purple"
+source:
+  marketplace_id: "williamkoller.obsidian-pro-theme"
+  version: "1.0.1"
+  installs: 42
+  rating: 5
+  ratings: 1
+  author: "williamkoller"
+  repo: "https://github.com/williamkoller/obsidian-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=williamkoller.obsidian-pro-theme"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#222222"
+  black: "#888888"
+  red: "#EF5D9C"
+  green: "#B084F6"
+  yellow: "#D9B03D"
+  blue: "#8B5CF6"
+  magenta: "#C084FC"
+  cyan: "#B5A6FF"
+  white: "#4A4A4A"
+  brightBlack: "#AAAAAA"
+  brightRed: "#F788C8"
+  brightGreen: "#D6BAFF"
+  brightYellow: "#F3CE54"
+  brightBlue: "#A78BFA"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#CFC6FF"
+  brightWhite: "#222222"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.9
+    black: 60.1
+    red: 54.5
+    green: 50.8
+    yellow: 36.9
+    blue: 65.7
+    magenta: 48.2
+    cyan: 38.7
+    white: 87.3
+    brightBlack: 42.8
+    brightRed: 41.1
+    brightGreen: 27.5
+    brightYellow: 21.3
+    brightBlue: 49.6
+    brightMagenta: 29.4
+    brightCyan: 23.9
+    brightWhite: 99.9

@@ -1,0 +1,56 @@
+name: "Pre"
+source:
+  marketplace_id: "leandromatos.pre"
+  version: "0.0.7"
+  installs: 13046
+  rating: 0
+  ratings: 0
+  author: "Leandro Matos"
+  repo: "https://github.com/leandromatos/pre-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=leandromatos.pre"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/leandromatos/pre-theme/master/iterm/Pre.itermcolors"
+    warp: "https://raw.githubusercontent.com/leandromatos/pre-theme/master/warp/pre.yaml"
+    sublime: "https://raw.githubusercontent.com/leandromatos/pre-theme/master/sublime/Theme - Pre/Pre.tmTheme"
+colors:
+  bg: "#292929"
+  fg: "#F8F8F8"
+  black: "#000000"
+  red: "#FF2B92"
+  green: "#23FF5E"
+  yellow: "#FFF64F"
+  blue: "#7B7B7B"
+  magenta: "#BD58FD"
+  cyan: "#00E5FF"
+  white: "#F8F8F8"
+  brightBlack: "#191919"
+  brightRed: "#FF2B92"
+  brightGreen: "#23FF5E"
+  brightYellow: "#FFF64F"
+  brightBlue: "#7B7B7B"
+  brightMagenta: "#BD58FD"
+  brightCyan: "#00E5FF"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.6
+    black: 0
+    red: 37.5
+    green: 83.5
+    yellow: 95
+    blue: 28.8
+    magenta: 36.1
+    cyan: 75.4
+    white: 99.6
+    brightBlack: 0
+    brightRed: 37.5
+    brightGreen: 83.5
+    brightYellow: 95
+    brightBlue: 28.8
+    brightMagenta: 36.1
+    brightCyan: 75.4
+    brightWhite: 99.6

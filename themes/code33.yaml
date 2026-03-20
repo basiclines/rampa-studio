@@ -1,0 +1,53 @@
+name: "Code33"
+source:
+  marketplace_id: "StephenFuchs.code33"
+  version: "1.0.3"
+  installs: 121
+  rating: 0
+  ratings: 0
+  author: "Stephen Fuchs"
+  repo: "https://github.com/stephenfuchs/code33-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=StephenFuchs.code33"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#EDEDED"
+  black: "#3E3E3E"
+  red: "#E03177"
+  green: "#46A758"
+  yellow: "#EFD36C"
+  blue: "#0078A1"
+  magenta: "#AB4ABA"
+  cyan: "#5FD4F4"
+  white: "#EDEDED"
+  brightBlack: "#2E2E2E"
+  brightRed: "#F76190"
+  brightGreen: "#63C174"
+  brightYellow: "#EFD36C"
+  brightBlue: "#2EC8EE"
+  brightMagenta: "#D864D8"
+  brightCyan: "#8AE8FF"
+  brightWhite: "#EDEDED"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.2
+    black: 0
+    red: 32.5
+    green: 44.1
+    yellow: 79.8
+    blue: 26.8
+    magenta: 28.4
+    cyan: 71.1
+    white: 95.2
+    brightBlack: 0
+    brightRed: 45.4
+    brightGreen: 57.5
+    brightYellow: 79.8
+    brightBlue: 63.8
+    brightMagenta: 43.2
+    brightCyan: 83.6
+    brightWhite: 95.2

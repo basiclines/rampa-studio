@@ -1,0 +1,53 @@
+name: "Startrail"
+source:
+  marketplace_id: "gantoreno.startrail"
+  version: "0.1.1"
+  installs: 1022
+  rating: 5
+  ratings: 1
+  author: "Gabriel Moreno"
+  repo: "https://github.com/gantoreno/vscode-startrail"
+  url: "https://marketplace.visualstudio.com/items?itemName=gantoreno.startrail"
+  formats: null
+colors:
+  bg: "#121419"
+  fg: "#B5B4C9"
+  black: "#21242C"
+  red: "#CF8164"
+  green: "#76A065"
+  yellow: "#AB924C"
+  blue: "#8296B0"
+  magenta: "#A18DAF"
+  cyan: "#659EA2"
+  white: "#B5B4C9"
+  brightBlack: "#32343E"
+  brightRed: "#FE9F7C"
+  brightGreen: "#92C47E"
+  brightYellow: "#D2B45F"
+  brightBlue: "#A0B9D8"
+  brightMagenta: "#C6AED7"
+  brightCyan: "#7DC2C7"
+  brightWhite: "#F0ECFE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 62.1
+    black: 0
+    red: 44.5
+    green: 44.3
+    yellow: 44.1
+    blue: 44
+    magenta: 44
+    cyan: 44.2
+    white: 62.1
+    brightBlack: 0
+    brightRed: 63
+    brightGreen: 62.6
+    brightYellow: 62.7
+    brightBlue: 62.5
+    brightMagenta: 62.6
+    brightCyan: 62.6
+    brightWhite: 96.2

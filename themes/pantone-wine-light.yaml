@@ -1,0 +1,53 @@
+name: "Pantone Wine (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#F7F4F5"
+  fg: "#1F0B14"
+  black: "#1F0B14"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#F7F4F5"
+  brightBlack: "#84435E"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#F5F1F2"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Wine (Dark)"
+  contrast:
+    fg: 99.1
+    black: 99.1
+    red: 72.7
+    green: 56.2
+    yellow: 40.4
+    blue: 83.7
+    magenta: 79.9
+    cyan: 73
+    white: 0
+    brightBlack: 78.3
+    brightRed: 62.4
+    brightGreen: 43.1
+    brightYellow: 24.2
+    brightBlue: 49.7
+    brightMagenta: 61.3
+    brightCyan: 42.4
+    brightWhite: 0

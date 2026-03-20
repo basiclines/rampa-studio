@@ -1,0 +1,53 @@
+name: "Grank Blackout"
+source:
+  marketplace_id: "samuraikitts.grank"
+  version: "0.0.4"
+  installs: 48
+  rating: 5
+  ratings: 2
+  author: "Emmanuel Akala"
+  repo: "https://github.com/sambabib/grank-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=samuraikitts.grank"
+  formats: null
+colors:
+  bg: "#020202"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#F44747"
+  green: "#4EC9B0"
+  yellow: "#CE9178"
+  blue: "#569CD6"
+  magenta: "#C586C0"
+  cyan: "#9CDCFE"
+  white: "#D4D4D4"
+  brightBlack: "#0A0A0A"
+  brightRed: "#FF6B6B"
+  brightGreen: "#6FCFB0"
+  brightYellow: "#DCDCAA"
+  brightBlue: "#6FB9FF"
+  brightMagenta: "#D7BAFF"
+  brightCyan: "#B5DCFE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 0
+    red: 39.5
+    green: 63
+    yellow: 50.5
+    blue: 46
+    magenta: 48.3
+    cyan: 80.2
+    white: 80.5
+    brightBlack: 0
+    brightRed: 49.1
+    brightGreen: 67.3
+    brightYellow: 83.5
+    brightBlue: 61.6
+    brightMagenta: 72.5
+    brightCyan: 82.5
+    brightWhite: 107.9

@@ -1,0 +1,53 @@
+name: "Null Theme - Muted"
+source:
+  marketplace_id: "kimberlycasamina.null-theme"
+  version: "1.0.8"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "kimberlycasamina"
+  repo: "https://github.com/kimicasamina/vscode-null-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
+  formats: null
+colors:
+  bg: "#0F0F0F"
+  fg: "#B0C4DE"
+  black: "#0F0F0F"
+  red: "#AA7F7F"
+  green: "#7FAA7F"
+  yellow: "#AAAA7F"
+  blue: "#7F7FAA"
+  magenta: "#AA7FAA"
+  cyan: "#7FAAAA"
+  white: "#CCCCCC"
+  brightBlack: "#666666"
+  brightRed: "#CC9999"
+  brightGreen: "#99CC99"
+  brightYellow: "#CCCC99"
+  brightBlue: "#9999CC"
+  brightMagenta: "#CC99CC"
+  brightCyan: "#99CCCC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 69.5
+    black: 0
+    red: 39.1
+    green: 50.2
+    yellow: 54.4
+    blue: 35.7
+    magenta: 40.8
+    cyan: 51.6
+    white: 75.3
+    brightBlack: 22.7
+    brightRed: 53.5
+    brightGreen: 67.9
+    brightYellow: 73.5
+    brightBlue: 49.2
+    brightMagenta: 55.7
+    brightCyan: 69.8
+    brightWhite: 107.5

@@ -1,0 +1,53 @@
+name: "Vitesse Green Theme"
+source:
+  marketplace_id: "namefhf.vitesse-green-theme"
+  version: "0.0.5"
+  installs: 185
+  rating: 0
+  ratings: 0
+  author: "namefhf"
+  repo: "https://github.com/namefhf/vitesse-green-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=namefhf.vitesse-green-theme"
+  formats: null
+colors:
+  bg: "#F3FAF7"
+  fg: "#393A34"
+  black: "#121212"
+  red: "#AB5959"
+  green: "#1E754F"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#1E754F"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.5
+    black: 101.3
+    red: 69.5
+    green: 73.9
+    yellow: 44.3
+    blue: 74.2
+    magenta: 77.1
+    cyan: 59.5
+    white: 17.1
+    brightBlack: 41.8
+    brightRed: 69.5
+    brightGreen: 73.9
+    brightYellow: 44.3
+    brightBlue: 74.2
+    brightMagenta: 77.1
+    brightCyan: 59.5
+    brightWhite: 13.6

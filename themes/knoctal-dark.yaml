@@ -1,0 +1,53 @@
+name: "Knoctal Dark"
+source:
+  marketplace_id: "najmiter.knoctal-theme"
+  version: "0.1.13"
+  installs: 81
+  rating: 5
+  ratings: 1
+  author: "Knoctal"
+  repo: "https://github.com/najmiter/knoctal-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=najmiter.knoctal-theme"
+  formats: null
+colors:
+  bg: "#1F2024"
+  fg: "#E0E0E0"
+  black: "#282C34"
+  red: "#D9858C"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#5C6370"
+  brightRed: "#D9858C"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#A54E02"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 47.1
+    green: 61.1
+    yellow: 69.4
+    blue: 53.5
+    magenta: 44
+    cyan: 53.4
+    white: 58.3
+    brightBlack: 19.5
+    brightRed: 47.1
+    brightGreen: 61.1
+    brightYellow: 69.4
+    brightBlue: 53.5
+    brightMagenta: 44
+    brightCyan: 21.8
+    brightWhite: 105.7

@@ -1,0 +1,54 @@
+name: "aGen Theme"
+source:
+  marketplace_id: "maxxborer.agen-theme"
+  version: "2.0.1"
+  installs: 638
+  rating: 5
+  ratings: 1
+  author: "Maxx Borer"
+  repo: "https://github.com/maxxborer/agen-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=maxxborer.agen-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/maxxborer/agen-theme/main/iterm.agen-theme/agen-theme.itermcolors"
+colors:
+  bg: "#161619"
+  fg: "#EFEEEE"
+  black: "#000000"
+  red: "#E63016"
+  green: "#12EE43"
+  yellow: "#E8E41E"
+  blue: "#0067FD"
+  magenta: "#F12C85"
+  cyan: "#3FF3FF"
+  white: "#F8EEE6"
+  brightBlack: "#565A74"
+  brightRed: "#FF4D33"
+  brightGreen: "#00FF55"
+  brightYellow: "#FFF233"
+  brightBlue: "#1854FD"
+  brightMagenta: "#FF0062"
+  brightCyan: "#33F4FF"
+  brightWhite: "#FFF8F8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 96
+    black: 0
+    red: 32.2
+    green: 76.8
+    yellow: 85.7
+    blue: 28.4
+    magenta: 36.4
+    cyan: 85.7
+    white: 96.9
+    brightBlack: 17.7
+    brightRed: 41.8
+    brightGreen: 86
+    brightYellow: 95.6
+    brightBlue: 23.8
+    brightMagenta: 37.5
+    brightCyan: 85.9
+    brightWhite: 103.3

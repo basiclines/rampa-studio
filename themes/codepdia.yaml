@@ -1,0 +1,53 @@
+name: "codepdia"
+source:
+  marketplace_id: "codepedia.codepedia"
+  version: "2.3.0"
+  installs: 89
+  rating: 0
+  ratings: 0
+  author: "codepedia"
+  repo: "https://github.com/codepediair/codepediatheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=codepedia.codepedia"
+  formats: null
+colors:
+  bg: "#141413"
+  fg: "#EAE4DA"
+  black: "#3F3E3B"
+  red: "#EAA7C7"
+  green: "#ED773C"
+  yellow: "#EAC119"
+  blue: "#808BC5"
+  magenta: "#245E55"
+  cyan: "#9ED6DF"
+  white: "#EAE4DA"
+  brightBlack: "#A6A29A"
+  brightRed: "#EAA7C7"
+  brightGreen: "#ED773C"
+  brightYellow: "#EAC119"
+  brightBlue: "#808BC5"
+  brightMagenta: "#245E55"
+  brightCyan: "#9ED6DF"
+  brightWhite: "#EAE4DA"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90
+    black: 0
+    red: 64.7
+    green: 46.7
+    yellow: 70.9
+    blue: 41
+    magenta: 15.5
+    cyan: 75.3
+    white: 90
+    brightBlack: 51.4
+    brightRed: 64.7
+    brightGreen: 46.7
+    brightYellow: 70.9
+    brightBlue: 41
+    brightMagenta: 15.5
+    brightCyan: 75.3
+    brightWhite: 90

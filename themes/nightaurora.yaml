@@ -1,0 +1,53 @@
+name: "NightAurora"
+source:
+  marketplace_id: "NightAurora.nightaurora"
+  version: "0.1.9"
+  installs: 56
+  rating: 0
+  ratings: 0
+  author: "NightAurora"
+  repo: "https://github.com/justizha/NIghtAurora"
+  url: "https://marketplace.visualstudio.com/items?itemName=NightAurora.nightaurora"
+  formats: null
+colors:
+  bg: "#22213A"
+  fg: "#9C97BD"
+  black: "#22213A"
+  red: "#CA7658"
+  green: "#57BE69"
+  yellow: "#C6B766"
+  blue: "#1F5596"
+  magenta: "#5F2050"
+  cyan: "#75D7C4"
+  white: "#A8A2CA"
+  brightBlack: "#6E75A8"
+  brightRed: "#BA1F81"
+  brightGreen: "#2AE66C"
+  brightYellow: "#EFF21A"
+  brightBlue: "#0E4BF2"
+  brightMagenta: "#8D0462"
+  brightCyan: "#1BE6BD"
+  brightWhite: "#A8A2CA"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 45.6
+    black: 0
+    red: 38.2
+    green: 53.5
+    yellow: 60.3
+    blue: 13.6
+    magenta: 0
+    cyan: 69.5
+    white: 51.7
+    brightBlack: 28.5
+    brightRed: 21.5
+    brightGreen: 71.6
+    brightYellow: 91.4
+    brightBlue: 18.8
+    brightMagenta: 10.8
+    brightCyan: 73.7
+    brightWhite: 51.7

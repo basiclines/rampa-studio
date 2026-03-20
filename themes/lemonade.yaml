@@ -1,0 +1,53 @@
+name: "Lemonade"
+source:
+  marketplace_id: "Denner.lemonade-theme"
+  version: "0.0.1"
+  installs: 64
+  rating: 5
+  ratings: 1
+  author: "dennerrondinely"
+  repo: "https://github.com/dennerrondinely/lemonade"
+  url: "https://marketplace.visualstudio.com/items?itemName=Denner.lemonade-theme"
+  formats: null
+colors:
+  bg: "#2A2D34"
+  fg: "#E8E8E8"
+  black: "#1E2024"
+  red: "#FF6B6B"
+  green: "#95E1D3"
+  yellow: "#FFD93D"
+  blue: "#4ECDC4"
+  magenta: "#FF6B6B"
+  cyan: "#4ECDC4"
+  white: "#E8E8E8"
+  brightBlack: "#3A3D44"
+  brightRed: "#FF6B6B"
+  brightGreen: "#95E1D3"
+  brightYellow: "#FFD93D"
+  brightBlue: "#4ECDC4"
+  brightMagenta: "#FF6B6B"
+  brightCyan: "#4ECDC4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 88.5
+    black: 0
+    red: 44.7
+    green: 75.4
+    yellow: 80.9
+    blue: 61.2
+    magenta: 44.7
+    cyan: 61.2
+    white: 88.5
+    brightBlack: 0
+    brightRed: 44.7
+    brightGreen: 75.4
+    brightYellow: 80.9
+    brightBlue: 61.2
+    brightMagenta: 44.7
+    brightCyan: 61.2
+    brightWhite: 103.4

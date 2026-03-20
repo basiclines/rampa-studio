@@ -1,0 +1,53 @@
+name: "Aya Dark"
+source:
+  marketplace_id: "vincent-the-gamer.aya"
+  version: "0.1.5"
+  installs: 485
+  rating: 0
+  ratings: 0
+  author: "vincent-the-gamer"
+  repo: "https://github.com/Vincent-the-gamer/vscode-theme-aya"
+  url: "https://marketplace.visualstudio.com/items?itemName=vincent-the-gamer.aya"
+  formats: null
+colors:
+  bg: "#E7F5D1"
+  fg: "#393A34"
+  black: "#121212"
+  red: "#AB5959"
+  green: "#1E754F"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#1E754F"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.4
+    black: 96.2
+    red: 64.4
+    green: 68.9
+    yellow: 39.2
+    blue: 69.1
+    magenta: 72
+    cyan: 54.4
+    white: 12
+    brightBlack: 36.8
+    brightRed: 64.4
+    brightGreen: 68.9
+    brightYellow: 39.2
+    brightBlue: 69.1
+    brightMagenta: 72
+    brightCyan: 54.4
+    brightWhite: 8.5

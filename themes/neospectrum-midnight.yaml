@@ -1,0 +1,53 @@
+name: "Neospectrum Midnight"
+source:
+  marketplace_id: "RifkiJayaAfandi.neospectrum"
+  version: "1.0.0"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "Rifki Jaya Afandi"
+  repo: "https://github.com/ikyyydev/neospectrum-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RifkiJayaAfandi.neospectrum"
+  formats: null
+colors:
+  bg: "#0E141B"
+  fg: "#F8F8F2"
+  black: "#0E141B"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#6272A4"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#44475A"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#B4B4F3"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 253
+  pair: null
+  contrast:
+    fg: 102.3
+    black: 0
+    red: 43.7
+    green: 85.2
+    yellow: 98.8
+    blue: 28.3
+    magenta: 54.9
+    cyan: 84.3
+    white: 102.3
+    brightBlack: 10.5
+    brightRed: 49.1
+    brightGreen: 89.3
+    brightYellow: 103.8
+    brightBlue: 64.2
+    brightMagenta: 62.9
+    brightCyan: 97.1
+    brightWhite: 107.2

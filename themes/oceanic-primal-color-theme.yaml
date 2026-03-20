@@ -1,0 +1,53 @@
+name: "Oceanic Primal Color Theme"
+source:
+  marketplace_id: "barlog-m.oceanic-primal-color-theme"
+  version: "0.0.4"
+  installs: 297
+  rating: 0
+  ratings: 0
+  author: "Barlog M."
+  repo: "https://github.com/barlog-m/oceanic-primal-visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=barlog-m.oceanic-primal-color-theme"
+  formats: null
+colors:
+  bg: "#1B2B34"
+  fg: "#CDD3DE"
+  black: "#000000"
+  red: "#EC5F67"
+  green: "#99C794"
+  yellow: "#FAC863"
+  blue: "#6699CC"
+  magenta: "#C594C5"
+  cyan: "#5FB3B3"
+  white: "#C0C5CE"
+  brightBlack: "#666666"
+  brightRed: "#EC5F67"
+  brightGreen: "#99C794"
+  brightYellow: "#FAC863"
+  brightBlue: "#6699CC"
+  brightMagenta: "#C594C5"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#C0C5CE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 234
+  pair: null
+  contrast:
+    fg: 76
+    black: 0
+    red: 38.7
+    green: 62.2
+    yellow: 74.1
+    blue: 41.5
+    magenta: 49.4
+    cyan: 50.4
+    white: 67.6
+    brightBlack: 19.4
+    brightRed: 38.7
+    brightGreen: 62.2
+    brightYellow: 74.1
+    brightBlue: 41.5
+    brightMagenta: 49.4
+    brightCyan: 50.4
+    brightWhite: 67.6

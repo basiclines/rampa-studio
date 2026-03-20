@@ -1,0 +1,53 @@
+name: "darkvoid"
+source:
+  marketplace_id: "Aliqyan-21.darkvoid"
+  version: "2.1.1"
+  installs: 517
+  rating: 5
+  ratings: 1
+  author: "darkvoid"
+  repo: "https://github.com/darkvoid-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Aliqyan-21.darkvoid"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#C0C0C0"
+  black: "#141414"
+  red: "#FF3131"
+  green: "#B2D8D8"
+  yellow: "#D1D1D1"
+  blue: "#66B2B2"
+  magenta: "#B16286"
+  cyan: "#1BFD9C"
+  white: "#F1F1F1"
+  brightBlack: "#404040"
+  brightRed: "#FFB3BA"
+  brightGreen: "#BDFE58"
+  brightYellow: "#FFFFBA"
+  brightBlue: "#B2D8D8"
+  brightMagenta: "#D3869B"
+  brightCyan: "#1BFD9C"
+  brightWhite: "#F1F1F1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.9
+    black: 0
+    red: 38.7
+    green: 77.8
+    yellow: 77.9
+    blue: 53.2
+    magenta: 32
+    cyan: 86.5
+    white: 98
+    brightBlack: 7.7
+    brightRed: 72.1
+    brightGreen: 93.8
+    brightYellow: 104.4
+    brightBlue: 77.8
+    brightMagenta: 48.2
+    brightCyan: 86.5
+    brightWhite: 98

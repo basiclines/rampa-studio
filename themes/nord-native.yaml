@@ -1,0 +1,53 @@
+name: "Nord Native"
+source:
+  marketplace_id: "divanvisagie.nord-native-theme"
+  version: "0.0.7"
+  installs: 9785
+  rating: 5
+  ratings: 2
+  author: "Divan Visagie"
+  repo: "git+https://github.com/divanvisagie/nord-native"
+  url: "https://marketplace.visualstudio.com/items?itemName=divanvisagie.nord-native-theme"
+  formats: null
+colors:
+  bg: "#1B1B1B"
+  fg: "#D8D8D8"
+  black: "#2B2B2B"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#555555"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECECEC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.5
+    black: 0
+    red: 32.5
+    green: 61.2
+    yellow: 75.9
+    blue: 48.2
+    magenta: 46
+    cyan: 62.2
+    white: 91.9
+    brightBlack: 14.7
+    brightRed: 32.5
+    brightGreen: 61.2
+    brightYellow: 75.9
+    brightBlue: 48.2
+    brightMagenta: 46
+    brightCyan: 60.1
+    brightWhite: 94

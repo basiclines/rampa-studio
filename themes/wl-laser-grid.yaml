@@ -1,0 +1,53 @@
+name: "WL-Laser Grid"
+source:
+  marketplace_id: "WatkinsLabs.laser-grid"
+  version: "1.0.1"
+  installs: 70
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.laser-grid"
+  formats: null
+colors:
+  bg: "#0D0C1D"
+  fg: "#FFC0CB"
+  black: "#000000"
+  red: "#DC143C"
+  green: "#00FF00"
+  yellow: "#FFA500"
+  blue: "#FF007F"
+  magenta: "#FF4500"
+  cyan: "#FF007F"
+  white: "#FFC0CB"
+  brightBlack: "#666666"
+  brightRed: "#DC143C"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFA500"
+  brightBlue: "#FF007F"
+  brightMagenta: "#FF4500"
+  brightCyan: "#FF007F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 78
+    black: 0
+    red: 29.1
+    green: 86.1
+    yellow: 64.4
+    blue: 38.9
+    magenta: 41
+    cyan: 38.9
+    white: 78
+    brightBlack: 22.7
+    brightRed: 29.1
+    brightGreen: 86.1
+    brightYellow: 64.4
+    brightBlue: 38.9
+    brightMagenta: 41
+    brightCyan: 38.9
+    brightWhite: 107.5

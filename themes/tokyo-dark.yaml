@@ -1,0 +1,53 @@
+name: "Tokyo Dark"
+source:
+  marketplace_id: "smnatale.tokyodark"
+  version: "1.0.4"
+  installs: 1954
+  rating: 5
+  ratings: 1
+  author: "smnatale"
+  repo: "https://github.com/smnatale/tokyodark-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=smnatale.tokyodark"
+  formats: null
+colors:
+  bg: "#090B10"
+  fg: "#A9B1D6"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 60.7
+    black: 0
+    red: 50.7
+    green: 73.6
+    yellow: 63.6
+    blue: 52.5
+    magenta: 56.4
+    cyan: 71.9
+    white: 33.4
+    brightBlack: 0
+    brightRed: 50.7
+    brightGreen: 73.6
+    brightYellow: 63.6
+    brightBlue: 52.5
+    brightMagenta: 56.4
+    brightCyan: 71.9
+    brightWhite: 60.3

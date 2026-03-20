@@ -1,0 +1,53 @@
+name: "Purpler"
+source:
+  marketplace_id: "jeffwdiaz.purpler"
+  version: "0.0.2"
+  installs: 12
+  rating: 0
+  ratings: 0
+  author: "jeffwdiaz"
+  repo: "https://github.com/jeffwdiaz/purpler"
+  url: "https://marketplace.visualstudio.com/items?itemName=jeffwdiaz.purpler"
+  formats: null
+colors:
+  bg: "#1D1824"
+  fg: "#848CFF"
+  black: "#646464"
+  red: "#CD3131"
+  green: "#31C089"
+  yellow: "#E5E510"
+  blue: "#277AD5"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#A1A1A1"
+  brightBlack: "#777777"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3D8EE8"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 304
+  pair: null
+  contrast:
+    fg: 44.9
+    black: 20.8
+    red: 26.4
+    green: 55.3
+    yellow: 85.3
+    blue: 30.7
+    magenta: 29.4
+    cyan: 47.2
+    white: 50
+    brightBlack: 29.2
+    brightRed: 38.2
+    brightGreen: 63.2
+    brightYellow: 95.3
+    brightBlue: 39.6
+    brightMagenta: 45
+    brightCyan: 55
+    brightWhite: 89.7

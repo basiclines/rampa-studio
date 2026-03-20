@@ -1,0 +1,53 @@
+name: "dork"
+source:
+  marketplace_id: "goldyflakes.dork"
+  version: "0.0.1"
+  installs: 117
+  rating: 0
+  ratings: 0
+  author: "goldyflakes"
+  repo: "https://github.com/goldyflakes/dork-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=goldyflakes.dork"
+  formats: null
+colors:
+  bg: "#242229"
+  fg: "#E7DEFC"
+  black: "#4B4956"
+  red: "#FC6399"
+  green: "#A0DAA0"
+  yellow: "#FCCD9B"
+  blue: "#9FA7EA"
+  magenta: "#FDB1DF"
+  cyan: "#ADFFFF"
+  white: "#E7DEFC"
+  brightBlack: "#4C5056"
+  brightRed: "#F587A6"
+  brightGreen: "#97EED8"
+  brightYellow: "#F8D6BF"
+  brightBlue: "#B4BEFE"
+  brightMagenta: "#D49AF7"
+  brightCyan: "#94EAEA"
+  brightWhite: "#BAB3C5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 299
+  pair: null
+  contrast:
+    fg: 86.7
+    black: 9.6
+    red: 45.5
+    green: 73
+    yellow: 78.8
+    blue: 54.5
+    magenta: 70.8
+    cyan: 96
+    white: 86.7
+    brightBlack: 11.5
+    brightRed: 53.3
+    brightGreen: 83.9
+    brightYellow: 83.1
+    brightBlue: 67
+    brightMagenta: 57.5
+    brightCyan: 82.5
+    brightWhite: 60.3

@@ -1,0 +1,53 @@
+name: "pg-ruby-clay"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+  formats: null
+colors:
+  bg: "#322D2C"
+  fg: "#C7BEB9"
+  black: "#000000"
+  red: "#C02222"
+  green: "#17995F"
+  yellow: "#ABA900"
+  blue: "#375CCB"
+  magenta: "#A336CB"
+  cyan: "#219D9D"
+  white: "#E0E0E0"
+  brightBlack: "#4B4B4B"
+  brightRed: "#FF1F1F"
+  brightGreen: "#31E494"
+  brightYellow: "#ECEA21"
+  brightBlue: "#428CFF"
+  brightMagenta: "#D04DFF"
+  brightCyan: "#3BE0E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 63.7
+    black: 0
+    red: 18.8
+    green: 33.4
+    yellow: 48.4
+    blue: 18.1
+    magenta: 21.6
+    cyan: 37.2
+    white: 83.2
+    brightBlack: 7.7
+    brightRed: 33.5
+    brightGreen: 69.7
+    brightYellow: 85.3
+    brightBlue: 37.5
+    brightMagenta: 36.6
+    brightCyan: 70.8
+    brightWhite: 103.2

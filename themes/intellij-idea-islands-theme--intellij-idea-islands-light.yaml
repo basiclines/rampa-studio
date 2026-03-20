@@ -1,0 +1,53 @@
+name: "IntelliJ IDEA Islands Theme (intellij-idea-islands-light)"
+source:
+  marketplace_id: "OleksandrHavrysh.vscode-intellij-theme"
+  version: "1.1.1"
+  installs: 2891
+  rating: 5
+  ratings: 2
+  author: "Oleksandr Havrysh"
+  repo: "https://github.com/a-havrysh/vscode-intellij-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OleksandrHavrysh.vscode-intellij-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#080808"
+  black: "#080808"
+  red: "#DE1B2E"
+  green: "#067D17"
+  yellow: "#9E880D"
+  blue: "#0033B3"
+  magenta: "#871094"
+  cyan: "#007E8A"
+  white: "#FFFFFF"
+  brightBlack: "#6C707E"
+  brightRed: "#F05661"
+  brightGreen: "#7FC784"
+  brightYellow: "#F2BF57"
+  brightBlue: "#88ADF7"
+  brightMagenta: "#A678F2"
+  brightCyan: "#00B5BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "IntelliJ IDEA Islands Theme (intellij-idea-islands-dark)"
+  contrast:
+    fg: 105.9
+    black: 105.9
+    red: 71.6
+    green: 75.8
+    yellow: 62.5
+    blue: 91.6
+    magenta: 86.9
+    cyan: 72.9
+    white: 0
+    brightBlack: 74.2
+    brightRed: 60.3
+    brightGreen: 39.1
+    brightYellow: 30.2
+    brightBlue: 44.1
+    brightMagenta: 58.8
+    brightCyan: 48.8
+    brightWhite: 0

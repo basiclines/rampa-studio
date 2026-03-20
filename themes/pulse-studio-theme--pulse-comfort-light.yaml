@@ -1,0 +1,53 @@
+name: "Pulse Studio Theme (Pulse Comfort Light)"
+source:
+  marketplace_id: "IrvinBenitez.Pulse-theme-vscode"
+  version: "1.0.2"
+  installs: 106
+  rating: 5
+  ratings: 1
+  author: "Irvin Benitez"
+  repo: "https://github.com/PulseStudio07/VScode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=IrvinBenitez.Pulse-theme-vscode"
+  formats: null
+colors:
+  bg: "#F5F2F8"
+  fg: "#2E2838"
+  black: "#3E3848"
+  red: "#B8576D"
+  green: "#5D9857"
+  yellow: "#C89F4D"
+  blue: "#5D6DBB"
+  magenta: "#9D57B8"
+  cyan: "#4D9D9D"
+  white: "#E5E0ED"
+  brightBlack: "#6A5E7E"
+  brightRed: "#C8677D"
+  brightGreen: "#6DA867"
+  brightYellow: "#D8AF5D"
+  brightBlue: "#6D7DCB"
+  brightMagenta: "#AD67C8"
+  brightCyan: "#5DADAD"
+  brightWhite: "#F5F0FD"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Pulse Studio Theme (Pulse Soft Purple)"
+  contrast:
+    fg: 93.8
+    black: 88.9
+    red: 64
+    green: 54.8
+    yellow: 41.2
+    blue: 66.1
+    magenta: 65
+    cyan: 51.6
+    white: 7.5
+    brightBlack: 72.8
+    brightRed: 57
+    brightGreen: 47
+    brightYellow: 32.9
+    brightBlue: 58.8
+    brightMagenta: 58
+    brightCyan: 43.7
+    brightWhite: 0

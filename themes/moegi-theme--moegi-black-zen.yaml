@@ -1,0 +1,53 @@
+name: "Moegi Theme (Moegi Black Zen)"
+source:
+  marketplace_id: "ddiu8081.moegi-theme"
+  version: "0.7.1"
+  installs: 36965
+  rating: 5
+  ratings: 22
+  author: "Diu"
+  repo: "https://github.com/moegi-design/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ddiu8081.moegi-theme"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#DDDDDD"
+  black: "#292929"
+  red: "#AD8686"
+  green: "#859891"
+  yellow: "#B3AA8F"
+  blue: "#7789A3"
+  magenta: "#8E7A93"
+  cyan: "#698A8E"
+  white: "#ADADAD"
+  brightBlack: "#393939"
+  brightRed: "#BD9696"
+  brightGreen: "#95A8A1"
+  brightYellow: "#C3BA9F"
+  brightBlue: "#8799B3"
+  brightMagenta: "#9E8AA3"
+  brightCyan: "#799A9E"
+  brightWhite: "#BDBDBD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Moegi Theme (Moegi Iris)"
+  contrast:
+    fg: 85.8
+    black: 0
+    red: 42.1
+    green: 44.2
+    yellow: 56.1
+    blue: 38.2
+    magenta: 34.8
+    cyan: 36.5
+    white: 57.6
+    brightBlack: 0
+    brightRed: 50.3
+    brightGreen: 52.6
+    brightYellow: 65
+    brightBlue: 46.2
+    brightMagenta: 42.6
+    brightCyan: 44.4
+    brightWhite: 66.6

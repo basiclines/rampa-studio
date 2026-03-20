@@ -1,0 +1,53 @@
+name: "VXcode Theme (vxcode OLED)"
+source:
+  marketplace_id: "evertjunior.vxcode-theme"
+  version: "0.0.15"
+  installs: 3242
+  rating: 5
+  ratings: 3
+  author: "Evert Junior"
+  repo: "https://github.com/evertjr/vxcode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=evertjunior.vxcode-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E3E3E3"
+  black: "#333333"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B290BA"
+  cyan: "#6AB8C0"
+  white: "#E3E3E3"
+  brightBlack: "#666666"
+  brightRed: "#F48484"
+  brightGreen: "#76C3A5"
+  brightYellow: "#F2D98E"
+  brightBlue: "#80A8E4"
+  brightMagenta: "#C2A0CA"
+  brightCyan: "#7AC8D0"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "VXcode Theme (vxcode lavender)"
+  contrast:
+    fg: 89.8
+    black: 0
+    red: 45.8
+    green: 53.3
+    yellow: 74.9
+    blue: 45.9
+    magenta: 48.5
+    cyan: 57.4
+    white: 89.8
+    brightBlack: 23
+    brightRed: 53.7
+    brightGreen: 61.9
+    brightYellow: 84.5
+    brightBlue: 54.2
+    brightMagenta: 57
+    brightCyan: 66.2
+    brightWhite: 101.9

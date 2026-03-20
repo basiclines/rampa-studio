@@ -1,0 +1,53 @@
+name: "Monokai Supersaturated"
+source:
+  marketplace_id: "Limespy.monokai-supersat"
+  version: "1.0.5"
+  installs: 669
+  rating: 0
+  ratings: 0
+  author: "Limespy"
+  repo: "https://github.com/Limespy/monokai-supersat"
+  url: "https://marketplace.visualstudio.com/items?itemName=Limespy.monokai-supersat"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#CCCCCC"
+  black: "#555555"
+  red: "#CC0000"
+  green: "#00CC00"
+  yellow: "#CCCC00"
+  blue: "#0000CC"
+  magenta: "#CC00CC"
+  cyan: "#00CCCC"
+  white: "#CCCCCC"
+  brightBlack: "#000000"
+  brightRed: "#FF2222"
+  brightGreen: "#22FF22"
+  brightYellow: "#FFFF22"
+  brightBlue: "#2222FF"
+  brightMagenta: "#FF22FF"
+  brightCyan: "#22FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.7
+    black: 16.1
+    red: 25.2
+    green: 60.3
+    yellow: 72
+    blue: 9.9
+    magenta: 31.4
+    cyan: 64.4
+    white: 75.7
+    brightBlack: 0
+    brightRed: 38.3
+    brightGreen: 86.7
+    brightYellow: 102.8
+    brightBlue: 17.6
+    brightMagenta: 46.9
+    brightCyan: 92.3
+    brightWhite: 107.9

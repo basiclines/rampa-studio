@@ -1,0 +1,53 @@
+name: "Josi"
+source:
+  marketplace_id: "fabioruicci.josi"
+  version: "0.3.1"
+  installs: 255
+  rating: 0
+  ratings: 0
+  author: "Fabio Ruicci"
+  repo: "git://github.com/fabioruicci/josi-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=fabioruicci.josi"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#C1D0D2"
+  black: "#676E95"
+  red: "#F5625C"
+  green: "#45B746"
+  yellow: "#FF9070"
+  blue: "#56B7C3"
+  magenta: "#CF68E1"
+  cyan: "#6494ED"
+  white: "#676E95"
+  brightBlack: "#676E95"
+  brightRed: "#F5625C"
+  brightGreen: "#45B746"
+  brightYellow: "#FF9070"
+  brightBlue: "#56B7C3"
+  brightMagenta: "#CF68E1"
+  brightCyan: "#6494ED"
+  brightWhite: "#676E95"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 72.1
+    black: 23.2
+    red: 40.5
+    green: 47.5
+    yellow: 54.7
+    blue: 51.8
+    magenta: 39.8
+    cyan: 41.1
+    white: 23.2
+    brightBlack: 23.2
+    brightRed: 40.5
+    brightGreen: 47.5
+    brightYellow: 54.7
+    brightBlue: 51.8
+    brightMagenta: 39.8
+    brightCyan: 41.1
+    brightWhite: 23.2

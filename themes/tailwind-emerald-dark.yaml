@@ -1,0 +1,53 @@
+name: "Tailwind Emerald Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#064E3B"
+  fg: "#D1FAE5"
+  black: "#065F46"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#A7F3D0"
+  brightBlack: "#065F46"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#A7F3D0"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 169
+  pair: "Tailwind Emerald Light"
+  contrast:
+    fg: 86.9
+    black: 0
+    red: 37.6
+    green: 59.9
+    yellow: 67.3
+    blue: 40.9
+    magenta: 39.2
+    cyan: 58.1
+    white: 78.4
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 59.9
+    brightYellow: 67.3
+    brightBlue: 40.9
+    brightMagenta: 39.2
+    brightCyan: 58.1
+    brightWhite: 78.4

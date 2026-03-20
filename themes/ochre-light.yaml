@@ -1,0 +1,53 @@
+name: "Ochre Light"
+source:
+  marketplace_id: "ochre-crafts.ochre"
+  version: "0.2.0"
+  installs: 22
+  rating: 0
+  ratings: 0
+  author: "ochre-crafts"
+  repo: "https://github.com/ochre-crafts/ochre-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ochre-crafts.ochre"
+  formats: null
+colors:
+  bg: "#F5EDE0"
+  fg: "#2C1F10"
+  black: "#F5EDE0"
+  red: "#5C3E1E"
+  green: "#6B4D2E"
+  yellow: "#7C5C35"
+  blue: "#9A8A72"
+  magenta: "#A0907A"
+  cyan: "#6B5E52"
+  white: "#2C1F10"
+  brightBlack: "#E0D4BC"
+  brightRed: "#5C3E1E"
+  brightGreen: "#6B4D2E"
+  brightYellow: "#7C5C35"
+  brightBlue: "#9A8A72"
+  brightMagenta: "#A0907A"
+  brightCyan: "#6B5E52"
+  brightWhite: "#2C1F10"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: 80
+  pair: "Ochre Dark"
+  contrast:
+    fg: 92.7
+    black: 0
+    red: 82.2
+    green: 76.5
+    yellow: 70.2
+    blue: 50.8
+    magenta: 47.8
+    cyan: 71.1
+    white: 92.7
+    brightBlack: 12
+    brightRed: 82.2
+    brightGreen: 76.5
+    brightYellow: 70.2
+    brightBlue: 50.8
+    brightMagenta: 47.8
+    brightCyan: 71.1
+    brightWhite: 92.7

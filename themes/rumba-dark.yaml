@@ -1,0 +1,53 @@
+name: "Rumba Dark"
+source:
+  marketplace_id: "Xoifail.rumba-lang"
+  version: "0.1.0"
+  installs: 10
+  rating: 0
+  ratings: 0
+  author: "Xoifail"
+  repo: "https://github.com/XoifaiI/rumba"
+  url: "https://marketplace.visualstudio.com/items?itemName=Xoifail.rumba-lang"
+  formats: null
+colors:
+  bg: "#202227"
+  fg: "#BCBEC8"
+  black: "#191A1F"
+  red: "#DF4031"
+  green: "#8EE9B6"
+  yellow: "#F2BA2A"
+  blue: "#528BFF"
+  magenta: "#EB7973"
+  cyan: "#70C0E8"
+  white: "#BCBEC8"
+  brightBlack: "#6A6F81"
+  brightRed: "#EB7973"
+  brightGreen: "#8EE9B6"
+  brightYellow: "#F2BA2A"
+  brightBlue: "#70A0FF"
+  brightMagenta: "#F09090"
+  brightCyan: "#90D0F0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.2
+    black: 0
+    red: 31
+    green: 79.6
+    yellow: 67.8
+    blue: 40.1
+    magenta: 46.1
+    cyan: 60.8
+    white: 65.2
+    brightBlack: 24.7
+    brightRed: 46.1
+    brightGreen: 79.6
+    brightYellow: 67.8
+    brightBlue: 49.4
+    brightMagenta: 54.4
+    brightCyan: 70.6
+    brightWhite: 105.5

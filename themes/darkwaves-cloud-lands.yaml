@@ -1,0 +1,53 @@
+name: "Darkwaves Cloud Lands"
+source:
+  marketplace_id: "spacelaxy.spacelaxy-darkwaves"
+  version: "0.0.8"
+  installs: 678
+  rating: 5
+  ratings: 3
+  author: "Spacelaxy LLC"
+  repo: "https://github.com/spacelaxy/darkwaves"
+  url: "https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves"
+  formats: null
+colors:
+  bg: "#15171C"
+  fg: "#D8DEE9"
+  black: "#1B1D23"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#8FBCBB"
+  white: "#D8DEE9"
+  brightBlack: "#15171C"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 85.4
+    black: 0
+    red: 33
+    green: 61.7
+    yellow: 76.4
+    blue: 48.6
+    magenta: 46.5
+    cyan: 60.6
+    white: 85.4
+    brightBlack: 0
+    brightRed: 33
+    brightGreen: 61.7
+    brightYellow: 76.4
+    brightBlue: 48.6
+    brightMagenta: 46.5
+    brightCyan: 60.6
+    brightWhite: 106.9

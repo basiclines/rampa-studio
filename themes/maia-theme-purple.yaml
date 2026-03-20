@@ -1,0 +1,53 @@
+name: "Maia-Theme-Purple"
+source:
+  marketplace_id: "YagoMaia.maia-theme-purple"
+  version: "1.1.0"
+  installs: 1950
+  rating: 5
+  ratings: 1
+  author: "YagoMaia"
+  repo: "https://github.com/YagoMaia/Maia-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YagoMaia.maia-theme-purple"
+  formats: null
+colors:
+  bg: "#020A17"
+  fg: "#F8F8F2"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#A179FB"
+  brightGreen: "#66FFB4"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 253
+  pair: null
+  contrast:
+    fg: 102.8
+    black: 0
+    red: 25.4
+    green: 53.8
+    yellow: 58.5
+    blue: 35.5
+    magenta: 33
+    cyan: 51.3
+    white: 89.3
+    brightBlack: 22.9
+    brightRed: 43.1
+    brightGreen: 90.7
+    brightYellow: 84.7
+    brightBlue: 50.7
+    brightMagenta: 47.4
+    brightCyan: 74.2
+    brightWhite: 102.8

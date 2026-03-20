@@ -1,0 +1,53 @@
+name: "A24 (Minimal)"
+source:
+  marketplace_id: "YesCode.24"
+  version: "0.0.12"
+  installs: 79
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://github.com/y3mm/24"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.24"
+  formats: null
+colors:
+  bg: "#313A42"
+  fg: "#EEFFFF"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#C8EDFF"
+  brightYellow: "#E7F0FF"
+  brightBlue: "#9CFCF4"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 245
+  pair: null
+  contrast:
+    fg: 98
+    black: 0
+    red: 35.4
+    green: 54.4
+    yellow: 66.5
+    blue: 41
+    magenta: 13
+    cyan: 42.9
+    white: 40.7
+    brightBlack: 12
+    brightRed: 35.4
+    brightGreen: 84.9
+    brightYellow: 90
+    brightBlue: 87.5
+    brightMagenta: 13
+    brightCyan: 42.9
+    brightWhite: 92.3

@@ -1,0 +1,53 @@
+name: "Proper Pure"
+source:
+  marketplace_id: "properup.proper-theme"
+  version: "2.0.1"
+  installs: 299
+  rating: 5
+  ratings: 1
+  author: "properup"
+  repo: "https://github.com/sirpeebs/proper-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=properup.proper-theme"
+  formats: null
+colors:
+  bg: "#1F2846"
+  fg: "#866DFF"
+  black: "#7D7D7D"
+  red: "#A0B0FF"
+  green: "#27E49B"
+  yellow: "#E5E510"
+  blue: "#5798E0"
+  magenta: "#E055E0"
+  cyan: "#17D6E0"
+  white: "#FDFDFD"
+  brightBlack: "#A7A7A7"
+  brightRed: "#A3B3FF"
+  brightGreen: "#44FFB7"
+  brightYellow: "#F5F543"
+  brightBlue: "#5FABFF"
+  brightMagenta: "#FF7BFF"
+  brightCyan: "#2EEFF9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 270
+  pair: null
+  contrast:
+    fg: 33.5
+    black: 29.6
+    red: 58.2
+    green: 70.6
+    yellow: 82.8
+    blue: 41.4
+    magenta: 39.5
+    cyan: 66.4
+    white: 102.8
+    brightBlack: 50.8
+    brightRed: 59.7
+    brightGreen: 86
+    brightYellow: 92.9
+    brightBlue: 51.2
+    brightMagenta: 55.6
+    brightCyan: 80.2
+    brightWhite: 104.1

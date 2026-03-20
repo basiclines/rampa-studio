@@ -1,0 +1,53 @@
+name: "Green-Geek"
+source:
+  marketplace_id: "blackfur.green-geeko"
+  version: "0.0.1"
+  installs: 548
+  rating: 0
+  ratings: 0
+  author: "Blackfur"
+  repo: "https://github.com/DasBlackfur/green-geeko"
+  url: "https://marketplace.visualstudio.com/items?itemName=blackfur.green-geeko"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#0FFFFF"
+  white: "#E5E5E5"
+  brightBlack: "#000000"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 0
+    red: 35.7
+    green: 84.6
+    yellow: 100.9
+    blue: 14.4
+    magenta: 44.4
+    cyan: 90.4
+    white: 89.2
+    brightBlack: 0
+    brightRed: 35.7
+    brightGreen: 84.6
+    brightYellow: 100.9
+    brightBlue: 14.4
+    brightMagenta: 44.4
+    brightCyan: 90.3
+    brightWhite: 89.2

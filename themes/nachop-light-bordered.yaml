@@ -1,0 +1,53 @@
+name: "Nachop Light Bordered"
+source:
+  marketplace_id: "nachop51.nachop-theme"
+  version: "2.0.0"
+  installs: 303
+  rating: 5
+  ratings: 1
+  author: "Nachop Peralta"
+  repo: "https://github.com/nachop51/nachop-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nachop51.nachop-theme"
+  formats: null
+colors:
+  bg: "#F8F4FA"
+  fg: "#5C6166"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#F0C758"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#FFEC80"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.4
+    black: 86.8
+    red: 58.2
+    green: 35.1
+    yellow: 21.6
+    blue: 45.4
+    magenta: 55.8
+    cyan: 42.7
+    white: 13.6
+    brightBlack: 79.8
+    brightRed: 48.9
+    brightGreen: 19.5
+    brightYellow: 0
+    brightBlue: 31.9
+    brightMagenta: 44.9
+    brightCyan: 28
+    brightWhite: 0

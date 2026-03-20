@@ -1,0 +1,54 @@
+name: "Solarized Neue & Yuki (Solarized Yuki)"
+source:
+  marketplace_id: "diamondmind.solarized-neue"
+  version: "0.26.0"
+  installs: 4084
+  rating: 5
+  ratings: 1
+  author: "Phillip Sauerbeck"
+  repo: "https://github.com/pmsaue0/solarized-neue"
+  url: "https://marketplace.visualstudio.com/items?itemName=diamondmind.solarized-neue"
+  formats:
+    zed: "https://raw.githubusercontent.com/pmsaue0/solarized-neue/master/themes/Solarized-Lilac-color-theme.json"
+colors:
+  bg: "#FEFEFE"
+  fg: "#403F53"
+  black: "#403F53"
+  red: "#DE3D3B"
+  green: "#08916A"
+  yellow: "#E0AF02"
+  blue: "#288ED7"
+  magenta: "#D6438A"
+  cyan: "#2AA298"
+  white: "#F0F0F0"
+  brightBlack: "#403F53"
+  brightRed: "#DE3D3B"
+  brightGreen: "#08916A"
+  brightYellow: "#DAAA01"
+  brightBlue: "#288ED7"
+  brightMagenta: "#D6438A"
+  brightCyan: "#2AA298"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Solarized Neue & Yuki (Solarized Neue)"
+  contrast:
+    fg: 93.1
+    black: 93.1
+    red: 68.1
+    green: 66
+    yellow: 38.8
+    blue: 61.9
+    magenta: 67.1
+    cyan: 57.3
+    white: 0
+    brightBlack: 93.1
+    brightRed: 68.1
+    brightGreen: 66
+    brightYellow: 41.5
+    brightBlue: 61.9
+    brightMagenta: 67.1
+    brightCyan: 57.3
+    brightWhite: 0

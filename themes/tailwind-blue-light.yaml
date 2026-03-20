@@ -1,0 +1,53 @@
+name: "Tailwind Blue Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#EFF6FF"
+  fg: "#1E40AF"
+  black: "#1E3A8A"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#DBEAFE"
+  brightBlack: "#1E3A8A"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#DBEAFE"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Tailwind Blue Dark"
+  contrast:
+    fg: 83.3
+    black: 87.7
+    red: 58
+    green: 38.5
+    yellow: 30.5
+    blue: 58
+    magenta: 60.4
+    cyan: 41.3
+    white: 0
+    brightBlack: 87.7
+    brightRed: 58
+    brightGreen: 38.5
+    brightYellow: 30.5
+    brightBlue: 58
+    brightMagenta: 60.4
+    brightCyan: 41.3
+    brightWhite: 0

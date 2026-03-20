@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_LightCyan)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E0FFFF"
+  black: "#E0FFFF"
+  red: "#A4BBBB"
+  green: "#B3CCCC"
+  yellow: "#869999"
+  blue: "#D1EEEE"
+  magenta: "#C2DDDD"
+  cyan: "#95AAAA"
+  white: "#778888"
+  brightBlack: "#E0FFFF"
+  brightRed: "#A4BBBB"
+  brightGreen: "#B3CCCC"
+  brightYellow: "#869999"
+  brightBlue: "#D1EEEE"
+  brightMagenta: "#C2DDDD"
+  brightCyan: "#95AAAA"
+  brightWhite: "#778888"
+meta:
+  mode: "dark"
+  accent: "cyan"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.8
+    black: 103.8
+    red: 63.2
+    green: 72.7
+    yellow: 45.3
+    blue: 93.1
+    magenta: 82.7
+    cyan: 54
+    white: 37
+    brightBlack: 103.8
+    brightRed: 63.2
+    brightGreen: 72.7
+    brightYellow: 45.3
+    brightBlue: 93.1
+    brightMagenta: 82.7
+    brightCyan: 54
+    brightWhite: 37

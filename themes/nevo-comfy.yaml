@@ -1,0 +1,53 @@
+name: "NEVO comfy"
+source:
+  marketplace_id: "nevo.nevo-theme"
+  version: "19.3.1"
+  installs: 377
+  rating: 5
+  ratings: 1
+  author: "nevo"
+  repo: "https://github.com/iknevo/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nevo.nevo-theme"
+  formats: null
+colors:
+  bg: "#1D2021"
+  fg: "#85EFFF"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.5
+    black: 0
+    red: 24.2
+    green: 41.9
+    yellow: 51.5
+    blue: 30.5
+    magenta: 30.7
+    cyan: 40.9
+    white: 46.2
+    brightBlack: 35.3
+    brightRed: 39.1
+    brightGreen: 60.1
+    brightYellow: 70.8
+    brightBlue: 47.6
+    brightMagenta: 46.9
+    brightCyan: 59.1
+    brightWhite: 83.3

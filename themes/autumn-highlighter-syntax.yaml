@@ -1,0 +1,53 @@
+name: "Autumn Highlighter Syntax"
+source:
+  marketplace_id: "undefynd.vscode-autumn-highlighter-syntax"
+  version: "0.0.1"
+  installs: 264
+  rating: 0
+  ratings: 0
+  author: "undefynd"
+  repo: "https://github.com/undefynd/vscode-autumn-highlighter-syntax"
+  url: "https://marketplace.visualstudio.com/items?itemName=undefynd.vscode-autumn-highlighter-syntax"
+  formats: null
+colors:
+  bg: "#1D232F"
+  fg: "#A8B5D1"
+  black: "#1D232F"
+  red: "#C98B7E"
+  green: "#6EAA7F"
+  yellow: "#C8E69E"
+  blue: "#7B6D9C"
+  magenta: "#8B4B65"
+  cyan: "#9EC8E6"
+  white: "#99A3B8"
+  brightBlack: "#7992B4"
+  brightRed: "#C98B7E"
+  brightGreen: "#6EAA7F"
+  brightYellow: "#C8E69E"
+  brightBlue: "#7B6D9C"
+  brightMagenta: "#8B4B65"
+  brightCyan: "#9EC8E6"
+  brightWhite: "#99A3B8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 59.5
+    black: 0
+    red: 45.4
+    green: 46.7
+    yellow: 82.7
+    blue: 26.8
+    magenta: 17.9
+    cyan: 67.6
+    white: 49.7
+    brightBlack: 40.1
+    brightRed: 45.4
+    brightGreen: 46.7
+    brightYellow: 82.7
+    brightBlue: 26.8
+    brightMagenta: 17.9
+    brightCyan: 67.6
+    brightWhite: 49.7

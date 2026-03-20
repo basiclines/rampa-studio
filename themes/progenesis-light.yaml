@@ -1,0 +1,53 @@
+name: "Progenesis Light"
+source:
+  marketplace_id: "lucidlabs.progenesis-theme"
+  version: "1.4.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.progenesis-theme"
+  formats: null
+colors:
+  bg: "#F8F9FB"
+  fg: "#2A2D35"
+  black: "#10131A"
+  red: "#C0524A"
+  green: "#1B7264"
+  yellow: "#9E7520"
+  blue: "#1F7AFF"
+  magenta: "#8E2580"
+  cyan: "#0E7A74"
+  white: "#E2E6EF"
+  brightBlack: "#7A7A7A"
+  brightRed: "#D05A52"
+  brightGreen: "#238577"
+  brightYellow: "#B88A30"
+  brightBlue: "#3388FF"
+  brightMagenta: "#A03090"
+  brightCyan: "#1B7264"
+  brightWhite: "#2A2D35"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: "Progenesis Dark"
+  contrast:
+    fg: 96.7
+    black: 101.5
+    red: 67.8
+    green: 74.9
+    yellow: 65
+    blue: 62.7
+    magenta: 82
+    cyan: 71.6
+    white: 8.8
+    brightBlack: 66.1
+    brightRed: 62.9
+    brightGreen: 67.1
+    brightYellow: 54.5
+    brightBlue: 57.8
+    brightMagenta: 76.8
+    brightCyan: 74.9
+    brightWhite: 96.7

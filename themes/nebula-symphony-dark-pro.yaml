@@ -1,0 +1,53 @@
+name: "Nebula Symphony Dark Pro"
+source:
+  marketplace_id: "Keevdev.nebula-symphony"
+  version: "1.0.8"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "Keevdev"
+  repo: "https://github.com/keeevdev/nebula-symphony"
+  url: "https://marketplace.visualstudio.com/items?itemName=Keevdev.nebula-symphony"
+  formats: null
+colors:
+  bg: "#0A0B10"
+  fg: "#D0D0E0"
+  black: "#3F4451"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#8BE9FD"
+  magenta: "#BD93F9"
+  cyan: "#94E2D5"
+  white: "#D0D0E0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#8BE9FD"
+  brightMagenta: "#BD93F9"
+  brightCyan: "#94E2D5"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 78.6
+    black: 9.7
+    red: 44.2
+    green: 85.7
+    yellow: 99.4
+    blue: 84.8
+    magenta: 54.5
+    cyan: 80.1
+    white: 78.6
+    brightBlack: 16.3
+    brightRed: 44.2
+    brightGreen: 85.7
+    brightYellow: 99.4
+    brightBlue: 84.8
+    brightMagenta: 54.5
+    brightCyan: 80.1
+    brightWhite: 91.5

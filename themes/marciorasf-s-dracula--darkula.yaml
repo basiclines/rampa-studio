@@ -1,0 +1,53 @@
+name: "Marciorasf's Dracula (Darkula)"
+source:
+  marketplace_id: "marciorasf.theme-darkula"
+  version: "0.0.16"
+  installs: 11018
+  rating: 5
+  ratings: 1
+  author: "marciorasf"
+  repo: "https://github.com/marciorasf/Dracula"
+  url: "https://marketplace.visualstudio.com/items?itemName=marciorasf.theme-darkula"
+  formats: null
+colors:
+  bg: "#2A2A2C"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.1
+    black: 0
+    red: 40.5
+    green: 82
+    yellow: 95.7
+    blue: 50.8
+    magenta: 51.7
+    cyan: 81.1
+    white: 99.1
+    brightBlack: 25.2
+    brightRed: 46
+    brightGreen: 86.2
+    brightYellow: 100.7
+    brightBlue: 63.3
+    brightMagenta: 59.7
+    brightCyan: 93.9
+    brightWhite: 104

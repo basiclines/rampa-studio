@@ -1,0 +1,53 @@
+name: "NightSky"
+source:
+  marketplace_id: "abeilles.NightSky"
+  version: "1.0.5"
+  installs: 569
+  rating: 0
+  ratings: 0
+  author: "abeilles"
+  repo: "https://github.com/Abeilles8/NightSky"
+  url: "https://marketplace.visualstudio.com/items?itemName=abeilles.NightSky"
+  formats: null
+colors:
+  bg: "#00004E"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 106.5
+    black: 0
+    red: 26.4
+    green: 52.7
+    yellow: 85.3
+    blue: 27.1
+    magenta: 29.4
+    cyan: 47.2
+    white: 89.7
+    brightBlack: 21.7
+    brightRed: 38.2
+    brightGreen: 63.2
+    brightYellow: 95.3
+    brightBlue: 39.7
+    brightMagenta: 45
+    brightCyan: 55.1
+    brightWhite: 89.7

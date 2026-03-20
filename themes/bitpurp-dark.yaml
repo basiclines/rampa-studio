@@ -1,0 +1,53 @@
+name: "bitPurp Dark"
+source:
+  marketplace_id: "bit3301.bitpurp"
+  version: "0.1.0"
+  installs: 15
+  rating: 0
+  ratings: 0
+  author: "bit3301"
+  repo: "https://github.com/bit3301/bitpurp"
+  url: "https://marketplace.visualstudio.com/items?itemName=bit3301.bitpurp"
+  formats: null
+colors:
+  bg: "#17121D"
+  fg: "#F2E7D4"
+  black: "#5A5A5A"
+  red: "#FF252F"
+  green: "#55D328"
+  yellow: "#FFCA2B"
+  blue: "#6F97E4"
+  magenta: "#FF58A6"
+  cyan: "#58D8FF"
+  white: "#E5E5E5"
+  brightBlack: "#909090"
+  brightRed: "#FF4A53"
+  brightGreen: "#9AFF77"
+  brightYellow: "#FFD659"
+  brightBlue: "#59B1FF"
+  brightMagenta: "#FF8BC1"
+  brightCyan: "#6FDDFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 305
+  pair: null
+  contrast:
+    fg: 92.2
+    black: 17.3
+    red: 37.8
+    green: 64.5
+    yellow: 78.1
+    blue: 45.8
+    magenta: 46.5
+    cyan: 73.5
+    white: 90.3
+    brightBlack: 41.8
+    brightRed: 41.9
+    brightGreen: 91.6
+    brightYellow: 83.5
+    brightBlue: 56.4
+    brightMagenta: 59.3
+    brightCyan: 76.9
+    brightWhite: 90.3

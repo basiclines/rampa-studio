@@ -1,0 +1,53 @@
+name: "Icefall"
+source:
+  marketplace_id: "arzg.icefall"
+  version: "0.2.15"
+  installs: 434
+  rating: 0
+  ratings: 0
+  author: "arzg"
+  repo: "https://github.com/arzg/icefall"
+  url: "https://marketplace.visualstudio.com/items?itemName=arzg.icefall"
+  formats: null
+colors:
+  bg: "#1C1E29"
+  fg: "#C3C5CC"
+  black: "#3F455D"
+  red: "#E69688"
+  green: "#9DA471"
+  yellow: "#DF9D6F"
+  blue: "#81A1CA"
+  magenta: "#B1A5D9"
+  cyan: "#7BA7B2"
+  white: "#C3C5CC"
+  brightBlack: "#737B9E"
+  brightRed: "#E69688"
+  brightGreen: "#9DA471"
+  brightYellow: "#DF9D6F"
+  brightBlue: "#81A1CA"
+  brightMagenta: "#B1A5D9"
+  brightCyan: "#7BA7B2"
+  brightWhite: "#F6F8FF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 277
+  pair: null
+  contrast:
+    fg: 69.7
+    black: 8.6
+    red: 54.7
+    green: 48.7
+    yellow: 55.3
+    blue: 48.2
+    magenta: 55.5
+    cyan: 48.9
+    white: 69.7
+    brightBlack: 31.1
+    brightRed: 54.7
+    brightGreen: 48.7
+    brightYellow: 55.3
+    brightBlue: 48.2
+    brightMagenta: 55.5
+    brightCyan: 48.9
+    brightWhite: 101.4

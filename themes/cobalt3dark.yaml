@@ -1,0 +1,53 @@
+name: "Cobalt3Dark"
+source:
+  marketplace_id: "hendrikbeutlin.Cobalt3Dark"
+  version: "0.5.0"
+  installs: 1523
+  rating: 0
+  ratings: 0
+  author: "hendrikbeutlin"
+  repo: "https://github.com/hendrikbeutlin/Cobalt3Dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=hendrikbeutlin.Cobalt3Dark"
+  formats: null
+colors:
+  bg: "#10222F"
+  fg: "#80FCFF"
+  black: "#000000"
+  red: "#FF628C"
+  green: "#3AD900"
+  yellow: "#FFC600"
+  blue: "#0088FF"
+  magenta: "#FB94FF"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#0050A4"
+  brightRed: "#FF628C"
+  brightGreen: "#3AD900"
+  brightYellow: "#FFC600"
+  brightBlue: "#0088FF"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#80FCFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 241
+  pair: null
+  contrast:
+    fg: 91.5
+    black: 0
+    red: 45.9
+    green: 65.1
+    yellow: 74.9
+    blue: 37.5
+    magenta: 63.1
+    cyan: 91.5
+    white: 105.7
+    brightBlack: 13.4
+    brightRed: 45.9
+    brightGreen: 65.1
+    brightYellow: 74.9
+    brightBlue: 37.5
+    brightMagenta: 63.1
+    brightCyan: 91.5
+    brightWhite: 91.5

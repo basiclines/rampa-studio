@@ -1,0 +1,53 @@
+name: "Hackpot (Hackpot Muddy Garden)"
+source:
+  marketplace_id: "wwmyers.hackpot"
+  version: "3.0.0"
+  installs: 24360
+  rating: 5
+  ratings: 5
+  author: "wwmyers"
+  repo: "https://github.com/wwmyers/hackpot"
+  url: "https://marketplace.visualstudio.com/items?itemName=wwmyers.hackpot"
+  formats: null
+colors:
+  bg: "#231A0F"
+  fg: "#B1E7B1"
+  black: "#362817"
+  red: "#FF704D"
+  green: "#1E621E"
+  yellow: "#FFFF99"
+  blue: "#268BD2"
+  magenta: "#9933FF"
+  cyan: "#1B9891"
+  white: "#B1E7B1"
+  brightBlack: "#47351F"
+  brightRed: "#FF661A"
+  brightGreen: "#32CD32"
+  brightYellow: "#FFFF1A"
+  brightBlue: "#1FADA6"
+  brightMagenta: "#B366FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#C4EDC4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 72
+  pair: null
+  contrast:
+    fg: 82.3
+    black: 0
+    red: 48.1
+    green: 15
+    yellow: 102.7
+    blue: 36.2
+    magenta: 27.4
+    cyan: 37.7
+    white: 82.3
+    brightBlack: 0
+    brightRed: 45.5
+    brightGreen: 59.8
+    brightYellow: 101.2
+    brightBlue: 47.4
+    brightMagenta: 39.7
+    brightCyan: 90.6
+    brightWhite: 87.8

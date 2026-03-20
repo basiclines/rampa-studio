@@ -1,0 +1,51 @@
+name: "XK Light GitHub"
+source:
+  marketplace_id: "x1ngkong.vscode-xk-theme"
+  version: "0.1.0"
+  installs: 31
+  author: "x1ngkong"
+  repo: "https://github.com/x1ngkong/vscode-xk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=x1ngkong.vscode-xk-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#1F2328"
+  black: "#000000"
+  red: "#B91C1C"
+  green: "#116329"
+  yellow: "#854D0E"
+  blue: "#0550AE"
+  magenta: "#6639BA"
+  cyan: "#0550AE"
+  white: "#1F2328"
+  brightBlack: "#1F2328"
+  brightRed: "#B91C1C"
+  brightGreen: "#116329"
+  brightYellow: "#854D0E"
+  brightBlue: "#0550AE"
+  brightMagenta: "#6639BA"
+  brightCyan: "#0550AE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.8
+    black: 106
+    red: 80.2
+    green: 85.2
+    yellow: 83.3
+    blue: 85.6
+    magenta: 84.9
+    cyan: 85.6
+    white: 102.8
+    brightBlack: 102.8
+    brightRed: 80.2
+    brightGreen: 85.2
+    brightYellow: 83.3
+    brightBlue: 85.6
+    brightMagenta: 84.9
+    brightCyan: 85.6
+    brightWhite: 0

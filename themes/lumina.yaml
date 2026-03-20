@@ -1,0 +1,53 @@
+name: "lumina"
+source:
+  marketplace_id: "JohannesFreutel.lumina"
+  version: "0.0.1"
+  installs: 36
+  rating: 0
+  ratings: 0
+  author: "JohannesFreutel"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=JohannesFreutel.lumina"
+  formats: null
+colors:
+  bg: "#F5F5F5"
+  fg: "#333333"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.7
+    black: 100.1
+    red: 68
+    green: 42
+    yellow: 11
+    blue: 67.3
+    magenta: 64.9
+    cyan: 47.3
+    white: 0
+    brightBlack: 72.8
+    brightRed: 56.2
+    brightGreen: 31.9
+    brightYellow: 0
+    brightBlue: 54.7
+    brightMagenta: 49.4
+    brightCyan: 39.7
+    brightWhite: 0

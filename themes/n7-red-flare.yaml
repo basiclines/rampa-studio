@@ -1,0 +1,53 @@
+name: "N7 Red Flare"
+source:
+  marketplace_id: "N7n.n7-vscode-themes"
+  version: "1.1.0"
+  installs: 1158
+  rating: 5
+  ratings: 1
+  author: "N7n"
+  repo: "https://github.com/NSHoffman/N7-Themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=N7n.n7-vscode-themes"
+  formats: null
+colors:
+  bg: "#101316"
+  fg: "#AFB7BF"
+  black: "#1B2025"
+  red: "#BA0E0E"
+  green: "#FF5A5F"
+  yellow: "#7A8289"
+  blue: "#E6EAEF"
+  magenta: "#FF5A5F"
+  cyan: "#7A8289"
+  white: "#BDC4CA"
+  brightBlack: "#3B4651"
+  brightRed: "#F03E3E"
+  brightGreen: "#F39F9F"
+  brightYellow: "#B0B5B9"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#F39F9F"
+  brightCyan: "#B0B5B9"
+  brightWhite: "#E8EAEC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 62.2
+    black: 0
+    red: 20.7
+    green: 44.8
+    yellow: 34.6
+    blue: 93.3
+    magenta: 44.8
+    cyan: 34.6
+    white: 69.7
+    brightBlack: 9.5
+    brightRed: 36.6
+    brightGreen: 62.1
+    brightYellow: 61.3
+    brightBlue: 107.3
+    brightMagenta: 62.1
+    brightCyan: 61.3
+    brightWhite: 93.4

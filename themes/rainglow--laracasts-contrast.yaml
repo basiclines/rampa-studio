@@ -1,0 +1,53 @@
+name: "Rainglow (laracasts-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#292D33"
+  fg: "#C0CCDB"
+  black: "#343941"
+  red: "#BA0E2E"
+  green: "#00B1B3"
+  yellow: "#EF6733"
+  blue: "#FFFFFF"
+  magenta: "#00B1B3"
+  cyan: "#EF6733"
+  white: "#D0D9E4"
+  brightBlack: "#565F6C"
+  brightRed: "#F03E5F"
+  brightGreen: "#1AFCFF"
+  brightYellow: "#F6AD92"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#1AFCFF"
+  brightCyan: "#F6AD92"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  pair: "Rainglow (laracasts-light)"
+  contrast:
+    fg: 70.5
+    black: 0
+    red: 17.1
+    green: 46.7
+    yellow: 39.5
+    blue: 103.5
+    magenta: 46.7
+    cyan: 39.5
+    white: 78.5
+    brightBlack: 15.4
+    brightRed: 33.4
+    brightGreen: 86.3
+    brightYellow: 63.3
+    brightBlue: 103.5
+    brightMagenta: 86.3
+    brightCyan: 63.3
+    brightWhite: 103.5

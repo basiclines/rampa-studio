@@ -1,0 +1,53 @@
+name: "Zokugun Themes"
+source:
+  marketplace_id: "zokugun.zokugun-theme"
+  version: "0.6.2"
+  installs: 1909
+  rating: 0
+  ratings: 0
+  author: "zokugun"
+  repo: "https://github.com/zokugun/theme-zokugun-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=zokugun.zokugun-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#DADADA"
+  black: "#000000"
+  red: "#B33320"
+  green: "#44AC2D"
+  yellow: "#999900"
+  blue: "#4C41DB"
+  magenta: "#CF48CF"
+  cyan: "#00A6B2"
+  white: "#BFBFBF"
+  brightBlack: "#828282"
+  brightRed: "#E50000"
+  brightGreen: "#00D900"
+  brightYellow: "#E5E500"
+  brightBlue: "#0000FF"
+  brightMagenta: "#E500E5"
+  brightCyan: "#00E5E5"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.2
+    black: 0
+    red: 22.3
+    green: 46.6
+    yellow: 44.8
+    blue: 19.3
+    magenta: 36.8
+    cyan: 46.3
+    white: 68
+    brightBlack: 35.7
+    brightRed: 31.1
+    brightGreen: 66.7
+    brightYellow: 86.6
+    brightBlue: 16.2
+    brightMagenta: 38.5
+    brightCyan: 77.6
+    brightWhite: 91

@@ -1,0 +1,53 @@
+name: "Purple Twist"
+source:
+  marketplace_id: "VishalMaurya.zenith-ui"
+  version: "0.2.4"
+  installs: 191
+  rating: 5
+  ratings: 1
+  author: "Vishal Maurya"
+  repo: "https://github.com/maurya-07/zenith-ui"
+  url: "https://marketplace.visualstudio.com/items?itemName=VishalMaurya.zenith-ui"
+  formats: null
+colors:
+  bg: "#1D0038"
+  fg: "#19E6AC"
+  black: "#9A00E0"
+  red: "#FF00BF"
+  green: "#19E68C"
+  yellow: "#A576FF"
+  blue: "#0098FF"
+  magenta: "#F335FF"
+  cyan: "#00CCCC"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF00BF"
+  brightGreen: "#00F2A5"
+  brightYellow: "#AEB3FF"
+  brightBlue: "#35A6FF"
+  brightMagenta: "#DB2FF4"
+  brightCyan: "#5BFFD3"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 301
+  pair: null
+  contrast:
+    fg: 74.8
+    black: 22.9
+    red: 41
+    green: 73.9
+    yellow: 42.3
+    blue: 44.5
+    magenta: 44.4
+    cyan: 63.4
+    white: 106.9
+    brightBlack: 22
+    brightRed: 41
+    brightGreen: 80.7
+    brightYellow: 63.6
+    brightBlue: 50.5
+    brightMagenta: 38.1
+    brightCyan: 90.5
+    brightWhite: 90

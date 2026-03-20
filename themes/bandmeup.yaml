@@ -1,0 +1,53 @@
+name: "BandMeUp"
+source:
+  marketplace_id: "eyebonk.bandmeup"
+  version: "1.0.0"
+  installs: 10
+  rating: 0
+  ratings: 0
+  author: "eyebonk"
+  repo: "https://github.com/eyebonk/vscode-Theme-BandMeUp"
+  url: "https://marketplace.visualstudio.com/items?itemName=eyebonk.bandmeup"
+  formats: null
+colors:
+  bg: "#181818"
+  fg: "#AAAAAA"
+  black: "#000000"
+  red: "#DB5355"
+  green: "#7EEF8C"
+  yellow: "#FEF376"
+  blue: "#5599FF"
+  magenta: "#D90E80"
+  cyan: "#07C1D8"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FE6D6F"
+  brightGreen: "#B7FFC0"
+  brightYellow: "#FFFABF"
+  brightBlue: "#66A3FF"
+  brightMagenta: "#E64CA2"
+  brightCyan: "#0DE4FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 55.1
+    black: 0
+    red: 34.9
+    green: 81.6
+    yellow: 96.5
+    blue: 46.5
+    magenta: 29.2
+    cyan: 58.8
+    white: 89.9
+    brightBlack: 21.9
+    brightRed: 48.3
+    brightGreen: 95.7
+    brightYellow: 101.8
+    brightBlue: 51.2
+    brightMagenta: 38.5
+    brightCyan: 77.4
+    brightWhite: 89.9

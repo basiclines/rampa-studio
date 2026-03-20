@@ -1,0 +1,53 @@
+name: "City Fog"
+source:
+  marketplace_id: "metalloriff.city-fog-dawn"
+  version: "0.0.1"
+  installs: 1182
+  rating: 5
+  ratings: 1
+  author: "Metalloriff"
+  repo: "https://github.com/Metalloriff/city-fog-dawn-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=metalloriff.city-fog-dawn"
+  formats: null
+colors:
+  bg: "#D8E1E9"
+  fg: "#2C3945"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 245
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 87.7
+    red: 55.6
+    green: 29.6
+    yellow: 0
+    blue: 54.9
+    magenta: 52.5
+    cyan: 34.9
+    white: 0
+    brightBlack: 60.4
+    brightRed: 43.7
+    brightGreen: 19.5
+    brightYellow: 0
+    brightBlue: 42.3
+    brightMagenta: 37
+    brightCyan: 27.3
+    brightWhite: 0

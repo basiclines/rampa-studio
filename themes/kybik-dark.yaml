@@ -1,0 +1,53 @@
+name: "Kybik dark"
+source:
+  marketplace_id: "Kybik.kybik"
+  version: "1.0.0"
+  installs: 49
+  rating: 0
+  ratings: 0
+  author: "Kybik"
+  repo: "https://github.com/Kybikcube/Kybik"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kybik.kybik"
+  formats: null
+colors:
+  bg: "#14151B"
+  fg: "#A9A9A9"
+  black: "#000000"
+  red: "#8A1F1F"
+  green: "#0A8858"
+  yellow: "#B6B60B"
+  blue: "#195699"
+  magenta: "#8A2E8A"
+  cyan: "#0E8BA9"
+  white: "#FBFBFB"
+  brightBlack: "#4D4D4D"
+  brightRed: "#6F1414"
+  brightGreen: "#189965"
+  brightYellow: "#ADAD31"
+  brightBlue: "#3274BE"
+  brightMagenta: "#944F94"
+  brightCyan: "#2396B2"
+  brightWhite: "#BABABA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 54.8
+    black: 0
+    red: 11.6
+    green: 30.2
+    yellow: 58.9
+    blue: 15.8
+    magenta: 16.3
+    cyan: 34.2
+    white: 104.4
+    brightBlack: 12.2
+    brightRed: 0
+    brightGreen: 37.4
+    brightYellow: 54.3
+    brightBlue: 27.9
+    brightMagenta: 23.7
+    brightCyan: 39.2
+    brightWhite: 64.3

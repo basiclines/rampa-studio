@@ -1,0 +1,53 @@
+name: "Axiomatic Light"
+source:
+  marketplace_id: "xcuzalex.axiomatic"
+  version: "0.5.0"
+  installs: 42
+  rating: 5
+  ratings: 1
+  author: "xcuzalex"
+  repo: "https://github.com/xcuzalex/axiomatic-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=xcuzalex.axiomatic"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#383A42"
+  black: "#383A42"
+  red: "#E45649"
+  green: "#50A14F"
+  yellow: "#986801"
+  blue: "#4078F2"
+  magenta: "#A626A4"
+  cyan: "#0184BC"
+  white: "#383A42"
+  brightBlack: "#A0A1A7"
+  brightRed: "#E45649"
+  brightGreen: "#50A14F"
+  brightYellow: "#986801"
+  brightBlue: "#4078F2"
+  brightMagenta: "#A626A4"
+  brightCyan: "#0184BC"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Axiomatic Dark"
+  contrast:
+    fg: 93.2
+    black: 93.2
+    red: 60.4
+    green: 56
+    yellow: 70.5
+    blue: 64.3
+    magenta: 76.2
+    cyan: 65.1
+    white: 93.2
+    brightBlack: 47.4
+    brightRed: 60.4
+    brightGreen: 56
+    brightYellow: 70.5
+    brightBlue: 64.3
+    brightMagenta: 76.2
+    brightCyan: 65.1
+    brightWhite: 0

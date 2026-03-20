@@ -1,0 +1,53 @@
+name: "Purple Haze Theme"
+source:
+  marketplace_id: "Felip3.purple-haze-theme"
+  version: "1.0.5"
+  installs: 2043
+  rating: 0
+  ratings: 0
+  author: "Felipe Menezes"
+  repo: "https://github.com/fmm312/purple-haze"
+  url: "https://marketplace.visualstudio.com/items?itemName=Felip3.purple-haze-theme"
+  formats: null
+colors:
+  bg: "#2B1F31"
+  fg: "#F2F2F2"
+  black: "#151515"
+  red: "#BC5653"
+  green: "#909D63"
+  yellow: "#EBC17A"
+  blue: "#6A8799"
+  magenta: "#B06698"
+  cyan: "#C9DFFF"
+  white: "#D9D9D9"
+  brightBlack: "#636363"
+  brightRed: "#BC5653"
+  brightGreen: "#F07178"
+  brightYellow: "#EBC17A"
+  brightBlue: "#C3E88D"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#ACBBD0"
+  brightWhite: "#F7F7F7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 314
+  pair: null
+  contrast:
+    fg: 96.7
+    black: 0
+    red: 27.8
+    green: 43.5
+    yellow: 70.2
+    blue: 33.5
+    magenta: 31.6
+    cyan: 83.4
+    white: 80.9
+    brightBlack: 19.1
+    brightRed: 27.8
+    brightGreen: 44.9
+    brightYellow: 70.2
+    brightBlue: 82.5
+    brightMagenta: 44.8
+    brightCyan: 62.3
+    brightWhite: 99.9

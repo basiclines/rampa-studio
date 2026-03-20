@@ -1,0 +1,53 @@
+name: "Night-Stack Low Contrast Pro"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#111318"
+  fg: "#C8CDD5"
+  black: "#1F242C"
+  red: "#8B93A6"
+  green: "#9AA4B2"
+  yellow: "#B6BEC9"
+  blue: "#6B7280"
+  magenta: "#7C8596"
+  cyan: "#AAB2BF"
+  white: "#C8CDD5"
+  brightBlack: "#1F242C"
+  brightRed: "#8B93A6"
+  brightGreen: "#9AA4B2"
+  brightYellow: "#B6BEC9"
+  brightBlue: "#6B7280"
+  brightMagenta: "#7C8596"
+  brightCyan: "#AAB2BF"
+  brightWhite: "#C8CDD5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 75.3
+    black: 0
+    red: 43.4
+    green: 51.8
+    yellow: 66.3
+    blue: 27.5
+    magenta: 36.3
+    cyan: 59.6
+    white: 75.3
+    brightBlack: 0
+    brightRed: 43.4
+    brightGreen: 51.8
+    brightYellow: 66.3
+    brightBlue: 27.5
+    brightMagenta: 36.3
+    brightCyan: 59.6
+    brightWhite: 75.3

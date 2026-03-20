@@ -1,0 +1,53 @@
+name: "GreenBreeze-Light"
+source:
+  marketplace_id: "icy9ptcl.greenbreeze-light"
+  version: "0.0.4"
+  installs: 701
+  rating: 0
+  ratings: 0
+  author: "icy9ptcl"
+  repo: "https://github.com/Icy9ptcl/GreenBreeze-Light-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=icy9ptcl.greenbreeze-light"
+  formats: null
+colors:
+  bg: "#F3F3F3"
+  fg: "#282828"
+  black: "#000000"
+  red: "#9E2525"
+  green: "#00BC00"
+  yellow: "#A59504"
+  blue: "#3A77B8"
+  magenta: "#8A098A"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#D7D415"
+  brightBlue: "#68A6E8"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "GreenBreeze-Dark"
+  contrast:
+    fg: 94.4
+    black: 98.9
+    red: 78.1
+    green: 42.1
+    yellow: 49.9
+    blue: 64.9
+    magenta: 80
+    cyan: 53.4
+    white: 78.8
+    brightBlack: 71.6
+    brightRed: 66.8
+    brightGreen: 33.8
+    brightYellow: 18.9
+    brightBlue: 42.8
+    brightMagenta: 67.4
+    brightCyan: 53.4
+    brightWhite: 41.3

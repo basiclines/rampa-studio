@@ -1,0 +1,53 @@
+name: "Tokyo Panda"
+source:
+  marketplace_id: "effordDev.tokyo-panda-theme"
+  version: "1.12.0"
+  installs: 8339
+  rating: 5
+  ratings: 1
+  author: "effordDev"
+  repo: "https://github.com/effordDev/tokyo-panda-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=effordDev.tokyo-panda-theme"
+  formats: null
+colors:
+  bg: "#1A1B26"
+  fg: "#A9B1D6"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#3AFFC4"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 59.3
+    black: 0
+    red: 62.9
+    green: 90.3
+    yellow: 95.2
+    blue: 80.8
+    magenta: 74.2
+    cyan: 95.4
+    white: 74.1
+    brightBlack: 0
+    brightRed: 51.2
+    brightGreen: 88.5
+    brightYellow: 90
+    brightBlue: 61.6
+    brightMagenta: 49.7
+    brightCyan: 93.3
+    brightWhite: 106.3

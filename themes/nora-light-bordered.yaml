@@ -1,0 +1,53 @@
+name: "nora-light-bordered"
+source:
+  marketplace_id: "Sathmin-Januth.nora"
+  version: "1.0.3"
+  installs: 388
+  rating: 5
+  ratings: 1
+  author: "NoraCora"
+  repo: "https://github.com/Sathmin-Januth/NoraCora-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sathmin-Januth.nora"
+  formats: null
+colors:
+  bg: "#FCFCFC"
+  fg: "#5C6166"
+  black: "#000000"
+  red: "#EA6C6D"
+  green: "#6CBF43"
+  yellow: "#ECA944"
+  blue: "#3199E1"
+  magenta: "#9E75C7"
+  cyan: "#46BA94"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07171"
+  brightGreen: "#86B300"
+  brightYellow: "#F2AE49"
+  brightBlue: "#399EE6"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#4CBF99"
+  brightWhite: "#D1D1D1"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.4
+    black: 104.2
+    red: 55.1
+    green: 43.1
+    yellow: 37.5
+    blue: 55.8
+    magenta: 61.7
+    cyan: 45.4
+    white: 28.3
+    brightBlack: 76.1
+    brightRed: 52.6
+    brightGreen: 46.7
+    brightYellow: 34.7
+    brightBlue: 53.3
+    brightMagenta: 59.3
+    brightCyan: 42.8
+    brightWhite: 22.7

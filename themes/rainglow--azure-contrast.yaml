@@ -1,0 +1,53 @@
+name: "Rainglow (azure-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#040507"
+  fg: "#FFFFFF"
+  black: "#0D1117"
+  red: "#BA0E2E"
+  green: "#6AB0A3"
+  yellow: "#52708B"
+  blue: "#508AAA"
+  magenta: "#508AAA"
+  cyan: "#6AB0A3"
+  white: "#FFFFFF"
+  brightBlack: "#293348"
+  brightRed: "#F03E5F"
+  brightGreen: "#ADD3CC"
+  brightYellow: "#89A3BA"
+  brightBlue: "#94B8CC"
+  brightMagenta: "#94B8CC"
+  brightCyan: "#ADD3CC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (azure-light)"
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 21.5
+    green: 52.7
+    yellow: 26
+    blue: 36.4
+    magenta: 36.4
+    cyan: 52.7
+    white: 107.9
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 75.2
+    brightYellow: 50.8
+    brightBlue: 61.1
+    brightMagenta: 61.1
+    brightCyan: 75.2
+    brightWhite: 107.9

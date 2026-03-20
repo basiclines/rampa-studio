@@ -1,0 +1,53 @@
+name: "Nero"
+source:
+  marketplace_id: "Mhirii.nero"
+  version: "0.1.0"
+  installs: 45
+  rating: 0
+  ratings: 0
+  author: "Mhirii"
+  repo: "https://github.com/Mhirii/nero-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Mhirii.nero"
+  formats: null
+colors:
+  bg: "#0D1C2E"
+  fg: "#A9C7D6"
+  black: "#17304D"
+  red: "#F5596B"
+  green: "#8CB34D"
+  yellow: "#C8E155"
+  blue: "#0DA8F2"
+  magenta: "#9E75F0"
+  cyan: "#3DF5DE"
+  white: "#CDD8DE"
+  brightBlack: "#1A3759"
+  brightRed: "#FF7282"
+  brightGreen: "#92CC33"
+  brightYellow: "#D6E980"
+  brightBlue: "#3DBAF5"
+  brightMagenta: "#B291F3"
+  brightCyan: "#56FDE8"
+  brightWhite: "#CDD8DE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 254
+  pair: null
+  contrast:
+    fg: 68.4
+    black: 0
+    red: 41.7
+    green: 52.9
+    yellow: 79.9
+    blue: 49.3
+    magenta: 39.4
+    cyan: 84.4
+    white: 80.3
+    brightBlack: 0
+    brightRed: 49.7
+    brightGreen: 64.3
+    brightYellow: 86.1
+    brightBlue: 57.7
+    brightMagenta: 50.6
+    brightCyan: 89.7
+    brightWhite: 80.3

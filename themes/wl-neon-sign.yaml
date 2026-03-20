@@ -1,0 +1,53 @@
+name: "WL-Neon Sign"
+source:
+  marketplace_id: "WatkinsLabs.neon-sign"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.neon-sign"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF56"
+  yellow: "#FFC700"
+  blue: "#00FF1E"
+  magenta: "#00FFCF"
+  cyan: "#00FF1E"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF56"
+  brightYellow: "#FFC700"
+  brightBlue: "#00FF1E"
+  brightMagenta: "#00FFCF"
+  brightCyan: "#00FF1E"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.9
+    yellow: 77.5
+    blue: 86.5
+    magenta: 90
+    cyan: 86.5
+    white: 107.9
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 86.9
+    brightYellow: 77.5
+    brightBlue: 86.5
+    brightMagenta: 90
+    brightCyan: 86.5
+    brightWhite: 107.9

@@ -1,0 +1,53 @@
+name: "Akagami Dark"
+source:
+  marketplace_id: "nicholasXue.akagami-theme"
+  version: "0.0.2"
+  installs: 515
+  rating: 5
+  ratings: 1
+  author: "nicholasXue"
+  repo: "https://github.com/nicholasxjy/akagami-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nicholasXue.akagami-theme"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#DBD7CA"
+  black: "#393A34"
+  red: "#CB7676"
+  green: "#4D9375"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#DB889A"
+  cyan: "#5EAAB5"
+  white: "#FFFFFF"
+  brightBlack: "#393A34"
+  brightRed: "#CB7676"
+  brightGreen: "#4D9375"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#DB889A"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: "Akagami Light"
+  contrast:
+    fg: 81.7
+    black: 0
+    red: 41.2
+    green: 37.1
+    yellow: 76
+    blue: 41.8
+    magenta: 50.3
+    cyan: 49.7
+    white: 107.3
+    brightBlack: 0
+    brightRed: 41.2
+    brightGreen: 37.1
+    brightYellow: 76
+    brightBlue: 41.8
+    brightMagenta: 50.3
+    brightCyan: 49.7
+    brightWhite: 107.3

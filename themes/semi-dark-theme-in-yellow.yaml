@@ -1,0 +1,53 @@
+name: "Semi dark theme in yellow"
+source:
+  marketplace_id: "moondevaa.Semi-dark-theme-in-yellow"
+  version: "0.2.4"
+  installs: 2847
+  rating: 5
+  ratings: 2
+  author: "moondevaa"
+  repo: "https://github.com/AaBbdev29/semi-dark-theme-in-yellow"
+  url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.Semi-dark-theme-in-yellow"
+  formats: null
+colors:
+  bg: "#414143"
+  fg: "#98DBE8"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 68.1
+    black: 10.3
+    red: 17.6
+    green: 43.9
+    yellow: 76.5
+    blue: 18.3
+    magenta: 20.6
+    cyan: 38.4
+    white: 80.9
+    brightBlack: 12.9
+    brightRed: 29.4
+    brightGreen: 54.4
+    brightYellow: 86.5
+    brightBlue: 30.9
+    brightMagenta: 36.2
+    brightCyan: 46.3
+    brightWhite: 80.9

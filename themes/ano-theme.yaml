@@ -1,0 +1,53 @@
+name: "Ano Theme"
+source:
+  marketplace_id: "MaksymMarholin.ano-theme"
+  version: "0.1.26"
+  installs: 1166
+  rating: 5
+  ratings: 1
+  author: "Maksym Marholin"
+  repo: "https://github.com/delafin/AnoTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MaksymMarholin.ano-theme"
+  formats: null
+colors:
+  bg: "#222527"
+  fg: "#CDD3DE"
+  black: "#3F4451"
+  red: "#771818"
+  green: "#358B52"
+  yellow: "#D18F52"
+  blue: "#224C79"
+  magenta: "#764386"
+  cyan: "#42B3C2"
+  white: "#B8BBC0"
+  brightBlack: "#4F5666"
+  brightRed: "#9A2E37"
+  brightGreen: "#3D5D48"
+  brightYellow: "#E5C07B"
+  brightBlue: "#5C83AC"
+  brightMagenta: "#C162DE"
+  brightCyan: "#62A5C7"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.8
+    black: 0
+    red: 0
+    green: 29.9
+    yellow: 46.8
+    blue: 9.5
+    magenta: 14.4
+    cyan: 50.7
+    white: 62.8
+    brightBlack: 13.6
+    brightRed: 14.3
+    brightGreen: 13.7
+    brightYellow: 68.7
+    brightBlue: 31.9
+    brightMagenta: 37.2
+    brightCyan: 46.5
+    brightWhite: 88.8

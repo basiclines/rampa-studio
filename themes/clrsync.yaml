@@ -1,0 +1,53 @@
+name: "clrsync"
+source:
+  marketplace_id: "obsqrbtz.clrsync"
+  version: "1.0.2"
+  installs: 13
+  rating: 0
+  ratings: 0
+  author: "obsqrbtz"
+  repo: "https://github.com/obsqrbtz/clrsync-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=obsqrbtz.clrsync"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#D4D4D4"
+  black: "#111111"
+  red: "#AA4E4A"
+  green: "#668A51"
+  yellow: "#C5916B"
+  blue: "#3A898C"
+  magenta: "#AA477B"
+  cyan: "#849899"
+  white: "#D4D4D4"
+  brightBlack: "#2E2E2E"
+  brightRed: "#AA4E4A"
+  brightGreen: "#668A51"
+  brightYellow: "#C5916B"
+  brightBlue: "#3A898C"
+  brightMagenta: "#AA477B"
+  brightCyan: "#849899"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80
+    black: 0
+    red: 24.9
+    green: 34.4
+    yellow: 48.3
+    blue: 33.3
+    magenta: 25
+    cyan: 44.2
+    white: 80
+    brightBlack: 0
+    brightRed: 24.9
+    brightGreen: 34.4
+    brightYellow: 48.3
+    brightBlue: 33.3
+    brightMagenta: 25
+    brightCyan: 44.2
+    brightWhite: 80

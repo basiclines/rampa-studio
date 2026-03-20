@@ -1,0 +1,53 @@
+name: "cosmos"
+source:
+  marketplace_id: "Ark-Platforms-Inc.galaxyum-theme-arkcorporation"
+  version: "0.0.1"
+  installs: 303
+  rating: 5
+  ratings: 2
+  author: "Ark Platforms"
+  repo: "https://github.com/ArkCorporation/Cosmic"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ark-Platforms-Inc.galaxyum-theme-arkcorporation"
+  formats: null
+colors:
+  bg: "#010B21"
+  fg: "#FDFEFF"
+  black: "#3A1B75"
+  red: "#EE1682"
+  green: "#06AD00"
+  yellow: "#FFD400"
+  blue: "#3787D6"
+  magenta: "#EA00D9"
+  cyan: "#0AB2FA"
+  white: "#F2F8FF"
+  brightBlack: "#5C6D75"
+  brightRed: "#962EFF"
+  brightGreen: "#3DD69C"
+  brightYellow: "#FFD400"
+  brightBlue: "#5994CE"
+  brightMagenta: "#EA00D9"
+  brightCyan: "#4BC5FA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 106.8
+    black: 0
+    red: 35.2
+    green: 45.6
+    yellow: 82.7
+    blue: 36.7
+    magenta: 38.4
+    cyan: 55.2
+    white: 102.5
+    brightBlack: 24.6
+    brightRed: 27.8
+    brightGreen: 67.6
+    brightYellow: 82.7
+    brightBlue: 42.3
+    brightMagenta: 38.4
+    brightCyan: 64.5
+    brightWhite: 107.6

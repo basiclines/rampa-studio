@@ -1,0 +1,53 @@
+name: "dharam-gfx-hacker-theme"
+source:
+  marketplace_id: "dharam-gfx-theme.dharam-gfx-theme"
+  version: "0.0.7"
+  installs: 660
+  rating: 5
+  ratings: 1
+  author: "dharmendra kumar"
+  repo: "https://github.com/dharam-gfx/dharam-gfx-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dharam-gfx-theme.dharam-gfx-theme"
+  formats: null
+colors:
+  bg: "#07001C"
+  fg: "#0094C6"
+  black: "#060016"
+  red: "#FF0000"
+  green: "#0AED43"
+  yellow: "#D0FF00"
+  blue: "#071399"
+  magenta: "#06D6A0"
+  cyan: "#3EFF70"
+  white: "#FFFFFF"
+  brightBlack: "#FF1E00"
+  brightRed: "#F02727"
+  brightGreen: "#46DF46"
+  brightYellow: "#FFFB00"
+  brightBlue: "#5CA9FA"
+  brightMagenta: "#D606CF"
+  brightCyan: "#3EFF70"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 291
+  pair: null
+  contrast:
+    fg: 40
+    black: 0
+    red: 37.4
+    green: 77.1
+    yellow: 96.5
+    blue: 0
+    magenta: 67.3
+    cyan: 87.7
+    white: 107.7
+    brightBlack: 37.9
+    brightRed: 34.8
+    brightGreen: 70.8
+    brightYellow: 100.6
+    brightBlue: 53.6
+    brightMagenta: 33.6
+    brightCyan: 87.7
+    brightWhite: 107.7

@@ -1,0 +1,51 @@
+name: "FictionalTheme"
+source:
+  marketplace_id: "alex-savin.fictional-theme"
+  version: "0.0.8"
+  installs: 76
+  author: "alex-savin"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=alex-savin.fictional-theme"
+  formats: null
+colors:
+  bg: "#21292C"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 223
+  pair: null
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 24.3
+    green: 50.6
+    yellow: 83.2
+    blue: 25
+    magenta: 27.4
+    cyan: 45.2
+    white: 87.6
+    brightBlack: 19.6
+    brightRed: 36.2
+    brightGreen: 61.1
+    brightYellow: 93.2
+    brightBlue: 37.6
+    brightMagenta: 43
+    brightCyan: 53
+    brightWhite: 87.6

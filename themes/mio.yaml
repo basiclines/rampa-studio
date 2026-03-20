@@ -1,0 +1,53 @@
+name: "mio"
+source:
+  marketplace_id: "ene-ne.mio"
+  version: "0.1.0"
+  installs: 101
+  rating: 0
+  ratings: 0
+  author: "ene-ne"
+  repo: "https://github.com/ene-ne/mio"
+  url: "https://marketplace.visualstudio.com/items?itemName=ene-ne.mio"
+  formats: null
+colors:
+  bg: "#FFFAFA"
+  fg: "#250E07"
+  black: "#D8B8B3"
+  red: "#873E40"
+  green: "#839A53"
+  yellow: "#D4A520"
+  blue: "#A6B6CE"
+  magenta: "#D68482"
+  cyan: "#89BEB7"
+  white: "#ECC3C2"
+  brightBlack: "#F3EAE9"
+  brightRed: "#832426"
+  brightGreen: "#6F873E"
+  brightYellow: "#C39104"
+  brightBlue: "#7B91B3"
+  brightMagenta: "#C97270"
+  brightCyan: "#63A098"
+  brightWhite: "#F2CC60"
+meta:
+  mode: "light"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 32.1
+    red: 83.3
+    green: 55.9
+    yellow: 42.4
+    blue: 37.8
+    magenta: 51.4
+    cyan: 38.2
+    white: 24.6
+    brightBlack: 0
+    brightRed: 88.2
+    brightGreen: 65.1
+    brightYellow: 52
+    brightBlue: 56.9
+    brightMagenta: 59.2
+    brightCyan: 54.2
+    brightWhite: 22.7

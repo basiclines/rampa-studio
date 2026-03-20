@@ -1,0 +1,53 @@
+name: "Midnight Grove"
+source:
+  marketplace_id: "lela.midnight-grove"
+  version: "1.0.1"
+  installs: 13
+  rating: 5
+  ratings: 1
+  author: "lela"
+  repo: "https://github.com/lelamanolio/midnight-grove-vstheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lela.midnight-grove"
+  formats: null
+colors:
+  bg: "#07130F"
+  fg: "#D6DEEB"
+  black: "#07130F"
+  red: "#EC5F67"
+  green: "#22DA6E"
+  yellow: "#FFEB95"
+  blue: "#82AAFF"
+  magenta: "#6B5BD6"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#FF6B7A"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FAD430"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#7A6CF0"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 171
+  pair: null
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 41.8
+    green: 67.8
+    yellow: 94.2
+    blue: 56.4
+    magenta: 26.2
+    cyan: 60.2
+    white: 107.4
+    brightBlack: 16.1
+    brightRed: 49
+    brightGreen: 67.8
+    brightYellow: 81.7
+    brightBlue: 56.4
+    brightMagenta: 34
+    brightCyan: 74.5
+    brightWhite: 107.4

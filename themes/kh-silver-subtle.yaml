@@ -1,0 +1,53 @@
+name: "KH Silver (Subtle)"
+source:
+  marketplace_id: "emoralesb05.kh-vscode-theme"
+  version: "0.1.0"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "Ed Morales"
+  repo: "https://github.com/emoralesb05/kh-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=emoralesb05.kh-vscode-theme"
+  formats: null
+colors:
+  bg: "#0C1018"
+  fg: "#F4F8FF"
+  black: "#101521"
+  red: "#FF7F8E"
+  green: "#A7F0D1"
+  yellow: "#FFD98A"
+  blue: "#8EB7FF"
+  magenta: "#D6C2FF"
+  cyan: "#8AD8FF"
+  white: "#EAF0FF"
+  brightBlack: "#8A98AF"
+  brightRed: "#FFACB5"
+  brightGreen: "#CCF9E8"
+  brightYellow: "#FFE9BD"
+  brightBlue: "#B8D3FF"
+  brightMagenta: "#E9DBFF"
+  brightCyan: "#C9F1FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 102.6
+    black: 0
+    red: 54.4
+    green: 88
+    yellow: 86
+    blue: 62.6
+    magenta: 75
+    cyan: 76.6
+    white: 97.5
+    brightBlack: 45.7
+    brightRed: 69.7
+    brightGreen: 97.1
+    brightYellow: 94.5
+    brightBlue: 78.5
+    brightMagenta: 88
+    brightCyan: 94
+    brightWhite: 107.4

@@ -1,0 +1,53 @@
+name: "Ivalo"
+source:
+  marketplace_id: "naethiel.ivalo"
+  version: "0.1.0"
+  installs: 1566
+  rating: 5
+  ratings: 2
+  author: "Naethiel"
+  repo: "https://github.com/naethiel/ivalo"
+  url: "https://marketplace.visualstudio.com/items?itemName=naethiel.ivalo"
+  formats: null
+colors:
+  bg: "#1B1F26"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#6ED3CA"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 84.4
+    black: 0
+    red: 32
+    green: 60.7
+    yellow: 75.4
+    blue: 47.7
+    magenta: 45.5
+    cyan: 68.2
+    white: 91.4
+    brightBlack: 14.4
+    brightRed: 32
+    brightGreen: 60.7
+    brightYellow: 75.4
+    brightBlue: 47.7
+    brightMagenta: 45.5
+    brightCyan: 59.6
+    brightWhite: 95.3

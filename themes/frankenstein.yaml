@@ -1,0 +1,53 @@
+name: "Frankenstein"
+source:
+  marketplace_id: "synxty.frankenstein"
+  version: "1.0.3"
+  installs: 2250
+  rating: 5
+  ratings: 1
+  author: "Synxty"
+  repo: "https://github.com/synxty/frankenstein"
+  url: "https://marketplace.visualstudio.com/items?itemName=synxty.frankenstein"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#F1FBF7"
+  black: "#21222C"
+  red: "#F5333E"
+  green: "#2AC289"
+  yellow: "#FFFF59"
+  blue: "#3E56C2"
+  magenta: "#FF79C6"
+  cyan: "#8BF5FD"
+  white: "#F1FBF7"
+  brightBlack: "#555555"
+  brightRed: "#FF6970"
+  brightGreen: "#8EE5C4"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#7F95F5"
+  brightMagenta: "#FFC4E6"
+  brightCyan: "#BDF3FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.1
+    black: 0
+    red: 36.7
+    green: 56.9
+    yellow: 102.6
+    blue: 20.2
+    magenta: 55
+    cyan: 90.3
+    white: 103.1
+    brightBlack: 15.5
+    brightRed: 48.2
+    brightGreen: 80
+    brightYellow: 104
+    brightBlue: 47.6
+    brightMagenta: 80.5
+    brightCyan: 93.6
+    brightWhite: 107.3

@@ -1,0 +1,54 @@
+name: "Neon Green — Dark Terminal (Neon Green — Midnight)"
+source:
+  marketplace_id: "luongnv89.neon-green-theme"
+  version: "1.2.1"
+  installs: 35
+  rating: 0
+  ratings: 0
+  author: "luongnv89"
+  repo: "https://github.com/luongnv89/vscode-theme-neon-green"
+  url: "https://marketplace.visualstudio.com/items?itemName=luongnv89.neon-green-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/luongnv89/vscode-theme-neon-green/main/themes/Neon Green Dark.itermcolors"
+colors:
+  bg: "#0E0E1A"
+  fg: "#D5DCE8"
+  black: "#1B1A2E"
+  red: "#FF5555"
+  green: "#39FF14"
+  yellow: "#FFB347"
+  blue: "#8394FF"
+  magenta: "#BF41FF"
+  cyan: "#00FFE2"
+  white: "#D9E0EB"
+  brightBlack: "#505370"
+  brightRed: "#FF7777"
+  brightGreen: "#4DFF4D"
+  brightYellow: "#FFC87D"
+  brightBlue: "#A1AFFF"
+  brightMagenta: "#D770FF"
+  brightCyan: "#33FFEB"
+  brightWhite: "#F0F3FA"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 283
+  pair: "Neon Green — Dark Terminal (Neon Green — Light)"
+  contrast:
+    fg: 84.7
+    black: 0
+    red: 44
+    green: 86.6
+    yellow: 69.7
+    blue: 48.5
+    magenta: 36.2
+    cyan: 90.4
+    white: 87.1
+    brightBlack: 15.7
+    brightRed: 51.8
+    brightGreen: 87.4
+    brightYellow: 78.7
+    brightBlue: 61.3
+    brightMagenta: 48.9
+    brightCyan: 91.1
+    brightWhite: 99.5

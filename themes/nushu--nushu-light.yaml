@@ -1,0 +1,54 @@
+name: "Nushu (Nushu Light)"
+source:
+  marketplace_id: "wheredoesyourmindgo.nushu-vscode-theme"
+  version: "2.2.18"
+  installs: 32071
+  rating: 5
+  ratings: 8
+  author: "wheredoesyourmindgo"
+  repo: "https://github.com/wheredoesyourmindgo/nushu-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.nushu-vscode-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/wheredoesyourmindgo/nushu-vscode-theme/master/extra/iTerm Theme/Nushu Dark.itermcolors"
+colors:
+  bg: "#F8F6F1"
+  fg: "#2B2822"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#116329"
+  yellow: "#4D2D00"
+  blue: "#0969DA"
+  magenta: "#6639BA"
+  cyan: "#1B7C83"
+  white: "#6E7781"
+  brightBlack: "#57606A"
+  brightRed: "#A40E26"
+  brightGreen: "#1A7F37"
+  brightYellow: "#633C01"
+  brightBlue: "#218BFF"
+  brightMagenta: "#8250DF"
+  brightCyan: "#3192AA"
+  brightWhite: "#8C959F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Nushu (Nushu Dark)"
+  contrast:
+    fg: 96.2
+    black: 96.1
+    red: 69.4
+    green: 79.9
+    yellow: 92.6
+    blue: 69.6
+    magenta: 79.5
+    cyan: 68.5
+    white: 66.3
+    brightBlack: 76.4
+    brightRed: 79.9
+    brightGreen: 69.3
+    brightYellow: 86.7
+    brightBlue: 55.4
+    brightMagenta: 69
+    brightCyan: 58
+    brightWhite: 51.9

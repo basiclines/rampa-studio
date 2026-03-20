@@ -1,0 +1,53 @@
+name: "Starburst Dark"
+source:
+  marketplace_id: "psanchez.starburst-theme"
+  version: "0.2.1"
+  installs: 333
+  rating: 5
+  ratings: 1
+  author: "Pavel Sanchez"
+  repo: "https://github.com/PaleBluDot/starburst-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=psanchez.starburst-theme"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#E6E6E6"
+  black: "#E6E6E6"
+  red: "#DD656D"
+  green: "#4EBD8F"
+  yellow: "#D9DF34"
+  blue: "#0076A9"
+  magenta: "#D37FAC"
+  cyan: "#5FB3B3"
+  white: "#E6E6E6"
+  brightBlack: "#E6E6E6"
+  brightRed: "#DD656D"
+  brightGreen: "#4EBD8F"
+  brightYellow: "#D9DF34"
+  brightBlue: "#0076A9"
+  brightMagenta: "#D37FAC"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.4
+    black: 91.4
+    red: 40.4
+    green: 56.1
+    yellow: 82.1
+    blue: 27.2
+    magenta: 47.3
+    cyan: 53.8
+    white: 91.4
+    brightBlack: 91.4
+    brightRed: 40.4
+    brightGreen: 56.1
+    brightYellow: 82.1
+    brightBlue: 27.2
+    brightMagenta: 47.3
+    brightCyan: 53.8
+    brightWhite: 91.4

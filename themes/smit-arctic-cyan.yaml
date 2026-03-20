@@ -1,0 +1,53 @@
+name: "Smit Arctic Cyan"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#1A2429"
+  fg: "#C5E5F5"
+  black: "#385268"
+  red: "#78C0E0"
+  green: "#69E6D0"
+  yellow: "#69D4E6"
+  blue: "#5FB0BF"
+  magenta: "#B9CFE0"
+  cyan: "#7DCFFF"
+  white: "#C5E5F5"
+  brightBlack: "#47667A"
+  brightRed: "#78C0E0"
+  brightGreen: "#69E6D0"
+  brightYellow: "#69D4E6"
+  brightBlue: "#5FB0BF"
+  brightMagenta: "#B9CFE0"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#C5E5F5"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 85.4
+    black: 11.5
+    red: 60.8
+    green: 76.8
+    yellow: 69.2
+    blue: 50.8
+    magenta: 73.1
+    cyan: 69.5
+    white: 85.4
+    brightBlack: 19
+    brightRed: 60.8
+    brightGreen: 76.8
+    brightYellow: 69.2
+    brightBlue: 50.8
+    brightMagenta: 73.1
+    brightCyan: 69.5
+    brightWhite: 85.4

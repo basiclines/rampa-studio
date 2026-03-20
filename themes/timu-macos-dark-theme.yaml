@@ -1,0 +1,53 @@
+name: "Timu macOS dark Theme"
+source:
+  marketplace_id: "aimebertrand.timu-macos-vscode"
+  version: "1.0.4"
+  installs: 2481
+  rating: 0
+  ratings: 0
+  author: "Aimé Bertrand"
+  repo: "https://gitlab.com/aimebertrand/timu-macos-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=aimebertrand.timu-macos-vscode"
+  formats: null
+colors:
+  bg: "#222327"
+  fg: "#FFFFFF"
+  black: "#222327"
+  red: "#EC5F5E"
+  green: "#78B856"
+  yellow: "#F6C844"
+  blue: "#88C0D0"
+  magenta: "#E45C9C"
+  cyan: "#46D9FF"
+  white: "#FFFFFF"
+  brightBlack: "#222327"
+  brightRed: "#EC5F5E"
+  brightGreen: "#78B856"
+  brightYellow: "#F6C844"
+  brightBlue: "#88C0D0"
+  brightMagenta: "#E45C9C"
+  brightCyan: "#46D9FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "Timu macOS light Theme"
+  contrast:
+    fg: 105.3
+    black: 0
+    red: 39.6
+    green: 52.5
+    yellow: 74.1
+    blue: 61.1
+    magenta: 39.2
+    cyan: 71.5
+    white: 105.3
+    brightBlack: 0
+    brightRed: 39.6
+    brightGreen: 52.5
+    brightYellow: 74.1
+    brightBlue: 61.1
+    brightMagenta: 39.2
+    brightCyan: 71.5
+    brightWhite: 105.3

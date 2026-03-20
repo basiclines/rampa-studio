@@ -1,0 +1,53 @@
+name: "Capy UI"
+source:
+  marketplace_id: "PatrickBoyd.capy-ui-theme"
+  version: "1.0.3"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Patrick Boyd"
+  repo: "https://github.com/yourusername/capy-ui-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PatrickBoyd.capy-ui-theme"
+  formats: null
+colors:
+  bg: "#1C1D21"
+  fg: "#F7F9F9"
+  black: "#1C1D21"
+  red: "#E11D1D"
+  green: "#00BA7C"
+  yellow: "#BDBEC1"
+  blue: "#1E80C7"
+  magenta: "#4F5B6F"
+  cyan: "#1E80C7"
+  white: "#F7F9F9"
+  brightBlack: "#36383F"
+  brightRed: "#E11D1D"
+  brightGreen: "#00BA7C"
+  brightYellow: "#BDBEC1"
+  brightBlue: "#8BB4D8"
+  brightMagenta: "#A0B0C0"
+  brightCyan: "#8BB4D8"
+  brightWhite: "#F7F9F9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.9
+    black: 0
+    red: 29
+    green: 51.4
+    yellow: 65.7
+    blue: 31.2
+    magenta: 16.5
+    cyan: 31.2
+    white: 101.9
+    brightBlack: 0
+    brightRed: 29
+    brightGreen: 51.4
+    brightYellow: 65.7
+    brightBlue: 57.6
+    brightMagenta: 56.7
+    brightCyan: 57.6
+    brightWhite: 101.9

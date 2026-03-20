@@ -1,0 +1,53 @@
+name: "Progress Dark"
+source:
+  marketplace_id: "PhilippComans.feels-like-progress"
+  version: "1.0.0"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "Philipp Comans"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=PhilippComans.feels-like-progress"
+  formats: null
+colors:
+  bg: "#0C1C15"
+  fg: "#FFFFFF"
+  black: "#273C32"
+  red: "#EA819B"
+  green: "#1EC677"
+  yellow: "#FFEB84"
+  blue: "#8DCFD3"
+  magenta: "#F7BDFE"
+  cyan: "#3CCD88"
+  white: "#FFFFFF"
+  brightBlack: "#67756E"
+  brightRed: "#F7BDFE"
+  brightGreen: "#AEE3C1"
+  brightYellow: "#FFF9D8"
+  brightBlue: "#CFF9F6"
+  brightMagenta: "#FFFAFD"
+  brightCyan: "#DDF1DC"
+  brightWhite: "#F7F8F8"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 164
+  pair: null
+  contrast:
+    fg: 106.6
+    black: 0
+    red: 50.4
+    green: 57.5
+    yellow: 93.1
+    blue: 69.6
+    magenta: 77.1
+    cyan: 61.7
+    white: 106.6
+    brightBlack: 26.9
+    brightRed: 77.1
+    brightGreen: 81
+    brightYellow: 102.1
+    brightBlue: 97.2
+    brightMagenta: 104.2
+    brightCyan: 93.9
+    brightWhite: 101.9

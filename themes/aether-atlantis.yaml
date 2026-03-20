@@ -1,0 +1,53 @@
+name: "Aether Atlantis"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#051114"
+  fg: "#C0DCE0"
+  black: "#0D2329"
+  red: "#DC2626"
+  green: "#84CC16"
+  yellow: "#FCD34D"
+  blue: "#38BDF8"
+  magenta: "#E879F9"
+  cyan: "#2DD4BF"
+  white: "#C0DCE0"
+  brightBlack: "#456970"
+  brightRed: "#EF4444"
+  brightGreen: "#A3E635"
+  brightYellow: "#FDE68A"
+  brightBlue: "#7DD3FC"
+  brightMagenta: "#F0ABFC"
+  brightCyan: "#5EEAD4"
+  brightWhite: "#E0F2FE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 214
+  pair: "Aether Zen"
+  contrast:
+    fg: 81.8
+    black: 0
+    red: 29.7
+    green: 64.1
+    yellow: 82
+    blue: 60.2
+    magenta: 53.7
+    cyan: 67.5
+    white: 81.8
+    brightBlack: 21.5
+    brightRed: 37.4
+    brightGreen: 79.3
+    brightYellow: 91.5
+    brightBlue: 73.3
+    brightMagenta: 70.2
+    brightCyan: 80.5
+    brightWhite: 97.1

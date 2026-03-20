@@ -1,0 +1,54 @@
+name: "SynthWave Material Ansi 16"
+source:
+  marketplace_id: "ctenbrinke.ansi16"
+  version: "0.3.8"
+  installs: 824
+  rating: 5
+  ratings: 1
+  author: "chtenb"
+  repo: "https://github.com/chtenb/vscode-ansi16"
+  url: "https://marketplace.visualstudio.com/items?itemName=ctenbrinke.ansi16"
+  formats:
+    sublime: "https://raw.githubusercontent.com/chtenb/vscode-ansi16/main/themes/material-ansi16.tmTheme"
+colors:
+  bg: "#262335"
+  fg: "#CCCCCC"
+  black: "#676E95"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#94AFEB"
+  magenta: "#C792EA"
+  cyan: "#B9DEDF"
+  white: "#B4B8D0"
+  brightBlack: "#676E95"
+  brightRed: "#FF5370"
+  brightGreen: "#87DE97"
+  brightYellow: "#F78C6C"
+  brightBlue: "#B9DEDF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#8EE2E5"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 72.7
+    black: 24.5
+    red: 44.6
+    green: 82.2
+    yellow: 77
+    blue: 56.2
+    magenta: 51.8
+    cyan: 79.3
+    white: 61.7
+    brightBlack: 24.5
+    brightRed: 41.7
+    brightGreen: 72.2
+    brightYellow: 53
+    brightBlue: 79.3
+    brightMagenta: 51.8
+    brightCyan: 77.6
+    brightWhite: 83

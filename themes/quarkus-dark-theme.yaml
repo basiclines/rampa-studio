@@ -1,0 +1,53 @@
+name: "Quarkus Dark Theme"
+source:
+  marketplace_id: "tsurdilovic.theme-quarkus-dark"
+  version: "0.0.1"
+  installs: 8882
+  rating: 0
+  ratings: 0
+  author: "Tihomir Surdilovic"
+  repo: "https://github.com/tsurdilo/theme-quarkus-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=tsurdilovic.theme-quarkus-dark"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#4A97E8"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#46B29D"
+  yellow: "#F0CA4D"
+  blue: "#00FFFF"
+  magenta: "#E37B40"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#00FFFF"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 40.8
+    black: 0
+    red: 40.4
+    green: 47.7
+    yellow: 72.7
+    blue: 88.2
+    magenta: 42.6
+    cyan: 88.2
+    white: 103.9
+    brightBlack: 88.2
+    brightRed: 45.9
+    brightGreen: 86.1
+    brightYellow: 100.6
+    brightBlue: 63.2
+    brightMagenta: 59.7
+    brightCyan: 93.8
+    brightWhite: 103.9

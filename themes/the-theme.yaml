@@ -1,0 +1,53 @@
+name: "The Theme"
+source:
+  marketplace_id: "mazhugasergei.the-theme"
+  version: "0.0.4"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "mazhugasergei"
+  repo: "https://github.com/mazhugasergei/the-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mazhugasergei.the-theme"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#9D9C9D"
+  black: "#2A2A2A"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#FFFFFF"
+  white: "#FFFFFF"
+  brightBlack: "#505050"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#FFFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 48
+    black: 0
+    red: 33.1
+    green: 61.8
+    yellow: 76.5
+    blue: 48.7
+    magenta: 46.6
+    cyan: 107
+    white: 107
+    brightBlack: 13.3
+    brightRed: 33.1
+    brightGreen: 61.8
+    brightYellow: 76.5
+    brightBlue: 48.7
+    brightMagenta: 46.6
+    brightCyan: 107
+    brightWhite: 107

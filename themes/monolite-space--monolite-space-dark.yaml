@@ -1,0 +1,53 @@
+name: "Monolite Space (Monolite Space Dark)"
+source:
+  marketplace_id: "MonoliteSpaces.theme-monolite-space-vscode"
+  version: "1.0.0"
+  installs: 77
+  rating: 0
+  ratings: 0
+  author: "A3ST1CODE"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=MonoliteSpaces.theme-monolite-space-vscode"
+  formats: null
+colors:
+  bg: "#2D2D2D"
+  fg: "#FFFFFF"
+  black: "#3A3A3A"
+  red: "#FF6B8B"
+  green: "#8CD98F"
+  yellow: "#CCCCCC"
+  blue: "#FFA366"
+  magenta: "#A59AE3"
+  cyan: "#6EC8E6"
+  white: "#FFFFFF"
+  brightBlack: "#7A787D"
+  brightRed: "#FF6B8B"
+  brightGreen: "#8CD98F"
+  brightYellow: "#CCCCCC"
+  brightBlue: "#FFA366"
+  brightMagenta: "#A59AE3"
+  brightCyan: "#6EC8E6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.4
+    black: 0
+    red: 45.5
+    green: 68.5
+    yellow: 71.2
+    blue: 60.3
+    magenta: 48.1
+    cyan: 62.1
+    white: 103.4
+    brightBlack: 26.9
+    brightRed: 45.5
+    brightGreen: 68.5
+    brightYellow: 71.2
+    brightBlue: 60.3
+    brightMagenta: 48.1
+    brightCyan: 62.1
+    brightWhite: 103.4

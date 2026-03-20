@@ -1,0 +1,53 @@
+name: "Fleex Theme Rose Dark"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  rating: 5
+  ratings: 1
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+  formats: null
+colors:
+  bg: "#1D161A"
+  fg: "#F4E9EE"
+  black: "#151015"
+  red: "#FF8692"
+  green: "#95B36D"
+  yellow: "#E1AE63"
+  blue: "#F09CB1"
+  magenta: "#C7A0F1"
+  cyan: "#80D0CC"
+  white: "#F4E9EE"
+  brightBlack: "#151015"
+  brightRed: "#FF8692"
+  brightGreen: "#95B36D"
+  brightYellow: "#E1AE63"
+  brightBlue: "#F09CB1"
+  brightMagenta: "#C7A0F1"
+  brightCyan: "#80D0CC"
+  brightWhite: "#F4E9EE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 343
+  pair: "Fleex Theme Rose Light"
+  contrast:
+    fg: 94.2
+    black: 0
+    red: 55.8
+    green: 54.7
+    yellow: 62.3
+    blue: 60.7
+    magenta: 58.7
+    cyan: 68.9
+    white: 94.2
+    brightBlack: 0
+    brightRed: 55.8
+    brightGreen: 54.7
+    brightYellow: 62.3
+    brightBlue: 60.7
+    brightMagenta: 58.7
+    brightCyan: 68.9
+    brightWhite: 94.2

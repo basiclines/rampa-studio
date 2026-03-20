@@ -1,0 +1,53 @@
+name: "Infinitus"
+source:
+  marketplace_id: "jayavelrajan.infinitus-dark"
+  version: "0.1.0"
+  installs: 239
+  rating: 5
+  ratings: 1
+  author: "Jaya Vel Rajan"
+  repo: "https://github.com/Jayavelrajan/Infinitus-vscode-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jayavelrajan.infinitus-dark"
+  formats: null
+colors:
+  bg: "#122133"
+  fg: "#B9CDDA"
+  black: "#344162"
+  red: "#FF4B91"
+  green: "#FFEAA7"
+  yellow: "#F5D491"
+  blue: "#FF6868"
+  magenta: "#86A7FC"
+  cyan: "#FF6868"
+  white: "#B9CDDA"
+  brightBlack: "#444A5E"
+  brightRed: "#FF4B91"
+  brightGreen: "#FFEAA7"
+  brightYellow: "#F5D491"
+  brightBlue: "#FF6868"
+  brightMagenta: "#86A7FC"
+  brightCyan: "#FF6868"
+  brightWhite: "#B9CDDA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 254
+  pair: null
+  contrast:
+    fg: 72.3
+    black: 0
+    red: 42.2
+    green: 92.5
+    yellow: 80.7
+    blue: 46.2
+    magenta: 53.7
+    cyan: 46.2
+    white: 72.3
+    brightBlack: 10
+    brightRed: 42.2
+    brightGreen: 92.5
+    brightYellow: 80.7
+    brightBlue: 46.2
+    brightMagenta: 53.7
+    brightCyan: 46.2
+    brightWhite: 72.3

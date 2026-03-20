@@ -1,0 +1,53 @@
+name: "monokai Dev (dev7)"
+source:
+  marketplace_id: "DevVikramSingh.monokai-dragon"
+  version: "0.0.2"
+  installs: 110
+  rating: 0
+  ratings: 0
+  author: "Dev  Vikram  Singh"
+  repo: "https://github.com/techtrigon/monokai-Dev"
+  url: "https://marketplace.visualstudio.com/items?itemName=DevVikramSingh.monokai-dragon"
+  formats: null
+colors:
+  bg: "#26262A"
+  fg: "#FFDD77"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#0969FF"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.7
+    black: 0
+    red: 24.6
+    green: 50.9
+    yellow: 83.5
+    blue: 27
+    magenta: 27.6
+    cyan: 45.4
+    white: 87.9
+    brightBlack: 19.9
+    brightRed: 36.4
+    brightGreen: 61.4
+    brightYellow: 93.5
+    brightBlue: 37.9
+    brightMagenta: 43.2
+    brightCyan: 53.3
+    brightWhite: 87.9

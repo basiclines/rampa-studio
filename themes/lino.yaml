@@ -1,0 +1,53 @@
+name: "lino"
+source:
+  marketplace_id: "AryanMann.lino-theme"
+  version: "0.0.2"
+  installs: 119
+  rating: 0
+  ratings: 0
+  author: "Aryan Mann"
+  repo: "https://github.com/aryan-mann/lino-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AryanMann.lino-theme"
+  formats: null
+colors:
+  bg: "#F7F7F7"
+  fg: "#89979B"
+  black: "#46494B"
+  red: "#D11F30"
+  green: "#8BBC65"
+  yellow: "#D79A25"
+  blue: "#31989D"
+  magenta: "#B741E2"
+  cyan: "#3EB893"
+  white: "#969696"
+  brightBlack: "#0A0A0A"
+  brightRed: "#FF0017"
+  brightGreen: "#70DE59"
+  brightYellow: "#F9A810"
+  brightBlue: "#27ACD5"
+  brightMagenta: "#EC4FF9"
+  brightCyan: "#2DD5A2"
+  brightWhite: "#BEBEBE"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 52.1
+    black: 86.1
+    red: 69.7
+    green: 38.8
+    yellow: 43.3
+    blue: 56.8
+    magenta: 64.1
+    cyan: 43.5
+    white: 51.4
+    brightBlack: 101.1
+    brightRed: 59.3
+    brightGreen: 25.6
+    brightYellow: 33
+    brightBlue: 46.2
+    brightMagenta: 50.5
+    brightCyan: 30.4
+    brightWhite: 30.3

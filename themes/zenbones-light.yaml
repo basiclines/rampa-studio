@@ -1,0 +1,53 @@
+name: "Zenbones Light"
+source:
+  marketplace_id: "vinitkme.zenbones-redux"
+  version: "1.0.1"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "Gotchacode"
+  repo: "https://github.com/vinitkumar/zenbones"
+  url: "https://marketplace.visualstudio.com/items?itemName=vinitkme.zenbones-redux"
+  formats: null
+colors:
+  bg: "#F0EDEC"
+  fg: "#2C363C"
+  black: "#2C363C"
+  red: "#A8334C"
+  green: "#4F6C31"
+  yellow: "#944927"
+  blue: "#286486"
+  magenta: "#88507D"
+  cyan: "#3B8992"
+  white: "#F0EDEC"
+  brightBlack: "#9B948F"
+  brightRed: "#94253E"
+  brightGreen: "#3F5A22"
+  brightYellow: "#803D1C"
+  brightBlue: "#1D5573"
+  brightMagenta: "#7B3B70"
+  brightCyan: "#2B747C"
+  brightWhite: "#DEDAD8"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Zenbones Dark"
+  contrast:
+    fg: 87.8
+    black: 87.8
+    red: 70.8
+    green: 69.4
+    yellow: 71.3
+    blue: 71.4
+    magenta: 69.5
+    cyan: 57.2
+    white: 0
+    brightBlack: 46.2
+    brightRed: 76.5
+    brightGreen: 76.6
+    brightYellow: 77.1
+    brightBlue: 77.4
+    brightMagenta: 76.3
+    brightCyan: 66.3
+    brightWhite: 8.5

@@ -1,0 +1,53 @@
+name: "Futuristt"
+source:
+  marketplace_id: "carlowisse.futuristt"
+  version: "1.6.0"
+  installs: 5360
+  rating: 5
+  ratings: 1
+  author: "carlowisse"
+  repo: "https://github.com/carlowisse/futuristt-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlowisse.futuristt"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#EE204D"
+  green: "#2FA43D"
+  yellow: "#FFD505"
+  blue: "#1F75FE"
+  magenta: "#CC00CC"
+  cyan: "#00CFCF"
+  white: "#EEEEEE"
+  brightBlack: "#000000"
+  brightRed: "#EE204D"
+  brightGreen: "#2FA43D"
+  brightYellow: "#FFD505"
+  brightBlue: "#1F75FE"
+  brightMagenta: "#CC00CC"
+  brightCyan: "#00CFCF"
+  brightWhite: "#2FA43D"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 34.5
+    green: 42.6
+    yellow: 83.4
+    blue: 33.7
+    magenta: 31.4
+    cyan: 66
+    white: 96.8
+    brightBlack: 0
+    brightRed: 34.5
+    brightGreen: 42.6
+    brightYellow: 83.4
+    brightBlue: 33.7
+    brightMagenta: 31.4
+    brightCyan: 66
+    brightWhite: 42.6

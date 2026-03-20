@@ -1,0 +1,58 @@
+name: "warm-burnout-light"
+source:
+  marketplace_id: "felip3fdl.warm-burnout"
+  version: "0.1.6"
+  installs: 15
+  rating: 5
+  ratings: 1
+  author: "Felipe F Lima"
+  repo: "https://github.com/felipefdl/warm-burnout"
+  url: "https://marketplace.visualstudio.com/items?itemName=felip3fdl.warm-burnout"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/ghostty/AGENTS.md"
+    iterm2: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/iterm2/Warm Burnout Dark.itermcolors"
+    windows-terminal: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/windows-terminal/warm-burnout-dark.json"
+    xcode: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/xcode/Warm Burnout Dark.xccolortheme"
+    nvim: "https://raw.githubusercontent.com/felipefdl/warm-burnout/main/nvim/lua/warm-burnout/highlights.lua"
+colors:
+  bg: "#F5EDE0"
+  fg: "#3A3630"
+  black: "#3A3630"
+  red: "#B82820"
+  green: "#2D6A14"
+  yellow: "#8A6000"
+  blue: "#2060A0"
+  magenta: "#8A3090"
+  cyan: "#146858"
+  white: "#C0B8AA"
+  brightBlack: "#686868"
+  brightRed: "#B82820"
+  brightGreen: "#3A7A20"
+  brightYellow: "#9A7008"
+  brightBlue: "#2870B0"
+  brightMagenta: "#9A38A0"
+  brightCyan: "#208870"
+  brightWhite: "#FAF6F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 80
+  pair: "Warm Burnout"
+  contrast:
+    fg: 87.3
+    black: 87.3
+    red: 69.4
+    green: 72.1
+    yellow: 67.5
+    blue: 71.6
+    magenta: 74.1
+    cyan: 72.4
+    white: 27.7
+    brightBlack: 67.7
+    brightRed: 69.4
+    brightGreen: 65.7
+    brightYellow: 60.6
+    brightBlue: 65.3
+    brightMagenta: 69.4
+    brightCyan: 59.6
+    brightWhite: 0

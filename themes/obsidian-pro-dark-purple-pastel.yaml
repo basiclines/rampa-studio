@@ -1,0 +1,53 @@
+name: "Obsidian Pro - Dark Purple Pastel"
+source:
+  marketplace_id: "williamkoller.obsidian-pro-theme"
+  version: "1.0.1"
+  installs: 42
+  rating: 5
+  ratings: 1
+  author: "williamkoller"
+  repo: "https://github.com/williamkoller/obsidian-pro-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=williamkoller.obsidian-pro-theme"
+  formats: null
+colors:
+  bg: "#0B0B0B"
+  fg: "#EAEAEC"
+  black: "#111111"
+  red: "#EF4444"
+  green: "#C4B5FD"
+  yellow: "#F5D487"
+  blue: "#A78BFA"
+  magenta: "#B9A1FF"
+  cyan: "#DDD6FE"
+  white: "#F2F2F2"
+  brightBlack: "#6B7280"
+  brightRed: "#F87171"
+  brightGreen: "#DDD6FE"
+  brightYellow: "#F8E29A"
+  brightBlue: "#C4B5FD"
+  brightMagenta: "#DCD2FF"
+  brightCyan: "#E9E3FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.1
+    black: 0
+    red: 37.7
+    green: 67.7
+    yellow: 82.5
+    blue: 49.1
+    magenta: 59.1
+    cyan: 84.4
+    white: 99.2
+    brightBlack: 28
+    brightRed: 48.9
+    brightGreen: 84.4
+    brightYellow: 89.5
+    brightBlue: 67.7
+    brightMagenta: 82.7
+    brightCyan: 91.8
+    brightWhite: 107.7

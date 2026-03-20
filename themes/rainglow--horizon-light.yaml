@@ -1,0 +1,53 @@
+name: "Rainglow (horizon-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#474466"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#FD8A25"
+  yellow: "#BA66D6"
+  blue: "#FED230"
+  magenta: "#E5194B"
+  cyan: "#E524A9"
+  white: "#524E75"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEC08A"
+  brightYellow: "#DEB6EC"
+  brightBlue: "#FEE895"
+  brightMagenta: "#F07492"
+  brightCyan: "#F07FCD"
+  brightWhite: "#7470A0"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Rainglow (horizon-contrast)"
+  contrast:
+    fg: 91.1
+    black: 0
+    red: 80.3
+    green: 46.3
+    yellow: 62.4
+    blue: 21.3
+    magenta: 69.7
+    cyan: 66
+    white: 86.9
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 27
+    brightYellow: 31.8
+    brightBlue: 10.9
+    brightMagenta: 52.7
+    brightCyan: 47.5
+    brightWhite: 71.9

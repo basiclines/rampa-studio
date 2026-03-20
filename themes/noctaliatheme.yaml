@@ -1,0 +1,53 @@
+name: "NoctaliaTheme"
+source:
+  marketplace_id: "Noctalia.noctaliatheme"
+  version: "0.0.5"
+  installs: 1327
+  rating: 0
+  ratings: 0
+  author: "Noctalia Team"
+  repo: "https://github.com/tuibird/noctalia-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Noctalia.noctaliatheme"
+  formats: null
+colors:
+  bg: "#070722"
+  fg: "#FFFFFF"
+  black: "#A79EAD"
+  red: "#FD4663"
+  green: "#A9AEFE"
+  yellow: "#000999"
+  blue: "#FFF59B"
+  magenta: "#9BFECE"
+  cyan: "#00994F"
+  white: "#FFFFFF"
+  brightBlack: "#FFFFFF"
+  brightRed: "#990018"
+  brightGreen: "#000999"
+  brightYellow: "#A9AEFE"
+  brightBlue: "#998A00"
+  brightMagenta: "#00994F"
+  brightCyan: "#9BFECE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 277
+  pair: null
+  contrast:
+    fg: 107.6
+    black: 51.2
+    red: 41.7
+    green: 61.8
+    yellow: 0
+    blue: 99.3
+    magenta: 94.1
+    cyan: 37.5
+    white: 107.6
+    brightBlack: 107.6
+    brightRed: 14.1
+    brightGreen: 0
+    brightYellow: 61.8
+    brightBlue: 39
+    brightMagenta: 37.5
+    brightCyan: 94.1
+    brightWhite: 107.6

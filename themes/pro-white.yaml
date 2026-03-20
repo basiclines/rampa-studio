@@ -1,0 +1,53 @@
+name: "Pro white"
+source:
+  marketplace_id: "xynny.prowhite-theme"
+  version: "0.0.1"
+  installs: 1580
+  rating: 0
+  ratings: 0
+  author: "xynny"
+  repo: "https://github.com/xynnylol/vsthemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=xynny.prowhite-theme"
+  formats: null
+colors:
+  bg: "#F9F9F9"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 102.5
+    red: 70.4
+    green: 45.6
+    yellow: 54.3
+    blue: 82.5
+    magenta: 71
+    cyan: 57
+    white: 82.3
+    brightBlack: 75.2
+    brightRed: 70.4
+    brightGreen: 37.3
+    brightYellow: 37.4
+    brightBlue: 82.5
+    brightMagenta: 71
+    brightCyan: 57
+    brightWhite: 44.9

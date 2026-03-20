@@ -1,0 +1,53 @@
+name: "Metropolis"
+source:
+  marketplace_id: "FabianDeckmann.metropolis"
+  version: "1.0.0"
+  installs: 235
+  rating: 4.33
+  ratings: 3
+  author: "Fabian Deckmann"
+  repo: "https://github.com/ffjaervik/metropolis-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=FabianDeckmann.metropolis"
+  formats: null
+colors:
+  bg: "#081F2C"
+  fg: "#3CDBC0"
+  black: "#2B363C"
+  red: "#FC4235"
+  green: "#2BCF33"
+  yellow: "#FC4235"
+  blue: "#717FFA"
+  magenta: "#D857FF"
+  cyan: "#3CDBC0"
+  white: "#CAD2D6"
+  brightBlack: "#7F848E"
+  brightRed: "#FA4235"
+  brightGreen: "#2BCF33"
+  brightYellow: "#F1BE48"
+  brightBlue: "#8F99F8"
+  brightMagenta: "#D857FF"
+  brightCyan: "#03FAD1"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 237
+  pair: "Metropolis Light"
+  contrast:
+    fg: 69.9
+    black: 0
+    red: 38.7
+    green: 60.4
+    yellow: 38.7
+    blue: 38.3
+    magenta: 42.6
+    cyan: 69.9
+    white: 76.7
+    brightBlack: 34.8
+    brightRed: 38.2
+    brightGreen: 60.4
+    brightYellow: 70.1
+    brightBlue: 49.5
+    brightMagenta: 42.6
+    brightCyan: 85.6
+    brightWhite: 82.3

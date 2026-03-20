@@ -1,0 +1,53 @@
+name: "Kolada"
+source:
+  marketplace_id: "KaliaHayes.kolada"
+  version: "0.4.0"
+  installs: 7974
+  rating: 5
+  ratings: 4
+  author: "Kalia Hayes"
+  repo: "https://github.com/KaliaHayes/Kolada-VS-Code-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=KaliaHayes.kolada"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#3D3D3D"
+  red: "#FF3333"
+  green: "#00FF64"
+  yellow: "#FFE779"
+  blue: "#1584FF"
+  magenta: "#FF02FF"
+  cyan: "#0AE1FF"
+  white: "#A3A3A3"
+  brightBlack: "#666666"
+  brightRed: "#FF6767"
+  brightGreen: "#97FFB1"
+  brightYellow: "#FFCE00"
+  brightBlue: "#8BCEFF"
+  brightMagenta: "#FF9AFF"
+  brightCyan: "#8EF4FF"
+  brightWhite: "#C9C9C9"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 7.5
+    red: 39.6
+    green: 87.1
+    yellow: 92.3
+    blue: 38.5
+    magenta: 46.2
+    cyan: 77.1
+    white: 52.5
+    brightBlack: 23
+    brightRed: 48.2
+    brightGreen: 93.6
+    brightYellow: 80.4
+    brightBlue: 72.6
+    brightMagenta: 67.9
+    brightCyan: 90.7
+    brightWhite: 73.9

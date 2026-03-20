@@ -1,0 +1,53 @@
+name: "Tailwind Rose Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#881337"
+  fg: "#FFE4E6"
+  black: "#9F1239"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#FECDD3"
+  brightBlack: "#9F1239"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FECDD3"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 10
+  pair: "Tailwind Rose Light"
+  contrast:
+    fg: 81.5
+    black: 0
+    red: 36.2
+    green: 58.6
+    yellow: 65.9
+    blue: 39.5
+    magenta: 37.8
+    cyan: 56.7
+    white: 70.7
+    brightBlack: 0
+    brightRed: 36.2
+    brightGreen: 58.6
+    brightYellow: 65.9
+    brightBlue: 39.5
+    brightMagenta: 37.8
+    brightCyan: 56.7
+    brightWhite: 70.7

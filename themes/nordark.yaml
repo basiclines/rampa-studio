@@ -1,0 +1,53 @@
+name: "Nordark"
+source:
+  marketplace_id: "highglorious.darknorde"
+  version: "0.1.0"
+  installs: 77
+  rating: 0
+  ratings: 0
+  author: "V8v"
+  repo: "https://github.com/highglorious/darknorde"
+  url: "https://marketplace.visualstudio.com/items?itemName=highglorious.darknorde"
+  formats: null
+colors:
+  bg: "#0D121C"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 85.8
+    black: 8.5
+    red: 33.4
+    green: 62.1
+    yellow: 76.8
+    blue: 49.1
+    magenta: 46.9
+    cyan: 63.1
+    white: 92.8
+    brightBlack: 15.8
+    brightRed: 33.4
+    brightGreen: 62.1
+    brightYellow: 76.8
+    brightBlue: 49.1
+    brightMagenta: 46.9
+    brightCyan: 61
+    brightWhite: 96.6

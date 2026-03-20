@@ -1,0 +1,53 @@
+name: "Ef Elea Dark"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#222524"
+  fg: "#EAF2EF"
+  black: "#EAF2EF"
+  red: "#FF656A"
+  green: "#7FC87F"
+  yellow: "#CAC85F"
+  blue: "#57AFF6"
+  magenta: "#F59ACF"
+  cyan: "#6FCFD2"
+  white: "#303332"
+  brightBlack: "#969FAF"
+  brightRed: "#FF7A5F"
+  brightGreen: "#7FCA5A"
+  brightYellow: "#E0B02F"
+  brightBlue: "#78AFFF"
+  brightMagenta: "#FA90EA"
+  brightCyan: "#7FCFDF"
+  brightWhite: "#222524"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Ef Elea Light"
+  contrast:
+    fg: 95.3
+    black: 95.3
+    red: 45
+    green: 60.8
+    yellow: 67.8
+    blue: 52.8
+    magenta: 60.6
+    cyan: 66
+    white: 0
+    brightBlack: 47.2
+    brightRed: 49.6
+    brightGreen: 61
+    brightYellow: 60.6
+    brightBlue: 55.3
+    brightMagenta: 59.9
+    brightCyan: 67.6
+    brightWhite: 0

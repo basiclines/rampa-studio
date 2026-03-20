@@ -1,0 +1,53 @@
+name: "Eclipse Dark (Eclipse Flare)"
+source:
+  marketplace_id: "NoahLezama.eclipse-dark"
+  version: "0.0.8"
+  installs: 140
+  rating: 5
+  ratings: 1
+  author: "Noah Lezama"
+  repo: "https://github.com/A5TUT0/Eclipse"
+  url: "https://marketplace.visualstudio.com/items?itemName=NoahLezama.eclipse-dark"
+  formats: null
+colors:
+  bg: "#1F1F1F"
+  fg: "#D4D4D4"
+  black: "#1F1F1F"
+  red: "#FF1744"
+  green: "#76FF03"
+  yellow: "#FFAB00"
+  blue: "#448AFF"
+  magenta: "#F50057"
+  cyan: "#00E5FF"
+  white: "#D4D4D4"
+  brightBlack: "#757575"
+  brightRed: "#FF1744"
+  brightGreen: "#76FF03"
+  brightYellow: "#FFAB00"
+  brightBlue: "#448AFF"
+  brightMagenta: "#F50057"
+  brightCyan: "#00E5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 36.2
+    green: 87.2
+    yellow: 64.9
+    blue: 39.6
+    magenta: 33.8
+    cyan: 77.1
+    white: 78.5
+    brightBlack: 27.7
+    brightRed: 36.2
+    brightGreen: 87.2
+    brightYellow: 64.9
+    brightBlue: 39.6
+    brightMagenta: 33.8
+    brightCyan: 77.1
+    brightWhite: 105.9

@@ -1,0 +1,53 @@
+name: "Banjo Loans Dark"
+source:
+  marketplace_id: "lucidlabs.banjo-loans-theme"
+  version: "1.4.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.banjo-loans-theme"
+  formats: null
+colors:
+  bg: "#1A1024"
+  fg: "#E8E4F0"
+  black: "#0A0610"
+  red: "#E06050"
+  green: "#7ABF5B"
+  yellow: "#D8A06C"
+  blue: "#3D7AF5"
+  magenta: "#C06BDA"
+  cyan: "#5BB8BF"
+  white: "#E8E4F0"
+  brightBlack: "#999999"
+  brightRed: "#E87272"
+  brightGreen: "#90D470"
+  brightYellow: "#E8C070"
+  brightBlue: "#6B9BFF"
+  brightMagenta: "#D898E8"
+  brightCyan: "#78D0D4"
+  brightWhite: "#F0ECF8"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 306
+  pair: "Banjo Loans Light"
+  contrast:
+    fg: 90.7
+    black: 0
+    red: 38.8
+    green: 57.6
+    yellow: 56.2
+    blue: 34.4
+    magenta: 40.9
+    cyan: 55.7
+    white: 90.7
+    brightBlack: 46.4
+    brightRed: 45.3
+    brightGreen: 69.3
+    brightYellow: 71
+    brightBlue: 48.8
+    brightMagenta: 58.4
+    brightCyan: 69
+    brightWhite: 95.8

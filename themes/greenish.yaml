@@ -1,0 +1,51 @@
+name: "Greenish"
+source:
+  marketplace_id: "nickmarsaw.greenish-color-theme"
+  version: "0.0.1"
+  installs: 256
+  author: "nickmarsaw"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=nickmarsaw.greenish-color-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD2020"
+  green: "#0BA506"
+  yellow: "#C0C007"
+  blue: "#0656B0"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#20FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0070FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFDB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 26.3
+    green: 42.4
+    yellow: 65.2
+    blue: 18.1
+    magenta: 30.8
+    cyan: 48.6
+    white: 91
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 86.6
+    brightYellow: 102.7
+    brightBlue: 32.1
+    brightMagenta: 46.2
+    brightCyan: 90.5
+    brightWhite: 91

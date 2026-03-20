@@ -1,0 +1,53 @@
+name: "Bit Intense"
+source:
+  marketplace_id: "bit-theme.bit-theme"
+  version: "1.0.4"
+  installs: 1062
+  rating: 5
+  ratings: 1
+  author: "Bit Theme"
+  repo: "https://github.com/bit-theme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=bit-theme.bit-theme"
+  formats: null
+colors:
+  bg: "#131715"
+  fg: "#E2E2E2"
+  black: "#121212"
+  red: "#F55258"
+  green: "#41B883"
+  yellow: "#F4F564"
+  blue: "#79B4E2"
+  magenta: "#E25698"
+  cyan: "#50CCD0"
+  white: "#E2E2E2"
+  brightBlack: "#505050"
+  brightRed: "#FB3F3F"
+  brightGreen: "#41B847"
+  brightYellow: "#F7E100"
+  brightBlue: "#63A4DD"
+  brightMagenta: "#E14985"
+  brightCyan: "#45C2CA"
+  brightWhite: "#FEFEFE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.2
+    black: 0
+    red: 40.7
+    green: 52.4
+    yellow: 95.9
+    blue: 57.5
+    magenta: 39.1
+    cyan: 64.9
+    white: 88.2
+    brightBlack: 13.3
+    brightRed: 39.1
+    brightGreen: 51.2
+    brightYellow: 86.5
+    brightBlue: 49.3
+    brightMagenta: 36
+    brightCyan: 59.7
+    brightWhite: 106.3

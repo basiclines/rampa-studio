@@ -1,0 +1,53 @@
+name: "Fleex Theme Light"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  rating: 5
+  ratings: 1
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#1D1D1F"
+  black: "#444B54"
+  red: "#BE005A"
+  green: "#2A8442"
+  yellow: "#D47500"
+  blue: "#0056B3"
+  magenta: "#6F42C1"
+  cyan: "#00827F"
+  white: "#F5F5F7"
+  brightBlack: "#444B54"
+  brightRed: "#BE005A"
+  brightGreen: "#2A8442"
+  brightYellow: "#D47500"
+  brightBlue: "#0056B3"
+  brightMagenta: "#6F42C1"
+  brightCyan: "#00827F"
+  brightWhite: "#F5F5F7"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Fleex Theme Dark"
+  contrast:
+    fg: 103.8
+    black: 90.2
+    red: 78.8
+    green: 72.2
+    yellow: 60
+    blue: 83.6
+    magenta: 81.7
+    cyan: 71.8
+    white: 0
+    brightBlack: 90.2
+    brightRed: 78.8
+    brightGreen: 72.2
+    brightYellow: 60
+    brightBlue: 83.6
+    brightMagenta: 81.7
+    brightCyan: 71.8
+    brightWhite: 0

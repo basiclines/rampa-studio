@@ -1,0 +1,53 @@
+name: "VSToolKit"
+source:
+  marketplace_id: "PhilippBo.vstoolkit"
+  version: "1.1.0"
+  installs: 133
+  rating: 0
+  ratings: 0
+  author: "Philipp Bo."
+  repo: "https://github.com/phil1436/VSToolKit"
+  url: "https://marketplace.visualstudio.com/items?itemName=PhilippBo.vstoolkit"
+  formats: null
+colors:
+  bg: "#010409"
+  fg: "#D6DEEB"
+  black: "#010409"
+  red: "#EF5350"
+  green: "#22DA6E"
+  yellow: "#C5E478"
+  blue: "#82AAFF"
+  magenta: "#FD4A4A"
+  cyan: "#21C7A8"
+  white: "#FFFFFF"
+  brightBlack: "#575656"
+  brightRed: "#EF5350"
+  brightGreen: "#22DA6E"
+  brightYellow: "#FFEB95"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#FD4A4A"
+  brightCyan: "#7FDBCA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 86.2
+    black: 0
+    red: 40.3
+    green: 68.2
+    yellow: 83
+    blue: 56.9
+    magenta: 42
+    cyan: 60.7
+    white: 107.9
+    brightBlack: 16.6
+    brightRed: 40.3
+    brightGreen: 68.2
+    brightYellow: 94.7
+    brightBlue: 56.9
+    brightMagenta: 42
+    brightCyan: 75
+    brightWhite: 107.9

@@ -1,0 +1,53 @@
+name: "ABOC"
+source:
+  marketplace_id: "aboc.aboc"
+  version: "0.0.4"
+  installs: 94
+  rating: 0
+  ratings: 0
+  author: "aboc"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=aboc.aboc"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#D4D4D4"
+  black: "#585858"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#FFA800"
+  magenta: "#BC3FBC"
+  cyan: "#A76E00"
+  white: "#7B6800"
+  brightBlack: "#999999"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#DE9200"
+  brightMagenta: "#D670D6"
+  brightCyan: "#6B4701"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 17.3
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 65.8
+    magenta: 30.8
+    cyan: 32.2
+    white: 24.5
+    brightBlack: 47.2
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 52.3
+    brightMagenta: 46.4
+    brightCyan: 13.7
+    brightWhite: 107.9

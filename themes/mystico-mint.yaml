@@ -1,0 +1,53 @@
+name: "Mystico - mint"
+source:
+  marketplace_id: "Chibantichic.mystico-mint"
+  version: "0.8.0"
+  installs: 533
+  rating: 0
+  ratings: 0
+  author: "Chibantichic"
+  repo: "https://github.com/chibanti/mystico-mint-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Chibantichic.mystico-mint"
+  formats: null
+colors:
+  bg: "#060808"
+  fg: "#F0F2F5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#0099C2"
+  magenta: "#BC3FBC"
+  cyan: "#90DAE7"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#31CAF2"
+  brightMagenta: "#D670D6"
+  brightCyan: "#00DDEC"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.1
+    black: 0
+    red: 27.6
+    green: 53.9
+    yellow: 86.5
+    blue: 41.8
+    magenta: 30.7
+    cyan: 77
+    white: 91
+    brightBlack: 23
+    brightRed: 39.5
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 65.8
+    brightMagenta: 46.3
+    brightCyan: 74
+    brightWhite: 91

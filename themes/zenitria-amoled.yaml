@@ -1,0 +1,53 @@
+name: "Zenitria AMOLED"
+source:
+  marketplace_id: "Zenitria.zenitria-amoled"
+  version: "1.0.2"
+  installs: 2553
+  rating: 0
+  ratings: 0
+  author: "Zenitria"
+  repo: "https://github.com/Zenitria/zenitria-amoled-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=Zenitria.zenitria-amoled"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#999999"
+  black: "#000000"
+  red: "#ED424B"
+  green: "#09E85E"
+  yellow: "#FFF712"
+  blue: "#0DB1FC"
+  magenta: "#BF47FF"
+  cyan: "#51F2F5"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#ED424B"
+  brightGreen: "#09E85E"
+  brightYellow: "#FFF712"
+  brightBlue: "#0DB1FC"
+  brightMagenta: "#BF47FF"
+  brightCyan: "#51F2F5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 47.2
+    black: 0
+    red: 37.2
+    green: 74.9
+    yellow: 98.8
+    blue: 55.2
+    magenta: 37.4
+    cyan: 86.1
+    white: 107.9
+    brightBlack: 0
+    brightRed: 37.2
+    brightGreen: 74.9
+    brightYellow: 98.8
+    brightBlue: 55.2
+    brightMagenta: 37.4
+    brightCyan: 86.1
+    brightWhite: 107.9

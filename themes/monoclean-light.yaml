@@ -1,0 +1,53 @@
+name: "Monoclean Light"
+source:
+  marketplace_id: "barelyreaper.monoclean"
+  version: "0.1.7"
+  installs: 555
+  rating: 0
+  ratings: 0
+  author: "Reaper"
+  repo: "https://github.com/barelyhuman/vscode-monoclean-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=barelyreaper.monoclean"
+  formats: null
+colors:
+  bg: "#EFEFEF"
+  fg: "#16161B"
+  black: "#121212"
+  red: "#EE0000"
+  green: "#29D398"
+  yellow: "#FAB795"
+  blue: "#50B4E6"
+  magenta: "#CA30C7"
+  cyan: "#95E6CB"
+  white: "#969696"
+  brightBlack: "#16161B"
+  brightRed: "#FF0000"
+  brightGreen: "#3FDAA4"
+  brightYellow: "#FAB795"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#A6FDE1"
+  brightWhite: "#D1D1D1"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.3
+    black: 95.8
+    red: 58.9
+    green: 27
+    yellow: 21.1
+    blue: 36.2
+    magenta: 59.7
+    cyan: 11.9
+    white: 46.6
+    brightBlack: 95.3
+    brightRed: 54.6
+    brightGreen: 23
+    brightYellow: 21.1
+    brightBlue: 56.5
+    brightMagenta: 34.2
+    brightCyan: 0
+    brightWhite: 15

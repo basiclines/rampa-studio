@@ -1,0 +1,53 @@
+name: "WL-Moon Phase"
+source:
+  marketplace_id: "WatkinsLabs.moon-phase"
+  version: "1.0.1"
+  installs: 26
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.moon-phase"
+  formats: null
+colors:
+  bg: "#1F1F2E"
+  fg: "#D9D9E5"
+  black: "#000000"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#FFB86C"
+  blue: "#505064"
+  magenta: "#6A6775"
+  cyan: "#505064"
+  white: "#D9D9E5"
+  brightBlack: "#666666"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#FFB86C"
+  brightBlue: "#505064"
+  brightMagenta: "#6A6775"
+  brightCyan: "#505064"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 81.9
+    black: 0
+    red: 42.2
+    green: 83.7
+    yellow: 70.3
+    blue: 12.6
+    magenta: 22
+    cyan: 12.6
+    white: 81.9
+    brightBlack: 20.9
+    brightRed: 42.2
+    brightGreen: 83.7
+    brightYellow: 70.3
+    brightBlue: 12.6
+    brightMagenta: 22
+    brightCyan: 12.6
+    brightWhite: 105.7

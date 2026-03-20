@@ -1,0 +1,53 @@
+name: "NordishCocoa"
+source:
+  marketplace_id: "GregPasquariello.nordishcocoa"
+  version: "1.0.3"
+  installs: 439
+  rating: 5
+  ratings: 1
+  author: "Greg Pasquariello"
+  repo: "https://github.com/gpasq/VisualStudioCodeThemeNordishCocoa"
+  url: "https://marketplace.visualstudio.com/items?itemName=GregPasquariello.nordishcocoa"
+  formats: null
+colors:
+  bg: "#333333"
+  fg: "#D8DEE9"
+  black: "#606060"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#606060"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 14.7
+    red: 28.1
+    green: 56.8
+    yellow: 71.5
+    blue: 43.8
+    magenta: 41.6
+    cyan: 57.8
+    white: 87.5
+    brightBlack: 14.7
+    brightRed: 28.1
+    brightGreen: 56.8
+    brightYellow: 71.5
+    brightBlue: 43.8
+    brightMagenta: 41.6
+    brightCyan: 55.7
+    brightWhite: 91.4

@@ -1,0 +1,53 @@
+name: "Wisteria"
+source:
+  marketplace_id: "raleigh-hansen.wisteria-vscode"
+  version: "1.0.1"
+  installs: 936
+  rating: 5
+  ratings: 4
+  author: "Raleigh Hansen"
+  repo: "https://github.com/raleighsedona/wisteria-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=raleigh-hansen.wisteria-vscode"
+  formats: null
+colors:
+  bg: "#120C24"
+  fg: "#A9B1D6"
+  black: "#6B6B6B"
+  red: "#CD2C59"
+  green: "#73DACA"
+  yellow: "#C0B65D"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#4A9CCC"
+  white: "#A9B1D6"
+  brightBlack: "#999999"
+  brightRed: "#DB587D"
+  brightGreen: "#93ECDE"
+  brightYellow: "#EAE18E"
+  brightBlue: "#99B9FB"
+  brightMagenta: "#D1BEF5"
+  brightCyan: "#73B2D7"
+  brightWhite: "#C2C5DE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 60.4
+    black: 24.7
+    red: 27.4
+    green: 73.3
+    yellow: 61.2
+    blue: 52.2
+    magenta: 56.1
+    cyan: 44.4
+    white: 60.4
+    brightBlack: 46.7
+    brightRed: 37.5
+    brightGreen: 85
+    brightYellow: 86.4
+    brightBlue: 64.1
+    brightMagenta: 72.1
+    brightCyan: 56.1
+    brightWhite: 71.8

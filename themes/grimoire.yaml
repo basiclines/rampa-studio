@@ -1,0 +1,53 @@
+name: "Grimoire"
+source:
+  marketplace_id: "walele993.fable-code-theme"
+  version: "1.2.0"
+  installs: 46
+  rating: 0
+  ratings: 0
+  author: "Gabriele Meucci"
+  repo: "https://github.com/walele993/fable_a_vsc_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=walele993.fable-code-theme"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#262626"
+  red: "#D16D9C"
+  green: "#A3C9A3"
+  yellow: "#C49B6C"
+  blue: "#9E7EBE"
+  magenta: "#FF7EB6"
+  cyan: "#A3C9A3"
+  white: "#D4D4D4"
+  brightBlack: "#757575"
+  brightRed: "#D16D9C"
+  brightGreen: "#A3C9A3"
+  brightYellow: "#C49B6C"
+  brightBlue: "#9E7EBE"
+  brightMagenta: "#FF7EB6"
+  brightCyan: "#A3C9A3"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 40
+    green: 66.3
+    yellow: 50.3
+    blue: 38.5
+    magenta: 54.3
+    cyan: 66.3
+    white: 78.7
+    brightBlack: 27.8
+    brightRed: 40
+    brightGreen: 66.3
+    brightYellow: 50.3
+    brightBlue: 38.5
+    brightMagenta: 54.3
+    brightCyan: 66.3
+    brightWhite: 78.7

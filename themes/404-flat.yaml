@@ -1,0 +1,53 @@
+name: "404 Flat"
+source:
+  marketplace_id: "arthur404dev.theme-404"
+  version: "0.2.0"
+  installs: 2447
+  rating: 0
+  ratings: 0
+  author: "Arthur 404 dev"
+  repo: "https://github.com/404-theme/visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=arthur404dev.theme-404"
+  formats: null
+colors:
+  bg: "#161926"
+  fg: "#B9C3D5"
+  black: "#1A1A1A"
+  red: "#F4005F"
+  green: "#58EBD7"
+  yellow: "#FA8419"
+  blue: "#9D65FF"
+  magenta: "#FF65F7"
+  cyan: "#9D65FF"
+  white: "#C4C5B5"
+  brightBlack: "#625E4C"
+  brightRed: "#F4005F"
+  brightGreen: "#9AEFEA"
+  brightYellow: "#FA8419"
+  brightBlue: "#9D65FF"
+  brightMagenta: "#FF65F7"
+  brightCyan: "#9D65FF"
+  brightWhite: "#F6F6EF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 68.7
+    black: 0
+    red: 34.4
+    green: 80.1
+    yellow: 52.1
+    blue: 36.7
+    magenta: 52.8
+    cyan: 36.7
+    white: 69.5
+    brightBlack: 18.3
+    brightRed: 34.4
+    brightGreen: 86.7
+    brightYellow: 52.1
+    brightBlue: 36.7
+    brightMagenta: 52.8
+    brightCyan: 36.7
+    brightWhite: 100.3

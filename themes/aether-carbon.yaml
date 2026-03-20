@@ -1,0 +1,53 @@
+name: "Aether Carbon"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#D4D4D4"
+  black: "#0A0A0A"
+  red: "#A0A0A0"
+  green: "#B0B0B0"
+  yellow: "#C0C0C0"
+  blue: "#909090"
+  magenta: "#808080"
+  cyan: "#989898"
+  white: "#D4D4D4"
+  brightBlack: "#3A3A3A"
+  brightRed: "#B8B8B8"
+  brightGreen: "#C8C8C8"
+  brightYellow: "#E0E0E0"
+  brightBlue: "#A8A8A8"
+  brightMagenta: "#989898"
+  brightCyan: "#B0B0B0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.3
+    black: 0
+    red: 50.7
+    green: 59.4
+    yellow: 68.5
+    blue: 42.4
+    magenta: 34.6
+    cyan: 46.5
+    white: 80.3
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 73.2
+    brightYellow: 87.7
+    brightBlue: 55
+    brightMagenta: 46.5
+    brightCyan: 59.4
+    brightWhite: 107.7

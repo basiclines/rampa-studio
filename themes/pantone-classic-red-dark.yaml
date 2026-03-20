@@ -1,0 +1,53 @@
+name: "Pantone Classic Red (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#230704"
+  fg: "#F5E6E2"
+  black: "#230704"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#753B4F"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#F5E6E2"
+  brightBlack: "#DD9C8D"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#FCFBFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 31
+  pair: "Pantone Classic Red (Light)"
+  contrast:
+    fg: 92.9
+    black: 0
+    red: 32.5
+    green: 52.1
+    yellow: 71.8
+    blue: 12.8
+    magenta: 33.6
+    cyan: 52.8
+    white: 92.9
+    brightBlack: 56.6
+    brightRed: 38.9
+    brightGreen: 59.4
+    brightYellow: 76.2
+    brightBlue: 29.1
+    brightMagenta: 42.2
+    brightCyan: 59.4
+    brightWhite: 104.7

@@ -1,0 +1,53 @@
+name: "Hardwired - Arctic Blue"
+source:
+  marketplace_id: "thwilson3.hardwired-color-theme"
+  version: "0.0.1"
+  installs: 625
+  rating: 0
+  ratings: 0
+  author: "thwilson3"
+  repo: "https://github.com/thwilson3/hardwired-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thwilson3.hardwired-color-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#7C9CA4"
+  black: "#43646D"
+  red: "#94B7C0"
+  green: "#B39987"
+  yellow: "#7D7D7D"
+  blue: "#72A1AD"
+  magenta: "#819DA5"
+  cyan: "#B39487"
+  white: "#B8CACF"
+  brightBlack: "#618690"
+  brightRed: "#939C9F"
+  brightGreen: "#B39987"
+  brightYellow: "#A9BDC2"
+  brightBlue: "#8DC2D1"
+  brightMagenta: "#9EBFC9"
+  brightCyan: "#B39487"
+  brightWhite: "#E2E2E2"
+meta:
+  mode: "dark"
+  accent: "blue"
+  hue: null
+  pair: null
+  contrast:
+    fg: 46
+    black: 20.1
+    red: 60.1
+    green: 49.8
+    yellow: 33.3
+    blue: 47.5
+    magenta: 46.8
+    cyan: 48
+    white: 72.6
+    brightBlack: 34.8
+    brightRed: 47.9
+    brightGreen: 49.8
+    brightYellow: 64.8
+    brightBlue: 65
+    brightMagenta: 64.9
+    brightCyan: 48
+    brightWhite: 89.1

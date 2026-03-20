@@ -1,0 +1,53 @@
+name: "Aether Forest"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#0A0D0A"
+  fg: "#E0F2E9"
+  black: "#111611"
+  red: "#F87171"
+  green: "#34D399"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#A78BFA"
+  cyan: "#67E8F9"
+  white: "#E0F2E9"
+  brightBlack: "#374151"
+  brightRed: "#FCA5A5"
+  brightGreen: "#6EE7B7"
+  brightYellow: "#FDE68A"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#C4B5FD"
+  brightCyan: "#A5F3FC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Aether Zen"
+  contrast:
+    fg: 96.3
+    black: 0
+    red: 48.9
+    green: 66
+    yellow: 73.5
+    blue: 52.1
+    magenta: 49.1
+    cyan: 82
+    white: 96.3
+    brightBlack: 8.4
+    brightRed: 66.3
+    brightGreen: 78.8
+    brightYellow: 91.6
+    brightBlue: 69
+    brightMagenta: 67.6
+    brightCyan: 91.5
+    brightWhite: 107.7

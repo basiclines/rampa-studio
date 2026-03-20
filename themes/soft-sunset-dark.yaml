@@ -1,0 +1,53 @@
+name: "Soft Sunset Dark"
+source:
+  marketplace_id: "brainkit.soft-sunset-dark"
+  version: "0.0.27"
+  installs: 28
+  rating: 5
+  ratings: 1
+  author: "brainkit"
+  repo: "https://github.com/brainkit/vs-code-soft-sunset-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brainkit.soft-sunset-dark"
+  formats: null
+colors:
+  bg: "#24201A"
+  fg: "#C8C0A8"
+  black: "#3F4338"
+  red: "#C4786E"
+  green: "#7AA87A"
+  yellow: "#C0A070"
+  blue: "#78A89A"
+  magenta: "#9A7A96"
+  cyan: "#78A89A"
+  white: "#C8C0A8"
+  brightBlack: "#5A584D"
+  brightRed: "#C47C74"
+  brightGreen: "#98A878"
+  brightYellow: "#C89858"
+  brightBlue: "#C47C74"
+  brightMagenta: "#C47C74"
+  brightCyan: "#78A89A"
+  brightWhite: "#C8C0A8"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 78
+  pair: null
+  contrast:
+    fg: 66.5
+    black: 0
+    red: 38.7
+    green: 47
+    yellow: 51.3
+    blue: 47.8
+    magenta: 34.4
+    cyan: 47.8
+    white: 66.5
+    brightBlack: 15
+    brightRed: 40
+    brightGreen: 49.6
+    brightYellow: 49.1
+    brightBlue: 40
+    brightMagenta: 40
+    brightCyan: 47.8
+    brightWhite: 66.5

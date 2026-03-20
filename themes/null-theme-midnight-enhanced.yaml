@@ -1,0 +1,53 @@
+name: "Null Theme - Midnight Enhanced"
+source:
+  marketplace_id: "kimberlycasamina.null-theme"
+  version: "1.0.8"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "kimberlycasamina"
+  repo: "https://github.com/kimicasamina/vscode-null-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=kimberlycasamina.null-theme"
+  formats: null
+colors:
+  bg: "#0B0B16"
+  fg: "#EAEAFF"
+  black: "#0B0B16"
+  red: "#FF4488"
+  green: "#44FF88"
+  yellow: "#FFFF88"
+  blue: "#6688FF"
+  magenta: "#FF66FF"
+  cyan: "#99FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#7777AA"
+  brightRed: "#FF88CC"
+  brightGreen: "#99FFCC"
+  brightYellow: "#FFFFCC"
+  brightBlue: "#99CCFF"
+  brightMagenta: "#FFCCFF"
+  brightCyan: "#CCFFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 283
+  pair: null
+  contrast:
+    fg: 95
+    black: 0
+    red: 42.9
+    green: 88.2
+    yellow: 103.6
+    blue: 42.4
+    magenta: 54.6
+    cyan: 96.7
+    white: 107.6
+    brightBlack: 32.5
+    brightRed: 59.5
+    brightGreen: 94.4
+    brightYellow: 105.5
+    brightBlue: 72.6
+    brightMagenta: 85.3
+    brightCyan: 101.3
+    brightWhite: 107.6

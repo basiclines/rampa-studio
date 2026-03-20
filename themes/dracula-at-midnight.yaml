@@ -1,0 +1,53 @@
+name: "Dracula At Midnight"
+source:
+  marketplace_id: "walcew.dracula-at-midnight"
+  version: "3.0.0"
+  installs: 28
+  rating: 5
+  ratings: 1
+  author: "Wallacy Santos Ferreira"
+  repo: "https://github.com/walcew/dracula-at-midnight"
+  url: "https://marketplace.visualstudio.com/items?itemName=walcew.dracula-at-midnight"
+  formats: null
+colors:
+  bg: "#1F1F1F"
+  fg: "#F8F8F2"
+  black: "#44475A"
+  red: "#DE312B"
+  green: "#2FD651"
+  yellow: "#D0D662"
+  blue: "#9C6FCF"
+  magenta: "#DE559C"
+  cyan: "#6AC5D3"
+  white: "#656B84"
+  brightBlack: "#656B84"
+  brightRed: "#FF5555"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#BD93F9"
+  brightMagenta: "#FF79C6"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101
+    black: 9.3
+    red: 29.5
+    green: 64
+    yellow: 75.6
+    blue: 34.7
+    magenta: 37.2
+    cyan: 62
+    white: 23.6
+    brightBlack: 23.6
+    brightRed: 42.4
+    brightGreen: 83.9
+    brightYellow: 97.6
+    brightBlue: 52.7
+    brightMagenta: 53.6
+    brightCyan: 83
+    brightWhite: 101

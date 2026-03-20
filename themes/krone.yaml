@@ -1,0 +1,54 @@
+name: "krone"
+source:
+  marketplace_id: "Volskaya.irrelevant"
+  version: "0.0.2"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "Volskaya"
+  repo: "https://github.com/volskaya/irrelevant"
+  url: "https://marketplace.visualstudio.com/items?itemName=Volskaya.irrelevant"
+  formats:
+    nvim: "https://raw.githubusercontent.com/volskaya/irrelevant/main/extensions/neovim/lua/irrelevant/colors.lua"
+colors:
+  bg: "#1C1C1C"
+  fg: "#FFFFFF"
+  black: "#1C1C1C"
+  red: "#FF1652"
+  green: "#946BFB"
+  yellow: "#FAEF6B"
+  blue: "#878787"
+  magenta: "#979797"
+  cyan: "#A6A6A6"
+  white: "#444444"
+  brightBlack: "#666666"
+  brightRed: "#FAEF6B"
+  brightGreen: "#946BFB"
+  brightYellow: "#DDDDDD"
+  brightBlue: "#878787"
+  brightMagenta: "#979797"
+  brightCyan: "#A6A6A6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.3
+    black: 0
+    red: 36.8
+    green: 36.4
+    yellow: 93.4
+    blue: 36.6
+    magenta: 44.6
+    cyan: 52.5
+    white: 8.3
+    brightBlack: 21.5
+    brightRed: 93.4
+    brightGreen: 36.4
+    brightYellow: 84.4
+    brightBlue: 36.6
+    brightMagenta: 44.6
+    brightCyan: 52.5
+    brightWhite: 106.3

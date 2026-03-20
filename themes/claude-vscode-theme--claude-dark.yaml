@@ -1,0 +1,53 @@
+name: "Claude VSCode Theme (Claude Dark)"
+source:
+  marketplace_id: "AlvinUnreal.claude-vscode-theme"
+  version: "1.2.0"
+  installs: 2157
+  rating: 5
+  ratings: 1
+  author: "Alvin Unreal"
+  repo: "https://github.com/alvinunreal/awesome-claude"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#E4E4E4"
+  black: "#1E1E1E"
+  red: "#F87171"
+  green: "#7BD88F"
+  yellow: "#FCD34D"
+  blue: "#6CABF7"
+  magenta: "#B68BF7"
+  cyan: "#4DD4E8"
+  white: "#9C9893"
+  brightBlack: "#6A6A6A"
+  brightRed: "#FFA8A8"
+  brightGreen: "#9FFFAF"
+  brightYellow: "#FFED7D"
+  brightBlue: "#92D5FF"
+  brightMagenta: "#D6BBFF"
+  brightCyan: "#7DFFFF"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.7
+    black: 0
+    red: 48.4
+    green: 70.5
+    yellow: 81.6
+    blue: 54.5
+    magenta: 50.3
+    cyan: 69.9
+    white: 46.2
+    brightBlack: 24
+    brightRed: 67.5
+    brightGreen: 93.4
+    brightYellow: 94.4
+    brightBlue: 75.5
+    brightMagenta: 72
+    brightCyan: 94.4
+    brightWhite: 79.8

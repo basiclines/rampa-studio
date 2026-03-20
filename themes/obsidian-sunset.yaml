@@ -1,0 +1,53 @@
+name: "Obsidian Sunset"
+source:
+  marketplace_id: "lczerniawski.obsidiansunset"
+  version: "1.5.2"
+  installs: 1027
+  rating: 5
+  ratings: 2
+  author: "Łukasz Czerniawski"
+  repo: "https://github.com/lczerniawski/ObsidianSunset"
+  url: "https://marketplace.visualstudio.com/items?itemName=lczerniawski.obsidiansunset"
+  formats: null
+colors:
+  bg: "#171615"
+  fg: "#BFBDB6"
+  black: "#11151C"
+  red: "#EA6C73"
+  green: "#7FD962"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#CDA1FA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#AAD94C"
+  brightYellow: "#FFB454"
+  brightBlue: "#59C2FF"
+  brightMagenta: "#D2A6FF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.9
+    black: 0
+    red: 44.1
+    green: 70.1
+    yellow: 66.7
+    blue: 60.7
+    magenta: 60.7
+    cyan: 78
+    white: 71.8
+    brightBlack: 23
+    brightRed: 46.7
+    brightGreen: 73.4
+    brightYellow: 69.7
+    brightBlue: 63.4
+    brightMagenta: 63.5
+    brightCyan: 80.9
+    brightWhite: 107

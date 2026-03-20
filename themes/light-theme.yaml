@@ -1,0 +1,53 @@
+name: "Light Theme"
+source:
+  marketplace_id: "akashbadole.dev-ideas-themes"
+  version: "2.1.1"
+  installs: 406
+  rating: 5
+  ratings: 1
+  author: "akashbadole"
+  repo: "https://github.com/akashsbadole/dev-psychology-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=akashbadole.dev-ideas-themes"
+  formats: null
+colors:
+  bg: "#EEEEEE"
+  fg: "#000000"
+  black: "#263238"
+  red: "#F44336"
+  green: "#4CAF50"
+  yellow: "#FFEB3B"
+  blue: "#2196F3"
+  magenta: "#E91E63"
+  cyan: "#00BCD4"
+  white: "#ECEFF1"
+  brightBlack: "#37474F"
+  brightRed: "#FF5252"
+  brightGreen: "#69F0AE"
+  brightYellow: "#FFFF00"
+  brightBlue: "#448AFF"
+  brightMagenta: "#FF4081"
+  brightCyan: "#18FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Dark Theme"
+  contrast:
+    fg: 95.9
+    black: 89.4
+    red: 52.9
+    green: 43.2
+    yellow: 0
+    blue: 47.6
+    magenta: 57.9
+    cyan: 34.5
+    white: 0
+    brightBlack: 82.3
+    brightRed: 47.8
+    brightGreen: 10.3
+    brightYellow: 0
+    brightBlue: 50.1
+    brightMagenta: 49.2
+    brightCyan: 0
+    brightWhite: 8.9

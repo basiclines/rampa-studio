@@ -1,0 +1,53 @@
+name: "Etec PFA - Light"
+source:
+  marketplace_id: "Gustavo2022003.cps-theme"
+  version: "0.1.3"
+  installs: 1033
+  rating: 0
+  ratings: 0
+  author: "Gustavo2022003"
+  repo: "https://github.com/Gustavo2022003/CPS-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Gustavo2022003.cps-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#666666"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#828282"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 78.8
+    red: 74
+    green: 48
+    yellow: 17
+    blue: 73.3
+    magenta: 70.9
+    cyan: 53.3
+    white: 12.9
+    brightBlack: 65.9
+    brightRed: 62.1
+    brightGreen: 37.9
+    brightYellow: 7.7
+    brightBlue: 60.7
+    brightMagenta: 55.4
+    brightCyan: 45.7
+    brightWhite: 12.9

@@ -1,0 +1,53 @@
+name: "Tailwind Orange Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#7C2D12"
+  fg: "#FFEDD5"
+  black: "#9A3412"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#FED7AA"
+  brightBlack: "#9A3412"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FED7AA"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 38
+  pair: "Tailwind Orange Light"
+  contrast:
+    fg: 85
+    black: 0
+    red: 36.5
+    green: 58.8
+    yellow: 66.2
+    blue: 39.7
+    magenta: 38.1
+    cyan: 57
+    white: 73.7
+    brightBlack: 0
+    brightRed: 36.5
+    brightGreen: 58.8
+    brightYellow: 66.2
+    brightBlue: 39.7
+    brightMagenta: 38.1
+    brightCyan: 57
+    brightWhite: 73.7

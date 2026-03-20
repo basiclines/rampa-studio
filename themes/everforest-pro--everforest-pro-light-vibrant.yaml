@@ -1,0 +1,53 @@
+name: "Everforest Pro (Everforest Pro Light Vibrant)"
+source:
+  marketplace_id: "AndreiLucaci.everforest-pro"
+  version: "2.0.0"
+  installs: 2523
+  rating: 5
+  ratings: 2
+  author: "Andrei Lucaci"
+  repo: "https://github.com/AndreiLucaci/everforest-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndreiLucaci.everforest-pro"
+  formats: null
+colors:
+  bg: "#FFFBEF"
+  fg: "#5C6A72"
+  black: "#5C6A72"
+  red: "#F85552"
+  green: "#8DA101"
+  yellow: "#DFA000"
+  blue: "#3A94C5"
+  magenta: "#DF69BA"
+  cyan: "#35A77C"
+  white: "#939F91"
+  brightBlack: "#5C6A72"
+  brightRed: "#F85552"
+  brightGreen: "#8DA101"
+  brightYellow: "#DFA000"
+  brightBlue: "#3A94C5"
+  brightMagenta: "#DF69BA"
+  brightCyan: "#35A77C"
+  brightWhite: "#F8F5E4"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Everforest Pro (Everforest Pro Dark Vibrant)"
+  contrast:
+    fg: 75.5
+    black: 75.5
+    red: 56.6
+    green: 52.8
+    yellow: 42.5
+    blue: 58.5
+    magenta: 54.5
+    cyan: 54.1
+    white: 50.9
+    brightBlack: 75.5
+    brightRed: 56.6
+    brightGreen: 52.8
+    brightYellow: 42.5
+    brightBlue: 58.5
+    brightMagenta: 54.5
+    brightCyan: 54.1
+    brightWhite: 0

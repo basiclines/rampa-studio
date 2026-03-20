@@ -1,0 +1,53 @@
+name: "Obsidian Pulse Light Theme"
+source:
+  marketplace_id: "MehdiZayani.obsidian-pulse-theme"
+  version: "0.0.1"
+  installs: 53
+  rating: 5
+  ratings: 1
+  author: "Mehdi Zayani"
+  repo: "https://github.com/mehdi-zayani/obsidian-pulse-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MehdiZayani.obsidian-pulse-theme"
+  formats: null
+colors:
+  bg: "#ECECEC"
+  fg: "#333333"
+  black: "#E0E0E0"
+  red: "#FF5555"
+  green: "#8BE9FD"
+  yellow: "#D8B4FF"
+  blue: "#8B5CF6"
+  magenta: "#C574DD"
+  cyan: "#96D6FF"
+  white: "#333333"
+  brightBlack: "#999999"
+  brightRed: "#FF6E6E"
+  brightGreen: "#70F0A8"
+  brightYellow: "#C4B5FD"
+  brightBlue: "#A078F0"
+  brightMagenta: "#DCA3FF"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Obsidian Pulse Theme"
+  contrast:
+    fg: 87.4
+    black: 0
+    red: 46.1
+    green: 0
+    yellow: 21.1
+    blue: 57.5
+    magenta: 45.6
+    cyan: 14.7
+    white: 87.4
+    brightBlack: 43.4
+    brightRed: 40.8
+    brightGreen: 9
+    brightYellow: 23.4
+    brightBlue: 48.4
+    brightMagenta: 26.3
+    brightCyan: 0
+    brightWhite: 0

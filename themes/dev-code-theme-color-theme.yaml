@@ -1,0 +1,53 @@
+name: "Dev-Code-Theme-color-theme"
+source:
+  marketplace_id: "daniloBrayann.dev-code-theme"
+  version: "0.0.29"
+  installs: 238
+  rating: 0
+  ratings: 0
+  author: "daniloBrayann"
+  repo: "https://github.com/danilobrayann/dev-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniloBrayann.dev-code-theme"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#F8F8F2"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#9AA09A"
+  yellow: "#0236FA"
+  blue: "#1E90FF"
+  magenta: "#6A9955"
+  cyan: "#EDCF18"
+  white: "#F8F8F2"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#1E90FF"
+  brightYellow: "#DCDCAA"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#6A9955"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 99
+    black: 0
+    red: 40.4
+    green: 46
+    yellow: 14.8
+    blue: 38.8
+    magenta: 37.1
+    cyan: 74
+    white: 99
+    brightBlack: 25.1
+    brightRed: 45.9
+    brightGreen: 38.8
+    brightYellow: 79.5
+    brightBlue: 63.2
+    brightMagenta: 59.7
+    brightCyan: 37.1
+    brightWhite: 103.9

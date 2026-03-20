@@ -1,0 +1,53 @@
+name: "evangelion unit-01 berserk theme"
+source:
+  marketplace_id: "engr.eva-unit-01-berserk-theme"
+  version: "0.1.0"
+  installs: 592
+  rating: 0
+  ratings: 0
+  author: "engr"
+  repo: "https://github.com/engrx0/eva-unit01-berserk-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=engr.eva-unit-01-berserk-theme"
+  formats: null
+colors:
+  bg: "#1C182C"
+  fg: "#13FF1E"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#00FF00"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 85.1
+    black: 0
+    red: 26.3
+    green: 52.5
+    yellow: 85.2
+    blue: 27
+    magenta: 29.3
+    cyan: 47.1
+    white: 89.6
+    brightBlack: 21.6
+    brightRed: 38.1
+    brightGreen: 63.1
+    brightYellow: 85
+    brightBlue: 39.5
+    brightMagenta: 44.9
+    brightCyan: 54.9
+    brightWhite: 106.4

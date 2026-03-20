@@ -1,0 +1,53 @@
+name: "Hachiko"
+source:
+  marketplace_id: "charlottielove.kitty-hachiko"
+  version: "0.0.1"
+  installs: 20
+  rating: 0
+  ratings: 0
+  author: "charlottielove"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=charlottielove.kitty-hachiko"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#CCCCCC"
+  black: "#181818"
+  red: "#960042"
+  green: "#FF0000"
+  yellow: "#FF5D05"
+  blue: "#FF2044"
+  magenta: "#FFEDCF"
+  cyan: "#6F0027"
+  white: "#FFDAF1"
+  brightBlack: "#333333"
+  brightRed: "#870300"
+  brightGreen: "#690000"
+  brightYellow: "#6F2700"
+  brightBlue: "#333333"
+  brightMagenta: "#FFFFB5"
+  brightCyan: "#F50056"
+  brightWhite: "#FFE6DA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.2
+    black: 0
+    red: 13.8
+    green: 37
+    yellow: 44.7
+    blue: 38
+    magenta: 96.9
+    cyan: 0
+    white: 90.1
+    brightBlack: 0
+    brightRed: 10.3
+    brightGreen: 0
+    brightYellow: 8.1
+    brightBlue: 0
+    brightMagenta: 104.5
+    brightCyan: 35.2
+    brightWhite: 94.2

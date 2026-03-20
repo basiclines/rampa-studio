@@ -1,0 +1,53 @@
+name: "Blueberry dark theme"
+source:
+  marketplace_id: "peymanslh.blueberry-dark-theme"
+  version: "1.1.1"
+  installs: 95889
+  rating: 4.91
+  ratings: 11
+  author: "peymanslh"
+  repo: "https://github.com/peymanslh/vscode-blueberry-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=peymanslh.blueberry-dark-theme"
+  formats: null
+colors:
+  bg: "#242938"
+  fg: "#A6ACCD"
+  black: "#676E95"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 270
+  pair: null
+  contrast:
+    fg: 54.4
+    black: 23.7
+    red: 40.9
+    green: 81.5
+    yellow: 76.2
+    blue: 53.2
+    magenta: 51
+    cyan: 75.5
+    white: 104.2
+    brightBlack: 23.7
+    brightRed: 40.9
+    brightGreen: 81.5
+    brightYellow: 76.2
+    brightBlue: 53.2
+    brightMagenta: 51
+    brightCyan: 75.5
+    brightWhite: 104.2

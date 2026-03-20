@@ -1,0 +1,53 @@
+name: "Nebula Symphony Light"
+source:
+  marketplace_id: "Keevdev.nebula-symphony"
+  version: "1.0.8"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "Keevdev"
+  repo: "https://github.com/keeevdev/nebula-symphony"
+  url: "https://marketplace.visualstudio.com/items?itemName=Keevdev.nebula-symphony"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#424242"
+  black: "#3F4451"
+  red: "#D32F2F"
+  green: "#388E3C"
+  yellow: "#F1FA8C"
+  blue: "#0277BD"
+  magenta: "#7B1FA2"
+  cyan: "#94E2D5"
+  white: "#424242"
+  brightBlack: "#4F5666"
+  brightRed: "#D32F2F"
+  brightGreen: "#388E3C"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#0277BD"
+  brightMagenta: "#7B1FA2"
+  brightCyan: "#94E2D5"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Nebula Symphony Dark"
+  contrast:
+    fg: 93.4
+    black: 92.6
+    red: 72.8
+    green: 68
+    yellow: 0
+    blue: 72.6
+    magenta: 87.1
+    cyan: 22.9
+    white: 93.4
+    brightBlack: 85.6
+    brightRed: 72.8
+    brightGreen: 68
+    brightYellow: 0
+    brightBlue: 72.6
+    brightMagenta: 87.1
+    brightCyan: 22.9
+    brightWhite: 12.3

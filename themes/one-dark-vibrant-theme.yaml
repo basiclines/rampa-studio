@@ -1,0 +1,53 @@
+name: "One Dark Vibrant Theme"
+source:
+  marketplace_id: "josergz.one-dark-vibrant-theme"
+  version: "1.2.2"
+  installs: 355
+  rating: 5
+  ratings: 1
+  author: "José Rodríguez "
+  repo: "https://github.com/josergz/one-dark-vibrant-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=josergz.one-dark-vibrant-theme"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#E0E0E0"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#32CD32"
+  yellow: "#FFA500"
+  blue: "#1E90FF"
+  magenta: "#DA70D6"
+  cyan: "#00CED1"
+  white: "#F5F5F5"
+  brightBlack: "#555555"
+  brightRed: "#FF4500"
+  brightGreen: "#7CFC00"
+  brightYellow: "#FFD700"
+  brightBlue: "#00BFFF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 37
+    green: 60.8
+    yellow: 64.1
+    blue: 42.2
+    magenta: 46.5
+    cyan: 65
+    white: 100.7
+    brightBlack: 15.5
+    brightRed: 40.8
+    brightGreen: 87.3
+    brightYellow: 83.7
+    brightBlue: 60.8
+    brightMagenta: 45.6
+    brightCyan: 91.6
+    brightWhite: 107.3

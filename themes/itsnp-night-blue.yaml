@@ -1,0 +1,53 @@
+name: "ITSNP Night Blue "
+source:
+  marketplace_id: "Sachit.itsnp-theme"
+  version: "0.1.2"
+  installs: 358
+  rating: 5
+  ratings: 2
+  author: "Sachit"
+  repo: "https://github.com/ASACHIT/itsnp-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Sachit.itsnp-theme"
+  formats: null
+colors:
+  bg: "#0F111A"
+  fg: "#C8CDE6"
+  black: "#000000"
+  red: "#7A90D0"
+  green: "#C3E88D"
+  yellow: "#909EFF"
+  blue: "#82AAFF"
+  magenta: "#E0CFFC"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#7A90D0"
+  brightGreen: "#C3E88D"
+  brightYellow: "#909EFF"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#E0CFFC"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 76.3
+    black: 0
+    red: 43
+    green: 84.7
+    yellow: 53.1
+    blue: 56.4
+    magenta: 81.4
+    cyan: 78.7
+    white: 107.3
+    brightBlack: 12
+    brightRed: 43
+    brightGreen: 84.7
+    brightYellow: 53.1
+    brightBlue: 56.4
+    brightMagenta: 81.4
+    brightCyan: 78.7
+    brightWhite: 107.3

@@ -1,0 +1,53 @@
+name: "Aether Dusk"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#1A1220"
+  fg: "#E6DCE8"
+  black: "#261A33"
+  red: "#DF8F8F"
+  green: "#A1C181"
+  yellow: "#E8B87E"
+  blue: "#A7C7E7"
+  magenta: "#C19BD6"
+  cyan: "#8FC5DB"
+  white: "#E6DCE8"
+  brightBlack: "#4A3666"
+  brightRed: "#E6A3A3"
+  brightGreen: "#B5D196"
+  brightYellow: "#F4C493"
+  brightBlue: "#B8D4ED"
+  brightMagenta: "#D3B0E3"
+  brightCyan: "#A3D3E5"
+  brightWhite: "#F5F0F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 310
+  pair: "Aether Zen"
+  contrast:
+    fg: 86.4
+    black: 0
+    red: 52.5
+    green: 62.6
+    yellow: 68.1
+    blue: 69.8
+    magenta: 54.9
+    cyan: 66.1
+    white: 86.4
+    brightBlack: 7.6
+    brightRed: 61.1
+    brightGreen: 72.4
+    brightYellow: 75.3
+    brightBlue: 77.5
+    brightMagenta: 65.7
+    brightCyan: 74.6
+    brightWhite: 98.2

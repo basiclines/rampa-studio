@@ -1,0 +1,53 @@
+name: "IntelliJ IDEA New UI Theme"
+source:
+  marketplace_id: "AnandaBibekRay.intellij-idea-new-ui-theme"
+  version: "1.0.5"
+  installs: 23373
+  rating: 4
+  ratings: 4
+  author: "Ananda Bibek Ray"
+  repo: "https://github.com/anandbibek/vscode-intellij-new-ui-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AnandaBibekRay.intellij-idea-new-ui-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#6E6E6E"
+  red: "#D70000"
+  green: "#5F8700"
+  yellow: "#AF8700"
+  blue: "#0087FF"
+  magenta: "#AF005F"
+  cyan: "#00AFAF"
+  white: "#E4E4E4"
+  brightBlack: "#1C1C1C"
+  brightRed: "#D75F00"
+  brightGreen: "#585858"
+  brightYellow: "#626262"
+  brightBlue: "#808080"
+  brightMagenta: "#5F5FAF"
+  brightCyan: "#8A8A8A"
+  brightWhite: "#FFFFD7"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 75.2
+    red: 73.9
+    green: 69
+    yellow: 60.6
+    blue: 62.3
+    magenta: 81.9
+    cyan: 51.9
+    white: 13.5
+    brightBlack: 104
+    brightRed: 64.7
+    brightGreen: 84.7
+    brightYellow: 80.5
+    brightBlue: 66.9
+    brightMagenta: 77.9
+    brightCyan: 62.1
+    brightWhite: 0

@@ -1,0 +1,51 @@
+name: "XK Light Solarized"
+source:
+  marketplace_id: "x1ngkong.vscode-xk-theme"
+  version: "0.1.0"
+  installs: 31
+  author: "x1ngkong"
+  repo: "https://github.com/x1ngkong/vscode-xk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=x1ngkong.vscode-xk-theme"
+  formats: null
+colors:
+  bg: "#FDF6E3"
+  fg: "#073642"
+  black: "#000000"
+  red: "#B81C1C"
+  green: "#5C6F00"
+  yellow: "#8A6500"
+  blue: "#1A6EA8"
+  magenta: "#A81676"
+  cyan: "#1A6EA8"
+  white: "#073642"
+  brightBlack: "#073642"
+  brightRed: "#B81C1C"
+  brightGreen: "#5C6F00"
+  brightYellow: "#8A6500"
+  brightBlue: "#1A6EA8"
+  brightMagenta: "#A81676"
+  brightCyan: "#1A6EA8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.7
+    black: 100.8
+    red: 75.2
+    green: 72.7
+    yellow: 71
+    blue: 71.6
+    magenta: 76.9
+    cyan: 71.6
+    white: 93.7
+    brightBlack: 93.7
+    brightRed: 75.2
+    brightGreen: 72.7
+    brightYellow: 71
+    brightBlue: 71.6
+    brightMagenta: 76.9
+    brightCyan: 71.6
+    brightWhite: 0

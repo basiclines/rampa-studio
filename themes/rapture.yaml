@@ -1,0 +1,53 @@
+name: "Rapture"
+source:
+  marketplace_id: "Pustur.rapture-vscode"
+  version: "1.7.0"
+  installs: 4867
+  rating: 5
+  ratings: 3
+  author: "Pustur"
+  repo: "https://github.com/Pustur/rapture-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Pustur.rapture-vscode"
+  formats: null
+colors:
+  bg: "#111E2A"
+  fg: "#C0C9E5"
+  black: "#000000"
+  red: "#FC644D"
+  green: "#7AFDE1"
+  yellow: "#FFF09B"
+  blue: "#6C9BF5"
+  magenta: "#FF4FA1"
+  cyan: "#64E0FF"
+  white: "#C0C9E5"
+  brightBlack: "#304B66"
+  brightRed: "#FC644D"
+  brightGreen: "#7AFDE1"
+  brightYellow: "#FFF09B"
+  brightBlue: "#6C9BF5"
+  brightMagenta: "#FF4FA1"
+  brightCyan: "#64E0FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 247
+  pair: null
+  contrast:
+    fg: 72.4
+    black: 0
+    red: 44.7
+    green: 90.8
+    yellow: 95.4
+    blue: 47.2
+    magenta: 43.9
+    cyan: 76.8
+    white: 72.4
+    brightBlack: 9.9
+    brightRed: 44.7
+    brightGreen: 90.8
+    brightYellow: 95.4
+    brightBlue: 47.2
+    brightMagenta: 43.9
+    brightCyan: 76.8
+    brightWhite: 106.2

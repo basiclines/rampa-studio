@@ -1,0 +1,53 @@
+name: "Ef Dream"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#232025"
+  fg: "#EFD5C5"
+  black: "#EFD5C5"
+  red: "#FF6F6F"
+  green: "#51B04F"
+  yellow: "#C0B24F"
+  blue: "#57B0FF"
+  magenta: "#FFAACF"
+  cyan: "#6FB3C0"
+  white: "#322F34"
+  brightBlack: "#8F8886"
+  brightRed: "#FF7A5F"
+  brightGreen: "#7FCE5F"
+  brightYellow: "#D09950"
+  brightBlue: "#80AADF"
+  brightMagenta: "#F498C0"
+  brightCyan: "#8FCFD0"
+  brightWhite: "#232025"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 312
+  pair: null
+  contrast:
+    fg: 81.8
+    black: 81.8
+    red: 47.8
+    green: 46.9
+    yellow: 57.6
+    blue: 54.4
+    magenta: 68.2
+    cyan: 53.3
+    white: 0
+    brightBlack: 37
+    brightRed: 50.1
+    brightGreen: 63.5
+    brightYellow: 50.5
+    brightBlue: 52.4
+    brightMagenta: 59.6
+    brightCyan: 68.6
+    brightWhite: 0

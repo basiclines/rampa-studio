@@ -1,0 +1,53 @@
+name: "Rainglow (chocolate)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#261B0E"
+  fg: "#FFFFFF"
+  black: "#392815"
+  red: "#BA0E2E"
+  green: "#8B6E46"
+  yellow: "#CCB697"
+  blue: "#E2CDB0"
+  magenta: "#B99768"
+  cyan: "#8B6E46"
+  white: "#FFFFFF"
+  brightBlack: "#715029"
+  brightRed: "#F03E5F"
+  brightGreen: "#BCA17B"
+  brightYellow: "#EEE6DB"
+  brightBlue: "#FDFCFB"
+  brightMagenta: "#D9C7AE"
+  brightCyan: "#BCA17B"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 70
+  pair: "Rainglow (chocolate-light)"
+  contrast:
+    fg: 106.1
+    black: 0
+    red: 19.8
+    green: 27
+    yellow: 62.9
+    blue: 76.3
+    magenta: 47.3
+    cyan: 27
+    white: 106.1
+    brightBlack: 15.1
+    brightRed: 36.1
+    brightGreen: 51.8
+    brightYellow: 90.5
+    brightBlue: 104.2
+    brightMagenta: 72.4
+    brightCyan: 51.8
+    brightWhite: 106.1

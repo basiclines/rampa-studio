@@ -1,0 +1,53 @@
+name: "my-custom-theme-extension"
+source:
+  marketplace_id: "GautamSagarMallela.my-custom-theme-extension"
+  version: "1.0.2"
+  installs: 220
+  rating: 5
+  ratings: 2
+  author: "Gautam Sagar Mallela"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=GautamSagarMallela.my-custom-theme-extension"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#D4D4D4"
+  brightBlack: "#666666"
+  brightRed: "#FF6666"
+  brightGreen: "#66FF66"
+  brightYellow: "#FFFF66"
+  brightBlue: "#6666FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 35.7
+    green: 84.6
+    yellow: 100.9
+    blue: 14.4
+    magenta: 44.4
+    cyan: 90.3
+    white: 78.7
+    brightBlack: 21.2
+    brightRed: 46.1
+    brightGreen: 87.2
+    brightYellow: 101.4
+    brightBlue: 30.7
+    brightMagenta: 53
+    brightCyan: 92.2
+    brightWhite: 78.7

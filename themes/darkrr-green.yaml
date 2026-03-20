@@ -1,0 +1,53 @@
+name: "Darkrr - Green"
+source:
+  marketplace_id: "RyanCraigMartin.darkr"
+  version: "0.0.5"
+  installs: 69
+  rating: 5
+  ratings: 1
+  author: "Ryan Craig Martin"
+  repo: "https://github.com/ryancraigmartin/Darkr"
+  url: "https://marketplace.visualstudio.com/items?itemName=RyanCraigMartin.darkr"
+  formats: null
+colors:
+  bg: "#1A1D23"
+  fg: "#FFFFFF"
+  black: "#313131"
+  red: "#D77279"
+  green: "#9EC183"
+  yellow: "#E1C187"
+  blue: "#72AEE3"
+  magenta: "#C792EA"
+  cyan: "#6DB3BC"
+  white: "#DADADA"
+  brightBlack: "#848484"
+  brightRed: "#EC514C"
+  brightGreen: "#9EC183"
+  brightYellow: "#E1C187"
+  brightBlue: "#5E8BF3"
+  brightMagenta: "#C792EA"
+  brightCyan: "#6DB3BC"
+  brightWhite: "#DADADA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 106.2
+    black: 0
+    red: 41.3
+    green: 61.5
+    yellow: 70
+    blue: 53.9
+    magenta: 53.1
+    cyan: 53.6
+    white: 82.5
+    brightBlack: 35
+    brightRed: 37.5
+    brightGreen: 61.5
+    brightYellow: 70
+    brightBlue: 40.5
+    brightMagenta: 53.1
+    brightCyan: 53.6
+    brightWhite: 82.5

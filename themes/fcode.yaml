@@ -1,0 +1,53 @@
+name: "fcode"
+source:
+  marketplace_id: "flanggut.fcode-theme"
+  version: "0.0.2"
+  installs: 80
+  rating: 0
+  ratings: 0
+  author: "flanggut"
+  repo: "https://github.com/flanggut/fcode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=flanggut.fcode-theme"
+  formats: null
+colors:
+  bg: "#292A2F"
+  fg: "#D9D9D9"
+  black: "#2F3238"
+  red: "#F08776"
+  green: "#BBE492"
+  yellow: "#F4C543"
+  blue: "#69AEC8"
+  magenta: "#EF82B1"
+  cyan: "#89BFB3"
+  white: "#E5E9F0"
+  brightBlack: "#656F81"
+  brightRed: "#E78474"
+  brightGreen: "#BBE492"
+  brightYellow: "#D6CA85"
+  brightBlue: "#88DDFB"
+  brightMagenta: "#EF82B1"
+  brightCyan: "#BBF0E4"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.7
+    black: 0
+    red: 49.5
+    green: 78.7
+    yellow: 71.3
+    blue: 49.6
+    magenta: 49.9
+    cyan: 58.2
+    white: 89.5
+    brightBlack: 22.8
+    brightRed: 46.9
+    brightGreen: 78.7
+    brightYellow: 69.9
+    brightBlue: 75.1
+    brightMagenta: 49.9
+    brightCyan: 87.3
+    brightWhite: 93.4

@@ -1,0 +1,53 @@
+name: "Starboy Theme"
+source:
+  marketplace_id: "badrouu-laabed.starboy-theme"
+  version: "1.5.0"
+  installs: 3210
+  rating: 5
+  ratings: 1
+  author: "badrouu-laabed"
+  repo: "https://github.com/Badrouu17/starboy-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=badrouu-laabed.starboy-theme"
+  formats: null
+colors:
+  bg: "#26283B"
+  fg: "#C8D3F5"
+  black: "#000000"
+  red: "#FF757F"
+  green: "#C3E88D"
+  yellow: "#FFC777"
+  blue: "#82AAFF"
+  magenta: "#FCA7EA"
+  cyan: "#86E1FC"
+  white: "#C8D3F5"
+  brightBlack: "#828BB8"
+  brightRed: "#FF757F"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFC777"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#FCA7EA"
+  brightCyan: "#86E1FC"
+  brightWhite: "#C8D3F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 76.5
+    black: 0
+    red: 48.2
+    green: 81.5
+    yellow: 74.8
+    blue: 53.2
+    magenta: 66.6
+    cyan: 77
+    white: 76.5
+    brightBlack: 37.5
+    brightRed: 48.2
+    brightGreen: 81.5
+    brightYellow: 74.8
+    brightBlue: 53.2
+    brightMagenta: 66.6
+    brightCyan: 77
+    brightWhite: 76.5

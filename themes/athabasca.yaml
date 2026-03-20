@@ -1,0 +1,53 @@
+name: "Athabasca"
+source:
+  marketplace_id: "ianlord.athabasca"
+  version: "0.0.3"
+  installs: 638
+  rating: 5
+  ratings: 1
+  author: "Ian Lord"
+  repo: "https://github.com/ianlord/athabasca"
+  url: "https://marketplace.visualstudio.com/items?itemName=ianlord.athabasca"
+  formats: null
+colors:
+  bg: "#0A1016"
+  fg: "#E3F0FF"
+  black: "#263849"
+  red: "#A82E2E"
+  green: "#46997B"
+  yellow: "#B07426"
+  blue: "#4C6B88"
+  magenta: "#A40E45"
+  cyan: "#3288A7"
+  white: "#E6E6E6"
+  brightBlack: "#728BA5"
+  brightRed: "#F04242"
+  brightGreen: "#75FFCD"
+  brightYellow: "#FFB452"
+  brightBlue: "#88B2D9"
+  brightMagenta: "#D64379"
+  brightCyan: "#3CAED7"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 96.6
+    black: 0
+    red: 19.3
+    green: 39.5
+    yellow: 35
+    blue: 23.5
+    magenta: 16.8
+    cyan: 34
+    white: 91.2
+    brightBlack: 38.4
+    brightRed: 37.4
+    brightGreen: 92
+    brightYellow: 70.1
+    brightBlue: 57.8
+    brightMagenta: 32.9
+    brightCyan: 51.9
+    brightWhite: 104.2

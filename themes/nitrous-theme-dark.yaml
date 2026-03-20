@@ -1,0 +1,53 @@
+name: "NiTROUS Theme (Dark)"
+source:
+  marketplace_id: "nitrous-cloud.nitrous-vscode-color-theme"
+  version: "1.0.5"
+  installs: 1742
+  rating: 5
+  ratings: 1
+  author: "NiTROUS Cloud"
+  repo: "https://github.com/scar45/nitrous-vscode-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nitrous-cloud.nitrous-vscode-color-theme"
+  formats: null
+colors:
+  bg: "#091833"
+  fg: "#B0B0F7"
+  black: "#131330"
+  red: "#E23BD1"
+  green: "#75FF7A"
+  yellow: "#3F2208"
+  blue: "#57A6FF"
+  magenta: "#6060EE"
+  cyan: "#33FFDD"
+  white: "#F0F0F0"
+  brightBlack: "#1D1D47"
+  brightRed: "#CB35BC"
+  brightGreen: "#32EF38"
+  brightYellow: "#D66400"
+  brightBlue: "#2D90FF"
+  brightMagenta: "#4D4DBE"
+  brightCyan: "#1DC5A9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 261
+  pair: null
+  contrast:
+    fg: 61.9
+    black: 0
+    red: 37.8
+    green: 88.8
+    yellow: 0
+    blue: 51.4
+    magenta: 27.8
+    cyan: 89.6
+    white: 96.7
+    brightBlack: 0
+    brightRed: 31.2
+    brightGreen: 77.2
+    brightYellow: 36.6
+    brightBlue: 41.7
+    brightMagenta: 17.8
+    brightCyan: 58.5
+    brightWhite: 106.6

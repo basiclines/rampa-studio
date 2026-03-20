@@ -1,0 +1,53 @@
+name: "resknow"
+source:
+  marketplace_id: "Resknow.resknow"
+  version: "0.0.4"
+  installs: 21
+  rating: 0
+  ratings: 0
+  author: "Resknow"
+  repo: "https://github.com/resknow/resknow-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Resknow.resknow"
+  formats: null
+colors:
+  bg: "#020617"
+  fg: "#E2E8F0"
+  black: "#020617"
+  red: "#DC3657"
+  green: "#23D18B"
+  yellow: "#FFC368"
+  blue: "#2B7ECA"
+  magenta: "#AD5DCA"
+  cyan: "#24C0CF"
+  white: "#E2E8F0"
+  brightBlack: "#64748B"
+  brightRed: "#F4587E"
+  brightGreen: "#5DE9C1"
+  brightYellow: "#FEDFCA"
+  brightBlue: "#EA2E85"
+  brightMagenta: "#CC75F4"
+  brightCyan: "#EF5E9C"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 265
+  pair: null
+  contrast:
+    fg: 92.4
+    black: 0
+    red: 32
+    green: 64.4
+    yellow: 76.5
+    blue: 32.6
+    magenta: 34.3
+    cyan: 59.1
+    white: 92.4
+    brightBlack: 28.5
+    brightRed: 43.3
+    brightGreen: 79.5
+    brightYellow: 90.7
+    brightBlue: 35.8
+    brightMagenta: 47.8
+    brightCyan: 44.3
+    brightWhite: 104.5

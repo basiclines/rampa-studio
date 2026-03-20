@@ -1,0 +1,53 @@
+name: "savetemin"
+source:
+  marketplace_id: "ulisesbasualdo.savetemin"
+  version: "0.1.12"
+  installs: 23
+  rating: 0
+  ratings: 0
+  author: "Ulises Basualdo"
+  repo: "https://github.com/ulisesbasualdo/savetemin"
+  url: "https://marketplace.visualstudio.com/items?itemName=ulisesbasualdo.savetemin"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#001233"
+  red: "#FF3366"
+  green: "#33FF66"
+  yellow: "#FFCC00"
+  blue: "#0077FF"
+  magenta: "#FF00AA"
+  cyan: "#00DDFF"
+  white: "#C0C0FF"
+  brightBlack: "#DE70FF"
+  brightRed: "#FF0055"
+  brightGreen: "#77FF00"
+  brightYellow: "#FFFB00"
+  brightBlue: "#33AAFF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFCAA"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 40.4
+    green: 87.5
+    yellow: 79.6
+    blue: 34.2
+    magenta: 40.9
+    cyan: 75.2
+    white: 71.8
+    brightBlack: 50.6
+    brightRed: 38.2
+    brightGreen: 89.2
+    brightYellow: 100.8
+    brightBlue: 53
+    brightMagenta: 58.4
+    brightCyan: 94
+    brightWhite: 103.2

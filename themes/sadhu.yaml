@@ -1,0 +1,53 @@
+name: "Sadhu"
+source:
+  marketplace_id: "bosiakov.theme-sadhu"
+  version: "0.1.1"
+  installs: 124
+  rating: 0
+  ratings: 0
+  author: "bosiakov"
+  repo: "https://github.com/bosiakov/vscode-theme-sadhu"
+  url: "https://marketplace.visualstudio.com/items?itemName=bosiakov.theme-sadhu"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#AA3731"
+  green: "#448C27"
+  yellow: "#CB9000"
+  blue: "#325CC0"
+  magenta: "#7A3E9D"
+  cyan: "#0083B2"
+  white: "#BBBBBB"
+  brightBlack: "#777777"
+  brightRed: "#F05050"
+  brightGreen: "#60CB00"
+  brightYellow: "#FFBC5D"
+  brightBlue: "#007ACC"
+  brightMagenta: "#E64CE6"
+  brightCyan: "#00AACB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 80.7
+    green: 68.5
+    yellow: 53.4
+    blue: 80.1
+    magenta: 83.7
+    cyan: 69.1
+    white: 36.7
+    brightBlack: 71.1
+    brightRed: 61.7
+    brightGreen: 40.5
+    brightYellow: 29.1
+    brightBlue: 70.6
+    brightMagenta: 58.2
+    brightCyan: 52.6
+    brightWhite: 0

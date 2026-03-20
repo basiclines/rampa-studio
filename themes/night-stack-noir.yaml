@@ -1,0 +1,53 @@
+name: "Night-Stack Noir"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E5E5E5"
+  black: "#0D0D0D"
+  red: "#999999"
+  green: "#B3B3B3"
+  yellow: "#CCCCCC"
+  blue: "#808080"
+  magenta: "#A6A6A6"
+  cyan: "#D9D9D9"
+  white: "#FFFFFF"
+  brightBlack: "#0D0D0D"
+  brightRed: "#999999"
+  brightGreen: "#B3B3B3"
+  brightYellow: "#CCCCCC"
+  brightBlue: "#808080"
+  brightMagenta: "#A6A6A6"
+  brightCyan: "#D9D9D9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91
+    black: 0
+    red: 47.2
+    green: 61.2
+    yellow: 75.7
+    blue: 34.8
+    magenta: 54.1
+    cyan: 83.6
+    white: 107.9
+    brightBlack: 0
+    brightRed: 47.2
+    brightGreen: 61.2
+    brightYellow: 75.7
+    brightBlue: 34.8
+    brightMagenta: 54.1
+    brightCyan: 83.6
+    brightWhite: 107.9

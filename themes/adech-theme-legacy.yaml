@@ -1,0 +1,53 @@
+name: "Adech Theme Legacy"
+source:
+  marketplace_id: "Adechlien.adech-theme"
+  version: "0.1.2"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "Adechlien"
+  repo: "https://github.com/adechlien/adech-theme-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=Adechlien.adech-theme"
+  formats: null
+colors:
+  bg: "#162137"
+  fg: "#B2D0FF"
+  black: "#000000"
+  red: "#FF99C8"
+  green: "#80ED99"
+  yellow: "#FFE482"
+  blue: "#74ADE8"
+  magenta: "#FF99C8"
+  cyan: "#00E8C6"
+  white: "#EEEEFF"
+  brightBlack: "#666666"
+  brightRed: "#FF99C8"
+  brightGreen: "#80ED99"
+  brightYellow: "#FFE482"
+  brightBlue: "#74ADE8"
+  brightMagenta: "#FF99C8"
+  brightCyan: "#00E8C6"
+  brightWhite: "#EEEEFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 263
+  pair: null
+  contrast:
+    fg: 74.6
+    black: 0
+    red: 62.2
+    green: 79.8
+    yellow: 88.8
+    blue: 53.2
+    magenta: 62.2
+    cyan: 75.4
+    white: 95.2
+    brightBlack: 20.7
+    brightRed: 62.2
+    brightGreen: 79.8
+    brightYellow: 88.8
+    brightBlue: 53.2
+    brightMagenta: 62.2
+    brightCyan: 75.4
+    brightWhite: 95.2

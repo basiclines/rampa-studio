@@ -1,0 +1,53 @@
+name: "Anubis Dark Theme"
+source:
+  marketplace_id: "MoAli.anubis-dark-theme"
+  version: "0.0.1"
+  installs: 265
+  rating: 5
+  ratings: 1
+  author: "Mo Ali"
+  repo: "https://github.com/devMoAli/AnubisDarkTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MoAli.anubis-dark-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#CDCDCD"
+  black: "#585858"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#C9C9C9"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.3
+    black: 17.3
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 28.4
+    magenta: 30.8
+    cyan: 48.6
+    white: 73.9
+    brightBlack: 23
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 56.4
+    brightWhite: 107.9

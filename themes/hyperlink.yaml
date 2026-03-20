@@ -1,0 +1,53 @@
+name: "Hyperlink"
+source:
+  marketplace_id: "NikKale.hyperlink-theme"
+  version: "1.1.0"
+  installs: 74
+  rating: 0
+  ratings: 0
+  author: "Nik Kale"
+  repo: "https://github.com/dabbleintech/hyperlink-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=NikKale.hyperlink-theme"
+  formats: null
+colors:
+  bg: "#1C2639"
+  fg: "#FFFFFF"
+  black: "#1C2639"
+  red: "#F08261"
+  green: "#B8E97B"
+  yellow: "#FDD46B"
+  blue: "#53E0FC"
+  magenta: "#C67BE9"
+  cyan: "#53E0FC"
+  white: "#FFFFFF"
+  brightBlack: "#28344B"
+  brightRed: "#F08261"
+  brightGreen: "#B8E97B"
+  brightYellow: "#FDD46B"
+  brightBlue: "#53E0FC"
+  brightMagenta: "#C67BE9"
+  brightCyan: "#53E0FC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 263
+  pair: null
+  contrast:
+    fg: 104.8
+    black: 0
+    red: 48.4
+    green: 81
+    yellow: 80.3
+    blue: 74.6
+    magenta: 44.6
+    cyan: 74.6
+    white: 104.8
+    brightBlack: 0
+    brightRed: 48.4
+    brightGreen: 81
+    brightYellow: 80.3
+    brightBlue: 74.6
+    brightMagenta: 44.6
+    brightCyan: 74.6
+    brightWhite: 104.8

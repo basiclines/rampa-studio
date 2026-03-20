@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Roccia (Dark))"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#181418"
+  fg: "#F0ECF5"
+  black: "#181418"
+  red: "#D86880"
+  green: "#90B8B0"
+  yellow: "#FDB3DD"
+  blue: "#5F6AC3"
+  magenta: "#C2588A"
+  cyan: "#A898B8"
+  white: "#F0ECF5"
+  brightBlack: "#5E5A64"
+  brightRed: "#E87890"
+  brightGreen: "#A0C8C0"
+  brightYellow: "#FDC3ED"
+  brightBlue: "#6F7AD3"
+  brightMagenta: "#D2689A"
+  brightCyan: "#B8A8C8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 326
+  pair: "wuthering waves color themes (Wuthering Waves : Roccia)"
+  contrast:
+    fg: 95.6
+    black: 0
+    red: 40.1
+    green: 58.7
+    yellow: 73.1
+    blue: 27.4
+    magenta: 32.8
+    cyan: 49
+    white: 95.6
+    brightBlack: 17.9
+    brightRed: 47.6
+    brightGreen: 67.7
+    brightYellow: 79.9
+    brightBlue: 34.6
+    brightMagenta: 39.9
+    brightCyan: 57.6
+    brightWhite: 107

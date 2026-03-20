@@ -1,0 +1,53 @@
+name: "Tailwind Purple Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#581C87"
+  fg: "#F3E8FF"
+  black: "#6B21A8"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#E9D5FF"
+  brightBlack: "#6B21A8"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#E9D5FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 305
+  pair: "Tailwind Purple Light"
+  contrast:
+    fg: 85.9
+    black: 0
+    red: 39.4
+    green: 61.8
+    yellow: 69.1
+    blue: 42.7
+    magenta: 41
+    cyan: 59.9
+    white: 76.2
+    brightBlack: 0
+    brightRed: 39.4
+    brightGreen: 61.8
+    brightYellow: 69.1
+    brightBlue: 42.7
+    brightMagenta: 41
+    brightCyan: 59.9
+    brightWhite: 76.2

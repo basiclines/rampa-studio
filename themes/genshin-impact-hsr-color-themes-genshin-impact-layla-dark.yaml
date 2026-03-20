@@ -1,0 +1,53 @@
+name: "genshin impact & hsr color themes (Genshin Impact - Layla (Dark))"
+source:
+  marketplace_id: "frostmoon-dev.genshin-hsr-themes"
+  version: "0.1.6"
+  installs: 533
+  rating: 5
+  ratings: 1
+  author: "⏾ frostmoon"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.genshin-hsr-themes"
+  formats: null
+colors:
+  bg: "#181C2A"
+  fg: "#D8ECF8"
+  black: "#2A3850"
+  red: "#E8A8C8"
+  green: "#A0D8C8"
+  yellow: "#DDAB6D"
+  blue: "#A8B8D8"
+  magenta: "#C0E9F7"
+  cyan: "#C0E9F7"
+  white: "#D8ECF8"
+  brightBlack: "#8090A8"
+  brightRed: "#F0C8E0"
+  brightGreen: "#B8E8D8"
+  brightYellow: "#E8E8B8"
+  brightBlue: "#C8C0E8"
+  brightMagenta: "#C8E0F8"
+  brightCyan: "#C8E0F8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 272
+  pair: "genshin impact & hsr color themes (Genshin Impact - Layla)"
+  contrast:
+    fg: 91.8
+    black: 0
+    red: 63.8
+    green: 74.4
+    yellow: 60.2
+    blue: 62
+    magenta: 87.6
+    cyan: 87.6
+    white: 91.8
+    brightBlack: 40.3
+    brightRed: 78.3
+    brightGreen: 84.9
+    brightYellow: 89.4
+    brightBlue: 69.9
+    brightMagenta: 84.4
+    brightCyan: 84.4
+    brightWhite: 106.2

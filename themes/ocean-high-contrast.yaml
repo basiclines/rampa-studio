@@ -1,0 +1,53 @@
+name: "Ocean High Contrast"
+source:
+  marketplace_id: "NotYasho.ocean-high-contrast"
+  version: "4.1.0"
+  installs: 9858
+  rating: 5
+  ratings: 3
+  author: "NotYasho"
+  repo: "https://github.com/NotYasho/ocean-high-contrast"
+  url: "https://marketplace.visualstudio.com/items?itemName=NotYasho.ocean-high-contrast"
+  formats: null
+colors:
+  bg: "#0B0C13"
+  fg: "#E6EAFC"
+  black: "#7A7A7A"
+  red: "#DE1C91"
+  green: "#94E400"
+  yellow: "#F9E800"
+  blue: "#0080FF"
+  magenta: "#674BFF"
+  cyan: "#00D5E0"
+  white: "#A89984"
+  brightBlack: "#7B708A"
+  brightRed: "#FF1E69"
+  brightGreen: "#88FF00"
+  brightYellow: "#F9D405"
+  brightBlue: "#00BCFF"
+  brightMagenta: "#7E3BFF"
+  brightCyan: "#00F2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 94.3
+    black: 31.7
+    red: 32.3
+    green: 77.1
+    yellow: 90.7
+    blue: 36.8
+    magenta: 26.5
+    cyan: 69.4
+    white: 48
+    brightBlack: 29.2
+    brightRed: 38.9
+    brightGreen: 90
+    brightYellow: 81.7
+    brightBlue: 59.8
+    brightMagenta: 26.2
+    brightCyan: 85.3
+    brightWhite: 107.6

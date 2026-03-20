@@ -1,0 +1,53 @@
+name: "Rainglow (stasis-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0E0D0F"
+  fg: "#BBB1C9"
+  black: "#1B191D"
+  red: "#BA0E2E"
+  green: "#FC814A"
+  yellow: "#7C617C"
+  blue: "#BFBFBF"
+  magenta: "#FC814A"
+  cyan: "#BFBFBF"
+  white: "#C8C0D3"
+  brightBlack: "#413C46"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEC7AE"
+  brightYellow: "#AD96AD"
+  brightBlue: "#F2F2F2"
+  brightMagenta: "#FEC7AE"
+  brightCyan: "#F2F2F2"
+  brightWhite: "#F0EDF3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (stasis-light)"
+  contrast:
+    fg: 62.1
+    black: 0
+    red: 21.2
+    green: 53
+    yellow: 24.3
+    blue: 67.8
+    magenta: 53
+    cyan: 67.8
+    white: 70.2
+    brightBlack: 7.5
+    brightRed: 37.5
+    brightGreen: 79.5
+    brightYellow: 49
+    brightBlue: 99.1
+    brightMagenta: 79.5
+    brightCyan: 99.1
+    brightWhite: 96.5

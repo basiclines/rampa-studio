@@ -1,0 +1,53 @@
+name: "Twilite"
+source:
+  marketplace_id: "vegcom.twilite"
+  version: "0.0.3"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "vegcom"
+  repo: "https://github.com/vegcom/VSCode-Twilite"
+  url: "https://marketplace.visualstudio.com/items?itemName=vegcom.twilite"
+  formats: null
+colors:
+  bg: "#1E1A2E"
+  fg: "#F8F8F2"
+  black: "#282A36"
+  red: "#D84040"
+  green: "#40D860"
+  yellow: "#D0D870"
+  blue: "#A080D9"
+  magenta: "#D960A8"
+  cyan: "#70C9DD"
+  white: "#A0A0A0"
+  brightBlack: "#44475A"
+  brightRed: "#E85858"
+  brightGreen: "#58E878"
+  brightYellow: "#E0E888"
+  brightBlue: "#B89AE0"
+  brightMagenta: "#E878C0"
+  brightCyan: "#88DDE8"
+  brightWhite: "#E8E8E8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 101.3
+    black: 0
+    red: 30.4
+    green: 65.9
+    yellow: 77
+    blue: 41.1
+    magenta: 39.2
+    cyan: 64.9
+    white: 49.2
+    brightBlack: 9.5
+    brightRed: 38.1
+    brightGreen: 75.1
+    brightYellow: 86.9
+    brightBlue: 53
+    brightMagenta: 48.8
+    brightCyan: 76.2
+    brightWhite: 91.2

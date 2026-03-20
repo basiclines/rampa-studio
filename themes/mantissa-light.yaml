@@ -1,0 +1,53 @@
+name: "Mantissa Light"
+source:
+  marketplace_id: "jhrunnoe.mantissa"
+  version: "0.4.0"
+  installs: 111
+  rating: 5
+  ratings: 1
+  author: "jhrunnoe"
+  repo: "https://github.com/jebrunnoe/Mantissa"
+  url: "https://marketplace.visualstudio.com/items?itemName=jhrunnoe.mantissa"
+  formats: null
+colors:
+  bg: "#FAF7F0"
+  fg: "#657B83"
+  black: "#657B83"
+  red: "#CE4E27"
+  green: "#639100"
+  yellow: "#A37F12"
+  blue: "#147CC7"
+  magenta: "#9360C2"
+  cyan: "#0F938A"
+  white: "#FAF7F0"
+  brightBlack: "#657B83"
+  brightRed: "#CE4E27"
+  brightGreen: "#639100"
+  brightYellow: "#A37F12"
+  brightBlue: "#147CC7"
+  brightMagenta: "#9360C2"
+  brightCyan: "#0F938A"
+  brightWhite: "#FAF7F0"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Mantissa Dark"
+  contrast:
+    fg: 66.2
+    black: 66.2
+    red: 65.1
+    green: 60.2
+    yellow: 60.2
+    blue: 65.5
+    magenta: 66.1
+    cyan: 60.1
+    white: 0
+    brightBlack: 66.2
+    brightRed: 65.1
+    brightGreen: 60.2
+    brightYellow: 60.2
+    brightBlue: 65.5
+    brightMagenta: 66.1
+    brightCyan: 60.1
+    brightWhite: 0

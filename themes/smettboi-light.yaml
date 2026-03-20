@@ -1,0 +1,53 @@
+name: "smettboi-light"
+source:
+  marketplace_id: "smettboi.smettboi-themes"
+  version: "1.1.0"
+  installs: 45
+  rating: 0
+  ratings: 0
+  author: "smettboi"
+  repo: "https://github.com/zaneadix/smettboi-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=smettboi.smettboi-themes"
+  formats: null
+colors:
+  bg: "#EBECF0"
+  fg: "#292938"
+  black: "#000000"
+  red: "#FF8080"
+  green: "#67A882"
+  yellow: "#D4B22B"
+  blue: "#949FFF"
+  magenta: "#C5A0A0"
+  cyan: "#51C0C8"
+  white: "#D3D4DE"
+  brightBlack: "#000000"
+  brightRed: "#FF8080"
+  brightGreen: "#67A882"
+  brightYellow: "#D4B22B"
+  brightBlue: "#949FFF"
+  brightMagenta: "#C5A0A0"
+  brightCyan: "#51C0C8"
+  brightWhite: "#D3D4DE"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.8
+    black: 94.8
+    red: 36.1
+    green: 42.6
+    yellow: 28.7
+    blue: 36.4
+    magenta: 35.2
+    cyan: 31
+    white: 11.2
+    brightBlack: 94.8
+    brightRed: 36.1
+    brightGreen: 42.6
+    brightYellow: 28.7
+    brightBlue: 36.4
+    brightMagenta: 35.2
+    brightCyan: 31
+    brightWhite: 11.2

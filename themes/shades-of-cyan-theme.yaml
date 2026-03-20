@@ -1,0 +1,53 @@
+name: "Shades of Cyan theme"
+source:
+  marketplace_id: "moondevaa.shades-of-cyan-theme"
+  version: "0.1.1"
+  installs: 4956
+  rating: 5
+  ratings: 1
+  author: "moondevaa"
+  repo: "https://github.com/AaBbdev29/Shades-of-Cyan-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=moondevaa.shades-of-cyan-theme"
+  formats: null
+colors:
+  bg: "#00101A"
+  fg: "#C4D8E2"
+  black: "#606060"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#C2C2C2"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 233
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 20.1
+    red: 27.3
+    green: 53.6
+    yellow: 86.2
+    blue: 28
+    magenta: 30.4
+    cyan: 48.1
+    white: 90.6
+    brightBlack: 69.4
+    brightRed: 39.2
+    brightGreen: 64.1
+    brightYellow: 96.2
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 90.6

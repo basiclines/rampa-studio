@@ -1,0 +1,53 @@
+name: "Kaolin Themes (Kaolin Light Theme)"
+source:
+  marketplace_id: "zed-nait.kaolin-vscode-themes"
+  version: "0.1.0"
+  installs: 4900
+  rating: 5
+  ratings: 2
+  author: "zed-nait"
+  repo: "https://github.com/zed-nait/kaolin-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=zed-nait.kaolin-vscode-themes"
+  formats: null
+colors:
+  bg: "#EDEEEB"
+  fg: "#383E3F"
+  black: "#383E3F"
+  red: "#E84C58"
+  green: "#13665F"
+  yellow: "#E36B3F"
+  blue: "#3B84CC"
+  magenta: "#A9779C"
+  cyan: "#6FACB3"
+  white: "#C8CCC3"
+  brightBlack: "#545C5E"
+  brightRed: "#E84C58"
+  brightGreen: "#317A56"
+  brightYellow: "#C5882C"
+  brightBlue: "#4C7A90"
+  brightMagenta: "#6D46E3"
+  brightCyan: "#008B8B"
+  brightWhite: "#F5F6F5"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.9
+    black: 84.9
+    red: 53.6
+    green: 72.7
+    yellow: 48.9
+    blue: 55.9
+    magenta: 53.3
+    cyan: 39.6
+    white: 17.8
+    brightBlack: 73.3
+    brightRed: 53.6
+    brightGreen: 65.1
+    brightYellow: 46.5
+    brightBlue: 62
+    brightMagenta: 67.8
+    brightCyan: 57.6
+    brightWhite: 0

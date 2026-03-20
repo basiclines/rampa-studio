@@ -1,0 +1,53 @@
+name: "Doom Themes (Doom One Dark)"
+source:
+  marketplace_id: "lroolle.doom-themes"
+  version: "1.2.1"
+  installs: 514
+  rating: 0
+  ratings: 0
+  author: "lroolle"
+  repo: "https://github.com/lroolle/doom-one-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lroolle.doom-themes"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#BBC2CF"
+  black: "#1B2229"
+  red: "#FF6C6B"
+  green: "#98BE65"
+  yellow: "#ECBE7B"
+  blue: "#51AFEF"
+  magenta: "#C678DD"
+  cyan: "#46D9FF"
+  white: "#9CA0A4"
+  brightBlack: "#1C1F24"
+  brightRed: "#FF6C6B"
+  brightGreen: "#98BE65"
+  brightYellow: "#ECBE7B"
+  brightBlue: "#51AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#46D9FF"
+  brightWhite: "#BBC2CF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: "Doom Themes (Doom One Light)"
+  contrast:
+    fg: 65.3
+    black: 0
+    red: 45.1
+    green: 56.5
+    yellow: 67.7
+    blue: 50.7
+    magenta: 41.9
+    cyan: 69.9
+    white: 46.4
+    brightBlack: 0
+    brightRed: 45.1
+    brightGreen: 56.5
+    brightYellow: 67.7
+    brightBlue: 50.7
+    brightMagenta: 41.9
+    brightCyan: 69.9
+    brightWhite: 65.3

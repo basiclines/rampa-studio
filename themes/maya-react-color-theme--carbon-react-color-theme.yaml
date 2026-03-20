@@ -1,0 +1,53 @@
+name: "Maya React Color Theme (Carbon React Color Theme)"
+source:
+  marketplace_id: "yathink3.carbon-react-color-theme"
+  version: "1.4.5"
+  installs: 6744
+  rating: 5
+  ratings: 5
+  author: "yathink3"
+  repo: "https://github.com/yathink3/carbon-react-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yathink3.carbon-react-color-theme"
+  formats: null
+colors:
+  bg: "#1B1D22"
+  fg: "#BBBBBB"
+  black: "#370067"
+  red: "#BF8B56"
+  green: "#07D258"
+  yellow: "#E3B625"
+  blue: "#BD1C98"
+  magenta: "#BF568B"
+  cyan: "#2F7ECD"
+  white: "#FFFFFF"
+  brightBlack: "#627E99"
+  brightRed: "#BF8B56"
+  brightGreen: "#24966E"
+  brightYellow: "#BFA656"
+  brightBlue: "#8B56BF"
+  brightMagenta: "#BF568B"
+  brightCyan: "#20BCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 64
+    black: 0
+    red: 43.8
+    green: 62.1
+    yellow: 64.5
+    blue: 24.1
+    magenta: 31
+    cyan: 31.3
+    white: 106.2
+    brightBlack: 30.8
+    brightRed: 43.8
+    brightGreen: 35.7
+    brightYellow: 53.4
+    brightBlue: 25.6
+    brightMagenta: 31
+    brightCyan: 58.5
+    brightWhite: 106.2

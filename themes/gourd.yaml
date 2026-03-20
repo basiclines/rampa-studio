@@ -1,0 +1,53 @@
+name: "Gourd"
+source:
+  marketplace_id: "Zorbn.gourd-theme"
+  version: "1.0.7"
+  installs: 1704
+  rating: 5
+  ratings: 3
+  author: "Zorbn"
+  repo: "https://github.com/Zorbn/gourd"
+  url: "https://marketplace.visualstudio.com/items?itemName=Zorbn.gourd-theme"
+  formats: null
+colors:
+  bg: "#2D2A2E"
+  fg: "#EBDBB2"
+  black: "#3C3836"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#D3869B"
+  brightGreen: "#B8BB26"
+  brightYellow: "#83A598"
+  brightBlue: "#EBDBB2"
+  brightMagenta: "#FE8019"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 81.4
+    black: 0
+    red: 22.2
+    green: 39.9
+    yellow: 49.5
+    blue: 28.6
+    magenta: 28.7
+    cyan: 38.9
+    white: 44.2
+    brightBlack: 33.3
+    brightRed: 45
+    brightGreen: 58.2
+    brightYellow: 45.6
+    brightBlue: 81.4
+    brightMagenta: 49.1
+    brightCyan: 57.1
+    brightWhite: 81.4

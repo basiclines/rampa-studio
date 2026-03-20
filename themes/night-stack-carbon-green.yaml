@@ -1,0 +1,53 @@
+name: "Night-Stack Carbon Green"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#0F1115"
+  fg: "#D4E4D4"
+  black: "#1C1C1C"
+  red: "#C15F5F"
+  green: "#6A9955"
+  yellow: "#B5A642"
+  blue: "#6B9BD1"
+  magenta: "#9C7BD8"
+  cyan: "#5FAFAF"
+  white: "#E0E0E0"
+  brightBlack: "#1C1C1C"
+  brightRed: "#C15F5F"
+  brightGreen: "#6A9955"
+  brightYellow: "#B5A642"
+  brightBlue: "#6B9BD1"
+  brightMagenta: "#9C7BD8"
+  brightCyan: "#5FAFAF"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.1
+    black: 0
+    red: 33.1
+    green: 40.6
+    yellow: 53
+    blue: 46
+    magenta: 40.2
+    cyan: 51.7
+    white: 87.4
+    brightBlack: 0
+    brightRed: 33.1
+    brightGreen: 40.6
+    brightYellow: 53
+    brightBlue: 46
+    brightMagenta: 40.2
+    brightCyan: 51.7
+    brightWhite: 87.4

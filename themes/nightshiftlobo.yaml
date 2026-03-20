@@ -1,0 +1,53 @@
+name: "NightShiftLobo"
+source:
+  marketplace_id: "NightshiftLobo.nightshiftlobo"
+  version: "2.0.0"
+  installs: 17
+  rating: 0
+  ratings: 0
+  author: "Nightshift Lobo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=NightshiftLobo.nightshiftlobo"
+  formats: null
+colors:
+  bg: "#0D1016"
+  fg: "#D4D8E4"
+  black: "#0D1016"
+  red: "#D37D82"
+  green: "#6ABF88"
+  yellow: "#D2B46F"
+  blue: "#6F88E6"
+  magenta: "#A98CE8"
+  cyan: "#58AFC2"
+  white: "#D4D8E4"
+  brightBlack: "#7C859E"
+  brightRed: "#D37D82"
+  brightGreen: "#6ABF88"
+  brightYellow: "#C98C6A"
+  brightBlue: "#6F88E6"
+  brightMagenta: "#A98CE8"
+  brightCyan: "#5CA3B2"
+  brightWhite: "#D4D8E4"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 264
+  pair: "NightShift Lobo Dawn"
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 45.1
+    green: 58
+    yellow: 63.2
+    blue: 40.9
+    magenta: 48.2
+    cyan: 52.2
+    white: 82.5
+    brightBlack: 36.8
+    brightRed: 45.1
+    brightGreen: 58
+    brightYellow: 47.3
+    brightBlue: 40.9
+    brightMagenta: 48.2
+    brightCyan: 46.7
+    brightWhite: 82.5

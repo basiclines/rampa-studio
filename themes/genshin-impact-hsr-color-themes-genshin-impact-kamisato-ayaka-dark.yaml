@@ -1,0 +1,53 @@
+name: "genshin impact & hsr color themes (Genshin Impact - Kamisato Ayaka (Dark))"
+source:
+  marketplace_id: "frostmoon-dev.genshin-hsr-themes"
+  version: "0.1.6"
+  installs: 533
+  rating: 5
+  ratings: 1
+  author: "⏾ frostmoon"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.genshin-hsr-themes"
+  formats: null
+colors:
+  bg: "#141828"
+  fg: "#E0ECF8"
+  black: "#283858"
+  red: "#E75F96"
+  green: "#80D8B8"
+  yellow: "#E8B840"
+  blue: "#B8D0F0"
+  magenta: "#C5DBEE"
+  cyan: "#C5DBEE"
+  white: "#E0ECF8"
+  brightBlack: "#8898A8"
+  brightRed: "#F0B8D0"
+  brightGreen: "#A0E8C8"
+  brightYellow: "#E8C860"
+  brightBlue: "#B8D0F0"
+  brightMagenta: "#C5DBEE"
+  brightCyan: "#C5DBEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 273
+  pair: "genshin impact & hsr color themes (Genshin Impact - Kamisato Ayaka)"
+  contrast:
+    fg: 93.3
+    black: 0
+    red: 41.5
+    green: 71.7
+    yellow: 66.7
+    blue: 75.6
+    magenta: 81.8
+    cyan: 81.8
+    white: 93.3
+    brightBlack: 44.5
+    brightRed: 71.8
+    brightGreen: 82.4
+    brightYellow: 73.6
+    brightBlue: 75.6
+    brightMagenta: 81.8
+    brightCyan: 81.8
+    brightWhite: 106.7

@@ -1,0 +1,53 @@
+name: "Vibrant Max"
+source:
+  marketplace_id: "MatthewOrchard.vibrant-max"
+  version: "0.0.8"
+  installs: 527
+  rating: 0
+  ratings: 0
+  author: "Matthew Orchard"
+  repo: "https://github.com/mattorchard/vibrant-max"
+  url: "https://marketplace.visualstudio.com/items?itemName=MatthewOrchard.vibrant-max"
+  formats: null
+colors:
+  bg: "#171923"
+  fg: "#A0AEC0"
+  black: "#000000"
+  red: "#F56565"
+  green: "#48BB78"
+  yellow: "#ECC94B"
+  blue: "#4299E1"
+  magenta: "#9F7AEA"
+  cyan: "#0BC5EA"
+  white: "#F7FAFC"
+  brightBlack: "#4A5568"
+  brightRed: "#FC8181"
+  brightGreen: "#68D391"
+  brightYellow: "#F6E05E"
+  brightBlue: "#63B3ED"
+  brightMagenta: "#B794F4"
+  brightCyan: "#76E4F7"
+  brightWhite: "#E2E8F0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 56.4
+    black: 0
+    red: 44.2
+    green: 53.3
+    yellow: 74.3
+    blue: 43.4
+    magenta: 40.8
+    cyan: 61.5
+    white: 103
+    brightBlack: 14.6
+    brightRed: 53.1
+    brightGreen: 66.5
+    brightYellow: 86
+    brightBlue: 56
+    brightMagenta: 52.5
+    brightCyan: 79.6
+    brightWhite: 91.2

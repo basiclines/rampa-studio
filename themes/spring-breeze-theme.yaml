@@ -1,0 +1,53 @@
+name: "Spring Breeze Theme"
+source:
+  marketplace_id: "naihe.spring-breeze-theme"
+  version: "0.0.4"
+  installs: 49
+  rating: 0
+  ratings: 0
+  author: "Naihe"
+  repo: "https://github.com/naiheyoung/spring-breeze-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=naihe.spring-breeze-theme"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#888888"
+  black: "#666666"
+  red: "#CD3131"
+  green: "#189D71"
+  yellow: "#D18F52"
+  blue: "#0768CB"
+  magenta: "#C9268A"
+  cyan: "#4CA3C7"
+  white: "#E0E0E0"
+  brightBlack: "#888888"
+  brightRed: "#F14C4C"
+  brightGreen: "#38B48B"
+  brightYellow: "#EE7D15"
+  brightBlue: "#0A84FF"
+  brightMagenta: "#F22EA6"
+  brightCyan: "#5AC8F5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 38
+    black: 22.5
+    red: 27.1
+    green: 39.7
+    yellow: 49
+    blue: 24.7
+    magenta: 27.6
+    cyan: 46.9
+    white: 87.3
+    brightBlack: 38
+    brightRed: 39
+    brightGreen: 50.9
+    brightYellow: 48.4
+    brightBlue: 37.8
+    brightMagenta: 38.5
+    brightCyan: 65.8
+    brightWhite: 107.3

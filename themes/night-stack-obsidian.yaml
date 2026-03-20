@@ -1,0 +1,53 @@
+name: "Night-Stack Obsidian"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#0B0E14"
+  fg: "#D6DEEB"
+  black: "#1C1F26"
+  red: "#F7768E"
+  green: "#9ECE6A"
+  yellow: "#E0AF68"
+  blue: "#5DA9FF"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#D6DEEB"
+  brightBlack: "#1C1F26"
+  brightRed: "#F7768E"
+  brightGreen: "#9ECE6A"
+  brightYellow: "#E0AF68"
+  brightBlue: "#5DA9FF"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#D6DEEB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 85.9
+    black: 0
+    red: 50.6
+    green: 68.2
+    yellow: 63.4
+    blue: 53.8
+    magenta: 56.2
+    cyan: 71.7
+    white: 85.9
+    brightBlack: 0
+    brightRed: 50.6
+    brightGreen: 68.2
+    brightYellow: 63.4
+    brightBlue: 53.8
+    brightMagenta: 56.2
+    brightCyan: 71.7
+    brightWhite: 85.9

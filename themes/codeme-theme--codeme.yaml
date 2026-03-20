@@ -1,0 +1,53 @@
+name: "CodeMe Theme (CodeMe)"
+source:
+  marketplace_id: "Avetis.codeme-theme"
+  version: "0.1.1"
+  installs: 8081
+  rating: 0
+  ratings: 0
+  author: "Avetis"
+  repo: "https://github.com/AvetisDN/codeme-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Avetis.codeme-theme"
+  formats: null
+colors:
+  bg: "#1B1D1F"
+  fg: "#D5D7D9"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#12B02A"
+  yellow: "#E5E510"
+  blue: "#1461B0"
+  magenta: "#A944DE"
+  cyan: "#18A1C0"
+  white: "#D5D7D9"
+  brightBlack: "#666666"
+  brightRed: "#FD736B"
+  brightGreen: "#48E260"
+  brightYellow: "#F5F543"
+  brightBlue: "#3584D5"
+  brightMagenta: "#CC72FB"
+  brightCyan: "#5AC8FA"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 0
+    red: 26
+    green: 45.7
+    yellow: 85
+    blue: 19.6
+    magenta: 28.9
+    cyan: 43.3
+    white: 80.5
+    brightBlack: 21.4
+    brightRed: 48.8
+    brightGreen: 71.1
+    brightYellow: 95
+    brightBlue: 34.1
+    brightMagenta: 46
+    brightCyan: 65
+    brightWhite: 89.4

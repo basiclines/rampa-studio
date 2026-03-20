@@ -1,0 +1,53 @@
+name: "Zenbones Dark Stark"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#171210"
+  fg: "#B4BDC3"
+  black: "#1C1917"
+  red: "#DE6E7C"
+  green: "#819B69"
+  yellow: "#B77E64"
+  blue: "#6099C0"
+  magenta: "#B279A7"
+  cyan: "#66A5AD"
+  white: "#B4BDC3"
+  brightBlack: "#403833"
+  brightRed: "#E8838F"
+  brightGreen: "#8BAE68"
+  brightYellow: "#D68C67"
+  brightBlue: "#61ABDA"
+  brightMagenta: "#CF86C1"
+  brightCyan: "#65B8C1"
+  brightWhite: "#888F94"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 65.4
+    black: 0
+    red: 42.7
+    green: 43.4
+    yellow: 39.7
+    blue: 43.5
+    magenta: 39.7
+    cyan: 47.7
+    white: 65.4
+    brightBlack: 0
+    brightRed: 50.8
+    brightGreen: 52
+    brightYellow: 49.2
+    brightBlue: 52.1
+    brightMagenta: 49.3
+    brightCyan: 56.5
+    brightWhite: 40.9

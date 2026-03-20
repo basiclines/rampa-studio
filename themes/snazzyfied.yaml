@@ -1,0 +1,53 @@
+name: "Snazzyfied"
+source:
+  marketplace_id: "meister.vscode-theme-snazzyfied"
+  version: "0.4.0"
+  installs: 147
+  rating: 0
+  ratings: 0
+  author: "Martin Kapp"
+  repo: "https://github.com/meister/vscode-snazzyfied"
+  url: "https://marketplace.visualstudio.com/items?itemName=meister.vscode-theme-snazzyfied"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#DEE1DB"
+  black: "#282A36"
+  red: "#FF5C57"
+  green: "#5AF78E"
+  yellow: "#F3F99D"
+  blue: "#57C7FF"
+  magenta: "#FF6AC1"
+  cyan: "#9AEDFE"
+  white: "#F1F1F0"
+  brightBlack: "#686868"
+  brightRed: "#FF6C68"
+  brightGreen: "#6CF69A"
+  brightYellow: "#F4EDA7"
+  brightBlue: "#6ECFFF"
+  brightMagenta: "#FA73C1"
+  brightCyan: "#ABEFFD"
+  brightWhite: "#EFF0EB"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 83.9
+    black: 0
+    red: 41.7
+    green: 81.1
+    yellow: 95.8
+    blue: 62.5
+    magenta: 48
+    cyan: 84.1
+    white: 94.7
+    brightBlack: 19.9
+    brightRed: 45.3
+    brightGreen: 81.7
+    brightYellow: 90.5
+    brightBlue: 67.2
+    brightMagenta: 48.9
+    brightCyan: 86.4
+    brightWhite: 93.7

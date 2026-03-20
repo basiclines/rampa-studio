@@ -1,0 +1,53 @@
+name: "Matrix Theme"
+source:
+  marketplace_id: "UstymUkhman.matrix-theme"
+  version: "0.1.3"
+  installs: 121302
+  rating: 5
+  ratings: 9
+  author: "UstymUkhman"
+  repo: "https://github.com/UstymUkhman/matrix-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=UstymUkhman.matrix-theme"
+  formats: null
+colors:
+  bg: "#0C0C0C"
+  fg: "#00CC00"
+  black: "#003300"
+  red: "#B40000"
+  green: "#00CC00"
+  yellow: "#CCCC00"
+  blue: "#003FFF"
+  magenta: "#880088"
+  cyan: "#008888"
+  white: "#BBFFBB"
+  brightBlack: "#006600"
+  brightRed: "#B40000"
+  brightGreen: "#88FF88"
+  brightYellow: "#888800"
+  brightBlue: "#003FFF"
+  brightMagenta: "#880088"
+  brightCyan: "#008888"
+  brightWhite: "#DDFFDD"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.1
+    black: 0
+    red: 19.7
+    green: 60.1
+    yellow: 71.7
+    blue: 20.5
+    magenta: 14.2
+    cyan: 32.2
+    white: 96.8
+    brightBlack: 17.3
+    brightRed: 19.7
+    brightGreen: 91.2
+    brightYellow: 36.4
+    brightBlue: 20.5
+    brightMagenta: 14.2
+    brightCyan: 32.2
+    brightWhite: 101.7

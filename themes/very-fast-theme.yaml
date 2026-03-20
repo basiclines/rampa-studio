@@ -1,0 +1,53 @@
+name: "very fast theme"
+source:
+  marketplace_id: "minekuba.very-fast-theme"
+  version: "0.0.1"
+  installs: 61
+  rating: 5
+  ratings: 1
+  author: "minekuba"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=minekuba.very-fast-theme"
+  formats: null
+colors:
+  bg: "#280606"
+  fg: "#E0E0E0"
+  black: "#4D4D4D"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E4E4E4"
+  brightBlack: "#686868"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 25
+  pair: null
+  contrast:
+    fg: 87
+    black: 12.2
+    red: 26.9
+    green: 53.2
+    yellow: 85.8
+    blue: 27.6
+    magenta: 29.9
+    cyan: 47.7
+    white: 89.5
+    brightBlack: 23
+    brightRed: 38.7
+    brightGreen: 63.7
+    brightYellow: 95.8
+    brightBlue: 40.2
+    brightMagenta: 45.5
+    brightCyan: 55.6
+    brightWhite: 107

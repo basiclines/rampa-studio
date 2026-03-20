@@ -1,0 +1,53 @@
+name: "SOCT"
+source:
+  marketplace_id: "MsSus.soct"
+  version: "0.0.2"
+  installs: 27
+  rating: 5
+  ratings: 1
+  author: "Ms.Sus"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=MsSus.soct"
+  formats: null
+colors:
+  bg: "#131313"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF3362"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#D9D9D9"
+  brightBlack: "#666666"
+  brightRed: "#FF0060"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#C9C9C9"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.2
+    black: 0
+    red: 39.7
+    green: 53.4
+    yellow: 86
+    blue: 27.8
+    magenta: 30.1
+    cyan: 47.9
+    white: 82.9
+    brightBlack: 22.4
+    brightRed: 37.8
+    brightGreen: 63.9
+    brightYellow: 96
+    brightBlue: 40.4
+    brightMagenta: 45.7
+    brightCyan: 55.8
+    brightWhite: 73.2

@@ -1,0 +1,53 @@
+name: "pg-plum-groovy"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+  formats: null
+colors:
+  bg: "#141019"
+  fg: "#E4DCE6"
+  black: "#2E2E2E"
+  red: "#862222"
+  green: "#126D29"
+  yellow: "#887614"
+  blue: "#2B69AD"
+  magenta: "#822B82"
+  cyan: "#107D7D"
+  white: "#9F9F9F"
+  brightBlack: "#545454"
+  brightRed: "#AD2323"
+  brightGreen: "#139233"
+  brightYellow: "#B0970F"
+  brightBlue: "#4795D9"
+  brightMagenta: "#AB38AB"
+  brightCyan: "#159D9D"
+  brightWhite: "#B8B8B8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 305
+  pair: null
+  contrast:
+    fg: 86.4
+    black: 0
+    red: 11.5
+    green: 19.7
+    yellow: 29.9
+    blue: 23.4
+    magenta: 14.6
+    cyan: 27.4
+    white: 49.8
+    brightBlack: 15.2
+    brightRed: 19
+    brightGreen: 34
+    brightYellow: 46.3
+    brightBlue: 42.3
+    brightMagenta: 25.2
+    brightCyan: 41.1
+    brightWhite: 63.5

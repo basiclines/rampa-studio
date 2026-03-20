@@ -1,0 +1,53 @@
+name: "Berkeley"
+source:
+  marketplace_id: "ocat.berkeley-theme"
+  version: "1.0.6"
+  installs: 322
+  rating: 5
+  ratings: 1
+  author: "ocat"
+  repo: "https://github.com/Coordinate-Cat/berkeley-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ocat.berkeley-theme"
+  formats: null
+colors:
+  bg: "#0E0E10"
+  fg: "#FFFFFF"
+  black: "#0E0E10"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.6
+    black: 0
+    red: 27.4
+    green: 52.4
+    yellow: 43.5
+    blue: 15.7
+    magenta: 26.8
+    cyan: 40.8
+    white: 15.8
+    brightBlack: 22.7
+    brightRed: 27.4
+    brightGreen: 61
+    brightYellow: 61
+    brightBlue: 15.7
+    brightMagenta: 26.8
+    brightCyan: 40.8
+    brightWhite: 53.2

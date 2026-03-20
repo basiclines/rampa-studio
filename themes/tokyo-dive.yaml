@@ -1,0 +1,53 @@
+name: "Tokyo Dive"
+source:
+  marketplace_id: "sukemoritech.tokyo-dive"
+  version: "0.1.0"
+  installs: 1146
+  rating: 0
+  ratings: 0
+  author: "sukemoritech"
+  repo: "https://github.com/sukemoritech/tokyo-dive"
+  url: "https://marketplace.visualstudio.com/items?itemName=sukemoritech.tokyo-dive"
+  formats: null
+colors:
+  bg: "#202123"
+  fg: "#DADBDD"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#FFFF00"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#DADBDD"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.5
+    black: 0
+    red: 23.3
+    green: 51.8
+    yellow: 56.4
+    blue: 33.4
+    magenta: 30.9
+    cyan: 49.2
+    white: 87.2
+    brightBlack: 20.8
+    brightRed: 36
+    brightGreen: 75.7
+    brightYellow: 100.4
+    brightBlue: 48.6
+    brightMagenta: 45.3
+    brightCyan: 72.2
+    brightWhite: 82.5

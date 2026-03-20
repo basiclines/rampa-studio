@@ -1,0 +1,54 @@
+name: "Material Solarized"
+source:
+  marketplace_id: "syahrizaldev.material-solarized"
+  version: "1.4.7"
+  installs: 266
+  rating: 0
+  ratings: 0
+  author: "Syahrizal"
+  repo: "https://github.com/syahrizaldev/material-solarized"
+  url: "https://marketplace.visualstudio.com/items?itemName=syahrizaldev.material-solarized"
+  formats:
+    zed: "https://raw.githubusercontent.com/syahrizaldev/material-solarized/main/theme/material-solarized-color-theme.json"
+colors:
+  bg: "#101A1E"
+  fg: "#E3E8E8"
+  black: "#282C33"
+  red: "#E96379"
+  green: "#7BC059"
+  yellow: "#E0B16C"
+  blue: "#5E8EED"
+  magenta: "#E96379"
+  cyan: "#59B7C0"
+  white: "#E3E5E8"
+  brightBlack: "#282C33"
+  brightRed: "#E96379"
+  brightGreen: "#7BC059"
+  brightYellow: "#E0B16C"
+  brightBlue: "#5E8EED"
+  brightMagenta: "#E96379"
+  brightCyan: "#59B7C0"
+  brightWhite: "#E3E5E8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 225
+  pair: null
+  contrast:
+    fg: 91.1
+    black: 0
+    red: 41.8
+    green: 57.8
+    yellow: 63.4
+    blue: 41.6
+    magenta: 41.8
+    cyan: 54.9
+    white: 89.7
+    brightBlack: 0
+    brightRed: 41.8
+    brightGreen: 57.8
+    brightYellow: 63.4
+    brightBlue: 41.6
+    brightMagenta: 41.8
+    brightCyan: 54.9
+    brightWhite: 89.7

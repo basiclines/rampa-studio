@@ -1,0 +1,53 @@
+name: "Zenbones Themes (Zenbones Light)"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#F0EDEC"
+  fg: "#2C363C"
+  black: "#F0EDEC"
+  red: "#A8334C"
+  green: "#4F6C31"
+  yellow: "#944927"
+  blue: "#286486"
+  magenta: "#88507D"
+  cyan: "#3B8992"
+  white: "#2C363C"
+  brightBlack: "#CFC1BA"
+  brightRed: "#94253E"
+  brightGreen: "#3F5A22"
+  brightYellow: "#803D1C"
+  brightBlue: "#1D5573"
+  brightMagenta: "#7B3B70"
+  brightCyan: "#2B747C"
+  brightWhite: "#4F5E68"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Zenbones Themes (Zenbones Dark)"
+  contrast:
+    fg: 87.8
+    black: 0
+    red: 70.8
+    green: 69.4
+    yellow: 71.3
+    blue: 71.4
+    magenta: 69.5
+    cyan: 57.2
+    white: 87.8
+    brightBlack: 21.6
+    brightRed: 76.5
+    brightGreen: 76.6
+    brightYellow: 77.1
+    brightBlue: 77.4
+    brightMagenta: 76.3
+    brightCyan: 66.3
+    brightWhite: 72.7

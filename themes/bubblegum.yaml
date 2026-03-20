@@ -1,0 +1,53 @@
+name: "Bubblegum"
+source:
+  marketplace_id: "AdrianTriS.bubblegum-theme"
+  version: "1.0.0"
+  installs: 58
+  rating: 0
+  ratings: 0
+  author: "AdrianTriS"
+  repo: "https://github.com/AdrianTriSetiawan/Bubblegums-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AdrianTriS.bubblegum-theme"
+  formats: null
+colors:
+  bg: "#1A1226"
+  fg: "#FFD4E8"
+  black: "#1A1226"
+  red: "#FF6B9D"
+  green: "#A8E6CF"
+  yellow: "#FFD3A5"
+  blue: "#A8D8FF"
+  magenta: "#FF8EC4"
+  cyan: "#A8E6E6"
+  white: "#FFD4E8"
+  brightBlack: "#1A1226"
+  brightRed: "#FF6B9D"
+  brightGreen: "#A8E6CF"
+  brightYellow: "#FFD3A5"
+  brightBlue: "#A8D8FF"
+  brightMagenta: "#FF8EC4"
+  brightCyan: "#A8E6E6"
+  brightWhite: "#FFD4E8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 301
+  pair: null
+  contrast:
+    fg: 86.7
+    black: 0
+    red: 49.6
+    green: 82.7
+    yellow: 83.7
+    blue: 78.6
+    magenta: 60.2
+    cyan: 83.7
+    white: 86.7
+    brightBlack: 0
+    brightRed: 49.6
+    brightGreen: 82.7
+    brightYellow: 83.7
+    brightBlue: 78.6
+    brightMagenta: 60.2
+    brightCyan: 83.7
+    brightWhite: 86.7

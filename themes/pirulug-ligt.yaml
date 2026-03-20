@@ -1,0 +1,53 @@
+name: "Pirulug Ligt"
+source:
+  marketplace_id: "Pirulug.pirulug-theme"
+  version: "0.1.0"
+  installs: 218
+  rating: 0
+  ratings: 0
+  author: "Pirulug"
+  repo: "https://github.com/pirulug/pirulug-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Pirulug.pirulug-theme"
+  formats: null
+colors:
+  bg: "#F6F7F9"
+  fg: "#1F2328"
+  black: "#4B5563"
+  red: "#D92D20"
+  green: "#166534"
+  yellow: "#8A6A00"
+  blue: "#1D4ED8"
+  magenta: "#FF0055"
+  cyan: "#0891B2"
+  white: "#1F2328"
+  brightBlack: "#4B5563"
+  brightRed: "#D92D20"
+  brightGreen: "#166534"
+  brightYellow: "#8A6A00"
+  brightBlue: "#1D4ED8"
+  brightMagenta: "#FF0055"
+  brightCyan: "#0891B2"
+  brightWhite: "#1F2328"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.9
+    black: 81.5
+    red: 66.9
+    green: 79.5
+    yellow: 70
+    blue: 77.4
+    magenta: 58.7
+    cyan: 59
+    white: 97.9
+    brightBlack: 81.5
+    brightRed: 66.9
+    brightGreen: 79.5
+    brightYellow: 70
+    brightBlue: 77.4
+    brightMagenta: 58.7
+    brightCyan: 59
+    brightWhite: 97.9

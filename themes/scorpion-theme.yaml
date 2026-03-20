@@ -1,0 +1,53 @@
+name: "Scorpion Theme"
+source:
+  marketplace_id: "TudorAlexandru.scorpion"
+  version: "1.0.6"
+  installs: 2417
+  rating: 5
+  ratings: 2
+  author: "Tudor Alexandru"
+  repo: "https://github.com/tudorale/scorpion-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TudorAlexandru.scorpion"
+  formats: null
+colors:
+  bg: "#222B4D"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#EC3A37"
+  green: "#3AD900"
+  yellow: "#BD56E3"
+  blue: "#BD56E3"
+  magenta: "#FF2C70"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#5C5C61"
+  brightRed: "#EC3A37"
+  brightGreen: "#3AD900"
+  brightYellow: "#BD56E3"
+  brightBlue: "#BD56E3"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 103.4
+    black: 0
+    red: 31.3
+    green: 62.8
+    yellow: 32.8
+    blue: 32.8
+    magenta: 35.6
+    cyan: 89.3
+    white: 103.4
+    brightBlack: 14.5
+    brightRed: 31.3
+    brightGreen: 62.8
+    brightYellow: 32.8
+    brightBlue: 32.8
+    brightMagenta: 60.8
+    brightCyan: 89.3
+    brightWhite: 103.4

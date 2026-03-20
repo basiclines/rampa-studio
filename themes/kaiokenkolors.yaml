@@ -1,0 +1,53 @@
+name: "KaioKenKolors"
+source:
+  marketplace_id: "gallahaad.kaiokenkolors"
+  version: "0.0.1"
+  installs: 41
+  rating: 5
+  ratings: 1
+  author: "Gallahaad"
+  repo: "https://github.com/Gallahaad/KaiokenKolors"
+  url: "https://marketplace.visualstudio.com/items?itemName=gallahaad.kaiokenkolors"
+  formats: null
+colors:
+  bg: "#00143D"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#FF1313"
+  green: "#00C077"
+  yellow: "#FFFF00"
+  blue: "#0079FF"
+  magenta: "#FF00FF"
+  cyan: "#13D0FF"
+  white: "#FFFFFF"
+  brightBlack: "#717070"
+  brightRed: "#FF4E4E"
+  brightGreen: "#00FF98"
+  brightYellow: "#FFFF47"
+  brightBlue: "#3394FF"
+  brightMagenta: "#FF82FF"
+  brightCyan: "#2BD5FF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 79.2
+    black: 0
+    red: 36.5
+    green: 54.5
+    yellow: 101.4
+    blue: 33.6
+    magenta: 45
+    cyan: 67.8
+    white: 106.6
+    brightBlack: 26.2
+    brightRed: 41.9
+    brightGreen: 86.9
+    brightYellow: 101.7
+    brightBlue: 43.3
+    brightMagenta: 59.9
+    brightCyan: 70.4
+    brightWhite: 89.8

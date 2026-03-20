@@ -1,0 +1,53 @@
+name: "Zenbones Neobones Light Dim"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#DBE5DC"
+  fg: "#202E18"
+  black: "#E5EDE6"
+  red: "#A8334C"
+  green: "#567A30"
+  yellow: "#944927"
+  blue: "#286486"
+  magenta: "#88507D"
+  cyan: "#3B8992"
+  white: "#202E18"
+  brightBlack: "#B3C6B6"
+  brightRed: "#94253E"
+  brightGreen: "#3F5A22"
+  brightYellow: "#803D1C"
+  brightBlue: "#1D5573"
+  brightMagenta: "#7B3B70"
+  brightCyan: "#2B747C"
+  brightWhite: "#415934"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: 148
+  pair: "Zenbones Neobones Dark Warm"
+  contrast:
+    fg: 84.1
+    black: 0
+    red: 64.2
+    green: 57.4
+    yellow: 64.8
+    blue: 64.9
+    magenta: 63
+    cyan: 50.6
+    white: 84.1
+    brightBlack: 16.5
+    brightRed: 70
+    brightGreen: 70
+    brightYellow: 70.6
+    brightBlue: 70.8
+    brightMagenta: 69.7
+    brightCyan: 59.7
+    brightWhite: 70

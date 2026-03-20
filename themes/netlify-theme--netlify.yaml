@@ -1,0 +1,53 @@
+name: "Netlify Theme (Netlify)"
+source:
+  marketplace_id: "austincondiff.netlify-vscode-theme"
+  version: "1.0.4"
+  installs: 4684
+  rating: 5
+  ratings: 3
+  author: "Austin Condiff"
+  repo: "https://github.com/austincondiff/netlify-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=austincondiff.netlify-vscode-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#0E1E25"
+  black: "#E3E4EB"
+  red: "#D04747"
+  green: "#7BA63B"
+  yellow: "#E3A323"
+  blue: "#6749D0"
+  magenta: "#B74A9D"
+  cyan: "#00978F"
+  white: "#0E1E25"
+  brightBlack: "#616C7A"
+  brightRed: "#FFA5A5"
+  brightGreen: "#CDECA1"
+  brightYellow: "#FFE98D"
+  brightBlue: "#BAA6FF"
+  brightMagenta: "#F5A8E3"
+  brightCyan: "#78F0E6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 13.3
+    red: 70.2
+    green: 54.5
+    yellow: 43.1
+    blue: 79.9
+    magenta: 71.9
+    cyan: 63
+    white: 103.9
+    brightBlack: 76.6
+    brightRed: 35.4
+    brightGreen: 15
+    brightYellow: 10.5
+    brightBlue: 41.1
+    brightMagenta: 33.6
+    brightCyan: 17.6
+    brightWhite: 0

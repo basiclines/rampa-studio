@@ -1,0 +1,53 @@
+name: "Ef Autumn"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#0F0E06"
+  fg: "#CFBCBA"
+  black: "#CFBCBA"
+  red: "#EF656A"
+  green: "#2FA526"
+  yellow: "#C48702"
+  blue: "#379CF6"
+  magenta: "#D570AF"
+  cyan: "#4FB0CF"
+  white: "#26211D"
+  brightBlack: "#887C8A"
+  brightRed: "#F06A3F"
+  brightGreen: "#64AA0F"
+  brightYellow: "#D0730F"
+  brightBlue: "#6A88FF"
+  brightMagenta: "#E580EA"
+  brightCyan: "#6FAFFF"
+  brightWhite: "#0F0E06"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 102
+  pair: null
+  contrast:
+    fg: 68.4
+    black: 68.4
+    red: 44
+    green: 42.6
+    yellow: 44
+    blue: 46.7
+    magenta: 43.8
+    cyan: 53.1
+    white: 0
+    brightBlack: 34.3
+    brightRed: 44.6
+    brightGreen: 46.8
+    brightYellow: 40.2
+    brightBlue: 42.6
+    brightMagenta: 54.1
+    brightCyan: 57.2
+    brightWhite: 0

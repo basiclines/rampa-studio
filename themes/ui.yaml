@@ -1,0 +1,53 @@
+name: "_ui"
+source:
+  marketplace_id: "saltchang.salty"
+  version: "0.2.0"
+  installs: 313
+  rating: 0
+  ratings: 0
+  author: "Salt Chang"
+  repo: "https://github.com/saltchang/theme-salty"
+  url: "https://marketplace.visualstudio.com/items?itemName=saltchang.salty"
+  formats: null
+colors:
+  bg: "#131A18"
+  fg: "#E0E0E0"
+  black: "#666666"
+  red: "#CD6564"
+  green: "#AEC199"
+  yellow: "#FFF099"
+  blue: "#6D9CBE"
+  magenta: "#B081B9"
+  cyan: "#80B5B3"
+  white: "#EFEFEF"
+  brightBlack: "#666666"
+  brightRed: "#CD6564"
+  brightGreen: "#AEC199"
+  brightYellow: "#FFF099"
+  brightBlue: "#6D9CBE"
+  brightMagenta: "#B081B9"
+  brightCyan: "#80B5B3"
+  brightWhite: "#EFEFEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 176
+  pair: null
+  contrast:
+    fg: 86.7
+    black: 21.9
+    red: 36.2
+    green: 64.3
+    yellow: 95.9
+    blue: 44.8
+    magenta: 42.2
+    cyan: 55.9
+    white: 96.2
+    brightBlack: 21.9
+    brightRed: 36.2
+    brightGreen: 64.3
+    brightYellow: 95.9
+    brightBlue: 44.8
+    brightMagenta: 42.2
+    brightCyan: 55.9
+    brightWhite: 96.2

@@ -1,0 +1,53 @@
+name: "stilla"
+source:
+  marketplace_id: "jakeisnt.stilla"
+  version: "0.0.1"
+  installs: 163
+  rating: 0
+  ratings: 0
+  author: "jakeisnt"
+  repo: "https://github.com/jakeisnt/stilla-visual-studio-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=jakeisnt.stilla"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#F2F2F2"
+  black: "#121414"
+  red: "#BA8082"
+  green: "#A19C9A"
+  yellow: "#E9B872"
+  blue: "#ADB2BA"
+  magenta: "#CD96B3"
+  cyan: "#88B6D0"
+  white: "#FAFAFA"
+  brightBlack: "#4C566A"
+  brightRed: "#BA8082"
+  brightGreen: "#A19C9A"
+  brightYellow: "#E9B872"
+  brightBlue: "#ADB2BA"
+  brightMagenta: "#CD96B3"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#FAF5EF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.1
+    black: 0
+    red: 42
+    green: 49
+    yellow: 68.6
+    blue: 60.1
+    magenta: 53.8
+    cyan: 59.2
+    white: 104.3
+    brightBlack: 16.1
+    brightRed: 42
+    brightGreen: 49
+    brightYellow: 68.6
+    brightBlue: 60.1
+    brightMagenta: 53.8
+    brightCyan: 61.3
+    brightWhite: 101.5

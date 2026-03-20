@@ -1,0 +1,53 @@
+name: "Nord Dark Contrast (Nord Dark Contrast)"
+source:
+  marketplace_id: "simojanhunen.nord-dark-contrast"
+  version: "0.4.0"
+  installs: 8769
+  rating: 5
+  ratings: 1
+  author: "Simo Janhunen"
+  repo: "https://github.com/simojanhunen/nord-dark-contrast"
+  url: "https://marketplace.visualstudio.com/items?itemName=simojanhunen.nord-dark-contrast"
+  formats: null
+colors:
+  bg: "#212121"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.1
+    black: 0
+    red: 31.7
+    green: 60.4
+    yellow: 75.1
+    blue: 47.4
+    magenta: 45.2
+    cyan: 61.4
+    white: 91.1
+    brightBlack: 14.1
+    brightRed: 31.7
+    brightGreen: 60.4
+    brightYellow: 75.1
+    brightBlue: 47.4
+    brightMagenta: 45.2
+    brightCyan: 59.3
+    brightWhite: 95

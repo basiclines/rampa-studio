@@ -1,0 +1,53 @@
+name: "Relaxed Theme - Semantic Focus (Relaxed Theme - Dark Focus)"
+source:
+  marketplace_id: "nomad-in-code.relaxed-theme-semantic-focus"
+  version: "0.0.13"
+  installs: 142
+  rating: 0
+  ratings: 0
+  author: "nomad-in-code"
+  repo: "https://github.com/chaluvadis/relax-theme-semantic-focus"
+  url: "https://marketplace.visualstudio.com/items?itemName=nomad-in-code.relaxed-theme-semantic-focus"
+  formats: null
+colors:
+  bg: "#2B2F34"
+  fg: "#DDE1E6"
+  black: "#151515"
+  red: "#C4776F"
+  green: "#8FAE6B"
+  yellow: "#D7C27E"
+  blue: "#85A7BF"
+  magenta: "#A47AA7"
+  cyan: "#B9D3EA"
+  white: "#DDE1E6"
+  brightBlack: "#8A8F98"
+  brightRed: "#C4776F"
+  brightGreen: "#8FAE6B"
+  brightYellow: "#D7C27E"
+  brightBlue: "#85A7BF"
+  brightMagenta: "#A47AA7"
+  brightCyan: "#B9D3EA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 254
+  pair: "Relaxed Theme - Semantic Focus (Relaxed Theme - Day Light)"
+  contrast:
+    fg: 83.4
+    black: 0
+    red: 35.9
+    green: 48.3
+    yellow: 65.6
+    blue: 47.4
+    magenta: 33.9
+    cyan: 73.1
+    white: 83.4
+    brightBlack: 37.1
+    brightRed: 35.9
+    brightGreen: 48.3
+    brightYellow: 65.6
+    brightBlue: 47.4
+    brightMagenta: 33.9
+    brightCyan: 73.1
+    brightWhite: 103.1

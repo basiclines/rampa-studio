@@ -1,0 +1,53 @@
+name: "Jetbrain-Fleet color"
+source:
+  marketplace_id: "madspace.echo-theme"
+  version: "1.0.0"
+  installs: 278
+  rating: 0
+  ratings: 0
+  author: "madspace"
+  repo: "https://github.com/madspace/madspace-echo-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=madspace.echo-theme"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#606060"
+  black: "#676767"
+  red: "#F14C4C"
+  green: "#15AC91"
+  yellow: "#E5B95C"
+  blue: "#4C9DF3"
+  magenta: "#E567DC"
+  cyan: "#75D3BA"
+  white: "#606060"
+  brightBlack: "#676767"
+  brightRed: "#994141"
+  brightGreen: "#15AC91"
+  brightYellow: "#9C7B35"
+  brightBlue: "#4C9DF3"
+  brightMagenta: "#E567DC"
+  brightCyan: "#75D3BA"
+  brightWhite: "#606060"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 20.4
+    black: 23.3
+    red: 39.4
+    green: 47.5
+    yellow: 68.1
+    blue: 47.7
+    magenta: 47.3
+    cyan: 69.8
+    white: 20.4
+    brightBlack: 23.3
+    brightRed: 19.7
+    brightGreen: 47.5
+    brightYellow: 34.6
+    brightBlue: 47.7
+    brightMagenta: 47.3
+    brightCyan: 69.8
+    brightWhite: 20.4

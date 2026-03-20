@@ -1,0 +1,53 @@
+name: "Sonokai (Sonokai Shusia)"
+source:
+  marketplace_id: "sainnhe.sonokai"
+  version: "0.2.9"
+  installs: 24103
+  rating: 5
+  ratings: 18
+  author: "sainnhe"
+  repo: "https://github.com/sainnhe/sonokai-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai"
+  formats: null
+colors:
+  bg: "#2D2A2E"
+  fg: "#E3E1E4"
+  black: "#49464E"
+  red: "#F85E84"
+  green: "#9ECD6F"
+  yellow: "#E5C463"
+  blue: "#7ACCD7"
+  magenta: "#AB9DF2"
+  cyan: "#EF9062"
+  white: "#E3E1E4"
+  brightBlack: "#49464E"
+  brightRed: "#F85E84"
+  brightGreen: "#9ECD6F"
+  brightYellow: "#E5C463"
+  brightBlue: "#7ACCD7"
+  brightMagenta: "#AB9DF2"
+  brightCyan: "#EF9062"
+  brightWhite: "#E3E1E4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.9
+    black: 0
+    red: 41.5
+    green: 64.1
+    yellow: 68.7
+    blue: 64.3
+    magenta: 51.2
+    cyan: 51.5
+    white: 84.9
+    brightBlack: 0
+    brightRed: 41.5
+    brightGreen: 64.1
+    brightYellow: 68.7
+    brightBlue: 64.3
+    brightMagenta: 51.2
+    brightCyan: 51.5
+    brightWhite: 84.9

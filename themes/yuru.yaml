@@ -1,0 +1,54 @@
+name: "Yuru"
+source:
+  marketplace_id: "arzg.noel"
+  version: "2.1.0"
+  installs: 614
+  rating: 5
+  ratings: 1
+  author: "arzg"
+  repo: "https://github.com/arzg/noel"
+  url: "https://marketplace.visualstudio.com/items?itemName=arzg.noel"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/arzg/noel/master/noel.itermcolors"
+colors:
+  bg: "#292525"
+  fg: "#E1DBD1"
+  black: "#292525"
+  red: "#CC818E"
+  green: "#91A872"
+  yellow: "#BE8B67"
+  blue: "#88D4CC"
+  magenta: "#CC818E"
+  cyan: "#C4BAA9"
+  white: "#E1DBD1"
+  brightBlack: "#5D5650"
+  brightRed: "#CC818E"
+  brightGreen: "#91A872"
+  brightYellow: "#BE8B67"
+  brightBlue: "#88D4CC"
+  brightMagenta: "#CC818E"
+  brightCyan: "#C4BAA9"
+  brightWhite: "#E1DBD1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.1
+    black: 0
+    red: 42.8
+    green: 47.9
+    yellow: 42.6
+    blue: 69.4
+    magenta: 42.8
+    cyan: 62.7
+    white: 82.1
+    brightBlack: 13.9
+    brightRed: 42.8
+    brightGreen: 47.9
+    brightYellow: 42.6
+    brightBlue: 69.4
+    brightMagenta: 42.8
+    brightCyan: 62.7
+    brightWhite: 82.1

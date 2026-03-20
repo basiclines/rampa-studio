@@ -1,0 +1,53 @@
+name: "Primer Light"
+source:
+  marketplace_id: "andrewmarkle.primer-light"
+  version: "0.0.8"
+  installs: 43123
+  rating: 4
+  ratings: 2
+  author: "Andrew Markle"
+  repo: "https://github.com/andrewmarkle/primer-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=andrewmarkle.primer-light"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#333333"
+  black: "#000000"
+  red: "#FF6C69"
+  green: "#56FA48"
+  yellow: "#FFD864"
+  blue: "#85E7FA"
+  magenta: "#AE90E9"
+  cyan: "#85E7EE"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07178"
+  brightGreen: "#CBE645"
+  brightYellow: "#FFD864"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#85E7EE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.7
+    black: 106
+    red: 52.6
+    green: 18.2
+    yellow: 18.2
+    blue: 20
+    magenta: 51.3
+    cyan: 20.6
+    white: 30.1
+    brightBlack: 77.9
+    brightRed: 54.2
+    brightGreen: 19.5
+    brightYellow: 18.2
+    brightBlue: 66
+    brightMagenta: 43.7
+    brightCyan: 20.6
+    brightWhite: 0

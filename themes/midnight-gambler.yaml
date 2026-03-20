@@ -1,0 +1,53 @@
+name: "Midnight Gambler"
+source:
+  marketplace_id: "Wasted69.dark-theme-sos"
+  version: "2.7.0"
+  installs: 403
+  rating: 5
+  ratings: 1
+  author: "Wasted"
+  repo: "https://github.com/riel-fas/VScode_theme_extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=Wasted69.dark-theme-sos"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#F8F8FF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.3
+    black: 0
+    red: 37.3
+    green: 86.2
+    yellow: 102.4
+    blue: 16
+    magenta: 45.9
+    cyan: 91.9
+    white: 107.6
+    brightBlack: 0
+    brightRed: 37.3
+    brightGreen: 86.2
+    brightYellow: 102.4
+    brightBlue: 16
+    brightMagenta: 45.9
+    brightCyan: 91.9
+    brightWhite: 107.6

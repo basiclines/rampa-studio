@@ -1,0 +1,53 @@
+name: "oolory"
+source:
+  marketplace_id: "gtwsky.oolory"
+  version: "2.0.0"
+  installs: 2116
+  rating: 5
+  ratings: 1
+  author: "Michał Gutowski"
+  repo: "https://gitlab.com/gtwsky_/oolory"
+  url: "https://marketplace.visualstudio.com/items?itemName=gtwsky.oolory"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#FFFFFF"
+  red: "#FF0032"
+  green: "#00FF68"
+  yellow: "#FFCA00"
+  blue: "#004BFF"
+  magenta: "#D700FF"
+  cyan: "#00D2FF"
+  white: "#FFFFFF"
+  brightBlack: "#FFFFFF"
+  brightRed: "#FF0032"
+  brightGreen: "#00FF68"
+  brightYellow: "#FFCA00"
+  brightBlue: "#004BFF"
+  brightMagenta: "#D700FF"
+  brightCyan: "#00D2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "oolory-color-theme"
+  contrast:
+    fg: 107.9
+    black: 107.9
+    red: 37.7
+    green: 87.2
+    yellow: 78.8
+    blue: 22.9
+    magenta: 37.6
+    cyan: 70
+    white: 107.9
+    brightBlack: 107.9
+    brightRed: 37.7
+    brightGreen: 87.2
+    brightYellow: 78.8
+    brightBlue: 22.9
+    brightMagenta: 37.6
+    brightCyan: 70
+    brightWhite: 107.9

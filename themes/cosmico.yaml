@@ -1,0 +1,53 @@
+name: "Cosmico"
+source:
+  marketplace_id: "MarianoIbarra.cosmico"
+  version: "0.3.0"
+  installs: 744
+  rating: 0
+  ratings: 0
+  author: "Mariano Ibarra"
+  repo: "https://github.com/marianoibarra/cosmico-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MarianoIbarra.cosmico"
+  formats: null
+colors:
+  bg: "#10151D"
+  fg: "#D9DFE7"
+  black: "#738295"
+  red: "#F76769"
+  green: "#17B877"
+  yellow: "#FFA23E"
+  blue: "#708FFF"
+  magenta: "#A87FFB"
+  cyan: "#25A6E9"
+  white: "#A4AFBD"
+  brightBlack: "#8B98A9"
+  brightRed: "#FC8F8E"
+  brightGreen: "#66CE98"
+  brightYellow: "#FFC26E"
+  brightBlue: "#A2B6FF"
+  brightMagenta: "#C8AAFF"
+  brightCyan: "#71C2EE"
+  brightWhite: "#FAFBFE"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 86
+    black: 34.2
+    red: 45.6
+    green: 51.4
+    yellow: 63.1
+    blue: 44.9
+    magenta: 45.1
+    cyan: 48.8
+    white: 57.5
+    brightBlack: 45.2
+    brightRed: 58
+    brightGreen: 64.7
+    brightYellow: 75.6
+    brightBlue: 63.7
+    brightMagenta: 63.6
+    brightCyan: 63.7
+    brightWhite: 104.4

@@ -1,0 +1,55 @@
+name: "LBB Builder Dark"
+source:
+  marketplace_id: "LifeBusinessBuilders.lbb-vsc-theme"
+  version: "1.1.4"
+  installs: 12
+  rating: 0
+  ratings: 0
+  author: "LifeBusiness Builders"
+  repo: "https://github.com/LifeBusinessBuilders/lbb-vsc-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LifeBusinessBuilders.lbb-vsc-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/LifeBusinessBuilders/lbb-vsc-theme/main/extras/iterm2/LBB Builder Dark.itermcolors"
+    windows-terminal: "https://raw.githubusercontent.com/LifeBusinessBuilders/lbb-vsc-theme/main/extras/windows-terminal/schemes.json"
+colors:
+  bg: "#1E1E2E"
+  fg: "#D9E0EE"
+  black: "#1A1A28"
+  red: "#F38BA8"
+  green: "#ABE9B3"
+  yellow: "#F9E2AF"
+  blue: "#89B4FA"
+  magenta: "#CBA6F7"
+  cyan: "#89DCEB"
+  white: "#D9E0EE"
+  brightBlack: "#6E6A86"
+  brightRed: "#D7263D"
+  brightGreen: "#ABE9B3"
+  brightYellow: "#FFB86C"
+  brightBlue: "#96CDFB"
+  brightMagenta: "#F5C2E7"
+  brightCyan: "#74C7EC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 284
+  pair: "LBB Builder Light"
+  contrast:
+    fg: 85.6
+    black: 0
+    red: 54.7
+    green: 82.3
+    yellow: 88.4
+    blue: 59.1
+    magenta: 60.8
+    cyan: 75.6
+    white: 85.6
+    brightBlack: 24.1
+    brightRed: 27.1
+    brightGreen: 82.3
+    brightYellow: 70.4
+    brightBlue: 70.7
+    brightMagenta: 76.7
+    brightCyan: 64.7
+    brightWhite: 105.8

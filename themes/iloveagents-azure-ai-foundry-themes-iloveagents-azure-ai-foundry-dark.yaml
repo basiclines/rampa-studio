@@ -1,0 +1,56 @@
+name: "iLoveAgents - Azure AI Foundry Themes (iLoveAgents - Azure AI Foundry (Dark))"
+source:
+  marketplace_id: "iLoveAgents.iloveagents-ai-foundry-theme"
+  version: "0.5.3"
+  installs: 162
+  rating: 5
+  ratings: 1
+  author: "iLoveAgents"
+  repo: "https://github.com/iLoveAgents/vscode-iloveagents-foundry-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=iLoveAgents.iloveagents-ai-foundry-theme"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/iLoveAgents/vscode-iloveagents-foundry-theme/main/terminal-schemes/iLoveAgents-AzureAI.itermcolors"
+    alacritty: "https://raw.githubusercontent.com/iLoveAgents/vscode-iloveagents-foundry-theme/main/terminal-schemes/alacritty.yml"
+    windows-terminal: "https://raw.githubusercontent.com/iLoveAgents/vscode-iloveagents-foundry-theme/main/terminal-schemes/windows-terminal.json"
+colors:
+  bg: "#101224"
+  fg: "#E8EDF2"
+  black: "#1C2028"
+  red: "#E84855"
+  green: "#0FA8A0"
+  yellow: "#C89C26"
+  blue: "#0078D4"
+  magenta: "#E3008C"
+  cyan: "#1AA4E8"
+  white: "#E4E7EB"
+  brightBlack: "#384155"
+  brightRed: "#FF6774"
+  brightGreen: "#11BEAE"
+  brightYellow: "#DEB33A"
+  brightBlue: "#1995F0"
+  brightMagenta: "#F03A95"
+  brightCyan: "#33B4F2"
+  brightWhite: "#F2F4F6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  pair: "iLoveAgents - Azure AI Foundry Themes (iLoveAgents - Azure AI Foundry (Light))"
+  contrast:
+    fg: 95
+    black: 0
+    red: 36.4
+    green: 45.7
+    yellow: 51.5
+    blue: 30.3
+    magenta: 32.3
+    cyan: 47.9
+    white: 91.4
+    brightBlack: 8.1
+    brightRed: 47.7
+    brightGreen: 56
+    brightYellow: 63.6
+    brightBlue: 42.6
+    brightMagenta: 38.3
+    brightCyan: 55.5
+    brightWhite: 99.7

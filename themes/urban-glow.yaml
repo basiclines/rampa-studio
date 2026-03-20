@@ -1,0 +1,53 @@
+name: "Urban Glow"
+source:
+  marketplace_id: "Ranfurly.urban-glow"
+  version: "1.0.8"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "Ranfurly"
+  repo: "https://github.com/ranfurIy/urban-glow"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ranfurly.urban-glow"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#DDDDDD"
+  black: "#000000"
+  red: "#F0727D"
+  green: "#8BC98F"
+  yellow: "#FFC64C"
+  blue: "#559AD1"
+  magenta: "#C695C6"
+  cyan: "#30AFAE"
+  white: "#C7C7C7"
+  brightBlack: "#838383"
+  brightRed: "#F0727D"
+  brightGreen: "#8BC98F"
+  brightYellow: "#FFC64C"
+  brightBlue: "#559AD1"
+  brightMagenta: "#C695C6"
+  brightCyan: "#30AFAE"
+  brightWhite: "#C7C7C7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86
+    black: 0
+    red: 48
+    green: 65.4
+    yellow: 77.5
+    blue: 44.9
+    magenta: 53.6
+    cyan: 50.4
+    white: 72.7
+    brightBlack: 36.2
+    brightRed: 48
+    brightGreen: 65.4
+    brightYellow: 77.5
+    brightBlue: 44.9
+    brightMagenta: 53.6
+    brightCyan: 50.4
+    brightWhite: 72.7

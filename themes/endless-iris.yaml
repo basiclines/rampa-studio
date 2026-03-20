@@ -1,0 +1,53 @@
+name: "Endless Iris"
+source:
+  marketplace_id: "Dikroll.void-iris-theme"
+  version: "1.1.1"
+  installs: 141
+  rating: 5
+  ratings: 1
+  author: "Dikroll"
+  repo: "https://github.com/Dikroll/Void-Iris"
+  url: "https://marketplace.visualstudio.com/items?itemName=Dikroll.void-iris-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#031740"
+  black: "#021F59"
+  red: "#D9534F"
+  green: "#3999BF"
+  yellow: "#F0AD4E"
+  blue: "#3999BF"
+  magenta: "#3999BF"
+  cyan: "#3999BF"
+  white: "#031740"
+  brightBlack: "#021F59"
+  brightRed: "#D9534F"
+  brightGreen: "#3999BF"
+  brightYellow: "#F0AD4E"
+  brightBlue: "#3999BF"
+  brightMagenta: "#F2994B"
+  brightCyan: "#3999BF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104
+    black: 102.1
+    red: 66.1
+    green: 59.4
+    yellow: 37.2
+    blue: 59.4
+    magenta: 59.4
+    cyan: 59.4
+    white: 104
+    brightBlack: 102.1
+    brightRed: 66.1
+    brightGreen: 59.4
+    brightYellow: 37.2
+    brightBlue: 59.4
+    brightMagenta: 43.6
+    brightCyan: 59.4
+    brightWhite: 0

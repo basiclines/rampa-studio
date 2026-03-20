@@ -1,0 +1,53 @@
+name: "Murasaki theme"
+source:
+  marketplace_id: "WesleyBarbosa.murasaki-theme"
+  version: "1.2.0"
+  installs: 50
+  rating: 0
+  ratings: 0
+  author: "WesleyBarbosa"
+  repo: "https://github.com/Wesley216/murasaki-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=WesleyBarbosa.murasaki-theme"
+  formats: null
+colors:
+  bg: "#15141B"
+  fg: "#EDECEE"
+  black: "#535354"
+  red: "#FF6767"
+  green: "#61FFCA"
+  yellow: "#FFCA85"
+  blue: "#A277FF"
+  magenta: "#61FFCA"
+  cyan: "#A277FF"
+  white: "#CDCCCE"
+  brightBlack: "#2D2D2D"
+  brightRed: "#FFCA85"
+  brightGreen: "#23D18B"
+  brightYellow: "#FFCA85"
+  brightBlue: "#A277FF"
+  brightMagenta: "#61FFCA"
+  brightCyan: "#61FFCA"
+  brightWhite: "#EDECEE"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 94.9
+    black: 14.6
+    red: 47.3
+    green: 90.6
+    yellow: 79.2
+    blue: 42.4
+    magenta: 90.6
+    cyan: 42.4
+    white: 75.1
+    brightBlack: 0
+    brightRed: 79.2
+    brightGreen: 63.7
+    brightYellow: 79.2
+    brightBlue: 42.4
+    brightMagenta: 90.6
+    brightCyan: 90.6
+    brightWhite: 94.9

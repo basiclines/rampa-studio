@@ -1,0 +1,53 @@
+name: "Oni Theme"
+source:
+  marketplace_id: "onikijo.oni-color-theme"
+  version: "1.1.3"
+  installs: 190
+  rating: 0
+  ratings: 0
+  author: "onikijo"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=onikijo.oni-color-theme"
+  formats: null
+colors:
+  bg: "#292A2F"
+  fg: "#FFFFFF"
+  black: "#010101"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#DDDDDD"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104
+    black: 0
+    red: 23.9
+    green: 50.1
+    yellow: 82.8
+    blue: 24.6
+    magenta: 26.9
+    cyan: 44.7
+    white: 82.1
+    brightBlack: 19.2
+    brightRed: 35.7
+    brightGreen: 60.7
+    brightYellow: 92.8
+    brightBlue: 37.1
+    brightMagenta: 42.5
+    brightCyan: 52.5
+    brightWhite: 82.1

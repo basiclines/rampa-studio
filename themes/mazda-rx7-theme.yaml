@@ -1,0 +1,53 @@
+name: "Mazda-RX7-Theme"
+source:
+  marketplace_id: "Mazda-RX7-Theme.mazda-rx7-theme"
+  version: "1.0.3"
+  installs: 51
+  rating: 5
+  ratings: 1
+  author: "Mazda-RX7-Theme"
+  repo: "https://github.com/jklaiven/mazda-rx7-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Mazda-RX7-Theme.mazda-rx7-theme"
+  formats: null
+colors:
+  bg: "#0C0C0C"
+  fg: "#FFA400"
+  black: "#0C0C0C"
+  red: "#FF4C4C"
+  green: "#8FD96F"
+  yellow: "#F3B23C"
+  blue: "#2D6C94"
+  magenta: "#B77CE8"
+  cyan: "#36CFC9"
+  white: "#C4B59A"
+  brightBlack: "#555555"
+  brightRed: "#FF6B6B"
+  brightGreen: "#A9E88A"
+  brightYellow: "#FFD74D"
+  brightBlue: "#4FA1D1"
+  brightMagenta: "#D3A7FF"
+  brightCyan: "#6CE7E1"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 64.2
+    black: 0
+    red: 42.6
+    green: 72.2
+    yellow: 67.2
+    blue: 23.3
+    magenta: 45.5
+    cyan: 65.9
+    white: 63
+    brightBlack: 15.9
+    brightRed: 48.9
+    brightGreen: 82.2
+    brightYellow: 84.4
+    brightBlue: 47.1
+    brightMagenta: 64.7
+    brightCyan: 80.5
+    brightWhite: 107.7

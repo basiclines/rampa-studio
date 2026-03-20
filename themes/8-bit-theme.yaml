@@ -1,0 +1,53 @@
+name: "8-bit-theme"
+source:
+  marketplace_id: "cicero-lino.cicero-lino-theme"
+  version: "1.0.1"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "cicero-lino"
+  repo: "https://github.com/CiceroLino/cicero-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=cicero-lino.cicero-lino-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#A000A0"
+  cyan: "#70A0FF"
+  white: "#FFFFFF"
+  brightBlack: "#4C4C4C"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#70A0FF"
+  brightMagenta: "#FF80FF"
+  brightCyan: "#70A0FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 16.2
+    magenta: 20
+    cyan: 51.8
+    white: 107.9
+    brightBlack: 12.7
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 51.8
+    brightMagenta: 60.6
+    brightCyan: 51.8
+    brightWhite: 107.9

@@ -1,0 +1,53 @@
+name: "Base Minor Dark Hard"
+source:
+  marketplace_id: "adamsome.vscode-theme-base-minor"
+  version: "1.1.2"
+  installs: 213
+  rating: 0
+  ratings: 0
+  author: "adamsome"
+  repo: "https://github.com/adamsome/vscode-theme-base-minor"
+  url: "https://marketplace.visualstudio.com/items?itemName=adamsome.vscode-theme-base-minor"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#E5E5E5"
+  black: "#000000"
+  red: "#FF453A"
+  green: "#007A75"
+  yellow: "#FFD60A"
+  blue: "#59A5DE"
+  magenta: "#C053D5"
+  cyan: "#24B0DB"
+  white: "#FFFFFF"
+  brightBlack: "#1B1B1B"
+  brightRed: "#EB877A"
+  brightGreen: "#00B3AA"
+  brightYellow: "#F5DDA4"
+  brightBlue: "#77BDEE"
+  brightMagenta: "#CF88DD"
+  brightCyan: "#6AC1DC"
+  brightWhite: "#EAEAEA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90
+    black: 0
+    red: 40.6
+    green: 25.5
+    yellow: 82.8
+    blue: 49.2
+    magenta: 35.3
+    cyan: 51.9
+    white: 106.9
+    brightBlack: 0
+    brightRed: 51.5
+    brightGreen: 50.5
+    brightYellow: 86.3
+    brightBlue: 61.8
+    brightMagenta: 51.1
+    brightCyan: 61.7
+    brightWhite: 93.2

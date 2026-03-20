@@ -1,0 +1,53 @@
+name: "Vaporizer Dark & Light Themes (Vaporizer Moon-Light Dark)"
+source:
+  marketplace_id: "Vaporizer.vaporizer-dark"
+  version: "2.1.9"
+  installs: 35761
+  rating: 5
+  ratings: 6
+  author: "Vaporizer"
+  repo: "https://github.com/Vaporizer-dev/Vaporizer-Vscode-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Vaporizer.vaporizer-dark"
+  formats: null
+colors:
+  bg: "#1C2332"
+  fg: "#D4D4D4"
+  black: "#999898"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 265
+  pair: "Vaporizer Dark & Light Themes (Vaporizer Milk Light)"
+  contrast:
+    fg: 77.9
+    black: 44.2
+    red: 25.1
+    green: 51.4
+    yellow: 84
+    blue: 25.8
+    magenta: 28.2
+    cyan: 46
+    white: 88.4
+    brightBlack: 20.4
+    brightRed: 37
+    brightGreen: 61.9
+    brightYellow: 94
+    brightBlue: 38.4
+    brightMagenta: 43.8
+    brightCyan: 53.8
+    brightWhite: 88.4

@@ -1,0 +1,53 @@
+name: "Dark Abyss"
+source:
+  marketplace_id: "MatongoMulindi.abyss"
+  version: "0.1.2"
+  installs: 10346
+  rating: 4.75
+  ratings: 4
+  author: "Matongo Mulindi"
+  repo: "https://github.com/mmatongo/vscode-abyss"
+  url: "https://marketplace.visualstudio.com/items?itemName=MatongoMulindi.abyss"
+  formats: null
+colors:
+  bg: "#151515"
+  fg: "#EEEEEE"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#CC72CC"
+  blue: "#6E6E6E"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#84DF44"
+  brightYellow: "#CC72CC"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.9
+    black: 0
+    red: 42.3
+    green: 62.5
+    yellow: 43.7
+    blue: 25.7
+    magenta: 45.3
+    cyan: 54.8
+    white: 83.2
+    brightBlack: 35.7
+    brightRed: 38.6
+    brightGreen: 73.1
+    brightYellow: 43.7
+    brightBlue: 41.7
+    brightMagenta: 12.9
+    brightCyan: 54.8
+    brightWhite: 83.2

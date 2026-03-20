@@ -1,0 +1,53 @@
+name: "One Darker Pro (One Darker Pro)"
+source:
+  marketplace_id: "drekevist.one-darker-pro"
+  version: "0.1.0"
+  installs: 7188
+  rating: 5
+  ratings: 1
+  author: "drekevist"
+  repo: "https://github.com/drekevist/one-darker-pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=drekevist.one-darker-pro"
+  formats: null
+colors:
+  bg: "#0F0F0F"
+  fg: "#DBDBDB"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.4
+    black: 0
+    red: 42.7
+    green: 62.9
+    yellow: 71.2
+    blue: 55.3
+    magenta: 45.8
+    cyan: 55.2
+    white: 83.7
+    brightBlack: 36.2
+    brightRed: 39.1
+    brightGreen: 62.9
+    brightYellow: 71.2
+    brightBlue: 42.1
+    brightMagenta: 13.4
+    brightCyan: 55.2
+    brightWhite: 83.7

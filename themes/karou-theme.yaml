@@ -1,0 +1,53 @@
+name: "KAROU Theme"
+source:
+  marketplace_id: "HAAZIQ-ALI.karou-theme"
+  version: "3.0.1"
+  installs: 90
+  rating: 5
+  ratings: 2
+  author: "HAAZIQ-ALI"
+  repo: "https://github.com/HAAZIQ-ALI/KAROU-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=HAAZIQ-ALI.karou-theme"
+  formats: null
+colors:
+  bg: "#242933"
+  fg: "#D8DEE9"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 82.8
+    black: 0
+    red: 30.4
+    green: 59.1
+    yellow: 73.8
+    blue: 46
+    magenta: 43.9
+    cyan: 60.1
+    white: 89.7
+    brightBlack: 12.8
+    brightRed: 30.4
+    brightGreen: 59.1
+    brightYellow: 73.8
+    brightBlue: 46
+    brightMagenta: 43.9
+    brightCyan: 58
+    brightWhite: 93.6

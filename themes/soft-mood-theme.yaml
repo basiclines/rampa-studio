@@ -1,0 +1,53 @@
+name: "Soft Mood Theme"
+source:
+  marketplace_id: "cdub.soft-mood-theme-dark"
+  version: "0.0.3"
+  installs: 511
+  rating: 0
+  ratings: 0
+  author: "cdub"
+  repo: "https://github.com/cwon07/softmoodvscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=cdub.soft-mood-theme-dark"
+  formats: null
+colors:
+  bg: "#22292A"
+  fg: "#CDC9C9"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#F7E1D7"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 207
+  pair: null
+  contrast:
+    fg: 71
+    black: 0
+    red: 24.3
+    green: 50.6
+    yellow: 83.2
+    blue: 25
+    magenta: 27.4
+    cyan: 45.2
+    white: 87.8
+    brightBlack: 19.6
+    brightRed: 36.2
+    brightGreen: 61.1
+    brightYellow: 93.2
+    brightBlue: 37.6
+    brightMagenta: 43
+    brightCyan: 53
+    brightWhite: 87.6

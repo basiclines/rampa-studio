@@ -1,0 +1,53 @@
+name: "Yaruna Forest"
+source:
+  marketplace_id: "daniel-duc.daniel-yaruna-theme"
+  version: "1.3.2"
+  installs: 255
+  rating: 5
+  ratings: 2
+  author: "Daniel Duc"
+  repo: "https://github.com/binhduc1211/daniel-yaruna-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=daniel-duc.daniel-yaruna-theme"
+  formats: null
+colors:
+  bg: "#1C2A25"
+  fg: "#DCE3DC"
+  black: "#25332E"
+  red: "#52B69A"
+  green: "#D9ED92"
+  yellow: "#CAFFBF"
+  blue: "#A7C957"
+  magenta: "#99D98C"
+  cyan: "#BEC5BE"
+  white: "#DCE3DC"
+  brightBlack: "#5A6D63"
+  brightRed: "#52B69A"
+  brightGreen: "#D9ED92"
+  brightYellow: "#FCBF49"
+  brightBlue: "#88D498"
+  brightMagenta: "#99D98C"
+  brightCyan: "#BEC5BE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 171
+  pair: null
+  contrast:
+    fg: 85.2
+    black: 0
+    red: 50.4
+    green: 87
+    yellow: 95.4
+    blue: 63.5
+    magenta: 70.6
+    cyan: 67.1
+    white: 85.2
+    brightBlack: 20.9
+    brightRed: 50.4
+    brightGreen: 87
+    brightYellow: 70.8
+    brightBlue: 67.2
+    brightMagenta: 70.6
+    brightCyan: 67.1
+    brightWhite: 104.6

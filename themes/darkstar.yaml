@@ -1,0 +1,53 @@
+name: "DarkStar"
+source:
+  marketplace_id: "DarkStar.darkstar"
+  version: "0.0.5"
+  installs: 1168
+  rating: 5
+  ratings: 1
+  author: "DarkStar"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=DarkStar.darkstar"
+  formats: null
+colors:
+  bg: "#282A36"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 0
+    red: 23.8
+    green: 50
+    yellow: 82.7
+    blue: 24.5
+    magenta: 26.8
+    cyan: 44.6
+    white: 87.1
+    brightBlack: 19.1
+    brightRed: 35.6
+    brightGreen: 60.6
+    brightYellow: 92.7
+    brightBlue: 37
+    brightMagenta: 42.4
+    brightCyan: 52.4
+    brightWhite: 87.1

@@ -1,0 +1,53 @@
+name: "Navy"
+source:
+  marketplace_id: "eshiraishi.navy-theme"
+  version: "0.0.16"
+  installs: 343
+  rating: 0
+  ratings: 0
+  author: "Enzo Shiraishi"
+  repo: "https://github.com/eshiraishi/navy-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=eshiraishi.navy-theme"
+  formats: null
+colors:
+  bg: "#151A1F"
+  fg: "#E6E6E6"
+  black: "#0A0D0F"
+  red: "#E6A99A"
+  green: "#A8E69A"
+  yellow: "#E6E0AC"
+  blue: "#9AC0E6"
+  magenta: "#BCACE6"
+  cyan: "#9AE6CB"
+  white: "#E6E6E6"
+  brightBlack: "#0A0D0F"
+  brightRed: "#E6A99A"
+  brightGreen: "#A8E69A"
+  brightYellow: "#E6E0AC"
+  brightBlue: "#9AC0E6"
+  brightMagenta: "#BCACE6"
+  brightCyan: "#9AE6CB"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 90.4
+    black: 0
+    red: 62.5
+    green: 80.5
+    yellow: 85.4
+    blue: 65.1
+    magenta: 60.8
+    cyan: 81
+    white: 90.4
+    brightBlack: 0
+    brightRed: 62.5
+    brightGreen: 80.5
+    brightYellow: 85.4
+    brightBlue: 65.1
+    brightMagenta: 60.8
+    brightCyan: 81
+    brightWhite: 90.4

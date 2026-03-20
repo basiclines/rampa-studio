@@ -1,0 +1,53 @@
+name: "Serendipity (Serendipity Morning)"
+source:
+  marketplace_id: "wicked-labs.wvsc-serendipity"
+  version: "1.66.2"
+  installs: 70609
+  rating: 4.76
+  ratings: 17
+  author: "Michael Andreuzza "
+  repo: "https://github.com/Serendipity-Theme/vs-code"
+  url: "https://marketplace.visualstudio.com/items?itemName=wicked-labs.wvsc-serendipity"
+  formats: null
+colors:
+  bg: "#FDFDFE"
+  fg: "#4E5377"
+  black: "#D8DAE4"
+  red: "#D26A5D"
+  green: "#3788BE"
+  yellow: "#886CDB"
+  blue: "#7397DE"
+  magenta: "#77AAB3"
+  cyan: "#F19A8E"
+  white: "#4E5377"
+  brightBlack: "#5F6488"
+  brightRed: "#D26A5D"
+  brightGreen: "#3788BE"
+  brightYellow: "#886CDB"
+  brightBlue: "#7397DE"
+  brightMagenta: "#77AAB3"
+  brightCyan: "#F19A8E"
+  brightWhite: "#4E5377"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Serendipity (Serendipity Midnight)"
+  contrast:
+    fg: 84.6
+    black: 18
+    red: 61.2
+    green: 64.7
+    yellow: 66.2
+    blue: 54.2
+    magenta: 49
+    cyan: 40.9
+    white: 84.6
+    brightBlack: 77.5
+    brightRed: 61.2
+    brightGreen: 64.7
+    brightYellow: 66.2
+    brightBlue: 54.2
+    brightMagenta: 49
+    brightCyan: 40.9
+    brightWhite: 84.6

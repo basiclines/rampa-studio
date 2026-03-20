@@ -1,0 +1,53 @@
+name: "Color Sea (Color Sea Purple)"
+source:
+  marketplace_id: "Danesed.color-sea"
+  version: "1.0.0"
+  installs: 18
+  rating: 0
+  ratings: 0
+  author: "Danesed"
+  repo: "https://github.com/danesed/colorsea-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Danesed.color-sea"
+  formats: null
+colors:
+  bg: "#1F192F"
+  fg: "#AEA7B7"
+  black: "#48387A"
+  red: "#FF2D3B"
+  green: "#C77DFF"
+  yellow: "#8B5CF6"
+  blue: "#4CC9F0"
+  magenta: "#8B5CF6"
+  cyan: "#4CC9F0"
+  white: "#AEA7B7"
+  brightBlack: "#514959"
+  brightRed: "#FF2D3B"
+  brightGreen: "#C77DFF"
+  brightYellow: "#8B5CF6"
+  brightBlue: "#4CC9F0"
+  brightMagenta: "#8B5CF6"
+  brightCyan: "#4CC9F0"
+  brightWhite: "#AEA7B7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 295
+  pair: null
+  contrast:
+    fg: 54.4
+    black: 8
+    red: 37.5
+    green: 48.3
+    yellow: 31.3
+    blue: 64.3
+    magenta: 31.3
+    cyan: 64.3
+    white: 54.4
+    brightBlack: 11.1
+    brightRed: 37.5
+    brightGreen: 48.3
+    brightYellow: 31.3
+    brightBlue: 64.3
+    brightMagenta: 31.3
+    brightCyan: 64.3
+    brightWhite: 54.4

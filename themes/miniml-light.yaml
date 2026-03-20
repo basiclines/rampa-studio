@@ -1,0 +1,53 @@
+name: "miniml-light"
+source:
+  marketplace_id: "pantherandcub.miniml"
+  version: "4.3.0"
+  installs: 395
+  rating: 0
+  ratings: 0
+  author: "pantherandcub"
+  repo: "https://github.com/Panther-Cub/miniml"
+  url: "https://marketplace.visualstudio.com/items?itemName=pantherandcub.miniml"
+  formats: null
+colors:
+  bg: "#F8F9FA"
+  fg: "#2D4F4F"
+  black: "#424242"
+  red: "#8E3E3E"
+  green: "#2D5454"
+  yellow: "#4D5C2D"
+  blue: "#2B5461"
+  magenta: "#2D5461"
+  cyan: "#2B6B6F"
+  white: "#141414"
+  brightBlack: "#424242"
+  brightRed: "#8E3E3E"
+  brightGreen: "#2D5454"
+  brightYellow: "#4D5C2D"
+  brightBlue: "#2B5461"
+  brightMagenta: "#2D5461"
+  brightCyan: "#2B6B6F"
+  brightWhite: "#242424"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "miniml-dusk"
+  contrast:
+    fg: 86.8
+    black: 89.7
+    red: 80.9
+    green: 85.1
+    yellow: 81.6
+    blue: 84.7
+    magenta: 84.7
+    cyan: 76.6
+    white: 101.4
+    brightBlack: 89.7
+    brightRed: 80.9
+    brightGreen: 85.1
+    brightYellow: 81.6
+    brightBlue: 84.7
+    brightMagenta: 84.7
+    brightCyan: 76.6
+    brightWhite: 98.8

@@ -1,0 +1,53 @@
+name: "Harriet"
+source:
+  marketplace_id: "MatthewCocker.harriet"
+  version: "0.0.5"
+  installs: 774
+  rating: 5
+  ratings: 1
+  author: "Matthew Cocker"
+  repo: "git+https://github.com/matthewcocker/Harriet"
+  url: "https://marketplace.visualstudio.com/items?itemName=MatthewCocker.harriet"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#B7C5D3"
+  black: "#41505E"
+  red: "#D95468"
+  green: "#8BD49C"
+  yellow: "#EBBF83"
+  blue: "#539AFC"
+  magenta: "#B62D65"
+  cyan: "#70E1E8"
+  white: "#FFFFFF"
+  brightBlack: "#41505E"
+  brightRed: "#D95468"
+  brightGreen: "#8BD49C"
+  brightYellow: "#EBBF83"
+  brightBlue: "#539AFC"
+  brightMagenta: "#B62D65"
+  brightCyan: "#70E1E8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 66.3
+    black: 9.4
+    red: 32
+    green: 66.7
+    yellow: 68.1
+    blue: 43.5
+    magenta: 19.3
+    cyan: 74.1
+    white: 103.7
+    brightBlack: 9.4
+    brightRed: 32
+    brightGreen: 66.7
+    brightYellow: 68.1
+    brightBlue: 43.5
+    brightMagenta: 19.3
+    brightCyan: 74.1
+    brightWhite: 103.7

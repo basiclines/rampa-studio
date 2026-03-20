@@ -1,0 +1,53 @@
+name: "Emi Theme"
+source:
+  marketplace_id: "denianszz.emi-theme"
+  version: "0.0.5"
+  installs: 714
+  rating: 0
+  ratings: 0
+  author: "Denian"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=denianszz.emi-theme"
+  formats: null
+colors:
+  bg: "#141318"
+  fg: "#ADA52D"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 295
+  pair: null
+  contrast:
+    fg: 51.2
+    black: 0
+    red: 27
+    green: 53.3
+    yellow: 85.9
+    blue: 27.7
+    magenta: 30.1
+    cyan: 47.9
+    white: 90.3
+    brightBlack: 22.3
+    brightRed: 38.9
+    brightGreen: 63.8
+    brightYellow: 95.9
+    brightBlue: 40.3
+    brightMagenta: 45.7
+    brightCyan: 55.7
+    brightWhite: 90.3

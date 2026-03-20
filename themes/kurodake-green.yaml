@@ -1,0 +1,51 @@
+name: "kurodake-green"
+source:
+  marketplace_id: "awesometaro.awesome-green"
+  version: "0.0.2"
+  installs: 24
+  author: "awesometaro"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=awesometaro.awesome-green"
+  formats: null
+colors:
+  bg: "#060A06"
+  fg: "#55C455"
+  black: "#060A06"
+  red: "#31D18F"
+  green: "#7AF77A"
+  yellow: "#63E063"
+  blue: "#55C455"
+  magenta: "#63E063"
+  cyan: "#7AF77A"
+  white: "#E8FFE8"
+  brightBlack: "#284C28"
+  brightRed: "#63E063"
+  brightGreen: "#A0FFA0"
+  brightYellow: "#A0FFA0"
+  brightBlue: "#7AF77A"
+  brightMagenta: "#7AF77A"
+  brightCyan: "#A0FFA0"
+  brightWhite: "#B7FFB7"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 145
+  pair: null
+  contrast:
+    fg: 58.4
+    black: 0
+    red: 64.8
+    green: 86
+    yellow: 72.8
+    blue: 58.4
+    magenta: 72.8
+    cyan: 86
+    white: 103.6
+    brightBlack: 9.9
+    brightRed: 72.8
+    brightGreen: 93.7
+    brightYellow: 93.7
+    brightBlue: 86
+    brightMagenta: 86
+    brightCyan: 93.7
+    brightWhite: 96.4

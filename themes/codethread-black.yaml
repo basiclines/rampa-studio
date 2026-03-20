@@ -1,0 +1,53 @@
+name: "Codethread Black"
+source:
+  marketplace_id: "JayantRohila.codethread-black"
+  version: "2.2.6"
+  installs: 2182
+  rating: 5
+  ratings: 1
+  author: "Jayant Rohila"
+  repo: "https://github.com/jayantrohila57/codethread-black"
+  url: "https://marketplace.visualstudio.com/items?itemName=JayantRohila.codethread-black"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#4D4D4D"
+  black: "#959E8B"
+  red: "#F5A55F"
+  green: "#3CB2FF"
+  yellow: "#FFFF23"
+  blue: "#629FD5"
+  magenta: "#FF4325"
+  cyan: "#3BFF51"
+  white: "#C9D1D9"
+  brightBlack: "#737373"
+  brightRed: "#F5A55F"
+  brightGreen: "#3BB2FF"
+  brightYellow: "#FFFF00"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#FF4A2E"
+  brightCyan: "#3BFF51"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 13.1
+    black: 48.2
+    red: 63.5
+    green: 56.5
+    yellow: 102.8
+    blue: 47.8
+    magenta: 41.2
+    cyan: 87.4
+    white: 78
+    brightBlack: 28.7
+    brightRed: 63.5
+    brightGreen: 56.5
+    brightYellow: 102.7
+    brightBlue: 65.2
+    brightMagenta: 42.2
+    brightCyan: 87.4
+    brightWhite: 107.9

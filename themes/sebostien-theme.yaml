@@ -1,0 +1,53 @@
+name: "Sebostien Theme"
+source:
+  marketplace_id: "sebostien.sebostien-theme"
+  version: "0.1.1"
+  installs: 144
+  rating: 0
+  ratings: 0
+  author: "sebostien"
+  repo: "https://github.com/sebostien/sebostien-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sebostien.sebostien-theme"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#D6DEEB"
+  black: "#232323"
+  red: "#F44336"
+  green: "#4CAF50"
+  yellow: "#FFC107"
+  blue: "#2196E3"
+  magenta: "#B645CA"
+  cyan: "#00BCD4"
+  white: "#DCDFE4"
+  brightBlack: "#757575"
+  brightRed: "#FF5252"
+  brightGreen: "#B2FF59"
+  brightYellow: "#FBC02D"
+  brightBlue: "#03A9F4"
+  brightMagenta: "#EA80FC"
+  brightCyan: "#00BCD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.9
+    black: 0
+    red: 37.4
+    green: 47.2
+    yellow: 73.8
+    blue: 41.6
+    magenta: 30.1
+    cyan: 56.2
+    white: 85.8
+    brightBlack: 28.3
+    brightRed: 42.5
+    brightGreen: 92.6
+    brightYellow: 72.8
+    brightBlue: 50
+    brightMagenta: 55.1
+    brightCyan: 56.2
+    brightWhite: 106.5

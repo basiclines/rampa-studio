@@ -1,0 +1,53 @@
+name: "Nord"
+source:
+  marketplace_id: "Nord.nord"
+  version: "0.0.1"
+  installs: 17054
+  rating: 0
+  ratings: 0
+  author: "Freezy"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Nord.nord"
+  formats: null
+colors:
+  bg: "#272C36"
+  fg: "#D8DEE9"
+  black: "#2E3440"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 82.2
+    black: 0
+    red: 29.8
+    green: 58.5
+    yellow: 73.2
+    blue: 45.4
+    magenta: 43.3
+    cyan: 59.5
+    white: 89.1
+    brightBlack: 12.2
+    brightRed: 29.8
+    brightGreen: 58.5
+    brightYellow: 73.2
+    brightBlue: 45.4
+    brightMagenta: 43.3
+    brightCyan: 57.4
+    brightWhite: 93

@@ -1,0 +1,53 @@
+name: "Nultramarine"
+source:
+  marketplace_id: "catapillie.nultramarine"
+  version: "1.1.0"
+  installs: 24
+  rating: 0
+  ratings: 0
+  author: "catapillie"
+  repo: "https://github.com/catapillie/nultramarine.git#master"
+  url: "https://marketplace.visualstudio.com/items?itemName=catapillie.nultramarine"
+  formats: null
+colors:
+  bg: "#010610"
+  fg: "#B6B8CB"
+  black: "#343649"
+  red: "#D550C0"
+  green: "#8DC22A"
+  yellow: "#F99458"
+  blue: "#2093CB"
+  magenta: "#9C70C9"
+  cyan: "#1FD5FF"
+  white: "#D9DCFF"
+  brightBlack: "#545666"
+  brightRed: "#F974E4"
+  brightGreen: "#B8F24B"
+  brightYellow: "#FFB529"
+  brightBlue: "#2EB1F0"
+  brightMagenta: "#C28BFB"
+  brightCyan: "#3BECFF"
+  brightWhite: "#DEDFF7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 252
+  pair: null
+  contrast:
+    fg: 64.6
+    black: 0
+    red: 38.3
+    green: 60.7
+    yellow: 58.4
+    blue: 40.1
+    magenta: 36.6
+    cyan: 71.4
+    white: 86.7
+    brightBlack: 16.8
+    brightRed: 54.7
+    brightGreen: 87.8
+    brightYellow: 70.5
+    brightBlue: 54.7
+    brightMagenta: 52.9
+    brightCyan: 83
+    brightWhite: 88.2

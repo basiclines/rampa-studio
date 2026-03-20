@@ -1,0 +1,53 @@
+name: "Zenbones Seoulbones Dark Stark"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#4D4244"
+  fg: "#DDDDDD"
+  black: "#4B4B4B"
+  red: "#E388A3"
+  green: "#98BD99"
+  yellow: "#FFDF9B"
+  blue: "#97BDDE"
+  magenta: "#A5A6C5"
+  cyan: "#6FBDBE"
+  white: "#DDDDDD"
+  brightBlack: "#6C6465"
+  brightRed: "#EB99B1"
+  brightGreen: "#8FCD92"
+  brightYellow: "#FFE5B3"
+  brightBlue: "#A2C8E9"
+  brightMagenta: "#B2B3DA"
+  brightCyan: "#6BCACB"
+  brightWhite: "#A8A8A8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 5
+  pair: "Zenbones Seoulbones Light Dim"
+  contrast:
+    fg: 74.7
+    black: 0
+    red: 41.4
+    green: 50.2
+    yellow: 78.2
+    blue: 53.1
+    magenta: 44
+    cyan: 48.5
+    white: 74.7
+    brightBlack: 11.7
+    brightRed: 48.6
+    brightGreen: 56.3
+    brightYellow: 81.5
+    brightBlue: 59.4
+    brightMagenta: 51.6
+    brightCyan: 54.6
+    brightWhite: 43.8

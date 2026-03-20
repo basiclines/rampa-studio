@@ -1,0 +1,54 @@
+name: "pinkmare"
+source:
+  marketplace_id: "Matsuuu.pinkmare"
+  version: "0.4.0"
+  installs: 1334
+  rating: 0
+  ratings: 0
+  author: "Matsuuu"
+  repo: "https://github.com/Matsuuu/pinkmare"
+  url: "https://marketplace.visualstudio.com/items?itemName=Matsuuu.pinkmare"
+  formats:
+    vim: "https://raw.githubusercontent.com/Matsuuu/pinkmare/main/colors/pinkmare.vim"
+colors:
+  bg: "#202330"
+  fg: "#FAE8B6"
+  black: "#202330"
+  red: "#FF38A2"
+  green: "#9CD162"
+  yellow: "#FFC85B"
+  blue: "#EBA4AC"
+  magenta: "#D9BCEF"
+  cyan: "#87C095"
+  white: "#FFF0F5"
+  brightBlack: "#202330"
+  brightRed: "#FF38A2"
+  brightGreen: "#9CD162"
+  brightYellow: "#FFC85B"
+  brightBlue: "#EBA4AC"
+  brightMagenta: "#D9BCEF"
+  brightCyan: "#87C095"
+  brightWhite: "#FFF0F5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 90.9
+    black: 0
+    red: 40.2
+    green: 66.9
+    yellow: 75.8
+    blue: 60.8
+    magenta: 69.9
+    cyan: 58.6
+    white: 97.7
+    brightBlack: 0
+    brightRed: 40.2
+    brightGreen: 66.9
+    brightYellow: 75.8
+    brightBlue: 60.8
+    brightMagenta: 69.9
+    brightCyan: 58.6
+    brightWhite: 97.7

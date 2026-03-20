@@ -1,0 +1,53 @@
+name: "ZzhTheme Dark"
+source:
+  marketplace_id: "langlang.zzh-theme"
+  version: "3.5.8"
+  installs: 249
+  rating: 5
+  ratings: 1
+  author: "langlang"
+  repo: "https://github.com/zhaogongchengsi/zzh-vs-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=langlang.zzh-theme"
+  formats: null
+colors:
+  bg: "#191919"
+  fg: "#F4F9F9"
+  black: "#202020"
+  red: "#901110"
+  green: "#1C5A25"
+  yellow: "#7E6C06"
+  blue: "#0A4694"
+  magenta: "#FF1A9C"
+  cyan: "#00838F"
+  white: "#202020"
+  brightBlack: "#606060"
+  brightRed: "#D73324"
+  brightGreen: "#32953D"
+  brightYellow: "#D2AF0F"
+  brightBlue: "#1D75DB"
+  brightMagenta: "#FF4DB2"
+  brightCyan: "#01ACC1"
+  brightWhite: "#606060"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "ZzhTheme Light"
+  contrast:
+    fg: 102
+    black: 0
+    red: 11.6
+    green: 12.7
+    yellow: 24.9
+    blue: 10.8
+    magenta: 39.5
+    cyan: 29.6
+    white: 0
+    brightBlack: 19.3
+    brightRed: 28.8
+    brightGreen: 35.1
+    brightYellow: 59.6
+    brightBlue: 29.5
+    brightMagenta: 44.8
+    brightCyan: 48.4
+    brightWhite: 19.3

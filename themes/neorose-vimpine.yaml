@@ -1,0 +1,53 @@
+name: "NeoRose-VimPine"
+source:
+  marketplace_id: "rexcor.neorose-vimpine"
+  version: "0.3.1"
+  installs: 2725
+  rating: 5
+  ratings: 3
+  author: "rexcor"
+  repo: "https://github.com/rexcor/NeoRose-VimPine"
+  url: "https://marketplace.visualstudio.com/items?itemName=rexcor.neorose-vimpine"
+  formats: null
+colors:
+  bg: "#191724"
+  fg: "#E0DEF4"
+  black: "#26233A"
+  red: "#EB6F92"
+  green: "#9CCFD8"
+  yellow: "#F6C177"
+  blue: "#31748F"
+  magenta: "#C4A7E7"
+  cyan: "#EBBCBA"
+  white: "#E0DEF4"
+  brightBlack: "#908CAA"
+  brightRed: "#EB6F92"
+  brightGreen: "#9CCFD8"
+  brightYellow: "#F6C177"
+  brightBlue: "#31748F"
+  brightMagenta: "#C4A7E7"
+  brightCyan: "#EBBCBA"
+  brightWhite: "#E0DEF4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 291
+  pair: null
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 45.7
+    green: 71.2
+    yellow: 73.4
+    blue: 24.9
+    magenta: 60.1
+    cyan: 71.6
+    white: 86.8
+    brightBlack: 41.1
+    brightRed: 45.7
+    brightGreen: 71.2
+    brightYellow: 73.4
+    brightBlue: 24.9
+    brightMagenta: 60.1
+    brightCyan: 71.6
+    brightWhite: 86.8

@@ -1,0 +1,53 @@
+name: "Rocko's Modern Theme"
+source:
+  marketplace_id: "elethan.rocko-theme"
+  version: "0.0.17"
+  installs: 1105
+  rating: 0
+  ratings: 0
+  author: "elethan"
+  repo: "https://github.com/el-ethan/rocko-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=elethan.rocko-theme"
+  formats: null
+colors:
+  bg: "#292D3E"
+  fg: "#C1B8EF"
+  black: "#000000"
+  red: "#E05B52"
+  green: "#1ACB9D"
+  yellow: "#F6E54D"
+  blue: "#82AAFF"
+  magenta: "#76368D"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#E05B52"
+  brightGreen: "#1ACB9D"
+  brightYellow: "#F6E54D"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#F9D4B1"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 63.2
+    black: 0
+    red: 34
+    green: 57.5
+    yellow: 84.8
+    blue: 52.3
+    magenta: 10.8
+    cyan: 74.6
+    white: 103.3
+    brightBlack: 22.8
+    brightRed: 34
+    brightGreen: 57.5
+    brightYellow: 84.8
+    brightBlue: 52.3
+    brightMagenta: 79.8
+    brightCyan: 74.6
+    brightWhite: 103.3

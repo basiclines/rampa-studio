@@ -1,0 +1,53 @@
+name: "Ef Kassio"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#FFF7F7"
+  fg: "#201F36"
+  black: "#201F36"
+  red: "#B00234"
+  green: "#217A3C"
+  yellow: "#9A6012"
+  blue: "#3C3BBE"
+  magenta: "#A01F64"
+  cyan: "#2F5F9F"
+  white: "#EFE7E7"
+  brightBlack: "#776F79"
+  brightRed: "#E00033"
+  brightGreen: "#4A7D00"
+  brightYellow: "#B6530F"
+  brightBlue: "#4250EF"
+  brightMagenta: "#9F248A"
+  brightCyan: "#3F6FAF"
+  brightWhite: "#FFF7F7"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.2
+    black: 99.2
+    red: 78.8
+    green: 72.6
+    yellow: 71.6
+    blue: 83.9
+    magenta: 80.2
+    cyan: 78
+    white: 0
+    brightBlack: 69.9
+    brightRed: 67.8
+    brightGreen: 70.4
+    brightYellow: 69.9
+    brightBlue: 74.4
+    brightMagenta: 78.4
+    brightCyan: 71.3
+    brightWhite: 0

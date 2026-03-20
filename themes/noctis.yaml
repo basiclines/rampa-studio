@@ -1,0 +1,53 @@
+name: "Noctis"
+source:
+  marketplace_id: "koteus.noctis"
+  version: "0.0.1"
+  installs: 14045
+  rating: 0
+  ratings: 0
+  author: "koteus"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=koteus.noctis"
+  formats: null
+colors:
+  bg: "#212F3B"
+  fg: "#EEFFFF"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 245
+  pair: null
+  contrast:
+    fg: 101
+    black: 0
+    red: 29.4
+    green: 58.1
+    yellow: 72.8
+    blue: 45.1
+    magenta: 42.9
+    cyan: 59.1
+    white: 88.8
+    brightBlack: 11.8
+    brightRed: 29.4
+    brightGreen: 58.1
+    brightYellow: 72.8
+    brightBlue: 45.1
+    brightMagenta: 42.9
+    brightCyan: 57
+    brightWhite: 92.6

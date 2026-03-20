@@ -1,0 +1,53 @@
+name: "Shadcn Blue Light"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  rating: 0
+  ratings: 0
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#09090B"
+  black: "#FFFFFF"
+  red: "#E7000B"
+  green: "#2B7FFF"
+  yellow: "#8EC5FF"
+  blue: "#A1A1A1"
+  magenta: "#1447E6"
+  cyan: "#193CB8"
+  white: "#09090B"
+  brightBlack: "#F4F4F5"
+  brightRed: "#E7000B"
+  brightGreen: "#8EC5FF"
+  brightYellow: "#EFF6FF"
+  brightBlue: "#1447E6"
+  brightMagenta: "#155DFC"
+  brightCyan: "#1447E6"
+  brightWhite: "#09090B"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 105.9
+    black: 0
+    red: 70.1
+    green: 64.5
+    yellow: 33.7
+    blue: 50.5
+    magenta: 82.4
+    cyan: 89.3
+    white: 105.9
+    brightBlack: 0
+    brightRed: 70.1
+    brightGreen: 33.7
+    brightYellow: 0
+    brightBlue: 82.4
+    brightMagenta: 75
+    brightCyan: 82.4
+    brightWhite: 105.9

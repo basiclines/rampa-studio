@@ -1,0 +1,53 @@
+name: "colors"
+source:
+  marketplace_id: "RedFoxxo.rfxtheme"
+  version: "1.1.1"
+  installs: 436
+  rating: 5
+  ratings: 1
+  author: "RedFoxxo"
+  repo: "https://github.com/RedFoxxo/RFXTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RedFoxxo.rfxtheme"
+  formats: null
+colors:
+  bg: "#212121"
+  fg: "#F0F0F0"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#F0F0F0"
+  brightBlack: "#4A4A4A"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 95.8
+    black: 0
+    red: 42.4
+    green: 82.9
+    yellow: 77.7
+    blue: 54.7
+    magenta: 52.5
+    cyan: 77
+    white: 95.8
+    brightBlack: 9.7
+    brightRed: 42.4
+    brightGreen: 82.9
+    brightYellow: 77.7
+    brightBlue: 54.7
+    brightMagenta: 52.5
+    brightCyan: 77
+    brightWhite: 95.8

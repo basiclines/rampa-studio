@@ -1,0 +1,53 @@
+name: "AuroraSynth Dark"
+source:
+  marketplace_id: "0xK4GE.aurorasynth"
+  version: "0.0.2"
+  installs: 136
+  rating: 0
+  ratings: 0
+  author: "0xK4GE"
+  repo: "https://github.com/Ayushvishwakarma04/AuroraSynth"
+  url: "https://marketplace.visualstudio.com/items?itemName=0xK4GE.aurorasynth"
+  formats: null
+colors:
+  bg: "#353935"
+  fg: "#EAEAEA"
+  black: "#353935"
+  red: "#FF6B6B"
+  green: "#4CAF50"
+  yellow: "#FFD700"
+  blue: "#87CEEB"
+  magenta: "#FF6EC7"
+  cyan: "#6BCA8F"
+  white: "#EAEAEA"
+  brightBlack: "#353935"
+  brightRed: "#FF6B6B"
+  brightGreen: "#7ACC7A"
+  brightYellow: "#FDFE9F"
+  brightBlue: "#ADD8E6"
+  brightMagenta: "#CC99FF"
+  brightCyan: "#7ACC7A"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "AuroraSynth Light"
+  contrast:
+    fg: 86.9
+    black: 0
+    red: 41.8
+    green: 41.3
+    yellow: 77
+    blue: 63.9
+    magenta: 45.8
+    cyan: 56.4
+    white: 86.9
+    brightBlack: 0
+    brightRed: 41.8
+    brightGreen: 57.7
+    brightYellow: 96.4
+    brightBlue: 71.4
+    brightMagenta: 51.9
+    brightCyan: 57.7
+    brightWhite: 100.6

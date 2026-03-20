@@ -1,0 +1,53 @@
+name: "Insight"
+source:
+  marketplace_id: "InsightTheme.insight"
+  version: "0.0.5"
+  installs: 1338
+  rating: 5
+  ratings: 2
+  author: "Insight Theme"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=InsightTheme.insight"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#DDDDDD"
+  black: "#21222C"
+  red: "#FF5555"
+  green: "#90CEE8"
+  yellow: "#E8DD90"
+  blue: "#B678FF"
+  magenta: "#FF79C6"
+  cyan: "#90CEE8"
+  white: "#DDDDDD"
+  brightBlack: "#6272A4"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 81.8
+    black: 0
+    red: 40.2
+    green: 67.5
+    yellow: 80.7
+    blue: 41.9
+    magenta: 51.4
+    cyan: 67.5
+    white: 81.8
+    brightBlack: 24.8
+    brightRed: 45.6
+    brightGreen: 85.8
+    brightYellow: 100.3
+    brightBlue: 62.9
+    brightMagenta: 59.4
+    brightCyan: 93.6
+    brightWhite: 103.7

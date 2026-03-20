@@ -1,0 +1,53 @@
+name: "idea islands dark ++"
+source:
+  marketplace_id: "idea-islands-dark-plus.idea-islands-dark-plus"
+  version: "0.0.1"
+  installs: 215
+  rating: 5
+  ratings: 1
+  author: "idea-islands-dark-plus by ruiming qian"
+  repo: "https://github.com/yourusername/idea-islands-dark-plus"
+  url: "https://marketplace.visualstudio.com/items?itemName=idea-islands-dark-plus.idea-islands-dark-plus"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#F44747"
+  green: "#6A9955"
+  yellow: "#DCDCAA"
+  blue: "#569CD6"
+  magenta: "#C586C0"
+  cyan: "#4EC9B0"
+  white: "#CCCCCC"
+  brightBlack: "#666666"
+  brightRed: "#F44747"
+  brightGreen: "#6A9955"
+  brightYellow: "#DCDCAA"
+  brightBlue: "#569CD6"
+  brightMagenta: "#C586C0"
+  brightCyan: "#4EC9B0"
+  brightWhite: "#CCCCCC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 37.6
+    green: 39.2
+    yellow: 81.7
+    blue: 44.2
+    magenta: 46.5
+    cyan: 61.1
+    white: 73.8
+    brightBlack: 21.2
+    brightRed: 37.6
+    brightGreen: 39.2
+    brightYellow: 81.7
+    brightBlue: 44.2
+    brightMagenta: 46.5
+    brightCyan: 61.1
+    brightWhite: 73.8

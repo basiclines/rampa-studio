@@ -1,0 +1,53 @@
+name: "pg-forest"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+  formats: null
+colors:
+  bg: "#171716"
+  fg: "#E6EAE0"
+  black: "#242424"
+  red: "#922222"
+  green: "#1C944B"
+  yellow: "#8A8100"
+  blue: "#3F75C9"
+  magenta: "#8D3190"
+  cyan: "#3A9AB2"
+  white: "#A5A5A5"
+  brightBlack: "#3F3F3F"
+  brightRed: "#B81B1B"
+  brightGreen: "#25BE0F"
+  brightYellow: "#B6B60F"
+  brightBlue: "#0055D9"
+  brightMagenta: "#B83FBC"
+  brightCyan: "#2CB7D9"
+  brightWhite: "#BEBEBE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.2
+    black: 0
+    red: 13.2
+    green: 34.7
+    yellow: 33.3
+    blue: 29.3
+    magenta: 17.3
+    cyan: 41.1
+    white: 52.5
+    brightBlack: 0
+    brightRed: 20.4
+    brightGreen: 52.9
+    brightYellow: 58.8
+    brightBlue: 20.3
+    brightMagenta: 29
+    brightCyan: 54.9
+    brightWhite: 66.5

@@ -1,0 +1,53 @@
+name: "Roselia Theme (Roselia)"
+source:
+  marketplace_id: "TehMatcha.roselia-theme"
+  version: "4.4.0"
+  installs: 1278
+  rating: 5
+  ratings: 2
+  author: "TehMatcha"
+  repo: "https://github.com/MatchaTi/cool-roselia-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TehMatcha.roselia-theme"
+  formats: null
+colors:
+  bg: "#16161E"
+  fg: "#F1F5F9"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 100
+    black: 0
+    red: 26.7
+    green: 53
+    yellow: 85.6
+    blue: 27.4
+    magenta: 29.8
+    cyan: 47.6
+    white: 90
+    brightBlack: 22.1
+    brightRed: 38.6
+    brightGreen: 63.6
+    brightYellow: 95.7
+    brightBlue: 40
+    brightMagenta: 45.4
+    brightCyan: 55.4
+    brightWhite: 90

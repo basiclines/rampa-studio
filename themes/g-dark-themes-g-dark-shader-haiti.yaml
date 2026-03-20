@@ -1,0 +1,53 @@
+name: "G Dark-Themes (G Dark-Shader (Haiti))"
+source:
+  marketplace_id: "Stonec0der.g-dark-theme"
+  version: "5.0.1"
+  installs: 10986
+  rating: 5
+  ratings: 3
+  author: "stonecoder"
+  repo: "https://github.com/stoneC0der/g-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Stonec0der.g-dark-theme"
+  formats: null
+colors:
+  bg: "#270B47"
+  fg: "#E4C8FD"
+  black: "#5E7486"
+  red: "#C92541"
+  green: "#36CE28"
+  yellow: "#DDC125"
+  blue: "#2459CE"
+  magenta: "#8628C5"
+  cyan: "#1482AD"
+  white: "#E9E5E5"
+  brightBlack: "#516B77"
+  brightRed: "#F73051"
+  brightGreen: "#12F744"
+  brightYellow: "#F5E729"
+  brightBlue: "#2366F5"
+  brightMagenta: "#A32EF1"
+  brightCyan: "#02ACF0"
+  brightWhite: "#D1CECE"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 299
+  pair: null
+  contrast:
+    fg: 77.8
+    black: 26.1
+    red: 24.1
+    green: 60
+    yellow: 67.8
+    blue: 19.7
+    magenta: 18.1
+    cyan: 30.1
+    white: 89.7
+    brightBlack: 21.7
+    brightRed: 35.9
+    brightGreen: 80.6
+    brightYellow: 88
+    brightBlue: 26.7
+    brightMagenta: 26.8
+    brightCyan: 50.4
+    brightWhite: 75.4

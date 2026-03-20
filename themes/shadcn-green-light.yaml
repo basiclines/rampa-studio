@@ -1,0 +1,53 @@
+name: "Shadcn Green Light"
+source:
+  marketplace_id: "Muhammad-Sulman.prism-vscode-themes"
+  version: "0.0.1"
+  installs: 51
+  rating: 0
+  ratings: 0
+  author: "Muhammad-Sulman"
+  repo: "https://github.com/yourrepo/prism-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Muhammad-Sulman.prism-vscode-themes"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#09090B"
+  black: "#FFFFFF"
+  red: "#E7000B"
+  green: "#00C950"
+  yellow: "#7BF1A8"
+  blue: "#9AE600"
+  magenta: "#00A63E"
+  cyan: "#016630"
+  white: "#09090B"
+  brightBlack: "#F4F4F5"
+  brightRed: "#E7000B"
+  brightGreen: "#7BF1A8"
+  brightYellow: "#F7FEE7"
+  brightBlue: "#5EA500"
+  brightMagenta: "#DFF5E2"
+  brightCyan: "#00A63E"
+  brightWhite: "#09090B"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Shadcn Green Dark"
+  contrast:
+    fg: 105.9
+    black: 0
+    red: 70.1
+    green: 42.9
+    yellow: 19.2
+    blue: 24.4
+    magenta: 58.7
+    cyan: 84.2
+    white: 105.9
+    brightBlack: 0
+    brightRed: 70.1
+    brightGreen: 19.2
+    brightYellow: 0
+    brightBlue: 57.1
+    brightMagenta: 0
+    brightCyan: 58.7
+    brightWhite: 105.9

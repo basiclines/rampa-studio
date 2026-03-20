@@ -1,0 +1,53 @@
+name: "pg-ridgeline"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+  formats: null
+colors:
+  bg: "#3D3729"
+  fg: "#A9C2C1"
+  black: "#000000"
+  red: "#BC2A2C"
+  green: "#57902B"
+  yellow: "#BC9F00"
+  blue: "#1A5094"
+  magenta: "#A516B2"
+  cyan: "#43AA97"
+  white: "#CFCFCF"
+  brightBlack: "#1B1B1B"
+  brightRed: "#EA3336"
+  brightGreen: "#6EC72A"
+  brightYellow: "#EAC914"
+  brightBlue: "#137FDB"
+  brightMagenta: "#CE25DE"
+  brightCyan: "#2BCBAD"
+  brightWhite: "#E2E2E2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 88
+  pair: null
+  contrast:
+    fg: 59.7
+    black: 0
+    red: 16.2
+    green: 28.6
+    yellow: 44.3
+    blue: 7.6
+    magenta: 15.3
+    cyan: 40.7
+    white: 70.3
+    brightBlack: 0
+    brightRed: 27.4
+    brightGreen: 53.7
+    brightYellow: 67.8
+    brightBlue: 26.7
+    brightMagenta: 26.9
+    brightCyan: 55.7
+    brightWhite: 82

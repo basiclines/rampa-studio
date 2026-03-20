@@ -1,0 +1,53 @@
+name: "Tailwind Violet Light"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#F5F3FF"
+  fg: "#5B21B6"
+  black: "#4C1D95"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#A855F7"
+  cyan: "#06B6D4"
+  white: "#EDE9FE"
+  brightBlack: "#4C1D95"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#A855F7"
+  brightCyan: "#06B6D4"
+  brightWhite: "#EDE9FE"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Tailwind Violet Dark"
+  contrast:
+    fg: 83
+    black: 88
+    red: 57.5
+    green: 38
+    yellow: 30
+    blue: 57.5
+    magenta: 59.9
+    cyan: 40.8
+    white: 0
+    brightBlack: 88
+    brightRed: 57.5
+    brightGreen: 38
+    brightYellow: 30
+    brightBlue: 57.5
+    brightMagenta: 59.9
+    brightCyan: 40.8
+    brightWhite: 0

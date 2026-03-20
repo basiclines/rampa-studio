@@ -1,0 +1,53 @@
+name: "Velvet Mango"
+source:
+  marketplace_id: "miles-crighton.velvet-mango"
+  version: "0.0.21"
+  installs: 1096
+  rating: 0
+  ratings: 0
+  author: "miles-crighton"
+  repo: "https://github.com/miles-crighton/velvet-mango-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=miles-crighton.velvet-mango"
+  formats: null
+colors:
+  bg: "#3C2A3E"
+  fg: "#FFD6D1"
+  black: "#9C6F9F"
+  red: "#E05470"
+  green: "#A4BC77"
+  yellow: "#EBB984"
+  blue: "#8078D1"
+  magenta: "#EB579C"
+  cyan: "#9AE0F0"
+  white: "#FFD6D1"
+  brightBlack: "#9C6F9F"
+  brightRed: "#EF4568"
+  brightGreen: "#A7C966"
+  brightYellow: "#F9B975"
+  brightBlue: "#9994FF"
+  brightMagenta: "#E54386"
+  brightCyan: "#87DDEE"
+  brightWhite: "#FFF0F0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 323
+  pair: null
+  contrast:
+    fg: 82.2
+    black: 28.8
+    red: 32.7
+    green: 56.2
+    yellow: 64.8
+    blue: 31.1
+    magenta: 37.1
+    cyan: 75.9
+    white: 82.2
+    brightBlack: 28.8
+    brightRed: 33.5
+    brightGreen: 61.8
+    brightYellow: 66.8
+    brightBlue: 45.8
+    brightMagenta: 31.8
+    brightCyan: 73
+    brightWhite: 95

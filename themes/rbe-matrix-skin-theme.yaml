@@ -1,0 +1,53 @@
+name: "RBE Matrix Skin Theme"
+source:
+  marketplace_id: "RudeBoyEnterprises.rbe-matrix-skin-theme"
+  version: "1.0.2"
+  installs: 17713
+  rating: 5
+  ratings: 4
+  author: "Rude Boy Enterprises"
+  repo: "https://github.com/skamansam/vscode-rbe-matrix-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=RudeBoyEnterprises.rbe-matrix-skin-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#00FF00"
+  black: "#000000"
+  red: "#AA0000"
+  green: "#00CC00"
+  yellow: "#CCCC00"
+  blue: "#0000CC"
+  magenta: "#CC00CC"
+  cyan: "#00CCCC"
+  white: "#CCCCCC"
+  brightBlack: "#444444"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0000FF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.5
+    black: 0
+    red: 17.8
+    green: 60.3
+    yellow: 72
+    blue: 9.9
+    magenta: 31.4
+    cyan: 64.4
+    white: 75.7
+    brightBlack: 9.8
+    brightRed: 37.5
+    brightGreen: 86.5
+    brightYellow: 102.7
+    brightBlue: 16.2
+    brightMagenta: 46.2
+    brightCyan: 92.2
+    brightWhite: 107.9

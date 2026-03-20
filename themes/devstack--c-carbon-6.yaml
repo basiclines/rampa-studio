@@ -1,0 +1,53 @@
+name: "DevStack (C-Carbon-6)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#09090B"
+  fg: "#FAFAFA"
+  black: "#0A0A0A"
+  red: "#E54D4D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#3D8FD1"
+  magenta: "#B369DD"
+  cyan: "#29C3A0"
+  white: "#FAFAFA"
+  brightBlack: "#0A0A0A"
+  brightRed: "#E54D4D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#3D8FD1"
+  brightMagenta: "#B369DD"
+  brightCyan: "#29C3A0"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 36.9
+    green: 58.5
+    yellow: 52.6
+    blue: 39.6
+    magenta: 39.3
+    cyan: 58.5
+    white: 104.5
+    brightBlack: 0
+    brightRed: 36.9
+    brightGreen: 58.5
+    brightYellow: 52.6
+    brightBlue: 39.6
+    brightMagenta: 39.3
+    brightCyan: 58.5
+    brightWhite: 104.5

@@ -1,0 +1,53 @@
+name: "Pantone Cobalt Blue (Dark)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#03101A"
+  fg: "#D6DCE1"
+  black: "#03101A"
+  red: "#DD4132"
+  green: "#88B04B"
+  yellow: "#EFC050"
+  blue: "#125891"
+  magenta: "#B163A3"
+  cyan: "#45B5AA"
+  white: "#D6DCE1"
+  brightBlack: "#678194"
+  brightRed: "#E25E51"
+  brightGreen: "#9ABC66"
+  brightYellow: "#F1C96A"
+  brightBlue: "#4B79A1"
+  brightMagenta: "#BD7AB1"
+  brightCyan: "#61C0B7"
+  brightWhite: "#F6F6F6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 240
+  pair: "Pantone Cobalt Blue (Light)"
+  contrast:
+    fg: 84.4
+    black: 0
+    red: 32.7
+    green: 52.4
+    yellow: 72
+    blue: 16.3
+    magenta: 33.8
+    cyan: 53
+    white: 84.4
+    brightBlack: 33.3
+    brightRed: 39.2
+    brightGreen: 59.6
+    brightYellow: 76.4
+    brightBlue: 29.3
+    brightMagenta: 42.4
+    brightCyan: 59.6
+    brightWhite: 101.5

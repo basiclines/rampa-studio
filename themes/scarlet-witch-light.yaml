@@ -1,0 +1,53 @@
+name: "Scarlet Witch (Light)"
+source:
+  marketplace_id: "BoBenc.scarlet-witch-theme"
+  version: "0.0.9"
+  installs: 118
+  rating: 0
+  ratings: 0
+  author: "BoBenc"
+  repo: "https://github.com/BoBenc/Scarlet-Witch-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BoBenc.scarlet-witch-theme"
+  formats: null
+colors:
+  bg: "#FAF5FB"
+  fg: "#1A0C15"
+  black: "#1A0C15"
+  red: "#D91A4F"
+  green: "#6A0DAD"
+  yellow: "#C67C1B"
+  blue: "#A5003D"
+  magenta: "#8B6914"
+  cyan: "#6A0DAD"
+  white: "#FAF5FB"
+  brightBlack: "#1A0C15"
+  brightRed: "#D91A4F"
+  brightGreen: "#6A0DAD"
+  brightYellow: "#C67C1B"
+  brightBlue: "#A5003D"
+  brightMagenta: "#8B6914"
+  brightCyan: "#6A0DAD"
+  brightWhite: "#FAF5FB"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Scarlet Witch (Dark)"
+  contrast:
+    fg: 100.3
+    black: 100.3
+    red: 67.3
+    green: 84.4
+    yellow: 55.3
+    blue: 79.8
+    magenta: 69.9
+    cyan: 84.4
+    white: 0
+    brightBlack: 100.3
+    brightRed: 67.3
+    brightGreen: 84.4
+    brightYellow: 55.3
+    brightBlue: 79.8
+    brightMagenta: 69.9
+    brightCyan: 84.4
+    brightWhite: 0

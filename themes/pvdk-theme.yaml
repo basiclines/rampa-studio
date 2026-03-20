@@ -1,0 +1,53 @@
+name: ">_pvdk-theme"
+source:
+  marketplace_id: "gpovidaiko.pvdk-theme"
+  version: "0.0.1"
+  installs: 41
+  rating: 0
+  ratings: 0
+  author: "gpovidaiko"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=gpovidaiko.pvdk-theme"
+  formats: null
+colors:
+  bg: "#161316"
+  fg: "#F8F1F8"
+  black: "#0A0A0A"
+  red: "#FF0A2B"
+  green: "#4BFF0A"
+  yellow: "#FFEF0A"
+  blue: "#0A47FF"
+  magenta: "#B807AC"
+  cyan: "#85A3FF"
+  white: "#E5E5E5"
+  brightBlack: "#7A7A7A"
+  brightRed: "#FF5C72"
+  brightGreen: "#87FF5C"
+  brightYellow: "#FFF45C"
+  brightBlue: "#5C85FF"
+  brightMagenta: "#B842B0"
+  brightCyan: "#ADC2FF"
+  brightWhite: "#EBEBEB"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.3
+    black: 0
+    red: 37
+    green: 86.7
+    yellow: 94.3
+    blue: 21.4
+    magenta: 24.6
+    cyan: 53.8
+    white: 90.3
+    brightBlack: 31.2
+    brightRed: 45.5
+    brightGreen: 89.9
+    brightYellow: 97.1
+    brightBlue: 40.3
+    brightMagenta: 29
+    brightCyan: 69.8
+    brightWhite: 94.1

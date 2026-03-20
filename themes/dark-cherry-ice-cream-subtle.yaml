@@ -1,0 +1,53 @@
+name: "Dark Cherry Ice-Cream Subtle"
+source:
+  marketplace_id: "JamesGulland.dark-cherry-ice-cream"
+  version: "2.0.0"
+  installs: 223
+  rating: 0
+  ratings: 0
+  author: "James Gulland"
+  repo: "https://github.com/james-gulland/dark-cherry-ice-cream-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.dark-cherry-ice-cream"
+  formats: null
+colors:
+  bg: "#23272E"
+  fg: "#D7D0DB"
+  black: "#23272E"
+  red: "#D97E83"
+  green: "#BF9FE5"
+  yellow: "#FEF795"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#D7D0DB"
+  brightRed: "#D97E83"
+  brightGreen: "#BF9FE5"
+  brightYellow: "#FEF795"
+  brightBlue: "#98D1EF"
+  brightMagenta: "#F087BD"
+  brightCyan: "#98D1EF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 76.3
+    black: 0
+    red: 43.6
+    green: 54.5
+    yellow: 96.9
+    blue: 76
+    magenta: 52.7
+    cyan: 76
+    white: 104.7
+    brightBlack: 76.3
+    brightRed: 43.6
+    brightGreen: 54.5
+    brightYellow: 96.9
+    brightBlue: 70.8
+    brightMagenta: 52.7
+    brightCyan: 70.8
+    brightWhite: 104.7

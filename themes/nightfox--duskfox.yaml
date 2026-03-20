@@ -1,0 +1,53 @@
+name: "Nightfox (Duskfox)"
+source:
+  marketplace_id: "keifererikson.nightfox"
+  version: "0.0.14"
+  installs: 17396
+  rating: 5
+  ratings: 3
+  author: "Keifer Erikson"
+  repo: "https://github.com/keifererikson/vscode-nightfox"
+  url: "https://marketplace.visualstudio.com/items?itemName=keifererikson.nightfox"
+  formats: null
+colors:
+  bg: "#232136"
+  fg: "#CDCECF"
+  black: "#393552"
+  red: "#EB6F92"
+  green: "#A3BE8C"
+  yellow: "#F6C177"
+  blue: "#569FBA"
+  magenta: "#C4A7E7"
+  cyan: "#9CCFD8"
+  white: "#E0DEF4"
+  brightBlack: "#484A55"
+  brightRed: "#D16982"
+  brightGreen: "#90C7AC"
+  brightYellow: "#F9CB8C"
+  brightBlue: "#65B1CD"
+  brightMagenta: "#CCB1ED"
+  brightCyan: "#A6DAE3"
+  brightWhite: "#E3E3E4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 288
+  pair: null
+  contrast:
+    fg: 74.1
+    black: 0
+    red: 44.2
+    green: 60
+    yellow: 71.9
+    blue: 43
+    magenta: 58.7
+    cyan: 69.7
+    white: 85.3
+    brightBlack: 9.5
+    brightRed: 37.2
+    brightGreen: 63.2
+    brightYellow: 77
+    brightBlue: 52.1
+    brightMagenta: 63.8
+    brightCyan: 76.1
+    brightWhite: 87.1

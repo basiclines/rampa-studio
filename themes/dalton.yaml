@@ -1,0 +1,53 @@
+name: "dalton"
+source:
+  marketplace_id: "edersonferreira.dalton"
+  version: "1.0.1"
+  installs: 413
+  rating: 0
+  ratings: 0
+  author: "ederson ferreira"
+  repo: "https://github.com/edersonferreira/dalton-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=edersonferreira.dalton"
+  formats: null
+colors:
+  bg: "#0C0A0F"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#3BF035"
+  yellow: "#E5E510"
+  blue: "#2B7DF0"
+  magenta: "#BC3FBC"
+  cyan: "#32BCD9"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 303
+  pair: null
+  contrast:
+    fg: 107.7
+    black: 0
+    red: 27.5
+    green: 79
+    yellow: 86.4
+    blue: 35
+    magenta: 30.6
+    cyan: 58
+    white: 90.8
+    brightBlack: 22.9
+    brightRed: 39.4
+    brightGreen: 64.4
+    brightYellow: 96.5
+    brightBlue: 40.8
+    brightMagenta: 46.2
+    brightCyan: 56.2
+    brightWhite: 90.8

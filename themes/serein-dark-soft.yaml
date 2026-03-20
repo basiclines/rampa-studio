@@ -1,0 +1,53 @@
+name: "Serein Dark Soft"
+source:
+  marketplace_id: "abei.theme-serein"
+  version: "0.1.4"
+  installs: 34
+  rating: 0
+  ratings: 0
+  author: "abei"
+  repo: "https://github.com/abeixiaolu/vscode-theme-serein"
+  url: "https://marketplace.visualstudio.com/items?itemName=abei.theme-serein"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#DBD7CA"
+  black: "#393A34"
+  red: "#CB7676"
+  green: "#80C19A"
+  yellow: "#E6CC77"
+  blue: "#6394BF"
+  magenta: "#D9739F"
+  cyan: "#5EAAB5"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#CB7676"
+  brightGreen: "#80C19A"
+  brightYellow: "#E6CC77"
+  brightBlue: "#6394BF"
+  brightMagenta: "#D9739F"
+  brightCyan: "#5EAAB5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "Serein Light Soft"
+  contrast:
+    fg: 79.9
+    black: 0
+    red: 39.4
+    green: 58.9
+    yellow: 74.2
+    blue: 39.9
+    magenta: 42.5
+    cyan: 47.9
+    white: 79.9
+    brightBlack: 28.1
+    brightRed: 39.4
+    brightGreen: 58.9
+    brightYellow: 74.2
+    brightBlue: 39.9
+    brightMagenta: 42.5
+    brightCyan: 47.9
+    brightWhite: 105.5

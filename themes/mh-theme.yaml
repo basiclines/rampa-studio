@@ -1,0 +1,53 @@
+name: "MH Theme"
+source:
+  marketplace_id: "PanaMiguel.mh-theme"
+  version: "0.1.1"
+  installs: 828
+  rating: 5
+  ratings: 3
+  author: "Pana Miguel"
+  repo: "https://github.com/MHP24/vsc-mh-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=PanaMiguel.mh-theme"
+  formats: null
+colors:
+  bg: "#292D3E"
+  fg: "#D4DCE0"
+  black: "#2F333A"
+  red: "#E26B75"
+  green: "#A3CF83"
+  yellow: "#E7C483"
+  blue: "#5389F7"
+  magenta: "#BC72D3"
+  cyan: "#59BDCA"
+  white: "#D1D5DD"
+  brightBlack: "#757981"
+  brightRed: "#F84F4F"
+  brightGreen: "#A0CC81"
+  brightYellow: "#EBC784"
+  brightBlue: "#528CFF"
+  brightMagenta: "#84019E"
+  brightCyan: "#5DBBC7"
+  brightWhite: "#DCE0E7"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 79.9
+    black: 0
+    red: 38.6
+    green: 65.3
+    yellow: 69.1
+    blue: 36.6
+    magenta: 37.7
+    cyan: 54.5
+    white: 76.3
+    brightBlack: 26.8
+    brightRed: 37.1
+    brightGreen: 63.6
+    brightYellow: 70.9
+    brightBlue: 38.2
+    brightMagenta: 10.5
+    brightCyan: 53.7
+    brightWhite: 83.1

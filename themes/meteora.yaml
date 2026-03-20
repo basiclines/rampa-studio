@@ -1,0 +1,53 @@
+name: "Meteora"
+source:
+  marketplace_id: "pjmiravalle.meteora"
+  version: "0.0.1"
+  installs: 849
+  rating: 0
+  ratings: 0
+  author: "Patrick Miravalle"
+  repo: "https://github.com/pjmiravalle/meteora-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pjmiravalle.meteora"
+  formats: null
+colors:
+  bg: "#15151B"
+  fg: "#A9B1D6"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#FFAC7C"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#B4BCDE"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#FFAC7C"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#B4BCDE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 60
+    black: 0
+    red: 50
+    green: 72.9
+    yellow: 67.5
+    blue: 51.8
+    magenta: 55.7
+    cyan: 71.2
+    white: 66.1
+    brightBlack: 0
+    brightRed: 50
+    brightGreen: 72.9
+    brightYellow: 67.5
+    brightBlue: 51.8
+    brightMagenta: 55.7
+    brightCyan: 71.2
+    brightWhite: 66.1

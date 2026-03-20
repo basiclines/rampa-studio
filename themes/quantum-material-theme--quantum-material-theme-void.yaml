@@ -1,0 +1,53 @@
+name: "Quantum Material Theme (Quantum Material Theme - Void)"
+source:
+  marketplace_id: "michaelmendez.quantum-material-theme"
+  version: "0.0.7"
+  installs: 119
+  rating: 0
+  ratings: 0
+  author: "Michael Méndez"
+  repo: "https://github.com/michaelmendez/quantum-material-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=michaelmendez.quantum-material-theme"
+  formats: null
+colors:
+  bg: "#0B0A0B"
+  fg: "#D0D0D0"
+  black: "#000000"
+  red: "#EF5370"
+  green: "#B3D87D"
+  yellow: "#EFBB6B"
+  blue: "#729AFF"
+  magenta: "#C18BE4"
+  cyan: "#79CDFF"
+  white: "#FFFFFF"
+  brightBlack: "#3A3A4D"
+  brightRed: "#EF5370"
+  brightGreen: "#B3D87D"
+  brightYellow: "#EFBB6B"
+  brightBlue: "#729AFF"
+  brightMagenta: "#C18BE4"
+  brightCyan: "#79CDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77.9
+    black: 0
+    red: 40.8
+    green: 75.4
+    yellow: 70.7
+    blue: 49.6
+    magenta: 51.2
+    cyan: 70.7
+    white: 107.7
+    brightBlack: 0
+    brightRed: 40.8
+    brightGreen: 75.4
+    brightYellow: 70.7
+    brightBlue: 49.6
+    brightMagenta: 51.2
+    brightCyan: 70.7
+    brightWhite: 107.7

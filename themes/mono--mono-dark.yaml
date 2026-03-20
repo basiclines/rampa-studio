@@ -1,0 +1,53 @@
+name: "mono (mono dark)"
+source:
+  marketplace_id: "StepanVanzuriak.mono"
+  version: "0.0.2"
+  installs: 57827
+  rating: 5
+  ratings: 2
+  author: "Stepan Vanzuriak"
+  repo: "https://github.com/stepanvanzuriak/mono"
+  url: "https://marketplace.visualstudio.com/items?itemName=StepanVanzuriak.mono"
+  formats: null
+colors:
+  bg: "#111111"
+  fg: "#BBBBBB"
+  black: "#BBBBBB"
+  red: "#8E8E8E"
+  green: "#999999"
+  yellow: "#777777"
+  blue: "#B0B0B0"
+  magenta: "#A4A4A4"
+  cyan: "#828282"
+  white: "#6C6C6C"
+  brightBlack: "#BBBBBB"
+  brightRed: "#8E8E8E"
+  brightGreen: "#999999"
+  brightYellow: "#777777"
+  brightBlue: "#B0B0B0"
+  brightMagenta: "#A4A4A4"
+  brightCyan: "#828282"
+  brightWhite: "#6C6C6C"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: "mono (mono white)"
+  contrast:
+    fg: 65.2
+    black: 65.2
+    red: 41.1
+    green: 46.7
+    yellow: 30.1
+    blue: 59
+    magenta: 52.5
+    cyan: 35.2
+    white: 25.1
+    brightBlack: 65.2
+    brightRed: 41.1
+    brightGreen: 46.7
+    brightYellow: 30.1
+    brightBlue: 59
+    brightMagenta: 52.5
+    brightCyan: 35.2
+    brightWhite: 25.1

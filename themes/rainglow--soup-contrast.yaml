@@ -1,0 +1,53 @@
+name: "Rainglow (soup-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#17181C"
+  fg: "#9090B2"
+  black: "#23242A"
+  red: "#BA0E2E"
+  green: "#68B0AB"
+  yellow: "#8FC0A9"
+  blue: "#C8D5B9"
+  magenta: "#FAF3DD"
+  cyan: "#8FC0A9"
+  white: "#9F9FBC"
+  brightBlack: "#454854"
+  brightRed: "#F03E5F"
+  brightGreen: "#ABD3D0"
+  brightYellow: "#D0E5DB"
+  brightBlue: "#FAFBF9"
+  brightMagenta: "#FFFFFF"
+  brightCyan: "#D0E5DB"
+  brightWhite: "#CCCCDC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (soup-light)"
+  contrast:
+    fg: 42.9
+    black: 0
+    red: 20.4
+    green: 51.8
+    yellow: 61.5
+    blue: 77.2
+    magenta: 98.9
+    cyan: 61.5
+    white: 50.4
+    brightBlack: 10.2
+    brightRed: 36.7
+    brightGreen: 74.1
+    brightYellow: 86.8
+    brightBlue: 103.9
+    brightMagenta: 106.8
+    brightCyan: 86.8
+    brightWhite: 75.3

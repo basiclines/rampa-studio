@@ -1,0 +1,53 @@
+name: "Zenbones Forestbones Dark"
+source:
+  marketplace_id: "rpbritton.zenbones"
+  version: "0.0.2"
+  installs: 2701
+  rating: 5
+  ratings: 3
+  author: "rpbritton"
+  repo: "https://github.com/rpbritton/zenbones.nvim"
+  url: "https://marketplace.visualstudio.com/items?itemName=rpbritton.zenbones"
+  formats: null
+colors:
+  bg: "#2C343A"
+  fg: "#E7DCC4"
+  black: "#2C343A"
+  red: "#E67C7F"
+  green: "#A9C181"
+  yellow: "#DDBD7F"
+  blue: "#7FBCB4"
+  magenta: "#D69AB7"
+  cyan: "#83C193"
+  white: "#E7DCC4"
+  brightBlack: "#45525C"
+  brightRed: "#ED9294"
+  brightGreen: "#B0CE7B"
+  brightYellow: "#EDC77A"
+  brightBlue: "#7AC9C0"
+  brightMagenta: "#E5A7C4"
+  brightCyan: "#7DD093"
+  brightWhite: "#B2A790"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 240
+  pair: "Zenbones Forestbones Light"
+  contrast:
+    fg: 80.1
+    black: 0
+    red: 42.8
+    green: 58.5
+    yellow: 63.4
+    blue: 54.2
+    magenta: 51.2
+    cyan: 55.5
+    white: 80.1
+    brightBlack: 8.5
+    brightRed: 51.2
+    brightGreen: 64.8
+    brightYellow: 69.8
+    brightBlue: 60.1
+    brightMagenta: 58.6
+    brightCyan: 61.9
+    brightWhite: 49.3

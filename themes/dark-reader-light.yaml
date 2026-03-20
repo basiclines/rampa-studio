@@ -1,0 +1,53 @@
+name: "Dark Reader (Light)"
+source:
+  marketplace_id: "akil-s.dark-reader-light"
+  version: "0.0.4"
+  installs: 608
+  rating: 0
+  ratings: 0
+  author: "akil-s"
+  repo: "https://github.com/Salah-Akil/darkreader-vscode-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=akil-s.dark-reader-light"
+  formats: null
+colors:
+  bg: "#D9D7D4"
+  fg: "#35393C"
+  black: "#232627"
+  red: "#BF0C0C"
+  green: "#738D01"
+  yellow: "#D59200"
+  blue: "#009C8F"
+  magenta: "#AA62C8"
+  cyan: "#17B898"
+  white: "#42413F"
+  brightBlack: "#464E4F"
+  brightRed: "#CA1111"
+  brightGreen: "#7F990D"
+  brightYellow: "#9E6200"
+  brightBlue: "#00B6A4"
+  brightMagenta: "#8E44AD"
+  brightCyan: "#16A085"
+  brightWhite: "#5D5C5A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.6
+    black: 78.9
+    red: 56.2
+    green: 42
+    yellow: 27.9
+    blue: 37.8
+    magenta: 43.5
+    cyan: 25.6
+    white: 70.5
+    brightBlack: 66.1
+    brightRed: 53.6
+    brightGreen: 36.3
+    brightYellow: 51
+    brightBlue: 26.1
+    brightMagenta: 55.6
+    brightCyan: 36.4
+    brightWhite: 59.8

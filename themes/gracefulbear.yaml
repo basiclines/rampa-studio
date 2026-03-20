@@ -1,0 +1,53 @@
+name: "GracefulBear"
+source:
+  marketplace_id: "GracefulBear.gracefulbear"
+  version: "0.0.1"
+  installs: 970
+  rating: 5
+  ratings: 2
+  author: "GracefulBear"
+  repo: "https://github.com/GracefulBearTheme/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GracefulBear.gracefulbear"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#94CA6D"
+  yellow: "#FF805C"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#69C49A"
+  brightYellow: "#FF71A2"
+  brightBlue: "#89E6FA"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#699AFF"
+  brightWhite: "#FF7854"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 58
+    black: 7.4
+    red: 35.3
+    green: 63.4
+    yellow: 51.5
+    blue: 48.2
+    magenta: 37.6
+    cyan: 51.1
+    white: 89.2
+    brightBlack: 14
+    brightRed: 44.7
+    brightGreen: 58.7
+    brightYellow: 49.7
+    brightBlue: 80.8
+    brightMagenta: 48.8
+    brightCyan: 46.7
+    brightWhite: 49.3

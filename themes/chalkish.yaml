@@ -1,0 +1,53 @@
+name: "chalkish"
+source:
+  marketplace_id: "mikonunez.chalkish"
+  version: "0.0.4"
+  installs: 192
+  rating: 0
+  ratings: 0
+  author: "Miko Nuñez"
+  repo: "https://github.com/mikonunyez/chalkish-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=mikonunez.chalkish"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D4D4D4"
+  black: "#1F1F1F"
+  red: "#F58E8E"
+  green: "#A9D3AB"
+  yellow: "#FED37E"
+  blue: "#7AABD4"
+  magenta: "#D6ADD5"
+  cyan: "#79D4D5"
+  white: "#D4D4D4"
+  brightBlack: "#666666"
+  brightRed: "#F58E8E"
+  brightGreen: "#A9D3AB"
+  brightYellow: "#FED37E"
+  brightBlue: "#7AABD4"
+  brightMagenta: "#D6ADD5"
+  brightCyan: "#79D4D5"
+  brightWhite: "#D4D4D4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.7
+    black: 0
+    red: 55.3
+    green: 71.7
+    yellow: 81.6
+    blue: 52.2
+    magenta: 63.3
+    cyan: 70
+    white: 78.7
+    brightBlack: 21.2
+    brightRed: 55.3
+    brightGreen: 71.7
+    brightYellow: 81.6
+    brightBlue: 52.2
+    brightMagenta: 63.3
+    brightCyan: 70
+    brightWhite: 78.7

@@ -1,0 +1,53 @@
+name: "Phosphor Amber Night"
+source:
+  marketplace_id: "glidebuild.phosphor-themes"
+  version: "1.0.0"
+  installs: 40
+  rating: 0
+  ratings: 0
+  author: "glide.build"
+  repo: "https://github.com/mo-shawa/phosphor-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=glidebuild.phosphor-themes"
+  formats: null
+colors:
+  bg: "#1E2028"
+  fg: "#B3B8C5"
+  black: "#44403C"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#FB923C"
+  blue: "#2DD4BF"
+  magenta: "#C084FC"
+  cyan: "#67E8F9"
+  white: "#D4D4D8"
+  brightBlack: "#A1A1AA"
+  brightRed: "#FB7185"
+  brightGreen: "#5DD879"
+  brightYellow: "#FBBF24"
+  brightBlue: "#E5A84B"
+  brightMagenta: "#F0ABFC"
+  brightCyan: "#A5F3FC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 61.8
+    black: 0
+    red: 35.7
+    green: 55.6
+    yellow: 55.8
+    blue: 65.8
+    magenta: 48.5
+    cyan: 80
+    white: 78.5
+    brightBlack: 49.6
+    brightRed: 48.1
+    brightGreen: 66.9
+    brightYellow: 71.5
+    brightBlue: 59.4
+    brightMagenta: 68.5
+    brightCyan: 89.6
+    brightWhite: 105.7

@@ -1,0 +1,53 @@
+name: "Darkquark"
+source:
+  marketplace_id: "SatyamRana.the-prime-themes"
+  version: "1.0.2"
+  installs: 130
+  rating: 0
+  ratings: 0
+  author: "Satyam Rana"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=SatyamRana.the-prime-themes"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#F0F6FC"
+  black: "#484F58"
+  red: "#FF7B72"
+  green: "#009A97"
+  yellow: "#E3B341"
+  blue: "#58A6FF"
+  magenta: "#BC8CFF"
+  cyan: "#39C5CF"
+  white: "#B1BAC4"
+  brightBlack: "#6E7681"
+  brightRed: "#FFA198"
+  brightGreen: "#00D4D0"
+  brightYellow: "#F2CC60"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#D2A8FF"
+  brightCyan: "#56D4DD"
+  brightWhite: "#F0F6FC"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 100.9
+    black: 13.1
+    red: 52.6
+    green: 39.7
+    yellow: 64.7
+    blue: 52.2
+    magenta: 52.2
+    cyan: 61.4
+    white: 64
+    brightBlack: 29.3
+    brightRed: 64.8
+    brightGreen: 67.9
+    brightYellow: 77.6
+    brightBlue: 64.7
+    brightMagenta: 64.6
+    brightCyan: 69.9
+    brightWhite: 100.9

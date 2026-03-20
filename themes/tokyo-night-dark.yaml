@@ -1,0 +1,53 @@
+name: "Tokyo Night Dark"
+source:
+  marketplace_id: "drewxs.tokyo-night-dark"
+  version: "0.3.3"
+  installs: 76547
+  rating: 4.67
+  ratings: 3
+  author: "Andrew X. Shah"
+  repo: "https://github.com/kito0/tokyo-night-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=drewxs.tokyo-night-dark"
+  formats: null
+colors:
+  bg: "#0A0A0D"
+  fg: "#A9B1D6"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#41A6B5"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#7DCFFF"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#41A6B5"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#7DCFFF"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.7
+    black: 0
+    red: 50.8
+    green: 47.2
+    yellow: 63.6
+    blue: 52.5
+    magenta: 56.4
+    cyan: 71.9
+    white: 33.5
+    brightBlack: 0
+    brightRed: 50.8
+    brightGreen: 47.2
+    brightYellow: 63.6
+    brightBlue: 52.5
+    brightMagenta: 56.4
+    brightCyan: 71.9
+    brightWhite: 60.4

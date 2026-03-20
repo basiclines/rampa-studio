@@ -1,0 +1,53 @@
+name: "Tlapalli l-02: Turquoise Light"
+source:
+  marketplace_id: "ackzell.tlapalli"
+  version: "0.2.2"
+  installs: 33
+  rating: 0
+  ratings: 0
+  author: "ackzell"
+  repo: "https://github.com/ackzell/tlapalli-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli"
+  formats: null
+colors:
+  bg: "#F6FAFA"
+  fg: "#33615F"
+  black: "#F6FAFA"
+  red: "#0A9E97"
+  green: "#80C2C0"
+  yellow: "#26706D"
+  blue: "#B2D5D2"
+  magenta: "#428F8C"
+  cyan: "#61AFAB"
+  white: "#1C625F"
+  brightBlack: "#C7E1E0"
+  brightRed: "#0A9E97"
+  brightGreen: "#80C2C0"
+  brightYellow: "#26706D"
+  brightBlue: "#B2D5D2"
+  brightMagenta: "#428F8C"
+  brightCyan: "#61AFAB"
+  brightWhite: "#0F5754"
+meta:
+  mode: "light"
+  accent: "cyan"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.5
+    black: 0
+    red: 56.4
+    green: 35.6
+    yellow: 75.3
+    blue: 22.7
+    magenta: 61.8
+    cyan: 46.3
+    white: 80.8
+    brightBlack: 14.8
+    brightRed: 56.4
+    brightGreen: 35.6
+    brightYellow: 75.3
+    brightBlue: 22.7
+    brightMagenta: 61.8
+    brightCyan: 46.3
+    brightWhite: 85

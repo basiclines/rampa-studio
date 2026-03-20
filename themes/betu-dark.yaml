@@ -1,0 +1,53 @@
+name: "betu-dark"
+source:
+  marketplace_id: "Betu55.betu-dark-theme"
+  version: "1.6.1"
+  installs: 142
+  rating: 0
+  ratings: 0
+  author: "Betu55"
+  repo: "https://github.com/betu55/Betu-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Betu55.betu-dark-theme"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#4CC9F0"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#FF6D78"
+  blue: "#00B4D8"
+  magenta: "#BC3FBC"
+  cyan: "#00B4D8"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#FF6D78"
+  brightBlue: "#00B4D8"
+  brightMagenta: "#D670D6"
+  brightCyan: "#00B4D8"
+  brightWhite: "#CF6262"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "betu-light"
+  contrast:
+    fg: 64.2
+    black: 0
+    red: 25.9
+    green: 52.2
+    yellow: 48
+    blue: 52.4
+    magenta: 28.9
+    cyan: 52.4
+    white: 89.2
+    brightBlack: 21.2
+    brightRed: 37.7
+    brightGreen: 62.7
+    brightYellow: 48
+    brightBlue: 52.4
+    brightMagenta: 44.5
+    brightCyan: 52.4
+    brightWhite: 35.1

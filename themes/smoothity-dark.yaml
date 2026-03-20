@@ -1,0 +1,53 @@
+name: "Smoothity Dark"
+source:
+  marketplace_id: "neinja007.smoothity-dark"
+  version: "6.3.0"
+  installs: 262
+  rating: 5
+  ratings: 1
+  author: "neinja007"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=neinja007.smoothity-dark"
+  formats: null
+colors:
+  bg: "#FF0000"
+  fg: "#FF0000"
+  black: "#FF0000"
+  red: "#FF0000"
+  green: "#FF0000"
+  yellow: "#FF0000"
+  blue: "#FF0000"
+  magenta: "#FF0000"
+  cyan: "#FF0000"
+  white: "#FF0000"
+  brightBlack: "#FF0000"
+  brightRed: "#FF0000"
+  brightGreen: "#FF0000"
+  brightYellow: "#FF0000"
+  brightBlue: "#FF0000"
+  brightMagenta: "#FF0000"
+  brightCyan: "#FF0000"
+  brightWhite: "#FF0000"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 29
+  pair: null
+  contrast:
+    fg: 0
+    black: 0
+    red: 0
+    green: 0
+    yellow: 0
+    blue: 0
+    magenta: 0
+    cyan: 0
+    white: 0
+    brightBlack: 0
+    brightRed: 0
+    brightGreen: 0
+    brightYellow: 0
+    brightBlue: 0
+    brightMagenta: 0
+    brightCyan: 0
+    brightWhite: 0

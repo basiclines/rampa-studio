@@ -1,0 +1,53 @@
+name: "Pantone Warm Gray (Light)"
+source:
+  marketplace_id: "AndlzEngineering.pantone-theme"
+  version: "0.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Andlz Engineering"
+  repo: "https://github.com/and-lz/pantone-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndlzEngineering.pantone-theme"
+  formats: null
+colors:
+  bg: "#FDFCFC"
+  fg: "#20201E"
+  black: "#20201E"
+  red: "#BF1932"
+  green: "#4E9A2F"
+  yellow: "#D4A017"
+  blue: "#0F4C81"
+  magenta: "#8C3359"
+  cyan: "#006E7F"
+  white: "#FDFCFC"
+  brightBlack: "#D7D2CB"
+  brightRed: "#DD4132"
+  brightGreen: "#88B04B"
+  brightYellow: "#EFC050"
+  brightBlue: "#2C9FD9"
+  brightMagenta: "#B163A3"
+  brightCyan: "#45B5AA"
+  brightWhite: "#FCFBFB"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Pantone Warm Gray (Dark)"
+  contrast:
+    fg: 101.6
+    black: 101.6
+    red: 77.2
+    green: 60.7
+    yellow: 44.9
+    blue: 88.2
+    magenta: 84.3
+    cyan: 77.5
+    white: 0
+    brightBlack: 21.9
+    brightRed: 66.8
+    brightGreen: 47.5
+    brightYellow: 28.7
+    brightBlue: 54.2
+    brightMagenta: 65.8
+    brightCyan: 46.9
+    brightWhite: 0

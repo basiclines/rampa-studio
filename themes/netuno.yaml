@@ -1,0 +1,53 @@
+name: "Netuno"
+source:
+  marketplace_id: "DougBichir.themes"
+  version: "0.0.10"
+  installs: 795
+  rating: 4.5
+  ratings: 2
+  author: "Doug Bichir"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=DougBichir.themes"
+  formats: null
+colors:
+  bg: "#052022"
+  fg: "#89DDFF"
+  black: "#0061B1"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 202
+  pair: null
+  contrast:
+    fg: 77.5
+    black: 19.6
+    red: 62.7
+    green: 90.1
+    yellow: 95
+    blue: 80.6
+    magenta: 74.1
+    cyan: 95.2
+    white: 73.9
+    brightBlack: 0
+    brightRed: 51
+    brightGreen: 86.1
+    brightYellow: 89.8
+    brightBlue: 61.5
+    brightMagenta: 49.5
+    brightCyan: 93.1
+    brightWhite: 106.2

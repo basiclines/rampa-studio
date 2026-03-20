@@ -1,0 +1,53 @@
+name: "Tristan"
+source:
+  marketplace_id: "TristanTheme.tristan"
+  version: "1.0.0"
+  installs: 224
+  rating: 0
+  ratings: 0
+  author: "Tristan Theme"
+  repo: "https://github.com/tristanHdez18/Tristan-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=TristanTheme.tristan"
+  formats: null
+colors:
+  bg: "#1C1C1D"
+  fg: "#3A86FF"
+  black: "#000000"
+  red: "#EE6055"
+  green: "#ADF7B6"
+  yellow: "#FFE66D"
+  blue: "#21597D"
+  magenta: "#F15BB5"
+  cyan: "#00F5D4"
+  white: "#F7FFF7"
+  brightBlack: "#5A5252"
+  brightRed: "#FF9B85"
+  brightGreen: "#ADF7B6"
+  brightYellow: "#FEE440"
+  brightBlue: "#38A3A5"
+  brightMagenta: "#F15BB5"
+  brightCyan: "#00F5D4"
+  brightWhite: "#887979"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 38.2
+    black: 0
+    red: 41
+    green: 89.9
+    yellow: 90
+    blue: 14.6
+    magenta: 43.8
+    cyan: 83.4
+    white: 104.8
+    brightBlack: 14.1
+    brightRed: 61.2
+    brightGreen: 89.9
+    brightYellow: 88.5
+    brightBlue: 43.5
+    brightMagenta: 43.8
+    brightCyan: 83.4
+    brightWhite: 31.5

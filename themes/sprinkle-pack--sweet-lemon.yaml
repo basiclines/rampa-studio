@@ -1,0 +1,53 @@
+name: "Sprinkle Pack (Sweet Lemon)"
+source:
+  marketplace_id: "kgnio.sprinklepack"
+  version: "0.2.5"
+  installs: 83
+  rating: 5
+  ratings: 2
+  author: "Kagan Mamak"
+  repo: "https://github.com/kgnio/sprinklepack"
+  url: "https://marketplace.visualstudio.com/items?itemName=kgnio.sprinklepack"
+  formats: null
+colors:
+  bg: "#FAF9F7"
+  fg: "#1F1F1F"
+  black: "#CCCCCC"
+  red: "#FF6B6B"
+  green: "#9CD645"
+  yellow: "#FFD700"
+  blue: "#5CB7FF"
+  magenta: "#E086D3"
+  cyan: "#5DD3D3"
+  white: "#1F1F1F"
+  brightBlack: "#E0E0E0"
+  brightRed: "#FF5F5F"
+  brightGreen: "#B8F58C"
+  brightYellow: "#FFF899"
+  brightBlue: "#8CCFFF"
+  brightMagenta: "#EDAAFF"
+  brightCyan: "#8EF0F0"
+  brightWhite: "#000000"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.9
+    black: 23.7
+    red: 49.2
+    green: 27.7
+    yellow: 15.7
+    blue: 38.9
+    magenta: 44.6
+    cyan: 29.3
+    white: 99.9
+    brightBlack: 12.3
+    brightRed: 51.9
+    brightGreen: 10
+    brightYellow: 0
+    brightBlue: 26.2
+    brightMagenta: 29.2
+    brightCyan: 12.3
+    brightWhite: 102.5

@@ -1,0 +1,53 @@
+name: "Kira-Theme"
+source:
+  marketplace_id: "pnemonic.kira-theme"
+  version: "0.1.1"
+  installs: 133
+  rating: 0
+  ratings: 0
+  author: "Christian Romero Oliva"
+  repo: "https://github.com/cromeoli/kira-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=pnemonic.kira-theme"
+  formats: null
+colors:
+  bg: "#0A0A0A"
+  fg: "#E5E5E5"
+  black: "#000000"
+  red: "#BC7CFC"
+  green: "#74C997"
+  yellow: "#6172FB"
+  blue: "#2E72FA"
+  magenta: "#ECB3F5"
+  cyan: "#6BDFD5"
+  white: "#E5E5E5"
+  brightBlack: "#4B4B4B"
+  brightRed: "#BC79FF"
+  brightGreen: "#6FCE96"
+  brightYellow: "#5D6FFF"
+  brightBlue: "#2970FF"
+  brightMagenta: "#ECB3F5"
+  brightCyan: "#67E3D9"
+  brightWhite: "#FCFCFC"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.9
+    black: 0
+    red: 47.7
+    green: 63.9
+    yellow: 35
+    blue: 32.6
+    magenta: 72.3
+    cyan: 76.1
+    white: 90.9
+    brightBlack: 12.2
+    brightRed: 47.1
+    brightGreen: 65.8
+    brightYellow: 34.2
+    brightBlue: 32.3
+    brightMagenta: 72.3
+    brightCyan: 78
+    brightWhite: 105.7

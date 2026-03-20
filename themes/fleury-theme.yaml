@@ -1,0 +1,53 @@
+name: "Fleury Theme"
+source:
+  marketplace_id: "jonesnc.fleury-theme"
+  version: "1.0.0"
+  installs: 31
+  rating: 0
+  ratings: 0
+  author: "jonesnc"
+  repo: "https://github.com/jonesnc/fleury-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jonesnc.fleury-theme"
+  formats: null
+colors:
+  bg: "#020202"
+  fg: "#B99468"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#2AB34F"
+  yellow: "#FFA900"
+  blue: "#2895C7"
+  magenta: "#FF44DD"
+  cyan: "#00DDEE"
+  white: "#666666"
+  brightBlack: "#404040"
+  brightRed: "#DB2828"
+  brightGreen: "#6EB535"
+  brightYellow: "#FFA900"
+  brightBlue: "#2895C7"
+  brightMagenta: "#FF44DD"
+  brightCyan: "#00DDEE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 48
+    black: 0
+    red: 37.5
+    green: 49.4
+    yellow: 66.1
+    blue: 40.8
+    magenta: 47.2
+    cyan: 74.2
+    white: 23
+    brightBlack: 8.5
+    brightRed: 30
+    brightGreen: 52.7
+    brightYellow: 66.1
+    brightBlue: 40.8
+    brightMagenta: 47.2
+    brightCyan: 74.2
+    brightWhite: 107.9

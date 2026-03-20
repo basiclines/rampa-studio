@@ -1,0 +1,53 @@
+name: "w40 Theme"
+source:
+  marketplace_id: "emersonsm.w40-theme"
+  version: "1.2.7"
+  installs: 1145
+  rating: 0
+  ratings: 0
+  author: "emersonsm"
+  repo: "https://github.com/emersonsm/w40"
+  url: "https://marketplace.visualstudio.com/items?itemName=emersonsm.w40-theme"
+  formats: null
+colors:
+  bg: "#272C35"
+  fg: "#E5E5E5"
+  black: "#272C35"
+  red: "#CD84C8"
+  green: "#C4BFA2"
+  yellow: "#DDEC5B"
+  blue: "#CD84C8"
+  magenta: "#CD84C8"
+  cyan: "#E5E5E5"
+  white: "#E5E5E5"
+  brightBlack: "#515151"
+  brightRed: "#E5E5E5"
+  brightGreen: "#E5E5E5"
+  brightYellow: "#E9EC5B"
+  brightBlue: "#CD84C8"
+  brightMagenta: "#CD84C8"
+  brightCyan: "#E5E5E5"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 262
+  pair: null
+  contrast:
+    fg: 86.8
+    black: 0
+    red: 45.2
+    green: 63.4
+    yellow: 85.1
+    blue: 45.2
+    magenta: 45.2
+    cyan: 86.8
+    white: 86.8
+    brightBlack: 10.4
+    brightRed: 86.8
+    brightGreen: 86.8
+    brightYellow: 86.7
+    brightBlue: 45.2
+    brightMagenta: 45.2
+    brightCyan: 86.8
+    brightWhite: 86.8

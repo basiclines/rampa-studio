@@ -1,0 +1,53 @@
+name: "MS Dev Theme"
+source:
+  marketplace_id: "mhmdsulimn.msdev-vscode"
+  version: "1.6.0"
+  installs: 457
+  rating: 5
+  ratings: 2
+  author: "Mohamed Suliman"
+  repo: "https://github.com/mhmdsulimn/MS-Dev-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mhmdsulimn.msdev-vscode"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#D0D0D0"
+  black: "#000000"
+  red: "#FE4450"
+  green: "#37B349"
+  yellow: "#F8CA12"
+  blue: "#00A9E6"
+  magenta: "#FF7EDB"
+  cyan: "#03EDF9"
+  white: "#D0D0D0"
+  brightBlack: "#505050"
+  brightRed: "#FE4450"
+  brightGreen: "#72F1B8"
+  brightYellow: "#FEDE5D"
+  brightBlue: "#03EDF9"
+  brightMagenta: "#FF7EDB"
+  brightCyan: "#03EDF9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 77.6
+    black: 0
+    red: 41.1
+    green: 49.1
+    yellow: 77.1
+    blue: 49.9
+    magenta: 57.4
+    cyan: 82.2
+    white: 77.6
+    brightBlack: 13.7
+    brightRed: 41.1
+    brightGreen: 83.8
+    brightYellow: 87.2
+    brightBlue: 82.2
+    brightMagenta: 57.4
+    brightCyan: 82.2
+    brightWhite: 107.4

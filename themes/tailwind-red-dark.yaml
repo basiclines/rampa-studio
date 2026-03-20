@@ -1,0 +1,53 @@
+name: "Tailwind Red Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#7F1D1D"
+  fg: "#FEE2E2"
+  black: "#991B1B"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#FECACA"
+  brightBlack: "#991B1B"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#FECACA"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 26
+  pair: "Tailwind Red Light"
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 37.5
+    green: 59.9
+    yellow: 67.2
+    blue: 40.8
+    magenta: 39.1
+    cyan: 58
+    white: 70.5
+    brightBlack: 0
+    brightRed: 37.5
+    brightGreen: 59.9
+    brightYellow: 67.2
+    brightBlue: 40.8
+    brightMagenta: 39.1
+    brightCyan: 58
+    brightWhite: 70.5

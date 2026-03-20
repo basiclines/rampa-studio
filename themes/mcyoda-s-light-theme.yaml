@@ -1,0 +1,53 @@
+name: "McYoda's Light Theme"
+source:
+  marketplace_id: "McYoda.mcyoda-s-light-theme"
+  version: "0.0.4"
+  installs: 142
+  rating: 0
+  ratings: 0
+  author: "McYoda"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=McYoda.mcyoda-s-light-theme"
+  formats: null
+colors:
+  bg: "#FAFAFA"
+  fg: "#000000"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103
+    black: 103
+    red: 71
+    green: 46.2
+    yellow: 54.9
+    blue: 83.1
+    magenta: 71.6
+    cyan: 57.6
+    white: 82.9
+    brightBlack: 75.8
+    brightRed: 71
+    brightGreen: 37.9
+    brightYellow: 38
+    brightBlue: 83.1
+    brightMagenta: 71.6
+    brightCyan: 57.6
+    brightWhite: 45.5

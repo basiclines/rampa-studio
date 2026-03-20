@@ -1,0 +1,53 @@
+name: "Seafarer"
+source:
+  marketplace_id: "lostVkng.seafarer-vscode"
+  version: "0.0.4"
+  installs: 355
+  rating: 0
+  ratings: 0
+  author: "TomJones"
+  repo: "https://gitlab.com/lostVkng/seafarer-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lostVkng.seafarer-vscode"
+  formats: null
+colors:
+  bg: "#1F2430"
+  fg: "#CED4DD"
+  black: "#191C25"
+  red: "#BA2828"
+  green: "#3EAD58"
+  yellow: "#C6B547"
+  blue: "#90B7DB"
+  magenta: "#7349A3"
+  cyan: "#5680AD"
+  white: "#CED4DD"
+  brightBlack: "#191C25"
+  brightRed: "#BA2828"
+  brightGreen: "#3EAD58"
+  brightYellow: "#C6B547"
+  brightBlue: "#90B7DB"
+  brightMagenta: "#7349A3"
+  brightCyan: "#5680AD"
+  brightWhite: "#CED4DD"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 267
+  pair: null
+  contrast:
+    fg: 77.4
+    black: 0
+    red: 20
+    green: 44.6
+    yellow: 59
+    blue: 58.3
+    magenta: 17
+    cyan: 30.6
+    white: 77.4
+    brightBlack: 0
+    brightRed: 20
+    brightGreen: 44.6
+    brightYellow: 59
+    brightBlue: 58.3
+    brightMagenta: 17
+    brightCyan: 30.6
+    brightWhite: 77.4

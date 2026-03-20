@@ -1,0 +1,53 @@
+name: "Loki Theme"
+source:
+  marketplace_id: "Outbound.loki-theme"
+  version: "0.1.4"
+  installs: 428
+  rating: 0
+  ratings: 0
+  author: "Outbound"
+  repo: "https://github.com/melquisedecfelipe/loki-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Outbound.loki-theme"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#E5E5E5"
+  black: "#18181B"
+  red: "#EF4444"
+  green: "#22C55E"
+  yellow: "#EAB308"
+  blue: "#3B82F6"
+  magenta: "#D946EF"
+  cyan: "#06B6D4"
+  white: "#FAFAFA"
+  brightBlack: "#18181B"
+  brightRed: "#EF4444"
+  brightGreen: "#22C55E"
+  brightYellow: "#EAB308"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#D946EF"
+  brightCyan: "#06B6D4"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.4
+    black: 0
+    red: 37.3
+    green: 57.2
+    yellow: 65.5
+    blue: 37.2
+    magenta: 40.2
+    cyan: 54.3
+    white: 104
+    brightBlack: 0
+    brightRed: 37.3
+    brightGreen: 57.2
+    brightYellow: 65.5
+    brightBlue: 37.2
+    brightMagenta: 40.2
+    brightCyan: 54.3
+    brightWhite: 104

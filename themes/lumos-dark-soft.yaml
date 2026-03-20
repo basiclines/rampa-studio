@@ -1,0 +1,53 @@
+name: "Lumos Dark Soft"
+source:
+  marketplace_id: "nyxb.theme-lumos"
+  version: "0.0.12"
+  installs: 874
+  rating: 0
+  ratings: 0
+  author: "nyxb"
+  repo: "https://github.com/nyxb/vscode-theme-lumos"
+  url: "https://marketplace.visualstudio.com/items?itemName=nyxb.theme-lumos"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#DBD7CA"
+  black: "#393A34"
+  red: "#ED4245"
+  green: "#14F195"
+  yellow: "#FEE75C"
+  blue: "#5865F2"
+  magenta: "#EB459E"
+  cyan: "#00FFFF"
+  white: "#DBD7CA"
+  brightBlack: "#777777"
+  brightRed: "#ED4245"
+  brightGreen: "#14F195"
+  brightYellow: "#FEE75C"
+  brightBlue: "#5865F2"
+  brightMagenta: "#EB459E"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.9
+    black: 0
+    red: 34.7
+    green: 78.3
+    yellow: 89.3
+    blue: 27.7
+    magenta: 37.1
+    cyan: 89.8
+    white: 79.9
+    brightBlack: 28.1
+    brightRed: 34.7
+    brightGreen: 78.3
+    brightYellow: 89.3
+    brightBlue: 27.7
+    brightMagenta: 37.1
+    brightCyan: 89.8
+    brightWhite: 105.5

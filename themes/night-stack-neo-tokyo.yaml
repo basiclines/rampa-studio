@@ -1,0 +1,53 @@
+name: "Night-Stack Neo Tokyo"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#0A0A12"
+  fg: "#F5E9FF"
+  black: "#1A1A2E"
+  red: "#FF2DAF"
+  green: "#00F5FF"
+  yellow: "#FF5ACD"
+  blue: "#00C3FF"
+  magenta: "#FF2DAF"
+  cyan: "#00F5FF"
+  white: "#F5E9FF"
+  brightBlack: "#1A1A2E"
+  brightRed: "#FF2DAF"
+  brightGreen: "#00F5FF"
+  brightYellow: "#FF5ACD"
+  brightBlue: "#00C3FF"
+  brightMagenta: "#FF2DAF"
+  brightCyan: "#00F5FF"
+  brightWhite: "#F5E9FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 96.1
+    black: 0
+    red: 42.3
+    green: 86.8
+    yellow: 49.3
+    blue: 63
+    magenta: 42.3
+    cyan: 86.8
+    white: 96.1
+    brightBlack: 0
+    brightRed: 42.3
+    brightGreen: 86.8
+    brightYellow: 49.3
+    brightBlue: 63
+    brightMagenta: 42.3
+    brightCyan: 86.8
+    brightWhite: 96.1

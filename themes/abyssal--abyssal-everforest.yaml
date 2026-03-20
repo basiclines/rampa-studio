@@ -1,0 +1,53 @@
+name: "Abyssal (Abyssal-Everforest)"
+source:
+  marketplace_id: "zen0x.abyssal"
+  version: "0.0.5"
+  installs: 43
+  rating: 0
+  ratings: 0
+  author: "zen0x"
+  repo: "https://github.com/zen0x00/abyssal-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=zen0x.abyssal"
+  formats: null
+colors:
+  bg: "#2D353B"
+  fg: "#D3C6AA"
+  black: "#2D353B"
+  red: "#E67E80"
+  green: "#A7C080"
+  yellow: "#DBBC7F"
+  blue: "#7FBBB3"
+  magenta: "#D699B6"
+  cyan: "#83C092"
+  white: "#D3C6AA"
+  brightBlack: "#606B6F"
+  brightRed: "#E67E80"
+  brightGreen: "#A7C080"
+  brightYellow: "#DBBC7F"
+  brightBlue: "#7FBBB3"
+  brightMagenta: "#D699B6"
+  brightCyan: "#83C092"
+  brightWhite: "#D3C6AA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 240
+  pair: "Abyssal (Abyssal-Latte)"
+  contrast:
+    fg: 66.6
+    black: 0
+    red: 43.1
+    green: 57.5
+    yellow: 62.4
+    blue: 53.4
+    magenta: 50.5
+    cyan: 54.7
+    white: 66.6
+    brightBlack: 18.3
+    brightRed: 43.1
+    brightGreen: 57.5
+    brightYellow: 62.4
+    brightBlue: 53.4
+    brightMagenta: 50.5
+    brightCyan: 54.7
+    brightWhite: 66.6

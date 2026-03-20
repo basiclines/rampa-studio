@@ -1,0 +1,53 @@
+name: "grumbra"
+source:
+  marketplace_id: "Cydo.re-theme"
+  version: "3.0.0"
+  installs: 696
+  rating: 0
+  ratings: 0
+  author: "Cydo"
+  repo: "https://github.com/CydoEntis/reThemes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Cydo.re-theme"
+  formats: null
+colors:
+  bg: "#1B1B1B"
+  fg: "#CCCCCC"
+  black: "#282A36"
+  red: "#F37F97"
+  green: "#5ADECD"
+  yellow: "#F2A272"
+  blue: "#8897F4"
+  magenta: "#C574DD"
+  cyan: "#79E6F3"
+  white: "#BEBEC1"
+  brightBlack: "#414458"
+  brightRed: "#FF4971"
+  brightGreen: "#18E3C8"
+  brightYellow: "#FF8037"
+  brightBlue: "#556FFF"
+  brightMagenta: "#B043D1"
+  brightCyan: "#3FDCEE"
+  brightWhite: "#FDFDFD"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.2
+    black: 0
+    red: 51.3
+    green: 73.1
+    yellow: 60.8
+    blue: 48.2
+    magenta: 43.5
+    cyan: 80.4
+    white: 66.1
+    brightBlack: 8.8
+    brightRed: 41.7
+    brightGreen: 73.9
+    brightYellow: 52
+    brightBlue: 32.4
+    brightMagenta: 29.2
+    brightCyan: 72.9
+    brightWhite: 105.1

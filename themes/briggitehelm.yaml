@@ -1,0 +1,53 @@
+name: "briggitehelm"
+source:
+  marketplace_id: "ColonelMoutarde.mammoth-color-theme"
+  version: "1.0.1"
+  installs: 101
+  rating: 0
+  ratings: 0
+  author: "Colonel Moutarde"
+  repo: "https://github.com/Karakoukie/mammoth-vs-color-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ColonelMoutarde.mammoth-color-theme"
+  formats: null
+colors:
+  bg: "#FFF8F1"
+  fg: "#000000"
+  black: "#000000"
+  red: "#C00000"
+  green: "#008000"
+  yellow: "#808000"
+  blue: "#0000C0"
+  magenta: "#B000B0"
+  cyan: "#00B0B0"
+  white: "#FFFFE0"
+  brightBlack: "#505050"
+  brightRed: "#F04040"
+  brightGreen: "#80F080"
+  brightYellow: "#F0F060"
+  brightBlue: "#2080F0"
+  brightMagenta: "#F060F0"
+  brightCyan: "#80F0F0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 102.5
+    red: 75.7
+    green: 71
+    yellow: 65.2
+    blue: 90.4
+    magenta: 74.2
+    cyan: 47.8
+    white: 0
+    brightBlack: 84.4
+    brightRed: 60.6
+    brightGreen: 16.8
+    brightYellow: 0
+    brightBlue: 62.1
+    brightMagenta: 48.7
+    brightCyan: 13.1
+    brightWhite: 0

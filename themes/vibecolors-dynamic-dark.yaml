@@ -1,0 +1,53 @@
+name: "VibeColors Dynamic Dark"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  rating: 5
+  ratings: 1
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+  formats: null
+colors:
+  bg: "#1A1525"
+  fg: "#E8D5FF"
+  black: "#6B4F7A"
+  red: "#FF4757"
+  green: "#26D0CE"
+  yellow: "#FFA726"
+  blue: "#5DADE2"
+  magenta: "#FF6B9D"
+  cyan: "#4BCFFA"
+  white: "#E8D5FF"
+  brightBlack: "#6B4F7A"
+  brightRed: "#FF4757"
+  brightGreen: "#26D0CE"
+  brightYellow: "#FFA726"
+  brightBlue: "#5DADE2"
+  brightMagenta: "#FF6B9D"
+  brightCyan: "#4BCFFA"
+  brightWhite: "#E8D5FF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 298
+  pair: "VibeColors Dynamic Light"
+  contrast:
+    fg: 84.7
+    black: 16.9
+    red: 41.2
+    green: 65.5
+    yellow: 64.4
+    blue: 52.7
+    magenta: 49.5
+    cyan: 68.2
+    white: 84.7
+    brightBlack: 16.9
+    brightRed: 41.2
+    brightGreen: 65.5
+    brightYellow: 64.4
+    brightBlue: 52.7
+    brightMagenta: 49.5
+    brightCyan: 68.2
+    brightWhite: 84.7

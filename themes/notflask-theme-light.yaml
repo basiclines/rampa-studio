@@ -1,0 +1,53 @@
+name: "NotFlask Theme Light"
+source:
+  marketplace_id: "notflask.notflask-theme"
+  version: "1.0.2"
+  installs: 1566
+  rating: 5
+  ratings: 1
+  author: "Daniel Flask"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=notflask.notflask-theme"
+  formats: null
+colors:
+  bg: "#F8F9FA"
+  fg: "#5C6166"
+  black: "#000000"
+  red: "#EA6C6D"
+  green: "#6CBF43"
+  yellow: "#ECA944"
+  blue: "#3199E1"
+  magenta: "#9E75C7"
+  cyan: "#46BA94"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F07171"
+  brightGreen: "#86B300"
+  brightYellow: "#F2AE49"
+  brightBlue: "#399EE6"
+  brightMagenta: "#A37ACC"
+  brightCyan: "#4CBF99"
+  brightWhite: "#D1D1D1"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77.5
+    black: 102.4
+    red: 53.2
+    green: 41.2
+    yellow: 35.7
+    blue: 53.9
+    magenta: 59.8
+    cyan: 43.5
+    white: 26.4
+    brightBlack: 74.2
+    brightRed: 50.7
+    brightGreen: 44.8
+    brightYellow: 32.9
+    brightBlue: 51.5
+    brightMagenta: 57.5
+    brightCyan: 41
+    brightWhite: 20.8

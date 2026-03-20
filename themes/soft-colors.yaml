@@ -1,0 +1,53 @@
+name: "Soft Colors"
+source:
+  marketplace_id: "NyctibiusVII.descomplica-theme"
+  version: "1.4.18"
+  installs: 387
+  rating: 5
+  ratings: 2
+  author: "NyctibiusVII"
+  repo: "https://github.com/Descomplica-ADS/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=NyctibiusVII.descomplica-theme"
+  formats: null
+colors:
+  bg: "#231F2E"
+  fg: "#B4B4B4"
+  black: "#0A0A0A"
+  red: "#E18E8E"
+  green: "#0DBC79"
+  yellow: "#DAE18E"
+  blue: "#585F8D"
+  magenta: "#D38EE1"
+  cyan: "#8EE1C1"
+  white: "#E5E5E5"
+  brightBlack: "#878484"
+  brightRed: "#E8A2AF"
+  brightGreen: "#8BFF9A"
+  brightYellow: "#E0EA75"
+  brightBlue: "#8E98E1"
+  brightMagenta: "#DE7ADE"
+  brightCyan: "#8EE1DE"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 297
+  pair: null
+  contrast:
+    fg: 59.5
+    black: 0
+    red: 51.1
+    green: 51.7
+    yellow: 82.4
+    blue: 19.1
+    magenta: 52.5
+    cyan: 76.2
+    white: 88.7
+    brightBlack: 34.7
+    brightRed: 60
+    brightGreen: 89.8
+    brightYellow: 86.9
+    brightBlue: 47
+    brightMagenta: 48.5
+    brightCyan: 77.5
+    brightWhite: 88.7

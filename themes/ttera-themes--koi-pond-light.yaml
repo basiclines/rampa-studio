@@ -1,0 +1,53 @@
+name: "Ttera Themes (Koi Pond Light)"
+source:
+  marketplace_id: "sserafy.ttera-themes"
+  version: "2.0.7"
+  installs: 2054
+  rating: 5
+  ratings: 1
+  author: "sserafy"
+  repo: "https://github.com/azhou555/naturefy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=sserafy.ttera-themes"
+  formats: null
+colors:
+  bg: "#FCFAF4"
+  fg: "#2C3E34"
+  black: "#2C3E34"
+  red: "#FF4D3D"
+  green: "#2E7D32"
+  yellow: "#FF8F00"
+  blue: "#2980B9"
+  magenta: "#8E24AA"
+  cyan: "#00ACC1"
+  white: "#F7F3E9"
+  brightBlack: "#6B6B52"
+  brightRed: "#FF6B5A"
+  brightGreen: "#388E3C"
+  brightYellow: "#FFB74D"
+  brightBlue: "#5DADE2"
+  brightMagenta: "#AB47BC"
+  brightCyan: "#26C6DA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Ttera Themes (Koi Pond Dark)"
+  contrast:
+    fg: 93.2
+    black: 93.2
+    red: 55.9
+    green: 72
+    yellow: 41.5
+    blue: 66.4
+    magenta: 80.2
+    cyan: 49.3
+    white: 0
+    brightBlack: 74.2
+    brightRed: 50.1
+    brightGreen: 65
+    brightYellow: 28.1
+    brightBlue: 45.2
+    brightMagenta: 69.7
+    brightCyan: 36.8
+    brightWhite: 0

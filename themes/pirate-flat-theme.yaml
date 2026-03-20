@@ -1,0 +1,53 @@
+name: "Pirate Flat Theme"
+source:
+  marketplace_id: "Pinperepette.pirate-flat-theme"
+  version: "0.1.1"
+  installs: 223
+  rating: 0
+  ratings: 0
+  author: "Pinperepette"
+  repo: "https://github.com/Pinperepette/pirate-flat"
+  url: "https://marketplace.visualstudio.com/items?itemName=Pinperepette.pirate-flat-theme"
+  formats: null
+colors:
+  bg: "#272822"
+  fg: "#F5EEEE"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#D4D4D4"
+  brightBlack: "#4D4D4D"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 115
+  pair: null
+  contrast:
+    fg: 94.4
+    black: 0
+    red: 41.3
+    green: 81.9
+    yellow: 76.6
+    blue: 53.6
+    magenta: 51.4
+    cyan: 75.9
+    white: 77.2
+    brightBlack: 9.7
+    brightRed: 41.3
+    brightGreen: 81.9
+    brightYellow: 76.6
+    brightBlue: 53.6
+    brightMagenta: 51.4
+    brightCyan: 75.9
+    brightWhite: 104.5

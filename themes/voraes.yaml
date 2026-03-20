@@ -1,0 +1,53 @@
+name: "Voraes"
+source:
+  marketplace_id: "Voraes.voraes"
+  version: "0.6.1"
+  installs: 48
+  rating: 0
+  ratings: 0
+  author: "Voraes"
+  repo: "https://github.com/Voraes/voraes-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Voraes.voraes"
+  formats: null
+colors:
+  bg: "#26292D"
+  fg: "#E4E3E3"
+  black: "#000000"
+  red: "#F6757A"
+  green: "#57CC99"
+  yellow: "#DBBC7F"
+  blue: "#1DA2DB"
+  magenta: "#B569D8"
+  cyan: "#8BCDEF"
+  white: "#E4E3E3"
+  brightBlack: "#5C6A72"
+  brightRed: "#FC5185"
+  brightGreen: "#57CC99"
+  brightYellow: "#DFA000"
+  brightBlue: "#1DA2DB"
+  brightMagenta: "#B569D8"
+  brightCyan: "#8BCDEF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 86.3
+    black: 0
+    red: 46.3
+    green: 60.3
+    yellow: 65
+    blue: 43.4
+    magenta: 35.7
+    cyan: 67.6
+    white: 86.3
+    brightBlack: 20.3
+    brightRed: 40.6
+    brightGreen: 60.3
+    brightYellow: 53.7
+    brightBlue: 43.4
+    brightMagenta: 35.7
+    brightCyan: 67.6
+    brightWhite: 87.4

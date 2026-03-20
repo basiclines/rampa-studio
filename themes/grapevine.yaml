@@ -1,0 +1,53 @@
+name: "grapevine"
+source:
+  marketplace_id: "rautenbergf.grapevine"
+  version: "1.0.0"
+  installs: 1603
+  rating: 5
+  ratings: 1
+  author: "rautenbergf"
+  repo: "https://github.com/rautenbergf/grapevine"
+  url: "https://marketplace.visualstudio.com/items?itemName=rautenbergf.grapevine"
+  formats: null
+colors:
+  bg: "#181921"
+  fg: "#B4BEC8"
+  black: "#000000"
+  red: "#EA2754"
+  green: "#0CD493"
+  yellow: "#FEC93B"
+  blue: "#6269E6"
+  magenta: "#CC4E91"
+  cyan: "#2ABBCA"
+  white: "#C7C7C7"
+  brightBlack: "#857C7E"
+  brightRed: "#FF7A98"
+  brightGreen: "#76FFC9"
+  brightYellow: "#F9F1A5"
+  brightBlue: "#78CFFF"
+  brightMagenta: "#EEA6FF"
+  brightCyan: "#96FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 65.4
+    black: 0
+    red: 32.8
+    green: 64.8
+    yellow: 77.1
+    blue: 29.6
+    magenta: 32.6
+    cyan: 55.6
+    white: 71.4
+    brightBlack: 32.6
+    brightRed: 52.6
+    brightGreen: 91.1
+    brightYellow: 95.7
+    brightBlue: 70.5
+    brightMagenta: 67.5
+    brightCyan: 93.9
+    brightWhite: 106.6

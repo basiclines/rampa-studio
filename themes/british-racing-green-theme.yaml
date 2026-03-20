@@ -1,0 +1,53 @@
+name: "British Racing Green Theme"
+source:
+  marketplace_id: "Danesed.british-racing-green-theme"
+  version: "1.0.1"
+  installs: 18
+  rating: 0
+  ratings: 0
+  author: "Danesed"
+  repo: "https://github.com/danesed/colorsea-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Danesed.british-racing-green-theme"
+  formats: null
+colors:
+  bg: "#07231E"
+  fg: "#BAD1D0"
+  black: "#105140"
+  red: "#FF3525"
+  green: "#31D198"
+  yellow: "#FF5246"
+  blue: "#2AB088"
+  magenta: "#FF5246"
+  cyan: "#2AB088"
+  white: "#BAD1D0"
+  brightBlack: "#344D4D"
+  brightRed: "#FF3525"
+  brightGreen: "#31D198"
+  brightYellow: "#FF5246"
+  brightBlue: "#2AB088"
+  brightMagenta: "#FF5246"
+  brightCyan: "#2AB088"
+  brightWhite: "#BAD1D0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 179
+  pair: null
+  contrast:
+    fg: 73.8
+    black: 9.3
+    red: 37.7
+    green: 63.1
+    yellow: 41.6
+    blue: 47.3
+    magenta: 41.6
+    cyan: 47.3
+    white: 73.8
+    brightBlack: 9.5
+    brightRed: 37.7
+    brightGreen: 63.1
+    brightYellow: 41.6
+    brightBlue: 47.3
+    brightMagenta: 41.6
+    brightCyan: 47.3
+    brightWhite: 73.8

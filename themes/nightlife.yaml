@@ -1,0 +1,53 @@
+name: "Nightlife"
+source:
+  marketplace_id: "spacesick.nightlife-vscode-theme"
+  version: "1.0.1"
+  installs: 798
+  rating: 0
+  ratings: 0
+  author: "Vincent Yovian"
+  repo: "https://github.com/spacesick/nightlife-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=spacesick.nightlife-vscode-theme"
+  formats: null
+colors:
+  bg: "#0F1118"
+  fg: "#EFF4F6"
+  black: "#000000"
+  red: "#DE6067"
+  green: "#7BA378"
+  yellow: "#E7A552"
+  blue: "#5B6DFF"
+  magenta: "#BDA5E6"
+  cyan: "#61BADD"
+  white: "#CFD3D6"
+  brightBlack: "#848484"
+  brightRed: "#F99FA8"
+  brightGreen: "#BEE2BC"
+  brightYellow: "#FFE376"
+  brightBlue: "#A8BCFF"
+  brightMagenta: "#FB98EC"
+  brightCyan: "#9CF6FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 99.5
+    black: 0
+    red: 39.1
+    green: 46.6
+    yellow: 60.3
+    blue: 33.2
+    magenta: 59.1
+    cyan: 58.7
+    white: 79
+    brightBlack: 36.2
+    brightRed: 63.6
+    brightGreen: 82.7
+    brightYellow: 89.9
+    brightBlue: 67
+    brightMagenta: 64.9
+    brightCyan: 92.1
+    brightWhite: 107.4

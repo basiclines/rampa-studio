@@ -1,0 +1,53 @@
+name: "PinkCloud"
+source:
+  marketplace_id: "priteshlad3.katanax"
+  version: "0.0.1"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "priteshlad3"
+  repo: "https://github.com/pritesh88/katanax-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=priteshlad3.katanax"
+  formats: null
+colors:
+  bg: "#F8EEF2"
+  fg: "#2A2A3A"
+  black: "#2A2A3A"
+  red: "#CC4455"
+  green: "#4A8A6A"
+  yellow: "#B87040"
+  blue: "#5A7AAA"
+  magenta: "#8A4A75"
+  cyan: "#4A8A8A"
+  white: "#7A7A8A"
+  brightBlack: "#5A5A6A"
+  brightRed: "#E8A0B4"
+  brightGreen: "#6AAA8A"
+  brightYellow: "#C89060"
+  brightBlue: "#7A9ABF"
+  brightMagenta: "#AA6A95"
+  brightCyan: "#6AACAC"
+  brightWhite: "#2A2A3A"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.1
+    black: 92.1
+    red: 62.6
+    green: 59.3
+    yellow: 57.2
+    blue: 61.6
+    magenta: 72.6
+    cyan: 58.2
+    white: 60.5
+    brightBlack: 74.7
+    brightRed: 31.8
+    brightGreen: 43.9
+    brightYellow: 44.5
+    brightBlue: 46.9
+    brightMagenta: 58.8
+    brightCyan: 41.9
+    brightWhite: 92.1

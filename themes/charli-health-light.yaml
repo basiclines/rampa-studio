@@ -1,0 +1,53 @@
+name: "CHARLI Health Light"
+source:
+  marketplace_id: "lucidlabs.charli-health-theme"
+  version: "1.5.0"
+  installs: 15
+  rating: 0
+  ratings: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.charli-health-theme"
+  formats: null
+colors:
+  bg: "#FFF6ED"
+  fg: "#58595B"
+  black: "#161220"
+  red: "#C0524A"
+  green: "#1B7264"
+  yellow: "#9E7520"
+  blue: "#1D76B8"
+  magenta: "#9E4470"
+  cyan: "#186B5E"
+  white: "#F0E8E0"
+  brightBlack: "#7A7A7A"
+  brightRed: "#B04840"
+  brightGreen: "#238577"
+  brightYellow: "#B88A30"
+  brightBlue: "#1D76B8"
+  brightMagenta: "#B0507E"
+  brightCyan: "#1B7264"
+  brightWhite: "#58595B"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "CHARLI Health Dark"
+  contrast:
+    fg: 79.7
+    black: 100.4
+    red: 66.8
+    green: 74
+    yellow: 64.1
+    blue: 68.5
+    magenta: 74.8
+    cyan: 76.7
+    white: 0
+    brightBlack: 65.1
+    brightRed: 72
+    brightGreen: 66.1
+    brightYellow: 53.5
+    brightBlue: 68.5
+    brightMagenta: 68.8
+    brightCyan: 74
+    brightWhite: 79.7

@@ -1,0 +1,53 @@
+name: "One Light Pro"
+source:
+  marketplace_id: "andrewm098.OneLight-Pro"
+  version: "1.0.1"
+  installs: 21021
+  rating: 5
+  ratings: 2
+  author: "andrewm098"
+  repo: "https://github.com/andrew-ma/One-Light-Pro"
+  url: "https://marketplace.visualstudio.com/items?itemName=andrewm098.OneLight-Pro"
+  formats: null
+colors:
+  bg: "#E4E0CC"
+  fg: "#111113"
+  black: "#24272D"
+  red: "#B3565D"
+  green: "#799C60"
+  yellow: "#B79962"
+  blue: "#4D8CBF"
+  magenta: "#9E60B0"
+  cyan: "#44919B"
+  white: "#ACAEB3"
+  brightBlack: "#656971"
+  brightRed: "#C33838"
+  brightGreen: "#799C60"
+  brightYellow: "#B79962"
+  brightBlue: "#416FCC"
+  brightMagenta: "#640078"
+  brightCyan: "#44919B"
+  brightWhite: "#ACAEB3"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 98
+  pair: "One Darker Pro"
+  contrast:
+    fg: 86.8
+    black: 83.3
+    red: 54.1
+    green: 39.6
+    yellow: 34
+    blue: 45
+    magenta: 51.9
+    cyan: 45.3
+    white: 25.2
+    brightBlack: 59
+    brightRed: 56.8
+    brightGreen: 39.6
+    brightYellow: 34
+    brightBlue: 54.5
+    brightMagenta: 76.1
+    brightCyan: 45.3
+    brightWhite: 25.2

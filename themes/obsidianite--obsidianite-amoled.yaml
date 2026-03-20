@@ -1,0 +1,53 @@
+name: "Obsidianite (Obsidianite AMOLED)"
+source:
+  marketplace_id: "shd0w.obsidianite-vscode"
+  version: "1.0.1"
+  installs: 6
+  rating: 0
+  ratings: 0
+  author: "shd0w"
+  repo: "https://github.com/shd0w/obsidianite-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=shd0w.obsidianite-vscode"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#BEBEBE"
+  black: "#000000"
+  red: "#F4569D"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#0FB6D6"
+  white: "#BEBEBE"
+  brightBlack: "#5C6370"
+  brightRed: "#FF79C6"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#5FD7FF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 67.5
+    black: 0
+    red: 44.1
+    green: 85.9
+    yellow: 99.6
+    blue: 52.7
+    magenta: 56.6
+    cyan: 55
+    white: 67.5
+    brightBlack: 21.6
+    brightRed: 55.6
+    brightGreen: 90
+    brightYellow: 104.5
+    brightBlue: 67.1
+    brightMagenta: 63.6
+    brightCyan: 74.1
+    brightWhite: 103

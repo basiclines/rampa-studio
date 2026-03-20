@@ -1,0 +1,53 @@
+name: "SenerDark Pro – Blue-Gray"
+source:
+  marketplace_id: "seneryty.senerdark"
+  version: "0.0.2"
+  installs: 25
+  rating: 0
+  ratings: 0
+  author: "seneryty"
+  repo: "https://github.com/SENERYTY-DEV/seneryty"
+  url: "https://marketplace.visualstudio.com/items?itemName=seneryty.senerdark"
+  formats: null
+colors:
+  bg: "#11171D"
+  fg: "#C9D1D9"
+  black: "#484F58"
+  red: "#FFA198"
+  green: "#7EE787"
+  yellow: "#FFA657"
+  blue: "#79C0FF"
+  magenta: "#FF7B72"
+  cyan: "#A5D6FF"
+  white: "#C9D1D9"
+  brightBlack: "#484F58"
+  brightRed: "#FFA198"
+  brightGreen: "#7EE787"
+  brightYellow: "#FFA657"
+  brightBlue: "#79C0FF"
+  brightMagenta: "#FF7B72"
+  brightCyan: "#A5D6FF"
+  brightWhite: "#C9D1D9"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 77.1
+    black: 12.6
+    red: 64.4
+    green: 77.6
+    yellow: 64.6
+    blue: 64.3
+    magenta: 52.1
+    cyan: 77.4
+    white: 77.1
+    brightBlack: 12.6
+    brightRed: 64.4
+    brightGreen: 77.6
+    brightYellow: 64.6
+    brightBlue: 64.3
+    brightMagenta: 52.1
+    brightCyan: 77.4
+    brightWhite: 77.1

@@ -1,0 +1,53 @@
+name: "Ozzy"
+source:
+  marketplace_id: "ozzy.ozzy"
+  version: "1.0.4"
+  installs: 661
+  rating: 5
+  ratings: 1
+  author: "ozzy"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ozzy.ozzy"
+  formats: null
+colors:
+  bg: "#252C34"
+  fg: "#EEFFFF"
+  black: "#2F2F2F"
+  red: "#FF4646"
+  green: "#00FF55"
+  yellow: "#FBD426"
+  blue: "#0099FF"
+  magenta: "#E625FF"
+  cyan: "#0369AD"
+  white: "#FEFEFE"
+  brightBlack: "#4B4B4B"
+  brightRed: "#FF5858"
+  brightGreen: "#76FF7B"
+  brightYellow: "#FFDE68"
+  brightBlue: "#97FFFF"
+  brightMagenta: "#FFA3F6"
+  brightCyan: "#00A7A7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 252
+  pair: null
+  contrast:
+    fg: 101.5
+    black: 0
+    red: 37.8
+    green: 82.8
+    yellow: 78.3
+    blue: 41.8
+    magenta: 37.5
+    cyan: 19.4
+    white: 103.1
+    brightBlack: 8.2
+    brightRed: 40.9
+    brightGreen: 86
+    brightYellow: 83.9
+    brightBlue: 92.7
+    brightMagenta: 66.1
+    brightCyan: 42.1
+    brightWhite: 103.8

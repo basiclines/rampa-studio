@@ -1,0 +1,53 @@
+name: "shiina"
+source:
+  marketplace_id: "yarnaimo.shiina-theme"
+  version: "0.1.3"
+  installs: 108
+  rating: 0
+  ratings: 0
+  author: "yamaimo"
+  repo: "https://github.com/yarnaimo/shiina"
+  url: "https://marketplace.visualstudio.com/items?itemName=yarnaimo.shiina-theme"
+  formats: null
+colors:
+  bg: "#F5F5F5"
+  fg: "#434E55"
+  black: "#434E55"
+  red: "#E53935"
+  green: "#39C2A0"
+  yellow: "#FFB62C"
+  blue: "#6182B8"
+  magenta: "#EE5F9B"
+  cyan: "#38AEC0"
+  white: "#FFFFFF"
+  brightBlack: "#90A4AE"
+  brightRed: "#E53935"
+  brightGreen: "#39C2A0"
+  brightYellow: "#FFB62C"
+  brightBlue: "#6182B8"
+  brightMagenta: "#EE5F9B"
+  brightCyan: "#38AEC0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83.4
+    black: 83.4
+    red: 61.7
+    green: 37.7
+    yellow: 25.8
+    blue: 60.3
+    magenta: 51.4
+    cyan: 45
+    white: 0
+    brightBlack: 44.7
+    brightRed: 61.7
+    brightGreen: 37.7
+    brightYellow: 25.8
+    brightBlue: 60.3
+    brightMagenta: 51.4
+    brightCyan: 45
+    brightWhite: 0

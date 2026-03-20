@@ -1,0 +1,53 @@
+name: "perfect-dark"
+source:
+  marketplace_id: "PerfectThings.perfect-dark"
+  version: "0.0.7"
+  installs: 760
+  rating: 5
+  ratings: 2
+  author: "Perfect Things"
+  repo: "https://github.com/perfect-things/vscode-perfect-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=PerfectThings.perfect-dark"
+  formats: null
+colors:
+  bg: "#292A2B"
+  fg: "#ABB2BF"
+  black: "#000000"
+  red: "#FF2C6D"
+  green: "#19F9D8"
+  yellow: "#FFB86C"
+  blue: "#45A9F9"
+  magenta: "#FF75B5"
+  cyan: "#B084EB"
+  white: "#CDCDCD"
+  brightBlack: "#757575"
+  brightRed: "#FF2C6D"
+  brightGreen: "#19F9D8"
+  brightYellow: "#FFCC95"
+  brightBlue: "#6FC1FF"
+  brightMagenta: "#FF9AC1"
+  brightCyan: "#BCAAFE"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 56.6
+    black: 0
+    red: 36.2
+    green: 83.4
+    yellow: 68.6
+    blue: 48.9
+    magenta: 50
+    cyan: 43.4
+    white: 72.5
+    brightBlack: 25.8
+    brightRed: 36.2
+    brightGreen: 83.4
+    brightYellow: 77.5
+    brightBlue: 61.2
+    brightMagenta: 60.8
+    brightCyan: 59
+    brightWhite: 87.8

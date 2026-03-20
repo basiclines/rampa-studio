@@ -1,0 +1,53 @@
+name: "Altearn"
+source:
+  marketplace_id: "Leirof.gunivers-theme"
+  version: "0.0.23"
+  installs: 568
+  rating: 5
+  ratings: 2
+  author: "Leirof"
+  repo: "https://github.com/Gunivers/VSC-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Leirof.gunivers-theme"
+  formats: null
+colors:
+  bg: "#F9F6F1"
+  fg: "#333333"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.5
+    black: 100.8
+    red: 68.8
+    green: 44
+    yellow: 52.7
+    blue: 80.9
+    magenta: 69.4
+    cyan: 55.4
+    white: 80.7
+    brightBlack: 73.5
+    brightRed: 68.8
+    brightGreen: 35.7
+    brightYellow: 35.7
+    brightBlue: 80.9
+    brightMagenta: 69.4
+    brightCyan: 55.4
+    brightWhite: 43.3

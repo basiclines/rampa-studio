@@ -1,0 +1,53 @@
+name: "Everforest Night Light Hard"
+source:
+  marketplace_id: "jarith.everforest-night-vscode"
+  version: "1.2.1"
+  installs: 165
+  rating: 0
+  ratings: 0
+  author: "jarith"
+  repo: "https://github.com/jarith/everforest-night-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=jarith.everforest-night-vscode"
+  formats: null
+colors:
+  bg: "#F3EBD2"
+  fg: "#4F5B62"
+  black: "#DED4BB"
+  red: "#AD3B4A"
+  green: "#47661B"
+  yellow: "#8C5A00"
+  blue: "#2E7099"
+  magenta: "#8F537F"
+  cyan: "#2C7459"
+  white: "#4F5B62"
+  brightBlack: "#525B50"
+  brightRed: "#AD3B4A"
+  brightGreen: "#47661B"
+  brightYellow: "#8C5A00"
+  brightBlue: "#2E7099"
+  brightMagenta: "#8F537F"
+  brightCyan: "#2C7459"
+  brightWhite: "#4F5B62"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 92
+  pair: "Everforest Night Medium"
+  contrast:
+    fg: 72.4
+    black: 10.6
+    red: 67.3
+    green: 70.7
+    yellow: 67.2
+    blue: 64.8
+    magenta: 66.3
+    cyan: 65.9
+    white: 72.4
+    brightBlack: 72.7
+    brightRed: 67.3
+    brightGreen: 70.7
+    brightYellow: 67.2
+    brightBlue: 64.8
+    brightMagenta: 66.3
+    brightCyan: 65.9
+    brightWhite: 72.4

@@ -1,0 +1,53 @@
+name: "Happy Dark"
+source:
+  marketplace_id: "lynnjinjie.vscode-happy-theme"
+  version: "0.2.1"
+  installs: 218
+  rating: 5
+  ratings: 1
+  author: "lynnjinjie"
+  repo: "https://github.com/lynnjinjie/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lynnjinjie.vscode-happy-theme"
+  formats: null
+colors:
+  bg: "#222222"
+  fg: "#DDDDDD"
+  black: "#1E1E1E"
+  red: "#E47474"
+  green: "#66B395"
+  yellow: "#E2C97E"
+  blue: "#7098D4"
+  magenta: "#B479C3"
+  cyan: "#6AB8C0"
+  white: "#EEEEEE"
+  brightBlack: "#1E1E1E"
+  brightRed: "#E47474"
+  brightGreen: "#66B395"
+  brightYellow: "#E2C97E"
+  brightBlue: "#7098D4"
+  brightMagenta: "#B479C3"
+  brightCyan: "#6AB8C0"
+  brightWhite: "#EEEEEE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 83.6
+    black: 0
+    red: 43.4
+    green: 50.8
+    yellow: 72.5
+    blue: 43.5
+    magenta: 39.7
+    cyan: 55
+    white: 94.3
+    brightBlack: 0
+    brightRed: 43.4
+    brightGreen: 50.8
+    brightYellow: 72.5
+    brightBlue: 43.5
+    brightMagenta: 39.7
+    brightCyan: 55
+    brightWhite: 94.3

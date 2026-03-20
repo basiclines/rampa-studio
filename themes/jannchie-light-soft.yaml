@@ -1,0 +1,53 @@
+name: "Jannchie Light Soft"
+source:
+  marketplace_id: "Jannchie.theme-jannchie"
+  version: "1.1.0"
+  installs: 78
+  rating: 5
+  ratings: 1
+  author: "Jannchie"
+  repo: "https://github.com/jannchie/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Jannchie.theme-jannchie"
+  formats: null
+colors:
+  bg: "#F1F0E9"
+  fg: "#393A34"
+  black: "#FFFFFF"
+  red: "#AB5959"
+  green: "#116E46"
+  yellow: "#998114"
+  blue: "#1D5E97"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#393A34"
+  brightBlack: "#4E4F47"
+  brightRed: "#AB5959"
+  brightGreen: "#116E46"
+  brightYellow: "#998114"
+  brightBlue: "#1D5E97"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#393A34"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Jannchie Dark Soft"
+  contrast:
+    fg: 87.4
+    black: 7.8
+    red: 64.4
+    green: 71.8
+    yellow: 56.4
+    blue: 73.9
+    magenta: 72
+    cyan: 54.4
+    white: 87.4
+    brightBlack: 79.6
+    brightRed: 64.4
+    brightGreen: 71.8
+    brightYellow: 56.4
+    brightBlue: 73.9
+    brightMagenta: 72
+    brightCyan: 54.4
+    brightWhite: 87.4

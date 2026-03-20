@@ -1,0 +1,53 @@
+name: "Funchosa Dark Theme"
+source:
+  marketplace_id: "funchosa.funchosa-dark"
+  version: "1.0.4"
+  installs: 37
+  rating: 0
+  ratings: 0
+  author: "Funchosa"
+  repo: "https://github.com/FunChosa/funchosa-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=funchosa.funchosa-dark"
+  formats: null
+colors:
+  bg: "#1F1D2E"
+  fg: "#E0DEF4"
+  black: "#26233A"
+  red: "#FF5555"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#BD93F9"
+  magenta: "#FF79C6"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#6E6A86"
+  brightRed: "#FF6E6E"
+  brightGreen: "#69FF94"
+  brightYellow: "#FFFFA5"
+  brightBlue: "#D6ACFF"
+  brightMagenta: "#FF92DF"
+  brightCyan: "#A4FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 289
+  pair: null
+  contrast:
+    fg: 86
+    black: 0
+    red: 42.4
+    green: 83.9
+    yellow: 97.6
+    blue: 52.7
+    magenta: 53.6
+    cyan: 83
+    white: 101
+    brightBlack: 24.2
+    brightRed: 47.8
+    brightGreen: 88.1
+    brightYellow: 102.6
+    brightBlue: 65.1
+    brightMagenta: 61.6
+    brightCyan: 95.8
+    brightWhite: 105.9

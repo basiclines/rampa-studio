@@ -1,0 +1,53 @@
+name: "Nachop Light"
+source:
+  marketplace_id: "nachop51.nachop-theme"
+  version: "2.0.0"
+  installs: 303
+  rating: 5
+  ratings: 1
+  author: "Nachop Peralta"
+  repo: "https://github.com/nachop51/nachop-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nachop51.nachop-theme"
+  formats: null
+colors:
+  bg: "#F5F3F5"
+  fg: "#5C6166"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#F0C758"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#FFEC80"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Nachop Dark"
+  contrast:
+    fg: 74.4
+    black: 85.8
+    red: 57.1
+    green: 34.1
+    yellow: 20.6
+    blue: 44.4
+    magenta: 54.8
+    cyan: 41.7
+    white: 12.6
+    brightBlack: 78.8
+    brightRed: 47.9
+    brightGreen: 18.5
+    brightYellow: 0
+    brightBlue: 30.9
+    brightMagenta: 43.8
+    brightCyan: 27
+    brightWhite: 0

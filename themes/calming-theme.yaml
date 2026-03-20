@@ -1,0 +1,53 @@
+name: "Calming Theme"
+source:
+  marketplace_id: "diff001a.calming-theme"
+  version: "1.0.1"
+  installs: 4038
+  rating: 5
+  ratings: 4
+  author: "diff001a"
+  repo: "https://github.com/diff001a/CalmingTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=diff001a.calming-theme"
+  formats: null
+colors:
+  bg: "#252A34"
+  fg: "#CFD3DC"
+  black: "#282936"
+  red: "#FC8A9F"
+  green: "#F7C280"
+  yellow: "#F4CE9F"
+  blue: "#85A2CD"
+  magenta: "#F99FB0"
+  cyan: "#9EB0CB"
+  white: "#CFD3DC"
+  brightBlack: "#626483"
+  brightRed: "#F87089"
+  brightGreen: "#F4CE9F"
+  brightYellow: "#F7C280"
+  brightBlue: "#85A2CD"
+  brightMagenta: "#F4C8CD"
+  brightCyan: "#9EB0CB"
+  brightWhite: "#CFD3DC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 76
+    black: 0
+    red: 54
+    green: 71.6
+    yellow: 76.8
+    blue: 47.2
+    magenta: 60.6
+    cyan: 55
+    white: 76
+    brightBlack: 19.4
+    brightRed: 45.7
+    brightGreen: 76.8
+    brightYellow: 71.6
+    brightBlue: 47.2
+    brightMagenta: 76
+    brightCyan: 55
+    brightWhite: 76

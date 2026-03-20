@@ -1,0 +1,53 @@
+name: "Smit Low Light"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#FFFFFF"
+  black: "#3D3D3D"
+  red: "#FF8080"
+  green: "#A8E6A0"
+  yellow: "#F5E096"
+  blue: "#9ED0FF"
+  magenta: "#E6B3FF"
+  cyan: "#A0E6E6"
+  white: "#F5F5F5"
+  brightBlack: "#707070"
+  brightRed: "#FFB3B3"
+  brightGreen: "#C8FFC0"
+  brightYellow: "#FFFFB3"
+  brightBlue: "#C0E0FF"
+  brightMagenta: "#FFD9FF"
+  brightCyan: "#C0FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106.5
+    black: 0
+    red: 53.4
+    green: 80.7
+    yellow: 86.9
+    blue: 73.7
+    magenta: 70.7
+    cyan: 82.6
+    white: 100
+    brightBlack: 26.1
+    brightRed: 71.2
+    brightGreen: 97.1
+    brightYellow: 103.6
+    brightBlue: 84.2
+    brightMagenta: 89.5
+    brightCyan: 99
+    brightWhite: 106.5

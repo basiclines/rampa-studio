@@ -1,0 +1,53 @@
+name: "Everforest (Everforest Light)"
+source:
+  marketplace_id: "sainnhe.everforest"
+  version: "0.3.0"
+  installs: 123297
+  rating: 5
+  ratings: 21
+  author: "sainnhe"
+  repo: "https://github.com/sainnhe/everforest-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=sainnhe.everforest"
+  formats: null
+colors:
+  bg: "#FDF6E3"
+  fg: "#5C6A72"
+  black: "#5C6A72"
+  red: "#F85552"
+  green: "#8DA101"
+  yellow: "#DFA000"
+  blue: "#3A94C5"
+  magenta: "#DF69BA"
+  cyan: "#35A77C"
+  white: "#939F91"
+  brightBlack: "#5C6A72"
+  brightRed: "#F85552"
+  brightGreen: "#8DA101"
+  brightYellow: "#DFA000"
+  brightBlue: "#3A94C5"
+  brightMagenta: "#DF69BA"
+  brightCyan: "#35A77C"
+  brightWhite: "#F4F0D9"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Everforest (Everforest Dark)"
+  contrast:
+    fg: 72.7
+    black: 72.7
+    red: 53.8
+    green: 49.9
+    yellow: 39.6
+    blue: 55.7
+    magenta: 51.7
+    cyan: 51.3
+    white: 48.1
+    brightBlack: 72.7
+    brightRed: 53.8
+    brightGreen: 49.9
+    brightYellow: 39.6
+    brightBlue: 55.7
+    brightMagenta: 51.7
+    brightCyan: 51.3
+    brightWhite: 0

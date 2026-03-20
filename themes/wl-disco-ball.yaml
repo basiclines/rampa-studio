@@ -1,0 +1,53 @@
+name: "WL-Disco Ball"
+source:
+  marketplace_id: "WatkinsLabs.disco-ball"
+  version: "1.0.1"
+  installs: 20
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.disco-ball"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#008000"
+  yellow: "#FFA500"
+  blue: "#C0C0C0"
+  magenta: "#808080"
+  cyan: "#C0C0C0"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#008000"
+  brightYellow: "#FFA500"
+  brightBlue: "#C0C0C0"
+  brightMagenta: "#808080"
+  brightCyan: "#C0C0C0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 27.1
+    yellow: 64.7
+    blue: 68.6
+    magenta: 34.8
+    cyan: 68.6
+    white: 107.9
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 27.1
+    brightYellow: 64.7
+    brightBlue: 68.6
+    brightMagenta: 34.8
+    brightCyan: 68.6
+    brightWhite: 107.9

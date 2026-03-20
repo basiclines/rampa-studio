@@ -1,0 +1,53 @@
+name: "shaughnessy-nanite-theme"
+source:
+  marketplace_id: "AbdulShabazz.shaughnessy-nanite-theme"
+  version: "0.0.1"
+  installs: 125
+  rating: 0
+  ratings: 0
+  author: "Abdul Shabazz"
+  repo: "https://github.com/AbdulShabaaz/shaughnessy-nanite-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AbdulShabazz.shaughnessy-nanite-theme"
+  formats: null
+colors:
+  bg: "#24292E"
+  fg: "#EEFFFF"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 102
+    black: 0
+    red: 44.1
+    green: 81.7
+    yellow: 76.4
+    blue: 53.4
+    magenta: 51.2
+    cyan: 75.7
+    white: 104.4
+    brightBlack: 8.4
+    brightRed: 44.1
+    brightGreen: 81.7
+    brightYellow: 76.4
+    brightBlue: 53.4
+    brightMagenta: 51.2
+    brightCyan: 75.7
+    brightWhite: 104.4

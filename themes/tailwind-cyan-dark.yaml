@@ -1,0 +1,53 @@
+name: "Tailwind Cyan Dark"
+source:
+  marketplace_id: "dlandman27.tailwind-themes"
+  version: "1.0.2"
+  installs: 85
+  rating: 0
+  ratings: 0
+  author: "Dylan Landman"
+  repo: "https://github.com/dlandman27/tailwind-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=dlandman27.tailwind-themes"
+  formats: null
+colors:
+  bg: "#164E63"
+  fg: "#CFFAFE"
+  black: "#155E75"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FACC15"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#22D3EE"
+  white: "#A5F3FC"
+  brightBlack: "#155E75"
+  brightRed: "#F87171"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FACC15"
+  brightBlue: "#60A5FA"
+  brightMagenta: "#C084FC"
+  brightCyan: "#22D3EE"
+  brightWhite: "#A5F3FC"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 227
+  pair: "Tailwind Cyan Light"
+  contrast:
+    fg: 86.6
+    black: 0
+    red: 36.3
+    green: 58.7
+    yellow: 66
+    blue: 39.6
+    magenta: 37.9
+    cyan: 56.8
+    white: 79
+    brightBlack: 0
+    brightRed: 36.3
+    brightGreen: 58.7
+    brightYellow: 66
+    brightBlue: 39.6
+    brightMagenta: 37.9
+    brightCyan: 56.8
+    brightWhite: 79

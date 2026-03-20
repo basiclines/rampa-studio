@@ -1,0 +1,53 @@
+name: "Aether Tidal"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#051419"
+  fg: "#C2D4D7"
+  black: "#304B4F"
+  red: "#E67681"
+  green: "#6CE6A1"
+  yellow: "#E0A568"
+  blue: "#5ECCE3"
+  magenta: "#EE789E"
+  cyan: "#63DEE7"
+  white: "#C2D4D7"
+  brightBlack: "#446669"
+  brightRed: "#ED8A94"
+  brightGreen: "#82EBAF"
+  brightYellow: "#E5B47D"
+  brightBlue: "#72D6EC"
+  brightMagenta: "#F28DAE"
+  brightCyan: "#78E4EC"
+  brightWhite: "#D6E2E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 221
+  pair: "Aether Zen"
+  contrast:
+    fg: 77.8
+    black: 10.2
+    red: 46.5
+    green: 77.1
+    yellow: 59.4
+    blue: 66.8
+    magenta: 49.5
+    cyan: 75.6
+    white: 77.8
+    brightBlack: 20.1
+    brightRed: 54
+    brightGreen: 81.3
+    brightYellow: 66.3
+    brightBlue: 72.9
+    brightMagenta: 56.7
+    brightCyan: 79.8
+    brightWhite: 87.1

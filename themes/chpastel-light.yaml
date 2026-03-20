@@ -1,0 +1,53 @@
+name: "CHPastel Light"
+source:
+  marketplace_id: "JakubGawlik.chpastel-vscode"
+  version: "4.0.2"
+  installs: 285
+  rating: 0
+  ratings: 0
+  author: "Jakub Gawlik"
+  repo: "https://github.com/caasi-dev/chpastel-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=JakubGawlik.chpastel-vscode"
+  formats: null
+colors:
+  bg: "#EEE8D5"
+  fg: "#898576"
+  black: "#EEE8D5"
+  red: "#814B49"
+  green: "#416644"
+  yellow: "#806731"
+  blue: "#326777"
+  magenta: "#6A4771"
+  cyan: "#326777"
+  white: "#898576"
+  brightBlack: "#EEE8D5"
+  brightRed: "#814B49"
+  brightGreen: "#416644"
+  brightYellow: "#806731"
+  brightBlue: "#326777"
+  brightMagenta: "#6A4771"
+  brightCyan: "#326777"
+  brightWhite: "#898576"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 92
+  pair: "CHPastel Dark"
+  contrast:
+    fg: 51
+    black: 0
+    red: 70.1
+    green: 68.7
+    yellow: 63.1
+    blue: 67.5
+    magenta: 72.8
+    cyan: 67.5
+    white: 51
+    brightBlack: 0
+    brightRed: 70.1
+    brightGreen: 68.7
+    brightYellow: 63.1
+    brightBlue: 67.5
+    brightMagenta: 72.8
+    brightCyan: 67.5
+    brightWhite: 51

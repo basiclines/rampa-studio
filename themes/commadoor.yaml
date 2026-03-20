@@ -1,0 +1,53 @@
+name: "commadoor"
+source:
+  marketplace_id: "CommadoorBooks.commadoor-theme"
+  version: "1.0.1"
+  installs: 36
+  rating: 0
+  ratings: 0
+  author: "Commadoor Books"
+  repo: "https://github.com/commadoor/commadoor-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=CommadoorBooks.commadoor-theme"
+  formats: null
+colors:
+  bg: "#E8D7C7"
+  fg: "#29261A"
+  black: "#29261A"
+  red: "#F03660"
+  green: "#6C7D0F"
+  yellow: "#944A00"
+  blue: "#0B7F99"
+  magenta: "#9B3D99"
+  cyan: "#186644"
+  white: "#69645A"
+  brightBlack: "#69645A"
+  brightRed: "#F03660"
+  brightGreen: "#6C7D0F"
+  brightYellow: "#944A00"
+  brightBlue: "#0B7F99"
+  brightMagenta: "#9B3D99"
+  brightCyan: "#186644"
+  brightWhite: "#29261A"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: 66
+  pair: "commadoor dark"
+  contrast:
+    fg: 80.2
+    black: 80.2
+    red: 42.9
+    green: 49.9
+    yellow: 59.8
+    blue: 50
+    magenta: 57.3
+    cyan: 61.9
+    white: 57.6
+    brightBlack: 57.6
+    brightRed: 42.9
+    brightGreen: 49.9
+    brightYellow: 59.8
+    brightBlue: 50
+    brightMagenta: 57.3
+    brightCyan: 61.9
+    brightWhite: 80.2

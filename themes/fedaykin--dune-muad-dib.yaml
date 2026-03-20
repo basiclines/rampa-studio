@@ -1,0 +1,53 @@
+name: "Fedaykin (Dune Muad'Dib)"
+source:
+  marketplace_id: "FedaykinDev.fedaykin-themes"
+  version: "1.0.2"
+  installs: 238
+  rating: 0
+  ratings: 0
+  author: "FedaykinDev"
+  repo: "https://github.com/btriapitsyn/fedaykin-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=FedaykinDev.fedaykin-themes"
+  formats: null
+colors:
+  bg: "#0F0E0C"
+  fg: "#E8E2D0"
+  black: "#0F0E0C"
+  red: "#D4A85C"
+  green: "#88B068"
+  yellow: "#4A9EFF"
+  blue: "#9B7AC4"
+  magenta: "#A08458"
+  cyan: "#C89C5C"
+  white: "#E8E2D0"
+  brightBlack: "#6E6858"
+  brightRed: "#D67E60"
+  brightGreen: "#7CA668"
+  brightYellow: "#E8A85C"
+  brightBlue: "#5CA8E8"
+  brightMagenta: "#B088D0"
+  brightCyan: "#6CBCE8"
+  brightWhite: "#F8F4E8"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.9
+    black: 0
+    red: 58.7
+    green: 52.9
+    yellow: 48.7
+    blue: 38.7
+    magenta: 38.4
+    cyan: 52.5
+    white: 88.9
+    brightBlack: 23.7
+    brightRed: 45.1
+    brightGreen: 47.7
+    brightYellow: 61.9
+    brightBlue: 51.8
+    brightMagenta: 46.5
+    brightCyan: 61
+    brightWhite: 100.3

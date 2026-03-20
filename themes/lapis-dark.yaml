@@ -1,0 +1,53 @@
+name: "Lapis Dark"
+source:
+  marketplace_id: "AlexBarnett.lapis-vscode"
+  version: "1.8.3"
+  installs: 5590
+  rating: 5
+  ratings: 5
+  author: "Alex Barnett"
+  repo: "https://github.com/aslbarnett/lapis-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexBarnett.lapis-vscode"
+  formats: null
+colors:
+  bg: "#15181E"
+  fg: "#D6E2FF"
+  black: "#2D3953"
+  red: "#FC83AB"
+  green: "#ABFC83"
+  yellow: "#FCD483"
+  blue: "#83ABFC"
+  magenta: "#D483FC"
+  cyan: "#83FCD4"
+  white: "#D6E2FF"
+  brightBlack: "#43547A"
+  brightRed: "#FC9CBC"
+  brightGreen: "#BCFC9C"
+  brightYellow: "#FCDC9C"
+  brightBlue: "#9CBCFC"
+  brightMagenta: "#DC9CFC"
+  brightCyan: "#9CFCDC"
+  brightWhite: "#D6E2FF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 264
+  pair: "Lapis Light"
+  contrast:
+    fg: 87.9
+    black: 0
+    red: 55.2
+    green: 91.4
+    yellow: 82.6
+    blue: 56.1
+    magenta: 52.4
+    cyan: 90.8
+    white: 87.9
+    brightBlack: 14.8
+    brightRed: 63.3
+    brightGreen: 93.5
+    brightYellow: 86.6
+    brightBlue: 65.1
+    brightMagenta: 61.2
+    brightCyan: 92.9
+    brightWhite: 87.9

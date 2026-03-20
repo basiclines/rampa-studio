@@ -1,0 +1,53 @@
+name: "SlateBlues"
+source:
+  marketplace_id: "MasterSJit.slateblues"
+  version: "1.0.1"
+  installs: 16
+  rating: 0
+  ratings: 0
+  author: "Master S Jit"
+  repo: "https://github.com/MasterSJit/slate-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MasterSJit.slateblues"
+  formats: null
+colors:
+  bg: "#232830"
+  fg: "#DCDFE4"
+  black: "#1E2229"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#D19A66"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  brightBlack: "#5C6370"
+  brightRed: "#E06C75"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#61AFEF"
+  brightMagenta: "#C678DD"
+  brightCyan: "#56B6C2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 83.7
+    black: 0
+    red: 39.7
+    green: 59.9
+    yellow: 50.3
+    blue: 52.3
+    magenta: 42.8
+    cyan: 52.2
+    white: 57
+    brightBlack: 18.2
+    brightRed: 39.7
+    brightGreen: 59.9
+    brightYellow: 68.2
+    brightBlue: 52.3
+    brightMagenta: 42.8
+    brightCyan: 52.2
+    brightWhite: 104.5

@@ -1,0 +1,53 @@
+name: "Paraíso (dark)"
+source:
+  marketplace_id: "treffynnon.paraiso-dark-vscode-theme"
+  version: "1.0.2"
+  installs: 220
+  rating: 0
+  ratings: 0
+  author: "treffynnon"
+  repo: "https://github.com/treffynnon/paraiso-dark-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=treffynnon.paraiso-dark-vscode-theme"
+  formats: null
+colors:
+  bg: "#2F1E2E"
+  fg: "#A39E9B"
+  black: "#2F1E2E"
+  red: "#EF6155"
+  green: "#48B685"
+  yellow: "#FEC418"
+  blue: "#06B6EF"
+  magenta: "#815BA4"
+  cyan: "#5BC4BF"
+  white: "#A39E9B"
+  brightBlack: "#776E71"
+  brightRed: "#EF6155"
+  brightGreen: "#48B685"
+  brightYellow: "#FEC418"
+  brightBlue: "#06B6EF"
+  brightMagenta: "#815BA4"
+  brightCyan: "#5BC4BF"
+  brightWhite: "#E7E9DB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 329
+  pair: null
+  contrast:
+    fg: 47.5
+    black: 0
+    red: 40.3
+    green: 49.9
+    yellow: 73.4
+    blue: 53.7
+    magenta: 22.8
+    cyan: 59.1
+    white: 47.5
+    brightBlack: 24.8
+    brightRed: 40.3
+    brightGreen: 49.9
+    brightYellow: 73.4
+    brightBlue: 53.7
+    brightMagenta: 22.8
+    brightCyan: 59.1
+    brightWhite: 89.9

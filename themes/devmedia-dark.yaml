@@ -1,0 +1,53 @@
+name: "DevMedia Dark"
+source:
+  marketplace_id: "joaomjbraga.devmedia-theme"
+  version: "1.1.0"
+  installs: 138
+  rating: 0
+  ratings: 0
+  author: "João M J Braga"
+  repo: "https://github.com/joaomjbraga/devmedia-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=joaomjbraga.devmedia-theme"
+  formats: null
+colors:
+  bg: "#1C1C1C"
+  fg: "#F0F2F7"
+  black: "#1A1A1A"
+  red: "#F47070"
+  green: "#82C020"
+  yellow: "#D4913A"
+  blue: "#21BAD6"
+  magenta: "#D4913A"
+  cyan: "#21BAD6"
+  white: "#D8DBE4"
+  brightBlack: "#484E58"
+  brightRed: "#F47070"
+  brightGreen: "#9CD633"
+  brightYellow: "#F0C060"
+  brightBlue: "#5FF5FF"
+  brightMagenta: "#D4913A"
+  brightCyan: "#5FF5FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: "DevMedia Light"
+  contrast:
+    fg: 97.7
+    black: 0
+    red: 46.4
+    green: 57.4
+    yellow: 48.9
+    blue: 55.3
+    magenta: 48.9
+    cyan: 55.3
+    white: 83.2
+    brightBlack: 11.7
+    brightRed: 46.4
+    brightGreen: 69.8
+    brightYellow: 71.2
+    brightBlue: 87
+    brightMagenta: 48.9
+    brightCyan: 87
+    brightWhite: 106.3

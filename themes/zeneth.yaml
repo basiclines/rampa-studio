@@ -1,0 +1,53 @@
+name: "Zeneth"
+source:
+  marketplace_id: "edan-m.theme-zeneth"
+  version: "1.0.1"
+  installs: 26
+  rating: 0
+  ratings: 0
+  author: "Edan M."
+  repo: "https://github.com/edanick/zeneth"
+  url: "https://marketplace.visualstudio.com/items?itemName=edan-m.theme-zeneth"
+  formats: null
+colors:
+  bg: "#080808"
+  fg: "#A5B1C2"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#B8F171"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 59.4
+    black: 0
+    red: 64.3
+    green: 91.8
+    yellow: 96.7
+    blue: 82.2
+    magenta: 75.7
+    cyan: 96.9
+    white: 75.6
+    brightBlack: 0
+    brightRed: 52.6
+    brightGreen: 87.7
+    brightYellow: 91.4
+    brightBlue: 63.1
+    brightMagenta: 51.2
+    brightCyan: 94.8
+    brightWhite: 107.8

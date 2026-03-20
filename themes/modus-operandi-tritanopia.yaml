@@ -1,0 +1,53 @@
+name: "Modus Operandi Tritanopia"
+source:
+  marketplace_id: "tukinami-seika.modus-t"
+  version: "0.0.1"
+  installs: 87
+  rating: 0
+  ratings: 0
+  author: "月波 清火"
+  repo: "https://github.com/tukinami/vscode-modus-t"
+  url: "https://marketplace.visualstudio.com/items?itemName=tukinami-seika.modus-t"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#A60000"
+  green: "#006800"
+  yellow: "#695500"
+  blue: "#0031A9"
+  magenta: "#721045"
+  cyan: "#005E8B"
+  white: "#A6A6A6"
+  brightBlack: "#595959"
+  brightRed: "#B21100"
+  brightGreen: "#00663F"
+  brightYellow: "#973300"
+  brightBlue: "#3548CF"
+  brightMagenta: "#531AB6"
+  brightCyan: "#005F5F"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 85.1
+    green: 83.7
+    yellow: 85
+    blue: 93
+    magenta: 94.5
+    cyan: 83.9
+    white: 47.9
+    brightBlack: 84.3
+    brightRed: 82.3
+    brightGreen: 83.9
+    brightYellow: 85.2
+    brightBlue: 83.7
+    brightMagenta: 90.8
+    brightCyan: 85.5
+    brightWhite: 0

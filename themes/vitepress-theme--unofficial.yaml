@@ -1,0 +1,53 @@
+name: "VitePress Theme (unofficial)"
+source:
+  marketplace_id: "zanfee.theme-vitepress"
+  version: "0.0.2"
+  installs: 691
+  rating: 0
+  ratings: 0
+  author: "Jan Fröhlich"
+  repo: "https://github.com/zanfee/vscode-theme-vitepress"
+  url: "https://marketplace.visualstudio.com/items?itemName=zanfee.theme-vitepress"
+  formats: null
+colors:
+  bg: "#1E1E20"
+  fg: "#FFFFF5"
+  black: "#000000"
+  red: "#F07178"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#F07178"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 105.6
+    black: 0
+    red: 45.7
+    green: 83.3
+    yellow: 78.1
+    blue: 55.1
+    magenta: 52.9
+    cyan: 77.4
+    white: 106
+    brightBlack: 25.6
+    brightRed: 45.7
+    brightGreen: 83.3
+    brightYellow: 78.1
+    brightBlue: 55.1
+    brightMagenta: 52.9
+    brightCyan: 77.4
+    brightWhite: 106

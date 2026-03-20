@@ -1,0 +1,53 @@
+name: "Pretstyle"
+source:
+  marketplace_id: "xPretti.pretstyle"
+  version: "1.0.2"
+  installs: 25
+  rating: 0
+  ratings: 0
+  author: "xPretti"
+  repo: "https://github.com/xPretti/pretstyle"
+  url: "https://marketplace.visualstudio.com/items?itemName=xPretti.pretstyle"
+  formats: null
+colors:
+  bg: "#1C2125"
+  fg: "#E1E4E8"
+  black: "#586069"
+  red: "#EA4A5A"
+  green: "#34D058"
+  yellow: "#FFEA7F"
+  blue: "#2188FF"
+  magenta: "#B392F0"
+  cyan: "#39C5CF"
+  white: "#D1D5DA"
+  brightBlack: "#959DA5"
+  brightRed: "#F97583"
+  brightGreen: "#85E89D"
+  brightYellow: "#FFEA7F"
+  brightBlue: "#79B8FF"
+  brightMagenta: "#B392F0"
+  brightCyan: "#56D4DD"
+  brightWhite: "#FAFBFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 88
+    black: 18
+    red: 35.8
+    green: 61.1
+    yellow: 91.6
+    blue: 37.8
+    magenta: 50.2
+    cyan: 59.7
+    white: 78.6
+    brightBlack: 46.6
+    brightRed: 48.6
+    brightGreen: 77.9
+    brightYellow: 91.6
+    brightBlue: 59.7
+    brightMagenta: 50.2
+    brightCyan: 68.2
+    brightWhite: 103

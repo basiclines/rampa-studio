@@ -1,0 +1,53 @@
+name: "Sunset Serenade"
+source:
+  marketplace_id: "kartoffelente.sunset-serenade"
+  version: "1.3.2"
+  installs: 130
+  rating: 4.5
+  ratings: 2
+  author: "Kartoffelente"
+  repo: "https://github.com/helheim0/sunset-serenade"
+  url: "https://marketplace.visualstudio.com/items?itemName=kartoffelente.sunset-serenade"
+  formats: null
+colors:
+  bg: "#FFFDF3"
+  fg: "#1C1B19"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#78E08F"
+  yellow: "#FF9F43"
+  blue: "#0A3D62"
+  magenta: "#F368E0"
+  cyan: "#60A3BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#B8E994"
+  brightYellow: "#FECA57"
+  brightBlue: "#3C6382"
+  brightMagenta: "#FF9FF3"
+  brightCyan: "#82CCDD"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.7
+    black: 104.7
+    red: 72.6
+    green: 26.6
+    yellow: 38
+    blue: 94.4
+    magenta: 49.8
+    cyan: 52.6
+    white: 84.6
+    brightBlack: 77.4
+    brightRed: 72.6
+    brightGreen: 17.5
+    brightYellow: 22.7
+    brightBlue: 80.2
+    brightMagenta: 32.5
+    brightCyan: 32.1
+    brightWhite: 47.1

@@ -1,0 +1,54 @@
+name: "Solarized+"
+source:
+  marketplace_id: "SzilardLeventeFarkas.solarizedplus"
+  version: "1.0.2"
+  installs: 4827
+  rating: 0
+  ratings: 0
+  author: "Szilard Levente Farkas"
+  repo: "https://github.com/CrHasher/SolarizedPlus"
+  url: "https://marketplace.visualstudio.com/items?itemName=SzilardLeventeFarkas.solarizedplus"
+  formats:
+    zed: "https://raw.githubusercontent.com/CrHasher/SolarizedPlus/master/themes/solarized.json"
+colors:
+  bg: "#002B36"
+  fg: "#839496"
+  black: "#324A4D"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#839496"
+  brightBlack: "#47686C"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#C1D4D7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 220
+  pair: null
+  contrast:
+    fg: 39.5
+    black: 0
+    red: 38.1
+    green: 74.5
+    yellow: 64.5
+    blue: 49.5
+    magenta: 43.2
+    cyan: 68.1
+    white: 39.5
+    brightBlack: 18.1
+    brightRed: 43.3
+    brightGreen: 76.7
+    brightYellow: 51.4
+    brightBlue: 54.8
+    brightMagenta: 55.5
+    brightCyan: 71.4
+    brightWhite: 74.9

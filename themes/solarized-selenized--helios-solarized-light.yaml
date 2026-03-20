@@ -1,0 +1,54 @@
+name: "Solarized & Selenized (Helios Solarized Light)"
+source:
+  marketplace_id: "santoso-wijaya.helios-selene"
+  version: "0.3.18"
+  installs: 3057
+  rating: 5
+  ratings: 4
+  author: "Santoso Wijaya"
+  repo: "https://github.com/santoso-wijaya/vscode-helios-selene"
+  url: "https://marketplace.visualstudio.com/items?itemName=santoso-wijaya.helios-selene"
+  formats:
+    zed: "https://raw.githubusercontent.com/santoso-wijaya/vscode-helios-selene/main/themes/Selenized_Dark-color-theme.json"
+colors:
+  bg: "#FFF6E3"
+  fg: "#566E76"
+  black: "#F0E7D5"
+  red: "#E0332E"
+  green: "#8D9800"
+  yellow: "#BB8801"
+  blue: "#008DD1"
+  magenta: "#F2579C"
+  cyan: "#1FA198"
+  white: "#637B82"
+  brightBlack: "#FFF6E3"
+  brightRed: "#CF4B15"
+  brightGreen: "#8D9800"
+  brightYellow: "#BB8801"
+  brightBlue: "#008DD1"
+  brightMagenta: "#5C73C4"
+  brightCyan: "#008DD1"
+  brightWhite: "#566E76"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Solarized & Selenized (Helios Solarized Dark)"
+  contrast:
+    fg: 71.9
+    black: 0
+    red: 64.5
+    green: 53.7
+    yellow: 53.5
+    blue: 58.6
+    magenta: 53
+    cyan: 53.5
+    white: 66.1
+    brightBlack: 0
+    brightRed: 65.2
+    brightGreen: 53.7
+    brightYellow: 53.5
+    brightBlue: 58.6
+    brightMagenta: 65.8
+    brightCyan: 58.6
+    brightWhite: 71.9

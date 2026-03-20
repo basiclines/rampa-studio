@@ -1,0 +1,53 @@
+name: "TodePond-Theme"
+source:
+  marketplace_id: "TodePond.TodePond-Theme"
+  version: "0.0.2"
+  installs: 132
+  rating: 0
+  ratings: 0
+  author: "TodePond"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=TodePond.TodePond-Theme"
+  formats: null
+colors:
+  bg: "#1F2736"
+  fg: "#FFCC00"
+  black: "#E0E0E0"
+  red: "#FF4646"
+  green: "#00FF80"
+  yellow: "#FFCC00"
+  blue: "#0080FF"
+  magenta: "#8080FF"
+  cyan: "#00FFFF"
+  white: "#E0E0E0"
+  brightBlack: "#5C6C8A"
+  brightRed: "#FF8000"
+  brightGreen: "#00FF80"
+  brightYellow: "#FFCC00"
+  brightBlue: "#0080FF"
+  brightMagenta: "#FF8080"
+  brightCyan: "#00FFFF"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 263
+  pair: null
+  contrast:
+    fg: 76.3
+    black: 84.6
+    red: 38.7
+    green: 84.3
+    yellow: 76.3
+    blue: 33.8
+    magenta: 38.8
+    cyan: 88.9
+    white: 84.6
+    brightBlack: 22.2
+    brightRed: 50
+    brightGreen: 84.3
+    brightYellow: 76.3
+    brightBlue: 33.8
+    brightMagenta: 51.5
+    brightCyan: 88.9
+    brightWhite: 84.6

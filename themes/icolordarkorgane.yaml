@@ -1,0 +1,53 @@
+name: "iColorDarkOrgane"
+source:
+  marketplace_id: "magnesium-007.i-colors"
+  version: "0.0.16"
+  installs: 156
+  rating: 0
+  ratings: 0
+  author: "magnesium"
+  repo: "https://github.com/yyong008/mg-iColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=magnesium-007.i-colors"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#FFC069"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 74.8
+    black: 0
+    red: 24.9
+    green: 53.3
+    yellow: 57.9
+    blue: 34.9
+    magenta: 32.5
+    cyan: 50.7
+    white: 88.8
+    brightBlack: 22.3
+    brightRed: 37.6
+    brightGreen: 77.3
+    brightYellow: 84.2
+    brightBlue: 50.1
+    brightMagenta: 46.8
+    brightCyan: 73.7
+    brightWhite: 102.2

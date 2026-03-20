@@ -1,0 +1,53 @@
+name: "TheDarkerOne"
+source:
+  marketplace_id: "ozguncagri.thedarkerone"
+  version: "0.0.4"
+  installs: 335
+  rating: 0
+  ratings: 0
+  author: "Özgün Çağrı AYDIN"
+  repo: "https://github.com/ozguncagri/TheDarkerOne"
+  url: "https://marketplace.visualstudio.com/items?itemName=ozguncagri.thedarkerone"
+  formats: null
+colors:
+  bg: "#0E0F11"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#E6E6E6"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60
+    black: 9.5
+    red: 37.4
+    green: 61
+    yellow: 49.2
+    blue: 50.3
+    magenta: 39.7
+    cyan: 53.1
+    white: 91.3
+    brightBlack: 16.1
+    brightRed: 46.7
+    brightGreen: 77.4
+    brightYellow: 61.9
+    brightBlue: 64.4
+    brightMagenta: 50.9
+    brightCyan: 68.4
+    brightWhite: 107.5

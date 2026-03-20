@@ -1,0 +1,53 @@
+name: "Galaxy Theme"
+source:
+  marketplace_id: "ArtikUSB.galaxy"
+  version: "0.0.21"
+  installs: 772
+  rating: 0
+  ratings: 0
+  author: "ArtikUSB"
+  repo: "https://github.com/ArtikUSB/galaxy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ArtikUSB.galaxy"
+  formats: null
+colors:
+  bg: "#191919"
+  fg: "#D4D4D4"
+  black: "#969696"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#7B6565"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.3
+    black: 44.4
+    red: 26.5
+    green: 52.8
+    yellow: 85.4
+    blue: 27.2
+    magenta: 29.5
+    cyan: 47.3
+    white: 89.8
+    brightBlack: 23.6
+    brightRed: 38.3
+    brightGreen: 63.3
+    brightYellow: 95.4
+    brightBlue: 39.8
+    brightMagenta: 45.2
+    brightCyan: 55.2
+    brightWhite: 89.8

@@ -1,0 +1,53 @@
+name: "Rainglow (darkside-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#E0E0E0"
+  fg: "#222324"
+  black: "#EDEDED"
+  red: "#BA0E2E"
+  green: "#15A2C1"
+  yellow: "#BF2713"
+  blue: "#4B8E30"
+  magenta: "#C1721D"
+  cyan: "#7B5BAF"
+  white: "#2E3031"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#50D0EC"
+  brightYellow: "#ED5E4B"
+  brightBlue: "#7BC85C"
+  brightMagenta: "#E7A45D"
+  brightCyan: "#B2A0D0"
+  brightWhite: "#545658"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (darkside-contrast)"
+  contrast:
+    fg: 84.5
+    black: 0
+    red: 62.1
+    green: 38.1
+    yellow: 60
+    blue: 49.1
+    magenta: 45.9
+    cyan: 58
+    white: 81.4
+    brightBlack: 18.2
+    brightRed: 45.7
+    brightGreen: 15.3
+    brightYellow: 41.6
+    brightBlue: 21.5
+    brightMagenta: 23.3
+    brightCyan: 28.6
+    brightWhite: 67.4

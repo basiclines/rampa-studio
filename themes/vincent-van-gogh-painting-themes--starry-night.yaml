@@ -1,0 +1,53 @@
+name: "Vincent van Gogh Painting Themes (Starry Night)"
+source:
+  marketplace_id: "XadillaX.van-gogh-paintings"
+  version: "1.0.0"
+  installs: 960
+  rating: 0
+  ratings: 0
+  author: "XadillaX"
+  repo: "https://github.com/XadillaX/vscode-mir2-colorscheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=XadillaX.van-gogh-paintings"
+  formats: null
+colors:
+  bg: "#626394"
+  fg: "#D9CD6C"
+  black: "#626394"
+  red: "#575761"
+  green: "#E9C53C"
+  yellow: "#B8CACD"
+  blue: "#989AA1"
+  magenta: "#353658"
+  cyan: "#B4C6A7"
+  white: "#C8BE72"
+  brightBlack: "#73728E"
+  brightRed: "#BAC23A"
+  brightGreen: "#B4C6A7"
+  brightYellow: "#B8CACD"
+  brightBlue: "#989AA1"
+  brightMagenta: "#353658"
+  brightCyan: "#B4C6A7"
+  brightWhite: "#D9CD6C"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: 282
+  pair: null
+  contrast:
+    fg: 50.5
+    black: 0
+    red: 0
+    green: 48.8
+    yellow: 48
+    blue: 23.3
+    magenta: 16.4
+    cyan: 44.3
+    white: 41.9
+    brightBlack: 0
+    brightRed: 41
+    brightGreen: 44.3
+    brightYellow: 48
+    brightBlue: 23.3
+    brightMagenta: 16.4
+    brightCyan: 44.3
+    brightWhite: 50.5

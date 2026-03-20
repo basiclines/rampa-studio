@@ -1,0 +1,53 @@
+name: "pg-slax"
+source:
+  marketplace_id: "brennacodes.plum-good-theme"
+  version: "0.8.0"
+  installs: 444
+  rating: 5
+  ratings: 1
+  author: "brennacodes"
+  repo: "https://github.com/brennacodes/plum_good_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=brennacodes.plum-good-theme"
+  formats: null
+colors:
+  bg: "#1A1D1F"
+  fg: "#CFC9B0"
+  black: "#2A2A2A"
+  red: "#BE1E1E"
+  green: "#10AB66"
+  yellow: "#CDB600"
+  blue: "#3360CB"
+  magenta: "#9F19CF"
+  cyan: "#12C0B8"
+  white: "#E0E0E0"
+  brightBlack: "#4D4D4D"
+  brightRed: "#FF1F1F"
+  brightGreen: "#19E68A"
+  brightYellow: "#FFE515"
+  brightBlue: "#478FFF"
+  brightMagenta: "#D150FF"
+  brightCyan: "#1AECE3"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72
+    black: 0
+    red: 21.2
+    green: 44.3
+    yellow: 61.2
+    blue: 22
+    magenta: 22
+    cyan: 56.4
+    white: 86.2
+    brightBlack: 11.4
+    brightRed: 36.5
+    brightGreen: 73.2
+    brightYellow: 88.8
+    brightBlue: 41.7
+    brightMagenta: 40.3
+    brightCyan: 79.5
+    brightWhite: 106.2

@@ -1,0 +1,53 @@
+name: "Moongate Theme Light"
+source:
+  marketplace_id: "yuelinghuashu.moongate-theme"
+  version: "2.1.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "yuelinghuashu"
+  repo: "https://github.com/yuelinghuashu/moongate-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=yuelinghuashu.moongate-theme"
+  formats: null
+colors:
+  bg: "#F9FAFB"
+  fg: "#1E293B"
+  black: "#1E293B"
+  red: "#B91C1C"
+  green: "#059669"
+  yellow: "#B45309"
+  blue: "#0284C7"
+  magenta: "#7E22CE"
+  cyan: "#0E7490"
+  white: "#F9FAFB"
+  brightBlack: "#64748B"
+  brightRed: "#DC2626"
+  brightGreen: "#10B981"
+  brightYellow: "#D97706"
+  brightBlue: "#2563EB"
+  brightMagenta: "#9333EA"
+  brightCyan: "#0891B2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: "Moongate Theme Dark"
+  contrast:
+    fg: 98.3
+    black: 98.3
+    red: 77.1
+    green: 61.5
+    yellow: 71
+    blue: 64.4
+    magenta: 79.7
+    cyan: 73.1
+    white: 0
+    brightBlack: 70
+    brightRed: 68.5
+    brightGreen: 46
+    brightYellow: 55.4
+    brightBlue: 71.8
+    brightMagenta: 72.5
+    brightCyan: 60.8
+    brightWhite: 0

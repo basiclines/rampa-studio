@@ -1,0 +1,53 @@
+name: "Jehuty Light"
+source:
+  marketplace_id: "Meastblue.orbital-frame"
+  version: "2.2.0"
+  installs: 66
+  rating: 0
+  ratings: 0
+  author: "Meastblue"
+  repo: "https://github.com/meastblue/orbital-frame-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Meastblue.orbital-frame"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#212529"
+  black: "#343A40"
+  red: "#C82333"
+  green: "#1E7E34"
+  yellow: "#E0A800"
+  blue: "#0056B3"
+  magenta: "#5A1A5A"
+  cyan: "#138496"
+  white: "#F8F9FA"
+  brightBlack: "#6C757D"
+  brightRed: "#DC3545"
+  brightGreen: "#28A745"
+  brightYellow: "#FFC107"
+  brightBlue: "#0D6EFD"
+  brightMagenta: "#6F42C1"
+  brightCyan: "#17A2B8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: "Jehuty Dark"
+  contrast:
+    fg: 102.4
+    black: 96.5
+    red: 76.2
+    green: 75
+    yellow: 41.9
+    blue: 83.6
+    magenta: 96.9
+    cyan: 70.1
+    white: 0
+    brightBlack: 72.6
+    brightRed: 69.9
+    brightGreen: 57.9
+    brightYellow: 27.8
+    brightBlue: 70.3
+    brightMagenta: 81.7
+    brightCyan: 56.8
+    brightWhite: 0

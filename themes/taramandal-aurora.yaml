@@ -1,0 +1,53 @@
+name: "TaraMandal Aurora"
+source:
+  marketplace_id: "ramoniswack.taramandal"
+  version: "0.0.5"
+  installs: 45
+  rating: 5
+  ratings: 1
+  author: "Ramohan Tiwari"
+  repo: "https://github.com/Ramoniswack/TaraMandal-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ramoniswack.taramandal"
+  formats: null
+colors:
+  bg: "#030C10"
+  fg: "#E2F3EA"
+  black: "#0C1F1A"
+  red: "#F78A78"
+  green: "#67F0AE"
+  yellow: "#FFDA9E"
+  blue: "#9EBCFF"
+  magenta: "#BDA9FF"
+  cyan: "#32F0B3"
+  white: "#E2F3EA"
+  brightBlack: "#7B8C84"
+  brightRed: "#F9A499"
+  brightGreen: "#95FFD5"
+  brightYellow: "#FFE6BE"
+  brightBlue: "#BFD5FF"
+  brightMagenta: "#D5C9FF"
+  brightCyan: "#5DFFD0"
+  brightWhite: "#F5FDF9"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 223
+  pair: null
+  contrast:
+    fg: 97.1
+    black: 0
+    red: 55.5
+    green: 82.7
+    yellow: 87.2
+    blue: 66.4
+    magenta: 62.4
+    cyan: 81.3
+    white: 97.1
+    brightBlack: 38.5
+    brightRed: 65.1
+    brightGreen: 94.5
+    brightYellow: 93.5
+    brightBlue: 80.4
+    brightMagenta: 78
+    brightCyan: 91.3
+    brightWhite: 105.1

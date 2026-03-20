@@ -1,0 +1,53 @@
+name: "PipBoy Theme"
+source:
+  marketplace_id: "smv7.pipboy-theme"
+  version: "0.1.0"
+  installs: 1811
+  rating: 5
+  ratings: 1
+  author: "smv7"
+  repo: "https://github.com/smv7/pipboy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=smv7.pipboy-theme"
+  formats: null
+colors:
+  bg: "#04210F"
+  fg: "#3DE289"
+  black: "#3DE289"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#144A2D"
+  brightBlack: "#144A2D"
+  brightRed: "#F14C4C"
+  brightGreen: "#3DE289"
+  brightYellow: "#3DE289"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 153
+  pair: null
+  contrast:
+    fg: 71.6
+    black: 71.6
+    red: 26
+    green: 52.3
+    yellow: 84.9
+    blue: 26.7
+    magenta: 29.1
+    cyan: 46.9
+    white: 0
+    brightBlack: 0
+    brightRed: 37.9
+    brightGreen: 71.6
+    brightYellow: 71.6
+    brightBlue: 39.3
+    brightMagenta: 44.7
+    brightCyan: 54.7
+    brightWhite: 89.3

@@ -1,0 +1,53 @@
+name: "Nox04 Theme"
+source:
+  marketplace_id: "Nox04.nox04-theme"
+  version: "0.3.0"
+  installs: 44
+  rating: 0
+  ratings: 0
+  author: "Nox04"
+  repo: "https://github.com/Nox04/nox-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Nox04.nox04-theme"
+  formats: null
+colors:
+  bg: "#1B1E28"
+  fg: "#A6ACCD"
+  black: "#1B1E28"
+  red: "#CF4C53"
+  green: "#5DE4C7"
+  yellow: "#FFFAC2"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#A6ACCD"
+  brightRed: "#CF4C53"
+  brightGreen: "#5DE4C7"
+  brightYellow: "#FFFAC2"
+  brightBlue: "#A695FC"
+  brightMagenta: "#F087BD"
+  brightCyan: "#A695FC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 272
+  pair: null
+  contrast:
+    fg: 56.3
+    black: 0
+    red: 30.4
+    green: 75.5
+    yellow: 101.1
+    blue: 77.4
+    magenta: 54
+    cyan: 77.4
+    white: 106
+    brightBlack: 56.3
+    brightRed: 30.4
+    brightGreen: 75.5
+    brightYellow: 101.1
+    brightBlue: 50.7
+    brightMagenta: 54
+    brightCyan: 50.7
+    brightWhite: 106

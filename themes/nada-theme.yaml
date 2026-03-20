@@ -1,0 +1,53 @@
+name: "Nada Theme"
+source:
+  marketplace_id: "nada.nada"
+  version: "1.16.0"
+  installs: 5882
+  rating: 5
+  ratings: 4
+  author: "Adan Perez"
+  repo: "https://github.com/adanperez/nada-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nada.nada"
+  formats: null
+colors:
+  bg: "#212733"
+  fg: "#D9D7CE"
+  black: "#1B1B1C"
+  red: "#AD6371"
+  green: "#50CB54"
+  yellow: "#C78630"
+  blue: "#77A0BC"
+  magenta: "#908EB9"
+  cyan: "#1D9383"
+  white: "#C5C8C5"
+  brightBlack: "#676767"
+  brightRed: "#FF6D67"
+  brightGreen: "#5FF967"
+  brightYellow: "#E8C575"
+  brightBlue: "#6871FF"
+  brightMagenta: "#FF76FF"
+  brightCyan: "#5FFDFF"
+  brightWhite: "#FEFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 28.3
+    green: 58.4
+    yellow: 41.4
+    blue: 45
+    magenta: 40.4
+    cyan: 33.5
+    white: 69.5
+    brightBlack: 20.2
+    brightRed: 46.2
+    brightGreen: 82.3
+    brightYellow: 70.7
+    brightBlue: 32.4
+    brightMagenta: 55
+    brightCyan: 89.4
+    brightWhite: 104.5

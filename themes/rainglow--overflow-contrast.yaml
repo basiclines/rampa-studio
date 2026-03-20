@@ -1,0 +1,53 @@
+name: "Rainglow (overflow-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#14181C"
+  fg: "#AEB9C4"
+  black: "#1F252B"
+  red: "#BA0E2E"
+  green: "#FE532C"
+  yellow: "#B0CA48"
+  blue: "#1F9AA8"
+  magenta: "#FE532C"
+  cyan: "#B0CA48"
+  white: "#BDC6CF"
+  brightBlack: "#3F4B57"
+  brightRed: "#F03E5F"
+  brightGreen: "#FEA692"
+  brightYellow: "#D2E197"
+  brightBlue: "#4FD0DE"
+  brightMagenta: "#FEA692"
+  brightCyan: "#D2E197"
+  brightWhite: "#E9ECEF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  pair: "Rainglow (overflow-light)"
+  contrast:
+    fg: 62.7
+    black: 0
+    red: 20.4
+    green: 42.3
+    yellow: 67
+    blue: 40
+    magenta: 42.3
+    cyan: 67
+    white: 70.4
+    brightBlack: 10.8
+    brightRed: 36.7
+    brightGreen: 65.6
+    brightYellow: 82.9
+    brightBlue: 67.3
+    brightMagenta: 65.6
+    brightCyan: 82.9
+    brightWhite: 94.1

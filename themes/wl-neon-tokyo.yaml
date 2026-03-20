@@ -1,0 +1,53 @@
+name: "WL-Neon Tokyo"
+source:
+  marketplace_id: "WatkinsLabs.neon-tokyo"
+  version: "1.0.1"
+  installs: 63
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.neon-tokyo"
+  formats: null
+colors:
+  bg: "#1A1A2E"
+  fg: "#E0E0E0"
+  black: "#000000"
+  red: "#FF414D"
+  green: "#4CD137"
+  yellow: "#FF9F43"
+  blue: "#6639A6"
+  magenta: "#E94560"
+  cyan: "#6639A6"
+  white: "#E0E0E0"
+  brightBlack: "#666666"
+  brightRed: "#FF414D"
+  brightGreen: "#4CD137"
+  brightYellow: "#FF9F43"
+  brightBlue: "#6639A6"
+  brightMagenta: "#E94560"
+  brightCyan: "#6639A6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 283
+  pair: null
+  contrast:
+    fg: 86.3
+    black: 0
+    red: 39.8
+    green: 62.4
+    yellow: 61.4
+    blue: 14
+    magenta: 35.5
+    cyan: 14
+    white: 86.3
+    brightBlack: 21.4
+    brightRed: 39.8
+    brightGreen: 62.4
+    brightYellow: 61.4
+    brightBlue: 14
+    brightMagenta: 35.5
+    brightCyan: 14
+    brightWhite: 106.3

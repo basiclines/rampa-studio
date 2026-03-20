@@ -1,0 +1,53 @@
+name: "Sleepy Owl - Oak (Beta)"
+source:
+  marketplace_id: "santosned.theme-sleepy-owl"
+  version: "0.90.1"
+  installs: 93
+  rating: 0
+  ratings: 0
+  author: "Sleepy Owl Theme"
+  repo: "https://github.com/santosned/vsc-sleepy-owl-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=santosned.theme-sleepy-owl"
+  formats: null
+colors:
+  bg: "#29292F"
+  fg: "#C8C8CD"
+  black: "#0C0A12"
+  red: "#E86074"
+  green: "#A4D860"
+  yellow: "#E8BE56"
+  blue: "#5A84E8"
+  magenta: "#A484E8"
+  cyan: "#20C4E8"
+  white: "#E1E1E6"
+  brightBlack: "#787880"
+  brightRed: "#E88484"
+  brightGreen: "#AEE0A4"
+  brightYellow: "#E8E090"
+  brightBlue: "#96B4FF"
+  brightMagenta: "#E090E0"
+  brightCyan: "#64DAD2"
+  brightWhite: "#F5F5FF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 286
+  pair: null
+  contrast:
+    fg: 69.8
+    black: 0
+    red: 38.3
+    green: 69.8
+    yellow: 66.9
+    blue: 35
+    magenta: 41.8
+    cyan: 58.6
+    white: 85
+    brightBlack: 27.6
+    brightRed: 47.7
+    brightGreen: 76.1
+    brightYellow: 82.5
+    brightBlue: 58.8
+    brightMagenta: 53.8
+    brightCyan: 69.6
+    brightWhite: 98

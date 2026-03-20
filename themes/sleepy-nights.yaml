@@ -1,0 +1,53 @@
+name: "sleepy-nights"
+source:
+  marketplace_id: "deformal.sleepy-nights"
+  version: "0.0.2"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "saurabh jainwal"
+  repo: "https://github.com/deformal/sleepy-nights"
+  url: "https://marketplace.visualstudio.com/items?itemName=deformal.sleepy-nights"
+  formats: null
+colors:
+  bg: "#21252B"
+  fg: "#DFD0B8"
+  black: "#1D2129"
+  red: "#E85D5D"
+  green: "#8A9D7A"
+  yellow: "#C8B898"
+  blue: "#7A9DAD"
+  magenta: "#A88D9D"
+  cyan: "#7A9D9D"
+  white: "#DFD0B8"
+  brightBlack: "#4A4E56"
+  brightRed: "#F88D8D"
+  brightGreen: "#A8BD9A"
+  brightYellow: "#E8D8B8"
+  brightBlue: "#9ABDCD"
+  brightMagenta: "#C8ADBD"
+  brightCyan: "#9ABDBD"
+  brightWhite: "#F8F0D8"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 76.3
+    black: 0
+    red: 38
+    green: 43.3
+    yellow: 62.1
+    blue: 43.7
+    magenta: 42
+    cyan: 43
+    white: 76.3
+    brightBlack: 10.5
+    brightRed: 54.5
+    brightGreen: 60.3
+    brightYellow: 81
+    brightBlue: 61
+    brightMagenta: 59.1
+    brightCyan: 60.2
+    brightWhite: 95.3

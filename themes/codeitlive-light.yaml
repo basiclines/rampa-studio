@@ -1,0 +1,53 @@
+name: "CodeItLive - Light"
+source:
+  marketplace_id: "EdCharbeneau.codeitlivetheme"
+  version: "2.0.0"
+  installs: 576
+  rating: 5
+  ratings: 2
+  author: "Ed Charbeneau"
+  repo: "https://github.com/EdCharbeneau/CodeItLive-vstheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EdCharbeneau.codeitlivetheme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#F4364C"
+  green: "#2CC84D"
+  yellow: "#FF9133"
+  blue: "#0051D3"
+  magenta: "#BC05BC"
+  cyan: "#00797C"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#FF6279"
+  brightGreen: "#50DD50"
+  brightYellow: "#FFE600"
+  brightBlue: "#006AE8"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0AA39F"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "CodeItLive"
+  contrast:
+    fg: 106
+    black: 106
+    red: 64.1
+    green: 43.1
+    yellow: 43.8
+    blue: 82.1
+    magenta: 74.6
+    cyan: 75.3
+    white: 85.9
+    brightBlack: 78.8
+    brightRed: 54.3
+    brightGreen: 32.3
+    brightYellow: 13
+    brightBlue: 73.5
+    brightMagenta: 74.6
+    brightCyan: 57.5
+    brightWhite: 48.5

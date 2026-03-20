@@ -1,0 +1,53 @@
+name: "Darkly"
+source:
+  marketplace_id: "AyushL.darkly-theme"
+  version: "1.1.8"
+  installs: 927
+  rating: 5
+  ratings: 1
+  author: "Ayush Lal"
+  repo: "https://github.com/ayush-lal/darkly-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=AyushL.darkly-theme"
+  formats: null
+colors:
+  bg: "#212337"
+  fg: "#AAB3E5"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFDB8E"
+  blue: "#65BCFF"
+  magenta: "#C099FF"
+  cyan: "#86E1FC"
+  white: "#C3CDEE"
+  brightBlack: "#7C85B3"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFDB8E"
+  brightBlue: "#65BCFF"
+  brightMagenta: "#C099FF"
+  brightCyan: "#86E1FC"
+  brightWhite: "#C3CDEE"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 59.8
+    black: 0
+    red: 41.8
+    green: 82.3
+    yellow: 84.6
+    blue: 59.5
+    magenta: 54.6
+    cyan: 77.9
+    white: 73.8
+    brightBlack: 35.4
+    brightRed: 41.8
+    brightGreen: 82.3
+    brightYellow: 84.6
+    brightBlue: 59.5
+    brightMagenta: 54.6
+    brightCyan: 77.9
+    brightWhite: 73.8

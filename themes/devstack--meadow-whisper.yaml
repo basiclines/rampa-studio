@@ -1,0 +1,53 @@
+name: "DevStack (Meadow-Whisper)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#1A1512"
+  fg: "#E9D4B3"
+  black: "#1A1512"
+  red: "#F9281D"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#8A906D"
+  magenta: "#8A906D"
+  cyan: "#29C3A0"
+  white: "#E9D4B3"
+  brightBlack: "#1A1512"
+  brightRed: "#F9281D"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#8A906D"
+  brightMagenta: "#8A906D"
+  brightCyan: "#29C3A0"
+  brightWhite: "#E9D4B3"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 53
+  pair: null
+  contrast:
+    fg: 81.2
+    black: 0
+    red: 36.2
+    green: 57.7
+    yellow: 51.8
+    blue: 40
+    magenta: 40
+    cyan: 57.7
+    white: 81.2
+    brightBlack: 0
+    brightRed: 36.2
+    brightGreen: 57.7
+    brightYellow: 51.8
+    brightBlue: 40
+    brightMagenta: 40
+    brightCyan: 57.7
+    brightWhite: 81.2

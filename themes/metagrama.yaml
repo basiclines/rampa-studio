@@ -1,0 +1,53 @@
+name: "Metagrama"
+source:
+  marketplace_id: "Zentropia.theme-metagrama"
+  version: "1.0.0"
+  installs: 320
+  rating: 0
+  ratings: 0
+  author: "Zentropia"
+  repo: "https://github.com/zentropia/vscode-theme-metagrama"
+  url: "https://marketplace.visualstudio.com/items?itemName=Zentropia.theme-metagrama"
+  formats: null
+colors:
+  bg: "#FFFAF4"
+  fg: "#282828"
+  black: "#282828"
+  red: "#9D0006"
+  green: "#79740E"
+  yellow: "#B57614"
+  blue: "#076678"
+  magenta: "#8F3F71"
+  cyan: "#427B58"
+  white: "#928374"
+  brightBlack: "#7C6F64"
+  brightRed: "#CC241D"
+  brightGreen: "#98971A"
+  brightYellow: "#D79921"
+  brightBlue: "#458588"
+  brightMagenta: "#B16286"
+  brightCyan: "#689D6A"
+  brightWhite: "#A89984"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99
+    black: 99
+    red: 84.4
+    green: 71
+    yellow: 62.4
+    blue: 79.6
+    magenta: 80.1
+    cyan: 71.8
+    white: 61.7
+    brightBlack: 71.2
+    brightRed: 72.8
+    brightGreen: 55.2
+    brightYellow: 45.9
+    brightBlue: 66.5
+    brightMagenta: 66.3
+    brightCyan: 56.2
+    brightWhite: 51

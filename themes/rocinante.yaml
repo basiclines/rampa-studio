@@ -1,0 +1,53 @@
+name: "Rocinante"
+source:
+  marketplace_id: "A-Abra.Rocinante"
+  version: "1.0.0"
+  installs: 81
+  rating: 0
+  ratings: 0
+  author: "A-Abra"
+  repo: "https://github.com/A-Abra/rocinante-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=A-Abra.Rocinante"
+  formats: null
+colors:
+  bg: "#1A1B26"
+  fg: "#FFD34E"
+  black: "#494C71"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 81.3
+    black: 12.2
+    red: 26.2
+    green: 52.5
+    yellow: 85.1
+    blue: 26.9
+    magenta: 29.2
+    cyan: 47
+    white: 89.5
+    brightBlack: 21.5
+    brightRed: 38
+    brightGreen: 63
+    brightYellow: 95.1
+    brightBlue: 39.5
+    brightMagenta: 44.8
+    brightCyan: 54.9
+    brightWhite: 89.5

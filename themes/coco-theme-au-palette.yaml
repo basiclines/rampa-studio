@@ -1,0 +1,53 @@
+name: "coco-theme-AU-palette"
+source:
+  marketplace_id: "Kifzuka.coco"
+  version: "16.1.2"
+  installs: 651
+  rating: 5
+  ratings: 1
+  author: "Kifzuka"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Kifzuka.coco"
+  formats: null
+colors:
+  bg: "#130F40"
+  fg: "#C7ECEE"
+  black: "#BE2EDD"
+  red: "#EB4D4B"
+  green: "#6AB04C"
+  yellow: "#F9CA24"
+  blue: "#22A6B3"
+  magenta: "#E056FD"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#BE2EDD"
+  brightRed: "#FF7979"
+  brightGreen: "#6AB04C"
+  brightYellow: "#F9CA24"
+  brightBlue: "#22A6B3"
+  brightMagenta: "#E056FD"
+  brightCyan: "#80FCFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 279
+  pair: null
+  contrast:
+    fg: 89.8
+    black: 30.4
+    red: 37.1
+    green: 49.3
+    yellow: 76.6
+    blue: 45.3
+    magenta: 44.3
+    cyan: 92.5
+    white: 106.6
+    brightBlack: 30.4
+    brightRed: 51.5
+    brightGreen: 49.3
+    brightYellow: 76.6
+    brightBlue: 45.3
+    brightMagenta: 44.3
+    brightCyan: 92.5
+    brightWhite: 106.6

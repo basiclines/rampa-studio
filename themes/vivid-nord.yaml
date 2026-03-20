@@ -1,0 +1,53 @@
+name: "Vivid Nord"
+source:
+  marketplace_id: "stnord.vivid-nord"
+  version: "3.0.0"
+  installs: 1128
+  rating: 0
+  ratings: 0
+  author: "stnord"
+  repo: "https://github.com/LyonAlpha/vivid-nord"
+  url: "https://marketplace.visualstudio.com/items?itemName=stnord.vivid-nord"
+  formats: null
+colors:
+  bg: "#334055"
+  fg: "#CDC4C4"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 62.5
+    black: 9.6
+    red: 18.1
+    green: 44.4
+    yellow: 77
+    blue: 18.8
+    magenta: 21.2
+    cyan: 39
+    white: 81.4
+    brightBlack: 13.4
+    brightRed: 30
+    brightGreen: 54.9
+    brightYellow: 87
+    brightBlue: 31.4
+    brightMagenta: 36.8
+    brightCyan: 46.8
+    brightWhite: 81.4

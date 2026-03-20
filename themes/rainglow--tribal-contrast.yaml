@@ -1,0 +1,53 @@
+name: "Rainglow (tribal-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#19191D"
+  fg: "#FFFFFF"
+  black: "#25252B"
+  red: "#BA0E2E"
+  green: "#C43535"
+  yellow: "#5F5582"
+  blue: "#E0DDEB"
+  magenta: "#5F5582"
+  cyan: "#8F8AA2"
+  white: "#FFFFFF"
+  brightBlack: "#484854"
+  brightRed: "#F03E5F"
+  brightGreen: "#DD8282"
+  brightYellow: "#938AB3"
+  brightBlue: "#FFFFFF"
+  brightMagenta: "#938AB3"
+  brightCyan: "#C5C3CF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (tribal-light)"
+  contrast:
+    fg: 106.6
+    black: 0
+    red: 20.2
+    green: 25
+    yellow: 17.4
+    blue: 85.8
+    magenta: 17.4
+    cyan: 39.8
+    white: 106.6
+    brightBlack: 10.3
+    brightRed: 36.5
+    brightGreen: 47.5
+    brightYellow: 41.1
+    brightBlue: 106.6
+    brightMagenta: 41.1
+    brightCyan: 69.9
+    brightWhite: 106.6

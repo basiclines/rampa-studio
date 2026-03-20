@@ -1,0 +1,53 @@
+name: "Earth Collection"
+source:
+  marketplace_id: "RLabsInc.rlabs-theme-collection"
+  version: "0.1.4"
+  installs: 181
+  rating: 0
+  ratings: 0
+  author: "RLabs Inc."
+  repo: "https://github.com/rodrigoluglio/rlabs-themes-collection"
+  url: "https://marketplace.visualstudio.com/items?itemName=RLabsInc.rlabs-theme-collection"
+  formats: null
+colors:
+  bg: "#161312"
+  fg: "#F7F6F5"
+  black: "#292929"
+  red: "#FF7575"
+  green: "#88A881"
+  yellow: "#FFB794"
+  blue: "#7BBFFF"
+  magenta: "#9B7AB9"
+  cyan: "#76A9AC"
+  white: "#F7F6F5"
+  brightBlack: "#BBB9B6"
+  brightRed: "#FF7575"
+  brightGreen: "#DAF8D4"
+  brightYellow: "#FFEABB"
+  brightBlue: "#AFD8FF"
+  brightMagenta: "#C096E7"
+  brightCyan: "#A5D2D4"
+  brightWhite: "#C9C7C6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.3
+    black: 0
+    red: 50.9
+    green: 49.8
+    yellow: 72.3
+    blue: 64.2
+    magenta: 37.7
+    cyan: 50.3
+    white: 101.3
+    brightBlack: 64
+    brightRed: 50.9
+    brightGreen: 97.1
+    brightYellow: 94.7
+    brightBlue: 79.5
+    brightMagenta: 54.2
+    brightCyan: 73.6
+    brightWhite: 72.2

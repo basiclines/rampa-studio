@@ -1,0 +1,53 @@
+name: "eiji-otieno-theme"
+source:
+  marketplace_id: "EijiOtieno1699.eiji-otieno-theme"
+  version: "0.0.2"
+  installs: 35
+  rating: 0
+  ratings: 0
+  author: "Eiji Otieno"
+  repo: "https://github.com/eiji-otieno/eiji-otieno-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=EijiOtieno1699.eiji-otieno-theme"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF002B"
+  green: "#99FF00"
+  yellow: "#FFA600"
+  blue: "#0051FF"
+  magenta: "#9900FF"
+  cyan: "#00B7FF"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#FF002B"
+  brightGreen: "#707070"
+  brightYellow: "#FFA600"
+  brightBlue: "#00E1FF"
+  brightMagenta: "#9900FF"
+  brightCyan: "#00B7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.1
+    black: 0
+    red: 36.9
+    green: 90.7
+    yellow: 64.3
+    blue: 23.4
+    magenta: 26
+    cyan: 57.2
+    white: 107.1
+    brightBlack: 11.2
+    brightRed: 36.9
+    brightGreen: 26.7
+    brightYellow: 64.3
+    brightBlue: 76.4
+    brightMagenta: 26
+    brightCyan: 57.2
+    brightWhite: 107.1

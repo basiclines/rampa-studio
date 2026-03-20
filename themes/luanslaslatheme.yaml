@@ -1,0 +1,53 @@
+name: "LuanSlaSlaTheme"
+source:
+  marketplace_id: "LuanThierry.luanslasla-theme"
+  version: "0.0.0"
+  installs: 766
+  rating: 0
+  ratings: 0
+  author: "LuanThierry"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=LuanThierry.luanslasla-theme"
+  formats: null
+colors:
+  bg: "#0E0E15"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF1111"
+  green: "#14C905"
+  yellow: "#E5E510"
+  blue: "#0096E0"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#BABABA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 107.5
+    black: 0
+    red: 37.3
+    green: 58.6
+    yellow: 86.3
+    blue: 42.2
+    magenta: 30.4
+    cyan: 48.2
+    white: 107.5
+    brightBlack: 22.7
+    brightRed: 39.2
+    brightGreen: 64.2
+    brightYellow: 96.3
+    brightBlue: 40.6
+    brightMagenta: 46
+    brightCyan: 56
+    brightWhite: 64.8

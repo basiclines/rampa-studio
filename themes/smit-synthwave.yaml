@@ -1,0 +1,53 @@
+name: "Smit Synthwave"
+source:
+  marketplace_id: "SmitDudhat.smit-theme"
+  version: "2.2.0"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "Smit Dudhat"
+  repo: "https://github.com/SmitDudhat/smit-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SmitDudhat.smit-theme"
+  formats: null
+colors:
+  bg: "#1A0A28"
+  fg: "#F0D0FF"
+  black: "#1A0A28"
+  red: "#FF006A"
+  green: "#00FF9F"
+  yellow: "#FFD000"
+  blue: "#0099FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#F0D0FF"
+  brightBlack: "#4A1A5A"
+  brightRed: "#FF007A"
+  brightGreen: "#00FFAA"
+  brightYellow: "#FFDD00"
+  brightBlue: "#00AAFF"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 306
+  pair: null
+  contrast:
+    fg: 84.2
+    black: 0
+    red: 38
+    green: 87.7
+    yellow: 80.6
+    blue: 45.2
+    magenta: 45.5
+    cyan: 91.5
+    white: 84.2
+    brightBlack: 0
+    brightRed: 38.4
+    brightGreen: 88
+    brightYellow: 86.2
+    brightBlue: 51.9
+    brightMagenta: 45.5
+    brightCyan: 91.5
+    brightWhite: 107.2

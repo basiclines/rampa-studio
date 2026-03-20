@@ -1,0 +1,53 @@
+name: "barlume"
+source:
+  marketplace_id: "gnkz.barlume"
+  version: "1.3.0"
+  installs: 279
+  rating: 0
+  ratings: 0
+  author: "gionkez"
+  repo: "https://github.com/dellarosciagiorgio/barlume"
+  url: "https://marketplace.visualstudio.com/items?itemName=gnkz.barlume"
+  formats: null
+colors:
+  bg: "#FCFCFC"
+  fg: "#303030"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97.8
+    black: 104.2
+    red: 72.2
+    green: 47.4
+    yellow: 56.1
+    blue: 84.3
+    magenta: 72.8
+    cyan: 58.8
+    white: 84.1
+    brightBlack: 77
+    brightRed: 72.2
+    brightGreen: 39.1
+    brightYellow: 39.1
+    brightBlue: 84.3
+    brightMagenta: 72.8
+    brightCyan: 58.8
+    brightWhite: 46.7

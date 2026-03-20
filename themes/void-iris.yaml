@@ -1,0 +1,53 @@
+name: "Void Iris"
+source:
+  marketplace_id: "Dikroll.void-iris-theme"
+  version: "1.1.1"
+  installs: 141
+  rating: 5
+  ratings: 1
+  author: "Dikroll"
+  repo: "https://github.com/Dikroll/Void-Iris"
+  url: "https://marketplace.visualstudio.com/items?itemName=Dikroll.void-iris-theme"
+  formats: null
+colors:
+  bg: "#0D0D0D"
+  fg: "#E0E0E0"
+  black: "#000000"
+  red: "#A63C3C"
+  green: "#5D4AD9"
+  yellow: "#A07540"
+  blue: "#5D4AD9"
+  magenta: "#9E91F2"
+  cyan: "#9E91F2"
+  white: "#C0C0C0"
+  brightBlack: "#5A4A50"
+  brightRed: "#A63C3C"
+  brightGreen: "#9E91F2"
+  brightYellow: "#D4A05E"
+  brightBlue: "#9E91F2"
+  brightMagenta: "#211859"
+  brightCyan: "#9E91F2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.6
+    black: 0
+    red: 21
+    green: 21.7
+    yellow: 33.3
+    blue: 21.7
+    magenta: 49.4
+    cyan: 49.4
+    white: 68.4
+    brightBlack: 13.3
+    brightRed: 21
+    brightGreen: 49.4
+    brightYellow: 55.9
+    brightBlue: 49.4
+    brightMagenta: 0
+    brightCyan: 49.4
+    brightWhite: 107.6

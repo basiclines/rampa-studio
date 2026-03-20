@@ -1,0 +1,53 @@
+name: "@xxtereshko/light"
+source:
+  marketplace_id: "xxtereshko.xxtereshko-light"
+  version: "1.0.0"
+  installs: 248
+  rating: 0
+  ratings: 0
+  author: "Maxim Tereshko"
+  repo: "https://github.com/xxtereshko/xxtereshko-light"
+  url: "https://marketplace.visualstudio.com/items?itemName=xxtereshko.xxtereshko-light"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#24292F"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#116329"
+  yellow: "#4D2D00"
+  blue: "#4078F2"
+  magenta: "#8250DF"
+  cyan: "#1B7C83"
+  white: "#6E7781"
+  brightBlack: "#57606A"
+  brightRed: "#A40E26"
+  brightGreen: "#1A7F37"
+  brightYellow: "#633C01"
+  brightBlue: "#218BFF"
+  brightMagenta: "#A475F9"
+  brightCyan: "#3192AA"
+  brightWhite: "#8C959F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.5
+    black: 101.5
+    red: 74.8
+    green: 85.2
+    yellow: 98
+    blue: 67.3
+    magenta: 74.3
+    cyan: 73.8
+    white: 71.6
+    brightBlack: 81.8
+    brightRed: 85.2
+    brightGreen: 74.6
+    brightYellow: 92
+    brightBlue: 60.7
+    brightMagenta: 59.3
+    brightCyan: 63.3
+    brightWhite: 57.2

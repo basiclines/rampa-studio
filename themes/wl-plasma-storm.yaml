@@ -1,0 +1,53 @@
+name: "WL-Plasma Storm"
+source:
+  marketplace_id: "WatkinsLabs.plasma-storm"
+  version: "1.0.1"
+  installs: 24
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.plasma-storm"
+  formats: null
+colors:
+  bg: "#2C0937"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#FF0061"
+  green: "#AB5BC4"
+  yellow: "#FF47CF"
+  blue: "#7F2480"
+  magenta: "#A249C8"
+  cyan: "#7F2480"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0061"
+  brightGreen: "#AB5BC4"
+  brightYellow: "#FF47CF"
+  brightBlue: "#7F2480"
+  brightMagenta: "#A249C8"
+  brightCyan: "#7F2480"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 317
+  pair: null
+  contrast:
+    fg: 78.9
+    black: 0
+    red: 36.8
+    green: 31.6
+    yellow: 45.1
+    blue: 12.2
+    magenta: 27
+    cyan: 12.2
+    white: 106.2
+    brightBlack: 21.4
+    brightRed: 36.8
+    brightGreen: 31.6
+    brightYellow: 45.1
+    brightBlue: 12.2
+    brightMagenta: 27
+    brightCyan: 12.2
+    brightWhite: 106.2

@@ -1,0 +1,53 @@
+name: "wuthering waves color themes (Wuthering Waves : Zhezhi (Dark))"
+source:
+  marketplace_id: "frostmoon-dev.wuwa-themes"
+  version: "1.0.7"
+  installs: 128
+  rating: 0
+  ratings: 0
+  author: "⏾ frostmoon"
+  repo: "https://github.com/frostmoon-dev/wuwa-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.wuwa-themes"
+  formats: null
+colors:
+  bg: "#181616"
+  fg: "#F0F5F5"
+  black: "#181616"
+  red: "#D88090"
+  green: "#90B8B0"
+  yellow: "#E6A4C7"
+  blue: "#97CADD"
+  magenta: "#C8A0B8"
+  cyan: "#7BABB4"
+  white: "#F0F5F5"
+  brightBlack: "#5E5656"
+  brightRed: "#E890A0"
+  brightGreen: "#A0C8C0"
+  brightYellow: "#F8B8D8"
+  brightBlue: "#A8D8EC"
+  brightMagenta: "#D8B0C8"
+  brightCyan: "#8BBBC4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: "wuthering waves color themes (Wuthering Waves : Zhezhi)"
+  contrast:
+    fg: 99.7
+    black: 0
+    red: 46.7
+    green: 58.6
+    yellow: 62.8
+    blue: 69
+    magenta: 56
+    cyan: 51.6
+    white: 99.7
+    brightBlack: 16.2
+    brightRed: 54.9
+    brightGreen: 67.6
+    brightYellow: 73.7
+    brightBlue: 77.5
+    brightMagenta: 64.9
+    brightCyan: 60.3
+    brightWhite: 106.9

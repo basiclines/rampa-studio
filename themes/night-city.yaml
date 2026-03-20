@@ -1,0 +1,53 @@
+name: "Night City"
+source:
+  marketplace_id: "GibMalFeuerzeugBitte.night-city"
+  version: "0.0.6"
+  installs: 73
+  rating: 5
+  ratings: 1
+  author: "GibMalFeuerzeugBitte"
+  repo: "https://github.com/GibMalFeuerzeugBitte/Night-City"
+  url: "https://marketplace.visualstudio.com/items?itemName=GibMalFeuerzeugBitte.night-city"
+  formats: null
+colors:
+  bg: "#0F1419"
+  fg: "#E0E0E8"
+  black: "#14141F"
+  red: "#F87171"
+  green: "#4ADE80"
+  yellow: "#FBBF24"
+  blue: "#60A5FA"
+  magenta: "#C084FC"
+  cyan: "#5FCFE4"
+  white: "#E0E0E8"
+  brightBlack: "#52525B"
+  brightRed: "#FCA5A5"
+  brightGreen: "#86EFAC"
+  brightYellow: "#FCD34D"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#D8B4FE"
+  brightCyan: "#A5F3FC"
+  brightWhite: "#F4F4F5"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 87.6
+    black: 0
+    red: 48.4
+    green: 70.8
+    yellow: 73
+    blue: 51.7
+    magenta: 50
+    cyan: 68.2
+    white: 87.6
+    brightBlack: 14.5
+    brightRed: 65.9
+    brightGreen: 83.4
+    brightYellow: 81.7
+    brightBlue: 68.5
+    brightMagenta: 69.6
+    brightCyan: 91.1
+    brightWhite: 100

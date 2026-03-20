@@ -1,0 +1,53 @@
+name: "WL-Retro Arcade"
+source:
+  marketplace_id: "WatkinsLabs.retro-arcade"
+  version: "1.0.1"
+  installs: 88
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.retro-arcade"
+  formats: null
+colors:
+  bg: "#07273E"
+  fg: "#EFEFEF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FF8000"
+  blue: "#6BFF8B"
+  magenta: "#FF6B4F"
+  cyan: "#6BFF8B"
+  white: "#EFEFEF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF00"
+  brightYellow: "#FF8000"
+  brightBlue: "#6BFF8B"
+  brightMagenta: "#FF6B4F"
+  brightCyan: "#6BFF8B"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 244
+  pair: null
+  contrast:
+    fg: 94.3
+    black: 0
+    red: 34.5
+    green: 83.4
+    yellow: 50.2
+    blue: 86.8
+    magenta: 45.5
+    cyan: 86.8
+    white: 94.3
+    brightBlack: 20
+    brightRed: 34.5
+    brightGreen: 83.4
+    brightYellow: 50.2
+    brightBlue: 86.8
+    brightMagenta: 45.5
+    brightCyan: 86.8
+    brightWhite: 104.8

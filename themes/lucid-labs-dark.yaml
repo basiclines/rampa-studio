@@ -1,0 +1,53 @@
+name: "Lucid Labs Dark"
+source:
+  marketplace_id: "lucidlabs.lucid-labs-theme"
+  version: "1.9.0"
+  installs: 144
+  rating: 5
+  ratings: 1
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.lucid-labs-theme"
+  formats: null
+colors:
+  bg: "#271D3B"
+  fg: "#E8E0F0"
+  black: "#101820"
+  red: "#E87272"
+  green: "#5BBF7A"
+  yellow: "#E8C84D"
+  blue: "#9B7ED9"
+  magenta: "#DA70D6"
+  cyan: "#3AADAD"
+  white: "#E8E0F0"
+  brightBlack: "#999999"
+  brightRed: "#D96560"
+  brightGreen: "#78D65B"
+  brightYellow: "#E8D44D"
+  brightBlue: "#9B7ED9"
+  brightMagenta: "#D98FD9"
+  brightCyan: "#5BC5BC"
+  brightWhite: "#E8E0F0"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 298
+  pair: "Lucid Labs Light"
+  contrast:
+    fg: 87.2
+    black: 0
+    red: 43.5
+    green: 54.7
+    yellow: 72
+    blue: 39
+    magenta: 44.6
+    cyan: 47.2
+    white: 87.2
+    brightBlack: 44.6
+    brightRed: 37
+    brightGreen: 66.5
+    brightYellow: 77.2
+    brightBlue: 39
+    brightMagenta: 53.1
+    brightCyan: 59.6
+    brightWhite: 87.2

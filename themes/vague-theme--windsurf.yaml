@@ -1,0 +1,53 @@
+name: "Vague Theme (Windsurf)"
+source:
+  marketplace_id: "xavier-castro.vague-windsurf"
+  version: "1.0.0"
+  installs: 11
+  rating: 0
+  ratings: 0
+  author: "Xavier Castro"
+  repo: "https://github.com/xavier-castro/vague-windsurf"
+  url: "https://marketplace.visualstudio.com/items?itemName=xavier-castro.vague-windsurf"
+  formats: null
+colors:
+  bg: "#141415"
+  fg: "#CDCDCD"
+  black: "#252530"
+  red: "#D8647E"
+  green: "#7FA563"
+  yellow: "#F3BE7C"
+  blue: "#6E94B2"
+  magenta: "#BB9DBD"
+  cyan: "#AEAED1"
+  white: "#CDCDCD"
+  brightBlack: "#606079"
+  brightRed: "#E08398"
+  brightGreen: "#99B782"
+  brightYellow: "#F5CB96"
+  brightBlue: "#8BA9C1"
+  brightMagenta: "#C9B1CA"
+  brightCyan: "#BEBEDA"
+  brightWhite: "#D7D7D7"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.5
+    black: 0
+    red: 39.2
+    green: 47.1
+    yellow: 72.3
+    blue: 41.7
+    magenta: 53.6
+    cyan: 59.3
+    white: 75.5
+    brightBlack: 20.7
+    brightRed: 49.5
+    brightGreen: 57.7
+    brightYellow: 78.5
+    brightBlue: 52.9
+    brightMagenta: 63.5
+    brightCyan: 68
+    brightWhite: 81.6

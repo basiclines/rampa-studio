@@ -1,0 +1,53 @@
+name: "Material Neutral Theme"
+source:
+  marketplace_id: "bernardodsanderson.theme-material-neutral"
+  version: "0.9.8"
+  installs: 60027
+  rating: 4.46
+  ratings: 13
+  author: "bernardodsanderson"
+  repo: "https://gitlab.com/bernardodsanderson/material-neutral-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bernardodsanderson.theme-material-neutral"
+  formats: null
+colors:
+  bg: "#263238"
+  fg: "#B2CCD6"
+  black: "#263238"
+  red: "#FA6981"
+  green: "#C3E88D"
+  yellow: "#FFCC00"
+  blue: "#82AAFF"
+  magenta: "#F77669"
+  cyan: "#7FCAC3"
+  white: "#B2CCD6"
+  brightBlack: "#65737E"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#FFCC00"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#F77669"
+  brightCyan: "#7FCAC3"
+  brightWhite: "#B2CCD6"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 230
+  pair: null
+  contrast:
+    fg: 67.9
+    black: 0
+    red: 42.9
+    green: 80
+    yellow: 74.4
+    blue: 51.7
+    magenta: 44.7
+    cyan: 61.6
+    white: 67.9
+    brightBlack: 22.7
+    brightRed: 28.8
+    brightGreen: 57.5
+    brightYellow: 74.4
+    brightBlue: 51.7
+    brightMagenta: 44.7
+    brightCyan: 61.6
+    brightWhite: 67.9

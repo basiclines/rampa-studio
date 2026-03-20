@@ -1,0 +1,53 @@
+name: "Gum"
+source:
+  marketplace_id: "RobinBandi.cherry-gum-v2"
+  version: "0.19.0"
+  installs: 394
+  rating: 0
+  ratings: 0
+  author: "Robin Bandi"
+  repo: "https://github.com/robbandi/Cherry-Gum"
+  url: "https://marketplace.visualstudio.com/items?itemName=RobinBandi.cherry-gum-v2"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#90D8F0"
+  black: "#1F1F1F"
+  red: "#C0D8F0"
+  green: "#9090F0"
+  yellow: "#5641F0"
+  blue: "#90C0F0"
+  magenta: "#5641F0"
+  cyan: "#A890F0"
+  white: "#4670F0"
+  brightBlack: "#90D8F0"
+  brightRed: "#C0D8F0"
+  brightGreen: "#9090F0"
+  brightYellow: "#5641F0"
+  brightBlue: "#90C0F0"
+  brightMagenta: "#5641F0"
+  brightCyan: "#A890F0"
+  brightWhite: "#4670F0"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 75.6
+    black: 0
+    red: 80.2
+    green: 46.7
+    yellow: 21
+    blue: 65
+    magenta: 21
+    cyan: 49.3
+    white: 31
+    brightBlack: 75.6
+    brightRed: 80.2
+    brightGreen: 46.7
+    brightYellow: 21
+    brightBlue: 65
+    brightMagenta: 21
+    brightCyan: 49.3
+    brightWhite: 31

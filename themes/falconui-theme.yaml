@@ -1,0 +1,51 @@
+name: "FalconUI Theme"
+source:
+  marketplace_id: "ferdipret.falcon-ui-theme"
+  version: "0.0.2"
+  installs: 397
+  author: "ferdipret"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=ferdipret.falcon-ui-theme"
+  formats: null
+colors:
+  bg: "#101218"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#D90032"
+  green: "#1CA381"
+  yellow: "#FFDE00"
+  blue: "#03A9F4"
+  magenta: "#FB94FF"
+  cyan: "#0098A8"
+  white: "#F2F2F2"
+  brightBlack: "#000000"
+  brightRed: "#EC7F98"
+  brightGreen: "#8DD1C0"
+  brightYellow: "#FFEE7F"
+  brightBlue: "#81D4F9"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#7FCBD3"
+  brightWhite: "#1F222D"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 107.3
+    black: 0
+    red: 27.8
+    green: 42.7
+    yellow: 86.7
+    blue: 50.8
+    magenta: 64.7
+    cyan: 39.5
+    white: 98.8
+    brightBlack: 0
+    brightRed: 50.8
+    brightGreen: 70.3
+    brightYellow: 95
+    brightBlue: 73.6
+    brightMagenta: 64.7
+    brightCyan: 67.4
+    brightWhite: 0

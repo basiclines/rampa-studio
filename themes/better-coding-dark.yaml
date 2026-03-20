@@ -1,0 +1,53 @@
+name: "Better Coding Dark"
+source:
+  marketplace_id: "nicovy.better-coding-theme"
+  version: "2.44.0"
+  installs: 538
+  rating: 5
+  ratings: 1
+  author: "Nicolas V."
+  repo: "https://github.com/nicovy/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nicovy.better-coding-theme"
+  formats: null
+colors:
+  bg: "#201B16"
+  fg: "#CDCDCD"
+  black: "#1E2227"
+  red: "#E06C75"
+  green: "#68A871"
+  yellow: "#F8C162"
+  blue: "#53A1EA"
+  magenta: "#A086EF"
+  cyan: "#6FC7F5"
+  white: "#ABB2BF"
+  brightBlack: "#6E737B"
+  brightRed: "#FF7B86"
+  brightGreen: "#7DC489"
+  brightYellow: "#FFD97F"
+  brightBlue: "#73B9FF"
+  brightMagenta: "#BD9EFF"
+  brightCyan: "#8FD9FF"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 67
+  pair: null
+  contrast:
+    fg: 74.7
+    black: 0
+    red: 41.5
+    green: 46.1
+    yellow: 73
+    blue: 47.5
+    magenta: 44.5
+    cyan: 65.5
+    white: 58.8
+    brightBlack: 27
+    brightRed: 52
+    brightGreen: 60.4
+    brightYellow: 84.7
+    brightBlue: 60.3
+    brightMagenta: 57.2
+    brightCyan: 76.3
+    brightWhite: 90.1

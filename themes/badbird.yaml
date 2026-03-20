@@ -1,0 +1,53 @@
+name: "badbird"
+source:
+  marketplace_id: "dullptr.badbird"
+  version: "0.1.0"
+  installs: 1375
+  rating: 5
+  ratings: 2
+  author: "dullptr"
+  repo: "https://github.com/PatrickTorgerson/badbird"
+  url: "https://marketplace.visualstudio.com/items?itemName=dullptr.badbird"
+  formats: null
+colors:
+  bg: "#161317"
+  fg: "#D7CDBA"
+  black: "#1B171B"
+  red: "#814D3B"
+  green: "#626960"
+  yellow: "#ADA383"
+  blue: "#515764"
+  magenta: "#815F7C"
+  cyan: "#546768"
+  white: "#A59E92"
+  brightBlack: "#666666"
+  brightRed: "#AA644D"
+  brightGreen: "#869183"
+  brightYellow: "#EBDEB2"
+  brightBlue: "#6F788B"
+  brightMagenta: "#AA7DA3"
+  brightCyan: "#6F8A8B"
+  brightWhite: "#F0E8D9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.1
+    black: 0
+    red: 17.7
+    green: 22.7
+    yellow: 51.8
+    blue: 16.1
+    magenta: 23.9
+    cyan: 21.2
+    white: 49.4
+    brightBlack: 22.3
+    brightRed: 29.8
+    brightGreen: 40.7
+    brightYellow: 86
+    brightBlue: 30.2
+    brightMagenta: 39.5
+    brightCyan: 36.4
+    brightWhite: 92.6

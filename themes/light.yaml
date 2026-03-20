@@ -1,0 +1,53 @@
+name: "light"
+source:
+  marketplace_id: "SatanAlphabet.matugen-vscode"
+  version: "1.2.0"
+  installs: 0
+  rating: 0
+  ratings: 0
+  author: "SatanAlphabet"
+  repo: "https://github.com/SatanAlphabet/vscode-matugen"
+  url: "https://marketplace.visualstudio.com/items?itemName=SatanAlphabet.matugen-vscode"
+  formats: null
+colors:
+  bg: "#FFF7FB"
+  fg: "#1F1A1F"
+  black: "#161217"
+  red: "#BE3345"
+  green: "#678C19"
+  yellow: "#B65C0D"
+  blue: "#603FBF"
+  magenta: "#A63BAA"
+  cyan: "#007E90"
+  white: "#ECDFE9"
+  brightBlack: "#7E747D"
+  brightRed: "#D66876"
+  brightGreen: "#97CD25"
+  brightYellow: "#F0811F"
+  brightBlue: "#8F78D2"
+  brightMagenta: "#C668CA"
+  brightCyan: "#00C2DC"
+  brightWhite: "#FFF7FB"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 100.5
+    black: 101.6
+    red: 73.2
+    green: 63
+    yellow: 68.1
+    blue: 80.4
+    magenta: 73
+    cyan: 69.1
+    white: 10.7
+    brightBlack: 67.6
+    brightRed: 57.9
+    brightGreen: 32.3
+    brightYellow: 47.8
+    brightBlue: 60.2
+    brightMagenta: 57.2
+    brightCyan: 38
+    brightWhite: 0

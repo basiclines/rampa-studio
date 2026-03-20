@@ -1,0 +1,53 @@
+name: "Photophore"
+source:
+  marketplace_id: "kenziebottoms.photophore"
+  version: "0.0.3"
+  installs: 819
+  rating: 0
+  ratings: 0
+  author: "Kenzie Bottoms"
+  repo: "git+https://github.com/kenziebottoms/vscode-theme-photophore"
+  url: "https://marketplace.visualstudio.com/items?itemName=kenziebottoms.photophore"
+  formats: null
+colors:
+  bg: "#1C0333"
+  fg: "#F9FFF0"
+  black: "#B7B3B7"
+  red: "#FF82DA"
+  green: "#5EFFAA"
+  yellow: "#E3FFC0"
+  blue: "#5EFFAA"
+  magenta: "#A386FF"
+  cyan: "#D793FF"
+  white: "#F9FFF0"
+  brightBlack: "#B7B3B7"
+  brightRed: "#FF82DA"
+  brightGreen: "#5EFFAA"
+  brightYellow: "#E3FFC0"
+  brightBlue: "#D793FF"
+  brightMagenta: "#C1FF74"
+  brightCyan: "#D793FF"
+  brightWhite: "#F9FFF0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 303
+  pair: null
+  contrast:
+    fg: 105.5
+    black: 61
+    red: 58
+    green: 89.3
+    yellow: 100.7
+    blue: 89.3
+    magenta: 46.8
+    cyan: 58
+    white: 105.5
+    brightBlack: 61
+    brightRed: 58
+    brightGreen: 89.3
+    brightYellow: 100.7
+    brightBlue: 58
+    brightMagenta: 95
+    brightCyan: 58
+    brightWhite: 105.5

@@ -1,0 +1,53 @@
+name: "Gentle Dark"
+source:
+  marketplace_id: "carlossalguero.gentle-theme"
+  version: "1.0.0"
+  installs: 109
+  rating: 5
+  ratings: 1
+  author: "carlossalguero"
+  repo: "https://github.com/salgue441/gentle-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlossalguero.gentle-theme"
+  formats: null
+colors:
+  bg: "#1C1E22"
+  fg: "#D8DCE2"
+  black: "#27292E"
+  red: "#E8835A"
+  green: "#56C4C8"
+  yellow: "#E8A854"
+  blue: "#6AAFE6"
+  magenta: "#B794D4"
+  cyan: "#56C4C8"
+  white: "#D8DCE2"
+  brightBlack: "#52525B"
+  brightRed: "#F0A080"
+  brightGreen: "#70D8DC"
+  brightYellow: "#F0C070"
+  brightBlue: "#90C8F0"
+  brightMagenta: "#D0B0E8"
+  brightCyan: "#70D8DC"
+  brightWhite: "#F4F4F5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Gentle Light"
+  contrast:
+    fg: 83.3
+    black: 0
+    red: 48.3
+    green: 60.2
+    yellow: 60.3
+    blue: 53.8
+    magenta: 50
+    cyan: 60.2
+    white: 83.3
+    brightBlack: 13.4
+    brightRed: 59.7
+    brightGreen: 71.7
+    brightYellow: 71.3
+    brightBlue: 67.7
+    brightMagenta: 64.5
+    brightCyan: 71.7
+    brightWhite: 98.9

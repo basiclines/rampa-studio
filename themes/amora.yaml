@@ -1,0 +1,53 @@
+name: "Amora"
+source:
+  marketplace_id: "securisec.hapsida-securisec"
+  version: "0.0.30"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "securisec"
+  repo: "https://github.com/securisec/code-hapsida"
+  url: "https://marketplace.visualstudio.com/items?itemName=securisec.hapsida-securisec"
+  formats: null
+colors:
+  bg: "#171717"
+  fg: "#D4D4D4"
+  black: "#141414"
+  red: "#ED3F7F"
+  green: "#A2BAA8"
+  yellow: "#EACAC0"
+  blue: "#9985D1"
+  magenta: "#E68AC1"
+  cyan: "#AABAE7"
+  white: "#DEDBEB"
+  brightBlack: "#292929"
+  brightRed: "#FB5C8E"
+  brightGreen: "#BFD1C3"
+  brightYellow: "#F0DDD8"
+  brightBlue: "#B4A4DE"
+  brightMagenta: "#EDABD2"
+  brightCyan: "#C4D1F5"
+  brightWhite: "#EDEBF7"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 79.5
+    black: 0
+    red: 37.1
+    green: 60.8
+    yellow: 77.5
+    blue: 42
+    magenta: 54.1
+    cyan: 64.5
+    white: 84.9
+    brightBlack: 0
+    brightRed: 45.1
+    brightGreen: 74.9
+    brightYellow: 87.4
+    brightBlue: 56.6
+    brightMagenta: 66.8
+    brightCyan: 77.8
+    brightWhite: 94.7

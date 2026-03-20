@@ -1,0 +1,53 @@
+name: "Neutron"
+source:
+  marketplace_id: "Avetis.neutron-palette"
+  version: "0.0.3"
+  installs: 1018
+  rating: 0
+  ratings: 0
+  author: "Avetis"
+  repo: "https://github.com/AvetisDN/neutron-palette"
+  url: "https://marketplace.visualstudio.com/items?itemName=Avetis.neutron-palette"
+  formats: null
+colors:
+  bg: "#24262B"
+  fg: "#E6E8EF"
+  black: "#000000"
+  red: "#CF4843"
+  green: "#32AB57"
+  yellow: "#C99634"
+  blue: "#406CA3"
+  magenta: "#A54B97"
+  cyan: "#2AA7A7"
+  white: "#E6E8EF"
+  brightBlack: "#62686F"
+  brightRed: "#E4645F"
+  brightGreen: "#23D18B"
+  brightYellow: "#DEB566"
+  brightBlue: "#6B90BE"
+  brightMagenta: "#A4799D"
+  brightCyan: "#58B8B8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.9
+    black: 0
+    red: 28.3
+    green: 43
+    yellow: 47.2
+    blue: 21.9
+    magenta: 23.5
+    cyan: 43.5
+    white: 89.9
+    brightBlack: 20.5
+    brightRed: 38.5
+    brightGreen: 61.5
+    brightYellow: 62.6
+    brightBlue: 38.3
+    brightMagenta: 34.9
+    brightCyan: 53
+    brightWhite: 104.8

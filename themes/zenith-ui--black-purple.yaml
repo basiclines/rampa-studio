@@ -1,0 +1,53 @@
+name: "Zenith UI (Black Purple)"
+source:
+  marketplace_id: "VishalMaurya.zenith-ui"
+  version: "0.2.4"
+  installs: 191
+  rating: 5
+  ratings: 1
+  author: "Vishal Maurya"
+  repo: "https://github.com/maurya-07/zenith-ui"
+  url: "https://marketplace.visualstudio.com/items?itemName=VishalMaurya.zenith-ui"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E1E1E0"
+  black: "#474747"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.5
+    black: 10.9
+    red: 27.7
+    green: 54
+    yellow: 86.6
+    blue: 28.4
+    magenta: 30.8
+    cyan: 48.6
+    white: 91
+    brightBlack: 23
+    brightRed: 39.6
+    brightGreen: 64.5
+    brightYellow: 96.6
+    brightBlue: 41
+    brightMagenta: 46.4
+    brightCyan: 56.4
+    brightWhite: 91

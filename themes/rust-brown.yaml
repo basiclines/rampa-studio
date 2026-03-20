@@ -1,0 +1,53 @@
+name: "Rust & Brown"
+source:
+  marketplace_id: "LukianovII.rust-and-brown"
+  version: "1.0.0"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "LukianovII"
+  repo: "https://github.com/LukianovII/rust-and-brown-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=LukianovII.rust-and-brown"
+  formats: null
+colors:
+  bg: "#1A1612"
+  fg: "#FFFBF5"
+  black: "#0F0D0A"
+  red: "#FF9090"
+  green: "#B8E0A8"
+  yellow: "#FFE8B8"
+  blue: "#A8C8E8"
+  magenta: "#FFA8D0"
+  cyan: "#A8E0D0"
+  white: "#FFFBF5"
+  brightBlack: "#5A4D42"
+  brightRed: "#FFB0A0"
+  brightGreen: "#C8F0B8"
+  brightYellow: "#FFF8D8"
+  brightBlue: "#C8E0FF"
+  brightMagenta: "#FFC8E0"
+  brightCyan: "#C8F0E0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 67
+  pair: null
+  contrast:
+    fg: 104.5
+    black: 0
+    red: 58.7
+    green: 80
+    yellow: 93.4
+    blue: 70.2
+    magenta: 68.9
+    cyan: 79.9
+    white: 104.5
+    brightBlack: 13
+    brightRed: 69.8
+    brightGreen: 89.8
+    brightYellow: 101.9
+    brightBlue: 85.5
+    brightMagenta: 81.4
+    brightCyan: 91.4
+    brightWhite: 106.9

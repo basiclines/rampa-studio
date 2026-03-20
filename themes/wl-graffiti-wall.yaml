@@ -1,0 +1,53 @@
+name: "WL-Graffiti Wall"
+source:
+  marketplace_id: "WatkinsLabs.graffiti-wall"
+  version: "1.0.1"
+  installs: 54
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.graffiti-wall"
+  formats: null
+colors:
+  bg: "#1B1B27"
+  fg: "#F7F7F2"
+  black: "#000000"
+  red: "#EA5455"
+  green: "#21BF73"
+  yellow: "#F07B3F"
+  blue: "#7209B7"
+  magenta: "#3A0CA3"
+  cyan: "#7209B7"
+  white: "#F7F7F2"
+  brightBlack: "#666666"
+  brightRed: "#EA5455"
+  brightGreen: "#21BF73"
+  brightYellow: "#F07B3F"
+  brightBlue: "#7209B7"
+  brightMagenta: "#3A0CA3"
+  brightCyan: "#7209B7"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 284
+  pair: null
+  contrast:
+    fg: 100.8
+    black: 0
+    red: 37.9
+    green: 53.8
+    yellow: 47.5
+    blue: 12.9
+    magenta: 0
+    cyan: 12.9
+    white: 100.8
+    brightBlack: 21.4
+    brightRed: 37.9
+    brightGreen: 53.8
+    brightYellow: 47.5
+    brightBlue: 12.9
+    brightMagenta: 0
+    brightCyan: 12.9
+    brightWhite: 106.3

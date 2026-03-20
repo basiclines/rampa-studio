@@ -1,0 +1,53 @@
+name: "Ebizome"
+source:
+  marketplace_id: "ryoh827.ebizome-theme-vscode"
+  version: "0.0.3"
+  installs: 40
+  rating: 0
+  ratings: 0
+  author: "ryoh827"
+  repo: "https://github.com/Ryoh827/ebizome-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ryoh827.ebizome-theme-vscode"
+  formats: null
+colors:
+  bg: "#7A4171"
+  fg: "#FFF5F7"
+  black: "#3A1F3B"
+  red: "#FFC9DA"
+  green: "#6DE8AB"
+  yellow: "#FFDD47"
+  blue: "#00DEF2"
+  magenta: "#CEC0FC"
+  cyan: "#74EDD9"
+  white: "#EDE4E6"
+  brightBlack: "#582F56"
+  brightRed: "#FFC9DA"
+  brightGreen: "#6DE8AB"
+  brightYellow: "#FFDD47"
+  brightBlue: "#00DEF2"
+  brightMagenta: "#CEC0FC"
+  brightCyan: "#74EDD9"
+  brightWhite: "#FFF5F7"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 333
+  pair: null
+  contrast:
+    fg: 85.4
+    black: 13.7
+    red: 65.1
+    green: 61.6
+    yellow: 69.7
+    blue: 57.4
+    magenta: 56
+    cyan: 66.3
+    white: 74.3
+    brightBlack: 0
+    brightRed: 65.1
+    brightGreen: 61.6
+    brightYellow: 69.7
+    brightBlue: 57.4
+    brightMagenta: 56
+    brightCyan: 66.3
+    brightWhite: 85.4

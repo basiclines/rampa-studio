@@ -1,0 +1,51 @@
+name: "XK Light Catppuccin Latte"
+source:
+  marketplace_id: "x1ngkong.vscode-xk-theme"
+  version: "0.1.0"
+  installs: 31
+  author: "x1ngkong"
+  repo: "https://github.com/x1ngkong/vscode-xk-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=x1ngkong.vscode-xk-theme"
+  formats: null
+colors:
+  bg: "#EFF1F5"
+  fg: "#3D3F55"
+  black: "#000000"
+  red: "#B91C1C"
+  green: "#166534"
+  yellow: "#B45309"
+  blue: "#7C3AED"
+  magenta: "#1D4ED8"
+  cyan: "#1D4ED8"
+  white: "#3D3F55"
+  brightBlack: "#3D3F55"
+  brightRed: "#B91C1C"
+  brightGreen: "#166534"
+  brightYellow: "#B45309"
+  brightBlue: "#7C3AED"
+  brightMagenta: "#1D4ED8"
+  brightCyan: "#1D4ED8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.5
+    black: 97.6
+    red: 71.8
+    green: 75.9
+    yellow: 65.6
+    blue: 69.1
+    magenta: 73.8
+    cyan: 73.8
+    white: 85.5
+    brightBlack: 85.5
+    brightRed: 71.8
+    brightGreen: 75.9
+    brightYellow: 65.6
+    brightBlue: 69.1
+    brightMagenta: 73.8
+    brightCyan: 73.8
+    brightWhite: 0

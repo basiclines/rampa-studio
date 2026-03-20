@@ -64,6 +64,13 @@ if (args[0] === 'palette') {
   process.exit(0);
 }
 
+// Intercept theme subcommand
+if (args[0] === 'theme') {
+  const { runTheme } = await import('./theme');
+  await runTheme(args.slice(1));
+  process.exit(0);
+}
+
 if (args.includes('--help') || args.includes('-h') || args.includes('help') || args.length === 0) {
   showHelp();
 }
@@ -157,6 +164,15 @@ IMAGE PALETTE
   ${cyan}rampa palette${reset}                   ${dim}Extract color palettes from images${reset}
                                    ${dim}Use rampa palette --help for details${reset}
 
+COLOR THEMES
+  ${cyan}rampa theme list${reset}                ${dim}List all available themes${reset}
+  ${cyan}rampa theme list "Aura"${reset}         ${dim}Search themes by name (fuzzy)${reset}
+  ${cyan}rampa theme list --paired${reset}       ${dim}Show only dark/light pairs${reset}
+  ${cyan}rampa theme list --paired --sort installs --min-installs 1000 --min-contrast 50 --min-distinct 20${reset}
+  ${cyan}rampa theme "Dracula" --show${reset}    ${dim}Inspect theme colors${reset}
+  ${cyan}rampa theme "Dracula" --install ghostty${reset}  ${dim}Install theme for an app${reset}
+                                   ${dim}Use rampa theme --help for details${reset}
+
 OTHER
   ${cyan}-h, --help${reset}                     ${dim}Show this help${reset}
   ${cyan}-v, --version${reset}                  ${dim}Show version${reset}
@@ -178,6 +194,10 @@ EXAMPLES
   ${cyan}rampa inspect -c '#ff6600'${reset}
   ${cyan}rampa palette photo.jpg${reset}
   ${cyan}rampa palette photo.jpg --ansi --count 3${reset}
+  ${cyan}rampa theme list "Dracula"${reset}
+  ${cyan}rampa theme list --paired --sort rating${reset}
+  ${cyan}rampa theme "Tokyo Night" --install ghostty,kitty,vscode${reset}
+  ${cyan}rampa theme "Aura Dark" --install alacritty --dry-run${reset}
 `;
   console.log(help.trim());
   process.exit(0);

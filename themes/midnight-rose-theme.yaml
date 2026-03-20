@@ -1,0 +1,53 @@
+name: "Midnight Rose Theme"
+source:
+  marketplace_id: "nathan-dev.midnight-rose-theme"
+  version: "1.1.4"
+  installs: 120
+  rating: 5
+  ratings: 2
+  author: "Nathan-extension"
+  repo: "https://github.com/nathan/rose-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nathan-dev.midnight-rose-theme"
+  formats: null
+colors:
+  bg: "#161616"
+  fg: "#EAE0E2"
+  black: "#2D2426"
+  red: "#FF1493"
+  green: "#FF69B4"
+  yellow: "#FFB6C1"
+  blue: "#FF79C6"
+  magenta: "#FF00FF"
+  cyan: "#FFC0CB"
+  white: "#EAE0E2"
+  brightBlack: "#2D2426"
+  brightRed: "#FF1493"
+  brightGreen: "#FF69B4"
+  brightYellow: "#FFB6C1"
+  brightBlue: "#FF79C6"
+  brightMagenta: "#FF00FF"
+  brightCyan: "#FFC0CB"
+  brightWhite: "#EAE0E2"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.4
+    black: 0
+    red: 39.2
+    green: 50.2
+    yellow: 73.2
+    blue: 54.7
+    magenta: 45.3
+    cyan: 77.4
+    white: 88.4
+    brightBlack: 0
+    brightRed: 39.2
+    brightGreen: 50.2
+    brightYellow: 73.2
+    brightBlue: 54.7
+    brightMagenta: 45.3
+    brightCyan: 77.4
+    brightWhite: 88.4

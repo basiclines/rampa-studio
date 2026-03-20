@@ -1,0 +1,53 @@
+name: "elly"
+source:
+  marketplace_id: "ulwlu.elly"
+  version: "1.0.4"
+  installs: 790
+  rating: 5
+  ratings: 2
+  author: "ulwlu"
+  repo: "https://github.com/ulwlu/elly-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ulwlu.elly"
+  formats: null
+colors:
+  bg: "#111A1F"
+  fg: "#9A9A9A"
+  black: "#111A1F"
+  red: "#8D7856"
+  green: "#798362"
+  yellow: "#9B9257"
+  blue: "#63768A"
+  magenta: "#738C9C"
+  cyan: "#6998B3"
+  white: "#9A9A9A"
+  brightBlack: "#868B8D"
+  brightRed: "#8D7856"
+  brightGreen: "#798362"
+  brightYellow: "#9B9257"
+  brightBlue: "#63768A"
+  brightMagenta: "#738C9C"
+  brightCyan: "#6998B3"
+  brightWhite: "#9A9A9A"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 233
+  pair: null
+  contrast:
+    fg: 46.5
+    black: 0
+    red: 31.2
+    green: 33
+    yellow: 41.8
+    blue: 28
+    magenta: 37.7
+    cyan: 42.4
+    white: 46.5
+    brightBlack: 38.4
+    brightRed: 31.2
+    brightGreen: 33
+    brightYellow: 41.8
+    brightBlue: 28
+    brightMagenta: 37.7
+    brightCyan: 42.4
+    brightWhite: 46.5

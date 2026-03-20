@@ -1,0 +1,53 @@
+name: "Vicious"
+source:
+  marketplace_id: "ZaherAlMajed.vicious"
+  version: "1.0.5"
+  installs: 252
+  rating: 5
+  ratings: 4
+  author: "Zaher Al Majed"
+  repo: "https://github.com/zaheralmajed/vicious-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ZaherAlMajed.vicious"
+  formats: null
+colors:
+  bg: "#08090E"
+  fg: "#FBFCFC"
+  black: "#4F5053"
+  red: "#EE81F1"
+  green: "#E3EB8B"
+  yellow: "#F1C981"
+  blue: "#8BE3EB"
+  magenta: "#F18196"
+  cyan: "#8DF181"
+  white: "#818184"
+  brightBlack: "#818184"
+  brightRed: "#AB8BEB"
+  brightGreen: "#F19A81"
+  brightYellow: "#F1C981"
+  brightBlue: "#81F1A4"
+  brightMagenta: "#F181C5"
+  brightCyan: "#BCF181"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 275
+  pair: null
+  contrast:
+    fg: 105.6
+    black: 14.1
+    red: 56.6
+    green: 90.4
+    yellow: 77.1
+    blue: 81
+    magenta: 52.7
+    cyan: 84.3
+    white: 35.2
+    brightBlack: 35.2
+    brightRed: 48.6
+    brightGreen: 59.6
+    brightYellow: 77.1
+    brightBlue: 84.4
+    brightMagenta: 54.7
+    brightCyan: 88.4
+    brightWhite: 90.9

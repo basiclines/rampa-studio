@@ -1,0 +1,53 @@
+name: "ChatGP-Theme"
+source:
+  marketplace_id: "0xJariel.chatgp-theme"
+  version: "0.0.5"
+  installs: 2496
+  rating: 5
+  ratings: 1
+  author: "0xJariel"
+  repo: "https://github.com/0xJariel/ChatGP-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=0xJariel.chatgp-theme"
+  formats: null
+colors:
+  bg: "#303038"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#C03738"
+  green: "#43B67B"
+  yellow: "#E2E249"
+  blue: "#386FA4"
+  magenta: "#9736BA"
+  cyan: "#4EB7D1"
+  white: "#E5E5E5"
+  brightBlack: "#626161"
+  brightRed: "#F05D5E"
+  brightGreen: "#5FDB9C"
+  brightYellow: "#F2F28B"
+  brightBlue: "#4B9AE6"
+  brightMagenta: "#BC64BC"
+  brightCyan: "#6BDDF9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 286
+  pair: null
+  contrast:
+    fg: 75.2
+    black: 0
+    red: 20.4
+    green: 47
+    yellow: 79.8
+    blue: 20.4
+    magenta: 17.9
+    cyan: 51.2
+    white: 85.8
+    brightBlack: 15.8
+    brightRed: 37.4
+    brightGreen: 66.3
+    brightYellow: 90.6
+    brightBlue: 40.5
+    brightMagenta: 32.3
+    brightCyan: 71.8
+    brightWhite: 102.6

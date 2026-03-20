@@ -1,0 +1,53 @@
+name: "Sidev Monokai Dim Ts"
+source:
+  marketplace_id: "sidev.monokai-dim-ts"
+  version: "0.0.1"
+  installs: 90
+  rating: 5
+  ratings: 1
+  author: "slavko.ivanovic"
+  repo: "https://github.com/slavkoivanovic/sidev-monokai-dim-ts"
+  url: "https://marketplace.visualstudio.com/items?itemName=sidev.monokai-dim-ts"
+  formats: null
+colors:
+  bg: "#242424"
+  fg: "#C5C8C6"
+  black: "#1E1E1E"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 70.1
+    black: 0
+    red: 22.9
+    green: 51.3
+    yellow: 55.9
+    blue: 32.9
+    magenta: 30.5
+    cyan: 48.7
+    white: 86.8
+    brightBlack: 20.3
+    brightRed: 35.6
+    brightGreen: 75.2
+    brightYellow: 82.2
+    brightBlue: 48.1
+    brightMagenta: 44.8
+    brightCyan: 71.7
+    brightWhite: 100.2

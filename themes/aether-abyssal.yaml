@@ -1,0 +1,53 @@
+name: "Aether Abyssal"
+source:
+  marketplace_id: "YonasValentinMougaardKristensen.aether-theme"
+  version: "1.9.3"
+  installs: 366
+  rating: 5
+  ratings: 1
+  author: "Yonas Valentin Mougaard Kristensen"
+  repo: "https://github.com/YonasValentin/aether-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YonasValentinMougaardKristensen.aether-theme"
+  formats: null
+colors:
+  bg: "#020D10"
+  fg: "#A8C2C5"
+  black: "#2E4245"
+  red: "#E66533"
+  green: "#49E9A6"
+  yellow: "#E4B781"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#A8C2C5"
+  brightBlack: "#456266"
+  brightRed: "#E97749"
+  brightGreen: "#60EBB1"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#BBCFD2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 213
+  pair: "Aether Zen"
+  contrast:
+    fg: 66.7
+    black: 7.8
+    red: 41.3
+    green: 77.8
+    yellow: 67.8
+    blue: 52.8
+    magenta: 46.4
+    cyan: 71.3
+    white: 66.7
+    brightBlack: 19.2
+    brightRed: 46.5
+    brightGreen: 80
+    brightYellow: 54.6
+    brightBlue: 58.1
+    brightMagenta: 58.8
+    brightCyan: 74.6
+    brightWhite: 75

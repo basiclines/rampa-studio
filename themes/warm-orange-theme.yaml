@@ -1,0 +1,53 @@
+name: "Warm Orange Theme"
+source:
+  marketplace_id: "JerryJ.trae-warm-orange-theme"
+  version: "1.0.5"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "JerryJ"
+  repo: "https://github.com/xyjie37/WarmOrange"
+  url: "https://marketplace.visualstudio.com/items?itemName=JerryJ.trae-warm-orange-theme"
+  formats: null
+colors:
+  bg: "#FAF8F3"
+  fg: "#5C4A3A"
+  black: "#4A3A2A"
+  red: "#D32F2F"
+  green: "#7C3AED"
+  yellow: "#C94C00"
+  blue: "#BE185D"
+  magenta: "#16A34A"
+  cyan: "#0891B2"
+  white: "#E8E0D5"
+  brightBlack: "#5C4A3A"
+  brightRed: "#EF4444"
+  brightGreen: "#8B5CF6"
+  brightYellow: "#C94C00"
+  brightBlue: "#BE185D"
+  brightMagenta: "#22C55E"
+  brightCyan: "#06B6D4"
+  brightWhite: "#F5F1E8"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 84.8
+    black: 91
+    red: 68.7
+    green: 73.3
+    yellow: 67.1
+    blue: 74.1
+    magenta: 55.6
+    cyan: 59.7
+    white: 11.1
+    brightBlack: 84.8
+    brightRed: 59.7
+    brightGreen: 64.6
+    brightYellow: 67.1
+    brightBlue: 74.1
+    brightMagenta: 40.2
+    brightCyan: 43
+    brightWhite: 0

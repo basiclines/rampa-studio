@@ -1,0 +1,53 @@
+name: "Greeney.v2"
+source:
+  marketplace_id: "LakshayBhushan.greeney-theme"
+  version: "2.0.0"
+  installs: 1647
+  rating: 5
+  ratings: 4
+  author: "Lakshay Bhushan"
+  repo: "https://github.com/lakshaybhushan/greeney-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LakshayBhushan.greeney-theme"
+  formats: null
+colors:
+  bg: "#021C23"
+  fg: "#00FFD9"
+  black: "#324A4D"
+  red: "#E66533"
+  green: "#48F4AD"
+  yellow: "#FFFF39"
+  blue: "#49ACE9"
+  magenta: "#DF769B"
+  cyan: "#49D6E9"
+  white: "#FBFBFB"
+  brightBlack: "#47686C"
+  brightRed: "#E97749"
+  brightGreen: "#59E4AA"
+  brightYellow: "#E69533"
+  brightBlue: "#60B6EB"
+  brightMagenta: "#E798B3"
+  brightCyan: "#60DBEB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 218
+  pair: null
+  contrast:
+    fg: 89
+    black: 9.2
+    red: 40.2
+    green: 82.5
+    yellow: 101.5
+    blue: 51.6
+    magenta: 45.3
+    cyan: 70.2
+    white: 103.9
+    brightBlack: 20.3
+    brightRed: 45.4
+    brightGreen: 74.8
+    brightYellow: 53.5
+    brightBlue: 56.9
+    brightMagenta: 57.7
+    brightCyan: 73.5
+    brightWhite: 106.5

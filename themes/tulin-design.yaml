@@ -1,0 +1,53 @@
+name: "Tulin Design"
+source:
+  marketplace_id: "tulindesign.tulindesign"
+  version: "3.3.0"
+  installs: 150
+  rating: 5
+  ratings: 1
+  author: "tulindesign"
+  repo: "https://github.com/tulindesign/vscode_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tulindesign.tulindesign"
+  formats: null
+colors:
+  bg: "#1D2025"
+  fg: "#D3D9E3"
+  black: "#4C525C"
+  red: "#E06C75"
+  green: "#79C37A"
+  yellow: "#E5C07B"
+  blue: "#61AFEF"
+  magenta: "#B978E8"
+  cyan: "#60D1DE"
+  white: "#A9B2C3"
+  brightBlack: "#757D8A"
+  brightRed: "#FF8D96"
+  brightGreen: "#79C37A"
+  brightYellow: "#FFDFA3"
+  brightBlue: "#80C6FF"
+  brightMagenta: "#D8A2FF"
+  brightCyan: "#90F4FF"
+  brightWhite: "#D1D7E2"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 261
+  pair: null
+  contrast:
+    fg: 81.1
+    black: 12.7
+    red: 41
+    green: 58.7
+    yellow: 69.5
+    blue: 53.6
+    magenta: 42.8
+    cyan: 67.4
+    white: 58.3
+    brightBlack: 31
+    brightRed: 56.9
+    brightGreen: 58.7
+    brightYellow: 87.6
+    brightBlue: 66.2
+    brightMagenta: 61.8
+    brightCyan: 88.7
+    brightWhite: 80

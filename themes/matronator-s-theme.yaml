@@ -1,0 +1,53 @@
+name: "Matronator's Theme"
+source:
+  marketplace_id: "matronator.mtrtheme"
+  version: "0.0.3"
+  installs: 44
+  rating: 0
+  ratings: 0
+  author: "Matronator"
+  repo: "https://github.com/matronator/mtr-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=matronator.mtrtheme"
+  formats: null
+colors:
+  bg: "#1B1313"
+  fg: "#D3D3D3"
+  black: "#4F4F4F"
+  red: "#B83131"
+  green: "#0DBC28"
+  yellow: "#C0C014"
+  blue: "#2159B0"
+  magenta: "#C93AC9"
+  cyan: "#159ABA"
+  white: "#C4C4C4"
+  brightBlack: "#717171"
+  brightRed: "#FF5353"
+  brightGreen: "#18EE30"
+  brightYellow: "#FFFF1A"
+  brightBlue: "#3B91FF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#1AD2FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 18
+  pair: null
+  contrast:
+    fg: 79.1
+    black: 13
+    red: 22.4
+    green: 52
+    yellow: 64.4
+    blue: 18.4
+    magenta: 32.6
+    cyan: 41
+    white: 70.1
+    brightBlack: 27
+    brightRed: 43.2
+    brightGreen: 76.8
+    brightYellow: 101.9
+    brightBlue: 42.9
+    brightMagenta: 54
+    brightCyan: 69.2
+    brightWhite: 107.1

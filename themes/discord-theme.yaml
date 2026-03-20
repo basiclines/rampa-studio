@@ -1,0 +1,53 @@
+name: "Discord Theme"
+source:
+  marketplace_id: "tanmay.discord-theme"
+  version: "1.0.6"
+  installs: 61690
+  rating: 4.83
+  ratings: 6
+  author: "tanmay"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=tanmay.discord-theme"
+  formats: null
+colors:
+  bg: "#1F1F25"
+  fg: "#BFC9D7"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#8EA7FF"
+  blue: "#8DA6FF"
+  magenta: "#BC3FBC"
+  cyan: "#5FD796"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#7289DA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#59DEFF"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 286
+  pair: null
+  contrast:
+    fg: 71.3
+    black: 0
+    red: 25.7
+    green: 52
+    yellow: 54.7
+    blue: 54.3
+    magenta: 28.7
+    cyan: 67.4
+    white: 89
+    brightBlack: 21
+    brightRed: 37.5
+    brightGreen: 62.5
+    brightYellow: 94.6
+    brightBlue: 39.1
+    brightMagenta: 44.3
+    brightCyan: 75.1
+    brightWhite: 89

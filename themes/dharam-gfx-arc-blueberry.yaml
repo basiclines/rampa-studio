@@ -1,0 +1,53 @@
+name: "dharam-gfx-arc-blueberry"
+source:
+  marketplace_id: "dharam-gfx-theme.dharam-gfx-theme"
+  version: "0.0.7"
+  installs: 660
+  rating: 5
+  ratings: 1
+  author: "dharmendra kumar"
+  repo: "https://github.com/dharam-gfx/dharam-gfx-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=dharam-gfx-theme.dharam-gfx-theme"
+  formats: null
+colors:
+  bg: "#111422"
+  fg: "#BCC1DC"
+  black: "#111422"
+  red: "#E35535"
+  green: "#3CEC85"
+  yellow: "#EACD61"
+  blue: "#69C3FF"
+  magenta: "#F38CEC"
+  cyan: "#22ECDB"
+  white: "#BCC1DC"
+  brightBlack: "#313B62"
+  brightRed: "#FF4319"
+  brightGreen: "#29FF82"
+  brightYellow: "#FFD94C"
+  brightBlue: "#69C3FF"
+  brightMagenta: "#FF80F6"
+  brightCyan: "#0FFFEB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 69
+    black: 0
+    red: 36.9
+    green: 77.5
+    yellow: 76.4
+    blue: 64.7
+    magenta: 59.5
+    cyan: 80
+    white: 69
+    brightBlack: 0
+    brightRed: 40.4
+    brightGreen: 87
+    brightYellow: 84.6
+    brightBlue: 64.7
+    brightMagenta: 59.2
+    brightCyan: 90.4
+    brightWhite: 107.1

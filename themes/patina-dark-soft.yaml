@@ -1,0 +1,58 @@
+name: "Patina Dark Soft"
+source:
+  marketplace_id: "LuisCMarkmann.patina-theme"
+  version: "0.9.0"
+  installs: 43
+  rating: 0
+  ratings: 0
+  author: "Luis C. Markmann"
+  repo: "https://github.com/lmarkmann/patina-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=LuisCMarkmann.patina-theme"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/ghostty/patina-dark"
+    alacritty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/alacritty/patina-dark.toml"
+    kitty: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/kitty/patina-dark.conf"
+    android-studio: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/intellij/Patina_Dark.icls"
+    zed: "https://raw.githubusercontent.com/lmarkmann/patina-theme/main/zed/patina-dark.json"
+colors:
+  bg: "#1A1A1A"
+  fg: "#C8C4B8"
+  black: "#333333"
+  red: "#B86E6E"
+  green: "#4A8A6E"
+  yellow: "#D4BF6E"
+  blue: "#65A8B5"
+  magenta: "#C08A7D"
+  cyan: "#5A9E9C"
+  white: "#C8C4B8"
+  brightBlack: "#4E4E4E"
+  brightRed: "#B86E6E"
+  brightGreen: "#4A8A6E"
+  brightYellow: "#D4BF6E"
+  brightBlue: "#65A8B5"
+  brightMagenta: "#C08A7D"
+  brightCyan: "#5A9E9C"
+  brightWhite: "#C8C4B8"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 69.6
+    black: 0
+    red: 34.8
+    green: 32.5
+    yellow: 67
+    blue: 48.5
+    magenta: 44.8
+    cyan: 42.7
+    white: 69.6
+    brightBlack: 12.1
+    brightRed: 34.8
+    brightGreen: 32.5
+    brightYellow: 67
+    brightBlue: 48.5
+    brightMagenta: 44.8
+    brightCyan: 42.7
+    brightWhite: 69.6

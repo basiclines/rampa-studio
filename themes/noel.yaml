@@ -1,0 +1,54 @@
+name: "Noel"
+source:
+  marketplace_id: "arzg.noel"
+  version: "2.1.0"
+  installs: 614
+  rating: 5
+  ratings: 1
+  author: "arzg"
+  repo: "https://github.com/arzg/noel"
+  url: "https://marketplace.visualstudio.com/items?itemName=arzg.noel"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/arzg/noel/master/noel.itermcolors"
+colors:
+  bg: "#2A3235"
+  fg: "#DEEEF3"
+  black: "#2A3235"
+  red: "#DC9E8F"
+  green: "#8BB993"
+  yellow: "#E7BEA6"
+  blue: "#66B9D2"
+  magenta: "#EEB9C1"
+  cyan: "#B3DCE2"
+  white: "#DEEEF3"
+  brightBlack: "#526B6F"
+  brightRed: "#DC9E8F"
+  brightGreen: "#8BB993"
+  brightYellow: "#E7BEA6"
+  brightBlue: "#66B9D2"
+  brightMagenta: "#EEB9C1"
+  brightCyan: "#B3DCE2"
+  brightWhite: "#DEEEF3"
+meta:
+  mode: "dark"
+  accent: "blue"
+  hue: 222
+  pair: null
+  contrast:
+    fg: 89.6
+    black: 0
+    red: 52.6
+    green: 53.2
+    yellow: 67
+    blue: 53.2
+    magenta: 67.1
+    cyan: 75.6
+    white: 89.6
+    brightBlack: 18.1
+    brightRed: 52.6
+    brightGreen: 53.2
+    brightYellow: 67
+    brightBlue: 53.2
+    brightMagenta: 67.1
+    brightCyan: 75.6
+    brightWhite: 89.6

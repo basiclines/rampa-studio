@@ -1,0 +1,53 @@
+name: "AroAce"
+source:
+  marketplace_id: "philbschmidt.aroace"
+  version: "1.3.0"
+  installs: 46
+  rating: 0
+  ratings: 0
+  author: "Philipp Schmidt"
+  repo: "https://codeberg.org/philbschmidt/Aro-Ace"
+  url: "https://marketplace.visualstudio.com/items?itemName=philbschmidt.aroace"
+  formats: null
+colors:
+  bg: "#23252F"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#85B0CA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#85B0CA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 276
+  pair: "AroAce Light"
+  contrast:
+    fg: 69.4
+    black: 24.4
+    red: 42
+    green: 63.8
+    yellow: 76.9
+    blue: 53.9
+    magenta: 53.4
+    cyan: 76.3
+    white: 104.9
+    brightBlack: 24.4
+    brightRed: 42
+    brightGreen: 82.2
+    brightYellow: 76.9
+    brightBlue: 53.9
+    brightMagenta: 53.4
+    brightCyan: 76.3
+    brightWhite: 104.9

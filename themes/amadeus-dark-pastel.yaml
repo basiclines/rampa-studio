@@ -1,0 +1,53 @@
+name: "Amadeus Dark Pastel"
+source:
+  marketplace_id: "gbrachetta.amadeus-dark-theme"
+  version: "0.0.17"
+  installs: 1760
+  rating: 3.5
+  ratings: 2
+  author: "gbrachetta"
+  repo: "https://github.com/GBrachetta/amadeus-dark-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=gbrachetta.amadeus-dark-theme"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#DBBE94"
+  black: "#191919"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#B88D2B"
+  blue: "#0D6678"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#95C085"
+  brightYellow: "#FAC03B"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#86C5AD"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 68.6
+    black: 0
+    red: 41.6
+    green: 60.6
+    yellow: 43.3
+    blue: 18.4
+    magenta: 19.2
+    cyan: 49.1
+    white: 46.9
+    brightBlack: 18.3
+    brightRed: 41.6
+    brightGreen: 60.6
+    brightYellow: 72.7
+    brightBlue: 18.4
+    brightMagenta: 19.2
+    brightCyan: 62.9
+    brightWhite: 98.5

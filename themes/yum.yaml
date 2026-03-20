@@ -1,0 +1,54 @@
+name: "Yum"
+source:
+  marketplace_id: "RioEdwards.yum"
+  version: "1.0.4"
+  installs: 234
+  rating: 5
+  ratings: 1
+  author: "Rio Edwards"
+  repo: "https://github.com/rioredwards/yum"
+  url: "https://marketplace.visualstudio.com/items?itemName=RioEdwards.yum"
+  formats:
+    zed: "https://raw.githubusercontent.com/rioredwards/yum/main/exampleThemes/solarized-dark-color-theme.json"
+colors:
+  bg: "#272727"
+  fg: "#CCCCCC"
+  black: "#353535"
+  red: "#CC241D"
+  green: "#98971A"
+  yellow: "#D79921"
+  blue: "#458588"
+  magenta: "#B16286"
+  cyan: "#689D6A"
+  white: "#A89984"
+  brightBlack: "#928374"
+  brightRed: "#FB4934"
+  brightGreen: "#B8BB26"
+  brightYellow: "#FABD2F"
+  brightBlue: "#83A598"
+  brightMagenta: "#D3869B"
+  brightCyan: "#8EC07C"
+  brightWhite: "#EBDBB2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.4
+    black: 0
+    red: 23
+    green: 40.7
+    yellow: 50.2
+    blue: 29.3
+    magenta: 29.4
+    cyan: 39.7
+    white: 45
+    brightBlack: 34.1
+    brightRed: 37.9
+    brightGreen: 58.9
+    brightYellow: 69.5
+    brightBlue: 46.4
+    brightMagenta: 45.7
+    brightCyan: 57.9
+    brightWhite: 82.1

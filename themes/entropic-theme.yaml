@@ -1,0 +1,53 @@
+name: "Entropic Theme"
+source:
+  marketplace_id: "entropic-soft.entropic-theme"
+  version: "1.0.3"
+  installs: 174
+  rating: 0
+  ratings: 0
+  author: "Entropic Software"
+  repo: "https://github.com/entropic-software/entropic-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=entropic-soft.entropic-theme"
+  formats: null
+colors:
+  bg: "#101010"
+  fg: "#D4D4D4"
+  black: "#565656"
+  red: "#BD0249"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#828282"
+  brightRed: "#FF0262"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.1
+    black: 16.1
+    red: 22
+    green: 53.6
+    yellow: 86.2
+    blue: 28
+    magenta: 30.3
+    cyan: 48.1
+    white: 90.6
+    brightBlack: 35.3
+    brightRed: 38
+    brightGreen: 64.1
+    brightYellow: 96.2
+    brightBlue: 40.6
+    brightMagenta: 45.9
+    brightCyan: 56
+    brightWhite: 90.6

@@ -1,0 +1,53 @@
+name: "Jellybeans Extended"
+source:
+  marketplace_id: "YoonhoLee.jellybeans-extended"
+  version: "1.1.0"
+  installs: 9
+  rating: 0
+  ratings: 0
+  author: "YoonhoLee"
+  repo: "https://github.com/yoonholee/jellybeans-extended"
+  url: "https://marketplace.visualstudio.com/items?itemName=YoonhoLee.jellybeans-extended"
+  formats: null
+colors:
+  bg: "#151515"
+  fg: "#E8E8D3"
+  black: "#333333"
+  red: "#CF6A4C"
+  green: "#99AD6A"
+  yellow: "#FAD07A"
+  blue: "#8197BF"
+  magenta: "#B267E6"
+  cyan: "#8FBFDC"
+  white: "#E8E8D3"
+  brightBlack: "#555555"
+  brightRed: "#E07060"
+  brightGreen: "#A9BD7A"
+  brightYellow: "#FFE08A"
+  brightBlue: "#91A7CF"
+  brightMagenta: "#C277F6"
+  brightCyan: "#9FCFEC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 91.2
+    black: 0
+    red: 37.6
+    green: 52.8
+    yellow: 80.6
+    blue: 44.9
+    magenta: 38.6
+    cyan: 63.6
+    white: 91.2
+    brightBlack: 15.3
+    brightRed: 42.7
+    brightGreen: 61.6
+    brightYellow: 88.7
+    brightBlue: 53.3
+    brightMagenta: 46.1
+    brightCyan: 72.8
+    brightWhite: 107.1

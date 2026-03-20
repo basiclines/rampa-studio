@@ -1,0 +1,53 @@
+name: "Rainglow (vision-colorblind)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#0D0D0D"
+  red: "#BA0E2E"
+  green: "#FC4D1F"
+  yellow: "#FDBA2C"
+  blue: "#21C0FC"
+  magenta: "#136EFB"
+  cyan: "#FC1264"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F03E5F"
+  brightGreen: "#FD9D84"
+  brightYellow: "#FEDB91"
+  brightBlue: "#86DDFD"
+  brightMagenta: "#77ACFD"
+  brightCyan: "#FD77A6"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 21.5
+    green: 41.9
+    yellow: 72.1
+    blue: 61.8
+    magenta: 31.2
+    cyan: 37.9
+    white: 107.9
+    brightBlack: 0
+    brightRed: 37.8
+    brightGreen: 63.1
+    brightYellow: 87.3
+    brightBlue: 78.9
+    brightMagenta: 56.8
+    brightCyan: 53.3
+    brightWhite: 107.9

@@ -1,0 +1,53 @@
+name: "Min Gruvbox Theme"
+source:
+  marketplace_id: "cnmorocho.min-gruvbox-theme"
+  version: "0.0.10"
+  installs: 3534
+  rating: 5
+  ratings: 1
+  author: "Carlos Nahuel Morocho"
+  repo: "https://github.com/cnmorocho/min-gruvbox-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=cnmorocho.min-gruvbox-theme"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#FBF1C7"
+  black: "#2A2A2A"
+  red: "#EA6962"
+  green: "#A9B665"
+  yellow: "#D8A657"
+  blue: "#7DAEA3"
+  magenta: "#D3869B"
+  cyan: "#89B482"
+  white: "#D4BE98"
+  brightBlack: "#2A2A2A"
+  brightRed: "#EA6962"
+  brightGreen: "#A9B665"
+  brightYellow: "#D8A657"
+  brightBlue: "#7DAEA3"
+  brightMagenta: "#D3869B"
+  brightCyan: "#89B482"
+  brightWhite: "#D4BE98"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 97
+    black: 0
+    red: 42.6
+    green: 57.7
+    yellow: 57.5
+    blue: 51.9
+    magenta: 47.6
+    cyan: 54.3
+    white: 67.7
+    brightBlack: 0
+    brightRed: 42.6
+    brightGreen: 57.7
+    brightYellow: 57.5
+    brightBlue: 51.9
+    brightMagenta: 47.6
+    brightCyan: 54.3
+    brightWhite: 67.7

@@ -1,0 +1,53 @@
+name: "Blue Melon"
+source:
+  marketplace_id: "JamesGulland.blue-melon"
+  version: "1.9.0"
+  installs: 102
+  rating: 0
+  ratings: 0
+  author: "James Gulland"
+  repo: "https://github.com/james-gulland/blue-melon"
+  url: "https://marketplace.visualstudio.com/items?itemName=JamesGulland.blue-melon"
+  formats: null
+colors:
+  bg: "#1C2233"
+  fg: "#91B4D5"
+  black: "#1C2233"
+  red: "#FC8899"
+  green: "#A3E2D3"
+  yellow: "#FFFAC2"
+  blue: "#89DDFF"
+  magenta: "#F087BD"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#91B4D5"
+  brightRed: "#FC8899"
+  brightGreen: "#A3E2D3"
+  brightYellow: "#FFFAC2"
+  brightBlue: "#ADD7FF"
+  brightMagenta: "#F087BD"
+  brightCyan: "#ADD7FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 269
+  pair: null
+  contrast:
+    fg: 57.1
+    black: 0
+    red: 54.6
+    green: 79
+    yellow: 100.5
+    blue: 76.8
+    magenta: 53.4
+    cyan: 76.8
+    white: 105.4
+    brightBlack: 57.1
+    brightRed: 54.6
+    brightGreen: 79
+    brightYellow: 100.5
+    brightBlue: 77
+    brightMagenta: 53.4
+    brightCyan: 77
+    brightWhite: 105.4

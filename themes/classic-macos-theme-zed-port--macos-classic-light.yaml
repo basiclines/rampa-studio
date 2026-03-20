@@ -1,0 +1,53 @@
+name: "Classic macOS Theme (Zed Port) (macOS Classic Light)"
+source:
+  marketplace_id: "MacOSClassicTheme.macos-classic-theme"
+  version: "0.1.0"
+  installs: 220
+  rating: 0
+  ratings: 0
+  author: "CHENJIE"
+  repo: "https://github.com/wavyhair/vscode-macos-classic-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MacOSClassicTheme.macos-classic-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#C5060B"
+  green: "#277F2B"
+  yellow: "#8E7823"
+  blue: "#282BFF"
+  magenta: "#AE30C2"
+  cyan: "#00767C"
+  white: "#FFFFFF"
+  brightBlack: "#4A4A4A"
+  brightRed: "#D9564E"
+  brightGreen: "#35BD33"
+  brightYellow: "#BDA400"
+  brightBlue: "#5685F4"
+  brightMagenta: "#D75CE7"
+  brightCyan: "#20B1C9"
+  brightWhite: "#999999"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: "Classic macOS Theme (Zed Port) (macOS Classic Dark)"
+  contrast:
+    fg: 106
+    black: 106
+    red: 78.1
+    green: 74.5
+    yellow: 69.8
+    blue: 83.4
+    magenta: 74.8
+    cyan: 76.4
+    white: 0
+    brightBlack: 90.3
+    brightRed: 65.6
+    brightGreen: 48.1
+    brightYellow: 48.5
+    brightBlue: 61.9
+    brightMagenta: 58.4
+    brightCyan: 49.7
+    brightWhite: 54.6

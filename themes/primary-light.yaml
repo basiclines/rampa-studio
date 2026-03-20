@@ -1,0 +1,53 @@
+name: "Primary Light"
+source:
+  marketplace_id: "negativeone.primary-theme"
+  version: "0.2.1"
+  installs: 231
+  rating: 0
+  ratings: 0
+  author: "negative.one"
+  repo: "https://github.com/OliverDudgeon/primary-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=negativeone.primary-theme"
+  formats: null
+colors:
+  bg: "#F6F5F2"
+  fg: "#3A3022"
+  black: "#E8E6E1"
+  red: "#AE3B3B"
+  green: "#3B8151"
+  yellow: "#C8652A"
+  blue: "#25779A"
+  magenta: "#C86565"
+  cyan: "#25779A"
+  white: "#3A3022"
+  brightBlack: "#B6AFA6"
+  brightRed: "#AE3B3B"
+  brightGreen: "#3B8151"
+  brightYellow: "#C8652A"
+  brightBlue: "#25779A"
+  brightMagenta: "#C86565"
+  brightCyan: "#25779A"
+  brightWhite: "#3A3022"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Primary Dark"
+  contrast:
+    fg: 93.1
+    black: 0
+    red: 73.2
+    green: 66.6
+    yellow: 60.2
+    blue: 68.4
+    magenta: 59.3
+    cyan: 68.4
+    white: 93.1
+    brightBlack: 36.7
+    brightRed: 73.2
+    brightGreen: 66.6
+    brightYellow: 60.2
+    brightBlue: 68.4
+    brightMagenta: 59.3
+    brightCyan: 68.4
+    brightWhite: 93.1

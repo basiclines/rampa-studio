@@ -1,0 +1,53 @@
+name: "Bubblegum Milkshake"
+source:
+  marketplace_id: "persocon.bubblegum-milkshake"
+  version: "0.0.2"
+  installs: 1499
+  rating: 0
+  ratings: 0
+  author: "persocon"
+  repo: "https://github.com/persocon/bubblegum-milkshake"
+  url: "https://marketplace.visualstudio.com/items?itemName=persocon.bubblegum-milkshake"
+  formats: null
+colors:
+  bg: "#263647"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FEA0A3"
+  green: "#1DBB9B"
+  yellow: "#FFFBCC"
+  blue: "#B2D6FB"
+  magenta: "#A665A6"
+  cyan: "#1DAFEC"
+  white: "#EDEDED"
+  brightBlack: "#686868"
+  brightRed: "#FEB9B9"
+  brightGreen: "#3CC5AA"
+  brightYellow: "#FFFBCC"
+  brightBlue: "#B2D6FB"
+  brightMagenta: "#FFD1DC"
+  brightCyan: "#478DC8"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 251
+  pair: null
+  contrast:
+    fg: 101.5
+    black: 0
+    red: 58.8
+    green: 48.3
+    yellow: 97.5
+    blue: 73
+    magenta: 26.8
+    cyan: 47.1
+    white: 89.8
+    brightBlack: 17.6
+    brightRed: 68.4
+    brightGreen: 54
+    brightYellow: 97.5
+    brightBlue: 73
+    brightMagenta: 79.5
+    brightCyan: 32.5
+    brightWhite: 101.5

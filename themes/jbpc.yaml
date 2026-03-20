@@ -1,0 +1,53 @@
+name: "jbpc"
+source:
+  marketplace_id: "infi.jbpc"
+  version: "0.0.2"
+  installs: 7454
+  rating: 5
+  ratings: 1
+  author: "Infi"
+  repo: "https://github.com/infi/jbpc"
+  url: "https://marketplace.visualstudio.com/items?itemName=infi.jbpc"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#8F93A2"
+  black: "#000000"
+  red: "#FF5370"
+  green: "#C3E88D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#464B5D"
+  brightRed: "#FF5370"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 44.3
+    black: 0
+    red: 44.6
+    green: 85.2
+    yellow: 79.9
+    blue: 56.9
+    magenta: 54.8
+    cyan: 79.3
+    white: 107.9
+    brightBlack: 12.5
+    brightRed: 44.6
+    brightGreen: 85.2
+    brightYellow: 79.9
+    brightBlue: 56.9
+    brightMagenta: 54.8
+    brightCyan: 79.3
+    brightWhite: 107.9

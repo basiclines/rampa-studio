@@ -1,0 +1,53 @@
+name: "Non Arbitrary Colors Theme"
+source:
+  marketplace_id: "michelnovus.non-arbitrary-colors-theme"
+  version: "1.1.1"
+  installs: 81
+  rating: 0
+  ratings: 0
+  author: "Michel Novus"
+  repo: "https://github.com/michelnovus/non-arbitrary-colors-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=michelnovus.non-arbitrary-colors-theme"
+  formats: null
+colors:
+  bg: "#121212"
+  fg: "#E0E0E0"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#B3B42B"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 87.3
+    black: 0
+    red: 25
+    green: 53.4
+    yellow: 58.1
+    blue: 35.1
+    magenta: 32.6
+    cyan: 50.9
+    white: 88.9
+    brightBlack: 22.5
+    brightRed: 37.7
+    brightGreen: 77.4
+    brightYellow: 84.3
+    brightBlue: 50.3
+    brightMagenta: 47
+    brightCyan: 73.8
+    brightWhite: 102.4

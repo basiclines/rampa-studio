@@ -1,0 +1,53 @@
+name: "Kybik"
+source:
+  marketplace_id: "Kybik.kybik"
+  version: "1.0.0"
+  installs: 49
+  rating: 0
+  ratings: 0
+  author: "Kybik"
+  repo: "https://github.com/Kybikcube/Kybik"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kybik.kybik"
+  formats: null
+colors:
+  bg: "#1C1E26"
+  fg: "#A9A9A9"
+  black: "#000000"
+  red: "#8A1F1F"
+  green: "#0A8858"
+  yellow: "#B6B60B"
+  blue: "#195699"
+  magenta: "#8A2E8A"
+  cyan: "#0E8BA9"
+  white: "#FBFBFB"
+  brightBlack: "#4D4D4D"
+  brightRed: "#6F1414"
+  brightGreen: "#189965"
+  brightYellow: "#ADAD31"
+  brightBlue: "#3274BE"
+  brightMagenta: "#944F94"
+  brightCyan: "#2396B2"
+  brightWhite: "#BABABA"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 274
+  pair: null
+  contrast:
+    fg: 53.8
+    black: 0
+    red: 10.6
+    green: 29.2
+    yellow: 57.9
+    blue: 14.8
+    magenta: 15.3
+    cyan: 33.2
+    white: 103.4
+    brightBlack: 11.2
+    brightRed: 0
+    brightGreen: 36.4
+    brightYellow: 53.2
+    brightBlue: 26.9
+    brightMagenta: 22.6
+    brightCyan: 38.1
+    brightWhite: 63.3

@@ -1,0 +1,53 @@
+name: "sky-miami-vice"
+source:
+  marketplace_id: "sky-designs.sky-themes"
+  version: "0.0.3"
+  installs: 498
+  rating: 0
+  ratings: 0
+  author: "sky-designs"
+  repo: "https://gitlab.com/mskyberg/sky-vscode-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=sky-designs.sky-themes"
+  formats: null
+colors:
+  bg: "#000E31"
+  fg: "#F70A5A"
+  black: "#111111"
+  red: "#FF9DA4"
+  green: "#D1F1A9"
+  yellow: "#FFEEAD"
+  blue: "#BBDAFF"
+  magenta: "#EBBBFF"
+  cyan: "#99FFFF"
+  white: "#CCCCCC"
+  brightBlack: "#333333"
+  brightRed: "#FF7882"
+  brightGreen: "#CE0A4C"
+  brightYellow: "#FFE580"
+  brightBlue: "#80BAFF"
+  brightMagenta: "#D778FF"
+  brightCyan: "#78FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 260
+  pair: null
+  contrast:
+    fg: 35.7
+    black: 0
+    red: 63.7
+    green: 91.2
+    yellow: 96.1
+    blue: 81.7
+    magenta: 75.1
+    cyan: 96.3
+    white: 75
+    brightBlack: 0
+    brightRed: 52
+    brightGreen: 25.6
+    brightYellow: 90.8
+    brightBlue: 62.5
+    brightMagenta: 50.6
+    brightCyan: 94.2
+    brightWhite: 107.2

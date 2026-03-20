@@ -1,0 +1,53 @@
+name: "Rainglow (friction-contrast)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#0C0C0F"
+  fg: "#7E7B99"
+  black: "#17171D"
+  red: "#BA0E2E"
+  green: "#8D89A5"
+  yellow: "#6AA7A7"
+  blue: "#C2BED6"
+  magenta: "#8D89A5"
+  cyan: "#6AA7A7"
+  white: "#8C89A4"
+  brightBlack: "#393948"
+  brightRed: "#F03E5F"
+  brightGreen: "#C5C3D1"
+  brightYellow: "#AACDCD"
+  brightBlue: "#FDFDFD"
+  brightMagenta: "#C5C3D1"
+  brightCyan: "#AACDCD"
+  brightWhite: "#B6B5C5"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (friction-light)"
+  contrast:
+    fg: 33.6
+    black: 0
+    red: 21.3
+    green: 40.4
+    yellow: 48.9
+    blue: 68.8
+    magenta: 40.4
+    cyan: 48.9
+    white: 40.3
+    brightBlack: 0
+    brightRed: 37.6
+    brightGreen: 71
+    brightYellow: 72
+    brightBlue: 106.3
+    brightMagenta: 71
+    brightCyan: 72
+    brightWhite: 62.9

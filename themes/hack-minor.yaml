@@ -1,0 +1,53 @@
+name: "Hack Minor"
+source:
+  marketplace_id: "adamsome.vscode-theme-phosphorus-minor"
+  version: "1.1.3"
+  installs: 421
+  rating: 5
+  ratings: 1
+  author: "adamsome"
+  repo: "https://github.com/adamsome/vscode-theme-phosphorus-minor"
+  url: "https://marketplace.visualstudio.com/items?itemName=adamsome.vscode-theme-phosphorus-minor"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#A8A29E"
+  black: "#000000"
+  red: "#DC2626"
+  green: "#7E9E83"
+  yellow: "#A09B4E"
+  blue: "#55757F"
+  magenta: "#DC2626"
+  cyan: "#60A2A3"
+  white: "#292524"
+  brightBlack: "#120F0E"
+  brightRed: "#F87171"
+  brightGreen: "#B8D3BB"
+  brightYellow: "#D9D385"
+  brightBlue: "#93A7AF"
+  brightMagenta: "#F87171"
+  brightCyan: "#9AD7D8"
+  brightWhite: "#1C1917"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 52.5
+    black: 0
+    red: 30.1
+    green: 45.7
+    yellow: 46.8
+    blue: 27.4
+    magenta: 30.1
+    cyan: 46.3
+    white: 0
+    brightBlack: 0
+    brightRed: 49.1
+    brightGreen: 75.7
+    brightYellow: 78.1
+    brightBlue: 52.8
+    brightMagenta: 49.1
+    brightCyan: 75.8
+    brightWhite: 0

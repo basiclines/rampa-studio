@@ -1,0 +1,53 @@
+name: "ZeMizer Grey"
+source:
+  marketplace_id: "Kmzx.zemizer-theme"
+  version: "1.0.1"
+  installs: 118
+  rating: 5
+  ratings: 1
+  author: "ZeKmzx"
+  repo: "https://github.com/mlaidouni/vsc.ext.zemizer.theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Kmzx.zemizer-theme"
+  formats: null
+colors:
+  bg: "#24292E"
+  fg: "#E1E4E8"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#26A269"
+  yellow: "#CDCD00"
+  blue: "#2AA1B3"
+  magenta: "#AE81FF"
+  cyan: "#2DE0A7"
+  white: "#F1EFF8"
+  brightBlack: "#666699"
+  brightRed: "#FF0000"
+  brightGreen: "#33D17A"
+  brightYellow: "#7AA5FF"
+  brightBlue: "#2A7BDE"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#33C7DE"
+  brightWhite: "#53495D"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 86.7
+    black: 0
+    red: 34
+    green: 38.8
+    yellow: 69
+    blue: 41.1
+    magenta: 44
+    cyan: 69.3
+    white: 94.6
+    brightBlack: 21.6
+    brightRed: 34
+    brightGreen: 60.8
+    brightYellow: 50.9
+    brightBlue: 29.6
+    brightMagenta: 44
+    brightCyan: 59.9
+    brightWhite: 9.5

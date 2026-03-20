@@ -1,0 +1,53 @@
+name: "Nier: Automata Theme"
+source:
+  marketplace_id: "israelyagopereira.nier-automata-theme"
+  version: "0.0.4"
+  installs: 2280
+  rating: 0
+  ratings: 0
+  author: "Israel Yago Pereira"
+  repo: "https://github.com/israelyago/nier-automata-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=israelyagopereira.nier-automata-theme"
+  formats: null
+colors:
+  bg: "#E7DEC9"
+  fg: "#3E3B35"
+  black: "#3F3E32"
+  red: "#FF3200"
+  green: "#358138"
+  yellow: "#A38920"
+  blue: "#2A8EBE"
+  magenta: "#C77BB0"
+  cyan: "#0288A7"
+  white: "#8D8F7E"
+  brightBlack: "#515040"
+  brightRed: "#FF0000"
+  brightGreen: "#5DD462"
+  brightYellow: "#D7AC01"
+  brightBlue: "#0078B4"
+  brightMagenta: "#FF73D5"
+  brightCyan: "#4CB4CC"
+  brightWhite: "#EFF0E2"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: 88
+  pair: null
+  contrast:
+    fg: 76.8
+    black: 76
+    red: 43.3
+    green: 54.1
+    yellow: 42.4
+    blue: 44.9
+    magenta: 38.1
+    cyan: 48.8
+    white: 41.3
+    brightBlack: 69.2
+    brightRed: 45.1
+    brightGreen: 16.7
+    brightYellow: 22.8
+    brightBlue: 53.8
+    brightMagenta: 28
+    brightCyan: 28.2
+    brightWhite: 8.5

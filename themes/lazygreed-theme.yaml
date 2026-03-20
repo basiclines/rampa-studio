@@ -1,0 +1,53 @@
+name: "lazygreed-theme"
+source:
+  marketplace_id: "LazyGreed.lazygreed-theme"
+  version: "0.0.9"
+  installs: 18
+  rating: 0
+  ratings: 0
+  author: "LazyGreed"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=LazyGreed.lazygreed-theme"
+  formats: null
+colors:
+  bg: "#191921"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#18D88F"
+  yellow: "#F3F307"
+  blue: "#2472C8"
+  magenta: "#E42AE4"
+  cyan: "#02CCFF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 106.6
+    black: 0
+    red: 26.4
+    green: 66.7
+    yellow: 93.9
+    blue: 27.1
+    magenta: 38.1
+    cyan: 65.9
+    white: 106.6
+    brightBlack: 21.7
+    brightRed: 38.3
+    brightGreen: 63.2
+    brightYellow: 95.3
+    brightBlue: 39.7
+    brightMagenta: 45.1
+    brightCyan: 55.1
+    brightWhite: 89.7

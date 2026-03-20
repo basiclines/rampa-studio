@@ -1,0 +1,55 @@
+name: "São Paulo Night"
+source:
+  marketplace_id: "carlosdanieldev.saopaulo-night"
+  version: "0.1.1"
+  installs: 52
+  rating: 0
+  ratings: 0
+  author: "CarlosDanielDev"
+  repo: "https://github.com/CarlosDanielDev/saopaulo-night"
+  url: "https://marketplace.visualstudio.com/items?itemName=carlosdanieldev.saopaulo-night"
+  formats:
+    vim: "https://raw.githubusercontent.com/CarlosDanielDev/saopaulo-night/main/packages/neovim/colors/saopaulo-night.vim"
+    nvim: "https://raw.githubusercontent.com/CarlosDanielDev/saopaulo-night/main/packages/neovim/lua/saopaulo-night/init.lua"
+colors:
+  bg: "#1A1D23"
+  fg: "#B4B8C4"
+  black: "#16181D"
+  red: "#C17884"
+  green: "#88B3A0"
+  yellow: "#C9B589"
+  blue: "#6B8DB3"
+  magenta: "#A188B8"
+  cyan: "#7EB3C7"
+  white: "#B4B8C4"
+  brightBlack: "#5C5F6D"
+  brightRed: "#DB909B"
+  brightGreen: "#A0CCB8"
+  brightYellow: "#E3CEA1"
+  brightBlue: "#83A5CC"
+  brightMagenta: "#B9A0D1"
+  brightCyan: "#96CCE0"
+  brightWhite: "#B4B8C4"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 62.4
+    black: 0
+    red: 39.4
+    green: 54.4
+    yellow: 61.7
+    blue: 38
+    magenta: 41.8
+    cyan: 55.3
+    white: 62.4
+    brightBlack: 18.6
+    brightRed: 51.7
+    brightGreen: 68.3
+    brightYellow: 76.4
+    brightBlue: 50.3
+    brightMagenta: 54.4
+    brightCyan: 69.2
+    brightWhite: 62.4

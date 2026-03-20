@@ -1,0 +1,53 @@
+name: "Raiyanplanet Theme (RaiyanPlanet Purple World)"
+source:
+  marketplace_id: "RaiyanPlanet.raiyanplanet-dark-theme"
+  version: "0.0.1"
+  installs: 99
+  rating: 0
+  ratings: 0
+  author: "Raiyan Planet"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=RaiyanPlanet.raiyanplanet-dark-theme"
+  formats: null
+colors:
+  bg: "#121420"
+  fg: "#BFC7D5"
+  black: "#676E95"
+  red: "#FF5572"
+  green: "#A9C77D"
+  yellow: "#FFCB6B"
+  blue: "#82AAFF"
+  magenta: "#C792EA"
+  cyan: "#89DDFF"
+  white: "#FFFFFF"
+  brightBlack: "#676E95"
+  brightRed: "#FF5572"
+  brightGreen: "#C3E88D"
+  brightYellow: "#FFCB6B"
+  brightBlue: "#82AAFF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89DDFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 277
+  pair: null
+  contrast:
+    fg: 71.6
+    black: 26.6
+    red: 44.2
+    green: 66
+    yellow: 79.1
+    blue: 56.1
+    magenta: 54
+    cyan: 78.5
+    white: 107.1
+    brightBlack: 26.6
+    brightRed: 44.2
+    brightGreen: 84.4
+    brightYellow: 79.1
+    brightBlue: 56.1
+    brightMagenta: 54
+    brightCyan: 78.5
+    brightWhite: 107.1

@@ -1,0 +1,53 @@
+name: "Backspace Dark Vibe Coder"
+source:
+  marketplace_id: "SamiurRahmanMukul.backspace-theme"
+  version: "0.2.0"
+  installs: 289
+  rating: 5
+  ratings: 2
+  author: "SamiurRahmanMukul"
+  repo: "https://github.com/SamiurRahmanMukul/backspace-vs-code-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=SamiurRahmanMukul.backspace-theme"
+  formats: null
+colors:
+  bg: "#1A0F2A"
+  fg: "#E8E6E3"
+  black: "#12041F"
+  red: "#FF7A3D"
+  green: "#8CFFCB"
+  yellow: "#FFD27F"
+  blue: "#6EF3FF"
+  magenta: "#FF5EDB"
+  cyan: "#9FE4FF"
+  white: "#FFFFFF"
+  brightBlack: "#12041F"
+  brightRed: "#FF7A3D"
+  brightGreen: "#8CFFCB"
+  brightYellow: "#FFD27F"
+  brightBlue: "#6EF3FF"
+  brightMagenta: "#FF5EDB"
+  brightCyan: "#9FE4FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 300
+  pair: null
+  contrast:
+    fg: 90.9
+    black: 0
+    red: 51.1
+    green: 92.9
+    yellow: 82.4
+    blue: 87.4
+    magenta: 50.1
+    cyan: 83.4
+    white: 107
+    brightBlack: 0
+    brightRed: 51.1
+    brightGreen: 92.9
+    brightYellow: 82.4
+    brightBlue: 87.4
+    brightMagenta: 50.1
+    brightCyan: 83.4
+    brightWhite: 107

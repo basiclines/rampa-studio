@@ -1,0 +1,53 @@
+name: "Nix (Nix)"
+source:
+  marketplace_id: "alvarosannas.nix"
+  version: "1.4.8"
+  installs: 2952
+  rating: 5
+  ratings: 1
+  author: "Alvaro Santana"
+  repo: "https://github.com/alvarosannas/nix"
+  url: "https://marketplace.visualstudio.com/items?itemName=alvarosannas.nix"
+  formats: null
+colors:
+  bg: "#1A1A1A"
+  fg: "#F8F8F2"
+  black: "#1A1A1A"
+  red: "#F24B78"
+  green: "#50FA7B"
+  yellow: "#F1FA8C"
+  blue: "#30BCED"
+  magenta: "#A978FF"
+  cyan: "#8BE9FD"
+  white: "#F8F8F2"
+  brightBlack: "#1A1A1A"
+  brightRed: "#F24B78"
+  brightGreen: "#50FA7B"
+  brightYellow: "#F1FA8C"
+  brightBlue: "#30BCED"
+  brightMagenta: "#A978FF"
+  brightCyan: "#8BE9FD"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.6
+    black: 0
+    red: 39.3
+    green: 84.5
+    yellow: 98.2
+    blue: 58
+    magenta: 43
+    cyan: 83.6
+    white: 101.6
+    brightBlack: 0
+    brightRed: 39.3
+    brightGreen: 84.5
+    brightYellow: 98.2
+    brightBlue: 58
+    brightMagenta: 43
+    brightCyan: 83.6
+    brightWhite: 101.6

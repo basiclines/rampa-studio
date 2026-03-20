@@ -1,0 +1,53 @@
+name: "Hackpot (Hackpot Dark Knight)"
+source:
+  marketplace_id: "wwmyers.hackpot"
+  version: "3.0.0"
+  installs: 24360
+  rating: 5
+  ratings: 5
+  author: "wwmyers"
+  repo: "https://github.com/wwmyers/hackpot"
+  url: "https://marketplace.visualstudio.com/items?itemName=wwmyers.hackpot"
+  formats: null
+colors:
+  bg: "#142739"
+  fg: "#BBD1DD"
+  black: "#1A344C"
+  red: "#FF704D"
+  green: "#486484"
+  yellow: "#FFFF99"
+  blue: "#268BD2"
+  magenta: "#9933FF"
+  cyan: "#1B9891"
+  white: "#BBD1DD"
+  brightBlack: "#21415F"
+  brightRed: "#FF661A"
+  brightGreen: "#33CC33"
+  brightYellow: "#FFFF1A"
+  brightBlue: "#1FADA6"
+  brightMagenta: "#A64DFF"
+  brightCyan: "#00FFFF"
+  brightWhite: "#C4EDC4"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 248
+  pair: null
+  contrast:
+    fg: 73.5
+    black: 0
+    red: 46.6
+    green: 18.3
+    yellow: 101.2
+    blue: 34.7
+    magenta: 25.9
+    cyan: 36.2
+    white: 73.5
+    brightBlack: 0
+    brightRed: 44
+    brightGreen: 57.8
+    brightYellow: 99.6
+    brightBlue: 45.8
+    brightMagenta: 31.3
+    brightCyan: 89.1
+    brightWhite: 86.3

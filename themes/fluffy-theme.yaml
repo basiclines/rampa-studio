@@ -1,0 +1,53 @@
+name: "Fluffy Theme"
+source:
+  marketplace_id: "ayakoSky.fluffy-theme"
+  version: "0.0.10"
+  installs: 14350
+  rating: 5
+  ratings: 6
+  author: "ayako"
+  repo: "https://github.com/ayako02/fluffy-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ayakoSky.fluffy-theme"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#FF9EB5"
+  black: "#333333"
+  red: "#CF426F"
+  green: "#318B8C"
+  yellow: "#FFD686"
+  blue: "#4B83CD"
+  magenta: "#888CCC"
+  cyan: "#9DDBD6"
+  white: "#72696F"
+  brightBlack: "#444343"
+  brightRed: "#E27B7B"
+  brightGreen: "#58BBBD"
+  brightYellow: "#F3D36B"
+  brightBlue: "#78B1FC"
+  brightMagenta: "#DB81CC"
+  brightCyan: "#B2E6E1"
+  brightWhite: "#978C94"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Fluffy Dark Theme"
+  contrast:
+    fg: 37.1
+    black: 98.7
+    red: 70.3
+    green: 67.3
+    yellow: 18.5
+    blue: 65.9
+    magenta: 58.5
+    cyan: 25.3
+    white: 76.4
+    brightBlack: 92.9
+    brightRed: 54.3
+    brightGreen: 44.5
+    brightYellow: 21.9
+    brightBlue: 43.4
+    brightMagenta: 50.8
+    brightCyan: 18.2
+    brightWhite: 59.6

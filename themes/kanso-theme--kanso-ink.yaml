@@ -1,0 +1,53 @@
+name: "Kanso Theme (Kanso Ink)"
+source:
+  marketplace_id: "Webhooked.kanso-theme"
+  version: "0.2.3"
+  installs: 3043
+  rating: 5
+  ratings: 6
+  author: "Webhooked"
+  repo: "https://github.com/webhooked/kanso-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Webhooked.kanso-theme"
+  formats: null
+colors:
+  bg: "#14171D"
+  fg: "#C5C9C7"
+  black: "#22262D"
+  red: "#C4746E"
+  green: "#8A9A7B"
+  yellow: "#C4B28A"
+  blue: "#8BA4B0"
+  magenta: "#A292A3"
+  cyan: "#8EA4A2"
+  white: "#C5C9C7"
+  brightBlack: "#9E9B93"
+  brightRed: "#E46876"
+  brightGreen: "#87A987"
+  brightYellow: "#E6C384"
+  brightBlue: "#7FB4CA"
+  brightMagenta: "#938AA9"
+  brightCyan: "#7AA89F"
+  brightWhite: "#C5C9C7"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: "Kanso Theme (Kanso Pearl)"
+  contrast:
+    fg: 72.3
+    black: 0
+    red: 38.8
+    green: 44
+    yellow: 60.6
+    blue: 49.9
+    magenta: 45.1
+    cyan: 49.6
+    white: 72.3
+    brightBlack: 47.3
+    brightRed: 42
+    brightGreen: 50
+    brightYellow: 72.1
+    brightBlue: 56.6
+    brightMagenta: 40.8
+    brightCyan: 49.4
+    brightWhite: 72.3

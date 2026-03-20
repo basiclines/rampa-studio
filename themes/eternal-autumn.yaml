@@ -1,0 +1,53 @@
+name: "Eternal Autumn"
+source:
+  marketplace_id: "devkvlt.eternal"
+  version: "0.0.2"
+  installs: 116
+  rating: 5
+  ratings: 1
+  author: "devkvlt"
+  repo: "https://github.com/devkvlt/eternal.vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=devkvlt.eternal"
+  formats: null
+colors:
+  bg: "#110014"
+  fg: "#B3AFCE"
+  black: "#110014"
+  red: "#B2437C"
+  green: "#57AD9C"
+  yellow: "#DCAA70"
+  blue: "#6A8CF6"
+  magenta: "#A679FC"
+  cyan: "#55C6CE"
+  white: "#B3AFCE"
+  brightBlack: "#827A96"
+  brightRed: "#B2437C"
+  brightGreen: "#57AD9C"
+  brightYellow: "#DCAA70"
+  brightBlue: "#6A8CF6"
+  brightMagenta: "#A679FC"
+  brightCyan: "#55C6CE"
+  brightWhite: "#625871"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 323
+  pair: null
+  contrast:
+    fg: 60.7
+    black: 0
+    red: 26.1
+    green: 50
+    yellow: 61.2
+    blue: 43.4
+    magenta: 43.8
+    cyan: 63
+    white: 60.7
+    brightBlack: 33.7
+    brightRed: 26.1
+    brightGreen: 50
+    brightYellow: 61.2
+    brightBlue: 43.4
+    brightMagenta: 43.8
+    brightCyan: 63
+    brightWhite: 18.9

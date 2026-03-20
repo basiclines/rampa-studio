@@ -1,0 +1,53 @@
+name: "MagicUser Purple Night"
+source:
+  marketplace_id: "BernardoPires.magicuser-color-themes"
+  version: "8.5.2"
+  installs: 1705
+  rating: 5
+  ratings: 2
+  author: "Bernardo Pires"
+  repo: "https://github.com/drbap/magicuser-themes-for-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=BernardoPires.magicuser-color-themes"
+  formats: null
+colors:
+  bg: "#110022"
+  fg: "#D8D8D8"
+  black: "#111111"
+  red: "#FF4848"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0000FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#333333"
+  brightRed: "#F14848"
+  brightGreen: "#48F148"
+  brightYellow: "#FFFF48"
+  brightBlue: "#00A3F1"
+  brightMagenta: "#F148F1"
+  brightCyan: "#48F1F1"
+  brightWhite: "#D8D8D8"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 304
+  pair: "MagicUser Light Purple"
+  contrast:
+    fg: 82.6
+    black: 0
+    red: 41.9
+    green: 86.2
+    yellow: 102.4
+    blue: 15.9
+    magenta: 45.9
+    cyan: 91.9
+    white: 107.6
+    brightBlack: 0
+    brightRed: 38.6
+    brightGreen: 79.9
+    brightYellow: 102.7
+    brightBlue: 48.4
+    brightMagenta: 45.7
+    brightCyan: 84.8
+    brightWhite: 82.6

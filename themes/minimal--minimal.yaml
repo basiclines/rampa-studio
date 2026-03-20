@@ -1,0 +1,53 @@
+name: "Minimal (Minimal)"
+source:
+  marketplace_id: "YesCode.my-minimal-theme"
+  version: "0.0.22"
+  installs: 6445
+  rating: 5
+  ratings: 3
+  author: "YesCode"
+  repo: "https://github.com/yesomac/MinimalTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.my-minimal-theme"
+  formats: null
+colors:
+  bg: "#191A1A"
+  fg: "#F9FFD5"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#DFF84F"
+  brightYellow: "#E7F0FF"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 0
+    red: 41.7
+    green: 60.7
+    yellow: 72.8
+    blue: 47.2
+    magenta: 19.2
+    cyan: 49.1
+    white: 46.9
+    brightBlack: 18.3
+    brightRed: 41.7
+    brightGreen: 93.9
+    brightYellow: 96.3
+    brightBlue: 18.4
+    brightMagenta: 19.2
+    brightCyan: 49.1
+    brightWhite: 98.6

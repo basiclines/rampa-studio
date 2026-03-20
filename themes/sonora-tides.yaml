@@ -1,0 +1,53 @@
+name: "Sonora Tides"
+source:
+  marketplace_id: "martinlatrille.sonora"
+  version: "0.0.8"
+  installs: 32
+  rating: 0
+  ratings: 0
+  author: "martinlatrille"
+  repo: "https://github.com/martinlatrille/Sonora"
+  url: "https://marketplace.visualstudio.com/items?itemName=martinlatrille.sonora"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#D7DAE6"
+  black: "#494D64"
+  red: "#ED8796"
+  green: "#A6DA95"
+  yellow: "#EED49F"
+  blue: "#8AADF4"
+  magenta: "#F5BDE6"
+  cyan: "#8BD5CA"
+  white: "#A5ADCB"
+  brightBlack: "#5B6078"
+  brightRed: "#EC7486"
+  brightGreen: "#8CCF7F"
+  brightYellow: "#E1C682"
+  brightBlue: "#78A1F6"
+  brightMagenta: "#F2A9DD"
+  brightCyan: "#63CBC0"
+  brightWhite: "#B8C0E0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 80.1
+    black: 9.3
+    red: 49.6
+    green: 71.6
+    yellow: 78
+    blue: 53.8
+    magenta: 72.6
+    cyan: 68.8
+    white: 54.1
+    brightBlack: 16.7
+    brightRed: 43.7
+    brightGreen: 63.6
+    brightYellow: 69.4
+    brightBlue: 47.9
+    brightMagenta: 64.3
+    brightCyan: 61.3
+    brightWhite: 64.9

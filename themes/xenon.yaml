@@ -1,0 +1,54 @@
+name: "Xenon"
+source:
+  marketplace_id: "Henriquehnnm.xenon"
+  version: "1.0.4"
+  installs: 42
+  rating: 0
+  ratings: 0
+  author: "Henrique"
+  repo: "https://github.com/Henriquehnnm/Xenon_VSCode"
+  url: "https://marketplace.visualstudio.com/items?itemName=Henriquehnnm.xenon"
+  formats:
+    zed: "https://raw.githubusercontent.com/Henriquehnnm/Xenon_VSCode/master/themes/Xenon-Solarized-Remap-theme.json"
+colors:
+  bg: "#0B0C0E"
+  fg: "#E8E8EF"
+  black: "#0B0C0E"
+  red: "#FF7B8F"
+  green: "#D3FA83"
+  yellow: "#FFCC91"
+  blue: "#34D8FF"
+  magenta: "#FF7CF3"
+  cyan: "#67F1D2"
+  white: "#E8E8EF"
+  brightBlack: "#8F8F9B"
+  brightRed: "#FF7B8F"
+  brightGreen: "#D3FA83"
+  brightYellow: "#FFCC91"
+  brightBlue: "#34D8FF"
+  brightMagenta: "#FF7CF3"
+  brightCyan: "#67F1D2"
+  brightWhite: "#E8E8EF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93
+    black: 0
+    red: 53.6
+    green: 95.3
+    yellow: 80.9
+    blue: 73
+    magenta: 58.6
+    cyan: 84.6
+    white: 93
+    brightBlack: 42.3
+    brightRed: 53.6
+    brightGreen: 95.3
+    brightYellow: 80.9
+    brightBlue: 73
+    brightMagenta: 58.6
+    brightCyan: 84.6
+    brightWhite: 93

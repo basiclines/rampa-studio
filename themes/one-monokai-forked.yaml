@@ -1,0 +1,53 @@
+name: "One Monokai Forked"
+source:
+  marketplace_id: "mub.one-monokai-forked"
+  version: "0.6.3"
+  installs: 1090
+  rating: 5
+  ratings: 1
+  author: "mub"
+  repo: "https://github.com/mubdiur/vscode-one-monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=mub.one-monokai-forked"
+  formats: null
+colors:
+  bg: "#131417"
+  fg: "#ABB2BF"
+  black: "#2D3139"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#E5C07B"
+  blue: "#528BFF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#D7DAE0"
+  brightBlack: "#7F848E"
+  brightRed: "#F44747"
+  brightGreen: "#98C379"
+  brightYellow: "#E5C07B"
+  brightBlue: "#528BFF"
+  brightMagenta: "#7E0097"
+  brightCyan: "#56B6C2"
+  brightWhite: "#D7DAE0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 59.7
+    black: 0
+    red: 42.4
+    green: 62.5
+    yellow: 70.8
+    blue: 41.7
+    magenta: 45.4
+    cyan: 54.8
+    white: 83.3
+    brightBlack: 35.8
+    brightRed: 38.7
+    brightGreen: 62.5
+    brightYellow: 70.8
+    brightBlue: 41.7
+    brightMagenta: 13
+    brightCyan: 54.8
+    brightWhite: 83.3

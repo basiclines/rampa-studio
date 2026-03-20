@@ -1,0 +1,53 @@
+name: ".K Relaxed"
+source:
+  marketplace_id: "tarikkavaz.k-relaxed"
+  version: "1.0.0"
+  installs: 15
+  rating: 0
+  ratings: 0
+  author: "Tarik Kavaz"
+  repo: "https://github.com/tarikkavaz/K-Relaxed-VSCode-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=tarikkavaz.k-relaxed"
+  formats: null
+colors:
+  bg: "#181A28"
+  fg: "#D6D8E1"
+  black: "#2E2E2E"
+  red: "#FF5370"
+  green: "#A3BE8C"
+  yellow: "#E0AF68"
+  blue: "#7FD1FF"
+  magenta: "#C792EA"
+  cyan: "#89A4C1"
+  white: "#D6D8E1"
+  brightBlack: "#666666"
+  brightRed: "#FF5370"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7FD1FF"
+  brightMagenta: "#C792EA"
+  brightCyan: "#89A4C1"
+  brightWhite: "#D6D8E1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 278
+  pair: null
+  contrast:
+    fg: 81.6
+    black: 0
+    red: 43.2
+    green: 61.2
+    yellow: 62.3
+    blue: 71.6
+    magenta: 53.3
+    cyan: 50.1
+    white: 81.6
+    brightBlack: 21.6
+    brightRed: 43.2
+    brightGreen: 61.2
+    brightYellow: 62.3
+    brightBlue: 71.6
+    brightMagenta: 53.3
+    brightCyan: 50.1
+    brightWhite: 81.6

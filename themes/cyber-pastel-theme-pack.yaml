@@ -1,0 +1,53 @@
+name: "Cyber Pastel Theme Pack"
+source:
+  marketplace_id: "cyber-pastel-themes.cyber-pastel-theme-pack"
+  version: "1.0.0"
+  installs: 427
+  rating: 5
+  ratings: 2
+  author: "cyber-pastel-themes"
+  repo: "https://github.com/your-username/cyber-pastel-theme-pack"
+  url: "https://marketplace.visualstudio.com/items?itemName=cyber-pastel-themes.cyber-pastel-theme-pack"
+  formats: null
+colors:
+  bg: "#FEFEFF"
+  fg: "#374151"
+  black: "#374151"
+  red: "#EF4444"
+  green: "#10B981"
+  yellow: "#F59E0B"
+  blue: "#3B82F6"
+  magenta: "#8B5CF6"
+  cyan: "#06B6D4"
+  white: "#F9FAFB"
+  brightBlack: "#374151"
+  brightRed: "#EF4444"
+  brightGreen: "#10B981"
+  brightYellow: "#F59E0B"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#8B5CF6"
+  brightCyan: "#06B6D4"
+  brightWhite: "#F9FAFB"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 93.4
+    black: 93.4
+    red: 63.3
+    green: 48.5
+    yellow: 41.2
+    blue: 63.3
+    magenta: 68.2
+    cyan: 46.6
+    white: 0
+    brightBlack: 93.4
+    brightRed: 63.3
+    brightGreen: 48.5
+    brightYellow: 41.2
+    brightBlue: 63.3
+    brightMagenta: 68.2
+    brightCyan: 46.6
+    brightWhite: 0

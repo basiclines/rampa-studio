@@ -1,0 +1,53 @@
+name: "Solaris"
+source:
+  marketplace_id: "SkiffOn.solaris-theme-ultra"
+  version: "0.0.2"
+  installs: 71
+  rating: 0
+  ratings: 0
+  author: "SkiffOn"
+  repo: "https://github.com/KonstantinChuper/Solaris"
+  url: "https://marketplace.visualstudio.com/items?itemName=SkiffOn.solaris-theme-ultra"
+  formats: null
+colors:
+  bg: "#1B1B1B"
+  fg: "#837184"
+  black: "#000000"
+  red: "#D13E3E"
+  green: "#13E292"
+  yellow: "#F0D917"
+  blue: "#703DFF"
+  magenta: "#B423C0"
+  cyan: "#1152CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F26161"
+  brightGreen: "#72FFC6"
+  brightYellow: "#F5F543"
+  brightBlue: "#7729C4"
+  brightMagenta: "#B46AB4"
+  brightCyan: "#7E8BF7"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 28.9
+    black: 0
+    red: 28.8
+    green: 71.5
+    yellow: 81.3
+    blue: 23.8
+    magenta: 25.3
+    cyan: 18.1
+    white: 89.6
+    brightBlack: 21.6
+    brightRed: 42.5
+    brightGreen: 90.6
+    brightYellow: 95.2
+    brightBlue: 16.5
+    brightMagenta: 35.8
+    brightCyan: 43.4
+    brightWhite: 89.6

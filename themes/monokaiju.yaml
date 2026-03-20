@@ -1,0 +1,53 @@
+name: "monokaiju"
+source:
+  marketplace_id: "konapun.monokaiju"
+  version: "0.3.2"
+  installs: 1215
+  rating: 5
+  ratings: 1
+  author: "konapun"
+  repo: "https://github.com/konapun/monokaiju"
+  url: "https://marketplace.visualstudio.com/items?itemName=konapun.monokaiju"
+  formats: null
+colors:
+  bg: "#1A1D1E"
+  fg: "#F8F8F2"
+  black: "#272922"
+  red: "#F92672"
+  green: "#A6E22E"
+  yellow: "#FD971F"
+  blue: "#66D9EF"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#666666"
+  brightRed: "#F92672"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E2E22E"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 101.3
+    black: 0
+    red: 36.7
+    green: 76.4
+    yellow: 58.1
+    blue: 72.8
+    magenta: 31.6
+    cyan: 49.8
+    white: 87.9
+    brightBlack: 21.4
+    brightRed: 36.7
+    brightGreen: 76.4
+    brightYellow: 83.3
+    brightBlue: 49.2
+    brightMagenta: 45.9
+    brightCyan: 72.8
+    brightWhite: 101.3

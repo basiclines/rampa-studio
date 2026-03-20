@@ -1,0 +1,53 @@
+name: "Ember Glow"
+source:
+  marketplace_id: "camfleety.ember-glow"
+  version: "1.0.0"
+  installs: 17
+  rating: 0
+  ratings: 0
+  author: "camfleety"
+  repo: "https://github.com/camfleety/ember-glow"
+  url: "https://marketplace.visualstudio.com/items?itemName=camfleety.ember-glow"
+  formats: null
+colors:
+  bg: "#1E1B18"
+  fg: "#E2D9D0"
+  black: "#302B28"
+  red: "#D35D4C"
+  green: "#A3B38C"
+  yellow: "#D4A656"
+  blue: "#7A9EC2"
+  magenta: "#C9856A"
+  cyan: "#7EB8A8"
+  white: "#E2D9D0"
+  brightBlack: "#635850"
+  brightRed: "#E8834A"
+  brightGreen: "#B8C9A0"
+  brightYellow: "#E8C078"
+  brightBlue: "#9BB8D8"
+  brightMagenta: "#DAA090"
+  brightCyan: "#98D0C0"
+  brightWhite: "#F0E8E0"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 82.9
+    black: 0
+    red: 34.7
+    green: 56.5
+    yellow: 56.7
+    blue: 46.5
+    magenta: 44
+    cyan: 56.2
+    white: 82.9
+    brightBlack: 16.6
+    brightRed: 48.4
+    brightGreen: 68.8
+    brightYellow: 70.5
+    brightBlue: 60.9
+    brightMagenta: 56.8
+    brightCyan: 69.9
+    brightWhite: 92.2

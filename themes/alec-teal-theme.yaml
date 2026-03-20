@@ -1,0 +1,53 @@
+name: "Alec Teal Theme"
+source:
+  marketplace_id: "alecvision.alecvision-themes"
+  version: "0.0.1"
+  installs: 264
+  rating: 0
+  ratings: 0
+  author: "AlecVision"
+  repo: "https://github.com/AlecVision/themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=alecvision.alecvision-themes"
+  formats: null
+colors:
+  bg: "#13222E"
+  fg: "#ACBECC"
+  black: "#13222E"
+  red: "#CA3E5A"
+  green: "#81A559"
+  yellow: "#EBB062"
+  blue: "#4496CD"
+  magenta: "#B35D8D"
+  cyan: "#42ABAB"
+  white: "#96A8B5"
+  brightBlack: "#293845"
+  brightRed: "#D8843E"
+  brightGreen: "#42ABAB"
+  brightYellow: "#EBB062"
+  brightBlue: "#4496CD"
+  brightMagenta: "#B35D8D"
+  brightCyan: "#42ABAB"
+  brightWhite: "#ACBECC"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 244
+  pair: null
+  contrast:
+    fg: 63.8
+    black: 0
+    red: 27
+    green: 45.5
+    yellow: 63.6
+    blue: 40.1
+    magenta: 29.9
+    cyan: 46.8
+    white: 51.5
+    brightBlack: 0
+    brightRed: 44.8
+    brightGreen: 46.8
+    brightYellow: 63.6
+    brightBlue: 40.1
+    brightMagenta: 29.9
+    brightCyan: 46.8
+    brightWhite: 63.8

@@ -1,0 +1,51 @@
+name: "Broken Dreams Purple"
+source:
+  marketplace_id: "emanuelpna.broken-dreams"
+  version: "0.2.1"
+  installs: 334
+  author: "EmanuelPNA"
+  repo: "https://github.com/Emanuelpna/broken-dreams-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=emanuelpna.broken-dreams"
+  formats: null
+colors:
+  bg: "#1E1B21"
+  fg: "#F5F5F5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 308
+  pair: null
+  contrast:
+    fg: 99.7
+    black: 0
+    red: 26.1
+    green: 52.4
+    yellow: 85
+    blue: 26.8
+    magenta: 29.2
+    cyan: 47
+    white: 89.4
+    brightBlack: 21.4
+    brightRed: 38
+    brightGreen: 62.9
+    brightYellow: 95
+    brightBlue: 39.4
+    brightMagenta: 44.8
+    brightCyan: 54.8
+    brightWhite: 89.4

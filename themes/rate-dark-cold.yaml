@@ -1,0 +1,53 @@
+name: "Rate Dark Cold"
+source:
+  marketplace_id: "Roll7.rate-theme"
+  version: "0.0.11"
+  installs: 157
+  rating: 5
+  ratings: 2
+  author: "Roll7"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Roll7.rate-theme"
+  formats: null
+colors:
+  bg: "#2E3440"
+  fg: "#C8E4F0"
+  black: "#3B4252"
+  red: "#BF616A"
+  green: "#C1ECD1"
+  yellow: "#EBCB8B"
+  blue: "#81A1C1"
+  magenta: "#B48EAD"
+  cyan: "#88C0D0"
+  white: "#E5E9F0"
+  brightBlack: "#4C566A"
+  brightRed: "#BF616A"
+  brightGreen: "#C1ECD1"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#81A1C1"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#8FBCBB"
+  brightWhite: "#ECEFF4"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 81.4
+    black: 0
+    red: 27.9
+    green: 83
+    yellow: 71.3
+    blue: 43.6
+    magenta: 41.4
+    cyan: 57.6
+    white: 87.3
+    brightBlack: 10.3
+    brightRed: 27.9
+    brightGreen: 83
+    brightYellow: 71.3
+    brightBlue: 43.6
+    brightMagenta: 41.4
+    brightCyan: 55.5
+    brightWhite: 91.2

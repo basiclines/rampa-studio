@@ -1,0 +1,53 @@
+name: "daru"
+source:
+  marketplace_id: "daruhan.daru"
+  version: "0.0.1"
+  installs: 138
+  rating: 0
+  ratings: 0
+  author: "daruhan"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=daruhan.daru"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#000000"
+  black: "#000000"
+  red: "#97040C"
+  green: "#17A41A"
+  yellow: "#99981D"
+  blue: "#E323E3"
+  magenta: "#B119B0"
+  cyan: "#1AA6B1"
+  white: "#BFBFBF"
+  brightBlack: "#666666"
+  brightRed: "#DF0A17"
+  brightGreen: "#21D726"
+  brightYellow: "#E5E431"
+  brightBlue: "#E323E3"
+  brightMagenta: "#E323E3"
+  brightCyan: "#27E5E4"
+  brightWhite: "#E6E5E6"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 106
+    black: 106
+    red: 88.2
+    green: 59.7
+    yellow: 57.3
+    blue: 63
+    magenta: 77.1
+    cyan: 55.4
+    white: 34.5
+    brightBlack: 78.8
+    brightRed: 72
+    brightGreen: 36.5
+    brightYellow: 17.3
+    brightBlue: 63
+    brightMagenta: 63
+    brightCyan: 25.3
+    brightWhite: 12.7

@@ -1,0 +1,53 @@
+name: "yaast"
+source:
+  marketplace_id: "jerhos.yaast"
+  version: "1.1.0"
+  installs: 161
+  rating: 0
+  ratings: 0
+  author: "jerhos"
+  repo: "https://github.com/jerhos/YAAST"
+  url: "https://marketplace.visualstudio.com/items?itemName=jerhos.yaast"
+  formats: null
+colors:
+  bg: "#242730"
+  fg: "#D7DAE0"
+  black: "#333333"
+  red: "#C4265E"
+  green: "#86B42B"
+  yellow: "#CCC063"
+  blue: "#6A7EC8"
+  magenta: "#8C6BC8"
+  cyan: "#56ADBC"
+  white: "#E3E3DD"
+  brightBlack: "#181A1F"
+  brightRed: "#F92672"
+  brightGreen: "#97E65F"
+  brightYellow: "#E1D461"
+  brightBlue: "#819AFF"
+  brightMagenta: "#AE81FF"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F2F4F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 80.8
+    black: 0
+    red: 22.3
+    green: 50.7
+    yellow: 64.2
+    blue: 32.3
+    magenta: 29.9
+    cyan: 48.2
+    white: 86.2
+    brightBlack: 0
+    brightRed: 35
+    brightGreen: 75.8
+    brightYellow: 75.7
+    brightBlue: 47.6
+    brightMagenta: 44.2
+    brightCyan: 71.1
+    brightWhite: 97.3

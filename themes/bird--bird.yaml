@@ -1,0 +1,53 @@
+name: "bird (bird)"
+source:
+  marketplace_id: "indigo.bird"
+  version: "4.2.1"
+  installs: 4203
+  rating: 5
+  ratings: 5
+  author: "indigo"
+  repo: "https://github.com/gabriela-tomazzi/birdTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=indigo.bird"
+  formats: null
+colors:
+  bg: "#0A0A0B"
+  fg: "#DDDDDD"
+  black: "#191B25"
+  red: "#B59F8B"
+  green: "#5CBFDB"
+  yellow: "#D8CFBD"
+  blue: "#7F7F84"
+  magenta: "#7F7F84"
+  cyan: "#7F7F84"
+  white: "#C6D6F2"
+  brightBlack: "#191B25"
+  brightRed: "#B59F8B"
+  brightGreen: "#5CBFDB"
+  brightYellow: "#D8CFBD"
+  brightBlue: "#7F7F84"
+  brightMagenta: "#7F7F84"
+  brightCyan: "#7F7F84"
+  brightWhite: "#C6D6F2"
+meta:
+  mode: "dark"
+  accent: "blue"
+  hue: null
+  pair: null
+  contrast:
+    fg: 85.9
+    black: 0
+    red: 52.2
+    green: 60.9
+    yellow: 77.8
+    blue: 34.3
+    magenta: 34.3
+    cyan: 34.3
+    white: 80.9
+    brightBlack: 0
+    brightRed: 52.2
+    brightGreen: 60.9
+    brightYellow: 77.8
+    brightBlue: 34.3
+    brightMagenta: 34.3
+    brightCyan: 34.3
+    brightWhite: 80.9

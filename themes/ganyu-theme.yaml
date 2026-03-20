@@ -1,0 +1,53 @@
+name: "Ganyu Theme"
+source:
+  marketplace_id: "jeooo.ganyu-theme"
+  version: "1.0.1"
+  installs: 1601
+  rating: 0
+  ratings: 0
+  author: "jeooo`"
+  repo: "https://github.com/jeoooo/ganyu-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jeooo.ganyu-theme"
+  formats: null
+colors:
+  bg: "#D9EEFF"
+  fg: "#596CD5"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#009200"
+  yellow: "#FFB006"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#27B827"
+  brightYellow: "#EAA510"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 60.1
+    black: 94.2
+    red: 62.2
+    green: 55.6
+    yellow: 22.1
+    blue: 74.2
+    magenta: 62.8
+    cyan: 48.8
+    white: 74.1
+    brightBlack: 66.9
+    brightRed: 62.2
+    brightGreen: 38.9
+    brightYellow: 29.5
+    brightBlue: 74.2
+    brightMagenta: 62.8
+    brightCyan: 48.8
+    brightWhite: 36.6

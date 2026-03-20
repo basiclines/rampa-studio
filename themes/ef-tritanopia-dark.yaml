@@ -1,0 +1,53 @@
+name: "Ef Tritanopia Dark"
+source:
+  marketplace_id: "bzy-debug.ef-themes"
+  version: "0.0.4"
+  installs: 60
+  rating: 0
+  ratings: 0
+  author: "bzy-debug"
+  repo: "https://github.com/bzy-debug-orgnization/ef-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=bzy-debug.ef-themes"
+  formats: null
+colors:
+  bg: "#15050F"
+  fg: "#DFD0D5"
+  black: "#DFD0D5"
+  red: "#CF4F5F"
+  green: "#2FA526"
+  yellow: "#C48702"
+  blue: "#379CF6"
+  magenta: "#B0648F"
+  cyan: "#3FAFCF"
+  white: "#282026"
+  brightBlack: "#908890"
+  brightRed: "#DF4F4F"
+  brightGreen: "#64AA0F"
+  brightYellow: "#D0730F"
+  brightBlue: "#6A88FF"
+  brightMagenta: "#C560AA"
+  brightCyan: "#3F9AAF"
+  brightWhite: "#15050F"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 343
+  pair: "Ef Tritanopia Light"
+  contrast:
+    fg: 80.1
+    black: 80.1
+    red: 32.8
+    green: 42.6
+    yellow: 44.1
+    blue: 46.7
+    magenta: 33.2
+    cyan: 52.2
+    white: 0
+    brightBlack: 39.5
+    brightRed: 35.9
+    brightGreen: 46.9
+    brightYellow: 40.3
+    brightBlue: 42.7
+    brightMagenta: 37
+    brightCyan: 41.9
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "Decay (Dark Decay)"
+source:
+  marketplace_id: "decaycs.decay"
+  version: "1.0.9"
+  installs: 37714
+  rating: 5
+  ratings: 3
+  author: "decaycs"
+  repo: "https://github.com/decaycs/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=decaycs.decay"
+  formats: null
+colors:
+  bg: "#171B20"
+  fg: "#B6BECA"
+  black: "#1C252C"
+  red: "#E05F65"
+  green: "#78DBA9"
+  yellow: "#F1CF8A"
+  blue: "#70A5EB"
+  magenta: "#C68AEE"
+  cyan: "#74BEE9"
+  white: "#DEE1E6"
+  brightBlack: "#485263"
+  brightRed: "#E05F65"
+  brightGreen: "#78DBA9"
+  brightYellow: "#E9A180"
+  brightBlue: "#70A5EB"
+  brightMagenta: "#C68AEE"
+  brightCyan: "#74BEE9"
+  brightWhite: "#B6BECA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 254
+  pair: "Decay (Light Decay)"
+  contrast:
+    fg: 65.6
+    black: 0
+    red: 38.4
+    green: 71.9
+    yellow: 78.6
+    blue: 50.9
+    magenta: 51
+    cyan: 61.3
+    white: 86.9
+    brightBlack: 13.3
+    brightRed: 38.4
+    brightGreen: 71.9
+    brightYellow: 59.3
+    brightBlue: 50.9
+    brightMagenta: 51
+    brightCyan: 61.3
+    brightWhite: 65.6

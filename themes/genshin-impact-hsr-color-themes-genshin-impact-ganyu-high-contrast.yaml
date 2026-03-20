@@ -1,0 +1,53 @@
+name: "genshin impact & hsr color themes (Genshin Impact - Ganyu (High Contrast))"
+source:
+  marketplace_id: "frostmoon-dev.genshin-hsr-themes"
+  version: "0.1.6"
+  installs: 533
+  rating: 5
+  ratings: 1
+  author: "⏾ frostmoon"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=frostmoon-dev.genshin-hsr-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#E0E8F0"
+  black: "#304050"
+  red: "#F0889A"
+  green: "#90DAB0"
+  yellow: "#E8C888"
+  blue: "#78B8E8"
+  magenta: "#C0A0C8"
+  cyan: "#88C8D8"
+  white: "#E0E8F0"
+  brightBlack: "#7090A8"
+  brightRed: "#F8A8B8"
+  brightGreen: "#A8F0C8"
+  brightYellow: "#F8E0A0"
+  brightBlue: "#A0D8F8"
+  brightMagenta: "#D8C0E0"
+  brightCyan: "#A8E0F0"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 92.2
+    black: 8
+    red: 54.8
+    green: 74.7
+    yellow: 75.6
+    blue: 60.4
+    magenta: 56.6
+    cyan: 67.6
+    white: 92.2
+    brightBlack: 40.6
+    brightRed: 67.6
+    brightGreen: 88.2
+    brightYellow: 89
+    brightBlue: 78.4
+    brightMagenta: 73.2
+    brightCyan: 82.4
+    brightWhite: 107.9

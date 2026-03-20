@@ -1,0 +1,53 @@
+name: "Rainglow (mud)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#403635"
+  fg: "#FFFFFF"
+  black: "#4E4241"
+  red: "#BA0E2E"
+  green: "#E9C865"
+  yellow: "#FF9787"
+  blue: "#B5DB99"
+  magenta: "#FF9787"
+  cyan: "#E9C865"
+  white: "#FFFFFF"
+  brightBlack: "#786563"
+  brightRed: "#F03E5F"
+  brightGreen: "#F6E8BE"
+  brightYellow: "#FFEFED"
+  brightBlue: "#ECF6E4"
+  brightMagenta: "#FFEFED"
+  brightCyan: "#F6E8BE"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 25
+  pair: "Rainglow (mud-light)"
+  contrast:
+    fg: 100.5
+    black: 0
+    red: 14.1
+    green: 67.7
+    yellow: 54.2
+    blue: 70.5
+    magenta: 54.2
+    cyan: 67.7
+    white: 100.5
+    brightBlack: 17.1
+    brightRed: 30.4
+    brightGreen: 85.8
+    brightYellow: 92.2
+    brightBlue: 92.4
+    brightMagenta: 92.2
+    brightCyan: 85.8
+    brightWhite: 100.5

@@ -1,0 +1,53 @@
+name: "Mystico - C64 Pepto NTSC Sony"
+source:
+  marketplace_id: "Chibantichic.mystico-c64"
+  version: "0.16.0"
+  installs: 1459
+  rating: 5
+  ratings: 2
+  author: "Chibantichic"
+  repo: "https://github.com/chibanti/mystico-c64-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Chibantichic.mystico-c64"
+  formats: null
+colors:
+  bg: "#212E78"
+  fg: "#959FD0"
+  black: "#000000"
+  red: "#984034"
+  green: "#588D43"
+  yellow: "#B8C76F"
+  blue: "#5665B3"
+  magenta: "#794C9A"
+  cyan: "#7ABFC7"
+  white: "#E5E5E5"
+  brightBlack: "#6C6C6C"
+  brightRed: "#9A6759"
+  brightGreen: "#A0CB84"
+  brightYellow: "#DCEE83"
+  brightBlue: "#959FD0"
+  brightMagenta: "#8148A9"
+  brightCyan: "#A6E9F0"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 44.6
+    black: 0
+    red: 12.3
+    green: 27.9
+    yellow: 61.2
+    blue: 18.1
+    magenta: 13.6
+    cyan: 54.8
+    white: 84
+    brightBlack: 18.6
+    brightRed: 22.1
+    brightGreen: 60.9
+    brightYellow: 83.8
+    brightBlue: 44.6
+    brightMagenta: 14.7
+    brightCyan: 79.4
+    brightWhite: 84

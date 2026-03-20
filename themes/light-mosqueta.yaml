@@ -1,0 +1,53 @@
+name: "Light_mosqueta"
+source:
+  marketplace_id: "Paku.mosqueta"
+  version: "1.0.0"
+  installs: 141
+  rating: 0
+  ratings: 0
+  author: "Paku"
+  repo: "https://github.com/pa-ku/mosqueta_vstheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Paku.mosqueta"
+  formats: null
+colors:
+  bg: "#F8F4F4"
+  fg: "#90007D"
+  black: "#2A3243"
+  red: "#ED8274"
+  green: "#87D96C"
+  yellow: "#FACC6E"
+  blue: "#6DCBFA"
+  magenta: "#DABAFA"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
+  brightBlack: "#686868"
+  brightRed: "#F28779"
+  brightGreen: "#D5FF80"
+  brightYellow: "#FDA2F1"
+  brightBlue: "#73D0FF"
+  brightMagenta: "#DFBFFF"
+  brightCyan: "#95E6CB"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 80.8
+    black: 92.9
+    red: 44.5
+    green: 24.9
+    yellow: 17.6
+    blue: 27.6
+    magenta: 24.2
+    cyan: 18.2
+    white: 24
+    brightBlack: 71.8
+    brightRed: 42.1
+    brightGreen: 0
+    brightYellow: 27.4
+    brightBlue: 24.8
+    brightMagenta: 21.4
+    brightCyan: 15.4
+    brightWhite: 0

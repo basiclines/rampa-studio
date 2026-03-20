@@ -1,0 +1,53 @@
+name: "Night-Stack Phosphor Green"
+source:
+  marketplace_id: "codewithsg.night-stack"
+  version: "1.0.1"
+  installs: 30
+  rating: 0
+  ratings: 0
+  author: "Saragam Ghimire"
+  repo: "https://github.com/codewithsg/night-stack"
+  url: "https://marketplace.visualstudio.com/items?itemName=codewithsg.night-stack"
+  formats: null
+colors:
+  bg: "#020A02"
+  fg: "#33FF33"
+  black: "#0A220A"
+  red: "#33FF33"
+  green: "#66FF66"
+  yellow: "#99FF99"
+  blue: "#1F8F1F"
+  magenta: "#33CC33"
+  cyan: "#66FF99"
+  white: "#99FF99"
+  brightBlack: "#0A220A"
+  brightRed: "#33FF33"
+  brightGreen: "#66FF66"
+  brightYellow: "#99FF99"
+  brightBlue: "#1F8F1F"
+  brightMagenta: "#33CC33"
+  brightCyan: "#66FF99"
+  brightWhite: "#99FF99"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 144
+  pair: null
+  contrast:
+    fg: 86.9
+    black: 0
+    red: 86.9
+    green: 88.9
+    yellow: 93
+    blue: 33.2
+    magenta: 60.8
+    cyan: 89.9
+    white: 93
+    brightBlack: 0
+    brightRed: 86.9
+    brightGreen: 88.9
+    brightYellow: 93
+    brightBlue: 33.2
+    brightMagenta: 60.8
+    brightCyan: 89.9
+    brightWhite: 93

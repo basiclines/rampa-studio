@@ -1,0 +1,53 @@
+name: "Purply Theme (Purply (Dark))"
+source:
+  marketplace_id: "jeremy-gower.purply-theme"
+  version: "2.0.5"
+  installs: 3051
+  rating: 5
+  ratings: 2
+  author: "Jeremy Gower"
+  repo: "https://github.com/jdgower/purply-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=jeremy-gower.purply-theme"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#ABB2BF"
+  black: "#282C34"
+  red: "#FF6B8A"
+  green: "#22C55E"
+  yellow: "#FFB347"
+  blue: "#7DD3FC"
+  magenta: "#C4A7E7"
+  cyan: "#06B6D4"
+  white: "#ABB2BF"
+  brightBlack: "#6B5B73"
+  brightRed: "#FF8FA3"
+  brightGreen: "#4ADE80"
+  brightYellow: "#FCD34D"
+  brightBlue: "#93C5FD"
+  brightMagenta: "#DDD6FE"
+  brightCyan: "#67E8F9"
+  brightWhite: "#F8FAFC"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 264
+  pair: "Purply Theme (Purply (Light))"
+  contrast:
+    fg: 56.2
+    black: 0
+    red: 45.7
+    green: 53.6
+    yellow: 65.8
+    blue: 69.5
+    magenta: 57.1
+    cyan: 50.7
+    white: 56.2
+    brightBlack: 16.6
+    brightRed: 55.8
+    brightGreen: 67.3
+    brightYellow: 78.2
+    brightBlue: 65
+    brightMagenta: 80.4
+    brightCyan: 78
+    brightWhite: 100.2

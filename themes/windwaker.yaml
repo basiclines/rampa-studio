@@ -1,0 +1,53 @@
+name: "Windwaker"
+source:
+  marketplace_id: "endg4me.windwaker"
+  version: "1.0.3"
+  installs: 183
+  rating: 5
+  ratings: 2
+  author: "Endg4me_"
+  repo: "https://github.com/Endg4meZer0/Windwaker-VSCode-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=endg4me.windwaker"
+  formats: null
+colors:
+  bg: "#111716"
+  fg: "#E3E3E3"
+  black: "#1A2322"
+  red: "#F5476B"
+  green: "#51E3B2"
+  yellow: "#F0C647"
+  blue: "#5473EB"
+  magenta: "#BE58F5"
+  cyan: "#55A8D3"
+  white: "#EEF0F9"
+  brightBlack: "#485655"
+  brightRed: "#F694A5"
+  brightGreen: "#8BF6D4"
+  brightYellow: "#F5EC78"
+  brightBlue: "#8FA6F6"
+  brightMagenta: "#D895F6"
+  brightCyan: "#79CBF5"
+  brightWhite: "#FAFAFA"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 88.9
+    black: 0
+    red: 39.5
+    green: 74.7
+    yellow: 74
+    blue: 32.3
+    magenta: 38.3
+    cyan: 49.6
+    white: 97.3
+    brightBlack: 14.5
+    brightRed: 59
+    brightGreen: 88.5
+    brightYellow: 92.2
+    brightBlue: 55
+    brightMagenta: 58.2
+    brightCyan: 68.5
+    brightWhite: 103.7

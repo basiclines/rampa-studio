@@ -1,0 +1,53 @@
+name: "Beginner Theme"
+source:
+  marketplace_id: "eternalbeginner.beginner-theme"
+  version: "1.0.0"
+  installs: 277
+  rating: 5
+  ratings: 1
+  author: "eternalbeginner"
+  repo: "https://github.com/eternalbeginner/theme-beginner-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=eternalbeginner.beginner-theme"
+  formats: null
+colors:
+  bg: "#1A0038"
+  fg: "#CFCFCF"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 298
+  pair: null
+  contrast:
+    fg: 76.6
+    black: 0
+    red: 26.8
+    green: 53.1
+    yellow: 85.7
+    blue: 27.5
+    magenta: 29.9
+    cyan: 47.7
+    white: 90.1
+    brightBlack: 22.1
+    brightRed: 38.7
+    brightGreen: 63.6
+    brightYellow: 95.7
+    brightBlue: 40.1
+    brightMagenta: 45.5
+    brightCyan: 55.5
+    brightWhite: 90.1

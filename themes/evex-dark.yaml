@@ -1,0 +1,53 @@
+name: "Evex Dark"
+source:
+  marketplace_id: "evex-dev.evex-theme"
+  version: "1.1.0"
+  installs: 237
+  rating: 0
+  ratings: 0
+  author: "Evex Developers"
+  repo: "https://github.com/evex-dev/theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=evex-dev.evex-theme"
+  formats: null
+colors:
+  bg: "#020102"
+  fg: "#94A3B8"
+  black: "#1E293B"
+  red: "#F87171"
+  green: "#34D399"
+  yellow: "#FDE68A"
+  blue: "#3B82F6"
+  magenta: "#C084FC"
+  cyan: "#2DD4BF"
+  white: "#CBD5E1"
+  brightBlack: "#64748B"
+  brightRed: "#EF4444"
+  brightGreen: "#34D399"
+  brightYellow: "#FDE68A"
+  brightBlue: "#3B82F6"
+  brightMagenta: "#86198F"
+  brightCyan: "#2DD4BF"
+  brightWhite: "#CBD5E1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 51.7
+    black: 0
+    red: 49.1
+    green: 66.2
+    yellow: 91.9
+    blue: 37.8
+    magenta: 50.7
+    cyan: 67.9
+    white: 80.4
+    brightBlack: 28.7
+    brightRed: 37.8
+    brightGreen: 66.2
+    brightYellow: 91.9
+    brightBlue: 37.8
+    brightMagenta: 15
+    brightCyan: 67.9
+    brightWhite: 80.4

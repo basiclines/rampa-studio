@@ -1,0 +1,53 @@
+name: "Kintsugi (Kintsugi Dark)"
+source:
+  marketplace_id: "ahmedhatem.kintsugi"
+  version: "0.1.1"
+  installs: 547
+  rating: 5
+  ratings: 2
+  author: "Ahmed Hatem"
+  repo: "https://github.com/ahatem/vscode-kintsugi"
+  url: "https://marketplace.visualstudio.com/items?itemName=ahmedhatem.kintsugi"
+  formats: null
+colors:
+  bg: "#161618"
+  fg: "#DDDDDD"
+  black: "#131314"
+  red: "#B38F8F"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#6C7A8A"
+  magenta: "#B3A3D3"
+  cyan: "#6AC6F2"
+  white: "#DDDDDD"
+  brightBlack: "#444444"
+  brightRed: "#D9A6A6"
+  brightGreen: "#C3DE9C"
+  brightYellow: "#FBE4A8"
+  brightBlue: "#8FA3B3"
+  brightMagenta: "#D3A3D3"
+  brightCyan: "#8AC6F2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: null
+  pair: "Kintsugi (Kintsugi Light)"
+  contrast:
+    fg: 85.1
+    black: 0
+    red: 45.6
+    green: 61.7
+    yellow: 76.5
+    blue: 30.3
+    magenta: 55.6
+    cyan: 65.2
+    white: 85.1
+    brightBlack: 8.9
+    brightRed: 60.1
+    brightGreen: 80
+    brightYellow: 90.5
+    brightBlue: 50.1
+    brightMagenta: 60
+    brightCyan: 67.3
+    brightWhite: 107

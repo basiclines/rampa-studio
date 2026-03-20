@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_FireBrick)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#BE5252"
+  black: "#BE5252"
+  red: "#8B3C3C"
+  green: "#984242"
+  yellow: "#723131"
+  blue: "#B14D4D"
+  magenta: "#A54747"
+  cyan: "#7F3737"
+  white: "#652C2C"
+  brightBlack: "#BE5252"
+  brightRed: "#8B3C3C"
+  brightGreen: "#984242"
+  brightYellow: "#723131"
+  brightBlue: "#B14D4D"
+  brightMagenta: "#A54747"
+  brightCyan: "#7F3737"
+  brightWhite: "#652C2C"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 30
+    black: 30
+    red: 16.6
+    green: 19.9
+    yellow: 10.7
+    blue: 26.5
+    magenta: 23.1
+    cyan: 13.8
+    white: 8.1
+    brightBlack: 30
+    brightRed: 16.6
+    brightGreen: 19.9
+    brightYellow: 10.7
+    brightBlue: 26.5
+    brightMagenta: 23.1
+    brightCyan: 13.8
+    brightWhite: 8.1

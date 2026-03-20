@@ -1,0 +1,53 @@
+name: "Aeridia"
+source:
+  marketplace_id: "Be-njamin.aeridia"
+  version: "0.0.7"
+  installs: 226
+  rating: 5
+  ratings: 1
+  author: "Benjamin Vasquez"
+  repo: "https://github.com/Be-njamin/aeridia"
+  url: "https://marketplace.visualstudio.com/items?itemName=Be-njamin.aeridia"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#D2D2D3"
+  black: "#1E1E1E"
+  red: "#963232"
+  green: "#329632"
+  yellow: "#969632"
+  blue: "#323296"
+  magenta: "#963296"
+  cyan: "#329696"
+  white: "#DCDCDC"
+  brightBlack: "#323232"
+  brightRed: "#C83232"
+  brightGreen: "#32C832"
+  brightYellow: "#C8C832"
+  brightBlue: "#3232C8"
+  brightMagenta: "#C832C8"
+  brightCyan: "#32C8C8"
+  brightWhite: "#F0F0F0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77.5
+    black: 0
+    red: 15
+    green: 34.8
+    yellow: 41.6
+    blue: 0
+    magenta: 18.4
+    cyan: 37.2
+    white: 83.6
+    brightBlack: 0
+    brightRed: 24.9
+    brightGreen: 57.1
+    brightYellow: 68
+    brightBlue: 11.7
+    brightMagenta: 30.5
+    brightCyan: 60.9
+    brightWhite: 96.2

@@ -1,0 +1,53 @@
+name: "theme armada"
+source:
+  marketplace_id: "hakan-akgul.armada"
+  version: "3.1.8"
+  installs: 550
+  rating: 5
+  ratings: 1
+  author: "hakan-akgul"
+  repo: "https://github.com/hakan-akgul/armada"
+  url: "https://marketplace.visualstudio.com/items?itemName=hakan-akgul.armada"
+  formats: null
+colors:
+  bg: "#223043"
+  fg: "#D2D5DB"
+  black: "#010B13"
+  red: "#F20D5E"
+  green: "#8DCC33"
+  yellow: "#E5F20D"
+  blue: "#4688D8"
+  magenta: "#8F26D9"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#546E7A"
+  brightRed: "#FF5909"
+  brightGreen: "#10BC97"
+  brightYellow: "#F6EF87"
+  brightBlue: "#139FCD"
+  brightMagenta: "#9500FF"
+  brightCyan: "#1FB7EA"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 256
+  pair: null
+  contrast:
+    fg: 76
+    black: 0
+    red: 30.2
+    green: 60.4
+    yellow: 87.8
+    blue: 33
+    magenta: 17.8
+    cyan: 43.6
+    white: 86.1
+    brightBlack: 19.9
+    brightRed: 39.5
+    brightGreen: 49.9
+    brightYellow: 89.9
+    brightBlue: 39.9
+    brightMagenta: 21.2
+    brightCyan: 51.7
+    brightWhite: 86.1

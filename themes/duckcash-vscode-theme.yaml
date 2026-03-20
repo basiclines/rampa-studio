@@ -1,0 +1,53 @@
+name: "Duckcash VSCode Theme"
+source:
+  marketplace_id: "duckcash.duckcash-vscode-theme"
+  version: "0.0.2"
+  installs: 201
+  rating: 5
+  ratings: 1
+  author: "duckcash"
+  repo: "https://github.com/Casual-Seb/duckcash-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=duckcash.duckcash-vscode-theme"
+  formats: null
+colors:
+  bg: "#262626"
+  fg: "#CECECE"
+  black: "#FFFFFF"
+  red: "#F7899C"
+  green: "#9BFBA3"
+  yellow: "#E1C342"
+  blue: "#39B1B3"
+  magenta: "#B200B3"
+  cyan: "#00A6B3"
+  white: "#C0BFBF"
+  brightBlack: "#C9C9C9"
+  brightRed: "#F8A3B3"
+  brightGreen: "#75FDC0"
+  brightYellow: "#F9EA8C"
+  brightBlue: "#43CCCA"
+  brightMagenta: "#E601E5"
+  brightCyan: "#31F4F4"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 73.8
+    black: 104.8
+    red: 53.4
+    green: 88.3
+    yellow: 68.2
+    blue: 48.6
+    magenta: 21.5
+    cyan: 43.3
+    white: 65.1
+    brightBlack: 70.8
+    brightRed: 62.6
+    brightGreen: 87.8
+    brightYellow: 90.1
+    brightBlue: 62
+    brightMagenta: 35.6
+    brightCyan: 83.2
+    brightWhite: 87.9

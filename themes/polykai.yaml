@@ -1,0 +1,53 @@
+name: "Polykai"
+source:
+  marketplace_id: "adamgraham.polykai-theme"
+  version: "1.0.1"
+  installs: 16972
+  rating: 5
+  ratings: 5
+  author: "Adam Graham"
+  repo: "https://github.com/adamgraham/polykai-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=adamgraham.polykai-theme"
+  formats: null
+colors:
+  bg: "#141818"
+  fg: "#F8F8F8"
+  black: "#909090"
+  red: "#FF0060"
+  green: "#A0FF20"
+  yellow: "#FFE080"
+  blue: "#6080FF"
+  magenta: "#C080FF"
+  cyan: "#40C4FF"
+  white: "#F8F8F8"
+  brightBlack: "#909090"
+  brightRed: "#FF0060"
+  brightGreen: "#A0FF20"
+  brightYellow: "#FFE080"
+  brightBlue: "#6080FF"
+  brightMagenta: "#C080FF"
+  brightCyan: "#40C4FF"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.2
+    black: 41.6
+    red: 37.4
+    green: 91
+    yellow: 88.3
+    blue: 38.6
+    magenta: 48.7
+    cyan: 63.3
+    white: 102.2
+    brightBlack: 41.6
+    brightRed: 37.4
+    brightGreen: 91
+    brightYellow: 88.3
+    brightBlue: 38.6
+    brightMagenta: 48.7
+    brightCyan: 63.3
+    brightWhite: 102.2

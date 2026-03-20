@@ -1,0 +1,53 @@
+name: "Gatito Nightly Red"
+source:
+  marketplace_id: "TaouMou.gatito-nightly"
+  version: "1.3.3"
+  installs: 1652
+  rating: 5
+  ratings: 1
+  author: "TaouMou"
+  repo: "https://github.com/TaouMou/gatito-nightly"
+  url: "https://marketplace.visualstudio.com/items?itemName=TaouMou.gatito-nightly"
+  formats: null
+colors:
+  bg: "#1A1F23"
+  fg: "#C0D2D3"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 242
+  pair: null
+  contrast:
+    fg: 75.2
+    black: 0
+    red: 25.8
+    green: 52.1
+    yellow: 84.7
+    blue: 26.5
+    magenta: 28.9
+    cyan: 46.7
+    white: 89.1
+    brightBlack: 21.2
+    brightRed: 37.7
+    brightGreen: 62.7
+    brightYellow: 94.8
+    brightBlue: 39.1
+    brightMagenta: 44.5
+    brightCyan: 54.5
+    brightWhite: 89.1

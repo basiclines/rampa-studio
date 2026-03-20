@@ -1,0 +1,53 @@
+name: "Tokyo Ghosts Light"
+source:
+  marketplace_id: "CodeTime.tokyo-ghosts"
+  version: "0.1.0"
+  installs: 70
+  rating: 0
+  ratings: 0
+  author: "Code Time"
+  repo: "https://github.com/afj176/tokyo-ghosts"
+  url: "https://marketplace.visualstudio.com/items?itemName=CodeTime.tokyo-ghosts"
+  formats: null
+colors:
+  bg: "#F0F1F5"
+  fg: "#2B2D3A"
+  black: "#2B2D3A"
+  red: "#B5314A"
+  green: "#1E7F4D"
+  yellow: "#9D6B28"
+  blue: "#2E5AAC"
+  magenta: "#7B5AA6"
+  cyan: "#0099CC"
+  white: "#E0E2EB"
+  brightBlack: "#5D6075"
+  brightRed: "#D04663"
+  brightGreen: "#2DA366"
+  brightYellow: "#C08530"
+  brightBlue: "#4075CC"
+  brightMagenta: "#9B75C6"
+  brightCyan: "#20B0DD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "Tokyo Ghosts Dark"
+  contrast:
+    fg: 91.9
+    black: 91.9
+    red: 70.5
+    green: 65.9
+    yellow: 63.4
+    blue: 74.1
+    magenta: 68.7
+    cyan: 51
+    white: 0
+    brightBlack: 72.6
+    brightRed: 61.5
+    brightGreen: 50.6
+    brightYellow: 50.2
+    brightBlue: 62.9
+    brightMagenta: 55.7
+    brightCyan: 40.7
+    brightWhite: 0

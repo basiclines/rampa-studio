@@ -1,0 +1,53 @@
+name: "Famous Dev Midnight"
+source:
+  marketplace_id: "GausAlMunirTushar.famous-dev-theme"
+  version: "1.4.0"
+  installs: 221
+  rating: 0
+  ratings: 0
+  author: "Gaus Al Munir Tushar"
+  repo: "https://github.com/GausAlMunirTushar/famous-dev-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=GausAlMunirTushar.famous-dev-theme"
+  formats: null
+colors:
+  bg: "#0F0F17"
+  fg: "#C0C5CE"
+  black: "#343D46"
+  red: "#BF616A"
+  green: "#A3BE8C"
+  yellow: "#EBCB8B"
+  blue: "#8FA1B3"
+  magenta: "#B48EAD"
+  cyan: "#96B5B4"
+  white: "#C0C5CE"
+  brightBlack: "#4F5B66"
+  brightRed: "#BF616A"
+  brightGreen: "#A3BE8C"
+  brightYellow: "#EBCB8B"
+  brightBlue: "#8FA1B3"
+  brightMagenta: "#B48EAD"
+  brightCyan: "#96B5B4"
+  brightWhite: "#D8DEE9"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: "Famous Dev Light"
+  contrast:
+    fg: 70.9
+    black: 0
+    red: 33.6
+    green: 62.2
+    yellow: 77
+    blue: 49.8
+    magenta: 47.1
+    cyan: 58.5
+    white: 70.9
+    brightBlack: 17.5
+    brightRed: 33.6
+    brightGreen: 62.2
+    brightYellow: 77
+    brightBlue: 49.8
+    brightMagenta: 47.1
+    brightCyan: 58.5
+    brightWhite: 85.9

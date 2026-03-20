@@ -1,0 +1,53 @@
+name: "Dark Mono"
+source:
+  marketplace_id: "leonardoleal202.dark-mono"
+  version: "1.1.0"
+  installs: 6607
+  rating: 5
+  ratings: 1
+  author: "leonardoleal202"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=leonardoleal202.dark-mono"
+  formats: null
+colors:
+  bg: "#181818"
+  fg: "#D0D1D0"
+  black: "#AE9CFE"
+  red: "#CD3131"
+  green: "#70CDCA"
+  yellow: "#EBC88D"
+  blue: "#1F61C2"
+  magenta: "#E193DA"
+  cyan: "#70CDCA"
+  white: "#D0D1D0"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#70CDCA"
+  brightYellow: "#EBC88D"
+  brightBlue: "#3D8BFD"
+  brightMagenta: "#DB52CF"
+  brightCyan: "#70CDCA"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 77.4
+    black: 55
+    red: 26.6
+    green: 66.4
+    yellow: 75.1
+    blue: 21.6
+    magenta: 57.1
+    cyan: 66.4
+    white: 77.4
+    brightBlack: 21.9
+    brightRed: 38.5
+    brightGreen: 66.4
+    brightYellow: 75.1
+    brightBlue: 40.4
+    brightMagenta: 39.6
+    brightCyan: 66.4
+    brightWhite: 89.9

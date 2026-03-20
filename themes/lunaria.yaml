@@ -1,0 +1,53 @@
+name: "Lunaria"
+source:
+  marketplace_id: "Avetis.lunaria"
+  version: "0.0.3"
+  installs: 606
+  rating: 0
+  ratings: 0
+  author: "Avetis"
+  repo: "https://github.com/AvetisDN/lunaria-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Avetis.lunaria"
+  formats: null
+colors:
+  bg: "#323F46"
+  fg: "#DFE2ED"
+  black: "#020202"
+  red: "#BC4747"
+  green: "#408A47"
+  yellow: "#CBAE66"
+  blue: "#4778AD"
+  magenta: "#9B558E"
+  cyan: "#5FC3CD"
+  white: "#C9CDD7"
+  brightBlack: "#666E73"
+  brightRed: "#B46C6C"
+  brightGreen: "#7AA97E"
+  brightYellow: "#EAD299"
+  brightBlue: "#7AA7D9"
+  brightMagenta: "#B687AE"
+  brightCyan: "#A5DCEC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 232
+  pair: null
+  contrast:
+    fg: 80.4
+    black: 8.8
+    red: 18.5
+    green: 23.7
+    yellow: 51.3
+    blue: 21
+    magenta: 17.7
+    cyan: 53.4
+    white: 67.4
+    brightBlack: 17.1
+    brightRed: 26
+    brightGreen: 40.8
+    brightYellow: 71.7
+    brightBlue: 43.9
+    brightMagenta: 36.7
+    brightCyan: 71.2
+    brightWhite: 99

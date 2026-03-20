@@ -1,0 +1,53 @@
+name: "inksea Dank"
+source:
+  marketplace_id: "inksea.inksea-theme"
+  version: "3.3.0"
+  installs: 12188
+  rating: 5
+  ratings: 3
+  author: "_inkSea"
+  repo: "https://github.com/inksea/inksea-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=inksea.inksea-theme"
+  formats: null
+colors:
+  bg: "#121216"
+  fg: "#B7CF9F"
+  black: "#212529"
+  red: "#FF3366"
+  green: "#5F7F5F"
+  yellow: "#FFC562"
+  blue: "#71559D"
+  magenta: "#BA5D9C"
+  cyan: "#2F4858"
+  white: "#C4CAD1"
+  brightBlack: "#6272A4"
+  brightRed: "#FF3366"
+  brightGreen: "#63E6BE"
+  brightYellow: "#FFC562"
+  brightBlue: "#FFCBFF"
+  brightMagenta: "#DC8CC3"
+  brightCyan: "#6983AA"
+  brightWhite: "#C4CAD1"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 72.2
+    black: 0
+    red: 39.8
+    green: 30
+    yellow: 76.8
+    blue: 21.3
+    magenta: 33.4
+    cyan: 9.6
+    white: 73.4
+    brightBlack: 28.4
+    brightRed: 39.8
+    brightGreen: 77.7
+    brightYellow: 76.8
+    brightBlue: 84.5
+    brightMagenta: 53.4
+    brightCyan: 34.9
+    brightWhite: 73.4

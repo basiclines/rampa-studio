@@ -1,0 +1,53 @@
+name: "07 Light"
+source:
+  marketplace_id: "flower607.07Theme"
+  version: "1.0.0"
+  installs: 290
+  rating: 5
+  ratings: 1
+  author: "flower607"
+  repo: "https://github.com/flower-dc/07Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=flower607.07Theme"
+  formats: null
+colors:
+  bg: "#F9EEE3"
+  fg: "#7B678A"
+  black: "#201B1B"
+  red: "#AB5959"
+  green: "#1E754F"
+  yellow: "#BDA437"
+  blue: "#296AA3"
+  magenta: "#A13865"
+  cyan: "#2993A3"
+  white: "#DBD7CA"
+  brightBlack: "#AAAAAA"
+  brightRed: "#AB5959"
+  brightGreen: "#1E754F"
+  brightYellow: "#BDA437"
+  brightBlue: "#296AA3"
+  brightMagenta: "#A13865"
+  brightCyan: "#2993A3"
+  brightWhite: "#DDDDDD"
+meta:
+  mode: "light"
+  accent: "red"
+  hue: null
+  pair: "07 Dark"
+  contrast:
+    fg: 65.8
+    black: 94.8
+    red: 64.3
+    green: 68.8
+    yellow: 39.2
+    blue: 69.1
+    magenta: 72
+    cyan: 54.3
+    white: 11.9
+    brightBlack: 36.7
+    brightRed: 64.3
+    brightGreen: 68.8
+    brightYellow: 39.2
+    brightBlue: 69.1
+    brightMagenta: 72
+    brightCyan: 54.3
+    brightWhite: 8.4

@@ -1,0 +1,53 @@
+name: "Vlad.studio Tiniri Theme (Tiniri Light)"
+source:
+  marketplace_id: "vladstudio.vlad-studio-tiniri"
+  version: "0.0.73"
+  installs: 1916
+  rating: 5
+  ratings: 3
+  author: "Vlad.studio"
+  repo: "https://github.com/vladstudio/tiniri-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=vladstudio.vlad-studio-tiniri"
+  formats: null
+colors:
+  bg: "#FEFDFD"
+  fg: "#222120"
+  black: "#44403C"
+  red: "#994C48"
+  green: "#538A8A"
+  yellow: "#994C48"
+  blue: "#2D5C80"
+  magenta: "#804C6E"
+  cyan: "#538A8A"
+  white: "#DAD8CE"
+  brightBlack: "#B7B5AC"
+  brightRed: "#994C48"
+  brightGreen: "#538A8A"
+  brightYellow: "#E59793"
+  brightBlue: "#2D5C80"
+  brightMagenta: "#BD71A4"
+  brightCyan: "#538A8A"
+  brightWhite: "#E6E4D9"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: null
+  pair: "Vlad.studio Tiniri Theme (Tiniri Dark)"
+  contrast:
+    fg: 102
+    black: 92.8
+    red: 78.7
+    green: 65.4
+    yellow: 78.7
+    blue: 83.4
+    magenta: 81.4
+    cyan: 65.4
+    white: 19.5
+    brightBlack: 39
+    brightRed: 78.7
+    brightGreen: 65.4
+    brightYellow: 43.9
+    brightBlue: 83.4
+    brightMagenta: 60.9
+    brightCyan: 65.4
+    brightWhite: 12.6

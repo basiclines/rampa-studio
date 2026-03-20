@@ -1,0 +1,53 @@
+name: "petrel"
+source:
+  marketplace_id: "bbrakenhoff.seabird"
+  version: "0.0.4"
+  installs: 754
+  rating: 4.5
+  ratings: 2
+  author: "bbrakenhoff"
+  repo: "https://github.com/bbrakenhoff/seabird-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=bbrakenhoff.seabird"
+  formats: null
+colors:
+  bg: "#0B141A"
+  fg: "#787E82"
+  black: "#6D767D"
+  red: "#BA656D"
+  green: "#3F8F36"
+  yellow: "#947B38"
+  blue: "#4384B0"
+  magenta: "#B06886"
+  cyan: "#35898C"
+  white: "#FFFFFF"
+  brightBlack: "#6D767D"
+  brightRed: "#BA656D"
+  brightGreen: "#3F8F36"
+  brightYellow: "#947B38"
+  brightBlue: "#4384B0"
+  brightMagenta: "#B06886"
+  brightCyan: "#35898C"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 238
+  pair: null
+  contrast:
+    fg: 32.7
+    black: 28.8
+    red: 33.5
+    green: 33.6
+    yellow: 33.1
+    blue: 33.3
+    magenta: 33.4
+    cyan: 33
+    white: 107.2
+    brightBlack: 28.8
+    brightRed: 33.5
+    brightGreen: 33.6
+    brightYellow: 33.1
+    brightBlue: 33.3
+    brightMagenta: 33.4
+    brightCyan: 33
+    brightWhite: 107.2

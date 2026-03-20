@@ -1,0 +1,53 @@
+name: "Barito"
+source:
+  marketplace_id: "levensspel.barito"
+  version: "1.2.0"
+  installs: 31
+  rating: 0
+  ratings: 0
+  author: "Levensspel"
+  repo: "https://github.com/levensspel/barito-theme-vsce"
+  url: "https://marketplace.visualstudio.com/items?itemName=levensspel.barito"
+  formats: null
+colors:
+  bg: "#003030"
+  fg: "#008C8C"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#E0C223"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 195
+  pair: null
+  contrast:
+    fg: 30
+    black: 0
+    red: 23.6
+    green: 49.9
+    yellow: 82.5
+    blue: 24.3
+    magenta: 26.6
+    cyan: 44.4
+    white: 86.9
+    brightBlack: 18.9
+    brightRed: 35.4
+    brightGreen: 66.4
+    brightYellow: 92.5
+    brightBlue: 36.9
+    brightMagenta: 42.3
+    brightCyan: 52.3
+    brightWhite: 86.9

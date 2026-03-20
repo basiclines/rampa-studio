@@ -1,0 +1,53 @@
+name: "Morning Mocha"
+source:
+  marketplace_id: "goldenwere.morning-mocha"
+  version: "1.1.0"
+  installs: 1065
+  rating: 0
+  ratings: 0
+  author: "Goldenwere"
+  repo: "https://git.goldenwere.com/lightling/lightling"
+  url: "https://marketplace.visualstudio.com/items?itemName=goldenwere.morning-mocha"
+  formats: null
+colors:
+  bg: "#EADECC"
+  fg: "#000000"
+  black: "#000000"
+  red: "#AD0707"
+  green: "#148014"
+  yellow: "#858803"
+  blue: "#164C88"
+  magenta: "#990699"
+  cyan: "#0C7B96"
+  white: "#A5A5A5"
+  brightBlack: "#757575"
+  brightRed: "#FF6060"
+  brightGreen: "#0AB60A"
+  brightYellow: "#FAFF55"
+  brightBlue: "#419CFF"
+  brightMagenta: "#F037F0"
+  brightCyan: "#02BCEA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 78
+  pair: null
+  contrast:
+    fg: 87.5
+    black: 87.5
+    red: 65
+    green: 56
+    yellow: 46.8
+    blue: 70.8
+    magenta: 65
+    cyan: 54.9
+    white: 29.9
+    brightBlack: 53.5
+    brightRed: 36.6
+    brightGreen: 33.4
+    brightYellow: 13
+    brightBlue: 35.3
+    brightMagenta: 39.3
+    brightCyan: 24.8
+    brightWhite: 18.5

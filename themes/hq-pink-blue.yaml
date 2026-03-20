@@ -1,0 +1,53 @@
+name: "HQ_Pink_Blue"
+source:
+  marketplace_id: "djbohl.hq-pink-blue"
+  version: "0.0.2"
+  installs: 21
+  rating: 0
+  ratings: 0
+  author: "djbohl"
+  repo: "https://github.com/djbohl/hq-pink-blu-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=djbohl.hq-pink-blue"
+  formats: null
+colors:
+  bg: "#1D1D1D"
+  fg: "#FFFAFE"
+  black: "#000000"
+  red: "#E53935"
+  green: "#43A047"
+  yellow: "#FFEB3B"
+  blue: "#1E88E5"
+  magenta: "#8E24AA"
+  cyan: "#00ACC1"
+  white: "#DEDEDE"
+  brightBlack: "#666666"
+  brightRed: "#E57373"
+  brightGreen: "#81C784"
+  brightYellow: "#FFF176"
+  brightBlue: "#64B5F6"
+  brightMagenta: "#BA68C8"
+  brightCyan: "#00BCD4"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.8
+    black: 0
+    red: 32.3
+    green: 39.9
+    yellow: 91.7
+    blue: 36.2
+    magenta: 17.1
+    cyan: 47.9
+    white: 84.9
+    brightBlack: 21.3
+    brightRed: 44
+    brightGreen: 61.7
+    brightYellow: 95.1
+    brightBlue: 57.1
+    brightMagenta: 37.2
+    brightCyan: 55.8
+    brightWhite: 106.2

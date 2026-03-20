@@ -1,0 +1,53 @@
+name: "nloo-theme"
+source:
+  marketplace_id: "nloo.nlootheme"
+  version: "0.0.4"
+  installs: 188
+  rating: 0
+  ratings: 0
+  author: "nloo"
+  repo: "https://github.com/n-loo/nielstheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=nloo.nlootheme"
+  formats: null
+colors:
+  bg: "#3B3947"
+  fg: "#EFEEE3"
+  black: "#5A4760"
+  red: "#FC8A8C"
+  green: "#A9D28C"
+  yellow: "#DDC375"
+  blue: "#96DCF7"
+  magenta: "#F4A4E1"
+  cyan: "#89D0A9"
+  white: "#EFEEE3"
+  brightBlack: "#BCA6B8"
+  brightRed: "#FC8A8C"
+  brightGreen: "#A9D28C"
+  brightYellow: "#DDC375"
+  brightBlue: "#96DCF7"
+  brightMagenta: "#F4A4E1"
+  brightCyan: "#89D0A9"
+  brightWhite: "#F4D2EE"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 88.3
+    black: 0
+    red: 49.2
+    green: 64.1
+    yellow: 63.4
+    blue: 71.3
+    magenta: 59.3
+    cyan: 61.2
+    white: 88.3
+    brightBlack: 49.4
+    brightRed: 49.2
+    brightGreen: 64.1
+    brightYellow: 63.4
+    brightBlue: 71.3
+    brightMagenta: 59.3
+    brightCyan: 61.2
+    brightWhite: 77.3

@@ -1,0 +1,53 @@
+name: "gg-djaja-default"
+source:
+  marketplace_id: "bedeute.gg-djaja"
+  version: "0.3.61"
+  installs: 145
+  rating: 5
+  ratings: 1
+  author: "bedeute"
+  repo: "https://github.com/bedeute/gg-djaja-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bedeute.gg-djaja"
+  formats: null
+colors:
+  bg: "#142E25"
+  fg: "#7C8C87"
+  black: "#2A473E"
+  red: "#9B5363"
+  green: "#50885B"
+  yellow: "#968E5E"
+  blue: "#5E86A3"
+  magenta: "#9469AD"
+  cyan: "#508C86"
+  white: "#A1B4AF"
+  brightBlack: "#405C53"
+  brightRed: "#B0596C"
+  brightGreen: "#5FA56D"
+  brightYellow: "#B4AA6E"
+  brightBlue: "#6BA0C7"
+  brightMagenta: "#A070BC"
+  brightCyan: "#59A79F"
+  brightWhite: "#A6C2BB"
+meta:
+  mode: "dark"
+  accent: "magenta"
+  hue: 169
+  pair: "GG Djaja"
+  contrast:
+    fg: 35.1
+    black: 0
+    red: 20.8
+    green: 29.1
+    yellow: 37.4
+    blue: 31.7
+    magenta: 28.3
+    cyan: 31.9
+    white: 55.7
+    brightBlack: 12.9
+    brightRed: 25.8
+    brightGreen: 42
+    brightYellow: 51.9
+    brightBlue: 44.2
+    brightMagenta: 32.6
+    brightCyan: 44.1
+    brightWhite: 62.6

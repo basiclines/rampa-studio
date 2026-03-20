@@ -1,0 +1,53 @@
+name: "GreenBreeze-Dark"
+source:
+  marketplace_id: "icy9ptcl.greenbreeze-dark"
+  version: "0.0.1"
+  installs: 237
+  rating: 0
+  ratings: 0
+  author: "icy9ptcl"
+  repo: "https://github.com/Icy9ptcl/GreenBreeze-Dark-Theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=icy9ptcl.greenbreeze-dark"
+  formats: null
+colors:
+  bg: "#242C24"
+  fg: "#F6F6F6"
+  black: "#6F6F6F"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#026BDE"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#DBD9D9"
+  brightBlack: "#969696"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#D7D415"
+  brightBlue: "#5673EC"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 145
+  pair: "GreenBreeze-Light"
+  contrast:
+    fg: 98.1
+    black: 23.1
+    red: 23.9
+    green: 48.9
+    yellow: 40
+    blue: 23.9
+    magenta: 23.3
+    cyan: 37.3
+    white: 80
+    brightBlack: 41.8
+    brightRed: 23.9
+    brightGreen: 57.5
+    brightYellow: 73.2
+    brightBlue: 29.6
+    brightMagenta: 23.3
+    brightCyan: 37.3
+    brightWhite: 104.1

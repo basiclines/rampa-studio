@@ -1,0 +1,53 @@
+name: "Ramuda Pink Theme"
+source:
+  marketplace_id: "RienZhang.theme-ramuda-pink-dark"
+  version: "1.0.0"
+  installs: 4827
+  rating: 5
+  ratings: 3
+  author: "RienZhang"
+  repo: "https://github.com/fifthfir/Play"
+  url: "https://marketplace.visualstudio.com/items?itemName=RienZhang.theme-ramuda-pink-dark"
+  formats: null
+colors:
+  bg: "#251C2C"
+  fg: "#FFF0F5"
+  black: "#000000"
+  red: "#FFA0BF"
+  green: "#55E3B1"
+  yellow: "#FBFF00"
+  blue: "#FF83BB"
+  magenta: "#FFADC8"
+  cyan: "#80FCFF"
+  white: "#FFFFFF"
+  brightBlack: "#7575F1"
+  brightRed: "#FF9CBD"
+  brightGreen: "#3AD900"
+  brightYellow: "#FFE100"
+  brightBlue: "#68FCE8"
+  brightMagenta: "#FB94FF"
+  brightCyan: "#F69FC9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 310
+  pair: null
+  contrast:
+    fg: 98.3
+    black: 0
+    red: 64.4
+    green: 73.7
+    yellow: 100.1
+    blue: 55.6
+    magenta: 69.1
+    cyan: 91.7
+    white: 105.8
+    brightBlack: 34.6
+    brightRed: 63
+    brightGreen: 65.2
+    brightYellow: 86.6
+    brightBlue: 89.3
+    brightMagenta: 63.3
+    brightCyan: 62.8
+    brightWhite: 105.8

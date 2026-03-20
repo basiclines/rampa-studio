@@ -1,0 +1,53 @@
+name: "Midnight Koi"
+source:
+  marketplace_id: "scottydotcom.scottydotcom-dark-theme"
+  version: "0.2.0"
+  installs: 37
+  rating: 0
+  ratings: 0
+  author: "scottydotcom"
+  repo: "https://github.com/scottydotcom/midnight-koi"
+  url: "https://marketplace.visualstudio.com/items?itemName=scottydotcom.scottydotcom-dark-theme"
+  formats: null
+colors:
+  bg: "#131419"
+  fg: "#BBBBBB"
+  black: "#363B54"
+  red: "#F7768E"
+  green: "#73DACA"
+  yellow: "#E0AF68"
+  blue: "#7AA2F7"
+  magenta: "#BB9AF7"
+  cyan: "#5BAF96"
+  white: "#787C99"
+  brightBlack: "#363B54"
+  brightRed: "#F7768E"
+  brightGreen: "#73DACA"
+  brightYellow: "#E0AF68"
+  brightBlue: "#7AA2F7"
+  brightMagenta: "#BB9AF7"
+  brightCyan: "#5BAF96"
+  brightWhite: "#ACB0D0"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: 276
+  pair: null
+  contrast:
+    fg: 65
+    black: 0
+    red: 50.2
+    green: 73
+    yellow: 63
+    blue: 51.9
+    magenta: 55.8
+    cyan: 50.2
+    white: 32.9
+    brightBlack: 0
+    brightRed: 50.2
+    brightGreen: 73
+    brightYellow: 63
+    brightBlue: 51.9
+    brightMagenta: 55.8
+    brightCyan: 50.2
+    brightWhite: 59.8

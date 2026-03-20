@@ -1,0 +1,53 @@
+name: "Base16 Themes (Base16 Marrakesh Light)"
+source:
+  marketplace_id: "AndrsDC.base16-themes"
+  version: "1.4.5"
+  installs: 159132
+  rating: 4.29
+  ratings: 7
+  author: "AndrsDC"
+  repo: "https://github.com/AndrsDC/base16-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes"
+  formats: null
+colors:
+  bg: "#FAF0A5"
+  fg: "#5F5B17"
+  black: "#948E48"
+  red: "#C35359"
+  green: "#18974E"
+  yellow: "#B36144"
+  blue: "#477CA1"
+  magenta: "#8868B3"
+  cyan: "#75A738"
+  white: "#302E00"
+  brightBlack: "#86813B"
+  brightRed: "#C35359"
+  brightGreen: "#18974E"
+  brightYellow: "#A88339"
+  brightBlue: "#477CA1"
+  brightMagenta: "#8868B3"
+  brightCyan: "#75A738"
+  brightWhite: "#201602"
+meta:
+  mode: "light"
+  accent: "teal"
+  hue: 102
+  pair: "Base16 Themes (Base16 Marrakesh Dark)"
+  contrast:
+    fg: 74
+    black: 51
+    red: 60.2
+    green: 54.5
+    yellow: 60.4
+    blue: 61
+    magenta: 60.9
+    cyan: 44.4
+    white: 90.2
+    brightBlack: 57.3
+    brightRed: 60.2
+    brightGreen: 54.5
+    brightYellow: 52.5
+    brightBlue: 61
+    brightMagenta: 60.9
+    brightCyan: 44.4
+    brightWhite: 94.4

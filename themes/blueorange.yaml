@@ -1,0 +1,53 @@
+name: "BlueOrange"
+source:
+  marketplace_id: "paul-hansen.blueorange"
+  version: "1.0.0"
+  installs: 490
+  rating: 5
+  ratings: 1
+  author: "Paul Hansen"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=paul-hansen.blueorange"
+  formats: null
+colors:
+  bg: "#0F1419"
+  fg: "#E6E1CF"
+  black: "#000000"
+  red: "#FF3333"
+  green: "#B8CC52"
+  yellow: "#E7C547"
+  blue: "#36A3D9"
+  magenta: "#BC3FBC"
+  cyan: "#95E6CB"
+  white: "#FFFFFF"
+  brightBlack: "#323232"
+  brightRed: "#FF6565"
+  brightGreen: "#EAFE84"
+  brightYellow: "#FFF779"
+  brightBlue: "#68D5FF"
+  brightMagenta: "#D670D6"
+  brightCyan: "#C7FFFD"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 87.7
+    black: 0
+    red: 38.9
+    green: 69.2
+    yellow: 72.4
+    blue: 47.1
+    magenta: 30.1
+    cyan: 81.2
+    white: 107.2
+    brightBlack: 0
+    brightRed: 47
+    brightGreen: 99.7
+    brightYellow: 99
+    brightBlue: 72.9
+    brightMagenta: 45.7
+    brightCyan: 100.2
+    brightWhite: 107.2

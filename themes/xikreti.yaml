@@ -1,0 +1,53 @@
+name: "Xikreti"
+source:
+  marketplace_id: "Xikreti.xikreti-theme"
+  version: "1.0.0"
+  installs: 12
+  rating: 0
+  ratings: 0
+  author: "Thales Cardoso"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=Xikreti.xikreti-theme"
+  formats: null
+colors:
+  bg: "#262335"
+  fg: "#FFFFFF"
+  black: "#2A2139"
+  red: "#FE4450"
+  green: "#2BFF88"
+  yellow: "#F3E70F"
+  blue: "#03EDF9"
+  magenta: "#FF7EDB"
+  cyan: "#03EDF9"
+  white: "#FFFFFF"
+  brightBlack: "#2A2139"
+  brightRed: "#FE4450"
+  brightGreen: "#2BFF88"
+  brightYellow: "#FEDE5D"
+  brightBlue: "#03EDF9"
+  brightMagenta: "#FF7EDB"
+  brightCyan: "#03EDF9"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: 292
+  pair: null
+  contrast:
+    fg: 104.9
+    black: 0
+    red: 38.6
+    green: 85
+    yellow: 86.6
+    blue: 79.7
+    magenta: 54.9
+    cyan: 79.7
+    white: 104.9
+    brightBlack: 0
+    brightRed: 38.6
+    brightGreen: 85
+    brightYellow: 84.7
+    brightBlue: 79.7
+    brightMagenta: 54.9
+    brightCyan: 79.7
+    brightWhite: 104.9

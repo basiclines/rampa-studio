@@ -1,0 +1,53 @@
+name: "Rainglow (storm)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#092327"
+  fg: "#BACEDD"
+  black: "#0E363C"
+  red: "#BA0E2E"
+  green: "#126D6B"
+  yellow: "#00A9A5"
+  blue: "#4E8098"
+  magenta: "#126D6B"
+  cyan: "#00A9A5"
+  white: "#CBDAE5"
+  brightBlack: "#1C6D7A"
+  brightRed: "#F03E5F"
+  brightGreen: "#20C5C1"
+  brightYellow: "#10FFF9"
+  brightBlue: "#89B0C3"
+  brightMagenta: "#20C5C1"
+  brightCyan: "#10FFF9"
+  brightWhite: "#FEFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 209
+  pair: "Rainglow (storm-light)"
+  contrast:
+    fg: 73
+    black: 0
+    red: 19.4
+    green: 19.5
+    yellow: 44.9
+    blue: 29.7
+    magenta: 19.5
+    cyan: 44.9
+    white: 80.6
+    brightBlack: 20.1
+    brightRed: 35.6
+    brightGreen: 58.6
+    brightYellow: 89.7
+    brightBlue: 54.3
+    brightMagenta: 58.6
+    brightCyan: 89.7
+    brightWhite: 105.6

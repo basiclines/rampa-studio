@@ -1,0 +1,53 @@
+name: "wicked"
+source:
+  marketplace_id: "heartfeltdreamofbeing.wicked"
+  version: "0.1.1"
+  installs: 37
+  rating: 0
+  ratings: 0
+  author: "heartfeltdreamofbeing"
+  repo: "git:https://github.com/heartfeltdreamofbeing/wicked"
+  url: "https://marketplace.visualstudio.com/items?itemName=heartfeltdreamofbeing.wicked"
+  formats: null
+colors:
+  bg: "#001713"
+  fg: "#FF008F"
+  black: "#FFFFFF"
+  red: "#C40000"
+  green: "#036D00"
+  yellow: "#D94800"
+  blue: "#0010FF"
+  magenta: "#B8005E"
+  cyan: "#006D68"
+  white: "#000000"
+  brightBlack: "#EBF7FF"
+  brightRed: "#FF0000"
+  brightGreen: "#0EB400"
+  brightYellow: "#FF6C00"
+  brightBlue: "#3248FF"
+  brightMagenta: "#FF0083"
+  brightCyan: "#00AD95"
+  brightWhite: "#242424"
+meta:
+  mode: "dark"
+  accent: "purple"
+  hue: 181
+  pair: null
+  contrast:
+    fg: 39
+    black: 107.1
+    red: 22.6
+    green: 19.2
+    yellow: 32.3
+    blue: 15.6
+    magenta: 21.1
+    cyan: 20.7
+    white: 0
+    brightBlack: 100.6
+    brightRed: 36.8
+    brightGreen: 48.3
+    brightYellow: 47.5
+    brightBlue: 22.2
+    brightMagenta: 38.6
+    brightCyan: 47.3
+    brightWhite: 0

@@ -1,0 +1,53 @@
+name: "DevStack (Vanguard-Strike)"
+source:
+  marketplace_id: "skyler.ocrmnav"
+  version: "4.0.196"
+  installs: 326
+  rating: 0
+  ratings: 0
+  author: "skyler"
+  repo: "https://github.com/8an3/OCRMNav"
+  url: "https://marketplace.visualstudio.com/items?itemName=skyler.ocrmnav"
+  formats: null
+colors:
+  bg: "#090504"
+  fg: "#F5ECEB"
+  black: "#090504"
+  red: "#DB0000"
+  green: "#29C3A0"
+  yellow: "#D29922"
+  blue: "#FD3A37"
+  magenta: "#FD3A37"
+  cyan: "#29C3A0"
+  white: "#F5ECEB"
+  brightBlack: "#090504"
+  brightRed: "#DB0000"
+  brightGreen: "#29C3A0"
+  brightYellow: "#D29922"
+  brightBlue: "#FD3A37"
+  brightMagenta: "#FD3A37"
+  brightCyan: "#29C3A0"
+  brightWhite: "#F5ECEB"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 38
+  pair: null
+  contrast:
+    fg: 96.6
+    black: 0
+    red: 28.7
+    green: 58.6
+    yellow: 52.7
+    blue: 39.8
+    magenta: 39.8
+    cyan: 58.6
+    white: 96.6
+    brightBlack: 0
+    brightRed: 28.7
+    brightGreen: 58.6
+    brightYellow: 52.7
+    brightBlue: 39.8
+    brightMagenta: 39.8
+    brightCyan: 58.6
+    brightWhite: 96.6

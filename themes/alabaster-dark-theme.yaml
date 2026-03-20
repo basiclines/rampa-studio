@@ -1,0 +1,53 @@
+name: "Alabaster Dark Theme"
+source:
+  marketplace_id: "gargakshit.theme-alabaster-dark"
+  version: "0.1.3"
+  installs: 4227
+  rating: 0
+  ratings: 0
+  author: "Akshit Garg"
+  repo: "https://github.com/gargakshit/vscode-theme-alabaster-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=gargakshit.theme-alabaster-dark"
+  formats: null
+colors:
+  bg: "#0E1415"
+  fg: "#CECECE"
+  black: "#000000"
+  red: "#E25D56"
+  green: "#73CA50"
+  yellow: "#E9BF57"
+  blue: "#4A88E4"
+  magenta: "#915CAF"
+  cyan: "#23ACDD"
+  white: "#CECECE"
+  brightBlack: "#777777"
+  brightRed: "#F36868"
+  brightGreen: "#88DB3F"
+  brightYellow: "#F0BF7A"
+  brightBlue: "#6F8FDB"
+  brightMagenta: "#E987E9"
+  brightCyan: "#4AC9E2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 76.2
+    black: 0
+    red: 38.8
+    green: 62.2
+    yellow: 70.5
+    blue: 38.4
+    magenta: 27.8
+    cyan: 50.7
+    white: 76.2
+    brightBlack: 29.9
+    brightRed: 45.1
+    brightGreen: 71.6
+    brightYellow: 72.2
+    brightBlue: 42.4
+    brightMagenta: 56.3
+    brightCyan: 64.5
+    brightWhite: 107.2

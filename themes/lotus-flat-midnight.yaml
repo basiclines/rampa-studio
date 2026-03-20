@@ -1,0 +1,53 @@
+name: "Lotus Flat Midnight"
+source:
+  marketplace_id: "alewtschuk.lotus-flat-dark-theme"
+  version: "2.0.0"
+  installs: 395
+  rating: 0
+  ratings: 0
+  author: "alewtschuk"
+  repo: "https://github.com/alewtschuk/lotus-flat-theme-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=alewtschuk.lotus-flat-dark-theme"
+  formats: null
+colors:
+  bg: "#08090A"
+  fg: "#ABB2BF"
+  black: "#3F4451"
+  red: "#E05561"
+  green: "#8CC265"
+  yellow: "#D18F52"
+  blue: "#4AA5F0"
+  magenta: "#C162DE"
+  cyan: "#42B3C2"
+  white: "#D7DAE0"
+  brightBlack: "#4F5666"
+  brightRed: "#FF616E"
+  brightGreen: "#A5E075"
+  brightYellow: "#F0A45D"
+  brightBlue: "#4DC4FF"
+  brightMagenta: "#DE73FF"
+  brightCyan: "#4CD1E0"
+  brightWhite: "#E6E6E6"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 60.3
+    black: 9.7
+    red: 37.6
+    green: 61.3
+    yellow: 49.5
+    blue: 50.6
+    magenta: 40
+    cyan: 53.4
+    white: 83.9
+    brightBlack: 16.4
+    brightRed: 47
+    brightGreen: 77.7
+    brightYellow: 62.1
+    brightBlue: 64.6
+    brightMagenta: 51.2
+    brightCyan: 68.7
+    brightWhite: 91.5

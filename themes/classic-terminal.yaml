@@ -1,0 +1,53 @@
+name: "classic_terminal"
+source:
+  marketplace_id: "YesCode.inspiration"
+  version: "0.0.19"
+  installs: 1076
+  rating: 5
+  ratings: 1
+  author: "YesCode"
+  repo: "https://github.com/yesomac/inspiration_themevsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.inspiration"
+  formats: null
+colors:
+  bg: "#212121"
+  fg: "#008800"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#74F0B6"
+  brightYellow: "#06FF82"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "teal"
+  hue: null
+  pair: null
+  contrast:
+    fg: 28
+    black: 0
+    red: 40.7
+    green: 59.7
+    yellow: 71.8
+    blue: 46.2
+    magenta: 18.3
+    cyan: 48.2
+    white: 46
+    brightBlack: 17.3
+    brightRed: 40.7
+    brightGreen: 81.6
+    brightYellow: 85.4
+    brightBlue: 17.5
+    brightMagenta: 18.3
+    brightCyan: 48.2
+    brightWhite: 97.6

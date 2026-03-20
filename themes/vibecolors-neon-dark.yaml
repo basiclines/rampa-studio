@@ -1,0 +1,53 @@
+name: "VibeColors Neon Dark"
+source:
+  marketplace_id: "AlexLi.vibecolors"
+  version: "1.1.4"
+  installs: 113
+  rating: 5
+  ratings: 1
+  author: "Alex Li"
+  repo: "https://github.com/yili6ms/VibeColors"
+  url: "https://marketplace.visualstudio.com/items?itemName=AlexLi.vibecolors"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#E6EDF3"
+  black: "#484F58"
+  red: "#FF0080"
+  green: "#39FF14"
+  yellow: "#FFFF00"
+  blue: "#0080FF"
+  magenta: "#FF69B4"
+  cyan: "#00FFFF"
+  white: "#E6EDF3"
+  brightBlack: "#484F58"
+  brightRed: "#FF0080"
+  brightGreen: "#39FF14"
+  brightYellow: "#FFFF00"
+  brightBlue: "#0080FF"
+  brightMagenta: "#FF69B4"
+  brightCyan: "#00FFFF"
+  brightWhite: "#E6EDF3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 95
+    black: 13.1
+    red: 38.8
+    green: 86.5
+    yellow: 102.2
+    blue: 36.6
+    magenta: 50.6
+    cyan: 91.7
+    white: 95
+    brightBlack: 13.1
+    brightRed: 38.8
+    brightGreen: 86.5
+    brightYellow: 102.2
+    brightBlue: 36.6
+    brightMagenta: 50.6
+    brightCyan: 91.7
+    brightWhite: 95

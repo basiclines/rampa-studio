@@ -1,0 +1,53 @@
+name: "Fleex Theme Ocean Dark"
+source:
+  marketplace_id: "bluebone.fleex-theme"
+  version: "0.1.9"
+  installs: 100
+  rating: 5
+  ratings: 1
+  author: "bluebone"
+  repo: "https://github.com/fleex/fleex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=bluebone.fleex-theme"
+  formats: null
+colors:
+  bg: "#10181B"
+  fg: "#E4EEF1"
+  black: "#0B1215"
+  red: "#FF8A73"
+  green: "#59B89D"
+  yellow: "#E1B166"
+  blue: "#77C5E5"
+  magenta: "#B19EFF"
+  cyan: "#74D6E0"
+  white: "#E4EEF1"
+  brightBlack: "#0B1215"
+  brightRed: "#FF8A73"
+  brightGreen: "#59B89D"
+  brightYellow: "#E1B166"
+  brightBlue: "#77C5E5"
+  brightMagenta: "#B19EFF"
+  brightCyan: "#74D6E0"
+  brightWhite: "#E4EEF1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 223
+  pair: "Fleex Theme Ocean Light"
+  contrast:
+    fg: 94.6
+    black: 0
+    red: 56.2
+    green: 54
+    yellow: 63.6
+    blue: 64.7
+    magenta: 56.2
+    cyan: 72
+    white: 94.6
+    brightBlack: 0
+    brightRed: 56.2
+    brightGreen: 54
+    brightYellow: 63.6
+    brightBlue: 64.7
+    brightMagenta: 56.2
+    brightCyan: 72
+    brightWhite: 94.6

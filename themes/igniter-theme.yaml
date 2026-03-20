@@ -1,0 +1,53 @@
+name: "Igniter Theme"
+source:
+  marketplace_id: "Igniter-js.igniter-theme"
+  version: "1.0.0"
+  installs: 34
+  rating: 0
+  ratings: 0
+  author: "Igniter.js"
+  repo: "https://github.com/felipebarcelospro/igniter-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=Igniter-js.igniter-theme"
+  formats: null
+colors:
+  bg: "#161111"
+  fg: "#EBE9E8"
+  black: "#101010"
+  red: "#F5A191"
+  green: "#90B99F"
+  yellow: "#E6B99D"
+  blue: "#ACA1CF"
+  magenta: "#E29ECA"
+  cyan: "#EA9483"
+  white: "#A0A0A0"
+  brightBlack: "#7E7E7E"
+  brightRed: "#FF8080"
+  brightGreen: "#99FFE4"
+  brightYellow: "#FFC799"
+  brightBlue: "#B9AEDA"
+  brightMagenta: "#ECAAAA"
+  brightCyan: "#FF9A6B"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: "Igniter Theme (Light)"
+  contrast:
+    fg: 93.2
+    black: 0
+    red: 62.7
+    green: 58.7
+    yellow: 69.3
+    blue: 54.2
+    magenta: 60.6
+    cyan: 56
+    white: 50.3
+    brightBlack: 33.2
+    brightRed: 54.1
+    brightGreen: 95.1
+    brightYellow: 78.7
+    brightBlue: 61.2
+    brightMagenta: 65.1
+    brightCyan: 61.3
+    brightWhite: 107.3

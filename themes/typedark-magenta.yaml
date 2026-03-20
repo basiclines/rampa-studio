@@ -1,0 +1,53 @@
+name: "TypeDark Magenta"
+source:
+  marketplace_id: "BonnyAD9.typedark"
+  version: "1.1.27"
+  installs: 374
+  rating: 5
+  ratings: 1
+  author: "BonnyAD9"
+  repo: "https://github.com/BonnyAD9/TypeDark"
+  url: "https://marketplace.visualstudio.com/items?itemName=BonnyAD9.typedark"
+  formats: null
+colors:
+  bg: "#252224"
+  fg: "#EEEEEE"
+  black: "#000000"
+  red: "#883333"
+  green: "#338833"
+  yellow: "#888833"
+  blue: "#5566EE"
+  magenta: "#884488"
+  cyan: "#338888"
+  white: "#CCCCCC"
+  brightBlack: "#777777"
+  brightRed: "#FF5555"
+  brightGreen: "#23D16A"
+  brightYellow: "#FFFF55"
+  brightBlue: "#308EEA"
+  brightMagenta: "#FF77FF"
+  brightCyan: "#66CCCC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 94.2
+    black: 0
+    red: 12
+    green: 28.5
+    yellow: 34.2
+    blue: 27.3
+    magenta: 17.5
+    cyan: 30.5
+    white: 73.1
+    brightBlack: 28
+    brightRed: 41.8
+    brightGreen: 61.2
+    brightYellow: 100.5
+    brightBlue: 38.2
+    brightMagenta: 55.9
+    brightCyan: 64.1
+    brightWhite: 105.3

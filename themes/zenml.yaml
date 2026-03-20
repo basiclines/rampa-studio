@@ -1,0 +1,53 @@
+name: "ZenML"
+source:
+  marketplace_id: "zenml-io.zenml-tutorial"
+  version: "0.1.6"
+  installs: 261
+  rating: 0
+  ratings: 0
+  author: "zenml-io"
+  repo: "https://github.com/zenml-io/vscode-tutorial-extension"
+  url: "https://marketplace.visualstudio.com/items?itemName=zenml-io.zenml-tutorial"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#1A1A2E"
+  black: "#000000"
+  red: "#DC3545"
+  green: "#179F3E"
+  yellow: "#A65D07"
+  blue: "#007BFF"
+  magenta: "#7A3EF4"
+  cyan: "#17A2B8"
+  white: "#F8F9FA"
+  brightBlack: "#6C757D"
+  brightRed: "#DC3545"
+  brightGreen: "#179F3E"
+  brightYellow: "#A65D07"
+  brightBlue: "#3498DB"
+  brightMagenta: "#7A3EF4"
+  brightCyan: "#1ABC9C"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 103.9
+    black: 106
+    red: 69.9
+    green: 61.6
+    yellow: 74.2
+    blue: 66.2
+    magenta: 76.4
+    cyan: 56.8
+    white: 0
+    brightBlack: 72.6
+    brightRed: 69.9
+    brightGreen: 61.6
+    brightYellow: 74.2
+    brightBlue: 58.2
+    brightMagenta: 76.4
+    brightCyan: 46.9
+    brightWhite: 0

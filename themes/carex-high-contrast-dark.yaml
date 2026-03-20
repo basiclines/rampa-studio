@@ -1,0 +1,53 @@
+name: "Carex High Contrast Dark"
+source:
+  marketplace_id: "OMERBABACO.carex-theme"
+  version: "2.0.0"
+  installs: 45
+  rating: 0
+  ratings: 0
+  author: "OMERBABACO"
+  repo: "https://github.com/babajoeltdsti/carex-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=OMERBABACO.carex-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF00"
+  yellow: "#FFFF00"
+  blue: "#0088FF"
+  magenta: "#FF00FF"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#808080"
+  brightRed: "#FF6666"
+  brightGreen: "#66FF66"
+  brightYellow: "#FFFF66"
+  brightBlue: "#66AAFF"
+  brightMagenta: "#FF66FF"
+  brightCyan: "#66FFFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 37.5
+    green: 86.5
+    yellow: 102.7
+    blue: 39.8
+    magenta: 46.2
+    cyan: 92.2
+    white: 107.9
+    brightBlack: 34.8
+    brightRed: 47.9
+    brightGreen: 89
+    brightYellow: 103.3
+    brightBlue: 55
+    brightMagenta: 54.8
+    brightCyan: 94
+    brightWhite: 107.9

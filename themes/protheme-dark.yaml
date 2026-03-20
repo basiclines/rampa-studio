@@ -1,0 +1,51 @@
+name: "Protheme Dark"
+source:
+  marketplace_id: "omarbasheer.protheme"
+  version: "2.0.4"
+  installs: 36
+  author: "omar basheer"
+  repo: "https://github.com/omar-basheer/ProTheme"
+  url: "https://marketplace.visualstudio.com/items?itemName=omarbasheer.protheme"
+  formats: null
+colors:
+  bg: "#2A2B35"
+  fg: "#FFFFFF"
+  black: "#282B35"
+  red: "#B21889"
+  green: "#DF0002"
+  yellow: "#438288"
+  blue: "#790EAD"
+  magenta: "#B21889"
+  cyan: "#00A0BE"
+  white: "#939599"
+  brightBlack: "#686A71"
+  brightRed: "#B21889"
+  brightGreen: "#DF0002"
+  brightYellow: "#438288"
+  brightBlue: "#790EAD"
+  brightMagenta: "#B21889"
+  brightCyan: "#00A0BE"
+  brightWhite: "#BEBFC2"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 281
+  pair: null
+  contrast:
+    fg: 103.7
+    black: 0
+    red: 18.5
+    green: 25.5
+    yellow: 27.2
+    blue: 10.6
+    magenta: 18.5
+    cyan: 40.3
+    white: 40.9
+    brightBlack: 20.6
+    brightRed: 18.5
+    brightGreen: 25.5
+    brightYellow: 27.2
+    brightBlue: 10.6
+    brightMagenta: 18.5
+    brightCyan: 40.3
+    brightWhite: 63.9

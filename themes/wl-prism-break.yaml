@@ -1,0 +1,53 @@
+name: "WL-Prism Break"
+source:
+  marketplace_id: "WatkinsLabs.prism-break"
+  version: "1.0.1"
+  installs: 29
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.prism-break"
+  formats: null
+colors:
+  bg: "#2C2C34"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#00FF66"
+  yellow: "#FFAA00"
+  blue: "#00C1FF"
+  magenta: "#FF7700"
+  cyan: "#00C1FF"
+  white: "#FFFFFF"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#00FF66"
+  brightYellow: "#FFAA00"
+  brightBlue: "#00C1FF"
+  brightMagenta: "#FF7700"
+  brightCyan: "#00C1FF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 285
+  pair: null
+  contrast:
+    fg: 103.5
+    black: 0
+    red: 33.2
+    green: 82.8
+    yellow: 62.1
+    blue: 57.9
+    magenta: 46.6
+    cyan: 57.9
+    white: 103.5
+    brightBlack: 18.7
+    brightRed: 33.2
+    brightGreen: 82.8
+    brightYellow: 62.1
+    brightBlue: 57.9
+    brightMagenta: 46.6
+    brightCyan: 57.9
+    brightWhite: 103.5

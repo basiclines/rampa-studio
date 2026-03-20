@@ -1,0 +1,53 @@
+name: "Dark Theme Blue"
+source:
+  marketplace_id: "gthbccnt.dark-theme-blue"
+  version: "1.0.8"
+  installs: 280
+  rating: 0
+  ratings: 0
+  author: "gthbccnt"
+  repo: "https://github.com/gthbccnt/gthbccnt.dark-theme-blue"
+  url: "https://marketplace.visualstudio.com/items?itemName=gthbccnt.dark-theme-blue"
+  formats: null
+colors:
+  bg: "#1D1F21"
+  fg: "#D4D4D4"
+  black: "#000000"
+  red: "#D97779"
+  green: "#9DC085"
+  yellow: "#F4BF75"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#3A8DBE"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#4CBAFA"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 78.5
+    black: 0
+    red: 42.7
+    green: 60.8
+    yellow: 71.5
+    blue: 26.5
+    magenta: 28.8
+    cyan: 35.8
+    white: 89.1
+    brightBlack: 21.1
+    brightRed: 37.6
+    brightGreen: 62.6
+    brightYellow: 94.7
+    brightBlue: 39.1
+    brightMagenta: 44.4
+    brightCyan: 58.1
+    brightWhite: 89.1

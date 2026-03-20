@@ -1,0 +1,53 @@
+name: "Monochrome Theme"
+source:
+  marketplace_id: "mochi.mochi-monochrome-theme"
+  version: "0.0.2"
+  installs: 191
+  rating: 0
+  ratings: 0
+  author: "mochi"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=mochi.mochi-monochrome-theme"
+  formats: null
+colors:
+  bg: "#141414"
+  fg: "#AAAAAA"
+  black: "#777777"
+  red: "#BBBBBB"
+  green: "#BBBBBB"
+  yellow: "#BBBBBB"
+  blue: "#BBBBBB"
+  magenta: "#BBBBBB"
+  cyan: "#BBBBBB"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#BBBBBB"
+  brightGreen: "#BBBBBB"
+  brightYellow: "#BBBBBB"
+  brightBlue: "#BBBBBB"
+  brightMagenta: "#BBBBBB"
+  brightCyan: "#BBBBBB"
+  brightWhite: "#E9E9E9"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 55.5
+    black: 29.8
+    red: 65
+    green: 65
+    yellow: 65
+    blue: 65
+    magenta: 65
+    cyan: 65
+    white: 90.3
+    brightBlack: 22.3
+    brightRed: 65
+    brightGreen: 65
+    brightYellow: 65
+    brightBlue: 65
+    brightMagenta: 65
+    brightCyan: 65
+    brightWhite: 92.8

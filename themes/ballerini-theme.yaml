@@ -1,0 +1,53 @@
+name: "Ballerini Theme"
+source:
+  marketplace_id: "BalleriniServer.ballerini-theme"
+  version: "1.2.4"
+  installs: 55234
+  rating: 5
+  ratings: 13
+  author: "Ballerini Theme"
+  repo: "https://github.com/Ballerini-Server/Ballerini-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=BalleriniServer.ballerini-theme"
+  formats: null
+colors:
+  bg: "#261C1E"
+  fg: "#FFF2E7"
+  black: "#111111"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#EFC764"
+  brightBlue: "#97D4D9"
+  brightMagenta: "#D670D6"
+  brightCyan: "#B3DFD3"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 5
+  pair: null
+  contrast:
+    fg: 98.8
+    black: 0
+    red: 25.8
+    green: 52.1
+    yellow: 84.7
+    blue: 26.5
+    magenta: 28.8
+    cyan: 46.6
+    white: 89.1
+    brightBlack: 21.1
+    brightRed: 37.6
+    brightGreen: 62.6
+    brightYellow: 73.6
+    brightBlue: 72.3
+    brightMagenta: 44.4
+    brightCyan: 79.7
+    brightWhite: 89.1

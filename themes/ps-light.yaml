@@ -1,0 +1,53 @@
+name: "PS Light"
+source:
+  marketplace_id: "ps-designs.startbust-theme"
+  version: "0.1.1"
+  installs: 226
+  rating: 4
+  ratings: 1
+  author: "Pavel Sanchez"
+  repo: "https://github.com/PaleBluDot/starburst-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=ps-designs.startbust-theme"
+  formats: null
+colors:
+  bg: "#BABABA"
+  fg: "#1C1A1A"
+  black: "#1C1A1A"
+  red: "#DD656D"
+  green: "#4EBD8F"
+  yellow: "#D9DF34"
+  blue: "#0076A9"
+  magenta: "#D37FAC"
+  cyan: "#5FB3B3"
+  white: "#1C1A1A"
+  brightBlack: "#1C1A1A"
+  brightRed: "#DD656D"
+  brightGreen: "#4EBD8F"
+  brightYellow: "#D9DF34"
+  brightBlue: "#0076A9"
+  brightMagenta: "#D37FAC"
+  brightCyan: "#5FB3B3"
+  brightWhite: "#1C1A1A"
+meta:
+  mode: "light"
+  accent: "green"
+  hue: null
+  pair: "PS Dark"
+  contrast:
+    fg: 64.8
+    black: 64.8
+    red: 21.6
+    green: 0
+    yellow: 16.1
+    blue: 34.8
+    magenta: 14.8
+    cyan: 8.6
+    white: 64.8
+    brightBlack: 64.8
+    brightRed: 21.6
+    brightGreen: 0
+    brightYellow: 16.1
+    brightBlue: 34.8
+    brightMagenta: 14.8
+    brightCyan: 8.6
+    brightWhite: 64.8

@@ -1,0 +1,53 @@
+name: "Stranger Theme: The Lab"
+source:
+  marketplace_id: "StrangerTheme.stranger-theme-vscode"
+  version: "1.0.2"
+  installs: 212
+  rating: 0
+  ratings: 0
+  author: "Stranger Theme"
+  repo: "https://github.com/stranger-theme/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=StrangerTheme.stranger-theme-vscode"
+  formats: null
+colors:
+  bg: "#1A1D26"
+  fg: "#E0E5EC"
+  black: "#1A1D26"
+  red: "#FF4136"
+  green: "#2ECC40"
+  yellow: "#FFDC00"
+  blue: "#B10DC9"
+  magenta: "#7FDBFF"
+  cyan: "#39CCCC"
+  white: "#E0E5EC"
+  brightBlack: "#5D6D7E"
+  brightRed: "#FF4136"
+  brightGreen: "#2ECC40"
+  brightYellow: "#FFDC00"
+  brightBlue: "#B10DC9"
+  brightMagenta: "#7FDBFF"
+  brightCyan: "#39CCCC"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 271
+  pair: null
+  contrast:
+    fg: 89
+    black: 0
+    red: 39.4
+    green: 59.2
+    yellow: 84.7
+    blue: 24.3
+    magenta: 75.9
+    cyan: 63.2
+    white: 89
+    brightBlack: 23.6
+    brightRed: 39.4
+    brightGreen: 59.2
+    brightYellow: 84.7
+    brightBlue: 24.3
+    brightMagenta: 75.9
+    brightCyan: 63.2
+    brightWhite: 106.1

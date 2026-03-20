@@ -1,0 +1,55 @@
+name: "Capitola"
+source:
+  marketplace_id: "vitornovictor.capitola"
+  version: "1.0.2"
+  installs: 693
+  rating: 0
+  ratings: 0
+  author: "Vitor Nunes"
+  repo: "https://github.com/vitornovictor/capitola"
+  url: "https://marketplace.visualstudio.com/items?itemName=vitornovictor.capitola"
+  formats:
+    iterm2: "https://raw.githubusercontent.com/vitornovictor/capitola/main/iterm2/Capitola.itermcolors"
+    android-studio: "https://raw.githubusercontent.com/vitornovictor/capitola/main/jetbrains/Capitola.icls"
+colors:
+  bg: "#E4E4E4"
+  fg: "#000000"
+  black: "#000000"
+  red: "#8B0000"
+  green: "#00AF00"
+  yellow: "#D78700"
+  blue: "#0000FF"
+  magenta: "#8B008B"
+  cyan: "#00AF87"
+  white: "#949494"
+  brightBlack: "#444444"
+  brightRed: "#CD3131"
+  brightGreen: "#00D700"
+  brightYellow: "#D7AF00"
+  brightBlue: "#005FFF"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#00D7AF"
+  brightWhite: "#A8A8A8"
+meta:
+  mode: "light"
+  accent: "purple"
+  hue: null
+  pair: null
+  contrast:
+    fg: 90.1
+    black: 90.1
+    red: 74.8
+    green: 39.1
+    yellow: 38.4
+    blue: 69.9
+    magenta: 71.1
+    cyan: 37.4
+    white: 41.2
+    brightBlack: 76.7
+    brightRed: 58.1
+    brightGreen: 20.8
+    brightYellow: 24.8
+    brightBlue: 58.4
+    brightMagenta: 58.6
+    brightCyan: 18.2
+    brightWhite: 31

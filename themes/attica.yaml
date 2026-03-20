@@ -1,0 +1,53 @@
+name: "attica"
+source:
+  marketplace_id: "Alekzandriia.attica"
+  version: "0.4.0"
+  installs: 220
+  rating: 0
+  ratings: 0
+  author: "Alekzandriia"
+  repo: "https://github.com/alekzandria/attica"
+  url: "https://marketplace.visualstudio.com/items?itemName=Alekzandriia.attica"
+  formats: null
+colors:
+  bg: "#E1DEE9"
+  fg: "#7E7F9A"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#00BC00"
+  yellow: "#949800"
+  blue: "#0451A5"
+  magenta: "#BC05BC"
+  cyan: "#0598BC"
+  white: "#555555"
+  brightBlack: "#666666"
+  brightRed: "#CD3131"
+  brightGreen: "#14CE14"
+  brightYellow: "#B5BA00"
+  brightBlue: "#0451A5"
+  brightMagenta: "#BC05BC"
+  brightCyan: "#0598BC"
+  brightWhite: "#A5A5A5"
+meta:
+  mode: "light"
+  accent: "pink"
+  hue: 299
+  pair: null
+  contrast:
+    fg: 47.9
+    black: 87.5
+    red: 55.4
+    green: 30.7
+    yellow: 39.4
+    blue: 67.5
+    magenta: 56
+    cyan: 42.1
+    white: 67.4
+    brightBlack: 60.2
+    brightRed: 55.4
+    brightGreen: 22.4
+    brightYellow: 22.4
+    brightBlue: 67.5
+    brightMagenta: 56
+    brightCyan: 42.1
+    brightWhite: 29.9

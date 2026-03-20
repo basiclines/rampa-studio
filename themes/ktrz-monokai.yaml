@@ -1,0 +1,53 @@
+name: "KTRZ Monokai"
+source:
+  marketplace_id: "ixkaito.ktrz-monokai"
+  version: "0.1.7"
+  installs: 11064
+  rating: 5
+  ratings: 2
+  author: "Kite"
+  repo: "https://github.com/ixkaito/ktrz-monokai"
+  url: "https://marketplace.visualstudio.com/items?itemName=ixkaito.ktrz-monokai"
+  formats: null
+colors:
+  bg: "#26292C"
+  fg: "#F8F8F8"
+  black: "#1E2123"
+  red: "#D2304B"
+  green: "#A6E22E"
+  yellow: "#E6DB74"
+  blue: "#AE81FF"
+  magenta: "#F92672"
+  cyan: "#66D9EF"
+  white: "#F8F8F8"
+  brightBlack: "#5C6166"
+  brightRed: "#D2304B"
+  brightGreen: "#A6E22E"
+  brightYellow: "#E6DB74"
+  brightBlue: "#AE81FF"
+  brightMagenta: "#F92672"
+  brightCyan: "#66D9EF"
+  brightWhite: "#F8F8F8"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 99.7
+    black: 0
+    red: 25.5
+    green: 74.4
+    yellow: 79.5
+    blue: 44
+    magenta: 34.7
+    cyan: 70.8
+    white: 99.7
+    brightBlack: 17.1
+    brightRed: 25.5
+    brightGreen: 74.4
+    brightYellow: 79.5
+    brightBlue: 44
+    brightMagenta: 34.7
+    brightCyan: 70.8
+    brightWhite: 99.7

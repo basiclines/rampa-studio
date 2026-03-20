@@ -1,0 +1,53 @@
+name: "Sumiiro"
+source:
+  marketplace_id: "kyoh86.sumiiro"
+  version: "0.0.1"
+  installs: 2286
+  rating: 0
+  ratings: 0
+  author: "kyoh86"
+  repo: "https://github.com/kyoh86/sumiiro-vsc"
+  url: "https://marketplace.visualstudio.com/items?itemName=kyoh86.sumiiro"
+  formats: null
+colors:
+  bg: "#1C1C1C"
+  fg: "#FCFAF2"
+  black: "#1C1C1C"
+  red: "#DA5774"
+  green: "#4B8C5E"
+  yellow: "#E7A430"
+  blue: "#5992DC"
+  magenta: "#A784A7"
+  cyan: "#1E90A8"
+  white: "#91989F"
+  brightBlack: "#434343"
+  brightRed: "#ED784A"
+  brightGreen: "#86BE66"
+  brightYellow: "#FAD689"
+  brightBlue: "#96C8F6"
+  brightMagenta: "#EE99CE"
+  brightCyan: "#69B2AC"
+  brightWhite: "#FCFAF2"
+meta:
+  mode: "dark"
+  accent: "red"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.9
+    black: 0
+    red: 35.8
+    green: 32.7
+    yellow: 58.6
+    blue: 41.2
+    magenta: 40.6
+    cyan: 35.5
+    white: 44.6
+    brightBlack: 7.9
+    brightRed: 46.3
+    brightGreen: 57.5
+    brightYellow: 82.8
+    brightBlue: 68.8
+    brightMagenta: 60.2
+    brightCyan: 52.3
+    brightWhite: 102.9

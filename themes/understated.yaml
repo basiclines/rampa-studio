@@ -1,0 +1,53 @@
+name: "Understated"
+source:
+  marketplace_id: "hnrchrdl.understated-theme-vscode"
+  version: "0.1.2"
+  installs: 1017
+  rating: 0
+  ratings: 0
+  author: "hnrchrdl"
+  repo: "https://github.com/hnrchrdl/understated-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=hnrchrdl.understated-theme-vscode"
+  formats: null
+colors:
+  bg: "#2F3640"
+  fg: "#F5F6FA"
+  black: "#353B48"
+  red: "#E84118"
+  green: "#44BD32"
+  yellow: "#FBC531"
+  blue: "#40739E"
+  magenta: "#9C88FF"
+  cyan: "#00A8FF"
+  white: "#F5F6FA"
+  brightBlack: "#718093"
+  brightRed: "#E84118"
+  brightGreen: "#00A8FF"
+  brightYellow: "#FBC531"
+  brightBlue: "#00A8FF"
+  brightMagenta: "#9C88FF"
+  brightCyan: "#487EB0"
+  brightWhite: "#F5F6FA"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 257
+  pair: null
+  contrast:
+    fg: 95.5
+    black: 0
+    red: 28.9
+    green: 47.7
+    yellow: 69.6
+    blue: 20.5
+    magenta: 40.9
+    cyan: 45.2
+    white: 95.5
+    brightBlack: 27.5
+    brightRed: 28.9
+    brightGreen: 45.2
+    brightYellow: 69.6
+    brightBlue: 45.2
+    brightMagenta: 40.9
+    brightCyan: 25.6
+    brightWhite: 95.5

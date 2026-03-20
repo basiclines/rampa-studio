@@ -1,0 +1,53 @@
+name: "M2 Theme"
+source:
+  marketplace_id: "MaranT.m2-theme"
+  version: "1.0.2"
+  installs: 5
+  rating: 0
+  ratings: 0
+  author: "MaranT"
+  repo: "https://github.com/maran-t/m2-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=MaranT.m2-theme"
+  formats: null
+colors:
+  bg: "#0D1117"
+  fg: "#E6EDF3"
+  black: "#0D1117"
+  red: "#F47067"
+  green: "#8DDB8C"
+  yellow: "#F69D50"
+  blue: "#6CB6FF"
+  magenta: "#DCBDFB"
+  cyan: "#76E3EA"
+  white: "#E6EDF3"
+  brightBlack: "#484F58"
+  brightRed: "#FF7A72"
+  brightGreen: "#A8E6A1"
+  brightYellow: "#FFD470"
+  brightBlue: "#A5D6FF"
+  brightMagenta: "#EACFFF"
+  brightCyan: "#A5F0F5"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 258
+  pair: null
+  contrast:
+    fg: 95
+    black: 0
+    red: 47.3
+    green: 73.4
+    yellow: 60.2
+    blue: 59.7
+    magenta: 73.6
+    cyan: 79.3
+    white: 95
+    brightBlack: 13.1
+    brightRed: 52.3
+    brightGreen: 81.5
+    brightYellow: 83.3
+    brightBlue: 77.9
+    brightMagenta: 83
+    brightCyan: 89.5
+    brightWhite: 107.4

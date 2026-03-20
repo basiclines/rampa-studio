@@ -1,0 +1,59 @@
+name: "The Flying Dutchman High Contrast"
+source:
+  marketplace_id: "DavyJones.the-flying-dutchman-theme"
+  version: "1.4.0"
+  installs: 110
+  rating: 5
+  ratings: 1
+  author: "Davy Jones"
+  repo: "https://github.com/ADWilkinson/the-flying-dutchman-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=DavyJones.the-flying-dutchman-theme"
+  formats:
+    ghostty: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/ghostty/The-Flying-Dutchman"
+    iterm2: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/iterm/The-Flying-Dutchman.itermcolors"
+    windows-terminal: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/windows-terminal/The-Flying-Dutchman.json"
+    warp: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/warp/the-flying-dutchman.yaml"
+    vim: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/vim/colors/flying-dutchman.vim"
+    sublime: "https://raw.githubusercontent.com/ADWilkinson/the-flying-dutchman-theme/main/sublime-text/The-Flying-Dutchman.tmTheme"
+colors:
+  bg: "#0A1520"
+  fg: "#FFFFFF"
+  black: "#2C3E50"
+  red: "#FF6B6B"
+  green: "#7DCEA0"
+  yellow: "#F4D03F"
+  blue: "#85C1E9"
+  magenta: "#BB8FCE"
+  cyan: "#5DDDD9"
+  white: "#FFFFFF"
+  brightBlack: "#85929E"
+  brightRed: "#FF8A80"
+  brightGreen: "#A5D6A7"
+  brightYellow: "#FFF176"
+  brightBlue: "#90CAF9"
+  brightMagenta: "#CE93D8"
+  brightCyan: "#80DEEA"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 249
+  pair: null
+  contrast:
+    fg: 107.1
+    black: 0
+    red: 48.3
+    green: 66.4
+    yellow: 78.9
+    blue: 64.4
+    magenta: 49.6
+    cyan: 74
+    white: 107.1
+    brightBlack: 42
+    brightRed: 56.7
+    brightGreen: 73.6
+    brightYellow: 96.1
+    brightBlue: 70.1
+    brightMagenta: 54.3
+    brightCyan: 77.2
+    brightWhite: 107.1

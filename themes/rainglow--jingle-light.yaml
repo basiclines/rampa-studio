@@ -1,0 +1,53 @@
+name: "Rainglow (jingle-light)"
+source:
+  marketplace_id: "daylerees.rainglow"
+  version: "1.5.2"
+  installs: 528080
+  rating: 4.94
+  ratings: 104
+  author: "Dayle Rees"
+  repo: "https://github.com/rainglow/vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow"
+  formats: null
+colors:
+  bg: "#FFFFFF"
+  fg: "#485860"
+  black: "#FFFFFF"
+  red: "#BA0E2E"
+  green: "#E06D5C"
+  yellow: "#7EC579"
+  blue: "#98ABB7"
+  magenta: "#E06D5C"
+  cyan: "#7EC579"
+  white: "#53656F"
+  brightBlack: "#FFFFFF"
+  brightRed: "#F03E5F"
+  brightGreen: "#F0BAB2"
+  brightYellow: "#C3E4C0"
+  brightBlue: "#D4DCE1"
+  brightMagenta: "#F0BAB2"
+  brightCyan: "#C3E4C0"
+  brightWhite: "#768D98"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "Rainglow (jingle-contrast)"
+  contrast:
+    fg: 85.7
+    black: 0
+    red: 80.3
+    green: 59
+    yellow: 40.3
+    blue: 46.8
+    magenta: 59
+    cyan: 40.3
+    white: 80.3
+    brightBlack: 0
+    brightRed: 63.9
+    brightGreen: 30.2
+    brightYellow: 18.7
+    brightBlue: 18.9
+    brightMagenta: 30.2
+    brightCyan: 18.7
+    brightWhite: 62.4

@@ -1,0 +1,53 @@
+name: "LaraDocs"
+source:
+  marketplace_id: "ogoudmane.laradocs-vscode"
+  version: "0.0.1"
+  installs: 249
+  rating: 0
+  ratings: 0
+  author: "Goudmane Oualid"
+  repo: "https://github.com/goudmane/LaraDocs"
+  url: "https://marketplace.visualstudio.com/items?itemName=ogoudmane.laradocs-vscode"
+  formats: null
+colors:
+  bg: "#252A37"
+  fg: "#A2AABC"
+  black: "#2F3B54"
+  red: "#EF6B73"
+  green: "#BAE67E"
+  yellow: "#FFCC66"
+  blue: "#5CCFE6"
+  magenta: "#C3A6FF"
+  cyan: "#5CCFE6"
+  white: "#A2AABC"
+  brightBlack: "#444A5E"
+  brightRed: "#EF6B73"
+  brightGreen: "#BAE67E"
+  brightYellow: "#FFCC66"
+  brightBlue: "#5CCFE6"
+  brightMagenta: "#C3A6FF"
+  brightCyan: "#5CCFE6"
+  brightWhite: "#A2AABC"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 268
+  pair: null
+  contrast:
+    fg: 52.2
+    black: 0
+    red: 42
+    green: 79.1
+    yellow: 76.4
+    blue: 65
+    magenta: 58.5
+    cyan: 65
+    white: 52.2
+    brightBlack: 8.3
+    brightRed: 42
+    brightGreen: 79.1
+    brightYellow: 76.4
+    brightBlue: 65
+    brightMagenta: 58.5
+    brightCyan: 65
+    brightWhite: 52.2

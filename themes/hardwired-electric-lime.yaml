@@ -1,0 +1,53 @@
+name: "Hardwired - Electric Lime"
+source:
+  marketplace_id: "thwilson3.hardwired-color-theme"
+  version: "0.0.1"
+  installs: 625
+  rating: 0
+  ratings: 0
+  author: "thwilson3"
+  repo: "https://github.com/thwilson3/hardwired-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=thwilson3.hardwired-color-theme"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#DEFF67"
+  black: "#A4B664"
+  red: "#C5D198"
+  green: "#B39987"
+  yellow: "#DEE4CA"
+  blue: "#99B04A"
+  magenta: "#D9F578"
+  cyan: "#B39487"
+  white: "#EFFFB5"
+  brightBlack: "#C2D57F"
+  brightRed: "#DBE8AF"
+  brightGreen: "#B39987"
+  brightYellow: "#FAFFE6"
+  brightBlue: "#7A8A40"
+  brightMagenta: "#DAFF54"
+  brightCyan: "#B39487"
+  brightWhite: "#F3FFC7"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 98.9
+    black: 58.4
+    red: 75.1
+    green: 49.8
+    yellow: 88.5
+    blue: 54.4
+    magenta: 93.6
+    cyan: 48
+    white: 102.8
+    brightBlack: 75.9
+    brightRed: 89
+    brightGreen: 49.8
+    brightYellow: 106.1
+    brightBlue: 36.3
+    brightMagenta: 98.2
+    brightCyan: 48
+    brightWhite: 103.9

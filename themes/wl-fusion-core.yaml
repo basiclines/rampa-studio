@@ -1,0 +1,53 @@
+name: "WL-Fusion Core"
+source:
+  marketplace_id: "WatkinsLabs.fusion-core"
+  version: "1.0.1"
+  installs: 15
+  rating: 0
+  ratings: 0
+  author: "Watkins Labs"
+  repo: "https://github.com/watkinslabs/vscode-theme-generator"
+  url: "https://marketplace.visualstudio.com/items?itemName=WatkinsLabs.fusion-core"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FF5500"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#FF4500"
+  yellow: "#FF8C00"
+  blue: "#FF6347"
+  magenta: "#FFA500"
+  cyan: "#FF6347"
+  white: "#FF5500"
+  brightBlack: "#666666"
+  brightRed: "#FF0000"
+  brightGreen: "#FF4500"
+  brightYellow: "#FF8C00"
+  brightBlue: "#FF6347"
+  brightMagenta: "#FFA500"
+  brightCyan: "#FF6347"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 43.8
+    black: 0
+    red: 37.5
+    green: 41.4
+    yellow: 56.7
+    blue: 46.8
+    magenta: 64.7
+    cyan: 46.8
+    white: 43.8
+    brightBlack: 23
+    brightRed: 37.5
+    brightGreen: 41.4
+    brightYellow: 56.7
+    brightBlue: 46.8
+    brightMagenta: 64.7
+    brightCyan: 46.8
+    brightWhite: 107.9

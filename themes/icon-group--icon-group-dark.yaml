@@ -1,0 +1,53 @@
+name: "Icon Group (Icon Group Dark)"
+source:
+  marketplace_id: "lucidlabs.icon-group-theme"
+  version: "1.5.0"
+  installs: 2
+  rating: 0
+  ratings: 0
+  author: "Lucid Labs"
+  repo: "https://github.com/LucidLabsAU/lucid-labs-vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lucidlabs.icon-group-theme"
+  formats: null
+colors:
+  bg: "#0E2A4A"
+  fg: "#E0E8F0"
+  black: "#05101A"
+  red: "#E8635A"
+  green: "#4CAF7D"
+  yellow: "#FDBD10"
+  blue: "#4DA6E8"
+  magenta: "#9B6FCF"
+  cyan: "#00B09B"
+  white: "#E0E8F0"
+  brightBlack: "#8098AD"
+  brightRed: "#F07A72"
+  brightGreen: "#6AD89A"
+  brightYellow: "#FFD04A"
+  brightBlue: "#6DBCF0"
+  brightMagenta: "#B48EE0"
+  brightCyan: "#33C4B0"
+  brightWhite: "#F0F4F8"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: 254
+  pair: "Icon Group (Icon Group Light)"
+  contrast:
+    fg: 88.4
+    black: 0
+    red: 38.2
+    green: 45.6
+    yellow: 69.3
+    blue: 46.8
+    magenta: 32.7
+    cyan: 45.8
+    white: 88.4
+    brightBlack: 41.3
+    brightRed: 45.8
+    brightGreen: 66.7
+    brightYellow: 77.7
+    brightBlue: 58
+    brightMagenta: 46.3
+    brightCyan: 56
+    brightWhite: 96.4

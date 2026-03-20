@@ -1,0 +1,53 @@
+name: "OhLED Themes (142-in-1) (OhLED_NavajoWhite)"
+source:
+  marketplace_id: "Ophuscado.ohled-themes"
+  version: "1.0.1"
+  installs: 10965
+  rating: 3
+  ratings: 2
+  author: "Ophuscado"
+  repo: "https://github.com/Ophuscado/vscode-ohled-themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=Ophuscado.ohled-themes"
+  formats: null
+colors:
+  bg: "#000000"
+  fg: "#FFDEAD"
+  black: "#FFDEAD"
+  red: "#BBA37F"
+  green: "#CCB28A"
+  yellow: "#998568"
+  blue: "#EECFA1"
+  magenta: "#DDC096"
+  cyan: "#AA9473"
+  white: "#88765C"
+  brightBlack: "#FFDEAD"
+  brightRed: "#BBA37F"
+  brightGreen: "#CCB28A"
+  brightYellow: "#998568"
+  brightBlue: "#EECFA1"
+  brightMagenta: "#DDC096"
+  brightCyan: "#AA9473"
+  brightWhite: "#88765C"
+meta:
+  mode: "dark"
+  accent: "yellow"
+  hue: null
+  pair: null
+  contrast:
+    fg: 89.6
+    black: 89.6
+    red: 54.3
+    green: 62.7
+    yellow: 38.6
+    blue: 80.1
+    magenta: 71.1
+    cyan: 46.2
+    white: 31.3
+    brightBlack: 89.6
+    brightRed: 54.3
+    brightGreen: 62.7
+    brightYellow: 38.6
+    brightBlue: 80.1
+    brightMagenta: 71.1
+    brightCyan: 46.2
+    brightWhite: 31.3

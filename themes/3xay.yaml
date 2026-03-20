@@ -1,0 +1,53 @@
+name: "3XAY"
+source:
+  marketplace_id: "3XAY.3xay-dark"
+  version: "1.0.0"
+  installs: 41
+  rating: 0
+  ratings: 0
+  author: "3XAY"
+  repo: "https://github.com/3XAY/3xay-dark"
+  url: "https://marketplace.visualstudio.com/items?itemName=3XAY.3xay-dark"
+  formats: null
+colors:
+  bg: "#010101"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF4141"
+  green: "#00FF33"
+  yellow: "#FFD900"
+  blue: "#0088FF"
+  magenta: "#FF00F7"
+  cyan: "#00C3FF"
+  white: "#FFFFFF"
+  brightBlack: "#000000"
+  brightRed: "#FF2525"
+  brightGreen: "#5EFF00"
+  brightYellow: "#F8C727"
+  brightBlue: "#009DFF"
+  brightMagenta: "#FF00F7"
+  brightCyan: "#00EEFF"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.9
+    black: 0
+    red: 41.2
+    green: 86.6
+    yellow: 85.1
+    blue: 39.8
+    magenta: 45.6
+    cyan: 63.2
+    white: 107.9
+    brightBlack: 0
+    brightRed: 38.5
+    brightGreen: 88
+    brightYellow: 76.4
+    brightBlue: 47.4
+    brightMagenta: 45.6
+    brightCyan: 83.5
+    brightWhite: 107.9

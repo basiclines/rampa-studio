@@ -1,0 +1,53 @@
+name: "hybrid theme"
+source:
+  marketplace_id: "black23eep.a-hybrid-theme"
+  version: "0.9.9"
+  installs: 151
+  rating: 0
+  ratings: 0
+  author: "black23eep"
+  repo: null
+  url: "https://marketplace.visualstudio.com/items?itemName=black23eep.a-hybrid-theme"
+  formats: null
+colors:
+  bg: "#0B0B0B"
+  fg: "#AEAEAE"
+  black: "#676767"
+  red: "#FF5050"
+  green: "#15AC91"
+  yellow: "#E5B95C"
+  blue: "#3F95F0"
+  magenta: "#E567DC"
+  cyan: "#75D3BA"
+  white: "#CFCFCF"
+  brightBlack: "#676767"
+  brightRed: "#FF5050"
+  brightGreen: "#15AC91"
+  brightYellow: "#E5B95C"
+  brightBlue: "#52A1F6"
+  brightMagenta: "#E567DC"
+  brightCyan: "#75D3BA"
+  brightWhite: "#CFCFCF"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: null
+  pair: null
+  contrast:
+    fg: 58.3
+    black: 23.3
+    red: 43.3
+    green: 47.4
+    yellow: 68
+    blue: 44
+    magenta: 47.3
+    cyan: 69.8
+    white: 77.3
+    brightBlack: 23.3
+    brightRed: 43.3
+    brightGreen: 47.4
+    brightYellow: 68
+    brightBlue: 49.7
+    brightMagenta: 47.3
+    brightCyan: 69.8
+    brightWhite: 77.3

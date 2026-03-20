@@ -1,0 +1,53 @@
+name: "mhfeizi"
+source:
+  marketplace_id: "mhfeizi.mhfeizi-vscode-theme"
+  version: "0.0.7"
+  installs: 201
+  rating: 0
+  ratings: 0
+  author: "mhfeizi"
+  repo: "https://github.com/mhfeizi/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=mhfeizi.mhfeizi-vscode-theme"
+  formats: null
+colors:
+  bg: "#0A0E0F"
+  fg: "#FFFFFF"
+  black: "#000000"
+  red: "#FF0000"
+  green: "#05F605"
+  yellow: "#FFFF00"
+  blue: "#025EE7"
+  magenta: "#CE03CE"
+  cyan: "#00FFFF"
+  white: "#FFFFFF"
+  brightBlack: "#696868"
+  brightRed: "#FF0000"
+  brightGreen: "#05F605"
+  brightYellow: "#FFFF00"
+  brightBlue: "#025EE7"
+  brightMagenta: "#CE03CE"
+  brightCyan: "#00FFFF"
+  brightWhite: "#A3A3A3"
+meta:
+  mode: "dark"
+  accent: "green"
+  hue: null
+  pair: null
+  contrast:
+    fg: 107.6
+    black: 0
+    red: 37.3
+    green: 81.4
+    yellow: 102.4
+    blue: 24.6
+    magenta: 31.7
+    cyan: 91.9
+    white: 107.6
+    brightBlack: 23.7
+    brightRed: 37.3
+    brightGreen: 81.4
+    brightYellow: 102.4
+    brightBlue: 24.6
+    brightMagenta: 31.7
+    brightCyan: 91.9
+    brightWhite: 52.2

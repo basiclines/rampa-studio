@@ -1,0 +1,54 @@
+name: "DzSolarized (DzSolarized)"
+source:
+  marketplace_id: "ChrisDzombak.dzsolarized"
+  version: "0.0.18"
+  installs: 19
+  rating: 0
+  ratings: 0
+  author: "Chris Dzombak"
+  repo: "https://github.com/cdzombak/dzsolarized-vscode"
+  url: "https://marketplace.visualstudio.com/items?itemName=ChrisDzombak.dzsolarized"
+  formats:
+    zed: "https://raw.githubusercontent.com/cdzombak/dzsolarized-vscode/main/themes/DzSolarized-Dark-HighContrastTerminal-color-theme.json"
+colors:
+  bg: "#FDF6E3"
+  fg: "#586E75"
+  black: "#002831"
+  red: "#D11C24"
+  green: "#6CBE6C"
+  yellow: "#A57706"
+  blue: "#2176C7"
+  magenta: "#C61C6F"
+  cyan: "#259286"
+  white: "#EAE3CB"
+  brightBlack: "#006488"
+  brightRed: "#F5163B"
+  brightGreen: "#51EF84"
+  brightYellow: "#B27E28"
+  brightBlue: "#178EC8"
+  brightMagenta: "#E24D8E"
+  brightCyan: "#00B39E"
+  brightWhite: "#FCF4DC"
+meta:
+  mode: "light"
+  accent: "orange"
+  hue: null
+  pair: "DzSolarized (DzSolarized Dark)"
+  contrast:
+    fg: 71.6
+    black: 97
+    red: 69.5
+    green: 39.5
+    yellow: 61.9
+    blue: 66.8
+    magenta: 70.5
+    cyan: 59.9
+    white: 8.9
+    brightBlack: 76.9
+    brightRed: 60.9
+    brightGreen: 17.6
+    brightYellow: 57.7
+    brightBlue: 58.4
+    brightMagenta: 58.3
+    brightCyan: 45.6
+    brightWhite: 0

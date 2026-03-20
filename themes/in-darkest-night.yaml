@@ -1,0 +1,53 @@
+name: "In Darkest Night"
+source:
+  marketplace_id: "jerky676.indarkestnight"
+  version: "1.1.0"
+  installs: 350
+  rating: 0
+  ratings: 0
+  author: "jerky676"
+  repo: "https://github.com/jerky676/InDarkestNight"
+  url: "https://marketplace.visualstudio.com/items?itemName=jerky676.indarkestnight"
+  formats: null
+colors:
+  bg: "#1E1E1E"
+  fg: "#074C2A"
+  black: "#333333"
+  red: "#B61D1D"
+  green: "#074C2A"
+  yellow: "#CCA300"
+  blue: "#0040FF"
+  magenta: "#CC00CC"
+  cyan: "#3A3C7F"
+  white: "#E6E6E6"
+  brightBlack: "#666666"
+  brightRed: "#FF3C3C"
+  brightGreen: "#0B7B44"
+  brightYellow: "#FFCC00"
+  brightBlue: "#3366FF"
+  brightMagenta: "#FF33FF"
+  brightCyan: "#4A4CA2"
+  brightWhite: "#FFFFFF"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: null
+  contrast:
+    fg: 7.6
+    black: 0
+    red: 19.2
+    green: 7.6
+    yellow: 53.5
+    blue: 19.1
+    magenta: 29.6
+    cyan: 8
+    white: 89.8
+    brightBlack: 21.2
+    brightRed: 38.7
+    brightGreen: 23.8
+    brightYellow: 77.8
+    brightBlue: 28.1
+    brightMagenta: 46.1
+    brightCyan: 14.8
+    brightWhite: 106

@@ -1,0 +1,53 @@
+name: "One Dark NX"
+source:
+  marketplace_id: "vxna.one-dark-nx"
+  version: "1.0.0"
+  installs: 2523
+  rating: 0
+  ratings: 0
+  author: "vxna"
+  repo: "https://github.com/vxna/one-dark-nx"
+  url: "https://marketplace.visualstudio.com/items?itemName=vxna.one-dark-nx"
+  formats: null
+colors:
+  bg: "#282C34"
+  fg: "#C8C8C8"
+  black: "#000000"
+  red: "#CD3131"
+  green: "#0DBC79"
+  yellow: "#E5E510"
+  blue: "#2472C8"
+  magenta: "#BC3FBC"
+  cyan: "#11A8CD"
+  white: "#E5E5E5"
+  brightBlack: "#666666"
+  brightRed: "#F14C4C"
+  brightGreen: "#23D18B"
+  brightYellow: "#F5F543"
+  brightBlue: "#3B8EEA"
+  brightMagenta: "#D670D6"
+  brightCyan: "#29B8DB"
+  brightWhite: "#E5E5E5"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: 264
+  pair: null
+  contrast:
+    fg: 69.1
+    black: 0
+    red: 23.5
+    green: 49.8
+    yellow: 82.4
+    blue: 24.2
+    magenta: 26.6
+    cyan: 44.4
+    white: 86.8
+    brightBlack: 18.8
+    brightRed: 35.4
+    brightGreen: 60.3
+    brightYellow: 92.4
+    brightBlue: 36.8
+    brightMagenta: 42.2
+    brightCyan: 52.2
+    brightWhite: 86.8

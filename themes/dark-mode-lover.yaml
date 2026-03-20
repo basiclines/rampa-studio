@@ -1,0 +1,53 @@
+name: "Dark Mode Lover"
+source:
+  marketplace_id: "Lovervoid.dark-mode-lover"
+  version: "0.8.31"
+  installs: 25
+  rating: 0
+  ratings: 0
+  author: "Lovervoid"
+  repo: "https://github.com/Kailuss/dark-mode-lover"
+  url: "https://marketplace.visualstudio.com/items?itemName=Lovervoid.dark-mode-lover"
+  formats: null
+colors:
+  bg: "#1C1D26"
+  fg: "#B1B2B4"
+  black: "#010103"
+  red: "#EE6666"
+  green: "#88DD77"
+  yellow: "#FFCC66"
+  blue: "#3399FF"
+  magenta: "#DDBBFF"
+  cyan: "#77DDCC"
+  white: "#CCCCBB"
+  brightBlack: "#222222"
+  brightRed: "#FF8888"
+  brightGreen: "#99DD88"
+  brightYellow: "#FFDD88"
+  brightBlue: "#66BBFF"
+  brightMagenta: "#FF77AA"
+  brightCyan: "#99FFDD"
+  brightWhite: "#EEEEDD"
+meta:
+  mode: "dark"
+  accent: "indigo"
+  hue: 280
+  pair: null
+  contrast:
+    fg: 58.8
+    black: 0
+    red: 42.4
+    green: 72.2
+    yellow: 78.5
+    blue: 44.6
+    magenta: 71.9
+    cyan: 73.7
+    white: 73.2
+    brightBlack: 0
+    brightRed: 55.4
+    brightGreen: 73.9
+    brightYellow: 86.4
+    brightBlue: 60.2
+    brightMagenta: 52.1
+    brightCyan: 93.6
+    brightWhite: 94.2

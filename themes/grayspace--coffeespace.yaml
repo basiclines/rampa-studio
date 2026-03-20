@@ -1,0 +1,53 @@
+name: "GraySpace (coffeespace)"
+source:
+  marketplace_id: "YesCode.grayspace"
+  version: "0.0.23"
+  installs: 768
+  rating: 0
+  ratings: 0
+  author: "YesCode"
+  repo: "https://github.com/yesomac/platzi_theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=YesCode.grayspace"
+  formats: null
+colors:
+  bg: "#2B312D"
+  fg: "#FAE8D8"
+  black: "#1D2021"
+  red: "#FB543F"
+  green: "#95C085"
+  yellow: "#FAC03B"
+  blue: "#00A1F9"
+  magenta: "#8F4673"
+  cyan: "#8BA59B"
+  white: "#A89984"
+  brightBlack: "#665C54"
+  brightRed: "#FB543F"
+  brightGreen: "#AD77AD"
+  brightYellow: "#FFCC80"
+  brightBlue: "#0D6678"
+  brightMagenta: "#8F4673"
+  brightCyan: "#8BA59B"
+  brightWhite: "#FDF4C1"
+meta:
+  mode: "dark"
+  accent: "orange"
+  hue: 157
+  pair: null
+  contrast:
+    fg: 89.8
+    black: 0
+    red: 38
+    green: 57
+    yellow: 69.1
+    blue: 43.5
+    magenta: 15.5
+    cyan: 45.4
+    white: 43.2
+    brightBlack: 14.6
+    brightRed: 38
+    brightGreen: 34.3
+    brightYellow: 75.7
+    brightBlue: 14.7
+    brightMagenta: 15.5
+    brightCyan: 45.4
+    brightWhite: 94.9

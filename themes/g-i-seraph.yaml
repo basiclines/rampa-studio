@@ -1,0 +1,53 @@
+name: "G.I. Seraph"
+source:
+  marketplace_id: "gengence.gi-themes"
+  version: "0.2.0"
+  installs: 36
+  rating: 0
+  ratings: 0
+  author: "General Intelligence"
+  repo: "https://github.com/gengence/themes"
+  url: "https://marketplace.visualstudio.com/items?itemName=gengence.gi-themes"
+  formats: null
+colors:
+  bg: "#FFFFF8"
+  fg: "#1F2328"
+  black: "#24292F"
+  red: "#CF222E"
+  green: "#116329"
+  yellow: "#4D2D00"
+  blue: "#0969DA"
+  magenta: "#8250DF"
+  cyan: "#1B7C83"
+  white: "#6E7781"
+  brightBlack: "#57606A"
+  brightRed: "#A40E26"
+  brightGreen: "#1A7F37"
+  brightYellow: "#633C01"
+  brightBlue: "#218BFF"
+  brightMagenta: "#A475F9"
+  brightCyan: "#3192AA"
+  brightWhite: "#8C959F"
+meta:
+  mode: "light"
+  accent: "magenta"
+  hue: null
+  pair: null
+  contrast:
+    fg: 102.5
+    black: 101.2
+    red: 74.5
+    green: 84.9
+    yellow: 97.7
+    blue: 74.6
+    magenta: 74
+    cyan: 73.5
+    white: 71.3
+    brightBlack: 81.5
+    brightRed: 84.9
+    brightGreen: 74.3
+    brightYellow: 91.7
+    brightBlue: 60.4
+    brightMagenta: 59
+    brightCyan: 63
+    brightWhite: 56.9

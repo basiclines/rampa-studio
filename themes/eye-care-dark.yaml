@@ -1,0 +1,53 @@
+name: "Eye Care Dark"
+source:
+  marketplace_id: "lynnjinjie.vscode-happy-theme"
+  version: "0.2.1"
+  installs: 218
+  rating: 5
+  ratings: 1
+  author: "lynnjinjie"
+  repo: "https://github.com/lynnjinjie/vscode-theme"
+  url: "https://marketplace.visualstudio.com/items?itemName=lynnjinjie.vscode-happy-theme"
+  formats: null
+colors:
+  bg: "#232323"
+  fg: "#C8C8C8"
+  black: "#1E1E1E"
+  red: "#B87C7C"
+  green: "#8A9A5B"
+  yellow: "#B8A76B"
+  blue: "#6B8C9D"
+  magenta: "#9D6B9D"
+  cyan: "#6B9D9D"
+  white: "#E0E0E0"
+  brightBlack: "#1E1E1E"
+  brightRed: "#B87C7C"
+  brightGreen: "#8A9A5B"
+  brightYellow: "#B8A76B"
+  brightBlue: "#6B8C9D"
+  brightMagenta: "#9D6B9D"
+  brightCyan: "#6B9D9D"
+  brightWhite: "#E0E0E0"
+meta:
+  mode: "dark"
+  accent: "pink"
+  hue: null
+  pair: "Eye Care Light"
+  contrast:
+    fg: 70.7
+    black: 0
+    red: 38
+    green: 41.7
+    yellow: 52.3
+    blue: 35.7
+    magenta: 30.4
+    cyan: 42.2
+    white: 85.3
+    brightBlack: 0
+    brightRed: 38
+    brightGreen: 41.7
+    brightYellow: 52.3
+    brightBlue: 35.7
+    brightMagenta: 30.4
+    brightCyan: 42.2
+    brightWhite: 85.3
