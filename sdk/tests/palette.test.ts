@@ -3,8 +3,7 @@ import { palette } from '../src/index';
 import { resolve } from 'path';
 
 const TEST_PNG = resolve(__dirname, '../../tests/fixtures/test-palette.png');
-// Use a real JPEG from Downloads for JPEG decoding tests
-const TEST_JPEG = '/Users/basiclines/Downloads/IMG_6588.jpeg';
+const TEST_JPEG = resolve(__dirname, '../../tests/fixtures/test-palette.jpeg');
 
 describe('palette()', () => {
   describe('PNG decoding', () => {
