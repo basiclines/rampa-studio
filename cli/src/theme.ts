@@ -46,6 +46,7 @@ interface ThemeArgs {
   sort: SortOption[];
   paired: boolean;
   minInstalls: number;
+  minContrast: number;
 }
 
 function showThemeHelp(): void {
@@ -76,6 +77,7 @@ ${bold}OPTIONS${reset}
   ${cyan}--all${reset}                  ${dim}Show all themes (list shows 100 by default)${reset}
   ${cyan}--paired${reset}               ${dim}Show only themes that have a dark/light pair (one per pair)${reset}
   ${cyan}--min-installs <n>${reset}     ${dim}Only show themes with at least n installs${reset}
+  ${cyan}--min-contrast <n>${reset}     ${dim}Only show themes where avg APCA contrast of fg + tonal colors ≥ n (0–108)${reset}
   ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, rating, ratings, mode. Chain multiple: --sort rating --sort installs${reset}
   ${cyan}--local${reset}                ${dim}Use local themes/ directory instead of fetching from GitHub${reset}
   ${cyan}-h, --help${reset}             ${dim}Show this help${reset}
@@ -86,6 +88,7 @@ ${bold}EXAMPLES${reset}
   ${cyan}rampa theme list --paired${reset}
   ${cyan}rampa theme list --paired "Solarized"${reset}
   ${cyan}rampa theme list --paired --min-installs 1000${reset}
+  ${cyan}rampa theme list --paired --min-installs 1000 --min-contrast 45${reset}
   ${cyan}rampa theme list --sort rating --all${reset}
   ${cyan}rampa theme "Tokyo Night" --show${reset}
   ${cyan}rampa theme "Gruvbox Dark Hard" --install alacritty${reset}
@@ -107,6 +110,7 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
     sort: ['name'],
     paired: false,
     minInstalls: 0,
+    minContrast: 0,
   };
 
   let i = 0;
@@ -163,6 +167,13 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
     if (arg === '--min-installs' && argv[i + 1]) {
       const n = parseInt(argv[++i], 10);
       if (!isNaN(n) && n >= 0) args.minInstalls = n;
+      i++;
+      continue;
+    }
+
+    if (arg === '--min-contrast' && argv[i + 1]) {
+      const n = parseFloat(argv[++i]);
+      if (!isNaN(n) && n >= 0) args.minContrast = n;
       i++;
       continue;
     }
@@ -306,6 +317,18 @@ function resolveInstallPath(basePath: string): string {
 
 // ── Commands ──
 
+// APCA contrast keys to check for --min-contrast (excludes black/white/brightBlack/brightWhite)
+const CONTRAST_TONAL_KEYS = [
+  'fg',
+  'red', 'green', 'yellow', 'blue', 'magenta', 'cyan',
+  'brightRed', 'brightGreen', 'brightYellow', 'brightBlue', 'brightMagenta', 'brightCyan',
+] as const;
+
+function avgTonalContrast(contrast: Record<string, number>): number {
+  const values = CONTRAST_TONAL_KEYS.map(k => contrast[k] ?? 0);
+  return values.reduce((s, v) => s + v, 0) / values.length;
+}
+
 /**
  * Fuzzy match: returns a score ≥ 0 if query matches target, or -1 if no match.
  * Higher score = better match (substring > prefix > subsequence).
@@ -326,7 +349,7 @@ function fuzzyScore(target: string, query: string): number {
   return qi === q.length ? 100 - ti : -1;
 }
 
-async function listThemes(local: boolean, all: boolean, sorts: SortOption[], query?: string, paired = false, minInstalls = 0): Promise<void> {
+async function listThemes(local: boolean, all: boolean, sorts: SortOption[], query?: string, paired = false, minInstalls = 0, minContrast = 0): Promise<void> {
   const index = await fetchIndex(local);
   let entries = Object.entries(index);
 
@@ -348,11 +371,11 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
 
   const dim = '\x1b[2m';
   const reset = '\x1b[0m';
-  const needsMeta = sorts.some(s => s !== 'name') || paired || minInstalls > 0;
+  const needsMeta = sorts.some(s => s !== 'name') || paired || minInstalls > 0 || minContrast > 0;
 
   // Read metadata from YAML files when sorting by anything other than name,
   // or when --paired filtering requires pair + mode fields.
-  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string; pair: string | null }>();
+  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string; pair: string | null; contrast: Record<string, number> }>();
   if ((needsMeta || paired) && local) {
     const themesDir = resolveThemesDir();
     for (const [name, filename] of entries) {
@@ -365,9 +388,10 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
           ratings: theme.source?.ratings || 0,
           mode: theme.meta?.mode || 'dark',
           pair: theme.meta?.pair ?? null,
+          contrast: theme.meta?.contrast as unknown as Record<string, number> ?? {},
         });
       } catch {
-        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark', pair: null });
+        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark', pair: null, contrast: {} });
       }
     }
   }
@@ -375,6 +399,15 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
   // --min-installs: filter out themes below the install threshold
   if (minInstalls > 0) {
     entries = entries.filter(([name]) => (meta.get(name)?.installs ?? 0) >= minInstalls);
+  }
+
+  // --min-contrast: filter by average APCA contrast of fg + tonal colors
+  if (minContrast > 0) {
+    entries = entries.filter(([name]) => {
+      const c = meta.get(name)?.contrast;
+      if (!c) return false;
+      return avgTonalContrast(c) >= minContrast;
+    });
   }
 
   // --paired: keep only themes that have a pair, then deduplicate so only
@@ -988,7 +1021,7 @@ export async function runTheme(argv: string[]): Promise<void> {
 
   switch (args.command) {
     case 'list':
-      await listThemes(args.local, args.all, args.sort, args.name || undefined, args.paired, args.minInstalls);
+      await listThemes(args.local, args.all, args.sort, args.name || undefined, args.paired, args.minInstalls, args.minContrast);
       break;
 
     case 'show':
