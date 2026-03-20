@@ -689,9 +689,9 @@ async function installTheme(name: string, appList: string, dryRun: boolean, loca
       }
 
       if (!basePath) {
-        console.log(`${red}✗${reset} ${generator.name}: not supported on ${os}`);
-        console.log(`${dim}Native file content:${reset}\n`);
+        console.log(`${cyan}── ${generator.name}: ${nativeFile} ──${reset}\n`);
         console.log(content);
+        if (generator.hint) console.log(`\n${dim}Hint: ${generator.hint}${reset}`);
         continue;
       }
 
@@ -717,16 +717,17 @@ async function installTheme(name: string, appList: string, dryRun: boolean, loca
       if (basePath) {
         console.log(`${dim}Would write to: ${resolveInstallPath(basePath)}/${fileName}${reset}\n`);
       } else {
-        console.log(`${dim}No install path for ${os} — output only${reset}\n`);
+        console.log(`${dim}No auto-install path — manual setup required${reset}\n`);
       }
       console.log(content);
+      if (!basePath && generator.hint) console.log(`\n${dim}Hint: ${generator.hint}${reset}`);
       continue;
     }
 
     if (!basePath) {
-      console.log(`${red}✗${reset} ${generator.name}: not supported on ${os}`);
-      console.log(`${dim}Generated content:${reset}\n`);
+      console.log(`${cyan}── ${generator.name}: ${fileName} ──${reset}\n`);
       console.log(content);
+      if (generator.hint) console.log(`\n${dim}Hint: ${generator.hint}${reset}`);
       continue;
     }
 

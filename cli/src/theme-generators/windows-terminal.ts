@@ -35,10 +35,14 @@ export const windowsTerminalGenerator: ThemeGenerator = {
     return JSON.stringify(scheme, null, 2) + '\n';
   },
 
-  installPath(os) {
-    if (os === 'win32') return '%LOCALAPPDATA%\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState';
+  installPath(_os: 'darwin' | 'linux' | 'win32') {
+    // Windows Terminal requires schemes to be added to the `schemes` array inside
+    // settings.json — standalone JSON files in LocalState are NOT loaded automatically.
+    // Return null so the install flow displays the generated snippet for manual use.
     return null;
   },
+
+  hint: 'Add the JSON snippet above to the "schemes" array in your Windows Terminal settings.json, then select it as your profile color scheme.',
 
   fileExtension() {
     return '.json';

@@ -25,11 +25,7 @@ export const generators: Record<string, ThemeGenerator> = {
   'android-studio': androidStudioGenerator,
 };
 
-export const SUPPORTED_APPS = [
-  'ghostty', 'iterm2', 'alacritty', 'kitty',
-  'windows-terminal', 'warp', 'hyper', 'vscode',
-  'xcode', 'android-studio',
-];
+export const SUPPORTED_APPS = Object.keys(generators);
 
 export type { ThemeGenerator } from './base';
 export { themeFileName } from './base';

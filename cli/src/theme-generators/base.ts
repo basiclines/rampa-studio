@@ -5,6 +5,8 @@ export interface ThemeGenerator {
   generate(theme: ThemeYAML): string;
   installPath(os: 'darwin' | 'linux' | 'win32'): string | null;
   fileExtension(): string;
+  /** Optional note shown when there is no installPath (e.g. manual paste required). */
+  hint?: string;
 }
 
 export function themeFileName(theme: ThemeYAML, ext: string): string {
