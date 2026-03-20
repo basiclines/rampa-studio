@@ -166,8 +166,9 @@ IMAGE PALETTE
 
 COLOR THEMES
   ${cyan}rampa theme list${reset}                ${dim}List all available themes${reset}
-  ${cyan}rampa theme list "Aura"${reset}         ${dim}Search themes by name${reset}
+  ${cyan}rampa theme list "Aura"${reset}         ${dim}Search themes by name (fuzzy)${reset}
   ${cyan}rampa theme list --paired${reset}       ${dim}Show only dark/light pairs${reset}
+  ${cyan}rampa theme list --paired --sort installs --min-installs 1000 --min-contrast 50 --min-distinct 20${reset}
   ${cyan}rampa theme "Dracula" --show${reset}    ${dim}Inspect theme colors${reset}
   ${cyan}rampa theme "Dracula" --install ghostty${reset}  ${dim}Install theme for an app${reset}
                                    ${dim}Use rampa theme --help for details${reset}

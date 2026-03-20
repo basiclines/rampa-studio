@@ -567,6 +567,63 @@ rampa palette photo.jpg --average
 rampa palette photo.jpg --temperature
 ```
 
+### Color Themes
+
+Install and manage color themes across multiple terminal and editor apps. Themes are sourced from the VS Code marketplace and converted to native formats.
+
+```bash
+rampa theme list
+rampa theme list "Dracula"
+rampa theme list --paired --sort installs
+rampa theme "Tokyo Night" --show
+rampa theme "Dracula" --install ghostty
+rampa theme "Catppuccin Mocha" --install ghostty,kitty,alacritty --dry-run
+```
+
+**Supported apps:** `ghostty`, `iterm2`, `alacritty`, `kitty`, `windows-terminal`, `warp`, `hyper`, `vscode`, `xcode`, `android-studio`
+
+#### List flags
+
+| Flag | Description | Default |
+|------|-------------|---------|
+| `[query]` | Fuzzy search by name (positional) | — |
+| `--paired` | Show only dark/light pairs (one row per pair) | off |
+| `--sort <field>` | Sort by: `name`, `installs`, `rating`, `ratings`, `mode` (chainable) | `name` |
+| `--min-installs <n>` | Only show themes with at least n installs | 0 |
+| `--min-contrast <n>` | Only show themes where avg APCA contrast of fg + tonal colors ≥ n (0–108) | 0 |
+| `--min-distinct <n>` | Deduplicate similar themes within the same publisher using full OKLCH signature (0–100) | 0 |
+| `--all` | Show all results (default cap: 100) | off |
+| `--local` | Use local `themes/` directory instead of fetching from GitHub | off |
+
+#### Install / inspect flags
+
+| Flag | Description |
+|------|-------------|
+| `--install <app>` | Generate and write theme file for the given app |
+| `--show` | Print theme colors and metadata |
+| `--preview` | Open interactive browser preview |
+| `--dry-run` | Print generated output without writing |
+
+#### Examples
+
+```bash
+# Curated paired list — popular, good contrast, deduplicated
+rampa theme list --local --sort installs --paired \
+  --min-installs 1000 --min-contrast 50 --min-distinct 20 --all
+
+# Fuzzy search + paired filter
+rampa theme list --paired "Solarized"
+
+# Install to multiple apps
+rampa theme "Gruvbox Dark Hard" --install alacritty
+rampa theme "Dracula" --install ghostty,kitty,iterm2
+rampa theme "Catppuccin Mocha" --install warp --dry-run
+
+# Preview before installing
+rampa theme "Tokyo Night" --show
+rampa theme "Aura Dark" --preview
+```
+
 ## Contextual Help
 
 Run any flag without a value to see detailed help:
