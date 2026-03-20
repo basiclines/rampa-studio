@@ -3,7 +3,7 @@ import { resolve } from 'path';
 
 const CLI_CMD = `cd "${resolve(__dirname, '..')}" && bun run src/index.ts`;
 const TEST_PNG = resolve(__dirname, '../../tests/fixtures/test-palette.png');
-const TEST_JPEG = '/Users/basiclines/Downloads/IMG_6588.jpeg';
+const TEST_JPEG = resolve(__dirname, '../../tests/fixtures/test-palette.jpeg');
 
 async function runCli(...args: string[]): Promise<string> {
   const proc = Bun.spawn(['bash', '-c', `${CLI_CMD} palette ${args.join(' ')}`], {
