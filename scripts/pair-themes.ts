@@ -10,6 +10,7 @@
 import { readFileSync, writeFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { parseThemeYAML, serializeThemeYAML, type ThemeYAML } from '../cli/src/theme-schema';
+import { hexToOklch } from '../src/engine/OklchMathEngine';
 
 const THEMES_DIR = join(import.meta.dir, '..', 'themes');
 const DRY_RUN = process.argv.includes('--dry-run');
@@ -90,6 +91,35 @@ function normalizeForComparison(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9]/g, '');
 }
 
+// ── Color fingerprint ──
+
+const ACCENT_KEYS = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan'] as const;
+const HUE_THRESHOLD = 30;
+const DEBUG_P4 = true;      // degrees — real dark/light pairs score well under this
+const NAME_SIM_THRESHOLD = 0.65; // common-prefix ratio — prevents cross-variant pairings in large packs
+
+function hueFingerprint(colors: Record<string, string>): number[] {
+  return ACCENT_KEYS.map(k => hexToOklch(colors[k] ?? '#808080')[2]);
+}
+
+function circularDist(a: number, b: number): number {
+  const d = Math.abs(a - b) % 360;
+  return d > 180 ? 360 - d : d;
+}
+
+function avgHueDist(a: number[], b: number[]): number {
+  return a.reduce((sum, h, i) => sum + circularDist(h, b[i]), 0) / a.length;
+}
+
+/** Longest-common-prefix ratio: how much of the shorter name is shared at the start. */
+function nameSim(a: string, b: string): number {
+  const na = normalizeForComparison(a);
+  const nb = normalizeForComparison(b);
+  let i = 0;
+  while (i < na.length && i < nb.length && na[i] === nb[i]) i++;
+  return i / Math.min(na.length, nb.length);
+}
+
 // ── Load themes ──
 
 interface ThemeEntry {
@@ -98,6 +128,7 @@ interface ThemeEntry {
   base: string;
   baseNorm: string;
   modeToken: string | null;
+  hueFp: number[];
 }
 
 function loadAllThemes(): ThemeEntry[] {
@@ -115,6 +146,7 @@ function loadAllThemes(): ThemeEntry[] {
         base,
         baseNorm: normalizeForComparison(base),
         modeToken,
+        hueFp: hueFingerprint(theme.colors as unknown as Record<string, string>),
       });
     } catch {
       // Skip unparseable files
@@ -223,6 +255,55 @@ function findPairs(entries: ThemeEntry[]): Map<string, string> {
     paired.add(dark.theme.name);
     paired.add(light.theme.name);
     noTokenByNorm.delete(entry.baseNorm); // consumed
+  }
+
+  // Pass 4: Color fingerprint + name similarity matching — same package,
+  // opposite meta.mode, hue fingerprints within HUE_THRESHOLD, and names
+  // share a common prefix (≥ NAME_SIM_THRESHOLD).
+  // Catches flavor-named families like Catppuccin (Latte/Mocha/Macchiato/Frappé)
+  // and Rainglow variants where no mode token exists on either side.
+  // Greedy: each dark pairs with its best name-match light; lights can pair
+  // with multiple darks (e.g. Catppuccin Latte ↔ Mocha + Macchiato + Frappé).
+  const pairedAfterP3 = new Set([...pairs.keys()]);
+
+  // Group unpaired themes by exact marketplace_id (same extension package)
+  const byPackage = new Map<string, ThemeEntry[]>();
+  for (const entry of entries) {
+    if (pairedAfterP3.has(entry.theme.name)) continue;
+    const pkg = entry.theme.source.marketplace_id;
+    if (!byPackage.has(pkg)) byPackage.set(pkg, []);
+    byPackage.get(pkg)!.push(entry);
+  }
+
+  for (const [, group] of byPackage) {
+    const darkEntries = group.filter(e => e.theme.meta.mode === 'dark');
+    const lightEntries = group.filter(e => e.theme.meta.mode === 'light');
+    if (!darkEntries.length || !lightEntries.length) continue;
+
+    // Build scored candidates — require both hue and name similarity
+    type Candidate = { hueDist: number; sim: number; dark: ThemeEntry; light: ThemeEntry };
+    const candidates: Candidate[] = [];
+    for (const dark of darkEntries) {
+      for (const light of lightEntries) {
+        const hueDist = avgHueDist(dark.hueFp, light.hueFp);
+        const sim = nameSim(dark.theme.name, light.theme.name);
+        if (hueDist <= HUE_THRESHOLD && sim >= NAME_SIM_THRESHOLD) {
+          candidates.push({ hueDist, sim, dark, light });
+        }
+      }
+    }
+
+    // Sort: best name match first, then closest hue
+    candidates.sort((a, b) => b.sim - a.sim || a.hueDist - b.hueDist);
+
+    // Greedy: each dark gets its best-matching light (lights can be shared)
+    const usedDarks = new Set<string>();
+    for (const { dark, light } of candidates) {
+      if (usedDarks.has(dark.theme.name)) continue;
+      pairs.set(dark.theme.name, light.theme.name);
+      pairs.set(light.theme.name, dark.theme.name);
+      usedDarks.add(dark.theme.name);
+    }
   }
 
   return pairs;
