@@ -14,6 +14,7 @@ import { join, resolve, dirname } from 'node:path';
 import { homedir, platform } from 'node:os';
 import { spawnSync } from 'node:child_process';
 import { parseThemeYAML, type ThemeYAML } from './theme-schema';
+import { hexToOklch } from '../../src/engine/OklchMathEngine';
 import { generators, SUPPORTED_APPS, themeFileName } from './theme-generators/index';
 import { supportsTruecolor } from './utils/terminal-colors';
 import { PREVIEW_TEMPLATE } from './theme-preview-template';
@@ -47,6 +48,7 @@ interface ThemeArgs {
   paired: boolean;
   minInstalls: number;
   minContrast: number;
+  minDistinct: number;
 }
 
 function showThemeHelp(): void {
@@ -78,6 +80,7 @@ ${bold}OPTIONS${reset}
   ${cyan}--paired${reset}               ${dim}Show only themes that have a dark/light pair (one per pair)${reset}
   ${cyan}--min-installs <n>${reset}     ${dim}Only show themes with at least n installs${reset}
   ${cyan}--min-contrast <n>${reset}     ${dim}Only show themes where avg APCA contrast of fg + tonal colors ≥ n (0–108)${reset}
+  ${cyan}--min-distinct <n>${reset}     ${dim}Deduplicate similar themes — keep most-installed; n is % of 180° hue range (e.g. 20 = 36°)${reset}
   ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, rating, ratings, mode. Chain multiple: --sort rating --sort installs${reset}
   ${cyan}--local${reset}                ${dim}Use local themes/ directory instead of fetching from GitHub${reset}
   ${cyan}-h, --help${reset}             ${dim}Show this help${reset}
@@ -88,7 +91,7 @@ ${bold}EXAMPLES${reset}
   ${cyan}rampa theme list --paired${reset}
   ${cyan}rampa theme list --paired "Solarized"${reset}
   ${cyan}rampa theme list --paired --min-installs 1000${reset}
-  ${cyan}rampa theme list --paired --min-installs 1000 --min-contrast 45${reset}
+  ${cyan}rampa theme list --paired --min-installs 1000 --min-contrast 45 --min-distinct 20${reset}
   ${cyan}rampa theme list --sort rating --all${reset}
   ${cyan}rampa theme "Tokyo Night" --show${reset}
   ${cyan}rampa theme "Gruvbox Dark Hard" --install alacritty${reset}
@@ -111,6 +114,7 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
     paired: false,
     minInstalls: 0,
     minContrast: 0,
+    minDistinct: 0,
   };
 
   let i = 0;
@@ -174,6 +178,13 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
     if (arg === '--min-contrast' && argv[i + 1]) {
       const n = parseFloat(argv[++i]);
       if (!isNaN(n) && n >= 0) args.minContrast = n;
+      i++;
+      continue;
+    }
+
+    if (arg === '--min-distinct' && argv[i + 1]) {
+      const n = parseFloat(argv[++i]);
+      if (!isNaN(n) && n > 0 && n <= 100) args.minDistinct = n;
       i++;
       continue;
     }
@@ -329,6 +340,27 @@ function avgTonalContrast(contrast: Record<string, number>): number {
   return values.reduce((s, v) => s + v, 0) / values.length;
 }
 
+// Hue fingerprint helpers for --min-distinct
+const HUE_ACCENT_KEYS = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan'] as const;
+
+function buildHueFp(colors: Record<string, string>): number[] {
+  return HUE_ACCENT_KEYS.map(k => {
+    const hex = colors[k];
+    if (!hex) return 0;
+    const [, , h] = hexToOklch(hex);
+    return h;
+  });
+}
+
+function circularHueDist(a: number, b: number): number {
+  const d = Math.abs(a - b) % 360;
+  return d > 180 ? 360 - d : d;
+}
+
+function avgHueDist(a: number[], b: number[]): number {
+  return a.reduce((sum, h, i) => sum + circularHueDist(h, b[i]), 0) / a.length;
+}
+
 /**
  * Fuzzy match: returns a score ≥ 0 if query matches target, or -1 if no match.
  * Higher score = better match (substring > prefix > subsequence).
@@ -349,7 +381,7 @@ function fuzzyScore(target: string, query: string): number {
   return qi === q.length ? 100 - ti : -1;
 }
 
-async function listThemes(local: boolean, all: boolean, sorts: SortOption[], query?: string, paired = false, minInstalls = 0, minContrast = 0): Promise<void> {
+async function listThemes(local: boolean, all: boolean, sorts: SortOption[], query?: string, paired = false, minInstalls = 0, minContrast = 0, minDistinct = 0): Promise<void> {
   const index = await fetchIndex(local);
   let entries = Object.entries(index);
 
@@ -371,11 +403,11 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
 
   const dim = '\x1b[2m';
   const reset = '\x1b[0m';
-  const needsMeta = sorts.some(s => s !== 'name') || paired || minInstalls > 0 || minContrast > 0;
+  const needsMeta = sorts.some(s => s !== 'name') || paired || minInstalls > 0 || minContrast > 0 || minDistinct > 0;
 
   // Read metadata from YAML files when sorting by anything other than name,
   // or when --paired filtering requires pair + mode fields.
-  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string; pair: string | null; contrast: Record<string, number> }>();
+  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string; pair: string | null; contrast: Record<string, number>; hueFp: number[] }>();
   if ((needsMeta || paired) && local) {
     const themesDir = resolveThemesDir();
     for (const [name, filename] of entries) {
@@ -389,9 +421,10 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
           mode: theme.meta?.mode || 'dark',
           pair: theme.meta?.pair ?? null,
           contrast: theme.meta?.contrast as unknown as Record<string, number> ?? {},
+          hueFp: buildHueFp(theme.colors as unknown as Record<string, string>),
         });
       } catch {
-        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark', pair: null, contrast: {} });
+        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark', pair: null, contrast: {}, hueFp: [] });
       }
     }
   }
@@ -457,6 +490,35 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
     }
     return 0;
   });
+
+  // --min-distinct: deduplicate themes that are too similar in hue space.
+  // Threshold = minDistinct% of the 180° max hue range. Greedy: sorted by
+  // installs desc (already done above if --sort installs; otherwise sort
+  // temporarily), so the most-installed representative is always kept.
+  if (minDistinct > 0) {
+    const thresholdDeg = (minDistinct / 100) * 180;
+
+    // Ensure installs-desc order for greedy selection regardless of display sort
+    const byInstalls = [...entries].sort(
+      (a, b) => (meta.get(b[0])?.installs || 0) - (meta.get(a[0])?.installs || 0)
+    );
+
+    const kept = new Set<string>();
+    const keptFps: number[][] = [];
+
+    for (const [name] of byInstalls) {
+      const fp = meta.get(name)?.hueFp;
+      if (!fp || fp.length === 0) { kept.add(name); continue; } // no color data → keep
+
+      const tooClose = keptFps.some(kfp => avgHueDist(fp, kfp) < thresholdDeg);
+      if (!tooClose) {
+        kept.add(name);
+        keptFps.push(fp);
+      }
+    }
+
+    entries = entries.filter(([name]) => kept.has(name));
+  }
 
   const limit = 100;
   const total = entries.length;
@@ -1021,7 +1083,7 @@ export async function runTheme(argv: string[]): Promise<void> {
 
   switch (args.command) {
     case 'list':
-      await listThemes(args.local, args.all, args.sort, args.name || undefined, args.paired, args.minInstalls, args.minContrast);
+      await listThemes(args.local, args.all, args.sort, args.name || undefined, args.paired, args.minInstalls, args.minContrast, args.minDistinct);
       break;
 
     case 'show':
