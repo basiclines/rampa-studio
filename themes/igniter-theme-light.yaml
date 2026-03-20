@@ -3,6 +3,8 @@ source:
   marketplace_id: "Igniter-js.igniter-theme"
   version: "1.0.0"
   installs: 34
+  rating: 0
+  ratings: 0
   author: "Igniter.js"
   repo: "https://github.com/felipebarcelospro/igniter-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=Igniter-js.igniter-theme"
@@ -30,7 +32,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
-  pair: null
+  pair: "Igniter Theme"
   contrast:
     fg: 97.5
     black: 98.2

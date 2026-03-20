@@ -3,6 +3,8 @@ source:
   marketplace_id: "philbschmidt.aroace"
   version: "1.3.0"
   installs: 46
+  rating: 0
+  ratings: 0
   author: "Philipp Schmidt"
   repo: "https://codeberg.org/philbschmidt/Aro-Ace"
   url: "https://marketplace.visualstudio.com/items?itemName=philbschmidt.aroace"
@@ -30,7 +32,7 @@ meta:
   mode: "dark"
   accent: "red"
   hue: 276
-  pair: null
+  pair: "AroAce Light"
   contrast:
     fg: 69.4
     black: 24.4

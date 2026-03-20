@@ -188,6 +188,38 @@ function findPairs(entries: ThemeEntry[]): Map<string, string> {
     }
   }
 
+  // Pass 3: Implicit counterpart — one side has a mode token, the other
+  // has no token but meta.mode confirms the opposite role.
+  // e.g. "Theme (Dark)" ↔ "Theme"  or  "Theme" (dark) ↔ "Theme Dawn"
+  const paired = new Set([...pairs.keys()]);
+
+  // Build lookup: normalised full name → entry (for no-token themes)
+  const noTokenByNorm = new Map<string, ThemeEntry>();
+  for (const entry of entries) {
+    if (!entry.modeToken && !paired.has(entry.theme.name)) {
+      noTokenByNorm.set(normalizeForComparison(entry.theme.name), entry);
+    }
+  }
+
+  for (const entry of entries) {
+    if (!entry.modeToken || paired.has(entry.theme.name)) continue;
+
+    const implicit = noTokenByNorm.get(entry.baseNorm);
+    if (!implicit) continue;
+    if (implicit.theme.meta.mode === entry.theme.meta.mode) continue; // same polarity
+    if (paired.has(implicit.theme.name)) continue;
+
+    const [dark, light] = entry.theme.meta.mode === 'dark'
+      ? [entry, implicit]
+      : [implicit, entry];
+
+    pairs.set(dark.theme.name, light.theme.name);
+    pairs.set(light.theme.name, dark.theme.name);
+    paired.add(dark.theme.name);
+    paired.add(light.theme.name);
+    noTokenByNorm.delete(entry.baseNorm); // consumed
+  }
+
   return pairs;
 }
 

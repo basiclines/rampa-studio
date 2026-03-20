@@ -3,6 +3,8 @@ source:
   marketplace_id: "TristanMarkBarrow.tbfox-theme"
   version: "0.0.1"
   installs: 44
+  rating: 0
+  ratings: 0
   author: "TristanMarkBarrow"
   repo: "https://github.com/tristanbarrow/vscode-tbfox-theme"
   url: "https://marketplace.visualstudio.com/items?itemName=TristanMarkBarrow.tbfox-theme"
@@ -30,6 +32,7 @@ meta:
   mode: "light"
   accent: "orange"
   hue: null
+  pair: "TBFox Theme"
   contrast:
     fg: 93.9
     black: 93.9
