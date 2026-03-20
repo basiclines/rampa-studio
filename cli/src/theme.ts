@@ -45,6 +45,7 @@ interface ThemeArgs {
   all: boolean;
   sort: SortOption[];
   paired: boolean;
+  minInstalls: number;
 }
 
 function showThemeHelp(): void {
@@ -74,6 +75,7 @@ ${bold}OPTIONS${reset}
   ${cyan}--dry-run${reset}              ${dim}Print generated output without writing file${reset}
   ${cyan}--all${reset}                  ${dim}Show all themes (list shows 100 by default)${reset}
   ${cyan}--paired${reset}               ${dim}Show only themes that have a dark/light pair (one per pair)${reset}
+  ${cyan}--min-installs <n>${reset}     ${dim}Only show themes with at least n installs${reset}
   ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, rating, ratings, mode. Chain multiple: --sort rating --sort installs${reset}
   ${cyan}--local${reset}                ${dim}Use local themes/ directory instead of fetching from GitHub${reset}
   ${cyan}-h, --help${reset}             ${dim}Show this help${reset}
@@ -83,6 +85,7 @@ ${bold}EXAMPLES${reset}
   ${cyan}rampa theme list "Nord"${reset}
   ${cyan}rampa theme list --paired${reset}
   ${cyan}rampa theme list --paired "Solarized"${reset}
+  ${cyan}rampa theme list --paired --min-installs 1000${reset}
   ${cyan}rampa theme list --sort rating --all${reset}
   ${cyan}rampa theme "Tokyo Night" --show${reset}
   ${cyan}rampa theme "Gruvbox Dark Hard" --install alacritty${reset}
@@ -103,6 +106,7 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
     all: false,
     sort: ['name'],
     paired: false,
+    minInstalls: 0,
   };
 
   let i = 0;
@@ -152,6 +156,13 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
 
     if (arg === '--paired') {
       args.paired = true;
+      i++;
+      continue;
+    }
+
+    if (arg === '--min-installs' && argv[i + 1]) {
+      const n = parseInt(argv[++i], 10);
+      if (!isNaN(n) && n >= 0) args.minInstalls = n;
       i++;
       continue;
     }
@@ -315,7 +326,7 @@ function fuzzyScore(target: string, query: string): number {
   return qi === q.length ? 100 - ti : -1;
 }
 
-async function listThemes(local: boolean, all: boolean, sorts: SortOption[], query?: string, paired = false): Promise<void> {
+async function listThemes(local: boolean, all: boolean, sorts: SortOption[], query?: string, paired = false, minInstalls = 0): Promise<void> {
   const index = await fetchIndex(local);
   let entries = Object.entries(index);
 
@@ -337,7 +348,7 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
 
   const dim = '\x1b[2m';
   const reset = '\x1b[0m';
-  const needsMeta = sorts.some(s => s !== 'name') || paired;
+  const needsMeta = sorts.some(s => s !== 'name') || paired || minInstalls > 0;
 
   // Read metadata from YAML files when sorting by anything other than name,
   // or when --paired filtering requires pair + mode fields.
@@ -359,6 +370,11 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
         meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark', pair: null });
       }
     }
+  }
+
+  // --min-installs: filter out themes below the install threshold
+  if (minInstalls > 0) {
+    entries = entries.filter(([name]) => (meta.get(name)?.installs ?? 0) >= minInstalls);
   }
 
   // --paired: keep only themes that have a pair, then deduplicate so only
@@ -972,7 +988,7 @@ export async function runTheme(argv: string[]): Promise<void> {
 
   switch (args.command) {
     case 'list':
-      await listThemes(args.local, args.all, args.sort, args.name || undefined, args.paired);
+      await listThemes(args.local, args.all, args.sort, args.name || undefined, args.paired, args.minInstalls);
       break;
 
     case 'show':
