@@ -3,6 +3,8 @@ source:
   marketplace_id: "grdthh.mliaa"
   version: "0.2.0"
   installs: 192
+  rating: 0
+  ratings: 0
   author: "grdthh"
   repo: "https://github.com/hashyael/mlia"
   url: "https://marketplace.visualstudio.com/items?itemName=grdthh.mliaa"
@@ -30,7 +32,7 @@ meta:
   mode: "dark"
   accent: "orange"
   hue: null
-  pair: null
+  pair: "mlia-light"
   contrast:
     fg: 55.2
     black: 8.1

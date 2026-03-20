@@ -3,6 +3,8 @@ source:
   marketplace_id: "darvy.darvypro"
   version: "0.4.0"
   installs: 158
+  rating: 0
+  ratings: 0
   author: "darvy"
   repo: null
   url: "https://marketplace.visualstudio.com/items?itemName=darvy.darvypro"
@@ -30,7 +32,7 @@ meta:
   mode: "light"
   accent: "purple"
   hue: null
-  pair: null
+  pair: "taquito-darker"
   contrast:
     fg: 71.5
     black: 81.7

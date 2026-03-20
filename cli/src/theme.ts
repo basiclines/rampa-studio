@@ -44,6 +44,7 @@ interface ThemeArgs {
   local: boolean;
   all: boolean;
   sort: SortOption[];
+  paired: boolean;
 }
 
 function showThemeHelp(): void {
@@ -57,6 +58,8 @@ ${bold}rampa theme${reset} — Universal color theme installer
 
 ${bold}USAGE${reset}
   ${cyan}rampa theme list${reset}                            ${dim}List all available themes${reset}
+  ${cyan}rampa theme list "query"${reset}                    ${dim}Search themes by name${reset}
+  ${cyan}rampa theme list --paired${reset}                   ${dim}Only dark/light pairs (one row per pair)${reset}
   ${cyan}rampa theme "Dracula" --show${reset}                ${dim}Show theme colors${reset}
   ${cyan}rampa theme "Dracula" --install ghostty${reset}     ${dim}Install theme for an app${reset}
   ${cyan}rampa theme "Dracula" --install ghostty --dry-run${reset}  ${dim}Preview without writing${reset}
@@ -70,12 +73,17 @@ ${bold}OPTIONS${reset}
   ${cyan}--preview${reset}              ${dim}Open interactive browser preview${reset}
   ${cyan}--dry-run${reset}              ${dim}Print generated output without writing file${reset}
   ${cyan}--all${reset}                  ${dim}Show all themes (list shows 100 by default)${reset}
+  ${cyan}--paired${reset}               ${dim}Show only themes that have a dark/light pair (one per pair)${reset}
   ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, rating, ratings, mode. Chain multiple: --sort rating --sort installs${reset}
   ${cyan}--local${reset}                ${dim}Use local themes/ directory instead of fetching from GitHub${reset}
   ${cyan}-h, --help${reset}             ${dim}Show this help${reset}
 
 ${bold}EXAMPLES${reset}
   ${cyan}rampa theme list${reset}
+  ${cyan}rampa theme list "Nord"${reset}
+  ${cyan}rampa theme list --paired${reset}
+  ${cyan}rampa theme list --paired "Solarized"${reset}
+  ${cyan}rampa theme list --sort rating --all${reset}
   ${cyan}rampa theme "Tokyo Night" --show${reset}
   ${cyan}rampa theme "Gruvbox Dark Hard" --install alacritty${reset}
   ${cyan}rampa theme "Dracula" --install ghostty,kitty,iterm2${reset}
@@ -94,6 +102,7 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
     local: false,
     all: false,
     sort: ['name'],
+    paired: false,
   };
 
   let i = 0;
@@ -137,6 +146,12 @@ export function parseThemeArgs(argv: string[]): ThemeArgs {
 
     if (arg === '--preview') {
       args.command = 'preview';
+      i++;
+      continue;
+    }
+
+    if (arg === '--paired') {
+      args.paired = true;
       i++;
       continue;
     }
@@ -280,23 +295,54 @@ function resolveInstallPath(basePath: string): string {
 
 // ── Commands ──
 
-async function listThemes(local: boolean, all: boolean, sorts: SortOption[]): Promise<void> {
+/**
+ * Fuzzy match: returns a score ≥ 0 if query matches target, or -1 if no match.
+ * Higher score = better match (substring > prefix > subsequence).
+ */
+function fuzzyScore(target: string, query: string): number {
+  const t = target.toLowerCase();
+  const q = query.toLowerCase();
+  if (t === q) return 1000;
+  const idx = t.indexOf(q);
+  if (idx === 0) return 900;         // prefix match
+  if (idx > 0)  return 800 - idx;   // substring match (earlier = better)
+  // subsequence match
+  let ti = 0, qi = 0;
+  while (ti < t.length && qi < q.length) {
+    if (t[ti] === q[qi]) qi++;
+    ti++;
+  }
+  return qi === q.length ? 100 - ti : -1;
+}
+
+async function listThemes(local: boolean, all: boolean, sorts: SortOption[], query?: string, paired = false): Promise<void> {
   const index = await fetchIndex(local);
   let entries = Object.entries(index);
-  const total = entries.length;
 
-  if (total === 0) {
-    console.log('No themes found. Run the scraper first or check your themes/ directory.');
+  // Fuzzy filter when a query is provided.
+  // Threshold > 100 accepts all substring matches (score = 800 - offset)
+  // but excludes pure subsequence matches (max score = 100).
+  if (query) {
+    const scored = entries
+      .map(e => ({ e, score: fuzzyScore(e[0], query) }))
+      .filter(x => x.score > 100)
+      .sort((a, b) => b.score - a.score);
+    entries = scored.map(x => x.e);
+  }
+
+  if (entries.length === 0) {
+    console.log(query ? `\n  No themes matching "${query}".\n` : 'No themes found. Run the scraper first or check your themes/ directory.');
     return;
   }
 
   const dim = '\x1b[2m';
   const reset = '\x1b[0m';
-  const needsMeta = sorts.some(s => s !== 'name');
+  const needsMeta = sorts.some(s => s !== 'name') || paired;
 
-  // Read metadata from YAML files when sorting by anything other than name
-  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string }>();
-  if (needsMeta && local) {
+  // Read metadata from YAML files when sorting by anything other than name,
+  // or when --paired filtering requires pair + mode fields.
+  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string; pair: string | null }>();
+  if ((needsMeta || paired) && local) {
     const themesDir = resolveThemesDir();
     for (const [name, filename] of entries) {
       try {
@@ -307,11 +353,34 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[]): Pr
           rating: theme.source?.rating || 0,
           ratings: theme.source?.ratings || 0,
           mode: theme.meta?.mode || 'dark',
+          pair: theme.meta?.pair ?? null,
         });
       } catch {
-        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark' });
+        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark', pair: null });
       }
     }
+  }
+
+  // --paired: keep only themes that have a pair, then deduplicate so only
+  // the dark member of each pair is shown (fall back to first alphabetically).
+  if (paired) {
+    const seen = new Set<string>();
+    entries = entries.filter(([name]) => {
+      const m = meta.get(name);
+      if (!m?.pair) return false;                // no pair → exclude
+      // Build a canonical key from the two names sorted alphabetically
+      const key = [name, m.pair].sort().join('|');
+      if (seen.has(key)) return false;           // already showing the other half
+      seen.add(key);
+      return true;
+    });
+    // Within each pair prefer the dark member first
+    entries.sort((a, b) => {
+      const modeA = meta.get(a[0])?.mode ?? 'dark';
+      const modeB = meta.get(b[0])?.mode ?? 'dark';
+      if (modeA !== modeB) return modeA === 'dark' ? -1 : 1;
+      return a[0].localeCompare(b[0]);
+    });
   }
 
   // Apply sorts in order (first sort is primary, chained sorts break ties)
@@ -341,19 +410,34 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[]): Pr
   });
 
   const limit = 100;
+  const total = entries.length;
+  if (total === 0) {
+    const msg = paired && query ? `No paired themes matching "${query}".`
+      : paired ? 'No paired themes found.'
+      : `No themes matching "${query}".`;
+    console.log(`\n  ${msg}\n`);
+    return;
+  }
   const shown = all ? entries : entries.slice(0, limit);
   const sortLabel = sorts.join(', ');
 
-  console.log(`\n  ${total} themes available (sorted by ${sortLabel}):\n`);
+  let header: string;
+  if (paired && query) header = `\n  ${entries.length} paired theme${entries.length === 1 ? '' : 's'} matching "${query}":\n`;
+  else if (paired)     header = `\n  ${entries.length} paired theme${entries.length === 1 ? '' : 's'} (dark/light):\n`;
+  else if (query)      header = `\n  ${entries.length} theme${entries.length === 1 ? '' : 's'} matching "${query}":\n`;
+  else                 header = `\n  ${entries.length} themes available (sorted by ${sortLabel}):\n`;
+  console.log(header);
+
   for (const [name] of shown) {
     const m = meta.get(name);
     const parts: string[] = [name];
-    if (m && needsMeta) {
+    if (m) {
       const info: string[] = [];
+      if (paired && m.pair) info.push(`↔ ${m.pair}`);
       if (sorts.includes('installs')) info.push(`${m.installs.toLocaleString()} installs`);
-      if (sorts.includes('rating')) info.push(`★ ${m.rating.toFixed(1)}`);
-      if (sorts.includes('ratings')) info.push(`${m.ratings} ratings`);
-      if (sorts.includes('mode')) info.push(`(${m.mode})`);
+      if (sorts.includes('rating'))   info.push(`★ ${m.rating.toFixed(1)}`);
+      if (sorts.includes('ratings'))  info.push(`${m.ratings} ratings`);
+      if (sorts.includes('mode'))     info.push(`(${m.mode})`);
       if (info.length) parts.push(`${dim}${info.join('  ')}${reset}`);
     }
     console.log(`  ${parts.join('  ')}`);
@@ -888,7 +972,7 @@ export async function runTheme(argv: string[]): Promise<void> {
 
   switch (args.command) {
     case 'list':
-      await listThemes(args.local, args.all, args.sort);
+      await listThemes(args.local, args.all, args.sort, args.name || undefined, args.paired);
       break;
 
     case 'show':

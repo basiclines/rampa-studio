@@ -3,6 +3,8 @@ source:
   marketplace_id: "Teambotics.theme-studio"
   version: "0.0.2"
   installs: 14
+  rating: 0
+  ratings: 0
   author: "Teambotics"
   repo: "https://github.com/nickhilster/theme-crafter"
   url: "https://marketplace.visualstudio.com/items?itemName=Teambotics.theme-studio"
@@ -30,7 +32,7 @@ meta:
   mode: "dark"
   accent: "pink"
   hue: 285
-  pair: null
+  pair: "Custom Theme (light)"
   contrast:
     fg: 77.1
     black: 0

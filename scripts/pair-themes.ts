@@ -17,18 +17,45 @@ const DRY_RUN = process.argv.includes('--dry-run');
 // ── Name normalization ──
 
 // Suffixes that indicate dark/light mode in theme names
-const DARK_TOKENS = ['dark', 'night', 'midnight', 'noir', 'black', 'darker', 'deep', 'dim', 'dimmed'];
-const LIGHT_TOKENS = ['light', 'day', 'dawn', 'morning', 'bright', 'lighter'];
+const DARK_TOKENS = ['dark', 'night', 'midnight', 'noir', 'black', 'darker', 'deep', 'dim', 'dimmed', 'dusk', 'twilight', 'eve', 'evening'];
+const LIGHT_TOKENS = ['light', 'day', 'dawn', 'morning', 'bright', 'lighter', 'sunrise', 'noon'];
 const ALL_MODE_TOKENS = [...DARK_TOKENS, ...LIGHT_TOKENS];
 
 // Patterns that separate the "base name" from the mode indicator
 // e.g. "Gruvbox Dark Medium" → base: "Gruvbox Medium", mode suffix: "Dark"
 // e.g. "Tokyo Night Light" → base: "Tokyo Night", mode suffix: "Light"  (but "Night" is also part of the name)
 function extractBaseName(name: string): { base: string; modeToken: string | null } {
-  const words = name.split(/\s+/);
+  // Split on whitespace; also split hyphenated single-word names
+  // e.g. "empire-monokai-dark" → ["empire-monokai", "dark"]
+  let words = name.split(/\s+/);
+  if (words.length === 1 && name.includes('-')) {
+    const parts = name.split('-');
+    const lastPart = parts[parts.length - 1].toLowerCase();
+    if (ALL_MODE_TOKENS.includes(lastPart)) {
+      return {
+        base: parts.slice(0, -1).join('-'),
+        modeToken: lastPart,
+      };
+    }
+    // Also check second-to-last for cases like "theme-dark-v2"
+    if (parts.length > 2) {
+      const secondLast = parts[parts.length - 2].toLowerCase();
+      if (ALL_MODE_TOKENS.includes(secondLast)) {
+        const remaining = [...parts.slice(0, -2), ...parts.slice(-1)];
+        return {
+          base: remaining.join('-'),
+          modeToken: secondLast,
+        };
+      }
+    }
+  }
+
+  // Strip surrounding punctuation from each word before token-matching
+  // so "(Dark)" → "dark", "(Light)" → "light" etc.
+  const stripped = (w: string) => w.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
 
   // Try removing a single mode token from the end first
-  const lastWord = words[words.length - 1].toLowerCase();
+  const lastWord = stripped(words[words.length - 1]);
   if (ALL_MODE_TOKENS.includes(lastWord) && words.length > 1) {
     return {
       base: words.slice(0, -1).join(' '),
@@ -38,7 +65,7 @@ function extractBaseName(name: string): { base: string; modeToken: string | null
 
   // Try removing from the middle/start — find the last mode token
   for (let i = words.length - 1; i >= 0; i--) {
-    const lower = words[i].toLowerCase();
+    const lower = stripped(words[i]);
     if (ALL_MODE_TOKENS.includes(lower) && words.length > 1) {
       const remaining = [...words.slice(0, i), ...words.slice(i + 1)];
       return {
