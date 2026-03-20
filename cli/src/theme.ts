@@ -80,7 +80,7 @@ ${bold}OPTIONS${reset}
   ${cyan}--paired${reset}               ${dim}Show only themes that have a dark/light pair (one per pair)${reset}
   ${cyan}--min-installs <n>${reset}     ${dim}Only show themes with at least n installs${reset}
   ${cyan}--min-contrast <n>${reset}     ${dim}Only show themes where avg APCA contrast of fg + tonal colors ≥ n (0–108)${reset}
-  ${cyan}--min-distinct <n>${reset}     ${dim}Deduplicate similar themes — keep most-installed; n is % of 180° hue range (e.g. 20 = 36°)${reset}
+  ${cyan}--min-distinct <n>${reset}     ${dim}Deduplicate similar themes within the same publisher (full OKLCH signature, 0–100)${reset}
   ${cyan}--sort <field>${reset}         ${dim}Sort by: name (default), installs, rating, ratings, mode. Chain multiple: --sort rating --sort installs${reset}
   ${cyan}--local${reset}                ${dim}Use local themes/ directory instead of fetching from GitHub${reset}
   ${cyan}-h, --help${reset}             ${dim}Show this help${reset}
@@ -340,25 +340,30 @@ function avgTonalContrast(contrast: Record<string, number>): number {
   return values.reduce((s, v) => s + v, 0) / values.length;
 }
 
-// Hue fingerprint helpers for --min-distinct
-const HUE_ACCENT_KEYS = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan'] as const;
+// Full OKLCH color signature for --min-distinct
+// Each accent color contributes [L, C/0.4, H/180] — all normalized 0-1.
+// Circular hue wraps at 2 (H/180 range). Distance in [0,1] per component.
+const SIG_ACCENT_KEYS = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan'] as const;
+const MAX_C = 0.4;
 
-function buildHueFp(colors: Record<string, string>): number[] {
-  return HUE_ACCENT_KEYS.map(k => {
-    const hex = colors[k];
-    if (!hex) return 0;
-    const [, , h] = hexToOklch(hex);
-    return h;
+function buildColorSig(colors: Record<string, string>): number[] {
+  return SIG_ACCENT_KEYS.flatMap(k => {
+    const [L, C, H] = hexToOklch(colors[k] ?? '#808080');
+    return [L, C / MAX_C, H / 180]; // H/180 → range 0-2, circular
   });
 }
 
-function circularHueDist(a: number, b: number): number {
-  const d = Math.abs(a - b) % 360;
-  return d > 180 ? 360 - d : d;
-}
-
-function avgHueDist(a: number[], b: number[]): number {
-  return a.reduce((sum, h, i) => sum + circularHueDist(h, b[i]), 0) / a.length;
+function colorSigDist(a: number[], b: number[]): number {
+  if (!a.length || !b.length) return 0;
+  let total = 0;
+  for (let i = 0; i < a.length; i += 3) {
+    const dL = Math.abs(a[i]   - b[i]);
+    const dC = Math.abs(a[i+1] - b[i+1]);
+    const rawH = Math.abs(a[i+2] - b[i+2]);
+    const dH = Math.min(rawH, 2 - rawH); // circular wrap at 2
+    total += (dL + dC + dH) / 3;
+  }
+  return total / SIG_ACCENT_KEYS.length; // 0-1 range
 }
 
 /**
@@ -407,7 +412,7 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
 
   // Read metadata from YAML files when sorting by anything other than name,
   // or when --paired filtering requires pair + mode fields.
-  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string; pair: string | null; contrast: Record<string, number>; hueFp: number[] }>();
+  const meta = new Map<string, { installs: number; rating: number; ratings: number; mode: string; pair: string | null; contrast: Record<string, number>; colorSig: number[]; publisher: string }>();
   if ((needsMeta || paired) && local) {
     const themesDir = resolveThemesDir();
     for (const [name, filename] of entries) {
@@ -421,10 +426,11 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
           mode: theme.meta?.mode || 'dark',
           pair: theme.meta?.pair ?? null,
           contrast: theme.meta?.contrast as unknown as Record<string, number> ?? {},
-          hueFp: buildHueFp(theme.colors as unknown as Record<string, string>),
+          colorSig: buildColorSig(theme.colors as unknown as Record<string, string>),
+          publisher: theme.source?.marketplace_id?.split('.')[0] ?? '',
         });
       } catch {
-        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark', pair: null, contrast: {}, hueFp: [] });
+        meta.set(name, { installs: 0, rating: 0, ratings: 0, mode: 'dark', pair: null, contrast: {}, colorSig: [], publisher: '' });
       }
     }
   }
@@ -491,29 +497,33 @@ async function listThemes(local: boolean, all: boolean, sorts: SortOption[], que
     return 0;
   });
 
-  // --min-distinct: deduplicate themes that are too similar in hue space.
-  // Threshold = minDistinct% of the 180° max hue range. Greedy: sorted by
-  // installs desc (already done above if --sort installs; otherwise sort
-  // temporarily), so the most-installed representative is always kept.
+  // --min-distinct: deduplicate similar-looking themes WITHIN the same publisher.
+  // Uses full OKLCH color signature (L+C+H per accent, all normalized 0-1).
+  // Distance is 0-1; threshold = minDistinct/100.
+  // Same-publisher scoping ensures GitHub variants don't block Solarized/Monokai.
   if (minDistinct > 0) {
-    const thresholdDeg = (minDistinct / 100) * 180;
+    const threshold = minDistinct / 100;
 
-    // Ensure installs-desc order for greedy selection regardless of display sort
-    const byInstalls = [...entries].sort(
-      (a, b) => (meta.get(b[0])?.installs || 0) - (meta.get(a[0])?.installs || 0)
-    );
+    // Group entries by publisher
+    const byPublisher = new Map<string, [string, string][]>();
+    for (const e of entries) {
+      const pub = meta.get(e[0])?.publisher ?? '';
+      if (!byPublisher.has(pub)) byPublisher.set(pub, []);
+      byPublisher.get(pub)!.push(e);
+    }
 
     const kept = new Set<string>();
-    const keptFps: number[][] = [];
-
-    for (const [name] of byInstalls) {
-      const fp = meta.get(name)?.hueFp;
-      if (!fp || fp.length === 0) { kept.add(name); continue; } // no color data → keep
-
-      const tooClose = keptFps.some(kfp => avgHueDist(fp, kfp) < thresholdDeg);
-      if (!tooClose) {
-        kept.add(name);
-        keptFps.push(fp);
+    for (const [, group] of byPublisher) {
+      // Sort by installs desc so most-popular is kept per cluster
+      group.sort((a, b) => (meta.get(b[0])?.installs || 0) - (meta.get(a[0])?.installs || 0));
+      const keptSigs: number[][] = [];
+      for (const [name] of group) {
+        const sig = meta.get(name)?.colorSig ?? [];
+        const tooClose = sig.length > 0 && keptSigs.some(k => colorSigDist(k, sig) < threshold);
+        if (!tooClose) {
+          kept.add(name);
+          if (sig.length > 0) keptSigs.push(sig);
+        }
       }
     }
 
