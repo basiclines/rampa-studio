@@ -1,17 +1,19 @@
 import type { ThemeYAML } from '../theme-schema';
 import type { ThemeGenerator } from './base';
+import { deriveEditorPalette } from '../theme-color-engine';
 
 export const warpGenerator: ThemeGenerator = {
   name: 'warp',
 
   generate(theme: ThemeYAML): string {
+    const p = deriveEditorPalette(theme);
     const c = theme.colors;
     const lines: string[] = [];
 
-    lines.push(`accent: "${c.blue}"`);
+    lines.push(`accent: "${p.keyword}"`);
     lines.push(`background: "${c.bg}"`);
     lines.push(`foreground: "${c.fg}"`);
-    lines.push(`cursor: "${c.fg}"`);
+    lines.push(`cursor: "${p.cursor}"`);
     lines.push('terminal_colors:');
     lines.push('  normal:');
     lines.push(`    black: "${c.black}"`);

@@ -1,17 +1,19 @@
 import type { ThemeYAML } from '../theme-schema';
 import type { ThemeGenerator } from './base';
+import { deriveEditorPalette } from '../theme-color-engine';
 
 export const windowsTerminalGenerator: ThemeGenerator = {
   name: 'windows-terminal',
 
   generate(theme: ThemeYAML): string {
+    const p = deriveEditorPalette(theme);
     const c = theme.colors;
     const scheme = {
       name: theme.name,
       background: c.bg,
       foreground: c.fg,
-      cursorColor: c.fg,
-      selectionBackground: c.brightBlack,
+      cursorColor: p.cursor,
+      selectionBackground: p.selection,
       black: c.black,
       red: c.red,
       green: c.green,

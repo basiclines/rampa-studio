@@ -1,10 +1,12 @@
 import type { ThemeYAML } from '../theme-schema';
 import type { ThemeGenerator } from './base';
+import { deriveEditorPalette } from '../theme-color-engine';
 
 export const hyperGenerator: ThemeGenerator = {
   name: 'hyper',
 
   generate(theme: ThemeYAML): string {
+    const p = deriveEditorPalette(theme);
     const c = theme.colors;
     const lines: string[] = [];
 
@@ -31,8 +33,8 @@ export const hyperGenerator: ThemeGenerator = {
     lines.push('  },');
     lines.push(`  backgroundColor: '${c.bg}',`);
     lines.push(`  foregroundColor: '${c.fg}',`);
-    lines.push(`  cursorColor: '${c.fg}',`);
-    lines.push(`  selectionColor: '${c.brightBlack}80',`);
+    lines.push(`  cursorColor: '${p.cursor}',`);
+    lines.push(`  selectionColor: '${p.selection}80',`);
     lines.push('};');
 
     return lines.join('\n') + '\n';

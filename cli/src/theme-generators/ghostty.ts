@@ -1,21 +1,19 @@
 import type { ThemeYAML } from '../theme-schema';
 import type { ThemeGenerator } from './base';
-import { themeFileName, ansiArray } from './base';
-
-const ANSI_NAMES = [
-  'black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white',
-  'bright_black', 'bright_red', 'bright_green', 'bright_yellow',
-  'bright_blue', 'bright_magenta', 'bright_cyan', 'bright_white',
-];
+import { ansiArray } from './base';
+import { deriveEditorPalette } from '../theme-color-engine';
 
 export const ghosttyGenerator: ThemeGenerator = {
   name: 'ghostty',
 
   generate(theme: ThemeYAML): string {
+    const p = deriveEditorPalette(theme);
     const lines: string[] = [];
     lines.push(`background = ${theme.colors.bg}`);
     lines.push(`foreground = ${theme.colors.fg}`);
-    lines.push(`cursor-color = ${theme.colors.fg}`);
+    lines.push(`cursor-color = ${p.cursor}`);
+    lines.push(`selection-background = ${p.selection}`);
+    lines.push(`selection-foreground = ${theme.colors.fg}`);
 
     const colors = ansiArray(theme.colors);
     for (let i = 0; i < 16; i++) {

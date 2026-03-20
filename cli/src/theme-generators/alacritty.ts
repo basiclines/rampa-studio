@@ -1,13 +1,12 @@
 import type { ThemeYAML } from '../theme-schema';
 import type { ThemeGenerator } from './base';
-import { themeFileName } from './base';
-
-const NORMAL_KEYS = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'] as const;
+import { deriveEditorPalette } from '../theme-color-engine';
 
 export const alacrittyGenerator: ThemeGenerator = {
   name: 'alacritty',
 
   generate(theme: ThemeYAML): string {
+    const p = deriveEditorPalette(theme);
     const c = theme.colors;
     const lines: string[] = [];
 
@@ -16,8 +15,12 @@ export const alacrittyGenerator: ThemeGenerator = {
     lines.push(`foreground = "${c.fg}"`);
     lines.push('');
     lines.push('[colors.cursor]');
-    lines.push(`cursor = "${c.fg}"`);
+    lines.push(`cursor = "${p.cursor}"`);
     lines.push(`text = "${c.bg}"`);
+    lines.push('');
+    lines.push('[colors.selection]');
+    lines.push(`background = "${p.selection}"`);
+    lines.push(`text = "${c.fg}"`);
     lines.push('');
     lines.push('[colors.normal]');
     lines.push(`black = "${c.black}"`);

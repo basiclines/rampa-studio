@@ -1,17 +1,19 @@
 import type { ThemeYAML } from '../theme-schema';
 import type { ThemeGenerator } from './base';
 import { ansiArray } from './base';
+import { deriveEditorPalette } from '../theme-color-engine';
 
 export const kittyGenerator: ThemeGenerator = {
   name: 'kitty',
 
   generate(theme: ThemeYAML): string {
+    const p = deriveEditorPalette(theme);
     const lines: string[] = [];
     lines.push(`background ${theme.colors.bg}`);
     lines.push(`foreground ${theme.colors.fg}`);
-    lines.push(`cursor ${theme.colors.fg}`);
+    lines.push(`cursor ${p.cursor}`);
     lines.push(`cursor_text_color ${theme.colors.bg}`);
-    lines.push(`selection_background ${theme.colors.brightBlack}`);
+    lines.push(`selection_background ${p.selection}`);
     lines.push(`selection_foreground ${theme.colors.fg}`);
     lines.push('');
 

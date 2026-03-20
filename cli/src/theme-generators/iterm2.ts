@@ -1,6 +1,7 @@
 import type { ThemeYAML } from '../theme-schema';
 import type { ThemeGenerator } from './base';
-import { themeFileName, hexToRgbFloat } from './base';
+import { hexToRgbFloat, ansiArray } from './base';
+import { deriveEditorPalette } from '../theme-color-engine';
 
 function colorDict(hex: string): string {
   const [r, g, b] = hexToRgbFloat(hex);
@@ -31,12 +32,11 @@ const ANSI_NAMES = [
   'Ansi 12 Color', 'Ansi 13 Color', 'Ansi 14 Color', 'Ansi 15 Color',
 ];
 
-import { ansiArray } from './base';
-
 export const iterm2Generator: ThemeGenerator = {
   name: 'iterm2',
 
   generate(theme: ThemeYAML): string {
+    const p = deriveEditorPalette(theme);
     const lines: string[] = [];
     lines.push('<?xml version="1.0" encoding="UTF-8"?>');
     lines.push('<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">');
@@ -50,9 +50,9 @@ export const iterm2Generator: ThemeGenerator = {
 
     lines.push(entry('Background Color', theme.colors.bg));
     lines.push(entry('Foreground Color', theme.colors.fg));
-    lines.push(entry('Cursor Color', theme.colors.fg));
+    lines.push(entry('Cursor Color', p.cursor));
     lines.push(entry('Cursor Text Color', theme.colors.bg));
-    lines.push(entry('Selection Color', theme.colors.brightBlack));
+    lines.push(entry('Selection Color', p.selection));
     lines.push(entry('Selected Text Color', theme.colors.fg));
 
     lines.push('</dict>');
@@ -62,7 +62,6 @@ export const iterm2Generator: ThemeGenerator = {
   },
 
   installPath(os) {
-    // iTerm2 imports from any location — suggest a reasonable default
     if (os === 'darwin') return '~/Library/Application Support/iTerm2/DynamicProfiles';
     return null;
   },

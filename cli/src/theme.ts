@@ -444,14 +444,71 @@ async function installTheme(name: string, appList: string, dryRun: boolean, loca
       continue;
     }
 
-    const content = generator.generate(theme);
     const os = platform() as 'darwin' | 'linux' | 'win32';
     const basePath = generator.installPath(os);
+    const nativeUrl = theme.source?.formats?.[app];
+
+    // ── Native format: fetch from repo ──
+    if (nativeUrl) {
+      const nativeFile = nativeUrl.split('/').pop() || themeFileName(theme, generator.fileExtension());
+
+      if (dryRun) {
+        console.log(`\n${cyan}── ${generator.name}: ${nativeFile} (native) ──${reset}`);
+        console.log(`${dim}Would fetch: ${nativeUrl}${reset}`);
+        if (basePath) console.log(`${dim}Would write to: ${resolveInstallPath(basePath)}/${nativeFile}${reset}`);
+        continue;
+      }
+
+      let content: string;
+      try {
+        const res = await fetch(nativeUrl);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        content = await res.text();
+      } catch (err: any) {
+        console.error(`${red}✗${reset} ${generator.name}: failed to fetch native file — ${err.message}`);
+        console.log(`${dim}Falling back to generated format...${reset}`);
+        // fall through to generator below
+        const generated = generator.generate(theme);
+        if (basePath) {
+          const dir = resolveInstallPath(basePath);
+          const filePath = join(dir, themeFileName(theme, generator.fileExtension()));
+          try {
+            mkdirSync(dir, { recursive: true });
+            writeFileSync(filePath, generated, 'utf8');
+            console.log(`${green}✓${reset} ${generator.name}: ${filePath} ${dim}(generated)${reset}`);
+          } catch (e: any) {
+            console.error(`${red}✗${reset} ${generator.name}: ${e.message}`);
+          }
+        }
+        continue;
+      }
+
+      if (!basePath) {
+        console.log(`${red}✗${reset} ${generator.name}: not supported on ${os}`);
+        console.log(`${dim}Native file content:${reset}\n`);
+        console.log(content);
+        continue;
+      }
+
+      const dir = resolveInstallPath(basePath);
+      const filePath = join(dir, nativeFile);
+      try {
+        mkdirSync(dir, { recursive: true });
+        writeFileSync(filePath, content, 'utf8');
+        console.log(`${green}✓${reset} ${generator.name}: ${filePath} ${dim}(native)${reset}`);
+      } catch (err: any) {
+        console.error(`${red}✗${reset} ${generator.name}: ${err.message}`);
+      }
+      continue;
+    }
+
+    // ── Generated format: ANSI-16 fallback ──
+    const content = generator.generate(theme);
     const ext = generator.fileExtension();
     const fileName = themeFileName(theme, ext);
 
     if (dryRun) {
-      console.log(`\n${cyan}── ${generator.name}: ${fileName} ──${reset}\n`);
+      console.log(`\n${cyan}── ${generator.name}: ${fileName} (generated) ──${reset}\n`);
       if (basePath) {
         console.log(`${dim}Would write to: ${resolveInstallPath(basePath)}/${fileName}${reset}\n`);
       } else {
@@ -463,7 +520,6 @@ async function installTheme(name: string, appList: string, dryRun: boolean, loca
 
     if (!basePath) {
       console.log(`${red}✗${reset} ${generator.name}: not supported on ${os}`);
-      // Still output the content so the user can manually use it
       console.log(`${dim}Generated content:${reset}\n`);
       console.log(content);
       continue;
@@ -475,7 +531,7 @@ async function installTheme(name: string, appList: string, dryRun: boolean, loca
     try {
       mkdirSync(dir, { recursive: true });
       writeFileSync(filePath, content, 'utf8');
-      console.log(`${green}✓${reset} ${generator.name}: ${filePath}`);
+      console.log(`${green}✓${reset} ${generator.name}: ${filePath} ${dim}(generated)${reset}`);
     } catch (err: any) {
       console.error(`${red}✗${reset} ${generator.name}: ${err.message}`);
     }
