@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { defineCommand, runMain } from 'citty';
 import chroma from 'chroma-js';
+import { version } from '../package.json';
 import { 
   generateColorRamp,
   getComplementaryColors,
@@ -75,6 +76,11 @@ if (args.includes('--help') || args.includes('-h') || args.includes('help') || a
   showHelp();
 }
 
+if (args.includes('--version') || args.includes('-v')) {
+  console.log(version);
+  process.exit(0);
+}
+
 // Custom help output with grouped sections
 function showHelp(): void {
   // ANSI color codes
@@ -83,7 +89,7 @@ function showHelp(): void {
   const reset = '\x1b[0m';
 
   const help = `
-rampa v1.9.0
+rampa v${version}
 Generate mathematically accurate color palettes from a base color
 
 USAGE
@@ -445,7 +451,7 @@ const validFormats = ['hex', 'hsl', 'rgb', 'oklch'];
 const main = defineCommand({
   meta: {
     name: 'rampa',
-    version: '1.9.0',
+    version,
     description: 'Generate mathematically accurate color palettes from a base color',
   },
   args: {

@@ -305,6 +305,22 @@ describe('palette()', () => {
         }
       }
     });
+
+    for (const kind of ['group', 'ansi'] as const) {
+      it(`sorts the current ${kind} buckets after edits`, async () => {
+        const p = await palette(TEST_PNG);
+        const groups = kind === 'group' ? p.group({ by: 'L' }) : p.ansi();
+        const [removed, replaced] = Object.keys(groups);
+        delete groups[removed];
+        groups[replaced] = [p.at(0), p.at(1)];
+
+        const sorted = groups.sortBy('L');
+        expect(Object.keys(sorted)).not.toContain(removed);
+        expect(sorted[replaced]).toEqual(
+          [...groups[replaced]].sort((a, b) => a.color.oklch.l - b.color.oklch.l),
+        );
+      });
+    }
   });
 
   describe('.group()', () => {

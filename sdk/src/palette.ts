@@ -114,8 +114,8 @@ function makeSortableGroups(groups: Record<string, PaletteEntry[]>): SortablePal
     enumerable: false,
     value(field: SortField): SortablePaletteGroups {
       const sorted: Record<string, PaletteEntry[]> = {};
-      for (const [key, entries] of Object.entries(groups)) {
-        sorted[key] = sortEntriesByField(entries, field);
+      for (const key of Object.keys(result)) {
+        sorted[key] = sortEntriesByField(result[key], field);
       }
       return makeSortableGroups(sorted);
     },
