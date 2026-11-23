@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -48,22 +49,12 @@ jobs:
         working-directory: sdk
       - name: Verify SDK package includes declarations
         working-directory: sdk
-        run: |
-          npm pack --dry-run --json | node -e '
-            let input = "";
-            process.stdin.on("data", chunk => input += chunk);
-            process.stdin.on("end", () => {
-              const files = JSON.parse(input)[0]?.files ?? [];
-              if (!files.some(file => file.path === "dist/index.d.ts")) {
-                console.error("SDK package is missing dist/index.d.ts");
-                process.exitCode = 1;
-              }
-            });
-          '
-      - run: npm publish --access=public --provenance || true
+        run: npm pack --dry-run --json | node scripts/verify-package.cjs
+      - run: npm publish --access=public --provenance
         working-directory: sdk
 
   publish-cli:
+    if: github.event_name == 'push'
     needs: test
     runs-on: ubuntu-latest
     permissions:
@@ -84,10 +75,11 @@ jobs:
         working-directory: cli
       - run: bun run build:npm
         working-directory: cli
-      - run: npm publish --access=public --provenance || true
+      - run: npm publish --access=public --provenance
         working-directory: cli
 
   publish-vanilla-js:
+    if: github.event_name == 'push'
     needs: test
     runs-on: ubuntu-latest
     permissions:
@@ -106,6 +98,7 @@ jobs:
         run: gh release upload "${GITHUB_REF_NAME}" sdk/dist/rampa-sdk.min.js --clobber
 
   update-homebrew:
+    if: github.event_name == 'push'
     needs: [publish-cli]
     runs-on: ubuntu-latest
     permissions:
