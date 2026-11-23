@@ -1,5 +1,15 @@
 export type ColorFormat = 'hex' | 'hsl' | 'rgb' | 'oklch';
 
+export type EncodedImage = Uint8Array | ArrayBuffer;
+
+export type GroupByProperty = 'L' | 'C' | 'H';
+
+export interface GroupBucket {
+  name: string;
+  min: number;
+  max: number;
+}
+
 export type ScaleType =
   | 'linear'
   | 'geometric'

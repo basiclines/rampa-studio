@@ -1,9 +1,9 @@
 import { generateLinearSpace, mixWithMode } from '../../src/engine/ColorSpaceEngine';
 import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
-import { createColorAccessor, validateSameFormat, createColor } from './color-result';
-import { linearToCSS, linearToJSON } from './formatters/color-space';
+import { createColorAccessor, validateSameFormat, createColor } from './color-result.js';
+import { linearToCSS, linearToJSON } from './formatters/color-space.js';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor, ScaleType, RampaOutputFormat, Color } from './types';
+import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor, ScaleType, RampaOutputFormat, Color } from './types.js';
 
 /**
  * Create a linear color space.
@@ -30,7 +30,7 @@ import type { ColorFormat, InterpolationMode, LinearColorSpaceFn, ColorAccessor,
  */
 export class LinearColorSpace {
   private _colors: string[];
-  private _interpolation: InterpolationMode | false = 'oklch';
+  private _interpolation: Exclude<InterpolationMode, 'srgb'> | false = 'oklch';
   private _format: ColorFormat = 'hex';
   private _distribution: ScaleType | undefined;
 

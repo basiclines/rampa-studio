@@ -9,12 +9,13 @@
  *     console.log('' + palette(1));
  *   </script>
  */
-import { rampa, color, lint, RampaBuilder, createRampaFn, LintBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace } from './index';
+import { rampa, color, lint, palette, RampaBuilder, createRampaFn, LintBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace } from './index.js';
 
 const Rampa = {
   rampa,
   color,
   lint,
+  palette,
   RampaBuilder,
   createRampaFn,
   LintBuilder,

@@ -1,6 +1,5 @@
 import { decode as decodePng } from 'fast-png';
 import { decode as decodeJpeg } from 'jpeg-js';
-import { readFileSync } from 'fs';
 
 export interface DecodedImage {
   width: number;
@@ -47,8 +46,8 @@ function decodeJpegImage(buffer: Uint8Array): DecodedImage {
   return { width: jpg.width, height: jpg.height, data: jpg.data };
 }
 
-export function decodeImage(filePath: string): DecodedImage {
-  const buffer = new Uint8Array(readFileSync(filePath));
+export function decodeImage(input: Uint8Array | ArrayBuffer): DecodedImage {
+  const buffer = input instanceof Uint8Array ? input : new Uint8Array(input);
   const format = detectFormat(buffer);
 
   if (format === 'png') return decodePngImage(buffer);

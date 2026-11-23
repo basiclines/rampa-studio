@@ -28,6 +28,12 @@ A pre-built browser bundle is available on every [GitHub Release](https://github
 
   const c = Rampa.color('#3b82f6');
   console.log(c.hex, c.rgb, c.luminance);
+
+  (async () => {
+    const imageResponse = await fetch('/photo.png');
+    const imagePalette = await Rampa.palette(await imageResponse.arrayBuffer());
+    console.log(imagePalette.dominant());
+  })();
 </script>
 ```
 
@@ -721,15 +727,27 @@ rgbSpace(3, 5).hex() // → '#ff8080' (still available)
 
 Extract color palettes from images with three tiers of analysis: raw unique colors, dominant color clusters, and ANSI-classified palettes.
 
-Requires `fast-png` and `jpeg-js` (installed as dependencies). Supports PNG and JPEG files.
+Requires `fast-png` and `jpeg-js` (installed as dependencies). Supports encoded PNG and JPEG bytes. The SDK does not read files or fetch URLs; callers obtain the bytes using the method appropriate for their environment.
 
-### `palette(filePath)`
+### `palette(image)`
 
 ```typescript
 import { palette } from '@basiclines/rampa-sdk';
 
-const p = await palette('photo.jpg');
+// Node.js: read the file in your application, then pass the bytes to the SDK.
+import { readFile } from 'node:fs/promises';
+const p = await palette(new Uint8Array(await readFile('photo.jpg')));
 ```
+
+```typescript
+import { palette } from '@basiclines/rampa-sdk';
+
+// Browser: fetch the image in your application, then pass its bytes to the SDK.
+const response = await fetch('/photo.jpg');
+const browserPalette = await palette(await response.arrayBuffer());
+```
+
+`image` accepts `EncodedImage`, either a `Uint8Array` or an `ArrayBuffer`.
 
 ### Dominant Colors
 

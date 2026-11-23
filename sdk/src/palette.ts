@@ -11,12 +11,10 @@ import {
   classifyTemperature,
   type PaletteEngineEntry,
   type AnsiColorName,
-  type GroupByProperty,
-  type GroupBucket,
 } from '../../src/engine/PaletteEngine';
 import { oklchToHex } from '../../src/engine/OklchMathEngine';
-import { createColor } from './color-result';
-import type { Color, RampaOutputFormat } from './types';
+import { createColor } from './color-result.js';
+import type { Color, EncodedImage, GroupByProperty, GroupBucket, RampaOutputFormat } from './types.js';
 
 export interface PaletteEntry {
   color: Color;
@@ -66,9 +64,9 @@ export interface SortablePaletteEntries extends Array<PaletteEntry> {
   sortBy(field: SortField): SortablePaletteEntries;
 }
 
-export interface SortablePaletteGroups extends Record<string, PaletteEntry[]> {
+export type SortablePaletteGroups = Record<string, PaletteEntry[]> & {
   sortBy(field: SortField): SortablePaletteGroups;
-}
+};
 
 export interface PaletteResult {
   /** All unique colors, most frequent first, near-duplicates merged */
@@ -116,8 +114,8 @@ function makeSortableGroups(groups: Record<string, PaletteEntry[]>): SortablePal
     enumerable: false,
     value(field: SortField): SortablePaletteGroups {
       const sorted: Record<string, PaletteEntry[]> = {};
-      for (const [key, entries] of Object.entries(result)) {
-        sorted[key] = sortEntriesByField(entries, field);
+      for (const key of Object.keys(result)) {
+        sorted[key] = sortEntriesByField(result[key], field);
       }
       return makeSortableGroups(sorted);
     },
@@ -133,11 +131,11 @@ function engineArrayToEntries(arr: PaletteEngineEntry[]): PaletteEntry[] {
   return arr.map(engineToEntry);
 }
 
-export async function palette(filePath: string, options?: PaletteOptions): Promise<PaletteResult> {
+export async function palette(image: EncodedImage, options?: PaletteOptions): Promise<PaletteResult> {
   const { sampleSize = 50000 } = options || {};
 
-  const image = decodeImage(filePath);
-  const pixels = samplePixels(image.data, image.width, image.height, sampleSize);
+  const decoded = decodeImage(image);
+  const pixels = samplePixels(decoded.data, decoded.width, decoded.height, sampleSize);
   const freqMap = buildFrequencyMap(pixels);
 
   // Cache results for repeated calls with same options
@@ -237,9 +235,9 @@ export async function palette(filePath: string, options?: PaletteOptions): Promi
           average: { hex: avg.hex, oklch: avg.oklch },
           temperature: temp,
           ansi: Object.fromEntries(
-            Object.entries(ansiData).map(([name, entries]) => [
+            Object.keys(ansiData).map(name => [
               name,
-              entries.map(e => ({
+              ansiData[name].map(e => ({
                 hex: e.color.hex,
                 frequency: Math.round(e.frequency * 10000) / 10000,
               })),

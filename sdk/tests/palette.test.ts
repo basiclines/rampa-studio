@@ -1,11 +1,70 @@
 import { describe, it, expect } from 'bun:test';
-import { palette } from '../src/index';
+import { palette as analyzePalette, type EncodedImage } from '../src/index';
 import { resolve } from 'path';
 
 const TEST_PNG = resolve(__dirname, '../../tests/fixtures/test-palette.png');
 const TEST_JPEG = resolve(__dirname, '../../tests/fixtures/test-palette.jpeg');
 
+function palette(path: string) {
+  return Bun.file(path).bytes().then(bytes => analyzePalette(bytes));
+}
+
 describe('palette()', () => {
+  it('accepts PNG bytes as Uint8Array', async () => {
+    const bytes: EncodedImage = await Bun.file(TEST_PNG).bytes();
+    const p = await analyzePalette(bytes);
+    expect(p.dominant({ count: 3 })[0].color.hex).toBe('#ff0000');
+  });
+
+  it('accepts JPEG bytes as ArrayBuffer', async () => {
+    const bytes = await Bun.file(TEST_JPEG).arrayBuffer();
+    const p = await analyzePalette(bytes);
+    expect(p.dominant().length).toBeGreaterThan(0);
+  });
+
+  it('rejects malformed image bytes', async () => {
+    await expect(analyzePalette(new Uint8Array([0x89, 0x50, 0x4e, 0x47]))).rejects.toThrow(
+      'wrong PNG signature'
+    );
+  });
+
+  it('rejects unsupported image bytes', async () => {
+    await expect(analyzePalette(new TextEncoder().encode('not an image'))).rejects.toThrow(
+      'Unsupported image format'
+    );
+  });
+
+  describe('nature photographs', () => {
+    it('finds bright sky, greenery, and colorful flowers', async () => {
+      const p = await palette(resolve(__dirname, '../../tests/fixtures/nature-flowers.jpg'));
+      const colors = p.dominant({ count: 10 }).map(entry => entry.color.oklch);
+
+      expect(colors.some(color => color.l > 0.85 && color.c < 0.03)).toBe(true);
+      expect(colors.some(color => color.h > 90 && color.h < 190 && color.c > 0.03)).toBe(true);
+      expect(colors.some(color => (color.h < 35 || color.h > 340) && color.c > 0.12)).toBe(true);
+    });
+
+    it('finds light snow and dark forest in a mostly neutral landscape', async () => {
+      const p = await palette(resolve(__dirname, '../../tests/fixtures/nature-snow.jpg'));
+      const colors = p.dominant({ count: 10 }).map(entry => entry.color.oklch);
+
+      expect(colors.some(color => color.l > 0.8)).toBe(true);
+      expect(colors.some(color => color.l < 0.15)).toBe(true);
+      expect(colors.every(color => color.c < 0.04)).toBe(true);
+    });
+
+    it('finds mostly dark green shades in a forest canopy', async () => {
+      const p = await palette(resolve(__dirname, '../../tests/fixtures/nature-forest.jpg'));
+      const colors = p.dominant({ count: 10 });
+      const greenFrequency = colors
+        .filter(({ color }) => color.oklch.h > 100 && color.oklch.h < 180)
+        .reduce((sum, entry) => sum + entry.frequency, 0);
+
+      expect(greenFrequency).toBeGreaterThan(0.65);
+      expect(p.average().oklch.l).toBeLessThan(0.45);
+    });
+  });
+
   describe('PNG decoding', () => {
     it('loads a PNG file', async () => {
       const p = await palette(TEST_PNG);
@@ -246,6 +305,22 @@ describe('palette()', () => {
         }
       }
     });
+
+    for (const kind of ['group', 'ansi'] as const) {
+      it(`sorts the current ${kind} buckets after edits`, async () => {
+        const p = await palette(TEST_PNG);
+        const groups = kind === 'group' ? p.group({ by: 'L' }) : p.ansi();
+        const [removed, replaced] = Object.keys(groups);
+        delete groups[removed];
+        groups[replaced] = [p.at(0), p.at(1)];
+
+        const sorted = groups.sortBy('L');
+        expect(Object.keys(sorted)).not.toContain(removed);
+        expect(sorted[replaced]).toEqual(
+          [...groups[replaced]].sort((a, b) => a.color.oklch.l - b.color.oklch.l),
+        );
+      });
+    }
   });
 
   describe('.group()', () => {

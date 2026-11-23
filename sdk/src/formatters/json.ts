@@ -1,4 +1,4 @@
-import type { RampResult } from '../types';
+import type { RampResult } from '../types.js';
 
 export function formatJsonOutput(ramps: RampResult[], prefix?: string): string {
   const output = {

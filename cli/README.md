@@ -314,6 +314,8 @@ rampa color '#66b172' --lighten 0.1 --desaturate 0.05 -O css --prefix brand
 
 Extract color palettes from PNG and JPEG images.
 
+The CLI accepts a file path and reads the image before passing its bytes to the shared SDK palette analyzer. In application code, the SDK accepts encoded image bytes directly.
+
 ```bash
 rampa palette photo.jpg
 rampa palette photo.jpg --count 5

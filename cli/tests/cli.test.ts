@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeAll } from 'bun:test';
 import { $ } from 'bun';
 import { join } from 'path';
+import { version } from '../package.json';
 
 const CLI_PATH = join(import.meta.dir, '../dist/rampa');
 
@@ -11,6 +12,12 @@ describe('CLI Integration', () => {
   });
 
   describe('Basic Commands', () => {
+    it('shows the package version in --version and --help', async () => {
+      expect((await $`${CLI_PATH} --version`.text()).trim()).toBe(version);
+      expect((await $`${CLI_PATH} -v`.text()).trim()).toBe(version);
+      expect(await $`${CLI_PATH} --help`.text()).toContain(`rampa v${version}`);
+    });
+
     it('should show help with --help', async () => {
       const result = await $`${CLI_PATH} --help`.text();
       
