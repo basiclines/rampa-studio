@@ -14,7 +14,7 @@ import {
   round2,
 } from '../../src/engine/ContrastEngine';
 import { computeApcaLc } from '../../src/engine/ApcaEngine';
-import type { ContrastMode, ContrastResult, ContrastLevelResult } from './types';
+import type { ContrastMode, ContrastResult, ContrastLevelResult } from './types.js';
 
 // ── APCA levels (mirrored from CLI for standalone SDK use) ───────────
 

@@ -1,5 +1,5 @@
 import chroma from 'chroma-js';
-import type { ColorFormat, ColorInfo } from './types';
+import type { ColorFormat, ColorInfo } from './types.js';
 
 export class ReadOnlyBuilder {
   private _color: string;

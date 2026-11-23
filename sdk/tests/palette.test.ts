@@ -1,11 +1,39 @@
 import { describe, it, expect } from 'bun:test';
-import { palette } from '../src/index';
+import { palette as analyzePalette, type EncodedImage } from '../src/index';
 import { resolve } from 'path';
 
 const TEST_PNG = resolve(__dirname, '../../tests/fixtures/test-palette.png');
 const TEST_JPEG = resolve(__dirname, '../../tests/fixtures/test-palette.jpeg');
 
+function palette(path: string) {
+  return Bun.file(path).bytes().then(bytes => analyzePalette(bytes));
+}
+
 describe('palette()', () => {
+  it('accepts PNG bytes as Uint8Array', async () => {
+    const bytes: EncodedImage = await Bun.file(TEST_PNG).bytes();
+    const p = await analyzePalette(bytes);
+    expect(p.dominant({ count: 3 })[0].color.hex).toBe('#ff0000');
+  });
+
+  it('accepts JPEG bytes as ArrayBuffer', async () => {
+    const bytes = await Bun.file(TEST_JPEG).arrayBuffer();
+    const p = await analyzePalette(bytes);
+    expect(p.dominant().length).toBeGreaterThan(0);
+  });
+
+  it('rejects malformed image bytes', async () => {
+    await expect(analyzePalette(new Uint8Array([0x89, 0x50, 0x4e, 0x47]))).rejects.toThrow(
+      'wrong PNG signature'
+    );
+  });
+
+  it('rejects unsupported image bytes', async () => {
+    await expect(analyzePalette(new TextEncoder().encode('not an image'))).rejects.toThrow(
+      'Unsupported image format'
+    );
+  });
+
   describe('PNG decoding', () => {
     it('loads a PNG file', async () => {
       const p = await palette(TEST_PNG);

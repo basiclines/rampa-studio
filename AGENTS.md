@@ -34,11 +34,11 @@ src/engine/          ← Core math (color mixing, interpolation, ramps)
   ├── HarmonyEngine.ts     Complementary, triadic, analogous, etc.
   ├── BlendingEngine.ts    16 blend modes for tinting
   ├── PaletteEngine.ts     Image palette extraction (k-means, ANSI classification)
-  └── ImageDecoder.ts      PNG/JPEG decoding (fast-png + jpeg-js)
+  └── ImageDecoder.ts      PNG/JPEG byte decoding (fast-png + jpeg-js; no file I/O)
 
 sdk/src/             ← npm package (@basiclines/rampa-sdk)
   ├── builder.ts           rampa('#hex').size(10).lightness(10,90) → callable palette
-  ├── palette.ts           palette('image.jpg') → dominant, raw, ansi, average
+  ├── palette.ts           palette(encodedBytes) → dominant, raw, ansi, average
   ├── linear-color-space.ts
   ├── plane-color-space.ts
   └── cube-color-space.ts
@@ -57,6 +57,8 @@ src/                 ← React web app (rampa.studio)
 ```
 
 **SDK and CLI import directly from `../../src/engine/`** — they are thin wrappers, not copies. All color math lives in the engine.
+
+The SDK image-palette API accepts encoded `Uint8Array` or `ArrayBuffer` data and never reads files or fetches URLs. The CLI owns file access and passes the bytes to the shared SDK analyzer.
 
 ## Key Conventions
 
@@ -101,6 +103,7 @@ When adding new types, interfaces, or classes to the SDK:
 - **Import AND re-export** them from `sdk/src/index.ts` — both the `import type { … }` block and the `export type { … }` block must be updated
 - Export new classes from the `export { … }` line in `sdk/src/index.ts`
 - Rebuild with `cd sdk && bun run build` and verify the `.d.ts` files appear in `sdk/dist/`
+- The SDK build must fail on declaration errors and verify `dist/index.d.ts`; the release workflow also checks the npm package contents before publishing.
 
 ### Input Validation
 All color space constructors validate that input colors use the same format (hex, rgb, hsl, oklch). Mixed formats throw. Use `detectColorFormat()` and `validateSameFormat()` from `sdk/src/color-result.ts`.

@@ -1,12 +1,15 @@
-import { RampaBuilder, createRampaFn } from './builder';
-import { LinearColorSpace } from './linear-color-space';
-import { CubeColorSpace } from './cube-color-space';
-import { PlaneColorSpace } from './plane-color-space';
-import { createColor } from './color-result';
-import { lint, LintBuilder } from './lint';
+import { RampaBuilder, createRampaFn } from './builder.js';
+import { LinearColorSpace } from './linear-color-space.js';
+import { CubeColorSpace } from './cube-color-space.js';
+import { PlaneColorSpace } from './plane-color-space.js';
+import { createColor } from './color-result.js';
+import { lint, LintBuilder } from './lint.js';
 import { mixColors } from '../../src/usecases/MixColors';
 import type {
   ColorFormat,
+  EncodedImage,
+  GroupByProperty,
+  GroupBucket,
   OutputMode,
   ScaleType,
   BlendMode,
@@ -29,7 +32,7 @@ import type {
   ContrastResult,
   LintResult,
   OklchSetValues,
-} from './types';
+} from './types.js';
 
 /**
  * Create a new color ramp from a base color.
@@ -104,10 +107,13 @@ export function color(input: string): Color {
 }
 
 export { lint, RampaBuilder, createRampaFn, LintBuilder, LinearColorSpace, CubeColorSpace, PlaneColorSpace };
-export { palette } from './palette';
-export type { PaletteEntry, PaletteResult, PaletteOptions, RawOptions, DominantOptions, AnsiOptions, GroupOptions, SortField, SortablePaletteEntries, SortablePaletteGroups } from './palette';
+export { palette } from './palette.js';
+export type { PaletteEntry, PaletteResult, PaletteOptions, RawOptions, DominantOptions, AnsiOptions, GroupOptions, SortField, SortablePaletteEntries, SortablePaletteGroups } from './palette.js';
 export type {
   ColorFormat,
+  EncodedImage,
+  GroupByProperty,
+  GroupBucket,
   OutputMode,
   ScaleType,
   BlendMode,

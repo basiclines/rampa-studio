@@ -1,9 +1,9 @@
 import { generateCubeSpace, mixWithMode } from '../../src/engine/ColorSpaceEngine';
 import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
-import { createColorAccessor, validateSameFormat, createColor } from './color-result';
-import { cubeToCSS, cubeToJSON } from './formatters/color-space';
+import { createColorAccessor, validateSameFormat, createColor } from './color-result.js';
+import { cubeToCSS, cubeToJSON } from './formatters/color-space.js';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor, ScaleType, RampaOutputFormat, Color } from './types';
+import type { ColorFormat, InterpolationMode, CubeColorSpaceResult, ColorAccessor, ScaleType, RampaOutputFormat, Color } from './types.js';
 
 // The 8 cube corner positions in binary order.
 // Constructor keys map to these positions by their insertion order.
@@ -47,7 +47,7 @@ const CORNER_MASKS: { x: number; y: number; z: number }[] = [
  */
 export class CubeColorSpace {
   private _corners: Record<string, string>;
-  private _interpolation: InterpolationMode;
+  private _interpolation: Exclude<InterpolationMode, 'srgb'>;
   private _format: ColorFormat = 'hex';
   private _distribution: ScaleType | undefined;
 
@@ -58,7 +58,8 @@ export class CubeColorSpace {
     }
     validateSameFormat(Object.values(corners));
     this._corners = corners;
-    this._interpolation = options?.interpolation ?? 'oklch';
+    const interpolation = options?.interpolation ?? 'oklch';
+    this._interpolation = interpolation === 'srgb' ? 'rgb' : interpolation;
   }
 
   /**

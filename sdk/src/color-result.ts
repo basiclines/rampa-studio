@@ -2,7 +2,7 @@ import chroma from 'chroma-js';
 import { convertToOklch, convertFromOklch, constrainOklchValues } from '../../src/engine/OklchEngine';
 import { mixWithMode } from '../../src/engine/ColorSpaceEngine';
 import { applyBlendMode } from '../../src/engine/BlendingEngine';
-import type { ColorFormat, Color, ColorAccessor, RampaOutputFormat, BlendMode, InterpolationMode, OklchSetValues } from './types';
+import type { ColorFormat, Color, ColorAccessor, RampaOutputFormat, BlendMode, InterpolationMode, OklchSetValues } from './types.js';
 
 /**
  * Detect the format of a color string.
@@ -153,8 +153,8 @@ export function createColor(input: string): Color {
 
     mix(target: string, ratio: number, space: InterpolationMode = 'oklch'): Color {
       const clampedRatio = Math.max(0, Math.min(1, Number.isFinite(ratio) ? ratio : 0.5));
-      const engineSpace = space === 'srgb' ? 'rgb' : space;
-      const mixed = mixWithMode(hex, chroma(target).hex(), clampedRatio, engineSpace as InterpolationMode);
+      const engineSpace: Exclude<InterpolationMode, 'srgb'> = space === 'srgb' ? 'rgb' : space;
+      const mixed = mixWithMode(hex, chroma(target).hex(), clampedRatio, engineSpace);
       return createColor(mixed);
     },
 

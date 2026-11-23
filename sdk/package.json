@@ -1,6 +1,6 @@
 {
   "name": "@basiclines/rampa-sdk",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Programmatic JavaScript SDK for generating color palettes with rampa",
   "type": "module",
   "main": "./dist/index.js",
@@ -9,9 +9,10 @@
     "dist"
   ],
   "scripts": {
-    "build": "bun build ./src/index.ts --outfile=./dist/index.js --target=node && tsc -p tsconfig.declarations.json && cp dist/sdk/src/*.d.ts dist/ && cp -r dist/sdk/src/formatters dist/formatters 2>/dev/null; rm -rf dist/sdk dist/src",
+    "build": "rm -rf dist && bun build ./src/index.ts --outfile=./dist/index.js --target=node && tsc -p tsconfig.declarations.json && cp dist/sdk/src/*.d.ts dist/ && cp -r dist/sdk/src/formatters dist/formatters && rm -rf dist/sdk dist/src && test -s dist/index.d.ts && tsc --noEmit --module NodeNext --moduleResolution NodeNext --target ES2020 --strict --skipLibCheck false --typeRoots ./node_modules/@types dist/index.d.ts",
     "build:vanilla": "bun build ./src/vanilla.ts --outfile=./dist/rampa-sdk.min.js --target=browser --minify --format=iife",
-    "test": "bun test"
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
   },
   "repository": {
     "type": "git",

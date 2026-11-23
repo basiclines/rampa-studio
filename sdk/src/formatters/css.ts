@@ -1,4 +1,4 @@
-import type { RampResult } from '../types';
+import type { RampResult } from '../types.js';
 
 function sanitizeName(name: string): string {
   return name

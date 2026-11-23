@@ -18,11 +18,11 @@ import type {
   RampaFn,
   RampaOutputFormat,
   ColorAccessor,
-} from './types';
-import { formatCssOutput } from './formatters/css';
-import { formatJsonOutput } from './formatters/json';
-import { formatTextOutput } from './formatters/text';
-import { createColorAccessor } from './color-result';
+} from './types.js';
+import { formatCssOutput } from './formatters/css.js';
+import { formatJsonOutput } from './formatters/json.js';
+import { formatTextOutput } from './formatters/text.js';
+import { createColorAccessor } from './color-result.js';
 
 interface HarmonyEntry {
   type: HarmonyType | 'shift';

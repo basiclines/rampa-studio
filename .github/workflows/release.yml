@@ -46,6 +46,20 @@ jobs:
         working-directory: sdk
       - run: bun run build
         working-directory: sdk
+      - name: Verify SDK package includes declarations
+        working-directory: sdk
+        run: |
+          npm pack --dry-run --json | node -e '
+            let input = "";
+            process.stdin.on("data", chunk => input += chunk);
+            process.stdin.on("end", () => {
+              const files = JSON.parse(input)[0]?.files ?? [];
+              if (!files.some(file => file.path === "dist/index.d.ts")) {
+                console.error("SDK package is missing dist/index.d.ts");
+                process.exitCode = 1;
+              }
+            });
+          '
       - run: npm publish --access=public --provenance || true
         working-directory: sdk
 

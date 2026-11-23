@@ -1,9 +1,9 @@
 import { generatePlaneSpace, mixWithMode } from '../../src/engine/ColorSpaceEngine';
 import { calculateScalePosition } from '../../src/engine/HarmonyEngine';
-import { createColorAccessor, validateSameFormat, createColor } from './color-result';
-import { planeToCSS, planeToJSON } from './formatters/color-space';
+import { createColorAccessor, validateSameFormat, createColor } from './color-result.js';
+import { planeToCSS, planeToJSON } from './formatters/color-space.js';
 import chroma from 'chroma-js';
-import type { ColorFormat, InterpolationMode, PlaneColorSpaceResult, ColorAccessor, ScaleType, RampaOutputFormat, Color } from './types';
+import type { ColorFormat, InterpolationMode, PlaneColorSpaceResult, ColorAccessor, ScaleType, RampaOutputFormat, Color } from './types.js';
 
 /**
  * Create a 2D color plane from dark, light, and hue anchors.
@@ -33,7 +33,7 @@ export class PlaneColorSpace {
   private _dark: string;
   private _light: string;
   private _hue: string;
-  private _interpolation: InterpolationMode;
+  private _interpolation: Exclude<InterpolationMode, 'srgb'>;
   private _format: ColorFormat = 'hex';
   private _distribution: ScaleType | undefined;
 

@@ -10,6 +10,7 @@
  *   rampa palette photo.jpg --output json
  */
 
+import { readFileSync } from 'node:fs';
 import { palette, type GroupOptions } from '../../sdk/src/palette';
 import { getDefaultBuckets, type GroupBucket, type GroupByProperty } from '../../src/engine/PaletteEngine';
 import { coloredSquare } from './utils/terminal-colors';
@@ -195,7 +196,7 @@ export async function runPalette(args: string[]): Promise<void> {
   if (!parsed) return;
 
   try {
-    const p = await palette(parsed.filePath, { sampleSize: parsed.sampleSize });
+    const p = await palette(readFileSync(parsed.filePath), { sampleSize: parsed.sampleSize });
 
     // JSON/CSS output delegates to SDK
     if (parsed.output === 'json' && parsed.mode === 'dominant') {

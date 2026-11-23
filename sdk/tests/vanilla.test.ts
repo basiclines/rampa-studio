@@ -10,6 +10,7 @@ describe('vanilla entry point', () => {
     expect(typeof R.rampa).toBe('function');
     expect(typeof R.color).toBe('function');
     expect(typeof R.lint).toBe('function');
+    expect(typeof R.palette).toBe('function');
     expect(typeof R.RampaBuilder).toBe('function');
     expect(typeof R.LintBuilder).toBe('function');
     expect(typeof R.LinearColorSpace).toBe('function');
